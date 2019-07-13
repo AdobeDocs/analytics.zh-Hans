@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: 分析管理员指南
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: ff81ab81a4ed8b7067f3c696eb553b5b729b8ec4
+source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
 
 ---
 
@@ -180,7 +180,6 @@ source-git-commit: ff81ab81a4ed8b7067f3c696eb553b5b729b8ec4
    + [服务器调用使用警告](c-server-call-usage/scu-alerts.md)
    + [服务器调用使用常见问题解答](c-server-call-usage/overage-faq.md)
 + 流量管理 {#traffic-management}
-   + [虚拟删除](admin/c-traffic-variables/traffic-classifications.md)
    + [管理流量](c-traffic-management/traffic-management.md)
    + [计划流量尖峰](c-traffic-management/t-traffic-schedule-spike.md)
    + [评估过去的服务器调用并计划流量尖峰](c-traffic-management/traffic-spike-estimate-past-server-calls.md)
