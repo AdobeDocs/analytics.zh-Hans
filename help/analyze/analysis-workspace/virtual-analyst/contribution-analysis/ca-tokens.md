@@ -5,7 +5,7 @@ seo-title: 贡献分析概述
 title: 贡献分析概述
 uuid: 2bd295b0-c5 ce-4443-86aff-024efd20 c021
 translation-type: tm+mt
-source-git-commit: ca632da6b6181298af4b313fbd232926fbbfa125
+source-git-commit: 10050f2021e1e78e4e258255d356d119aba960c1
 
 ---
 
@@ -50,7 +50,7 @@ source-git-commit: ca632da6b6181298af4b313fbd232926fbbfa125
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>我如何限制对贡献分析的访问？</b> </p> </td> 
-   <td colname="col2"> <p>By default, only admins have access to run Contribution Analyses, but admins can grant access to other users by creating a permission group in the <a href="https://https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html" format="html" scope="external"> Admin Console </a>. 您应授予仅对具有合法理由使用“贡献分析”的用户使用贡献分析的权限，并且不会滥用其访问权限。 </p> <p>此权限称为“贡献分析”，位于 <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">编辑群组</span> &gt; <span class="uicontrol">编辑所有报表访问权限</span> &gt; <span class="uicontrol">自定义报表包工具</span> &gt; <span class="uicontrol">工具和报表</span></span>下。 </p> </td> 
+   <td colname="col2"> <p>By default, only admins have access to run Contribution Analyses, but admins can grant access to other users by creating a permission group in the <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html" format="html" scope="external"> Admin Console </a>. 您应授予仅对具有合法理由使用“贡献分析”的用户使用贡献分析的权限，并且不会滥用其访问权限。 </p> <p>此权限称为“贡献分析”，位于 <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">编辑群组</span> &gt; <span class="uicontrol">编辑所有报表访问权限</span> &gt; <span class="uicontrol">自定义报表包工具</span> &gt; <span class="uicontrol">工具和报表</span></span>下。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>如何知道我的公司每月有权使用多少个令牌，以及我们在当月使用了多少个令牌？</b> </p> </td> 
