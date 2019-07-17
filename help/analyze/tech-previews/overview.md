@@ -4,7 +4,7 @@ seo-title: Adobe Analytics实验室
 description: 预览Adobe Analytics的原型项目
 seo-description: 预览Adobe Analytics的原型
 translation-type: tm+mt
-source-git-commit: a4965f985a40521757e58c6be5988f831461a50a
+source-git-commit: 38e2011175d70189197af1cabe48ad767c312f37
 
 ---
 
@@ -69,4 +69,4 @@ Labs允许更快地创建初期构思原型。它是可以透明地加速开发�
 
 * Labs中的某些原型成为Analytics功能，其他原型则不然。您的反馈将促成决定，因此，请查看原型并让Adobe了解您找到它们的价值。
 
-* 技术预览可用于所有SKU权利。
+* Labs适用于所有SKU权利。
