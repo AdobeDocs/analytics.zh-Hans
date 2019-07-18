@@ -4,7 +4,7 @@ audience: 最终用户
 user-guide-title: 分析分析指南
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 148e463fe171a444cf9705d60d761b791d53e5fe
+source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
 
 ---
 
@@ -324,8 +324,8 @@ source-git-commit: 148e463fe171a444cf9705d60d761b791d53e5fe
    + [计划管理器](ad-hoc-analysis/c-schedule.md)
    + [表生成器](ad-hoc-analysis/c-tablebuilder.md)
    + [时间](ad-hoc-analysis/c-time.md)
-+ Analytics Labs {#tech-previews}
-   + [Labs](tech-previews/overview.md)
++ Technology Previews {#tech-previews}
+   + [技术预览概述](tech-previews/overview.md)
 + Analytics 报表 API {#analytics-reporting-api}
    + [Analytics报告API概述](c-reporting-api/c-reporting-api.md)
    + [Analytics 报表 API 比较](c-reporting-api/api-comparison.md)
