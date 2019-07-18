@@ -4,7 +4,7 @@ seo-title: Adobe Analytics实验室
 description: 预览Adobe Analytics的原型项目
 seo-description: 预览Adobe Analytics的原型
 translation-type: tm+mt
-source-git-commit: caea9c6fe37292212e6fccb5cf99770fa9a60d06
+source-git-commit: 20bb6b39530c57679463691e7507353aff2d106e
 
 ---
 
