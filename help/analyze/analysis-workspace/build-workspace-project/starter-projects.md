@@ -5,7 +5,7 @@ seo-title: 模板
 title: 模板
 uuid: d6d1b745-a684-41c1-879b-9f9 a9503 fe00
 translation-type: tm+mt
-source-git-commit: 3dd864f51331d54cebc249498bedff79958cb156
+source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
 
 ---
 
@@ -92,14 +92,6 @@ source-git-commit: 3dd864f51331d54cebc249498bedff79958cb156
 [YouTube上Analysis Workspace中的标准模板](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2：46)
 
 下面是模板以及每个模板有助于回答的问题：
-
-### 广告
-
-* **搜索引擎**：此模板打破了广告趋势、广告平台总数、关键字等。**注意：** 必须为Advertising Cloud启用选定的报告套件才能显示此模板项目。
-
-## 商务
-
-* **杂志：营销和商务**：此模板通过营销渠道归因细分您的电子商务转化，并通过搜索关键字、登陆页面、地理位置等提供洞察。
 
 ### 媒体
 
