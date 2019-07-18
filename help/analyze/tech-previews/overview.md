@@ -4,7 +4,7 @@ seo-title: Adobe Analytics实验室
 description: 预览Adobe Analytics的原型项目
 seo-description: 预览Adobe Analytics的原型
 translation-type: tm+mt
-source-git-commit: da2ced31da19dc8770bfb85c4b7cec36d598ecd4
+source-git-commit: 0337fa82484d760f90758a72df8b08a0915112d7
 
 ---
 
@@ -55,14 +55,13 @@ Labs允许更快地创建初期构思原型。它是可以透明地加速开发�
 
 1. Click the **Give Feedback** button to provide feedback in the message box at any point when working with the prototype.
 
-   ![新反馈框](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
-
+   ![反馈_ box](https://user-images.githubusercontent.com/29133525/58670344-f0363f80-82fb-11e9-8824-ec2b41f7187a.png)
 
 1. Click **Submit** to send your feedback.
 
 1. To try a different prototype, or to exit the prototype environment, click the **Leave Prototype** button in the upper right of the screen and complete the short survey for the prototype. 在退出原型环境时，对原型项目所做的任何更改都会丢失。
 
-   ![反馈_调查](https://user-images.githubusercontent.com/29133525/58670404-2bd10980-82fc-11e9-8cae-0dfc9f9da6b7.png)
+   ![新反馈框](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
 
 1. Click **Submit** to return to the main Previews portal.
 
