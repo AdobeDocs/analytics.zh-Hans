@@ -44,9 +44,9 @@ linkType 具有三个可能值，具体取决于您要捕获的链接类型。�
 
 | 类型 | linkType 值 |
 |--- |--- |
-| 文件下载 | &#39;d&#39; |
-| 退出链接 | &#39;e&#39; |
-| 自定义链接 | &#39;o&#39; |
+| 文件下载 | 'd' |
+| 退出链接 | 'e' |
+| 自定义链接 | 'o' |
 
 **linkName**
 
@@ -165,7 +165,7 @@ s.linkInternalFilters="javascript:,mysite.com,[more filters here]"
 s.linkLeaveQueryString=false 
 ```
 
-参数*`trackDownloadLinks`* 并 *`trackExternalLinks`* 确定是否启用了自动文件下载和退出链接跟踪功能。When enabled, any link with a file type matching one of the values in *`linkDownloadFileTypes`* is automatically tracked as a file download. Any link with a URL that does not contain one of the values in *`linkInternalFilters`* is automatically tracked as an exit link.
+参数&#x200B;*`trackDownloadLinks`* 并 *`trackExternalLinks`* 确定是否启用了自动文件下载和退出链接跟踪功能。When enabled, any link with a file type matching one of the values in *`linkDownloadFileTypes`* is automatically tracked as a file download. Any link with a URL that does not contain one of the values in *`linkInternalFilters`* is automatically tracked as an exit link.
 
 In JavaScript H.25.4 (released February 2013), automatic exit link tracking was updated to always ignore links with `HREF` attributes that start with `#`, `about:`, or `javascript:`.
 
@@ -173,7 +173,7 @@ In JavaScript H.25.4 (released February 2013), automatic exit link tracking was 
 
 The file types [!DNL jpg] and [!DNL aspx] are not included in *`linkDownloadFileTypes`* above, therefore no clicks on them are automatically tracked and reported as file downloads.
 
-The parameter *`linkLeaveQueryString`* modifies the logic used to determine exit links. *`linkLeaveQueryString`*如果= false，则只使用链接URL的域、路径和文件部分确定退出链接。*`linkLeaveQueryString`*如果= true，则链接URL的查询字符串部分也用于确定退出链接。
+The parameter *`linkLeaveQueryString`* modifies the logic used to determine exit links. *`linkLeaveQueryString`*&#x200B;如果= false，则只使用链接URL的域、路径和文件部分确定退出链接。*`linkLeaveQueryString`*&#x200B;如果= true，则链接URL的查询字符串部分也用于确定退出链接。
 
 ## Example 2 {#section_25660B64E28248A0BC982B2AF5603C0E}
 
@@ -250,7 +250,7 @@ onclick="s.tl(this,'e','AnotherSite',null,'navigate');return false">
 
 * `<A>` 和 `<AREA>` 标签。
 * 标记必须具有 `HREF` 属性。
-* The `HREF` can&#39;t start with `#`, `about:`, or `javascript:`.
+* The `HREF` can't start with `#`, `about:`, or `javascript:`.
 * The `TARGET` attribute must not be set, or the `TARGET` needs to refer to the current window ( `_self`, `_top`, or the value of `window.name`).
 
 ## 使用图像请求进行链接跟踪 {#concept_FF31C8D1B3DF483D853BF0A9D637F02F}
@@ -313,7 +313,7 @@ s.linkTrackVars="None"
 s.linkTrackEvents="None"
 ```
 
-The*`linkTrackVars`*参数应包括您想要通过每个文件下载、退出链接和自定义链接跟踪的每个变量。*`linkTrackEvents`* 该参数应包括每个文件下载、退出链接和自定义链接要跟踪的每个事件。在出现其中一种链接类型时，将跟踪每个已标识变量的当前值。
+The *`linkTrackVars`*&#x200B;参数应包括您想要通过每个文件下载、退出链接和自定义链接跟踪的每个变量。*`linkTrackEvents`* 该参数应包括每个文件下载、退出链接和自定义链接要跟踪的每个事件。在出现其中一种链接类型时，将跟踪每个已标识变量的当前值。
 
 例如，若要通过每个文件下载、退出链接和自定义链接跟踪 prop1、eVar1 和 event1，可在全局 JS 文件中使用以下设置：
 
