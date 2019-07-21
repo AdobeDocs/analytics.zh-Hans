@@ -33,7 +33,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 
 ## “仅在序列前”和“仅在序列后” {#section_736E255C8CFF43C2A2CAAA6D312ED574}
 
-**[!UICONTROL 仅在序列前]** 和 **仅在序列后[!UICONTROL 选项可将区段过滤为指定序列之前或之后的数据子集。]**
+**[!UICONTROL 仅在序列前]**&#x200B;和&#x200B;**仅在序列后[!UICONTROL 选项可将区段过滤为指定序列之前或之后的数据子集。]**
 
 * **仅在序列前**：包含序列之前的所有点击 + 该序列自身的第一次点击（见示例 1、3）。如果序列在路径中出现多次，则“仅在序列前”包括该序列最后一个实例的第一次点击和之前的所有点击（见示例 2）。
 * **仅在序列后**：包含序列之后的所有点击 + 该序列自身的最后一次点击（见示例 1、3）。如果序列在路径中出现多次，则“仅在序列后”包括该序列首个实例的最后一次点击和之后的所有点击（见示例 2）。
@@ -73,13 +73,13 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 | 如果结果… | 序列 |
 |--- |--- |
 | 匹配 | A -&gt; B |
-| 不匹配 | A then C then B (because B was not within 1 page of A)<br>**Note:**  If the dimension restriction is taken out, &quot;A then B&quot; and &quot;A then C then B&quot; would both match. |
+| 不匹配 | A then C then B (because B was not within 1 page of A)<br>**Note:**  If the dimension restriction is taken out, "A then B" and "A then C then B" would both match. |
 
 ## 简单页面查看序列
 
 确定查看某个页面并随后查看另一个页面的访客。点击级别数据将过滤该序列，但不考虑之前、过去或中间的访问会话或它们之间的时间或页面查看次数。
 
-**** 示例：访客查看了页面A，然后在同一或其他访问中查看了页面B。
+****&#x200B;示例：访客查看了页面A，然后在同一或其他访问中查看了页面B。
 
 **用例**
 
@@ -98,7 +98,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 
 确定退出促销活动但随后在另一个会话中返回页面查看序列的访客。
 
-**** 示例：访客在一次访问中查看了页面A，然后在另一次访问中查看了页面B。
+****&#x200B;示例：访客在一次访问中查看了页面A，然后在另一次访问中查看了页面B。
 
 **用例**
 
@@ -109,7 +109,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 
 **创建此区段**
 
-此示例将两个 **[!UICONTROL 访问]** 容器嵌套至顶级 **[!UICONTROL 访客]容器，并使用[!UICONTROL THEN]运算符对区段进行排序。**
+此示例将两个&#x200B;**[!UICONTROL 访问]**&#x200B;容器嵌套至顶级&#x200B;**[!UICONTROL 访客]容器，并使用[!UICONTROL THEN]运算符对区段进行排序。**
 
 ![](assets/visitor_seq_across_visits.png)
 
@@ -117,7 +117,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 
 识别在次数不定的访问中查看两个页面，然后在单独的访问中查看第三个页面的访客。
 
-**** 示例：访客访问页面A，然后在一次或多次访问中访问页面B，然后在单独访问中访问页面C。
+****&#x200B;示例：访客访问页面A，然后在一次或多次访问中访问页面B，然后在单独访问中访问页面C。
 
 **用例**
 
@@ -161,7 +161,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 
 通过在[!UICONTROL 访问]和[!UICONTROL 点击]级别放置检查点，您可以限制区段以满足特定访问以及特定点击中的要求。
 
-**** 示例：访客访问了页面A，然后在同一访问中访问了页面B。接下来，访客在新的访问中访问页面 C。
+****&#x200B;示例：访客访问了页面A，然后在同一访问中访问了页面B。接下来，访客在新的访问中访问页面 C。
 
 **创建此区段**
 
@@ -179,7 +179,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 
 例如：
 
-* **排除页面**。使用区段规则从报表中排除特定页面（如*`Home Page`*) 从报表中创建一个点击规则，在该规则中页面等于“主页”，然后将其排除。此规则自动包括 Home Page 以外的所有值。
+* **排除页面**。使用区段规则从报表中排除特定页面（如&#x200B;*`Home Page`*) 从报表中创建一个点击规则，在该规则中页面等于“主页”，然后将其排除。此规则自动包括 Home Page 以外的所有值。
 * **排除反向链接域**。使用仅包括 Google.com 中的反向链接域并排除所有其他域的规则。
 * **确定非顾客**。确定订单大于零的[!UICONTROL 访客]，然后将其排除。
 
@@ -189,7 +189,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 
 执行逻辑以细分符合以下条件的访客：某个检查点没有明确出现在两个其他检查点之间。
 
-**** 示例：访问页面A然后访问页面C的访客，但未访问页面B。
+****&#x200B;示例：访问页面A然后访问页面C的访客，但未访问页面B。
 
 **用例**
 
@@ -208,7 +208,7 @@ Create a segment as you would for a simple, mixed-level, or nested sequential se
 
 如果排除检查点位于顺序区段开头，则它确保排除的页面查看不会位于第一个非排除的点击前面。
 
-**** 示例：访客访问了页面A而非页面B。
+****&#x200B;示例：访客访问了页面A而非页面B。
 
 **用例**
 
@@ -227,7 +227,7 @@ Create a segment as you would for a simple, mixed-level, or nested sequential se
 
 如果排除检查点位于序列末尾，则它确保在上一非排除的检查点和访客序列结束之间不会出现检查点。
 
-**** 示例：访客访问页面A，然后在当前或后续访问中访问页面B。
+****&#x200B;示例：访客访问页面A，然后在当前或后续访问中访问页面B。
 
 **用例**
 
@@ -277,7 +277,7 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 
 通过使用[!UICONTROL 逻辑组]，您可以满足该组中不在序列范围内的条件。This allows you to build segments where a [!UICONTROL Visit] or [!UICONTROL Hit] container happens irrespective of the normal hierarchy.****
 
-**** 示例：访问页面A的访客，然后按任意顺序访问页面B和页面C。
+****&#x200B;示例：访问页面A的访客，然后按任意顺序访问页面B和页面C。
 
 **创建此区段**
 
@@ -289,7 +289,7 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 
 通过使用[!UICONTROL 逻辑组]，您可以满足该组中不在序列范围内的条件。在该无序的第一个匹配区段中，先将[!UICONTROL 逻辑组]规则指定为页面 B 或页面 C 的页面查看，然后指定为页面 A 的所需查看。
 
-**** 示例：访问页面B或页面C，然后访问页面A的访客。
+****&#x200B;示例：访问页面B或页面C，然后访问页面A的访客。
 
 **创建此区段**
 
@@ -301,13 +301,13 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 
 Build segments using the [!UICONTROL Logic Group] where multiple page views are aggregated to define what pages were necessary to be hit while other pages were specifically missed. ****
 
-**** 示例：访客访问了页面A，然后明确未访问页面B或C，但点击了页面D。
+****&#x200B;示例：访客访问了页面A，然后明确未访问页面B或C，但点击了页面D。
 
 **创建此区段**
 
 从左窗格中拖动维度、事件和预生成的区段以生成该区段。See [Building a Logic Group Segment](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_23CE0E6071E14E51B494CD21A9799112).
 
-在[!UICONTROL 逻辑组]中嵌套这些值后，单击 **[!UICONTROL 逻辑组]容器中的“排除”**[!UICONTROL ]按钮。
+在[!UICONTROL 逻辑组]中嵌套这些值后，单击&#x200B;**[!UICONTROL 逻辑组]容器中的“排除”**按钮。
 
 ![](assets/logic_exclude_and.png)
 
@@ -315,7 +315,7 @@ Build segments using the [!UICONTROL Logic Group] where multiple page views are 
 
 使用[!UICONTROL 逻辑组]生成区段，其中聚合多个页面查看以定义需要点击的页面，同时明确跳过其他页面。
 
-**** 示例：访问页面A的访客，但未访问页面A之前的页面B或页面C。
+****&#x200B;示例：访问页面A的访客，但未访问页面A之前的页面B或页面C。
 
 **创建此区段**
 
@@ -323,7 +323,7 @@ Build segments using the [!UICONTROL Logic Group] where multiple page views are 
 
 从左窗格中拖动维度、事件和预生成的区段以生成该区段。
 
-在[!UICONTROL 逻辑组]中嵌套这些值后，单击 **[!UICONTROL 逻辑组]容器中的“排除”**[!UICONTROL ]按钮。
+在[!UICONTROL 逻辑组]中嵌套这些值后，单击&#x200B;**[!UICONTROL 逻辑组]容器中的“排除”**按钮。
 
 ![](assets/logic_exclude_or.png)
 
@@ -354,11 +354,11 @@ Build segments using the [!UICONTROL Logic Group] where multiple page views are 
 * 通过使用 Time After，您可以按年、月、日、小时和分钟跟踪以匹配访问。
 * Time After 只能应用于[!UICONTROL 点击]容器，因为它是定义这种细粒度的唯一级别。
 
-**** 示例：访问页面A的访客只有在周后才访问页面B。*******
+****&#x200B;示例：访问页面A的访客只有在周后才访问页面B。*******
 
 ![](assets/time_between_after_operator.png)
 
-**创建区段**：此区段是通过向两个点击容器添加 [!UICONTROL 一] 个访客容器 [!UICONTROL ] 来创建的。然后，您可以设置 [!UICONTROL THEN] 运算符，打开 [!UICONTROL AFTER] 运算符下拉列表并设置星期数。
+**创建区段**：此区段是通过向两个点击容器添加 [!UICONTROL 一] 个访客容器  来创建的。然后，您可以设置 [!UICONTROL THEN] 运算符，打开 [!UICONTROL AFTER] 运算符下拉列表并设置星期数。
 
 ![](assets/after_operator.png)
 
@@ -380,7 +380,7 @@ Build segments using the [!UICONTROL Logic Group] where multiple page views are 
 >
 >在“THEN”语句之间的“within”子句中，您可以添加“在 1 个搜索关键字实例之内”、“在 1 个 eVar 47 实例之内”。此条件可将区段限制在维度的一个实例之内。
 
-**** 示例：访问了页面A的访客在分钟内访问了页面B。
+****&#x200B;示例：访问了页面A的访客在分钟内访问了页面B。
 
 ![](assets/time_between_within_operator.png)
 
@@ -396,7 +396,7 @@ Build segments using the [!UICONTROL Logic Group] where multiple page views are 
 
 可以使用 [!UICONTROL Within] 和 [!UICONTROL After] 在区段两端提供最大和最小端点。
 
-**** 示例：访问页面A的访客在周后访问页面B，但在个月内访问页面B。
+****&#x200B;示例：访问页面A的访客在周后访问页面B，但在个月内访问页面B。
 
 ![](assets/time_between_using_both_operators.png)
 
@@ -406,7 +406,7 @@ Build segments using the [!UICONTROL Logic Group] where multiple page views are 
 
 **匹配**
 
-在 2019 年 6 月 1 日点击页面 A 并在 2019 年 6 月 15 日 00:01 之后但在 2019 年 7 月 1 日*之前*返回的任何访客将包含在该区段中。与[排除项之间的时间](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_C5CB0A391B7C4AC8A95B9724A14E28E8)进行比较。
+在 2019 年 6 月 1 日点击页面 A 并在 2019 年 6 月 15 日 00:01 之后但在 2019 年 7 月 1 日&#x200B;*之前*&#x200B;返回的任何访客将包含在该区段中。与[排除项之间的时间](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_C5CB0A391B7C4AC8A95B9724A14E28E8)进行比较。
 
 可以将 [!UICONTROL After] 和 [!UICONTROL Within] 运算符一起使用以定义顺序区段。
 
