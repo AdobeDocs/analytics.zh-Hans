@@ -56,7 +56,7 @@ Analysis Workspace(Adobe Analytics中的主要功能之一)为用户提供了一
 
 由于Analysis Workspace是一种报表工具，因此它对数据收集没有影响。不会影响将组件拖入项目以查看有效内容。将不同的维度和计量指标组合拖入工作区项目，以了解可供您使用的内容。
 
-如果意外将无效组件拖动到工作区项目或希望返回一个步骤，按Ctrl+ Z(Windows)或cmd+ Z(Mac)可撤消上次执行的操作。You can also start with a clean slate by clicking *[!UICONTROL Project] &gt; [!UICONTROL New]* in the upper left menu.
+如果意外将无效组件拖动到工作区项目或希望返回一个步骤，按Ctrl+ Z(Windows)或cmd+ Z(Mac)可撤消上次执行的操作。You can also start with a clean slate by clicking *[!UICONTROL Project]&gt;[!UICONTROL New]* in the upper left menu.
 
 Adobe在右键单击上下文菜单中在Analysis Workspace中放置了许多功能。可以右键单击大多数可视化和组件，以进行更详细的分析和交互。考虑在工作区中右键单击组件以查看可用选项。
 
