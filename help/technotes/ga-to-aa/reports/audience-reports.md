@@ -20,7 +20,7 @@ source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
 要获得唯一访客的折线图，请执行以下操作：
 
 1. 单击左侧的“可视化”图标，并将Line可视化拖动到空自由表单表上方的工作区上。
-2. Click the Components icon on the left, then drag the **Unique Visitors** metric into the smaller space labeled &#39;Drop a Metric here&#39;.
+2. Click the Components icon on the left, then drag the **Unique Visitors** metric into the smaller space labeled 'Drop a Metric here'.
 3. If different granularity is desired, drag the desired date range (e.g. **Day**, **Week**, **Month**, etc.) 位于现有日期维度标题的顶部。
 
 See [Unique Visitors](../../../components/c-variables/c-metrics/metrics-unique-visitors.md) in the Components user guide for details on how Adobe calculates unique visitors.
@@ -66,7 +66,7 @@ Google Analytics中的受众报告需要设置受众。受众还需要通过Adob
 
 要创建语言报表，请执行以下操作：
 
-1. In the Components menu, locate the **Language** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Language** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 See the [Language](../../../components/c-variables/dimensionslist/reports-languages.md) dimension in the Components user guide for more information.
@@ -78,12 +78,12 @@ See the [Language](../../../components/c-variables/dimensionslist/reports-langua
 要创建地理位置报告，请执行以下操作：
 
 1. 单击左侧的“可视化”图标，并将“地图”可视化拖动到空自由表单表上方的工作区上。
-2. Click the Components icon on the left, then drag the **Unique Visitors** metric into the space labeled &#39;Add Metric&#39;.
+2. Click the Components icon on the left, then drag the **Unique Visitors** metric into the space labeled 'Add Metric'.
 3. 单击生成。
 
 如果除了地图之外还需要表格：
 
-1. In the Components menu, locate the **Countries** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Countries** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 See [Geosegmentation](../../../components/c-variables/dimensionslist/reports-geosegmentation.md) dimensions in the Components user guide for more information.
@@ -94,7 +94,7 @@ See [Geosegmentation](../../../components/c-variables/dimensionslist/reports-geo
 
 要创建新的访问次数报告，请执行以下操作：
 
-1. In the components menu, locate the **First Time Visits** segment and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;. Note that **First Time Visits** is a segment, while Workspace typically uses dimensions to represent rows.
+1. In the components menu, locate the **First Time Visits** segment and drag it onto the large freeform table area labeled 'Drop a Dimension here'. Note that **First Time Visits** is a segment, while Workspace typically uses dimensions to represent rows.
 2. Locate the **Return Visits** segment and drag it on top of the Segments row header. 这会将区段添加为“首次访问次数”下面的维度，从而允许轻松比较。
 3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
@@ -108,7 +108,7 @@ See [Geosegmentation](../../../components/c-variables/dimensionslist/reports-geo
 
 The frequency &amp; recency report is approximately equal to the **Visit Number** dimension in Analysis Workspace.
 
-1. In the components menu, locate the **Visit Number** dimension and drag it onto the large freeform table area labeled &#39;Drop a dimension here&#39;.
+1. In the components menu, locate the **Visit Number** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 See the [Visit Number](../../../components/c-variables/dimensionslist/reports-visitor-number.md) dimension in the Components user guide for more information.
@@ -117,7 +117,7 @@ See the [Visit Number](../../../components/c-variables/dimensionslist/reports-vi
 
 The engagement report is approximately equal to the **Time Spent per Visit - Bucketed** dimension.
 
-1. In the components menu, locate the **Time Spent per Visit - Bucketed** dimension and drag it onto the large freeform table area labeled &#39;Drop a dimension here&#39;.
+1. In the components menu, locate the **Time Spent per Visit - Bucketed** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 See the [Time Spent per Visit](../../../components/c-variables/dimensionslist/reports-time-spent-per-visit.md) dimension in the Components user guide for more information.
@@ -146,7 +146,7 @@ See the [Time Spent per Visit](../../../components/c-variables/dimensionslist/re
 
 The network report is approximately equal to the **Domain** dimension.
 
-1. In the components menu, locate the **Domain** dimension and drag it onto the large freeform table area labeled &#39;Drop a dimension here&#39;.
+1. In the components menu, locate the **Domain** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 See the [Domain](../../../components/c-variables/dimensionslist/reports-domains.md) dimension in the Components user guide for more information.
@@ -155,7 +155,7 @@ See the [Domain](../../../components/c-variables/dimensionslist/reports-domains.
 
 The mobile overview report is approximately equal to the **Mobile Device Type** dimension. 请注意，“其他”值与桌面流量等效。
 
-1. In the components menu, locate the **Mobile Device Type** dimension and drag it onto the large freeform table area labeled &#39;Drop a dimension here&#39;.
+1. In the components menu, locate the **Mobile Device Type** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 See the [Mobile Device Type](../../../components/c-variables/dimensionslist/reports-device-types.md) dimension in the Components user guide for more information.
@@ -164,7 +164,7 @@ See the [Mobile Device Type](../../../components/c-variables/dimensionslist/repo
 
 The mobile devices report is approximately equal to the **Mobile Device** dimension.
 
-1. In the components menu, locate the **Mobile Device** dimension and drag it onto the large freeform table area labeled &#39;Drop a dimension here&#39;.
+1. In the components menu, locate the **Mobile Device** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 See the [Mobile Device](../../../components/c-variables/dimensionslist/reports-devices.md) dimension in the Components user guide for more information.
