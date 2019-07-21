@@ -26,7 +26,7 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 访客点击营销电子邮件中的链接，并从家庭计算机中访问您的网站。此访客过去还曾 7 次访问您的网站。 | 1 | - | 1 | 1 | 8 |
 | 2-8 | 在您的网站上访问了另外的 7 个页面。 | 1 | - | 1 | 2-8 | 8 |
-| 9 | 在家庭计算机上验证。 | 1 | CID1 | CID1 | 9 <br>This is CID1&#39;s first hit ever, so it takes over and continues on the visitor profile from Visitor ID 1.</br> | 8 |
+| 9 | 在家庭计算机上验证。 | 1 | CID1 | CID1 | 9 <br>This is CID1's first hit ever, so it takes over and continues on the visitor profile from Visitor ID 1.</br> | 8 |
 | 10 | 访问另外一个页面。 | 1 | CID1 | CID1 | 10 | 8 |
 | 11 | 使用办公室的笔记本电脑打开网站。此访客之前没有用这台设备访问过您的网站。 | 2 | - | 2 | 1 | 1 |
 | 12 | 在笔记本电脑上验证。 | 2 | CID1 | CID1 | 1 | 9 |
