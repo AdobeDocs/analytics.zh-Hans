@@ -54,7 +54,7 @@ source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
 
 ## 转换指标
 
-**目标转化率**、 **目标完成** 和 **目标值** 需要在这两个平台上进行额外的实施。如果您的实施已经支持产品维度和购买事件，请考虑以下步骤：
+**目标转化率**、 **目标完成**&#x200B;和 **目标值** 需要在这两个平台上进行额外的实施。如果您的实施已经支持产品维度和购买事件，请考虑以下步骤：
 
 1. Drag the **Orders** metric, **Revenue** metric, and **Visits** metric onto the workspace.
 1. Create a calculated metric of **Orders per Visit**. 在两个度量标题上使用Ctrl并单击(Windows)或cmd并单击(Mac)以突出显示它们。Right-click one of the headers, select **Create Metric From Selection**, then click **Divide**. 此新指标类似于目标转化率。
