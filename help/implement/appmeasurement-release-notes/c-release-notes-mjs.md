@@ -36,14 +36,14 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 发行日期：**2019 年 5 月 21 日**
 
-* 修复了在等待多个点击时，跟踪器参数状态管理的问题。(AN-176931，AN-176629，DTM-12758)
-* 更新了AppMeasurement以包含访客. js4.3.0(AN-180049)
+* 修复了当多个命中等待处理时，管理跟踪器参数状态的问题。(AN-176931、AN-176629、DTM-12758)
+* 更新了 AppMeasurement 以包含 Visitor.js 4.3.0 (AN-180049)
 
 ## 版本 2.13.0
 
 发行日期：**2019 年 4 月 10 日**
 
-修复了ClearVars所报告的许多问题。当在跟踪器就绪之前发出点击时会出现问题。当跟踪器变为就绪时，库可以设置已清除或更改的变量。(AN-176931，AN-176629，DTM-12758)。
+修复了ClearVars所报告的许多问题。当在跟踪器就绪之前发出点击时会出现问题。当跟踪器变为就绪时，库可以设置已清除或更改的变量。(AN-176931、AN-176629、DTM-12758).
 
 ## 版本 2.12.0
 
@@ -61,7 +61,7 @@ Release Date: **02/11/2019**
 * 添加了对在会话存储中存储链接跟踪数据的支持。(AN-162272)
 * 为音频分析添加了对媒体流类型的支持。(AN-173265)
 
-## Version 2.10.0 {#section_0788526EF23049C9AEB1EE5E8FC985DD}
+## 版本 2.10.0 {#section_0788526EF23049C9AEB1EE5E8FC985DD}
 
 Release Date: **09/20/2018**
 
@@ -72,19 +72,19 @@ This release ensures that the [!DNL AppMeasurement] library submits cookies corr
 * Reduce [!DNL AppMeasurement] default cookie lifetime from five to two years. (AN-158572)
 * Remove the Media Module from the Code Manager ( [!DNL AppMeasurement]) (AN-166590)
 
-## Version 2.9.0 {#section_E973B8A628F348AA9A1A1599CFE37DB9}
+## 版本 2.9.0 {#section_E973B8A628F348AA9A1A1599CFE37DB9}
 
 发行日期：**2018 年 5 月 24 日**
 
 >[!NOTE]
 >
->Visitor API 3.0 or higher is required for customers using the [!DNL Experience Cloud] ID Service. Adobe recommends upgrading to the latest Visitor API version whenever associated code libraries are updated ( [!DNL at.js], [!DNL AppMeasurement.js], and so forth.)
+>Visitor API 3.0 or higher is required for customers using the [!DNL Experience Cloud] ID Service. Adobe 建议，每当更新关联的代码库（[!DNL at.js] 等）时，请升级至访客 API 的最新版本。[!DNL AppMeasurement.js]
 
 * Updated [!DNL AppMeasurement] to use the updated Visitor interface for requesting IDs. (AN-151483)
 * 修复了在关闭链接跟踪后，链接跟踪 Cookie 仍继续写入的问题。(AN-156332)
 * 修复了 `registerPreTrackCallback` 和 `registerPostTrackCallback` 在调用多次后中断回调函数签名的问题。(AN-158566)
 
-## Version 2.8.2 {#section_B70EAEDAB087464482DB04EC4187200D}
+## 版本 2.8.2 {#section_B70EAEDAB087464482DB04EC4187200D}
 
 发行日期：**2018 年 4 月 12 日**
 
@@ -92,13 +92,13 @@ This release ensures that the [!DNL AppMeasurement] library submits cookies corr
 * 关闭链接跟踪后，链接跟踪 Cookie 将继续写入。(AN-156332)
 * Reduce [!DNL AppMeasurement] default cookie lifetime from five to two years. (AN-158572)
 
-## Version 2.8.1 {#section_6C1C4091F2EE4C90B6F3D7EE783DD884}
+## 版本 2.8.1 {#section_6C1C4091F2EE4C90B6F3D7EE783DD884}
 
 发行日期：**2018 年 3 月 29 日**
 
 重新捆绑 Visitor API 3.1.0 (AN-159524)，该版本包含热修复程序：（CORE-11390、CORE-10634）
 
-## Version 2.8.0 {#section_A23AD604D34C497C9318D3EB211B7927}
+## 版本 2.8.0 {#section_A23AD604D34C497C9318D3EB211B7927}
 
 发行日期：**2018 年 3 月 15 日**
 
@@ -108,7 +108,7 @@ This release ensures that the [!DNL AppMeasurement] library submits cookies corr
 * 重新构建数据收集端点以方便共享。(AN-156647)
 * 将请求往返计时量度添加到 [!DNL AppMeasurement]. (AN-158343)
 
-## Version 2.7.0 {#section_2C047D410B614CEE950DBBC75F035033}
+## 版本 2.7.0 {#section_2C047D410B614CEE950DBBC75F035033}
 
 发行日期：**2018 年 1 月 18 日**
 
@@ -116,13 +116,13 @@ This release ensures that the [!DNL AppMeasurement] library submits cookies corr
 * 包括访客 API 3.0.0 版
 * 包括 DIL 7.00 版
 
-## Version 2.6.0 {#section_229356205EAB4D05890A00B39C42A650}
+## 版本 2.6.0 {#section_229356205EAB4D05890A00B39C42A650}
 
 发行日期：**2017 年 11 月 9 日**
 
 Fixed an issue where [!DNL AppMeasurement] library does not always set the correct account combination when s_gl is called. (AN-152153)
 
-## Version 2.5.0 {#section_3C0006D526CA405FA0C47E2D991012BA}
+## 版本 2.5.0 {#section_3C0006D526CA405FA0C47E2D991012BA}
 
 发行日期：**2017 年 9 月 21 日**
 
@@ -130,28 +130,28 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 * 添加了 Visitor API 2.5.0。
 
-## Version 2.4.0 {#section_60D01A128AEE4A97AC492DF8FBE1E7A3}
+## 版本 2.4.0 {#section_60D01A128AEE4A97AC492DF8FBE1E7A3}
 
 发行日期：**2017 年 8 月 17 日**
 
 * 包含 dil.js v6.11
 * 包含 Visitor API 2.4.0
 
-## Version 2.3.0 {#section_D8F9BFF0D4E44E0F876840360D56E815}
+## 版本 2.3.0 {#section_D8F9BFF0D4E44E0F876840360D56E815}
 
 发行日期：**2017 年 7 月 20 日**
 
 * 修复了 [!DNL s.Util.getQueryParam] 捕获 # 的问题
 * Added v6.10 of [!DNL dil.js] (AN-145701)
 
-## Version 2.2.0 {#section_5E23F21413B1443B9A3021CCC9578C4B}
+## 版本 2.2.0 {#section_5E23F21413B1443B9A3021CCC9578C4B}
 
 发行日期：**2017 年 6 月 8 日**
 
 * Added support for multiple [!DNL AppMeasurement] instantiation order. (AN-138237)
 * 包括 Visitor API 版本 2.2.0。(AN-144042)
 
-## Version 2.1.0 {#section_5FE53738F9124C86811DFA08923B6F7B}
+## 版本 2.1.0 {#section_5FE53738F9124C86811DFA08923B6F7B}
 
 * 包含最新版本的 [!DNL dil.js] (AN-140396)
 * Added support for `adobe_mc_ref` parameter which overrides the page referrer. (AN-131920)
@@ -159,14 +159,14 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 * Added `mcorgid` parameter. (AN-139586)
 * 添加 cp (customerPerspective) 参数。(AN-140897)
 
-## Version 2.0.0 {#section_4C4A502CDFC84F06914EB16CE77736D1}
+## 版本 2.0.0 {#section_4C4A502CDFC84F06914EB16CE77736D1}
 
 发行日期：**2017 年 3 月 9 日**
 
 * 已移动到需要将版本号更新为 2.0.0 的新生成流程。(AN-137878)
 * 已将 mboxMCSDID 处理移动到执行跟踪调用的正确区域位置。(AN-138483)
 
-## Version 1.8.0 {#section_617B2F09F3494C04901E364ACEDE17E1}
+## 版本 1.8.0 {#section_617B2F09F3494C04901E364ACEDE17E1}
 
 发行日期：**2017 年 1 月 19 日**
 
@@ -190,20 +190,20 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
    注册 callback 时，可通过 `requestUrl` 以及传递的任何参数来调用 callback。根据用来注册 callback 的方法，调用操作可以在跟踪调用之前或跟踪调用之后发生无法保证调用这些 callback 的顺序。当创建了最终跟踪 URL 后，将调用在 pre 函数中注册的 callback。如果是成功的跟踪调用，则调用 post callback（若跟踪调用失败，则不调用这些函数）。`registerPreTrackCallback` 中注册的任何 callback 都不会影响跟踪调用。此外，不建议在任何已注册的 callback 中调用任何跟踪方法，因为这可能会导致无限循环。
 
-## Version 1.7.0 {#section_A93F24391B1043F4A435D1AA76D9E4F0}
+## 版本 1.7.0 {#section_A93F24391B1043F4A435D1AA76D9E4F0}
 
 更新日期：**2016 年 11 月 10 日**
 
 * 包含 Visitor API 1.10.1.
 
-## Version 1.7.0 {#section_107CDB8468AE4B06B900DCDEE5AD2F0A}
+## 版本 1.7.0 {#section_107CDB8468AE4B06B900DCDEE5AD2F0A}
 
 更新日期：**2016 年 10 月 20 日**
 
 * Update [!DNL Audience Manager] module with Demdex Integration Library (DIL) 6.6. (AN-132065)
 * 包括 Visitor API 1.9.0。(AN-132072)
 
-## Version 1.7.0 {#section_945311938EE2480A9A697BFE1E5B2AA7}
+## 版本 1.7.0 {#section_945311938EE2480A9A697BFE1E5B2AA7}
 
 更新日期：**2016 年 9 月 15 日**
 
@@ -211,7 +211,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 * 包括 Visitor API 1.8.0 (AN-129887)
 
-## Version 1.6.4 {#section_7C40FE01EA5B43E486098FCAC8FA5EC3}
+## 版本 1.6.4 {#section_7C40FE01EA5B43E486098FCAC8FA5EC3}
 
 更新日期：**2016 年 8 月 18 日**
 
@@ -222,7 +222,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 >
 >Also see the following release notes for [!DNL JavaScript] version 1.6.3, which includes updated requirements for Marketing Cloud ID service.
 
-## Version 1.6.3 {#section_34C75470A84B461A89FEF8CFF7B94090}
+## 版本 1.6.3 {#section_34C75470A84B461A89FEF8CFF7B94090}
 
 更新日期：**2016 年 8 月 4 日**
 
@@ -232,7 +232,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 >
 >[!DNL Marketing Cloud] ID服务版本1.6.0 *需要*[!DNL AppMeasurement][!DNL JavaScript] 版本1.6.3或更高版本。If you want to upgrade to version 1.6.0 of the Marketing Cloud ID service, please make sure you are using [!DNL AppMeasurement] code verison 1.6.3 or higher.
 
-## Version 1.6.2 {#section_419CBF264B5741DABB005AFDC6197C0D}
+## 版本 1.6.2 {#section_419CBF264B5741DABB005AFDC6197C0D}
 
 发行日期：**2016 年 7 月 21 日**
 
@@ -248,13 +248,13 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
  -->
 
-## Version 1.6.1 {#section_E69F5883F84F4D2CAE25D385F56C6AF6}
+## 版本 1.6.1 {#section_E69F5883F84F4D2CAE25D385F56C6AF6}
 
 发行日期：**2016 年 6 月 16 日**
 
 包括 Visitor API 1.5.7.
 
-## Version 1.6.1 {#section_5927689A57164EC99BA501B4FDF0AE8F}
+## 版本 1.6.1 {#section_5927689A57164EC99BA501B4FDF0AE8F}
 
 发行日期：**2016 年 5 月 19 日**
 
@@ -263,7 +263,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 * 包括 Visitor API 1.5.6
 * 修复了在 Firefox 中处理链接点击次数跟踪时无法触发完整事件的问题。
 
-## Version 1.6 {#section_B132B272FC2E43E9A24198F459E29403}
+## 版本 1.6 {#section_B132B272FC2E43E9A24198F459E29403}
 
 发行日期：**2016 年 4 月 21 日**
 
@@ -271,46 +271,46 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 * Fixed a truncation issue occurring with the order of query-string variables in [!DNL AppMeasurement], so that *`pageURLRest`* is last. (AN-114647)
 
-## Version 1.5.4 {#section_A230E5F656734ABD9917388790A37B5D}
+## 版本 1.5.4 {#section_A230E5F656734ABD9917388790A37B5D}
 
 发行日期：**2016 年 3 月 17 日**
 
 * 包括 Visitor API 1.5.4
 * 支持 Visitor API 1.5.4+ 选择退出
 
-## Version 1.5.3 {#section_796927A1BBF74DF6A1A4B9477E0BD20E}
+## 版本 1.5.3 {#section_796927A1BBF74DF6A1A4B9477E0BD20E}
 
 发行日期：**2016 年 1 月 21 日**
 
 * Fixed handling of [!DNL Audience Manager] module when POSTs are used for tracking calls. (AN-115381)
 * 将页面 URL 的其余部分（“-g”）移到跟踪请求查询字符串的末尾。(AN-114647)
 
-## Version 1.5.2 {#section_17CFD0BBC8744447BDFCC833883BC93E}
+## 版本 1.5.2 {#section_17CFD0BBC8744447BDFCC833883BC93E}
 
 发行日期：**2015 年 11 月 5 日**
 
 * 包括 Visitor API 1.5.3。
 * 修复了 URL 截断 2047 的 IE11 检测 (AN-114914)
 
-## Version 1.5.1 {#section_432F3C69DDBB49C983D7CB0876C2152F}
+## 版本 1.5.1 {#section_432F3C69DDBB49C983D7CB0876C2152F}
 
 发行日期：**2015 年 9 月 17 日**
 
 * 包括 Visitor API 1.5.2
 
-## Version 1.5.1 {#section_077DA135C1A5466EB00C44A3C3E472F8}
+## 版本 1.5.1 {#section_077DA135C1A5466EB00C44A3C3E472F8}
 
 发行日期：**2015 年 8 月 29 日**
 
 * 包括 Visitor API 1.5.1.
 
-## Version 1.5.1 {#section_3C9637EDB058479184731067897E857C}
+## 版本 1.5.1 {#section_3C9637EDB058479184731067897E857C}
 
 发行日期：**2015 年 7 月 16 日**
 
 * Updated [!DNL Audience Manager] module to use AAM DIL 6.2 - getCustomer IDs from VisitorAPI.js and pass them in /event call to AAM. (AN-104978)
 
-## Version 1.5 {#section_8809DBD822E440C6B5B7FF41E5DF3015}
+## 版本 1.5 {#section_8809DBD822E440C6B5B7FF41E5DF3015}
 
 发行日期：**2015 年 6 月 18 日**
 
@@ -318,7 +318,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 * Fixed the creation of duplicate destinationing iframe in **[!UICONTROL AudienceManagement]** module (DIL 6.1)
 * 修复了 1.4.5 版中描述的已知问题。
 
-## Version 1.4.5 {#section_FA2E94DF78614ACE9944660E14EF3A75}
+## 版本 1.4.5 {#section_FA2E94DF78614ACE9944660E14EF3A75}
 
 发行日期：**2015 年 5 月 21 日**
 
@@ -348,7 +348,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 In the Visitor API / [!DNL AppMeasurement] [!DNL Audience Manager] Module integrations, there will be two destination publishing iFrame requests made in IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` and  `//fast.<subdomain>.demdex.net/dest4.html`. 如在其他浏览器中所看到的，正确的行为是仅加载 `//fast.<subdomain>.demdex.net/dest5.html`.
 
-## Version 1.4.4 {#section_C069FA04496C4F7DAC165B04E836CF1F}
+## 版本 1.4.4 {#section_C069FA04496C4F7DAC165B04E836CF1F}
 
 发行日期：**2015 年 4 月 16 日**
 
@@ -373,7 +373,7 @@ In the Visitor API / [!DNL AppMeasurement] [!DNL Audience Manager] Module integr
 
 进行了较小修复，以便在 `trackLight` 调用之后清除轻量级服务器调用配置文件 ID。
 
-## Version 1.4.3 {#section_C307052BA42248ADB1969AE7A2593177}
+## 版本 1.4.3 {#section_C307052BA42248ADB1969AE7A2593177}
 
 发行日期：**2015 年 2 月 19 日**
 
@@ -381,14 +381,14 @@ In the Visitor API / [!DNL AppMeasurement] [!DNL Audience Manager] Module integr
 * 首次跟踪调用后更改为不执行自动反向链接跟踪，以便第 2 次、第 3 次（依此类推）跟踪调用在&#x200B;*`s.referrer`*&#x200B;于首次跟踪调用之前被手动设置时，不会将反向链接计算两次。
 * 更新了分发 zip 文件以包括 Visitor API 1.3.5。
 
-## Version 1.4.2 {#section_0A0BE40D32144A338231022F97B0E72B}
+## 版本 1.4.2 {#section_0A0BE40D32144A338231022F97B0E72B}
 
 发行日期：**2015 年 1 月 15 日**
 
 * 修复了 WebKit 预渲染处理阻止跟踪未查看的预渲染页面的问题。
 * The distribution zip was updated to include Visitor API 1.3.4 and an updated **[!UICONTROL AudienceManagement]** module that includes DIL version 5.5.
 
-## Version 1.4.1 {#section_616FF936062F44E8B70032D18AAAFC5F}
+## 版本 1.4.1 {#section_616FF936062F44E8B70032D18AAAFC5F}
 
 发行日期：**2014 年 9 月 18 日**
 
@@ -413,7 +413,7 @@ In the Visitor API / [!DNL AppMeasurement] [!DNL Audience Manager] Module integr
    >
    >[!DNL Analytics] 要想调用使用POST方法而不 [!DNL AppMeasurement] 是(在IE中解决 [截断的URL的方法)，](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)您必须使用Marketing Cloud的最新 [访客ID服务](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_implement) 实施。
 
-## Version 1.4 {#section_56ADFF9416B14ABCB3862B00F72B30A1}
+## 版本 1.4 {#section_56ADFF9416B14ABCB3862B00F72B30A1}
 
 发行日期：**2014 年 8 月 21 日**
 
@@ -428,76 +428,76 @@ In the Visitor API / [!DNL AppMeasurement] [!DNL Audience Manager] Module integr
 
 [!DNL JavaScript]
 
-## Version 1.3.2 {#section_402A4142C4B846DE945FD59DAD9D9298}
+## 版本 1.3.2 {#section_402A4142C4B846DE945FD59DAD9D9298}
 
 发行日期：**2014 年 6 月 19 日**
 
 * Fixed handling of done and waiting flags for Visitor API fields such as the legacy [!DNL Analytics] Visitor ID, that was causing errors.
 * 支持访客 ID 服务 1.3 中的新增功能。
 
-## Version 1.3.1 {#section_5E65422B9C1E4437A2473B119A14163E}
+## 版本 1.3.1 {#section_5E65422B9C1E4437A2473B119A14163E}
 
 发行日期：**2014 年 5 月 22 日**
 
 * [!DNL AppMeasurement] for [!DNL JavaScript]`s_gi` function is not recorrect found creating instances created using H code `s_gi`.Note that this issue only impacted some dual tagging implementations where [!DNL AppMeasurement] for [!DNL JavaScript] and H code were on the same page with separate instances, and `s_gi` was being used to find instances by report suite.
 
-## Version 1.3 {#section_56B2C625368E4A5BA1E8770A8C78117D}
+## 版本 1.3 {#section_56B2C625368E4A5BA1E8770A8C78117D}
 
 发行日期：**2014 年 4 月 17 日**
 
 * 支持 [Marketing Cloud 访客 ID 服务](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
 
-## Version 1.2.4 {#section_94D9521FDBAB4224994B1671A9BD036B}
+## 版本 1.2.4 {#section_94D9521FDBAB4224994B1671A9BD036B}
 
 发行日期：**2014 年 3 月 13 日**
 
 * 心率视频的错误修复。
 
-## Version 1.2.3 {#section_7ED201192D05463DA9B1990EC281B142}
+## 版本 1.2.3 {#section_7ED201192D05463DA9B1990EC281B142}
 
 发行日期：**2014 年 2 月 20 日**
 
 * 心率视频的错误修复。
 
-## Version 1.2.2 {#section_E6CDDDB8EE214ADCBF3047EC42711F13}
+## 版本 1.2.2 {#section_E6CDDDB8EE214ADCBF3047EC42711F13}
 
 发行日期：**2014 年 2 月 6 日**
 
 * Fixed a compatibility issue with the [!DNL Audience Manager] DIL module. [!DNL Audience Manager] 客户还必须更新到 4.8 版本的 DIL 模块。
 
-## Version 1.2.1 {#section_6DA9384BC2C84698952D51FFB3732019}
+## 版本 1.2.1 {#section_6DA9384BC2C84698952D51FFB3732019}
 
 发行日期：**2013 年 11 月 15 日**
 
 * 修复了用于[心率视频测量](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/)的页面事件。
 
-## Version 1.2 {#section_BDBE0C3D15F04856ABC6F111DDE6C8DB}
+## 版本 1.2 {#section_BDBE0C3D15F04856ABC6F111DDE6C8DB}
 
 发行日期：**2013 年 11 月 14 日**
 
 * 添加了对[心率视频测量](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/)的支持。
 * [!DNL VisitorAPI.js]添加了 ，以便支持[访客 ID 服务](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_service#)。
 
-## Version 1.1.1 {#section_31F06384039648BB99F4BD630B685794}
+## 版本 1.1.1 {#section_31F06384039648BB99F4BD630B685794}
 
 * 对于以“opera:”开始的链接，链接跟踪调用不能从 Opera 浏览器发送（“opera:”类似于其他浏览器中的“about:”和“chrome:”）。
 * Added `alt=""` to all Image objects to comply with Accessible Video and Communications Act.
 
-## Version 1.1 {#section_4508FF0A14AE46DF96A08B5C6703E123}
+## 版本 1.1 {#section_4508FF0A14AE46DF96A08B5C6703E123}
 
 发行日期：**2013 年 9 月 18 日**
 
 * 修复了对在 `head` 标签中置入库和页面代码的支持。
 * Added missing module `onLoad` support.
 
-## Version 1.0.3 {#section_A74A78C30067480AB36C54A06706DF89}
+## 版本 1.0.3 {#section_A74A78C30067480AB36C54A06706DF89}
 
 发行日期：**2013 年 8 月 15 日**
 
 * 增加了对通过 Adobe 标签管理进行部署的支持。
 * Fixed an issue that prevented hierarchy variables from being set on the [!DNL AppMeasurement] object.
 
-## Version 1.0.2 {#section_C3BDD9A19EF84467A8FDC283AEAE2DB5}
+## 版本 1.0.2 {#section_C3BDD9A19EF84467A8FDC283AEAE2DB5}
 
 发行日期：**2013 年 7 月 18 日**
 
@@ -509,7 +509,7 @@ In the Visitor API / [!DNL AppMeasurement] [!DNL Audience Manager] Module integr
 
    现在散列/片段被忽略，因此，只有当文件名以匹配的扩展名结束时，才会跟踪该链接。
 
-## Version 1.0.1 {#section_3758B0C47171436ABB4B29F5924BE893}
+## 版本 1.0.1 {#section_3758B0C47171436ABB4B29F5924BE893}
 
 发行日期：**2013 年 5 月 23 日**
 
