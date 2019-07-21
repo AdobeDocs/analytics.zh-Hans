@@ -19,7 +19,7 @@ source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
 
 1. Click [!UICONTROL Reports] in the Adobe Analytics header navigation.
 2. In the left menu, Click *[!UICONTROL Site Metrics]* &gt; *[!UICONTROL Real-Time]*.
-3. 如果报表包尚未启用实时启用，则会显示一条消息，其中含有配置报表包的链接。If the report suite has real-time enabled, click [!UICONTROL Configure] near the real-time report&#39;s title.
+3. 如果报表包尚未启用实时启用，则会显示一条消息，其中含有配置报表包的链接。If the report suite has real-time enabled, click [!UICONTROL Configure] near the real-time report's title.
 
 Adobe最多可允许三个实时报告同时收集数据。每个都必须在开始收集数据之前进行配置。
 
@@ -29,7 +29,7 @@ Adobe最多可允许三个实时报告同时收集数据。每个都必须在开
 
 实时位置告诉您访客在当前时刻访问站点的位置。要配置三个实时报告之一以显示位置数据，请执行以下操作：
 
-1. Click [!UICONTROL Configure] near the real-time report&#39;s title.
+1. Click [!UICONTROL Configure] near the real-time report's title.
 2. 在某个实时报告槽下：
    * 命名您的实时报告；例如，“位置”。
    * 实例通常用作量度。此时，用户/唯一访客在实时报告中不可用。
@@ -53,7 +53,7 @@ Adobe最多可允许三个实时报告同时收集数据。每个都必须在开
 
 实时内容会告诉您访客当前正在查看哪些页面。要配置三个实时报告之一以显示内容数据，请执行以下操作：
 
-1. Click [!UICONTROL Configure] near the real-time report&#39;s title.
+1. Click [!UICONTROL Configure] near the real-time report's title.
 2. 在某个实时报告槽下：
    * 命名您的实时报告；例如，“内容”。
    * 实例通常用作量度。此时，用户/唯一访客在实时报告中不可用。
@@ -71,7 +71,7 @@ Adobe最多可允许三个实时报告同时收集数据。每个都必须在开
 
 实时转化率在平台之间有不同的表现。Google Analytics中的目标精通Adobe Analytics中的指标和成功事件。您可以在Real Time Reports中使用Adobe Analytics中的大多数指标(如成功事件和标准指标等自定义指标)。与Google Analytics类似，您还可以在实时报告中应用产品名称、跟踪代码和营销活动效果等维度。
 
-1. Click [!UICONTROL Configure] near the real-time report&#39;s title.
+1. Click [!UICONTROL Configure] near the real-time report's title.
 2. 在某个实时报告槽下：
    * 命名您的实时报告；例如，“转换”。
    * 实例通常用作量度。此时，用户/唯一访客在实时报告中不可用。
