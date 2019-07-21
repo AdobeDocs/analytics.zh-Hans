@@ -25,7 +25,7 @@ Analysis Workspace 去除了单一 Analytics 报表存在的所有典型限制�
 
 >[!NOTE]
 >
->See [What&#39;s New in Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) for updates about features.
+>See [What's New in Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) for updates about features.
 
 ## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
@@ -53,7 +53,7 @@ See [Create an Analysis Workspace project](../../analyze/analysis-workspace/buil
 
 ## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project&#39;s table of contents. 您可以像共享项目链接一样共享这些链接，以将某个人定向到项目中的特定可视化或面板。新增了名为“获取面板链接”和“获取可视化链接”的右键单击选项。要将内部链接添加到您的项目，请执行以下操作：
+In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. 您可以像共享项目链接一样共享这些链接，以将某个人定向到项目中的特定可视化或面板。新增了名为“获取面板链接”和“获取可视化链接”的右键单击选项。要将内部链接添加到您的项目，请执行以下操作：
 
 1. 将文本可视化拖到项目中可能需要某些上下文的可视化或表格旁边。
 1. 使用相关内容（例如目录）填充文本框，然后突出显示要链接到面板或可视化的项目，例如“成功量度”。
@@ -97,7 +97,7 @@ You can link users to other projects that may be of interest to them by going to
 
 ![](assets/trend-selection.png)
 
-趋势选择现已 **关联** 到下面的表，因此，如果选择表中的不同行，趋势图将反映出该行的内容。
+趋势选择现已&#x200B;**关联**&#x200B;到下面的表，因此，如果选择表中的不同行，趋势图将反映出该行的内容。
 
 ![](assets/trend-selection2.png)
 
@@ -134,7 +134,7 @@ See [Break down dimensions](../../analyze/analysis-workspace/components/dimensio
 
 ## Component actions {#section_CBF4D0A5F63E4B0883077B8D852B800B}
 
-从位于组件左边栏顶部的“操作”菜单执行组件级别的操作。选择某个组件并单击 **[!UICONTROL 操作]可查看相关操作。**
+从位于组件左边栏顶部的“操作”菜单执行组件级别的操作。选择某个组件并单击&#x200B;**[!UICONTROL 操作]可查看相关操作。**
 
 | 组件操作 | 描述 |
 |--- |--- |
@@ -185,7 +185,7 @@ See [Hotkeys Available in Analysis Workspace](../../analyze/analysis-workspace/b
 
 **所有访问**
 
-Analysis Workspace 特有的默认区段。*`All Visits`*显示您添加到数据表中的组件的所有访问次数。
+Analysis Workspace 特有的默认区段。*`All Visits`*&#x200B;显示您添加到数据表中的组件的所有访问次数。
 
 **计算量度**
 
