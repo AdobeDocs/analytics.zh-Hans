@@ -23,7 +23,7 @@ In Adobe Analytics, these reports are known as **Marketing Channels**. 它们需
 
 显示访客访问网站时使用的所有渠道的汇总视图。
 
-1. In the Components menu, locate the **Marketing Channel** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Marketing Channel** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 ## 所有流量-树地图
@@ -31,7 +31,7 @@ In Adobe Analytics, these reports are known as **Marketing Channels**. 它们需
 显示渠道流量的轨迹。此报告类似于所有流量-渠道，但以其他方式显示。
 
 1. 单击左侧的“可视化”图标，并将Treemap可视化拖动到空自由表单表上方的工作区上。
-2. Click the Components icon on the left, then drag the **Marketing Channel** dimension onto the large freeform table area labeled &#39;Drop a dimension here&#39;.
+2. Click the Components icon on the left, then drag the **Marketing Channel** dimension onto the large freeform table area labeled 'Drop a dimension here'.
 3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 4. 请注意，其他指标会创建额外的树。如果只需要一个treemap：
    1. 单击所需指标的顶部单元格以表示treemap。
@@ -62,7 +62,7 @@ In Adobe Analytics, these reports are known as **Marketing Channels**. 它们需
 * **源** 主要维度在Analysis Workspace中作为 **引用域** 维度可用。
 * **登陆页面** 主要维度在Analysis Workspace中作为 **进入页面** 维度可用。
 
-1. In the components menu, locate the **Referring Domain** or **Entry Page** dimension and drag it onto the large freeform table area labeled &#39;Drop a dimension here&#39;.
+1. In the components menu, locate the **Referring Domain** or **Entry Page** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 See the [Referring Domain](../../../components/c-variables/dimensionslist/reports-referring-domains.md) dimension in the Components user guide for more information.
@@ -83,16 +83,16 @@ Adobe使用Analysis Workspace中称为Advertising Analytics的功能引入来自
 
 “网络引用”报告显示哪些社交网络域驱动访问您的站点。This data is available in Analysis Workspace using the **Referring Domain** dimension and **Visits from Social Sites** segment.
 
-1. In the Components menu, locate the **Referring Domain** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
-2. In the Components menu, locate the **Visits from Social Sites** segment and drag in onto the small area just above the freeform table labeled &#39;Drop a segment here&#39;.
+1. In the Components menu, locate the **Referring Domain** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
+2. In the Components menu, locate the **Visits from Social Sites** segment and drag in onto the small area just above the freeform table labeled 'Drop a segment here'.
 3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 ### 社交-登陆页面
 
 登陆页面报告显示访客通过社交网络单击链接后到达的页面。This data is available in Analysis Workspace using the **Entry Page** dimension and **Visits from Social Sites** segment.
 
-1. In the Components menu, locate the **Entry Page** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
-2. In the Components menu, locate the **Visits from Social Sites** segment and drag in onto the small area just above the freeform table labeled &#39;Drop a segment here&#39;.
+1. In the Components menu, locate the **Entry Page** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
+2. In the Components menu, locate the **Visits from Social Sites** segment and drag in onto the small area just above the freeform table labeled 'Drop a segment here'.
 3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 ### 社交-转化
@@ -108,7 +108,7 @@ Adobe使用Analysis Workspace中称为Advertising Analytics的功能引入来自
 “用户”流报告显示访问社交网络的访客上下文中的路径数据。
 
 1. 单击左侧的可视化图标，并将流动可视化拖动到自由表上方的工作区上
-2. Click the Components icon on the left, then drag the **Visits from Social Sites** segment onto the small area just above the flow visualization labeled &#39;Drop a Segment here&#39;.
+2. Click the Components icon on the left, then drag the **Visits from Social Sites** segment onto the small area just above the flow visualization labeled 'Drop a Segment here'.
 3. Locate the **Pages** dimension, then click the Arrow icon to reveal page values. 尺寸值为黄色。
 4. 找到所需的页面值以开始，并将其拖动到中心中标记为“维度或项目”的空间中
 5. 此流报告为交互式报告。单击任意值可将流展开到后续或之前的页面。使用右键单击菜单展开或折叠列。也可以在同一流程报告中使用不同的维度。
@@ -119,21 +119,21 @@ The campaigns report is available in Analysis Workspace using the **Tracking Cod
 
 可以使用自定义变量(eVar)在Adobe Analytics中收集UM参数。Adobe建议与实施顾问合作，确保在Adobe Analytics中准确收集跟踪代码值。
 
-1. In the Components menu, locate the **Tracking Code** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Tracking Code** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 ## 营销活动-付费关键字
 
 付费关键字报告显示在访客单击搜索引擎中付费搜索链接后每个关键字的执行方式。**搜索关键字-付费** 维度在Analysis Workspace中可用，但需要一次性设置付费搜索检测以收集数据。See [Paid Search Detection](../../../admin/admin/paid-search-detection/paid-search-detection.md) in the Admin user guide for setup details.
 
-1. In the Components menu, locate the **Search Keyword - Paid** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Search Keyword - Paid** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 ## 营销活动-有机关键字
 
 有机关键字报表显示在访客单击搜索引擎中的有机搜索链接后每个关键字的执行方式。**搜索关键字-自然** 尺寸在Analysis Workspace中可用。请注意，如果未设置付费搜索检测，则此维度同时收集付费和自然关键字。
 
-1. In the Components menu, locate the **Search Keyword - Natural** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Search Keyword - Natural** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 ## 成本分析
