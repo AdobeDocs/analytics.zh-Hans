@@ -5,7 +5,7 @@ seo-title: 模板
 title: 模板
 uuid: d6d1b745-a684-41c1-879b-9f9 a9503 fe00
 translation-type: tm+mt
-source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
+source-git-commit: c13dfba5669aea55cf79406033a30d99971ce0c2
 
 ---
 
@@ -93,9 +93,21 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
 
 下面是模板以及每个模板有助于回答的问题：
 
+### 广告
+
+>[!IMPORTANT]
+>
+>只有在为Advertising Cloud启用您的报表套件时，广告模板才可用。
+
+* **搜索引擎**：此模板打破了广告趋势、广告平台、关键字、账户、营销活动等。
+
+### 商务
+
+* **杂志：营销和商务**：此模板通过营销渠道归因细分您的电子商务转化，并通过搜索关键字、登陆页面、地理位置等提供洞察。For a video overview, see &gt;[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+
 ### 媒体
 
-* **内容消耗**：哪些内容消耗最多并吸引用户？
+* **音频消耗**：哪些内容消耗最多并吸引用户？
 * **新近度-频率-忠诚度**：谁是我的忠实读者？
 
 ### 移动设备
