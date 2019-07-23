@@ -106,7 +106,7 @@ t_dashboard_add_report.xml
 1. 运行报表.
 1. Click **[!UICONTROL Dashboard.]**
 1. On the [!UICONTROL Add Reportlet] page, name the report, then select a dashboard from **[!UICONTROL Place in Dashboard]**.
-1.  （可选）配置日期范围。 
+1.  （可选）配置日期范围。
 
    * **[!UICONTROL 连续]**：根据时间区间（每日、每月等），日期随时间变化而更改。例如，如果今天是 1 月 17 日，可以设置日期 1 月 15 - 16 日。Then if you select **[!UICONTROL Rolling]**, on January 27 the reportlet displays data for January 25 - 26.
    * **[!UICONTROL 固定]**：防止日期随时间变化而更改。

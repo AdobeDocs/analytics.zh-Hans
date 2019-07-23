@@ -11,7 +11,6 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 
 # ID 扩展
-#
 
 您提交的 ID 并不总是涵盖 Analytics 可将其与数据主体关联的所有命中数据。Analytics 可创建一个扩展的 ID 集，以便将此关联数据包含在 GDPR 请求中。您可以为您提交的每个 GDPR 请求来要求使用此选项，只需将以下可选参数添加到 JSON 请求中即可：
 
@@ -47,7 +46,6 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 Adobe 在执行 ID 扩展时，可能需要进行额外的完整数据扫描，这将延长 Adobe 用于完成请求的时间，通常会增加一周的处理时间。
 
 ## 其他GDPR请求标志
-##
 
 除了“expandIDs”标记之外，Analytics 还支持另外两个可以作为 GDPR 请求的组成部分传递的标记。这些标记的默认值为：
 

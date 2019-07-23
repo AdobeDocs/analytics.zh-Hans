@@ -102,7 +102,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
       + [关于 AppMeasurement for JavaScript](js-implementation/c-appmeasurement-js/appmeasure-mjs.md)
       + [迁移到 AppMeasurement for JavaScript](js-implementation/c-appmeasurement-js/appmeasure-mjs-migrate.md)
       + [AppMeasurement插件支持](js-implementation/c-appmeasurement-js/plugins-support.md)
-   + [Accelerated Mobile Pages](js-implementation/accelerated-mobile-pages.md)（“加速移动网页”项目）
+   + [Accelerated Mobile Pages](js-implementation/accelerated-mobile-pages.md)
    + [Facebook Instant Articles（即时文章）](js-implementation/analytics-facebook-instant-articles.md)
    + Additional web and mobile measurement libraries {#additional-libraries}
       + [其他库概述](js-implementation/c-additional-libraries/libraries.md)
