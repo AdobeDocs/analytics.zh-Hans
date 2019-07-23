@@ -106,7 +106,7 @@ t_dashboard_add_report.xml
 1. 运行报表.
 1. Click **[!UICONTROL Dashboard.]**
 1. On the [!UICONTROL Add Reportlet] page, name the report, then select a dashboard from **[!UICONTROL Place in Dashboard]**.
-1.  （可选）配置日期范围。
+1. （可选）配置日期范围。
 
    * **[!UICONTROL 连续]**：根据时间区间（每日、每月等），日期随时间变化而更改。例如，如果今天是 1 月 17 日，可以设置日期 1 月 15 - 16 日。Then if you select **[!UICONTROL Rolling]**, on January 27 the reportlet displays data for January 25 - 26.
    * **[!UICONTROL 固定]**：防止日期随时间变化而更改。
@@ -216,7 +216,7 @@ t_dashboard_branding.xml
 1. **[!UICONTROL “分析]** ”&gt;“ **[!UICONTROL 管理员]** ”&gt; **[!UICONTROL “公司设置]**”。
 1. On the [!UICONTROL Company Settings] page, click **[!UICONTROL Co-Brand the Adobe Experience Cloud]**.
 1. Click **[!UICONTROL Enable Co-Branding]**.
-1.  浏览并上载图像，然后点击&#x200B;**[!UICONTROL 保存]。**
+1. 浏览并上载图像，然后点击&#x200B;**[!UICONTROL 保存]。**
 
    为了在浏览器中查看图像时达到最佳效果，请上载 100px x 30px 图像。为获得最佳 PDF 输出效果，请上载 417px × 125px (300 dpi) 图像。尺寸过大的图像将被缩小到有效尺寸，同时保留纵横比。
 
