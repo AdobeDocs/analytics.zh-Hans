@@ -21,7 +21,7 @@ The easiest and recommended way to send data to [!DNL Analytics] is by using [Dy
 
 >[!NOTE]
 >
->本节介绍实施Analytics的传统方法。所有 Analytics 客户都具有访问[动态标签管理](https://marketing.adobe.com/resources/help/en_US/dtm/)的权限，这是部署 Experience Cloud 标签的标准方法。
+>本节介绍实施Analytics的传统方法。所有 Analytics 客户都具有访问[动态标签管理](https://marketing.adobe.com/resources/help/en_US/dtm/) 的权限，这是部署 Experience Cloud 标签的标准方法。
 
 ## 实施步骤 {#section_73961BAD5BB4430A95E073DE5C026277}
 
@@ -49,8 +49,9 @@ The easiest and recommended way to send data to [!DNL Analytics] is by using [Dy
    <td colname="col2"> <p>(Formerly <span class="term"> Visitor ID service </span>.) See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html" format="https" scope="external"> Set Up the Identity Service for Analytics </a>. </p> 
     <draft-comment> 
      <p>在 <code>VisitorAPI.js</code> 中，将以下访客 ID 初始化代码添加至文件开头： </p> 
-     <code class="syntax javascript">var rector= Performator. getInstance(“INSERT-MCORG-ID-HERE”)；folder. trackingServer=“INSERT-TRANING-SERVER-HERE”；//与s. trackingServer访问者trackingServerSecure=“INSERT-Secure-TRANSING-SERVER-HERE”相同；//sameas s. trackingServerSecure/*== DO NOT ANTER ANTH以下任何内容== </code>
-
+     <code class="syntax javascript">
+     var rector= Performator. getInstance(“INSERT-MCORG-ID-HERE”)；folder. trackingServer=“INSERT-TRANING-SERVER-HERE”；//与s. trackingServer访问者trackingServerSecure=“INSERT-Secure-TRANSING-SERVER-HERE”相同；//sameas s. trackingServerSecure/*== DO NOT ANTER ANTH以下任何内容==
+      </code>
    <ul id="ul_769BA118CC244308A805079C2CBECC12"> 
       <li id="li_D366EBDE24CB433EA523DB228CB2FAF1"> <code> “INSERT-MMG-ID-HERE </code> ”-(必需)在您的公司为Adobe Experience Cloud提供您的公司时，此Adobe Experience Cloud组织ID会发送给您的管理员。 </li> 
       <li id="li_4F9704A6A6EA4334A3758F99B8D67C9D"> <code>"INSERT-TRACKING-SERVER-HERE"</code> -（必需）您的 Analytics 跟踪服务器。 </li> 
