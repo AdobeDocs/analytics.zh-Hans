@@ -5,7 +5,7 @@ seo-title: hitGovernor
 title: hitGovernor
 uuid: d9091eae-005a-43c2-b419-980b795 bc2 a9
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 5abac13c231659108a26b8513a3bb32e4e530b94
 
 ---
 
@@ -55,66 +55,65 @@ s.hitGovernor 插件可跟踪在预定义的连续时间范围内发送的 Analy
 
    ```
     s.registerPostTrackCallback(function(){ 
-       
-<b> s.governor();</b> 
-   });
+    s.governor();
+   }); 
    ```
 
-   Below the doPlugins section of your AppMeasurement file, include the plugin code contained in [Plugin Source Code](../../../implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0), below.
+   在 AppMeasurement 文件的 doPlugins 部分下方，插入[插件源代码](../../../implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0)中的插件代码。
 
-   The hit limit threshold, hit timing threshold, and traffic exclusion time frames can all be overridden by setting these variables, outside of the plugin itself and preferably with your other configuration variables:
+   您可以通过在插件自身以外的位置设置点击量上限阈值、点击时间范围阈值和流量排除时间期限等变量来覆盖这三个变量，不过您最好使用其他配置变量来进行覆盖：
 
 <table id="table_9959A40F5F0B40B39DB86E21D03E25FD"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Variable </th> 
-   <th colname="col2" class="entry"> Syntax </th> 
-   <th colname="col3" class="entry"> Description </th> 
+   <th colname="col1" class="entry"> 变量 </th> 
+   <th colname="col2" class="entry"> 语法 </th> 
+   <th colname="col3" class="entry"> 描述 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Hit Limit Threshold </p> </td> 
+   <td colname="col1"> <p>点击量上限阈值 </p> </td> 
    <td colname="col2"> <p> <code> s.hl = 60; </code> </p> </td> 
-   <td colname="col3"> <p>The total number of hits that should not be exceeded during a given timeframe. </p> </td> 
+   <td colname="col3"> <p>在给定的时间范围内不应超过的总点击量。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Hit Time Threshold </p> </td> 
+   <td colname="col1"> <p>点击时间阈值 </p> </td> 
    <td colname="col2"> <p> <code> s.ht = 10; </code> </p> </td> 
-   <td colname="col3"> <p>The window, in seconds, for when hits are recorded. This number is divided by six to determine the rolling timing windows. </p> </td> 
+   <td colname="col3"> <p>记录点击量的时间范围（以秒为单位）。此数值除以 6 可确定连续的时间段。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Exclusion Threshold </p> </td> 
+   <td colname="col1"> <p>排除时间期限阈值 </p> </td> 
    <td colname="col2"> <p> <code> s.he = 60; </code> </p> </td> 
-   <td colname="col3"> <p>Number of days that the exclusion cookie is set for that visitor. </p> </td> 
+   <td colname="col3"> <p>为该访客设置排除 Cookie 的天数。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-   >[!NOTE]
-   >
-   >Your implementation might use a different object name than the default analytics "s" object. If so, please update the object name accordingly.
+>[!NOTE]
+>
+>您的实施可能使用不同于默认分析的对象名称。如果是这样，请相应地更新对象名称。
 
-1. Configure processing rules.
+1. 配置处理规则。
 
-   This plugin records flagged exceptions as context data in a link tracking image request. As such, processing rules must be configured to assign track those flagged exceptions into appropriate variables like those below.
+   此插件会将已标记的异常项作为上下文数据记录在链接跟踪图像请求中。因此，必须将处理规则配置为将已标记的异常分配到相应变量并进行跟踪（如下所示）。
 
    ![](assets/hitgov-config.png)
 
-1. (Optional) Include the traffic-blocking code in doPlugins.
+1. （可选）将流量阻止代码包含到 doPlugins 中。
 
-   After traffic has been identified as an exception, any subsequent hits from that visitor can be blocked entirely by including this code within the `doPlugins` function:
+   在流量被识别为异常后，通过在 `doPlugins` 函数中插入此代码，可以完全阻止该访客随后发起的任何点击。
 
    ```
    //Check for hit governor flag 
          if(s.Util.cookieRead('s_hg')==9)s.abort=true;
    ```
 
-   If this code is not included, traffic from that visitor will be flagged but not blocked. 
+   如果不包含此代码，来自该访客的流量将只会被标记，而不会被阻止。
 
-## Plugin Source Code {#reference_76423C81A7A342B2AC4BE41490B27DE0}
+## 插件源代码 {#reference_76423C81A7A342B2AC4BE41490B27DE0}
 
-This code should be added below the doPlugins section of your AppMeasurement library.
+此代码应该添加在 AppMeasurement 库 doPlugins 部分的下方。
 
 ```
 //Hit Governor (Version 0.1 BETA, 11-13-17) 
@@ -133,6 +132,5 @@ s.governor=new Function("",""
 +"',contextData.exceptionFlag';s.contextData['exceptionFlag']='true';" 
 +"s.tl(this,'o','exceptionFlag');}ha[0]++;s.Util.cookieWrite('s_hc',h" 
 +"a.join('|'));"); 
-
 ```
 
