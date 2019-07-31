@@ -4,14 +4,14 @@ seo-title: Adobe Analytics技术文档的完整列表和自助用户指南
 description: Analytics用户指南和资源
 seo-description: Adobe Analytics技术文档的完整列表、发行说明和自助用户指南。
 translation-type: tm+mt
-source-git-commit: e922c16fe84d27dbe8d59df0af1c1b4e3ef1d25b
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
 
 # Adobe Analytics文档
 
-[![分析](assets/analyze_50px.png)](/help/analyze/home.md) [分析工具指南](/help/analyze/home.md) -功能所有可在Adobe Analytics中使用的分析工具。首先，它在Analytics的主要分析和可视化工具Analysis Workspace上提供了全面的文档。
+[![工具](assets/analyze_50px.png)](/help/analyze/home.md) [Analytics工具指南](/help/analyze/home.md) -功能所有可在Adobe Analytics中使用的分析工具。首先，它在Analytics的主要分析和可视化工具Analysis Workspace上提供了全面的文档。
 
 [![管理员](assets/admin_50px.png)](/help/admin/home.md) [管理员指南](/help/admin/home.md) -用于配置报表包、数据管理、服务器调用使用等的管理任务。
 
