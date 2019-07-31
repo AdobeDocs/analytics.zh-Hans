@@ -5,7 +5,7 @@ seo-title: 客户属性
 title: 客户属性
 uuid: a8340b83-d7 ba-46fe-bb20-b546 cdf375 b8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 客户属性将存储在名为 VisAttr 的全新元素类型中，可将其配置为维度或量度。
 
-有关如何上载客户属性的详细信息，请参阅 [Experience Cloud 帮助](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html)。
+有关如何上载客户属性的详细信息，请参阅 [Experience Cloud 帮助](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)。
 
 * 如果将 VisAttr 配置为量度，那么它可同时作为“维度”和量度显示。
 
