@@ -8,7 +8,7 @@ title: 报表和报表包
 topic: 开发人员和实施
 uuid: 288203f6-cd13-4e01-9950-2c7 e5 bricycle8 a17
 translation-type: tm+mt
-source-git-commit: 797eda5d8f9e9d4cba25f643e318a7be9c22a252
+source-git-commit: 4a7757cb6e55500f32f1d88facbdc3e201310c29
 
 ---
 
@@ -43,8 +43,8 @@ source-git-commit: 797eda5d8f9e9d4cba25f643e318a7be9c22a252
 
 <p class="head"> <b>另请参阅</b> </p>
 
-* [Analysis Workspace 帮助](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)
-* [Reports &amp; Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/) 帮助
+* [Analysis Workspace 帮助](/help/analyze/analysis-workspace/analysis-workspace-features.md)
+* [报告与分析](/help/analyze/reports-analytics/overview/report-overview.md)
 * [实时报表](https://marketing.adobe.com/resources/help/en_US/reference/realtime.html)
 * [Adobe Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/) 帮助
 * [数据提取](https://marketing.adobe.com/resources/help/en_US/sc/user/data_extract.html)
@@ -53,8 +53,8 @@ source-git-commit: 797eda5d8f9e9d4cba25f643e318a7be9c22a252
 * [Analytics 产品比较和要求](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html)
 * [报表描述](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html)
 * [功能板和缩图报表](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html)
-* [书签](https://marketing.adobe.com/resources/help/en_US/insight/client/c_bookmark_about.html)
-* [虚拟报表包](https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html)
-* [异常检测](https://marketing.adobe.com/resources/help/en_US/arb/anomaly_detection.html)
-* [贡献分析](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html)
+* [书签](/help/analyze/reports-analytics/bookmarks.md)
+* [虚拟报表包](/help/components/vrs/vrs-about.md)
+* [异常检测](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
+* [贡献分析](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
 
