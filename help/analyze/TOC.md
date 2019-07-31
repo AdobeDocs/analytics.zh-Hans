@@ -4,7 +4,7 @@ audience: 最终用户
 user-guide-title: 分析分析指南
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
@@ -213,7 +213,7 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
       + [用于创建和编辑请求的脱机模式](report-builder/manage-requests/offline-mode.md)
    + [Report Builder选项](report-builder/options.md)
    + [计划报告请求](report-builder/schedule-report-requests.md)
-   + [计划数据请求](report-builder/t-schedule-a-data-request.md)
+   + [计划工作簿](report-builder/t-schedule-a-data-request.md)
    + [计划任务管理器](report-builder/r-arb-scheduled-reports.md)
    + 工作簿库 {#workbook-library}
       + [上传工作簿](report-builder/workbook-library/t-upload-a-workbook.md)
@@ -225,7 +225,7 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
       + [限制和规范](report-builder/c-publish-power-bi/specifications-limits.md)
       + [手动将数据导入Power BI](report-builder/c-publish-power-bi/bi-manually-import-data.md)
       + [将已发布的资源拖入Power BI Desktop](report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
-      + [最佳做法](report-builder/c-publish-power-bi/bi-best-practices.md)
+      + [最佳实践](report-builder/c-publish-power-bi/bi-best-practices.md)
       + [Power BI集成疑难解答](report-builder/c-publish-power-bi/troubleshooting.md)
       + [Power BI的Adobe Analytics内容包](report-builder/c-publish-power-bi/integration-power-bi.md)
    + [Report Builder的疑难解答和最佳做法](report-builder/troubleshoot.md)
