@@ -5,7 +5,7 @@ seo-title: Adobe Analytics-关键概念
 title: Adobe Analytics-关键概念
 uuid: ef5701c5-2d3e-4847-851f-9312d55db1a8
 translation-type: tm+mt
-source-git-commit: d3819975bb65ccf345d60474e268ed9d1b1606a7
+source-git-commit: d7553fb973d4daddc46533f76769b383966c5c7d
 
 ---
 
@@ -47,218 +47,72 @@ source-git-commit: d3819975bb65ccf345d60474e268ed9d1b1606a7
 | 可视化 | 丰富的视觉效果，可帮助您在项目中生动地呈现数据。 | [可视化信息](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) |
 | 管理分析 | 能够限制在项目或虚拟报告套件中访问的组件。 | [VRS CurationProject](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-components.html)<br>[CurrationCompare](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html)</br><br>[](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) |
 
-## Key features {#concept_216E78AD39DD453D940AE857F4C7D4DF}
+## Key reports {#concept_216E78AD39DD453D940AE857F4C7D4DF}
 
-<table id="table_5CD38BD3BE854E69B6925EA3F02AFC92"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 报表 </th> 
-   <th colname="col2" class="entry"> 描述 </th> 
-   <th colname="col3" class="entry"> 文档链接 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 完整报表列表 </td> 
-   <td colname="col2"> Adobe Analytics 中所有可用报表的定义。 </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/zh_CN/reference/reports_descriptions.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 自定义流量 (Prop) </td> 
-   <td colname="col2">用于逐页跟踪网站流量活动。Prop 不会在页面之间持续保留。流量变量的关键应用： 
-    <ul id="ul_A935EC5271684B9599F683C7B31400ED"> 
-     <li id="li_58E0596050A34ACC821916EA61E946EF">捕获可与页面查看次数、访问数、访客数或实例数关联的值。 </li> 
-     <li id="li_2B4C557AAD0544BE8204C0D7CE587175">找出特定值中“最受欢迎”的部分。 </li> 
-     <li id="li_7FA62BE657F047459DF439BFB9F332F5">了解用户如何寻访您的网站。 </li> 
-    </ul> <p>流量变量的示例：页面名称、网站区域、浏览器。 </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_var.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/zh_CN/reference/traffic_var.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 自定义转化 (eVar) </td> 
-   <td colname="col2">主要用于报告转化事件，并在您自定义的时段内持续保留。过期选项包括事件过期、访问过期、或 X 日过期，应由将对该变量执行的分析类型驱使。 <p>转化变量和流量变量之间的关键区别： </p> 
-    <ul id="ul_B0A7482A81B94C5F86C06E5507DB393D"> 
-     <li id="li_272E414520AA4603AE5EC397B0F93630"> 自定义流量变量与流量量度相关，但与转化无关。通常用于路径分析。 </li> 
-     <li id="li_EBBF9A35C64845FE9683540DFA89E7E9">自定义转化变量可与流量和转化相关，并且通常用于转化分析。 </li> 
-    </ul> <p>转化变量的示例：内部搜索词、内部促销活动、外部促销活动 (s.campaign)。 </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/zh_CN/reference/conversion_var_admin.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 成功事件 (s.events) </td> 
-   <td colname="col2"> <p>测量我们希望访客在我们的网站上采取的关键行动。 </p> <p>事件有 3 种类型：计数器、数值和货币。事件在被添加到转化变量报表 (eVar) 时是最有用的。eVar 提供所发生情况的质量信息，事件则提供所发生情况的数量信息。 </p> <p>转化变量和自定义事件之间的关键区别： </p> 
-    <ul id="ul_2B95D7437DE444DD9618DBFE6A8612D1"> 
-     <li id="li_5951858853334EFA931A5BC57E5C933F">转化变量可告诉我们，什么人、什么事情或什么内容影响了转化。 </li> 
-     <li id="li_339755C842714E0DB8DB4DFAA43AB4F7"> 自定义事件可测量有多少转化发生。 </li> 
-    </ul> <p>转化事件的示例：订单数、应用程序启动数、潜在客户数、收入。 </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/success_event.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/zh_CN/reference/success_event.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 网站量度 </td> 
-   <td colname="col2"> 显示有关您的网站的数量信息，例如独特访客数、订单数、收入等。每个量度都可置于其他基于项目的报表中。 </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_site_metrics.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/zh_CN/reference/reports_site_metrics.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 网站内容 </td> 
-   <td colname="col2"> 显示的信息包括网站上哪些页面和区域最为活跃及哪些服务器使用率最高。 </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_site_content.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/zh_CN/reference/reports_site_content.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 移动 </td> 
-   <td colname="col2"> 显示有关从移动设备或平板电脑访问的网站的信息。 </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_mobile.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/zh_CN/reference/reports_mobile.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 移动设备应用程序 </td> 
-   <td colname="col2"> <p>显示与您的移动设备应用程序相关的基本使用信息。只要我们的 SDK 得以实施并且报表处于开启状态，这些报表即可供您使用。 </p> <p>此外，Adobe Mobile Services 还创建了一个单独的移动设备应用程序界面，它提供更加全面的应用程序数据，从而允许您了解和改进应用程序的用户参与。 </p> <p>界面访问地址： </p> <p><a href="https://mobilemarketing.adobe.com" format="https" scope="external"> https://mobilemarketing.adobe.com</a> </p> </td> 
-   <td colname="col3"> <p>Adobe Mobile Services： </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/" format="https" scope="external"> https://marketing.adobe.com/resources/help/zh_CN/mobile/</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 路径报表 </td> 
-   <td colname="col2"> 显示有关访问网站页面的先后顺序的信息。 </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/zh_CN/reference/reports_paths.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 产品 </td> 
-   <td colname="col2"> 识别单个产品和产品组（类别）对各项转化量度（如收入或结账）的贡献情况。 </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_products.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/zh_CN/reference/reports_products.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 访客维系 </td> 
-   <td colname="col2"> 显示有关客户忠诚度的信息，例如访客回访您的网站的次数和频率。 </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_visitor_retention.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/zh_CN/reference/reports_visitor_retention.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 访客资料 </td> 
-   <td colname="col2"> 一种报表，可按不同资料类别（包括国家/地区、州、邮政编码及域）来显示客户的购买模式。 </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_visitor_profile.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/zh_CN/reference/reports_visitor_profile.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 营销渠道 </td> 
-   <td colname="col2">一种报表，可帮助您了解哪些外部渠道驱使用户访问您的网站，以及哪些内容可最有效地促使转化。提供首次和最近联系属性视图。 <p>这是 Adobe Analytics 中的首选外部流量源报表（而非促销活动或流量源），因为通过它可以最全面地了解付费和免费渠道。 </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/mchannel/index.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/zh_CN/mchannel/index.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 自定义报表、报表链接、书签和功能板 </td> 
-   <td colname="col2"> 在 Analytics 界面中保存和/或与其他人共享您工作的方法。 </td> 
-   <td colname="col3">自定义报表： <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/reports_custom.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/zh_CN/reference/reports_custom.html</a> </p> <p>报表链接： </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/user/t_reports_share_link.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/zh_CN/sc/user/t_reports_share_link.html</a> </p> <p>书签 </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/user/bookmarks.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/zh_CN/sc/user/bookmarks.html</a> </p> <p>功能板 </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/zh_CN/sc/user/dashboard.html</a> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 报表 | 描述 | 文档链接 |
+|--- |--- |--- |
+| 完整维度/报表列表 | Adobe Analytics 中所有可用维度/报表的定义。 | [维度](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html) |
+| Advertising Analytics | 在Adobe Analytics中并排分析您的所有Google和Bing付费搜索数据。通过集成创建的维度包括广告平台、关键字、匹配类型等。创建的指标为AMO印象、AMO点击、AMO成本、平均。位置和平均。质量分数划分。 | [Advertising Analytics](https://docs.adobe.com/help/en/analytics/integration/advertising-analytics/overview.html) |
+| Audience Analytics | 在AAM中借助用户的受众会员资格，丰富入站Analytics点击。您可以将AAM受众数据(例如人口统计信息(例如性别或收入水平)、心理统计信息(如兴趣和爱好)、CRM数据和广告印象数据)合并到任何Analytics工作流程中。通过此集成创建的维度是受众ID和受众名称。 | [Audience Analytics](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/mc-audiences-aam.html) |
+| 归因 IQ | 使您能够了解客户旅程中的有意义互动，智能识别导致客户定位结果的转折点，有效优化营销活动。模型包括第一个、最后一个、线性、参与、j-形状、反向j形、u形、相同的触控、自定义和时间衰减。 | [归因 IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) |
+| 异常检测 | 一种统计方法，用于确定给定指标相对于先前数据的变化方式。在Analysis Workspace中，默认情况下将打开所有趋势可视化的AD。 | [异常检测](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
+| 贡献分析 | 通过运行可访问的每个指标和维度的自动分析，探索出现异常背后的“原因”。 | [贡献分析](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
+| 同类群组分析 | 同期群是一组在指定时间段内共享共同特征的人员。群组分析致力于分析用户的保留和流失。 | [同类群组分析](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.html) |
+| 客户旅程报告 | 显示有关用户在站点或应用程序中执行的路径的信息。Prop、eVar和事件可在Analysis Workspace的分析中使用。 | [Analysis Workspace FalloutAnalysis](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)[Workspace FlowReports](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/flow/flow.html)[&amp; Analytics路径](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-paths.html) |
+| 营销渠道 | 一种报表，可帮助您了解哪些外部渠道驱使用户访问您的网站，以及哪些内容可最有效地促使转化。提供首次和最近联系属性视图。这是 Adobe Analytics 中的首选外部流量源报表（而非促销活动或流量源），因为通过它可以最全面地了解付费和免费渠道。 | [营销渠道](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-getting-started-mchannel.html) |
+| 移动 | 显示有关从移动设备或平板电脑访问的网站的信息。 | [移动报告 | (https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-mobile.html) |
+| 移动设备应用程序 | 显示与您的移动设备应用程序相关的基本使用信息。只要我们的 SDK 得以实施并且报表处于开启状态，这些报表即可供您使用。此外，Adobe Mobile Services 还创建了一个单独的移动设备应用程序界面，它提供更加全面的应用程序数据，从而允许您了解和改进应用程序的用户参与。Access the interface [here](https://mobilemarketing.adobe.com). | [Adobe Mobile 服务](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | 产品 | 识别单个产品和产品组（类别）对各项转化量度（如收入或结账）的贡献情况。 | [产品报告](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-products.html) |
+| 区段比较 | 通过自动分析每个可访问的指标和维度，发现细分之间最明显的差异。 | [区段比较](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) |
+| 站点内容报告 | 显示的信息包括网站上哪些页面和区域最为活跃及哪些服务器使用率最高。 | [站点内容报告](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-site-content.html) |
+| Site Metrics报告 | 显示有关您的网站的数量信息，例如独特访客数、订单数、收入等。每个量度都可置于其他基于项目的报表中。 | [Site Metrics报告](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-site-metrics.html) |
+| 访客资料 | 一种报表，可按不同资料类别（包括国家/地区、州、邮政编码及域）来显示客户的购买模式。 | [访客资料](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-visitor-profile.html) |
+| 访客维系 | 显示有关客户忠诚度的信息，例如访客回访您的网站的次数和频率。 | [访客维系](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-visitor-retention.html) |
+| 项目链接、共享和日程安排 | 在 Analytics 界面中保存和/或与其他人共享您工作的方法。 | [发送和计划文件](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/send-schedule-files.html) |
+
 
 ## Key metrics {#concept_392819DC275C48688E2CE4ABD4C5EE43}
 
 | 量度名称 | 定义 | 文档链接 |
 |---|---|---|
-| 完整量度列表 | Adobe Analytics 中所有量度的定义。 | [https://marketing.adobe.com/resources/help/zh_CN/reference/metrics.html](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html) |
-| 独特访客 | 在指定时段内访问网站的非重复访客数量。 | [https://marketing.adobe.com/resources/help/zh_CN/reference/metrics_unique_visitors.html](https://marketing.adobe.com/resources/help/en_US/reference/metrics_unique_visitors.html) |
-| 访问 | 表示一系列的页面查看操作。访问在访客首次查看网站上的页面时开始，在处于非活动状态 30 分钟后结束。 | [https://marketing.adobe.com/resources/help/zh_CN/reference/metrics_visit.html](https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html) |
-| 页面查看 | 访客查看您网站上的页面时即发生页面查看。 | [https://marketing.adobe.com/resources/help/zh_CN/reference/metrics_page_view.html](https://marketing.adobe.com/resources/help/en_US/reference/metrics_page_view.html) |
-| 实例 | 定义变量的次数。每当 Adobe Analytics 发现变量中有值时，实例数就会在相应的报表中递增 1。 | [https://marketing.adobe.com/resources/help/zh_CN/reference/metrics_instance.html](https://marketing.adobe.com/resources/help/en_US/reference/metrics_instance.html) |
-| 计算量度 | 可从现有量度创建的自定义量度。例如，如果有收入和访问量，就可以创建一个自定义量度，来计算每次访问的平均收入或被访问数相除的收入（收入/访问数）。 | [https://marketing.adobe.com/resources/help/zh_CN/analytics/calcmetrics/](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) |
+| 完整量度列表 | Adobe Analytics 中所有量度的定义。 | [指标概述](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-overview.html) |
+| 独特访客 | 在指定时段内访问网站的非重复访客数量。 | [独特访客](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-unique-visitors-v15-dsc.html) |
+| 访问 | 表示一系列的页面查看操作。访问在访客首次查看网站上的页面时开始，在处于非活动状态 30 分钟后结束。 | [访问](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-visit.html) |
+| 页面查看 | 访客查看您网站上的页面时即发生页面查看。 | [页面查看次数](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-page-view.html) |
+| 实例 | 定义变量的次数。每当 Adobe Analytics 发现变量中有值时，实例数就会在相应的报表中递增 1。 | [实例](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-instance.html) |
+| 发生次数 | 定义或持续变量的次数。 | [发生次数](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-occurrences.html) |
 
 ## 导入选项 {#concept_7C6DF03B5F9149E2A77F36C739432059}
 
 | 选项 | 描述 | 文档链接 |
 |---|---|---|
-| 分类导入器 | 通过浏览器或 FTP 上载导入与已捕获维度对应的元数据。相对于规则生成器的手动方法。 | [https://marketing.adobe.com/resources/help/zh_CN/reference/c_working_with_saint.html](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html) |
-| 规则生成器 | 根据用户定义的规则，自动创建维度的元数据分类。 | [https://marketing.adobe.com/resources/help/zh_CN/reference/classification_rule_builder.html](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html) |
-| 数据源 | 根据维度或只是按天将离线量度导入 Analytics。 | [https://marketing.adobe.com/resources/help/zh_CN/sc/datasources/datasrc_home.html](https://marketing.adobe.com/resources/help/en_US/sc/datasources/datasrc_home.html) |
-| Data Connectors | 请参阅[产品](../../analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B)。 |  |
+| 分类导入器 | 通过浏览器或 FTP 上载导入与已捕获维度对应的元数据。相对于规则生成器的手动方法。 | [分类导入器](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html) |
+| 规则生成器 | 根据用户定义的规则，自动创建维度的元数据分类。 | [分类规则生成器](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html) |
+| 客户属性 | 上传到Experience Cloud的CRM数据，用于Adobe Analytics和Adobe Target。 | [客户属性](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) |
+| 数据源 | 在Analytics中根据维度或一天简单地离线量度。 | [数据源](https://docs.adobe.com/content/help/en/analytics/import/data-sources/datasrc-home.html) |
+| Adobe Exchange数据连接器 | See [Adobe Analytics Tools](../../analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B). |  |
+| 原生集成 | Audience Analytics&amp; Advertising Analytics。 | 请参阅“关键报告”部分。 |
 
 ## Export options {#concept_C62B688E259141CF92C048E8110464BE}
 
+| 选项 | 描述 |  |
+|--- |--- |--- |
+| UI下载和预定 | 将Analysis Workspace中的数据导出为CSV或PDF | [下载 PDF 或 CSV 文件](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
+| Report Builder | 请参阅分析工具。 | - |
+| Analytics API | 创建您自己的自定义 Analytics 数据查询。 | <ul><li>[API2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)</li><li>[API1.4](https://github.com/AdobeDocs/analytics-1.4-apis)</li></ul> |
+| Data Warehouse | 请参阅分析工具。 | - |
+| Analytics 数据馈送 | 从 Analytics 获取数据的最精细方法。设置来自 Analytics 的点击级别馈送。 | [Analytics 数据馈送](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/get-started/data-feed-overview.html)的权限 |
 
-<table id="table_99867D82082D4756872FC3ABD83A33A1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 选项 </th> 
-   <th colname="col2" class="entry"> 描述 </th> 
-   <th colname="col3" class="entry"> </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 界面报表下载 </td> 
-   <td colname="col2"> 从 Analytics 导出数据的最简单方法 </td> 
-   <td colname="col3">https://microsite.omniture.com/t2/help/zh_CN/survey/index.html#Downloading_a_Report_Using_ <p>Basic_Options </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Data Warehouse </td> 
-   <td colname="col2">请参阅<a href="../../analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B" format="dita" scope="local">产品</a>。 </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Report Builder </td> 
-   <td colname="col2">请参阅<a href="../../analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B" format="dita" scope="local">产品</a>。 </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Analytics API </td> 
-   <td colname="col2"> 创建您自己的自定义 Analytics 数据查询。 </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/developer/documentation" format="https" scope="external"> https://marketing.adobe.com/developer/documentation</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 点击流数据馈送 </td> 
-   <td colname="col2"> 从 Analytics 获取数据的最精细方法。设置来自 Analytics 的馈送点击级别。 </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/sc/clickstream/datafeeds_reference.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/zh_CN/sc/clickstream/datafeeds_reference.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 计划数据 </td> 
-   <td colname="col2"> 大部分 Adobe Analytics 导出选项都具有计划将数据与报告提交到电子邮件或 FTP 站点的功能。 </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
- </tbody> 
-</table>
 
 ## Data collection and validation {#concept_E07350D4CA5047DAA7D81F762F29606A}
 
-<table id="table_53039DCCAC1D47F7A1E3485609D13E4D"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 方法/资源 </th> 
-   <th colname="col2" class="entry"> 描述 </th> 
-   <th colname="col3" class="entry"> 文档链接 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 开发人员资源 </td> 
-   <td colname="col2"> 文档概述了可用于收集所有可用平台（Web、移动设备应用程序、视频、Flash 等）间 Analytics 数据的库 </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/developer.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/zh_CN/reference/developer.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 实施指南 </td> 
-   <td colname="col2"> 有关数据收集变量的说明，以及有关在 JavaScript 中实施数据收集代码的详细信息。 </td> 
-   <td colname="col3"> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/zh_CN/sc/implement/index.html</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> App Measurement (s_code) </td> 
-   <td colname="col2"> 全局变量管理 </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html#" format="html" scope="external"> https://marketing.adobe.com/resources/help/zh_CN/sc/implement/appmeasure_mjs.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 应用程序 SDK </td> 
-   <td colname="col2"> 包含应用程序配置文件预填充版本的自定义包。 </td> 
-   <td colname="col3">iOS： <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=requirements" format="https" scope="external"> https://marketing.adobe.com/resources/help/zh_CN/mobile/ios/?f=requirements</a> </p> <p>Android： </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/zh_CN/mobile/android/requirements.html</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Dynamic Tag Management (DTM) </td> 
-   <td colname="col2">请参阅<a href="../../analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B" format="dita" scope="local">产品</a>。 </td> 
-   <td colname="col3"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> VISTA </td> 
-   <td colname="col2"> 用于填充报表变量的服务器端方法。VISTA 使用访客分段规则来创建所有在线数据的实时分段。这些规则使您几乎能够以您选择的任何方式来更改数据或对数据进行分段，而无需在您的网站上实施复杂的逻辑。 </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/VISTA.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/zh_CN/reference/VISTA.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 处理规则 </td> 
-   <td colname="col2"> 一种用于简化数据收集的方法，它还可用于管理通过管理员工具部分发送到报表的内容。处理规则提供一个界面，可帮助简化 IT 团队和 Web 开发人员的交互，从而能够设置、修改和复制变量。 </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/zh_CN/reference/processing_rules.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 调试程序选项 </td> 
-   <td colname="col2"> 当前有数种可用的调试程序和包嗅探器可帮助验证您的实施。我们的首选调试程序为 Charles。其他调试程序还包括 Adobe Debugger、HTTPFox、Firebug、Omnibug、Fiddler 和 HTTPWatch。 </td> 
-   <td colname="col3">Adobe Debugger： <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/zh_CN/sc/implement/debugger.html</a> </p> <p>Charles： </p> <p><a href="https://www.charlesproxy.com/" format="http" scope="external"> https://www.charlesproxy.com/</a> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 方法/资源 | 描述 | 文档链接 |
+|--- |--- |--- |
+| 开发人员资源 | 文档概述了可用于收集所有可用平台（Web、移动设备应用程序、视频、Flash 等）间 Analytics 数据的库 | [开发人员文档](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| 实施指南 | 有关数据收集变量的说明，以及有关在 JavaScript 中实施数据收集代码的详细信息。 | [实施指南](https://docs.adobe.com/content/help/en/analytics/implementation/home.html) |
+| App Measurement (s_code) | 全局变量管理 | [AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html) |
+| 应用程序 SDK | 包含应用程序配置文件预填充版本的自定义包。 | <ul><li>[iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)</li><li>[Android](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
+| DTM和Adobe Launch | 请参阅分析工具。 |  |
+| VISTA | 使您能够应用服务器端逻辑，以在收集数据时更改或细分数据。 | [VISTA 规则](https://marketing.adobe.com/resources/help/en_US/reference/VISTA.html) |
+| 处理规则 | 能够在Analytics UI中设置、修改和复制变量，从而更改收集的数据。 | [处理规则](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html) |
+| 调试程序选项 | 有若干调试器和包嗅探器可帮助验证您的实施，包括Adobe Experience Cloud调试器。 | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en) |
+| 数据插入 API | 数据插入API为服务器端数据收集和提交到Experience Cloud服务器提供了一种机制。服务器端数据收集仅根据Web浏览器请求和Web服务器响应收集数据，而不是在每个网页上使用JavaScript信标将访客数据传输到Experience Cloud服务器。 | [使用POST实施Adobe Analytics数据插入API的步骤](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
