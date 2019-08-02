@@ -2,7 +2,7 @@
 title: Adobe Analytics中使用的条款
 description: Adobe Analytics词汇表，定义常用术语。
 translation-type: tm+mt
-source-git-commit: aeb2fc9f53aec6b4e53378b87e64c01f0b437d87
+source-git-commit: a11a31d49dcfc3202f963ce25fbccd82ce8988f9
 
 ---
 
@@ -34,6 +34,7 @@ source-git-commit: aeb2fc9f53aec6b4e53378b87e64c01f0b437d87
 * **点击流数据源：** 请参阅数据源。
 * **Cohount：** 一组在特定时间段内共享共同特征的人员。See [What is Cohort Analysis?](../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) 分析用户指南中。
 * **集合服务器：** 请参阅数据收集服务器。
+* **上下文数据变量：** 仅在处理规则中使用的临时变量。如果处理规则不复制到转换或流量变量，上下文数据变量值会永久丢失。请参阅 [“实施用户指南”中的上下文数据变量](../implement/js-implementation/c-variables/context-data-variables.md) 。
 * **转换变量：** 称为eVar。存储自定义值，并保留变量值直到它过期。See [Conversion variables](../components/c-variables/dimensionslist/reports-conversion.md) in the Components user guide.
 * **相关性：** 不再用作术语；替换为维度划分。在Adobe Analytics的早期版本中，关联授予了分解流量变量的能力。请参阅 [分析用户指南中的分解维度](../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) 。
 * **当前数据：** 某些报告中允许包含最近未完全处理的数据的选项。请参阅 [分析用户指南中的当前数据](../analyze/reports-analytics/current-data.md) 。
@@ -97,6 +98,7 @@ source-git-commit: aeb2fc9f53aec6b4e53378b87e64c01f0b437d87
 * **服务器调用：** 图像请求或点击的替代名称，主要用于计费上下文。
 * **单次访问：** 一个访问，其中维度只有唯一的唯一值。访问可能有多个点击，只要没有多个唯一值。请参阅 [组件用户指南](../components/c-variables/c-metrics/metrics-single-access.md) 中的单次访问。另请参阅回弹。
 * **SiteCatalyst：** 不再用作术语。Adobe Analytics的先前产品名称。
+* **解决方案设计文档：** 也称为解决方案设计参考或SDR。由组织维护的内部文档，它概述了自定义变量的使用方式以及用于填充这些变量的逻辑。请参阅 [“实施用户指南”中的创建解决方案设计文档](../implement/prepare/solution-design.md) 。
 * **子关系：** 不再用作术语；替换为维度划分。在以前版本的Adobe Analytics中，子关系授予了划分转化变量的能力。请参阅 [分析用户指南中的分解维度](../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) 。
 * **成功事件：** 用户采取的跟踪操作。您的单位决定要跟踪的事件以及用于跟踪其的成功事件变量。请参阅 [组件用户指南](../components/c-variables/c-metrics/metrics-custom.md) 中的自定义事件。
 * **支持的用户：** 请参阅客户支持代表。
