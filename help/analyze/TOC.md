@@ -3,8 +3,8 @@ product: analytics
 audience: 最终用户
 user-guide-title: Analytics Analyze 指南
 user-guide-url: /content/help/zh-Hans/analytics/analyze/home.html
-translation-type: ht
-source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
+translation-type: tm+mt
+source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
 
 ---
 
@@ -324,8 +324,8 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [计划管理器](ad-hoc-analysis/c-schedule.md)
    + [表生成器](ad-hoc-analysis/c-tablebuilder.md)
    + [时间](ad-hoc-analysis/c-time.md)
-+ 技术预览 {#tech-previews}
-   + [技术预览概述](tech-previews/overview.md)
++ Labs {#tech-previews}
+   + [Labs概述](tech-previews/overview.md)
 + Analytics Reporting API {#analytics-reporting-api}
    + [Analytics Reporting API 概述](c-reporting-api/c-reporting-api.md)
    + [Analytics Reporting API 比较](c-reporting-api/api-comparison.md)
