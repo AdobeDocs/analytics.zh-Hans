@@ -1,16 +1,16 @@
 ---
 description: 此部分包含 Adobe Analytics 的关键概念，有关该概念的简要描述，以及具有该主题额外详细信息的特定文档链接。
 seo-description: 此部分包含 Adobe Analytics 的关键概念，有关该概念的简要描述，以及具有该主题额外详细信息的特定文档链接。
-seo-title: Adobe Analytics-关键概念
-title: Adobe Analytics-关键概念
+seo-title: Adobe Analytics - 关键概念
+title: Adobe Analytics - 关键概念
 uuid: ef5701c5-2d3e-4847-851f-9312d55db1a8
 translation-type: tm+mt
-source-git-commit: d7553fb973d4daddc46533f76769b383966c5c7d
+source-git-commit: 998699eb14d40b955cb6ae73ecf1940c8aed15ab
 
 ---
 
 
-# Adobe Analytics-关键概念
+# Adobe Analytics - 关键概念
 
 此部分包含 Adobe Analytics 的关键概念，有关该概念的简要描述，以及具有该主题额外详细信息的特定文档链接。
 
@@ -44,10 +44,10 @@ source-git-commit: d7553fb973d4daddc46533f76769b383966c5c7d
 | 计算量度 | 能够从通过实施获取的现有指标派生自定义指标。 | [计算量度](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html) |
 | 区段 | 能够生成、管理和共享强大而集中的受众区段，并将其应用于您的 Analytics 报表。区段在各 Analytics 产品间共享，还可在整个 Experience Cloud 中共享。 | [区段划分](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) |
 | 时间(日期范围) | 可过滤日期至任何时间段并创建可在分析中重复使用的自定义日期范围。 | [日期范围](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) |
-| 可视化 | 丰富的视觉效果，可帮助您在项目中生动地呈现数据。 | [可视化信息](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) |
+| 可视化 | 丰富的视觉效果，可帮助您在项目中生动地呈现数据。 | [可视化](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) |
 | 管理分析 | 能够限制在项目或虚拟报告套件中访问的组件。 | [VRS CurationProject](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-components.html)<br>[CurrationCompare](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html)</br><br>[](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) |
 
-## Key reports {#concept_216E78AD39DD453D940AE857F4C7D4DF}
+## 关键报告
 
 | 报表 | 描述 | 文档链接 |
 |--- |--- |--- |
@@ -60,8 +60,8 @@ source-git-commit: d7553fb973d4daddc46533f76769b383966c5c7d
 | 同类群组分析 | 同期群是一组在指定时间段内共享共同特征的人员。群组分析致力于分析用户的保留和流失。 | [同类群组分析](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.html) |
 | 客户旅程报告 | 显示有关用户在站点或应用程序中执行的路径的信息。Prop、eVar和事件可在Analysis Workspace的分析中使用。 | [Analysis Workspace FalloutAnalysis](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)[Workspace FlowReports](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/flow/flow.html)[&amp; Analytics路径](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-paths.html) |
 | 营销渠道 | 一种报表，可帮助您了解哪些外部渠道驱使用户访问您的网站，以及哪些内容可最有效地促使转化。提供首次和最近联系属性视图。这是 Adobe Analytics 中的首选外部流量源报表（而非促销活动或流量源），因为通过它可以最全面地了解付费和免费渠道。 | [营销渠道](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-getting-started-mchannel.html) |
-| 移动 | 显示有关从移动设备或平板电脑访问的网站的信息。 | [移动报告 | (https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-mobile.html) |
-| 移动设备应用程序 | 显示与您的移动设备应用程序相关的基本使用信息。只要我们的 SDK 得以实施并且报表处于开启状态，这些报表即可供您使用。此外，Adobe Mobile Services 还创建了一个单独的移动设备应用程序界面，它提供更加全面的应用程序数据，从而允许您了解和改进应用程序的用户参与。Access the interface [here](https://mobilemarketing.adobe.com). | [Adobe Mobile 服务](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | 产品 | 识别单个产品和产品组（类别）对各项转化量度（如收入或结账）的贡献情况。 | [产品报告](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-products.html) |
+| 移动设备 | 显示有关从移动设备或平板电脑访问的网站的信息。 | [移动报告 | (https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-mobile.html) |
+| 移动设备应用程序 | 显示与您的移动设备应用程序相关的基本使用信息。只要我们的 SDK 得以实施并且报表处于开启状态，这些报表即可供您使用。此外，Adobe Mobile Services 还创建了一个单独的移动设备应用程序界面，它提供更加全面的应用程序数据，从而允许您了解和改进应用程序的用户参与。在此处访问界面 [](https://mobilemarketing.adobe.com)。 | [Adobe Mobile 服务](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | 产品 | 识别单个产品和产品组（类别）对各项转化量度（如收入或结账）的贡献情况。 | [产品报告](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-products.html) |
 | 区段比较 | 通过自动分析每个可访问的指标和维度，发现细分之间最明显的差异。 | [区段比较](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) |
 | 站点内容报告 | 显示的信息包括网站上哪些页面和区域最为活跃及哪些服务器使用率最高。 | [站点内容报告](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-site-content.html) |
 | Site Metrics报告 | 显示有关您的网站的数量信息，例如独特访客数、订单数、收入等。每个量度都可置于其他基于项目的报表中。 | [Site Metrics报告](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-site-metrics.html) |
@@ -69,15 +69,14 @@ source-git-commit: d7553fb973d4daddc46533f76769b383966c5c7d
 | 访客维系 | 显示有关客户忠诚度的信息，例如访客回访您的网站的次数和频率。 | [访客维系](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-visitor-retention.html) |
 | 项目链接、共享和日程安排 | 在 Analytics 界面中保存和/或与其他人共享您工作的方法。 | [发送和计划文件](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/send-schedule-files.html) |
 
-
 ## Key metrics {#concept_392819DC275C48688E2CE4ABD4C5EE43}
 
 | 量度名称 | 定义 | 文档链接 |
 |---|---|---|
-| 完整量度列表 | Adobe Analytics 中所有量度的定义。 | [指标概述](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-overview.html) |
+| 完整量度列表 | Adobe Analytics 中所有量度的定义。 | [量度概述](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-overview.html) |
 | 独特访客 | 在指定时段内访问网站的非重复访客数量。 | [独特访客](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-unique-visitors-v15-dsc.html) |
 | 访问 | 表示一系列的页面查看操作。访问在访客首次查看网站上的页面时开始，在处于非活动状态 30 分钟后结束。 | [访问](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-visit.html) |
-| 页面查看 | 访客查看您网站上的页面时即发生页面查看。 | [页面查看次数](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-page-view.html) |
+| 页面查看次数 | 访客查看您网站上的页面时即发生页面查看。 | [页面查看次数](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-page-view.html) |
 | 实例 | 定义变量的次数。每当 Adobe Analytics 发现变量中有值时，实例数就会在相应的报表中递增 1。 | [实例](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-instance.html) |
 | 发生次数 | 定义或持续变量的次数。 | [发生次数](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-occurrences.html) |
 
@@ -89,18 +88,18 @@ source-git-commit: d7553fb973d4daddc46533f76769b383966c5c7d
 | 规则生成器 | 根据用户定义的规则，自动创建维度的元数据分类。 | [分类规则生成器](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html) |
 | 客户属性 | 上传到Experience Cloud的CRM数据，用于Adobe Analytics和Adobe Target。 | [客户属性](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) |
 | 数据源 | 在Analytics中根据维度或一天简单地离线量度。 | [数据源](https://docs.adobe.com/content/help/en/analytics/import/data-sources/datasrc-home.html) |
-| Adobe Exchange数据连接器 | See [Adobe Analytics Tools](../../analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B). |  |
+| Adobe Exchange数据连接器 | 请参阅 [Adobe Analytics工具](../../analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B)。 |  |
 | 原生集成 | Audience Analytics&amp; Advertising Analytics。 | 请参阅“关键报告”部分。 |
 
 ## Export options {#concept_C62B688E259141CF92C048E8110464BE}
 
-| 选项 | 描述 |  |
-|--- |--- |--- |
-| UI下载和预定 | 将Analysis Workspace中的数据导出为CSV或PDF | [下载 PDF 或 CSV 文件](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
-| Report Builder | 请参阅分析工具。 | - |
+| 选项 | 描述 | 文档链接 |
+|---|---|---|
+| UI下载和预定 | 将Analysis Workspace中的数据导出为CSV或PDF | [下载 PDF 或 CSV 文件](/help/analyze/analysis-workspace/curate-share/download-send.md) |
+| Report Builder | 请参阅分析工具。 |
 | Analytics API | 创建您自己的自定义 Analytics 数据查询。 | <ul><li>[API2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)</li><li>[API1.4](https://github.com/AdobeDocs/analytics-1.4-apis)</li></ul> |
-| Data Warehouse | 请参阅分析工具。 | - |
-| Analytics 数据馈送 | 从 Analytics 获取数据的最精细方法。设置来自 Analytics 的点击级别馈送。 | [Analytics 数据馈送](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/get-started/data-feed-overview.html)的权限 |
+| Data Warehouse | 请参阅分析工具。 |  |
+| Analytics 数据馈送 | 从 Analytics 获取数据的最精细方法。设置来自 Analytics 的点击级别馈送。 | [Analytics 数据馈送](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/get-started/data-feed-overview.html) |
 
 
 ## Data collection and validation {#concept_E07350D4CA5047DAA7D81F762F29606A}
