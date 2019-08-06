@@ -1,18 +1,18 @@
 ---
 description: 可以将加盖时间戳和未加盖时间戳的数据合并到单个报表包中。
 seo-description: 可以将加盖时间戳和未加盖时间戳的数据合并到单个报表包中。
-seo-title: 时间戳可选
+seo-title: 可选时间戳
 solution: Analytics
-title: 时间戳可选
+title: 可选时间戳
 topic: 管理工具
 uuid: fa63658-1cc2-4adc-8d51-a0662 d0 aa941
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2b7644a7af34fff95d7557382abf3d370bd2637c
 
 ---
 
 
-# 时间戳可选
+# 可选时间戳
 
 可以将加盖时间戳和未加盖时间戳的数据合并到单个报表包中。
 
@@ -22,7 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 将加盖时间戳的数据从移动设备应用程序发送至全局报表包。
 * 升级应用程序以使用离线跟踪功能，而不必创建新的报表包。
 
-请参阅[使用可选时间戳](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=timestamps-overview)，以了解在报表包中使用时间戳的最佳做法。
+请参阅[使用可选时间戳](/help/implement/js-implementation/timestamps-overview.md)，以了解在报表包中使用时间戳的最佳做法。
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->启用了时间戳的会话数据会保存长达 92 天。
+>启用了时间戳的会话数据会保存长达 92 天。这意味着访问/会话将被“保持打开状态”为92天，而任何其他点击(在上次点击之后30分钟(点击时间)之后)仍可包含在同一访问/会话中。从订单中收到的任何“旧”点击将产生“未知”结果，因为诸多因素(分段、分配、到期等)影响这些点击是否将包含在报表中。
 
 ## 新建报表包 {#section_095A7CFBD280494593B9BEC1592B73A6}
 
