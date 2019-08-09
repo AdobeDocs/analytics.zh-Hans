@@ -8,7 +8,7 @@ title: JavaScript 实施概述
 topic: 开发人员和实施
 uuid: bb661d8c-faf9-4454-ac3 c-0c1 a4 c0 a9336
 translation-type: tm+mt
-source-git-commit: 883eb12c6c0f9b566dd485227d19cee16d9cfadc
+source-git-commit: 0a1db598a2b113ad71eb5d05d3f5c97f1af7cd62
 
 ---
 
@@ -33,11 +33,11 @@ The easiest and recommended way to send data to [!DNL Analytics] is by using [La
 |--- |--- |
 | 1. 下载AppMeasurement for JavaScript和ID服务。 | 通过Experience Cloud登录Analytics。下载文件可在“Analytics”(分析)&gt;“Admin”(管理)&gt;“Code Manager”(代码管理器)中找到。此下载 zip 文件中包含多个文件。其中，AppMeasurement.js 和 VisitorAPI.js 是实施 Analytics 时要用到的相关文件。 |
 | 2. 设置标识服务。(以前称为访客ID服务) | 请参阅 [设置用于Analytics的Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) |
-| 更新 `AppMeasurement.js`. | Copy the [example AppMeasurement.js code](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_4351543F2D6049218E18B48769D471E2) and paste it at the beginning of your `AppMeasurement.js` file. 请至少更新以下变量：<ul><li>s.account="INSERT-RSID-HERE"</li><li>s.trackingServer="INSERT-TRACKING-SERVER-HERE"</li><li>s.visitorNamespace = "INSERT-NAMESPACE-HERE"</li><li>s.visitor = Visitor.getInstance("INSERT-MCORG-ID-HERE")</li></ul><br>请参阅 [正确填充TrackingServer和TrackingServerSecure变量](https://helpx.adobe.com/analytics/kb/determining-data-center.html) ，如果您不确定其中任何值，请与客户关怀联系。如果这些值设置错误，那么将无法通过您的实施来收集数据。</br> |
-| 3. 主持人 `AppMeasurement.js` 和 `VisitorAPI.js`。 | 这些核心 JavaScript 文件必须在一个您的所有站点页面都能访问的 Web 服务器上托管。下一步需要使用这些文件的路径。 |
-| 4. Reference `AppMeasurement.js` and `VisitorAPI.js`  on all site pages. | <ul><li>Include the Visitor ID Service by adding the following line of code in the `head` or `body` tag on each page. `VisitorAPI.js` 必须包含 `AppMeasurement.js`在之前：`script language="JavaScript" type="text/javascript" src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/VisitorAPI.js"`</li><li>Include AppMeasurement for JavaScript by adding the following line of code in the `head` or `body` tag on each page: `script language="JavaScript" type="text/javascript"  src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"`</li></ul> |
-| 5. 更新和部署页面代码。 | Copy the [Example Page Code](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7) and paste it just after the opening `body` tag on each page you want to track. 请至少更新以下变量：<ul><li>var s=s_gi("INSERT-RSID-HERE")</li><li>s. pageName=“INSERT-NAME-HERE”(例如，s. pageName= document. title)</li></ul> |
-| 6. 使用Experience Cloud调试器验证数据是否正在发送。 | Install the [Experience Cloud Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html#concept_B26FFE005EDD4E0FACB3117AE3E95AA2). 安装完成后，载入某个您已部署页面代码的页面，然后打开调试程序。调试程序会显示有关已发送的收集数据的详细信息。 |
+| 3. Update `AppMeasurement.js`. | Copy the [example AppMeasurement.js code](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_4351543F2D6049218E18B48769D471E2) and paste it at the beginning of your `AppMeasurement.js` file. 请至少更新以下变量：<ul><li>s.account="INSERT-RSID-HERE"</li><li>s.trackingServer="INSERT-TRACKING-SERVER-HERE"</li><li>s.visitorNamespace = "INSERT-NAMESPACE-HERE"</li><li>s.visitor = Visitor.getInstance("INSERT-MCORG-ID-HERE")</li></ul><br>请参阅 [正确填充TrackingServer和TrackingServerSecure变量](https://helpx.adobe.com/analytics/kb/determining-data-center.html) ，如果您不确定其中任何值，请与客户关怀联系。如果这些值设置错误，那么将无法通过您的实施来收集数据。</br> |
+| 4. 主持人 `AppMeasurement.js` 和 `VisitorAPI.js`。 | 这些核心 JavaScript 文件必须在一个您的所有站点页面都能访问的 Web 服务器上托管。下一步需要使用这些文件的路径。 |
+| 5. Reference `AppMeasurement.js` and `VisitorAPI.js`  on all site pages. | <ul><li>Include the Visitor ID Service by adding the following line of code in the `head` or `body` tag on each page. (`VisitorAPI.js` must be included before `AppMeasurement.js`).<br>`script language="JavaScript" type="text/javascript" src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/VisitorAPI.js"`</br></li><li>Include AppMeasurement for JavaScript by adding the following line of code in the `head` or `body` tag on each page:<br>`script language="JavaScript" type="text/javascript"  src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"`</br></li></ul> |
+| 6. 更新和部署页面代码。 | Copy the [Example Page Code](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7) and paste it just after the opening `body` tag on each page you want to track. 请至少更新以下变量：<ul><li>var s=s_gi("INSERT-RSID-HERE")</li><li>s. pageName=“INSERT-NAME-HERE”(例如，s. pageName= document. title)</li></ul> |
+| 7. 使用Experience Cloud调试器验证数据是否正在发送。 | Install the [Experience Cloud Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html#concept_B26FFE005EDD4E0FACB3117AE3E95AA2). 安装完成后，载入某个您已部署页面代码的页面，然后打开调试程序。调试程序会显示有关已发送的收集数据的详细信息。 |
 
 ## 缓存 {#section_4E2D1D962DF046418134C43CFC49AD4A}
 
