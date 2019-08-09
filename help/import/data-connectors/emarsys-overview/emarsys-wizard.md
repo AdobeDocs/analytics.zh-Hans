@@ -29,4 +29,4 @@ source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
 1. 在 **[!UICONTROL emarsys xress Data Connectors集成]** 页面上，查看文本，然后选中该复选框以接受与集成相关的费用，然后单击 **[!UICONTROL 下一步]**。
 
    此页面提供该集成的概述，以及可帮助获取更多信息的有用链接。Adobe有与此集成相关的Adobe和emarsys费用。请联系这两个组织相应的销售代表，并确保您了解费用结构。
-1. 完成 [数据连接器集成向导](Publisher)。
+1. 完成 [数据连接器集成向导](https://microsite.omniture.com/t2/help/en_US/DataConnectors/index.html)。
