@@ -7,7 +7,7 @@ title: 关于区段和容器
 topic: 区段
 uuid: e8b1edd1-5d6c-4213-994b-ded789 ad30 a4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 774975605de502b66279888d8dd8ef58989a40de
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 您可以使用区段根据特性或网站交互来确定访客子集。区段是作为可编码的受众分析而设计的，您可以针对特定的需求生成区段，然后验证、编辑和与其他团队成员共享或在其他 Adobe 产品和 Analytics 功能中使用。
 
-## About segments and containers {#concept_82653C7E29FE49F5A4B5E5E93B0A6399}
+## 关于区段和容器 {#concept_82653C7E29FE49F5A4B5E5E93B0A6399}
 
 您可以使用区段根据特性或网站交互来确定访客子集。区段是作为可编码的受众分析而设计的，您可以针对特定的需求生成区段，然后验证、编辑和与其他团队成员共享或在其他 Adobe 产品和 Analytics 功能中使用。
 
