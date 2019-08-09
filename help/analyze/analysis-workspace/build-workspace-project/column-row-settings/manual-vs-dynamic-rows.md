@@ -5,7 +5,7 @@ seo-title: 静态与动态行
 title: 静态与动态行
 uuid: caf033ef-d252-4f8 a-802e-7edbbac5 c8 c0
 translation-type: tm+mt
-source-git-commit: fc29562a342c9d1721e250f5e3abc4d3fced926f
+source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
 
 ---
 
@@ -33,6 +33,6 @@ Analysis Workspace 表格会在您将维度拖入到表格中时生成“动态�
 
 | 选项 | 描述 |
 |---|---|
-| 通过汇总当前每列的值来计算总数。 | 此选项仅计算表格中的当前行。（客户端计算） |
+| (默认)通过累加每个列中当前的值计算总计。 | 此选项仅计算表格中的当前行。（客户端计算） |
 | 根据每个量度的所有行计算总数。 | 此选项包括此维度的所有维度项目，甚至包括未列在表格中的维度项目。（服务器端计算） |
 
