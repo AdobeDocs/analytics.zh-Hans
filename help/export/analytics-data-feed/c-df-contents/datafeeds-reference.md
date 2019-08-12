@@ -9,7 +9,7 @@ title: 数据列引用
 topic: Reports & Analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
 
 ---
 
@@ -67,7 +67,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 | ef_id | 在 Adobe Advertising Cloud 集成中使用的 ef_id。 | varchar(255) |
 | evar1-evar250 | 自定义变量 1-250。每个公司使用 eVar 的方式有所不同。要了解有关贵组织如何填充各个 eVar 的更多信息，您最好参阅专为贵组织设计的解决方案文档。 | varchar(255) |
 | event_list | 以逗号分隔的数字 ID 列表，其中各 ID 表示点击时所触发的各个事件。包含默认事件及自定义事件 1-1000。使用 event.tsv 查询表。 | text |
-| exclude_hit | 表示点击已从报表中排除的标记。访问_ num列不会为被排除的点击递增。<br>1：未使用. 一部分精选功能。<br>2：未使用. 一部分精选功能。<br>3：不再使用。User agent exclusion<br>4: Exclusion based on IP address<br>5: Vital hit info missing, such as page_url, pagename, page_event, or event_list<br>6: JavaScript did not correctly process hit<br>7: Account-specific exclusion, such as in a VISTA rules<br>8: Not used. 替代帐户特定排除。<br>9：未使用. 一部分精选功能。<br>10：货币代码<br>11无效：点击缺少时间戳报告套件上的时间戳，或者点击包含非时间戳报告包<br>12上的时间戳：未使用。一部分精选功能。<br>13：未使用. 一部分精选功能。<br>14：Target点击与Analytics点击<br>15不符：当前未使用。<br>16：Advertising Cloud点击与Analytics点击不符 | tinyint，无符号 |
+| exclude_hit | 表示点击已从报表中排除的标记。访问_ num列不会为被排除的点击递增。<br>1：未使用. 一部分精选功能。<br>2：未使用. 一部分精选功能。<br>3：不再使用。用户代理排除<br>4：排除基于IP地址<br>5：缺少重要的点击信息，如page_ url、pagename、page_ event或event_ list<br>6：JavaScript未正确处理点击<br>7：帐户特定排除，如VISTA规则<br>8：未使用。替代帐户特定排除。<br>9：未使用. 一部分精选功能。<br>10：货币代码<br>11无效：点击缺少时间戳报告套件上的时间戳，或者点击包含非时间戳报告包<br>12上的时间戳：未使用。一部分精选功能。<br>13：未使用. 一部分精选功能。<br>14：Target点击与Analytics点击<br>15不符：当前未使用。<br>16：Advertising Cloud点击与Analytics点击不符 | tinyint，无符号 |
 | first_hit_page_url | 访客访问的第一个 URL。 | varchar(255) |
 | first_hit_pagename | 在“原始登录页面”维度中使用的变量。访客访问的原始登录页面名称。 | varchar(100) |
 | first_hit_ref_domain | 在“原始反向链接域名”维度中使用的变量。基于 first_hit_referrer。访客访问的第一个反向链接的域名。 | varchar(100) |
@@ -119,14 +119,14 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 | mobiledayssincefirstuse | 距应用程序首次运行的间隔天数。 | varchar(255) |
 | mobiledayssincelastupgrade | 从上下文数据变量a. aysSinceLastUpgrade收集。上一会话自上一会话起的天数。 | varchar(255) |
 | mobiledayssincelastuse | 距应用程序上次运行的间隔天数。 | varchar(255) |
-| mobilepdeeplinkid | Collected from the context data variable a.<span>deeplink</span>.id. 在客户获取报告中使用，作为移动获取链接的标识符。 | varchar(255) |
+| mobilepdeeplinkid | 从上下文数据变量a.<span>deeblaink</span>. id收集。在客户获取报告中使用，作为移动获取链接的标识符。 | varchar(255) |
 | mobiledevice | 移动设备名称。在 iOS 上，该变量存储为用逗号分隔的 2 位数的字符串。第一个数字表示设备是第几代的，而另一个数字则表示设备所属的系列。 | varchar(255) |
 | mobilehourofday | 确定应用程序启动的具体时间。采用 24 小时数字格式。 | varchar(255) |
 | mobileinstalldate | 移动设备安装日期。表示用户首次打开移动设备应用程序的日期。 | varchar(255) |
 | mobilelaunchessincelastupgrade | 从上下文数据变量a. launchEsseUpgrade收集。报告自上次升级以来启动次数。 | varchar(255) |
 | mobilelaunchnumber | 应用程序每启动一次，该变量值便会递增。 | varchar(255) |
 | mobileltv | 已不再使用。由 trackLifetimeValue 方法填充。 | varchar(255) |
-| mobilemessageskutonname | Collected from the context data variable a.<span>message</span>.button.id. 用于应用程序内消息传递，用于标识关闭消息的按钮。 | varchar(100) |
+| mobilemessageskutonname | 从上下文数据变量a<span>. message</span>. button. id收集。用于应用程序内消息传递，用于标识关闭消息的按钮。 | varchar(100) |
 | mobilemessageid | 应用程序内消息ID | varchar(255) |
 | mobilemessageonline | 应用程序内消息在线 | varchar(255) |
 | mobilemessagepopshopping | 从上下文数据变量a. push. optin收集。用户选择推送消息时，设置为“true”；否则该值为“false”。 | varchar(255) |
@@ -135,7 +135,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 | mobileosversion | Mobile Services操作系统版本 | varchar(255) |
 | mobileplaceaccuracy | 从上下文数据变量a. loc. acc收集。指示GPS在收集时的精度以米为单位。 | varchar(255) |
 | mobileplacecategory | 从上下文数据变量收集到的. loc. category。描述特定位置的类别。 | varchar(255) |
-| mobileplaceid | Collected from the context data variable a.<span>loc</span>.id. 给定目标点的标识符。 | varchar(255) |
+| mobileplaceid | 从上下文数据变量a<span>. loc</span>. id收集。给定目标点的标识符。 | varchar(255) |
 | mobilerelaunchpaign content | Mobile Services启动内容 | varchar(255) |
 | mobilerelaunchuncampaigns medium | Mobile Services启动媒体 | varchar(255) |
 | mobilerelaunchpaign source | Mobile Services启动源 | varchar(255) |
@@ -277,3 +277,109 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 | weekly_visitor | 确定点击是否为新的每周访客的标记。 | tinyint，无符号 |
 | yearly_visitor | 确定点击是否为新的每年访客的标记。 | tinyint，无符号 |
 | zip | 用于填充“邮政编码”维度。 | varchar(50) |
+
+## 空列
+
+以下列列表未使用，且不包含数据：
+
+* mobilepreationclick
+* mobileactioninapptime
+* mobileactiontotaltime
+* mobilepappancepecefectededusers
+* mobilepappubliceappid<span>.</span>app-perf-app-name
+* mobilepappubliceappid<span>.</span>app-perf-platform
+* mobilepappances
+* mobilepappancicecraid<span>.</span>app-perf-rapash-name
+* mobilepappanceload
+* mobilepapplication光栅
+* mobilepapps下载
+* mobilepappstorefention
+* mobilepapapstoreparity
+* mobilepappstoreobjectd<span>.</span>app-store-user
+* mobilepappstoreobjectd<span>.</span>application-name
+* mobilepappstoreobjectd<span>.</span>应用程序版本
+* mobilepappstoreobjectd<span>.</span>appstore-name
+* mobilepappstoreobjectd<span>.</span>category-name
+* mobilepappstoreobjectd<span>.</span>countrie-name
+* mobilepappstoreobjectd<span>.</span>设备制造商
+* mobilepappstoreobjectd<span>.</span>device-name
+* mobilepappstoreobjectd<span>.</span>in-app-name
+* mobilepappstoreobjectd<span>.</span>platform-name-version
+* mobilepappstoreobjectd<span>.</span>layings-category-type
+* mobilepappstoreobjectd<span>.</span>region-name
+* mobilepappstoreobjectd<span>.</span>review-comment
+* mobilepappstoreobjectd<span>.</span>评论标题
+* mobilepapapstoreofvenue
+* mobilepapapstoreoffralalies
+* mobilepappstorepurchases
+* mobilepappastererk
+* mobilepappasterri divisor
+* mobilepapping
+* mobilepappasteratingdivisor
+* mobileproughessi长度
+* mobilecrashes
+* mobilecraprate
+* mobileday参与用户
+* mobilepdeepinkid<span>。</span>name
+* mobileinstalls
+* mobilelaunches
+* mobileltvtotal
+* mobilemessagececks
+* mobilemessageid<span>.</span>est
+* mobilemessageid<span>.</span>name
+* mobilemessageid<span>.</span>type
+* mobilemessages
+* mobilemessagepushpayload<span><span>.</span></span>name
+* mobilemessageviews
+* mobilemonson用户
+* mobilepacedwelltime
+* mobilepacepeental
+* mobilepacepeit
+* mobileprevsessionlength
+* mobilerelaunchpackagingcode<span><span>.</span></span>name
+* mobileupgrades
+* socialaveragesentiment
+* social平均值(已弃用)
+* socialfbstories
+* socialfbstorytellers
+* socialinteractioncount
+* sociallikeadds
+* sociallink
+* 社交链接(已弃用)
+* socialmentions
+* socialpageviews
+* socialpostviews
+* socialproperty
+* social属性(已弃用)
+* socialpubcomments
+* socialpubposts
+* socialpubrecommends
+* socialpubsubscribers
+* socialterm
+* socialtermslist
+* social altermslip(已弃用)
+* socialtotalsentiment
+* sourceid
+* videoAuthorized
+* videoaverageminuteaudience
+* videochaptercomplete
+* videochapterstart
+* videochaptertime
+* videopause
+* videopausecount
+* videopausetime
+* videoplay
+* videoprogress10
+* videoprogress25
+* videoprogress50
+* videoprogress75
+* videoprogress96
+* videoqoebitrateaverage
+* videoqoebitratechange
+* videoqoebuffer
+* videoqoedropbeforestart
+* videoqoedroppedframes
+* videoqoeerror
+* videoresume
+* videototaltime
+* videoniquequtimed
