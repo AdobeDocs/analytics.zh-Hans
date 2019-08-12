@@ -2,7 +2,7 @@
 title: 数据仓库中的组件支持
 description: 了解数据仓库中提供哪些其他维度和指标以及不支持哪些维度和指标。
 translation-type: tm+mt
-source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
+source-git-commit: d2854c4103c6882353b6454ea8c4027d7591a540
 
 ---
 
@@ -17,10 +17,9 @@ source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
 
 ### 专门支持的维度
 
-* Experience Cloud 访客 ID:
-* IP:
-* 页面 URL:
-* 购买 ID:
+* Experience Cloud访客ID：对于使用Experience Cloud ID Service(EID)的实施，128位数字由两个连接为19位的连接位数组成。
+* 页面URL：点击出现的页面URL。
+* 购买ID：购买的唯一标识符，使用purchaseID变量设置。
 * 访客ID：提供访客的唯一标识符。此值与数据源中的连接值 `visid_high` 和 `visid_low` 列相同。有关更多信息，请参阅 [数据源](../analytics-data-feed/c-df-contents/datafeeds-reference.md) 下的数据列引用。
 
 ### 仅支持的指标
@@ -59,7 +58,7 @@ source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
 * 所有搜索页面排名
 * 层次结构变量
 * 点击类型
-* 找不到页面(仅限区段)
+* 找不到页面(作为维度提供)；不支持分段)
 * 付费搜索
 * 单页面访问量
 * 跟踪选择退出的原因
