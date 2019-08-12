@@ -1,23 +1,23 @@
 ---
-title: 计算得出的指标总数
-seo-title: 计算得出的指标总数
+title: 计算量度总计
+seo-title: 计算量度总计
 description: 了解计算指标总数在Analytics工具中的差异
 seo-description: 计算计算指标总数的方式
 translation-type: tm+mt
-source-git-commit: 396a4b8e4e1e03fa958286097721be2c40230de1
+source-git-commit: 540e03f2e541cc5ea0a78e4402cd367241b44200
 
 ---
 
 
-# 计算得出的指标总数
+# 计算量度总计
 
-在 [DNL Reports&amp; Analytics] 和 [DNL Analysis Workspace之间显示计算指标总数的方式]有所不同。本节将介绍不同之处。
+计算得出的量度总数之间的差异不同 [!DNL Reports & Analytics][!DNL Analysis Workspace]。本节将介绍不同之处。
 
 ## 计算得出的指标总数 [!DNL Reports & Analytics]
 
 当您在中 [!DNL Reports & Analytics]查看报表时，计算得出的指标总是显示 `n/a` 在总计下方。由于所有计算指标都是用户定义的，所以在许多情况下，这一点没有意义。请仔细研究下面的示例：
 
-您所在的组织创建了计算得出的量度 [订单] / [访问] ，以确定在您的网站上购买物品的访问百分比。如果您将此指标引入产品报告，则将多个产品归于一个订单。而且，几个产品被归因于一次访问。如果此报告中包含计算得出的量度总数，则会出现以下问题：
+您的组织已创建计算量度 `orders` / `visits` 用于确定在您的站点上购买了某些内容的访问百分比。如果您将此指标引入产品报告，则将多个产品归于一个订单。而且，几个产品被归因于一次访问。如果此报告中包含计算得出的量度总数，则会出现以下问题：
 
 | 问题 | 回答 |
 |---|---|
