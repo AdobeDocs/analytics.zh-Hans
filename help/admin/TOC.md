@@ -3,8 +3,8 @@ product: analytics
 audience: admin
 user-guide-title: Analytics 管理指南
 user-guide-url: /content/help/zh-Hans/analytics/admin/home.html
-translation-type: ht
-source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
+translation-type: tm+mt
+source-git-commit: 92ac6c03013bd68326e4136a5d512171fc831689
 
 ---
 
@@ -24,16 +24,16 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
       + [上载机器人规则](admin/bot-rules/t-upload-bot-rules.md)
       + [创建自定义机器人规则](admin/bot-rules/t-create-bot-rules.md)
    + [代码管理器](admin/code-manager-admin.md)
-   + 转化变量 {#conversion-variables}
+   + Conversion variables {#conversion-variables}
       + [转化变量 (eVar)](admin/conversion-var-admin/conversion-var-admin.md)
       + [编辑转化变量](admin/conversion-var-admin/t-conversion-variables-admin.md)
       + [转化分类](admin/conversion-var-admin/conversion-classifications.md)
    + [货币代码](admin/currency.md)
-   + [自定义报表描述](admin/custom-desc-admin.md)
+   + [自定义报告描述](admin/custom-desc-admin.md)
    + [自定义日历](admin/custom-calendar.md)
    + [数据源](admin/data-sources.md)
-   + [默认量度](admin/default-metrics.md)
-   + [按 IP 地址排除](admin/exclude-ip.md)
+   + [默认指标](admin/default-metrics.md)
+   + [按IP地址排除](admin/exclude-ip.md)
    + [查找方法](admin/finding-methods.md)
    + [一般帐户设置](admin/general-acct-settings-admin.md)
    + [群组管理](admin/group.md)
@@ -41,9 +41,9 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
    + [日志](admin/logs.md)
    + [营销渠道](admin/marketing-channels-admin.md)
    + [菜单自定义](admin/customize-menus.md)
-   + [量度可见性](admin/metric-visibility.md)
-   + [移动设备管理](admin/mobile-management.md)
-   + 付费搜索检测 {#paid-search-detection}
+   + [指标可访问性](admin/metric-visibility.md)
+   + [移动管理](admin/mobile-management.md)
+   + Paid search detection {#paid-search-detection}
       + [付费搜索检测概述](admin/paid-search-detection/paid-search-detection.md)
       + [配置付费搜索检测](admin/paid-search-detection/t-paid-search-detection.md)
    + [发布列表](admin/publishing-list.md)
@@ -97,10 +97,10 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
       + [流量分类](admin/c-traffic-variables/traffic-classifications.md)
    + 独特访客变量 {#unique-visitor-variable}
       + [指定独特访客变量](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
-      + [用例 - 提取访客 ID](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
+      + [使用案例-提取访问者ID](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [视频管理](admin/video-management.md)
 + Experience Cloud Admin Console {#admin-console}
-   + [Experience Cloud Admin Console 帮助](admin-console/home.md)
+   + [Experience Cloud Admin Console帮助](admin-console/home.md)
    + 权限 {#permissions}
       + [产品配置文件帮助](admin-console/permissions/product-profile.md)
       + [报表包工具权限项](admin-console/permissions/report-suite-tools.md)
