@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 管理指南
 user-guide-url: /content/help/zh-Hans/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 92ac6c03013bd68326e4136a5d512171fc831689
+source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
 
@@ -19,10 +19,10 @@ source-git-commit: 92ac6c03013bd68326e4136a5d512171fc831689
 + 管理工具 {#admin-tools}
    + [管理工具](admin/c-admin-tools.md)
    + [帐单](admin/billing-admin.md)
-   + 机器人规则 {#bot-rules}
-      + [机器人规则概述](admin/bot-rules/bot-rules.md)
-      + [上载机器人规则](admin/bot-rules/t-upload-bot-rules.md)
-      + [创建自定义机器人规则](admin/bot-rules/t-create-bot-rules.md)
+   + 删除机器人 {#bot-removal}
+      + [机器人规则概述](admin/bot-removal/bot-rules.md)
+      + [上载机器人规则](admin/bot-removal/t-upload-bot-rules.md)
+      + [创建自定义机器人规则](admin/bot-removal/t-create-bot-rules.md)
    + [代码管理器](admin/code-manager-admin.md)
    + Conversion variables {#conversion-variables}
       + [转化变量 (eVar)](admin/conversion-var-admin/conversion-var-admin.md)
