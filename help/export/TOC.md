@@ -3,8 +3,8 @@ product: analytics
 audience: 最终用户
 user-guide-title: Analytics 导出指南
 user-guide-url: /content/help/zh-Hans/analytics/export/home.html
-translation-type: ht
-source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
+translation-type: tm+mt
+source-git-commit: f008d05f686bd6c357c0dc422b5976aaea53f0d0
 
 ---
 
@@ -61,6 +61,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + [按量度排序](data-warehouse/sorting-by-metric.md)
    + [计划周期性请求](data-warehouse/dw-schedule-recurring.md)
    + [管理 Data Warehouse 请求](data-warehouse/data-warehouse-requests-manage.md)
+   + [数据仓库中支持的组件](data-warehouse/component-support.md)
    + [维度与 Data Warehouse 区段不兼容](data-warehouse/dw-dimensions-incompatible-dwsegments.md)
    + [Data Warehouse 最佳实践](data-warehouse/data-warehouse-bp.md)
 + FTP 和 SFTP {#ftp-and-sftp}
