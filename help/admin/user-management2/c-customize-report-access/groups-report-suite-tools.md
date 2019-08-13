@@ -2,19 +2,19 @@
 description: 启用 API 访问、报表包管理、工具和报表及功能板项目的用户权限。
 keywords: 用户组；权限
 seo-description: 启用 API 访问、报表包管理、工具和报表及功能板项目的用户权限。
-seo-title: 自定义Report Suite工具权限
+seo-title: 自定义报表包工具权限
 solution: Analytics
 subtopic: 用户和用户组
-title: 自定义Report Suite工具权限
+title: 自定义报表包工具权限
 topic: 管理工具
 uuid: 3c95d296-ffd0-4971-9c5 f-110ddobe042 ce
 translation-type: tm+mt
-source-git-commit: 2d01f9edb976a57c18641fea03e01ad029893eea
+source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
 
 
-# 自定义Report Suite工具权限
+# 自定义报表包工具权限
 
 >[!IMPORTANT]
 >
@@ -68,8 +68,8 @@ source-git-commit: 2d01f9edb976a57c18641fea03e01ad029893eea
 | [异常检测](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html) | 授予“异常检测”的权限，“异常检测”提供了一种统计方法来确定给定的量度相对于以前的数据发生了什么变化。 |
 | [渠道报表](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html) | 授予营销渠道报表的权限，此类报表可在报表 &gt; 营销渠道报表中找到。 |
 | [实时报表](../../../admin/admin/realtime/t-realtime-admin.md) | 授予对实时报表的访问权限。 |
-| [机器人页面](../../../admin/admin/bot-rules/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7) | 使用机器人规则，您可以从报表包中删除已知蜘蛛程序和机器人程序生成的流量。删除机器人程序流量可为您网站上的用户活动提供更准确的测量。 |
-| [机器人](../../../admin/admin/bot-rules/bot-rules.md) | 使用机器人规则，您可以从报表包中删除已知蜘蛛程序和机器人程序生成的流量。删除机器人程序流量可为您网站上的用户活动提供更准确的测量。 |
+| [机器人页面](../../../admin/admin/bot-removal/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7) | 使用机器人规则，您可以从报表包中删除已知蜘蛛程序和机器人程序生成的流量。删除机器人程序流量可为您网站上的用户活动提供更准确的测量。 |
+| [机器人](../../../admin/admin/bot-removal/bot-rules.md) | 使用机器人规则，您可以从报表包中删除已知蜘蛛程序和机器人程序生成的流量。删除机器人程序流量可为您网站上的用户活动提供更准确的测量。 |
 | [自定义 Data Warehouse 报表](../../..//export/data-warehouse/data-warehouse.md) | Data Warehouse 是指用于存储的、未经处理的原始数据副本，以及可通过过滤这些数据而运行的自定义报表。您可让报表根据您的特定问题显示原始数据的高级数据关系。 |
 | [每日回访](../../../components/c-variables/dimensionslist/reports-daily-return-visits.md) | （旧版）此报表可显示在指定的日期内访问网站的次数超过一次的访客数量。一日定义为过去 24 小时。 |
 | [数据源管理器](../../../admin/admin/data-sources.md) | “数据源”功能允许您将数据从离线资源导入 Analytics。 |
@@ -82,6 +82,6 @@ source-git-commit: 2d01f9edb976a57c18641fea03e01ad029893eea
 | 分类 | 组合以下权限：“流量分类”、“视频分类”、“转换分类”、“分类层次结构”、“分类管理者”和“分类导入程序/导出程序和规则生成器”。注意：凭借此权限，用户可以编辑所有报告包的分类，而不仅仅是选定的报表包。 |
 | [贡献分析](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/contribution-analysis.html) | 授予在 Analysis Workspace 中使用贡献分析的权限。 |
 | **功能板项目** |  |
-| The settings in Dashboard Items enables access to [reportlets](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html) in Reports &amp; Analytics:, My Recommended Reports, Company Summary Reportlet, Image, KPI/Gauge Reportlet, Report Suite Totals, Text, Reportlet, Usage Summary Reportlet, and Web Resources |  |
+| 通过仪表板项目中的设置，可以访问Reports&amp; Analytics中的 [缩图报表](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html) ：我推荐的报表、公司摘要缩图报表、图像、KPI/评估报告、报告套件合计、文本、报告、使用摘要报告和Web资源 |  |
 | **其他** |  |
 | 社交 | 控制对报表包管理器中“社交管理”菜单的访问权限。 |
