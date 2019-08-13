@@ -1,16 +1,16 @@
 ---
 description: 报告时间处理是一个虚拟报告套件设置，它允许以非破损的、可追溯的方式处理数据。
 seo-description: 报告时间处理是一个虚拟报告套件设置，它允许以非破损的、可追溯的方式处理数据。
-seo-title: 报告时间处理
-title: 报告时间处理
+seo-title: 报表时间处理
+title: 报表时间处理
 uuid: 1d82ea-8c93-43cc-8689-cdf59 c309 b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 1e8d5af54ab22311e1c3967979c8bdc982a66d5b
 
 ---
 
 
-# 报告时间处理
+# 报表时间处理
 
 报告时间处理是一个虚拟报告套件设置，它允许以非破损的、可追溯的方式处理数据。
 
@@ -84,7 +84,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col2"> <p> 当前不支持。计划将来支持。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> AMO 保留的量度/维度 </p> </td> 
+   <td colname="col1"> <p> 针对Advertising Cloud保留指标/维度的分析 </p> </td> 
    <td colname="col2"> <p> 当前不支持。计划将来支持。 </p> </td> 
   </tr> 
   <tr> 
@@ -157,7 +157,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col2"> <p> 如果启用“避免将后台点击计算为一次新的访问”，则独特访客数不包括在报告日期范围内只有后台点击量的访客。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> 访问次数 </p> </td> 
+   <td colname="col1"> <p> 访问 </p> </td> 
    <td colname="col2"> <p> 访问次数反映了虚拟报表包配置的任何设置，这些设置可能与基础报表包不同。 </p> </td> 
   </tr> 
   <tr> 
@@ -170,19 +170,19 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p> 跳出次数/跳出率 </p> </td> 
-   <td colname="col2"> <p> 如果启用“避免将后台点击计算为一次新的访问”，则当后台点击之后未跟有前台点击时，该后台点击将不被视为一次跳出，并且不计入跳出率。See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> 如果启用“避免将后台点击计算为一次新的访问”，则当后台点击之后未跟有前台点击时，该后台点击将不被视为一次跳出，并且不计入跳出率。有关更多详细信息，请参阅 <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> 上下文感知型Sightization</a> 。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 每次访问逗留秒数 </p> </td> 
-   <td colname="col2"> <p> 如果启用“避免将后台点击计算为一次新的访问”，则只有包含前台点击的访问才会计入此量度。See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> 如果启用“避免将后台点击计算为一次新的访问”，则只有包含前台点击的访问才会计入此量度。有关更多详细信息，请参阅 <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> 上下文感知型Sightization</a> 。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 每次访问逗留时间 </p> </td> 
-   <td colname="col2"> <p> 如果启用“避免将后台点击计算为一次新的访问”，则只有包含前台点击的访问才会计入此量度。See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> 如果启用“避免将后台点击计算为一次新的访问”，则只有包含前台点击的访问才会计入此量度。有关更多详细信息，请参阅 <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> 上下文感知型Sightization</a> 。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> 登入次数 </p> </td> 
-   <td colname="col2"> <p> 如果启用“避免将后台点击计算为一次新的访问”，则只会考虑包含前台点击的访问中的登入次数。See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col1"> <p> 登录 </p> </td> 
+   <td colname="col2"> <p> 如果启用“避免将后台点击计算为一次新的访问”，则只会考虑包含前台点击的访问中的登入次数。有关更多详细信息，请参阅 <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> 上下文感知型Sightization</a> 。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 非促销 eVar/保留的 eVar </p> </td> 
@@ -194,7 +194,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p> 登入和退出维度 </p> </td> 
-   <td colname="col2"> <p> 如果启用“避免将后台点击计算为一次新的访问”，则只有包含前台点击的访问中的登入和退出次数才会显示在此维度中。See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> 如果启用“避免将后台点击计算为一次新的访问”，则只有包含前台点击的访问中的登入和退出次数才会显示在此维度中。有关更多详细信息，请参阅 <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> 上下文感知型Sightization</a> 。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 点击类型 </p> </td> 
