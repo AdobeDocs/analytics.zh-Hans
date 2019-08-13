@@ -8,7 +8,7 @@ title: 处理顺序
 topic: 管理工具
 uuid: cea01d13-dfd5-40f7-40f2 f-b6 e2 fe8354 df
 translation-type: tm+mt
-source-git-commit: 9942536df7c7ee4fc8da9ae4189063ca4e543b7d
+source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 9942536df7c7ee4fc8da9ae4189063ca4e543b7d
 | 动态变量查找 | 通过从 HTTP 标题或其他变量中提取信息，将动态填充变量。For example, `s.eVar5="D=c1"` will put the value of prop1 into eVar5. |
 | AppMeasurement | AppMeasurement 中使用的函数和插件将在浏览器或客户端应用程序中执行。 |
 | Dynamic Tag Management | Dynamic Tag Management 中定义的规则根据定义执行。 |
-| 机器人规则 | [机器人规则](../../../../admin/admin/bot-rules/bot-rules.md)允许您从报表包中删除已知蜘蛛程序和机器人程序生成的流量。 |
+| 机器人规则 | [机器人规则](../../../../admin/admin/bot-removal/bot-rules.md)允许您从报表包中删除已知蜘蛛程序和机器人程序生成的流量。 |
 
 ## 应用处理规则之后
 
