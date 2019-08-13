@@ -7,7 +7,7 @@ title: 一般帐户设置
 topic: 管理工具
 uuid: c1ab5c34-2c41-4d12-a706-0e760 dff8 a95
 translation-type: tm+mt
-source-git-commit: 0cecb6f66046b7db8471ce125237d74fdfc9323b
+source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: 0cecb6f66046b7db8471ce125237d74fdfc9323b
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> IP 模糊处理</span> </td> 
-   <td colname="col2"> <p>将 IP 地址转换为不可识别的字符串，实质上是将它们从 Adobe 数据存储库中删除。启用“IP 模糊处理”后，原始 IP 地址将永久丢失。 </p> <p>注意：IP 地址在 Analytics 中的所有地方均被模糊处理，包括 Data Warehouse。但是，Target 中的 IP 设置是单独控制的，因此该设置不对 Target 产生任何影响。 </p> <p>如果启用了 IP 模糊处理，则在 IP 地址被模糊处理之前会发生 IP 排除，这样客户就无需在启用 IP 模糊处理时更改任何内容。 </p> <p>选中<span class="uicontrol">禁用</span>会保留数据中的 IP 地址。 </p> <p>选中<span class="uicontrol">模糊处理 IP 地址</span>会将 IP 更改为哈希值（例如，234abc6493872038）。 </p> <p>选中<span class="uicontrol">删除 IP 地址</span>会在地理查找之后，将数据中的 IP 地址替换为 x.x.x.x。 </p> <p>Note: This setting might require changes to custom <a href="../../admin/admin/bot-rules/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7" format="dita" scope="local"> bot rules</a> or<a href="../../admin/admin/exclude-ip.md#concept_265A95A803F740629CAAAA7EB8BE81A4" format="dita" scope="local"> IP exclusions</a>. </p> </td> 
+   <td colname="col2"> <p>将 IP 地址转换为不可识别的字符串，实质上是将它们从 Adobe 数据存储库中删除。启用“IP 模糊处理”后，原始 IP 地址将永久丢失。 </p> <p>注意：IP 地址在 Analytics 中的所有地方均被模糊处理，包括 Data Warehouse。但是，Target 中的 IP 设置是单独控制的，因此该设置不对 Target 产生任何影响。 </p> <p>如果启用了 IP 模糊处理，则在 IP 地址被模糊处理之前会发生 IP 排除，这样客户就无需在启用 IP 模糊处理时更改任何内容。 </p> <p>选中<span class="uicontrol">禁用</span>会保留数据中的 IP 地址。 </p> <p>选中<span class="uicontrol">模糊处理 IP 地址</span>会将 IP 更改为哈希值（例如，234abc6493872038）。 </p> <p>选中<span class="uicontrol">删除 IP 地址</span>会在地理查找之后，将数据中的 IP 地址替换为 x.x.x.x。 </p> <p>注意：此设置可能需要更改自定义 <a href="../../admin/admin/bot-removal/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7" format="dita" scope="local"> 机器人规则</a> 或<a href="../../admin/admin/exclude-ip.md#concept_265A95A803F740629CAAAA7EB8BE81A4" format="dita" scope="local"> IP排除</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 交易 ID 存储</span> </td> 
