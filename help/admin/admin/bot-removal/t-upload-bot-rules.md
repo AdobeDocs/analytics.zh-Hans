@@ -8,7 +8,7 @@ title: 上载机器人规则
 topic: 管理工具
 uuid: bd70c199-5817-437e-980d-6d8f95d82f2c
 translation-type: tm+mt
-source-git-commit: 4a627e268994d0152a19fb44e9bc06ea7ebc64c6
+source-git-commit: 319eba8896e629214000c56ad6ef6b5774e89e1e
 
 ---
 
@@ -17,20 +17,11 @@ source-git-commit: 4a627e268994d0152a19fb44e9bc06ea7ebc64c6
 
 若要批量导入机器人规则，您可以上载定义规则的 CSV 文件。
 
-创建一个 CSV 文件，该文件的列按以下顺序显示：
+按显示的顺序创建具有以下列的CSV文件：
 
-<table id="table_770891EF9E4A49F695977BB6446736B5"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <code> 机器人名称</code> </p> </td> 
-   <td colname="col2"> <p> <code>起始 IP</code> </p> </td> 
-   <td colname="col3"> <p> <code>终止 IP</code> </p> </td> 
-   <td colname="col4"> <p> <code>代理匹配规则（包含或开头）</code> </p> </td> 
-   <td colname="col5"> <p> <code>代理包含（100 个字符限制）</code> </p> </td> 
-   <td colname="col6"> <p> <code>代理排除（255 个字符限制）</code> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 栏目 1 | 栏目 2 | 栏目 3 | 栏目 4 | 栏目 5 |
+|---|---|---|---|---|
+| 机器人名称 | 起始 IP | 终止 IP | 代理匹配规则<br>(`contains` 或 `starts with`) | Agent Exclude<br>(255 char limit) |
 
 您可以定义三种类型的机器人规则：
 
