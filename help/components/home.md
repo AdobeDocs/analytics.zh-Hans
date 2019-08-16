@@ -1,27 +1,33 @@
 ---
-title: 分析组件帮助
-seo-title: 分析组件帮助
+title: Analytics 组件帮助
+seo-title: Analytics 组件帮助
 description: 'null'
 seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
 
-# Analytics组件指南
+# Analytics 组件指南
 
 ![横幅](../../assets/doc_banner_components.png)
 
-Analytics组件可帮助您优化和增强客户旅程分析。组件示例包括细分、计算指标、虚拟报告套件和警报。
+Analytics组件可帮助您微调数据并增强对数据的分析能力。组件包括：
+
+* **分段：** 专注于数据的子集。
+* **计算得出的指标：** 使用简单的公式组合指标或高级函数进行统计分析。
+* **虚拟报告套件：** 基于报表包创建数据的虚拟孤岛。允许清除数据或细分数据以获得更好的用户体验。某些功能只能在虚拟报告套件中使用。
+* **通知：** 在阈值或低于阈值的情况下接收通知。
+* **分类：** 重新组织和分组维度以获得更多洞察。
+* **变量：** 报告中提供的所有维度和指标的参考指南。
+* **实时报告：** 在提供报告和趋势的同时获得报告。
+* **营销渠道：** 了解访客如何来到您的网站，并确定哪些渠道最成功。
 
 ## 关键分析组件文章
 
-* [Dimension Reference](c-variables/dimensionslist/reports-descriptions.md)
+* [维度参考](c-variables/dimensionslist/reports-descriptions.md)
 * [量度引用](c-variables/c-metrics/metricslist.md)
-* [计算量度](c-calcmetrics/cm-overview.md)
-* [区段划分](c-segmentation/seg-home.md)
-* [营销渠道](c-marketing-channels/c-overview.md)
 
 ## 更多Analytics用户指南
 
@@ -29,11 +35,7 @@ Analytics组件可帮助您优化和增强客户旅程分析。组件示例包�
 
 ## 关键分析资源
 
-* [快速入门](https://helpx.adobe.com/analytics/get-started.html)
-* [视频](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [开发人员](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Experience Cloud 学习与支持](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [联系技术支持](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [联系客户关怀人员](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analytics论坛](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe 培训和教程](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Adobe Analytics资源](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
