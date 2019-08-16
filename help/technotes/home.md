@@ -1,7 +1,7 @@
 ---
 title: 技术说明主页
 translation-type: tm+mt
-source-git-commit: 7e07da8bbe3a3882ebd74d2218044024896bb64e
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -20,11 +20,7 @@ source-git-commit: 7e07da8bbe3a3882ebd74d2218044024896bb64e
 
 ## 关键分析资源
 
-* [快速入门](https://helpx.adobe.com/analytics/get-started.html)
-* [视频](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [开发人员](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Experience Cloud 学习与支持](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [联系技术支持](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [联系客户关怀人员](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analytics论坛](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe 培训和教程](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Adobe Analytics资源](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
