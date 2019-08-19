@@ -2,15 +2,15 @@
 cloud: experience-cloud
 product: adobe analytics
 solution-title: Analytics
-solution-hub-url: https://helpx.adobe.com/support/analytics.html
-solution-image: assets/analytics-icon-24. png
+solution-hub-url: https://helpx.adobe.com/cn/support/analytics.html
+solution-image: assets/analytics-icon-24.png
 getting-started-title: 快速入门
-getting-started-url: https://helpx.adobe.com/analytics/get-started.html
+getting-started-url: https://helpx.adobe.com/cn/analytics/get-started.html
 tutorials-title: 教程
 tutorials-url: https://helpx.adobe.com/analytics/kt/index/analytics-videos.html
 git-repo: https://github.com/AdobeDocs/analytics.en
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75404414b7733df6899dc6dae2c7ca154e787a31
 
 ---
