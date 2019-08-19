@@ -47,7 +47,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + [处理规则](analytics-terminology-basics/ref-processing-rules.md)
    + [报表和报表包](analytics-terminology-basics/ref-reports-report-suites.md)
    + [区段](analytics-terminology-basics/ref-segments.md)
-   + 流量 prop 和转化 eVar{#traffic-props-evars}
+   + 流量 prop 和转化 eVar {#traffic-props-evars}
       + [prop 和 eVar 概述](analytics-terminology-basics/c-props-evars/props-evars.md)
       + [比较 Prop 和 eVar](analytics-terminology-basics/c-props-evars/props-vs-evars.md)
       + [将 prop 用作计数器](analytics-terminology-basics/c-props-evars/props-counter.md)
@@ -73,7 +73,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + 页眉和页脚 {#headers-footers}
       + [添加页眉和页脚代码](c-implement-with-dtm/c-headers-footers/t-header-footer-code.md)
       + [验证页眉和页脚代码](c-implement-with-dtm/c-headers-footers/t-verify-header-footer.md)
-   + Adobe Analytics 工具{#analytics-tool}
+   + Adobe Analytics 工具 {#analytics-tool}
       + [添加 Adobe Analytics 工具](c-implement-with-dtm/c-aa-tool/analytics-dtm.md)
       + [常规](c-implement-with-dtm/c-aa-tool/general-settings-analytics.md)
       + [库管理](c-implement-with-dtm/c-aa-tool/library-management.md)
@@ -104,7 +104,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
       + [AppMeasurement 插件支持](js-implementation/c-appmeasurement-js/plugins-support.md)
    + [Accelerated Mobile Pages（“加速移动网页”项目）](js-implementation/accelerated-mobile-pages.md)
    + [Facebook Instant Articles（即时文章）](js-implementation/analytics-facebook-instant-articles.md)
-   + 其他 Web 和移动测量库{#additional-libraries}
+   + 其他 Web 和移动测量库 {#additional-libraries}
       + [其他库概述](js-implementation/c-additional-libraries/libraries.md)
       + [使用 HTML 图像标记实施 Analytics](js-implementation/c-additional-libraries/implscwojs.md)
       + [不使用 JavaScript 指南进行实施](js-implementation/c-additional-libraries/otherreq.md)
@@ -147,7 +147,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
       + [外部电子邮件跟踪](js-implementation/data-collection/email-external.md)
       + [实施 Adobe 选择退订](js-implementation/data-collection/opt-out.md)
       + [添加选择退订链接](js-implementation/data-collection/opt-out-link.md)
-   + 实施插件{#plugins}
+   + 实施插件 {#plugins}
       + [使用实施插件](js-implementation/plugins/impl-plugins.md)
       + [通过 doPlugins 函数调用插件](js-implementation/plugins/plugins-calling.md)
       + [s.abort 标记](js-implementation/plugins/abort.md)
@@ -180,7 +180,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
       + [按用户类型划分路径区段](js-implementation/c-pathing/pathing-segments.md)
    + [购买事件](js-implementation/event-purchase.md)
    + [事件序列化概述](js-implementation/event-serialization.md)
-   + 独特访客{#unique-visitors}
+   + 独特访客 {#unique-visitors}
       + [识别独特访客](js-implementation/c-unique-visitors/visid-overview.md)
       + [自定义访客 ID](js-implementation/c-unique-visitors/visid-custom.md)
       + [标识服务](js-implementation/c-unique-visitors/visid-service.md)
@@ -188,7 +188,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
       + [回退 ID 方法](js-implementation/c-unique-visitors/visid-fallback.md)
       + [识别移动设备](js-implementation/c-unique-visitors/visid-mobile.md)
    + [Marketing Cloud 核心服务](https://marketing.adobe.com/resources/help/zh_CN/mcloud/?f=core_services)
-   + 跨设备访客识别{#cross-device-visitor-id}
+   + 跨设备访客识别 {#cross-device-visitor-id}
       + [跨设备连接用户](js-implementation/xdevice-visid/xdevice-connecting.md)
       + [跨设备访客识别的数据影响](js-implementation/xdevice-visid/xdevice-data.md)
       + [示例访问](js-implementation/xdevice-visid/visit-example.md)
