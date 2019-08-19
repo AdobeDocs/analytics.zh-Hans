@@ -38,7 +38,7 @@ source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
          + [时间划分维度](analysis-workspace/components/dimensions/time-parting-dimensions.md)
       + [量度](analysis-workspace/components/apply-create-metrics.md)
       + [区段](analysis-workspace/components/t-freeform-project-segment.md)
-      + 日历和日期范围{#calendar-date-ranges}
+      + 日历和日期范围 {#calendar-date-ranges}
          + [日历和日期范围概述](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [创建自定义日期范围](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [日期比较](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
@@ -119,7 +119,7 @@ source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
 + Report Builder {#report-builder}
    + [Adobe Report Builder 帮助](report-builder/home.md)
    + [Report Builder 的新增功能](report-builder/whats-new-arb.md)
-   + Report Builder 安装{#report-builder-setup}
+   + Report Builder 安装 {#report-builder-setup}
       + [系统要求](report-builder/setup/system-requirements.md)
       + [安装 Report Builder](report-builder/setup/t-install-arb.md)
       + [升级 Report Builder](report-builder/setup/upgrade-arb.md)
@@ -128,7 +128,7 @@ source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
       + [卸载 Report Builder](report-builder/setup/t-uninstall-arb.md)
       + [通过 Microsoft Excel 函数调用 Report Builder 功能](report-builder/setup/invoke-arb-excel-function.md)
    + [Report Builder 工具栏](report-builder/reportbuilder-toolbar.md)
-   + 数据请求{#data-requests}
+   + 数据请求 {#data-requests}
       + [数据请求 - 请求向导第 1 步](report-builder/data-requests/data-requests.md)
       + [创建数据请求](report-builder/data-requests/t-create-a-data-request.md)
       + 报表包 {#report-suites}
@@ -153,7 +153,7 @@ source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
          + [请求向导定义 - 滚动日期](report-builder/data-requests/configuring-report-dates/r-arb-rolling-dates.md)
          + [实时报表](report-builder/data-requests/configuring-report-dates/real-time.md)
          + [配置实时请求](report-builder/data-requests/configuring-report-dates/t-real-time.md)
-         + 自定义的日期表达式{#customized-date-expressions}
+         + 自定义的日期表达式 {#customized-date-expressions}
             + [自定义的日期表达式 - 概述](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
             + [日期缩写](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/date-abbreviations.md)
             + [单个开始日期或结束日期](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/individual-starting-or-ending-dates.md)
@@ -200,7 +200,7 @@ source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
       + [刷新所有工作表的请求](report-builder/manage-requests/t-refresh-requests-for-all-sheets.md)
       + [添加从属请求](report-builder/manage-requests/add-dependent-requests.md)
       + [分类](report-builder/manage-requests/classification.md)
-      + 复制请求{#copy-requests}
+      + 复制请求 {#copy-requests}
          + [复制请求概述](report-builder/manage-requests/c-copy-requests/copy-requests.md)
          + [复制简单请求](report-builder/manage-requests/c-copy-requests/t-copy-simple-requests.md)
          + [复制相邻请求](report-builder/manage-requests/c-copy-requests/copy-adjacent-requests.md)
@@ -243,7 +243,7 @@ source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
    + [导出到 CSV 文件](activity-map/activitymap-csv.md)
    + [支持的系统和要求](activity-map/activitymap-sysreqs.md)
    + [Activity Map 常见问题解答](activity-map/activitymap-faq.md)
-   + 快速入门{#getting-started}
+   + 快速入门 {#getting-started}
       + 管理员快速入门 {#get-started-admins}
          + [启用 Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
          + [实现代码样例](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
