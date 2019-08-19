@@ -3,7 +3,7 @@ product: analytics
 audience: 最终用户
 user-guide-title: Analytics 导出指南
 user-guide-url: /content/help/zh-Hans/analytics/export/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f008d05f686bd6c357c0dc422b5976aaea53f0d0
 
 ---
@@ -12,8 +12,8 @@ source-git-commit: f008d05f686bd6c357c0dc422b5976aaea53f0d0
 # Analytics 导出指南 {#export}
 
 + [Analytics 导出帮助](home.md)
-+ Analytics 数据馈送{#analytics-data-feed} 
-   + 快速入门{#get-started}
++ Analytics 数据馈送 {#analytics-data-feed}
+   + 快速入门 {#get-started}
       + [Analytics 数据馈送概述](analytics-data-feed/c-getstarted/data-feed-overview.md)
       + [术语](analytics-data-feed/c-getstarted/datafeeds-terminology.md)
       + [最佳实践和常规信息](analytics-data-feed/c-getstarted/data-feeds-best-practices.md)
@@ -32,13 +32,13 @@ source-git-commit: f008d05f686bd6c357c0dc422b5976aaea53f0d0
       + [暂停馈送](analytics-data-feed/c-data-feed-actions/t-feed-pause.md)
       + [激活馈送](analytics-data-feed/c-data-feed-actions/t-feed-activate.md)
       + [编辑馈送](analytics-data-feed/c-data-feed-actions/t-feed-edit.md)
-   + 数据馈送作业{#data-feed-jobs}
+   + 数据馈送作业 {#data-feed-jobs}
       + [数据馈送作业 - 概述](analytics-data-feed/c-df-jobs/feed-jobs-processing.md)
       + [过滤器作业列表](analytics-data-feed/c-df-jobs/t-jobs-filter.md)
       + [作业设置](analytics-data-feed/c-df-jobs/r-jobs-settings.md)
       + [作业状态](analytics-data-feed/c-df-jobs/r-job-status.md)
       + [重新运行作业](analytics-data-feed/c-df-jobs/t-job-rerun.md)
-   + 数据馈送内容{#data-feed-contents}
+   + 数据馈送内容 {#data-feed-contents}
       + [数据馈送内容 - 概述](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [计算量度](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [识别访客](analytics-data-feed/c-df-contents/datafeeds-visid.md)
@@ -61,7 +61,7 @@ source-git-commit: f008d05f686bd6c357c0dc422b5976aaea53f0d0
    + [按量度排序](data-warehouse/sorting-by-metric.md)
    + [计划周期性请求](data-warehouse/dw-schedule-recurring.md)
    + [管理 Data Warehouse 请求](data-warehouse/data-warehouse-requests-manage.md)
-   + [数据仓库中支持的组件](data-warehouse/component-support.md)
+   + [Data Warehouse 中支持的组件](data-warehouse/component-support.md)
    + [维度与 Data Warehouse 区段不兼容](data-warehouse/dw-dimensions-incompatible-dwsegments.md)
    + [Data Warehouse 最佳实践](data-warehouse/data-warehouse-bp.md)
 + FTP 和 SFTP {#ftp-and-sftp}
