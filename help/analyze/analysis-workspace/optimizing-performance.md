@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 优化工作区性能
-title: 优化工作区性能
+seo-title: 优化Analysis Workspace性能
+title: 优化Analysis Workspace性能
 uuid: de51d03d-d555-4f0 e-b19 c-4a8 f140770 fc
 translation-type: tm+mt
-source-git-commit: 4c400faacdc0cc405f719cb849ed02d03b0cf972
+source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
 
 ---
 
 
-# 优化工作区性能
+# 优化Analysis Workspace性能
 
 某些因素可能影响 Analysis Workspace 内的项目性能。开始构建项目之前，请务必了解这些因素的具体情况，以便您能够以最佳方式计划和构建项目。下面是一个将会影响性能的因素列表以及优化项目的最佳实践。Analysis Workspace 性能是 Adobe 最优先考虑的事项之一，也是我们每天都在持续改进的对象。
 
@@ -23,9 +23,9 @@ source-git-commit: 4c400faacdc0cc405f719cb849ed02d03b0cf972
 * 维度内区段中使用的唯一维度项目数（例如，在 Page = 'A' 的情况下，页面具有 10 个唯一项目的查询速度将比页面具有 100,000 个唯一项目的查询速度更快）
 * 使用的不同维度的数量（例如，Page = 'Home' 和 Page = 'Search results' 的查询速度将比 eVar 1 ='red' 和 eVar 2 ='blue' 更快））
 * 许多“或”运算符（而不是“和”）
-* 嵌套容器的范围不同（例如，“访客”中“访问次数”内的“点击”）
+* 范围不同的嵌套容器(例如“点击”内部的“点击”)
 
-### 最佳实践
+**逻辑复杂性的最佳实践**
 
 虽然某些复杂因素无法避免，但应想办法降低区段的复杂性。通常，您的区段标准越具体，其性能就越好。例如：
 
@@ -39,7 +39,7 @@ source-git-commit: 4c400faacdc0cc405f719cb849ed02d03b0cf972
 
 在整个项目中请求的数据范围将影响 Analysis Workspace 性能。
 
-### 最佳实践
+**数据范围的最佳实践**
 
 请尽量不要获取超过需求的数据。
 
@@ -51,7 +51,7 @@ Use [date comparison options](../../analyze/analysis-workspace/components/calend
 
 一个项目中包含的图形可视化图表数量将影响 Analysis Workspace 的整体响应性。
 
-### 最佳实践
+**可视化的最佳实践**
 
 减少项目中的可视化数量。Analysis Workspace 对您添加的每个可视化都执行了大量幕后处理工作，因此请优先考虑对报表客户最为重要的可视化，并在需要时将支持的可视化划分到更加详细的单独项目中。
 
@@ -66,7 +66,7 @@ Use [date comparison options](../../analyze/analysis-workspace/components/calend
 * 应用于自由格式表行的过滤器
 * 包含的量度数量，尤其是使用区段的计算量度
 
-### 最佳实践
+**可视化复杂性的最佳实践**
 
 如果您注意到项目没有按所需的速度加载，请尽量尝试将某些区段替换为 eVar 和过滤器。
 
@@ -76,11 +76,11 @@ Use [date comparison options](../../analyze/analysis-workspace/components/calend
 
 一个面板可以包含许多可视化，因此，面板的数量也会影响 Analysis Workspace 的整体响应性.
 
-### 最佳实践
+**针对面板数量的最佳实践**
 
 请不要尝试将所有内容都添加到一个项目中，而是应创建用于特定目的或利益相关者组的不同项目。可使用标记将项目组织为关键主题，并与利益相关者组共享相关项目。
 
-如果需要组织更多项目，请记住，可以选择[直接关联](https://www.youtube.com/watch?v=6IOEewflG2U)到您的项目。可创建项目的内部索引，以便利益相关者能够更轻松地找到所需内容。此外，Adobe 还积极着手提供更多用于 Analysis Workspace 的组织选项。
+如果需要组织更多项目，请记住，可以选择[直接关联](https://www.youtube.com/watch?v=6IOEewflG2U)到您的项目。可创建项目的内部索引，以便利益相关者能够更轻松地找到所需内容。
 
 如果一个工作区中需要许多面板，请先折叠面板，然后再进行保存和共享。加载项目时，Analysis Workspace 将只加载已展开面板的内容。折叠的面板只有等到用户展开它们后才会加载。此方法有以下两大好处：
 
@@ -91,6 +91,14 @@ Use [date comparison options](../../analyze/analysis-workspace/components/calend
 
 报表包的大小看起来像是一种驱动因素，但实际上，它因 Adobe 处理数据的方式，而只在项目性能中起到很小的作用
 
-## 同时访问 Analysis Workspace 的人数
+## 同时访问Analysis Workspace的用户数
 
-同时访问Analysis Workspace或特定项目的人数不会对Analysis Workspace性能产生很大影响。
+如果用户访问不同的报告套件，同时访问Analysis Workspace或特定项目的用户在Analysis Workspace性能上的影响不大。如果并发用户访问同一报表包，则性能将受到影响。
+
+## 解决常见错误
+
+| 错误消息 | 为什么会出现这种情况？ |
+|---|---|
+| `The report suite is experiencing unusually heavy reporting. Please try again later.` | 您的组织正在尝试针对特定报表包运行过多的并发请求。此错误的参与者包括API请求、计划项目、预定报告、预定的警报以及发出报告请求的并发用户。我们建议在整个一天内更均匀地展开报告包的请求和计划。 |
+| `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | Adobe遇到了需要解决的问题。我们建议您通过客户关怀请求提交错误代码。 |
+| `The request is too complex.` | 您的报表请求过大，无法执行。此错误的参与者因请求的大小、区段或搜索过滤器中的匹配项过多、包含的指标过多、维度和指标组合不兼容等而导致超时。我们建议您简化申请。 |
