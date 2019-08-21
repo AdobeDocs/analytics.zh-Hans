@@ -7,7 +7,7 @@ title: 计划数据请求
 topic: Report Builder
 uuid: f6d8c90f-e185-4d60-8035-f20 f74 bfcd89
 translation-type: tm+mt
-source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
+source-git-commit: 62937df0a763f6b9b34389d968c5641056b47aa8
 
 ---
 
@@ -16,13 +16,24 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 您可以计划工作簿、指定高级交付选项、指定收件人以及查看计划历史记录。高级交付选项可让您配置要在特定时间或间隔发送的工作簿。您还可以指定发送工作簿的文件格式。
 
-For example, you can schedule workbooks to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. 上载报表时，文件大小不能超过 5 MB。
+For example, you can schedule workbooks to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. 上传工作簿时，文件大小限制为MB。
 
 Additionally, after you create a workbook schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]**. （请参阅 Reports &amp; Analytics 帮助中的[报表计划和分发](/help/analyze/reports-analytics/scheduling.md)。）
 
 >[!NOTE]
 >
 >必须安装Excel2007或兼容性包才能预定工作簿。每个Report Builder许可证最多可有10个计划的工作簿。但是，您可以通过减少其他许可证中的数量来增加此数量。To do so, go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Report Builder Reports]**. 已计划(或上传到工作簿库)且尚未在28个月内被触控(已更新、替换)的工作簿将被删除。
+
+>[!NOTE]
+>
+>用户输入的“交付时间”/“每日时间”指定工作簿应开始处理的时间，而不是实际交付的时间。将提供工作簿的实际时间主要基于处理多长时间(复杂和大型工作簿需要比简单工作簿更长的处理时间)。例如，如果一个工作簿需要15分钟处理，则实际交付时间至少将超过最初指定的“交付时间”/“每日时间”。
+>此外，还有许多其他因素可进一步提高工作簿实际交付之前的延迟：
+>
+> * **同时运行同一类型的很多不同时间表会** 使系统过载。计划系统只允许任何一种类型的(5-10)工作簿同时运行，因此，当超过5-10的工作簿同时预定时，有些工作簿需要在开始处理之前等待其他工作簿排队完成。可通过在一天或一小时内(而不是同时)随机安排公司的工作簿来减轻此问题。
+> * 除了特定的工作簿类型之外，如果公司拥有 **一次计划的任何类型的工作簿(跨所有不同的工作簿类型**)，那么工作簿还可以排队等候。这可以通过实例化计划时间来减轻，而不是让很多人同时运行。
+> * **调度程序所依赖的下游服务** 中的问题也可能影响工作簿的交付。例如，如果您使用API独立运行工作簿并填写API请求队列，那么您的预定工作簿可能会在您竞争该资源时缓慢交付。
+> * **报表包滞后时间** (数据收集的延迟)还可以延迟某些预定的工作簿。
+
 
 **计划工作簿**
 
@@ -53,7 +64,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
   </tr> 
   <tr> 
    <td colname="col1"> <p>选择 </p> </td> 
-   <td colname="col2"> <p>显示“<span class="wintitle">选择报表</span>”页。您可以从服务器（先前计划的所有工作簿都存储在其中）选择报表，也可以从本地计算机选择报表。如果从本地驱动器选择 <span class="filepath">.xls</span> 格式的工作簿，系统会将文件转换为 <span class="filepath">.xlsx</span>。在转换过程中，系统会在 Excel 中打开并激活该文件。如果为计划报表选择的工作簿与当前在 Excel 中打开的工作簿具有相同的文件名，系统会选择本地文件，而不是先前上载的文件。如果从计划存储库中选择报表，则会在服务器上创建工作簿的副本并在副本文件名中附加 1，并且新创建的计划报表使用复制的工作簿。 </p> </td> 
+   <td colname="col2"> <p>显示“<span class="wintitle">选择报表</span>”页。您可以从服务器（先前计划的所有工作簿都存储在其中）选择报表，也可以从本地计算机选择报表。如果从本地驱动器选择 <span class="filepath">.xls</span> 格式的工作簿，系统会将文件转换为 <span class="filepath">.xlsx</span>。在转换过程中，系统会在 Excel 中打开并激活该文件。如果为计划报表选择的工作簿与当前在 Excel 中打开的工作簿具有相同的文件名，系统会选择本地文件，而不是先前上载的文件。如果从日程安排存储库中选择一个报表，则在服务器上创建一个工作簿副本，其文件名将更新为1。新创建的计划报告使用复制的工作簿。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>通过更改日期范围、 </p> </td> 
