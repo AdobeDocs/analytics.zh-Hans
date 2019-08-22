@@ -5,14 +5,14 @@ seo-title: 参与量度
 title: 参与量度
 uuid: cb191be-bc4 e-46ef-8a20-ccba5355 e253
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: bc0adf08d2b68c314c38f0484addbff567147e88
 
 ---
 
 
 # 参与量度
 
-下面是一个简单的用例：您是内容所有者，并且希望查看包含订单的访问(参与)访问的页面。以下是具体操作方法：
+下面是一个简单的用例：您是内容所有者，并且希望查看包含订单的哪些页面促成(即参与)访问。以下是具体操作方法：
 
 >[!NOTE]
 >
@@ -22,12 +22,12 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 1. 在计算量度生成器中创建新量度。
 1. 将成功事件“订单”拖到定义画布中。
-1. Change the [attribution model](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E) of that event to **[!UICONTROL Participation]** under the **[!UICONTROL Settings]** gear. Select **[!UICONTROL Visit]** lookback. 定义应该类似于：
+1. 将该事件的 [归因模型](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E) 更改为 ******[!UICONTROL “设置]** ”齿轮下的“参与”。选择 **[!UICONTROL 访问]** 回顾。定义应该类似于：
 
    ![](assets/participation.png)
 
 1. 保存该量度。
-1. Use the calculated metric in a **[!UICONTROL Pages]** report.
+1. 在 **[!UICONTROL 页面]** 报表中使用计算的量度。
 
    ![](assets/participation-pages.png)
 
