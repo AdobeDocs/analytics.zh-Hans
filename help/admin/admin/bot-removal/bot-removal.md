@@ -4,7 +4,7 @@ seo-title: 在Adobe Analytics中删除机器人
 description: 在Adobe Analytics中删除机器人程序的种方法
 seo-description: 在Adobe Analytics中删除机器人程序的种方法
 translation-type: tm+mt
-source-git-commit: 97c24ca865e11aa418febc40842d8fe9372d9cc3
+source-git-commit: 3b363c6d457dbeaef443aa059d2f7de3cdccbbb2
 
 ---
 
@@ -47,12 +47,13 @@ source-git-commit: 97c24ca865e11aa418febc40842d8fe9372d9cc3
 
 ## 第步：将此列表作为客户属性传递给Adobe
 
-数据仓库报告到达后，您将有一个需要从历史数据筛选的电子ID列表。只需用两列、ECID和机器人标记将这些ECID复制并粘贴到空白CSV文件中：
+数据仓库报告到达后，您将有一个需要从历史数据筛选的电子ID列表。将这些ECID复制并粘贴到空白的. CSV文件中，只含两列、EID和机器人标记：
 
-
+![](assets/bot-csv-4.png)
 
 确保第一个列标题与以上新声明的ID相匹配。使用此CSV文件作为客户属性导入文件，然后将您的报表套件订阅给客户属性，如 [博客文章](https://theblog.adobe.com/link-digital-behavior-customers)中所述。
 
 ## 第步：创建利用新客户属性的细分
 
 对数据集进行处理并集成到Analysis Workspace中后，再创建一个利用新的“机器人标记”客户属性维度的细分：
+
