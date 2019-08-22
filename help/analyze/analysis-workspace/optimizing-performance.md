@@ -5,7 +5,7 @@ seo-title: 优化Analysis Workspace性能
 title: 优化Analysis Workspace性能
 uuid: de51d03d-d555-4f0 e-b19 c-4a8 f140770 fc
 translation-type: tm+mt
-source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
+source-git-commit: ffb855a53d19449c4132dda59d728d3855955d9e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
 
 某些因素可能影响 Analysis Workspace 内的项目性能。开始构建项目之前，请务必了解这些因素的具体情况，以便您能够以最佳方式计划和构建项目。下面是一个将会影响性能的因素列表以及优化项目的最佳实践。Analysis Workspace 性能是 Adobe 最优先考虑的事项之一，也是我们每天都在持续改进的对象。
 
-## 区段逻辑的复杂性
+## 区段逻辑复杂性
 
 复杂的区段可能会对项目性能产生重大影响。为区段增加复杂性的因素(按影响顺序)包括：
 
@@ -95,7 +95,9 @@ Use [date comparison options](../../analyze/analysis-workspace/components/calend
 
 如果用户访问不同的报告套件，同时访问Analysis Workspace或特定项目的用户在Analysis Workspace性能上的影响不大。如果并发用户访问同一报表包，则性能将受到影响。
 
-## 解决常见错误
+## Analysis Workspace中的常见错误消息
+
+与Analysis Workspace交互时，您可能会遇到错误。由于存在以下几个原因，可能发生错误：最常见的错误。
 
 | 错误消息 | 为什么会出现这种情况？ |
 |---|---|
