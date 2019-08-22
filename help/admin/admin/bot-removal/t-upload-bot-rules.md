@@ -8,7 +8,7 @@ title: 上载机器人规则
 topic: 管理工具
 uuid: bd70c199-5817-437e-980d-6d8f95d82f2c
 translation-type: tm+mt
-source-git-commit: 319eba8896e629214000c56ad6ef6b5774e89e1e
+source-git-commit: d0bd48684764a60b488d1e39c968ad70c743f1db
 
 ---
 
@@ -20,8 +20,8 @@ source-git-commit: 319eba8896e629214000c56ad6ef6b5774e89e1e
 按显示的顺序创建具有以下列的CSV文件：
 
 | 栏目 1 | 栏目 2 | 栏目 3 | 栏目 4 | 栏目 5 |
-|---|---|---|---|---|
-| 机器人名称 | 起始 IP | 终止 IP | 代理匹配规则<br>(`contains` 或 `starts with`) | Agent Exclude<br>(255 char limit) |
+|--- |--- |---|---|---|
+| 机器人名称 | 起始 IP | 终止 IP | Agent Match Rule<br>(contains or starts with)</br> | 代理排除(<br>255个字符限制)</br> |
 
 您可以定义三种类型的机器人规则：
 
