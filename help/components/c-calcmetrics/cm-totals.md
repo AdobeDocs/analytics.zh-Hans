@@ -4,7 +4,7 @@ seo-title: 计算量度总计
 description: 了解计算指标总数在Analytics工具中的差异
 seo-description: 计算计算指标总数的方式
 translation-type: tm+mt
-source-git-commit: 540e03f2e541cc5ea0a78e4402cd367241b44200
+source-git-commit: ec3187f1548aa107f03d9abf7ceacb7a4a85abb3
 
 ---
 
@@ -35,6 +35,6 @@ source-git-commit: 540e03f2e541cc5ea0a78e4402cd367241b44200
 
 在Analysis Workspace中，在某些情况下，将计算计算得出的量度总数：
 
-* 当 [有静态行](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) 和通过 **[!UICONTROL 累加每个列]** 选项中当前的值(默认值)来计算总计时。
+* 如果在自由表单表中有 [](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) 静态行，并 *[!UICONTROL 通过累加每个列]* 选项当前中的值(默认值)，则将计算总计。
 * 在 [Dont可视化](/help/analyze/analysis-workspace/visualizations/donut.md)中。
 * 在 [“摘要更改”可视化](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)中。
