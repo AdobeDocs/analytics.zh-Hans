@@ -3,7 +3,7 @@ title: Analytics 组件帮助
 seo-title: Analytics 组件帮助
 description: 'null'
 seo-description: 'null'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
@@ -13,29 +13,29 @@ source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ![横幅](../../assets/doc_banner_components.png)
 
-Analytics组件可帮助您微调数据并增强对数据的分析能力。组件包括：
+Analytics 组件可帮助您优化和增强数据分析功能。这些组件包括：
 
-* **分段：** 专注于数据的子集。
-* **计算得出的指标：** 使用简单的公式组合指标或高级函数进行统计分析。
-* **虚拟报告套件：** 基于报表包创建数据的虚拟孤岛。允许清除数据或细分数据以获得更好的用户体验。某些功能只能在虚拟报告套件中使用。
-* **通知：** 在阈值或低于阈值的情况下接收通知。
-* **分类：** 重新组织和分组维度以获得更多洞察。
-* **变量：** 报告中提供的所有维度和指标的参考指南。
-* **实时报告：** 在提供报告和趋势的同时获得报告。
-* **营销渠道：** 了解访客如何来到您的网站，并确定哪些渠道最成功。
+* **分段：**&#x200B;专注于数据的子集。
+* **计算量度：**&#x200B;使用简单的公式来组合量度，或使用高级函数进行统计分析。
+* **虚拟报表包：**&#x200B;基于报表包，创建一个虚拟数据接收器允许清除数据或细分数据，以获得更好的用户体验。有些功能只能在虚拟报表包中使用。
+* **警告：**&#x200B;当数据高于或低于阈值时接收通知。
+* **分类：**&#x200B;重新组织和分组维度，以洞察更多信息。
+* **变量：**&#x200B;一份有关报告中所有可用维度和量度的参考指南。
+* **实时报告：**&#x200B;实时获取相关报告和趋势。
+* **营销渠道：**&#x200B;了解访客是通过哪些渠道来访问您的网站，并确定出最成功的渠道。
 
-## 关键分析组件文章
+## 重要 Analytics 组件文章
 
 * [维度参考](c-variables/dimensionslist/reports-descriptions.md)
-* [量度引用](c-variables/c-metrics/metricslist.md)
+* [量度参考](c-variables/c-metrics/metricslist.md)
 
-## 更多Analytics用户指南
+## 更多 Analytics 用户指南
 
-[Analytics用户指南](/help/landing/home.md)
+[Analytics 用户指南](/help/landing/home.md)
 
-## 关键分析资源
+## 重要 Analytics 资源
 
-* [联系客户关怀人员](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Analytics论坛](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analytics资源](https://forums.adobe.com/message/10660755)
+* [联系客户关怀](https://helpx.adobe.com/cn/contact/enterprise-support.ec.html)
+* [Analytics 论坛](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics 资源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
