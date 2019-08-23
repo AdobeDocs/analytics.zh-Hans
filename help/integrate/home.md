@@ -1,9 +1,9 @@
 ---
-title: Analytics集成帮助
-seo-title: Analytics集成帮助
+title: Analytics 集成帮助
+seo-title: Analytics 集成帮助
 description: 'null'
 seo-description: 'null'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
@@ -13,26 +13,26 @@ source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ![横幅](../../assets/doc_banner_integrate.png)
 
-配置与其他Adobe Experience Cloud解决方案的集成，如Audience Manager、Advertising Cloud或Target。该服务包括：
+配置与其他 Adobe Experience Cloud 解决方案（例如，Audience Manager、Advertising Cloud 或 Target）的集成。这些集成包括：
 
-* **Audience Analytics：** 将Adobe Audience Manager与Adobe Analytics集成。
-* **广告分析：** 使用Adobe Analytics数据并排查看付费搜索数据。
-* **针对Target的Analytics：** A4T将Adobe Analytics和Adobe Target整合在一起。
-* **Adobe Campaign报告：** 将Adobe Analytics与Adobe Campaign集成。
-* **AEM资产报告：** 支持展示和点击Adobe Experience Manager提供的资产。
+* **Audience Analytics：**&#x200B;将 Adobe Audience Manager 与 Adobe Analytics 相集成。
+* **Advertising Analytics：**&#x200B;可使用 Adobe Analytics 数据并排查看付费搜索数据。
+* **Analytics for Target：** A4T 是 Adobe Analytics 与 Adobe Target 的集成。
+* **Adobe Campaign 报告功能：**&#x200B;将 Adobe Analytics 与 Adobe Campaign 相集成。
+* **AEM Assets 报告功能：**&#x200B;允许针对 Adobe Experience Manager 提供的资产，收集相关的展示次数和单击次数。
 
-## 关键分析集成文章
+## 重要 Analytics 集成文章
 
 * [Advertising Analytics](c-advertising-analytics/overview.md)
 * [Audience Analytics](c-audience-analytics/mc-audiences-aam.md)
 
-## 更多Analytics用户指南
+## 更多 Analytics 用户指南
 
-[Analytics用户指南](/help/landing/home.md)
+[Analytics 用户指南](/help/landing/home.md)
 
-## 关键分析资源
+## 重要 Analytics 资源
 
-* [联系客户关怀人员](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Analytics论坛](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analytics资源](https://forums.adobe.com/message/10660755)
+* [联系客户关怀](https://helpx.adobe.com/cn/contact/enterprise-support.ec.html)
+* [Analytics 论坛](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics 资源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
