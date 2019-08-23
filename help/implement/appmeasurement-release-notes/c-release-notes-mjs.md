@@ -8,7 +8,7 @@ title: AppMeasurement for JavaScript
 topic: 开发人员和实施
 uuid: 1440013d-d266-4dce-9807-8b9 adac73315
 translation-type: tm+mt
-source-git-commit: 0143edbcbab3450f6932367f51e9e4c79bc1ae63
+source-git-commit: 2147e95f3ebd731c161e40a212db0a9067a98f9a
 
 ---
 
@@ -24,6 +24,15 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
  -->
 
 The latest version of each library can be downloaded in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]**.
+
+## 版本2.17.0
+
+发行日期：**201 年 8 月 23 日**
+
+| 功能/修复 | 描述 |
+| -----------| ---------- |
+| 添加了Baidu支持 | 增加了对Baidu查询字符串重新排序的支持。 |
+| 修复了“未定义”错误地 | 修复了一个问题，该问题导致在等待选择加入时，在排队排队的点击中存在陈旧的访客值。 |
 
 ## 版本 2.16.0
 
