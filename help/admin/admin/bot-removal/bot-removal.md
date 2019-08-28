@@ -4,14 +4,14 @@ seo-title: 在Adobe Analytics中删除机器人
 description: 在Adobe Analytics中删除机器人程序的种方法
 seo-description: 在Adobe Analytics中删除机器人程序的种方法
 translation-type: tm+mt
-source-git-commit: 3b363c6d457dbeaef443aa059d2f7de3cdccbbb2
+source-git-commit: e4e709c9649526b51f441f92b4602c2d0bcecf64
 
 ---
 
 
 # 在Adobe Analytics中删除机器人
 
-在Adobe Analytics中，您有三个主要选项可用于从报告中删除机器人流量：
+在Adobe Analytics中，您有多个用于从报告中删除机器人流量的选项：
 
 1. Adobe Analytics中的默认机器人过滤方法是 [创建基于IAB机器人列表的机器人规则](/help/admin/admin/bot-removal/bot-rules.md) 。此列表每月更新并编译其列表，包括CDN和主要Internet属性。它包含数以千计的已知机器人程序，其中包括您的所有收藏夹：Google、Bing、Mozilla等此列表涵盖了有关机器人过滤的大多数使用案例和需求。
 
@@ -25,7 +25,7 @@ source-git-commit: 3b363c6d457dbeaef443aa059d2f7de3cdccbbb2
 
 屏幕截图
 
-以下是如何通过数据元素捕获此ID的屏幕截图。请确保正确将您的Adobe MCorG ID填充到数据元素中。
+以下是如何通过数据元素捕获此ID。请确保正确将您的Adobe eCorg ID填充到数据元素中。
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
