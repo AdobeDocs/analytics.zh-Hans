@@ -5,7 +5,7 @@ seo-title: 区段
 title: 区段
 uuid: 677f6030-5b3e-4dfa-bb79-9f3382 fb1
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: 07b18333144f992031dca5a5d8838206fa735cb5
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
 
 [使用YouTube上Analysis Workspace中的区段](https://www.youtube.com/watch?v=QlUCdQDnni4)(6：46)
 
-## Create segments {#section_693CFADA668B4542B982446C2B4CF0F5}
+## 创建区段 {#section_693CFADA668B4542B982446C2B4CF0F5}
 
 将任意组件类型（维度、维度项目、事件、量度、区段、区段模板和日期范围）放入面板顶部的区段拖放区域中，即可创建即时区段。
 
@@ -49,35 +49,9 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
 
 还有其他一些方法也可以将区段应用到自由格式项目中。
 
-<table id="table_45B3839D70674430AF3AC5AA3134F825"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 操作 </th> 
-   <th colname="col2" class="entry"> 描述 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>根据选定的内容创建区段 </p> </td> 
-   <td colname="col2"> <p>创建内联区段。选择行，接着右键单击选定的内容，然后创建内联区段。该区段只适用于打开的项目并且不能另存为 Analytics 区段。 </p> <p> 
-     <ol id="ol_1D1E661387354EBF992CC150915F642E"> 
-      <li id="li_B96666FD426F4AEE8EAB61B2C00A07FB">选择行 </li> 
-      <li id="li_C2245B3EA81F4FAC88A33647922535AF">右键单击选定的内容 </li> 
-      <li id="li_AB4F8988B9A84920ABA06A91094625F6">单击<span class="uicontrol">根据选定的内容创建区段</span>。 </li> 
-     </ol> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="uicontrol"> 组件</span> &gt; <span class="uicontrol">新建区段</span> </td> 
-   <td colname="col2"> <p>屏幕上会显示“<span class="wintitle">区段生成器</span>”。有关区段划分的更多信息，请参阅<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html" format="https" scope="external">生成区段</a>。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="ignoretag"><span class="uicontrol"> 共享</span> &gt; <span class="uicontrol">共享项目</span></span>或 </p> <p> <span class="ignoretag"><span class="uicontrol">共享</span> &gt; <span class="uicontrol">组织项目数据</span></span> </p> </td> 
-   <td colname="col2"> <p><a href="../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6" format="dita" scope="local"> 在“特选和共享</a>”中，您对该项目应用的区段在收件人共享分析中可用。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>使用区段作为维度 </p> </td> 
-   <td colname="col2"> <p>视频：<a href="https://www.youtube.com/watch?v=WmSdReKTWto&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=39" format="https" scope="external">在 Analysis Workspace 中使用区段作为维度</a> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| 操作 | 描述 |
+|--- |--- |
+| 根据选定的内容创建区段 | 创建内联区段。选择行，接着右键单击选定的内容，然后创建内联区段。该区段只适用于打开的项目并且不能另存为 Analytics 区段。1. 选择行。2. 右键单击选择。3. Click *Create segment from selection*. |
+| 组件 &gt; 新建区段 | 屏幕上会显示“区段生成器”。See [Segment Builder](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html) for more information about segmentation. |
+| “共享”&gt;“共享项目”或“共享”&gt;“管理项目数据” | In [Curate and Share](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6), learn how segments that you apply to the project are available in shared analysis for the recipient. |
+| 使用区段作为维度 | 视频：[在 Analysis Workspace 中使用区段作为维度](https://www.youtube.com/watch?v=WmSdReKTWto&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=39) |
