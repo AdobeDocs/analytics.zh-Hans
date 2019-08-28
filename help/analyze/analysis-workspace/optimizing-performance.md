@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 优化Analysis Workspace性能
-title: 优化Analysis Workspace性能
+seo-title: 优化 Analysis Workspace 性能
+title: 优化 Analysis Workspace 性能
 uuid: de51d03d-d555-4f0 e-b19 c-4a8 f140770 fc
 translation-type: tm+mt
-source-git-commit: ffb855a53d19449c4132dda59d728d3855955d9e
+source-git-commit: 9cd6a17db45c139765bea70fa27f37526334bcd0
 
 ---
 
 
-# 优化Analysis Workspace性能
+# 优化 Analysis Workspace 性能
 
 某些因素可能影响 Analysis Workspace 内的项目性能。开始构建项目之前，请务必了解这些因素的具体情况，以便您能够以最佳方式计划和构建项目。下面是一个将会影响性能的因素列表以及优化项目的最佳实践。Analysis Workspace 性能是 Adobe 最优先考虑的事项之一，也是我们每天都在持续改进的对象。
 
@@ -104,3 +104,6 @@ Use [date comparison options](../../analyze/analysis-workspace/components/calend
 | `The report suite is experiencing unusually heavy reporting. Please try again later.` | 您的组织正在尝试针对特定报表包运行过多的并发请求。此错误的参与者包括API请求、计划项目、预定报告、预定的警报以及发出报告请求的并发用户。我们建议在整个一天内更均匀地展开报告包的请求和计划。 |
 | `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | Adobe遇到了需要解决的问题。我们建议您通过客户关怀请求提交错误代码。 |
 | `The request is too complex.` | 您的报表请求过大，无法执行。此错误的参与者因请求的大小、区段或搜索过滤器中的匹配项过多、包含的指标过多、维度和指标组合不兼容等而导致超时。我们建议您简化申请。 |
+| `One of the segments or the search in this visualization contains a text search that returned too many results.` | 我们建议采用搜索文本条件并再次尝试请求。 |
+| `This dimension does not currently support non-default attribution models.` | 我们建议将表中的维度替换为 [与属性IQ兼容的维度](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html)。 |
+| `Your request failed as a result of too many columns or pre-configured rows.` | 我们建议删除某些列或行，或者考虑将它们拆分为单独的可视化。 |
