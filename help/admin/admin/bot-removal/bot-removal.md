@@ -4,7 +4,7 @@ seo-title: 在Adobe Analytics中删除机器人
 description: 在Adobe Analytics中删除机器人程序的种方法
 seo-description: 在Adobe Analytics中删除机器人程序的种方法
 translation-type: tm+mt
-source-git-commit: e4e709c9649526b51f441f92b4602c2d0bcecf64
+source-git-commit: 0e882f4908dababaf96cf225c62f7ab3bb35860e
 
 ---
 
@@ -56,4 +56,18 @@ source-git-commit: e4e709c9649526b51f441f92b4602c2d0bcecf64
 ## 第步：创建利用新客户属性的细分
 
 对数据集进行处理并集成到Analysis Workspace中后，再创建一个利用新的“机器人标记”客户属性维度的细分：
+
+![](assets/bot-filter-seg2.png)
+
+## 步骤6：将此区段用作虚拟报告套件过滤器
+
+最后，您应该创建一个利用此区段的虚拟报告包，以筛选所标识的机器人程序：
+
+![](assets/bot-vrs.png)
+
+这个新分段的虚拟报告包现在将生成一组非常清晰的数据，并完全删除识别的机器人程序。
+
+## 第步：定期重复步骤2、和4
+
+至少在定期安排分析之前设置月度提醒以识别和过滤新机器人。
 
