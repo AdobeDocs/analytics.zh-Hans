@@ -5,7 +5,7 @@ seo-title: 命名空间
 title: 命名空间
 uuid: cab61844-3209-4980-b14 c-6859de777606
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 9362a59afb6a51bd91d8a94ae5750c4d138fc2f7
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 该值必须指定为两个十六进制数字，并使用短横线进行分隔。十六进制数中的所有字母字符都必须指定为使用大写字母。十六进制值不得以零开头（请注意，这与弃用版本中指定相同值的要求不同，弃用版本中要求该值以零开头）。
 
-It is also acceptable to use `“namespaceId”: 10` instead of or in addition to `“namespace”: “AAID”` and you may see some other Adobe products use that form.
+它还可以代替或除其他 `“namespaceId”: 10` 之外使用，您 `“namespace”: “AAID”` 可能会看到某些其他Adobe产品使用该表单。
 
 ## 旧版 Analytics 跟踪 Cookie：弃用版本
 
@@ -66,7 +66,7 @@ It is also acceptable to use `“namespaceId”: 10` instead of or in addition t
 
 该值必须指定为一个 38 位十进制数。如果您从一个数据源或一个数据仓库报告中提取这两个misdd\_ high/low或post\_ msload\_ high/low列，您必须将这两个数字中的每一个都设为19位数字，然后将它们与高值连接在一起。
 
-It is also acceptable to use: `“namespaceId”: 4` instead of or in addition to `“namespace”: “ECID”` and you may see some other Adobe products use that form.
+也可以使用： `“namespaceId”: 4` 而不是另外，您 `“namespace”: “ECID”` 可能会看到某些其他Adobe产品使用该表单。
 
 >[!NOTE]
 >
@@ -106,15 +106,12 @@ It is also acceptable to use: `“namespaceId”: 4` instead of or in addition t
 }
 ```
 
-对于自定义流量或转化变量（prop 或 eVar）中的 ID，您应当为变量设置 ID-DEVICE 或 ID-PERSON 标签，然后将您自己的命名空间名称分配给此类型的 ID。请参阅[为变量设置 ID-DEVICE 或 ID-PERSON 标签时提供命名空间](../../admin/c-data-governance/gdpr-labels.md#section_F0A47AF8DA384A26BD56032D0ABFD2D7)。
+对于自定义流量或转化变量(props或eVar)中的ID，使用ID-DEVICE或ID-Person标签标签变量，然后将自己的命名空间名称指定给该类型的ID。请参阅[为变量设置 ID-DEVICE 或 ID-PERSON 标签时提供命名空间](gdpr-labels.md)。
 
 您还可以查看之前为其他变量或报表包定义的命名空间并重复使用其中之一，以便轻松地将相同的命名空间用于存储此类型 ID 的所有报表包。另外，还可以将相同的命名空间分配给一个报表包内的多个变量。例如，某些客户将 CRM ID 存储在流量变量和转化变量中（根据页面，有时存储在其中任一变量中，有时同时存储在这两个变量中），并且他们可以将命名空间“CRM ID”同时分配给这两个变量。
 
->[!NOTE]
->
->在将命名空间指定给GDPR API时，您不能使用变量的友好名称(在报表UI中显示的名称)或变量的编号(如eVar12)，除非这也是将ID-设备或ID-PEN标签应用于此变量时指定的命名空间。在这些情况下，使用命名空间而不是友好名称可以允许相同的用户标识块为多个报表包指定正确的变量：
+> [!TIP] 避免使用变量的友好名称(在报表UI中显示的名称)或变量的编号(如eVar12)时将命名空间指定给GDPR API，除非应用ID-DEVICE或ID-Person标签时指定的命名空间。使用命名空间而不是友好名称，可允许同一用户标识块为多个报表包指定正确的变量。例如，如果ID位于某些报表包中的不同eVar中，或者如果易记名称不匹配(例如，当特定报表包的友好名称已经本地化时)。
 
-* 某些报表包中的 ID 位于不同的 eVars 中，或者
-* 友好名称不匹配（例如，友好名称为了适应特定的报表包而进行了本地化）
+> [!CAUTION] 命名空间“itortorID”和“customitorId”被保留为标识Analytics旧版跟踪cookie和Analytics客户访客ID。请勿将这些命名空间用于自定义流量或转化变量。
 
 更多信息，请参阅[为变量设置 ID-DEVICE或 ID-PERSON 标签时提供命名空间](../../admin/c-data-governance/gdpr-labels.md#section_F0A47AF8DA384A26BD56032D0ABFD2D7)。
