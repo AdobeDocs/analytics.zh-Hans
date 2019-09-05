@@ -5,7 +5,7 @@ seo-title: Analytics 变量的 GDPR 标签
 title: Analytics 变量的 GDPR 标签
 uuid: a37a1278-8a0d-4e14-ae35-43bc460 e7 d12
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: fe4c95bc6fb5e9e7d98dfbaff21ba2e6aff486ae
 
 ---
 
@@ -243,6 +243,8 @@ Adobe Analytics GDPR 实施支持以下用于身份数据、敏感数据和数�
 在同一个报表包中，为不同变量使用相同的命名空间是可以接受的。例如，一些自定义实施将 CRM-ID 存储在 prop 和 eVar 中。如果 CRM-ID 总是出现在这两者的其中一个当中（例如 eVar）、只是偶尔出现在另外一个当中 (prop)，并且当 CRM-ID 没有出现在 eVar 中时它也绝不会出现在 prop 中，那么，只有 eVar 需要 ID 标签和命名空间，这是因为 Adobe 可以只在该 eVar 中搜索 ID。但是，如果 CRM-ID 有时出现在一个变量中，有时出现在另一个变量中，那么它们应该具有相同的命名空间，而且 Adobe 将搜索这两个变量，以查找指定为使用此命名空间的 GDPR 请求一部分的 ID 的出现次数。您仍应在所有这些变量中包含 DEL 标签，以便无论该值何时出现，它都是匿名化的。
 
 列举另一个示例，您可能拥有一个 CRM ID，并且有时会通过 eVar1 发送，有时通过 prop7 发送。然后您使用一个处理规则，将 eVar1 的值（如果存在）复制到 eVar3 中。否则，它会将 prop7 的值复制到 eVar3。在这种情况下，如果 CRM ID是已知的，eVar3 将始终包含该 CRM ID，因此只有 eVar3 需要 ID-PERSON 标签。
+
+> [!WARNING] 命名空间“itortorID”和“customitorId”被保留为标识Analytics旧版跟踪cookie和Analytics客户访客ID。请勿将这些命名空间用于自定义流量或转化变量。
 
 ## 变量类型及其支持的 GDPR/DULE 标签 {#section_CE7C3EDE1344466A98BC45E394B40762}
 
