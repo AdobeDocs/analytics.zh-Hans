@@ -5,7 +5,7 @@ seo-title: Analytics 变量的 GDPR 标签
 title: Analytics 变量的 GDPR 标签
 uuid: a37a1278-8a0d-4e14-ae35-43bc460 e7 d12
 translation-type: tm+mt
-source-git-commit: fe4c95bc6fb5e9e7d98dfbaff21ba2e6aff486ae
+source-git-commit: 0df187fd7ebc359d54e4fb14a3d69e3b5eb7ce05
 
 ---
 
@@ -244,7 +244,7 @@ Adobe Analytics GDPR 实施支持以下用于身份数据、敏感数据和数�
 
 列举另一个示例，您可能拥有一个 CRM ID，并且有时会通过 eVar1 发送，有时通过 prop7 发送。然后您使用一个处理规则，将 eVar1 的值（如果存在）复制到 eVar3 中。否则，它会将 prop7 的值复制到 eVar3。在这种情况下，如果 CRM ID是已知的，eVar3 将始终包含该 CRM ID，因此只有 eVar3 需要 ID-PERSON 标签。
 
-> [!WARNING] 命名空间“itortorID”和“customitorId”被保留为标识Analytics旧版跟踪cookie和Analytics客户访客ID。请勿将这些命名空间用于自定义流量或转化变量。
+> [!CAUTION] 命名空间“itortorID”和“customitorId”被保留为标识Analytics旧版跟踪cookie和Analytics客户访客ID。请勿将这些命名空间用于自定义流量或转化变量。
 
 ## 变量类型及其支持的 GDPR/DULE 标签 {#section_CE7C3EDE1344466A98BC45E394B40762}
 
