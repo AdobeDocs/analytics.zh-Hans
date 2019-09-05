@@ -4,7 +4,7 @@ description: 内部流量插件动态识别源自内部网络的访客。
 seo-description: 内部流量插件
 seo-title: 内部流量插件
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 8c2b28ee1ca2e9448b9dec99a0505d0fae525e94
 
 ---
 
@@ -30,23 +30,24 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 1. 添加Intranet像素：您可以在Intranet上添加任何类型的文件，插件将尝试访问该文件。建议使用1x透明像素。它应该放在Intranet上的某个位置，可从内部网络中广泛访问。
 1. 配置eVar：需要在目标报告套件中添加eVar。它应已过期“访问”和分配“原始值(第一个)”。
 1. 定义内部URL：在AppMeasurement配置变量内，在实例化doPlugins之前，为像素或其他文件定义内部URL变量(s. inTurl)。例如：`s.intURL = "https://www.yourdomainhere.com/trafficCheck.gif"`
-1. Modify doPlugins and set the eVar: The plugin can then be initialized by including this line of code within the doPlugins section of your AppMeasurement library code, using the eVar defined in step one: `s.eVarXX = s.intCheck();`
-The variable value will be set to “internal” or “external”.
+1. 修改doPlugins并设置eVar：然后，可使用第步中定义的eVar在AppMeasurement库代码的doPlugins部分中包含此行代码来初始化插件： `s.eVarXX = s.intCheck();`
+变量值将设置为“internal”或“external”。
 1. 添加插件源代码：在AppMeasurement文件的doPlugins部分下包含插件代码。
 
 ## 插件源代码
 
 将此代码添加到AppMeasurement库的doPlugins部分下。
 
-```s.intCheck=new Function("",""
+```JavaScript
+s.intCheck=new Function("",""
 +"var s=this;if(document.cookie.indexOf('intChk=')==-1){try{document."
 +"cookie='intChk=1';var x=new XMLHttpRequest(),y;x.open('GET',s.intUr"
 +"l,false);x.send();if(x.status===200&&x.statusText==='OK'){y='intern"
-+"al';}}catch(e){y='external'}finally{return y}}");```
++"al';}}catch(e){y='external'}finally{return y}}");
+```
 
-## Other Notes
+## 其他备注
 
-* Always test plug-in installations to ensure that data collection happens as expected before deploying them in a production environment.
-* Your implementation might be using a different object name than the default Adobe Analytics "s" object. If so, please update the object name accordingly.
-* If you employ a Tag Management System, please follow its steps to update doPlugins and the other custom plugins.
-
+* 始终测试插件安装，以确保数据收集按预期方式进行，然后再在生产环境中部署。
+* 您的实施可能使用不同于默认Adobe Analytics的对象的对象名称。如果是这样，请相应地更新对象名称。
+* 如果您使用标签管理系统，请按照其步骤更新doPlugins和其他自定义插件。
