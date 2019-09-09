@@ -3,8 +3,8 @@ product: analytics
 audience: 最终用户
 user-guide-title: Analytics 组件指南
 user-guide-url: /content/help/zh-Hans/analytics/components/home.html
-translation-type: ht
-source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
+translation-type: tm+mt
+source-git-commit: d843fc462a820f9e04bca5a2962adbf2adcf2159
 
 ---
 
@@ -77,6 +77,10 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
       + [创建虚拟报表包](vrs/c-workflow-vrs/vrs-create.md)
       + [管理虚拟报表包](vrs/c-workflow-vrs/vrs-manage.md)
       + [查看虚拟报表包信息](vrs/c-workflow-vrs/vrs-view.md)
++ Cross-Device Analytics {#cda}
+   + [跨设备分析概述](cda/cda-home.md)
+   + [设置跨设备分析](cda/cda-setup.md)
+   + [跨设备分析常见问题解答](cda/cda-faq.md)
 + 警报 {#alerts}
    + [智能警报](c-alerts/intellligent-alerts.md)
    + [警报生成器](c-alerts/alert-builder.md)
