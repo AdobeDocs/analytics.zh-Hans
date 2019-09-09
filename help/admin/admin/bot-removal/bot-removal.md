@@ -4,7 +4,7 @@ seo-title: 在Adobe Analytics中删除机器人
 description: 在Adobe Analytics中删除机器人程序的种方法
 seo-description: 在Adobe Analytics中删除机器人程序的种方法
 translation-type: tm+mt
-source-git-commit: 07b18333144f992031dca5a5d8838206fa735cb5
+source-git-commit: 53b1559c7596fae7bc36bb7337967a71d9fc22e2
 
 ---
 
@@ -15,7 +15,14 @@ source-git-commit: 07b18333144f992031dca5a5d8838206fa735cb5
 
 ## 使用机器人规则
 
-Adobe Analytics中的默认机器人过滤方法是 [创建基于IAB机器人列表的机器人规则](/help/admin/admin/bot-removal/bot-rules.md) 。此列表每月更新并编译其列表，包括CDN和主要Internet属性。它包含数以千计的已知机器人程序，其中包括您的所有收藏夹：Google、Bing、Mozilla等此列表涵盖了有关机器人过滤的大多数使用案例和需求。
+标准和自定义机器人过滤方法在以下方面均受支持 !![UICONTROL Analytics > Admin > Report Suites > Edit Settings > General > Bot Rules]：
+
+| 规则类型 | 描述 |
+|--- |--- |
+| 标准IAB机器人规则 | 选择“启用IAB机器人过滤规则”可使用 [IAB的](https://www.iab.com/) (国际广告局)国际蜘蛛和机器人列表来删除机器人程序流量。大多数客户最少选择此选项。 |
+| 自定义机器人规则 | 您可以根据用户代理、IP地址或IP范围定义和添加自定义机器人规则。 |
+
+有关详细信息，请参阅 [机器人规则概述](/help/admin/admin/bot-removal/bot-rules.md)。
 
 ## 使用 `hitGovernor` 实施插件
 
@@ -27,11 +34,11 @@ Adobe Analytics中的默认机器人过滤方法是 [创建基于IAB机器人列
 
 ### 步骤1：将访客的Experience Cloud ID传递给新声明的ID
 
-首先，您需要在 [Audiences核心服务中创建一个新的声明ID](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)。您需要将访客的Experience Cloud ID传递到这个新声明的ID中，Adobe [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html)可以快速、轻松地完成该ID。让我们为声明的ID使用名称“EID”。
+首先，您需要在 [People核心服务中创建一个新的声明ID](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)。您需要将访客的Experience Cloud ID传递到这个新声明的ID中，Adobe [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html)可以快速、轻松地完成该ID。让我们为声明的ID使用名称“EID”。
 
-屏幕截图
+![](assets/bot-cust-attr-setup.png)
 
-以下是如何通过数据元素捕获此ID。请确保正确将您的Adobe eCorg ID填充到数据元素中。
+以下是如何通过数据元素捕获此ID。确保正确将Experience Cloud orgID填充到数据元素中。
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
@@ -53,15 +60,18 @@ Adobe Analytics中的默认机器人过滤方法是 [创建基于IAB机器人列
 
 ### 第步：将此列表作为客户属性传递给Adobe
 
-数据仓库报告到达后，您将有一个需要从历史数据筛选的电子ID列表。将这些ECID复制并粘贴到空白的. CSV文件中，只含两列、EID和机器人标记：
+数据仓库报告到达后，您将有一个需要从历史数据筛选的电子ID列表。将这些ECID复制并粘贴到空白的. CSV文件中，只含两列、EID和机器人标志。
+
+* **EID**：确保此列标题与上面新声明的ID相匹配。
+* **机器人标志**：将其添加为客户属性架构维度。
+
+使用此CSV文件作为客户属性导入文件，然后将您的报表套件订阅给客户属性，如 [博客文章](https://theblog.adobe.com/link-digital-behavior-customers)中所述。
 
 ![](assets/bot-csv-4.png)
 
-确保第一个列标题与以上新声明的ID相匹配。使用此CSV文件作为客户属性导入文件，然后将您的报表套件订阅给客户属性，如 [博客文章](https://theblog.adobe.com/link-digital-behavior-customers)中所述。
-
 ### 第步：创建利用新客户属性的细分
 
-对数据集进行处理并集成到Analysis Workspace中后，再创建一个利用新的“机器人标记”客户属性维度的细分：
+对数据集进行处理并集成到Analysis Workspace中后，再创建一个利用新的“机器人标记”客户属性维度和 !![UICONTROL Exclude] 容器的细分：
 
 ![](assets/bot-filter-seg2.png)
 
@@ -76,4 +86,3 @@ Adobe Analytics中的默认机器人过滤方法是 [创建基于IAB机器人列
 ### 第步：定期重复步骤2、和4
 
 至少在定期安排分析之前设置月度提醒以识别和过滤新机器人。
-
