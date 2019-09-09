@@ -5,16 +5,12 @@ seo-title: hitGovernor
 title: hitGovernor
 uuid: d9091eae-005a-43c2-b419-980b795 bc2 a9
 translation-type: tm+mt
-source-git-commit: 5abac13c231659108a26b8513a3bb32e4e530b94
+source-git-commit: 4d3fdf9d90afab9d899a93561105a589742d838e
 
 ---
 
 
 # hitGovernor
-
-s.hitGovernor 插件可跟踪在预定义的连续时间范围内发送的 Analytics 图像请求的总数量，如果总数超过了某个阈值，则此插件还可以根据需要执行其他逻辑。
-
-## hitGovernor {#topic_56B636A42A624B38A0A446C607ACD700}
 
 s.hitGovernor 插件可跟踪在预定义的连续时间范围内发送的 Analytics 图像请求的总数量，如果总数超过了某个阈值，则此插件还可以根据需要执行其他逻辑。
 
