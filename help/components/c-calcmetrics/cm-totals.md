@@ -11,7 +11,7 @@ source-git-commit: ec3187f1548aa107f03d9abf7ceacb7a4a85abb3
 
 # 计算量度总计
 
-计算得出的量度总数之间的差异不同 [!DNL Reports & Analytics][!DNL Analysis Workspace]。本节将介绍不同之处。
+计算得出的量度总数之间的差异不同 [!DNL Reports & Analytics] [!DNL Analysis Workspace]。本节将介绍不同之处。
 
 ## 计算得出的指标总数 [!DNL Reports & Analytics]
 
