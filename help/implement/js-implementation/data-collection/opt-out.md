@@ -2,18 +2,18 @@
 description: 'null'
 keywords: Analytics 实施
 seo-description: 'null'
-seo-title: 实施Adobe选择退出
+seo-title: 实施 Adobe 选择退订
 solution: Analytics
-title: 实施Adobe选择退出
+title: 实施 Adobe 选择退订
 topic: 开发人员和实施
 uuid: fc3a411c-846-409d-99de-05b34x5019
 translation-type: tm+mt
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+source-git-commit: b59e232b98c7e180478103ac2939a2c8c64a1407
 
 ---
 
 
-# 实施Adobe选择退出
+# 实施 Adobe 选择退订
 
 您网站的某些访客可能不希望 Adobe Experience Cloud 产品及服务收集和分析其浏览信息，或将这些信息用于提供相关内容和广告。Adobe 让您能够向网站访客提供一种方案，禁止以下 Adobe 产品收集访客信息：
 
@@ -34,8 +34,7 @@ Adobe 建议您向网站访客提供易于查找且通俗易懂的信息，让�
 
 Adobe offers three types of opt-outs for Adobe Analytics (including [!UICONTROL Reports &amp; Analytics], [!UICONTROL Data Warehouse], [!UICONTROL Ad Hoc Analysis]):
 
-* If you implement Adobe Analytics products with your own first-party cookie, you need to [develop your own customized opt-out link](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9) for your website visitors.
-* Adobe 也针对网站使用的 Cookie 是从 Adobe 2o7.net 和 omtrdc.net 域设置的情况，为公众提供了禁用机制。此禁用机制可从 [Adobe 隐私中心](https://www.adobe.com/privacy/opt-out.html)访问。
+* 如果您使用自己的第一方cookie实施Adobe Analytics产品，则需要 [为您的网站访客开发自己的自定义退出链接](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9) 。
 * 您的客户可以选择使用浏览器的 Cookie 设置启用禁用机制。请参阅[启用浏览器 Cookie 的隐私设置](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/?f=browser_cookie_settings)。
 
 不管您选择哪一种禁用机制，Adobe 都建议您在隐私政策中明确说明该禁用机制的可用性，除非另有法律要求，或依据当前最佳实践另有其他建议。
