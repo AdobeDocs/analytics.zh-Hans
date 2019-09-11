@@ -4,7 +4,7 @@ seo-title: 在Adobe Analytics中删除机器人
 description: 在Adobe Analytics中删除机器人程序的种方法
 seo-description: 在Adobe Analytics中删除机器人程序的种方法
 translation-type: tm+mt
-source-git-commit: 53b1559c7596fae7bc36bb7337967a71d9fc22e2
+source-git-commit: 711d58d139abcff344e43e1484f0ba2f2d3407cf
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 53b1559c7596fae7bc36bb7337967a71d9fc22e2
 
 ## 使用机器人规则
 
-标准和自定义机器人过滤方法在以下方面均受支持 !![UICONTROL Analytics > Admin > Report Suites > Edit Settings > General > Bot Rules]：
+**[!UICONTROL “分析]** ”&gt;“ **[!UICONTROL 管理员]** ”&gt; **[!UICONTROL “报表包]** ”&gt;“ **[!UICONTROL 编辑设置]** ”&gt;“ **[!UICONTROL 常规]** ”&gt; **[!UICONTROL “机器人规则]**”支持标准和自定义机器人过滤方法：
 
 | 规则类型 | 描述 |
 |--- |--- |
