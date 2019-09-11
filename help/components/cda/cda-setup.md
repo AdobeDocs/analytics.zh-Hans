@@ -2,16 +2,18 @@
 title: 设置跨设备分析
 description: 了解如何在满足prerequi站点后设置跨设备分析。
 translation-type: tm+mt
-source-git-commit: 1ab4c27d6635167be475b6669ff6ed1913adc455
+source-git-commit: 40d8ecae1ac7e0a1df4a2df17f5104bee6ecf336
 
 ---
 
 
 # 设置跨设备分析
 
-> [!IMPORTANT] 必须先满足所有先决条件，然后才能执行这些步骤。如果所有prerequi站点均未满足，则该功能不可用或无法使用。请参阅 [针对prerequi站点和限制的跨设备分析](cda-home.md) 。
+> [!NOTE] 跨设备分析文档可能会随着进一步开发功能而发生变化。定期查阅更新。
 
 满足所有前提条件后，请使用以下步骤启用跨设备分析。您必须属于产品配置管理员组或拥有Adobe Analytics中的管理员权限才能遵循这些步骤。
+
+> [!IMPORTANT] 必须先满足所有先决条件，然后才能执行这些步骤。如果所有prerequi站点均未满足，则该功能不可用或无法使用。请参阅 [针对prerequi站点和限制的跨设备分析](cda-home.md) 。
 
 ## 选择将为CDA启用的跨设备报告套件
 
