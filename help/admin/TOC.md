@@ -3,8 +3,8 @@ product: analytics
 audience: admin
 user-guide-title: Analytics 管理指南
 user-guide-url: /content/help/zh-Hans/analytics/admin/home.html
-translation-type: ht
-source-git-commit: 6a86f549e314132fc088f6c300bb61d6547498f5
+translation-type: tm+mt
+source-git-commit: 8185272aefa5e57b5a5b4baf9fb3a711439cea42
 
 ---
 
@@ -22,8 +22,6 @@ source-git-commit: 6a86f549e314132fc088f6c300bb61d6547498f5
    + 机器人移除 {#bot-removal}
       + [机器人移除](admin/bot-removal/bot-removal.md)
       + [机器人规则概述](admin/bot-removal/bot-rules.md)
-      + [上载机器人规则](admin/bot-removal/t-upload-bot-rules.md)
-      + [创建自定义机器人规则](admin/bot-removal/t-create-bot-rules.md)
    + [代码管理器](admin/code-manager-admin.md)
    + 转化变量 {#conversion-variables}
       + [转化变量 (eVar)](admin/conversion-var-admin/conversion-var-admin.md)
