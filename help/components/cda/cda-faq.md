@@ -2,12 +2,14 @@
 title: 跨设备分析常见问题解答
 description: 跨设备分析常见问题解答
 translation-type: tm+mt
-source-git-commit: c104fbda3dc4a6be6b596c60c6e1973407d94f80
+source-git-commit: 40d8ecae1ac7e0a1df4a2df17f5104bee6ecf336
 
 ---
 
 
 # 常见问题解答
+
+> [!NOTE] 跨设备分析文档可能会随着进一步开发功能而发生变化。定期查阅更新。
 
 **如何使用CDA查看人们从一种设备类型移至另一种设备的方式？**
 
