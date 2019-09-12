@@ -4,14 +4,14 @@ seo-title: 计算量度总计
 description: 了解计算指标总数在Analytics工具中的差异
 seo-description: 计算计算指标总数的方式
 translation-type: tm+mt
-source-git-commit: ec3187f1548aa107f03d9abf7ceacb7a4a85abb3
+source-git-commit: 658925799c530b46ff7b56d5d0685af6d9fef1b8
 
 ---
 
 
 # 计算量度总计
 
-计算得出的量度总数之间的差异不同 [!DNL Reports & Analytics] [!DNL Analysis Workspace]。本节将介绍不同之处。
+计算得出的量度总数之间的差异不同 [!DNL Reports & Analytics][!DNL Analysis Workspace]。本节将介绍不同之处。
 
 ## 计算得出的指标总数 [!DNL Reports & Analytics]
 
@@ -28,13 +28,14 @@ source-git-commit: ec3187f1548aa107f03d9abf7ceacb7a4a85abb3
 
 * 创建一个计算指标，其中包含您希望包含的量度的总版本。
 * 创建可计划的数据提取报告。
-* 在ReportBuilder中创建数据请求。
-* 使用Analysis Workspace(见下文)。
+* Create a data request within [!DNL ReportBuilder].
+* 使用 [!DNL Analysis Workspace] (见下文)。
 
 ## 计算得出的指标总数 [!DNL Analysis Workspace]
 
-在Analysis Workspace中，在某些情况下，将计算计算得出的量度总数：
+当您在Analysis Workspace中查看数据时，大多数情况下都会显示计算得出的量度总数。在某些情况下，不可能提供总计，例如报表的行有混合格式(例如小数点和货币)。
 
-* 如果在自由表单表中有 [](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) 静态行，并 *[!UICONTROL 通过累加每个列]* 选项当前中的值(默认值)，则将计算总计。
-* 在 [Dont可视化](/help/analyze/analysis-workspace/visualizations/donut.md)中。
-* 在 [“摘要更改”可视化](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)中。
+显示总数时，通常会计算服务器端，这意味着访问或访客如访问或访客总数。在某些情况下，计算量度通过在表格行之间相加来生成客户端，这意味着总数不会消除访问或访客等重复指标。发生这种情况：
+
+* [当静态行](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) 在自由表中使用时， **[!UICONTROL 显示为当前行]** 选项(默认)的总和。
+* 在 [Dont可视化中](/help/analyze/analysis-workspace/visualizations/donut.md)，数字最多可添加100%。
