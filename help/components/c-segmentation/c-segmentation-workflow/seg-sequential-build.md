@@ -1,18 +1,18 @@
 ---
 description: 顺序区段使用 THEN 运算符（而非 AND 或 OR）创建。THEN 意味着出现一个区段标准后，接着出现另一个区段标准。默认情况下，顺序区段会标识所有匹配数据，并显示过滤器“包含每个人”。可以使用“仅在序列前”和“仅在序列后”选项将顺序区段进一步过滤为匹配点击的子集。
 seo-description: 顺序区段使用 THEN 运算符（而非 AND 或 OR）创建。THEN 意味着出现一个区段标准后，接着出现另一个区段标准。默认情况下，顺序区段会标识所有匹配数据，并显示过滤器“包含每个人”。可以使用“仅在序列前”和“仅在序列后”选项将顺序区段进一步过滤为匹配点击的子集。
-seo-title: 构建顺序区段
+seo-title: 生成顺序区段
 solution: Analytics
-title: 构建顺序区段
+title: 生成顺序区段
 topic: 区段
 uuid: fb9f1c7-a738-416a-aa2-d77 e40 fa7 e61
 translation-type: tm+mt
-source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
+source-git-commit: 22aec2a6e8e0c0aa3e0a404a7cb0bc44a392a1a9
 
 ---
 
 
-# 构建顺序区段
+# 生成顺序区段
 
 顺序区段使用 THEN 运算符（而非 AND 或 OR）创建。THEN 意味着出现一个区段标准后，接着出现另一个区段标准。默认情况下，顺序区段会标识所有匹配数据，并显示过滤器“包含每个人”。可以使用“仅在序列前”和“仅在序列后”选项将顺序区段进一步过滤为匹配点击的子集。
 
@@ -28,7 +28,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 
 | 如果结果… | 序列 |
 |--- |--- |
-| 匹配 | A then B<br>A then (in a different visit) B<br>A then D then B |
+| 匹配 | A然后BA<br>(在不同的访问中) BA<br>然后D然后B B |
 | 不匹配 | B -&gt; A |
 
 ## “仅在序列前”和“仅在序列后” {#section_736E255C8CFF43C2A2CAAA6D312ED574}
@@ -73,7 +73,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 | 如果结果… | 序列 |
 |--- |--- |
 | 匹配 | A -&gt; B |
-| 不匹配 | A then C then B (because B was not within 1 page of A)<br>**Note:**  If the dimension restriction is taken out, "A then B" and "A then C then B" would both match. |
+| 不匹配 | A然后C B(因为B不在A的1页内)<br>**注：** 如果去掉维度限制，“A然后B”和“A然后C然后B”都会匹配。 |
 
 ## 简单页面查看序列
 
@@ -185,7 +185,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 
 可以使用 [!UICONTROL Exclude] 运算符确定访客没有执行特定访问或点击的序列。[!UICONTROL 排除检查点]也可以包含在 [逻辑组](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_23CE0E6071E14E51B494CD21A9799112).
 
-## 在检查点之间排除
+### 在检查点之间排除
 
 执行逻辑以细分符合以下条件的访客：某个检查点没有明确出现在两个其他检查点之间。
 
@@ -200,11 +200,11 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 
 **创建此区段**
 
-Create a segment as you would for a simple, mixed-level, or nested sequential segment and then set the [!UICONTROL EXCLUDE] operator for the container element. 下面的示例是一个聚合区段，其中将三个[!UICONTROL 点击]容器拖到画布中，分配 [!UICONTROL THEN] 运算符以联接容器逻辑，然后排除中间的页面查看容器以仅包含从序列中的页面 A 访问页面 C 的访客。
+根据简单的混合级别或嵌套顺序区段创建区段，然后为容器元素设置 [!UICONTROL EXCLUDE] 运算符。下面的示例是一个聚合区段，其中将三个[!UICONTROL 点击]容器拖到画布中，分配 [!UICONTROL THEN] 运算符以联接容器逻辑，然后排除中间的页面查看容器以仅包含从序列中的页面 A 访问页面 C 的访客。
 
 ![](assets/exclude_between_checkpoints.png)
 
-## 在序列开始时排除
+### 在序列开始时排除
 
 如果排除检查点位于顺序区段开头，则它确保排除的页面查看不会位于第一个非排除的点击前面。
 
@@ -223,7 +223,7 @@ Create a segment as you would for a simple, mixed-level, or nested sequential se
 
 ![](assets/exclude_beginning_sequence.png)
 
-## 在序列结尾处排除
+### 在序列结尾处排除
 
 如果排除检查点位于序列末尾，则它确保在上一非排除的检查点和访客序列结束之间不会出现检查点。
 
@@ -244,7 +244,7 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 
 ## 逻辑组容器
 
-在顺序区段中，需要按照[容器层次结构](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551)中的严格顺序排列容器。[!UICONTROL 逻辑组]容器设计用于以下场合：需要在顺序区段中使用较高级别容器以进一步过滤访客，以及提供复杂、嵌套和访客级别的约束以优化区段。
+Within sequential segmentation, it is required that containers are ordered strictly within the [container hierarchy](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). [!UICONTROL 逻辑组] 容器设计为将 *多个检查点视为一个组*， *而不在分组检查点* 之间进行排序。换句话说，我们不在乎该组中的检查点顺序。例如，无法在[!UICONTROL 访客]容器中嵌套[!UICONTROL 访客]容器。But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
 
 | 标准容器层次结构 |
 |---|
@@ -255,16 +255,14 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 >
 >[!UICONTROL 逻辑组] 只能在顺序区段中定义，这意味着 [!UICONTROL 在表达式中使用THEN] 运算符。
 
-[!UICONTROL 逻辑组]容器将一些检查点视为无序的组。例如，无法在[!UICONTROL 访客]容器中嵌套[!UICONTROL 访客]容器。相反，您可以将[!UICONTROL 逻辑组]容器嵌套在具有特定[!UICONTROL 访问]和[!UICONTROL 点击]级别检查点的[!UICONTROL 访客]容器中。
-
 | 逻辑容器非标准层次结构 |
 |---|
 | ![](assets/logic_group_hierarchy.png) |
 | 在[!UICONTROL 逻辑组]容器外部，也需要使用标准容器层次结构。但在[!UICONTROL 逻辑组]容器内，检查点不需要采用设置的顺序或层次结构；采用任意顺序的访客都可以满足这些检查点的要求。 |
 
-## Build a Logic Group segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
+### Build a Logic Group segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
 
-Like other containers, the [!UICONTROL Logic Group] containers can be built in multiple ways within the [!UICONTROL Segment Builder]. 下面是嵌套[!UICONTROL 逻辑组]容器的首选方法：
+与其他容器一样， [!UICONTROL 可以在区段生成器中以多种方式构建逻辑组][!UICONTROL 容器]。下面是嵌套[!UICONTROL 逻辑组]容器的首选方法：
 
 1. 从左侧窗格拖动维度、事件或区段。
 1. 将顶部容器更改为[!UICONTROL 访客]容器。
@@ -273,7 +271,7 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 1. Click the container icon and select **[!UICONTROL Logic Group]**.  ![](assets/logic_group_checkpoints.png)
 1. 现在，您可以在[!UICONTROL 逻辑组]容器中设置[!UICONTROL 点击]，而与层次结构无关。
 
-## 按任意顺序进行逻辑组检查点
+### 按任意顺序进行逻辑组检查点
 
 通过使用[!UICONTROL 逻辑组]，您可以满足该组中不在序列范围内的条件。This allows you to build segments where a [!UICONTROL Visit] or [!UICONTROL Hit] container happens irrespective of the normal hierarchy.****
 
@@ -285,7 +283,7 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 
 ![](assets/logic_group_any_order2.png)
 
-## 逻辑组第一次匹配
+### 逻辑组第一次匹配
 
 通过使用[!UICONTROL 逻辑组]，您可以满足该组中不在序列范围内的条件。在该无序的第一个匹配区段中，先将[!UICONTROL 逻辑组]规则指定为页面 B 或页面 C 的页面查看，然后指定为页面 A 的所需查看。
 
@@ -297,7 +295,7 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 
 ![](assets/logic_group_1st_match.png)
 
-## 逻辑组排除AND
+### 逻辑组排除AND
 
 Build segments using the [!UICONTROL Logic Group] where multiple page views are aggregated to define what pages were necessary to be hit while other pages were specifically missed. ****
 
@@ -311,7 +309,7 @@ Build segments using the [!UICONTROL Logic Group] where multiple page views are 
 
 ![](assets/logic_exclude_and.png)
 
-## 逻辑组排除OR
+### 逻辑组排除OR
 
 使用[!UICONTROL 逻辑组]生成区段，其中聚合多个页面查看以定义需要点击的页面，同时明确跳过其他页面。
 
@@ -335,7 +333,7 @@ Build segments using the [!UICONTROL Logic Group] where multiple page views are 
 
 您可以使用 [!UICONTROL Within] 和 [!UICONTROL After] 容器并指定粒度和计数，以将匹配限制为指定的持续时间。[!UICONTROL Within] 运算符用于指定两个检查点之间的时间长度的最大限制。[!UICONTROL After] 运算符用于指定两个检查点之间的时间长度的最小限制。
 
-## After 和 Within 运算符 {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
+### After 和 Within 运算符 {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
 持续时间是由表示粒度的单个大写字母以及后面表示粒度重复次数的数字指定的。
 
@@ -349,7 +347,7 @@ Build segments using the [!UICONTROL Logic Group] where multiple page views are 
 | WITHIN | Within 运算符用于指定两个检查点之间的时间长度的最大限制。例如，如果在容器上设置了“内部”运算符以标识访问页面A的访客，然后返回到一天内的页面B，则该天将在访客离开页面A时开始。要包含在区段中，访客在打开页面B前将拥有一天的最长时间。要使访客包含在区段中，访问页面B必须在离开页面A到查看页面B后最多在1440分钟(一天)内完成。 |
 | AFTER/WITHIN | 在使用 After 和 Within 运算符时，一定要了解这两个运算符是并行开始和结束的，而不是按顺序开始和结束的。For example, if you build a segment with the container set to:<br>`After = 1 Week(s) and Within = 2 Week(s)`<br>Then the conditions to identify visitors in the segment are met only between 1 and 2 weeks. 这两个条件是从第一次页面点击时开始执行的。 |
 
-## 使用After运算符
+### 使用After运算符
 
 * 通过使用 Time After，您可以按年、月、日、小时和分钟跟踪以匹配访问。
 * Time After 只能应用于[!UICONTROL 点击]容器，因为它是定义这种细粒度的唯一级别。
@@ -371,7 +369,7 @@ Build segments using the [!UICONTROL Logic Group] where multiple page views are 
 | **A** 点击：2019 年 6 月 1 日，00:01 | **B** 点击：2019 年 6 月 15 日，00:01 | **匹配：** 此时间限制匹配，因为它在2019年月日之后(两周)。 |
 | **A** 点击：2019 年 6 月 1 日，00:01 | **B** 点击：20：01B点击：2019年月15日00：01 | **不匹配：** 页面B上的第一次点击不匹配，因为它与需要两周后的约束冲突。 |
 
-## 使用内部运算符
+### 使用内部运算符
 
 * 通过使用 [!UICONTROL Within]，您可以按年、月、日、小时和分钟跟踪以匹配访问。
 * [!UICONTROL Within] 只能应用于[!UICONTROL 点击]容器，因为它是定义这种细粒度的唯一级别。
@@ -392,7 +390,7 @@ Build segments using the [!UICONTROL Logic Group] where multiple page views are 
 
 匹配项必须位于时间限制内。对于   表达式，如果访客在 00:01 点击页面 A，只要随后在 00:06（5 分钟后，含 5 分钟）或之前点击页面 B，该点击就匹配。整 5 分钟的点击也匹配。
 
-## 内部和之后操作符
+### 内部和之后操作符
 
 可以使用 [!UICONTROL Within] 和 [!UICONTROL After] 在区段两端提供最大和最小端点。
 
