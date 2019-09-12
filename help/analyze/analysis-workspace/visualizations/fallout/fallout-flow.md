@@ -5,7 +5,7 @@ seo-title: 流失概述
 title: 流失概述
 uuid: 2d98899e-e401-4d7 a-8af0-de0002 f84178
 translation-type: tm+mt
-source-git-commit: e3886b4fda34771c18481eace8facb9bbbc4df70
+source-git-commit: 6abfb9ae80b827695e717b810b58d7531de0bfec
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: e3886b4fda34771c18481eace8facb9bbbc4df70
 
 如果您在工作区面板级别应用区段，区段会按以下方式与流失结合使用：
 
-![](assets/fallout_segments2.png)
+![](assets/fallout_seg.png)
 
 相反，Reports &amp; Analytics 和 Ad Hoc Analysis 计算区段时，区段会按以下方式进行结合使用：
 
