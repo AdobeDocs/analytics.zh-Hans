@@ -3,7 +3,7 @@ product: analytics
 audience: 最终用户
 user-guide-title: Analytics Analyze 指南
 user-guide-url: /content/help/zh-Hans/analytics/analyze/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: de91e255a33b27cf7dd21621f3225417318fc02e
 
 ---
@@ -326,8 +326,8 @@ source-git-commit: de91e255a33b27cf7dd21621f3225417318fc02e
    + [时间](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
    + [Labs 概述](tech-previews/overview.md)
-+ 渐进式Web应用程序 {#pwa}
-   + [渐进式Web应用程序](pwa/pwa.md)
++ 渐进式 Web 应用程序 {#pwa}
+   + [渐进式 Web 应用程序](pwa/pwa.md)
 + Analytics Reporting API {#analytics-reporting-api}
    + [Analytics Reporting API 概述](c-reporting-api/c-reporting-api.md)
    + [Analytics Reporting API 比较](c-reporting-api/api-comparison.md)
