@@ -4,10 +4,10 @@ seo-description: 显示访问您网站的独特访客人数。每名访客计作
 seo-title: 独特访客
 solution: Analytics
 title: 独特访客
-topic: 报表
-uuid: e70e1a14-b3 b9-4d1 a-a8 a5-a247 a443 c752
+topic: 报告
+uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -59,7 +59,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## 独特访客报表 - 趋势量度 {#section_372C08A881D34BBF811C1DE0A1460617}
 
-[!UICONTROL 在临时分析中，唯一访客] 报告的行为类似。对于发生访问的每次点击，访客都会在点击时被记录一次。每个页面都会因该页面上有该访客而收到信用。
+[!UICONTROL “唯一访客] ”报表在临时分析中的行为类似。 对于发生访问的每次点击，访客都会在点击时被记录一次。每个页面都会因该页面上有该访客而收到信用。
 
 <table id="table_7D9119045E8243698B6BB2E8C93F6B97"> 
  <thead> 
@@ -129,7 +129,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  </tbody> 
 </table>
 
-** [!UICONTROL 独特访客报表]按 *`Page`*.**
+**[!UICONTROL 独特访客报表]按&#x200B;*`Page`*.**
 
 您可以为[!UICONTROL 独特访客报表]选择一个页面。在以下报表中，访客在这些日期访问页面 A：
 
@@ -259,11 +259,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  </tbody> 
 </table>
 
-**区段**
+**区段划分**
 
 您可以使用区段将日期范围更改为包括较晚的日期，而不是较早的日期。例如，假定日期范围仍是 1 月 2 日到 1 月 3 日（如上表所示）。如果应用页面为 C 的区段，则 1 月 2 日不会传递区段，而且每周独特访客的第一次点击发生在 1 月 3 日。如果改为应用页面为 D 的区段，则会同时排除 1 月 2 日和 1 月 3 日。每周独特访客将不会显示结果，并且其结果会从合计中排除。
 
-**基于期限的独特访客报告**
+**基于时段的独特访客报告**
 
 这些报表使用特定的页面、prop 和属性（示例：页面为 A）。
 
@@ -420,7 +420,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  </tbody> 
 </table>
 
-要按其他属性划分某个属性（如按&#x200B;*`page`* ) *`eVar`*。
+要按其他属性划分某个属性（如按 *`page`* by *`eVar`*), Analytics allocates a period-based Unique Visitor for each unique instance of the period and page (or the attribute being correlated).
 
 如果按 eVar T、U 划分页面 A，则会排除 1 月 2 日，因为页面 A 的查看日期为 1 月 1 日。每周独特访客的结果如下所示：
 
