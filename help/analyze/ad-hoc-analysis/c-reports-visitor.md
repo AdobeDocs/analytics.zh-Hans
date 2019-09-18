@@ -1,20 +1,20 @@
 ---
-description: 显示有关访客的信息，包括访客计数、客户忠诚度和访客特征等信息。
-seo-description: 显示有关访客的信息，包括访客计数、客户忠诚度和访客特征等信息。
-seo-title: 访客报告
+description: 显示有关访客的信息，包括访客计数、客户忠诚度和访客特征等。
+seo-description: 显示有关访客的信息，包括访客计数、客户忠诚度和访客特征等。
+seo-title: 访客报表
 solution: Analytics
-title: 访客报告
+title: 访客报表
 topic: Ad Hoc Analysis
-uuid: 3e9b41d1-d6 ff-47a8 e6 b-829df1040 c34
+uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
 
-# 访客报告
+# 访客报表
 
-显示有关访客的信息，包括访客计数、客户忠诚度和访客特征等信息。
+显示有关访客的信息，包括访客计数、客户忠诚度和访客特征等。
 
 ## 回访频度 {#concept_447A99B71E484D27A7A02888CC51FD3D}
 
@@ -65,7 +65,7 @@ c_reports_visit_number.xml
 
 >[!NOTE]
 >
->如果同一访客在同一时间段多次访问您的网站，则每次访问都会递增每个指定的访问次数。
+>如果同一访客在同一时间段内多次访问您的网站，则每次访问的每个指定访问编号都会递增。
 
 此报表基于访客每次点击时传送到 Adobe 的访客 ID 数据。接收到此数据后，Adobe 会将其与历史访客 ID 数据进行比较以确定此点击是否是：
 
@@ -75,7 +75,7 @@ c_reports_visit_number.xml
 
 >[!NOTE]
 >
->每个Analytics访客ID与Adobe服务器上的访客配置文件相关联。无论任何访客 ID Cookie 是否过期，访客资料在处于至少 13 个月的非活动状态之后会被删除。
+>每个 Analytics 访客 ID 均与 Adobe 服务器上的一个访客资料关联。无论任何访客 ID Cookie 是否过期，访客资料在处于至少 13 个月的非活动状态之后会被删除。
 
 ## 客户忠诚度 {#concept_991F758BAA304B7B9D48BD73BBB62FE5}
 
@@ -96,11 +96,11 @@ c_reports_customerloyalty.xml
 
 >[!NOTE]
 >
->使用这些指标时，无论访问(或访客)是否包含购买，都将在此报告中显示所有用户访问(或所有访客)。
+>使用这些指标时，无论访问（或访客）是否包含购买，此报告中均显示所有用户访问（或所有访客）。
 
 忠诚度状态会在发生购物事件的访问结束后更改。例如，新客户（购物 1 次）购物一次，并在此次购物后的同一访问期间订阅了新闻。此次新闻订阅事件仍被视为新客户交互，因为访客的客户忠诚度状态会在下一次访问时更改。
 
-## 访客配置文件 {#concept_4D829198CD144DCDA667E0651F93AFC7}
+## 访客资料 {#concept_4D829198CD144DCDA667E0651F93AFC7}
 
 显示有关网站访客类型的信息。您可查看的信息包括，访客位置及其使用的浏览器和计算机硬件类型、语言及 Internet 服务供应商等数据。
 
@@ -110,13 +110,13 @@ c_reports_visitor_profile.xml
 
  -->
 
-** [!UICONTROL Languages] **: Displays your visitors’ preferred languages, captures the default browser language, and displays the languages that visitors use most often on your site.
+**[!UICONTROL 语言]**：显示访客首选的语言，并可捕获默认浏览器语言及显示网站访客使用最多的语言。
 
-** [!UICONTROL Domains] **: Lists the organizations and ISPs your visitors use to access your site. 此报表与[!UICONTROL 完整域名]报表的不同之处在于，完整域名报表记录完整的 ISP 域，而此报表仅列出二级域。
+**[!UICONTROL 域]**：列出为用户访问网站提供服务的组织和 ISP。此报表与[!UICONTROL 完整域名]报表的不同之处在于，完整域名报表记录完整的 ISP 域，而此报表仅列出二级域。
 
-** [!UICONTROL Top Level Domains] **: Identifies world regions that visitors come from based on their originating domain extension, and shows how many visitors come from these countries. 以商业 (.com)、网络 (.net)、教育 (.edu)、政府 (.gov) 和组织 (.org) 结尾的域通常位于美国，而且与其他域分开列出。
+**[!UICONTROL 顶级域名]**：依据原始域名后缀确定访客所属的世界地区，并显示来自这些地区的访客数量。以商业 (.com)、网络 (.net)、教育 (.edu)、政府 (.gov) 和组织 (.org) 结尾的域通常位于美国，而且与其他域分开列出。
 
-** [!UICONTROL Visitor ZIP/Postal Code] **: Displays the zip and postal codes that produced the customers that had the greatest effect on purchase success metrics.
+**[!UICONTROL 访客邮政编码]**：显示对购物成功量度影响最大的客户所在区域的邮政编码。
 
 ## 地域划分 {#concept_7C1B930F90F945B49205D3855CAE1813}
 
