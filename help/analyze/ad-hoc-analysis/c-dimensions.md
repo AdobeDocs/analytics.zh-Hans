@@ -5,9 +5,9 @@ seo-title: 维度
 solution: Analytics
 title: 维度
 topic: Ad Hoc Analysis
-uuid: a843d3ae-093b-438e-89a943d3a2ea6f2
+uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 显示器分辨率
 * 自定义 eVar 和 s.prop 值
 
-** [!UICONTROL 维度]窗格**
+**[!UICONTROL 维度]窗格**
 
 [!UICONTROL “维度”]面板列出和整理您的 Marketing Reports &amp; Analytics 实施中的所有产品维度。报表可以基于任何维度项目。您可以按其他维度来划分维度，以便分析和比较几乎所有内容。
 
@@ -36,11 +36,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 您可以根据以下类别对维度进行排序：
 
-| Dimension Category | 描述 |
+| 维类别 | 描述 |
 |--- |--- |
 | 流量 | 包括浏览器项目、Target 促销活动、地理位置、自定义链接、自定义流量属性、域、下载、反向链接、反向链接域等。 |
 | 转化 | 包括促销活动、类别、自定义 eVar、产品、跟踪代码等。 |
 | Prop | 包括自定义流量属性，例如登录和退出页面。 |
 | eVar | 包括在数据采集中用作成功量度的 eVar。 |
-| 层次结构 | 包括层次结构中的变量，用于确定页面在网站层次结构中的位置。 |
+| 层级 | 包括层次结构中的变量，用于确定页面在网站层次结构中的位置。 |
 | 可设置路径 | 包括可在路径中显示的任何项目，例如页面、下载链接、退出链接、关键词和反向链接域。 |
