@@ -1,22 +1,22 @@
 ---
 description: 显示有关网站的量化信息，如访客查看某个页面的次数、从特定页面进行的购买总数、访客进入网站的时间及其他类似的量化数据。其中每个报表都是一个量度，您可以将其放在其他基于项目的报表中。
 seo-description: 显示有关网站的量化信息，如访客查看某个页面的次数、从特定页面进行的购买总数、访客进入网站的时间及其他类似的量化数据。其中每个报表都是一个量度，您可以将其放在其他基于项目的报表中。
-seo-title: 站点量度报告
+seo-title: 网站量度报表
 solution: Analytics
-title: 站点量度报告
+title: 网站量度报表
 topic: Ad Hoc Analysis
-uuid: 0730747a-216f-4a58-b62 b-a9812968 cde5
+uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
 
-# 站点量度报告
+# 网站量度报表
 
 显示有关网站的量化信息，如访客查看某个页面的次数、从特定页面进行的购买总数、访客进入网站的时间及其他类似的量化数据。其中每个报表都是一个量度，您可以将其放在其他基于项目的报表中。
 
-## Site Metrics reports {#concept_0639CA16551749A693F49ADED4842CCE}
+## 网站量度报表 {#concept_0639CA16551749A693F49ADED4842CCE}
 
 显示有关网站的量化信息，如访客查看某个页面的次数、从特定页面进行的购买总数、访客进入网站的时间及其他类似的量化数据。其中每个报表都是一个量度，您可以将其放在其他基于项目的报表中。
 
@@ -92,7 +92,7 @@ c_reports_time_spent_per_visit.xml
 
 ## 购买报表 {#concept_E3B9AF43CCD24F25A85D05DFB51C4740}
 
-显示收入、订购和件数的汇总数据。You can also view the [!DNL Purchase Conversion Funnel] report.
+显示收入、订购和件数的汇总数据。您还可以查看报 [!DNL Purchase Conversion Funnel] 告。
 
 <!-- 
 
@@ -103,7 +103,7 @@ c_reports_purchases.xml
 * **收入**：用于查看所选时间段的总利润。例如，三月份的收入、上周购买数目或今日收入。
 * **订购**：显示指定时间段内网站上的订购数。订购中可包含多种产品。
 * **件数**：显示指定时间段内订购的总件数。
-* **购买转换漏斗**：理想的选择是在您的网站上以特定订单发生转换事件(如零售设置)。漏斗报表可显示转化过程中每一步的转化量度，以及订购、收入和件数。
+* **购买转化漏斗**:如果转换事件以特定顺序发生（如在零售设置中），则非常适合在您的网站上显示转换事件。 漏斗报表可显示转化过程中每一步的转化量度，以及订购、收入和件数。
 
 ## 购物车报表 {#concept_6AEC5A6C707B46B790C1A79E72F9A339}
 
@@ -162,8 +162,8 @@ c_reports_marketing_channel.xml
 
  -->
 
-** [!UICONTROL First or Last Touch Channel Report] **: Displays metrics showing data about a specific first-touch or last-touch channel. 在这些报表中，您可以划分渠道，显示每个渠道的详细信息。如果您启用了 AdLens，则可以在 Marketing Reports &amp; Analytics 渠道报表中看到分类信息。
+**[!UICONTROL 首个或最近联系渠道报表]**：显示可显示有关特定首个或最近联系渠道的数据的量度。在这些报表中，您可以划分渠道，显示每个渠道的详细信息。如果您启用了 AdLens，则可以在 Marketing Reports &amp; Analytics 渠道报表中看到分类信息。
 
-** [!UICONTROL First or Last Touch Channel Detail Reports] **: Displays details such as page names and referrers, which is taken from the channel values you set up in the [!UICONTROL Set the channel's value to] option when configuring rules. 通过渠道详细报表可以仔细检查概述报表的渠道明细值。
+**[!UICONTROL 首个或最近联系渠道明细报表]**：显示页面名称和反向链接等详细信息，这些信息来自配置规则时在“渠道值设置为”选项中设置的渠道值。通过渠道详细报表可以仔细检查概述报表的渠道明细值。
 
 有关在市场营销报告与分析中配置营销渠道的深度信息，请参阅[营销渠道帮助](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html)系统。
