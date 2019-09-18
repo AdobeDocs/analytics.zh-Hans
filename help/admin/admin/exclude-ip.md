@@ -5,9 +5,9 @@ seo-title: 按 IP 地址排除
 solution: Analytics
 title: 按 IP 地址排除
 topic: 管理工具
-uuid: 1ed6105f-e7 c5-4c4 f-b8 f4-e5 f66 d0824 bb
+uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: a26902b3f513f896fc8ba08a8464d7abce9418ca
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
 
 您可以从报表中排除特定 IP 地址的数据，例如，内部网站活动、站点测试和员工使用情况。数据排除能够通过排除 IP 地址数据来提高报表的准确性。此外，还可以删除来自拒绝服务攻击或其他可能影响报表数据准确性的恶意事件的数据。您可以对排除进行配置，也可以使用您的防火墙进行排除。
 
-**[!UICONTROL “分析]** ”&gt;“ **[!UICONTROL 管理员]** ”&gt; **[!UICONTROL “按IP排除”]**
+**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理员]** &gt;按 **[!UICONTROL IP排除]**
 
 >[!NOTE]
 >
->Hits marked as *bots* are billed as [server calls](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html).
+>IP地址排除的点击将计为服 [务器调用](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html)。
 
 ## 按 Cookie 排除 {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -34,7 +34,7 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
 
 >[!NOTE]
 >
->只有在以下情况下，才能通过计算机排除：
+>由计算机排除仅在以下情况下有效：
 >
 >* 您从同一工作站进入网站。
 >* 您所使用的浏览器启用了 cookie。
