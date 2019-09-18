@@ -5,9 +5,9 @@ seo-title: 流量源报表
 solution: Analytics
 title: 流量源报表
 topic: Ad Hoc Analysis
-uuid: 246afbdc-9f-4956-a44 a-b7 aad948 f392
+uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 通过使用流量源报表，可以深入分析访客与您的网站之间的交互情况。
 
-## Traffic Sources reports {#concept_0F1772141E1345C5BCF63BE7C544C0CB}
+## 流量源报表 {#concept_0F1772141E1345C5BCF63BE7C544C0CB}
 
 通过使用流量源报表，可以深入分析访客与您的网站之间的交互情况。
 
@@ -41,11 +41,11 @@ c_reports_search_keyword.xml
 
  -->
 
-** [!UICONTROL Search Keywords - All] **: Displays a breakdown of each search keyword that has been used to find your site. 可点击列表上方的列标题，按页面查看或搜索关键词对列表排序。点击搜索关键词旁边的放大镜，可查看网站的搜索结果。
+**[!UICONTROL 搜索关键词 - 全部]**：显示搜索关键词分类细目，其中包含被用来找到您的网站的每个搜索关键词。可点击列表上方的列标题，按页面查看或搜索关键词对列表排序。点击搜索关键词旁边的放大镜，可查看网站的搜索结果。
 
-** [!UICONTROL Search Keywords - Paid] **: Displays a breakdown of each paid search keyword that is used to find your site. 可点击列表上方的列标题，按页面查看或搜索关键词对列表排序。点击搜索关键词旁边的放大镜，可查看网站的搜索结果。
+**[!UICONTROL 搜索关键词 - 付费]**：显示搜索关键词分类细目，其中包含用于查找您的网站的每个付费搜索关键词。可点击列表上方的列标题，按页面查看或搜索关键词对列表排序。点击搜索关键词旁边的放大镜，可查看网站的搜索结果。
 
-** [!UICONTROL Search Keywords - Natural] **: Displays a breakdown of each natural search keyword that is used to find your site. 可点击列表上方的列标题，按页面查看或搜索关键词对列表排序。点击搜索关键词旁边的放大镜，可查看网站的搜索结果。
+**[!UICONTROL 搜索关键词 - 免费]**：显示搜索关键词分类细目，其中包含用于查找您的网站的每个免费搜索关键词。可点击列表上方的列标题，按页面查看或搜索关键词对列表排序。点击搜索关键词旁边的放大镜，可查看网站的搜索结果。
 
 ## 搜索引擎 {#concept_351CDE4F5FC44371B6B657064E125134}
 
@@ -57,11 +57,11 @@ c_reports_search_engines.xml
 
  -->
 
-** [!UICONTROL Search Engines - All] **: Displays which search engines that people are using to find your web page. 其中图表显示用于查找网站的搜索引擎的百分比分类。
+**[!UICONTROL 搜索引擎 - 全部]**：显示用户使用哪些搜索引擎来查找网页。其中图表显示用于查找网站的搜索引擎的百分比分类。
 
-** [!UICONTROL Search Engines - Paid] **: Displays which paid-keyword search engines that people are using to find your web page. 其中图表显示用于查找网站的搜索引擎的百分比分类。
+**[!UICONTROL 搜索引擎 - 付费]**：显示用户使用哪些付费关键词搜索引擎来查找网页。其中图表显示用于查找网站的搜索引擎的百分比分类。
 
-** [!UICONTROL Search Engines - Natural] **: Displays which natural-keyword search engines people are using to find your web page. 其中图表显示用于查找网站的搜索引擎的百分比分类。
+**[!UICONTROL 搜索引擎 - 免费]**：显示用户使用哪些免费关键词搜索引擎来查找网页。其中图表显示用于查找网站的搜索引擎的百分比分类。
 
 ## 反向链接域名 {#concept_804614DF21C14C9FB542451B30F92788}
 
@@ -130,9 +130,9 @@ c_reports_ref_types.xml
 
 **网站内部**：这些项目是由内部 URL 过滤器标记的 URL。这些项目将不会计为反向链接实例，但在其他量度的报表中仍然可见。
 
-**无Java脚本**：没有JavaScript，因此类型无法识别(未知)。这表示浏览器（不会报告可支持 Javascript）上的客户端未提供任何反向链接信息。这些项目将不会计为“反向链接实例”，但在报告其他量度时将会显示这些项目。
+**无Java脚本**:没有JavaScript，因此类型无法识别（未知）。 这表示浏览器（不会报告可支持 Javascript）上的客户端未提供任何反向链接信息。这些项目将不会计为“反向链接实例”，但在报告其他量度时将会显示这些项目。
 
-**USENET（新闻组）**：这表示反向链接的 URL 以 [!DNL news://] :// 开头。因此，反向链接是被发布在 USENET 新闻组中，而不是网页上。
+**USENET（新闻组）**：这表示反向链接的 URL 以 `news://` :// 开头。因此，反向链接是被发布在 USENET 新闻组中，而不是网页上。
 
 >[!NOTE]
 >
