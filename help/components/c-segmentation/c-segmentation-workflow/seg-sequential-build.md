@@ -7,7 +7,7 @@ title: 生成顺序区段
 topic: 区段
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: 65cec8161c09af296169c46ecc987aa6ef55272a
+source-git-commit: a8d34022b07dbb18a83559045853fa11acc9c3dd
 
 ---
 
@@ -244,9 +244,8 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 
 ## 逻辑组容器
 
-逻辑组容器需要将条件分组到单个顺序段检查点中。 非连续容器（点击、访问、访客）不要求在整个序列中满足其条件，如果在THEN运算符旁边使用，则会产生不直观的结果。 特殊逻辑组容器仅在顺序分段中可用，以确保其条件在任何先前顺序检查点之后和任何后续顺序检查点之前得到满足。 逻辑组检查点本身内的条件可以按任意顺序满足。
-
-Within sequential segmentation, it is required that containers are ordered strictly within the [container hierarchy](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). 相反，逻辑组容 [!UICONTROL 器设计为将多个检查点作] 为一个组来处理 *，而*&#x200B;不会在分组的检查点之间进行任何排序 ** 。 换句话说，我们并不关心该组内检查点的顺序。 例如，无法在[!UICONTROL 访客]容器中嵌套[!UICONTROL 访客]容器。But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
+逻辑组容器需要将条件分组到单个顺序段检查点中。 特殊逻辑组容器仅在顺序分段中可用，以确保其条件在任何先前顺序检查点之后和任何后续顺序检查点之前得到满足。 逻辑组检查点本身内的条件可以按任意顺序满足。 相反，非顺序容器（点击、访问、访客）不要求在整个序列中满足其条件，如果与THEN运算符一起使用，则会产生不直观的结果。
+逻辑 [!UICONTROL 组容器设计为将多个检查点] 视为一个组 *，而*&#x200B;不在分组检查点之间进行任何排序 ** 。 换句话说，我们并不关心该组内检查点的顺序。 例如，无法在[!UICONTROL 访客]容器中嵌套[!UICONTROL 访客]容器。But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
 
 >[!NOTE]
 >
@@ -256,6 +255,19 @@ Within sequential segmentation, it is required that containers are ordered stric
 |---|---|---|
 | 标准容器层次结构 | ![](assets/nesting_container.png) | 在[!UICONTROL 访客]容器中，按顺序嵌套[!UICONTROL 访问]和[!UICONTROL 点击]容器，以便根据点击数、访问次数和访客提取区段。 |
 | 逻辑容器层次结构 | ![](assets/logic_group_hierarchy.png) | 在[!UICONTROL 逻辑组]容器外部，也需要使用标准容器层次结构。但在[!UICONTROL 逻辑组]容器内，检查点不需要采用设置的顺序或层次结构；采用任意顺序的访客都可以满足这些检查点的要求。 |
+
+逻辑组可能看起来令人望而却步——以下是一些关于如何使用逻辑组的最佳实践：
+
+**逻辑组或点击／访问容器？**
+如果要对顺序检查点进行分组，则“容器”是逻辑组。 但是，如果这些连续检查点必须出现在单个点击或访问范围内，则需要“点击”或“访问”容器。 （当然，“点击”对于一组连续检查点来说没有意义，当一个点击可能只计入一个检查点时）。
+
+**逻辑组是否简化了顺序细分的构建？**
+是的，他们可以。 假设您正在尝试回答这个问题：访客在页面A之后是否看到页面B、C或D? 您无需Logic Group容器即可构建此区段，但它既复杂又费力：访客容 [器页面A页B页C页D页或访客容器页] 面A页B页D页C [或访客容器] 页A页C页B页d [或访客容] 器页面A，然后是页面C，页面D，访客页面D，然后是页面B或访客页面B，然后是THEN页面CC或访客 [][][容器页面C，然后是访客容器页面D，然后是D页D，再是C页然后页面B]
+
+逻辑组容器大大简化了区段，如下所示：
+
+![](assets/logic-grp-example.png)
+
 
 ### Build a Logic Group segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
 
@@ -276,9 +288,15 @@ Within sequential segmentation, it is required that containers are ordered stric
 
 **创建此区段**
 
-将页面 B 和 C 嵌套到外部[!UICONTROL 访客]容器的[!UICONTROL 逻辑组]容器中。页面 A 的[!UICONTROL 点击]容器后跟[!UICONTROL 逻辑组]容器，并使用 [!UICONTROL AND] 运算符指定页面 B 和 C。由于它位于[!UICONTROL 逻辑组]中，因此，未定义该序列，点击页面 B 或 C 将满足该条件。
+将页面 B 和 C 嵌套到外部[!UICONTROL 访客]容器的[!UICONTROL 逻辑组]容器中。页面 A 的[!UICONTROL 点击]容器后跟[!UICONTROL 逻辑组]容器，并使用 [!UICONTROL AND] 运算符指定页面 B 和 C。Because it is in the [!UICONTROL Logic Group], the sequence is not defined and hitting both page B and C in any order makes the argument true.
 
 ![](assets/logic_group_any_order2.png)
+
+**另一个示例**:访问页面B或页面C，然后访问页面A的访客：
+
+![](assets/logic_group_any_order3.png)
+
+区段必须至少匹配逻辑组的一个检查点（B或C）。 同时，逻辑组条件可在同一点击中或在多个点击中得到满足&#x200B;。
 
 ### 逻辑组首次匹配
 
