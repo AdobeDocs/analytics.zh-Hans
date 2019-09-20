@@ -2,13 +2,13 @@
 description: Android 移动库的发行说明汇总。
 seo-description: Android 移动库的发行说明汇总。
 seo-title: Android
-solution: Analytics，Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: 发行说明
 title: Android
 topic: 开发人员和实施
-uuid: 3232d28-3459-4f78-bb00-ca3163 c63461
+uuid: 32232d28-3459-4f78-bb00-ca3163c63461
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -19,13 +19,13 @@ Android 移动库的发行说明汇总。
 
 >[!NOTE]
 >
->要查找当前的库版本，请开启调试日志。
+>要查找当前库版本，请打开调试日志记录。
 
 可在 [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) 和 [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-android-1) 上下载移动库。
 
 ## 版本 4.13.4 {#section_E4743079D8E64B9C890180A025C94B44}
 
-[!DNL Android] SDK4.13.4(2017年月16日)包含以下更改：
+[!DNL Android] SDK版本4.13.4（2017年2月16日）包括以下更改：
 
 <table frame="all" colsep="1" rowsep="1" id="table_C0197701CB9B45E596818AF0BE5AC4F2"> 
  <thead> 
@@ -52,7 +52,7 @@ Android 移动库的发行说明汇总。
 
 ## 版本 4.13.3 {#section_1C235192E9FB46E2A651017C1CF24A7F}
 
-[!DNL Android] SDK4.13.3(2017年月19日)包含以下更改：
+[!DNL Android] SDK版本4.13.3（2017年1月19日）包括以下更改：
 
 <table frame="all" colsep="1" rowsep="1" id="table_5E744C8C9D064E999EB5055A8E3A99C5"> 
  <thead> 
@@ -79,7 +79,7 @@ Android 移动库的发行说明汇总。
 
 ## 版本 4.13.2 {#section_CEA2FF01EA414A32A8D164D981FBE71F}
 
-[!DNL Android] SDK版本4.13.2(2016年11月10日)包含以下更改：
+[!DNL Android] SDK版本4.13.2（2016年11月10日）包括以下更改：
 
 <table frame="all" colsep="1" rowsep="1" id="table_812CAB7DDC364DAABB7CDEDE55532E39"> 
  <thead> 
@@ -91,7 +91,7 @@ Android 移动库的发行说明汇总。
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 访客 ID 服务 </p> </td> 
-   <td colname="2"> <p>向 <code>adobe_mc</code> 参数添加了时间戳和 Marketing Cloud 企业 ID。 </p> </td> 
+   <td colname="2"> <p>Added timestamp and Experience Cloud Organization ID to <code> adobe_mc</code> parameter. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 深层链接 </p> </td> 
@@ -102,7 +102,7 @@ Android 移动库的发行说明汇总。
 
 ## 版本 4.13.1 {#section_647C43BA95A3485381AC2E8DEAA6D2E4}
 
-[!DNL Android] SDK版本4.13.1(2016年10月20日)包含以下更改：
+[!DNL Android] SDK版本4.13.1（2016年10月20日）包括以下更改：
 
 <table frame="all" colsep="1" rowsep="1" id="table_1D1AFD90F8BB4F59869FD417ED9C45AB"> 
  <thead> 
@@ -133,7 +133,7 @@ Android 移动库的发行说明汇总。
 
 ## 版本 4.13.0 {#section_03370D8F93AE4B7A81C4B03910086556}
 
-[!DNL Android] SDK版本4.13.0(2016年月15日)包含以下更改：
+[!DNL Android] SDK版本4.13.0（2016年9月15日）包括以下更改：
 
 <table frame="all" colsep="1" rowsep="1" id="table_AACF8B9BE89A4057B0396F487F82CF99"> 
  <thead> 
@@ -159,7 +159,7 @@ Android 移动库的发行说明汇总。
 
 ## 版本 4.12.0 {#section_3FBC1C24267141C08A60E288662160D8}
 
-[!DNL Android] SDK4.12.0(2016年月18日)包含以下更改：
+[!DNL Android] SDK版本4.12.0（2016年8月18日）包括以下更改：
 
 <table frame="all" colsep="1" rowsep="1" id="table_3BDD15254859475CBE5E27870619FF3A"> 
  <thead> 
@@ -178,7 +178,7 @@ Android 移动库的发行说明汇总。
 
 ## 版本 4.11.0 {#section_34B295F3697F4AD6B6A6B8DD70AD1ECA}
 
-[!DNL Android] SDK版本4.11.0(2016年月22日)包含以下更改：
+[!DNL Android] SDK版本4.11.0（2016年6月22日）包括以下更改：
 
 <table frame="all" colsep="1" rowsep="1" id="table_C3DC3890E81744828DE8946AE8067E1A"> 
  <thead> 
@@ -200,7 +200,7 @@ Android 移动库的发行说明汇总。
 
 ## 版本 4.10.0 {#section_262928ABA971490EA6B8E277E17BDD89}
 
-[!DNL Android] SDK4.10.0(2016年月20日)包含以下更改：
+[!DNL Android] SDK版本4.10.0（2016年5月20日）包括以下更改：
 
 <table frame="all" colsep="1" rowsep="1" id="table_E6B19BD9903A41D9AAF0035CD66756B5"> 
  <thead> 
@@ -223,7 +223,7 @@ Android 移动库的发行说明汇总。
 
 ## 版本 4.9.0 {#section_7393D3A5EA61431D9E7C07ECE176D17C}
 
-[!DNL Android] SDK版本4.9.0(2016年月日)包含以下更改：
+[!DNL Android] SDK版本4.9.0（2016年5月5日）包括以下更改：
 
 <table frame="all" colsep="1" rowsep="1" id="table_7D893A6E12554E9CA9AF2B03DA4C1A4B"> 
  <thead> 
@@ -242,7 +242,7 @@ Android 移动库的发行说明汇总。
 
 ## 版本 4.8.3 {#section_9BB3DFBECC434AC6B3D7C18AA9BC895C}
 
-[!DNL Android] SDK版本4.8.3(2016年月18日)包含以下更改：
+[!DNL Android] SDK版本4.8.3（2016年2月18日）包括以下更改：
 
 <table frame="all" colsep="1" rowsep="1" id="table_6DE145BC30154B9FADCE584A9737018D"> 
  <thead> 
@@ -261,7 +261,7 @@ Android 移动库的发行说明汇总。
 
 ## 版本 4.8.0 {#section_18FA091344644B43AA0E226241FF90DC}
 
-[!DNL Android] SDK4.8.0(2015年11月日)包括以下更改：
+[!DNL Android] SDK版本4.8.0（2015年11月2日）包括以下更改：
 
 <table frame="all" colsep="1" rowsep="1" id="table_C47B9AEB2BB649CFA1D5CF04093B497B"> 
  <thead> 
@@ -272,7 +272,7 @@ Android 移动库的发行说明汇总。
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> 新的 Marketing Cloud 访客 ID 服务方法 </td> 
+   <td colname="1"> 新的Experience cloud访客ID服务方法 </td> 
    <td colname="2"> <p>添加了以下方法： </p> 
     <ul id="ul_6B85F8A4826642BEB373225CA760D799"> 
      <li id="li_72B94B8CECB94229827BFCB06671DFC9"><code> syncIdentifer</code> </li> 
@@ -320,7 +320,7 @@ Android 移动库的发行说明汇总。
 
 ## 版本 4.6.1 {#section_98CC97CF0F0C48F7855130044386845A}
 
-[!DNL Android] SDK4.6.1(2015年月24日)包含以下更改：
+[!DNL Android] SDK版本4.6.1（2015年9月24日）包括以下更改：
 
 <table frame="all" colsep="1" rowsep="1" id="table_80693083398F472F8A4E7861606E602D"> 
  <thead> 
@@ -339,7 +339,7 @@ Android 移动库的发行说明汇总。
 
 ## 版本 4.6 {#section_ADF6F871CF3C4E2381464D62DA6E1EB1}
 
-[!DNL Android] SDK4.6(2015年月17日)包含以下更改：
+[!DNL Android] SDK版本4.6（2015年9月17日）包括以下更改：
 
 <table frame="all" colsep="1" rowsep="1" id="table_35D0692698EF49AE8204F2AEB57CABD7"> 
  <thead> 
@@ -408,8 +408,8 @@ Android 移动库的发行说明汇总。
    <td colname="2"> <p>您现在可以包含具有生命周期量度的自定义上下文数据变量。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
-   <td colname="1"> <p><span class="keyword"> PhoneGap中的信标跟踪支持</span> </p> </td> 
-   <td colname="2"> <p><code> track信标</code> 和 <code> clearcurrentBeon</code> 调用现在 <span class="keyword"> PhoneGap</span>中可用。 </p> </td> 
+   <td colname="1"> <p>Beacon tracking support in <span class="keyword"> PhoneGap</span> </p> </td> 
+   <td colname="2"> <p>The <code> trackBeacon</code> and <code> clearCurrentBeacon</code> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -418,7 +418,7 @@ Android 移动库的发行说明汇总。
 
 发行日期：**2014 年 11 月 24 日**
 
-* 新增 - Adobe Marketing Cloud ID 集成
+* 新增功能- Adobe Experience Cloud ID集成
 * 为清楚起见，改进了调试日志
 * 解决了在检查应用程序内消息时可能发生崩溃的问题
 
@@ -458,13 +458,13 @@ Android 移动库的发行说明汇总。
 
 发行日期：**2014 年 4 月 17 日**
 
-* 全新-蓝牙信标跟踪。
-* 新增-启用时间戳的应用程序，崩溃点击会返回到正确的会话。
-* 新增-启用时间戳的应用程序，上一会话会在点击后发送到正确会话。（不再为上一会话）。
-* 全新-点击分批。
-* 修复了Google Play反向链接跟踪，使用可配置超时来允许延迟的Google参考数据。
-* 解决了可能在特定情况下发生的StrutMode警告。
-* 记住了在特定订单中调用某些方法时，可能很少导致库锁定的问题。
+* 新增——蓝牙信标跟踪。
+* 新增功能——启用时间戳的应用程序会将崩溃点击回溯到正确的会话。
+* 新增功能——启用时间戳的应用程序，在点击中发送上一个会话，该点击会回溯到正确的会话。 （不再为上一会话）。
+* 新增——点击批处理。
+* 修复了Google Play Referrer跟踪，可配置超时以允许延迟的Google Referrer数据。
+* 解决了在特定情况下可能发生的StrictMode警告。
+* 解决了在以特定顺序调用某些方法时很少导致库锁定的问题。
 
 ## 版本 4.0.4 {#section_DCFAC758872D42F0BF0CCFCDDEA05E41}
 
@@ -503,7 +503,7 @@ Android 移动库的发行说明汇总。
 
 发行日期：**2013 年 9 月 27 日**
 
-[!DNL Android]适用于 Marketing Cloud 解决方案的 SDK 4.x 现在可供使用，并提供以下新功能：
+[!DNL Android] 适用于Experience cloud解决方案的SDK 4.x现已推出，提供以下新增功能：
 
 * 显著的性能增强。所有处理都是在后台线程中执行的，SDK 具有完全安全的线程。
 * 地理位置和目标点
