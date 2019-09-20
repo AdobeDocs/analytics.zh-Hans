@@ -3,11 +3,11 @@ description: 这些条件决定了何时触发基于事件的规则。
 keywords: 动态标签管理；规则；创建规则；新规则；基于事件的规则；延迟链接激活；将事件处理函数直接应用于元素；冒泡；事件冒泡
 seo-description: 这些条件决定了何时触发基于事件的规则。
 seo-title: 为基于事件的规则创建条件
-solution: Marketing Cloud、Analytics、Target、动态标签管理
+solution: Experience Cloud，分析，目标，动态标签管理
 title: 为基于事件的规则创建条件
-uuid: a847391c-5aec-4d64-8a35-388587737998
+uuid: a847391c-5aec-4d64-8a35-388587731598
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
