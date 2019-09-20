@@ -1,20 +1,20 @@
 ---
-description: 为直接调用规则创建条件。
+description: 为直接调用规则创建条件.
 keywords: 动态标签管理；规则；创建规则；新规则；直接调用规则
-seo-description: 为直接调用规则创建条件。
+seo-description: 为直接调用规则创建条件.
 seo-title: 为直接调用规则创建条件
-solution: Marketing Cloud、Analytics、Target、动态标签管理
+solution: Experience Cloud，分析，目标，动态标签管理
 title: 为直接调用规则创建条件
-uuid: bab0e058-a5 b8-4039-8333-5e8 f3 d06 ade4
+uuid: bab0e058-a5b8-4039-8333-5e8f3d06ade4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
 # 为直接调用规则创建条件
 
-为直接调用规则创建条件。
+为直接调用规则创建条件.
 
 1. In the **[!UICONTROL Conditions]** dialog, specify the string that will be passed to `_satellite.track()` in your direct call, without quotes.
 
