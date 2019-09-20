@@ -8,7 +8,7 @@ title: JavaScript H 代码 - 旧版
 topic: 开发人员和实施
 uuid: 4586b250-0f1b-45b8-829c-18dc1201956f
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -126,7 +126,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
 发行日期：**2014 年 5 月 22 日**
 
-* 支持 [Marketing Cloud 访客 ID 服务](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
+* 支持 [Experience Cloud访客ID服务](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
 * 支持 [Analytics 与 Target 的集成](https://marketing.adobe.com/resources/help/en_US/target/a4t/)。
 
 ## H.26.2 {#section_DE82C8BC7645400785E5B136565616F1}
@@ -171,7 +171,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
 * 使得受 `useForcedLinkTracking` 影响的点击事件的范围更加精确。自动强制链接跟踪仅适用于：
 
-   * `<A>` 和 `<AREA>` 标签
+   * `<A>` 和标 `<AREA>` 记
 
    * 标记必须具有 `HREF` 属性
    * The `HREF` can't start with `#`, `about:`, or `javascript:`
@@ -273,25 +273,22 @@ Firefox 和 Internet Explorer 会执行跟踪链接调用并打开新页面。�
   <tr> 
    <td colname="col1"> <p>useForcedLinkTracking </p> </td> 
    <td colname="col2"> <p>此标记用于禁用 WebKit 浏览器的强制链接跟踪。对于 WebKit 浏览器，默认将启用强制链接跟踪，而其他浏览器则会忽略该功能。 </p> <p> <b>默认值</b> </p> <p> <code> true </code> </p> <p> <b>示例</b> </p> 
-    <code class="syntax javascript">s. useforcedLinkTracking&amp; amp；nbsp；=&amp; amp；nbsp；false </code>
-  </td> 
+    <code class="syntax javascript">
+      s.useForcedLinkTracking&amp;nbsp;=&amp;nbsp;false </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>forcedLinkTrackingTimeout </p> </td> 
    <td colname="col2"> <p>执行传递给 <code>s.tl</code> 的 <code>doneAction</code> 前，等待跟踪完成的最大毫秒数。此值指定最大等待时间。如果跟踪链接调用在此超时前完成，则立即执行 <code>doneAction</code>。如果您发现跟踪链接调用没有完成，可能需要提高此超时。 </p> <p> <b>默认值</b> </p> <p>250 </p> <p> <b>示例</b> </p> 
-    <code class="syntax javascript">s. forcedLinkTrackingTimeout&amp; amp；nbsp；=&amp; amp；nbsp；500 </code>
-  </td> 
+    <code class="syntax javascript">
+      s.forcedLinkTrackingTimeout&amp;nbsp;=&amp;nbsp;500 </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> trackLink (<code>s.tl </code>) </td> 
    <td colname="col2"> <p>跟踪退出、下载和自定义链接。提供一个可选参数，以指定跟踪链接调用在 WebKit 浏览器中完成后要执行的导航操作。 </p> <p> <b>语法</b> </p> 
-    <code class="syntax javascript">s. tl(linkObject，linkType，linkName，variableOverrides，doneAction) </code>
-  <p> <b>doneAction</b>：（可选）指定跟踪链接调用发送或超时（根据 <code>s.forcedLinkTrackingTimeout</code> 指定的值）后执行的操作。<code>doneAction</code> 可以是字符串 "navigate"，但这会导致该方法将 <code>document.location</code> 设置为 <code>linkObject</code> 的 <code>href</code> 属性。<code>doneAction</code> 还可以是允许进行高级自定义的函数。 </p> <p>If providing a value for <code> onclick </code> in an anchor <code> false </code> event, you must return <code> s.tl </code> after the <code> href </code> call to prevent the default browser navigation. </p> <p> To mirror the default behavior and follow the URL specified by the <code> doneAction </code> attribute, provide a string of 'navigate' as the <code> doneAction </code>. </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <code>$1</code>. </p> <p> <b>示例</b> </p> 
-    <code class="syntax javascript">&lt; a&amp; amp；nbsp；href="…"&amp; amp；nbsp；onclick="s. tl(this，'o'，'myLink'，null，'navigate')；退货和amp；nbsp；false"&gt;单击&amp; amp；nbsp；此处&lt;/a&gt; </code><code class="syntax javascript">
-
-
-&lt; a&amp; amp；nbsp；href="#"&amp; amp；nbsp；onclick="s. tl(this，'o'，'myLink'，null，function(){IF(确认('继续？))document.location=...});return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; 
-    </code> </td> 
+    <code class="syntax javascript">
+      s.tl(linkObject,linkType,linkName,variableOverrides,doneAction) </code> <p> <b>doneAction</b>：（可选）指定跟踪链接调用发送或超时（根据 <code>s.forcedLinkTrackingTimeout</code> 指定的值）后执行的操作。<code>doneAction</code> 可以是字符串 "navigate"，但这会导致该方法将 <code>document.location</code> 设置为 <code>linkObject</code> 的 <code>href</code> 属性。<code>doneAction</code> 还可以是允许进行高级自定义的函数。 </p> <p>If providing a value for <code> onclick </code> in an anchor <code> false </code> event, you must return <code> s.tl </code> after the <code> href </code> call to prevent the default browser navigation. </p> <p> To mirror the default behavior and follow the URL specified by the <code> doneAction </code> attribute, provide a string of 'navigate' as the <code> doneAction </code>. </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <code>$1</code>. </p> <p> <b>示例</b> </p> 
+    <code class="syntax javascript">
+      &lt;a&amp;nbsp; href="。."&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,'navigate');return&amp;nbsp;false"&gt;单击此处&lt;/a&gt; </code> &lt;a&amp;nbsp;nbsp; <code class="syntax javascript">&lt;a&amp;a&gt;.tl(this,'o','MyLink',null,function(){if(confirm('Contreed?'))document.location=...});return&amp;nbsp;false"&gt;单击此处&lt;/a&gt; </code> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -302,7 +299,7 @@ Firefox 和 Internet Explorer 会执行跟踪链接调用并打开新页面。�
 
 建议所有客户都使用此更新。
 
-* 增强了使用 Google Chrome Prerender ([https://developers.google.com/chrome/whitepapers/prerender](https://developers.google.com/chrome/whitepapers/prerender)) 预呈现页面时的检测能力。Since Prerender loads and executes [!DNL JavaScript] and other code, this could result in page views being sent before a user clicks to visit your site. [!DNL JavaScript] 库现在等待，直到用户在发送对这些预呈现页面的服务器调用之前访问您的站点。
+* 增强了使用 Google Chrome Prerender ([https://developers.google.com/chrome/whitepapers/prerender](https://developers.google.com/chrome/whitepapers/prerender)) 预呈现页面时的检测能力。Since Prerender loads and executes [!DNL JavaScript] and other code, this could result in page views being sent before a user clicks to visit your site. The [!DNL JavaScript] library now waits until the user visits your site before sending server calls for these prerendered pages.
 * 向 库添加了 `timestamp`[!DNL JavaScript] 变量，客户可以通过与其他 库类似的方式自定义时间戳数据。[!DNL AppMeasurement]
 
 ```js
@@ -337,13 +334,13 @@ Firefox 和 Internet Explorer 会执行跟踪链接调用并打开新页面。�
 
 发行日期：**2011 年 11 月**
 
-* Internal updates to support [!DNL Adobe Tag Manager].
+* 支持的内部更新 [!DNL Adobe Tag Manager]。
 
 ## H.23.9 {#section_3834625A639A47428683E08A472359C7}
 
 发行日期：**2011 年 11 月**
 
-* Internal updates to support [!DNL Adobe Tag Manager].
+* 支持的内部更新 [!DNL Adobe Tag Manager]。
 
 ## H.23.8 {#section_FF3CEEAB6C6744D6B5EE314A0B5841CA}
 
