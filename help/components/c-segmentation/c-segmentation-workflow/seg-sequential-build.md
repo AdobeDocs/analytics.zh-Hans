@@ -7,7 +7,7 @@ title: 生成顺序区段
 topic: 区段
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: a8d34022b07dbb18a83559045853fa11acc9c3dd
+source-git-commit: 22fc459dae1a57a387511560e7039c7085e30551
 
 ---
 
@@ -262,9 +262,17 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 如果要对顺序检查点进行分组，则“容器”是逻辑组。 但是，如果这些连续检查点必须出现在单个点击或访问范围内，则需要“点击”或“访问”容器。 （当然，“点击”对于一组连续检查点来说没有意义，当一个点击可能只计入一个检查点时）。
 
 **逻辑组是否简化了顺序细分的构建？**
-是的，他们可以。 假设您正在尝试回答这个问题：访客在页面A之后是否看到页面B、C或D? 您无需Logic Group容器即可构建此区段，但它既复杂又费力：访客容 [器页面A页B页C页D页或访客容器页] 面A页B页D页C [或访客容器] 页A页C页B页d [或访客容] 器页面A，然后是页面C，页面D，访客页面D，然后是页面B或访客页面B，然后是THEN页面CC或访客 [][][容器页面C，然后是访客容器页面D，然后是D页D，再是C页然后页面B]
+是的，他们可以。 假设您正在尝试回答这个问题：访 **客是否在页面A后看到页面B、C或页面D?**
 
-逻辑组容器大大简化了区段，如下所示：
+您无需Logic Group容器即可构建此区段，但它既复杂又费力：
+* `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
+* `Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or`
+* `Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or`
+* `Visitor Container [Page A THEN Page C THEN Page D THEN Page B] or`
+* `Visitor Container [Page A THEN Page D THEN Page B THEN Page C] or`
+* `Visitor Container [Page A THEN Page D THEN Page C THEN Page B]`
+
+逻辑组容器大大简化了构建此区段的过程，如下所示：
 
 ![](assets/logic-grp-example.png)
 
