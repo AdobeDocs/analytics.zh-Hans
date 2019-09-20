@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 发行说明
 title: Flash-Flex
 topic: 开发人员和实施
-uuid: 2ee7fb92-9b62-44d4-bd93-6dff26764 b7 f
+uuid: 2ee7fb92-9b62-44d4-bd93-6dff26764b7f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -19,7 +19,7 @@ Flash 的发行说明汇总。使用 ActionScript 的 Flash 应用程序可在�
 
 >[!NOTE]
 >
->要查找当前的库版本，请开启调试日志。
+>要查找当前库版本，请打开调试日志记录。
 
 <!-- 
 
@@ -35,13 +35,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
 ## 2016 年 8 月 18 日 {#section_D72EF20672174249B864997905D7552A}
 
-**4.0.2-更新**
+** 4.0.2 —— 更新**
 
 包括 Visitor API 1.6.0。
 
 ## May 19, 2016 {#section_061305CFC1E040E69E3CDF4078C17AE4}
 
-**4.0.1-更新**
+** 4.0.1 —— 更新**
 
 包括 Visitor API 1.5.6
 
@@ -60,42 +60,42 @@ s.debugTracking = false; // set to false or remove line
                          // for default "disabled” behavior 
 ```
 
-受影响的版本包括在所有平台上运行的[!DNL AppMeasurement] Flash版本4.0及更早版本。
+受影响的版本包括在所有平台上运行的 适用于 [!DNL AppMeasurement] 所有平台上的Flash版本4.0及更早版本。
 
 >[!NOTE]
 >
 >Due to security reasons, we will no longer be distributing an AS2 version of [!DNL AppMeasurement] for Flash. 我们将继续支持从现有 AS2 项目中收集的数据。但是，我们强烈建议客户将其实施项目升级为 AS3 版本，并融入 [!DNL AppMeasurement] for Flash 的最新安全功能。
 
-[!DNL AppMeasurement] 对于受此问题影响的Flash客户，必须使用可从 [!DNL Analytics] 控制台 [更多下载的更新库重新构建项目…](https://help.adobe.com/en_US/Flex/4.0/UsingFlashBuilder/WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7feb.html#WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7f88) (AN-121780)
+[!DNL AppMeasurement] 对于受此问题影响的Flash客户，必须使用更新的库重新构建项目，该库可从 [!DNL Analytics] Console [More...](https://help.adobe.com/en_US/Flex/4.0/UsingFlashBuilder/WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7feb.html#WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7f88) (AN-121780)下载
 
 ## November 5, 2015 {#section_18C1A1C82EA844E78A1D563E66DE3FCF}
 
-4.0版-更新：
+4.0版——更新：
 
 * 包括 Visitor API 1.5.3。
 
 ## September 17, 2015 {#section_319911C0F080452981F8C8BEA2880463}
 
-4.0版-更新：
+4.0版——更新：
 
 * 包括 Visitor API 1.5.2。
 
 ## 2015 年 8 月 20 日 {#section_1BEA10285E9F4863B89B4B713DBB20DB}
 
-4.0版-更新：
+4.0版——更新：
 
 * 包括 Visitor API 1.5.1.
 
 ## 2015 年 6 月 18 日 {#section_2ACB18A1693244D6A49B53F4E17F0C30}
 
-4.0版-更新
+4.0版——更新
 
 * 包括 Visitor API 1.5。
 * 使用 Visitor API 1.5+ getCustomerIDs 方法收集客户 ID 和身份验证状态，并通过数据收集请求发送它们 (AN-102131)
 
 ## 2015 年 5 月 21 日 {#section_F5EFCC451F13499F9AA53326AE5926F1}
 
-3.9.2版-更新：
+版本3.9.2 —— 更新：
 
 * 包括 Visitor API 1.4
 
@@ -132,25 +132,25 @@ s.debugTracking = false; // set to false or remove line
 
 发行日期：**2014 年 4 月 17 日**
 
-* 支持 [Marketing Cloud 访客 ID 服务](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
+* 支持 [Experience Cloud访客ID服务](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
 
 ## 版本 3.7.3 {#section_1159B2AB56F54903A6FBFB7047AEC1C5}
 
 发行日期：**2014 年 3 月 13 日**
 
-* [!UICONTROL 针对心率] 视频跟踪的多个错误修复。
+* Multiple bug fixes to [!UICONTROL Heartbeat] video tracking.
 
 ## 版本 3.7.2 {#section_D6DCE5FE846A45F1A2CED237E8AAEFE9}
 
 发行日期：**2014 年 2 月 6 日**
 
-* [!UICONTROL 针对心率] 视频跟踪的多个错误修复。
+* Multiple bug fixes to [!UICONTROL Heartbeat] video tracking.
 
 ## 版本 3.7.1 {#section_DC79F108AB5E42189A8EC7D87697AE0B}
 
 发行日期：**2013 年 11 月 14 日**
 
-* [!UICONTROL 针对心率] 视频跟踪的多个错误修复。
+* Multiple bug fixes to [!UICONTROL Heartbeat] video tracking.
 
 ## 版本 3.7 {#section_7239878DCD724FD0B9BC900821A4DA96}
 
