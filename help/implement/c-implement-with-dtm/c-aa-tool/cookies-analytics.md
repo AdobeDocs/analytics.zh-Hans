@@ -1,13 +1,13 @@
 ---
 description: 用于在 Adobe Analytics 中部署动态标签管理的“Cookie”全局设置的字段描述。
-keywords: 动态标签管理；cookies；访客id；访客命名空间；域句点；fp域句点；transaction id；cookie生命周期
+keywords: 动态标签管理；cookies；访客id；访客命名空间；域句点；fp域句点；事务ID;cookie生命周期
 seo-description: 用于在 Adobe Analytics 中部署动态标签管理的“Cookie”全局设置的字段描述。
 seo-title: Cookie
-solution: Marketing Cloud、Analytics、动态标签管理
+solution: Experience Cloud，分析，动态标签管理
 title: Cookie
-uuid: c81ecb-0f02-4c1a-a5 a5-426cdea57 f38
+uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 Field descriptions for the Cookies global settings used for deploying [!UICONTROL Dynamic Tag Management] in Adobe Analytics.
 
-**[!UICONTROL *`Property`*]** &gt;**[！UICCONTRL ![](assets/settings_gear.png)
+**[!UICONTROL *`Property`*]** &gt; **[!UICONCONTROL ![](assets/settings_gear.png)
 
 Edit Tool]** &gt; **[!UICONTROL Cookies]**
 
@@ -42,7 +42,7 @@ Edit Tool]** &gt; **[!UICONTROL Cookies]**
   </tr> 
   <tr> 
    <td colname="col1"> FP 域名句点 </td> 
-   <td colname="col2"> <p>The<span class="term"> blogcookieDomainPeriods</span> 变量适用于由固有第一方cookie设置的JavaScript(<code> s_ sq</code>、 <code> s_ cc</code>、插件)所设置的cookie，即使您的实施使用第三方 <span class="filepath"> 2o7.net</span> 或 <span class="filepath"> omtrdc. net</span> 域。 </p> <p>See <a href="../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00" format="dita" scope="local"> s.fpCookieDomainPeriods</a>. </p> </td> 
+   <td colname="col2"> <p>The <span class="term"> fpCookieDomainPeriods</span> variable is for cookies set by JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party <span class="filepath"> 2o7.net</span> or <span class="filepath"> omtrdc.net</span> domains. </p> <p>请参 <a href="../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00" format="dita" scope="local"> 阅s.fpCookieDomainPeriods</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 交易 ID </td> 
