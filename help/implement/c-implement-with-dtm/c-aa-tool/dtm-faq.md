@@ -1,18 +1,18 @@
 ---
 description: 有关 Adobe Analytics 部署的自动配置的常见问题解答。自动配置方法可为您管理 AppMeasurement 代码。
-keywords: 动态标签管理；插件；stage；效果；修订历史；潜在缺陷；报告套件ID；货币代码；跟踪服务器；SSL跟踪服务器；自定义代码；库管理
+keywords: 动态标签管理；插件；暂存；对当前设置的影响；修订历史记录；潜在缺陷；报表包ID；货币代码；跟踪服务器；ssl跟踪服务器；自定义代码；库管理
 seo-description: 有关 Adobe Analytics 部署的自动配置的常见问题解答。自动配置方法可为您管理 AppMeasurement 代码。
-seo-title: 关于Adobe Analytics工具的常见问题解答
-solution: Marketing Cloud、Analytics、Target、动态标签管理
-title: 关于Adobe Analytics工具的常见问题解答
-uuid: fcf893-e305-4a95-a033-9066a56 b09 cd
+seo-title: 关于 Adobe Analytics 工具的常见问题解答
+solution: Experience Cloud，分析，目标，动态标签管理
+title: 关于 Adobe Analytics 工具的常见问题解答
+uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# 关于Adobe Analytics工具的常见问题解答
+# 关于 Adobe Analytics 工具的常见问题解答
 
 有关 Adobe Analytics 部署的自动配置的常见问题解答。The automatic configuration method manages the [!DNL AppMeasurement] code for you.
 
@@ -26,7 +26,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
  <tbody> 
   <tr> 
    <td colname="col1"> <p> 通过 DTM 实施 Adobe Analytics 时，我应将插件放在何处？ </p> </td> 
-   <td colname="col2"> <p> 如果使用 DTM 手动托管 <code>s_code</code>，则可以将插件添加到与托管的 <code>s_code</code> 相同的编辑器中，就像在常规的 Adobe Analytics 实施中一样。 </p> <p>However, it is also an option to place the plugins in the editor within the <span class="term"> Customize Page Code</span> section of the tool settings. 两种实施方法应具有同等效力。 </p> </td> 
+   <td colname="col2"> <p> 如果使用 DTM 手动托管 <code>s_code</code>，则可以将插件添加到与托管的 <code>s_code</code> 相同的编辑器中，就像在常规的 Adobe Analytics 实施中一样。 </p> <p>但是，也可以选择将插件放入工具设置的“自定义页面代码” <span class="term"> 部分的编辑器中</span> 。 两种实施方法应具有同等效力。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>如果我在新版工具中更改配置，我能否先在暂存环境中进行测试，然后再发布到生产环境？ </p> </td> 
@@ -58,5 +58,5 @@ See [Add Adobe Analytics Tool](../../../implement/c-implement-with-dtm/c-aa-tool
 * 在工具中正确输入报表包 ID。
 * 工具中的报表包 ID 与 [!DNL AppMeasurement] 代码中的 ID 匹配。
 * 使用支持的值正确设置货币代码、字符集、跟踪服务器和 SSL 跟踪服务器配置字段。
-* Custom code is defined in [!DNL Library Management].
+* 自定义代码在中定义 [!DNL Library Management]。
 
