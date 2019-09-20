@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 发行说明
 title: AppMeasurement for JavaScript
 topic: 开发人员和实施
-uuid: 1440013d-d266-4dce-9807-8b9 adac73315
+uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 2147e95f3ebd731c161e40a212db0a9067a98f9a
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -31,8 +31,8 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 | 功能/修复 | 描述 |
 | -----------| ---------- |
-| 添加了Baidu支持 | 增加了对Baidu查询字符串重新排序的支持。 |
-| 修复了“未定义”错误地 | 修复了一个问题，该问题导致在等待选择加入时，在排队排队的点击中存在陈旧的访客值。 |
+| 添加了百度支持 | 增加了对百度查询字符串重新排序的支持。 |
+| 修复了“未定义”错误地 | 修复了导致等待选择加入时已排队点击中的访客值过期的问题。 |
 
 ## 版本 2.16.0
 
@@ -40,7 +40,7 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| `sendBeacon` 支持退出链接 | 在 [!UICONTROL AppMeasurement] 中针对退出链接实施了 `sendBeacon` 支持。这将改进退出链接跟踪，并且可能会增加流量。`SendBeacon` 不能在页面上下文中执行，而是在浏览器上下文中执行。即，如果页面卸载， `sendBeacon`则仍将完成请求。这对退出链接非常有用，因为它会使退出链接请求的完成更有可能。 |
+| `sendBeacon` 支持退出链接 | 在 [!UICONTROL AppMeasurement] 中针对退出链接实施了 `sendBeacon` 支持。这将改进退出链接跟踪，并且可能会增加流量。`SendBeacon` 不会在页面的上下文中执行，而是在浏览器的上下文中执行。 也就是说，如果页面卸载 `sendBeacon`时，请求仍将完成。 这对退出链接非常有用，因为它将使退出链接请求完成的可能性大得多。 |
 | ECID/fid 值 | 即使 OptIn 设置发生更改，ECID/fid 值现在也会在首次点击时缓存。 |
 | DIL 9.3 | 已将受众管理模块更新至 DIL 9.3。 |
 | 滚动覆盖范围跟踪 | s.ActivityMap.trackScrollReach 中用于打开或关闭滚动覆盖范围跟踪的公开开关。 |
@@ -50,8 +50,8 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 发行日期：**2019 年 7 月 15 日**
 
-* 为Activity Map扩展添加了ActivityMap滚动范围跟踪(AN-172949)
-* 为AppMeasurement添加了DIL9.2(AN-182472)
+* 向Activity map扩展添加了ActivityMap滚动范围跟踪(AN-172949)
+* 将DIL 9.2添加到AppMeasurement(AN-182472)
 
 ## 版本 2.14.0
 
@@ -64,7 +64,7 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 发行日期：**2019 年 4 月 10 日**
 
-修复了ClearVars所报告的许多问题。当在跟踪器就绪之前发出点击时会出现问题。当跟踪器变为就绪时，库可以设置已清除或更改的变量。(AN-176931、AN-176629、DTM-12758).
+修复了clearVars中报告的许多问题。 当在跟踪器准备就绪之前发送点击时，会出现问题。 当跟踪器准备就绪时，库可以设置已清除或更改的变量。 (AN-176931、AN-176629、DTM-12758).
 
 ## 版本 2.12.0
 
@@ -72,7 +72,7 @@ Release Date: **02/22/2019**
 
 * 已将受众管理模块更新至 DIL 9.1。(AN-175255)
 * GTM 安全策略不允许使用 Activity Map 模块。(AN-174679)
-* 改进了AppMeasurement以在身份服务未在选择加入时获得批准。(AN-175259)
+* 改进了AppMeasurement，以在身份服务未在选择加入时遵守选择退出。 (AN-175259)
 
 ## 版本 2.11.0
 
@@ -241,7 +241,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 >[!NOTE]
 >
->Also see the following release notes for [!DNL JavaScript] version 1.6.3, which includes updated requirements for Marketing Cloud ID service.
+>Also see the following release notes for [!DNL JavaScript] version 1.6.3, which includes updated requirements for Experience Cloud ID service.
 
 ## 版本 1.6.3 {#section_34C75470A84B461A89FEF8CFF7B94090}
 
@@ -251,7 +251,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 >[!IMPORTANT]
 >
->[!DNL Marketing Cloud] ID服务版本1.6.0 *需要*[!DNL AppMeasurement][!DNL JavaScript] 版本1.6.3或更高版本。If you want to upgrade to version 1.6.0 of the Marketing Cloud ID service, please make sure you are using [!DNL AppMeasurement] code verison 1.6.3 or higher.
+>Version 1.6.0 of the [!DNL Experience Cloud] ID service *requires* [!DNL AppMeasurement] for [!DNL JavaScript] version 1.6.3 or higher. If you want to upgrade to version 1.6.0 of the Experience Cloud ID service, please make sure you are using [!DNL AppMeasurement] code verison 1.6.3 or higher.
 
 ## 版本 1.6.2 {#section_419CBF264B5741DABB005AFDC6197C0D}
 
@@ -288,7 +288,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 发行日期：**2016 年 4 月 21 日**
 
-* [!DNL AppMeasurement][!DNL Activity Map] 模块已集成到 [!DNL AppMeasurement] 标准模块中，因此您只需引用一 [!DNL .js] 个文件。Additionally, [!DNL Activity Map] tracking is activated by default. (AN-112689)
+* The [!DNL AppMeasurement] [!DNL Activity Map] module has been integrated in the [!DNL AppMeasurement] standard module, so that you only have to reference one [!DNL .js] file. Additionally, [!DNL Activity Map] tracking is activated by default. (AN-112689)
 
 * Fixed a truncation issue occurring with the order of query-string variables in [!DNL AppMeasurement], so that *`pageURLRest`* is last. (AN-114647)
 
@@ -367,7 +367,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 **已知问题**
 
-在访客API/ [!DNL AppMeasurement][!DNL Audience Manager] Module集成中，将在IE6-9中发布两个目标发布iFrame请求： `//fast.<subdomain>.demdex.net/dest5.html``//fast.<subdomain>.demdex.net/dest4.html`和.如在其他浏览器中所看到的，正确的行为是仅加载 `//fast.<subdomain>.demdex.net/dest5.html`.
+在访客API/模块集 [!DNL AppMeasurement][!DNL Audience Manager] 成中，将有两个目标发布在IE6-9中发出的iFrame请求： `//fast.<subdomain>.demdex.net/dest5.html` 和 `//fast.<subdomain>.demdex.net/dest4.html`。 如在其他浏览器中所看到的，正确的行为是仅加载 `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## 版本 1.4.4 {#section_C069FA04496C4F7DAC165B04E836CF1F}
 
@@ -386,8 +386,8 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
    <td colname="2"> <p>您现在可以包含具有生命周期量度的自定义上下文数据变量。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
-   <td colname="1"> <p><span class="keyword"> PhoneGap中的信标跟踪支持 </span> </p> </td> 
-   <td colname="2"> <p><code> track信标 </code> 和 <code> clearcurrentBeon </code> 调用现在 <span class="keyword"> PhoneGap </span>中可用。 </p> </td> 
+   <td colname="1"> <p>Beacon tracking support in <span class="keyword"> PhoneGap </span> </p> </td> 
+   <td colname="2"> <p>The <code> trackBeacon </code> and <code> clearCurrentBeacon </code> calls are now available in <span class="keyword"> PhoneGap </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -432,7 +432,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
    >[!IMPORTANT]
    >
-   >[!DNL Analytics] 要想调用使用POST方法而不 [!DNL AppMeasurement] 是(在IE中解决 [截断的URL的方法)，](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)您必须使用Marketing Cloud的最新 [访客ID服务](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_implement) 实施。
+   >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_implement) implementation for Experience Cloud.
 
 ## 版本 1.4 {#section_56ADFF9416B14ABCB3862B00F72B30A1}
 
@@ -460,13 +460,13 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 发行日期：**2014 年 5 月 22 日**
 
-* [!DNL AppMeasurement] for [!DNL JavaScript]`s_gi` function is not recorrect found creating instances created using H code `s_gi`.Note that this issue only impacted some dual tagging implementations where [!DNL AppMeasurement] for [!DNL JavaScript] and H code were on the same page with separate instances, and `s_gi` was being used to find instances by report suite.
+* [!DNL AppMeasurement] for函 [!DNL JavaScript] 数未正 `s_gi` 确查找使用H代码创建的实例 `s_gi`。 Note that this issue only impacted some dual tagging implementations where [!DNL AppMeasurement] for [!DNL JavaScript] and H code were on the same page with separate instances, and `s_gi` was being used to find instances by report suite.
 
 ## 版本 1.3 {#section_56B2C625368E4A5BA1E8770A8C78117D}
 
 发行日期：**2014 年 4 月 17 日**
 
-* 支持 [Marketing Cloud 访客 ID 服务](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
+* 支持 [Experience Cloud访客ID服务](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
 
 ## 版本 1.2.4 {#section_94D9521FDBAB4224994B1671A9BD036B}
 
@@ -545,4 +545,4 @@ A new [!DNL JavaScript] [!DNL AppMeasurement] library is now available in Code M
 
 >[!NOTE]
 >
->此新版本不支持一些插件。有关详细信息，请参阅[插件支持](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=plugins_support)。
+>此新版本不支持某些插件。 有关详细信息，请参阅[插件支持](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=plugins_support)。
