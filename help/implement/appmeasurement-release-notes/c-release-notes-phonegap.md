@@ -2,13 +2,13 @@
 description: PhoneGap 的发行说明汇总。
 seo-description: PhoneGap 的发行说明汇总。
 seo-title: PhoneGap
-solution: Analytics，Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: 发行说明
 title: PhoneGap
 topic: 开发人员和实施
-uuid: 430f5e71-909e-4841-b8 fb-2895b01736 ad
+uuid: 430f5e71-909e-4841-b8fb-2895b01736ad
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
