@@ -6,12 +6,12 @@ seo-title: 更新网站的数据收集代码
 solution: Analytics
 title: 更新网站的数据收集代码
 topic: Data connectors
-uuid: a97d1b62-f883-48b1-9516-4f889 e701901
+uuid: a97d1b62-f883-48b1-9516-4f889e701901
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -22,7 +22,7 @@ DFA 的 Genesis 集成可利用 DFA Floodlight 配置 ID (dfa_SPOTID)，以提�
 
 >[!NOTE]
 >
->在最近发布的Google DFA中，术语Spotlight已更改为Floodlight。JavaScript 参数 `dfa_SPOTID` 基于 Spotlight 术语而命名，但它可同时用于两个版本。
+>在Google DFA的最新版本中，术语Spotlight已更改为Floodlight。 JavaScript 参数 `dfa_SPOTID` 基于 Spotlight 术语而命名，但它可同时用于两个版本。
 
 要在您的网站上启用 DFA 集成，您必须通过添加以下内容来更新 JavaScript 数据收集代码：
 
@@ -31,7 +31,7 @@ DFA 的 Genesis 集成可利用 DFA Floodlight 配置 ID (dfa_SPOTID)，以提�
 
 ## DFA 的集成模块 {#section-fa00e42a732a4e27a4ab3dfcfeae1a5b}
 
-DFA 集成可利用 Adobe Marketing Cloud 集成模块，以向您的核心 JavaScript 数据收集代码 (`s_code.js`) 添加功能。当您从 [代码管理器下载AppMeasurement for Javascript代码时，集成模块](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html)将作为.zip文件的一部分。仅当您需要查找其他帮助时，请与Adobe顾问联系。
+The DFA integration leverages the Adobe Experience Cloud Integrate Module, which adds functionality to your core JavaScript data collection code ( `s_code.js`). 当您从代码管理器下载AppMeasurement for Javascript代码时，集成模块将作为。zip文件的一 [部分提供](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html)。 仅当您需要查找它的其他帮助时，才与Adobe顾问联系。
 
 Insert the Integrate Module code in the `Modules` section of your website's `s_code.js` file.
 
@@ -101,5 +101,5 @@ DFA 集成设置块可设置 DFA 集成所需要的变量。这其中每个变�
 
 >[!CAUTION]
 >
->插件用于消除不必要的DFA查询的机制之一是基于域的访问cookie。当访客在一次受 DFA 影响的显示到达或点进后跨了多个域时，跨越多个域的集成报表包会夸大点进和显示到达数据。
+>插件用于消除不必要的DFA查询的机制之一是基于域的访问cookie。 当访客在一次受 DFA 影响的显示到达或点进后跨了多个域时，跨越多个域的集成报表包会夸大点进和显示到达数据。
 
