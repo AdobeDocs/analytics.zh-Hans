@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 发行说明
 title: BlackBerry
 topic: 开发人员和实施
-uuid: 1e4e037f-2a8b-4051-9327-c9949 ef7 b7
+uuid: 1e4e037f-2a8b-4051-9327-c9949eff7b7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -19,13 +19,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->要查找当前的库版本，请开启调试日志。
+>要查找当前库版本，请打开调试日志记录。
 
 ## 版本 4.0.0 {#section_5E6C3CEF56FB4A95B2F43DBEC956A784}
 
 发行日期：**2013 年 11 月 4 日**
 
-BlackBerry 10 4.x 版的初始版本。请参阅[适用于 Blackberry 10 的 Marketing Cloud - Adobe Analytics](https://marketing.adobe.com/developer/gallery/marketing-cloud-for-blackberry-10-adobe-analytics)。
+BlackBerry 10 4.x 版的初始版本。See [Experience Cloud for Blackberry 10 - Adobe Analytics](https://marketing.adobe.com/developer/gallery/marketing-cloud-for-blackberry-10-adobe-analytics).
 
 ## 版本 1.3 {#section_990A8910DE304E29BAD9EC770B72BB97}
 
