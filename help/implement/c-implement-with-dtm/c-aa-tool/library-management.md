@@ -1,13 +1,13 @@
 ---
 description: 动态标签管理“库管理”设置中各个字段和选项的描述。
-keywords: 库管理；页面代码；加载库；由adobe管理；自定义；代码托管；s_ code托管
+keywords: 库管理；页面代码；加载库位置；由adobe管理；自定义；代码托管；s-code托管
 seo-description: 动态标签管理“库管理”设置中各个字段和选项的描述。
 seo-title: 库管理
-solution: Marketing Cloud，动态标签管理
+solution: Experience Cloud，动态标签管理
 title: 库管理
-uuid: 4cfa47f9-ae98-4b-a58 d-a3 a6 e45 f8 d5 b
+uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
 translation-type: tm+mt
-source-git-commit: 3489f00bd7dddefda0420fc361056416f6f10d3f
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 3489f00bd7dddefda0420fc361056416f6f10d3f
 
 动态标签管理“库管理”设置中各个字段和选项的描述。
 
-**[!UICONTROL *`Property`*]** &gt; ![](assets/settings_gear.png)**[!UICONTROL 编辑工具]** &gt; **[!UICONTROL 库管理]**
+**[!UICONTROL *`Property`*]** &gt;“编 ![](assets/settings_gear.png) 辑工具 **[!UICONTROL ”&gt;“]****[!UICONTROL 库管理”]**
 
 >[!NOTE]
 >
->如果在单个Web资产中使用了多个Adobe Analytics工具，则每个工具必须具有唯一的跟踪器变量名称。如果一个 Web 属性中的多个 Adobe Analytics 工具之间存在重复的对象变量名称，则将会引发冲突。
+>如果在单个Web属性中使用了多个Adobe Analytics工具，则每个工具都必须具有唯一的跟踪器变量名称。 如果一个 Web 属性中的多个 Adobe Analytics 工具之间存在重复的对象变量名称，则将会引发冲突。
 
 <table id="table_2758C770C91B4025AD74009B360D71F7"> 
  <thead> 
@@ -35,7 +35,7 @@ source-git-commit: 3489f00bd7dddefda0420fc361056416f6f10d3f
    <td colname="col2"> <p> 如果您的网站上已存在 <span class="keyword">Adobe Analytics</span> 页面代码，请阻止动态标签管理安装此代码。 </p> <p>这项功能允许您使用动态标签管理向现有的实施执行添加操作，而不是从头开始。选中此框时，请确保正确设置了您的跟踪器变量名称。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>库加载位置 &lt;<span class="term"> 页面顶部</span> 或 <span class="term"> 底部页面</span>&gt; </p> </td> 
+   <td colname="col1"> <p>库加载位置 &lt;<span class="term"> 页面顶部</span> 或页 <span class="term"> 面底部</span>&gt; </p> </td> 
    <td colname="col2"> <p>指定页面代码加载的位置和时间。无论选择任何内容，使用 Analytics 工具的任何规则都将需要具有相同的设置。 </p> </td> 
   </tr> 
   <tr> 
@@ -48,7 +48,7 @@ source-git-commit: 3489f00bd7dddefda0420fc361056416f6f10d3f
     <ul id="ul_FC395283365A4BBAA8A5FE5871D16EC6"> 
      <li id="li_36D733C533CE40F1868309130551D4DE"> <b>在 DTM 中</b>：您可以在动态标签管理中托管 <span class="filepath">s_code</span>。单击<span class="uicontrol">编辑代码</span>，直接将文件剪切并粘贴到编辑器中。 </li> 
      <li id="li_A64734C66D254079A5E16DC8DBEDA3F6"> <b>URL</b>：如果您拥有一个完好的 <span class="filepath">s_code</span> 文件并且愿意更新它，则可以在此处提供指向该文件的 URL。动态标签管理随后会使用此 <span class="filepath">s_code</span> 文件来实施 <span class="keyword">Adobe Analytics</span>。 </li> 
-    </ul> <p> <b>打开编辑器： </b>允许 <a href="../../../implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md#task_068D72664B2743359A64ADB8692D3658" format="dita" scope="local"> 插入核心AppMeasurement代码</a>。This code is populated automatically when using the automatic configuration method described in <a href="../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8" format="dita" scope="local"> Adobe Analytics Settings</a>. </p> <p> <b>跟踪器变量名称： </b>如果要并行运行两个 <span class="keyword"> Adobe Analytics</span> 实例(一个在动态标签管理中和一个本机)，则可以重命名主 <span class="term"> 对象</span> 。重命名对象名称可避免发生冲突。 </p> </td> 
+    </ul> <p> <b>打开编辑器：允 </b>许您插 <a href="../../../implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md#task_068D72664B2743359A64ADB8692D3658" format="dita" scope="local"> 入核心AppMeasurement代码</a>。 This code is populated automatically when using the automatic configuration method described in <a href="../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8" format="dita" scope="local"> Adobe Analytics Settings</a>. </p> <p> <b>跟踪器变量名称：如 </b>果要并行运行两个 <span class="keyword"> Adobe Analytics实例（一个在动态标签管理中，一个在本机），可以重命名主</span> s对象 <span class="term"></span> 。 重命名对象名称可避免发生冲突。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
