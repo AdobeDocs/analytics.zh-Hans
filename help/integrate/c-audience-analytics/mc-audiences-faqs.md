@@ -2,11 +2,11 @@
 description: 实施 Audience Analytics 时可能遇到的问题的解答。
 seo-description: 实施 Audience Analytics 时可能遇到的问题的解答。
 seo-title: 常见问题解答
-solution: Marketing Cloud
+solution: Experience Cloud
 title: 常见问题解答
-uuid: 9dfc8f19-f9 b2-4c2 e-bff9-3d91 cfe01 bca
+uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -47,7 +47,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>问：我如何在 Audience Manager 中创建 Analytics 目标？</b> </p> </td> 
-   <td colname="col2"> See <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html" format="html" scope="external"> Configure an Analytics Destination in AAM </a>. </td> 
+   <td colname="col2"> 请参阅 <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html" format="html" scope="external"> 在AAM中配置分析目标 </a>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：在创建并保存了 Analytics 目标之后，需要多久才会在我选择的报表包中显示数据？</b> </p> </td> 
@@ -58,7 +58,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col2"> <p>当您在<span class="uicontrol">区段映射</span>中选择<span class="uicontrol">自动映射所有当前和未来区段</span>选项时，Analytics 目标就会从区段的“目标映射”部分中消失。 </p> <p><img placement="break" align="left"  src="assets/auto-mapping.png" id="image_670ED5A306784FCBA8A0B336AC1F0FC6" width="300px" /> </p> <p>要防止出现这种情况，请选择<span class="uicontrol">手动映射区段</span>，而不要选择自动选项。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>问：这会在Analytics中提供来自AAM的所有信息吗？</b> </p> </td> 
+   <td colname="col1"> <p> <b>问：这是否会为我提供Analytics中AAM的所有信息？</b> </p> </td> 
    <td colname="col2"> <p>不会，仅提供 Audience Manager 受众启用期间或之后，以及区段鉴定期间或之后访问您站点的用户相关数据。 </p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +67,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>问：这与指向 Analytics 的旧 Cookie 目标有何区别？</b> </p> </td> 
-   <td colname="col2"> <p>细分可在同一点击中实时获得和返回。 </p> <p>将会自动显示易记名称。 </p> </td> 
+   <td colname="col2"> <p>区段可实时获得资格并返回——在同一点击下。 </p> <p>将会自动显示易记名称。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：如果我的某些报表包中包含个人数据，而有些不包含，我该怎么做？</b> </p> </td> 
@@ -82,7 +82,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>问：这一集成将会在 Analytics 中显现为维度还是区段？</b> </p> </td> 
-   <td colname="col2"> <p>显示为维度：受众 ID 和受众名称。 </p> </td> 
+   <td colname="col2"> <p>显示为维度：受众 ID 和受众名称. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：我可以在 Analytics 中的哪些地方使用这些维度？</b> </p> </td> 
@@ -90,7 +90,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：为何我无法看到在 Analytics 中传入的数据？</b> </p> </td> 
-   <td colname="col2"> <p>数据源和目标之间的 AAM 隐私控件可能存在冲突。。 </p> </td> 
+   <td colname="col2"> <p>数据源和目标之间的 AAM 隐私控件可能存在冲突。. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：为何我的某些区段在 Analytics 中丢失，即使我选择发送所有区段也是如此？</b> </p> </td> 
@@ -101,7 +101,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>问：为什么我在Analytics报告中看到“受众限制”？(Note: this will also be represented as Audience ID = -1 and "::max_audiences_exceeded::" in Data Warehouse)</b> </p> </td> 
+   <td colname="col1"> <p><b>问：为什么我在Analytics报告中看到“已达到受众限制”? (注：此值还将在数据仓库中表示为受众ID = -1和“::max_audiences_exceeded::”)</b> </p> </td> 
    <td colname="col2"> <p>默认情况下，AAM 的 Audience Analytics 集成会根据点击将访客有资格使用的所有区段都发送到 Analytics。如果访客在一次点击中从属于 150 个以上的 AAM 区段，则将<b>最近获得授权的 150 个区段</b>发送到 Analytics，而剩余的列表将被截断。 </p> <p>此外还会向 Analytics 发送一个标记，指示区段列表被截断，该标记在“受众名称”维度中显示为“已达到受众限制”，在“受众 ID”维度中显示为“-1”。 </p> <p>虽然访客不太可能在一次点击中有资格使用 150 个以上的区段，但这种情况依然有极小的概率发生。如果您在报告中遇到“已达到受众限制”，可选择以下两个选项： </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>选项 1</b>：继续让集成保持现有工作状态，这会为特定访客发送最近获得授权的 150 个区段。 </li> 
@@ -125,12 +125,12 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：为何我无法在 Analytics 管理员中为某些报表包开启 SSF？</b> </p> </td> 
-   <td colname="col2"> <p>只能启用映射到Experience Cloud Org的套件。 </p> </td> 
+   <td colname="col2"> <p>只能启用映射到您的Experience Cloud组织的套件。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/c-server-side-forwarding/ssf-faq.md).
+有关此主题的更多常见问题解答，请参 [阅服务器端转发常见问题解答](/help/admin/admin/c-server-side-forwarding/ssf-faq.md)。
 
 ## 一般常见问题解答 {#section_E55410BBFB624AAFB87ADCF7F036DDA3}
 
@@ -142,7 +142,7 @@ For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：AAM 中的“受众”和 Analytics 中的“区段”之间有哪些区别？</b> </p> </td> 
-   <td colname="col2"> <p>请参阅<a href="../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B" format="dita" scope="local"> 了解Analytics和Audience Manager中的细分 </a>。 </p> <p>AAM 受众将作为要在 Analytics 中使用的“维度”组件发送和共享。它们不会在区段生成器之类的地方显示为区段，但是会作为您可用来构建区段的维度。 </p> </td> 
+   <td colname="col2"> <p>请参阅 <a href="../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B" format="dita" scope="local"> Understand Segments in Analytics and Audience Manager </a>. </p> <p>AAM 受众将作为要在 Analytics 中使用的“维度”组件发送和共享。它们不会在区段生成器之类的地方显示为区段，但是会作为您可用来构建区段的维度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：客户属性和集成自 AAM 的客户数据之间有哪些区别？</b> </p> </td> 
