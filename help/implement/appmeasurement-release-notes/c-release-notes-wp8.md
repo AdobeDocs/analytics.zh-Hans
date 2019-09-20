@@ -2,13 +2,13 @@
 description: 'null'
 seo-description: 'null'
 seo-title: Windows Phone 8
-solution: Analytics，Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: 发行说明
 title: Windows Phone 8
 topic: 开发人员和实施
-uuid: 7378969a-d219-42bf-9750-141acc9 e4 b7 d
+uuid: 7378969a-d219-42bf-9750-141acc9e4b7d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -17,13 +17,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->要查找当前的库版本，请开启调试日志。
+>要查找当前库版本，请打开调试日志记录。
 
 Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
 >[!NOTE]
 >
->[!DNL Windows] 电话SDK被Windows8.1通用App [Store](../appmeasurement-release-notes/c-release-notes-winu.md) SDK取代。未来不会再对此 SDK 进行进一步的研发。
+>The [!DNL Windows] Phone 8 SDK is replaced by the [Windows 8.1 Universal App Store](../appmeasurement-release-notes/c-release-notes-winu.md) SDK. 未来不会再对此 SDK 进行进一步的研发。
 
 ## 版本 3.0.4 {#section_51A8A53CDFB24F6F9D882E9C30ECDB49}
 
@@ -53,7 +53,7 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 
 发行日期：**2013 年 2 月 26 日**
 
-* `ADMS_Measurement.visitorID` 现在预填充默认值。
+* `ADMS_Measurement.visitorID` 现在会预填充默认值。
 * 修复了有时会导致缓存自动响应的问题。
 
 ## 版本 3.0.1 {#section_5865E881249441ADBB03A9637548650F}
