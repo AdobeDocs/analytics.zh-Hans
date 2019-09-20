@@ -2,13 +2,13 @@
 description: iOS 的发行说明汇总。
 seo-description: iOS 的发行说明汇总。
 seo-title: iOS
-solution: Analytics，Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: 发行说明
 title: iOS
 topic: 开发人员和实施
-uuid: cc98f8f2-f619-4b31-abf9-e43 f4 deac64 f
+uuid: cc98f8f2-f619-4b31-abf9-e43f4deac64f
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -19,7 +19,7 @@ iOS 的发行说明汇总。
 
 >[!NOTE]
 >
->要查找当前的库版本，请开启调试日志。
+>要查找当前库版本，请打开调试日志记录。
 
 可在 [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) 和 [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-ios) 上下载移动库。
 
@@ -29,7 +29,7 @@ iOS 的发行说明汇总。
 
 ## 版本 4.13.4 {#section_BF05D33CEF6E42358C8089441449449B}
 
-[!DNL iOS] SDK4.13.4(2017年月16日)包含以下更改：
+[!DNL iOS] SDK版本4.13.4（2017年2月16日）包括以下更改：
 
 <table frame="all" colsep="1" rowsep="1" id="table_657D643E874D47C099F2F43519C9C1C7"> 
  <thead> 
@@ -52,7 +52,7 @@ iOS 的发行说明汇总。
 
 ## 版本 4.13.3 {#section_39618D2B29F942FCBF37E4F5507AA131}
 
-[!DNL iOS] SDK4.13.3(2017年月19日)包含以下更改：
+[!DNL iOS] SDK版本4.13.3（2017年1月19日）包括以下更改：
 
 <table frame="all" colsep="1" rowsep="1" id="table_341D35BF18714139A95CA5491899185D"> 
  <thead> 
@@ -79,7 +79,7 @@ iOS 的发行说明汇总。
 
 ## 版本 4.13.2 {#section_CB0DFFDB38FE4D14A84423DF40BF8FD3}
 
-[!DNL iOS] SDK版本4.13.2(2016年11月10日)包含以下更改：
+[!DNL iOS] SDK版本4.13.2（2016年11月10日）包括以下更改：
 
 <table frame="all" colsep="1" rowsep="1" id="table_AA26B14D271948FFBA44D4D06E3B71AA"> 
  <thead> 
@@ -91,7 +91,7 @@ iOS 的发行说明汇总。
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 访客 ID 服务 </p> </td> 
-   <td colname="2"> <p> 向 <code>adobe_mc</code> 参数添加了时间戳和 Marketing Cloud 企业 ID。 </p> </td> 
+   <td colname="2"> <p> Added timestamp and Experience Cloud Organization ID to <code> adobe_mc</code> parameter. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 配置 </p> </td> 
@@ -110,7 +110,7 @@ iOS 的发行说明汇总。
 
 ## 版本 4.13.1 {#section_18C8A7166EFD4E67AC0F7C06DFBBFE6A}
 
-[!DNL iOS] SDK版本4.13.1(2016年10月20日)包含以下更改：
+[!DNL iOS] SDK版本4.13.1（2016年10月20日）包括以下更改：
 
 <table frame="all" colsep="1" rowsep="1" id="table_5B67A6B8B79D4783BA8DCDA7C2ACA765"> 
  <thead> 
@@ -138,7 +138,7 @@ iOS 的发行说明汇总。
 
 ## 版本 4.13.0 {#section_F72A3357994E4887A9F3967F0FBFFCDD}
 
-[!DNL iOS] SDK版本4.13.0(2016年月15日)包含以下更改：
+[!DNL iOS] SDK版本4.13.0（2016年9月15日）包括以下更改：
 
 <table frame="all" colsep="1" rowsep="1" id="table_FD6156E58FF54BA2BEED7398BC780C46"> 
  <thead> 
@@ -157,7 +157,7 @@ iOS 的发行说明汇总。
 
 ## 版本 4.12.0 {#section_2AD26AABBB434833AE961C8D71C9AFE8}
 
-[!DNL iOS] SDK4.12.0(2016年月18日)包含以下更改：
+[!DNL iOS] SDK版本4.12.0（2016年8月18日）包括以下更改：
 
 <table frame="all" colsep="1" rowsep="1" id="table_CC3CD01203ED4BDA9BC26427E925C70D"> 
  <thead> 
@@ -180,7 +180,7 @@ iOS 的发行说明汇总。
 
 ## 版本 4.11.0 {#section_3ABABE0F0B964EB48BD482CCE260A13D}
 
-[!DNL iOS] SDK版本4.11.0(2016年月22日)包含以下更改：
+[!DNL iOS] SDK版本4.11.0（2016年6月22日）包括以下更改：
 
 <table frame="all" colsep="1" rowsep="1" id="table_14B23402BA3B41238F419CA57341B8F5"> 
  <thead> 
@@ -202,7 +202,7 @@ iOS 的发行说明汇总。
 
 ## 版本 4.10.0 {#section_F0D6D7FD89DE4DF5A121B05FA093CC5B}
 
-[!DNL iOS] SDK4.10.0(2016年月20日)包含以下更改：
+[!DNL iOS] SDK版本4.10.0（2016年5月20日）包括以下更改：
 
 <table frame="all" colsep="1" rowsep="1" id="table_AC447B6E4D55489F803923BF5D1D6653"> 
  <thead> 
@@ -248,7 +248,7 @@ iOS 的发行说明汇总。
 
 ## 版本 4.9.0 {#section_DA97D7294B214067A4904B9738450759}
 
-[!DNL iOS] SDK版本4.9.0(2016年月日)包含以下更改：
+[!DNL iOS] SDK版本4.9.0（2016年5月5日）包括以下更改：
 
 <table frame="all" colsep="1" rowsep="1" id="table_0B3A0F44549C4DA48C7639048C030065"> 
  <thead> 
@@ -267,7 +267,7 @@ iOS 的发行说明汇总。
 
 ## 版本 4.8.6 {#section_0150641B44CF4F6CBE2B21002F8EAB30}
 
-[!DNL iOS] SDK4.8.6(2016年月日)包括以下更改：
+[!DNL iOS] SDK版本4.8.6（2016年3月9日）包括以下更改：
 
 <table frame="all" colsep="1" rowsep="1" id="table_5175CFFCA30B4DDBACFB23532111CB8A"> 
  <thead> 
@@ -279,14 +279,14 @@ iOS 的发行说明汇总。
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p>跟踪应用程序的崩溃情况 </p> </td> 
-   <td colname="2"> <p><span class="keyword"> iOS</span> SDK版本4.8.6包含防止误崩溃的重要更改。我们强烈建议您更新到版本 4.8.6。 </p> </td> 
+   <td colname="2"> <p>The <span class="keyword"> iOS</span> SDK version 4.8.6 contains critical changes that prevent false crashes from being reported. 我们强烈建议您更新到版本 4.8.6。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 版本 4.8.5 {#section_F42EB64F91024748893E89575F2E4487}
 
-[!DNL iOS] SDK版本4.8.5(2016年月18日)包含以下更改：
+[!DNL iOS] SDK版本4.8.5（2016年2月18日）包括以下更改：
 
 <table frame="all" colsep="1" rowsep="1" id="table_AB225AF04A374421BDD8A972506ACD06"> 
  <thead> 
@@ -305,7 +305,7 @@ iOS 的发行说明汇总。
 
 ## 版本 4.8.0 {#section_2CF142C8C2D24B529559DAF76F851BBF}
 
-[!DNL iOS] SDK4.8.0(2015年11月日)包括以下更改：
+[!DNL iOS] SDK版本4.8.0（2015年11月2日）包括以下更改：
 
 <table frame="all" colsep="1" rowsep="1" id="table_9DB41F070D66498FACF1A9C135603C7A"> 
  <thead> 
@@ -316,7 +316,7 @@ iOS 的发行说明汇总。
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> 新的 Marketing Cloud 访客 ID 服务方法 </td> 
+   <td colname="1"> 新的Experience cloud访客ID服务方法 </td> 
    <td colname="2"> <p>新增了以下方法： </p> 
     <ul id="ul_55D8F29ADE3746C484FEC7893FA9EF23"> 
      <li id="li_19F8AF546EEB45EBB5849EA6EB3CE6A3"><code> visitorSyncIdentifiers:authenticationState:</code> </li> 
@@ -345,7 +345,7 @@ iOS 的发行说明汇总。
 
 ## 版本 4.7.0 {#section_B37B1CAF065346E9A2073A06AB7AFEC2}
 
-[!DNL iOS] SDK4.7.0(2015年10月15日)包含以下更改：
+[!DNL iOS] SDK版本4.7.0（2015年10月15日）包括以下更改：
 
 <table frame="all" colsep="1" rowsep="1" id="table_3CCA327B859B498D828B2E056A075BEC"> 
  <thead> 
@@ -404,7 +404,7 @@ iOS 的发行说明汇总。
 
 ## 版本 4.6 {#section_D091872501DA49C1A18CDC33C84B8256}
 
-[!DNL iOS] SDK4.6(2015年月17日)包含以下更改：
+[!DNL iOS] SDK版本4.6（2015年9月17日）包括以下更改：
 
 <table frame="all" colsep="1" rowsep="1" id="table_084C27B1A75A4A2EB84822242E37ED35"> 
  <thead> 
@@ -476,8 +476,8 @@ iOS 的发行说明汇总。
    <td colname="2"> <p>您现在可以包含具有生命周期量度的自定义上下文数据变量。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
-   <td colname="1"> <p><span class="keyword"> PhoneGap中的信标跟踪支持</span> </p> </td> 
-   <td colname="2"> <p><code> track信标</code> 和 <code> clearcurrentBeon</code> 调用现在 <span class="keyword"> PhoneGap</span>中可用。 </p> </td> 
+   <td colname="1"> <p>Beacon tracking support in <span class="keyword"> PhoneGap</span> </p> </td> 
+   <td colname="2"> <p>The <code> trackBeacon</code> and <code> clearCurrentBeacon</code> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -486,7 +486,7 @@ iOS 的发行说明汇总。
 
 发行日期：**2014 年 11 月 24 日**
 
-* 新增 - Adobe Marketing Cloud ID 集成
+* 新增功能- Adobe Experience Cloud ID集成
 * 为清楚起见，改进了调试日志
 
 ## 版本 4.2 {#section_806710F7720C410DAB46376C0A7A283E}
@@ -547,7 +547,7 @@ iOS 的发行说明汇总。
 
 发行日期：**2013 年 9 月 27 日**
 
-[!DNL iOS]适用于 Marketing Cloud 解决方案的 SDK 4.x 现在可供使用，并提供以下新功能：
+[!DNL iOS] 适用于Experience cloud解决方案的SDK 4.x现已推出，提供以下新增功能：
 
 * 显著的性能增强。所有处理都是在后台线程中执行的，SDK 具有完全安全的线程。
 * 地理位置和目标点
@@ -600,7 +600,7 @@ iOS 的发行说明汇总。
 
 发行日期：**2013 年 3 月 21 日**
 
-* `ADMS_Measurement.visitorID` 现在预填充默认值。
+* `ADMS_Measurement.visitorID` 现在会预填充默认值。
 
 ## 版本 3.1.4 {#section_B04D1A4858A84A19AA65A57609C9F53F}
 
