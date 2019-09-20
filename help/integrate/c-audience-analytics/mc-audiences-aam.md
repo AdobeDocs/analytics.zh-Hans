@@ -1,17 +1,17 @@
 ---
 description: Adobe Audience Manager (AAM) 作为一款功能强大的数据管理平台，可帮助您通过第一方、第二方/合作伙伴以及第三方数据集成，来构建独一无二的受众配置文件。对广告商而言，这些受众配置文件有助于定义要跨任何数字渠道使用的最有价值的区段。
 seo-description: Adobe Audience Manager (AAM) 作为一款功能强大的数据管理平台，可帮助您通过第一方、第二方/合作伙伴以及第三方数据集成，来构建独一无二的受众配置文件。对广告商而言，这些受众配置文件有助于定义要跨任何数字渠道使用的最有价值的区段。
-seo-title: Audience Analytics概述
-solution: Marketing Cloud
-title: Audience Analytics概述
-uuid: 86ef9391-dd6 a-495f-a10 e-e98 bc069 dde
+seo-title: Audience Analytics 概述
+solution: Experience Cloud
+title: Audience Analytics 概述
+uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Audience Analytics概述
+# Audience Analytics 概述
 
 Adobe Audience Manager (AAM) 作为一款功能强大的数据管理平台，可帮助您通过第一方、第二方/合作伙伴以及第三方数据集成，来构建独一无二的受众配置文件。对广告商而言，这些受众配置文件有助于定义要跨任何数字渠道使用的最有价值的区段。
 
@@ -49,4 +49,4 @@ Audience Analytics 集成功能具有以下主要优点：
 * AAM 和 Adobe Analytics 报表包[已映射到相同的 Experience Cloud 组织](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html)。
 * You use [server-side forwarding](/help/admin/admin/c-server-side-forwarding/ssf.md) and have implemented the [Audience Management module](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html) (no DIL code) - AppMeasurement 1.5 or later.
 
-[受众分析工作流程](../../integrate/c-audience-analytics/c-workflow/audiences-workflow.md#concept_A5F067D14C794B759A1D92526DE27F83)中介绍了这些先决条件。
+Audience Analytics工作流程中介绍了这 [些先决条件](../../integrate/c-audience-analytics/c-workflow/audiences-workflow.md#concept_A5F067D14C794B759A1D92526DE27F83)。
