@@ -6,12 +6,12 @@ seo-title: 使用 DFA 数据的 Analytics 报告
 solution: Analytics
 title: 使用 DFA 数据的 Analytics 报告
 topic: Data connectors
-uuid: a4fe4c6c-f4 a4-431d-bce9-9eedbcafedd6
+uuid: a4fe4a6c-f4a4-431d-bce9-9edbcafed6
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
 
 要生成 DFA 报表，请执行以下操作：
 
-1. 登录到 Adobe Marketing Cloud。
+1. 登录到 Adobe Experience Cloud。
 1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports &amp; Analytics]**. 请确保您已选择安装有 DFA 集成的报表包。
 
 1. 在左侧导航中，选择用于捕获 DFA 点进数据的转化变量，然后选择所需的 DFA 报表。
