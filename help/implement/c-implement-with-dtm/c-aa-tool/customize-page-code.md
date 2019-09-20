@@ -1,13 +1,13 @@
 ---
 description: 部署 Analytics 时，动态标签管理中用于自定义页面代码的字段描述。
-keywords: 动态标签管理；自定义页面代码；开放编辑器；execute
+keywords: 动态标签管理；自定义页面代码；打开编辑器；执行
 seo-description: 部署 Analytics 时，动态标签管理中用于自定义页面代码的字段描述。
 seo-title: 自定义页面代码
-solution: Marketing Cloud、Analytics、Target、动态标签管理
+solution: Experience Cloud，分析，目标，动态标签管理
 title: 自定义页面代码
-uuid: b7CAD069-3eb8-4388-b0 b0-34f54001 e05 f
+uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 添加插件以确保该代码与 Analytics 工具同时运行。有关 Analytics 插件的更多信息，请参阅 [实施插件](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
 
-**[!UICONTROL *`Property`*]** &gt;**[！UICCONTRL ![](assets/settings_gear.png)
+**[!UICONTROL *`Property`*]** &gt; **[!UICONCONTROL ![](assets/settings_gear.png)
 
 Edit Tool]** &gt; **[!UICONTROL Customize Page Code]**
 
