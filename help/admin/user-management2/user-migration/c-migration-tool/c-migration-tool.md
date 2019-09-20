@@ -3,12 +3,12 @@ description: 在 Adobe Experience Cloud 中将 Analytics 用户 ID 迁移到 Adm
 seo-description: 在 Adobe Experience Cloud 中将 Analytics 用户 ID 迁移到 Admin Console 的应知事项。
 seo-title: 将 Analytics 用户迁移到 Admin Console
 title: 将 Analytics 用户迁移到 Admin Console
-uuid: 7d020713-693b-4945-a52-3669a631 aacb
+uuid: 7d020713-693b-4945-aa52-3669a631aacb
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77a46f010773397933d34f643d3d232e2761325b
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -118,7 +118,7 @@ source-git-commit: 77a46f010773397933d34f643d3d232e2761325b
      <li id="li_418476105FE341229CE146E730AAB33D">您在 Analytics 中的现有权限组将作为产品配置文件自动复制到 Admin Console 中，其中包括它们的描述以及报表包、量度、维度、Analytics 与报表包工具之间的粒度权限。 </li> 
      <li id="li_412F88C454B0455A8F3BC8016226855C">如果您有任何当前 Analytics 用户是在 Admin Console 中创建的（这表示他们具有链接的 Adobe ID 或企业 ID），他们将被添加到 Admin Console 中相应的产品配置文件内。 </li> 
      <li id="li_8A05137EC05C4FD5910E73FE58300DCB">Analytics 中“管理员”选项卡下方的“用户管理”部分将被设置为 <span class="term"> 只读</span>. 您将无法在此处创建新用户或权限组，并将需要在 Admin Console 中执行这两个功能。有关更多信息，请参阅 <a href="../c-migration-tool/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56" format="dita" scope="local">Admin Console 中不支持的 Analytics 功能</a>。 </li> 
-     <li id="li_2742DE69E9B547198A58E1F33E908361">管理员将被授予对[用户ID迁移工具](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/t_migrate-users.html)的访问权限。此外，还会显示一则产品内通知，其中包含迁移的结束日期（通常是未来 60 天）以及帮助内容和常见问题解答的链接。 </li> 
+     <li id="li_2742DE69E9B547198A58E1F33E908361">作为管理员，您将获得对[用户ID迁移工具](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/t_migrate-users.html)的访问权限。 此外，还会显示一则产品内通知，其中包含迁移的结束日期（通常是未来 60 天）以及帮助内容和常见问题解答的链接。 </li> 
      <li id="li_095D42E3A3544FC59A60A8C8F94C971B">您将在 Admin Console 中获得“权限”选项卡的访问权限，以便您可以使用 Analytics 中所有熟悉的粒度选项创建产品配置文件。 </li> 
     </ul> </td> 
   </tr> 
@@ -151,14 +151,14 @@ source-git-commit: 77a46f010773397933d34f643d3d232e2761325b
    <td colname="col1"> <p>我能推迟迁移开始日期吗？ </p> </td> 
    <td colname="col2"> <p>可以。联系 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="html" scope="external">Adobe 客户关怀</a>。 </p> 
     <draft-comment> 
-     <p>有关对开始日期的当前Analytics用户和权限管理所做的更改，请参见下面的内容。 </p> 
+     <p>有关在开始日期对当前Analytics用户和权限管理所做的更改的说明，请参阅下文。 </p> 
     </draft-comment> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>我的公司当前正在迁移到 Admin Console，我在迁移开始日期之前应在何处创建新用户和权限组？ </p> </td> 
    <td colname="col2"> <p>在迁移开始日期之前，您可以在 Admin Console 中或在“Analytics”&gt;“用户管理”中创建用户。 </p> <p>在迁移开始后，您只能在 Admin Console 中创建用户和权限组。 </p> 
     <draft-comment> 
-     <p>有关迁移开始日期的详细信息，请参阅下面的迁移部分。 </p> 
+     <p>有关迁移开始日期将发生什么情况的更多详细信息，请参阅下面的迁移部分)。 </p> 
     </draft-comment> </td> 
   </tr> 
   <tr> 
@@ -192,7 +192,7 @@ source-git-commit: 77a46f010773397933d34f643d3d232e2761325b
    <td colname="col1"> <p>我可以更新未迁移用户的权限组成员资格吗？ </p> </td> 
    <td colname="col2"> <p>可以。您可以从“Analytics 用户管理”部分中更改未迁移用户的组成员资格。 </p> 
     <draft-comment> 
-     <p>等待Ashok就该完成的工作提出提示。 </p> 
+     <p>等待Ashok的澄清，说明这是在哪里完成的。 </p> 
     </draft-comment> </td> 
   </tr> 
   <tr> 
@@ -254,7 +254,7 @@ source-git-commit: 77a46f010773397933d34f643d3d232e2761325b
   </tr> 
   <tr> 
    <td colname="col1"> <p>我未能在迁移结束日期前迁移我的所有用户。未迁移的用户会丢失对 Analytics 的访问权限吗？ </p> </td> 
-   <td colname="col2"> <p>未通过结束日期迁移的用户将被重定向到Experience Cloud登录页面(experiencecloud.adobe.com)，并且将无法访问Analytics。但是，您将可以继续访问迁移工具，因此您可以查找并迁移他们以恢复其访问权限。 </p> </td> 
+   <td colname="col2"> <p>在结束日期之前尚未迁移的用户将被重定向到Experience cloud登录页面(experiencecloud.adobe.com)，并且将无法访问Analytics。 但是，您将可以继续访问迁移工具，因此您可以查找并迁移他们以恢复其访问权限。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -271,7 +271,7 @@ source-git-commit: 77a46f010773397933d34f643d3d232e2761325b
  <tbody> 
   <tr> 
    <td colname="col1"> <p>从 Admin Console 中删除用户 </p> </td> 
-   <td colname="col2"> <p> 在 Analytics 中，已删除的用户会被设置为<span class="term"> 已过期</span>，但帐户仍存在。保留帐户可使转移资产（例如区段、计算量度、计划报表、项目等）得以进行。 </p> </td> 
+   <td colname="col2"> <p> 在 Analytics 中，已删除的用户会被设置为 <span class="term"> expired</span>, but the account continues to exist. 保留帐户可使转移资产（例如区段、计算量度、计划报表、项目等）得以进行。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>帐户过期日期 </p> </td> 
@@ -284,7 +284,7 @@ source-git-commit: 77a46f010773397933d34f643d3d232e2761325b
 
 >[!IMPORTANT]
 >
->查看迁移期间可能适用于您的下列问题。
+>查看在迁移过程中可能适用于您的以下问题。
 
 <table id="table_88E2FA03D5F241B79AB54D12F64B51DA"> 
  <thead> 
@@ -304,7 +304,7 @@ source-git-commit: 77a46f010773397933d34f643d3d232e2761325b
   </tr> 
   <tr> 
    <td colname="col1"> <p>上次访问（上次登录） </p> </td> 
-   <td colname="col2"> <p> 有关用户上次登录日期和时间的详细信息将显示在“Analytics 用户和资产”链接中，而不是显现在 Admin Console 中。Analytics 中的上次登录日期与用户从 Marketing Cloud 内实际访问 Analytics 的时间有关，而不反映他们登录到 Experience Cloud 的日期/时间。 </p> </td> 
+   <td colname="col2"> <p> 有关用户上次登录日期和时间的详细信息将显示在“Analytics 用户和资产”链接中，而不是显现在 Admin Console 中。Analytics中的上次登录日期特定于用户从Experience cloud中实际访问Analytics的时间，不反映用户登录Experience cloud的日期／时间。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>用户管理 API <a href="https://helpx.adobe.com/enterprise/help/identity.html" format="html" scope="external">Adobe 支持的身份类型</a> </p> </td> 
@@ -341,11 +341,11 @@ To email all users, navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Ad
 
 **主题：**&#x200B;即将推出 - 一种用于登录到 Adobe Analytics 和 Adobe Experience Cloud 的新方法。
 
-**正文：**您好！Adobe Analytics用户！
+**正文：** Adobe Analytics用户好！
 
 Our company will begin migrating all Adobe Analytics accounts away from [!DNL https://my.omniture.com/login/] to Adobe Experience Cloud ([experiencecloud.adobe.com](http://experiencecloud.adobe.com/)). 在此次迁移中，将升级您的 Adobe Analytics 帐户以允许通过 Adobe Experience Cloud 访问 Analytics。虽然访问 Analytics 的方法将发生变化，但您对报表包和工具的所有现有权限都将保留下来。
 
-**后续步骤：**我们将从开始迁移用户 <INSERT DATE>。请查看发送到您 Analytics 帐户下方列出的电子邮件 ID 的欢迎邮件，其中包含您的新登录信息。如果您没有设置链接到电子邮件地址的 [Adobe ID](https://helpx.adobe.com/x-productkb/global/adobe-id-account-change.html)，系统将要求您设置一个帐户。
+**后续步骤：**我们将从 <INSERT DATE>。请查看发送到您 Analytics 帐户下方列出的电子邮件 ID 的欢迎邮件，其中包含您的新登录信息。如果您没有设置链接到电子邮件地址的 [Adobe ID](https://helpx.adobe.com/x-productkb/global/adobe-id-account-change.html)，系统将要求您设置一个帐户。
 
 **有用的资源：**
 
