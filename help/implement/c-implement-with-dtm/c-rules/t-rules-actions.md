@@ -1,13 +1,13 @@
 ---
 description: 设置希望条件要触发的操作。
-keywords: 动态标签管理；规则；创建规则；新规则；javascript/第三方标记；设置条件的操作；添加新脚本；非顺序javascript；orderal javascript；非顺序html
+keywords: 动态标签管理；规则；创建规则；新规则；javascript/第三方标签；设置条件操作；添加新脚本；非连续javascript；连续javascript；非连续html
 seo-description: 设置希望条件要触发的操作。
 seo-title: 设置条件要触发的操作
-solution: Marketing Cloud、Analytics、Target、动态标签管理
+solution: Experience Cloud，分析，目标，动态标签管理
 title: 设置条件要触发的操作
-uuid: 2e892f0b-7261-41ee-b849-6e3054 a38 de0
+uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
