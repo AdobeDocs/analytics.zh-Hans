@@ -1,19 +1,19 @@
 ---
 description: 此部分包含测试处理规则的指南和要避免的常见错误列表。
 seo-description: 此部分包含测试处理规则的指南和要避免的常见错误列表。
-seo-title: 处理规则提示与技巧
+seo-title: 处理规则的提示和技巧
 solution: Analytics
 subtopic: 处理规则
-title: 处理规则提示与技巧
+title: 处理规则的提示和技巧
 topic: 管理工具
-uuid: e3a9ff8a-b81 a-41c9-9f61-e40 cb4 bf7 d99
+uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
+source-git-commit: f087c9255281023baa791cc181126046cfb94dc1
 
 ---
 
 
-# 处理规则提示与技巧
+# 处理规则的提示和技巧
 
 此部分包含测试处理规则的指南和要避免的常见错误列表。
 
@@ -39,7 +39,7 @@ Create a blank HTML page on your desktop, include the s_code from your site, and
 
 ![](assets/tips-set-value-acquisition-code.png)
 
-考虑处理顺序十分重要。在以下示例中，未显示“页面名称”时，“前一页面名称”自定义 evar 将被设置为 URL。但是，在应用处理规则后，URL 将被置于页面名称中，因此，在这种情况下，如果未在页面上设置页面名称，则“页面名称”将为空。
+考虑处理顺序十分重要。在以下示例中，如果页面名称不存在，则显示“上一页面名称”自定义eVar将设置为URL。 但是，在应用处理规则后，URL 将被置于页面名称中，因此，在这种情况下，如果未在页面上设置页面名称，则“页面名称”将为空。
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
