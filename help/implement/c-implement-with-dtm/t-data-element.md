@@ -1,13 +1,13 @@
 ---
 description: 在动态标签管理中创建数据元素。
-keywords: 动态标签管理；data元素；创建新数据元素；name；类型；默认值；force lowercase value；记住此值
+keywords: 动态标签管理；数据元素；创建新数据元素；名称；类型；默认值；强制小写值；记住
 seo-description: 在动态标签管理中创建数据元素。
 seo-title: 创建数据元素
-solution: Marketing Cloud、Analytics、Target、动态标签管理
+solution: Experience Cloud，分析，目标，动态标签管理
 title: 创建数据元素
-uuid: eacd5c60-6197-4129-a9 e9-a39 e9 a58 b38 a
+uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
