@@ -1,7 +1,7 @@
 ---
 description: 在AppMeasurement.js中设置的配置变量。
 keywords: Analytics 实施
-seo-description: 在AppMeasurement.js for Adobe Analytics中设置的配置变量
+seo-description: Configuration variables set in AppMeasurement.js for Adobe Analytics
 seo-title: 配置变量
 solution: Analytics
 subtopic: 变量
@@ -9,7 +9,7 @@ title: 配置变量
 topic: 开发人员和实施
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: edc1ecb471aadb9399664c0985a3aa3ecde328bf
+source-git-commit: 755909e0d3c3be60f911fe80acad7baaff248c13
 
 ---
 
@@ -30,68 +30,8 @@ Not all of these variables appear in the code by default when you generate code 
 
 >[!NOTE]
 >
->[!DNL AppMeasurement] 要求在对跟踪函数的初始调用之前设置所有配置变量 `t()`。 如果在调用后设置了配置变量，则可 `t()`能会出现意外结果。 To ensure proper data collection, all configuration variables must be above the `doPlugins` function.
+>[!DNL AppMeasurement] requires that all configuration variables are set before the initial call to the track function, `t()`. If configuration variables are set after the call to `t()`, unexpected results may occur. To ensure proper data collection, all configuration variables must be above the `doPlugins` function.
 
-## s.account {#concept_685A5C832A6C40619ACB5920925785DC}
-
- 变量可确定存储和报告数据的报表包。
-
-If sending to multiple report suites (multi-suite tagging), `s.account` may be a comma-separated list of values. 报表包 ID 由 Adobe 来确定。
-
-**参数**
-
-| 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
-|--- |--- |--- |--- |
-| 40 字节 | 在 URL 路径中 | 不适用 | 不适用 |
-
-Each report suite ID must match the value created in the [!DNL Admin Console]. 每个报表包 ID 不得大于 40 字节，但所有报表包（整个逗号分隔的列表）的总大小没有任何限制。
-
-在报表中，报表包是区段的最基础级别。您可以设置任意数量的报表包，只要不超过合同允许的最大数量即可。每个报表包都指向 Adobe 收集服务器中填充的一套专用表格。报表包由 JavaScript 代码中的`s_account`变量标识。
-
-在 [!DNL Analytics] 网站中，位于报表左上方的下拉框显示当前的报表包。每个报表包都有一个称为报表包 ID 的唯一标识符。此`s_account`变量包含一或多个接收数据的报表包 ID。[!DNL Analytics] 用户无法查看报表包 ID 的值，且必须由 Adobe 提供或批准后才能使用。Every report suite ID has an associated "friendly name" that can be changed in the report suites section of the [!DNL Admin Console].
-
-The `s_account` variable is normally declared inside the JavaScript file (s_code.js). 您可以在HTML `s_account` 页面上声明变量，这是在页面值可能不同页面时 `s_account` 的常见做法。 Because the `s_account` variable has a global scope, it should be declared immediately before including Adobe's JavaScript file. If `s_account` does not have a value when the JavaScript file is loaded, no data is sent to [!DNL Analytics].
-
-Adobe's [!DNL DigitalPulse Debugger] displays the value of `s_account` in the path of the URL that appears just below the word "Image," just after /b/ss/. 在某些情况下，的值 `s_account` 也会显示在域中112.2o7.net之前。 路径中的值是唯一确定目标报表包的值。下面的粗体文本显示接收发送数据的报表包，它也会在调试程序中显示。请参阅 [DigitalPulse Debugger](../../../implement/impl-testing/debugger.md#concept_B26FFE005EDD4E0FACB3117AE3E95AA2).
-
-```js
-https://mycompany.112.207.net/b/ss/ 
-<b>mycompanycom,mycompanysection</b>/1/H.1-pdv-2/s21553246810948?[AQB]
-```
-
-**语法和可能值** {#section_3BE913DF26D848AEB4CB5B0A6CE7F0CA}
-
-报表包 ID 是 ASCII 字符的字母数字字符串，长度不超过 40 个字节。唯一允许使用的非字母数字字符是连字符。不得使用空格、点号、逗号和其他标点符号。此`s_account`变量可能包含多个报表包，所有报表包都从该页面接收数据。
-
-```js
-var s_account="reportsuitecom[,reportsuite2[,reportsuite3]]"
-```
-
-Adobe必须提 `s_account` 供或批准所有值。
-
-**示例** {#section_16580A9101B64560A58C7745397FB42F}
-
-```js
-var s_account="mycompanycom"
-```
-
-```js
-var s_account="mycompanycom,mycompanysection"
-```
-
-**在 Analytics** 中配置变量 {#section_7DFB2CCF02F045AFB1AD4F376638393B}
-
-Adobe [!DNL Customer Care] 可能会更改与各个报表包 ID 关联的易记名称。在 [!DNL Analytics] 网站屏幕左上方的下拉框中可看到易记名称。
-
-**缺陷、问题和提示** {#section_BFFDA5C0AF31442494B0E02F0925CF93}
-
-* If `s_account` is empty, not declared, or contains an unexpected value, no data is collected.
-* When the `s_account` variable is a comma-separated list (multi-suite tagging), do not put spaces between report suite IDs.
-* If [!UICONTROL s.dynamicAccountSelection] is set to *True* the URL is used to determine the destination report suite. 使用 [!DNL DigitalPulse Debugger] 确定目标报表包。
-
-* 在有些情况下，可以使用 [!DNL VISTA] 更改目标报表包。在使用第一方 Cookie 或您的网站有超过 20 个活动报表包时，建议使用 [!DNL VISTA] 把数据重新路由或复制到另一报表包。
-
-* Always declare `s_account` inside the JS file or just before it is included.
 
 ## s.dynamicAccountSelection {#concept_FAD499DB357148DB8BD74F08093D3E35}
 
@@ -133,7 +73,7 @@ s.dynamicAccountSelection=false
 
 **缺陷、问题和提示** {#section_62F0B0895BC84A05840AEEED0643DE60}
 
-* AppMeasurement for javaScript不支持动态帐 [户选择](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8)。
+* Dynamic account selection is not supported by AppMeasurement for JavaScript.[](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8)
 * 通常使用 [!DNL DigitalPulse Debugger] 来确定将由哪个报表包从各页面接收数据。
 
 ## s.dynamicAccountList {#concept_19715BA0AD4D41748E0C4A4A6B71AB51}
@@ -144,11 +84,11 @@ s.dynamicAccountSelection=false
 |---|---|---|---|
 | 不适用 | 不适用 | 不适用 | "" |
 
-此变量与 和 *`dynamicAccountSelection`* 变 *`dynamicAccountMatch`* 量。 如果将 *`dynamicAccountList`* 中的规 *`dynamicAccountSelection`* 则设置为“true”，则将应用这些规则，并且这些规则适用于中指定的URL部分 *`dynamicAccountMatch`*。
+此变量与  and  variables. *`dynamicAccountSelection`**`dynamicAccountMatch`* The rules in  are applied if  is set to 'true,' and they apply to the section of the URL specified in .*`dynamicAccountList`**`dynamicAccountSelection`**`dynamicAccountMatch`*
 
-如果中的任何规 *`dynamicAccountList`* 则都与页面的URL不匹配，则使用中标识的报 `s_account` 表包。 此变量中列出的规则按从左到右的顺序应用。如果页面 URL 与多个规则匹配，则使用最左侧的规则确定报表包。因此，应将较通用的规则移动到列表的右侧。
+If none of the rules in  matches the URL of the page, the report suite identified in  is used. *`dynamicAccountList`*`s_account`此变量中列出的规则按从左到右的顺序应用。如果页面 URL 与多个规则匹配，则使用最左侧的规则确定报表包。因此，应将较通用的规则移动到列表的右侧。
 
-在以下示例中，页面URL已 `www.mycompany.com/path1/?prod_id=12345` 设 `dynamicAccountSelection` 置为 *true* , `s_account` 并且设置为 `mysuitecom.`
+In the following examples, the page URL is  and  is set to true and  is set to `www.mycompany.com/path1/?prod_id=12345``dynamicAccountSelection`**`s_account``mysuitecom.`
 
 | DynamicAccountList 值 | DynamicAccountMatch 值 | 接收数据的报表包 |
 |---|---|---|
@@ -187,22 +127,22 @@ s.dynamicAccountList="ms1,ms2=site1.com;ms1,ms3=site3.com"
 
 **缺陷、问题和提示** {#section_3E10534FCC05457AB67147BB480C8BB3}
 
-* AppMeasurement for javaScript不支持动态帐 [户选择](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8)。
+* Dynamic account selection is not supported by [AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8).
 * 如果页面 URL 与多个规则匹配，则使用最左侧的规则。
 * 如果没有匹配的规则，则使用默认报表包。
 * 如果页面被保存到某个人的硬盘，或通过基于 Web 的翻译引擎（如 Google 的翻译页面）进行了翻译，动态帐户选择可能无效。要进行更精确的跟踪，请在服务器端填充`s_account`变量。
 * The `dynamicAccountSelection` rules apply only to the section of the URL specified in `dynamicAccountMatch`.
 
-* 使用动态帐户选择时，请确保每次获 *`dynamicAccountList`* 取新域时都进行更新。
+* When using dynamic account selection, be sure to update  every time you obtain a new domain.*`dynamicAccountList`*
 * 在尝试确定目标报表包时，请使用 [!DNL DigitalPulse Debugger]。The `dynamicAccountSelection` variable always overrides the value of `s_account`.
 
 ## s.dynamicAccountMatch {#concept_718171E602214CCC9905C749708BBE52}
 
  变量使用 DOM 对象检索 中所有规则都适用的 URL 的区域。
 
-This variable is only valid when *`dynamicAccountSelection`* is set to 'True.' 由于默认值为 [!DNL window.location.host]，因此[!UICONTROL 动态帐户选择]不需要此变量也可使用。有关其他信息，请参 [阅dynamicAccountList](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_19715BA0AD4D41748E0C4A4A6B71AB51)。
+This variable is only valid when *`dynamicAccountSelection`* is set to 'True.' 由于默认值为 [!DNL window.location.host]，因此[!UICONTROL 动态帐户选择]不需要此变量也可使用。For additional information, see dynamicAccountList.[](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_19715BA0AD4D41748E0C4A4A6B71AB51)
 
-中找到的规 `dynamicAccountList` 则将应用于的值 `dynamicAccountMatch`。 如 `dynamicAccountMatch` 果仅包 [!DNL window.location.host] 含（默认），则中的规则 `dynamicAccountList` 仅适用于页面的域。
+The rules found in  are applied to the value of . `dynamicAccountList``dynamicAccountMatch`如 `dynamicAccountMatch` 果仅包 [!DNL window.location.host] 含（默认），则中的规则 `dynamicAccountList` 仅适用于页面的域。
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |---|---|---|---|
@@ -416,7 +356,7 @@ If *`cookieDomainPeriods`* is set to "2" but the domain contains three periods, 
 
 >[!NOTE]
 >
->某些云计算服务被视为顶级域，不允许写入Cookie。 (For example, `compute.amazonaws.com`, `*.herokuapp.com`, `*.googlecode.com`, and so on.) 如果您在这些服务上进行实施，则可能会受到 Analytics 隐私设置的影响，因为如果您还没有设置自己的域（例如，如果您正在测试您的实施），那么该设置会删除已阻止所有 Cookie 的用户。在这种情况下，如果系统已确定其 Cookie 已禁用，则不可用或不可访问的点击会被禁止，因此会从报表中排除。
+>Some cloud computing services are considered Top-Level Domains, which do not allow cookies to be written. (For example, `compute.amazonaws.com`, `*.herokuapp.com`, `*.googlecode.com`, and so on.) 如果您在这些服务上进行实施，则可能会受到 Analytics 隐私设置的影响，因为如果您还没有设置自己的域（例如，如果您正在测试您的实施），那么该设置会删除已阻止所有 Cookie 的用户。在这种情况下，如果系统已确定其 Cookie 已禁用，则不可用或不可访问的点击会被禁止，因此会从报表中排除。
 
 **示例** {#section_4218BE29FA5E49F58975A2094329B268}
 
@@ -640,7 +580,7 @@ s.trackDownloadLinks=false
 
 ## s.trackExternalLinks {#concept_E1321318696841648A54CF77F6C4A7AF}
 
-如果为“true”，则用于确定单击的任何链接是否为退出链接。
+If  is 'true,'  and  are used to determine whether any link clicked is an exit link.
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |---|---|---|---|
@@ -721,7 +661,7 @@ s.trackInlineStats=false
 |--- |--- |--- |--- |
 | 不适用 | 不适用 | “流量”&gt;“网站流量”&gt;“文件下载” | "exe,zip,wav,mp3,mov,mpg,avi,wmv,doc,pdf,xls" |
 
-The 变 *`linkDownloadFileTypes`* 量仅在设置为“ *`trackDownloadLinks`* True”时才相关。
+The  variable is only relevant when  is set to 'True.'*`linkDownloadFileTypes`**`trackDownloadLinks`*
 
 只有在链接上单击鼠标左键才会计入[!UICONTROL 文件下载]报表。在页面加载时自动启动的所有文件下载，或仅在重定向后启动的下载，不会计入[!UICONTROL 文件下载]报表。当您右键单击某文件并选择“将目标另存为...”选项时，不会将它计入[!UICONTROL 文件下载]报表。
 
@@ -776,7 +716,7 @@ The *`linkInternalFilters`* variable is used to determine whether a link is an e
 
 中的过滤器列表默 *`linkInternalFilters`* 认应用于任何链接的域和路径。 If *`linkLeaveQueryString`* is set to `"true"`, then the filters apply to the entire URL (domain, path, and query string). 过滤器通常应用于 URL 的绝对路径，即使将相对路径用作 href 值也不例外。
 
-请小心确认您网站的所有域名（以及使用您的 JavaScript 文件的任何合作伙伴）都包含在 *`linkInternalFilters`*。如果列表中未包含所有的域名，则未包含的域名的所有相关链接都将被视为退出链接，这会增加所发送的服务器调用次数。如果希望多个域或公司对JavaScript文件使用一个 [!DNL AppMeasurement] ，您可以考虑在页面上填充 *`linkInternalFilters`* ，覆盖JavaScript文件中指定的值。 如果您有立刻重定向到主域的虚域，则无需将这些虚域加入此列表。
+请小心确认您网站的所有域名（以及使用您的 JavaScript 文件的任何合作伙伴）都包含在 *`linkInternalFilters`*。如果列表中未包含所有的域名，则未包含的域名的所有相关链接都将被视为退出链接，这会增加所发送的服务器调用次数。If you would like multiple domains or companies to use a single  for JavaScript file, you may consider populating  on the page, overriding the value specified in the JavaScript file. [!DNL AppMeasurement]*`linkInternalFilters`*&#x200B;如果您有立刻重定向到主域的虚域，则无需将这些虚域加入此列表。
 
 以下示例说明此变量的使用方法。In this example, the URL of the page is `https://www.mysite.com/index.html`.
 
@@ -841,7 +781,7 @@ The *`linkLeaveQueryString`*&#x200B;变量确定[!UICONTROL 退出链接]和[!UI
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |--- |--- |--- |--- |
-| 不适用 | 不适用 | 退出链接文件下载 | false |
+| 不适用 | 不适用 | Exit Links File Downloads | false |
 
 >[!NOTE]
 >
@@ -882,15 +822,15 @@ s.linkLeaveQueryString=true
 
  变量是随自定义、退出和下载链接一起发送的、以逗号隔开的变量列表。
 
-If *`linkTrackVars`* is set to "", all variables that have values are sent with link data. 为避免与其他变量关联的实例或页面查看次数增加，Adobe建议 *`linkTrackVars`* 在用于链 *`linkTrackEvents`* 接跟踪的链 [!UICONTROL 接的onClick] 事件中填充这些变量。
+If *`linkTrackVars`* is set to "", all variables that have values are sent with link data. To avoid inflation of instances or page views associated with other variables, Adobe recommends populating  and  in the onClick event of a link that is used for link tracking.*`linkTrackVars`**`linkTrackEvents`*
 
-所有应随链接数据（自定义、退出和下载链接）一起发送的变量都应在 *`linkTrackVars`*. 如果 *`linkTrackEvents`* 使用， *`linkTrackVars`* 应包含“events”。
+所有应随链接数据（自定义、退出和下载链接）一起发送的变量都应在 *`linkTrackVars`*. If  is used,  should contain "events."*`linkTrackEvents`**`linkTrackVars`*
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |---|---|---|---|
 | 不适用 | 不适用 | 任何 | "无" |
 
-在填充 *`linkTrackVars`*, do not use the 's.' prefix for variables. 例如，您应该用“ *`linkTrackVars`* prop1”填充它，而不是使用“s.prop1”填充。 以下示例说明了 *`linkTrackVars`* 如何使用。
+在填充 *`linkTrackVars`*, do not use the 's.' prefix for variables. For example, instead of populating  with "s.prop1," you should populate it with "prop1." *`linkTrackVars`* The following example illustrates how  should be used.*`linkTrackVars`*
 
 ```js
 s.linkTrackVars="eVar1,events" 
@@ -913,7 +853,7 @@ The *`linkTrackVars`* variable is a case-sensitive, comma-separated list of vari
 s.linkTrackVars="variable_name[,variable_name[...]]"
 ```
 
-The 变 *`linkTrackVars`* 量只能包含发送到的变 [!DNL Analytics]量，即： *`events`*、 *`campaign`*、 *`purchaseID`*、 *`products`* eVar1-75 [!UICONTROL 、]prop1-75、prop [!UICONTROL -75、prop-5、]*`channel`**`server`**`state`**`zip`**`pageType`*-5、Chrop、Chrop、Chrop、Chrop、Chrop、Chrop、Chrop、Chrop、C。
+The  variable may contain only variables that are sent to , namely: , , , , eVar1-75, prop1-75, hier1-5, , , , , and .*`linkTrackVars`*[!DNL Analytics]*`events`**`campaign`**`purchaseID`**`products`**`channel`**`server`**`state`**`zip`**`pageType`*
 
 **示例** {#section_546BAAC7373A41BF8583B280EAAB607C}
 
@@ -933,7 +873,7 @@ s.linkTrackVars="products"
 
 * If *`linkTrackVars`* is blank, all variables that have values are tracked with all server calls.
 * Any variable listed in *`linkTrackVars`* that has a value at the time of any download, exit, or custom link, are tracked.
-* 如果 *`linkTrackEvents`* 使用， *`linkTrackVars`* 则必须包含“events”。
+* If  is used,  must contain "events."*`linkTrackEvents`**`linkTrackVars`*
 
 * 请勿使用“s.”或“s_objectname.”作为变量的前缀。
 
@@ -953,9 +893,9 @@ s.t() // both event1 and event2 are recorded
 
 在指向 [!DNL help.php] 的第一个链接中，注意事件变量保留了在点击链接前设置的值，这样可允许 event1 随自定义链接一起发送。在第二个示例，即指向 [!DNL test.php] 的链接中，没有记录 event2，因为它未在 *`linkTrackEvents`*.
 
-为避免混淆和潜在问题，Adobe建议 *`linkTrackVars`* 在用于链 *`linkTrackEvents`* 接跟踪的链 [!UICONTROL 接的onClick事件中填充] 。
+To avoid confusion and potential problems, Adobe recommends populating  and  in the onClick event of a link that is used for link tracking.*`linkTrackVars`**`linkTrackEvents`*
 
-The *`linkTrackEvents`* variable contains the events that should be sent with [!UICONTROL custom], [!UICONTROL download], and [!UICONTROL exit] links. 此变量仅在包含“ *`linkTrackVars`* events”时才被考虑。
+The *`linkTrackEvents`* variable contains the events that should be sent with [!UICONTROL custom], [!UICONTROL download], and [!UICONTROL exit] links. This variable is only considered if  contains "events."*`linkTrackVars`*
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |---|---|---|---|
@@ -987,7 +927,7 @@ s.linkTrackEvents="scAdd,scCheckout,purchase,event14"
 
 **缺陷、问题和提示** {#section_DBB68BECC9D44380816113DB2566C38C}
 
-* JavaScript文件仅在包含 *`linkTrackEvents`* “ *`linkTrackVars`* events”变量时使用。 仅当定义“事件”时，才 *`linkTrackVars`* 应将“事 *`linkTrackEvents`* 件”包含在中。
+* The JavaScript file only uses  if  contains the "events" variable. *`linkTrackEvents`**`linkTrackVars`*"events" should be included in  only when  is defined.*`linkTrackVars`**`linkTrackEvents`*
 
 * 请注意是否有事件在页面上触发，并在 *`linkTrackEvents`*. That event is recorded again with any [!UICONTROL exit], [!UICONTROL download], or [!UICONTROL custom] links unless the events variable is reset prior to that event (in the [!UICONTROL onClick] of a link or after the call to the *`t()`* function).
 
@@ -1001,7 +941,7 @@ s.linkTrackEvents="scAdd,scCheckout,purchase,event14"
 |---|---|---|---|
 | 不适用 | 不适用 | “路径”&gt;“登录和退出”&gt;“退出链接” | "" |
 
-The 变 *`linkExternalFilters`* 量是与一起使用的可选变量，用 *`linkInternalFilters`* 于确定链接是否为退出链接。 退出链接定义为将访客带离您网站的任何链接。无论退出链接的目标窗口是弹出窗口还是现有窗口，都不会影响该链接在退出链接报表中的显示。仅在 *`trackExternalLinks`* is set to 'true.' 和中的过滤 *`linkExternalFilters`* 器不 *`linkInternalFilters`* 区分大小写。
+The  variable is an optional variable used in conjunction with  to determine whether a link is an exit link. *`linkExternalFilters`**`linkInternalFilters`*&#x200B;退出链接定义为将访客带离您网站的任何链接。无论退出链接的目标窗口是弹出窗口还是现有窗口，都不会影响该链接在退出链接报表中的显示。仅在 *`trackExternalLinks`* is set to 'true.' The filters in  and  are case insensitive.*`linkExternalFilters`**`linkInternalFilters`*
 
 >[!NOTE]
 >
