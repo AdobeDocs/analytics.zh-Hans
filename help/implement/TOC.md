@@ -4,7 +4,7 @@ audience: 最终用户
 user-guide-title: Analytics 实施指南
 user-guide-url: /content/help/zh-Hans/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 755909e0d3c3be60f911fe80acad7baaff248c13
 
 ---
 
@@ -116,7 +116,9 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
       + [对移动协议的自定义链接测量](js-implementation/c-additional-libraries/mobile-link-tracking.md)
    + 适用于 Analytics 实施和报告的变量 {#variables-analytics-reporting}
       + [变量概述](js-implementation/c-variables/sc-variables.md)
-      + [配置变量](js-implementation/c-variables/configuration-variables.md)
+      + [配置变量列表](js-implementation/c-variables/configuration-variables.md)
+      + 配置变量 {#config-var}
+         + [s.account](js-implementation/c-variables/config-vars/s-account.md)
       + [上下文数据变量](js-implementation/c-variables/context-data-variables.md)
       + [动态变量](js-implementation/c-variables/dynvars-overview.md)
       + [页面变量](js-implementation/c-variables/page-variables.md)
