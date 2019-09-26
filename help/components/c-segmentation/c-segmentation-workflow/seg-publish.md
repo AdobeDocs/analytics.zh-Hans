@@ -1,13 +1,13 @@
 ---
-description: Lets you use the segment for marketing activity in the Audience Library, Target, and Audience Manager.
-seo-description: Lets you use the segment for marketing activity in the Audience Library, Target, and Audience Manager.
+description: 允许您将区段用于受众库、Target和Audience manager中的营销活动。
+seo-description: 允许您将区段用于受众库、Target和Audience manager中的营销活动。
 seo-title: 将区段发布到 Experience Cloud
 solution: Analytics
 title: 将区段发布到 Experience Cloud
 topic: 区段
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: bac0b1ae330753cfc537817e8da1ea70fbaaf0d5
+source-git-commit: 831ae375a90f021feddc6817a2602464be0d8414
 
 ---
 
@@ -16,25 +16,25 @@ source-git-commit: bac0b1ae330753cfc537817e8da1ea70fbaaf0d5
 
 >[!IMPORTANT]
 >
->尚未针对所有客户推出本页中介绍的有关细分发布和用户界面的延迟改进。 The current production environment is described [here](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html).
+>The latency improvements regarding segment publishing and the user interface that are described on this page are not rolled out to all customers yet. The current production environment is described here.[](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)
 
-Publishing a segment to the Experience Cloud lets you use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], [!DNL Audience Manager], and [!DNL Advertising Cloud]. Recent updates have significantly optimized the publishing workflow. 以前，发布可用区段大约需要48小时。
+Publishing a segment to the Experience Cloud lets you use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], [!DNL Audience Manager], and [!DNL Advertising Cloud]. Recent updates have significantly optimized the publishing workflow. Previously, publishing a usable segment took approximately 48 hours.
 
-现在，处理最多可能需要8小时，但根据其他流量和区段大小，处理速度可能会更快。 （但是，我们目前无法通知您区段何时可用，因此您必须手动检查。）我们还将可发布区段的最大数量从20个增加到75个。 您可以在组件&gt;区段中查看已发布的区段。
+Now, processing can take up to 8 hours, but depending on other traffic and on the segment size, processing may be even faster. (However, we currently do not have a way to inform you when the segment is available, so you will have to check manually.) We have also increased the maximum number of publishable segments to 75 (from 20). You can view published segments in Components &gt; Segments.
 
 
 ## 先决条件
 
-* Ensure that the report suite that you are saving this segment to is [enabled for the Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html). 否则，您无法将其发布到Experience Cloud。
-* 确保您使用的报表包已映射 [到您的Experience cloud组织](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html)。
-* 确保您的组织正在使用Experience Cloud ID。
-* 在您发布区段之前，您的管理员需要先在 [!UICONTROL Admin Console中将“区段发布][](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)”权限分配给产品配置，然后再将您添加到产品配置。
+* Ensure that the report suite that you are saving this segment to is [enabled for the Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html). Otherwise you cannot publish it to the Experience Cloud.
+* Make sure you are working in a report suite that is mapped to your Experience Cloud organization.[](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html)
+* Ensure that your organization is using Experience Cloud IDs.
+* Before you can publish segments, your Admin needs to assign the Segment Publishing permission to a product profile in the Admin Console, and add you to the product profile.[](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)
 
 
 ## 注意事项
 
-* **报表包限制**:每个报表包最多可发布75个区段。 此限制是强制执行的。 如果已发布75个区段，则只有在取消发布足够的区段以低于75个区段阈值时，才能发布任何其他区段。
-* **会员资格限制**:从Analytics共享给 [!DNL Experience Cloud] 的受众不能超过2000万个唯一成员。
+* **Report Suite limits**: You can publish up to 75 segments per report suite. 此限制是强制执行的。 如果已发布75个区段，则只有在取消发布足够的区段以低于75个区段阈值时，才能发布任何其他区段。
+* **Membership limits**: Audiences shared to the [!DNL Experience Cloud] from Analytics cannot exceed 20 million unique members.
 * **数据隐私**:不会根据访客的身份验证状态过滤受众。 如果访客可在未验证或已验证的状态下浏览您的站点，则访客在处于未验证状态时执行的操作仍会导致访客被包含在受众中。查 [看Adobe Experience cloud隐私](https://www.adobe.com/privacy/experience-cloud.html) ，了解受众共享对隐私的全面影响。
 * 有关中和中区 **段之间差异的[!DNL Adobe Analytics]讨[!DNL Audience Manager]**&#x200B;论，请 [访问](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)。
 
@@ -52,17 +52,20 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 1. 在“区段生成器”中 [!UICONTROL 创建区段]。
 1. 为区段提供标题和说明——否则您将无法保存它。
 1. Check **[!UICONTROL Publish this segment to the Experience Cloud (for *report suite*)]**.
-1. Make sure you use "Visitors with Experience Cloud ID" when looking at segment previews in Analytics instead of the total “unique visitors” segment preview when comparing Adobe Analytics numbers to Audience Manager numbers.
 
 ![](assets/publish-ec.png)
 
+>[!IMPORTANT]
+>
+>在Analytics中查看区段预览时，请确保使用“具有Experience Cloud ID的访客”，而不是在将Adobe Analytics数字与Audience manager数字进行比较时使用总的“唯一访客”区段预览。
+
 | 元素 | 描述 |
 |---|---|
-| **[!UICONTROL 将此区段发布到Experience Cloud(*<report suite>*)]** | When this option is enabled, the segment title and definition (i.e. the shell audience as often used in ad platforms) are shared with the Experience Cloud instantaneously, while the segment membership is evaluated and shared every 4 hours. <br> 例如，当该受众与某个活动关 [!DNL Target]联时，开始为符合该Experience cloud资格的 [!DNL Analytics] 访客和受众发送ID [!DNL Target] 。 At that point, the audience name and corresponding data begins displaying on the Experience Cloud Audiences page. </br> |
-| **[!UICONTROL 受众创建窗口]** | The time frame you select is used to create the audience on a rolling-calendar basis. For example, “Last 30 days” (default) includes visitors that have qualified for the audience over the last 30 days from today's date (NOT from the original date when the segment was created.) |
-| **[!UICONTROL 在受众库中创建]** | The segments that you create and publish can be made available without latency in the Experience Cloud Audience Library. They are not dependent on Analytics updates. These segments do not count against your limit of 75 published segments. |
-| **[!UICONTROL x of 75 Published]** | Shows the number of segments you have published to the Experience Cloud. 单击该链接可查看已发布区段及其关联的报表包和所有者的列表。 |
-| **[!UICONTROL 保存]** | Saves this segment. |
+| **[!UICONTROL Publish this segment to the Experience Cloud (for *<report suite>*)]** | 启用此选项后，区段标题和定义（即广告平台中经常使用的Shell受众）会即时与Experience cloud共享，而区段成员资格则每4小时评估一次并共享一次。 <br> 例如，当该受众与某个活动关 [!DNL Target]联时，开始为符合该Experience cloud资格的 [!DNL Analytics] 访客和受众发送ID [!DNL Target] 。 At that point, the audience name and corresponding data begins displaying on the Experience Cloud Audiences page. </br> |
+| **[!UICONTROL 受众创建窗口]** | 您选择的时间范围用于创建滚动日历的受众。 例如，“最近30天”（默认）包括从今天起的最近30天（而非从创建区段的原始日期起）内符合受众资格的访客。 |
+| **[!UICONTROL 在受众库中创建]** | 您创建和发布的区段可在Experience Cloud受众库中提供，且无延迟。 它们不依赖于Analytics更新。 这些区段不计入您对75个已发布区段的限制。 |
+| **[!UICONTROL 第x页（共75页）已发布]** | 显示您已发布到Experience cloud的区段数。 单击该链接可查看已发布区段及其关联的报表包和所有者的列表。 |
+| **[!UICONTROL 保存]** | 保存此区段。 |
 
 ## Unpublish or delete segments
 
@@ -79,27 +82,28 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 
 ![](assets/publish-status.png)
 
-## 检索 [!DNL Audience Manager] UUID
+## Retrieve the  UUID[!DNL Audience Manager]
 
-有两种方法可捕获当前与浏览器关联的AAM UUID:
+There are two ways to capture the AAM UUID currently associated with the browser:
 
 * Adobe Experience Cloud 调试器
-* 浏览器中的本机开发人员工具（例如Chrome开发人员工具）
+* Native developer tool in browsers (e.g., Chrome Developer Tools)
 
-以下屏幕截图显示如何在浏览器上检索AAM UUID，并在Audience Manager访客资料查看器中使用它来验证特征和区段成员资格。
+The following screenshots show you how to retrieve the AAM UUID on your browser and use it in Audience Manager Visitor Profile Viewer to validate trait &amp; segment membership.
 
-**方法1:使用Adobe Experience Cloud Debugger**
+**Method 1: Use Adobe Experience CLoud Debugger**
 
-1. 在Chrome Web Store中下 [载和安装Adobe Experience Cloud](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html) Debugger。
-1. 在加载页面时启动调试器。
-1. 滚动到Audience Manager部分，在当前浏览器页面（在以下示例中）上查找`50814298273775797762943354787774730612` AAM UUID集
+1. Download and install Adobe Experience Cloud Debugger in the Chrome Web Store.[](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html)
+1. Launch the debugger when loading a page.
+1. Scroll to the Audience Manager section and find the AAM UUID set on the current browser page
+( in the example below)`50814298273775797762943354787774730612`
 
 ![](assets/debugger.jpg)
 
-**方法2:使用Chrome开发人员工具（或其他浏览器开发人员工具）**
+**Method 2: Use Chrome Developer Tools (or other browser developer tools)**
 
 1. 在加载页面之前启动Chrome开发人员工具
-1. 加载页面并选中“应用程序”&gt;“Cookie”。 AAM UUID应在第三方Demdex cookie(以下示例中的[adobe.demdex.net](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html) )中设置。 字段demdex是浏览器中的AAM UUID选项(`50814298273775797762943354787774730612` 在以下示例中)。
+1. Load the page and check Applications &gt; Cookies. AAM UUID应在第三方Demdex cookie(以下示例中的[adobe.demdex.net](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html) )中设置。 字段demdex是浏览器中的AAM UUID选项(`50814298273775797762943354787774730612` 在以下示例中)。
 
 ![Chrome 开发人员工具](assets/ggogle-uuid.png)
 
@@ -115,14 +119,14 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 
 1. 在中， [!DNL Audience Manager]转到“受 [!UICONTROL 众数据”&gt;“特征”&gt;“分析特征”]。 您将看到每个Analytics报表包的一个文件夹，该文件夹已映射到您的Experience cloud组织。 在启动或配置Profiles和Audiences/People核心服务时，将创建这些文件夹（针对特征、区段和数据源）。
 1. 选择您之前在其中创建了要共享的区段的报表包的文件夹 [!DNL Audience Manager]。 您将看到您创建的区段／受众。 当您共享区段时，会发生以下两种情况 [!DNL Audience Manager]:
-* A trait gets created, first with no data in it. 约 在区段发布8小时后，ECID [!DNL Analytics]列表即会载入并与其他Experience cloud解决方 [!DNL Audience Manager] 案共享。
+* 将创建一个特征，首先没有数据。 约 在区段发布8小时后，ECID [!DNL Analytics]列表即会载入并与其他Experience cloud解决方 [!DNL Audience Manager] 案共享。
 
 ![](assets/aam-traits.png)
 
 * 创建单特征段。 它使用与您发布区段的报表包关联的数据源。
 
-## View the segment in [!DNL Adobe Target]
+## 在 [!DNL Adobe Target]
 
-The [!UICONTROL Publish this segment to the Experience Cloud] checkbox during the segment creation process in Adobe Analytics allows the segment to be available within the Adobe Target's custom audience library. 在 Analytics 或 Audience Manager 中创建的区段可用于 Target 中的活动。例如，你可以根据 Analytics 转化量度和 Analytics 中创建的受众区段，来创建营销活动。], click Audiences.
+The [!UICONTROL Publish this segment to the Experience Cloud] checkbox during the segment creation process in Adobe Analytics allows the segment to be available within the Adobe Target's custom audience library. 在 Analytics 或 Audience Manager 中创建的区段可用于 Target 中的活动。例如，你可以根据 Analytics 转化量度和 Analytics 中创建的受众区段，来创建营销活动。]，单击 [!UICONTROL 受众]。
 1. On the [!UICONTROL Audiences] page, locate the audience sourced from the [!DNL Experience Cloud]. These audiences are available for use in [!DNL Target] activities.
 
