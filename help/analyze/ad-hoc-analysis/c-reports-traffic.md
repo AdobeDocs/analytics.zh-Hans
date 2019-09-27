@@ -7,7 +7,7 @@ title: 流量源报表
 topic: Ad Hoc Analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -97,7 +97,7 @@ c_reports_referrers.xml
 
 域和 URL 如果不属于这些定义的对象则会被视为反向链接。例如，网页 A 和网页 B 都被添加到内部 URL 过滤器中，但是网页 C 没有。在这种情况下，网页 C 被视为反向链接。
 
-See [Internal URL Filters](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=internal_URL_filter_admin) in the [!DNL Admin Console] help for more information.
+See [Internal URL Filters](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter_admin.html) in the [!DNL Admin Console] help for more information.
 
 >[!NOTE]
 >
