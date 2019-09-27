@@ -4,10 +4,10 @@ seo-description: 显示哪些蜘蛛程序和机器人在给定的时间段内访
 seo-title: 机器人
 solution: Analytics
 title: 机器人
-topic: 报表
-uuid: 9909ce3b-41a4-4ce8-afe9-02cb46 f31 d64 d
+topic: 报告
+uuid: 9909ce3b-41a4-4ce8-afe9-02cb46f31d64
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -20,5 +20,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!MORE_LIKE_THIS]
 >
->* [机器人规则](https://marketing.adobe.com/resources/help/en_US/admin/index.html?f=c_bot_rules)
+>* [机器人规则](https://marketing.adobe.com/resources/help/en_US/admin/c_bot_rules.html)
 
