@@ -6,9 +6,9 @@ seo-title: 使用可选时间戳
 solution: Analytics
 title: 使用可选时间戳
 topic: 开发人员和实施
-uuid: 956aa16-6ffa-4b63-b022-a659 f5143 e00
+uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -52,7 +52,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 |--- |--- |
 | 无法将加盖时间戳的数据发送至未加盖时间戳的全局报表包。因此，发送自离线设备的点击数据将在添加到未加盖时间戳的报表包时被丢弃。<br/><br/>因此，发送自离线数据的点击数据将在添加到未加盖时间戳的报表包时被丢弃。 | 在更新应用程序以收集和使用时间戳时，要求您应用新的报表包。<br/>您在更新应用程序以使用时间戳时，无法保存到现有的报表包或集成现有的数据。 |
 
-**借助时间戳可选，**&#x200B;您可以将实时网站中的非时间戳数据与移动设备中的离线数据集成，或将您的非时间戳应用程序更新为具有时间戳的应用程序。 ![](assets/timestamp_v_non6.png)
+**使用可选时间戳**，您可以将来自实时网站的未加盖时间戳的数据与来自移动设备的脱机数据集成，或将未加盖时间戳的应用程序更新为加盖时间戳的应用程序。 ![](assets/timestamp_v_non6.png)
 
 ## 将数据整合到全局报表包中 {#section_5BE3BDF56007402BB1F5C3144D5FE1E0}
 
@@ -62,7 +62,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!IMPORTANT]
 >
->仔细规划每个组件数据集的设计，使组合在全局报表套件中有意义。
+>Carefully plan the design for each component data set so the combination makes sense in a global report suite.
 
 ## 应用时间戳时的最佳实践 {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
 
@@ -74,7 +74,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    ![](assets/timestamp_v_non8.png)
 
-* 不建议在设置 [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_custom) 时使用时间戳。这可能会导致数据顺序混乱。
+* 不建议在设置 [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) 时使用时间戳。这可能会导致数据顺序混乱。
 
 * 混合应用程序若包含可打开 Web 浏览器（未加盖时间戳的实时数据）的应用程序（加盖时间戳的离线数据），则不应使用时间戳。它会导致会话报告不准确。
 
