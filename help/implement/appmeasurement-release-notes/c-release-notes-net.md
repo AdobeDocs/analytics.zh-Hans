@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 发行说明
 title: Windows Silverlight、NET、IIS、XBOX
 topic: 开发人员和实施
-uuid: 15c20bca-4886-4d57-9957-fe99743851 ea
+uuid: 15c20bca-4886-4d57-9957-fe99743851ea
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -17,17 +17,17 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!IMPORTANT]
 >
->这些SDK已日落，Adobe不再支持或分发这些SDK。
+>这些SDK已失效，Adobe不再支持或分发。
 
 >[!NOTE]
 >
->要查找当前的库版本，请开启调试日志。
+>要查找当前库版本，请打开调试日志记录。
 
 ## 版本 1.4.2 {#section_2B70F52C4D214A43844CCEC6B45037F0}
 
 发行日期：**2014 年 8 月**
 
-* Removed support for the [!DNL Microsoft Silverlight Analytics Framework]. Adobe is no longer supporting or distributing the [!DNL Microsoft Silverlight Analytics Framework] integration for [!DNL AppMeasurement].
+* 删除了对的支持 [!DNL Microsoft Silverlight Analytics Framework]。 Adobe不再支持或分发集成 [!DNL Microsoft Silverlight Analytics Framework] 内容 [!DNL AppMeasurement]。
 
 * 执行了某些内部更改以支持即将推出的功能。
 
@@ -43,7 +43,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 * 为了支持 Adobe 数据收集服务器中扩展的“页面 URL”字段，已添加对发送大于 255 字节 URL 的支持。Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. 这有助于在浏览器截断的情况下防止长 URL 优先于其他数据，但仍然启用对长 URL 的捕获功能。
 
-* 添加了新的备用访客识别方法。请参阅[识别独特访客](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors)。
+* 添加了新的备用访客识别方法。请参阅[识别独特访客](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html)。
 * Added a new `abort` flag that can be set inside `doPlugins`. 将此标记设置为 true 会导致 [!DNL AppMeasurement] 库不继续进行跟踪呼叫。中止标记已通过每个跟踪呼叫进行重置，因此，如果还需要中止后续跟踪呼叫，则需要在 `doPlugins` 内重新设置标记。
 
    ```js
@@ -90,7 +90,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## 版本 1.3.4 {#section_43788EE6B57E4B2DBEED68BE6954D9CA}
 
-* [!DNL iOS] 电话平台的新支持和构建，包括离线跟踪。
+* New support and build for [!DNL iOS] Phone platform including offline tracking.
 * 支持 doRequest 委托以覆盖送出请求来跟踪数据的方式。
 * 支持推动服务器端处理规则的 contextData （仅限 v15）。
 * 支持简易服务器调用（目前为测试版）。
