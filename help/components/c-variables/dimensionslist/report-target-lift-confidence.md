@@ -4,9 +4,9 @@ seo-description: 允许您采用过去 Target Classic 中的相同方法，评�
 seo-title: Target 提升和置信度
 solution: Analytics
 title: Target 提升和置信度
-uuid: 00276cd2-2e0d-4a25ae8a-d9 f4 b30 dd8 ba
+uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -15,9 +15,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Lets you assess the success of campaigns in Adobe Analytics in the same way you have done in [!DNL Target Classic]  in the past.
 
-**[!UICONTROL “分析]** ”&gt;“ **[!UICONTROL 报告]** ”&gt;“ **[!UICONTROL 查看全部报告]** ”&gt;“ **[!UICONTROL Adobe Target]** ”&gt;“ **[!UICONTROL Analytics for Target]** ”&gt; **[!UICONTROL “Target活动]** ”。
+**[!UICONTROL 分析]** &gt;报 **[!UICONTROL 告]** &gt;查看所有报告 **[!UICONTROL &gt; Target]** &gt; Adobe Target ************ &gt; Target活动的分析&gt; Target Activities。
 
-Adobe Target 文档包含有关[提升](https://marketing.adobe.com/resources/help/en_US/target/target/?f=c_estimating_lift_in_revenue)和[置信度](https://marketing.adobe.com/resources/help/en_US/rec/?f=c_Confidence_Level_and_Confidence_Interval)的更多信息。
+Adobe Target 文档包含有关[提升](https://marketing.adobe.com/resources/help/en_US/target/target/c_estimating_lift_in_revenue.html)和[置信度](https://marketing.adobe.com/resources/help/en_US/rec/c_Confidence_Level_and_Confidence_Interval.html)的更多信息。
 
 计算提升和置信度：
 
