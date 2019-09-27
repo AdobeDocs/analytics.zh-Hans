@@ -8,7 +8,7 @@ title: Android
 topic: 开发人员和实施
 uuid: 32232d28-3459-4f78-bb00-ca3163c63461
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -19,13 +19,13 @@ Android 移动库的发行说明汇总。
 
 >[!NOTE]
 >
->要查找当前库版本，请打开调试日志记录。
+>To find the current library version, turn on debug logging.
 
 可在 [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) 和 [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-android-1) 上下载移动库。
 
 ## 版本 4.13.4 {#section_E4743079D8E64B9C890180A025C94B44}
 
-[!DNL Android] SDK版本4.13.4（2017年2月16日）包括以下更改：
+The [!DNL Android] SDK version 4.13.4 (Feb 16, 2017) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_C0197701CB9B45E596818AF0BE5AC4F2"> 
  <thead> 
@@ -52,7 +52,7 @@ Android 移动库的发行说明汇总。
 
 ## 版本 4.13.3 {#section_1C235192E9FB46E2A651017C1CF24A7F}
 
-[!DNL Android] SDK版本4.13.3（2017年1月19日）包括以下更改：
+The [!DNL Android] SDK version 4.13.3 (Jan 19, 2017) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_5E744C8C9D064E999EB5055A8E3A99C5"> 
  <thead> 
@@ -102,7 +102,7 @@ Android 移动库的发行说明汇总。
 
 ## 版本 4.13.1 {#section_647C43BA95A3485381AC2E8DEAA6D2E4}
 
-[!DNL Android] SDK版本4.13.1（2016年10月20日）包括以下更改：
+The [!DNL Android] SDK version 4.13.1 (Oct 20, 2016) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_1D1AFD90F8BB4F59869FD417ED9C45AB"> 
  <thead> 
@@ -374,7 +374,7 @@ Android 移动库的发行说明汇总。
 
 ## 版本 4.5 {#section_6E7614D4AEA24B7E81C4FC094882F062}
 
-[!DNL Android] SDK版本4.5包括以下更改：
+The [!DNL Android] SDK version 4.5 includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_BF98A1E904EB4314828AC58A2A6E7016"> 
  <thead> 
@@ -461,10 +461,10 @@ Android 移动库的发行说明汇总。
 * 新增——蓝牙信标跟踪。
 * 新增功能——启用时间戳的应用程序会将崩溃点击回溯到正确的会话。
 * 新增功能——启用时间戳的应用程序，在点击中发送上一个会话，该点击会回溯到正确的会话。 （不再为上一会话）。
-* 新增——点击批处理。
+* New - Hit batching.
 * 修复了Google Play Referrer跟踪，可配置超时以允许延迟的Google Referrer数据。
-* 解决了在特定情况下可能发生的StrictMode警告。
-* 解决了在以特定顺序调用某些方法时很少导致库锁定的问题。
+* Resolved StrictMode warnings that could occur in specific scenarios.
+* Resloved an issue that could very rarely cause the library to lock if certain methods were called in a specific order.
 
 ## 版本 4.0.4 {#section_DCFAC758872D42F0BF0CCFCDDEA05E41}
 
@@ -597,7 +597,7 @@ Android 移动库的发行说明汇总。
 
 发行日期：**2012 年 10 月**
 
-* 新增对 [Google Play 促销活动跟踪](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/index.html?f=referrer)的支持。
+* 新增对 [Google Play 促销活动跟踪](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/referrer.html)的支持。
 
 ## 版本 3.0.2 {#section_CB24859B34804F9391BA1BF8DF29CC86}
 
