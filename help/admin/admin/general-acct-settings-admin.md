@@ -5,9 +5,9 @@ seo-title: 一般帐户设置
 solution: Analytics
 title: 一般帐户设置
 topic: 管理工具
-uuid: c1ab5c34-2c41-4d12-a706-0e760 dff8 a95
+uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 对“管理员”中报表包“一般帐户设置”的字段描述。
 
-**[!UICONTROL “分析]** ”&gt;“ **[!UICONTROL 管理员]** ”&gt; **[!UICONTROL “报表包]** ”&gt; **[!UICONTROL “编辑设置]** ”&gt; **[!UICONTROL “常规]** ”&gt; **[!UICONTROL “一般帐户设置”]**
+**[!UICONTROL Analytics]** Admin **[!UICONTROL &gt; Report Suites]** &gt; Edit Settings **[!UICONTROL &gt; General Account(编辑设置]** )&gt; General Account(常规帐户设置 **********[!UICONTROL )&gt; General Account（常规帐户设置）]**
 
 这些设置包含基本报表包功能的编辑选项，例如名称和时区。
 
@@ -50,15 +50,15 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> 将 IP 地址的最后八位字节替换为 0 </span> </td> 
-   <td colname="col2"> <p>删除最后八位字节在 IP 过滤之前完成。这样，最后八位字节将被替换为 0，并且应当更新 IP 排除规则以匹配末尾为 0 的 IP 地址。匹配 * 应当匹配 0。 </p> <p>选中此选项表示在处理 IP 地址之前先对它进行更改。例如，IP 地址 134.123.567.780 更改为 134.123.567.0。地域划分数据不会像使用整个 IP 地址时那样精确。具体而言，城市准确性会受到国家或地区准确性的影响。机器人规则和 VISTA 规则均会受到影响，因为这些功能不能使用完整的 IP 地址。此外，基于 IP 的所有处理规则均受此设置影响，包括营销渠道规则和报表包处理规则。 </p> <p>注意：对于 2019 年 1 月之后在伦敦数据中心创建的所有新报表包，默认情况下都会启用此设置，但前提是这些报表包的设置复制自 Admin Console 中列出的模板。设置复制自其他报表包的报表包将继承选定报表包的所有设置。 </p></td> 
+   <td colname="col2"> <p>删除最后八位字节在 IP 过滤之前完成。这样，最后八位字节将被替换为 0，并且应当更新 IP 排除规则以匹配末尾为 0 的 IP 地址。匹配 * 应当匹配 0。 </p> <p>选中此选项表示在处理 IP 地址之前先对它进行更改。例如，IP 地址 134.123.567.780 更改为 134.123.567.0。地域划分数据不会像使用整个 IP 地址时那样精确。Specifically, city accuracy is going to be more affected than country or region accuracy. 机器人规则和 VISTA 规则均会受到影响，因为这些功能不能使用完整的 IP 地址。此外，基于 IP 的所有处理规则均受此设置影响，包括营销渠道规则和报表包处理规则。 </p> <p>注意：对于 2019 年 1 月之后在伦敦数据中心创建的所有新报表包，默认情况下都会启用此设置，但前提是这些报表包的设置复制自 Admin Console 中列出的模板。设置复制自其他报表包的报表包将继承选定报表包的所有设置。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> IP 模糊处理</span> </td> 
-   <td colname="col2"> <p>将 IP 地址转换为不可识别的字符串，实质上是将它们从 Adobe 数据存储库中删除。启用“IP 模糊处理”后，原始 IP 地址将永久丢失。 </p> <p>注意：IP 地址在 Analytics 中的所有地方均被模糊处理，包括 Data Warehouse。但是，Target 中的 IP 设置是单独控制的，因此该设置不对 Target 产生任何影响。 </p> <p>如果启用了 IP 模糊处理，则在 IP 地址被模糊处理之前会发生 IP 排除，这样客户就无需在启用 IP 模糊处理时更改任何内容。 </p> <p>选中<span class="uicontrol">禁用</span>会保留数据中的 IP 地址。 </p> <p>选中<span class="uicontrol">模糊处理 IP 地址</span>会将 IP 更改为哈希值（例如，234abc6493872038）。 </p> <p>选中<span class="uicontrol">删除 IP 地址</span>会在地理查找之后，将数据中的 IP 地址替换为 x.x.x.x。 </p> <p>注意：此设置可能需要更改自定义 <a href="../../admin/admin/bot-removal/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7" format="dita" scope="local"> 机器人规则</a> 或<a href="../../admin/admin/exclude-ip.md#concept_265A95A803F740629CAAAA7EB8BE81A4" format="dita" scope="local"> IP排除</a>。 </p> </td> 
+   <td colname="col2"> <p>将 IP 地址转换为不可识别的字符串，实质上是将它们从 Adobe 数据存储库中删除。启用“IP 模糊处理”后，原始 IP 地址将永久丢失。 </p> <p>注意：IP 地址在 Analytics 中的所有地方均被模糊处理，包括 Data Warehouse。但是，Target 中的 IP 设置是单独控制的，因此该设置不对 Target 产生任何影响。 </p> <p>如果启用了 IP 模糊处理，则在 IP 地址被模糊处理之前会发生 IP 排除，这样客户就无需在启用 IP 模糊处理时更改任何内容。 </p> <p>选中<span class="uicontrol">禁用</span>会保留数据中的 IP 地址。 </p> <p>选中<span class="uicontrol">模糊处理 IP 地址</span>会将 IP 更改为哈希值（例如，234abc6493872038）。 </p> <p>选中<span class="uicontrol">删除 IP 地址</span>会在地理查找之后，将数据中的 IP 地址替换为 x.x.x.x。 </p> <p>注意：此设置可能需要更改自定义机器人 <a href="../../admin/admin/bot-removal/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7" format="dita" scope="local"> 规则</a> 或<a href="../../admin/admin/exclude-ip.md#concept_265A95A803F740629CAAAA7EB8BE81A4" format="dita" scope="local"> IP排除</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 交易 ID 存储</span> </td> 
-   <td colname="col2"> <p>可让您使用<a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html?f=c_Transaction_ID" format="https" scope="external">交易 ID</a> 数据源。 </p> </td> 
+   <td colname="col2"> <p>可让您使用<a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_Transaction_ID.html" format="https" scope="external">交易 ID</a> 数据源。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> 激活 Ad Hoc Analysis</span> </td> 
