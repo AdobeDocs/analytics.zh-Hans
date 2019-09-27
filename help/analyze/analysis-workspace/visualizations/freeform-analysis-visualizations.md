@@ -5,10 +5,10 @@ seo-description: 了解 Analysis Workspace 中的可视化和可视化设置。
 seo-title: 可视化概述
 solution: Analytics
 title: 可视化概述
-topic: Reports & Analytics
-uuid: 318dea64-6277-4ec3-ad48-4dfcb7 a54555
+topic: Reports and Analytics
+uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
 
 了解 Analysis Workspace 中的可视化和可视化设置。
 
-[YouTube上Analysis Workspace中的可视化类型](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2：57)
+[YouTube上Analysis Workspace中的可视化类型](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
 
 ## Visualizations panel {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
@@ -33,7 +33,7 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
 
 >[!IMPORTANT]
 >
->可见的可视化设置取决于可视化。并非所有设置都适用于所有可视化。此外，某些高级设置&#x200B;**仅**&#x200B;可对特定可视化显示，例如[直方图设置](../../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477)。
+>可见的可视化设置取决于可视化。 并非所有设置都适用于所有可视化。此外，某些高级设置&#x200B;**仅**&#x200B;可对特定可视化显示，例如[直方图设置](../../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477)。
 
 ![](assets/visualization_settings.png)
 
@@ -67,11 +67,11 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
   </tr> 
   <tr> 
    <td colname="col1"> <p>标准化 </p> </td> 
-   <td colname="col2"> <p>要求所有量度按等比例计算。See <a href="https://marketing.adobe.com/resources/help/en_US/reference/?f=normalization" format="https" scope="external"> Normalization</a>. </p> </td> 
+   <td colname="col2"> <p>要求所有量度按等比例计算。请参阅 <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html" format="https" scope="external"> 标准化</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>显示双轴 </p> </td> 
-   <td colname="col2"> <p>仅当有两个量度时适用-您可以在左侧(对于一个指标)和右侧(对于另一个量度)使用y轴。 </p> </td> 
+   <td colname="col2"> <p>仅在您有两个度量时适用——您可以在左侧（对于一个度量）和右侧（对于另一个度量）有一个y轴。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>显示异常 </p> </td> 
