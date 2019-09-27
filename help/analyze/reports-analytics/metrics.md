@@ -4,10 +4,10 @@ seo-description: 量度是报表的基础，可帮助您查看和了解数据关
 seo-title: 量度
 solution: Analytics
 title: 量度
-topic: Reports & Analytics
-uuid: ae2021eb-8b26-4a98-b7 a0-ce36 bca46753
+topic: Reports and Analytics
+uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 [计算量度](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)通过对量度进行组合来创建。
 
-For definitions, see [Metrics](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=metrics).
+For definitions, see [Metrics](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html).
 
 ## 选择默认报表量度 {#task_9537A607288A4450AE07EC7C070B47C6}
 
