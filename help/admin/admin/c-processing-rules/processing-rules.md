@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 处理规则
 title: 处理规则概述
 topic: 管理工具
-uuid: 6b4ee7c9-2b86-47a6-b64 c-c8 d644 fff67 d
+uuid: 6b4ee7c9-2b86-47a6-b64c-c8d64fff67d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!IMPORTANT]
 >
->因为处理规则会永久性地影响Analytics数据，因此我们强烈建议处理规则管理员接收Adobe Analytics中的认证培训，并熟悉报告套件(标准网站、移动站点、移动应用、数据插入API等)的所有数据源。了解有关在各种平台内填充的上下文数据变量和标准变量的知识，将有助于防止数据被意外删除或更改。
+>由于处理规则会永久影响Analytics数据，我们强烈建议处理规则管理员在Adobe Analytics中接受认证培训，并熟悉报表包的所有数据源（标准网站、移动站点、移动应用程序、数据插入API等）。 了解有关在各种平台内填充的上下文数据变量和标准变量的知识，将有助于防止数据被意外删除或更改。
 
 ## 使用上下文数据简化数据收集 {#section_09EEA03612D24C15839631AA9E9668D8}
 
@@ -51,7 +51,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ![](assets/evar-context-map.png)
 
-请参阅实施帮助中的[上下文数据变量](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables)。
+请参阅实施帮助中的[上下文数据变量](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html)。
 
 ## 使用处理规则转换点击数据和触发事件 {#section_8284E72E999244E091CD7FB1A22342B6}
 
@@ -61,4 +61,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 在您的实施中定义上下文数据变量后，必须将这些变量复制到 eVar 等变量中，才能在报表中使用。
 
-有关详细信息，请访问[此处和](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7)[此处](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682)。
+有关详细信息，请访问 [这里](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7) , [这里](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682)。
