@@ -6,9 +6,9 @@ seo-title: 实施 Adobe 选择退订
 solution: Analytics
 title: 实施 Adobe 选择退订
 topic: 开发人员和实施
-uuid: fc3a411c-846-409d-99de-05b34x5019
+uuid: fc3a411c-8476-409d-99de-05b34ace5019
 translation-type: tm+mt
-source-git-commit: b59e232b98c7e180478103ac2939a2c8c64a1407
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -34,7 +34,7 @@ Adobe 建议您向网站访客提供易于查找且通俗易懂的信息，让�
 
 Adobe offers three types of opt-outs for Adobe Analytics (including [!UICONTROL Reports &amp; Analytics], [!UICONTROL Data Warehouse], [!UICONTROL Ad Hoc Analysis]):
 
-* 如果您使用自己的第一方cookie实施Adobe Analytics产品，则需要 [为您的网站访客开发自己的自定义退出链接](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9) 。
-* 您的客户可以选择使用浏览器的 Cookie 设置启用禁用机制。请参阅[启用浏览器 Cookie 的隐私设置](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/?f=browser_cookie_settings)。
+* If you implement Adobe Analytics products with your own first-party cookie, you need to develop your own customized opt-out link for your website visitors.[](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9)
+* 您的客户可以选择使用浏览器的 Cookie 设置启用禁用机制。请参阅[启用浏览器 Cookie 的隐私设置](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/browser_cookie_settings.html)。
 
 不管您选择哪一种禁用机制，Adobe 都建议您在隐私政策中明确说明该禁用机制的可用性，除非另有法律要求，或依据当前最佳实践另有其他建议。
