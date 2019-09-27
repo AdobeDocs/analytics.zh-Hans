@@ -5,9 +5,9 @@ seo-title: 可选时间戳
 solution: Analytics
 title: 可选时间戳
 topic: 管理工具
-uuid: fa63658-1cc2-4adc-8d51-a0662 d0 aa941
+uuid: 0fa63658-1cc2-4adc-8d51-a0662d0a941
 translation-type: tm+mt
-source-git-commit: 2b7644a7af34fff95d7557382abf3d370bd2637c
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -26,11 +26,11 @@ source-git-commit: 2b7644a7af34fff95d7557382abf3d370bd2637c
 
 >[!IMPORTANT]
 >
->If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_custom) on data that is already timestamped. 这可能会导致数据混乱，并且会对时间计算操作（例如，逗留时间值）、属性（eVar 持久性）、访问量/访问计数以及路径报表产生负面影响。
+>If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) on data that is already timestamped. 这可能会导致数据混乱，并且会对时间计算操作（例如，逗留时间值）、属性（eVar 持久性）、访问量/访问计数以及路径报表产生负面影响。
 
 >[!NOTE]
 >
->启用了时间戳的会话数据会保存长达 92 天。这意味着访问/会话将被“保持打开状态”为92天，而任何其他点击(在上次点击之后30分钟(点击时间)之后)仍可包含在同一访问/会话中。从订单中收到的任何“旧”点击将产生“未知”结果，因为诸多因素(分段、分配、到期等)影响这些点击是否将包含在报表中。
+>启用了时间戳的会话数据会保存长达 92 天。这意味着访问／会话将“保持打开状态”92天，而任何额外点击（在上次点击后30分钟内）仍可包含在同一访问／会话中。 收到的任何“旧”点击如不订购，将产生“未知”的结果，因为有许多因素（分段、分配、过期等）影响是否将这些点击包含在报告中。
 
 ## 新建报表包 {#section_095A7CFBD280494593B9BEC1592B73A6}
 
