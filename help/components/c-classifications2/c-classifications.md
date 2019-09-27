@@ -1,25 +1,25 @@
 ---
-description: 分类是对Analytics变量数据进行分类的一种方法，然后在生成报表时以不同方式显示数据。
-seo-description: 分类是对Analytics变量数据进行分类的一种方法，然后在生成报表时以不同方式显示数据。
+description: A classification is a way of categorizing Analytics variable data, then displaying the data in different ways when you generate reports.
+seo-description: A classification is a way of categorizing Analytics variable data, then displaying the data in different ways when you generate reports.
 seo-title: 关于分类
 solution: Analytics
 subtopic: 分类
 title: 关于分类
 topic: 管理工具
-uuid: abc1a be-8e37-4b7e-81fd-3e99ac27fc6a
+uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: 2d01f9edb976a57c18641fea03e01ad029893eea
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
 # 关于分类
 
-分类是对Analytics变量数据进行分类的一种方法，然后在生成报表时以不同方式显示数据。
+分类是一种对Analytics变量数据进行分类的方法，然后在生成报告时以不同的方式显示数据。
 
 有关 [Analytics 分类](https://video.tv.adobe.com/v/16853/?captions=chi_hans)的视频概述。
 
-**[!UICONTROL “管理员]** ”&gt; **[!UICONTROL “报告包]** ”&gt; **[!UICONTROL “编辑设置]** ”&gt; *`<Traffic or Conversion>`*
+**[!UICONTROL 管理员]** &gt;报 **[!UICONTROL 表包]** &gt;编 **[!UICONTROL 辑设置]** &gt; *`<Traffic or Conversion>`*
 
 在分类时，您会在变量以及与该变量相关的元数据之间建立关系。分类最常用在促销活动中。通过将元数据应用到变量中收集的值，可以汇总使用变量（eVar、prop 和事件）信息收集的数据。
 
@@ -33,9 +33,9 @@ source-git-commit: 2d01f9edb976a57c18641fea03e01ad029893eea
 
 >[!NOTE]
 >
->在2018年月10日的Analytics维护版本中，Adobe开始限制启用日期和数值分类的功能。这些分类类型已从管理员和分类导入器界面中删除。无法添加新的启用日期的分类和数值分类。现有的分类仍可以通过标准分类工作流程进行管理（上传、删除），并将继续在报表中可用。
+>在2018年5月10日的Analytics维护版本中，Adobe开始限制启用日期的分类和数字分类的功能。 这些分类类型已从管理员和分类导入器界面中删除。无法添加新的启用日期的分类和数值分类。现有的分类仍可以通过标准分类工作流程进行管理（上传、删除），并将继续在报表中可用。
 
-创建分类后，您可以在Adobe Analytics中利用新的数据属性。
+After creating the classifications, you can leverage the new data attributes throughout Adobe Analytics.
 
 **跟踪代码示例**
 
@@ -43,9 +43,9 @@ source-git-commit: 2d01f9edb976a57c18641fea03e01ad029893eea
 
 Reports &amp; Analytics 包含针对跟踪代码变量的预定义分类，从而提供以分类为基础的报表（名为“创作元素”和“促销活动”）。您必须针对其他所有转化和流量变量手动配置分类。
 
-请参阅[流量分类](/help/admin/admin/c-traffic-variables/traffic-classifications.md)和[转化分类](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=conversion_classifications)。
+请参阅[流量分类](/help/admin/admin/c-traffic-variables/traffic-classifications.md)和[转化分类](https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html)。
 
-下表说明了各种可用的分类类型，以及支持这些分类的变量类型。请在上载数据文件之前，查看[常规文件结构](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9EFF968DF5D244A887DE94075431C1BE) ，然后上传数据文件。
+下表说明了各种可用的分类类型，以及支持这些分类的变量类型。请在上载数据文件之前，查看 上传 [数据文件之前的常规文件结构](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9EFF968DF5D244A887DE94075431C1BE) 。
 
 <table id="table_279728C28D9C40EE832ACC9F211B5F17"> 
  <thead> 
@@ -63,12 +63,12 @@ Reports &amp; Analytics 包含针对跟踪代码变量的预定义分类，从�
 （转化）分类，以便生成可让您查看按这些类别分组的衬衫销售报表。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> 启用日期的文本</span> </p> <p>注意：在2018年月10日的Analytics维护版本中，Adobe开始限制启用日期的分类的功能。这些分类类型已从管理员和分类导入器界面中删除。无需新增日期启用分类。现有的分类仍可以通过标准分类工作流程进行管理（上传、删除），并将继续在报表中可用。 </p> </td> 
+   <td colname="col1"> <p> <span class="wintitle"> 启用日期的文本</span> </p> <p>注意： 在2018年5月10日的Analytics维护版本中，Adobe开始限制启用日期的分类的功能。 这些分类类型已从管理员和分类导入器界面中删除。不能添加新的启用日期的分类。 现有的分类仍可以通过标准分类工作流程进行管理（上传、删除），并将继续在报表中可用。 </p> </td> 
    <td colname="col2"> <p>转化变量 </p> </td> 
-   <td colname="col3"> <p>启用日期功能的文本分类，允许您为文本分类指定日期范围。该分类通常与促销活动分类一起使用，以便您充分利用<span class="wintitle">促销活动</span>报表中的“甘特图”视图。 </p> <p>您可以在填充分类数据的数据文件中，包含实际的促销活动日期。 </p> <p>Reports&amp; Analytics会收集系列活动跟踪代码，即使活动结束日期已经过去，但在营销活动结束日期之后收集的营销活动数据未与营销活动关联。 </p> </td> 
+   <td colname="col3"> <p>启用日期功能的文本分类，允许您为文本分类指定日期范围。该分类通常与促销活动分类一起使用，以便您充分利用<span class="wintitle">促销活动</span>报表中的“甘特图”视图。 </p> <p>您可以在填充分类数据的数据文件中，包含实际的促销活动日期。 </p> <p>Reports &amp; Analytics会收集系列活动跟踪代码，即使系列活动结束日期已经过去，但在系列活动结束日期之后收集的系列活动数据与系列活动没有关联。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> 数值</span> <p>注意：在2018年月10日Analytics维护版本中，Adobe开始限制数字分类的功能。这些分类类型已从管理员和分类导入器界面中删除。无需添加新的数字分类。现有的分类仍可以通过标准分类工作流程进行管理（上传、删除），并将继续在报表中可用。 </p> </p> </td> 
+   <td colname="col1"> <p> <span class="wintitle"> 数值</span> <p>注意： 在2018年5月10日的Analytics维护版本中，Adobe开始限制数字分类的功能。 这些分类类型已从管理员和分类导入器界面中删除。不能添加新的数字分类。 现有的分类仍可以通过标准分类工作流程进行管理（上传、删除），并将继续在报表中可用。 </p> </p> </td> 
    <td colname="col2"> <p>转化变量 </p> </td> 
    <td colname="col3"> <p>数值分类可让您将固定数值应用到<span class="wintitle">转化</span>报表。这些分类在报表中显示为量度。 </p> <p>考虑是否要添加<span class="wintitle">数值</span>分类时，数值必须是固定的，而且不会随着时间改变。 </p> </td> 
   </tr> 
