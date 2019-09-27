@@ -3,9 +3,9 @@ description: “Reports & Analytics”中的“报表”菜单概述。
 seo-description: “Reports & Analytics”中的“报表”菜单概述。
 seo-title: “报表”菜单
 title: “报表”菜单
-uuid: 562cb6bf-9396-42a3-adf4-9651af8841 cb
+uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -27,9 +27,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 报表是采用分层列视图导航的。Click **[!UICONTROL View All Reports]**, or press the Forward Slash key (/), and then press the Down Arrow key (?) to quickly display and navigate the menu using the Arrow keys. 按 Esc 键可在不更改当前报表的情况下关闭菜单，或按 Enter 可加载选定报表。
 
-![](assets/reports-landing.png){width=“672px”}
+![](assets/reports-landing.png){width="672px"}
 
-有关单个报表的详细信息，请参阅[报表描述](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_descriptions)。
+有关单个报表的详细信息，请参阅[报表描述](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html)。
 
 ## 搜索报表 {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -41,7 +41,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->您还可以按prop、eVar和活动编号搜索报告列表。在搜索栏中，输入 prop、eVar 或事件编号。
+>You can also search the report list by prop, eVar, and event number. 在搜索栏中，输入 prop、eVar 或事件编号。
 
 ## 导航概述 {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -55,7 +55,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1">Experience Cloud 解决方案菜单 <img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
-   <td colname="col2"> 单击此图标可展开Experience Cloud菜单，以便您访问其他Marketing Can解决方案。 </td> 
+   <td colname="col2"> Clicking this icon expands the Experience Cloud menu to allow you to access other Marketing Could solutions. </td> 
   </tr> 
   <tr> 
    <td colname="col1">切换“报表”菜单 <img placement="inline"  src="assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
@@ -99,14 +99,14 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> 书签...</span> </td> 
-   <td colname="col2">Lets you <a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"> bookmark</a> the report. </td> 
+   <td colname="col2">允许您 <a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"> 将报表</a> 加入书签。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> 功能板</span>... </td> 
    <td colname="col2">Lets you add the report to a <a href="../../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0" format="dita" scope="local"> dashboard</a>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol">更多信息...</span> </td> 
+   <td colname="col1"><span class="uicontrol"> 更多...</span> </td> 
    <td colname="col2"> 允许您执行以下全部或部分操作：打印报表、从报表中提取数据、向报表中添加警报、创建自定义报表、复制图形、关联此报表以及打开新窗口。 </td> 
   </tr> 
   <tr> 
@@ -122,4 +122,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## 自定义所有报表菜单 {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-管理员可以更改“报表”菜单中包含的报表。请参阅“管理参考”中的[菜单自定义](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=customize_menus)。
+管理员可以更改“报表”菜单中包含的报表。请参阅“管理参考”中的[菜单自定义](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html)。
