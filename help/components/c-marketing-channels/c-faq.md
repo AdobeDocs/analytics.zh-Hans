@@ -1,23 +1,23 @@
 ---
 description: 了解如何填充为营销渠道设置的不同规则的最佳实践和相关示例。
 seo-description: 了解如何填充为营销渠道设置的不同规则的最佳实践和相关示例。
-seo-title: 常见问题解答
+seo-title: 常见问题和示例
 solution: Analytics
 subtopic: 营销渠道
-title: 常见问题解答
-topic: Reports & Analytics
-uuid: 1c63a1b5-a191-4855-a65-fac19 ab1037 a
+title: 常见问题和示例
+topic: Reports and Analytics
+uuid: 1c63a1b5-a191-4855-aa65-fac19ab1037a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# 常见问题解答
+# 常见问题和示例
 
 了解如何填充为营销渠道设置的不同规则的最佳实践和相关示例。
 
-* [常见问题](../../components/c-marketing-channels/c-faq.md#section_E490CEAF0E76422C91D34D8A80A0C573)
+* [常见问题解答](../../components/c-marketing-channels/c-faq.md#section_E490CEAF0E76422C91D34D8A80A0C573)
 * [未识别渠道](../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7)
 * [付费搜索](../../components/c-marketing-channels/c-faq.md#section_E934BFE182E4404A93FE07AFEAE64DC1)
 * [免费搜索](../../components/c-marketing-channels/c-faq.md#section_A4C6B8F0360449BE94F0128FF7C71386)
@@ -28,7 +28,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * [电子邮件](../../components/c-marketing-channels/c-faq.md#section_4A927BE947B748E39595F4525B7280DE)
 * [直接](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A)
 
-请参阅[创建营销渠道处理规则，以](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08) 了解 [!UICONTROL 在营销渠道处理规则] 页面上显示的字段定义。
+请参阅 [Create Marketing Channel Processing Rules](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08) for definitions of fields displayed on the [!UICONTROL Marketing Channel Processing Rules] page.
 
 ## 常见问题解答 {#section_E490CEAF0E76422C91D34D8A80A0C573}
 
@@ -37,7 +37,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 **问题**：我的跟踪代码不遵循模式，我必须为我的“附属活动”渠道指定数千个代码。
 
 * 使用排除法。如果您的“电子邮件”和“附属活动”渠道使用相同的查询字符串参数，但您只有少数的电子邮件跟踪代码，则您可以在一个定义电子邮件的规则集中指定电子邮件跟踪代码。然后，分类其他所有跟踪代码时使用 *`affiliates.`*
-* 在您的电子邮件系统中，为所有登陆页面 URL 添加一个查询字符串参数，例如 *`&ch=eml`*. 创建一个规则集，用于检测 ch 查询参数是否等于 *`eml`*. If it does not contain *`eml`*, then it is an affiliate.
+* 在您的电子邮件系统中，为所有登陆页面 URL 添加一个查询字符串参数，例如 *`&ch=eml`*. 创建一个规则集，用于检测 ch 查询参数是否等于 *`eml`*. 如果它不包含， *`eml`*&#x200B;则它是附属机构。
 
 **问题：**&#x200B;反向链接域包含的数据比我预期的多。
 
@@ -57,19 +57,19 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 * 规则按顺序处理。如果无任何具体标准相匹配，点击可以分为三大类：
 
-1. 没有反向链接(直接访问)。
+1. 无反向链接（直接访问）。
 
-2. 内部引介，位于访问的第一页。
+2. 内部引用，位于访问的第一页。
 
-3. 页面上的处理故障。
+3. 页面处理故障。
 
 请确保您拥有可以用于这三种可能的渠道。例如，创建以下规则：
 
-1. **[!UICONTROL 参照]** 和 **[!UICONTROL 不存在]** ， **[!UICONTROL 且是访问的第一页]**。（请参阅[直接](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A)。）
+1. **[!UICONTROL 引用]** , **[!UICONTROL 不存在]** , **[!UICONTROL 是访问的第一页]**。 （请参阅[直接](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A)。）
 
-2. **[!UICONTROL 引用人匹配内部URL过滤器]** 和 **[!UICONTROL 访问第一页]**。（请参阅[内部](../../components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947)。）
+2. **[!UICONTROL 引用与内部URL过滤器匹配]** , **[!UICONTROL 是访问的第一页]**。 （请参阅[内部](../../components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947)。）
 
-3. **[!UICONTROL 参照]** 和 **[!UICONTROL 现有]** 和 **[!UICONTROL 引用方不匹配内部URL过滤器]**。
+3. **[!UICONTROL 引用]** 、 **[!UICONTROL 存在]** 、引 **[!UICONTROL 用与内部URL筛选器不匹配]**。
 
 最后，创建一个捕捉剩余点击的&#x200B;*其他*&#x200B;渠道，如[未识别渠道](../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7)中所述。
 
@@ -83,7 +83,7 @@ This kind of rule serves as a catch-all to ensure that channel traffic always ma
 
 >[!NOTE]
 >
->可能仍有一些渠道流量可能会进入“未识别渠道”类别。例如：访客访问该网站并将某个页面添加为书签，并且在同一次访问中通过书签返回到该页面。由于这不是访问的第一个页面，而且没有反向链接域，因此它既不会被列入“直接”渠道，也不会被列入“其他”渠道。
+>可能仍有一些渠道流量属于未识别渠道类别。 例如：访客访问该网站并将某个页面添加为书签，并且在同一次访问中通过书签返回到该页面。由于这不是访问的第一个页面，而且没有反向链接域，因此它既不会被列入“直接”渠道，也不会被列入“其他”渠道。
 
 ## 付费搜索 {#section_E934BFE182E4404A93FE07AFEAE64DC1}
 
@@ -93,7 +93,7 @@ This kind of rule serves as a catch-all to ensure that channel traffic always ma
 
 ![](assets/example_paid_search.png)
 
-有关详细信息，请参阅管理员中的[付费搜索检测](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=paid_search_detection)。
+有关详细信息，请参阅管理员中的[付费搜索检测](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html)。
 
 ## 免费搜索 {#section_A4C6B8F0360449BE94F0128FF7C71386}
 
@@ -105,7 +105,7 @@ This kind of rule serves as a catch-all to ensure that channel traffic always ma
 
 ![](assets/example_natural_search.png)
 
-有关详细信息，请参阅管理员中的[付费搜索检测](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=paid_search_detection)。
+有关详细信息，请参阅管理员中的[付费搜索检测](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html)。
 
 ## 附属活动 {#section_8D142C7074CD4DEC87DF55B691107622}
 
