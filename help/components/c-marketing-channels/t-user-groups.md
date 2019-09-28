@@ -5,10 +5,10 @@ seo-title: 配置用户群组访问权限
 solution: Analytics
 subtopic: 营销渠道
 title: 配置用户群组访问权限
-topic: Reports & Analytics
-uuid: b85661af-5e33-4a92-a756-3589afb2 f457
+topic: Reports and Analytics
+uuid: b85661af-5e33-4a92-a756-3589afb2f457
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Groups]** from the [!UICONTROL User Management] home page.
 
-   请参阅&#x200B;*管理员帮助*&#x200B;中的[用户管理](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=user_management)。
+   请参阅&#x200B;*管理员帮助*&#x200B;中的[用户管理](https://marketing.adobe.com/resources/help/en_US/reference/user_management.html)。
 
 1.  单击自定义群组名称，或单击&#x200B;**添加新用户群组**&#x200B;来创建用户群组。
 1. Under Report Access, enable **[!UICONTROL All Access]** or **[!UICONTROL No Access]**.
