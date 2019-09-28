@@ -4,10 +4,10 @@ seo-description: 实现对客户活动的全面、准确和详细分析。通过
 seo-title: 转化
 solution: Analytics
 title: 转化
-topic: 报表
-uuid: 457d3033-6562-4fba-8c2e-0e7a9bd44bfd
+topic: 报告
+uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 * [!UICONTROL 自定义转化]报表基于 eVar（转化变量）。
 * 转化变量可独立于页面查看之外存在，并可在其指定的过期日期内与量度关联。
-* 报表的默认量度为收入。若要更改默认量度，请参阅[选择默认报表量度](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html?f=t_metrics_set_default)。
+* 报表的默认量度为收入。若要更改默认量度，请参阅[选择默认报表量度](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html)。
 * 这些报表以趋势格式和排名格式显示。
 * 您可以在这些报表中使用“分类”来重命名和整合行项目。
 * 如果启用基本子关系，则可以按以下方式划分这些报表：
