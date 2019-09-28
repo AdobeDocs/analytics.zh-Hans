@@ -8,7 +8,7 @@ title: Flash-Flex
 topic: 开发人员和实施
 uuid: 2ee7fb92-9b62-44d4-bd93-6dff26764b7f
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -35,7 +35,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
 ## 2016 年 8 月 18 日 {#section_D72EF20672174249B864997905D7552A}
 
-** 4.0.2 —— 更新**
+** 4.0.2 - Update**
 
 包括 Visitor API 1.6.0。
 
@@ -60,13 +60,13 @@ s.debugTracking = false; // set to false or remove line
                          // for default "disabled” behavior 
 ```
 
-受影响的版本包括在所有平台上运行的 适用于 [!DNL AppMeasurement] 所有平台上的Flash版本4.0及更早版本。
+受影响的版本包括在所有平台上运行的  for Flash version 4.0 and earlier on all platforms.[!DNL AppMeasurement]
 
 >[!NOTE]
 >
 >Due to security reasons, we will no longer be distributing an AS2 version of [!DNL AppMeasurement] for Flash. 我们将继续支持从现有 AS2 项目中收集的数据。但是，我们强烈建议客户将其实施项目升级为 AS3 版本，并融入 [!DNL AppMeasurement] for Flash 的最新安全功能。
 
-[!DNL AppMeasurement] 对于受此问题影响的Flash客户，必须使用更新的库重新构建项目，该库可从 [!DNL Analytics] Console [More...](https://help.adobe.com/en_US/Flex/4.0/UsingFlashBuilder/WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7feb.html#WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7f88) (AN-121780)下载
+[!DNL AppMeasurement] for Flash customers affected by this issue must rebuild projects with the updated library available for download from the  Console More… (AN-121780)[!DNL Analytics][](https://help.adobe.com/en_US/Flex/4.0/UsingFlashBuilder/WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7feb.html#WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7f88)
 
 ## November 5, 2015 {#section_18C1A1C82EA844E78A1D563E66DE3FCF}
 
@@ -86,7 +86,7 @@ s.debugTracking = false; // set to false or remove line
 
 * 包括 Visitor API 1.5.1.
 
-## 2015 年 6 月 18 日 {#section_2ACB18A1693244D6A49B53F4E17F0C30}
+## June 18, 2015 {#section_2ACB18A1693244D6A49B53F4E17F0C30}
 
 4.0版——更新
 
@@ -132,7 +132,7 @@ s.debugTracking = false; // set to false or remove line
 
 发行日期：**2014 年 4 月 17 日**
 
-* 支持 [Experience Cloud访客ID服务](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
+* Support for the Experience Cloud Visitor ID service.[](https://marketing.adobe.com/resources/help/en_US/mcvid/)
 
 ## 版本 3.7.3 {#section_1159B2AB56F54903A6FBFB7047AEC1C5}
 
@@ -157,7 +157,7 @@ s.debugTracking = false; // set to false or remove line
 发行日期：**2013 年 10 月 17 日**
 
 * 对[心率视频跟踪](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/)的支持。
-* 已包含 VisitorAPI.swc，以便支持[访客 ID 服务](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_service#)。
+* 已包含 VisitorAPI.swc，以便支持[访客 ID 服务](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_service#.html)。
 * 停止了对适用于 ActionScript 3 的 Flash Player 9 的支持。适用于 ActionScript 3 的最低 Flash Player 版本为 10。
 
 ## 版本 3.6.2 {#section_57FB21568BDD48F7882F00AD630E6CE8}
@@ -184,7 +184,7 @@ s.debugTracking = false; // set to false or remove line
 
 * 为了支持 Adobe 数据收集服务器中扩展的“页面 URL”字段，已添加对发送大于 255 字节 URL 的支持。Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. 这有助于在浏览器截断的情况下防止长 URL 优先于其他数据，但仍然启用对长 URL 的捕获功能。
 
-* 添加了新的备用访客识别方法。请参阅[识别独特访客](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors)。
+* 添加了新的备用访客识别方法。请参阅[识别独特访客](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html)。
 * Added a new `abort` flag that can be set inside `doPlugins`. 将此标记设置为 true 会导致 [!DNL AppMeasurement] 库不继续进行跟踪呼叫。中止标记已通过每个跟踪呼叫进行重置，因此，如果还需要中止后续跟踪呼叫，则需要在 `doPlugins` 内重新设置标记。
 
    ```js
