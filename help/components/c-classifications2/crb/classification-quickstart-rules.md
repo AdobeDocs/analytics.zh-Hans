@@ -8,7 +8,7 @@ title: 分类规则
 topic: 管理工具
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 **[!UICONTROL 分析]** &gt;管 **[!UICONTROL 理]** &gt;分 **[!UICONTROL 类规则生成器]**
 
-规则构建器允许您创建 *`classification rule set`*&#x200B;一个列表，该列表包含 *`classification rules`*。 如果规则与您指定的条件相匹配，则执行相应的操作。
+The Rule Builder lets you create a , which is a list of . *`classification rule set`**`classification rules`*&#x200B;如果规则与您指定的条件相匹配，则执行相应的操作。
 
 分类规则可提供以下便利性：
 
@@ -64,7 +64,7 @@ about_classification_rules.xml
 
 ## 有关规则的重要信息 {#section_0BD46702FBEC4D98A4DD2EA0BD428046}
 
-* Specify [group permissions](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups) for classifications in [!UICONTROL Admin Tools].
+* Specify [group permissions](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) for classifications in [!UICONTROL Admin Tools].
 
 * **正则表达式**:有关帮助，请参阅分 [类规则中的正则表达式](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D)。
 
@@ -159,7 +159,7 @@ This example tells the rule that the campaign date `20140601` is at the third gr
 | 正则表达式 | 字符串或匹配结果 | 对应的匹配群组 |
 |--- |--- |--- |
 | `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`:em:JuneSale:20130601 `$1`:em `$2`:6月销售 `$3`:邮编：20130601 |
-| 构建语法 | `^` =开始行()=组字符，允许您在括号中提取匹配字符。  `(.+)` = 捕获一个 ( . )character和(+)any more \ = start of a string.  `$` =表示前面的字符（或字符组）是行中的最后一个字符。 |
+| 构建语法 | `^` = starts the line  () = groups characters and lets you extract matching characters in the parentheses.  `(.+)` = 捕获一个 ( . )character和(+)any more \ = start of a string.  `$` =表示前面的字符（或字符组）是行中的最后一个字符。 |
 
 有关正则表达式中字符含义的信息，请参阅[正则表达式 - 参考表](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)。
 
@@ -169,7 +169,7 @@ This example tells the rule that the campaign date `20140601` is at the third gr
 
 [!UICONTROL Sample Key]: `4s3234`
 
-* `4` =品牌名称
+* `4` = brand name
 * `s` = 标识搜索引擎，例如 Google
 
 ![](assets/regex_char_position.png)
@@ -180,8 +180,8 @@ This example tells the rule that the campaign date `20140601` is at the third gr
 
 | 选择规则类型 | 输入匹配条件 | 设置分类 | 值 |
 |--- |--- |--- |--- |
-| 正则表达式 | `^.(s).*$` | 品牌和引擎 | `$0` （捕获品牌名称和搜索引擎的前两个字符。） |
-| 正则表达式 | `^.(s).*$` | 搜索引擎 | `$1` （捕获Google的第二个字符。） |
+| 正则表达式 | `^.(s).*$` | 品牌和引擎 | `$0` (Captures the first two characters for brand name and search engine.) |
+| 正则表达式 | `^.(s).*$` | 搜索引擎 | `$1` (Captures the second character for Google.) |
 
 ## 正则表达式 - 匹配不同长度的跟踪代码 {#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2}
 
