@@ -8,7 +8,7 @@ title: JavaScript H 代码 - 旧版
 topic: 开发人员和实施
 uuid: 4586b250-0f1b-45b8-829c-18dc1201956f
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 >[!NOTE]
 >
->To find the current library version, use [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=debugger_about).
+>To find the current library version, use [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_about.html).
 
 <!-- 
 
@@ -151,7 +151,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
 发行日期：**2013 年 4 月 29 日**
 
-* `useForcedLinkTracking`使用自定义链接代码的手动链接跟踪[中描述的 ](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_manuallinktrackcustomlink) 选项现在可以应用到 Firefox 20+（以前，它只能应用到 WebKit 浏览器）。
+* `useForcedLinkTracking`使用自定义链接代码的手动链接跟踪[中描述的 ](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_manuallinktrackcustomlink.html) 选项现在可以应用到 Firefox 20+（以前，它只能应用到 WebKit 浏览器）。
 
 * 现在，每个实例生成的图像对象 ID 都是唯一的。这可以防止多个实例位于同一页面时出现冲突。
 
@@ -187,7 +187,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 * Fixed handling URL decoding for strings that are encoded with a mixed use of `escape` and `encodeURIComponent`.
 
 * 已修复 WebKit 浏览器中页面上首次服务器调用超时情况下链接跟踪失败的问题。
-* 添加了新的备用访客识别方法。请参阅[识别独特访客](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors)。
+* 添加了新的备用访客识别方法。请参阅[识别独特访客](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html)。
 * Added a new `abort` flag that can be set inside `doPlugins`. 将此标记设置为 true 会导致 [!DNL AppMeasurement] 库不继续进行跟踪呼叫。中止标记已通过每个跟踪呼叫进行重置，因此，如果还需要中止后续跟踪呼叫，则需要在 `doPlugins` 内重新设置标记。
 
 ```js
