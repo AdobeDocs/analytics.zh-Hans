@@ -4,10 +4,10 @@ seo-description: 显示访客经常访问的网站区域。网站区域可以包
 seo-title: 网站区域
 solution: Analytics
 title: 网站区域
-topic: 报表
-uuid: 6839c566-f88 f-4979-9cf5-52a77 c0 b0416
+topic: 报告
+uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -16,14 +16,14 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 显示访客经常访问的网站区域。网站区域可以包括定义的产品组，它与类别类似。例如，可以包括页面的“照相机”组、“计算机”组等。“转化网站区域”报表的数据会从“流量”组中的“网站区域”报表导入，后者从跟踪代码中的 channel 变量接收信息。您可以使用此报表确定不同网站区域中的项目对网站统计信息的最大影响。
 
-* 此报表直接引用来自贵网站上实施的 [s.channel](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_channel) 变量中的数据。
+* 此报表直接引用来自贵网站上实施的 [s.channel](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_channel.html) 变量中的数据。
 * 此报表可通过趋势和排名两种格式查看。
 * 此报表可使用搜索过滤器来查找特定的行项目。
 * 分类可用于此报表，允许您重新命名并整合行项目。
 * 关联可通过管理工具创建，以与其他任何流量变量产生关联。
 * 此报表可使用以下量度：
 
-   * **页面查看**：[pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_pagename) 变量或 URL 被定义的次数（设置为默认量度）
+   * **页面查看**：[pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagename.html) 变量或 URL 被定义的次数（设置为默认量度）
 
    * **所有路径量度**：访问量、平均页面深度、平均页面逗留时间、登录、退出、重新载入和单次存取
    * 根据贵组织和报表包设置：此报表可启用每日、每周、每月和每季独特访客。
