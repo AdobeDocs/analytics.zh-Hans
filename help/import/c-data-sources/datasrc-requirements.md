@@ -1,19 +1,19 @@
 ---
 description: 有关使用数据源之前的报表包要求的信息。
 seo-description: 有关使用数据源之前的报表包要求的信息。
-seo-title: 要求和上传限制
+seo-title: 要求和上载限制
 solution: Analytics
 subtopic: 数据源
-title: 要求和上传限制
+title: 要求和上载限制
 topic: 开发人员和实施
-uuid: d79fca77-fa0 e-4171-b978-cdee5 c67 d9 df
+uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
 
-# 要求和上传限制
+# 要求和上载限制
 
 有关使用数据源之前的报表包要求的信息。
 
@@ -35,15 +35,15 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 只能导入具有当前或过去日期的数据。请勿尝试在数据源数据中使用未来日期。
 * 所有行必须具有一个指定日期，用于启用报表制图功能。如果某行不包含日期，数据源会生成一个错误并拒绝该文件。日期/时间格式依不同的数据源类型而改变：
 
-   * **完全处理数据源**：使用ISO8601的日期格式( `YYYY-MM-DDThh:mm:ss±UTC_offset` 例如， `2013-09-01T12:00:00-07:00`)或Unix时间格式(自1970年月日起已使用过秒)。
+   * **完全处理数据源**:使用ISO 8601日期格式 `YYYY-MM-DDThh:mm:ss±UTC_offset` (例如， `2013-09-01T12:00:00-07:00`)或Unix时间格式（自1970年1月1日起已用的秒数）。
 
-   * **标准和集成数据源**：使用以下日期格式： `MM/DD/YYYY/HH/mm/SS` (例如，)`01/01/2013/06/00/00`
+   * **Standard and Integration Data Sources**: Use the following date format: `MM/DD/YYYY/HH/mm/SS` (for example, `01/01/2013/06/00/00`)
 
 ## 常规 {#section_1CD337F660484ABDB7D8CAE96FF46ACF}
 
 * 在上载数据源文件时，数据源会执行基本的数据验证，以确保文件不含格式错误。如果某文件中遇到错误，将发送一封电子邮件通知，并停止处理。
 * 数据字段不能包含分号。数据源会跳过包含分号的记录。
-* 网络日志、流量和某些普通数据源组中的数据在 Data Warehouse 或 Discover 中不可用。For more information, see [Data Types and Categories](../../import/c-data-sources/c-datasrc-types/datasrc-categories.md#concept_42D1534F48324F20B4F9297FC4022105).
+* 网络日志、流量和某些普通数据源组中的数据在 Data Warehouse 或 Discover 中不可用。有关详细信息，请参 [阅数据类型和类别](../../import/c-data-sources/c-datasrc-types/datasrc-categories.md#concept_42D1534F48324F20B4F9297FC4022105)。
 * 数据源不支持序列化事件。
 
 ## 多字节支持 {#section_96C8D26B21184C3E839865DB6F23EA22}
@@ -60,7 +60,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>受支持。与数据源一起使用的报表包必须启用多字节字符支持。 </p> <p>请参阅帮助中的<a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=new_report_suite" format="https" scope="external">新报表包</a>。 </p> </td> 
+   <td colname="col2"> <p>受支持。与数据源一起使用的报表包必须启用多字节字符支持。 </p> <p>请参阅帮助中的<a href="https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html" format="https" scope="external">新报表包</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 带字节顺序标记的 UTF-8 (EF BB BF) </td> 
