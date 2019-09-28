@@ -3,9 +3,9 @@ description: 配置用户和了解数据取样。
 seo-description: 配置用户和了解数据取样。
 seo-title: 管理
 title: 管理
-uuid: 12f90223-139f-4a8d-bfd3-3cd9 af7489 d2
+uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 translation-type: tm+mt
-source-git-commit: 99078f95e45821bcee5017b4d480006c85f1c9e4
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -38,7 +38,7 @@ t_user_licenses.xml
 
  -->
 
-1. Log in to the [!DNL Experience Cloud].
+1. 登录到 [!DNL Experience Cloud]。
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Edit Groups]**.
 
@@ -60,7 +60,7 @@ t_managing_users.xml
 
  -->
 
-1. Click **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**, then click **[!UICONTROL Manage Users]**.
+1. 单击 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**，然后单击管理用 ****&#x200B;户管理。
 1. 找到用户，然后单击&#x200B;**[!UICONTROL 终止]。**
 
    在“[!UICONTROL 活动 Ad Hoc Analysis 会话]”页面中，空闲最久的用户显示在列表顶部。
@@ -119,7 +119,7 @@ t_proxy_policies.xml
 
 Ad Hoc Analysis 通过 HTTP 与服务器进行通信。可以使用与其他 HTTP 流量相同的代理策略。
 
-1. In the [!DNL Windows Control Panel], launch the [!UICONTROL Java Control Panel].
+1. 在中， [!DNL Windows Control Panel]启动 [!UICONTROL Java控制面板]。
 1. On the **[!UICONTROL General]** tab, click **[!UICONTROL Network Settings]**.
 1. Select **[!UICONTROL Use browser settings]**, or manually configure the proxy settings.
 1. Click **[!UICONTROL OK]**, then click **[!UICONTROL OK]** on the [!UICONTROL Java Control Panel].
@@ -154,6 +154,6 @@ c_overview_data_sampling.xml
 
 >[!MORE_LIKE_THIS]
 >
->* [用户](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=users)
->* [群组 ](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=groups)
+>* [用户](https://marketing.adobe.com/resources/help/en_US/reference/users.html)
+>* [群组 ](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)
 
