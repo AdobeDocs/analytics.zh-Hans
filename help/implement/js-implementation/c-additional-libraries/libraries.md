@@ -1,14 +1,14 @@
 ---
 description: 列出可用的测量库。
-keywords: Analytics实施；收集；数据；collection
+keywords: 分析实施；收集；数据；收集
 seo-description: 列出可用的测量库。
 seo-title: 其他库概述
 solution: Analytics
 title: 其他库概述
 topic: 开发人员和实施
-uuid: 1ec291f6-073f-49d1-b6 ab-044b1069 db4 e
+uuid: 1ec291f6-073f-49d1-b6ab-044b1069db4e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 列出可用的测量库。
 
-下表介绍了可收集所有可用平台上 Analytics 数据的库。有关详细信息，请参阅 [Analytics 中的数据收集](https://marketing.adobe.com/resources/help/en_US/reference/?f=usecase_sending_data_to_sc)。
+下表介绍了可收集所有可用平台上 Analytics 数据的库。有关详细信息，请参阅 [Analytics 中的数据收集](https://marketing.adobe.com/resources/help/en_US/reference/usecase_sending_data_to_sc.html)。
 
 <table id="table_B01E5B7E5DEB42A28AB851E640A6F08E"> 
  <thead> 
@@ -80,6 +80,6 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 <p class="- topic/p head"> <b class="+ topic/ph hi-d/b ">REST 和 SOAP Web 服务</b>（位于<a href="https://marketing.adobe.com/developer/" format="https" scope="external">开发人员连接</a>上） </p>
 
-* [入门指南](https://marketing.adobe.com/developer/get-started/introduction/c-introduction)
+* [快速入门](https://marketing.adobe.com/developer/get-started/introduction/c-introduction)
 * [API 文档主页](https://marketing.adobe.com/developer/documentation)
 
