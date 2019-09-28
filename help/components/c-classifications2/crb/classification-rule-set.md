@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 分类
 title: 分类规则集
 topic: 管理工具
-uuid: c4d7b77c-fa98-44be-955f-9aee7 f73480 b
+uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -17,13 +17,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 规则集是特定变量的一组分类规则。您可将变量应用到规则集。如果您要为一个变量创建多个规则集，则必须将每个规则集应用到多个报表包。
 
-## Classification rule sets {#concept_CD3D510F5070486584F3BB535AE41524}
+## 分类规则集 {#concept_CD3D510F5070486584F3BB535AE41524}
 
 规则集是特定变量的一组分类规则。您可将变量应用到规则集。如果您要为一个变量创建多个规则集，则必须将每个规则集应用到多个报表包。
 
 ## 分类规则生成器页面 {#section_C60B0888C76D49C596EF19F11808B718}
 
-**[!UICONTROL “分析]** ”&gt;“ **[!UICONTROL 管理员]** ”&gt; **[!UICONTROL “分类规则生成器”]**
+**[!UICONTROL 分析]** &gt;管 **[!UICONTROL 理]** &gt;分 **[!UICONTROL 类规则生成器]**
 
 “[!UICONTROL 分类规则生成器]”中提供了以下字段和选项。
 
@@ -70,7 +70,7 @@ t_classification_rule_set.xml
 
 1. (Prerequisite) Define the classification structure in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 
-   （请参阅“管理工具”帮助中的[分类](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=classifications)，以了解有关添加分类的信息。）
+   （请参阅“管理工具”帮助中的[分类](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)，以了解有关添加分类的信息。）
 
    只有在变量至少定义了一个分类后，变量才会在[!UICONTROL 新建规则集]面板中显示。
 
