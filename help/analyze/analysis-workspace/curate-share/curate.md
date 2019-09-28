@@ -8,7 +8,7 @@ title: 组织/共享概述
 topic: Reports and Analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 31222a67cae860e5e914eea1c0c2fd82296d3704
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 31222a67cae860e5e914eea1c0c2fd82296d3704
 
 1. 指定创建和组织项目的权限。
 
-   Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups) with the **[!UICONTROL Analysis Workspace Access]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]**).
+   Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) with the **[!UICONTROL Analysis Workspace Access]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]**).
 
 1. [创建并保存项目](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) ，然后单击“共 **[!UICONTROL 享]** ”&gt;“ **[!UICONTROL 创建项目数据”]**。
 1. 将您要从左侧可拖动组件堆叠中共享的组件拖到&#x200B;**[!UICONTROL 策划的组件]字段。**
@@ -36,7 +36,7 @@ source-git-commit: 31222a67cae860e5e914eea1c0c2fd82296d3704
 
    >[!IMPORTANT]
    >
-   >共享项目不需要创建组件。 您可以共享包含所有可用、默认组件的项目，或者共享包含选定组件的项目。To preserve all of the default components in a project, a best practice is to create a copy of a project for yourself (using **[!UICONTROL Save As]**) prior to curating components. 一旦您在项目中组织了组件，其他组件将不能继续用于该项目。
+   >Curating components is not required for sharing a project. 您可以共享包含所有可用、默认组件的项目，或者共享包含选定组件的项目。To preserve all of the default components in a project, a best practice is to create a copy of a project for yourself (using **[!UICONTROL Save As]**) prior to curating components. 一旦您在项目中组织了组件，其他组件将不能继续用于该项目。
 
 1. 单击&#x200B;**[!UICONTROL 完成]**。
 
