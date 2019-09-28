@@ -5,9 +5,9 @@ seo-title: 实时报表
 solution: Analytics
 title: 实时报表
 topic: Report Builder
-uuid: eb39b4a5-fb6 f-476d-9383-e5323 afcc51 d
+uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -25,9 +25,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 使用任何自定义事件、购物车事件或实例。
 * 最多查看 20 个小时的实时历史数据。
 
-实时需要考虑用户和群组的权限。例如，如果您没有查看收入的权限，也便无法查看其中包含收入数据的实时报表。不支持 eVar（转化量度）。[管理工具](https://marketing.adobe.com/resources/help/en_US/reference/?f=RealTime_Reports_Configuration)中已启用实时权限。
+实时需要考虑用户和群组的权限。例如，如果您没有查看收入的权限，也便无法查看其中包含收入数据的实时报表。不支持 eVar（转化量度）。[管理工具](https://marketing.adobe.com/resources/help/en_US/reference/RealTime_Reports_Configuration.html)中已启用实时权限。
 
 >[!NOTE]
 >
->[!UICONTROL 实时报告] 与之前发布的 [“包含当前数据](https://marketing.adobe.com/resources/help/en_US/arb/?f=options) (数据新近度)”功能不同，后者通过在最终确定数据之前显示数据来降低标准报告的滞后时间。
+>[!UICONTROL Real-Time Reports are not the same as the Include Current Data (Data Recency) feature released previously, which reduced latency for standard reporting, by displaying data before it is finalized.][](https://marketing.adobe.com/resources/help/en_US/arb/options.html)
 
