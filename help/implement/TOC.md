@@ -4,7 +4,7 @@ audience: 最终用户
 user-guide-title: Analytics 实施指南
 user-guide-url: /content/help/zh-Hans/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 1414949000a2f5de92006aada1658e23776bff6b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -211,7 +211,7 @@ source-git-commit: 1414949000a2f5de92006aada1658e23776bff6b
       + [Analytics 访客 ID](js-implementation/c-unique-visitors/visid-analytics.md)
       + [回退 ID 方法](js-implementation/c-unique-visitors/visid-fallback.md)
       + [识别移动设备](js-implementation/c-unique-visitors/visid-mobile.md)
-   + [Experience Cloud 核心服务](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=core_services)
+   + [Experience Cloud 核心服务](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html)
    + 跨设备访客识别 {#cross-device-visitor-id}
       + [跨设备连接用户](js-implementation/xdevice-visid/xdevice-connecting.md)
       + [跨设备访客识别的数据影响](js-implementation/xdevice-visid/xdevice-data.md)
