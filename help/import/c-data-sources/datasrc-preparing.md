@@ -3,17 +3,17 @@ description: 为使用数据源而采取的准备步骤。
 seo-description: 为使用数据源而采取的准备步骤。
 seo-title: 准备使用数据源
 solution: Analytics
-subtopic: 数据源
+subtopic: Data sources
 title: 准备使用数据源
 topic: 开发人员和实施
-uuid: 876ea069-574b-4e23-93b7-e3828 bfd90 f5
+uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: 887f48d2ea5f21b7db95a1a8f716f7da9cf43662
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# 准备使用数据源
+# Prepare to use Data Sources
 
 为使用数据源而采取的准备步骤。
 
@@ -29,11 +29,11 @@ It is important to understand the metrics or measurements that are contained in 
 
 在确定数据源数据的相应量度到事件映射之后，请使用关联数据源量度所适用的描述性名称重命名事件。
 
-请参阅管理工具帮助中的[成功事件](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=success_event)。
+请参阅管理工具帮助中的[成功事件](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html)。
 
 >[!NOTE]
 >
->Adobe强烈建议在数据源数据中使用新的空事件，但在少数情况下，使用预先存在的事件可能是合理的。
+>Adobe强烈建议将新的空事件与数据源数据结合使用，但在极少数情况下，使用预先存在的事件可能是有意义的。
 
 ## 标识数据维度 {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
@@ -41,17 +41,17 @@ It is important to understand the metrics or measurements that are contained in 
 
 例如，如果数据源量度测量广告显示次数，则您的数据维度可能是促销活动跟踪代码。如果测量离线销售，建议您使用产品代码（或 SKU）作为数据维度。
 
-您可以定义多个数据维度对应一个量度，但是每个量度必须为每个关联的数据维度提供一个相关的值，或多个值的组合。例如，如果您导入离线销售量度并将其与&#x200B;*`Product`**`Partner`* 数据维度，离线销售计量必须与产品和合作伙伴的每个组合相关(例如总收入)。
+您可以定义多个数据维度对应一个量度，但是每个量度必须为每个关联的数据维度提供一个相关的值，或多个值的组合。例如，如果您导入离线销售量度并将其与 *`Product`* and *`Partner`* data dimensions, the Off-line Sales metric must be relevant for each combination of product and partner (for example, Total Revenue).
 
 >[!NOTE]
 >
->可以导入不能按任何数据维度划分的总量度。
+>可以导入无法按任何数据维细分的总量度。
 
 在您定义要与数据源一起使用的数据维度之后，请通过将维度数据映射到变量，将其集成到市场营销报表中。可使用标准报表（例如，产品、跟踪代码、搜索关键词）或转化流量变量 (eVar)。
 
 在使用 eVar 时，您可以将现有 eVar 或新 eVar 用作数据维度。在选择了用于从数据源接收数据维度的 eVar 之后，请确保将其正确命名。
 
-请参阅 Analytics 帮助中的[成功事件](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=success_event)。
+请参阅 Analytics 帮助中的[成功事件](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html)。
 
 ## 促销活动跟踪代码 {#section_468222796FF449ABAA90D88EB3264CB1}
 
