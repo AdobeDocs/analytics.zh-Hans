@@ -4,10 +4,10 @@ seo-description: 衡量各种广告跟踪代码如何影响您网站上的不同
 seo-title: 跟踪代码
 solution: Analytics
 title: 跟踪代码
-topic: 报表
+topic: 报告
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -48,7 +48,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 * Click **[!UICONTROL Conversion]** &gt; **[!UICONTROL Campaigns]** &gt; **[!UICONTROL Tracking Code]** to locate this report, unless the menu is customized.
 
-* 此报表也可以按所有[列表变量](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=list_var)划分。
+* 此报表也可以按所有[列表变量](https://marketing.adobe.com/resources/help/en_US/sc/implement/list_var.html)划分。
 * 页面查看、访问和独特访客均可作为量度使用。
 * 此报表可使用区段。
 
