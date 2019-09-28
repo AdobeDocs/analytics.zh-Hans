@@ -6,9 +6,9 @@ seo-title: 转化变量 (eVar)
 solution: Analytics
 title: 转化变量 (eVar)
 topic: 管理工具
-uuid: eed0cb1-0735-4142-be21-43f264216 b50
+uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -29,11 +29,11 @@ eVar 最适合用于度量原因和影响，例如：
 
 >[!NOTE]
 >
->只有一个值可存储在图像请求中的eVar中。如果一个 eVar 值中需要多个值，我们建议您实施[列表变量 (list vars)](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html)。
+>图像请求中的eVar中只能存储一个值。 如果一个 eVar 值中需要多个值，我们建议您实施[列表变量 (list vars)](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html)。
 
 ## 转化变量 - 描述 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
-[编辑转换变量时使用的字段描述](../../../admin/admin/conversion-var-admin/t-conversion-variables-admin.md#task_051920D9B3E24A00A28F32EEBBB0EF97)。
+Descriptions of fields used when [editing conversion variables](../../../admin/admin/conversion-var-admin/t-conversion-variables-admin.md#task_051920D9B3E24A00A28F32EEBBB0EF97).
 
 <table id="table_E48D50926E6B492183300CA58A886927"> 
  <thead> 
@@ -49,11 +49,11 @@ eVar 最适合用于度量原因和影响，例如：
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol">类型</span> </p> <p>（仅限 eVar） </p> </td> 
-   <td colname="col2"> <p>变量值类型： </p> <p> <b>文本字符串</b>：</span> 捕获站点中使用的文本值。这是 eVar 最常见的类型，并且是默认设置。它与其他变量类似，其值是静态文本字符串。如果您要跟踪内部促销活动或内部搜索关键词等内容，则这是推荐的设置。 </p> <p> <b>计数器</b>：</span> 计算成功事件之前执行操作的次数。例如，如果使用 eVar 跟踪网站上的内部搜索，则将此值设置为<span class="uicontrol">文本字符串</span>以跟踪搜索词的使用。将此值设置为<span class="uicontrol">计数器</span>可累计搜索的次数，与使用的搜索词无关。例如，您可以使用计数器 eVar 来跟踪某人在进行购买前所用内部搜索的次数。 </p> </td> 
+   <td colname="col2"> <p>变量值类型： </p> <p> <b></b> Text String: Captures text values used on your site. </span>这是 eVar 最常见的类型，并且是默认设置。它与其他变量类似，其值是静态文本字符串。如果您要跟踪内部促销活动或内部搜索关键词等内容，则这是推荐的设置。 </p> <p> <b></b> 计数器</span>:计算成功事件之前执行操作的次数。 例如，如果使用 eVar 跟踪网站上的内部搜索，则将此值设置为<span class="uicontrol">文本字符串</span>以跟踪搜索词的使用。将此值设置为<span class="uicontrol">计数器</span>可累计搜索的次数，与使用的搜索词无关。例如，您可以使用计数器 eVar 来跟踪某人在进行购买前所用内部搜索的次数。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 分配 </span> </p> </td> 
-   <td colname="col2"> <p>确定变量在成功事件之前收到多个值时，Analytics 如何分配事件的信用。支持的值包括： </p> <p> <b></b>最近：在eVar过期之前，最后一个eVar值始终接收成功事件的信用。 </p> <p> <b>原始值</b>：在eVar过期之前，第一个eVar始终接收成功事件的信用。 </p> <p> <b> 线性</b>：在所有eVar值中平均分配成功事件。由于线性分配实际仅能在一次访问内分配值，所以应将线性分配与 eVar 访问过期结合使用。 </p> <p>注意：将分配切换至线性或从线性切换分配可防止显示历史数据。在报表界面中混合多种分配类型可导致在报表中错报数据。例如，线性分配可能会在大量不同的 eVar 值间划分收入。更改回最近分配后，100% 的收入都与最近单个值关联。这种关联可能会导致用户得出不正确的结论。 </p> <p>为避免在报表中可能产生混淆，Analytics 在界面中不显示历史数据。虽然您不该只是为了访问历史数据而更改 eVar 分配设置，但如果您确定要将给定的 eVar 更改回初始分配设置，则可以查看历史数据。已记录的数据需要新的分配设置时，Adobe 建议使用新的 eVar，而非更改已积累大量历史数据的 eVar 的分配设置。 </p> </td> 
+   <td colname="col2"> <p>确定变量在成功事件之前收到多个值时，Analytics 如何分配事件的信用。支持的值包括： </p> <p> <b>最近</b>:最后一个eVar值始终接收成功事件的信用，直到该eVar过期。 </p> <p> <b>Original Value</b>: The first eVar always receives credit for success events until that eVar expires. </p> <p> <b> 线性</b>：在所有eVar值之间平均分配成功事件。 由于线性分配实际仅能在一次访问内分配值，所以应将线性分配与 eVar 访问过期结合使用。 </p> <p>注意：将分配切换至线性或从线性切换分配可防止显示历史数据。在报表界面中混合多种分配类型可导致在报表中错报数据。例如，线性分配可能会在大量不同的 eVar 值间划分收入。更改回最近分配后，100% 的收入都与最近单个值关联。这种关联可能会导致用户得出不正确的结论。 </p> <p>为避免在报表中可能产生混淆，Analytics 在界面中不显示历史数据。虽然您不该只是为了访问历史数据而更改 eVar 分配设置，但如果您确定要将给定的 eVar 更改回初始分配设置，则可以查看历史数据。已记录的数据需要新的分配设置时，Adobe 建议使用新的 eVar，而非更改已积累大量历史数据的 eVar 的分配设置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 过期时间</span> </p> </td> 
@@ -76,12 +76,12 @@ eVar 最适合用于度量原因和影响，例如：
        <li id="li_82DB2D7F53304623A5E1241D75C7DF94">一个月过期：eVar 在自本星期一起 31 天后的上午 7:15 过期。 </li> 
       </ul> </li> 
      <li id="li_C132C5C5A5344B91BDF5EB6A1C717C37"><b>特定转化事件。</b>在指定的特定事件之后触发的任何其他转化事件与 eVar 相关联。 </li> 
-     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>从不。</b> 只要<span class="varname"> isitorID</span> cookie保持不变，任何时间量可在eVar和事件之间传递。 </li> 
+     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>从不。</b> 只要 <span class="varname"> visitorID</span> cookie is intact, any amount of time can pass between eVar and event. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 状态</span> </p> <p>（仅限 eVar） </p> </td> 
-   <td colname="col2"> <p>定义 eVar 状态： </p> <p><b>禁用</b>：</span> 禁用eVar。从转化变量列表中删除 eVar。 </p> <p> <b>无子关系</b>：</span> 防止您断开子关系的eVar。 </p> <p> <b>基本子关系</b>： </span>允许您按具有完全子关系的任何报告划分eVar(例如产品或营销活动)。 </p> </td> 
+   <td colname="col2"> <p>定义 eVar 状态： </p> <p><b></b> 禁用</span>:禁用eVar。 从转化变量列表中删除 eVar。 </p> <p> <b></b> 无子关系</span>:防止您使用子关系划分eVar。 </p> <p> <b>Basic Subrelations: Lets you break down an eVar by any report with full subrelations (for example, Products or Campaign).</b></span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol">重置</span> </p> </td> 
@@ -89,7 +89,7 @@ eVar 最适合用于度量原因和影响，例如：
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 促销</span> </p> <p>（仅限 eVar） </p> </td> 
-   <td colname="col2"> <p>促销变量可遵循以下两种语法之一： </p> <p> <b>产品语法</b>：</span> 将eVar值关联到某个产品。注意：如果选择“产品语法”，则“促销捆绑事件”区域会处于禁用状态，且无法选择该区域来进行编辑。对于此语法，“捆绑事件”不适用。 </p> </p> <p> <b>转换变量语法</b>：</span> 仅在发生绑定事件时将eVar与产品关联。在此情况下，您可以选择充当捆绑事件的事件。 </p> <p>更改此设置时，如果不相应更新 JavaScript 代码，则会导致数据丢失。请参阅<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=var_merchandising" format="http" scope="external">促销变量</a>。 </p> </td> 
+   <td colname="col2"> <p>促销变量可遵循以下两种语法之一： </p> <p> <b></b> 产品语法</span>:将eVar值与产品关联。 注意：如果选择“产品语法”，则“促销捆绑事件”区域会处于禁用状态，且无法选择该区域来进行编辑。对于此语法，“捆绑事件”不适用。 </p> </p> <p> <b></b> 转换变量语法</span>:仅在发生绑定事件时，才将eVar与产品关联。 在此情况下，您可以选择充当捆绑事件的事件。 </p> <p>更改此设置时，如果不相应更新 JavaScript 代码，则会导致数据丢失。请参阅<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/var_merchandising.html" format="http" scope="external">促销变量</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 促销捆绑事件</span> </p> <p>（仅限 eVar） </p> </td> 
