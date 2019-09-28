@@ -5,10 +5,10 @@ seo-title: 营销渠道中的分类
 solution: Analytics
 subtopic: 营销渠道
 title: 营销渠道中的分类
-topic: Reports & Analytics
-uuid: 8b31cff5-36a6-4072-b0 f9-f932 dc890 a87
+topic: Reports and Analytics
+uuid: 8b31cff5-36a6-4072-b0f9-f932dc890a87
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -25,11 +25,11 @@ Classifications that you add in this procedure display in the [!UICONTROL Market
 
 >[!NOTE]
 >
->Ensure that you are familiar with creating classifications in [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=classifications) in Analytics Reference help.
+>Ensure that you are familiar with creating classifications in [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) in Analytics Reference help.
 
 >[!IMPORTANT]
 >
->营销渠道分类报告的行为与标准分类略有不同：当您为首次触摸或上次触摸报表创建分类时，它们会自动应用于这两个报表。不对另一个进行分类，不能对其进行分类。
+>营销渠道分类报表的行为与标准分类略有不同：为首次联系或最近联系报表创建分类时，它们会自动应用于两者。 不能在不对另一个分类的情况下对一个分类。
 
 ## 营销渠道分类 - 定义 {#section_38D2F8BBA47D444780B65BD84156532D}
 
