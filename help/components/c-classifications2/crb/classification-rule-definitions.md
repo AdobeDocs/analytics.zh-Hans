@@ -1,19 +1,19 @@
 ---
 description: 分类规则生成器中的页面上界面元素的定义。
 seo-description: 分类规则生成器中的页面上界面元素的定义。
-seo-title: 分类规则-定义
+seo-title: 分类规则 - 定义
 solution: Analytics
 subtopic: 分类
-title: 分类规则-定义
+title: 分类规则 - 定义
 topic: 管理工具
-uuid: 77af8669-6e11-435c-9cc3-b03 eb627 c855
+uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
 
-# 分类规则-定义
+# 分类规则 - 定义
 
 分类规则生成器中的页面上界面元素的定义。
 
@@ -35,7 +35,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> <p>选择报表包和变量 </p> </td> 
-   <td colname="col2"> <p><b>报表包</b> </p> <p>要对其应用规则集的报表包。 </p> <p><b>变量</b> </p> <p>创建分类规则集时，只能应用一个变量。如果您要为一个变量创建多个规则集，则必须将每个规则集应用到多个报表包。 </p> <p>注意：您只能使用您在报表包中拥有访问权限的变量。只有在变量至少定义了一个分类后，变量才会在<span class="wintitle">新建规则集</span>面板中显示。 </p> <p>For example, to make <span class="term"> Pages</span> available as a variable to the rule set, ensure that the report suite has <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classifications.html" format="http" scope="external"> traffic classifications</a> implemented for <span class="term"> Page</span>. </p> <p> 您可以在<span class="uicontrol">管理员</span> &gt; <span class="uicontrol">报表包</span> &gt; <span class="uicontrol">流量</span> &gt; <span class="uicontrol">流量分类</span>（或<span class="uicontrol">转化</span> &gt; <span class="uicontrol">转化分类</span>）中对变量创建分类。然后选择该变量，并单击<span class="uicontrol">添加分类</span>。 </p> <p>请参阅管理员帮助中的<a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=traffic_classification_admin" format="https" scope="external">流量分类</a>和<a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=conversion_classifications" format="https" scope="external">转化分类</a>。 </p> </td> 
+   <td colname="col2"> <p><b>报表包</b> </p> <p>要对其应用规则集的报表包。 </p> <p><b>变量</b> </p> <p>创建分类规则集时，只能应用一个变量。如果您要为一个变量创建多个规则集，则必须将每个规则集应用到多个报表包。 </p> <p>注意：您只能使用您在报表包中拥有访问权限的变量。只有在变量至少定义了一个分类后，变量才会在<span class="wintitle">新建规则集</span>面板中显示。 </p> <p>例如，要使“页 <span class="term"> 面</span> ”作为规则集的变量可用，请确保报表包已为“页面”实施流量分类 <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classifications.html" format="http" scope="external"></a><span class="term"></span>。 </p> <p> 您可以在<span class="uicontrol">管理员</span> &gt; <span class="uicontrol">报表包</span> &gt; <span class="uicontrol">流量</span> &gt; <span class="uicontrol">流量分类</span>（或<span class="uicontrol">转化</span> &gt; <span class="uicontrol">转化分类</span>）中对变量创建分类。然后选择该变量，并单击<span class="uicontrol">添加分类</span>。 </p> <p>请参阅管理员帮助中的<a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classification_admin.html" format="https" scope="external">流量分类</a>和<a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html" format="https" scope="external">转化分类</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 激活</span> </p> </td> 
@@ -47,7 +47,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p>配置报表包和变量 </p> </td> 
-   <td colname="col2"> <p>显示<span class="wintitle">可用报表包</span>页，其中可以选择一个或多个用于所有规则集的可用报表包。（当您首次运行<span class="wintitle">分类规则生成器</span>时，此页面也会显示。） </p> <p>此功能旨在帮助减少存在成百上千个可用报表包时报表包的加载时间。 </p> <p>The report suites you select here are made available at the rule level, when you click <span class="uicontrol"> Add Suites</span> when creating a rule. </p> <p>Note: A report suite becomes available <span class="term"> only</span> when the report suites have at least one classification defined for the variable in <span class="wintitle"> Admin Tools</span>. <p>(See <span class="term"> Variable</span> in <a href="../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524" format="dita" scope="local"> Classification Rule Sets</a> for an explanation about this prerequisite.) </p> </p> </td> 
+   <td colname="col2"> <p>显示<span class="wintitle">可用报表包</span>页，其中可以选择一个或多个用于所有规则集的可用报表包。（当您首次运行<span class="wintitle">分类规则生成器</span>时，此页面也会显示。） </p> <p>此功能旨在帮助减少存在成百上千个可用报表包时报表包的加载时间。 </p> <p>The report suites you select here are made available at the rule level, when you click <span class="uicontrol"> Add Suites</span> when creating a rule. </p> <p>注意：仅当报表包在“管 <span class="term"> 理工具</span> ”中至少为变量定义了一个分类时，报表包才 <span class="wintitle"> 可用</span>。 <p>(有关此 <span class="term"> 入门项目的说明，请参</span><a href="../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524" format="dita" scope="local"></a> 阅分类规则集中的变量。) </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>规则会覆盖任何现有的值 </p> </td> 
