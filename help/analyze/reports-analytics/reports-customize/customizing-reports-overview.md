@@ -1,18 +1,18 @@
 ---
 description: 运行报表后，您可以自定义报表，以根据需要查看和分析数据。您可以过滤报表数据，以图形方式更改数据的呈现方式，更改日期粒度等。
 seo-description: 运行报表后，您可以自定义报表，以根据需要查看和分析数据。您可以过滤报表数据，以图形方式更改数据的呈现方式，更改日期粒度等。
-seo-title: 自定义报告概述
+seo-title: 自定义报表概述
 solution: Analytics
-title: 自定义报告概述
-topic: Reports & Analytics
-uuid: 37d221b7-50fd-4425-b2 ba-f40911 b72 a2 f
+title: 自定义报表概述
+topic: Reports and Analytics
+uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# 自定义报告概述
+# 自定义报表概述
 
 运行报表后，您可以自定义报表，以根据需要查看和分析数据。您可以过滤报表数据，以图形方式更改数据的呈现方式，更改日期粒度等。
 
@@ -38,7 +38,7 @@ t_reports_custom.xml
 
 >[!MORE_LIKE_THIS]
 >
->* [菜单自定义](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=customize_menus)
+>* [菜单自定义](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html)
 
 
 ## 选择日期或日期范围 {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -167,7 +167,7 @@ t_reports_compare_suites.xml
 * 访客资料
 * 自定义转换
 * 自定义流量
-* 目标
+* Target
 * 调查
 
 **比较报表包**
