@@ -1,22 +1,22 @@
 ---
 description: 标准报表显示网站和访客活动、流量模式、反向链接数据、广告促销活动、访客维系、产品数据等数据。您可以运行报表，然后使用工具来配置区段、量度和报表比较。
 seo-description: 标准报表显示网站和访客活动、流量模式、反向链接数据、广告促销活动、访客维系、产品数据等数据。您可以运行报表，然后使用工具来配置区段、量度和报表比较。
-seo-title: 报告概述
+seo-title: 报表概述
 solution: Analytics
-title: 报告概述
+title: 报表概述
 topic: Ad Hoc Analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# 报告概述
+# 报表概述
 
 标准报表显示网站和访客活动、流量模式、反向链接数据、广告促销活动、访客维系、产品数据等数据。您可以运行报表，然后使用工具来配置区段、量度和报表比较。
 
-## Reports overview {#concept_41459A705F2048EEA4EFA80F6BD9FFAB}
+## 报表概述 {#concept_41459A705F2048EEA4EFA80F6BD9FFAB}
 
 标准报表显示网站和访客活动、流量模式、反向链接数据、广告促销活动、访客维系、产品数据等数据。您可以运行报表，然后使用工具来配置区段、量度和报表比较。
 
@@ -61,7 +61,7 @@ c_reports_campaigns.xml
 
  -->
 
-这些报表通常是自定义报表，因此与每个分析报表不同。See [Campaign Manager](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=campaign_manager_admin) in the [!DNL Admin Console] help for more information.
+这些报表通常是自定义报表，因此与每个分析报表不同。See [Campaign Manager](https://marketing.adobe.com/resources/help/en_US/reference/campaign_manager_admin.html) in the [!DNL Admin Console] help for more information.
 
 ## 统计计算 {#concept_83FF70DB7895435E985699FE9012D585}
 
@@ -82,7 +82,7 @@ c_Statistical_Calculation_ad_hoc.xml
 1. Select **[!UICONTROL Settings]**.
 1. Select **[!UICONTROL Default Statistics]**.
 
-**[!UICONTROL 在统计计算中忽略零]**。选择此选项可以忽略零，并确保添加其他量度时不会更改已计算出的平均值。所有统计信息均受此设置的影响（不过它对“总计”没有影响）。
+**[!UICONTROL 忽略统计计算中的零]**。 选择此选项可以忽略零，并确保添加其他量度时不会更改已计算出的平均值。所有统计信息均受此设置的影响（不过它对“总计”没有影响）。
 
 | 计算 | 描述 |
 |--- |--- |
