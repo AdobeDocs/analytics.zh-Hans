@@ -1,18 +1,18 @@
 ---
 description: 运行不同报告类型的步骤。
 seo-description: 运行不同报告类型的步骤。
-seo-title: 运行不同的报告类型
+seo-title: 运行不同的报表类型
 solution: Analytics
-title: 运行不同的报告类型
-topic: 报表,Reports & Analytics
-uuid: f59ab2a1-e916-46e8-bb5 b-e6361 ba00 dda
+title: 运行不同的报表类型
+topic: 报表, Reports and Analytics
+uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: ad6ba22acf6996aa038c5a3252cae8bddbf0b36a
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
 
-# 运行不同的报告类型
+# 运行不同的报表类型
 
 运行不同报告类型的步骤。
 
@@ -62,7 +62,7 @@ t_reports_conversion_funnel.xml
 
 To run this report, select a report, such as a Pages report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Campaigns]** &gt; **[!UICONTROL Tracking Code]** &gt; **[!UICONTROL Campaign Conversion Funnel]**).
 
-有关描述，请参阅[转化报表](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_conversion)。
+有关描述，请参阅[转化报表](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html)。
 
 ## 运行流失报表 {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -88,7 +88,7 @@ t_reports_fallout.xml
 
 >[!MORE_LIKE_THIS]
 >
->* [流失报表描述](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_fallout)
+>* [流失报表描述](https://marketing.adobe.com/resources/help/en_US/reference/reports_fallout.html)
 
 
 ## 运行页面流量报表 {#task_133E8B87C3F04DA0A42D10CBA499305B}
@@ -103,7 +103,7 @@ t_reports_page_flow.xml
 
 在 Analysis Workspace 中查看新的[流量可视化](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html)！
 
-运行[路径](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_paths)报表。
+运行[路径](https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html)报表。
 
 For example, click **[!UICONTROL Reports]** &gt; **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Next Page Flow]**.
 
@@ -129,7 +129,7 @@ t_reports_funnel.xml
 
  -->
 
-1. Click **[!UICONTROL Reports]** &gt; **[!UICONTROL Products]** &gt; [Products Conversion Funnel](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_conversion_funnel).
+1. Click **[!UICONTROL Reports]** &gt; **[!UICONTROL Products]** &gt; [Products Conversion Funnel](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion_funnel.html).
 
 ## 运行营销渠道报表 {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -155,11 +155,11 @@ t_anomaly_view.xml
 
 在 Analysis Workspace 中查看新的[异常检测和贡献分析](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)功能！
 
-**[!UICONTROL “报告]** ”&gt; **[!UICONTROL “站点度量”]** &gt; **[!UICONTROL “异常检测]** ”。
+**[!UICONTROL 报告]** &gt; **[!UICONTROL 站点度量]** &gt;异 **[!UICONTROL 常检测]** 。
 
 >[!NOTE]
 >
->您还可以从Analysis Workspace项目中运行异常检测。[更多...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
+>You can also run Anomaly Detection from within Analysis Workspace projects. [更多...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
 
 有关设置异常检测的信息，请参阅《[参考指南](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Setting_up_Anomaly_Detection)》。
 
@@ -184,9 +184,9 @@ t_anomaly_view.xml
       <li id="li_85C0F426952547B5A75D6BD31DE19CA5">偏差百分比值（位于图表左侧）是按照下面的方法计算的： 
        <ul id="ul_BEC0A88BFFAC4CF78BC9885FEB749694"> 
         <li id="li_1BAB2F50482745B69937DFAF1E09982E">如果上限与期望值相同，则偏差百分比为 100%。 </li> 
-        <li id="li_CA48064F5788448C8646CCE196161237">否则，偏差%为(实际值-上限值)/(上限值-预期值))*100 </li> 
-        <li id="li_4090357A0D214BC7B1C3DE0615875554">如果下边界和预期值相同，则偏差%is-100% </li> 
-        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">否则，偏差为%is((下限值-实际值)/(预期值-下限值))*-100 </li> 
+        <li id="li_CA48064F5788448C8646CCE196161237">否则，偏差%为(（实际值——上界值）/（上界值——预期值）)* 100 </li> 
+        <li id="li_4090357A0D214BC7B1C3DE0615875554">If the lower bounds and the expected value are the same, the deviation % is -100% </li> 
+        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">Otherwise the deviation % is ((lower bound value - actual value) / (expected value - lower bound value)) * -100 </li> 
        </ul> </li> 
       <li id="li_5C05EF7023484CC993E96D63E842B65C">单击<span class="uicontrol">显示区段</span>可显示区段边栏，以允许您将区段应用到异常检测报表。请参阅有关分段的<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/" format="http" scope="external">更多信息</a>。 </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">单击<span class="uicontrol">编辑量度</span>可让您选择和取消选择要为其检测异常的量度。 </li> 
@@ -270,7 +270,7 @@ reports_realtime.xml
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>选择报表包</strong></td> 
-   <td class="chdesc stentry"> 显示此实时报表涵盖的报表包。要更改报表包，请参阅<a href="https://marketing.adobe.com/resources/help/en_US/reference/?f=t_realtime_admin" format="http" scope="external">实时报表配置</a>。 </td> 
+   <td class="chdesc stentry"> 显示此实时报表涵盖的报表包。要更改报表包，请参阅<a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html" format="http" scope="external">实时报表配置</a>。 </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>切换报表</strong></td> 
