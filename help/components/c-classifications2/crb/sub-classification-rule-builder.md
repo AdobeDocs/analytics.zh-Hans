@@ -1,23 +1,23 @@
 ---
 description: 您可以结合使用分类规则生成器和子分类，以简化分类管理和减少所需的规则数量。如果您的跟踪代码中包含需要单独分类的代码，您可能需要此功能。
 seo-description: 您可以结合使用分类规则生成器和子分类，以简化分类管理和减少所需的规则数量。如果您的跟踪代码中包含需要单独分类的代码，您可能需要此功能。
-seo-title: 子分类和规则生成器-用例
+seo-title: 子分类和规则生成器 - 用例
 solution: Analytics
 subtopic: 分类
-title: 子分类和规则生成器-用例
+title: 子分类和规则生成器 - 用例
 topic: 管理工具
-uuid: db6a4a9a9-b93 c-413b-8049-1e6 cc1 a38
+uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# 子分类和规则生成器-用例
+# 子分类和规则生成器 - 用例
 
 您可以结合使用分类规则生成器和子分类，以简化分类管理和减少所需的规则数量。如果您的跟踪代码中包含需要单独分类的代码，您可能需要此功能。
 
-## Sub-classifications and the Rule Builder - use case {#concept_6C8672C242544D7487E82886BBFABE6E}
+## 子分类和规则生成器 - 用例 {#concept_6C8672C242544D7487E82886BBFABE6E}
 
 您可以结合使用分类规则生成器和子分类，以简化分类管理和减少所需的规则数量。如果您的跟踪代码中包含需要单独分类的代码，您可能需要此功能。
 
@@ -49,13 +49,13 @@ t_rule_builder_subclass.xml
 
 >[!NOTE]
 >
->These steps describe how to accomplish the use case described in [Sub-Classifications and the Rule Builder](../../../components/c-classifications2/crb/sub-classification-rule-builder.md).
+>These steps describe how to accomplish the use case described in Sub-Classifications and the Rule Builder.[](../../../components/c-classifications2/crb/sub-classification-rule-builder.md)
 
-1. 在[分类管理器](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=classifications)中创建分类和子分类。
+1. 在[分类管理器](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)中创建分类和子分类。
 
    示例：
 
-   ![步骤信息](assets/sub_class_create.png)
+   ![Step Info](assets/sub_class_create.png)
 
 1. In the [Classifications Rule Builder](../../../components/c-classifications2/crb/classification-rule-builder.md#concept_C1F219E622044D43852EF5168FF7192A), classify the sub-classification key from the original tracking code.
 
@@ -72,17 +72,17 @@ t_rule_builder_subclass.xml
 
 1. 上载仅包含指定子分类的分类文件。
 
-   See [Multiple-Level Classifications](../../../components/c-classifications2/c-sub-classifications.md#concept_35AD906CDDC4441DAAF70664CF76AA0A).
+   See Multiple-Level Classifications.[](../../../components/c-classifications2/c-sub-classifications.md#concept_35AD906CDDC4441DAAF70664CF76AA0A)
 
    示例：
 
-   | 键值 | 渠道 | 广泛促销活动代码 | 广泛的Campaign代码和amp；Hat；Campaign类型 | 广泛的Campaign代码和amp；Hat；系列活动总监 | ... |
+   | 键值 | 渠道 | 广泛促销活动代码 | Broad Campaign code&amp;Hat;Campaign type | Broad Campaign code&amp;Hat;Campaign Director | ... |
    |---|---|---|---|---|---|
    | * |  | 111 | 品牌 | Suzanne |  |
    | * |  | 222 | 品牌 | Frank |  |
 
 1. 要维护查找表，请上载一个小文件（如上方所示）。
 
-   You would upload this file, for example, when a new *`Broad Campaign code`* is introduced. 此文件将应用于之前分类的值。同样，如果您创建了新的子分类（例如&#x200B;*`Creative Theme`* 作为子分类 *`Creative code`*，您只上传子分类文件，而不是整个分类文件。
+   You would upload this file, for example, when a new *`Broad Campaign code`* is introduced. 此文件将应用于之前分类的值。同样，如果您创建了新的子分类（例如  as a sub-classification of ), you upload only the sub-classification file, rather than the entire classification file.*`Creative Theme`**`Creative code`*
 
    这些子分类函数的报告方式与顶级分类类似。这降低了使用它们所需的管理负担。
