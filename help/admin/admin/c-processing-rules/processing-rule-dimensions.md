@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 处理规则
 title: 可用于处理规则的维度
 topic: 管理工具
-uuid: ba73ab59-a8 cf-491c-8757-5fb03 d6 b0745
+uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
   </tr> 
   <tr> 
    <td colname="col1"> <p>上下文数据变量 </p> </td> 
-   <td colname="col2"> <p>随点击发送的命名变量。 </p> <p>注意：上下文数据变量中包含的任何数据都必须复制到报表变量中才能显示在报表中。上下文数据变量不可在任何报表界面（包括点击流数据馈送）中查看。 </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> 将上下文数据变量复制到eVar </a> </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682" format="dita" scope="local"> 使用上下文数据变量设置活动 </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables" format="http" scope="external"> 上下文数据变量</a> </p> </td> 
+   <td colname="col2"> <p>随点击发送的命名变量。 </p> <p>注意：上下文数据变量中包含的任何数据都必须复制到报表变量中才能显示在报表中。上下文数据变量不可在任何报表界面（包括点击流数据馈送）中查看。 </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> Copy a Context Data Variable to an eVar </a> </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682" format="dita" scope="local"> 使用上下文数据变量设置事件 </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html" format="http" scope="external"> 上下文数据变量</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -115,7 +115,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
   </tr> 
   <tr> 
    <td colname="col1"> <p>页面查询字符串 </p> </td> 
-   <td colname="col2"> <p>URL 的完整查询字符串。https://en.main.example.co.uk/index.jsp？<span class="syntax codeph"> q=value</span> </p> </td> 
+   <td colname="col2"> <p>URL 的完整查询字符串。https://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=value</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>反向链接*（只读） </p> </td> 
@@ -135,7 +135,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
   </tr> 
   <tr> 
    <td colname="col1"> <p>反向链接查询字符串（只读） </p> </td> 
-   <td colname="col2"> <p>反向链接 URL 中包含的查询字符串参数。https://en.main.example.co.uk/index.jsp？<span class="syntax codeph"> q=value</span> </p> </td> 
+   <td colname="col2"> <p>反向链接 URL 中包含的查询字符串参数。https://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=value</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>IP 地址（只读） </p> </td> 
