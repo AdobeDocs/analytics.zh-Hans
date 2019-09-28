@@ -1,14 +1,14 @@
 ---
 description: 在 Adobe Analytics 中实施“加速移动网页”(AMP) 项目。
-keywords: Analytics实施；amp；amp-analytics；adobeAnalytics模板；adobeAnalytics_ nativeConfig模板；单击跟踪；访客膨胀；id服务
+keywords: Analytics Implementation;amp;amp-analytics;adobeanalytics template;adobeanalytics_nativeConfig template;click tracking;visitor inflation;id service
 seo-description: 在 Adobe Analytics 中实施“加速移动网页”(AMP) 项目。
 seo-title: Accelerated Mobile Pages（“加速移动网页”项目）
 solution: Analytics
 title: Accelerated Mobile Pages（“加速移动网页”项目）
 topic: 开发人员和实施
-uuid: c86e4a80-7191-4ee7-ab20-787730026c4 b
+uuid: c86e4a80-7191-4ee7-ab20-787730026c4b
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -38,7 +38,7 @@ AMP 把一些经过特殊标记的 HTML 页面，缓存在参与此项目的技�
 
 为了解决这些问题，Adobe 与 AMP 合作伙伴及发布者联合推出了两个选项（都用到了 `amp-analytics` 标记），发布者可从中选取最适合其业务需求的选项。The first approach uses the `"adobeanalytics"` tracking template to construct the Analytics request directly from within the AMP. The second approach uses the `"analytics_nativeConfig"` tracking template, which uses an iframe containing the AppMeasurement code you deploy on your normal site. 下表为您展示了两种方法各自的优缺点。
 
-|  | **adobeanalytics 模板** | **“adobeAnalytics_ nativeConfig”模板** |
+|  | **adobeanalytics 模板** | ** "adobeanalytics_nativeConfig" template** |
 |---|---|---|
 | 访客/访问计数（在现有的报表包中） | 虚增较高 | 虚增极低 |
 | 使用单独的报表包 | 推荐 | 不需要 |
@@ -50,9 +50,9 @@ AMP 把一些经过特殊标记的 HTML 页面，缓存在参与此项目的技�
 
 ## 将 amp-analytics 标记与“adobeanalytics”模板结合使用 {#section_2E4EBF4EF623440D95DE98E78C47244E}
 
-`"adobeanalytics"`跟踪模板利用 `amp-analytics` 标签直接构建跟踪请求。Using the `"adobeanalytics"` template in the `amp-analytics` tag, you can specify hit requests that fire on specific page events, like the page becoming visible or on a click (and in the future, video views and more). 通过指定一个选择器，可自定义若干个单击事件，以应用到某些元素 ID 或类中。Adobe has made this easy to set up using the `"adobeanalytics"` template specifically designed for [!DNL Adobe Analytics]. You can load the template by adding `type="adobeanalytics"` to the amp-analytics tag.
+The `"adobeanalytics"`tracking template utilizes the `amp-analytics` tag to construct a tracking request directly. Using the `"adobeanalytics"` template in the `amp-analytics` tag, you can specify hit requests that fire on specific page events, like the page becoming visible or on a click (and in the future, video views and more). 通过指定一个选择器，可自定义若干个单击事件，以应用到某些元素 ID 或类中。Adobe has made this easy to set up using the `"adobeanalytics"` template specifically designed for [!DNL Adobe Analytics]. You can load the template by adding `type="adobeanalytics"` to the amp-analytics tag.
 
-在下列代码示例中，定义了两个触发程序：`pageLoad` 和 `click`。`pageLoad` 当文档可见并将包括在中定义的 `pageName` 变量 `vars section`时，触发器将触发。第二个触发程序 `click` 会在单击按钮时触发。`eVar 1` will be set for this event with the value `button clicked`.
+在下列代码示例中，定义了两个触发程序：`pageLoad` 和 `click`。The `pageLoad` trigger will fire when the document becomes visible and will include the `pageName` variable as defined in the `vars section`. 第二个触发程序 `click` 会在单击按钮时触发。`eVar 1` 将设置此事件的值 `button clicked`。
 
 ```
   <amp-analytics type="adobeanalytics"> 
@@ -89,7 +89,7 @@ AMP 把一些经过特殊标记的 HTML 页面，缓存在参与此项目的技�
 
 此外，`amp-analytics` 支持若干变量替换，因此 AMP 能够提供它感知到的数据值。更多信息，请访问 [amp-analytics 变量文档](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md)。
 
-请注意，如果您要整合任何技术或 DOM 变量（例如，浏览器、屏幕大小、设备、反向链接，等等），则必须显式地将它们添加到任意请求中，因为它们无法自动生成。您可以在[此处](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=query_parameters)找到用于跟踪的各个查询字符串参数的文档。
+请注意，如果您要整合任何技术或 DOM 变量（例如，浏览器、屏幕大小、设备、反向链接，等等），则必须显式地将它们添加到任意请求中，因为它们无法自动生成。您可以在[此处](https://marketing.adobe.com/resources/help/en_US/sc/implement/query_parameters.html)找到用于跟踪的各个查询字符串参数的文档。
 
 如果您查看由 amp-analytics 创建的点击事件，会发现在各个请求中，Adobe 都已经包含了 `vid` 查询参数。我们基于内建的 AMP 函数来设置 `vid`，以设置一个名为 `adobe_amp_id` 的自定义 Analytics Cookie ID。此 ID 独立于 [!DNL Adobe Analytics] 在其他地方设置的任何其他 ID（例如，`s_vi cookie`），并且会在接收点击事件的任意报表包中创建新访客。
 
@@ -99,7 +99,7 @@ AMP 把一些经过特殊标记的 HTML 页面，缓存在参与此项目的技�
 
 ## 将 amp-analytics 标记与“adobeanalytics_nativeConfig”模板结合使用 {#section_3556B68304A4492991F439885727E9FF}
 
-`"adobeanalytics_nativeConfig"` 标签更易于实施，因为它将使用您在普通网页上使用的相同标记方法。要完成此操作，请将下列内容添加至您的 `amp-analytics` 标记中：
+The `"adobeanalytics_nativeConfig"` tag is easier to implement, as it will use the same tagging methodology you use on your normal web pages. 要完成此操作，请将下列内容添加至您的 `amp-analytics` 标记中：
 
 ```
 <amp-analytics type="adobeanalytics_nativeConfig"> 
@@ -123,7 +123,7 @@ AMP 把一些经过特殊标记的 HTML 页面，缓存在参与此项目的技�
 
 这种方法会通过添加至 `iframeMessage` 请求参数的特别查询字符串参数，将数据发送至实用工具网页。在本例中，请注意我们已经将 `ampdocUrl AMP` 变量和 `documentReferrer` 添加至查询字符串参数 `pageURL`，并与上述 `iframeMessage` 请求一一对应。其他查询字符串参数可以随意命名，只要将 [!DNL stats.html] 页面（如下所示）配置为从这些参数中收集合适的数据即可。
 
-`"adobeanalytics_nativeConfig"` 模板还根据amp分析标记部分 `extraUrlParams` 中所列变量添加查询字符串参数。在本例中，您可以看到我们已经指定了 `pageName` 和 `v1` 参数，它们将被我们的 [!DNL stats.html] 页面使用。
+The `"adobeanalytics_nativeConfig"` template also adds query string parameters based on the variables listed in the `extraUrlParams` section of the amp-analytics tag. 在本例中，您可以看到我们已经指定了 `pageName` 和 `v1` 参数，它们将被我们的 [!DNL stats.html] 页面使用。
 
 Be aware that you can only use a single `amp-analytics` template at a time and can not use the `"adobeanalytics"` template as well as the `"adobeanalytics_nativeConfig"` template on the same AMP. 如果您试图这样做，则可能会在浏览器控制台中看到错误消息，并造成访客数量虚增。
 
@@ -211,7 +211,7 @@ AMP 项目发展迅速、变化频繁，因此请经常回访[此处](https://gi
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="keyword">Experience Cloud</span> ID 服务是什么？我需要这项服务吗？ </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Identity Service </a> (以前称为 <span class="term"> 访客ID服务 </span>)支持 <span class="keyword"> Experience Cloud </span> 核心服务，并允许在不同的Adobe <span class="keyword"> Experience Cloud </span> 解决方案之间集成。如果您集成了 <span class="keyword">Adobe 受众管理器</span>或 <span class="keyword">Adobe Target</span>，那么您可以使用此服务。此服务也是众多即将推出的 <span class="keyword">Adobe Analytics</span> 功能的基础。如果您现在或将来需要 ID 服务支持，我们建议您使用 <code>iframeMessage</code> 解决方案。 </p> </td> 
+   <td colname="col2"> <p>The  Identity Service  (formerly  visitor ID service ) enables  Experience Cloud  core services and allows integrations between different Adobe  Experience Cloud  solutions. <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"></a><span class="term"></span><span class="keyword"></span><span class="keyword"></span>如果您集成了 <span class="keyword">Adobe 受众管理器</span>或 <span class="keyword">Adobe Target</span>，那么您可以使用此服务。此服务也是众多即将推出的 <span class="keyword">Adobe Analytics</span> 功能的基础。如果您现在或将来需要 ID 服务支持，我们建议您使用 <code>iframeMessage</code> 解决方案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>对于 <code>adobeanalytics_nativeConfig</code> 模板而言，我应该将实用工具页面托管在哪里？ </p> </td> 
