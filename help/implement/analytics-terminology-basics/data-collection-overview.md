@@ -1,14 +1,14 @@
 ---
 description: 了解 Adobe Analytics 如何将网站访问数据变成报告。
-keywords: Analytics实施；数据收集
+keywords: Analytics Implementation;data collection
 seo-description: 了解 Adobe Analytics 如何将网站访问数据变成报告。
 seo-title: 数据收集
 solution: Analytics
 title: 数据收集
 topic: 开发人员和实施
-uuid: d0d6098d-113e-4cf5-bb89-e435 f7 b6 b1 af
+uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -61,7 +61,7 @@ Adobe 已创建了多种方法可将数据发送到 Analytics。这些方法包�
 
    >[!NOTE]
    >
-   >每个图像请求都包含一个随机数字字符串，以防止浏览器缓存并确保浏览器发出后续图像请求。
+   >每个图像请求都包含一个随机数字符串，以防止浏览器缓存并确保浏览器发出后续的图像请求。
 
 1. Adobe 返回透明的像素图像。
 
@@ -69,11 +69,11 @@ Adobe 已创建了多种方法可将数据发送到 Analytics。这些方法包�
 
    代码自动收集其他的详细信息（例如，操作系统、浏览器类型、浏览器高度和宽度、IP 地址和浏览器语言）。
 
-1. Adobe servers store web analysis data in *`report suites`* (your data repository).
+1. Adobe服务器将Web分析数据存储在 *`report suites`* （您的数据存储库）中。
 
    ![](assets/how-data-is-collected-5.png)
 
-   [报表包](https://marketing.adobe.com/resources/help/en_US/reference/?f=report_suites_admin)可以针对选定的网站、网站集合或网页的子集，定义完整、独立的报表。
+   [报表包](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)可以针对选定的网站、网站集合或网页的子集，定义完整、独立的报表。
 
 1. 报表包数据会填充您可以在 Web 浏览器中访问的报表。
 
@@ -93,7 +93,7 @@ Adobe 已创建了多种方法可将数据发送到 Analytics。这些方法包�
 * [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/c_getting_started.html)
 * [数据源](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_datasources.html)
 * [Data Connectors](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_genesis.html)
-* [Analytics 数据馈送](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md)的权限
+* [Analytics 数据馈送](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md)
 
 >[!MORE_LIKE_THIS]
 >       
