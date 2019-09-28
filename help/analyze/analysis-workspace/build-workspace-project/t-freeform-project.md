@@ -2,28 +2,28 @@
 description: 创建一个项目并将组件（维度、量度、区段、日期范围）添加到自由格式面板。
 keywords: Analysis Workspace
 seo-description: 创建一个项目并将组件（维度、量度、区段、日期范围）添加到自由格式面板。
-seo-title: 创建Workspace项目
+seo-title: 创建 Workspace 项目
 solution: Analytics
-title: 创建Workspace项目
-topic: Reports & Analytics
-uuid: c1def77a-a76 e-4699-9b-1ede5 b70 b7 ba
+title: 创建 Workspace 项目
+topic: Reports and Analytics
+uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# 创建Workspace项目
+# 创建 Workspace 项目
 
 创建一个项目并将组件（维度、量度、区段、日期范围）添加到自由格式面板。
 
 在本篇文章中，您可以熟悉 Analysis Workspace 的界面元素，并了解如何创建项目。For specific use cases, see [Use Cases for Analysis Workspace](../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B).
 
-## 创建项目
+## Create a project
 
 1. 指定创建和管理项目的用户权限。
 
-   创建或组织 Analysis Workspace 项目之前，管理员必须要将您添加到具有&#x200B;**[!UICONTROL 在 Analysis Workspace 中创建/组织项目]**&#x200B;权限的组，或者添加到&#x200B;**全部报表访问]用户组。[!UICONTROL **( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; [Groups](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups)).
+   创建或组织 Analysis Workspace 项目之前，管理员必须要将您添加到具有&#x200B;**[!UICONTROL 在 Analysis Workspace 中创建/组织项目]**&#x200B;权限的组，或者添加到&#x200B;**全部报表访问]用户组。[!UICONTROL **( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; [Groups](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)).
 
 1. In the [!DNL Experience Cloud], click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**.
 
@@ -53,7 +53,7 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
 
    >[!NOTE]
    >
-   >有时，在加载项目(或切换到报表包)时会显示“不兼容的报告包”消息，其中，项目中包括的所有组件(指标/维度)均包括在报表包中。您可以看到不兼容的组件列表，这样便可以了解为什么会收到该消息。
+   >有时，在加载项目（或切换到报表包）时，“不兼容的报表包”消息会显示，其中并非项目中包含的所有组件（度量／维度）都包含在报表包中。 您可以看到不兼容的组件列表，这样便可以了解为什么会收到该消息。
 
 <table id="table_3989E45D9D4241CBB2E58B29DA257B2F"> 
  <thead> 
@@ -68,7 +68,7 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
    <td colname="col2"> <p>可拖入项目中的维度、量度、区段和日期范围。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276" format="dita" scope="local"> 可视化信息</a> </td> 
+   <td colname="col1"><a href="../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276" format="dita" scope="local"> 可视化</a> </td> 
    <td colname="col2"> <p>这些项目可拖至界面上的面板或项目区域中。 </p> </td> 
   </tr> 
   <tr> 
@@ -88,11 +88,11 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
 
    >[!NOTE]
    >
-   >复制/另存为后，内部链接现在相对于它们所在的项目(而非复制的原始项目)。
+   >After you copy/save-as, the intra-links are now relative to the project they live within, not the original project they were copied from.
 
 ## 添加组件和可视化 {#task_CDAC9B3007BE4A3790AFAD3746D669B1}
 
-1. Build your project by dragging *`components`* and *`visualizations`* to the project.
+1. 通过拖动和拖到项 *`components`* 目来 *`visualizations`* 构建项目。
 
    **组件**
 
@@ -112,11 +112,11 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
   </tr> 
   <tr> 
    <td colname="col1"> 量度（绿色） </td> 
-   <td colname="col2"> <p>应用于项目级别。 </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> 发生次数</span> 是数据表的默认量度。 </p> </td> 
+   <td colname="col2"> <p>应用于项目级别。 </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> 发生次数</span> ，是数据表的默认度量。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 区段（蓝色） </td> 
-   <td colname="col2"> <p>只能在面板级别进行拖动，不过，您可以在数据表中创建内联区段。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>See <a href="../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B" format="dita" scope="local"> Use Cases for Analysis Workspace</a> for more information. </p> </td> 
+   <td colname="col2"> <p>只能在面板级别进行拖动，不过，您可以在数据表中创建内联区段。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>See  Use Cases for Analysis Workspace for more information.<a href="../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B" format="dita" scope="local"></a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 日期范围和粒度（紫色） </td> 
