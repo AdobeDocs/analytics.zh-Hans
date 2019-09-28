@@ -6,7 +6,7 @@ solution: Experience Cloud,Analytics
 title: 客户属性
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 * [Analytics 中的客户属性和报表量度](../../../components/c-variables/dimensionslist/reports-customer-attributes.md#section_EF343662146B460A882D3DF772ADD86D)
 * [常见问题解答 - Analytics 中的客户属性](../../../components/c-variables/dimensionslist/reports-customer-attributes.md#section_E29641D1F3D649C1AC9EA5231921F038)
 
-请参阅 Experience Cloud 帮助中的[客户属性](https://marketing.adobe.com/resources/help/en_US/mcloud/index.html?f=attributes)，以了解有关上载客户属性数据的信息。
+请参阅 Experience Cloud 帮助中的[客户属性](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html)，以了解有关上载客户属性数据的信息。
 
 ## Analytics 中的客户属性和报表量度 {#section_EF343662146B460A882D3DF772ADD86D}
 
@@ -58,8 +58,8 @@ Because metrics are sums in a report table, you should [create a calculated metr
    <td colname="col1"> <p>为什么最好使用Identity service设置客户ID而不是填充prop或eVar中的客户ID? </p> </td> 
    <td colname="col2"> <p>使用Identity service可提供许多优点： </p> 
     <ul id="ul_5D3659604D43419F9CA5920B4F93728E"> 
-     <li id="li_BA2EF0715C5A47EFAFA7191CFAD088A4">如果您未通过Identity service设置客户ID，则客户记录仅可用于Adobe Analytics。 如果要将客户记录用于实时定位，则必须使用Identity Service。 </li> 
-     <li id="li_228358684E474A298E39578D427BF932">使用Identity service设置客户ID可缩短将ID与Experience cloud同步所需的时间。 如果在 prop 或 eVar 中放置客户 ID，则会通过批量进行的后端服务器同步将客户 ID 发送至 Experience Cloud。Identity service会立即将客户ID与Experience cloud同步。 </li> 
+     <li id="li_BA2EF0715C5A47EFAFA7191CFAD088A4">If you do not set the Customer ID with the Identity Service, the customer records are available only to Adobe Analytics. 如果要将客户记录用于实时定位，则必须使用Identity Service。 </li> 
+     <li id="li_228358684E474A298E39578D427BF932">使用Identity service设置客户ID可缩短将ID与Experience cloud同步所需的时间。 如果在 prop 或 eVar 中放置客户 ID，则会通过批量进行的后端服务器同步将客户 ID 发送至 Experience Cloud。The Identity Service synchronizes the Customer ID with the Experience Cloud immediately. </li> 
      <li id="li_BCF28219E4014FCF9F747C3D8D270526"> 使用Identity service而不是prop或eVar可释放该prop或eVar以供其他使用。 </li> 
     </ul> </td> 
   </tr> 
