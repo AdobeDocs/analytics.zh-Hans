@@ -4,10 +4,10 @@ seo-description: 文件下载有助于了解访客从您的网站下载文件的
 seo-title: 文件下载
 solution: Analytics
 title: 文件下载
-topic: 报表
-uuid: 897fc221-aa30-4eac-aca6-bcb76 adaf71
+topic: 报告
+uuid: 897fc221-aa30-4eac-aca6-bcb76adaf71
 translation-type: tm+mt
-source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
 
 **导航**
 
-**[!UICONTROL “报告]** ”&gt; **[!UICONTROL “站点内容]** ”&gt; **[!UICONTROL “链接]** ”&gt; **[!UICONTROL “文件下载”]**
+**[!UICONTROL 报告]** &gt;站 **[!UICONTROL 点内容]** &gt;链 **[!UICONTROL 接]** &gt;文件 **[!UICONTROL 下载]**
 
 如果该报表不在默认位置，请咨询您的管理员，他们可能已更改了默认菜单结构，以更好地满足您组织的独特需求。
 
@@ -30,14 +30,14 @@ source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
 
    例如，或许您正在将用户手册翻译成十二种语言，并通过您的网站提供这些手册。使用文件下载报表，您可以了解下载每个用户手册版本的频度，评估是否有必要继续将用户手册翻译成全部十二种语言。
 
-**疑难解答**
+**故障诊断**
 
 市场营销报告从包含 JavaScript 代码的网站上的任意页面捕获下载文件的相关信息。但是，特定变量必须存在并经过正确设置，才会报告文件下载信息。如果报表无法显示数据或无法显示预期的值，请按照以下步骤验证您的实施。
 
-1. 在您的网站上找到全局 JavaScript 文件。该文件通常名为 [!DNL s_code.js]，但可能已被重命名。If it has been renamed, you can search the JavaScript files on your site for the value *`s.account`*, which is a part of the JavaScript code.
+1. 在您的网站上找到全局 JavaScript 文件。该文件通常名为 [!DNL s_code.js]，但可能已被重命名。如果它已重命名，则可以在站点上搜索该值的JavaScript文件 *`s.account`*，该值是JavaScript代码的一部分。
 
-1. 在文件中找到 [s.trackDownloadLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_trackdownllinks) 变量。确保将其设置为 *true*。
+1. 在文件中找到 [s.trackDownloadLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_trackdownllinks.html) 变量。确保将其设置为 *true*。
 
-1. 找到 [s.linkDownloadFileTypes](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_linkdownfiletypes) 变量。确保所需的所有文件扩展名都出现在列表中。If necessary, add missing extensions like [!DNL .zip], [!DNL .pdf], and so on.)
+1. 找到 [s.linkDownloadFileTypes](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkdownfiletypes.html) 变量。确保所需的所有文件扩展名都出现在列表中。If necessary, add missing extensions like [!DNL .zip], [!DNL .pdf], and so on.)
 
 如果这些变量配置正确，但[!UICONTROL 文件下载报表]仍无法接收数据，则贵组织的受支持用户应与客户关怀团队联系。
