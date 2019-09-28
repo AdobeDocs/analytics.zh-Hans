@@ -4,10 +4,10 @@ seo-description: 当您想要详细了解报表项目或区段如何与其他报
 seo-title: 划分
 solution: Analytics
 title: 划分
-topic: Reports & Analytics
-uuid: a49fa18b-f518-4d1 a-a4 db-793451b427 cc
+topic: Reports and Analytics
+uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
 
 例如，划分名为“年龄组”的自定义流量报表，您已在该报表中通过调查收集了网站访客的年龄。此报表可供您查看网站上创造最大流量的年龄组。但是，如果您已经捕获了访客年龄等数据，则除页面查看以外，您可能还想了解更多详情。您可以生成划分报表，说明访客使用的搜索引擎类型、所用关键词，或所处地理位置。您可以将年龄组与搜索引擎关联。
 
-如果您按&#x200B;*`Referrer Type`*&#x200B;您可能会看到一个 *`Inside Your Site`*&#x200B;数据点。此值指示“内部 URL 过滤器”列表中的连接页面。请参阅“管理参考”中的[内部 URL 过滤器](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=internal_URL_filter)。
+如果您按 *`Referrer Type`*, you might see a data point for *`Inside Your Site`*. 此值指示“内部 URL 过滤器”列表中的连接页面。请参阅“管理参考”中的[内部 URL 过滤器](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter.html)。
 
 您可以按任何其他变量划分所有 Analytics 变量（eVar 或 prop）。报表表格中的“**[!UICONTROL 划分依据]”菜单与标准 Analytics 报告菜单匹配，从而保持选择的一致性。**
 
