@@ -1,60 +1,60 @@
 ---
-description: 以下信息可帮助解决Analytics数据中的报告套件滞后问题。
-keywords: 缺少数据；slow
-seo-description: 以下信息可帮助解决Analytics数据中的报告套件滞后问题。
-seo-title: 数据可用性和滞后
+description: The following information can help troubleshoot report suite latency issues in Analytics data.
+keywords: 缺失数据；慢
+seo-description: The following information can help troubleshoot report suite latency issues in Analytics data.
+seo-title: Data availability and latency
 solution: Analytics
 subtopic: 当前数据
-title: 数据可用性和滞后
-topic: 报表
-uuid: 1f0e67e-3cea-4af8-8b18-7ae9223df7c8
+title: Data availability and latency
+topic: 报告
+uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
 translation-type: tm+mt
-source-git-commit: 1fdd14497171dbf5850ec1b1d873a06931d58435
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Adobe Analytics中的数据可用性和滞后时间
+# Data availability and latency in Adobe Analytics
 
-通常，在收集数据之后的2小时内，您通常会在报告中看到完整的数据。以下信息可帮助解决Analytics数据中的报告套件滞后问题。
+通常，在收集数据后2小时内，您会在报告中看到完整的数据。 以下信息有助于解决Analytics数据中的报表包延迟问题。
 
-## 了解数据批量
+## Understanding data batching
 
-每个数据收集服务器都捕获并处理原始分析数据，然后每小时上载一次批量数据以进行报告。传输过程通常需要 30 分钟，因此上一个上载过程完成后紧接着出现的正常流量滞后约为 90 分钟（到下一次批量上载需要 60 分钟，传输并显示文件需要 30 分钟）。对于在上传之前直接发生的流量，数据延迟最短可能最短30分钟(直到下一批上传发生，然后30分钟进行文件传输和显示)。
+每个数据收集服务器都捕获并处理原始分析数据，然后每小时上载一次批量数据以进行报告。传输过程通常需要 30 分钟，因此上一个上载过程完成后紧接着出现的正常流量滞后约为 90 分钟（到下一次批量上载需要 60 分钟，传输并显示文件需要 30 分钟）。对于在上传之前直接发生的流量，数据延迟可能会短到30分钟（在下一次批量上传之前0分钟，然后为文件传输和显示30分钟）。
 
-如果需要，Adobe客户关怀可以为您最常用的报告套件启用30分钟批量批量数据上传(而不是每小时)。
+If needed, Adobe Customer Care can enable 30 minute batched data uploads (instead of hourly) for your most-used report suites.
 
-## 等待者等待时间
+## 延迟贡献者
 
-延迟是数据收集服务器完全处理数据所花费的典型时间的延迟时间。它不会影响数据收集；数据仍为工作实施收集，无论报告套件有多潜在。它的严重性(数据的当前长度)和长度(解析需要的时间)可能会很大。它通常仅限于单个报表包。
+滞后时间比数据收集服务器完全处理数据所需的典型2小时长。 它不影响数据收集；仍会为正在工作的实施收集数据，而不管报表包有多大潜在。 其严重性（数据的当前状态）和长度（解析所花费的时间）可能相差很大。 它通常仅限于单个报告套件。
 
 导致滞后的原因大致可分为以下几类：
 
-* **意外流量尖峰：** 当发送到报表包的数据比合同承诺或预期的情况下发送更多数据时，会发生这种类型的滞后。这是导致滞后的最常见原因。
-* **正常硬件问题：** Adobe采用一流的数据中心管理和监控策略、数据冗余和硬件可靠性。我们会定期更新硬件，同时也会更新发布的维护时段。由于替换硬件在线传送，因此，故障硬件的紧急维护可能需要在数据处理(非数据收集)中进行必要的临时停止。这种处理过程临时终止可能会导致显著的滞后。
-* **异常数据：** 不自然的数据模式(如由机器人或爬虫造成的异常长访问)可以临时增加某些处理负载，从而导致滞后。
+* **** 意外的流量尖峰：当向报表包发送的数据比按照合同约定或预期的数据多时，会出现此类延迟。 这是导致滞后的最常见原因。
+* **** 正常硬件问题：Adobe在数据中心管理和监控、数据冗余和硬件可靠性方面采用一流的战略。 我们会定期更新硬件，同时也会更新发布的维护时段。故障硬件的紧急维护可能需要在数据处理（而非数据收集）中临时停止，因为更换硬件已联机。 这种处理过程临时终止可能会导致显著的滞后。
+* **** 异常数据：非自然的数据模式（如由机器人或爬虫引起的异常长的访问）可能会临时增加某些导致延迟的处理负载。
 
-## 依赖滞后的功能
+## 依赖延迟的功能
 
-Adobe Experience Cloud中的某些功能在标准处理时间之上附带滞后时间。
+Adobe Experience cloud中的某些功能在标准处理时间的基础上具有先天的延迟。
 
-* Analytics for Target(A4T)需要额外5-10分钟的滞后时间，以允许在同一点击中存储来自两个平台的数据。
-* 由于服务器的处理，时间戳数据需要额外的时间。在实时或附近收到的时间戳点击最多可能需要15分钟。昨天收到的点击时间戳可能最多需要小时。较早的点击可能需要较长时间，每天最多可达24小时的上限。
+* Analytics for Target(A4T)需要额外5-10分钟的延迟，以允许从两个平台收集的数据存储在同一次点击中。
+* 时间戳数据需要额外的时间，因为处理这些数据的服务器不同。 实时或接近实时接收的时间戳点击最长可能需要15分钟。 以昨天的时间戳收到的点击最多可能需要2小时。 较旧的点击可能需要更长的时间，每天最多可以增加约24小时。
 
-## 缓解或防止滞后的方法
+## 减轻或防止延迟的方法
 
 有多种策略可以防止滞后或缩短滞后发生后的恢复时间：
 
-* **通知Adobe预期流量高峰：** 虽然无法预测每个流量尖峰到您的网站，但有时您会预计流量显著增加。示例包括一个特别成功的假期期，或一次大型营销活动推送之后的很快。在这些情况下，您的组织可以通过 Adobe 提供的方式来通知我们预期的流量增加，以便我们可以向您的报表包分配额外的处理资源。See [Schedule a traffic spike](../admin/c-traffic-management/t-traffic-schedule-spike.md) in the Admin user guide to learn how to notify Adobe of increased traffic.
-* **在激活新功能时考虑处理负载：** 某些功能的处理程度比其他功能高。对报表包启用的功能越多，越难从滞后问题中恢复。在对报表包启用某些功能时，请注意以下功能会增加要处理的数据量：
+* **** 预期流量高峰时通知Adobe:虽然不可能预测到您网站的每个流量尖峰，但有时您可能希望网站的流量会显着增加。 例如，特别成功的假期，或大型营销活动推送后不久。 在这些情况下，您的组织可以通过 Adobe 提供的方式来通知我们预期的流量增加，以便我们可以向您的报表包分配额外的处理资源。请参 [阅管理员用户指南中的计划流量尖峰](../admin/c-traffic-management/t-traffic-schedule-spike.md) ，了解如何向Adobe通知流量增加。
+* **** 激活新功能时，请考虑处理负载：某些功能的处理密集度高于其他功能。 对报表包启用的功能越多，越难从滞后问题中恢复。在对报表包启用某些功能时，请注意以下功能会增加要处理的数据量：
 
    * 在同一页面上实施20多个活动
    * 复杂的 VISTA 规则
    * 产品变量中有超过 20 个值
    * 事件序列化
 
-* Enable IAB Bot filtering: [Bot filtering](https://marketing.adobe.com/resources/help/en_US/admin/index.html?f=c_bot_rules) can greatly reduce latency if your report suite is frequented by bots or crawlers. 推荐使用 IAB 机器人列表，因为它是由[美国互动广告局 (Interactive Advertising Bureau) ](https://www.iab.net/about_the_iab)更新和维护的。用户可以自定义自己的机器人规则，以补充IAB中的那些规则。
+* Enable IAB Bot filtering: [Bot filtering](https://marketing.adobe.com/resources/help/en_US/admin/c_bot_rules.html) can greatly reduce latency if your report suite is frequented by bots or crawlers. 推荐使用 IAB 机器人列表，因为它是由[美国互动广告局 (Interactive Advertising Bureau) ](https://www.iab.net/about_the_iab)更新和维护的。用户可以自定义自己的机器人规则，以补充IAB的规则。
 
 ## 如何处理滞后
 
-如果出现滞后情况，请确保Adobe主动监控处理管道，并竭尽全力尽快返回处理时间。许多滞后问题可在数小时内得到解决。如果您特别关注某个特定报表包，贵组织的某位受支持用户可以联系客户关怀团队，并提供遇到滞后的报表包 ID。Adobe 代表可以验证滞后，并在问题得到改善和解决时通知您。
+在出现延迟时，请确保Adobe会主动监控处理管道并尽可能尽快将处理时间恢复为正常。 许多滞后问题可在数小时内得到解决。如果您特别关注某个特定报表包，贵组织的某位受支持用户可以联系客户关怀团队，并提供遇到滞后的报表包 ID。Adobe 代表可以验证滞后，并在问题得到改善和解决时通知您。
