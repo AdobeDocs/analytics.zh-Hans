@@ -7,11 +7,8 @@ solution: Analytics
 title: 使用 DFA 数据的 Analytics 报告
 topic: Data connectors
 uuid: a4fe4a6c-f4a4-431d-bce9-9edbcafed6
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -56,4 +53,3 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 * 选择一个特定的 DFA 广告名称来打开一个选项菜单，以便获取有关此特定 DFA 广告的更多信息。
 * 每个量度列均包含一个与图表中量度所分配颜色对应的颜色键。
 * 报表按收入量度排序，具有最高收入的广告列在最顶部。您可以通过单击不同的列（量度）标签来更改报表排序。
-
