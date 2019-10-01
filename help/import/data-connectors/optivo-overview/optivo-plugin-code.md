@@ -1,21 +1,18 @@
 ---
-description: 如果选择了JavaScript插件数据收集方法，请复制以下代码行并将其添加到页面上的Adobe Analytics代码中。
-seo-description: 如果选择了JavaScript插件数据收集方法，请复制以下代码行并将其添加到页面上的Adobe Analytics代码中。
+description: 如果选择了JavaScript插件数据收集方法，请复制以下几行代码并将它们添加到您页面上的Adobe Analytics代码中。
+seo-description: 如果选择了JavaScript插件数据收集方法，请复制以下几行代码并将它们添加到您页面上的Adobe Analytics代码中。
 seo-title: Adobe Analytics插件代码
 title: Adobe Analytics插件代码
-uuid: e99999e63-a4 cb-df68 a1 b53 d1 b53 d0 d
-index: y
-internal: n
-snippet: y
+uuid: e9999be-1800-4d63-a4cb-df68a1b53d0d
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Adobe Analytics插件代码{#adobe-analytics-plug-in-code}
 
-如果选择了JavaScript插件数据收集方法，请复制以下代码行并将其添加到页面上的Adobe Analytics代码中。
+如果选择了JavaScript插件数据收集方法，请复制以下几行代码并将它们添加到您页面上的Adobe Analytics代码中。
 
 ```
 /* 
@@ -57,5 +54,5 @@ s.eVar12="Post Click Type of Action"; // e.g. "purchase";
 
 >[!NOTE]
 >
->以上插件假定某些自定义商务变量(eVar)可用。如果上述插件中指定的变量在您的Adobe Analytics部署中不可用，只需将它们替换为可用的变量。
+>上述插件假定某些自定义商务变量(eVar)可用。 如果在Adobe Analytics部署中不提供上述插件中指定的变量，只需用可用变量替换它们即可。
 
