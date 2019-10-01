@@ -1,21 +1,18 @@
 ---
-description: '如果您选择了JavaScript插件数据收集方法，复制以下代码行并将其添加到页面上的Analytics代码中 '
-seo-description: '如果您选择了JavaScript插件数据收集方法，复制以下代码行并将其添加到页面上的Analytics代码中 '
+description: '如果选择了JavaScript插件数据收集方法，请复制以下几行代码并将它们添加到页面上的Analytics代码中 '
+seo-description: '如果选择了JavaScript插件数据收集方法，请复制以下几行代码并将它们添加到页面上的Analytics代码中 '
 seo-title: Analytics插件代码
 title: Analytics插件代码
-uuid: 534874bd-49d9-4b15-8019-b503 dfcf3182
-index: y
-internal: n
-snippet: y
+uuid: 534874bd-49d9-4b15-8019-b503dfcf3182
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Analytics插件代码{#analytics-plug-in-code}
 
-如果选择了JavaScript插件数据收集方法，则复制以下代码行并将其添加到页面上的Analytics代码：
+如果选择了JavaScript插件数据收集方法，请复制以下几行代码并将它们添加到页面上的Analytics代码中：
 
 `/*`
 
@@ -29,5 +26,4 @@ source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
 
 >[!NOTE]
 >
->以上插件假定某些自定义商务变量(eVar)可用。如果上述插件中指定的变量在Analytics部署中不可用，只需将它们替换为可用的变量。
-
+>上述插件假定某些自定义商务变量(eVar)可用。 如果上述插件中指定的变量在您的Analytics部署中不可用，只需用可用变量替换它们即可。
