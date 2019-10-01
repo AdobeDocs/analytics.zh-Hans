@@ -22,20 +22,14 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 >[!NOTE]
 >
->上下文数据变量不区分大小写。 For example, the following 2 variables are effectively identical: &gt;
->```>
->s.contextData['article_title'] = 'Weekend Concert Controversy'; 
->
->
-```>
->and 
->
->
-```>
+>上下文数据变量不区分大小写。 For example, the following 2 variables are effectively identical:
+>```
+>s.contextData['article_title'] = 'Weekend Concert Controversy';
+>```
+>and
+>```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
->```>
-
-
+>```
 
 使用上下文数据有助于避免更新代码后支持不同的报表包配置。
 
