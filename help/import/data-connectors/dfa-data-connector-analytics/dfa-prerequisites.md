@@ -6,12 +6,9 @@ seo-title: 先决条件
 solution: Analytics
 title: 先决条件
 topic: Data connectors
-uuid: b5f5e30c-e269-41a4-923-6ddc404 bfd94
-index: y
-internal: n
-snippet: y
+uuid: b5f5e30c-e269-41a4-9236-5ddc404bfd94
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -20,7 +17,7 @@ source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
 
 在开始 DFA 的 Adobe Data connectors 集成之前，请执行以下操作：
 
-* 决定集成是针对版本 1.5 的集成，还是等待版本 2.0。此决定取决于您的 DFA 帐户中所应用的具体功能，以及您希望进行集成的时间范围。请参阅[关于版本 2.0](../dfa-data-connector-analytics/dfa-version-differences.md#concept-2c7d6a6ab8524dccad96ea0c17228664)，以获取更多信息。
+* 决定集成是针对版本 1.5 的集成，还是等待版本 2.0。此决定取决于您的 DFA 帐户中所应用的具体功能，以及您希望进行集成的时间范围。
 * 决定 DFA 广告商将如何映射到 Adobe Analytics 报表包。例如，如果您具有多个 DFA 广告商和多个报表包，您将需要决定哪些广告商与哪些报表包配对。
 * 使用版本 H.22 或更高版本的数据收集代码，在希望跟踪的所有页面上实施 Adobe 数据收集代码。
 * 知晓要集成的 Floodlight 配置的 DFA 帐户的广告商 ID。集成可自动导入 Floodlight 配置范围内的所有广告商。
