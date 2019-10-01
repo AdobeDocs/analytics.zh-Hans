@@ -3,8 +3,8 @@ product: analytics
 audience: 最终用户
 user-guide-title: Analytics Analyze 指南
 user-guide-url: /content/help/zh-Hans/analytics/analyze/home.html
-translation-type: ht
-source-git-commit: de91e255a33b27cf7dd21621f3225417318fc02e
+translation-type: tm+mt
+source-git-commit: 1150a153014ba2cfe824707216c558bf962e9013
 
 ---
 
@@ -30,6 +30,7 @@ source-git-commit: de91e255a33b27cf7dd21621f3225417318fc02e
       + [对表格进行分页、过滤和排序](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
       + [调色板](analysis-workspace/build-workspace-project/color-palettes.md)
       + [视图密度](analysis-workspace/build-workspace-project/view-density.md)
+      + [工作区总计](analysis-workspace/build-workspace-project/workspace-totals.md)
    + 组件 {#components}
       + [组件概述](analysis-workspace/components/analysis-workspace-components.md)
       + 维度 {#dimensions}
