@@ -6,12 +6,9 @@ seo-title: 常见问题解答
 solution: Analytics
 title: 常见问题解答
 topic: Data connectors
-uuid: 59d187e9-1ec1-4cf3-8831-b981 f87 c9372
-index: y
-internal: n
-snippet: y
+uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 
 ---
 
@@ -32,7 +29,7 @@ source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
 
 >[!NOTE]
 >
->CSID未在集成的版本2.0中使用，因此CSID协商过程不适用。
+>CSID未在集成版本2.0中使用，因此CSID协商进程不适用。
 
 ## 我使用的是 2.0 版本的集成，但是未对我的 DFA 广告显示成本量度。为什么会这样？ {#section-805748111bbe4bbf918d6dbbb2641fff}
 
@@ -48,6 +45,8 @@ source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
 
 首先，请检查所涉及的广告的登陆页面 URL 是 (a) 通过您查看差异时所在的相同报表包的 Adobe 代码进行标记，并且 (b) 包含&#x200B;*`clickThroughParam`*&#x200B;查询字符串参数。
 
-其次，通过 [确认成功的DFA集成中的步骤，验证您是否具有工作集成](../dfa-data-connector-analytics/dfa-integration/dfa-confirm-integration.md#concept-c1c869d2a6fa46b09fe41fc286e407c6)。如果您在登陆页面中看到包含 Adobe 点击的 DFA 跟踪代码，则应当在 DFA 促销活动报表中看到该点进。如果没有看到，请验证报表包匹配登陆页面的&#x200B;*`s.account`*&#x200B;变量，并且可以在报告与分析中查看该报表包。如果它们匹配，请在显示到达 eVar 报表中检查跟踪代码，类似于 DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX。
+其次，通过执行确认成功DFA集成中的步骤，验证 [您是否有正常集成](../dfa-data-connector-analytics/dfa-integration.md)。 如果您在登陆页面中看到包含 Adobe 点击的 DFA 跟踪代码，则应当在 DFA 促销活动报表中看到该点进。如果没有看到，请验证报表包匹配登陆页面的&#x200B;*`s.account`*&#x200B;变量，并且可以在报告与分析中查看该报表包。如果它们匹配，请在显示到达 eVar 报表中检查跟踪代码，类似于 DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX。
 
-它们指示 DFA VISTA 规则未能分类来自 DFA 的原始数据。通过您的 Adobe 帐户代表打开一个支持票证，可修复此问题。如果上述解决方案均未解释问题，请参阅 [协调量度差异](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies/dfa-reconciling-metric-discrepancies.md#concept-8c31ebe761ca4b3fab1e3a18ef5d098f) 以探索其他可能性
+它们指示 DFA VISTA 规则未能分类来自 DFA 的原始数据。通过您的 Adobe 帐户代表打开一个支持票证，可修复此问题。
+
+如果以上解决方案都无法解释此问题，请参阅 [Reconciling Metric Discrepancies](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md) to explore other possibilities.
