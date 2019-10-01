@@ -1,24 +1,21 @@
 ---
-description: 请在使用以下代码之前保留Adobe Analytics的Admin Tool中必需的eVar。
-seo-description: 请在使用以下代码之前保留Adobe Analytics的Admin Tool中必需的eVar。
-seo-title: 查询字符串Param插件代码
+description: 在使用以下代码之前，请在Adobe Analytics的管理工具中保留必要的eVar。
+seo-description: 在使用以下代码之前，请在Adobe Analytics的管理工具中保留必要的eVar。
+seo-title: 查询字符串参数插件代码
 solution: Analytics
-title: 查询字符串Param插件代码
-uuid: a71e7774-bc7 a-414e-a116-739770b900 bf
-index: y
-internal: n
-snippet: y
+title: 查询字符串参数插件代码
+uuid: a71e7774-bc7a-414e-a116-739770b900bf
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# 查询字符串Param插件代码{#query-string-param-plug-in-code}
+# 查询字符串参数插件代码{#query-string-param-plug-in-code}
 
-请在使用以下代码之前保留Adobe Analytics的Admin Tool中必需的eVar。
+在使用以下代码之前，请在Adobe Analytics的管理工具中保留必要的eVar。
 
-了解已保留的 [](../selligent-overview/selligent-activation/selligent-configure-variables.md#concept-907c2bdbed274c11a46d4cc323ef0238)eVar后，将eVarN替换为相关eVar，例如eVar10。
+一旦您知道已保留的eVar，请将eVarN替换为相关的eVar，例如eVar10。
 
 ```
 /* 
