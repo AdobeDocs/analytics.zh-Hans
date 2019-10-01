@@ -1,29 +1,26 @@
 ---
-description: 运行数据连接器集成向导以实现数据连接器集成之前必须具有的任务和信息。
-seo-description: 运行数据连接器集成向导以实现数据连接器集成之前必须具有的任务和信息。
-seo-title: 为数据连接器电子邮件集成准备
-title: 为数据连接器电子邮件集成准备
-uuid: 01e1f269-54c9-4175-aff8-16c39 ac4 ee9 d
-index: y
-internal: n
-snippet: y
+description: 运行Data Connectors集成向导以实施Data Connectors集成之前，必须具有的任务和信息。
+seo-description: 运行Data Connectors集成向导以实施Data Connectors集成之前，必须具有的任务和信息。
+seo-title: 准备Data Connectors电子邮件集成
+title: 准备Data Connectors电子邮件集成
+uuid: 01e1f269-54c9-4175-aff8-16c39ac4ee9d
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# 为数据连接器电子邮件集成准备{#preparing-for-the-data-connectors-email-integration}
+# 准备Data Connectors电子邮件集成{#preparing-for-the-data-connectors-email-integration}
 
-运行数据连接器集成向导以实现数据连接器集成之前必须具有的任务和信息。
+运行Data Connectors集成向导以实施Data Connectors集成之前，必须具有的任务和信息。
 
-Adobe Analytics®为组织提供了有关其在线策略和营销计划的切实可行的实时情报。Analytics与emarsys相结合，提供基于行为定位的再营销。通过无缝集成emarsys和Analytics Web分析数据改善目标营销并了解营销活动有效性。
+Adobe Analytics®为组织提供了与其在线策略和营销计划相关的可操作实时智能。 Analytics与emarsys相结合，可根据行为定位提供再营销。 通过无缝集成emarsys和Analytics web分析数据，提高目标营销并了解营销活动的有效性。
 
-在配置电子邮件帐户的集成之前，您需要进行以下准备：
+在为电子邮件帐户配置集成之前，您需要具备以下功能：
 
-* 了解emarsys AccountCode，因为它将输入数据连接器向导。
-* 了解要用于接收有关集成操作通知的电子邮件地址。
+* 了解您的emarsys AccountCode，因为它将在数据连接器向导中输入。
+* 了解您要使用哪个电子邮件地址来接收有关集成操作的通知。
 * 识别或创建用于捕获收件人ID的自定义变量。
-* 识别或创建用于捕获消息ID的自定义变量(通常这是营销活动变量)。
-* 识别或创建用于收集弹回、点击、打开、发送和取消订阅的自定义事件。
+* 识别或创建用于捕获消息ID的自定义变量（通常为系列活动变量）。
+* 识别或创建用于收集退回、单击、打开、发送和取消订阅的自定义事件。
 
