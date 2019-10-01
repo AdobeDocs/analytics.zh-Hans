@@ -4,11 +4,8 @@ seo-description: 数据连接器集成向导将指导您完成数据连接器集
 seo-title: 运行数据连接器集成向导
 title: 运行数据连接器集成向导
 uuid: 25480e0d-e3ca-458c-8f18-65789c273a33
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -29,4 +26,4 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 1. 在 **[!UICONTROL emarsys Xpress Data Connectors集成页上]** ，查看文本，选中复选框以接受与集成相关的费用，然后单击下 **[!UICONTROL 一步]**。
 
    此页面提供该集成的概述，以及可帮助获取更多信息的有用链接。与此集成相关的Adobe和emarsys费用。 请联系这两个组织相应的销售代表，并确保您了解费用结构。
-1. 完成数 [据连接器集成向导](https://microsite.omniture.com/t2/help/en_US/Data Connectors/index.html)。
+1. 完成Data Connectors集成向导。
