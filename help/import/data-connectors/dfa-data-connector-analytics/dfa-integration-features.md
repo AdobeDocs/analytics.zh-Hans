@@ -1,17 +1,14 @@
 ---
-description: '激活后，数据连接器DFA集成为您的Adobe Analytics报告提供以下指标 '
+description: '激活后，Data Connectors DFA集成会为Adobe Analytics报告提供以下指标 '
 keywords: DFA
-seo-description: '激活后，数据连接器DFA集成为您的Adobe Analytics报告提供以下指标 '
+seo-description: '激活后，Data Connectors DFA集成会为Adobe Analytics报告提供以下指标 '
 seo-title: 集成功能
 solution: Analytics
 title: 集成功能
 topic: Data connectors
-uuid: ad8e6e8-3449-498a-8596-37c0ac1657cd
-index: y
-internal: n
-snippet: y
+uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -28,7 +25,7 @@ source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
 
 >[!NOTE]
 >
->此集成不支持单击跟踪器(以前单击“单击命令”)。点击跟踪器可用于记录文本链接、电子邮件所含链接、或网站上其他硬编码元素的点击次数。
+>此集成不支持单击跟踪器（以前称为单击命令）。 点击跟踪器可用于记录文本链接、电子邮件所含链接、或网站上其他硬编码元素的点击次数。
 
 Data connectors DFA 集成可通过 DFA 返回的数据自动构建 DFA 跟踪代码。这些构建的跟踪代码可用于唯一标识广告及其关联的版面和创作。以下内容简要介绍了跟踪代码的结构，具体取决于集成的版本。版本 1.5 类似于以下：
 
@@ -65,5 +62,5 @@ If **[!UICONTROL SearchCenter]** &gt; **[!UICONTROL DFA deduplication]** is sele
 
 >[!NOTE]
 >
->如果启用了SearchCenter&gt; DFA de-delease并设置了SearchCenter查询字符串参数，则不会考虑访问DFA处理。这意味着 SearchCenter 查询字符串参数应当不同于 DFA 点进参数，并且没有任何显示广告应设置 SearchCenter 查询字符串参数。
+>如果启用了SearchCenter &gt; DFA重复数据消除并设置了SearchCenter查询字符串参数，则不会考虑访问以进行DFA处理。 这意味着 SearchCenter 查询字符串参数应当不同于 DFA 点进参数，并且没有任何显示广告应设置 SearchCenter 查询字符串参数。
 
