@@ -4,11 +4,8 @@ seo-description: 数据连接器集成向导将指导您完成数据连接器集
 seo-title: 运行数据连接器集成向导
 title: 运行数据连接器集成向导
 uuid: 714417f7-c1df-4e61-a07f-d319f6581c9c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -126,4 +123,3 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
   </tr> 
  </tbody> 
 </table>
-
