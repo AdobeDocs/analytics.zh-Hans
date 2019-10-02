@@ -1,71 +1,71 @@
 ---
-title: 设置跨设备分析
-description: 了解如何在满足prerequi站点后设置跨设备分析。
+title: 设置 Cross-Device Analytics
+description: Learn how to set up Cross-Device Analytics after you meet the prerequisites.
 translation-type: tm+mt
-source-git-commit: 40d8ecae1ac7e0a1df4a2df17f5104bee6ecf336
+source-git-commit: 5d6ff87bd49140a974fcaaeed714d0f0b7d1e58b
 
 ---
 
 
-# 设置跨设备分析
+# 设置 Cross-Device Analytics
 
-> [!NOTE] 跨设备分析文档可能会随着进一步开发功能而发生变化。定期查阅更新。
+> [!NOTE] Cross-Device Analytics documentation is subject to change as the feature is further developed. Check back regularly for updates.
 
-满足所有前提条件后，请使用以下步骤启用跨设备分析。您必须属于产品配置管理员组或拥有Adobe Analytics中的管理员权限才能遵循这些步骤。
+Once all prerequisites are met, use the following steps to enable Cross-Device Analytics. 您必须属于产品配置管理员组，或在Adobe Analytics中拥有管理员权限才能执行这些步骤。
 
-> [!IMPORTANT] 必须先满足所有先决条件，然后才能执行这些步骤。如果所有prerequi站点均未满足，则该功能不可用或无法使用。请参阅 [针对prerequi站点和限制的跨设备分析](cda-home.md) 。
+> [!IMPORTANT] 在执行这些步骤之前，必须满足所有先决条件。 如果未满足所有先决条件，则该功能不可用或将无法工作。 有关 [先决条件和限制](cda-home.md) ，请参阅跨设备分析。
 
 ## 选择将为CDA启用的跨设备报告套件
 
-当您的组织设置为使用CDA时，请选择要使用的报表包。此选择可通过您的Adobe客户经理进行交流。然后，Adobe将启用您所选的用于CDA处理的报告套件。
+当您的组织设置为使用CDA时，您可以选择要使用的报表包。 此选择可通过您的Adobe客户经理进行交流。 然后，Adobe将启用您选择的报表包进行CDA处理。
 
 ## 创建跨设备虚拟报告套件以查看跨设备视图
 
-具有创建虚拟报告套件的管理员可以按如下方式创建CDA虚拟报告套件：
+有权创建虚拟报表包的管理员可以按如下方式创建CDA虚拟报表包：
 
-1. 导航到 [experiencecloud.adobe.com](https://experiencecloud.adobe.com) 并使用您的AdobeID凭据登录。
-2. 单击顶部的网格图标，然后单击“分析”。
-3. 将鼠标悬停在顶部的组件上方，然后单击虚拟报告套件。
+1. 导航到 [experiencecloud.adobe.com](https://experiencecloud.adobe.com) ，然后使用AdobeID凭据登录。
+2. 单击顶部的9网格图标，然后单击分析。
+3. 将指针悬停在顶部的组件上，然后单击虚拟报告包。
 4. 单击添加。
-5. 输入虚拟报告套件的名称，并确保已选中启用CDA的报表包。
-6. 单击复选框“启用报告时间处理”，该复选框支持多个选项，包括跨设备分析。
-7. 单击复选框“跨设备阻止用户访问次数”。
-8. 单击继续，完成配置虚拟报告套件，然后单击保存。
+5. 输入虚拟报告套件的名称，并确保已选择启用CDA的报告套件。
+6. 单击复选框“启用报告时间处理”，此复选框可启用多个选项，包括“跨设备分析”。
+7. 单击复选框“拼合跨设备用户访问”。
+8. 单击继续，完成虚拟报告包的配置，然后单击保存。
 
 ![CDA复选框](assets/cda-checkbox.png)
 
-## 跨设备虚拟报告套件的新增功能和更改
+## Additions and changes to cross-device virtual report suites
 
-在虚拟报告套件上启用跨设备分析时，请注意以下更改：
+When Cross-Device Analytics is enabled on a virtual report suite, note the following changes:
 
-* 虚拟报告套件名称旁会显示一个新的跨设备图标。此图标专用于跨设备虚拟报告套件。
-* 有新的标记“人物”和“独特设备”的新指标。
-* 量度“唯一访客”不可用，因为其替换为“人员和唯一设备”。
-* 构建区段时，“访客”区段容器将替换为“人物”容器。
+* A new cross-device icon appears next to the virtual report suite name. This icon is exclusive to cross-device virtual report suites.
+* New metrics labeled 'People' and 'Unique Devices' are available.
+* The metric 'Unique Visitors' is not available, as it is replaced with People and Unique Devices.
+* When building segments, the 'Visitor' segment container is replaced with a 'Person' container.
 
-## 压缩计算指标
+## The Compression calculated metric
 
-跨设备分析的跨设备分析能力取决于各种因素。利用名为压缩的计算指标，可以测量该功能的拼接数据的效率。有助于压缩的因素包括：
+The ability for Cross-Device Analytics to stitch devices together depends on a wide range of factors. 可以使用称为压缩的计算度量来测量特征拼接数据的能力的有效性。 导致压缩的因素包括：
 
-* 使用合作社图或私人图：一般而言，使用设备合作社的组织通常会看到比使用私人图的组织更好的压缩速率。
-* 登录率：用户登录站点越多，Adobe可以跨设备识别和吸引访客。登录率低的站点也具有低压缩速率。
-* Experience Cloud ID覆盖：只能拼接具有EID的访客。使用EID的站点访客百分比较低，与压缩速率相关。
-* 多设备使用：如果站点访客不使用多个设备，您可以看到较低的压缩率。
-* 报表粒度：按天压缩通常比按月或年压缩小。个人使用多个设备的机会在一天内变得更小。细分、过滤或使用细分尺寸也可以显示较低的压缩速率。
+* 使用合作图或专用图：一般而言，使用设备合作计划的组织往往比使用专用图表的组织发现更好的压缩率。
+* 登录率：登录网站的用户越多，Adobe越能跨设备识别和拼接访客。 登录率较低的站点也具有低压缩率。
+* Experience Cloud ID coverage: Only visitors with an ECID can be stitched. 使用ECID访问您网站的访客百分比较低与压缩率较低相关。
+* 多种设备使用：如果网站的访问者不使用多种设备，则可以看到较低的压缩率。
+* Reporting granularity: Compression by day is typically smaller than compression by month or year. 个人在一天内使用多种设备的机会比整个月内要小。 细分、筛选或使用细分维也可以显示较低的压缩率。
 
-要查看您的组织在特定时间段内的压缩情况，请执行以下操作：
+To see your organization's compression for a given time period:
 
 1. 单击顶部的“工作区”，然后单击“创建新项目”。
 2. 从空白项目开始，然后单击创建。
-3. 将唯一设备量度拖动到标记为“在此处放入量度”的画布区域。
-4. 将“人员”指标拖到“唯一设备”量度标题右侧的画布上，以便两个指标并排。
-5. 单击左侧可用指标旁边的“+”符号以打开“计算量度”生成器。
-6. 为此计算得出的量度提供以下设置：
+3. 将“唯一设备”量度拖到标有“将量度拖到此处”的画布区域上。
+4. Drag the People metric onto the canvas directly to the right of the Unique Devices metric header, so the two metrics are side-by-side.
+5. Click the '' symbol next to available metrics on the left to open the Calculated Metric builder.`+`
+6. Give this calculated metric the following settings:
    * 名称：跨设备压缩
    * 格式：百分比
-   * 小数位：2
+   * Decimal Places: 2
    * 定义: `[Static Number: 1] minus [People] divided by [Unique Devices]`
-      > [!NOTE] 单击定义区域右上角的“添加”以添加静态编号。从左侧可用指标列表中拖动人物和唯一设备。
+      > [!TIP] 单击定义区域右上角的“添加”以添加静态数字。 从左侧的可用度量列表中拖动“人员”和“唯一设备”。
 7. 单击“保存”。
-8. 将新计算的量度直接拖到“人物”指标标题右侧的画布上，因此所有三个指标都是并排的。
-9. 可选：默认情况下，工作区加载“天”维度。如果需要不同的时间粒度，则拖动替代日期维度(如周或月)，以在“天”维度之上。
+8. 将新的计算量度直接拖到“人员”量度标题右侧的画布上，因此所有三个量度都是并排的。
+9. 可选：默认情况下，工作区加载“天”维。 如果需要其他时间粒度，请将替代日期维度（如周或月）拖动到“日”维度上方。
