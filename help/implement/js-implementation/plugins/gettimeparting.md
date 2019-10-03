@@ -9,7 +9,7 @@ title: getTimeParting
 topic: 开发人员和实施
 uuid: 74f696a3-7169-4560-89b2-478b3d8385e1
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 44b3d5036e2b55567830f188c709a42023d5eb84
 
 ---
 
@@ -22,7 +22,7 @@ getTimeParting 插件可使用小时、星期、周末和工作日等值填充�
 
 >[!NOTE]
 >
->以下说明要求您更改站点上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
+>以下说明要求您更改站点上的数据收集代码。 此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
 
 ## 插件代码 {#section_1390D6FA53BE4C40B748B0C0AE09C4FA}
 
@@ -30,7 +30,7 @@ getTimeParting 插件可使用小时、星期、周末和工作日等值填充�
 
 将以下代码置于标记为[!DNL s_code.js]配置区域[!UICONTROL 的 ] 文件区域中，并按照以下描述进行必要的更新。
 
-`s._tpDST` - 一组DST值。The array is structured in the following format: `YYYY:'MM/DD,MM/DD'`
+`s._tpDST` -一组DST值。 The array is structured in the following format: `YYYY:'MM/DD,MM/DD'`
 
 ```js
 //time parting configuration 
@@ -43,7 +43,9 @@ s._tpDST = {
 2016:'4/3,10/2', 
 2017:'4/2,10/1', 
 2018:'4/1,10/7', 
-2019:'4/7,10/6'} 
+2019:'4/7,10/6',
+2020:'4/5,10/4',
+2021:'4/4,10/3'} 
   
 //US 
 s._tpDST = { 
@@ -54,7 +56,9 @@ s._tpDST = {
 2016:'3/13,11/6', 
 2017:'3/12,11/5', 
 2018:'3/11,11/4', 
-2019:'3/10,11/3'} 
+2019:'3/10,11/3',
+2020:'3/8,11/1',
+2021:'3/14,11/7'} 
   
 //Europe 
 s._tpDST = { 
@@ -65,7 +69,9 @@ s._tpDST = {
 2016:'3/27,10/30', 
 2017:'3/26,10/29', 
 2018:'3/25,10/28', 
-2019:'3/31,10/27'}
+2019:'3/31,10/27',
+2020:'3/29,10/25',
+2021:'3/28,10/31'}
 ```
 
 针对北半球客户的注意事项：在该数组中，DST 值为 DST 开始日期，DST 结束日期。
