@@ -1,15 +1,15 @@
 ---
 description: 将跟踪数据从第三方应用程序导入到 Analytics 中。
 seo-description: 登录数据连接器；将跟踪数据从第三方应用程序导入Analytics、添加集成、数据连接器控制台。
-seo-title: 分析数据连接器
-title: Analytics数据连接器入门
+seo-title: Analytics data connectors
+title: Getting Started with Analytics data connectors
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
 
 ---
 
 
-# 数据连接器概述
+# Overview of data connectors
 
 Adobe 为组织提供有关数字化策略和营销活动的可执行实时资讯。Data Connectors 可让您将第三方应用程序中的跟踪数据导入 Analytics，因此，您可以从一个中心位置收集和使用数据。如果您使用的是合作伙伴产品，则可以创建集成，将应用程序数据导入营销报表。一旦创建了该集成，您便可以生成包含应用程序中数据的报表。
 
@@ -40,16 +40,16 @@ Data Connectors 应与最受欢迎的浏览器适当集成。但是，在符合�
 
 ## 添加集成
 
-您必须具有当前帐户才能访问 [!UICONTROL Data Connectors登录页] （控制台）。 还建议您熟悉Adobe Analytics。
+You must have a current account to access the Data Connectors landing page (console). 还建议您熟悉Adobe Analytics。
 
-1. 登录Adobe Experience Cloud。
+1. Log into the Adobe Experience Cloud.
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Connectors]**.
 1. 单击&#x200B;**[!UICONTROL 新增]**。
-1. 遍历添加 **[!UICONTROL 集成界面]** 。
+1. Step through the Add Integration interface.****
 
    根据各个产品集成，您可能需要在集成过程中提供特定的配置信息。
 
-   集成完成后，Data Connectors Network（数据连接器网络）页面上会显示合作伙伴产品图标，该图标显示在菜单中。
+   When the integration completes, the partner product icon displays on the Data Connectors Network page and is available in menus.
 
 ## Data Connectors 控制台
 
@@ -61,7 +61,7 @@ Data Connectors 应与最受欢迎的浏览器适当集成。但是，在符合�
 
 再营销区段是基于 Data Connectors 集成所用变量创建的数据文件。
 
-Adobe Analytics通过数据仓库将这些文件分别发送到Adobe为第三方创建的FTP中。 第三方随后再将这些文件分发给客户。公司通常会使用这些文件对访问过网站并查看过产品，但没有完成购买的客户进行再营销。（例如，您可以联系特定客户，针对其查看过但最终没有购买的产品提供折扣。）
+Adobe Analytics sends these in separate daily files via data warehouse to an FTP created by Adobe for the third party. 第三方随后再将这些文件分发给客户。公司通常会使用这些文件对访问过网站并查看过产品，但没有完成购买的客户进行再营销。（例如，您可以联系特定客户，针对其查看过但最终没有购买的产品提供折扣。）
 
 **区段**
 
@@ -105,6 +105,5 @@ s.events="purchase";
 | 再营销区段文件中不显示任何产品 ID 信息。 | 当触发正确的事件，但同一图像请求上没有产品变量时发生。 要更正此问题，请确保产品变量和对应的事件在同一页面上触发，如以上实施示例所示。 |
 | 未收到再营销区段文件。 | 如果没有收到您的文件，请让贵公司的某位受支持用户联系 ClientCare，以调查未成功收到报表的原因。 |
 
-> [!IMPORTANT]
->
-> 除了标准的数据连接器集成再营销段文件外，顾问通常还会将数据仓库请求设置为每日计划报告。 该数据仓库请求将包含 Data Connectors 变量和非 Data Connectors 变量，且请求只能根据贵公司的特定请求进行计划。为避免在故障诊断时造成混淆，请明确相关文件是实际的再营销区段文件，还是包含非 Genesis 变量的数据仓库请求。
+
+> [!IMPORTANT] 除了标准的数据连接器集成再营销段文件外，顾问通常还会将数据仓库请求设置为每日计划报告。 该数据仓库请求将包含 Data Connectors 变量和非 Data Connectors 变量，且请求只能根据贵公司的特定请求进行计划。为避免在故障诊断时造成混淆，请明确相关文件是实际的再营销区段文件，还是包含非 Genesis 变量的数据仓库请求。
