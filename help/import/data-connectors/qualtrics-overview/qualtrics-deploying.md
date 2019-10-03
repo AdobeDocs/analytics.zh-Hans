@@ -8,12 +8,12 @@ title: 部署集成
 topic: Data connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
 
 ---
 
 
-# 部署集成{#deploying-the-integration}
+# Deploying the Integration{#deploying-the-integration}
 
 部署此集成是一个简单的过程，需要执行以下操作。
 
@@ -32,29 +32,23 @@ source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
    | Qualtrics组织ID | [查找Qualtrics组织ID](../qualtrics-overview/qualtrics-org-id.md) |
    | Adobe SiteCatalyst令牌 | [生成Qualtrics Adobe Analytics令牌](../qualtrics-overview/qualtrics-token.md) |
 
-1. **向导步骤2 —— 变量映射**
-
-   | Qualtrics响应列表 | 从报表包中选择一个可用列表变量。 （您可能需要在报表包管理器中启用新的listVar。） |
-   |---|---|
-   | Qualtrics响应ID | 从报表包中选择可用的eVar或prop。 （您可能需要在报表包管理器中启用新的listVar。） |
-   | 跟踪服务器 | 提供用于跟踪Adobe Analytics数据的跟踪服务器（域）设置。 如果跟 `trackingServerSecure` 踪服务器与标准跟踪服务器设置不同，请使用它。 |
-   | Qualtrics Survey提交 | 从报告包中选择可用活动（您可能需要从报告包管理器中启用新活动）。 |
+1. **向导步骤2 —— 变量映射**| Qualtrics响应列表|从报表包中选择一个可用列表变量。 （您可能需要在报表包管理器中启用新的listVar。）||—|—|| Qualtrics响应ID|从报表包中选择可用的eVar或prop。 （您可能需要在报表包管理器中启用新的listVar。）||跟踪服务器|提供用于跟踪Adobe Analytics数据的跟踪服务器（域）设置。 如果跟 `trackingServerSecure` 踪服务器与标准跟踪服务器设置不同，请使用它。  || Qualtrics Survey提交|从报告包中选择可用活动（您可能需要从报告包管理器中启用新活动）。  |
 
 1. **向导步骤3**:无需任何信息。
 
-   步骤结果1. **向导步骤4 —— 导出设置**
+   Step Result 1. **向导步骤4 —— 导出设置**
 
    | eVar | 选择最多五个eVar以供导出到Qualtrics |
    |---|---|
    | 事件 | 选择最多五个要显示的自定义事件以导出到Qualtrics |
-   | Prop | 选择最多五个要公开的Prop以导出到Qualtrics |
-   |  访问请求 | 选中要导出到Qualtrics的任何标准度量和维度的复选框。 需 `visitor_id` 要允许导出正常工作。 |
+   | Prop | Select up to five of your Props to expose for exporting to Qualtrics |
+   | Access Requests | Check the box for any of the standard metrics and dimensions that you wish to export to Qualtrics. The  is required to allow the export to function properly.`visitor_id` |
 
-1. **向导步骤5**:查看配置，然后单击“ **[!UICONTROL 立即激活”]**。
+1. **Wizard Step 5: Review configuration and then click Activate Now.******
 
-## 在Qualtrics Research suite中启用集成{#enabling-the-integration-in-qualtrics-research-suite}
+## Enabling the Integration in Qualtrics Research Suite{#enabling-the-integration-in-qualtrics-research-suite}
 
-完成集成向导后，您必须为要连接的每个Qualtrics调查激活集成。
+After completing the integration wizard, you must activate the integration for each Qualtrics survey that you want connected.
 
 1. 登录到Qualtrics Research Suite。
 1. 在“我 **[!UICONTROL 的调查]** ”选项卡上，单击要集 **[!UICONTROL 成的调查的“编辑]** ”按钮。
