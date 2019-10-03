@@ -4,11 +4,8 @@ seo-description: 在 Adobe Experience Cloud 中将 Analytics 用户 ID 迁移到
 seo-title: 将 Analytics 用户迁移到 Admin Console
 title: 将 Analytics 用户迁移到 Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
 
 ---
 
@@ -254,7 +251,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
   </tr> 
   <tr> 
    <td colname="col1"> <p>我未能在迁移结束日期前迁移我的所有用户。未迁移的用户会丢失对 Analytics 的访问权限吗？ </p> </td> 
-   <td colname="col2"> <p>在结束日期之前尚未迁移的用户将被重定向到Experience cloud登录页面(experiencecloud.adobe.com)，并且将无法访问Analytics。 但是，您将可以继续访问迁移工具，因此您可以查找并迁移他们以恢复其访问权限。 </p> </td> 
+   <td colname="col2"> <p>Users that have not been migrated by the end date will be redirected to the Experience Cloud login page (experiencecloud.adobe.com) and will be unable to access Analytics. 但是，您将可以继续访问迁移工具，因此您可以查找并迁移他们以恢复其访问权限。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
