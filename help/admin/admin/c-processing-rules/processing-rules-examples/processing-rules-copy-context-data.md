@@ -8,34 +8,27 @@ title: 将上下文数据变量复制到 eVar
 topic: 管理工具
 uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 
 ---
 
 
 # 将上下文数据变量复制到 eVar
 
-处理规则用于将上下文数据变量的值迁移到 prop 和 eVar。
-
-在 AppMeasurement 中可按以下格式指定上下文数据变量：
-
-```
- s.contextData['search_term']
-```
+处理规则用于将值从上下文数据变量移动到prop和eVar。 如果没有处理规则，上下文数据变量将毫无意义，并且不会在Analytics中填充任何报表。
 
 [!UICONTROL 上下文变量]列表包含在之前 30 天发送到报表包中的所有变量。If you know the context data variable name but have not sent it into the current report suite, you can add a value by typing the variable name and clicking **[!UICONTROL Add variable name context data]**:
 
-![](assets/add-context-variable.png)
+![添加](assets/add-context-variable.png)
 
-以下规则定义可在每次点击时填充包含特定的上下文数据变量的 eVar：
+以下示例将上下文 `search_term` 数据变量放入其值中 `eVar3`:
 
-| 规则集 | 数值 |
-|---|---|
-| 条件 | 设置了“搜索词”上下文数据时 |
-| 操作 | 将 eVar3 的值覆盖为“搜索词” |
+![已设置](assets/set-context-data.png)
 
-例如：
+当只有几个eVar需要填充时，上述示例非常有效。 如果您的组织有数百个上下文数据变量，每个变量都需要自己的eVar，则可以使用条件语句。 数十个条件语句可以适合单个处理规则，使您的组织能够填充报表包中的所有eVar，而不会遇到150个规则的处理规则限制。
 
-![](assets/set-context-data.png)
+以下示例使用上 `prop7` 下文数据变量填充 `testhierarchy`，但仅在设置 `testhierarchy` 时填充：
 
-请参阅实施帮助中的[上下文数据变量](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html)。
+![条件](assets/add-conditional.png)
+
+有关实施上下文数据变量的详细信息，请参 [阅《实施用户指南》中的](../../../../implement/js-implementation/c-variables/context-data-variables.md) “上下文数据变量”。
