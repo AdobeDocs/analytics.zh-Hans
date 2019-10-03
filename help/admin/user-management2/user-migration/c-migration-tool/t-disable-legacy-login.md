@@ -3,12 +3,9 @@ description: 了解如何禁用 Analytics 用户的旧版登录。
 seo-description: 了解如何禁用 Analytics 用户的旧版登录。
 seo-title: 禁用旧版登录
 title: 禁用旧版登录
-uuid: 085874b2-10bf-4a56-a337-f3104428 d71 e
-index: y
-internal: n
-snippet: y
+uuid: 085874b2-10bf-4a56-a337-f3104428d71e
 translation-type: tm+mt
-source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
+source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
 
 ---
 
@@ -25,7 +22,7 @@ source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
 
    ![](assets/user-info.png)
 
-   The users that are eligible will have a status of *`Migrated`* under the Migration Status column. 在迁移用户之前将无法禁用其旧版登录。
+   符合条件的用户将在“迁移状态” *`Migrated`* 列下显示状态。 在迁移用户之前将无法禁用其旧版登录。
 1. Click **[!UICONTROL Disable Legacy Login]**, then click **[!UICONTROL Done]**.
 
    “禁用旧版登录”可指示哪些用户可以继续使用其旧版 [!DNL my.omniture.com] 用户名和密码。
