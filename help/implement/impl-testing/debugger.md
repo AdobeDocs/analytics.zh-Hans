@@ -1,64 +1,82 @@
 ---
-description: 安装 Adobe Experience Cloud 调试器。调试器检查Analytics Cloud、Adobe Target、Advertising Cloud、Identity Service、Dynamic Tag Management和Experience Platform Launch的标签。
-seo-description: 安装 Adobe Experience Cloud 调试器。调试器检查Analytics Cloud、Adobe Target、Advertising Cloud、Identity Service、Dynamic Tag Management和Experience Platform Launch的标签。
-seo-title: Experience Cloud 调试器
-title: Experience Cloud 调试器
-uuid: e4b35a89-a41 f-44a8-9e3 f-6e872 c4487 c1
+description: 安装旧版Adobe Experience Cloud调试器。 此调试器检查Analytics、Target、Advertising Cloud、Identity Service、DTM和Launch的标记。
+seo-description: 安装旧版Adobe Experience Cloud调试器。 此调试器检查Analytics、Target、Advertising Cloud、Identity Service、DTM和Launch的标记。
+seo-title: 旧版Adobe Experience cloud调试器
+title: 旧版Adobe Experience cloud调试器
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 
 ---
 
 
-# Experience Cloud 调试器
+# 旧版Adobe Experience cloud调试器
 
-Install the Adobe # [!DNL Experience Cloud] [!UICONTROL Debugger]. [!UICONTROL 调试器] 检查 [!DNL Analytics Cloud]Adobe、Adobe [!DNL Target]、 [!DNL Advertising Cloud][!DNL Experience Cloud] ID服务、 [!UICONTROL 动态标签管理]和 [!UICONTROL Adobe Experience Platform Launch的标签]。
+> [!IMPORTANT] 不再维护此调试工具。 Adobe建议改用 [Adobe Experience Cloud Debugger Chrome Extension](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)。
 
-## Experience Cloud 调试器 {#topic_E05CEAF0682E483A9AB147D774CF2188}
+旧版  调试器检查大多数Adobe Experience cloud服务的标记。 使用调试器，您可以查看在站点上的任何给定页面上向Adobe发送的数据。 您可以使用此信息对贵组织的实施进行疑难解答或验证。
 
-Install the Adobe Experience Cloud [!UICONTROL Debugger]. [!UICONTROL 调试器] 检查Analytics Cloud、Adobe Target、Advertising Cloud、Identity Service、Dynamic Tag Management和Experience Platform Launch的标签。
+## 安装传统调试器
 
->[!IMPORTANT]
->
->Adobe 建议您使用适用于 Chrome 的 [Adobe Experience Cloud 调试器](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)扩展。
+创建JavaScript书签以安装调试器。
 
-在浏览器中执行该调试器时，它可以显示用于将该页面中的数据传输到 Experience Cloud 解决方案的图像请求，以及已捕获到的任何变量值或参数。这样，您和您的开发人员便可检查网站上任一页面中实施的有效性。
+### 第1步：复制书签代码
 
-[!UICONTROL DigitalPulse Debugger] 受到官方支持，可用于所有最新版本和 Build 版本的 Mozilla Firefox、Google Chrome、Microsoft Internet Explorer 和 Safari。
+将以下代码复制到剪贴板：
 
->[!NOTE]
->
->Because the [!UICONTROL Debugger] functions by creating a pop-up window when you access a special bookmark in your web browser, certain ad-blocking plug-ins and pop-up blockers might interfere with the loading of the [!UICONTROL Debugger].
+```JavaScript
+javascript:void(window.open("","stats_debugger","width=800,height=800,location=0,menubar=0,status=1,toolbar=0,resizable=1,scrollbars=1").document.write("<script language=\"JavaScript\" id=dbg src=\"https://www.adobetag.com/d1/digitalpulsedebugger/live/DPD.js\"></"+"script>"+"<script language=\"JavaScript\">window.focus();</script>"));
+```
 
-## 在 Chrome 中安装调试器 {#task_0CEF858083B64F7DB9790567282F7248}
+### 第2步：将书签代码粘贴到书签中
 
-在 Google Chrome 浏览器中安装 Experience Cloud 调试器扩展
+每个浏览器处理书签的方式不同，但概念相同。 将创建具有所需名称的书签，并将书签代码作为URL。
 
-1. 导航至 [Adobe Experience Cloud 调试器](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)。
-1. 按照相关说明在 Chrome 中添加扩展。
+#### Chrome
 
-## Install the Debugger in Firefox (not supported) {#task_D3DD0A300B4B4F5EBF2D139E8FF5A724}
+如果您坚持不使用Chrome扩 [展](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)，则可以改用旧版调试器书签工具。
 
-How to create a bookmark for the Adobe [!UICONTROL Debugger] from within Mozilla Firefox.
+1. 单击右上方的三个圆点，然后转到“书签”&gt;“书签管理器”。 您还可以按 `Ctrl` + `Shift` + `O` (Windows)或 `Cmd` + `Shift` + `O` (Mac)。
+2. 在书签管理器的右上角，单击三个圆点，然后单击“添加新书签”。
+3. 在“名称”字段中，将其标为“Adobe Experience Cloud调试器”，然后将代码片断粘贴到URL字段中。
+4. 使用书签管理器将新书签放在所需位置。
 
-1. Right-click the bookmarks sidebar, then click **[!UICONTROL New Bookmark]**.
-1. In the **[!UICONTROL Name]** field, specify **Adobe[!UICONTROL Debugger]** as the name for the new bookmark.
-1. In the **[!UICONTROL Location]** field, paste the code that you copied to your clipboard.
-1. Select **[!UICONTROL Load the Bookmark in the Sidebar]**, if desired.
-1. Click **[!UICONTROL Add]**.
+#### Firefox
 
-## Install the Debugger in Internet Explorer (not supported) {#task_D60F6BBFE7314A6882D13F8A0DFF0F6C}
+1. 单击右上方的三行，然后转到“库”&gt;“书签”&gt;“显示所有书签”。 您还可以按 `Ctrl` + `Shift` + `B` (Windows)或 `Cmd` + `Shift` + `B` (Mac)。
+2. 单击“组织”&gt;“新建书签”。
+3. 在“名称”字段中，将其标为“Adobe Experience Cloud调试器”，然后将代码片断粘贴到“位置”字段中。 标记和关键字字段不是必填字段。
+4. 使用库窗口将新书签放在所需位置。
 
-How to create a bookmark for the Adobe [!UICONTROL Debugger] from within Internet explorer.
+#### Edge
 
-1. In the [!UICONTROL Favorites Bar], click the **[!UICONTROL Add to Favorites Bar]** icon ![Image](assets/icon_add_to_favorites_bar.png).
+Edge无法手动创建书签，但可以编辑书签URL。
 
-   如果[!UICONTROL 收藏夹栏]处于隐藏状态，请右键单击浏览器标题，然后点击[!UICONTROL 收藏夹栏]。
+1. Click the star icon on the right side of the URL field to bookmark the current page.
+2. 将书签命名为“Adobe Experience Cloud Debugger”，并将其保存到所需位置。
+3. Click the star icon with lines to open the Favorites bar.
+4. Right click the newly created bookmark, the select 'Edit URL'.
+5. Paste the code snippet in the text field, then hit Enter.
 
-   此时会创建一个新书签。
+#### Safari
 
-1. Right-click the bookmark, then click **[!UICONTROL Rename]**.
-1. In the **[!UICONTROL New Name]** field, specify **Adobe[!UICONTROL Debugger]** as the name, then click **[!UICONTROL OK]**.
-1. Right-click the newly created bookmark again, then click **[!UICONTROL Properties]**.
-1. In the **[!UICONTROL URL]** field, paste the code that you copied to your clipboard.
-1. Click **[!UICONTROL OK]**.
+Safari does not have the ability to manually create a bookmarklet, but a bookmark URL can be edited.
+
+1. Click the Share icon in the top right, which opens a bookmark modal window.
+2. Name the bookmark "Adobe Experience Cloud Debugger", and save it in the desired location.
+3. Click Bookmarks &gt; Edit Bookmarks, and locate the newly created bookmark.
+4. Right click &gt; Edit Address, then paste the code snippet into text field.
+
+## Using the legacy debugger
+
+To use the debugger, navigate to the desired page on your site, then click the bookmarklet. A pop-up window appears, showing data sent to Adobe.
+
+> [!NOTE] 某些广告阻止插件和弹出窗口阻止程序可能会干扰调试器窗口的加载。 Check for blocked pop-ups in your browser, and allow them so the debugger can work correctly.
+
+调试器具有多个可用选项，所有选项都可自定义数据的显示方式。 None of these options affect data collection.
+
+* **** Displayed Experience Cloud products: Shows or hides image requests for each respective Experience Cloud product.
+* **** URL解码：URL会解码图像请求以匹配报告中显示的内容。 Adobe建议选中此框。
+* **** 自动刷新：每隔几秒自动刷新弹出窗口，以检查页面上是否有更多图像请求。 如果需要在调试器中复制／粘贴内容，请禁用自动刷新，以便保持选择。
+* **** 友好格式：在图像请求中的有用标签和原始查询字符串之间切换显示格式。 有关详 [细信息，请参阅数据收集查询参数](../js-implementation/data-collection/query-parameters.md) 。
+
+要保存调试器的默认显示选项，请右键单击右上角的“Adobe Debugger”链接，然后复制链接地址。 编辑当前调试器书签并将更新的代码片断粘贴到URL字段中。
