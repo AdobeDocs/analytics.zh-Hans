@@ -6,7 +6,7 @@ solution: Analytics
 title: 验证集成
 uuid: 5f0f9f69-e932-4472-8578-dd3af1315c0c
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
 
 ---
 
@@ -16,7 +16,6 @@ source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 部署后，您应通过以下检查验证集成是否成功传输数据。
 
 1. 查看集成活动日志。
-
    1. 在Adobe Experience cloud中，导航至“支持” **[!UICONTROL &gt;“集]** 成活动日志” ****。
 
       ![](assets/integration_activity_log.png)
