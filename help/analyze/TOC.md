@@ -4,7 +4,7 @@ audience: 最终用户
 user-guide-title: Analytics Analyze 指南
 user-guide-url: /content/help/zh-Hans/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 1150a153014ba2cfe824707216c558bf962e9013
+source-git-commit: 286247dc29e62ab528b01626bb4d93dca08157f9
 
 ---
 
@@ -261,7 +261,6 @@ source-git-commit: 1150a153014ba2cfe824707216c558bf962e9013
    + [配置 Activity Map 设置](activity-map/activitymap-overlay-settings.md)
    + [Activity Map 用户界面](activity-map/activitymap-user-interface.md)
    + [Analytics 中的 Activity Map 报告](activity-map/activitymap-reporting-analytics.md)
-   + [AEM Sites 和 Activity Map 集成](activity-map/aem-sites-integration.md)
    + [浏览器扩展疑难解答](activity-map/troubleshooting-browser-extensions.md)
    + [知识资源](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
