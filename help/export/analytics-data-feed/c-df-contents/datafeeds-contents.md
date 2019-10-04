@@ -1,24 +1,24 @@
 ---
 description: 本节介绍数据馈送提交中包含的文件。
-keywords: 数据馈送；工作；内容；清单；文件；查找；点击数据；交付内容
+keywords: 数据馈送；作业；内容；清单；文件；查找；点击数据；交付内容
 seo-description: 本节介绍数据馈送提交中包含的文件。
-seo-title: 数据源内容-概述
+seo-title: 数据馈送内容 - 概述
 solution: Analytics
 subtopic: 数据馈送
-title: 数据源内容-概述
-topic: Reports & Analytics
-uuid: 82a86314-4841-4133-a0 dc-4e7 c6 cd14 fc1
+title: 数据馈送内容 - 概述
+topic: Reports and Analytics
+uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 translation-type: tm+mt
-source-git-commit: 7fe23291d8ee9675181065025692108aee3ea9a5
+source-git-commit: 4ce92a400c6590ce7c891155f404b64f0808bcb8
 
 ---
 
 
-# 数据源内容-概述
+# 数据馈送内容 - 概述
 
 本节介绍数据馈送提交中包含的文件。
 
-## 清单文件 {#section_044BBDE2906D49518F8264CD4832D429}
+## 清单文件
 
 清单文件包含以下有关上载数据集中每个文件的详细信息：
 
@@ -31,23 +31,23 @@ source-git-commit: 7fe23291d8ee9675181065025692108aee3ea9a5
 
 The manifest file is always delivered last as a separate `.txt` file, so that its existence indicates that the complete data set for that request period has already been delivered. 清单文件根据以下规则命名：
 
-```
-<report_suite_id>_YYYY_MM_DD.txt
+```text
+[rsid]_[YYYY-mm-dd].txt
 ```
 
 典型的清单文件包含如下类似数据：
 
-```
+```text
 Datafeed-Manifest-Version: 1.0
  Lookup-Files: 1
  Data-Files: 1
  Total-Records: 611
 
- Lookup-File: bugzilla_2012-09-09-lookup_data.tar.gz
+ Lookup-File: rsid_date-lookup_data.tar.gz
  MD5-Digest: af6de42d8b945d4ec1cf28360085308
  File-Size: 63750
 
- Data-File: 01-bugzilla_2012-09-09.tsv.gz
+ Data-File: 01-rsid_date.tsv.gz
  MD5-Digest: 9c70bf783cb3d0095a4836904b72c991
  File-Size: 122534
  Record-Count: 611
@@ -55,18 +55,18 @@ Datafeed-Manifest-Version: 1.0
 
 每个清单文件包含一个标题，指示对照文件、数据文件的总数，以及所有数据文件中的记录总数。此标题后跟多个部分，其中包含数据馈送提交中包括的每个文件的信息。
 
-Some feeds are configured to receive a `rsid_YYYY-MM-DD.fin` file instead of a `.txt` manifest. The `.fin` indicates that the upload is complete, but it contains no metadata about the upload.
+Some feeds are configured to receive a `.fin` file instead of a `.txt` manifest. The `.fin` indicates that the upload is complete, but it contains no metadata about the upload.
 
-## 对照文件 {#section_B5863537A48D47D78D0F7274838923C1}
+## 查找文件
 
-对照文件不包含点击数据，它们是用于提供点击数据列标题的补充文件，以及用于将数据馈送中存在的 ID 转换为实际值的对照文件。例如，浏览器列中的值“497”表示该点击来自“Microsoft Internet Explorer 8”。
+某些数据馈送列输出一个与其实际值相对应的数字。 查找文件用于匹配数据馈送列中的数字，并将其与实际值匹配。 例如，点击数据列中的值为“497” `browser` 表示点击来自“Microsoft Internet Explorer 8”（如果您查看） `browser.tsv`。
 
 Note that the `column_headers.tsv` and `event_list.tsv` are specific to the data feed and report suite. 其他文件（例如 `browser.tsv`）则是通用的。
 
 对照文件在根据以下规则命名的压缩 zip 文件中一同提交：
 
-```
-<report_suite_id>_<YYYY-mm-dd>-<HHMMSS>-lookup_data.<compression_suffix>
+```text
+[rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
 * [!DNL column_headers.tsv]（针对此数据馈送自定义的规则）
@@ -84,68 +84,50 @@ Note that the `column_headers.tsv` and `event_list.tsv` are specific to the data
 * [!DNL search_engines.tsv]
 * [!DNL event_lookup.tsv]（针对此数据馈送自定义的规则）
 
-## 点击数据文件 {#section_B0745236104E41F2BA625D24AB442636}
+## 点击数据文件
 
 Hit data is provided in a [!DNL hit_data.tsv] file. 此文件中的数据量由提交格式（每小时或每日、单个或多个文件）确定。此文件仅包含点击数据。列标题与对照文件分开提交。此文件中的每行均包含一个服务器调用。
 
-## 提交内容 {#section_994B43D1E71A4EFDB2E4183C0929A397}
+Adobe交付的文件因您配置的数据源类型而异。 所有文件都使用ISO-8859-1进行编码。
 
->[!NOTE]
->
->文件使用ISO-8859-1进行编码。
+* `[rsid]` 引用数据源所来自的报表包ID。
+* `[index]` 仅用于多个文件源，并引用分页文件的正确顺序。
+* `[YYYY-mm-dd]` 指数据馈送的开始日期。
+* `[HHMMSS]` 仅在每小时馈送中使用，并引用数据馈送的起始小时数。
+* `[compression_suffix]` 指使用的压缩类型。 通常，数据馈送会压缩到 `tar.gz` 或文 `zip` 件中。
 
-根据您所配置的数据馈送类型，Adobe 提交的实际文件会有所不同。请在下面的提交文件说明表中，查找与您的数据馈送匹配的配置。
+### 每日，单个文件
 
-文件名中指示的时间 (HHMMSS) 总是表示文件所含数据对应的日期范围开始时间，无论文件何时生成或上载。
+在收集一天的数据后，您将收到一个压缩数据文件和一个清单文件。 数据文件名为：
 
-<table id="table_DBF34F39D29D4DA2B2689029CDA24B92"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 提交格式 </th> 
-   <th colname="col2" class="entry"> 说明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 每日，单个文件 </td> 
-   <td colname="col2"> <p>收集一天的数据后，您将收到包含以下内容的提交： </p> 
-    <ul id="ul_D630D73D0DBA440FA704CF31856243C7"> 
-     <li id="li_717873DBBF264422A39217E1A8829742">单个压缩数据文件。 </li> 
-     <li id="li_9F75D42FD56E4CC89C4683D32E59337B">清单文件。 </li> 
-    </ul> <p>数据文件使用以下名称进行提交： </p> 
-    <code>&lt; report_ suite&gt;_&lt; YYYY-mm-dd&gt;。&lt;compression_suffix&gt;
-    </code> <p> 其中，<code>&lt;compression_suffix&gt;</code> 是 <code>tar.gz</code> 或 <code>zip</code>。 </p> <p>提取后，数据文件包含单个 <span class="filepath">hit_data.tsv</span> 文件（含有该日期的所有数据），以及上述压缩对照文件。 </p> <p>根据报表包中的当前使用变量数和流量，点击数据文件大小会有很大差异。但是，一行数据平均约为 500 B（压缩）或 2 KB（未压缩）。将此值乘以服务器调用数，即可粗略估计数据馈送文件的大小。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 每日，多个文件 </td> 
-   <td colname="col2"> <p>收集一天的数据后，您将收到包含以下内容的提交： </p> 
-    <ul id="ul_4B873D3F6F18467890C36AE8E86F49DA"> 
-     <li id="li_227315384B954A5784FA370D9B30E2AF">一个或多个压缩数据文件，分为 2 GB 数据块。 </li> 
-     <li id="li_4169D889CEA3446CB5FAA08FD60AA0D0">清单文件。 </li> 
-    </ul> <p>每个数据文件使用以下名称进行提交： </p> 
-    <code>&lt; index&gt;-&lt; report_ suite&gt;_&lt; YYYY-mm-dd&gt;。&lt;compression_suffix&gt;
-    </code> <p> 其中，<code>&lt;index&gt;</code> 是从 <i>1</i> 到 <i>n</i> 增加的文件索引（假设有 <i>n</i> 个文件），而 <code>&lt;compression_suffix&gt;</code> 是 <code>tar.gz</code> 或 <code>zip</code>。 </p> <p>提取后，每个数据文件包含单个 <span class="filepath">hit_data.tsv</span>（含有大约 2 GB 的解压缩数据），以及上述压缩对照文件。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 每小时，单个文件 </td> 
-   <td colname="col2"> <p>收集一小时的数据后，您将收到包含以下内容的提交： </p> 
-    <ul id="ul_29B06981A4F74D2AA1171D733C5FB1F4"> 
-     <li id="li_072BBC4BA9B84C61B4E8EFA35F54707B">单个数据文件。 </li> 
-     <li id="li_E2D05E9DAE814309B6BC91798BB29FBB">清单文件。 </li> 
-    </ul> <p>数据文件使用以下名称进行提交： </p> 
-    <code>&lt; report_ suite&gt;_&lt; YYYY-mm-dd&gt;-&lt; HHMMSS&gt;。&lt;compression_suffix&gt;
-    </code> <p> 其中，<code>&lt;compression_suffix&gt;</code> 是 <code>tar.gz</code> 或 <code>zip</code>。 </p> <p>提取后，数据文件包含单个 <span class="filepath">hit_data.tsv</span> 文件，其中含有该小时的所有数据。上述压缩对照文件仅与每天第一个小时的数据一同提交。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 每小时，多个文件 </td> 
-   <td colname="col2"> <p>收集一小时的数据后，您将收到包含以下内容的提交： </p> 
-    <ul id="ul_A739BA12B66547A28BA45E0B9B747B16"> 
-     <li id="li_C0DF059D1E6843C8A38E24CA1B59D99C">一个或多个压缩数据文件，分为 2 GB 数据块。 </li> 
-     <li id="li_604266DA9B8A4000905C44C95DA65D14">清单文件。 </li> 
-    </ul> <p>每个数据文件使用以下名称进行提交： </p> 
-    <code>&lt; index&gt;-&lt; report_ suite&gt;_&lt; YYYY-mm-dd&gt;-&lt; HHMMSS&gt;. tsv。&lt;compression_suffix&gt;
-    </code> <p>其中，<code>&lt;index&gt;</code> 是从 <i>1</i> 到 <i>n</i> 增加的文件索引（假设有 <i>n</i> 个文件），而 <code>&lt;compression_suffix&gt;</code> 是 <code>gz</code> 或 <code>zip</code>。 </p> <p>提取后，每个数据文件包含单个 <span class="filepath">hit_data.tsv</span>，其中含有大约 2 GB 的解压缩数据。上述压缩对照文件仅与每天第一个小时的数据一同提交。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+`[rsid]_[YYYY-mm-dd].[compression_suffix]`
 
+提取后，数据文件包含一个包含当 `hit_data.tsv` 天所有数据的文件，以及任何所需列的查找文件。
+
+### 每天，多个文件
+
+在收集一天的数据后，您将收到一个或多个压缩数据文件和清单文件。 数据文件名为：
+
+`[index]-[rsid]_[YYYY-mm-dd].[compression_suffix]`
+
+提取后，每个数据文件都包含一个包含约2GB `hit_data.tsv` 未压缩数据的文件，以及任何所需列的查找文件。
+
+### 每小时，单个文件
+
+在收集数据一小时后，您将收到单个压缩数据文件和清单文件。 数据文件名为：
+
+`[rsid]_[YYYY-mm-dd]-[HHMMSS].[compression_suffix]`
+
+提取后，数据文件包含一个包含该小 `hit_data.tsv` 时所有数据的文件，以及任何所需列的查找文件。
+
+### 每小时，多个文件
+
+在收集数据一小时后，您将收到一个或多个压缩数据文件和清单文件。 数据文件名为：
+
+`[index]-[rsid]_[YYYY-mm-dd]-[HHMMSS].[compression_suffix]`
+
+提取后，每个数据文件都包含一个包含约2GB `hit_data.tsv` 未压缩数据的文件，以及任何所需列的查找文件。
+
+## 数据文件大小
+
+点击数据文件的大小根据当前使用的变量数和发送到报表包的流量而有很大不同。 但是，一行数据平均约为 500 B（压缩）或 2 KB（未压缩）。将其乘以服务器调用数，可以粗略估计数据馈送文件的大小。 在您的组织开始接收数据馈送文件后，您可以通过将行数除以其总文件大小来找到更 `hit_data.tsv` 准确的数字。
