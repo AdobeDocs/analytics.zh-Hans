@@ -56,7 +56,7 @@ source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
 1. 使用下列方法之一部署代码：
 |您 **可以使用Adobe TagManager或动态标签管理。** |使用标签管理界面添加代码。 |
 |---|---|
-| In all other cases | Deliver the code to the organizational resource that is responsible for updating your Adobe Analytics deployment code.  |****
+| **In all other cases** | Deliver the code to the organizational resource that is responsible for updating your Adobe Analytics deployment code.  |
 
 ## Verify the Integration{#verify-the-integration}
 
