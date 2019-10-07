@@ -8,7 +8,7 @@ title: Reports and Analytics 快速入门
 topic: Reports and Analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: 957535d7bd5ba9f726950341b6bc0be1e7e75cec
+source-git-commit: cc76128ac4aad2a78a70e84cadf0198d18809498
 
 ---
 
@@ -51,7 +51,7 @@ source-git-commit: 957535d7bd5ba9f726950341b6bc0be1e7e75cec
 
 ## 登录到报告和分析
 
-在访问界面之前，请与您的客户经理或 Customer Care 团队合作来设置贵公司的帐户。
+在访问界面之前，请与您的客户经理或Adobe客户关怀团队合作，设置您公司的帐户。
 
 ## 使用Experience cloud登录
 
