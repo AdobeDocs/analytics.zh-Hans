@@ -1,23 +1,23 @@
 ---
 description: 在使用 Reports & Analytics 之前，请了解这些基本登录和设置任务，以及如何访问帐户信息。
 seo-description: 在使用 Reports & Analytics 之前，请了解这些基本登录和设置任务，以及如何访问帐户信息。
-seo-title: Reports和Analytics入门
+seo-title: Reports and Analytics 快速入门
 solution: Analytics
-subtopic: 入门
-title: Reports和Analytics入门
-topic: Reports & Analytics
+subtopic: 快速入门
+title: Reports and Analytics 快速入门
+topic: Reports and Analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 957535d7bd5ba9f726950341b6bc0be1e7e75cec
 
 ---
 
 
-# Reports和Analytics入门
+# Reports &amp; Analytics快速入门
 
-在使用 Reports &amp; Analytics 之前，请了解这些基本登录和设置任务，以及如何访问帐户信息。
+在使用Reports &amp; Analytics之前，请了解这些基本的登录和设置任务以及如何访问帐户信息。
 
-## Getting started with Reports and Analytics {#concept_8C531D94965743BFBED7A87FE5473FF0}
+## Reports &amp; Analytics快速入门
 
 在使用 Reports &amp; Analytics 之前，请了解这些基本登录和设置任务，以及如何访问帐户信息。
 
@@ -33,15 +33,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 他们观看视频花费多长时间
 * 他们访问网站使用哪些浏览器和设备
 
-## Browser and system requirements {#concept_7E987A1E578940B1859D89CA14FAFF34}
+## 浏览器和系统要求
 
 登录“Reports &amp; Analytics”界面的浏览器和系统要求。
-
-<!-- 
-
-requirements.xml
-
- -->
 
 * 浏览器：
 
@@ -55,22 +49,16 @@ requirements.xml
 * 必须启用 Cookie 和 JavaScript。
 * 具有 16 位颜色深度（或更高）的 1024 x 768 显示器分辨率。
 
-## Log in to Reports and Analytics {#concept_27B0A630D26D497E98F6A4AFA579BA9A}
+## 登录到报告和分析
 
 在访问界面之前，请与您的客户经理或 Customer Care 团队合作来设置贵公司的帐户。
 
-## Log in using the Experience Cloud {#task_BDC7532F7CBF4689A2079BB2CCD64F01}
+## 使用Experience cloud登录
 
-描述如何通过Adobe Experience Cloud登录的步骤。
-
-<!-- 
-
-t_login_sso.xml
-
- -->
+描述如何通过Adobe Experience cloud登录的步骤。
 
 1. 启动联网计算机的浏览器。
-1. [!DNL https://login.experiencecloud.adobe.com/]转至。
+1. Go to [!DNL https://login.experiencecloud.adobe.com/].
 1. On the [!UICONTROL Sign In] page, click **[!UICONTROL Single Sign-On]**.
 1. Complete the following information, then click **[!UICONTROL Sign In]**.
 
@@ -79,23 +67,17 @@ t_login_sso.xml
    **[!UICONTROL 用户名]**：指定您的帐户 ID。
 
    **[!UICONTROL 密码]**：指定您的帐户密码。
-1. From the Experience Cloud home page, go to **Analytics &gt; Reports**.
+1. 从Experience cloud主页，转到“ **Analytics”&gt;“Reports**”。
 
    在非活动状态下持续 30 分钟后，Experience Cloud 会自动将您注销。
 
-## 运行报表 {#task_C6772791AFD642CFB9C51ADB9E5932A5}
+## 运行报表
 
 描述如何生成报表的步骤。
 
-<!-- 
-
-t_running_report.xml
-
- -->
-
 1. 登录到“[!UICONTROL Reports &amp; Analytics]”。
 
-   The Reports menu displays, or a [dashboard](../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0) displays, if you have set one up.
+   如果已设置报表菜单，则显 [示](../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0) “报表”菜单或显示功能板。
 
 1. Click **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages]** (for example).
 
@@ -103,19 +85,13 @@ t_running_report.xml
 
    See [Report Features](../../analyze/reports-analytics/overview/report-overview.md#concept_AEA3BBC8167040198E0FECEAB2E0A677) for information about interface features of a report.
 
-## 编辑用户的帐户设置 {#concept_7FAF5B923B984426B7F64E026EA2DCAA}
+## 编辑用户的帐户设置
 
 有关编辑用户帐户、重置用户密码和编辑联系信息的信息。
 
-<!-- 
-
-t_acct_info.xml
-
- -->
-
 您可以查看和编辑联系信息，指定密码，查看 Web 服务信息，以及从数据收集中排除此计算机。
 
-Click the Account icon  ![](assets/account.png)at the top right, then click the **[!UICONTROL Account Settings]** (wheel) icon next to your login name.
+Click the Account icon ![](assets/account.png)at the top right, then click the **[!UICONTROL Account Settings]** (wheel) icon next to your login name.
 
 所有用户都可以访问[!UICONTROL 帐户信息]页面。可以查看或编辑以下信息：
 
@@ -153,27 +129,11 @@ Click the Account icon  ![](assets/account.png)at the top right, then click the 
  </tbody> 
 </table>
 
-## 更改界面语言 {#task_E20F9C7713C444998C883CFF93DC848A}
+## 更改界面语言
 
 描述如何更改界面语言的步骤。您可以用所选的语言来查看 Reports &amp; Analytics 界面。
 
-<!-- 
+1. 登录到Analytics，然后选择“报 **[!UICONTROL 告]** ”选项卡。
+1. 在页脚中，单击“语言”菜单中的活 **[!UICONTROL 动语言]** ，然后选择首选语言。
 
-t_changing_language.xml
-
- -->
-
-1. 登录。
-1.  点击&#x200B;**查看语言**&#x200B;菜单，然后点击一种语言： 
-
-* 英语
-* 法语
-* 繁体中文
-* 简体中文
-* 德语
-* 日语
-* 韩语
-* 西班牙语
-* 葡萄牙语
-
-   最新的文档通常为英文版。您可以从 Adobe Experience Cloud 访问文档和主页。( **[!UICONTROL Help]** &gt; **[!UICONTROL Help Home]**.)
+您可以从 Adobe Experience Cloud 访问文档和主页。( **[!UICONTROL Help]** &gt; **[!UICONTROL Help Home]**.)
