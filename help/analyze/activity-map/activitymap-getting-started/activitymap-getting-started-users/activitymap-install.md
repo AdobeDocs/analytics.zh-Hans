@@ -7,7 +7,7 @@ title: 安装 Activity Map 浏览器插件
 topic: Activity Map
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 translation-type: tm+mt
-source-git-commit: 26e39ea2015829568147239169c97255fcc7a507
+source-git-commit: 0def09fea5f435fa0dd2235aeade25cafbdf97ee
 
 ---
 
@@ -22,7 +22,7 @@ Activity Map 浏览器插件：
 * 通过浏览器工具栏中的按钮或菜单项启动。
 * 只兼容以下桌面浏览器的最新版本：Internet Explorer、Firefox、Chrome 和 Safari。
 * 支持&#x200B;**[!UICONTROL 请记住我的登录信息]功能。**
-* **可以**&#x200B;将 Activity Map 工具栏插入不包含 Analytics 页面代码的网页。如果页面不包含 Analytics 页面代码，则会显示错误消息。
+* ****&#x200B;可以将 Activity Map 工具栏插入不包含 Analytics 页面代码的网页。如果页面不包含 Analytics 页面代码，则会显示错误消息。
 * 要求您完成浏览器插件安装进程。
 
 ## Install Activity Map plug-in on Chrome {#section_6907253D5D5E4422967E6439207A013F}
