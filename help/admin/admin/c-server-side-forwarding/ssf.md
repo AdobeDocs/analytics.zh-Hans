@@ -4,9 +4,9 @@ seo-description: 服务器端转发专为希望将 Analytics 中的数据实时�
 seo-title: 服务器端转发概述
 solution: Audience Manager
 title: 服务器端转发概述
-uuid: 22ddbde5-6805-4eba-8f82-62-6277264dca
+uuid: 22ddbde5-6805-4eba-8f82-6272644dcaa
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: a41ac96bf93343fbcb8d7ab16f633665dcf3aa6a
 
 ---
 
@@ -17,31 +17,31 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 服务器端转发可改进数据收集，原因是：
 
-* 可以减少来自页面的调用。With server-side forwarding, [!DNL Audience Manager] customers no longer need to use DIL for data collection because it is being forwarded from Analytics. Removing DIL means eliminating an `"/event"` call. 更少的调用有助于改善页面加载时间，这会为您的网站带来更好的客户体验。
+* 可以减少来自页面的调用。With server-side forwarding, [!DNL Audience Manager] customers no longer need to use DIL for data collection because it is being forwarded from Analytics. 删除DIL意味着消除呼 `"/event"` 叫。 更少的调用有助于改善页面加载时间，这会为您的网站带来更好的客户体验。
 * 让您可以在各 Experience Cloud 解决方案之间利用数据共享功能。
 * 符合我们为 Audience Manager 代码实施和部署提供的最佳实践。
 
 >[!TIP]
 >
->使用Analytics的当前Audience Manager客户应迁移到服务器端转发。新的 Adobe Analytics 和 Audience Manager 客户应当实施服务器端转发（而不是 DIL）作为默认的数据收集和传输方法。
+>当前使用Analytics的Audience manager客户应迁移到服务器端转发。 新的 Adobe Analytics 和 Audience Manager 客户应当实施服务器端转发（而不是 DIL）作为默认的数据收集和传输方法。
 
 >[!IMPORTANT]
 >根据欧盟 Cookie 合规条例的规定，数据控制方（Analytics 客户）现在可以选择将预先同意的数据限制在 Adobe Analytics 中，并阻止将这些数据经由服务器端转发至 Adobe Audience Manager (AAM)。新的实施环境变量可以让您标记出在未获得同意的情况下的点击量。设置了该变量后，它可以阻止将这些点击量发送到 AAM，直至获得同意为止。有关更多信息，请参阅 GDPR_ePrivacy 合规和服务器端转发。
 
 要了解您的组织在实施服务器端转发方面的进展，请执行以下验证步骤：
 
-## ![step1_ icon. png图像](assets/step1_icon.png) 验证MID服务实现
+## ![step1_icon.png图像验证](assets/step1_icon.png) MID服务实现
 
 通过检查 [Analytics 跟踪请求](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html)，验证是否实施了 Experience Cloud ID (MID) 服务。
 
-在请求选项卡中，验证是否设置了 MID 值。这告诉您Identity Service得到正确实施，这是服务器端转发的先决条件。
+在请求选项卡中，验证是否设置了 MID 值。这告诉您，Identity service已正确实施，这是服务器端转发的先决条件。
 
 * 如果您看到了 MID 值，请继续执行步骤 2。
 * If you do not see a MID value, [implement Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html) before proceeding to step 2.
 
-## ![step2_ icon. png图像](assets/step2_icon.png) 验证服务器端转发实施版本
+## ![step2_icon.png图像验证服务器端转发实施版本](assets/step2_icon.png) ,
 
-[检查Analytics跟踪请求](../../../admin/admin/c-server-side-forwarding/ssf-verify.md)，验证您是否已经有服务器端转发版本。
+通过检查Analytics跟踪请求，验证您是否已实施服 [务器端转发版本](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)。
 
 在“响应”选项卡中，检查响应中是否包含 Audience Manager 数据。如果您看到：
 
@@ -56,7 +56,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
    * **新 AAM 客户** - 安装[受众管理模块](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html)页面代码并继续执行步骤 3。在步骤 3 中开启了服务器端转发之后，才会将数据发送到 Audience Manager。
 
 
-## ![step3_ icon. png图像](assets/step3_icon.png) 验证报告套件的服务器端转发实施
+## ![step3_icon.png图像](assets/step3_icon.png) ，验证报表包的服务器端转发实现
 
 验证您是否已在报表包级别实施了服务器端转发，而不是采用旧版跟踪服务器方法。
 
