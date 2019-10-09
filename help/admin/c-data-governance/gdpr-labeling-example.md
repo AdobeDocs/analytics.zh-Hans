@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 标签功能示例
 title: 标签功能示例
-uuid: a9a5b937-dbde-4f0 f-a171-005ef4 c79 df9
+uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 translation-type: tm+mt
-source-git-commit: edafa9ca8dc34bd1f3af8c56b4f23c4a983aa677
+source-git-commit: d2134271c4586d629c8b25f60c746902ba13683b
 
 ---
 
@@ -20,9 +20,9 @@ source-git-commit: edafa9ca8dc34bd1f3af8c56b4f23c4a983aa677
 * 第二行是变量的名称；如果它有一个 ID 标签，它将包含括号中分配的命名空间。
 * 而第三行是命中数据；
 
-| 标签 | I2<br>ID-PersonDEL-PersonACC-Person<br><br> | I2<br><br>ID-DevicEDEL-DeviceACC-全部<br> | I2<br>DEL-SonAACC-Person<br> | I2<br><br>DEL-DevicEDL-PersonAVC-All<br> | I2<br><br>ID-DevicEDEL-DeviceACC-全部<br> |
+| 标签 | I2<br>ID-<br>PERSONDEL-<br>PERSONACC-PERSON | I2<br>ID-<br>DEVICEDEL-<br>DEVICEACC-ALL | I2<br>DEL-<br>PERSONACC-PERSON | I2<br>DEL-<br>DEVICEDEL-<br>PERSONACC-ALL | I2<br>ID-<br>DEVICEDEL-<br>DEVICEACC-ALL |
 |---|---|---|---|---|---|
-| **变量名称**<br>**(命名空间)** | **MyProp1**<br>**(用户)** | **访客ID**<br>**(AACID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
+| **变量名称**<br>**（命名空间）** | **MyProp1**<br>**（用户）** | **访客ID**<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
 | 命中数据 | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
@@ -36,7 +36,7 @@ source-git-commit: edafa9ca8dc34bd1f3af8c56b4f23c4a983aa677
 
 如果我提交访问请求，摘要文件将包含下表中显示的值。一个请求只返回一个设备文件、一个人员文件，或各一个文件。只有在使用人员 ID 并且 expandIds 为 true 时，会返回两个摘要文件。
 
-| API 值 | API 值 | 返回文件类型 | <br>摘要访问文件中的数据 | <br>摘要访问文件中的数据 | <br>摘要访问文件中的数据 | <br>摘要访问文件中的数据 | <br>摘要访问文件中的数据 |
+| API 值 | API 值 | 返回文件类型 | Data in <br>Summary Access File | Data in <br>Summary Access File | Data in <br>Summary Access File | Data in <br>Summary Access File | Data in <br>Summary Access File |
 |--- |--- |--- |---|---|---|---|---|
 | **Namespace/ ID** | **expandIDs** |  | **MyProp1** | **访客 ID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | AAID=77 | false | “设备” | 变量不存在 | 77 | 变量不存在 | M、P | X、W |
@@ -58,39 +58,39 @@ source-git-commit: edafa9ca8dc34bd1f3af8c56b4f23c4a983aa677
 | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter |
 |---|---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| Mary | 42 | A | GDPR-7398 | GDPR-9152 |
+| Mary | 42 | A | 隐私-7398 | 隐私-9152 |
 | Mary | 88 | B | N | Y |
 | Mary | 99 | C | O | Z |
-| John | 42 | D | GDPR-1866 | GDPR-8216 |
+| John | 42 | D | 隐私-1866 | 隐私-8216 |
 | John | 88 | E | N | U |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] 仅影响包含AID=77和DEL-DEVICE标签的行上的单元格。
+>[!NOTE] 只有包含AAID = 77和DEL-DEVICE标签的行上的单元格受到影响。
 
-| user= maryExpands<br>= false | user= maryExpands<br>= false | user= maryExpands<br>= false | user= maryExpands<br>= false | user= maryExpands<br>= false |
+| user=<br>MaryexpandIDs=false | user=<br>MaryexpandIDs=false | user=<br>MaryexpandIDs=false | user=<br>MaryexpandIDs=false | user=<br>MaryexpandIDs=false |
 |--- |---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| GDPR-0523 | 77 | GDPR-1866 | GDPR-3681 | X |
-| GDPR-0523 | 88 | GDPR-2178 | GDPR-1975 | Y |
-| GDPR-0523 | 99 | GDPR-9045 | GDPR-2864 | Z |
+| 隐私-0523 | 77 | 隐私-1866 | 隐私-3681 | X |
+| 隐私-0523 | 88 | 隐私-2178 | 隐私-1975 | Y |
+| 隐私-0523 | 99 | 隐私-9045 | 隐私-2864 | Z |
 | John | 77 | D | P | W |
 | John | 88 | E | N | U |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] 仅影响包含用户= Mary和DEL-HON标签的行上的单元格。另外，实际上，包含 A_ID 的变量可能是 prop 或 eVar，其替换值是以“GDPR-”开头的字符串，后面跟有随机数 (GUID)，而不是用不同的随机数值来替换该数值。
+>[!NOTE] 只会影响包含user=Mary和DEL-PERSON标签的行上的单元格。 此外，在实践中，包含A_ID的变量可能是prop或eVar，其替换值将是以“Privacy-”开头的字符串，后跟随机数(GUID)，而不是用其他随机数值替换数字值。
 
-| user=Mary<br>expandIDs=true | user= maryExpands<br>= true | user= maryExpands<br>= true | user= maryExpands<br>= true | user= maryExpands<br>= true |
+| user=<br>MaryexpandIDs=true | user=<br>MaryexpandIDs=true | user=<br>MaryexpandIDs=true | user=<br>MaryexpandIDs=true | user=<br>MaryexpandIDs=true |
 |--- |---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| GDPR-5782 | 09 | GDPR-0859 | GDPR-8183 | GDPR-9152 |
-| GDPR-5782 | 16 | GDPR-6104 | GDPR-2911 | GDPR-6821 |
-| GDPR-5782 | 83 | GDPR-2714 | GDPR-0219 | GDPR-4395 |
-| John | 09 | D | GDPR-8454 | GDPR-8216 |
-| John | 16 | E | GDPR-2911 | GDPR-2930 |
+| 隐私-5782 | 09 | 隐私-0859 | 隐私-8183 | 隐私-9152 |
+| 隐私-5782 | 16 | 隐私-6104 | 隐私-2911 | 隐私-6821 |
+| 隐私-5782 | 83 | 隐私-2714 | 隐私-0219 | 隐私-4395 |
+| John | 09 | D | 隐私-8454 | 隐私-8216 |
+| John | 16 | E | 隐私-2911 | 隐私-2930 |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
