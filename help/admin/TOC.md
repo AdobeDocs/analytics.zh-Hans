@@ -3,8 +3,8 @@ product: analytics
 audience: admin
 user-guide-title: Analytics 管理指南
 user-guide-url: /content/help/zh-Hans/analytics/admin/home.html
-translation-type: ht
-source-git-commit: 8185272aefa5e57b5a5b4baf9fb3a711439cea42
+translation-type: tm+mt
+source-git-commit: 49e555bb4cd9b28eeffee3e4e98ddf3fb72a1038
 
 ---
 
@@ -49,6 +49,7 @@ source-git-commit: 8185272aefa5e57b5a5b4baf9fb3a711439cea42
    + [发布小组件](admin/publishing-widgets-admin.md)
    + [首选项管理器](admin/preferences-manager.md)
    + [隐私设置](admin/privacy-settings.md)
+   + [隐私设置](admin/privacy-reporting.md)
    + 处理规则 {#processing-rules}
       + [处理规则概述](admin/c-processing-rules/processing-rules.md)
       + 处理规则配置 {#processing-rules-configuration}
@@ -160,18 +161,20 @@ source-git-commit: 8185272aefa5e57b5a5b4baf9fb3a711439cea42
    + [电子邮件用户](user-management2/t-email-users.md)
 + 数据管理 {#data-governance}
    + [Adobe Analytics 和 GDPR](c-data-governance/an-gdpr-overview.md)
+   + [Adobe Analytics和CCPA](c-data-governance/an-ccpa-overview.md)
    + [常见问题解答](c-data-governance/gdpr-faq.md)
-   + [Adobe Analytics GDPR 工作流程](c-data-governance/an-gdpr-workflow.md)
+   + [Adobe Analytics数据隐私工作流程](c-data-governance/an-gdpr-workflow.md)
    + [查看/管理报表包的数据管理设置](c-data-governance/gdpr-view-settings.md)
    + [为报表包数据设置标签](c-data-governance/gdpr-setup-reportsuite.md)
    + [提交访问和删除请求](c-data-governance/gdpr-submit-access-delete.md)
-   + [适用于 Analytics 变量的 GDPR 标签](c-data-governance/gdpr-labels.md)
+   + [Analytics变量的数据隐私标签](c-data-governance/gdpr-labels.md)
    + [命名空间](c-data-governance/gdpr-namespaces.md)
    + [ID 扩展](c-data-governance/gdpr-id-expansion.md)
    + [标签设置最佳实践](c-data-governance/gdpr-analytics-ids.md)
    + [标签设置示例](c-data-governance/gdpr-labeling-example.md)
-   + [GDPR 和 Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
-   + [GDPR 术语](c-data-governance/gdpr-terminology.md)
+   + [数据隐私和数据连接器(Genesis)](c-data-governance/data-connectors-gdpr.md)
+   + [数据隐私术语](c-data-governance/gdpr-terminology.md)
+   + [同意管理变量](c-data-governance/consent-variables.md)
 + 服务器调用使用情况 {#server-call-usage}
    + [服务器调用使用情况概述](c-server-call-usage/overage-overview.md)
    + [查看当前的服务器调用使用情况](c-server-call-usage/server-call-usage-dashboard.md)
