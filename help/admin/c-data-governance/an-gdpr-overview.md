@@ -3,9 +3,9 @@ description: 本文档介绍您需要在 Adobe Analytics 中执行什么操作�
 seo-description: 本文档介绍您需要在 Adobe Analytics 中执行什么操作来支持数据主体的 GDPR 访问和删除权利。
 seo-title: Adobe Analytics 和 GDPR
 title: Adobe Analytics 和 GDPR
-uuid: 16fd5af8-9148-4e09-ad54-9e3 cd5 b3 c6 d
+uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
 
 ---
 
@@ -20,13 +20,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 >
 >本文档的内容不是法律建议，也不会代替法律建议。请咨询贵公司的法律部门，以获取有关 GDPR 的建议。
 
-2018年月25日，欧盟的一般数据保护规定(GDPR)生效。有关 Adobe 对此作何回应以及它对 Adobe 客户有何影响的更多信息，请参阅 [GDPR 与您的业务](https://www.adobe.com/privacy/general-data-protection-regulation.html)。
+2018年5月25日，欧盟的一般数据保护规定(GDPR)生效。 For more information about Adobe's response and what this means for you as an Adobe customer, see [GDPR and Your Business.](https://www.adobe.com/privacy/general-data-protection-regulation.html)
 
 Adobe 向企业提供软件和服务时，作为提供服务的一部分，Adobe 将以数据处理者身份，代表我们的客户对收到和存储的任何个人数据进行处理。作为数据处理者，Adobe 将根据贵公司的许可和指示处理个人数据（例如，根据您与 Adobe 达成的协议中的规定）。
 
-作为数据管理者，您可以代表您确定Adobe处理和存储的个人数据。如果您使用 Adobe Experience Cloud 解决方案，Adobe 可能会根据您使用的解决方案和您选择发送到 Adobe Experience Cloud 帐户的信息来为您托管个人数据。有关示例列表，请参阅 [Adobe Experience Cloud 隐私权](https://www.adobe.com/privacy/marketing-cloud.html#collect)。
+作为数据管理者，您需要确定Adobe代表您处理和存储的个人数据。 如果您使用 Adobe Experience Cloud 解决方案，Adobe 可能会根据您使用的解决方案和您选择发送到 Adobe Experience Cloud 帐户的信息来为您托管个人数据。For a list of examples, see [Adobe Experience Cloud privacy.](https://www.adobe.com/privacy/marketing-cloud.html#collect)
 
-![](assets/gdpr_ready.png)
+![](assets/privacy_ready.png)
 
 ## Adobe 如何处理 GDPR 数据 {#section_A20BCC08A80B410D97601BFB1CAF83F1}
 
@@ -44,14 +44,14 @@ Adobe 认识到您最熟悉您的报表包中的自定义数据，因此我们�
 
 ## 先决条件 {#section_3C766371CE0641C0821FE8E750E5AE0C}
 
-* 熟悉 [GDPR 术语](../../admin/c-data-governance/gdpr-terminology.md#concept_83C744A9D077476BAD8F8492DF68EBD7)。
-* 将您的登录公司关联到 Experience Cloud 组织（如果尚未关联）。请联系 Adobe 客户关怀团队并参阅[组织和帐户关联](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)。
-* 将您要设置进行数据管理的任何 Adobe Analytics 报表包映射到[您的 Experience Cloud 组织](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html)。
+* Familiarize yourself with [GDPR terminology.](/help/admin/c-data-governance/gdpr-terminology.md#concept_83C744A9D077476BAD8F8492DF68EBD7)
+* 将您的登录公司关联到 Experience Cloud 组织（如果尚未关联）。Contact Adobe Customer Care and refer to [Organizations and account linking.](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)
+* Map any Adobe Analytics report suite that you want to set up for data governance to [your Experience Cloud organization.](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html)
 * 为每个报表包设置一项数据保留策略，以便能够处理 GDPR 删除和访问请求。
 
    >[!NOTE]
    >
-   >Adobe Analytics无法帮助您处理对GDPR API的请求，即处理从最终用户收到的访问或删除请求(如果尚未在Adobe Analytics中设置数据保留期限)。请联系您的客户成功经理以便设置数据保留期限。
+   >Adobe Analytics无法帮助您处理对GDPR API的请求，即处理您从最终用户收到的访问或删除请求（如果尚未在Adobe Analytics中设置数据保留期）。 请联系您的客户成功经理以便设置数据保留期限。
 
 * 检查您的权限：要在 Adobe Analytics 中使用“数据管理”管理界面，您必须是 Adobe Analytics 管理员。
 
