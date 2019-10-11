@@ -5,7 +5,7 @@ seo-title: 提交访问和删除请求
 title: 提交访问和删除请求
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
 
 每个文件均会合并来自所有报表包的数据，并自动删除额外的重复命中项。您可以确定要将其中的哪些文件返回给数据主体。或者，您可以提取其中的部分数据，并与来自其他系统的数据合并，然后再将它们返回给数据主体。
 
-## 提交请求 {#section_F70F4D91B7FF4242876338A66D2125C3}
+## 提交请求 {#submit-requests}
 
 您可以通过我们的数据隐私UI门户或我们的 [数据隐私API提交数据隐私访问和](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)[删除请求。](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
