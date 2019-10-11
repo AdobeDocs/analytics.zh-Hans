@@ -5,7 +5,7 @@ seo-title: 分析变量的数据隐私标签
 title: 分析变量的数据隐私标签
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 translation-type: tm+mt
-source-git-commit: f1113b9a0d4da11eb6bd53c5a8c8fa3191dedd37
+source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: f1113b9a0d4da11eb6bd53c5a8c8fa3191dedd37
 
 Adobe Analytics 根据数据的敏感性和合同限制提供了数据标签设置工具。标签非常重要而且有用，它有助于：（1）识别数据主体，（2）确定哪些数据可在访问请求中返回，以及（3）识别必须在删除请求中删除的数据字段。
 
-Before you can figure out which labels should be applied to which variables/fields, you need to [understand the IDs](/help/admin/c-data-governance/gdpr-analytics-ids.md#concept_1BC4CA94B559481F8B08776DA100B23E) that you are capturing in your Analytics data, and to decide which you will use for Data Privacy requests.
+Before you can figure out which labels should be applied to which variables/fields, you need to [understand the IDs](/help/admin/c-data-governance/gdpr-analytics-ids.md) that you are capturing in your Analytics data, and to decide which you will use for Data Privacy requests.
 
 Adobe Analytics数据隐私实施支持以下标识数据、敏感数据和数据管理标签。
 
@@ -85,7 +85,7 @@ Adobe Analytics数据隐私实施支持以下标识数据、敏感数据和数�
  </tbody> 
 </table>
 
-## 数据管理标签（数据隐私） {#section_0C7F9EC4BB414A6D915C69F1D3259F1B}
+## 数据管理标签（数据隐私） {#data-governance-labels}
 
 数据管理标签让用户能够对反映隐私相关考虑因素和合同条件的数据进行分类，以符合相关法规和公司政策规定。
 
@@ -434,7 +434,7 @@ Adobe Analytics对数据隐私删除请求的支持旨在最大限度地减少�
   </tr> 
   <tr> 
    <td colname="col1"> <p>访客 ID </p> <p>MCID / ECID </p> </td> 
-   <td colname="col2"> <p> 这些 ID 具有 DEL-DEVICE 标签，但不能添加 DEL-PERSON 标签。如果您指定了对每个请求都进行<a href="../../admin/c-data-governance/gdpr-id-expansion.md#concept_917A5666010A4E6BA599FE372DADD1BD" format="dita" scope="local">ID 扩展</a>，则在处理删除请求时，这些 ID 都会被自动删除，即使是使用了 ID-PERSON 的 ID 也是如此。 </p> <p>如果您不使用 ID 扩展，但您希望当 prop 或 eVar 中包含匹配 ID 时，这些 Cookie ID 能够对命中项匿名化，那么即使该 prop 或 eVar 可真正识别个人，您也可以通过为其设置 ID-DEVICE 标签来解决此标签限制（也需要将所有 DEL-PERSON 标签更改为 DEL-DEVICE 标签）。在这种情况下，由于只有访客 ID 或 ECID 的部分实例被匿名化，因此历史报表中的独特访客计数将发生变化。 </p> </td> 
+   <td colname="col2"> <p> 这些 ID 具有 DEL-DEVICE 标签，但不能添加 DEL-PERSON 标签。如果您指定了对每个请求都进行<a href="../../admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local">ID 扩展</a>，则在处理删除请求时，这些 ID 都会被自动删除，即使是使用了 ID-PERSON 的 ID 也是如此。 </p> <p>如果您不使用 ID 扩展，但您希望当 prop 或 eVar 中包含匹配 ID 时，这些 Cookie ID 能够对命中项匿名化，那么即使该 prop 或 eVar 可真正识别个人，您也可以通过为其设置 ID-DEVICE 标签来解决此标签限制（也需要将所有 DEL-PERSON 标签更改为 DEL-DEVICE 标签）。在这种情况下，由于只有访客 ID 或 ECID 的部分实例被匿名化，因此历史报表中的独特访客计数将发生变化。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>AMO ID </p> </td> 
