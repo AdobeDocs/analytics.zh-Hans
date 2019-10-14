@@ -7,7 +7,7 @@ title: 流量源报表
 topic: Ad Hoc Analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -130,7 +130,7 @@ c_reports_ref_types.xml
 
 **网站内部**：这些项目是由内部 URL 过滤器标记的 URL。这些项目将不会计为反向链接实例，但在其他量度的报表中仍然可见。
 
-**无Java脚本**:没有JavaScript，因此类型无法识别（未知）。 这表示浏览器（不会报告可支持 Javascript）上的客户端未提供任何反向链接信息。这些项目将不会计为“反向链接实例”，但在报告其他量度时将会显示这些项目。
+**无 JavaScript**：无 JavaScript，因此无法识别类型（未知）。这表示浏览器（不会报告可支持 Javascript）上的客户端未提供任何反向链接信息。这些项目将不会计为“反向链接实例”，但在报告其他量度时将会显示这些项目。
 
 **USENET（新闻组）**：这表示反向链接的 URL 以 `news://` :// 开头。因此，反向链接是被发布在 USENET 新闻组中，而不是网页上。
 
