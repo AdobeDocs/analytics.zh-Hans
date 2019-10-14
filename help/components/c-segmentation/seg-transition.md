@@ -1,21 +1,21 @@
 ---
 description: 'null'
-keywords: 细分；segments
+keywords: 分段；段
 seo-description: 'null'
 seo-title: 常见问题解答
 solution: Analytics
 title: 常见问题解答
 topic: 区段
-uuid: f49dc829-1d53-4183-9add-1aea5119d89
+uuid: f49dc829-1d53-4183-9add-1aea5219d89
 translation-type: tm+mt
-source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
 # 常见问题解答
 
-回答有关细分功能、访问、权限、最佳实践和管理传统区段的常见问题解答。
+回答有关细分功能、访问、权限、最佳实践和管理旧版细分的常见问题。
 
 ## 功能 {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
@@ -27,7 +27,7 @@ source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
 
 * 您可以[将多个区段应用于一个报表或项目](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#task_13E69C7D428A43EF9CCCA7F1104F1E8F)。
 * 区段对于所有报表包都是通用的。
-* [Segment Builder](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) 简化了细分创建。
+* The [Segment Builder](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) simplifies segment creation.
 * 您可以通过[区段管理器](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_7A2E019317864065B7C641DC3315928F)中的区段共享、标记、验证和批准功能，来设置[工作流程](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_6D2E1A72A3AD4EBBB9135094F2D9DEDF)。
 
 * 您可以[标记区段](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50)，以便稍后进行组织和搜索，而无需使用文件夹。Previously, you used folders (in [!DNL Ad Hoc Analysis]) to organize your segments.
@@ -37,7 +37,7 @@ source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
 
 请参阅 Digital Marketing Blog（数字营销博客）上的帖子“[Improving Segmentation in Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/)”（改善 Adobe Analytics 中的分段），了解更多详细信息。
 
-## Access the Segmentation Tools {#section_088AD0E4E21943DFA8CF7206AEC485DD}
+## 访问分段工具 {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
 **如何访问区段生成器？**
 
@@ -63,9 +63,9 @@ source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
 
 **原有的区段下拉菜单转到了何处？**
 
-Reports &amp; Analytics 中的区段下拉菜单已被功能更加丰富的[区段生成器](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726)界面取代，通过使用该界面，您可以创建在报表包中和 Adobe Analytics 解决方案中“通用”的区段。To view a list of existing segments, click the Segments icon  ![](assets/segment_icon.png)
+Reports &amp; Analytics 中的区段下拉菜单已被功能更加丰富的[区段生成器](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726)界面取代，通过使用该界面，您可以创建在报表包中和 Adobe Analytics 解决方案中“通用”的区段。要查看现有区段的列表，请单击“区段”图标 ![](assets/segment_icon.png)
 
-并显示区段边栏显示。
+在左侧导航中，将显示区段边栏。
 
 **原有的报表包下拉菜单转到了何处？**
 
@@ -79,7 +79,7 @@ Reports &amp; Analytics 中的区段下拉菜单已被功能更加丰富的[区�
 
 默认情况下，所有用户都可以创建和编辑个人区段。但是，管理员可以决定哪些用户应拥有[创建区段的权限](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)，然后将这些用户分配到特定的组。这些区段可以直接与任何其他 Analytics 用户共享。
 
-管理员可以编辑任何区段，并且可以与组织中的组和每个人共享区段。[更多信息...](../../components/c-segmentation/seg-reference/seg-rights.md)
+管理员可以编辑任何区段，并且可以与组织中的组和每个人共享区段。[更多...](../../components/c-segmentation/seg-reference/seg-rights.md)
 
 **我可以看到公司的所有区段吗？**
 
@@ -144,7 +144,7 @@ Yes, Admins can see all segments within the [!DNL Analysis Workspace] and [!DNL 
 
 **Data Warehouse 区段有何变化？**
 
-所有现有 Data Warehouse 区段仍可以在数据仓库中使用。大多数数据仓库细分还将在其他组件(如Analysis Workspace、Ad Hoc Analysis和Reports&amp; Analytics)中工作。
+所有现有 Data Warehouse 区段仍可以在数据仓库中使用。大多数数据仓库区段还将在其他组件（如Analysis Workspace、临时分析和报告与分析）中工作。
 
 您可以在区段生成器/管理器中创建或编辑新的 Data Warehouse 区段。区段生成器中的产品兼容性机制会自动确定区段是否与 Data Warehouse 兼容。
 
@@ -166,7 +166,7 @@ Yes, Admins can see all segments within the [!DNL Analysis Workspace] and [!DNL 
 
 已应用这些区段的现有报表将仍可正常使用。
 
-** Experience Cloud(套件)区段发生了什么情况：****
+**Experience Cloud（包）区段有何变化：**
 
 * 非顾客
 * 顾客
@@ -200,13 +200,13 @@ seg_definition.xml
 
 以下提示将可帮助您迁移一些常用维度：
 
-* 地理城市/地区/国家/地区-搜索并选择特定城市、地区或国家，而不是使用部分匹配。
-* 浏览器-使用浏览器类型维度获取类型中的所有浏览器，例如Google Chrome
-* 操作系统-使用OS类型尺寸以获取类型中的所有操作系统，例如Microsoft Windows。
+* 地域城市／地区／国家——搜索和选择特定城市、地区或国家，而不是使用部分匹配。
+* 浏览器——使用“浏览器类型”维度获取某种类型的所有浏览器，例如Google Chrome
+* 操作系统——使用操作系统类型维获取某种类型的所有操作系统，如Microsoft Windows。
 
 * [新维度和重命名的维度](../../components/c-segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
-* [包含的更改](../../components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [更改小于和大于](../../components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* [对“包含”的更改](../../components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
+* [小于和大于的更改](../../components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
 
 ## 新维度和重命名的维度 {#section_73CF121B64A24DEF8E6499F3167BF742}
 
