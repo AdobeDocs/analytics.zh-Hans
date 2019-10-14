@@ -1,18 +1,18 @@
 ---
 description: Data Warehouse 是指用于存储的 Analytics 数据副本，以及可通过过滤这些数据来运行的自定义报表。您可让报表根据您的特定问题显示原始数据的高级数据关系。Data Warehouse 报表通过电子邮件或 FTP 发送，过程可能需要长达 72 小时。处理时间取决于查询的复杂程度和请求的数据量。
 seo-description: Data Warehouse 是指用于存储的 Analytics 数据副本，以及可通过过滤这些数据来运行的自定义报表。您可让报表根据您的特定问题显示原始数据的高级数据关系。Data Warehouse 报表通过电子邮件或 FTP 发送，过程可能需要长达 72 小时。处理时间取决于查询的复杂程度和请求的数据量。
-seo-title: 数据仓库概述
+seo-title: Data Warehouse 概述
 solution: Analytics
-title: 数据仓库概述
+title: Data Warehouse 概述
 topic: Data Warehouse
-uuid: 768557dd-1644-4ce6-bfc2-8c46 dd6 e1 cd1
+uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# 数据仓库概述
+# Data Warehouse 概述
 
 Data Warehouse 是指用于存储的 Analytics 数据副本，以及可通过过滤这些数据来运行的自定义报表。您可让报表根据您的特定问题显示原始数据的高级数据关系。Data Warehouse 报表通过电子邮件或 FTP 发送，过程可能需要长达 72 小时。处理时间取决于查询的复杂程度和请求的数据量。
 
@@ -24,11 +24,11 @@ Data Warehouse 会自动将任何大小超过 1 MB 的文件压缩为 zip 包。
 
 >[!NOTE]
 >
->“数据仓库”报告报告期间遇到的第一个值。
+>数据仓库会报告在报告期间遇到的第一个值。
 
 >[!IMPORTANT]
 >
->分类分类值时，Analysis Workspace和数据仓库会以不同的方式对待“未指定”值。Workspace 中的“未指定”是指未分类的值，而 Data Warehouse 中的“未指定”是指您分类为“未指定”的值。
+>在按分类值进行细分时，Analysis Workspace和Data Warehouse会以不同方式处理“未指定”值。 Workspace 中的“未指定”是指未分类的值，而 Data Warehouse 中的“未指定”是指您分类为“未指定”的值。
 
 ## Data Warehouse 请求描述 {#section_F21C78ED36884C389C852E876AF5CDE8}
 
@@ -57,10 +57,10 @@ Data Warehouse 会自动将任何大小超过 1 MB 的文件压缩为 zip 包。
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 可用区段</span> </td> 
-   <td colname="col2"> <p>可让您选择要调查的访客群体，以及生成复杂区段。您可加载预配置区段、创建新区段，以及将区段组件存储于库中以用于生成其他区段。 </p> <p>现在您可以堆叠区段。在选择多个区段时，预览区域、请求管理器和“请求详细信息”弹出窗口会显示以逗号分隔的名称列表（例如，Segment1, Segment2）。 </p> <p>有关更多信息，请参阅[分段指南](/help/components/c-segmentation/seg-home. md)。 </p> <p>注意：您不能在同一个 Data Warehouse 报表的同一个区段中既包括区段过滤器，又包括划分。这样做会导致出错。 </p> </td> 
+   <td colname="col2"> <p>可让您选择要调查的访客群体，以及生成复杂区段。您可加载预配置区段、创建新区段，以及将区段组件存储于库中以用于生成其他区段。 </p> <p>现在您可以堆叠区段。在选择多个区段时，预览区域、请求管理器和“请求详细信息”弹出窗口会显示以逗号分隔的名称列表（例如，Segment1, Segment2）。 </p> <p>有关详细信息，请参阅 <a href="/help/components/c-segmentation/seg-home.md"> 分段指南。</a> </p> <p>注意：您不能在同一个 Data Warehouse 报表的同一个区段中既包括区段过滤器，又包括划分。这样做会导致出错。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle">划分</span> </td> 
+   <td colname="col1"> <span class="wintitle"> 划分</span> </td> 
    <td colname="col2"> <p>可让您使用划分对数据进行分类。区段与划分的不同之处在于：区段可从数据集中筛选数据，而划分能够将包含针对此划分的全部有效值的数据分为若干独立部分。 </p> 您还可以按一个或多个区段划分报表。但是，您不能在同一个 Data Warehouse 报表的同一个区段中既包括区段过滤器，又包括划分。这样做会导致出错。 <p> 例如，使用区段删除数据集中的性别，使用划分按性别查看分隔的数据。 </p> <p>在通过多个多值维度（例如，多个移动设备报表）提交 Data Warehouse 请求时，点击一次即可生成数量按照指数级别增长的行。可通过一次点击输出的行数的上限为 100（以前为 1000）。 </p> </td> 
   </tr> 
   <tr> 
@@ -69,7 +69,7 @@ Data Warehouse 会自动将任何大小超过 1 MB 的文件压缩为 zip 包。
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> 量度排序</span> </td> 
-   <td colname="col2">提供排名的划分报表（按量度值从大到小排序），这与“Reports &amp; Analytics”用户界面、Data Workbench 等的显示情况类似。<a href="../../export/data-warehouse/sorting-by-metric.md#concept_7B7BDE3D42E549389DACA1E33B2FC1CC" format="dita" scope="local">更多信息...</a> </td> 
+   <td colname="col2">提供排名的划分报表（按量度值从大到小排序），这与“Reports &amp; Analytics”用户界面、Data Workbench 等的显示情况类似。<a href="../../export/data-warehouse/sorting-by-metric.md#concept_7B7BDE3D42E549389DACA1E33B2FC1CC" format="dita" scope="local"> 更多...</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 计划提交</span> </td> 
