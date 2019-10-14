@@ -1,16 +1,16 @@
 ---
 description: 通过“编辑跨越多个请求的量度”功能，您可以在一个预先存在的请求中或一组请求间轻松地移动、删除或替换量度。
 seo-description: 通过“编辑跨越多个请求的量度”功能，您可以在一个预先存在的请求中或一组请求间轻松地移动、删除或替换量度。
-seo-title: 跨多个请求编辑指标
-title: 跨多个请求编辑指标
-uuid: 50fba4e7-ca7 d-4a5 c-98a9-c9725 b436 e4 a
+seo-title: 编辑跨越多个请求的量度
+title: 编辑跨越多个请求的量度
+uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# 跨多个请求编辑指标
+# 编辑跨越多个请求的量度
 
 通过“编辑跨越多个请求的量度”功能，您可以在一个预先存在的请求中或一组请求间轻松地移动、删除或替换量度。
 
@@ -25,8 +25,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 要添加一个或多个量度，请执行以下操作：
 
-1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **[!UICONTROL[choose metric]]** &gt; **[!UICONTROL Edit Group]** **** to select the group of requests to modify.)
-
+1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; `<choose metric>` &gt; **[!UICONTROL Edit Group]** to select the group of requests to modify.)
 1. Select **[!UICONTROL Add Metric(s)]**and select the metrics to add.
 
    ![](assets/add_metric.png)
@@ -48,7 +47,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 替换量度
 
-1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **[!UICONTROL[choose metric]]** &gt; **[!UICONTROL Edit Group]** **** to select the group of requests to modify.)
+1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **[!UICONTROL [choose metric]]** &gt; **[!UICONTROL Edit Group]** **** to select the group of requests to modify.)
 
 1. Select **[!UICONTROL Replace Metric]**.
 
@@ -68,7 +67,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 要删除量度，请执行以下步骤：
 
-1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **[!UICONTROL[choose metric]]** &gt; **[!UICONTROL Edit Group]** **** to select the group of requests to modify.)
+1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **[!UICONTROL [choose metric]]** &gt; **[!UICONTROL Edit Group]** **** to select the group of requests to modify.)
 
 1. Select **[!UICONTROL Remove Metric(s)]**.
 
