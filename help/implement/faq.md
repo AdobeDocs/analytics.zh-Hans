@@ -8,7 +8,7 @@ title: 有关 Analytics 实施的常见问题解答
 topic: 开发人员和实施
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -73,7 +73,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
   </tr> 
   <tr> 
    <td colname="col2"> <p>性能 - 加载外部 Adobe JavaScript 会导致性能降低吗？ </p> </td> 
-   <td colname="col3"> <p> JavaScript 文件首次加载后会缓存在访客的浏览器中，通常情况下，针对每个会话至多下载一次。即使网站上的每个页面都使用该文件，也不会为每个页面下载它。在大多数网站上，用户在每个会话内平均都会查看多个页面，因此将使用多次的 JavaScript 转移到此文件中可减少总体下载数据量。 </p> <p> JavaScript for [!DNL AppMeasurement] 压缩：如果您担心 Adobe JavaScript 客户端的页面大小，Adobe 建议您考虑使用 GZIP 压缩文件。所有主要浏览器都支持 GZIP，而且与 JavaScript 压缩相比，其压缩和解压缩核心 <span class="filepath">s_code.js</span> JavaScript 文件的效率更高。 </p> </td> 
+   <td colname="col3"> <p> JavaScript 文件首次加载后会缓存在访客的浏览器中，通常情况下，针对每个会话至多下载一次。即使网站上的每个页面都使用该文件，也不会为每个页面下载它。在大多数网站上，用户在每个会话内平均都会查看多个页面，因此将使用多次的 JavaScript 转移到此文件中可减少总体下载数据量。 </p> <p> JavaScript for AppMeasurement 压缩：如果您担心 Adobe JavaScript 客户端的页面大小，Adobe 建议您考虑使用 GZIP 压缩文件。所有主要浏览器都支持 GZIP，而且与 JavaScript 压缩相比，其压缩和解压缩核心 <span class="filepath">s_code.js</span> JavaScript 文件的效率更高。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>性能 - 将来自浏览器的数据发送至 Adobe 服务会降低性能吗？ </p> </td> 
