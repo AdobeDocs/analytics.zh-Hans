@@ -3,9 +3,9 @@ description: 计算量度生成器提供了一个画布，用于拖放维度、�
 seo-description: 计算量度生成器提供了一个画布，用于拖放维度、量度、区段和函数，以基于容器层次结构逻辑、规则和运算符创建自定义量度。通过此集成式开发工具，您可以生成并保存简单的计算量度或复杂的高级计算量度。
 seo-title: 生成量度
 title: 生成量度
-uuid: 3f51e911-cafa-4af4-90dd-5a4 cb42 bf0 a7
+uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -53,7 +53,7 @@ source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 将上升趋势显示为... </span> </td> 
-   <td colname="col3"> <p>此量度极性设置显示[！DNL Analytics应考虑指标中的向上趋势(绿色)或不良(红色)。最终，报表中的图表将在上升时显示为绿色或红色。 </p> </td> 
+   <td colname="col3"> <p>此量度极性设置显示 Analytics 应当将量度中的上升趋势视为有利（绿色）还是不利（红色）。最终，报表中的图表将在上升时显示为绿色或红色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 标记 </span> </td> 
@@ -87,7 +87,7 @@ source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 产品兼容性 </span> </td> 
-   <td colname="col3"> <p>“产品兼容性”显示量度是与“<a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html" format="https" scope="external">当前数据</a>”、“完全处理数据”兼容，还是只与“营销渠道报表”（首次联系分配）兼容。 <p>注意：“当前数据”并不支持所有量度。包含区段或函数的量度与“当前数据”不兼容。<a href="../../../../../components/c-calcmetrics/cm-compatibility.md#concept_906480DEBEEC4D279BBBBD4CE7DFE70C" format="dita" scope="local">更多信息...</a> </p> </p> </td> 
+   <td colname="col3"> <p>“产品兼容性”显示量度是与“<a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html" format="https" scope="external">当前数据</a>”、“完全处理数据”兼容，还是只与“营销渠道报表”（首次联系分配）兼容。 <p>注意：“当前数据”并不支持所有量度。包含区段或函数的量度与“当前数据”不兼容。<a href="../../../../../components/c-calcmetrics/cm-compatibility.md#concept_906480DEBEEC4D279BBBBD4CE7DFE70C" format="dita" scope="local"> 更多... </a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 添加 </span> </td> 
@@ -130,11 +130,11 @@ source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
   </tr> 
   <tr> 
    <td colname="col2"> <p>区段列表 </p> </td> 
-   <td colname="col3"> <p>（仅限高级计算量度）如果您是管理员，此列表会显示在您的登录公司中创建的所有区段。如果您不是管理员，此列表会显示您拥有的区段以及与您共享的区段。<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_rights.html" format="https" scope="external">更多信息...</a> </p> </td> 
+   <td colname="col3"> <p>（仅限高级计算量度）如果您是管理员，此列表会显示在您的登录公司中创建的所有区段。如果您不是管理员，此列表会显示您拥有的区段以及与您共享的区段。<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_rights.html" format="https" scope="external"> 更多... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>函数列表 </p> </td> 
-   <td colname="col3"> <p>（仅限高级计算量度）函数将分为两个列表：<a href="../../../../../components/c-calcmetrics/cm-reference/cm-functions.md#concept_E3022D5EEEE145B69A23438BAF7016B2" format="dita" scope="local"> 基本 </a> (常用)和 <a href="../../../../../components/c-calcmetrics/cm-reference/cm-adv-functions.md#concept_A5FB9127D70F4E1AA02D1ACBF4F54174" format="dita" scope="local"> 高级 </a>。 </p> </td> 
+   <td colname="col3"> <p>（仅限高级计算量度）函数将分为两个列表： <a href="../../../../../components/c-calcmetrics/cm-reference/cm-functions.md#concept_E3022D5EEEE145B69A23438BAF7016B2" format="dita" scope="local"> Basic </a> (used most often) and <a href="../../../../../components/c-calcmetrics/cm-reference/cm-adv-functions.md#concept_A5FB9127D70F4E1AA02D1ACBF4F54174" format="dita" scope="local"> Advanced </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>报表包选择器 </p> </td> 
