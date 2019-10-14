@@ -1,12 +1,12 @@
 ---
 description: 计算量度和高级计算（或派生）量度是指您可以从现有量度创建的自定义量度。
-keywords: 计算指标；派生指标；高级计算指标
+keywords: 计算量度；派生量度；高级计算量度
 seo-description: 计算量度和高级计算（或派生）量度是指您可以从现有量度创建的自定义量度。
 seo-title: 计算量度和高级计算（派生）量度
 title: 计算量度和高级计算（派生）量度
-uuid: 2553c115-b15 a-4109-8de2-733dbc1 eeb9 e
+uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -19,14 +19,14 @@ source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
 >
 >In July 2018, Adobe introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. 作为此更改的一部分，使用非默认分配模型的计算量度已迁移至改进的新归因模型。
 >
->* “营销渠道上一次接触”和“营销渠道首次接触”分配模型分别迁移到新的“Touch Touch”和“First Touch”归因模型(注意：“营销渠道”尚未弃用-只有计算指标中出现的两个分配模型。
->* 此外，我们还纠正了线性分配的计算方式。对于通过“线性”分配模型使用计算量度的客户，报表可能会稍有变化，以反映修正后的新归因模型。This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 有关详细信息，请参阅[线性分配将如何工作（自 2018 年 7 月 19 日起）](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)。
+>* “营销渠道最近接触”和“营销渠道首次接触”分配模型分别迁移到新的“最近接触”和“首次接触”归因模型(注意：“营销渠道”尚未弃用——只有计算量度中显示的两种分配模型已弃用。
+>* 此外，我们还修正了线性分配的计算方式。 对于通过“线性”分配模型使用计算量度的客户，报表可能会稍有变化，以反映修正后的新归因模型。This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 有关详细信息，请参阅[线性分配将如何工作（自 2018 年 7 月 19 日起）](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)。
 
 
-我们的计算量度工具提供了一种高度灵活的方式，可用于生成、管理和组织量度。They allow you as marketers, product managers and analysts to ask questions of the data without having to change your [!DNL Analytics] implementation. [!DNL Analytics] 每个包中提供的自定义指标有：
+我们的计算量度工具提供了一种高度灵活的方式，可用于生成、管理和组织量度。They allow you as marketers, product managers and analysts to ask questions of the data without having to change your [!DNL Analytics] implementation. The custom metrics available in each [!DNL Analytics] package are:
 
 * Adobe [!DNL Analytics] Foundation: Calculated
-* [Adobe Analytics Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html)：计算+高级计算
+* [Adobe Analytics Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html):计算+高级计算
 * [Adobe Analytics Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html)：计算量度 + 高级计算量度
 * [Adobe Analytics Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html)：计算量度 + 高级计算量度
 
@@ -55,7 +55,7 @@ source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
 
    >[!NOTE]
    >
-   >您可以继续在临时分析中创建指标。它的计算量度生成器用户界面现在类似于新量度生成器。
+   >您可以继续在临时分析中创建指标。 它的计算量度生成器用户界面现在类似于新量度生成器。
 
 ## 限制 {#section_CB878B02451541D68A68B508D4DBD19A}
 
@@ -110,11 +110,11 @@ Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
   </tr> 
   <tr> 
    <td colname="col1"> 量度选择器边栏 </td> 
-   <td colname="col2"> <p>Replaces the <span class="uicontrol"> Show Metrics</span> popup in [!UICONTROL Reports &amp; Analytics]. </p> <p>它允许您搜索量度，并将量度添加到/应用于报表。您还可以更改<a href="../../components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md#concept_A09845053A934CB7B755391D76E76C08" format="dita" scope="local">排序</a>（选项包括：“按字母顺序”、“推荐”、“经常使用”、“最近使用”。）此外，您还可以对报表包进行过滤，以便仅显示在特定报表包中创建的量度。 </p> <p>要访问此“量度选择器”，请单击报表左侧的“量度”图标 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" />。量度选择器具有如下外观： </p> <p><img placement="break" align="center"  src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p>Replaces the <span class="uicontrol"> Show Metrics</span> popup in <span class="uicontrol"> Reports &amp; Analytics</span>. </p> <p>它允许您搜索量度，并将量度添加到/应用于报表。您还可以更改<a href="../../components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md#concept_A09845053A934CB7B755391D76E76C08" format="dita" scope="local">排序</a>（选项包括：“按字母顺序”、“推荐”、“经常使用”、“最近使用”。）此外，您还可以对报表包进行过滤，以便仅显示在特定报表包中创建的量度。 </p> <p>要访问此“量度选择器”，请单击报表左侧的“量度”图标 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" />。量度选择器具有如下外观： </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md" format="https" scope="external"> 适用于计算量度的 API</a> </td> 
-   <td colname="col2"> <p>Adobe Analytics2.0API集的一部分。 </p> </td> 
+   <td colname="col2"> <p>Adobe Analytics 2.0 API集的一部分。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
