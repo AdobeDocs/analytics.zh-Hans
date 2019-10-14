@@ -5,7 +5,7 @@ seo-title: 部署集成
 title: 部署集成
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -192,9 +192,7 @@ source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 
 ![](assets/debugger1.png)
 
-**Target Mbox包括Demandbase配置文件参数：**
-
-只有在页面上实施了Target并且您为Adobe Target配置了此集成，您才会看到这一点——请参阅Adobe集成向导中的步骤4。
+**** Target Mbox包括Demandbase配置文件参数：只有在页面上实施了Target并且您为Adobe Target配置了此集成，您才会看到这一点——请参阅Adobe集成向导中的步骤4。
 
 ![](assets/debugger2.png)
 
