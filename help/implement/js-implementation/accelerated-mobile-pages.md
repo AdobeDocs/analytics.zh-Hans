@@ -1,6 +1,6 @@
 ---
 description: 在 Adobe Analytics 中实施“加速移动网页”(AMP) 项目。
-keywords: Analytics Implementation;amp;amp-analytics;adobeanalytics template;adobeanalytics_nativeConfig template;click tracking;visitor inflation;id service
+keywords: 分析实施；amp;amp-analytics;adobeanalytics模板；adobeanalytics_nativeConfig模板；单击跟踪；访客通胀；id服务
 seo-description: 在 Adobe Analytics 中实施“加速移动网页”(AMP) 项目。
 seo-title: Accelerated Mobile Pages（“加速移动网页”项目）
 solution: Analytics
@@ -8,7 +8,7 @@ title: Accelerated Mobile Pages（“加速移动网页”项目）
 topic: 开发人员和实施
 uuid: c86e4a80-7191-4ee7-ab20-787730026c4b
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -38,7 +38,7 @@ AMP 把一些经过特殊标记的 HTML 页面，缓存在参与此项目的技�
 
 为了解决这些问题，Adobe 与 AMP 合作伙伴及发布者联合推出了两个选项（都用到了 `amp-analytics` 标记），发布者可从中选取最适合其业务需求的选项。The first approach uses the `"adobeanalytics"` tracking template to construct the Analytics request directly from within the AMP. The second approach uses the `"analytics_nativeConfig"` tracking template, which uses an iframe containing the AppMeasurement code you deploy on your normal site. 下表为您展示了两种方法各自的优缺点。
 
-|  | **adobeanalytics 模板** | ** "adobeanalytics_nativeConfig" template** |
+|  | **adobeanalytics 模板** | **adobeanalytics_nativeConfig 模板** |
 |---|---|---|
 | 访客/访问计数（在现有的报表包中） | 虚增较高 | 虚增极低 |
 | 使用单独的报表包 | 推荐 | 不需要 |
@@ -198,12 +198,12 @@ AMP 项目发展迅速、变化频繁，因此请经常回访[此处](https://gi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> 视频跟踪是否适用于 <code>adobeanalytics</code> 或 <code>adobeanalytics_nativeConfig</code> 模板？ </p> </td> 
-   <td colname="col2"> <p> 很遗憾，尚不可用。AMP 标准仅支持适用于“可见”、“单击”和“计时器”的触发程序，尚不支持能够被 amp-analytics 标记监听的用于视频跟踪的显式触发程序。此外，由于 <code>adobeanalytics_nativeConfig</code> 标记只能被加载一次，因此无法兼容加载 AMP 后发生的视频查看事件。 </p> </td> 
+   <td colname="col1"> <p> Is video tracking available for either the <code> "adobeanalytics" </code> or <code> "adobeanalytics_nativeConfig" </code> template? </p> </td> 
+   <td colname="col2"> <p> 很遗憾，尚不可用。AMP 标准仅支持适用于“可见”、“单击”和“计时器”的触发程序，尚不支持能够被 amp-analytics 标记监听的用于视频跟踪的显式触发程序。Also, because the <code> "adobeanalytics_nativeConfig" </code> tag can only be loaded once, it is not compatible with video viewing which occurs after the AMP has loaded. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>您提到相比之下，“<code>adobeanalytics_nativeConfig</code>”模板的访客虚增较低。这是什么意思？哪些原因可能会导致“<code>adobeanalytics</code>”解决方案或“<code>adobeanalytics_nativeConfig</code>”解决方案出现访客虚增？ </p> </td> 
-   <td colname="col2"> <p>“<code>adobeanalytics</code>”模板不允许 Adobe Analytics 设置访客识别 Cookie；这意味着在您的报表包中，您 AMP 页面的所有访问和访客都将被视为新的独立访问和访客。 </p> <p>而“<code>adobeanalytics_nativeConfig</code>”模板在绝大多数情况下允许设置 Adobe Analytics 访客识别 Cookie，但使用 Safari 浏览器的新访客情况除外。这意味着如果使用 Safari 的任何访客之前未访问过发布者的网站，则在 Adobe Analytics 报表中这些访客的数量将会出现虚增。 </p> </td> 
+   <td colname="col1"> <p>您提到相比之下，“<code> adobeanalytics_nativeConfig </code>”模板的访客虚增较低。这是什么意思？What would cause visitor inflation in either the <code> "adobeanalytics" </code> or the <code> “adobeanalytics_nativeConfig” </code> solution? </p> </td> 
+   <td colname="col2"> <p>The <code> “adobeanalytics” </code> template does not allow Adobe Analytics to set a visitor identification cookie; this means all visits and visitors to your AMP page will be treated as a new and independent visit and visitor in your report suite. </p> <p>The <code> “adobeanalytics_nativeConfig” </code> template, however, allows the Adobe Analytics visitor identification cookie to be set in nearly all cases, except for new visitors using the Safari browser. 这意味着如果使用 Safari 的任何访客之前未访问过发布者的网站，则在 Adobe Analytics 报表中这些访客的数量将会出现虚增。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>我是否应该为 AMP 使用单独的报表包？ </p> </td> 
@@ -211,10 +211,10 @@ AMP 项目发展迅速、变化频繁，因此请经常回访[此处](https://gi
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="keyword">Experience Cloud</span> ID 服务是什么？我需要这项服务吗？ </p> </td> 
-   <td colname="col2"> <p>The  Identity Service  (formerly  visitor ID service ) enables  Experience Cloud  core services and allows integrations between different Adobe  Experience Cloud  solutions. <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"></a><span class="term"></span><span class="keyword"></span><span class="keyword"></span>如果您集成了 <span class="keyword">Adobe 受众管理器</span>或 <span class="keyword">Adobe Target</span>，那么您可以使用此服务。此服务也是众多即将推出的 <span class="keyword">Adobe Analytics</span> 功能的基础。如果您现在或将来需要 ID 服务支持，我们建议您使用 <code>iframeMessage</code> 解决方案。 </p> </td> 
+   <td colname="col2"> <p>Identity Service(以前称为访 <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> 客ID服务 </a> )支持 <span class="term"> Experience Cloud核心服务，并允许不同的Adobe </span><span class="keyword"></span><span class="keyword"></span> Experience Cloud解决方案之间进行集成。 如果您集成了 <span class="keyword">Adobe 受众管理器</span>或 <span class="keyword">Adobe Target</span>，那么您可以使用此服务。此服务也是众多即将推出的 <span class="keyword">Adobe Analytics</span> 功能的基础。如果您现在或将来需要 ID 服务支持，我们建议您使用 <code> iframeMessage </code> 解决方案。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>对于 <code>adobeanalytics_nativeConfig</code> 模板而言，我应该将实用工具页面托管在哪里？ </p> </td> 
+   <td colname="col1"> <p>For the <code> "adobeanalytics_nativeConfig" </code> template, where should I host my utility page? </p> </td> 
    <td colname="col2"> <p>AMP 标准不允许 iFrame 从 AMP 本身所在的域和子域加载。因此，我们建议您将实用工具页面托管到主站点之外的子域，特别是如果您的公司拥有自己的计划用于缓存 AMP 的 CDN。为了实现最大的兼容，请选择 AMP 内容所在的地方之外的子域，例如 <span class="filepath">ampmetrics.publisher.com</span>。 </p> </td> 
   </tr> 
   <tr> 
