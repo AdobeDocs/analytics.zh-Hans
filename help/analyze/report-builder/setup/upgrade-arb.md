@@ -7,7 +7,7 @@ title: 升级 Report Builder
 topic: Report Builder
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -37,13 +37,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    ![](assets/upgrade.png)
 
-1. If a new version is available, click **[!UICONTROL Update...]**. 此按钮将显示您要更新到的新版本，例如“更新到版本 5.0.50”
+1. **[!UICONTROL 如果有新版本可用，请单击“]**&#x200B;更新……”. 此按钮将显示您要更新到的新版本，例如“更新到版本 5.0.50”
 
    >[!NOTE]
    >
-   >如果此按钮灰显，则不提供Report Builder的新版本。
+   >如果此按钮灰显，则不提供Report builder的新版本。
 
-1. Optionally select the **[!UICONTROL Update when a new version is available]**checkbox. 选中后，如果未来有新版本可用，那么更新流程将自动开启。
+1. 此外，您也可以选中&#x200B;**[!UICONTROL 在有新版本时进行更新]复选框。**&#x200B;选中后，如果未来有新版本可用，那么更新流程将自动开启。
 1. When the setup screen appears, click **[!UICONTROL Next &gt;]**.
 
    ![](assets/setup.png)
