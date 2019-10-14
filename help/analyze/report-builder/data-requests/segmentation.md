@@ -5,9 +5,9 @@ seo-title: 管理区段
 solution: Analytics
 title: 管理区段
 topic: Report Builder
-uuid: 4e edc39-ed93-498f-913d-7b231 b10 e7 a0
+uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
 
 如何在 Report Builder 中添加、编辑、应用和过滤 Adobe Analytics 区段。
 
-Report Builder 在“请求向导”的第 1 步中具有一个分段面板，在该面板中您可以创建和管理区段。
+Report Builder 在“请求向导”的第 1 步中具有一个分段面板，在该面板中您可以 创建和管理细分。
 
 ![](assets/seg_dialog.png)
 
@@ -24,7 +24,7 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 
 >[!NOTE]
 >
->要添加或编辑区段，Report Builder区段界面在Microsoft Internet Explorer窗口中启动Analytics区段生成器。您的 Report Builder 会话将保持活动状态。此操作不支持使用 Internet Explorer 以外的浏览器。
+>要添加或编辑区段，Report builder区段界面将在Microsoft Internet explorer窗口中启动Analytics区段生成器。 您的 Report Builder 会话将保持活动状态。此操作不支持使用 Internet Explorer 以外的浏览器。
 
 1. In the segment panel of Step 1 of the Request Wizard, click **[!UICONTROL Add]**.
 1. 将启动一个 Internet Explorer 窗口，其中可打开 Analytics 区段生成器界面。有关如何构建区段的信息，请参阅 [https://marketing.adobe.com/resources/help/zh_CN/analytics/segment/](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)。
@@ -33,7 +33,7 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 
 >[!IMPORTANT]
 >
->此列表将被缓存，新创建的区段将不会显示，除非您进行刷新。
+>此列表将缓存，您新创建的区段将不会显示，除非您进行刷新。
 
 ## 创建关联区段 {#section_6DD2C663B2854469AA1075438F907678}
 
@@ -57,7 +57,7 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 
 您可以将一个或多个区段应用到任意给定请求。这包括连续区段。
 
-1. Go to the **[!UICONTROL Segment]** drop-down list and click the small down arrow in the **[!UICONTROL Choose Segment]**box to display all the segments.
+1. 转至&#x200B;**[!UICONTROL 区段]**&#x200B;下拉列表，然后单击&#x200B;**选择区段]框中的向下小箭头以显示所有区段。[!UICONTROL **
 
    ![](assets/seg_list.png)
 
@@ -65,7 +65,7 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 
 >[!NOTE]
 >
->无论您是管理员还是非管理员，在Report Builder中，您都只能看到您拥有和已与您共享的区段。（在市场营销 Reports &amp; Analytics 用户界面中，管理员可以查看组织中的所有区段）。
+>无论您是管理员还是非管理员，在Report Builder中，您只能看到您拥有的区段以及与您共享的区段。 （在市场营销 Reports &amp; Analytics 用户界面中，管理员可以查看组织中的所有区段）。
 
 ## 过滤区段 {#section_376E986D3E684999A7CDB08E53854159}
 
