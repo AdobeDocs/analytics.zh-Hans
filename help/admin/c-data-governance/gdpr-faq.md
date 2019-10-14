@@ -5,7 +5,7 @@ seo-title: 常见问题解答
 title: 常见问题解答
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Adobe客户（数据管理者）将如何在Adobe Analytics中查找哪些数据隐私请求映射到哪些ID以进行数据隐私处理？</b> </p> </td> 
-   <td colname="col2"> <p>数据控制者将确定如何解析发出请求的数据主体的身份。考虑部 <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm" format="html" scope="external"> 署Adobe的数据隐私ID检索标签 </a>。 您的开发团队将通过使用我们的数据隐私ID检索标记捕获用户ID(cookie ID)，然后使用我们的数据隐私API将这些用户ID发送到Adobe Experience Cloud的数据隐私请求处理中的相关解决方案，从而节省时间。 </p> <p>数据隐私API可以跨多个Adobe解决方案支持各种客户ID。 如果数据主体提交请求和标识符（自定义变量- prop或eVar），则Adobe Analytics将扫描为给定标识符收集的数据的整个保留历史记录。 有关如何配置存储在Analytics props或eVar中的自定义ID的更多详细信息，请参阅[命名空间]上的分析文档。](/help/admin/c-data-governance/gdpr-namespaces.md)
+   <td colname="col2"> <p>数据控制者将确定如何解析发出请求的数据主体的身份。考虑部 <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm" format="html" scope="external"> 署Adobe的数据隐私ID检索标签 </a>。 您的开发团队将通过使用我们的数据隐私ID检索标记捕获用户ID(cookie ID)，然后使用我们的数据隐私API将这些用户ID发送到Adobe Experience Cloud的数据隐私请求处理中的相关解决方案，从而节省时间。 </p> <p>数据隐私API可以跨多个Adobe解决方案支持各种客户ID。 如果数据主体提交请求和标识符（自定义变量- prop或eVar），则Adobe Analytics将扫描为给定标识符收集的数据的整个保留历史记录。 有关如何配置存储在Analytics props或eVar中的自定义ID的更多详细信息，请参阅有关命名空间的分析文 <a href="/help/admin/c-data-governance/gdpr-namespaces.md"> 档</a>。
     </p> </td> 
   </tr> 
   <tr> 
