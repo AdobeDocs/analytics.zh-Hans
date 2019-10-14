@@ -1,24 +1,24 @@
 ---
 description: 添加或管理“服务器调用使用情况”警报。设置警报后，该警报将应用于账单公司旗下的所有登录公司所具有的全部报表包。
 seo-description: 添加或管理“服务器调用使用情况”警报。设置警报后，该警报将应用于账单公司旗下的所有登录公司所具有的全部报表包。
-seo-title: 服务器调用使用通知
-title: 服务器调用使用通知
-uuid: 701fd5422-5b24-42df-97a0-08e10929fa48
+seo-title: 服务器调用使用情况警报
+title: 服务器调用使用情况警报
+uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 translation-type: tm+mt
-source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# 服务器调用使用通知
+# 服务器调用使用情况警报
 
 设置警报后，该警报将应用于账单公司旗下的所有登录公司所具有的全部报表包。
 
 ## 概述
 
-A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the the existing [Alert Management](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) user interface.
+A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the existing [Alert Management](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) user interface.
 
-It is pre-populated with **1 default alert** that appears within any login company that has access to the Server Call Usage feature. 如果满足以下任一条件，此警告将触发已解决的通知，通知所有登录公司的管理员：
+It is pre-populated with **1 default alert** that appears within any login company that has access to the Server Call Usage feature. 如果满足以下条件之一，此警报将触发发送给所有登录公司管理员的通知：
 
 * 您有权使用的“任何”服务器调用类型所对应的使用量“大于或等于”100%；或者
 * 您有权使用的“任何”服务器调用类型所对应的使用量“大于或等于”90%；或者
@@ -43,16 +43,16 @@ It is pre-populated with **1 default alert** that appears within any login compa
 
    ![](assets/sc_alert.png)
 
-   * **标题**：指定描述性名称。如果没有名称，您将无法保存警报。
-   * **时间粒度**：指警报的选中频率。*我们当前支持的粒度为“每周”。*&#x200B;这表示将每周查看一次警报，并回顾当前使用时段的数据。
-   * **收件人**：指定组织中的任何人在警报触发指定阈值时应获得电子邮件的任何人。
-   * **过期日期**：默认情况下，过期日期为警报创建日期的一年。
+   * **标题**:指定描述性名称。 如果没有名称，您将无法保存警报。
+   * **时间粒度**:指示检查警报的频率。 *我们当前支持的粒度为“每周”。*&#x200B;这表示将每周查看一次警报，并回顾当前使用时段的数据。
+   * **收件人**:指定在警报触发指定阈值时应收到电子邮件的单位中的任何人。
+   * **到期日期**:默认情况下，过期日期为警报创建日期的一年后。
    * **发送警报时间**:
 
-      * 任何这些指标触发器将服务器调用/s类型添加为指标，通过选择修饰符和阈值指定警报阈值：
+      * 任何这些度量触发器将服务器调用的类型添加为度量，并通过选择修饰符和阈值来指定警报阈值：
          * 大于或等于
          * 小于或等于
-      * 使用指定使用期限支出的阈值和条件(高于或等于或等于或等于)。
+      * 使用指定使用期所用的阈值和条件（高于或等于或低于或等于）。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
