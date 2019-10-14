@@ -1,18 +1,18 @@
 ---
 description: 介绍了可在规划区段时遵循的步骤和最佳实践。
 seo-description: 介绍了可在规划区段时遵循的步骤和最佳实践。
-seo-title: 计划细分
+seo-title: 计划区段
 solution: Analytics
-title: 计划细分
+title: 计划区段
 topic: 区段
-uuid: bc52834-123c-457d-bde7-db7 c5 c97077 f
+uuid: bc522834-123c-457d-bde7-db7c5c97077f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# 计划细分
+# 计划区段
 
 介绍了可在规划区段时遵循的步骤和最佳实践。
 
@@ -28,5 +28,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 1. 确定区段定义中要包含哪些&#x200B;**元素**&#x200B;及其值。在此项决定中请考虑[变量持续性](../../../components/c-segmentation/seg-overview.md#concept_E579D72B1C644AE9A4C4EAF6B47A4DCB)。
 
 1. 考虑您希望如何进行&#x200B;**批准过程**。区段是由一个人进行审查和批准，还是由委员会做出决定？
-1. Define your segments with view to a** segment library** that gives business users the ability to [stack](../../../components/c-segmentation/c-segmentation-workflow/seg-build.md#concept_40C299B60B354E10B344702EA3138B34) and reuse segment pieces or components in a modular fashion. 需要定义哪些“模块”才能实现此库？
+1. 定义区段时考虑构建&#x200B;**区段库**，使企业用户能够通过模块化方式堆叠和重复使用区段或组件。[](../../../components/c-segmentation/c-segmentation-workflow/seg-build.md#concept_40C299B60B354E10B344702EA3138B34)需要定义哪些“模块”才能实现此库？
 
