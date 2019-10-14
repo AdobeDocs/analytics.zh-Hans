@@ -7,7 +7,7 @@ title: 流量源
 topic: 报告
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a15d51f41462ce2689849c6b998097ae56497e33
 
 ---
 
@@ -72,7 +72,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
   <tr> 
    <td colname="col1"> 反向链接 </td> 
-   <td colname="col2"> <p> 显示访客在进入网站前所在的域或 URL、访客找到网站的方法、以及经由这些反向链接位置对您网站的访问次数。 </p> <p>例如，如果访客点击网站 A 上的链接后转至您的网站，则网站 A 为反向链接（如果它未定义为属于您的域）。在实施过程中，实施顾问可帮助您定义属于您网站的域和 URL（这也可在实施后进行）。任何不属于这些已定义域和 URL 的域或 URL 会视为反向链接。 </p> <p>例如，若网页 A 和网页 B 已添加至内部 URL 过滤器（但网页 C 没有），则网页 C 会视为反向链接。 </p> <p>请参阅 <a href="/help/admin/admin/internal-URL-filter-admin.md">内部 URL 过滤器</a></p> <p>Note: Analytics records a referring domain as an email when visitors click an emailed message link containing the protocol <code> imap://</code> or <span class="filepath"> mail://</span> and arrive at your site. </p> <p>For example, anything coming from <code> https://mail.yahoo.com</code> is not counted as an email referrer because the protocol is <span class="filepath"> https://</span>. Outlook 电子邮件会在<span class="wintitle">“键入/书签式”</span>行报告，而任何采用 HTTP 协议（域为已知搜索引擎）的反向链接均报告于<span class="wintitle">“搜索引擎”</span>行上。 </p> </td> 
+   <td colname="col2"> <p> 显示访客在进入网站前所在的域或 URL、访客找到网站的方法、以及经由这些反向链接位置对您网站的访问次数。 </p> <p>例如，如果访客点击网站 A 上的链接后转至您的网站，则网站 A 为反向链接（如果它未定义为属于您的域）。在实施过程中，实施顾问可帮助您定义属于您网站的域和 URL（这也可在实施后进行）。任何不属于这些已定义域和 URL 的域或 URL 会视为反向链接。 </p> <p>例如，若网页 A 和网页 B 已添加至内部 URL 过滤器（但网页 C 没有），则网页 C 会视为反向链接。 </p> <p>请参阅 <a href="/help/admin/admin/internal-URL-filter-admin.md"> 内部 URL 过滤器</a></p>  <p>Note: Analytics records a referring domain as an email when visitors click an emailed message link containing the protocol <code> imap://</code> or <span class="filepath"> mail://</span> and arrive at your site. </p> <p>For example, anything coming from <code> https://mail.yahoo.com</code> is not counted as an email referrer because the protocol is <span class="filepath"> https://</span>. Outlook 电子邮件会在<span class="wintitle">“键入/书签式”</span>行报告，而任何采用 HTTP 协议（域为已知搜索引擎）的反向链接均报告于<span class="wintitle">“搜索引擎”</span>行上。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 反向链接类型 </td> 
@@ -86,4 +86,3 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
  </tbody> 
 </table>
-
