@@ -7,7 +7,7 @@ title: 运行不同的报表类型
 topic: 报表, Reports and Analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -159,7 +159,7 @@ t_anomaly_view.xml
 
 >[!NOTE]
 >
->You can also run Anomaly Detection from within Analysis Workspace projects. [更多...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
+>您还可以从Analysis Workspace项目中运行异常检测。 [更多...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
 
 有关设置异常检测的信息，请参阅《[参考指南](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Setting_up_Anomaly_Detection)》。
 
@@ -185,8 +185,8 @@ t_anomaly_view.xml
        <ul id="ul_BEC0A88BFFAC4CF78BC9885FEB749694"> 
         <li id="li_1BAB2F50482745B69937DFAF1E09982E">如果上限与期望值相同，则偏差百分比为 100%。 </li> 
         <li id="li_CA48064F5788448C8646CCE196161237">否则，偏差%为(（实际值——上界值）/（上界值——预期值）)* 100 </li> 
-        <li id="li_4090357A0D214BC7B1C3DE0615875554">If the lower bounds and the expected value are the same, the deviation % is -100% </li> 
-        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">Otherwise the deviation % is ((lower bound value - actual value) / (expected value - lower bound value)) * -100 </li> 
+        <li id="li_4090357A0D214BC7B1C3DE0615875554">如果下限和期望值相同，则偏差%为-100% </li> 
+        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">否则，偏差%为(（下限值——实际值）/（预期值——下限值）)* -100 </li> 
        </ul> </li> 
       <li id="li_5C05EF7023484CC993E96D63E842B65C">单击<span class="uicontrol">显示区段</span>可显示区段边栏，以允许您将区段应用到异常检测报表。请参阅有关分段的<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/" format="http" scope="external">更多信息</a>。 </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">单击<span class="uicontrol">编辑量度</span>可让您选择和取消选择要为其检测异常的量度。 </li> 
@@ -224,9 +224,9 @@ t_anomaly_config.xml
 
 1. 导航至 **[!UICONTROL Analytics &gt; 报表 &gt; 网站量度 &gt; 异常检测]**。
 1. 选择要跟踪每日异常检测情况的报表包。要显示报表包列表，请单击“报表包”选择器下拉菜单。
-1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]**at the top right of the screen:  ![](assets/metrics_icon.png).
+1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]** at the top right of the screen:  ![](assets/metrics_icon.png).
 
-   您可以从以下位置选取量度：所有量度的列表（包括计算量度）或跟踪量度的列表。您还可以依据特定词语进行过滤，以缩小列表范围。1. Once the report has been generated, define the **[!UICONTROL Training Period]**and the **[!UICONTROL View Period]** for anomaly detection. （将培训时段看作是算法的“学习时段”。）
+   您可以从以下位置选取量度：所有量度的列表（包括计算量度）或跟踪量度的列表。您还可以依据特定词语进行过滤，以缩小列表范围。1. Once the report has been generated, define the **[!UICONTROL Training Period]** and the **[!UICONTROL View Period]** for anomaly detection. （将培训时段看作是算法的“学习时段”。）
 
    ![](assets/view_training_periods.png)
 
