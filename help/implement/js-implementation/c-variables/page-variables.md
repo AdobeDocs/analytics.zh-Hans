@@ -7,9 +7,9 @@ solution: Analytics
 subtopic: 变量
 title: 页面变量
 topic: 开发人员和实施
-uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
+uuid: 2578edd-74db-4a8a-96f2-d0289ec1826b
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -226,7 +226,7 @@ colordepth.xml
 
 >[!NOTE]
 >
->This variable should only be read and never set.
+>此变量应仅读取且不应设置。
 
 You may read these values and copy them into `props/eVars`, but you should never alter them. 此变量在 JavaScript 文件 H.11 版本中另有介绍。
 
@@ -270,7 +270,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 >[!NOTE]
 >
->This variable should only be read and never set.
+>此变量应仅读取且不应设置。
 
 You may read these values and copy them into `props/eVars`, but you should never alter them. 此变量在 JavaScript 文件 H.11 版本中另有介绍。
 
@@ -312,9 +312,9 @@ eVarN.xml
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |---|---|---|---|
-| 255 字节 | V1-v75 ( or v100 or v250)[](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28) | 自定义转换 | "" |
+| 255 字节 | V1-v75(或 [v100或v250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)) | 自定义转换 | "" |
 
-**Expiration** {#section_6DB5882B960D4660AE248B91B76883C4}
+**到期**{#section_6DB5882B960D4660AE248B91B76883C4}
 
 [!UICONTROL eVar] 在指定的时间段后过期。eVar 过期后，将不再对成功事件计数。eVar 还可配置为在发生成功事件时过期。例如，如果有一个内部促销在一次访问结束时即告过期，对于此促销，将仅对该访问期间（在此期间有效）发生的购买或注册计数。
 
@@ -329,7 +329,7 @@ eVarN.xml
 
 eVar 不区分大小写，但其第一个实例的首字母以大写显示。例如，如果 eVar1 的第一个实例被设置为“Logged In”，但随后的所有实例都作为“logged in”传递，报表始终显示“Logged In”作为 eVar 的值。
 
-**Counters** {#section_D8403F0C175E4BC9BE4F2E794B1F4D33}
+**计数器**{#section_D8403F0C175E4BC9BE4F2E794B1F4D33}
 
 eVar 最常用于保存字符串值，但也可以配置为用作计数器。在您尝试计入用户在某个事件前所执行的操作数时，使用 eVar 与计数器一样有用。例如，可以使用 eVar 捕获购买前的内部搜索数。访客每搜索一次时，eVar 包含值“+1”。如果访客在购买前搜索了四次，则将看到每个总计数的实例：1.00、2.00、3.00 和 4.00。但只有 4.00 针对购买事件（订购和收入量度）计数。只允许正数作为 eVar 计数器的值。
 
@@ -562,7 +562,7 @@ s.hier4="Sports/Local Sports/Baseball"
 
 >[!NOTE]
 >
->Changes to hierarchies can result in a service charge.
+>对层次结构的更改可能导致服务费用。
 
 ## homepage {#concept_0A3E416F1A064BA396B5FCEABFB7B0B4}
 
@@ -840,7 +840,7 @@ listN.xml
 
    >[!NOTE]
    >
-   >Multi-byte characters are not supported as delimiters in List Vars. 分隔符必须为单字节。
+   >列表变量中不支持多字节字符作为分隔符。 分隔符必须为单字节。
 
 * **过期日期**：类似于 eVar 过期日期，此设置决定列表变量和转化事件之间可产生关联的时间量。
 
@@ -955,7 +955,7 @@ s.maxDelay="750";
 
 >[!NOTE]
 >
->Adobe does not have control over DFA's response time. 如果将最大延迟时段增加到一个合理的时间范围后发现问题依然存在，请咨询贵组织的 DFA 帐户管理员。
+>Adobe不控制DFA的响应时间。 如果将最大延迟时段增加到一个合理的时间范围后发现问题依然存在，请咨询贵组织的 DFA 帐户管理员。
 
 ## mediaLength {#concept_F52B1670122C4461824223E525307060}
 
@@ -988,7 +988,7 @@ mediaLength.xml
 
 **语法和可能值** {#section_FEC1B01FDD234ACEB63C0558BEEB5CBC}
 
-** autoTrack Method: **
+**autoTrack 方法：**
 
 如果使用 [!UICONTROL s.Media.autoTrack]，则不需要明确实施 [!UICONTROL mediaLength] 变量。它由 JavaScript AppMeasurement 代码自动确定。
 
@@ -1548,7 +1548,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 >[!NOTE]
 >
->This variable should only be read and never set.
+>此变量应仅读取且不应设置。
 
 您可以读取这些值，并将它们复制到 prop/eVar，但不得更改它们。此变量在 JavaScript 文件 H.11 版本中另有介绍。
 
@@ -1668,16 +1668,16 @@ s.purchaseID="1234567890"
 <table id="table_6F1334E73CE048A5AC0CC28B561C1B2D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <code>s.products="Category;ABC123"</code> </td> 
+   <td colname="col1"> <code> s.products=”Category;ABC123” </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code>s.products="Category2;ABC123,;ABC456"</code> </td> 
+   <td colname="col1"> <code> s.products=”Category2;ABC123,;ABC456” </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code>s.products="Category3;ABC123;1;10"</code> </td> 
+   <td colname="col1"> <code> s.products=”Category3;ABC123;1;10” </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code>s.products="Category;ABC123;1;10,;ABC456;2;19.98"</code> </td> 
+   <td colname="col1"> <code> s.products=”Category;ABC123;1;10,;ABC456;2;19.98” </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> s.events=”event1” </code> <p> <code> s.products="Category;ABC123;;;event1=1.99" </code> </p> </td> 
@@ -1689,22 +1689,22 @@ s.purchaseID="1234567890"
    <td colname="col1"> <code> s.events=”event1” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99,;ABC123;2;19.98;event1=1.99" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code>s.events="event1,event2"</code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25" </code> </p> </td> 
+   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code>s.events="event1,event2"</code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping" </code> </p> </td> 
+   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code>s.events="event1,event2"</code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping|evar2=3 Stars" </code> </p> </td> 
+   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping|evar2=3 Stars" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code>s.events="event1,event2"</code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping, ;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping" </code> </p> </td> 
+   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping, ;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code>s.events="event1,event2,event3"</code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
+   <td colname="col1"> <code> s.events=”event1,event2,event3” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code>s.events="event1,event2,event3=9.95"</code> <p> <code> s.products="Category;ABC123;,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
+   <td colname="col1"> <code> s.events=”event1,event2,event3=9.95” </code> <p> <code> s.products="Category;ABC123;,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1849,7 +1849,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 >[!NOTE]
 >
->This variable should only be read and never set.
+>此变量应仅读取且不应设置。
 
 您可以读取这些值，并将它们复制到 prop/eVar，但不得更改它们。此变量在 JavaScript 文件 H.11 版本中另有介绍。
 
@@ -1889,7 +1889,7 @@ By creating a unique object ID for a link or link location on a page, you can ei
 
 **区分整合的点击** {#section_1AE91FB8A2D3423CBE064ACF02FEEA47}
 
-If the  variable on your site is used to show the section or template a visitor is viewing, rather than the specific page the visitor is viewing, you may want to use  to separate links that appear on multiple versions of that page template. *`pageName`**`s_objectID`*&#x200B;例如，如果您有一个适用于网站中所有产品的模板页面，可能在所有页面上都会有一个指向主页和指向模板中搜索框的链接。若要按单个产品（而非模板）了解这些链接的使用情况，您可以使用产品特定的值填充&#x200B;*`s_objectID`*，例如“prod 123789 home page”或“prod 123789 search”。Once completed, [!UICONTROL Activity Map] reports on those links at an individual product basis.
+如果站 *`pageName`**`s_objectID`* 点上的变量用于显示访客正在查看的部分或模板，而不是访客正在查看的特定页面，则您可能希望使用该页面模板的多个版本上显示的单独链接。 例如，如果您有一个适用于网站中所有产品的模板页面，可能在所有页面上都会有一个指向主页和指向模板中搜索框的链接。若要按单个产品（而非模板）了解这些链接的使用情况，您可以使用产品特定的值填充&#x200B;*`s_objectID`*，例如“prod 123789 home page”或“prod 123789 search”。Once completed, [!UICONTROL Activity Map] reports on those links at an individual product basis.
 
 **提高[!UICONTROL 活动图](Activity Map)准确性**{#section_08B3406821294DCCABEEB99C90CF5C52}
 
@@ -2154,7 +2154,7 @@ Before *`transactionID`* values are recorded, [!UICONTROL Transaction ID Storage
 Analytics > Admin > Report Suites > Edit Settings > General > General Account Settings.
 ```
 
-To see whether  is enabled for a report suite, go to *`transactionID Storage`*
+要查看是 *`transactionID Storage`* 否为报表包启用，请转到
 
 ```
 Analytics > Admin > Data Sources > Manage
@@ -2188,7 +2188,7 @@ s.transactionID=s.purchaseID
 
 * 如果您正在为多 [!UICONTROL 个系统(如购买和潜在客户] )记录transactionID，请确保中的值始终 *`transactionID`* 是唯一的。 可通过向 ID 添加前缀（例如 lead_1234 和 purchase_1234）来达到这一目的。[!UICONTROL 如果两次看到唯一数据] ，集成数据源将不能按预期方式工作( [!UICONTROL 数据源数据将绑定到错误]*`transactionID`* 数据)。
 
-* By default,  values are remembered for 90 days. *`transactionID`*&#x200B;如果离线互动过程的时间超过 90 天，请联系客户关怀延长该期限。
+* 默认情况下， *`transactionID`* 值会记住90天。 如果离线互动过程的时间超过 90 天，请联系客户关怀延长该期限。
 
 >[!NOTE]
 >
