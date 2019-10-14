@@ -1,18 +1,18 @@
 ---
 description: 使用 AND/OR 搜索表达式通过布尔逻辑配置的排名和条件过滤器。
 seo-description: 使用 AND/OR 搜索表达式通过布尔逻辑配置的排名和条件过滤器。
-seo-title: 最流行的过滤功能
+seo-title: 最受欢迎的过滤设置
 solution: Analytics
-title: 最流行的过滤功能
+title: 最受欢迎的过滤设置
 topic: Report Builder
-uuid: 558fa592-41be-4e66-87705-81262afe1fc7
+uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 translation-type: tm+mt
-source-git-commit: dcddb02157ac3e62781b602c5e6c7de3ef79b4fc
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# 最流行的过滤功能
+# 最受欢迎的过滤设置
 
 使用 AND/OR 搜索表达式通过布尔逻辑配置的排名和条件过滤器。
 
@@ -35,7 +35,7 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    >[!NOTE]
    >
-   >将过滤器应用于现有请求会导致显示的数据发生更改。假定将前 10 个[!UICONTROL 页面]映射到单元格 $A$1 至 $A$10，并且“[!UICONTROL 起始排名]”为 1，“[!UICONTROL 条目数]”为 10。如果将“[!UICONTROL 起始排名]”的值更改为 1，将“[!UICONTROL 条目数]”的值更改为 3，则先前填充单元格 $A$4 至 $A$10 的数据将不再显示。
+   >将过滤器应用于现有请求会导致显示的数据发生更改。 假定将前 10 个[!UICONTROL 页面]映射到单元格 $A$1 至 $A$10，并且“[!UICONTROL 起始排名]”为 1，“[!UICONTROL 条目数]”为 10。如果将“[!UICONTROL 起始排名]”的值更改为 1，将“[!UICONTROL 条目数]”的值更改为 3，则先前填充单元格 $A$4 至 $A$10 的数据将不再显示。
 
 1. To create a search expression, click **[!UICONTROL Add]**.
 
@@ -45,7 +45,7 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    ![select_cell_icon.png](assets/select_cell_icon.png)：允许您查找在单元格值中定义的条件。
 
-   **添加条件：**向表达式中添加条件。可添加的条件数没有限制。
+   **添加条件：**&#x200B;向表达式添加条件。可添加的条件数没有限制。
 
 1. Click **[!UICONTROL OK]**.
 
