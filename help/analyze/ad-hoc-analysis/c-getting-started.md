@@ -1,18 +1,18 @@
 ---
-description: 临时分析入门。
-seo-description: 临时分析入门。
+description: 开始使用临时分析。
+seo-description: 开始使用临时分析。
 seo-title: 快速入门
 title: 快速入门
-uuid: 6a698e18-4e62-405e-b020-b973 c9 c4008 b
+uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: 7bfa5c92c043450050ccaf6308beba873e5eb27c
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Get Started with Ad Hoc Analysis{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
+# 临时分析入门{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
 
->[!Important]
+>[!I重要]
 >2018 年 8 月 6 日，Adobe 宣布计划终止 Ad Hoc Analysis 生命周期。确定终止日期后，Adobe 会立即与大家共享此信息。For more information, including which versions of Java will be compatible during this period, visit [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
 
 您可以即时对网站活动执行高级分析。您可以同时查看多个报表并跨多个维度应用区段。可以从微观和宏观的视角分析数据，以查看它们对您的重要业务量度的影响。
@@ -49,7 +49,7 @@ source-git-commit: 7bfa5c92c043450050ccaf6308beba873e5eb27c
     <ul id="ul_0D2E8C614F2A4899A376BCEECEA374C6"> 
      <li id="li_FA925D52A8FD4DFAB0C88B797B24E72B"> 创建区段以深入挖掘数据 </li> 
      <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> 将量度、维度和区段添加到 <a href="../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E" type="concept" format="dita" scope="local"> 表生成器</a> </li> 
-     <li id="li_019316C9A94B4A8C8A77D07C04E50278">Configuring <a href="../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47" type="concept" format="dita" scope="local"> date ranges</a> </li> 
+     <li id="li_019316C9A94B4A8C8A77D07C04E50278">配置 <a href="../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47" type="concept" format="dita" scope="local"> 日期范围</a> </li> 
      <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="../../analyze/ad-hoc-analysis/c-schedule.md#concept_12D2DDD66086453BAB6D48D9D22932F2" type="concept" format="dita" scope="local"> 计划</a>报表提交 </li> 
     </ul> <p>搜索此帮助系统以查找所需的帮助。 </p> </td> 
   </tr> 
@@ -68,7 +68,7 @@ c_sys_reqs.xml
 
 >[!NOTE]
 >
->从 2018 年 7 月起，Ad Hoc Analysis 将仅支持 Java 8 或更高版本。如果在2018年月维护版本之后选择在Java上运行临时分析，Adobe将不再支持您的Ad Hoc Analysis实施。
+>从 2018 年 7 月起，Ad Hoc Analysis 将仅支持 Java 8 或更高版本。如果您在2018年7月维护版本发布后选择在Java 7上运行临时分析，Adobe将不再支持您的临时分析实施。
 
 * 支持 OpenGL 2.0 的显卡
 * Cookie：必需
@@ -83,7 +83,7 @@ c_sys_reqs.xml
 
 ## Java 升级说明 {#section_E4C0C6492FF24636A0FF71A59331111D}
 
-从 2018 年 7 月起，Ad Hoc Analysis 将仅支持 Java 8 或更高版本。如果在2018年月维护版本之后选择在Java上运行临时分析，Adobe将不再支持您的Ad Hoc Analysis实施。
+从 2018 年 7 月起，Ad Hoc Analysis 将仅支持 Java 8 或更高版本。如果您在2018年7月维护版本发布后选择在Java 7上运行临时分析，Adobe将不再支持您的临时分析实施。
 
 我们的 .jar 文件将使用安全的 256 位加密方法进行签名，低于 1.7.0_76 的 Java 版本不支持此加密方法。通过使用此 256 位证书，我们可以为您提供增强的安全性。
 
@@ -91,7 +91,7 @@ c_sys_reqs.xml
 
 * 如果允许您在计算机上安装程序，请执行以下操作：
 
-   1. 转到https://www.java.com。
+   1. 请访问https://www.java.com。
    1. Click **[!UICONTROL Free Java Download]**.
    1. Click **[!UICONTROL Agree and Start Free Download]**.
    1. 安装特定于您的操作系统的最新 Java 版本。
@@ -126,7 +126,7 @@ t_login_suite.xml
 
    如果此页面中未显示&#x200B;**启动 Ad Hoc Analysis** 按钮，请确保管理员已将您添加到管理工具的 *Ad hoc Analysis 授权用户*&#x200B;群组中。
 1. Click **[!UICONTROL Launch Ad Hoc Analysis]**.
-1. Save the [!DNL discover.jnlp] file locally.
+1. 将文件保 [!DNL discover.jnlp] 存到本地。
 
    您可以随时运行该保存的文件来启动 Ad Hoc Analysis。
 
@@ -187,7 +187,7 @@ t_share_projects.xml
  -->
 
 1. Go to **[!UICONTROL File]** &gt; **[!UICONTROL Save As]**.
-1. Select **[!UICONTROL Shared Projects]** from the **[!UICONTROL Save in:]**drop-down.
+1. **[!UICONTROL 从保]**&#x200B;存位置&#x200B;**[!UICONTROL ，选择]**&#x200B;共享项目：下拉菜单。
 
    ![](assets/shared_projects.png)
 
@@ -197,7 +197,7 @@ t_share_projects.xml
 
    >[!NOTE]
    >
-   >您可以通过选择一个或多个项目，在同一对话框中删除自己共享项目以共享项目。
+   >您可以通过选择一个或多个项目，在共享项目的同一对话框中删除您自己的共享项目。
 
 ## Rename a Workspace {#task_0DB177DD6DB54B7F9FE60A0B3FC7CFC3}
 
