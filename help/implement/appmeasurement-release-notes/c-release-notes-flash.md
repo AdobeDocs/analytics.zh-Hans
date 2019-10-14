@@ -8,7 +8,7 @@ title: Flash-Flex
 topic: 开发人员和实施
 uuid: 2ee7fb92-9b62-44d4-bd93-6dff26764b7f
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -29,19 +29,19 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
 ## April 20, 2017 {#section_8521EC2B68E24203A0F1B14A9D2652D2}
 
-**版本 4.0.3 **
+**版本 4.0.3**
 
 * 包括 Visitor API 1.6.1.
 
 ## 2016 年 8 月 18 日 {#section_D72EF20672174249B864997905D7552A}
 
-** 4.0.2 - Update**
+**4.0.2 —— 更新**
 
 包括 Visitor API 1.6.0。
 
 ## May 19, 2016 {#section_061305CFC1E040E69E3CDF4078C17AE4}
 
-** 4.0.1 —— 更新**
+**4.0.1 —— 更新**
 
 包括 Visitor API 1.5.6
 
@@ -60,13 +60,13 @@ s.debugTracking = false; // set to false or remove line
                          // for default "disabled” behavior 
 ```
 
-受影响的版本包括在所有平台上运行的  for Flash version 4.0 and earlier on all platforms.[!DNL AppMeasurement]
+受影响的版本包括在所有平台上运行的 适用于 [!DNL AppMeasurement] 所有平台上的Flash版本4.0及更早版本。
 
 >[!NOTE]
 >
 >Due to security reasons, we will no longer be distributing an AS2 version of [!DNL AppMeasurement] for Flash. 我们将继续支持从现有 AS2 项目中收集的数据。但是，我们强烈建议客户将其实施项目升级为 AS3 版本，并融入 [!DNL AppMeasurement] for Flash 的最新安全功能。
 
-[!DNL AppMeasurement] for Flash customers affected by this issue must rebuild projects with the updated library available for download from the [!DNL Analytics] Console [More…](https://help.adobe.com/en_US/Flex/4.0/UsingFlashBuilder/WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7feb.html#WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7f88) (AN-121780)
+[!DNL AppMeasurement] 对于受此问题影响的Flash客户，必须使用更新的库重新构建项目，该库可从 [!DNL Analytics] Console [More...](https://help.adobe.com/en_US/Flex/4.0/UsingFlashBuilder/WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7feb.html#WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7f88) (AN-121780)下载
 
 ## November 5, 2015 {#section_18C1A1C82EA844E78A1D563E66DE3FCF}
 
@@ -132,7 +132,7 @@ s.debugTracking = false; // set to false or remove line
 
 发行日期：**2014 年 4 月 17 日**
 
-* Support for the Experience Cloud Visitor ID service.[](https://marketing.adobe.com/resources/help/en_US/mcvid/)
+* 支持 [Experience Cloud访客ID服务](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
 
 ## 版本 3.7.3 {#section_1159B2AB56F54903A6FBFB7047AEC1C5}
 
