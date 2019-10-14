@@ -1,18 +1,18 @@
 ---
 description: 在开始将项目映射到电子表格之前，请确保电子表格未处于受保护状态。如果工作表的保护方案阻止用户执行任何操作，则无法选择电子表格中的单元格。首先取消工作表保护，然后再添加单元格映射。
 seo-description: 在开始将项目映射到电子表格之前，请确保电子表格未处于受保护状态。如果工作表的保护方案阻止用户执行任何操作，则无法选择电子表格中的单元格。首先取消工作表保护，然后再添加单元格映射。
-seo-title: 将指标和维度映射到单元格
+seo-title: 将量度和维度映射到单元格
 solution: Analytics
-title: 将指标和维度映射到单元格
+title: 将量度和维度映射到单元格
 topic: Report Builder
 uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# 将指标和维度映射到单元格
+# 将量度和维度映射到单元格
 
 在开始将项目映射到电子表格之前，请确保电子表格未处于受保护状态。如果工作表的保护方案阻止用户执行任何操作，则无法选择电子表格中的单元格。首先取消工作表保护，然后再添加单元格映射。
 
@@ -22,7 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 以下部分包含更多信息：
 
-* [选择一系列单元格](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
+* [选择单元格范围](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
 * [选择单元格的技巧](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
 * [映射时的问题](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_CC1BCF841291447EB3A994EB08F3A099)
 
@@ -30,15 +30,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 在“[!UICONTROL 请求向导: 第 2 步]”上，如果对趋势请求启用“[!UICONTROL 自定义布局]”，则可以将请求映射到一系列单元格。
 
-Click the **[!UICONTROL Range Selector]** ![select_cell_icon.png](assets/select_cell_icon.png)
+单击范 **[!UICONTROL 围选择]**![器select_cell_icon.png](assets/select_cell_icon.png)
 
-您要映射的项目旁边。
+在要映射的项目旁边。
 
-* ** All Cells in Range:** Requires you to select a group of cells for a [!UICONTROL Custom Layout] style request.
-
-* ** First Cell of Range:** Lets you select the top-left cell of the range, and displays the [!UICONTROL Range] orientation to specify the horizontal or vertical orientation of input and output cells (column or row). 如果使用此选项，Report Builder 会为您选择单元格。
-
-* **范围方向：**允许您将单元格范围定向为列或行。
+* **范围中的所有单元格：**&#x200B;要求您为“[!UICONTROL 自定义布局]”类型的请求选择一组单元格。
+* **范围的第 1 个单元格：**&#x200B;允许您选择范围左上角的单元格，并且显示用于指定输入和输出单元格的水平或垂直方向（列或行）的“[!UICONTROL 范围方向]”。如果使用此选项，Report Builder 会为您选择单元格。
+* **范围方向：**&#x200B;允许您指定单元格范围的方向（列或行）。
 * **选择范围的上方单元格位置：**&#x200B;显示单元格引用。
 
 ## Techniques for selecting cells {#section_760421C3D7F84D67A639174710C93B22}
@@ -74,6 +72,4 @@ You select the data by clicking the **[!UICONTROL Range Selection]** icon  ![sel
 
 * 启动[!UICONTROL 请求管理器]并单击表中列出的各个请求。单击请求会突出显示请求映射到的电子表格单元格。
 * 选择电子表格中您要用于新映射的单元格并单击“[!UICONTROL 来自工作表]”。[!UICONTROL 请求管理器]会选择列表中具有与所选单元格相交的输出项目的请求。如果没有选择任何请求，则表示单元格可用。
-
 * 选择电子表格中的单元格，右键单击以显示上下文菜单，然后验证“[!UICONTROL 编辑请求]”是否可用。如果可用，则表示存在与这些单元格相关联的请求。
-
