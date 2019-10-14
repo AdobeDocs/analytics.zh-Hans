@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 常见问题解答
 title: 常见问题解答
-uuid: 05724f56-cf98-4ad8 ad0 d-83a5 a4 b1944 a
+uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -99,7 +99,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
   </tr> 
   <tr> 
    <td colname="col1"> <p>问：Advertising Analytics 量度是否可以在<b>营销渠道</b>报表中进行报告？ </p> </td> 
-   <td colname="col2"> <p>答：不可以，营销渠道报表中不包含这些量度。 </p> </td> 
+   <td colname="col2"> <p>答：否，它们不包含在营销渠道报告中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>问：搜索数据<b>何时</b>会提取到 Analytics 中？ </p> </td> 
@@ -115,7 +115,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
   </tr> 
   <tr> 
    <td colname="col1"> <p>问：我们是仅捕获 google.com，还是也会捕获<b>国家/地区版本</b>（例如 google.co.uk、google.it、google.fr 或 google.de）？ </p> </td> 
-   <td colname="col2"> <p>A：广告平台分类捕获以下值：“Google Adwords”和“Bing Ads”。 </p> <p>通常的最佳做法是将国家/地区代码包含在营销活动名称中。之后，您可以进一步过滤或分段（例如，如果所有营销活动均以 countrycode_ 开头，则创建一个以“UK_”开头的营销活动 (AMO ID) 区段，可提供仅与 UK 有关的数据）。 </p> </td> 
+   <td colname="col2"> <p>答：广告平台分类可捕获以下值：“Google广告词”和“必应广告”。 </p> <p>通常的最佳做法是将国家/地区代码包含在营销活动名称中。之后，您可以进一步过滤或分段（例如，如果所有营销活动均以 countrycode_ 开头，则创建一个以“UK_”开头的营销活动 (AMO ID) 区段，可提供仅与 UK 有关的数据）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>问：量度“AMO 成本”是搜索引擎所报告的每个关键字/广告的成本花费。这是指净成本还是总成本？ </p> </td> 
