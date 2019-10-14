@@ -7,7 +7,7 @@ title: 客户分段
 topic: Activity Map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -18,9 +18,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->区段控制仅在标准模式下可用，因为Adobe Analytics平台不支持分段实时数据。
+>“细分”控件仅在标准模式下可用，因为Adobe Analytics平台不支持对实时数据进行分段。
 
-You can select one or several of the segments from the **[!UICONTROL Segments]**drop-down menu shown below. 列出的区段与您所拥有的区段或者通过“Reports &amp; Analytics”与您共享的区段（用于选定的报表包）相同。
+您可以从下面显示的&#x200B;**[!UICONTROL 区段]下拉菜单中选择一个或多个区段。**&#x200B;列出的区段与您所拥有的区段或者通过“Reports &amp; Analytics”与您共享的区段（用于选定的报表包）相同。
 
 ![](assets/segments.png)
 
