@@ -7,7 +7,7 @@ title: 跟踪代码
 topic: 报告
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -52,7 +52,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 * 页面查看、访问和独特访客均可作为量度使用。
 * 此报表可使用区段。
 
-**临时分析属性**
+**Ad Hoc Analysis 属性**
 
 * 除了大部分现成的转化变量之外，您还可通过报表界面内的所有其他报表划分跟踪代码报表。
 * 除了电子商务和自定义事件之外，您还可使用所有转化和流量量度，以及对所有转化量度进行不同的分配。
