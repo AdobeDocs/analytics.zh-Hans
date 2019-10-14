@@ -8,7 +8,7 @@ title: 添加 Adobe Analytics 工具
 topic: 开发人员和实施
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: 831ae375a90f021feddc6817a2602464be0d8414
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -47,14 +47,14 @@ source-git-commit: 831ae375a90f021feddc6817a2602464be0d8414
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> <p>配置方法 </p> </td> 
-   <td colname="col2"> <p> <b>自动</b>（推荐）：使用动态标签管理来管理配置。This method enables automatic synchronization of <span class="keyword"> Adobe Analytics</span> report suites via a <span class="keyword"> Experience Cloud</span> login or Web Services ID, and manages the [!DNL AppMeasurement] code. </p> <p>在连接帐户之后，动态标签管理会将 <span class="keyword">Adobe Analytics</span> 报表包 ID 和名称提取到工具配置界面中，这样可以降低用户出现错误的可能性，同时提高工具部署速度。 </p> <p> <p>注意：<span class="wintitle">Adobe Analytics Premium</span> 客户必须选择“<span class="keyword">自动</span>”选项。请参阅下方的<a href="../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#section_AEAA44566B5A46D2922E17A11D7EA217" format="dita" scope="local">启用 Adobe Analytics Premium</a>。 </p> </p> <p>填写特定于自动配置的字段： </p> 
+   <td colname="col2"> <p> <b>自动</b>（推荐）：使用动态标签管理来管理配置。这种方法可通过 <span class="keyword">Experience Cloud</span> 登录或 Web 服务 ID 来实现 <span class="keyword">Adobe Analytics</span> 报表包的自动同步，同时还可管理 AppMeasurement 代码。 </p> <p>在连接帐户之后，动态标签管理会将 <span class="keyword">Adobe Analytics</span> 报表包 ID 和名称提取到工具配置界面中，这样可以降低用户出现错误的可能性，同时提高工具部署速度。 </p> <p> <p>注意：<span class="wintitle">Adobe Analytics Premium</span> 客户必须选择“<span class="keyword">自动</span>”选项。请参阅下方的<a href="../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#section_AEAA44566B5A46D2922E17A11D7EA217" format="dita" scope="local">启用 Adobe Analytics Premium</a>。 </p> </p> <p>填写特定于自动配置的字段： </p> 
     <ul id="ul_8D9797B01E444B9C85B862A9F96B447C"> 
      <li id="li_0AC84C1F37B24C658F2178E50ECCC4B0"> <p> <b>Experience Cloud</b>：（默认）使用 <span class="keyword">Experience Cloud</span> 单一登录。指定 Experience Cloud ID 和密码。 </p> </li> 
      <li id="li_6C80468835D04CC09F4AEC46D1300310"> <p><b>Web 服务</b>：指定您的 Web 服务用户名和共享密钥。 </p> <p>Shared secret credentials are located in <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Company Settings</span> &gt; <a href="https://docs.adobe.com/content/help/en/analytics/admin/company-settings/web-services-admin.html" format="html" scope="external"> Web Services</a>. </p> <p>开发人员请参阅<a href="https://marketing.adobe.com/developer/en_US/get-started/enterprise-api/c-get-web-service-access-to-the-enterprise-api" format="https" scope="external">获取对企业 API 的 Web 服务访问权限</a>，以获得有关获取 Web 服务凭据的帮助。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <b>手动</b>:手动管理[!DNL appMeasurement]代码。 您可以从<span class="keyword"></span>管理工具<span class="keyword"> &gt; </span>代码管理器<span class="ignoretag"><span class="uicontrol">下载 </span>Analytics<span class="uicontrol"> </span>AppMeasurement</span> 代码。 </p> <p>Click <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html" format="https" scope="external"> JavaScript (new)</a> for information about downloading the code locally to copy and paste in the <span class="wintitle"> Edit Code</span> field in <a href="../../../implement/c-implement-with-dtm/c-aa-tool/library-management.md#concept_24654766343B4E82A9416A112D2125FE" format="dita" scope="local"> Library Management</a>. </p> <p>填写特定于手动配置的字段： </p> 
+   <td colname="col2"> <p> <b>手动</b>：手动管理 AppMeasurement 代码。您可以从<span class="keyword"></span>管理工具<span class="keyword"> &gt; </span>代码管理器<span class="ignoretag"><span class="uicontrol">下载 </span>Analytics<span class="uicontrol"> </span>AppMeasurement</span> 代码。 </p> <p>Click <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html" format="https" scope="external"> JavaScript (new)</a> for information about downloading the code locally to copy and paste in the <span class="wintitle"> Edit Code</span> field in <a href="../../../implement/c-implement-with-dtm/c-aa-tool/library-management.md#concept_24654766343B4E82A9416A112D2125FE" format="dita" scope="local"> Library Management</a>. </p> <p>填写特定于手动配置的字段： </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
      <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>生产帐户 ID：</b>（必需）用于数据收集的生产帐户。对于 Analytics，即您的报表包 ID。动态标签管理会在生产和暂存环境中自动安装正确的帐户。 </p> </li> 
      <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>暂存帐户 ID：</b>（必需）用于您的开发或测试环境。对于 Analytics，即您的报表包 ID。暂存帐户可将您的测试数据与生产数据分隔开。 </p> </li> 
@@ -92,7 +92,7 @@ See [Frequently Asked Questions About the Adobe Analytics Tool](../../../impleme
  <tbody> 
   <tr> 
    <td colname="col1"> <p>启用自动配置 </p> </td> 
-   <td colname="col2"> <p>Note: Enabling this setting changes a manually configured implementation to the automatic configuration method described in <span class="term"> Configuration Method</span>. </p> <p>此选项允许动态标签管理自动检索您 <span class="keyword">Adobe Analytics</span> 帐户的配置。 </p> <p>The latest available [!DNL AppMeasurement] code is used and upgrade notifications are displayed for selection as new versions become available. 您还可以根据需要回滚到以前的[!DNL appMeasurement]版本，例如出于兼容性原因。 最多显示五个以前版本。 </p> </td> 
+   <td colname="col2"> <p>Note: Enabling this setting changes a manually configured implementation to the automatic configuration method described in <span class="term"> Configuration Method</span>. </p> <p>此选项允许动态标签管理自动检索您 <span class="keyword">Adobe Analytics</span> 帐户的配置。 </p> <p>将使用最新的可用 AppMeasurement 代码，并且会在推出新版本时显示升级通知选项。您还可以出于兼容性等原因，根据需要回滚到以前的 AppMeasurement 版本。最多显示五个以前版本。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>更新凭据 </p> </td> 
