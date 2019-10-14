@@ -3,9 +3,9 @@ description: 了解您可以在报表上执行的各种操作，例如配置图�
 seo-description: 了解您可以在报表上执行的各种操作，例如配置图表、图形和划分以及提取数据。
 seo-title: 配置现有报表
 title: 配置现有报表
-uuid: 5c7bb66a-a9 a2-49fe-ba98-1a99 a922 f6 b1
+uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -52,7 +52,7 @@ c_report_actions.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>提交选项 </p> </td> 
-   <td colname="col2"> <p> See <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C" type="reference" format="dita" scope="local"> Delivery Options</a>. </p> </td> 
+   <td colname="col2"> <p> 请参阅 <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C" type="reference" format="dita" scope="local"> 交付选项</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 打印 </p> </td> 
@@ -64,7 +64,7 @@ c_report_actions.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>数据源 </p> </td> 
-   <td colname="col2"> <p>请参阅<a href="../../analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB" type="reference" format="dita" scope="local">“常规设置”选项卡 - 定义</a>。 </p> </td> 
+   <td colname="col2"> <p>See <a href="../../analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB" type="reference" format="dita" scope="local"> General Settings Tab - Definitions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>查看 </p> </td> 
@@ -95,7 +95,7 @@ c_chart_options.xml
    <td colname="col1"> <p>图形类型 </p> </td> 
    <td colname="col2"> <p> 用于将图表类型更改为线图、条形图、堆叠式区域图、泡泡图等。 </p> 
     <ul id="ul_98A8DBBCADA042359C5D096EA0B1104B"> 
-     <li id="li_6C29218C3ADC47199DE832A2E3A105C7"> <b>泡泡图</b>：泡泡图适用于任何排名报表。泡泡图最多可以提供 5 个独立维度的量度分析。当点直径没有应用量度时，您可将该图表用作散点图。泡泡图动态变动以反映报表数据的更改。。 </li> 
+     <li id="li_6C29218C3ADC47199DE832A2E3A105C7"> <b>泡泡图</b>：泡泡图适用于任何排名报表。泡泡图最多可以提供 5 个独立维度的量度分析。当点直径没有应用量度时，您可将该图表用作散点图。泡泡图动态变动以反映报表数据的更改。. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -162,7 +162,7 @@ t_reports_breakdown_table.xml
 
    >[!NOTE]
    >
-   >For more flexibility, use the [Table Builder](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) to configure a report with breakdowns. 当您打开具有划分的保存报表或计划报表后，可能需要单击“替换表”**以刷新动态报表数据的划分。**&#x200B;例如，您可能需要刷新包含行项目划分的计划报表，这些行项目可根据日期范围或访客活动发生更改。
+   >要获得更大的灵活性，请使 [用Table Builder](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) （表生成器）配置具有划分的报表。 当您打开具有划分的保存报表或计划报表后，可能需要单击“替换表”**以刷新动态报表数据的划分。**&#x200B;例如，您可能需要刷新包含行项目划分的计划报表，这些行项目可根据日期范围或访客活动发生更改。
 
 >[!MORE_LIKE_THIS]
 >
@@ -207,7 +207,7 @@ t_reports_extract_ID.xml
 
  -->
 
-在Reports&amp; Analytics中，您可以设置一个字段以包含用户ID数据。如果您配置了此选项，[!UICONTROL 提取访客 ID] 选项将变为可用。如果没有启用此选项，但之后又决定启用它，则无法返回和提取历史访客 ID。
+在Reports &amp; Analytics中，您可以设置一个字段以包含用户ID数据。 如果您配置了此选项，[!UICONTROL 提取访客 ID] 选项将变为可用。如果没有启用此选项，但之后又决定启用它，则无法返回和提取历史访客 ID。
 
 **提取访客 ID**
 
@@ -228,7 +228,7 @@ t_reports_trending_row.xml
 
 在查看产品报表等排名报表时，您可以查看值的趋势数据。例如，您可以查看在选定时段中收入总额达 10,000 美元的产品。如果要查看该时间段中每天产品所生成的收入，您可以显示产品趋势图或打开单独的趋势报表。
 
-**为行趋势**
+**对行进行趋势分析**
 
 1. 运行排名报表.
 1. 单击“趋势”图标。![](assets/TrendInspector_Buttcon.png)
