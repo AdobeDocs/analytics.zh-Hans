@@ -6,9 +6,9 @@ seo-title: getPageVisibility
 solution: Analytics
 title: getPageVisibility
 topic: 开发人员和实施
-uuid: 3891e2aa-d5 c1-4a2 b-8522-eb2 Bae39 ea2 e
+uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -19,9 +19,9 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!NOTE]
 >
->这是插件的测试版，可能会即将更新其他更新。
+>这是插件的测试版，可能即将进行其他更新。
 
-This plug-in requires [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8).
+此插件需要 [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8)。
 
 此插件还可记录页面在浏览器内停留的总秒数（包括主动和被动查看时间）。它要求使用 getPreviousValue 插件以便跟踪与页面可见性事件关联的上一页面名称。跟踪这些值可帮助您更好地了解访客参与程度，并更精确地跟踪访客在网站上的行为。
 
@@ -29,7 +29,7 @@ This plug-in requires [getVisitStart](../../../implement/js-implementation/plugi
 
 >[!NOTE]
 >
->以下说明要求您更改站点上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 Analytics 经验的开发人员完成。This plug-in is compatible only with [!DNL AppMeasurement] tracking libraries.
+>以下说明要求您更改站点上的数据收集代码。 此操作会影响您网站上的数据收集，且只应由具有使用和实施 Analytics 经验的开发人员完成。This plug-in is compatible only with [!DNL AppMeasurement] tracking libraries.
 
 ## 所需的支持插件 {#section_0CA7624F4A7B4B5F851A4300937887AD}
 
@@ -108,27 +108,27 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
 
 * 只有很少一部分用户会因为浏览器限制而无法传递页面查看数据的百分比，而且逻辑包含于插件中以确保数据的准确性不会因此而受到影响。不过，此插件已在 IE、Firefox、Chrome 和 Safari 中测试成功。
 * 依据插件测量总秒数并将该值与上一页面名称关联的方式，在页面量度和总秒数量度上逗留的默认时间之间存在差别。
-* [!UICONTROL 可创建计算指标] 以帮助汇总和了解与这些指标关联的访客行为：
+* [!UICONTROL 可以创建“计算量度] ”，以帮助总结和了解与这些量度相关的访客行为：
 
-   * **页面可见性比率**(页面可见性秒/总页面秒数)
-   * **隐藏隐藏秒**(页面总秒数-页面可见性秒)
-   * **平均页面可见性秒**(页面可见性秒/总页面可见性实例)
+   * **页面可见性比率**（页面可见性总秒数 / 页面总秒数）
+   * **隐藏秒数总计** （页面总秒数——页面可见性总秒数）
+   * **平均页面可见性秒数**（页面可见性总秒数 / 页面可见性实例总数）
    * **平均页面隐藏秒数**（（页面总秒数 - 页面可见性总秒数）/ 页面可见性实例总数）
 
 * 依据插件舍入秒数的方式，在页面可见性总秒数和总秒数之间可能存在 1 到 2 秒的差别，其中总秒数会高一些。（将在未来的更新中解决）
 * 使用 getVisitStart 插件时应当考虑到访客在处于非活动状态 30 分钟以上之后开始新访问的情况。这并非正常情况，不过，当我们在未来新版本的插件中加入“总活动秒数”时，可能会提供相应的解决方法。
 
-## 常见问题 {#section_1ED9391D3BAA4208817F0DF69ABBB25E}
+## 常见问题解答 {#section_1ED9391D3BAA4208817F0DF69ABBB25E}
 
-**此增效工具是否会进行额外的服务器调用？**
+**此插件会进行其他的服务器调用吗？**
 
 此插件只记录后续页面查看服务器调用中的页面可见性值。没有任何其他的服务器调用与它一起使用。
 
-**如果我不想捕获总页面数或总页面可见性实例，是否可以将这些实例保留在活动列表中？**
+**如果您不想捕获页面总秒数或页面可见性实例总数，我是否可将它们排除在事件列表之外？**
 
 是的，页面总秒数和可见性实例总数是可选事件，因此可在必要时将它们排除在列表之外。
 
-**如果我将这些活动用于除“上一页名称”以外的报告，是否会有任何意义？**
+**如果我在“上一页面名称”以外的报表中使用它们，捕获的事件是否适用？**
 
 由于插件记录后续图像请求中的值，因此只有已在“上一页面”上下文中捕获的其他 eVar 才适用，例如“上一页面 URL”。
 
