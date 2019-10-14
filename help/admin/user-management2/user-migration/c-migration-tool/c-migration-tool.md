@@ -5,7 +5,7 @@ seo-title: 将 Analytics 用户迁移到 Admin Console
 title: 将 Analytics 用户迁移到 Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -251,7 +251,7 @@ source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
   </tr> 
   <tr> 
    <td colname="col1"> <p>我未能在迁移结束日期前迁移我的所有用户。未迁移的用户会丢失对 Analytics 的访问权限吗？ </p> </td> 
-   <td colname="col2"> <p>Users that have not been migrated by the end date will be redirected to the Experience Cloud login page (experiencecloud.adobe.com) and will be unable to access Analytics. 但是，您将可以继续访问迁移工具，因此您可以查找并迁移他们以恢复其访问权限。 </p> </td> 
+   <td colname="col2"> <p>在结束日期之前尚未迁移的用户将被重定向到Experience cloud登录页面(experiencecloud.adobe.com)，并且将无法访问Analytics。 但是，您将可以继续访问迁移工具，因此您可以查找并迁移他们以恢复其访问权限。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -338,11 +338,11 @@ To email all users, navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Ad
 
 **主题：**&#x200B;即将推出 - 一种用于登录到 Adobe Analytics 和 Adobe Experience Cloud 的新方法。
 
-**正文：** Adobe Analytics用户好！
+**正文：** Adobe Analytics 用户，您好！
 
 Our company will begin migrating all Adobe Analytics accounts away from [!DNL https://my.omniture.com/login/] to Adobe Experience Cloud ([experiencecloud.adobe.com](http://experiencecloud.adobe.com/)). 在此次迁移中，将升级您的 Adobe Analytics 帐户以允许通过 Adobe Experience Cloud 访问 Analytics。虽然访问 Analytics 的方法将发生变化，但您对报表包和工具的所有现有权限都将保留下来。
 
-**后续步骤：**我们将从 <INSERT DATE>。请查看发送到您 Analytics 帐户下方列出的电子邮件 ID 的欢迎邮件，其中包含您的新登录信息。如果您没有设置链接到电子邮件地址的 [Adobe ID](https://helpx.adobe.com/x-productkb/global/adobe-id-account-change.html)，系统将要求您设置一个帐户。
+**** 后续步骤：我们将从 <INSERT DATE>。请查看发送到您 Analytics 帐户下方列出的电子邮件 ID 的欢迎邮件，其中包含您的新登录信息。如果您没有设置链接到电子邮件地址的 [Adobe ID](https://helpx.adobe.com/x-productkb/global/adobe-id-account-change.html)，系统将要求您设置一个帐户。
 
 **有用的资源：**
 
