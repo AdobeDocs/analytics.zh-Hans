@@ -1,16 +1,16 @@
 ---
 description: 新的智能警报系统允许对警报进行更多粒度控制，而且还将异常检测与警报系统集成在一起。
 seo-description: 新的智能警报系统允许对警报进行更多粒度控制，而且还将异常检测与警报系统集成在一起。
-seo-title: 智能提醒
-title: 智能提醒
-uuid: ac8c9710-d245-46e9-b906-32d3 bb0013 c0
+seo-title: 智能警报
+title: 智能警报
+uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# 智能提醒
+# 智能警报
 
 新的智能警报系统允许对警报进行更多粒度控制，而且还将异常检测与警报系统集成在一起。
 
@@ -20,7 +20,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 >
 >Intelligent Alerts are available to Adobe [!DNL Analytics] Prime and Adobe [!DNL Analytics] Ultimate customers only.
 
-The new Alert Builder and Alert Manager replace the existing alert functionality in Adobe [!DNL Analytics]. 智能警报允许您
+新的警报生成器和警报管理器将替换Adobe中现有的警报功能 [!DNL Analytics]。 智能警报允许您
 
 * 构建基于异常的警报（90%、95%、99%、99.75% 或 99.9% 阈值；% 更改；以上/以下）。
 * 预览警报触发的频率。
@@ -57,7 +57,7 @@ The new Alert Builder and Alert Manager replace the existing alert functionality
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>问题：警报异常检测会将距离标准值多久的数据确定为异常数据？</b> </p> </td> 
-   <td colname="col2"> <p>培训期因选定的时间粒度而异。请参阅[异常检测中使用的统计技术](/help/analysis/analysis-workspace/virtual-simunior-detection/digital-now-detection-details. md)以获取更多详细信息。下面是小结： </p> 
+   <td colname="col2"> <p>培训期因选定的时间粒度而异。See Statistical Techniques used in <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md">Anomaly Detection</a> for more detail. 下面是小结： </p> 
     <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
      <li id="li_E246091A3F1E484C8444AF4052FCA784">每月：15 个月及去年的相应日期范围 </li> 
      <li id="li_CC014FB38AE1492B9647E990C29BFB3C">每周：15 周及去年的相应日期范围 </li> 
@@ -75,7 +75,7 @@ The new Alert Builder and Alert Manager replace the existing alert functionality
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问题：我可以获得用虚线制成的“预期值”表格吗？表格中会包含一些预期值的结果吗？</b> </p> </td> 
-   <td colname="col2"> <p>在工作区中无法实现，但是在 Report Builder 中可以（请观看视频：<a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external">Report Builder 中的异常检测</a>)。 </p> <p>请记住，Report Builder 使用的是略微简单的异常检测方法。It uses a fixed 30-day training period, fixed 95% interval, and is similar to <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"> [!UICONTROL Reports &amp; Analytics] anomaly detection </a>. </p> </td> 
+   <td colname="col2"> <p>在工作区中无法实现，但是在 Report Builder 中可以（请观看视频：<a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external">Report Builder 中的异常检测</a>)。 </p> <p>请记住，Report Builder 使用的是略微简单的异常检测方法。与 <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"><span class="uicontrol"></span>Reports &amp; Analytics 异常检测</a>相似，它使用 30 天的固定培训期，和 95% 的固定间隔。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
