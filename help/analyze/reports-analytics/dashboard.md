@@ -1,23 +1,23 @@
 ---
 description: 功能板是由一组以缩略图方式显示的报表（称为“缩图报表”）构成的。包含相关缩图报表的功能板非常有用，因为这样您就可以对网站的某些方面（如查找方法、访客资料等）有一个完整的概括性认识。
 seo-description: 功能板是由一组以缩略图方式显示的报表（称为“缩图报表”）构成的。包含相关缩图报表的功能板非常有用，因为这样您就可以对网站的某些方面（如查找方法、访客资料等）有一个完整的概括性认识。
-seo-title: 仪表板和缩图报表
+seo-title: 功能板和缩图报表
 solution: Analytics
 subtopic: 功能板
-title: 仪表板和缩图报表
-topic: Reports & Analytics
-uuid: 7a7b3bc9-0a3c-49b0-9168-e2878 ae67 b97
+title: 功能板和缩图报表
+topic: Reports and Analytics
+uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# 仪表板和缩图报表
+# 功能板和缩图报表
 
 功能板是由一组以缩略图方式显示的报表（称为“缩图报表”）构成的。包含相关缩图报表的功能板非常有用，因为这样您就可以对网站的某些方面（如查找方法、访客资料等）有一个完整的概括性认识。
 
-## Dashboards and reportlets {#concept_8CD3ACA2830A4994A68A31D8773B57E0}
+## 功能板和缩图报表 {#concept_8CD3ACA2830A4994A68A31D8773B57E0}
 
 功能板为一组以缩略图方式显示的报表，称为 *`reportlets`*. 包含相关缩图报表的功能板非常有用，因为这样您就可以对网站的某些方面（如查找方法、访客资料等）有一个完整的概括性认识。
 
@@ -36,7 +36,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->The **[!UICONTROL Site Overview]**dashboard is no longer listed in Reports &amp; Analytics. 但是，在某几种情况下，您仍然可以查看它的部分或全部缩图报表。
+>The **[!UICONTROL Site Overview]** dashboard is no longer listed in Reports &amp; Analytics. 但是，在某几种情况下，您仍然可以查看它的部分或全部缩图报表。
 
 * 假如您只有三个频繁查看的报表，则 Reports &amp; Analytics 将从“网站概述”功能板中选取两个报表来填充&#x200B;**[!UICONTROL 我的推荐报表]功能板。**
 * 全新报表包最初也仍然会包含“网站概述”缩图报表，直到它们被您频繁查看的报表替换为止。Even so, the dashboard will now be called **[!UICONTROL My Recommended Reports]**.
@@ -86,10 +86,10 @@ t_dashboard_add.xml
 
 1. 通过将项目拖到缩图报表画布，向功能板添加可用内容。
 
-   See [Creating a Reportlet](../../analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) and [Editing Dashboard Settings](../../analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459).
+   请参 [阅创建缩图报表](../../analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) 和编 [辑功能板设置](../../analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459)。
 1. Click **[!UICONTROL Save.]**
 
-   保存功能板，使之在&#x200B;**[!UICONTROL 功能板]菜单中可用。**[!UICONTROL 仪表板管理器] ( **[!UICONTROL “收藏夹”]** &gt; **[!UICONTROL “控制面板]** ”&gt; **[!UICONTROL “管理器”]**)中也提供了新的仪表板，您可以在其中编辑、组织、共享、计划和存档仪表板等。(See [Managing Dashboards](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).)
+   保存功能板，使之在&#x200B;**[!UICONTROL 功能板]菜单中可用。** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (请参阅 [管理仪表板](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F)。)
 
 1. (Optional) To set the dashboard as your landing page, click **[!UICONTROL More Options]** &gt; **[!UICONTROL Set as Landing Page]**.
 
@@ -106,7 +106,7 @@ t_dashboard_add_report.xml
 1. 运行报表.
 1. Click **[!UICONTROL Dashboard.]**
 1. On the [!UICONTROL Add Reportlet] page, name the report, then select a dashboard from **[!UICONTROL Place in Dashboard]**.
-1. （可选）配置日期范围。
+1.  （可选）配置日期范围。 
 
    * **[!UICONTROL 连续]**：根据时间区间（每日、每月等），日期随时间变化而更改。例如，如果今天是 1 月 17 日，可以设置日期 1 月 15 - 16 日。Then if you select **[!UICONTROL Rolling]**, on January 27 the reportlet displays data for January 25 - 26.
    * **[!UICONTROL 固定]**：防止日期随时间变化而更改。
@@ -136,7 +136,7 @@ t_dashboard_content.xml
 
    >[!NOTE]
    >
-   >控制面板中的页面数量当前限制为30。
+   >功能板中页数的当前限制为30。
 
    **自定义缩图报表**
 
@@ -213,10 +213,10 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL “分析]** ”&gt;“ **[!UICONTROL 管理员]** ”&gt; **[!UICONTROL “公司设置]**”。
+1. **[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理员]** &gt;公 **[!UICONTROL 司设置]**。
 1. On the [!UICONTROL Company Settings] page, click **[!UICONTROL Co-Brand the Adobe Experience Cloud]**.
 1. Click **[!UICONTROL Enable Co-Branding]**.
-1. 浏览并上载图像，然后点击&#x200B;**[!UICONTROL 保存]。**
+1.  浏览并上载图像，然后点击&#x200B;**[!UICONTROL 保存]。**
 
    为了在浏览器中查看图像时达到最佳效果，请上载 100px x 30px 图像。为获得最佳 PDF 输出效果，请上载 417px × 125px (300 dpi) 图像。尺寸过大的图像将被缩小到有效尺寸，同时保留纵横比。
 
@@ -232,5 +232,5 @@ segments_dashboards.xml
 
 分段可以应用到两个层级：整个功能板或特定的缩图报表。
 
-* **缩图报表级别**：单击 **[!UICONTROL 布局]**，然后单击要区段的报告包。会出现一个模态窗口，您可以在这个窗口中添加或更改缩图报表使用的分段。
+* **缩图报表级别**:单 **[!UICONTROL 击布局]**，然后单击要细分的缩图报表的报表包。 会出现一个模态窗口，您可以在这个窗口中添加或更改缩图报表使用的分段。
 * **功能板层级**：单击左侧导航中的“区段”图标，选中您要使用的区段，然后单击“应用”。所选的区段会覆盖并替换任何缩图报表级别区段。
