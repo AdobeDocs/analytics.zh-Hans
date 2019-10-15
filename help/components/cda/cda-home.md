@@ -1,17 +1,17 @@
 ---
-title: 跨设备分析
-description: 跨设备分析通过拼接设备数据将数据从设备专注于专注于人的数据。
+title: Cross-Device Analytics
+description: 跨设备分析通过将设备数据拼接在一起，将您的数据从以设备为中心转变为以人为中心。
 translation-type: tm+mt
-source-git-commit: 40d8ecae1ac7e0a1df4a2df17f5104bee6ecf336
+source-git-commit: ca79141a353dbd09176dbbe295611656262ba107
 
 ---
 
 
-# 跨设备分析
+# Cross-Device Analytics
 
-> [!NOTE] 跨设备分析文档可能会随着进一步开发功能而发生变化。定期查阅更新。
+> [!NOTE] 随着功能的进一步开发，跨设备分析文档可能会发生更改。 定期回访以获取更新。
 
-跨设备分析是一项功能，可将Analytics从以设备为中心的视图转变为以人为中心的视图。此功能使用Adobe Experience Platform Identity Service Co-op Graphic或Private Graph确定属于个人的设备，并将它们拼接在一起。因此，分析师可以了解跨越浏览器、设备或应用程序的用户行为。通过使用 CDA，您可以回答类似下面的问题：
+跨设备分析是一项功能，可将Analytics从以设备为中心的视图转变为以人为中心的视图。 此功能使用Adobe Experience Platform Identity service合作图或专用图来识别属于个人的设备，并将它们拼合在一起。 因此，分析师可以理解跨浏览器、设备或应用程序的用户行为。 通过使用 CDA，您可以回答类似下面的问题：
 
 * 有多少人在与我的品牌互动？他们使用多少台设备？设备的类型如何？这些设备如何进行交叠？
 * 出现下面这种情况的频率是多少：人们先是在移动设备上开启一项任务，随后为了完成该任务而移至桌面 PC？登陆一台设备后执行的促销活动点进次数是否会导致转换到其他设备上？
@@ -19,41 +19,41 @@ source-git-commit: 40d8ecae1ac7e0a1df4a2df17f5104bee6ecf336
 * 用户从一台设备转到另一台设备时最常用的路径是什么？他们在哪里退出？他们在哪里继续？
 * 使用多台设备的用户，其行为与使用单台设备的用户有何区别？
 
-拼接设备时，会跨设备执行可变持久性。例如，用户首先通过桌面计算机上的广告访问您的站点。该用户会查找您的移动应用程序，安装它，最后在其移动设备上进行购买。通过跨设备分析，收入可归因于他们在桌面计算机上点击的广告。
+当设备被拼接时，可变持久性会跨设备传递。 例如，用户首先通过桌面计算机上的广告访问您的网站。 该用户会找到您的移动应用程序，安装它，并最终在其移动设备上进行购买。 借助跨设备分析，收入可归因于他们在桌面计算机上单击的广告。
 
-查看 [旅程IQ：跨设备分析Spark页面](http://adobe.ly/aacda) ，进一步了解跨设备分析的功能和功能。
+请参阅 [旅程IQ:跨设备分析Spark页](http://adobe.ly/aacda) ，进一步了解跨设备分析的功能和功能。
 
 ## 先决条件
 
-自2019年月起，跨设备分析需要以下各项。与组织内的团队及Adobe客户经理合作，确保您满足以下所有要求。
+自2019年9月起，跨设备分析需要满足以下条件。 与组织内的团队和Adobe客户经理合作，确保满足以下所有要求。
 
-> [!IMPORTANT] 未能满足所有先决条件，可能导致在拼接数据时无法启用跨设备分析或不良结果。
+> [!IMPORTANT] 未能满足所有先决条件可能导致无法启用跨设备分析，或在拼接数据时结果不佳。
 
-* 贵组织的数据必须驻留在Adobe的太平洋西北数据中心内。计划在世界其他地区的数据中心支持。
-* 请与贵组织的客户经理联系以建立以下要点：
-   * 必须使用包含Adobe Analytics Ultimate的Adobe签署合同。
-   * 您的组织必须使用Adobe Experience Platform Identity Service Co-op Graphic或Private Graph。请参阅 [Device](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) Co-op用户指南中的主页。
-   * 贵组织必须同意允许Adobe在Microsoft Azure服务器上处理和存储Analytics数据。Adobe使用Azure存储设备图形数据并执行设备拼接。因此，Adobe Analytics数据在Adobe数据处理中心和Adobe在Microsoft Azure中的表现之间来回传递。
-* 跨设备分析是在每个报告包上启用的。您的报表套件需要以下各项：
-   * 此时，报告套件每天不能超过亿次点击量。此阈值将在未来几个月内增加。
-   * “跨设备”报告套件，这意味着必须将跨设备的所有数据发送到同一个报告套件。一些组织将此称为“全局”报告套件，但CDA不严格必须是地理位置的全局。跨设备分析不能跨报表包工作。
+* 贵组织的数据必须位于Adobe的太平洋西北数据中心内。 计划为世界其他地区的数据中心提供支助。
+* 请联系贵组织的客户经理以确定以下要点：
+   * 必须与包含Adobe Analytics Ultimate的Adobe签订合同。
+   * 贵组织必须使用Adobe Experience Platform Identity service合作图或专用图。 请参 [阅设备协作用户指南](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) 中的主页。
+   * 贵组织必须同意允许Adobe在Microsoft azure服务器上处理和存储Analytics数据。 Adobe使用Azure存储设备图形数据并执行设备拼接。 因此，Adobe Analytics数据在Adobe的数据处理中心和Adobe在Microsoft Azure中的表现之间来回传递。
+* 跨设备分析按每个报告包启用。 已启用CDA的报表包需要：
+   * 报表包每天的点击量不能超过1亿。 这一门槛将在未来几个月中增加。
+   * Adobe建议报表包包含跨设备数据，即来自多种设备类型（Web、应用程序等）的数据。 一些组织将此概念称为“全球”报表包，但CDA并非从地理角度严格来说必须是全球的。 跨设备分析不适用于多个报表包，也不能合并多个报表包的数据。
 * 您的实施必须满足以下要求：
-   * 必须部署最新版本的Experience Cloud ID服务。请参阅Experience [Cloud](https://docs.adobe.com/content/help/en/id-service/using/home.html) Identity Service用户指南中的主页。大多数使用Adobe Experience Platform Launch的实施可能已经部署了EID。
-   * 每当可以识别个人时调用 `setCustomerIDs` 该函数，如用户登录或打开电子邮件时。此要求适用于所有平台，包括移动应用程序(如果使用)。请参阅 [Experience Cloud Identity Service用户指南中](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/setcustomerids.html) 的SetCustomerID。
+   * 必须部署最新版本的Experience Cloud ID服务。 请参阅 [Experience Cloud](https://docs.adobe.com/content/help/en/id-service/using/home.html) Identity service用户指南中的主页。 大多数使用Adobe Experience Platform Launch的实施可能已部署ECID。
+   * 只要可以 `setCustomerIDs` 识别个人身份（例如用户登录或打开电子邮件时），就调用该函数。 此要求适用于所有平台，包括使用时的移动应用程序。 请参 [阅](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/setcustomerids.html) Experience Cloud Identity service用户指南中的setCustomerID。
 
 ## 限制
 
-跨设备分析是一项突破性、强大的功能，但在如何使用它方面存在限制。
+跨设备分析是一项突破性的、强大的功能，但其使用方式存在限制。
 
-* CDA仅可通过Analysis Workspace获得。
-* 在IMS组织中无法进行拼接。确保您未在实施中使用多个IMS Ocs。
-* 如以上先决条件所述，不能跨报告套件进行拼接。
-* CDA当前与客户属性不兼容。客户属性不能用于创建CDA虚拟报告套件、跨设备区段内的报告或在基于CDA虚拟报告套件的Analysis Workspace项目中报告。
-* CDA需要计划图或私人图。不支持第三方设备图。
-* 不支持传统Analytics ID。只有具有Experience Cloud ID的访客才会拼接。
-* 客户关怀尚未完全支持此功能。[Cross-Device Analytics论坛](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/cross-device-analytics/overview) 可用于对此功能的支持，包括活动和直接从Adobe产品管理器进行的参与。
-* 跨设备分析使用虚拟报告套件和报告时间处理，它们有自己的限制。有关这些限制的更多信息，请参阅 [虚拟报告套件](../vrs/vrs-about.md) 和 [报告时间处理](../vrs/vrs-report-time-processing.md) 。
-* 访问您网站的新设备最长可能需要两周时间，由合作社图或私人图处理。CDA在最近两周内拼接的级别通常低于两周之前的日期范围。Adobe计划改进Adobe Experience Platform Identity Service以在未来实时缝合新设备。
-* 虚拟报告套件中的历史数据会根据Adobe识别和拼接设备的情况进行更改。源报表包中的数据不会更改。
+* CDA仅通过Analysis Workspace提供。
+* 无法按照上述先决条件中所述跨报表包进行拼接。
+* Adobe Analytics报表包不能映射到多个IMS组织。 由于CDA在给定的报表包内拼接设备，因此不能使用CDA跨多个IMS组织拼接数据。
+* CDA当前与“客户属性”不兼容。 客户属性不能用于在跨设备区段内创建CDA虚拟报告套件，或用于在基于CDA虚拟报告套件的Analysis Workspace项目内进行报告。
+* CDA需要合作图或专用图。 不支持第三方设备图形。
+* 不支持旧版Analytics ID。 仅拼接具有Experience Cloud ID的访客。
+* 客户服务部门尚未完全支持此功能。 跨 [设备分析论坛可用于支持此功能](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/cross-device-analytics/overview) ，包括Adobe产品经理的积极和直接参与。
+* 跨设备分析使用虚拟报告套件和报告时间处理，它们有各自的限制。 有关这 [些限制的详细信息](../vrs/vrs-about.md) ，请参 [阅虚拟报告套件和报告时间处理](../vrs/vrs-report-time-processing.md) 。
+* 访问网站的新设备最长可能需要两周时间才能通过合作图或专用图进行处理。 CDA中最近两周的缝合水平通常低于两周以前的日期范围。 Adobe计划改进Adobe Experience Platform Identity Service，以便将来实时拼接新设备。
+* 虚拟报告套件中的历史数据会因Adobe识别和拼接设备而发生变化。 源报表包中的数据不会更改。
 
-在您的组织满足所有要求并理解限制后，您可以开始 [设置跨设备分析](cda-setup.md)。
+组织满足所有要求并了解其限制后，您便可以开始 [设置跨设备分析](cda-setup.md)。
