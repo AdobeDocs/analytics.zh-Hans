@@ -5,7 +5,7 @@ seo-title: 将 Analytics 用户迁移到 Admin Console
 title: 将 Analytics 用户迁移到 Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 3276298eed17827c92162dd09856bed3f22de468
 
 ---
 
@@ -123,7 +123,7 @@ On this page:
   </tr> 
   <tr> 
    <td colname="col1"> <p>如何迁移用户 ID？ </p> </td> 
-   <td colname="col2"> <p> 单击<a href="../c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9" format="dita" scope="local">迁移用户 ID</a>。使用该工具将用户添加到 Admin Console 中的产品配置文件（从 Analytics 的权限组中复制）。您可以按照自己的节奏迁移用户 ID。 </p> <p>需要管理权限。迁移完成后将无法撤消。 </p> <p>在迁移结束当天，将禁用登录公司中用户对 <span class="filepath">my.omniture.com</span> 的访问。Users (including those that are yet to be migrated) will be redirected to login via the new Experience Cloud URL (<span class="filepath"> experiencecloud.adobe.com</span>) </p> <p>注意：Adobe 建议您利用这个机会在迁移之前对用户和组进行审核。删除旧的和未使用的帐户，或不再具有产品访问权限的帐户（例如不再隶属于组织的员工）。 </p> <p>Related topic: <a href="../c-migration-tool/migrate-enterprise.md#topic-6fd22bc6fbc14fd69ce6a8518a5b9c00" format="dita" scope="local"> Migrate Analytics user accounts for Enterprise and Federated IDs</a>. </p> </td> 
+   <td colname="col2"> <p> 单击“管理员”页面中“用户管理”下的<a href="../c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9" format="dita" scope="local">迁移用户 ID</a>。使用该工具将用户添加到 Admin Console 中的产品配置文件（从 Analytics 的权限组中复制）。您可以按照自己的节奏迁移用户 ID。 </p> <p>需要管理权限。迁移完成后将无法撤消。 </p> <p>在迁移结束当天，将禁用登录公司中用户对 <span class="filepath">my.omniture.com</span> 的访问。Users (including those that are yet to be migrated) will be redirected to login via the new Experience Cloud URL (<span class="filepath"> experiencecloud.adobe.com</span>) </p> <p>注意：Adobe 建议您利用这个机会在迁移之前对用户和组进行审核。删除旧的和未使用的帐户，或不再具有产品访问权限的帐户（例如不再隶属于组织的员工）。 </p> <p>Related topic: <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md" format="dita" scope="local"> Migrate Analytics user accounts for Enterprise and Federated IDs</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>迁移会影响我的 Analytics 实施或数据的收集方式吗？ </p> </td> 
@@ -237,7 +237,7 @@ On this page:
      <li id="li_BD943B3245FF47E7A0DDA6107EA1EF89">资产转移 </li> 
      <li id="li_2DF7004D67ED4C6CB40461EEFB038A5A">用户过期 </li> 
      <li id="li_980E3F5B98F344A492B0EBAD7F1DA60C">用户日志 </li> 
-    </ul> <p>这些功能将在 Analytics 用户管理中保持可用状态。 </p> <p>有关更多信息，请参阅 <a href="../c-migration-tool/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56" format="dita" scope="local">Admin Console 中不支持的 Analytics 功能</a>。 </p> </td> 
+    </ul> <p>这些功能将在 Analytics 用户管理中保持可用状态。 </p> <p>有关更多信息，请参阅 <a href="/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md" format="dita" scope="local">Admin Console 中不支持的 Analytics 功能</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>我们在 Admin Console 中创建了几个配置并将它们映射到 Analytics 权限组。这些配置在迁移开始后会出现什么情况？ </p> </td> 
