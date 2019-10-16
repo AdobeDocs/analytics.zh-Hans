@@ -5,7 +5,7 @@ seo-title: 提交访问和删除请求
 title: 提交访问和删除请求
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -25,9 +25,9 @@ source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 
 ## 验证用户及其数据 {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
-作为数据控制者，您有责任验证自称是数据主体的用户的真实身份，并且他们有权访问所请求的数据。另外，您还有责任确保将正确的数据返回给数据主体，并且他们不会意外收到有关其他数据主体的数据。
+作为数据控制者，您有责任验证自称是数据主体的用户的真实身份，并且他们有权访问所请求的数据。此外，您有责任确保将正确的数据返回给数据主体，并确保它们不会无意中收到有关其他数据主体的数据。
 
-这包括在将Adobe Analytics作为数据隐私权访问请求的一部分返回的数据发送到数据主体之前，先对其进行审核。 如果您使用人员 ID，并且返回的不仅有存在此 ID 的数据，还有共享设备上有时会存在此 ID 的其他命中数据（[ID 扩展](/help/admin/c-data-governance/gdpr-analytics-ids.md#section_D55C0722BC834118BE6F958C30AD5913)），此时应当特别注意。
+这包括在将Adobe Analytics作为数据隐私权访问请求的一部分返回的数据发送到数据主体之前，先对其进行审核。 如果您使用人员ID，并且不仅返回存在该ID的数据，而且还返回有时存在该ID的共享设备上其他点击的数据，则应特别注意。 请参阅 [ID扩展。](/help/admin/c-data-governance/gdpr-id-expansion.md)
 
 每个文件均会合并来自所有报表包的数据，并自动删除额外的重复命中项。您可以确定要将其中的哪些文件返回给数据主体。或者，您可以提取其中的部分数据，并与来自其他系统的数据合并，然后再将它们返回给数据主体。
 
@@ -39,7 +39,7 @@ source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 >
 >数据隐私API支持在单个请求中为多个用户批量提交。 当前支持的限制是：允许单个请求 JSON 文件中有 1000 个独立用户（每个用户可以有多个 ID）。
 
-## JSON 请求示例 {#section_DB9DE6492FE740918F91D413E7BAB88F}
+## JSON 请求示例 {#sample-json-request}
 
 以下是可通过数据隐私API或UI提交的JSON，它请求三个用户的数据隐私处理。
 
@@ -101,7 +101,7 @@ source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 } 
 ```
 
-请注意，“user”部分有三个数据块，代表三个单独的请求，可能是三个独立的数据主体。
+注意，用户部分有三个块，代表三个单独的请求，大概是三个单独的数据主题。
 
 * 第一个请求是使用传统 Adobe Analytics Cookie ID (AAID) 的访问请求。
 * 第二个请求也是访问请求，但是它是使用 MCID/ECID Cookie 的访问请求。
@@ -109,10 +109,10 @@ source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 
 请记住以下事项
 
-* 必须使用您的 Experience Cloud 组织的值来更新“companyContexts”部分的“5D7236525AA6D9580A495C6C@AdobeOrg”值。
-* “type”和“namespace”字段在[命名空间](/help/admin/c-data-governance/gdpr-namespaces.md#concept_26C6392D92194BC1BA3986A144AF285D)部分有更详细的描述。
-* “description”字段被忽略。
-* “key”字段可以包含您想要的任何值。如果您有用于跟踪数据隐私请求的内部ID，则可以将该值放在此处，以便更轻松地将Adobe系统中的请求与您自己系统中的请求相匹配。
+* “companyContexts”部分中的值“5D7236525AA6D9580A495C6C@AdobeOrg”必须使用您自己的Experience cloud组织的值进行更新。
+* The "type" and "namespace" fields are described in more detail in the [Namespaces](/help/admin/c-data-governance/gdpr-namespaces.md) section.
+* 将忽略“description”字段。
+* “key”字段可以包含您需要的任何值。 如果您有用于跟踪数据隐私请求的内部ID，则可以将该值放在此处，以便更轻松地将Adobe系统中的请求与您自己系统中的请求相匹配。
 
 ## 响应详情 {#section_93F554F65DBB48A18B75EB5784056C96}
 
@@ -151,4 +151,4 @@ source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 * 一种选择是，设置一个单独的 Experience Cloud 组织，其中仅包含测试报表包。然后，将此Experience cloud组织用于您的数据隐私测试，并将正常的Experience cloud组织用于实际的数据隐私处理。
 * 另一种选择是，为测试报表包中的 ID 分配与生产报表包中的 ID 不同的命名空间。
 
-   例如，您可以在测试报表包中为每个命名空间添加“qa-”作为前缀。当您提交仅包含带有qa前缀的命名空间的数据隐私请求时，这些请求将仅针对您的测试报表包运行。 之后，当您提交不带 qa 前缀的请求时，它们将应用于您的生产报表包。**我们推荐使用这种方法，除非您使用 visitorId、AAID、ECID 或 customVisitorId 命名空间，因为这些命名空间均为硬编码，您无法在测试报表包中为它们指定备用名称**。
+   例如，您可以在测试报告套件中为每个命名空间添加“qa-”前缀。 当您提交仅包含带有qa前缀的命名空间的数据隐私请求时，这些请求将仅针对您的测试报表包运行。 之后，当您提交不带 qa 前缀的请求时，它们将应用于您的生产报表包。**我们推荐使用这种方法，除非您使用 visitorId、AAID、ECID 或 customVisitorId 命名空间，因为这些命名空间均为硬编码，您无法在测试报表包中为它们指定备用名称**。
