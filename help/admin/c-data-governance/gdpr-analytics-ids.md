@@ -5,7 +5,7 @@ seo-title: 标签设置最佳实践
 title: 标签设置最佳实践
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
 translation-type: tm+mt
-source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 * **直接可识别 ID (I1)**：对人员命名或提供他们的直接联系方式。示例包括某人的姓名（甚至是像 John Smith 这种有数百人共用的常见名），他们的任意电子邮件地址或电话号码等等。不含名称的邮寄地址虽然只能识别某个家庭或企业而不能识别该家庭或企业中的具体成员，但它也被视为直接可识别 ID。
 * **间接可识别 ID (I2)**：本身不能识别个人的身份，但是可以与其他信息（不管该信息是否由您持有）结合起来，用于识别某人的身份。示例包括客户会员号，或公司的 CRM 系统为其每个客户使用的唯一 ID。根据数据隐私，Analytics使用的跟踪Cookie中存储的匿名ID可能被视为间接识别，即使它们只能识别设备而不能识别个人；在共享设备上，这些Cookie无法区分系统的不同用户。 例如，虽然 Cookie 不能用于查找包含该 Cookie 的计算机，但如果有人能够访问该计算机并找到该 Cookie，则他们可以将该 Analytics Cookie 数据绑定到该计算机。
 
-   IP 地址也被视为间接可识别 ID，因为在任何给定的时间，它只能被分配到一个设备。但是，ISP 可以并且经常会定期更改大部分用户的 IP 地址，因此一个 IP 地址可能会在一段时间内被它们的任何用户使用。还有一种较为常见的情况，某个 ISP 的许多客户或某家企业内位于同一内联网的多名员工共享相同的外部 IP 地址。Because of this, Adobe will not support using an IP address as the ID for a [Data Privacy request.](../../admin/c-data-governance/gdpr-submit-access-delete.md#submit-requests)但是，当我们接受的 ID 用于删除请求时，我们也会清除随该 ID 发生的 IP 地址。您必须确定您收集的其他ID是否属于I1或I2的此类别，但不适合用作数据隐私请求的区别ID。
+   IP 地址也被视为间接可识别 ID，因为在任何给定的时间，它只能被分配到一个设备。但是，ISP 可以并且经常会定期更改大部分用户的 IP 地址，因此一个 IP 地址可能会在一段时间内被它们的任何用户使用。还有一种较为常见的情况，某个 ISP 的许多客户或某家企业内位于同一内联网的多名员工共享相同的外部 IP 地址。Because of this, Adobe will not support using an IP address as the ID for a [Data Privacy request.](/help/admin/c-data-governance/gdpr-submit-access-delete.md#submit-requests)但是，当我们接受的 ID 用于删除请求时，我们也会清除随该 ID 发生的 IP 地址。您必须确定您收集的其他ID是否属于I1或I2的此类别，但不适合用作数据隐私请求的区别ID。
 
 即使您的公司在您的Analytics数据中收集了许多不同的ID，您也可以选择仅将这些ID的子集用于数据隐私请求。 其原因可能包括：
 
@@ -50,7 +50,7 @@ source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
      <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html" format="html" scope="external">（旧版）Analytics Cookie</a> </li> 
      <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Identity Service Cookie( </a> ECID)，以前称为Marketing Cloud ID(MCID) </li> 
     </ul> </td> 
-   <td colname="col2"> <p>这些 Cookie 可识别设备，或更具体地说，可识别某设备用户的浏览器。对于使用常规登录的共享设备，此 ID 可应用于该设备的任何/所有用户。Adobe has created some <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm" format="html" scope="external"> unified JavaScript </a> that you can place on your website to collect these cookies if you want to allow them to be used for Data Privacy requests. </p> <p>Adobe Analytics Mobile SDK 的用户还拥有 Experience Cloud ID (ECID)。SDK中有用于读取此ID的API调用，因此您可以增强应用程序以收集数据隐私请求。 </p> <p>许多公司考虑将浏览器 Cookie ID 作为共享设备 ID。因此，在与其法律团队协商后，他们可能会选择不支持将其用作数据隐私请求的可接受ID，或者在使用这些ID时，他们可能选择仅返回非常有限的数据量，或者他们可能只接受这些ID以请求删除。 </p> <p>这些 Cookie 具有无法更改的 ID-DEVICE 标签（以及 I2 和 DEL-DEVICE 标签）。默认的 Adobe Analytics 配置将只返回有关设备的一般性信息，例如设备类型、操作系统、浏览器等等，以及在使用这些 ID 时，对您的网站进行访问的时间/日期。但是，如果您选择支持以下讨论的数据隐私请求的这些ID，则可以添加或删除ACC-ALL标签，以配置您为数据隐私访问请求返回的确切字段集。 </p> <p>特别是在报表包对应移动设备应用程序，而您的移动设备应用程序又要求登录的情况下，您可以决定将该设备的 Experience Cloud ID 对应于特定的用户，这样一来，您可能希望使用 ACC-ALL 标签来标记更多的字段，其中包括已访问页面的名称、查看的产品等等。 </p> <p>注意： 如果您在数据隐私请求中指定“expandIds”选项，则除了您指定的任何其他ID之外，您的请求将始终包含Cookie ID。 更多详细信息，请参阅 <a href="../../admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local">ID 扩展</a>。在这些情况下，对于只具有 Cookie ID 而没有其他 ID 的命中项，则仅为访问请求返回具有 ACC-ALL 标记的数据。 </p> </td> 
+   <td colname="col2"> <p>这些 Cookie 可识别设备，或更具体地说，可识别某设备用户的浏览器。对于使用常规登录的共享设备，此 ID 可应用于该设备的任何/所有用户。Adobe has created some <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm" format="html" scope="external"> unified JavaScript </a> that you can place on your website to collect these cookies if you want to allow them to be used for Data Privacy requests. </p> <p>Adobe Analytics Mobile SDK 的用户还拥有 Experience Cloud ID (ECID)。SDK中有用于读取此ID的API调用，因此您可以增强应用程序以收集数据隐私请求。 </p> <p>许多公司考虑将浏览器 Cookie ID 作为共享设备 ID。因此，在与其法律团队协商后，他们可能会选择不支持将其用作数据隐私请求的可接受ID，或者在使用这些ID时，他们可能选择仅返回非常有限的数据量，或者他们可能只接受这些ID以请求删除。 </p> <p>这些 Cookie 具有无法更改的 ID-DEVICE 标签（以及 I2 和 DEL-DEVICE 标签）。默认的 Adobe Analytics 配置将只返回有关设备的一般性信息，例如设备类型、操作系统、浏览器等等，以及在使用这些 ID 时，对您的网站进行访问的时间/日期。但是，如果您选择支持以下讨论的数据隐私请求的这些ID，则可以添加或删除ACC-ALL标签，以配置您为数据隐私访问请求返回的确切字段集。 </p> <p>特别是在报表包对应移动设备应用程序，而您的移动设备应用程序又要求登录的情况下，您可以决定将该设备的 Experience Cloud ID 对应于特定的用户，这样一来，您可能希望使用 ACC-ALL 标签来标记更多的字段，其中包括已访问页面的名称、查看的产品等等。 </p> <p>注意： 如果您在数据隐私请求中指定“expandIds”选项，则除了您指定的任何其他ID之外，您的请求将始终包含Cookie ID。 更多详细信息，请参阅 <a href="/help/admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local">ID 扩展</a>。在这些情况下，对于只具有 Cookie ID 而没有其他 ID 的命中项，则仅为访问请求返回具有 ACC-ALL 标记的数据。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>自定义变量中的 ID </p> </td> 
@@ -77,7 +77,7 @@ source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 删除标签 DEL-DEVICE 和 DEL-PERSON 应当谨慎使用。当应用到不包含作为数据隐私请求一部分使用的ID的变量时，历史Analytics报告中的计数（度量）几乎总是会发生变化。
 
 * 我们建议将其中一个标签应用于标记为 I1、I2 或 S1 的任何变量。它们无法应用于未标记为 I1、I2 或 S1 的任何变量。
-* The DEL-labels will result in these variables being [anonymized](../../admin/c-data-governance/gdpr-labels.md#section_F3DEE591671A4B16A8E043F91C137ECB) (the ID will be replaced with a random string prefixed with "Data Privacy-"). 在由请求中使用的 ID 所识别的所有命中项当中，将使用相同的匿名值替代原始值的所有实例。如果此字段中的原始值为这些 ID 之一，则报表量度将不会发生更改。
+* The DEL-labels will result in these variables being [anonymized](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels) (the ID will be replaced with a random string prefixed with "Data Privacy-"). 在由请求中使用的 ID 所识别的所有命中项当中，将使用相同的匿名值替代原始值的所有实例。如果此字段中的原始值为这些 ID 之一，则报表量度将不会发生更改。
 * 通常，如果字段具有标签 ID-DEVICE，则您还应当分配标签 DEL-DEVICE。
 * 同样，如果字段具有标签 ID-PERSON，则您还应当分配标签 DEL-PERSON。
 * 如果字段没有 ID- 标签，但是包含需要匿名化的识别信息，那么需要根据您的实施来选择适用的标签（DEVICE 或 PERSON）。如果您仅对数据隐私请求使用Cookie ID，则应使用DEL-DEVICE。
@@ -86,7 +86,7 @@ source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 * 如果您没有指定要使用 ID 扩展，但是要为不同的请求使用设备和个人混合 ID，那么您在使用其中的任何一类 ID 时，可能希望为应当删除的变量同时指定 DEL-DEVICE 和 DEL-PERSON 标签。
 * 请注意，如果在任意未被用作请求 ID（包括扩展的 ID）的变量上指定 DEL-DEVICE 或 DEL-PERSON 标签，那么该变量的唯一值将只在出现特定（或扩展）ID 的命中项上进行匿名化。即使其他命中项包含相同的值，该值也并不会在其他位置发生更新。这会导致计数（量度）发生更改。
 
-   例如，如果您有三个点击，其中包含eVar7中的值“foo”，但其中只有一个点击还包含另一个变量中的ID，该ID与删除匹配，则该点击上的“foo”将被修改为“数据隐私-123456789”等值，而在其他两个点击中它将保持不变。 现在，展示 eVar7 唯一值数量的报表会比此前多显示一个唯一值。在显示 eVar 探顶值的报表中，只有两个实例（而不是以前的 3 个）包含值“foo”，与此同时，还会有一个实例显示新值。
+   例如，如果您有三个点击，其中包含eVar7中的值“foo”，但其中只有一个点击还包含另一个变量中的ID，该ID与删除匹配，则该点击上的“foo”将被修改为“数据隐私-123456789”等值，而在其他两个点击中它将保持不变。 现在，展示 eVar7 唯一值数量的报表会比此前多显示一个唯一值。显示eVar顶部值的报表可能只包含“foo”（而不是之前的3个）实例，而且新值也会随单个实例一起显示。
 
 ## 设置访问标签的最佳实践 {#section_AC7E216F81C141FCA6A62F8836E06EE7}
 
