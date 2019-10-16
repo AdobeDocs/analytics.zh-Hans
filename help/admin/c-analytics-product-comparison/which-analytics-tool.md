@@ -1,24 +1,23 @@
 ---
 description: 本帮助页面包含每个 Adobe Analytics 工具的推荐使用案例。应该按照工具的列出顺序来考虑使用哪个工具。如果某个工具无法满足需求，请考虑切换到下一个工具。
 seo-description: 本帮助页面包含每个 Adobe Analytics 工具的推荐使用案例。应该按照工具的列出顺序来考虑使用哪个工具。如果某个工具无法满足需求，请考虑切换到下一个工具。
-seo-title: 我应该使用哪个Adobe Analytics工具？
-title: 我应该使用哪个Adobe Analytics工具？
-uuid: 1179e49d-3cfc-4abd-a8 eb-35c5 ae380 c16
+seo-title: 我应该使用哪种 Adobe Analytics 工具？
+title: 我应该使用哪种 Adobe Analytics 工具？
+uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# 我应该使用哪个Adobe Analytics工具？
+# 我应该使用哪种 Adobe Analytics 工具？
 
 本帮助页面包含每个 Adobe Analytics 工具的推荐使用案例。应该按照工具的列出顺序来考虑使用哪个工具。如果某个工具无法满足需求，请考虑切换到下一个工具。
 
-有关 Adobe Analytics 产品比较的详细信息，请转至[此处](../../admin/c-analytics-product-comparison/analytics-product-comparison.md#concept_D9DB9FA42CA04F4C97765B6B31A0005D)。
-
+有关 Adobe Analytics 产品比较的详细信息，请转至[此处](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)。
 ## Adobe Analytics 报表用户界面 {#section_8265460EBB47405AB19A3B2B0729C8A4}
 
-**[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)** 应该是您的首选用户界面，可满足您所有的报告与分析需求。Adobe 会继续投入人力和物力坚持每月发布此产品的更新。如果您无法在Analysis Workspace中执行任务，请考虑下面的其他界面。****
+**[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)** 应该是您的首选用户界面，可满足您所有的报告与分析需求。Adobe 会继续投入人力和物力坚持每月发布此产品的更新。如果Analysis Workspace中有一个任务无法完成，请考虑以下其他界面。**
 
 **[Reports &amp; Analytics](/help/analyze/reports-analytics/overview/report-overview.md)** 的使用说明：
 
@@ -107,13 +106,13 @@ source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** 的使用说明：
 
-* 访问在UI中隐藏的变量- IP地址、Experience Cloud ID、Analytics访问者ID、页面URL)
+* 要访问在UI中隐藏的变量- IP地址、Experience Cloud ID、Analytics访客ID、页面URL)
 * 用于访问比 UI 更细粒度的数据（非规范化的表视图）
 * 用于下载适用于数据透视表输入格式的数据
 * 适用于客户端要将 Adobe 数据输入第三方数据可视化工具的情况（稍微汇总，不是点击级别）
 * 用于在 Adobe Analytics 中遇到“低流量”的情况下访问所有独特维度值
 
-**[应使用Analytics数据源](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** ：
+**[应使用Analytics Data Feed](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** :
 
 * 用于利用 Adobe 可提供的最细粒度的数据馈送（访客 ID、点击量）
 * 适用于客户端要在 Adobe 可发送的最细粒度级别发送客户端数据库中存储的 Adobe 数据的情况。
