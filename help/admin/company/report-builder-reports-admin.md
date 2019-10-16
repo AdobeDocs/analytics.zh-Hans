@@ -1,18 +1,18 @@
 ---
 description: 管理分配到 Report Builder 用户的许可证。
 seo-description: 管理分配到 Report Builder 用户的许可证。
-seo-title: 报表生成器报表
+seo-title: Report Builder 报表
 solution: Analytics
-title: 报表生成器报表
+title: Report Builder 报表
 topic: 管理工具
-uuid: 41f98b99-9a78-430a-8a42-101eddd3d2ef
+uuid: 41f98b99-9a78-430a-8a42-101edd3d2ef
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# 报表生成器报表
+# Report Builder 报表
 
 管理分配到 Report Builder 用户的许可证。
 
@@ -22,4 +22,4 @@ You can grant report builder access to any [!DNL Analytics] user by adding them 
 
 [!UICONTROL 计划任务分配状况]信息表显示具有 Report Builder 访问权限的所有用户。
 
-请参阅[群组](../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F)。
+请参阅[群组](/help/admin/user-management2/c-user-groups/groups.md)。
