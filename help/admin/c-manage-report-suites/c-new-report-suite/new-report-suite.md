@@ -1,26 +1,26 @@
 ---
 description: 您可以通过选择预定义的模板或者使用某个现有报表包作为模型，来创建新的报表包。
 seo-description: 您可以通过选择预定义的模板或者使用某个现有报表包作为模型，来创建新的报表包。
-seo-title: 新的报告套件-设置
+seo-title: 新报表包 - 设置
 solution: Analytics
-title: 新的报告套件-设置
+title: 新报表包 - 设置
 topic: 管理工具
-uuid: 3508f684-11a3-4c8f-a233-bea6 bafd57 c0
+uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# 新的报告套件-设置
+# 新报表包 - 设置
 
 您可以通过选择预定义的模板或者使用某个现有报表包作为模型，来创建新的报表包。
 
-Descriptions of the elements used when [creating a report suite](../../../admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md#task_67033B9710CB49F9B71A4DE374A538A0).
+创建报表包时使用 [的元素的说明](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)。
 
 >[!NOTE]
 >
->[虚拟报告套件文档向您](/help/components/vrs/c-workflow-vrs/vrs-create.md) 展示了如何创建虚拟报告套件。
+>The [Virtual Report Suite documentation](/help/components/vrs/c-workflow-vrs/vrs-create.md) shows you how to create virtual report suites.
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
@@ -52,7 +52,7 @@ Descriptions of the elements used when [creating a report suite](../../../admin/
   </tr> 
   <tr> 
    <td colname="col1"> <p>起始日期 </p> </td> 
-   <td colname="col2">通知 Adobe 您希望此报表包变为活动状态的日期。If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="../../../admin/c-traffic-management/traffic-management.md#concept_8BD651EE8B84434CB4D6308BC6C01B79" format="dita" scope="local"> Traffic Management</a>. </td> 
+   <td colname="col2">通知 Adobe 您希望此报表包变为活动状态的日期。If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="/help/admin/c-traffic-management/traffic-management.md" format="dita" scope="local"> Traffic Management</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 估计每日页面查看次数</span> </td> 
@@ -60,11 +60,11 @@ Descriptions of the elements used when [creating a report suite](../../../admin/
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 基本货币</span> </td> 
-   <td colname="col2"> <p>指定用于存储所有货币数据的默认货币。Analytics 报表可以使用收到数据时的最新货币兑换率，将使用其他货币进行的交易转换为基本货币。 </p> <p> Analytics 报表使用<span class="varname"> currencyCode</span> JavaScript变量用于标识给定交易的货币。 </p> </td> 
+   <td colname="col2"> <p>指定用于存储所有货币数据的默认货币。Analytics 报表可以使用收到数据时的最新货币兑换率，将使用其他货币进行的交易转换为基本货币。 </p> <p> Analytics 报表使用 <span class="varname"> currencyCode</span> JavaScript variable to identify the currency of a given transaction. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">禁用多字节字符支持</span> </td> 
-   <td colname="col2"> <p>禁用对报表包的多字节字符支持。如果禁用多字节字符支持，则系统会假定数据为 ISO-8859-1 格式。网页必须在<span class="varname"> charSet</span> JavaScript变量。 </p> <p>多字节字符支持使用 UTF-8 将字符存储在报表包中。系统在接收数据之后会将其从您的网页字符集转换为 UTF-8 字符集，从而使您可以在市场营销报告中使用任何语言。 </p> <p>要将现有报表包更改为支持多字节字符，请联系您的客户经理或客户关怀。 </p> </td> 
+   <td colname="col2"> <p>禁用对报表包的多字节字符支持。如果禁用多字节字符支持，则系统会假定数据为 ISO-8859-1 格式。网页必须在 <span class="varname"> charSet</span> JavaScript变量。 </p> <p>多字节字符支持使用 UTF-8 将字符存储在报表包中。系统在接收数据之后会将其从您的网页字符集转换为 UTF-8 字符集，从而使您可以在市场营销报告中使用任何语言。 </p> <p>要将现有报表包更改为支持多字节字符，请联系您的客户经理或客户关怀。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 激活此报表包的 Ad Hoc Analysis</span> </td> 
