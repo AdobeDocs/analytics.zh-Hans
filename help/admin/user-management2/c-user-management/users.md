@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 用户和用户组
 title: 用户管理概述
 topic: 管理工具
-uuid: 6f1d67cd-e169-461b-9f08-eec2 c6 b4 e6 df
+uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 translation-type: tm+mt
-source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
 
 使用“用户管理”页面的“管理报表用户和群组”可管理用户和群组，以及控制对报表、工具和报表包的访问。
 
-**[!UICONTROL “分析]** ”&gt;“ **[!UICONTROL 管理员]** ”&gt; **[!UICONTROL “用户管理]** ”&gt; **[!UICONTROL “编辑用户”]**
+**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理员]** &gt;用户 **[!UICONTROL 管理]** &gt;编 **[!UICONTROL 辑用户]**
 
 ## 用户帐户描述 {#section_14A7E169514A42A88E06387CC7C2E9AD}
 
@@ -82,7 +82,7 @@ source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 用户</span> </td> 
-   <td colname="col2"> <p> 仅授予用户所选群组的权限。在左侧的<span class="uicontrol">可用群组</span>字段中选择所需的群组，然后单击<span class="uicontrol">添加</span>。分配的群组将显示在右侧<span class="uicontrol">分配的群组</span>字段中。For information about creating and managing groups, see <a href="../../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F" format="dita" scope="local"> Groups</a>. </p> </td> 
+   <td colname="col2"> <p> 仅授予用户所选群组的权限。在左侧的<span class="uicontrol">可用群组</span>字段中选择所需的群组，然后单击<span class="uicontrol">添加</span>。分配的群组将显示在右侧<span class="uicontrol">分配的群组</span>字段中。For information about creating and managing groups, see <a href="/help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local"> Groups</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
