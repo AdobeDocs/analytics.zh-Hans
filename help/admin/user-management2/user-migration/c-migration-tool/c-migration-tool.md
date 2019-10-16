@@ -5,7 +5,7 @@ seo-title: 将 Analytics 用户迁移到 Admin Console
 title: 将 Analytics 用户迁移到 Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -23,14 +23,16 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 <p>https://wiki.corp.adobe.com/display/analyticssolution/Migration+of+Analytics+Access+and+User+Management+to+the+Marketing+Cloud </p>
 -->
 
-此页面涵盖的主题：
+<!-- This is duplicating the right-side nav, so... Please feel free to uncomment if you feel strongly that you  want it here.
+On this page:
 
-* [什么是 用户 ID 迁移？](../c-migration-tool/c-migration-tool.md#section-adbe49aba10c4e62afa836a97894107c)
-* [迁移用户 ID 前应知事项（常见问题解答）](../c-migration-tool/c-migration-tool.md#section-b0fc7f0bbd4b488e95b0c8e77ff077a9)
-* [迁移期间的应知事项（常见问题解答）](../c-migration-tool/c-migration-tool.md#section-d394524aa6d046d79025bbd7499792bc)
-* [迁移后的应知事项（常见问题解答）](../c-migration-tool/c-migration-tool.md#section-9681baa01b8c41cdb9659b73b70b50ff)
-* [Admin Console 中不支持的 Analytics 功能](../c-migration-tool/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56)
-* [如何通知您的用户有关迁移的信息](../c-migration-tool/c-migration-tool.md#section-f3b25f672a3a4d03b0559656fd99d20a)
+* [What is the user ID migration?](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-adbe49aba10c4e62afa836a97894107c) 
+* [What to know before migrating user IDs (FAQ)](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-b0fc7f0bbd4b488e95b0c8e77ff077a9) 
+* [What to know during the migration (FAQ)](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-d394524aa6d046d79025bbd7499792bc) 
+* [What to know after the migration (FAQ)](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-9681baa01b8c41cdb9659b73b70b50ff) 
+* [Unsupported Analytics features in the Admin Console](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56) 
+* [How to notify your users about the migration](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-f3b25f672a3a4d03b0559656fd99d20a)
+-->
 
 要获取有关 Admin Console 主题的常规帮助（与 Analytics 迁移无关），请参阅 [Admin Console 用户指南](https://helpx.adobe.com/enterprise/administering/user-guide.html)。
 
@@ -121,7 +123,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
   <tr> 
    <td colname="col1"> <p>如何迁移用户 ID？ </p> </td> 
-   <td colname="col2"> <p> 单击“管理员”页面中“用户管理”下的<a href="../c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9" format="dita" scope="local">迁移用户 ID</a>。使用该工具将用户添加到 Admin Console 中的产品配置文件（从 Analytics 的权限组中复制）。您可以按照自己的节奏迁移用户 ID。 </p> <p>需要管理权限。迁移完成后将无法撤消。 </p> <p>在迁移结束当天，将禁用登录公司中用户对 <span class="filepath">my.omniture.com</span> 的访问。Users (including those that are yet to be migrated) will be redirected to login via the new Experience Cloud URL (<span class="filepath"> experiencecloud.adobe.com</span>) </p> <p>注意：Adobe 建议您利用这个机会在迁移之前对用户和组进行审核。删除旧的和未使用的帐户，或不再具有产品访问权限的帐户（例如不再隶属于组织的员工）。 </p> <p>Related topic: <a href="../c-migration-tool/migrate-enterprise.md#topic-6fd22bc6fbc14fd69ce6a8518a5b9c00" format="dita" scope="local"> Migrate Analytics user accounts for Enterprise and Federated IDs</a>. </p> </td> 
+   <td colname="col2"> <p> 单击<a href="../c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9" format="dita" scope="local">迁移用户 ID</a>。使用该工具将用户添加到 Admin Console 中的产品配置文件（从 Analytics 的权限组中复制）。您可以按照自己的节奏迁移用户 ID。 </p> <p>需要管理权限。迁移完成后将无法撤消。 </p> <p>在迁移结束当天，将禁用登录公司中用户对 <span class="filepath">my.omniture.com</span> 的访问。Users (including those that are yet to be migrated) will be redirected to login via the new Experience Cloud URL (<span class="filepath"> experiencecloud.adobe.com</span>) </p> <p>注意：Adobe 建议您利用这个机会在迁移之前对用户和组进行审核。删除旧的和未使用的帐户，或不再具有产品访问权限的帐户（例如不再隶属于组织的员工）。 </p> <p>Related topic: <a href="../c-migration-tool/migrate-enterprise.md#topic-6fd22bc6fbc14fd69ce6a8518a5b9c00" format="dita" scope="local"> Migrate Analytics user accounts for Enterprise and Federated IDs</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>迁移会影响我的 Analytics 实施或数据的收集方式吗？ </p> </td> 
