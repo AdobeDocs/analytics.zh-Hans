@@ -6,16 +6,16 @@ solution: Analytics
 subtopic: 机器人规则
 title: 机器人规则概述
 topic: 管理工具
-uuid: cb9e29d-1c37-43de-b7 ac-34441093a60 e
+uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 translation-type: tm+mt
-source-git-commit: 5574b9e37e68971f7ecaa05056a30dab0b3d5d47
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
 # 机器人规则概述
 
-机器人规则允许您从由已知蜘蛛程序和机器人生成的报表套件中删除流量。删除机器人程序流量可为您网站上的用户活动提供更准确的测量。
+机器人规则允许您从由已知蜘蛛程序和机器人程序生成的报表包中删除流量。 删除机器人程序流量可为您网站上的用户活动提供更准确的测量。
 
 定义了机器人规则之后，将按照定义的规则对所有传入流量进行比较。报表包中将不会收集与任何这些规则匹配的流量，并且流量量度中也不会包含这些流量。
 
@@ -23,24 +23,24 @@ To update or upload bot rules, navigate to **[!UICONTROL Analytics]** &gt; **[!U
 
 删除机器人程序流量通常会减少流量和转化量度。许多客户发现删除机器人程序流量会导致转化比率增加以及其他可用性量度值增加。在删除机器人程序流量之前，请与利益关系人进行交流以确保做出此更改后他们会对关键性能指标做出必要的调整。如有可能，我们建议您首先从小型报表包中删除机器人程序流量以评估潜在的影响。
 
-机器人程序流量数据存储在单独的库中，以便在机器人和机器人页面报表中显示。有两种可用于实现机器人筛选的选项：
+机器人程序流量数据存储在单独的库中，以便在机器人和机器人页面报表中显示。启用机器人过滤有两个选项：
 
 | 规则类型 | 描述 |
 |--- |--- |
-| 标准IAB机器人规则 | 选择 [!UICONTROL “启用IAB机器人过滤规则] ”可使用 [IAB的](https://www.iab.com) (国际广告局)“国际蜘蛛电脑和机器人列表”删除机器人程序流量。大多数客户最少选择此选项。 |
+| 标准IAB机器人规则 | 选择 [!UICONTROL “启用IAB机器人过滤规则] ”将使用 [IAB](https://www.iab.com) （国际广告局）国际蜘蛛程序和机器人程序列表来删除机器人流量。 大多数客户至少选择此选项。 |
 | 自定义机器人规则 | 您可以根据用户代理、IP地址或IP范围定义和添加自定义机器人规则。 |
 
 ## 标准IAB机器人规则
 
-选中 [!UICONTROL “启用IAB机器人过滤规则] ”复选框可开启标准IAB机器人规则。此选择将删除IAB(国际广告局)国际蜘蛛和机器人列表中的机器人程序以删除机器人程序流量。IAB每月更新此列表。
+通过选中“启用IAB机器人过滤规则”复选框，可 [!UICONTROL 以打开标准IAB机器人规则] 。 此选择将删除IAB（国际广告局）国际蜘蛛程序和机器人程序列表中的机器人程序以删除机器人程序流量。 IAB每月更新此列表。
 
 ![](assets/bot-iab-checkbox.png)
 
-Adobe 无法向客户提供详细的 IAB 机器人程序列表，但是您可以使用“机器人报表”来查看访问您网站的机器人程序的列表。要将机器人提交到IAB列表，请访问 [IAB](https://www.iab.com)。
+Adobe 无法向客户提供详细的 IAB 机器人程序列表，但是您可以使用“机器人报表”来查看访问您网站的机器人程序的列表。要将机器人提交到IAB列表，请访 [问IAB](https://www.iab.com)。
 
 ## 自定义机器人规则
 
->[!Nte]
+>[!Note]
 >用户界面允许手动定义 500 个规则。在达到此限制后，必须通过“导入文件”和“导出机器人规则”选项对规则进行批量管理。
 
 使用自定义机器人规则，您可以根据定义的条件过滤流量。
@@ -84,11 +84,11 @@ Adobe 无法向客户提供详细的 IAB 机器人程序列表，但是您可以
 
 若要批量导入机器人规则，您可以上载定义规则的 CSV 文件。
 
-按显示的顺序创建具有以下列的CSV文件：
+按显示的顺序创建包含以下列的CSV文件：
 
 | 栏目 1 | 栏目 2 | 栏目 3 | 栏目 4 | 栏目 5 |
 |--- |--- |---|---|---|
-| 机器人名称 | 起始 IP | 终止 IP | Agent Match Rule<br>(contains or starts with)</br> | 代理排除(<br>255个字符限制)</br> |
+| 机器人名称 | 起始 IP | 终止 IP | Agent Match Rule<br>(contains or starts with)</br> | 代理排除<br>（255个字符限制）</br> |
 
 您可以定义三种类型的机器人规则：
 
@@ -100,7 +100,7 @@ Adobe 无法向客户提供详细的 IAB 机器人程序列表，但是您可以
 
 * **用户代理包含或开头**：提供单个用户代理字符串与“代理包含”列中的内容进行匹配。通过在“代理匹配规则”字段中置入&#x200B;*包含*&#x200B;或&#x200B;*开头*，指定您想要执行的匹配类型。An optional value can be included in the Agent Exclude column that defines one or more pipe-delimited ( `|` ) strings that the Agent does not contain. 字符串匹配区分大小写。“起始 IP”和“终止 IP”列都必须为空。
 
-* **单个IP地址或通配符匹配**：要匹配单个IP地址( `10.10.10.1`)或通配符IP地址( `10.10.*.*`)，请在IP开始和IP结束列中放置相同的值。“匹配规则”、“代理包含”和“代理排除”都必须为空。
+* **单个IP地址或通配符匹配**:要匹配单个IP地址( `10.10.10.1`)或通配符IP地址( `10.10.*.*`)，请在“IP开始”和“IP结束”列中放置相同的值。 “匹配规则”、“代理包含”和“代理排除”都必须为空。
 
 * **IP 范围匹配**：使用“起始 IP”和“终止 IP”列来定义 IP 地址的范围。Wildcards can be used to match IP ranges, for example `10.10.10.*` to `10.10.20.*`. “匹配规则”、“代理包含”和“代理排除”都必须为空。
 
@@ -121,13 +121,13 @@ Adobe 无法向客户提供详细的 IAB 机器人程序列表，但是您可以
 
 机器人规则可应用到所有分析数据。机器人规则删除的数据仅在“机器人”和“机器人页面”报表中可见。
 
-VISTA rules are applied after Bot Rules (see [Processing Order](../../../admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md#concept_8A6BBEA7F50C40C8A8D8755D4F579B1E)).
+VISTA rules are applied after Bot Rules (see [Processing Order).](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
 
 **高点击访问处理：**&#x200B;如果一次访问中出现 100 次以上的点击，则报表会确定访问时间（以秒为单位）是否小于或等于访问的点击次数。在这种情况下，由于长时间集中访问的处理成本原因，报表会重新开始一个新访问。高点击访问通常是由机器人攻击造成的，因此不视为正常的访客浏览。
 
 >[!NOTE]
 >
->标记为 *`bots`*[服务器调用](https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/overage-overview.html)的点击。
+>标记为的点 *`bots`* 击将计为服 [务器调用。](/help/admin/c-server-call-usage/overage-overview.md)
 
 ## Impact of IP Obfuscation on bot filtering {#section_92E60B95BE8940D983F28C79E0CD6B12}
 
