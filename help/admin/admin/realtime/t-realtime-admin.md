@@ -1,18 +1,18 @@
 ---
 description: 设置实时报表的管理步骤。
 seo-description: 设置实时报表的管理步骤。
-seo-title: 实时报告配置
+seo-title: 实时报表配置
 solution: Analytics
-title: 实时报告配置
+title: 实时报表配置
 topic: 管理工具
-uuid: f48692a0-77c0-74ee4-b3 ec-ea842 d06 ac8
+uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# 实时报告配置
+# 实时报表配置
 
 设置实时报表的管理步骤。
 
@@ -37,7 +37,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    ![](assets/real_time_admin.png)
 
-   For information on supported real-time metrics and dimensions, see [Supported Metrics and Dimensions](../../../admin/admin/realtime/realtime-metrics.md#concept_B86D8DF89AD448839332AD84B1DF2AE7).
+   有关支持的实时指标和维度的信息，请参 [阅支持的指标和维度](/help/admin/admin/realtime/realtime-metrics.md)。
 
    如果已创建了分类，则分类会缩进显示在其所定义的维度下。
 
@@ -45,13 +45,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    >[!NOTE]
    >
-   >对于单个实时报告，即使为每个维度选择了不同的分类，我们目前还不支持启用重复维度。
+   >对于单个实时报表，我们当前不支持启用重复维，即使为每个维选择了不同的分类也是如此。
 
-   For more information about classifications, see [About Classifications](/help/components/c-classifications2/c-classifications.md).
+   有关分类的详细信息，请参阅关 [于分类](/help/components/c-classifications2/c-classifications.md)。
 
    >[!NOTE]
    >
-   >某些维度(如“搜索关键字”或“产品”)不会像在Adobe Analytics中其他位置那样保留实时状态。当选择非持续量度时，会出现以下警告：
+   >某些维度（如“搜索关键字”或“产品”）不会像Adobe Analytics中的其他位置那样实时保留。 当选择非持续量度时，会出现以下警告：
 
    ![](assets/warning_dimensions.png)
 
