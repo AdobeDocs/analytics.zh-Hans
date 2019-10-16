@@ -8,7 +8,7 @@ title: 转化变量 (eVar)
 topic: 管理工具
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -33,7 +33,7 @@ eVar 最适合用于度量原因和影响，例如：
 
 ## 转化变量 - 描述 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
-Descriptions of fields used when [editing conversion variables](../../../admin/admin/conversion-var-admin/t-conversion-variables-admin.md#task_051920D9B3E24A00A28F32EEBBB0EF97).
+编辑转换变量时使用的 [字段的说明](/help/admin/admin/conversion-var-admin/t-conversion-variables-admin.md)。
 
 <table id="table_E48D50926E6B492183300CA58A886927"> 
  <thead> 
@@ -49,11 +49,11 @@ Descriptions of fields used when [editing conversion variables](../../../admin/a
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol">类型</span> </p> <p>（仅限 eVar） </p> </td> 
-   <td colname="col2"> <p>变量值类型： </p> <p> <b></b> Text String: Captures text values used on your site. </span>这是 eVar 最常见的类型，并且是默认设置。它与其他变量类似，其值是静态文本字符串。如果您要跟踪内部促销活动或内部搜索关键词等内容，则这是推荐的设置。 </p> <p> <b></b> 计数器</span>:计算成功事件之前执行操作的次数。 例如，如果使用 eVar 跟踪网站上的内部搜索，则将此值设置为<span class="uicontrol">文本字符串</span>以跟踪搜索词的使用。将此值设置为<span class="uicontrol">计数器</span>可累计搜索的次数，与使用的搜索词无关。例如，您可以使用计数器 eVar 来跟踪某人在进行购买前所用内部搜索的次数。 </p> </td> 
+   <td colname="col2"> <p>变量值类型： </p> <p> <b></b> 文本字符串</span>:捕获站点上使用的文本值。 这是 eVar 最常见的类型，并且是默认设置。它与其他变量类似，其值是静态文本字符串。如果您要跟踪内部促销活动或内部搜索关键词等内容，则这是推荐的设置。 </p> <p> <b></b> 计数器</span>:计算成功事件之前执行操作的次数。 例如，如果使用 eVar 跟踪网站上的内部搜索，则将此值设置为<span class="uicontrol">文本字符串</span>以跟踪搜索词的使用。将此值设置为<span class="uicontrol">计数器</span>可累计搜索的次数，与使用的搜索词无关。例如，您可以使用计数器 eVar 来跟踪某人在进行购买前所用内部搜索的次数。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 分配 </span> </p> </td> 
-   <td colname="col2"> <p>确定变量在成功事件之前收到多个值时，Analytics 如何分配事件的信用。支持的值包括： </p> <p> <b>最近</b>:最后一个eVar值始终接收成功事件的信用，直到该eVar过期。 </p> <p> <b>Original Value</b>: The first eVar always receives credit for success events until that eVar expires. </p> <p> <b> 线性</b>：在所有eVar值之间平均分配成功事件。 由于线性分配实际仅能在一次访问内分配值，所以应将线性分配与 eVar 访问过期结合使用。 </p> <p>注意：将分配切换至线性或从线性切换分配可防止显示历史数据。在报表界面中混合多种分配类型可导致在报表中错报数据。例如，线性分配可能会在大量不同的 eVar 值间划分收入。更改回最近分配后，100% 的收入都与最近单个值关联。这种关联可能会导致用户得出不正确的结论。 </p> <p>为避免在报表中可能产生混淆，Analytics 在界面中不显示历史数据。虽然您不该只是为了访问历史数据而更改 eVar 分配设置，但如果您确定要将给定的 eVar 更改回初始分配设置，则可以查看历史数据。已记录的数据需要新的分配设置时，Adobe 建议使用新的 eVar，而非更改已积累大量历史数据的 eVar 的分配设置。 </p> </td> 
+   <td colname="col2"> <p>确定变量在成功事件之前收到多个值时，Analytics 如何分配事件的信用。支持的值包括： </p> <p> <b>最近</b>:最后一个eVar值始终接收成功事件的信用，直到该eVar过期。 </p> <p> <b>原始值</b>:第一个eVar始终会收到成功事件的信用，直到该eVar过期。 </p> <p> <b> 线性</b>：在所有eVar值之间平均分配成功事件。 由于线性分配实际仅能在一次访问内分配值，所以应将线性分配与 eVar 访问过期结合使用。 </p> <p>注意：将分配切换至线性或从线性切换分配可防止显示历史数据。在报表界面中混合多种分配类型可导致在报表中错报数据。例如，线性分配可能会在大量不同的 eVar 值间划分收入。更改回最近分配后，100% 的收入都与最近单个值关联。这种关联可能会导致用户得出不正确的结论。 </p> <p>为避免在报表中可能产生混淆，Analytics 在界面中不显示历史数据。虽然您不该只是为了访问历史数据而更改 eVar 分配设置，但如果您确定要将给定的 eVar 更改回初始分配设置，则可以查看历史数据。已记录的数据需要新的分配设置时，Adobe 建议使用新的 eVar，而非更改已积累大量历史数据的 eVar 的分配设置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 过期时间</span> </p> </td> 
@@ -81,7 +81,7 @@ Descriptions of fields used when [editing conversion variables](../../../admin/a
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 状态</span> </p> <p>（仅限 eVar） </p> </td> 
-   <td colname="col2"> <p>定义 eVar 状态： </p> <p><b></b> 禁用</span>:禁用eVar。 从转化变量列表中删除 eVar。 </p> <p> <b></b> 无子关系</span>:防止您使用子关系划分eVar。 </p> <p> <b>Basic Subrelations: Lets you break down an eVar by any report with full subrelations (for example, Products or Campaign).</b></span> </p> </td> 
+   <td colname="col2"> <p>定义 eVar 状态： </p> <p><b></b> 禁用</span>:禁用eVar。 从转化变量列表中删除 eVar。 </p> <p> <b></b> 无子关系</span>:防止您使用子关系划分eVar。 </p> <p> <b>基本子关系</b>:允 </span>许您按具有完全子关系的任何报表（例如，产品或营销活动）划分eVar。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol">重置</span> </p> </td> 
