@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 处理规则
 title: 处理规则的工作原理
 topic: 管理工具
-uuid: 19c31f94-c8 d8-47b1-97fa-29ed98 c94 e87
+uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 translation-type: tm+mt
-source-git-commit: ad6ba22acf6996aa038c5a3252cae8bddbf0b36a
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: ad6ba22acf6996aa038c5a3252cae8bddbf0b36a
  <tbody> 
   <tr> 
    <td colname="col1"> <p>规则应用于单个报表包。 </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md#task_6E4B82FCA687409B88F17EAFC353755D" type="task" format="dita" scope="local"> 将处理规则复制到其他报表包 </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md" type="task" format="dita" scope="local"> 将处理规则复制到其他报表包 </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>处理规则按所列顺序依次应用。 </p> </td> 
@@ -41,15 +41,15 @@ source-git-commit: ad6ba22acf6996aa038c5a3252cae8bddbf0b36a
   </tr> 
   <tr> 
    <td colname="col1"> <p>处理规则在保存后将被立即应用于报表包。 </p> </td> 
-   <td colname="col2"> <p>来自处理规则的更改应在保存后的几分钟内在您的报表包中可见。在测试处理规则时，我们建议在您的测试报表包中配置<a href="../../../../admin/admin/realtime/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40" format="dita" scope="local"> 测试报告套件中的</a> 实时报告，以便您能够快速查看处理规则的结果。 </p> </td> 
+   <td colname="col2"> <p>来自处理规则的更改应在保存后的几分钟内在您的报表包中可见。在测试处理规则时，我们建议在您的测试报表包中配置 <a href="/help/admin/admin/realtime/t-realtime-admin.md" format="dita" scope="local"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>处理规则是访问上下文数据变量的唯一途径。 </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> 将上下文数据变量复制到eVar </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md" format="dita" scope="local"> 将上下文数据变量复制到eVar </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>处理规则先于 VISTA 规则和营销渠道规则应用。 </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md#concept_8A6BBEA7F50C40C8A8D8755D4F579B1E" type="concept" format="dita" scope="local"> 处理顺序 </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md" type="concept" format="dita" scope="local"> 处理顺序 </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>不能排除点击量。 </p> </td> 
@@ -64,7 +64,7 @@ source-git-commit: ad6ba22acf6996aa038c5a3252cae8bddbf0b36a
    <td colname="col2"> <p>移动设备查找先于处理规则发生，但属性在处理规则中不可用。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>如果您运行的是 JavaScript AppMeasurement H.25.2 或更早版本，则无法读取查询字符串参数中的 URL 前 255 个字符以外的内容。JavaScript AppMeasurement H.25.3及更高版本提供完整的URL，包括处理规则的所有查询字符串参数。 </p> </td> 
+   <td colname="col1"> <p>如果您运行的是 JavaScript AppMeasurement H.25.2 或更早版本，则无法读取查询字符串参数中的 URL 前 255 个字符以外的内容。JavaScript appMeasurement H.25.3及更高版本为处理规则提供完整URL，包括所有查询字符串参数。 </p> </td> 
    <td colname="col2"> <p>升级到 H.25.3 或更高版本，或者读取来自长 URL 客户端的查询字符串参数，并将值存储在上下文数据变量中。 </p> </td> 
   </tr> 
   <tr> 
@@ -81,11 +81,11 @@ source-git-commit: ad6ba22acf6996aa038c5a3252cae8bddbf0b36a
   </tr> 
   <tr> 
    <td colname="col1"> <p>在 UI 中的值比较区分大小写。 </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md#concept_958E924BCCBB4BBA91CE91C977FE5151" type="concept" format="dita" scope="local">清除报表中的值</a>。 </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md" type="concept" format="dita" scope="local">清除报表中的值</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>上下文数据变量名称只能包含字母数字字符、下划线和点。任何其他字符都会被去除。 </p> </td> 
-   <td colname="col2"> <p>例如，上下文数据变量 <code>login_page-home</code> 会自动变为 <code>login_pagehome</code>。发送给 <code>login_page-home</code> 变量的所有数据都会被分配在 <code>login_pagehome</code> 下面。 </p> <p>包含不受支持字符的上下文数据变量无法添加到“处理规则”界面中。 </p> </td> 
+   <td colname="col2"> <p>For example, The context data variable <code> login_page-home</code> automatically becomes <code> login_pagehome</code>. All data sent to the <code> login_page-home</code> variable is allocated under <code> login_pagehome</code>. </p> <p>包含不受支持字符的上下文数据变量无法添加到“处理规则”界面中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>插入符号 (^) 在处理规则系统中是特殊字符。 </p> </td> 
