@@ -5,7 +5,7 @@ seo-title: ID 扩展
 title: ID 扩展
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
 "expandIds": true
 ```
 
-有关如何在请求中包含此选项的示例，请参阅 [JSON 请求示例](/help/admin/c-data-governance/gdpr-submit-access-delete.md#section_DB9DE6492FE740918F91D413E7BAB88F)。For more details, refer to the [Privacy Service API documentation.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
+有关如何在请求中包含此选项的示例，请参阅 [JSON 请求示例](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request)。For more details, refer to the [Privacy Service API documentation.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
@@ -50,13 +50,13 @@ Adobe 在执行 ID 扩展时，可能需要进行额外的完整数据扫描，�
 除了“expandIDs”标记外，Analytics还支持另外两个标记，这些标记可以作为数据隐私请求的一部分传递。 这些标记的默认值为：
 
 ```
-"analyticsDeleteMethod": “anonymize”
-“priority”: “normal”
+"analyticsDeleteMethod": "anonymize"
+"priority": "normal"
 ```
 
-将来，除了默认值“anonymize”之外，“analyticsDeleteMethod”还可能支持“purge”值。如果支持此值，它将会导致整个点击被删除，而不是简单地更新具有 DEL 标签的点击字段的值。
+将来，“analyticsDeleteMethod”除了默认值“anonymize”之外，还可能支持“purge”值。 如果支持此值，它将会导致整个点击被删除，而不是简单地更新具有 DEL 标签的点击字段的值。
 
-除默认值外，优先级字段还支持“low”值。您应该为数据主体请求以外的请求指定此值，这样便没有了必须在 30 天内完成的法律要求。请注意，Adobe不鼓励出于数据主体发起的请求以外的原因使用隐私服务API。 隐私服务API不是用于数据清理或修复的适当工具，并且会产生意外后果。
+除了默认值之外，优先级字段还支持“low”值。 您应该为数据主体请求以外的请求指定此值，这样便没有了必须在 30 天内完成的法律要求。请注意，Adobe不鼓励出于数据主体发起的请求以外的原因使用隐私服务API。 隐私服务API不是用于数据清理或修复的适当工具，并且会产生意外后果。
 
 [!NOTE]
 已 [经提供Privacy Service API](https://www.adobe.io/apis/experienceplatform/gdpr.html) ，以帮助您完成数据隐私请求，这些请求是时间敏感的。 Adobe不支持将此API用于其他用途，并可能会影响Adobe为其他Adobe客户及时提供高优先级、由用户发起的数据隐私请求的能力。 我们要求您不要将Privacy Service API用于其他用途，如清除意外跨大量访客提交的数据。
