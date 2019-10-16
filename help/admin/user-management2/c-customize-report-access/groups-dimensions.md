@@ -7,9 +7,9 @@ solution: Analytics
 subtopic: 用户和用户组
 title: 自定义维度权限
 topic: 管理工具
-uuid: aafa164ad-3863-4129-864e-39ec71c6a8eb
+uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -22,11 +22,11 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
 
 在粒度级别自定义用户访问权限，包括 eVar、流量报表、解决方案报表和路径报表。
 
-**[!UICONTROL “用户管理”]** &gt; **[!UICONTROL “组]** ”&gt; **[!UICONTROL “报告访问权限]** ”&gt; **[!UICONTROL “维度]** ”&gt; **[!UICONTROL “自定义”]**
+**[!UICONTROL “用户管理”]** &gt;“ **[!UICONTROL 组]** ”&gt;“报 **[!UICONTROL 告访问”]** &gt;“维度 **[!UICONTROL ”&gt;“自定义]****[!UICONTROL ”]**
 
 >[!IMPORTANT]
 >
->此时某些维度不可授予权限。这些维度包括：移动书签长度；移动设备编号；移动 DRM；移动信息服务；移动 Java 虚拟机；移动邮件装饰；移动网络协议；移动操作系统；移动一键通。
+>某些维此时不可授权。 这些维度包括：移动书签长度；移动设备编号；移动 DRM；移动信息服务；移动 Java 虚拟机；移动邮件装饰；移动网络协议；移动操作系统；移动一键通。
 >
 >无论其他权限如何，这些维度可供所有用户使用。
 
@@ -38,7 +38,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
 
 * eVar 1 至 250 是单独授权的。
 * 所有流量报表都属于维度类别。
-* 视频和移动报告是维度以及其他Analytics解决方案报告(Experience Manager、Advertising Cloud、Social和on on.)
+* 视频和移动报告是维度，也是其他Analytics解决方案报告（Experience Manager、Advertising Cloud、Social等）。
 * 如果用户拥有父维度的访问权限，则路径报表将可用。
 * 自定义群组内的所有当前维度和量度均已自动迁移到新类别。如果现有的群组启用了量度，则默认情况下将为其提供所有新增的许可维度（eVar 和内容识别）和量度。
 * 分类导入器（前身为 SAINT）权限：分类的访问权限取决于对此分类所依据的[变量](https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html)的访问权限。
@@ -58,7 +58,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../admin/admin/conversion-var-admin/conversion-var-admin.md#concept_C02F7AA01DE242F1AA1A4E74022BE9DE" format="dita" scope="local"> eVar </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/admin/admin/conversion-var-admin/conversion-var-admin.md" format="dita" scope="local"> eVar </a> </p> </td> 
    <td colname="col2"> <p>eVar 1 至 250 是单独授权的。eVar 是自定义转化变量，可用来对自定义报表中的转化成功量度进行分段。 </p> </td> 
   </tr> 
   <tr> 
@@ -75,7 +75,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
   </tr> 
   <tr> 
    <td colname="col1"> <p>标准 </p> </td> 
-   <td colname="col2"> <p>指 Analytics 中的标准(现成) Analytics中的维度。 </p> </td> 
+   <td colname="col2"> <p>指 Analytics 中的标准 （现成）维度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/em/" format="https" scope="external"> AEM </a> </p> </td> 
@@ -90,7 +90,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
    <td colname="col2"> <p> Activity Map 报表维度：Activity Map 页面；Activity Map 链接；Activity Map 地区；按地区划分的 Activity Map 链接；Activity Map XY </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/" format="https" scope="external"> Mobile </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/" format="https" scope="external"> 移动设备 </a> </p> </td> 
    <td colname="col2"> <p>Adobe Mobile Services </p> </td> 
   </tr> 
   <tr> 
