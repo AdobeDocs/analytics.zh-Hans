@@ -5,7 +5,7 @@ seo-title: 为报表包数据设置标签
 title: 为报表包数据设置标签
 uuid: a694851c-8933-496e-9118-113cc38cba8a
 translation-type: tm+mt
-source-git-commit: 5bf8f8922abd81bd2edde338e19c6dd6c8369bbf
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: 5bf8f8922abd81bd2edde338e19c6dd6c8369bbf
 
    ![](assets/edit.png)
 
-1. 此时，**身份数据**&#x200B;标签对话框会自动打开。这些标签对数据进行分类，可单独使用，也可与其他数据结合使用，以识别个人或能够用来与个人直接联系。For more information on these options, refer to [Identity Data Labels (DULE).](/help/admin/c-data-governance/gdpr-labels.md#section_B2E78130957647338495EF37DE21D6BC)
+1. 此时，**身份数据**&#x200B;标签对话框会自动打开。这些标签对数据进行分类，可单独使用，也可与其他数据结合使用，以识别个人或能够用来与个人直接联系。For more information on these options, refer to [Identity Data Labels (DULE).](/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels)
 
    >[!NOTE]
    >
@@ -53,11 +53,11 @@ source-git-commit: 5bf8f8922abd81bd2edde338e19c6dd6c8369bbf
 
    ![](assets/identity_labels.png)
 
-1. 打开&#x200B;**敏感数据**&#x200B;部分，以设置敏感数据标签，它可以对地理位置数据进行分类。For more information on these options, refer to [Sensitive Data Labels (DULE).](/help/admin/c-data-governance/gdpr-labels.md#section_533E1406F3F24A01B51D94139B94CAEC)
+1. 打开&#x200B;**敏感数据**&#x200B;部分，以设置敏感数据标签，它可以对地理位置数据进行分类。For more information on these options, refer to [Sensitive Data Labels (DULE).](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)
 
    ![](assets/sensitive_data.png)
 
-1. Open the Data Privacy Data section to set **Data Governance** Labels. 使用本节指导Adobe如何处理数据隐私访问和删除请求的每个变量，以及定义应扫描哪些变量以查找这些请求的数据主体ID。 For more information on these options, refer to [Data Governance Labels (Data Privacy).](/help/admin/c-data-governance/gdpr-labels.md#section_0C7F9EC4BB414A6D915C69F1D3259F1B)
+1. Open the Data Privacy Data section to set **Data Governance** Labels. 使用本节指导Adobe如何处理数据隐私访问和删除请求的每个变量，以及定义应扫描哪些变量以查找这些请求的数据主体ID。 For more information on these options, refer to [Data Governance Labels (Data Privacy).](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)
 
    ![](assets/privacy_labels.png)
 
