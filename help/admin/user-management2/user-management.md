@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 用户和用户组
 title: 用户和产品管理
 topic: 管理工具
-uuid: 891a8cb3-b77 d-46f6-ab23-cbed49 f215 b5
+uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -68,7 +68,7 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 添加新用户</span> </td> 
-   <td colname="col2"> <p>可向公司添加用户帐户。此链接仅在剩余登录用户数量大于 0 时才可用。 </p> <p>请参阅 <a href="../../admin/user-management2/c-user-management/users.md#concept_3B50D355B0AA48A58CFAB671CE3F82F4" format="dita" scope="local"> 用户</a>. </p> </td> 
+   <td colname="col2"> <p>可向公司添加用户帐户。此链接仅在剩余登录用户数量大于 0 时才可用。 </p> <p>请参阅 <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> 用户</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 下载报表</span> </td> 
@@ -76,7 +76,7 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 登录</span> </td> 
-   <td colname="col2"> <p>用户名。您可以单击用户名以编辑用户帐户属性。 </p> <p>请参阅 <a href="../../admin/user-management2/c-user-management/users.md#concept_3B50D355B0AA48A58CFAB671CE3F82F4" format="dita" scope="local"> 用户</a>. </p> </td> 
+   <td colname="col2"> <p>用户名。您可以单击用户名以编辑用户帐户属性。 </p> <p>请参阅 <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> 用户</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 名字</span> </td> 
@@ -112,7 +112,7 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 编辑</span> </td> 
-   <td colname="col2"> <p>编辑用户帐户设置。 </p> <p>请参阅 <a href="../../admin/user-management2/c-user-management/users.md#concept_3B50D355B0AA48A58CFAB671CE3F82F4" format="dita" scope="local"> 用户</a>. </p> </td> 
+   <td colname="col2"> <p>编辑用户帐户设置。 </p> <p>请参阅 <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> 用户</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 删除</span> </td> 
@@ -120,7 +120,7 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 转移</span> </td> 
-   <td colname="col2">将一个用户帐户的权利（包括各种权限和资源访问权）分配给另一用户帐户。 <p>请参阅 <a href="../../admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md#task_A17A57DB5B114E869ABB1768F7910092" format="dita" scope="local"> 转移用户帐户特权</a>. </p> </td> 
+   <td colname="col2">将一个用户帐户的权利（包括各种权限和资源访问权）分配给另一用户帐户。 <p>请参阅 <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md" format="dita" scope="local"> 转移用户帐户特权</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> 以此用户身份登录</span> </td> 
