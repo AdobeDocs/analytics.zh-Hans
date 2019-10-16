@@ -1,19 +1,19 @@
 ---
 description: “定义用户群组”页面上的元素描述。
 seo-description: “定义用户群组”页面上的元素描述。
-seo-title: 用户组设置
+seo-title: 用户群组设置
 solution: Analytics
 subtopic: 用户和用户组
-title: 用户组设置
+title: 用户群组设置
 topic: 管理工具
-uuid: b411032a-7d56-44fd-b676-abee4 af756 f9
+uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 826a86d9fcae7922be13fb8cc632af39ed4f5b9b
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# 用户组设置(传统)
+# 用户组设置（旧版）
 
 >[!IMPORTANT]
 >
@@ -21,7 +21,7 @@ source-git-commit: 826a86d9fcae7922be13fb8cc632af39ed4f5b9b
 
 “定义用户群组”页面上的元素描述。
 
-**[!UICONTROL 管理员]** &gt; **[!UICONTROL 用户管理]** &gt; **[!UICONTROL 组]** &gt; **[!UICONTROL 添加新用户组]**
+**[!UICONTROL 管理员]** &gt;用 **[!UICONTROL 户管理]** &gt; **[!UICONTROL 组]** &gt;添 **[!UICONTROL 加新用户组]**
 
 <table id="table_85E9EBF7984545C780631D6C2090BD99"> 
  <thead> 
@@ -63,7 +63,7 @@ source-git-commit: 826a86d9fcae7922be13fb8cc632af39ed4f5b9b
     <draft-comment> 
      <p> 
       <ul id="ul_81ABB1701BEC44ECB548F98EB818F83B"> 
-       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>流量报告</b>：授予对所有基于流量的报告的访问权限，如页面查看、访问和独特访客。 </li> 
+       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>流量报告</b>:根据流量（如页面查看、访问和唯一访客）授予对所有报告的访问权限。 </li> 
        <li id="li_2742B7A661FC45F496DFFBBB6CE675DE"><b>工具</b>（授予对“报告与分析”中所用工具的访问权限，这些工具包括“按 IP 排除”、“分类”和旧版 Clickmap 等。） </li> 
        <li id="li_88D54C31211B4A38B46FF64651718865"><b>视频和移动设备报表</b> </li> 
        <li id="li_DBC756832B52433DA6467EA8AEC02DBA"><b>路径报表</b>（授予对路径报表的访问权限，这些报表包括“下一页”、“流失”和“页面逗留时间”等。） </li> 
@@ -95,10 +95,10 @@ source-git-commit: 826a86d9fcae7922be13fb8cc632af39ed4f5b9b
      </ul> </p> </td> 
    <td colname="col2"> <p>群组成员可以访问报表群组中的部分报表。单击<span class="uicontrol">自定义</span>可打开一个页面，您可以通过该页面选择群组成员能够访问的报表群组中的特定报表。 </p> 
     <ul id="ul_16D5EF18D57D4608AEEDEC40D90D8828"> 
-     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="../../../admin/user-management2/c-customize-report-access/groups-analytics-tools.md#concept_C4383A6C0F5E4130875FDD3756F2E2FC" format="dita" scope="local">Analytics 工具</a>：启用常规项目（帐单、日志等）、公司管理、工具、Web 服务访问、Report Builder 和 Data Connectors 集成的用户权限。 </li> 
-     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="../../../admin/user-management2/c-customize-report-access/groups-report-suite-tools.md#concept_C94E9864349B428AB9CCE0CA4B0A40FF" format="dita" scope="local">报表包工具</a>：启用 API 访问、报表包管理、工具和报表及功能板项目的用户权限。 </li> 
-     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="../../../admin/user-management2/c-customize-report-access/groups-metrics.md#concept_05D54436430E4320A48C7C685D337FBE" format="dita" scope="local">量度</a>：启用流量、转化、自定义事件、解决方案事件和内容识别等的权限。 </li> 
-     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="../../../admin/user-management2/c-customize-report-access/groups-dimensions.md#concept_68B36161345341369B6D01DC7DD42A22" format="dita" scope="local">维度</a>：在粒度级别自定义用户访问权限，包括 eVar、流量报表、解决方案报表和路径报表。 </li> 
+     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md" format="dita" scope="local">Analytics 工具</a>：启用常规项目（帐单、日志等）、公司管理、工具、Web 服务访问、Report Builder 和 Data Connectors 集成的用户权限。 </li> 
+     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md" format="dita" scope="local">报表包工具</a>：启用 API 访问、报表包管理、工具和报表及功能板项目的用户权限。 </li> 
+     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md" format="dita" scope="local">量度</a>：启用流量、转化、自定义事件、解决方案事件和内容识别等的权限。 </li> 
+     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md" format="dita" scope="local">维度</a>：在粒度级别自定义用户访问权限，包括 eVar、流量报表、解决方案报表和路径报表。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
