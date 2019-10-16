@@ -5,9 +5,9 @@ seo-title: Web 服务
 solution: Analytics
 title: Web 服务
 topic: 管理工具
-uuid: caqua04cf-f58 c-490e-baaa-ee04 c534 b28 d
+uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
 translation-type: tm+mt
-source-git-commit: a1213919de61a72c06ec5518e72a714c76c6859f
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -16,15 +16,15 @@ source-git-commit: a1213919de61a72c06ec5518e72a714c76c6859f
 
 Web 服务 API 可通过编程方式访问市场营销报告及其他“包”服务，从而让您以其他方式使用通过 Analytics 界面提供的功能，以及实现更多功能。
 
-**[!UICONTROL “分析]** ”&gt;“ **[!UICONTROL 管理员]** ”&gt;“ **[!UICONTROL 公司设置]** ”&gt; **[!UICONTROL “Web服务”]**
+**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理员]** &gt;公司 **[!UICONTROL 设置]** &gt; **[!UICONTROL Web服务]**
 
 ## 管理 Web 服务
 
-在“用户管理”&gt;[“群组”](../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F)中，您可以更新 Web 服务访问群组，以包括那些需要访问 Web 服务 API 的用户。
+在“用户管理”&gt;[“群组”](/help/admin/user-management2/c-user-groups/groups.md)中，您可以更新 Web 服务访问群组，以包括那些需要访问 Web 服务 API 的用户。
 
 ## WSDL：为 Web 服务开发人员下载 Web 服务 API WSDL。
 
-Visit [Adobe I/O](https://www.adobe.io/apis/experiencecloud/analytics.html), which provides documentation, sample code, and forums related to the Web Services APIs. 有关更多信息，请单击 Web 服务 API 概述。
+访 [问Adobe I/O](https://www.adobe.io/apis/experiencecloud/analytics.html)，它提供与Web服务API相关的文档、示例代码和论坛。 有关更多信息，请单击 Web 服务 API 概述。
 
 ## 筛选选项
 
