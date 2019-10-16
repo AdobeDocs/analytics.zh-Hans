@@ -5,7 +5,7 @@ seo-title: 为 Enterprise ID 和 Federated ID 迁移 Analytics 用户帐户
 title: 为 Enterprise ID 和 Federated ID 迁移 Analytics 用户帐户
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
 
 如何将 Analytics 用户帐户作为 Enterprise ID 或 Federated ID 迁移到 Admin Console。
 
-## 先决条件 {#concept-e60d8deb3fc54a1a81f1f47a26658de3}
+## 先决条件 {#prereqs}
 
 在 Admin Console 中管理用户的先决条件
 
@@ -91,7 +91,7 @@ source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
 
       ![](assets/download-csv-template.png)
 
-1. Copy the , , and  column values from  to the corresponding columns in the  template.*`Email`**`First Name`**`Last Name`*[!DNL User Logins List.tab][!DNL sample.csv]
+1. 将 *`Email`*、 *`First Name`*&#x200B;和 *`Last Name`* 列值从复制 [!DNL User Logins List.tab] 到模板中的相应 [!DNL sample.csv] 列。
 
    **模板文件示例**
 
@@ -121,11 +121,11 @@ source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
   </tr> 
   <tr> 
    <td colname="col1"> <p>身份类型 </p> </td> 
-   <td colname="col2"> <p><span class="term"> Federated ID or  Enterprise ID.</span><span class="term"></span> </p> </td> 
+   <td colname="col2"> <p><span class="term"> Federated ID或</span> Enterprise ID <span class="term"></span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>域 </p> </td> 
-   <td colname="col2"> <p>确保 域 <span class="term"> 和电子邮件</span> (Email <span class="term"> )列与在先决条件中建立的域相</span> 匹配 <a href="../c-migration-tool/migrate-enterprise.md#concept-e60d8deb3fc54a1a81f1f47a26658de3" format="dita" scope="local"></a>。 </p> </td> 
+   <td colname="col2"> <p>确保 域 <span class="term"> 和电子邮件</span> (Email <span class="term"> )列与在先决条件中建立的域相</span> 匹配 <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md#prereqs" format="dita" scope="local"></a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>国家/地区代码 </p> </td> 
@@ -140,8 +140,8 @@ For more information about the fields in the [!DNL .csv] file, see [CSV file for
 >
 >其他列，如 *`Product Configurations`* 和 *`Admin Roles`* 可为空。
 
-1. On the Users tab in the Admin Console, upload the template file by clicking **[!UICONTROL Add users by CSV]** (as shown in [Step 3](../c-migration-tool/migrate-enterprise.md#step-190321c6025947e38b195daed122c063).).
-1. 在Analytics中，运行迁移工具(如迁移 [Analytics用户帐户中所述](../c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9))。
+1. On the Users tab in the Admin Console, upload the template file by clicking **[!UICONTROL Add users by CSV]** (as shown in Step 3.).
+1. 在Analytics中，运行迁移工具(如迁移 [Analytics用户帐户中所述](/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9))。
 1. Click **[!UICONTROL Migrate]** &gt; **[!UICONTROL Migrate as Enterprise IDs]**.
 
    ![步骤信息](assets/migrate-as-enterprise.png)
