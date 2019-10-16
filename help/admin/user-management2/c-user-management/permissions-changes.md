@@ -9,7 +9,7 @@ title: 用户和群组权限更改
 topic: 管理工具
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 60305dce752362a2e9d871673a550629e4460a46
 
 ---
 
@@ -59,7 +59,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
      <li id="li_F718FE1FCF9A4B05AB933CA3F105F3EC">异常检测报表权限 </li> 
      <li id="li_527BD52007E846FE8B5F71AB3C12F695">实时报表权限 </li> 
      <li id="li_AFFB58C7FB644AC8A85E2D76BA7D51F5">Analysis Workspace 访问权限 </li> 
-    </ul> <p>管理员可以删除自定义群组并创建他们自己的群组，因为之前在预定义群组中提供的所有设置都可以在“<span class="wintitle">定义用户群组</span>”中的“<a href="help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local">报表访问</a>”设置下进行自定义。 </p> </td> 
+    </ul> <p>管理员可以删除自定义群组并创建他们自己的群组，因为之前在预定义群组中提供的所有设置都可以在“<span class="wintitle">定义用户群组</span>”中的“<a href="/help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local">报表访问</a>”设置下进行自定义。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>维度级别权限 </p> </td> 
