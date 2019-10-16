@@ -5,7 +5,7 @@ seo-title: GDPR 术语
 title: GDPR 术语
 uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -52,13 +52,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **企业集团** - 一家控股企业以及由其控股的企业
 
-**身份管理服务 (IMS)** - Adobe 对 Federated ID 和 OAuth 2.0 的实施，用于对 Adobe ID 用户进行身份验证和授权 Adobe 资源。您必须将 IMS 与 Adobe 应用程序或服务相集成，用户才能登录并访问 Adobe 服务。用户可以直接使用 Renga（Adobe 的身份服务提供程序）登录，也可以通过受信任的第三方身份验证域（如 Google、Facebook 或企业/组织 LDAP）登录。
+**标识管理服务(IMS)** - adobe实施Federated ID和OAuth 2.0，用于验证Adobe ID用户和授权Adobe资源。 您必须将 IMS 与 Adobe 应用程序或服务相集成，用户才能登录并访问 Adobe 服务。用户可以直接使用Renga（Adobe的标识服务提供商）登录，或通过受信任的第三方身份验证域（如Google、Facebook或公司／组织LDAP）登录。
 
-**Experience Cloud 组织 ID** - 一种 Adobe 授权令牌，用于服务到服务身份验证，无需用户登录。它颁发给 IMS 客户端，并且没有关联的用户。IMS 客户端需要使用服务令牌来为服务之间的反向通道请求提供授权。（术语“系统令牌”有时用于表示服务令牌。）
+**Experience Cloud 组织 ID** - 一种 Adobe 授权令牌，用于服务到服务身份验证，无需用户登录。它颁发给 IMS 客户端，并且没有关联的用户。IMS 客户端需要使用服务令牌来为服务之间的反向通道请求提供授权。（术语“系统令牌”偶尔用于表示服务令牌。）
 
 **主营业机构** - 欧盟内部围绕数据处理进行主要决策的地方；就处理者而言
 
-**个人数据** - 任何与自然人或“数据主体”相关的信息，可用于直接或间接识别人员
+**个人数据** -任何与自然人或“数据主体”相关的信息，可用于直接或间接识别该人
 
 **个人数据违规** - 违反安全规定，导致对个人数据进行意外或非法访问、破坏或滥用等
 
