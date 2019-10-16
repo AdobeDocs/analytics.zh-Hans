@@ -8,7 +8,7 @@ title: 创建处理规则
 topic: 管理工具
 uuid: fd92e6c9-8ef0-4604-8fd4-4225527b4fa9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -30,4 +30,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    如果有多个规则，请将它们拖放到页面上以更改处理顺序。
 
-   有关您可以创建的规则种类的信息，请参阅[处理规则示例](../../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md#concept_92527719A66849058108300DAE8A506B)。
+   有关您可以创建的规则种类的信息，请参阅[处理规则示例](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md)。
