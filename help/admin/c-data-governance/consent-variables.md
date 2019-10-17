@@ -1,24 +1,24 @@
 ---
-description: 数据隐私中用于同意管理的变量。
-seo-description: 数据隐私中用于同意管理的变量。
-seo-title: 同意管理变量
+description: 数据隐私中用于隐私报告的变量。
+seo-description: 数据隐私中用于隐私报告的变量。
+seo-title: 隐私报告变量
 solution: Analytics
-title: 同意管理变量
+title: 隐私报告变量
 topic: 管理工具
 translation-type: tm+mt
-source-git-commit: 69f7ab75d95373754c0f4285c9d688d1c7d12322
+source-git-commit: 4d3577cc87b95da41275552efe7fc70bcc23e023
 
 ---
 
 
-# 同意管理变量
+# 隐私报告变量
 
 为了在管理隐私数据方面提供额外的帮助，一组保留变量可与特定上下文数据变量一起使用。
-这些同意管理变量提供了一个易于使用的框架，用于捕获每次分析点击的同意状态。
+这些隐私权报告变量提供了一个易于使用的框架，用于捕获每次分析点击的隐私权状态。
 
 ## 变量
 
-* 同意管理选择禁用
+* 同意管理选择退出
    * 保留变量：列表属性
    * 类型：逗号分隔的字符串
    * 包含:
@@ -26,7 +26,7 @@ source-git-commit: 69f7ab75d95373754c0f4285c9d688d1c7d12322
       * `contextData.['opt.dmp']=N` 显示为DMP
       * `contextData.['opt.sell']=N` 显示为销售
 
-* 同意管理选择启用
+* 同意管理选择加入
    * 保留变量：列表属性
    * 类型：逗号分隔的字符串
    * 包含:
@@ -35,7 +35,7 @@ source-git-commit: 69f7ab75d95373754c0f4285c9d688d1c7d12322
 
 ## 报表
 
-您可以通过Analytics Admin Console中提供的新隐私设置启用同意管理变量。
+您可以通过Analytics管理控制台中提供的新隐私设置启用隐私报告变量。
 
 可以按如下方式配置每个报表包：
 1. In Reports &amp; Analytics click **[!UICONTROL Admin &gt; Report Suites.]**
@@ -57,7 +57,7 @@ source-git-commit: 69f7ab75d95373754c0f4285c9d688d1c7d12322
 
 ## 实施
 
-已预定义三个上下文数据变量以与同意管理保留变量一起使用。  每位实施工程师都需要确定如何管理和保留这些变量的设置。
+已预定义三个上下文数据变量以与隐私报告管理保留变量一起使用。  每位实施工程师都需要确定如何管理和保留这些变量的设置。
 
 有关实 [施上下文数据变量的一般指导](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) ，请参阅上下文数据变量。
 
