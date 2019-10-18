@@ -1,20 +1,20 @@
 ---
-description: 在 Activity Map 或旧版 ClickMap 中，停止链接跟踪的步骤。
-seo-description: 在 Activity Map 或旧版 ClickMap 中，停止链接跟踪的步骤。
+description: 在[!DNL Activity Map]或旧版ClickMap中停止链接跟踪的步骤。
+seo-description: 在[!DNL Activity Map]或旧版ClickMap中停止链接跟踪的步骤。
 seo-title: 停止链接跟踪
 solution: Analytics
 title: 停止链接跟踪
 topic: Activity Map
-uuid: e17fb7bd-d6 ed-45c3-a006-9150d5718 cff
+uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
 # 停止链接跟踪
 
-在 Activity Map 或旧版 ClickMap 中，停止链接跟踪的步骤。
+Steps for stopping link tracking in [!DNL Activity Map] or Legacy ClickMap.
 
 <table id="table_1745199B3105467CBA26F50B3B1CCE99"> 
  <thead> 
@@ -25,14 +25,20 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Activity Map </td> 
-   <td colname="col2"> 从 Appmeasurement.js 文件删除以下内容：<code>/*起始活动地图模块下一模块在Adobe Analytics中启用活动地图跟踪。活动地图允许您查看链接和内容上的数据叠加，以了解用户如何与您的网站互动。如果您不打算使用Activity Map，则可以从AppMeasurement. js文件中删除以下代码块。
-  Additional documentation on how to configure Activity Map is available at:
-      https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/getting-started-admins.html
+   <td colname="col1"> [!DNL活动图] </td> 
+   <td colname="col2"> Remove the following content from the Appmeasurement.js file: 
+    <code>
+     /*
+     &nbsp;START&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;The&nbsp;following&nbsp;module&nbsp;enables&nbsp;Activity&nbsp;Map&nbsp;tracking&nbsp;in&nbsp;Adobe&nbsp;Analytics.&nbsp;Activity&nbsp;Map
+     &nbsp;allows&nbsp;you&nbsp;to&nbsp;view&nbsp;data&nbsp;overlays&nbsp;on&nbsp;your&nbsp;links&nbsp;and&nbsp;content&nbsp;to&nbsp;understand&nbsp;how
+     &nbsp;users&nbsp;engage&nbsp;with&nbsp;your&nbsp;web&nbsp;site.&nbsp;If&nbsp;you&nbsp;do&nbsp;not&nbsp;intend&nbsp;to&nbsp;use&nbsp;Activity&nbsp;Map,&nbsp;you
+     &nbsp;can&nbsp;remove&nbsp;the&nbsp;following&nbsp;block&nbsp;of&nbsp;code&nbsp;from&nbsp;your&nbsp;AppMeasurement.js&nbsp;file.
+     &nbsp;Additional&nbsp;documentation&nbsp;on&nbsp;how&nbsp;to&nbsp;configure&nbsp;Activity&nbsp;Map&nbsp;is&nbsp;available&nbsp;at:
+     &nbsp;https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/getting-started-admins.html
      */
-     function AppMeasurement_Module_Activity Map(g){func
+     function&nbsp;AppMeasurement_Module_Activity&nbsp;Map(g){func
      ...
-     /* END Activity Map MODULE */
+     /*&nbsp;END&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;*/
     </code> </td> 
   </tr> 
   <tr> 
