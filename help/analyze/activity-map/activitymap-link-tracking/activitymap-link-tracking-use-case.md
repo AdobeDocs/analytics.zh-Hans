@@ -1,22 +1,22 @@
 ---
 description: 您可以通过以下方式区分链接：使用 s_objectID 变量来自定义链接 ID；自定义区域；以及自定义 AppMeasurement ActivityMap 模块文件。
 seo-description: 您可以通过以下方式区分链接：使用 s_objectID 变量来自定义链接 ID；自定义区域；以及自定义 AppMeasurement ActivityMap 模块文件。
-seo-title: 区分引用相同链接ID和区域的链接
+seo-title: 区分引用相同链接 ID 和区域的多个链接
 solution: Analytics
-title: 区分引用相同链接ID和区域的链接
+title: 区分引用相同链接 ID 和区域的多个链接
 topic: Activity Map
-uuid: f2da0cda-a33 b-4a12-8d99-1f58386 d6 d30
+uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 translation-type: tm+mt
-source-git-commit: 4f313ae50c4d5a0f3bfec493c2d554bc8614aeef
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# 区分引用相同链接ID和区域的链接
+# 区分引用相同链接 ID 和区域的多个链接
 
 您可以通过以下方式区分链接：使用 s_objectID 变量来自定义链接 ID；自定义区域；以及自定义 AppMeasurement ActivityMap 模块文件。
 
-例如，假设您拥有多个“购买”链接，且这些链接被 Activity Map 确认为属于同一个链接 ID 和区域：
+As an example, let's say you have multiple "Buy" links that are identified by [!DNL Activity Map] under the same Link ID and Region:
 
 <table id="table_3020E2C0175D455C84E794CF51BE5A93"> 
  <thead> 
@@ -29,17 +29,18 @@ source-git-commit: 4f313ae50c4d5a0f3bfec493c2d554bc8614aeef
  <tbody> 
   <tr> 
    <td colname="col1"> 
-    <code>&lt; div id=“推荐面板”&gt;
-&lt; div&gt;
-&lt; a href="product1.html"&gt;购买&lt;/a&gt;
-&lt;/div&gt;
-&lt; div&gt;
-&lt; a href="product2.html"&gt;购买&lt;/a&gt;
-&lt;/div&gt;
-&lt; div&gt;
-&lt; a href="product3.html"&gt;购买&lt;/a&gt;
-&lt;/div&gt; </code>
-  </td> 
+    <code>
+      &lt;div&nbsp;id="recommendation&nbsp;panel"&gt; 
+     &nbsp;&nbsp;&lt;div&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product1.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+     &nbsp;&nbsp;&lt;div&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product2.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+     &nbsp;&lt;div&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+    </code> </td> 
    <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>购买 <p> </p> <p> </p> <p>购买 </p> <p> </p> <p> </p> <p>购买 </p> </td> 
    <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>推荐面板 <p> </p> <p> </p> <p>推荐面板 </p> <p> </p> <p> </p> <p>推荐面板 </p> </td> 
   </tr> 
@@ -50,11 +51,11 @@ source-git-commit: 4f313ae50c4d5a0f3bfec493c2d554bc8614aeef
 
 ## 使用 s_objectID 来自定义链接 ID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-通过为链接或页面上的链接位置创建唯一对象 ID，您可以改善 Activity Map 跟踪功能，或使用 Activity Map（而非链接 URL）来报告链接的类型或位置。单击[此处](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html)，以了解有关 s_objectID 变量的更多信息。
+通过为链接或页面的链接位置创建唯一对象 ID，可改善 [!DNL Activity Map] 跟踪或使用 [!DNL Activity Map] 报告链接类型或位置，而非链接 URL。单击[此处](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html)，以了解有关 s_objectID 变量的更多信息。
 
 >[!IMPORTANT]
 >
->请注意，在活动地图中使用s_ objectID时，需要结尾分号(；)。
+>Note that a trailing semicolon (;) is required when using s_objectID in [!DNL Activity Map].
 
 <table id="table_9439A5F320304E439A19842CF3EBA456"> 
  <thead> 
@@ -67,17 +68,18 @@ source-git-commit: 4f313ae50c4d5a0f3bfec493c2d554bc8614aeef
  <tbody> 
   <tr> 
    <td colname="col02"> 
-    <code>&lt; div id=“推荐面板”&gt;
-&lt; div&gt;
-&lt; a onClick="s_ objectID='Product1'；“href=”product1.html"&gt;购买&lt;/a&gt;
-&lt;/div&gt;
-&lt; div&gt;
-&lt; a onClick="s_ objectID='Product2'；“href=”product2.html"&gt;购买&lt;/a&gt;
-&lt;/div&gt;
-&lt; div&gt;
-&lt; a onClick="s_ objectID='Product3'；“href=”product3.html"&gt;购买&lt;/a&gt;
-&lt;/div&gt; </code>
-  </td> 
+    <code>
+      &lt;div&nbsp;id="recommendation&nbsp;panel"&gt; 
+     &nbsp;&nbsp;&lt;div&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product1';"&nbsp;href="product1.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+     &nbsp;&nbsp;&lt;div&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product2';"&nbsp;href="product2.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+     &nbsp;&lt;div&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product3';"&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt;&nbsp;&nbsp;&nbsp; 
+    </code> </td> 
    <td colname="col2"> <p> </p> <p> </p> <p> </p>Product1 <p> </p> <p> </p> <p>Product2 </p> <p> </p> <p> </p> <p>Product3 </p> <p> </p> </td> 
    <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>推荐面板 </p> <p> </p> <p> </p> <p>推荐面板 </p> <p> </p> <p> </p> <p>推荐面板 </p> <p> </p> </td> 
   </tr> 
@@ -90,7 +92,7 @@ source-git-commit: 4f313ae50c4d5a0f3bfec493c2d554bc8614aeef
 
 >[!NOTE]
 >
->您并不严格局限于“id”参数作为区域标识符。您还可以使用JavaScript变量“s. ActivityMap. regionIDAttribute”设置自己的标识符。
+>您并不严格限于“id”参数作为区域标识符。 您还可以使用JavaScript变量“s.ActivityMap.regionIDAttribute”设置自己的标识符。
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
@@ -103,17 +105,18 @@ source-git-commit: 4f313ae50c4d5a0f3bfec493c2d554bc8614aeef
  <tbody> 
   <tr> 
    <td colname="col02"> 
-    <code>&lt; div id=“推荐面板”&gt;
-&lt; div id=“region a”&gt;
-&lt; a href="product1.html"&gt;购买&lt;/a&gt;
-&lt;/div&gt;
-&lt; div id=“region b”&gt;
-&lt; a href="product2.html"&gt;购买&lt;/a&gt;
-&lt;/div&gt;
-&lt; div id=“region c”&gt;
-&lt; a href="product3.html"&gt;购买&lt;/a&gt;
-&lt;/div&gt; </code>
-  </td> 
+    <code>
+      &lt;div&nbsp;id="recommendation&nbsp;panel"&gt; 
+     &nbsp;&nbsp;&lt;div&nbsp;id="region&nbsp;a"&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product1.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+     &nbsp;&nbsp;&lt;div&nbsp;id="region&nbsp;b"&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product2.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+     &nbsp;&lt;div&nbsp;id="region&nbsp;c"&gt; 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
+     &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
+    </code> </td> 
    <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>购买 </p> <p> </p> <p> </p> <p>购买 </p> <p> </p> <p> </p> <p>购买 </p> </td> 
    <td colname="col3"> <p> </p> <p> </p> <p> </p>region a <p> </p> <p> </p> <p>region b </p> <p> </p> <p> </p> <p>region c </p> </td> 
   </tr> 
@@ -124,9 +127,9 @@ source-git-commit: 4f313ae50c4d5a0f3bfec493c2d554bc8614aeef
 
 >[!CAUTION]
 >
->请确保测试修改过的代码，以确保其正常工作。Adobe 对于修改后的代码的行为概不负责。
+>确保测试修改后的代码，以确保其正常工作。 Adobe 对于修改后的代码的行为概不负责。
 
-以下是** generic**链接/地区函数的几个示例，您可以在AppMeasurement. js文件中包含(修改的表单)。
+以下是您可以包含（以修改的形式）在AppMeasurement.js文件中的**通用**链接／区域函数的几个示例。
 
 ```
 s.ActivityMap.link = function(ele,linkName){ 
