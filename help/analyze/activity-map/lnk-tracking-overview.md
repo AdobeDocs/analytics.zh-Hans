@@ -1,36 +1,36 @@
 ---
-description: 'Activity Map通过一个更强大的算法跟踪链接 '
-seo-description: 'Activity Map通过一个更强大的算法跟踪链接 '
-seo-title: 强大的链接跟踪功能
+description: '[!DNL Activity Map]使用更强健的算法跟踪链接，该算法 '
+seo-description: '[!DNL Activity Map]使用更强健的算法跟踪链接，该算法 '
+seo-title: 可靠的链接跟踪
 solution: Analytics
-title: 强大的链接跟踪功能
+title: 可靠的链接跟踪
 topic: Activity Map
-uuid: a72b1652-2e69-41c7-8cf2-d39 e9 c705302
+uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# 强大的链接跟踪功能
+# 可靠的链接跟踪
 
-Activity Map 利用更加可靠的算法来跟踪链接：
+[!DNL Activity Map] 使用更可靠的算法跟踪链接，该算法可：
 
 * 将页面区域的跟踪包括在内，以避免混淆不同设备上的相同链接，因为链接会出现在页面上不同的位置；
 * 确保链接的唯一性，即，不能因为链接 ID 的问题或不同浏览器造成的问题，将本不相同的链接误认为同一个链接。
 
-有关 Activity Map 中链接跟踪的更多信息，请转至[此处](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)。
+For more on link tracking in [!DNL Activity Map], go [here](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md).
 
-## How Activity Map link tracking may collect PII Data {#section_AEE57510D17B4C21A7D49D32D21D67B9}
+## How [!DNL Activity Map] link tracking may collect PII Data {#section_AEE57510D17B4C21A7D49D32D21D67B9}
 
 >[!CAUTION]
 >
->启用 Activity Map 跟踪后，您可能会收集个人身份识别信息 (PII) 数据。此类数据可用于（单独或与其他信息配合使用）识别、联系或查找个人，或者在上下文中识别个人。
+>By turning on [!DNL Activity Map] tracking, you may be collecting personally identifiable information (PII) data. 通过单独使用这些数据或结合其他信息，可以识别、联系或查找个人，或者在上下文中识别个人。
 >
->以下是使用 Activity Map 跟踪收集 PII 数据的一些已知案例：
+>Here are some known cases where PII data might be collected using [!DNL Activity Map] Tracking:
 >
->* `Mailto` 链接。Mailto 链接是一种 HTML 链接，它可以激活计算机上的默认邮件客户端来发送电子邮件。
->* `User ID` 用户登录后在网站的页眉/页脚中显示的链接。
+>* `Mailto` 链接。 Mailto 链接是一种 HTML 链接，它可以激活计算机上的默认邮件客户端来发送电子邮件。
+>* `User ID` 用户登录后，网站的页眉／页脚中可能显示的链接。
 >* 在金融机构的网站中，账号可能会显示为链接。单击该链接将收集链接的文本。
 >* 在医疗保健网站中，PII 数据也可能会显示为链接。单击这些链接将收集链接的文本，进而收集 PII 数据。
 >
