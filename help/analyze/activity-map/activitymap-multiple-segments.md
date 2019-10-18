@@ -1,20 +1,20 @@
 ---
-description: 允许您在 Activity Map 中应用多区段过滤器。
-seo-description: 允许您在 Activity Map 中应用多区段过滤器。
+description: 允许您在[!DNL活动图]中应用多段过滤器。
+seo-description: 允许您在[!DNL活动图]中应用多段过滤器。
 seo-title: 客户分段
 solution: Analytics
 title: 客户分段
 topic: Activity Map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
 # 客户分段
 
-允许您在 Activity Map 中应用多区段过滤器。
+Lets you apply a multiple-segment filter within [!DNL Activity Map].
 
 >[!NOTE]
 >
@@ -30,4 +30,4 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ![](assets/two_segments.png)
 
-选定区段将被应用于 Activity Map 中存在的所有 Analytics 报表，例如叠加图、**[!UICONTROL 页面上的链接]**&#x200B;和&#x200B;**详细信息页面]报表。[!UICONTROL **
+The selected segments will be applied to all Analytics reports presented in [!DNL Activity Map], i.e. overlays and the **[!UICONTROL Links on Page]** and **[!UICONTROL Page Details]** reports.
