@@ -6,7 +6,7 @@ solution: Analytics
 title: 隐私报告变量
 topic: 管理工具
 translation-type: tm+mt
-source-git-commit: 4d3577cc87b95da41275552efe7fc70bcc23e023
+source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
 
 ---
 
@@ -63,21 +63,21 @@ source-git-commit: 4d3577cc87b95da41275552efe7fc70bcc23e023
 
 ### SSF
 
-* 上下文数据：contextData。['cm.ssf']
+* 上下文数据：`contextData.['cm.ssf']`
 * 接受的值：
    * 1 —— 发送值“1”时，这表示服务器端转发处于退出状态。 与此变量配对的值“1”将阻止与Adobe Audience manager共享此点击。 请参 [阅AAM ePrivacy Compliance。](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
    * 此参数不接受其他值。
 
 ### DMP
 
-* 上下文数据：contextData。['opt.dmp']
+* 上下文数据：`contextData.['opt.dmp']`
 * 接受的值：
    * N —— 发送值“N”时，这表示消费者选择不共享到数据管理平台。 **** 注意：将此变量设置为“N”当前不阻止共享到AAM，但是，将在2020年初添加对AAM功能的阻止调用。 目前，Adobe建议设置和 `c.cm.ssf=1` 以阻 `c.opt.dmp=N` 止将点击发送到AAM。
    * Y —— 发送值“Y”时，这表示消费者选择共享到数据管理平台。
 
 ### 销售
 
-* 上下文数据：contextData。[“opt.sell”]
+* 上下文数据：`contextData.['opt.sell']`
 * 接受的值：
    * N —— 在发送值“N”时，这表示消费者选择退出共享数据或将数据出售给第三方。
    * Y —— 发送值“Y”时，这表示消费者选择向第三方共享或出售数据。
