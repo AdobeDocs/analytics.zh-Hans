@@ -1,20 +1,20 @@
 ---
-description: '活动地图UI由两部分组成 '
-seo-description: '活动地图UI由两部分组成 '
-seo-title: 活动地图用户界面
+description: '[!DNL Activity Map] UI由两部分组成 '
+seo-description: '[!DNL Activity Map] UI由两部分组成 '
+seo-title: '[!DNL Activity Map]用户界面'
 solution: Analytics
-title: 活动地图用户界面
+title: '[!DNL Activity Map]用户界面'
 topic: Activity Map
-uuid: f6734b60-0b77-4f50a45a-6a6936d1524e
+uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# 活动地图用户界面
+# [!DNL Activity Map] 用户界面
 
-Activity Map UI 由两部分组成：
+The [!DNL Activity Map] UI is comprised of two parts:
 
 * 顶部窗口，其中包含网页以及插入式叠加图和工具栏。
 * 底部面板，用于显示报表。
