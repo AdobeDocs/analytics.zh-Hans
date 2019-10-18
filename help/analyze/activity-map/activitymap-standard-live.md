@@ -1,20 +1,20 @@
 ---
-description: Activity Map 提供了两种基本模式，它们可以在报告页面活动时进行相互补充。
-seo-description: Activity Map 提供了两种基本模式，它们可以在报告页面活动时进行相互补充。
+description: '[!DNL Activity Map]提供两种基本模式来提供页面活动的补充报告。'
+seo-description: '[!DNL Activity Map]提供两种基本模式来提供页面活动的补充报告。'
 seo-title: 标准模式与实时模式的对比
 solution: Analytics
 title: 标准模式与实时模式的对比
 topic: Activity Map
-uuid: 8b97b56e-ff20-4a8 b-8c37-7f7 b45 c9 a86 b
+uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
 # 标准模式与实时模式的对比
 
-Activity Map 提供了两种基本模式，它们可以在报告页面活动时进行相互补充。
+[!DNL Activity Map] 提供了两种基本模式，它们可以在报告页面活动时进行相互补充。
 
 * 标准模式。在这种模式下，[页面上的链接报表](/help/analyze/activity-map/activitymap-links-report.md)可以显示一天到多天的链接数据 - 在整个日期范围的基础上汇集而成。
 * 实时模式。在这种模式下，可以实时显示活动趋势。
@@ -31,7 +31,7 @@ Activity Map 提供了两种基本模式，它们可以在报告页面活动时�
 
 问：如果一个页面在不同区域中包含多个使用了相同链接名称的链接，会怎么样？两个链接在页面上属于不同的区域，但拥有相同链接名称，它们是否会分别获得信用？
 
-答：这取决于您如何聚合链接数据。在 Activity Map 中，我们查看给定页面的链接 ID | 区域，因此分配的数据是针对“链接 ID | 区域”两者的组合。在这种情况下，由于区域不同，链接 | 区域也将不同，因此第一链接 | 区域分配的所有收入将不同于第二链接分配的所有收入。但是在 Adobe Analytics 用户界面中，您只能查看给定页面（按链接划分的页面）的链接 ID 报表（而不是链接 | 区域报表）。在这种情况下，将会汇总这两个区域的收入。
+答：这取决于您如何聚合链接数据。In [!DNL Activity Map], we look at Link ID|Region for a given page, so the allocated data would be for the "Link ID|Region" combination. 在这种情况下，由于区域不同，链接 | 区域也将不同，因此第一链接 | 区域分配的所有收入将不同于第二链接分配的所有收入。但是在 Adobe Analytics 用户界面中，您只能查看给定页面（按链接划分的页面）的链接 ID 报表（而不是链接 | 区域报表）。在这种情况下，将会汇总这两个区域的收入。
 
 ## 实时模式 {#section_D619B77D89A840F0B1C2DEA2715A516A}
 
@@ -41,7 +41,7 @@ Activity Map 提供了两种基本模式，它们可以在报告页面活动时�
 
 >[!IMPORTANT]
 >
->虚拟报告包与Live Mode不兼容，仅具有标准模式。
+>虚拟报告套件与实时模式不兼容，只与标准模式兼容。
 
 ![](assets/live_mode.png)
 
