@@ -139,7 +139,7 @@ A: [!DNL Activity Map] inherits your Admin-level segments (reporting segments) f
 
 答：不能，实时模式下不能使用区段。其功能等同于“Reports &amp; Analytics”中实时报告的功能。
 
-## Virtual report suites {#section_BDB0CA9E732F478EAC349A79753A78DB}
+## 虚拟报表包 {#section_BDB0CA9E732F478EAC349A79753A78DB}
 
 **问：是否[!DNL Activity Map]与虚拟报告套件兼容？**
 
