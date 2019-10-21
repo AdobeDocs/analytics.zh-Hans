@@ -1,5 +1,5 @@
 ---
-description: Lets you use the segment for marketing activity in the Audience Library, Target, and Audience Manager.
+description: 允许您将区段用于受众库、Target和Audience manager中的营销活动。
 seo-description: 允许您将区段用于受众库、Target和Audience manager中的营销活动。
 seo-title: 将区段发布到 Experience Cloud
 solution: Analytics
@@ -7,7 +7,7 @@ title: 将区段发布到 Experience Cloud
 topic: 区段
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: d65a7582546a96856790dcbe481757ad3f5500a4
+source-git-commit: cd2d9f90c548d3bb32a57faa47b185dc25db1d5a
 
 ---
 
@@ -16,11 +16,15 @@ source-git-commit: d65a7582546a96856790dcbe481757ad3f5500a4
 
 >[!IMPORTANT]
 >
->尚未针对所有客户推出本页中介绍的有关细分发布和用户界面的延迟改进。 The current production environment is described here.[](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)
+>尚未针对所有客户推出本页中介绍的有关细分发布和用户界面的延迟改进。 此处介绍了当前的生产 [环境](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)。
 
-Publishing a segment to the Experience Cloud lets you use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], [!DNL Audience Manager], and [!DNL Advertising Cloud]. Recent updates have significantly optimized the publishing workflow. 以前，发布可用区段大约需要48小时。
+Publishing a segment to the Experience Cloud lets you use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], [!DNL Audience Manager], [!DNL Advertising Cloud], and [!DNL Campaign]. 最近的更新显着优化了发布工作流程。 以前，发布可用区段大约需要48小时。
 
 现在，处理最多可能需要8小时，但根据其他流量和区段大小，处理速度可能会更快。 （但是，我们目前无法通知您区段何时可用，因此您必须手动检查。）我们还将可发布区段的最大数量从20个增加到75个。 您可以在组件&gt;区段中查看已发布的区段。
+
+>[!NOTE]
+>
+>Adobe Campaign（经典和标准）的行为方式不同，因为它在8小时的延迟之上会额外产生24小时的延迟。
 
 
 ## 先决条件
@@ -40,7 +44,7 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 
 ## 区段发布时间线
 
-| 可用功能 | When it's available | Where it's available |
+| 可用功能 | 当它可用时 | 可用位置 |
 |---|---|---|
 | 元数据（区段标题和定义） | 发布后立即 | [!DNL Audience Manager], [!UICONTROL Experience Cloud受众库], [!DNL Target] |
 | 具有会员资格的可用细分 | 发布后8小时 | 中的访客资料查看器 [!DNL Audience Manager] |
@@ -50,7 +54,7 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 
 1. 导航到 **[!UICONTROL Analytics &gt; Workspace &gt;组件&gt;区段]&gt; +**
 1. 在“区段生成器”中 [!UICONTROL 创建区段]。
-1. Provide a title and a description for the segment - you won’t be able to save it otherwise.
+1. 为区段提供标题和说明——否则您将无法保存它。
 1. Check **[!UICONTROL Publish this segment to the Experience Cloud (for *report suite*)]**.
 
 ![](assets/publish-ec.png)
@@ -63,13 +67,13 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 
 | 元素 | 描述 |
 |---|---|
-| **[!UICONTROL 将此区段发布到Experience Cloud(*<report suite>*)]** | 启用此选项后，区段标题和定义（即广告平台中经常使用的Shell受众）会即时与Experience cloud共享，而区段成员资格则每4小时评估一次并共享一次。 <br> When that audience is associated with an activity in [!DNL Target], for example, [!DNL Analytics] begins sending IDs for visitors that qualify for that Experience Cloud and [!DNL Target] audience. At that point, the audience name and corresponding data begins displaying on the Experience Cloud Audiences page. </br> |
-| **[!UICONTROL 受众创建窗口]** | The time frame you select is used to create the audience on a rolling-calendar basis. For example, “Last 30 days” (default) includes visitors that have qualified for the audience over the last 30 days from today's date (NOT from the original date when the segment was created.) |
-| **[!UICONTROL 在受众库中创建]** | The segments that you create and publish can be made available without latency in the Experience Cloud Audience Library. They are not dependent on Analytics updates. These segments do not count against your limit of 75 published segments. |
-| **[!UICONTROL x of 75 Published]** | Shows the number of segments you have published to the Experience Cloud. Click the link to see a list of published segments and their associated report suite and owner. |
-| **[!UICONTROL 保存]** | Saves this segment. |
+| **[!UICONTROL 将此区段发布到Experience Cloud(*<report suite>*)]** | 启用此选项后，区段标题和定义（即广告平台中经常使用的Shell受众）会即时与Experience cloud共享，而区段成员资格则每4小时评估一次并共享一次。 <br> 例如，当该受众与某个活动关 [!DNL Target]联时，开始为符合该Experience cloud资格的 [!DNL Analytics] 访客和受众发送ID [!DNL Target] 。 At that point, the audience name and corresponding data begins displaying on the Experience Cloud Audiences page. </br> |
+| **[!UICONTROL 受众创建窗口]** | 您选择的时间范围用于创建滚动日历的受众。 例如，“最近30天”（默认）包括从今天起的最近30天（而非从创建区段的原始日期起）内符合受众资格的访客。 |
+| **[!UICONTROL 在受众库中创建]** | 您创建和发布的区段可在Experience Cloud受众库中提供，且无延迟。 它们不依赖于Analytics更新。 这些区段不计入您对75个已发布区段的限制。 |
+| **[!UICONTROL 第x页（共75页）已发布]** | 显示您已发布到Experience cloud的区段数。 单击该链接可查看已发布区段及其关联的报表包和所有者的列表。 |
+| **[!UICONTROL 保存]** | 保存此区段。 |
 
-## Unpublish or delete segments
+## 取消发布或删除区段
 
 要删除已发布到 Experience Cloud 的区段，必须先取消发布该区段。要取消发布区段，只需&#x200B;**取消选中**&#x200B;用于发布该区段的复选框。
 
@@ -77,10 +81,10 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 >
 >您&#x200B;**无法**&#x200B;取消发布以下任何一个 Adobe 解决方案当前正在使用的区段：[!DNL Analytics]（位于 [!DNL Audience Analytics] 中）、[!DNL Campaign]、[!DNL Advertising Cloud]（适用于 [!DNL Core Service] 和 [!DNL Audience Manager] 客户）和所有其他外部合作伙伴（适用于 [!DNL Audience Manager] 客户）。您&#x200B;**可以**&#x200B;取消发布 [!DNL Target] 正在使用的区段。
 
-## View segment publishing status in the Segment Manager
+## 在区段管理器中查看区段发 [!UICONTROL 布状态]
 
 1. 导航到 [!UICONTROL Analytics &gt;组件&gt;区段]。
-1. Notice the new Published column. 是／否指区段是否已发布到Experience Cloud。
+1. 注意新的“已 [!UICONTROL 发布] ”列。 是／否指区段是否已发布到Experience Cloud。
 
 ![](assets/publish-status.png)
 
@@ -110,7 +114,7 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 
 ## 使用Audience Manager访客 [!UICONTROL 资料查看器]
 
-默认情况下，在加载访客配置文件查看器时，将使 [!UICONTROL 用浏览器上的AAM] UUID。 If verifying trait realizations for other users, input a UUID in the UUID field and click [!UICONTROL Refresh]. Refer to [Visitor Profile Viewer](https://marketing.adobe.com/resources/help/en_US/aam/t_visitor_profile_viewer.html) for more information.
+默认情况下，在加载访客配置文件查看器时，将使 [!UICONTROL 用浏览器上的AAM] UUID。 如果验证其他用户的特征实现，请在UUID字段中输入UUID，然后单击“刷 [!UICONTROL 新”]。 有关详细 [信息，请参阅访客资料查看器](https://marketing.adobe.com/resources/help/en_US/aam/t_visitor_profile_viewer.html) 。
 
 ![](assets/aam-vpv.png)
 
@@ -124,10 +128,10 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 
 ![](assets/aam-traits.png)
 
-* A one-trait segment gets created. 它使用与您发布区段的报表包关联的数据源。
+* 创建单特征段。 它使用与您发布区段的报表包关联的数据源。
 
 ## 在 [!DNL Adobe Target]
 
-The [!UICONTROL Publish this segment to the Experience Cloud] checkbox during the segment creation process in Adobe Analytics allows the segment to be available within the Adobe Target's custom audience library. 在 Analytics 或 Audience Manager 中创建的区段可用于 Target 中的活动。例如，你可以根据 Analytics 转化量度和 Analytics 中创建的受众区段，来创建营销活动。], click Audiences.
+The [!UICONTROL Publish this segment to the Experience Cloud] checkbox during the segment creation process in Adobe Analytics allows the segment to be available within the Adobe Target's custom audience library. 在 Analytics 或 Audience Manager 中创建的区段可用于 Target 中的活动。例如，你可以根据 Analytics 转化量度和 Analytics 中创建的受众区段，来创建营销活动。]，单击 [!UICONTROL 受众]。
 1. On the [!UICONTROL Audiences] page, locate the audience sourced from the [!DNL Experience Cloud]. These audiences are available for use in [!DNL Target] activities.
 
