@@ -107,4 +107,5 @@ Here are some known cases where PII data might be collected using [!DNL Activity
     </ol> </td> 
   </tr> 
  </tbody> 
-</
+</table>
+
