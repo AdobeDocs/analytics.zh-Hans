@@ -1,31 +1,29 @@
 ---
 description: 您可以在 Analysis Workspace 中从接触点创建区段、添加区段作为接触点，并比较多个区段之间的关键工作流程。
-keywords: 流失和细分；流失分析中的细分；在流失中比较细分
+keywords: 流失和细分；流失分析中的细分；比较流失中的细分
 seo-description: 您可以在 Analysis Workspace 中从接触点创建区段、添加区段作为接触点，并比较多个区段之间的关键工作流程。
-seo-title: 在流失分析中应用细分
-title: 在流失分析中应用细分
+seo-title: 在流失分析中应用区段
+title: 在流失分析中应用区段
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
 translation-type: tm+mt
-source-git-commit: 769d076549484c6939157ef217225493ddbe130e
+source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
 
 
-# 在流失分析中应用细分
+# 在流失分析中应用区段
 
 您可以在 Analysis Workspace 中从接触点创建区段、添加区段作为接触点，并比较多个区段之间的关键工作流程。
 
->[!IMPORTANT]
->用作流失检查点的区段必须使用比流失可视化的整体上下文更低的容器。通过访客上下文流失，用作检查点的区段必须访问或基于点击区段。通过访问上下文流失，用作检查点的区段必须是基于点击的区段。如果您使用无效组合，则流失将为100%。我们为将不兼容区段添加为触点时将显示的流失可视化添加了警告。某些无效区段容器组合将导致无效的流失图表，如
+> [!IMPORTANT] 用作流失中检查点的区段必须使用级别低于流失可视化整体上下文的容器。 对于访客上下文流失，用作检查点的区段必须是访问或基于点击的区段。 使用访问上下文流失，用作检查点的区段必须是基于点击的区段。 如果您使用的组合无效，则流失率将为100%。 我们为流失可视化添加了警告，当您将不兼容的区段添加为接触点时，将显示该警告。 某些无效的区段容器组合会导致无效的流失图表，例如：
 
->* 在访客上下文流失可视化图表中使用基于访客的区段作为接触点
->* 在访问上下文流失可视化图表中使用基于访客的区段作为接触点
->* 在访问上下文流失可视化图表中使用基于访问的区段作为接触点
-
+* 在访客上下文流失可视化图表中使用基于访客的区段作为接触点
+* 在访问上下文流失可视化图表中使用基于访客的区段作为接触点
+* 在访问上下文流失可视化图表中使用基于访问的区段作为接触点
 
 ## Create a segment from a touchpoint {#section_915E8FBF35CD4F34828F860C1CCC2272}
 
-1. 首先，从特定的接触点创建一个您特别感兴趣，并且可以应用至其他报表的区段。You do this by right-clicking the touchpoint and selecting **[!UICONTROL Create segment from touchpoint]**.
+1. 从您特别感兴趣的特定接触点创建区段，该区段可能对应用于其他报表非常有用。 You do this by right-clicking the touchpoint and selecting **[!UICONTROL Create segment from touchpoint]**.
 
    ![](assets/segment-from-touchpoint.png)
 
@@ -59,4 +57,3 @@ source-git-commit: 769d076549484c6939157ef217225493ddbe130e
    ![](assets/seg-compare.png)
 
 1. 您现在可以比较两个区段间的流失，例如一个区段在哪些方面超过另一区段，或者其他分析。
-
