@@ -3,24 +3,22 @@ description: 您可以在 Analysis Workspace 中根据上下文查看和分析�
 seo-description: 您可以在 Analysis Workspace 中根据上下文查看和分析数据异常。
 seo-title: 异常检测概述
 title: 异常检测概述
-uuid: 991fde08-198c-4410-9606-d5 f3 f3 dd8339
+uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
 
 
 # 异常检测概述
 
-您可以在 Analysis Workspace 中根据上下文查看和分析数据异常。
+您可以在Analysis Workspace中按上下文查看和分析数据异常。
 
-[YouTube异常检测](https://www.youtube.com/watch?v=krXyQCjXoeU&index=63&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4：53)
+[YouTube上的异常检测](https://www.youtube.com/watch?v=krXyQCjXoeU&index=63&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:53)
 
-[YouTube上的贡献分析](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3：20)
+[YouTube的贡献分析](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20)
 
->[!IMPORTANT]
->
->异常检测已从Reports&amp; Analytics功能集中删除，现在只能通过Analysis Workspace获得。请注意，Adobe Analytics Select 和 Adobe Analytics Foundation 客户只能访问 Workspace 中的“每天粒度”异常检测。有关更多信息，请参阅[异常检测和贡献分析授权](../../../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A)。
+> [!IMPORTANT] 异常检测仅在Analysis Workspace中可用。 Adobe Analytics select和Foundation客户只能访问Workspace中的“每日粒度”异常检测。 有关更多信息，请参阅[异常检测和贡献分析授权](../contribution-analysis/ca-tokens.md)。
 
 异常检测提供了一种统计方法来确定给定的量度相对于以前的数据发生了什么变化。
 
