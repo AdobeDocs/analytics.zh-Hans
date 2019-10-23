@@ -4,7 +4,7 @@ audience: 最终用户
 user-guide-title: Analytics Analyze 指南
 user-guide-url: /content/help/zh-Hans/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 286247dc29e62ab528b01626bb4d93dca08157f9
+source-git-commit: 8fe853cc5942bcf3f5de4c944756e6524ce07f0b
 
 ---
 
@@ -77,11 +77,14 @@ source-git-commit: 286247dc29e62ab528b01626bb4d93dca08157f9
    + 面板 {#panels}
       + [面板概述](analysis-workspace/c-panels/panels.md)
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
-      + [归因](analysis-workspace/attribution-iq/attribution.md)
+      + 归因{attribution}
+         + [归因概述](analysis-workspace/c-panels/attribution/attribution.md)
+         + [使用“归因”面板](analysis-workspace/c-panels/attribution/use-attribution.md)
+         + [归因常见问题解答](analysis-workspace/c-panels/attribution/attribution-faq.md)
       + [自由格式面板](analysis-workspace/c-panels/freeform-panel.md)
-      + 细分比较 (IQ) {#segment-comparison}
+      + Segment comparison {#segment-comparison}
          + [细分 IQ 概述](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-         + [比较细分](analysis-workspace/c-panels/c-segment-comparison/compare-segments.md)
+         + [临时页面](analysis-workspace/c-panels/c-segment-comparison/compare-segments.md)
          + [细分 IQ 用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [细分比较中使用的统计测试](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 组织或共享项目 {#curate-share}
@@ -92,10 +95,10 @@ source-git-commit: 286247dc29e62ab528b01626bb4d93dca08157f9
       + [发送文件 - 计划交付项目](analysis-workspace/curate-share/t-schedule-report.md)
       + [计划项目管理器](analysis-workspace/curate-share/schedule-projects.md)
    + 归因 IQ {#attribution-iq}
-      + [归因 IQ 概述](analysis-workspace/attribution-iq/attribution.md)
-      + [在 Analysis Workspace 中使用归因 IQ](analysis-workspace/attribution-iq/use-attribution-iq.md)
-      + [在计算量度中使用归因](analysis-workspace/attribution-iq/attribution-calcmetrics.md)
-      + [归因 IQ 常见问题解答](analysis-workspace/attribution-iq/attribution-faq.md)
+      + [临时页面](analysis-workspace/attribution-iq/attribution.md)
+      + [临时页面](analysis-workspace/attribution-iq/use-attribution-iq.md)
+      + [临时页面](analysis-workspace/attribution-iq/attribution-calcmetrics.md)
+      + [临时页面](analysis-workspace/attribution-iq/attribution-faq.md)
    + 虚拟分析师 {#virtual-analyst}
       + [虚拟分析师](analysis-workspace/virtual-analyst/virtual-analyst.md)
       + 异常检测 {#anomaly-detection}
