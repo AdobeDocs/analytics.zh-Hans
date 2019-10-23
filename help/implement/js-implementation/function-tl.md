@@ -9,14 +9,14 @@ title: s.tl() 函数 - 链接跟踪
 topic: 开发人员和实施
 uuid: f28f071a-8820-4f74-89cd-fd233a21f22
 translation-type: tm+mt
-source-git-commit: 1ed1c6cd3fd6d29fa156cd4b2c4bdfe9120b3c61
+source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
 
 ---
 
 
 # s.tl() 函数 - 链接跟踪
 
-如果您的组织希望对要跟踪的链接及其行为拥有更多控制权，建议手动跟踪链接。 使用s.tl()函数手动发送具有所需精确内容的链接跟踪图像请求。 如果需要基本链接跟踪，请参阅配置变 `s.trackDownloadLinks` 量 `s.trackExitLinks` 和 [配置变量](c-variables/configuration-variables.md)。 无法自动跟踪自定义链接。
+如果您的组织希望对要跟踪的链接及其行为拥有更多控制权，建议手动跟踪链接。 使用s.tl()函数手动发送具有所需精确内容的链接跟踪图像请求。 如果需要基本链接跟踪，请参阅配置变 `s.trackDownloadLinks` 量 `s.trackExternalLinks` 和 [配置变量](c-variables/configuration-variables.md)。 无法自动跟踪自定义链接。
 
 > [!NOTE] 链接跟踪代码通常与您的网站和报告需求密切相关。 Adobe建议以前的实施经验或实施顾问了解如何根据您的业务需求使用此功能。
 
