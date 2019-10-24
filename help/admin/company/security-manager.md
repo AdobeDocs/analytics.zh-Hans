@@ -7,7 +7,7 @@ title: 安全管理器
 topic: 管理工具
 uuid: b3fbdba0-e2bf-4d67-92e3-ef0571141d4
 translation-type: tm+mt
-source-git-commit: cc87c5a7b193fe8a36ce7409a833cc0b91b8af60
+source-git-commit: 92884ec44b5851799596fa1961710cd56b9c7349
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: cc87c5a7b193fe8a36ce7409a833cc0b91b8af60
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 强制 IP 登录限制</span> </td> 
-   <td colname="col2"> <p>（请注意，此功能在2020年1月将不再可用。）将报表访问限定于特定的 IP 地址或 IP 地址范围。 </p> <p>您可以在 IP 地址过滤器列表中添加最多 100 个条目，每个条目可以是一个特定的地址或地址范围。 </p> <p> 只有当 IP 地址过滤器列表中至少有一个条目时，才会执行<span class="wintitle">强制 IP 登录限制</span>。 </p> <p> <span class="uicontrol"> 接受的IP地址</span>:要指定IP地址范围，请将范围括在括号中(例如， <code>
+   <td colname="col2"> <p>(此功能不能与Experience cloud登录名一起使用。 请注意，此功能自2020年1月起将不再可用。)将报表访问限定于特定的 IP 地址或 IP 地址范围。 </p> <p>您可以在 IP 地址过滤器列表中添加最多 100 个条目，每个条目可以是一个特定的地址或地址范围。 </p> <p> 只有当 IP 地址过滤器列表中至少有一个条目时，才会执行<span class="wintitle">强制 IP 登录限制</span>。 </p> <p> <span class="uicontrol"> 接受的IP地址</span>:要指定IP地址范围，请将范围括在括号中(例如， <code>
        192.168.10.[20-240]
      </code>)。 You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
      <code>
