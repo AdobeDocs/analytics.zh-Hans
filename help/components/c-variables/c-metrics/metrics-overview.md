@@ -7,7 +7,7 @@ title: 量度快速参考
 topic: 量度
 uuid: 34160c96-7cb3-4e2f-9956-9ffa9d9a359e
 translation-type: tm+mt
-source-git-commit: bdac23691a7de1cd308e9f1c68c74739a51244d6
+source-git-commit: 92884ec44b5851799596fa1961710cd56b9c7349
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: bdac23691a7de1cd308e9f1c68c74739a51244d6
 
 >[!IMPORTANT]
 >
->Analysis Workspace no longer distinguished between Traffic and Conversion metrics. Hence, the metric type is only relevant to tolls such as Reports &amp; Analytics, Web Services 1.4, and Report Builder.)
+>Analysis Workspace不再区分流量和转化量度。 因此，度量类型仅与报告与分析、Web服务1.4和Report builder等工具相关。)
 
 | 量度名称 | 描述 | 类型 |
 |--- |--- |---|
