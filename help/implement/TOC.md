@@ -4,7 +4,7 @@ audience: 最终用户
 user-guide-title: Analytics 实施指南
 user-guide-url: /content/help/zh-Hans/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 434ef9ddecd6317ce3f757625f065854475becd3
+source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
 
 ---
 
@@ -13,7 +13,6 @@ source-git-commit: 434ef9ddecd6317ce3f757625f065854475becd3
 
 + [Analytics 实施帮助](home.md)
 + AppMeasurement 发行说明 {#appmeasurement-release-notes}
-   + [AppMeasurement 发行说明](appmeasurement-release-notes/appmeasurement-release-notes.md)
    + [AppMeasurement for JavaScript](appmeasurement-release-notes/c-release-notes-mjs.md)
    + [JavaScript H 代码 - 旧版](appmeasurement-release-notes/c-release-notes-javascript.md)
    + [Flash-Flex](appmeasurement-release-notes/c-release-notes-flash.md)
