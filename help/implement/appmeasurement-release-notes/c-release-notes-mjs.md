@@ -8,7 +8,7 @@ title: AppMeasurement for JavaScript
 topic: 开发人员和实施
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 120392f57295577e94c93b4a10805ea24792a150
 
 ---
 
@@ -27,7 +27,7 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 ## 版本2.17.0
 
-发行日期：**201 年 8 月 23 日**
+发行日期：**2019 年 8 月 23 日**
 
 | 功能/修复 | 描述 |
 | -----------| ---------- |
@@ -40,7 +40,7 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| `sendBeacon` 支持退出链接 | 在 [!UICONTROL AppMeasurement] 中针对退出链接实施了 `sendBeacon` 支持。这将改进退出链接跟踪，并且可能会增加流量。`SendBeacon` doesn't execute in the context of a page but in the context of the browser. That is if a page unloads with , the request will still be completed. `sendBeacon`This is very useful for exit links because it will make it much more likely that the exit link request will be completed. |
+| `sendBeacon` 支持退出链接 | 在 [!UICONTROL AppMeasurement] 中针对退出链接实施了 `sendBeacon` 支持。这将改进退出链接跟踪，并且可能会增加流量。`SendBeacon` 不会在页面的上下文中执行，而是在浏览器的上下文中执行。 也就是说，如果页面卸载 `sendBeacon`时，请求仍将完成。 这对退出链接非常有用，因为它将使退出链接请求完成的可能性大得多。 |
 | ECID/fid 值 | 即使 OptIn 设置发生更改，ECID/fid 值现在也会在首次点击时缓存。 |
 | DIL 9.3 | 已将受众管理模块更新至 DIL 9.3。 |
 | 滚动覆盖范围跟踪 | s.ActivityMap.trackScrollReach 中用于打开或关闭滚动覆盖范围跟踪的公开开关。 |
@@ -50,7 +50,7 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 发行日期：**2019 年 7 月 15 日**
 
-* Added ActivityMap scroll reach tracking to the Activity Map extension (AN-172949)
+* 向Activity map扩展添加了ActivityMap滚动范围跟踪(AN-172949)
 * 将DIL 9.2添加到AppMeasurement(AN-182472)
 
 ## 版本 2.14.0
@@ -64,7 +64,7 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 发行日期：**2019 年 4 月 10 日**
 
-Fix for many reported problems with clearVars. The problem occurs when hits are sent out before the tracker is ready. When the tracker becomes ready, the library can set variables that have already been cleared or changed. (AN-176931、AN-176629、DTM-12758).
+修复了clearVars中报告的许多问题。 当在跟踪器准备就绪之前发送点击时，会出现问题。 当跟踪器准备就绪时，库可以设置已清除或更改的变量。 (AN-176931、AN-176629、DTM-12758).
 
 ## 版本 2.12.0
 
@@ -72,7 +72,7 @@ Release Date: **02/22/2019**
 
 * 已将受众管理模块更新至 DIL 9.1。(AN-175255)
 * GTM 安全策略不允许使用 Activity Map 模块。(AN-174679)
-* Improved AppMeasurement to honor opt-out when the Identity Service is not approved in opt-in. (AN-175259)
+* 改进了AppMeasurement，以在身份服务未在选择加入时遵守选择退出。 (AN-175259)
 
 ## 版本 2.11.0
 
@@ -177,7 +177,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 * 包含最新版本的 [!DNL dil.js] (AN-140396)
 * Added support for `adobe_mc_ref` parameter which overrides the page referrer. (AN-131920)
 * 重新包含 Visitor API 2.1.0。(AN-140873)
-* Added  parameter. `mcorgid`(AN-139586)
+* 添加了 `mcorgid` 参数。 (AN-139586)
 * 添加 cp (customerPerspective) 参数。(AN-140897)
 
 ## 版本 2.0.0 {#section_4C4A502CDFC84F06914EB16CE77736D1}
@@ -545,4 +545,4 @@ A new [!DNL JavaScript] [!DNL AppMeasurement] library is now available in Code M
 
 >[!NOTE]
 >
->Some plug-ins are not supported in this new version. 有关详细信息，请参阅[插件支持](https://marketing.adobe.com/resources/help/en_US/sc/implement/plugins_support.html)。
+>此新版本不支持某些插件。 有关详细信息，请参阅[插件支持](https://marketing.adobe.com/resources/help/en_US/sc/implement/plugins_support.html)。
