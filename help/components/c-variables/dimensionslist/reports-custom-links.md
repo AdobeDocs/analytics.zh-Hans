@@ -7,7 +7,7 @@ title: 自定义链接
 topic: 报告
 uuid: 2e0d0175-d5e4-4919-b601-3f488ef3e090
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 4420560ef19f8123de1736ba904b655b9bee1a4c
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 显示您网站的访客喜爱的链接。例如，您的网站主页可能有多个显示同一页面的链接。可能有链接至同一页面的图形和文本链接。此报表显示使用图形链接与使用文本链接的访客百分比。
 
-您要跟踪的特定链接必须使用特殊标记进行修改，请参阅[链接跟踪](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html)。
+您要跟踪的特定链接必须使用特殊标记进行修改，请参阅[链接跟踪](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html)。
 
 [!UICONTROL 自定义链接报表]的用途包括：
 
