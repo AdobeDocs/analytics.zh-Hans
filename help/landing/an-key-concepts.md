@@ -4,7 +4,7 @@ seo-description: 此部分包含 Adobe Analytics 的关键概念，有关该概�
 seo-title: Adobe Analytics - 关键概念
 title: Adobe Analytics - 关键概念
 translation-type: tm+mt
-source-git-commit: cad3d8add1de220ad0044477fff473b5405bb17d
+source-git-commit: 7dc3f3a42f84cb636a8abd60614a30c8f5fcc621
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: cad3d8add1de220ad0044477fff473b5405bb17d
 | Analysis Workspace | 用于构建强大的自定义分析项目和实现洞察大众化的浏览器解决方案。 与Reports &amp; Analytics相比，报告更灵活 | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html) |
 | Reports &amp; Analytics（以前称为 SiteCatalyst） | 用于报告和分析的浏览器解决方案。 Analytics 包中的初学者工具。 | [Reports &amp; Analytics主页](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html) |
 | Report Builder | Excel插件，可让您从Adobe Analytics数据构建自定义请求，并使用Microsoft excel对其进行可视化。 | [Report Builder主页](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) |
-| Ad Hoc Analysis（以前称为 Discover） | 用于高级数字分析的基于Java的工具。 预计于2019年第三季度停产。 | [临时分析主页](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
+| Ad Hoc Analysis（以前称为 Discover） | 用于高级数字分析的基于Java的工具。 | [临时分析主页](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
 | Data Workbench（以前称为 Insight） | 旨在收集、处理、分析与可视化来自多个渠道间在线和离线客户交互的数据。 | [Data Workbench 客户端](https://marketing.adobe.com/resources/help/en_US/insight/client/) |
 | Data Warehouse | 用于存储和自定义报表的、未经处理的原始数据，您可通过过滤数据运行它。无点击级别。 | [数据仓库主页](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) |
 | Adobe Mobile Services | 可以在整个 Adobe Experience Cloud 范围内将移动设备应用程序的移动营销功能整合在一起，以便您了解和提高应用程序的用户参与度。 | [Mobile services主页](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
