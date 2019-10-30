@@ -8,8 +8,8 @@ subtopic: 插件
 title: appendList
 topic: 开发人员和实施
 uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -63,9 +63,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
  </tbody> 
 </table>
 
->[!NOTE]
->
->下面的说明需要您更改网站上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
+> [!NOTE]下面的说明需要您更改网站上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
 
 ## 实施 {#section_F4C91CA2037F478C9F7B53F357E6A5F0}
 
