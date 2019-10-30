@@ -7,7 +7,7 @@ title: 日历事件
 topic: Reports and Analytics
 uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 添加日历事件和管理共享事件的步骤。
 
->[!NOTE]
->
->为确保获得最佳报表性能，将在趋势图表和超时图表上显示 20 个最新日历事件。
+> [!NOTE]为确保获得最佳报表性能，将在趋势图表和超时图表上显示 20 个最新日历事件。
 
 对于特定时段的趋势报表，您可以用图形显示事件，并查看促销活动或其他事件是否对网站流量、收入或任何其他量度产生影响。设置日历事件过程包括命名事件、设置日期、添加注释并设置图标. 例如，如果使用 Social，可以创建日历事件，以显示网站流量的增加与使用 Twitter 的名人提及产品相关。
 
