@@ -1,23 +1,23 @@
 ---
 title: RDC 环境特征
-seo-title: Adobe Analytics RDC环境特点
+seo-title: Adobe Analytics RDC环境特性
 description: null
 seo-description: null
 translation-type: tm+mt
-source-git-commit: 1fdd14497171dbf5850ec1b1d873a06931d58435
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# RDC环境特点
+# RDC环境特性
 
-区域数据收集(RDC)环境包括如下所述特性。
+区域数据收集(RDC)环境包括如下所述的特性。
 
 ## 性能改进
 
-For current response times when using RDC, see [Adobe Analytics Request Performance](https://marketing.adobe.com/resources/help/en_US/whitepapers/performance/).
+有关使用RDC时的当前响应时间，请参阅 [Adobe Analytics请求性能](https://marketing.adobe.com/resources/help/en_US/whitepapers/performance/)。
 
-通常情况下，用户使用RDC进行了经验响应时间改进，如下所示：
+通常，用户在RDC中的响应时间有了如下改进：
 
 | 地区 | 使用 RDC 后响应时间的缩短率 |
 | --- | --- |
@@ -37,13 +37,13 @@ For current response times when using RDC, see [Adobe Analytics Request Performa
 | 美国西部 | 20% |
 | 全球 | 50% |
 
-## 第一方或第三方cookie
+## 第一方或第三方Cookie
 
 根据您的实施，您可能使用的是第一方或第三方 Cookie。您可以[此处](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_overview.html)。
 
-## 保护页面
+## 安全页面
 
-如果您的站点包含使用https协议的页面，则您具有安全页面。Adobe Analytics跟踪的大多数页面视图都使用https协议进行保护。安全页面需要使用 SSL 证书进行跟踪。如果您的Web资产使用第三方cookie，则安全页面使用Adobe拥有的SSL证书，这允许不使用CMS SSL实施安全地将数据发送到我们的数据收集服务器。
+如果您的站点包含使用https协议的页面，则您的页面将受到保护。 Adobe Analytics跟踪的大多数页面查看都使用https协议进行保护。 安全页面需要使用 SSL 证书进行跟踪。如果您的Web属性使用第三方Cookie，则您的安全页面会使用Adobe拥有的SSL证书，这允许将数据安全地发送到我们的数据收集服务器，而无需FPSSL实施。
 
 ## DNS 更改（CNAME 更新）
 
