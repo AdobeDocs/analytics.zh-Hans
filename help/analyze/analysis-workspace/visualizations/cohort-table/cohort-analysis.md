@@ -6,7 +6,7 @@ title: 什么是同类群组分析？
 topic: Reports and Analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: d2014912533b5dda5bd97401a6f3386a2d08a27e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -47,7 +47,7 @@ A *`cohort`* is a group of people sharing common characteristics over a specifie
 
 ### 流失率表
 
-A Churn cohort is the inverse of a retention table and shows the visitors who fell out or never met the return criteria for your cohort over time. 您最多可以包含 3 个量度和 10 个区段。
+客户流失同期群与保留表相反，它显示长期不满足或未达到该同期群返回标准的访客。 您最多可以包含 3 个量度和 10 个区段。
 
 ![](assets/churn-report.png)
 
