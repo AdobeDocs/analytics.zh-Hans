@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 临时分析项目转换器概述
-title: 临时分析项目转换器概述
-uuid: 7d78753d-d56 c-4eEA-b1 dd-7c9 ec225 cce3
+seo-title: Ad Hoc Analysis 项目转换器概述
+title: Ad Hoc Analysis 项目转换器概述
+uuid: 7d78753d-d56c-4eea-b1dd-7c9ec225cce3
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 临时分析项目转换器概述
+# Ad Hoc Analysis 项目转换器概述
 
 Ad Hoc Analysis 项目转换器可将您的所有 Ad Hoc 项目无缝地转换到 Analysis Workspace。
 
