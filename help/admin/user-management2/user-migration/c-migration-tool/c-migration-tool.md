@@ -5,7 +5,7 @@ seo-title: 将 Analytics 用户迁移到 Admin Console
 title: 将 Analytics 用户迁移到 Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: 3276298eed17827c92162dd09856bed3f22de468
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -135,7 +135,7 @@ On this page:
   </tr> 
   <tr> 
    <td colname="col1"> <p>我可以加快迁移进度吗？ </p> </td> 
-   <td colname="col2"> <p>可以。但是，Adobe 建议您利用迁移开始前的时间进行如下准备工作： </p> 
+   <td colname="col2"> <p>能。但是，Adobe 建议您利用迁移开始前的时间进行如下准备工作： </p> 
     <ul id="ul_52C7EC44A5534975BFD7A6F37A829C25"> 
      <li id="li_8CFFF72877E8456DAC3241143AD648AD">确认您是 Admin Console 中的 Analytics 产品管理员。 </li> 
      <li id="li_25DAA8D1EEDA45A0B5B59472BD8896C4">与您的用户群沟通，告知他们的登录体验在迁移开始后将发生改变。 </li> 
@@ -148,7 +148,7 @@ On this page:
   </tr> 
   <tr> 
    <td colname="col1"> <p>我能推迟迁移开始日期吗？ </p> </td> 
-   <td colname="col2"> <p>可以。联系 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="html" scope="external">Adobe 客户关怀</a>。 </p> 
+   <td colname="col2"> <p>能。联系 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="html" scope="external">Adobe 客户关怀</a>。 </p> 
     <draft-comment> 
      <p>有关在开始日期对当前Analytics用户和权限管理所做的更改的说明，请参阅下文。 </p> 
     </draft-comment> </td> 
@@ -189,7 +189,7 @@ On this page:
   </tr> 
   <tr> 
    <td colname="col1"> <p>我可以更新未迁移用户的权限组成员资格吗？ </p> </td> 
-   <td colname="col2"> <p>可以。您可以从“Analytics 用户管理”部分中更改未迁移用户的组成员资格。 </p> 
+   <td colname="col2"> <p>能。您可以从“Analytics 用户管理”部分中更改未迁移用户的组成员资格。 </p> 
     <draft-comment> 
      <p>等待Ashok的澄清，说明这是在哪里完成的。 </p> 
     </draft-comment> </td> 
@@ -200,7 +200,7 @@ On this page:
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用迁移工具迁移的用户会分配他们在 Analytics 中拥有的相同权限吗？ </p> </td> 
-   <td colname="col2"> <p>可以。使用工具迁移的用户将被授予他们当前在 Analytics 中拥有的权限。此外，他们在通过 Experience Cloud 访问 Analytics 时，还将保留对其 Analytics 资产（如区段、项目、计算量度等等）的访问权限。 </p> </td> 
+   <td colname="col2"> <p>能。使用工具迁移的用户将被授予他们当前在 Analytics 中拥有的权限。此外，他们在通过 Experience Cloud 访问 Analytics 时，还将保留对其 Analytics 资产（如区段、项目、计算量度等等）的访问权限。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>迁移到 Admin Console 的用户可继续使用 <span class="filepath">my.omniture.com</span> 访问 Analytics 吗？ </p> </td> 
