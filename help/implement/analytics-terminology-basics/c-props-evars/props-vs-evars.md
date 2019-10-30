@@ -1,13 +1,13 @@
 ---
 description: Marketing Cloud 中可使用多种类型的变量。其中两种最常见的类型 Prop 和 eVar，允许您的组织对网站报告自定义维度，而标准的现成报表则无法提供此功能。
-keywords: Analytics实施；prop；evar；props与evar；命名惯例；流量变量；持久性；成功事件；painse
+keywords: Analytics 实施;prop;eVar;prop 与 eVar;命名约定;流量变量;永久性;成功事件;路径分析
 seo-description: Marketing Cloud 中可使用多种类型的变量。其中两种最常见的类型 Prop 和 eVar，允许您的组织对网站报告自定义维度，而标准的现成报表则无法提供此功能。
 seo-title: 比较 Prop 和 eVar
 solution: Analytics
 title: 比较 Prop 和 eVar
 topic: 开发人员和实施
-uuid: 0f02760f-ff69-481c-a817-799f02 dafe8 e
-translation-type: tm+mt
+uuid: 0f02760f-ff69-481c-a817-799f02dafe8e
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -124,7 +124,7 @@ Marketing Cloud 中可使用多种类型的变量。其中两种最常见的类�
    <td colname="col3"> <p><img  src="assets/check-mark.png" id="image_F5D4BDE1AA9C4C58A6402418390EEC52" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>访问次数 </p> </td> 
+   <td colname="col1"> <p>访问 </p> </td> 
    <td colname="col2"> <p><img  src="assets/check-mark.png" id="image_017BB279C5824028870360A5D4D27556" /> </p> </td> 
    <td colname="col3"> <p><img  src="assets/check-mark.png" id="image_2832E346D220429DA643B908EC10260D" /> </p> </td> 
   </tr> 
@@ -140,7 +140,7 @@ Marketing Cloud 中可使用多种类型的变量。其中两种最常见的类�
 prop 具备 eVar 的多个优势，有些甚至更胜一筹：
 
 * prop 数据一经收集后几乎可以立即显示在报表中。eVar 则要经过 30 多分钟才能显示在报表包数据中。
-* 所有的 prop 都可以启用类似于流程图的报表，让您能够看到访客在访问您的网站时所采用的路径。These pathing flow reports are available for both Props and eVars in [!UICONTROL Ad Hoc Analysis].
+* 所有的 prop 都可以启用类似于流程图的报表，让您能够看到访客在访问您的网站时所采用的路径。在 [!UICONTROL Ad Hoc Analysis] 中，这些路径流程报表同时适用于 prop 和 eVar。
 * prop 可以在多个级别进行关联，而 eVar 只能进行一次子关联。可以通过使用区段、为相同的数据建立关联来消除这种局限性。
 * 参与量度可用于查看在一次成功事件之前，都有哪些 prop 值参与。
 
@@ -159,5 +159,5 @@ prop 具备 eVar 的多个优势，有些甚至更胜一筹：
 
 >[!TIP]
 >
->如果不希望eVar持续存在，您可以更改其到期以“点击”，以免超出点击范围。
+>如果您不想让 eVar 持久，那么可以将其有效期限改成“点击”，这样就不会再保存“点击”之后的任何数据。
 
