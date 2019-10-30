@@ -5,7 +5,7 @@ seo-title: 计划管理器
 solution: Analytics
 title: 计划管理器
 topic: Ad Hoc Analysis
-uuid: 82a054ef-109d-414d-6e1-e09 ee57 c163 f
+uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
@@ -16,19 +16,19 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 您可以自定义报表的提交计划。可以在特定时间停止提交操作，或指定发送报表的次数。新计划使用在报表中定义的日期范围。例如，如果针对过去 90 天创建一个报表，并计划每天运行该报表，则会每天收到针对过去 90 天的报表。如果您从日历创建了一个固定日期范围的报表，则在每次发送此报表时您将看见相同的报表。
 
-## 日程安排管理器 {#concept_A1CDE14B72A54DD6AE17B816092CAB8B}
+## 计划管理器 {#concept_A1CDE14B72A54DD6AE17B816092CAB8B}
 
 您可以自定义报表的提交计划。可以在特定时间停止提交操作，或指定发送报表的次数。新计划使用在报表中定义的日期范围。例如，如果针对过去 90 天创建一个报表，并计划每天运行该报表，则会每天收到针对过去 90 天的报表。如果您从日历创建了一个固定日期范围的报表，则在每次发送此报表时您将看见相同的报表。
 
 >[!NOTE]
 >
->禁用某个用户帐户后，该用户创建的任何计划报告交付将被挂起。
+>禁用用户帐户后，该用户创建的所有计划报表提交都将被挂起。
 
-To ensure that line items in a breakdown are persistent in saved and scheduled reports, use the **[!UICONTROL Edit Items]** feature in the [Table Builder](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) to create fixed dimension lists in breakdowns.
+要确保细分中的行项目在保存的和计划的报表中保持不变，请使用 **[!UICONTROL Table Builder]** （表生成器）中的“编辑项目”功能在 [](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) 细分中创建固定维度列表。
 
 >[!IMPORTANT]
 >
->临时分析可让您快速定义和计划报告，以满足特定、及时、专门的报告需求。它本身并不适合通过数据提取来完整地导出含有大量行、列、量度评估或庞大划分的数据。
+>通过Ad Hoc Analysis，您可以快速定义和计划针对特定、及时的临时报告需求的报告。 它本身并不适合通过数据提取来完整地导出含有大量行、列、量度评估或庞大划分的数据。
 >
 >在对 Ad Hoc Analysis 中的计划报表进行实际限制时，应当基于以下原则：如果不能在十分钟内（Ad Hoc Analysis 的超时期限）构建报表，则说明报表很可能过于复杂。
 >
