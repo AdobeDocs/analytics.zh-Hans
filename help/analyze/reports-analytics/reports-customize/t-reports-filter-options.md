@@ -4,15 +4,15 @@ seo-description: 使用这些过滤器可以限制报表的内容，使其包括
 seo-title: 过滤报表数据
 solution: Analytics
 title: 过滤报表数据
-topic: Reports & Analytics
-uuid: b6dcaafa7-61f0-4793-870d-e1 d15675 d5 a
+topic: Reports and Analytics
+uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: bf67baa33bc21e71c911d5108ee6044adf634fce
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Filter Report Data {#concept_09DC5B986A644738B12204DAC76A90E1}
+# 过滤报告数据 {#concept_09DC5B986A644738B12204DAC76A90E1}
 
 使用这些过滤器可以限制报表的内容，使其包括或排除与过滤器匹配的行项目。
 
@@ -48,9 +48,7 @@ help:Internal Search Term
 
 如果在行项目的任意位置找到了相关词语，则匹配成功。它的操作方式与简单过滤器相同。
 
->[!NOTE]
->
->无法在过滤器中使用空格，因为搜索中的空格是分隔符
+> [!NOTE] 空格不能用在筛选器中，因为空格是搜索中的分隔符
 
 **不包含**
 
@@ -131,7 +129,7 @@ Ocean Blue Jean
 | 高级（特殊字符） | 描述 |
 |--- |--- |
 | `" "` | 匹配确切的短语。 |
-| `*` | 通配符，属于贪婪匹配。<br>例如 `r*p` ，匹配“注册注册”。 |
+| `*` | 通配符，属于贪婪匹配。<br>例如，匹 `r*p` 配“注册注册注册”。 |
 | `^` | 开始于. <br>不要在特殊字符与搜索短语之间包括空格。 |
 | `$` | 结束于. <br>不要在特殊字符与搜索短语之间包括空格。 |
 | `-` | 非. <br>不要在特殊字符与搜索短语之间包括空格。 |
@@ -157,7 +155,7 @@ t_reports_filter_specific.xml
 1.  在报表标题中，点击&#x200B;**过滤器**&#x200B;链接。
 1.  在[!UICONTROL 过滤器选择器]**页面，单击[!UICONTROL 应用过滤器]**，然后选择一个过滤器类型。
 1.  要搜索项目，请在&#x200B;**搜索**&#x200B;字段中键入字符串。
-1. Click **[!UICONTROL OK]**.
+1. 单击&#x200B;**[!UICONTROL 确定]**。
 
 ## 添加关联过滤器 {#task_065042E384DA4BF3864C58AF2B88D6E2}
 
