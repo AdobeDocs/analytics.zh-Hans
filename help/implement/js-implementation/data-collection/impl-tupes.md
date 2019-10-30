@@ -6,8 +6,8 @@ seo-title: 跨不同的实施类型跟踪
 solution: Analytics
 title: 跨不同的实施类型跟踪
 topic: 开发人员和实施
-uuid: a0a3229a-79a2-4dc2-b0 be-4b8 fox3 a
-translation-type: tm+mt
+uuid: a0a3229a-79a2-4dc2-b0be-4b8fac2efa3a
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -22,6 +22,6 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * *`s_account`*
 * *`s.visitorNamespace`*
 * *`s.trackingServer`*
-* *`s.trackingServerSecure`* (如果使用SSL)
+* *`s.trackingServerSecure`*（如果使用 SSL）
 
 如果其中某个变量在实施中不匹配，可作为单独访客跟踪用户。
