@@ -3,7 +3,7 @@ description: 这部分内容主要面向 Adobe Analytics 管理员。关注的�
 seo-description: 这部分内容主要面向 Adobe Analytics 管理员。关注的重点是新的链接跟踪参数，以及这些参数如何确保链接在各种浏览器和设备上的唯一性和一致性，以及如何更好地处理链接在页面上的位置变换。
 seo-title: 链接跟踪方法
 solution: Analytics
-title: 链接跟踪方法
+title: 链接跟踪 方法论
 topic: Activity Map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
