@@ -2,7 +2,7 @@
 title: Cross-Device Analytics
 description: 跨设备分析通过将设备数据拼接在一起，将您的数据从以设备为中心转变为以人为中心。
 translation-type: tm+mt
-source-git-commit: ca79141a353dbd09176dbbe295611656262ba107
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
