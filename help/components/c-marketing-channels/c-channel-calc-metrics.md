@@ -1,27 +1,27 @@
 ---
-description: 在Analytics中向营销渠道报告添加计算量度。
-seo-description: 在Analytics中向营销渠道报告添加计算量度。
-seo-title: 计算指标使用营销渠道报告
+description: 在Analytics中向营销渠道报表添加计算量度。
+seo-description: 在Analytics中向营销渠道报表添加计算量度。
+seo-title: 营销渠道报表中使用的计算量度
 solution: Analytics
 subtopic: 营销渠道
-title: 计算指标使用营销渠道报告
-topic: Reports & Analytics
-uuid: b33dd05b-4c55-436b-88da-396cb42ef01c
+title: 营销渠道报表中使用的计算量度
+topic: Reports and Analytics
+uuid: b33dd05b-4c85-436b-88da-396cb42ef01c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 计算指标使用营销渠道报告
+# 营销渠道报表中使用的计算量度
 
-在Analytics中向营销渠道报告添加计算量度。
+在Analytics中向营销渠道报表添加计算量度。
 
-## Calculated metrics used Marketing Channel reports {#topic_4521D324A79E43EF99E69FCDE1E92F74}
+## 营销渠道报表中使用的计算量度 {#topic_4521D324A79E43EF99E69FCDE1E92F74}
 
-在Analytics中向营销渠道报告添加计算量度。
+在Analytics中向营销渠道报表添加计算量度。
 
-[!UICONTROL 营销渠道]报表也提供在 Reports &amp; Analytics 中创建的计算量度，包括首次联系和最近联系对应量度。例如，如果您创建了一个名为“每订单收入”的计算量度，则营销渠道报表中会以&#x200B;*`First Touch Revenue per Order`**`Last Touch Revenue per Order`*&#x200B;和.
+[!UICONTROL 营销渠道]报表也提供在 Reports &amp; Analytics 中创建的计算量度，包括首次联系和最近联系对应量度。例如，如果您创建了一个名为“每订单收入”的计算量度，则营销渠道报表中会以 *`First Touch Revenue per Order`* 和 *`Last Touch Revenue per Order`*.
 
 您可以直接从[!UICONTROL 营销渠道报表]中创建计算量度。计算量度使您能够对首次联系和最近联系渠道量度进行有效的比较。例如，您可以显示首次联系和最近联系的收入之间有何差异。
 
@@ -33,7 +33,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    See [Run Marketing Channel reports](../../components/c-marketing-channels/t-reports-sc.md#task_AED9E5814809432AB00955CC54F80C84).
 
-1. In the report, click **[!UICONTROL Edit.]** ![](assets/metric_edit_icon.png)
+1. **[!UICONTROL 在报告中，单击“编]**&#x200B;辑”。 ![](assets/metric_edit_icon.png)
 
    >[!NOTE]
    >
