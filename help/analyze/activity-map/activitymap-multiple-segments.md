@@ -7,7 +7,7 @@ title: 客户分段
 topic: Activity Map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 Lets you apply a multiple-segment filter within [!DNL Activity Map].
 
->[!NOTE]
->
->“细分”控件仅在标准模式下可用，因为Adobe Analytics平台不支持对实时数据进行分段。
+> [!NOTE] “细分”控件仅在标准模式下可用，因为Adobe Analytics平台不支持对实时数据进行分段。
 
 您可以从下面显示的&#x200B;**[!UICONTROL 区段]下拉菜单中选择一个或多个区段。**&#x200B;列出的区段与您所拥有的区段或者通过“Reports &amp; Analytics”与您共享的区段（用于选定的报表包）相同。
 
