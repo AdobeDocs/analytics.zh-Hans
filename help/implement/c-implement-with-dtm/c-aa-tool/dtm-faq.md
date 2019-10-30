@@ -6,8 +6,8 @@ seo-title: 关于 Adobe Analytics 工具的常见问题解答
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 关于 Adobe Analytics 工具的常见问题解答
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,11 +26,11 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
  <tbody> 
   <tr> 
    <td colname="col1"> <p> 通过 DTM 实施 Adobe Analytics 时，我应将插件放在何处？ </p> </td> 
-   <td colname="col2"> <p> 如果使用 DTM 手动托管 <code>s_code</code>，则可以将插件添加到与托管的 <code>s_code</code> 相同的编辑器中，就像在常规的 Adobe Analytics 实施中一样。 </p> <p>但是，也可以将插件放入工具设置的<span class="term">自定义页面代码</span>部分的编辑器中。两种实施方法应具有同等效力。 </p> </td> 
+   <td colname="col2"> <p> 如果使用 DTM 手动托管 <code> s_code</code>，则可以将插件添加到与托管的 <code> s_code</code> 相同的编辑器中，就像在常规的 Adobe Analytics 实施中一样。 </p> <p>但是，也可以将插件放入工具设置的<span class="term">自定义页面代码</span>部分的编辑器中。两种实施方法应具有同等效力。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>如果我在新版工具中更改配置，我能否先在暂存环境中进行测试，然后再发布到生产环境？ </p> </td> 
-   <td colname="col2"> <p>可以。 </p> <p>在部署到生产环境之前，所有更改均可像往常一样在暂存环境中进行测试。如果您因在暂存环境中发现问题而选择不发布，则生产代码将继续像在发行新集成之前那样运行。 </p> </td> 
+   <td colname="col2"> <p>能。 </p> <p>在部署到生产环境之前，所有更改均可像往常一样在暂存环境中进行测试。如果您因在暂存环境中发现问题而选择不发布，则生产代码将继续像在发行新集成之前那样运行。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>如果我从手动配置（现有工具的默认设置）切换到自动配置，我当前的设置是否会受到影响？ </p> </td> 
