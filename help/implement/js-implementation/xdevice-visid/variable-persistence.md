@@ -2,22 +2,22 @@
 description: 在访客资料与同一访客 ID 变量关联后进行合并时，历史数据集中的属性不会发生更改。
 keywords: Analytics 实施
 seo-description: 在访客资料与同一访客 ID 变量关联后进行合并时，历史数据集中的属性不会发生更改。
-seo-title: 归因和持久性
+seo-title: 属性和永久性
 solution: Analytics
-title: 归因和持久性
+title: 属性和永久性
 topic: 开发人员和实施
-uuid: dd706be-83f6-498a-a856-e3 c5 af995348
-translation-type: tm+mt
+uuid: 5dd706be-83f6-498a-a856-e3c5af995348
+translation-type: ht
 source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 ---
 
 
-# 归因和持久性
+# 属性和永久性
 
 >[!IMPORTANT]
 >
->不再建议跨设备识别访客的方法。Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+>不再建议使用这种方法来识别跨设备访客。请参阅 [Adobe Experience Cloud 设备协作文档](https://marketing.adobe.com/resources/help/zh_CN/mcdc/)。
 
 在访客资料与同一访客 ID 变量关联后进行合并时，历史数据集中的属性不会发生更改。
 
@@ -31,12 +31,12 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 以下示例显示了当客户在第一个设备上首次进行验证时，如何将数据发送到 Adobe Analytics：
 
-* `eVar16` 有效期为天，访问 `evar17` 期满。
+* `eVar16` 的有效期限为 1 天，而 `evar17` 在访问时过期。
 
-* `post_visitor_id` 列代表由Adobe Analytics维护的配置文件。
-* The `post_evar16` and `post_evar17` columns show shows the persistence of eVars.
+* `post_visitor_id` 列表示由 Adobe Analytics 维护的资料。
+* `post_evar16` 和 `post_evar17` 列显示 eVar 的永久性。
 
-* `cust_visid` 表示设置的值 `s.visitorID`。
+* `cust_visid` 表示 `s.visitorID` 中设置的值。
 
 * 每一行就是一次“点击”，即发送到 Adobe Analytics 数据收集服务器的一个请求。
 
