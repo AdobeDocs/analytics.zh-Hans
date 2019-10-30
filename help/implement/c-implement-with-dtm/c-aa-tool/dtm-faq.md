@@ -1,12 +1,12 @@
 ---
 description: 有关 Adobe Analytics 部署的自动配置的常见问题解答。自动配置方法可为您管理 AppMeasurement 代码。
-keywords: 动态标签管理；插件；暂存；对当前设置的影响；修订历史记录；潜在缺陷；报表包ID；货币代码；跟踪服务器；ssl跟踪服务器；自定义代码；库管理
+keywords: Dynamic Tag Management;插件;暂存;对当前设置的影响;修订历史记录;潜在风险;报表包 ID;货币代码;跟踪服务器;ssl 跟踪服务器;自定义代码;库管理
 seo-description: 有关 Adobe Analytics 部署的自动配置的常见问题解答。自动配置方法可为您管理 AppMeasurement 代码。
 seo-title: 关于 Adobe Analytics 工具的常见问题解答
-solution: Experience Cloud，分析，目标，动态标签管理
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 关于 Adobe Analytics 工具的常见问题解答
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 # 关于 Adobe Analytics 工具的常见问题解答
 
-有关 Adobe Analytics 部署的自动配置的常见问题解答。The automatic configuration method manages the [!DNL AppMeasurement] code for you.
+有关 Adobe Analytics 部署的自动配置的常见问题解答。自动配置方法可为您管理 [!DNL AppMeasurement] 代码。
 
 <table id="table_A50D00E2C47A473B92DA800FB08FE640"> 
  <thead> 
@@ -26,7 +26,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
  <tbody> 
   <tr> 
    <td colname="col1"> <p> 通过 DTM 实施 Adobe Analytics 时，我应将插件放在何处？ </p> </td> 
-   <td colname="col2"> <p> 如果使用 DTM 手动托管 <code>s_code</code>，则可以将插件添加到与托管的 <code>s_code</code> 相同的编辑器中，就像在常规的 Adobe Analytics 实施中一样。 </p> <p>但是，也可以选择将插件放入工具设置的“自定义页面代码” <span class="term"> 部分的编辑器中</span> 。 两种实施方法应具有同等效力。 </p> </td> 
+   <td colname="col2"> <p> 如果使用 DTM 手动托管 <code>s_code</code>，则可以将插件添加到与托管的 <code>s_code</code> 相同的编辑器中，就像在常规的 Adobe Analytics 实施中一样。 </p> <p>但是，也可以将插件放入工具设置的<span class="term">自定义页面代码</span>部分的编辑器中。两种实施方法应具有同等效力。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>如果我在新版工具中更改配置，我能否先在暂存环境中进行测试，然后再发布到生产环境？ </p> </td> 
@@ -47,7 +47,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
  </tbody> 
 </table>
 
-See [Add Adobe Analytics Tool](../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8) for configuration information.
+请参阅[添加 Adobe Analytics 工具](../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8)获取配置信息。
 
 ## 潜在危险 {#section_201BF9E0EB7D4BC2B72A617543C2030B}
 
@@ -58,5 +58,5 @@ See [Add Adobe Analytics Tool](../../../implement/c-implement-with-dtm/c-aa-tool
 * 在工具中正确输入报表包 ID。
 * 工具中的报表包 ID 与 [!DNL AppMeasurement] 代码中的 ID 匹配。
 * 使用支持的值正确设置货币代码、字符集、跟踪服务器和 SSL 跟踪服务器配置字段。
-* 自定义代码在中定义 [!DNL Library Management]。
+* 在 [!DNL Library Management] 中定义自定义代码。
 
