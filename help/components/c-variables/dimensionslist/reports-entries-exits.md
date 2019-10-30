@@ -4,10 +4,10 @@ seo-description: “登录页面”报表按百分比和总访问量显示哪些
 seo-title: 登录和退出
 solution: Analytics
 title: 登录和退出
-topic: 报表
-uuid: 756de55b-136b-427b-a80 c-f8220401 b1 b
+topic: 报告
+uuid: 756de55b-136b-427b-a80c-f822260131b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 # 登录和退出
 
 >[!NOTE]
->对于产品变量中具有多个值的点击，“条目和退出”将应用于点击中的所有产品值，而不仅仅是第一个值。
+>对于产品变量中具有多个值的点击，“条目”和“退出”适用于点击中的所有产品值，而不仅适用于第一个产品值。
 
 “登录页面”报表按百分比和总访问量显示哪些是新访问首先会查看的网站页面。
 
