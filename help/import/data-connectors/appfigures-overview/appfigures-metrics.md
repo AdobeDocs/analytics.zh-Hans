@@ -5,7 +5,7 @@ seo-title: 量度和维度
 title: 量度和维度
 uuid: 419a9031-1291-4ec0-a2e1-93993858991a
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,21 +33,21 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 |---|---|
 | 国家/地区名称 | 与App Store活动相关的国家／地区的名称。 |
 | 设备名称 | 与应用程序商店活动相关的移动设备的名称。 |
-| Appstore Name | 报告活动的appstore的名称。 |
+| 应用程序商店名称 | 报告活动的appstore的名称。 |
 | 应用程序名称 | 移动应用程序的名称。 |
 | 应用程序内名称 | 应用程序内购买的物品。 |
 | 类别名称 | 应用程序商店中应用程序的主要类别。 |
 | 查看标题 | 审阅的标题。 |
 | 查看评论 | 评论 |
 | Application Version | 用于生成审阅的应用程序版本。 |
-| App Store 用户 | Author (user name) of the review. |
+| App Store 用户 | 审阅的作者（用户名）。 |
 
-The following calculated metric is created by the data connectors wizard:
+数据连接器向导将创建以下计算度量：
 
 | 计算量度 | 描述 |
 |--- |--- |
-| App Store Average Rank (Numeric) | The average app ranking. This calculated metric is defined using the following formula:    /   Note:  The number of applications ranked per category and country varies between app stores. `[App Store Rank]``[App Store Rank Divisor]`<br>If your application is ranked lower than this threshold, application ranks are not available. |
-| 应用商店平均评分 | The average app rating. This calculated metric is defined using the following formula:  `[App Store Rating]` / `[App Store Rating Divisor]` |
+| 应用商店平均排名（数字） | 平均应用程序排名。 此计算量度使用以下公式定义：  `[App Store Rank]` / `[App Store Rank Divisor]` 注 <br> 意： 按类别和国家／地区排名的应用程序数量因应用商店而异。 如果应用程序的排名低于此阈值，则应用程序等级不可用。 |
+| 应用商店平均评分 | 平均应用程序评级。 This calculated metric is defined using the following formula:  `[App Store Rating]` / `[App Store Rating Divisor]` |
 
 ## 每个AppFigures量度的相关维度 {#section-cd356d3dce04412893beed345305c247}
 
@@ -57,7 +57,7 @@ The following calculated metric is created by the data connectors wizard:
  <tbody> 
   <tr> 
    <td> </td> 
-   <td> App Store Downlds </td> 
+   <td> App Store下载 </td> 
    <td> App Store购买（应用程序内） </td> 
    <td> 应用商店排名 </td> 
    <td> 应用商店排名因素 </td> 
@@ -66,7 +66,7 @@ The following calculated metric is created by the data connectors wizard:
    <td> App Store收入（应用程序内） </td> 
    <td> App Store收入（一次性） </td> 
    <td> 应用商店平均排名 </td> 
-   <td> App Store Avg. 评级 </td> 
+   <td> 应用商店平均 评级 </td> 
   </tr> 
   <tr> 
    <td> 国家/地区名称 </td> 
@@ -121,7 +121,7 @@ The following calculated metric is created by the data connectors wizard:
    <td> <p> <img id="image_A3ABC80FB852406D9593F89DE7C3DBFD" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
   </tr> 
   <tr> 
-   <td> In-app Name </td> 
+   <td> 应用程序内名称 </td> 
    <td> <p> <img id="image_4BC8937C23A24BDCB760841BF8C02E29" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_68B43745C8284A44BA589825CAC9DABE" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_A107ECAE1D154976A2FF9A8AB5746377" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
