@@ -4,10 +4,10 @@ seo-description: 显示的信息包括网站上哪些页面和区域最为活跃
 seo-title: 网站内容
 solution: Analytics
 title: 网站内容
-topic: 报表
-uuid: a14080b7-be-4513-8f17-39926c7 b70 cb
+topic: 报告
+uuid: a14080b7-be8d-4513-8f17-39926c7b70cb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
