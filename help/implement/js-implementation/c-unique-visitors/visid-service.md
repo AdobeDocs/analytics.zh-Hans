@@ -1,13 +1,13 @@
 ---
-description: 标识服务取代了旧版Analytics访客ID机制，它是心跳视频测量、Analytics for Target以及未来Experience Cloud核心服务和集成所必需的。
+description: Identity Service 取代了原有的 Analytics 访客 ID 机制，成为了心率视频测量、Analytics for Target 以及将来实现 Experience Cloud 核心服务与集成所必需的服务。
 keywords: Analytics 实施
-seo-description: 标识服务取代了旧版Analytics访客ID机制，它是心跳视频测量、Analytics for Target以及未来Experience Cloud核心服务和集成所必需的。
+seo-description: Identity Service 取代了原有的 Analytics 访客 ID 机制，成为了心率视频测量、Analytics for Target 以及将来实现 Experience Cloud 核心服务与集成所必需的服务。
 seo-title: 标识服务
 solution: Analytics
 title: 标识服务
 topic: 开发人员和实施
-uuid: ae013d4-d5 a9-4b20-bf3 b-145f0 dcc3 d6 d
-translation-type: tm+mt
+uuid: 8ae013d4-d5a9-4b20-bf3b-145f0dcc3d6d
+translation-type: ht
 source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 ---
@@ -15,6 +15,6 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 # 标识服务
 
-The Identity Service replaces the legacy Analytics visitor ID mechanism, and is required by [!UICONTROL Heartbeat] video measurement, Analytics for Target, and future Experience Cloud core services and integrations.
+Identity Service 取代了原有的 Analytics 访客 ID 机制，成为了[!UICONTROL 心率]视频测量、Analytics for Target 以及将来实现 Experience Cloud 核心服务与集成所必需的服务。
 
-See [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/) for product documentation about this service.
+有关此服务的产品文档，请参阅 [Identity Service](https://marketing.adobe.com/resources/help/zh_CN/mcvid/)。
