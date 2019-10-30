@@ -1,18 +1,18 @@
 ---
 description: 设置并使用 Adobe 托管的 FTP 帐户。
-keywords: ftp；sftp
+keywords: ftp;sftp
 seo-description: 设置并使用 Adobe 托管的 FTP 帐户。
-seo-title: 设置FTP帐户-概述
+seo-title: 设置 FTP 帐户 - 概述
 solution: Analytics
-title: 设置FTP帐户-概述
-uuid: e5524619-248a-4aae-9f64-cd7 d33 f3 c407
+title: 设置 FTP 帐户 - 概述
+uuid: e5524619-248a-4aae-9f64-cd7d33f3c407
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 设置FTP帐户-概述
+# 设置 FTP 帐户 - 概述
 
 设置并使用 Adobe 托管的 FTP 帐户。
 
