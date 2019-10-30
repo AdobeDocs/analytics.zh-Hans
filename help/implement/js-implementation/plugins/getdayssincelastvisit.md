@@ -8,8 +8,8 @@ subtopic: 插件
 title: getDaysSinceLastVisit
 topic: 开发人员和实施
 uuid: cad95882-3bd0-4f94-a0c3-4e7b6058d246
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!IMPORTANT]
 >
->[Analysis Workspace](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/) 现在包括现有的&#x200B;**[!UICONTROL 上次访问间隔天数]**&#x200B;维度，因此不再需要使用该插件。
+>[Analysis Workspace现在包](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) 含“自上次访问以来的天数 **** ”维，因此无法使用此插件。
 
 此回访频度数据可用于解答以下问题：
 
@@ -30,9 +30,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 插件还可以生成用于划分区段的值。例如，您可以创建一个区段，仅查看 30 天或更久未访问的客户的所有访问数据。
 
->[!NOTE]
->
->下面的说明需要您更改网站上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
+> [!NOTE]下面的说明需要您更改网站上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
 
 ## 插件代码和实施 {#section_5600DBB819F143D59527A73BD94418DE}
 
@@ -70,7 +68,7 @@ s.getDaysSinceLastVisit=new Function("c",""
 +"!=f5) return '';else return cval_s;");
 ```
 
-**注意**
+**注释**
 
 * 在生产环境中进行部署之前，请务必对插件安装进行广泛地测试，以确保可按预期进行数据收集。
 * 此插件根据回访频度将用户分类为以下群组：
