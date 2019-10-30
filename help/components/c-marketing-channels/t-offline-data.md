@@ -3,12 +3,12 @@ description: 向营销渠道报表中添加离线数据。
 seo-description: 向营销渠道报表中添加离线数据。
 seo-title: 添加脱机数据
 solution: Analytics
-subtopic: Marketing channels
+subtopic: 营销渠道
 title: 添加脱机数据
 topic: Reports and Analytics
 uuid: bbf4661a-b6b1-4a89-a3cf-ae8dd785d37d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 在线渠道可让您对通过搜索引擎、互联网广告、反向链接域或电子邮件促销活动来访的访客数据进行分类。离线渠道适用于通过电视广告、报纸或杂志广告发现您网站的访客。
 
-**Integrate data sources into Marketing Channel reports**
+**将数据源集成到营销渠道报告中**
 
 如果要将[来自数据源的数据](https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_faq.html)集成到营销渠道报表，请谨记以下几点：
 
