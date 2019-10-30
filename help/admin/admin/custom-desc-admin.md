@@ -5,9 +5,9 @@ seo-title: 自定义报表描述
 solution: Analytics
 title: 自定义报表描述
 topic: 管理工具
-uuid: df7b57ab-4bd9-4465-bcd1-d47647 ee3 ff
+uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,11 +16,9 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
 
 您可以为 eVar、prop、分类和事件提供自定义报表描述。这些描述对所有最终用户都是可见的。
 
-**[!UICONTROL “分析]** ”&gt;“ **[!UICONTROL 管理员]** ”&gt; **[!UICONTROL “报表包]** ”&gt; **[!UICONTROL “编辑设置]** ”&gt; **[!UICONTROL *变量*]**
+**[!UICONTROL Analytics]** &gt; Admin **[!UICONTROL &gt; Report Suites &gt;]** **[!UICONTROL Edit Settings]** &gt; ******[!UICONTROL *Variable*]**
 
->[!NOTE]
->
->添加描述可用于大多数传统分类，但当前不适用于移动分类。
+> [!NOTE] 添加描述适用于大多数传统分类，但当前不适用于移动设备分类。
 
 ![](assets/report_descriptions.png)
 
