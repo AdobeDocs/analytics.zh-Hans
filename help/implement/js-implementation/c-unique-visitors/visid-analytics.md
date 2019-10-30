@@ -7,8 +7,8 @@ solution: Analytics
 title: Analytics 访客 ID
 topic: 开发人员和实施
 uuid: fa7737cc-0190-4d27-af1b-87301a715df2
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 有些浏览器（如 Apple Safari）不再存储来源域与当前网站所在域不匹配的 HTTP 头中设置的 Cookie（这是第三方上下文中使用的 Cookie 或第三方 Cookie）。例如，如果您在 `mysite.com` 上，您的数据收集服务器为 `mysite.omtrdc.net`，那么从 `mysite.omtrdc.net` 的 HTTP 标头中返回的 Cookie 可能会遭到浏览器的拒绝。
 
-为避免这种情况，许多客户为其数据收集服务器实施了 CNAME 记录作为[第一方 Cookie 实施](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/)的一部分。如果 CNAME 记录被配置为将客户域上的主机名映射至数据收集服务器（例如将 `metrics.mysite.com` 映射至 `mysite.omtrdc.net`），则会存储访客 ID Cookie，因为数据收集域现在与网站的域相匹配。这提高了访客 ID Cookie 被存储的概率，但也会增加一些开销，因为需要为数据收集服务器配置 CNAME 记录并维护 SSL 证书。
+为了避免这种情况，很多客户为其数据收集服务器实施了 CNAME 记录，以此作为[第一方 Cookie 实施](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/)的一部分。如果 CNAME 记录被配置为将客户域上的主机名映射至数据收集服务器（例如将 `metrics.mysite.com` 映射至 `mysite.omtrdc.net`），则会存储访客 ID Cookie，因为数据收集域现在与网站的域相匹配。这提高了访客 ID Cookie 被存储的概率，但也会增加一些开销，因为需要为数据收集服务器配置 CNAME 记录并维护 SSL 证书。
 
 ## 移动设备上的 Cookie {#section_7D05AE259E024F73A95C48BD1E419851}
 
