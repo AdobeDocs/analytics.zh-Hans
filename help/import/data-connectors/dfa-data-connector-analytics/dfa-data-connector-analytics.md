@@ -8,14 +8,14 @@ title: Adobe Analytics 的 DFA Data Connectors
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Adobe Analytics 的 DFA Data Connectors{#dfa-data-connector-for-adobe-analytics}
 
-在当今日益复杂且竞争加剧的在线市场中，在线广告商和代理机构必须不断提升他们对于在线市场营销环境及广告投入回报的理解。尽管广告商、代理机构和发布商都具有单独的工具来帮助实现这些目标，然而从千差万别的数据系统和流程手动汇总数据可能会严重削弱在线市场营销促销活动的效果，最终只能得到不太理想的促销活动效果、并造成数据差异和混乱。
+在当今日益复杂和竞争激烈的在线市场中，在线广告商和代理商必须不断提高他们对在线营销环境及其广告支出回报的了解。 尽管广告商、代理机构和发布商都具有单独的工具来帮助实现这些目标，然而从千差万别的数据系统和流程手动汇总数据可能会严重削弱在线市场营销促销活动的效果，最终只能得到不太理想的促销活动效果、并造成数据差异和混乱。
 
 DoubleClick for Advertisers (DFA) 集成使用 Adobe® Data connectors™ 以允许 DoubleClick DFA 将数据自动传递到报告与分析，从而解决了此问题。
 
@@ -42,17 +42,17 @@ Data Connectors - DFA 集成的主要优点包括：
 
 ![](assets/Diagram1.png)
 
-访客到达托管该广告的发布商网站。此广告具有一个唯一标识符，称为广告 ID。广告由版面和创作两部分构成，它们分别描述了广告在发布商网站上的位置以及向访客显示的具体内容。当访客从 DFA 内容服务器获取此广告、版面或创作时，它会跟踪 DFA Floodlight 服务器对该访客 (1) 的展示。
+访客到达承载广告的出版商网站。 此广告具有一个唯一标识符，称为广告 ID。广告包括版面和创意，描述广告在发布者网站上的位置以及向访客显示的内容。 当访客从 DFA 内容服务器获取此广告、版面或创作时，它会跟踪 DFA Floodlight 服务器对该访客 (1) 的展示。
 
 如果该访客点击广告 (2)，将会查询 Floodlight 服务器（这计为一次点击），然后 302 将访客重定向 (3) 至登陆页面。当访客到达登陆页面后，即可称其为一次点进。此页面包含 Adobe 跟踪代码，用于从 DFA Floodlight 服务器中查询数据。
 
-如果访客在 Floodlight 服务器跟踪到一次点击后没有真正到达登陆页面，则不能称为一次点进。某些广告和实施实际上可能没有让访客的浏览器遵守 302 重定向。有关此主题的进一步讨论，请参阅[协调量度差异](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)。
+如果访客在 Floodlight 服务器跟踪到一次点击后没有真正到达登陆页面，则不能称为一次点进。某些广告和实施实际上可能不会导致访客的浏览器遵守302重定向。 有关此主题的进一步讨论，请参阅协调 [度量差异](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)。
 
 如果访客在收到广告展示后没有点击它，但仍在不久之后通过其他方式到达登陆页面，此集成会捕获下一个量度。
 
 ![](assets/Viewthrough.png)
 
-此种情况即称为一次显示到达。此情况与点进的不同之处在于，访客没有点击广告，而是继续其他活动，然后来到登陆页面 (2)。最简单的例子是，访客在浏览器中键入登陆页面的 URL。其他示例包括：访客继续浏览但稍后使用搜索引擎，引擎将访客引导至登陆页面。无论如何，用户均到达登陆页面。
+此种情况即称为一次显示到达。此情况与点进的不同之处在于，访客没有点击广告，而是继续其他活动，然后来到登陆页面 (2)。在最简单的情况下，访客在浏览器中的登录页面URL中键入内容。 其他示例包括：访客继续浏览但稍后使用搜索引擎，引擎将访客引导至登陆页面。无论如何，用户均到达登陆页面。
 
 ## Adobe 集成：实时数据收集{#adobe-integration-real-time-data-collection}
 
@@ -64,7 +64,7 @@ Adobe 集成的数据收集部分从访客到达登陆页面 (1) 开始进行。
 
 在数据抵达或经过较长时间后，它会向 Adobe 跟踪服务器 (3) 触发点击。
 
-集成模块是一种特殊的核心 Adobe JavaScript 模块，它可导致 Adobe 图像信标延迟，从而等待第三方请求一段指定的时间量 (`s.maxDelay`）。`s.maxDelay`定义集成模块在触发到访客浏览器的图像标记之前，将等待来自 DFA Floodlight 服务器的数据多长时间。此行为非常重要，因此仍将收集基本访客数据，甚至在 DFA Floodlight 服务器发生故障或负载过重时也是如此。如果 Floodlight 数据在`s.maxDelay`过期之前到达，Adobe 跟踪数据将被立即触发，并将包含额外的 DFA 数据。
+集成模块是一种特殊的核心 Adobe JavaScript 模块，它可导致 Adobe 图像信标延迟，从而等待第三方请求一段指定的时间量 (`s.maxDelay`）。`s.maxDelay` 定义集成模块在将图像标记触发到访客的浏览器之前等待DFA Floodlight server数据的时间。 此行为非常重要，因此仍将收集基本访客数据，甚至在 DFA Floodlight 服务器发生故障或负载过重时也是如此。如果 Floodlight 数据在`s.maxDelay`过期之前到达，Adobe 跟踪数据将被立即触发，并将包含额外的 DFA 数据。
 
 如果发生超时，页面代码可指定一个 Adobe 报告与分析事件以用作超时事件。此事件可用于诊断集成问题，或调整 `s.maxDelay`. 如果存在过多的超时，请增加 `s.maxDelay`. `s.maxDelay` 但是，设置得过高时，访客可能会在计时器过期之前离开 `s.maxDelay` 网站。.
 
