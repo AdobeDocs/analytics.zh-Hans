@@ -5,10 +5,10 @@ seo-description: 在 Analysis Workspace 中创建自定义日期范围，并将�
 seo-title: 创建自定义日期范围
 solution: Analytics
 title: 创建自定义日期范围
-topic: Reports & Analytics
-uuid: c8873d41-454d-4f22-ad1 f-38cacec5 a3 bc
+topic: Reports and Analytics
+uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 在 Analysis Workspace 中创建自定义日期范围，并将它们另存为“时间”组件。
 
-**[!UICONTROL “组件]** ”&gt; **[!UICONTROL “新日期范围”]**
+**[!UICONTROL 组件]** &gt;新 **[!UICONTROL 建日期范围]**
 
 日期范围应用于面板级别。To add a date range to your project, click **Panels** &gt; *`<select panel>`*, and specify a new date range.
 
@@ -35,7 +35,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ![](assets/date-range-two-months-table.png)
 
-## Use a 7-day rolling date range {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
+## 使用7天滚动日期范围 {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
 
 日期范围应用于面板级别。若要在项目中添加日期范围，请单击&#x200B;**操作** &gt; **添加面板**，然后指定一个新的日期范围。
 
