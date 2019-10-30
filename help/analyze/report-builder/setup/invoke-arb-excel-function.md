@@ -1,26 +1,24 @@
 ---
 description: 此功能将 Report Builder 的使用进一步整合到常规 Excel 工作流程中，而无需您访问 Report Builder 用户界面。
 seo-description: 此功能将 Report Builder 的使用进一步整合到常规 Excel 工作流程中，而无需您访问 Report Builder 用户界面。
-seo-title: 从Microsoft Excel函数调用Report Builder功能
+seo-title: 通过 Microsoft Excel 函数调用 Report Builder 功能
 solution: Analytics
-title: 从Microsoft Excel函数调用Report Builder功能
+title: 通过 Microsoft Excel 函数调用 Report Builder 功能
 topic: Report Builder
-uuid: 5342cc4f-085d-4a2d-a498-38b00 a3 ef4 d3
+uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 从Microsoft Excel函数调用Report Builder功能
+# 通过 Microsoft Excel 函数调用 Report Builder 功能
 
 此功能将 Report Builder 的使用进一步整合到常规 Excel 工作流程中，而无需您访问 Report Builder 用户界面。
 
 例如，您可能希望自动刷新如下 Report Builder 请求：其输入过滤器基于 Excel 中从其他来源提取的数据。现在，您可以使用 RefreshRequestsInCellsRange(..) 字符串函数来实现此操作。所有调用均是异步的。它们会立即返回，而不等待调用完全执行。
 
->[!NOTE]
->
->必须安装Report Builder5.0(或更高版本)才能使用此功能。
+> [!NOTE] 必须安装Report Builder 5.0（或更高版本）才能使用此功能。
 
 下表列出了公开的函数：
 
