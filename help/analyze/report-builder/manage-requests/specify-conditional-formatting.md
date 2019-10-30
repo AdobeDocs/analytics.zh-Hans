@@ -1,18 +1,18 @@
 ---
 description: 创建具有嵌入请求的报表后，您可以对工作簿的单元格应用条件格式。
 seo-description: 创建具有嵌入请求的报表后，您可以对工作簿的单元格应用条件格式。
-seo-title: 指定条件格式设置
+seo-title: 指定条件格式
 solution: Analytics
-title: 指定条件格式设置
+title: 指定条件格式
 topic: Report Builder
-uuid: 13ac12f1-3498-4bf9-a6 d0-c5 d84 e0125 dc
+uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 指定条件格式设置
+# 指定条件格式
 
 创建具有嵌入请求的报表后，您可以对工作簿的单元格应用条件格式。
 
@@ -22,7 +22,5 @@ On the report builder Toolbar, click **[!UICONTROL Format]**.
 
 出于安全原因，使用 Excel 的 Visual Basic for Applications (VBA) 语言为工作簿编写的宏会被禁用。
 
->[!NOTE]
->
->条件格式是Excel功能。有关创建格式规则的信息，请参阅 Excel 文档。
+> [!NOTE] 条件格式是Excel功能。 有关创建格式规则的信息，请参阅 Excel 文档。
 
