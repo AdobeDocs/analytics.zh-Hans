@@ -5,7 +5,7 @@ seo-title: 提交访问和删除请求
 title: 提交访问和删除请求
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,9 +35,7 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 您可以通过我们的数据隐私UI门户或我们的 [数据隐私API提交数据隐私访问和](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)[删除请求。](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
->[!NOTE]
->
->数据隐私API支持在单个请求中为多个用户批量提交。 当前支持的限制是：允许单个请求 JSON 文件中有 1000 个独立用户（每个用户可以有多个 ID）。
+> [!NOTE] 数据隐私API支持在单个请求中为多个用户批量提交。 当前支持的限制是：允许单个请求 JSON 文件中有 1000 个独立用户（每个用户可以有多个 ID）。
 
 ## JSON 请求示例 {#sample-json-request}
 
@@ -122,12 +120,12 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 针对访问请求而返回的数据将为您（数据控制者）提供一个 URL，您可以借助此 URL 下载一个 ZIP 文件，其中包含您拥有的每个 Adobe 产品的目录。在 Analytics 文件夹内，可能存在：
 
-* 人物文件——源自包含匹配ID-PERSON标签的点击
+* 人员文件 - 从包含匹配的 ID-PERSON 标签的命中项派生
 
    * CSV 文件 - 每个匹配的命中项在该文件中都有一个对应的行，每个具有 ACC-ALL 或 ACC-PERSON 标签的字段都有一个对应的列，它们按时间戳排序。
    * HTML 摘要文件 - 每个 ACC-ALL 或 ACC-PERSON 标签都有一个对应的条目。每个条目会列出该字段的所有唯一值以及每个值出现的次数。包含时间戳的字段将进行四舍五入，以指定唯一的日期。
 
-* 设备文件——从其中一个字段与指定的ID-DEVICE匹配但没有一个字段与指定的ID-PERSON匹配的点击派生
+* 设备文件 - 从命中项派生，这些命中项当中的一个字段与指定的 ID-DEVICE 匹配，但没有任何字段与指定的 ID-PERSON 匹配
 
    * CSV 文件 - 每个匹配的命中项在该文件中都有一个对应的行，每个具有 ACC-ALL 标签的字段都有一个对应的列，它们按时间戳排序。
    * HTML 摘要文件 - 每个 ACC-ALL 标签都有一个对应的条目。每个条目会列出该字段的所有唯一值以及每个值出现的次数。包含时间戳的字段将进行四舍五入，以指定唯一的日期。
