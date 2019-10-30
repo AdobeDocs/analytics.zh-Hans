@@ -1,18 +1,18 @@
 ---
 description: Adobe支持将数据仓库请求导出到SFTP服务器。
-keywords: ftp；sftp
+keywords: ftp;sftp
 seo-description: Adobe支持将数据仓库请求导出到SFTP服务器。
-seo-title: 将数据仓库请求发送到SFTP服务器
+seo-title: 将 Data Warehouse 请求发送到 SFTP 服务器
 solution: Analytics
-title: 将数据仓库请求发送到SFTP服务器
-uuid: 393634a1-0643-4d63-bb6 e-fb80 f1 ba76 c1
+title: 将 Data Warehouse 请求发送到 SFTP 服务器
+uuid: 393634a1-0643-4d63-bb6e-fb80f1ba76c1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 将数据仓库请求发送到SFTP服务器
+# 将 Data Warehouse 请求发送到 SFTP 服务器
 
 Adobe支持将数据仓库请求导出到SFTP服务器。
 
@@ -20,9 +20,9 @@ Adobe支持将数据仓库请求导出到SFTP服务器。
 
 Adobe支持将数据仓库请求导出到SFTP服务器，前提是满足以下条件：
 
-* [!DNL sftp://] 协议在主机字段中指定(例如， [!DNL sftp://ftp.example.com])，并且在请求数据仓库报告时使用端口22。
+* [!DNL sftp://] 协议在主机字段(例如， [!DNL sftp://ftp.example.com])中指定，并且在请求数据仓库报表时仅使用端口22。
 
-   You can also use the [!DNL sftp+norename://] option, as described below.
+   您还可以使用 [!DNL sftp+norename://] 此选项，如下所述。
 
 * Adobe's [!DNL authorized_keys] file is in the [!DNL .ssh] directory within the root directory of the user you log in with
 
@@ -48,4 +48,4 @@ To successfully send a [!DNL Data Warehouse] request via SFTP:
 
 sFTP PUT 命令会将具有 .part 扩展名的临时文件放入指定的目录中。上传完成后，该文件扩展名将被重命名为最终的扩展名，此后便可随时供您使用。
 
-Alternatively, [!DNL sftp+norename://] can be specified instead of [!DNL sftp://] to upload the file directly with the final name, without a temporary [!DNL .part] file name during upload. 当SFTP服务器自动上传文件时，如果SFTP服务器处理文件重命名，则在上传完成之前不可能处理文件。
+Alternatively, [!DNL sftp+norename://] can be specified instead of [!DNL sftp://] to upload the file directly with the final name, without a temporary [!DNL .part] file name during upload. 当SFTP服务器在上传期间自动处理文件重命名时，此方法是合适的，并且上传完成之前不可能处理文件。
