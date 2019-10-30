@@ -1,18 +1,18 @@
 ---
 description: Report Builder 提交的优化方式及有时可能出现的错误消息的列表。
 seo-description: Report Builder 提交的优化方式及有时可能出现的错误消息的列表。
-seo-title: Report Builder的疑难解答和最佳做法
+seo-title: Report Builder 疑难解答和最佳实践
 solution: Analytics
-title: Report Builder的疑难解答和最佳做法
+title: Report Builder 疑难解答和最佳实践
 topic: Report Builder
-uuid: 36a08143-dc78-40f5-9ce9-7d16980 aa27 b
+uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Report Builder的疑难解答和最佳做法
+# Report Builder 疑难解答和最佳实践
 
 Report Builder 提交的优化方式及有时可能出现的错误消息的列表。
 
@@ -24,7 +24,7 @@ Adobe 将维度与分类之间的分隔符从下划线字符 (_) 改为 ||。此
 
 在打开具有分类请求的 ARB v5.1 工作簿时，您会体验到以下不良影响：
 
-* 打开该工作簿时，会收到以下警告：“本工作簿上次是使用 Report Builder v5.1 保存的。此版本的某些功能与安装在这台计算机上的 Report Builder 版本不兼容。我们强烈建议您在更新此工作簿之前升级到最新的 Report Builder 版本。”
+* 打开工作簿时，您会收到以下警告：“此工作簿上次使用Report Builder v5.1保存。此版本引入了一些与此计算机上安装的Report builder版本不兼容的功能。 强烈建议您先升级到最新的Report Builder版本，然后再更新此工作簿。”
 * 如果右键单击带有分类的 ARB 请求，并不会出现 Report Builder 上下文菜单（编辑请求、添加从属请求...）。
 * 如果通过单击第三个按钮或通过刷新请求管理器表单中的一系列请求来执行“全部刷新”操作，则可以成功执行分类请求。然而却无法写出分类值。
 * 您还可以通过打开请求管理器来编辑请求，然后逐行检查，直到成为正确的请求。
@@ -71,7 +71,7 @@ Report Builder 使用端口 80 和 443。确保您所在组织的防火墙允许
 
 如果 Excel 工作表名称中包含撇号或单引号，Report Builder 则不会返回值。（这是由于 Microsoft Excel 自身存在的限制所致。）
 
-**个人请求性能**
+**单个请求性能**
 
 处理速度可能会受到以下设置的影响：
 
@@ -99,7 +99,7 @@ Report Builder 使用端口 80 和 443。确保您所在组织的防火墙允许
 
 任何计划报表都会在四小时后超时。系统再尝试计划 3 次，这可能会导致失败。（一般而言，数据集越大，所用的运行时间越长。）这些超时可在 [!DNL Analytics] 报告和 Report Builder 中查看：
 
-* [!DNL Analytics]： **[!UICONTROL 收藏夹]** &gt; **[!UICONTROL 计划报告]**
+* [!DNL Analytics]:“收藏夹 **[!UICONTROL ”&gt;“计]****[!UICONTROL 划报告”]**
 
 * Report Builder：在 Excel 中，单击&#x200B;**[!UICONTROL 加载项]**&#x200B;选项卡中的[!UICONTROL 管理]。
 
@@ -107,9 +107,7 @@ Report Builder 使用端口 80 和 443。确保您所在组织的防火墙允许
 
 使用 Report Builder 过程中有时会显示的错误消息列表。
 
->[!NOTE]
->
->这只是一系列错误消息，而不是完整的列表。要了解有关解决错误的更多信息，请与您的管理员联系。
+> [!NOTE] 这只是一组错误消息，而不是完整列表。 要了解有关解决错误的更多信息，请与您的管理员联系。
 
 **此功能只能应用于打开的工作簿。**
 
