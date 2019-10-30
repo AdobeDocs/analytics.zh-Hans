@@ -4,10 +4,10 @@ seo-description: 此路径报表显示访客浏览网站上选定页面之前所
 seo-title: 上一页面
 solution: Analytics
 title: 上一页面
-topic: 报表
-uuid: 743d9931-25ed-4782-a10 a-da25 c4 f89480
+topic: 报告
+uuid: 743d9931-25ed-4782-a10a-da25c4f89480
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
