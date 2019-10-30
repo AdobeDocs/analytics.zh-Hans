@@ -8,8 +8,8 @@ subtopic: 插件
 title: getNewRepeat
 topic: 开发人员和实施
 uuid: e3e9f362-e0b1-4a2b-bb5b-98eddaa0a7f4
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 * 回访者产生的人均转化率是否比新访客高？该比率是多少？
 * 我的促销活动是否有助于持续保持访问量？例如，点击我的促销活动的用户是否在以后又进行了回访？
 
->[!NOTE]
->
->下面的说明需要您更改网站上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
+> [!NOTE]下面的说明需要您更改网站上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
 
 ## 插件代码和实施 {#section_92E94A96A4764113B5588F1B83E3DE2C}
 
@@ -34,7 +32,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 **插件配置**
 
-将以下代码置于  *`s_doPlugins()`* 函数中，该函数位于 *`s_code.js`* 文件中被标记为&#x200B;*插件配置*&#x200B;的区域中。选取一个自定义流量 (s.prop) 变量或一个自定义转化 (s.eVar) 变量，以便用于捕获保留值数据。这应该是一个已经通过“管理控制台”启用的变量，且当前未做其他任何使用。您可以使用以下示例并根据需要对它进行更新。
+将以下代码置于 *`s_doPlugins()`* 函数中，它位于 *`s_code.js`文件中被标记为*&#x200B;插件配置&#x200B;*的区域中。*&#x200B;选取一个自定义流量 (s.prop) 变量或一个自定义转化 (s.eVar) 变量，以便用于捕获保留值数据。这应该是一个已经通过“管理控制台”启用的变量，且当前未做其他任何使用。您可以使用以下示例并根据需要对它进行更新。
 
 `s.prop1=s.getNewRepeat(30,'s_getNewRepeat');`
 
