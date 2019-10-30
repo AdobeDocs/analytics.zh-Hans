@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 数据源
 title: 数据源管理器
 topic: 开发人员和实施
-uuid: cfa4a1c-7c56-421b-8ee6-a42 b334659 b1
+uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
 translation-type: tm+mt
-source-git-commit: 887f48d2ea5f21b7db95a1a8f716f7da9cf43662
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 887f48d2ea5f21b7db95a1a8f716f7da9cf43662
 
 创建、管理和查看报表包中数据源的使用情况。
 
-**[!UICONTROL “分析]** ”&gt;“ **[!UICONTROL 管理员]** ”&gt; **[!UICONTROL “数据源]**”。
+**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理员]** &gt;数 **[!UICONTROL 据源]**。
 
 ## “创建”选项卡{#section_74603FDA3D8842E49F1A51624A06DE20}
 
@@ -67,7 +67,7 @@ source-git-commit: 887f48d2ea5f21b7db95a1a8f716f7da9cf43662
    <td colname="col1"> <p>状态 </p> </td> 
    <td colname="col2"> <p> 文件的当前状态。可能的状态值包含以下几个： </p> 
     <ul id="ul_56A0BF8C1BE249F6BB39B0D11DA3997F"> 
-     <li id="li_BAB359E08EDE4E0298C0362258789603">队列中（步骤 1，共 3 步）：文件存在，但是未开始处理。如果文件没有在 30 分钟内显示，请检查关联的 <span class="filepath">.fin</span> 文件是否存在。 </li> 
+     <li id="li_BAB359E08EDE4E0298C0362258789603">队列中（步骤 1，共 3 步）：文件存在，但是未开始处理。If the file doesn't appear within 30 minutes, check that the associated <span class="filepath"> .fin</span> file is present </li> 
      <li id="li_A09A14F42CB74F01B694799740B3DA17">准备中（步骤 2，共 3 步）：正在检查文件是否出现错误或警告。 </li> 
      <li id="li_793FDCDB64CF434D82CAF5B6E9BDE557">处理中（步骤 3，共 3 步）：正在处理文件。 </li> 
      <li id="li_1D8C4B241FF0453EAF7DDFD8354C5573">失败：文件由于出错而无法处理。 </li> 
