@@ -7,7 +7,7 @@ title: 将区段发布到 Experience Cloud
 topic: 区段
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: cd2d9f90c548d3bb32a57faa47b185dc25db1d5a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 
 现在，处理最多可能需要8小时，但根据其他流量和区段大小，处理速度可能会更快。 （但是，我们目前无法通知您区段何时可用，因此您必须手动检查。）我们还将可发布区段的最大数量从20个增加到75个。 您可以在组件&gt;区段中查看已发布的区段。
 
->[!NOTE]
->
->Adobe Campaign（经典和标准）的行为方式不同，因为它在8小时的延迟之上会额外产生24小时的延迟。
+> [!NOTE] Adobe Campaign（经典和标准）的行为方式不同，因为它在8小时的延迟之上会额外产生24小时的延迟。
 
 
 ## 先决条件
@@ -77,9 +75,7 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 
 要删除已发布到 Experience Cloud 的区段，必须先取消发布该区段。要取消发布区段，只需&#x200B;**取消选中**&#x200B;用于发布该区段的复选框。
 
->[!NOTE]
->
->您&#x200B;**无法**&#x200B;取消发布以下任何一个 Adobe 解决方案当前正在使用的区段：[!DNL Analytics]（位于 [!DNL Audience Analytics] 中）、[!DNL Campaign]、[!DNL Advertising Cloud]（适用于 [!DNL Core Service] 和 [!DNL Audience Manager] 客户）和所有其他外部合作伙伴（适用于 [!DNL Audience Manager] 客户）。您&#x200B;**可以**&#x200B;取消发布 [!DNL Target] 正在使用的区段。
+> [!NOTE]您&#x200B;**无法**&#x200B;取消发布以下任何一个 Adobe 解决方案当前正在使用的区段：[!DNL Analytics]（位于 [!DNL Audience Analytics] 中）、[!DNL Campaign]、[!DNL Advertising Cloud]（适用于 [!DNL Core Service] 和 [!DNL Audience Manager] 客户）和所有其他外部合作伙伴（适用于 [!DNL Audience Manager] 客户）。您&#x200B;**可以**&#x200B;取消发布 [!DNL Target] 正在使用的区段。
 
 ## 在区段管理器中查看区段发 [!UICONTROL 布状态]
 
