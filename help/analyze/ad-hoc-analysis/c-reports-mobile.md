@@ -5,7 +5,7 @@ seo-title: 移动设备报表
 title: 移动设备报表
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,9 +20,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 为改进移动设备的访客身份验证，您必须位于运营商名单（白名单）中才能将订阅者 ID 发送到域。(You can view the carrier in the **[!UICONTROL Visitor Profile]** &gt; **[!UICONTROL Domains]** report.)
 
->[!NOTE]
->
->要在移动设备上查看报告，请登录 [Experience Cloud](https://login.experiencecloud.adobe.com)。
+> [!NOTE] 要在移动设备上查看报告，请登录 [Experience Cloud](https://login.experiencecloud.adobe.com)。
 
 For more information about mobile tracking, see the [Mobile Analytics](https://www.adobe.com/experience-cloud/topics/mobile-analytics.html) site.
 
@@ -69,11 +67,11 @@ For more information about mobile tracking, see the [Mobile Analytics](https://w
   </tr> 
   <tr> 
    <td colname="col1"> <p>颜色深度报表 </p> </td> 
-   <td colname="col2"> <p>按支持的颜色数目对移动设备点击量进行分组。此报表显示经由移动设备访问网站的访客总人数，并按移动设备中配置的颜色数目对他们进行分组。例如，如果访客的移动电话支持 24 色，则 Marketing Reports &amp; Analytics 将递增与 24 色对应的行项目。 </p> </td> 
+   <td colname="col2"> <p>按支持的颜色数目对移动设备点击量进行分组。此报表显示经由移动设备访问网站的访客总人数，并按移动设备中配置的颜色数目对他们进行分组。例如，如果访客的手机支持24种颜色，则市场营销报告和分析会增加与24种颜色对应的行项目。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>音频支持报表 </p> </td> 
-   <td colname="col2"> <p>按移动设备支持的音频格式类型对这些设备进行分类。例如，如果访客的电话支持 <span class="filepath">.mp3</span> 格式，音频支持报表至少递增 1。<span class="wintitle"></span>如果移动电话支持多种音频格式，则访问网站时可能会使每个支持的音频类型相应递增。换言之，如果移动电话支持 <span class="filepath">.mp3</span>、<span class="filepath">.aac</span> 和 <span class="filepath">.amr</span> 格式，报表中的这些组将递增。这样，群组总数可能大于报表底部显示的总数。 </p> </td> 
+   <td colname="col2"> <p>按移动设备支持的音频格式类型对这些设备进行分类。For example, if a visitor's phone supports the <span class="filepath"> .mp3</span> format, the <span class="wintitle"> Audio Support</span> report increments by at least one. 如果移动电话支持多种音频格式，则访问网站时可能会使每个支持的音频类型相应递增。换言之，如果移动电话支持 <span class="filepath">.mp3</span>、<span class="filepath">.aac</span> 和 <span class="filepath">.amr</span> 格式，报表中的这些组将递增。这样，群组总数可能大于报表底部显示的总数。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>视频支持报表 </p> </td> 
