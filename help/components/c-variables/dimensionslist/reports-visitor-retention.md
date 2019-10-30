@@ -4,10 +4,10 @@ seo-description: 显示有关客户忠诚度的信息。您可以查看访客再
 seo-title: 访客维系
 solution: Analytics
 title: 访客维系
-topic: 报表
-uuid: e2d477d0-f704-489b-b4 b3-941bc352 cd7 a
+topic: 报告
+uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> 上次购买间隔天数 </td> 
-   <td colname="col2"> <p>显示客户再次购买的最常见间隔天数，并允许您查看对您网站的收入和订购等主要成功量度贡献最大的时段。 </p> </td> 
+   <td colname="col2"> <p>显示客户重复购买之间最常见的间隔天数，并允许您查看对网站的收入和订单等关键成功指标贡献最大的时间段。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 每日独特客户 </td> 
