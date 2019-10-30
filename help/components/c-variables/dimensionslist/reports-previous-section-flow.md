@@ -4,10 +4,10 @@ seo-description: “上一区域流量”报表与“上一页面流量”报表
 seo-title: 上一区域流量
 solution: Analytics
 title: 上一区域流量
-topic: 报表
-uuid: 7d3d3e5-4936-40a0-845c-1617208479d6
+topic: 报告
+uuid: 7be8d3e5-4936-40a0-845c-1617208479d6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
