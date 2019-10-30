@@ -7,8 +7,8 @@ solution: Analytics
 title: 使用移动协议的设备报表
 topic: 开发人员和实施
 uuid: 4aab125d-c131-4402-9bc8-1c7fd1bb2bee
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 只有在从移动页面发送的图像请求中填充了反向链接时，这些报表才会有数据。按照“在不使用 JavaScript 的情况下实施”白皮书中所述，反向链接通过“r”查询字符串参数填充。还必须手动将反向链接信息传递到图像请求中。
 
-“r”查询字符串参数必须包含反向链接协议。如果不使用协议，则不会填充反向链接报表。例如，使用 `r=https://msn.com`，而不使用 `r=msn.com`。
+“r”查询字符串参数必须包含引用的协议。 如果不使用协议，则不会填充反向链接报表。例如，使用 `r=https://msn.com`，而不使用 `r=msn.com`。
 
 ## 地域划分和域名 {#section_2B4E9443AAFE4ECA961F9E993592E628}
 
