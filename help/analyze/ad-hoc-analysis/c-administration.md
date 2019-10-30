@@ -5,7 +5,7 @@ seo-title: 管理
 title: 管理
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -151,9 +151,3 @@ c_overview_data_sampling.xml
 * (10,000,000 x 365) / 750,000,000 = 4.8
 
 因此，要想将这 365 天片段的点击量保持在 750,000,000 以下，该数据必须按照 4.8:1 采样，但由于 Discover 使用整数，因此采样率为 5:1。
-
->[!MORE_LIKE_THIS]
->
->* [用户](https://marketing.adobe.com/resources/help/en_US/reference/users.html)
->* [群组 ](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)
-
