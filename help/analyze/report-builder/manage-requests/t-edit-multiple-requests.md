@@ -5,9 +5,9 @@ seo-title: 编辑多个请求
 solution: Analytics
 title: 编辑多个请求
 topic: Report Builder
-uuid: 5be23376-ba94-4d5 c-84c7-a60134 aacf7 d
+uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    * **按区段**：根据区段名称对请求进行分组。
 
       * **选择区段**：在请求不存在区段时显示。要添加区段，请单击&#x200B;**[!UICONTROL 编辑群组]**&#x200B;并从[!UICONTROL 编辑群组]面板中选择一个区段。
-   * **按指标**：请参阅 [编辑多个请求中的量度](../../../analyze/report-builder/manage-requests/edit-multiple-metrics.md#concept_1524B059C72C4224AA199411151069AB)。
+   * **按指标**:请参 [阅编辑跨多个请求的指标](../../../analyze/report-builder/manage-requests/edit-multiple-metrics.md#concept_1524B059C72C4224AA199411151069AB)。
 
    * **按日期范围和粒度**：按日期范围和粒度对显示的请求进行分组。
    * **按群组**：按分组的请求集对显示的请求进行分组。
