@@ -8,8 +8,8 @@ subtopic: 故障诊断
 title: Javascript 库文件
 topic: 开发人员和实施
 uuid: 52940a85-4905-4302-9c8f-d93327e2e7b6
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
