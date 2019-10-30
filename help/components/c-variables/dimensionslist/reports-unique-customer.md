@@ -4,10 +4,10 @@ seo-description: 购买商品的独特访客。独特客户在该时间范围内
 seo-title: 独特客户
 solution: Analytics
 title: 独特客户
-topic: 报表
-uuid: f4fb15e8-482d-4467-81dc-58de7743822
+topic: 报告
+uuid: f4fb15e8-482d-4467-81dc-58ade7743822
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
