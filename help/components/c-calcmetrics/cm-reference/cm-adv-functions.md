@@ -1,16 +1,16 @@
 ---
 description: 选中“函数”下拉列表中的“显示高级”，可访问这些函数。
 seo-description: 选中“函数”下拉列表中的“显示高级”，可访问这些函数。
-seo-title: 引用高级函数
-title: 引用高级函数
-uuid: 7d1071b9-1737-4b7c-b318-87907de5619
+seo-title: 参考高级功能
+title: 参考高级功能
+uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: ff46935f6ec38c8981e4a1fffdbdc637bdf557db
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 参考：高级函数
+# 引用：高级函数
 
 <!-- 
 
@@ -36,9 +36,7 @@ Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UIC
 
 返回其参数的值。使用 NOT 确保值不等于某一特定值。
 
->[!NOTE]
->
->0(零)表示虚假，任何其他值为True。
+> [!NOTE] 0（零）表示False，任何其他值都为True。
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -65,7 +63,7 @@ Approximate Count Distinct (dimension)
 
 Approximate Count Distinct (customer ID eVar) 是此函数的常见用例。
 
-新“近似客户”计算度量的定义：
+新“近似客户”计算量度的定义：
 
 ![](assets/approx-count-distinct.png)
 
@@ -214,9 +212,7 @@ CBRT(metric)
 
 如果 N &lt;= 0，则使用所有之前的行。由于它是按维度排序的，因此它仅对于具有自然顺序的维度（例如日期或路径长度）有用。
 
->[!NOTE]
->
->这并不像您对收入/访客之类的速率指标所期望的那样工作：它会降低收入，而不是在最后N的收入上累计收入，并将访客分配给最后N位访客。它使用的是
+> [!NOTE] 这与收入／访客等费率指标的效果不符：它将比率平均化，而不是将最后N的收入求和，并将访客在最后N中求和，然后对其进行划分。 它使用的是
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -459,9 +455,7 @@ NOT(logical)
 
 如果有任何参数为 TRUE，则返回 TRUE；如果所有参数均为 FALSE，则返回 FALSE。
 
->[!NOTE]
->
->0(零)表示虚假，任何其他值为True。
+> [!NOTE] 0（零）表示False，任何其他值都为True。
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -658,7 +652,7 @@ Z 分数的别名，即由平均值偏差除以标准偏差
 
 通过 col 的 t 分数和 n 自由度，执行以 m 结尾的 t 测试。
 
-The signature is `t_test( x, n, m )`. Underneath, it simply calls `m*cdf_t(-abs(x),n)`. (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
+签名是 `t_test( x, n, m )`。 在下面，它只是调用 `m*cdf_t(-abs(x),n)`。 (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
 
 其中，`m` 为尾数，`n` 为自由度。这些应为数字（整个报表的常量，即不按行发生变化）。
 
@@ -666,9 +660,9 @@ The signature is `t_test( x, n, m )`. Underneath, it simply calls `m*cdf_t(-abs(
 
 返回值是指在给定自由度和尾数的情况下，获得测试统计数据 x 的几率。
 
-**示例：**
+**示例:**
 
-1. 使用它查找异常值：
+1. 用它找到异常值：
 
    ```
    t_test( zscore(bouncerate), row-count-1, 2)
@@ -702,11 +696,9 @@ Z 分数的方程式为：
 
 其中，[!DNL x] 为原始分数，[!DNL μ] 为群体平均值，[!DNL σ] 为群体标准偏差。
 
->[!NOTE]
->
->[!DNL μ] (mu)和[!DNL σ] (sigma)会根据量度自动计算。
+> [!NOTE] [!DNL μ] (μ)和[!DNL σ] (σ)从该度量自动计算。
 
-Z得分(指标)
+Z得分（度量）
 
 <table id="table_AEA3622A58F54EA495468A9402651E1B"> 
  <thead> 
@@ -729,7 +721,5 @@ Z得分(指标)
 
 返回当前行在列中偶然可见的几率。
 
->[!NOTE]
->
->假定这些值通常是分布的。
+> [!NOTE] 假定这些值正常分布。
 
