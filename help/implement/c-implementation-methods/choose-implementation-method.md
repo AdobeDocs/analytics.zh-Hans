@@ -7,8 +7,8 @@ solution: Analytics
 title: 选择实施方法
 topic: 开发人员和实施
 uuid: 20d3317f-7c63-4421-93e0-fff60dbd9f87
-translation-type: ht
-source-git-commit: b1e69abd65f171b804e7f56031e594890bbd27bb
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,16 +27,16 @@ source-git-commit: b1e69abd65f171b804e7f56031e594890bbd27bb
 
 [!UICONTROL Experience Platform Launch] 可让任何人构建与维护他们自身与 [!DNL Experience Platform Launch] 的集成，这也称为扩展。[!UICONTROL Experience Platform Launch] 客户（Web 客户或移动设备客户）可在应用商店中获取这些扩展，从而可以快速安装、配置和部署自己的集成。
 
-有关详细信息，请参阅 [Experience Platform Launch 快速入门](https://docs.adobelaunch.com/getting-started)。
+For more information, see [Getting Started with Experience Platform Launch](https://docs.adobelaunch.com/getting-started).
 
 ## [!UICONTROL Dynamic Tag Management] {#section_22E3F3F928894A6A8D77E6953E6CA51C}
 
 [!UICONTROL Dynamic Tag Management] 可自动完成实施 [!DNL Analytics] 所需完成的大多数具体工作。在基于表单的界面中输入所需信息，[!DNL Dynamic Tag Management] 即会生成您需要添加到页面的代码。熟悉 JavaScript 并了解以下基本的 Analytics 术语是非常有用的
 
-* [eVar](https://marketing.adobe.com/resources/help/zh_CN/reference/conversion_var_admin.html) 的含义及其工作原理
+* [eVar](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) 是什么以及它的工作原理是什么
 * 何时使用[自定义事件](../../implement/analytics-terminology-basics/c-props-evars/event-custom.md#concept_CDA3C98C85B24A71B4B5C71F24BF918F)）
 
-有关访问、启动和运行 Dynamic Tag Management 的信息，请参阅 Dynamic Tag Management 产品文档中的[快速入门](https://marketing.adobe.com/resources/help/zh_CN/dtm/get_started.html)。
+有关如何访问及如何启动和运行动态标签管理的信息，请参阅“动态标签产品文档”中的[快速入门](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html)。
 
 有关更多信息，请参阅[使用 Dynamic Tag Management 实施 Analytics](../../implement/c-implement-with-dtm/dtm-implementation-overview.md)。
 
