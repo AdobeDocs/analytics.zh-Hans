@@ -6,8 +6,8 @@ seo-title: 访客迁移
 solution: Analytics
 title: 访客迁移
 topic: 开发人员和实施
-uuid: af31928c-85d7-407f-a583-3c8 f2852 cf3
-translation-type: tm+mt
+uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
+translation-type: ht
 source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
 
 ---
@@ -19,11 +19,11 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
 
 通过访客迁移可以在更改数据收集域时保留访客识别 Cookie。数据收集域可能由于以下原因发生更改：
 
-* Moving from `2o7.net` to `omtrdc.net` ( [Regional Data Collection](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/)).
+* 正在从 `2o7.net` 移动到 `omtrdc.net`（[地区数据收集](https://marketing.adobe.com/resources/help/zh_CN/whitepapers/rdc/)）。
 
-* You are implementing the [Experience Cloud Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/) and are moving from a CNAME/first-party data collection domain to `2o7.net` or `omtrdc.net` ( [Regional Data Collection](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/))
+* 您正在实施 [Experience Cloud 访客 ID 服务](https://marketing.adobe.com/resources/help/zh_CN/mcvid/)，并且正在从 CNAME/第一方数据收集域移动到 `2o7.net` 或 `omtrdc.net`（[地区数据收集](https://marketing.adobe.com/resources/help/zh_CN/whitepapers/rdc/)）
 
-* Moving from `2o7.net` or `omtrdc.net` to a cname/first-party data collection ( [First-Party Cookies)](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/).
+* 正在从 `2o7.net` 或 `omtrdc.net` 移动到 CNAME/第一方数据收集（[第一方 Cookie）](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/)。
 
 * 在 CNAME 之间转移（更改域）。
 
@@ -42,7 +42,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>开始：</b> <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="http" scope="external">联系客户关怀</a>，告知您要迁移的域以及希望启用的迁移周期（30、60 或 90 天）。请务必加入非安全和安全域。 </p> </td> 
+   <td colname="col1"> <p> <b>开始：</b> <a href="https://helpx.adobe.com/cn/marketing-cloud/contact-support.html" format="http" scope="external">联系客户关怀</a>，告知您要迁移的域以及希望启用的迁移周期（30、60 或 90 天）。请务必加入非安全和安全域。 </p> </td> 
    <td colname="col3"> <p>使用 <i>exact</i> 语法创建一个列表，包含您希望作为迁移源或迁移目标的域。 </p> 
     <ul id="ul_067EC5C7619141A6BDFBC209C9FD47E2"> 
      <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metrics.example.com </li> 
@@ -51,11 +51,11 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>在完成配置更改的 6 小时后</b>：更新您的 Analytics JavaScript 代码中的 <code>s.trackingServer</code> 和 <code>s.trackingServerSecure</code> 变量，从而使用新的数据收集服务器。 </p> </td> 
-   <td colname="col3"> <p>After you make this change, use a <a href="../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258" format="dita" scope="local"> Packet Analyzer</a> to verify that the Analtyics image request is going to the updated data collection server. </p> </td> 
+   <td colname="col3"> <p>进行此更改后，请使用<a href="../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258" format="dita" scope="local">数据包分析程序</a>来验证 Analtyics 图像请求是否被发送到更新后的数据收集服务器。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>更新 Analytics 代码之后立即执行</b>：测试网站，验证是否会重定向到之前的数据收集域。 </p> </td> 
-   <td colname="col3"> <p>使用<a href="../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258" format="dita" scope="local"> 包分析器</a> 可验证首次访问站点时或清除cookie后，您在200(确定) HTTP状态代码之前看到两个302(重定向) HTTP状态代码。如果这些重定向中有任何一个出现失败，请立即联系客户关怀，确保迁移配置正确。 </p> </td> 
+   <td colname="col3"> <p>使用<a href="../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258" format="dita" scope="local">数据包分析程序</a>来验证当您第一次访问自己的网站时，或者在清除了 Cookie 后，您能否在 200（确定）HTTP 状态代码之前，看到两个 302（重定向）HTTP 状态代码。如果这些重定向中有任何一个出现失败，请立即联系客户关怀，确保迁移配置正确。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>整个迁移期间</b>：保持前一个主机名的 DNS 记录的活动状态。 </p> </td> 
@@ -66,4 +66,4 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
 
 ## 已弃用的 visitorMigrationKey 和 visitorMigrationServer 变量 {#section_32FCEE2575944D039EA0FEBFB5814259}
 
-As of March 2013, the `visitorMigrationKey`, `visitorMigrationServer`, and `visitorMigrationServerSecure` data collection variables are deprecated and no longer used. 之前在这些变量中包含的数据现存储在 Adobe 服务器上，安全性更高。
+自 2013 年 3 月起，`visitorMigrationKey`、`visitorMigrationServer` 和 `visitorMigrationServerSecure` 数据收集变量将被放弃，不会再使用。之前在这些变量中包含的数据现存储在 Adobe 服务器上，安全性更高。
