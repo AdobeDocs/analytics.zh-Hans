@@ -5,9 +5,9 @@ seo-title: 配置异常检测请求
 solution: Analytics
 title: 配置异常检测请求
 topic: Report Builder
-uuid: e504ff9-df88-4fa7-95a1 ca05 a6 f9 c0 d
+uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -21,13 +21,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    >[!NOTE]
    >
-   >[!UICONTROL “异常检测] ”菜单仅在您选择“天”粒度时可用。无论您选择什么日期范围，前 30 天的数据都会用作统计数据培训期。
+   >The [!UICONTROL Anomaly Detection] menu is available only when you select Day granularity. 无论您选择什么日期范围，前 30 天的数据都会用作统计数据培训期。
 
 1. After configuring date ranges, click **[!UICONTROL Next]**.
 
-   Step Result1.On the Request Wizard: Step 2 of 2, add a metric, such as **[!UICONTROL Visits]**.
+   步骤结果 1. On the Request Wizard: Step 2 of 2, add a metric, such as **[!UICONTROL Visits]**.
 
-   Step Result1.For the added metric, click the **[!UICONTROL None]** link.
+   步骤结果 1. For the added metric, click the **[!UICONTROL None]** link.
 
    ![步骤结果](assets/anomaly_select.png)
 
