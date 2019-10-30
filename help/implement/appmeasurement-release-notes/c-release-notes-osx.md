@@ -6,8 +6,8 @@ solution: Analytics,Experience Cloud
 subtopic: 发行说明
 title: Mac OS X
 topic: 开发人员和实施
-uuid: d5e46c86-2d00-4a18-8ee-dcaf082761af
-translation-type: tm+mt
+uuid: d5e46c86-2d00-4a18-8eee-dcaf082761af
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -17,13 +17,13 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 >[!IMPORTANT]
 >
->这些SDK已失效，Adobe不再支持或分发。
+>这些 SDK 已被弃用，Adobe 不再对其进行支持或分发。
 
 >[!NOTE]
 >
->要查找当前库版本，请打开调试日志记录。
+>要找到当前库版本，请打开调试记录。
 
-Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
+可以在 [!DNL Developer Connection] 上[下载](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications)移动库。
 
 ## 版本 3.2.2 {#section_90CCB6A33C5041FA9CBAF6E8B7F3915F}
 
@@ -43,7 +43,7 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 发行日期：**2013 年 8 月 5 日**
 
 * 添加了对 Adobe Audience Manager 的支持。
-* Lifecycle data will now be sent with [!DNL Target] Mbox requests.
+* 生命周期数据现在将通过 [!DNL Target] Mbox 请求发送。
 
 ## 版本 3.1.7 {#section_EC59B76EE3A343D5921E906EB0A8DB49}
 
@@ -61,10 +61,10 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 
 发行日期：**2013 年 3 月 21 日**
 
-* `ADMS_Measurement.visitorID` 现在会预填充默认值。
+* `ADMS_Measurement.visitorID` 现在已预填充默认值。
 
 ## 版本 3.1.4 {#section_23E5968C1EC748F7A266D6A5682A1B5F}
 
 发行日期：**2013 年 2 月**
 
-第一版。This version is based on the [!DNL iOS] 3.1.4 codebase, so the initial version number was set to match [!DNL iOS].
+第一版。此版本基于 [!DNL iOS] 3.1.4 代码库，因此将初始版号设置为匹配 [!DNL iOS]。
