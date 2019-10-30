@@ -2,24 +2,24 @@
 description: 在您开始创建虚拟报表包之前，请注意下面一些事项。
 keywords: 虚拟报表包
 seo-description: 在您开始创建虚拟报表包之前，请注意下面一些事项。
-seo-title: 创建虚拟报告套件
+seo-title: 创建虚拟报表包
 solution: Analytics
-title: 创建虚拟报告套件
-topic: Reports & Analytics
-uuid: 022a6656-808e-4c92-b7 ec-4d2 a42 e84 fa8
+title: 创建虚拟报表包
+topic: Reports and Analytics
+uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 创建虚拟报告套件
+# 创建虚拟报表包
 
 在您开始创建虚拟报表包之前，请注意下面一些事项。
 
 * 非管理员用户看不到虚拟报表包管理器。
 * 无法共享虚拟报表包。可通过群组/权限实现“共享”。
-* 在虚拟报表包管理器中，您只能看到自己的虚拟报表包。您需要单击“显示全部”才能看到其他所有人的虚拟报表包。
+* 在虚拟报表包管理器中，您只能看到自己的虚拟报表包。您必须单击“显示全部”，才能看到其他人的。
 
 1. Navigate to **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**.
 1. Click **[!UICONTROL Add +]**.
