@@ -5,9 +5,9 @@ seo-title: 注意事项
 solution: Analytics
 title: 自定义日期注意事项
 topic: Report Builder
-uuid: a3bb3a63-0f15-492-ade7-4ea852 fe68 c8
+uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
