@@ -5,7 +5,7 @@ seo-description: 通过动态变量，您可以将一个变量中的值复制到
 solution: null
 title: 动态变量
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,15 +14,15 @@ source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
 
  变量是随自定义、退出和下载链接一起发送的、以逗号隔开的变量列表。
 
-If *`linkTrackVars`* is set to "", all variables that have values are sent with link data. 为避免与其他变量关联的实例或页面查看次数增加，Adobe建议 *`linkTrackVars`* 在用于链 *`linkTrackEvents`* 接跟踪的链 [!UICONTROL 接的onClick] 事件中填充这些变量。
+如果 *`linkTrackVars`* 设置为“”，则所有有值的变量将与链接数据一起发送。为避免与其他变量相关联的实例次数或页面查看次数虚增，Adobe 建议在用于链接跟踪的链接的 [!UICONTROL onClick] 事件中填充 *`linkTrackVars`* 和 *`linkTrackEvents`*。
 
-所有应随链接数据（自定义、退出和下载链接）一起发送的变量都应在 *`linkTrackVars`*. 如果 *`linkTrackEvents`* 使用， *`linkTrackVars`* 应包含“events”。
+所有应随链接数据（自定义、退出和下载链接）一起发送的变量都应在 *`linkTrackVars`*. 如果使用 *`linkTrackEvents`*，则 *`linkTrackVars`* 应包含“events”。
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |---|---|---|---|
 | 不适用 | 不适用 | 任何 | "无" |
 
-在填充 *`linkTrackVars`*, do not use the 's.' prefix for variables. 例如，您应该用“ *`linkTrackVars`* prop1”填充它，而不是使用“s.prop1”填充。 The following example illustrates how  should be used.*`linkTrackVars`*
+When populating *`linkTrackVars`*, do not use the 's.' prefix for variables. 例如，不要用“s.prop1”填充 *`linkTrackVars`*，而应用“prop1”填充。以下示例说明了应如何使用 *`linkTrackVars`*。
 
 ```js
 s.linkTrackVars="eVar1,events" 
@@ -35,17 +35,17 @@ s.t() // eVar1, event1 and event2 are recorded
 <a href="test.php" onClick="s=s_gi('rs1');s.eVar1='value C';s.events='';s.tl(this,'o')">eVar1 is recorded</a> 
 ```
 
-由于指向 google.com 的链接为退出链接（除非您就是 Google），event1 和 eVar1 将随退出链接数据一起发送，从而增加与 eVar1 关联的实例以及 event1 的触发次数。In the link to [!DNL test.php], [!UICONTROL eVar1] is sent with a value of 'value C' because that is the current value of [!UICONTROL eVar1] at the time that *`tl()`* is called.
+由于指向 google.com 的链接为退出链接（除非您就是 Google），event1 和 eVar1 将随退出链接数据一起发送，从而增加与 eVar1 关联的实例以及 event1 的触发次数。在指向 [!DNL test.php] 的链接中，[!UICONTROL eVar1] 随“value C”的某个值一起发送，因为这是在调用 *`tl()`* 时 [!UICONTROL eVar1] 的当前值。
 
 ## 语法和可能值
 
-The *`linkTrackVars`* variable is a case-sensitive, comma-separated list of variable names, without the object name prefix. 使用“eVar1”而不是“s.eVar1”。
+*`linkTrackVars`* 变量是以逗号隔开、区分大小写的变量名称列表，无对象名称前缀。使用“eVar1”而不是“s.eVar1”。
 
 ```js
 s.linkTrackVars="variable_name[,variable_name[...]]"
 ```
 
-The  variable may contain only variables that are sent to , namely: , , , , eVar1-75, prop1-75, hier1-5, , , , , and .*`linkTrackVars`*[!DNL Analytics]*`events`**`campaign`**`purchaseID`**`products`**`channel`**`server`**`state`**`zip`**`pageType`*
+The *`linkTrackVars`* 变量只能包含已发送到 [!DNL Analytics] 的变量，即：*`events`*、*`campaign`*、*`purchaseID`*、*`products`*、[!UICONTROL eVar1-75]、[!UICONTROL prop1-75]、[!UICONTROL hier1-5]、*`channel`*、*`server`*、*`state`*、*`zip`* 和 *`pageType`*。
 
 ## 示例
 
@@ -63,8 +63,8 @@ s.linkTrackVars="products"
 
 ## 缺陷、问题和提示
 
-* If *`linkTrackVars`* is blank, all variables that have values are tracked with all server calls.
-* Any variable listed in *`linkTrackVars`* that has a value at the time of any download, exit, or custom link, are tracked.
-* If  is used,  must contain "events."*`linkTrackEvents`**`linkTrackVars`*
+* 如果 *`linkTrackVars`* 留为空白，则所有含值的变量将与所有服务器调用一起被跟踪。
+* *`linkTrackVars`* 中列出的任何含值变量，都会在下载、退出或自定义链接时被跟踪。
+* 如果使用 *`linkTrackEvents`*，则 *`linkTrackVars`* 必须包含“events”。
 
 * 请勿使用“s.”或“s_objectname.”作为变量的前缀。
