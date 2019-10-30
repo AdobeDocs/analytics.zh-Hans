@@ -7,7 +7,7 @@ title: 产品报表
 topic: Ad Hoc Analysis
 uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ c_reports_products_conv_funnel.xml
 
 要添加来自其他报表组的量度和自定义事件，请点击报表标题中的“选定事件”**链接。**
 
-由于您查看数据时当前时间段尚未结束，此报表可能会指示从上一时间段至当前时间段呈下降趋势。例如，今天的访问量可能低于昨天，但这只是由于时间段余下部分的统计信息尚未产生所致。
+由于您查看数据时当前时间段尚未结束，此报表可能会指示从上一时间段至当前时间段呈下降趋势。例如，今天的访问量可能比昨天少，但这只是因为时间段余下部分的统计数据尚未出现。
 
 ## 类别 {#concept_3260EE45B2164E478E8A90E046D078AB}
 
@@ -38,4 +38,4 @@ c_reports_categories.xml
 
  -->
 
-显示不同产品类别对网站成功量度的影响情况。
+显示各种产品类别对网站成功量度的影响。
