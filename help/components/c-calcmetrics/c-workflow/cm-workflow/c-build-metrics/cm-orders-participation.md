@@ -3,9 +3,9 @@ description: 有关如何创建量度以显示哪个营销渠道有助于提高�
 seo-description: 有关如何创建量度以显示哪个营销渠道有助于提高订购数量的说明。此说明适用于任何感兴趣的维度或成功事件。
 seo-title: 订购协助量度
 title: 订购协助量度
-uuid: 7c82227a-7cfc-486f-bef8-164ea84 af77 c
+uuid: 7c82227a-7fcc-486f-bef8-164ea84af77c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
