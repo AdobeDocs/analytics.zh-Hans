@@ -5,9 +5,9 @@ seo-title: 移动设备管理
 solution: Analytics
 title: 移动设备管理
 topic: 管理工具
-uuid: d09edf72-bb91-422d-b22 c-7b6971 f228 de
+uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 translation-type: tm+mt
-source-git-commit: 6184104b5a46242c5973552298964e96ff671d7c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Analytics 与 Mobile Services 之间的此集成
 * 添加 个新的 Adobe Mobile 维度。
 * 每隔 15 分钟将数据同步到 Analytics。
 
-**[!UICONTROL “分析]** ”&gt;“ **[!UICONTROL 管理员]** ”&gt; **[!UICONTROL “报告包]** ”&gt; **[!UICONTROL “编辑设置]** ”&gt; **[!UICONTROL “Mobile Management”]** &gt; **[!UICONTROL “Mobile Application Reporting]**”。
+**[!UICONTROL Analytics]** &gt; Admin **[!UICONTROL &gt; Report Suites]** &gt; Settings **[!UICONTROL &gt; mobile管理应用程]**************&#x200B;序编辑&gt; Mobile Reporting Application Reporting。
 
 ## 步骤 1. 启用应用程序报表 {#section_FBADF80AED2B4978A904ABB770B3B931}
 
@@ -50,14 +50,14 @@ Adobe Analytics 与 Mobile Services 之间的此集成
 
 启用后台点击量（在应用程序处于后台时产生的点击量）意味着它们将被视为常规的前台点击量。这些点击量当前显示在常规报表中，并且这还会影响属性。此配置通常只是用来保持与旧版实施的一致性。
 
-我们则建议您在[虚拟报表包](../../components/vrs/vrs-about.md)中“包含后台点击量”。这允许您查看这些点击量，但它们不会对访问和访客计数产生不良影响。Mobile classifications are enabled after you enable **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
+Instead, we recommend that you "include background hits" in a [virtual report suite](../../components/vrs/vrs-about.md). 这允许您查看这些点击量，但它们不会对访问和访客计数产生不良影响。Mobile classifications are enabled after you enable **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
 
 分类可用于将值分组并在组级别进行报告。例如，您可将所有“付费搜索”促销活动划分到诸如“流行音乐搜索词”类别，并报告与“实例”（也称“点进次数”）量度相关的类别成功以及到成功事件的转化。
 
 | 分类 | 定义 |
 |--- |--- |
 | 首次启动日期 | 安装或重新安装后首次启动的日期。YYYY/MM/DD |
-| 应用程序 ID | 采用以下格式存储应用程序名称和版本：`[AppName] [BundleVersion]` 例如， `myapp 1.1.` |
+| 应用程序 ID | 采用以下格式存储应用程序名称和版本：`[AppName] [BundleVersion]`例如：`myapp 1.1.` |
 | 启动次数 | 应用程序启动或移出后台的次数。 |
 | 首次使用后间隔天数 | 自首次运行以来经过的天数。 |
 | 上次使用后间隔天数 | 上次使用后间隔的天数。 |
