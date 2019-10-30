@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 分类
 title: 分类数据文件
 topic: 管理工具
-uuid: f27bb812-56e0-472a-9993-d869 f0 fea700
+uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
-source-git-commit: c0c4a3f42a7236c6f9e5001f5ca0ef9173dbaa66
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -47,9 +47,9 @@ See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric
 
 * 分类不得包含脱字符 (^)，因为此字符用来表示子分类。
 * 请小心使用连字符。例如，如果您在 Social 术语中使用连字符 (-)，则 Social 会将连字符识别为 [!DNL Not] 运算符（减号）。For example, if you specify *`fragrance-free`* as a term using the import, Social recognizes the term as fragrance *`minus`* free and collects posts that mention *`fragrance`*, but not *`free`*.
-* 在对报表数据进行分类时必须执行字符限制。For example, if you upload a classifications text file for products ( *`s.products`*) with product names longer than 100 characters (bytes), the products will not display in reporting. 跟踪代码和所有自定义转化变量 (eVar) 允许 255 字节。
+* 在对报表数据进行分类时必须执行字符限制。例如，如果上传产品名称长于100个字符（字节）的产品( *`s.products`*)的分类文本文件，则产品将不会显示在报告中。 跟踪代码和所有自定义转化变量 (eVar) 允许 255 字节。
 * 以制表符分隔的数据文件（可以使用任一款电子表格应用程序或文本编辑器来创建模板文件）。
-* [!DNL .tab] 文件扩展名 [!DNL .txt] 。
+* Either a [!DNL .tab] or [!DNL .txt] file extension.
 * 在行前添加井号 (#) 表示此行为用户注释。Adobe 会忽略所有以 # 开头的行。
 * 双井号后面接 SC (## SC) 表示此行为报表所使用的预处理标题注释。请不要删除这些行。
 * 分类导出可能包含重复键值，因为键值中存在换行符。在 FTP 或浏览器导出中，通过打开 FTP 帐户的引号功能可以解决此问题。该功能会在每个带有换行符的键值两边加上引号。
@@ -102,23 +102,19 @@ See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric
 
 ## 列标题格式
 
->[!NOTE]
->
->Adobe 建议您将导入和导出列的数量限制为 30。
+> [!NOTE]Adobe 建议您将导入和导出列的数量限制为 30。
 
 分类文件支持以下列标题：
 
 ### 键
 
-在整个系统中，此值必须唯一。The value in this field corresponds to a value assigned to the [!DNL Analytics] variable in your Web site’s [!DNL JavaScript] beacon. Data in this column might include ~autogen~ or any other unique tracking code.
+在整个系统中，此值必须唯一。The value in this field corresponds to a value assigned to the [!DNL Analytics] variable in your Web site's [!DNL JavaScript] beacon. Data in this column might include ~autogen~ or any other unique tracking code.
 
 ### 分类列标题
 
 例如，Reports &amp; Analytics 自动包含两种[!UICONTROL 促销活动]变量分类：[!UICONTROL 促销活动]和[!UICONTROL 创作元素]。若要将数据添加到[!UICONTROL 促销活动]分类中，分类数据文件中的列标题应为[!UICONTROL 促销活动]。
 
->[!NOTE]
->
->[!UICONTROL “分类”] 列标题中的值必须与分类的命名约定完全匹配，否则导入将失败。例如，如果管理员在[!UICONTROL 促销活动设置管理器]中将[!UICONTROL 促销活动]更改为[!UICONTROL 内部促销活动名称]，则文件列标题必须随之更改。
+> [!NOTE] 分类列标题中 [!UICONTROL 的值必须与分类的命名约定完全匹配] ，否则导入将失败。 例如，如果管理员在[!UICONTROL 促销活动设置管理器]中将[!UICONTROL 促销活动]更改为[!UICONTROL 内部促销活动名称]，则文件列标题必须随之更改。
 
 此外，数据文件支持下列其他标题规范，用于标识子分类和其他特殊数据列：
 
@@ -132,7 +128,7 @@ See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric
 
 ### PER修饰符标题
 
-*`Per Modifier`* 标题通过添加 *`~per`* 到分类量度标题表示。For example, if the *`Metric`* heading is *`Campaigns^~Cost`*, the PER modifier heading is *`Campaigns^~Cost~per`*. Adobe supports the following *`PER Modifier`* keywords:
+*`Per Modifier`* 标题通过添加到分 *`~per`* 类度量标题来表示。 例如，如果标题 *`Metric`* 为， *`Campaigns^~Cost`*&#x200B;则PER修饰符标题为 *`Campaigns^~Cost~per`*。 Adobe支持以下关 *`PER Modifier`* 键字：
 
 这些字符在数据文件中有其特殊含义。因此，请尽量避免在属性名称或数据中使用这些字词。
 
@@ -158,9 +154,9 @@ See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric
 
 **EVENT：**&#x200B;将该值乘以报表中每个行项目出现特定客户事件的次数。
 
-**示例：** 如果Campaign A成本$10,000， [!UICONTROL 则Campaigns^~ Cost] 列的值为10000， [!UICONTROL “营销活动”列~~] 中包含 [!UICONTROL 固定值]。在报表中显示促销活动 A 的成本时，会将 $10,000 显示为日期范围内促销活动 A 的固定成本。
+**** 示例：如果营销活动A的费用为$10,000，则“ [!UICONTROL 营销活动”^~Cost] 列包含值10000，且“营销活动”^ [!UICONTROL Costper列包含~~FIXED]。 在报表中显示促销活动 A 的成本时，会将 $10,000 显示为日期范围内促销活动 A 的固定成本。
 
-**示例：** 如果Campaign B的点击价格约为$2， [!UICONTROL 则“营销活动”^~成本] 列包含2， **[!UICONTROL “营销活动”^~“每~]** 个列”列包含 [!UICONTROL 点击数]。When displaying the Cost for Campaign B in the reports, Adobe calculates (2 * [number of clicks]) on the fly for the date range of the report. 这样即可根据促销活动 B 的点击次数计算出总成本。
+**** 示例：如果营销活动B的每次点击费用约为$2，则 [!UICONTROL Campaigns^~Cost] （营销活动）列包含2，而 **[!UICONTROL Campaigns^~~Costper（营销活动）列包含]** CLICK [!UICONTROL （单击）]。 When displaying the Cost for Campaign B in the reports, Adobe calculates (2 * [number of clicks]) on the fly for the date range of the report. 这样即可根据促销活动 B 的点击次数计算出总成本。
 
 ### 页面
 
@@ -168,27 +164,24 @@ See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric
 
 有关详细信息，请参阅[转化分类](https://marketing.adobe.com/resources/help/en_US/admin/index.html#Conversion%20Classifications)。
 
->[!NOTE]
->
->In the May 10, 2018, [!DNL Analytics] Maintenance release, Adobe started to limit the functionality of date-enabled and numeric classifications. 这些分类类型已从管理员和分类导入器界面中删除。无法添加新的启用日期的分类和数值分类。现有的分类仍可以通过标准分类工作流程进行管理（上传、删除），并将继续在报表中可用。
+> [!NOTE] 在2018年5月10日的维 [!DNL Analytics] 护版本中，Adobe开始限制启用日期的分类和数字分类的功能。 这些分类类型已从管理员和分类导入器界面中删除。无法添加新的启用日期的分类和数值分类。现有的分类仍可以通过标准分类工作流程进行管理（上传、删除），并将继续在报表中可用。
 
 ## Using dates in conjunction with [!UICONTROL classifications] {#section_966A07B228CD4643B258E73FB8BA150A}
 
-[!UICONTROL 分类] 可用于为营销活动或其他转化 [!UICONTROL 分类]分配日期范围，从而更准确地评估营销活动。指定值的日期范围后，该日期范围外任何匹配的值都不会进行分类。这对希望利用促销活动为“有效”，并且不是所有点击都与该促销活动本身匹配的具体日期的促销活动测量而言非常有用。要成功地用日期范围对值进行分类，必须满足以下条件：
+[!UICONTROL 分类] ，可用于为营销活动或其他转化分类分配日期范围 ，从而更准确地评估营销活动。 指定值的日期范围后，该日期范围外任何匹配的值都不会进行分类。这对希望利用促销活动为“有效”，并且不是所有点击都与该促销活动本身匹配的具体日期的促销活动测量而言非常有用。要成功地用日期范围对值进行分类，必须满足以下条件：
 
-* [!UICONTROL 分类] 必须基于转化变量。
+* The [!UICONTROL classification] must be based on a conversion variable.
 * The [!UICONTROL classification] used must be set as Date-Enabled or Numeric 2.
 * 涉及的日期范围必须包含开始日期和（可选）结束日期。
 
 根据日期范围分类促销活动：
 
-1. Log in to [!DNL Analytics] and go to Admin &gt; Classifications.
+1. 登录并转 [!DNL Analytics] 到“管理员”&gt;“分类”。
 1. 单击&#x200B;**[!UICONTROL 浏览器导出]选项卡，确保启用日期的分类的设置均正确，然后单击“导出文件”。**
 1. 在 Microsoft Excel 或您熟悉的其他电子表格编辑器中打开此文件。
 1. 其中一列将以
 
-   ^~period~
-which is the column to enter the date range in.
+   “~期~间”是要输入日期范围的列。
 1. 在此列下，按下面的格式输入每个值的日期范围：
 
    `YYYY/MM/DD - YYYY/MM/DD`。请务必遵循以下原则：
@@ -198,11 +191,9 @@ which is the column to enter the date range in.
    * 如果某月或某天是单个数字，则在其前面添加零。
    * 日期范围必须有一个开始日期，而结束日期是可选的。
 
-1. Save the file, and upload it to [!DNL Analytics] by going to Admin | Classifications | Import File.
+1. 保存文件，然后转到“管理员” [!DNL Analytics] 将其上传到|分类|导入文件。
 
->[!NOTE]
->
->特定的键值不能有多个日期范围。
+> [!NOTE] 特定键值不能有多个日期范围。
 
 ## 分类疑难解答
 
