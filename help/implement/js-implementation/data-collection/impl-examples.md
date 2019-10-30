@@ -6,8 +6,8 @@ seo-title: 实施示例
 solution: Analytics
 title: 实施示例
 topic: 开发人员和实施
-uuid: 17d8d2b2-2303-495a-b0 f9-d8 d3 c05 f3893
-translation-type: tm+mt
+uuid: 17d8d2b2-2303-495a-b0f9-d8d3c05f3893
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
