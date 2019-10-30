@@ -5,10 +5,10 @@ seo-title: 关于渠道和规则
 solution: Analytics
 subtopic: 营销渠道
 title: 关于渠道和规则
-topic: Reports & Analytics
-uuid: 7d574790-4d0d-419d-8fb5-c16 ec5 a4 a387
+topic: Reports and Analytics
+uuid: 7d574790-4d0d-419d-8fb5-c16ec5a4a387
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Adobe 在[自动设置](../../components/c-marketing-channels/c-channel-autosetup.md#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B)过程中提供了多个预定义渠道，您可以根据自己的需要对这些渠道进行编辑。
 
->[!NOTE]
->
->Adobe建议您在报表包中设置报表，该报表包可用作测试目的的模板。您可以使用该模板将这些渠道和规则集全局应用到一个或多个生产报表包中。
+> [!NOTE] Adobe建议您在报表包中设置报表，以用作测试用的模板。 您可以使用该模板将这些渠道和规则集全局应用到一个或多个生产报表包中。
 >
 >请参阅[将模板报表包设置应用于多个报表包](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC)。
 
