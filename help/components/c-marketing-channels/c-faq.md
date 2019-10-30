@@ -8,7 +8,7 @@ title: 常见问题和示例
 topic: Reports and Analytics
 uuid: 1c63a1b5-a191-4855-aa65-fac19ab1037a
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -81,9 +81,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 This kind of rule serves as a catch-all to ensure that channel traffic always matches external traffic, and typically does not end up in **[!UICONTROL No Channel Identified]**. 要小心不要建立一个同时确定内部流量的规则。将渠道值设置为&#x200B;**[!UICONTROL 反向链接域]**&#x200B;或&#x200B;**页面 URL]是创建有效“其他”规则的最常见、最有用的方法。[!UICONTROL **
 
->[!NOTE]
->
->可能仍有一些渠道流量属于未识别渠道类别。 例如：访客访问该网站并将某个页面添加为书签，并且在同一次访问中通过书签返回到该页面。由于这不是访问的第一个页面，而且没有反向链接域，因此它既不会被列入“直接”渠道，也不会被列入“其他”渠道。
+> [!NOTE] 可能仍有一些渠道流量属于未识别渠道类别。 例如：访客访问该网站并将某个页面添加为书签，并且在同一次访问中通过书签返回到该页面。由于这不是访问的第一个页面，而且没有反向链接域，因此它既不会被列入“直接”渠道，也不会被列入“其他”渠道。
 
 ## 付费搜索 {#section_E934BFE182E4404A93FE07AFEAE64DC1}
 
@@ -133,7 +131,7 @@ This kind of rule serves as a catch-all to ensure that channel traffic always ma
 
 ## 电子邮件 {#section_4A927BE947B748E39595F4525B7280DE}
 
-要设置该规则，您要为您的电子邮件促销活动提供查询字符串参数。在此示例中，该参数为 *`eml`*:
+要设置该规则，您要为您的电子邮件促销活动提供查询字符串参数。在此示例中，该参数为 *`eml`* 的常见原因有三个：
 
 ![](assets/example_email.png)
 
