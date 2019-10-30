@@ -5,9 +5,9 @@ seo-title: 系统要求
 solution: Analytics
 title: 系统要求
 topic: Report Builder
-uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd199d
+uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
