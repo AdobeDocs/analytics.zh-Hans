@@ -30,7 +30,7 @@ c_report_actions.xml
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>选项 </p> </th> 
-   <th colname="col2" class="entry"> <p>说明 </p> </th> 
+   <th colname="col2" class="entry"> <p>描述 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -139,7 +139,7 @@ c_reports_bubble.xml
 
 泡泡图最多可以提供 5 个独立维度的量度分析。泡泡图动态变动以反映报表数据的更改。泡泡图适用于任何排名报表。
 
-| 元素 | 说明 |
+| 元素 | 描述 |
 |---|---|
 | [!UICONTROL 维度] | 指定报表维度。 |
 | [!UICONTROL 数据点] | 指定要在泡泡图中显示的数据点数。 |
