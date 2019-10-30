@@ -3,8 +3,8 @@ description: s.hitGovernor 插件可跟踪在预定义的连续时间范围内�
 seo-description: s.hitGovernor 插件可跟踪在预定义的连续时间范围内发送的 Analytics 图像请求的总数量，如果总数超过了某个阈值，则此插件还可以根据需要执行其他逻辑。
 seo-title: hitGovernor
 title: hitGovernor
-uuid: d9091eae-005a-43c2-b419-980b795 bc2 a9
-translation-type: tm+mt
+uuid: d9091eae-005a-43c2-b419-980b795bc2a9
+translation-type: ht
 source-git-commit: 4d3fdf9d90afab9d899a93561105a589742d838e
 
 ---
@@ -20,9 +20,9 @@ s.hitGovernor 插件可跟踪在预定义的连续时间范围内发送的 Analy
 
 ## hitGovernor 插件原理 {#section_541BC639E31442D09B1C85A2FFCDC02C}
 
-每次将图像请求发送到跟踪服务器时，此插件即会增加 Cookie 值，并在连续时间范围内跟踪该值。默认时间范围为 1 分钟，但该时间范围可以被覆盖。（请参阅下面的[实施](../../../implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2)）。If the total number of hits during that time frame exceeds the default hit threshold (60), a final custom link image request is sent to set the *`exceptionFlag`* context data variable. 默认的点击量阈值也可以被覆盖。
+每次将图像请求发送到跟踪服务器时，此插件即会增加 Cookie 值，并在连续时间范围内跟踪该值。默认时间范围为 1 分钟，但该时间范围可以被覆盖。（请参阅下面的[实施](../../../implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2)）。如果该时间范围内的点击总量超过了默认的点击量阈值 (60)，则会发送最终的自定义链接图像请求，以设置 *`exceptionFlag`* 上下文数据变量。默认的点击量阈值也可以被覆盖。
 
-如有需要，从此刻起，可以在默认期限（60 天）内阻止系统收集该特定访客的流量。如果要阻止流量，需要在 doPlugins 函数中额外添加一行代码，如下所述。同样地，此时间期限也可以调整。The logic allows time to either include that visitor's IP address, User Agent, or [!DNL Experience Cloud] Visitor ID in the proper permanent exception logic, or to reset the timeout period after the sixty days have elapsed. 如此一来，如果此流量在 60 天后被插件识别为欺诈，则该流量会再次被标记为异常，那么在接下来的 60 天内系统同样不会收集该流量。
+如有需要，从此刻起，可以在默认期限（60 天）内阻止系统收集该特定访客的流量。如果要阻止流量，需要在 doPlugins 函数中额外添加一行代码，如下所述。同样地，此时间期限也可以调整。对于此时间期限逻辑，可以将该访客的 IP 地址、用户代理或 [!DNL Experience Cloud] 访客 ID 包含在适当的永久异常逻辑中，或在 60 天过后重置此时间期限。如此一来，如果此流量在 60 天后被插件识别为欺诈，则该流量会再次被标记为异常，那么在接下来的 60 天内系统同样不会收集该流量。
 
 ## 报表 {#section_E742F19B528041808454744DB2C7007C}
 
@@ -47,7 +47,7 @@ s.hitGovernor 插件可跟踪在预定义的连续时间范围内发送的 Analy
 
    >[!NOTE]
    >
-   >Although the `registerPostTrackCallback` functionality is included in AppMeasurement libraries 1.8.0+, it is not included in any custom code configuration by default. 将此函数插入在 doPlugins 函数的后面。**
+   >虽然 `registerPostTrackCallback` 函数包含在 1.8.0 及以上版本的 AppMeasurement 库中，但默认情况下，此函数未包含在任何自定义代码配置中。将此函数插入在 doPlugins 函数的后面。**
 
    ```
     s.registerPostTrackCallback(function(){ 
@@ -88,7 +88,7 @@ s.hitGovernor 插件可跟踪在预定义的连续时间范围内发送的 Analy
 
 >[!NOTE]
 >
->您的实施可能使用不同于默认分析的对象名称。如果是这样，请相应地更新对象名称。
+>您的实施可以使用与默认分析“s”对象不同的对象名称。如果是这样，请相应地更新对象名称。
 
 1. 配置处理规则。
 
