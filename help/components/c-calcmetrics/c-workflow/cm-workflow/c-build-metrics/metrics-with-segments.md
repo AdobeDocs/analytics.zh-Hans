@@ -1,16 +1,16 @@
 ---
 description: 对单个量度分段允许您对同一报表内的量度进行比较。（仅限派生量度）
 seo-description: 对单个量度分段允许您对同一报表内的量度进行比较。（仅限派生量度）
-seo-title: 分段计量
-title: 分段计量
+seo-title: 分段量度
+title: 分段量度
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 分段计量
+# 分段量度
 
 对单个量度分段允许您对同一报表内的量度进行比较。（仅限派生量度）
 
