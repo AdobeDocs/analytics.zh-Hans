@@ -1,22 +1,20 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 广告分析概述
-title: 广告分析概述
+seo-title: Advertising Analytics 概述
+title: Advertising Analytics 概述
 uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 广告分析概述
+# Advertising Analytics 概述
 
-通过 Advertising Analytics，您可以在 Adobe Analytics 中并排查看您在 Google 和 Bing 上的所有付费搜索数据。以前，任何Google AdWords/DFA或Microsoft Bing广告数据都必须在Adobe Advertising Cloud(AMO)或Google/Bing中查看。现在，您可以在 Adobe Analytics 中直接从搜索引擎获取以下数据：展示次数、点击次数、成本、质量分数、平均位置以及 AMO ID 实例数（点击实例数）。
+通过 Advertising Analytics，您可以在 Adobe Analytics 中并排查看您在 Google 和 Bing 上的所有付费搜索数据。以前，任何Google adWords/DFA或Microsoft Bing Ads数据都必须在Adobe Advertising Cloud(AMO)或Google/Bing中查看。 现在，您可以在 Adobe Analytics 中直接从搜索引擎获取以下数据：展示次数、点击次数、成本、质量分数、平均位置以及 AMO ID 实例数（点击实例数）。
 
->[!NOTE]
->
->Yahoo Gemini于2019年月31日被Microsoft Bing吸收。因此，现已不再提供 Yahoo Gemini 广告帐户选项。
+> [!NOTE] Yahoo Gemini于2019年3月31日被Microsoft Bing吸收。 因此，现已不再提供 Yahoo Gemini 广告帐户选项。
 
 将这些来自搜索引擎的数据集中到 Adobe Analytics 之后，您即可使用 Analysis Workspace 的强大功能对同样的数据进行分析。Workspace 中新的[付费搜索性能](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md#concept_E29B25BEE60C4A64B66E9255D7612254)模板可帮助进行此分析。
 
@@ -77,26 +75,26 @@ Advertising Analytics 可将以下维度和量度添加到 Analysis Workspace、
 
 >[!IMPORTANT]
 >
->此集成通过AMO ID变量的分类创建一组新的维度。这些新的维度不会影响或修改您现有的营销渠道或促销活动跟踪变量维度。当访客通过付费搜索广告登陆网站时，AMO ID 会连接到访客配置文件。因此，AMO 维度不仅可用于划分由此集成提供的 AMO 量度，还可以划分由访客在下游捕获的任何数据（访问次数、访客数、页面查看次数、跳出率、订单数、收入、自定义事件数等等）。在报告其他本地量度时，它们也可以按照其他维度进行划分。
+>此集成通过AMO ID变量的分类创建新的维集。 这些新的维度不会影响或修改您现有的营销渠道或促销活动跟踪变量维度。当访客通过付费搜索广告登陆网站时，AMO ID 会连接到访客配置文件。因此，AMO 维度不仅可用于划分由此集成提供的 AMO 量度，还可以划分由访客在下游捕获的任何数据（访问次数、访客数、页面查看次数、跳出率、订单数、收入、自定义事件数等等）。在报告其他本地量度时，它们也可以按照其他维度进行划分。
 >
 >这些量度的分类每天更新一次。因此，如果您在搜索引擎中更改元数据，那么您可能要在这些分类更新后的第二天才能看到这些更改。
 
 | 分类（维度）名称 | 定义 |
 |--- |--- |
 | 关键字匹配类型 (AMO ID) | 关键字匹配类型。这些值通常为广泛、短语、精确；或者如果广告类型没有匹配类型，则没有值。 |
-| 广告平台 (AMO ID) | 搜索引擎名称。值可包括Google AdWords或Microsoft Bing广告。 |
+| 广告平台 (AMO ID) | 搜索引擎名称。值可以包括Google adWords或Microsoft Bing Ads。 |
 | 帐户 (AMO ID) | 正在跟踪的搜索引擎帐户名称。 |
 | 促销活动 (AMO ID) | 搜索引擎帐户中的促销活动名称。 |
 | 广告组 (AMO ID) | 搜索引擎促销活动中的广告组名称。 |
 | 广告 (AMO ID) | 广告中使用的广告标题 + 广告描述。 |
 | 关键字 (AMO ID) | 您的搜索引擎帐户的“关键字”值 |
 | 匹配类型 (AMO ID) | 分配给关键字的关键字匹配类型。这些值通常为广泛、短语、精确；或者如果广告类型没有匹配类型，则没有值。 |
-| 广告类型 (AMO ID) | 所投放的广告类型，通常为“文字广告”。 |
+| 广告类型 (AMO ID) | 投放的广告类型，通常为"文字广告"。 |
 | 广告标题 (AMO ID) | 广告中使用的“标题”对象。 |
 | 广告描述 (AMO ID) | 广告中使用的“广告描述”对象。 |
 | 广告显示 URL (AMO ID) | 广告中使用的“广告显示 URL”对象。 |
 | 广告目标 URL (AMO ID) | 分配给您的广告的登陆页面 URL 或最终 URL。 |
-| 网络 (AMO ID) | 用于投放广告的网络。对于 Advertising Analytics，此值始终为“搜索”。 |
+| 网络 (AMO ID) | 用于投放广告的网络。对于Advertising Analytics，此值始终为“搜索”。 |
 | 投放 (AMO ID) | 托管投放网站（适用于内容网络）。只有托管投放才会使用此维度。 |
 | 产品目标 (AMO ID) | PLA 广告（非购买的实际产品）上使用的产品目标的名称。 |
 | 优化 (AMO ID) | Advertising Analytics 不使用此功能。此功能仅由 Advertising Cloud 客户使用。 |
@@ -106,7 +104,7 @@ Advertising Analytics 可将以下维度和量度添加到 Analysis Workspace、
 
 >[!IMPORTANT]
 >
->Advertising Analytics(以下列出)提供的指标是搜索引擎中的摘要级别数据。它们未连接到 Analytics 访客配置文件。它们仅连接到 AMO ID 变量及其关联的分类维度。因此，不应根据 AMO ID 维度以外的任何维度/区段对这些量度进行报告。这样做会导致 Analytics 将这些数据都显示为零。您可以将它们与其他量度一起纳入计算量度中，但这些计算量度也只应按照 AMO ID 维度进行划分。
+>Advertising Analytics提供的指标（如下所列）是来自搜索引擎的摘要级别数据。 它们未连接到 Analytics 访客配置文件。它们仅连接到 AMO ID 变量及其关联的分类维度。因此，不应根据 AMO ID 维度以外的任何维度/区段对这些量度进行报告。这样做会导致 Analytics 将这些数据都显示为零。您可以将它们与其他量度一起纳入计算量度中，但这些计算量度也只应按照 AMO ID 维度进行划分。
 >
 >这些量度是每日收集的数据，因此不会有当天的数据。也不应以低于每日的粒度对其进行报告。
 >
