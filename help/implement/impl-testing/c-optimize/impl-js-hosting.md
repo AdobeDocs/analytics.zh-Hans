@@ -2,19 +2,19 @@
 description: 将指向 JavaScript 库文件的调用置于页面顶部，可确保图像成为最先下载的元素之一。
 keywords: Analytics 实施
 seo-description: 将指向 JavaScript 库文件的调用置于页面顶部，可确保图像成为最先下载的元素之一。
-seo-title: JavaScript文件位置和并发
+seo-title: JavaScript 文件位置和并发性
 solution: Analytics
 subtopic: 故障诊断
-title: JavaScript文件位置和并发
+title: JavaScript 文件位置和并发性
 topic: 开发人员和实施
-uuid: ed5118a8-b142-4fab-8aa1-92d931 cc1439
-translation-type: tm+mt
+uuid: ed5118a8-b142-4fab-8aa1-92d931cc1439
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# JavaScript文件位置和并发
+# JavaScript 文件位置和并发性
 
 将指向 JavaScript 库文件的调用置于页面顶部，可确保图像成为最先下载的元素之一。
 
@@ -24,5 +24,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->由于第三方Internet性能审计提供商(如Keynote Systems)按顺序(而非同时)下载页面图像元素，因此它们不模拟典型的用户体验。
+>由于第三方 Internet 效能审计提供商（如 Keynote Systems）是按顺序先后（而非同时）下载页面图像元素，因此他们并不能模拟典型的用户体验。
 
