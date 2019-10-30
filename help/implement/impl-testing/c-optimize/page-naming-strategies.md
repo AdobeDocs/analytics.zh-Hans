@@ -7,8 +7,8 @@ solution: Analytics
 title: 页面命名策略
 topic: 开发人员和实施
 uuid: a829d0c7-6ebf-459a-b403-5e9c05161e5c
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -21,7 +21,7 @@ pageName 变量应使用简明而直观的页面标识符填充。
 
 尽管 *`pageName`* 变量对于识别用户行为十分重要，但 Adobe 建议使用多个变量来指示页面信息。最佳页面命名策略对网站层级的各级别使用不同的变量，如下所示：
 
-* *`channel`*&#x200B;变量可用于表示网站区域。
+* The *`channel`*&#x200B;变量可用于表示网站区域。
 * *`pageName`* 变量可用于显示内容类型。
 * [!UICONTROL 自定义分析]变量 (prop1) 可用于表示详细内容。
 
