@@ -6,7 +6,7 @@ seo-title: 计算量度和高级计算（派生）量度
 title: 计算量度和高级计算（派生）量度
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 >In July 2018, Adobe introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. 作为此更改的一部分，使用非默认分配模型的计算量度已迁移至改进的新归因模型。
 >
 >* “营销渠道最近接触”和“营销渠道首次接触”分配模型分别迁移到新的“最近接触”和“首次接触”归因模型(注意：“营销渠道”尚未弃用——只有计算量度中显示的两种分配模型已弃用。
->* 此外，我们还修正了线性分配的计算方式。 对于通过“线性”分配模型使用计算量度的客户，报表可能会稍有变化，以反映修正后的新归因模型。This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 有关详细信息，请参阅[线性分配将如何工作（自 2018 年 7 月 19 日起）](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)。
+>* 此外，我们还修正了线性分配的计算方式。 对于使用“线性”分配模型的计算指标的客户，报告可能会稍有变化以反映经过修正的新归因模型。 This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 有关详细信息，请参阅[线性分配将如何工作（自 2018 年 7 月 19 日起）](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)。
 
 
 我们的计算量度工具提供了一种高度灵活的方式，可用于生成、管理和组织量度。They allow you as marketers, product managers and analysts to ask questions of the data without having to change your [!DNL Analytics] implementation. The custom metrics available in each [!DNL Analytics] package are:
