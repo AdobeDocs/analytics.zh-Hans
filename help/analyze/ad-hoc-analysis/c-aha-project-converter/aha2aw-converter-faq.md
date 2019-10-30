@@ -5,7 +5,7 @@ seo-title: 项目转换器常见问题解答
 title: 项目转换器常见问题解答
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -76,7 +76,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col1"> <p><b>问：日期范围如何转换？</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">Ad Hoc Analysis 中的“最近 X 天”日期范围<i>不包含</i>当天，但在 Analysis Workspace 中，该日期范围<i>“包含”</i>当天。因此，像“最近 90 天”这样的日期范围在两个工具中可能并不完全一致。可使用自定义日期范围在 Analysis Workspace 中检索相同的时间段。 </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">'Last X day' date ranges in Ad Hoc Analysis <i>exclude</i> today, while Analysis Workspace <i>includes</i> today. 因此，“最近90天”等日期范围可能与工具之间不完全匹配。 可使用自定义日期范围在 Analysis Workspace 中检索相同的时间段。 </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">在 Workspace 中，会在项目/工作区级别应用 Ad Hoc Analysis 工作区级别的日期范围。 </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">在 Workspace 中，会在表列级别应用 Ad Hoc Analysis 报表级别的日期范围。 </li> 
     </ul> <p>您可以在 <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">组件</span> &gt; <span class="uicontrol">日期范围</span>下编辑自定义日期范围。 </p> </td> 
