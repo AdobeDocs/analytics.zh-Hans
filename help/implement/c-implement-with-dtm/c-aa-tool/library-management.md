@@ -6,8 +6,8 @@ seo-title: 库管理
 solution: Experience Cloud,Dynamic Tag Management
 title: 库管理
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 **[!UICONTROL *`Property`*]** &gt; ![](assets/settings_gear.png) **[!UICONTROL 编辑工具]** &gt; **[!UICONTROL 库管理]**
 
->[!NOTE]
->
->如果在一个 Web 属性中使用多个 Adobe Analytics 工具，则每个工具必须具有唯一的跟踪器变量名称。如果一个 Web 属性中的多个 Adobe Analytics 工具之间存在重复的对象变量名称，则将会引发冲突。
+> [!NOTE]如果在一个 Web 属性中使用多个 Adobe Analytics 工具，则每个工具必须具有唯一的跟踪器变量名称。如果一个 Web 属性中的多个 Adobe Analytics 工具之间存在重复的对象变量名称，则将会引发冲突。
 
 <table id="table_2758C770C91B4025AD74009B360D71F7"> 
  <thead> 
