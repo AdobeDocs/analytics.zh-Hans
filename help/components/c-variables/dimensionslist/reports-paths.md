@@ -4,10 +4,10 @@ seo-description: 显示有关访客访问网站页面的顺序的信息。您可
 seo-title: 路径
 solution: Analytics
 title: 路径
-topic: 报表
-uuid: f6f932-76cd-490d-b883-d59277405178
+topic: 报告
+uuid: 1f6df932-76cd-490d-b883-d59277405178
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
