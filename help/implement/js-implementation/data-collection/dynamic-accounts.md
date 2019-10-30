@@ -2,18 +2,18 @@
 description: 一个 .js 文件，可对其进行配置以自动选择报表包 ID。
 keywords: Analytics 实施
 seo-description: 一个 .js 文件，可对其进行配置以自动选择报表包 ID。
-seo-title: 报告套件ID-动态帐户
+seo-title: 报表包 ID - 动态帐户
 solution: Analytics
-title: 报告套件ID-动态帐户
+title: 报表包 ID - 动态帐户
 topic: 开发人员和实施
 uuid: 763a9741-309d-4795-8819-6543866047d5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 报告套件ID-动态帐户
+# 报表包 ID - 动态帐户
 
 一个 .js 文件，可对其进行配置以自动选择报表包 ID。此 .js 文件可基于 URL 自动将图像请求发送到相应的报表包中。例如，如果 URL 为 `www.mysite.com`，则图像请求自动发送至报表包 A。如果 URL 为 `www.mysite1.com`，则图像请求将自动发送至报表包 B。
 
@@ -22,7 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 主机/域（默认设置）
 * 路径
 * 查询字符串
-* 主机/域和路径
+* 主机/域名和路径
 * 路径和查询字符串
 * 完整 URL
 
@@ -30,7 +30,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## 定义要匹配的 URL 区段 {#section_8099162F75F641CFBE46FD814450EF36}
 
-基于以下示例 URL，下面显示了 URL 的某些部分，以及必须设置的 `s.dynamicAccountMatch` 变量。（默认设置 - 如果 `s.dynamicAccountMatch` 未定义 -为只搜索主机/域名）。Sample URL: `https://www.client.com/directory1/directory2/filename.html?param1=1234&param2=4321`
+基于以下示例 URL，下面显示了 URL 的某些部分，以及必须设置的 `s.dynamicAccountMatch` 变量。（默认设置 - 如果 `s.dynamicAccountMatch` 未定义 -为只搜索主机/域名）。示例 URL：`https://www.client.com/directory1/directory2/filename.html?param1=1234&param2=4321`
 
 | 部分 | 示例（参见上面） |
 |---|---|
@@ -61,11 +61,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * `s.dynamicAccountSelection=true`
 * `s.dynamicAccountList="devreportsuite1=qa.client.com;reportsuite1=client.com"`
 
-The code first checks to determine if `qa.client.com` exists within the Host/Domain Name. If so, the report suite `devreportsuite1` is selected, and the match stops. 以分号隔开各项多规则。
+此代码首先检查以确定主机/域名内是否存在 `qa.client.com`。如果存在，则选中报表包 `devreportsuite1`，并且匹配停止。以分号隔开各项多规则。
 
 ## 默认报表包 {#section_0360D724929348B0B211708B5BA15647}
 
-`s_account` 变量可先设置，并作为默认值，以防找不到任何指定字符串。示例如下：
+`s_account` 变量可最先设置，并在找不到任何指定字符串的情况下充当默认值。示例如下：
 
 ```javascript
 var s_account="defaultreportsuiteid" 
@@ -73,4 +73,4 @@ s.dynamicAccountSelection=true
 s.dynamicAccountList="devreportsuite1=qa.client.com;reportsuite1=client.com" 
 ```
 
-In the case above, if the host/domain name did not contain either `qa.client.com` or `client.com`, the report suite *defaultreportsuiteid* would be used.
+在以上示例中，如果主机/域名不包含 `qa.client.com` 或 `client.com`，将使用报表包 *defaultreportsuiteid*。
