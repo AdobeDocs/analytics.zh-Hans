@@ -5,7 +5,7 @@ seo-title: Analytics插件代码
 title: Analytics插件代码
 uuid: c75a6cd2-ee7a-4c2f-98a8-4618d0617b4f
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,6 +28,4 @@ source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable
 ```
 
->[!NOTE]
->
->上述插件假定某些自定义商务变量(eVar)可用。 如果上述插件中指定的变量在您的Analytics部署中不可用，只需用可用变量替换它们即可。
+> [!NOTE] 上述插件假定某些自定义商务变量(eVar)可用。 如果上述插件中指定的变量在您的Analytics部署中不可用，只需用可用变量替换它们即可。
