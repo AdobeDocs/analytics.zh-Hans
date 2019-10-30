@@ -7,8 +7,8 @@ solution: Analytics
 title: 事件序列化概述
 topic: 开发人员和实施
 uuid: 8c7883bb-5ba4-4440-af80-c0d15867570c
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 页面可能被重新载入或刷新，重复发送事件。[!UICONTROL 事件序列化]通过为每个事件使用一个序列号来防止事件被重复计数。
 * 用户将页面保存到他/她的计算机中，以备以后查看。这种情况对于用来查看购买回执的购买确认页面十分常见。[!UICONTROL 事件序列化]可防止后续的页面重新载入对事件重复计数。
 
->[!NOTE]
->
->数据源不支持事件序列化或删除重复事件。
+> [!NOTE]数据源不支持事件序列化或删除重复事件。
 
 本文档介绍了用于为“[!UICONTROL 转化]”和“[!UICONTROL 自定义]”事件实施“[!UICONTROL 事件序列化]”的过程。要使用[!UICONTROL 事件序列化]，您必须先在&#x200B;**[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]** &gt; **[!UICONTROL [选择报表包]]** &gt; **[!UICONTROL 编辑设置]** &gt; **]成功事件**[!UICONTROL 中启用事件序列化。然后，选择要在“[!UICONTROL 独特事件记录]”列中记录哪些事件。
 
