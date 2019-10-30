@@ -1,16 +1,16 @@
 ---
 description: 在计算量度管理器中，您可以通过标记区段来组织区段。
 seo-description: 在计算量度管理器中，您可以通过标记区段来组织区段。
-seo-title: 标记计算指标
-title: 标记计算指标
-uuid: f90ddbed-adc4-407d-b4 b0-469eda61 c704
+seo-title: 标记计算量度
+title: 标记计算量度
+uuid: f90ddbed-adc4-407d-b4b0-469eda61c704
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 标记计算指标
+# 标记计算量度
 
 在计算量度管理器中，您可以通过标记区段来组织区段。
 
