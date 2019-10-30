@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 流失概述
 title: 流失概述
-uuid: 2d98899e-e401-4d7 a-8af0-de0002 f84178
+uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 translation-type: tm+mt
-source-git-commit: 6abfb9ae80b827695e717b810b58d7531de0bfec
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 6abfb9ae80b827695e717b810b58d7531de0bfec
 * 一般、更宽范围的流量：显示在查看主页的访客中，有多少人继续进行搜索及有多少人最终查看特定项目。
 * 网站上事件之间的关联。显示查看隐私政策后继续购买产品的访客百分比。
 
-[YouTube上的流失可视化](https://www.youtube.com/watch?v=VcrfHSyIoj8&index=52&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4：15)
+[YouTube上的流失可视化](https://www.youtube.com/watch?v=VcrfHSyIoj8&index=52&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:15)
 
 ## Segmentation as a foundation for flow and fallout {#section_654F37A398C24DDDB1552A543EE29AA9}
 
@@ -54,7 +54,7 @@ Reports &amp; Analytics 和 Ad Hoc Analysis 在每个步骤都会结合使用区
 
 但是，如果应用到面板的区段比流失级别（如点击次数级别）低，则区段会因为其在报表中结合使用的方式不同而显示出不同的结果。需要重申的一点是，在大多数情况下，Analysis Workspace 中的数值同 Reports &amp; Analytics 和 Ad Hoc Analysis 中的数值是相匹配的。仅当以下所有情况都符合时，它们之间才会存在&#x200B;**不**&#x200B;匹配的情形：
 
-* 区段和流失不在同一级别。
+* 该细分与流失的级别不同。
 * 区段存在变数，即一次访问可能有不同的访客数量，或一位访客可能有不同的访问次数。
 
 在极少数情况下，您可能需要使 Analysis Workspace 与 Reports &amp; Analytics 将区段应用到流失/流量的方式保持一致，为此只需将区段拖放到工作区中的每个流失步骤，即可得到相同的结果。
