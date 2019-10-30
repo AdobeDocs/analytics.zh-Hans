@@ -1,18 +1,18 @@
 ---
 description: 通过 Data Warehouse，可让报表根据您的特定问题显示原始数据的高级数据关系。
-keywords: ftp；sftp
+keywords: ftp;sftp
 seo-description: 通过 Data Warehouse，可让报表根据您的特定问题显示原始数据的高级数据关系。
-seo-title: 数据仓库交付报告
+seo-title: Data Warehouse 传送的报表
 solution: Analytics
-title: 数据仓库交付报告
-uuid: 7a26e6f7-51a1-45fb-b53 e49 c49 c4 f84 aa6
+title: Data Warehouse 传送的报表
+uuid: 7a26e6f7-51a1-45fb-b53e-8c49c4f84aa6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 数据仓库交付报告
+# Data Warehouse 传送的报表
 
 通过 Data Warehouse，可让报表根据您的特定问题显示原始数据的高级数据关系。
 
