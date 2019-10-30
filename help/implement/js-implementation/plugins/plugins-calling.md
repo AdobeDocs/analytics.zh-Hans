@@ -2,29 +2,29 @@
 description: JavaScript 插件通常由 doPlugins 函数调用；在待粘贴代码中调用 t() 函数时，将执行此函数。
 keywords: Analytics 实施
 seo-description: JavaScript 插件通常由 doPlugins 函数调用；在待粘贴代码中调用 t() 函数时，将执行此函数。
-seo-title: 使用doPlugins函数调用插件
+seo-title: 通过 doPlugins 函数调用插件
 solution: Analytics
 subtopic: 插件
-title: 使用doPlugins函数调用插件
+title: 通过 doPlugins 函数调用插件
 topic: 开发人员和实施
-uuid: 95dd01de-8136-4ec9-aac9-4a3 d5371 b839
-translation-type: tm+mt
+uuid: 95dd01de-8136-4ec9-aac9-4a3d5371b839
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
 
 
-# 使用doPlugins函数调用插件
+# 通过 doPlugins 函数调用插件
 
 JavaScript 插件通常由 doPlugins 函数调用；在待粘贴代码中调用 t() 函数时，将执行此函数。
 
-Consequently, if you set a variable in the *`doPlugins`* function, you can overwrite a variable you set on the HTML page. The only time the *`doPlugins`* function is not called is when the [!UICONTROL usePlugins] variable is set to 'false.'
+因此，如果在 *`doPlugins`* 函数中设置了一个变量，则可能会覆盖 HTML 页面中设置的某个变量。唯一不调用 *`doPlugins`* 函数的时候，是在 [!UICONTROL usePlugins] 变量设置为“false”时。
 
 ## 代码示例 {#section_6940FD16F2E94753A1C39694D0CF5FBA}
 
-The code example below is what the *`doPlugins`* function looks like in your JavaScript file:
+以下代码示例展示了 *`doPlugins`* 函数在 JavaScript 文件中的样子：
 
-JavaScript AppMeasurement：
+AppMeasurement for JavaScript:
 
 ```js
 /* Plugin Config */ 
@@ -47,11 +47,11 @@ s.doPlugins=s_doPlugins
 
 >[!NOTE]
 >
->H代码及更早版本使用不同的语法支持某些非常旧的浏览器(如IE和5)。
+>H 代码及之前的版本使用不同的语法来支持某些非常旧的浏览器（如 IE 4 和 5）。
 
-## Renaming the doPlugins Function {#section_70B7D58E057B48058E25907AB3726725}
+## 重命名 doPlugins 函数 {#section_70B7D58E057B48058E25907AB3726725}
 
-The *`doPlugins`* function is typically called *`s_doPlugins`*. In certain circumstances, (usually when more than one version of code may appear on a single page) the *`doPlugins`* function name may be changed. If the standard *`doPlugins`* function needs to be renamed to avoid conflicts, ensure that *`doPlugins`* is assigned the correct function name, as shown in the example below.
+*`doPlugins`* 函数通常以 *`s_doPlugins`* 名称调用。在特定情况下（通常是在同一页面中显示多个代码版本时），*`doPlugins`* 函数名称可能会被更改。如果标准 *`doPlugins`* 函数需重命名以避免冲突，请确保为 *`doPlugins`* 指定正确的函数名称，如以下示例所示。
 
 ```js
 /* Plugin Config */ 
@@ -64,7 +64,7 @@ s_mc.doPlugins=s_mc_doPlugins
 
 ## 使用 doPlugins {#section_FA5D901CC5214D54BCD08AB77BED7925}
 
-*`doPlugins`* 该函数提供了一种简单的方法，可为变量提供默认值，或从站点任何页面 [!UICONTROL 上的查询字符串参数] 中获取值。Using *`doPlugins`* is often easier than populating the values in the HTML page because only one file must be updated. 请记住，对 JavaScript 文件的更改并不总是立即生效。网站的回访者通常会使用缓存版本的 JavaScript 文件。这意味着在更改后最长一个月的时间里，对文件所做的更新可能不会应用于所有访客。
+*`doPlugins`* 函数可轻松为变量指定默认值，或从任一网站页面的[!UICONTROL 查询字符串参数]中获取值。因为只需更新一个文件，因此，在 HTML 页面使用 *`doPlugins`* 通常比在 HTML 页面中填充值更加简单。请记住，对 JavaScript 文件的更改并不总是立即生效。网站的回访者通常会使用缓存版本的 JavaScript 文件。这意味着在更改后最长一个月的时间里，对文件所做的更新可能不会应用于所有访客。
 
 以下示例显示如何使用&#x200B;*`doPlugins`*&#x200B;函数为变量设置默认值，并从查询字符串获取值。
 
