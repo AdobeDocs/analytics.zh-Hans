@@ -1,13 +1,13 @@
 ---
 description: 如何在 Facebook Instant Articles 中实施分析。
-keywords: Analytics实施；嵌入；自定义变量；自定义事件；访客跟踪；跟踪；限制
+keywords: Analytics 实施;嵌入;自定义变量;自定义事件;访客跟踪;跟踪;限制
 seo-description: 如何在 Facebook Instant Articles 中实施分析。
 seo-title: Facebook Instant Articles（即时文章）
 solution: Analytics
 title: Facebook Instant Articles（即时文章）
 topic: 开发人员和实施
-uuid: 04b6366b-7c52-4ae-b2 dd-bb6 b78 fd409 c
-translation-type: tm+mt
+uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
+translation-type: ht
 source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 ---
@@ -83,7 +83,7 @@ Facebook Instant Articles 是发布者在 Facebook 中创建快捷、交互式�
    1. 您的访客命名空间变量。**注意：**&#x200B;大多数值都可以在 Analytics 标准实施的过程中找到。如果需要，客户关怀团队或 Adobe 咨询人员可以帮助提供适当的值。
 
 1. [设置自定义变量和事件跟踪](../../implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B)。
-1. Include the page view image request syntax `( s.t())`.
+1. 将页面查看图像请求语法 `( s.t())` 包含在内。
 
 ## 步骤 3. 设置自定义变量和事件跟踪 {#section_932C41BD21154C25B99389299BDF3E0B}
 
@@ -110,13 +110,13 @@ s.prop1 = s.Util.getQueryParam("prop1");
 
 ## 访客跟踪 {#section_60F0C77659534949831E85B5FD9AE81E}
 
-只要 Analytics HTML 页面托管在您的 Web 服务器中，Adobe 就能够在所有 Facebook Instant Articles 中支持您现有的隐私政策。这就意味着如果最终用户选择不再跟踪您的主要站点，他们同时也就无法再跟踪您的任何 Facebook Instant Articles，无需执行其他步骤。使用此实用程序页面还意味着支持标识服务(访客ID)，以便您能够将Facebook Instant Articles上捕获的指标和变量与Experience Cloud的其余部分相集成。(An example is for targeted advertising using [!DNL Adobe Audience Manager]).
+只要 Analytics HTML 页面托管在您的 Web 服务器中，Adobe 就能够在所有 Facebook Instant Articles 中支持您现有的隐私政策。这就意味着如果最终用户选择不再跟踪您的主要站点，他们同时也就无法再跟踪您的任何 Facebook Instant Articles，无需执行其他步骤。使用此实用工具页面还意味着支持 Identity Service（访客 ID），这样您就能够将您在 Facebook Instant Articles 中捕获的量度和变量集成到 Experience Cloud 的其他部分。（例如使用 [!DNL Adobe Audience Manager] 的定位广告）。
 
 ## 跟踪的局限性 {#section_1EE1BB069A3148DB9446371AFE196567}
 
 关于这种方法，有些问题应该注意。对于一般只能通过 Facebook Instant Articles 中的 JavaScript 访问的任意 DOM 值（例如，反向链接）而言，都不能在用于跟踪的 iFrame 中获取。但是，标准技术报告，例如浏览器、设备、屏幕大小或分辨率，应该能够正常工作。另外，可以通过引用实用工具页面中的 [!DNL document.referrer] 获取 pageURL。
 
-## What's Next? {#section_A170A10E2A3642A784DF720195DA8B38}
+## 展望未来{#section_A170A10E2A3642A784DF720195DA8B38}
 
 [!DNL Adobe Analytics] 很高兴能够与 Facebook、我们的发布者建立合作伙伴关系，为使用移动网页的发布者带来业界领先的分析能力，并实现速度惊人的用户体验。我们致力于打造最佳的长期解决方案，以满足客户不断变化的分析需求。
 
