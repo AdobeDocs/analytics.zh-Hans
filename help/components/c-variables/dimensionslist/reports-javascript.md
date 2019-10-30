@@ -4,10 +4,10 @@ seo-description: 根据设备是启用、禁用 JavaScript 还是当作“未识
 seo-title: JavaScript 支持
 solution: Analytics
 title: JavaScript 支持
-topic: 报表
-uuid: 7b95001a-cd35-478a-8b24-54d30666110 d
+topic: 报告
+uuid: 7b95001a-cd35-478a-8b24-54d3066110d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 根据设备是启用、禁用 JavaScript 还是当作“未识别”Javascript 来显示量度。
 
->[!NOTE]
->
->In early November 2016, we plan to remove the restriction where JavaScript is always listed as *`disabled / unidentified`* for Mobile devices.
+> [!NOTE] 在2016年11月初，我们计划取消JavaScript始终列为移动设备的 *`disabled / unidentified`* 限制。
 
 JavaScript 报表对应于原始数据中的 javascript 列。
 
