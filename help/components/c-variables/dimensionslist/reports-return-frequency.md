@@ -4,10 +4,10 @@ seo-description: 显示同一访客从初次访问网站到回访之间的时间
 seo-title: 回访频度
 solution: Analytics
 title: 回访频度
-topic: 报表
-uuid: 7069205d-8fab-4ff7-9d01be9705142e27
+topic: 报告
+uuid: 7069205d-8fab-4ff7-9d01-be9705142e27
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -37,5 +37,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 ## 注释 {#section_5217B15C081141F9B430DB7D4D61AFE5}
 
 * 此报表不记录任何首次访客，因为没有先前访问可供比较。
-* 此报表中的日期范围使用访问发生的时间。例如，访客在 4 月访问网站，然后在 10 月的同一天回访两次。提取 10 月份回访频度报表可发现，会在“超过 1 个月”下显示一次访问，并在“小于 1 天”下显示一次访问。
+* 此报表中的日期范围使用访问发生的时间。例如，访客在 4 月访问网站，然后在 10 月的同一天回访两次。提取10月的“回访频率”报告将显示“超过1个月”的一次访问，以及“少于1天”的一次访问。
 
