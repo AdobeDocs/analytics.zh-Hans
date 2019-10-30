@@ -8,8 +8,8 @@ subtopic: JavaScript AppMeasurement
 title: 迁移到 AppMeasurement for JavaScript
 topic: 开发人员和实施
 uuid: 5be345a8-5a95-4176-a2e6-97139b9b46ce
-translation-type: ht
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 下表包含迁移实施所需执行的任务列表。
 
->[!NOTE]
->
->当您迁移到 [!DNL AppMeasurement] for JavaScript 时，我们建议您迁移到 [Identity Service](../../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07)。
+> [!NOTE]当您迁移到 [ for JavaScript 时，我们建议您迁移到 ](../../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07)Identity Service[!DNL AppMeasurement]。
 
 ![](assets/step1_icon.png) 检查插件兼容性
 
