@@ -8,7 +8,7 @@ title: 集成功能
 topic: Data connectors
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 * （可选）DFA 成本数据
 * （可选）DFA 查询错误，超时
 
->[!NOTE]
->
->此集成不支持单击跟踪器（以前称为单击命令）。 点击跟踪器可用于记录文本链接、电子邮件所含链接、或网站上其他硬编码元素的点击次数。
+> [!NOTE] 此集成不支持单击跟踪器（以前称为单击命令）。 点击跟踪器可用于记录文本链接、电子邮件所含链接、或网站上其他硬编码元素的点击次数。
 
 Data connectors DFA 集成可通过 DFA 返回的数据自动构建 DFA 跟踪代码。这些构建的跟踪代码可用于唯一标识广告及其关联的版面和创作。以下内容简要介绍了跟踪代码的结构，具体取决于集成的版本。版本 1.5 类似于以下：
 
@@ -47,20 +45,18 @@ Data connectors DFA 集成可通过 DFA 返回的数据自动构建 DFA 跟踪�
 
 ## SearchCenter 重复数据删除 {#section-f809b3bb5e5142aa8ff89bcd5f0d0e49}
 
-DFA 集成现在支持 Adobe SearchCenter 感知。如果通过 Data connectors 向导启用 SearchCenter 重复数据删除，搜索驱动型访客将不会导致从 DFA 的 Floodlight 服务器提取数据，并且&#x200B;*`s.campaign`*&#x200B;将不会由 DFA 填充，这样便允许 SearchCenter 填充它。此外，DFA 和 SearchCenter 现在会将删除了重复数据的值填入每个产品的变量。
+DFA 集成现在支持 Adobe SearchCenter 感知。通过数据连接器向导启用SearchCenter重复数据消除，搜索驱动型访客将不会导致数据从DFA的Floodlight服务器中提取，并且不会由DFA填充，从而允许SearchCenter填充它。 *`s.campaign`* 此外，DFA 和 SearchCenter 现在会将删除了重复数据的值填入每个产品的变量。
 
 以下列表简要介绍在启用 SearchCenter 重复数据删除时启用的逻辑。
 
 If **[!UICONTROL DFA]** &gt; **[!UICONTROL SearchCenter deduplication]** is selected in the wizard:
 
-* 对于 DFA 点进，集成会将字符串“DFA Clickthrough”填入配置的 SCM eVar。
-* 对于 DFA 显示到达，集成会将字符串“DFA Viewthrough”填入 SCM eVar。
+* 如果是DFA点进，则集成会将字符串“DFA点进”填充到配置的SCM eVar中。
+* 如果是DFA查看，则集成会将字符串“DFA Viewthrough”填充到SCM eVar。
 
 If **[!UICONTROL SearchCenter]** &gt; **[!UICONTROL DFA deduplication]** is selected in the wizard:
 
-* 对于 DFA 显示到达，集成会将字符串“DFA Viewthrough”填入 SCM eVar。
+* 如果是DFA查看，则集成会将字符串“DFA Viewthrough”填充到SCM eVar。
 
->[!NOTE]
->
->如果启用了SearchCenter &gt; DFA重复数据消除并设置了SearchCenter查询字符串参数，则不会考虑访问以进行DFA处理。 这意味着 SearchCenter 查询字符串参数应当不同于 DFA 点进参数，并且没有任何显示广告应设置 SearchCenter 查询字符串参数。
+> [!NOTE] 如果启用了SearchCenter &gt; DFA重复数据消除并设置了SearchCenter查询字符串参数，则不会考虑访问以进行DFA处理。 这意味着 SearchCenter 查询字符串参数应当不同于 DFA 点进参数，并且没有任何显示广告应设置 SearchCenter 查询字符串参数。
 
