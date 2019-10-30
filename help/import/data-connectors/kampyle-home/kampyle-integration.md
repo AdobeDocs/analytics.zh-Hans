@@ -6,7 +6,7 @@ solution: Analytics
 title: 使用集成
 uuid: b39c1334-ac0f-431b-a34f-27ff9b068e33
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,9 +15,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 部署后，您可以开始使用此集成提供的其他功能。 以下是从Adobe Analytics中获取此集成价值所需的操作。
 
->[!NOTE]
->
->在您的Adobe Analytics报告中，可能需要24-48小时才能开始查看Kampyle响应数据。
+> [!NOTE] 在您的Adobe Analytics报告中，可能需要24-48小时才能开始查看Kampyle响应数据。
 
 ## 混合反馈和现场行为数据{#mix-feedback-and-onsite-behavior-data}
 
