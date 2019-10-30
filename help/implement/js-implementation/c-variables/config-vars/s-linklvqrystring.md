@@ -5,7 +5,7 @@ seo-description: 通过动态变量，您可以将一个变量中的值复制到
 solution: null
 title: 动态变量
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,11 +26,9 @@ The *`linkLeaveQueryString`*&#x200B;变量确定[!UICONTROL 退出链接]和[!UI
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |--- |--- |--- |--- |
-| 不适用 | 不适用 | Exit Links File Downloads | false |
+| 不适用 | 不适用 | 退出链接文件下载 | false |
 
->[!NOTE]
->
->Setting `linkLeaveQueryString=true` includes all query string parameters for all exit links and download links.
+> [!NOTE]设置 `linkLeaveQueryString=true` 可包含所有退出链接和下载链接的全部查询字符串参数。
 
 ## 语法
 
@@ -60,5 +58,5 @@ s.linkLeaveQueryString=true
 
 ## 缺陷、问题和提示
 
-* Setting `s.linkLeaveQueryString=true` includes all query string parameters for all exit links and download links.
-* The `linkLeaveQueryString` variable does not affect recorded page URLs, visitor click map, or [!UICONTROL Path] reports.
+* 设置 `s.linkLeaveQueryString=true` 可包含所有退出链接和下载链接的全部查询字符串参数。
+* `linkLeaveQueryString` 变量不会影响记录的页面 URL、访客点击图或[!UICONTROL 路径]报表。
