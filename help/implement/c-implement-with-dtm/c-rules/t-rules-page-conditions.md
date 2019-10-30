@@ -1,12 +1,12 @@
 ---
 description: 创建用于确定在哪些页面上触发规则的规则。
-keywords: 动态标签管理；规则；创建规则；新规则；页面加载规则
+keywords: Dynamic Tag Management;规则;创建规则;新规则;页面加载规则
 seo-description: 创建用于确定在哪些页面上触发规则的规则。
 seo-title: 为页面加载规则创建条件
-solution: Experience Cloud，分析，目标，动态标签管理
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 为页面加载规则创建条件
 uuid: 30a6c69f-56e7-414e-9636-64c262e7ccd4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
