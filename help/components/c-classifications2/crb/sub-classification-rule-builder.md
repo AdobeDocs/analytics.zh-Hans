@@ -8,7 +8,7 @@ title: 子分类和规则生成器 - 用例
 topic: 管理工具
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -47,15 +47,13 @@ t_rule_builder_subclass.xml
 
 描述如何使用规则生成器上载子分类的示例步骤。
 
->[!NOTE]
->
->These steps describe how to accomplish the use case described in Sub-Classifications and the Rule Builder.[](../../../components/c-classifications2/crb/sub-classification-rule-builder.md)
+> [!NOTE] 这些步骤描述了如何完成子分类和规 [则构建器中描述的用例](../../../components/c-classifications2/crb/sub-classification-rule-builder.md)。
 
 1. 在[分类管理器](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)中创建分类和子分类。
 
-   示例：
+   示例:
 
-   ![Step Info](assets/sub_class_create.png)
+   ![步骤信息](assets/sub_class_create.png)
 
 1. In the [Classifications Rule Builder](../../../components/c-classifications2/crb/classification-rule-builder.md#concept_C1F219E622044D43852EF5168FF7192A), classify the sub-classification key from the original tracking code.
 
@@ -72,17 +70,17 @@ t_rule_builder_subclass.xml
 
 1. 上载仅包含指定子分类的分类文件。
 
-   See Multiple-Level Classifications.[](../../../components/c-classifications2/c-sub-classifications.md#concept_35AD906CDDC4441DAAF70664CF76AA0A)
+   请参 [阅多级分类](../../../components/c-classifications2/c-sub-classifications.md#concept_35AD906CDDC4441DAAF70664CF76AA0A)。
 
-   示例：
+   示例:
 
-   | 键值 | 渠道 | 广泛促销活动代码 | Broad Campaign code&amp;Hat;Campaign type | Broad Campaign code&amp;Hat;Campaign Director | ... |
+   | 键值 | 渠道 | 广泛促销活动代码 | 广泛的营销活动代码&amp;Hat；营销活动类型 | 广泛的营销活动代码&amp;Hat；营销活动总监 | ... |
    |---|---|---|---|---|---|
    | * |  | 111 | 品牌 | Suzanne |  |
    | * |  | 222 | 品牌 | Frank |  |
 
 1. 要维护查找表，请上载一个小文件（如上方所示）。
 
-   You would upload this file, for example, when a new *`Broad Campaign code`* is introduced. 此文件将应用于之前分类的值。同样，如果您创建了新的子分类（例如  as a sub-classification of ), you upload only the sub-classification file, rather than the entire classification file.*`Creative Theme`**`Creative code`*
+   You would upload this file, for example, when a new *`Broad Campaign code`* is introduced. 此文件将应用于之前分类的值。同样，如果您创建了新的子分类（例如 作为 *`Creative Theme`**`Creative code`*&#x200B;子分类)，您只上传子分类文件，而不是上传整个分类文件。
 
    这些子分类函数的报告方式与顶级分类类似。这降低了使用它们所需的管理负担。
