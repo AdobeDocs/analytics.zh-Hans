@@ -7,7 +7,7 @@ solution: Analytics
 title: 数据准确性验证
 topic: 开发人员和实施
 uuid: 267f6c61-705a-41cf-9e09-4e2ce2331f32
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -27,7 +27,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->Default pages, such as [!DNL index.html], often receive automated or monitoring traffic. 因此相比较于其他已访问的页面，这类页面在基于浏览器的数据收集方面存在更大的差异。
+>默认页面（如 [!DNL index.html]）通常会接收自动流量或监测流量，因此相比较于其他已访问的页面，这类页面在基于浏览器的数据收集方面存在更大的差异。
 
 所有三种类型的验证都要求提供涉及时段的调试日志或数据馈送。通常为一天或更短的时间。
 
@@ -43,5 +43,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 确保查询和报表包之间的时区差异匹配。
 * 测量订购流程并在标记中反映（但会从订购系统中删除）的自定义 Keynote 或类似流量（Keynote Transaction 等）。
 * 说明客户的去除重复数据流程。
-* 重新加载订购页面（订购会根据 *`purchaseID`*).
+* 重新加载订购页面（订购会根据 *`purchaseID`* 删除重复项）。
 
