@@ -1,19 +1,19 @@
 ---
 description: 您可以将 eVar 的值复制到一个属性来启用路径分析。
 seo-description: 您可以将 eVar 的值复制到一个属性来启用路径分析。
-seo-title: 通过将eVar值复制到prop来确定路径
+seo-title: 通过将 eVar 值复制到 prop 来确定路径
 solution: Analytics
 subtopic: 处理规则
-title: 通过将eVar值复制到prop来确定路径
+title: 通过将 eVar 值复制到 prop 来确定路径
 topic: 管理工具
-uuid: 8d7647c7-aa91-466b-8d31-fb4 dce83 f04 a
+uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 通过将eVar值复制到prop来确定路径
+# 通过将 eVar 值复制到 prop 来确定路径
 
 您可以将 eVar 的值复制到一个属性来启用路径分析。
 
