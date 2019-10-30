@@ -3,9 +3,9 @@ description: 有关三个产品兼容性选项的说明。
 seo-description: 有关三个产品兼容性选项的说明。
 seo-title: 量度兼容性
 title: 量度兼容性
-uuid: f2706e2b-c0 cc-4af2-bcb4-1318796e9845
+uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
 translation-type: tm+mt
-source-git-commit: 6661e99d6b1289242e6c7ce3833b56e2f9990acc
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
