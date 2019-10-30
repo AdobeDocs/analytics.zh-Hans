@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 变量
 title: 变量覆盖
 topic: 开发人员和实施
-uuid: 3ec09ae8-b9 df-426f-8065-42b4518 e6 c5 f
-translation-type: tm+mt
+uuid: 3ec09ae8-b9df-426f-8065-42b4518e6c5f
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 通过变量覆盖，您可以更改单个跟踪的变量值或跟踪链接调用。
 
-To override variables, create a new object, assign variable values, and pass this object as the first parameter to `s.t()`, or as the fourth parameter to `s.tl()`:
+要覆盖变量，请创建一个新对象，指定变量值，然后将此对象作为第一个参数传递给 `s.t()`，或者作为第四个参数传递给 `s.tl()`：
 
 ```js
 s.eVar1="one"; 
