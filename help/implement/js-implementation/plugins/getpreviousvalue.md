@@ -8,8 +8,8 @@ subtopic: 插件
 title: getPreviousValue
 topic: 开发人员和实施
 uuid: 20da7b4a-9820-4690-a1cc-d10b6dd627a7
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 在下一页面查看时捕获 Analytics 变量值。例如，您可以使用此插件将上一页面查看的 s.pageName 值捕获到一个自定义流量变量中。它还提供一个选项，可以在只有设置了指定的成功事件时才捕获上一个值。
 
->[!NOTE]
->
->下面的说明需要您更改网站上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
+> [!NOTE]下面的说明需要您更改网站上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
 
 ## 插件代码和实施 {#section_92E94A96A4764113B5588F1B83E3DE2C}
 
@@ -28,7 +26,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 **插件配置**
 
-将以下代码置于  *`s_doPlugins()`* 函数中，该函数位于 *`s_code.js`* 文件中标记为&#x200B;*插件配置*&#x200B;的区域。选取一个自定义流量 (s.prop) 变量或一个自定义转化 (s.eVar) 变量，以便用于捕获保留值数据。这应该是一个已经通过“管理控制台”启用的变量，且当前未做其他任何使用。您可以使用以下示例并根据需要对它进行更新。
+将以下代码置于 *`s_doPlugins()`* 函数中，它位于 *`s_code.js`文件中被标记为*&#x200B;插件配置&#x200B;*的区域中。*&#x200B;选取一个自定义流量 (s.prop) 变量或一个自定义转化 (s.eVar) 变量，以便用于捕获保留值数据。这应该是一个已经通过“管理控制台”启用的变量，且当前未做其他任何使用。您可以使用以下示例并根据需要对它进行更新。
 
 `s.prop1=s.getPreviousValue(s.pageName,'gpv_pn','event1');`
 
@@ -59,7 +57,7 @@ s.split=new Function("l","d",""
 +"++]=l.substring(0,i);l=l.substring(i+d.length);}return a"); 
 ```
 
-**注意**
+**注释**
 
 * 在生产环境中进行部署之前，请务必对插件安装进行广泛地测试，以确保可按预期进行数据收集。
 * 如果任意给定页面上的所选变量没有任何值，则将在 Cookie 中设置 *no value*（没有值）文本。
