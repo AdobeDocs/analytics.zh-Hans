@@ -4,10 +4,10 @@ seo-description: 显示用于访问您网站的移动设备的详细列表。
 seo-title: 设备
 solution: Analytics
 title: 设备
-topic: 报表
-uuid: b7ca4a3f-8646-42b8-82c8-ea4 f809 dc115
+topic: 报告
+uuid: b7ca4a3f-8646-42b8-82c8-ea4f809dc115
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
