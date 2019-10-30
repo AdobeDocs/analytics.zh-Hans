@@ -5,9 +5,9 @@ seo-title: 独特访客
 solution: Analytics
 title: 独特访客
 topic: 量度
-uuid: ae210698-99f9-485e-a640-c73207 adc7
+uuid: ae210698-99f9-485e-a640-c7520807adc7
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ Version 14 does not remove duplicate [!UICONTROL Visits] and [!UICONTROL Unique 
 | 转化 | 访客是指访问您网站的人。当发生转化相关的事件或操作时会被计为一次。 |
 | Ad Hoc Analysis | 访客是指访问您网站的人。不需要使用永久性 Cookie。 |
 
-See [Unique Visitors Report - Version 15 and Ad Hoc Analysis](../../../components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md#concept_877141D6D1E743DA9FAB41C72A8121C7).
+请参 [阅独特访客报告——版本15和临时分析](../../../components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md#concept_877141D6D1E743DA9FAB41C72A8121C7)。
 
 >[!MORE_LIKE_THIS]
 >
