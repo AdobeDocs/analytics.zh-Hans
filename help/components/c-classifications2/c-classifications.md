@@ -1,6 +1,6 @@
 ---
-description: A classification is a way of categorizing Analytics variable data, then displaying the data in different ways when you generate reports.
-seo-description: A classification is a way of categorizing Analytics variable data, then displaying the data in different ways when you generate reports.
+description: 分类是一种对Analytics变量数据进行分类的方法，然后在生成报告时以不同的方式显示数据。
+seo-description: 分类是一种对Analytics变量数据进行分类的方法，然后在生成报告时以不同的方式显示数据。
 seo-title: 关于分类
 solution: Analytics
 subtopic: 分类
@@ -8,7 +8,7 @@ title: 关于分类
 topic: 管理工具
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -31,11 +31,9 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 >
 >已从代码库中移除了导入数字 2 分类和启用日期的分类的功能。这项更改将随 2019 年 6 月维护版本的发布而生效。如果您的导入文件中包含“数字”或“启用日期”列，则这些单元格会被静默忽略，同时该文件中的任何其他数据均会正常导入。现有的分类仍可以通过标准分类工作流程导出，并将继续在报表中可用。
 
->[!NOTE]
->
->在2018年5月10日的Analytics维护版本中，Adobe开始限制启用日期的分类和数字分类的功能。 这些分类类型已从管理员和分类导入器界面中删除。无法添加新的启用日期的分类和数值分类。现有的分类仍可以通过标准分类工作流程进行管理（上传、删除），并将继续在报表中可用。
+> [!NOTE] 在2018年5月10日的Analytics维护版本中，Adobe开始限制启用日期的分类和数字分类的功能。 这些分类类型已从管理员和分类导入器界面中删除。无法添加新的启用日期的分类和数值分类。现有的分类仍可以通过标准分类工作流程进行管理（上传、删除），并将继续在报表中可用。
 
-After creating the classifications, you can leverage the new data attributes throughout Adobe Analytics.
+在创建分类后，您可以在整个Adobe Analytics中利用新的数据属性。
 
 **跟踪代码示例**
 
