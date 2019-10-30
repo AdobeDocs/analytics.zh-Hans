@@ -4,10 +4,10 @@ seo-description: 显示了在访问过程中选定的转化事件发生之前的
 seo-title: 发生事件之前逗留的时间
 solution: Analytics
 title: 发生事件之前逗留的时间
-topic: 报表
-uuid: 851d9b6e-9d85-464a-9c40-ce525365 ea7 d
+topic: 报告
+uuid: 851d9b6e-9d85-464a-9c40-ce525365ea7d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
