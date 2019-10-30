@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 访客
 title: 跨设备连接用户
 topic: 开发人员和实施
-uuid: 6243957b-5cc1-49ef-aa94-5b5 ec4 eac313
-translation-type: tm+mt
+uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
+translation-type: ht
 source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->不再建议跨设备识别访客的方法。Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+>不再建议使用这种方法来识别跨设备访客。请参阅 [Adobe Experience Cloud 设备协作文档](https://marketing.adobe.com/resources/help/zh_CN/mcdc/)。
 
 跨设备访客识别可帮助您连接跨多个设备的访客。跨设备访客识别使用访客 ID 变量 s.visitorID 来关联跨设备的用户。
 
