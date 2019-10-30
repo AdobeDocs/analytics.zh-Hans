@@ -8,8 +8,8 @@ subtopic: 故障诊断
 title: 替换 Analytics 代码
 topic: 开发人员和实施
 uuid: d3ea6585-199f-4dbe-9ee8-15b204689f2f
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
