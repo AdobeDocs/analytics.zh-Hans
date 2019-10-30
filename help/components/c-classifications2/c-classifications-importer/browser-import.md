@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 分类
 title: 浏览器导入
 topic: 管理工具
-uuid: 56dfbf4c-36e6-49f4-b5 cb-8ab714432825
+uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 您可以使用浏览器导入（上载）分类数据。此方法仅限将分类数据上载到单个报表包。
 
-## Browser import {#concept_314FB3D5FD5A439B9CFEDE37A3337BA7}
+## 浏览器导入 {#concept_314FB3D5FD5A439B9CFEDE37A3337BA7}
 
 您可以使用浏览器导入（上载）分类数据。此方法仅限将分类数据上载到单个报表包。
 
-**[!UICONTROL 管理员]** &gt; **[!UICONTROL 分类导入程序]**
+**[!UICONTROL “管理员]** ”&gt;“分 **[!UICONTROL 类导入程序”]**
 
 ## 分类浏览器导入 - 字段描述 {#section_F628C47081DA4026A4D30E3D3454B1DA}
 
@@ -66,7 +66,7 @@ t_upload_a_saint_data_file_via_web_browser.xml
 
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
 1. Click **[!UICONTROL Import File]**.
-1. Configure the **[!UICONTROL Browser Import]** fields.
+1. 配置浏 **[!UICONTROL 览器导入]** 字段。
 1. Click **[!UICONTROL Import File]**.
 1. 查看状态窗口以了解处理消息。
 1. (Conditional) If you selected **[!UICONTROL Automatically Download Classification File After Upload is Complete]**, specify where you want to store the resulting file when processing completes.
