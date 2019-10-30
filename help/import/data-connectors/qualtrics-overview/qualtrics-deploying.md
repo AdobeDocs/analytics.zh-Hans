@@ -8,12 +8,12 @@ title: 部署集成
 topic: Data connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Deploying the Integration{#deploying-the-integration}
+# 部署集成{#deploying-the-integration}
 
 部署此集成是一个简单的过程，需要执行以下操作。
 
@@ -36,19 +36,19 @@ source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
 
 1. **向导步骤3**:无需任何信息。
 
-   Step Result 1. **向导步骤4 —— 导出设置**
+   步骤结果 1. **向导步骤4 —— 导出设置**
 
    | eVar | 选择最多五个eVar以供导出到Qualtrics |
    |---|---|
    | 事件 | 选择最多五个要显示的自定义事件以导出到Qualtrics |
-   | Prop | Select up to five of your Props to expose for exporting to Qualtrics |
-   | Access Requests | Check the box for any of the standard metrics and dimensions that you wish to export to Qualtrics. The  is required to allow the export to function properly.`visitor_id` |
+   | Prop | 选择最多五个要公开的Prop以导出到Qualtrics |
+   |  访问请求 | 选中要导出到Qualtrics的任何标准度量和维度的复选框。 需 `visitor_id` 要允许导出正常工作。 |
 
-1. **Wizard Step 5: Review configuration and then click Activate Now.******
+1. **向导步骤5**:查看配置，然后单击“ **[!UICONTROL 立即激活”]**。
 
-## Enabling the Integration in Qualtrics Research Suite{#enabling-the-integration-in-qualtrics-research-suite}
+## 在Qualtrics Research suite中启用集成{#enabling-the-integration-in-qualtrics-research-suite}
 
-After completing the integration wizard, you must activate the integration for each Qualtrics survey that you want connected.
+完成集成向导后，您必须为要连接的每个Qualtrics调查激活集成。
 
 1. 登录到Qualtrics Research Suite。
 1. 在“我 **[!UICONTROL 的调查]** ”选项卡上，单击要集 **[!UICONTROL 成的调查的“编辑]** ”按钮。
@@ -57,7 +57,7 @@ After completing the integration wizard, you must activate the integration for e
    ![](assets/advanced_options.png)
 
 1. 选择Adobe Analytics配置，然后单击保 **[!UICONTROL 存]**。 如果没有可用的配置，则您可能尚未完成Adobe集成向导。
-   1. 可 **[!UICONTROL 以使用“包括部分响应]** ”复选框指示您希望在每个部分调查屏幕完成后将数据捕获到Adobe Analytics。 如果未选中此项，则只为完全完成的调查传输数据。
+   1. “包 **[!UICONTROL 括部分响应]** ”复选框可用于指示您希望在每个部分调查屏幕完成后将数据捕获到Adobe Analytics中。 如果未选中此项，则只为完全完成的调查传输数据。
    1. 仅 **** 当与配置为接收带时间戳的数据（非常见）的报表包集成时，才应使用“发送带有信标的时间戳”复选框。
    ![](assets/integration_config.png)
 
