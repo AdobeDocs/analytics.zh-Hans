@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 故障诊断
 title: 常见语法错误
 topic: 开发人员和实施
-uuid: 9845dcb9-9f10-4f65f65d43d-2ef41eda122
-translation-type: tm+mt
+uuid: 9845dcb9-9f10-4f65-a43d-2af41edaa122
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
