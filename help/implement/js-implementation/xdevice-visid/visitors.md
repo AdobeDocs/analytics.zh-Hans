@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 访客
 title: 访客
 topic: 开发人员和实施
-uuid: 16cfdb64-a3 c6-4056-97da-327cddf1 cd
-translation-type: tm+mt
+uuid: 16cfdb64-a3c6-4056-97da-3227cddcf1cd
+translation-type: ht
 source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->不再建议跨设备识别访客的方法。Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+>不再建议使用这种方法来识别跨设备访客。请参阅 [Adobe Experience Cloud 设备协作文档](https://marketing.adobe.com/resources/help/zh_CN/mcdc/)。
 
 Analytics 将每个有效的独特访客 ID 算作一个独特访客。
 
-If you look at the [previous table](../../../implement/js-implementation/xdevice-visid/visit-example.md#concept_E3B32B8E539F4FDC8E3FA872328B87BA), this occurred 3 times: at hits 1, 9, and 10. 这是因为这两个服务器调用的有效[!UICONTROL 访客 ID] 相同，而且即使两次访问相隔几个小时并且发生在不同的设备上，也会这样处理。
+如果查看[前表](../../../implement/js-implementation/xdevice-visid/visit-example.md#concept_E3B32B8E539F4FDC8E3FA872328B87BA)，就会发现同一访客被计算了 3 次：即第 1、9 和 10 次点击。这是因为这两个服务器调用的有效[!UICONTROL 访客 ID] 相同，而且即使两次访问相隔几个小时并且发生在不同的设备上，也会这样处理。
 
 在启用跨设备访客识别时，这可能会增加您所看到的独特访客数。同一次访问中访客可能会被计算两次：首次访问被计算一次，用户通过验证后又被计算一次。
 
