@@ -2,18 +2,18 @@
 description: 用于在 Adobe Analytics 用户界面中隐藏报表包。
 keywords: 删除报表包
 seo-description: 用于在 Adobe Analytics 用户界面中隐藏报表包。
-seo-title: 隐藏报告套件
+seo-title: 隐藏报表包
 solution: Analytics
-title: 隐藏报告套件
+title: 隐藏报表包
 topic: 管理工具
-uuid: 3e857ba7-d48 e-44d5-ad60-f3349 e203 e10
+uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 隐藏报告套件
+# 隐藏报表包
 
 用于在 Adobe Analytics 用户界面中隐藏报表包。
 
@@ -23,7 +23,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!IMPORTANT]
 >
->从站点发送到隐藏报告套件的数据将继续收集、处理和计费。换句话说，报表包从来不会被完全删除。
+>从您的站点发送到隐藏报表包的数据将继续收集、处理和计费。 换句话说，报表包从来不会被完全删除。
 
 To hide the report suite, go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Hide Report Suites]**. 选中报表包名称左边的&#x200B;**[!UICONTROL 隐藏]复选框。**
 
