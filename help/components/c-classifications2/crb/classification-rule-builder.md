@@ -8,7 +8,7 @@ title: 分类规则生成器工作流程
 topic: 管理工具
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 在开始使用分类规则之前，请牢记以下几点：
 
 * 我们现有的分类系统一次只能导出1000万行。
-* 当分类规则构建器(CRB)请求导出时，它会同时提取已分类的AND未分类的值，并且未分类的值在导出结束时会到达。 这意味着，随着时间的推移，你可以填充1000万个分类值，而不会达到未分类的值。
+* 当分类规则构建器(CRB)请求导出时，它会同时提取已分类的AND未分类的值，并且未分类的值在导出结束时即可到达。 这意味着，随着时间的推移，你可以填充1000万个分类值，而不会达到未分类的值。
 * 由于架构的设置方式是CRB可从“n”个服务器中提取，因此，这可能导致在哪些服务器被选取以及按什么顺序被选取时出现不一致。 因此，很难获得非分类的价值。
 
 对于维 **度的分类值** 1000万以上的用户，这是解决方法：您需要通过FTP以1000万个批次导出未分类的值，并手动对它们进行分类。
@@ -43,9 +43,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 | 第6步：激 [活有效规则](../../../components/c-classifications2/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | 在规则有效后，激活规则集。如有必要，您可以覆盖现有键值。请参阅 [如何处理规则](../../../components/c-classifications2/crb/classification-quickstart-rules.md). |
 | Step 7 (Optional): [Delete unwanted rules](../../../components/c-classifications2/crb/classification-rule-definitions.md). | [!DNL Rules Page] | 从规则集中删除不需要的规则。<br>注意：删除规则时不会删除上载的分类数据。See  [Delete classification data](../../../components/c-classifications2/c-classifications-importer/t-delete-classification-data.md) if you need to delete classified data. |
 
->[!NOTE]
->
->Groups with permissions to use the classification import tool can use classification rules. See [How Rules Are Processed](../../../components/c-classifications2/crb/classification-quickstart-rules.md) for important processing information.
+> [!NOTE] 有权使用分类导入工具的组可以使用分类规则。 See [How Rules Are Processed](../../../components/c-classifications2/crb/classification-quickstart-rules.md) for important processing information.
 
 **其他资源**
 
