@@ -8,7 +8,7 @@ title: 示例
 topic: 管理工具
 uuid: 0553d07f-87c1-4372-90ce-7118a6393a01
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -71,7 +71,7 @@ c_example_2__rate.xml
 | 2010/02/01 - 2010/02/28 | revenue | revenue |
 | 2010/02/01 - 2010/02/28 | revenue | revenue |
 
-在 2 月，用户的 Product1 成本下降到收入的 15%；Product2 的成本下降到收入的 25%。
+2月份，用户对Product1的成本降至收入的15%，而Product2则降至收入的25%。
 
 ## 结果 {#section_23DF5353AC1B478C88647F222703352C}
 
@@ -171,9 +171,7 @@ c_example_4__(advanced)_multiple_row_per_time_period.xml
 |---|---|---|
 | Product1 | $10,000.23 | $2500.05 |
 
->[!NOTE]
->
->此功能供高级用户使用近似值。因此，不应将结果信息视为精确值。
+> [!NOTE] 此功能允许高级用户近似计算值。 因此，不应将结果信息视为精确值。
 
 <!-- 
 
