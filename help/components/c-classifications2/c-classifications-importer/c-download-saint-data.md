@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 分类
 title: 分类模板
 topic: 管理工具
-uuid: edd411b-164c-4b4d-a872-b57 a3163 ca72
+uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
 translation-type: tm+mt
-source-git-commit: 1986561a83f22619b627d754376f7e936902a737
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: 1986561a83f22619b627d754376f7e936902a737
 
 （可选）在将分类导入市场营销报告之前，您可以下载模板来帮助您创建分类数据文件。数据文件会将您所需的分类用作列标题，然后在相应的分类标题下组织报表数据集。
 
-## Classification template {#concept_0F06847AD8D042F5BA818AE3C37E2417}
+## 分类模板 {#concept_0F06847AD8D042F5BA818AE3C37E2417}
 
 （可选）在将分类导入市场营销报告之前，您可以下载模板来帮助您创建分类数据文件。数据文件会将您所需的分类用作列标题，然后在相应的分类标题下组织报表数据集。
 
-**[!UICONTROL 管理员]** &gt; **[!UICONTROL 分类导入程序]**。
+**[!UICONTROL “管理员]** ”&gt;“ **[!UICONTROL 分类导入程序]**”。
 
 | 元素 | 描述 |
 |---|---|
@@ -33,19 +33,15 @@ source-git-commit: 1986561a83f22619b627d754376f7e936902a737
 
 模板包含特定数据集当前已定义的分类（列标题），但不包含与每个分类相关联的数据。
 
->[!NOTE]
->
->模板方法限制了您的分类数据下载到单个报表包。
+> [!NOTE] “模板”方法将分类数据下载限制为单个报表包。
 
-For more information about the data file structure, see [About Classification Data Files](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735).
+有关数据文件结构的详细信息，请参阅关 [于分类数据文件](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735)。
 
 ## 下载分类数据模板（可选）{#task_8DFCF309B6FD43ABB1D6FEE9AFAEC596}
 
 该模板提供了分类必须遵循的文件格式。
 
->[!NOTE]
->
->模板方法限制了数据下载到单个报表包。
+> [!NOTE] “模板”方法将数据下载限制为单个报告包。
 
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
 1. On the **[!UICONTROL Download Template]** tab, specify the [data template configuration](../../../components/c-classifications2/c-classifications-importer/c-download-saint-data.md#concept_0F06847AD8D042F5BA818AE3C37E2417).
