@@ -4,10 +4,10 @@ seo-description: 显示访客进行“全部”、“付费”和“免费”搜
 seo-title: 搜索引擎
 solution: Analytics
 title: 搜索引擎
-topic: 报表
-uuid: a8234a11-ad83-44a1-a36 b-d257 dfc43 d0 f
+topic: 报告
+uuid: a8234a11-ad83-44a1-a36b-d257dfc43d0f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
