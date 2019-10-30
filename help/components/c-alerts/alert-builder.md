@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 警报生成器
 title: 警报生成器
-uuid: 86d00a33-dc99-4dc3-a732-0b895 ba487 bc
+uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
 translation-type: tm+mt
-source-git-commit: 8b2feced9fd503395d06dc12c8e5d7985ca89161
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -37,9 +37,7 @@ The Alert Builder interface is familiar to those who have built segments or calc
 
 指定要何时检查量度：每小时、每天、每周或每月。
 
->[!NOTE]
->
->对于具有自定义日历的报告套件，我们不支持Alert Builder中的每月粒度。
+> [!NOTE] 对于具有自定义日历的报表包，我们不支持警报生成器中的每月粒度。
 
 **收件人**
 
@@ -59,7 +57,7 @@ The Alert Builder interface is familiar to those who have built segments or calc
 
 * 将量度拖放到将添加触发器的画布中。
 
-   Note that an **"incompatible components”** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   Note that an **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
 
 * 确定触发警报前量度必须超过的阈值。您可以将此值设置为一个阈值，然后设置为下列条件之一：
 
