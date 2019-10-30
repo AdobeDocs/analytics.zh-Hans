@@ -8,8 +8,8 @@ subtopic: 插件
 title: trackTNT
 topic: 开发人员和实施
 uuid: 84f019c1-d3d1-4434-9cce-0459d745acf6
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,4 +18,4 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 收集有关 [!DNL Target] 的信息并集成到 [!DNL Analytics]。该插件已被 Adobe Analytics 与 Adobe Target 集成所取代。
 
-请参阅 [Adobe Analytics 与 Adobe Target 集成](https://marketing.adobe.com/resources/help/zh_CN/target/a4t/)。
+请参阅 [Adobe Analytics 与 Adobe Target 集成](https://marketing.adobe.com/resources/help/en_US/target/a4t/)。
