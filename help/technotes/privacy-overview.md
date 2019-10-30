@@ -7,7 +7,7 @@ solution: Analytics
 title: 隐私概述
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: 1fdd14497171dbf5850ec1b1d873a06931d58435
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -74,7 +74,7 @@ Adobe Analytics 收集以下数据：
   </tr> 
   <tr> 
    <td colname="col1"> 全球 </td> 
-   <td colname="col2"> 第一方分析不在针对在线行为广告 (AdChoices) 的自律计划的范围之内。 </td> 
+   <td colname="col2"> 第一方分析不在“在线行为广告自律计划”(“AdChoices”)的范围内。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 全球 </td> 
@@ -94,15 +94,15 @@ Adobe Analytics 收集以下数据：
   </tr> 
   <tr> 
    <td colname="col1"> 全球 </td> 
-   <td colname="col2"> 客户可以在 JavaScript 量度代码中将 Cookie 持续时间变量设置为 „none,“ „session“ 值，或其他以秒为单位的特定值。 </td> 
+   <td colname="col2"> 客户可以在JavaScript测量代码中将cookie生命周期变量设置为“none”、“session”或以秒为单位的其他指定值。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 欧洲 </td> 
-   <td colname="col2"> Adobe 制定了新的“从设计着手保护隐私”设置，Adobe ClientCare 为 Adobe Analytics（以前称为 SiteCatalyst）发布版本 14.9 和 15.4 启用了此设置。启用这一新设置后，当 Adobe 收集 IP 地址时，该 IP 地址的最后 8 个字节（最后一部分）会立即被 0 值取代。在对 IP 地址进行任何处理之前，包括在对 IP 地址进行可选地理查询和 ISP 查询之前，会执行此匿名化操作。 </td> 
+   <td colname="col2"> Adobe开发了一个新的“按设计保护隐私”设置，现在可由Adobe clientCare for Adobe Analytics（以前称为SiteCatalyst）版本14.9和15.4启用该设置。启用此新设置后，Adobe收集IP地址后，IP地址的最后八位字节（最后一部分）将立即替换为值0。 在对 IP 地址进行任何处理之前，包括在对 IP 地址进行可选地理查询和 ISP 查询之前，会执行此匿名化操作。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 德国 </td> 
-   <td colname="col2"> <p>如果客户尚未与 Adobe 就 Adobe Analytics 签订数据处理协议 (Data Processing Agreement)，则应与 Adobe 客户经理或客户成功经理取得联系，他们会与 Adobe 法律部合作，协助签订 DPA。 </p> <p>Adobe准备了一份用于Analytics的数据处理协议(Vertrag更fuer AfterfratsDatenVeitung- ADV)，由Bavarius Data Protection Authority(Bayerisches Landesamt fuer Datenschutt- Bailda)审查和批准。ADV 以德语和英语提供。 </p> </td> 
+   <td colname="col2"> <p>如果客户尚未与 Adobe 就 Adobe Analytics 签订数据处理协议 (Data Processing Agreement)，则应与 Adobe 客户经理或客户成功经理取得联系，他们会与 Adobe 法律部合作，协助签订 DPA。 </p> <p>Adobe为Analytics准备了一份数据处理协议(Vertrag fuer Auftragsdatenverarbeitung - ADV)，该协议已得到巴伐利亚数据保护局(Bayerisches Landesamt fuer Datenschutzaufsicht - BayLDA)的审查和批准。 ADV 以德语和英语提供。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
