@@ -1,19 +1,19 @@
 ---
 description: 预处理列包含发送到数据收集的数据。后处理列包含处理后的值。
-keywords: 数据馈送；工作；pre column；post column；区分大小写
+keywords: 数据馈送；作业；预列；后列；区分大小写
 seo-description: 预处理列包含发送到数据收集的数据。后处理列包含处理后的值。
-seo-title: 预发布列和帖子列
+seo-title: 预处理列和后处理列
 solution: Analytics
-title: 预发布列和帖子列
-topic: Reports & Analytics
-uuid: a415327b-6151-4d08-b8 b9-5aa2348 eb0 c
+title: 预处理列和后处理列
+topic: Reports and Analytics
+uuid: a415327b-6151-4d08-b8b9-5aaa2348eb0c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 预发布列和帖子列
+# 预处理列和后处理列
 
 预处理列包含发送到数据收集的数据。后处理列包含处理后的值。
 
@@ -29,8 +29,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 如果您发现同一个值在预处理列和后处理列之间存在不同的大小写变体（例如，预处理列中显示“snow”，后处理列中则显示“Snow”），这表示您正在您的网站中同时传递同一个值的大写和小写版本。后处理列中的不同大小写是在之前传递的，并被存储在虚拟 Cookie 中，或者是在大致相同的时间针对该报表包处理的。例如：
 
-点击 1：s.list1="Tabby,Persian,Siamese”;
+点击 1：s.list1="Tabby,Persian,Siamese";
 
-点击 2：s.list1=“tabby,persian,siamese”;
+点击2:s.list1="tabby,persian,siamese";
 
 当点击 2 在数据馈送中报告时，预处理列将包含传递的准确大小写 (tabby,persian,siamese)，但是点击 1 中的值可能持续存在于该访问，并且将在后处理列中报告（将为 Tabby,Persian,Siamese），因为在执行不区分大小写比较时，点击 1 和点击 2 包含完全相同的值。
