@@ -7,7 +7,7 @@ title: 可自定义的叠加图
 topic: Activity Map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -50,9 +50,7 @@ source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ![](assets/bubble_overlay.png)
 
->[!NOTE]
->
->子菜单的气泡叠加仅在显示子菜单时显示：
+> [!NOTE] 子菜单的气泡叠加仅在显示子菜单时显示：
 >
 >![](assets/bubbles_submenu.png)&gt;
 
