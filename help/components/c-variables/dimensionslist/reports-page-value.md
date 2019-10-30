@@ -1,18 +1,18 @@
 ---
-description: '显示特定页面对收入的贡献。 '
-seo-description: '显示特定页面对收入的贡献。 '
+description: 显示特定页面对收入的贡献。
+seo-description: 显示特定页面对收入的贡献。
 seo-title: 页面值
 solution: Analytics
 title: 页面值
-topic: 报表
-uuid: 852ae05f-e728-4bcd-9b28-f068 a4 a35 c75
+topic: 报告
+uuid: 852ae05f-e728-4bcd-9b28-f068a4a35c75
 translation-type: tm+mt
-source-git-commit: af2c0dd5269fe54dec949d4bd98bb09f22c9bfa2
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 页面值
 
-页面值报告已弃用，不再可用。
+“页面值”报告已弃用且不再可用。
 
