@@ -5,9 +5,9 @@ seo-title: 金融服务
 solution: Analytics
 title: 金融服务
 topic: 管理工具
-uuid: a321b409-24a4-4d9f-9aac-6561261e991
+uuid: a321b409-24a4-4d9f-9aac-65761261e991
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 为提供在线服务的银行或其他机构定义通用设置。
 
-| 转化变量 (eVar) | 类型 | 子关系 | 分配 | 过期 | `s_code` variable |
+| 转化变量 (eVar) | 类型 | 子关系 | 分配 | 过期 | `s_code` 变量 |
 |---|---|---|---|---|---|
 | 内部促销活动 | 字符串 | 基本 | 最近（上一个） | 访问 | `evar1` |
 | 内部搜索词 | 字符串 | 基本 | 最近（上一个） | 访问 | `evar2` |
@@ -24,14 +24,14 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 此报表包模板未配置任何成功事件。
 
-| 自定义分析变量 | `s_code` variable |
+| 自定义分析变量 | `s_code` 变量 |
 |---|---|
 | 安全/非安全 | `prop1` |
 | 流量属性 2 - 5 | `prop2, prop3, prop4, prop5` |
 
 下表包含标准商务事件的列表。在所有的报表包模板中，这些事件的初始配置相同。您无需设置 s_code 变量为“不适用”的事件，因为它们将被自动提供。
 
-| 标准商务事件 | 类型 | `s_code` variable |
+| 标准商务事件 | 类型 | `s_code` 变量 |
 |---|---|---|
 | 收入 | 计数器 | `purchase` |
 | 订购 | 计数器 | `purchase` |
@@ -43,7 +43,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 购物车加货 | 计数器 | `scAdd` |
 | 购物车减货 | 计数器 | `scRemove` |
 | 访问 | 计数器（无子关系） | 不适用 |
-| 页面查看 | 计数器（无子关系） | 不适用 |
+| 页面查看次数 | 计数器（无子关系） | 不适用 |
 | 每日独特访客 | 计数器（无子关系） | 不适用 |
 | 独特访客 | 计数器（无子关系） | 不适用 |
 
