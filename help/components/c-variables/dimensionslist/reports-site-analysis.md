@@ -4,10 +4,10 @@ seo-description: 一个 Ad Hoc Analysis 报表。网站分析显示访客如何�
 seo-title: 网站分析
 solution: Analytics
 title: 网站分析
-topic: 报表
-uuid: 39c22dc8-6ff3-43aaa-a2 ed-bc02 c2 db4764
+topic: 报告
+uuid: 39c22dc8-6ff3-43aa-a2ed-bc02c2db4764
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -80,7 +80,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col2"> <p>用于删除柱体。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>报表 </p> </td> 
+   <td colname="col1"> <p>报告 </p> </td> 
    <td colname="col2"> <p>用于从柱体中启动其他报表。 </p> </td> 
   </tr> 
   <tr> 
