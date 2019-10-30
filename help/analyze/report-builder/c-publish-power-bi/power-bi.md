@@ -5,7 +5,7 @@ seo-title: 发布到 Power BI - 概述
 title: 发布到 Power BI - 概述
 uuid: ad688817-6e3c-45da-983d-48c123465309
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -63,9 +63,7 @@ Microsoft Power BI 是一组用来分析数据和共享分析的业务分析功�
 
 ## Publish all formatted tables in the workbook as Power BI dataset tables {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
->[!NOTE]
->
->如果工作簿包含宏，则将禁用“将工作簿中的所有已格式化表作为Power BI数据集表发布”。
+> [!NOTE] 如果工作簿包含宏，则将禁用“将工作簿中的所有已格式化表作为Power BI数据集表发布”。
 
 您无需导入整个工作簿，只用导入工作簿内所有带格式的表的内容。
 
@@ -119,7 +117,7 @@ Microsoft Power BI 是一组用来分析数据和共享分析的业务分析功�
 1. In the Basic Scheduling Wizard, click **[!UICONTROL Advanced Scheduling Options]**.
 1. 在“[!UICONTROL 计划向导 - 高级]”内的&#x200B;**[!UICONTROL 发布选项]**&#x200B;选项卡中，选中&#x200B;**[!UICONTROL 作为 Power BI 数据集表发布所有 Report Builder 请求]。**![](assets/advanced-schedule-wizard2.png)
 
-1. Click **[!UICONTROL OK]**.
+1. 单击&#x200B;**[!UICONTROL 确定]**。
 
 **在Power BI中查看请求数据**
 
