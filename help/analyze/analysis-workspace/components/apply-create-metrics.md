@@ -3,9 +3,9 @@ description: 可通过两种方式在 Analysis Workspace 中使用量度。
 seo-description: 可通过两种方式在 Analysis Workspace 中使用量度。
 seo-title: 量度
 title: 量度
-uuid: 9927491a-ca0 b-4e1 a-9069-8736149d051 b
+uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
 
 ![](assets/metrics_icons.png)
 
->[!NOTE]
->
->虽然这看似简单，但使用指标相当强大。您可以将相应指标拖动到表格的量度部分，从而向报表中添加量度。您还可以按指标划分维度，从而细致控制表视图。此外，您可以将量度作为维度和维度插入，以创建超时报告。使用各种组件进行播放，了解您可以做什么。无限可能。
+> [!NOTE] 尽管这看似简单，但指标的使用却相当强大。 您可以通过将相应的度量拖动到表的度量部分，将度量添加到报表。 您还可以按指标划分维度，从而使您能够精细地控制表视图。 此外，您还可以将度量作为维插入，将维作为度量插入以创建超时报告。 使用各种组件来玩转，了解您可以做什么。 这种可能性是无穷的。
 
 Or you can click **[!UICONTROL Components]** &gt; **[!UICONTROL New Metric]**. 此操作可将您转到[计算量度生成器](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)，您可以从现有量度创建自定义量度。
 
@@ -28,4 +26,4 @@ Or you can click **[!UICONTROL Components]** &gt; **[!UICONTROL New Metric]**. �
 
 ![](assets/calc_metrics.png)
 
-[使用YouTube上的参与指标](https://www.youtube.com/watch?v=ngmJHcg65o8&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=32) (4：16)
+[使用YouTube上的参与量度](https://www.youtube.com/watch?v=ngmJHcg65o8&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=32) (4:16)
