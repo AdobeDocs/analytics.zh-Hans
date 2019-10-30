@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 分类
 title: 删除分类数据
 topic: 管理工具
-uuid: 5b1b0ac7-ee52-4fd8-b98 e-25283595cf0 c
+uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    Alternatively, use [!DNL ~deletekey~]. 此命令会视为指定键值从未出现过该分类。它会从查找表中完全删除该分类和任何列数据。
 
-   **注意**：您只需要一列 [!DNL ~包含删除键~]。[!DNL ~空~] 命令可在单元格级别工作(键和列组合)，因此您需要 [!DNL ~在~] 要删除的分类列中留空。However, [!DNL ~deletekey~] works at the row level (the key and all associated metadata), so it only needs to appear in one of the columns in the row. 此命令可从行中删除所有元数据。Adobe 将此解释为从未对键值进行分类，并且将其显示在[无](../../../components/c-classifications2/c-classifications-importer/nonclassified-keys.md#concept_233E51DDF3084FF7B7EA89381C73C5FF)类别中。
+   **警告**:您只需要一列包含 [!DNL ~deletekey~]。 The [!DNL ~empty~] command works at the cell level (key and column combination), so you need [!DNL ~empty~] in the classification column you want to remove. However, [!DNL ~deletekey~] works at the row level (the key and all associated metadata), so it only needs to appear in one of the columns in the row. 此命令可从行中删除所有元数据。Adobe 将此解释为从未对键值进行分类，并且将其显示在[无](../../../components/c-classifications2/c-classifications-importer/nonclassified-keys.md#concept_233E51DDF3084FF7B7EA89381C73C5FF)类别中。
 
 1. 保存文件，并使用“[!UICONTROL 导入文件]”选项卡，将其上载。
 
@@ -33,7 +33,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    **此命令的属性**
 
-* [!DNL ~空~] 必须是不带空格的小写字母。以下输入无效：
+* [!DNL ~empty~] must be lowercase without spaces. 以下输入无效：
 
    * [!DNL ~EMPTY~]
    * [!DNL ~ empty ~]
