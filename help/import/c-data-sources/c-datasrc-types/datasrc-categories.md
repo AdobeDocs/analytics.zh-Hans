@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 数据源
 title: 数据类型和类别概述
 topic: 开发人员和实施
-uuid: b5004cdc-b68 a-4a82-a152-a157-a7 cd7 b8 bfe21
+uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
 
 数据源类别可识别具有相似功能的不同数据源类型。
 
-通过类别，可以从用户的角度对数据源进行分组。通过数据源 UI 创建数据源时，首先要选择一个数据源类别，然后选择一个特定的数据源类型。每个类别都包含多种支持相似数据类型的数据源类型。数据源具有以下数据源类别：
+类别提供了一种从用户角度对数据源进行分组的方法。 通过数据源 UI 创建数据源时，首先要选择一个数据源类别，然后选择一个特定的数据源类型。每个类别都包含多种支持相似数据类型的数据源类型。数据源具有以下数据源类别：
 
 ## 网站使用 {#section_4BA8D97B6BA848518F21760AE49F41D1}
 
@@ -36,9 +36,9 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
    <td colname="col3"> <p>大多数网站服务器都会生成日志文件，其中记录了所提供的每一个页面。使用该数据源，您可以处理来自大多数网站服务器数据的日志文件，并将该数据添加到您的报表中。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Advertising Cloud批量上传 </p> </td> 
+   <td colname="col1"> <p>Advertising cloud批量上传 </p> </td> 
    <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local"> 转化 </a> </p> </td> 
-   <td colname="col3"> <p>在Advertising Cloud中提供手动和Excel自动批量上传。 </p> </td> 
+   <td colname="col3"> <p>在Advertising cloud中提供手动和Excel自动化批量上传。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>站点级别流量数据源 </p> </td> 
@@ -167,7 +167,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> <p>普通数据源（交易 ID） </p> </td> 
-   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-transactionid.md#concept_A97302E9EC45468A8F30285FACE8C776" type="concept" format="dita" scope="local"> 交易 ID </a> </p> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5" type="concept" format="dita" scope="local"> Visitor ID </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-transactionid.md#concept_A97302E9EC45468A8F30285FACE8C776" type="concept" format="dita" scope="local"> 交易 ID </a> </p> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5" type="concept" format="dita" scope="local"> 访客 ID </a> </p> </td> 
    <td colname="col3"> <p>允许您将任何离线事件绑定到在线事件。交易 ID 可作为离线和在线事件之间的键。 </p> </td> 
   </tr> 
  </tbody> 
@@ -214,7 +214,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>推介发生 </p> </td> 
+   <td colname="col1"> <p>商机拓展 </p> </td> 
    <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local"> 转化 </a> </p> </td> 
    <td colname="col3"> <p>针对网站上生成的每个商机，允许您上载有关这些商机结果的信息，包括生成的实际收入。 </p> <p>在将收入与商机 ID 精确地关联后，即可确定利润率最高的推广和促销活动。 </p> </td> 
   </tr> 
