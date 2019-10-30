@@ -3,7 +3,7 @@ description: 时间是用于显示小时、日、周和日期范围趋势的报�
 seo-description: 时间是用于显示小时、日、周和日期范围趋势的报表维度。例如，产品报表显示选定日期范围内产品所产生的收入。您可以添加日维度以查看报告期间每天的趋势。时间提供“小时”、“日”、“周”、“月”、“季度”和“年”粒度设置。日期范围预设包含今天、昨天和过去一周等设置。
 seo-title: 时间
 title: 时间
-uuid: a6efbf80-342c-4aeb-80f3-91a3dbdd33c
+uuid: a6efbf80-342c-4aeb-80f3-91a3dbdbd33c
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
