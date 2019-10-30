@@ -5,7 +5,7 @@ seo-description: 通过动态变量，您可以将一个变量中的值复制到
 solution: null
 title: 动态变量
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: b38ba4222951d957c607cd764224028527835c7e
 
  变量使用 DOM 对象检索 中所有规则都适用的 URL 的区域。
 
-This variable is only valid when *`dynamicAccountSelection`* is set to 'True.' 由于默认值为 [!DNL window.location.host]，因此[!UICONTROL 动态帐户选择]不需要此变量也可使用。有关其他信息，请参 [阅dynamicAccountList](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)。
+只有 *`dynamicAccountSelection`* 设置为“True”时，此变量才有效。由于默认值为 [!DNL window.location.host]，因此[!UICONTROL 动态帐户选择]不需要此变量也可使用。有关其他信息，请参阅 [dynamicAccountList](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)。
 
-中找到的规 `dynamicAccountList` 则将应用于的值 `dynamicAccountMatch`。 如 `dynamicAccountMatch` 果仅包 [!DNL window.location.host] 含（默认），则中的规则 `dynamicAccountList` 仅适用于页面的域。
+在 `dynamicAccountList` 中找到的规则将应用于 `dynamicAccountMatch` 的值。如果 `dynamicAccountMatch` 仅包含 [!DNL window.location.host]（默认值），则 `dynamicAccountList` 中的规则仅适用于该页面的域。
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |---|---|---|---|
@@ -24,7 +24,7 @@ This variable is only valid when *`dynamicAccountSelection`* is set to 'True.' �
 
 ## 语法和可能值
 
-The`dynamicAccountMatch`变量通常由提供 AppMeasurement for JavaScript 文件的 Adobe 顾问来填充。但下列值可随时应用。
+`dynamicAccountMatch` 变量通常由提供 AppMeasurement for JavaScript 文件的 Adobe 顾问来填充。但下列值可随时应用。
 
 ```js
 s.dynamicAccountMatch=[DOM object]
@@ -55,7 +55,7 @@ s.dynamicAccountMatch=window.location.host+window.location.pathname
 
 ## 缺陷、问题和提示
 
-* 动态帐户选择不受 [AppMeasurement for JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
+* [AppMeasurement for javaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html) 不支持动态帐户选择。
 
 * 页面被保存到硬盘时，[!DNL window.location.host] 为空，从而导致这些页面查看被发送到默认报表包（在 `s_account`).
 
