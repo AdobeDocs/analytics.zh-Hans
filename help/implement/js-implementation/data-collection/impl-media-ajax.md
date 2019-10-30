@@ -2,18 +2,18 @@
 description: AJAX 是 Web 设计中的一个新兴概念，它使用多种技术来创建并管理网页上的动态内容。
 keywords: Analytics 实施
 seo-description: AJAX 是 Web 设计中的一个新兴概念，它使用多种技术来创建并管理网页上的动态内容。
-seo-title: AJAX-Track富媒体应用程序
+seo-title: AJAX-跟踪富媒体应用程序
 solution: Analytics
-title: AJAX-Track富媒体应用程序
+title: AJAX-跟踪富媒体应用程序
 topic: 开发人员和实施
-uuid: ffe6a263-ae18-4875-badb-b3 aea3 efcb64
-translation-type: tm+mt
+uuid: ffe6a263-ae18-4875-badb-b3aea3efcb64
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# AJAX-Track富媒体应用程序
+# AJAX-跟踪富媒体应用程序
 
 AJAX 是 Web 设计中的一个新兴概念，它使用多种技术来创建并管理网页上的动态内容。
 
