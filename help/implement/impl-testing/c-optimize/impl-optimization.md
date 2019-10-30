@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 故障诊断
 title: 优化概述
 topic: 开发人员和实施
-uuid: 8e8cex5b-d4 b1-4d13-8525-39e4924 df247
-translation-type: tm+mt
+uuid: 8e8ecc5b-d4b1-4d13-8525-39e4924df247
+translation-type: ht
 source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 ---
@@ -25,5 +25,5 @@ Analytics 部署包括三个主要步骤。
 
 >[!NOTE]
 >
->客户可以采取其他步骤，最大限度地减少Analytics开销。
+>客户可以采取其他步骤以最大程度地减少 Analytics 开销。
 
