@@ -8,7 +8,7 @@ title: 要求和上载限制
 topic: 开发人员和实施
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
    * **完全处理数据源**:使用ISO 8601日期格式 `YYYY-MM-DDThh:mm:ss±UTC_offset` (例如， `2013-09-01T12:00:00-07:00`)或Unix时间格式（自1970年1月1日起已用的秒数）。
 
-   * **Standard and Integration Data Sources**: Use the following date format: `MM/DD/YYYY/HH/mm/SS` (for example, `01/01/2013/06/00/00`)
+   * **标准和集成数据源**:请使用以下日期格式： `MM/DD/YYYY/HH/mm/SS` (例如， `01/01/2013/06/00/00`)
 
 ## 常规 {#section_1CD337F660484ABDB7D8CAE96FF46ACF}
 
