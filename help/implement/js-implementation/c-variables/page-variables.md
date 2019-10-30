@@ -7,9 +7,9 @@ solution: Analytics
 subtopic: 变量
 title: 页面变量
 topic: 开发人员和实施
-uuid: 2578edd-74db-4a8a-96f2-d0289ec1826b
+uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,11 +26,9 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 browserheight.xml
 -->
 
-This variable is populated after the page code and before *`doPlugins`* is run.
+此变量填充在页面代码之后，运行 *`doPlugins`* 之前。
 
->[!NOTE]
->
->此变量应仅读取且不应设置。
+> [!NOTE]此变量只可读取，不得设置。
 
 您可以读取这些值，并将它们复制到 prop/eVar，但不得更改它们。此变量在 JavaScript 文件 H.11 版本中另有介绍。
 
@@ -65,11 +63,9 @@ browserwidth.xml
 
  -->
 
-This variable is populated after the page code and before *`doPlugins`* is run.
+此变量填充在页面代码之后，运行 *`doPlugins`* 之前。
 
->[!NOTE]
->
->此变量应仅读取且不应设置。
+> [!NOTE]此变量只可读取，不得设置。
 
 您可以读取这些值，并将它们复制到 prop/eVar，但不得更改它们。此变量在 JavaScript 文件 H.11 版本中另有介绍。
 
@@ -125,17 +121,17 @@ campaign.xml
 
 营销活动中的每个元素都应有一个关联的唯一跟踪代码。例如，付费搜索引擎关键词的跟踪代码为 112233。当用户点击跟踪代码为 112233 的关键词，并路由到相应的网站时，*`campaign`*&#x200B;变量会记录该跟踪代码。
 
-There are two main ways to populate the *`campaign`* variable:
+可以使用以下两种主要方法填充 *`campaign`* 变量：
 
-* [!UICONTROL getQueryParam] 插件（在 JavaScript 文件中使用）从 URL 中检索查询字符串参数。有关 [!UICONTROL getQueryParam] 插件的详细信息，请参阅 [实施插件](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
+* [!UICONTROL getQueryParam] 插件（在 JavaScript 文件中使用）从 URL 中检索查询字符串参数。有关 [!UICONTROL getQueryParam] 插件的详细信息，请参阅 [实施插件](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F)。
 
-* 为网页上HTML *`campaign`* 中的变量赋值。
+* 为网页上的 HTML 中的 *`campaign`* 变量分配一个值。
 
-使用任一填充变量的方 *`campaign`* 法，“返回”按钮流量都可能会夸大营销活动元素的实际点进次数。
+无论使用哪种方法填充 *`campaign`* 变量，“返回”按钮流量都可能导致促销活动元素的实际点进次数虚增。
 
 例如，访客通过点击付费搜索关键词进入您的网站。在访客转至登陆页面时，URL 中的查询字符串参数会识别此关键词的跟踪代码。接着，访客点击另一个页面的链接，但立刻点击“返回”按钮返回到登陆页面。在访客第二次转至登陆页面时，URL 中的查询字符串参数会再次识别跟踪代码。因此将记录第二次点进，从而导致点进次数虚增。
 
-为了避免点进次数虚增，Adobe 建议使用 [!UICONTROL getValOnce] 插件强制使每次促销活动点进在每个会话中仅计数一次。有关 [!UICONTROL getValOnce] 插件的详细信息，请参阅 [实施插件](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
+为了避免点进次数虚增，Adobe 建议使用 [!UICONTROL getValOnce] 插件强制使每次促销活动点进在每个会话中仅计数一次。有关 [!UICONTROL getValOnce] 插件的详细信息，请参阅 [实施插件](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F)。
 
 **语法和可能值** {#section_91A141841A6D4711A1EE08A6145A301D}
 
@@ -143,7 +139,7 @@ There are two main ways to populate the *`campaign`* variable:
 s.campaign="112233"
 ```
 
-The *`campaign`* variable has the same limitations as all other variables. Adobe 建议将值限定为标准 ASCII 字符。
+*`campaign`* 变量的限制与所有其他变量相同。Adobe 建议将值限定为标准 ASCII 字符。
 
 **区分大小写** {#section_112A9A0F886148B6BEF9A7C94BE0A36F}
 
@@ -165,7 +161,7 @@ s.campaign=s.getQueryParam('cid');
 
 **缺陷、问题和提示** {#section_94B5C4BF9DE84BA3A16F9E9E9D197F0C}
 
-* 为避免点进次数虚增，请使用 [!UICONTROL getValOnce] 插件使促销活动点进在每个会话中仅计数一次。有关 [!UICONTROL getValOnce] 插件的详细信息，请参阅 [实施插件](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
+* 为避免点进次数虚增，请使用 [!UICONTROL getValOnce] 插件使促销活动点进在每个会话中仅计数一次。有关 [!UICONTROL getValOnce] 插件的详细信息，请参阅 [实施插件](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F)。
 
 * 有关跟踪营销活动和关键词购买的详细信息，请参阅[促销活动](https://marketing.adobe.com/resources/help/en_US/reference/campaign.html)。
 * 使用 [!DNL DigitalPulse Debugger] 可查看促销活动的实际值（调试器中的 v0）。如果 v0 未出现在调试器中，表示未记录该页面的促销活动数据。
@@ -188,7 +184,7 @@ channel.xml
 
 Adobe 建议填充每个页面的渠道变量。您还可以启用&#x200B;*`channel`*&#x200B;和[!UICONTROL 页面名称]变量之间的关联。
 
-When sections have one or more levels of subsections, you can show those sections in the *`channel`* variable or use separate variables to identify levels.
+当区域有一个或多个级别的子区域时，您可以在 *`channel`* 变量中显示这些区域，或以不同的变量标识这些级别。
 
 **语法和可能值** {#section_ED90592730B64242A737F4090F1DCEE4}
 
@@ -196,7 +192,7 @@ When sections have one or more levels of subsections, you can show those section
 s.channel="value"
 ```
 
-The *`channel`* variable has no extra limitations on its values.
+*`channel`* 变量的值没有其他特别限制。
 
 **示例** {#section_2527B2BB1CFD46CB952178ABF7A9028A}
 
@@ -210,7 +206,7 @@ s.channel="Media"
 
 **缺陷、问题和提示** {#section_61941D5E4E644B59A267A4F44FD5DE8C}
 
-If your site contains multiple levels, you can use the *`hierarchy`* or another variable to designate those levels. The *`channel`* value does not persist, but the success events fired on the same page are attributed to the *`channel`* value.
+如果您的网站包含多个级别，您可以使用 *`hierarchy`* 或其它变量指定这些级别。*`channel`* 值不是永久性的，但是在同一页面上触发的成功事件将被归结到此 *`channel`* 值。
 
 ## colorDepth {#concept_756516E181F449B996DA9CC5A53FFA3D}
 
@@ -222,13 +218,11 @@ colordepth.xml
 
  -->
 
-例如，32 表示屏幕上显示的是 32 位色。此变量在&#x200B;*`doPlugins`*&#x200B;运行之前，填充于页面代码之后。
+例如，32 表示屏幕上显示的是 32 位色。此变量填充在页面代码之后，运行 *`doPlugins`* 之前。
 
->[!NOTE]
->
->此变量应仅读取且不应设置。
+> [!NOTE]此变量只可读取，不得设置。
 
-You may read these values and copy them into `props/eVars`, but you should never alter them. 此变量在 JavaScript 文件 H.11 版本中另有介绍。
+您可以读取这些值，并将它们复制到 `props/eVars`，但不得更改它们。此变量在 JavaScript 文件 H.11 版本中另有介绍。
 
 | 查询参数 | 值 | 示例 | 受影响的报表 |
 |---|---|---|---|
@@ -244,13 +238,11 @@ conntype.xml
 
  -->
 
-This variable is populated after the page code and before *`doPlugins`* is run.
+此变量填充在页面代码之后，运行 *`doPlugins`* 之前。
 
->[!NOTE]
->
->此变量应仅读取且不应设置。
+> [!NOTE]此变量只可读取，不得设置。
 
-You may read these values and copy them into `props/eVars`, but you should never alter them. 此变量在 JavaScript 文件 H.11 版本中另有介绍。
+您可以读取这些值，并将它们复制到 `props/eVars`，但不得更改它们。此变量在 JavaScript 文件 H.11 版本中另有介绍。
 
 | 查询参数 | 值 | 示例 | 受影响的报表 |
 |---|---|---|---|
@@ -266,13 +258,11 @@ cookiesenabled.xml
 
  -->
 
-This variable is populated after the page code and before *`doPlugins`* is run.
+此变量填充在页面代码之后，运行 *`doPlugins`* 之前。
 
->[!NOTE]
->
->此变量应仅读取且不应设置。
+> [!NOTE]此变量只可读取，不得设置。
 
-You may read these values and copy them into `props/eVars`, but you should never alter them. 此变量在 JavaScript 文件 H.11 版本中另有介绍。
+您可以读取这些值，并将它们复制到 `props/eVars`，但不得更改它们。此变量在 JavaScript 文件 H.11 版本中另有介绍。
 
 | 查询参数 | 值 | 示例 |
 |---|---|---|
@@ -288,9 +278,7 @@ dc.xml
 
  -->
 
->[!NOTE]
->
->dc 变量已弃用。您应将所有实施的 *`trackingServer`都设置为 s_code.js 中代码管理器生成的值。*
+> [!NOTE]dc 变量已弃用。您应将所有实施的 *`trackingServer`都设置为 s_code.js 中代码管理器生成的值。*
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |---|---|---|---|
@@ -312,9 +300,9 @@ eVarN.xml
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |---|---|---|---|
-| 255 字节 | V1-v75(或 [v100或v250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)) | 自定义转换 | "" |
+| 255 字节 | V1-v75（[或 v100 或 v250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)） | 自定义转换 | "" |
 
-**到期**{#section_6DB5882B960D4660AE248B91B76883C4}
+**过期** {#section_6DB5882B960D4660AE248B91B76883C4}
 
 [!UICONTROL eVar] 在指定的时间段后过期。eVar 过期后，将不再对成功事件计数。eVar 还可配置为在发生成功事件时过期。例如，如果有一个内部促销在一次访问结束时即告过期，对于此促销，将仅对该访问期间（在此期间有效）发生的购买或注册计数。
 
@@ -323,13 +311,13 @@ eVarN.xml
 * 您可以将 eVar 设置为在指定的时间段或事件后过期。
 * 您可以强制使 eVar 过期，在重新利用变量时这非常有用。
 
-如果eVar在5月用于反映内部促销并在21天后过期，而在6月用于捕获内部搜索关键字，那么在6月1日，您应强制该变量过期或重置。 这样做有助于从 6 月的报表中排除内部促销值。
+如果 eVar 在 5 月用于反映内部促销活动，并且在 21 天后过期，而在 6 月，又要使用它来捕获内部搜索关键词。在这种情况下，您应当在 6 月 1 日强制该变量过期，或重置该变量。这样做有助于从 6 月的报表中排除内部促销值。
 
 **区分大小写** {#section_6E9145B7FCC2438E95BB35AAE3857412}
 
 eVar 不区分大小写，但其第一个实例的首字母以大写显示。例如，如果 eVar1 的第一个实例被设置为“Logged In”，但随后的所有实例都作为“logged in”传递，报表始终显示“Logged In”作为 eVar 的值。
 
-**计数器**{#section_D8403F0C175E4BC9BE4F2E794B1F4D33}
+**计数器** {#section_D8403F0C175E4BC9BE4F2E794B1F4D33}
 
 eVar 最常用于保存字符串值，但也可以配置为用作计数器。在您尝试计入用户在某个事件前所执行的操作数时，使用 eVar 与计数器一样有用。例如，可以使用 eVar 捕获购买前的内部搜索数。访客每搜索一次时，eVar 包含值“+1”。如果访客在购买前搜索了四次，则将看到每个总计数的实例：1.00、2.00、3.00 和 4.00。但只有 4.00 针对购买事件（订购和收入量度）计数。只允许正数作为 eVar 计数器的值。
 
@@ -339,7 +327,7 @@ eVar 最常用于保存字符串值，但也可以配置为用作计数器。在
 
 **语法和可能值** {#section_BD46438B14F3488FB9AC42994C317B06}
 
-While eVars may be renamed, they should always be referred to in the JavaScript file by eVarX, where X is a number between 1 and 75 ( [or 100, or 250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)).
+虽然可以重命名 eVar，但在 JavaScript 文件中应始终按 eVarX 的形式表示，其中 X 是介于 1 和 75（[或 100，或 250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)）的数字。
 
 ```js
 s.eVarX="value"
@@ -359,7 +347,7 @@ s.eVar23="internal spring promo 4"
 
 **配置设置** {#section_BD1FE63001C84D3DB69F3DEE243960B6}
 
-可以在“分析”&gt;“管 [!UICONTROL 理员”&gt;“报表包”&gt;“编辑设置”&gt;“转换”&gt;“转换变量”中配置eVar]。 所有 eVar 都可以包含以下几个配置选项：[!UICONTROL 名称]、[!UICONTROL 类型]、[!UICONTROL 分配]、[!UICONTROL 过期时间设置]，或[!UICONTROL 重置]。下面分别介绍了每项配置设置。
+可以在 [!UICONTROL Analytics &gt; 管理员 &gt; 报表包 &gt; 编辑设置 &gt; 转化 &gt; 转化变量]中配置 eVar。所有 eVar 都可以包含以下几个配置选项：[!UICONTROL 名称]、[!UICONTROL 类型]、[!UICONTROL 分配]、[!UICONTROL 过期时间设置]，或[!UICONTROL 重置]。下面分别介绍了每项配置设置。
 
 <table id="table_5C524B71520849FA8A9A6B79A3EE77C9"> 
  <thead> 
@@ -430,11 +418,11 @@ events.xml
 
 成功事件默认配置为&#x200B;*计数器*&#x200B;事件。计数器事件可计算成功事件的设置次数 (x+1)。事件还可配置为&#x200B;*数值*&#x200B;事件。数值事件允许您指定要增加的数量（在计算动态值或不定值时可能有用，例如由内部搜索返回的结果数量）。
 
-最终事件类型&#x200B;*货币*&#x200B;允许您定义要添加的数量（类似于数值事件），但在报表中显示为货币，并需符合基于 s.*`currencyCode`*&#x200B;值的货币兑换和报表包的默认货币设置。For additional information on using numeric and currency events, see [Products](../../../implement/js-implementation/c-variables/page-variables.md#concept_A4007F6307E4419DAA65E1668A8FEBA2).
+最终事件类型&#x200B;*货币*&#x200B;允许您定义要添加的数量（类似于数值事件），但在报表中显示为货币，并需符合基于 s.*`currencyCode`*&#x200B;值的货币兑换和报表包的默认货币设置。有关使用数值和货币事件的其他信息，请参阅[产品](../../../implement/js-implementation/c-variables/page-variables.md#concept_A4007F6307E4419DAA65E1668A8FEBA2)。
 
 **配置变量** {#section_9195286C34C54B02B2598E2B856492C3}
 
-[!UICONTROL s.events] 变量默认为在所有实施中启用。七个预配置转化事件在所有新报表包中自动启用。New custom events (event1- [event100 or event1000](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)) can be enabled by any admin-level user using the Admin Console.
+[!UICONTROL s.events] 变量默认为在所有实施中启用。七个预配置转化事件在所有新报表包中自动启用。新的自定义事件（event1- [event100 或 event1000](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)）可由管理员级别的任何用户通过使用 Admin Console 来启用。
 
 **可能值** {#section_18395A3BEFEB4E9F8D7B2ED0001FBE4E}
 
@@ -560,9 +548,7 @@ s.hier4="Sports/Local Sports/Baseball"
 * 一旦设置了层级，便不可更改分隔符。若必须更改层级的分隔符，请联系 Adobe 客户关怀部门。
 * 层级一旦设置好后，便不可更改级别数。
 
->[!NOTE]
->
->对层次结构的更改可能导致服务费用。
+> [!NOTE]更改层级可能需要收取服务费。
 
 ## homepage {#concept_0A3E416F1A064BA396B5FCEABFB7B0B4}
 
@@ -574,11 +560,9 @@ homepage.xml
 
  -->
 
-This variable is populated after the page code and before *`doPlugins`* is run.
+此变量填充在页面代码之后，运行 *`doPlugins`* 之前。
 
->[!NOTE]
->
->此变量应仅读取且不应设置。
+> [!NOTE]此变量只可读取，不得设置。
 
 您可以读取这些值，并将它们复制到 prop/eVar，但不得更改它们。此变量在 JavaScript 文件 H.11 版本中另有介绍。
 
@@ -598,9 +582,7 @@ javaEnabled.xml
 
 此变量填充在页面代码之后，运行 doPlugins 之前。
 
->[!NOTE]
->
->此变量应仅读取且不应设置。
+> [!NOTE]此变量只可读取，不得设置。
 
 您可以读取这些值，并将它们复制到 prop/eVar，但不得更改它们。此变量在 JavaScript 文件 H.11 版本中另有介绍。
 
@@ -618,11 +600,9 @@ javascriptVersion.xml
 
  -->
 
-This variable is populated after the page code and before *`doPlugins`* is run.
+此变量填充在页面代码之后，运行 *`doPlugins`* 之前。
 
->[!NOTE]
->
->此变量应仅读取且不应设置。
+> [!NOTE]此变量只可读取，不得设置。
 
 您可以读取这些值，并将它们复制到 prop/eVar，但不得更改它们。此变量在 JavaScript 文件 H.11 版本中另有介绍。
 
@@ -634,7 +614,7 @@ H.10 和更高版本的 JavaScript 文件可以准确检测到最高 1.7 版本�
 
 ## linkName {#concept_1B2A3F56C9AD4C23A8A4331730EC2B8F}
 
-The  variable is an optional variable used in [!UICONTROL Link Tracking] that determines the name of a custom, download, or exit link.
+该变量是用于[!UICONTROL 链接跟踪]的可选变量，可确定自定义链接、下载链接或退出链接的名称。
 
 <!-- 
 
@@ -642,7 +622,7 @@ linkName.xml
 
  -->
 
-The *`linkName`* variable is not normally needed because the third parameter in the *`tl()`* function replaces it.
+*`linkName`* 变量通常不是必需的变量，因为可用 *`tl()`* 函数的第三个参数替换它。
 
 <table id="table_4B0D1C9AADA542A59B626E077D5FC568"> 
  <thead> 
@@ -663,7 +643,7 @@ The *`linkName`* variable is not normally needed because the third parameter in 
  </tbody> 
 </table>
 
-[!UICONTROL 自定义链接]是指发送跟踪数据的链接。此 *`linkName`* variable (or the third parameter in the *`tl()`* function) is used to identify the value that appears in the [!UICONTROL Custom], [!UICONTROL Download], or [!UICONTROL Exit Links] report. If *`linkName`* is not populated, the URL of the link appears in the report.
+[!UICONTROL 自定义链接]是指发送跟踪数据的链接。此 *`linkName`* 变量（或 *`tl()`* 函数中的第三个参数）可用于确定显示在[!UICONTROL 自定义报表]、[!UICONTROL 下载报表]或[!UICONTROL 退出链接报表]中的值。如果 *`linkName`* 未被填充，则该链接的 URL 会在报表中显示。
 
 **语法和可能值** {#section_C8D89834C98B4C7A858C947293C4148E}
 
@@ -671,7 +651,7 @@ The *`linkName`* variable is not normally needed because the third parameter in 
 s.linkName="Link Name"
 ```
 
-There are no limitations on *`linkName`* outside of the standard variable limitations.
+*`linkName`* 变量除标准变量限制以外，无其它限制。
 
 **示例** {#section_5F68766210184E82A23D2A6ECD80BA0B}
 
@@ -689,9 +669,9 @@ s.linkName="Partner Link to A.com"
 
 **缺陷、问题和提示** {#section_170A78452A7340B5B229713AC1FB71FA}
 
-* The *`linkName`* variable is replaced by the third parameter in the *`tl()`* function.
+* *`linkName`* 变量可由 *`tl()`* 函数的第三个参数替换。
 
-* If the *`linkName`* variable and the third parameter in the *`tl()`* function are blank, the full URL of the link (with the exception of the query string) appears in the report (even if the link is relative).
+* 如果将 *`linkName`* 变量和 *`tl()`* 函数的第三个参数留为空白，则此链接的完整 URL（查询字符串除外）将在报表中显示（即使链接为相对链接）。
 
 ## linkType {#concept_7695692AF5D843E3B370F6D345E32964}
 
@@ -703,7 +683,7 @@ linkType.xml
 
  -->
 
-The *`linkType`* variable is not normally needed because the second parameter in the *`tl()`* function replaces it.
+*`linkType`* 变量通常不是必需的变量，因为可用 *`tl()`* 函数的第二个参数替换它。
 
 <table id="table_3D1A2FC1CECD4709BE2F9E32AC2DC730"> 
  <thead> 
@@ -724,21 +704,21 @@ The *`linkType`* variable is not normally needed because the second parameter in
  </tbody> 
 </table>
 
-自定义链接将数据发送给 Analytics。The *`linkType`* variable (or the second parameter in the *`tl()`* function) is used to identify the report in which the link name or URL appears ( [!UICONTROL Custom], [!UICONTROL Download], or [!UICONTROL Exit Links] report).
+自定义链接将数据发送给 Analytics。*`linkType`* 变量（或 *`tl()`* 函数中的第二个参数）用于识别将显示链接名称或 URL 的报表（[!UICONTROL 自定义]、[!UICONTROL 下载]或[!UICONTROL 退出链接]报表）。
 
-对于退出和下载链接，根 *`linkType`* 据单击的链接是退出链接还是下载链接，会自动填充该变量。 A custom link may be configured to send data to any of the three reports with this variable or with the second parameter in the *`tl()`* function. 通过将 *`linkType`* URL设置为“o”、“e”或“d”, *`linkName`* 或链接URL将分别发送到“自定义链接 [!UICONTROL ”、“]退出链接 [!UICONTROL ”或“文件] 下载”报告。
+对于退出和下载链接，将根据所点击的链接是退出链接还是下载链接，自动填充 *`linkType`* 变量。可以使用此变量或 *`tl()`* 函数中的第二个参数将自定义链接配置为将数据发送到三个报表中的任何一个。通过将 *`linkType`* 设置为“o”、“e”或“d”，可分别将 *`linkName`* 或链接 URL 发送到[!UICONTROL 自定义链接]、[!UICONTROL 退出链接]或[!UICONTROL 文件下载]报表。
 
 **语法和可能值** {#section_18DB3A8083FB4F75B970055ED336DA4E}
 
-The *`linkType`* variable syntax depends on whether you use XML or a query string.
+*`linkType`* 变量语法取决于您使用的是 XML 还是查询字符串。
 
 如果您使用的是 XML，则此变量只能包含单个字符，即“o”、“e”或“d”。
 
 ```js
-s.tl(this,’o’,’Link Name’);
+s.tl(this,'o','Link Name');
 ```
 
-If you are using the query-string `pe`, you need to use `lnk_d`, `lnk_e`, or `lnk_o`.
+如果您使用的是查询字符串 `pe`，则需要使用 `lnk_d`、`lnk_e` 或 `lnk_o`。
 
 **示例** {#section_242B5DFFD1C9462A9A8EB1556B2E3160}
 
@@ -755,7 +735,7 @@ If you are using the query-string `pe`, you need to use `lnk_d`, `lnk_e`, or `ln
 
 **缺陷、问题和提示** {#section_F0D01DDE3FDA486C987162DA50A79C45}
 
-* 如 *`linkType`* 果未指定，则假定自定义链接('o')。
+* 如果未指定 *`linkType`*，则使用自定义链接（“o”）。
 
 ## 列表属性 {#concept_83ED74232225431F83A796E22FFC75B4}
 
@@ -773,7 +753,7 @@ list_props.xml
 * 无法为列表属性启用路径分析和关联。
 * Analytics 几乎为每个报表（包括所有列表属性报表）都提供了访问和独特访客。
 * 列表属性支持分类。
-* 任何自定义流量变量都可成为一个列表属性。（ pageName [](../../../implement/js-implementation/c-variables/page-variables.md#concept_5827B499DAC34B5D8445F9D9140CC328)[、](../../../implement/js-implementation/c-variables/page-variables.md#concept_C7770B8C15724A99B10F8F468AF82D0D)channel [和](../../../implement/js-implementation/c-variables/page-variables.md#concept_BF77952603BA454BAFC9A0A81D06A7D2)server。)
+* 任何自定义流量变量都可成为一个列表属性。（例外：[pageName](../../../implement/js-implementation/c-variables/page-variables.md#concept_5827B499DAC34B5D8445F9D9140CC328)、[channel](../../../implement/js-implementation/c-variables/page-variables.md#concept_C7770B8C15724A99B10F8F468AF82D0D) 和 [server](../../../implement/js-implementation/c-variables/page-variables.md#concept_BF77952603BA454BAFC9A0A81D06A7D2)。）
 
 * 在同一个图像请求中定义重复值时，不会删除重复实例。
 
@@ -831,16 +811,16 @@ listN.xml
 
 无需 Adobe 客户关怀部门的介入，您就可以在管理控制台中访问并更新配置：
 
-1. Go to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**
+1. 转至 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]**
 1. 选择报表包。
-1. Click  **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL List Variables]** .
+1. 单击&#x200B;**[!UICONTROL 编辑设置]** &gt; **[!UICONTROL 转化]** &gt; **[!UICONTROL 列表变量]**。
 
 * **名称**：每一个分隔值最多可包含 255 个字符（如果使用多字节字符，则会更少）。这是每个元素的最大长度。
 * **值分隔符**：用于在列表变量中分隔值的字符。通常有逗号、冒号、竖线或类似的字符。
 
    >[!NOTE]
    >
-   >列表变量中不支持多字节字符作为分隔符。 分隔符必须为单字节。
+   >列表变量不支持将多字节字符作为分隔符。分隔符必须为单字节。
 
 * **过期日期**：类似于 eVar 过期日期，此设置决定列表变量和转化事件之间可产生关联的时间量。
 
@@ -861,7 +841,7 @@ listN.xml
 
    “最大值”设置可用于将属性限制为特定数量的值。例如，如果某个列表 var 在访问的首个页面上设置为“A,B,C”，然后在下一页上设置为“X,Y,Z”，那么属性将根据分配情况分发到这六个值。如果您希望将属性限制为仅“X,Y,Z”，那么可以将最大值设为 3。
 
-To set up or edit List Vars, go to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL List Variables]** .
+要设置或编辑列表变量，请转到 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]** &gt; **[!UICONTROL 编辑设置]** &gt; **[!UICONTROL 转化**] &gt; **]列表变量**[!UICONTROL 。
 
 **实施示例** {#section_564AFE6A2F524BFEB372EC0F7FEBA656}
 
@@ -910,13 +890,13 @@ s.events="purchase";
  <tbody> 
   <tr> 
    <td colname="col1"> 页面 1 </td> 
-   <td colname="col2"> <code> s.list1=”value1,value2,value3”; </code> </td> 
+   <td colname="col2"> <code> s.list1="value1,value2,value3"; </code> </td> 
    <td colname="col3"> （未设置） </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 页面 2 </td> 
-   <td colname="col2"> <code> s.list1=”value4,value5,value6”; </code> </td> 
-   <td colname="col3"> <p> <code> s.events=”purchase”; </code> </p> <p> <code> s.products=”;product;1;200” </code> </p> </td> 
+   <td colname="col2"> <code> s.list1="value4,value5,value6"; </code> </td> 
+   <td colname="col3"> <p> <code> s.events="purchase"; </code> </p> <p> <code> s.products=";product;1;200" </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -947,15 +927,13 @@ s.maxDelay="750";
 * 指定的时间以毫秒为单位计算。
 * 增加等待时间会收集到更多的 DFA 数据，但这也会增加 Analytics 点击数据丢失的风险。
 
-   Losing Analytics hit data would occur when the user navigates away from the page during the *`s.maxDelay`* period.
+   如果用户在 *`s.maxDelay`* 时段离开页面，Analytics 点击数据将会丢失。
 
 * 减少等待时间会降低 Analytics 点击数据丢失的风险，但这也会减少随点击数据发送的 DFA 数据量。
 
-   当该时间段不能容纳DFA主 *`s.maxDelay`* 机进行响应的足够时间时，将会丢失DFA集成数据。
+   如果在 *`s.maxDelay`* 时段没有为 DFA 主机提供足够的响应时间，则会丢失 DFA 集成数据。
 
->[!NOTE]
->
->Adobe不控制DFA的响应时间。 如果将最大延迟时段增加到一个合理的时间范围后发现问题依然存在，请咨询贵组织的 DFA 帐户管理员。
+> [!NOTE]Adobe 不会控制 DFA 的响应时间。如果将最大延迟时段增加到一个合理的时间范围后发现问题依然存在，请咨询贵组织的 DFA 帐户管理员。
 
 ## mediaLength {#concept_F52B1670122C4461824223E525307060}
 
@@ -1000,7 +978,7 @@ mediaLength.xml
 s.Media.open(mediaName,mediaLength,mediaPlayerName)
 ```
 
-可能值：
+可能值:
 
 ```js
 s.Media.open("de_bofr_1045Making_400k", "414","Windows Media Player 11.0.5721.5230")
@@ -1068,7 +1046,7 @@ s.Media.stop(mediaName,mediaOffset)
 s.Media.close(mediaName)
 ```
 
-可能值：
+可能值:
 
 ```js
 s.Media.open("de_bofr_1045Making_400k", "414","Windows Media Player 11.0.5721.5230")
@@ -1149,7 +1127,7 @@ s.Media.playerName = "My Custom Player Name"  //configure player name in global 
 s.Media.open(mediaName,mediaLength,mediaPlayerName)
 ```
 
-可能值：
+可能值:
 
 ```js
 s.Media.open("de_bofr_1045Making_400k", "414","Windows Media Player 11.0.5721.5230")
@@ -1224,7 +1202,7 @@ s.Media.play(mediaName,mediaOffset)
 s.Media.stop(mediaName,mediaOffset)
 ```
 
-可能值：
+可能值:
 
 ```js
 s.Media.open("de_bofr_1045Making_400k", "414","Windows Media Player 11.0.5721.5230") 
@@ -1287,7 +1265,7 @@ media_trackEvents.xml
 **示例** {#section_140A55D80EA24011954F9383CF312237}
 
 ```js
-s.Media.trackEvents=”event1,purchase”
+s.Media.trackEvents="event1,purchase"
 ```
 
 **缺陷、问题和提示** {#section_030B11C64EE84D46A85CA550DB732D28}
@@ -1312,19 +1290,19 @@ media_trackVars.xml
 
 **语法和可能值** {#section_7374684A7EB34AE685E8C40A66CFD289}
 
-变量名 [!UICONTROL 称]，如 *`eVarN`* propN、 *`events`*、 *`channel`*、等等。
+变量名称，例如 [!UICONTROL propN]、*`eVarN`*、*`events`*、*`channel`* 等。
 
 **示例** {#section_48653222ABA14AB0A3C4471659971FAA}
 
 ```js
-s.Media.trackVars=”prop2,events,eVar3”
+s.Media.trackVars="prop2,events,eVar3"
 ```
 
 **缺陷、问题和提示** {#section_615AE1B696124B00B78F651B03813EAB}
 
 * 即使在 [!UICONTROL trackVars] 中指定了 eVar3，点击媒体时也会发送此变量。
 
-## mobile {#concept_0CEE045F57B444138C0EAA015FC7EA70}
+## 移动设备 {#concept_0CEE045F57B444138C0EAA015FC7EA70}
 
  变量可控制使用 Cookie 和订阅者 ID 识别访客的顺序。
 
@@ -1334,7 +1312,7 @@ mobile.xml
 
  -->
 
-See [Mobile network protocols](../../../implement/js-implementation/c-additional-libraries/network-protocols.md#concept_2425537FC9CB45DD868B5FA2298B6CAC).
+请参阅[移动网络协议](../../../implement/js-implementation/c-additional-libraries/network-protocols.md#concept_2425537FC9CB45DD868B5FA2298B6CAC)。
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |---|---|---|---|
@@ -1349,7 +1327,7 @@ s.mobile=""  // if set to an empty string or not set at all, cookies used first,
 
 **缺陷、问题和提示** {#section_06CD5CB4EF1E4B9FBE3B9D1F18AAFA30}
 
-在JavaScript cookie实施中使用变量时，使用跨访客识别来减轻访 *`s.mobile`* 客流量的可能高峰。
+在 JavaScript Cookie 实施中使用 *`s.mobile`* 变量时，请使用跨访客标识来降低访客流量可能出现的峰值。
 
 ## pageName {#concept_5827B499DAC34B5D8445F9D9140CC328}
 
@@ -1380,21 +1358,21 @@ pageName.xml
  </tbody> 
 </table>
 
-The *`pageName`*&#x200B;变量应使用企业用户可识别的值填充。在大多数情况下， *`pageName`* 该值不是URL或文件的路径。 Common *`pageName`* values include names such as "Home Page," "Checkout," "Purchase Thank you," or "Registration."
+The *`pageName`*&#x200B;变量应使用企业用户可识别的值填充。在大多数情况下，*`pageName`* 值不是 URL 或文件路径。通用 *`pageName`* 值包括一些名称，如“主页”、“结帐”、“感谢购买”或“注册”。
 
 请注意，页面名称和其他变量中不允许出现换行符、长划线或短划线，或任何 HTML 字符。有些浏览器可以传送换行符，而有些则不能，这会导致 Analytics 中的数据被分割到两个看起来相同的页面名称。在键入连字符时，许多文字处理器和电子邮件客户端会自动将其转换为长划线或短划线。由于长划线和短划线在 Analytics 变量中被视为非法字符（编码值高于 127 的 ASCII 字符），因此 Analytics 不会记录包含非法字符的页面名称，而改为显示 URL。
 
-If *`pageName`* is left blank, the URL is used to represent the page name. Leaving *`pageName`* blank is often problematic because the URL may not always be the same for a page `www.mysite.com` and `mysite.com` are the same page with different URLs).
+如果 *`pageName`* 留空，则会用 URL 来代表页面名称。将 *`pageName`* 留空常会导致一些问题，因为一个页面的 URL 有可能会变化，不总是相同，如 `www.mysite.com` 和 `mysite.com` 是不同的 URL，但却是同一个页面。
 
 **语法和可能值** {#section_7A61EE70F1A84D26B414404998C84BA8}
 
-The *`pageName`* variable should contain a useful identifier for business users of Analytics.
+*`pageName`* 变量应当包含一个有用的标识符，以供 Analytics 的企业用户使用。
 
 ```js
 s.pageName="page_name"
 ```
 
-There are no limitations on *`pageName`* outside of the standard variable limitations.
+*`pageName`* 除标准变量限制以外，无其它限制。
 
 **示例** {#section_8BB4F86F84E246A08B72DEC47FFC0765}
 
@@ -1412,7 +1390,7 @@ s.pageName="Standard Offer List"
 
 **缺陷、问题和提示** {#section_BB41DC9682C34385B9CAA80D5257C113}
 
-确保不 *`pageName`* 包含非法字符。
+确保 *`pageName`* 不包含非法字符。
 
 ## pageType {#concept_F67870238EF74491B5D3909A33CDB985}
 
@@ -1443,7 +1421,7 @@ pageType.xml
  </tbody> 
 </table>
 
-The *`pageType`*&#x200B;变量会在显示 404 错误页面时捕获错误的 URL，这样您可以迅速找到自定义网站上已无效且损坏的链接和路径。在错误页 *`pageType`* 面上设置变量，如下所示。
+The *`pageType`* variable captures the errant URL when a 404 Error page is displayed, which allows you to quickly find broken links and paths that are no longer valid on the custom site. 完全按照以下所示在错误页面上设置 *`pageType`* 变量。
 
 不要在 404 错误页面上使用页面名称变量。此&#x200B;*`pageType`*&#x200B;变量仅用于 404 错误页面。
 
@@ -1451,7 +1429,7 @@ The *`pageType`*&#x200B;变量会在显示 404 错误页面时捕获错误的 UR
 
 **语法和可能值** {#section_C1C59968226446559B05F6EE7374D525}
 
-唯一允许的值 *`pageType`* 是“errorPage”，如下所示。
+*`pageType`* 唯一允许使用的值为“errorPage”，如下所示。
 
 ```js
 s.pageType="errorPage"
@@ -1469,7 +1447,7 @@ s.pageType="errorPage"
 
 **缺陷、问题和提示** {#section_943681AB01FE47BEAC72E93CB60C53C8}
 
-To capture other server-side errors (such as 500 errors), use a prop to capture the error message and put "`500 Error: <URL>`" where `<URL>` is the URL requested, in the *`pageName`* variable. 按照这一操作过程，您可以使用[!UICONTROL 路径分析]报表查看是哪些路径导致用户产生 500 错误。prop 可解释哪个错误消息是由服务器发出的。
+如果要捕获其他服务器端错误（如 500 错误），请使用 prop 捕获错误消息，并在 *`pageName`* 变量中放置“`500 Error: <URL>`”，其中 `<URL>` 是请求的 URL。按照这一操作过程，您可以使用[!UICONTROL 路径分析]报表查看是哪些路径导致用户产生 500 错误。prop 可解释哪个错误消息是由服务器发出的。
 
 ## pageUrl {#concept_A15F710CD0174297A2286BF3E7452113}
 
@@ -1502,13 +1480,11 @@ pageURL.xml
  </tbody> 
 </table>
 
->[!NOTE]
->
->Although Adobe allows *`pageURL`* values up to 64k, some browsers impose a size limit on the URL of image requests. To prevent truncation of other data, page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter.
+> [!NOTE]尽管 Adobe 允许 *`pageURL`* 值为 64k，但一些浏览器对图像请求 URL 的大小存在限制。为了避免其他数据出现截断的情况，大于 255 字节的页面 URL 被拆分，前面的 255 个字节显示在 `g=` 参数中，剩下的字节稍后显示在 `-g=` 查询参数的查询字符串中。
 
 **语法和可能值** {#section_22AF3BF7C2F743549967B0C760A095C0}
 
-The *`pageURL`* variable must be a valid URL, with a valid protocol. 域被填充到报表之前，将强制以小写字母形式显示域名，并有可能根据 Analytics 设置清空查询字符串。
+*`pageURL`* 变量必须为使用有效协议的有效 URL。域被填充到报表之前，将强制以小写字母形式显示域名，并有可能根据 Analytics 设置清空查询字符串。
 
 ```js
 s.pageURL="proto://domain/path?query_string"
@@ -1516,9 +1492,7 @@ s.pageURL="proto://domain/path?query_string"
 
 页面 URL 只能采用 URL 兼容的字符。
 
->[!NOTE]
->
->强烈建议您在将变量用于自定义目的之前先与Adobe顾问或客 *`pageURL`* 户关怀联系。
+> [!NOTE]强烈建议您在将 *`pageURL`* 变量用于自定义目的之前，先联系 Adobe 顾问或 Adobe 客户关怀。
 
 **示例** {#section_45158FDA3F8F4574BDEB5CBC9F7E6C97}
 
@@ -1544,11 +1518,9 @@ plugins.xml
 
  -->
 
-This variable is populated after the page code and before *`doPlugins`* is run.
+此变量填充在页面代码之后，运行 *`doPlugins`* 之前。
 
->[!NOTE]
->
->此变量应仅读取且不应设置。
+> [!NOTE]此变量只可读取，不得设置。
 
 您可以读取这些值，并将它们复制到 prop/eVar，但不得更改它们。此变量在 JavaScript 文件 H.11 版本中另有介绍。
 
@@ -1568,17 +1540,17 @@ products.xml
 
 >[!IMPORTANT]
 >
->In January of 2016, we updated the logic that sets the *`prodView`* event automatically, which happens when there is a *`product`* but no *`event`*. 此更新可能会导致 *`prodView`事件增加。**`prodViews`*&#x200B;仅在以下情况下增加：
+>2016 年 1 月，我们更新了自动设置 *`prodView`* 事件的逻辑，当具有 *`product`* 但没有 *`event`* 时会执行此逻辑。此更新可能会导致 *`prodView`事件增加。**`prodViews`*&#x200B;仅在以下情况下增加：
 >
->1. The events variable contains nothing but an unrecognized event, such as *`shoppingCart`* or *`cart`*, which are not valid events.
+>1. events 变量只包含无法识别的事件，例如 *`shoppingCart`* 或 *`cart`*，这些都不是有效事件。
    >
    >
-1. The *`products`* variable is not empty.
+1. *`products`* 变量不为空。
 >
 >
-A possible side effect is that merchandising eVars triggered by *`prodView`* events could be associated with an empty *`product`*, but only if the *`product list`* contains only an invalid product (such as a semicolon with no product listed).
+可能出现的副作用是由 *`prodView`* 事件触发的促销 eVar 可能与空的 *`product`* 相关联，但仅当 *`product list`* 只包含无效产品时（例如列出的产品中没有分号）才会出现这种情况。
 
-The *`products`* variable tracks how users interact with products on your site. 例如，products 变量可跟踪产品被查看、添加到购物车、结帐以及购买的次数。它也可跟踪网站上促销类别的相对效果。以下方案是 products 变量的常见使用方式。
+*`products`* 变量可跟踪用户与网站产品的交互情况。例如，products 变量可跟踪产品被查看、添加到购物车、结帐以及购买的次数。它也可跟踪网站上促销类别的相对效果。以下方案是 products 变量的常见使用方式。
 
 The *`products`*&#x200B;变量应始终结合成功事件进行设置。
 
@@ -1593,8 +1565,8 @@ The *`products`*&#x200B;变量应始终结合成功事件进行设置。
  </thead>
  <tbody> 
   <tr> 
-   <td> <p>“ <span class="wintitle"> products </span>”字符串的最大大小为64k。 </p> </td> 
-   <td> products </td> 
+   <td> <p>“<span class="wintitle"> products </span>”字符串的最大大小为 64 k。 </p> </td> 
+   <td> 产品 </td> 
    <td> 产品 <p>类别（可选） </p> <p>收入（可选） </p> <p>件数（可选） </p> <p>自定义事件（可选） </p> <p>eVar（可选） </p> </td> 
    <td> " " </td> 
   </tr> 
@@ -1620,15 +1592,15 @@ The *`products`*&#x200B;变量应始终结合成功事件进行设置。
 
 **设置非购买事件的 products** {#section_D5E689D4AAE941EC851CA9B98328A4DE}
 
-The *`products`* variable must be set in conjunction with a success event.
+*`products`* 变量必须结合成功事件进行设置。
 
 **设置购买事件的 products** {#section_618AAC96E7B541A7AABAA028E5F4E5C3}
 
-The *`purchase`* event should be set on the final confirmation ("Thank You!") 页面上设置。产品名称、类别、数量和价格都将使用 *`products`* variable. Although the *`purchaseID`* variable is not required, it is strongly recommended in order to prevent duplicate orders.
+*`purchase`* 事件应在订购流程的最终确认（“谢谢！”）页面上设置。产品名称、类别、数量和价格都将使用 *`products`* 变量捕获。尽管 *`purchaseID`* 并非必要变量，但是强烈建议设置此变量，以防出现重复订购情况。
 
 **产品特定的货币事件** {#section_F814DF053C0D463A97DA039E6323720C}
 
-如果货币事件接收到变量中的值而 *`products`* 不是events变量，则它仅应用于该值。 这对于跟踪产品特定的折扣、产品运输及类似值非常有用。例如，如果将事件 1 配置为跟踪产品运输，则运输费用为“4.50”的产品可能会类似于以下内容：
+如果货币事件在 *`products`* 变量中接收的是一个值而不是 events 变量，则该事件仅适用于该值。这对于跟踪产品特定的折扣、产品运输及类似值非常有用。例如，如果将事件 1 配置为跟踪产品运输，则运输费用为“4.50”的产品可能会类似于以下内容：
 
 ```js
 s.events="event1" 
@@ -1639,7 +1611,7 @@ s.products="Footwear;Running Shoes;1;99.99;event1=4.50"
 
 **订单范围的货币事件** {#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0}
 
-如果货币事件在事件列表中而非变量中收到一个值，则该值将应 *`products`* 用于变量中的所有产 *`products`* 品。 这对于在不修改产品价格，或单独跟踪产品列表中值的情况下，跟踪订单范围折扣、运输费以及类似值非常有用。
+如果货币事件在事件列表中接收的是值而不是 *`products`* 变量，则它将适用于 *`products`* 变量中的所有产品。这对于在不修改产品价格，或单独跟踪产品列表中值的情况下，跟踪订单范围折扣、运输费以及类似值非常有用。
 
 例如，如果将 event10 配置为包含订单范围的折扣，则折扣为 10% 的购买可能会类似于以下内容：
 
@@ -1651,13 +1623,11 @@ s.purchaseID="1234567890"
 
 在货币事件报表中，报表合计表示去除重复后的事件总数（在本示例中为报表期间的总折扣数），而不是每个产品的事件值总数。例如，您会发现“Running Shoes”和“Running Socks”都列为“9.95”，而总值也为“9.95”。
 
->[!NOTE]
->
->如果在变量和变量中指定了同一数字／货币事 *`products`* 件的值，则 *`events`* 将使用来自 *`events`* 的值。
+> [!NOTE]如果在 *`products`* 变量和 *`events`* 变量中指定了相同数值/货币事件的值，则会使用 *`events`* 的值。
 
 **缺陷、问题和提示** {#section_D38FD0B79C0347B9AB4CF1632183DA2E}
 
-* The *`products`* variable should always be set in conjunction with a [!UICONTROL success] event (events). 如果未指定任何[!UICONTROL 成功]事件，则默认事件为 [!UICONTROL prodView]。
+* *`products`* 变量应当始终结合一个[!UICONTROL 成功]事件（或多个事件）进行设置。如果未指定任何[!UICONTROL 成功]事件，则默认事件为 [!UICONTROL prodView]。
 
 * 在填充 products 变量之前，请先清除产品和类别名称中的所有逗号和分号。
 * 清除所有 HTML 字符（注册符号、商标等）。
@@ -1668,43 +1638,43 @@ s.purchaseID="1234567890"
 <table id="table_6F1334E73CE048A5AC0CC28B561C1B2D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <code> s.products=”Category;ABC123” </code> </td> 
+   <td colname="col1"> <code> s.products="Category;ABC123" </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.products=”Category2;ABC123,;ABC456” </code> </td> 
+   <td colname="col1"> <code> s.products="Category2;ABC123,;ABC456" </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.products=”Category3;ABC123;1;10” </code> </td> 
+   <td colname="col1"> <code> s.products="Category3;ABC123;1;10" </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.products=”Category;ABC123;1;10,;ABC456;2;19.98” </code> </td> 
+   <td colname="col1"> <code> s.products="Category;ABC123;1;10,;ABC456;2;19.98" </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1” </code> <p> <code> s.products="Category;ABC123;;;event1=1.99" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1" </code> <p> <code> s.products="Category;ABC123;;;event1=1.99" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99,;ABC123;2;19.98;event1=1.99" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99,;ABC123;2;19.98;event1=1.99" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping|evar2=3 Stars" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping|evar2=3 Stars" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping, ;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping, ;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2,event3” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2,event3" </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2,event3=9.95” </code> <p> <code> s.products="Category;ABC123;,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
+   <td colname="col1"> <code> s.events="event1,event2,event3=9.95" </code> <p> <code> s.products="Category;ABC123;,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1757,15 +1727,15 @@ purchaseID.xml
 
  -->
 
-Whenever the [!UICONTROL purchase] event is used on your site, you should use the *`purchaseID`* variable.
+任何时候，当您的网站使用了[!UICONTROL 购买]事件时，都应使用 *`purchaseID`* 变量。
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |---|---|---|---|
 | 20 字节 | purchaseID | “转化”&gt;“购买”&gt;“收入转化” | "" |
 
-当访客从您的网站上购买项目时，*`purchaseID`*&#x200B;将在“谢谢”页面中被填充（该页面与触发[!UICONTROL 购买]事件的位置相同）。If the *`purchaseID`* is populated, the products on the "Thank You" page are counted only once per *`purchaseID`*. 这一点至关重要，因为许多访问您网站的访客都会出于各自的目的保存“谢谢”或“确认页面”。The *`purchaseID`*&#x200B;可防止每次查看页面时都对购买计数。
+当访客从您的网站上购买项目时，*`purchaseID`*&#x200B;将在“谢谢”页面中被填充（该页面与触发[!UICONTROL 购买]事件的位置相同）。如果 *`purchaseID`* 被填充，则“感谢”页面中的产品将被计数，并且针对每个 *`purchaseID`* 仅计数一次。这一点至关重要，因为许多访问您网站的访客都会出于各自的目的保存“谢谢”或“确认页面”。The *`purchaseID`*&#x200B;可防止每次查看页面时都对购买计数。
 
-除了避免将购买数据计数两次外，使用时还 *`purchaseID`*&#x200B;会防止所有转化数据在报告中重复计数。
+使用 *`purchaseID`* 时，除可以避免将购买数据计数两次外，还可以防止所有转化数据在报表中被重复计数。
 
 **语法和可能值** {#section_E352CE2370D54BA69A368E1F63A9C32D}
 
@@ -1773,7 +1743,7 @@ Whenever the [!UICONTROL purchase] event is used on your site, you should use th
 s.purchaseID="unique_id"
 ```
 
-The *`purchaseID`* must be 20 characters or fewer, and be standard ASCII.
+*`purchaseID`* 必须在 20 字符以内，而且必须为标准的 ASCII 字符。
 
 **示例** {#section_60A5C1EAF42F4611898CD6A4F4CF5A28}
 
@@ -1788,7 +1758,7 @@ s.purchaseID="a8g784hjq1mnp3"
 
 **缺陷、问题和提示** {#section_F5D010F234ED43F19AD1FCD2CD64E060}
 
-The *`purchaseID`* variable allows all conversion variables on the page to be counted only once in reports.
+*`purchaseID`* 变量允许页面中的所有转化变量在报表中仅被计数一次。
 
 ## referrer {#concept_3D8E6A5D30DC4D92982EFA34D4C7F81B}
 
@@ -1806,7 +1776,7 @@ referrer.xml
 |---|---|---|---|
 | 255 字节 | R | “流量”&gt;“查找方法转化”&gt;“查找方法” | document.referrer |
 
-许多公司在其整个网站中的许多地方使用重定向。例如，可以从某个搜索引擎付费搜索结果将访客重定向。重定向浏览器时，反向链接通常会丢失。The 变 *`referrer`* 量可用于在重定向后 *`referrer`* 恢复第一页上的原始值。 The *`referrer`* may be populated server-side, or via JavaScript from the query string.
+许多公司在其整个网站中的许多地方使用重定向。例如，可以从某个搜索引擎付费搜索结果将访客重定向。重定向浏览器时，反向链接通常会丢失。The *`referrer`* 变量可用于在重定向后还原首页上的原始 *`referrer`* 值。*`referrer`* 可通过服务器端填充，或通过查询字符串 JavaScript 填充。
 
 若要 Analytics 记录反向链接，其格式必须正确，即必须遵循标准 URL 格式，并且包含协议和相应的位置。
 
@@ -1833,7 +1803,7 @@ s.referrer=s.getQueryParam('ref')
 
 **缺陷、问题和提示** {#section_B42BF7FBA1094FF9805707FEA810CFE1}
 
-The *`referrer`* must look like a standard URL and include a protocol.
+*`referrer`* 必须是标准 URL，并且包括协议。
 
 ## resolution {#concept_8CBDDBE710744A3AA09E6B1E1519BF30}
 
@@ -1845,11 +1815,9 @@ resolution.xml
 
  -->
 
-This variable is populated after the page code and before *`doPlugins`* is run.
+此变量填充在页面代码之后，运行 *`doPlugins`* 之前。
 
->[!NOTE]
->
->此变量应仅读取且不应设置。
+> [!NOTE]此变量只可读取，不得设置。
 
 您可以读取这些值，并将它们复制到 prop/eVar，但不得更改它们。此变量在 JavaScript 文件 H.11 版本中另有介绍。
 
@@ -1859,7 +1827,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 ## s_objectID {#concept_48B50DE6B7E546EBB4D187033F1CAF2B}
 
-The  variable is a global variable that should be set in the [!UICONTROL onClick] event of a link.
+该变量是一个全局变量，应在链接的 [!UICONTROL onClick] 事件中设置。
 
 <!-- 
 
@@ -1867,33 +1835,31 @@ s_objectID.xml
 
  -->
 
-By creating a unique object ID for a link or link location on a page, you can either improve visitor activity tracking or use [!UICONTROL Activity Map] to report on a link type or location, rather than the link URL.
+通过为链接或页面上的链接位置创建唯一对象 ID，您可以改善访客活动跟踪功能，或使用 [!UICONTROL Activity Map]（而非链接 URL）来报告链接类型或位置。
 
->[!NOTE]
->
->A trailing semicolon (;) is required when using s_objectID with [Activity Map](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-link-tracking-use-case.html).
+> [!NOTE] 将s_objectID与Activity Map一起使用时，需要以分号(;) [结尾](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-link-tracking-use-case.html)。
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |---|---|---|---|
-| 100 字节 | OID | [!UICONTROL Activity Map], [!UICONTROL ClickMap] | 点击链接的绝对 URL |
+| 100 字节 | OID | [!UICONTROL Activity Map]、[!UICONTROL ClickMap] | 点击链接的绝对 URL |
 
-使用 *`s_objectID`*:
+使用 *`s_objectID`* 的常见原因有三个：
 
 * 为了整合一天内经常发生变化的访客活动。
-* To separate link activity that [!UICONTROL Activity Map] combines.
-* To improve the accuracy of [!UICONTROL Activity Map] data reporting.
+* 为了分离 [!UICONTROL Activity Map] 组合在一起的链接活动。
+* 为了提高 [!UICONTROL Activity Map] 数据报告的准确性。
 
 **汇总高度动态链接的点击** {#section_BA730A0393B149DDBCAA272C3C23A1C5}
 
-如果您的站点具有高度动态性，并且某些页面上的链接在一天中都会发生更改，则 *`s_objectID`* 可能会用于标识页面上链接的位置。 如果 *`s_objectID`**`s_objectID`* 设置为“左上角1”或“左上角2”（例如，它表示页面左上角的第一个链接），则显示在该位置（或设置为相同值的链接）的所有链接都会与访客点击图一起报告。 If you don't use *`s_objectID`*, you see the number of times that a specific link was clicked, but you lose insight into how all the other links in that location were used by visitors to your site.
+如果您的网站是高度动态的，并且某些页面上的链接在一天里会有所变化，则可以使用 *`s_objectID`* 来标识页面上链接的位置。例如，如果将 *`s_objectID`* 设置为“左上 1”或“左上 2”（表示页面左上方的第一个链接），则该位置显示的所有链接（或将 *`s_objectID`* 设置为相同值的链接）都将与访客点击图一起报告。如果不使用 *`s_objectID`*，虽然可以查看点击特定链接的次数，但无法深入分析访客如何在网站中使用该位置的所有其他链接。
 
 **区分整合的点击** {#section_1AE91FB8A2D3423CBE064ACF02FEEA47}
 
-如果站 *`pageName`**`s_objectID`* 点上的变量用于显示访客正在查看的部分或模板，而不是访客正在查看的特定页面，则您可能希望使用该页面模板的多个版本上显示的单独链接。 例如，如果您有一个适用于网站中所有产品的模板页面，可能在所有页面上都会有一个指向主页和指向模板中搜索框的链接。若要按单个产品（而非模板）了解这些链接的使用情况，您可以使用产品特定的值填充&#x200B;*`s_objectID`*，例如“prod 123789 home page”或“prod 123789 search”。Once completed, [!UICONTROL Activity Map] reports on those links at an individual product basis.
+如果您网站上的 *`pageName`* 变量用于显示访客正在查看的部分或模板，而不是访客正在查看的特定页面，则您可能需要使用 *`s_objectID`* 来分隔出现在该页面模板多个版本上的链接。例如，如果您有一个适用于网站中所有产品的模板页面，可能在所有页面上都会有一个指向主页和指向模板中搜索框的链接。若要按单个产品（而非模板）了解这些链接的使用情况，您可以使用产品特定的值填充&#x200B;*`s_objectID`*，例如“prod 123789 home page”或“prod 123789 search”。完成后，[!UICONTROL Activity Map] 会按照各个产品报告这些链接。
 
-**提高[!UICONTROL 活动图](Activity Map)准确性**{#section_08B3406821294DCCABEEB99C90CF5C52}
+**提高[!UICONTROL Activity Map]准确性** {#section_08B3406821294DCCABEEB99C90CF5C52}
 
-在某些情况下，访客点击图不会报告除 Internet Explorer、Firefox、Netscape、Opera 和 Safari 以外的浏览器。尽管其他浏览器所占的比例很小，但确实存在一部分点击量和其他量度。Use *`s_objectID`* within links to uniquely identify the addresses the browser reporting issue. 以下示例介绍了如何使用 *`s_objectID`*:
+在某些情况下，访客点击图不会报告除 Internet Explorer、Firefox、Netscape、Opera 和 Safari 以外的浏览器。尽管其他浏览器所占的比例很小，但确实存在一部分点击量和其他量度。使用链接中的 *`s_objectID`* 对地址进行唯一标识可解决浏览器报告问题。以下示例介绍了如何使用 *`s_objectID`*:
 
 ```js
 <a href="/art.jsp?id=559" onClick="s_objectID='top left 1';">Article 559</a> 
@@ -1908,7 +1874,7 @@ s_objectID 可以包含任何文本标识符。
 s_objectID="unique_id" 
 ```
 
-除标准变量限制以外，*`s_objectID`*&#x200B;无其他限制。
+*`s_objectID`* 变量除标准变量限制以外，无其它限制。
 
 **示例** {#section_33F119D532CA4ACAA3426253C42030BB}
 
@@ -1958,7 +1924,7 @@ s.server="server 14"
 s.server="server_name"
 ```
 
-There are no limitations on the *`server`* variable outside of the standard variable limitations.
+*`server`* 变量除标准变量限制以外，无其它限制。
 
 **示例** {#section_78B9EE3C27FB491384869E3D0BD503D6}
 
@@ -1973,11 +1939,11 @@ s.server=window.location.hostname
 
 **缺陷、问题和提示** {#section_42A28F9B01574F38891D9D54B411D8FE}
 
-The *`server`* variable can be used to show which domains are most popular or which servers are serving the most pages.
+*`server`* 变量可用于显示哪些域最受欢迎或哪些服务器提供的网页最多。
 
 ## state {#concept_82295D22888947BF8B1C76182C635C6C}
 
-和变量是转换变量。
+zip 和 state 变量是转化变量。
 
 <!-- 
 
@@ -1985,13 +1951,13 @@ state.xml
 
  -->
 
-这些变量与 eVar 一样均可捕获事件，但不同之处在于，这些变量不是永久性变量。The *`zip`* and *`state`* variables are like eVars that expire immediately.
+这些变量与 eVar 一样均可捕获事件，但不同之处在于，这些变量不是永久性变量。The *`zip`* 和 *`state`* 变量与 eVar 类似，都会立即过期。
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |---|---|---|---|
 | 50 字节 | state | 转化 &gt; 访客资料 &gt; 访客所在州 | "" |
 
-Because the *`state`* and *`zip`* variables expire immediately, the only events associated with them are events that are fired on the same page on which they are populated. For example, if you are using *`state`* to compare conversion rates by state, you should populate the *`state`* variable on every page of the checkout process. 对于转化网站，Adobe 建议使用帐单地址作为邮政编码的来源，但您也可以选择使用送货地址（假定订单上只有一个送货地址）。媒体网站可选择使用 *`zip`* and *`state`* for registration or ad click-through tracking.
+由于 *`state`* 和 *`zip`* 变量会立即过期，因此，与之关联的事件就是在填充这些变量的同一页面上被触发的事件。例如，如果使用 *`state`* 变量来根据州比较转化率，则需在结账流程每一页面填充 *`state`* 变量。对于转化网站，Adobe 建议使用帐单地址作为邮政编码的来源，但您也可以选择使用送货地址（假定订单上只有一个送货地址）。媒体网站可选择使用 *`zip`* 和 *`state`* 进行注册或广告点进跟踪。
 
 **语法和可能值** {#section_EDD1F5F9EDBC457898E61695F08C1744}
 
@@ -1999,7 +1965,7 @@ Because the *`state`* and *`zip`* variables expire immediately, the only events 
 s.state="state"
 ```
 
-The *`state`* variable does not impose any special value or format restrictions. There are no limitations on *`state`* outside of the standard variable limitations.
+*`state`* 变量不限定任何特殊值或格式限制。*`state`* 除标准变量限制以外，无其它限制。
 
 **示例** {#section_D181B163F79A41D199CA4C70765E583F}
 
@@ -2017,8 +1983,8 @@ s.state="prince edward island"
 
 **缺陷、问题和提示** {#section_02F1620D0BB14AA6A838966FDB9A234F}
 
-* Populate *`state`* on every page that a relevant event is fired (such as each page of the checkout process).
-* The *`zip`* and *`state`* variables act like eVars that expire on the Page View.
+* 在每个触发相关事件的页面中填充 *`state`*（例如，每个结帐流程页面）。
+* *`zip`* 和 *`state`* 变量的操作方式类似于“页面查看次数”上过期的 eVar。
 
 ## timestamp {#concept_D997A2FF4D134C80A614C0BC7A4D7507}
 
@@ -2040,13 +2006,13 @@ timestamp.xml
 s.timestamp="UNIX or ISO-8601 format timestamp"
 ```
 
-The *`timestamp`* variable must be in the format explained in the next section.
+*`timestamp`* 变量必须采用下节中介绍的格式。
 
 >[!IMPORTANT]
 >
->Your report suite must be timestamp-enabled by Customer Care before you can use the *`timestamp`* variable. After timestamp support is enabled, all hits sent to this report suite from JavaScript must have a timestamp manually set (using *`s.timestamp`*) or the hits will not be recorded.
+>您的报表包必须由客户关怀启用时间戳，然后才能使用 *`timestamp`* 变量。启用时间戳支持后，所有从 JavaScript 发送至此报表包的点击都必须手动设置时间戳（使用 *`s.timestamp`*），否则不会记录任何点击。
 >
->Additionally, if you enable timestamp support on a report suite to support offline tracking, all hits sent to this report suite from JavaScript must also have a timestamp manually set (using *`s.timestamp`*). 您无法将已设置时间戳和未设置时间戳的点击发送至同一报表包中。
+>此外，如果您在报表包上启用时间戳支持来支持离线跟踪，那么所有从 JavaScript 发送至此报表包的点击也都必须手动设置时间戳（使用 *`s.timestamp`*）。您无法将已设置时间戳和未设置时间戳的点击发送至同一报表包中。
 >
 >您也可以使用[可选时间戳](../../../implement/js-implementation/timestamps-overview.md#concept_1A7DF6F7BDA34467B51A6F61E08BB73F)设置，将加盖时间戳和未加盖时间戳的数据混合到同一个全局报表包中，将来自移动设备应用程序的加盖时间戳数据发送到全局报表包中，然后将应用程序升级为无需创建新报表包即可部署时间戳。
 
@@ -2056,9 +2022,9 @@ The *`timestamp`* variable must be in the format explained in the next section.
 
 * 必须提供日期和时间，中间由 "T" 隔开
 * 日期必须是一个全精确度的日历日期（年、月和日）。。不支持周日期和序数日期。
-* 日期可以是标准格式或扩展格式（`YYYY-MM-DD` 或 `YYYYMMDD`），但它们必须包含小时和分钟。秒是可选的( `HH:MM`、 `HH:MM:SS`、 `HHMM`或 `HHMMSS`)。 可传入小数格式的分和秒，但小数部分将被忽略。
+* 日期可以是标准格式或扩展格式（`YYYY-MM-DD` 或 `YYYYMMDD`），但它们必须包含小时和分钟。秒数是可选的变量（`HH:MM`、`HH:MM:SS`、`HHMM` 或 `HHMMSS`）。可传入小数格式的分和秒，但小数部分将被忽略。
 
-* An optional time zone can be specified in standard or extended format ( `±HH`, `±HH:MM`, `±HH`, `±HHMM`, or Z)
+* 可指定标准格式或扩展格式（`±HH`、`±HH:MM`、`±HH`、`±HHMM` 或 Z）的可选时区。
 
 仍然支持 UNIX 时间戳（自 1970 年 1 月 1 日以来经过的秒数）。
 
@@ -2106,7 +2072,7 @@ trackingServer.xml
 
  -->
 
-用于非安全页面。如果&#x200B;*`trackingServer`*&#x200B;已定义，则无任何数据发送至 2o7.net。If *`trackingServer`* is not defined (and dc is not defined), data goes to 112.2o7.net.
+用于非安全页面。如果&#x200B;*`trackingServer`*&#x200B;已定义，则无任何数据发送至 2o7.net。如果未定义 *`trackingServer`*（且未定义 dc），则数据将发送至 112.2o7.net。
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |---|---|---|---|
@@ -2140,21 +2106,21 @@ transactionID.xml
 
  -->
 
-Each unique *`transactionID`* sent to Adobe is recorded in preparation for a [!UICONTROL Data Sources] upload of offline information about that transaction. 请参阅[数据源](https://marketing.adobe.com/resources/help/en_US/sc/datasources/)。
+每个发送到 Adobe 的唯一 *`transactionID`* 均会被记录，以备该交易离线信息的[!UICONTROL 数据源]上载。请参阅[数据源](https://marketing.adobe.com/resources/help/en_US/sc/datasources/)。
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |---|---|---|---|
 | 100 字节 | xact | 不适用 | "" |
 
-**启用事务ID存储**{#section_3EA2C9DC9D4C4F0FBE4AB67981BCB52E}
+**启用交易 ID 存储** {#section_3EA2C9DC9D4C4F0FBE4AB67981BCB52E}
 
-Before *`transactionID`* values are recorded, [!UICONTROL Transaction ID Storage] must be enabled for the report suite selected in the Report Suite Manager. 此设置位于
+在记录 *`transactionID`* 值之前，必须为报表包管理器中选中的报表包启用[!UICONTROL 交易 ID 存储]。此设置位于
 
 ```
 Analytics > Admin > Report Suites > Edit Settings > General > General Account Settings.
 ```
 
-要查看是 *`transactionID Storage`* 否为报表包启用，请转到
+要查看是否为报表包启用了 *`transactionID Storage`*，请转到
 
 ```
 Analytics > Admin > Data Sources > Manage
@@ -2166,7 +2132,7 @@ Analytics > Admin > Data Sources > Manage
 s.transactionID="unique_id"
 ```
 
-The *`transactionID`* should contain only alphanumeric characters. 如果在一次点击中记录多个 [!UICONTROL transactionID]，可使用逗号分隔多个值。
+*`transactionID`* 只能包含字母数字字符。如果在一次点击中记录多个 [!UICONTROL transactionID]，可使用逗号分隔多个值。
 
 **示例** {#section_A4C1F0E54CB54AD7B86A22147E9B5FEF}
 
@@ -2184,15 +2150,13 @@ s.transactionID=s.purchaseID
 
 **缺陷、问题和提示** {#section_4299BAD5D0154DBC88A9EF0E2C252BB4}
 
-* 如果 *`transactionID`* 未启用录制，则值将 *`transactionID`* 被丢弃，并且不可用于集 [!UICONTROL 成数据源]。 Make sure to set a conversion variable or event (an eVar or the events variable) on the page where *`transactionID`* is set. 否则，将不会为 *`transactionID`*.
+* 如果未启用 *`transactionID`* 记录，则 *`transactionID`* 的值将会丢失，无法与[!UICONTROL 集成数据源]一起使用。确保在设置了 *`transactionID`* 的页面上设置转化变量或事件（eVar 或事件变量）。否则，将不会为 *`transactionID`*.
 
-* 如果您正在为多 [!UICONTROL 个系统(如购买和潜在客户] )记录transactionID，请确保中的值始终 *`transactionID`* 是唯一的。 可通过向 ID 添加前缀（例如 lead_1234 和 purchase_1234）来达到这一目的。[!UICONTROL 如果两次看到唯一数据] ，集成数据源将不能按预期方式工作( [!UICONTROL 数据源数据将绑定到错误]*`transactionID`* 数据)。
+* 如果您要记录多个系统（例如购买和商机）的 [!UICONTROL transactionIDs]，请确保 *`transactionID`* 中的值始终是唯一的。可通过向 ID 添加前缀（例如 lead_1234 和 purchase_1234）来达到这一目的。如果某个独特 *`transactionID`* 出现两次，则[!UICONTROL 集成数据源]不能按预期工作（[!UICONTROL 数据源]数据将绑定到错误的数据）。
 
-* 默认情况下， *`transactionID`* 值会记住90天。 如果离线互动过程的时间超过 90 天，请联系客户关怀延长该期限。
+* 默认情况下，*`transactionID`* 值将会保留 90 天。如果离线互动过程的时间超过 90 天，请联系客户关怀延长该期限。
 
->[!NOTE]
->
->The *`transactionID`* variable can contain any character other than a comma. 它应在指定字符限制（100 字节）的相同位置。如果使用多字节字符，则必须启用多字节字符支持，以避免 *`transactionID`*。
+> [!NOTE]*`transactionID`* 变量可以包含逗号以外的任何字符。它应在指定字符限制（100 字节）的相同位置。如果使用多字节字符，则必须启用多字节字符支持，以避免 *`transactionID`*。
 
 ## visitorID {#concept_CD273CC915CC4ABD8F52E4209FF9557E}
 
@@ -2204,7 +2168,7 @@ visitorID.xml
 
  -->
 
-The *`visitorID`* can be up to 100 alpha-numeric characters and must not contain a hyphen.
+*`visitorID`* 最长可包含 100 个字母数字字符，且不得包含连字符。
 
 如果您显式设置了一个自定义 ID，那么在出现其他 ID 方法之前将始终使用此 ID。
 
@@ -2220,9 +2184,7 @@ The *`visitorID`* can be up to 100 alpha-numeric characters and must not contain
 s.visitorID="visitor_id"
 ```
 
->[!NOTE]
->
->The *`visitorID`* variable should not contain a hyphen.
+> [!NOTE]*`visitorID`* 变量不应包含连字符。
 
 **示例** {#section_F7F07FEFAC3644A5A084D166ACE1315E}
 
@@ -2244,19 +2206,19 @@ visitorNamespace.xml
 
  -->
 
-If *`visitorNamespace`* is used in your JavaScript file, do not delete or alter it. If *`visitorNamespace`* changes, all visitors reported in Analytics may become new visitors. 访客历史记录将断开当前和将来流量连接。未经 Adobe 代表批准，请不要更改此变量。
+如果在 JavaScript 文件中使用 *`visitorNamespace`*，请不要将其删除或进行更改。如果更改 *`visitorNamespace`*，则所有在 Analytics 中报告的访客都可能会变成新访客。访客历史记录将断开当前和将来流量连接。未经 Adobe 代表批准，请不要更改此变量。
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |---|---|---|---|
 | 不适用 | ns | 不适用 | "" |
 
-Analytics 使用 Cookie 来唯一标识访问网站的访客。If *`visitorNamespace`* is not used, the cookie is associated 2o7.net. If *`visitorNamespace`* is used, the cookie is associated with a sub-domain of 2o7.net. 所有访问您网站的访客都应将其 Cookie 与同一域或同一子域关联。
+Analytics 使用 Cookie 来唯一标识访问网站的访客。如果未使用 *`visitorNamespace`*，则 Cookie 将与 2o7.net 关联。如果使用 *`visitorNamespace`*，则 Cookie 将与 2o7.net 的子域关联。所有访问您网站的访客都应将其 Cookie 与同一域或同一子域关联。
 
 之所以使用&#x200B;*`visitorNamespace`*&#x200B;变量，是为了避免超出浏览器的 Cookie 限制。Internet Explorer 中每个域限制为 20 个 Cookie。通过使用&#x200B;*`visitorNamespace`*&#x200B;变量，其他公司的 Analytics Cookie 将不会与访客的 Cookie 冲突。
 
 **语法和可能值** {#section_EE247FE371784CA4B6058182181F3EA1}
 
-The value of *`visitorNamespace`* must be provided by Adobe and is a string of ASCII characters that don't contain commas, periods, spaces, or special characters.
+*`visitorNamespace`* 的值必须由 Adobe 提供，并且为不包含逗号、句点、空格或特殊字符的 ASCII 字符串。
 
 ```js
 s.visitorNamespace="company_specific_value"
@@ -2264,7 +2226,7 @@ s.visitorNamespace="company_specific_value"
 
 **报表包中的访客识别** {#section_7AC5A97FC8C045DD8850245A62BB09F4}
 
-If you do not specify a `visitorNamespace`, each report suite in your company receives its own visitor ID cookie written as `s_vi_[random string]`. 如果您指定 `visitorNamespace`，那么所有向指定的 `s_vi` 发送数据的报表包都会使用相同的 `trackingServer` Cookie。如果您实施了多包标记，请确保您指定了访客命名空间，这样每个报表包就会使用相同的 Cookie。
+如果您没有指定 `visitorNamespace`，贵公司的每个报表包都会收到它自己的访客 ID Cookie，其编写格式为 `s_vi_[random string]`。如果您指定 `visitorNamespace`，那么所有向指定的 `s_vi` 发送数据的报表包都会使用相同的 `trackingServer` Cookie。如果您实施了多包标记，请确保您指定了访客命名空间，这样每个报表包就会使用相同的 Cookie。
 
 **示例** {#section_89A95852AB9446E794AD3283B8800B09}
 
@@ -2282,7 +2244,7 @@ s.visitorNamespace="Adobe"
 
 ## zip {#concept_C1DF93083553410DA36EAB61FBFDF69A}
 
-和变量是转换变量。
+zip 和 state 变量是转化变量。
 
 <!-- 
 
@@ -2290,13 +2252,13 @@ zip.xml
 
  -->
 
-这些变量与 eVar 一样均可捕获事件，但不同之处在于，这些变量不是永久性变量。The *`zip`* and *`state`* variables are like eVars that expire immediately.
+这些变量与 eVar 一样均可捕获事件，但不同之处在于，这些变量不是永久性变量。The *`zip`* 和 *`state`* 变量与 eVar 类似，都会立即过期。
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |---|---|---|---|
 | 50 字节 | zip | “转化”&gt;“访客资料”&gt;“邮政编码” | "" |
 
-由于 *`state`* and *`zip`* variables expire immediately, the only events associated with them are events fired on the same page that are populated. For example, if you are using *`zip`* to compare conversion rates by Zip Code, you should populate *`zip`* on every page of the checkout process. Adobe 推荐使用帐单地址作为邮政编码来源。您也可以选择使用发货地址（假设该订单只有一个发货地址）。媒体网站可选择使用 *`zip`* and *`state`* for registration or ad click-through tracking.
+Since the *`state`* and *`zip`* variables expire immediately, the only events associated with them are events fired on the same page that are populated. 例如，如果使用 *`zip`* 变量来根据邮政编码比较转化率，则需在结账流程每一页面填充 *`zip`* 变量。Adobe 推荐使用帐单地址作为邮政编码来源。您也可以选择使用发货地址（假设该订单只有一个发货地址）。媒体网站可选择使用 *`zip`* 和 *`state`* 进行注册或广告点进跟踪。
 
 **语法和可能值** {#section_5EDCFCAC8FC241D1B4CC777996858CD7}
 
@@ -2304,7 +2266,7 @@ zip.xml
 s.zip="zip_code"
 ```
 
-The *`zip`* variable does not impose any value or format restrictions. There are no limitations on *`zip`* outside of the standard variable limitations.
+*`zip`* 变量不限定任何值或格式限制。*`zip`* 除标准变量限制以外，无其它限制。
 
 **示例** {#section_F25C0D0CC3C04B81892A662CD605C593}
 
@@ -2323,5 +2285,5 @@ s.zip="92806-4115"
 **缺陷、问题和提示** {#section_E86774D5CE8B40EFA36353CDEE3A84D0}
 
 * 在每个触发相关事件的页面中填充 [!UICONTROL zip] 变量（例如，每个结帐流程页面）。
-* The *`zip`* and *`state`* variables act like eVars that expire on the Page View.
+* *`zip`* 和 *`state`* 变量的操作方式类似于“页面查看次数”上过期的 eVar。
 
