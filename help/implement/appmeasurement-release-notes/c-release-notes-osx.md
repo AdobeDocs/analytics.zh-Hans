@@ -7,8 +7,8 @@ subtopic: 发行说明
 title: Mac OS X
 topic: 开发人员和实施
 uuid: d5e46c86-2d00-4a18-8eee-dcaf082761af
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,11 +19,9 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 >
 >这些 SDK 已被弃用，Adobe 不再对其进行支持或分发。
 
->[!NOTE]
->
->要找到当前库版本，请打开调试记录。
+> [!NOTE]要找到当前库版本，请打开调试记录。
 
-可以在 [!DNL Developer Connection] 上[下载](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications)移动库。
+Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
 ## 版本 3.2.2 {#section_90CCB6A33C5041FA9CBAF6E8B7F3915F}
 
