@@ -1,18 +1,18 @@
 ---
 description: 您可以设置一个传送计划，以将报表自动发送到某个电子邮件地址或 FTP 服务器。
-keywords: ftp；sftp
+keywords: ftp;sftp
 seo-description: 您可以设置一个传送计划，以将报表自动发送到某个电子邮件地址或 FTP 服务器。
-seo-title: 临时分析提供的报告
+seo-title: Ad Hoc Analysis 传送的报表
 solution: Analytics
-title: 临时分析提供的报告
-uuid: 9a26fb77-9cec-40a3-b994-22692637992
+title: Ad Hoc Analysis 传送的报表
+uuid: 9a26fb77-9cec-40a3-b994-226692637902
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 临时分析提供的报告
+# Ad Hoc Analysis 传送的报表
 
 您可以设置一个传送计划，以将报表自动发送到某个电子邮件地址或 FTP 服务器。
 
