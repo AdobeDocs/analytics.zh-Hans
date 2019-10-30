@@ -8,7 +8,7 @@ title: 功能板管理器
 topic: Reports and Analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e78e4
 translation-type: tm+mt
-source-git-commit: cc87c5a7b193fe8a36ce7409a833cc0b91b8af60
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -73,15 +73,11 @@ Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICON
 
 现有的旧版功能板将继续运行，而且您仍然可以编辑、下载它们并为其制定计划，但是您不能再新建旧版功能板。强烈建议您将现有旧版功能板升级为较新的功能板格式。
 
->[!NOTE]
->
->Moving forward, consider using [Analysis Workspace projects](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) and their ability to be downloaded and scheduled.
+> [!NOTE] 展望未来，请考虑使 [用Analysis Workspace项目](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) ，以及下载和计划这些项目的能力。
 
 复制原有功能板时，系统将打开原有功能板以供您编辑，您可添加旧内容或新内容。当您复制原有功能板时，旧内容将保留在原有功能板列表中。
 
->[!NOTE]
->
->将旧版内容添加到功能板会根据最新的功能板功能创建功能板。 不过，旧缩图报表可能包含以前数据平台的数据。
+> [!NOTE] 将旧版内容添加到功能板会根据最新的功能板功能创建功能板。 不过，旧缩图报表可能包含以前数据平台的数据。
 
 **迁移版本 14.x 原有功能板**
 
@@ -115,9 +111,7 @@ Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICON
 
 ## 存档功能板
 
->[!NOTE]
->
->此功能在2020年1月将不再可用。
+> [!NOTE] 此功能在2020年1月将不再可用。
 
 描述如何将任何发送的功能板存档为 PDF 文件的步骤。系统会将存档文件保存两年，或直到您存档的报表达到了最大 4 GB 容量限制，以先到者为准。
 
