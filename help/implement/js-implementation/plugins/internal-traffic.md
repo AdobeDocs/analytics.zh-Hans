@@ -3,8 +3,8 @@ title: 内部流量
 description: “内部流量”插件可动态识别源自内部网络的访客。
 seo-description: “内部流量”插件
 seo-title: “内部流量”插件
-translation-type: ht
-source-git-commit: 8c2b28ee1ca2e9448b9dec99a0505d0fae525e94
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,10 +28,10 @@ source-git-commit: 8c2b28ee1ca2e9448b9dec99a0505d0fae525e94
 ## 实施
 
 1. 添加内联网像素：您可以在内联网上添加该插件将尝试访问的任何类型的文件。建议添加 1x1 透明像素。该文件应被放置在内联网上从内部网络广泛访问的某个位置。
-1. 配置 eVar：需要在目标报表包中添加 eVar。它应包含“访问”的过期时间和“原始值（第一个值）”的分配。
+1. 配置 eVar：需要在目标报表包中添加 eVar。“访问”和“原始值（第一个）”的分配应到期。
 1. 定义内部 URL：在 AppMeasurement 配置变量中，并且在实例化 doPlugins 之前，为可用于流量检查的像素或其他文件定义内部 URL 变量 (s.intURL)。例如：`s.intURL = "https://www.yourdomainhere.com/trafficCheck.gif"`
-1. 修改 doPlugins 并设置 eVar：随后，可以使用步骤 1 中定义的 eVar，通过在 AppMeasurement 库代码的 doPlugins 区域中包含以下代码行来初始化插件：`s.eVarXX = s.intCheck();`
-变量值将设置为“内部”或“外部”。
+1. Modify doPlugins and set the eVar: The plugin can then be initialized by including this line of code within the doPlugins section of your AppMeasurement library code, using the eVar defined in step one: `s.eVarXX = s.intCheck();`
+The variable value will be set to "internal" or "external".
 1. 添加插件源代码：将插件代码包含到 AppMeasurement 文件的 doPlugins 区域下方。
 
 ## 插件源代码
