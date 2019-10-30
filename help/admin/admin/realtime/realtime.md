@@ -7,7 +7,7 @@ title: 实时报表
 topic: 报告
 uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 实时显示 Web 页面流量和并对页面查看次数进行排名。提供制定业务决策所需的可操作数据。
 
->[!NOTE]
->
->实时报告无需额外实施或标记。 它可以充分利用您现有的 Adobe Analytics 实施。要配置实时报表，请参阅 [实时报表配置](/help/admin/admin/realtime/t-realtime-admin.md).
+> [!NOTE] 实时报告无需额外实施或标记。 它可以充分利用您现有的 Adobe Analytics 实施。要配置实时报表，请参阅 [实时报表配置](/help/admin/admin/realtime/t-realtime-admin.md).
 
 **[!UICONTROL 网站指标]** &gt; **[!UICONTROL 实时]**
 
