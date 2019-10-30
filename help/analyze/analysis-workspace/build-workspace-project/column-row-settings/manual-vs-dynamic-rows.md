@@ -1,16 +1,16 @@
 ---
 description: 如何与表中的静态行交互。
 seo-description: 如何与表中的静态行交互。
-seo-title: 静态与动态行
-title: 静态与动态行
-uuid: caf033ef-d252-4f8 a-802e-7edbbac5 c8 c0
+seo-title: 静态行与动态行
+title: 静态行与动态行
+uuid: caf033ef-d252-4f8a-802e-7edbbac5c8c0
 translation-type: tm+mt
-source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 静态与动态行
+# 静态行与动态行
 
 Analysis Workspace 表格会在您将维度拖入到表格中时生成“动态”行，这意味着给定量度中与该维度对应的所有项目都将提取到表格中。
 
@@ -27,12 +27,12 @@ Analysis Workspace 表格会在您将维度拖入到表格中时生成“动态�
 
    ![](assets/static_rows.png)
 
-此外，(仅限)处于静态行模式时，现在可以更改如何计算列总数。只需单击齿轮图标并在以下 2 个选项之间进行切换：
+此外，（仅）在静态行模式下，您现在可以更改计算列总数的方式。 只需单击齿轮图标并在以下 2 个选项之间进行切换：
 
 ![](assets/column-totals.png)
 
 | 选项 | 描述 |
 |---|---|
-| (默认)通过累加每个列中当前的值计算总计。 | 此选项仅计算表格中的当前行。（客户端计算） |
+| （默认）通过求和每列中当前的值来计算总计。 | 此选项仅计算表格中的当前行。（客户端计算） |
 | 根据每个量度的所有行计算总数。 | 此选项包括此维度的所有维度项目，甚至包括未列在表格中的维度项目。（服务器端计算） |
 
