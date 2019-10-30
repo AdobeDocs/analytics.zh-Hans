@@ -6,14 +6,14 @@ solution: Analytics
 title: Kampyle Data Connector for Adobe Analytics
 uuid: f7733c81-93f5-4c50-b83a-721a6fbd4e8e
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Kampyle Data Connector for Adobe Analytics{#kampyle-data-connector-for-adobe-analytics}
 
-Kampyle Data Connector for Adobe Analytics将Kampyle的集成反馈系统与Adobe Analytics®的行为报告结合在一起，为您的组织创建强大的分析和优化机会。
+Kampyle Data Connector for Adobe Analytics将Kampyle的集成反馈系统和Adobe Analytics®的行为报告结合在一起，为您的组织创建强大的分析和优化机会。
 
 在线营销人员日益认识到客户反馈在品牌构建和业务成果驱动方面的相关性。 Kampyle Data Connector for Adobe Analytics®将访客反馈指标和维度添加到Adobe Analytics中。 它允许您根据访客的态度和观点分析访客行为。 这有助于您根据反馈进行优化并提高转化率。
 
