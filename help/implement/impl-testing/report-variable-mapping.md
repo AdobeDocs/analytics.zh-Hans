@@ -2,22 +2,22 @@
 description: 下表显示报表到变量的映射或报表或映射中使用的报表和变量。
 keywords: Analytics 实施
 seo-description: 下表显示报表到变量的映射或报表或映射中使用的报表和变量。
-seo-title: 报告到变量映射
+seo-title: 报表到变量的映射
 solution: Analytics
-title: 报告到变量映射
+title: 报表到变量的映射
 topic: 开发人员和实施
-uuid: 4707660c-4be5-425c-a690-7bc6 df0 cc0 fa
-translation-type: tm+mt
+uuid: 4707660c-4be5-425c-a690-7bc6df4cc0fa
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 报告到变量映射
+# 报表到变量的映射
 
 下表显示报表到变量的映射或报表或映射中使用的报表和变量。
 
-**转换报表** 下表列出了用于填充每个报表的转化变量：
+**转化报表**&#x200B;下表列出了用于填充每个报表的转化变量：
 
 | 购买 |
 |---|
@@ -52,8 +52,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 |---|
 | 转化和平均值 | s.products, s.events, s.campaign |  |
 | 跟踪代码 | s.campaign |  |
-| 创作元素 | 不适用 | Defined in [!DNL Analytics] |
-| 促销活动 | 不适用 | Defined in [!DNL Analytics] |
+| 创作元素 | 不适用 | 在 [!DNL Analytics] 中定义 |
+| 促销活动 | 不适用 | 在 [!DNL Analytics] 中定义 |
 
 | 客户忠诚度 |
 |---|
@@ -117,7 +117,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 | 网站流量 |
 |---|
-| 页面查看 | 不适用 | 由 [!DNL Analytics] 中的业务规则计算 |
+| 页面查看次数 | 不适用 | 由 [!DNL Analytics] 中的业务规则计算 |
 | 每小时独特访客 | 不适用 | 由 [!DNL Analytics] 中的业务规则计算 |
 | 每日独特访客 | 不适用 | 由 [!DNL Analytics] 中的业务规则计算 |
 | 每月独特访客 | 不适用 | 由 [!DNL Analytics] 中的业务规则计算 |
@@ -172,9 +172,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | JavaScript 版本 | 不适用 | 由 .JS 文件自动设置 |
 | Cookie | 不适用 | 由 .JS 文件自动设置 |
 | 连接类型 | 不适用 | 由 .JS 文件自动设置 |
-| 区段 |
+| 区段划分 |
 
-| 区段 |
+| 区段划分 |
 |---|
 | 最受欢迎页面 | s.pageName |  |
 | 最受欢迎网站区域 | s.channel |  |
@@ -211,7 +211,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 |---|
 | 登录页面 | s.pageName（或其他路径变量） | 此外还取决于内部业务规则 |
 | 退出页面 | s.pageName（或其他路径变量） | 此外还取决于内部业务规则 |
-| 退出链接 | s.pageName（或其他路径变量） | 此外还取决于内部业务规则 |
+| 退出链接  | s.pageName（或其他路径变量） | 此外还取决于内部业务规则 |
 
 | 完整路径 |
 |---|
@@ -223,8 +223,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 | 高级分析 |
 |---|
-| 上一页 | s.pageName（或其他路径变量） | 此外还取决于内部业务规则 |
-| 下一页 | s.pageName（或其他路径变量） | 此外还取决于内部业务规则 |
+| 上一页面 | s.pageName（或其他路径变量） | 此外还取决于内部业务规则 |
+| 下一页面 | s.pageName（或其他路径变量） | 此外还取决于内部业务规则 |
 | 上一页面流量 | s.pageName（或其他路径变量） | 此外还取决于内部业务规则 |
 | 下一页面流量 | s.pageName（或其他路径变量） | 此外还取决于内部业务规则 |
 | PathFinder | s.pageName（或其他路径变量） | 此外还取决于内部业务规则 |
