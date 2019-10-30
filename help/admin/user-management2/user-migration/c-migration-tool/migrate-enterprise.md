@@ -5,7 +5,7 @@ seo-title: 为 Enterprise ID 和 Federated ID 迁移 Analytics 用户帐户
 title: 为 Enterprise ID 和 Federated ID 迁移 Analytics 用户帐户
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: 3276298eed17827c92162dd09856bed3f22de468
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -62,11 +62,9 @@ source-git-commit: 3276298eed17827c92162dd09856bed3f22de468
 
       准备将、和 *`Email`*&#x200B;值复制 *`First Name`*&#x200B;到文 *`Last Name`* 件(在下一步 [!DNL sample.csv] 中介绍)。
 
-      >[!IMPORTANT]
-      >
-      >CSV文件中的值必须以逗号分隔。
+      > [!IMPORTANT] CSV文件中的值必须以逗号分隔。
 
-      **提示**：在此步骤中，Adobe 建议简化用户列表，以确保 Enterprise ID 或 Federated ID 迁移中只包含拥有有效电子邮件 ID 的用户。
+      > [!TIP] 在此步骤中，Adobe建议简化用户列表，以确保只有那些具有有效电子邮件ID的用户才会包含在Enterprise ID或Federated ID迁移中。
 
 1. 在 Admin Console 中，下载 Admin Console 用户列表：
 
@@ -76,9 +74,7 @@ source-git-commit: 3276298eed17827c92162dd09856bed3f22de468
 
    1. Compare the two files: the existing Admin Console users in the exported [!DNL .csv] file ( [!DNL sample.csv], in this example) with the users in the Analytics [!DNL User Logins List.csv] file.
 
-      >[!IMPORTANT]
-      >
-      >If you find duplicates, delete them from the Analytics [!DNL User Logins List.csv] file. 此步骤可帮助避免覆盖 Admin Console 中的现有 Experience Cloud 用户权限，并且可为您提供要迁移的帐户列表。
+      > [!IMPORTANT] 如果您发现重复项，请从Analytics文件中删除 [!DNL User Logins List.csv] 它们。 此步骤可帮助避免覆盖 Admin Console 中的现有 Experience Cloud 用户权限，并且可为您提供要迁移的帐户列表。
 
 1. 从 Admin Console 中下载 CSV 模板：
    1. On the Users tab, click **[!UICONTROL Add users by CSV]**, then **[!UICONTROL Download CSV Template]**.
@@ -136,9 +132,7 @@ source-git-commit: 3276298eed17827c92162dd09856bed3f22de468
 
 For more information about the fields in the [!DNL .csv] file, see [CSV file format](https://helpx.adobe.com/enterprise/using/users.html).
 
->[!NOTE]
->
->其他列，如 *`Product Configurations`* 和 *`Admin Roles`* 可为空。
+> [!NOTE] 其他列，如 *`Product Configurations`* 和 *`Admin Roles`* 可为空。
 
 1. On the Users tab in the Admin Console, upload the template file by clicking **[!UICONTROL Add users by CSV]** (as shown in Step 3.).
 1. 在Analytics中，运行迁移工具(如迁移 [Analytics用户帐户中所述](/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md))。
