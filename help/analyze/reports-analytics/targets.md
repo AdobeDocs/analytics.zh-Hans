@@ -4,10 +4,10 @@ seo-description: 利用目标可以评测网站的绩效，跟踪目标进度。
 seo-title: 目标
 solution: Analytics
 title: 目标
-topic: Reports & Analytics
-uuid: bfe29dc8-8da 8-41078-bb1-4a7494 f12 bc9
+topic: Reports and Analytics
+uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## 目标字段描述 {#section_44DFFB4A7AC54D65BC2345411686B2AD}
 
-**[!UICONTROL “分析]** ”&gt; **[!UICONTROL “组件]** ”&gt; **[!UICONTROL “目标]**”。
+**[!UICONTROL Analytics]** &gt;组 **[!UICONTROL 件]** &gt;目 **[!UICONTROL 标]**。
 
 “[!UICONTROL 添加/编辑目标]”页上的字段和选项描述。
 
@@ -78,11 +78,11 @@ t_add_a_target.xml
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
 1. On the [!UICONTROL Target Manager] page, click **[!UICONTROL Add New]**.
 1. 配置[目标字段描述](../../analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)中所述的选项。
-1. Click **[!UICONTROL OK]**.
+1. 单击&#x200B;**[!UICONTROL 确定]**。
 
 ## 编辑目标 {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
 1.  在&#x200B;**管理**&#x200B;列，点击&#x200B;**[!UICONTROL 编辑]图标。**
 1. 配置[目标字段描述](../../analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)中所述的选项。
-1. Click **[!UICONTROL OK]**.
+1. 单击&#x200B;**[!UICONTROL 确定]**。
