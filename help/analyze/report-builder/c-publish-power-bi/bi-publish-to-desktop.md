@@ -1,16 +1,16 @@
 ---
 description: 介绍如何将 Report Builder 发布的资产提取到 Power BI Desktop
 seo-description: 介绍如何将 Report Builder 发布的资产提取到 Power BI Desktop
-seo-title: 将已发布的资源拖入Power BI Desktop
-title: 将已发布的资源拖入Power BI Desktop
-uuid: ef47d5c7-31e0-44fc-a792-bc9 d12 bb089 e
+seo-title: 将已发布的资产提取到 Power BI Desktop
+title: 将已发布的资产提取到 Power BI Desktop
+uuid: ef47d5c7-31e0-44fc-a792-bc9d12bb089e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 将已发布的资源拖入Power BI Desktop
+# 将已发布的资产提取到 Power BI Desktop
 
 介绍如何将 Report Builder 发布的资产提取到 Power BI Desktop
 
@@ -27,7 +27,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 1. Enable **[!UICONTROL Power BI Service Live Connection]** and click **[!UICONTROL OK]**. ![](assets/bi-preview-features.png)
 
 1. 重新启动 Power BI Desktop。
-1. Once you have restarted the desktop, go to **[!UICONTROL Home]** &gt; **[!UICONTROL Get Data]** &gt; **[!UICONTROL More...]**.
+1. **[!UICONTROL 重新启动桌面后，请转至“主页”]**&gt;“获&#x200B;**[!UICONTROL 取数据]**”**[!UICONTROL &gt;“]**&#x200B;更多……”.
 1. Search for and select **[!UICONTROL Power BI service]**.
 1. Under **[!UICONTROL Microsoft Power BI service]** &gt; **[!UICONTROL My Workspace]**, select the dataset that you had previously published from Report Builder.
 
