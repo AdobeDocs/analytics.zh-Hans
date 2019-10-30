@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 插件
 title: getPreviousValue
 topic: 开发人员和实施
-uuid: 20da7b4a-9820-4690-a1 cc-d10 b6 dd627 a7
-translation-type: tm+mt
+uuid: 20da7b4a-9820-4690-a1cc-d10b6dd627a7
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!NOTE]
 >
->以下说明要求您更改站点上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
+>下面的说明需要您更改网站上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
 
 ## 插件代码和实施 {#section_92E94A96A4764113B5588F1B83E3DE2C}
 
@@ -28,15 +28,15 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 **插件配置**
 
-将以下代码置于 *`s_doPlugins()`* 函数，它位于标签为 *`s_code.js`**Plugin Config*&#x200B;的文件区域。选取一个自定义流量 (s.prop) 变量或一个自定义转化 (s.eVar) 变量，以便用于捕获保留值数据。这应该是一个已经通过“管理控制台”启用的变量，且当前未做其他任何使用。您可以使用以下示例并根据需要对它进行更新。
+将以下代码置于  *`s_doPlugins()`* 函数中，该函数位于 *`s_code.js`* 文件中标记为&#x200B;*插件配置*&#x200B;的区域。选取一个自定义流量 (s.prop) 变量或一个自定义转化 (s.eVar) 变量，以便用于捕获保留值数据。这应该是一个已经通过“管理控制台”启用的变量，且当前未做其他任何使用。您可以使用以下示例并根据需要对它进行更新。
 
 `s.prop1=s.getPreviousValue(s.pageName,'gpv_pn','event1');`
 
 *`s.getPreviousValue`*&#x200B;具有三个参数：
 
-1. The variable to be captured from the previous page ( *`s.pageName`* above).
-1. The cookie name for use in storing the value for retrieval ( *`gpv_pn`* above).
-1. The events that must be set on the page view in order to trigger the retrieval of the previous value ( *`event1`* above). 将其保留为空或忽略时，该插件将捕获所有页面查看的上一个值。
+1. 要从上一页面捕获的变量（上述 *`s.pageName`*）。
+1. 用于存储检索值的 Cookie 名称（上述 *`gpv_pn`*）。
+1. 为触发对上一个值的检索而必须设置的页面查看事件（上述 *`event1`*）。将其保留为空或忽略时，该插件将捕获所有页面查看的上一个值。
 
 **插件区域**：添加以下代码到 [!DNL s_code.js] 文件中标记为“PLUGINS SECTION”的区域。请勿对此部分的插件代码进行任何更改。
 
@@ -64,7 +64,7 @@ s.split=new Function("l","d",""
 * 在生产环境中进行部署之前，请务必对插件安装进行广泛地测试，以确保可按预期进行数据收集。
 * 如果任意给定页面上的所选变量没有任何值，则将在 Cookie 中设置 *no value*（没有值）文本。
 * 现在每个 Cookie 都被设置为固定 30 分钟过期，并会在每次加载页面时刷新。此插件在访问未过期之前有效。
-* 由于函数必须放在代码的插件部分进行调用，因此每次调用&#x200B;*`s.t()`* 或被 *`s.tl()`* 调用。
+* 由于函数必须放在代码的插件部分进行调用，因此每次调用&#x200B;*`s.t()`* 或 *`s.tl()`* 时该代码都会运行。
 
-* 必须在调用 *`s.getPreviousValue`*. Because the *`s_doPlugins()`* function is executed after the variables on the page are populated, this issue rarely occurs. It should only be a matter of concern if the variable used with this plug-in is populated within the *`s_doPlugins()`* function and after the call to *`s.getPreviousValue`*.
+* 应在调用 *`s.getPreviousValue`* 之前，为所选变量填充一个值。由于 *`s_doPlugins()`* 函数是在页面上的变量填充之后执行，因此，这一问题很少出现。仅当用于此插件的变量填充在 *`s_doPlugins()`* 函数中，而且在 *`s.getPreviousValue`* 调用之后时，此问题才需要关注。
 
