@@ -2,23 +2,23 @@
 description: 地域划分数据根据访问的首次点击进行记录，并且无论使用的是什么设备，单次访问的地域划分数据都不会更改。
 keywords: Analytics 实施
 seo-description: 地域划分数据根据访问的首次点击进行记录，并且无论使用的是什么设备，单次访问的地域划分数据都不会更改。
-seo-title: 地理分段数据
+seo-title: 地域划分数据
 solution: Analytics
-title: 地理分段数据
+title: 地域划分数据
 topic: 开发人员和实施
-uuid: 8449bf11-c367-4698-a73 e-f6 cb59 f8 c945
-translation-type: tm+mt
+uuid: 8449bf11-c367-4698-a73e-f6cb59f8c945
+translation-type: ht
 source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 ---
 
 
-# 地理分段数据
+# 地域划分数据
 
 >[!IMPORTANT]
 >
->不再建议跨设备识别访客的方法。Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+>不再建议使用这种方法来识别跨设备访客。请参阅 [Adobe Experience Cloud 设备协作文档](https://marketing.adobe.com/resources/help/zh_CN/mcdc/)。
 
 地域划分数据根据访问的首次点击进行记录，并且无论使用的是什么设备，单次访问的地域划分数据都不会更改。
 
-如果客户从其家庭计算机中浏览您的网站，然后在 30 分钟内又从移动设备访问您的网站，则地域划分数据不会发生更改。如果您使用VISTA填充具有地理分段数据的eVar，则它基于每个点击中的IP地址。如果同一访问的IP地址发生变化，则会导致多个地理分段数据值。
+如果客户从其家庭计算机中浏览您的网站，然后在 30 分钟内又从移动设备访问您的网站，则地域划分数据不会发生更改。如果通过 VISTA 使用地域划分数据填充 eVar，则该数据将基于每次点击的 IP 地址。如果同一次访问的 IP 地址发生更改，则可能会产生多个地域划分数据值。
