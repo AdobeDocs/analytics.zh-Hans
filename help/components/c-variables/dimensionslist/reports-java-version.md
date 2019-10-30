@@ -4,10 +4,10 @@ seo-description: 按移动设备支持的 Java 版本对移动设备进行分组
 seo-title: JavaScript 版本
 solution: Analytics
 title: JavaScript 版本
-topic: 报表
-uuid: 797ec651-e259-42c 3-8008-a1 ad43621 a3
+topic: 报告
+uuid: 797ec651-e259-42c3-8008-8a1ad43621a3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
