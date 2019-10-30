@@ -2,18 +2,18 @@
 description: 路径分析可定义为用户访问网站的路径。
 keywords: Analytics 实施
 seo-description: 路径分析可定义为用户访问网站的路径。
-seo-title: 路径概述
+seo-title: 路径分析概述
 solution: Analytics
-title: 路径概述
+title: 路径分析概述
 topic: 开发人员和实施
-uuid: 18acfd9f-4e5f-4c2d-8be-743be135e7d6
-translation-type: tm+mt
+uuid: 18acfd9f-4e5f-4c2d-8be8-743be135e7d6
+translation-type: ht
 source-git-commit: 49c81e50ff10060ef7a3debe82132d1099e25118
 
 ---
 
 
-# 路径概述
+# 路径分析概述
 
 路径分析可定义为用户访问网站的路径。
 
@@ -23,6 +23,6 @@ source-git-commit: 49c81e50ff10060ef7a3debe82132d1099e25118
 
 >[!NOTE]
 >
->To enable pathing, go to **[!UICONTROL Admin &gt; Report Suites &gt; Edit Settings &gt; Traffic &gt; Traffic Variables]**. 要在网站区域和服务器报表中启用路径分析，请联系客户关怀团队。
+>要启用路径分析，请转到&#x200B;**[!UICONTROL 管理员 &gt; 报表包 &gt; 编辑设置 &gt; 流量 &gt; 流量变量]**。要在网站区域和服务器报表中启用路径分析，请联系客户关怀团队。
 
-Explore more powerful pathing (flow) options in [Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md).
+浏览 [Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) 中更强大的路径分析（流程）选项。
