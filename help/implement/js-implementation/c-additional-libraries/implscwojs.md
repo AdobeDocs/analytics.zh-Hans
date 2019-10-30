@@ -7,8 +7,8 @@ solution: Analytics
 title: 使用 HTML 图像标记实施 Analytics
 topic: 开发人员和实施
 uuid: 0c098a57-7c71-4362-812c-36e37848a5ae
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -46,7 +46,5 @@ JavaScript 可以检测不适用于服务器的浏览器设置，如浏览器窗
 * 对于包含购买在内的跟踪转化事件，准确性相当重要。
 * 此策略还可用于完全填充 <noscript> 标记中的图像请求，以跟踪未使用 JavaScript 或禁用 JavaScript 的用户。
 
->[!NOTE]
->
->使用服务器生成的图像标记需要额外的实施时间，而且调试、部署和维护的难度较高。Adobe 强烈鼓励客户尽可能在每个页面上使用基于 JavaScript 的数据收集。使用此实施方法无法收集或不支持各种报表和功能，其中包括访客点击图、下载链接、退出链接和基于浏览器的变量（浏览器宽度/高度等）。
+> [!NOTE]使用服务器生成的图像标记需要额外的实施时间，而且调试、部署和维护的难度较高。Adobe 强烈鼓励客户尽可能在每个页面上使用基于 JavaScript 的数据收集。使用此实施方法无法收集或不支持各种报表和功能，其中包括访客点击图、下载链接、退出链接和基于浏览器的变量（浏览器宽度/高度等）。
 
