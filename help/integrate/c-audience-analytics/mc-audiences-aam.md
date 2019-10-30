@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Audience Analytics 概述
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,11 +33,11 @@ Audience Analytics 集成功能具有以下主要优点：
 
 1. 每当访客访问您的数字属性时，都会收集点击量并将其发送给 Analytics。
 1. 通过[服务器端转发](/help/admin/admin/c-server-side-forwarding/ssf.md)，Analytics 收到的每次点击都会实时地自动发送给 AAM。
-1. 通过 Audience Analytics 集成，对于每次点击，均会在 AAM 中查找访客的受众成员资格，并将区段 ID 列表返回到 Analytics 以便进行实时处理。
+1. 通过Audience Analytics集成，对于每个点击，将在AAM中查找访客的受众成员资格，并将区段ID列表返回Analytics进行实时处理。
 
 由于 AAM 区段是基于相同点击而插入的，您可以确保无论 AAM 中有哪些关于访客的数据，该数据都不会丢失并针对该点击保持最新状态。由于插件只能在下一次点击（而不是当前点击）时提供这些区段，因此这种方式要优于 AppMeasurement 插件。
 
-此外，我们会自动将 AAM 区段 ID 划分到其易记名称，因此您不必在 Analytics 报表中查看字母数字 ID。
+此外，我们会自动将AAM区段ID分类为您的易记名称，这样您就不必在Analytics报告中查看字母数字ID。
 
 ## 先决条件 {#section_A345DC31F7D44EAE9DC1AB53E824C0CC}
 
