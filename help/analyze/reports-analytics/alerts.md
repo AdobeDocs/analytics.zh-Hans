@@ -5,10 +5,10 @@ seo-title: 警报
 solution: Analytics
 subtopic: 警报
 title: 警报
-topic: Reports & Analytics
-uuid: e1333a9b-eba0-45b7-b7 e6-46e06190 db64
+topic: Reports and Analytics
+uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,14 +17,14 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## 警报 {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
-作为Adobe Analytics的全新警报系统，智能提醒可让您创建和管理警报，并配以警报预览和规则贡献。您可以
+智能警报是所有Adobe Analytics的新警报系统，可让您创建和管理警报，并提供警报预览和规则贡献。 您可以
 
 * 构建基于异常的警报（90%、95% 或 99% 阈值；% 更改；以上/以下）。
 * 预览警报触发的频率。
 * 通过含链接的电子邮件或短信将警报发送到自动生成的 Analysis Workspace 项目。
 * 创建可在一个警报中捕获了多个量度的“堆栈式”警报。
 
-You can access this new Alerts system from **[!UICONTROL More]** &gt; **[!UICONTROL Alerts]** in any report in Reports &amp; Analytics.
+您可以通过 Reports &amp; Analytics 的任何报表中的&#x200B;**[!UICONTROL 更多]** &gt; **[!UICONTROL 警报]**，访问此新的警报系统。
 
 有关更多信息，请转到 Analysis Workspace 文档中的[智能警报](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html)。
 
@@ -38,7 +38,7 @@ t_add_an_alert.xml
 
  -->
 
-Navigate to the new Alert Builder in the **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** menu. 但是，您仍然可以从 Reports &amp; Analytics 的报表内访问它：
+导航到“分析”&gt;“组件”菜单中 **[!UICONTROL 的新]** “警报 **[!UICONTROL 生成器]** ”。 但是，您仍然可以从 Reports &amp; Analytics 的报表内访问它：
 
 1. 在 Reports &amp; Analytics 中，打开要在其中设置警报的报表。
 1. Click **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
@@ -80,7 +80,7 @@ deprecated_alerts.xml
    <td colname="col3"> <p>在新的警报管理器中不再可用。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>基于时间的独特访客警报（每日、每周、每月等独特访客） </p> <p> </p> </td> 
+   <td colname="col1"> <p>基于时间的独特访客警报（每日、每周、每月等独特访客) </p> <p> </p> </td> 
    <td colname="col2"> <p>为每小时、每日、每周和每月独特访客报表创建警报。 </p> </td> 
    <td colname="col3"> <p>在新的警报管理器中，某些基于时间的独特访客警报不再受支持。例如，如果您之前能够为每日独特访客设置每周警报，您以后将能够继续在独特访客量度中设置每日、每周等警报。（Analysis Workspace 支持独特访客量度，但不支持每日/每周/每月/等独特访客量度。） </p> <p> </p> </td> 
   </tr> 
