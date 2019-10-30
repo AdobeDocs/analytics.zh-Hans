@@ -1,16 +1,16 @@
 ---
 description: 计算量度生成器允许您将统计和数学函数应用于生成高级计算量度。
 seo-description: 计算量度生成器允许您将统计和数学函数应用于生成高级计算量度。
-seo-title: 参考基本函数
-title: 参考基本函数
-uuid: 5c2b4a0e-613c-4b27-95b8-01d480aab78
+seo-title: 参考基本功能
+title: 参考基本功能
+uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
 translation-type: tm+mt
-source-git-commit: a4ccd3503d9d8e5e5367bb1ebd149262c5cb925a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 参考：基本函数
+# 引用：基本函数
 
 <!-- 
 
@@ -22,9 +22,7 @@ cm_functions.xml
 
 这里有一个按字母顺序排列的函数及其定义列表。
 
->[!NOTE]
->
->Where [!DNL metric] is identified as an argument in a function, other expressions of metrics are also allowed. For example, [!DNL MAXV(metrics)] also allows for [!DNL MAXV(PageViews + Visits).]
+> [!NOTE] 当在 [!DNL metric] 函数中标识为参数时，也允许使用其他度量表达式。 For example, [!DNL MAXV(metrics)] also allows for [!DNL MAXV(PageViews + Visits).]
 
 ## table 函数与 row 函数 {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -107,7 +105,7 @@ EXP(metric)
 幂运算符
 
 <pre>
-pow(x,y) = x<sup>y</sup> = x*x*x*… (y times)
+pow(x,y)=<sup>xy</sup> = x*x*x*...（y次）
 </pre>
 
 ## 平均值 (Table) {#concept_F4FF950580304D0B99DA7FBB5DB8730A}
@@ -160,7 +158,7 @@ modulo(modulo(x,y)+y,y)
 
 ## 百分位数 (Table) {#concept_51DF57B606D14F898E5010DBA61CA979}
 
-返回某量度的 k-th 百分位数形式的值。您可以使用此函数确立一个接受阈值。例如，您可以决定检查得分高于90%的维度元素。
+返回某量度的 k-th 百分位数形式的值。您可以使用此函数确立一个接受阈值。例如，您可以决定检查得分高于90百分点的维元素。
 
 ```
 PERCENTILE(metric,k)
@@ -237,7 +235,7 @@ round( 314.15, -2) = 300
 
 ## 行计数 {#concept_0DBF5995881C47CF95F793125F3A0E2B}
 
-返回给定列的行计数（一个维度中报告的独特元素计数）。将“超出的独特数”计为 1。
+返回给定列的行数（在维中报告的唯一元素数）。“超出的唯一值”计为1。
 
 ## 行最大值 {#concept_984D045D7EDD4A1ABED454CDF2EC23C5}
 
@@ -312,9 +310,9 @@ VARIANCE(metric)
 
 1. 从数字中减去平均值。
 
-2. 获得结果。
+2. 将结果平方。
 
-3. 将其添加到总计。
+3. 将其加到总数中。
 
 对整列进行迭代后，您将得到一个总数。然后，将该总数除以列中的项目数。得出的数值就是列变量。它是单个数字。但它会显示为一列数字。
 
@@ -326,7 +324,7 @@ VARIANCE(metric)
 
 3
 
-此列的平均值为 2。列的方差将为((-2)²+(2-2)²+(-2)²/=2/3。在 Ad Hoc Analysis 中，它将显示如下：
+此列的平均值为 2。该列的方差为(1-2)² +(2-2)² +(3-2)²/3 = 2/3。 在 Ad Hoc Analysis 中，它将显示如下：
 
 1 2/3
 
