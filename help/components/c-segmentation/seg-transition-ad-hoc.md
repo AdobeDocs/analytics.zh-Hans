@@ -1,14 +1,14 @@
 ---
 description: 如果您习惯于在 Ad Hoc Analysis 中使用区段生成器，那么此常见问题解答解释了现有区段和文件夹的情况以及需要采取哪些操作。
-keywords: 细分；segments
+keywords: 分段；段
 seo-description: 如果您习惯于在 Ad Hoc Analysis 中使用区段生成器，那么此常见问题解答解释了现有区段和文件夹的情况以及需要采取哪些操作。
 seo-title: 适用于 Ad Hoc Analysis 的过渡指南
 solution: Analytics
 title: 适用于 Ad Hoc Analysis 的过渡指南
 topic: 区段
-uuid: d409d71a-f8 d9-42a2-add2-37d426 cd40 d1
+uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -94,7 +94,7 @@ Ad Hoc Analysis 仅显示由您生成的区段或明确与您共享的区段。�
    <td colname="col2">在 Adobe Analytics 中，这些 Ad Hoc Analysis 区段显示为常规区段。 <p>请不要将这些区段与区段管理器中可用于将区段标记为收藏的“收藏夹”功能混淆。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1">临时分析中预配置的区段： 
+   <td colname="col1">临时分析中的预配置区段： 
     <ul id="ul_BBF3C3F4D41A40AF98DA9DA6D299AD03"> 
      <li id="li_B65A004BDF8743FDABCD3332AEB8A010">单页面访问量 </li> 
      <li id="li_908CF5F964154C9D9EBBAC2A900DCB49">来自移动设备的访问量 </li> 
