@@ -1,12 +1,12 @@
 ---
 description: 当在 Adobe Analytics 中手动部署动态标签管理时插入 AppMeasurement 代码。
-keywords: 动态标签管理；链接帐户；链接帐户；编辑代码；appmeasurement;appmeasurement代码
+keywords: Dynamic Tag Management;已关联的帐户;关联帐户;编辑代码;Appmeasurement;Appmeasurement 代码
 seo-description: 当在 Adobe Analytics 中手动部署动态标签管理时插入 AppMeasurement 代码。
 seo-title: 插入核心 AppMeasurement 代码
-solution: Experience Cloud，分析，目标，动态标签管理
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 插入核心 AppMeasurement 代码
 uuid: 3f83fbb1-3ed5-4e45-888a-0a183aac1a90
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -16,16 +16,16 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 当在 Adobe Analytics 中手动部署动态标签管理时插入 AppMeasurement 代码。
 
-1. On the [!DNL Adobe Analytics] tool page, expand the **[!UICONTROL General]** section, then click **[!UICONTROL Open Editor]**.
-1. Unzip the [!DNL AppMeasurement_JavaScript*.zip] file you downloaded in [deploy Adobe Analytics](../../../implement/c-implement-with-dtm/t-analytics-deploy.md#task_3A00639CADF14C9C844F962222077E4E).
+1. 在 [!DNL Adobe Analytics] 工具页面中，展开&#x200B;**[!UICONTROL 常规]**&#x200B;部分，然后单击&#x200B;**[!UICONTROL 打开编辑器]**。
+1. 解压缩在[部署 Adobe Analytics](../../../implement/c-implement-with-dtm/t-analytics-deploy.md#task_3A00639CADF14C9C844F962222077E4E) 时下载的 [!DNL AppMeasurement_JavaScript*.zip] 文件。
 
    如果您选择自定义库，则在打开此窗口时，该库的代码版本已经是最新的。无需从管理控制台下载 zip 文件。
-1. Open [!DNL AppMeasurement.js] in a text editor.
-1. Copy and paste the contents into the **[!UICONTROL Edit Code]** window.
+1. 在文本编辑器中打开 [!DNL AppMeasurement.js]。
+1. 将相关内容复制并粘贴到&#x200B;**[!UICONTROL 编辑代码]**&#x200B;窗口中。
 
    ![](assets/edit-code.png)
 
-1. Adobe recommends adding the following code above the *`Do Not Alter Anything Below This Line`*:
+1. Adobe 建议在 *`Do Not Alter Anything Below This Line`* 上方添加以下代码：
 
    ```
    var s_account="INSERT-RSID-HERE"
@@ -34,9 +34,9 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
    >[!IMPORTANT]
    >
-   >If you add this code, it is recommended that you also select the **[!UICONTROL Set report suites using custom code below]** checkbox in the overall library settings.
+   >如果添加此代码，建议您同时选中整体库设置中的&#x200B;**[!UICONTROL 使用下面的自定义代码设置报表包]**&#x200B;复选框。
 
-1. Click **[!UICONTROL Save and Close]**.
+1. 单击&#x200B;**[!UICONTROL 保存并关闭]**。
 
    如果您使用媒体模块、集成模块或实施插件，则也可以将它们复制到代码部分。动态标签管理中的受管代码可以完全按照典型实施中的 JavaScript 文件那样进行配置。
 
