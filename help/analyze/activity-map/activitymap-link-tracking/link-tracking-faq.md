@@ -48,11 +48,11 @@ Here are some known cases where PII data might be collected using [!DNL Activity
    <td colname="col1"> <b>问：[!DNL活动图]如何跟踪其他可视HTML元素？</b> </td> 
    <td colname="col2"> 
     <ol id="ol_DA3AED165CFF44B08DFB386D4DEE26C5"> 
-     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>通过函 <code> s.tl() </code> 数</b> <p>如果通过s.tl调用进行了单击，则[!DNL Activity Map]还会收到此单击事件，并确定是否找到linkName字符串变量。 在s.tl执行过程中，该linkName将设置为[!DNL Activity Map]链接ID。 发起 s.tl() 调用的被单击元素将用于确定区域。示例： </p> <p> 
+     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>通过函 <code> s.tl() </code> 数</b> <p>如果通过s.tl调用进行了单击，则[!DNL Activity Map]还会收到此单击事件，并确定是否找到linkName字符串变量。 在s.tl执行过程中，该linkName将设置为[!DNL Activity Map]链接ID。 发起 s.tl() 调用的被单击元素将用于确定区域。示例: </p> <p> 
        <code>
          &lt;img&amp;nbsp;onclick="s.tl(true,'o','abc')"&amp;nbsp;src="someimageurl.png"/&gt; 
        </code> </p> </li> 
-     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>通过变 <code> s_objectID </code> 量</b> <p>示例： </p> <p> 
+     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>通过变 <code> s_objectID </code> 量</b> <p>示例: </p> <p> 
        <code>
          &lt;img&nbsp;onclick="s_objectID='abc';"&nbsp;src="someimageurl.png"/&gt; &lt;a&nbsp;href="some-url.html"&nbsp;onclick="s_objectID='abc';"&nbsp;&gt;Link&nbsp;Text&nbsp;Here&lt;/a&gt;
        </code> </p> <p>重要说明： 请注意，在[!DNL Activity Map]中使用s_objectID时，需要尾部分号(;)。 </p> </li> 
