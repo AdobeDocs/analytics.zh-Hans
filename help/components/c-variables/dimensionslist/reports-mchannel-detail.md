@@ -7,7 +7,7 @@ title: 营销渠道详细信息 - 首次联系和最近联系
 topic: 报告
 uuid: 669152df-90b3-4a39-b8c0-aea0f5dd8323
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -42,7 +42,5 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
    * 访问和访客：其可用性取决于组织和报表包。请联系您的客户经理以了解详细信息。
    请参阅[!UICONTROL 营销渠道]帮助中的[量度](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_metrics.html)。
 
->[!NOTE]
->
->[!UICONTROL 营销渠道] 13.5版中不提供营销渠道报告。
+> [!NOTE] 营 [!UICONTROL 销渠道] 13.5版中不提供报告。
 
