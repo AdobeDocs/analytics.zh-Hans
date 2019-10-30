@@ -2,18 +2,18 @@
 description: 帮助您回答以下问题“用户点击某一促销活动进入我的网站后，都浏览了哪些位置？”
 keywords: Analytics 实施
 seo-description: 帮助您回答以下问题“用户点击某一促销活动进入我的网站后，都浏览了哪些位置？”
-seo-title: 营销活动或跟踪代码的路径
+seo-title: 按促销活动或跟踪代码进行路径分析
 solution: Analytics
-title: 营销活动或跟踪代码的路径
+title: 按促销活动或跟踪代码进行路径分析
 topic: 开发人员和实施
-uuid: eb6e3444-1b40-4ec6-8017-ac1003 cdf636
-translation-type: tm+mt
+uuid: eb6e3484-1b40-4ec6-8017-ac1003cdf636
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 营销活动或跟踪代码的路径
+# 按促销活动或跟踪代码进行路径分析
 
 帮助您回答以下问题“用户点击某一促销活动进入我的网站后，都浏览了哪些位置？”
 
