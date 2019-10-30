@@ -1,22 +1,22 @@
 ---
 description: 向请求添加量度和维度的步骤。
 seo-description: 向请求添加量度和维度的步骤。
-seo-title: 添加指标和维度
+seo-title: 添加量度和维度
 solution: Analytics
-title: 添加指标和维度
+title: 添加量度和维度
 topic: Report Builder
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 translation-type: tm+mt
-source-git-commit: 2a37aa64634db50320d149298b467bcc7f954eb6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 添加指标和维度
+# 添加量度和维度
 
 向请求添加量度和维度的步骤。
 
-1. [在请求向导](../../../../analyze/report-builder/data-requests/data-requests.md#concept_E14C1E6B63C44D02BF8D80021B4B0F89) 上创建 [!UICONTROL 数据请求：第步，]然后单击“ **[!UICONTROL 下一]**&#x200B;步”。
+1. [在请求向导中创建数据](../../../../analyze/report-builder/data-requests/data-requests.md#concept_E14C1E6B63C44D02BF8D80021B4B0F89)[!UICONTROL 请求：第1步]，然后单击“下 **[!UICONTROL 一步]**”。
 1. 在“[!UICONTROL 请求向导: 第 2 步]”上，双击量度，或者将量度拖动到所需的位置。
 
    ![步骤信息](assets/adding_metrics.png)
@@ -61,11 +61,10 @@ source-git-commit: 2a37aa64634db50320d149298b467bcc7f954eb6
     *天
     *周
     *月
-    *年
-    *日期范围(未指定粒度时)
+    
+    *年*日期范围（未指定粒度时）
 
-1. Modify metrics and dimensions by configuring [format options](../../../../analyze/report-builder/layout/t-format-display-headers.md#task_45C7C4938C2C47FCB02634A1248AA831) and filters.
-1. Click **[!UICONTROL Finish]**.
-在以下示例中，维度与“[!UICONTROL 页面]”量度相关联。其中，[!UICONTROL 反向链接域]维度会在[!UICONTROL 页面]和[!UICONTROL 反向链接域]之间创建划分报表。[!UICONTROL 维度]选项卡会进行更新，以便只显示可添加到划分报表的维度。
+1. 通过配置格式选项和筛选器 [修改量度](../../../../analyze/report-builder/layout/t-format-display-headers.md#task_45C7C4938C2C47FCB02634A1248AA831) 和维度。
+1. 单击&#x200B;**[!UICONTROL 完成]**。在以下示例中，维度与“[!UICONTROL 页面]”量度相关联。其中，[!UICONTROL 反向链接域]维度会在[!UICONTROL 页面]和[!UICONTROL 反向链接域]之间创建划分报表。[!UICONTROL 维度]选项卡会进行更新，以便只显示可添加到划分报表的维度。
 
 ![](assets/page_pageview_02.png)
