@@ -7,7 +7,7 @@ title: 管理区段
 topic: Report Builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 
 ## 添加或编辑区段 {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
->[!NOTE]
->
->要添加或编辑区段，Report builder区段界面将在Microsoft Internet explorer窗口中启动Analytics区段生成器。 您的 Report Builder 会话将保持活动状态。此操作不支持使用 Internet Explorer 以外的浏览器。
+> [!NOTE] 要添加或编辑区段，Report builder区段界面将在Microsoft Internet explorer窗口中启动Analytics区段生成器。 您的 Report Builder 会话将保持活动状态。此操作不支持使用 Internet Explorer 以外的浏览器。
 
 1. In the segment panel of Step 1 of the Request Wizard, click **[!UICONTROL Add]**.
 1. 将启动一个 Internet Explorer 窗口，其中可打开 Analytics 区段生成器界面。有关如何构建区段的信息，请参阅 [https://marketing.adobe.com/resources/help/zh_CN/analytics/segment/](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)。
@@ -63,9 +61,7 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 
 1. 选中要应用的区段。
 
->[!NOTE]
->
->无论您是管理员还是非管理员，在Report Builder中，您只能看到您拥有的区段以及与您共享的区段。 （在市场营销 Reports &amp; Analytics 用户界面中，管理员可以查看组织中的所有区段）。
+> [!NOTE] 无论您是管理员还是非管理员，在Report Builder中，您只能看到您拥有的区段以及与您共享的区段。 （在市场营销 Reports &amp; Analytics 用户界面中，管理员可以查看组织中的所有区段）。
 
 ## 过滤区段 {#section_376E986D3E684999A7CDB08E53854159}
 
