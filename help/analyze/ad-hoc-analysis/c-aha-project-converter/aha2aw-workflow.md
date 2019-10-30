@@ -1,24 +1,24 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 在临时分析中转换项目
-title: 在临时分析中转换项目
-uuid: 20bd9974-209e-457c-9e52-d50 f90078 af6
+seo-title: 在 Ad Hoc Analysis 中转换项目
+title: 在 Ad Hoc Analysis 中转换项目
+uuid: 20bd9974-209e-457c-9e52-d50f90078af6
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 在临时分析中转换项目
+# 在 Ad Hoc Analysis 中转换项目
 
-## Convert your projects in Ad Hoc Analysis {#topic_5A55F73488704C5D8E42CDD04B5984DE}
+## 在 Ad Hoc Analysis 中转换项目 {#topic_5A55F73488704C5D8E42CDD04B5984DE}
 
 在转换项目之前，请注意以下事项：
 
 * 要转换项目，您必须以管理员身份或以具备 Analysis Workspace 使用权限的非管理员身份登录 Ad Hoc Analysis。
 * 由于这是一次性转换，因此如果您对 Ad Hoc 项目进行任何更改，该更改并不会反映到 Analysis Workspace 中。但是，您可以选择重新转换项目。
-* 已转换的任何 Ad Hoc Analysis 项目都将会继续存在于 Ad Hoc 中，但是其标题中会带有圆括号，表示该项目已经转换及其转换次数。示例：
+* 已转换的任何 Ad Hoc Analysis 项目都将会继续存在于 Ad Hoc 中，但是其标题中会带有圆括号，表示该项目已经转换及其转换次数。示例:
 
    ![](assets/aha_title_converted.png)
 
