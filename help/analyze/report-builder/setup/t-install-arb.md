@@ -5,9 +5,9 @@ seo-title: 安装 Report Builder
 solution: Analytics
 title: 安装 Report Builder
 topic: Report Builder
-uuid: 5camp3265-83b6-4e42-a8 b4-cc56 e050 d41 e
+uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,4 +29,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 1. 打开/重新启动 MS Excel 以便使[!UICONTROL 加载项]菜单显示。
 1. Go to **[!UICONTROL Add-Ins]** &gt; **[!UICONTROL Sign In]**.
 
-   Follow the instructions in [Report Builder Sign-In](../../../analyze/report-builder/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981).
+   按照 [Report Builder登录中的说明操作](../../../analyze/report-builder/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981)。
