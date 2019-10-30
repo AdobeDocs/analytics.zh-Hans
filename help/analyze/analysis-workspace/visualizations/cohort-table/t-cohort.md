@@ -1,21 +1,21 @@
 ---
 description: 在Analysis Workspace中创建同期群并运行同期群分析报告。
 keywords: Analysis Workspace
-seo-description: Create a cohort and run a cohort analysis report in Analysis Workspace.
+seo-description: 在Analysis Workspace中创建同期群并运行同期群分析报告。
 seo-title: 运行队列分析报表
 solution: Analytics
 title: 运行队列分析报表
 topic: Reports and Analytics
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 配置同类群组分析报表
 
-Create a cohort and run a cohort analysis report in Analysis Workspace.
+在Analysis Workspace中创建同期群并运行同期群分析报告。
 
 1. In Analysis Workspace, click the **[!UICONTROL Visualizations]** icon in the left rail and drag a **[!UICONTROL Cohort Table]** to the canvas.
 
@@ -33,16 +33,15 @@ Create a cohort and run a cohort analysis report in Analysis Workspace.
 
 1. 单击齿轮 **[!UICONTROL 图标，调整“同期群表设置]** ”。
 
-|设置|说明||仅显示百分比|删除数字值，并仅显示百分比。 ||舍入百分比至最接近的整数|将百分比值舍入到最接近的整数，而不是显示小数值。 |
-| Show Average Percent Row | Inserts a new row at the top of the table and then adds the average for the values within each column. |
+|设置|说明||仅显示百分比|删除数字值，并仅显示百分比。 ||舍入百分比至最接近的整数|将百分比值舍入到最接近的整数，而不是显示小数值。 ||显示平均百分比行|在表顶部插入新行，然后为每列中的值添加平均值。 |
 
-## Build the Cohort Analysis report
+## 构建同期群分析报告
 
 1. Click **[!UICONTROL Build]**.
 
    ![步骤结果](assets/cohort-report.png)
 
-   The report shows visitors who placed an order (  column), and who returned to your site in subsequent visits. *`Included`*&#x200B;随着时间的推移，当出现访问次数减少时，该报表可帮助您查明问题并采取相应的措施。
+   该报告显示下订单（列）的访 *`Included`* 客以及在后续访问中返回您网站的访客。 随着时间的推移，当出现访问次数减少时，该报表可帮助您查明问题并采取相应的措施。
 1. （可选）根据选定的内容创建区段。
 
    Select cells (contiguous or noncontiguous), then right-click &gt; **[!UICONTROL Create Segment From Selection]**.
@@ -55,5 +54,5 @@ Create a cohort and run a cohort analysis report in Analysis Workspace.
 
    >[!NOTE]
    >
-   >You must save your project before curation is available.
+   >您必须先保存项目，然后才能进行特选。
 
