@@ -5,9 +5,9 @@ seo-title: 菜单自定义
 solution: Analytics
 title: 菜单自定义
 topic: 管理工具
-uuid: 31e335e7-c91 a-4669-a9 b7-00f9 e385375 a
+uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 菜单更改应用于访问报表包的所有用户。不过，用户在使用报表包时可以还原菜单的默认配置。
 
->[!NOTE]
->
->菜单结构的任何更改不会影响Report Builder和临时分析。但重命名报表将会反映在这两个工具中。
+> [!NOTE] 菜单结构的任何更改不会影响Report Builder和临时分析。 但重命名报表将会反映在这两个工具中。
 
 ## 菜单自定义描述 {#section_B0D224DACB914A378902A4E0E1234889}
 
