@@ -1,20 +1,20 @@
 ---
 description: 分类 (SAINT) FTP 选项在上传较大的分类数据集方面具有更大的灵活性，包括能够将数据上传到多个报表包，并可上传大于 50000 行的数据集。
-keywords: ftp；sftp
+keywords: ftp;sftp
 seo-description: 分类 (SAINT) FTP 选项在上传较大的分类数据集方面具有更大的灵活性，包括能够将数据上传到多个报表包，并可上传大于 50000 行的数据集。
 seo-title: 分类
 solution: Analytics
 title: 分类
-uuid: 35936c98-b785-43eb-89f4-ab42 a10 db256
+uuid: 35936c98-b785-43eb-89f4-ab42a10db256
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 分类
 
-分类FTP选项在上传大型分类数据集方面提供了更大的灵活性，包括将数据上载到多个报表包以及上传大于50,000行的数据集的能力。
+分类FTP选项在上传大型分类数据集方面提供了更大的灵活性，包括将数据上传到多个报表包以及上传大于50,000行的数据集的能力。
 
 请参阅[分类](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html)，以了解有关如何通过 FTP 下载分类数据，以及如何通过 FTP 上传数据文件的步骤（包括创建 FTP 帐户的步骤）。
 
@@ -26,9 +26,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## 关于分类和数据源上传时使用的 .fin 文件 {#section_1484719F8A134EAE91212DBD8F15174F}
 
-When you upload a classification or [!UICONTROL Data Source] file ( [!DNL .tab]or [!DNL .txt]) the upload also requires that you upload an empty file with the exact same name as the data file being imported, but with a [!DNL .fin] extension. This [!DNL .fin] file is a finish file. 此文件的作用是告诉系统该数据文件已完全上传到 FTP 帐户。[!DNL .fin] 该文件可让Adobe识别您已完成导入。在提交之后，Adobe 会从 FTP 上删除这两个文件，并开始处理导入。导入文件: [!DNL Classifications.tab]
+When you upload a classification or [!UICONTROL Data Source] file ( [!DNL .tab]or [!DNL .txt]) the upload also requires that you upload an empty file with the exact same name as the data file being imported, but with a [!DNL .fin] extension. This [!DNL .fin] file is a finish file. 此文件的作用是告诉系统该数据文件已完全上传到 FTP 帐户。The [!DNL .fin] file lets Adobe recognize that you are done with your import. 在提交之后，Adobe 会从 FTP 上删除这两个文件，并开始处理导入。导入文件: [!DNL Classifications.tab]
 
-Finish File: [!DNL Classifications.fin]
+完成文件： [!DNL Classifications.fin]
 
 If you upload your Data Sources or classification file without an accompanying [!DNL .fin] file, Adobe does not add it to the queue for processing. The file remains on the FTP, and is not applied to your data in the [!UICONTROL Experience Cloud]. 只有您在 Analytics 的“[!UICONTROL 创建 FTP 帐户]”窗口的“[!UICONTROL 通知收件人]”中输入了您的电子邮件地址，才会向您发出通知。如果没有在此字段中输入电子邮件地址，则不会发送通知。
 
