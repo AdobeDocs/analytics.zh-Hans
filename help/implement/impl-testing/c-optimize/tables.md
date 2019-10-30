@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 故障诊断
 title: 表格
 topic: 开发人员和实施
-uuid: f72d7894-38bd-4926-bce4-0c6 af7278 c63
-translation-type: tm+mt
+uuid: f72d7894-38bd-4926-bce4-0c6af7278c63
+translation-type: ht
 source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 ---
@@ -24,5 +24,5 @@ source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 >[!NOTE]
 >
->应将文件放在图像的合法位置，并且必须在打开之间显示 <body> 标签和结束 </body> 标签。
+>该文件应放置在图像的合法位置，并且必须显示在开始 <body> 标记和结束 </body> 标记之间。
 
