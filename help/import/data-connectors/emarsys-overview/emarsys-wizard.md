@@ -5,7 +5,7 @@ seo-title: 运行数据连接器集成向导
 title: 运行数据连接器集成向导
 uuid: 25480e0d-e3ca-458c-8f18-65789c273a33
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 数据连接器集成向导将指导您完成数据连接器集成过程。
 
-1. 登录到 [!DNL Adobe Experience Cloud]。
+1. Log in to the [!DNL Adobe Experience Cloud].
 1. 确保菜单中所需的报表包处于活动 [!DNL Report Suite] 状态。
 1. 单击 **[!UICONTROL Adobe Experience Cloud]** &gt; **[!UICONTROL Data Connectors]**。
 
