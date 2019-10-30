@@ -4,10 +4,10 @@ seo-description: 下表列出了相关国家/地区是否拥有地区或邮政�
 seo-title: 按国家/地区的地域划分地区和邮政编码使用情况
 solution: Analytics
 title: 按国家/地区的地域划分地区和邮政编码使用情况
-topic: 报表
-uuid: 9dab88f8-cd3 f-481f-955f-2fc8 f48 c006 d
+topic: 报告
+uuid: 9dab88f8-cd3f-481f-955f-2fc2f48c006d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
