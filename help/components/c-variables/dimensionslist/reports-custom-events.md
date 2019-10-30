@@ -4,10 +4,10 @@ seo-description: 您希望访客在您的网站上完成的转化操作。这些
 seo-title: 自定义事件
 solution: Analytics
 title: 自定义事件
-topic: 报表
-uuid: afc574c-974f-4b6c-9fb7-03458d0ecf14
+topic: 报告
+uuid: 5afc574c-974f-4b6c-9fb7-03458d0ecf14
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
