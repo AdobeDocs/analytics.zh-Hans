@@ -4,10 +4,10 @@ seo-description: 这些报表显示有关访客使用的浏览器、操作系统
 seo-title: 技术
 solution: Analytics
 title: 技术
-topic: 报表
-uuid: 8e2f88dc-e1 b9-428e-b0 d3-faf4 c063 bc
+topic: 报告
+uuid: 8e2f88dc-e1b9-428e-b0d3-faf4c063bebc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> 显示器颜色深度 </td> 
-   <td colname="col2"> <p> 显示访客在其计算机上配置的最常用的颜色深度设置。颜色深度是指屏幕上可显示的颜色数量。 </p> </td> 
+   <td colname="col2"> <p> 显示访客在其计算机上配置的最常用颜色深度设置。 颜色深度是指屏幕上可显示的颜色数量。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 显示器分辨率 </td> 
@@ -62,7 +62,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> JavaScript 版本 </td> 
-   <td colname="col2"> <p> 显示访客查看网站时浏览器所用的 JavaScript 版本。 </p> </td> 
+   <td colname="col2"> <p> 显示访客浏览器在查看站点时使用的JavaScript版本。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cookie </td> 
