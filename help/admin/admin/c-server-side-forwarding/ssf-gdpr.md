@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: GDPR/电子隐私合规性和服务器端转发
-title: GDPR/电子隐私合规性和服务器端转发
-uuid: 1b90c567-3321-4dbd-a699-38c04 fa4
+seo-title: GDPR/e隐私合规性和服务器端转发
+title: GDPR/e隐私合规性和服务器端转发
+uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
 translation-type: tm+mt
-source-git-commit: 26c3cc9895c27d6abc452e0a4636771fb2415fb3
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# GDPR/电子隐私合规性和服务器端转发
+# GDPR/e隐私合规性和服务器端转发
 
 本部分介绍了根据 2017 年 9 月 30 日生效的[欧盟 Cookie 合规条例](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm)的规定，最近对服务器端转发所做的功能增强。
 
@@ -28,23 +28,23 @@ When this new context variable, `cm.ssf=1`, exists on a hit, this hit gets flagg
 
 | 实施方法 | 步骤 |
 |--- |--- |
-| Adobe Experience Platform Launch | Assuming you have the Adobe Analytics extension installed, add the following context data variable definition to the custom code editor within the Action configuration of a Rule: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Note:  Define the contextdata variable and set it to 1 if a customer does not consent to targeted marketing. Set the `contextdata` variable to *0* for customers who consented to targeted marketing. |
+| Adobe Experience Platform Launch | 如果您已安装Adobe Analytics扩展，请在规则的操作配置中将以下上下文数据变量定义添加到自定义代码编辑器：注 <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>意： 定义上下文数据变量，并在客户不同意目标营销时将其设置为1。 Set the `contextdata` variable to *0* for customers who consented to targeted marketing. |
 | DTM | 将上下文数据变量定义添加到自定义页面代码编辑器：<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注意：定义 contextdata 变量时，如果客户不同意进行目标营销，则将其设置为 1。如果客户同意进行目标营销，则将 contextdata 变量设置为 0。 |
 | AppMeasurement | 将上下文数据变量定义添加到 AppMeasurement.js 文件：<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注意：定义 contextdata 变量时，如果客户不同意进行目标营销，则将其设置为 1。如果客户同意进行目标营销，则将 contextdata 变量设置为 0。 |
 
 ## 报表（可选） {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
-您可以使用 Adobe Analytics 报告有多少流量获得同意因而经由服务器端转发，以及有多少流量未获得同意且尚未转发到 AAM。
+您可以使用Adobe Analytics报告有多少流量是基于同意的，因此已转发到服务器端，有多少流量不是基于同意的且尚未转发到AAM。
 
 要配置此类型的报表，请通过处理规则将新上下文变量映射到自定义流量变量 (prop)。为此，请执行以下步骤：
 
-1. 实施“cm.ssf”变量（如上所示。）
+1. 实施“cm.ssf”变量（如上所示）。
 1. [启用 prop。](/help/admin/admin/c-traffic-variables/traffic-var.md)
 1. 使用处理规则将上下文变量映射到 prop。
 
    1. Go to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** , then select a report suite.
    1. Click  **[!UICONTROL Edit Report Suite]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Processing Rules]** .
    1. 单击&#x200B;**[!UICONTROL 添加规则。]**
-   1. Under **[!UICONTROL Always Execute]**, overwrite the value of the prop you had enabled with the context variable “cm.ssf(Context Data)”.
+   1. Under **[!UICONTROL Always Execute]**, overwrite the value of the prop you had enabled with the context variable "cm.ssf(Context Data)".
    1. 单击&#x200B;**[!UICONTROL 保存]**。
 
