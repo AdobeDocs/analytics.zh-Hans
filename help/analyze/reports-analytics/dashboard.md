@@ -8,7 +8,7 @@ title: 功能板和缩图报表
 topic: Reports and Analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,9 +34,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 * 实时报表
 * 其他功能板
 
->[!NOTE]
->
->The **[!UICONTROL Site Overview]** dashboard is no longer listed in Reports &amp; Analytics. 但是，在某几种情况下，您仍然可以查看它的部分或全部缩图报表。
+> [!NOTE] “站 **[!UICONTROL 点概述]** ”功能板不再列在“报告和分析”中。 但是，在某几种情况下，您仍然可以查看它的部分或全部缩图报表。
 
 * 假如您只有三个频繁查看的报表，则 Reports &amp; Analytics 将从“网站概述”功能板中选取两个报表来填充&#x200B;**[!UICONTROL 我的推荐报表]功能板。**
 * 全新报表包最初也仍然会包含“网站概述”缩图报表，直到它们被您频繁查看的报表替换为止。Even so, the dashboard will now be called **[!UICONTROL My Recommended Reports]**.
@@ -115,7 +113,7 @@ t_dashboard_add_report.xml
 
    **[!UICONTROL 发布列表覆盖]**：如果启用此选项，则会在分发到发布列表时始终使用此缩图报表中引用的报表包。如果禁用此选项，则用发布列表中确定的报表包替换此缩图报表中的报表包。
 
-1. Click **[!UICONTROL Create New]**.
+1. 单击&#x200B;**[!UICONTROL 新建]**。
 
    缩图报表会添加到功能板编辑器中的&#x200B;**[!UICONTROL 功能板内容]菜单。**
 
