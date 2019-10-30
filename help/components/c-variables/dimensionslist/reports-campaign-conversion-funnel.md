@@ -4,10 +4,10 @@ seo-description: 显示“促销活动”报表组中量度的平均值。默认
 seo-title: 促销活动转化漏斗
 solution: Analytics
 title: 促销活动转化漏斗
-topic: 报表
-uuid: b0a90917-e4 c7-40da-854e-58649de09742
+topic: 报告
+uuid: b0a90917-e4c7-40da-854e-58649de09742
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 显示“促销活动”报表组中量度的平均值。默认量度包括点进次数、总销售额、订购及收入。
 
-**[!UICONTROL 营销活动]** &gt; **[!UICONTROL 营销活动转化漏斗]**
+**[!UICONTROL 营销活动]** &gt;营销 **[!UICONTROL 活动转化漏斗]**
 
 漏斗图表的顶部显示转化数据。其底部按照“订购”和最多两个其他量度（收入和件数）显示顶部区域中所有事件的统计信息。
 
