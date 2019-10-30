@@ -8,7 +8,7 @@ title: 创建 Workspace 项目
 topic: Reports and Analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,9 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 创建一个项目并将组件（维度、量度、区段、日期范围）添加到自由格式面板。
 
-在本篇文章中，您可以熟悉 Analysis Workspace 的界面元素，并了解如何创建项目。For specific use cases, see [Use Cases for Analysis Workspace](../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B).
+在本篇文章中，您可以熟悉 Analysis Workspace 的界面元素，并了解如何创建项目。有关特定用例，请参 [阅Analysis Workspace的用例](../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B)。
 
-## Create a project
+## 创建项目
 
 1. 指定创建和管理项目的用户权限。
 
@@ -88,7 +88,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
    >[!NOTE]
    >
-   >After you copy/save-as, the intra-links are now relative to the project they live within, not the original project they were copied from.
+   >复制／另存为后，内部链接现在相对于它们所在的项目，而不是它们从中复制的原始项目。
 
 ## 添加组件和可视化 {#task_CDAC9B3007BE4A3790AFAD3746D669B1}
 
@@ -116,7 +116,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
   </tr> 
   <tr> 
    <td colname="col1"> 区段（蓝色） </td> 
-   <td colname="col2"> <p>只能在面板级别进行拖动，不过，您可以在数据表中创建内联区段。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>See  Use Cases for Analysis Workspace for more information.<a href="../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B" format="dita" scope="local"></a> </p> </td> 
+   <td colname="col2"> <p>只能在面板级别进行拖动，不过，您可以在数据表中创建内联区段。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>有关详 <a href="../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B" format="dita" scope="local"> 细信息，请参阅Analysis Workspace的使用案例</a> 。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 日期范围和粒度（紫色） </td> 
