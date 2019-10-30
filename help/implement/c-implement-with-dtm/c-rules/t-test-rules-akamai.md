@@ -6,8 +6,8 @@ seo-title: 测试用于 Akamai 托管的尚未发布的规则
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 测试用于 Akamai 托管的尚未发布的规则
 uuid: 979e3d74-8d96-47d0-b581-cf5371248434
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 如果使用 Akamai 托管，则从控制台测试未发布的规则。
 
-Switcher 插件通常是最简单的测试方法。有关更多信息，请参阅 Dynamic Tag Management 产品文档中的[搜索发现插件](https://marketing.adobe.com/resources/help/zh_CN/dtm/search_discovery_plugins.html)。
+Switcher 插件通常是最简单的测试方法。有关更多信息，请参阅动态标签管理产品文档中的 [Search Discovery 插件](https://marketing.adobe.com/resources/help/en_US/dtm/search_discovery_plugins.html)。
 
 下列步骤说明了如何在不使用 Switcher 插件的情况下进行测试：
 
