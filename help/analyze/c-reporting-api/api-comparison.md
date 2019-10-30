@@ -1,23 +1,21 @@
 ---
 description: Analytics 报表 API 的比较表。提供了支持文档的链接。
 seo-description: Analytics 报表 API 的比较表。提供了支持文档的链接。
-seo-title: Analytics 报表 API 比较
+seo-title: Analytics Reporting API 比较
 solution: Analytics
-title: Analytics 报表 API 比较
-uuid: fa533a8e-33c0-42f4-a294-cabee0258 c f
+title: Analytics Reporting API 比较
+uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Analytics 报表 API 比较
+# Analytics Reporting API 比较
 
 Analytics 报表 API 的比较表。提供了支持文档的链接。
 
->[!NOTE]
->
->对于滞后时间，Analytics for Target(A4T)将Analytics和Target数据与集成报告相结合。由于 Analytics 和 Target 调用在不同的时间发生，因此在进行任何处理以从这两个解决方案收集数据之前，将会存储点击。此过程在所有检查点处增加了&#x200B;**额外 7-10 分钟**&#x200B;的延迟。
+> [!NOTE] 关于延迟，Analytics for Target(A4T)将Analytics和Target数据组合到同一次点击中，以便进行集成报告。 由于 Analytics 和 Target 调用在不同的时间发生，因此在进行任何处理以从这两个解决方案收集数据之前，将会存储点击。此过程在所有检查点处增加了&#x200B;**额外 7-10 分钟**&#x200B;的延迟。
 
 <table id="table_7AF4FD678D494063ADF459B3CBC3EF3F"> 
  <thead> 
