@@ -1,18 +1,18 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 为广告分析启用报告套件
-title: 为广告分析启用报告套件
-uuid: 934f0e02-b5 d7-4ca-93d8-92f95 bd7014 a
+seo-title: 为 Advertising Analytics 启用报表包
+title: 为 Advertising Analytics 启用报表包
+uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 为广告分析启用报告套件
+# 为 Advertising Analytics 启用报表包
 
-为了在Analytics中查看任何Advertising Analytics搜索数据，您需要为Advertising Analytics报告配置每个Experience Cloud映射的报告套件。
+要在Analytics中查看任何Advertising Analytics搜索数据，您需要为Advertising Analytics报告配置每个映射到Experience Cloud的报告套件。
 
 1. [将报表包映射到组织](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html)。
 1. Navigate to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
@@ -24,7 +24,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
 
    >[!IMPORTANT]
    >
-   >AMO ID引用将插入搜索数据的Adobe Advertising Cloud变量。
+   >AMO ID指将要插入搜索数据的Adobe Advertising cloud变量。
 
 1. 设置您想要 AMO ID 变量使用的变量分配和过期日期。转化变量 (eVar) 允许 Adobe Analytics 将成功事件归属于特定的变量值。有时候，在一个事件成功之前变量会遇到多个值。对于这类情况，分配将确定哪个变量值可获得该成功事件的信用。
 
