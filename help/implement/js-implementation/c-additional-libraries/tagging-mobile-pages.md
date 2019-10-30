@@ -1,19 +1,19 @@
 ---
 description: 移动跟踪代码以服务器生成的图像标记形式置于页面上。
-keywords: Analytics实施；移动跟踪；移动协议；防止缓存；alt标记；默认图像类型
+keywords: Analytics 实施;移动跟踪;移动协议;阻止缓存;alt 标记;默认图像类型
 seo-description: 移动跟踪代码以服务器生成的图像标记形式置于页面上。
-seo-title: 为移动协议添加标记页面
+seo-title: 移动协议的标记页面
 solution: Analytics
-title: 为移动协议添加标记页面
+title: 移动协议的标记页面
 topic: 开发人员和实施
-uuid: 5788beat-f309-4918-a99 c-a3 e591668205
-translation-type: tm+mt
+uuid: 5788beaf-f309-4918-a99c-a3e591668205
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 为移动协议添加标记页面
+# 移动协议的标记页面
 
 移动跟踪代码以服务器生成的图像标记形式置于页面上。
 
@@ -48,8 +48,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 如果默认图像类型在某个特定设备上不受支持，那么将不会返回任何数据。要避免此情况，您可以强制 Adobe 数据收集服务器返回一种移动设备支持的特定图像类型。报表包名称后的代码指定了图像类型：
 
 * `/5/` 返回默认图像类型。
-* `/5.1/` 或 `/1/` 始终返回GIF图像。
+* `/5.1/` 或 `/1/` 始终返回 GIF 图像。
 
-* `/5.5/` 始终返回WBMP图像。
+* `/5.5/` 始终返回 WBMP 图像。
 
-See [Identifying Visitors using Mobile Protocols](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#concept_8C5557634014440AA3588FBB0CF6BB49).
+请参阅[使用移动协议识别访客](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#concept_8C5557634014440AA3588FBB0CF6BB49)。
