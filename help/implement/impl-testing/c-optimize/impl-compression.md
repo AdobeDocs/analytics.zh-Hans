@@ -8,8 +8,8 @@ subtopic: 故障诊断
 title: 文件压缩
 topic: 开发人员和实施
 uuid: 609fec4b-2732-4ef5-9263-32192e4f0825
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,7 +20,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 常用的压缩算法可将 JavaScript 文件的大小缩小 40-60% 甚至更多。
 
->[!NOTE]
->
->并非所有浏览器都支持所有的文件压缩标准或以同一方式解压缩文件。Adobe 不保证所有环境中文件压缩的可靠性。客户应先在其支持的浏览器和配置环境下测试压缩性能，然后再部署文件压缩。
+> [!NOTE]并非所有浏览器都支持所有的文件压缩标准或以同一方式解压缩文件。Adobe 不保证所有环境中文件压缩的可靠性。客户应先在其支持的浏览器和配置环境下测试压缩性能，然后再部署文件压缩。
 
