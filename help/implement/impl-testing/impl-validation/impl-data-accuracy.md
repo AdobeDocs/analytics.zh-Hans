@@ -7,8 +7,8 @@ solution: Analytics
 title: 数据准确性验证
 topic: 开发人员和实施
 uuid: 267f6c61-705a-41cf-9e09-4e2ce2331f32
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,9 +25,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 比较已知的成功事件，特别是那些 IP 地址和其他浏览器信息通常存储在 Web 服务器日志中（以便与收集的数据进行比较）的已记录数据。
 * 比较页面查看。
 
->[!NOTE]
->
->默认页面（如 [!DNL index.html]）通常会接收自动流量或监测流量，因此相比较于其他已访问的页面，这类页面在基于浏览器的数据收集方面存在更大的差异。
+> [!NOTE]默认页面（如 [!DNL index.html]）通常会接收自动流量或监测流量，因此相比较于其他已访问的页面，这类页面在基于浏览器的数据收集方面存在更大的差异。
 
 所有三种类型的验证都要求提供涉及时段的调试日志或数据馈送。通常为一天或更短的时间。
 
