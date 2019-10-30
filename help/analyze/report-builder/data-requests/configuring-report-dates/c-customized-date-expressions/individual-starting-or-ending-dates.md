@@ -1,18 +1,18 @@
 ---
 description: 开始日期和结束日期的缩写。
 seo-description: 开始日期和结束日期的缩写。
-seo-title: 个人开始日期或结束日期
+seo-title: 单个开始日期或结束日期
 solution: Analytics
-title: 个人开始日期或结束日期
+title: 单个开始日期或结束日期
 topic: Report Builder
-uuid: b161948c-c71 c-4757-834-15577fc61042
+uuid: b161948c-c71c-4757-8348-15577fc61042
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 个人开始日期或结束日期
+# 单个开始日期或结束日期
 
 开始日期和结束日期的缩写。
 
