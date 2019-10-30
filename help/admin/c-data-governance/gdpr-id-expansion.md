@@ -5,7 +5,7 @@ seo-title: ID 扩展
 title: ID 扩展
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Cookie ID 扩展 </p> </td> 
-   <td colname="col2"> <p>Many Analytics customers originally used the (Legacy) <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html" format="html" scope="external"> Analytics Cookie </a>, but are now using the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Identity Service (ECID) </a>, previously known as the Marketing Cloud ID Service (MCID). 对于在转换后首次访问这些客户网站的访客，仅存在 ECID。但是，对于那些在仅可使用旧版 Cookie 时首次访问，但之后又访问过的访客，他们的某些数据将同时具有这两个 Cookie，但是较旧的数据将只有 Analytics Cookie，而在极少数情况中，最新的数据可能只有 ECID。 </p> <p>您需要确保通过 Analytics（访客 ID）Cookie 或 ECID 识别的访客的所有数据都能被找到。因此，如果您以前使用过 Analytics Cookie 且现在使用 ECID，则当您使用任一类型的 ID 提交请求时，应在请求中包含两种 ID，或者指定 expandIds 选项。当您指定 expandIds 时，Adobe 将检查与您提供的任何 Cookie ID 相对应的其他 ECID 或 Analytics Cookie。该请求将自动扩展以包含这些新识别的 Cookie ID。 </p> </td> 
+   <td colname="col2"> <p>许多 Analytics 客户最初使用（旧版）<a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html" format="html" scope="external">Analytics Cookie</a>，但现在逐渐使用 <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external">Identity 服务 (ECID)</a>，这项服务以前称为 Marketing Cloud ID 服务 (MCID)。对于在转换后首次访问这些客户网站的访客，仅存在 ECID。但是，对于那些在仅可使用旧版 Cookie 时首次访问，但之后又访问过的访客，他们的某些数据将同时具有这两个 Cookie，但是较旧的数据将只有 Analytics Cookie，而在极少数情况中，最新的数据可能只有 ECID。 </p> <p>您需要确保通过 Analytics（访客 ID）Cookie 或 ECID 识别的访客的所有数据都能被找到。因此，如果您以前使用过 Analytics Cookie 且现在使用 ECID，则当您使用任一类型的 ID 提交请求时，应在请求中包含两种 ID，或者指定 expandIds 选项。当您指定 expandIds 时，Adobe 将检查与您提供的任何 Cookie ID 相对应的其他 ECID 或 Analytics Cookie。该请求将自动扩展以包含这些新识别的 Cookie ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>自定义 ID 转 Cookie ID 扩展 </p> </td> 
@@ -61,7 +61,7 @@ Adobe 在执行 ID 扩展时，可能需要进行额外的完整数据扫描，�
 [!NOTE]
 已 [经提供Privacy Service API](https://www.adobe.io/apis/experienceplatform/gdpr.html) ，以帮助您完成数据隐私请求，这些请求是时间敏感的。 Adobe不支持将此API用于其他用途，并可能会影响Adobe为其他Adobe客户及时提供高优先级、由用户发起的数据隐私请求的能力。 我们要求您不要将Privacy Service API用于其他用途，如清除意外跨大量访客提交的数据。
 
-您还应注意，因数据隐私删除请求而删除（更新或匿名化）点击的任何访客都将重置其状态信息。 这样该访客下次返回您的网站时，将会成为新访客。所有 eVar 归因都将重新开始，访问编号、反向链接、查看的首页等信息也都将重新显示。如果您要清除数据字段，则不会产生这种副作用，并且会突出说明隐私服务API不适合此用途的一个原因。
+您还应注意，因数据隐私删除请求而删除（更新或匿名化）点击的任何访客都将重置其状态信息。 这样该访客下次返回您的网站时，将会成为新访客。所有 eVar 归因都将重新开始，访问次数、反向链接、访问的第一个页面等信息也都将重新统计。如果您要清除数据字段，则不会产生这种副作用，并且会突出说明隐私服务API不适合此用途的一个原因。
 
-请联系您的客户经理(CSM)，与我们的工程架构师咨询团队协调，以进一步审查并提供删除任何PII或数据问题的工作量。
+请联系您的客户经理 (CSM) 来与我们的工程架构师咨询团队进行协调，以进一步审查并提供解决任何 PII 或数据问题的帮助。
 
