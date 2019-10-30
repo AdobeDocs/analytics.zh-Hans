@@ -1,22 +1,22 @@
 ---
 description: 在 Analytics 中启用 Activity Map 报表功能的管理步骤。
 seo-description: 在 Analytics 中启用 Activity Map 报表功能的管理步骤。
-seo-title: 活动地图报告
+seo-title: Activity Map 报告
 solution: Analytics
-title: 活动地图报告
-topic: 报表
-uuid: 7636c670-bb6 c-4a25-823a-7bbba0 b747 b
+title: Activity Map 报告
+topic: 报告
+uuid: 7636c670-bb6c-4a25-823a-7bbbb0b747b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 活动地图报告
+# Activity Map 报告
 
 在 Analytics 中启用 Activity Map 报表功能的管理步骤。
 
-**[!UICONTROL “分析]** ”&gt;“ **[!UICONTROL 管理员]** ”&gt; **[!UICONTROL “报表包]** ”&gt; **[!UICONTROL <select report suite>]** &gt;“ **[!UICONTROL 编辑设置]** ”&gt; **[!UICONTROL “活动地图]** ”&gt; **[!UICONTROL “活动地图报告”]**
+**[!UICONTROL Analytics]** Admin **[!UICONTROL &gt;报告报表]** &gt; &gt; &gt; **[!UICONTROL &gt; “编辑设置” &gt; “编辑映射活动]** ” &gt; “编辑映射活动” &gt; “ **[!UICONTROL <select report suite>]************[!UICONTROL 映射”报告]**
 
 允许 Analytics 收集 Activity Map（以前的 ClickMap）中提供的用户活动。此集成
 
