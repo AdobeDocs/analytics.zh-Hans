@@ -1,14 +1,14 @@
 ---
 description: Analytics 提供了多个变量来收集 Analytics 数据。例如，pageName 变量中的值是将报告的网页的名称。本部分列出了 AppMeasurment 支持的变量。
-keywords: Analytics实施；appasurement变量
+keywords: Analytics 实施;Appmeasurement 变量
 seo-description: Analytics 提供了多个变量来收集 Analytics 数据。例如，pageName 变量中的值是将报告的网页的名称。本部分列出了 AppMeasurment 支持的变量。
 seo-title: 变量概述
 solution: Analytics
 subtopic: 变量
 title: 变量概述
 topic: 开发人员和实施
-uuid: 067d0135-572a-4a44-af9 e-445d3 c4 e9271
-translation-type: tm+mt
+uuid: 067d0135-572a-4a44-af9e-445d3c4e9271
+translation-type: ht
 source-git-commit: 40e9872126114588961a1e84e6be85bb945050a4
 
 ---
@@ -16,16 +16,16 @@ source-git-commit: 40e9872126114588961a1e84e6be85bb945050a4
 
 # 变量概述
 
-Analytics 提供了多个变量来收集 Analytics 数据。例如，pageName 变量中的值是将报告的网页的名称。本节列出AppMeasurement支持的变量。
+Analytics 提供了多个变量来收集 Analytics 数据。例如，pageName 变量中的值是将报告的网页的名称。本部分列出了 AppMeasurement 支持的变量。
 
-For more information on Page Variables, go [here](/help/implement/js-implementation/c-variables/page-variables.md).
-For more information on Configuration Variables, go [here](/help/implement/js-implementation/c-variables/configuration-variables.md).
+有关页面变量的详细信息，请转到[此处](/help/implement/js-implementation/c-variables/page-variables.md)。
+有关配置变量的详细信息，请转到[此处](/help/implement/js-implementation/c-variables/configuration-variables.md)。
 
 ## 如何设置变量 {#section_E52CF9E8FDF74164A1511E0D9D31884D}
 
-AppMeasurement requires that all configuration variables be set before the initial call to the track function, *`t()`*. If configuration variables are set after the call to *`t()`*, unexpected results may occur.
+AppMeasurement 要求在初次调用 track 函数 *`t()`* 之前设置所有配置变量。如果在调用 *`t()`* 之后设置配置变量，则可能会发生意外结果。
 
-Configuration variables are set inside the *`doPlugins`* function, which is called during the execution of the track function. The specific configuration variable causing this issue is *`trackInlineStats`*, which enables ClickMap data collection. 这会让 ClickMap 模块处于不确定的状态，导致首个跟踪调用会在 Adobe Analytics 信标后面附加“未定义”字符串，进而影响货币代码。
+配置变量在 *`doPlugins`* 函数中设置，该函数在执行 track 函数时调用。导致此问题的特定配置变量为 *`trackInlineStats`*，该变量会启用 ClickMap 数据收集。这会让 ClickMap 模块处于不确定的状态，导致首个跟踪调用会在 Adobe Analytics 信标后面附加“未定义”字符串，进而影响货币代码。
 
 要解决此问题，请将所有配置变量移到 doPlugins 函数前面。
 
