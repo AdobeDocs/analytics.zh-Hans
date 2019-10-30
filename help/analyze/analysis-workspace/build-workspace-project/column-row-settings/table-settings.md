@@ -3,9 +3,9 @@ description: 行设置因您拖入到表格中的组件而异。
 seo-description: 行设置因您拖入到表格中的组件而异。
 seo-title: 行设置
 title: 行设置
-uuid: f30c31d5-1fd4-4b93-94c3-ca441099 fe2 e
+uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p>划分 </p> </td> 
-   <td colname="col2"> <p><b>按位置划分：</b> </p> <p>您可以基于自由格式表中的固定位置执行划分。例如，您可以指定始终对表的头七行进行划分。 </p> <p>（以前，划分中的值列表会被“锁定”。这会导致这样一种情况，例如，如果您按<span class="term">页面</span>划分<span class="term">日期</span>，则会得到您选定日期范围内头 50 页的列表。如果您保存了该报表然后在一个月后运行它，则头 50 页很可能已发生更改。然而，Analysis Workspace 将使用来自原始划分的结果并返回相同页面，但将当前月份作为日期范围。） </p> <p>要执行基于固定位置的划分，请执行以下操作： </p> 
+   <td colname="col2"> <p><b>按位置划分：</b> </p> <p>您可以基于自由格式表中的固定位置执行划分。例如，您可以指定始终对表的头七行进行划分。 </p> <p>(以前，细分中的值列表被“锁定”。 This led to a situation where, for example, if you broke down <span class="term"> Date</span> by <span class="term"> Page</span>, you got a list of the top 50 pages for your selected date range. 如果您保存了该报表然后在一个月后运行它，则头 50 页很可能已发生更改。然而，Analysis Workspace 将使用来自原始划分的结果并返回相同页面，但将当前月份作为日期范围。） </p> <p>要执行基于固定位置的划分，请执行以下操作： </p> 
     <ol id="ol_A396A11566AA4F52BC3ABBC373CEF477"> 
      <li id="li_BDAB1E9A48D44944A4F7C31F1182B923">划分表格中的一些行。 </li> 
      <li id="li_C5610437D3714CCEB9F3C771864B4336">单击希望处于固定位置的表格行旁边的“设置”（齿轮）图标。 </li> 
