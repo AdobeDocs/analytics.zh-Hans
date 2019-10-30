@@ -3,9 +3,9 @@ description: Report Builder 5.2 支持 Adobe Analytics 统一的计算量度。�
 seo-description: Report Builder 5.2 支持 Adobe Analytics 统一的计算量度。作为诸多创新中的一种，目前所有计算量度都拥有一个全局 ID - 不再局限于单一的报表包之中。
 seo-title: 计算量度
 title: 计算量度
-uuid: c9814894-cda6-40ff-8ec4-3ab2 c1908 eBC
+uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Report Builder 5.2 支持 Adobe Analytics 统一的计算量度。作为诸多创新中的一种，目前所有计算量度都拥有一个全局 ID - 不再局限于单一的报表包之中。
 
->[!NOTE]
->
->现有工作簿可能会指向使用传统指标ID的请求。在使用 Report Builder 5.2 时，这些旧量度 ID 将会被转换为新的全局 ID。如果将该工作簿共享给 Report Builder v5.1 或早期版本的用户，则该用户将看不到计算量度。
+> [!NOTE] 现有工作簿可能指向具有传统度量ID的请求。 在使用 Report Builder 5.2 时，这些旧量度 ID 将会被转换为新的全局 ID。如果将该工作簿共享给 Report Builder v5.1 或早期版本的用户，则该用户将看不到计算量度。
 
 如需更加详细地了解如何使用新版计算量度生成器和管理器来创建并管理计算量度，请参阅[计算量度指南](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics)。
 
@@ -24,7 +22,7 @@ Report Builder 5.2 支持 Adobe Analytics 统一的计算量度。作为诸多�
 
 ## 过滤计算量度 {#section_376E986D3E684999A7CDB08E53854159}
 
-**单击筛选器图标过滤** 计算得出的量度： ![](assets/segment_filter.png)
+**单击** “筛选器”图标过滤计算的度量：  ![](assets/segment_filter.png)
 
 。“高级过滤器”对话框同时包含标准量度和计算量度。
 
