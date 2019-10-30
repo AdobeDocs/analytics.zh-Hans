@@ -1,23 +1,23 @@
 ---
 description: 分类用于对值进行分组归类，并按照分组级别进行报告。例如，您可将所有“付费搜索”促销活动归为一个类似于流行音乐术语的类别，并且相对于“实例”（点进次数）等量度，报告该类别的成功以及有关成功事件的转化。
 seo-description: 分类用于对值进行分组归类，并按照分组级别进行报告。例如，您可将所有“付费搜索”促销活动归为一个类似于流行音乐术语的类别，并且相对于“实例”（点进次数）等量度，报告该类别的成功以及有关成功事件的转化。
-seo-title: 转换分类
+seo-title: 转化分类
 solution: Analytics
 subtopic: 分类
-title: 转换分类
+title: 转化分类
 topic: 管理工具
-uuid: 4c8726c9-f527-44e1-be01-8c7 b3 b5 c20 f0
+uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 转换分类
+# 转化分类
 
 分类用于对值进行分组归类，并按照分组级别进行报告。例如，您可将所有“付费搜索”促销活动归为一个类似于流行音乐术语的类别，并且相对于“实例”（点进次数）等量度，报告该类别的成功以及有关成功事件的转化。
 
-## Conversion classifications {#concept_B4B1478A8CB540599AC9D4A58CA4B6FE}
+## 转化分类 {#concept_B4B1478A8CB540599AC9D4A58CA4B6FE}
 
 分类用于对值进行分组归类，并按照分组级别进行报告。例如，您可将所有“付费搜索”促销活动归为一个类似于&#x200B;*流行音乐术语*&#x200B;的类别，并且相对于“实例”（点进次数）等量度，报告该类别的成功以及有关成功事件的转化。
 
@@ -65,7 +65,7 @@ t_classification_conversion.xml
 描述如何在“管理员”中添加转化分类的步骤。
 
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. 选择一个报表包。
+1. 选择报表包.
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Classifications]**.
 1.  从&#x200B;**选择分类类型**&#x200B;下拉列表中，选择要添加分类的变量。
 
@@ -95,7 +95,7 @@ t_classification_delete_conversion.xml
 删除不再需要的转化分类。
 
 1. Open the Report Suite Manager by clicking **[!UICONTROL Admin]**&gt; **[!UICONTROL Report Suites]** in the Suite header.
-1. 选择一个报表包。
+1. 选择报表包.
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Classifications]**.
 1.  从&#x200B;**选择分类类型**&#x200B;下拉列表中，选择要从中删除分类的变量。
 1. Mouse over the **[!UICONTROL Edit Classification]** icon, then select **[!UICONTROL Delete Classification]**.
