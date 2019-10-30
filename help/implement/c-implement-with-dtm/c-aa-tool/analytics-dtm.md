@@ -1,29 +1,27 @@
 ---
-description: 通过创建Adobe Analytics工具并自动或手动配置页面代码，使用动态标签管理部署Adobe Analytics。 对于大多数用户，建议使用自动方法。
-keywords: 分析实施；实施方法；动态标签管理；dtm；分析工具；属性；工具类型；工具名称；配置方法；分析高级；evars；事件
-seo-description: 通过创建Adobe Analytics工具并自动或手动配置页面代码，使用动态标签管理部署Adobe Analytics。 对于大多数用户，建议使用自动方法。
+description: 您可以通过创建 Adobe Analytics 工具并自动或手动配置页面代码，来使用 Dynamic Tag Management 部署 Adobe Analytics。对于大多数用户，建议使用自动方法。
+keywords: Analytics 实施;实施方法;dynamic tag management;dtm;analytics 工具;属性;工具类型;工具名称;配置方法;analytics premium;evar;事件
+seo-description: 您可以通过创建 Adobe Analytics 工具并自动或手动配置页面代码，来使用 Dynamic Tag Management 部署 Adobe Analytics。对于大多数用户，建议使用自动方法。
 seo-title: 添加 Adobe Analytics 工具
 solution: Analytics
 title: 添加 Adobe Analytics 工具
 topic: 开发人员和实施
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 添加 Adobe Analytics 工具
 
-通过创建Adobe Analytics工具并自动或手动配置页面代码，使用动态标签管理部署Adobe Analytics。 对于大多数用户，建议使用自动方法。
+您可以通过创建 Adobe Analytics 工具并自动或手动配置页面代码，来使用 Dynamic Tag Management 部署 Adobe Analytics。对于大多数用户，建议使用自动方法。
 
->[!NOTE]
->
->为了改进访客跟踪，我们强烈建议您启用 [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
+> [!NOTE] 为了改进访客跟踪，我们强烈建议您启用 [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
 
 ## 添加 Adobe Analytics 工具 {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
-1. Click  **[!UICONTROL *`Web Property Name`*]** &gt; **[!UICONTROL Overview]** &gt; **[!UICONTROL Add a Tool]** &gt; **[!UICONTROL Adobe Analytics]** .
+1. 单击 **[!UICONTROL *`Web Property Name`*]** &gt; **[!UICONTROL 概述]** &gt; **[!UICONTROL 添加工具]** &gt; **[!UICONTROL Adobe Analytics]**。
 
    ![](assets/dtm-add-analytics-tool.png)
 
@@ -54,11 +52,11 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <b>手动</b>：手动管理 AppMeasurement 代码。您可以从<span class="keyword"></span>管理工具<span class="keyword"> &gt; </span>代码管理器<span class="ignoretag"><span class="uicontrol">下载 </span>Analytics<span class="uicontrol"> </span>AppMeasurement</span> 代码。 </p> <p>Click <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html" format="https" scope="external"> JavaScript (new)</a> for information about downloading the code locally to copy and paste in the <span class="wintitle"> Edit Code</span> field in <a href="../../../implement/c-implement-with-dtm/c-aa-tool/library-management.md#concept_24654766343B4E82A9416A112D2125FE" format="dita" scope="local"> Library Management</a>. </p> <p>填写特定于手动配置的字段： </p> 
+   <td colname="col2"> <p> <b>手动</b>：手动管理 AppMeasurement 代码。您可以从<span class="keyword"></span>管理工具<span class="keyword"> &gt; </span>代码管理器<span class="ignoretag"><span class="uicontrol">下载 </span>Analytics<span class="uicontrol"> </span>AppMeasurement</span> 代码。 </p> <p>单击 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html" format="https" scope="external">JavaScript（新）</a>，以了解关于从本地下载代码以将其复制并粘贴到<a href="../../../implement/c-implement-with-dtm/c-aa-tool/library-management.md#concept_24654766343B4E82A9416A112D2125FE" format="dita" scope="local">库管理</a>中的<span class="wintitle">编辑代码</span>字段中的信息。 </p> <p>填写特定于手动配置的字段： </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
      <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>生产帐户 ID：</b>（必需）用于数据收集的生产帐户。对于 Analytics，即您的报表包 ID。动态标签管理会在生产和暂存环境中自动安装正确的帐户。 </p> </li> 
      <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>暂存帐户 ID：</b>（必需）用于您的开发或测试环境。对于 Analytics，即您的报表包 ID。暂存帐户可将您的测试数据与生产数据分隔开。 </p> </li> 
-     <li id="li_69E6C6A41F5240E1ABE8ABE0B9D151FC"> <p><b>跟踪服务器：</b>指定关于跟踪服务器的信息。 </p> <p><span class="wintitle">跟踪服务器</span>和 <span class="wintitle">SSL 跟踪服务器</span>变量用于第一方 cookie 实施，以指定在其中写入图像请求和 cookie 的域。有关更多信息，请参阅<a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html" format="https" scope="external">正确填充 trackingServer 和 trackingServerSecure 变量</a>一文。 </p> </li> 
+     <li id="li_69E6C6A41F5240E1ABE8ABE0B9D151FC"> <p><b> 跟踪服务器：</b>指定关于 跟踪服务器的信息。 </p> <p><span class="wintitle">跟踪服务器</span>和 <span class="wintitle">SSL 跟踪服务器</span>变量用于第一方 cookie 实施，以指定在其中写入图像请求和 cookie 的域。有关更多信息，请参阅<a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html" format="https" scope="external">正确填充 trackingServer 和 trackingServerSecure 变量</a>一文。 </p> </li> 
      <li id="li_1A7271C68205428F8CA5548A96CACBEC"> <p><b>SSL 跟踪服务器：</b>指定关于 SSL 跟踪服务器的信息。 </p> </li> 
     </ul> </td> 
   </tr> 
@@ -71,7 +69,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 1. （满足条件时）按照以下链接中的说明（[!UICONTROL 常规]、[!UICONTROL 库管理]、[!UICONTROL 全局变量]、[!UICONTROL 页面查看次数和内容]、[!UICONTROL 链接跟踪]、[!UICONTROL 反向链接和促销活动]、[!UICONTROL Cookie]和[!UICONTROL 自定义页面代码]），根据需要进一步配置工具。
 
-See [Frequently Asked Questions About the Adobe Analytics Tool](../../../implement/faq.md#concept_00DF9AF14D30469BB986BF56A448806B) for additional information about this tool.
+有关此工具的其他信息，请参阅 [Adobe Analytics 工具常见问题解答](../../../implement/faq.md#concept_00DF9AF14D30469BB986BF56A448806B)。
 
 ## 编辑现有的 Adobe Analytics 工具 {#section_148B16AF429B4949B06238D90635B726}
 
@@ -92,7 +90,7 @@ See [Frequently Asked Questions About the Adobe Analytics Tool](../../../impleme
  <tbody> 
   <tr> 
    <td colname="col1"> <p>启用自动配置 </p> </td> 
-   <td colname="col2"> <p>Note: Enabling this setting changes a manually configured implementation to the automatic configuration method described in <span class="term"> Configuration Method</span>. </p> <p>此选项允许动态标签管理自动检索您 <span class="keyword">Adobe Analytics</span> 帐户的配置。 </p> <p>将使用最新的可用 AppMeasurement 代码，并且会在推出新版本时显示升级通知选项。您还可以出于兼容性等原因，根据需要回滚到以前的 AppMeasurement 版本。最多显示五个以前版本。 </p> </td> 
+   <td colname="col2"> <p>注意：启用此设置会将手动配置的实施更改为<span class="term">配置方法</span>中描述的自动配置方法。 </p> <p>此选项允许动态标签管理自动检索您 <span class="keyword">Adobe Analytics</span> 帐户的配置。 </p> <p>将使用最新的可用 AppMeasurement 代码，并且会在推出新版本时显示升级通知选项。您还可以出于兼容性等原因，根据需要回滚到以前的 AppMeasurement 版本。最多显示五个以前版本。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>更新凭据 </p> </td> 
@@ -102,4 +100,4 @@ See [Frequently Asked Questions About the Adobe Analytics Tool](../../../impleme
 </table>
 
 1. （满足条件时）按照以下链接中的说明（[!UICONTROL 常规]、[!UICONTROL 库管理]、[!UICONTROL 全局变量]、[!UICONTROL 页面查看次数和内容]、[!UICONTROL 链接跟踪]、[!UICONTROL 反向链接和促销活动]、[!UICONTROL Cookie]和[!UICONTROL 自定义页面代码]），根据需要进一步配置工具。
-1. Click **[!UICONTROL Save Changes]**.
+1. 单击&#x200B;**[!UICONTROL 保存更改]**。
