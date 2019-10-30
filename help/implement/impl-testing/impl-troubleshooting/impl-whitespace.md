@@ -8,8 +8,8 @@ subtopic: 故障诊断
 title: 在变量值中使用空格
 topic: 开发人员和实施
 uuid: 1edd7934-9b3e-43e2-9f24-65f42cb306e2
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
