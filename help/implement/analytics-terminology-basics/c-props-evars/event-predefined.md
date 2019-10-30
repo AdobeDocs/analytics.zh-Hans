@@ -1,19 +1,19 @@
 ---
 description: 预定义事件列表。
-keywords: Analytics实施；event
+keywords: Analytics 实施;事件
 seo-description: 预定义事件列表。
-seo-title: 什么是预定义活动？
+seo-title: 什么是预定义事件？
 solution: Analytics
-title: 什么是预定义活动？
+title: 什么是预定义事件？
 topic: 开发人员和实施
-uuid: 4d0799ba-0f97-42c3-a620-36c03 f9995 da
-translation-type: tm+mt
+uuid: 4d0799ba-0f97-42c3-a620-36c03f9995da
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 什么是预定义活动？
+# 什么是预定义事件？
 
 预定义事件列表。
 
