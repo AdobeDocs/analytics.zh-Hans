@@ -1,23 +1,23 @@
 ---
 description: 如何在营销渠道报告中使用指标。
 seo-description: 如何在营销渠道报告中使用指标。
-seo-title: 营销渠道报告中使用的指标
+seo-title: 营销渠道报表中使用的量度
 solution: Analytics
 subtopic: 营销渠道
-title: 营销渠道报告中使用的指标
-topic: Reports & Analytics
-uuid: bcb94-927e-4b5f5f-b201-3d54 eb51 e740
+title: 营销渠道报表中使用的量度
+topic: Reports and Analytics
+uuid: be5bcb94-927e-4b5f-b201-3d54eb51e740
 translation-type: tm+mt
-source-git-commit: 15b3f0172f470086ca9a9a596a891de572fcb83e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 营销渠道报告中使用的指标
+# 营销渠道报表中使用的量度
 
 如何在营销渠道报告中使用指标。
 
-## Metrics used in Marketing Channel reports {#topic_F83F5D4C3E144967AD90D956F0E8A999}
+## 营销渠道报表中使用的量度 {#topic_F83F5D4C3E144967AD90D956F0E8A999}
 
 如何在营销渠道报告中使用指标。
 
@@ -29,16 +29,16 @@ source-git-commit: 15b3f0172f470086ca9a9a596a891de572fcb83e
 
  向报表中添加列。
 
-## First and last-touch metrics {#concept_68D9A50204304BA58C1F8013451E7853}
+## 首次接触和最近接触指标 {#concept_68D9A50204304BA58C1F8013451E7853}
 
-首次接触和最后接触是渠道属性，可让您了解访客在渠道中的活动产生的新参与度(或指标数据等指标数据)。
+首次联系和最近联系是渠道属性，通过这些属性，您可以查看访客在渠道中的活动所产生的新参与（或度量数据，如产品查看、收入和订单）数。
 
 When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](../../components/c-marketing-channels/visitor-engagement.md#topic_32ADFDB12D3A4F35843A4545AC97C49F)). 它会记下用户登入所用的第一个渠道以及最近渠道。然后将成功事件的信用赋予每个相应的渠道。
 
 <!-- 
 
 <note>
-  A first-touch value has a rolling expiration based on the frequency of a visitor returning to the site. This first-touch expiration resets whenever a visitor returns to the site. This effects reporting by causing first-touch values to persist longer than you might expect. For example, this can occur if an instance of an first-touch channel was created a year ago. Remove the values on the eVar in the admin console to reset. 
+  A first-touch value has a rolling expiration based on the frequency of a visitor returning to the site. This first-touch expiration resets whenever a visitor returns to the site. This effects reporting by causing first-touch values to persist longer than you might expect. For example, this can occur if an instance of an first-touch channel was created a year ago. Remove the values on the eVar in the admin console to reset.
 </note>
 
  -->
@@ -63,15 +63,13 @@ When a success event occurs, Analytics looks at the entire visitor's activity an
 
 每个成功事件实例都将具有一个“首次联系”渠道和一个“最近联系”渠道。这意味着如果为任何成功事件添加一个给定的量度列，其值始终正好等于同一时间段内的总数。该总数还将正好等于相应[!UICONTROL “网站量度”]&gt;[!UICONTROL “自定义事件”]报表中的事件总数。非成功事件量度（如访问和访客）将不符合一一对应的关系，因为同一访问中可能触发多个渠道。
 
->[!NOTE]
->
->此报告使用每个指标的首次联系或上次联系版本。因此，[!UICONTROL 营销渠道]报表中显示的数据可能与其他报表中显示的数据不匹配。
+> [!NOTE] 此报告使用每个指标的首次联系或最近联系版本。 因此，[!UICONTROL 营销渠道]报表中显示的数据可能与其他报表中显示的数据不匹配。
 
 ## Metric definitions {#section_364D003D34D748B79503DFA4DD208EDB}
 
 | 量度 | 定义 |
 |--- |--- |
-| 首次联系渠道 | 访客参与的第一个营销渠道。从技术上讲，首次接触渠道是一个具有原始分配的eVar。 |
+| 首次联系渠道 | 访客参与的第一个营销渠道。从技术上讲，首次接触渠道是具有原始分配的eVar。 |
 | 首次联系访客 | 在渠道报表中，首次联系访客是来源于某一渠道的每日独特访客。访客参与此网站的持续时间将被存储，可以延续多次访问。 |
 | 最近联系渠道 | 转化渠道，指的是访客参与并导致转化的最后一个营销渠道。只有一个渠道设置为首次联系渠道。最近联系渠道会随着对网站的每次回访而改变。每次访问都有首次联系渠道和最近联系渠道，但首次联系渠道的值从不随后续访问发生变化。 |
 
