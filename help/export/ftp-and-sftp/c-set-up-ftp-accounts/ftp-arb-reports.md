@@ -1,20 +1,20 @@
 ---
-description: 使用Microsoft Excel的Adobe Report Builder插件根据Web分析数据构建自定义请求，您可以插入到Excel工作表中。
-keywords: ftp；sftp
-seo-description: 使用Microsoft Excel的Adobe Report Builder插件根据Web分析数据构建自定义请求，您可以插入到Excel工作表中。
-seo-title: Report Builder提供报告
+description: 使用适用于Microsoft excel的Adobe Report builder插件从Web分析数据构建自定义请求，您可以将其插入Excel工作表。
+keywords: ftp;sftp
+seo-description: 使用适用于Microsoft excel的Adobe Report builder插件从Web分析数据构建自定义请求，您可以将其插入Excel工作表。
+seo-title: Report Builder 传送的报表
 solution: Analytics
-title: Report Builder提供报告
-uuid: 94070700-4073-499a-afe2-10a30 eeab79 f
+title: Report Builder 传送的报表
+uuid: 94070700-4073-499a-afe2-10a30eeab79f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Report Builder提供报告
+# Report Builder 传送的报表
 
-使用Microsoft Excel的Adobe Report Builder插件根据Web分析数据构建自定义请求，您可以插入到Excel工作表中。
+使用适用于Microsoft excel的Adobe Report builder插件从Web分析数据构建自定义请求，您可以将其插入Excel工作表。
 
 请求可动态引用工作表中的单元格，您可以更新和自定义显示数据的方式。对于 FTP，必须确保可从外部使用主机。有关[!UICONTROL 报表生成器]传送报表的详细信息，请参阅[报表生成器帮助](https://marketing.adobe.com/resources/help/en_US/arb/index.html#ReportBuilder_Home)。
 
