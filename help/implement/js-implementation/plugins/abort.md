@@ -6,8 +6,8 @@ seo-title: s.abort 标记
 solution: Analytics
 title: s.abort 标记
 topic: 开发人员和实施
-uuid: 0c6ec8c7-d136-4851-8cb6-6cb1 b7 f0 dc
-translation-type: tm+mt
+uuid: 0c6ec8c7-d136-4851-8cb6-6cb1b7f6f0dc
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
