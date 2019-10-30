@@ -1,18 +1,18 @@
 ---
 description: Report Builder 中“管理请求”的字段说明。
 seo-description: Report Builder 中“管理请求”的字段说明。
-seo-title: 管理请求-定义
+seo-title: 管理请求 - 定义
 solution: Analytics
-title: 管理请求-定义
+title: 管理请求 - 定义
 topic: Report Builder
-uuid: 01b21d0e-c870-4df8-95b9 aef1 aef1 f4 d16 b
+uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 管理请求-定义
+# 管理请求 - 定义
 
 Report Builder 中“管理请求”的字段说明。
 
@@ -20,11 +20,9 @@ Report Builder 中“管理请求”的字段说明。
 
 [!UICONTROL 请求管理器]提供一个详细视图，其中显示为活动工作簿中的所有工作表或一个工作表构建的所有请求的状态。通过右键单击 Excel 电子表格中包含先前请求的可用单元格，您还可以添加、编辑、刷新和删除请求（通常与[!UICONTROL 请求向导]和[!UICONTROL 请求管理器]相关联的功能）。
 
-The [!UICONTROL Request Manager] displays when you click **[!UICONTROL Manage]** ( ![](assets/edit_request.gif) in the Report Builder toolbar.
+单 [!UICONTROL 击“管理] ”（在Report builder工具栏中）时，将显示“请求管理器 ****![](assets/edit_request.gif) ”。
 
->[!NOTE]
->
->Adobe Report Builder仅强制在同一工作表内请求依赖关系，而不能在工作表中执行请求依赖项。将从属关系限制在一张工作表中可确保执行的时效性。
+> [!NOTE] Adobe Report builder仅在同一工作表内强制实施请求依赖关系，而不是跨工作表。 将从属关系限制在一张工作表中可确保执行的时效性。
 
 ## 定义 {#section_FD29D8614DE74F32A0027FA130F40304}
 
