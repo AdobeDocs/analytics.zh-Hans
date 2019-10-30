@@ -8,8 +8,8 @@ subtopic: JavaScript AppMeasurement
 title: Util.getQueryParam
 topic: 开发人员和实施
 uuid: 1fecd148-3e52-46f2-a73f-003563f7a62c
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,11 +28,9 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 s.Util.getQueryParam(key, [url], [delim])
 ```
 
->[!NOTE]
->
->此实用工具的语法不同于插件的语法。
+> [!NOTE]此实用工具的语法不同于插件的语法。
 
-**参数：**
+**参数:**
 
 | 参数 | 描述 |
 |---|---|
@@ -40,7 +38,7 @@ s.Util.getQueryParam(key, [url], [delim])
 | url | （可选）默认 URL 为 `s.pageURL` 或 `window.location`。指定此参数的值会使用指定的 URL 覆盖检索查询参数时所在的 URL。 |
 | delim | （可选）URL 中的参数分隔符。默认分隔符为“&amp;”。它允许您指定备用的查询字符串分隔符，如“;”。 |
 
-**返回结果：**
+**返回结果:**
 
 如果未提供密钥，或者 URL 选项不存在，抑或者是在 URL 中找不到密钥，则函数将返回空字符串“”。如果在 URL 中找到片段分隔符 #，则不会考虑片段分隔符之后的所有内容。如果密钥存在并且被分配给某个值，则会对该值进行 URL 解码并将其返回。
 
