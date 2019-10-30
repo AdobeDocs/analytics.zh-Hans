@@ -7,7 +7,7 @@ title: 日志文件
 topic: Ad Hoc Analysis
 uuid: 1e5c0e70-928b-45de-9f5b-0c562909based
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 1. 单击“Ad Hoc Analysis”**徽标。**
 1. Click **[!UICONTROL Save Log File]**.
 
->[!NOTE]
->
->使用此过程保存的日志适用于当前会话。
+> [!NOTE] 使用此过程保存的日志适用于当前会话。
 
