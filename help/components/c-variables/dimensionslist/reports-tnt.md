@@ -4,10 +4,10 @@ seo-description: 在报表中查看和细分 Adobe Target 流量数据。
 seo-title: Target
 solution: Analytics
 title: Target
-topic: 报表
-uuid: 387dfc37-d799-465c-99e3-2d3980 fec183
+topic: 报告
+uuid: 387dfc37-d799-465c-99e3-2d3980fec183
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
