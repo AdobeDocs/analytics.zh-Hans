@@ -7,8 +7,8 @@ solution: Analytics
 title: 常规
 topic: 开发人员和实施
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
-translation-type: ht
-source-git-commit: 49c81e50ff10060ef7a3debe82132d1099e25118
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,10 +35,10 @@ DTM 中用于部署 Adobe Analytics 的“常规”设置的字段描述。
      <li id="li_1E74E02D7E4646ACA86D862A1D3C6679"> 如果该 Cookie 存在且设置为 <span class="term">true</span>，则该工具会正常加载。 </li> 
     </ul> <p>如果访客选择禁用，则由您负责将 <span class="filepath">sat_track</span>（或命名的自定义）Cookie 设置为 <span class="term">false</span>。您可以使用以下自定义代码实现此操作： </p> <p> 
      <code>
-       _satellite.setCookie(“sat_track”,&amp;nbsp;“false”); 
+       _satellite.setCookie("sat_track",&amp;nbsp;"false"); 
      </code> </p> <p> 如果希望访客稍后能够选择加入，则还必须具有一种机制，以将该 Cookie 设置为 <span class="term">true</span>： </p> <p> 
      <code>
-       _satellite.setCookie(“sat_track”,&amp;nbsp;“true"); 
+       _satellite.setCookie("sat_track",&amp;nbsp;"true"); 
      </code> </p> </td> 
   </tr> 
   <tr> 
