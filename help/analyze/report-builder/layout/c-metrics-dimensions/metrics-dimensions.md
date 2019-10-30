@@ -1,22 +1,22 @@
 ---
-description: 您可以向请求向导步骤中添加度量和维度，以定义请求中数据的分析布局。Report Builder中的量度和维度列表遵循报告和分析中显示的菜单布局。
-seo-description: 您可以向请求向导步骤中添加度量和维度，以定义请求中数据的分析布局。Report Builder中的量度和维度列表遵循报告和分析中显示的菜单布局。
-seo-title: 指标和维度概述
+description: 您可以向请求向导第2步中添加度量和维度，以定义请求中数据的分析布局。 Report Builder中的度量和维度列表遵循“报告和分析”中显示的菜单布局。
+seo-description: 您可以向请求向导第2步中添加度量和维度，以定义请求中数据的分析布局。 Report Builder中的度量和维度列表遵循“报告和分析”中显示的菜单布局。
+seo-title: 量度和维度概述
 solution: Analytics
-title: 指标和维度概述
+title: 量度和维度概述
 topic: Report Builder
-uuid: eb305a06-d914-45c6-a7 b1-fd0342473 b0 c
+uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 指标和维度概述
+# 量度和维度概述
 
-您可以向请求向导添加指标和维度：第步，定义请求中数据的Analytics布局。Report Builder中的量度和维度列表遵循报告和分析中显示的菜单布局。
+您可以向请求向导中添加度量和维：第2步，定义请求中数据的Analytics布局。 Report Builder中的度量和维度列表遵循“报告和分析”中显示的菜单布局。
 
-量度是数字值，包含有关网站上活动的量化信息，如“[!UICONTROL 页面查看次数]”、“[!UICONTROL 访客资料]”、“[!UICONTROL 点进次数]”、“[!UICONTROL 重新加载次数]”、“[!UICONTROL 平均花费的时间]”、“[!UICONTROL 日期]”、“[!UICONTROL 单位]”等。Report Builder在多个组中组织指标，在Analytics中遵循标准分组：
+量度是数字值，包含有关网站上活动的量化信息，如“[!UICONTROL 页面查看次数]”、“[!UICONTROL 访客资料]”、“[!UICONTROL 点进次数]”、“[!UICONTROL 重新加载次数]”、“[!UICONTROL 平均花费的时间]”、“[!UICONTROL 日期]”、“[!UICONTROL 单位]”等。Report Builder将指标组织到多个组中，这些组遵循Analytics中的标准分组：
 
 * 标准流量：基于指定的行式项目显示量度。例如，在一份“页面”报表中，“访问”量度将显示该特定页面的访问次数。
 * 标准商业：如“收入”、“订单”和“结帐”等量度。
