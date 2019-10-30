@@ -4,10 +4,10 @@ seo-description: 收集并整理单个页面的特定信息并在单个报表中
 seo-title: 页面概要
 solution: Analytics
 title: 页面概要
-topic: 报表
-uuid: 00ae130a-08c07-409f-930a-d79 a863192 b
+topic: 报告
+uuid: 00ae130a-8c07-409f-930a-d79a8631992b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
