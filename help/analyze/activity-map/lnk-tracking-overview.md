@@ -7,7 +7,7 @@ title: 可靠的链接跟踪
 topic: Activity Map
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -23,17 +23,11 @@ For more on link tracking in [!DNL Activity Map], go [here](/help/analyze/activi
 
 ## How [!DNL Activity Map] link tracking may collect PII Data {#section_AEE57510D17B4C21A7D49D32D21D67B9}
 
->[!CAUTION]
->
->By turning on [!DNL Activity Map] tracking, you may be collecting personally identifiable information (PII) data. 通过单独使用这些数据或结合其他信息，可以识别、联系或查找个人，或者在上下文中识别个人。
->
->Here are some known cases where PII data might be collected using [!DNL Activity Map] Tracking:
->
->* `Mailto` 链接。 Mailto 链接是一种 HTML 链接，它可以激活计算机上的默认邮件客户端来发送电子邮件。
->* `User ID` 用户登录后，网站的页眉／页脚中可能显示的链接。
->* 在金融机构的网站中，账号可能会显示为链接。单击该链接将收集链接的文本。
->* 在医疗保健网站中，PII 数据也可能会显示为链接。单击这些链接将收集链接的文本，进而收集 PII 数据。
->
+> [!CAUTION] 通过打开 [!DNL Activity Map] 跟踪功能，您可能正在收集个人识别信息(PII)数据。 通过单独使用这些数据或结合其他信息，可以识别、联系或查找个人，或者在上下文中识别个人。
 
+Here are some known cases where PII data might be collected using [!DNL Activity Map] Tracking:
 
-
+* `Mailto` 链接。 Mailto 链接是一种 HTML 链接，它可以激活计算机上的默认邮件客户端来发送电子邮件。
+* `User ID` 用户登录后，网站的页眉／页脚中可能显示的链接。
+* 在金融机构的网站中，账号可能会显示为链接。单击该链接将收集链接的文本。
+* 在医疗保健网站中，PII 数据也可能会显示为链接。单击这些链接将收集链接的文本，进而收集 PII 数据。
