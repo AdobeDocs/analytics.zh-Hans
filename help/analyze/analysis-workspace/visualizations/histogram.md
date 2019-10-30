@@ -3,9 +3,9 @@ description: 直方图是 Analysis Workspace 中一种新的可视化类型。
 seo-description: 直方图是 Analysis Workspace 中一种新的可视化类型。
 seo-title: 直方图
 title: 直方图
-uuid: 8a6bd2c4-da15-4f64-b889-ab9 add685046
+uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ![](assets/histogram.png)
 
->[!NOTE]
->
->直方图仅支持标准指标，而不支持计算指标。
+> [!NOTE] 直方图仅支持标准度量，不支持计算度量。
 
 这里我们使用的是对应每个独特访客的页面查看次数量度。第一个（左）存储段对应每个独特访客 1 次页面查看，第二个存储段对应 2 次页面查看，依次类推。
 
@@ -41,9 +39,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 开始存储段 | 确定直方图从哪个存储段开始。“1”为默认值。您可以在 0 到无穷大（非负数）的范围内设置开始数量。 |
 | 量度存储段 | 您可以增加/减少数据范围（存储段）的数量。存储段的最大数量为 50。 |
 | 量度存储段大小 | 您可以设置每个存储段的大小。例如，您可以将存储段大小从 1 次页面查看更改为 2 次页面查看。 |
-| 计算方法 | 您可以在[访客](https://marketing.adobe.com/resources/help/en_US/reference/visitors.html)、[访问](https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html)或[点击](https://marketing.adobe.com/resources/help/en_US/reference/hit.html)中进行选择。例如，每次访问的页面查看次数或每位访客的页面查看次数，或者每次点击的页面查看次数。对于点击来说，“发生次数”可作为自由格式表中的 y 轴量度。 |
+| 计算方法 | 您可以在[访客](https://marketing.adobe.com/resources/help/en_US/reference/visitors.html)、[访问](https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html)或[点击](https://marketing.adobe.com/resources/help/en_US/reference/hit.html)中进行选择。例如，每次访问的页面查看次数或每位访客的页面查看次数，或者每次点击的页面查看次数。对于“命中”,“发生次数”用作自由格式表中的y轴度量。 |
 
-**示例**：
+**示例**:
 
 * 开始存储段：1；量度存储段：5；量度存储段大小：2 将生成此直方图：1-2、3-4、5-6、7-8、9-10。
 * 开始存储段：0；量度存储段：3；量度存储段大小：5 将生成此直方图：0-4、5-9、10-14。
