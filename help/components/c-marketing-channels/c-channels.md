@@ -1,23 +1,23 @@
 ---
-description: 在营销渠道管理器中添加或启用营销渠道。对于没有营销渠道的报表包，自动设置让您可以创建多个渠道及渠道规则。您可以编辑预定义渠道以满足您的需求，或创建您自己的渠道（最多 25 个）。
-seo-description: 在营销渠道管理器中添加或启用营销渠道。对于没有营销渠道的报表包，自动设置让您可以创建多个渠道及渠道规则。您可以编辑预定义渠道以满足您的需求，或创建您自己的渠道（最多 25 个）。
+description: 在营销渠道管理器中添加或启用营销渠道。 对于没有营销渠道的报表包，自动设置让您可以创建多个渠道及渠道规则。您可以编辑预定义渠道以满足您的需求，或创建您自己的渠道（最多 25 个）。
+seo-description: 在营销渠道管理器中添加或启用营销渠道。 对于没有营销渠道的报表包，自动设置让您可以创建多个渠道及渠道规则。您可以编辑预定义渠道以满足您的需求，或创建您自己的渠道（最多 25 个）。
 seo-title: 管理营销渠道
 solution: Analytics
 subtopic: 营销渠道
 title: 管理营销渠道
-topic: Reports & Analytics
-uuid: 9d367bb6-a17 b-49b8-9cd5-24fac35 ae982
+topic: Reports and Analytics
+uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 管理营销渠道
 
-在营销渠道管理器中添加或启用营销渠道。对于没有营销渠道的报表包，自动设置让您可以创建多个渠道及渠道规则。您可以编辑预定义渠道以满足您的需求，或创建您自己的渠道（最多 25 个）。
+在营销渠道管理器中添加或启用营销渠道。 对于没有营销渠道的报表包，自动设置让您可以创建多个渠道及渠道规则。您可以编辑预定义渠道以满足您的需求，或创建您自己的渠道（最多 25 个）。
 
-## Manage marketing channels {#topic_45CF1C6A783B4F96ABF6317EAB6A854F}
+## 管理营销渠道 {#topic_45CF1C6A783B4F96ABF6317EAB6A854F}
 
 Add or enable marketing channels in the [!UICONTROL Marketing Channel Manager]. 对于没有营销渠道的报表包，自动设置让您可以创建多个渠道及渠道规则。您可以编辑预定义渠道以满足您的需求，或创建您自己的渠道（最多 25 个）。
 
@@ -32,16 +32,14 @@ Add or enable marketing channels in the [!UICONTROL Marketing Channel Manager]. 
 
 在营销渠道管理器中添加营销渠道。
 
->[!NOTE]
->
->无法删除渠道。如果您不想使用某个渠道，您可以禁用或重命名该渠道并将其保存以供日后使用。
+> [!NOTE] 无法删除渠道。 如果您不想使用某个渠道，您可以禁用或重命名该渠道并将其保存以供日后使用。
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. 在[!UICONTROL “报表包管理器”]页面上，选择一个报表包。
 
    如果您选择多个报表包，则需要选择一个可将设置从模板复制到选定报表包的模板。
 
-   请参阅[将模板报表包设置应用于多个报表包](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC)。
+   请参阅 [将模板报表包设置应用于多个报表包](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC).
 
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Manager]**.
 
