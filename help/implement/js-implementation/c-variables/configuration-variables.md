@@ -1,7 +1,7 @@
 ---
-description: Configuration variables set in AppMeasurement.js.
+description: 配置变量是在 AppMeasurement.js 中设置的。
 keywords: Analytics 实施
-seo-description: 在AppMeasurement.js for Adobe Analytics中设置的配置变量
+seo-description: 在适用于 Adobe Analytics 的 AppMeasurement.js 中设置的配置变量
 seo-title: 配置变量
 solution: Analytics
 subtopic: 变量
@@ -9,16 +9,16 @@ title: 配置变量
 topic: 开发人员和实施
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: a340bb50ec437db64dafaddc0b20aec740aee299
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 配置变量概述
+# 配置变量 概述
 
-配置变量能够控制报表中捕获和处理数据的方式。The most-common configuration variables that are typically set in the main global JavaScript AppMeasurement.js). 这些变量可在Analytics页面级别代码和链接中进行设置（如果适用）。
+配置变量能够控制报表中捕获和处理数据的方式。最常用的配置变量通常是在主要的全局 JavaScript (AppMeasurement.js) 中设置的。适当的时候，可以在 Analytics 页面级代码和链接中设置这些变量。
 
-Not all of these variables appear in the code by default when you generate code through the **[!UICONTROL Admin Tool]** &gt; **[!UICONTROL Code Manager]**. 某些配置变量可能并不适用于您站点的实施需求。
+通过&#x200B;**[!UICONTROL 管理工具]** &gt; **[!UICONTROL 代码管理器]**&#x200B;生成代码时，默认情况下，并非所有这些变量都会显示在代码中。某些配置变量可能并不适用于您站点的实施需求。
 
 使用这些配置变量的部分目的在于：
 
@@ -28,9 +28,7 @@ Not all of these variables appear in the code by default when you generate code 
 * 链接跟踪（已下载文件的数量，指向外部站点的链接）。
 * 跟踪自定义链接以实现独特的目的。
 
->[!NOTE]
->
->[!DNL AppMeasurement] 要求在对跟踪函数的初始调用之前设置所有配置变量 `t()`。 如果在调用后设置了配置变量，则可 `t()`能会出现意外结果。 To ensure proper data collection, all configuration variables must be above the `doPlugins` function.
+> [!NOTE][!DNL AppMeasurement] 要求所有配置变量都必须在初次调用跟踪函数 `t()` 之前设置。如果在调用 `t()` 之后设置配置变量，可能会发生意外结果。为确保正常的数据收集，所有配置变量都必须位于 `doPlugins` 函数上方。
 
 要获得有关特定配置变量的帮助，请单击以下任意链接：
 
@@ -52,23 +50,23 @@ Not all of these variables appear in the code by default when you generate code 
 
 * [s.cookieDomainPeriods](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-cookdomperiods.html):通过指定页 `s_cc` 面URL `s_sq` 域中的句点数，确定域和Cookie。
 
-* [s.fpCookieDomainPeriods: Specify cookies set by JavaScript (, , plug-ins) that are inherently first-party cookies, even with third-party  or  domains.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-fpcookdomperiods.html)`s_sq``s_cc``2o7.net``omtrdc.net`
+* [s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-fpcookdomperiods.html):指定由JavaScript(`s_sq`、 `s_cc`插件)设置的内在是第一方Cookie的Cookie，即使是第三方或域 `2o7.net` 也是 `omtrdc.net` 如此。
 
-* [s.cookieLifetime: Determine lifespan of a cookie as processed by both JavaScript and data collection servers.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-cooklifetime.html)
+* [s.cookieLifetime](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-cooklifetime.html):确定JavaScript和数据收集服务器处理的Cookie的寿命。
 
-* [s.doPlugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-doplugins.html): Refer and allow the function to be called at the appropriate location within the JavaScript file.
+* [s.doPlugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-doplugins.html):引用并允许在JavaScript文件中的适当位置调用该函数。
 
-* [s.registerPreTrackCallback](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-regpretrackcback.html): Function for taking as parameters both the callback (a function), and the parameters to that function.
+* [s.registerPreTrackCallback](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-regpretrackcback.html):用作回调（函数）和该函数的参数的函数。
 
-* [s.registerPostTrackCallback](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-regpretrackcback.html): Function for taking as parameters both the callback (a function), and the parameters to that function.
+* [s.registerPostTrackCallback](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-regpretrackcback.html):用作回调（函数）和该函数的参数的函数。
 
-* [s.trackDownLoadLinks: Track links to downloadable files on your site.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackdnloadlinks.html)
+* [s.trackDownLoadLinks](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackdnloadlinks.html):跟踪网站上可下载文件的链接。
 
-* [s.trackExternalLinks: Determine whether any link clicked is an exit link.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackextlinks.html)
+* [s.trackExternalLinks](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackextlinks.html):确定单击的任何链接是否为退出链接。
 
-* [s.trackInlineStats](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackinlinestats.html): Determine whether ClickMap data is gathered.
+* [s.trackInlineStats](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackinlinestats.html):确定是否收集ClickMap数据。
 
-* [s.linkDownloadFileTypes: Include a comma-separated list of file extensions.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkdownldftype.html)
+* [s.linkDownloadFileTypes](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkdownldftype.html):包含以逗号分隔的文件扩展名列表。
 
 * [s.linkInternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkintfilters.html):包括以逗号分隔的过滤器列表，这些过滤器表示站点中的链接。
 
@@ -78,5 +76,5 @@ Not all of these variables appear in the code by default when you generate code 
 
 * [s.linkExternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkextfilters.html):用于报告特定的退出链接子集。
 
-* [s.usePlugins: Call the  function prior to each image request.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-useplugins.html)`s_doPlugins`
+* [s.usePlugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-useplugins.html):在每个图 `s_doPlugins` 像请求之前调用函数。
 
