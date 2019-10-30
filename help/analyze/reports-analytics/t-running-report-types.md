@@ -7,7 +7,7 @@ title: 运行不同的报表类型
 topic: 报表, Reports and Analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -157,9 +157,7 @@ t_anomaly_view.xml
 
 **[!UICONTROL 报告]** &gt; **[!UICONTROL 站点度量]** &gt;异 **[!UICONTROL 常检测]** 。
 
->[!NOTE]
->
->您还可以从Analysis Workspace项目中运行异常检测。 [更多...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
+> [!NOTE] 您还可以从Analysis Workspace项目中运行异常检测。 [更多...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
 
 有关设置异常检测的信息，请参阅《[参考指南](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Setting_up_Anomaly_Detection)》。
 
@@ -313,7 +311,7 @@ reports_realtime.xml
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>按最受欢迎/获胜方/失败方进行排序</strong></td> 
-   <td class="chdesc stentry"> 您可以按<span class="uicontrol">最受欢迎</span>（默认）、<span class="uicontrol">获胜方</span>（显示增长最多的维度）和<span class="uicontrol">失败方</span>（处于下跌轨迹的维度）切换排序。 <p>下面是用来确定获胜方或失败方的公式：“实时”查看最早的示例和接近最新的示例，然后执行简单的“% 变更”计算。如果选定“最近 15 分钟”，且 n 代表当前时间，则会计算 n-1 与 n-15 期间的变更情况。“实时”当前不执行任何加权操作。当前的时间（分钟）会被忽略，因为它没有完成，而且可能会产生一个错误的 % 变更。 </p> <p>这个公式对于实时报表中用到的所有量度来说，都是一致的。 </p> </td> 
+   <td class="chdesc stentry"> 您可以按<span class="uicontrol">最受欢迎</span>（默认）、<span class="uicontrol">获胜方</span>（显示增长最多的维度）和<span class="uicontrol">失败方</span>（处于下跌轨迹的维度）切换排序。 <p>下面是用于确定获胜方或失败方的公式：实时查看最早的样本和最新的样本，并执行简单的“%更改”计算。 因此，如果选择“最近15分钟”，且n表示当前分钟，则将n-1与n-15进行比较。 “实时”当前不执行任何加权操作。当前的时间（分钟）会被忽略，因为它没有完成，而且可能会产生一个错误的 % 变更。 </p> <p>这个公式对于实时报表中用到的所有量度来说，都是一致的。 </p> </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>次要 1 缩图报表</strong></td> 
