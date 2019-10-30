@@ -9,7 +9,7 @@ title: 用户和群组权限更改
 topic: 管理工具
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: 60305dce752362a2e9d871673a550629e4460a46
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ source-git-commit: 60305dce752362a2e9d871673a550629e4460a46
 
 **[!UICONTROL 管理员]** &gt;用 **[!UICONTROL 户管理]** &gt;用 **[!UICONTROL 户组]**
 
->[!NOTE]
->
->由于可用的可能权限组合数量很多，因此我们无法提供描述可用于每个权限组合的所有API方法的文档。 通常，被授予 Web 服务访问权限的非管理员将只有 API 方法的读取权限。他们将没有这些方法的写入权限。
+> [!NOTE] 由于可用的可能权限组合数量很多，因此我们无法提供描述可用于每个权限组合的所有API方法的文档。 通常，被授予 Web 服务访问权限的非管理员将只有 API 方法的读取权限。他们将没有这些方法的写入权限。
 
 由于 API 和界面使用相同的权限系统，因此无论管理员在界面（Adobe 管理控制台）中为特定的非管理员授予怎样的权限，该用户在 API 中都将拥有相同的权限。
 
@@ -128,9 +126,7 @@ source-git-commit: 60305dce752362a2e9d871673a550629e4460a46
 
 下表列出了相关任务以及执行这些任务的位置（具体取决于公司的状态）。
 
->[!NOTE]
->
->A *`migrated user`* and *`Experience Cloud user`* refer to users who have accepted an email invitation to join the Experience Cloud. 如果未接受电子邮件邀请，则用户仍是Analytics用户，无法在Admin Console中进行管理。 （迁移时使用了[企业或联合 ID](https://helpx.adobe.com/enterprise/using/set-up-identity.html) 的情况除外。在这种情况下，当管理员逐个迁移用户时，将迁移此类用户。）
+> [!NOTE] A *`migrated user`* 和 *`Experience Cloud user`* 指已接受加入Experience cloud的电子邮件邀请的用户。 如果未接受电子邮件邀请，则用户仍是Analytics用户，无法在Admin Console中进行管理。 （迁移时使用了[企业或联合 ID](https://helpx.adobe.com/enterprise/using/set-up-identity.html) 的情况除外。在这种情况下，当管理员逐个迁移用户时，将迁移此类用户。）
 
 <table id="table_B68FD00FC5D24823A86BB69558C0327C"> 
  <thead> 
