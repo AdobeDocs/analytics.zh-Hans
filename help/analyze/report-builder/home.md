@@ -3,9 +3,9 @@ seo-title: Adobe Report Builder 帮助
 solution: Analytics
 title: Adobe Report Builder 帮助
 topic: Report Builder
-uuid: 034ae0e-4a98-4bac-977d-92515960c46e
+uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
 translation-type: tm+mt
-source-git-commit: 4d9f6d7573dc321229e957844fa4a5343f523cc7
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 4d9f6d7573dc321229e957844fa4a5343f523cc7
 
 <!-- >>[!IMPORTANT]
 >
->Update your installation of Report Builder to the latest version. This update is a pre-requisite for running the Analytics user ID migration to the Admin Console, beginning in April 2018. 
+>Update your installation of Report Builder to the latest version. This update is a pre-requisite for running the Analytics user ID migration to the Admin Console, beginning in April 2018.
 >
 >See [Analytics User Migration to the Admin Console](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/) for migration information.
 
@@ -26,7 +26,7 @@ source-git-commit: 4d9f6d7573dc321229e957844fa4a5343f523cc7
 
 <!-- Tutorial goes here -->
 
-## 常用帮助主题
+## 热门帮助主题
 
 * [设置、安装和登录](setup/login.md)
 * [计划报表请求](schedule-report-requests.md)
@@ -39,7 +39,7 @@ source-git-commit: 4d9f6d7573dc321229e957844fa4a5343f523cc7
 * [如何创建数据请求？](data-requests/t-create-a-data-request.md)
 * [Report Builder 疑难解答和最佳做法](troubleshoot.md)
 
-## Experience Cloud资源
+## Experience cloud资源
 
 * [Adobe Analytics 社区](https://helpx.adobe.com/marketing-cloud/analytics.html)
 * [Experience Cloud 发行说明](https://marketing.adobe.com/resources/help/en_US/whatsnew/index.html#Current%20Release%20Notes)
@@ -49,8 +49,8 @@ source-git-commit: 4d9f6d7573dc321229e957844fa4a5343f523cc7
 * [Adobe 培训和教程](https://helpx.adobe.com/learning.html?promoid=KAUDK)
 * [特色解决方案服务中心](https://www.omniture.com/en/products/online_business_optimization)
 
-## Reports&amp; Analytics帮助
+## Reports &amp; Analytics帮助
 
 * [Analysis Workspace 帮助](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)
 * [Reports &amp; Analytics 帮助](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html)
-* [有关管理员工具、报告和指标的分析参考](https://marketing.adobe.com/resources/help/en_US/reference/index.html) 帮助。
+* [有关管理工具](https://marketing.adobe.com/resources/help/en_US/reference/index.html) 、报告和指标的分析参考帮助。
