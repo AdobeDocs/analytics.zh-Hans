@@ -2,18 +2,18 @@
 description: 路径信息可能不被记录，没有显示在报表中的原因列表。
 keywords: Analytics 实施
 seo-description: 路径信息可能不被记录，没有显示在报表中的原因列表。
-seo-title: 可能无法记录路径
+seo-title: 没有记录路径分析的可能原因
 solution: Analytics
-title: 可能无法记录路径
+title: 没有记录路径分析的可能原因
 topic: 开发人员和实施
 uuid: 9985b7f7-75ea-4c94-97a3-520f92630989
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 ---
 
 
-# 可能无法记录路径
+# 没有记录路径分析的可能原因
 
 路径信息可能不被记录，没有显示在报表中的原因列表。
 
