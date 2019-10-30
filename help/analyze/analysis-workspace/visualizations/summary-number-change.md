@@ -1,18 +1,18 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 概要数字和概要变化
-title: 概要数字和概要变化
+seo-title: 概要数量和概要更改
+title: 概要数量和概要更改
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 概要数字和概要变化
+# 概要数量和概要更改
 
-## 摘要编号可视化
+## 概要数字可视化
 
 * 如果未选中单元格，此可视化则会选择总列数。
 * 如果选中了单个单元格，此可视化则会显示该单元格的概要。
