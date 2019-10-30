@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 分类
 title: 流量分类
 topic: 管理工具
-uuid: 091bec9b-98ff-4d67-b789-e51 c2712839 f
+uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 流量分类允许您对流量变量 (prop) 进行分类。流量分类只能使用文本分类。
 
-## Traffic classifications {#concept_028079B29A9C412AA68910A87E11176F}
+## 流量分类 {#concept_028079B29A9C412AA68910A87E11176F}
 
 流量分类允许您对流量变量 (prop) 进行分类。流量分类只能使用文本分类。
 
@@ -36,7 +36,7 @@ t_classification_add_traffic.xml
 描述如何添加或编辑选定报表包的分类的步骤。
 
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** in the Suite header.
-1. 选择一个报表包。
+1. 选择报表包.
 1.  在&#x200B;**选择分类类型**&#x200B;字段中，选择要添加分类的变量。
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Traffic]** &gt; **[!UICONTROL Traffic Classifications]**.
 
