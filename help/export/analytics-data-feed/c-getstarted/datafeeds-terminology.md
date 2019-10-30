@@ -1,13 +1,13 @@
 ---
 description: 使用 Analytics 数据馈送界面时，了解关键术语十分重要。
-keywords: 数据馈送；条款；术语；job
+keywords: 数据馈送；术语；术语；作业
 seo-description: 使用 Analytics 数据馈送界面时，了解关键术语十分重要。
 seo-title: 术语
 solution: Analytics
 title: 术语
-uuid: 87368708-aaac-40a5-bd00-b0964 bcf3507
+uuid: 87368708-aaac-40a5-bd00-b0964bcf3507
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
