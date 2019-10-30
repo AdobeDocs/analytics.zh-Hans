@@ -1,19 +1,19 @@
 ---
 description: 您可以使用查询字符串参数填充变量。
 seo-description: 您可以使用查询字符串参数填充变量。
-seo-title: 从查询字符串参数中填充系列活动ID
+seo-title: 通过查询字符串参数填充促销活动 ID
 solution: Analytics
 subtopic: 处理规则
-title: 从查询字符串参数中填充系列活动ID
+title: 通过查询字符串参数填充促销活动 ID
 topic: 管理工具
-uuid: 2bc61f9f-d8 d2-41b7-bd39-4a9 df30 ff013
+uuid: 2bc61f9f-d8d2-41b7-bd39-4a9df30ff013
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 从查询字符串参数中填充系列活动ID
+# 通过查询字符串参数填充促销活动 ID
 
 您可以使用查询字符串参数填充变量。
 
