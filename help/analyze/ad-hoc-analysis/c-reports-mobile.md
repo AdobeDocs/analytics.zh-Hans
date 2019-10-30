@@ -1,20 +1,20 @@
 ---
 description: 显示从移动设备所访问的网站的相关信息。移动设备报表收集有关用于查看网站的移动设备的数据，从而改进访客识别。移动设备报表可以确定设备的制造商和功能，如屏幕大小、视频、音频，Cookie 支持及其他量度等。移动设备报表可用于所有报表包。
 seo-description: 显示从移动设备所访问的网站的相关信息。移动设备报表收集有关用于查看网站的移动设备的数据，从而改进访客识别。移动设备报表可以确定设备的制造商和功能，如屏幕大小、视频、音频，Cookie 支持及其他量度等。移动设备报表可用于所有报表包。
-seo-title: 移动报告
-title: 移动报告
-uuid: beb1fc34-3541-4b2d-b9 cb-84d2 e91 d9539
+seo-title: 移动设备报表
+title: 移动设备报表
+uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 移动报告
+# 移动设备报表
 
 显示从移动设备所访问的网站的相关信息。移动设备报表收集有关用于查看网站的移动设备的数据，从而改进访客识别。移动设备报表可以确定设备的制造商和功能，如屏幕大小、视频、音频，Cookie 支持及其他量度等。移动设备报表可用于所有报表包。
 
-## Mobile reports {#concept_08B95A72D0BA45EDAE9F56D0161EDC8C}
+## 移动设备报表 {#concept_08B95A72D0BA45EDAE9F56D0161EDC8C}
 
 显示从移动设备所访问的网站的相关信息。移动设备报表收集有关用于查看网站的移动设备的数据，从而改进访客识别。移动设备报表可以确定设备的制造商和功能，如屏幕大小、视频、音频，Cookie 支持及其他量度等。移动设备报表可用于所有报表包。
 
@@ -22,7 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->To view reports on a mobile a device, login to the [Experience Cloud](https://login.experiencecloud.adobe.com).
+>要在移动设备上查看报告，请登录 [Experience Cloud](https://login.experiencecloud.adobe.com)。
 
 For more information about mobile tracking, see the [Mobile Analytics](https://www.adobe.com/experience-cloud/topics/mobile-analytics.html) site.
 
