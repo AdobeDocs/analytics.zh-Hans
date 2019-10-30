@@ -8,7 +8,7 @@ title: 有关 Analytics 实施的常见问题解答
 topic: 开发人员和实施
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
    <td colname="col3"> <p>有关管理用户和群组的信息，请参阅 Adobe Experience Cloud 帮助中的<a href="https://marketing.adobe.com/resources/help/en_US/reference/user_management.html" format="html" scope="external">用户和产品管理</a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>eVar 过期 - 为什么 eVar 在报表中被赋予“无”的属性？ </p> </td> 
+   <td colname="col2"> <p>eVar到期——为什么eVar在报表中被归为“无”? </p> </td> 
    <td colname="col3"> <p> <span class="uicontrol">过期时间</span>会指定一个时段或事件，eVar 值将在此时段或事件之后过期（即，不再对成功事件计数）。如果在 eVar 过期之后发生成功事件，则由“无”值接收该事件的信用（不激活任何 eVar）。如果选择某个事件作为过期值，则变量仅在该事件发生时过期。如果未发生该事件，则变量从不过期。<a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html" format="https" scope="external"> [更多...] </a> </p> </td> 
   </tr> 
   <tr> 
@@ -141,7 +141,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 | 问题 | 回答 |
 |---|---|
 | 我该如何管理 Analytics 用户和群组？ | 有关管理用户和用户组的信息，请参 [阅Adobe Experience Cloud核心服务帮助中的](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) “管理Experience cloud用户和产品”。 |
-| eVar 过期 - 为什么 eVar 在报表中被赋予“无”的属性？ | `Expire After` 指定一个时段或事件，eVar 值将在此时段或事件之后过期（即，不再接收成功事件的信用）。如果在 eVar 过期之后发生成功事件，则由“无”值接收该事件的信用（不激活任何 eVar）。如果选择某个事件作为过期值，则变量仅在该事件发生时过期。如果未发生该事件，则变量从不过期。[[更多...](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
+| eVar到期——为什么eVar在报表中被归为“无”? | `Expire After` 指定一个时段或事件，eVar 值将在此时段或事件之后过期（即，不再接收成功事件的信用）。如果在 eVar 过期之后发生成功事件，则由“无”值接收该事件的信用（不激活任何 eVar）。如果选择某个事件作为过期值，则变量仅在该事件发生时过期。如果未发生该事件，则变量从不过期。[[更多...](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
 | 自定义事件可见性 - 为何自定义事件没有显示在报表菜单中？ | 在可见性列中，您可以隐藏“菜单”、“量度选择器”、“计算量度生成器”和“区段生成器”中的标准（内置）量度、自定义事件和内置事件。这项设置不影响相关量度或事件的数据收集，而只会影响该量度或事件在用户界面中的可见性。[[更多...](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/metric-visibility.html) |
 | 时间戳 - 更改时间戳设置前，需要考虑什么？ | 使用可选时间戳功能，您可以整合未加盖时间戳的数据和加盖时间戳的数据，且不会造成数据丢失。生成自移动设备的具有时间戳的离线数据可以与网页上未加盖时间戳的实时数据相整合，或是使用客户端时间戳调用与来自任何平台的数据集成。[[更多...](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/timestamps-overview.html) |
 | 访客 ID - 访客 ID 宽限期的工作方式，如何启用它？ | 如果有多个 JavaScript 文件要将数据发送至同一报表包，或者，如果您目前在自己的网站上使用 Flash 视频测量等其他技术，那么我们建议配置一个宽限期。[更多...](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/grace-period.html) |
