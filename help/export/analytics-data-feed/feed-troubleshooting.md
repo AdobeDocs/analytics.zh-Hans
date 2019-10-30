@@ -2,17 +2,17 @@
 description: 本节包含一些常见问题的相关信息。
 keywords: 数据馈送；疑难解答
 seo-description: 本节包含一些常见问题的相关信息。
-seo-title: 数据源疑难解答
+seo-title: 数据馈送疑难解答
 solution: Analytics
-title: 数据源疑难解答
+title: 数据馈送疑难解答
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 数据源疑难解答
+# 数据馈送疑难解答
 
 本节包含一些常见问题的相关信息。
 
@@ -44,15 +44,15 @@ Amazon S3 的常见使用案例是 Amazon Web Services (AWS) 帐户所有者创�
 
 ## 重新发送选项 {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
-Once you have verified/corrected the delivery issue, just use [rerun the job](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501) to get the files.
+验证／更正传送问题后，只需重新运 [行作业](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501) ，即可获取文件。
 
 ## 夏令时对每小时数据馈送的影响 {#section_70E867D942054DD09048E027A9474FFD}
 
 对于某些时区，由于定义了夏令时 (DST)，时间将每年更改两次。数据馈送遵循报表包所配置的时区。如果报表包的时区不使用 DST，则文件提交将像任何其他日期一样照常继续进行。如果报表包的时区使用 DST，则文件提交将在发生时间更改的那个小时（通常是凌晨 2 点）进行改变。
 
-当由 STD 时间转换为 DST 时间（调快一个小时）时，客户将只收到 23 个文件。DST 转换中跳过的那个小时会被简单忽略。例如，如果转换在凌晨 2 点发生，则客户将收到凌晨 1 点和 3 点的文件。没有凌晨 2 点的文件，因为 STD 的 2 点变为了 DST 的 3 点。
+进行STD -&gt; DST时间转换(“Spring Forward”)时，客户只能获得23个文件。 DST 转换中跳过的那个小时会被简单忽略。例如，如果转换发生在凌晨2点，他们将获得1:00小时的文件，并将获得3:00小时的文件。 没有凌晨 2 点的文件，因为 STD 的 2 点变为了 DST 的 3 点。
 
-当由 DST 时间转换为 STD 时间（调慢一个小时）时，客户将收到 24 个文件。但是，发生转换的那个小时将实际包含 2 个小时的有效数据。例如，如果转换在凌晨 2 点发生，则 1 点的文件将会延迟一个小时，而将包含两个小时的数据。该文件将包含从 DST 的 1 点到 STD 的 2 点（即 DST 的 3 点）的数据。下一个文件将在 STD 的 2 点开始。
+进行DST -&gt; STD转换时（“回退”），客户将获得24个文件。 但是，转换时间实际上将包括2小时的数据。 例如，如果转换在凌晨 2 点发生，则 1 点的文件将会延迟一个小时，而将包含两个小时的数据。该文件将包含从 DST 的 1 点到 STD 的 2 点（即 DST 的 3 点）的数据。下一个文件将在 STD 的 2 点开始。
 
 ## 某个时间段内没有数据 {#section_72510794694D42A9A75C966B812AEB0F}
 
