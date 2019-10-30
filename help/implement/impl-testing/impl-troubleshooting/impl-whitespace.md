@@ -2,19 +2,19 @@
 description: 在 HTML 中，有多个字符会产生空格。
 keywords: Analytics 实施
 seo-description: 在 HTML 中，有多个字符会产生空格。
-seo-title: 使用变量值中的空格
+seo-title: 在变量值中使用空格
 solution: Analytics
 subtopic: 故障诊断
-title: 使用变量值中的空格
+title: 在变量值中使用空格
 topic: 开发人员和实施
-uuid: edd7934-9b3e-43e2-9f24-65f42cb306e2
-translation-type: tm+mt
+uuid: 1edd7934-9b3e-43e2-9f24-65f42cb306e2
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 使用变量值中的空格
+# 在变量值中使用空格
 
 在 HTML 中，有多个字符会产生空格。
 
