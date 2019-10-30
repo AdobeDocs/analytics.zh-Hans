@@ -5,7 +5,7 @@ seo-title: “报表”菜单
 title: “报表”菜单
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -39,9 +39,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 按 Tab 键或向下箭头键 (?) 可在报表列表中导航。按 Esc 键可在不更改当前报表的情况下关闭搜索，或按 Enter 可加载选定报表。
 
->[!NOTE]
->
->You can also search the report list by prop, eVar, and event number. 在搜索栏中，输入 prop、eVar 或事件编号。
+> [!NOTE] 您还可以按prop、eVar和事件编号搜索报表列表。 在搜索栏中，输入 prop、eVar 或事件编号。
 
 ## 导航概述 {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -55,7 +53,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
  <tbody> 
   <tr> 
    <td colname="col1">Experience Cloud 解决方案菜单 <img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
-   <td colname="col2"> Clicking this icon expands the Experience Cloud menu to allow you to access other Marketing Could solutions. </td> 
+   <td colname="col2"> 单击此图标将展开Experience cloud菜单，以便您访问其他Marketing Could解决方案。 </td> 
   </tr> 
   <tr> 
    <td colname="col1">切换“报表”菜单 <img placement="inline"  src="assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
