@@ -9,7 +9,7 @@ title: 自定义 Analytics 工具权限
 topic: 管理工具
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 **[!UICONTROL “用户管理]** ”&gt;“ **[!UICONTROL 组]** ”&gt;“所有 **[!UICONTROL 报告访问”]** &gt;“分析工具 ******[!UICONTROL ”&gt;“自定义”]**
 
->[!NOTE]
->
->2016年秋季版本（10月20日）对组管理进行了更改。 See [Administrative Changes - Fall 2016](/help/admin/user-management2/c-user-management/permissions-changes.md) for a summary of changes.
+> [!NOTE] 2016年秋季版本（10月20日）对组管理进行了更改。 See [Administrative Changes - Fall 2016](/help/admin/user-management2/c-user-management/permissions-changes.md) for a summary of changes.
 
 ## 报表访问 - Analytics 工具
 
@@ -68,4 +66,4 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 | [计算量度创建](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) | 授予用户创建计算量度的权限。 |
 | [区段创建](https://marketing.adobe.com/resources/help/en_US/analytics/segment/) | 授予用户创建区段的权限。 |
 | **Data Connectors** |  |
-| 集成（创建、更新或删除） | 授予创建、更新和删除 Data Connector 集成的权限。 |
+| 集成（创建、更新或删除） | 授予创建、更新和删除 Data Connector 集成的权
