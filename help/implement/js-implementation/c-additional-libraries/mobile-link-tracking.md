@@ -7,8 +7,8 @@ solution: Analytics
 title: 对移动协议的自定义链接测量
 topic: 开发人员和实施
 uuid: eb82de26-da2e-41c2-8924-59b6b5ccef28
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -38,4 +38,4 @@ https://<your_Namespace>.112.2o7.net/b/ss/<RSID>/4/REDIR/
 &pev1=http%3A%2F%2Fwww.johnny_appleseed.org%2Fmpegs%2Fplanting_apple_trees.mpeg&pev2=pl anting_apple_trees&">Planting an Apple Tree</a>
 ```
 
-有关更多信息，请参阅[退出链接跟踪重定向白皮书](https://marketing.adobe.com/resources/help/en_US/whitepapers/redirects/)。
+有关更多信息，请参阅[“退出链接跟踪重定向”白皮书](https://marketing.adobe.com/resources/help/en_US/whitepapers/redirects/)。
