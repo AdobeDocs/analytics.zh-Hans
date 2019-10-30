@@ -3,7 +3,7 @@ title: 细分比较使用案例
 description: 了解如何使用细分比较面板深入了解营销策略的实际使用案例。
 keywords: 区段 IQ
 translation-type: tm+mt
-source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ## 用例5:将Fitbit购买者与其他所有人进行比较
 
-> *“我们发现，购买 Fitbit 的用户收到‘缺货’消息的可能性比其他每个人高出 6 倍，因此我们迅速订购了更多的 Fitbit 并避免了缺货局面！”*
+> *“我们发现，购买Fitbit的人比其他所有人收到“缺货”消息的可能性要高6倍，因此我们很快订购了更多Fitbit，避免了缺货！”*
 
 一家大型在线零售商对最热门的节日产品之一Fitbit的销售方式以及Fitbit购买者在其他客户中的独特性感兴趣。 通过细分比较，他们发现购买Fitbit的用户比任何其他客户收到“缺货”消息的可能性要高6倍。 在进一步分析后，营销团队将这些访客引导至其实体店，同时等待其采购部门订购更多Fitbit。 因此，该零售商避免了更多“缺货”消息，并满足了更多的假期需求。
 
