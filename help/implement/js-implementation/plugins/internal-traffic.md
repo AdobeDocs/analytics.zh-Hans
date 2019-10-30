@@ -1,9 +1,9 @@
 ---
 title: 内部流量
-description: 内部流量插件动态识别源自内部网络的访客。
-seo-description: 内部流量插件
-seo-title: 内部流量插件
-translation-type: tm+mt
+description: “内部流量”插件可动态识别源自内部网络的访客。
+seo-description: “内部流量”插件
+seo-title: “内部流量”插件
+translation-type: ht
 source-git-commit: 8c2b28ee1ca2e9448b9dec99a0505d0fae525e94
 
 ---
@@ -11,32 +11,32 @@ source-git-commit: 8c2b28ee1ca2e9448b9dec99a0505d0fae525e94
 
 # 内部流量
 
-内部流量插件动态识别源自内部网络的访客。
+“内部流量”插件可动态识别源自内部网络的访客。
 
-识别内部和外部流量可提供过滤和细分数据所需的机制，从而提高所有类型报告中的准确性。它还能正确实现，它还可以消除VISTA规则或处理规则的需求，这些方法是识别此类流量的典型方法。
+通过提供一种可以对所收集数据进行过滤和细分的机制来识别内部和外部流量，可提高所有类型报告的准确性。正确实施后，其将不再需要使用 VISTA 规则或处理规则，这些规则是用于识别此类流量的典型方法。
 
-## Internal Traffic插件是如何工作的？
+## “内部流量”插件工作原理
 
-插件尝试加载仅在内部网络/内部网中可用的文件，即1x透明像素。如果成功加载，则该访客的流量将被标识为内部。其他任何东西都将是外部流量。
+该插件会尝试加载仅在内部网络/内联网中可用的文件，即 1x1 透明像素。如果成功加载，则该访客的流量将被标识为内部流量。任何其他流量均被标识为外部流量。
 
 ## 注意事项
 
-* 这种方法的唯一缺点是，在浏览器控制台中，在其访问的第一页上显示404错误。这不会影响用户体验。
-* 在试图加载内部托管的像素之前，我们强烈建议您从网络或Infosec团队获得批准。
-* 尽管插件不会将流量移动到另一个报表包或将其从报表中排除(像使用VISTA规则一样)，但可以将自定义逻辑包含在其实施中，以便此功能能够进行客户端。
+* 此方法的唯一缺点是，在外部访客访问第一个页面上时浏览器控制台中将显示 404 错误。但这不会影响用户体验。
+* 我们强烈建议您在尝试加载内部托管的像素之前，先获得网络或信息安全团队的批准。
+* 虽然该插件不会将流量移动到其他报表包，也不会将其从报表中排除（与 VISTA 规则一样），但其实施中可以包含自定义逻辑，以便此功能可以在客户端执行。
 
 ## 实施
 
-1. 添加Intranet像素：您可以在Intranet上添加任何类型的文件，插件将尝试访问该文件。建议使用1x透明像素。它应该放在Intranet上的某个位置，可从内部网络中广泛访问。
-1. 配置eVar：需要在目标报告套件中添加eVar。它应已过期“访问”和分配“原始值(第一个)”。
-1. 定义内部URL：在AppMeasurement配置变量内，在实例化doPlugins之前，为像素或其他文件定义内部URL变量(s. inTurl)。例如：`s.intURL = "https://www.yourdomainhere.com/trafficCheck.gif"`
-1. 修改doPlugins并设置eVar：然后，可使用第步中定义的eVar在AppMeasurement库代码的doPlugins部分中包含此行代码来初始化插件： `s.eVarXX = s.intCheck();`
-变量值将设置为“internal”或“external”。
-1. 添加插件源代码：在AppMeasurement文件的doPlugins部分下包含插件代码。
+1. 添加内联网像素：您可以在内联网上添加该插件将尝试访问的任何类型的文件。建议添加 1x1 透明像素。该文件应被放置在内联网上从内部网络广泛访问的某个位置。
+1. 配置 eVar：需要在目标报表包中添加 eVar。它应包含“访问”的过期时间和“原始值（第一个值）”的分配。
+1. 定义内部 URL：在 AppMeasurement 配置变量中，并且在实例化 doPlugins 之前，为可用于流量检查的像素或其他文件定义内部 URL 变量 (s.intURL)。例如：`s.intURL = "https://www.yourdomainhere.com/trafficCheck.gif"`
+1. 修改 doPlugins 并设置 eVar：随后，可以使用步骤 1 中定义的 eVar，通过在 AppMeasurement 库代码的 doPlugins 区域中包含以下代码行来初始化插件：`s.eVarXX = s.intCheck();`
+变量值将设置为“内部”或“外部”。
+1. 添加插件源代码：将插件代码包含到 AppMeasurement 文件的 doPlugins 区域下方。
 
 ## 插件源代码
 
-将此代码添加到AppMeasurement库的doPlugins部分下。
+将此代码添加到 AppMeasurement 文件的 doPlugins 区域下方。
 
 ```JavaScript
 s.intCheck=new Function("",""
@@ -46,8 +46,8 @@ s.intCheck=new Function("",""
 +"al';}}catch(e){y='external'}finally{return y}}");
 ```
 
-## 其他备注
+## 其他注释
 
-* 始终测试插件安装，以确保数据收集按预期方式进行，然后再在生产环境中部署。
-* 您的实施可能使用不同于默认Adobe Analytics的对象的对象名称。如果是这样，请相应地更新对象名称。
-* 如果您使用标签管理系统，请按照其步骤更新doPlugins和其他自定义插件。
+* 在生产环境中进行部署之前，请务必对插件安装进行测试，以确保可按预期进行数据收集。
+* 您的实施可以使用与默认 Adobe Analytics“s”对象不同的对象名称。如果是这样，请相应地更新对象名称。
+* 如果您使用标签管理系统，请按照其步骤更新 doPlugins 和其他自定义插件。
