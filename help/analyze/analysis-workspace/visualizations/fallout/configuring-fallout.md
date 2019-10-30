@@ -5,7 +5,7 @@ seo-title: 配置流失可视化
 title: 配置流失可视化
 uuid: fc117745-baf3-46fb-873d-9307092cc337
 translation-type: tm+mt
-source-git-commit: 6ab75012df1bfae16f4ccf86488610b003e4f9b2
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 6ab75012df1bfae16f4ccf86488610b003e4f9b2
 
 对于可添加的步骤数量或可使用的维度数量，没有任何限制。
 
-您可以对 eVar 执行路径分析，包括促销 eVar 和 [listVar](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html)（每个点击可以具有多个值的变量，如产品、listVar、促销 eVar 和列表属性）。例如，假设某个用户在一个页面上查看鞋和衬衫，而在另一个页面上查看衬衫和袜子。鞋的下一个产品流量报表将是衬衫和袜子，而不是衬衫。
+您可以对 eVar 执行路径分析，包括促销 eVar 和 [listVar](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html)（每个点击可以具有多个值的变量，如产品、listVar、促销 eVar 和列表属性）。例如，假设某人在一页上看鞋，在下一页上看衬衫，袜子。 鞋的下一个产品流量报表将是衬衫和袜子，而不是衬衫。
 
 1. 将“[!UICONTROL 流失]”可视化从“可视化”下拉菜单中拖动到“[!UICONTROL 自由格式表]”中。
 
@@ -38,7 +38,7 @@ source-git-commit: 6ab75012df1bfae16f4ccf86488610b003e4f9b2
 
    >[!NOTE]
    >
-   >多个区段与AND一起加入，但维度项目和指标等多个项目与OR相结合。
+   >多个区段与AND连接，但多个项目（如维项目和度量）与OR连接。
 
    ![](assets/multiple_obj_touchpoint.png)
 
@@ -64,9 +64,9 @@ source-git-commit: 6ab75012df1bfae16f4ccf86488610b003e4f9b2
 | 设置 | 描述 |
 |--- |--- |
 | 流失容器 <ul><li>访问</li><li>访客</li></ul> | 用于在“访问”和“访客”之间切换以分析访客路径。默认值为“访客”。这些设置可帮助您在访客级别（跨访问）了解访客参与程度，或将分析限定于单次访问。 |
-| 将“所有访客”显示为第一个触点 | 如果不希望将“所有访客”作为第一个接触点，您可以取消选择此设置。 |
+| 将“所有访客”显示为第一个接触点 | 如果不希望将“所有访客”作为第一个接触点，您可以取消选择此设置。 |
 
-**右键单击触点**&#x200B;时，将显示以下选项：
+When you **right-click a touchpoint**, the following options appear:
 
 | 选项 | 描述 |
 |--- |--- |
