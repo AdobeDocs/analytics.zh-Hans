@@ -7,8 +7,8 @@ subtopic: 发行说明
 title: iOS
 topic: 开发人员和实施
 uuid: cc98f8f2-f619-4b31-abf9-e43f4deac64f
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,15 +17,13 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 iOS 的发行说明汇总。
 
->[!NOTE]
->
->要找到当前库版本，请打开调试记录。
+> [!NOTE]要找到当前库版本，请打开调试记录。
 
-可以在 [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) 和 [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-ios) 上下载移动库。
+可在 [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) 和 [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-ios) 上下载移动库。
 
-[4.x 文档](https://marketing.adobe.com/resources/help/zh_CN/mobile/ios/)
+[4.x 文档](https://marketing.adobe.com/resources/help/en_US/mobile/ios/)
 
-[3.x 文档](https://marketing.adobe.com/resources/help/zh_CN/sc/appmeasurement/ios/)
+[3.x 文档](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/ios/)
 
 ## 版本 4.13.4 {#section_BF05D33CEF6E42358C8089441449449B}
 
@@ -91,15 +89,15 @@ iOS 的发行说明汇总。
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 访客 ID 服务 </p> </td> 
-   <td colname="2"> <p> 向 <code>adobe_mc</code> 参数添加了时间戳和 Experience Cloud 企业 ID。 </p> </td> 
+   <td colname="2"> <p> 向 <code> adobe_mc</code> 参数添加了时间戳和 Experience Cloud 企业 ID。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 配置 </p> </td> 
-   <td colname="2"> <p> 将忽略通过 <code>setAdvertisingIdentifier:</code> 传递到 SDK 的无效 IDFA (00000000-0000-0000-0000-000000000000)。 </p> </td> 
+   <td colname="2"> <p> Invalid IDFAs (00000000-0000-0000-0000-000000000000) passed to the SDK via <code> setAdvertisingIdentifier:</code> will be ignored. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 深层链接 </p> </td> 
-   <td colname="2"> <p>如今，在调用 <code>trackAdobeDeepLink</code> 时，可正确处理前缀为“<code>adb</code>”和“<code>ctx</code>”的变量。 </p> </td> 
+   <td colname="2"> <p>When calling <code> trackAdobeDeepLink</code>, variables prefixed with "<code> adb</code>" and "<code> ctx</code>" are now handled properly. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 客户获取 </p> </td> 
@@ -122,11 +120,11 @@ iOS 的发行说明汇总。
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 客户获取 </p> </td> 
-   <td colname="2"> <p> 现在，SDK 支持由 <code>AdobeDataCallback</code> 调用适当返回的自定义的客户获取数据。 </p> </td> 
+   <td colname="2"> <p> 现在，SDK 支持由 <code> AdobeDataCallback</code> 调用适当返回的自定义的客户获取数据。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Target </p> </td> 
-   <td colname="2"> <p>现在，可通过 <span class="keyword">mboxParams</span> 在 <span class="keyword">Target</span> 请求中传递<code>访客 ID 服务</code>参数。 </p> </td> 
+   <td colname="2"> <p>现在，可通过 <span class="keyword"></span> 在 <span class="keyword">Target</span> 请求中传递<code> mboxParams</code>访客 ID 服务参数。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -216,8 +214,8 @@ iOS 的发行说明汇总。
    <td colname="1"> <p>Target 方法 </p> </td> 
    <td colname="2"> <p>现在，您可以使用以下新的 <span class="keyword">Target</span> 方法： </p> <p> 
      <ul id="ul_D0594A9ABFD8448186DED87599A0E50E"> 
-      <li id="li_A4B0ECDF200C438BB1AB24D613453A68"><code> targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:requestLocationParameters:callback:</code> </li> 
-      <li id="li_C0FADBB3CEE141AE951CBD49F3A52642"><code>targetThirdPartyID</code> </li> 
+      <li id="li_A4B0ECDF200C438BB1AB24D613453A68"><code> targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:callback:</code> </li> 
+      <li id="li_C0FADBB3CEE141AE951CBD49F3A52642"><code> targetThirdPartyID</code> </li> 
       <li id="li_3E1B3725D9EE4ECE9DB0EB1A9E7682A4"><code> targetSetThirdPartyID:</code> </li> 
       <li id="li_659E295610F541819DD7486FC5177012"><code> targetPcID</code> </li> 
       <li id="li_B00ADCF98B6D4694BB7664DB42CDFF99"><code> targetSessionID</code> </li> 
@@ -227,7 +225,7 @@ iOS 的发行说明汇总。
    <td colname="1"> <p>TVJS 方法 </p> </td> 
    <td colname="2"> <p>现在，您可以使用以下新的 <span class="keyword">Target</span> TVJS 方法： </p> <p> 
      <ul id="ul_AED76A2B99534CF3A472AC0381B2618C"> 
-      <li id="li_AA731652996C4A19A8E02D5D6B8BDC93"><code>targetThirdPartyID</code> </li> 
+      <li id="li_AA731652996C4A19A8E02D5D6B8BDC93"><code> targetThirdPartyID</code> </li> 
       <li id="li_744A63A62A8045E49C75F9D7AED5D75E"><code> targetSetThirdPartyID</code> </li> 
       <li id="li_72BC8D96FE0549A695D90B924FA80A02"> <code> targetPcID</code> </li> 
       <li id="li_FB7A9435B9994DB89FA80C2B2218C047"> <code> targetSessionID</code> </li> 
@@ -235,7 +233,7 @@ iOS 的发行说明汇总。
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>适用于 TVML/TVJS 的 Adobe Target </p> </td> 
-   <td colname="2"> <p>现在，您可以在配置 <code>ADBTarget</code> 元素时，使用以下属性名称： </p> <p> 
+   <td colname="2"> <p>现在，您可以在配置 <code> ADBTarget</code> 元素时，使用以下属性名称： </p> <p> 
      <ul id="ul_A0CEE891AE644B47ABD6F7425ACD464D"> 
       <li id="li_2EB0C3CA52014F45BA1EC07703E821B8"><code> id</code> </li> 
       <li id="li_069D996CED534EE88A1EC82684E470D5"><code> total</code> </li> 
@@ -298,7 +296,7 @@ iOS 的发行说明汇总。
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p>退出和隐私设置 </p> </td> 
-   <td colname="2"> <p>从 <span class="keyword">iOS</span> SDK 4.8.5 开始，通过 <code>setPrivacyStatus</code> 方法设置的隐私设置会影响 <span class="keyword">Analytics</span>、<span class="keyword">Target</span> 和 <span class="keyword">Audience Manager</span> 中的活动。 </p> </td> 
+   <td colname="2"> <p>从 <span class="keyword">iOS</span> SDK 4.8.5 开始，通过 <code> setPrivacyStatus</code> 方法设置的隐私设置会影响 <span class="keyword">Analytics</span>、<span class="keyword">Target</span> 和 <span class="keyword">Audience Manager</span> 中的活动。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -322,7 +320,7 @@ iOS 的发行说明汇总。
      <li id="li_19F8AF546EEB45EBB5849EA6EB3CE6A3"><code> visitorSyncIdentifiers:authenticationState:</code> </li> 
      <li id="li_1AF1CF62B3ED442D81B438ECBF981583"><code> visitorSyncIdentifierWithType:identifier:authenticationState: </code> </li> 
      <li id="li_C116F0DA8E2A449A8B76637961C2100C"><code> visitorGetIDs</code> </li> 
-    </ul> <p>已将 <code>visitorSyncIdentifiers:identifiers</code> 方法更改为 <code>visitorSyncIdentifiers:</code> </p> </td> 
+    </ul> <p>将方 <code> visitorSyncIdentifiers:identifiers</code> 法更改为 <code> visitorSyncIdentifiers:</code> </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> 新的 TVJS 方法 </td> 
@@ -432,7 +430,7 @@ iOS 的发行说明汇总。
      <ul id="ul_22EF89556F6B481ABE0D1B9C5EE70B55"> 
       <li id="li_C41F6FAC0B334B89B8B5D1A517CA2301"> <code> setPushIdentifier</code> </li> 
       <li id="li_B7893FB0453340EDB4290BC0B47BF096"><code> setAdvertisingIdentifier</code> </li> 
-      <li id="li_85EF5F2B8837497B90F782946283622E"><code>trackPushMessageClickThrough</code> </li> 
+      <li id="li_85EF5F2B8837497B90F782946283622E"> <code> trackPushMessageClickThrough</code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr rowsep="1"> 
@@ -456,7 +454,7 @@ iOS 的发行说明汇总。
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword"> iOS 扩展</span> </p> </td> 
-   <td colname="2"> <p>从 <span class="keyword">iOS</span> SDK 4.5 版开始，新增的 <span class="keyword">iOS</span> 扩展允许您从 Apple Watch 应用程序、今天小组件、照片编辑小组件和所有其他 <span class="keyword">iOS</span> 扩展应用程序中收集使用数据。 </p> <p>我们强烈建议您使用 <span class="keyword">iOS</span> SDK，而不是您自己的包装器。 </p> <p>Apple 提供了一组允许 Watch 应用程序与包含的应用程序之间进行通信（向包含的应用程序发送请求，然后接收响应）的 API。 </p> <p>尽管您可以将跟踪数据作为词典从 Watch 应用程序发送到包含的应用程序，然后在包含的应用程序上调用任何跟踪方法来发送数据，但是这种解决方案存在局限性。 </p> <p>大多数情况下，当用户使用 Watch 应用程序时，包含的应用程序将在后台运行，只有调用 <code>TrackActionInBackground</code>、<code>TrackLocation</code> 和 <code>TrackBeacon</code> 才是安全的。调用其他跟踪方法会干扰生命周期数据，因此您应该专门使用这三种方法，从 Watch 应用程序中发送数据。 </p> <p>即使这三种跟踪方法符合您的要求，我们仍建议您使用 <span class="keyword">iOS</span> SDK，因为适用于 Watch 应用程序的 SDK 包含所有<span class="keyword">移动</span>功能（“应用程序内消息传送”除外）。 </p> </td> 
+   <td colname="2"> <p>从 <span class="keyword">iOS</span> SDK 4.5 版开始，新增的 <span class="keyword">iOS</span> 扩展允许您从 Apple Watch 应用程序、今天小组件、照片编辑小组件和所有其他 <span class="keyword">iOS</span> 扩展应用程序中收集使用数据。 </p> <p>我们强烈建议您使用 <span class="keyword">iOS</span> SDK，而不是您自己的包装器。 </p> <p>Apple 提供了一组允许 Watch 应用程序与包含的应用程序之间进行通信（向包含的应用程序发送请求，然后接收响应）的 API。 </p> <p>尽管您可以将跟踪数据作为词典从 Watch 应用程序发送到包含的应用程序，然后在包含的应用程序上调用任何跟踪方法来发送数据，但是这种解决方案存在局限性。 </p> <p>In most cases when a user is using the Watch app, the containing app is running in the background and it is only safe to call <code> TrackActionInBackground</code>, <code> TrackLocation</code>, and <code> TrackBeacon</code>. 调用其他跟踪方法会干扰生命周期数据，因此您应该专门使用这三种方法，从 Watch 应用程序中发送数据。 </p> <p>即使这三种跟踪方法符合您的要求，我们仍建议您使用 <span class="keyword">iOS</span> SDK，因为适用于 Watch 应用程序的 SDK 包含所有<span class="keyword">移动</span>功能（“应用程序内消息传送”除外）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -477,7 +475,7 @@ iOS 的发行说明汇总。
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword">PhoneGap</span> 中的信标跟踪支持 </p> </td> 
-   <td colname="2"> <p>现在，<code>trackBeacon</code> 和 <code>clearCurrentBeacon</code> 调用在 <span class="keyword">PhoneGap</span> 中可用。 </p> </td> 
+   <td colname="2"> <p>The <code> trackBeacon</code> and <code> clearCurrentBeacon</code> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -692,7 +690,7 @@ iOS 的发行说明汇总。
 * userAgent
 * dynamicVariablePrefix
 * visitorNamespace
-* pageURL
+* pageUrl
 * pageType
 * referrer
 * linkLeaveQueryString
