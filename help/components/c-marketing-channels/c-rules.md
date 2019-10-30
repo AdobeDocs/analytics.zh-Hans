@@ -5,10 +5,10 @@ seo-title: 营销渠道的处理规则
 solution: Analytics
 subtopic: 营销渠道
 title: 营销渠道的处理规则
-topic: Reports & Analytics
-uuid: f6394f4b-a244-48e9-9892-7dfbfceb5 fc9
+topic: Reports and Analytics
+uuid: f6394f4b-a244-48e9-9892-7dfbfceb5fc9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,13 +24,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    请参阅[未识别渠道](../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7)。
 
->[!NOTE]
->
->尽管这些规则不会影响营销渠道之外的报告，但会影响营销渠道数据收集。通过这些规则收集的数据全部为永久性数据，数据收集后再更改的规则不具有可回溯性。强烈建议您首先仔细查看和考虑各种情况，然后再保存[!UICONTROL 营销渠道处理规则]来迁移错误渠道中收集的数据。
+> [!NOTE] 尽管这些规则不会影响营销渠道以外的报告，但它们会影响营销渠道数据收集。 通过这些规则收集的数据全部为永久性数据，数据收集后再更改的规则不具有可回溯性。强烈建议您首先仔细查看和考虑各种情况，然后再保存[!UICONTROL 营销渠道处理规则]来迁移错误渠道中收集的数据。
 
 **先决条件**
 
-* 查看[营销渠道入门](../../components/c-marketing-channels/c-getting-started-mchannel.md#concept_0C28C1592F564E53BB467E6EBC168E8C) 和 [关于营销渠道报告](../../components/c-marketing-channels/c-overview.md#concept_77BE50D20BAA402CB292026436A39068)。
+* 查看营销渠道入 [门和营销渠道报告](../../components/c-marketing-channels/c-getting-started-mchannel.md#concept_0C28C1592F564E53BB467E6EBC168E8C)[中的概念信息](../../components/c-marketing-channels/c-overview.md#concept_77BE50D20BAA402CB292026436A39068)。
 
 * 创建一个或更多渠道，以便您将规则分配给它们。
 
