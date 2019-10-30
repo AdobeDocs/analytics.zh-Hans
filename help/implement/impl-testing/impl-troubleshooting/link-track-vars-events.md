@@ -6,8 +6,8 @@ seo-title: 使用 s.linkTrackVars 和 s.linkTrackEvents
 solution: Analytics
 title: 使用 s.linkTrackVars 和 s.linkTrackEvents
 topic: 开发人员和实施
-uuid: f6b7019b-987b-4b7d-a446-80205f7 cc36 c
-translation-type: tm+mt
+uuid: f6b7019b-987b-4b7d-a446-80205f7cc36c
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 成功实施链接跟踪的关键是理解 s.linkTrackVars 和 s.linkTrackEvents 变量。这样，您可以在用户操作中传递自定义变量值。
 
-如果您要实施自定义链接跟踪，并设置[!UICONTROL 自定义]变量和&#x200B;*`events`*&#x200B;请确保 [!UICONTROL 您的s. linkTrackVars] 变量包含您要传递的所有变量的逗号分隔列表，包括变量 *`events`* 。确保 [!UICONTROL s.linkTrackEvents] 包含要传递的所有事件列表（以逗号分隔）。
+如果您要实施自定义链接跟踪，并设置[!UICONTROL 自定义]变量和&#x200B;*`events`*，请确保 [!UICONTROL s.linkTrackVars] 变量包含要传递的所有变量列表（以逗号分隔），其中包括 *`events`* 变量。确保 [!UICONTROL s.linkTrackEvents] 包含要传递的所有事件列表（以逗号分隔）。
 
 设置 [!UICONTROL s.linkTrackVars] 和 [!UICONTROL s.linkTrackEvents] 不会实际设置这些变量/事件，只是准备要执行此操作的 [!DNL Analytics] 代码。您仍需要手动设置变量，如下面的示例所示：
 
