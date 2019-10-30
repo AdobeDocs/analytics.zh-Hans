@@ -2,18 +2,18 @@
 description: 您可以将表单元素（例如单选按钮和复选框项目）的值捕获到报表中。这可帮助您分析在线表单中最受欢迎的选项。
 keywords: Analytics 实施
 seo-description: 您可以将表单元素（例如单选按钮和复选框项目）的值捕获到报表中。这可帮助您分析在线表单中最受欢迎的选项。
-seo-title: 收集表单元素中的数据
+seo-title: 从表单元素收集数据
 solution: Analytics
-title: 收集表单元素中的数据
+title: 从表单元素收集数据
 topic: 开发人员和实施
-uuid: e0c13b96-e1 ca-4744-a912-60ca2 f25 c3
-translation-type: tm+mt
+uuid: e0c13b96-e1ca-4744-a912-60ca2b8f25c3
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 收集表单元素中的数据
+# 从表单元素收集数据
 
 您可以将表单元素（例如单选按钮和复选框项目）的值捕获到报表中。这可帮助您分析在线表单中最受欢迎的选项。
 
@@ -35,7 +35,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 <input type="radio" name="music_genre" value="rock">
 ```
 
-该单选按钮属于 "music_genre" 表单元素。You then have access to the user's selected value by using $_POST['music_genre']. 可将该值写入表单提交后进入的页面上的变量中：
+该单选按钮属于 "music_genre" 表单元素。随后可使用 $_POST['music_genre'] 访问用户选择的值。可将该值写入表单提交后进入的页面上的变量中：
 
 ```js
 s.eVar1="<?=$_POST['music_genre'];?>"
