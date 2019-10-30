@@ -1,18 +1,18 @@
 ---
 description: 应用特定维度词的过滤器。
 seo-description: 应用特定维度词的过滤器。
-seo-title: 特定滤镜
+seo-title: 特定过滤器
 solution: Analytics
-title: 特定滤镜
+title: 特定过滤器
 topic: Report Builder
-uuid: b3a8187a-3d59-4da0-abca-e93366432 e3
+uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 translation-type: tm+mt
-source-git-commit: dcddb02157ac3e62781b602c5e6c7de3ef79b4fc
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 特定滤镜
+# 特定过滤器
 
 应用特定维度词的过滤器。
 
