@@ -4,10 +4,10 @@ seo-description: 按移动设备支持的网络协议（GPRS、CSD、EDGE、HSCS
 seo-title: 网络协议
 solution: Analytics
 title: 网络协议
-topic: 报表
-uuid: 565edadb-44e4-455b-a476-fad2 e4 b28765
+topic: 报告
+uuid: 565edadb-44e4-455b-a476-fad2e4b28765
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
