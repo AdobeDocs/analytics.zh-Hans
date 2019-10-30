@@ -7,7 +7,7 @@ title: 流量源报表
 topic: Ad Hoc Analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -71,7 +71,7 @@ c_reports_ref_domains.xml
 
  -->
 
-显示引用对网站成功量度影响最大的客户的域。反向链接分为两大类别：域和 URL。“域”指的是域名，它显示为不带查询字符串或子目录的基本域。URL 包括基本域名以及任何查询字符串或子目录。
+显示对网站成功量度影响最大的顾客所使用的反向链接域名。反向链接分为两大类别：域和 URL。“域”指的是域名，它显示为不带查询字符串或子目录的基本域。URL 包括基本域名以及任何查询字符串或子目录。
 
 ## 原始反向链接域名 {#concept_EB18251DF70343169B46BB59543A579A}
 
@@ -99,13 +99,11 @@ c_reports_referrers.xml
 
 See [Internal URL Filters](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter_admin.html) in the [!DNL Admin Console] help for more information.
 
->[!NOTE]
->
->Marketing reports and analytics records a referring domain as an email when visitors click an emailed message link containing the protocol [!DNL imap://] or [!DNL mail://] and arrive at your site. 例如，由于协议为 [!DNL https://mail.yahoo.com]://，因此来自 [!DNL https://] 的任何消息均不会计为电子邮件反向链接。Outlook 电子邮件会报告于“键入/书签式”行上，而任何采用 HTTP 协议（域为已知搜索引擎）的反向链接均报告于“搜索引擎”行上。
+> [!NOTE] 当访客单击通过电子邮件发送的包含协议的消息链接或到达您的网站时，市场营销报告和分析会将引用域 [!DNL imap://] 记录 [!DNL mail://] 为电子邮件。 例如，由于协议为 [!DNL https://mail.yahoo.com]://，因此来自 [!DNL https://] 的任何消息均不会计为电子邮件反向链接。Outlook 电子邮件会报告于“键入/书签式”行上，而任何采用 HTTP 协议（域为已知搜索引擎）的反向链接均报告于“搜索引擎”行上。
 
 ## 反向链接类型 {#concept_689E42D8F96C450DA41C7167C7388198}
 
-通过跟踪和记录访客每次访问的反向链接网站，可以确定访客每次访问时如何找到您的网站。
+通过跟踪和记录访客每次访问的引用网站，可以确定访客每次访问时如何找到您的网站。
 
 <!-- 
 
@@ -120,7 +118,7 @@ c_reports_ref_types.xml
 * *分类/添加书签*&#x200B;的反向链接已进行记录
 
    * 如果访客通过非浏览器链接进入您的网站（例如，在电子邮件中）。
-   * 如果访客在浏览器中直接键入您的网站 URL。
+   * 如果访客直接在其浏览器中键入您网站的URL。
    * 如果访客单击其个人硬盘驱动器上的 HTML 链接。
    * 如果访客通过选择浏览器书签访问您的网站。
 
@@ -134,7 +132,5 @@ c_reports_ref_types.xml
 
 **USENET（新闻组）**：这表示反向链接的 URL 以 `news://` :// 开头。因此，反向链接是被发布在 USENET 新闻组中，而不是网页上。
 
->[!NOTE]
->
->Referrer Type logic matches other traffic sources reports (such as [!UICONTROL Referrers] and [!UICONTROL Referring Domains]). 这会减少[!UICONTROL 反向链接类型]报表中出现“网站内部”和“无 JavaScript”行项目的次数，或者使其不再出现。
+> [!NOTE] “引用类型”逻辑与其他流量源报表(如“引 [!UICONTROL 用”][!UICONTROL 和“引用域]”)匹配。 这会减少[!UICONTROL 反向链接类型]报表中出现“网站内部”和“无 JavaScript”行项目的次数，或者使其不再出现。
 
