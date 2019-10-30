@@ -5,7 +5,7 @@ seo-description: 通过动态变量，您可以将一个变量中的值复制到
 solution: null
 title: 动态变量
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,15 +14,15 @@ source-git-commit: b38ba4222951d957c607cd764224028527835c7e
 
  变量确定收入使用的兑换率。
 
-所有货币额都是以您选择的货币进行存储的。如果选择的货币与 *`currencyCode`*, or *`currencyCode`* is empty, no conversion is applied.
+所有货币额都是以您选择的货币进行存储的。如果该货币与 *`currencyCode`* 中指定的货币相同，或者 *`currencyCode`* 为空，则不应用任何转化。
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |--- |--- |--- |--- |
 | 不适用 | cc | “转化”&gt;“购买”&gt;“收入” 显示收入或货币值的所有转化报表 | "USD" |
 
-如果网站允许访客以多种货币购买，则应使用&#x200B;*`currencyCode`*&#x200B;变量以确保收入以相应的货币进行存储。For example, if the base currency for your report suite is USD, and you sell an item for 40 Euros, you should populate the *`currencyCode`* with "EUR" on the HTML page. 数据收集接收到数据后，将使用货币兑换率将 40 欧元兑换为等值的美元。
+如果网站允许访客以多种货币购买，则应使用&#x200B;*`currencyCode`*&#x200B;变量以确保收入以相应的货币进行存储。例如，如果报表包的本位币为 USD，而您以 40 欧元售出了一件商品，则在 HTML 页面中应使用“EUR”填充 *`currencyCode`*。数据收集接收到数据后，将使用货币兑换率将 40 欧元兑换为等值的美元。
 
-如果支持以多种货币销售，则建议填充 HTML 页面中的&#x200B;*`currencyCode`*&#x200B;变量，而不是 JavaScript 文件中的变量。如果要使用您自己的折换率而不是Adobe使用的折换率，请将该值设 *`currencyCode`* 置为与报表包的基本货币相等。 然后在将收入发送到 [!DNL Analytics] 之前兑换所有收入。
+如果支持以多种货币销售，则建议填充 HTML 页面中的&#x200B;*`currencyCode`*&#x200B;变量，而不是 JavaScript 文件中的变量。如果要使用自己的兑换率而不是 Adobe 使用的兑换率，请将 *`currencyCode`* 设置为等于报表包的基本货币。然后在将收入发送到 [!DNL Analytics] 之前兑换所有收入。
 
 货币兑换适用于收入和任何货币事件。这些事件用于计算与收入类似的值的总和，例如税款和运输费用。收入和货币事件在产品字符串中指定。有关产品的详细信息，请参阅 [events](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-events.html).
 
@@ -48,8 +48,8 @@ Adobe [!DNL Customer Care] 可以更改报表包的默认货币设置。更改�
 
 ## 缺陷、问题和提示
 
-* 如果您发现报表中的收入额非常大，请确保&#x200B;*`currencyCode`*&#x200B;变量和报表包的本位币设置正确。
-* The *`currencyCode`* variable is not persistent, meaning that the variable must be passed in the same image request as any revenue or other currency-related metrics.
+* 如果您发现报表中的收入量大得惊人，请确保正确设置了 *`currencyCode`* 变量和报表包的基本位币。
+* *`currencyCode`* 为非永久性变量，即该变量必须在同一图像请求中以任何收入或其他货币相关量度的方式进行传递。
 * 货币事件不应用于非货币用途。如需计算非货币的任意值或动态值，请使用[!UICONTROL 数值]事件类型。
 * 在&#x200B;*`currencyCode`*&#x200B;变量为空时，不会发生兑换。
 
