@@ -5,7 +5,7 @@ seo-description: 通过动态变量，您可以将一个变量中的值复制到
 solution: null
 title: 动态变量
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,17 +14,13 @@ source-git-commit: b38ba4222951d957c607cd764224028527835c7e
 
  变量允许您根据各个页面的 URL 动态选择报表包。
 
->[!NOTE]
->
->`dynamicAccountSelection`无法应用于自定义链接跟踪。
+> [!NOTE]`dynamicAccountSelection`无法应用于自定义链接跟踪。
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |---|---|---|---|
 | 不适用 | 不适用 | 不适用 | false |
 
->[!NOTE]
->
->Both `dynamicAccountList` and `dynamicAccountMatch` are ignored if the `dynamicAccountSelection` variable is not declared or set to 'false.'
+> [!NOTE]如果未声明 `dynamicAccountList` 变量或将该变量设置为“False”，则 `dynamicAccountMatch` 和 `dynamicAccountSelection` 都会被忽略。
 
 ## 语法和可能值
 
@@ -32,7 +28,7 @@ source-git-commit: b38ba4222951d957c607cd764224028527835c7e
 s.dynamicAccountSelection=[true|false]
 ```
 
-仅允许“true”和“false”作为 *`dynamicAccountSelection`*。
+ *`dynamicAccountSelection`*.
 
 ## 示例
 
@@ -50,6 +46,6 @@ s.dynamicAccountSelection=false
 
 ## 缺陷、问题和提示
 
-* 动态帐户选择不受 [AppMeasurement for JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
+* [AppMeasurement for JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html) 不支持动态帐户选择。
 
 * 通常使用 [!DNL DigitalPulse Debugger] 来确定将由哪个报表包从各页面接收数据。
