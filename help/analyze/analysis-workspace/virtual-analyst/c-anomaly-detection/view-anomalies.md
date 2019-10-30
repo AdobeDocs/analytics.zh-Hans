@@ -1,16 +1,16 @@
 ---
 description: 您可以在表格或折线图中查看异常。
 seo-description: 您可以在表格或折线图中查看异常。
-seo-title: 查看Analysis Workspace中的异常
-title: 查看Analysis Workspace中的异常
+seo-title: 在 Analysis Workspace 中查看异常
+title: 在 Analysis Workspace 中查看异常
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 查看Analysis Workspace中的异常
+# 在 Analysis Workspace 中查看异常
 
 您可以在表格或折线图中查看异常。
 
