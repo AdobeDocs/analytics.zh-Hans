@@ -1,16 +1,16 @@
 ---
 description: 虚拟报表包可对您的 Adobe Analytics 数据进行分段，以便您能够控制每个区段的访问权限。
 seo-description: 虚拟报表包可对您的 Adobe Analytics 数据进行分段，以便您能够控制每个区段的访问权限。
-seo-title: 虚拟报告套件概述
-title: 虚拟报告套件概述
-uuid: 51c63c56-dd58-4c23-a997-ea6942480 d22
+seo-title: 虚拟报表包概述
+title: 虚拟报表包概述
+uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 虚拟报告套件概述
+# 虚拟报表包概述
 
 虚拟报表包可对您的 Adobe Analytics 数据进行分段，以便您能够控制每个区段的访问权限。
 
@@ -55,13 +55,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 功能 | 虚拟报表包 | 多包标记 |
 |--- |--- |--- |
 | 提供实时或“当前数据”报表 | 否 | 是 |
-| 可在所有 Analytics 工具（Analysis Workspace、Report Builder、Ad Hoc Analysis 等）中使用 | 是.   注意：您只能在“Reports &amp; Analytics”中编辑和标识虚拟报表包。但是，在其他工具中，您可以从报表包下拉菜单中选择虚拟报表包。 | 是 |
+| 可在所有 Analytics 工具（Analysis Workspace、Report Builder、Ad Hoc Analysis 等）中使用 | 能。注意：您只能在“Reports &amp; Analytics”中编辑和标识虚拟报表包。但是，在其他工具中，您可以从报表包下拉菜单中选择虚拟报表包。 | 是 |
 | 可向其上载数据（通过 分类、数据馈送等） | 否 | 是 |
 | 支持创建 DL 报表、书签、功能板、目标、警报、区段和计算量度... | 是 | 是 |
 | 可单独添加至权限群组 | 是 | 是 |
 | 可使用“管理员”功能修改此报表包的各个设置（管理员 &gt; 报表包） | 否（从父项继承设置） | 是 |
 
-## Combine Virtual Report Suites and Multisuite Tagging {#section_026FA3FCD7314DD18220E73EC5702AFF}
+## 组合虚拟报告套件和多套件标记 {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
 在某些情况下，同时使用虚拟报表包和多包标记会带来一些好处。
 
