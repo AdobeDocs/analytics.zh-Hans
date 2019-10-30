@@ -8,7 +8,7 @@ title: DFA 集成
 topic: Data connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 配置页面提供有关集成的概述以及可获取更多信息的有用链接。Adobe 和 DoubleClick 费用均与此集成相关。请联系这两个组织相应的销售代表，并确保您了解费用结构。
 
-1. 登录到 [!DNL Adobe Analytics]。
+1. Log in to the [!DNL Adobe Analytics].
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Connectors]**.
 
    ![](assets/data_connectors.png)
@@ -46,7 +46,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
   <tr> 
    <td colname="col1"> 1 </td> 
    <td colname="col2"> 集成名称 </td> 
-   <td colname="col3"> Genesis 在报表包的活动集成列表中显示的集成名称。 </td> 
+   <td colname="col3"> Genesis在报表包的“活动集成列表”中显示的集成名称。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 1 </td> 
@@ -81,7 +81,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
   <tr> 
    <td colname="col1"> 4 </td> 
    <td colname="col2"> 点击量 </td> 
-   <td colname="col3"> 选择接收 DFA 点击量量度数据的自定义事件。点击量指示访客点击广告的次数，它由 DFA 的重定向测量。点击量量度与 Analytics 点进次数量度关联。 <p>Note:  DFA Clicks and Analytics Click-throughs might not match exactly due to differences in the way data is collected.  </a>. </p> </td> 
+   <td colname="col3"> 选择接收 DFA 点击量量度数据的自定义事件。点击指示访客点击广告的次数，该次数由DFA的重定向测量。 点击量量度与 Analytics 点进次数量度关联。 <p>Note:  DFA Clicks and Analytics Click-throughs might not match exactly due to differences in the way data is collected.  </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 5 </td> 
@@ -96,7 +96,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
   <tr> 
    <td colname="col1"> 5 </td> 
    <td colname="col2"> 显示到达次数 </td> 
-   <td colname="col3"> 用于接收 DFA 显示到达次数量度数据的自定义事件。结合使用显示到达次数事件和显示到达变量，以了解哪些促销活动虽没有影响直接点进，但可能在后续的某个时候起到将流量引导至网站的作用。 <p>Data connectors 将选定的自定义事件重新命名为“显示到达次数”。 </p> </td> 
+   <td colname="col3"> 用于接收 DFA 显示到达次数量度数据的自定义事件。将“点进率”事件与“点进率变量”结合使用，可了解哪些营销活动不会影响直接点进率，但可能在后续某个时间对网站流量产生影响。 <p>数据连接器将选定的自定义事件重命名为“查看次数”。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 6 </td> 
@@ -125,13 +125,13 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 DFA 的 Data connectors 集成要求您在页面的域中设置 Cookie。
 
-部分域已达到了某些 Web 浏览器所允许的最大 Cookie 容量，不过这种情况并不多见。要避免影响访客在您网站上的浏览体验，请咨询您的网络运营部门、开发团队或工程小组，以确认将其他 Cookie 添加到用于 DFA 集成的页面域将不会影响用户体验。您还将需要为此 Cookie 选择一个名称。
+部分域已达到了某些 Web 浏览器所允许的最大 Cookie 容量，不过这种情况并不多见。要避免影响访客在您网站上的浏览体验，请咨询您的网络运营、开发团队或工程组，以确认向用于DFA集成的页面的域中添加其他cookie不会影响用户体验。 您还将需要为此 Cookie 选择一个名称。
 
 ### 更新您的 DFA 查询字符串参数{#update-your-dfa-query-string-parameter}
 
 如果您在 DFA 集成之前已通过 Adobe Analytics 跟踪广告促销活动，则有可能所有促销活动（电子邮件、搜索或横幅）均使用相同的查询字符串参数来标识登陆页面上的反向链接促销活动 ID。
 
-要弄清何时为您的 DFA 广告促销活动请求来自 DFA 数据的显示到达和点进数据，Data connectors 需要在访客点击某 DFA 促销活动横幅广告时进行标识。要做到这一点，您必须在 DFA 广告促销活动的登陆页面 URL 中添加一个差异化的查询字符串参数，这样 Data connectors 就能够区分 DFA 广告促销活动页面和您的网站上可能存在的其他广告促销活动页面。用 `dfa_overrideParam` 于DFA的JavaScript插件中的。
+要弄清何时为您的 DFA 广告促销活动请求来自 DFA 数据的显示到达和点进数据，Data connectors 需要在访客点击某 DFA 促销活动横幅广告时进行标识。要实现此目的，您必须向DFA广告活动的登录页面URL添加区分的查询字符串参数，以便数据连接器能够区分DFA广告活动页面和您网站上可能拥有的其他广告活动页面。 用 `dfa_overrideParam` 于DFA的JavaScript插件中的。
 
 >[!CAUTION]
 >
@@ -141,9 +141,7 @@ DFA 的 Data connectors 集成要求您在页面的域中设置 Cookie。
 
 DFA 的 Genesis 集成可利用 DFA Floodlight 配置 ID (dfa_SPOTID)，以提高 DFA 和 Adobe 数据收集系统之间的报表一致性。
 
->[!NOTE]
->
->在Google DFA的最新版本中，术语Spotlight已更改为Floodlight。 JavaScript 参数 `dfa_SPOTID` 基于 Spotlight 术语而命名，但它可同时用于两个版本。
+> [!NOTE] 在Google DFA的最新版本中，术语Spotlight已更改为Floodlight。 JavaScript 参数 `dfa_SPOTID` 基于 Spotlight 术语而命名，但它可同时用于两个版本。
 
 要在您的网站上启用 DFA 集成，您必须通过添加以下内容来更新 JavaScript 数据收集代码：
 
@@ -204,7 +202,7 @@ DFA 集成设置块可设置 DFA 集成所需要的变量。这其中每个变�
 
 **requestURL**：用于查询广告信息的远程 DFA 主机。请不要更改此值，除非 Adobe 指示您这么做。
 
-**maxDelay**：指定 JavaScript 数据收集代码等待来自 DFA Floodlight 服务器响应的时间量（以毫秒为单位）。Adobe 建议对此值进行试验，以找出基于您网站流量的最佳值。例如，提高此值通常会收集更多的 DFA 数据，但也会增加损失基本访客数据的风险（如果访客在延迟期间离开网站的话）。降低此值可减少损失点击数据的风险，但也会减少随 Adobe 点击数据一起发送的 DFA 数据量。
+**maxDelay**：指定 JavaScript 数据收集代码等待来自 DFA Floodlight 服务器响应的时间量（以毫秒为单位）。Adobe建议尝试使用此值以根据网站流量找到最佳值。 例如，提高此值通常会收集更多的 DFA 数据，但也会增加损失基本访客数据的风险（如果访客在延迟期间离开网站的话）。降低此值可减少损失点击数据的风险，但也会减少随 Adobe 点击数据一起发送的 DFA 数据量。
 
 **visitCookie**：用于将 DFA 调用限制为每次访问调用一次的 Cookie 的名称。
 
@@ -265,7 +263,7 @@ Timeout Percentage = [Step 3] / [Step 2] * 100
 
 请注意，超时百分比实际上考虑了所有的网站访客。这其中的某些访客完全不会关联到 DFA，因此该超时具有误导性。To improve this computation, another analysis could consider only unique visitors to pages with the `clickThroughParam` set (for example, `?CID=1`). 这将显示更高的准确性。
 
-如果超时百分比非常低，请考虑降低 *`s.maxDelay`*。如果它非常高，请提高 *`s.maxDelay`*. When decreasing *`s.maxDelay`*, you will want to rerun the [!DNL Timeout Report] to ensure that timeouts have not dramatically increased. When increasing *`s.maxDelay`*, you will want to run a [!DNL Page Views Report] to make sure page views aren’t falling out due to lost data. Each time *`s.maxDelay`* is changed observe the data for several days in order to ensure that the data represents a trend, and not just a day-to-day fluctuation.
+如果超时百分比非常低，请考虑降低 *`s.maxDelay`*。如果它非常高，请提高 *`s.maxDelay`*. When decreasing *`s.maxDelay`*, you will want to rerun the [!DNL Timeout Report] to ensure that timeouts have not dramatically increased. 增加 *`s.maxDelay`*&#x200B;时，您需要运行 [!DNL Page Views Report] 一个，以确保页面视图不会因数据丢失而流失。 Each time *`s.maxDelay`* is changed observe the data for several days in order to ensure that the data represents a trend, and not just a day-to-day fluctuation.
 
 The optimal setting for *`s.maxDelay`* is the point at which the timeout percentage is minimized while Page Views do not drop off.
 
