@@ -8,8 +8,8 @@ subtopic: 故障诊断
 title: 优化概述
 topic: 开发人员和实施
 uuid: 8e8ecc5b-d4b1-4d13-8525-39e4924df247
-translation-type: ht
-source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,5 @@ Analytics 部署包括三个主要步骤。
 
 1. 库文件向 Adobe 数据收集服务器发出图像请求。该服务器可收集正在提交的数据，并向访客的浏览器返回一个 1x1 的透明图像。第三步是向整个页面下载时间小幅添加增量。
 
->[!NOTE]
->
->客户可以采取其他步骤以最大程度地减少 Analytics 开销。
+> [!NOTE]客户可以采取其他步骤以最大程度地减少 Analytics 开销。
 
