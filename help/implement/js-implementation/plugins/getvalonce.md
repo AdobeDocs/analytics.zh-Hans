@@ -8,7 +8,7 @@ subtopic: 插件
 title: getValOnce
 topic: 开发人员和实施
 uuid: 82fe0da5-3bc4-4632-8c62-7b5683f6b587
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -20,7 +20,7 @@ getValOnce 插件可防止指定变量被设置为之前定义的值。它使用
 
 >[!IMPORTANT]
 >
->This plug-in has not been validated to be compatible with [AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8). See [AppMeasurement Plug-in Support](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
+>尚未验证此插件是否与 [AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8)兼容。请参阅 [AppMeasurement 插件支持](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A)。
 
 **参数**
 
@@ -31,7 +31,7 @@ s.eVar1=s.getValOnce(variable,cookie,expiration,minute);
 * **变量 (Variable)：**&#x200B;将被检查的变量。通常与目前定义的变量相同。
 * **Cookie：**&#x200B;存储了要进行对比的前一个值的 Cookie 名称。此 Cookie 可为任意值。
 * （可选）**过期时间 (Expiration)：** Cookie 将在此天数后过期。如果未设置或设置为 0，则默认过期时间为浏览器会话。
-* （可选）**分钟 (Minute)：**&#x200B;如果您将其设置为字符串值&#x200B;*`m`*&#x200B;过期值在几分钟内而不是数天内定义。If not set, *`days`* is the default expiration.
+* （可选）**分钟 (Minute)：**&#x200B;如果您将其设置为字符串值&#x200B;*`m`*，则过期时间值将以分钟（而非天）为单位定义。如果未设置，则 *`days`* 为默认的过期时间。
 
 **属性**
 
@@ -47,13 +47,13 @@ s.eVar1=s.getValOnce(variable,cookie,expiration,minute);
 
 >[!NOTE]
 >
->以下说明要求您更改站点上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
+>下面的说明需要您更改网站上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
 
 ## 实施 {#section_177FF7F425B64FFB83CDE15A6ACC8D21}
 
 >[!NOTE]
 >
->If your organization uses Marketing Channels and has rules set up based on `s.campaign`, it is recommended that you not use the getValOnce plugin when setting the `s.campaign`value. 因为这样做可能会导致为次级促销活动点进分配错误的渠道。
+>如果贵组织使用营销渠道，并根据 `s.campaign` 设置了规则，则建议您在设置 `s.campaign` 值时不要使用 getValOnce 插件。因为这样做可能会导致为次级促销活动点进分配错误的渠道。
 
 要实施此插件，请在 [!DNL s_code.js] 文件中置入以下代码
 
@@ -72,9 +72,12 @@ s.getValOnce=new Function("v","c","e","t",""
 +"==0?0:a);}return v==k?'':v");
 ```
 
-Once the above code is implemented, define the desired variable using the *`getValOnce`* function. 以下是几个有关如何进行实施的示例。
+在实施以上代码之后，请使用 *`getValOnce`* 函数来定义所需的变量。以下是几个有关如何进行实施的示例。
 
-**如果在 Cookie 设置后的 30 天内检测到重复的值，则阻止定义相同的促销活动值：**`s.campaign=s.getValOnce(s.campaign,'s_cmp',30);`**如果在设置了cookie的30分钟内检测到重复的值，则防止定义相同的eVar值：**`s.eVar1=s.getValOnce(s.eVar1,'s_ev1',30,'m');`**防止在同一浏览器会话中多次定义同一eVar值：**`s.eVar2=s.getValOnce(s.eVar2,'s_ev2');`**Notes**
+**如果在 Cookie 设置后的 30 天内检测到重复的值，则阻止定义相同的促销活动值：**
+`s.campaign=s.getValOnce(s.campaign,'s_cmp',30);`  **如果在 Cookie 设置后的 30 分钟内检测到重复的值，则阻止定义相同的 eVar1 值：**
+`s.eVar1=s.getValOnce(s.eVar1,'s_ev1',30,'m');`  **阻止在同一浏览器会话中多次定义相同的 eVar2 值：**
+`s.eVar2=s.getValOnce(s.eVar2,'s_ev2');`  **注意**
 
 * 在生产环境中进行部署之前，请务必对插件安装进行广泛地测试，以确保可按预期进行数据收集。
 * 请确保删除 Cookie 或在测试过程中使用新的唯一值，否则将不会发送变量。
