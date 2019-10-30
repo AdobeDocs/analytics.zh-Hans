@@ -2,18 +2,18 @@
 description: 通过 AJAX 实施的过程与在标准 HTML 页面上部署代码完全一样。
 keywords: Analytics 实施
 seo-description: 通过 AJAX 实施的过程与在标准 HTML 页面上部署代码完全一样。
-seo-title: 进行 AJAX 实施
+seo-title: 使用 AJAX 实施
 solution: Analytics
-title: 进行 AJAX 实施
+title: 使用 AJAX 实施
 topic: 开发人员和实施
-uuid: e3477ef-7dea-4c76-ab61-36a188222 be7
-translation-type: tm+mt
+uuid: 9e3477ef-7dea-4c76-ab61-36a188222be7
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 进行 AJAX 实施
+# 使用 AJAX 实施
 
 通过 AJAX 实施的过程与在标准 HTML 页面上部署代码完全一样。
 
@@ -25,11 +25,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## 部署代码 {#section_F3FC6F07A3E148D89A4C9ABC442920C3}
 
-JavaScript 代码中有两种函数可允许您发送数据。应当按照一些明确的指导原则确定发送数据时应采用的方法。如果之前已在同一页面上发送图像请求，则必须首先清除先前设置变量的值。Use the `clearVars()` funtion in [!DNL AppMeasurement] for JavaScript, or write a simple JavaScript function to clear the variables if you are using H code. Set the values appropriate for the changed content, namely the *`pageName`* variable. After the variables are set call the *`t()`* function.
+JavaScript 代码中有两种函数可允许您发送数据。应当按照一些明确的指导原则确定发送数据时应采用的方法。如果之前已在同一页面上发送图像请求，则必须首先清除先前设置变量的值。如果您使用 H 代码，则使用 [!DNL AppMeasurement] for JavaScript 中的 `clearVars()` 函数，或者编写一个简单的 JavaScript 函数来清除变量。为更改后的内容设置适当的值，即 *`pageName`* 变量。在变量设置完成之后调用 *`t()`* 函数。
 
 >[!NOTE]
 >
->Before you call `s.t()`, you must clear any values on the s object that you do not want to persist. if you are using [!DNL AppMeasurement] for JavaScript, you can call `s.clearVars()`. 如果您使用 H 代码，请编写一个简单的例程来将变量设置为空字符串。
+>调用 `s.t()` 之前，必须清除 s 对象上所有您不希望再保存的值。如果您使用 [!DNL AppMeasurement] for JavaScript，则可以调用 `s.clearVars()`。如果您使用 H 代码，请编写一个简单的例程来将变量设置为空字符串。
 
 ```js
 s.clearVars(); 
@@ -38,7 +38,7 @@ s.prop1="some value"
 void(s.t());
 ```
 
-The following example shows a tracking call in the `done` callback of the JQuery `.ajax` function:
+下面的示例显示了 JQuery `done` 函数的 `.ajax` 回调中的一个跟踪调用：
 
 ```
 $.ajax({ 
@@ -56,10 +56,10 @@ $.ajax({
 如果之前已在同一页面上发送图像请求，则可以首先清除先前设置的变量值。这可通过以下几种方式来完成：
 
 * 写入一个简单的 JavaScript 函数来清除 Adobe 变量。
-* 设置&#x200B;*`linkTrackVars`**`linkTrackEvents`* 变量 [!DNL s_code.js] 。
+* 设置 *`linkTrackVars`* 和 *`linkTrackEvents`* 变量（如果您尚未在 [!DNL s_code.js] 文件中完成此设置）。
 
-* Set the values appropriate for the changed content, namely the *`pageName`* variable.
-* After the variables are set, call the *`tl()`* function.
+* 为更改后的内容设置适当的值，即 *`pageName`* 变量。
+* 在变量设置完成之后调用 *`tl()`* 函数。
 
 ```js
 //set linkTrackVars and linkTrackEvents> (if applicable) 
