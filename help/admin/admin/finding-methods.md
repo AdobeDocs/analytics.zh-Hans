@@ -5,9 +5,9 @@ seo-title: 查找方法
 solution: Analytics
 title: 查找方法
 topic: 管理工具
-uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
+uuid: 1053993e-7fc4-4874-84fa-367ecd7b45
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 “查找方法”页面可识别各种查找方法报表在网站上接收转化成功事件信用的方式。例如，如果某个搜索引擎引荐一个访客到您的网站购物，“查找方法”可指定该搜索引擎如何接收反向链接的信用。
 
-**[!UICONTROL “分析]** ”&gt;“ **[!UICONTROL 管理员]** ”&gt; **[!UICONTROL “报表包]** ”&gt; **[!UICONTROL “编辑设置]** ”&gt; **[!UICONTROL “转换]** ”&gt; **[!UICONTROL “查找方法]**”。
+**[!UICONTROL Analytics]** Admin **[!UICONTROL &gt; Report Suites]** &gt; **[!UICONTROL Settings]** &gt; Edit Settings ************&gt; Conversion Methods &gt; Finding Finding Methods
 
 ## 查找方法描述 {#section_8B6278DB75224EAB9F49D89A86274E8A}
 
@@ -55,7 +55,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  </tbody> 
 </table>
 
->[!NOTE]
->
->所有查找方法在访问结束时过期。如果您选择在不同事件（例如，购物车结账）后过期，则“查找方法”会在访问期间购物车结账时过期。如果访问期间没有购物车结账，则“查找方法”仍会在访问结束后过期。
+> [!NOTE] 访问结束后，所有查找方法都会过期。 如果您选择在不同事件（例如，购物车结账）后过期，则“查找方法”会在访问期间购物车结账时过期。如果访问期间没有购物车结账，则“查找方法”仍会在访问结束后过期。
 
