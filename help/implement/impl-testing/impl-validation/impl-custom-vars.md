@@ -6,8 +6,8 @@ seo-title: 自定义变量
 solution: Analytics
 title: 自定义变量
 topic: 开发人员和实施
-uuid: 54adf622-7f05-49c0-b7 e6-702bb2 f17 b1 c
-translation-type: tm+mt
+uuid: 54adf622-7f05-49c0-b7e6-702bb2f17b1c
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
