@@ -1,5 +1,5 @@
 ---
-description: Ad Hoc Analysis integrates with the Analytics Segmentation environment, allowing you to build, share, manage, and apply visitor segments across Adobe products. Ad Hoc Analysis provides a Java-based user interface for its Segment Builder and Segment Manager identical to the web-based tools used by other Analytics tools, matching server calls and providing the same features and functionality from a Java-based console.
+description: Ad Hoc analysis与Analytics细分环境集成，使您能够跨Adobe产品构建、共享、管理和应用访客细分。 Ad Hoc analysis为其区段生成器和区段管理器提供基于Java的用户界面，与其他Analytics工具使用的基于Web的工具相同，可匹配服务器调用，并从基于Java的控制台提供相同的特性和功能。
 seo-description: Ad Hoc analysis与Analytics细分环境集成，使您能够跨Adobe产品构建、共享、管理和应用访客细分。 Ad Hoc analysis为其区段生成器和区段管理器提供基于Java的用户界面，与其他Analytics工具使用的基于Web的工具相同，可匹配服务器调用，并从基于Java的控制台提供相同的特性和功能。
 seo-title: 生成区段
 solution: Analytics
