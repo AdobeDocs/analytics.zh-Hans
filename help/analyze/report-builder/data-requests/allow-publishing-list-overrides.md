@@ -5,9 +5,9 @@ seo-title: 允许发布列表覆盖
 solution: Analytics
 title: 允许发布列表覆盖
 topic: Report Builder
-uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
+uuid: f2cc9878-ab54-4c6f-8a88-3f3b57955e3
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,5 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 对于从单元格中选择的报表包，该选项不可用。
 
->[!NOTE]
->
->如果将计划报表发送给多个发布列表，则报表针对每个列表运行一次。可变报表包由分配给发布列表的报表包替换。
+> [!NOTE]如果将计划报表发送给多个发布列表，则报表针对每个列表运行一次。可变报表包由分配给发布列表的报表包替换。
 
