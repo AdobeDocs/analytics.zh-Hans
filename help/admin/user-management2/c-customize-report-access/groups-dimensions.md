@@ -9,24 +9,20 @@ title: 自定义维度权限
 topic: 管理工具
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
 
 # 自定义维度权限
 
->[!IMPORTANT]
->
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe 会通知您何时迁移用户。After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+> [!IMPORTANT] 用户和产品管理将移至 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)。 Adobe 会通知您何时迁移用户。After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
 
 在粒度级别自定义用户访问权限，包括 eVar、流量报表、解决方案报表和路径报表。
 
 **[!UICONTROL “用户管理”]** &gt;“ **[!UICONTROL 组]** ”&gt;“报 **[!UICONTROL 告访问”]** &gt;“维度 **[!UICONTROL ”&gt;“自定义]****[!UICONTROL ”]**
 
->[!IMPORTANT]
->
->某些维此时不可授权。 这些维度包括：移动书签长度；移动设备编号；移动 DRM；移动信息服务；移动 Java 虚拟机；移动邮件装饰；移动网络协议；移动操作系统；移动一键通。
+> [!IMPORTANT] 某些维此时不可授权。 这些维度包括：移动书签长度；移动设备编号；移动 DRM；移动信息服务；移动 Java 虚拟机；移动邮件装饰；移动网络协议；移动操作系统；移动一键通。
 >
 >无论其他权限如何，这些维度可供所有用户使用。
 
@@ -107,4 +103,3 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
   </tr> 
  </tbody> 
 </table>
-
