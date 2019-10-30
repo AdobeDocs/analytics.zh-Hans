@@ -5,9 +5,9 @@ seo-title: 添加从属请求
 solution: Analytics
 title: 添加从属请求
 topic: Report Builder
-uuid: 243619db-81b4-40cc-88c4-e93 a14 f6993 b
+uuid: 243619db-81b4-40cc-88c4-e93a14f6993b
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,12 +18,8 @@ source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
 
 For reports with correlation breakdowns enabled within the report table, you can take a closer look at an item by right-clicking in the cell and clicking **[!UICONTROL Add Dependent Request]** &gt; **[!UICONTROL Breakdown]**.
 
->[!NOTE]
->
->您还可以在创建原始请求时添加细分请求。See [Create a Data Request](/help/analyze/report-builder/data-requests/t-create-a-data-request.md).
+> [!NOTE] 您还可以在创建原始请求时添加细分请求。 See [Create a Data Request](/help/analyze/report-builder/data-requests/t-create-a-data-request.md).
 
->[!NOTE]
->
->Adobe Report Builder仅强制在同一工作表内请求依赖关系，而不能在工作表中执行请求依赖项。将从属关系限制在一张工作表中可确保执行的时效性。
+> [!NOTE] Adobe Report builder仅在同一工作表内强制实施请求依赖关系，而不是跨工作表。 将从属关系限制在一张工作表中可确保执行的时效性。
 
-See [Breakdown Reports](/help/analyze/reports-analytics/reports-customize/breakdowns.md).
+请参 [阅细分报表](/help/analyze/reports-analytics/reports-customize/breakdowns.md)。
