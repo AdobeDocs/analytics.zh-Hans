@@ -5,9 +5,9 @@ seo-title: 计划任务管理器
 solution: Analytics
 title: 计划任务管理器
 topic: Report Builder
-uuid: dc259f0-2a04-4c94-abbc-5008cf2 f1 cb8
+uuid: Dec259f0-2a04-4c94-abbc-5008cf2f1cb8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -67,7 +67,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col2"> 报表的电子邮件收件人。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>报表 </p> </td> 
+   <td colname="col1"> <p>报告 </p> </td> 
    <td colname="col2"> 发送到每个收件人的报表。 </td> 
   </tr> 
   <tr> 
