@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: 常见问题解答
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
    <td colname="col1"> <b>问：如何知道我的报表包是否进行了现场个性化，或非现场/现场定位？</b> </td> 
    <td colname="col2"> 
     <ul id="ul_F0984CEF80DB4B589716BC55549E32B8"> 
-     <li id="li_9BC3819784A9408F846D60FF0F20AAF9">这些操作不适用于将 Adobe Analytics 数据发送至 Adobe Audience Manager。 </li> 
+     <li id="li_9BC3819784A9408F846D60FF0F20AAF9">这不适用于将Adobe Analytics数据发送到Adobe Audience Manager。 </li> 
      <li id="li_050A1BF9978E436895B5C7E33A82527D">请思考：您是否要将 Analytics 共享的区段和 MCA 维度共享回 Experience Cloud？ </li> 
      <li id="li_C52D969681B94F4AAA18FDEB21EC5B49">您是否要导出（例如，通过数据馈送）至商业智能 (BI) 系统，以用于上述目的？ </li> 
     </ul> </td> 
@@ -89,20 +89,20 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
    <td colname="col2"> <p>几乎任何地方都可以使用；对它们的处理方式与 Analytics 中收集到的任何其他维度类似。存在以下两个例外：目前，在 Data Workbench 或 Livestream 中将不会有数据。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>问：为何我无法看到在 Analytics 中传入的数据？</b> </p> </td> 
-   <td colname="col2"> <p>数据源和目标之间的 AAM 隐私控件可能存在冲突。. </p> </td> 
+   <td colname="col1"> <p><b>问：为什么我看不到Analytics中的数据流？</b> </p> </td> 
+   <td colname="col2"> <p>数据源和目标之间的AAM隐私控制可能有冲突。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：为何我的某些区段在 Analytics 中丢失，即使我选择发送所有区段也是如此？</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_B8938FD08C6F4F2387EDADDEF8089319"> 
-     <li id="li_50A9BDF612304062913370F16BC882EF">目标和区段数据源中的 AAM 数据导出控件可能存在冲突，这会阻止发送某些区段。 </li> 
+     <li id="li_50A9BDF612304062913370F16BC882EF">您对目标和区段数据源的AAM数据导出控件可能有冲突，从而阻止发送某些区段。 </li> 
      <li id="li_AF5D6F883D6F4D3192E0BF23CF12ADEA">如果您在区段中使用第三方数据特征，这些区段无法共享到包含个人数据的目标（一组报表包）。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：为什么我在Analytics报告中看到“已达到受众限制”? (注：此值还将在数据仓库中表示为受众ID = -1和“::max_audiences_exceeded::”)</b> </p> </td> 
-   <td colname="col2"> <p>默认情况下，AAM 的 Audience Analytics 集成会根据点击将访客有资格使用的所有区段都发送到 Analytics。如果访客在一次点击中从属于 150 个以上的 AAM 区段，则将<b>最近获得授权的 150 个区段</b>发送到 Analytics，而剩余的列表将被截断。 </p> <p>此外还会向 Analytics 发送一个标记，指示区段列表被截断，该标记在“受众名称”维度中显示为“已达到受众限制”，在“受众 ID”维度中显示为“-1”。 </p> <p>虽然访客不太可能在一次点击中有资格使用 150 个以上的区段，但这种情况依然有极小的概率发生。如果您在报告中遇到“已达到受众限制”，可选择以下两个选项： </p> 
+   <td colname="col2"> <p>默认情况下，AAM 的 Audience Analytics 集成会根据点击将访客有资格使用的所有区段都发送到 Analytics。如果访客在一次点击中从属于 150 个以上的 AAM 区段，则将<b>最近获得授权的 150 个区段</b>发送到 Analytics，而剩余的列表将被截断。 </p> <p>将向Analytics发送另一个标志，表示区段列表被截断，并在“受众名称”维中显示为“已达到受众限制”，在“受众ID”维中显示为“-1”。 </p> <p>虽然访客不太可能在一次点击中有资格使用 150 个以上的区段，但这种情况依然有极小的概率发生。如果您在报告中遇到“已达到受众限制”，则有两种选择： </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>选项 1</b>：继续让集成保持现有工作状态，这会为特定访客发送最近获得授权的 150 个区段。 </li> 
      <li id="li_CA4D5747AA4A4452929097807B604959"><b>选项 2</b>：在 AAM 中，选择对您的集成业务最为重要的 150 个区段。AAM 随后仅针对这 150 个区段检查访客。此方法的缺点在于您只能收到所有访客间的这 150 个区段。而在另一方面，选项 1 方法因为集成的每次点击特性可提供无限的区段。 </li> 
@@ -121,10 +121,10 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>问：如果我实施了旧版 SSF，我还需要转至 Analytics 管理员，开启报表包 SSF 吗？</b> </p> </td> 
-   <td colname="col2"> <p>需要。在 AAM 目标设置中，您将只会看到开启了 SSF 的报表包。 </p> </td> 
+   <td colname="col2"> <p>能。在 AAM 目标设置中，您将只会看到开启了 SSF 的报表包。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>问：为何我无法在 Analytics 管理员中为某些报表包开启 SSF？</b> </p> </td> 
+   <td colname="col1"> <p><b>问：为什么无法在Analytics Admin中为SSF打开某些报表包？</b> </p> </td> 
    <td colname="col2"> <p>只能启用映射到您的Experience Cloud组织的套件。 </p> </td> 
   </tr> 
  </tbody> 
