@@ -4,10 +4,10 @@ seo-description: 显示您已在 Target 中配置的体验（方法）列表。�
 seo-title: Target 体验
 solution: Analytics
 title: Target 体验
-topic: 报表
-uuid: 15728f3e-003c-47a0-a47 b-12b52 b79
+topic: 报告
+uuid: 15728f3e-003c-47a0-a47b-12b52a88fb79
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
