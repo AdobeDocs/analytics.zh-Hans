@@ -7,7 +7,7 @@ title: '[!DNL活动图]常见问题解答'
 topic: Activity Map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,7 +24,7 @@ Frequently asked questions for setting up, configuring, and employing features i
 
 **问：是否所有的 Analytics 客户都可以访问管理工具 Activity Map 启用页面？**
 
-A: Adobe SiteCatalyst customers do not have access to the Admin Console’s [!DNL Activity Map] Enablement page. 只有签署了 Adobe Analytics Standard 和 Adobe Analytics Premium 合同的公司，才具备访问此配置页面的权限。
+A: Adobe SiteCatalyst customers do not have access to the Admin Console's [!DNL Activity Map] Enablement page. 只有签署了 Adobe Analytics Standard 和 Adobe Analytics Premium 合同的公司，才具备访问此配置页面的权限。
 
 **问：能否通过动态标签管理 (DTM) 配置新的 AppMeasurement 代码？**
 
