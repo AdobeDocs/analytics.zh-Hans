@@ -4,21 +4,21 @@ seo-description: 'null'
 seo-title: 数据源处理时间
 solution: Analytics
 title: 数据源处理时间
-uuid: d7cd679a-f9 e3-4740-87cf-6171f3 fe cd9
+uuid: d7cd679a-f9e3-4740-87cf-6171f3fe5cd9
 translation-type: tm+mt
-source-git-commit: 84c86c5b42b6dd85ee7780f9ba1fea950e71d663
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 数据源处理时间
 
->[!Nte]
->任何数据处理时间段都应视为近似值，不构成服务水平协议(SLA)。
+>[!Note]
+>任何数据处理时间段都应视为近似的，不构成服务级别协议(SLA)。
 
 数据处理时间不尽相同，具体原则如下所示：
 
-* 当日数据：处理完成后大约小时完成。
+* 当日数据：在上传数据约2小时后，处理完成。
 * 前一天的数据：将在数据上载后约 3 个小时内完成处理。
 
 所上载数据的日期每往前推一天，处理时间将增加约 1 个小时，最多可增加 17 个小时。
