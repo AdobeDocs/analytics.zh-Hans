@@ -1,23 +1,23 @@
 ---
 description: 了解如何在营销渠道中指定访客参与到期。
 seo-description: 了解如何在营销渠道中指定访客参与到期。
-seo-title: 访客参与期满
+seo-title: 访客参与到期
 solution: Analytics
 subtopic: 营销渠道
-title: 访客参与期满
-topic: Reports & Analytics
-uuid: 47f1ccaf-3ce7-494d-b456-956a3 a3 c6 c9 a
+title: 访客参与到期
+topic: Reports and Analytics
+uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 访客参与期满
+# 访客参与到期
 
 了解如何在营销渠道中指定访客参与到期。
 
-## Visitor engagement expiration {#topic_32ADFDB12D3A4F35843A4545AC97C49F}
+## 访客参与到期 {#topic_32ADFDB12D3A4F35843A4545AC97C49F}
 
 了解如何在营销渠道中指定访客参与到期。
 
