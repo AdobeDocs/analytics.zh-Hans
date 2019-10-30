@@ -1,27 +1,27 @@
 ---
 description: 描述如何通过 FTP 上载数据文件的步骤。
 seo-description: 描述如何通过 FTP 上载数据文件的步骤。
-seo-title: FTP导入
+seo-title: FTP 导入
 solution: Analytics
 subtopic: 分类
-title: FTP导入
+title: FTP 导入
 topic: 管理工具
-uuid: a914970d-ba02-4111-9dcf-06448f71 b9 f3 f
+uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# FTP导入
+# FTP 导入
 
 描述如何通过 FTP 上载数据文件的步骤。
 
-## FTP import {#concept_2F965BE873254546A61FB755F25299FD}
+## FTP 导入 {#concept_2F965BE873254546A61FB755F25299FD}
 
 描述如何通过 FTP 上载数据文件的步骤。
 
-**[!UICONTROL 管理员]** &gt; **[!UICONTROL 分类导入程序]**。
+**[!UICONTROL “管理员]** ”&gt;“ **[!UICONTROL 分类导入程序]**”。
 
 以下建议的限制很重要：
 
@@ -36,9 +36,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 如果您超出了当月的独立值，将无法在报表中看到超出独立值所对应的分类数据。您可以在 Data Warehouse 或 Ad Hoc Analysis 中查看这些分类。
 
->[!NOTE]
->
->处理分类数据文件所需的时间因文件大小和Adobe服务器已处理的当前文件数而异。处理数据文件的时间通常不超过 72 小时。
+> [!NOTE] 处理分类数据文件所需的时间因文件的大小和Adobe服务器已处理的当前文件数而异。 处理数据文件的时间通常不超过 72 小时。
 
 在通过 FTP 上载数据之前，请先创建 FTP 帐户。有关详细信息，请参阅[创建 FTP 帐户](../../../components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)。
 
