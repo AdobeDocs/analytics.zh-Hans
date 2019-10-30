@@ -4,7 +4,7 @@ seo-description: 关于如何使用Java 11运行临时分析的说明。
 seo-title: Ad Hoc analysis和Java 11
 title: 使用 Java 11 运行 Ad Hoc Analysis
 translation-type: tm+mt
-source-git-commit: 23bdb0c24416c376ec1df7b609a5794dbf8886f2
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,13 +25,11 @@ source-git-commit: 23bdb0c24416c376ec1df7b609a5794dbf8886f2
 1. Go to **[!UICONTROL Analytics &gt; Tools &gt; Ad Hoc Analysis]**.
 1. Click **[!UICONTROL Ad Hoc Analysis (Java 11)]**. 此时会下载一个 zip 文件。
 1. 解压缩已下载的文件。
-1. **选择 .bat (PC) 或 .sh (Mac) 文件**。通过查看 Adobe Analytics URL 中“sc”后面的数字，选择相应的数据中心文件。(3 = LON, 4 = SIN, 5 = PNW)如果您使用PC，请转到“关于您的PC”，验证您运行的是32位还是64位Windows操作系统。 然后，选择适当的 .bat 文件。
+1. **选择 .bat (PC) 或 .sh (Mac) 文件**。通过查看Adobe Analytics URL中的“sc”号，选择适当的数据中心文件。 (3 = LON, 4 = SIN, 5 = PNW)如果您使用PC，请转到“关于您的PC”，验证您运行的是32位还是64位Windows操作系统。 然后，选择适当的 .bat 文件。
 1. **运行所选文件**。对于 PC：双击 .bat 文件。对于 Mac：右键单击 .sh 文件，然后选择&#x200B;**[!UICONTROL 打开方式 &gt; 其他... &gt; 实用工具 &gt;（启用所有应用程序）&gt; 选择“终端”&gt; 打开]**。
 1. 登录到 Ad Hoc Analysis。
 
->[!Note]
->
-> Federated和Enterprise ID身份验证方法与Java 11版本的Ad Hoc analysis不兼容。
+> [!NOTE] Federated和Enterprise ID身份验证方法与Java 11版本的Ad Hoc analysis不兼容。
 
 ## Ad Hoc Analysis (Java 11) 中不支持的功能
 
