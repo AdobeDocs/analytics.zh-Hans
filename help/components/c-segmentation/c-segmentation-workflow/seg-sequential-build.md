@@ -1,28 +1,28 @@
 ---
-description: 顺序区段使用 THEN 运算符（而非 AND 或 OR）创建。THEN 意味着出现一个区段标准后，接着出现另一个区段标准。默认情况下，顺序区段会标识所有匹配数据，并显示过滤器“包含每个人”。可以使用“仅在序列前”和“仅在序列后”选项将顺序区段进一步过滤为匹配点击的子集。
-seo-description: 顺序区段使用 THEN 运算符（而非 AND 或 OR）创建。THEN 意味着出现一个区段标准后，接着出现另一个区段标准。默认情况下，顺序区段会标识所有匹配数据，并显示过滤器“包含每个人”。可以使用“仅在序列前”和“仅在序列后”选项将顺序区段进一步过滤为匹配点击的子集。
+description: 顺序区段使用 THEN 运算符（而非 AND 或 OR）创建。THEN 意味着出现一个区段标准后，接着出现另一个区段标准。默认情况下，顺序区段标识所有匹配的数据，显示过滤器“包括所有人”。 使用“仅序列前”和“仅序列后”选项，可以进一步将顺序区段过滤为匹配点击的子集。
+seo-description: 顺序区段使用 THEN 运算符（而非 AND 或 OR）创建。THEN 意味着出现一个区段标准后，接着出现另一个区段标准。默认情况下，顺序区段标识所有匹配的数据，显示过滤器“包括所有人”。 使用“仅序列前”和“仅序列后”选项，可以进一步将顺序区段过滤为匹配点击的子集。
 seo-title: 生成顺序区段
 solution: Analytics
 title: 生成顺序区段
 topic: 区段
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: 22fc459dae1a57a387511560e7039c7085e30551
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 生成顺序区段
 
-顺序区段使用 THEN 运算符（而非 AND 或 OR）创建。THEN 意味着出现一个区段标准后，接着出现另一个区段标准。默认情况下，顺序区段会标识所有匹配数据，并显示过滤器“包含每个人”。可以使用“仅在序列前”和“仅在序列后”选项将顺序区段进一步过滤为匹配点击的子集。
+顺序区段使用 THEN 运算符（而非 AND 或 OR）创建。THEN 意味着出现一个区段标准后，接着出现另一个区段标准。默认情况下，顺序区段标识所有匹配的数据，显示过滤器“包括所有人”。 使用“仅序列前”和“仅序列后”选项，可以进一步将顺序区段过滤为匹配点击的子集。
 
 ![](assets/before-after-sequence.png)
 
-此外，您还可以使用[After 和 Within 运算符](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_07708877D06742998C6237DD9FD194EA)将顺序区段限制为检查点之间的特定持续时间、粒度和计数。
+Additionally, you can constrain sequential segments to a specific duration of time, granularity, and counts between checkpoints using the [After and Within operators](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_07708877D06742998C6237DD9FD194EA).
 
 ## 包含每个人 {#section_75ADDD5D41F04800A09E592BB2940B35}
 
-在创建一个设置了“包含每个人”的区段时，该区段能够识别匹配整个给定模式的路径。这是一个基本的序列区段示例，用于查找同一访客访问的一个点击（页面 A）及下一个点击（页面 B）。将区段设置为“包含每个人”。
+在创建设置了“包括所有人”的区段时，该区段会标识与给定模式整体匹配的路径。 这是一个基本的序列区段示例，用于查找同一访客访问的一个点击（页面 A）及下一个点击（页面 B）。将区段设置为“包含每个人”。
 
 ![](assets/sequence-filter.png)
 
@@ -35,8 +35,8 @@ source-git-commit: 22fc459dae1a57a387511560e7039c7085e30551
 
 **[!UICONTROL 仅在序列前]**&#x200B;和&#x200B;**仅在序列后[!UICONTROL 选项可将区段过滤为指定序列之前或之后的数据子集。]**
 
-* **仅在序列前**：包含序列之前的所有点击 + 该序列自身的第一次点击（见示例 1、3）。如果序列在路径中出现多次，则“仅在序列前”包括该序列最后一个实例的第一次点击和之前的所有点击（见示例 2）。
-* **仅在序列后**：包含序列之后的所有点击 + 该序列自身的最后一次点击（见示例 1、3）。如果序列在路径中出现多次，则“仅在序列后”包括该序列首个实例的最后一次点击和之后的所有点击（见示例 2）。
+* **仅在序列前**：包含序列之前的所有点击 + 该序列自身的第一次点击（见示例 1、3）。如果序列在路径中多次出现，则“仅在序列之前”包括序列最后一次出现的第一次点击和所有先前的点击（请参阅示例2）。
+* **仅在序列后**：包含序列之后的所有点击 + 该序列自身的最后一次点击（见示例 1、3）。如果序列在路径中多次出现，则“仅在之后”包括序列第一次出现的上次点击和所有后续点击（请参阅示例2）。
 
 以 B -&gt; D 序列为例。三种过滤器将按以下方式确定点击量：
 
@@ -56,7 +56,7 @@ source-git-commit: 22fc459dae1a57a387511560e7039c7085e30551
 | 仅在序列前 | A | B | C | D | B |  |  |  |
 | 仅在序列后 |  |  |  | D | B | C | D | E |
 
-我们还可以使用“点击深度”维度来描述这个概念。
+我们还要将此概念与“点击深度”(Hit Depth)维度结合起来。
 
 **示例 3：点击深度 3 -&gt; 5**
 
@@ -64,9 +64,9 @@ source-git-commit: 22fc459dae1a57a387511560e7039c7085e30551
 
 ## 维度约束 {#section_EAFD755F8E674F32BCE9B642F7F909DB}
 
-在“THEN”语句之间的“within”子句中，您可以添加“在 1 个搜索关键字实例之内”、“在 1 个 eVar 47 实例之内”。此条件可将区段限制在维度的一个实例之内。
+在“within”子句中，在THEN语句之间，可以添加“在1个搜索关键字实例内”、“在1个eVar 47实例内”等。 此条件可将区段限制在维度的一个实例之内。
 
-在规则之间设置“在维度之内”子句，能够使区段将数据限制为满足此子句的序列。请参见以下示例，其中约束条件被设置为“在 1 个页面之内”：
+在规则之间设置“Within Dimension”子句允许区段将数据限制到满足该子句的序列。 请参见以下示例，其中约束条件被设置为“在 1 个页面之内”：
 
 ![](assets/sequence-filter4.png)
 
@@ -247,9 +247,7 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 逻辑组容器需要将条件分组到单个顺序段检查点中。 特殊逻辑组容器仅在顺序分段中可用，以确保其条件在任何先前顺序检查点之后和任何后续顺序检查点之前得到满足。 逻辑组检查点本身内的条件可以按任意顺序满足。 相反，非顺序容器（点击、访问、访客）不要求在整个序列中满足其条件，如果与THEN运算符一起使用，则会产生不直观的结果。
 逻辑 [!UICONTROL 组容器设计为将多个检查点] 视为一个组 *，而*&#x200B;不在分组检查点之间进行任何排序 ** 。 换句话说，我们并不关心该组内检查点的顺序。 例如，无法在[!UICONTROL 访客]容器中嵌套[!UICONTROL 访客]容器。But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
 
->[!NOTE]
->
->A [!UICONTROL Logic Group] can only be defined in a sequential segment, meaning that the [!UICONTROL THEN] operator is used within the expression.
+> [!NOTE] 逻 [!UICONTROL 辑组只能在顺序段中定义] ，这意味着在表达式中使用 [!UICONTROL THEN] 运算符。
 
 | 容器层次结构 | 插图 | 定义 |
 |---|---|---|
@@ -399,7 +397,7 @@ Build segments using the [!UICONTROL Logic Group] where multiple page views are 
 
 >[!IMPORTANT]
 >
->在“THEN”语句之间的“within”子句中，您可以添加“在 1 个搜索关键字实例之内”、“在 1 个 eVar 47 实例之内”。此条件可将区段限制在维度的一个实例之内。
+>在“within”子句中，在THEN语句之间，可以添加“在1个搜索关键字实例内”、“在1个eVar 47实例内”等。 此条件可将区段限制在维度的一个实例之内。
 
 **示例**:访问页面A的访客在5分钟内访问了页面B。
 
