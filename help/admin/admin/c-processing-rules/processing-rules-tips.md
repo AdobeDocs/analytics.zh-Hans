@@ -8,7 +8,7 @@ title: 处理规则的提示和技巧
 topic: 管理工具
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: f087c9255281023baa791cc181126046cfb94dc1
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: f087c9255281023baa791cc181126046cfb94dc1
 
 **测试读取搜索词的规则**
 
-有关基于搜索的任何标准，比如 prop1 包含“news”时，请转到 prop 1 报表并搜索“news”，查看是否存在您不希望出现的任何匹配。
+对于基于搜索的任何标准（如prop1包含“news”），请转至prop 1报告并搜索“news”，并查看是否存在您不期望的任何匹配项。
 
 **测试读取变量的规则**
 
@@ -31,7 +31,7 @@ Create a blank HTML page on your desktop, include the s_code from your site, and
 
 **使用开发报表包**
 
-我们建议您在开发报表包中配置处理规则，以确保它们正常工作。如有可能，我们建议您在广泛部署前先将规则复制到小型生产报表包中。
+我们建议在开发报告套件上配置处理规则，以确保它们能正常工作。 如有可能，我们建议您在广泛部署前先将规则复制到小型生产报表包中。
 
 ## 检查空值 {#section_EE84A5525E26415787930723B0CAAE0F}
 
@@ -62,4 +62,3 @@ Create a blank HTML page on your desktop, include the s_code from your site, and
 选择正确的匹配条件以查找正确匹配的最严格条件。您可以在创建规则前在报表中搜索值，以确保不会出现意外匹配。例如，在启用此规则前，应搜索 Prop2 报表以查找匹配此条件的所有位置。
 
 ![](assets/tips-startswith.png)
-
