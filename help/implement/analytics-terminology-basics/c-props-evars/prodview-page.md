@@ -7,8 +7,8 @@ solution: Analytics
 title: 详细的产品查看页面
 topic: 开发人员和实施
 uuid: 464c9daf-b042-4fb8-8ca6-e104c0bcef45
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 656fb909447ed079fa42a909a9c197296c9e2723
 
 ---
 
@@ -46,7 +46,7 @@ s.products=";SKU"
 
 ```js
 s.events="scCheckout" 
-s.products=”;SKU" 
+s.products=";SKU" 
 ```
 
 ## 确认页面 {#section_E006943CD5FD42358086581CA44B9660}
@@ -60,4 +60,4 @@ s.products=";SKU"
 >
 >虽然在产品字符串中使用 SKU 可能会降低 *`products`* 报表的可读性，但是在以后要对产品进行分类时，它可提供最大的灵活性。您可以从 SKU 创建表示完成、制造商、类别和子类别的类别。
 
-*`products`*&#x200B;变量与 *`purchase`事件一起进行设置时，以上所示的产品值中将包含购买数量和总购买价格。*
+当&#x200B;*`products`*&#x200B;变量与 *`purchase`事件一起进行设置时，以上所示的产品值中将包含购买数量和总购买价格。*
