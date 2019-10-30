@@ -8,7 +8,7 @@ title: 转化变量 (eVar)
 topic: 管理工具
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 “自定义分析转化变量”（或 eVar）置于您网站所选网页的 Adobe 代码中。其主要目的是在自定义市场营销报告中划分转化成功量度区段。eVar 可以是基于访问的，其功能与 Cookie 类似。在预先设定的一段时间内，传递到 eVar 变量的值将始终“跟随”着用户。
 
-为访客设置 eVar 值之后，Adobe 会自动记住该值，直到它过期。eVar 值处于活动状态时，访客遇到的成功事件将计入该 eVar 值。
+为访客设置 eVar 值之后，Adobe 会自动记住该值，直到它过期。eVar 值有效期间，访客遇到的任何成功事件将计入该 eVar 值。
 
 eVar 最适合用于度量原因和影响，例如：
 
@@ -27,9 +27,7 @@ eVar 最适合用于度量原因和影响，例如：
 
 如果需要进行流量测量或路径分析，则建议您使用流量变量。
 
->[!NOTE]
->
->图像请求中的eVar中只能存储一个值。 如果一个 eVar 值中需要多个值，我们建议您实施[列表变量 (list vars)](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html)。
+> [!NOTE]在图像请求中，一个 eVar 中只能存储一个值。如果一个 eVar 值中需要多个值，我们建议您实施[列表变量 (list vars)](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html)。
 
 ## 转化变量 - 描述 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -44,11 +42,11 @@ eVar 最适合用于度量原因和影响，例如：
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> 名称 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="uicontrol">名称</span> </p> </td> 
    <td colname="col2"> <p>转化变量的易记名称。此名称是常规报表引用 eVar 时所用的名称，并且该名称将用作左侧菜单中报表的名称。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol">类型</span> </p> <p>（仅限 eVar） </p> </td> 
+   <td colname="col1"> <p> <span class="uicontrol"> 类型</span> </p> <p>（仅限 eVar） </p> </td> 
    <td colname="col2"> <p>变量值类型： </p> <p> <b></b> 文本字符串</span>:捕获站点上使用的文本值。 这是 eVar 最常见的类型，并且是默认设置。它与其他变量类似，其值是静态文本字符串。如果您要跟踪内部促销活动或内部搜索关键词等内容，则这是推荐的设置。 </p> <p> <b></b> 计数器</span>:计算成功事件之前执行操作的次数。 例如，如果使用 eVar 跟踪网站上的内部搜索，则将此值设置为<span class="uicontrol">文本字符串</span>以跟踪搜索词的使用。将此值设置为<span class="uicontrol">计数器</span>可累计搜索的次数，与使用的搜索词无关。例如，您可以使用计数器 eVar 来跟踪某人在进行购买前所用内部搜索的次数。 </p> </td> 
   </tr> 
   <tr> 
