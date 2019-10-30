@@ -7,7 +7,7 @@ title: 最受欢迎的过滤设置
 topic: Report Builder
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -47,9 +47,9 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    **添加条件：**&#x200B;向表达式添加条件。可添加的条件数没有限制。
 
-1. Click **[!UICONTROL OK]**.
+1. 单击&#x200B;**[!UICONTROL 确定]**。
 
    ![步骤信息](assets/choose_page_02.png)
 
 1. 在“[!UICONTROL 选择页面]**”窗体上，单击[!UICONTROL 保存]**&#x200B;以保存表达式。
-1. Click **[!UICONTROL OK]**.
+1. 单击&#x200B;**[!UICONTROL 确定]**。
