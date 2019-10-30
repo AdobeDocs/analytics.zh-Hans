@@ -5,16 +5,16 @@ seo-description: 通过动态变量，您可以将一个变量中的值复制到
 solution: null
 title: 动态变量
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.usePlugins
 
-If the  function is available and contains useful code, [!UICONTROL s_usePlugins] should be set to 'true.'
+如果该函数可用，并且包含有用的代码，则应将 [!UICONTROL s_usePlugins] 设置为“true”。
 
-如 [!UICONTROL 果usePlugins] 为“true”，则在每 *`s_doPlugins`* 个图像请求之前调用函数。
+如果 [!UICONTROL usePlugins] 为“true”，则在每个图像请求之前调用 *`s_doPlugins`* 函数。
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |---|---|---|---|
@@ -38,7 +38,7 @@ s.usePlugins=true
 s.usePlugins=false
 ```
 
-如果未在 JavaScript 文件中声明 *`s_doPlugins`* function is not declared in your JavaScript file.
+如果未在 JavaScript 文件中声明 *`s_doPlugins`* 函数，则 [!UICONTROL usePlugins] 变量只应为 false（或未声明）。
 
 ## 配置设置
 
