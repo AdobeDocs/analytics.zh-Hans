@@ -7,7 +7,7 @@ title: 量度快速参考
 topic: 量度
 uuid: 34160c96-7cb3-4e2f-9956-9ffa9d9a359e
 translation-type: tm+mt
-source-git-commit: 92884ec44b5851799596fa1961710cd56b9c7349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 92884ec44b5851799596fa1961710cd56b9c7349
 
 列出 Adobe Analytics 中的标准量度。
 
->[!NOTE]
->
->以下未列出的任何度量（事件）都是自 [定义度量](../../../components/c-variables/c-metrics/metrics-custom.md#concept_F44638FC95A44B06AEBA3A6F9D008D27) （自定义事件）。
+> [!NOTE] 以下未列出的任何度量（事件）都是自 [定义度量](../../../components/c-variables/c-metrics/metrics-custom.md#concept_F44638FC95A44B06AEBA3A6F9D008D27) （自定义事件）。
 
 >[!IMPORTANT]
 >
