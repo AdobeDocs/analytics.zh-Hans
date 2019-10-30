@@ -4,10 +4,10 @@ seo-description: 网站量度报表显示有关网站的量化信息。例如，
 seo-title: 网站量度
 solution: Analytics
 title: 网站量度
-topic: 报表
-uuid: a7bec7f5-7dc7-4124-b61 d4 fa3 d4 f3 a8 e
+topic: 报告
+uuid: a7bec7f5-7dc7-4124-b61d-2faa3d4f3a8e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
