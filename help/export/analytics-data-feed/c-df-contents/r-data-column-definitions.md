@@ -1,13 +1,13 @@
 ---
 description: 参阅此部分可了解如何选择要包含在馈送中的数据列，以及如何在提交前处理和打包馈送数据。
-keywords: 数据馈送；数据；列；定义；选择列模板；点击流；可用的列；包含的列；压缩格式；包装类型；包括数据清单；删除转义字符；下载csv
+keywords: 数据馈送；数据；列；定义；选择列模板；单击stream；可用列；包括的列；压缩格式；打包类型；包括数据清单；删除转义字符；下载csv
 seo-description: 参阅此部分可了解如何选择要包含在馈送中的数据列，以及如何在提交前处理和打包馈送数据。
 seo-title: 数据列定义
 solution: Analytics
 title: 数据列定义
-uuid: 4337093-3dd9-48f0-a1 be-3d10 d38 a0 edb
+uuid: 43370933-5dd9-48f0-a1be-3d10d38a0edb
 translation-type: tm+mt
-source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -43,7 +43,5 @@ source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
 
 “下载 CSV”选项允许您下载当前的数据列定义。
 
->[!NOTE]
->
->只有在将至少一列添加到包含的列列表后，此选项才可用。
+> [!NOTE] 此选项仅在至少将一列添加到“包含的列”列表后才可用。
 
