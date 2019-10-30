@@ -1,11 +1,11 @@
 ---
-description: Analysis Workspace中的日期比较允许您采用包含日期范围的任何列，并创建常见日期比较，例如逐年、逐季度、逐月等。
-seo-description: Analysis Workspace中的日期比较允许您采用包含日期范围的任何列，并创建常见日期比较，例如逐年、逐季度、逐月等。
+description: Analysis Workspace中的日期比较允许您选取包含日期范围的任何列并创建常见的日期比较，如年度比较、季度比较、月度比较等。
+seo-description: Analysis Workspace中的日期比较允许您选取包含日期范围的任何列并创建常见的日期比较，如年度比较、季度比较、月度比较等。
 seo-title: 日期比较
 title: 日期比较
-uuid: ef18f9d9-b6 ad-4859-b7 c9-9750ca0 df519
+uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ Analysis Workspace 中的日期比较允许您采用包含日期范围的任何�
 
 ## 比较时间段 {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 
-分析需要上下文，通常这类上下文是由前一时间段提供的。例如，问题“我们比去年同期做得好/差多少？”是了解您的业务的基础。日期比较会自动包含“差异”列，该列显示相较指定时间段的百分比变化。
+分析需要上下文，通常这类上下文是由前一时间段提供的。例如，问题“我们比去年同期做得好/差多少？”是了解您的业务的基础。“日期比较”自动包含“差异”列，该列显示与指定时间段相比的百分比变化。
 
 1. 创建自由格式表，并且在该表中包含您要在一个时间段内比较的任何维度和量度。
 1. Right-click a table row and select **[!UICONTROL Compare Time Periods]**.
@@ -25,7 +25,7 @@ Analysis Workspace 中的日期比较允许您采用包含日期范围的任何�
 
    >[!IMPORTANT]
    >
-   >对量度行、日期范围行和时间维度行禁用此右键单击选项。
+   >此右键单击选项对于度量行、日期范围行和时间维行禁用。
 
 1. 根据您设置表格日期范围的具体方式，您可以使用以下选项进行比较：
 
