@@ -5,12 +5,12 @@ seo-description: 通过动态变量，您可以将一个变量中的值复制到
 solution: null
 title: 动态变量
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# s.registerPreTrackCallback和s.registerPostTrackCallback
+# s.registerPreTrackCallback 和 s.registerPostTrackCallback
 
 这些函数的参数是：“callback”（一个函数）以及“callback”函数包含的参数。例如：
 
