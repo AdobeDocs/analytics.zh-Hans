@@ -1,6 +1,6 @@
 ---
 description: 了解 Adobe Analytics 如何将网站访问数据变成报告。
-keywords: Analytics Implementation;data collection
+keywords: Analytics 实施;数据收集
 seo-description: 了解 Adobe Analytics 如何将网站访问数据变成报告。
 seo-title: 数据收集
 solution: Analytics
@@ -8,7 +8,7 @@ title: 数据收集
 topic: 开发人员和实施
 uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -61,7 +61,7 @@ Adobe 已创建了多种方法可将数据发送到 Analytics。这些方法包�
 
    >[!NOTE]
    >
-   >每个图像请求都包含一个随机数字符串，以防止浏览器缓存并确保浏览器发出后续的图像请求。
+   >每个图像请求都包含一个随机的数字字符串，以避免浏览器缓存并确保后续图像请求都是由浏览器发出。
 
 1. Adobe 返回透明的像素图像。
 
@@ -69,7 +69,7 @@ Adobe 已创建了多种方法可将数据发送到 Analytics。这些方法包�
 
    代码自动收集其他的详细信息（例如，操作系统、浏览器类型、浏览器高度和宽度、IP 地址和浏览器语言）。
 
-1. Adobe服务器将Web分析数据存储在 *`report suites`* （您的数据存储库）中。
+1. Adobe 服务器将 Web 分析数据存储在 *`report suites`*（您的数据存储库）中。
 
    ![](assets/how-data-is-collected-5.png)
 
