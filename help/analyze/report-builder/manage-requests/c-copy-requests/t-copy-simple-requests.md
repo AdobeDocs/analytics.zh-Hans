@@ -5,9 +5,9 @@ seo-title: 复制简单请求
 solution: Analytics
 title: 复制简单请求
 topic: Report Builder
-uuid: ff20560a-01ee-47e7-8bd1-b73 edb010456
+uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 复制简单请求，而不是引用请求。简单请求是指不引用另一请求或单元格内容的请求。
 
-[引用请求](../../../../analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md#task_82A145CC2A774F5EA86977D670E07DC8) 使用来自单元格的值作为参数的输入，如数据过滤器或关系过滤器。这些过滤器使用匹配或趋势条件，并且基于之前请求的结果或基于用户输入的单元格（称为输入单元格）内容。
+A [referential request](../../../../analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md#task_82A145CC2A774F5EA86977D670E07DC8) uses values from cells as input for parameters, such as a data filter or relational filter. 这些过滤器使用匹配或趋势条件，并且基于之前请求的结果或基于用户输入的单元格（称为输入单元格）内容。
 1. 创建有效的请求。
 1. 右键单击请求映射到的单元格之一，或者选择包含请求的单元格区域。
 
@@ -31,7 +31,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    >[!NOTE]
    >
-   >只复制请求，而不是单元格的内容。如果您有其他并非基于请求、但有助于理解单元格中显示的数据的信息（如表的列标题或行标识符），请使用 Excel 的标准“复制”和“粘贴”命令。
+   >只复制请求，而不复制单元格的内容。 如果您有其他并非基于请求、但有助于理解单元格中显示的数据的信息（如表的列标题或行标识符），请使用 Excel 的标准“复制”和“粘贴”命令。
 
    由于在复制单元格内容和复制请求时 Excel 使用不同的剪贴板，因此您可以通过按顺序执行“复制”/“粘贴”和“复制请求”/“粘贴请求”，先复制非请求单元格内容，然后复制请求。然而，如果对电子表格中的请求应用了格式，然后复制并粘贴，则 Report Builder 会在粘贴区域中重现原始格式（如边框和字体等）。
 
