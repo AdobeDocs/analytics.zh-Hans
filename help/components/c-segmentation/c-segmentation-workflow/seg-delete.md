@@ -5,9 +5,9 @@ seo-title: 删除区段
 solution: Analytics
 title: 删除区段
 topic: 区段
-uuid: cb6db ad-f400-4633-900a-8a02 dcccf2 c
+uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    ![](assets/duplicate_seg_names.png)
 
-   您的书签引用 mainprod 报表包的区段。然后，由于重复您删除该区段。书签将继续运行，仍引用已删除区段的定义。如果更改剩余区段的区段定义以包括卡特琳娜岛和墨西哥的提华纳，则应用于书签的区段将不会发生更改。仍将使用旧定义。要修复此问题，请更新书签以引用新定义。如果不确定书签、功能板或计划报表是否在使用删除的区段，可以更改剩余区段的名称，这样可以更加明确书签是否在使用剩余的区段。
+   您的书签引用 mainprod 报表包的区段。然后，删除该区段，因为它重复。 书签将继续运行，仍引用已删除区段的定义。如果更改剩余区段的区段定义以包括卡特琳娜岛和墨西哥的提华纳，则应用于书签的区段将不会发生更改。仍将使用旧定义。要修复此问题，请更新书签以引用新定义。如果您不确定书签、功能板或计划报表是否使用已删除的区段，您可以更改其余区段的名称，以便更清楚书签是否使用剩余区段。
 
 ## Edit Embedded Deleted Segments in Ad Hoc Analysis {#section_976D601DBD2244E38B0A0222E31D2610}
 
