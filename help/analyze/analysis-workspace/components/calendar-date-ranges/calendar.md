@@ -3,9 +3,9 @@ description: 在日历中，您可以指定日期和日期范围，或者选择�
 seo-description: 在日历中，您可以指定日期和日期范围，或者选择一个预设。
 seo-title: 日历和日期范围概述
 title: 日历和日期范围概述
-uuid: 3d7727ba-9070-4f7c-815f-c98 baa4 e3 a2 d
+uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,13 +22,13 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
 
 ![](assets/aw_calendar.png)
 
-[在YouTube上的Analysis Workspace中使用日期范围和日历](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28) (4：07)
+[在YouTube上的Analysis Workspace中使用日期范围和日历](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28) (4:07)
 
 
 | 设置 | 描述 |
 |--- |--- |
-| 选定的日期 | 选定的天数/周/月/年。 |
-| 使用滚动日期 | 滚动日期允许您生成一个动态报表，从而可根据您运行报表的时间向前或向后查看一段特定的时间段。例如，如果您要报告“上个月”安排的所有订单（基于“创建日期”字段）并在十二月运行该报表，则会看到十一月安排的订单。如果您在一月运行同一报表，则会看到十二月安排的订单。日期预览：指示滚动日历包含哪些时间段。开始：您可以在当天、当周、当月、当季、当年之间进行选择。结束：您可以在当天、当周、当月、当季、当年之间进行选择。For an example, go [here](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). |
+| 选定的日期 | 选定的天／周/月／年。 |
+| 使用滚动日期 | 滚动日期允许您生成一个动态报表，从而可根据您运行报表的时间向前或向后查看一段特定的时间段。例如，如果要报告所有下达的订单（基于创建日期字段），并在12月运行该报表，您将看到11月下达的订单。 如果您在1月运行同一报告，您将看到12月下达的订单。  日期预览：指示滚动日历包含哪些时间段。开始：您可以在当天、当周、当月、当季、当年之间进行选择。结束：您可以在当天、当周、当月、当季、当年之间进行选择。For an example, go [here](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). |
 | 日期范围 | 您可以选择一个预设日期范围。最近 30 天为默认设置。 |
 | 应用于所有面板 | 您不仅可以更改当前面板的选定日期范围，还会更改项目内所有其他面板的日期范围。 |
 | 应用 | 将日期范围仅应用于此面板。 |
