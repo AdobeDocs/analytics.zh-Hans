@@ -6,8 +6,8 @@ seo-title: performanceTiming
 solution: Analytics
 title: performanceTiming
 topic: 开发人员和实施
-uuid: ab2a6c51-8791-41e7-9bea-c1 ce8 d312 de8
-translation-type: tm+mt
+uuid: ab2a6c51-8791-41e7-9bea-c1ce8d312de8
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!IMPORTANT]
 >
->这是插件的测试版，可能会即将更新其他更新。
+>这是此插件的测试版本，未来可能会有其他更新。
 
 这个插件可利用下列详细的事件，来跟踪页面加载的各个时间组件：
 
@@ -57,7 +57,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!NOTE]
 >
->以下说明要求您更改站点上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具备使用和实施 Adobe Analytics 经验的开发人员完成。This plugin is compatible only with [!DNL AppMeasurement] tracking libraries.
+>下面的说明需要您更改网站上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具备使用和实施 Adobe Analytics 经验的开发人员完成。此插件仅与 [!DNL AppMeasurement] 跟踪库兼容。
 
 **配置区段（在 doPlugins 之前）：**
 
@@ -79,7 +79,7 @@ s.ptc = false;
 
 >[!NOTE]
 >
->In order to correlate performance timing entries with pages on your site, you must also initialize the `getPreviousValue` plug-in. 我们建议您将这些性能条目与之前的页面名称或之前的页面 URL 值进行对比。
+>若要将性能时间条目与您站点上的页面关联，则另外还必须初始化 `getPreviousValue` 插件。我们建议您将这些性能条目与之前的页面名称或之前的页面 URL 值进行对比。
 
 *示例调用*
 
@@ -154,8 +154,8 @@ s.rfl=new Function("l","v","d1","d2","ku",""
 * 在生产环境中进行部署之前，请务必对插件安装进行测试，以确保可按预期进行数据收集。
 * 由于传递性能数据的插件与上一页面关联，因而不会为访问的最终页面查看而收集数据。
 * 如果您要跟踪资产时间，该插件会依据能力大小，在用户的 Web 浏览器中设置 DOM 存储值。如果用户不接受 Cookie，并且已经启用了 DOM 存储，该插件将不会把数据传入 Analytics。
-* 由于浏览器限制，很小百分比的用户不会传递导航定时数据，逻辑包含在插件中以确保数据不会歪斜-尤其是在移动浏览器的小部分中。不过，此插件已在 IE、Firefox、Chrome 和 Safari 中测试成功。
-* [!UICONTROL 应创建计算指标] 以帮助汇总和了解与这些指标相关的访客行为：
+* 只有极少部分用户会因为浏览器限制而不传递 Navigation Timing 数据，而且该插件包含逻辑，可确保数据不会因某个结果而偏斜 - 特别是对于一小部分移动设备浏览器而言。不过，此插件已在 IE、Firefox、Chrome 和 Safari 中测试成功。
+* 应创建以下[!UICONTROL 计算量度]，以协助总结和了解与这些量度关联的访客行为：
 
    * 重定向平均时间（重定向时间/性能时间实例）
    * 应用程序缓存平均时间（应用程序缓存时间/性能时间实例）
