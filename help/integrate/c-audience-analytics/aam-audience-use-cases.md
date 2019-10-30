@@ -1,20 +1,20 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Audience Analytics使用案例
-title: Audience Analytics使用案例
-uuid: 51c0576c-ce8 a-4a87-9c8 f-be3 e50279 d
+seo-title: Audience Analytics 用例
+title: Audience Analytics 用例
+uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Audience Analytics使用案例
+# Audience Analytics 用例
 
 ## 广告销售和内容决策 {#section_A7A001BCC6874961A8B0A70503D6B00D}
 
-作为一家媒体发布商，您不仅可以为您的广告销售团队提供大小量度，还可以提供受众效率量度。您还可以决定哪些内容最能引发特定人口统计区段的共鸣，比如“30 岁以后第一次当妈妈的女性”。
+作为一家媒体发布商，您不仅可以为您的广告销售团队提供大小量度，还可以提供受众效率量度。您还可以确定哪些内容最能与特定人口细分产生共鸣，如“30多岁的女性是第1次当妈妈”。
 
 ## 重新定位机会 {#section_29C46BA00B3D43CE8A433EA64072D952}
 
