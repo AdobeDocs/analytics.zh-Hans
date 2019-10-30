@@ -6,7 +6,7 @@ solution: Analytics
 title: 部署集成
 uuid: a3c0ef21-ed9a-44d7-bdce-19b3bd5b8b80
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -75,9 +75,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 完成所有部署步骤后，您可以验证集成是否成功传输数据。
 
->[!NOTE]
->
->数据交换需要几天时间才能开始。 请确保在激活集成后与Lyris联系。
+> [!NOTE] 数据交换需要几天时间才能开始。 请确保在激活集成后与Lyris联系。
 
 1. 导航到Data Connectors中的Lyris集成。 在“支持 **** ”选项卡&gt;“集成 **[!UICONTROL 活动日志”下，您应当看到成功导入的]** Metric数据和 **[!UICONTROL /或成功导入的]****** Classification数据等事件：
 
@@ -91,9 +89,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 显示要与Adobe Analytics一起使用的Lyris插件代码。
 
->[!NOTE]
->
->在使用以下代码之前，请确保在Adobe Analytics的Admin Tool中保留了必要的eVar。 一旦您知道已保留哪些eVar，请用相关eVar替换eVarN。 例如eVar10。
+> [!NOTE] 在使用以下代码之前，请确保在Adobe Analytics的Admin Tool中保留了必要的eVar。 一旦您知道已保留哪些eVar，请用相关eVar替换eVarN。 例如eVar10。
 
 ```
 /* 
