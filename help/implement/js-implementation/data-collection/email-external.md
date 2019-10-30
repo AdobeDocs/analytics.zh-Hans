@@ -6,8 +6,8 @@ seo-title: 外部电子邮件跟踪
 solution: Analytics
 title: 外部电子邮件跟踪
 topic: 开发人员和实施
-uuid: fa450f45-14cf-4d0d-a87 c-14a946512 a9 b
-translation-type: tm+mt
+uuid: fa450f45-14cf-4d0d-a87c-14a946512a9b
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -60,9 +60,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    更改 JavaScript 文件 [!DNL s_code.js] 中的代码，可允许您捕获有多少用户（以及哪些用户）从电子邮件点进并参与后续成功事件。更新 JavaScript 库需分两步执行。
 
-   1. Customize [!DNL s_code.js] by calling [!UICONTROL getQueryParam].
+   1. 通过调用 [!UICONTROL getQueryParam] 自定义 [!DNL s_code.js]。
 
-      [!DNL s_code.js] 文件应置于 Web 服务器上每个网页都可以访问的位置。The *`doPlugins`* function within this file should be altered so it captures the query string parameters on the email links. 例如：
+      [!DNL s_code.js] 文件应置于 Web 服务器上每个网页都可以访问的位置。应更改此文件中的 *`doPlugins`* 函数，以便捕获电子邮件链接上的查询字符串参数。例如：
 
       ```js
       /* Plugin Config */ 
