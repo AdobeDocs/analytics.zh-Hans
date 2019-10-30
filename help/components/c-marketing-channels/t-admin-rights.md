@@ -3,12 +3,12 @@ description: 创建为营销渠道报表用户授予有限管理权限的群组�
 seo-description: 创建为营销渠道报表用户授予有限管理权限的群组，然后为该群组指定用户。例如，您可能需要创建一个群组，允许非管理员用户输入成本或预算金额。
 seo-title: 授予有限管理权限
 solution: Analytics
-subtopic: Marketing channels
+subtopic: 营销渠道
 title: 授予有限管理权限
 topic: Reports and Analytics
 uuid: 439fe486-78d5-4d58-8b4f-8b6a4b98b00d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 1.  启用&#x200B;**渠道**&#x200B;和&#x200B;**[!UICONTROL 成本。]**
 1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Save.]**
 
-Field definitions for Define User Groups in Admin Tools:
+“管理工具”中“定义用户组”的字段定义：
 
 | 字段 | 定义 |
 |--- |--- |
