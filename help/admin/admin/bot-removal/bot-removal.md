@@ -4,7 +4,7 @@ seo-title: 在Adobe Analytics中删除机器人
 description: 在Adobe Analytics中删除机器人程序的3种方法
 seo-description: 在Adobe Analytics中删除机器人程序的3种方法
 translation-type: tm+mt
-source-git-commit: ef17712b4a8a4a5c13dde9be9fdf2281eeb40091
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,7 +34,7 @@ Analytics **** Admin **[!UICONTROL &gt;]** Report Settings &gt; **[!UICONTROL &g
 
 ### 第1步：将访客的Experience Cloud ID传递到新声明的ID
 
-首先，您需要在People Core service中创建一个新的声明 [ID](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)。 您需要将访客的Experience Cloud ID传递到此新声明的ID中，这可以通过 [Adobe Experience Platform Launch快速轻松地实现](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html)。 让我们将名称“ECID”用于声明的ID。
+首先，您需要在People Core service中创建一个新的声明 [ID](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)。 您需要将访客的Experience Cloud ID传递到这个新声明的ID中，这可以通过 [Adobe Experience Platform Launch快速轻松地实现](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html)。 让我们将名称“ECID”用于声明的ID。
 
 ![](assets/bot-cust-attr-setup.png)
 
@@ -46,7 +46,7 @@ Analytics **** Admin **[!UICONTROL &gt;]** Report Settings &gt; **[!UICONTROL &g
 
 ### 第2步：使用细分识别机器人程序
 
-现在，您的访客的ECID已被传递到声明的ID中，您可以在Analysis Workspace中使 [](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) 用分段来识别行为与机器人程序类似的访客。 机器人程序通常由其行为定义：单次访问访问、异常用户代理、未知的设备／浏览器信息、无引介、新访客、异常登录页面等。 使用Workspace下拉和细分的强大功能，识别已避开IAB过滤的机器人程序和您的报表包机器人规则。 例如，以下是您可以使用的区段的屏幕截图：
+现在，您的访客的ECID已传递到声明的ID中，您可以在Analysis Workspace中使 [](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) 用分段来识别行为与机器人程序类似的访客。 机器人程序通常由其行为定义：单次访问访问、异常用户代理、未知的设备／浏览器信息、无引介、新访客、异常登录页面等。 使用Workspace下拉和细分的强大功能，识别已避开IAB过滤的机器人程序和您的报表包机器人规则。 例如，以下是您可以使用的区段的屏幕截图：
 
 ![](assets/bot-filter-seg1.png)
 
@@ -60,7 +60,7 @@ Analytics **** Admin **[!UICONTROL &gt;]** Report Settings &gt; **[!UICONTROL &g
 
 ### 第4步：将此列表作为客户属性传回Adobe
 
-数据仓库报表到达后，您会得到一个需要从历史数据中筛选的ECID列表。 将这些ECID复制并粘贴到一个空白的。CSV文件中，其中只包含两列：ECID和机器人标志。
+数据仓库报表到达后，您将拥有一个需要从历史数据中筛选的ECID列表。 将这些ECID复制并粘贴到一个空白的。CSV文件中，其中只包含两列：ECID和机器人标志。
 
 * **ECID**:确保此列标题与您为上述新声明的ID提供的名称相匹配。
 * **机器人标志**:将其添加为客户属性架构维。
