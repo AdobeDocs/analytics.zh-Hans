@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 插件
 title: doPlugins 函数
 topic: 开发人员和实施
-uuid: 367d5550-f8 e2-477d-8681-18ae9665 d699
-translation-type: tm+mt
+uuid: 367d5550-f8e2-477d-8681-18ae9665d699
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 JavaScript 插件通常由 doPlugins 函数调用；在待粘贴代码中调用 t() 函数时，将执行此函数。
 
-因此，如果在 `doPlugins` 函数中设置了一个变量，则可能会覆盖 HTML 页面中设置的某个变量。The only time the `doPlugins` function is not called is when the *`usePlugins`* variable is set to `false`.
+因此，如果在 `doPlugins` 函数中设置了一个变量，则可能会覆盖 HTML 页面中设置的某个变量。仅当将 *`usePlugins`* 变量设置为 `false` 时，才不会调用 `doPlugins` 函数。
 
 **代码示例**
 
-The `doPlugins` function is typically called `s_doPlugins`. 但在特定环境下（通常是在同一页面中显示多个 [!DNL Analytics] 代码版本时），您可以更改 `doPlugins` 函数名称。如果标准 `doPlugins` 函数需重命名以避免冲突，请确保为 `doPlugins` 指定正确的函数名称，如以下示例所示。
+`doPlugins` 函数通常被称为 `s_doPlugins`。但在特定环境下（通常是在同一页面中显示多个 [!DNL Analytics] 代码版本时），您可以更改 `doPlugins` 函数名称。如果标准 `doPlugins` 函数需重命名以避免冲突，请确保为 `doPlugins` 指定正确的函数名称，如以下示例所示。
 
 ```js
 /* Plugin Config */ 
