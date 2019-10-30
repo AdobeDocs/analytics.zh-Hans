@@ -1,18 +1,18 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 事务ID和访客配置文件
+seo-title: 交易 ID 和访客资料
 solution: Analytics
-title: 事务ID和访客配置文件
+title: 交易 ID 和访客资料
 topic: 开发人员和实施
-uuid: 7a72779c-7f67-4872-ad5 e-edf298 d53 cac
+uuid: 7a72779c-7f67-4872-ad5e-edf298d53cac
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 事务ID和访客配置文件
+# 交易 ID 和访客资料
 
 本节包含有关访客资料数据的重要信息，在使用交易 ID 上载数据时会用到这些数据。
 
