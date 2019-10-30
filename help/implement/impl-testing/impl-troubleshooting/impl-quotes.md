@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 故障诊断
 title: 使用引号
 topic: 开发人员和实施
-uuid: 9f09c48b-7ae5-441e-8635-fd6 bdc2 e94 c7
-translation-type: tm+mt
+uuid: 9f09c48b-7ae5-441e-8635-fd6bdc2e94c7
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
