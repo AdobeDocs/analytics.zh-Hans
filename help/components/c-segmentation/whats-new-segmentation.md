@@ -5,7 +5,7 @@ seo-title: Analytics 分段的新功能
 title: Analytics 分段的新功能
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Analytics 分段中的新功能。
 * [2014 年 9 月](../../components/c-segmentation/whats-new-segmentation.md#concept_6FF28E134DE647FDA4CC1FD7DC1FADC8)
 * [2014 年 8 月](../../components/c-segmentation/whats-new-segmentation.md#concept_8AD156B1DCB74D938A0501365F77D4ED)
 * [2014 年 7 月](../../components/c-segmentation/whats-new-segmentation.md#concept_252D29FA25FC4FA999BBC94127A616B1)
-* [2014 年 5 月](../../components/c-segmentation/whats-new-segmentation.md#concept_D7CC21CD653C46E7828B789F38704553)
+* [2014年5月](../../components/c-segmentation/whats-new-segmentation.md#concept_D7CC21CD653C46E7828B789F38704553)
 
 <table id="table_BA0B0E5013D944F59A2BF3C33CD8E684"> 
  <thead> 
@@ -53,7 +53,7 @@ Adobe Analytics 分段中的新功能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>区段中的日期范围 </p> </td> 
-   <td colname="col2"> <p>您可以生成包含滚动日期范围的区段，以获取有关持续促销活动或事件问题的解答例如，现在您可以轻松生成一个区段，包含“过去 60 天中购买过产品的用户”。 </p> <p> <p>注意：此功能在 Ad Hoc Analysis 中不可用。 </p> </p> </td> 
+   <td colname="col2"> <p>您可以生成包含滚动日期范围的区段，以获取有关持续促销活动或事件问题的解答例如，现在您可以轻松构建包含“过去60天内购买产品的所有人”的细分。 </p> <p> <p>注意：此功能在 Ad Hoc Analysis 中不可用。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,7 +72,7 @@ Adobe Analytics 分段中的新功能。
   </tr> 
   <tr> 
    <td colname="col1"> <p>包含维度约束的序列区段 </p> </td> 
-   <td colname="col2"> <p>在“THEN”语句之间的“within”子句中，您可以添加“在 1 个搜索关键字实例之内”、“在 1 个 eVar 47 实例之内”。此条件可将区段限制在维度的一个实例之内。 </p> </td> 
+   <td colname="col2"> <p>在“within”子句中，在THEN语句之间，可以添加“在1个搜索关键字实例内”、“在1个eVar 47实例内”等。 此条件可将区段限制在维度的一个实例之内。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace：<a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html" format="html" scope="external">在流失分析中使用区段 </a> </p> </td> 
@@ -136,7 +136,7 @@ Adobe Analytics 分段中的新功能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Data Warehouse：按区段划分 </p> </td> 
-   <td colname="col2"> <p>增加了对“<span class="wintitle">按区段划分</span>”的支持。除了按标准（项目）和自定义（分析）划分外，您现在还可以按区段划分报表。当您选择“<span class="wintitle">区段</span>”选项卡时，此列表将被“<span class="wintitle">可用区段</span>”下拉列表中提供的相同区段集填充。 </p> <p>区段中具有成员资格的行项目将报告值“1”，区段外的行项目将报告“0”。 </p> </td> 
+   <td colname="col2"> <p>增加了对“<span class="wintitle">按区段划分</span>”的支持。除了按标准（项目）和自定义（分析）划分外，您现在还可以按区段划分报表。当您选择“<span class="wintitle">区段</span>”选项卡时，此列表将被“<span class="wintitle">可用区段</span>”下拉列表中提供的相同区段集填充。 </p> <p>具有区段成员身份的行项目将报告值“1”，而区段以外的项目将报告“0”。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -170,7 +170,7 @@ Adobe Analytics 分段中的新功能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>区段生成器中的权限更改 </p> </td> 
-   <td colname="col2"> <p>管理员用户可以限制哪些用户能够创建新的区段。默认情况下，所有用户均能够创建区段。<a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external">更多信息...</a> </p> </td> 
+   <td colname="col2"> <p>管理员用户可以限制哪些用户能够创建新的区段。默认情况下，所有用户均能够创建区段。<a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external"> 更多...</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -228,7 +228,7 @@ Adobe Analytics 分段中的新功能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> 在“Data Warehouse”区段中支持“匹配”和“不匹配” </p> </td> 
-   <td colname="col2"> <p>Data Warehouse 现在在区段定义中支持“匹配”和“不匹配”。（Reports &amp; Analytics 和 Ad Hoc Analysis 已支持此功能。） </p> <p>对于之前由于 Data Warehouse 不支持“匹配”和“不匹配”而与 Data Warehouse 不兼容的区段，在此版本发布后将能够兼容（假设这是该区段不兼容的唯一原因。）此版本发布后，Data Warehouse 区段列表中可能会显示其他区段。 </p> </td> 
+   <td colname="col2"> <p>数据仓库现在支持区段定义中的“匹配”和“不匹配”。 （Reports &amp; Analytics 和 Ad Hoc Analysis 已支持此功能。） </p> <p>由于数据仓库不支持“匹配”和“不匹配”，以前与数据仓库不兼容的区段在发布后将变得兼容（假定这是区段不兼容的唯一原因）。此版本发布后，Data Warehouse 区段列表中可能会显示其他区段。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Web 服务 API 中的 Segments.Save </p> </td> 
