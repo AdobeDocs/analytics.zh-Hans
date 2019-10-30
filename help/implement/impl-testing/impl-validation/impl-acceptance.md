@@ -2,18 +2,18 @@
 description: 实施流程步骤。
 keywords: Analytics 实施
 seo-description: 实施流程步骤。
-seo-title: 实施接受
+seo-title: 实施验收
 solution: Analytics
-title: 实施接受
+title: 实施验收
 topic: 开发人员和实施
-uuid: 6f7ec56e-9e4f-4dc8-b534-92b1580 b5 b47
-translation-type: tm+mt
+uuid: 6f7ec56e-9e4f-4dc8-b534-92b1580b5b47
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 实施接受
+# 实施验收
 
 实施流程步骤。
 
@@ -26,7 +26,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 1. Adobe 顾问解决实施过程中的技术问题，并根据需要帮助制定解决方案。
 1. 客户方的技术资源对实施执行单元测试。
 
-   Testers log in to [!DNL Analytics] and verifying all variables ( *`page name`*, *`channel`*, *`server`*, *`events`*, *`campaign`*, econversion variables, custom traffic variables, *`products`*, and all other variables).
+   测试人员登录到 [!DNL Analytics] 并验证所有变量（*`page name`*、*`channel`*、*`server`*、*`events`*、*`campaign`*、econversion 变量、自定义流量变量、*`products`* 以及所有其他变量）。
 1. 客户通知 Adobe 实施已完成。
 
    客户向 Adobe 顾问提供验证样本（数据样本）以验证数据的准确性。（VISTA 生成的报表包通过比较相应的量度来进行验证。在创建 VISTA 规则时，客户和 Adobe 之间应事先就此类报表包的验证量度达成协议。）
