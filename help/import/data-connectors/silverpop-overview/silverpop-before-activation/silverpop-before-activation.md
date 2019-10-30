@@ -5,7 +5,7 @@ seo-title: 在激活此集成之前
 title: 在激活此集成之前
 uuid: b911edc6-2265-48ed-9e3c-c79cc20dd9b2
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -36,9 +36,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 * **** 有效的Silverpop帐户：要使用Data Connectors电子邮件集成，客户端必须具有启用电子邮件的活动Silverpop帐户和活动用户凭据。
 * **联系您的Silverpop代表**。 此集成不会由Silverpop自动启用。 在从Analytics导入或导出数据之前，必须联系Silverpop代表以启动Silverpop设置。
 
->[!NOTE]
->
->此集成仅适用于参与组织（而非交易）。
+> [!NOTE] 此集成仅适用于参与组织（而非交易）。
 
 ## 定价{#pricing}
 
