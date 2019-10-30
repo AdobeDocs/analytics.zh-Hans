@@ -1,13 +1,13 @@
 ---
 description: 您可以使用 Analytics 创建和管理基于 FTP 的数据源，它可以利用 FTP 文件传输将离线数据或历史数据导入 Experience Cloud。
-keywords: ftp；sftp
+keywords: ftp;sftp
 seo-description: 您可以使用 Analytics 创建和管理基于 FTP 的数据源，它可以利用 FTP 文件传输将离线数据或历史数据导入 Experience Cloud。
 seo-title: 数据源
 solution: Analytics
 title: 数据源
-uuid: 41ba2de7-d33 d-4394-b7 d8-04a116 f45419
+uuid: 41ba2de7-d33d-4394-b7d8-04a116f45419
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,9 +26,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## 关于分类和数据源上传时使用的 .fin 文件 {#section_1484719F8A134EAE91212DBD8F15174F}
 
-When you upload a classifications or [!UICONTROL Data Source] file ( [!DNL .tab] or [!DNL .txt]) the upload also requires that you upload an empty file with the exact same name as the data file being imported, but with a [!DNL .fin] extension. This [!DNL .fin] file is a finish file. 此文件的作用是告诉系统该数据文件已完全上传到 FTP 帐户。[!DNL .fin] 该文件可让Adobe识别您已完成导入。在提交之后，Adobe 会从 FTP 上删除这两个文件，并开始处理导入。导入文件: [!DNL Classifications.tab]
+When you upload a classifications or [!UICONTROL Data Source] file ( [!DNL .tab] or [!DNL .txt]) the upload also requires that you upload an empty file with the exact same name as the data file being imported, but with a [!DNL .fin] extension. This [!DNL .fin] file is a finish file. 此文件的作用是告诉系统该数据文件已完全上传到 FTP 帐户。The [!DNL .fin] file lets Adobe recognize that you are done with your import. 在提交之后，Adobe 会从 FTP 上删除这两个文件，并开始处理导入。导入文件: [!DNL Classifications.tab]
 
-Finish File: [!DNL Classifications.fin]
+完成文件： [!DNL Classifications.fin]
 
 If you upload your Data Sources or SAINT file without an accompanying [!DNL .fin] file, Adobe does not add it to the queue for processing. The file remains on the FTP, and is not applied to your data in the [!UICONTROL Experience Cloud]. 只有您在报表的“[!UICONTROL 创建 FTP 帐户]”窗口的“[!UICONTROL 通知收件人]”中输入了您的电子邮件地址，才会向您发出通知。如果没有在此字段中输入电子邮件地址，则不会发送通知。
 
