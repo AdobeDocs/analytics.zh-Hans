@@ -7,8 +7,8 @@ solution: Analytics
 title: 路径分析概述
 topic: 开发人员和实施
 uuid: 18acfd9f-4e5f-4c2d-8be8-743be135e7d6
-translation-type: ht
-source-git-commit: 49c81e50ff10060ef7a3debe82132d1099e25118
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -21,8 +21,6 @@ source-git-commit: 49c81e50ff10060ef7a3debe82132d1099e25118
 
 现成的 Analytics 提供页面层级的路径分析。路径分析的基本原理是向您呈现用户在访问网站的过程中所浏览页面的顺序。这一数据在不同的报表中会以不同的数据格式呈现，具体取决于您要查看的内容。
 
->[!NOTE]
->
->要启用路径分析，请转到&#x200B;**[!UICONTROL 管理员 &gt; 报表包 &gt; 编辑设置 &gt; 流量 &gt; 流量变量]**。要在网站区域和服务器报表中启用路径分析，请联系客户关怀团队。
+> [!NOTE]要启用路径分析，请转到&#x200B;**[!UICONTROL 管理员 &gt; 报表包 &gt; 编辑设置 &gt; 流量 &gt; 流量变量]**。要在网站区域和服务器报表中启用路径分析，请联系客户关怀团队。
 
 浏览 [Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) 中更强大的路径分析（流程）选项。
