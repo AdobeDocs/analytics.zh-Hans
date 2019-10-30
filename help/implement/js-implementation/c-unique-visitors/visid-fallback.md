@@ -7,8 +7,8 @@ solution: Analytics
 title: 回退 ID 方法
 topic: 开发人员和实施
 uuid: f242d481-81f0-4287-be4f-52fd03eb01fc
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## 回退访客识别方法 {#section_2BA15E4FA6034C3EBF43859406343EB6}
 
-AppMeasurement for JavaScript 1.x 和 JavaScript H.25.3（2013 年 1 月发布）包含一个新的回退访客识别方法，专门针对某些访客的浏览器会阻止由 Adobe 数据收集服务器设置的 Cookie（称为 `s_vi`）的情况。之前，如果不能设置 Cookie，会在数据收集期间使用 IP 地址和用户代理字符串的组合来识别访客。
+AppMeasurement for JavaScript 1.x and JavaScript H.25.3 (released January 2013) contain a new fallback visitor identification method for visitors whose browser blocks the cookie set by Adobe's data collection servers (called `s_vi`). 之前，如果不能设置 Cookie，会在数据收集期间使用 IP 地址和用户代理字符串的组合来识别访客。
 
 在这次更新后，只要遇到标准 `s_vi` Cookie 不可用的情况，即会在网站的域中通过一个随机生成的唯一 ID 创建一个回退 Cookie。这个 Cookie 名为 `s_fid`，具有 2 年期限，可用作今后的回退识别方法。在无法设置主 Cookie（`AMCV_` 或 `s_vi`）的情况下，此项更改应会提高访问和访客计数的准确性。
 
