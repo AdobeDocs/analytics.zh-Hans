@@ -1,22 +1,22 @@
 ---
 description: 在 Analytics 中启用 AEM 资产报表功能的管理步骤。
 seo-description: 在 Analytics 中启用 AEM 资产报表功能的管理步骤。
-seo-title: AEM资产报告
+seo-title: AEM Assets 报告
 solution: Analytics
-title: AEM资产报告
-topic: 报表
+title: AEM Assets 报告
+topic: 报告
 uuid: 242f5ea0-146c-4edb-928e-35b4c084934d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# AEM资产报告
+# AEM Assets 报告
 
 在 Analytics 中启用 AEM 资产报表功能的管理步骤。
 
-**[!UICONTROL “分析”]** &gt;“ **[!UICONTROL 管理员]** ”&gt; **[!UICONTROL “报表包]** ”&gt; **[!UICONTROL <select report suite>]** &gt;“ **[!UICONTROL 编辑设置]** ”&gt; **[!UICONTROL “AEM]** ”&gt; **[!UICONTROL “AEM资产报表”]**
+**[!UICONTROL Analytics]** Admin **[!UICONTROL &gt;报告报表]** &gt; &gt; **[!UICONTROL &gt;编辑设置]** &gt;编辑Aem **[!UICONTROL <select report suite>]** &gt; Aem Assets **********[!UICONTROL &gt; Edit Suites &gt; Arem Assets Reporting]**
 
 使 Analytics 能够从 AEM 资产分析收集投放资产的展示次数和点击次数。此集成
 
