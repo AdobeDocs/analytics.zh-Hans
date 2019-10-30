@@ -1,25 +1,25 @@
 ---
 description: 内容层级的常见用法是显示访客到达某个页面、级别等时经过的不同路径。
-keywords: Analytics实施；内容层次结构；Hier
+keywords: Analytics 实施;内容层级;hier
 seo-description: 内容层级的常见用法是显示访客到达某个页面、级别等时经过的不同路径。
-seo-title: 计算内容层次结构
+seo-title: 内容层级计数
 solution: Analytics
-title: 计算内容层次结构
+title: 内容层级计数
 topic: 开发人员和实施
-uuid: d41df92d-65fb-44de-bf46-8fac24303 add
-translation-type: tm+mt
+uuid: d41df92d-65fb-44de-bf46-8fac24303dad
+translation-type: ht
 source-git-commit: 1bc1c7a1e00d7b59cd39f368ac9afb745bea9e47
 
 ---
 
 
-# 计算内容层次结构
+# 内容层级计数
 
 内容层级的常见用法是显示访客到达某个页面、级别等时经过的不同路径。
 
 **我应该如何跟踪我的[!UICONTROL 内容层级]？**
 
-您必须首先了解跟踪[!UICONTROL 内容层级]的报表要求。如果对跟踪内容层级的要求非常详细，通常建议使用层级&#x200B;*`hier`*) 建议使用变量。层级通常需要严格的预定义分类法，其中同一子节点极少会存在于多个父节点下。请仔细研究下面的示例：
+您必须首先了解跟踪[!UICONTROL 内容层级]的报表要求。如果对跟踪内容层级的要求非常详细，通常建议使用层级 (*`hier`*) 变量。层级通常需要严格的预定义分类法，其中同一子节点极少会存在于多个父节点下。请仔细研究下面的示例：
 
 [!UICONTROL 全局层级]
 
@@ -36,7 +36,7 @@ source-git-commit: 1bc1c7a1e00d7b59cd39f368ac9afb745bea9e47
   <tr> 
    <th class="entry"> </th> 
    <th class="entry"> Prop </th> 
-   <th class="entry"> hier </th> 
+   <th class="entry"> 层级 </th> 
   </tr> 
  </thead>
  <tbody> 
