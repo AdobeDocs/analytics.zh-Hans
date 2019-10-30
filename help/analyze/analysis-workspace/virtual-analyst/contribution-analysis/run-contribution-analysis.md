@@ -5,7 +5,7 @@ seo-title: 运行贡献分析
 title: 运行贡献分析
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: 8b2feced9fd503395d06dc12c8e5d7985ca89161
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 8b2feced9fd503395d06dc12c8e5d7985ca89161
 
    >[!NOTE]
    >
-   >我们目前仅支持每日粒度贡献分析。
+   >我们目前仅支持每日粒度的贡献分析。
 
    ![](assets/run_ca.png)
 
@@ -51,9 +51,7 @@ source-git-commit: 8b2feced9fd503395d06dc12c8e5d7985ca89161
    * [创建警报。](/help/components/c-alerts/intellligent-alerts.md)
    * [创建或比较区段。](../../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)
 
->[!NOTE]
->
->我们重点介绍了在贡献分析和链接到它的Intelligent Alert项目中使用蓝点分析的异常。这样可以更清楚地指示正在分析的异常。
+> [!NOTE] 我们在贡献分析和与之关联的智能警报项目中使用蓝点突出显示正在分析的异常。 这样可以更清楚地指示正在分析的异常。
 
 ## Exclude dimensions from Contribution Analysis {#section_F6932F4BF74544B5872164E7B1E0C6FC}
 
