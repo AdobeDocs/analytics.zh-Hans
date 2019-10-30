@@ -1,52 +1,52 @@
 ---
-title: 将Adobe Analytics部署到开发环境
-seo-title: 将Adobe Analytics部署到开发环境
-description: 了解如何使用Adobe Experience Platform Launch将Adobe Analytics部署到开发环境。
-seo-description: 了解如何使用Adobe Experience Platform Launch将Adobe Analytics部署到开发环境。
-translation-type: tm+mt
+title: 将 Adobe Analytics 部署到开发环境
+seo-title: 将 Adobe Analytics 部署到开发环境
+description: 了解如何使用 Adobe Experience Platform Launch 将 Adobe Analytics 部署到开发环境。
+seo-description: 了解如何使用 Adobe Experience Platform Launch 将 Adobe Analytics 部署到开发环境。
+translation-type: ht
 source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 ---
 
 
-# 将Analytics实施部署到开发环境
+# 将 Analytics 实施部署到开发环境
 
-在Launch中创建并配置了某个属性后，即可部署库并在您的站点上实现代码。
+在 Launch 中创建并配置属性后，即可在您的网站上部署库并实施代码。
 
 ## 先决条件
 
-[在Launch](create-analytics-property.md)中创建并配置Adobe Analytics的属性：访问工具并为Analytics实施创建空间。
+[在 Launch 中为 Adobe Analytics 创建和配置属性](create-analytics-property.md)：访问该工具并为 Analytics 实施创建空间。
 
 ## 创建适配器和环境
 
-Launch在部署代码中支持许多组织工作流程。按照这些步骤，为Analytics实施创建最低必要的组件。作为Launch管理员，您可以在组织内工作，为部署Adobe解决方案建立正确的工作流程。
+Launch 在部署代码方面提供了许多组织工作流程。请按照以下步骤为 Analytics 实施创建所需的最少组件。作为 Launch 管理员，您可以在组织内部建立用于部署 Adobe 解决方案的合适工作流程。
 
-1. Go to [Adobe Experience Platform Launch](https://launch.adobe.com) and log in if prompted.
-2. 单击要在站点上实施的启动项属性。
-3. 单击适配器选项卡，然后单击添加适配器。
-4. 将其命名为“Akamai”，然后在类型下拉列表中选择Akamai。单击“保存”。
+1. 转到 [Adobe Experience Platform Launch](https://launch.adobe.com)，并在出现提示时登录。
+2. 单击要在网站上实施的 Launch 属性。
+3. 单击“适配器”选项卡，然后单击“添加适配器”。
+4. 将其命名为“Akamai”，然后在类型下拉列表中选择“Akamai”。单击“保存”。
 5. 转到“环境”选项卡，然后单击“创建新环境”。
-6. 选择“开发”，将其命名为“Dev Environment”，然后从下拉菜单中选择Akamai适配器。单击创建，然后单击关闭。
-7. 单击“添加环境”，选择“暂存环境”，将其命名为“暂存环境”，然后选择Akamai适配器。单击创建，然后单击关闭。
-8. 再次单击添加环境，选择“生产”，将其命名为“生产环境”，然后选择Akamai适配器。单击创建，然后单击关闭。
+6. 选择“开发”，将其命名为“开发环境”，然后从下拉菜单中选择“Akamai”适配器。单击“创建”，然后单击“关闭”。
+7. 单击“添加环境”，选择“测试”，将其命名为“测试环境”，然后选择“Akamai”适配器。单击“创建”，然后单击“关闭”。
+8. 再次单击“添加环境”，选择“生产”，将其命名为“生产环境”，然后选择“Akamai”适配器。单击“创建”，然后单击“关闭”。
 
 ## 构建开发库
 
-尽管目前已进行所有更改和配置，但实际上没有任何代码实际上已发布。创建库(粗略翻译为一系列更改)允许在站点上使用代码发布。
+尽管到目前为止您已进行所有更改和配置，但实际上尚未发布任何代码。创建一个库（大致意思为更改集合）以在您的网站上用于发布代码。
 
-1. Go to [Adobe Experience Platform Launch](https://launch.adobe.com) and log in if prompted.
-2. 单击要在站点上实施的启动项属性。
-3. 单击发布选项卡，然后单击添加新库。
-4. 将库“初始更改”命名为“初始更改”，然后选择开发环境。
-5. 单击“添加所有更改的资源”，它会自动列出Adobe Analytics、Identity Service和核心。
+1. 转到 [Adobe Experience Platform Launch](https://launch.adobe.com)，并在出现提示时登录。
+2. 单击要在网站上实施的 Launch 属性。
+3. 单击“发布”选项卡，然后单击“添加新库”。
+4. 将该库命名为“初始更改”，然后选择开发环境。
+5. 单击“添加所有更改的资源”，此时将自动列出 Adobe Analytics、Identity Service 和核心。
 6. 单击“保存”。
-7. 返回发布工作流屏幕，单击新库旁边的下拉菜单，然后单击“构建为开发所用格式”。几秒钟后，库上的黄色圆点变为绿色，表示构建成功。
+7. 返回发布工作流程屏幕，单击新库旁边的下拉菜单，然后单击“为开发构建”。几秒钟后，如果库上的黄点变为绿色，则表示已成功生成该内部版本。
 8. 转到“环境”选项卡，然后单击开发环境。
-9. 在“安装启动项”下，复制代码块并将其提供给单位的网站所有者。
+9. 在“安装 Launch”下，复制代码块并将其提供给贵组织的网站所有者。
 
-## 在网站开发环境上安装Launch
+## 在网站的开发环境中安装 Launch
 
-If you control your website's code, implement the two blocks of code in their respective locations (in the `<head>` tag and just above the closing `</body>` tag) on every page of your site. 此代码通常放置在站点的覆盖模板中。只有包含实施代码的空白页面才会如下所示：
+如果您控制网站的代码，请在网站每个页面上的相应位置（在 `<head>` 标记内和靠近 `</body>` 标记的正上方）实施这两个代码块。此代码通常放置在网站的主要模板中。仅包含实施代码的空白页面如下所示：
 
 ```html
 <!doctype html>
@@ -67,13 +67,13 @@ If you control your website's code, implement the two blocks of code in their re
 
 **尝试构建失败。**
 
-一个常见原因是，其他库中已存在到暂存或生产的其他库中。最初创建库时，请确保只将更改的资源添加到库中。
+失败的一个常见原因是其他要推送到测试或生产的库中已存在这些元素。最初创建库时，请确保仅将已更改的资源添加到库。
 
 ## 文档和其他资源
 
-- [Launch](https://docs.adobelaunch.com/getting-started)入门：了解Launch的基本工作流程
-- [启动管理](https://docs.adobelaunch.com/administration)：进一步了解适配器和环境
+- [Launch 快速入门](https://docs.adobelaunch.com/getting-started)：了解 Launch 的基本工作流程
+- [Launch 管理](https://docs.adobelaunch.com/administration)：了解有关适配器和环境的更多信息
 
 ## 后续步骤
 
-[验证Analytics实施并发布到生产](validate-publish-prod.md)：从Adobe Analytics开始获得价值。
+[验证 Analytics 实施并发布到生产环境](validate-publish-prod.md)：开始从 Adobe Analytics 中获取值。
