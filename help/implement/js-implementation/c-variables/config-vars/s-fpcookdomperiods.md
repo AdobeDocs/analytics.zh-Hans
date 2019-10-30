@@ -5,7 +5,7 @@ seo-description: 通过动态变量，您可以将一个变量中的值复制到
 solution: null
 title: 动态变量
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,11 +14,11 @@ source-git-commit: b38ba4222951d957c607cd764224028527835c7e
 
  变量适用于由 JavaScript 设置的内置第一方 Cookie（s_sq、s_cc、插件），即使您的实施使用的是第三方 2o7.net 或 omtrdc.net 域。
 
-The *`fpCookieDomainPeriods`* variable should never be dynamically set . If you use , it is good practice to specify a value for  as well. *`cookieDomainPeriods`**`fpCookieDomainPeriods`**`fpCookieDomainPeriods`* 继承该 *`cookieDomainPeriods`* 值。 Note that *`fpCookieDomainPeriods`* does not affect the domain on which the visitor ID cookie is set, even if your implementation treats this as a first-party cookie.
+*`fpCookieDomainPeriods`* 变量绝不应进行动态设置。如果您使用 *`cookieDomainPeriods`*，则最好也为 *`fpCookieDomainPeriods`* 指定一个值。*`fpCookieDomainPeriods`* 会继承 *`cookieDomainPeriods`* 值。请注意，*`fpCookieDomainPeriods`* 不会影响设置有访客 ID Cookie 的域，即使您的实施将此视为第一方 Cookie。
 
-名称“ *`fpCookieDomainPeriods`*”指句点数(“”)“www”开头的域中句点 (.) 的数量。For example, `www.mysite.com` contains two periods, while `www.mysite.co.jp` contains three periods. Another way to describe the variable is the number of sections in the main domain of the site (two for `mysite.com` and three for `mysite.co.jp`).
+名称“*`fpCookieDomainPeriods`*”是指句点（“.”）的数量。“www”开头的域中句点 (.) 的数量。例如，`www.mysite.com` 包含两个句点，而 `www.mysite.co.jp` 包含三个句点。描述此变量的另一种方式是网站主域的节数（`mysite.com` 为两节，而 `mysite.co.jp` 为三节）。
 
-The [!DNL AppMeasurement] for JavaScript file uses the *`fpCookieDomainPeriods`* variable to determine the domain with which to set first-party cookies other than the [!UICONTROL visitor ID] (s_vi) cookie. There are at least two cookies affected by this variable, including `s_sq` and `s_cc` (used for visitor click map and cookie checking respectively). [!UICONTROL getValOnce] 等插件使用的 Cookie 也会受到影响。
+[!DNL AppMeasurement] for JavaScript 文件使用变量 *`fpCookieDomainPeriods`* 确定用来设置除[!UICONTROL 访客 ID] (s_vi) Cookie 以外的第一方 Cookie 的域。There are at least two cookies affected by this variable, including `s_sq` and `s_cc` (used for visitor click map and cookie checking respectively). [!UICONTROL getValOnce] 等插件使用的 Cookie 也会受到影响。
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |---|---|---|---|
@@ -35,7 +35,7 @@ if(d.indexOf('.co.uk')>-1||d.indexOf('.com.au')>-1)
 
 ## 语法和可能值
 
-The *`cookieDomainPeriods`*&#x200B;变量应为字符串，如下所示。
+*`cookieDomainPeriods`* 变量应为字符串，如下所示。
 
 ```js
 s.fpCookieDomainPeriods="3"
