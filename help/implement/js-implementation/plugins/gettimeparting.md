@@ -9,20 +9,18 @@ title: getTimeParting
 topic: 开发人员和实施
 uuid: 74f696a3-7169-4560-89b2-478b3d8385e1
 translation-type: tm+mt
-source-git-commit: 44b3d5036e2b55567830f188c709a42023d5eb84
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # getTimeParting
 
-getTimeParting 插件可使用小时、星期、周末和工作日等值填充自定义变量。Analysis Workspace 提供了一些现成的“时间区分”维度。The plug-in should be used if time parting dimensions are needed in other Analytics solutions, outside of [!UICONTROL Analysis Workspace].
+getTimeParting 插件可使用小时、星期、周末和工作日等值填充自定义变量。Analysis Workspace 提供了一些现成的“时间区分”维度。如果除 [!UICONTROL Analysis Workspace] 之外，其他 Analytics 解决方案中也需要使用时间区分维度，则应该使用此插件。
 
 该插件可捕获用户 Web 浏览器中提供的日期和时间信息。它可从此信息中获取具体的小时和星期。然后将此数据转化为您所选的时区。该插件还支持夏令时。
 
->[!NOTE]
->
->以下说明要求您更改站点上的数据收集代码。 此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
+> [!NOTE]下面的说明需要您更改网站上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
 
 ## 插件代码 {#section_1390D6FA53BE4C40B748B0C0AE09C4FA}
 
@@ -30,7 +28,7 @@ getTimeParting 插件可使用小时、星期、周末和工作日等值填充�
 
 将以下代码置于标记为[!DNL s_code.js]配置区域[!UICONTROL 的 ] 文件区域中，并按照以下描述进行必要的更新。
 
-`s._tpDST` -一组DST值。 The array is structured in the following format: `YYYY:'MM/DD,MM/DD'`
+`s._tpDST` - DST 值数组。该数组的结构采用以下格式：`YYYY:'MM/DD,MM/DD'`
 
 ```js
 //time parting configuration 
@@ -125,7 +123,7 @@ s.getTimeParting=new Function("h","z",""
 +"M';H=H-12;}if(H==0){H=12;}D=da[D];tm=H+':'+M+U;return(tm+'|'+D);}");
 ```
 
-**注意**
+**注释**
 
 * 在部署到生产之前，请务必对插件安装进行测试，以确保可按预期进行数据收集。
 * 必须为插件设置配置变量，插件才能正常工作。
