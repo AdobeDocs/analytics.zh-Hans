@@ -8,8 +8,8 @@ subtopic: 重定向
 title: 重定向和别名
 topic: 开发人员和实施
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -149,7 +149,7 @@ s.pageName=""
 s.server="" 
 s.campaign="" 
 s.referrer="https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets" 
-// Setting the s.pageURL variable is optional. 
+// Setting the s.pageURL variable is optional.
 s.pageURL="https://www.flytohawaiiforfree.com"
 ```
 
@@ -163,7 +163,7 @@ redirects_verify_referrer.xml
 
 运行测试以验证是否正在捕获反向链接、原始 URL (*`s_server`*) 和促销活动变量。
 
-这些变量将在 [Experience Cloud 调试器](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)中表示为以下参数。
+These variables will be represented as the following parameters in the [Experience Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/).
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
