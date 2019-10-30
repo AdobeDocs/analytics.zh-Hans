@@ -1,13 +1,13 @@
 ---
 description: 量度是有关访客活动的量化信息，包括查看、点进次数、重新载入、平均逗留时间、件数、订购和收入等。
-keywords: Analytics实施；指标；流量计量；转换指标；视频计量；社交指标；计算得出的指标；页面视图；访问；唯一访客
+keywords: Analytics 实施;量度;流量量度;转化量度;视频量度;社交量度;计算量度;页面查看;访问;独特访客
 seo-description: 量度是有关访客活动的量化信息，包括查看、点进次数、重新载入、平均逗留时间、件数、订购和收入等。
 seo-title: 量度
 solution: Analytics
 title: 量度
 topic: 开发人员和实施
-uuid: d2addb55-ae6-470d-b482-303ef365809 c
-translation-type: tm+mt
+uuid: d2addb55-cae6-470d-b482-303ef365809c
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -45,9 +45,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p>计算量度 </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/calculated_metric.html" format="html" scope="external">计算量度使您可以将多个量度通过数学运算组合成新的量度来使用。</a>您可以为添加了量度的报表创建这些计算量度。管理员可以为报表包的所有用户创建计算量度。 </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/zh_CN/reference/calculated_metric.html" format="html" scope="external">计算量度使您可以将多个量度通过数学运算组合成新的量度来使用。</a>您可以为添加了量度的报表创建这些计算量度。管理员可以为报表包的所有用户创建计算量度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-请参阅“Analytics 帮助和参考”文档中的[量度](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html)，以了解量度定义。
+有关量度定义的信息，请参阅 Analytics 帮助和参考中的[量度](https://marketing.adobe.com/resources/help/zh_CN/reference/metrics.html)。
