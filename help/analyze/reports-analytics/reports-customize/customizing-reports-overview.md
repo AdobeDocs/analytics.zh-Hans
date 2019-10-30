@@ -7,7 +7,7 @@ title: 自定义报表概述
 topic: Reports and Analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -84,9 +84,7 @@ t_reports_comparing_dates.xml
 
 您无法在趋势报表之间比较日期。
 
->[!NOTE]
->
->If you want to perform a date comparison on key metrics in a dashboard, you can pull the data into [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/) using two separate requests. 然后，可以在 Excel 中使用自定义公式来分析二者的差异。
+> [!NOTE] 如果要对功能板中的关键指标执行日期比较，则可以使用两个单独的请求将数据拉入 [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/) 。 然后，可以在 Excel 中使用自定义公式来分析二者的差异。
 
 要比较“Reports &amp; Analytics”中排名报表之间的日期，请执行以下操作：
 
