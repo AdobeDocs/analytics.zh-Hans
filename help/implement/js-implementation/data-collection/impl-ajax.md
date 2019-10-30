@@ -7,8 +7,8 @@ solution: Analytics
 title: 使用 AJAX 实施
 topic: 开发人员和实施
 uuid: 9e3477ef-7dea-4c76-ab61-36a188222be7
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,9 +27,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 JavaScript 代码中有两种函数可允许您发送数据。应当按照一些明确的指导原则确定发送数据时应采用的方法。如果之前已在同一页面上发送图像请求，则必须首先清除先前设置变量的值。如果您使用 H 代码，则使用 [!DNL AppMeasurement] for JavaScript 中的 `clearVars()` 函数，或者编写一个简单的 JavaScript 函数来清除变量。为更改后的内容设置适当的值，即 *`pageName`* 变量。在变量设置完成之后调用 *`t()`* 函数。
 
->[!NOTE]
->
->调用 `s.t()` 之前，必须清除 s 对象上所有您不希望再保存的值。如果您使用 [!DNL AppMeasurement] for JavaScript，则可以调用 `s.clearVars()`。如果您使用 H 代码，请编写一个简单的例程来将变量设置为空字符串。
+> [!NOTE]调用 `s.t()` 之前，必须清除 s 对象上所有您不希望再保存的值。如果您使用 [!DNL AppMeasurement] for JavaScript，则可以调用 `s.clearVars()`。如果您使用 H 代码，请编写一个简单的例程来将变量设置为空字符串。
 
 ```js
 s.clearVars(); 
