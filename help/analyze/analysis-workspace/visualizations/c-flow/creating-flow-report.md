@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 配置流可视化
-title: 配置流可视化
-uuid: ff36dc09-6175-43ed-a82 a-630d28 bca806
+seo-title: 配置流量可视化
+title: 配置流量可视化
+uuid: ff36dc09-6175-43ed-a82a-630d28bca806
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 配置流可视化
+# 配置流量可视化
 
 流量允许您跟踪通过页面或维度的路径，如 eVar：
 
