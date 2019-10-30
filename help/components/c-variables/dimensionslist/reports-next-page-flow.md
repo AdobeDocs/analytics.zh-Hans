@@ -4,10 +4,10 @@ seo-description: 显示路径查看次数，或在路径约束内查看页面的
 seo-title: 下一页面流量
 solution: Analytics
 title: 下一页面流量
-topic: 报表
+topic: 报告
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
