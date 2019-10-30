@@ -5,9 +5,9 @@ seo-title: 分类
 solution: Analytics
 title: 分类
 topic: Report Builder
-uuid: c64ede6e-ce11-48c0-944d-dc365809 d673
+uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,4 +20,4 @@ source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
 
 分类的访问方式与报表包中其他报表的访问方式相同，并且维度在组中显示为顶级报表。如果报表具有分类，则会创建菜单子组，以在同一位置收集报表及其所有分类。在分类中，报表显示为列表中的最后一个条目。
 
-See [Classifications](/help/components/c-classifications2/c-classifications.md).
+请参阅 [分类](/help/components/c-classifications2/c-classifications.md)。
