@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 数据请求-请求向导步骤1
-title: 数据请求-请求向导步骤1
-uuid: 717542c3-e4 aa-4e00-b0 ca-cadet219 d13
+seo-title: 数据请求 - 请求向导第 1 步
+title: 数据请求 - 请求向导第 1 步
+uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
 translation-type: tm+mt
-source-git-commit: 1e7dc9c769a9980e7b60bd395e7c68d5e446dae3
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 数据请求-请求向导步骤1
+# 数据请求 - 请求向导第 1 步
 
 在“请求向导: 第 1 步”窗体上，您可以选择报表包、报表类型、区段并配置日期。
 
@@ -26,9 +26,9 @@ source-git-commit: 1e7dc9c769a9980e7b60bd395e7c68d5e446dae3
 
 1. **允许发布列表覆盖**：计划报表时，您可以选择要用于分发的发布列表。Publishing lists are set up in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin tools]**. 此请求的报表包由分配给发布列表中每个收件人的报表包 ID 替换。请参阅 [允许发布列表覆盖](../../../analyze/report-builder/data-requests/allow-publishing-list-overrides.md#concept_BCB19A20DC4B4B8D984F9670EE018D8C).
 
-1. **报表类型**：指定要在数据请求中运行的基本报表。每个请求运行一个报表，并且报表可以包含一对多维度和一对多量度。报表类型的量度和维度显示在“[!UICONTROL 请求向导: 第 2 步]”界面上。请参阅[选择报告类型](../../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC)。
+1. **报表类型**：指定要在数据请求中运行的基本报表。每个请求运行一个报表，并且报表可以包含一对多维度和一对多量度。报表类型的量度和维度显示在“[!UICONTROL 请求向导: 第 2 步]”界面上。请参阅 选 [择报告类型](../../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC)。
 
-1. **日期范围**：定义请求涵盖的时间跨度。系统提供了多种类型的请求时段，如预设、固定和滚动。最大时段数是 366。您还可以选择单元格指定的日期范围，并且将日期范围保存为模板，供以后使用。See [Configuring Report Dates](../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)
+1. **日期范围**：定义请求涵盖的时间跨度。系统提供了多种类型的请求时段，如预设、固定和滚动。最大时段数是 366。您还可以选择单元格指定的日期范围，并且将日期范围保存为模板，供以后使用。请参阅 [配置报告日期](../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)
 
 1. **应用粒度**：指定报表中包含的基于时间的详细信息级别。请参阅 [粒度](../../../analyze/report-builder/data-requests/configuring-report-dates/granularity.md#concept_A13CBA2962E24FF882456135431B7ADB).
 
