@@ -5,9 +5,9 @@ seo-title: 锁定/解锁工作簿
 solution: Analytics
 title: 锁定/解锁工作簿
 topic: Report Builder
-uuid: ef5c276c-5f74-4741-b6 fa-4c79 edia29 f62
+uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -31,9 +31,7 @@ To unprotect a workbook, click **[!UICONTROL Unlocked]** ( ![](assets/unlocked_i
 * 您是管理员，或者
 * 您是最初锁定工作簿的人员。在这种情况下，您不必是管理员。
 
->[!NOTE]
->
->除非拥有解锁工作簿的权限，否则不能向受保护的工作簿添加请求。
+> [!NOTE] 除非您具有解锁工作簿的权限，否则无法向受保护的工作簿添加请求。
 
 当锁定工作簿以防止编辑请求时，
 
@@ -56,15 +54,15 @@ If you try to edit a protected workbook (through the context menu, or **[!UICONT
 
 我们假定工作簿 A 具有一个请求，该工作簿处于锁定状态，且由用户 A 创建。
 
-**示例1：管理员用户(或用户A)**
+**示例1:管理员用户（或用户A）**
 
 1. 用户登录到 Report Builder 并打开工作簿 
-1. 工作簿 A 当前已锁定，因此“创建请求”按钮在工具栏中处于停用状态，且所有其他按钮的功能均因锁定而被禁用。
+1. 工作簿A当前已锁定，因此工具栏中的“创建请求”按钮以及其功能因锁定而禁用的所有其他按钮将被取消激活。
 1. 如果用户尝试使用任一停用的按钮，则会出现一条消息，说明该工作簿当前已锁定。
 1. 用户可以解锁该工作簿，从而启用完全编辑功能。
 1. 解锁后，该工作簿会保持解锁状态，直至重新明确地将其锁定。
 
-**示例2：非管理员用户(用户B)**
+**示例2:非管理员用户（用户B）**
 
 1. 用户登录到 Report Builder 并打开工作簿 
 1. 用户无法添加/编辑请求。
