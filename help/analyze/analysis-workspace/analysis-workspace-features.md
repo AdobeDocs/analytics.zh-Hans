@@ -2,11 +2,11 @@
 keywords: Analysis Workspace
 seo-title: Analysis Workspace概述
 solution: Analytics
-title: Analysis Workspace概述
-topic: Reports & Analytics
-uuid: df6be 48-c88-4b9 d-9536-ed64 ffbb6 ee4
+title: Analysis Workspace 概述
+topic: Reports and Analytics
+uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: cab449bb5c6a824f800845edd3d45c8b7a1238aa
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: cab449bb5c6a824f800845edd3d45c8b7a1238aa
 
 Analysis Workspace 去除了单一 Analytics 报表存在的所有典型限制。它提供了一个功能强大而灵活的画布，用于构建自定义分析项目。您可以向一个项目拖放任意数量的数据表、可视化信息和组件（维度、量度、区段和时间粒度）。可以即时创建划分和区段、创建用于分析的同类群组、创建警报、比较区段、进行流量和流失分析，并且组织和计划报表以与公司的其他人员共享。
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**
+**[!UICONTROL “分析]** ”&gt;“工 **[!UICONTROL 作区”]**
 
 ## Overview video {#section_B99BF8A326D94ECB91BD69C9888AD10C}
 
@@ -23,9 +23,7 @@ Analysis Workspace 去除了单一 Analytics 报表存在的所有典型限制�
 
 完整的 Youtube 播放列表可在[此处](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)获得。
 
->[!NOTE]
->
->See [What's New in Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) for updates about features.
+> [!NOTE] 有 [关功能的更新，请参阅Analysis Workspace的新增功能](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) 。
 
 ## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
@@ -53,7 +51,7 @@ See [Create an Analysis Workspace project](../../analyze/analysis-workspace/buil
 
 ## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. 您可以像共享项目链接一样共享这些链接，以将某个人定向到项目中的特定可视化或面板。新增了名为“获取面板链接”和“获取可视化链接”的右键单击选项。要将内部链接添加到您的项目，请执行以下操作：
+In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. 您可以像共享项目链接一样共享这些链接，以将某个人定向到项目中的特定可视化或面板。新增了名为“获取面板链接”和“获取可视化链接”的右键单击选项。 要将内部链接添加到您的项目，请执行以下操作：
 
 1. 将文本可视化拖到项目中可能需要某些上下文的可视化或表格旁边。
 1. 使用相关内容（例如目录）填充文本框，然后突出显示要链接到面板或可视化的项目，例如“成功量度”。
@@ -69,9 +67,7 @@ In conjunction with the [rich text editing](../../analyze/analysis-workspace/vis
 
 如果您在项目中折叠了面板或可视化，则单击链接将可展开该面板/可视化信息，以便用户可以看到它。
 
->[!NOTE]
->
->You can also use this feature within the **[!UICONTROL Edit Description]** right-click option.
+> [!NOTE] 您还可以在“编辑说明”右键单击选 **[!UICONTROL 项中使用]** 此功能。
 
 ## Link to other projects {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
 
@@ -89,7 +85,7 @@ You can link users to other projects that may be of interest to them by going to
 
 ![](assets/manage-data-source.png)
 
-请参阅[管理数据源](../../analyze/analysis-workspace/visualizations/t-sync-visualization.md#task_A73B065DC3834AFCA422E364A1468099)。
+请参阅 [管理数据源](../../analyze/analysis-workspace/visualizations/t-sync-visualization.md#task_A73B065DC3834AFCA422E364A1468099).
 
 ## Trend visualizations from selected cells {#section_34930C967C104C2B9092BA8DCF2BF81A}
 
@@ -121,7 +117,7 @@ See [Break down dimensions](../../analyze/analysis-workspace/components/dimensio
 
 ![](assets/segment-panel.png)
 
-请参阅[区段](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80)。
+请参阅 [区段](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80).
 
 ## Project and component tagging {#section_F54D688132A541F2982326D5E022B90D}
 
