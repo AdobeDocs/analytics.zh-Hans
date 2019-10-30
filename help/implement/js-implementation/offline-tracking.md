@@ -7,8 +7,8 @@ solution: Analytics
 title: 脱机跟踪
 topic: 开发人员和实施
 uuid: f7c55aef-28a4-4f2f-8f47-792a05f9525b
-translation-type: ht
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 您可以使用下面的变量和函数在应用程序离线时存储测量调用。
 
->[!NOTE]
->
->要启用离线跟踪，报表包必须启用时间戳。如果报表包已启用时间戳，那么您的 `trackOffline` 配置属性&#x200B;*必须*&#x200B;为 true。如果您的报表包未启用时间戳，则 `trackOffline` 配置属性&#x200B;*必须*&#x200B;为 false。如果配置不正确，数据将会丢失。如果您不确定报表包是否已启用时间戳，[联系客户关怀](https://helpx.adobe.com/cn/contact/enterprise-support.ec.html)
+> [!NOTE]要启用离线跟踪，报表包必须启用时间戳。如果报表包已启用时间戳，那么您的 `trackOffline` 配置属性&#x200B;*必须*&#x200B;为 true。如果您的报表包未启用时间戳，则 `trackOffline` 配置属性&#x200B;*必须*&#x200B;为 false。如果配置不正确，数据将会丢失。如果您不确定报表包是否已启用时间戳， [contact Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics)
 
 启用后，离线 AppMeasurement 按照下面的方式运行：
 
@@ -60,13 +58,12 @@ AppMeasurement 在每次后续点击时或经过 `offlineThrottleDelay` 定义�
   </tr> 
   <tr> 
    <td colname="col1"> <p>forceOnline </p> <p>forceOffline </p> </td> 
-   <td colname="col2"> <p> 手动设置测量对象的在线或离线状态。库会自动检测设备离线或在线，因此仅在希望强制离线测量时才需要使用这两种方法。<code>forceOnline</code> 仅用于在手动离线后恢复到在线状态。 </p> <p>离线测量时： </p> 
+   <td colname="col2"> <p> 手动设置测量对象的在线或离线状态。库会自动检测设备离线或在线，因此仅在希望强制离线测量时才需要使用这两种方法。<code> forceOnline </code> 仅用于在手动离线后恢复到在线状态。 </p> <p>离线测量时： </p> 
     <ul id="ul_5A9CFD2968F64F938652C1D779EB7589"> 
-     <li id="li_AF074C55DFED4DC8BD8CF3D25805040C"> 如果 <code>trackOffline</code> 为 true：会存储点击量，直到测量在线。 </li> 
-     <li id="li_6A623377462548DB97C31654EADCFAF3"> 如果 <code>trackOffline</code> 为 false：会丢弃点击量。 </li> 
+     <li id="li_AF074C55DFED4DC8BD8CF3D25805040C"> 如果 <code> trackOffline </code> 为 true：会存储点击量，直到测量在线。 </li> 
+     <li id="li_6A623377462548DB97C31654EADCFAF3"> 如果 <code> trackOffline </code> 为 false：会丢弃点击量。 </li> 
     </ul> <p> <b>示例:</b> </p> 
-    <code class="syntax c">
-      s.forceOffline();
+    
 
 s.forceOnline();
 </code> </td>
