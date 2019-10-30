@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 数据源
 title: 完全处理
 topic: 开发人员和实施
-uuid: 590ae89c-6e17-453b-b701-ce1 adbea6 fa4
+uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 * [访客资料](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_6065627D0C144506965F562C80AE67F8)
 * [列引用](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_92BAE76639E3404E97276B1BE0581078)
 
-## 访客配置文件 {#section_6065627D0C144506965F562C80AE67F8}
+## 访客资料 {#section_6065627D0C144506965F562C80AE67F8}
 
 完全处理数据源数据使用单独的访客资料进行处理，因此即使上载数据中的访客 ID 与使用 JavaScript 或其他 AppMeasurement 库收集的数据匹配，访客资料也不会通过 eVar 分配进行关联。
 
@@ -51,25 +51,26 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
   </tr> 
   <tr> 
    <td colname="col1"> <p>currencyCode </p> </td> 
-   <td colname="col2"> <p>currencyCode </p> <p>注意：此变量还受到作为<code>货币代码</code>的标准数据源支持。 </p> </td> 
+   <td colname="col2"> <p>currencyCode </p> <p>Note:  This variable is also supported by Standard data sources as <code> currency code </code>. </p> </td> 
    <td colname="col3"> <p>收入货币代码（例如 USD）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>timestamp </p> </td> 
    <td colname="col2"> <p>date </p> </td> 
-   <td colname="col3"> <p>使用 ISO 8601 日期格式 <code>YYYY-MM-DDThh:mm:ss±UTC_offset</code>（例如，<code>2013-09-01T12:00:00-07:00</code>），或 Unix 时间格式（自 1970 年 1 月 1 日起经过的秒数）。 </p> </td> 
+   <td colname="col3"> <p>Use the ISO 8601 date format of <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (for example, <code> 2013-09-01T12:00:00-07:00 </code>), or Unix Time Format (the number of seconds elapsed since January 1, 1970). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
    <td colname="col2"> <p>eVar<i>N</i>，例如 &lt;eVar2&gt;…&lt;/eVar2&gt; </p> </td> 
-   <td colname="col3"> <p>转化 eVar 名称。您最多可有 75 个 eVar (<span class="varname"> eVar </span> - <span class="varname"> eVar75 </span>)。 </p> <p>您可以指定 eVar 名称 (eVar12) 或一个易记名称（广告活动 3）。 </p> </td> 
+   <td colname="col3"> <p>转化 eVar 名称。您最多可有 75 个 eVar ( <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>您可以指定 eVar 名称 (eVar12) 或一个易记名称（广告活动 3）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
    <td colname="col3"> <p>事件字符串，使用与 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html" format="https" scope="external">s.events</a> 变量相同的语法进行格式设置。 </p> <p>例如： </p> 
-    <code>scAdd，event1，event7 </code>
-  </td> 
+    <code>
+      scAdd,event1,event7 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>hier<i>N</i> </p> </td> 
@@ -107,14 +108,14 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
    <td colname="col3"> <p>页面类型（“错误页面”）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>pageURL </p> </td> 
-   <td colname="col2"> <p>pageURL </p> </td> 
-   <td colname="col3"> <p>Page URL (for example, <code>https://www.mysite.com/index.html)</code>. </p> </td> 
+   <td colname="col1"> <p>pageUrl </p> </td> 
+   <td colname="col2"> <p>pageUrl </p> </td> 
+   <td colname="col3"> <p>页面URL(例如 <code>https://www.mysite.com/index.html)</code>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>products </p> </td> 
-   <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>产品列表（例如 <code>"Sports;Ball;1;5.95"</code>）。 </p> </td> 
+   <td colname="col1"> <p>产品 </p> </td> 
+   <td colname="col2"> <p>产品 </p> </td> 
+   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
@@ -201,7 +202,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
   </tr> 
   <tr> 
    <td colname="col1"> <p>connectionType </p> </td> 
-   <td colname="col2"> <p>访客的连接类型（<span class="term"> lan </span> 或 <span class="term"> modem </span>)。 </p> </td> 
+   <td colname="col2"> <p>Visitor's connection type ( <span class="term"> lan </span> or <span class="term"> modem </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>cookiesEnabled </p> </td> 
