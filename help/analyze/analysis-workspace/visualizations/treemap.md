@@ -3,9 +3,9 @@ description: 将分层（树结构）数据显示为一组嵌套的矩形。
 seo-description: 将分层（树结构）数据显示为一组嵌套的矩形。
 seo-title: 树图
 title: 树图
-uuid: e1ec255-d43 e-46f2-ac62-296f1521879
+uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
