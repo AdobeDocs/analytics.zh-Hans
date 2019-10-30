@@ -4,10 +4,10 @@ seo-description: 测量您所有的产品在特定时段内产生的收入量。
 seo-title: 收入
 solution: Analytics
 title: 收入
-topic: 报表
-uuid: e5b72798-f5 c7-440d-a62 d-376bfd115 ac8
+topic: 报告
+uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 * 要使此报表能够成功收集数据，必须满足一定的要求。在同一个图像请求内必须发生以下情况：
 
-   * 必须触发一个[!UICONTROL 购买]事件（在`s.events` 变量中设置。
+   * 必须触发一个[!UICONTROL 购买]事件（在 `s.events` 变量捕获。
 
-   * `products` 必须在价格字段中定义变量。
+   * The `products` variable must be defined with a number in the price field.
    * 例如，这将向收入报表中传递 $35.99。
 
       ```js
@@ -39,7 +39,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    >[!NOTE]
    >
-   >如果在单一产品中数量增加，收入不会乘以。For example, [!DNL s.products="Womens;Socks;5;4.50"] does not pass $22.50 into reporting, it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed ( [!DNL s.products="Womens;Socks;5;22.50"]).
+   >如果单个产品中的数量增加，则收入不会乘以数量。 For example, [!DNL s.products="Womens;Socks;5;4.50"] does not pass $22.50 into reporting, it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed ( [!DNL s.products="Womens;Socks;5;22.50"]).
 
 * “[!UICONTROL 收入]”会将某时段的总收入量四舍五入至最接近的货币值。它不会对每一个单独的产品或每一次点击进行四舍五入。
 * 由于 Analytics 会将每日收入四舍五入至最接近的整数货币值，因此每日收入量之和与每月总收入量相比较，会有极微小的出入。这是因为每月总收入量并非是经过四舍五入的每日收入量之和，而是将绝对总和四舍五入到最接近的整数货币值。
