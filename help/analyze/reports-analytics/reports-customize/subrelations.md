@@ -4,10 +4,10 @@ seo-description: 完全子关系会在所有转化报表中启用，因此任意
 seo-title: 子关系
 solution: Analytics
 title: 子关系
-topic: Reports & Analytics
-uuid: ca6df50f-5d4c-4f91-bf27-86cr01391 a2
+topic: Reports and Analytics
+uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
