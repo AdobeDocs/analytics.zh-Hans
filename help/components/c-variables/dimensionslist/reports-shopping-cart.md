@@ -4,10 +4,10 @@ seo-description: 显示指定时间段内打开的购物车数目。您可以运
 seo-title: 购物车
 solution: Analytics
 title: 购物车
-topic: 报表
-uuid: ce97e7f0-b455-438c-a064-d4856 a1279 e7
+topic: 报告
+uuid: ce97e7f0-b455-438c-a064-d4856a1279e7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
