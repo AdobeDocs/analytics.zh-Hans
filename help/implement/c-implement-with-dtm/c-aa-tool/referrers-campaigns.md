@@ -1,22 +1,22 @@
 ---
 description: 在 Adobe Analytics 中部署动态标签管理时，动态标签管理中用于反向链接和促销活动选项的字段描述。
-keywords: 动态标签管理；引介；营销活动；引介改写；营销活动变量；查询参数
+keywords: Dynamic Tag Management;反向链接;促销活动;反向链接覆盖;促销活动变量;查询参数
 seo-description: 在 Adobe Analytics 中部署动态标签管理时，动态标签管理中用于反向链接和促销活动选项的字段描述。
 seo-title: 反向链接和促销活动
-solution: Experience Cloud，分析，动态标签管理
+solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 反向链接和促销活动
 uuid: 56580206-a382-4993-9bba-a488da65cf89
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 反向链接和促销活动
 
-Field descriptions in [!UICONTROL Dynamic Tag Management] for referrers and campaign options when deploying [!UICONTROL Dynamic Tag Management] in Adobe [!DNL Analytics].
+在 Adobe [!DNL Analytics] 中部署 [!UICONTROL Dynamic Tag Management] 时，[!UICONTROL Dynamic Tag Management] 中用于反向链接和促销活动选项的字段描述。
 
-**[!UICONTROL *`Property`*]** &gt;编 ![](assets/settings_gear.png) 辑工具 **[!UICONTROL &gt;引]****[!UICONTROL 用和营销活动]**
+**[!UICONTROL *`Property`*]** &gt; ![](assets/settings_gear.png) **[!UICONTROL 编辑工具]** &gt; **[!UICONTROL 反向链接和促销活动]**
 
 <table id="table_09AE3BFF0F12442F9C19CD96451F93E4"> 
  <thead> 
@@ -28,11 +28,11 @@ Field descriptions in [!UICONTROL Dynamic Tag Management] for referrers and camp
  <tbody> 
   <tr> 
    <td colname="col1"> 反向链接覆盖 </td> 
-   <td colname="col2"> <p>覆盖 <span class="varname"> s.referrer</span> variable, which is typically populated by the referrer set in the browser. </p> <p>请参阅 <a href="/help/implement/js-implementation/c-variables/page-variables.md">页面变量</a>。 </p> </td> 
+   <td colname="col2"> <p>覆盖 <span class="varname">s.referrer</span> 变量中设置的值，它通常由浏览器中设置的反向链接填充。 </p> <p>请参阅<a href="/help/implement/js-implementation/c-variables/page-variables.md">页面变量</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 促销活动 </td> 
-   <td colname="col2"> <p>一种变量，可识别将访客吸引到您网站的市场营销活动。促销活动的值通常取自查询字符串参数。 </p> <p>请参阅[<a href="/help/implement/js-implementation/c-variables/page-variables.md">页面变量</a>。 </p> </td> 
+   <td colname="col2"> <p>一种变量，可识别将访客吸引到您网站的市场营销活动。促销活动的值通常取自查询字符串参数。 </p> <p>See [<a href="/help/implement/js-implementation/c-variables/page-variables.md">Page Variables</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
