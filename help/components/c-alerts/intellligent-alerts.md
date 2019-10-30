@@ -5,7 +5,7 @@ seo-title: 智能警报
 title: 智能警报
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ## 常见问题解答：如何计算和触发警报 {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
 
-% 阈值代表标准偏差。例如，95% 等于 2 个标准偏差，99% 等于 3 标准偏差。根据您选择的时间粒度，将使用[不同的模型](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)来计算每个数据点和标准值之间的间隔时间（标准偏差个数）。设定的阈值越低，异常会越多。例如，同 99% 的相比，90% 的阈值会产生更多的异常。过去，在时间粒度为每小时的情况下，为了让触发的异常保持低水平，专门设定了 99.75% 和 99.99% 这两个阈值。
+% 阈值代表标准偏差。例如，95% 等于 2 个标准偏差，99% 等于 3 标准偏差。根据您选择的时间粒度，将使用[不同的模型](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)来计算每个数据点和标准值之间的间隔时间（标准偏差个数）。设定的阈值越低，异常会越多。例如，同 99% 的相比，90% 的阈值会产生更多的异常。为每小时粒度专门引入了99.75%和99.99%的阈值，这样不会触发那么多异常。
 
 <table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
  <thead> 
@@ -74,7 +74,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
    <td colname="col2"> <p>当前还不可以。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>问题：我可以获得用虚线制成的“预期值”表格吗？表格中会包含一些预期值的结果吗？</b> </p> </td> 
+   <td colname="col1"> <p><b>问：我是否可以得到包含虚线的“预期值”表，或者这些值的某种输出？ </b> </p> </td> 
    <td colname="col2"> <p>在工作区中无法实现，但是在 Report Builder 中可以（请观看视频：<a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external">Report Builder 中的异常检测</a>)。 </p> <p>请记住，Report Builder 使用的是略微简单的异常检测方法。与 <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"><span class="uicontrol"></span>Reports &amp; Analytics 异常检测</a>相似，它使用 30 天的固定培训期，和 95% 的固定间隔。 </p> </td> 
   </tr> 
  </tbody> 
