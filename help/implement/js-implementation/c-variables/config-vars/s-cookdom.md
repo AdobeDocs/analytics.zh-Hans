@@ -5,15 +5,15 @@ seo-description: 通过动态变量，您可以将一个变量中的值复制到
 solution: null
 title: 动态变量
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.cookieDomain
 
-The  variable determines the domain on which the [!DNL Analytics] cookies `s_cc` and `s_sq` are set.
+该变量确定设置了 [!DNL Analytics] Cookie（`s_cc` 和 `s_sq`）的域。
 
-通常， `s.cookieDomainPeriods` 用于从生成 `s.cookieDomain` 内容 `window.location.hostname`。 您可以显 `s.cookieDomainPeriods`式设置要在实 `s.cookieDomain` 施中使用的内容，而不是使用。 例如，您可以使用以下代码在完全限定的页面名称处设置 Cookie：
+Commonly, `s.cookieDomainPeriods` is used to generate `s.cookieDomain` from `window.location.hostname`. Instead of using `s.cookieDomainPeriods`, you can explicitly set `s.cookieDomain` to what you want to use in your implementation. 例如，您可以使用以下代码在完全限定的页面名称处设置 Cookie：
 
 `s.cookieDomain = window.location.hostname;`
