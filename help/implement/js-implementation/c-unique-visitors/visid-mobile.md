@@ -6,8 +6,8 @@ seo-title: 识别移动设备
 solution: Analytics
 title: 识别移动设备
 topic: 开发人员和实施
-uuid: 2287dd1-cead-485b-a4 d8-94dfb7 cd9662
-translation-type: tm+mt
+uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
+translation-type: ht
 source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 Adobe 已确立了一批可唯一识别大多数移动设备的 HTTP [订户 ID 头](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D)。这些头通常包含设备电话号码（或号码的哈希版本），或其他标识符。大部分的当前设备通常具有一个或多个可唯一识别设备的头，而所有的 Adobe 数据收集服务器都会自动使用这些头替代访客 ID。
 
-In a typical image request, a '1' in the path ( `/b/ss/rsid/1`) causes Adobe servers to return a gif image and to attempt to set a persistent [!UICONTROL visitor ID] cookie ( `AMCV_` or `s_vi`). 但是，如果根据 HTTP 头，设备被识别为移动设备，则会传递“5”，而不是“1”，这指示应返回 wbmp 格式的图像，并且应使用我们识别的无线头列表（而不是 Cookie）来识别设备。
+在典型的图像请求中，路径 (`/b/ss/rsid/1`) 中的“1”会使 Adobe 服务器返回 gif 图像，并尝试设置永久性[!UICONTROL 访客 ID] Cookie（`AMCV_` 或 `s_vi`）。但是，如果根据 HTTP 头，设备被识别为移动设备，则会传递“5”，而不是“1”，这指示应返回 wbmp 格式的图像，并且应使用我们识别的无线头列表（而不是 Cookie）来识别设备。
 
 下表根据路径中的返回图像类型值（“1”或“5”），列出了所用 ID 方法的顺序：
 
