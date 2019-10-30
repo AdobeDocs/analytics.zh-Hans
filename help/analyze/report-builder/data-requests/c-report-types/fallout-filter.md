@@ -1,18 +1,18 @@
 ---
 description: 描述如何将过滤器应用到流失报表的步骤。
 seo-description: 描述如何将过滤器应用到流失报表的步骤。
-seo-title: 使用请求向导过滤流失报告
+seo-title: 使用请求向导过滤流失报表
 solution: Analytics
-title: 使用请求向导过滤流失报告
+title: 使用请求向导过滤流失报表
 topic: Report Builder
 uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 使用请求向导过滤流失报告
+# 使用请求向导过滤流失报表
 
 描述如何将过滤器应用到流失报表的步骤。
 
@@ -24,8 +24,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    ![](assets/page_fallout.png)
 
-1. Configure the appropriate [date ranges](../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).
-1. Click **[!UICONTROL Next]**.
+1. 配置相应的 [日期范围](../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)。
+1. 单击&#x200B;**[!UICONTROL 下一步]**。
 1. In Step 2 of the Wizard, under **[!UICONTROL Row Labels]**, click the **[!UICONTROL Define Checkpoints]** link. （在流失报表中，您始终必须定义路径元素，这与预先应用了模式的路径报表不同。）
 
    ![](assets/define_checkpoints.png)
