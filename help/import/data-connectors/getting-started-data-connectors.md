@@ -1,15 +1,15 @@
 ---
 description: 将跟踪数据从第三方应用程序导入到 Analytics 中。
 seo-description: 登录数据连接器；将跟踪数据从第三方应用程序导入Analytics、添加集成、数据连接器控制台。
-seo-title: Analytics data connectors
-title: Getting Started with Analytics data connectors
+seo-title: 分析数据连接器
+title: Analytics数据连接器入门
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Overview of data connectors
+# 数据连接器概述
 
 Adobe 为组织提供有关数字化策略和营销活动的可执行实时资讯。Data Connectors 可让您将第三方应用程序中的跟踪数据导入 Analytics，因此，您可以从一个中心位置收集和使用数据。如果您使用的是合作伙伴产品，则可以创建集成，将应用程序数据导入营销报表。一旦创建了该集成，您便可以生成包含应用程序中数据的报表。
 
@@ -27,7 +27,7 @@ Data Connectors 应与最受欢迎的浏览器适当集成。但是，在符合�
 * 显示器分辨率：1024x768（最低设置为 800x600）
 * 颜色深度：16 位或更高
 
-此外，用户的 Web 浏览器启用 JavaScript 时，还会改善数据收集。
+此外，当用户的Web浏览器启用JavaScript时，数据收集会得到改进。
 
 **先决条件**
 
@@ -40,16 +40,16 @@ Data Connectors 应与最受欢迎的浏览器适当集成。但是，在符合�
 
 ## 添加集成
 
-You must have a current account to access the Data Connectors landing page (console). 还建议您熟悉Adobe Analytics。
+您必须具有当前帐户才能访问 [!UICONTROL Data Connectors登录页] （控制台）。 还建议您熟悉Adobe Analytics。
 
-1. Log into the Adobe Experience Cloud.
+1. 登录Adobe Experience Cloud。
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Connectors]**.
 1. 单击&#x200B;**[!UICONTROL 新增]**。
-1. Step through the Add Integration interface.****
+1. 遍历添加 **[!UICONTROL 集成界面]** 。
 
    根据各个产品集成，您可能需要在集成过程中提供特定的配置信息。
 
-   When the integration completes, the partner product icon displays on the Data Connectors Network page and is available in menus.
+   集成完成后，Data Connectors Network（数据连接器网络）页面上会显示合作伙伴产品图标，该图标显示在菜单中。
 
 ## Data Connectors 控制台
 
@@ -61,7 +61,7 @@ You must have a current account to access the Data Connectors landing page (cons
 
 再营销区段是基于 Data Connectors 集成所用变量创建的数据文件。
 
-Adobe Analytics sends these in separate daily files via data warehouse to an FTP created by Adobe for the third party. 第三方随后再将这些文件分发给客户。公司通常会使用这些文件对访问过网站并查看过产品，但没有完成购买的客户进行再营销。（例如，您可以联系特定客户，针对其查看过但最终没有购买的产品提供折扣。）
+Adobe Analytics通过数据仓库将这些文件分别发送到Adobe为第三方创建的FTP中。 第三方随后再将这些文件分发给客户。公司通常会使用这些文件对访问过网站并查看过产品，但没有完成购买的客户进行再营销。（例如，您可以联系特定客户，针对其查看过但最终没有购买的产品提供折扣。）
 
 **区段**
 
