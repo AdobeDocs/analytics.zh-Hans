@@ -3,9 +3,9 @@ description: 选择量度旁边的齿轮图标允许您指定量度类型和归�
 seo-description: 选择量度旁边的齿轮图标允许您指定量度类型和归因模型。
 seo-title: 量度类型和归因
 title: 量度类型和归因
-uuid: 64649698-df2 a-42c3-bb31-938f766 e1 d1 f
+uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,15 +34,15 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 >In July 2018, [!DNL Analytics] introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. 作为此更改的一部分，使用非默认分配模型的计算量度已迁移至改进的新归因模型。
 >
 >* 有关支持的非默认归因模型和回顾窗口的完整列表，请参阅[归因 IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html) 文档。
->* “营销渠道最近联系”和“营销渠道首次联系”分配模型将分别迁移至新的“最近联系”和“首次联系”归因模型（注：“营销渠道”并不会被弃用——弃用的只有此处所述出现在计算量度中的这两个分配模型）。
->* 此外，我们还将修正线性分配的计算方式。对于通过“线性”分配模型使用计算量度的客户，报表可能会稍有变化，以反映修正后的新归因模型。This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 有关更多信息，请参阅[线性分配工作原理（自 2018 年 7 月 19 日起）](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)。
+>* “营销渠道最近接触”和“营销渠道首次接触”分配模型将分别迁移到新的“最近接触”和“首次接触”归因模型(注意：不会弃用“营销渠道”-只有计算量度中显示的两个分配模型才会弃用。
+>* 此外，我们还将修正线性分配的计算方式。对于使用“线性”分配模型的计算指标的客户，报告可能会稍有变化以反映经过修正的新归因模型。 This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 有关更多信息，请参阅[线性分配工作原理（自 2018 年 7 月 19 日起）](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)。
 >
 
 
 
 ## 线性分配工作原理（自 2018 年 7 月 19 日起） {#section_EDBB2E14A6C248C5A79C0913C02D7CA1}
 
-Adobe于2018年月更改了计算量度线性分配的方式。This change impacts Analysis Workspace, Ad Hoc Analysis, [!UICONTROL Reports &amp; Analytics], Report Builder, Activity Map, and the Reporting APIs. 此更改将主要影响具有持久性的 eVar 与其他维度。Note that these changes will only apply to calculated metrics and will not impact other reports using linear allocation (such as the Pages report in [!UICONTROL Reports &amp; Analytics]). 其他使用线性分配的报表将继续使用现有的线性分配方式。
+2018年7月，Adobe更改了计算量度的线性分配报告方式。 This change impacts Analysis Workspace, Ad Hoc Analysis, [!UICONTROL Reports &amp; Analytics], Report Builder, Activity Map, and the Reporting APIs. 此更改将主要影响具有持久性的 eVar 与其他维度。Note that these changes will only apply to calculated metrics and will not impact other reports using linear allocation (such as the Pages report in [!UICONTROL Reports &amp; Analytics]). 其他使用线性分配的报表将继续使用现有的线性分配方式。
 
 下例说明了使用线性分配的计算量度将在报告时发生何种变化：
 
@@ -120,7 +120,7 @@ Adobe于2018年月更改了计算量度线性分配的方式。This change impac
 
 **线性分配工作原理概要（自 2018 年 7 月 19 日起）**
 
-从 2018 年 7 月 19 日起，我们修改了计算量度中的此种方式。[!DNL Analytics] 现在，只使用传入的值(顶部表的第一行)，而不是基于上次触摸或首次触摸使用持久值。基于此，维度分配设置不会再影响线性分配的计算方式（这意味着 Prop 和 eVar 都将以相同方式得到处理）；结果将反映最初传递的内容，而不是反映那些可能具有持久性的首次或最近联系值。因此，在上述所有三种情况下，均为：A = 10 * (2/4) = $5，B = 10 * (1/4) = $2.50，C = 10 * (1/4) = $2.50。
+从 2018 年 7 月 19 日起，我们修改了计算量度中的此种方式。Instead of using the persisted values based on last touch or first touch, [!DNL Analytics] now uses only the values that were passed in (the first row of the top table). 基于此，维度分配设置不会再影响线性分配的计算方式（这意味着 Prop 和 eVar 都将以相同方式得到处理）；结果将反映最初传递的内容，而不是反映那些可能具有持久性的首次或最近联系值。因此，在上述所有三种情况下，均为：A = 10 * (2/4) = $5，B = 10 * (1/4) = $2.50，C = 10 * (1/4) = $2.50。
 
 | 值 | 最近联系 eVar 新分配值 | 首次联系 eVar 新分配值 | Prop 新分配值 |
 |---|---|---|---|
