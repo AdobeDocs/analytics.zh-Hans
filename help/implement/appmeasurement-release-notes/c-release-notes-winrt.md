@@ -7,23 +7,19 @@ subtopic: 发行说明
 title: WinRT for Windows 8
 topic: 开发人员和实施
 uuid: cec19d63-114c-4ef6-a55e-db6aad4e948b
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # WinRT for Windows 8{#winrt-for-windows}
 
->[!NOTE]
->
->要找到当前库版本，请打开调试记录。
+> [!NOTE]要找到当前库版本，请打开调试记录。
 
-可以在 [!DNL Developer Connection] 上[下载](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications)移动库。
+Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
->[!NOTE]
->
->[!DNL WinRT] for [!DNL Windows] 8 SDK 已由 [Windows 8.1 通用应用程序商店](../appmeasurement-release-notes/c-release-notes-winu.md#concept_79EEB87B0FEC4F6DB11BE8ED417A970E) SDK 替代。未来不会再对此 SDK 进行进一步的研发。
+> [!NOTE][!DNL WinRT] for [!DNL Windows] 8 SDK 已由 [Windows 8.1 通用应用程序商店](../appmeasurement-release-notes/c-release-notes-winu.md#concept_79EEB87B0FEC4F6DB11BE8ED417A970E) SDK 替代。未来不会再对此 SDK 进行进一步的研发。
 
 ## 4.0 版 {#section_248BF5A38F1843A5BCF6DBD62A5D3D59}
 
