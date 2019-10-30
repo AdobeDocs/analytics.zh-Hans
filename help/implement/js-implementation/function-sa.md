@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 函数
 title: s.sa() 函数
 topic: 开发人员和实施
-uuid: a6aacd10-2a5b-448b-b3 b7-bed5590 b71 d4
-translation-type: tm+mt
+uuid: a6aacd10-2a5b-448b-b3b7-bed5590b71d4
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
