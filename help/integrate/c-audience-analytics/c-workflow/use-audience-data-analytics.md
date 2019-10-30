@@ -1,19 +1,19 @@
 ---
-description: '您可以在整个 Analytics 中使用 AAM 受众维度。集成的区段是名为“受众 ID”和“受众名称”的新 Analytics 维度，并且可以像 Analytics 收集的任何其他维度一样使用。在数据馈送中，受众 ID 存储在“mc_audiences”列中。这些维度当前在 Data Workbench 或 Livestream 中不可用。如何利用受众维度的一些示例包括 '
-seo-description: '您可以在整个 Analytics 中使用 AAM 受众维度。集成的区段是名为“受众 ID”和“受众名称”的新 Analytics 维度，并且可以像 Analytics 收集的任何其他维度一样使用。在数据馈送中，受众 ID 存储在“mc_audiences”列中。这些维度当前在 Data Workbench 或 Livestream 中不可用。如何利用受众维度的一些示例包括 '
+description: '您可以在整个 Analytics 中使用 AAM 受众维度。集成的区段是名为“受众 ID”和“受众名称”的新 Analytics 维度，并且可以像 Analytics 收集的任何其他维度一样使用。在数据馈送中，受众ID存储在“mc_audiences”列中。 这些维度当前在 Data Workbench 或 Livestream 中不可用。如何利用受众维度的一些示例包括 '
+seo-description: '您可以在整个 Analytics 中使用 AAM 受众维度。集成的区段是名为“受众 ID”和“受众名称”的新 Analytics 维度，并且可以像 Analytics 收集的任何其他维度一样使用。在数据馈送中，受众ID存储在“mc_audiences”列中。 这些维度当前在 Data Workbench 或 Livestream 中不可用。如何利用受众维度的一些示例包括 '
 seo-title: 在 Analytics 中使用受众数据
 solution: Experience Cloud
 title: 在 Analytics 中使用受众数据
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 在 Analytics 中使用受众数据
 
-您可以在整个 Analytics 中使用 AAM 受众维度。集成的区段是名为“受众 ID”和“受众名称”的新 Analytics 维度，并且可以像 Analytics 收集的任何其他维度一样使用。在数据馈送中，受众 ID 存储在“mc_audiences”列中。这些维度当前在 Data Workbench 或 Livestream 中不可用。有关如何利用受众维度的一些示例包括：
+您可以在整个 Analytics 中使用 AAM 受众维度。集成的区段是名为“受众 ID”和“受众名称”的新 Analytics 维度，并且可以像 Analytics 收集的任何其他维度一样使用。在数据馈送中，受众ID存储在“mc_audiences”列中。 这些维度当前在 Data Workbench 或 Livestream 中不可用。有关如何利用受众维度的一些示例包括：
 
 ## Analysis Workspace {#section_C70837499BEA4DED885B3486C9E02C68}
 
@@ -26,7 +26,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ## 区段比较 {#section_E72B80B6470C42D4B9B19BE90E6070A2}
 
-[区段比较](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html)可发现两个区段间在统计上的最显著差异。区段比较通过以下两种方式来使用受众数据：1) 作为正在进行比较的 2 个区段，2) 作为“排名最前的维度项目”表中的项目。
+[区段比较](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html)可发现两个区段间在统计上的最显著差异。受众数据可通过两种方式在细分比较中使用：1)作为2个正在比较的区段，2)作为“顶级维度项目”表中的项目。
 
 1. 转至&#x200B;**[!UICONTROL 工作区]**&#x200B;并从左边栏中选择&#x200B;**区段比较]面板。[!UICONTROL **
 
@@ -37,13 +37,13 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 1. （可选）：您还可以放入其他维度项目或区段中，最多可比较 2 个。
 1. Click **[!UICONTROL Build]**.
 
-   受众 ID 和名称维度将自动显示在“排名最前的维度项目”表中，因为它们是两个正在进行比较的区段的额外配置文件数据。
+   受众ID和名称维将自动显示在“顶级维项目”表中，因为它们是要比较的两个区段的其他配置文件数据。
 
    ![](assets/aud-segcompare.png)
 
 ## Analysis Workspace 中的客户历程（流量） {#section_FC30E5795C9D4539838E30FE11FAEA6E}
 
-AAM 区段数据依据逐次点击传递到 Analytics 中，表示访客在该时间点所具有的受众成员资格。这意味着，访客可能归属于一个区段（例如“感知”），然后又有资格访问另外一个获得授权的区段（例如“注意事项”）。您可以在 Analysis Workspace 中使用[流量](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html)显示访客在各受众之间的历程。
+AAM 区段数据依据逐次点击传递到 Analytics 中，表示访客在该时间点所具有的受众成员资格。这意味着，访客可能属于一个区段(例如，“意识”)，然后符合更合格的细分(例如，“考虑”)。 您可以在 Analysis Workspace 中使用[流量](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html)显示访客在各受众之间的历程。
 
 1. 转至&#x200B;**[!UICONTROL 工作区]**&#x200B;并从左边栏中选择&#x200B;**流量]可视化。[!UICONTROL **
 
