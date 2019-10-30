@@ -5,7 +5,7 @@ seo-title: 数据隐私和数据连接器(Genesis)
 title: 数据隐私和数据连接器(Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 如果您正在使用以下任意连接器的集成，那么可以简单地查看一下集成中的哪个合作伙伴变量/分类可能包含直接可识别数据或间接可识别数据。
 
->[!NOTE]
->
->此信息旨在帮助您识别必须标记的变量 [](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)，但您作为数据管理者的责任是应用相应的标签或执行其他操作以准备数据隐私 [](/help/admin/c-data-governance/an-gdpr-overview.md) （更新分类等）。
+> [!NOTE] 此信息旨在帮助您识别必须标记的变量 [](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)，但您作为数据管理者的责任是应用相应的标签或执行其他操作以准备数据隐私 [](/help/admin/c-data-governance/an-gdpr-overview.md) （更新分类等）。
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
