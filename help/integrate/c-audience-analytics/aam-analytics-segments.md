@@ -1,16 +1,16 @@
 ---
 description: Analytics 和 Audience Manager 均使用区段。但是，Analytics 区段和 Audience Manager 区段并不完全一样。这些区别在某种程度上造成了 Analytics 和 Audience Manager 报表之间的差异。因此，当您开始使用这两种解决方案中的区段时，尝试了解这些差异是非常重要和有用的。
 seo-description: Analytics 和 Audience Manager 均使用区段。但是，Analytics 区段和 Audience Manager 区段并不完全一样。这些区别在某种程度上造成了 Analytics 和 Audience Manager 报表之间的差异。因此，当您开始使用这两种解决方案中的区段时，尝试了解这些差异是非常重要和有用的。
-seo-title: 了解Analytics和Audience Manager中的细分
-title: 了解Analytics和Audience Manager中的细分
-uuid: 13f7d1d7-3a3f-42f1-822e-8d3523999efa
+seo-title: 了解 Analytics 和 Audience Manager 中的区段
+title: 了解 Analytics 和 Audience Manager 中的区段
+uuid: 13f7d1d7-6a3f-42f1-822e-8d352399efa
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 了解Analytics和Audience Manager中的细分
+# 了解 Analytics 和 Audience Manager 中的区段
 
 Analytics 和 Audience Manager 均使用区段。但是，Analytics 区段和 Audience Manager 区段并不完全一样。这些区别在某种程度上造成了 Analytics 和 Audience Manager 报表之间的差异。因此，当您开始使用这两种解决方案中的区段时，尝试了解这些差异是非常重要和有用的。
 
@@ -31,17 +31,17 @@ Audience Manager 区段在 Analytics 中以受众的形式表示。
 
 ## Analytics 区段 {#section_62EC584BB7134E10923BCBA7F9BD89A8}
 
-Analytics 区段是一种对报表数据进行过滤的机制。过滤可能会在访客、访问或点击级别发生，而不是严格按照Audience Manager中的访客级别进行过滤。在比较 Analytics 区段和 Audience Manager 区段时须考虑以下几个重要因素：
+Analytics 区段是一种对报表数据进行过滤的机制。筛选可以在访客、访问或点击级别进行——而不是像在Audience manager中那样严格地在访客级别进行。 在比较 Analytics 区段和 Audience Manager 区段时须考虑以下几个重要因素：
 
 * Analytics 区段所处理的数据不同于 Audience Manager 区段。在数据收集期间，Analytics 会对数据应用许多不同的后期处理步骤，而这些步骤对 Audience Manager 不可用。后期处理可包括 eVar 持久性、处理规则、查找（地理位置、移动设备）、VISTA 及许多其他内容。Audience Manager 通过服务器端转发（或 DIL）接收预处理数据。
 
    在将 Analytics 中基于永不过期维度的区段与 Audience Manager 中的相同区段进行比较时，常见数据会出现差异。例如，永不过期的 listVar 或促销 eVar。
 
-   例如，如果 eVar = blue 并在 Analytics 中设置为永不过期，则 Analytics 中任何具有标准“eVar = blue”的区段将始终包含该访客。然而，在 Audience Manager 中，该访客在一定的时间段后可能会从具有类似定义的区段中流失。
+   例如，如果eVar = blue并且在Analytics中设置为永不过期，则Analytics中标准为“eVar = blue”的任何区段将始终包含此访客。 然而，在 Audience Manager 中，该访客在一定的时间段后可能会从具有类似定义的区段中流失。
 
 * Analytics 区段比 AAM 区段具有更多的功能。Audience Manager 区段始终在访客级别进行评估。Analytics 区段可在访客、访问或点击级别（或这些级别的组合）进行定义。此外，Analytics 还支持一些 Audience Manager 没有的高级分段功能，如连续分段。
 * 如前所述，Audience Manager 可以进入或退出区段，具体取决于他们在当前时间点是否符合区段标准。
 
-   相反，在 Analytics 中，将根据报告的日期范围在区段中包含或排除访客。例如有一名访客在上月进行了一次购买。在 AAM 中，这名访客将包含在“购买者”区段中，而不考虑日期范围。在 Analytics 中，基于本月的报表将不会在区段中包含该访客。而基于本月和上月的报表将在区段中包含该访客。
+   相反，在 Analytics 中，将根据报告的日期范围在区段中包含或排除访客。例如有一名访客在上月进行了一次购买。在AAM中，该访客将包含在“购买者”区段中，而不管日期范围如何。 在 Analytics 中，基于本月的报表将不会在区段中包含该访客。而基于本月和上月的报表将在区段中包含该访客。
 
 有关详细信息，请参阅 [Analytics 分段指南。](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)
