@@ -8,7 +8,7 @@ title: 机器人规则概述
 topic: 管理工具
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -40,8 +40,7 @@ Adobe 无法向客户提供详细的 IAB 机器人程序列表，但是您可以
 
 ## 自定义机器人规则
 
->[!Note]
->用户界面允许手动定义 500 个规则。在达到此限制后，必须通过“导入文件”和“导出机器人规则”选项对规则进行批量管理。
+>[!N注意] ：用户界面允许手动定义500个规则。 在达到此限制后，必须通过“导入文件”和“导出机器人规则”选项对规则进行批量管理。
 
 使用自定义机器人规则，您可以根据定义的条件过滤流量。
 
@@ -125,9 +124,7 @@ VISTA rules are applied after Bot Rules (see [Processing Order).](/help/admin/ad
 
 **高点击访问处理：**&#x200B;如果一次访问中出现 100 次以上的点击，则报表会确定访问时间（以秒为单位）是否小于或等于访问的点击次数。在这种情况下，由于长时间集中访问的处理成本原因，报表会重新开始一个新访问。高点击访问通常是由机器人攻击造成的，因此不视为正常的访客浏览。
 
->[!NOTE]
->
->标记为的点 *`bots`* 击将计为服 [务器调用。](/help/admin/c-server-call-usage/overage-overview.md)
+> [!NOTE] 标记为的点 *`bots`* 击将计为服 [务器调用。](/help/admin/c-server-call-usage/overage-overview.md)
 
 ## Impact of IP Obfuscation on bot filtering {#section_92E60B95BE8940D983F28C79E0CD6B12}
 
