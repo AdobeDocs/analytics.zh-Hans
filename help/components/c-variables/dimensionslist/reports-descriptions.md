@@ -4,10 +4,10 @@ seo-description: Reports & Analytics 中可用的预定义报表的定义，以�
 seo-title: 维度描述
 solution: Analytics
 title: 维度描述
-topic: 报表
-uuid: 8518aacb-a407-4fa8-bc25-6b349 c44528 a44528 a
+topic: 报告
+uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Reports &amp; Analytics 中可用的预定义报表的定义，以及其他 Analytics 工具（如 Analysis Workspace）中可用维度的定义。
 
-维度是可以在报表中查看、划分和比较的量度数据的说明或特性。它们是非数字值和日期，它们划分或是原始报告类型量度的分类。
+维度是可以在报表中查看、划分和比较的量度数据的说明或特性。它们是非数字值和日期，可细分或是原始报告类型度量的分类。
 
 <table id="table_5F240226DE7C40D3B613178F5A829011"> 
  <thead> 
@@ -31,7 +31,7 @@ Reports &amp; Analytics 中可用的预定义报表的定义，以及其他 Anal
    <td colname="col2"> <p><span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">工作区</span> &gt; <span class="uicontrol">[选择或创建项目]</span> &gt; <span class="uicontrol">组件图标（左边栏中）</span></span> </p> <p>从“维度”列表中查看和添加维度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Reports &amp; Analytics </p> </td> 
+   <td colname="col1"> <p>Reports and Analytics </p> </td> 
    <td colname="col2"> <p><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol">报表</span> &gt; <span class="uicontrol">查看所有报表</span> </p> </td> 
   </tr> 
   <tr> 
