@@ -1,16 +1,16 @@
 ---
 description: 如果您要通过 Power BI 手动导入 Analytics 数据，请按照以下说明执行操作。
 seo-description: 如果您要通过 Power BI 手动导入 Analytics 数据，请按照以下说明执行操作。
-seo-title: 手动将数据导入Power BI
-title: 手动将数据导入Power BI
-uuid: c84f7a90-7b 40-4065-FE7-4eb19 e5 e2473
+seo-title: 将数据手动导入 Power BI
+title: 将数据手动导入 Power BI
+uuid: c84f7a90-7b40-4065-9fe7-5eb19e5e2473
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 手动将数据导入Power BI
+# 将数据手动导入 Power BI
 
 如果您要通过 Power BI 手动导入 Analytics 数据，请按照以下说明执行操作。
 
