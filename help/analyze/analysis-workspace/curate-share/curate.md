@@ -8,7 +8,7 @@ title: 组织/共享概述
 topic: Reports and Analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
    >[!IMPORTANT]
    >
-   >Curating components is not required for sharing a project. 您可以共享包含所有可用、默认组件的项目，或者共享包含选定组件的项目。To preserve all of the default components in a project, a best practice is to create a copy of a project for yourself (using **[!UICONTROL Save As]**) prior to curating components. 一旦您在项目中组织了组件，其他组件将不能继续用于该项目。
+   >共享项目不需要创建组件。 您可以共享包含所有可用、默认组件的项目，或者共享包含选定组件的项目。To preserve all of the default components in a project, a best practice is to create a copy of a project for yourself (using **[!UICONTROL Save As]**) prior to curating components. 一旦您在项目中组织了组件，其他组件将不能继续用于该项目。
 
 1. 单击&#x200B;**[!UICONTROL 完成]**。
 
@@ -51,7 +51,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
    ![](assets/share_component.png)
 
 1. 添加接收人。
-1. （可选）您也可以将嵌入的项目组件（区段、计算量度和日期范围）与所有接收人共享。共享后，这些组件将显示在接收人工作区的组件下拉菜单中。
+1. （可选）您也可以将嵌入的项目组件（区段、计算量度和日期范围）与所有接收人共享。共享后，这些组件将显示在收件人工作区的组件下拉菜单中。
 
    >[!IMPORTANT]
    >
