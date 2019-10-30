@@ -1,18 +1,18 @@
 ---
 description: Analysis Workspace 中“撤消”选项的更改和增强。
 seo-description: Analysis Workspace 中“撤消”选项的更改和增强。
-seo-title: 撤消和重做设置
-title: 撤消和重做设置
-uuid: a4dbc169-5fd7-4383-aee0-6b5 ba1 c235 ab
+seo-title: “撤消”和“重做”设置
+title: “撤消”和“重做”设置
+uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: a0bdacb39d145b7f5299ac391b9591fe0b8e4e04
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 撤消和重做设置
+# “撤消”和“重做”设置
 
-**[!UICONTROL “工作区]** ”&gt;“ **[!UICONTROL 项目]** ”&gt; **[!UICONTROL “撤消/重做”]**
+**[!UICONTROL 工作区]** &gt; **[!UICONTROL 项目]** &gt;撤 **[!UICONTROL 消／重做]**
 
 * **[!UICONTROL 重做]**&#x200B;选项（用于重做撤消的操作）位于&#x200B;**编辑[!UICONTROL 菜单中。]**
 
@@ -22,7 +22,7 @@ source-git-commit: a0bdacb39d145b7f5299ac391b9591fe0b8e4e04
 
 * 您可以对更改报表包的操作执行撤消/恢复。
 * 项目名称旁边会显示撤消/恢复消息，表示正在进行撤消/恢复。
-* You can use these [hotkeys](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051):
+* 您可以使用以下 [热键](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051):
 
    * CTRL(CMD)+Z 表示撤消
    * CTRL(CMD)+SHIFT+Z 表示重做
