@@ -5,7 +5,7 @@ seo-title: 生成量度
 title: 生成量度
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -112,7 +112,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
   <tr> 
    <td colname="col2"> <p>维度列表 </p> </td> 
-   <td colname="col3"> <p>要在区段生成器中构建简单区段，您无需离开计算量度生成器，例如“Page = Homepage”，您可以在页面中拖动并从计算量度生成器中直接选择“主页”。 </p> <p>这可以极大地简化用于创建分段计算量度的工作流程。 </p> </td> 
+   <td colname="col3"> <p>而不是离开“计算量度生成器”以构建简单的区段（在“区段生成器”中），例如“Page = Homepage”，您可以拖入页面，并直接从“计算量度生成器”中选择“主页”。 </p> <p>这可以极大地简化用于创建分段计算量度的工作流程。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>量度列表 </p> </td> 
