@@ -7,8 +7,8 @@ solution: Analytics
 title: 按促销活动或跟踪代码进行路径分析
 topic: 开发人员和实施
 uuid: eb6e3484-1b40-4ec6-8017-ac1003cdf636
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ s.prop1=s.pageName;
 您应当对所有页面采取此操作，但当用户从促销活动点击进入时除外。如果用户从促销活动点击进入促销活动的登陆页面，则需要将促销活动和 [!UICONTROL pagename] 串联起来填充 prop。请参阅以下代码：
 
 ```js
- s.prop1=s.campaign + ‘ : ’ + s.pageName;
+ s.prop1=s.campaign + ' : ' + s.pageName;
 ```
 
 如果用户点击的促销活动名为“banner1234”，而登陆页面的名称为“Home Page”，则为此 prop 填充的值即为“banner1234 : Home Page”。如上所示，再将每一个后续页面的 [!UICONTROL pagename] 放入 prop。
@@ -36,7 +36,7 @@ s.prop1=s.pageName;
 如果用户点击促销活动进入网站并陆续浏览四个页面后退出，则 sprop 会按此顺序排列值：
 
 ```js
-“banner1234 : Home Page” > “Page 2” > “Page 3” > “Page 4”
+"banner1234 : Home Page" > "Page 2" > "Page 3" > "Page 4"
 ```
 
 借助以此方式捕获的 [!UICONTROL prop1] 数据，并对此 prop 启用路径分析，便可查看不同的路径报表，了解用户从促销活动点击进入网站后的浏览路径。
