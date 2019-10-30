@@ -4,10 +4,10 @@ seo-description: 显示网站页面的层次结构布局，并根据 hierN 变�
 seo-title: 层级
 solution: Analytics
 title: 层级
-topic: 报表
-uuid: 52f5d0af-67f7-4439-923f-4b79bf1c3fff
+topic: 报告
+uuid: 52f5d0af-67f7-4439-923f-4b79bf1c3ff
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
