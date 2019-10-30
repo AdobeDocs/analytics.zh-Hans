@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 自由表
-title: 自由表
+seo-title: 自由格式表
+title: 自由格式表
 uuid: eb272991-9f12-4b67-8b38-7ed548139a1d
 translation-type: tm+mt
-source-git-commit: 8b2feced9fd503395d06dc12c8e5d7985ca89161
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 自由表
+# 自由格式表
 
 在 Analysis Workspace 中，数据表（自由格式表）不仅可以作为报表，而且还是一个交互式的可视化界面。您可以与单个行、许多选定行或整个表进行交互。
 
