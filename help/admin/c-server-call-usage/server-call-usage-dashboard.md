@@ -5,7 +5,7 @@ seo-title: 查看当前的服务器调用使用情况
 title: 查看当前的服务器调用使用情况
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 **[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理员]** &gt; Server Call Usage **[!UICONTROL &gt;]****[!UICONTROL Current Usage]**
 
->[!IMPORTANT]
->
->您看到的任何使用情况和承诺编号均在所有登录公司和报表包中累计。
+> [!IMPORTANT] 您看到的任何使用情况和承诺编号均在所有登录公司和报表包中累计。
 
 “当前使用情况”功能板
 
@@ -27,9 +25,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 * 将当前时段的使用量（绿线）与去年的使用量（蓝色）进行比较。显而易见，仅当贵公司具有上一年的服务器调用使用情况数据时蓝线才会显示。
 
-   >[!NOTE]
-   >
-   >如果要查看上一时间段的使用情况，则必须转到“ [Report Suite Usage](/help/admin/c-server-call-usage/report-suite-usage.md) ”（报告包使用情况）选项卡并下载上一时间段的使用情况数据。
+   > [!NOTE] 如果要查看上一时间段的使用情况，则必须转到“ [Report Suite Usage](/help/admin/c-server-call-usage/report-suite-usage.md) ”（报告包使用情况）选项卡并下载上一时间段的使用情况数据。
 
 * 列出了已使用的调用所占的百分比（使用百分数和原始数据）以及已使用的时段所占的百分比（使用百分数和原始数据）。
 * 默认情况下，此数据每日更新一次，但由于需要处理，因此会延迟 5 天。
@@ -42,4 +38,3 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 | 当前时段的使用情况（绿线） | 当前时段以[使用时段](/help/admin/c-server-call-usage/overage-overview.md)为基础。 |
 | 上一时段的使用情况（蓝线） | 上一时段是指当前使用时段的前一年。 |
 | 使用限制（红线） | 合同中规定的此使用时段内的使用限制。 |
-
