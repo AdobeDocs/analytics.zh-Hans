@@ -4,10 +4,10 @@ seo-description: 通过使用流量报表，您可以对访客与网站之间的
 seo-title: 流量
 solution: Analytics
 title: 流量
-topic: 报表
-uuid: c32af0c0-f0 c2-47f7-a5 f6-4a2 df63 e11 fc
+topic: 报告
+uuid: c32af0c0-f0c2-47f7-a5f6-4a2df63e11fc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,4 +27,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **一般持久性**
 
-在“流量源”中，所有报表值都持续存在且会获得信用，直到它们被覆盖或访问结束（以先发生为准）。以前，只有“关键词”和“反向链接域名”会持续存在。例如，如果访客用 Google 搜索&#x200B;*`DVD`*&#x200B;此报告将其带到您的网站进行100美元购买，报告将100美元信用计入关键字 *`DVD`* 以及Google搜索引擎。此功能不能变更，不管管理员如何设置。
+在“流量源”中，所有报表值都持续存在且会获得信用，直到它们被覆盖或访问结束（以先发生为准）。以前，只有“关键词”和“反向链接域名”会持续存在。例如，如果访客用 Google 搜索 *`DVD`*, which brings them to your site for a $100 purchase, the report allocates $100 credit to the keyword *`DVD`* and also to the Google search engine. 此功能不能变更，不管管理员如何设置。
