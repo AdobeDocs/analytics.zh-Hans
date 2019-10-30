@@ -1,12 +1,12 @@
 ---
 description: 这些条件决定了何时触发基于事件的规则。
-keywords: 动态标签管理；规则；创建规则；新规则；基于事件的规则；延迟链接激活；将事件处理函数直接应用于元素；冒泡；事件冒泡
+keywords: Dynamic Tag Management;规则;创建规则;新规则;基于事件的规则;延迟链接激活;将事件处理程序直接应用于元素;冒泡;事件冒泡
 seo-description: 这些条件决定了何时触发基于事件的规则。
 seo-title: 为基于事件的规则创建条件
-solution: Experience Cloud，分析，目标，动态标签管理
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 为基于事件的规则创建条件
 uuid: a847391c-5aec-4d64-8a35-388587731598
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
    ![](assets/condition-event-based.png)
 
-   有关更多信息，请参阅“Adobe 标签管理产品文档”中的[事件类型](https://marketing.adobe.com/resources/help/en_US/dtm/event_types.html)。
+   有关更多信息，请参阅 Adobe Tag Management 产品文档中的[事件类型](https://marketing.adobe.com/resources/help/zh_CN/dtm/event_types.html)。
 
 1. 根据需要启用以下选项：
 
@@ -29,7 +29,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
    | 延迟链接激活 | 在事件激活链接且希望链接延迟至事件有时间触发时启用。 |
    | 将事件处理程序直接应用于元素 | 将事件处理程序应用于特定目标元素。此设置绑定到浏览器中的事件冒泡和分层概念。 |
 
-   For example, when you click an image inside an anchor tag like `<a href="abc.html"><img src="xyz.png"/></a>`, you might expect the click to be associated with the anchor tag, because the tag is in the bubble stream. However, when you inspect the click in the developer tools, the click may actually affect only the `<img>` tag. To ensure that the event is handled correctly, associate the click with the `<img>` tag and do not depend on the browser to bubble up the click to a parent element. An event like a click can potentially bubble up to `<body>`. 请务必了解事件绑定的实际位置，并专门将其确定为目标，以确保规则正确触发。
+   例如，在单击 `<a href="abc.html"><img src="xyz.png"/></a>` 之类的锚标记中的图像时，您可能认为此点击与该锚标记相关联，因为该标记位于事件冒泡流中。但是，在开发人员工具中检查该点击时，您会发现该点击实际上可能只影响 `<img>` 标记。要确保该事件得到正确处理，应将点击与 `<img>` 标记关联，并且不要依赖浏览器将点击向上冒泡至父元素。类似于点击之类的事件可能会向上冒泡至 `<body>`。请务必了解事件绑定的实际位置，并专门将其确定为目标，以确保规则正确触发。
 
    *事件冒泡*&#x200B;是指事件首先由最内部的元素捕获和处理，然后被传播到外部元素。
 
@@ -37,7 +37,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
    ![](assets/condition-event-based2.png)
 
-   有关如何找到正确的元素标记的信息，请参阅“动态标签管理产品文档”中的[使用 CSS 选择器](https://marketing.adobe.com/resources/help/en_US/dtm/css-selector.html)。
+   有关查找正确元素标记的信息，请参阅 Dynamic Tag Management 产品文档中的[使用 CSS 选择器](https://marketing.adobe.com/resources/help/zh_CN/dtm/css-selector.html)。
 
 1. 选择并设置您希望绑定到规则的任何其他标准或条件类型。
 
