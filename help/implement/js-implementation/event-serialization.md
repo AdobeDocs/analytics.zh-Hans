@@ -2,18 +2,18 @@
 description: 事件序列化是实施措施以防止重复事件进入 Analytics 报告的过程。此过程通常发生在用户多次刷新页面、多次导航到某个特定页面，或者将网页保存到其计算机时（例如，如果客户将购买确认页面保存到其计算机，则在未实施事件序列化的情况下，每次查看该页面，都会重复计数订购和收入）。
 keywords: Analytics 实施
 seo-description: 事件序列化是实施措施以防止重复事件进入 Analytics 报告的过程。此过程通常发生在用户多次刷新页面、多次导航到某个特定页面，或者将网页保存到其计算机时（例如，如果客户将购买确认页面保存到其计算机，则在未实施事件序列化的情况下，每次查看该页面，都会重复计数订购和收入）。
-seo-title: 活动序列化概述
+seo-title: 事件序列化概述
 solution: Analytics
-title: 活动序列化概述
+title: 事件序列化概述
 topic: 开发人员和实施
-uuid: 8c7883bb-5ba4-4440-af80-c0 d1586770 c
-translation-type: tm+mt
+uuid: 8c7883bb-5ba4-4440-af80-c0d15867570c
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 活动序列化概述
+# 事件序列化概述
 
 事件序列化是实施措施以防止重复事件进入 Analytics 报告的过程。此过程通常发生在用户多次刷新页面、多次导航到某个特定页面，或者将网页保存到其计算机时（例如，如果客户将购买确认页面保存到其计算机，则在未实施事件序列化的情况下，每次查看该页面，都会重复计数订购和收入）。
 
@@ -24,9 +24,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->数据源不支持事件序列化或重复重读。
+>数据源不支持事件序列化或删除重复事件。
 
-本文档介绍了用于为“[!UICONTROL 转化]”和“[!UICONTROL 自定义]”事件实施“[!UICONTROL 事件序列化]”的过程。To use [!UICONTROL Event serialization], you must first enable it in  **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suite]** &gt; **[!UICONTROL[select report suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Success Events]** . 然后，选择要在“[!UICONTROL 独特事件记录]”列中记录哪些事件。
+本文档介绍了用于为“[!UICONTROL 转化]”和“[!UICONTROL 自定义]”事件实施“[!UICONTROL 事件序列化]”的过程。要使用[!UICONTROL 事件序列化]，您必须先在&#x200B;**[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]** &gt; **[!UICONTROL [选择报表包]]** &gt; **[!UICONTROL 编辑设置]** &gt; **]成功事件**[!UICONTROL 中启用事件序列化。然后，选择要在“[!UICONTROL 独特事件记录]”列中记录哪些事件。
 
 ## 默认行为 {#section_892BB2BEFC434B69869D4504A8B54308}
 
@@ -38,7 +38,7 @@ event_serialization_impl.xml
 
  -->
 
-To use [!UICONTROL Event serialization], you must first enable it in  **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suite]** &gt; **[!UICONTROL[select report suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Success Events]** . 然后，选择要在“[!UICONTROL 独特事件记录]”列中记录哪些事件。可以将事件设置为三个不同的设置。
+要使用[!UICONTROL 事件序列化]，您必须先在&#x200B;**[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]** &gt; **[!UICONTROL [选择报表包]]** &gt; **[!UICONTROL 编辑设置]** &gt; **]成功事件**[!UICONTROL 中启用事件序列化。然后，选择要在“[!UICONTROL 独特事件记录]”列中记录哪些事件。可以将事件设置为三个不同的设置。
 
 **始终记录事件**：这是所有事件最初启用时的默认行为。图像请求中包括的所有事件（包括页面重新载入）将会直接发送到 Analytics。
 
@@ -81,4 +81,4 @@ To use [!UICONTROL Event serialization], you must first enable it in  **[!UICONT
 
 [!DNL Analytics] 的一项功能是允许某个事件在每次访问时只触发一次。
 
-This can be enabled from the UI:  **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suite]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Success Events]** .
+可以通过 UI 启用该功能：**[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]** &gt; **[!UICONTROL 编辑设置]** &gt; **[!UICONTROL 转化]** &gt; **[!UICONTROL 成功事件]**。
