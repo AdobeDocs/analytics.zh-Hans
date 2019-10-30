@@ -7,8 +7,8 @@ solution: Analytics
 title: getLoadTime
 topic: 开发人员和实施
 uuid: 5d26a69b-cbde-4be1-bac1-5ee8a4e55ca3
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,9 +19,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 要使用此插件，可以插入函数代码，然后在 [!DNL s_code.js] 文件中调用该函数两次。第一次在文件开头调用，然后在 `doPlugins` 部分再调用一次。此插件有意没有定义为 s 对象的方法。执行此操作可能会增加计算的页面加载时间。
 
->[!NOTE]
->
->下面的说明需要您更改网站上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
+> [!NOTE]下面的说明需要您更改网站上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
 
 ## 插件代码和实施 {#section_968AC379C3004C359A85AFED5A48D5AE}
 
@@ -55,7 +53,7 @@ if(s_getLoadTime())s.events=s.apl(s.events,'event90='+s_getLoadTime(),',',1);
 
 **（可选）添加对较旧浏览器的支持**
 
-要支持不提供 [window.performance.timing](https://www.html5rocks.com/en/tutorials/webperformance/basics/) 属性的较旧浏览器，请将以下行加入页面 HTML 的“标题”部分开头附近，同时需要在调用 .js、.css 或其他文件之前完成：
+要支持不提供 [window.performance.timing](https://www.html5rocks.com/en/tutorials/webperformance/basics/) 属性的较旧浏览器，请将以下行加入页面 HTML 的 HEAD 部分开头附近，同时需要在调用 .js、.css 或其他文件之前完成：
 
 ```
 <script type="text/javascript">var inHeadTS=(new Date()).getTime();</script>
