@@ -8,7 +8,7 @@ title: 营销渠道中的分类
 topic: Reports and Analytics
 uuid: 8b31cff5-36a6-4072-b0f9-f932dc890a87
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 Classifications that you add in this procedure display in the [!UICONTROL Marketing Channel Overview] report as [!UICONTROL Channel Values]. 渠道值在渠道详细信息中未进行分类。
 
->[!NOTE]
->
->Ensure that you are familiar with creating classifications in [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) in Analytics Reference help.
+> [!NOTE] 确保您熟悉在“分析参考”帮助的“分 [类](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) ”中创建分类。
 
 >[!IMPORTANT]
 >
