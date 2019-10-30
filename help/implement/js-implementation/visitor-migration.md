@@ -7,8 +7,8 @@ solution: Analytics
 title: 访客迁移
 topic: 开发人员和实施
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
-translation-type: ht
-source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,11 +19,11 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
 
 通过访客迁移可以在更改数据收集域时保留访客识别 Cookie。数据收集域可能由于以下原因发生更改：
 
-* 正在从 `2o7.net` 移动到 `omtrdc.net`（[地区数据收集](https://marketing.adobe.com/resources/help/zh_CN/whitepapers/rdc/)）。
+* Moving from `2o7.net` to `omtrdc.net` ( [Regional Data Collection](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/)).
 
-* 您正在实施 [Experience Cloud 访客 ID 服务](https://marketing.adobe.com/resources/help/zh_CN/mcvid/)，并且正在从 CNAME/第一方数据收集域移动到 `2o7.net` 或 `omtrdc.net`（[地区数据收集](https://marketing.adobe.com/resources/help/zh_CN/whitepapers/rdc/)）
+* You are implementing the [Experience Cloud Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/) and are moving from a CNAME/first-party data collection domain to `2o7.net` or `omtrdc.net` ( [Regional Data Collection](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/))
 
-* 正在从 `2o7.net` 或 `omtrdc.net` 移动到 CNAME/第一方数据收集（[第一方 Cookie）](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/)。
+* Moving from `2o7.net` or `omtrdc.net` to a cname/first-party data collection ( [First-Party Cookies)](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/).
 
 * 在 CNAME 之间转移（更改域）。
 
@@ -42,7 +42,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>开始：</b> <a href="https://helpx.adobe.com/cn/marketing-cloud/contact-support.html" format="http" scope="external">联系客户关怀</a>，告知您要迁移的域以及希望启用的迁移周期（30、60 或 90 天）。请务必加入非安全和安全域。 </p> </td> 
+   <td colname="col1"> <p> <b>开始：</b> <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="http" scope="external">联系客户关怀</a>，告知您要迁移的域以及希望启用的迁移周期（30、60 或 90 天）。请务必加入非安全和安全域。 </p> </td> 
    <td colname="col3"> <p>使用 <i>exact</i> 语法创建一个列表，包含您希望作为迁移源或迁移目标的域。 </p> 
     <ul id="ul_067EC5C7619141A6BDFBC209C9FD47E2"> 
      <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metrics.example.com </li> 
@@ -50,7 +50,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
     </ul> <p>迁移主机名在 Adobe Data 收集服务器上配置。客户关怀会告知您何时进行更改，以便您为下一步做好计划。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>在完成配置更改的 6 小时后</b>：更新您的 Analytics JavaScript 代码中的 <code>s.trackingServer</code> 和 <code>s.trackingServerSecure</code> 变量，从而使用新的数据收集服务器。 </p> </td> 
+   <td colname="col1"> <p> <b>在完成配置更改的 6 小时后</b>：更新您的 Analytics JavaScript 代码中的 <code> s.trackingServer</code> 和 <code> s.trackingServerSecure</code> 变量，从而使用新的数据收集服务器。 </p> </td> 
    <td colname="col3"> <p>进行此更改后，请使用<a href="../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258" format="dita" scope="local">数据包分析程序</a>来验证 Analtyics 图像请求是否被发送到更新后的数据收集服务器。 </p> </td> 
   </tr> 
   <tr> 
