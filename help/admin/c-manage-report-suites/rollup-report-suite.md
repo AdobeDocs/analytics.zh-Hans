@@ -1,18 +1,18 @@
 ---
 description: 汇总报表包综合了多个子报表包的数据，并将其显示在汇总的数据集中。
 seo-description: 汇总报表包综合了多个子报表包的数据，并将其显示在汇总的数据集中。
-seo-title: 汇总和全局报告套件
+seo-title: 汇总报表包和全局报表包
 solution: Analytics
-title: 汇总和全局报告套件
+title: 汇总报表包和全局报表包
 topic: 管理工具
-uuid: c90b8e38-2c95-4318-8165-a362106 b6142
+uuid: c90b8e38-2c95-4318-8165-a362106b6142
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 汇总和全局报告套件
+# 汇总报表包和全局报表包
 
 汇总报表包综合了多个子报表包的数据，并将其显示在汇总的数据集中。
 
