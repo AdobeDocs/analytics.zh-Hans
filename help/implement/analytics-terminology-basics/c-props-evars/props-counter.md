@@ -7,8 +7,8 @@ solution: Analytics
 title: 将 prop 用作计数器
 topic: 开发人员和实施
 uuid: ab83bd7e-10d9-49f9-b9e7-c50397e95c17
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,13 +29,9 @@ s.prop1="RealPlayer"
 s.prop1="WindowsMP"
 ```
 
->[!NOTE]
->
->Adobe 提供了多达 75 个 [!UICONTROL s.prop] 变量供您使用。
+> [!NOTE]Adobe 提供了多达 75 个 [!UICONTROL s.prop] 变量供您使用。
 
 在访客来到您的网站，并访问包含 Real Player 或 Windows Media Player 的页面时，[!DNL Analytics] 能够根据他们访问的页面划分用户区段。然后，[!UICONTROL 自定义流量]报表显示每个页面的访问次数。
 
->[!NOTE]
->
->可定制[!UICONTROL 自定义流量]报表的名称。例如，可以将[!UICONTROL 自定义流量]报表重命名为“Player Types Report”。
+> [!NOTE]可定制[!UICONTROL 自定义流量]报表的名称。例如，可以将[!UICONTROL 自定义流量]报表重命名为“Player Types Report”。
 
