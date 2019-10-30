@@ -5,7 +5,7 @@ seo-title: 在 Analysis Workspace 中使用归因 IQ
 title: 在 Analysis Workspace 中使用归因 IQ
 uuid: 99fc91b6-eebe-4a60-bb82-64a7611a04c6
 translation-type: tm+mt
-source-git-commit: 989568079f301a99a744e06b9de3d8636b3686a1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,13 +28,13 @@ Analysis Workspace 自由格式表支持几乎可用于所有量度的归因模�
 
 ## Apply attribution models to breakdowns {#section_ED1E7532CF084B5AB0942BD80B4770C9}
 
-自由格式表中的任何划分也可以应用任何归因模型，此归因模型可以与父列相同，也可以不同。例如，您可能想要对“营销渠道”维度上的线性订单进行分析，但同时也想将 U 型订单应用于渠道中的特定跟踪代码。要编辑已应用于划分的归因模型，只需将鼠标悬停在划分模型上，然后单击“编辑”：
+自由格式表中的任何划分也可以应用任何归因模型，此归因模型可以与父列相同，也可以不同。例如，您可能想要对“营销渠道”维度上的线性订单进行分析，但同时也想将 U 型订单应用于渠道中的特定跟踪代码。要编辑应用于细分的归因模型，只需将鼠标悬停在细分模型上并单击“编辑”:
 
 ![](assets/breakdown_settings.png)
 
 ## Compare one attribution model to another {#section_1D74C09549CC4EC8A952A7392C76D375}
 
-If you’d like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Add comparative attribution model]**:
+If you'd like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Add comparative attribution model]**:
 
 ![](assets/Comparative_Attribution_Model.png)
 
@@ -69,4 +69,4 @@ If you’d like to quickly and easily compare one attribution model to another, 
 | 维度重叠图 | 这是一个维恩图，显示了前三个维度项目（例如渠道）以及它们共同参与转化的频率。例如，气泡重叠的大小表示当访客处于两个维度项目（例如渠道）时发生转化的频率。如果在自由格式表中选择其他行，则会更新可视化图表以反映所选内容。 |
 | 每个历程的营销接触点 | 这是一个直方图，指示访客在报表日期范围内的营销（或任何维度）接触点数量。这有助于了解多接触点归因对数据集的影响程度。如果几乎所有的访客都只有一个接触点，则在结果上，不同的归因模型之间不会有很大的差异。 |
 | 营销渠道效果详细信息 | 允许您使用散点图直观地对最多三个归因模型进行比较。 |
-| 营销渠道流量 | 让您可以了解哪些是最常交互的渠道，以及这些渠道在访客历程中的顺序。 |
+| 营销渠道流量 | 让您了解最常与哪些渠道互动以及访客旅程中的顺序。 |
