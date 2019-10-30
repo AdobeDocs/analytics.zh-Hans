@@ -1,18 +1,18 @@
 ---
 description: 您可以通过从工作表中选择包含请求的单元格来指定日期范围。Report Builder 使用这些请求中的特定日期范围信息。如果选择今天的日期，那么您只能基于请求在今天的运行时间看到部分数据。
 seo-description: 您可以通过从工作表中选择包含请求的单元格来指定日期范围。Report Builder 使用这些请求中的特定日期范围信息。如果选择今天的日期，那么您只能基于请求在今天的运行时间看到部分数据。
-seo-title: 来自单元格的日期
+seo-title: 单元格中的日期
 solution: Analytics
-title: 来自单元格的日期
+title: 单元格中的日期
 topic: Report Builder
-uuid: 0d9bf08d-d39 d-4f37-94f1-232da0813245
+uuid: 0d9bf08d-d39d-4f37-94f1-232da0813245
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 来自单元格的日期
+# 单元格中的日期
 
 您可以通过从工作表中选择包含请求的单元格来指定日期范围。Report Builder 使用这些请求中的特定日期范围信息。如果选择今天的日期，那么您只能基于请求在今天的运行时间看到部分数据。
 
