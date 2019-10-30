@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Adobe Campaign报告
-title: Adobe Campaign报告
+seo-title: Adobe Campaign 报告
+title: Adobe Campaign 报告
 uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Adobe Campaign报告
+# Adobe Campaign 报告
 
 有关如何配置此集成的更多信息，请参阅 [Adobe Campaign 文档](https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-analytics-integration.html)。
 
@@ -54,12 +54,12 @@ The integration between Adobe Campaign Standard and Adobe Analytics adds the fol
 
 ## 步骤 3. 使用 Adobe Campaign 分类 {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
-**[!UICONTROL “分析]** ”&gt; **[!UICONTROL “管理员]** ”&gt; **[!UICONTROL “报告包]** ”&gt; **[!UICONTROL <select report suite>]** &gt;“ **[!UICONTROL 编辑设置]** ”&gt; **[!UICONTROL “Adobe Campaign]** ”&gt; **[!UICONTROL “Adobe Campaign分类”]**
+**[!UICONTROL Analytics]** Admin **[!UICONTROL &gt; Report Report Suites &gt;]** &gt; **[!UICONTROL &gt; “Edit Campaign Suites]** ” &gt; “Adobe Campaign Campaign **[!UICONTROL <select report suite>]************[!UICONTROL ”&gt;“Adobe Campaign Classifications”分类]**
 
 在为您的报表包启用了 Adobe Campaign 后，可以使用以下分类：
 
 * 提交 ID（您在 Campaign 中看到的内部提交名称）
-* 交付标签((营销活动中的分发-单独交付/重复交付/交易交付)
+* 交付标签（营销活动中的交付——单个交付／重复交付／事务处理交付）
 * 促销活动 ID（您在 Campaign 中看到的促销活动名称）
 * 促销活动标签（Adobe Campaign 中的促销活动）
 * 执行的提交标签（执行的各个提交的列表）
