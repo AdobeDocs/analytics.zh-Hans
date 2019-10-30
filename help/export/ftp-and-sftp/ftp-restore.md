@@ -1,18 +1,18 @@
 ---
 description: Adobe 无法恢复任何已从 FTP 帐户中删除的数据。
-keywords: ftp；sftp
+keywords: ftp;sftp
 seo-description: Adobe 无法恢复任何已从 FTP 帐户中删除的数据。
-seo-title: 恢复已删除的FTP数据和FTP帐户
+seo-title: 恢复已删除的 FTP 数据和 FTP 帐户
 solution: Analytics
-title: 恢复已删除的FTP数据和FTP帐户
-uuid: 79床9e4-c84 f-468f-a33 e51 c51 b2 d16 da
+title: 恢复已删除的 FTP 数据和 FTP 帐户
+uuid: 79bed9e4-c84f-468f-a33e-55c51b2d16da
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 恢复已删除的FTP数据和FTP帐户
+# 恢复已删除的 FTP 数据和 FTP 帐户
 
 Adobe 无法恢复任何已从 FTP 帐户中删除的数据。
 
