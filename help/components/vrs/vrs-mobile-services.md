@@ -1,20 +1,20 @@
 ---
 description: Adobe Mobile Services UI 将Adobe Analytics 报表包中的数据与发送推送通知和生成应用程序内消息的功能结合了起来。
 seo-description: Adobe Mobile Services UI 将Adobe Analytics 报表包中的数据与发送推送通知和生成应用程序内消息的功能结合了起来。
-seo-title: 移动服务中的VRS支持
-title: 移动服务中的VRS支持
-uuid: 1b11279e-d0 d8-48c5 b5-8020d5 ed39 da
+seo-title: Mobile Services 中的 VRS 支持
+title: Mobile Services 中的 VRS 支持
+uuid: 1b11279e-d0d8-48c5-a5b5-8020d5ed39da
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 移动服务中的VRS支持
+# Mobile Services 中的 VRS 支持
 
 Adobe Mobile Services UI 将Adobe Analytics 报表包中的数据与发送推送通知和生成应用程序内消息的功能结合了起来。
 
-## VRS support in Mobile Services {#topic_1D0BABFA64EF42DE9C09B7AA37CACEC5}
+## Mobile Services 中的 VRS 支持 {#topic_1D0BABFA64EF42DE9C09B7AA37CACEC5}
 
 Adobe Mobile Services UI 将Adobe Analytics 报表包中的数据与发送推送通知和生成应用程序内消息的功能结合了起来。
 
