@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: “服务器调用使用情况”概述
 title: “服务器调用使用情况”概述
-uuid: 6e014364-efc1-4769-a0 b5-cf105 c0 ed9 b1
+uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 Adobe Analytics“服务器调用使用情况”功能可根据您的请求为您提供透明的浏览器及移动设备服务器调用使用情况数据。此功能允许您访问以下项：
 
 * “服务器调用使用情况”功能板，可跟踪服务器调用使用情况数据，并将其与合同中的使用限制进行比较。（**[!UICONTROL Analytics &gt; 管理员 &gt; 服务器调用使用情况]**）
-* A Server Call Usage alert type in the Alert Builder that lets you set up alerts to prevent overages (**[!UICONTROL Analytics &gt; Components &gt;Alerts]**)
+* 警报生成器中的“服务器调用使用情况”警报类型，用于设置警报以防止超量(“**[!UICONTROL 分析”&gt;“组件”&gt;“警报]**”)
 
 “服务器调用使用情况”功能主要具有以下优点：
 
@@ -29,7 +29,7 @@ Previously, while you could access monthly server call consumption data under  *
 ## 先决条件 {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
 * **权限**：要访问“服务器调用使用情况”功能板和“警报生成器/管理器”，您必须是 Adobe Analytics 管理员。
-* **权限**：管理员可以授予对非管理员管理员的访问权限：权限称为 **[!UICONTROL 服务器调用使用]**&#x200B;情况。请参阅[“服务器调用使用情况”权限](../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
+* **权限**:管理员可以授予非管理员访问权限：该权限称为“服 **[!UICONTROL 务器调用使用情况”]**。 请参阅[“服务器调用使用情况”权限](../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
 
 ## 重要术语 {#section_CBA348A039F34563B097CD8890AB358D}
 
@@ -45,7 +45,7 @@ Previously, while you could access monthly server call consumption data under  *
  <tbody> 
   <tr> 
    <td colname="col1"> <p>服务器调用 </p> </td> 
-   <td colname="col2"> <p>服务器调用又称为“点击”或“图像请求”，它是一种将数据发送到 Adobe 服务器进行处理的实例。最常见的服务器调用类型是页面查看。当访客查看网站上的页面并将服务器调用生成给Adobe时，会发生页面查看，其中会收集、处理和包含报告量度中的信息。 </p> <p>其他类型的服务器调用包括退出链接和文件下载，在这些服务器调用中，数据会被发送到 Adobe 进行处理，但不会被记录为新的页面查看。甚至“被排除的”页面查看（例如，按您配置的 IP 地址范围从报表中排除的页面查看）也属于服务器调用，因为 Adobe 将会接收并处理这些页面查看，但不会在您的报表中显示它们。 </p> <p><b>主服务器调用</b>：直接从网站访客浏览器或数据插入 API 接收到的请求。包括主要点击（页面查看次数）、主要自定义事件、主要下载事件和主要退出事件。 </p> <p><b>次级服务器调用</b>：由多报表包标记创建或由 VISTA 规则复制/移动的主服务器调用的副本。如果次级服务器调用由 VISTA 规则移动（不是复制）到了另一个报表包，则会从主服务器调用数中减去次级服务器调用的累计调用数。 </p> <p><b>移动设备主服务器调用</b> </p> <p>直接从某个Mobile SDK收到的请求。包括trackAction、trackState、TrackApp Crash、trackActionFromBackground、trackLocation、TrackOcland、TrackPushMessageClickthrough、trackTimeactionBackLog、trackLiveTimeValueHend。</p> <p><b>移动设备次级服务器调用</b> </p> <p>由多报表包标记创建或由 VISTA 规则复制/移动的主服务器调用的副本。如果次级服务器调用由 VISTA 规则移动（不是复制）到了另一个报表包，则会从主服务器调用数中减去次级服务器调用的累计调用数。 </p> <p>注意：如果按合同规定贵公司仅有权使用移动设备服务器调用（主调用或次级调用），则会按特定于移动设备的承诺使用量来计算特定于 Web 及移动设备的调用使用量。 </p> </td> 
+   <td colname="col2"> <p>服务器调用又称为“点击”或“图像请求”，它是一种将数据发送到 Adobe 服务器进行处理的实例。最常见的服务器调用类型是页面查看。在页面查看中，访客查看您网站上的页面，并向Adobe生成服务器调用，在Adobe中收集、处理信息，然后将其包含在您的报告指标中。 </p> <p>其他类型的服务器调用包括退出链接和文件下载，在这些服务器调用中，数据会被发送到 Adobe 进行处理，但不会被记录为新的页面查看。甚至“被排除的”页面查看（例如，按您配置的 IP 地址范围从报表中排除的页面查看）也属于服务器调用，因为 Adobe 将会接收并处理这些页面查看，但不会在您的报表中显示它们。 </p> <p><b>主服务器调用</b>：直接从网站访客浏览器或数据插入 API 接收到的请求。包括主要点击（页面查看次数）、主要自定义事件、主要下载事件和主要退出事件。 </p> <p><b>次级服务器调用</b>：由多报表包标记创建或由 VISTA 规则复制/移动的主服务器调用的副本。如果次级服务器调用由 VISTA 规则移动（不是复制）到了另一个报表包，则会从主服务器调用数中减去次级服务器调用的累计调用数。 </p> <p><b>移动设备主服务器调用</b> </p> <p>直接从某个移动SDK接收请求。 包括trackAction、trackState、trackApp崩溃、trackActionFromBackground、trackLocation、trackBeacon、trackPushMessageClickThrough、trackTimedActionBacklog、trackLifetimeValueIncrease。</p> <p><b>移动设备次级服务器调用</b> </p> <p>由多报表包标记创建或由 VISTA 规则复制/移动的主服务器调用的副本。如果次级服务器调用由 VISTA 规则移动（不是复制）到了另一个报表包，则会从主服务器调用数中减去次级服务器调用的累计调用数。 </p> <p>注意：如果按合同规定贵公司仅有权使用移动设备服务器调用（主调用或次级调用），则会按特定于移动设备的承诺使用量来计算特定于 Web 及移动设备的调用使用量。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>账单公司（账单 ID） </p> </td> 
@@ -63,7 +63,7 @@ Previously, while you could access monthly server call consumption data under  *
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud 组织 </p> </td> 
-   <td colname="col2"> <p>“组织”是一个实体，它允许管理员配置群组和用户，并控制 Experience Cloud 中的单点登录。该组织的职能类似于跨越所有Experience Cloud产品和解决方案的登录公司。 </p> <p>大多数情况下，组织即是您的公司名称。但是，公司可以具有多个组织。 </p> </td> 
+   <td colname="col2"> <p>“组织”是一个实体，它允许管理员配置群组和用户，并控制 Experience Cloud 中的单点登录。组织的功能类似于跨所有Experience cloud产品和解决方案的登录公司。 </p> <p>大多数情况下，组织即是您的公司名称。但是，公司可以具有多个组织。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>服务器调用使用承诺 </p> </td> 
@@ -75,7 +75,7 @@ Previously, while you could access monthly server call consumption data under  *
   </tr> 
   <tr> 
    <td colname="col1"> <p>合同期限 </p> </td> 
-   <td colname="col2"> <p>合同期限可以长达多年。假如贵公司承诺在 3 年合同期内实施 6 百万次服务器调用。为了实现服务器调用使用监控，此三年期可分为较低的使用期限，以便于逐年比较。 </p> </td> 
+   <td colname="col2"> <p>合同期限可以长达多年。假如贵公司承诺在 3 年合同期内实施 6 百万次服务器调用。为了监控服务器调用的使用情况，可将此3年期间细分为较短的使用期，以便于进行年度比较。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,9 +84,7 @@ Previously, while you could access monthly server call consumption data under  *
 
 “服务器调用使用情况”权限会自动授予 Analytics 管理员。此权限允许用户访问该功能板和创建服务器调用警报。管理员可以选择向非管理员用户授予此权限。
 
->[!NOTE]
->
->您的公司可以选择哪些登录公司有权访问服务器调用使用。
+> [!NOTE] 您的公司可以选择哪些登录公司有权访问服务器调用使用情况。
 
 <table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
  <thead> 
@@ -106,7 +104,7 @@ Previously, while you could access monthly server call consumption data under  *
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
-     <li id="li_56FF685A3B454ECEA5F16BB591A60034">登录到login. experiencecloud. adobe. com。</li> 
+     <li id="li_56FF685A3B454ECEA5F16BB591A60034">登录login.experiencecloud.adobe.com。</li> 
      <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">单击 <span class="uicontrol">Analytics</span>。 </li> 
      <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">导航到<span class="ignoretag"><span class="uicontrol">产品</span> &gt; <span class="uicontrol">产品配置文件</span> &gt; <span class="uicontrol">权限</span> &gt; <span class="uicontrol">Analytics 工具</span> &gt; <span class="uicontrol">服务器调用使用情况 </span> </span> </li> 
     </ol> </td> 
