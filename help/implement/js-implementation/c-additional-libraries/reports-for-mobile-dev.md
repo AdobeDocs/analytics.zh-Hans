@@ -1,19 +1,19 @@
 ---
 description: 由于移动设备是通过信标进行跟踪的，因此和其他访客一样，大部分报表都是可用和正确的。
-keywords: Analytics实施；报告；移动协议；搜索引擎；搜索关键字；引用域；引介；地域划分；域；连接类型；时区；cookies；java；javascript；监视颜色；显示器分辨率；浏览器宽度；高度；netscape插件
+keywords: Analytics 实施;报表;移动协议;搜索引擎;搜索关键字;反向链接域;反向链接;地域划分;域;连接类型;时区;cookie;java;javascript;显示器颜色;显示器分辨率;浏览器宽度;高度;netscape 插件
 seo-description: 由于移动设备是通过信标进行跟踪的，因此和其他访客一样，大部分报表都是可用和正确的。
-seo-title: 使用移动协议的设备报告
+seo-title: 使用移动协议的设备报表
 solution: Analytics
-title: 使用移动协议的设备报告
+title: 使用移动协议的设备报表
 topic: 开发人员和实施
-uuid: aab125d-c131-4402-9bc8-1c7 fd1 bb1 bb
-translation-type: tm+mt
+uuid: 4aab125d-c131-4402-9bc8-1c7fd1bb2bee
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 使用移动协议的设备报告
+# 使用移动协议的设备报表
 
 由于移动设备是通过信标进行跟踪的，因此和其他访客一样，大部分报表都是可用和正确的。
 
@@ -23,7 +23,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 只有在从移动页面发送的图像请求中填充了反向链接时，这些报表才会有数据。按照“在不使用 JavaScript 的情况下实施”白皮书中所述，反向链接通过“r”查询字符串参数填充。还必须手动将反向链接信息传递到图像请求中。
 
-“r”查询字符串参数必须包含反向链接协议。如果不使用协议，则不会填充反向链接报表。`r=https://msn.com``r=msn.com`例如，不使用。
+“r”查询字符串参数必须包含反向链接协议。如果不使用协议，则不会填充反向链接报表。例如，使用 `r=https://msn.com`，而不使用 `r=msn.com`。
 
 ## 地域划分和域名 {#section_2B4E9443AAFE4ECA961F9E993592E628}
 
