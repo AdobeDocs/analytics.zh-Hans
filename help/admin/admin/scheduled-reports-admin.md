@@ -1,22 +1,22 @@
 ---
 description: 让管理员级别的用户能够跨组织查看和管理计划报表。
 seo-description: 让管理员级别的用户能够跨组织查看和管理计划报表。
-seo-title: 计划报告队列
+seo-title: 计划报表队列
 solution: Analytics
-title: 计划报告队列
-topic: 报表
-uuid: fcf92d3-a472-465f-ad7 a-c48 cd9 a8238 b
+title: 计划报表队列
+topic: 报告
+uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 计划报告队列
+# 计划报表队列
 
 让管理员级别的用户能够跨组织查看和管理计划报表。
 
-**[!UICONTROL “分析]** ”&gt; **[!UICONTROL “组件]** ”&gt; **[!UICONTROL “计划报表”]**
+**[!UICONTROL Analytics]** &gt;组 **[!UICONTROL 件]** &gt;计 **[!UICONTROL 划报告]**
 
 计划报表管理器中的管理员级别功能包括：
 
@@ -29,9 +29,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 在&#x200B;**[!UICONTROL 报表列表]**&#x200B;选项卡中，除了个人计划的报表之外，您还可以在您的组织内&#x200B;**显示所有计划报表[!UICONTROL 。]**
 
->[!NOTE]
->
->**[!UICONTROL “报告名称]** ”列显示正在计划的报告名称，“ **[!UICONTROL 文件名”]** 列显示您在高级交付选项中设置的任何自定义文件名。因此，如果您计划具有相同报表类型的多个报表，并为每个报表指定自定义名称，则“计划报表管理器”会显示具有相同报表名称和不同文件名称的多个条目。这是因为正在计划的后端报表是相同的，因此报表名称列对于几乎完全自定义的文件名称显示相同的报表名称（如有设置）。
+> [!NOTE] “报 **[!UICONTROL 告名称]****** ”列显示正在计划的报告的名称，“文件名”列显示您在“高级提交选项”中设置的任何自定义文件名。 因此，如果您计划具有相同报表类型的多个报表，并为每个报表指定自定义名称，则“计划报表管理器”会显示具有相同报表名称和不同文件名称的多个条目。这是因为正在计划的后端报表是相同的，因此报表名称列对于几乎完全自定义的文件名称显示相同的报表名称（如有设置）。
 
 ![](assets/show_all_scheduled_reports.png)
 
