@@ -5,9 +5,9 @@ seo-title: 帐单
 solution: Analytics
 title: 帐单
 topic: 管理工具
-uuid: ad6ee1c4-d317-4320-a36 e-ee966 c8 f145 e
+uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 使用“帐单”页可以访问帐单信息，包括每个报表包的流量详情。只有经授权的管理员才有权访问此页面。
 
->[!NOTE]
->
->如果您的公司禁用了对账单选项卡的访问权限，请联系您的客户经理。
+> [!NOTE] 如果您的公司禁用了对帐单标签页的访问，请与您的客户经理联系。
 
 使用帐单页面中的流量概要数据可将报表中的页面查看数据与您的发票上的计费服务器调用次数关联起来。使用“[!UICONTROL 帐单]”页面可执行以下操作：
 
@@ -42,11 +40,9 @@ To view monthly traffic overview data, locate the month where you want to view t
 | 页面查看次数 | 每个报表包的页面查看总数。可以在网站量度 &gt; 页面查看中确认页面查看值。 |
 | 下载 | 每个报表包的下载总数。可以在网站内容 &gt; 链接 &gt; 文件下载中确认下载值。 |
 | 自定义链接 | 每个报表包的自定义链接总数。可以在网站内容 &gt; 链接 &gt; 自定义链接中确认自定义链接值。 |
-| 退出链接 | 每个报表包的退出链接总数。可以在网站内容 &gt; 链接 &gt; 退出链接中确认退出链接值。 |
+| 退出链接  | 每个报表包的退出链接总数。可以在网站内容 &gt; 链接 &gt; 退出链接中确认退出链接值。 |
 
->[!NOTE]
->
->To obtain a working copy of the [!UICONTROL Monthly Invoice] report, copy it onto your clipboard, then paste it into a spreadsheet program such as Microsoft Excel*.
+> [!NOTE] 要获取每月发票报表的工 [!UICONTROL 作副本] ，请将其复制到剪贴板，然后将其粘贴到电子表格程序（如Microsoft Excel*）中。
 
 ## 报告日期与处理日期 {#section_51A48C2F223F4904BE1407C13333C457}
 
