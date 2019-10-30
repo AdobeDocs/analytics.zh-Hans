@@ -8,8 +8,8 @@ subtopic: 变量
 title: 变量和限制
 topic: 开发人员和实施
 uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 变量及其限制概览。
 
->[!NOTE]
->
->请参阅[配置变量](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00)和[页面变量](../../../implement/js-implementation/c-variables/page-variables.md#concept_37933DFF2FC547A0A3B296D5E646B6A3)，以深入了解最常见的 Analytics 变量。
+> [!NOTE]请参阅[配置变量](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00)和[页面变量](../../../implement/js-implementation/c-variables/page-variables.md#concept_37933DFF2FC547A0A3B296D5E646B6A3)，以深入了解最常见的 Analytics 变量。
 
 下面的表格提供了有关 [!DNL Analytics] 变量的概览信息：
 
@@ -55,9 +53,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | linkExternalFilters | 如果您的网站包含许多指向外部网站的链接，并且您不希望跟踪所有退出链接，则可使用&#x200B;*`linkExternalFilters`*&#x200B;报告退出链接的特定子集。 |
 | linkInternalFilters | 确定网站上的哪些链接是退出链接。它是以逗号隔开的过滤器列表，显示属于网站一部分的链接。 |
 | linkLeaveQueryString | 确定[!UICONTROL 退出链接]和[!UICONTROL 文件下载]报表中是否应包含查询字符串。 |
-| linkName | 用于[!UICONTROL 链接跟踪]的可选变量，可确定自定义链接、下载链接或退出链接的名称。此 *`linkName`* 变量通常不是必需的变量，因为可用 *`tl()`* 函数的第三个参数替换它。 |
-| linkTrackEvents | 包含应随自定义、下载和退出链接一起发送的事件。只有当&#x200B;*`linkTrackVars`*&#x200B;中包含“events”时才需考虑此变量。 |
-| linkTrackVars | 一种将随自定义、退出和下载链接一起发送的变量的逗号分隔列表。如果&#x200B;*`linkTrackVars`*&#x200B;设置为 ""，则所有含值的变量都将随链接数据一起发送。 |
+| linkName | 用于[!UICONTROL 链接跟踪]的可选变量，可确定自定义链接、下载链接或退出链接的名称。*`linkName`* 变量通常不是必需的变量，因为可用 *`tl()`* 函数的第三个参数替换它。 |
+| linkTrackEvents | 包含应随自定义、下载和退出链接一起发送的事件。仅当 *`linkTrackVars`* 包含“events”时，才考虑使用此变量。 |
+| linkTrackVars | 一种将随自定义、退出和下载链接一起发送的变量的逗号分隔列表。如果 *`linkTrackVars`* 设置为“”，则所有有值的变量将与链接数据一起发送。 |
 | linkType | 链接跟踪中使用的可选变量，可以确定要显示“链接名称”或 URL 的报表（自定义、下载或退出链接）。*`linkType`* 通常不是必需的变量，因为可用 *`tl()`* 函数中的第二个参数替换它。 |
 | mediaLength | 指定正在播放的媒体的总长度。 |
 | mediaName | 指定视频或媒体项目的名称。此变量只能通过[!UICONTROL 数据插入 API] 和[!UICONTROL 完全处理数据源]来使用。 |
@@ -65,13 +63,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | mediaSession | 指定所播放视频或媒体资产的区段。 |
 | Media.trackEvents | 会确定点击媒体时应发送哪些事件。此变量仅适用于 JavaScript 和 [!UICONTROL ActionSource]。 |
 | Media.trackVars | 确定点击媒体时应发送哪些变量。此变量仅适用于 JavaScript 和 [!UICONTROL ActionSource]。 |
-| mobile | 控制使用 Cookie 和订户 id 确定访客的订单。 |
+| 移动设备 | 控制使用 Cookie 和订户 id 确定访客的订单。 |
 | s_objectID | 一种全局变量，应在链接的 [!UICONTROL onClick] 事件中设置。通过为链接或页面的链接位置创建唯一对象 ID，可改善访客点击图跟踪或使用访客点击图报告链接类型或位置，而非链接 URL。 |
 | pageName | 包含网站中每个页面的名称。如果&#x200B;*`pageName`*&#x200B;为空，则在 [!DNL Analytics] 中使用 URL 表示页面名称。 |
 | pageType | 仅用于指定 404（页面未找到）错误页面。该变量只有一个可能值：errorPage。在 404 错误页面上，*`pageName`*&#x200B;变量不应被填充。 |
 | pageUrl | 在少数情况下，页面的 URL 不是您想在 [!DNL Analytics] 中报告的 URL。为了适应这些情况，[!DNL Analytics] 提供了 *`pageURL`* 变量，该变量将覆盖页面的实际 URL。 |
-| 插件 | 在 Netscape 和基于 Mozilla 的浏览器上，列出浏览器中安装的插件。 |
-| products | 用于跟踪产品和产品类别及购买数量和购买价格。*`products`*&#x200B;变量应始终结合成功事件进行设置。或者，*`products`* 变量可以选择跟踪自定义数值和货币事件及[!UICONTROL 促销] eVar。 |
+| plugins | 在 Netscape 和基于 Mozilla 的浏览器上，列出浏览器中安装的插件。 |
+| 产品 | 用于跟踪产品和产品类别及购买数量和购买价格。The *`products`*&#x200B;变量应始终结合成功事件进行设置。或者，*`products`* 变量可以选择跟踪自定义数值和货币事件及[!UICONTROL 促销] eVar。 |
 | propN | 用于在 [!DNL Analytics][!UICONTROL  流量模块]中生成自定义报表。[!UICONTROL prop] 可用作计数器(计数页面查看的发送次数），在路径报表或关联报表中使用。 |
 | purchaseID | 用于避免订单被 [!DNL Analytics] 计数多次。每当您在网站上使用购买事件时，都应使用 *`purchaseID`* 变量。 |
 | referrer | 还原丢失的反向链接信息。 |
@@ -83,9 +81,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | trackingServer | 用于第一方 Cookie 实施，以指定写入图像请求和 Cookie 的域。用于非安全页面。 |
 | trackingServerSecure | 用于第一方 Cookie 实施，以指定写入图像请求和 Cookie 的域。用于安全页面。 |
 | trackInlineStats | 确定是否收集访客点击图数据。 |
-| transactionID | 将离线数据关联至在线交易（如在线生成的商机或购买）。每个发送到 Adobe 的独特&#x200B;*`transactionID`*&#x200B;均会被记录，以备该交易离线信息的[!UICONTROL 数据源]上载。请参阅[数据源指南](https://marketing.adobe.com/resources/help/zh_CN/sc/datasources/)。 |
+| transactionID | 将离线数据关联至在线交易（如在线生成的商机或购买）。每个发送到 Adobe 的唯一 *`transactionID`* 均会被记录，以备该交易离线信息的[!UICONTROL 数据源]上载。请参阅[数据源指南](https://marketing.adobe.com/resources/help/en_US/sc/datasources/)。 |
 | s_usePlugins | 如果 *`s_doPlugins`* 函数可用，并且包含有用的代码，则应将 [!UICONTROL s_usePlugins] 设置为“true”。当 [!UICONTROL usePlugins] 为“true”时，将在每个图像请求之前调用 *`s_doPlugins`* 函数。 |
 | visitorID | 可根据 *`visitorID`* 标记或 IP 地址/用户代理识别访客。*`visitorID`* 最长可包含 100 个字母数字字符，且不得包含连字符。 |
-| visitorNamespace | 如果在 JavaScript 文件中使用 *`visitorNamespace`*，请不要将其删除或进行更改。该变量用于确定设置 Cookie 的域。如果更改&#x200B;*`visitorNamespace`*，则所有在 [!DNL Analytics] 中报告的访客都可能会变成新访客。简而言之，未经 Adobe 顾问批准不要更改此变量。 |
+| visitorNamespace | 如果在 JavaScript 文件中使用 *`visitorNamespace`*，请不要将其删除或进行更改。该变量用于确定设置 Cookie 的域。如果更改 *`visitorNamespace`*，则所有在 中报告的访客都可能会变成新访客。[!DNL Analytics]简而言之，未经 Adobe 顾问批准不要更改此变量。 |
 | zip | 捕获网站访客所在地的邮政编码。 |
 
