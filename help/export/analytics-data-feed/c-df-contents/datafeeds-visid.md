@@ -1,6 +1,6 @@
 ---
 description: 'null'
-keywords: Data Feed;job;visitors;Experience Cloud ID;analytics visitor id;identify
+keywords: 数据馈送；作业；访客；Experience Cloud ID；分析访客ID；识别
 seo-description: 'null'
 seo-title: 识别访客
 solution: Analytics
@@ -8,7 +8,7 @@ title: 识别访客
 topic: Reports and Analytics
 uuid: 2490b67e-a333-422d-82fa-cb0670ef2e0c
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -43,7 +43,7 @@ If the Experience Cloud ID was used to identify the visitor, the ID will be cont
 |---|---|---|---|
 | ![](assets/step1_icon.png) | [vid (s.visitorID)](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) | 0 | s.visitorID 经过设置。 |
 | ![](assets/step2_icon.png) | [aid (s_vi cookie)](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_analytics.html) | 3 | 在您部署访客 ID 服务或配置访客 ID [宽限期](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_grace_period.html)之前，访客已拥有一个现有的 s_vi Cookie。 |
-| ![](assets/step3_icon.png) | [mid (AMCV_ cookie set by Identity Service)](https://marketing.adobe.com/resources/help/en_US/mcvid/) | 5 | 访客的浏览器接受cookies（第一方），并部署了标识服务。 |
+| ![](assets/step3_icon.png) | [mid（由Identity service设置的AMCV_ cookie）](https://marketing.adobe.com/resources/help/en_US/mcvid/) | 5 | 访客的浏览器接受cookies（第一方），并部署了标识服务。 |
 | ![](assets/step4_icon.png) | [fid（H.25.3 或更新版本，或 AppMeasurement for JavaScript 中的回退 Cookie）](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_fallback.html) | 4 | 访客的浏览器接受 Cookie（第一方）。 |
 | ![](assets/step5_icon.png) | [HTTP 移动订阅者标题](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_mobile.html) | 2 | 设备被识别为移动设备。 |
 | ![](assets/step6_icon.png) | [IP 地址、用户代理、网关 IP 地址](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_fallback.html) | 1 | 访客的浏览器不接受 Cookie。 |
