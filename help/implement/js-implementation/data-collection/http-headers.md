@@ -7,8 +7,8 @@ solution: Analytics
 title: 数据收集 HTTP 头
 topic: 开发人员和实施
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,7 +27,7 @@ HTTP 请求和响应头用于收集 AppMeasurement 收集范围外的其他数�
   </tr> 
   <tr> 
    <td> Cookie </td> 
-   <td> <p>读取之前由我们的数据收集服务器创建的 Cookie。 </p> <p> 自 2014 年起，Adobe 服务器将弃用服务器调用所附带的所有 Cookie，但 Adobe 设置的 Cookie 除外。请参阅 <a href="https://marketing.adobe.com/resources/help/zh_CN/whitepapers/cookies/" format="https" scope="external">Experience Cloud 中使用的 Cookie</a>，获取 Adobe Cookie 的完整列表。 </p> </td> 
+   <td> <p>读取之前由我们的数据收集服务器创建的 Cookie。 </p> <p> 自 2014 年起，Adobe 服务器将弃用服务器调用所附带的所有 Cookie，但 Adobe 设置的 Cookie 除外。请参阅 <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/" format="https" scope="external">Experience Cloud 中使用的 Cookie</a>，获取 Adobe Cookie 的完整列表。 </p> </td> 
   </tr> 
   <tr> 
    <td> User-Agent </td> 
@@ -88,9 +88,7 @@ HTTP 请求和响应头用于收集 AppMeasurement 收集范围外的其他数�
  </tbody> 
 </table>
 
->[!NOTE]
->
->使用动态变量进行实施，可以读取以上未列出的其他 HTTP 请求头。
+> [!NOTE]使用动态变量进行实施，可以读取以上未列出的其他 HTTP 请求头。
 
 ## HTTP 响应头 {#section_A9C7035198C84037A21A8033CC408F0E}
 
@@ -110,6 +108,4 @@ HTTP 请求和响应头用于收集 AppMeasurement 收集范围外的其他数�
 | Content-Type | 指定发送回客户端的内容类型（GIF、文本、Javascript 等）。 |
 | Content-Length | 指定发送回客户端的内容大小。 |
 
->[!NOTE]
->
->可能需要设置其他 HTTP 标头，才能响应内部状态监测。这些头中可能会有一部分被返回到浏览器，但是浏览器并不一定需要接收它们。
+> [!NOTE]可能需要设置其他 HTTP 标头，才能响应内部状态监测。这些头中可能会有一部分被返回到浏览器，但是浏览器并不一定需要接收它们。
