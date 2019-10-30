@@ -8,7 +8,7 @@ subtopic: 插件
 title: getPercentPageViewed
 topic: 开发人员和实施
 uuid: 1751dcdb-699f-4bd1-8bcb-5e62fa24896a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f9912a0da5930be965e4d249f3d2c1891cfd6ed6
 
 ---
@@ -16,47 +16,47 @@ source-git-commit: f9912a0da5930be965e4d249f3d2c1891cfd6ed6
 
 # getPercentPageViewed
 
-getPercentpageViewed插件可测量访客的滚动活动，以查看访客在转入另一页之前查看的页面大小。
+getPercentPageViewed 插件可测量访客的滚动活动，以查看访客在转到另一个页面之前已查看的页面内容量。
 
 >[!NOTE]
->如果网页较小并且无需测量访问者向下滚动的距离，则无需使用getPercentPageViewed插件。此外，如果您希望仅测量退出页面上的滚动活动，则无法使用此插件。
+>如果您的网页高度较小，并且无需测量访客向下滚动的距离，则无需使用 getPercentPageViewed 插件。另外，如果您只想测量退出页面上的滚动活动，则不能使用此插件。
 
 ## 先决条件
 
-您必须具有AppMeasurement和handlempEvEvents helper插件才能运行getPercentPageViewed插件。
+您必须具有 AppMeasurement 和 handlePPVevents 助手插件才能运行 getPercentPageViewed 插件。
 
 ## 实施
 
-To implement this plugin, copy and paste the code to anywhere within the **[!UICONTROL Plugins]** section of the [!DNL AppMeasurement] file.
+要实施此插件，请复制此代码，并将其粘贴到 [!DNL AppMeasurement] 文件中&#x200B;**[!UICONTROL 插件]**&#x200B;部分的任意位置。
 
 >[!NOTE]
->向AppMeasurement文件中添加粗体的注释/版本号可帮助Adobe Consulting解决任何潜在实施问题。
+>在 AppMeasurement 文件中添加此代码的加粗注释/版本号有助于 Adobe 顾问对任何潜在的实施问题进行故障诊断。
 
-You can run the `getPercentPageViewed` function as needed within the doPlugins function (see example calls below.)
+您可以根据需要在 doPlugins 函数中运行 `getPercentPageViewed` 函数（请参阅下面的示例调用。）
 
-## 要传入的参数
+## 要传递的参数
 
 | 参数 | 定义 |
 |---|---|
-| pid(可选，字符串) | 与插件度量所提供的百分比关联的页面标识符。如果未设置pageName变量，它默认为Analytics pageName变量或URL |
-| ch(可选，Boolean) | “true”是该参数的建议/默认值。如果您不希望此插件在页面初始加载后考虑对页面大小所做的任何更改(由于SPA代码、动态HTML等)，请将此设置设置为“false”。 |
+| pid（可选，字符串） | 将与插件测量所提供百分比相关联的页码标识符。默认为 Analytics 的 pageName 变量，或者如果未设置 pageName 变量，则默认为 URL |
+| ch（可选，布尔值） | 此参数的建议/默认值为“true”。如果您不希望此插件考虑在页面初始加载后对页面大小所做的任何更改（由于 SPA 代码、动态 HTML 等原因），请将此值设为“false”。 |
 
 ## 返回结果
 
-getPercentpageViewed插件不返回任何内容。而是在 AppMeasurement 代码中设置以下变量：
+getPercentPageViewed 插件不返回任何内容。而是在 AppMeasurement 代码中设置以下变量：
 
-* `s._ppvPreviousPage`：查看的上一页的名称(因为在加载新页面之前，最终度量才可用。)
-* `s._ppvHighestPercentViewed`：访客查看的上一页的最高百分比(高度)。换句话说，访客在上一页向下滚动的最远点。
-* `s._ppvInitialPercentViewed`：上一页首次加载时可见的上一页百分比。
-* `s._ppvHighestPixelSeen`：访客向下滚动上一页时显示的最大像素总数(高度)。
+* `s._ppvPreviousPage`：查看的上一页面的名称（因为只有在加载新页面后才能进行最终测量）。
+* `s._ppvHighestPercentViewed`：访客查看的上一页面内容所占的最高百分比（以高度衡量）。换句话说，访客在上一页面上向下滚动的最远点。
+* `s._ppvInitialPercentViewed`：上一页面首次加载时查看内容所占的百分比。
+* `s._ppvHighestPixelSeen`：访客在上一页面上向下滚动时，所看到的总像素的最大值（以高度衡量）。
 
 ## Cookie
 
-The getPercentPageViewed plugin creates a cookie, called `s_ppv`, that is passed from page to page. Cookie的内容包含上述四个变量中插入的值，并在会话结束时过期。
+getPercentPageViewed 插件会创建一个名为 `s_ppv` 的 Cookie，该 Cookie 可在页面之间传递。Cookie 的内容包含上述四个变量中插入的值，并在会话结束时过期。
 
-## 调用示例
+## 示例调用
 
-**示例调用1**
+**示例调用 1**
 
 ```
 if(s.pageName) s.getPercentPageViewed();
@@ -67,22 +67,22 @@ s.prop2 = "highestPercentViewed=" + s._ppvHighestPercentViewed + "initialPercent
 }  
 ```
 
-上面的代码示例：
-* 确定s. pageName是否已设置，如果是，该代码将运行getPercentpageViewed函数。
-* `getPercentPageViewed` 运行函数时，它会创建上面“返回”部分中描述的变量。
-* 如果成功设置了“返回”变量：
+上述代码示例：
+* 确定是否设置了 s.pageName，如果已设置，则代码将运行 getPercentPageViewed 函数。
+* 当 `getPercentPageViewed` 函数运行时，它将创建上面“返回”部分中描述的变量。
+* 如果成功设置了“Returns”变量：
 
-   * The code sets s.prop1 equal to the value of `s._ppvPreviousPag`e (i.e. the previous value of `s.pageName`, or the previous page.)
-   * 该代码还将s. prop设置为上一页查看的最高百分比和上一页查看的初始百分比。
+   * 该代码将 s.prop1 设置为等于 `s._ppvPreviousPag` 的值（即先前的 `s.pageName` 值或上一页面）。
+   * 该代码还可将 s.prop2 的值设置为与上一页面的“查看内容所占的最高百分比”和上一页面的“查看内容所占的初始百分比”相等。
 
 >[!NOTE]
->如果整个页面在首次加载时可见，则查看的最高百分比和初始百分比查看的尺寸将等于100。但是，如果整个页面在首次加载时不可见，但访客在转入下一页之前从不向下滚动页面，则查看的最高百分比和初始百分比查看的尺寸将等于相同的值。
+>如果整个页面在首次加载时可见，则“查看内容所占的最高百分比”和“查看内容所占的初始百分比”维度都将等于 100。但是，如果整个页面在首次加载时不可见，但是访客在继续浏览下一页之前从不向下滚动页面，则“查看内容所占的最高百分比”和“查看内容所占的初始百分比”维度的值将相同。
 
-**示例调用2**
+**示例调用 2**
 
-假定s. prop被搁置为捕获一个“页面类型”而非整个页面名称。
+假设已将 s.prop5 设置为捕获汇总的“页面类型”，而不是整个页面名称。
 
-以下代码确定是否已设置s. prop5，如果是，将其值存储为“上一页”，以与查看的最高百分比和初始百分比查看维度关联。The value is still stored in the `s._ppvPreviousPage` variable but can be treated as if it were the previous page type instead of the previous page name.
+以下代码可确定是否已设置 s.prop5，如果已设置，则将其值存储为“上一页”，以与“查看内容所占的最高百分比”和“查看内容所占的初始百分比”维度相关联。尽管该值仍会存储在 `s._ppvPreviousPage` 变量中，但可以将其视为上一个页面类型而不是上一个页面名称。
 
 ```
 if(s._ppvPreviousPage)
@@ -92,17 +92,17 @@ s.prop2 = "highestPercentViewed = " + s._ppvHighestPercentViewed + " | initialPe
 }  
 ```
 
-## 对象替换
+## S 对象替换
 
-使用除“s”以外的名称实例化主AppMeasurement库对象时，请从以下位置更改插件代码的以下部分：
+当使用非“s”的名称实例化主 AppMeasurement 库对象时，请将插件代码的以下部分从以下内容：
 
 `s.getPercentPageViewed=function(pid,ch)`
 
-to this：
+更改为以下内容：
 
 `[objectname].getPercentPageViewed=function(pid,ch)`
 
-## 部署代码
+## 要部署的代码
 
 插件区域：将以下代码添加到 `s_code.js` 文件中标记为“PLUGINS SECTION”的区域。请勿对此部分的插件代码进行任何更改。
 
