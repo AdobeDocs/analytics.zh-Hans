@@ -1,32 +1,32 @@
 ---
 description: 本部分包含您的核心 JavaScript 文件及站点页面的示例代码。
-keywords: Analytics实施；appasure. js代码；示例页面代码
+keywords: Analytics 实施;appmeasurement.js 代码;页面代码示例
 seo-description: 本部分包含您的核心 JavaScript 文件及站点页面的示例代码。
-seo-title: 页面代码和全局配置示例
+seo-title: 示例页面代码和全局配置
 solution: Analytics
 subtopic: JavaScript AppMeasurement
-title: 页面代码和全局配置示例
+title: 示例页面代码和全局配置
 topic: 开发人员和实施
-uuid: e8880d77-172b-42e5-8187-ce371 aa9 eff9
-translation-type: tm+mt
+uuid: e8880d77-172b-42e5-8187-ce371aa9eff9
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 页面代码和全局配置示例
+# 示例页面代码和全局配置
 
 本部分包含您的核心 JavaScript 文件及站点页面的示例代码。
 
 >[!IMPORTANT]
 >
->This example uses the visitor ID service, which is deployed as part of your [JavaScript Implementation](../../implement/js-implementation/javascript-implementation-overview.md). 如果在将访客 API JavaScript 文件加入所有站点页面前已经在 AppMeasurement 中启用了访客 ID 服务，则会导致重复的访客计数。要避免出现重复的访客计数，必须了解并遵循 [访客 ID 服务](../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07).
+>此示例使用访客 ID 服务，该服务将作为 [JavaScript 实施](../../implement/js-implementation/javascript-implementation-overview.md) 的一部分部署。如果在将访客 API JavaScript 文件加入所有站点页面前已经在 AppMeasurement 中启用了访客 ID 服务，则会导致重复的访客计数。要避免出现重复的访客计数，必须了解并遵循 [访客 ID 服务](../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07).
 
 ## 示例 AppMeasurement.js 代码 {#section_4351543F2D6049218E18B48769D471E2}
 
 >[!IMPORTANT]
 >
->Configuration variables should be set above the *`doPlugins`* function.
+>配置变量应在 *`doPlugins`* 函数上方设置。
 
 对于新的实施，您可以首先在 AppMeasurement.js 开头粘贴以下全局配置代码：
 
@@ -85,7 +85,7 @@ s.trackingServerSecure="INSERT-SECURE-TRACKING-SERVER-HERE"
 
 ## 示例页面代码 {#section_042412C29CC249E298F19B2BC2F43CE7}
 
-对于新实施，您可以在打开后粘贴以下页面代码 <body> 标记上的标记：
+对于新的实施，您可以将以下页面代码粘贴到页面上要跟踪的开始 <body> 标记后：
 
 ```js
 <script language="JavaScript" type="text/javascript"><!-- 
@@ -115,4 +115,4 @@ s.eVar5=""
 var s_code=s.t();if(s_code)document.write(s_code)//--></script>
 ```
 
-请务必在每个页面上也加入 `AppMeasurement.js` 和 `VisitorAPI.js` 的引用。See [JavaScript Implementation](../../implement/js-implementation/javascript-implementation-overview.md) for instructions.
+请务必在每个页面上也加入 `AppMeasurement.js` 和 `VisitorAPI.js` 的引用。请参阅 [JavaScript 实施](../../implement/js-implementation/javascript-implementation-overview.md)获取相关说明。
