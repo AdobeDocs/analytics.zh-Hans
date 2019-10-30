@@ -4,10 +4,10 @@ seo-description: 显示有关通过移动设备访问网站的信息。移动设
 seo-title: 移动设备
 solution: Analytics
 title: 移动设备
-topic: 报表
-uuid: ec8f6977-da92-478e-a934-c32 cf5889526
+topic: 报告
+uuid: ec8f6977-da92-478e-a934-c32cf5889526
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,9 +20,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 显示有关通过移动设备访问网站的信息。移动设备报表收集有关用于查看网站的移动设备的数据，从而改进访客识别。移动设备报表可以确定设备的制造商和功能，如屏幕大小、视频、音频，Cookie 支持及其他量度等。移动设备报表可用于所有报表包。
 
->[!NOTE]
->
->移动报告仅显示移动Web流量。使用本地 iOS、Android 和其他 SDK 收集的移动设备应用程序数据显示在移动设备应用程序报表中，且仅在“管理工具”中启用时才会显示。
+> [!NOTE] 移动报告仅显示移动Web流量。 使用本地 iOS、Android 和其他 SDK 收集的移动设备应用程序数据显示在移动设备应用程序报表中，且仅在“管理工具”中启用时才会显示。
 
 可使用以下移动设备报表：
 
@@ -61,19 +59,19 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> Cookie 支持 </td> 
-   <td colname="col2"> <p>按移动设备是否支持 Cookie 对移动设备点击量进行分类。访客分为支持 Cookie 组和不支持 Cookie 组。可通过用户代理字符串来确定移动设备类型。Adobe 维护着一份已知支持 Cookie 的移动设备列表。如果用户代理字符串中所列出的移动设备也列在 Adobe 的移动设备列表中，则“Cookie 支持”报表中<span class="term"></span><span class="wintitle"> “Cookie支持”</span> 报告中支持的行项目递增。Otherwise, the <span class="term"> Not Supported</span> line item in the report is incremented. </p> </td> 
+   <td colname="col2"> <p>按移动设备是否支持 Cookie 对移动设备点击量进行分类。访客分为支持 Cookie 组和不支持 Cookie 组。可通过用户代理字符串来确定移动设备类型。Adobe 维护着一份已知支持 Cookie 的移动设备列表。If the mobile device listed in the user agent string is also listed in Adobe's list of mobile devices, then the <span class="term"> Supported</span> line item in the <span class="wintitle"> Cookie Support</span> report is incremented. Otherwise, the <span class="term"> Not Supported</span> line item in the report is incremented. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 图像支持 </td> 
-   <td colname="col2"> <p> 按设备支持的图像类型对移动设备进行分组。 </p> <p>例如，如果访客的手机支持 <span class="filepath">.jpeg</span> 图像，并访问网站，则<span class="wintitle">“图像支持”</span>报表至少递增 1。如果手机支持多种图像格式，则对网站的一次访问会产生多个递增量。换言之，若手机支持 <span class="filepath">.jpeg</span>、<span class="filepath">.png</span> 和 <span class="filepath">.gif</span> 格式，则报表中的这些组都将递增。这样，群组总数可能大于报表底部显示的总数。 </p> </td> 
+   <td colname="col2"> <p> 按设备支持的图像类型对移动设备进行分组。 </p> <p>For example, if a visitor's phone that supports <span class="filepath"> .jpeg</span> images, accesses a site, the <span class="wintitle"> Image Support</span> report is incremented by at least one. 如果手机支持多种图像格式，则对网站的一次访问会产生多个递增量。换言之，若手机支持 <span class="filepath">.jpeg</span>、<span class="filepath">.png</span> 和 <span class="filepath">.gif</span> 格式，则报表中的这些组都将递增。这样，群组总数可能大于报表底部显示的总数。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 颜色深度 </td> 
-   <td colname="col2"> <p> 按支持的颜色数目对移动设备点击量进行分组。此报表显示经由移动设备访问网站的访客总人数，并按移动设备中配置的颜色数目对他们进行分组。 </p> <p>例如，若访客的移动电话支持 24 色，则报表将增加与 24 色对应的行项目。 </p> </td> 
+   <td colname="col2"> <p> 按支持的颜色数目对移动设备点击量进行分组。此报表显示经由移动设备访问网站的访客总人数，并按移动设备中配置的颜色数目对他们进行分组。 </p> <p>例如，如果访客的手机支持24种颜色，则报表会增加与24种颜色对应的行项目。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 音频支持 </td> 
-   <td colname="col2"> <p> 按移动设备支持的音频格式类型对这些设备进行分类。 </p> <p>例如，如果访客的电话支持 <span class="filepath">.mp3</span> 格式，音频支持报表至少递增 1。如果移动电话支持多种音频格式，则访问网站时可能会使每个支持的音频类型相应递增。换言之，如果移动电话支持 <span class="filepath">.mp3</span>、<span class="filepath">.aac</span> 和 <span class="filepath">.amr</span> 格式，报表中的这些组将递增。这样，群组总数可能大于报表底部显示的总数。 </p> </td> 
+   <td colname="col2"> <p> 按移动设备支持的音频格式类型对这些设备进行分类。 </p> <p>For example, if a visitor's phone supports the <span class="filepath"> .mp3</span> format, the Audio Support report increments by at least one. 如果移动电话支持多种音频格式，则访问网站时可能会使每个支持的音频类型相应递增。换言之，如果移动电话支持 <span class="filepath">.mp3</span>、<span class="filepath">.aac</span> 和 <span class="filepath">.amr</span> 格式，报表中的这些组将递增。这样，群组总数可能大于报表底部显示的总数。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 视频支持 </td> 
@@ -81,7 +79,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> DRM </td> 
-   <td colname="col2"> <p> 按支持的数字版权管理 (DRM) 类型对移动设备进行分组。DRM 分组包括<span class="term"> 转发锁定</span>、 <span class="term"> 组合交付</span>、 <span class="term"> 单独交付</span>和 <span class="term"> 未知。</span> </p> </td> 
+   <td colname="col2"> <p> 按支持的数字版权管理 (DRM) 类型对移动设备进行分组。DRM 分组包括 转发 <span class="term"> 锁定</span>、组合交付 <span class="term"> 、单独交付</span>、未知 <span class="term"></span><span class="term"> 交付。</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 网络协议 </td> 
@@ -89,7 +87,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> 操作系统（已弃用） </td> 
-   <td colname="col2"> <p> 按设备上运行的操作系统对移动设备进行分组。移动操作系统包括 Windows、RIM、iOS、Symbian 等。对于未识别的移动操作系统，该报表还提供了“未知”组。 </p> <p>Note: This report was deprecated when the Technology &gt; <a href="../../../components/c-variables/dimensionslist/reports-operating-system.md#concept_3FADC871C6204533B4FCE73316B0B34F" format="dita" scope="local"> Operating Systems</a> report was updated to include all operating systems, including mobile. 您可以创建一个存在“移动设备”的区段，并将它应用于“技术”&gt;“操作系统”报表，以便仅查看移动操作系统。 </p> </td> 
+   <td colname="col2"> <p> 按设备上运行的操作系统对移动设备进行分组。移动操作系统包括 Windows、RIM、iOS、Symbian 等。对于未识别的移动操作系统，该报表还提供了“未知”组。 </p> <p>注意：更新“技术”&gt;“操作系统 <a href="../../../components/c-variables/dimensionslist/reports-operating-system.md#concept_3FADC871C6204533B4FCE73316B0B34F" format="dita" scope="local"></a> ”报告以包含所有操作系统（包括移动设备）时，此报告已弃用。 您可以创建一个存在“移动设备”的区段，并将它应用于“技术”&gt;“操作系统”报表，以便仅查看移动操作系统。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Java 版本 </td> 
@@ -113,11 +111,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> PTT </td> 
-   <td colname="col2"> <p> 按设备是否支持一键通 (Push To Talk, PTT) 对移动设备进行分组。对于不确定是否支持 PTT 的移动设备，该报表还提供了<span class="term"> 无法确定PPTT支持的设备的未知</span> 组。 </p> </td> 
+   <td colname="col2"> <p> 按设备是否支持一键通 (Push To Talk, PTT) 对移动设备进行分组。对于不确定是否支持 PTT 的移动设备，该报表还提供了 对于 <span class="term"> 无法确定</span> PTT支持的设备，存在未知组。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 修饰邮件支持 </td> 
-   <td colname="col2"> <p> 根据设备是否支持 DecoMail 对移动设备分组，该功能允许用户用图片和动画装饰邮件。对于不确定是否支持 PTT 的移动设备，该报表还提供了<span class="term"> 无法确定装饰邮件支持的设备的未知</span> 组。 </p> </td> 
+   <td colname="col2"> <p> 根据设备是否支持 DecoMail 对移动设备分组，该功能允许用户用图片和动画装饰邮件。对于不确定是否支持 PTT 的移动设备，该报表还提供了 <span class="term"> Unknown</span> group for those devices where Decoration Mail support cannot be determined. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 信息服务 </td> 
