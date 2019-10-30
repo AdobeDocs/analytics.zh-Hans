@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 插件
 title: getQueryParam
 topic: 开发人员和实施
-uuid: ba202756-c728-4eBC-8fd9-5bc29 a9 f673 b
-translation-type: tm+mt
+uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -20,23 +20,23 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!IMPORTANT]
 >
->此插件仅由H代码使用。[AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) 使用 [Util. getQueryParam本机提供此功能](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5)。
+>此插件只能由 H 代码使用。[AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) 本身通过使用 [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5) 提供此功能。
 
-Once installed in your [!DNL AppMeasurement] for JavaScript code, the plug-in is configured by selecting a [!DNL Analytics] variable to populate using data found in the query string, and specifying which query string values to capture. 该插件会检测是否存在指定的查询字符串；如果存在，将使用该字符串的值填充所选变量。如果未找到具有该值的查询字符串参数，则返回空字符串。If a query string parameter exists but does not have a value (such as param1 in `?param1&param2=value`), the word *`true`* is returned.
+在您的 [!DNL AppMeasurement] for JavaScript 代码中安装该插件后，可通过以下操作对插件进行配置：选择一个 [!DNL Analytics] 变量以使用在查询字符串中找到的数据对该变量进行填充，并指定要捕获的查询字符串值。该插件会检测是否存在指定的查询字符串；如果存在，将使用该字符串的值填充所选变量。如果未找到具有该值的查询字符串参数，则返回空字符串。如果存在某个查询字符串参数，但该参数没有任何值（例如 `?param1&param2=value` 中的 param1），则会返回 *`true`*。
 
 >[!NOTE]
 >
->The base code for the plug-in must be installed in your [!DNL AppMeasurement] for JavaScript code before the examples below will work.
+>必须先将该插件的基础代码写入您的 [!DNL AppMeasurement] for JavaScript 代码中，以下示例才有效。
 
-If you wanted to use *`s.campaign`* to capture campaign tracking codes available as values of the *`cid`* query parameter, you would enter the following in the *`doPlugins()`* function in your [!DNL AppMeasurement] for JavaScript code:
+如果要使用 *`s.campaign`* 来捕获可用作 *`cid`* 查询参数值的促销活动跟踪代码，则可以在 [!DNL AppMeasurement] for JavaScript 代码的 *`doPlugins()`* 函数中输入以下内容：
 
 `s.campaign=s.getQueryParam('cid')`
 
-In this example, if the user arrived at a landing page on your site where the URL was [!DNL https://www.yoursite.com/index.html?cid=123456], then *`s.campaign`* would receive a value of *123456*. 可通过 [!DNL DigitalPulse] Debugger 对此进行查看，*v0=123456* 会作为图像请求的一部分显示在该调试程序中。
+在此示例中，如果用户到达您网站上的登陆页面（URL 为 [!DNL https://www.yoursite.com/index.html?cid=123456]），则 *`s.campaign`* 会收到值 *123456*。可通过 [!DNL DigitalPulse] Debugger 对此进行查看，*v0=123456* 会作为图像请求的一部分显示在该调试程序中。
 
 >[!NOTE]
 >
->The parameter *`cid`* and others are used here as examples. 您可以使用您网站上存在的任何查询字符串参数来替换它们。
+>此处以参数 *`cid`* 和其他参数为例。您可以使用您网站上存在的任何查询字符串参数来替换它们。
 
 此&#x200B;*`getQueryParam`*&#x200B;插件具有两个额外的参数（选项），可用于将数据捕获到 Analytics 变量中。
 
@@ -76,7 +76,7 @@ s.campaign=s.getQueryParam('cid');
 
 >[!NOTE]
 >
->以下说明要求您更改站点上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
+>下面的说明需要您更改网站上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
 
 **插件代码**
 
