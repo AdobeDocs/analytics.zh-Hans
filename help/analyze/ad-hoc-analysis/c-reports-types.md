@@ -1,18 +1,18 @@
 ---
 description: Experience Cloud 中使用的报表类型的说明。
 seo-description: Experience Cloud 中使用的报表类型的说明。
-seo-title: 报告类型
+seo-title: 报表类型
 solution: Analytics
-title: 报告类型
+title: 报表类型
 topic: Ad Hoc Analysis
-uuid: 357102eb-a172-40ec-a302-01c87 abaacb5
+uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 报告类型
+# 报表类型
 
 Experience Cloud 中使用的报表类型的说明。
 
@@ -217,12 +217,12 @@ c_reports_site_analysis.xml
 | 适合屏幕 | 还原图表的初始视图。 |
 | 鸟瞰图 | 提供图表自上而下的视图。 |
 | 切换网格 | 打开或关闭网格。 |
-| 维度 | 您报告的项目。从维度中拖动项目。。 |
+| 维度 | 您报告的项目。从维度中拖动项目。. |
 
 | 选项 | 描述 |
 |--- |--- |
 | 编辑 | 用于在柱体中添加或删除页面。 |
 | 删除 | 用于删除柱体。 |
-| 报表 | 用于从柱体中启动其他报表。 |
+| 报告 | 用于从柱体中启动其他报表。 |
 | 将图表另存为 | 用于将图表另存为 .png 或 .jpg。如果在保存前更改图表控件（图角、大小），这些更改将保存在输出中。 |
 | 将图表复制到剪贴板 | 复制图表以将其粘贴到其他应用程序中。如果在保存前更改图表控件（图角、大小），这些更改将保存在输出中。 |
