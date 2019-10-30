@@ -8,7 +8,7 @@ title: 使用 DFA 数据的 Analytics 报告
 topic: Data connectors
 uuid: a4fe4a6c-f4a4-431d-bce9-9edbcafed6
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -51,5 +51,5 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 * 此图表将每个量度的数据显示为一个总量度百分比，而不是对每个量度使用实际数字。您可以在&#x200B;**[!UICONTROL 配置报表]对话框中更改它。**
 * 在图表下方，DFA_广告名称报表列出了每个 DFA 广告的报表详细信息，并同时显示广告效果的数字和百分比数据。
 * 选择一个特定的 DFA 广告名称来打开一个选项菜单，以便获取有关此特定 DFA 广告的更多信息。
-* 每个量度列均包含一个与图表中量度所分配颜色对应的颜色键。
+* 每个度量列都包括一个颜色键，该颜色键与图中度量的指定颜色相对应。
 * 报表按收入量度排序，具有最高收入的广告列在最顶部。您可以通过单击不同的列（量度）标签来更改报表排序。
