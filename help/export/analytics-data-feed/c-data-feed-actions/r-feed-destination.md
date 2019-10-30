@@ -1,13 +1,13 @@
 ---
 description: “馈送目标”部分介绍分发馈送的方法。
-keywords: 数据馈送；feed；目标；sftp；s3；ftp；settings
+keywords: 数据馈送；feed;destination;sftp;s3;ftp；设置
 seo-description: “馈送目标”部分介绍分发馈送的方法。
 seo-title: 馈送目标
 solution: Analytics
 title: 馈送目标
-uuid: 4a59e8de-e7 a6-4f7 a-bf42-db7 d59 e61 b4 c
+uuid: 4a59e8de-e7a6-4f7a-bf42-db7d59e61b4c
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -103,7 +103,7 @@ Adobe Customer Care will provide you with a Public key. Verify in recording.
   </tr> 
   <tr> 
    <td colname="col1"> <p> 主机 </p> </td> 
-   <td colname="col2"> <p>指定 FTP 或 SFTP 主机位置。 </p> <p>此值必须符合正确的 ftp/sftp 格式，<code>ftp.domain.com/subdomain</code> 或 <code>sftp.domain.com/subdomain</code>。 </p> <p> FTP 的标准端口 21 和 sFTP 的标准端口 22 都是必填项。 </p> </td> 
+   <td colname="col2"> <p>指定 FTP 或 SFTP 主机位置。 </p> <p>This value must comply to the proper ftp/sftp format, <code> ftp.domain.com/subdomain</code> or <code> sftp.domain.com/subdomain</code>. </p> <p> FTP 的标准端口 21 和 sFTP 的标准端口 22 都是必填项。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>密码 </p> <p>确认密码 </p> </td> 
