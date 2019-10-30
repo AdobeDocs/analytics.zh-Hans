@@ -5,9 +5,9 @@ seo-title: 刷新请求
 solution: Analytics
 title: 刷新请求
 topic: Report Builder
-uuid: bb94cfc6-027b-4134-adc8-56a1 ea7 cc56 b
+uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,6 +26,6 @@ source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
    **“现在”日期：**&#x200B;您希望运行刷新的日期。也称为“[!UICONTROL 截止]”日期。
 
    **在以后的刷新操作中设置为当前日期：**&#x200B;如果启用此选项，将告知 Report Builder 始终使用当前日期作为“[!UICONTROL 现在]”（或“[!UICONTROL 截止]”）日期。您可以通过单击工具栏中的“[!UICONTROL 选项]”还原此设置。
-1. Click **[!UICONTROL OK]**.
+1. 单击&#x200B;**[!UICONTROL 确定]**。
 
    成功刷新后，系统将通过在[!UICONTROL 请求管理器]中显示一个绿色图标来报告这一情况。
