@@ -7,8 +7,8 @@ solution: Analytics
 title: 属性和永久性
 topic: 开发人员和实施
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
-translation-type: ht
-source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->不再建议使用这种方法来识别跨设备访客。请参阅 [Adobe Experience Cloud 设备协作文档](https://marketing.adobe.com/resources/help/zh_CN/mcdc/)。
+>不再建议使用这种方法来识别跨设备访客。请参阅 [Adobe Experience cloud设备协作文档](https://marketing.adobe.com/resources/help/en_US/mcdc/)。
 
 在访客资料与同一访客 ID 变量关联后进行合并时，历史数据集中的属性不会发生更改。
 
