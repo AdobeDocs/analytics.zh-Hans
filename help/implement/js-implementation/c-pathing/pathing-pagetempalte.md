@@ -2,18 +2,18 @@
 description: 如果您的网站有多种类型的页面或页面模板，则可使用路径功能来了解访客如何在各种类型之间移动。
 keywords: Analytics 实施
 seo-description: 如果您的网站有多种类型的页面或页面模板，则可使用路径功能来了解访客如何在各种类型之间移动。
-seo-title: 从页面模板移动到页面模板
+seo-title: 在页面模板之间移动
 solution: Analytics
-title: 从页面模板移动到页面模板
+title: 在页面模板之间移动
 topic: 开发人员和实施
-uuid: 8c442629-1ea8-4e0a-a973-685b700585 d3
-translation-type: tm+mt
+uuid: 8c446290-1ea8-4e0a-a973-685b700585d3
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 从页面模板移动到页面模板
+# 在页面模板之间移动
 
 如果您的网站有多种类型的页面或页面模板，则可使用路径功能来了解访客如何在各种类型之间移动。
 
