@@ -1,20 +1,20 @@
 ---
-description: 数据仓库可提供Tableau数据提取(TDE)文件格式的报表，使您能够从Adobe Analytics外部可视化数据和图层。您可以通过电子邮件发送此信息，也可以将此信息通过 FTP 发送到 FTP 站点。
-seo-description: 数据仓库可提供Tableau数据提取(TDE)文件格式的报表，使您能够从Adobe Analytics外部可视化数据和图层。您可以通过电子邮件发送此信息，也可以将此信息通过 FTP 发送到 FTP 站点。
+description: 数据仓库可以以Tableau Data Extract(TDE)文件格式传送报表，使您能够从Adobe Analytics外部可视化数据和图层中的其他数据。 您可以通过电子邮件发送此信息，也可以将此信息通过 FTP 发送到 FTP 站点。
+seo-description: 数据仓库可以以Tableau Data Extract(TDE)文件格式传送报表，使您能够从Adobe Analytics外部可视化数据和图层中的其他数据。 您可以通过电子邮件发送此信息，也可以将此信息通过 FTP 发送到 FTP 站点。
 seo-title: 表格数据文件
 solution: Analytics
 title: 表格数据文件
 topic: Data Warehouse
-uuid: 84566ba8-87d8-4c5e-8c31-f659 a577848 c
+uuid: 84566ba8-87d8-4c5e-8c31-f659a57848c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 表格数据文件
 
-数据仓库可提供Tableau数据提取(TDE)文件格式的报表，使您能够从Adobe Analytics外部可视化数据和图层。您可以通过电子邮件发送此信息，也可以将此信息通过 FTP 发送到 FTP 站点。
+数据仓库可以以Tableau Data Extract(TDE)文件格式传送报表，使您能够从Adobe Analytics外部可视化数据和图层中的其他数据。 您可以通过电子邮件发送此信息，也可以将此信息通过 FTP 发送到 FTP 站点。
 
 请参阅[表格和 Adobe Analytics](https://www.tableausoftware.com/about/blog/2014/3/tableau-and-adobe-analytics-digital-marketing-gets-even-more-awesome-29491)，以了解更多详细信息。
 
