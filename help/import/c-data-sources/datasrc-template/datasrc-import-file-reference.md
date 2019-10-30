@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 数据源
 title: 导入文件引用
 topic: 开发人员和实施
-uuid: cc58f8d8-cb6 e-4908-846f-0a41 c da805 d
+uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
 translation-type: tm+mt
-source-git-commit: cce2c1c54f21244f856385aeaad811d89f2fda7f
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,9 +28,9 @@ source-git-commit: cce2c1c54f21244f856385aeaad811d89f2fda7f
 
 **日期**：（必需）对应文件中每个数据行的时间戳。
 
-**变量**：映射到数据源数据维度的报告变量的名称。
+**变量**:映射到数据源数据维的报告变量的名称。
 
-**事件**：映射到数据源量度的事件的名称。
+**活动**:映射到数据源度量的事件的名称。
 
 使用数据源模板创建数据源文件，其中包含要上载的数据。在创建数据源文件时，请记住以下事项：
 
@@ -63,6 +63,6 @@ source-git-commit: cce2c1c54f21244f856385aeaad811d89f2fda7f
 
 **.FIN 文件**
 
-填写完数据源文件后，您可以将其FTP转换为Analytics。但是，若要使您的数据得以处理，还需要一个额外文件。You will need to upload an empty text file with the same name of your data file, but with a [!DNL .fin] extension.
+完成数据源文件的填写后，可将其FTP传入Analytics。 但是，若要使您的数据得以处理，还需要一个额外文件。You will need to upload an empty text file with the same name of your data file, but with a [!DNL .fin] extension.
 
 For example, if you upload a (tab-delimited) data file called [!DNL myproductdata.txt], you would also need to upload an empty text file called [!DNL myproductdata.fin]. Without the [!DNL .fin] file, data would never be processed.
