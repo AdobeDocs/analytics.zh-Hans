@@ -1,18 +1,18 @@
 ---
 description: 创建具有嵌入请求的报表后，您可以通过在 Excel 中单击“文件”>“保存”或“文件”>“另存为”来保存报表。Report Builder 会检测报表是否包含请求。单击任一保存选项时，将显示“将工作簿另存为”窗体。
 seo-description: 创建具有嵌入请求的报表后，您可以通过在 Excel 中单击“文件”>“保存”或“文件”>“另存为”来保存报表。Report Builder 会检测报表是否包含请求。单击任一保存选项时，将显示“将工作簿另存为”窗体。
-seo-title: 保存包含请求的工作簿
+seo-title: 保存具有请求的工作簿
 solution: Analytics
-title: 保存包含请求的工作簿
+title: 保存具有请求的工作簿
 topic: Report Builder
 uuid: 31611031-0982-4124-9fc7-7888124aa603
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 保存包含请求的工作簿
+# 保存具有请求的工作簿
 
 创建具有嵌入请求的报表后，您可以通过在 Excel 中单击“文件”&gt;“保存”或“文件”&gt;“另存为”来保存报表。Report Builder 会检测报表是否包含请求。单击任一保存选项时，将显示“将工作簿另存为”窗体。
 
@@ -22,7 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## Filenames and location {#section_2406629E9B644CE08430826948977D5D}
 
-[!UICONTROL 保存模板] 表单具有与标准Excel [!UICONTROL 文件] &gt; [!UICONTROL 另存为] 对话框相同的功能，如使用常规 [!DNL .xls] 文件扩展名输入电子表格报告文件名的文本框。
+The [!UICONTROL Save Template] form has some of the same functions as the standard Excel [!UICONTROL File] &gt; [!UICONTROL Save As] dialog box, such as a text box for entering the file name of the spreadsheet report using the conventional [!DNL .xls] file extension.
 
 使用的任何文件名所包含的字符数不能超过 255 个。此外，文件名不能包含以下字符：
 
