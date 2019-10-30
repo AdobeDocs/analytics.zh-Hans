@@ -5,7 +5,7 @@ seo-title: 分析变量的数据隐私标签
 title: 分析变量的数据隐私标签
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ Adobe Analytics数据隐私实施支持以下标识数据、敏感数据和数�
 
 ## DULE 标签 {#section_B2E78130957647338495EF37DE21D6BC}
 
->[!NOTE]
->
->数据使用标签和强制执行(DULE)框架旨在为跨所有Adobe解决方案／服务／平台提供统一的方式，以跨Adobe Experience cloud捕获、通信和使用有关数据的元数据。 元数据可帮助数据控制者指明哪些数据是个人信息，哪些数据是敏感数据，以及哪些合同限制与数据相关。在初始版本中，Analytics仅公开与数据隐私相关的DULE标签。 随着 Adobe 的其他产品开始实施对 DULE 标签的支持，未来版本将会引入更多的敏感数据标签以及合同标签，这有助于确保产品之间共享的数据只在法律允许的范围内使用。
+> [!NOTE]数据使用标签和执行 (DULE) 框架旨在提供一个跨所有解决方案/服务/平台的统一方式，以便在整个 Adobe Experience Cloud 中捕获、传输和使用有关数据的元数据。元数据可帮助数据控制者指明哪些数据是个人信息，哪些数据是敏感数据，以及哪些合同限制与数据相关。在初始版本中，Analytics仅公开与数据隐私相关的DULE标签。 随着 Adobe 的其他产品开始实施对 DULE 标签的支持，未来版本将会引入更多的敏感数据标签以及合同标签，这有助于确保产品之间共享的数据只在法律允许的范围内使用。
 
 ## 身份数据标签 (DULE) {#identity-data-labels}
 
@@ -212,8 +210,8 @@ Adobe Analytics数据隐私实施支持以下标识数据、敏感数据和数�
 
 如果您已经为登录公司的任何报表包中的其他变量分配了一个 ID 标签，则可以选择其中一个现有的命名空间。如果此变量包含的 ID 类型与之前已使用此命名空间设置标签的其他变量包含的 ID 类型相同，并且您希望在提交请求时搜索所有这些变量，则应重复使用该命名空间。
 
-1. 单击&#x200B;**[!UICONTROL 选择命名空间]，然后选择其中一个现有的命名空间。**
-1. Click **[!UICONTROL Apply]**.
+1. 单击&#x200B;**[!UICONTROL 选择命名空间]**，然后选择其中一个现有的命名空间。
+1. 单击&#x200B;**[!UICONTROL 应用]**。
 
 ![](assets/namespace.png)
 
@@ -221,12 +219,12 @@ Adobe Analytics数据隐私实施支持以下标识数据、敏感数据和数�
 
 您也可以定义一个新的命名空间。我们建议将命名空间字符串限制为字母数字字符，以及下划线、短划线和空格。这些字符串将全部转换为小写字母。
 
-1. 单击&#x200B;**[!UICONTROL 选择命名空间]并键入命名空间标题。**
+1. 单击&#x200B;**[!UICONTROL 选择命名空间]**&#x200B;并键入命名空间标题。
 
    ![](assets/namespace2.png)
 
-1. 按 **[!UICONTROL Enter]以添加此命名空间。**&#x200B;只有现在才可以激活“应用”按钮。
-1. Click **[!UICONTROL Apply]**.
+1. 按 **[!UICONTROL Enter]** 以添加此命名空间。只有现在才可以激活“应用”按钮。
+1. 单击&#x200B;**[!UICONTROL 应用]**。
 
 您指定为命名空间的字符串与通过数据隐私API提交请求时应使用的字符串与“namespace”参数的值相同。 随后，该请求将促使 Adobe Analytics 搜索报表包中的所有变量，这些变量与该请求指定的 ID 共享此命名空间。
 
@@ -244,7 +242,7 @@ Adobe Analytics数据隐私实施支持以下标识数据、敏感数据和数�
 
 列举另一个示例，您可能拥有一个 CRM ID，并且有时会通过 eVar1 发送，有时通过 prop7 发送。然后您使用一个处理规则，将 eVar1 的值（如果存在）复制到 eVar3 中。否则，它会将 prop7 的值复制到 eVar3。在这种情况下，如果 CRM ID是已知的，eVar3 将始终包含该 CRM ID，因此只有 eVar3 需要 ID-PERSON 标签。
 
-> [!CAUTION] 保留命名空间“visitorId”和“customVisitorId”，用于标识Analytics旧版跟踪Cookie和Analytics客户访客ID。 请勿将这些命名空间用于自定义流量或转换变量。
+> [!CAUTION]命名空间“visitorId”和“customVisitorId”是保留名称，用于识别 Analytics 旧版跟踪 Cookie 和 Analytics 客户的访客 ID。请勿将这些名称空间用于自定义流量或转换变量。
 
 ## Variable Types and the Data Privacy/DULE Labels they support {#section_CE7C3EDE1344466A98BC45E394B40762}
 
@@ -335,7 +333,7 @@ Adobe Analytics数据隐私实施支持以下标识数据、敏感数据和数�
    <td colname="col1"> <p>数据处理维度 </p> </td> 
    <td colname="col2"> <p>自定义访客 ID </p> </td> 
    <td colname="col3"> <p>ID-DEVICE / ID-PERSON </p> <p>DEL-DEVICE / DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>您无法删除ID或DEL标签（设置为“无”），但可以根据您的自定义ID实现将其更改为DEVICE或PERSON变体。 </p> <p>如果您不使用自定义访客ID，则设置不重要。 </p> </td> 
+   <td colname="col4"> <p>您不可以删除 ID 或 DEL 标签（设置为“无”），但可以根据您的自定义 ID 实施，将其更改为 DEVICE 或 PERSON 变体。 </p> <p>如果您不使用自定义访客ID，则设置不重要。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> 
@@ -348,7 +346,7 @@ Adobe Analytics数据隐私实施支持以下标识数据、敏感数据和数�
    <td colname="col4"> <p>您不可以删除 DEL 标签，但可以将其更改为 DEL-DEVICE 或 DEL-PERSON，或者 DEL-DEVICE 和 DEL-PERSON。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>ClickMap 操作（旧版）、 </p> <p>ClickMap 上下文（旧版）、 </p> <p>页面、 </p> <p>页面 URL、 </p> <p>原始登录页面 URL、 </p> <p>反向链接、 </p> <p>访问起始页 URL </p> </td> 
+   <td colname="col2"> <p>ClickMap 操作（旧版）、 </p> <p>ClickMap 上下文（旧版）、 </p> <p>页面、 </p> <p>页面 URL, </p> <p>原始登录页面 URL、 </p> <p>反向链接、 </p> <p>访问起始页 URL </p> </td> 
    <td colname="col3"> <p>无 / I1 / I2 </p> <p>无 / DEL-DEVICE / DEL-PERSON </p> </td> 
    <td colname="col4"> <p>变量可包含 URL 参数，URL 参数又可能包含直接或间接可识别数据。如果您的实施不会在这些变量中直接或间接收集可识别数据，那么它们就不需要标识或删除标签。 </p> <p>请注意，删除时会清除 URL 参数，但保留基本 URL。 </p> </td> 
   </tr> 
@@ -434,11 +432,11 @@ Adobe Analytics对数据隐私删除请求的支持旨在最大限度地减少�
   </tr> 
   <tr> 
    <td colname="col1"> <p>访客 ID </p> <p>MCID / ECID </p> </td> 
-   <td colname="col2"> <p> 这些 ID 具有 DEL-DEVICE 标签，但不能添加 DEL-PERSON 标签。如果您指定了对每个请求都进行<a href="/help/admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local">ID 扩展</a>，则在处理删除请求时，这些 ID 都会被自动删除，即使是使用了 ID-PERSON 的 ID 也是如此。 </p> <p>如果您不使用 ID 扩展，但您希望当 prop 或 eVar 中包含匹配 ID 时，这些 Cookie ID 能够对命中项匿名化，那么即使该 prop 或 eVar 可真正识别个人，您也可以通过为其设置 ID-DEVICE 标签来解决此标签限制（也需要将所有 DEL-PERSON 标签更改为 DEL-DEVICE 标签）。在这种情况下，由于只有访客 ID 或 ECID 的部分实例被匿名化，因此历史报表中的独特访客计数将发生变化。 </p> </td> 
+   <td colname="col2"> <p> 这些 ID 具有 DEL-DEVICE 标签，但不能添加 DEL-PERSON 标签。如果您指定了对每个请求都进行 <a href="/help/admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local">ID 扩展</a>，则在处理删除请求时，这些 ID 都会被自动删除，即使是使用了 ID-PERSON 的 ID 也是如此。 </p> <p>如果您不使用 ID 扩展，但您希望当 prop 或 eVar 中包含匹配 ID 时，这些 Cookie ID 能够对命中项匿名化，那么即使该 prop 或 eVar 可真正识别个人，您也可以通过为其设置 ID-DEVICE 标签来解决此标签限制（也需要将所有 DEL-PERSON 标签更改为 DEL-DEVICE 标签）。在这种情况下，由于只有访客 ID 或 ECID 的部分实例被匿名化，因此历史报表中的独特访客计数将发生变化。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>AMO ID </p> </td> 
-   <td colname="col2"> <p> Adobe Advertising Cloud ID是一个解决方案变量，具有不可修改的DEL-DEVICE标签。 与访客 ID 和 MCID 一样，它由 Cookie 填充。只要删除这些其他 ID，它就会从命中项当中删除。更多详细信息，请参阅这些变量的描述。 </p> </td> 
+   <td colname="col2"> <p> Adobe Advertising Cloud ID 是一个解决方案变量，具有不可修改的 DEL-DEVICE 标签。与访客 ID 和 MCID 一样，它由 Cookie 填充。只要删除这些其他 ID，它就会从命中项当中删除。更多详细信息，请参阅这些变量的描述。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
