@@ -7,8 +7,8 @@ solution: Analytics
 title: 警报
 topic: 开发人员和实施
 uuid: 8b266adf-bb6b-4bff-8307-e246aca717c7
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,4 +26,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 您可以通过 Reports &amp; Analytics 的任何报表中的&#x200B;**[!UICONTROL 更多]** &gt; **[!UICONTROL 警报]**，访问此新的警报系统。
 
-请参阅 [!UICONTROL Analysis Workspace] 帮助中的[智能警报](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/intellligent_alerts.html)。
+请参 [阅Analysis Workspace帮助](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html)[!UICONTROL 中的智能警报] 。
