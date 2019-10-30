@@ -4,10 +4,10 @@ seo-description: 有关报表功能（包括工具栏、日历和详细信息表
 seo-title: 报表功能
 solution: Analytics
 title: 报表功能
-topic: Reports & Analytics
-uuid: 32f72961-cb94-4e50-ae18-03326e02 bc8 b
+topic: Reports and Analytics
+uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,31 +22,31 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 An example of a Pages Report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages Reports]** &gt; **[!UICONTROL Pages]**).
 
-![](assets/pages_report.png){width=“672px”}
+![](assets/pages_report.png){width="672px"}
 
 ## 报表工具栏 {#section_0D674177AE6C4A71B07234DB25910ECD}
 
 与可根据数据更改网站或营销策略的决策人共享报表数据。
 
-![](assets/toolbar.png){width=“672px”}
+![](assets/toolbar.png){width="672px"}
 
-Also refer to [Customizing a Report](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+另请参阅自 [定义报告](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md)。
 
 ## 报表标题和设置 {#section_12A90FAE02EC43FB9F11F0E2CE8FAE8F}
 
 显示报表设置，并且允许您配置报表类型、选择量度等。此组中的可用选项因运行的报表而变化。
 
-![](assets/settings_header.png){width=“672px”}
+![](assets/settings_header.png){width="672px"}
 
-See [Customizing a Report](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md) for more information.
+有关 [详细信息，请参阅自定义报告](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md) 。
 
 ## 日历 {#section_8C6C4AD84D9043E8ABD53FF8F645AAB1}
 
 通过单击日历按钮并选择日期范围来指定日期。还可以选择两个时间范围以比较绩效。
 
-![](assets/calendar_large.png){width=“672px”}
+![](assets/calendar_large.png){width="672px"}
 
-See [Selecting a Date or Date Range](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_9BEF7D4D839A4748B76E8500D1406C34) and [Comparing Dates](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_95155C3700774B709F5FB81AE96B0824).
+请参 [阅选择日期或日期范围](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_9BEF7D4D839A4748B76E8500D1406C34)[和比较日期](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_95155C3700774B709F5FB81AE96B0824)。
 
 ## 图表类型 {#section_8B9CBA4096E64FC3B744E2E06EB83C19}
 
