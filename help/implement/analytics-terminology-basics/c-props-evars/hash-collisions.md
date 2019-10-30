@@ -1,13 +1,13 @@
 ---
 description: 描述什么是哈希冲突以及它是如何体现的。
-keywords: Analytics实施；哈希；冲突；prop；evar；哈希
+keywords: Analytics Implementation;hash;collision;prop;evar;hash
 seo-description: 描述什么是哈希冲突以及它是如何体现的。
 seo-title: 哈希冲突
 solution: Analytics
 title: 哈希冲突
 topic: 开发人员和实施
-uuid: dfd6e64-4a62-4087-bc28-fb867 ec2 b1 b6
-translation-type: tm+mt
+uuid: 7dfd6e64-4a62-4087-bc28-fb867ec2b1b6
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
