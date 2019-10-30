@@ -1,13 +1,13 @@
 ---
-description: 通过请求向导步骤窗口，可以配置报表布局、标题格式和输出维度过滤。您可以使用引导布局配置请求，这与创建 Excel 数据透视表类似。
-seo-description: 通过请求向导步骤窗口，可以配置报表布局、标题格式和输出维度过滤。您可以使用引导布局配置请求，这与创建 Excel 数据透视表类似。
+description: 在“请求向导第2步”窗口中，可以配置报表布局、标题格式和输出的维筛选。 您可以使用引导布局配置请求，这与创建 Excel 数据透视表类似。
+seo-description: 在“请求向导第2步”窗口中，可以配置报表布局、标题格式和输出的维筛选。 您可以使用引导布局配置请求，这与创建 Excel 数据透视表类似。
 seo-title: 布局 - 请求向导第 2 步
 solution: Analytics
 title: 布局 - 请求向导第 2 步
 topic: Report Builder
-uuid: 92409e22-8827-af2 f-bfef8368 e0 f7
+uuid: 92409e22-8b21-4827-af2f-bfef8368e0f7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
