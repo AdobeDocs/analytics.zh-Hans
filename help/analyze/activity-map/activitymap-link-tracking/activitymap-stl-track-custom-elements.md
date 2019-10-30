@@ -7,7 +7,7 @@ title: 使用 s.tl() 函数
 topic: Activity Map
 uuid: 59e062af-6a1c-46ff-9c3b-6cf7a0453711
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -31,7 +31,7 @@ s.tl(this,linkType,
 
 ## Overlay rendering for dynamic content {#section_FD24B61A732149C7B58BA957DD84A5E7}
 
-When the s.tl() function is called directly from the HTML element’s on-click event, [!DNL Activity Map] can display an overlay for that element when the web page is loaded. 示例:
+When the s.tl() function is called directly from the HTML element's on-click event, [!DNL Activity Map] can display an overlay for that element when the web page is loaded. 示例:
 
 ```
 <div onclick="s.tl(this,'o','some link name')">Text to click on</a>
@@ -39,7 +39,7 @@ When the s.tl() function is called directly from the HTML element’s on-click e
 
 初始页面加载后，无论何时向该页面添加任何网页内容，都是间接调用 s.tl 函数，因此我们无法显示新增内容的叠加图，除非明确地激活/单击页面。Then a new link collection process is triggered from [!DNL Activity Map].
 
-When the s.tl() function is not called directly from the HTML element’s on-click event, [!DNL Activity Map] can only display overlay once that element has been clicked by the user. 下面是间接调用 s.tl() 函数的示例：
+When the s.tl() function is not called directly from the HTML element's on-click event, [!DNL Activity Map] can only display overlay once that element has been clicked by the user. 下面是间接调用 s.tl() 函数的示例：
 
 ```
 <div onclick="someFn(event)"></div> 
@@ -62,11 +62,11 @@ s.ActivityMap.link = function(element,linkName){
 ```
 
 ```
-<button type=”button” onclick=”s.tl(this,’o’,makeLinkName(this)”>Add To Cart</button>
+<button type="button" onclick="s.tl(this,'o',makeLinkName(this)">Add To Cart</button>
 ```
 
 这里，我们覆盖了 ActivityMap.link 函数，以便在调用时执行以下三个任务之一：
 
 1. 如果传递 linkName，ActivityMap.link 将由 s.tl() 调用，这样只需返回 s.tl 作为 linkName 传入的内容。
-1. This is called by [!DNL Activity Map] at reporting time, so a linkName is never passed, and so call makeLinkName() with the link element. This is the crucial step here - the “makeLinkName(element)” call should be the same at the s.tl call’s 3rd argument in the `<button>` tag. 这意味着在调用 s.tl 时，我们会跟踪由 makeLinkName 返回的字符串。When [!DNL Activity Map] reports on the links on the page, is uses the same call to make a link.
+1. This is called by [!DNL Activity Map] at reporting time, so a linkName is never passed, and so call makeLinkName() with the link element. This is the crucial step here - the "makeLinkName(element)" call should be the same at the s.tl call's 3rd argument in the `<button>` tag. 这意味着在调用 s.tl 时，我们会跟踪由 makeLinkName 返回的字符串。When [!DNL Activity Map] reports on the links on the page, is uses the same call to make a link.
 1. 最终的解决方案是只返回默认 ActivityMap 链接函数的原始返回值。在默认情况下将此引用与调用保持联系，可使您只需覆盖或写入 makeLinkName 的自定义代码，而无需为页面上的所有链接创建链接返回值。
