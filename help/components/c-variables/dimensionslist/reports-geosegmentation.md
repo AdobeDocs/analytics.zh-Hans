@@ -4,10 +4,10 @@ seo-description: 显示有关访客位置的数据。地域划分报表包括国
 seo-title: 地域划分
 solution: Analytics
 title: 地域划分
-topic: 报表
-uuid: 66aa22c4-dcbc-491a-b23 c-0c3 d87444 d23
+topic: 报告
+uuid: 66aa22c4-dcbc-491a-b23c-0c3d8744d23
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -48,7 +48,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> 报表准确性 </td> 
-   <td colname="col2"> <p>Adobe 与全球领先的 IP 智能和身份验证解决方案提供商 Digital Envoy 合作推出了“地域划分”功能，该功能基于最终用户 IP 地址进行地理位置上的测量。虽然基于各数据集的准确性可能会有所不同，但通常情况下，Digital Envoy 在国家/地区级别可提供 99% 以上的准确性，在地区级别可提供 97％ 以上的准确性，在城市级别提供 90% 以上的准确性。 </p> <p>注意：这些数字假定未启用[设置](/help/admin/admin/general-acct-settings-admin. md)删除IP地址的最后八位字节。 </p> <p>IP 地址会被映射到邮政编码，并且每个城市也会按邮政编码进行定义，邮政编码是由“地方当局”为该城市定义的组成部分。例如，柏林的定义中不包含柏林的郊区，但是每个城镇/城市会单独列出，这样 IP 地址便可以准确地映射到其中某个城镇的邮政编码。 </p> <p>可能会影响地域划分数据的一些因素包括： </p> 
+   <td colname="col2"> <p>Adobe 与全球领先的 IP 智能和身份验证解决方案提供商 Digital Envoy 合作推出了“地域划分”功能，该功能基于最终用户 IP 地址进行地理位置上的测量。虽然基于各数据集的准确性可能会有所不同，但通常情况下，Digital Envoy 在国家/地区级别可提供 99% 以上的准确性，在地区级别可提供 97％ 以上的准确性，在城市级别提供 90% 以上的准确性。 </p> <p>注意：这些数字假定删除IP地址的最后八位字节的[设置](/help/admin/admin/general-acct-settings-admin.md)未启用。 </p> <p>IP地址被映射到邮政编码，每个城市都由“地方当局”定义的邮政编码来定义。 例如，柏林的郊区并不包括在柏林的定义中，但每个城市／城市都单独列出，假设IP地址可以准确地映射到其中一个城镇的邮政编码。 </p> <p>可能会影响地域划分数据的一些因素包括： </p> 
     <ul id="ul_1B05024AD5174232A8DB8145753FB09B"> 
      <li id="li_C3A21E7C1186490EB9A236634DB45E7F">表示企业代理的 IP 地址。这些 IP 地址可以显示为通过用户企业网络的流量，但如果用户正在远程工作，则这些 IP 地址实际可能为其他位置。 </li> 
      <li id="li_56FC36B3598C420F9246D4E8772822A7">移动设备 IP 地址。移动设备 IP 定位会根据不同位置和网络以不同级别运行。许多运营商通过集中式或区域式 POP 回传 IP 流量。 </li> 
