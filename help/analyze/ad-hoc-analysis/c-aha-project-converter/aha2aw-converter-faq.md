@@ -3,7 +3,7 @@ description: 'null'
 seo-description: 'null'
 seo-title: 项目转换器常见问题解答
 title: 项目转换器常见问题解答
-uuid: 8e1bf0e9-ce0 f-443a-bcfe-45d3 e2 c82 b1 c
+uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
@@ -17,15 +17,15 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * [已知转换问题](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_39C922A58B2E49C9877B363042801361)
 * [转换常见问题解答](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_1E53FE373AF045978F939916124E194E)
 
-## Known Conversion Issues {#section_39C922A58B2E49C9877B363042801361}
+## 已知转换问题 {#section_39C922A58B2E49C9877B363042801361}
 
 | 问题 | 描述 |
 |--- |--- |
-| 具有划分或列的分钟粒度 | 当分钟粒度应用于它时，或者如果列中存在分钟粒度，则项目无法转换为Analysis Workspace。解决方法是在分钟粒度上删除划分，并从列中删除该划分，然后转换项目。然后，您可以在Analysis Workspace的分钟粒度上应用分组讨论。 |
-| 与列区段一起使用的内部计算量度 | 如果您将内部计算量度与列区段一起使用，则项目无法转换为Analysis Workspace。要解决此问题，请在转换之前从项目中删除内部计算的量度，然后在Analysis Workspace中重新添加这些量度。 |
+| 细分的分钟粒度或列粒度 | 当分钟粒度已应用细分时，或者如果分钟粒度存在于列中，则无法将项目转换为Analysis Workspace。  解决方法是删除按分钟粒度划分的细分，将其从列中删除，然后转换项目。 然后，您可以在Analysis Workspace中按分钟粒度应用细分。 |
+| 与列段一起使用的内部计算量度 | 如果您正在将内部计算量度与列段结合使用，则无法将项目转换为Analysis Workspace。 要解决此问题，请在转换前从项目中删除内部计算的度量，然后在Analysis Workspace中重新添加这些度量。 |
 
 
-## Conversion FAQ {#section_1E53FE373AF045978F939916124E194E}
+## 转换常见问题解答 {#section_1E53FE373AF045978F939916124E194E}
 
 <table id="table_48CC119236C94835A6A512E989BE4200"> 
  <thead> 
@@ -37,7 +37,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>问：在 Analysis Workspace 中，是否有任何 Ad Hoc Analysis 功能不受支持？</b> </p> </td> 
-   <td colname="col2"> <p>答：在 Analysis Workspace 中，网站分析报表不受支持。临时分析和工作区中的其他可视化之间略有差异。有关详细信息，请参阅下面的问题。 </p> </td> 
+   <td colname="col2"> <p>答：在 Analysis Workspace 中，网站分析报表不受支持。临时分析和工作区中的其他可视化功能之间也有一些细微的差异。 有关详细信息，请参阅下面的问题。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：表格设置如何转换？</b> </p> </td> 
@@ -95,7 +95,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col2"> <p>全局数据设置可能会导致两次导出的同一项目在行为上出现差异。 </p> 
     <ul id="ul_E3827883DD8045FAAB359D7E85E3EEFA"> 
      <li id="li_1056CA4813C44638BEB070228AE6914C"><b>计数重复实例。</b>无论导出时应用了什么设置，都会应用到 Analysis Workspace 中的已导出项目。 </li> 
-     <li id="li_D5405E2862CF434CA82AA9DE000F4BBC"><b>数据源。</b>在 Analysis Workspace 中，会显示所有 Analytics 数据，包括数据源。 </li> 
+     <li id="li_D5405E2862CF434CA82AA9DE000F4BBC"><b>数据源.</b>在 Analysis Workspace 中，会显示所有 Analytics 数据，包括数据源。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
