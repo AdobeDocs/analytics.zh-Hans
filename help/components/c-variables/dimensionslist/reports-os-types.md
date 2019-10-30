@@ -4,10 +4,10 @@ seo-description: 将操作系统报表内操作系统报表的特定版本汇总
 seo-title: 操作系统类型
 solution: Analytics
 title: 操作系统类型
-topic: 报表
-uuid: 2f442d6b-6bcc-4667-a853-3715a5379 ec5
+topic: 报告
+uuid: 2f442d6b-6bcc-4667-a853-3715a5379ec5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
