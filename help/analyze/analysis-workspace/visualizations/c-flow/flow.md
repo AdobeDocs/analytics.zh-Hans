@@ -1,18 +1,18 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 流程概述
-title: 流程概述
-uuid: fc22b573-2d18-4c29-866c-f317 c920 d27 a
+seo-title: 流量概述
+title: 流量概述
+uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 流程概述
+# 流量概述
 
-流功能显示了客户在网站和应用程序中的路径。
+流程功能可显示客户浏览您的网站和应用程序的路径。
 
 它允许您：
 
@@ -20,11 +20,9 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
 * 分析客户在指定检查点（例如登入、特定维度或退出）之前和之后的去向
 * 通过在选定路径中指定一个特定点来创建区段
 
->[!NOTE]
->
->For information on how the results of applying segments to Flow might differ between Analysis Workspace and Reports &amp; Analytics/Ad Hoc Analysis, see [Segmentation as a Foundation for Flow &amp; Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
+> [!NOTE] 有关将区段应用到流的结果在Analysis Workspace和Reports &amp; Analytics/Ad Hoc analysis之间可能有何不同的信息，请参阅将区段作为流 [量和流失的基础](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)。
 
-[YouTube上的流可视化](https://www.youtube.com/watch?v=3R1HTM7y_RM&index=55&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4：56)
+[YouTube上的流动可视化](https://www.youtube.com/watch?v=3R1HTM7y_RM&index=55&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:56)
 
 ## 维度间流量 {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
