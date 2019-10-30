@@ -5,7 +5,7 @@ seo-title: 在激活此集成之前
 title: 在激活此集成之前
 uuid: fdc762bc-24e3-4c0a-904d-d4be2a4f3a20
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -58,9 +58,7 @@ appFigures的数据连接器集成使用Analytics变量跟踪各种appFigures指
 
 ### 必需变量 {#section-3ca8dc46bab0436cba0c9ef827c8356a}
 
->[!NOTE]
->
->此集成使用专用变量来获取应用商店数据，因此您无需分配自定义商务变量和事件。
+> [!NOTE] 此集成使用专用变量来获取应用商店数据，因此您无需分配自定义商务变量和事件。
 
 | 变量类型 | 名称 | 填充方法 | 描述 |
 |---|---|---|---|
