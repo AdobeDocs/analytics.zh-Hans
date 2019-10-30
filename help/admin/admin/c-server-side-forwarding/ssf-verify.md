@@ -1,17 +1,17 @@
 ---
 description: 要验证是否已正确启用服务器端转发，您将需要检查来自 Analytics 跟踪请求的 HTTP 响应。此操作可以使用浏览器的开发人员工具或使用 Charles Web Debugger 之类的代理工具来完成。以下说明介绍了必须存在哪些指示器才能确保已正确启用服务器端转发。
 seo-description: 要验证是否已正确启用服务器端转发，您将需要检查来自 Analytics 跟踪请求的 HTTP 响应。此操作可以使用浏览器的开发人员工具或使用 Charles Web Debugger 之类的代理工具来完成。以下说明介绍了必须存在哪些指示器才能确保已正确启用服务器端转发。
-seo-title: 如何验证服务器端转发实施
+seo-title: 如何验证服务器端转发的实施情况
 solution: Audience Manager
-title: 如何验证服务器端转发实施
-uuid: e37296cc-0120-486a-a4 ca-78d648 cf6 a11
+title: 如何验证服务器端转发的实施情况
+uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 如何验证服务器端转发实施
+# 如何验证服务器端转发的实施情况
 
 要验证是否已正确启用服务器端转发，您将需要检查来自 Analytics 跟踪请求的 HTTP 响应。此操作可以使用浏览器的开发人员工具或使用 Charles Web Debugger 之类的代理工具来完成。以下说明介绍了必须存在哪些指示器才能确保已正确启用服务器端转发。
 
@@ -25,7 +25,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 >[!CAUTION]
 >
->If the response contains the key value pair `"status":"SUCCESS"` or a 2 x 2 image, then server-side forwarding * is not* configured correctly. 请确保Identity Service已正确部署，您已部署App Measurement模块，适用的报告套件已映射到正确的IMS Org，并且在Analytics管理控制台中已启用服务器端转发。
+>If the response contains the key value pair `"status":"SUCCESS"` or a 2 x 2 image, then server-side forwarding * is not* configured correctly. 请确保正确部署了标识服务，您已部署了App Measurement模块，相应的报表包已映射到正确的IMS组织，并且已在Analytics管理控制台中启用了服务器端转发。
 
 >[!MORE_LIKE_THIS]
 >
