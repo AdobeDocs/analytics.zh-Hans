@@ -8,7 +8,7 @@ title: Analytics 变量和事件
 topic: Data connectors
 uuid: 8996cb58-c793-4600-99ef-af3064642b29
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,7 @@ DFA 的 Data connectors 集成使用 Analytics 变量来跟踪 DFA 促销活动�
 | 变量 | 友好名称 | 填充方法 | 描述 |
 |---|---|---|---|
 | s.campaign 或 eVar | 广告跟踪代码 | 由 DFA 促销活动的 Data Connectors 自动填充。 | 跟踪所有促销活动的点进转化。 |
-| eVar* | 显示到达 | 由 DFA 促销活动的 VISTA 和 DFA 自动填充。 | 跟踪 DFA ID 的显示到达数据。此 eVar 应当具有与 *`s.campaign`* variable. 必须是变量提供者ID中标识的相同转换变量。 确保 eVar 启用了完全子关系。启用此功能的成本属于 Data connectors 集成费用的一部分 |
+| eVar* | 显示到达 | 由 DFA 促销活动的 VISTA 和 DFA 自动填充。 | 跟踪 DFA ID 的显示到达数据。此 eVar 应当具有与 *`s.campaign`* 变量捕获。必须是变量提供者ID中标识的相同转换变量。 确保 eVar 启用了完全子关系。启用此功能的成本属于 Data connectors 集成费用的一部分 |
 | eVar* | DFA 查询错误 | （可选）已通过 JavaScript 收集代码填充。 | 包含从DFA返回的多个错误代码之一。 |
 | 事件* | 显示到达计数 | 由 DFA 促销活动的 Data Connectors 自动填充。 | 捕获用户查看某广告后没有点进但访问了您的网站的次数。 |
 | 事件* | 展示次数 | 通过来自 DFA 的数据馈送自动填充。 | 跟踪特定 DFA 广告服务的提供次数。 |
