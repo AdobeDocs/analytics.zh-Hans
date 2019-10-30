@@ -1,20 +1,20 @@
 ---
 description: “报表包使用情况”选项卡提供与您的账单公司关联的所有登录公司所具有的各个报表包在当前使用时段内的服务器调用使用情况数据。
 seo-description: “报表包使用情况”选项卡提供与您的账单公司关联的所有登录公司所具有的各个报表包在当前使用时段内的服务器调用使用情况数据。
-seo-title: 查看报告套件使用情况
-title: 查看报告套件使用情况
+seo-title: 查看报表包使用情况
+title: 查看报表包使用情况
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 translation-type: tm+mt
-source-git-commit: a6aac17d93877ed2a6525484ba5aa4e741ca116a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 查看报告套件使用情况
+# 查看报表包使用情况
 
 “报表包使用情况”选项卡提供与您的账单公司关联的所有登录公司所具有的各个报表包在当前使用时段内的服务器调用使用情况数据。
 
-**[!UICONTROL “分析]** ”&gt;“ **[!UICONTROL 管理员]** ”&gt; **[!UICONTROL “服务器调用使用情况]** ”&gt; **[!UICONTROL “报告套件使用情况”]**
+**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理员]** &gt; Server Call Usage(服务器调 **[!UICONTROL 用使用情况)]** &gt; Report Suite **[!UICONTROL Usage（报告包使用情况）]**
 
 >[!IMPORTANT]
 >
@@ -51,13 +51,13 @@ source-git-commit: a6aac17d93877ed2a6525484ba5aa4e741ca116a
 
 | 报表元素 | 描述 |
 |--- |--- |
-| 文件名 | Hardcoded name: Usage Report `day and time of report creation.csv` |
+| 文件名 | 硬编码名称：使用情况报告 `day and time of report creation.csv` |
 | 包含的报表包 | 此列表中将包含您在“报表服务器使用情况”页面上选择的任何报表包。 |
 | 包含的调用类型 | 指定以下选项的任一组合：所有调用（默认）、主调用、次级调用、移动设备主调用、移动设备次级调用。 |
-| 时间范围 | 您可以选择当前使用时段，也可以指定自定义的时间范围。对于自定义的时间范围，请指定范围起始时间和范围结束时间。<br>**注意：** 您不能在2015年月之前下载使用数据 </br>。 |
+| 时间范围 | 您可以选择当前使用时段，也可以指定自定义的时间范围。对于自定义的时间范围，请指定范围起始时间和范围结束时间。<br>**** 注意：您不能在2015年1月之前下载使用数据 </br>。 |
 
 1. Click **[!UICONTROL Download]**.
 
-以下是下载的. csv文件的外观快照。它包含报表包ID的列。报表包ID指定只能包含字母数字字符的唯一ID。创建报表包后，无法更改此ID。
+以下是下载的。csv文件的屏幕截图。 它包含报表包ID的列。 报表包ID指定唯一的ID，它只能包含字母数字字符。 在创建报表包后，无法更改此ID。
 
 ![](assets/download-usage.png)
