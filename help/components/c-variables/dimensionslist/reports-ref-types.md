@@ -1,20 +1,20 @@
 ---
-description: 通过跟踪和记录访客每次访问的反向链接网站，可以确定访客每次访问时如何找到您的网站。
-seo-description: 通过跟踪和记录访客每次访问的反向链接网站，可以确定访客每次访问时如何找到您的网站。
+description: 通过跟踪和记录每次访问的访客“引用网站”，您可以确定访客如何找到每次访问的网站。
+seo-description: 通过跟踪和记录每次访问的访客“引用网站”，您可以确定访客如何找到每次访问的网站。
 seo-title: 反向链接类型
 solution: Analytics
 title: 反向链接类型
-topic: 报表
-uuid: 7f63d327-d223-4537-a722-4780ae05 c2 b
+topic: 报告
+uuid: 7f63d327-d223-4537-a722-4780ae05c2b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 反向链接类型
 
-通过跟踪和记录访客每次访问的反向链接网站，可以确定访客每次访问时如何找到您的网站。
+通过跟踪和记录每次访问的访客“引用网站”，您可以确定访客如何找到每次访问的网站。
 
 以下列表列出了有关不同类型反向链接的定义：
 
@@ -24,9 +24,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **[!UICONTROL 社交网络]**：反向链接值必须被 Adobe 视为社交网络。请参阅[社交网络列表](https://helpx.adobe.com/analytics/kb/list-social-networks.html)。
 
-**电子邮件**：当访客单击包含该协议 [!DNL imap://] 的电子邮件链接链接或 [!DNL mail://] 到达您的站点时，引用域将被视为电子邮件引用域。例如，由于协议为 [!DNL https://mail.yahoo.com]://，因此来自 [!DNL https://] 的任何消息均不会计为电子邮件反向链接。Outlook 电子邮件会报告于“键入/书签式”行上，而任何采用 HTTP 协议（域为已知搜索引擎）的反向链接均报告于“搜索引擎”行上。
+**电子邮件**:当访客单击通过电子邮件发送的包含协议的消息链接或到达您的网站时，引用域被视 [!DNL imap://] 为电子 [!DNL mail://] 邮件引用域。 例如，由于协议为 [!DNL https://mail.yahoo.com]://，因此来自 [!DNL https://] 的任何消息均不会计为电子邮件反向链接。Outlook 电子邮件会报告于“键入/书签式”行上，而任何采用 HTTP 协议（域为已知搜索引擎）的反向链接均报告于“搜索引擎”行上。
 
-**键入/书签**：在以下两种情形下记录反向链接：访客在其浏览器中直接键入您的网站的 URL，或者访客通过选择书签来访问您的网站。移动设备会报告&#x200B;*`typed/bookmarked`*&#x200B;类型的反向链接（如果访问的首次点击没有反向链接）。
+**输入／添加书签**:访问者直接在浏览器中键入您网站的URL，或通过选择书签访问您网站时，会记录引用网站。 如果访问的第一次点击 *`typed/bookmarked`* 中没有引用，移动设备会报告引用类型。
 
 **[!UICONTROL 网站内部]**：这些项目是由内部 URL 过滤器标记的 URL。These items are not counted as *`referrer instances`* but can be seen when reporting on other metrics.
 
