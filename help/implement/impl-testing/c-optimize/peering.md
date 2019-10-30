@@ -8,7 +8,7 @@ subtopic: 故障诊断
 title: 对等
 topic: 开发人员和实施
 uuid: b3d34369-8cb8-4f12-8b58-847132c43881
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
