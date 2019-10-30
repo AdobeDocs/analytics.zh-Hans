@@ -5,9 +5,9 @@ seo-title: 异常检测
 solution: Analytics
 title: 异常检测
 topic: Report Builder
-uuid: 02da21b4-3394-471b-97b5-aa1 bdf1 f445
+uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,9 +25,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 视频缓冲事件剧增
 * 低视频比特率剧增
 
->[!NOTE]
->
->只有在选择“天”粒度时，异常检测才可用。
+> [!NOTE] 异常检测仅在您选择“日”粒度时可用。
 
 <p class="head"> <b>异常检测量度</b> </p>
 
