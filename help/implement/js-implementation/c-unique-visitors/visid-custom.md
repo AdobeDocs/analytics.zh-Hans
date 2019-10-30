@@ -6,8 +6,8 @@ seo-title: 自定义访客 ID
 solution: Analytics
 title: 自定义访客 ID
 topic: 开发人员和实施
-uuid: 49881e27-0418-4ecf-a092-dcc3 db923 f40
-translation-type: tm+mt
+uuid: 49881e27-0418-4ecf-a092-dcc3db923f40
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -25,7 +25,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 |---|---|
 | [s.visitorID](/help/implement/js-implementation/c-variables/page-variables.md) 变量 | 如果在浏览器中使用 JavaScript，或者如果使用任何其他 AppMeasurement 库，则可以在数据收集变量中设置访客 ID。 |
 | 图像请求中的查询字符串参数 | 此功能允许您通过硬编码图像请求中的 [!UICONTROL vid 查询字符串]参数将[!UICONTROL 访客 ID] 传递到 Adobe。 |
-| 数据插入 API | On devices using wireless protocols that don't accept JavaScript, you can send an XML post containing the `<visitorid/>` XML element to Adobe collection servers from your servers. |
+| 数据插入 API | 如果设备使用的无线协议不接受 JavaScript，则可以将包含 `<visitorid/>` XML 元素的 XML post 从您的服务器发送到 Adobe 收集服务器。 |
 | URL 重写和 VISTA | 部分部署架构支持使用 URL 重写，以便在无法设置 Cookie 的情况下保持会话状态。在此类情况下，Adobe 工程技术服务可以实施 [!DNL VISTA] 规则来查找页面 URL 中的会话值，然后设置其格式并置入 [!UICONTROL visid] 值。 |
 >[!CAUTION]
->**自定义访客ID必须足够精细/唯一**：自定义访客ID的无效实施可能导致数据错误且报表性能不佳。如果自定义访客ID的唯一性或粒度不够，或者错误地设置为常用默认值(如字符串“NULL”)或“0”，则Adobe Analytics将以单个访客的身份将多个访客的点击次数视为一个访客。这种情况导致数据不正确，访客计数过低，区段无法正确工作。粒度不足的自定义访问者ID还可防止数据在Analytics报告群集中的节点之间正确分布。在这种情况下，一个节点会过载，并且无法及时处理报告请求。最后，报告包的所有报告都将失败。<br>未实施的自定义访客ID可能不会立即影响报告性能，因为Analytics通常可以处理数个月的不对称数据；但是，随着时间的推移，未实施的自定义访客ID值可能会因要求Analytics禁用对受影响报表包的处理而产生问题。</br><br>实施人员应遵循以下准则：不应为超过1%的报表包流量将单个自定义访客ID值计入其中。Although the 1% guideline is sufficient for most report suites, the actual limit that might cause reporting performance to be impacted may be lower than 1% for very large report suites.</br>
+>**自定义访客 ID 必须足够具体/独特**：如果自定义访客 ID 的实施无效，则可能会导致数据错误和报表性能不佳。如果自定义访客 ID 不够独特或具体，或者未正确设置为通用默认值（例如字符串“NULL”或“0”），则 Adobe Analytics 会将多个不同访客的点击视为单个访客的点击。这种情况会导致数据不正确，访客计数过低，且该访客的区段无法正常工作。如果自定义访客 ID 不够具体，还会导致数据无法在 Analytics 报表集群中的各个节点之间正确分布。在这种情况下，一个节点会变得过载，无法及时处理报表请求。最终，报表包的所有报表都将失败。<br>自定义访客 ID 实施不当可能不会立即影响报表的性能，因为 Analytics 处理不平衡数据通常需要几个月。但是，随着时间的流逝，如果自定义访客 ID 值实施不当，则可能会导致问题，要求 Analytics 禁用对受影响报表包的处理。</br><br>实施人员应遵循以下准则：单个自定义访客 ID 的点击值绝不能超过报表包流量的 1%。尽管对于大多数报表包来说，1% 的标准已经足够，但是对于大型报表包而言，可能存在一些实际限制，导致报表性能受到影响，致使其值低于 1%。</br>
