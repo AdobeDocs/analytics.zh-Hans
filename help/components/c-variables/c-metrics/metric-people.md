@@ -3,9 +3,9 @@ description: 人员量度是 Adobe Analytics 的一个报表量度，可帮助�
 seo-description: 人员量度是 Adobe Analytics 的一个报表量度，可帮助您将设备与人员相对应。
 seo-title: 人员
 title: 人员
-uuid: f67fe072-099d-4eBC-8234-9eDE2a632fab
+uuid: f67fe072-099d-4ebc-8234-9ede2a632fab
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
