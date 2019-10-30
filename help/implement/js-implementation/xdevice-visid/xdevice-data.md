@@ -8,7 +8,7 @@ subtopic: 访客
 title: 跨设备访客识别的数据影响
 topic: 开发人员和实施
 uuid: 1db4d149-cd50-4b41-a850-988901f25051
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->不再建议跨设备识别访客的方法。Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+>不再建议使用这种方法来识别跨设备访客。请参阅 [Adobe Experience Cloud 设备协作文档](https://marketing.adobe.com/resources/help/zh_CN/mcdc/)。
 
 概述启用跨设备访客识别会对报表中所显示的数据产生怎样的影响。
 
