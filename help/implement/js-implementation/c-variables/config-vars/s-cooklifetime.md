@@ -5,7 +5,7 @@ seo-description: 通过动态变量，您可以将一个变量中的值复制到
 solution: null
 title: 动态变量
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
 |---|---|---|---|
 | 不适用 | cl | “流量”&gt;“技术”&gt;“Cookie”所有与访客有关的报表 | "" |
 
-如果设置了&#x200B;*`cookieLifetime`*，它会覆盖 JavaScript 和数据收集服务器的任何其他 Cookie 过期日期，但有一种情况除外，下文对此进行了介绍。The *`cookieLifetime`* variable can have one of three values:
+If *`cookieLifetime`* is set, it overrides any other cookie expirations for both JavaScript and data collection servers, with one exception, described below. *`cookieLifetime`* 变量的值为以下三者之一：
 
 * [!DNL Analytics] Cookie
 * Cookie
@@ -53,4 +53,4 @@ s.cookieLifetime="86400" // one day in seconds
 
 ## 缺陷、问题和提示
 
-*`cookieLifetime`* 影响跟 [!DNL Analytics] 踪。 If, for example, *`cookieLifetime`* is two days, then monthly, quarterly, and yearly unique visitor reports will be incorrect. 务请小心设置 *`cookieLifetime`*.
+*`cookieLifetime`* 影响 [!DNL Analytics] 跟踪。例如，如果 *`cookieLifetime`* 为两天，则每月、每季和每年独特访客报表将不正确。务请小心设置 *`cookieLifetime`*.
