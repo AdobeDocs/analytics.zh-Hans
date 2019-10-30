@@ -1,14 +1,14 @@
 ---
 description: 本主题提供了一些常见问题的解答。
 seo-description: 本主题提供了一些常见问题的解答。
-seo-title: Data Sources 常见问题解答
+seo-title: 数据源常见问题解答
 solution: Analytics
 subtopic: 数据源
 title: 数据源常见问题解答
 topic: 开发人员和实施
-uuid: 394a627f-093c-400a-bfb3-c2 aa24568 deb
+uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -31,9 +31,9 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 ## 是否需要在我的电子表格数据中加入一个日期列？ {#section_EA37F5FFB13446C497B3C64943F7084E}
 
-是。由于许多市场营销报表是从日期列键入的，因此数据源需要一个日期列。
+能。由于许多市场营销报表是从日期列键入的，因此数据源需要一个日期列。
 
-## 可否存储已在使用的现有变量中的数据？ {#section_AB557C2997D04EAFBDC61398B13D13C6}
+## Can I store data in existing variables that I'm already using? {#section_AB557C2997D04EAFBDC61398B13D13C6}
 
 Adobe 建议您选择新的未用变量，以使用数据源导入数据。如果您不太清楚数据文件的配置，或希望更好地了解重用变量的风险，请联系 Customer Care。
 
@@ -53,7 +53,7 @@ Adobe 建议您选择新的未用变量，以使用数据源导入数据。如�
 
 上载数据源数据的同时，您也在上载可用于报表界面的量度。
 
-例如，如果您在上载对应网站销售产品的呼叫中心收入，则能够将该呼叫中心收入上载到在线收入所在的报表中。但是，您无法将它与“访问量”一起使用，因为您并未随它一起上载访问次数。Adobe 只能报告通过数据源上载的量度和元素（除了常规市场营销报表量度之外）。
+例如，如果您在上载对应网站销售产品的呼叫中心收入，则能够将该呼叫中心收入上载到在线收入所在的报表中。但是，您将不能将其与访问结合使用，因为您没有上传访问次数。 Adobe 只能报告通过数据源上载的量度和元素（除了常规市场营销报表量度之外）。
 
 ## 如果我通过数据源将负值传递到报表会怎样？ {#section_77E5F37F3CFB4407BA32A91E6F3132B2}
 
@@ -86,7 +86,7 @@ Adobe 建议您选择新的未用变量，以使用数据源导入数据。如�
 
 ## 数据源上载或分类文件的文件扩展名是否区分大小写？ {#section_710787BA4D8C403D8326D666807832B8}
 
-如果数据源上载文件或分类文件的扩展名是大写的，则不会处理这些文件。数据源上载文件的扩展名必须为小写。For example, [!DNL file.TXT] and [!DNL file.FIN] will not be processed. [!DNL .TAB] 同样，也不会进行 [!DNL .FIN] 处理。However, [!DNL .txt] and [!DNL .fin] are processed.
+如果数据源上载文件或分类文件的扩展名是大写的，则不会处理这些文件。数据源上载文件的扩展名必须为小写。For example, [!DNL file.TXT] and [!DNL file.FIN] will not be processed. Similarly, [!DNL .TAB] and [!DNL .FIN] will not be processed. 但是， [!DNL .txt] 并 [!DNL .fin] 且已处理。
 
 ## 我可以向生成的模板添加更多事件还是只限于三个事件？{#section_F184913926DD43B1872956CED308ADB5}
 
@@ -130,7 +130,7 @@ The number of Unique Visitors in a web-server log is calculated as the different
 
 ## 当前保留在访客资料中的 eVar 是否分配到了使用数据源上载的量度中？ {#section_1748BD5C6A12467F8082E07D6A9CD595}
 
-对于完全处理，答案是否定的；对于交易 ID，答案是肯定的。完全处理数据源使用单独的访客资料进行处理，因此即使访客 ID 匹配，它们也不会通过 eVar 分配绑定在一起。交易 ID 数据源绑定到主要访客资料，因此，保留的 eVar 会分配到使用交易 ID 上载的事件。
+对于完全处理，答案是否定的；对于交易 ID，答案是肯定的。使用单独的访客资料处理完全处理的数据源，因此即使访客ID匹配，也不会从eVar分配角度将它们绑定在一起。 交易 ID 数据源绑定到主要访客资料，因此，保留的 eVar 会分配到使用交易 ID 上载的事件。
 
 ## 使用数据源上载的 eVar 是否持续保留到后续在线行为？ {#section_0B490CEAAB604826AFD3E8B2531C8F2D}
 
