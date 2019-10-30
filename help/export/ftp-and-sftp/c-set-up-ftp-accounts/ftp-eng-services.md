@@ -1,18 +1,18 @@
 ---
 description: 许多 Adobe 工程技术服务工作涉及数据交换，这会频繁要求 FTP。
-keywords: ftp；sftp
+keywords: ftp;sftp
 seo-description: 许多 Adobe 工程技术服务工作涉及数据交换，这会频繁要求 FTP。
-seo-title: 使用FTP进行工程服务交流
+seo-title: 通过 FTP 开展工程技术服务工作
 solution: Analytics
-title: 使用FTP进行工程服务交流
-uuid: 38d1fc13-b709-4661-805b-7efa82 b57 a47
+title: 通过 FTP 开展工程技术服务工作
+uuid: 38d1fc13-b709-4661-805b-7efa82b57a47
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 使用FTP进行工程服务交流
+# 通过 FTP 开展工程技术服务工作
 
 许多 Adobe 工程技术服务工作涉及数据交换，这会频繁要求 FTP。
 
@@ -26,4 +26,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## 自定义工作 {#section_A2A251CFB38D47CA9CDA73C5B00F5DDA}
 
-Adobe工程服务提供使用FTP和SFTP的自定义项目。请参阅 Adobe 工程技术服务，以了解有关自定义项目的更多信息。For information on SFTP, see [Secure File Transfer Protocol](../../../export/ftp-and-sftp/c-sftp/ftp-sftp.md#concept_08905F69AE2445FFB167D8AEE68390DC).
+Adobe工程服务提供同时使用FTP和SFTP的自定义项目。 请参阅 Adobe 工程技术服务，以了解有关自定义项目的更多信息。有关SFTP的信息，请参阅安 [全文件传输协议](../../../export/ftp-and-sftp/c-sftp/ftp-sftp.md#concept_08905F69AE2445FFB167D8AEE68390DC)。
