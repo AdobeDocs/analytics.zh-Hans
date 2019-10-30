@@ -4,10 +4,10 @@ seo-description: 帮助您跟踪每位访客对您网站的访问次数以衡量
 seo-title: 访问量
 solution: Analytics
 title: 访问量
-topic: 报表
-uuid: f98dafab-9369-4055-a793-5ea0217 b08 b0
+topic: 报告
+uuid: f98dafab-9369-4055-a793-5ea0217b78b0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
