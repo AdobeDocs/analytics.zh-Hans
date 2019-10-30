@@ -3,9 +3,9 @@ description: 提供报表包流量的汇总数据。
 seo-description: 提供报表包流量的汇总数据。
 seo-title: 帐户活动
 title: 帐户活动
-uuid: 21d2b1f6-838b-41e-89b2-d4 a299 bfb1 bd
+uuid: 21d2b1f6-838b-41ae-89b2-d4a299bfb1bd
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
