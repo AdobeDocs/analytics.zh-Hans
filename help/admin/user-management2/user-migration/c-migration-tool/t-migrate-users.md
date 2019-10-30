@@ -5,7 +5,7 @@ seo-title: 为 Adobe ID 迁移 Analytics 用户帐户
 title: 为 Adobe ID 迁移 Analytics 用户帐户
 uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 将用户从旧版 Analytics 用户管理系统迁移到 Admin Console。
 
->[!NOTE]
->
->如果未通过Experience cloud登录的管理员尝试访问用户ID迁移工具，则会将其重定向到Experience cloud登录页面。
+> [!NOTE] 如果未通过Experience cloud登录的管理员尝试访问用户ID迁移工具，则会将其重定向到Experience cloud登录页面。
 
 **迁移 Analytics 用户**
 
