@@ -1,21 +1,21 @@
 ---
 description: 数据源提供其他两种方式，用于将离线发生的事件集成到您的在线数据。
 seo-description: 数据源提供其他两种方式，用于将离线发生的事件集成到您的在线数据。
-seo-title: 事务与客户集成
+seo-title: 交易和客户集成
 solution: Analytics
 subtopic: 数据源
-title: 事务与客户集成
+title: 交易和客户集成
 topic: 开发人员和实施
-uuid: 71f73a47-3436-4314-a182-36de4 bd935 ba
+uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 事务与客户集成
+# 交易和客户集成
 
-Data Sources提供另外两种将离线事件集成到在线数据的方法。
+数据源提供了另外两种将离线事件集成到在线数据中的方法。
 
 * [启用交易 ID 记录](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)
 * [交易集成](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_B3F281CEFF9B47E9A07F9851D61D415D)
@@ -27,7 +27,7 @@ Data Sources提供另外两种将离线事件集成到在线数据的方法。
 
 交易 ID 可以从 UI 启用/禁用，而无需 ClientCare 的参与：
 
-Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL[Select Report Suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL General Account Settings]**.
+Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL [Select Report Suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL General Account Settings]**.
 
 <!-- 
 
@@ -49,10 +49,10 @@ To see if Transaction ID Recording is enabled, navigate to **[!UICONTROL Analyti
 
 客户 ID 用于指定客户的离线活动，并将其与在线活动关联。它们应当在以下情况下使用：
 
-* 在&#x200B;*`visitorID`* 变量。
+* 在 *`visitorID`* 变量捕获。
 * 客户活动转为离线（例如商机提供或购买）没有指定的时间点。
 
-若要配置此类型的数据源，请参阅 [Visitor ID](../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)
+若要配置此类型的数据源，请参阅 [访客 ID](../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)
 
 ## 交易集成 {#section_B3F281CEFF9B47E9A07F9851D61D415D}
 
