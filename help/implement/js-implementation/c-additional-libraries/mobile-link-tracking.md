@@ -1,19 +1,19 @@
 ---
 description: 'null'
-keywords: Analytics实施；链接引用；redir
+keywords: Analytics 实施;链接引用;redir
 seo-description: 'null'
-seo-title: 移动协议上的自定义链接测量
+seo-title: 对移动协议的自定义链接测量
 solution: Analytics
-title: 移动协议上的自定义链接测量
+title: 对移动协议的自定义链接测量
 topic: 开发人员和实施
-uuid: eb82de26-da2 e-41c2-8924-59b6 b5 ccf28
-translation-type: tm+mt
+uuid: eb82de26-da2e-41c2-8924-59b6b5ccef28
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 移动协议上的自定义链接测量
+# 对移动协议的自定义链接测量
 
 许多移动设备用户都会将播客、铃声及类似文件下载到自己的设备中。因为许多移动设备不支持 JavaScript，所以必须通过重定向实施链接测量。要使用重定向，必须修改 html 中的 href 链接来包含 REDIR 元素。自定义链接的常规格式如下所示：
 
@@ -38,4 +38,4 @@ https://<your_Namespace>.112.2o7.net/b/ss/<RSID>/4/REDIR/
 &pev1=http%3A%2F%2Fwww.johnny_appleseed.org%2Fmpegs%2Fplanting_apple_trees.mpeg&pev2=pl anting_apple_trees&">Planting an Apple Tree</a>
 ```
 
-有关更多信息，请参阅[“退出链接跟踪重定向”白皮书](https://marketing.adobe.com/resources/help/en_US/whitepapers/redirects/)。
+有关更多信息，请参阅[退出链接跟踪重定向白皮书](https://marketing.adobe.com/resources/help/en_US/whitepapers/redirects/)。
