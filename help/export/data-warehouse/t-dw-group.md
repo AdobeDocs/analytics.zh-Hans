@@ -5,9 +5,9 @@ seo-title: 添加 Data Warehouse 用户群组
 solution: Analytics
 title: 添加 Data Warehouse 用户群组
 topic: Data Warehouse
-uuid: d89294db-caa3-4044-b70 d-65b012 b0 c1 c
+uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    >[!NOTE]
    >
-   >如果存在冲突权限(如分配给两个用户组的用户，其中一个用户组拒绝访问某个功能，而另一个用户组授予该访问权限)，则系统会限制权限。如果用户属于拒绝 Data Warehouse 访问的群组，则需要从这些群组中删除。
+   >如果权限发生冲突（例如，分配给两个用户组的用户，其中一个拒绝访问某个功能，另一个授予相同访问权限），则系统会限制权限。 如果用户属于拒绝 Data Warehouse 访问的群组，则需要从这些群组中删除。
 
 >[!MORE_LIKE_THIS]
 >
