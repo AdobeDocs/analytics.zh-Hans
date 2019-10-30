@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 限制和规范
 title: 限制和规范
-uuid: 6717b6ea-7e01-49b8-8f6e-fb733 a03 b687
+uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## Power BI publishing restrictions {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 
->[!NOTE]
->
->这些限制仅适用于“将报告生成器请求作为Power BI数据集表发布”选项。
+> [!NOTE] 这些限制仅适用于选项“将Report Builder请求作为Power BI数据集表发布”。
 
 * 对于每个工作簿，最多可向 Power BI 导出 100 个 Report Builder 请求。
 * 在达到 101 个请求时，计划过程将停止导出请求。
@@ -24,9 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## Edit a Report Builder request after publishing to Power BI {#section_6989E74F68DD43F08D37C36B6777DB50}
 
->[!NOTE]
->
->此规范适用于以下选项：“将所有Report Builder请求作为Power BI数据集表发布”和“将工作簿中的所有格式化表格发布为Power BI数据集表”选项。
+> [!NOTE] 此规范适用于“将所有Report Builder请求发布为Power BI数据集表”选项和“将工作簿中的所有格式化表发布为Power BI数据集表”选项。
 
 在发布到 Power BI 之后编辑 Report Builder 请求，可能会引发问题。
 
