@@ -1,16 +1,16 @@
 ---
 description: Adobe Analytics 内容包提供预置的 Power BI 功能板和一组 Power BI 报表，它可以对您的站点流量和用户维度进行有用的分析。您可以使用所提供的功能板和报表，或进行自定义以突出显示您最关注的信息。数据将每天自动刷新一次。
 seo-description: Adobe Analytics 内容包提供预置的 Power BI 功能板和一组 Power BI 报表，它可以对您的站点流量和用户维度进行有用的分析。您可以使用所提供的功能板和报表，或进行自定义以突出显示您最关注的信息。数据将每天自动刷新一次。
-seo-title: Power BI的Adobe Analytics内容包
-title: Power BI的Adobe Analytics内容包
-uuid: 4711e135-a4 b2-4761-ba6 c-728bfe0 ca84 d
+seo-title: 适用于 Power BI 的 Adobe Analytics 内容包
+title: 适用于 Power BI 的 Adobe Analytics 内容包
+uuid: 4711e135-a4b2-4761-ba6c-728bfe0ca84d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Power BI的Adobe Analytics内容包
+# 适用于 Power BI 的 Adobe Analytics 内容包
 
 Adobe Analytics 内容包提供预置的 Power BI 功能板和一组 Power BI 报表，它可以对您的站点流量和用户维度进行有用的分析。您可以使用所提供的功能板和报表，或进行自定义以突出显示您最关注的信息。数据将每天自动刷新一次。
 
