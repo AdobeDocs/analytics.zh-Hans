@@ -6,9 +6,9 @@ seo-title: 访问
 solution: Analytics
 title: 访问
 topic: 量度
-uuid: 91317487-f116-4546-8cd2-421418c49 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a7 a
+uuid: 91317487-f116-4546-8cd2-421418c49a7a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 表示一系列的页面查看操作。访问量度通常用在显示选定时段内用户会话数量的报表中。
 
->[!NOTE]
->
->For information about how visits and mobile app launches are calculated, see [Compare Visits and Mobile App Launches](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html) in the Knowledge Base.
+> [!NOTE] 有关如何计算访问和移动应用程序启动次数的信息，请参 [阅知识库中的比较访问和移动应用程序启动](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html) 。
 
 访问量度始终与某个时段关联，因此当同一访客返回您的站点时，您可以知道是否将其认为是新的访问。会话在用户首次到达您的网站时开始，并在遇到以下情况之一时结束：
 
@@ -28,9 +26,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * **2500 次点击：**&#x200B;如果用户在不启动新会话的情况下生成大量的点击次数，那么在 2500 次图像请求后会认为是新的访问。
 * **100 秒内 100 次点击**：如果某次访问在 100 秒内有超过 100 次点击，那么该次访问将自动结束。此行为通常是机器人行为，我们会强制执行该限制，以避免这些频繁处理的访问造成延迟增加以及生成报表的时间增加。
 
->[!NOTE]
->
->如果特别请求，可以缩短访问定义的定义，但无法延长。请让贵组织的一位受支持用户联系客户关怀，以请求此更改。
+> [!NOTE] 如果特别请求，可以缩短报表包的访问定义，但不能延长访问定义。 请让贵组织的一位受支持用户联系客户关怀，以请求此更改。
 
 在遇到以下情况时，不会开始新的访问：
 
@@ -41,9 +37,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 当某访问结束时，与该访问到期有关的所有变量都将过期，并且不再持续存在。访问量量度将在该访客的下次访问时递增。
 
->[!NOTE]
->
->If you are using Analytics as the reporting source for Adobe Target, refer to [Minimizing Inflated Visit and Visitor Counts in A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) in the [!DNL Target] documentation.
+> [!NOTE] 如果您使用Analytics作为Adobe Target的报告源，请参阅文档中的 [A4T中的“最小化夸大访问和访客计数](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) ” [!DNL Target] 。
 
 有关详细信息，请参阅《Adobe Analytics 实施指南》中的[识别独特访客](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_overview.html)。
 
