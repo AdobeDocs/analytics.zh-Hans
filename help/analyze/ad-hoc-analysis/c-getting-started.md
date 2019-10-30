@@ -23,7 +23,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 入门任务 </th> 
-   <th colname="col2" class="entry"> 说明 </th> 
+   <th colname="col2" class="entry"> 描述 </th> 
   </tr> 
  </thead>
  <tbody> 
