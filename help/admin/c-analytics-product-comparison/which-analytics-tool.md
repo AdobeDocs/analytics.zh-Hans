@@ -5,7 +5,7 @@ seo-title: 我应该使用哪种 Adobe Analytics 工具？
 title: 我应该使用哪种 Adobe Analytics 工具？
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 0b4a0874013b4b62639a845c53cc030b7b8e9160
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: 0b4a0874013b4b62639a845c53cc030b7b8e9160
 
 * 适用于确实需要使用表格生成器功能的情况。例如，a) Analysis Workspace 无法支持您需要构建的内容，b) 您希望能够控制何时重新构建表格，c) 您希望表格记住要应用到所有行的不同划分级别 d) 您希望对量度行手动排序
 * 用于导出 50,000 行数据
-* 适用于需要以选项卡方式组织项目工作的情况。
+* 适用于需要以选项卡方式组织项目工作的情况.
 * 用于使用网站分析报表（3D 路径报表）。
 
 **[Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)** 的使用说明：
@@ -66,7 +66,7 @@ source-git-commit: 0b4a0874013b4b62639a845c53cc030b7b8e9160
 * 选项：
 
    * 规则生成器：可在为变量（例如分隔值）收集可预测格式的值时使用。通过这种方法，您只需设置一次规则，然后就“万事无忧”了。
-   * 浏览器导入器：可在没有可预测的值或需要一次性更新有限的值列表时使用。此方法要求您持续监控分类的新值。
+   * 浏览器导入程序：当您没有可预测值，或者当您有有限的值列表需要一次性更新时使用。 此方法要求您持续监控分类的新值。
 
 **[数据源](/help/import/c-data-sources/datasrc-home.md)**&#x200B;的使用说明：
 
@@ -100,7 +100,7 @@ source-git-commit: 0b4a0874013b4b62639a845c53cc030b7b8e9160
 **[Report Builder](/help/analyze/report-builder/home.md)** 的使用说明：
 
 * 适用于工作区的自定义布局选项有限的情况（在 Excel 的限制范围内，Report Builder 可执行任何操作）。
-* 用于将用户输入的内容或离线数据源（展示次数、成本）松散绑定到 Adobe 数据。用于将数据关联起来的更为永久的解决方案是数据源（请参阅“将数据导入 Analytics”）。
+* 用于将用户输入的内容或离线数据源（展示次数、成本）松散绑定到 Adobe 数据。用于将数据关联起来的更为永久的解决方案是数据源（请参阅“将数据导入 Analytics”）.
 * 用于将不同维度报表中的数据合并起来（例如，将促销活动展示次数报表和促销活动点击对话报表合并起来）。
 * 用于进行跨报表包查看。
 * 适用于需要通过计划实现自动化的情况（XLSX、XLSM、CSV、PDF、TXT、XML、MHT）。
@@ -111,7 +111,7 @@ source-git-commit: 0b4a0874013b4b62639a845c53cc030b7b8e9160
 * 用于访问比 UI 更细粒度的数据（非规范化的表视图）
 * 用于下载适用于数据透视表输入格式的数据
 * 适用于客户端要将 Adobe 数据输入第三方数据可视化工具的情况（稍微汇总，不是点击级别）
-* 用于在 Adobe Analytics 中遇到“低流量”的情况下访问所有独特维度值
+* 在Adobe Analytics中遇到“流量低”时访问所有唯一维度值
 
 **[应使用Analytics Data Feed](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** :
 
@@ -129,7 +129,7 @@ source-git-commit: 0b4a0874013b4b62639a845c53cc030b7b8e9160
 
 应在以下情况使用工程技术服务：:
 
-* 其他 Adobe 工具无法满足您的需求。
+* 其他Adobe工具无法满足您的需求。
 * 希望获得自定义体验。
 * 希望获得完全自动化的解决方案。
 * 希望使用许多设备。
