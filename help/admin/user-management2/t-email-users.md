@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 用户和用户组
 title: 电子邮件用户
 topic: 管理工具
-uuid: c44a1398-dba4-4edc-4b90-b0 ceb9 da395 c
+uuid: c44a1398-dba4-4edc-9b90-b0ceb9da395c
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
