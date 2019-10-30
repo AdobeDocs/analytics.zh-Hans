@@ -6,8 +6,8 @@ seo-title: 设置条件要触发的操作
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 设置条件要触发的操作
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 每个规则都可以触发任意所需数量的脚本或 HTML 注入。
 
->[!NOTE]
->
->因为 DTM 允许在您的页面中插入自定义代码，请特别注意不要创建跨站脚本攻击 (XSS) 漏洞（有关更多信息，请参阅 [OWASP 指南](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS))）。在脚本中使用数据元素时需要特别注意。应始终假定数据元素值来自不受信任的源。
+> [!NOTE] 由于DTM允许您将自定义代码插入页面，请注意不要创建跨站点脚本(XSS)漏洞(有关详细信息，请参阅 [OWASP的指南](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) )。 在脚本中使用数据元素时需要特别注意。应始终假定数据元素值来自不受信任的源。
 
 **设置条件要触发的操作**
 
