@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 插件
 title: getDaysSinceLastVisit
 topic: 开发人员和实施
-uuid: design95882-3bd0-4f94-a0 c3-4e7 b6058 d246
-translation-type: tm+mt
+uuid: cad95882-3bd0-4f94-a0c3-4e7b6058d246
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!IMPORTANT]
 >
->[Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) 现在包括 **[!UICONTROL 自上次访问]** 维度起的天数，因此可消除对此插件的需求。
+>[Analysis Workspace](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/) 现在包括现有的&#x200B;**[!UICONTROL 上次访问间隔天数]**&#x200B;维度，因此不再需要使用该插件。
 
 此回访频度数据可用于解答以下问题：
 
@@ -32,7 +32,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!NOTE]
 >
->以下说明要求您更改站点上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
+>下面的说明需要您更改网站上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
 
 ## 插件代码和实施 {#section_5600DBB819F143D59527A73BD94418DE}
 
@@ -42,7 +42,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 **插件配置**
 
-Place the following code within the `s_doPlugins()` function, which is located in the area of the [!DNL s_code.js] file labeled *Plugin Config*. 选取一个自定义流量 (s.prop) 变量和/或一个自定义转化 (s.eVar) 变量，以便用于捕获回访频度数据。它应该是一个已经通过“管理控制台”启用的变量，且当前未做其他任何使用。下面给出了一个示例，您可以根据需要进行相应的更新。
+将以下代码置于 `s_doPlugins()` 函数中，它位于 [!DNL s_code.js] 文件中被标记为&#x200B;*插件配置*&#x200B;的区域中。选取一个自定义流量 (s.prop) 变量和/或一个自定义转化 (s.eVar) 变量，以便用于捕获回访频度数据。它应该是一个已经通过“管理控制台”启用的变量，且当前未做其他任何使用。下面给出了一个示例，您可以根据需要进行相应的更新。
 
 ```js
 s.prop1=s.getDaysSinceLastVisit(Cookie_Name);
