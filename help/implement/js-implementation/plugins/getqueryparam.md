@@ -8,8 +8,8 @@ subtopic: 插件
 title: getQueryParam
 topic: 开发人员和实施
 uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 在您的 [!DNL AppMeasurement] for JavaScript 代码中安装该插件后，可通过以下操作对插件进行配置：选择一个 [!DNL Analytics] 变量以使用在查询字符串中找到的数据对该变量进行填充，并指定要捕获的查询字符串值。该插件会检测是否存在指定的查询字符串；如果存在，将使用该字符串的值填充所选变量。如果未找到具有该值的查询字符串参数，则返回空字符串。如果存在某个查询字符串参数，但该参数没有任何值（例如 `?param1&param2=value` 中的 param1），则会返回 *`true`*。
 
->[!NOTE]
->
->必须先将该插件的基础代码写入您的 [!DNL AppMeasurement] for JavaScript 代码中，以下示例才有效。
+> [!NOTE]必须先将该插件的基础代码写入您的 [!DNL AppMeasurement] for JavaScript 代码中，以下示例才有效。
 
 如果要使用 *`s.campaign`* 来捕获可用作 *`cid`* 查询参数值的促销活动跟踪代码，则可以在 [!DNL AppMeasurement] for JavaScript 代码的 *`doPlugins()`* 函数中输入以下内容：
 
@@ -34,9 +32,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 在此示例中，如果用户到达您网站上的登陆页面（URL 为 [!DNL https://www.yoursite.com/index.html?cid=123456]），则 *`s.campaign`* 会收到值 *123456*。可通过 [!DNL DigitalPulse] Debugger 对此进行查看，*v0=123456* 会作为图像请求的一部分显示在该调试程序中。
 
->[!NOTE]
->
->此处以参数 *`cid`* 和其他参数为例。您可以使用您网站上存在的任何查询字符串参数来替换它们。
+> [!NOTE]此处以参数 *`cid`* 和其他参数为例。您可以使用您网站上存在的任何查询字符串参数来替换它们。
 
 此&#x200B;*`getQueryParam`*&#x200B;插件具有两个额外的参数（选项），可用于将数据捕获到 Analytics 变量中。
 
@@ -74,9 +70,7 @@ s.campaign=s.getQueryParam('cid');
 
 使用框架和 *f* 参数时，建议使用&#x200B;*`getValOnce`*&#x200B;插件，以防止在每次页面查看时都发送促销活动跟踪代码。
 
->[!NOTE]
->
->下面的说明需要您更改网站上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
+> [!NOTE]下面的说明需要您更改网站上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
 
 **插件代码**
 
