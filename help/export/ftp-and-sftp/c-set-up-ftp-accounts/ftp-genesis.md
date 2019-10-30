@@ -1,13 +1,13 @@
 ---
 description: 在使用数据连接器创建与 Adobe 合作伙伴的集成时，Adobe 可将再营销或其他数据推送到 FTP 帐户，以供您或合作伙伴下载。
-keywords: ftp；sftp
+keywords: ftp;sftp
 seo-description: 在使用数据连接器创建与 Adobe 合作伙伴的集成时，Adobe 可将再营销或其他数据推送到 FTP 帐户，以供您或合作伙伴下载。
 seo-title: Data Connectors
 solution: Analytics
 title: Data Connectors
-uuid: 76edb815-f40 d-413d-986f-565b661948 d
+uuid: 76edb815-f40d-413d-986f-565b6619648d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
