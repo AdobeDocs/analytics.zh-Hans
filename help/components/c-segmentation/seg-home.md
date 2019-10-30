@@ -1,19 +1,19 @@
 ---
 description: Adobe Analytics 允许您使用各种 Analytics 功能、Adobe Experience Cloud、Adobe Target 和其他集成的 Adobe 产品生成、管理和共享强大而集中的受众区段并将它们应用到您的报表中。
-keywords: 细分；segments
+keywords: 分段；段
 seo-description: Adobe Analytics 允许您使用各种 Analytics 功能、Adobe Experience Cloud、Adobe Target 和其他集成的 Adobe 产品生成、管理和共享强大而集中的受众区段并将它们应用到您的报表中。
-seo-title: 分析细分
+seo-title: Analytics 分段
 solution: Analytics
-title: 分析细分
+title: Analytics 分段
 topic: 区段
-uuid: 845c1743-1264-4090-bcc-78830477f52 e
+uuid: 845c1743-1264-4090-bcc-78830477f52e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 分析细分
+# Analytics 分段
 
 Adobe Analytics 允许您使用各种 Analytics 功能、Adobe Experience Cloud、Adobe Target 和其他集成的 Adobe 产品生成、管理和共享强大而集中的受众区段并将它们应用到您的报表中。
 
@@ -25,4 +25,4 @@ Analytics 区段包括[区段生成器](../../components/c-segmentation/c-segmen
 
 **快速入门**
 
-从[设置分段工作流](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_6D2E1A72A3AD4EBBB9135094F2D9DEDF) 或 [构建区段](../../components/c-segmentation/c-segmentation-workflow/seg-build.md#concept_BD4C17B01C5B4E378D0C14C852D055D4)，或查看 [关于区段的](../../components/c-segmentation/seg-overview.md#concept_82653C7E29FE49F5A4B5E5E93B0A6399) 快速概述。
+从设 [置分段工作流或构建](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_6D2E1A72A3AD4EBBB9135094F2D9DEDF) 区段开始 [，或参阅关](../../components/c-segmentation/c-segmentation-workflow/seg-build.md#concept_BD4C17B01C5B4E378D0C14C852D055D4)于区段 [](../../components/c-segmentation/seg-overview.md#concept_82653C7E29FE49F5A4B5E5E93B0A6399) ，以获得快速概述。
