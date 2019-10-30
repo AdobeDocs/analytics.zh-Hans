@@ -5,7 +5,7 @@ seo-title: 常见问题解答
 title: 常见问题解答
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -95,7 +95,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
   <tr> 
    <td colname="col1"> <p>问：是否可以将<b>虚拟报表包</b> (VRS) 分配到 Advertising Analytics 帐户？ </p> </td> 
-   <td colname="col2"> <p>答：虚拟报表包不收集数据，因此您不能直接将 Advertising Analytics 帐户映射到虚拟报表包。 </p> <p>但是，您可以将 Advertising Analytics 帐户映射到您想要查看其数据的虚拟报表包的父报表包。 </p> <p>除非您根据 AMO ID（或其分类）在区段逻辑中包含“或”条件，否则搜索引擎量度（点击次数/成本/展示次数）可能不会显示在 VRS 中。示例：添加“存在 AMO ID 的所有点击”将包括该区段中的搜索引擎量度。 </p> </td> 
+   <td colname="col2"> <p>答：虚拟报表包不收集数据，因此您不能直接将 Advertising Analytics 帐户映射到虚拟报表包。 </p> <p>但是，您可以将 Advertising Analytics 帐户映射到您想要查看其数据的虚拟报表包的父报表包。 </p> <p>搜索引擎指标（点击／成本／印象）可能不会显示在VRS中，除非您根据AMO ID（或其分类）在区段逻辑中包含“或”条件。 示例：添加“AMO ID存在的所有点击”将包括区段中的搜索引擎量度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>问：Advertising Analytics 量度是否可以在<b>营销渠道</b>报表中进行报告？ </p> </td> 
@@ -115,7 +115,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
   <tr> 
    <td colname="col1"> <p>问：我们是仅捕获 google.com，还是也会捕获<b>国家/地区版本</b>（例如 google.co.uk、google.it、google.fr 或 google.de）？ </p> </td> 
-   <td colname="col2"> <p>答：广告平台分类可捕获以下值：“Google广告词”和“必应广告”。 </p> <p>通常的最佳做法是将国家/地区代码包含在营销活动名称中。之后，您可以进一步过滤或分段（例如，如果所有营销活动均以 countrycode_ 开头，则创建一个以“UK_”开头的营销活动 (AMO ID) 区段，可提供仅与 UK 有关的数据）。 </p> </td> 
+   <td colname="col2"> <p>答：广告平台分类可捕获以下值：“Google广告词”和“必应广告”。 </p> <p>通常的最佳做法是将国家/地区代码包含在营销活动名称中。然后，您可以筛选或细分(例如，如果所有营销活动以国家／地区代码_开头，则创建一个营销活动(AMO ID)以“UK_”开头的区段，该区段将仅为英国提供数据)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>问：量度“AMO 成本”是搜索引擎所报告的每个关键字/广告的成本花费。这是指净成本还是总成本？ </p> </td> 
