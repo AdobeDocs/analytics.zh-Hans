@@ -1,13 +1,13 @@
 ---
 description: 当移动设备请求 Web 服务器中的网页时，将通过网关发送该请求，网关会将移动设备请求（通常按 WAP 或 I-Mode 协议）转换为 HTTP 请求再发送到 Web 服务器。
-keywords: Analytics实施；网关；wap；i-mode；wbmp
+keywords: Analytics 实施;网关;wap;i-mode;wbmp
 seo-description: 当移动设备请求 Web 服务器中的网页时，将通过网关发送该请求，网关会将移动设备请求（通常按 WAP 或 I-Mode 协议）转换为 HTTP 请求再发送到 Web 服务器。
 seo-title: 移动协议网络网关
 solution: Analytics
 title: 移动协议网络网关
 topic: 开发人员和实施
-uuid: a2c92ce2-53a9-4b5b-be1 a-89d9 f1 bf776 f
-translation-type: tm+mt
+uuid: a2c92ce2-53a9-4b5b-be1a-89d9f1bf776f
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
