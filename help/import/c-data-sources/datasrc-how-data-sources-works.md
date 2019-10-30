@@ -1,25 +1,23 @@
 ---
 description: 有关 Adobe 如何提供数据源访问权限的信息。
 seo-description: 有关 Adobe 如何提供数据源访问权限的信息。
-seo-title: 数据源的工作原理
+seo-title: 数据源工作原理
 solution: Analytics
 subtopic: 数据源
-title: 数据源的工作原理
+title: 数据源工作原理
 topic: 开发人员和实施
-uuid: ee9e6e74-9b00-4733-9a4b-d9 f2 b954 cc7 c
+uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 数据源的工作原理
+# 数据源工作原理
 
 有关 Adobe 如何提供数据源访问权限的信息。
 
->[!NOTE]
->
->通过数据源提交后，导入的数据与使用其他方法收集的数据无区别(JavaScript信标、ActionSource、数据插入API等)。数据一经导入便无法删除。
+> [!NOTE] 一旦通过数据源提交，导入的数据就无法与使用其他方法（JavaScript信标、ActionSource、数据插入API等）收集的报告数据区分开来。 数据一经导入便无法删除。
 
 ![](assets/data_sources_overview.png)
 
