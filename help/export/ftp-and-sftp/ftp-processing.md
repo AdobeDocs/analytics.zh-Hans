@@ -1,18 +1,18 @@
 ---
 description: 无论是分类还是数据源，任何 FTP 文件的处理时间均取决于处理队列中已有的文件数量和您的文件大小。
-keywords: ftp；sftp
+keywords: ftp;sftp
 seo-description: 无论是分类还是数据源，任何 FTP 文件的处理时间均取决于处理队列中已有的文件数量和您的文件大小。
-seo-title: FTP处理时间
+seo-title: FTP 处理时间
 solution: Analytics
-title: FTP处理时间
-uuid: a0f67db4-0bb1-4596-95da-21c8ab2a61
+title: FTP 处理时间
+uuid: a0f67db4-0bb1-4596-95da-21c8ab2a4a61
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# FTP处理时间
+# FTP 处理时间
 
 无论是分类还是数据源，任何 FTP 文件的处理时间均取决于处理队列中已有的文件数量和您的文件大小。
 
