@@ -7,7 +7,7 @@ title: Data Warehouse 概述
 topic: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ Data Warehouse 会自动将任何大小超过 1 MB 的文件压缩为 zip 包。
 
 在针对各个计划报表和已下载报表的单个请求中，Data Warehouse 可处理无限数量的行。
 
->[!NOTE]
->
->数据仓库会报告在报告期间遇到的第一个值。
+> [!NOTE] 数据仓库会报告在报告期间遇到的第一个值。
 
 >[!IMPORTANT]
 >
