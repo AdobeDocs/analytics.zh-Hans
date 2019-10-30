@@ -5,9 +5,9 @@ seo-title: Report Builder 登录
 solution: Analytics
 title: Report Builder 登录
 topic: Report Builder
-uuid: 9a21b791-e323-46d2-b850-2d67 bake964 b
+uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 translation-type: tm+mt
-source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
 
 如果您要使用 Adobe Analytics 凭据登录 Report Builder，请使用此登录方法。
 
-**Report Builder登录-字段定义**
+**Report Builder登录名——字段定义**
 
 | 字段 | 定义 |
 |--- |--- |
@@ -50,7 +50,5 @@ Experience Cloud 登录允许您使用企业 ID（电子邮件和密码）登录
 
 ![](assets/adobe_id_login.png)
 
->[!NOTE]
->
->Experience Cloud登录基于会话，令牌在30天后过期。
+> [!NOTE] Experience cloud登录基于会话，令牌在30天后过期。
 
