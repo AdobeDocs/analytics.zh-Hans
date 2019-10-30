@@ -6,8 +6,8 @@ seo-title: getLoadTime
 solution: Analytics
 title: getLoadTime
 topic: 开发人员和实施
-uuid: 5d26a69b-cbde-4be1-bac1-5ee8 a4 e55 ca3
-translation-type: tm+mt
+uuid: 5d26a69b-cbde-4be1-bac1-5ee8a4e55ca3
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!NOTE]
 >
->以下说明要求您更改站点上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
+>下面的说明需要您更改网站上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
 
 ## 插件代码和实施 {#section_968AC379C3004C359A85AFED5A48D5AE}
 
@@ -35,11 +35,11 @@ function s_getLoadTime(){if(!window.s_loadT){var b=new Date().getTime(),o=window
 
 **初次调用函数**
 
-Add a call to `s_getLoadTime()` near the beginning of [!DNL s_code.js], outside of any function.
+在 [!DNL s_code.js] 开头附近，且在所有函数的外面添加 `s_getLoadTime()` 的调用。
 
 **最后调用函数**
 
-Add another call to `s_getLoadTime()` in the `s_doPlugins()` function, saving the returned value in a prop, eVar, and/or a numeric event.
+在 `s_doPlugins()` 函数中再次添加 `s_getLoadTime()` 的调用，将返回的值保存在 prop、eVar 和/或数值事件中。
 
 使用示例 1 - 将页面加载时间保存在 prop10 和 eVar20 中：
 
@@ -55,7 +55,7 @@ if(s_getLoadTime())s.events=s.apl(s.events,'event90='+s_getLoadTime(),',',1);
 
 **（可选）添加对较旧浏览器的支持**
 
-要支持不提供 [window.performance.timing](https://www.html5rocks.com/en/tutorials/webperformance/basics/) 属性的较旧浏览器，请将以下行加入页面 HTML 的 HEAD 部分开头附近，同时需要在调用 .js、.css 或其他文件之前完成：
+要支持不提供 [window.performance.timing](https://www.html5rocks.com/en/tutorials/webperformance/basics/) 属性的较旧浏览器，请将以下行加入页面 HTML 的“标题”部分开头附近，同时需要在调用 .js、.css 或其他文件之前完成：
 
 ```
 <script type="text/javascript">var inHeadTS=(new Date()).getTime();</script>
