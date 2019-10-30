@@ -5,9 +5,9 @@ seo-title: 日志
 solution: Analytics
 title: 日志
 topic: 管理工具
-uuid: d5d4723d-f4 cf-403e-ae9 c-76d7 faed2 be6
+uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 日志文件有助于您了解用户登录的时间、用户使用情况、访问情况、报表包，以及管理员执行的更改。
 
-**[!UICONTROL “分析]** ”&gt;“ **[!UICONTROL 管理员]** ”&gt; **[!UICONTROL “日志”]**
+**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理员]** &gt;日 **[!UICONTROL 志]**
 
 ## 管理日志 {#section_8ADE8A7204A8401C968ABC20AECA381D}
 
