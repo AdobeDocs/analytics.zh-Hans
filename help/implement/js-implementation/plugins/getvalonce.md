@@ -8,8 +8,8 @@ subtopic: 插件
 title: getValOnce
 topic: 开发人员和实施
 uuid: 82fe0da5-3bc4-4632-8c62-7b5683f6b587
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -45,15 +45,11 @@ s.eVar1=s.getValOnce(variable,cookie,expiration,minute);
    * 如果某用户关闭您的页面，在 30 分钟内又打开另一个浏览页面，并导航回到您的网站，则此插件在保持 [!DNL Analytics] 访问保持打开状态的同时，会创建一个新的会话。
    * 如果用户使浏览器窗口保持打开状态，并且超过 30 分钟没有单击链接，则 [!DNL Analytics] 访问过期，但同时浏览器会话会保持打开状态。
 
->[!NOTE]
->
->下面的说明需要您更改网站上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
+> [!NOTE]下面的说明需要您更改网站上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
 
 ## 实施 {#section_177FF7F425B64FFB83CDE15A6ACC8D21}
 
->[!NOTE]
->
->如果贵组织使用营销渠道，并根据 `s.campaign` 设置了规则，则建议您在设置 `s.campaign` 值时不要使用 getValOnce 插件。因为这样做可能会导致为次级促销活动点进分配错误的渠道。
+> [!NOTE]如果贵组织使用营销渠道，并根据 `s.campaign` 设置了规则，则建议您在设置 `s.campaign` 值时不要使用 getValOnce 插件。因为这样做可能会导致为次级促销活动点进分配错误的渠道。
 
 要实施此插件，请在 [!DNL s_code.js] 文件中置入以下代码
 
