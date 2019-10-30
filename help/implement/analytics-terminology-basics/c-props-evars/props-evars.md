@@ -7,8 +7,8 @@ solution: Analytics
 title: prop 和 eVar 概述
 topic: 开发人员和实施
 uuid: 522cab2b-1ef8-4f10-b216-c82b21431487
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ Prop 还可让您将自定义数据与特定流量相关事件关联。这些变
 
 例如，如果您是汽车制造商，可能会有兴趣查看“Most Popular Car Model”以补充“页面”报表。为此，可分配一个表示汽车型号的流量属性。然后实施代码以在相应的页面上传递汽车型号。
 
->[!NOTE]
->
->[!DNL Analytics] 最多支持 75 个 [!UICONTROL s.prop] 变量。
+> [!NOTE][!DNL Analytics] 最多支持 75 个 [!UICONTROL s.prop] 变量。
 
 Prop 用于路径报表或关联报表中。例如，[!UICONTROL 属性]变量可用来显示内容类型、子区域或模板名称。生成的[!UICONTROL 自定义流量]报表显示最常查看的内容类型、子区域或模板。
 
@@ -40,6 +38,6 @@ eVar（或[!UICONTROL 自定义转化分析]变量）用于确定特定属性或
 
 在转化网站中，可以使用 eVar 跟踪已登录访客与未登录访客在完成购买方面的对比情况。访客登录时，eVar 会被设置为“已登录”。在访客到达结账页面时，将结账事件与“已登录”值关联。当访客完成购买到达“感谢”页面时，将产品和购买量与“已登录”值关联。生成的[!UICONTROL 自定义 eVar] 报表显示“已登录”及“未登录”访客的结账和订单总数。
 
-有关更多信息，请参阅“Analytics 帮助和参考”中的[流量变量](https://marketing.adobe.com/resources/help/zh_CN/reference/traffic_var.html)。
+有关更多信息，请参阅“Analytics 帮助和参考”指南中的[流量变量](https://marketing.adobe.com/resources/help/en_US/reference/traffic_var.html)。
 
 有关如何在 Digital Tag Management 中设置属性的信息，请参阅[创建 Web 属性](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123)。
