@@ -5,7 +5,7 @@ seo-description: 通过动态变量，您可以将一个变量中的值复制到
 solution: null
 title: 动态变量
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,11 +20,11 @@ source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
 |--- |--- |--- |--- |
 | 不适用 | 不适用 | “流量”&gt;“网站流量”&gt;“文件下载” | "exe,zip,wav,mp3,mov,mpg,avi,wmv,doc,pdf,xls" |
 
-The 变 *`linkDownloadFileTypes`* 量仅在设置为“ *`trackDownloadLinks`* True”时才相关。
+The只有当 *`linkDownloadFileTypes`* 设置为“True”时，*`trackDownloadLinks`* 变量才相关。
 
 只有在链接上单击鼠标左键才会计入[!UICONTROL 文件下载]报表。在页面加载时自动启动的所有文件下载，或仅在重定向后启动的下载，不会计入[!UICONTROL 文件下载]报表。当您右键单击某文件并选择“将目标另存为...”选项时，不会将它计入[!UICONTROL 文件下载]报表。
 
-The *`linkDownloadFileTypes`*&#x200B;变量可用于跟踪 RSS 馈送的点击量。如果您有带。xml或其他扩展名的RSS源链接，则在列表后面附加“,xml” *`linkDownloadFileTypes`* 可查看每个RSS链接的单击频率。
+The *`linkDownloadFileTypes`*&#x200B;变量可用于跟踪 RSS 馈送的点击量。如果您具有指向扩展名为 .xml 或其他的 RSS 馈送的链接，则在 *`linkDownloadFileTypes`* 列表后附加“.xml”可让您查看点击每个 RSS 链接的频率。
 
 ## 语法和可能值
 
