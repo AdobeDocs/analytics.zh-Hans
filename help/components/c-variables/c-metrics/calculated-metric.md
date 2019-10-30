@@ -4,9 +4,9 @@ seo-description: 计算量度使您可以将多个量度通过数学运算组合
 seo-title: 计算量度
 solution: Analytics
 title: 计算量度
-uuid: 039fbb1a-8fa9-479b-badb-ad609 b22524
+uuid: 039fbb1a-8fa9-479b-badb-ad609b225524
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
