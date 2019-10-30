@@ -8,7 +8,7 @@ title: 将用户群组分配给报表包
 topic: 管理工具
 uuid: 67173113-2fca-483e-9038-8423e6d4de6e
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -31,4 +31,4 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
    **[!UICONTROL 可用群组：]**&#x200B;显示当前已定义的所有群组。Select the desired groups, then click **[!UICONTROL Add]**. 分配的群组将显示在右侧的“包含的群组”字段中。
 
    **[!UICONTROL 包含的群组：]**&#x200B;显示当前分配给报表包的所有群组。To remove a group, select it, then click **[!UICONTROL Remove]**.
-1. Click **[!UICONTROL Save Changes]**.
+1. 单击&#x200B;**[!UICONTROL 保存更改]**。
