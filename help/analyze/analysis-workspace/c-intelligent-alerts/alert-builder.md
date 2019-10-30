@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 警报生成器
 title: 警报生成器
-uuid: eBC2d457-4abd-4b1a-9357-489b5aeb3f64
+uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
 translation-type: tm+mt
-source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
 
 >[!IMPORTANT]
 >
->智能提醒仅适用于Adobe Analytics Prime和Adobe Analytics Ultimate客户。
+>智能警报仅适用于Adobe Analytics Prime和Adobe Analytics Ultimate客户。
 
-## Access Alert Builder
+## 访问警报生成器
 
 可通过以下四种方法访问警报生成器：
 
@@ -27,7 +27,7 @@ source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
 * By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
 * From within a Reports &amp; Analytics report, by going to **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
 
-## 构建提醒
+## 生成警报
 
 警报生成器界面与 Analytics 中具有生成区段或计算量度的界面相似：
 
@@ -43,9 +43,7 @@ source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
 
 指定要何时检查量度：每小时、每天、每周或每月。
 
->[!NOTE]
->
->对于具有自定义日历的报告套件，我们不支持Alert Builder中的每月粒度。
+> [!NOTE] 对于具有自定义日历的报表包，我们不支持警报生成器中的每月粒度。
 
 **收件人**
 
@@ -55,7 +53,7 @@ source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
 >
 >The phone number must be preceded by a "+" and a [country code](https://countrycode.org/).
 
-用户在收到警报后会收到的电子邮件类似于：
+触发警报后用户将收到的电子邮件类似于：
 
 ![](assets/alerts-email.PNG)
 
@@ -69,7 +67,7 @@ source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
 
 * 将量度拖放到将添加触发器的画布中。
 
-   An **"incompatible components”** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   An **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
 * 确定触发警报前量度必须超过的阈值。您可以将此值设置为一个阈值，然后设置为下列条件之一：
 
    * 异常已存在
@@ -90,7 +88,7 @@ source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
 
 您可以通过单击齿轮图标添加 AND 或 OR 规则。
 
-## Preview Alerts {#section_10D75BA7B77E4C5FAF58A719C082E070}
+## 预览警报 {#section_10D75BA7B77E4C5FAF58A719C082E070}
 
 交互式警报预览可根据过去的经验显示警报大致的触发频率。
 
