@@ -1,15 +1,15 @@
 ---
 description: 有关数据馈送中使用的特殊字符的信息。
-keywords: 数据馈送；工作；特殊字符；pit_ data；多值变量；events_ list；products_ list；mvvars
+keywords: 数据馈送；作业；特殊字符；hit_data；多值变量；events_list;products_list;mvvars
 seo-description: 有关数据馈送中使用的特殊字符的信息。
 seo-title: 特殊字符
 solution: Analytics
 subtopic: 数据馈送
 title: 特殊字符
-topic: Reports & Analytics
-uuid: 5efe019b-39e6-4226-a936-88202a02 f5 e6
+topic: Reports and Analytics
+uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 以下字符在 hit_data 文件中具有特殊含义：
 
-| 字符 | 含义 | 说明 |
+| 字符 | 含义 | 描述 |
 |--- |--- |--- |
 | \t（制表符） | 列结尾 | 标记数据字段的结尾。 |
 | \n（换行符） | 行结尾 | 标记数据行的结尾。 |
@@ -34,7 +34,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 当任何特殊字符之前有反斜线时，该字符表示原义字符。
 
-| 字符 | 含义 | 说明 |
+| 字符 | 含义 | 描述 |
 |--- |--- |--- |
 | \\t | 制表符 | 原义制表符。此字符是数据收集期间发送的值的一部分。 |
 | \\n | 换行符 | 原义换行符。此字符是数据收集期间发送的值的一部分。 |
@@ -49,31 +49,31 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
   <tr> 
    <th colname="col1" class="entry"> 字符 </th> 
    <th colname="col02" class="entry"> 含义 </th> 
-   <th colname="col2" class="entry"> 说明 </th> 
+   <th colname="col2" class="entry"> 描述 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <code>,</code>（逗号字符） </td> 
+   <td colname="col1"> <code> , </code> （逗号字符） </td> 
    <td colname="col02"> 值结尾 </td> 
    <td colname="col2"> <p>在多值变量中隔开产品字符串、事件 ID 或其他值。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code>;</code>（分号字符） </td> 
+   <td colname="col1"> <code> ; </code> （分号字符） </td> 
    <td colname="col02"> 单个产品值中的子值的结尾 </td> 
-   <td colname="col2"> <p>隔开与 <code>product_list</code> 中的单个产品关联的值。 </p> </td> 
+   <td colname="col2"> <p>隔开与 <code> product_list </code> 中的单个产品关联的值。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code>=</code>（等号字符） </td> 
+   <td colname="col1"> <code> = </code> （等于字符） </td> 
    <td colname="col02"> 值分配 </td> 
-   <td colname="col2"> <p>将值分配到 <code>event_list</code> 中的事件。 </p> </td> 
+   <td colname="col2"> <p>Assigns a value to an event in the <code> event_list </code>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 当任何特殊字符之前有脱字符号时，该字符表示原义字符。
 
-| 字符 | 含义 | 说明 |
+| 字符 | 含义 | 描述 |
 |--- |--- |--- |
 | ^, | 逗号 | 原义逗号字符。此字符是数据收集期间发送的值的一部分。 |
 | ^; | 分号 | 原义分号字符。此字符是数据收集期间发送的值的一部分。 |
