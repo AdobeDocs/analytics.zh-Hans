@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 插件
 title: appendList
 topic: 开发人员和实施
-uuid: e923c86c-ea6-4e17 a3 a4-0e08 af886674
-translation-type: tm+mt
+uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 * 添加事件到当前事件变量
 * 添加值到列表变量，且不重复列表中的值
 * 基于某些页面逻辑添加产品到当前产品变量
-* 添加值到参数&#x200B;*`linkTrackVars`* 并且 *`linkTrackEvents`*
+* 添加值到参数 *`linkTrackVars`* 和 *`linkTrackEvents`*
 
 **使用案例 1**
 
@@ -31,7 +31,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
  <tbody> 
   <tr> 
    <td colname="col1"> <p>方案 </p> </td> 
-   <td colname="col2"> <p>添加<span class="term"> event1 </span> ，并确保活动不重复。 </p> <p>s.events="scCheckout" </p> </td> 
+   <td colname="col2"> <p>添加 <span class="term">event1</span> 到当前事件变量，并确保此事件不重复。 </p> <p>s.events="scCheckout" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>代码 </p> </td> 
@@ -50,7 +50,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
  <tbody> 
   <tr> 
    <td colname="col1"> <p>方案 </p> </td> 
-   <td colname="col2"> <p>添加<span class="term"> 历史记录 </span> 到列表变量 <span class="varname"> prop1 </span>， <span class="term"> 历史记录 </span> 和 <span class="term"> 历史记录 </span> 被视为相同的值。 </p> <p>s.prop1="Science,History" </p> </td> 
+   <td colname="col2"> <p>添加 <span class="term">history</span> 值到列表变量 <span class="varname">prop1</span> 中，其中 <span class="term">history</span> 和 <span class="term">History</span> 被视为相同的值。 </p> <p>s.prop1="Science,History" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>代码 </p> </td> 
@@ -58,21 +58,21 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
   </tr> 
   <tr> 
    <td colname="col1"> <p>结果 </p> </td> 
-   <td colname="col2"> <p>s.prop1="Science,History" </p> <p> <span class="term"> 历史记录 </span> 不会添加，因为 <span class="term"> 历史记录 </span> 已在列表中。 </p> </td> 
+   <td colname="col2"> <p>s.prop1="Science,History" </p> <p> 由于 <span class="term">History</span> 已在列表中，因此未添加 <span class="term">history</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->以下说明要求您更改站点上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
+>下面的说明需要您更改网站上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具有使用和实施 [!DNL Analytics] 经验的开发人员完成。
 
 ## 实施 {#section_F4C91CA2037F478C9F7B53F357E6A5F0}
 
 按照以下步骤实施 APL 插件。
 
 1. 向客户关怀部门或当前指定的 Adobe 顾问请求插件代码。
-1. Add call(s) to the API function as needed within the *`s_doPlugins`* function
+1. 根据需要在 *`s_doPlugins`* 函数中向 API 函数添加调用
 
 此代码在您网站上大致如下所示：
 
@@ -121,7 +121,7 @@ s.doPlugins=s_doPlugins
  </tbody> 
 </table>
 
-此源列表 L 可以为空，例如 *`L=""`*。返回的值将为空列表或只含一个值的列表。
+此源列表 L 可以为空，例如 *`L=""`*。返回的值将为空列表或只含一个值的列表。
 
 **插件代码**
 
