@@ -8,8 +8,8 @@ subtopic: 调试程序
 title: 数据包分析程序
 topic: 开发人员和实施
 uuid: 3597c23a-1c72-46e6-909d-f861cbeef490
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,21 +29,17 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Adobe 不提供正式的数据包监视工具，但是互联网上存在大量这种程序。以下是其他人发现有用的一些数据包监视工具。
 
->[!NOTE]
->
->这些列表并不完整，只提供了关于常用监视器的信息。如果您成功地使用了某数据包监视工具，并且发现它非常有用，请随时使用此窗口右侧的[!UICONTROL 反馈]按钮向我们提供反馈信息。
+> [!NOTE]这些列表并不完整，只提供了关于常用监视器的信息。如果您成功地使用了某数据包监视工具，并且发现它非常有用，请随时使用此窗口右侧的[!UICONTROL 反馈]按钮向我们提供反馈信息。
 
 | Firefox | Internet Explorer | Chrome | 独立程序 |
 |---|---|---|---|
-| [Observe Point](https://www.observepoint.com/product#plugin)（标记查看器） | [HttpWatch](https://www.httpwatch.com/) | [Observe Point](https://www.observepoint.com/product#plugin)（标记查看器） | [Charles](https://www.charlesproxy.com/) |
-| [HttpFox](https://addons.mozilla.org/en-US/firefox/addon/httpfox/) |  | [Chrome Developer Tools](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
+| [观察点](https://www.observepoint.com/product#plugin)（标记查看器） | [HttpWatch](https://www.httpwatch.com/) | [观察点](https://www.observepoint.com/product#plugin)（标记查看器） | [Charles](https://www.charlesproxy.com/) |
+| [HttpFox](https://addons.mozilla.org/en-US/firefox/addon/httpfox/) |  | [Chrome 开发人员工具](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
 | [Tamper Data](https://addons.mozilla.org/en-us/firefox/addon/tamper-data/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
->[!NOTE]
->
->Adobe 不支持或解决您在使用这些数据包监视工具时可能遇到的任何问题。请咨询数据包监视工具的始发网站，以寻求帮助。
+> [!NOTE]Adobe 不支持或解决您在使用这些数据包监视工具时可能遇到的任何问题。请咨询数据包监视工具的始发网站，以寻求帮助。
 
 <!-- 
 
