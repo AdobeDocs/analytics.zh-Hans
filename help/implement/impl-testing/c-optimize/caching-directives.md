@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: 故障诊断
 title: 缓存指令
 topic: 开发人员和实施
-uuid: Bd2c26d-93ee-4039-8beb-6a6b16218a07
-translation-type: tm+mt
+uuid: 6bd2c26d-93ee-4039-8beb-6a6b16218a07
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
