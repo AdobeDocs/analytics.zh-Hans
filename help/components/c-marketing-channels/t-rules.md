@@ -5,10 +5,10 @@ seo-title: 创建营销渠道处理规则
 solution: Analytics
 subtopic: 营销渠道
 title: 创建营销渠道处理规则
-topic: Reports & Analytics
+topic: Reports and Analytics
 uuid: 0e47634f-3c69-46db-8af4-8d0b3d15f7a8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 此步骤使用电子邮件规则作为示例。该示例假定您已经将电子邮件渠道添加到“营销渠道管理器”页面上的渠道列表中。
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. 选择一个报表包。
+1. 选择报表包.
 
    如果您的报表包未定义渠道，则会显示[!UICONTROL “营销渠道：自动设置”]页面。
 
