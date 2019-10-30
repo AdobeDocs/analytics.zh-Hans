@@ -1,16 +1,16 @@
 ---
 description: 根据您的权限，您可以与整个组织、群组或个人用户共享量度。
 seo-description: 根据您的权限，您可以与整个组织、群组或个人用户共享量度。
-seo-title: 共享计算指标
-title: 共享计算指标
+seo-title: 共享计算量度
+title: 共享计算量度
 uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 共享计算指标
+# 共享计算量度
 
 根据您的权限，您可以与整个组织、群组或个人用户共享量度。
 
