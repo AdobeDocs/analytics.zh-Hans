@@ -7,8 +7,8 @@ solution: Analytics
 title: performanceTiming
 topic: 开发人员和实施
 uuid: ab2a6c51-8791-41e7-9bea-c1ce8d312de8
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 [https://www.w3.org/TR/navigation-timing/#sec-navigation-timing-interface](https://www.w3.org/TR/navigation-timing/#sec-navigation-timing-interface)
 
-此外，插件可以有选择地使用 performanceEntries 对象，为特定页面上加载的各个资产记录资产名称、资产加载开始时间和资产加载持续时间等详细信息。这个插件能够记录大量信息，为此它要求启用 DOM 存储对象，以便在查看页面的间隙存储页面加载信息。请在启用此项功能之前，确保贵公司的隐私政策允许使用 DOM 存储对象。另外，它还要求使用 listVar 来跟踪所有资源。
+此外，插件可以有选择地使用 performanceEntries 对象，为特定页面上加载的各个资产记录资产名称、资产加载开始时间和资产加载持续时间等详细信息。这个插件能够记录大量信息，为此它要求启用 DOM 存储对象，以便在查看页面的间隙存储页面加载信息。请确保贵公司的隐私权政策允许使用DOM存储对象，然后再启用此功能。 另外，它还要求使用 listVar 来跟踪所有资源。
 
 ## 所需的支持插件 {#section_B6447EB6548942EFBC219AEFDC245639}
 
@@ -55,9 +55,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ## 插件代码和实施 {#section_564D77E1CF0E445586D95AD9769CE57D}
 
->[!NOTE]
->
->下面的说明需要您更改网站上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具备使用和实施 Adobe Analytics 经验的开发人员完成。此插件仅与 [!DNL AppMeasurement] 跟踪库兼容。
+> [!NOTE]下面的说明需要您更改网站上的数据收集代码。此操作会影响您网站上的数据收集，且只应由具备使用和实施 Adobe Analytics 经验的开发人员完成。此插件仅与 [!DNL AppMeasurement] 跟踪库兼容。
 
 **配置区段（在 doPlugins 之前）：**
 
@@ -77,9 +75,7 @@ s.ptc = false;
 
 要初始化此插件，需要在 s_code 的 `doPlugins` 区域中加入一行代码，最好是在已指定 `s.pageName`   变量之后加入。如果您要利用插件中的资产加载时间功能，则必须传入要使用的列表变量的名称。否则，将只跟踪您之前在 `s.pte` 变量中指定的事件内的性能时间条目。
 
->[!NOTE]
->
->若要将性能时间条目与您站点上的页面关联，则另外还必须初始化 `getPreviousValue` 插件。我们建议您将这些性能条目与之前的页面名称或之前的页面 URL 值进行对比。
+> [!NOTE]若要将性能时间条目与您站点上的页面关联，则另外还必须初始化 `getPreviousValue` 插件。我们建议您将这些性能条目与之前的页面名称或之前的页面 URL 值进行对比。
 
 *示例调用*
 
