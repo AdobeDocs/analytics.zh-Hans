@@ -5,10 +5,10 @@ seo-description: 在 Analysis Workspace 中划分维度和维度项目。
 seo-title: 划分维度
 solution: Analytics
 title: 划分维度
-topic: Reports & Analytics
-uuid: 0b888e26-f201-4405-99f9-755b3 ee6 cd18
+topic: Reports and Analytics
+uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,8 +28,8 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
 
    >[!NOTE]
    >
-   >在表中显示的划分数量限于200。在导出划分时，该限额会有所增加。
+   >表中显示的细目数限制为200个。 在导出划分时，该限额会有所增加。
 
-[YouTube上Analysis Workspace中的维度](https://www.youtube.com/watch?v=P9W0hhIHhCs&index=12&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4：54)
+[YouTube上Analysis Workspace中的尺寸](https://www.youtube.com/watch?v=P9W0hhIHhCs&index=12&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:54)
 
-[YouTube上的维度划分](https://www.youtube.com/watch?v=3mQ2HN7-lIc&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=13) (2：02)
+[YouTube上的维度划分](https://www.youtube.com/watch?v=3mQ2HN7-lIc&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=13) (2:02)
