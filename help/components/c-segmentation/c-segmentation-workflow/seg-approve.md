@@ -5,9 +5,9 @@ seo-title: 批准区段
 solution: Analytics
 title: 批准区段
 topic: 区段
-uuid: 01f4ff51-d923-4328-a68 d-c4 e793 cb5 b34
+uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 1. 在区段管理器中，选中区段标题左侧的复选框。
 1. 单击区段管理任务栏中的“批准”**。**
 1. 考虑将批准的区段与您的组织分享。
-1. Click **[!UICONTROL OK]**.
+1. 单击&#x200B;**[!UICONTROL 确定]**。
 1. 请注意列表中区段旁的批准图标。
 
    ![](assets/seg_approved.png)
