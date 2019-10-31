@@ -1,47 +1,35 @@
 ---
 title: Adobe Analytics中的会话疑难解答
-description: 了解如何解决从Adobe Analytics注销的问题。
+description: 了解如何解决与注销Adobe Analytics相关的问题。
 seo-title: Adobe Analytics中的会话疑难解答
-seo-description: 了解如何解决从Adobe Analytics注销的问题。
+seo-description: 了解如何解决与注销Adobe Analytics相关的问题。
 translation-type: tm+mt
-source-git-commit: b5e3801454dafbcc47b93e65f8b5e7c59c3a8081
+source-git-commit: 5df7bc43587deed41786f6c85f472fb6f908caf8
 
 ---
 
 
 # Adobe Analytics中的会话疑难解答
 
-本页与疑难解答会话有关，这意味着您能够成功登录，但仍有问题登录。If you are having issues logging in to Adobe Analytics, see [Troubleshoot logging in to Adobe Analytics](troubleshoot-login.md).
+本页面介绍了会话疑难解答，这意味着您能够成功登录，但有问题需要登录。 如果您在登录Adobe Analytics时遇到问题，请参阅登 [录Adobe Analytics疑难解答](troubleshoot-login.md)。
 
-几乎所有基于会话的问题都源自组织的自定义企业网络。如果您能够登录Adobe Analytics但无法登录，请使用本文来帮助确定原因。
+几乎所有基于会话的问题都源自组织的自定义公司网络。 如果您能够登录到Adobe Analytics，但无法继续登录，请使用本文帮助确定原因。
 
-## 确定问题是否由您的组织的网络造成
+## 确定问题是否由贵组织的网络造成
 
-许多组织部署额外的网络功能以增强安全性，如代理服务器或防火墙。这些自定义有时会干扰在Adobe Analytics中保留活动会话的能力。
+许多组织都部署了其他网络功能来增强安全性，如代理服务器或防火墙。 这些自定义有时会干扰在Adobe Analytics中保留活动会话的能力。
 
-要确定您连接的企业网络是否正在导致使用Adobe Analytics，请在企业网络之外的设备上使用Experience Cloud登录凭据。设备示例可通过家庭网络或移动设备的数据计划进行。如果您能够成功地逐页移动到页面，而不注销，则您的组织网络可能是您注销Adobe Analytics的原因。
+要确定您所连接的公司网络是否导致使用Adobe Analytics的问题，请在公司网络外的设备上使用Experience cloud登录凭据。 设备的示例可以通过家庭网络或移动设备的数据计划。 如果您能够在不注销的情况下成功地从页面之间移动到页面，则贵组织的网络可能是您从Adobe Analytics中注销的原因。
 
-## IP池导致的问题
+## 代理问题
 
-一些网络使用称为IP池的练习，其中设备的IP地址在单位使用的范围内经常发生变化。作为Adobe安全实践的一部分，如果IP地址更改中间会话，则该会话将过期。
+Adobe在向Adobe发出请求时使用授权头。 某些代理(如Bluecoat（现在由赛门铁克拥有）)会删除Adobe Analytics使用的关键授权头信息。 当Adobe看不到授权标题时，会话将过期。
 
-如果您的单位使用IP池，请使用以下说明将您的IP范围添加到Adobe的白名单中：
+要解决此问题，Adobe建议与贵组织的IT团队合作，以通过贵组织的代理允许授权头。
 
-1. 与组织的IT团队合作，获取组织中使用的IP范围列表
-2. 由客户支持代表联系Adobe客户服务中心并向Adobe提供IP范围
-3. 代理将IP范围输入白名单中，以防止会话在提供的范围内时过期
+> [!NOTE] 尽管 Analytics 社区成员发现以下链接很有帮助，但这些链接并不归 Adobe 所有。查看其内容时，请注意这一点。
 
-## 代理应存在的问题
+有关Symantec代理和身份验证头的信息，请访问：
 
-Adobe在向Adobe提出请求时使用授权标题。一些代理(如Bluecoat(现在由赛门铁克拥有)简化了Adobe Analytics使用的关键授权标题信息。当Adobe看不到授权标题时，会话已过期。
-
-为了解决此问题，Adobe建议您与组织的IT团队合作，允许授权标题通过单位的代理进行授权。
-
-> [!NOTE] 注释
->
-> 尽管Analytics社区成员发现以下链接有用，但并非Adobe拥有。查看其内容时，请考虑此备注。
-
-有关Symantec代理和身份验证标题的信息，可在以下位置找到：
-
-* [在ProxiSG或ASG Appliance上的代理链部署中配置上游代理身份验证](https://support.symantec.com/en_US/article.TECH246122.html)
-* [允许Proxix始终在上游转发服务器授权](https://support.symantec.com/en_US/article.TECH244708.html)
+* [在ProxySG或ASG装置上的代理链部署中配置上游代理身份验证](https://support.symantec.com/en_US/article.TECH246122.html)
+* [允许ProxySG始终转发服务器授权上游](https://support.symantec.com/en_US/article.TECH244708.html)
