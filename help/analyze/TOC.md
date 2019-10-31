@@ -4,7 +4,7 @@ audience: 最终用户
 user-guide-title: Analytics Analyze 指南
 user-guide-url: /content/help/zh-Hans/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 8fe853cc5942bcf3f5de4c944756e6524ce07f0b
+source-git-commit: 5df7bc43587deed41786f6c85f472fb6f908caf8
 
 ---
 
@@ -77,7 +77,7 @@ source-git-commit: 8fe853cc5942bcf3f5de4c944756e6524ce07f0b
    + 面板 {#panels}
       + [面板概述](analysis-workspace/c-panels/panels.md)
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
-      + 归因{attribution}
+      + 归因 {#attribution}
          + [归因概述](analysis-workspace/c-panels/attribution/attribution.md)
          + [使用“归因”面板](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [归因常见问题解答](analysis-workspace/c-panels/attribution/attribution-faq.md)
