@@ -1,20 +1,20 @@
 ---
-description: 允许您在[!DNL活动图]中应用多段过滤器。
-seo-description: 允许您在[!DNL活动图]中应用多段过滤器。
+description: 允许您在 Activity Map 中应用多区段过滤器。
+seo-description: 允许您在 Activity Map 中应用多区段过滤器。
 seo-title: 客户分段
 solution: Analytics
 title: 客户分段
 topic: Activity Map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
 # 客户分段
 
-Lets you apply a multiple-segment filter within [!DNL Activity Map].
+允许您在 Activity Map 中应用多区段过滤器。
 
 > [!NOTE] “细分”控件仅在标准模式下可用，因为Adobe Analytics平台不支持对实时数据进行分段。
 
@@ -28,4 +28,4 @@ Lets you apply a multiple-segment filter within [!DNL Activity Map].
 
 ![](assets/two_segments.png)
 
-The selected segments will be applied to all Analytics reports presented in [!DNL Activity Map], i.e. overlays and the **[!UICONTROL Links on Page]** and **[!UICONTROL Page Details]** reports.
+选定区段将被应用于 Activity Map 中存在的所有 Analytics 报表，例如叠加图、**[!UICONTROL 页面上的链接]**&#x200B;和&#x200B;**详细信息页面]报表。[!UICONTROL **
