@@ -1,20 +1,20 @@
 ---
-description: 在[!DNL Activity Map]或旧版ClickMap中启动链接跟踪的步骤。
-seo-description: 在[!DNL Activity Map]或旧版ClickMap中启动链接跟踪的步骤。
+description: 在 Activity Map 或旧版 ClickMap 中，启动链接跟踪的步骤。
+seo-description: 在 Activity Map 或旧版 ClickMap 中，启动链接跟踪的步骤。
 seo-title: 开始链接跟踪
 solution: Analytics
 title: 开始链接跟踪
 topic: Activity Map
 uuid: 425cb287-f76e-4430-802f-288499711ba9
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
 
 ---
 
 
 # 开始链接跟踪
 
-Steps for starting link tracking in [!DNL Activity Map] or Legacy ClickMap.
+在 Activity Map 或旧版 ClickMap 中，启动链接跟踪的步骤。
 
 <table id="table_1745199B3105467CBA26F50B3B1CCE99"> 
  <thead> 
@@ -25,8 +25,8 @@ Steps for starting link tracking in [!DNL Activity Map] or Legacy ClickMap.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> [!DNL活动图] </td> 
-   <td colname="col2"> Add the following content from the Appmeasurement.js file: 
+   <td colname="col1"> Activity Map </td> 
+   <td colname="col2"> 在 Appmeasurement.js 文件中添加以下内容： 
     <code>
      /*
      &nbsp;START&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;The&nbsp;following&nbsp;module&nbsp;enables&nbsp;Activity&nbsp;Map&nbsp;tracking&nbsp;in&nbsp;Adobe&nbsp;Analytics.&nbsp;Activity&nbsp;Map
