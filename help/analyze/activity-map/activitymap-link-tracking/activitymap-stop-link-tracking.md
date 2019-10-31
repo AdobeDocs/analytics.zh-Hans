@@ -1,20 +1,20 @@
 ---
-description: 在[!DNL Activity Map]或旧版ClickMap中停止链接跟踪的步骤。
-seo-description: 在[!DNL Activity Map]或旧版ClickMap中停止链接跟踪的步骤。
+description: 在 Activity Map 或旧版 ClickMap 中，停止链接跟踪的步骤。
+seo-description: 在 Activity Map 或旧版 ClickMap 中，停止链接跟踪的步骤。
 seo-title: 停止链接跟踪
 solution: Analytics
 title: 停止链接跟踪
 topic: Activity Map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
 
 ---
 
 
 # 停止链接跟踪
 
-Steps for stopping link tracking in [!DNL Activity Map] or Legacy ClickMap.
+在 Activity Map 或旧版 ClickMap 中，停止链接跟踪的步骤。
 
 <table id="table_1745199B3105467CBA26F50B3B1CCE99"> 
  <thead> 
@@ -25,8 +25,8 @@ Steps for stopping link tracking in [!DNL Activity Map] or Legacy ClickMap.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> [!DNL活动图] </td> 
-   <td colname="col2"> Remove the following content from the Appmeasurement.js file: 
+   <td colname="col1"> Activity Map </td> 
+   <td colname="col2"> 从 Appmeasurement.js 文件删除以下内容： 
     <code>
      /*
      &nbsp;START&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;The&nbsp;following&nbsp;module&nbsp;enables&nbsp;Activity&nbsp;Map&nbsp;tracking&nbsp;in&nbsp;Adobe&nbsp;Analytics.&nbsp;Activity&nbsp;Map
