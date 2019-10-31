@@ -7,7 +7,7 @@ title: 区分引用相同链接 ID 和区域的多个链接
 topic: Activity Map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 您可以通过以下方式区分链接：使用 s_objectID 变量来自定义链接 ID；自定义区域；以及自定义 AppMeasurement ActivityMap 模块文件。
 
-As an example, let's say you have multiple "Buy" links that are identified by [!DNL Activity Map] under the same Link ID and Region:
+例如，假设您拥有多个“购买”链接，且这些链接被 Activity Map 确认为属于同一个链接 ID 和区域：
 
 <table id="table_3020E2C0175D455C84E794CF51BE5A93"> 
  <thead> 
@@ -51,11 +51,11 @@ As an example, let's say you have multiple "Buy" links that are identified by [!
 
 ## 使用 s_objectID 来自定义链接 ID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-通过为链接或页面的链接位置创建唯一对象 ID，可改善 [!DNL Activity Map] 跟踪或使用 [!DNL Activity Map] 报告链接类型或位置，而非链接 URL。单击[此处](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html)，以了解有关 s_objectID 变量的更多信息。
+通过为链接或页面上的链接位置创建唯一对象 ID，您可以改善 Activity Map 跟踪功能，或使用 Activity Map（而非链接 URL）来报告链接的类型或位置。单击[此处](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html)，以了解有关 s_objectID 变量的更多信息。
 
 >[!IMPORTANT]
 >
->Note that a trailing semicolon (;) is required when using s_objectID in [!DNL Activity Map].
+>请注意，在Activity map中使用s_objectID时，需要尾部分号(;)。
 
 <table id="table_9439A5F320304E439A19842CF3EBA456"> 
  <thead> 
