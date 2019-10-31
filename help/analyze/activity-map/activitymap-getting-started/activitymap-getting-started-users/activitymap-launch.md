@@ -1,20 +1,20 @@
 ---
-description: 假定安装了正确的浏览器插件，您可以直接从网页启动[!DNL Activity Map]。
-seo-description: 假定安装了正确的浏览器插件，您可以直接从网页启动[!DNL Activity Map]。
-seo-title: 启动[!DNL活动图]
+description: 假设您已经安装了正确的浏览器插件，那么就可以直接通过网页启动 Activity Map。
+seo-description: 假设您已经安装了正确的浏览器插件，那么就可以直接通过网页启动 Activity Map。
+seo-title: 启动 Activity Map
 solution: Analytics
-title: 启动[!DNL活动图]
+title: 启动 Activity Map
 topic: Activity Map
 uuid: f617fbc3-a577-4bd2-a316-578959219874
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
-# Launch [!DNL Activity Map]{#launch-activity-map}
+# 启动 Activity Map{#launch-activity-map}
 
-Assuming that the correct browser plug-in is installed, you can launch [!DNL Activity Map] directly from your web page.
+假设您已经安装了正确的浏览器插件，那么就可以直接通过网页启动 Activity Map。
 
 1. 单击浏览器地址栏右侧的Adobe Analytics图标：\
    ![](assets/an_icon.png){width="90px"}
