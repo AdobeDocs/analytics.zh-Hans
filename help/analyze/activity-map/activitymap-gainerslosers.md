@@ -7,7 +7,7 @@ title: 可自定义的叠加图
 topic: Activity Map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 叠加图为您提供了多种配置数据可视化的方法，让您能够轻松地查看和了解页面上链接的受欢迎程度。
 
-叠加图让您能够直接在页面上看到单击数据。This is what separates a visual analysis tool like [!DNL Activity Map] from mostly tabular and graphical tools like Reports &amp; Analytics.
+叠加图让您能够直接在页面上看到单击数据。这正是“Activity Map”这样的可视化分析工具与大部分类似于“Reports &amp; Analytics”的表格式和图形式工具的不同之处。
 
-[!DNL Activity Map] 提供三种类型的叠加：
+Activity Map 提供三类叠加图：
 
 * 渐变叠加图（热图）
 * 气泡叠加图
@@ -46,7 +46,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 气泡叠加图可以在小型标注气泡中显示叠加内容（量度、百分比或排名）。
 
-当您在工具栏的“叠加图类型”中选择这种叠加图时，就会出现气泡叠加图。Bubble overlays show for all links that match the selection in [[!DNL Activity Map] Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) (top 30, top 50, all...). 如果没有选择此选项，将会出现渐变叠加图。
+当您在工具栏的“叠加图类型”中选择这种叠加图时，就会出现气泡叠加图。气泡叠加图可以显示与 [Activity Map 设置](/help/analyze/activity-map/activitymap-overlay-settings.md)中的选择（前 30、前 50、全部...）相匹配的所有链接。如果没有选择此选项，将会出现渐变叠加图。
 
 ![](assets/bubble_overlay.png)
 
