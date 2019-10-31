@@ -1,22 +1,22 @@
 ---
-description: '[!DNL Activity Map]设置面板允许您修改所有类型的叠加可视化的设置和属性。'
-seo-description: '[!DNL Activity Map]设置面板允许您修改所有类型的叠加可视化的设置和属性。'
-seo-title: 配置[!DNL Activity Map]设置
+description: 您可以通过“Activity Map 设置”面板，为所有类型的叠加图可视化修改设置和属性。
+seo-description: 您可以通过“Activity Map 设置”面板，为所有类型的叠加图可视化修改设置和属性。
+seo-title: 配置 Activity Map 设置
 solution: Analytics
-title: 配置[!DNL Activity Map]设置
+title: 配置 Activity Map 设置
 topic: Activity Map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
-# Configure [!DNL Activity Map] settings
+# 配置 Activity Map 设置
 
-The [!DNL Activity Map] Setting Panel lets you modify the settings and properties for all types of overlay visualizations.
+您可以通过“Activity Map 设置”面板，为所有类型的叠加图可视化修改设置和属性。
 
-Access the [!DNL Activity Map] Settings panel accessed by clicking the gear icon on the [!DNL Activity Map] toolbar.
+通过单击 Activity Map 工具栏中的齿轮图标，可以访问“Activity Map 设置”面板。
 
 设置面板会根据选定的应用程序模式，显示不同的内容。“其他”选项卡则包含的是一些常规设置。
 
@@ -97,7 +97,7 @@ Access the [!DNL Activity Map] Settings panel accessed by clicking the gear icon
  <tbody> 
   <tr> 
    <td colname="col1"> 报表包 </td> 
-   <td colname="col2"> <p>您可以访问的报表包列表不再局限于网页标签中定义的报表包。现在，您可以将选定的报表包（对应于页面上的标签之一）替换为其他报表包。不需要将此新报表包链接到页面上的标签。If you change the selected report suite in the [!DNL Activity Map] Settings, the <span class="uicontrol"> Save</span> process will cause all affected Analytics reports to be refreshed. </p> <p> <p>重要：虚拟报表包不兼容实时模式，仅兼容标准模式。如果您在标准报表包的实时模式下，但是在此对话框中选择了虚拟报表包，那么当您在此处单击<span class="uicontrol">确定</span>后，将会显示标准模式。 </p> </p> <p>此外，日历控件将会被重新初始化，以匹配报表包的日历类型（公历、零售、自定义...）。 </p> </td> 
+   <td colname="col2"> <p>您可以访问的报表包列表不再局限于网页标签中定义的报表包。现在，您可以将选定的报表包（对应于页面上的标签之一）替换为其他报表包。不需要将此新报表包链接到页面上的标签。如果您在“Activity Map 设置”中更改选定的报表包，则<span class="uicontrol">保存</span>过程中所有受影响的 Analytics 报表都会被刷新。 </p> <p> <p>重要：虚拟报表包不兼容实时模式，仅兼容标准模式。如果您在标准报表包的实时模式下，但是在此对话框中选择了虚拟报表包，那么当您在此处单击<span class="uicontrol">确定</span>后，将会显示标准模式。 </p> </p> <p>此外，日历控件将会被重新初始化，以匹配报表包的日历类型（公历、零售、自定义...）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 语言 </td> 
