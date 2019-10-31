@@ -8,7 +8,7 @@ title: AppMeasurement for JavaScript
 topic: 开发人员和实施
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
@@ -284,7 +284,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 发行日期：**2016 年 4 月 21 日**
 
-* [!DNL AppMeasurement][!DNL Activity Map] 模块已集成在 [!DNL AppMeasurement] 标准模块中，以便您只需引用一个 [!DNL .js] 文件。此外，默认情况下会激活 [!DNL Activity Map] 跟踪。(AN-112689)
+* The [!DNL AppMeasurement] Activity Map module has been integrated in the [!DNL AppMeasurement] standard module, so that you only have to reference one [!DNL .js] file. 此外，默认情况下会激活 Activity Map 跟踪。(AN-112689)
 
 * 修复了 [!DNL AppMeasurement] 中的查询字符串变量顺序存在的截断问题，以便 *`pageURLRest`* 位于最后。(AN-114647)
 
