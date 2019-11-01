@@ -5,7 +5,7 @@ seo-title: 列设置
 title: 列设置
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -49,7 +49,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 | 自定义 | 您可以为条件格式手动分配上限、中点和下限字段的值。这可以让您灵活地决定列值何时为好、中或差。 |
 | 表单元格预览 | 显示应用当前所选的格式选项时，每个单元格的预览效果。 |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [管理数据源](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)
 
