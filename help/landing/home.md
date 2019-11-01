@@ -4,12 +4,14 @@ seo-title: Adobe Analytics 技术文档和自助式用户指南的完整列表
 description: Analytics 用户指南和资源
 seo-description: Adobe Analytics 技术文档、发行说明和自助式用户指南的完整列表。
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 85d80a186d7f833065a2ebebad53ca158c788100
 
 ---
 
 
 # Adobe Analytics 文档
+
+欢迎使用Adobe Analytics产品和技术文档主页。 在此，您可以找到报表工具(如 [!UICONTROL Analysis]、 [!UICONTROL Report Builder]、Reporting API、 [!UICONTROL Data Workbench]和Activity Map Report)的自助和 支持信息。 您还可以访问有关产品和用户管理、实施以及Adobe Analytics中支持的所有功能的文档。
 
 [![工具](assets/analyze_50px.png)](/help/analyze/home.md) [Analytics 工具指南](/help/analyze/home.md) – 包含可以在 Adobe Analytics 中使用的所有分析工具。该指南是第一个、也是最重要的一个全面提供了关于 Analysis Workspace 以及适用于 Analytics 的主要分析和可视化工具的说明文档。
 
