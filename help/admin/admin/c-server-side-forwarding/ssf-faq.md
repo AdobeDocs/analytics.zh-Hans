@@ -5,7 +5,7 @@ seo-title: 服务器端转发常见问题解答
 title: 服务器端转发常见问题解答
 uuid: ecd0bc9b-ebf7-414e-88a2-ebba3fd75c92
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 | 问：如果我们有两个Experience cloud组织（或AAM实例）并希望在两个Experience cloud组织之间共享数据，该怎么办？ 我是否可以在服务器端将一次Analytics点击转发到多个Experience cloud组织？ | 不会。如果您需要将从一个Experience cloud组织收集的数据共享到另一个Experience cloud组织，我们建议使用受众市场将任何适用的受众从一个Audience manager实例发送到另一个实例。 |
 | 问：服务器端转发会导致 Audience Manager 或 Analytics 中产生任何额外计费吗？ | 在 Analytics 中，不会产生任何额外计费。在 Audience Manager 中，转发的点击将会像任何其他点击一样进行处理并加以计费。这就是为什么切勿同时启用 DIL 和服务器端转发的原因，因为这样做会导致双重计费以及数据重复。 |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [服务器端转发](/help/admin/admin/c-server-side-forwarding/ssf.md)
 
