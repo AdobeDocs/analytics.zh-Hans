@@ -7,7 +7,7 @@ title: 路径查看次数
 topic: 量度
 uuid: ceab036c-8e0c-43b7-946a-aeba6a253982
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 | 转化 | 不适用 |
 | Ad Hoc Analysis | 并非整个访问的时间，通常为 3 到 4 个页面长度的路径集合。显示了该特定路径的访问频率。 |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [路径报表](/help/components/c-variables/dimensionslist/reports-paths.md)
 
