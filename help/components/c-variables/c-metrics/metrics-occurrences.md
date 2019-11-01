@@ -7,7 +7,7 @@ title: 发生次数
 topic: 量度
 uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 | 实例数高于发生次数 | 在报表中不可能出现这种情况，因为所有实例同时也会被记录为发生次数。 |
 | 实例数等于发生次数 | 对于流量变量，这是最常见的，因为通常情况下它们无法独立于图像请求之外存在。 |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [实例](/help/components/c-variables/c-metrics/metrics-instance.md)
 
