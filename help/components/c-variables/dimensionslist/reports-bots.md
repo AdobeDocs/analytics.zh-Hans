@@ -7,7 +7,7 @@ title: 机器人
 topic: 报告
 uuid: 9909ce3b-41a4-4ce8-afe9-02cb46f31d64
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 系统是依据用户代理或 IP 地址对机器人进行过滤的。我们提供了使用 IAB/ABCe 国际蜘蛛程序和机器人程序列表 (IAB/ABCe International Spiders &amp; Robots List) 过滤机器人流量的选项。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [机器人规则](https://marketing.adobe.com/resources/help/en_US/admin/c_bot_rules.html)
 
