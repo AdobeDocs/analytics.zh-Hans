@@ -5,7 +5,7 @@ seo-title: 配置现有报表
 title: 配置现有报表
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -164,7 +164,7 @@ t_reports_breakdown_table.xml
    >
    >要获得更大的灵活性，请使 [用Table Builder](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) （表生成器）配置具有划分的报表。 当您打开具有划分的保存报表或计划报表后，可能需要单击“替换表”**以刷新动态报表数据的划分。**&#x200B;例如，您可能需要刷新包含行项目划分的计划报表，这些行项目可根据日期范围或访客活动发生更改。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [表生成器](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 
@@ -249,7 +249,7 @@ t_column_width.xml
 
    如果启用了“适合窗口”，则会禁用该选项。1. Specify a width in pixels, then click **[!UICONTROL OK]**.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [表生成器](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 
