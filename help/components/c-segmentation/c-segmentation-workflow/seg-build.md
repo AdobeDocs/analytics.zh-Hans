@@ -7,7 +7,7 @@ title: 生成区段
 topic: 区段
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ac663ccb22e4d33a35ede96d59ee0699b04de8d5
 
 ---
 
@@ -24,11 +24,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 访问区段生成器的方法有以下几种：
 
-* **** 分析顶部导航：单击 **[!UICONTROL Analytics]** &gt;组 **[!UICONTROL 件]** &gt;区 **[!UICONTROL 段]**。
-* **Analysis Workspace**:单击 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**，打开一个项目，然后单击 **[!UICONTROL New]** &gt; **** Create Segment Algement。
-* **报告与分析**:单击 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]**，打开现有报表，单击左侧导航中的区段图 ![](assets/segment_icon.png) 标，然后单击添加 ****。
-* **临时分析**:在 [临时分析中构建区段](../../../components/c-segmentation/c-segmentation-workflow/seg-build.md#section_E440630183D64999BA2369D1B8048AA6)。
-* **Report Builder**:在 [Report builder中添加或编辑区段](https://marketing.adobe.com/resources/help/en_US/arb/segmentation.html)。
+* **分析顶部导航**:单击 **[!UICONTROL Analytics]** &gt;组 **[!UICONTROL 件]** &gt;区 **[!UICONTROL 段]**。
+* **[!UICONTROL Analysis Workspace]**:单击 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**，打开一个项目，然后单击 **[!UICONTROL New]** &gt; **** Create Segment Algement。
+* **[!UICONTROL 报告与分析]**:单击 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]**，打开现有报表，单击左侧导航中的区段图 ![](assets/segment_icon.png) 标，然后单击添加 ****。
+* **[!UICONTROL 临时分析]**:在 [临时分析中构建区段](../../../components/c-segmentation/c-segmentation-workflow/seg-build.md#section_E440630183D64999BA2369D1B8048AA6)。
+* **[!UICONTROL Report Builder]**:在 [Report builder中添加或编辑区段](https://marketing.adobe.com/resources/help/en_US/arb/segmentation.html)。
 
 ## Segment Builder user interface {#concept_643F2DF74C544796B58F4656ABC5F726}
 
@@ -47,40 +47,43 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ![](assets/segment_builder_ui.png)
 
-1. **** 标题：允许您命名或重命名区段。
-1. **** 说明：提供区段的描述。 如果要共享区段，则必须提供描述。
-1. **** 标记：从 [现有标记列表中选择](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50) ，或创建新标记，以标记要创建的区段。
-1. **** 定义：在这里，您可 [以构建和配置区段](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_BD4C17B01C5B4E378D0C14C852D055D4)、添加规则以及嵌套和排序容器。 允许您通过选择容器，并将维度、区段或量度拖放到定义中来为新区段提供描述。
-1. **** 显示：（顶部容器选择器。）Lets you select the top-level [container](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551) ( [!UICONTROL Visitor], [!UICONTROL Visit], [!UICONTROL Hit]). 默认的顶级容器为“点击”容器。
-1. **** 选项：（齿轮）图标
+1. **[!UICONTROL 标题]**:允许您命名或重命名区段。
+1. **[!UICONTROL 说明]**:提供区段的描述。 如果要共享区段，则必须提供描述。
+1. **[!UICONTROL 标记]**:从 [现有标记列表中选择](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50) ，或创建新标记，以标记要创建的区段。
+1. **[!UICONTROL 定义]**:在这里，您可 [以构建和配置区段](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_BD4C17B01C5B4E378D0C14C852D055D4)、添加规则以及嵌套和排序容器。 允许您通过选择容器，并将维度、区段或量度拖放到定义中来为新区段提供描述。
+1. **[!UICONTROL 显示]**:（顶部容器选择器。）Lets you select the top-level [container](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551) ([!UICONTROL Visitor], [!UICONTROL Visit], [!UICONTROL Hit]). 默认的顶级容器为“点击”容器。
+1. **[!UICONTROL 选项]**:（齿轮）图标
 
-   * **** +添加容器：允许您将新容器（在顶级容器下）添加到区段定义。
-   * **** +通过选择添加容器：允许您根据在定义字段中选择的元素（多个）创建新容器。
-   * **** 排除：允许您通过排除一个或多个维度、区段或指标来定义区段。
-   **** 归因模型：用于维度细分。 维模型在顺序细分中尤其有用，例如在支持流可视化的细分中：
-   * **[!UICONTROL 重复]** (（默认）):包括维的实例和保留的值。
-   * **[!UICONTROL 实例]**:包括维的实例。
-   * **[!UICONTROL 非重复实例]**:包括维的唯一实例（非重复）。
-   ![](assets/attribution-models.jpg)
+   * **[!UICONTROL + 添加容器]**：用于向区段定义添加新容器（在顶级容器下）。
+   * **[!UICONTROL + 通过选择添加容器]**：用于从您在“定义”字段中选择（多选）的元素创建新容器。
+   * **[!UICONTROL 排除]**：用于通过排除一个或多个维度、区段或量度来定义区段。
 
-1. **** 维：从维列表（橙色提要栏）中拖放维。
-1. **** 比较：可以使用选定的运算符比较和约束值。
-1. **** 值：您为维度、区段或量度输入或选择的值。
+**[!UICONTROL 归因模型]**:用于维度细分。 维模型在顺序细分中尤其有用，例如在支持流可视化的细分中：
+
+    * **重[!UICONTROL 复]**(（默认）):包括维的实例和保留的值。
+    * **实[!UICONTROL 例]**:包括维的实例。
+    ***[!UICONTROL 非重复实例]**:包括维的唯一实例（非重复）。
+
+![](assets/attribution-models.jpg)
+
+1. **[!UICONTROL 维]**:从维列表（橙色提要栏）中拖放维。
+1. **[!UICONTROL 比较]**:可以使用选定的运算符比较和约束值。
+1. **[!UICONTROL 值]**:您为维度、区段或量度输入或选择的值。
 1. **[!UICONTROL 和／或/然后]**:在容器 [!UICONTROL 或规则之间分配AND/OR] /THEN运算符。 The THEN operator lets you [define sequential segments](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_83AEC78CD25F442EBEE364856A889560).
 1. **[!UICONTROL 指标]**:（绿色提要栏）从“度量”列表中拖放的度量。
 1. **[!UICONTROL 比较运算符]** :可以使用选定的运算符比较和约束值。
 1. **[!UICONTROL 值]**:您为维度、区段或量度输入或选择的值。
 1. **[!UICONTROL X]**:（删除）允许您删除区段定义的这一部分。
 1. **[!UICONTROL 保存]** 或取 **[!UICONTROL 消]**:保存或取消区段。 After clicking **[!UICONTROL Save]**, you are taken to the Segment Manager where you can manage the segment.
-1. **** 搜索：搜索维度、区段或指标列表。
-1. **** 维：（列表）单击标题可展开。
-1. **** 指标：单击标题可展开。
-1. **** 区段：单击标题可展开。
-1. **** 报表包选择器：允许您选择保存此区段的报表包。 您仍可以在所有报表包中使用该区段。
-1. **** 区段预览：允许您预览关键指标，以查看您是否有有效的细分以及该细分的范围。 表示应用此区段时预期的数据集划分。显示 3 个同心圆和一个列表，以显示针对数据集运行的区段的[!UICONTROL 点击]、[!UICONTROL 访问]和[!UICONTROL 访客]的匹配项数量和百分比。在创建区段定义或对区段定义做出更改之后，将立即更新此图表。
-1. **** 产品兼容性：提供您创建的区段与哪些Adobe Analytics产品(Analysis Workspace、 [!UICONTROL Reports &amp; Analytics]、Ad Hoc Analysis、Data Warehouse)兼容的列表。 大多数区段与所有产品都兼容。但是，并非所有运算符和维度都与 Analytics 的所有产品兼容，特别是 [Data Warehouse](../../../components/c-segmentation/seg-reference/seg-compatibility.md#concept_7A2CC00352274A75ACD4949CA3C144D4). 在对区段定义做出更改之后，将立即更新此图表。
+1. **[!UICONTROL 搜索]**:搜索维度、区段或指标列表。
+1. **[!UICONTROL 维]**:（列表）单击标题可展开。
+1. **[!UICONTROL 指标]**:单击标题可展开。
+1. **[!UICONTROL 细分]**:单击标题可展开。
+1. **[!UICONTROL 报表包选择器]**:允许您选择保存此区段的报表包。 您仍可以在所有报表包中使用该区段。
+1. **[!UICONTROL 区段预览]**:允许您预览关键指标，以查看您是否有有效的细分以及该细分的范围。 表示应用此区段时预期的数据集划分。显示 3 个同心圆和一个列表，以显示针对数据集运行的区段的[!UICONTROL 点击]、[!UICONTROL 访问]和[!UICONTROL 访客]的匹配项数量和百分比。在创建区段定义或对区段定义做出更改之后，将立即更新此图表。
+1. **[!UICONTROL 产品兼容性]**:提供您创建的区段与哪些Adobe Analytics产品(Analysis Workspace、 [!UICONTROL Reports &amp; Analytics]、Ad Hoc Analysis、Data Warehouse)兼容的列表。 大多数区段与所有产品都兼容。但是，并非所有运算符和维度都与 Analytics 的所有产品兼容，特别是 [Data Warehouse](../../../components/c-segmentation/seg-reference/seg-compatibility.md#concept_7A2CC00352274A75ACD4949CA3C144D4). 在对区段定义做出更改之后，将立即更新此图表。
 
-   Segments with embedded date ranges continue to operate differently in Analysis Workspace versus [!UICONTROL Reports &amp; Analytics]: In Workspace, a segment with an embedded date range overrides the panel date range. By contrast, [!UICONTROL Reports &amp; Analytics] gives you the intersection of the report date range and the segment's embedded date range.
+Segments with embedded date ranges continue to operate differently in Analysis Workspace versus [!UICONTROL Reports &amp; Analytics]: In Workspace, a segment with an embedded date range overrides the panel date range. By contrast, [!UICONTROL Reports &amp; Analytics] gives you the intersection of the report date range and the segment's embedded date range.
 
 **[!UICONTROL 发布到Experience Cloud(针对`<report suite name>`)]**:（未在屏幕上显示）仅当为Experience cloud启用了您保存此区段的报表包时， [才显示此选项](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_1E9FC92437D748C392546542B6511D01)。 By publishing a segment to the Experience Cloud, you can use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], and [!DNL Audience Manager]. 区段标题和描述为必填字段。
 
