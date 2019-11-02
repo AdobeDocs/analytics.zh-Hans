@@ -4,7 +4,7 @@ seo-description: 登录数据连接器；将跟踪数据从第三方应用程序
 seo-title: 分析数据连接器
 title: Analytics数据连接器入门
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 757814b2f7163fdc915c5c5c770f956f9733c1ba
 
 ---
 
@@ -79,7 +79,7 @@ Adobe Analytics通过数据仓库将这些文件分别发送到Adobe为第三方
    * 购买： `purchase` 事件
    * Product Views: `prodView` event
 
-**** 注意：如果定义产品时没有关联事件，则prodView事件会自动触发。
+> [!NOTE] 如果定义产品时没有关联事件，则prodView事件会自动触发。
 如果不满足以上要求，那么相应的再营销区段将无法正常报告。
 
 [!UICONTROL 放弃购买]：用户将产品添加到购物车后触发：
