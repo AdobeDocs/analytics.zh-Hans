@@ -66,4 +66,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 | [计算量度创建](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) | 授予用户创建计算量度的权限。 |
 | [区段创建](https://marketing.adobe.com/resources/help/en_US/analytics/segment/) | 授予用户创建区段的权限。 |
 | **Data Connectors** |  |
-| 集成（创建、更新或删除） | 授予创建、更新和删除 Data Connector 集成的权
+| 集成（创建、更新或删除） | 授予创建、更新和删除 Data Connector 集成的权限。 |
