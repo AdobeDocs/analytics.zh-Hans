@@ -26,7 +26,7 @@ source-git-commit: d22bb34ffb997b0c49ef37d6908961cd1875cc27
 
 完全处理数据源数据使用单独的访客资料进行处理，因此即使上载数据中的访客 ID 与使用 JavaScript 或其他 AppMeasurement 库收集的数据匹配，访客资料也不会通过 eVar 分配进行关联。
 
-例如，访客 ID 为`“user@example.com”`的用户通过名为“春季促销”的市场营销活动访问您的网站，该活动存储在促销活动变量中。如果您稍后使用相同的访客 ID 上载一个交易，则“春季促销”活动不会收到使用完全处理数据源上载的任何收入或成功事件的积分。
+For example, a user with a visitor ID of `"user@example.com"` visits your site from a marketing campaign named "Spring Sale", which is stored in the campaign variable. 如果您稍后使用相同的访客 ID 上载一个交易，则“春季促销”活动不会收到使用完全处理数据源上载的任何收入或成功事件的积分。
 
 ## 列引用 {#section_92BAE76639E3404E97276B1BE0581078}
 
