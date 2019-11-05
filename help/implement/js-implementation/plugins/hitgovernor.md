@@ -5,7 +5,7 @@ seo-title: hitGovernor
 title: hitGovernor
 uuid: d9091eae-005a-43c2-b419-980b795bc2a9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -20,7 +20,7 @@ s.hitGovernor 插件可跟踪在预定义的连续时间范围内发送的 Analy
 
 ## hitGovernor 插件原理 {#section_541BC639E31442D09B1C85A2FFCDC02C}
 
-每次将图像请求发送到跟踪服务器时，此插件即会增加 Cookie 值，并在连续时间范围内跟踪该值。默认时间范围为 1 分钟，但该时间范围可以被覆盖。（请参阅下面的[实施](../../../implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2)）。如果该时间范围内的点击总量超过了默认的点击量阈值 (60)，则会发送最终的自定义链接图像请求，以设置 *`exceptionFlag`* 上下文数据变量。默认的点击量阈值也可以被覆盖。
+每次将图像请求发送到跟踪服务器时，此插件即会增加 Cookie 值，并在连续时间范围内跟踪该值。默认时间范围为 1 分钟，但该时间范围可以被覆盖。（请参阅下面的[实施](/help/implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2)）。如果该时间范围内的点击总量超过了默认的点击量阈值 (60)，则会发送最终的自定义链接图像请求，以设置 *`exceptionFlag`* 上下文数据变量。默认的点击量阈值也可以被覆盖。
 
 如有需要，从此刻起，可以在默认期限（60 天）内阻止系统收集该特定访客的流量。如果要阻止流量，需要在 doPlugins 函数中额外添加一行代码，如下所述。同样地，此时间期限也可以调整。对于此时间期限逻辑，可以将该访客的 IP 地址、用户代理或 [!DNL Experience Cloud] 访客 ID 包含在适当的永久异常逻辑中，或在 60 天过后重置此时间期限。如此一来，如果此流量在 60 天后被插件识别为欺诈，则该流量会再次被标记为异常，那么在接下来的 60 天内系统同样不会收集该流量。
 
@@ -55,7 +55,7 @@ s.hitGovernor 插件可跟踪在预定义的连续时间范围内发送的 Analy
    }); 
    ```
 
-   在 AppMeasurement 文件的 doPlugins 部分下方，插入[插件源代码](../../../implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0)中的插件代码。
+   在 AppMeasurement 文件的 doPlugins 部分下方，插入[插件源代码](/help/implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0)中的插件代码。
 
    您可以通过在插件自身以外的位置设置点击量上限阈值、点击时间范围阈值和流量排除时间期限等变量来覆盖这三个变量，不过您最好使用其他配置变量来进行覆盖：
 
