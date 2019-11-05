@@ -3,21 +3,21 @@ description: 'null'
 seo-description: 'null'
 seo-title: Advertising Analytics 疑难解答
 title: Advertising Analytics 疑难解答
-uuid: d0ab7cc-ed13-4d3 d-87a6-f0 d649 c ad2 d
+uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
 
 ---
 
 
 # Advertising Analytics 疑难解答
 
-* [我在“映射”部分中没有看到我的报表包](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
-* [验证Google Adwords帐户时出错…](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
+* [我在“映射”部分中没有看到我的报表包](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
+* [向Google Adwords帐户进行身份验证时，我收到错误消息……](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
 
 ## 我在“映射”部分中没有看到我的报表包 {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-您正在尝试[设置一个新的广告帐户](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C)，并且在&#x200B;**[!UICONTROL 选择报表包]下拉列表中列出的报表包中，没有看到您的报表包。**&#x200B;出现此问题的原因可能有两个：
+您正在尝试[设置一个新的广告帐户](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)，并且在&#x200B;**[!UICONTROL 选择报表包]下拉列表中列出的报表包中，没有看到您的报表包。**&#x200B;出现此问题的原因可能有两个：
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 
@@ -28,12 +28,12 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1. 报表包未映射到登录用户的Experience Cloud组织ID。 </p> </td> 
-   <td colname="col2"> <p>有关说明，请参阅<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html" format="html" scope="external">将报表包映射到组织</a>。 </p> </td> 
+   <td colname="col1"> <p>1.报表包未映射到登录用户的Experience cloud组织ID。 </p> </td> 
+   <td colname="col2"> <p>有关说明，请参阅<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  >将报表包映射到组织</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. 报表包没有配置为可以使用 Advertising Analytics 报告功能。 </p> </td> 
-   <td colname="col2"> <p>有关说明，请参阅<a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md#concept_BE491B2A2CAE4D818C218033B985A0FB" format="dita" scope="local">配置报表包</a>。 </p> </td> 
+   <td colname="col2"> <p>有关说明，请参阅<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >配置报表包</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
