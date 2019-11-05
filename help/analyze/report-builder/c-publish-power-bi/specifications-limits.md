@@ -5,7 +5,7 @@ seo-title: 限制和规范
 title: 限制和规范
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    **以下是一个有关可视化将如何中断的示例：**
 
    1. 在 Report Builder 中，使用“页面”维度和“页面查看次数”量度，创建具有一个请求的工作簿。
-   1. [计划此请求](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463)以将其发布到 Power BI。
+   1. [计划此请求](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)以将其发布到 Power BI。
    1. 在 Power BI 中，为页面和页面查看次数创建可视化。
    1. 现在，通过从请求中删除页面查看次数，编辑工作簿。
    1. 编辑涉及更新工作簿的计划，并将请求重新发布到 Power BI。
@@ -43,7 +43,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    **以下是一个有关如何不中断可视化的示例：**
 
    1. 在 Report Builder 中，使用“页面”维度和“页面查看次数”量度，创建具有一个请求的工作簿。
-   1. [计划此请求](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463)以将其发布到 Power BI。
+   1. [计划此请求](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)以将其发布到 Power BI。
    1. 在 Power BI 中，为页面和页面查看次数创建可视化。
    1. 现在编辑 Report Builder 中的工作簿，在保留“页面”和“页面查看次数”的同时添加“访问”量度。
    1. 编辑涉及更新工作簿的计划，并将请求重新发布到 Power BI。
