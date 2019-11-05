@@ -8,7 +8,7 @@ title: 营销渠道快速入门
 topic: Reports and Analytics
 uuid: d38cb0e5-0b75-4690-b1da-fea2fdf9e7d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -32,22 +32,24 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 * 是要汇总所有社交网站还是要单独跟踪其中某些网站？
 * 是否要跟踪可能影响转化的其他渠道？
 
-建议的渠道列表可在[常见问题和示例](../../components/c-marketing-channels/c-faq.md#concept_72CE3270AC264DB2A64BCB3E4B0D9C44)中找到。创建要使用的渠道列表，以便在创建渠道时方便启用和定义渠道。
+建议的渠道列表可在[常见问题和示例](/help/components/c-marketing-channels/c-faq.md)中找到。创建要使用的渠道列表，以便在创建渠道时方便启用和定义渠道。
 
 ![](assets/step2_icon.png) 在“营销渠道管理器”页 [!UICONTROL 面上添加营销渠道] 。
 
 After defining what channels to track, you enable them in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 
-See [Channels and Rules](../../components/c-marketing-channels/c-channels-rules.md#concept_C832E652974F419C82A4FAD9076C3197) for important prerequisite and conceptual information.
+See [Channels and Rules](/help/components/c-marketing-channels/c-channels-rules.md) for important prerequisite and conceptual information.
 
-请参 [阅添加营销渠道](../../components/c-marketing-channels/c-channels.md#task_98C9D3F5DBBC4B198E0A9ED4D3891E03) ，以了解相关步骤。
+请参 [阅添加营销渠道](/help/components/c-marketing-channels/c-channels.md) ，以了解相关步骤。
 
-> [!NOTE] 如果之前尚未配置营销渠道，则会显示 [自动设置](../../components/c-marketing-channels/c-channel-autosetup.md#concept_2EC91690B4F94889ADE935AB69B9025D) 。 该设置提供多个可自定义的预配置渠道。Adobe 建议将这些规则用作模板。但如果已有固定的渠道定义，则可跳过自动设置。
+>[!NOTE]
+>
+> 如果之前尚未配置营销渠道，则会显示 [自动设置](/help/components/c-marketing-channels/c-channel-autosetup.md) 。 该设置提供多个可自定义的预配置渠道。Adobe 建议将这些规则用作模板。但如果已有固定的渠道定义，则可跳过自动设置。
 
 ![](assets/step3_icon.png)在[!UICONTROL “营销渠道处理规则”]页面上配置或优化每个渠道的规则。
 
 在[!UICONTROL “营销渠道管理器”]页面上创建渠道后，可配置规则，以便渠道可检索和报告数据。
 
-请参阅 [营销渠道处理规则](../../components/c-marketing-channels/c-rules.md#concept_9ADC8D3AA4C84288ACC6D441D4036646).
+请参阅 [营销渠道处理规则](/help/components/c-marketing-channels/c-rules.md).
 
 如果渠道是在自动设置中创建的，则这些渠道中的规则已经过定义。您可以修改这些规则以满足您的需求。
