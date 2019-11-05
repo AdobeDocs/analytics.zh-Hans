@@ -5,7 +5,7 @@ seo-title: 在激活此集成之前
 title: 在激活此集成之前
 uuid: b911edc6-2265-48ed-9e3c-c79cc20dd9b2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 查看与Adobe Analytics相关的有关此Data Connectors集成的以下信息：
 
 * **** 报表包特定：请注意，此集成是特定于报表包的。 在激活集成之前，请确保已选择所需的报表包。
-* **** 可用和配置的Analytics变量：此集成需要5个自定义事件和2个自定义eVar，以及（可选）3个附加事件和3个附加eVar。 请参阅 [分析集成变量](../../silverpop-overview/silverpop-variables.md#concept-6c8a359719fd4794a42f5f6fb118f8b2)。
+* **** 可用和配置的Analytics变量：此集成需要5个自定义事件和2个自定义eVar，以及（可选）3个附加事件和3个附加eVar。 请参阅 [分析集成变量](/help/import/data-connectors/silverpop-overview/silverpop-variables.md)。
 
 * **** 委托代理人：请注意，启用此集成可能会导致贵公司根据您与Adobe, Inc.的服务协议或您与Adobe信任的合作伙伴之一的服务协议（如果适用）产生费用。 通过激活此集成，您即表示您是您公司的授权代表；因此，贵公司同意支付上述服务协议中规定的费用（如有）。
 * **** Data Warehouse™:此集成要求启用数据仓库才能生成再营销区段。 如果尚未启用数据仓库，请与Adobe联系以了解详细信息。
