@@ -8,7 +8,7 @@ title: 实施 Adobe 选择退订
 topic: 开发人员和实施
 uuid: fc3a411c-8476-409d-99de-05b34ace5019
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -34,7 +34,7 @@ Adobe 建议您向网站访客提供易于查找且通俗易懂的信息，让�
 
 Adobe 提供了三种类型的 Adobe Analytics（包括[!UICONTROL Reports &amp; Analytics]、[!UICONTROL Data Warehouse]、[!UICONTROL Ad Hoc Analysis]）选择退出方式：
 
-* 如果您使用自己的第一方 Cookie 实施 Adobe Analytics 产品，则需要为网站访客[开发自己的自定义选择退出链接](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9)。
+* 如果您使用自己的第一方 Cookie 实施 Adobe Analytics 产品，则需要为网站访客[开发自己的自定义选择退出链接](/help/implement/js-implementation/data-collection/opt-out-link.md)。
 * 您的客户可以选择使用浏览器的 Cookie 设置启用禁用机制。请参阅[启用浏览器 Cookie 的隐私设置](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/browser_cookie_settings.html)。
 
 不管您选择哪一种禁用机制，Adobe 都建议您在隐私政策中明确说明该禁用机制的可用性，除非另有法律要求，或依据当前最佳实践另有其他建议。
