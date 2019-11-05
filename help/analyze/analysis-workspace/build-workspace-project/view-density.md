@@ -1,10 +1,10 @@
 ---
 description: 了解如何调整视图密度。
-seo-description: 了解如何调整Analysis Workspace表中的视图密度。
-seo-title: Analysis Workspace中的查看密度设置
+seo-description: 了解如何在Analysis Workspace表中调整视图密度。
+seo-title: Analysis Workspace中的视图密度设置
 title: 视图密度
 translation-type: tm+mt
-source-git-commit: bd3aec0f0911046c91aa9dd7a626adcee965167c
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -13,9 +13,9 @@ source-git-commit: bd3aec0f0911046c91aa9dd7a626adcee965167c
 
 通过调整视图密度，您可以减小左边栏、自由格式表和同类群组表的垂直边距，从而在屏幕上查看更多数据。使用单选按钮切换视图密度时，有 3 个选项可用：
 
-- **[!UICONTROL 压缩]**：这是视图最紧凑的版本。
-- **[!UICONTROL 舒适]**：这比紧凑版本留下的填充要多得多。
-- **[!UICONTROL 扩展(]** 默认)：这是在Workspace中使用的视图。
+- **[!UICONTROL 紧凑]**:这是具有最精简视图的版本。
+- **[!UICONTROL 舒适]**:这比“压缩”版本保留的填充要多一点。
+- **[!UICONTROL 扩展]** （默认）:这是您在Workspace中使用的视图。
 
 ![](assets/view-density.png)
 
