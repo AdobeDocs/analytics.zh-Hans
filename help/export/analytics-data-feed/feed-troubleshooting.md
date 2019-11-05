@@ -7,7 +7,7 @@ solution: Analytics
 title: 数据馈送疑难解答
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -40,11 +40,11 @@ Amazon S3 的常见使用案例是 Amazon Web Services (AWS) 帐户所有者创�
 
 当 FTP 传输失败（拒绝登录、失去连接、超出配额等）时，Adobe 会尝试自动连接并发送数据最多三次。如果仍然失败，则系统会将馈送标记为失败，并发送电子邮件通知。
 
-如果传输失败，您可以[重新运行作业](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501)，直到成功为止。
+如果传输失败，您可以[重新运行作业](/help/export/analytics-data-feed/c-df-jobs/t-job-rerun.md)，直到成功为止。
 
 ## 重新发送选项 {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
-验证／更正传送问题后，只需重新运 [行作业](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501) ，即可获取文件。
+验证／更正传送问题后，只需重新运 [行作业](/help/export/analytics-data-feed/c-df-jobs/t-job-rerun.md) ，即可获取文件。
 
 ## 夏令时对每小时数据馈送的影响 {#section_70E867D942054DD09048E027A9474FFD}
 
