@@ -8,7 +8,7 @@ title: 报表计划和分发
 topic: Reports and Analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -142,4 +142,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 取消订阅报表并不会取消计划报表。
 
-要取消计划报表，请导航至“计划管理器”，然后单击报表名称旁边的红色“X”。[更多...](../../analyze/reports-analytics/scheduling.md#task_C17677C543454FF2B06D10EA5652DFBC)
+要取消计划报表，请导航至“计划管理器”，然后单击报表名称旁边的红色“X”。[更多...](/help/analyze/reports-analytics/scheduling.md#task_C17677C543454FF2B06D10EA5652DFBC)
