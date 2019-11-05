@@ -5,7 +5,7 @@ seo-title: Ad Hoc Analysis 项目转换器概述
 title: Ad Hoc Analysis 项目转换器概述
 uuid: 7d78753d-d56c-4eea-b1dd-7c9ec225cce3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -14,10 +14,10 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Ad Hoc Analysis 项目转换器可将您的所有 Ad Hoc 项目无缝地转换到 Analysis Workspace。
 
-* [为什么要转换项目？](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md#section_173A6297E20641D0B68B7AF199557CA6)
-* [如何转换临时分析项目](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md#topic_5A55F73488704C5D8E42CDD04B5984DE)
-* [在 Analysis Workspace 中查看已转换的项目](../../../analyze/ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md#concept_8906482FF9D641D9A93137C1DAD4BB88)
-* [项目转换器常见问题解答](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#topic_8231595303AD403E9322645A63632D57)
+* [为什么要转换项目？](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md#section_173A6297E20641D0B68B7AF199557CA6)
+* [如何转换临时分析项目](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md#topic_5A55F73488704C5D8E42CDD04B5984DE)
+* [在 Analysis Workspace 中查看已转换的项目](/help/analyze/ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md)
+* [项目转换器常见问题解答](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#topic_8231595303AD403E9322645A63632D57)
 
 ## Why Should You Convert Projects? {#section_173A6297E20641D0B68B7AF199557CA6}
 
