@@ -1,20 +1,20 @@
 ---
 description: Report Builder 中固定日期的定义。
 seo-description: Report Builder 中固定日期的定义。
-seo-title: 请求向导定义-固定日期
+seo-title: 请求向导定义 - 固定日期
 solution: Analytics
-title: 请求向导定义-固定日期
+title: 请求向导定义 - 固定日期
 topic: Report Builder
-uuid: bd65a312-bab6-46d7-ba30-5707777444cc9
+uuid: bd65a312-bab6-46d7-ba30-57077344cc9
 translation-type: tm+mt
-source-git-commit: 0b8fa4df8ea6cc6f9a9c103b6aa5e063b510a380
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
 
-# 请求向导定义-固定日期
+# 请求向导定义 - 固定日期
 
-Report Builder中固定日期的定义。
+Report builder中固定日期的定义。
 
 | 字段 | 定义 |
 |--- |--- |
