@@ -5,7 +5,7 @@ seo-title: 参与量度
 title: 参与量度
 uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 1. 在计算量度生成器中创建新量度。
 1. 将成功事件“订单”拖入“定义”画布中。
-1. 将该事件 [的归因模型](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E) ，更改为“设置” **[!UICONTROL 齿轮下的“参与”(Participation]** ) **[!UICONTROL 模式]** 。 选择 **[!UICONTROL 访问]** 回顾。 定义应该类似于：
+1. 将该事件 [的归因模型](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) ，更改为“设置” **[!UICONTROL 齿轮下的“参与”(Participation]** ) **[!UICONTROL 模式]** 。 选择 **[!UICONTROL 访问]** 回顾。 定义应该类似于：
 
    ![](assets/participation.png)
 
