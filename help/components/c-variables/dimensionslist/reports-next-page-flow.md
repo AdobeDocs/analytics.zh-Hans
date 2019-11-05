@@ -7,7 +7,7 @@ title: 下一页面流量
 topic: 报告
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  <tbody> 
   <tr> 
    <td colname="col1"> Reports &amp; Analytics </td> 
-   <td colname="col2"> <p> 单击<span class="uicontrol">图形</span>可查看您的访客在浏览选定页面后最常查看的两层页面。此报表还突出显示访客退出网站的时间。 </p> <p>单击<b>表格</b>可在类似于 <a href="../../../components/c-variables/dimensionslist/reports-next-page.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF" format="dita" scope="local"> 下一页面报表</a>. 但是，它也允许您向下访问到每个<i>下一页面</i>以查看每个双页面流中的后续页面。 </p> <p>Reports &amp; Analytics 使用路径视图。 </p> </td> 
+   <td colname="col2"> <p> 单击<span class="uicontrol">图形</span>可查看您的访客在浏览选定页面后最常查看的两层页面。此报表还突出显示访客退出网站的时间。 </p> <p>单击<b>表格</b>可在类似于 <a href="/help/components/c-variables/dimensionslist/reports-next-page.md"  > 下一页面报表</a>. 但是，它也允许您向下访问到每个<i>下一页面</i>以查看每个双页面流中的后续页面。 </p> <p>Reports &amp; Analytics 使用路径视图。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ad Hoc Analysis </td> 
