@@ -5,7 +5,7 @@ seo-title: Silverpop集成
 title: Silverpop集成
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -123,7 +123,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   <tr valign="top"> 
    <td colname="col2"> <p>数据收集 </p> </td> 
    <td colname="col03"> <p>（三）数据设置 </p> </td> 
-   <td colname="col3"> <p>如果 <b>要将s_code.js插件用作此集成的收集模型，请选择“</b> JavaScript插件”(请参阅分析插件代码 <a href="../silverpop-overview/silverpop-analytics-code.md#concept-28e7c834a6804a949aa9306f8896b36e" format="dita" scope="local"></a>)。 </p> <p>如果 <b>要为此集成使用自动收集模型</b> ，请选择自动化解决方案，然后指定用于此集成的唯一标识符。 </p> <p>如果选择此选项，请指定用于此集成的唯一标识符： </p> <p> <b>消息ID查询字符串参</b>数：此值表示电子邮件合作伙伴附加到登录页面URL的消息ID。 </p> <p> <b></b> 收件人ID查询字符串参数：此值表示电子邮件合作伙伴附加到登录页面URL的收件人ID。 </p> </td> 
+   <td colname="col3"> <p>如果 <b>要将s_code.js插件用作此集成的收集模型，请选择“</b> JavaScript插件”(请参阅分析插件代码 <a href="../silverpop-overview/silverpop-analytics-code.md"></a>)。 </p> <p>如果 <b>要为此集成使用自动收集模型</b> ，请选择自动化解决方案，然后指定用于此集成的唯一标识符。 </p> <p>如果选择此选项，请指定用于此集成的唯一标识符： </p> <p> <b>消息ID查询字符串参</b>数：此值表示电子邮件合作伙伴附加到登录页面URL的消息ID。 </p> <p> <b></b> 收件人ID查询字符串参数：此值表示电子邮件合作伙伴附加到登录页面URL的收件人ID。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col2"> <p>功能板和书签生成 </p> </td> 
