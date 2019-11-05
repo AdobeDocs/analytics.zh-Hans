@@ -5,7 +5,7 @@ seo-title: 面板概述
 title: 面板概述
 uuid: 480700e6-332e-44f2-a486-e3d1852cddbc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 空白面板和自由格式面板是开始进行分析的位置，而归因 IQ 和区段比较则适用于更高级的分析。我们还添加了一个“+”面板按钮，因此您可以随时添加空白面板。
 
-默认的开始面板是自由格式面板，但也可以将[空白面板](../../../analyze/analysis-workspace/c-panels/blank-panel.md#concept_B0AD924A792F4166B13448AC253CE7E2)设置为默认的开始面板。
+默认的开始面板是自由格式面板，但也可以将[空白面板](/help/analyze/analysis-workspace/c-panels/blank-panel.md)设置为默认的开始面板。
 
 ## 面板中的下拉过滤器 {#section_D2828EEDD52944528E87F470EAB581CF}
 
