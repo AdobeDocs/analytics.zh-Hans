@@ -8,7 +8,7 @@ title: 分类模板
 topic: 管理工具
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 |---|---|
 | 选择报表包 | 选择要在模板中使用的报表包。报表包与数据集必须匹配。 |
 | 要分类的数据集 | 选择数据文件的数据类型。该菜单包含报表包中针对分类配置的所有报表。 |
-| 导出数值 2 | 您可以使用导入器，将数值 2 分类导入系统。数值 2 分类很适合用于针对不同项目（例如[!UICONTROL 营销渠道]报表的成本与预算值）随时间变化的变量。请参阅[数值 2 分类](../../../components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md#concept_71024B7B91DF4E909076062AB1380D8B)以获取有关使用数值 2 分类上载数据的信息。 |
+| 导出数值 2 | 您可以使用导入器，将数值 2 分类导入系统。数值 2 分类很适合用于针对不同项目（例如[!UICONTROL 营销渠道]报表的成本与预算值）随时间变化的变量。请参阅[数值 2 分类](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md)以获取有关使用数值 2 分类上载数据的信息。 |
 | 编码 | 为数据文件选择字符编码。默认编码格式为 UTF-8。 |
 | 下载 | 下载模板文件。 |
 
@@ -35,7 +35,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 > [!NOTE] “模板”方法将分类数据下载限制为单个报表包。
 
-有关数据文件结构的详细信息，请参阅关 [于分类数据文件](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735)。
+有关数据文件结构的详细信息，请参阅关 [于分类数据文件](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)。
 
 ## 下载分类数据模板（可选）{#task_8DFCF309B6FD43ABB1D6FEE9AFAEC596}
 
@@ -44,7 +44,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 > [!NOTE] “模板”方法将数据下载限制为单个报告包。
 
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. On the **[!UICONTROL Download Template]** tab, specify the [data template configuration](../../../components/c-classifications2/c-classifications-importer/c-download-saint-data.md#concept_0F06847AD8D042F5BA818AE3C37E2417).
+1. On the **[!UICONTROL Download Template]** tab, specify the [data template configuration](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md).
 1. Click **[!UICONTROL Download]**.
 1. 将模板文件保存到您的本地系统中。
 
