@@ -8,7 +8,7 @@ title: 子分类和规则生成器 - 用例
 topic: 管理工具
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 您可以结合使用分类规则生成器和子分类，以简化分类管理和减少所需的规则数量。如果您的跟踪代码中包含需要单独分类的代码，您可能需要此功能。
 
-See [Sub-Classifications](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE) for conceptual information about sub-classifications.
+See [Sub-Classifications](/help/components/c-classifications2/c-sub-classifications.md) for conceptual information about sub-classifications.
 
 **示例**
 
@@ -33,7 +33,7 @@ See [Sub-Classifications](../../../components/c-classifications2/c-sub-classific
 
 ![](assets/sub_class_table.png)
 
-在您准备好这种结构后，您可以使用[分类规则生成器](../../../components/c-classifications2/crb/classification-rule-builder.md)来上载只更新查找表格（上述图像中的绿色和红色表格）的小文件。然后，您可以使用规则生成器来保持主分类表格最新。
+在您准备好这种结构后，您可以使用[分类规则生成器](/help/components/c-classifications2/crb/classification-rule-builder.md)来上载只更新查找表格（上述图像中的绿色和红色表格）的小文件。然后，您可以使用规则生成器来保持主分类表格最新。
 
 以下任务描述如何完成此操作。
 
@@ -47,7 +47,9 @@ t_rule_builder_subclass.xml
 
 描述如何使用规则生成器上载子分类的示例步骤。
 
-> [!NOTE] 这些步骤描述了如何完成子分类和规 [则构建器中描述的用例](../../../components/c-classifications2/crb/sub-classification-rule-builder.md)。
+>[!NOTE]
+>
+> 这些步骤描述了如何完成子分类和规 [则构建器中描述的用例](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)。
 
 1. 在[分类管理器](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)中创建分类和子分类。
 
@@ -55,7 +57,7 @@ t_rule_builder_subclass.xml
 
    ![步骤信息](assets/sub_class_create.png)
 
-1. In the [Classifications Rule Builder](../../../components/c-classifications2/crb/classification-rule-builder.md#concept_C1F219E622044D43852EF5168FF7192A), classify the sub-classification key from the original tracking code.
+1. In the [Classifications Rule Builder](/help/components/c-classifications2/crb/classification-rule-builder.md), classify the sub-classification key from the original tracking code.
 
    使用正则表达式来执行此操作。在此示例中，用以填充&#x200B;*`Broad Campaign code`*&#x200B;的规则将使用此正则表达式：
 
@@ -70,7 +72,7 @@ t_rule_builder_subclass.xml
 
 1. 上载仅包含指定子分类的分类文件。
 
-   请参 [阅多级分类](../../../components/c-classifications2/c-sub-classifications.md#concept_35AD906CDDC4441DAAF70664CF76AA0A)。
+   请参 [阅多级分类](/help/components/c-classifications2/c-sub-classifications.md)。
 
    示例:
 
