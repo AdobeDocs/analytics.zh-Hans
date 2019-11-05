@@ -8,16 +8,12 @@ title: 营销渠道中的分类
 topic: Reports and Analytics
 uuid: 8b31cff5-36a6-4072-b0f9-f932dc890a87
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
 
 # 营销渠道中的分类
-
-分类用于将值归到相关群组并在群组级别进行报告。例如，您可以将所有“付费搜索”促销活动归为类似“视频卡”的类别。然后，可在该类别相对于“实例”（或“点进次数”）等量度而成功时进行报告。
-
-## 营销渠道中的分类 {#topic_18E1471F1A584B358E57E191074A7243}
 
 分类用于将值归到相关群组并在群组级别进行报告。例如，您可以将所有“付费搜索”促销活动归为类似“视频卡”的类别。然后，可在该类别相对于“实例”（或“点进次数”）等量度而成功时进行报告。
 
@@ -29,7 +25,7 @@ Classifications that you add in this procedure display in the [!UICONTROL Market
 >
 >营销渠道分类报表的行为与标准分类略有不同：为首次联系或最近联系报表创建分类时，它们会自动应用于两者。 不能在不对另一个分类的情况下对一个分类。
 
-## 营销渠道分类 - 定义 {#section_38D2F8BBA47D444780B65BD84156532D}
+## 营销渠道分类 - 定义 {#mktg-channel-classifications}
 
 | 术语 | 定义 |
 |--- |--- |
@@ -37,11 +33,13 @@ Classifications that you add in this procedure display in the [!UICONTROL Market
 | 名称 | 分类的名称。您添加的分类在“营销渠道管理器”中显示为“渠道划分”选项。 |
 | 选项 | 分类的名称。您添加的分类在“营销渠道管理器”中显示为“渠道划分”选项。 |
 
-## 创建营销渠道分类 {#task_BCA5597281574E339E71F3BBC1BE3DFA}
+## 创建营销渠道分类 {#create-mktg-channel-classifications}
 
 为[!UICONTROL 营销渠道]报表创建分类。
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Classification]**.
-1. 在[“营销渠道分类”](../../components/c-marketing-channels/classifictions-mchannel.md#section_38D2F8BBA47D444780B65BD84156532D)页面上指定分类类型。
+<!--
+1. On the [Marketing Channel Classifications](/help/components/c-marketing-channels/classifictions-mchannel.md#section_38D2F8BBA47D444780B65BD84156532D) page, specify the classification type.
+-->
 1. 在[!UICONTROL “分类”]**下单击[!UICONTROL 添加分类]**（或编辑现有分类）。
