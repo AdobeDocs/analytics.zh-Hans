@@ -9,7 +9,7 @@ title: 访客
 topic: 开发人员和实施
 uuid: 16cfdb64-a3c6-4056-97da-3227cddcf1cd
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Analytics 将每个有效的独特访客 ID 算作一个独特访客。
 
-如果查看[前表](../../../implement/js-implementation/xdevice-visid/visit-example.md#concept_E3B32B8E539F4FDC8E3FA872328B87BA)，就会发现同一访客被计算了 3 次：即第 1、9 和 10 次点击。这是因为这两个服务器调用的有效[!UICONTROL 访客 ID] 相同，而且即使两次访问相隔几个小时并且发生在不同的设备上，也会这样处理。
+如果查看[前表](/help/implement/js-implementation/xdevice-visid/visit-example.md)，就会发现同一访客被计算了 3 次：即第 1、9 和 10 次点击。这是因为这两个服务器调用的有效[!UICONTROL 访客 ID] 相同，而且即使两次访问相隔几个小时并且发生在不同的设备上，也会这样处理。
 
 在启用跨设备访客识别时，这可能会增加您所看到的独特访客数。同一次访问中访客可能会被计算两次：首次访问被计算一次，用户通过验证后又被计算一次。
 
