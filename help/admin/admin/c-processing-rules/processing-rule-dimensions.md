@@ -8,7 +8,7 @@ title: 可用于处理规则的维度
 topic: 管理工具
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>上下文数据变量 </p> </td> 
-   <td colname="col2"> <p>随点击发送的命名变量。 </p> <p>注意：上下文数据变量中包含的任何数据都必须复制到报表变量中才能显示在报表中。上下文数据变量不可在任何报表界面（包括点击流数据馈送）中查看。 </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md" format="dita" scope="local"> 将上下文数据变量复制到eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md" format="dita" scope="local"> 使用上下文数据变量设置事件 </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html" format="http" scope="external"> 上下文数据变量</a> </p> </td> 
+   <td colname="col2"> <p>随点击发送的命名变量。 </p> <p>注意：上下文数据变量中包含的任何数据都必须复制到报表变量中才能显示在报表中。上下文数据变量不可在任何报表界面（包括点击流数据馈送）中查看。 </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> 将上下文数据变量复制到eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> 使用上下文数据变量设置事件 </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html"> 上下文数据变量</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
