@@ -7,7 +7,7 @@ title: 报表包管理器
 topic: 管理工具
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 汇总</span> </td> 
-   <td colname="col2"> <p>汇总是指一个报表包中合并了数个其他报表包的跟踪数据。 </p> <p>请参阅 <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md" format="dita" scope="local"> 汇总报表包</a>. </p> </td> 
+   <td colname="col2"> <p>汇总是指一个报表包中合并了数个其他报表包的跟踪数据。 </p> <p>请参阅 <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md"> 汇总报表包</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 编辑设置</span> </td> 
@@ -62,7 +62,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 新建</span> </td> 
-   <td colname="col2">请参阅<a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">新的报表包</a>。 </td> 
+   <td colname="col2">请参阅<a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">新的报表包</a>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 自定义列</span> </td> 
@@ -70,15 +70,15 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 报表包 ID</span> </td> 
-   <td colname="col2">请参阅<a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">新的报表包</a>。 </td> 
+   <td colname="col2">请参阅<a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">新的报表包</a>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 网站标题</span> </td> 
-   <td colname="col2"> <p>在“管理工具”和市场营销报告标题的报表包下拉列表中标识报表包。 </p> <p>请参阅<a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">新的报表包</a>。 </p> </td> 
+   <td colname="col2"> <p>在“管理工具”和市场营销报告标题的报表包下拉列表中标识报表包。 </p> <p>请参阅<a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">新的报表包</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 基本 URL</span> </td> 
-   <td colname="col2"> <p>定义报表包的基本域。 </p> <p>请参阅<a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">新的报表包</a>。 </p> </td> 
+   <td colname="col2"> <p>定义报表包的基本域。 </p> <p>请参阅<a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">新的报表包</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
