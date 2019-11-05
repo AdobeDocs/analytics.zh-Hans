@@ -3,11 +3,11 @@ description: 对“管理员”中报表包“一般帐户设置”的字段描�
 seo-description: 对“管理员”中报表包“一般帐户设置”的字段描述。
 seo-title: 一般帐户设置
 solution: Analytics
-title: 常规 帐户设置
+title: 一般帐户设置
 topic: 管理工具
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 基本 URL</span> </td> 
-   <td colname="col2"> <p>指定报表包的主网站。由于基本 URL 不影响反向链接过滤。请改为使用<a href="/help/admin/admin/internal-url-filter-admin.md" format="dita" scope="local">内部 URL 过滤器</a>。 </p> </td> 
+   <td colname="col2"> <p>指定报表包的主网站。由于基本 URL 不影响反向链接过滤。请改为使用<a href="/help/admin/admin/internal-url-filter-admin.md">内部 URL 过滤器</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 时区</span> </td> 
@@ -54,11 +54,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> IP 模糊处理</span> </td> 
-   <td colname="col2"> <p>将 IP 地址转换为不可识别的字符串，实质上是将它们从 Adobe 数据存储库中删除。启用“IP 模糊处理”后，原始 IP 地址将永久丢失。 </p> <p>注意：IP 地址在 Analytics 中的所有地方均被模糊处理，包括 Data Warehouse。但是，Target 中的 IP 设置是单独控制的，因此该设置不对 Target 产生任何影响。 </p> <p>如果启用IP模糊处理，则在IP地址被模糊处理之前会发生IP排除，因此客户在启用IP模糊处理时无需更改任何内容。 </p> <p>选中<span class="uicontrol">禁用</span>会保留数据中的 IP 地址。 </p> <p>选中<span class="uicontrol">模糊处理 IP 地址</span>会将 IP 更改为哈希值（例如，234abc6493872038）。 </p> <p>选中<span class="uicontrol">删除 IP 地址</span>会在地理查找之后，将数据中的 IP 地址替换为 x.x.x.x。 </p> <p>注意：此设置可能需要更改自定义机器人 <a href="/help/admin/admin/bot-removal/bot-rules.md" format="dita" scope="local"> 规则</a> 或<a href="/help/admin/admin/exclude-ip.md" format="dita" scope="local"> IP排除</a>。 </p> </td> 
+   <td colname="col2"> <p>将 IP 地址转换为不可识别的字符串，实质上是将它们从 Adobe 数据存储库中删除。启用“IP 模糊处理”后，原始 IP 地址将永久丢失。 </p> <p>注意：IP 地址在 Analytics 中的所有地方均被模糊处理，包括 Data Warehouse。但是，Target 中的 IP 设置是单独控制的，因此该设置不对 Target 产生任何影响。 </p> <p>如果启用IP模糊处理，则在IP地址被模糊处理之前会发生IP排除，因此客户在启用IP模糊处理时无需更改任何内容。 </p> <p>选中<span class="uicontrol">禁用</span>会保留数据中的 IP 地址。 </p> <p>选中<span class="uicontrol">模糊处理 IP 地址</span>会将 IP 更改为哈希值（例如，234abc6493872038）。 </p> <p>选中<span class="uicontrol">删除 IP 地址</span>会在地理查找之后，将数据中的 IP 地址替换为 x.x.x.x。 </p> <p>注意：此设置可能需要更改自定义机器人 <a href="/help/admin/admin/bot-removal/bot-rules.md"> 规则</a> 或<a href="/help/admin/admin/exclude-ip.md"  > IP排除</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 交易 ID 存储</span> </td> 
-   <td colname="col2"> <p>可让您使用<a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_Transaction_ID.html" format="https" scope="external">交易 ID</a> 数据源。 </p> </td> 
+   <td colname="col2"> <p>可让您使用<a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_Transaction_ID.html"  >交易 ID</a> 数据源。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> 激活 Ad Hoc Analysis</span> </td> 
