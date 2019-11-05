@@ -8,7 +8,7 @@ title: 添加页眉和页脚代码
 topic: 开发人员和实施
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
    >[!NOTE]
    >
-   >生产嵌入代码仅反映该[属性](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123)中发布的项。但是，用于暂存的嵌入代码将反映关联属性中的所有项，而不考虑它们是处于已发布状态还是未发布状态。要在您的生产网站上测试未发布项，请按照[测试 Akamai 托管的未发布规则](../../../implement/c-implement-with-dtm/c-rules/t-test-rules-akamai.md#task_B397167F9E9B4487957AD6CE2AD47259)中的说明进行操作，以便从本地在控制台中启用暂存。
+   >生产嵌入代码仅反映该[属性](/help/implement/c-implement-with-dtm/t-create-web-property.md)中发布的项。但是，用于暂存的嵌入代码将反映关联属性中的所有项，而不考虑它们是处于已发布状态还是未发布状态。要在您的生产网站上测试未发布项，请按照[测试 Akamai 托管的未发布规则](/help/implement/c-implement-with-dtm/c-rules/t-test-rules-akamai.md)中的说明进行操作，以便从本地在控制台中启用暂存。
 
 1. 复制生产页脚代码，并将其置于网站 HTML 的 [!DNL BODY] 部分中。
 
