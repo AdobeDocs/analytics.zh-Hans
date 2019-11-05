@@ -2,7 +2,7 @@
 title: Cross-Device Analytics 常见问题解答
 description: 跨设备分析的常见问题解答
 translation-type: tm+mt
-source-git-commit: e7a78c2ac21042f57487c1c230e1c96318810429
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -35,7 +35,7 @@ Adobe将时间戳的点击视为在时间戳时收到的点击，而不是在Ado
 
 **CDA与自定义访客ID相比如何？**
 
-[自定义访客ID](../../implement/js-implementation/c-unique-visitors/visid-custom.md) 是连接不同设备 [用户的传统方法](../../implement/js-implementation/xdevice-visid/xdevice-connecting.md)。 对于自定义访客ID，您可以使 `s.visitorID` 用变量显式设置用于访客逻辑的ID。 该变 `s.visitorID` 量将覆盖任何存在的基于Cookie的ID。 有关详 [细信息，请参阅实施用户指南](../../implement/js-implementation/c-unique-visitors/visid-overview.md) 中的识别唯一访客。
+[自定义访客ID](/help/implement/js-implementation/c-unique-visitors/visid-custom.md) 是连接不同设备 [用户的传统方法](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md)。 对于自定义访客ID，您可以使 `s.visitorID` 用变量显式设置用于访客逻辑的ID。 该变 `s.visitorID` 量将覆盖任何存在的基于Cookie的ID。 有关详 [细信息，请参阅实施用户指南](/help/implement/js-implementation/c-unique-visitors/visid-overview.md) 中的识别唯一访客。
 
 自定义访客ID具有许多CDA设计用于克服或最小化的不良副作用。 例如，自定义访客ID方法没有回顾功能。 如果用户在访问中间进行身份验证，则访问的第一部分与与访问的后一部分不同的访客ID相关联。 单独的访客ID会导致访问和访客增加。 CDA的30天回顾窗口允许其及时倒回，以重新陈述属于同一人的先前行为，从而将未经身份验证的跨设备行为与经过身份验证的跨设备行为结合在一起，同时保持零通胀或最低通胀。
 
