@@ -8,7 +8,7 @@ title: 可视化概述
 topic: Reports and Analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a5455
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 >[!IMPORTANT]
 >
->可见的可视化设置取决于可视化。 并非所有设置都适用于所有可视化。此外，某些高级设置&#x200B;**仅**&#x200B;可对特定可视化显示，例如[直方图设置](../../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477)。
+>可见的可视化设置取决于可视化。 并非所有设置都适用于所有可视化。此外，某些高级设置&#x200B;**仅**&#x200B;可对特定可视化显示，例如[直方图设置](/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477)。
 
 ![](assets/visualization_settings.png)
 
@@ -67,7 +67,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>标准化 </p> </td> 
-   <td colname="col2"> <p>要求所有量度按等比例计算。请参阅 <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html" format="https" scope="external"> 标准化</a>。 </p> </td> 
+   <td colname="col2"> <p>要求所有量度按等比例计算。请参阅 <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html"  > 标准化</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>显示双轴 </p> </td> 
