@@ -1,18 +1,18 @@
 ---
 description: 使用“作业”选项卡可查看作业历史记录和执行作业管理任务。
-keywords: 数据馈送；工作；配置
+keywords: 数据馈送；作业；配置
 seo-description: 使用“作业”选项卡可查看作业历史记录和执行作业管理任务。
-seo-title: 数据馈送作业-概述
+seo-title: 数据馈送作业 - 概述
 solution: Analytics
-title: 数据馈送作业-概述
-uuid: 83ccab-9457-4e37-9d1e-f2 ee281 da6
+title: 数据馈送作业 - 概述
+uuid: 83ccaabb-9457-4e37-9d1e-f2ee281daba6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
-# 数据馈送作业-概述
+# 数据馈送作业 - 概述
 
 使用“作业”选项卡可查看作业历史记录和执行作业管理任务。
 
@@ -35,7 +35,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 馈送名称 | 馈送名称。 |
 | 开始时间 | 作业的开始时间，以您所在的时区显示。 |
 | 运行时间 | 作业运行所需的时间。显示为 dd hh:mm:ss。 |
-| 状态 | 作业的当前[状态](../../../export/analytics-data-feed/c-df-jobs/r-job-status.md#reference_7A39A327F643447F9B5AE3A2502C72BA)。 |
+| 状态 | 作业的当前[状态](/help/export/analytics-data-feed/c-df-jobs/r-job-status.md)。 |
 | 完成时间 | 作业结束运行的时间。以您所在的时区显示。 |
 | 请求的数据 | 作业所含数据的数据戳。 |
 
