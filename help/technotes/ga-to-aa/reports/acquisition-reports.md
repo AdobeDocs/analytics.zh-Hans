@@ -1,141 +1,141 @@
 ---
 title: Adobe Analytics中的客户获取报告
-description: 了解如何使用Analysis Workspace创建基于客户赢取的报告。
+description: 了解如何使用Analysis Workspace创建基于客户获取的报告。
 translation-type: tm+mt
-source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
 
 # 客户获取报告
 
-客户获取报告显示您如何获得网站访客。
+客户获取报告显示如何获取网站的访客。
 
-In Adobe Analytics, these reports are known as **Marketing Channels**. 它们需要一些基本的初始设置，但允许更多的渠道自定义视图。
+在Adobe Analytics中，这些报告称为营 **销渠道**。 它们需要一些基本的初始设置，但允许更自定义的渠道视图。
 
 > [!IMPORTANT]
 >
-> 设置您的营销渠道处理规则以使用这些报告。See [Getting Started with Marketing Channels](../../../components/c-marketing-channels/c-getting-started-mchannel.md) for information on how to best configure Marketing Channels in your organization.
+> 设置您的营销渠道处理规则以使用这些报告。 有关如 [何在您的组织中最佳配置营销渠道的信息](/help/components/c-marketing-channels/c-getting-started-mchannel.md) ，请参阅营销渠道入门。
 
-此页面假定用户具有使用Analysis Workspace的基本知识。See [Create a basic report in Analysis Workspace for Google Analytics users](create-report.md) if you are not yet familiar with the tool in Adobe Analytics.
+本页假定用户对使用Analysis Workspace有基本知识。 如 [果您还不熟悉Adobe Analytics中的工具](create-report.md) ，请参阅在Analysis Workspace中为Google Analytics用户创建基本报告。
 
-## 所有流量-渠道
+## 所有流量——渠道
 
-显示访客访问网站时使用的所有渠道的汇总视图。
+显示访客访问您网站时使用的所有渠道的汇总视图。
 
-1. In the Components menu, locate the **Marketing Channel** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. 在“组件”菜单中，找到“营 **销渠道** ”维并将其拖动到标有“将维放在此处”的大型自由格式表区域。
+2. 将所需的度量与自动创建的“发生次数”度量一起拖 **动到工** 作区。 有关如何获 [取各个度量的详细信息](common-metrics.md) ，请参阅度量转换指南。
 
-## 所有流量-树地图
+## 所有流量——树图
 
-显示渠道流量的轨迹。此报告类似于所有流量-渠道，但以其他方式显示。
+显示渠道流量树图。 此报告与“所有流量——渠道”类似，但显示方式不同。
 
-1. 单击左侧的“可视化”图标，并将Treemap可视化拖动到空自由表单表上方的工作区上。
-2. Click the Components icon on the left, then drag the **Marketing Channel** dimension onto the large freeform table area labeled 'Drop a dimension here'.
-3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
-4. 请注意，其他指标会创建额外的树。如果只需要一个treemap：
-   1. 单击所需指标的顶部单元格以表示treemap。
-   2. 按住Shift键并单击同一量度列的最后一个单元格，可突出显示列蓝色。如果正确完成，可视化中就存在一个treemap。
-   3. 单击treemap可视化右上角的彩色点，然后单击复选框“锁定选择”。
+1. 单击左侧的“可视化”图标，然后将“树状图”可视化拖到空的自由格式表上方的工作区上。
+2. 单击左侧的组件图标，然后将 **Marketing Channel** dimension拖动到标有“将维放在此处”的大型自由格式表区域上。
+3. 将所需的度量与自动创建的“发生次数”度量一起拖 **动到工** 作区。 有关如何获 [取各个度量的详细信息](common-metrics.md) ，请参阅度量转换指南。
+4. 请注意，其他指标会创建其他树图。 如果只需要一个树图：
+   1. 单击所需度量的顶部单元格以表示树图。
+   2. 按住Shift并单击同一度量列的最后一个单元格以高亮显示蓝色列。 如果操作正确，则在可视化中会显示一个树状图。
+   3. 单击树状图可视化右上角的彩色点，然后单击复选框“锁定选择”。
 
-树地图可应用于任何维度，而不仅仅是营销渠道。
+树图可以应用于任何维度，而不仅仅是营销渠道。
 
-## 所有流量-源/中级
+## 所有流量——源／中
 
-源和中级报表显示驱动访问网站流量的域。
+源和中型报告显示驱动网站流量的域。
 
-* **源** 主要维度在Analysis Workspace中作为 **引用域** 维度可用。
-* **中** 主要维度在Analysis Workspace中作为 **参照类型** 维度可用。
-* **关键字** 主要维度在Analysis Workspace中作为 **搜索关键字** 维度可用。
+* Analysis Workspace **中提供** “源”主维作为“引 **用域”维** 。
+* Analysis Workspace **中提供** “中”(Medium **)主维度作为“参照类** 型”(Referrer Type)维度。
+* 关键 **字主维** 在Analysis Workspace中可用作搜索关 **键字维** 。
 
-1. 在组件菜单中，找到上面所需的维度，并将其拖动到标记为“在此处放置一个维度”的大型自由表格区域。
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. 在组件菜单中，找到上面注明的所需维，并将其拖动到标有“将维放在此处”的大型自由格式表区域。
+2. 将所需的度量与自动创建的“发生次数”度量一起拖 **动到工** 作区。 有关如何获 [取各个度量的详细信息](common-metrics.md) ，请参阅度量转换指南。
 
-有关其各自维度的更多信息，请参阅组件用户指南中的以下页面：
+有关各个维的详细信息，请参阅组件用户指南中的以下页面：
 
-* [反向链接域](../../../components/c-variables/dimensionslist/reports-referring-domains.md)
-* [反向链接类型](../../../components/c-variables/dimensionslist/reports-ref-types.md)
-* [搜索关键词](../../../components/c-variables/dimensionslist/reports-search-keywords.md)
+* [反向链接域](/help/components/c-variables/dimensionslist/reports-referring-domains.md)
+* [反向链接类型](/help/components/c-variables/dimensionslist/reports-ref-types.md)
+* [搜索关键词](/help/components/c-variables/dimensionslist/reports-search-keywords.md)
 
-## 所有流量-引用
+## 所有流量——引用
 
-* **源** 主要维度在Analysis Workspace中作为 **引用域** 维度可用。
-* **登陆页面** 主要维度在Analysis Workspace中作为 **进入页面** 维度可用。
+* Analysis Workspace **中提供** “源”主维作为“引 **用域”维** 。
+* 登录 **页面主维** ，在Analysis Workspace中可用作“登录页 **面”维** 。
 
-1. In the components menu, locate the **Referring Domain** or **Entry Page** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. 在组件菜单中，找到引 **用域****** 或条目页面维，并将其拖动到标有“将维放在此处”的大型自由格式表区域上。
+2. 将所需的度量与自动创建的“发生次数”度量一起拖 **动到工** 作区。 有关如何获 [取各个度量的详细信息](common-metrics.md) ，请参阅度量转换指南。
 
-See the [Referring Domain](../../../components/c-variables/dimensionslist/reports-referring-domains.md) dimension in the Components user guide for more information.
+有关详细 [信息，请参阅组件用户指南中的](/help/components/c-variables/dimensionslist/reports-referring-domains.md) “引用域”维。
 
-## Google Ads报告和搜索控制台报告
+## Google ads报告和搜索控制台报告
 
-Adobe使用Analysis Workspace中称为Advertising Analytics的功能引入来自包括Google在内的多个平台的广告和搜索数据。
+Adobe使用Analysis Workspace中称为Advertising Analytics的功能从包括Google在内的多个平台导入广告和搜索数据。
 
-广告分析功能需要配置来返回数据。See [Advertising Analytics Help](../../../integrate/c-advertising-analytics/overview.md) for details on how to enable these additional dimensions in Analysis Workspace.
+广告分析功能需要配置才能返回数据。 有关如 [何在Analysis Workspace中启用这些附加维度的详细信息](/help/integrate/c-advertising-analytics/overview.md) ，请参阅Advertising Analytics帮助。
 
 ## Social 报表
 
-社交报告提供与其各自的行为报告相似的信息，但社交网络的上下文除外。通过将维度与区段相结合，可以在Analysis Workspace中使用此数据。
+社交报告提供的信息与其各自的“行为”报告类似，社交网络上下文除外。 通过将维与段组合，此数据在Analysis Workspace中可用。
 
-有时，访客在同一会话中通过多个渠道访问您的站点。例如，访客单击社交媒体页面，几分钟后访问搜索引擎访问您的网站。在这些情况下，非社交域可显示在此报告中。如果您希望排除非社交域，请按访问排序报告，或创建区段副本以基于点击而不是访问。See [Segmentation Containers](../../../components/c-segmentation/seg-overview.md) in the Components user guide for more information.
+有时，访客通过同一会话中的多个渠道访问您的网站。 例如，访客单击社交媒体页面，然后在几分钟后访问搜索引擎以访问您的网站。 在这些情况下，非社交域可能显示在此报表中。 如果要排除非社交域，请按访问对报表排序，或创建基于点击而非访问的区段副本。 有关详 [细信息，请参阅](/help/components/c-segmentation/seg-overview.md) “组件”用户指南中的分段容器。
 
-### 社交-网络引用
+### 社交——网络引用
 
-“网络引用”报告显示哪些社交网络域驱动访问您的站点。This data is available in Analysis Workspace using the **Referring Domain** dimension and **Visits from Social Sites** segment.
+“网络引用”报告显示哪些社交网络域导致了网站的流量。 此数据在Analysis Workspace中使用引用域维 **度和社交站点****访问量区段提供** 。
 
-1. In the Components menu, locate the **Referring Domain** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. In the Components menu, locate the **Visits from Social Sites** segment and drag in onto the small area just above the freeform table labeled 'Drop a segment here'.
-3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. 在“组件”菜单中，找到“引 **用域** ”维并将其拖动到标有“将维放在此处”的大型自由格式表区域。
+2. 在“组件”菜单中，找到“ **从社交网站访问”区段** ，并拖入标有“将区段拖到此处”的自由格式表上方的小区域。
+3. 将所需的度量与自动创建的“发生次数”度量一起拖 **动到工** 作区。 有关如何获 [取各个度量的详细信息](common-metrics.md) ，请参阅度量转换指南。
 
-### 社交-登陆页面
+### 社交——登录页面
 
-登陆页面报告显示访客通过社交网络单击链接后到达的页面。This data is available in Analysis Workspace using the **Entry Page** dimension and **Visits from Social Sites** segment.
+“登录页面”报表显示访客通过社交网络单击链接后到达的页面。 此数据在Analysis Workspace中使用“登入页面”维 **度和** “社交站 **点访问”区段提供** 。
 
-1. In the Components menu, locate the **Entry Page** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. In the Components menu, locate the **Visits from Social Sites** segment and drag in onto the small area just above the freeform table labeled 'Drop a segment here'.
-3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. 在“组件”菜单中，找到“ **条目页面** ”维并将其拖动到标有“将维放在此处”的大型自由格式表区域。
+2. 在“组件”菜单中，找到“ **从社交网站访问”区段** ，并拖入标有“将区段拖到此处”的自由格式表上方的小区域。
+3. 将所需的度量与自动创建的“发生次数”度量一起拖 **动到工** 作区。 有关如何获 [取各个度量的详细信息](common-metrics.md) ，请参阅度量转换指南。
 
-### 社交-转化
+### 社交——转化
 
-“转换”报告显示社交网络上下文中的电子商务数据。在这两种平台上都需要执行额外的实施；Adobe建议与实施顾问合作，确保对Analysis Workspace正确配置此数据。
+“转化”报告在社交网络的上下文中显示电子商务数据。 在这两个平台上使用这些报告需要进一步实施；Adobe建议与实施顾问合作，以确保为Analysis Workspace正确配置此数据。
 
-### 社交-插件
+### 社交——插件
 
-插件报告显示访客如何与您的站点上的嵌入社交媒体插件交互。需要额外的实施才能在Analysis Workspace中使用。Adobe建议与实施顾问合作，以确保准确收集此数据。
+“插件”报告显示访客如何与网站上嵌入的社交媒体插件进行交互。 Analysis Workspace中需要进一步实施。 Adobe建议与实施顾问合作，以确保准确收集这些数据。
 
-### 社交-用户流
+### 社交——用户流
 
-“用户”流报告显示访问社交网络的访客上下文中的路径数据。
+“用户流”报告显示通过社交网络到达的访客的上下文中的路径数据。
 
-1. 单击左侧的可视化图标，并将流动可视化拖动到自由表上方的工作区上
-2. Click the Components icon on the left, then drag the **Visits from Social Sites** segment onto the small area just above the flow visualization labeled 'Drop a Segment here'.
-3. Locate the **Pages** dimension, then click the Arrow icon to reveal page values. 尺寸值为黄色。
-4. 找到所需的页面值以开始，并将其拖动到中心中标记为“维度或项目”的空间中
-5. 此流报告为交互式报告。单击任意值可将流展开到后续或之前的页面。使用右键单击菜单展开或折叠列。也可以在同一流程报告中使用不同的维度。
+1. 单击左侧的可视化图标，然后将流可视化拖到自由格式表上方的工作区上
+2. 单击左侧的组件图标，然后将“从社交站点访问”区段拖 **** 动到流可视化上方标有“将区段拖放到此处”的小区域。
+3. 找到页 **面维** ，然后单击箭头图标以显示页面值。 尺寸值为黄色。
+4. 找到要开始的所需页面值，并将其拖动到中心标有“维度或项目”的空间中
+5. 此流报告是交互式的。 单击任意值可将流展开到后续或上一页。 使用右键单击菜单可展开或折叠列。 同一流量报告中也可以使用不同的维度。
 
-## 营销活动-全部
+## 营销活动——全部
 
-The campaigns report is available in Analysis Workspace using the **Tracking Code** dimension. 请注意，使用跟踪代码维度需要额外的实施来收集数据。
+在Analysis Workspace中，可以使用“跟踪代码”维 **度使用营销活动** 。 请注意，使用“跟踪代码”维需要额外的实施来收集数据。
 
-可以使用自定义变量(eVar)在Adobe Analytics中收集UM参数。Adobe建议与实施顾问合作，确保在Adobe Analytics中准确收集跟踪代码值。
+可以使用自定义变量(eVar)在Adobe Analytics中收集UTM参数。 Adobe建议与实施顾问合作，以确保在Adobe Analytics中准确收集跟踪代码值。
 
-1. In the Components menu, locate the **Tracking Code** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. 在“组件”菜单中，找到“跟 **踪代码** ”维并将其拖动到标有“将维放在此处”的大型自由格式表区域。
+2. 将所需的度量与自动创建的“发生次数”度量一起拖 **动到工** 作区。 有关如何获 [取各个度量的详细信息](common-metrics.md) ，请参阅度量转换指南。
 
-## 营销活动-付费关键字
+## 营销活动——付费关键字
 
-付费关键字报告显示在访客单击搜索引擎中付费搜索链接后每个关键字的执行方式。**搜索关键字-付费** 维度在Analysis Workspace中可用，但需要一次性设置付费搜索检测以收集数据。See [Paid Search Detection](../../../admin/admin/paid-search-detection/paid-search-detection.md) in the Admin user guide for setup details.
+付费关键字报告显示访客从搜索引擎单击付费搜索链接后每个关键字的表现。 “搜 **索关键字——付费** ”维在Analysis Workspace中可用，但需要一次性设置付费搜索检测以收集数据。 有关设 [置详细信息](/help/admin/admin/paid-search-detection/paid-search-detection.md) ，请参阅管理员用户指南中的付费搜索检测。
 
-1. In the Components menu, locate the **Search Keyword - Paid** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. 在“组件”菜单中，找到“搜索关 **键字——付费** ”维，并将其拖动到标有“将维放在此处”的大型自由格式表区域。
+2. 将所需的度量与自动创建的“发生次数”度量一起拖 **动到工** 作区。 有关如何获 [取各个度量的详细信息](common-metrics.md) ，请参阅度量转换指南。
 
-## 营销活动-有机关键字
+## 营销活动——有机关键字
 
-有机关键字报表显示在访客单击搜索引擎中的有机搜索链接后每个关键字的执行方式。**搜索关键字-自然** 尺寸在Analysis Workspace中可用。请注意，如果未设置付费搜索检测，则此维度同时收集付费和自然关键字。
+有机关键字报告显示每个关键字在访客从搜索引擎单击有机搜索链接后的表现。 “搜 **索关键字——自然** ”(Search Keywords - Natural)维在Analysis Workspace中可用。 请注意，如果未设置付费搜索检测，则此维度将收集付费和自然关键字。
 
-1. In the Components menu, locate the **Search Keyword - Natural** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. 在“组件”菜单中，找到“搜 **索关键字——自然** ”维并将其拖动到标有“将维放在此处”的大型自由格式表区域。
+2. 将所需的度量与自动创建的“发生次数”度量一起拖 **动到工** 作区。 有关如何获 [取各个度量的详细信息](common-metrics.md) ，请参阅度量转换指南。
 
 ## 成本分析
 
-此报告显示您的付费营销渠道的访问、成本和收入绩效数据。Adobe提供专门的产品来提供称为Adobe Advertising Cloud的洞察。如果您的组织有意使用此产品，请与贵组织的客户经理联系。
+此报告显示付费营销渠道的访问、成本和收入绩效数据。 Adobe提供专用产品来提供称为Adobe Advertising Cloud的洞察。 如果贵组织对使用本产品感兴趣，请与贵组织的客户经理联系。
