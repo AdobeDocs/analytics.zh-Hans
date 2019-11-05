@@ -5,7 +5,7 @@ seo-title: 量度类型和归因
 title: 量度类型和归因
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 选择量度旁边的齿轮图标允许您指定量度类型和归因模型。
 
-* [量度类型](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_34A86FB402F94E988724232283BF18B7)
-* [列归因模型](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
-* [线性分配工作原理（自 2018 年 7 月 19 日起）](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
+* [量度类型](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_34A86FB402F94E988724232283BF18B7)
+* [列归因模型](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
+* [线性分配工作原理（自 2018 年 7 月 19 日起）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
 
 ## 量度类型 {#section_34A86FB402F94E988724232283BF18B7}
 
@@ -35,7 +35,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 >
 >* 有关支持的非默认归因模型和回顾窗口的完整列表，请参阅[归因 IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html) 文档。
 >* “营销渠道最近接触”和“营销渠道首次接触”分配模型将分别迁移到新的“最近接触”和“首次接触”归因模型(注意：不会弃用“营销渠道”-只有计算量度中显示的两个分配模型才会弃用。
->* 此外，我们还将修正线性分配的计算方式。对于使用“线性”分配模型的计算指标的客户，报告可能会稍有变化以反映经过修正的新归因模型。 This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 有关更多信息，请参阅[线性分配工作原理（自 2018 年 7 月 19 日起）](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)。
+>* 此外，我们还将修正线性分配的计算方式。对于使用“线性”分配模型的计算指标的客户，报告可能会稍有变化以反映经过修正的新归因模型。 This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 有关更多信息，请参阅[线性分配工作原理（自 2018 年 7 月 19 日起）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)。
 >
 
 
