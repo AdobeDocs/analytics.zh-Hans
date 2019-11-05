@@ -8,16 +8,12 @@ title: 营销渠道报表中使用的量度
 topic: Reports and Analytics
 uuid: be5bcb94-927e-4b5f-b201-3d54eb51e740
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
 
 # 营销渠道报表中使用的量度
-
-如何在营销渠道报告中使用指标。
-
-## 营销渠道报表中使用的量度 {#topic_F83F5D4C3E144967AD90D956F0E8A999}
 
 如何在营销渠道报告中使用指标。
 
@@ -29,11 +25,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
  向报表中添加列。
 
-## 首次接触和最近接触指标 {#concept_68D9A50204304BA58C1F8013451E7853}
+## 首次接触和最近接触指标 {#first-and-last-touch}
 
 首次联系和最近联系是渠道属性，通过这些属性，您可以查看访客在渠道中的活动所产生的新参与（或度量数据，如产品查看、收入和订单）数。
 
-When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](../../components/c-marketing-channels/visitor-engagement.md#topic_32ADFDB12D3A4F35843A4545AC97C49F)). 它会记下用户登入所用的第一个渠道以及最近渠道。然后将成功事件的信用赋予每个相应的渠道。
+When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](/help/components/c-marketing-channels/visitor-engagement.md)). 它会记下用户登入所用的第一个渠道以及最近渠道。然后将成功事件的信用赋予每个相应的渠道。
 
 <!-- 
 
@@ -65,7 +61,7 @@ When a success event occurs, Analytics looks at the entire visitor's activity an
 
 > [!NOTE] 此报告使用每个指标的首次联系或最近联系版本。 因此，[!UICONTROL 营销渠道]报表中显示的数据可能与其他报表中显示的数据不匹配。
 
-## Metric definitions {#section_364D003D34D748B79503DFA4DD208EDB}
+## Metric definitions {#metric-defs}
 
 | 量度 | 定义 |
 |--- |--- |
@@ -73,7 +69,7 @@ When a success event occurs, Analytics looks at the entire visitor's activity an
 | 首次联系访客 | 在渠道报表中，首次联系访客是来源于某一渠道的每日独特访客。访客参与此网站的持续时间将被存储，可以延续多次访问。 |
 | 最近联系渠道 | 转化渠道，指的是访客参与并导致转化的最后一个营销渠道。只有一个渠道设置为首次联系渠道。最近联系渠道会随着对网站的每次回访而改变。每次访问都有首次联系渠道和最近联系渠道，但首次联系渠道的值从不随后续访问发生变化。 |
 
-## 点进 {#reference_55E2254F02EF4E7EB0AD2838C948347A}
+## 点进 {#click-through}
 
 点进是最近联系渠道的实例。它是使用最近分配的 eVar。
 
@@ -89,7 +85,7 @@ When a success event occurs, Analytics looks at the entire visitor's activity an
 
 首次联系渠道报表将显示 1 位付费搜索新参与。其他每项渠道将显示 0 位新参与。最近联系渠道报表将显示付费搜索点进 2 次、显示点进 3 次，以及免费搜索点进 2 次。
 
-## 向营销渠道报表中添加量度 {#task_D381139E00504666AB2402D553CFEA5B}
+## 向营销渠道报表中添加量度 {#add-metrics-to-mktg-channel-rpt}
 
 向营销渠道报表中添加量度。报表中每列最多可添加四个量度，列数不限。
 
