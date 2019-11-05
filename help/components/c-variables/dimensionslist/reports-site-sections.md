@@ -7,7 +7,7 @@ title: 网站区域
 topic: 报告
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    * **所有标准电子商务量度**：收入、订购、件数、购物车、购物车查看、结账、购物车加货、购物车减货。
    * **所有自定义事件**：事件 1-80、事件 81-100（使用 H22 代码或更高版本的代码时）。
 
-[!UICONTROL 网站区域报表]中的所有转化事件均使用最近分配。您将看到转化被划分到实施中不包含成功事件的页面。这不同于[页面报表](../../../components/c-variables/dimensionslist/reports-pages.md#concept_0219136EA25745B58434D0C7E751D7D5)，后者使用的是线性分配。
+[!UICONTROL 网站区域报表]中的所有转化事件均使用最近分配。您将看到转化被划分到实施中不包含成功事件的页面。这不同于[页面报表](/help/components/c-variables/dimensionslist/reports-pages.md)，后者使用的是线性分配。
 
 **产品特定的信息**
 
