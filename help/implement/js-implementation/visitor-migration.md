@@ -8,7 +8,7 @@ title: 访客迁移
 topic: 开发人员和实施
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>开始：</b> <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="http" scope="external">联系客户关怀</a>，告知您要迁移的域以及希望启用的迁移周期（30、60 或 90 天）。请务必加入非安全和安全域。 </p> </td> 
+   <td colname="col1"> <p> <b>开始：</b> <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html"  >联系客户关怀</a>，告知您要迁移的域以及希望启用的迁移周期（30、60 或 90 天）。请务必加入非安全和安全域。 </p> </td> 
    <td colname="col3"> <p>使用 <i>exact</i> 语法创建一个列表，包含您希望作为迁移源或迁移目标的域。 </p> 
     <ul id="ul_067EC5C7619141A6BDFBC209C9FD47E2"> 
      <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metrics.example.com </li> 
@@ -51,11 +51,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>在完成配置更改的 6 小时后</b>：更新您的 Analytics JavaScript 代码中的 <code> s.trackingServer</code> 和 <code> s.trackingServerSecure</code> 变量，从而使用新的数据收集服务器。 </p> </td> 
-   <td colname="col3"> <p>进行此更改后，请使用<a href="../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258" format="dita" scope="local">数据包分析程序</a>来验证 Analtyics 图像请求是否被发送到更新后的数据收集服务器。 </p> </td> 
+   <td colname="col3"> <p>进行此更改后，请使用<a href="/help/implement/impl-testing/packet-monitor.md"  >数据包分析程序</a>来验证 Analtyics 图像请求是否被发送到更新后的数据收集服务器。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>更新 Analytics 代码之后立即执行</b>：测试网站，验证是否会重定向到之前的数据收集域。 </p> </td> 
-   <td colname="col3"> <p>使用<a href="../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258" format="dita" scope="local">数据包分析程序</a>来验证当您第一次访问自己的网站时，或者在清除了 Cookie 后，您能否在 200（确定）HTTP 状态代码之前，看到两个 302（重定向）HTTP 状态代码。如果这些重定向中有任何一个出现失败，请立即联系客户关怀，确保迁移配置正确。 </p> </td> 
+   <td colname="col3"> <p>使用<a href="/help/implement/impl-testing/packet-monitor.md"  >数据包分析程序</a>来验证当您第一次访问自己的网站时，或者在清除了 Cookie 后，您能否在 200（确定）HTTP 状态代码之前，看到两个 302（重定向）HTTP 状态代码。如果这些重定向中有任何一个出现失败，请立即联系客户关怀，确保迁移配置正确。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>整个迁移期间</b>：保持前一个主机名的 DNS 记录的活动状态。 </p> </td> 
