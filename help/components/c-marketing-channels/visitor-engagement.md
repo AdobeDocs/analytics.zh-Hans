@@ -8,16 +8,12 @@ title: 访客参与到期
 topic: Reports and Analytics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
 # 访客参与到期
-
-了解如何在营销渠道中指定访客参与到期。
-
-## 访客参与到期 {#topic_32ADFDB12D3A4F35843A4545AC97C49F}
 
 了解如何在营销渠道中指定访客参与到期。
 
@@ -31,7 +27,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 | 从不 | 访客的参与期限不会到期。 |
 | 渠道重置 | 将所有访客的参与期限设置为过期。如果您需要重置所有营销渠道数据，可以将所有访客的参与期限设置为过期。如果您的处理规则先前配置错误，则可能需要重置数据。当访客回访时，所有首次联系和最近联系渠道值都将立即过期并被重置。 |
 
-## 指定访客参与到期 {#task_A8B8B5A07C5A4882BB895252A018FDED}
+## 指定访客参与到期 {#specify-visitor-expire}
 
 指定访客参与到期。
 
