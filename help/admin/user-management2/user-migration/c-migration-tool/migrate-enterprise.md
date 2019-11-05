@@ -5,7 +5,7 @@ seo-title: 为 Enterprise ID 和 Federated ID 迁移 Analytics 用户帐户
 title: 为 Enterprise ID 和 Federated ID 迁移 Analytics 用户帐户
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -121,7 +121,7 @@ source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
   </tr> 
   <tr> 
    <td colname="col1"> <p>域 </p> </td> 
-   <td colname="col2"> <p>确保 域 <span class="term"> 和电子邮件</span> (Email <span class="term"> )列与在先决条件中建立的域相</span> 匹配 <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md#prereqs" format="dita" scope="local"></a>。 </p> </td> 
+   <td colname="col2"> <p>确保 域 <span class="term"> 和电子邮件</span> (Email <span class="term"> )列与在先决条件中建立的域相</span> 匹配 <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md#prereqs"  ></a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>国家/地区代码 </p> </td> 
