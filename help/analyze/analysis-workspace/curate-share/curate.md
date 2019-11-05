@@ -8,7 +8,7 @@ title: 组织/共享概述
 topic: Reports and Analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
    Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) with the **[!UICONTROL Analysis Workspace Access]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]**).
 
-1. [创建并保存项目](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) ，然后单击“共 **[!UICONTROL 享]** ”&gt;“ **[!UICONTROL 创建项目数据”]**。
+1. [创建并保存项目](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) ，然后单击“共 **[!UICONTROL 享]** ”&gt;“ **[!UICONTROL 创建项目数据”]**。
 1. 将您要从左侧可拖动组件堆叠中共享的组件拖到&#x200B;**[!UICONTROL 策划的组件]字段。**
 
    ![](assets/curated-components.png)
