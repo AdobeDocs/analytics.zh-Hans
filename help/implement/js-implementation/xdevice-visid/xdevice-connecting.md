@@ -9,7 +9,7 @@ title: 跨设备连接用户
 topic: 开发人员和实施
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 [!UICONTROL 访客 ID] 通常在出现以下情况以后进行设置：执行身份验证；或在访客执行了某些其他操作，使您能够脱离他们所使用的设备进行唯一识别。我们建议创建一个用户名或内部 ID 的散列，并且不包含任何个人识别信息。
 
-在[之前的示例中](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md)，当客户从每个设备登录后，他们都将与相同的用户配置文件关联。如果访客稍后注销设备，拼接仍将继续工作，因为每个设备的 Cookie 中所存储的[!UICONTROL 访客 ID] 已经与相同的访客资料关联。我们建议尽可能地填充 [!UICONTROL s.visitorID] 变量，以备在[!UICONTROL 访客 ID] Cookie 被删除时使用。
+在[之前的示例中](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md)，当客户从每个设备登录后，他们都将与相同的用户配置文件关联。如果访客稍后注销设备，拼接仍将继续工作，因为每个设备的 Cookie 中所存储的[!UICONTROL 访客 ID] 已经与相同的访客资料关联。我们建议尽可能地填充 [!UICONTROL s.visitorID] 变量，以备在[!UICONTROL 访客 ID] Cookie 被删除时使用。
 
 ## 独特访客和访问计数 {#section_70330AB6724C4E419A4BD0BDD54641AC}
 
