@@ -5,7 +5,7 @@ seo-title: 量度兼容性
 title: 量度兼容性
 uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  <tbody> 
   <tr> 
    <td colname="col1"> 当前数据 </td> 
-   <td colname="col2"> <p>您可以通过 Analytics 中的“包括当前数据”选项查看最新的 Analytics 数据，通常是经过完全处理并完成前的数据。“<a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html" format="https" scope="external">当前数据</a>”会在数分钟内显示大部分量度，为快速制定决策提供可用数据。 </p> <p>“当前数据”仅支持计算量度（包含加、减、乘、除）。“当前数据”不支持高级计算量度（包含区段或函数）。 </p> </td> 
+   <td colname="col2"> <p>您可以通过 Analytics 中的“包括当前数据”选项查看最新的 Analytics 数据，通常是经过完全处理并完成前的数据。“<a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html"  >当前数据</a>”会在数分钟内显示大部分量度，为快速制定决策提供可用数据。 </p> <p>“当前数据”仅支持计算量度（包含加、减、乘、除）。“当前数据”不支持高级计算量度（包含区段或函数）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 完全处理数据 </td> 
