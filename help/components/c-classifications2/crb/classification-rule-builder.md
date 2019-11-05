@@ -8,7 +8,7 @@ title: 分类规则生成器工作流程
 topic: 管理工具
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -36,14 +36,16 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 | 步骤 | 执行位置 | 描述 |
 |--- |--- |--- |
 | Step 1 (Prerequisite): [Set up your classification schema](https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html). | [!UICONTROL 管理员] &gt;报 [!UICONTROL 表包] &gt;编辑设置  &gt; &lt;流量分类或转化分类&gt; | 选择一个变量并定义要用于该变量的分类。<br>变量必须至少创建了一个分类列，才可在规则中使用。<br>在启用分类后，可以使用导入器和规则生成器来分类特定值。 |
-| Step 2: [Create a rule set](../../../components/c-classifications2/crb/classification-rule-set.md). | [!UICONTROL 管理员] &gt; [!UICONTROL 分类规则生成器] &gt; [!UICONTROL 添加规则集] | 规则集是特定变量的一组分类规则。 |
+| Step 2: [Create a rule set](/help/components/c-classifications2/crb/classification-rule-set.md). | [!UICONTROL 管理员] &gt; [!UICONTROL 分类规则生成器] &gt; [!UICONTROL 添加规则集] | 规则集是特定变量的一组分类规则。 |
 | 第3步：配置报表包和变量。 | [!UICONTROL 分类规则生成器] &gt; &lt;您的规则集&gt; | 将规则集应用于报表包和变量。 |
-| Step 4: [Add classification rules to the set](../../../components/c-classifications2/crb/classification-quickstart-rules.md). | [!UICONTROL 分类规则生成器] &gt; &lt;您的规则集&gt; | 将条件与分类进行匹配，然后指定要为规则采取的操作。熟悉规则处理 [方式中的信息](../../../components/c-classifications2/crb/classification-quickstart-rules.md)。 |
-| 第5步：测 [试分类规则集](../../../components/c-classifications2/crb/classification-quickstart-rules.md) | [!DNL Testing Page] | 您将需要通过在草稿模式下编辑规则，来测试规则的有效性。在草稿模式下，规则无法运行。<br>使用正则表达式时，此步 [骤很重要](../../../components/c-classifications2/crb/classification-quickstart-rules.md)。 |
-| 第6步：激 [活有效规则](../../../components/c-classifications2/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | 在规则有效后，激活规则集。如有必要，您可以覆盖现有键值。请参阅 [如何处理规则](../../../components/c-classifications2/crb/classification-quickstart-rules.md). |
-| Step 7 (Optional): [Delete unwanted rules](../../../components/c-classifications2/crb/classification-rule-definitions.md). | [!DNL Rules Page] | 从规则集中删除不需要的规则。<br>注意：删除规则时不会删除上载的分类数据。See  [Delete classification data](../../../components/c-classifications2/c-classifications-importer/t-delete-classification-data.md) if you need to delete classified data. |
+| Step 4: [Add classification rules to the set](/help/components/c-classifications2/crb/classification-quickstart-rules.md). | [!UICONTROL 分类规则生成器] &gt; &lt;您的规则集&gt; | 将条件与分类进行匹配，然后指定要为规则采取的操作。熟悉规则处理 [方式中的信息](/help/components/c-classifications2/crb/classification-quickstart-rules.md)。 |
+| 第5步：测 [试分类规则集](/help/components/c-classifications2/crb/classification-quickstart-rules.md) | [!DNL Testing Page] | 您将需要通过在草稿模式下编辑规则，来测试规则的有效性。在草稿模式下，规则无法运行。<br>使用正则表达式时，此步 [骤很重要](/help/components/c-classifications2/crb/classification-quickstart-rules.md)。 |
+| 第6步：激 [活有效规则](/help/components/c-classifications2/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | 在规则有效后，激活规则集。如有必要，您可以覆盖现有键值。请参阅 [如何处理规则](/help/components/c-classifications2/crb/classification-quickstart-rules.md). |
+| Step 7 (Optional): [Delete unwanted rules](/help/components/c-classifications2/crb/classification-rule-definitions.md). | [!DNL Rules Page] | 从规则集中删除不需要的规则。<br>注意：删除规则时不会删除上载的分类数据。See  [Delete classification data](/help/components/c-classifications2/c-classifications-importer/t-delete-classification-data.md) if you need to delete classified data. |
 
-> [!NOTE] 有权使用分类导入工具的组可以使用分类规则。 See [How Rules Are Processed](../../../components/c-classifications2/crb/classification-quickstart-rules.md) for important processing information.
+>[!NOTE]
+>
+> 有权使用分类导入工具的组可以使用分类规则。 See [How Rules Are Processed](/help/components/c-classifications2/crb/classification-quickstart-rules.md) for important processing information.
 
 **其他资源**
 
