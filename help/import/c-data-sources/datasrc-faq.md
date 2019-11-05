@@ -8,7 +8,7 @@ title: 数据源常见问题解答
 topic: 开发人员和实施
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ## 怎样将离线数据与在线事件相关联？ {#section_F48A9474A70D4CB8B449DE305F199AD6}
 
-对于将脱机数据绑定到联机事件的交易 ID 数据源，您必须启用交易 ID 记录。请参阅[交易 ID 记录](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)，以了解更多信息。
+对于将脱机数据绑定到联机事件的交易 ID 数据源，您必须启用交易 ID 记录。请参阅[交易 ID 记录](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)，以了解更多信息。
 
 ## 使用“数据源”功能的费用是多少？ {#section_0B84E3E8891B45E8970EA9D8AAD1ADEC}
 
