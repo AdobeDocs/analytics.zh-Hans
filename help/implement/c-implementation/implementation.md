@@ -5,7 +5,7 @@ seo-title: 实施路线图
 title: 实施路线图
 uuid: 988bcca5-67ae-4e3f-97e6-6a42030b1962
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -32,20 +32,20 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col1"> 选择实施方法. </td> 
    <td colname="col2"> <p>实施 Analytics 的常见方法包括： </p> <p> 
      <ul id="ul_A7475867861540EFBD77AEE8C6DAD418"> 
-      <li id="li_035E2619670F4D04A7F708625A9C01EF"> <a href="https://docs.adobelaunch.com/" format="https" scope="external">Experience Platform Launch</a>（推荐） <p>本指南向您介绍了有关如何使用 Adobe 网站标签和移动 SDK 管理功能以及如何实施这些功能的所有所需信息。 </p> </li> 
-      <li id="li_996FA2F5B0E149399CED391AB5235D8A"> <a href="../../implement/c-implement-with-dtm/dtm-implementation-overview.md" format="dita" scope="local"> Dynamic Tag Management </a> <p>本指南中包含特定于 Analytics 的信息，可引导您完成动态标签管理实施。 </p> </li> 
-      <li id="li_18E6AD6D864246D0BA26DAA1D91DD811"> <a href="../../implement/js-implementation/javascript-implementation-overview.md" format="dita" scope="local"> JavaScript </a> <p>本指南包含数据收集变量的说明以及有关在 JavaScript 中实施数据收集代码的详细信息，包括<a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js.html" format="https" scope="external">视频</a>。 </p> </li> 
-      <li id="li_85EC7A0AC5E04EE6981ED72A88C5D1FD"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/developer.html" format="html" scope="external"> Analytics SDK </a> <p>使用 Analytics SDK 可管理： </p> <p> 
+      <li id="li_035E2619670F4D04A7F708625A9C01EF"> <a href="https://docs.adobelaunch.com/">Experience Platform Launch</a>（推荐） <p>本指南向您介绍了有关如何使用 Adobe 网站标签和移动 SDK 管理功能以及如何实施这些功能的所有所需信息。 </p> </li> 
+      <li id="li_996FA2F5B0E149399CED391AB5235D8A"> <a href="/help/implement/c-implement-with-dtm/dtm-implementation-overview.md"> Dynamic Tag Management </a> <p>本指南中包含特定于 Analytics 的信息，可引导您完成动态标签管理实施。 </p> </li> 
+      <li id="li_18E6AD6D864246D0BA26DAA1D91DD811"> <a href="/help/implement/js-implementation/javascript-implementation-overview.md"> JavaScript </a> <p>本指南包含数据收集变量的说明以及有关在 JavaScript 中实施数据收集代码的详细信息，包括<a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js.html">视频</a>。 </p> </li> 
+      <li id="li_85EC7A0AC5E04EE6981ED72A88C5D1FD"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/developer.html"> Analytics SDK </a> <p>使用 Analytics SDK 可管理： </p> <p> 
         <ul id="ul_F67F2E1964724800A84445A36DFB8E86"> 
-         <li id="li_9C43F051EB5B4EA7A4C14EC1513DB824"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/analytics_main.html" format="html" scope="external"> iOS 上的移动设备应用程序 </a> </li> 
-         <li id="li_4354E44EB8B3494A88578C1621EF5BAC"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/analytics_main.html" format="html" scope="external"> Android 上的移动设备应用程序 </a> </li> 
+         <li id="li_9C43F051EB5B4EA7A4C14EC1513DB824"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/analytics_main.html"> iOS 上的移动设备应用程序 </a> </li> 
+         <li id="li_4354E44EB8B3494A88578C1621EF5BAC"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/analytics_main.html"> Android 上的移动设备应用程序 </a> </li> 
         </ul> </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step2_icon.png" id="image_02CFDC007BF1486AA312698EBFFA79F7" /> </td> 
    <td colname="col1"> 设置 Identity Service。 </td> 
-   <td colname="col2"> <p>（以前称为<span class="term">访客 ID 服务</span>。）请参阅<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html" format="https" scope="external">为 Analytics 设置 Identity Service</a>。 </p> 
+   <td colname="col2"> <p>（以前称为<span class="term">访客 ID 服务</span>。）请参阅<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html">为 Analytics 设置 Identity Service</a>。 </p> 
     <draft-comment> 
      <p>在 <code> VisitorAPI.js </code> 中，将以下访客 ID 初始化代码添加至文件开头： </p> 
      <code class="syntax javascript">
@@ -74,18 +74,18 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   <tr> 
    <td colname="col01"> <img  src="assets/step4_icon.png" id="image_B255E5EAE7BB43FC946D0E9DFCA83003" /> </td> 
    <td colname="col1"> 验证实施。 </td> 
-   <td colname="col2"> <p> <a href="../../implement/impl-testing/impl-validation/impl-validation.md" format="dita" scope="local">测试和验证</a>提供了有关如何验证实施的信息。 </p> </td> 
+   <td colname="col2"> <p> <a href="/help/implement/impl-testing/impl-validation/impl-validation.md">测试和验证</a>提供了有关如何验证实施的信息。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step5_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
    <td colname="col1"> 使用 Adobe Experience Cloud 调试器验证数据是否已发送。 </td> 
-   <td colname="col2"> <p>安装 <a href="../../implement/impl-testing/debugger.md#topic_E05CEAF0682E483A9AB147D774CF2188" format="dita" scope="local">Experience Cloud 调试器</a>。安装完成后，载入某个您已部署页面代码的页面，然后打开调试程序。调试程序会显示有关已发送的收集数据的详细信息。 </p> </td> 
+   <td colname="col2"> <p>安装 <a href="/help/implement/impl-testing/debugger.md">Experience Cloud 调试器</a>。安装完成后，载入某个您已部署页面代码的页面，然后打开调试程序。调试程序会显示有关已发送的收集数据的详细信息。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 更多信息 {#section_64B6A948DF4A4B5E9E1D22549F8C508B}
 
-有关 [!UICONTROL Experience Platform Launch]、[!UICONTROL Dynamic Tag Management] 和 JavaScript 方法三者之间区别的信息，请参阅[选择一种实施方法](../../implement/c-implementation-methods/choose-implementation-method.md#concept_97CE27B16410422EB28B4B9CE3B9529B)。
+有关 [!UICONTROL Experience Platform Launch]、[!UICONTROL Dynamic Tag Management] 和 JavaScript 方法三者之间区别的信息，请参阅[选择一种实施方法](/help/implement/c-implementation-methods/choose-implementation-method.md)。
 
 有关入门流程的简要概述以及有关快速设置首个 Analytics 报表包的帮助，请参阅“Analytics 快速入门”指南中的 [Analytics 实施快速入门](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html)。
