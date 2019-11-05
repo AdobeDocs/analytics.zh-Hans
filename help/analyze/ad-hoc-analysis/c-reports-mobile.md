@@ -5,7 +5,7 @@ seo-title: 移动设备报表
 title: 移动设备报表
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -91,7 +91,7 @@ For more information about mobile tracking, see the [Mobile Analytics](https://w
   </tr> 
   <tr> 
    <td colname="col1"> Java 版本报表 </td> 
-   <td colname="col2"> <p>按移动设备支持的 Java 版本对移动设备进行分组。Java 版本报表通过设备支持的 Java Specification Request (JSR) 来识别 Java 版本。对于未识别的移动操作系统，该报表还提供了“未知”组。 </p> <p>有关 JSR 的详细信息，请访问 <a href="https://jcp.org/en/jsr/overview" scope="external" format="html">Java Community Process</a> 网站。 </p> </td> 
+   <td colname="col2"> <p>按移动设备支持的 Java 版本对移动设备进行分组。Java 版本报表通过设备支持的 Java Specification Request (JSR) 来识别 Java 版本。对于未识别的移动操作系统，该报表还提供了“未知”组。 </p> <p>有关 JSR 的详细信息，请访问 <a href="https://jcp.org/en/jsr/overview"  >Java Community Process</a> 网站。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 书签 URL 长度报表 </td> 
