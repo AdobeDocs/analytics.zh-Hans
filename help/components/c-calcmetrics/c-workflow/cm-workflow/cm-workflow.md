@@ -1,18 +1,18 @@
 ---
-description: 了解用于创建计算量度的步骤。
-seo-description: 了解用于创建计算量度的步骤。
-seo-title: 计算得出的指标工作流程
-title: 计算得出的指标工作流程
-uuid: 26f028c7-f9 eb-4d8 f-8f03-56f321087 b4
+description: 了解创建计算量度所需的步骤。
+seo-description: 了解创建计算量度所需的步骤。
+seo-title: 计算量度工作流程
+title: 计算量度工作流程
+uuid: 26f028c7-f9eb-4d8f-8f03-56f3211087b4
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
 
-# 计算得出的指标工作流程
+# 计算量度工作流程
 
-了解用于创建计算量度的步骤。
+了解创建计算量度所需的步骤。
 
 | 工作流程任务 | 描述 |
 | --- | --- |
