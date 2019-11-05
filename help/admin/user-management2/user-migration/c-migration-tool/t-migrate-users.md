@@ -5,7 +5,7 @@ seo-title: 为 Adobe ID 迁移 Analytics 用户帐户
 title: 为 Adobe ID 迁移 Analytics 用户帐户
 uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>旧版登录已禁用 </p> </td> 
-   <td colname="col2"> <p>使用公司 ID 的旧版登录被禁用。用户将立即使用其 Adobe ID 或 Enterprise ID 访问 Experience Cloud。当所有用户都达到此阶段时，即表明您完成了迁移。 </p> <p>在迁移中，旧版登录名被禁用。 用户将被重定 <span class="filepath"> 向到experiencecloud.adobe.com</span> ，并且必须使用Adobe ID或Enterprise ID登录。 </p> <p>See <a href="/help/admin/user-management2/user-migration/c-migration-tool/t-disable-legacy-login.md" format="dita" scope="local"> Disable Legacy Logins</a> for more information. </p> </td> 
+   <td colname="col2"> <p>使用公司 ID 的旧版登录被禁用。用户将立即使用其 Adobe ID 或 Enterprise ID 访问 Experience Cloud。当所有用户都达到此阶段时，即表明您完成了迁移。 </p> <p>在迁移中，旧版登录名被禁用。 用户将被重定 <span class="filepath"> 向到experiencecloud.adobe.com</span> ，并且必须使用Adobe ID或Enterprise ID登录。 </p> <p>See <a href="/help/admin/user-management2/user-migration/c-migration-tool/t-disable-legacy-login.md"> Disable Legacy Logins</a> for more information. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,11 +63,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  <tbody> 
   <tr> 
    <td colname="col1"> <p>域 </p> </td> 
-   <td colname="col2"> <p>域特定于当前 Analytics 用户群的电子邮件 ID。域只能由一个组织的声明，并且只有系统管理员才能声明域。有关更多信息，请参阅<a href="https://helpx.adobe.com/enterprise/help/request-access-to-claimed-domain.html" format="html" scope="external">请求对声明域的访问权限</a>。 </p> </td> 
+   <td colname="col2"> <p>域特定于当前 Analytics 用户群的电子邮件 ID。域只能由一个组织的声明，并且只有系统管理员才能声明域。有关更多信息，请参阅<a href="https://helpx.adobe.com/enterprise/help/request-access-to-claimed-domain.html">请求对声明域的访问权限</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>声明的域 </p> </td> 
-   <td colname="col2"> <p>如果要按 Enterprise ID 或 Federated ID 迁移用户，您必须是系统管理员，并通过 Admin Console 声明可用域，然后才能迁移用户。在<a href="https://helpx.adobe.com/enterprise/help/identity.html" format="html" scope="external">这里</a>了解更多。 </p> <p>如果不想为 Enterprise ID 或 Federated ID 声明任何域，请跳过此步骤，并继续按 Adobe ID 迁移用户。在<a href="https://helpx.adobe.com/enterprise/help/identity.html" format="html" scope="external">这里</a>了解有关 ID 类型的更多信息。 </p> </td> 
+   <td colname="col2"> <p>如果要按 Enterprise ID 或 Federated ID 迁移用户，您必须是系统管理员，并通过 Admin Console 声明可用域，然后才能迁移用户。在<a href="https://helpx.adobe.com/enterprise/help/identity.html">这里</a>了解更多。 </p> <p>如果不想为 Enterprise ID 或 Federated ID 声明任何域，请跳过此步骤，并继续按 Adobe ID 迁移用户。在<a href="https://helpx.adobe.com/enterprise/help/identity.html">这里</a>了解有关 ID 类型的更多信息。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
