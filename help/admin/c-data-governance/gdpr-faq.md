@@ -4,8 +4,8 @@ seo-description: 'null'
 seo-title: 常见问题解答
 title: 常见问题解答
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
-translation-type: ht
-source-git-commit: 90b2ff68e04a2d0027205a906de9091061430d98
+translation-type: tm+mt
+source-git-commit: 657b4ac4bd8ef0092ea76c6ce20133dab875da0d
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 90b2ff68e04a2d0027205a906de9091061430d98
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Adobe Analytics 如何支持由最终用户（数据主体）提出、并由客户（数据控制者）进行验证的访问请求和删除请求？</b> </p> </td> 
-   <td colname="col2"> <p>各种数据隐私法规 (GDPR、CCPA) 正式生效后，Adobe Analytics 将支持处理“数据控制者”向 Experience Cloud 数据隐私 API 提交的验证请求，以实现更加自动化的流程。针对我们的客户在各种 Adobe Experience Cloud 解决方案中存储的数据，Adobe 的数据隐私 API 旨在帮助处理个人权利请求（例如，访问和删除请求）。它具有灵活性和伸缩性，具体情况将依据贵公司从数据主体接收到的数据访问和删除请求数量。此外，数据隐私 API 允许客户检查有关执行数据访问和删除请求的进展状态。 </p> <p>更多详细信息，请参阅<a href="https://www.adobe.io/apis/cloudplatform/gdpr.html" format="html" scope="external">数据隐私 API 文档</a>。 </p> </td> 
+   <td colname="col2"> <p>各种数据隐私法规 (GDPR、CCPA) 正式生效后，Adobe Analytics 将支持处理“数据控制者”向 Experience Cloud 数据隐私 API 提交的验证请求，以实现更加自动化的流程。针对我们的客户在各种 Adobe Experience Cloud 解决方案中存储的数据，Adobe 的数据隐私 API 旨在帮助处理个人权利请求（例如，访问和删除请求）。它具有灵活性和伸缩性，具体情况将依据贵公司从数据主体接收到的数据访问和删除请求数量。此外，数据隐私 API 允许客户检查有关执行数据访问和删除请求的进展状态。 </p> <p>For more details see <a href="https://www.adobe.io/apis/cloudplatform/gdpr.html"> Data Privacy API documentation. </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>谁将负责接收、接受和执行来自最终用户的数据隐私请求？</b> </p> </td> 
@@ -30,21 +30,21 @@ source-git-commit: 90b2ff68e04a2d0027205a906de9091061430d98
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>为了进行数据隐私处理，Adobe 客户（数据控制者）将如何找出哪些数据隐私请求映射到 Adobe Analytics 中的哪些 ID？</b> </p> </td> 
-   <td colname="col2"> <p>数据控制者将确定如何解析发出请求的数据主体的身份。可以考虑部署 <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm" format="html" scope="external">Adobe 的数据隐私 ID 检索标记</a>。为了节省时间，您的开发团队可采用下面的方法：使用我们的数据隐私 ID 检索标记捕获用户 ID (Cookie ID)，然后用我们的数据隐私 API 将这些用户 ID 发送到 Adobe Experience Cloud 的相关解决方案中，以进行数据隐私请求处理。 </p> <p>数据隐私 API 可以在多个 Adobe 解决方案中支持范围广泛的客户 ID。如果数据主体提交了一个请求和一个标识符（自定义变量 – prop 或 eVar），Adobe Analytics 则会扫描针对给定标识符收集的所有保留的数据历史记录。有关如何配置存储在 Analytics prop 或 eVar 中的自定义 ID 的详细信息，请参阅 Analytics 关于<a href="/help/admin/c-data-governance/gdpr-namespaces.md">命名空间</a>的文档。
+   <td colname="col2"> <p>数据控制者将确定如何解析发出请求的数据主体的身份。可以考虑部署 <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm">Adobe 的数据隐私 ID 检索标记。</a>为了节省时间，您的开发团队可采用下面的方法：使用我们的数据隐私 ID 检索标记捕获用户 ID (Cookie ID)，然后用我们的数据隐私 API 将这些用户 ID 发送到 Adobe Experience Cloud 的相关解决方案中，以进行数据隐私请求处理。 </p> <p>数据隐私 API 可以在多个 Adobe 解决方案中支持范围广泛的客户 ID。如果数据主体提交了一个请求和一个标识符（自定义变量 – prop 或 eVar），Adobe Analytics 则会扫描针对给定标识符收集的所有保留的数据历史记录。For more details about how to configure custom IDs stored in Analytics props or eVars, please refer to the Analytics documentation on <a href="/help/admin/c-data-governance/gdpr-namespaces.md"> Namespaces.</a>
     </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Adobe Analytics 数据管理怎样协助处理数据隐私请求？</b> </p> </td> 
    <td colname="col2"> <p>“数据管理”是 Adobe Analytics 中的一个新工具，它赋与数据控制者在其 Analytics 数据中应用数据控制和分类的能力。这款新工具允许 Adobe 客户自定义其数据隐私数据访问和数据删除请求的处理方式。在“数据管理”控制台中，管理员可以定义多种所需的设置，这些设置应该会应用于 Adobe Analytics 的各种数据列中。一旦定义了这些标签，Adobe 将根据客户所需的标签设置，执行并处理任何下游访问或删除请求。数据控制者有责任进行审查，并就这些标签设置与其法律代表进行协商。Adobe Analytics 鼓励客户于 2018 年 5 月 25 日 GDPR 正式生效之前，在客户端上正确设置数据标签功能，以便允许利用数据隐私 API 自定义请求的完成情况。 </p> <p>“数据管理”工具包含以下数据标签： </p> 
     <ul id="ul_F25B00EB020B4A639628FB884D0CB4F9"> 
-     <li id="li_C295A396685340369D730D696FE6FC13"> <a href="/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels" format="dita" scope="local">身份数据标签</a>：用于对可以直接识别个人或与其他数据结合使用以识别个人的数据进行分类。（无、I1、I2） </li> 
-     <li id="li_6D9A25139D3342CA82AAA64BC01AD368"> <a href="/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels" format="dita" scope="local">敏感数据标签</a>：用于按照适用的法律，对定义为敏感数据的数据进行分类。（无、S1、S2）请注意，当前通常禁止在 Adobe Analytics 中使用敏感数据，但是根据适用法律正确获得的精确地理位置数据除外，不过在某些司法辖区，这类数据可能会被视为敏感数据。 </li> 
-     <li id="li_C69935AAC36741D8A902D14F75E896D6"> <a href="/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels" format="dita" scope="local">数据隐私数据标签</a>：用于对以下字段进行定义：包含数据隐私请求中使用的个人标识符的字段，或者，作为数据隐私删除请求的一部分而应该删除的字段。在某些情况下，这些标签可能会与身份和敏感数据标签重叠。 </li> 
-    </ul> <p>有关“数据管理”标签的更多信息，请参阅 <a href="/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels" format="dita" scope="local">Analytics 变量的数据隐私标签</a>。 </p> </td> 
+     <li id="li_C295A396685340369D730D696FE6FC13"> <a href="/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels"> 标识数据标签：用 </a> 于对能够直接识别个人或与其他数据组合识别个人的数据进行分类。 （无、I1、I2） </li> 
+     <li id="li_6D9A25139D3342CA82AAA64BC01AD368"> <a href="/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels"> 敏感数据标签：用 </a> 于将数据分类为根据适用法律定义为敏感的数据。 （无、S1、S2）请注意，当前通常禁止在 Adobe Analytics 中使用敏感数据，但是根据适用法律正确获得的精确地理位置数据除外，不过在某些司法辖区，这类数据可能会被视为敏感数据。 </li> 
+     <li id="li_C69935AAC36741D8A902D14F75E896D6"> <a href="/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels"> 数据隐私数据标签：用 </a> 于定义可能包含个人标识符的字段，以用于数据隐私请求或应作为数据隐私删除请求的一部分删除的字段。 在某些情况下，这些标签可能会与身份和敏感数据标签重叠。 </li> 
+    </ul> <p>For more information on Data Governance labels, see <a href="/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels"> Data Privacy Labels for Analytics Variables. </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>我该从哪里开始着手准备 Adobe Analytics 以支持数据隐私法？</b> </p> </td> 
-   <td colname="col2"> <p>有关为数据隐私做好准备的分步说明，请参阅<a href="/help/admin/c-data-governance/an-gdpr-workflow.md" format="dita" scope="local"> Adobe Analytics 数据隐私工作流程</a>。 </p> </td> 
+   <td colname="col2"> <p>For a step-by-step walkthrough to get ready for Data Privacy rules, see <a href="/help/admin/c-data-governance/an-gdpr-workflow.md"> Adobe Analytics Data Privacy Workflow. </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>当涉及到用户参与时，数据控制者应该如何考虑同意管理？</b> </p> </td> 
@@ -52,7 +52,7 @@ source-git-commit: 90b2ff68e04a2d0027205a906de9091061430d98
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>当涉及到数据隐私时，数据控制者应该如何考虑数据保留？</b> </p> </td> 
-   <td colname="col2"> <p>通常，数据隐私法规定个人数据的保留时间不应超过为实现收集目的所需的时间。 </p> <p>正如 Adobe 在 2 月份客户沟通会上详细阐明的那样，除非已对客户履行了其他安排（根据客户的通知和授权），否则我们将为大多数客户实施 25 个月的数据保留计划。客户需要先设置其数据保留策略，然后 Adobe 才可以处理数据隐私请求。 </p> <p>Adobe Analytics 要求客户设置其数据保留策略以处理其数据隐私请求。每个报表包的当前数据保留策略都显示在新的数据管理管理员 UI 中。如果客户需要调整其数据保留策略，则应联系其 Adobe 代表。请参考 <a href="https://marketing.adobe.com/resources/help/zh_CN/reference/data-retention-client-table-faq.html" format="html" scope="external">Adobe Analytics 数据保留常见问题解答</a>。 </p> </td> 
+   <td colname="col2"> <p>通常，数据隐私法规定个人数据的保留时间不应超过为实现收集目的所需的时间。 </p> <p>正如 Adobe 在 2 月份客户沟通会上详细阐明的那样，除非已对客户履行了其他安排（根据客户的通知和授权），否则我们将为大多数客户实施 25 个月的数据保留计划。客户需要先设置其数据保留策略，然后 Adobe 才可以处理数据隐私请求。 </p> <p>Adobe Analytics 要求客户设置其数据保留策略以处理其数据隐私请求。每个报表包的当前数据保留策略都显示在新的数据管理管理员 UI 中。如果客户需要调整其数据保留策略，则应联系其 Adobe 代表。Please, refer to <a href="https://marketing.adobe.com/resources/help/en_US/reference/data-retention-client-table-faq.html"> Adobe Analytics Data Retention FAQS. </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>客户能否缩短或延长默认的数据保留期限？</b> </p> </td> 
