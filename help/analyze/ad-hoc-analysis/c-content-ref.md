@@ -7,7 +7,7 @@ title: 生成区段
 topic: Ad Hoc Analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,17 +22,17 @@ Ad Hoc Analysis 包含用于构建区段的类似功能，另有新功能升级�
 
 有关在统一分段环境中生成和管理区段的信息与说明（包括临时分析功能），请参阅[统一分段](https://marketing.adobe.com/resources/help/en_US/analytics/segment/index.html)文档。
 
-* [新增功能](../../analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
+* [新增功能](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
 * [区段定义更改](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_definition.html)
-* [我的现有区段有什么变化？](../../analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
-* [我的现有区段文件夹有什么变化？](../../analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30)
-* [我可以在区段管理器中管理所有 Analytics 区段吗？](../../analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489)
-* [什么是“点击”容器？与页面查看容器是否有什么不同？](../../analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256)
-* [需要哪些权限才能使用、创建和管理区段？](../../analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707)
-* [我应如何处理具有……](../../analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C)
-* [Adobe 建议我应该怎样清除区段？](../../analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49)
-* [为什么无法删除此区段？](../../analyze/ad-hoc-analysis/c-content-ref.md#section_0FEB6711031A4ABCA915CDA745ECF38D)
-* [关于现有区段所发生改变的更多信息](../../analyze/ad-hoc-analysis/c-content-ref.md#section_83ACAB256F394DCD8B424D8920BDD853)
+* [我的现有区段有什么变化？](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
+* [我的现有区段文件夹有什么变化？](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30)
+* [我可以在区段管理器中管理所有 Analytics 区段吗？](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489)
+* [什么是“点击”容器？与页面查看容器是否有什么不同？](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256)
+* [需要哪些权限才能使用、创建和管理区段？](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707)
+* [我应如何处理具有……](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C)
+* [Adobe 建议我应该怎样清除区段？](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49)
+* [为什么无法删除此区段？](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_0FEB6711031A4ABCA915CDA745ECF38D)
+* [关于现有区段所发生改变的更多信息](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_83ACAB256F394DCD8B424D8920BDD853)
 
 ## 功能 {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
@@ -117,7 +117,7 @@ Ad Hoc Analysis 包含用于构建区段的类似功能，另有新功能升级�
      <li id="li_67CE51237EC34FD4B33942BA14584EBF">来自付费搜索的访问量 </li> 
      <li id="li_C3820743178A4E9F9E5E5B5C47401DF2">使用访客 ID Cookie 的访问量 </li> 
     </ul> </td> 
-   <td colname="col2"> <p>这些区段将作为<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html" format="http" scope="external">区段模板</a>迁移到区段生成器中。 </p> <p>已应用这些区段的现有报表将仍可正常使用。 </p> </td> 
+   <td colname="col2"> <p>这些区段将作为<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html"  >区段模板</a>迁移到区段生成器中。 </p> <p>已应用这些区段的现有报表将仍可正常使用。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Experience Cloud（包）区段： 
@@ -130,7 +130,7 @@ Ad Hoc Analysis 包含用于构建区段的类似功能，另有新功能升级�
      <li id="li_1FEF207959DC4D2E9FC925DD43177AA0">之前访问次数超过 5 次的访问量* </li> 
      <li id="li_219AB1D4FD7E469C9076A23D2CCC7C2C">Facebook 访问量* </li> 
     </ul> </td> 
-   <td colname="col2"> <p> 其中大多数区段（使用星号 * 标记的区段除外）将作为<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html" format="http" scope="external">区段模板</a>迁移到区段生成器中。此外，还添加了多个新区段模板。 </p> <p>已应用这些区段的现有报表将仍可正常使用。 </p> </td> 
+   <td colname="col2"> <p> 其中大多数区段（使用星号 * 标记的区段除外）将作为<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html"  >区段模板</a>迁移到区段生成器中。此外，还添加了多个新区段模板。 </p> <p>已应用这些区段的现有报表将仍可正常使用。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">管理员区段 <p>（也称为“全局”区段） </p> </td> 
