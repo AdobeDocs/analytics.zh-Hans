@@ -7,7 +7,7 @@ solution: Analytics
 title: 数据源
 uuid: 41ba2de7-d33d-4394-b7d8-04a116f45419
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 在“[!UICONTROL 管理数据源]”窗口中，查找您的数据源并选择“FTP 信息”链接。您的 FTP 登录信息会在“[!UICONTROL 上传/FTP 信息]”部分的“[!UICONTROL 激活数据源]”窗口中显示。
 
-有关 FTP 限制和数据保留的信息，请参阅[FTP 限制和数据保留](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E)。
+有关 FTP 限制和数据保留的信息，请参阅[FTP 限制和数据保留](/help/export/ftp-and-sftp/ftp-limits.md)。
 
 ## 关于分类和数据源上传时使用的 .fin 文件 {#section_1484719F8A134EAE91212DBD8F15174F}
 
