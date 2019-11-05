@@ -1,18 +1,18 @@
 ---
 description: 出现错误时，“作业状态”栏会报告错误。
-keywords: 数据馈送；工作；疑难解答；错误；ftp；chdir；connect；登录；plut
+keywords: 数据馈送；作业；疑难解答；错误；ftp;chdir;connect；登录；上传
 seo-description: 出现错误时，“作业状态”栏会报告错误。
-seo-title: 工作疑难解答
+seo-title: 作业疑难解答
 solution: Analytics
-title: 工作疑难解答
-uuid: 8fbb914e-03db-434e-b4 d3-8594144ff2 b7
+title: 作业疑难解答
+uuid: 8fbb914e-03db-434e-b4d3-8594144ff2b7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
 
-# 工作疑难解答
+# 作业疑难解答
 
 出现错误时，“作业状态”栏会报告错误。
 
