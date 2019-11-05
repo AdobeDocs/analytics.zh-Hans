@@ -8,7 +8,7 @@ title: Analysis Workspace 使用案例
 topic: Reports and Analytics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -60,5 +60,5 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
    这种划分数据的方式可以为您的营销团队在其他促销活动中提供建议和交叉销售机会，进而为您的公司带来更多收入。您可以继续进行划分，直到获得需要的结果。
 
-   现在您可以与这些营销团队[共享](../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6)此报表。
+   现在您可以与这些营销团队[共享](/help/analyze/analysis-workspace/curate-share/curate.md)此报表。
 
