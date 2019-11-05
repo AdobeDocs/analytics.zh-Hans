@@ -1,7 +1,7 @@
 ---
 title: 技术说明主页
-translation-type: ht
-source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
+translation-type: tm+mt
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ## 更多 Analytics 用户指南
 
-[Analytics 用户指南](../landing/home.md)
+[Analytics 用户指南](/help/landing/home.md)
 
 ## 重要 Analytics 资源
 
-* [联系客户关怀](https://helpx.adobe.com/cn/contact/enterprise-support.ec.html)
-* [Analytics 论坛](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analytics 资源](https://forums.adobe.com/message/10660755)
+* [联系客户关怀团队](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [分析论坛](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics资源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
