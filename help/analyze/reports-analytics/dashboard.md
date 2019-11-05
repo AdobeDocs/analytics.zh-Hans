@@ -8,7 +8,7 @@ title: 功能板和缩图报表
 topic: Reports and Analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -58,7 +58,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 使用“[!UICONTROL 功能板管理器]”，可以编辑和管理功能板，并为 DirectAccess 启用这些功能板。
 
-请参阅 [管理功能板](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).
+请参阅 [管理功能板](/help/analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).
 
 ## 创建功能板 {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
@@ -84,10 +84,10 @@ t_dashboard_add.xml
 
 1. 通过将项目拖到缩图报表画布，向功能板添加可用内容。
 
-   请参 [阅创建缩图报表](../../analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) 和编 [辑功能板设置](../../analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459)。
+   请参 [阅创建缩图报表](/help/analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) 和编 [辑功能板设置](/help/analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459)。
 1. Click **[!UICONTROL Save.]**
 
-   保存功能板，使之在&#x200B;**[!UICONTROL 功能板]菜单中可用。** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (请参阅 [管理仪表板](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F)。)
+   保存功能板，使之在&#x200B;**[!UICONTROL 功能板]菜单中可用。** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (请参阅 [管理仪表板](/help/analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F)。)
 
 1. (Optional) To set the dashboard as your landing page, click **[!UICONTROL More Options]** &gt; **[!UICONTROL Set as Landing Page]**.
 
