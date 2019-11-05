@@ -7,7 +7,7 @@ solution: Analytics
 title: 馈送目标
 uuid: 4a59e8de-e7a6-4f7a-bf42-db7d59e61b4c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -95,7 +95,7 @@ Adobe Customer Care will provide you with a Public key. Verify in recording.
   </tr> 
   <tr> 
    <td colname="col1"> <p>存储段 </p> </td> 
-   <td colname="col2"> <p>输入 Amazon S3 存储段位置。 </p> <p>此值应符合正确的 S3 存储段格式。(See <a href="https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html" format="html" scope="external"> https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html</a>.) </p> <p> <p>注意：有关 Amazon S3 设置的详细信息，请参阅下面的<a href="../../../export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D" format="dita" scope="local">适用于 Amazon S3 数据馈送的 BucketOwnerFullControl 设置</a>。 </p> </p> </td> 
+   <td colname="col2"> <p>输入 Amazon S3 存储段位置。 </p> <p>此值应符合正确的 S3 存储段格式。(See <a href="https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html"  > https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html</a>.) </p> <p> <p>注意：有关 Amazon S3 设置的详细信息，请参阅下面的<a href="/help/export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D"  >适用于 Amazon S3 数据馈送的 BucketOwnerFullControl 设置</a>。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>容器 </p> </td> 
@@ -111,7 +111,7 @@ Adobe Customer Care will provide you with a Public key. Verify in recording.
   </tr> 
   <tr> 
    <td colname="col1"> <p>路径 </p> </td> 
-   <td colname="col2"> <p>选择主机或存储段的路径。该路径必须先于馈送创建存在。 </p> <p> <p>注意：有关 Amazon S3 设置的详细信息，请参阅下面的<a href="../../../export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D" format="dita" scope="local">适用于 Amazon S3 数据馈送的 BucketOwnerFullControl 设置</a>。 </p> </p> </td> 
+   <td colname="col2"> <p>选择主机或存储段的路径。该路径必须先于馈送创建存在。 </p> <p> <p>注意：有关 Amazon S3 设置的详细信息，请参阅下面的<a href="/help/export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D"  >适用于 Amazon S3 数据馈送的 BucketOwnerFullControl 设置</a>。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>帐户 </p> </td> 
@@ -119,11 +119,11 @@ Adobe Customer Care will provide you with a Public key. Verify in recording.
   </tr> 
   <tr> 
    <td colname="col1"> <p>公钥 </p> </td> 
-   <td colname="col2"> <p>请提供 SFTP 公钥。 </p> <p>您必须下载公钥才能设置 SFTP 存储库。 </p> <p> <p>注意：创建馈送不需要下载公钥。 </p> </p> <p>创建上一个馈送时，可以使用已下载的公钥。 </p> <p>有关更多信息，请参阅 <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_sftp_dw.html" format="html" scope="external">https://marketing.adobe.com/resources/help/zh_CN/whitepapers/ftp/ftp_sftp_dw.html</a>。 </p> </td> 
+   <td colname="col2"> <p>请提供 SFTP 公钥。 </p> <p>您必须下载公钥才能设置 SFTP 存储库。 </p> <p> <p>注意：创建馈送不需要下载公钥。 </p> </p> <p>创建上一个馈送时，可以使用已下载的公钥。 </p> <p>有关更多信息，请参阅 <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_sftp_dw.html"  >https://marketing.adobe.com/resources/help/zh_CN/whitepapers/ftp/ftp_sftp_dw.html</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>键值 </p> <p>确认密钥 </p> </td> 
-   <td colname="col2"> <p> 输入存储访问密钥。重新输入以确认。 </p> <p> <p>注意：要获取访问密钥，请访问 <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys" format="https" scope="external">https://docs.microsoft.com/zh-cn/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys</a>。 </p> </p> </td> 
+   <td colname="col2"> <p> 输入存储访问密钥。重新输入以确认。 </p> <p> <p>注意：要获取访问密钥，请访问 <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys"  >https://docs.microsoft.com/zh-cn/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys</a>。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>密钥 </p> <p>确认密钥 </p> </td> 
