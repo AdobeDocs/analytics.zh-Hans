@@ -8,7 +8,7 @@ title: 成本和预算
 topic: Reports and Analytics
 uuid: 7ba0e968-e565-4d4c-8fc0-39bf25d3e5b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,21 +17,17 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 了解如何将成本和预算金额分配给渠道。
 
-## 成本和预算 {#topic_7CCFD3B54440433FBA0E4EE127F58B0C}
-
-了解如何将成本和预算金额分配给渠道。
-
 成本表示您在渠道上的花费。预算表示可用的花费金额。
 
 查看投资回报率的有效方法是创建一个显示收入与成本差额的计算量度。或者，也可以创建一个显示总成本连同每一项新参与成本明细情况的计算量度。例如，您可以运行显示新参与的[!UICONTROL “首次联系渠道”]报表。然后，通过创建计算量度，添加“首次联系成本”量度，显示每一项新参与的成本。
 
-请参阅 [营销渠道报表中使用的计算量度](../../components/c-marketing-channels/c-channel-calc-metrics.md#topic_4521D324A79E43EF99E69FCDE1E92F74).
+请参阅 [营销渠道报表中使用的计算量度](/help/components/c-marketing-channels/c-channel-calc-metrics.md).
 
 您可以将成本和预算仅分配到渠道。所有成本都有指定的时间范围，在此时间范围内它们将应用到报表中。当成本和渠道直接关联时，则会选择分配量度来显示渠道内成本在各营销活动中是如何划分的。
 
 在添加成本和预算项目后，您可以将表格数据导出到 CSV 文件中。您也可以将 CSV 文件导入到“营销渠道成本”页面。
 
-## 添加成本和预算项目 {#task_9238A033994440748960DE21593E6388}
+## 添加成本和预算项目 {#add-cost-and-budget}
 
 向营销渠道中添加成本和预算项目。
 
@@ -45,11 +41,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 1. (Optional) To export or import CSV files, access the [!UICONTROL Marketing Channel Costs] page, click **[!UICONTROL Export File]** or **[!UICONTROL Import File]**, then follow the prompts.
 
-## Marketing Channel costs - definitions {#reference_0B193210E10A4B6B84A385A781FD9515}
+## Marketing Channel costs - definitions {#mktg-channel-costs}
 
 “营销渠道成本”或“营销渠道预算”的字段定义。
-
-
 
 | 字段 | 定义 |
 |--- |--- |
