@@ -3,7 +3,7 @@ seo-title: 设置广告帐户
 title: 设置广告帐户
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Adobe Analytics 管理员可以创建新的广告帐户，并将多个帐户映射到多个报表包（一对一、一对多、多对多）。
 
-管理员还可以[为非管理员授予访问权限](../../../integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369)，以设置广告帐户。
+管理员还可以[为非管理员授予访问权限](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369)，以设置广告帐户。
 
 ![](assets/aa_accounts.png)
 
@@ -47,7 +47,7 @@ Adobe Analytics 管理员可以创建新的广告帐户，并将多个帐户映�
         <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
         <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google Adwords：提供 Google 帐户 ID。 </li> 
         <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing：提供 Bing 帐户 ID 和 Bing 客户 ID。 </li> 
-        </ul> <p>请参考<a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md#concept_F7F67448F3B44342967E0419E96F384D" format="dita" scope="local">查找帐户 ID</a> 以获取有关这些 ID 的信息。 </p> <p>成功登录后，将显示OAuth令牌字段 
+        </ul> <p>请参考<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  >查找帐户 ID</a> 以获取有关这些 ID 的信息。 </p> <p>成功登录后，将显示OAuth令牌字段 
         <systemoutput>
           已检索
         </systemoutput>. </p> </td> 
@@ -74,7 +74,7 @@ Adobe Analytics 管理员可以创建新的广告帐户，并将多个帐户映�
             <li id="li_6F3A6D6259C0420CB7E6FD2C26A1B6E0">将“s_kwcid”参数和值添加到要添加帐户的帐户跟踪模板或登陆页面 URL 中。该参数和值将插入到 URL 的末尾。因此，如果您的 Web 服务器要求在 URL 末尾使用特定的键值对，或者需要更新以支持 URL 中的任何新键值对，则可能需要执行其他操作。 </li> 
             <li id="li_A04D4AA31A934392808639E46C86573F">此外，可以将关键字作为“s_kwcid”值的一部分插入到登陆 URL 中，因此如果它们包含特殊字符或符号，请确认您的 Web 服务器可以支持这些字符（例如，常见特殊字符“+”，用于“修改广泛匹配”关键字）。 </li> 
           </ul> </p> </li> 
-        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> 手动</span>:允许您管理如何将跟踪参数添加到搜索引擎的跟踪模板／目标URL。 <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md#concept_87B28BA9E7F84BA5972F69E6F3482A33" format="dita" scope="local">请参考每个搜索引擎的手动跟踪示例</a>。 </li> 
+        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> 手动</span>:允许您管理如何将跟踪参数添加到搜索引擎的跟踪模板／目标URL。 <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md"  >请参考每个搜索引擎的手动跟踪示例</a>。 </li> 
         </ul> </td> 
       </tr> 
     </tbody> 
@@ -98,7 +98,7 @@ Adobe Analytics 管理员可以创建新的广告帐户，并将多个帐户映�
     <tbody> 
       <tr> 
       <td colname="col1"> <p>报表包映射 </p> </td> 
-      <td colname="col2"> <p>报表包映射可确定链接到此搜索引擎帐户的报表包。换句话说，它可确定搜索引擎数据会发送到哪些报表包。 </p> <p>如果在列出的报表包中未看到您的报表包，则可使用此工具<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html" format="html" scope="external">将您的报表包映射到 Experience Cloud 组织</a>。 </p> </td> 
+      <td colname="col2"> <p>报表包映射可确定链接到此搜索引擎帐户的报表包。换句话说，它可确定搜索引擎数据会发送到哪些报表包。 </p> <p>如果在列出的报表包中未看到您的报表包，则可使用此工具<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  >将您的报表包映射到 Experience Cloud 组织</a>。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -106,7 +106,7 @@ Adobe Analytics 管理员可以创建新的广告帐户，并将多个帐户映�
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 1. 保存之后，会显示免责声明列出一系列注意事项。您需要确认您已经阅读并理解这份协议。Click the checkbox, then click **[!UICONTROL OK]**.
 
-   现在，您会进入广告帐户[管理 UI](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md#concept_531B99165A4E47B4B8849376B532AFDB)，您新创建的帐户应已列于此处。
+   现在，您会进入广告帐户[管理 UI](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)，您新创建的帐户应已列于此处。
 
 > [!NOTE] 您应该至少等待24小时，然后搜索引擎数据开始填充您的Analytics报告。
 
