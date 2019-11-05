@@ -8,7 +8,7 @@ title: 将上下文数据变量复制到 eVar
 topic: 管理工具
 uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
 translation-type: tm+mt
-source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
+source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
 
 ---
 
@@ -31,4 +31,4 @@ source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 
 ![条件](assets/add-conditional.png)
 
-有关实施上下文数据变量的详细信息，请参 [阅《实施用户指南》中的](../../../../implement/js-implementation/c-variables/context-data-variables.md) “上下文数据变量”。
+有关实施上下文数据变量的详细信息，请参 [阅《实施用户指南》中的](/help/implement/js-implementation/c-variables/context-data-variables.md) “上下文数据变量”。
