@@ -7,7 +7,7 @@ title: 访问
 topic: 报告
 uuid: ff65bddf-fb65-4cf0-8aae-4ab59c2bb0a7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -24,12 +24,12 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 * 一次访问的开始定义为新访客（或现有用户在访问过期后）的第一个图像请求。这可被确认为是登录页面。
 * 一次访问的结束定义为访问过期前的最后一个图像请求。这可被确认为是退出页面。
 
-   请参阅 [登录和退出报表](../../../components/c-variables/dimensionslist/reports-entries-exits.md#concept_C4AED2C1D62E43A48ACAA837327FCCF2).
+   请参阅 [登录和退出报表](/help/components/c-variables/dimensionslist/reports-entries-exits.md).
 * 小时划分是基于报表包的时区。
 * 此报表不包含行项目。您只能以趋势格式查看。
 * 可应用“小时”、“日”、“周”、“月”、“季”和“年”粒度。这些粒度设置的可用性取决于报表的日期范围。
 
-请参阅[访问量度](../../../components/c-variables/c-metrics/metrics-visit.md#concept_9DA4D9EF8B964755BAC57378AD37911E)以了解有关 Experience Cloud 如何处理此量度的详细信息。
+请参阅[访问量度](/help/components/c-variables/c-metrics/metrics-visit.md)以了解有关 Experience Cloud 如何处理此量度的详细信息。
 
 **产品特定报表信息**
 
