@@ -8,7 +8,7 @@ title: 数据源管理器
 topic: 开发人员和实施
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 “[!UICONTROL 创建]”选项卡允许您为当前选中的报表包配置新的数据源。在激活数据源后，“[!UICONTROL 数据源向导]”会引导您完成创建数据源模板的过程，然后为上载数据创建一个 FTP 位置。
 
-您在“创建”选项卡中所做的选择决定了所创建模板中的初始字段。请参阅[生成导入文件模板](../../import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md#task_A2F150D9DC1A4D338E878534FA506267)。
+您在“创建”选项卡中所做的选择决定了所创建模板中的初始字段。请参阅[生成导入文件模板](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md)。
 
 ## “管理”选项卡{#section_DD559A6701CA45F1A85E56F840F48DBE}
 
@@ -41,7 +41,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>完成处理 </p> </td> 
-   <td colname="col2"> <p>指示数据源关闭文件中一切打开的访问，并结束数据源文件的处理（就好像处理已完成）。这在您的访问跨越了多个数据源文件时很有用。该选项仅适用于 <a href="../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED" type="concept" format="dita" scope="local"> 完全处理</a>. </p> </td> 
+   <td colname="col2"> <p>指示数据源关闭文件中一切打开的访问，并结束数据源文件的处理（就好像处理已完成）。这在您的访问跨越了多个数据源文件时很有用。该选项仅适用于 <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > 完全处理</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>停用 </p> </td> 
@@ -49,7 +49,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>出错或警告时停止处理 </p> </td> 
-   <td colname="col2"> <p> 指示数据源处理引擎在遇到错误时停止处理。您选择重新启动处理之前，数据源不会恢复处理。“警告时停止处理”选项仅适用于 <a href="../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED" type="concept" format="dita" scope="local"> 完全处理</a>. </p> <p>当数据源遇到文件错误时，它会通知您该错误。系统会将出错的数据源文件移到 FTP 服务器上名为 <span class="filepath">files_with_errors</span> 的文件夹中。在问题解决之后，请重新提交数据源文件进行处理。 </p> </td> 
+   <td colname="col2"> <p> 指示数据源处理引擎在遇到错误时停止处理。您选择重新启动处理之前，数据源不会恢复处理。“警告时停止处理”选项仅适用于 <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > 完全处理</a>. </p> <p>当数据源遇到文件错误时，它会通知您该错误。系统会将出错的数据源文件移到 FTP 服务器上名为 <span class="filepath">files_with_errors</span> 的文件夹中。在问题解决之后，请重新提交数据源文件进行处理。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>配置 </p> </td> 
