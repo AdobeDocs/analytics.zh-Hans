@@ -8,7 +8,7 @@ title: 数据源概述
 topic: 开发人员和实施
 uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -37,6 +37,6 @@ Adobe Analytics 数据源允许您手动导入其他在线或离线数据以便�
 
 >[!IMPORTANT]
 >
->为了让交易 ID 数据源将离线数据与在线事件相关联，客户关怀团队必须启用“交易 ID 记录”。请参阅[交易 ID 记录](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)，以了解更多信息。
+>为了让交易 ID 数据源将离线数据与在线事件相关联，客户关怀团队必须启用“交易 ID 记录”。请参阅[交易 ID 记录](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)，以了解更多信息。
 
 大部分数据源数据在导入之后，都可以在整个 Digital Marketing Suite 中使用。
