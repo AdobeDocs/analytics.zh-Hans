@@ -8,7 +8,7 @@ title: 流量分类
 topic: 管理工具
 uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 使用“流量分类”页面可以创建所选报表包的分类。分类后，任何可使用关键数据生成的报表也可通过关联的属性来生成。
 
-在启动分类后，使用[分类导入器](../../components/c-classifications2/c-classifications-importer/c-working-with-saint.md#concept_08ED8C7A86C64E7DA5DE3044BB94B2EA)来对适当分类分配特定值。
+在启动分类后，使用[分类导入器](/help/components/c-classifications2/c-classifications-importer/c-working-with-saint.md)来对适当分类分配特定值。
 
 ## Add a Traffic Classification {#task_4DB49CCB1D764483907BC33A5CEB7315}
 
