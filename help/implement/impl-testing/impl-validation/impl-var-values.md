@@ -8,7 +8,7 @@ title: 变量和值
 topic: 开发人员和实施
 uuid: 2ff4857a-9451-4794-9146-f417abd1d1ba
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -50,4 +50,4 @@ var s_code=s.t();if(s_code)document.write(s_code)//-->
 
 > [!NOTE]在报表中不能合并多个页面记录。
 
-验证链接是否在[!UICONTROL 自定义链接]报表中报告。确保正确的参数传递到 [!UICONTROL tl] 函数。有关[!UICONTROL 自定义链接]的详细信息，请参阅 [链接跟踪](../../../implement/js-implementation/function-tl.md#concept_EA13689CB8EE4F308FC89A1293046D5E).
+验证链接是否在[!UICONTROL 自定义链接]报表中报告。确保正确的参数传递到 [!UICONTROL tl] 函数。有关[!UICONTROL 自定义链接]的详细信息，请参阅 [链接跟踪](/help/implement/js-implementation/function-tl.md).
