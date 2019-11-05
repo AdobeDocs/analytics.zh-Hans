@@ -5,7 +5,7 @@ seo-title: 智能警报
 title: 智能警报
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -75,7 +75,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：我是否可以得到包含虚线的“预期值”表，或者这些值的某种输出？ </b> </p> </td> 
-   <td colname="col2"> <p>在工作区中无法实现，但是在 Report Builder 中可以（请观看视频：<a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external">Report Builder 中的异常检测</a>)。 </p> <p>请记住，Report Builder 使用的是略微简单的异常检测方法。与 <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"><span class="uicontrol"></span>Reports &amp; Analytics 异常检测</a>相似，它使用 30 天的固定培训期，和 95% 的固定间隔。 </p> </td> 
+   <td colname="col2"> <p>在工作区中无法实现，但是在 Report Builder 中可以（请观看视频：<a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  >Report Builder 中的异常检测</a>)。 </p> <p>请记住，Report Builder 使用的是略微简单的异常检测方法。与 <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html"  ><span class="uicontrol"></span>Reports &amp; Analytics 异常检测</a>相似，它使用 30 天的固定培训期，和 95% 的固定间隔。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
