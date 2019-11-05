@@ -9,7 +9,7 @@ title: 用户和群组权限更改
 topic: 管理工具
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -40,15 +40,15 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col1"> <p id="reportaccess">更改了“<span class="uicontrol">报表访问</span>”（自定义群组） </p> </td> 
    <td colname="col2"> <p> <span class="uicontrol"> 新增群组</span> &gt; <span class="uicontrol">报表访问</span> </p> <p>“<span class="wintitle">定义用户群组</span>”页面上的“<span class="wintitle">报表访问</span>”部分已精简为四个类别，它们允许您在某一个粒度级别自定义权限。 </p> <p><img  src="assets/report-access.png" id="image_CB83E5C7DB4343619421A1FAA61478D0"> </img> </p> <p>这些项目以前位于 </p> 
     <ul id="ul_16D5EF18D57D4608AEEDEC40D90D8828"> 
-     <li id="li_F29E84C6228A464C8807F09205AEAAC6"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md" format="dita" scope="local">Analytics 工具</a>：启用常规项目（帐单、日志等）、公司管理、工具、Web 服务访问、Report Builder 和 Data Connectors 集成的用户权限。 </p> <p> <b>注意：</b>“自定义管理控制台”类别中的“公司设置”已被移动到“Analytics 工具”中。 </p> </li> 
-     <li id="li_A6EB788162A2455E94CE54B9279A854D"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md" format="dita" scope="local">报表包工具</a>：启用 Web 服务、报表包管理、工具和报表及功能板项目的用户权限。 </p> </li> 
-     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md" format="dita" scope="local">量度</a>：启用流量、转化、自定义事件、解决方案事件和内容识别等的权限。 </p> </li> 
-     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md" format="dita" scope="local">维度</a>：在粒度级别自定义用户访问权限，包括 eVar、流量报表、解决方案报表和路径报表。 </p> </li> 
+     <li id="li_F29E84C6228A464C8807F09205AEAAC6"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">Analytics 工具</a>：启用常规项目（帐单、日志等）、公司管理、工具、Web 服务访问、Report Builder 和 Data Connectors 集成的用户权限。 </p> <p> <b>注意：</b>“自定义管理控制台”类别中的“公司设置”已被移动到“Analytics 工具”中。 </p> </li> 
+     <li id="li_A6EB788162A2455E94CE54B9279A854D"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md">报表包工具</a>：启用 Web 服务、报表包管理、工具和报表及功能板项目的用户权限。 </p> </li> 
+     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md">量度</a>：启用流量、转化、自定义事件、解决方案事件和内容识别等的权限。 </p> </li> 
+     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">维度</a>：在粒度级别自定义用户访问权限，包括 eVar、流量报表、解决方案报表和路径报表。 </p> </li> 
     </ul> <p>例如，您可以创建一个群组，并为其授予对多个 Analytics 工具（<span class="wintitle">Analysis Workspace</span>、“<span class="wintitle">Reports &amp; Analytics</span>”和“<span class="wintitle">Report Builder</span>”）的访问权限，以及使用特定量度和维度（包括 eVar）及区段或计算量度创建等功能的权限。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>更改了预定义群组 </p> </td> 
-   <td colname="col2"> <p> <b>管理员访问权限：</b>管理员不再需要预定义群组。管理员现在具有对所有项目（工具、量度、维度）以及 Web 服务访问、Report Builder、Activity Map 和 Ad Hoc Analysis 的访问权限。 </p> <p>从此以后，群组的用途是授予或限制非管理用户的访问权限。 </p> <p> <b>自定义群组：</b>自定义群组取代了预定义群组。现有预定义群组将迁移到自定义群组，所用的群组名称保持不变。您已创建的任何自定义群组（包括其设置）将被保留。但您会发现，设置的位置将发生移动。例如，“自定义管理控制台”中的“公司设置”现在位于<a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md" format="dita" scope="local">自定义 Analytics 工具</a>中。 </p> <p> 属于“所有报 <span class="term"> 告访问权限</span> ”的用户已迁移到具有以下访问权限的自定义用户组： </p> 
+   <td colname="col2"> <p> <b>管理员访问权限：</b>管理员不再需要预定义群组。管理员现在具有对所有项目（工具、量度、维度）以及 Web 服务访问、Report Builder、Activity Map 和 Ad Hoc Analysis 的访问权限。 </p> <p>从此以后，群组的用途是授予或限制非管理用户的访问权限。 </p> <p> <b>自定义群组：</b>自定义群组取代了预定义群组。现有预定义群组将迁移到自定义群组，所用的群组名称保持不变。您已创建的任何自定义群组（包括其设置）将被保留。但您会发现，设置的位置将发生移动。例如，“自定义管理控制台”中的“公司设置”现在位于<a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">自定义 Analytics 工具</a>中。 </p> <p> 属于“所有报 <span class="term"> 告访问权限</span> ”的用户已迁移到具有以下访问权限的自定义用户组： </p> 
     <ul id="ul_696A9243F5FD4AF187352C2F4B1CFDC2"> 
      <li id="li_683A0A3BB7214CFFBC61D5A4CD237F48">所有维度 </li> 
      <li id="li_D8FDBF6A32224731AB706315DEA0A03E">所有量度 </li> 
@@ -57,19 +57,19 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
      <li id="li_F718FE1FCF9A4B05AB933CA3F105F3EC">异常检测报表权限 </li> 
      <li id="li_527BD52007E846FE8B5F71AB3C12F695">实时报表权限 </li> 
      <li id="li_AFFB58C7FB644AC8A85E2D76BA7D51F5">Analysis Workspace 访问权限 </li> 
-    </ul> <p>管理员可以删除自定义群组并创建他们自己的群组，因为之前在预定义群组中提供的所有设置都可以在“<span class="wintitle">定义用户群组</span>”中的“<a href="/help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local">报表访问</a>”设置下进行自定义。 </p> </td> 
+    </ul> <p>管理员可以删除自定义群组并创建他们自己的群组，因为之前在预定义群组中提供的所有设置都可以在“<span class="wintitle">定义用户群组</span>”中的“<a href="/help/admin/user-management2/c-user-groups/groups.md">报表访问</a>”设置下进行自定义。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>维度级别权限 </p> </td> 
    <td colname="col2"> <p>您可以对权限进行自定义，以便包含或排除对维度（和量度）的访问权限。 </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>自定义群组内的所有当前维度和量度均已自动迁移到新类别。如果现有的群组启用了量度，则默认情况下将为其提供所有新增的许可维度（eVar 和内容识别）和量度。 </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 分类导入器（前身为 SAINT）权限：分类的访问权限取决于对此分类所依据的<a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html" format="html" scope="external">变量</a>的访问权限。 </li> 
-    </ul> <p>See <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md" format="dita" scope="local"> Customize Dimension Permissions</a>. </p> </td> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 分类导入器（前身为 SAINT）权限：分类的访问权限取决于对此分类所依据的<a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html">变量</a>的访问权限。 </li> 
+    </ul> <p>See <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Customize Dimension Permissions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Admin Console </p> </td> 
-   <td colname="col2"> <p>仅建议新客户或<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html" format="html" scope="external">已在 Experience Cloud 中设置了</a>公司的客户使用。现有 <span class="keyword">Analytics</span> 客户向 <span class="keyword">Experience Cloud</span> 身份管理系统的迁移已经提上计划日程。 </p> <p>有关详细信息，请参 <a href="https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html" format="html" scope="external"> 阅管理控制台中的“管理产品”权限</a>。 </p> </td> 
+   <td colname="col2"> <p>仅建议新客户或<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html">已在 Experience Cloud 中设置了</a>公司的客户使用。现有 <span class="keyword">Analytics</span> 客户向 <span class="keyword">Experience Cloud</span> 身份管理系统的迁移已经提上计划日程。 </p> <p>有关详细信息，请参 <a href="https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html"> 阅管理控制台中的“管理产品”权限</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -98,7 +98,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col1"> <p><b>2016 年 10 月</b>版本做出了哪些权限更改？ </p> </td> 
    <td colname="col2"> <p>在以下方面增强了当前的<span class="wintitle">管理工具</span>界面： </p> <p> 
      <ul id="ul_2A31E8DC17A94B7FABDBA9C87C3947EF"> 
-      <li id="li_AE2ECCA01CC64D30B109BE74379EE474">权限更改(如2016年秋 <a href="/help/admin/user-management2/c-user-management/permissions-changes.md" format="dita" scope="local"> 季管理更改中所述)</a>。 </li> 
+      <li id="li_AE2ECCA01CC64D30B109BE74379EE474">权限更改(如2016年秋 <a href="/help/admin/user-management2/c-user-management/permissions-changes.md"> 季管理更改中所述)</a>。 </li> 
       <li id="li_33CB2B6A2E5F45BE97CC5E0983AF280E">删除菜单中不再包含的失效流量报表。 </li> 
       <li id="li_57234CF27E1D405987DE89312CD62C52">分类权限：对分类的访问权限将通过访问分类所针对的变量来确定。 </li> 
      </ul> </p> </td> 
@@ -140,15 +140,15 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  <tbody> 
   <tr> 
    <td colname="col1"> 创建用户 </td> 
-   <td colname="col2"> <p>Admin Console (creating a user and adding him or her to an Analytics <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html" format="html" scope="external"> product configuration</a> also creates the user account in Analytics). </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md" format="dita" scope="local"> 管理工具</a> </p> </td> 
-   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external">管理控制台</a> </p> </td> 
-   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external">管理控制台</a> </p> </td> 
+   <td colname="col2"> <p>Admin Console (creating a user and adding him or her to an Analytics <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html"> product configuration</a> also creates the user account in Analytics). </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> 管理工具</a> </p> </td> 
+   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/">管理控制台</a> </p> </td> 
+   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/">管理控制台</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 编辑用户 </td> 
-   <td colname="col2"> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md" format="dita" scope="local"> 管理工具</a> </p> </td> 
-   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external">管理控制台</a> </p> <p> 管理工具 - 编辑（对于迁移用户，管理工具中的编辑功能仅限于 API 密钥管理）和删除/转移资产。 </p> </td> 
-   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external">管理控制台</a> </p> <p> 管理工具 - 编辑（仅限于 API 密钥管理）和删除/转移资产。 </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> 管理工具</a> </p> </td> 
+   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/">管理控制台</a> </p> <p> 管理工具 - 编辑（对于迁移用户，管理工具中的编辑功能仅限于 API 密钥管理）和删除/转移资产。 </p> </td> 
+   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/">管理控制台</a> </p> <p> 管理工具 - 编辑（仅限于 API 密钥管理）和删除/转移资产。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 删除用户 </td> 
@@ -165,8 +165,8 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   <tr> 
    <td colname="col1"> 创建群组 </td> 
    <td colname="col2"> <p>管理控制台——在Admin Console中创建组后，Analytics中的映射组将显示在管理工具中，但此映射组的名称不能从管理工具中更改或从管理工具中删除。 </p> <p>管理工具. </p> </td> 
-   <td colname="col3"> <p>Admin Console(创<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html" format="html" scope="external"> 建产品配置</a>) </p> </td> 
-   <td colname="col4"> <p>Admin Console(创<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html" format="html" scope="external"> 建产品配置</a>) </p> </td> 
+   <td colname="col3"> <p>Admin Console(创<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html"> 建产品配置</a>) </p> </td> 
+   <td colname="col4"> <p>Admin Console(创<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html"> 建产品配置</a>) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 编辑群组中的用户 </td> 
