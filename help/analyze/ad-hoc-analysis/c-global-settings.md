@@ -5,7 +5,7 @@ seo-title: 设置
 title: 设置
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -40,7 +40,7 @@ r_dsc_general_settings.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p> 数据设置 </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol">计算重复实例</span>：指定是否在报表中计算实例。这意味着，如果您针对相同的变量具有多个序列值，则可以将它们计为该变量的一个实例，也可以计为多个实例。 </p> <p>例如，您可能会看到重复的页面重新加载，这是在单次访问期间您的网站上页面重新加载或刷新的次数。通过使用此选项，您可以指定是将相同页面上的多次点击计为一次页面查看，还是计为多次页面查看。 </p> <p> <span class="uicontrol"> <span class="keyword">Ad hoc Analysis</span></span>：指定“<span class="keyword">Ad hoc Analysis</span>”为报表的唯一数据源。此数据来自网页生成的图像请求。 </p> <p> <span class="uicontrol"><span class="keyword">数据源</span></span>：指定是否使用从其他 Adobe 资源或自定义数据源上传的数据。此数据可用于 <span class="keyword">Experience Cloud</span> 中的产品。请参阅<a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html" scope="external" format="html">数据源</a>以了解详细信息。 </p> <p> <span class="uicontrol">两者皆有</span>：（默认）使用来自“<span class="keyword">Ad Hoc Analysis</span>”和其他数据源的数据。 </p> <p>注意：改变这些选项可能造成 <span class="keyword">Ad Hoc Analysis</span> 数据和 <span class="keyword">Marketing Reports &amp; Analytics 数据</span>之间出现差异。 </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol">计算重复实例</span>：指定是否在报表中计算实例。这意味着，如果您针对相同的变量具有多个序列值，则可以将它们计为该变量的一个实例，也可以计为多个实例。 </p> <p>例如，您可能会看到重复的页面重新加载，这是在单次访问期间您的网站上页面重新加载或刷新的次数。通过使用此选项，您可以指定是将相同页面上的多次点击计为一次页面查看，还是计为多次页面查看。 </p> <p> <span class="uicontrol"> <span class="keyword">Ad hoc Analysis</span></span>：指定“<span class="keyword">Ad hoc Analysis</span>”为报表的唯一数据源。此数据来自网页生成的图像请求。 </p> <p> <span class="uicontrol"><span class="keyword">数据源</span></span>：指定是否使用从其他 Adobe 资源或自定义数据源上传的数据。此数据可用于 <span class="keyword">Experience Cloud</span> 中的产品。请参阅<a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html"  >数据源</a>以了解详细信息。 </p> <p> <span class="uicontrol">两者皆有</span>：（默认）使用来自“<span class="keyword">Ad Hoc Analysis</span>”和其他数据源的数据。 </p> <p>注意：改变这些选项可能造成 <span class="keyword">Ad Hoc Analysis</span> 数据和 <span class="keyword">Marketing Reports &amp; Analytics 数据</span>之间出现差异。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 自动保存设置 </p> </td> 
