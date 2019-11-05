@@ -5,7 +5,7 @@ seo-title: 将 Analytics 用户迁移到 Admin Console
 title: 将 Analytics 用户迁移到 Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -15,11 +15,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 在 Adobe Experience Cloud 中将 Analytics 用户 ID 迁移到 Admin Console 的应知事项。
 
 <!--
-<p>FAQ <a href="https://wiki.corp.adobe.com/display/DMTM/Migration+FAQ" format="https" scope="external"> Source</a> </p>
+<p>FAQ <a href="https://wiki.corp.adobe.com/display/DMTM/Migration+FAQ"> Source</a> </p>
 -->
 
 <!--
-<p>Help publish link: <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/</a> </p>
+<p>Help publish link: <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/"> https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/</a> </p>
 <p>https://wiki.corp.adobe.com/display/analyticssolution/Migration+of+Analytics+Access+and+User+Management+to+the+Marketing+Cloud </p>
 -->
 
@@ -58,7 +58,7 @@ On this page:
   </tr> 
   <tr> 
    <td colname="col1"> <p>管理用户身份和权限 </p> </td> 
-   <td colname="col2"> <p>Analytics 管理员可以在 <a href="http://adminconsole.adobe.com/enterprise/" format="http" scope="external">Admin Console</a> (http://adminconsole.adobe.com/enterprise/) 中专门管理用户和权限。 </p> </td> 
+   <td colname="col2"> <p>Analytics 管理员可以在 <a href="http://adminconsole.adobe.com/enterprise/">Admin Console</a> (http://adminconsole.adobe.com/enterprise/) 中专门管理用户和权限。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>管理产品和核心服务 </p> </td> 
@@ -67,7 +67,7 @@ On this page:
      <li id="li_DC31AE8BAAB843F39A7CC9EB047265D5">邀请新用户 </li> 
      <li id="li_73724DD7D79E41F8A1D58C74E37674BA">创建产品配置文件 </li> 
      <li id="li_7E75FC68E0F84873A9A211D2707B6DE7">授予用户对特定产品和服务的权限 </li> 
-     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">获取 Adobe Experience Cloud 中可用的<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/solutions_capability_names.html" format="html" scope="external">跨解决方案核心服务</a>的访问权限。 </li> 
+     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">获取 Adobe Experience Cloud 中可用的<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/solutions_capability_names.html">跨解决方案核心服务</a>的访问权限。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -87,15 +87,15 @@ On this page:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>我是 Analytics 管理员并收到了预迁移电子邮件。我首先该怎么做？ </p> </td> 
-   <td colname="col2"> <p>确认您具有 Adobe ID 并能够访问 <a href="https://adminconsole.adobe.com/enterprise/" format="https" scope="external">Experience Cloud Admin Console</a>。 </p> <p>如果没有，请联系 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="html" scope="external">Adobe 客户关怀</a>。（您应当先联系邀请您加入相应的组织的系统或产品管理员。） </p> </td> 
+   <td colname="col2"> <p>确认您具有 Adobe ID 并能够访问 <a href="https://adminconsole.adobe.com/enterprise/">Experience Cloud Admin Console</a>。 </p> <p>如果没有，请联系 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Adobe 客户关怀</a>。（您应当先联系邀请您加入相应的组织的系统或产品管理员。） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>AEM 与 Analytics 集成 </p> </td> 
-   <td colname="col2"> <p> 与 Analytics 集成的 AEM 用户需要更改其配置，以使用 Analytics 共享密钥而不是密码。 </p> <p> 您应该在启用迁移之前完成此任务。禁用迁移后，最初配置的密码将不再有效。 </p> <p><b>在 Analytics 中获取共享密钥</b> </p> <p> 共享密钥可以从 Analytics（<span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">用户管理</span>）获取，并且每个用户的共享密钥各不同。 </p> <p><b>使用共享密钥更新 AEM 配置</b> </p> <p>请参阅<a href="https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/adobeanalytics-connect.html" format="html" scope="external">连接到 Adobe Analytics 和创建框架</a>。 </p> </td> 
+   <td colname="col2"> <p> 与 Analytics 集成的 AEM 用户需要更改其配置，以使用 Analytics 共享密钥而不是密码。 </p> <p> 您应该在启用迁移之前完成此任务。禁用迁移后，最初配置的密码将不再有效。 </p> <p><b>在 Analytics 中获取共享密钥</b> </p> <p> 共享密钥可以从 Analytics（<span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">用户管理</span>）获取，并且每个用户的共享密钥各不同。 </p> <p><b>使用共享密钥更新 AEM 配置</b> </p> <p>请参阅<a href="https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/adobeanalytics-connect.html">连接到 Adobe Analytics 和创建框架</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>更新 Report Builder </p> </td> 
-   <td colname="col2"> <p> <p>重要信息：将安装的 <a href="https://marketing.adobe.com/resources/help/en_US/arb/t_install_arb.html" format="html" scope="external">Report Builder</a> 更新至最新版本。 </p> </p> </td> 
+   <td colname="col2"> <p> <p>重要信息：将安装的 <a href="https://marketing.adobe.com/resources/help/en_US/arb/t_install_arb.html">Report Builder</a> 更新至最新版本。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>何时开始迁移？ </p> </td> 
@@ -116,18 +116,18 @@ On this page:
     <ul id="ul_25D1DBDF5C804D048E741F31550FF5F3"> 
      <li id="li_418476105FE341229CE146E730AAB33D">您在 Analytics 中的现有权限组将作为产品配置文件自动复制到 Admin Console 中，其中包括它们的描述以及报表包、量度、维度、Analytics 与报表包工具之间的粒度权限。 </li> 
      <li id="li_412F88C454B0455A8F3BC8016226855C">如果您有任何当前 Analytics 用户是在 Admin Console 中创建的（这表示他们具有链接的 Adobe ID 或企业 ID），他们将被添加到 Admin Console 中相应的产品配置文件内。 </li> 
-     <li id="li_8A05137EC05C4FD5910E73FE58300DCB">Analytics 中“管理员”选项卡下方的“用户管理”部分将被设置为 <span class="term"> 只读</span>. 您将无法在此处创建新用户或权限组，并将需要在 Admin Console 中执行这两个功能。有关更多信息，请参阅 <a href="../c-migration-tool/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56" format="dita" scope="local">Admin Console 中不支持的 Analytics 功能</a>。 </li> 
+     <li id="li_8A05137EC05C4FD5910E73FE58300DCB">Analytics 中“管理员”选项卡下方的“用户管理”部分将被设置为 <span class="term"> 只读</span>. 您将无法在此处创建新用户或权限组，并将需要在 Admin Console 中执行这两个功能。有关更多信息，请参阅 <a href="/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56">Admin Console 中不支持的 Analytics 功能</a>。 </li> 
      <li id="li_2742DE69E9B547198A58E1F33E908361">作为管理员，您将获得对[用户ID迁移工具](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/t_migrate-users.html)的访问权限。 此外，还会显示一则产品内通知，其中包含迁移的结束日期（通常是未来 60 天）以及帮助内容和常见问题解答的链接。 </li> 
      <li id="li_095D42E3A3544FC59A60A8C8F94C971B">您将在 Admin Console 中获得“权限”选项卡的访问权限，以便您可以使用 Analytics 中所有熟悉的粒度选项创建产品配置文件。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>如何迁移用户 ID？ </p> </td> 
-   <td colname="col2"> <p> 单击“管理员”页面中“用户管理”下的<a href="../c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9" format="dita" scope="local">迁移用户 ID</a>。使用该工具将用户添加到 Admin Console 中的产品配置文件（从 Analytics 的权限组中复制）。您可以按照自己的节奏迁移用户 ID。 </p> <p>需要管理权限。迁移完成后将无法撤消。 </p> <p>在迁移结束当天，将禁用登录公司中用户对 <span class="filepath">my.omniture.com</span> 的访问。Users (including those that are yet to be migrated) will be redirected to login via the new Experience Cloud URL (<span class="filepath"> experiencecloud.adobe.com</span>) </p> <p>注意：Adobe 建议您利用这个机会在迁移之前对用户和组进行审核。删除旧的和未使用的帐户，或不再具有产品访问权限的帐户（例如不再隶属于组织的员工）。 </p> <p>Related topic: <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md" format="dita" scope="local"> Migrate Analytics user accounts for Enterprise and Federated IDs</a>. </p> </td> 
+   <td colname="col2"> <p> 单击“管理员”页面中“用户管理”下的<a href="/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9">迁移用户 ID</a>。使用该工具将用户添加到 Admin Console 中的产品配置文件（从 Analytics 的权限组中复制）。您可以按照自己的节奏迁移用户 ID。 </p> <p>需要管理权限。迁移完成后将无法撤消。 </p> <p>在迁移结束当天，将禁用登录公司中用户对 <span class="filepath">my.omniture.com</span> 的访问。Users (including those that are yet to be migrated) will be redirected to login via the new Experience Cloud URL (<span class="filepath"> experiencecloud.adobe.com</span>) </p> <p>注意：Adobe 建议您利用这个机会在迁移之前对用户和组进行审核。删除旧的和未使用的帐户，或不再具有产品访问权限的帐户（例如不再隶属于组织的员工）。 </p> <p>Related topic: <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md"> Migrate Analytics user accounts for Enterprise and Federated IDs</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>迁移会影响我的 Analytics 实施或数据的收集方式吗？ </p> </td> 
-   <td colname="col2"> <p>不会。 </p> <p>现有的迁移工具可帮助您将用户 ID 和权限从 Analytics 用户管理过渡到 <a href="https://adminconsole.adobe.com/enterprise/" format="https" scope="external">Experience Cloud Admin Console</a>。 </p> </td> 
+   <td colname="col2"> <p>不会。 </p> <p>现有的迁移工具可帮助您将用户 ID 和权限从 Analytics 用户管理过渡到 <a href="https://adminconsole.adobe.com/enterprise/">Experience Cloud Admin Console</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>迁移过程将持续多长时间？ </p> </td> 
@@ -140,15 +140,15 @@ On this page:
      <li id="li_8CFFF72877E8456DAC3241143AD648AD">确认您是 Admin Console 中的 Analytics 产品管理员。 </li> 
      <li id="li_25DAA8D1EEDA45A0B5B59472BD8896C4">与您的用户群沟通，告知他们的登录体验在迁移开始后将发生改变。 </li> 
      <li id="li_5B50F942F6A8483FAFA500AFF428702C">审核您的当前用户和权限，并执行清理活动。 </li> 
-    </ul> <p>要加快迁移进度，请在 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="html" scope="external">Adobe 客户关怀</a>联系您的客户成功经理，并提交开始日期提前的请求。 </p> </td> 
+    </ul> <p>要加快迁移进度，请在 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Adobe 客户关怀</a>联系您的客户成功经理，并提交开始日期提前的请求。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 我是 Analytics 管理员但没有 Admin Console 访问权限。谁能帮助我获取 Admin Console 的访问权限？ </p> </td> 
-   <td colname="col2"> <p>任何有权访问贵组织 Admin Console 的系统或产品管理员都可以为您提供访问权限。如果您不确定您的组织内有谁具有控制台中的管理员权限，请联系 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="html" scope="external">Adobe 客户关怀</a>。 </p> </td> 
+   <td colname="col2"> <p>任何有权访问贵组织 Admin Console 的系统或产品管理员都可以为您提供访问权限。如果您不确定您的组织内有谁具有控制台中的管理员权限，请联系 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Adobe 客户关怀</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>我能推迟迁移开始日期吗？ </p> </td> 
-   <td colname="col2"> <p>能。联系 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="html" scope="external">Adobe 客户关怀</a>。 </p> 
+   <td colname="col2"> <p>能。联系 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Adobe 客户关怀</a>。 </p> 
     <draft-comment> 
      <p>有关在开始日期对当前Analytics用户和权限管理所做的更改的说明，请参阅下文。 </p> 
     </draft-comment> </td> 
@@ -237,7 +237,7 @@ On this page:
      <li id="li_BD943B3245FF47E7A0DDA6107EA1EF89">资产转移 </li> 
      <li id="li_2DF7004D67ED4C6CB40461EEFB038A5A">用户过期 </li> 
      <li id="li_980E3F5B98F344A492B0EBAD7F1DA60C">用户日志 </li> 
-    </ul> <p>这些功能将在 Analytics 用户管理中保持可用状态。 </p> <p>有关更多信息，请参阅 <a href="/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md" format="dita" scope="local">Admin Console 中不支持的 Analytics 功能</a>。 </p> </td> 
+    </ul> <p>这些功能将在 Analytics 用户管理中保持可用状态。 </p> <p>有关更多信息，请参阅 <a href="/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md">Admin Console 中不支持的 Analytics 功能</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>我们在 Admin Console 中创建了几个配置并将它们映射到 Analytics 权限组。这些配置在迁移开始后会出现什么情况？ </p> </td> 
@@ -306,8 +306,8 @@ On this page:
    <td colname="col2"> <p> 有关用户上次登录日期和时间的详细信息将显示在“Analytics 用户和资产”链接中，而不是显现在 Admin Console 中。Analytics中的上次登录日期特定于用户从Experience cloud中实际访问Analytics的时间，不反映用户登录Experience cloud的日期／时间。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>用户管理 API <a href="https://helpx.adobe.com/enterprise/help/identity.html" format="html" scope="external">Adobe 支持的身份类型</a> </p> </td> 
-   <td colname="col2"> <p> 迁移到 Admin Console 的管理员应当配置在 Adobe I/O 提供的<a href="https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html" format="html" scope="external">用户管理 API</a>，以便在 Admin Console 中以编程方式访问用户帐户。 </p> <p>为您启用迁移时将会关闭 Analytics 权限 API。 </p> </td> 
+   <td colname="col1"> <p>用户管理 API <a href="https://helpx.adobe.com/enterprise/help/identity.html">Adobe 支持的身份类型</a> </p> </td> 
+   <td colname="col2"> <p> 迁移到 Admin Console 的管理员应当配置在 Adobe I/O 提供的<a href="https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html">用户管理 API</a>，以便在 Admin Console 中以编程方式访问用户帐户。 </p> <p>为您启用迁移时将会关闭 Analytics 权限 API。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Web 服务凭据 </p> </td> 
@@ -315,7 +315,7 @@ On this page:
   </tr> 
   <tr> 
    <td colname="col1"> <p>单点登录 </p> </td> 
-   <td colname="col2"> <p> 在完成迁移时，将删除 Analytics 单点登录配置。这些配置将在迁移期间保持活动状态。使用 Analytics 单点登录的客户应当升级到 <a href="https://helpx.adobe.com/enterprise/help/identity.html" format="html" scope="external">Adobe 联合 ID</a>。 </p> <p>Analytics 建议您先将用户作为 Adobe ID 迁移，以便轻松创建 Experience Cloud 帐户，然后再将这些帐户转换为联合单点登录用户。 </p> </td> 
+   <td colname="col2"> <p> 在完成迁移时，将删除 Analytics 单点登录配置。这些配置将在迁移期间保持活动状态。使用 Analytics 单点登录的客户应当升级到 <a href="https://helpx.adobe.com/enterprise/help/identity.html">Adobe 联合 ID</a>。 </p> <p>Analytics 建议您先将用户作为 Adobe ID 迁移，以便轻松创建 Experience Cloud 帐户，然后再将这些帐户转换为联合单点登录用户。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>下载权限组 </p> </td> 
