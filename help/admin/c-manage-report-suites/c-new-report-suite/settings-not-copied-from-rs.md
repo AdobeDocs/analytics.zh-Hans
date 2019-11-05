@@ -1,18 +1,18 @@
 ---
 description: 如果您从现有的报表包中复制了设置，则会有一条系统消息来标识所有未复制到新报表包中的设置。
 seo-description: 如果您从现有的报表包中复制了设置，则会有一条系统消息来标识所有未复制到新报表包中的设置。
-seo-title: 不会从源报表包复制的设置
+seo-title: 未从源报表包复制的设置
 solution: Analytics
-title: 不会从源报表包复制的设置
+title: 未从源报表包复制的设置
 topic: 管理工具
-uuid: 5176c561-a278-43e4-837f-a17759985 d52
+uuid: 5176c561-a278-43e4-837f-a1775985d52
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
 
 ---
 
 
-# 不会从源报表包复制的设置
+# 未从源报表包复制的设置
 
 如果您从现有的报表包中复制了设置，则会有一条系统消息来标识所有未复制到新报表包中的设置。
 
@@ -28,7 +28,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> <p>分类数据（复制分类结构） </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html" format="html" scope="external"> 分类导入器（上载）文档</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html"> 分类导入器（上载）文档</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>启用交易 ID 记录 </p> </td> 
@@ -71,7 +71,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p>访客 ClickMap 管理器 </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-enable.html" format="html" scope="external"> 升级到 Activity Map</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-enable.html"> 升级到 Activity Map</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA 规则 </p> </td> 
