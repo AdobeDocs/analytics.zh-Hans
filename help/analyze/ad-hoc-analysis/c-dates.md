@@ -5,7 +5,7 @@ seo-title: 日期和日期范围
 title: 日期和日期范围
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -40,8 +40,8 @@ c_legacy_data.xml
 
 **访问历史日期片段**
 
-1. [创建或打开一个项目。](../../analyze/ad-hoc-analysis/c-getting-started.md#task_918A4539134E4E62B00486DCB8D3D403)
-1. 打开日 [历](../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47)，然后选择季 **[!UICONTROL 度]** 或 **[!UICONTROL 年]**。
+1. [创建或打开一个项目。](/help/analyze/ad-hoc-analysis/c-getting-started.md)
+1. 打开日 [历](/help/analyze/ad-hoc-analysis/c-dates.md)，然后选择季 **[!UICONTROL 度]** 或 **[!UICONTROL 年]**。
 
 > [!NOTE] 历史日期切片位于季度和年限内。 您无法查看跨越旧式片段与新处理平台之间边界的数据。跨越这两个边界的日期范围会导致出现错误。此外，日期范围仅适用于阳历日历，而不适用于自定义日历。
 
