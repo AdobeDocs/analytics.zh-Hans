@@ -4,10 +4,10 @@ seo-description: 显示有关广告活动效果的信息。您可以查看哪些
 seo-title: 促销活动
 solution: Analytics
 title: 促销活动
-topic: 报表
-uuid: ce6379cb-8617-44f4-b012-945fe1 bd98 d0
+topic: 报告
+uuid: ce6379cb-8617-44f4-b012-945fe1bd98d0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -20,6 +20,6 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **相关报表**
 
-[促销活动转化漏斗](../../../components/c-variables/dimensionslist/reports-campaign-conversion-funnel.md#concept_DEF0050F45F74EC8BB08CDA03BB03A59)
+[促销活动转化漏斗](/help/components/c-variables/dimensionslist/reports-campaign-conversion-funnel.md)
 
-[跟踪代码报表](../../../components/c-variables/dimensionslist/reports-tracking-codes.md#concept_CBCAE87060BC4BE1A335DDCA6F4396FB)
+[跟踪代码报表](/help/components/c-variables/dimensionslist/reports-tracking-codes.md)
