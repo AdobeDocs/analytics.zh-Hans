@@ -5,7 +5,7 @@ seo-title: 服务器调用使用情况警报
 title: 服务器调用使用情况警报
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -67,12 +67,12 @@ It is pre-populated with **1 default alert** that appears within any login compa
 
    | 操作 | 定义 |
    |--- |--- |
-   | + 添加 | 通过单击 [!UICONTROL + 添加]访问[警报生成器](../../admin/c-server-call-usage/scu-alerts.md)。 |
+   | + 添加 | 通过单击 [!UICONTROL + 添加]访问[警报生成器](/help/admin/c-server-call-usage/scu-alerts.md)。 |
    | 标记 | 通过做标记来管理警报，以便于使用。 |
    | 删除 | 您可以删除所有警报（默认警报除外）。 |
    | 重命名 | 您可以重命名所有警报（默认警报除外）。 |
    | 批准 | 您可以批准警报，以使其成为“官方”警报。 |
    | 启用/禁用 | 您可以启用或禁用所有警报，甚至包括默认警报。 |
    | 续订 | 在选择了一个或多个警报后，可以进行续订。这会将它们的过期日期延长一年的时间（从单击[!UICONTROL 续订]之日算起，而不考虑它们的原始过期日期）。 |
-   | 导出到 CSV | 请参阅[下载“使用情况”报表](../../admin/c-server-call-usage/report-suite-usage.md) |
+   | 导出到 CSV | 请参阅[下载“使用情况”报表](/help/admin/c-server-call-usage/report-suite-usage.md) |
 
