@@ -1,13 +1,13 @@
 ---
 description: 使用馈送信息部分命名馈送、指定运行馈送所针对的报表包、确定馈送重复周期以及指定馈送开始和结束的时间。
-keywords: 数据馈送；信息；name；报告套件；完成后的电子邮件；电子邮件；间隔；feed；延迟处理；延迟；开始；结束；date；连续源
+keywords: 数据馈送；信息；名称；报表包；完成时电子邮件；电子邮件；间隔；馈送；延迟处理；延迟；开始；结束；日期；连续馈送
 seo-description: 使用馈送信息部分命名馈送、指定运行馈送所针对的报表包、确定馈送重复周期以及指定馈送开始和结束的时间。
 seo-title: 馈送信息
 solution: Analytics
 title: 馈送信息
-uuid: adf92f42-a957-4de0-a1-683f2933 af04
+uuid: adf92f42-a957-4de0-a5a1-683f2933af04
 translation-type: tm+mt
-source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
   </tr>
   <tr>
    <td colname="col1"> <p>报表包（必填项） </p> </td>
-   <td colname="col2"> <p>指定用于馈送查询的报表包。 </p> <p>至少需要选择一个报表包。不能两次列出同一个报表包。 </p> <p>登录用户可用的所有非虚拟报告套件均可用。 </p></td>
+   <td colname="col2"> <p>指定用于馈送查询的报表包。 </p> <p>至少需要选择一个报表包。不能两次列出同一个报表包。 </p> <p>所有非虚拟报告套件对登录用户可用。 </p></td>
   </tr>
   <tr>
    <td colname="col1"> <p>完成时发送电子邮件（必填项） </p> </td>
