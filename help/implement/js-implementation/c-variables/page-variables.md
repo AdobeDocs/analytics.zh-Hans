@@ -9,7 +9,7 @@ title: 页面变量
 topic: 开发人员和实施
 uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
 translation-type: tm+mt
-source-git-commit: 8a96dc0587125e1b72e3146eb2f0923cecd808fb
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -123,7 +123,7 @@ campaign.xml
 
 可以使用以下两种主要方法填充 *`campaign`* 变量：
 
-* [!UICONTROL getQueryParam] 插件（在 JavaScript 文件中使用）从 URL 中检索查询字符串参数。有关 [!UICONTROL getQueryParam] 插件的详细信息，请参阅 [实施插件](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F)。
+* [!UICONTROL getQueryParam] 插件（在 JavaScript 文件中使用）从 URL 中检索查询字符串参数。有关 [!UICONTROL getQueryParam] 插件的详细信息，请参阅 [实施插件](/help/implement/js-implementation/plugins/impl-plugins.md)。
 
 * 为网页上的 HTML 中的 *`campaign`* 变量分配一个值。
 
@@ -131,7 +131,7 @@ campaign.xml
 
 例如，访客通过点击付费搜索关键词进入您的网站。在访客转至登陆页面时，URL 中的查询字符串参数会识别此关键词的跟踪代码。接着，访客点击另一个页面的链接，但立刻点击“返回”按钮返回到登陆页面。在访客第二次转至登陆页面时，URL 中的查询字符串参数会再次识别跟踪代码。因此将记录第二次点进，从而导致点进次数虚增。
 
-为了避免点进次数虚增，Adobe 建议使用 [!UICONTROL getValOnce] 插件强制使每次促销活动点进在每个会话中仅计数一次。有关 [!UICONTROL getValOnce] 插件的详细信息，请参阅 [实施插件](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F)。
+为了避免点进次数虚增，Adobe 建议使用 [!UICONTROL getValOnce] 插件强制使每次促销活动点进在每个会话中仅计数一次。有关 [!UICONTROL getValOnce] 插件的详细信息，请参阅 [实施插件](/help/implement/js-implementation/plugins/impl-plugins.md)。
 
 **语法和可能值** {#section_91A141841A6D4711A1EE08A6145A301D}
 
@@ -161,7 +161,7 @@ s.campaign=s.getQueryParam('cid');
 
 **缺陷、问题和提示** {#section_94B5C4BF9DE84BA3A16F9E9E9D197F0C}
 
-* 为避免点进次数虚增，请使用 [!UICONTROL getValOnce] 插件使促销活动点进在每个会话中仅计数一次。有关 [!UICONTROL getValOnce] 插件的详细信息，请参阅 [实施插件](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F)。
+* 为避免点进次数虚增，请使用 [!UICONTROL getValOnce] 插件使促销活动点进在每个会话中仅计数一次。有关 [!UICONTROL getValOnce] 插件的详细信息，请参阅 [实施插件](/help/implement/js-implementation/plugins/impl-plugins.md)。
 
 * 有关跟踪营销活动和关键词购买的详细信息，请参阅[促销活动](https://marketing.adobe.com/resources/help/en_US/reference/campaign.html)。
 * 使用 [!DNL DigitalPulse Debugger] 可查看促销活动的实际值（调试器中的 v0）。如果 v0 未出现在调试器中，表示未记录该页面的促销活动数据。
@@ -300,7 +300,7 @@ eVarN.xml
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |---|---|---|---|
-| 255 字节 | V1-v75（[或 v100 或 v250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)） | 自定义转换 | "" |
+| 255 字节 | V1-v75（[或 v100 或 v250](/help/implement/js-implementation/c-variables/page-variables.md)） | 自定义转换 | "" |
 
 **过期** {#section_6DB5882B960D4660AE248B91B76883C4}
 
@@ -327,7 +327,7 @@ eVar 最常用于保存字符串值，但也可以配置为用作计数器。在
 
 **语法和可能值** {#section_BD46438B14F3488FB9AC42994C317B06}
 
-虽然可以重命名 eVar，但在 JavaScript 文件中应始终按 eVarX 的形式表示，其中 X 是介于 1 和 75（[或 100，或 250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)）的数字。
+虽然可以重命名 eVar，但在 JavaScript 文件中应始终按 eVarX 的形式表示，其中 X 是介于 1 和 75（[或 100，或 250](/help/implement/js-implementation/c-variables/page-variables.md)）的数字。
 
 ```js
 s.eVarX="value"
@@ -418,11 +418,11 @@ events.xml
 
 成功事件默认配置为&#x200B;*计数器*&#x200B;事件。计数器事件可计算成功事件的设置次数 (x+1)。事件还可配置为&#x200B;*数值*&#x200B;事件。数值事件允许您指定要增加的数量（在计算动态值或不定值时可能有用，例如由内部搜索返回的结果数量）。
 
-最终事件类型&#x200B;*货币*&#x200B;允许您定义要添加的数量（类似于数值事件），但在报表中显示为货币，并需符合基于 s.*`currencyCode`*&#x200B;值的货币兑换和报表包的默认货币设置。有关使用数值和货币事件的其他信息，请参阅[产品](../../../implement/js-implementation/c-variables/page-variables.md#concept_A4007F6307E4419DAA65E1668A8FEBA2)。
+最终事件类型&#x200B;*货币*&#x200B;允许您定义要添加的数量（类似于数值事件），但在报表中显示为货币，并需符合基于 s.*`currencyCode`*&#x200B;值的货币兑换和报表包的默认货币设置。有关使用数值和货币事件的其他信息，请参阅[产品](/help/implement/js-implementation/c-variables/page-variables.md)。
 
 **配置变量** {#section_9195286C34C54B02B2598E2B856492C3}
 
-[!UICONTROL s.events] 变量默认为在所有实施中启用。七个预配置转化事件在所有新报表包中自动启用。新的自定义事件（event1- [event100 或 event1000](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)）可由管理员级别的任何用户通过使用 Admin Console 来启用。
+[!UICONTROL s.events] 变量默认为在所有实施中启用。七个预配置转化事件在所有新报表包中自动启用。新的自定义事件（event1- [event100 或 event1000](/help/implement/js-implementation/c-variables/page-variables.md)）可由管理员级别的任何用户通过使用 Admin Console 来启用。
 
 **可能值** {#section_18395A3BEFEB4E9F8D7B2ED0001FBE4E}
 
@@ -475,7 +475,7 @@ s.events="scRemove=3,event6,event2=4"
 
 默认情况下，某事件在您的网站每设置一次，都会计为一个事件。
 
-请参阅[事件序列化](../../../implement/js-implementation/event-serialization.md#concept_092B638D7FEE423D91F8A57EA8E09705)，以了解更多信息。
+请参阅[事件序列化](/help/implement/js-implementation/event-serialization.md)，以了解更多信息。
 
 **语法** {#section_8559D42D3F344AF3BB3C0125F78C4989}
 
@@ -749,11 +749,11 @@ list_props.xml
 
 **注意事项**
 
-* 列表属性只在流量变量启用 ([props](../../../implement/js-implementation/c-variables/page-variables.md#concept_0F10FA2DE69B4029A31EA5E9313AA254))。
+* 列表属性只在流量变量启用 ([props](/help/implement/js-implementation/c-variables/page-variables.md))。
 * 无法为列表属性启用路径分析和关联。
 * Analytics 几乎为每个报表（包括所有列表属性报表）都提供了访问和独特访客。
 * 列表属性支持分类。
-* 任何自定义流量变量都可成为一个列表属性。（例外：[pageName](../../../implement/js-implementation/c-variables/page-variables.md#concept_5827B499DAC34B5D8445F9D9140CC328)、[channel](../../../implement/js-implementation/c-variables/page-variables.md#concept_C7770B8C15724A99B10F8F468AF82D0D) 和 [server](../../../implement/js-implementation/c-variables/page-variables.md#concept_BF77952603BA454BAFC9A0A81D06A7D2)。）
+* 任何自定义流量变量都可成为一个列表属性。（例外：[pageName](/help/implement/js-implementation/c-variables/page-variables.md)、[channel](/help/implement/js-implementation/c-variables/page-variables.md) 和 [server](/help/implement/js-implementation/c-variables/page-variables.md)。）
 
 * 在同一个图像请求中定义重复值时，不会删除重复实例。
 
@@ -1312,7 +1312,7 @@ mobile.xml
 
  -->
 
-请参阅[移动网络协议](../../../implement/js-implementation/c-additional-libraries/network-protocols.md#concept_2425537FC9CB45DD868B5FA2298B6CAC)。
+请参阅[移动网络协议](/help/implement/js-implementation/c-additional-libraries/network-protocols.md)。
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |---|---|---|---|
@@ -1585,7 +1585,7 @@ The *`products`*&#x200B;变量应始终结合成功事件进行设置。
 | 产品 | （必需）用于跟踪产品的标识符。此标识符用于填充[!UICONTROL 产品]报表。请务必在整个结帐过程中使用同一标识符。 |
 | 数量 | 所购买的件数。此字段必须在[!UICONTROL 购买]事件中设置才能记录。 |
 | 价格 | 指总购买量的联合成本（件数 x 单价），而不是单价。此字段必须在[!UICONTROL 购买]事件中设置才能记录。 |
-| 事件 | 与指定产品关联的货币事件。请参阅[产品特定的货币事件](../../../implement/js-implementation/c-variables/page-variables.md#section_F814DF053C0D463A97DA039E6323720C)和[订单范围的货币事件](../../../implement/js-implementation/c-variables/page-variables.md#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0)。 |
+| 事件 | 与指定产品关联的货币事件。请参阅[产品特定的货币事件](/help/implement/js-implementation/c-variables/page-variables.md#section_F814DF053C0D463A97DA039E6323720C)和[订单范围的货币事件](/help/implement/js-implementation/c-variables/page-variables.md#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0)。 |
 | eVar | 与特定产品关联的促销 eVar 值。请参阅[促销变量](/help/components/c-variables/c-merch-variables/var-merchandising.md)。 |
 
 包含在&#x200B;*`products`*&#x200B;变量中包含的值基于您所记录的事件类型。省略类别时，需要使用类别/产品分隔符 (;) 作为占位符。仅当需要区分所包含的参数时，才要求使用其他分隔符，如本页上的示例所示。
@@ -2014,7 +2014,7 @@ s.timestamp="UNIX or ISO-8601 format timestamp"
 >
 >此外，如果您在报表包上启用时间戳支持来支持离线跟踪，那么所有从 JavaScript 发送至此报表包的点击也都必须手动设置时间戳（使用 *`s.timestamp`*）。您无法将已设置时间戳和未设置时间戳的点击发送至同一报表包中。
 >
->您也可以使用[可选时间戳](../../../implement/js-implementation/timestamps-overview.md#concept_1A7DF6F7BDA34467B51A6F61E08BB73F)设置，将加盖时间戳和未加盖时间戳的数据混合到同一个全局报表包中，将来自移动设备应用程序的加盖时间戳数据发送到全局报表包中，然后将应用程序升级为无需创建新报表包即可部署时间戳。
+>您也可以使用[可选时间戳](/help/implement/js-implementation/timestamps-overview.md)设置，将加盖时间戳和未加盖时间戳的数据混合到同一个全局报表包中，将来自移动设备应用程序的加盖时间戳数据发送到全局报表包中，然后将应用程序升级为无需创建新报表包即可部署时间戳。
 
 **时间戳格式** {#section_C12CBCECCD7047D38EF63A5800761CE9}
 
