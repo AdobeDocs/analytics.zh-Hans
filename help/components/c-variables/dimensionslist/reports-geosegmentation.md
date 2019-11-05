@@ -7,7 +7,7 @@ title: 地域划分
 topic: 报告
 uuid: 66aa22c4-dcbc-491a-b23c-0c3d8744d23
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> 地区 </td> 
-   <td colname="col2"> <p> 比国家小但比城市大的地理区域。在某些国家，地区是一个州、省或专区。在其他地区，它是一个成员国、辖区或大都市地区。此外，在显示的每个地区右侧，会在括号内显示地区所在的国家。 </p> <p>在报表详细信息中，点击“为此地区运行城市报表”（放大镜）以运行报表，显示所选地区中的一些城市与该地区中其他城市的比较情况。 </p> <p>请参阅<a href="../../../components/c-variables/dimensionslist/reports-geosegmentation-reference.md#concept_F7D998B418544B39ACD8838B48B732F1" format="dita" scope="local">按国家/地区的地域划分地区和邮政编码使用情况</a>，以了解哪些国家/地区使用地区。 </p> </td> 
+   <td colname="col2"> <p> 比国家小但比城市大的地理区域。在某些国家，地区是一个州、省或专区。在其他地区，它是一个成员国、辖区或大都市地区。此外，在显示的每个地区右侧，会在括号内显示地区所在的国家。 </p> <p>在报表详细信息中，点击“为此地区运行城市报表”（放大镜）以运行报表，显示所选地区中的一些城市与该地区中其他城市的比较情况。 </p> <p>请参阅<a href="/help/components/c-variables/dimensionslist/reports-geosegmentation-reference.md"  >按国家/地区的地域划分地区和邮政编码使用情况</a>，以了解哪些国家/地区使用地区。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 城市 </td> 
