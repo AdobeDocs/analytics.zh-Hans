@@ -7,7 +7,7 @@ title: 开始链接跟踪
 topic: Activity Map
 uuid: 425cb287-f76e-4430-802f-288499711ba9
 translation-type: tm+mt
-source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
+source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap（旧称访客 ClickMap） </td> 
-   <td colname="col2"> <p>将 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html" format="https" scope="external">trackInlineStats</a> 变量设置为 true。The syntax reads as follows: 
+   <td colname="col2"> <p>将 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html"  >trackInlineStats</a> 变量设置为 true。The syntax reads as follows: 
      <code>
        s.trackInlineStats=true
      </code> </p> </td> 
