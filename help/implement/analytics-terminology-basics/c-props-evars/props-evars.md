@@ -8,7 +8,7 @@ title: prop 和 eVar 概述
 topic: 开发人员和实施
 uuid: 522cab2b-1ef8-4f10-b216-c82b21431487
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 自定义流量变量也称为 prop (s.prop) 或属性变量，是计算每个值发送到 Analytics 的次数的计数器。
 
-确定哪些变量应分配到哪里时，非常重要的一点是理解 Prop 与 eVar 功能之间的区别。了解这些区别可帮助您的组织确定最适用的变量类型。有关详细信息，请参阅 [比较 Prop 和 eVar](../../../implement/analytics-terminology-basics/c-props-evars/props-vs-evars.md#concept_6E55483C1EC24566B5D3B2736E766EBC).
+确定哪些变量应分配到哪里时，非常重要的一点是理解 Prop 与 eVar 功能之间的区别。了解这些区别可帮助您的组织确定最适用的变量类型。有关详细信息，请参阅 [比较 Prop 和 eVar](/help/implement/analytics-terminology-basics/c-props-evars/props-vs-evars.md).
 
 Prop 还可让您将自定义数据与特定流量相关事件关联。这些变量嵌入在网站每个页面上的 [!DNL Analytics] 代码中。通过 [!UICONTROL s.prop] 变量，[!DNL Analytics] 可让您创建组织、行业和业务目标特有的自定义报表。
 
@@ -40,4 +40,4 @@ eVar（或[!UICONTROL 自定义转化分析]变量）用于确定特定属性或
 
 有关更多信息，请参阅“Analytics 帮助和参考”指南中的[流量变量](https://marketing.adobe.com/resources/help/en_US/reference/traffic_var.html)。
 
-有关如何在 Digital Tag Management 中设置属性的信息，请参阅[创建 Web 属性](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123)。
+有关如何在 Digital Tag Management 中设置属性的信息，请参阅[创建 Web 属性](/help/implement/c-implement-with-dtm/t-create-web-property.md)。
