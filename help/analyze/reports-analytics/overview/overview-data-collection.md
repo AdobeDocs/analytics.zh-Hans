@@ -8,12 +8,12 @@ title: 关于数据收集
 topic: Reports and Analytics
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
-# 关于数据收集{#about-data-collection}
+# 关于数据收集
 
 了解如何为 Adobe Analytics 收集数据。
 
@@ -29,4 +29,4 @@ Adobe 跟踪的每个页面均有一个 Adobe 授权的 JavaScript 代码小片�
 
 数据收集速度很快，不会明显影响页面加载时间。收集的数据包括通过单击浏览器&#x200B;**重新加载**&#x200B;或&#x200B;**后退**&#x200B;按钮获得的页面查看次数。从缓存中检索页面时，JavaScript 代码仍将运行。
 
-请参 [阅Analytics中的数据收集](https://marketing.adobe.com/resources/help/en_US/reference/usecase_sending_data_to_sc.html)。
+请参 [阅Analytics中的数据收集。](/help/import/home.md)
