@@ -8,7 +8,7 @@ title: 分类规则集
 topic: 管理工具
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 规则集是特定变量的一组分类规则。您可将变量应用到规则集。如果您要为一个变量创建多个规则集，则必须将每个规则集应用到多个报表包。
 
-## 分类规则集 {#concept_CD3D510F5070486584F3BB535AE41524}
+## 分类规则集
 
 规则集是特定变量的一组分类规则。您可将变量应用到规则集。如果您要为一个变量创建多个规则集，则必须将每个规则集应用到多个报表包。
 
@@ -36,7 +36,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B" format="dita" scope="local"> 添加规则集</a> </p> </td> 
+   <td colname="col1"> <p><a href="/help/components/c-classifications2/crb/classification-rule-set.md"  > 添加规则集</a> </p> </td> 
    <td colname="col2"> <p>创建一个规则集。 </p> </td> 
   </tr> 
   <tr> 
@@ -58,7 +58,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </tbody> 
 </table>
 
-## 创建分类规则集 {#task_86F216DFD2534FA181E64ABDF306782B}
+## 创建分类规则集 {#create-classification-rule-set}
 
 <!-- 
 
@@ -89,6 +89,6 @@ t_classification_rule_set.xml
 
    报表包和变量列表中填充了可在登录公司的所有报表包中使用的所有分类变量。报表包中的单个变量只能属于一个规则集。
 
-   请参阅&#x200B;*`Variable`*（详细信息位于[分类规则生成器](../../../components/c-classifications2/crb/classification-rule-definitions.md#section_4D1A70A607C9419EB2116A5174EACB72)页面的定义中）。
+   请参阅&#x200B;*`Variable`*（详细信息位于[分类规则生成器](/help/components/c-classifications2/crb/classification-rule-definitions.md)页面的定义中）。
 1. Specify the report suites and variables to use, then click **[!UICONTROL Save]**.
-1. Continue by [adding classification rules](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) to the ru
+1. Continue by [adding classification rules](/help/components/c-classifications2/crb/classification-rule-set.md) to the rule set.
