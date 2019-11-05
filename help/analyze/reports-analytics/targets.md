@@ -7,7 +7,7 @@ title: 目标
 topic: Reports and Analytics
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -77,12 +77,12 @@ t_add_a_target.xml
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
 1. On the [!UICONTROL Target Manager] page, click **[!UICONTROL Add New]**.
-1. 配置[目标字段描述](../../analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)中所述的选项。
+1. 配置[目标字段描述](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)中所述的选项。
 1. 单击&#x200B;**[!UICONTROL 确定]**。
 
 ## 编辑目标 {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
 1.  在&#x200B;**管理**&#x200B;列，点击&#x200B;**[!UICONTROL 编辑]图标。**
-1. 配置[目标字段描述](../../analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)中所述的选项。
+1. 配置[目标字段描述](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)中所述的选项。
 1. 单击&#x200B;**[!UICONTROL 确定]**。
