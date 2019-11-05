@@ -7,7 +7,7 @@ title: '退出链接 '
 topic: 报告
 uuid: e1452f04-389d-4aa3-8763-732880284302
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -35,6 +35,6 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 * 您可以通过趋势和排名两种格式查看此报表。
 * 此报表可使用搜索过滤器来查找特定的行项目。
 * 您可以通过管理工具创建与其他任何流量变量的 [breakdowns](/help/analyze/reports-analytics/reports-customize/breakdowns.md) with any other variable via Admin Tools.
-* [实例](../../../components/c-variables/c-metrics/metrics-instance.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF)是唯一默认可在此报表中使用的量度，用于计数触发退出链接的次数。
+* [实例](/help/components/c-variables/c-metrics/metrics-instance.md)是唯一默认可在此报表中使用的量度，用于计数触发退出链接的次数。
 * 可以为此报表启用每日、每周、每月和每季访客。但是，只有 Adobe 代表可以启用这些量度，并且需要支付额外的成本。为任何自定义链接跟踪变量启用独特访客会大大增加报表包的滞后。
 
