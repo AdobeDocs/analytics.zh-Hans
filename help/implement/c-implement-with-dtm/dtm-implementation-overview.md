@@ -8,7 +8,7 @@ title: DTM 实施概述
 topic: 开发人员和实施
 uuid: 2d40cb7a-5c69-4f41-81a7-c48373c2d720
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -25,11 +25,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 本指南将指导您完成以下步骤来使用 DTM 部署 Analytics：
 
-1. [创建 Web 属性](../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123)。
-1. [配置您的托管选项](../../implement/c-implement-with-dtm/t-configure-hosting.md#task_EAD99BB391F544C0BB197D0B3D03EBAC)。
-1. [向每个受管页面中添加页眉和页脚代码](../../implement/c-implement-with-dtm/c-headers-footers/t-header-footer-code.md#task_43C8DD699A514638B0620775C06423E5)。
-1. [添加 Adobe Analytics 工具](../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8).
-1. 创建[数据元素](../../implement/c-implement-with-dtm/t-data-element.md#task_962EF08CE2AE49B3B739295F6E4792C2)、[规则和条件](../../implement/c-implement-with-dtm/c-rules/t-rules-create.md#task_B7FB5ED415AF430C952265AC2835C0DB)和[操作](../../implement/c-implement-with-dtm/c-rules/t-rules-actions.md#task_94DFE0D8B53A43E2892851BABE381121)。
+1. [创建 Web 属性](/help/implement/c-implement-with-dtm/t-create-web-property.md)。
+1. [配置您的托管选项](/help/implement/c-implement-with-dtm/t-configure-hosting.md)。
+1. [向每个受管页面中添加页眉和页脚代码](/help/implement/c-implement-with-dtm/c-headers-footers/t-header-footer-code.md)。
+1. [添加 Adobe Analytics 工具](/help/implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md).
+1. 创建[数据元素](/help/implement/c-implement-with-dtm/t-data-element.md)、[规则和条件](/help/implement/c-implement-with-dtm/c-rules/t-rules-create.md)和[操作](/help/implement/c-implement-with-dtm/c-rules/t-rules-actions.md)。
 
 1. 将工具和规则发布到生产服务器。
 
