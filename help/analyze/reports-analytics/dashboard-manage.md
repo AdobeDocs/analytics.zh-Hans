@@ -8,7 +8,7 @@ title: 功能板管理器
 topic: Reports and Analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e78e4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -86,7 +86,7 @@ Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICON
 
    复制的功能板将在功能板布局编辑器中打开。
 
-   请参阅 [编辑功能板和缩图报表数据](../../analyze/reports-analytics/dashboard.md#task_B460CCD70D9F40FCAC6BBC1C044CC460).
+   请参阅 [编辑功能板和缩图报表数据](/help/analyze/reports-analytics/dashboard.md).
 
 ## 共享功能板
 
@@ -107,7 +107,7 @@ Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICON
 1. 打开功能板。
 1. Click **[!UICONTROL More]** &gt; **[!UICONTROL Send]**.
 
-   See [Schedule and Distribution](../../analyze/reports-analytics/scheduling.md#concept_4EA333DFC7FD4E9CA086385A3DA10BE9) for more information.
+   See [Schedule and Distribution](/help/analyze/reports-analytics/scheduling.md) for more information.
 
 ## 存档功能板
 
