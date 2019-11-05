@@ -8,7 +8,7 @@ title: 创建虚拟报表包
 topic: Reports and Analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -62,7 +62,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> 区段 </td> 
-   <td colname="col2"> <p>您可以仅添加一个区段，也可以<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_stack.html" format="https" scope="external">堆叠区段</a>。 </p> <p> <p>注意：堆叠两个区段时，将使用 AND 语句联接它们。无法更改为 OR 语句。 </p> </p> <p>当您尝试删除或修改虚拟报表包中当前使用的某个区段时，会显示一条警告。 </p> </td> 
+   <td colname="col2"> <p>您可以仅添加一个区段，也可以<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_stack.html"  >堆叠区段</a>。 </p> <p> <p>注意：堆叠两个区段时，将使用 AND 语句联接它们。无法更改为 OR 语句。 </p> </p> <p>当您尝试删除或修改虚拟报表包中当前使用的某个区段时，会显示一条警告。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
