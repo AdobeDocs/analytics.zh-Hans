@@ -5,7 +5,7 @@ seo-title: 为数字助理实施 Analytics
 title: 为数字助理实施 Analytics
 uuid: c61e6a1a-ec08-4936-9053-5f57223f57ff
 translation-type: tm+mt
-source-git-commit: de48a1211edd3a4fd35cc455f2002384deeed5be
+source-git-commit: b7a92c7b7305c5456e6764b4329c51ad13f2609e
 
 ---
 
@@ -56,7 +56,7 @@ GET
 /b/ss/[rsid]/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=2017-04-24&c.a.AppID=Spoofify1.0&c.OSType=Alexa&pageName=install
 HTTP/1.1
 Host:
-<xref href="https://sc.omtrdc.net" format="http" scope="external">
+<xref href="https://sc.omtrdc.net">
   sc.omtrdc.net
  Cache-Control: no-cache
 </xref href="https:>
@@ -64,7 +64,7 @@ Host:
 
 ## 多个助理或多个应用程序
 
-您的组织可能希望应用程序适用于多个平台。 最佳实践是在每个请求中各包含一个应用程序 ID。This variable can be set in the `a.AppID` context data variable. Follow the format of `[AppName] [BundleVersion]`, for example, BigMac for Alexa 1.2:
+您的组织可能希望应用程序适用于多个平台。 最佳实践是在每个请求中各包含一个应用程序 ID。This variable can be set in the `a.AppID` context data variable. 格式应遵循 `[AppName] [BundleVersion]`，例如 BigMac for Alexa 1.2:
 
 ```text
 GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.Launches=1&c.Product=AmazonEcho&c.OSType=Alexa&pageName=install  HTTP/1.1
@@ -82,7 +82,7 @@ Cache-Control: no-cache
 
 Adobe Analytics使用 [Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) ，将不同时间的互动与同一人联系起来。 大多数数字助理 `userID` 会返回一个可用于为不同用户保留活动的工具。 在大多数情况下，此值可以作为唯一标识符传入。 某些平台返回的标识符长于允许的100个字符。 在这些情况下，Adobe建议您使用标准哈希算法（如MD5或Sha1）将唯一标识符散列为固定长度值。
 
-当您跨不同设备（例如，Web到数字助手）映射ECID时，使用ID服务可提供最大价值。 如果您的应用程序是移动应用程序，请按原样使用Experience Platform SDK，然后使用该方法发送用户 `setCustomerID` ID。 但是，如果您的应用程序是服务，请使用由服务提供的用户ID作为ECID，并在中设置它 `setCustomerID`。
+当您跨不同设备（例如，Web到数字助手）映射ECID时，使用ID服务可提供最大价值。 如果您的应用程序是移动应用程序，请按原样使用Experience Platform SDK，然后使用该方法发送用户 `setCustomerID` ID。 However, if your app is a service, use the user ID provided by the service as the ECID, as well as setting it in `setCustomerID`.
 
 ```text
 GET /b/ss/[rsid]/1?vid=[UserID]&pageName=[intent]  HTTP/1.1
