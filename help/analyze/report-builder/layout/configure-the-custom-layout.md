@@ -5,9 +5,9 @@ seo-title: 配置自定义布局
 solution: Analytics
 title: 配置自定义布局
 topic: Report Builder
-uuid: 4c1404b1-f20 e-4343be97-0b4 c03500 d52
+uuid: 4c1404b1-f20e-4343-be97-0b4c03500d52
 translation-type: tm+mt
-source-git-commit: dcddb02157ac3e62781b602c5e6c7de3ef79b4fc
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -18,5 +18,5 @@ source-git-commit: dcddb02157ac3e62781b602c5e6c7de3ef79b4fc
 
 下列主题专门针对[!UICONTROL 自定义布局]：
 
-* [将指标和维度映射到单元格](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md)
-* [创建微型图表](/help/analyze/report-builder/layout/t-create-a-microchart.md)
+* [将量度和维度映射到单元格](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md)
+* [创建 Microchart](/help/analyze/report-builder/layout/t-create-a-microchart.md)
