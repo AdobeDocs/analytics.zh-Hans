@@ -5,9 +5,9 @@ seo-title: 代码管理器
 solution: Analytics
 title: 代码管理器
 topic: 管理工具
-uuid: 7b60bca7-756f-444f-a7 e6-abd3 e0 f1 a15 e
+uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
 translation-type: tm+mt
-source-git-commit: 5cb0cc590322020eab68709aa772edf25bda1857
+source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: 5cb0cc590322020eab68709aa772edf25bda1857
 
 代码管理器可让您下载适用于 Web 和移动平台的数据收集代码。
 
-**[!UICONTROL “分析]** ”&gt;“ **[!UICONTROL 管理员]** ”&gt; **[!UICONTROL “代码管理器]**”。
+**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理员]** &gt;代 **[!UICONTROL 码管理器]**。
 
-下载库后，您必须配置代码，以便将数据发送到正确的跟踪服务器和报表包。[实施](../../implement/home.md) 用户指南中提供了其他实施资源。
+下载库后，您必须配置代码，以便将数据发送到正确的跟踪服务器和报表包。实施用户指南中提供了其 [他实施](/help/implement/home.md) 资源。
 
 ## “代码管理器”页面描述{#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
