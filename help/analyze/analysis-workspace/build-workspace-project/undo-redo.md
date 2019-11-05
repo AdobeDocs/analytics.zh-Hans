@@ -5,7 +5,7 @@ seo-title: “撤消”和“重做”设置
 title: “撤消”和“重做”设置
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 * 您可以对更改报表包的操作执行撤消/恢复。
 * 项目名称旁边会显示撤消/恢复消息，表示正在进行撤消/恢复。
-* 您可以使用以下 [热键](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051):
+* 您可以使用以下 [热键](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md):
 
    * CTRL(CMD)+Z 表示撤消
    * CTRL(CMD)+SHIFT+Z 表示重做
