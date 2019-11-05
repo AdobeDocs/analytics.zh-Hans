@@ -8,8 +8,8 @@ subtopic: 访客
 title: 示例访问
 topic: 开发人员和实施
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
-translation-type: ht
-source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
+translation-type: tm+mt
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->不再建议使用这种方法来识别跨设备访客。请参阅 [Adobe Experience Cloud 设备协作文档](https://marketing.adobe.com/resources/help/zh_CN/mcdc/)。
+>不再建议使用这种方法来识别跨设备访客。请参阅 [Adobe Experience cloud设备协作文档](https://marketing.adobe.com/resources/help/en_US/mcdc/)。
 
 示例中包含常见客户交互中发送的服务器调用范例。
 
