@@ -5,7 +5,7 @@ seo-title: 常见问题解答
 title: 常见问题解答
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>问：哪些 <b>Adobe Analytics SKU</b> 使您可以使用 Advertising Analytics？ </p> </td> 
-   <td colname="col2"> <p>答：Advertising Analytics 适用于 Adobe Analytics <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html" format="html" scope="external">Select</a>、<a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html" format="html" scope="external">Prime</a> 和 <a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html" format="html" scope="external">Ultimate</a> 三种 SKU 版本。 </p> </td> 
+   <td colname="col2"> <p>答：Advertising Analytics 适用于 Adobe Analytics <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html"  >Select</a>、<a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html"  >Prime</a> 和 <a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html"  >Ultimate</a> 三种 SKU 版本。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>问：我们是否必须<b>支付额外费用</b>才能使用 Advertising Analytics？ </p> </td> 
@@ -91,7 +91,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>问：我正在尝试<b>将我的 Advertising Analytics 帐户映射到特定报表包</b>，但它在“报表包”模式中不可用。为什么？ </p> </td> 
-   <td colname="col2"> <p>答：在将报表包分配到 Advertising Analytics 帐户之前，<a href="../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md#concept_BE491B2A2CAE4D818C218033B985A0FB" format="dita" scope="local">需要为 Advertising Analytics 报表</a>配置所需的报表包。 </p> <p>This is done through a separate Admin page that is accessible from: <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Report Suites </span>  &gt; <span class="uicontrol"> [select Experience Cloud-enabled report suite] </span>  &gt; <span class="uicontrol"> Edit Settings </span>  &gt; <span class="uicontrol"> Advertising Analytics Configuration </span> </span>. </p> </td> 
+   <td colname="col2"> <p>答：在将报表包分配到 Advertising Analytics 帐户之前，<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >需要为 Advertising Analytics 报表</a>配置所需的报表包。 </p> <p>This is done through a separate Admin page that is accessible from: <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Report Suites </span>  &gt; <span class="uicontrol"> [select Experience Cloud-enabled report suite] </span>  &gt; <span class="uicontrol"> Edit Settings </span>  &gt; <span class="uicontrol"> Advertising Analytics Configuration </span> </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>问：是否可以将<b>虚拟报表包</b> (VRS) 分配到 Advertising Analytics 帐户？ </p> </td> 
