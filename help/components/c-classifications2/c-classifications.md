@@ -8,7 +8,7 @@ title: 关于分类
 topic: 管理工具
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -43,7 +43,7 @@ Reports &amp; Analytics 包含针对跟踪代码变量的预定义分类，从�
 
 请参阅[流量分类](/help/admin/admin/c-traffic-variables/traffic-classifications.md)和[转化分类](https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html)。
 
-下表说明了各种可用的分类类型，以及支持这些分类的变量类型。请在上载数据文件之前，查看 上传 [数据文件之前的常规文件结构](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9EFF968DF5D244A887DE94075431C1BE) 。
+下表说明了各种可用的分类类型，以及支持这些分类的变量类型。请在上载数据文件之前，查看 上传 [数据文件之前的常规文件结构](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) 。
 
 <table id="table_279728C28D9C40EE832ACC9F211B5F17"> 
  <thead> 
