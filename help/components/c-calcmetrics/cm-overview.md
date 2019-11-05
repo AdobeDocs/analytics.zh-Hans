@@ -6,7 +6,7 @@ seo-title: 计算量度和高级计算（派生）量度
 title: 计算量度和高级计算（派生）量度
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 >In July 2018, Adobe introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. 作为此更改的一部分，使用非默认分配模型的计算量度已迁移至改进的新归因模型。
 >
 >* “营销渠道最近接触”和“营销渠道首次接触”分配模型分别迁移到新的“最近接触”和“首次接触”归因模型(注意：“营销渠道”尚未弃用——只有计算量度中显示的两种分配模型已弃用。
->* 此外，我们还修正了线性分配的计算方式。 对于使用“线性”分配模型的计算指标的客户，报告可能会稍有变化以反映经过修正的新归因模型。 This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 有关详细信息，请参阅[线性分配将如何工作（自 2018 年 7 月 19 日起）](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)。
+>* 此外，我们还修正了线性分配的计算方式。 对于使用“线性”分配模型的计算指标的客户，报告可能会稍有变化以反映经过修正的新归因模型。 This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 有关详细信息，请参阅[线性分配将如何工作（自 2018 年 7 月 19 日起）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)。
 
 
 我们的计算量度工具提供了一种高度灵活的方式，可用于生成、管理和组织量度。They allow you as marketers, product managers and analysts to ask questions of the data without having to change your [!DNL Analytics] implementation. The custom metrics available in each [!DNL Analytics] package are:
@@ -34,13 +34,13 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 | Builder 选项 | 计算量度 | 高级计算（派生）量度 |
 |---|---|---|
-| [格式类型（小数、时间、百分比、货币）](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#concept_5EC82A91EB9C44FC870326C85F9D0B18) | 是 | 是 |
-| [归因更改（默认、线性、参与率等）](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E) | 是 | 是 |
-| [量度类型（标准、总数）](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E) | 是 | 是 |
+| [格式类型（小数、时间、百分比、货币）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | 是 | 是 |
+| [归因更改（默认、线性、参与率等）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | 是 | 是 |
+| [量度类型（标准、总数）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | 是 | 是 |
 | 基本运算符（加、减、乘、除） | 是 | 是 |
-| [应用区段](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md#concept_21C77BD86E7E45E79AF030D8ED54DB3E) | 否 | 是 |
-| [基本函数（计数、绝对值、平均值等）](../../components/c-calcmetrics/cm-reference/cm-functions.md#concept_E3022D5EEEE145B69A23438BAF7016B2) | 否 | 是 |
-| [高级函数（回归、if/then、t 分数等）](../../components/c-calcmetrics/cm-reference/cm-adv-functions.md#concept_A5FB9127D70F4E1AA02D1ACBF4F54174) | 否 | 是 |
+| [应用区段](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md) | 否 | 是 |
+| [基本函数（计数、绝对值、平均值等）](/help/components/c-calcmetrics/cm-reference/cm-functions.md) | 否 | 是 |
+| [高级函数（回归、if/then、t 分数等）](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) | 否 | 是 |
 
 ## 功能 {#section_A0A5C275B68A4D628950BBB0B1EE631F}
 
@@ -83,7 +83,7 @@ Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><a href="../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#concept_5EC82A91EB9C44FC870326C85F9D0B18" format="dita" scope="local"> 计算量度生成器</a> </td> 
+   <td colname="col1"><a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md"  > 计算量度生成器</a> </td> 
    <td colname="col2"> 
     <ul id="ul_E6F02AB9DF204C2F9A0AC92A31594B3E"> 
      <li id="li_A4A6E716374243A190C539A3F4A41C0C">使用高级分配模型创建计算度量和高级计算度量。 </li> 
@@ -98,7 +98,7 @@ Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md#concept_BA6815CB06D842D5825766396B691653" format="dita" scope="local"> 计算量度管理器</a> </td> 
+   <td colname="col1"><a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md"  > 计算量度管理器</a> </td> 
    <td colname="col2"> 
     <ul id="ul_E4D20D5DD3904CC6A85785B5BD4C1B1E"> 
      <li id="li_E0B216BA1478406EB6212263DF71D85B">与他人共享量度。 </li> 
@@ -110,10 +110,10 @@ Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
   </tr> 
   <tr> 
    <td colname="col1"> 量度选择器边栏 </td> 
-   <td colname="col2"> <p>Replaces the <span class="uicontrol"> Show Metrics</span> popup in <span class="uicontrol"> Reports &amp; Analytics</span>. </p> <p>它允许您搜索量度，并将量度添加到/应用于报表。您还可以更改<a href="../../components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md#concept_A09845053A934CB7B755391D76E76C08" format="dita" scope="local">排序</a>（选项包括：“按字母顺序”、“推荐”、“经常使用”、“最近使用”。）此外，您还可以对报表包进行过滤，以便仅显示在特定报表包中创建的量度。 </p> <p>要访问此“量度选择器”，请单击报表左侧的“量度”图标 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" />。量度选择器具有如下外观： </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p>Replaces the <span class="uicontrol"> Show Metrics</span> popup in <span class="uicontrol"> Reports &amp; Analytics</span>. </p> <p>它允许您搜索量度，并将量度添加到/应用于报表。您还可以更改<a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  >排序</a>（选项包括：“按字母顺序”、“推荐”、“经常使用”、“最近使用”。）此外，您还可以对报表包进行过滤，以便仅显示在特定报表包中创建的量度。 </p> <p>要访问此“量度选择器”，请单击报表左侧的“量度”图标 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" />。量度选择器具有如下外观： </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md" format="https" scope="external"> 适用于计算量度的 API</a> </td> 
+   <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > 适用于计算量度的 API</a> </td> 
    <td colname="col2"> <p>Adobe Analytics 2.0 API集的一部分。 </p> </td> 
   </tr> 
  </tbody> 
