@@ -8,7 +8,7 @@ title: 关于子分类
 topic: 管理工具
 uuid: 48bd7fc1-54a1-40ef-bc55-39538522f2d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -42,7 +42,7 @@ c_single-level_classifications.xml
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-有关数据文件的更多信息，请参阅 [Classification Data Files](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735).
+有关数据文件的更多信息，请参阅 [Classification Data Files](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
 
 <!-- 
 
@@ -54,7 +54,7 @@ c_multiple-level_classifications.xml
 
 ![](assets/Multi-Level-Class-popup.png)
 
-**父项分类：**&#x200B;父项分类是指具有一个关联子项分类的任何分类。分类既可以为父项分类也可以为子项分类。最上层父项分类对应于单级别分类（请参阅 [单级别分类](../../components/c-classifications2/c-sub-classifications.md#concept_6B909B54221F4A9BAEA8E30594F06C49)).
+**父项分类：**&#x200B;父项分类是指具有一个关联子项分类的任何分类。分类既可以为父项分类也可以为子项分类。最上层父项分类对应于单级别分类（请参阅 [单级别分类](/help/components/c-classifications2/c-sub-classifications.md)).
 
 **子项分类：**&#x200B;子项分类是以其他分类而非变量做为其父项的分类。子项分类提供其父项分类的附加信息。例如，[!UICONTROL 促销活动]分类可能有名为“促销活动所有者”的子项分类。[!UICONTROL 数值]分类也可当作分类报表中的量度。
 
@@ -62,7 +62,7 @@ c_multiple-level_classifications.xml
 
 `<parent_name>^<child_name>`
 
-有关数据文件格式的详细信息，请参阅分 [类数据文件](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735)。
+有关数据文件格式的详细信息，请参阅分 [类数据文件](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)。
 
 例如：
 
