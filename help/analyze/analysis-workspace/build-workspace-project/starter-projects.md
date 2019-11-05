@@ -5,7 +5,7 @@ seo-title: 模板
 title: 模板
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,16 +16,16 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 您可以选择从以下项创建项目：:
 
-* 空白项目（默认）。有关说明，请参 [阅创建Analysis Workspace项目](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2)。
+* 空白项目（默认）。有关说明，请参 [阅创建Analysis Workspace项目](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)。
 * 标准模板。这些模板由 Adobe 创建并且即装即用。
 * 自定义模板。这些模板可由具有管理员权限的用户或非管理员（前提是他们获得了“另存为模板”权限）创建。(See [Manage product permissions](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html) in the Admin Console documentation for more information.
 
 ![](assets/start_modal.png)
 
-* [创建自定义模板](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#task_279637F56CFD4B6094D7CBDB82FA4835)
-* [标准模板](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_4FE900FEEC894E849CB6C6A0E0ADA524)
+* [创建自定义模板](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
+* [标准模板](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 
-## 创建自定义模板 {#task_279637F56CFD4B6094D7CBDB82FA4835}
+## 创建自定义模板 {#create-custom-template}
 
 具有管理员权限的用户可以将他们创建的任何项目转换为自定义模板。以下是具体操作方法：
 
