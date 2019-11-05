@@ -7,7 +7,7 @@ title: 自定义日期注意事项
 topic: Report Builder
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -51,4 +51,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 当前周的起始日期（11 月 23 日，星期日）减去 1 天 = 11 月 22 日，星期六
 
-在欧洲和其他一些国家/地区，一周的第一天是星期一，而不是星期日。在这种情况下，您可以自定义日历以更改开始日期。（请参阅 [自定义日历](../../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md#concept_4342A844600048759EEDABD164AC3F5A).)
+在欧洲和其他一些国家/地区，一周的第一天是星期一，而不是星期日。在这种情况下，您可以自定义日历以更改开始日期。（请参阅 [自定义日历](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).)
