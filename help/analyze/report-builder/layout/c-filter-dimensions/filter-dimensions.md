@@ -5,9 +5,9 @@ seo-title: 过滤器维度概述
 solution: Analytics
 title: 过滤器维度概述
 topic: Report Builder
-uuid: c54d5add-f278-476d-8f14-73f1 c2 e37671
+uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -40,61 +40,61 @@ Information about filters in the **[!UICONTROL Most Popular Filter]** &gt; **[!U
    <td colname="col1"> <p>包含所有词语 </p> </td> 
    <td colname="col02"> <p>包含按任意顺序排列的每个以空格分隔的值。 </p> </td> 
    <td colname="col2"> <p>a b c </p> </td> 
-   <td colname="col3"> <p>匹配<span class="term"> b cand</span><span class="term"> b a c</span>，依此类推。 </p> </td> 
+   <td colname="col3"> <p>匹配 <span class="term"> a</span>b和 <span class="term"> b a c</span>，依此类推。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>包含任何词语 </p> </td> 
    <td colname="col02"> <p>包含其中至少一个过滤器（以空格分隔）。 </p> </td> 
    <td colname="col2"> <p>A B C </p> </td> 
-   <td colname="col3"> <p>匹配<span class="term"> A</span>1、 <span class="term"> B</span>2、 <span class="term"> C3</span>，但不 <span class="term"> 是D4</span>。 </p> </td> 
+   <td colname="col3"> <p>匹配 <span class="term"> A1</span>、 <span class="term"> B2</span>、 <span class="term"> C3</span>，但 <span class="term"> D4不</span>是。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>包含该短语 </p> </td> 
    <td colname="col02"> <p>包含搜索过滤器，同时也可能包含其他词语。 </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>匹配<span class="term"> abc</span> 和 <span class="term"> abc def</span>。 </p> </td> 
+   <td colname="col3"> <p>匹配 <span class="term"> abc</span><span class="term"> 和abc def</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>不包含任何词语 </p> </td> 
    <td colname="col02"> <p>返回所有不包含输入值的结果。 </p> </td> 
    <td colname="col2"> <p>a b c </p> </td> 
-   <td colname="col3"> <p>匹配<span class="term"> d e f</span> 但not <span class="term"> c d e f</span>。 </p> </td> 
+   <td colname="col3"> <p>匹配 <span class="term"> d e f</span> , not <span class="term"> c d e f</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>不包含该短语 </p> </td> 
    <td colname="col02"> <p>返回所有不包含该短语的结果。 </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>不包含<span class="term"> abc</span>、 <span class="term"> abc def</span> 和匹配 <span class="term"> def</span> </p> </td> 
+   <td colname="col3"> <p>不包含 <span class="term"> abc</span>、 <span class="term"> abc def</span> 和匹配 <span class="term"> def</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>等于 </p> </td> 
    <td colname="col02"> <p>返回精确匹配结果。 </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p> <span class="term"> abc</span> is return，no other. </p> </td> 
+   <td colname="col3"> <p> <span class="term"> abc</span> 将返回，而不返回其他内容。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>不等于 </p> </td> 
    <td colname="col02"> <p>返回任何与输入值不精确匹配的结果。 </p> </td> 
    <td colname="col2"> <p>a </p> </td> 
-   <td colname="col3"> <p>不匹配 <span class="term"> a</span>. </p> <p>Matches <span class="term"> a b c</span>. </p> <p>Matches <span class="term"> abc</span>. </p> </td> 
+   <td colname="col3"> <p>不匹配 <span class="term"> a</span>. </p> <p>Matches <span class="term"> a b c</span>. </p> <p>匹配 <span class="term"> abc</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>开始于 </p> </td> 
    <td colname="col02"> <p>返回以特定值开头的结果。 </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>匹配<span class="term"> abcd</span> 但不 <span class="term"> 是abc</span> </p> </td> 
+   <td colname="col3"> <p>匹配 <span class="term"> abc</span> ，但不 <span class="term"> 是1abc</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>结束于 </p> </td> 
    <td colname="col02"> <p>返回以特定值结尾的结果。 </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
-   <td colname="col3"> <p>匹配<span class="term"> wxyz</span> 但not <span class="term"> wxyz0</span> </p> </td> 
+   <td colname="col3"> <p>匹配 <span class="term"> wxyz</span> ，但 <span class="term"> 不是wxyz0</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>高级（特殊字符） </p> </td> 
    <td colname="col02"> <p>允许您使用以下正则表达式字符： </p> <p> <code> "", ^, -, *, $, | </code> </p> </td> 
    <td colname="col2"> <p>"^Home*Page$" | sports </p> </td> 
-   <td colname="col3"> <p> 它定义以<span class="term"> 主页，</span>然后查找零个或多个字符，然后以 <span class="term"> 页面结尾</span>。 </p> <p>Also, any page with <span class="term"> sports</span> in it. </p> <p>以下是一些匹配示例： </p> 
+   <td colname="col3"> <p> 它定义以 <span class="term"> Home</span>, and then looks for zero or more characters, and then ends with <span class="term"> Page</span>. </p> <p>此外，任何包含体育 <span class="term"> 内容</span> 的页面。 </p> <p>以下是一些匹配示例： </p> 
     <ul id="ul_72D76C5AFEAF405E8A0E4E3C604D10AE"> 
      <li id="li_4D490059B667450DA8A0103167C7B391">HomePage </li> 
      <li id="li_1351619156274092AEB2771D882AD357">Home（其他字符）Page </li> 
@@ -119,7 +119,7 @@ Information about filters in the **[!UICONTROL Most Popular Filter]** &gt; **[!U
   <tr> 
    <td colname="col1"> " " </td> 
    <td colname="col2"> 等于 </td> 
-   <td colname="col3"> <p>不会转义，除非引号未配对使用。例如，<span class="term"> 17“显示</span> 不是短语。 </p> </td> 
+   <td colname="col3"> <p>不会转义，除非引号未配对使用。例如， “ <span class="term"> 17”显示</span> ，不是短语。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> * </td> 
@@ -144,7 +144,7 @@ Information about filters in the **[!UICONTROL Most Popular Filter]** &gt; **[!U
   <tr> 
    <td colname="col1"> | </td> 
    <td colname="col2"> 或 </td> 
-   <td colname="col3"> <p>仅在<span class="term"> 高级(特殊字符)</span> 筛选器。 </p> </td> 
+   <td colname="col3"> <p>仅在 高 <span class="term"> 级（特殊字符）滤镜</span> 。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
