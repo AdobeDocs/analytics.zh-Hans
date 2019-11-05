@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 常见问题解答
 title: 常见问题解答
-uuid: f2eb6784-8355-4be3-af10-f20 d1 ab0 de0 e
+uuid: f2eb6784-8355-4be3-af10-f20d1ab0de0e
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace 的管理和访问要求有哪些？ </p> </td> 
-   <td colname="col2"> <p>请参阅<a href="../../analyze/analysis-workspace/frequently-asked-questions-analysis-workspace.md#concept_0ED9C077EF4C4C70B44BDAF494AE416C" format="dita" scope="local">管理要求</a>。 </p> </td> 
+   <td colname="col2"> <p>请参阅<a href="/help/analyze/analysis-workspace/frequently-asked-questions-analysis-workspace.md"  >管理要求</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>一个 Analysis Workspace 项目可以显示多少个报表包？ </p> </td> 
@@ -30,7 +30,7 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
   </tr> 
   <tr> 
    <td colname="col1"> <p>如何实施 Analysis Workspace？ </p> </td> 
-   <td colname="col2"> <p>不要求执行任何特殊的实施操作。Analysis Workspace 可向所有使用 Analytics Standard 或 Premium 的公司提供。但是，内容（如报表包和项目组件）的标准权限在此适用，并可用于组织和共享项目。请参阅<a href="../../analyze/analysis-workspace/frequently-asked-questions-analysis-workspace.md#section_FD3737DE452F4F6CA181F13FF3DC668F" format="dita" scope="local">管理和访问权限要求</a>。 </p> </td> 
+   <td colname="col2"> <p>不要求执行任何特殊的实施操作。Analysis Workspace 可向所有使用 Analytics Standard 或 Premium 的公司提供。但是，内容（如报表包和项目组件）的标准权限在此适用，并可用于组织和共享项目。请参阅<a href="/help/analyze/analysis-workspace/frequently-asked-questions-analysis-workspace.md#section_FD3737DE452F4F6CA181F13FF3DC668F"  >管理和访问权限要求</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace 会更改 Adobe Analytics 中预配置的报表吗？ </p> </td> 
@@ -42,11 +42,11 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
   </tr>
   <tr> 
    <td colname="col1"> <p>如何优化 Analysis Workspace 的性能？ </p> </td> 
-   <td colname="col2"> <p>请参阅<a href="../../analyze/analysis-workspace/optimizing-performance.md#concept_A272AD0B5BC843879663D1F01B1F57C4" format="dita" scope="local">优化性能</a>。 </p> </td> 
+   <td colname="col2"> <p>请参阅<a href="/help/analyze/analysis-workspace/optimizing-performance.md"  >优化性能</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace 的功能与 Ad Hoc Analysis 相比有何异同？ </p> </td> 
-   <td colname="col2"> <p>请参阅 <a href="../../analyze/analysis-workspace/adhocanalysis-vs-analysisworkspace.md#concept_377738FD6BBA4BEEB59EC004B5519AC1" format="dita" scope="local"> Analysis Workspace 与 Ad Hoc Analysis 的比较</a>. </p> </td> 
+   <td colname="col2"> <p>请参阅 <a href="/help/analyze/analysis-workspace/adhocanalysis-vs-analysisworkspace.md"  > Analysis Workspace 与 Ad Hoc Analysis 的比较</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
