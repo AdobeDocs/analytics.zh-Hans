@@ -8,7 +8,7 @@ title: 用户和产品管理
 topic: 管理工具
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -33,11 +33,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  <tbody> 
   <tr> 
    <td colname="col1"> <p>将 Analytics 用户 ID 迁移至 Admin Console </p> </td> 
-   <td colname="col2"> <p> Adobe 正协助 Analytics 管理员将用户 ID 迁移至 Adobe Admin Console。这项工作将分批进行。当轮到您迁移用户时，Adobe 将通过电子邮件告知 Analytics 管理员有关迁移的说明。届时，可使用 Analytics 用户管理中提供的<a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/t_migrate-users.html" format="html" scope="external">迁移工具</a>来简化此任务。 </p> <p>重要提示：在您迁移用户的当日，您以前的权限群组将被自动复制到 Admin Console。您将无法在 Analytics 管理工具中邀请新用户或创建新群组。请查看<a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/" format="https" scope="external">将 Analytics 用户迁移到 Admin Console</a> 中的常见问题解答和帮助，以了解有关如何准备迁移以及有关受影响的管理功能的信息。 </p> </td> 
+   <td colname="col2"> <p> Adobe 正协助 Analytics 管理员将用户 ID 迁移至 Adobe Admin Console。这项工作将分批进行。当轮到您迁移用户时，Adobe 将通过电子邮件告知 Analytics 管理员有关迁移的说明。届时，可使用 Analytics 用户管理中提供的<a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/t_migrate-users.html">迁移工具</a>来简化此任务。 </p> <p>重要提示：在您迁移用户的当日，您以前的权限群组将被自动复制到 Admin Console。您将无法在 Analytics 管理工具中邀请新用户或创建新群组。请查看<a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/">将 Analytics 用户迁移到 Admin Console</a> 中的常见问题解答和帮助，以了解有关如何准备迁移以及有关受影响的管理功能的信息。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>启动 Admin Console </p> </td> 
-   <td colname="col2"> <p>在迁移了用户帐户之后，您可以在 Admin Console 中管理所有解决方案的用户和产品。 </p> <p>Navigate to: <a href="https://adminconsole.adobe.com/enterprise/#" format="html" scope="external"> https://adminconsole.adobe.com/enterprise/</a>. </p> <p>要获取相关帮助，请参阅<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html" format="html" scope="external">管理 Experience Cloud 用户和产品</a>，以了解在 Admin Console 中管理 Experience Cloud 用户和产品的更新内容。 </p> </td> 
+   <td colname="col2"> <p>在迁移了用户帐户之后，您可以在 Admin Console 中管理所有解决方案的用户和产品。 </p> <p>Navigate to: <a href="https://adminconsole.adobe.com/enterprise/#"> https://adminconsole.adobe.com/enterprise/</a>. </p> <p>要获取相关帮助，请参阅<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html">管理 Experience Cloud 用户和产品</a>，以了解在 Admin Console 中管理 Experience Cloud 用户和产品的更新内容。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,7 +68,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 添加新用户</span> </td> 
-   <td colname="col2"> <p>可向公司添加用户帐户。此链接仅在剩余登录用户数量大于 0 时才可用。 </p> <p>请参阅 <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> 用户</a>. </p> </td> 
+   <td colname="col2"> <p>可向公司添加用户帐户。此链接仅在剩余登录用户数量大于 0 时才可用。 </p> <p>请参阅 <a href="/help/admin/user-management2/c-user-management/users.md"> 用户</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 下载报表</span> </td> 
@@ -76,7 +76,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 登录</span> </td> 
-   <td colname="col2"> <p>用户名。您可以单击用户名以编辑用户帐户属性。 </p> <p>请参阅 <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> 用户</a>. </p> </td> 
+   <td colname="col2"> <p>用户名。您可以单击用户名以编辑用户帐户属性。 </p> <p>请参阅 <a href="/help/admin/user-management2/c-user-management/users.md"> 用户</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 名字</span> </td> 
@@ -112,7 +112,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 编辑</span> </td> 
-   <td colname="col2"> <p>编辑用户帐户设置。 </p> <p>请参阅 <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> 用户</a>. </p> </td> 
+   <td colname="col2"> <p>编辑用户帐户设置。 </p> <p>请参阅 <a href="/help/admin/user-management2/c-user-management/users.md"> 用户</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 删除</span> </td> 
@@ -120,7 +120,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 转移</span> </td> 
-   <td colname="col2">将一个用户帐户的权利（包括各种权限和资源访问权）分配给另一用户帐户。 <p>请参阅 <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md" format="dita" scope="local"> 转移用户帐户特权</a>. </p> </td> 
+   <td colname="col2">将一个用户帐户的权利（包括各种权限和资源访问权）分配给另一用户帐户。 <p>请参阅 <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md"> 转移用户帐户特权</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> 以此用户身份登录</span> </td> 
