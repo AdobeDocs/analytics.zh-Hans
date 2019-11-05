@@ -8,7 +8,7 @@ title: Reports and Analytics 快速入门
 topic: Reports and Analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -77,13 +77,13 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 1. 登录到“[!UICONTROL Reports &amp; Analytics]”。
 
-   如果已设置报表菜单，则显 [示](../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0) “报表”菜单或显示功能板。
+   如果已设置报表菜单，则显 [示](/help/analyze/reports-analytics/dashboard.md) “报表”菜单或显示功能板。
 
 1. Click **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages]** (for example).
 
    ![](assets/pages_report.png)
 
-   See [Report Features](../../analyze/reports-analytics/overview/report-overview.md#concept_AEA3BBC8167040198E0FECEAB2E0A677) for information about interface features of a report.
+   See [Report Features](/help/analyze/reports-analytics/overview/report-overview.md) for information about interface features of a report.
 
 ## 编辑用户的帐户设置
 
@@ -116,11 +116,11 @@ Click the Account icon ![](assets/account.png)at the top right, then click the *
   </tr> 
   <tr> 
    <td> <p> 登录 </p> </td> 
-   <td> <p>显示帐户用户名，可以更改帐户密码。 </p> <p>另请参阅：<a href="https://helpx.adobe.com/analytics/kb/How-to-Reset-Report-and-analytics-password.html" format="html" scope="external">如何重置 Reports &amp; Analytics 帐户密码</a>。 </p> </td> 
+   <td> <p>显示帐户用户名，可以更改帐户密码。 </p> <p>另请参阅：<a href="https://helpx.adobe.com/analytics/kb/How-to-Reset-Report-and-analytics-password.html"  >如何重置 Reports &amp; Analytics 帐户密码</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Web 服务 </p> </td> 
-   <td> <p>显示与此帐户关联的 Web 服务用户名和共享机密。在通过 Web 服务 API 访问 Experience Cloud 时使用这些凭据。有关更多信息，请参阅<a href="https://marketing.adobe.com/developer" scope="external" format="https">开发人员连接</a>。 </p> <p> <p>注意：仅在帐户被授权为 Web 服务用户时才显示此信息。 </p> </p> </td> 
+   <td> <p>显示与此帐户关联的 Web 服务用户名和共享机密。在通过 Web 服务 API 访问 Experience Cloud 时使用这些凭据。有关更多信息，请参阅<a href="https://marketing.adobe.com/developer"  >开发人员连接</a>。 </p> <p> <p>注意：仅在帐户被授权为 Web 服务用户时才显示此信息。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> 排除此计算机 </p> </td> 
