@@ -4,7 +4,7 @@ seo-description: 关于如何使用Java 11运行临时分析的说明。
 seo-title: Ad Hoc analysis和Java 11
 title: 使用 Java 11 运行 Ad Hoc Analysis
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
