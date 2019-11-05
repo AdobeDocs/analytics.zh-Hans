@@ -5,7 +5,7 @@ seo-title: 优化 Analysis Workspace 性能
 title: 优化 Analysis Workspace 性能
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 请记住，日期范围（紫色组件）会覆盖面板日期范围。因此，如果您使用不同的日期范围作为列（例如，“上月”、“上周”和“昨天”列），则面板日期范围无需跨所有的列日期范围。可以只将其设置为昨天，因为在自由格式表中使用的数据范围将覆盖面板。有关在 Analysis Workspace 中使用日期范围的更多信息，请观看[此视频](https://www.youtube.com/watch?v=ybmv6EBmhn0)。
 
-Use [date comparison options](../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764) to pull in the specific time periods of data you want to compare. 例如，如果您需要显示上个月与去年同月份的数据比较，则不必将面板设置为最近 13 个月的数据，而只需使用比较时间段选项来显示年同比性能。
+Use [date comparison options](/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md) to pull in the specific time periods of data you want to compare. 例如，如果您需要显示上个月与去年同月份的数据比较，则不必将面板设置为最近 13 个月的数据，而只需使用比较时间段选项来显示年同比性能。
 
 ## 可视化数量
 
