@@ -9,7 +9,7 @@ title: 关于 AppMeasurement for JavaScript
 topic: 开发人员和实施
 uuid: dc71ad7a-92bd-40cd-8fab-707f6f8472e2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 以下列表包含在切换到该新版 [!DNL AppMeasurement] 之前需要了解的更改：
 
-* 不再支持某些插件。请参阅 [AppMeasurement 插件支持](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A)。
+* 不再支持某些插件。请参阅 [AppMeasurement 插件支持](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md)。
 * 该库不支持动态帐户选择（[dynamicAccountList](/help/implement/js-implementation/c-variables/configuration-variables.md)、[dynamicAccountMatch](/help/implement/js-implementation/c-variables/configuration-variables.md) 和 [dynamicAccountSelection](/help/implement/js-implementation/c-variables/configuration-variables.md)）。
 
 * 库和页面代码可以部署在 `<head>` 标记中。
@@ -32,7 +32,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ## 常见问题解答 {#section_9BD41B08F7B54197B230937714B9357A}
 
-请参阅[常见问题解答](../../../implement/faq.md#concept_9BBC230E01114318BE9C08724F2040D3)，以了解有关性能、视频跟踪、移动设备等内容的信息。
+请参阅[常见问题解答](/help/implement/faq.md)，以了解有关性能、视频跟踪、移动设备等内容的信息。
 
 ## 初始化过程 {#section_F6D5680F6D134B6AB1F01C6235860635}
 
@@ -47,15 +47,15 @@ var s=s_gi(s_account)
 
 ## 检索 AppMeasurement 实例 {#section_6F05C96DCAB24C8C9B4B91C5739630A6}
 
-在整个代码中，调用全局 [s_gi() 函数](../../../implement/js-implementation/function-s-gi.md#concept_50EE6629F61A478BB67781408FBA04BD)以检索现有的 [!DNL AppMeasurement] 实例。
+在整个代码中，调用全局 [s_gi() 函数](/help/implement/js-implementation/function-s-gi.md)以检索现有的 [!DNL AppMeasurement] 实例。
 
 ## 实用工具 {#section_0F47694DD0214645A24C94AB6A4142A0}
 
 JavaScript [!DNL AppMeasurement] 提供了以下内置实用工具：
 
-* [Util.cookieRead](../../../implement/js-implementation/util-cookieread.md#concept_33BD774A90504F2C8094DDC16D47440D)
-* [Util.cookieWrite](../../../implement/js-implementation/util-cookiewrite.md#concept_9BE4F7D9CDAE4445B9AF3212BC7E61F2)
-* [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5)
+* [Util.cookieRead](/help/implement/js-implementation/util-cookieread.md)
+* [Util.cookieWrite](/help/implement/js-implementation/util-cookiewrite.md)
+* [Util.getQueryParam](/help/implement/js-implementation/util-getqueryparam.md)
 
 ## ClearVars {#section_597C411E7EDB42BC9A6A0508C9D57147}
 
