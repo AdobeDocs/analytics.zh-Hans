@@ -7,7 +7,7 @@ solution: Analytics
 title: 通过 SFTP 连接到 Adobe FTP 帐户
 uuid: 4faf27b8-7276-4c68-87cb-35802b809e27
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -35,4 +35,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 1. 使用SFTP登录到FTP帐户，以测试连接。
 
-[有关详细信息，请参 ](../../../export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md#concept_962A381F42A4472AA366A08CCC962846)阅如何通过sFTP无口令连接到Adobe_....
+[有关详细信息，请参 ](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)阅如何通过sFTP无口令连接到Adobe_....
