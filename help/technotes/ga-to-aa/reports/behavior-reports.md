@@ -2,86 +2,86 @@
 title: Adobe Analytics中的行为报告
 description: 了解如何在Adobe Analytics中创建行为报告
 translation-type: tm+mt
-source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
+source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
 
 ---
 
 
 # 行为报告
 
-行为报告显示用户如何与您的站点交互的信息。
+行为报告显示有关用户如何与您的网站交互的信息。
 
-此页面假定用户具有使用Analysis Workspace的基本知识。See [Create a basic report in Analysis Workspace for Google Analytics users](create-report.md) if you are not yet familiar with the tool in Adobe Analytics.
+本页假定用户对使用Analysis Workspace有基本知识。 如 [果您还不熟悉Adobe Analytics中的工具](create-report.md) ，请参阅在Analysis Workspace中为Google Analytics用户创建基本报告。
 
-## 行为流程
+## 行为流
 
-可使用流可视化重新创建行为流报告。
+可以使用“流”可视化重新创建行为流报告。
 
-1. 单击左侧的可视化图标，并将流动可视化拖动到自由表上方的工作区上
-2. Locate the **Page** dimension, then click the Arrow icon to reveal page values. 尺寸值为黄色。
-3. 找到所需的页面值以开始，并将其拖动到中心中标记为“维度或项目”的空间中
-4. 此流报告为交互式报告。单击任意值可将流展开到后续或之前的页面。使用右键单击菜单展开或折叠列。也可以在同一流程报告中使用不同的维度。
+1. 单击左侧的可视化图标，然后将流可视化拖到自由格式表上方的工作区上
+2. 找到页 **面维** ，然后单击箭头图标以显示页面值。 尺寸值为黄色。
+3. 找到要开始的所需页面值，并将其拖动到中心标有“维度或项目”的空间中
+4. 此流报告是交互式的。 单击任意值可将流展开到后续或上一页。 使用右键单击菜单可展开或折叠列。 同一流量报告中也可以使用不同的维度。
 
-![流报告](../assets/flow.png)
+![流量报告](/help/technotes/ga-to-aa/assets/flow.png)
 
-## 站点内容-所有页面
+## 站点内容——所有页面
 
-页面报告显示网站上各个页面的性能。
+页面报表显示网站上各个页面的性能。
 
-1. In the Components menu, locate the **Pages** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. 在“组件”菜单中，找到“页 **面** ”维并将其拖动到标有“将维放在此处”的大型自由格式表区域。
+2. 将所需的度量与自动创建的“发生次数”度量一起拖 **动到工** 作区。 有关如何获 [取各个度量的详细信息](common-metrics.md) ，请参阅度量转换指南。
 
-作为替代选择，Adobe提供了几个预创建的名为模板的工作区。内容消耗(Web)模板为所有页面报表提供类似值。
+作为替代方法，Adobe提供了若干名为模板的预创建工作区。 “内容消耗(Web)”模板提供的值与所有页面报表的值类似。
 
-1. Click *[!UICONTROL Project]&gt;[!UICONTROL New]*, which opens a modal window with project options.
+1. 单击 *[!UICONTROL “项目]”(Project[!UICONTROL )&gt; “]*&#x200B;新建”(New)，此时将打开一个包含项目选项的模态窗口。
 2. 单击内容消耗(Web)模板，然后单击创建。
 
-## 站点内容-内容下拉列表
+## 站点内容——内容下钻
 
-内容drzzown报告允许您按URL结构查看页面流量。需要额外的实施才能在Analysis Workspace中使用。Adobe建议与实施顾问合作，以确保准确收集此数据。
+内容下钻报告允许您按URL结构查看页面流量。 Analysis Workspace中需要进一步实施。 Adobe建议与实施顾问合作，以确保准确收集这些数据。
 
-## 站点内容-登陆页面
+## 站点内容——登录页面
 
-登陆页面报告显示您网站上的主要登陆页面。Landing pages are available in Analysis Workspace as the **Entry Page** dimension.
+登陆页面报表显示您网站上的热门登陆页面。 登录页面在Analysis Workspace中作为“登录页 **面”维可用** 。
 
-1. In the Components menu, locate the **Entry Page** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. 在“组件”菜单中，找到“ **条目页面** ”维并将其拖动到标有“将维放在此处”的大型自由格式表区域。
+2. 将所需的度量与自动创建的“发生次数”度量一起拖 **动到工** 作区。 有关如何获 [取各个度量的详细信息](common-metrics.md) ，请参阅度量转换指南。
 
-Adobe recommends using the **Visits** metric for this dimension.
+Adobe建议对此维 **度使用** “访问”量度。
 
-## 站点内容-退出页面
+## 站点内容——退出页面
 
-退出页面报告显示成为个人访问最后一页的顶部页面。它位于同一名称下的Analysis Workspace中。
+退出页面报表显示成为个人访问的最后一页的热门页面。 它在Analysis Workspace中以相同的名称可用。
 
-1. In the Components menu, locate the **Exit Page** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. 在“组件”菜单中，找到“退 **出页面** ”维并将其拖动到标有“将维放在此处”的大型自由格式表区域。
+2. 将所需的度量与自动创建的“发生次数”度量一起拖 **动到工** 作区。 有关如何获 [取各个度量的详细信息](common-metrics.md) ，请参阅度量转换指南。
 
-Adobe recommends using the **Visits** metric for this dimension.
+Adobe建议对此维 **度使用** “访问”量度。
 
 ## 站点速度报告
 
-站点速度报告显示页面加载速度，从而增加页面加载时间。
+网站速度报告显示页面加载速度有多快，从而显示增加页面加载时间的机会。
 
-此功能需要在两个平台上进行额外的实现；Adobe建议与实施顾问合作，确保对Analysis Workspace正确配置此数据。[性能计时插件](../../../implement/js-implementation/plugins/performancetiming.md) 通常分配给eVar以获取Adobe Analytics中的性能数据。
+此功能需要在两个平台上实现额外功能；Adobe建议与实施顾问合作，以确保为Analysis Workspace正确配置此数据。 Performance Timing [插件通常分配给eVar](/help/implement/js-implementation/plugins/performancetiming.md) ，以在Adobe Analytics中获取性能数据。
 
 ## 站点搜索报告
 
-站点搜索报告提供有关访客如何使用站点内部搜索功能的洞察。
+网站搜索报告提供访客如何使用网站内部搜索功能的分析。
 
-此功能需要在两个平台上进行额外的实现；Adobe建议与实施顾问合作，确保对Analysis Workspace正确配置此数据。通常，内部搜索词从查询字符串参数中提取，并放入eVar进行报告。
+此功能需要在两个平台上实现额外功能；Adobe建议与实施顾问合作，以确保为Analysis Workspace正确配置此数据。 通常，内部搜索词会从查询字符串参数中提取并放入eVar中进行报告。
 
 ## 活动报告
 
-活动在Google和Adobe Analytics之间有一些主要的结构性差异。这两种方法都需要额外的实施更改以在其各自的平台上正常工作。
+活动在Google和Adobe Analytics之间有一些主要的结构性差异。 这两种解决方案都需要进行额外的实施更改才能在各自的平台上正常工作。
 
-* 在Google Analytics中，活动在您的实施中被定义为文本。活动有类别、操作和标签。
-* 在Adobe Analytics中，首先在Admin Console中设置活动，然后将其分配给标识符。此标识符用于实施代码。例如：
-   1. 您可以将Admin Console中的event设置为“Registrations”。
-   2. 在您的实施中，您将在注册确认页面上的活动变量中包含event1。每次显示注册确认页面时，活动将增加1。
-   3. 在Analysis Workspace中，“注册”显示为可在任何报告中使用的量度。
+* 在Google Analytics中，事件在您的实施中定义为文本。 事件具有类别、操作和标签。
+* 在Adobe Analytics中，首先在Admin Console中设置事件，在该控制台中为其分配标识符。 该标识符用于实现代码。 例如：
+   1. 您可以在Admin Console中将event1设置为“注册”。
+   2. 在您的实施中，您应在注册确认页面的events变量中包含event1。 每次显示注册确认页面时，event1都会增加。
+   3. 在Analysis Workspace中，“注册”显示为用于任何报表的度量。
 
-由于此功能需要实施更改，Adobe建议与实施顾问合作以确保对Analysis Workspace正确配置数据。
+由于此功能需要实施更改，因此Adobe建议与实施顾问合作，以确保为Analysis Workspace正确配置数据。
 
-## Publisher报告
+## 发布者报告
 
-与Google需要与Google广告管理器的连接相似，Adobe提供专门的产品来提供称为Adobe Advertising Cloud的洞察。如果您的组织有意使用此产品，请与贵组织的客户经理联系。
+与Google需要与Google广告经理建立连接的方式类似，Adobe提供专用产品来提供名为Adobe Advertising Cloud的洞察。 如果贵组织对使用本产品感兴趣，请与贵组织的客户经理联系。
