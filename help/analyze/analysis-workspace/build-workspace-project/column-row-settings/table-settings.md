@@ -5,7 +5,7 @@ seo-title: 行设置
 title: 行设置
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 行设置因您拖入到表格中的组件而异。
 
-您还可以[在表格中使用右键单击操作](../../../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F)来管理选定行。
+您还可以[在表格中使用右键单击操作](/help/analyze/analysis-workspace/visualizations/freeform-table.md)来管理选定行。
 
 要访问表格行设置，请单击每个行内的维度、区段、量度、时间段或划分旁边的“设置”图标：
 
@@ -29,7 +29,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="../../../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> 日期比较</a> </p> </td> 
+   <td colname="col1"> <p><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > 日期比较</a> </p> </td> 
    <td colname="col2"> <p><b>将每列的日期调整为全部从同一行开始。</b> </p> <p>如果选择调整日期，例如在 2016 年 10 月和 9 月间的月同比比较中，左列将从 10 月 1 日开始，右列将从 9 月 1 日开始： </p> <p><img placement="break"  src="assets/add-time-period-column3.png" width="500px" id="image_99398B13FEDA4715B8B818DF6093CA37" /> </p> <p>默认情况下处于禁用状态。 </p> </td> 
   </tr> 
   <tr> 
@@ -38,7 +38,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>列总计 </p> </td> 
-   <td colname="col2"> <p>这些设置只显示<a href="../../../../analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md#concept_C50E7DFBC0504C72A973123192F487D8" format="dita" scope="local">手动（静态）行</a>（在选择了有限项目集时），而不显示动态行（在显示所有项目的维度中拖放时）。 <p>注意：对于<i></i>“量度”手动行，该设置处于禁用状态，因为对表格中当前行以外的任何量度进行汇总都是毫无意义的。 </p> </p> <p><b>通过汇总当前每列的值来计算总数（默认情况下处于启用状态）：</b> </p> <p>此选项仅计算表格中的当前行。（客户端计算） </p> <p><b>根据每个量度的所有行计算总数（默认情况下处于禁用状态）：</b> </p> <p>此选项包括此维度的所有维度项目，甚至包括未列在表格中的维度项目。（服务器端计算） </p> </td> 
+   <td colname="col2"> <p>这些设置只显示<a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md"  >手动（静态）行</a>（在选择了有限项目集时），而不显示动态行（在显示所有项目的维度中拖放时）。 <p>注意：对于<i></i>“量度”手动行，该设置处于禁用状态，因为对表格中当前行以外的任何量度进行汇总都是毫无意义的。 </p> </p> <p><b>通过汇总当前每列的值来计算总数（默认情况下处于启用状态）：</b> </p> <p>此选项仅计算表格中的当前行。（客户端计算） </p> <p><b>根据每个量度的所有行计算总数（默认情况下处于禁用状态）：</b> </p> <p>此选项包括此维度的所有维度项目，甚至包括未列在表格中的维度项目。（服务器端计算） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>划分 </p> </td> 
