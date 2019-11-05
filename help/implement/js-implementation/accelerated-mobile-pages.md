@@ -8,7 +8,7 @@ title: Accelerated Mobile Pages（“加速移动网页”项目）
 topic: 开发人员和实施
 uuid: c86e4a80-7191-4ee7-ab20-787730026c4b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -19,11 +19,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 AMP 是一个[开源项目](https://www.ampproject.org/)，能够帮助您构建可快速呈现静态内容的网页。对于那些希望立即创建移动优化内容并快速在各处上载的发布者而言，此功能将是理想之选。主题包括：
 
-* [工作原理](../../implement/js-implementation/accelerated-mobile-pages.md#section_21C2836D63104794BCEBEECB6593AFBF)
-* [将 amp-analytics 标记与“adobeanalytics”模板结合使用](../../implement/js-implementation/accelerated-mobile-pages.md#section_2E4EBF4EF623440D95DE98E78C47244E)
-* [将 amp-analytics 标记与“adobeanalytics_nativeConfig”模板结合使用](../../implement/js-implementation/accelerated-mobile-pages.md#section_3556B68304A4492991F439885727E9FF)
-* [概要](../../implement/js-implementation/accelerated-mobile-pages.md#section_4D8ED26084F249738A5C2BC66B933A07)
-* [常见问题解答](../../implement/js-implementation/accelerated-mobile-pages.md#section_5F57AA2DE0C5452FB65241058A924C73)
+* [工作原理](/help/implement/js-implementation/accelerated-mobile-pages.md#section_21C2836D63104794BCEBEECB6593AFBF)
+* [将 amp-analytics 标记与“adobeanalytics”模板结合使用](/help/implement/js-implementation/accelerated-mobile-pages.md#section_2E4EBF4EF623440D95DE98E78C47244E)
+* [将 amp-analytics 标记与“adobeanalytics_nativeConfig”模板结合使用](/help/implement/js-implementation/accelerated-mobile-pages.md#section_3556B68304A4492991F439885727E9FF)
+* [概要](/help/implement/js-implementation/accelerated-mobile-pages.md#section_4D8ED26084F249738A5C2BC66B933A07)
+* [常见问题解答](/help/implement/js-implementation/accelerated-mobile-pages.md#section_5F57AA2DE0C5452FB65241058A924C73)
 
 **其他文档和示例**
 
@@ -211,7 +211,7 @@ AMP 项目发展迅速、变化频繁，因此请经常回访[此处](https://gi
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="keyword">Experience Cloud</span> ID 服务是什么？我需要这项服务吗？ </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external">Identity Service</a>（以前称为 <span class="term"> 访客 ID 服务</span>）启用了 <span class="keyword">Experience Cloud</span> 核心服务，并允许不同 Adobe <span class="keyword">Experience Cloud </span> 解决方案集成之间的集成。如果您集成了 <span class="keyword">Adobe 受众管理器</span>或 <span class="keyword">Adobe Target</span>，那么您可以使用此服务。此服务也是众多即将推出的 <span class="keyword">Adobe Analytics</span> 功能的基础。如果您现在或将来需要 ID 服务支持，我们建议您使用 <code> iframeMessage </code> 解决方案。 </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/mcvid/"  >Identity Service</a>（以前称为 <span class="term"> 访客 ID 服务</span>）启用了 <span class="keyword">Experience Cloud</span> 核心服务，并允许不同 Adobe <span class="keyword">Experience Cloud </span> 解决方案集成之间的集成。如果您集成了 <span class="keyword">Adobe 受众管理器</span>或 <span class="keyword">Adobe Target</span>，那么您可以使用此服务。此服务也是众多即将推出的 <span class="keyword">Adobe Analytics</span> 功能的基础。如果您现在或将来需要 ID 服务支持，我们建议您使用 <code> iframeMessage </code> 解决方案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>For the <code> "adobeanalytics_nativeConfig" </code> template, where should I host my utility page? </p> </td> 
@@ -219,7 +219,7 @@ AMP 项目发展迅速、变化频繁，因此请经常回访[此处](https://gi
   </tr> 
   <tr> 
    <td colname="col1"> <p>这是不是类似于 <span class="keyword">Facebook Instant Articles</span>？我该如何在 Facebook Instant Articles 中设置 <span class="keyword">Adobe Analytics</span>？ </p> </td> 
-   <td colname="col2"> <p> Facebook Instant Articles 支持一种与上述 nativeConfig 解决方案类似的解决方案。事实上，上面创建的 stats.html 页面能够同时满足对 AMP 和 FIA 的分析需求。有关在 FIA 中实施跟踪的更多信息，请参阅： <a href="../../implement/js-implementation/analytics-facebook-instant-articles.md#concept_AC9AD1431CD14F919E329A161A80AA08" format="dita" scope="local"> Facebook Instant Articles（即时文章） </a> </p> </td> 
+   <td colname="col2"> <p> Facebook Instant Articles 支持一种与上述 nativeConfig 解决方案类似的解决方案。事实上，上面创建的 stats.html 页面能够同时满足对 AMP 和 FIA 的分析需求。有关在 FIA 中实施跟踪的更多信息，请参阅： <a href="/help/implement/js-implementation/analytics-facebook-instant-articles.md"  > Facebook Instant Articles（即时文章） </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
