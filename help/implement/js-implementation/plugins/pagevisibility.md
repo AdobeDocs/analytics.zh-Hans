@@ -8,7 +8,7 @@ title: getPageVisibility
 topic: 开发人员和实施
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 > [!NOTE]这是此插件的测试版本，未来可能会有其他更新。
 
-此插件要求使用 [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8)。
+此插件要求使用 [getVisitStart](/help/implement/js-implementation/plugins/getvisitstart.md)。
 
 此插件还可记录页面在浏览器内停留的总秒数（包括主动和被动查看时间）。它要求使用 getPreviousValue 插件以便跟踪与页面可见性事件关联的上一页面名称。跟踪这些值可帮助您更好地了解访客参与程度，并更精确地跟踪访客在网站上的行为。
 
