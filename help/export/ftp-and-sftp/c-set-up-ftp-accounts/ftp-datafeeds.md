@@ -7,7 +7,7 @@ solution: Analytics
 title: 数据馈送
 uuid: 3c70eea3-ca59-4aa5-9b11-64e1bb67bfa
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,4 +22,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 当 FTP 帐户已填满时，您应当下载并删除当前的文件，并让 Adobe 知道空间已清理。Adobe 随后可以重新发送还未传送的文件。某些工具，如数据仓库，允许用户重新发送这些文件。重新发送可能不需要 Adobe 的介入。如果您的 FTP 帐户总是频繁被填满，请联系 Adobe 客户关怀，他们会建议您采用其他传送选项，以增加帐户上的 FTP 空间和文件数量配额。
 
-有关 FTP 限制和数据保留的信息，请参阅[FTP 限制和数据保留](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E)。
+有关 FTP 限制和数据保留的信息，请参阅[FTP 限制和数据保留](/help/export/ftp-and-sftp/ftp-limits.md)。
