@@ -7,7 +7,7 @@ title: 运行不同的报表类型
 topic: 报表, Reports and Analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -186,7 +186,7 @@ t_anomaly_view.xml
         <li id="li_4090357A0D214BC7B1C3DE0615875554">如果下限和期望值相同，则偏差%为-100% </li> 
         <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">否则，偏差%为(（下限值——实际值）/（预期值——下限值）)* -100 </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">单击<span class="uicontrol">显示区段</span>可显示区段边栏，以允许您将区段应用到异常检测报表。请参阅有关分段的<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/" format="http" scope="external">更多信息</a>。 </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C">单击<span class="uicontrol">显示区段</span>可显示区段边栏，以允许您将区段应用到异常检测报表。请参阅有关分段的<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/"  >更多信息</a>。 </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">单击<span class="uicontrol">编辑量度</span>可让您选择和取消选择要为其检测异常的量度。 </li> 
      </ul> </p> </td> 
   </tr> 
@@ -241,7 +241,7 @@ t_anomaly_config.xml
 
    有关创建和管理区段的详细信息，请参阅《[Analytics 分段指南](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)》。1. （可选）将报表加入收藏夹或为其添加书签。
 1. （可选）更改查看时段的结束日期。默认日期为昨天。
-1. 您现在可以开始解读报表了。[查看异常检测图表](../../analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)。
+1. 您现在可以开始解读报表了。[查看异常检测图表](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)。
 
 ## 运行实时报表 {#task_5D25929C918E40B18965222FA94176B0}
 
@@ -268,7 +268,7 @@ reports_realtime.xml
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>选择报表包</strong></td> 
-   <td class="chdesc stentry"> 显示此实时报表涵盖的报表包。要更改报表包，请参阅<a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html" format="http" scope="external">实时报表配置</a>。 </td> 
+   <td class="chdesc stentry"> 显示此实时报表涵盖的报表包。要更改报表包，请参阅<a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html"  >实时报表配置</a>。 </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>切换报表</strong></td> 
