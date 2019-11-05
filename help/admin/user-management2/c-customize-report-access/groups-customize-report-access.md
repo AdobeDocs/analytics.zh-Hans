@@ -9,7 +9,7 @@ title: 自定义报表访问 - 概述
 topic: 管理工具
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
   </tr> 
   <tr> 
    <td colname="col1"> <p>自定义群组 </p> </td> 
-   <td colname="col2"> <p> 自定义群组取代了预定义群组。现有预定义群组将迁移到自定义群组，所用的群组名称保持不变。您已创建的任何自定义群组（包括其设置）将被保留。但您会发现，设置的位置将发生移动。例如，“自定义管理控制台”中的“公司设置”现在位于<a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md" format="dita" scope="local">自定义 Analytics 工具</a>中。 </p> <p> 属于“所有报 <span class="term"> 告访问权限</span> ”的用户已迁移到具有以下访问权限的自定义用户组： </p> 
+   <td colname="col2"> <p> 自定义群组取代了预定义群组。现有预定义群组将迁移到自定义群组，所用的群组名称保持不变。您已创建的任何自定义群组（包括其设置）将被保留。但您会发现，设置的位置将发生移动。例如，“自定义管理控制台”中的“公司设置”现在位于<a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">自定义 Analytics 工具</a>中。 </p> <p> 属于“所有报 <span class="term"> 告访问权限</span> ”的用户已迁移到具有以下访问权限的自定义用户组： </p> 
     <ul id="ul_7E1B443DEEF7452E85FEB30CA0BBC8BE"> 
      <li id="li_A510C2A4129340E0AB08EEBDBE4AEAD9">所有维度 </li> 
      <li id="li_8BA1D7A2527C4F10AC93108B9E87F418">所有量度 </li> 
@@ -62,12 +62,12 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
    <td colname="col2"> <p>您可以对权限进行自定义，以便包含或排除对维度（和量度）的访问权限。 </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>自定义群组内的所有当前维度和量度均已自动迁移到新类别。如果现有的群组启用了量度，则默认情况下将为其提供所有新增的许可维度（eVar 和内容识别）和量度。 </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 分类导入器（前身为 SAINT）权限：分类的访问权限取决于对此分类所依据的<a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html" format="html" scope="external">变量</a>的访问权限。 </li> 
-    </ul> <p>See <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md" format="dita" scope="local"> Customize Dimension Permissions</a>. </p> </td> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 分类导入器（前身为 SAINT）权限：分类的访问权限取决于对此分类所依据的<a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html">变量</a>的访问权限。 </li> 
+    </ul> <p>See <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Customize Dimension Permissions</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html" format="html" scope="external"> Adobe Admin Console</a> </p> </td> 
-   <td colname="col2"> <p>仅建议新客户或<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html" format="html" scope="external">已在 Experience Cloud 中设置了</a>公司的客户使用。现有 <span class="keyword">Analytics</span> 客户向 <span class="keyword">Experience Cloud</span> 身份管理系统的迁移已经提上计划日程。 </p> <p>有关更多信息，请参 <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/" format="html" scope="external"> 阅将Analytics用户迁移到Admin Console</a>。 </p> </td> 
+   <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html"> Adobe Admin Console</a> </p> </td> 
+   <td colname="col2"> <p>仅建议新客户或<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html">已在 Experience Cloud 中设置了</a>公司的客户使用。现有 <span class="keyword">Analytics</span> 客户向 <span class="keyword">Experience Cloud</span> 身份管理系统的迁移已经提上计划日程。 </p> <p>有关更多信息，请参 <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/"> 阅将Analytics用户迁移到Admin Console</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>内容识别 </p> </td> 
