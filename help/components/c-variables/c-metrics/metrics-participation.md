@@ -7,7 +7,7 @@ title: 参与率
 topic: 量度
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 参与率量度将成功事件的全部信用分配给访问期间传递的所有 eVar 值。参与率量度可帮助确定哪些页面、促销活动或其他自定义变量值对站点的成功贡献最大。参与率是基于访问的。当事件发生时，点击之前以及包含此点击的访问的所有 eVar 值均会收到参与率信用，无论过期设置如何。
 
-See [Visitor Participation - Ad Hoc Analysis](../../../components/c-variables/c-metrics/metrics-visitor-participation.md#concept_ACBAE3626B224D9683257B5F73E0FB4A) for more information about how Ad Hoc Analysis uses participation.
+See [Visitor Participation - Ad Hoc Analysis](/help/components/c-variables/c-metrics/metrics-visitor-participation.md) for more information about how Ad Hoc Analysis uses participation.
 
 对于参与率量度，每个转化事件均有两个设置：
 
