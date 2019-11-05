@@ -6,7 +6,7 @@ solution: Analytics
 title: Analytics Reporting API 比较
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -36,7 +36,7 @@ Analytics 报表 API 的比较表。提供了支持文档的链接。
    <td colname="col5"> 用于提取大型数据导出的完全处理的完成数据。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/whitepapers/analytics-data-availability.pdf" format="https" scope="external"> 延迟</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/whitepapers/analytics-data-availability.pdf"  > 延迟</a> </p> </td> 
    <td colname="col2"> 30-90 分钟 </td> 
    <td colname="col3"> * 数秒 - 10 分钟 </td> 
    <td colname="col4"> 数秒 - 10 分钟 </td> 
@@ -50,7 +50,7 @@ Analytics 报表 API 的比较表。提供了支持文档的链接。
    <td colname="col5"> 完全 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/" format="https" scope="external"> 报表接口</a> </td> 
+   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/"  > 报表接口</a> </td> 
    <td colname="col2"> Reports &amp; Analytics、Report Builder、API </td> 
    <td colname="col3"> Reports &amp; Analytics 中的实时报表、Report Builder、API </td> 
    <td colname="col4"> 仅限 API </td> 
@@ -86,10 +86,10 @@ Analytics 报表 API 的比较表。提供了支持文档的链接。
   </tr> 
   <tr> 
    <td colname="col1"> <b>文档</b> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B" format="https" scope="external"> Web 服务</a> </p> </td> 
-   <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time" format="https" scope="external"> 实时报表</a> </p> </td> 
-   <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B" format="https" scope="external"> 实时流概述</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html" format="https" scope="external"> Data Warehouse</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B"  > Web 服务</a> </p> </td> 
+   <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time"  > 实时报表</a> </p> </td> 
+   <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B"  > 实时流概述</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
