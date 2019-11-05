@@ -7,7 +7,7 @@ title: 启用 Activity Map
 topic: Activity Map
 uuid: 3043319-d0e6-4977-951a-4492b356e1f2
 translation-type: tm+mt
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -24,7 +24,7 @@ Activity Map 模块是 AppMeasurement.js 文件的一部分（位于文件顶部
 
 1. Download the latest AppMeasurement code (AppMeasurement_Javascript-1.6.zip) by going to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]** and [implement it](https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html).
 
-   我们已经提供了一些[实现代码样例](../../../../analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md#concept_EC27DA8A62F5411EBED51284CB7E1734)，以帮助您直观地了解在添加 Activity Map 模块后代码产生的变化。
+   我们已经提供了一些[实现代码样例](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)，以帮助您直观地了解在添加 Activity Map 模块后代码产生的变化。
 
 1. 验证实现情况：
 
@@ -56,6 +56,6 @@ Activity Map 模块是 AppMeasurement.js 文件的一部分（位于文件顶部
 
 1. [将用户添加到此组](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) ，并 **[!UICONTROL 保存组]**。
 
-1. This allow your Admin users to download Activity Map from  **Adobe Analytics** &gt; **[!UICONTROL Tools]** &gt; **ActivityMap** .
+1. This allow your Admin users to download Activity Map from  **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL ActivityMap]** .
 
 > [!NOTE] 如果您希望非管理员用户下载Activity Map，请创建一个新用户组，该用户组提供“工具”和“旧版ClickMap安装”权限。 此级别权限与“活动图访问”结合使用，可提供下载和使用该工具的权限。
