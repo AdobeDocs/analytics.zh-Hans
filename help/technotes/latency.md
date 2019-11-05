@@ -1,28 +1,28 @@
 ---
-description: The following information can help troubleshoot report suite latency issues in Analytics data.
+description: 以下信息有助于解决Analytics数据中的报表包延迟问题。
 keywords: 缺失数据；慢
-seo-description: The following information can help troubleshoot report suite latency issues in Analytics data.
-seo-title: Data availability and latency
+seo-description: 以下信息有助于解决Analytics数据中的报表包延迟问题。
+seo-title: 数据可用性和延迟
 solution: Analytics
 subtopic: 当前数据
-title: Data availability and latency
+title: 数据可用性和延迟
 topic: 报告
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
 
-# Data availability and latency in Adobe Analytics
+# Adobe Analytics中的数据可用性和延迟
 
 通常，在收集数据后2小时内，您会在报告中看到完整的数据。 以下信息有助于解决Analytics数据中的报表包延迟问题。
 
-## Understanding data batching
+## 了解数据批处理
 
 每个数据收集服务器都捕获并处理原始分析数据，然后每小时上载一次批量数据以进行报告。传输过程通常需要 30 分钟，因此上一个上载过程完成后紧接着出现的正常流量滞后约为 90 分钟（到下一次批量上载需要 60 分钟，传输并显示文件需要 30 分钟）。对于在上传之前直接发生的流量，数据延迟可能会短到30分钟（在下一次批量上传之前0分钟，然后为文件传输和显示30分钟）。
 
-If needed, Adobe Customer Care can enable 30 minute batched data uploads (instead of hourly) for your most-used report suites.
+如果需要，Adobe客户关怀团队可以为您最常用的报表包启用30分钟批量数据上传（而不是每小时）。
 
 ## 延迟贡献者
 
@@ -45,7 +45,7 @@ Adobe Experience cloud中的某些功能在标准处理时间的基础上具有�
 
 有多种策略可以防止滞后或缩短滞后发生后的恢复时间：
 
-* **** 预期流量高峰时通知Adobe:虽然不可能预测到您网站的每个流量尖峰，但有时您可能希望网站的流量会显着增加。 例如，特别成功的假期，或大型营销活动推送后不久。 在这些情况下，您的组织可以通过 Adobe 提供的方式来通知我们预期的流量增加，以便我们可以向您的报表包分配额外的处理资源。请参 [阅管理员用户指南中的计划流量尖峰](../admin/c-traffic-management/t-traffic-schedule-spike.md) ，了解如何向Adobe通知流量增加。
+* **** 预期流量高峰时通知Adobe:虽然不可能预测到您网站的每个流量尖峰，但有时您可能希望网站的流量会显着增加。 例如，特别成功的假期，或大型营销活动推送后不久。 在这些情况下，您的组织可以通过 Adobe 提供的方式来通知我们预期的流量增加，以便我们可以向您的报表包分配额外的处理资源。请参 [阅管理员用户指南中的计划流量尖峰](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) ，了解如何向Adobe通知流量增加。
 * **** 激活新功能时，请考虑处理负载：某些功能的处理密集度高于其他功能。 对报表包启用的功能越多，越难从滞后问题中恢复。在对报表包启用某些功能时，请注意以下功能会增加要处理的数据量：
 
    * 在同一页面上实施20多个活动
