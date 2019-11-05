@@ -8,7 +8,7 @@ title: 添加 Adobe Analytics 工具
 topic: 开发人员和实施
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -45,18 +45,18 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> <p>配置方法 </p> </td> 
-   <td colname="col2"> <p> <b>自动</b>（推荐）：使用动态标签管理来管理配置。这种方法可通过 <span class="keyword">Experience Cloud</span> 登录或 Web 服务 ID 来实现 <span class="keyword">Adobe Analytics</span> 报表包的自动同步，同时还可管理 AppMeasurement 代码。 </p> <p>在连接帐户之后，动态标签管理会将 <span class="keyword">Adobe Analytics</span> 报表包 ID 和名称提取到工具配置界面中，这样可以降低用户出现错误的可能性，同时提高工具部署速度。 </p> <p> <p>注意：<span class="wintitle">Adobe Analytics Premium</span> 客户必须选择“<span class="keyword">自动</span>”选项。请参阅下方的<a href="../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#section_AEAA44566B5A46D2922E17A11D7EA217" format="dita" scope="local">启用 Adobe Analytics Premium</a>。 </p> </p> <p>填写特定于自动配置的字段： </p> 
+   <td colname="col2"> <p> <b>自动</b>（推荐）：使用动态标签管理来管理配置。这种方法可通过 <span class="keyword">Experience Cloud</span> 登录或 Web 服务 ID 来实现 <span class="keyword">Adobe Analytics</span> 报表包的自动同步，同时还可管理 AppMeasurement 代码。 </p> <p>在连接帐户之后，动态标签管理会将 <span class="keyword">Adobe Analytics</span> 报表包 ID 和名称提取到工具配置界面中，这样可以降低用户出现错误的可能性，同时提高工具部署速度。 </p> <p> <p>注意：<span class="wintitle">Adobe Analytics Premium</span> 客户必须选择“<span class="keyword">自动</span>”选项。 </p> </p> <p>填写特定于自动配置的字段： </p> 
     <ul id="ul_8D9797B01E444B9C85B862A9F96B447C"> 
      <li id="li_0AC84C1F37B24C658F2178E50ECCC4B0"> <p> <b>Experience Cloud</b>：（默认）使用 <span class="keyword">Experience Cloud</span> 单一登录。指定 Experience Cloud ID 和密码。 </p> </li> 
-     <li id="li_6C80468835D04CC09F4AEC46D1300310"> <p><b>Web 服务</b>：指定您的 Web 服务用户名和共享密钥。 </p> <p>Shared secret credentials are located in <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Company Settings</span> &gt; <a href="https://docs.adobe.com/content/help/en/analytics/admin/company-settings/web-services-admin.html" format="html" scope="external"> Web Services</a>. </p> <p>开发人员请参阅<a href="https://marketing.adobe.com/developer/en_US/get-started/enterprise-api/c-get-web-service-access-to-the-enterprise-api" format="https" scope="external">获取对企业 API 的 Web 服务访问权限</a>，以获得有关获取 Web 服务凭据的帮助。 </p> </li> 
+     <li id="li_6C80468835D04CC09F4AEC46D1300310"> <p><b>Web 服务</b>：指定您的 Web 服务用户名和共享密钥。 </p> <p>Shared secret credentials are located in <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Company Settings</span> &gt; <a href="https://docs.adobe.com/content/help/en/analytics/admin/company-settings/web-services-admin.html"> Web Services</a>. </p> <p>开发人员请参阅<a href="https://marketing.adobe.com/developer/en_US/get-started/enterprise-api/c-get-web-service-access-to-the-enterprise-api">获取对企业 API 的 Web 服务访问权限</a>，以获得有关获取 Web 服务凭据的帮助。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <b>手动</b>：手动管理 AppMeasurement 代码。您可以从<span class="keyword"></span>管理工具<span class="keyword"> &gt; </span>代码管理器<span class="ignoretag"><span class="uicontrol">下载 </span>Analytics<span class="uicontrol"> </span>AppMeasurement</span> 代码。 </p> <p>单击 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html" format="https" scope="external">JavaScript（新）</a>，以了解关于从本地下载代码以将其复制并粘贴到<a href="../../../implement/c-implement-with-dtm/c-aa-tool/library-management.md#concept_24654766343B4E82A9416A112D2125FE" format="dita" scope="local">库管理</a>中的<span class="wintitle">编辑代码</span>字段中的信息。 </p> <p>填写特定于手动配置的字段： </p> 
+   <td colname="col2"> <p> <b>手动</b>：手动管理 AppMeasurement 代码。您可以从<span class="keyword"></span>管理工具<span class="keyword"> &gt; </span>代码管理器<span class="ignoretag"><span class="uicontrol">下载 </span>Analytics<span class="uicontrol"> </span>AppMeasurement</span> 代码。 </p> <p>单击 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html">JavaScript（新）</a>，以了解关于从本地下载代码以将其复制并粘贴到<a href="/help/implement/c-implement-with-dtm/c-aa-tool/library-management.md">库管理</a>中的<span class="wintitle">编辑代码</span>字段中的信息。 </p> <p>填写特定于手动配置的字段： </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
      <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>生产帐户 ID：</b>（必需）用于数据收集的生产帐户。对于 Analytics，即您的报表包 ID。动态标签管理会在生产和暂存环境中自动安装正确的帐户。 </p> </li> 
      <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>暂存帐户 ID：</b>（必需）用于您的开发或测试环境。对于 Analytics，即您的报表包 ID。暂存帐户可将您的测试数据与生产数据分隔开。 </p> </li> 
-     <li id="li_69E6C6A41F5240E1ABE8ABE0B9D151FC"> <p><b> 跟踪服务器：</b>指定关于 跟踪服务器的信息。 </p> <p><span class="wintitle">跟踪服务器</span>和 <span class="wintitle">SSL 跟踪服务器</span>变量用于第一方 cookie 实施，以指定在其中写入图像请求和 cookie 的域。有关更多信息，请参阅<a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html" format="https" scope="external">正确填充 trackingServer 和 trackingServerSecure 变量</a>一文。 </p> </li> 
+     <li id="li_69E6C6A41F5240E1ABE8ABE0B9D151FC"> <p><b> 跟踪服务器：</b>指定关于 跟踪服务器的信息。 </p> <p><span class="wintitle">跟踪服务器</span>和 <span class="wintitle">SSL 跟踪服务器</span>变量用于第一方 cookie 实施，以指定在其中写入图像请求和 cookie 的域。有关更多信息，请参阅<a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html">正确填充 trackingServer 和 trackingServerSecure 变量</a>一文。 </p> </li> 
      <li id="li_1A7271C68205428F8CA5548A96CACBEC"> <p><b>SSL 跟踪服务器：</b>指定关于 SSL 跟踪服务器的信息。 </p> </li> 
     </ul> </td> 
   </tr> 
@@ -69,7 +69,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 1. （满足条件时）按照以下链接中的说明（[!UICONTROL 常规]、[!UICONTROL 库管理]、[!UICONTROL 全局变量]、[!UICONTROL 页面查看次数和内容]、[!UICONTROL 链接跟踪]、[!UICONTROL 反向链接和促销活动]、[!UICONTROL Cookie]和[!UICONTROL 自定义页面代码]），根据需要进一步配置工具。
 
-有关此工具的其他信息，请参阅 [Adobe Analytics 工具常见问题解答](../../../implement/faq.md#concept_00DF9AF14D30469BB986BF56A448806B)。
+有关此工具的其他信息，请参阅 [Adobe Analytics 工具常见问题解答](/help/implement/faq.md)。
 
 ## 编辑现有的 Adobe Analytics 工具 {#section_148B16AF429B4949B06238D90635B726}
 
