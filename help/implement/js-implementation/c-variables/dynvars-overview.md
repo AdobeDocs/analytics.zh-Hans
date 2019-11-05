@@ -9,7 +9,7 @@ title: 动态变量
 topic: 开发人员和实施
 uuid: 1c6db083-570e-4bc4-858d-84cf46e7bec8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 在页面查看期间发生的 Adobe 图像请求中，如果使用动态变量将 [!UICONTROL Custom Traffic ] 的值复制到 [!UICONTROL Custom Conversion ]，则会显示 `v1=D=c1`1=1。如果 eVar1 收到之前在请求中的值，则 Adobe 服务器会在数据处理过程中将 [!UICONTROL Custom Traffic 1] 的值动态复制到 [!UICONTROL Custom Conversion 1]。这样，最初使用 [!UICONTROL Custom Traffic 1] 传递的值也会出现在 [!UICONTROL Custom Conversion 1] 报表中。
 
-通过将一个变量设置为所需的值，然后将其他变量设置为 `D=[variable abbreviation]`]，可传递动态变量。有关每个变量的缩写，请参阅[数据收集查询参数](../../../implement/js-implementation/data-collection/query-parameters.md)。动态变量可以从以下位置提取数据：
+通过将一个变量设置为所需的值，然后将其他变量设置为 `D=[variable abbreviation]`]，可传递动态变量。有关每个变量的缩写，请参阅[数据收集查询参数](/help/implement/js-implementation/data-collection/query-parameters.md)。动态变量可以从以下位置提取数据：
 
 * 其他查询字符串变量
 * HTTP 头（Cookie HTTP 头除外）
