@@ -7,7 +7,7 @@ title: 移动设备
 topic: 报告
 uuid: ec8f6977-da92-478e-a934-c32cf5889526
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -87,11 +87,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> 操作系统（已弃用） </td> 
-   <td colname="col2"> <p> 按设备上运行的操作系统对移动设备进行分组。移动操作系统包括 Windows、RIM、iOS、Symbian 等。对于未识别的移动操作系统，该报表还提供了“未知”组。 </p> <p>注意：更新“技术”&gt;“操作系统 <a href="../../../components/c-variables/dimensionslist/reports-operating-system.md#concept_3FADC871C6204533B4FCE73316B0B34F" format="dita" scope="local"></a> ”报告以包含所有操作系统（包括移动设备）时，此报告已弃用。 您可以创建一个存在“移动设备”的区段，并将它应用于“技术”&gt;“操作系统”报表，以便仅查看移动操作系统。 </p> </td> 
+   <td colname="col2"> <p> 按设备上运行的操作系统对移动设备进行分组。移动操作系统包括 Windows、RIM、iOS、Symbian 等。对于未识别的移动操作系统，该报表还提供了“未知”组。 </p> <p>注意：更新“技术”&gt;“操作系统 <a href="/help/components/c-variables/dimensionslist/reports-operating-system.md"  ></a> ”报告以包含所有操作系统（包括移动设备）时，此报告已弃用。 您可以创建一个存在“移动设备”的区段，并将它应用于“技术”&gt;“操作系统”报表，以便仅查看移动操作系统。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Java 版本 </td> 
-   <td colname="col2"> <p> 按移动设备支持的 Java 版本对移动设备进行分组。Java 版本报表通过设备支持的 Java Specification Request (JSR) 来识别 Java 版本。对于未识别的移动操作系统，该报表还提供了“未知”组。 </p> <p>有关 JSR 的详细信息，请访问 <a href="https://jcp.org/en/jsr/overview" scope="external" format="html">Java Community Process</a> 网站。 </p> </td> 
+   <td colname="col2"> <p> 按移动设备支持的 Java 版本对移动设备进行分组。Java 版本报表通过设备支持的 Java Specification Request (JSR) 来识别 Java 版本。对于未识别的移动操作系统，该报表还提供了“未知”组。 </p> <p>有关 JSR 的详细信息，请访问 <a href="https://jcp.org/en/jsr/overview"  >Java Community Process</a> 网站。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 书签 URL 长度 </td> 
