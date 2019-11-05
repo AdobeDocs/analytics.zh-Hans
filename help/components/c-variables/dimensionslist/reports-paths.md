@@ -7,7 +7,7 @@ title: 路径
 topic: 报告
 uuid: 1f6df932-76cd-490d-b883-d59277405178
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ![](assets/fallout_graphic.png)
 
-请参阅[流失报表](../../../components/c-variables/dimensionslist/reports-fallout.md#concept_DE1F8040F1B741F087B78568B342EC41)创建顺序区段。
+请参阅[流失报表](/help/components/c-variables/dimensionslist/reports-fallout.md)创建顺序区段。
 
 **[!UICONTROL PathFinder]**：可让您进一步将整个路径剖析为片段，从而生成有助于优化网站的精确模式。PathFinder 向导允许您指定用于生成报表的选择标准，以便您能够分析路径片段，查询以特定页面开头的片段，以特定页面结尾的片段，或以一个页面开头并以另一个页面结尾的片段。
 
