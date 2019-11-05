@@ -8,7 +8,7 @@ title: Analysis Workspace 中的新增功能
 topic: Reports and Analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -100,7 +100,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>新模板：音频使用情况</b> </p> </td> 
-   <td colname="col2"> <p>请参阅 <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/media-workspace-templates.html" format="html" scope="external">Analytics 音频</a>。 </p> </td> 
+   <td colname="col2"> <p>请参阅 <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/media-workspace-templates.html"  >Analytics 音频</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -140,7 +140,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/attribution-iq/attribution.md#concept_5BDCF631FCC841FF920FE07F1B0D08A2" format="dita" scope="local"> 归因 IQ </a> </b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/attribution-iq/attribution.md"  > 归因 IQ </a> </b> </p> </td> 
    <td colname="col2"> <p>借助“归因 IQ”，您可以对营销效果进行更复杂、更智能的分析。新的归因模型可用于 Analysis Workspace（在任何表格或任何划分中）和计算量度中的量度。新的归因面板可提供更好的可视化图表和比较。 </p> </td> 
   </tr> 
   <tr> 
@@ -158,7 +158,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> <p>如果可能，我们现在会显示计算量度的总数，包括百分数 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>新的<a href="../../analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#concept_7705EA2616284F7185D82F5E872257FE" format="dita" scope="local">日期范围</a>预设</b> </p> </td> 
+   <td colname="col1"> <p><b>新的<a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  >日期范围</a>预设</b> </p> </td> 
    <td colname="col2"> <p>在 Analysis Workspace 的日期范围预设中添加了“最近 13 周整”。 </p> </td> 
   </tr> 
  </tbody> 
@@ -177,7 +177,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/components/dimensions/view-dimensions.md#concept_5459DF3389564391A04AEBC63D732337" format="dita" scope="local"> 动态维度列 </a> </b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md"  > 动态维度列 </a> </b> </p> </td> 
    <td colname="col2"> <p>以往在列中放置维度时，最多可显示 5 个与时间无关的维度值（以及 15 个时间维度值），并且这些值都是静态的（即，选择的 5 个值永远不会发生变化）。 </p> <p>从今以后，默认情况下将显示动态值而非静态值，同时还会提供一个将动态值转变为静态值的选项。其他注意事项： </p> 
     <ul id="ul_C802BC32CB084E30B4E58E9E90B9A63D"> 
      <li id="li_452466AB416F4737B532849C604BD4CC">点击动态维度上的“i”，可查看排名（5 个值中的第 1 个）和维度类型。 </li> 
@@ -210,7 +210,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> <p>我们将在界面右下角提供“每日提示”（以及相应的短视频）。这些提示旨在帮助您熟悉 Analysis Workspace 的众多炫酷功能。您可以选择取消这些提示，或者随时通过<span class="uicontrol">帮助</span> &gt; <span class="uicontrol">提示</span>来访问这些提示。 </p> <p><img  src="assets/tip_of_day.png" width="300px" id="image_44A2AA712E4242EC92A180380E66AD7D" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> 区 <a href="../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80" format="dita" scope="local"> 段模板 </a> 和计算 <a href="../../analyze/analysis-workspace/components/apply-create-metrics.md#concept_941E9463B88D4EC59076B0E3D76F7C5B" format="dita" scope="local"> 量度模板 </a></b> </p> </td> 
+   <td colname="col1"> <p><b> 区 <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 段模板 </a> 和计算 <a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  > 量度模板 </a></b> </p> </td> 
    <td colname="col2"> <p>现在，左边栏会显示区段模板和计算量度模板。 </p> </td> 
   </tr> 
   <tr> 
@@ -218,7 +218,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> <p>现在，将组件拖动到新位置时，您可以上下进行滚动。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>有关 <a href="../../analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md#concept_B215F229DD804928BB4455198E89A68D" format="dita" scope="local"> 异常的更多信息 </a></b> </p> </td> 
+   <td colname="col1"> <p><b>有关 <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > 异常的更多信息 </a></b> </p> </td> 
    <td colname="col2"> <p>现在，将鼠标悬停在折线图中的异常时，异常信息会显示异常的日期和原始值。 </p> </td> 
   </tr> 
  </tbody> 
@@ -237,19 +237,19 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#concept_05C48D3D834F416994602216C9FF6535" format="dita" scope="local">默认启用“标题文本换行”</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  >默认启用“标题文本换行”</a> </p> </td> 
    <td colname="col2"> <p>默认情况下，将为自由格式表启用列设置<span class="uicontrol">标题文本换行</span>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md#concept_AA32AA9932F744FB9044F59C7B8E562C" format="dita" scope="local"> 新的行设置 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > 新的行设置 </a> </p> </td> 
    <td colname="col2"> <p>新的<span class="uicontrol">按行计算百分比</span>设置强制自由格式表计算整行中的单元格百分比，而不是沿列向下计算。这对显示百分比趋势特别有用，例如显示一个维度值与其余维度值在一段时间内的对比趋势。在单击<span class="uicontrol">可视化</span>图标时，默认情况下会开启该设置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B" format="dita" scope="local">“100% 堆叠”可视化设置</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  >“100% 堆叠”可视化设置</a> </p> </td> 
    <td colname="col2"> <p>堆叠的区域/堆叠的条形/堆叠的水平条形可视化的新可视化设置将图表变为“100% 堆叠”的可视化，因此您可以度量相对比例。 </p> <p><img placement="break"  src="assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/virtual-analyst/virtual-analyst.md#concept_2DEA84993D8641808C25CF2DC286093E" format="dita" scope="local"> 异常检测和贡献分析</a>当前只能通过 Analysis Workspace 使用 </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/virtual-analyst.md"  > 异常检测和贡献分析</a>当前只能通过 Analysis Workspace 使用 </p> </td> 
    <td colname="col2"> <p>异常检测和贡献分析已从 Reports &amp; Analytics 功能集中删除，现在只能通过 Analysis Workspace 使用。 </p> <p>请注意，Adobe Analytics select和Adobe Analytics Foundation客户只能访问Workspace中的“每日粒度”异常检测。 </p> </td> 
   </tr> 
  </tbody> 
@@ -268,15 +268,15 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#concept_05C48D3D834F416994602216C9FF6535" format="dita" scope="local"> 标题文本环绕 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > 标题文本环绕 </a> </p> </td> 
    <td colname="col2"> <p>现在，您可以隐藏自由格式表中的标头文本，以使标头更加易读，表格更易共享。我们在“列”设置中添加了一个名为“标题文本绕排”的选项。 这对 .pdf 渲染和名称较长的量度尤其有用。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/components/apply-create-metrics.md#concept_941E9463B88D4EC59076B0E3D76F7C5B" format="dita" scope="local">通过右键单击创建量度</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  >通过右键单击创建量度</a> </p> </td> 
    <td colname="col2"> <p>为了更便于快速创建计算量度，<span class="uicontrol">从所选内容创建量度</span>已添加到自由格式表的右键单击菜单。在选定一个或多个标头列单元格时，会显示该选项。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/map-visualization.md#concept_FC933745EDC248D6A783FC6865607F16" format="dita" scope="local"> 地图可视化增强 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > 地图可视化增强 </a> </p> </td> 
    <td colname="col2"> <p>为了能在地图可视化中显示同期（例如，年度）比较信息，我们已添加了以下增强功能： </p> 
     <ul id="ul_F570E6AB174C45788620CF50E2742A08"> 
      <li id="li_746E329037764644A9CCF79161C26350">地图可视化增强现在可以显示负数。例如，如果您绘制的是以年同比量度，地图会在纽约上方显示 -33%。 </li> 
@@ -285,7 +285,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5" format="dita" scope="local"> 自定义模版更新 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > 自定义模版更新 </a> </p> </td> 
    <td colname="col2"> <p>对于最近发布的自定义模版，我们已 </p> 
     <ul id="ul_787F48253F454163B99F6DD50F199FE2"> 
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">在项目的顶部（标题附近）添加了模板图标，以帮助将编辑模板模式与使用模板作为项目起始点区分开来。 </li> 
@@ -308,11 +308,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#section_309C3DEDC9584A3FA3699BE10BF751ED" format="dita" scope="local"> 自定义工作区模板 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md#create-custom-template"  > 自定义工作区模板 </a> </p> </td> 
    <td colname="col2"> <p>您现在可以构建并保存自己的工作区模板，这样一来，公司中的其他用户便可以开始使用与自己相关的数据。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2" format="dita" scope="local">“新建项目”启动模式</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  >“新建项目”启动模式</a> </p> </td> 
    <td colname="col2"> <p>单击“新项目”将启动一个新屏幕，该屏幕允许您选择 </p> 
     <ul id="ul_FE90E6B9AF334A029D66A43901F8FA0B"> 
      <li id="li_F1DFD9AE140C4E5B849D4C522D5968DB">空白项目，或 </li> 
@@ -325,15 +325,15 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> <p>我们增加了一个右键单击“复制到剪贴板”选项，利用该选项可以持续复制单元格/表格。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#concept_05C48D3D834F416994602216C9FF6535" format="dita" scope="local">对列中的百分比做出了改进</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  >对列中的百分比做出了改进</a> </p> </td> 
    <td colname="col2"> <p>列中显示的“总百分比”上限为100%，即使某些情况导致行占总数的比例超过100%（如平均值）。 </p> <p>现在，我们可以显示大于 100% 的百分比，准确度提高了。此外，我们还将上限调整为 1,000%，以确保允许列值有充足的变化范围。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB" format="dita" scope="local"> 在各种划分中启用了条件格式 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > 在各种划分中启用了条件格式 </a> </p> </td> 
    <td colname="col2"> <p>现在，除非选择“自定义”限制，否则自动在自由格式表中应用条件格式（颜色等）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Changes to default <a href="../../analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#concept_7705EA2616284F7185D82F5E872257FE" format="dita" scope="local"> calendar </a> view </p> </td> 
+   <td colname="col1"> <p>Changes to default <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > calendar </a> view </p> </td> 
    <td colname="col2"> <p>如今，工作区日历默认情况下将显示当前月份和上一月份，而不是当前月份和下一月份。 </p> </td> 
   </tr> 
   <tr> 
@@ -356,7 +356,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>自由格式表格中增加了更多的维度项目<a href="../../analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.md#concept_3E1AE8B53CBE4D06B2C4470EDA7E9FE9" format="dita" scope="local">过滤选项</a> </p> </td> 
+   <td colname="col1"> <p>自由格式表格中增加了更多的维度项目<a href="/help/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.md"  >过滤选项</a> </p> </td> 
    <td colname="col2"> <p>已经为维度项目增加了以下（高级）过滤选项（除了现有的“包含”和“不包含”选项之外）： </p> 
     <ul id="ul_869B3E943E304C0282D56AD96BB79E18"> 
      <li id="li_81A49BA0CA3041C7AB892FAD2D129E5A">包含所有词语 </li> 
@@ -371,11 +371,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_05B7914D4C9E443F97E2BFFDEC70240C" format="dita" scope="local"> 在不同面板、不同项目之间复制和粘贴可视化/面板</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_05B7914D4C9E443F97E2BFFDEC70240C"  > 在不同面板、不同项目之间复制和粘贴可视化/面板</a> </p> </td> 
    <td colname="col2"> <p>现在，您可以右键单击并复制可视化或面板，然后将复制的可视化或面板粘贴（“插入”）到同一项目的其他位置或其他项目中。 </p> <p>您可以利用此项功能来创建一些能够复制到其他项目中的“构建基块”（预定义的可视化/面板），从而更加快速地运用特定于您公司的数据。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5" format="dita" scope="local">新增了 Mobile “消息”模板和“位置”模板</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  >新增了 Mobile “消息”模板和“位置”模板</a> </p> </td> 
    <td colname="col2"> <p>添加了以下两种项目模板： </p> 
     <ul id="ul_2F5976C849474A2B8A6BCDA2559F2855"> 
      <li id="li_51B7830E062A4CFDBDF219C56249A733">一种全新的 Mobile 项目“消息”模板，此模板重点关注应用内消息推送的性能。 </li> 
@@ -387,19 +387,19 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> <p>在调整最左侧列的大小时，Workspace 现在会保持其余列的宽度百分比（而不只是调整右侧的下一列宽度）。这种改变有助于更加快速地创建表格以进行分析和共享。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>可在表格中显示 <a href="../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F" format="dita" scope="local">400 行</a>内容 </p> </td> 
+   <td colname="col1"> <p>可在表格中显示 <a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  >400 行</a>内容 </p> </td> 
    <td colname="col2"> <p>现在，您可以在表格中显示 400 行（比之前增多了 200 行），从而可在表格中囊括 365 天的趋势。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/map-visualization.md#concept_FC933745EDC248D6A783FC6865607F16" format="dita" scope="local"> PDF 中的地图可视化支持</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > PDF 中的地图可视化支持</a> </p> </td> 
    <td colname="col2"> <p>现在可以在 PDF 中对 2017 年 10 月推出的地图可视化进行渲染。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2" format="dita" scope="local"> 复制/另存为项目时使用相对内部链接</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > 复制/另存为项目时使用相对内部链接</a> </p> </td> 
    <td colname="col2"> <p>以前，当您复制项目或执行“另存为”操作时，项目中保存的所有内部链接都指向原始项目，而不指向复制的项目。 </p> <p>现在，执行“复制”或“另存为”操作后，内部链接都是一些相对于其所在项目的链接。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>贡献分析：<a href="https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html" format="html" scope="external">令牌通知 </a> </p> </td> 
+   <td colname="col1"> <p>贡献分析：<a href="https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html"  >令牌通知 </a> </p> </td> 
    <td colname="col2"> <p>如果贵公司的贡献分析令牌数量有限，则您每次用掉一个令牌后 Analysis Workspace UI 中会显示相关通知。这可以让您知晓还剩下多少令牌。&amp;nbsp; </p> <p>（管理员用户：您可以通过编辑群组权限，对能够使用令牌的人员进行限制。此权限称为“异常检测和贡献分析”，位于 <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">编辑群组</span> &gt; <span class="uicontrol">编辑所有报表访问权限</span> &gt; <span class="uicontrol">自定义报表包工具</span> &gt; <span class="uicontrol">工具和报表</span>下。） </p> </td> 
   </tr> 
   <tr> 
@@ -449,23 +449,23 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/map-visualization.md#concept_FC933745EDC248D6A783FC6865607F16" format="dita" scope="local"> 地图可视化 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > 地图可视化 </a> </p> </td> 
    <td colname="col2"> <p>新的映射可视化(&amp;A)nbsp；允许您在客户所在位置的上下文中轻松查看客户交互。 从宏观（全球）视图到微观（城市）视图，您可以轻松地放大和缩小可视化中的各种层次结构等级，以了解跨区域的客户集群。 </p> <p>您可以通过 IP 地址对位置数据进行可视化（对于非移动数据集），或者可以在 Analysis Workspace 中将经纬度数据（对于使用 Mobile SDK 的客户）变得生动有趣。&amp;nbsp; </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/line.md#concept_EBE07FCD66C24D2AB58F1EC0F8017AD8" format="dita" scope="local"> 趋势可视化的粒度选择器 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  > 趋势可视化的粒度选择器 </a> </p> </td> 
    <td colname="col2"> <p>现在，当数据源中的维度为时间维度时，您可以轻松地在时间粒度之间切换。您可以从可视化设置的下拉列表中切换粒度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80" format="dita" scope="local"> 区段拖放区域中的完整维度和事件 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 区段拖放区域中的完整维度和事件 </a> </p> </td> 
    <td colname="col2"> <p>以前，您只能将维度项目、日期范围或区段放入区段拖放区域。现在您可以将完整的维度或事件放入区段拖放区域。在这两种情况下，Analysis Workspace 将创建“存在”点击区段。 </p> <p>示例：“在 eVar1 存在的地方点击”或“在 event1 存在的地方点击”。 </p> <p>注意：您无法将计算量度放入区段区域。只有这些可为其构建区段的维度/量度才具有放入区段区域的资格。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/t-sync-visualization.md#task_A73B065DC3834AFCA422E364A1468099" format="dita" scope="local"> 数据源设置中列出了已连接的可视化 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md"  > 数据源设置中列出了已连接的可视化 </a> </p> </td> 
    <td colname="col2"> <p>如果有可视化连接到自由格式或同类表，左上侧的点（数据源设置）即会列出连接的可视化。将鼠标悬停在其上方将突出显示链接的可视化，单击它即会转到该可视化。 </p> <p>此外，还有一个“显示/隐藏数据表”复选框可让您显示或隐藏数据表。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2" format="dita" scope="local">向左边栏事件名称添加了 Event#</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  >向左边栏事件名称添加了 Event#</a> </p> </td> 
    <td colname="col2"> <p>在 2017 年 10 月之前，evar# 和 prop# 均被附加到维度名称，您可以对这些数字编号进行搜索。相同的功能现在也可用于事件。 </p> <p>示例：“Subscriptions”当前在左边栏中显示为“Subscriptions (event1)”。 </p> <p>请记住： </p> 
     <ul id="ul_5DF85C65F7004539949DDC4F23922296"> 
      <li id="li_A685834B4914460D87568583BB39C474">表中不显示事件编号（为了使标题保持简短）。 </li> 
@@ -473,7 +473,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2" format="dita" scope="local"> 在默认情况下，现有的维度按逻辑顺序排序 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > 在默认情况下，现有的维度按逻辑顺序排序 </a> </p> </td> 
    <td colname="col2"> <p>某些现有维度的默认排序顺序在下列情况下已更新： </p> 
     <ul id="ul_B9C0C761F39E43A4977EC028F4D4525C"> 
      <li id="li_FE72ADDCD32A4FF7907462726D6E7758">当它们被拖到自由格式表中时。 </li> 
@@ -481,11 +481,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> <p>例如，如果将“小时”放入表中，它将按照从 12AM 至 11PM 的顺序进行排序。您仍然可以选择按照任何量度列进行排序。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md" format="dita" scope="local">允许置信度间隔重新缩放图表的选项</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  >允许置信度间隔重新缩放图表的选项</a> </p> </td> 
    <td colname="col2"> <p>异常检测置信度间隔不会自动缩放可视化的 y 轴以期让图表变得更加清晰易读。 </p> <p>您现在可以选择允许置信度间隔缩放图表。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/components/c-alerts/alert-manager.md" format="dita" scope="local"> 警报：已添加<b>续订</b>选项 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/components/c-alerts/alert-manager.md"  > 警报：已添加<b>续订</b>选项 </a> </p> </td> 
    <td colname="col2"> <p>在警报管理器中选择了一个或多个警报后，可通过单击<span class="uicontrol">续订</span>来续订它们。 </p> <p>这会将它们的过期日期延长一年的时间（从单击<span class="uicontrol">续订</span>之日算起，而不考虑它们的原始过期日期）。 </p> </td> 
   </tr> 
   <tr> 
@@ -513,7 +513,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md#concept_03D6295D84CD42528D40B932AD80AE04" format="dita" scope="local">Analysis Workspace 中的时间划分维度</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md"  >Analysis Workspace 中的时间划分维度</a> </p> </td> 
    <td colname="col2"> <p>基于时间戳的维度现已添加到 Analysis Workspace 中。维度包括： </p> 
     <ul id="ul_9BDBC0B344504E85840040E493873A47"> 
      <li id="li_826A8CBF4FDB4C98AC176C7145C09DB2">每天时间（例如，01 时、12 时、15 时、23 时） </li> 
@@ -527,27 +527,27 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#concept_05C48D3D834F416994602216C9FF6535" format="dita" scope="local"> 在自由格式表中一次管理多个列 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > 在自由格式表中一次管理多个列 </a> </p> </td> 
    <td colname="col2"> <p>您现在可一次更改多个列中的设置，只需选择多个列并单击其中任意一列的设置图标。您所做的任何更改将应用于有单元格被选中的所有列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md#concept_7D1D66E9D34D4C52902C8E2D92658B27" format="dita" scope="local"> 流量：维度间标签设置 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > 流量：维度间标签设置 </a> </p> </td> 
    <td colname="col2"> <p>现在每个“流量”列的顶部有一个新的维度标签，让您在流量可视化图表中使用多个维度时变得更加直观。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477" format="dita" scope="local"> 直方图点击计数方法 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477"  > 直方图点击计数方法 </a> </p> </td> 
    <td colname="col2"> <p>以前，直方图可视化图表中有两种计数方法：访问和访客（默认）。 </p> <p>现在可以使用第三种计数方法作为区段容器，即“点击”。“发生次数”用作自由形式表中的y轴度量。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>  用于区段比较和贡献分析配置的<span class="uicontrol">全部清除</span>按钮 </p> </td> 
    <td colname="col2"> <p>您现在可以“全部清除”工作区中以下区域的所有元素，而不必手动删除每个元素。 </p> 
     <ul id="ul_73E06D64CDCA4E83B9FEC2FD99D41CD3"> 
-     <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC" format="dita" scope="local">“贡献分析”中“排除的组件”</a> </li> 
-     <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="../../analyze/analysis-workspace/c-panels/c-segment-comparison/compare-segments.md#section_5E98FFA0744140C08D83700E3F025937" format="dita" scope="local">“区段比较”中“排除的组件”</a> </li> 
+     <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC"  >“贡献分析”中“排除的组件”</a> </li> 
+     <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/compare-segments.md#section_5E98FFA0744140C08D83700E3F025937"  >“区段比较”中“排除的组件”</a> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/summary-number-change.md#concept_804726EA096349F8AECF8C2D3DFD9BE4" format="dita" scope="local">“概要变化”中的显示类型更新了名称</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/summary-number-change.md"  >“概要变化”中的显示类型更新了名称</a> </p> </td> 
    <td colname="col2"> <p>目前在“概要变化选项”中使用的两个选项进行了重命名，以明确其含义： </p> 
     <ul id="ul_7301D1C73E72424F911EE8DAAD9247A0"> 
      <li id="li_89D94632E0C94263A84887AF5B360E27">显示变化 &gt; 显示百分比变化 </li> 
@@ -555,7 +555,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/summary-number-change.md#concept_804726EA096349F8AECF8C2D3DFD9BE4" format="dita" scope="local"> 扩展了简化的概要数字/变化的小数位 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/summary-number-change.md"  > 扩展了简化的概要数字/变化的小数位 </a> </p> </td> 
    <td colname="col2"> <p>以前，在简化的概要数字/变化可视化图表中，显示的小数位为 0 个。 </p> <p>现在，您可以选择 0 至 3 个小数位来强化您的报告。 </p> </td> 
   </tr> 
  </tbody> 
@@ -574,19 +574,19 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2" format="dita" scope="local"> 在保存过程中标记项目 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > 在保存过程中标记项目 </a> </p> </td> 
    <td colname="col2"> <p>您当前可在保存项目时为项目添加标记。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/freeform-overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7" format="dita" scope="local">“项目”列表页面中的“标记”列</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md"  >“项目”列表页面中的“标记”列</a> </p> </td> 
    <td colname="col2"> <p>已在“工作区”项目列表页面中添加了“<span class="wintitle">标记</span>”列。此列会显示每个项目的标记。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/c-flow/flow.md#concept_2F210EC358ED4887AE6DAA8C095DB55E" format="dita" scope="local"> 将“流量”可视化导出为 .CSV 文件 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  > 将“流量”可视化导出为 .CSV 文件 </a> </p> </td> 
    <td colname="col2"> <p>您可以下载 .csv 文件格式的“流量”可视化，它允许您在 Microsoft Excel（以表形式显示）或其他软件中分析“流量”结果。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/components/c-alerts/intellligent-alerts.md" format="dita" scope="local"> 智能警报：额外的置信区间 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/components/c-alerts/intellligent-alerts.md"  > 智能警报：额外的置信区间 </a> </p> </td> 
    <td colname="col2"> <p>对于基于异常检测的警报，添加了两个新的置信水平（99.75％ 和 99.9％）。某些粒度选择的默认值也发生了更改： </p> 
     <ul id="ul_EB1F07A4D2204D57B2DDD9838CE4F5D9"> 
      <li id="li_542AAACE703F4EBFBD91F11F5ABC2929">每小时：当前为 99.75% </li> 
@@ -609,23 +609,23 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F" format="dita" scope="local"> 富文本编辑器 </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/visualizations/text.md"  > 富文本编辑器 </a></b> </p> </td> 
    <td colname="col2"> <p>允许您更改文本框可视化和面板/可视化描述中的字体设置（粗体、斜体等）和超链接。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="../../analyze/analysis-workspace/analysis-workspace-features.md#section_253EA04E067F4A29A8B54CE2B7631086" format="dita" scope="local">内部链接（使链接快速可视化）</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/analysis-workspace-features.md#section_253EA04E067F4A29A8B54CE2B7631086"  >内部链接（使链接快速可视化）</a></b> </p> </td> 
    <td colname="col2"> <p><b>内部链接</b>允许您从文本框向下链接到项目中的特定面板和可视化，如创建项目目录。您可以像共享项目链接一样共享这些链接，以将某个人定向到项目中的特定可视化或面板。新增了名为“获取面板链接”和“获取可视化链接”的右键单击选项。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_94F1988CB4B9434BA1D9C6034062C3DE" format="dita" scope="local"> 图例标签编辑 </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_94F1988CB4B9434BA1D9C6034062C3DE"  > 图例标签编辑 </a></b> </p> </td> 
    <td colname="col2"> <p>让您可以重命名可视化图例（流失、面积图、堆叠的面积图、条形图、堆叠的条形图、圆环图、直方图、水平条形图、堆叠的水平条形图、折线图、散点图和维恩图）中的系列名称，以帮助您使视觉对象更易于使用。 </p> <p>图例编辑<b>不</b>适用于以下内容：树形图、项目符号、概要变化或概要数字、文本、自由格式、直方图、同类群组或流量可视化。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> “管 <a href="../../analyze/analysis-workspace/visualizations/t-sync-visualization.md#task_A73B065DC3834AFCA422E364A1468099" format="dita" scope="local"> 理数据源”的更新 </a></b> </p> </td> 
+   <td colname="col1"> <p><b> “管 <a href="/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md"  > 理数据源”的更新 </a></b> </p> </td> 
    <td colname="col2"> <p>我们重新开发了如何管理数据源（支持可视化）。 在将数据源锁定到表时，不再提供单独的隐藏表。 </p> <p>我们而是会将可视化绑定到用于创建该可视化的表。这还将解决实时链接表存在的以下错误：更改粒度后，下次加载项目时又恢复为旧粒度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#concept_0E420C3EB71847399AA1D719C0B75250" format="dita" scope="local"> 突出显示特定异常的功能 </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md"  > 突出显示特定异常的功能 </a></b> </p> </td> 
    <td colname="col2"> <p>在贡献分析和链接到该贡献分析的智能警报项目中，我们现在使用蓝色圆点突出显示异常。这样可以更清楚地指示正在分析的异常。 </p> </td> 
   </tr> 
   <tr> 
@@ -633,7 +633,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> <p>之前，如果您使用 Experience Cloud 凭据登录并导航到 Analytics，则无法使用<span class="ignoretag"><span class="uicontrol">共享</span> &gt; <span class="uicontrol">获取项目链接</span></span>功能。我们已解决此问题。 但您仍必须先保存项目，然后此选项才会变得可单击。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="../../analyze/analysis-workspace/curate-share/schedule-projects.md#concept_A7B9856EF2504BD791FE5A9E8AA7C29C" format="dita" scope="local">计划项目管理器中的“过期项目”</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/curate-share/schedule-projects.md"  >计划项目管理器中的“过期项目”</a></b> </p> </td> 
    <td colname="col2"> <p>现在，您可以在计划项目管理器中过滤过期的项目。然后，决定是重新启动还是删除这些项目。 </p> </td> 
   </tr> 
  </tbody> 
@@ -652,7 +652,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md#concept_298891C950D5498FA820CC4D7F51F4CA" format="dita" scope="local"> 流失增强功能</a></b> </td> 
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md"  > 流失增强功能</a></b> </td> 
    <td colname="col2"> 
     <ul id="ul_8A979BC0BE0F4D008F68B019A2D83A08"> 
      <li id="li_C8093834980B43A094FA9E2A7906E135">可进行比较的区段没有数量限制。 </li> 
@@ -663,14 +663,14 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="../../analyze/analysis-workspace/visualizations/c-flow/flow-settings.md#concept_1DD357A991414622877364BAB40C8E26" format="dita" scope="local"> <b>流量增强功能</b></a> </td> 
+   <td colname="col1"> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  > <b>流量增强功能</b></a> </td> 
    <td colname="col2"> 
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1"> 
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">添加了新的可视化设置，称为<span class="wintitle">禁用标签截断</span>（默认值 = 取消选中）。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#concept_7705EA2616284F7185D82F5E872257FE" format="dita" scope="local"> 日历</a></b>更改 </td> 
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > 日历</a></b>更改 </td> 
    <td colname="col2"> 使日历与 Reports &amp; Analytics 一致的日历更改包括： 
     <ul id="ul_BD706B07369F4339BF4925F22FEC1C7F"> 
      <li id="li_33A47BAAD3C04C8784D2FC00A6F6782E">首次单击开始选择日期范围。然后向任一方向突出显示日期范围，直到单击第二次选择结束日期范围。在单击第一个日期的同时，按住 Shift 键（或右键单击），可选择日期范围。 </li> 
@@ -686,7 +686,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#concept_05C48D3D834F416994602216C9FF6535" format="dita" scope="local">“使用百分比限制”复选框</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  >“使用百分比限制”复选框</a></b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_7B6B794EDF874A4D87770AB9BAB42F33"> 
      <li id="li_0B403D892320434FBAD9A7F7B808947C"> 添加了一个复选框来表示百分比截止值，尤其是面向基于百分比的量度（也适用于非百分比量度）。 </li> 
@@ -700,7 +700,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/components/c-alerts/alert-manager.md" format="dita" scope="local"> 警报管理器增强功能</a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/components/c-alerts/alert-manager.md"  > 警报管理器增强功能</a></b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_72464DC499744290BA37DB3B1E143F74"> 
      <li id="li_C687F0A3A99F4CC39B482BDA0F7B75DD">添加了启用/禁用警报的功能。 </li> 
@@ -709,7 +709,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>新建 <b> <a href="../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051" format="dita" scope="local"> 热键 </a></b> </p> </td> 
+   <td colname="col1"> <p>新建 <b> <a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > 热键 </a></b> </p> </td> 
    <td colname="col2"> <p>添加了以下热键： </p> 
     <ul id="ul_5AE965D910DA4883BC2067CDFDBBA75A"> 
      <li id="li_6DBD6DFB9CA54F89B9A0627F3B1D5928">alt + shift + 1 = 转到“面板”窗格 </li> 
@@ -733,12 +733,12 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5" format="dita" scope="local">“人员”模板</a> </p> </td> 
-   <td colname="col2"> <p>注意：“人员”模板及其关联的“人员”量度只能在 <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html" format="html" scope="external">Adobe Experience Cloud 设备协作</a>中使用。 </p> <p>该模板基于“人员”量度，“人员”量度是删除了重复数据的独特访客量度版本。通过“人员”量度可测量客户使用多个设备与您的品牌进行交互的频率。 </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  >“人员”模板</a> </p> </td> 
+   <td colname="col2"> <p>注意：“人员”模板及其关联的“人员”量度只能在 <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html"  >Adobe Experience Cloud 设备协作</a>中使用。 </p> <p>该模板基于“人员”量度，“人员”量度是删除了重复数据的独特访客量度版本。通过“人员”量度可测量客户使用多个设备与您的品牌进行交互的频率。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>“撤消/重做”选项的改进 </p> </td> 
-   <td colname="col2"> <p>这些列表显示了<a href="../../analyze/analysis-workspace/build-workspace-project/undo-redo.md#concept_993110B9F2F84EB192308108882F8EEC" format="dita" scope="local">您在 Analysis Workspace 中可以和不能撤消/重做的事项</a>。 </p> </td> 
+   <td colname="col2"> <p>这些列表显示了<a href="/help/analyze/analysis-workspace/build-workspace-project/undo-redo.md"  >您在 Analysis Workspace 中可以和不能撤消/重做的事项</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -756,7 +756,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md#concept_AA32AA9932F744FB9044F59C7B8E562C" format="dita" scope="local"> 按位置划分 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > 按位置划分 </a> </p> </td> 
    <td colname="col2"> <p>允许按表位置划分。示例：“我始终希望自由格式表中前7行被划分。” 在创建允许您启用“按位置划分”的自由格式表时，现在会提供一个复选框。此设置默认处于禁用状态。 </p> <p>以前，细分中的值列表被“锁定”。 这会导致这样一种情况，例如，如果您按<span class="wintitle">页面</span>划分<span class="wintitle">日期</span>，则会得到您选定日期范围内头 50 页的列表。 </p> <p>如果您保存了该报表然后在一个月后运行它，则头 50 页很可能已发生更改。然而，Analysis Workspace“信任”来自原始划分的结果并返回相同页面，但将当前月份作为日期范围。 </p> </td> 
   </tr> 
  </tbody> 
@@ -775,11 +775,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/curate-share/download-send.md#concept_BB548979F47F45739679B830428C3025" format="dita" scope="local">无需保存项目即可发送和下载 PDF</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/curate-share/download-send.md"  >无需保存项目即可发送和下载 PDF</a> </p> </td> 
    <td colname="col2"> <p>现在，无需保存项目即可在工作区中发送和下载 PDF。PDF 文件名与当前项目名称匹配。下载的 PDF 包括项目中未保存的更改。请注意，您无法安排未保存的项目。（您还可以发送和下载未保存的 CSV 文件，但是您无法对其进行安排。） </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6" format="dita" scope="local">自动共享项目组件</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/curate-share/curate.md"  >自动共享项目组件</a> </p> </td> 
    <td colname="col2"> <p>现在，您可以选择与所有接收人自动共享项目组件（区段、计算量度和日期范围）。共享后，这些组件将显示在收件人工作区的组件下拉菜单中。 </p> </td> 
   </tr> 
   <tr> 
@@ -787,11 +787,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> <p>添加了对 CSV 格式的流失可视化的支持。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80" format="dita" scope="local"> 区段中的日期范围 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 区段中的日期范围 </a> </p> </td> 
    <td colname="col2"> <p>您可以将日期范围放置到区段拖放区域（例如，面板区段拖放区域、流失可视化区段拖放区域等）。日期范围会自动转换为区段。日期范围可以是自定义，也可以是非自定义的，但不是诸如“小时/日/周/月/季度/年”之类的粒度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> 向表中的每一列添加一个时间段 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > 向表中的每一列添加一个时间段 </a> </p> </td> 
    <td colname="col2"> <p>现在，您可以向表中的每一列添加一个时间段，此操作允许您添加一个不用于日历设置的时间段。此功能是比较日期的另一种方法。您还可以将每列的日期调整为全部从同一行开始。 </p> </td> 
   </tr> 
  </tbody> 
@@ -810,7 +810,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> 日期比较 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > 日期比较 </a> </p> </td> 
    <td colname="col2"> <p>新的日期比较功能允许您选取任意列并创建通用日期比较，例如：年同比、季度同比和月同比等。 </p> <p>“日期比较”自动包括一个显示百分比变化的“差异”列。 </p> </td> 
   </tr> 
  </tbody> 
@@ -829,7 +829,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/visualizations/fallout/fallout-flow.md#concept_D7ED51D138C747CA8F35BD93F21E79A6" format="dita" scope="local"> 流失分析 </a></b> </td> 
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md"  > 流失分析 </a></b> </td> 
    <td colname="col2"> <p>新的流失功能将向 Analysis Workspace 中引入营销漏斗功能。通过使用漏斗，您可以确定客户在与您的网站或跨渠道营销活动进行交互时，从哪个位置放弃了营销活动或偏离了定义的转化路径。流失分析允许您通过新可视化及 Analysis Workspace 提供的原有灵活性生成强大的漏斗，以便识别关键成功量度的转化。通过流失分析，您可以 </p> <p> </p> 
     <ul id="ul_E7C8255BA5D84F74ABBC6CC0E148DFB0"> 
      <li id="li_B7AC104F2A9348DCB2BCAA2FC9D3F3E6">拖放和重新排列漏斗步骤（接触点） </li> 
@@ -838,7 +838,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> <p><img placement="break"  src="assets/fallout2.png" width="500px" id="image_193B0E7870734DAFA063BBFA121A3E34" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/visualizations/c-flow/flow.md#concept_2F210EC358ED4887AE6DAA8C095DB55E" format="dita" scope="local"> 流量可视化 </a></b> </td> 
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  > 流量可视化 </a></b> </td> 
    <td colname="col2"> <p>新的流量功能允许您通过 Analysis Workspace 中新增和更新的灵活可视化，查看网站/应用程序的客户流量/行程，以便发现客户在网站/应用程序中的移动方式和进展情况。流量允许您 </p> <p> </p> 
     <ul id="ul_F1D4A99743664CB3B17E9485CF5E72FC"> 
      <li id="li_0F7AF953EAB746DC95032FF9A533E560">可视化客户在资产中的行程 </li> 
@@ -847,7 +847,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> <p><img placement="break"  src="assets/flow.png" width="500px" id="image_8ED88B5EDAA046978170F8BBB4018DA2" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="/help/components/c-alerts/intellligent-alerts.md" format="dita" scope="local"> 智能警报 </a></b> </td> 
+   <td colname="col1"> <b> <a href="/help/components/c-alerts/intellligent-alerts.md"  > 智能警报 </a></b> </td> 
    <td colname="col2"> <p>“智能警报”是 Adobe Analytics 的新警报系统，您可以通过该系统在 Analysis Workspace 中创建和管理警报，以及进行警报预览和规则贡献。您可以： </p> <p> </p> 
     <ul id="ul_02BD64D3047942009880B8F1DA1F2A40"> 
      <li id="li_01504AABBC514DF38354683843222541">构建基于异常的警报（90%、95% 或 99% 阈值；% 更改；以上/以下）。 </li> 
@@ -857,7 +857,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> <p><img placement="break"  src="assets/intel-alerts.png" width="400px" id="image_10069C33B6B1437CA578B8194FC75AD8" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md#concept_65E7C869C20B4509984189C8FD971F0E" format="dita" scope="local"> 异常检测和贡献分析 </a></b> </td> 
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md"  > 异常检测和贡献分析 </a></b> </td> 
    <td colname="col2"> <p>允许您了解趋势数据中的更改是否显著，以及造成此更改的原因。 </p> <p>异常检测和贡献分析现在是 Analysis Workspace 中的核心工作流程。 </p> <p>重要：贡献分析仅适用于 Adobe Analytics Premium 客户。 </p> <p>您可以： </p> <p> </p> 
     <ul id="ul_9CEE47788F3640838D8598F2E2C020D6"> 
      <li id="li_787236BB5EA545B8833B311C06C24337">自动检测数据中在统计上显著的数据异常。 </li> 
@@ -865,7 +865,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> <p><img placement="break"  src="assets/anomaly_linechart.png" width="500px" id="image_DFAF4034E2AC4B4AAB140EA004112722" /> </p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5" format="dita" scope="local"> 入门项目 </a></b> </td> 
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > 入门项目 </a></b> </td> 
    <td colname="col2"> 为了更便于用户开始使用 Analysis Workspace，我们针对常见的业务问题创建了一些预生成的项目模板，如 <p> </p> 
     <ul id="ul_603F5ACC16F74D53AEB9F762FAC91656"> 
      <li id="li_6B3F2E5D4B044EC19D45E5501E33DB91">用户维系 </li> 
@@ -873,7 +873,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> <p><img placement="break"  src="assets/starter.png" width="500px" id="image_A62AFD39812E43DCBF30D5E072A7E892" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><a href="../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_46E886D108DF49BDB6EE2D5A0E054E95" format="dita" scope="local">直方图可视化</a></b> </td> 
+   <td colname="col1"> <b><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md">直方图可视化</a></b> </td> 
    <td colname="col2"> <p>用户可以使用直方图查看任何成功事件中用户的分布情况。您可以自定义存储段和存储段大小，以适应任何分布情况和标识高值和低值用户。 </p> <p><img placement="break"  src="assets/histogram3.png" width="500px" id="image_E3277073B50140E0A3FD7C1601CF9661" /> </p> </td> 
   </tr> 
   <tr> 
@@ -888,7 +888,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
      <li id="li_946EC05568D4447193E9307546DF6F9B">向搜索栏添加了一个过滤器，它允许您对标记、收藏夹、批准的项目和组件进行过滤。 </li> 
      <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">已向手动行添加一个预览图标（不是添加到列有维度项目的动态行），以便您预览区段、量度和日期范围。 </li> 
      <li id="li_81D5241EA3FD49CEA0E9F412837D87A8"> 
-      <!--AN-128702: -->已将 Analysis Workspace 教程的 YouTube 链接更新为：<a href="https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS" format="https" scope="external">https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS</a>。 </li> 
+      <!--AN-128702: -->已将 Analysis Workspace 教程的 YouTube 链接更新为：<a href="https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS"  >https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS</a>。 </li> 
      <li id="li_D81DB98C49664D2884CCCC1DB0058CD8"> 
       <!--AN-124004:-->对于可视化，我们在上下文菜单中添加了一个名为<span class="uicontrol">从头开始</span>的右键单击选项（将用于流程图、维恩图和直方图），通过此选项可删除当前可视化的配置，并打开一个允许您对该可视化进行重新配置的新面板。 </li> 
      <li id="li_84632BFCE1794B49A31FF45067FA04B7">名为“图例可视”的新可视化设置允许您隐藏概要数字/概要变化可视化的过滤器详细信息文本。 </li> 
@@ -905,18 +905,18 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 2016 年 6 月 16 日发布的新功能：
 
 * [新的组权限](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) ，允许管理员允许或拒绝用户访问 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]** 选项卡。 自 2016 年 6 月 16 日开始，所有用户都将拥有访问此选项卡的权限。要拒绝访问，只需要从“Analysis Workspace 访问”组中删除用户即可。
-* The[区段比较面板](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)通过自动分析您有权访问的每个量度和维度，可发现任意两个区段之间的最显著统计学差异。
-* [新的项目菜单结构](../../analyze/analysis-workspace/build-workspace-project/freeform-overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7)重新排列了顶部菜单，提高了其可扩展性。例如，创建&#x200B;**新同类群组面板**&#x200B;的过程现在包括创建一个空白面板和拖入一个同类群组表可视化。
-* [新的左边栏](../../analyze/analysis-workspace/build-workspace-project/freeform-overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7)：面板、可视化、组件
-* 新的[](../../analyze/analysis-workspace/visualizations/venn.md#concept_202EAB813A084DBD9DBF5E84C92E4B9D)维恩图可视化类型允许您最多拖入 3 个区段和一个量度以构建维恩图。
-* 排名表格中的[趋势选择](../../analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A)（折线图）现在已经关联。
-* [“创建可视化”图标](../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)：单击此图标可在执行下一步操作（条形图、维恩图...）时提供智能推测。
-* 扩展了[手动行](../../analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md#concept_C50E7DFBC0504C72A973123192F487D8)功能
-* [添加区段](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80)拖放区域
+* The[区段比较面板](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)通过自动分析您有权访问的每个量度和维度，可发现任意两个区段之间的最显著统计学差异。
+* [新的项目菜单结构](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)重新排列了顶部菜单，提高了其可扩展性。例如，创建&#x200B;**新同类群组面板**&#x200B;的过程现在包括创建一个空白面板和拖入一个同类群组表可视化。
+* [新的左边栏](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：面板、可视化、组件
+* 新的[](/help/analyze/analysis-workspace/visualizations/venn.md)维恩图可视化类型允许您最多拖入 3 个区段和一个量度以构建维恩图。
+* 排名表格中的[趋势选择](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A)（折线图）现在已经关联。
+* [“创建可视化”图标](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)：单击此图标可在执行下一步操作（条形图、维恩图...）时提供智能推测。
+* 扩展了[手动行](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)功能
+* [添加区段](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)拖放区域
 * 次要更新：
 
    * 能够删除面板中的所有可视化和项目中的所有面板。（以前，必须保留至少一个可视化或面板。）
-   * 更改了[快捷键](../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051)（热键），更便于在 Analysis Workspace 中使用。
+   * 更改了[快捷键](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)（热键），更便于在 Analysis Workspace 中使用。
    * 样式更改：缩小了可视化中的字体；各行都具有颜色色板；向下移动了各个面板上的日期选择器。
 
 ## 2016 年 4 月
@@ -933,7 +933,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  <tbody> 
   <tr> 
    <td colname="col1"> 发送文件 </td> 
-   <td colname="col2"> <p>通过电子邮件发送 Analysis Workspace 项目，或者针对项目的提交进行规划。See <a href="../../analyze/analysis-workspace/curate-share/t-schedule-report.md#task_509549DD2D83495A94A0DFC6724DA907" format="dita" scope="local"> Send File - Schedule a project for delivery </a>. </p> </td> 
+   <td colname="col2"> <p>通过电子邮件发送 Analysis Workspace 项目，或者针对项目的提交进行规划。See <a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  > Send File - Schedule a project for delivery </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 下载 PDF </td> 
@@ -946,17 +946,17 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 2016 年 1 月 21 日发布的新功能。
 
-* [撤消操作](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_12890C393D5E4FC8A3CF050318BD8482)
-* [链接至此项目](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_453E70F7409F4501B8E976A0D18C9A46)
-* [项目符号图表、散点图和树图可视化](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_B19EA50EBF5546E99D3A142827153FD6)
-* [针对区段、量度和日期的另存为功能](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_04C8B10A0751453AAE5F1BC35938C6CE)
-* [“添加新区段”按钮](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_85CC88C02C79456EA2B41F2BFBB64FC4)
-* [条件格式](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_5775B505D83041408B8C3EAEC5D7C32B)
-* [维度预览](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_F519EBF889B244E8B25BB6BA2833325A)
-* [图例可见](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_28D10D86CAE343AB838808C1DD2E7983)
-* [将 Y 轴定位为 0](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_83DF5DE79EF04F9F8DCB3154F5E799B3)
-* [选项卡标题中的项目名称](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_497C61A030984BCCA2CEA553312C3226)
-* [转移项目所有权](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_989C2CCB80B5408EB85E6B12C8D943E3)
+* [撤消操作](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_12890C393D5E4FC8A3CF050318BD8482)
+* [链接至此项目](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_453E70F7409F4501B8E976A0D18C9A46)
+* [项目符号图表、散点图和树图可视化](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_B19EA50EBF5546E99D3A142827153FD6)
+* [针对区段、量度和日期的另存为功能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_04C8B10A0751453AAE5F1BC35938C6CE)
+* [“添加新区段”按钮](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_85CC88C02C79456EA2B41F2BFBB64FC4)
+* [条件格式](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_5775B505D83041408B8C3EAEC5D7C32B)
+* [维度预览](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_F519EBF889B244E8B25BB6BA2833325A)
+* [图例可见](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_28D10D86CAE343AB838808C1DD2E7983)
+* [将 Y 轴定位为 0](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_83DF5DE79EF04F9F8DCB3154F5E799B3)
+* [选项卡标题中的项目名称](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_497C61A030984BCCA2CEA553312C3226)
+* [转移项目所有权](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_989C2CCB80B5408EB85E6B12C8D943E3)
 
 
 ## 撤消操作 {#section_12890C393D5E4FC8A3CF050318BD8482}
@@ -967,7 +967,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ![](assets/undo.png)
 
-您还可以使用标准Windows和Mac键 [盘快捷键](../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051) （ctrl或cmd + z）进行撤消操作。
+您还可以使用标准Windows和Mac键 [盘快捷键](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) （ctrl或cmd + z）进行撤消操作。
 
 *`Undo`*&#x200B;功能在撤消表中的划分时特别有用。
 
