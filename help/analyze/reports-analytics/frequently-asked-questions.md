@@ -4,61 +4,61 @@ keywords: 诊断 Analytics 故障
 seo-description: 为一些最常见的 Analytics 问题提供答案和故障诊断建议。
 seo-title: 常见问题解答
 title: 常见问题解答
-uuid: 285b0ea4-aa07-4d39 f-37b1 d02 d19 f1 d
+uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
 translation-type: tm+mt
-source-git-commit: fd1e2f1789ed9c8c31c89f0e7b6b7b2dd3ee114d
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
 
 # 常见问题解答
 
-为Reports&amp; Analytics中最频繁提出的Analytics问题提供答案和疑难解答建议。For frequently asked implementation questions, see the [FAQ](../../implement/faq.md) in the Implement user guide.
+为Reports &amp; Analytics中一些最常见的Analytics问题提供答案和疑难解答建议。 有关常见的实施问题，请参阅实 [施用户指南](/help/implement/faq.md) 中的常见问题解答。
 
-**我的帐户已被锁定；如何解锁它？**
+**我的账户已被锁定；如何解锁它？**
 
-要重新激活帐户，请与组织中的管理员联系。See also [Troubleshoot login issues with Adobe Analytics](../../technotes/troubleshoot-login.md) in the Technotes user guide.
+要重新激活帐户，请与组织内的管理员联系。 另请参阅 [技术说明用户指南中的Adobe Analytics登录问题疑难解答](/help/technotes/troubleshoot-login.md) 。
 
-**即使我知道数据被收集，为何仍会看到空白报告？**
+**为什么即使我知道已收集数据，也会看到空白报告？**
 
-检查报告数据有以下几项功能：
+要对报告数据进行疑难解答，有以下几项需要检查：
 
-* 检查使用的指标：有些报告默认为Reports&amp; Analytics中的收入。确保查看的量度与报表相关。
-* 检查日期范围：日期范围(尤其是超出单位的数据保留策略)可以返回无数据。检查以确保正确设置日期范围。
-* 检查内部URL过滤器：在正确定义内部URL过滤器之后，某些流量源报告才会起作用。
+* 检查使用的指标：某些报告在“报告和分析”中默认为“收入”。 确保您查看的量度与报表相关。
+* 检查日期范围：日期范围（尤其是超出您组织的数据保留策略的日期范围）不能返回任何数据。 检查以确保日期范围设置正确。
+* 检查内部URL过滤器：在正确定义内部URL过滤器之后，某些流量源报告才能正常工作。
 
 **为什么导航菜单中缺少某些报告？**
 
-菜单中的任何报告都缺少来自受限权限或菜单自定义的最常见来源。请联系组织中的产品管理员以确保您有权访问所需的所有维度和指标，并且报告套件的菜单结构未进行自定义。
+菜单中缺少的任何报告通常都来自受限权限或菜单自定义。 与组织内的产品管理员联系以确保您有权访问所需的所有维度和指标，并且尚未自定义报表包的菜单结构。
 
-**为什么会切断一些长值？**
+**为什么会有一些长期价值被切断？**
 
-Adobe Analytics中几乎所有变量都有字符限制。页面名称有100个字符限制，而自定义转换变量(eVar)有255个字符限制。Adobe建议您确保发送给Adobe的值简洁，以防止截断。
+Adobe Analytics中的几乎所有变量都有字符限制。 页面名称的字符数限制为100个字符，而自定义转换变量(eVar)的字符数限制为255个字符。 Adobe建议确保您发送到Adobe的值简明扼要，以防止截断。
 
-**为什么我看到报告的主要延迟？**
+**为什么报告出现严重延迟？**
 
-实时报告允许某些流量计量在几分钟内可用，而转换和其他处理密集型数据通常在30-90分钟内可用。尽管 Experience Cloud 平台非常强大，但仍有少数情况会导致报告延迟。此延迟称为滞后时间。See [Latency](../../technotes/latency.md) in the Technotes user guide for more information.
+实时报告允许在几分钟内提供一些流量指标，而转换和其他处理密集型数据通常在30-90分钟内可用。 尽管 Experience Cloud 平台非常强大，但仍有少数情况会导致报告延迟。此延迟称为延迟。 有关更 [多信息](/help/technotes/latency.md) ，请参阅技术说明用户指南中的延迟。
 
-**为什么看不到iPhone上的设备版本？**
+**为什么在iPhone上看不到设备版本？**
 
-Apple设备在用户代理字符串(而非设备版本)中报告固件版本。使用Adobe Analytics提供的信息确定iPhone设备版本很难。See [Comparing iPhone device versions](https://helpx.adobe.com/analytics/kb/comparing-iphone-device-versions.html) in the Analytics KB for more information.
+Apple设备在用户代理字符串中报告其固件版本，而不是设备版本。 使用Adobe Analytics提供的信息很难确定iPhone设备版本。 有关 [详细信息，请参阅](https://helpx.adobe.com/analytics/kb/comparing-iphone-device-versions.html) Analytics KB中的比较iPhone设备版本。
 
-**为什么在汇总值时，我的报告底部的总数不匹配？**
+**为什么在总和值时，报表底部的总数不匹配？**
 
-维度值通常可在多个位置应用；例如，跨午夜或属于单个订单的多个产品的访问。会在所有适用的行项目中报告维度值，但会在报告总数中取消重复。See [Compare sum of line items to report total](https://helpx.adobe.com/analytics/kb/sum-line-items-different-from-total.html) in the Analytics KB for more information.
+维度值通常可以应用于多个位置；例如，跨午夜的访问或属于单个订单的多个产品。 维值会在所有适用的行项目中报告，但会在报告的总数中消除重复项。 有关 [详细信息，请参阅比较Analytics](https://helpx.adobe.com/analytics/kb/sum-line-items-different-from-total.html) KB中的行项目总数以报告总数。
 
-**如何从我的报告套件中的特定IP地址排除数据？**
+**如何从我的报表包中的特定IP地址排除数据？**
 
-您可以从报表中消除来自内部网站活动的数据，如站点测试和员工使用情况。此功能可让您和您的同事在访问您的网站时不影响流量数据。See [Exclude by IP Address](../../admin/admin/exclude-ip.md) in the Admin user guide for more information.
+您可以从报告中删除内部网站活动中的数据，如站点测试和员工使用情况。 此功能可让您和您的同事在访问您的网站时不影响流量数据。有关 [详细信息，请参阅管理员用户指南中](/help/admin/admin/exclude-ip.md) “按IP地址排除”。
 
-**我是否可以删除报告套件？**
+**是否可以删除报表包？**
 
-不能删除报表包。但是，在Adobe Analytics中的所有视图中都可以隐藏报表包。请注意，发送到隐藏报告套件的服务器调用仍计入您的每月合同限制。See [Hide report suites](../../admin/company/c-hide-report-suites.md) in the Admin user guide for more information.
+无法删除报表包。 但是，报表包可以在Adobe Analytics的所有视图中隐藏。 请注意，发送到隐藏报表包的服务器调用仍计入您的每月合同限制。 有关 [详细信息](/help/admin/company/c-hide-report-suites.md) ，请参阅管理员用户指南中的隐藏报表包。
 
-**使用分段时，我应该使用哪个容器？Page view, visit, or visitor?**
+**使用分段时，应使用哪个容器？ 页面查看、访问还是访客？**
 
-您使用的区段容器取决于您要捕获数据的范围。页面查看容器只会引入匹配区段条件的点击，有助于筛选访问无关部分。访问容器将访问的所有点击带到一次访问中，其中一次或多点击匹配区段条件，对于查看一般会话很有用。访客容器引入了点击匹配的区段条件的所有访问，这有利于查看人员。作为分析师，您可以选择确定哪个细分容器最适合使用。See [Segmentation overview](../../components/c-segmentation/seg-overview.md) in the Components user guide for more information.
+您使用的区段容器取决于您要捕获数据的范围。 页面查看容器只引入与区段条件匹配的点击，这对于过滤掉不相关的访问部分很有用。 访问容器将带来访问的所有点击，其中一个或多个点击与区段标准匹配，这对于查看一般会话很有用。 访客容器会引入所有点击匹配区段条件的访问，这对查看人员很有用。 您可以选择作为分析师来确定最适合使用哪个细分容器。 有关更 [多信息，请参阅](/help/components/c-segmentation/seg-overview.md) “组件”用户指南中的分段概述。
 
-**为什么我的区段不显示在数据仓库中？**
+**为什么我的细分不显示在数据仓库中？**
 
-由于数据仓库的独特处理架构，平台没有优化某些类型的数据，如路径。See [Data Warehouse segment compatibility](../../components/c-segmentation/seg-reference/seg-compatibility.md) in the Components user guide for more information.
+由于数据仓库的独特处理架构，该平台未经过优化处理某些类型的数据，如寻路。 有关更 [多信息，请参阅组件用户指南](/help/components/c-segmentation/seg-reference/seg-compatibility.md) 中的数据仓库区段兼容性。
