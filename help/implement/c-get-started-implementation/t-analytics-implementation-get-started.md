@@ -9,7 +9,7 @@ title: 简化的实施模式
 topic: Reports and Analytics
 uuid: 6fad2c1f-476c-4985-90df-7c222e751ddc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -67,11 +67,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
       </tr> 
       <tr> 
        <td colname="col1"> <p>数据层 </p> </td> 
-       <td colname="col2"> <p>（推荐）用于存储信息的 JavaScript 数组。如果您使用动态标签管理执行自动设置，将会用到数据层。 </p> <p>请参阅<a href="https://blogs.adobe.com/digitalmarketing/analytics/data-layers-buzzword-best-practice/" format="http" scope="external">数据层：从流行词汇到最佳实践</a>，阅读一篇介绍数据层的博客文章。 </p> </td> 
+       <td colname="col2"> <p>（推荐）用于存储信息的 JavaScript 数组。如果您使用动态标签管理执行自动设置，将会用到数据层。 </p> <p>请参阅<a href="https://blogs.adobe.com/digitalmarketing/analytics/data-layers-buzzword-best-practice/">数据层：从流行词汇到最佳实践</a>，阅读一篇介绍数据层的博客文章。 </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>数据存储库（报表包） </p> </td> 
-       <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html" format="html" scope="external">报表包</a>是离散的数据集，通常与单个资产（站点或应用程序）或品牌相对应。每个报表包都有自己的一套报表和量度。 </p> </td> 
+       <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html">报表包</a>是离散的数据集，通常与单个资产（站点或应用程序）或品牌相对应。每个报表包都有自己的一套报表和量度。 </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>时区 </p> </td> 
@@ -108,7 +108,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
       </tr> 
       <tr> 
        <td colname="col1"> <p>下载 </p> </td> 
-       <td colname="col2"> <p> 下载名为 <span class="filepath">INSTALL-ME &lt;报表包名称&gt;.js</span> 的安装文件。此选项适用于了解 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html" format="html" scope="external">JavaScript 实施</a>的经验丰富的用户。 </p> <p> <p>重要：下载代码操作不属于部署 <span class="keyword">Analytics</span> 的过程。这是手动部署，需要您在站点的网页上执行，或者通过 Adobe 咨询服务完成。 </p> </p> </td> 
+       <td colname="col2"> <p> 下载名为 <span class="filepath">INSTALL-ME &lt;报表包名称&gt;.js</span> 的安装文件。此选项适用于了解 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html">JavaScript 实施</a>的经验丰富的用户。 </p> <p> <p>重要：下载代码操作不属于部署 <span class="keyword">Analytics</span> 的过程。这是手动部署，需要您在站点的网页上执行，或者通过 Adobe 咨询服务完成。 </p> </p> </td> 
       </tr> 
      </tbody> 
     </table>
