@@ -7,8 +7,8 @@ solution: Analytics
 title: 不使用 JavaScript 指南进行实施
 topic: 开发人员和实施
 uuid: c672dd63-1c74-4f66-8992-9257c5a75e36
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **区分大小写**
 
-参数名称（`pageName`、`purchaseID` 等）区分大小写，且不会正确记录数据，除非它们按[查询参数](../../../implement/js-implementation/data-collection/query-parameters.md)中的表中所指定的方式显示。
+参数名称（`pageName`、`purchaseID` 等）区分大小写，且不会正确记录数据，除非它们按[查询参数](/help/implement/js-implementation/data-collection/query-parameters.md)中的表中所指定的方式显示。
 
 **编码查询参数**
 
@@ -33,7 +33,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **最大变量长度**
 
-每个变量都有一个最大长度。应为 [Analytics 变量](../../../implement/js-implementation/c-variables/sc-variables.md). 如果超出变量的最大长度，则在 Analytics 中存储和显示时，会导致该变量的值被截断。
+每个变量都有一个最大长度。应为 [Analytics 变量](/help/implement/js-implementation/c-variables/sc-variables.md). 如果超出变量的最大长度，则在 Analytics 中存储和显示时，会导致该变量的值被截断。
 
 **无效字符**
 
