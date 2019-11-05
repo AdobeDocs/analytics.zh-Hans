@@ -8,7 +8,7 @@ title: 识别移动设备
 topic: 开发人员和实施
 uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 大多数移动设备接受浏览器 Cookie。但是，如果设备不接受 Cookie，则可使用其他方法来唯一识别无线设备。
 
-Adobe 已确立了一批可唯一识别大多数移动设备的 HTTP [订户 ID 头](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D)。这些头通常包含设备电话号码（或号码的哈希版本），或其他标识符。大部分的当前设备通常具有一个或多个可唯一识别设备的头，而所有的 Adobe 数据收集服务器都会自动使用这些头替代访客 ID。
+Adobe 已确立了一批可唯一识别大多数移动设备的 HTTP [订户 ID 头](/help/implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D)。这些头通常包含设备电话号码（或号码的哈希版本），或其他标识符。大部分的当前设备通常具有一个或多个可唯一识别设备的头，而所有的 Adobe 数据收集服务器都会自动使用这些头替代访客 ID。
 
 在典型的图像请求中，路径 (`/b/ss/rsid/1`) 中的“1”会使 Adobe 服务器返回 gif 图像，并尝试设置永久性[!UICONTROL 访客 ID] Cookie（`AMCV_` 或 `s_vi`）。但是，如果根据 HTTP 头，设备被识别为移动设备，则会传递“5”，而不是“1”，这指示应返回 wbmp 格式的图像，并且应使用我们识别的无线头列表（而不是 Cookie）来识别设备。
 
@@ -88,4 +88,4 @@ Adobe 已确立了一批可唯一识别大多数移动设备的 HTTP [订户 ID 
 
 例如，“callinglineid”可与“X-Up-Calling-Line-ID”及“nokia-callinglineid”相匹配。头类型即能说明头中会包含哪些内容。以下列出头的优先级顺序（如果存在名为“callinglineid”的头，则会用它来替代“subno”）。
 
-您可以使用[动态变量](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262)来提取头中的特定值。
+您可以使用[动态变量](/help/implement/js-implementation/c-variables/dynvars-overview.md)来提取头中的特定值。
