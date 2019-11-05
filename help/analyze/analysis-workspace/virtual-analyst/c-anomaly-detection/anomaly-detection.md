@@ -5,7 +5,7 @@ seo-title: 异常检测概述
 title: 异常检测概述
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 [YouTube的贡献分析](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20)
 
-> [!IMPORTANT] 异常检测仅在Analysis Workspace中可用。 Adobe Analytics select和Foundation客户只能访问Workspace中的“每日粒度”异常检测。 有关更多信息，请参阅[异常检测和贡献分析授权](../contribution-analysis/ca-tokens.md)。
+>[!IMPORTANT] 异常检测已从“报告和分析”功能集中删除，现在仅通过Analysis Workspace提供。 请注意，Adobe Analytics select和Adobe Analytics Foundation客户只能访问Workspace中的“每日粒度”异常检测。 有关更多信息，请参阅[异常检测和贡献分析授权](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A)。
 
 异常检测提供了一种统计方法来确定给定的量度相对于以前的数据发生了什么变化。
 
