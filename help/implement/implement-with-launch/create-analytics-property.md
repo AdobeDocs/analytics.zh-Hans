@@ -3,8 +3,8 @@ title: 在 Launch 中创建 Analytics 属性
 seo-title: 在 Adobe Experience Platform Launch 中创建 Adobe Analytics 属性
 description: 使用 Adobe Experience Platform Launch 创建一个空间以自定义收集数据的方式。
 seo-description: 使用 Adobe Experience Platform Launch 创建一个空间以自定义在 Adobe Analytics 中收集数据的方式。
-translation-type: ht
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+translation-type: tm+mt
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -15,13 +15,13 @@ Adobe Experience Platform Launch 是一个可用于在您的网站（包括 Anal
 
 ## 先决条件
 
-[创建报表包](../../admin/admin-console/create-report-suite.md)：为要收集的 Analytics 数据创建一个容器
+[创建报表包](/help/admin/admin-console/create-report-suite.md)：为要收集的 Analytics 数据创建一个容器
 
 ## 创建属性并安装重要扩展
 
 属性是用于管理标记的主要容器。通过扩展，您可以安装和配置特定于产品的标记。
 
-1. 转到 [launch.adobe.com](https://launch.adobe.com) 并在出现提示时登录。
+1. Go to [launch.adobe.com](https://launch.adobe.com) and log in if prompted.
 1. 单击“新建属性”。
 1. 为您的属性指定名称（如网站的标题），然后输入要在其中实施 Analytics 的域。单击“保存”。
 1. 单击新创建的属性以输入其设置。
@@ -34,7 +34,7 @@ Adobe Experience Platform Launch 是一个可用于在您的网站（包括 Anal
 
 数据元素是对网站特定部分的引用，以便收集变量值。
 
-1. 转到 [launch.adobe.com](https://launch.adobe.com) 并在出现提示时登录。
+1. Go to [launch.adobe.com](https://launch.adobe.com) and log in if prompted.
 2. 单击要在网站上实施的 Launch 属性。
 3. 单击“数据元素”选项卡，然后单击“创建新数据元素”。
 4. 为数据元素指定以下设置：
@@ -51,7 +51,7 @@ Adobe Experience Platform Launch 是一个可用于在您的网站（包括 Anal
 
 规则会将数据元素映射到 Analytics 变量值，并确定何时将这些值发送到 Adobe 的服务器。
 
-1. 转到 [launch.adobe.com](https://launch.adobe.com) 并在出现提示时登录。
+1. Go to [launch.adobe.com](https://launch.adobe.com) and log in if prompted.
 1. 单击要在网站上实施的 Launch 属性。
 1. 单击“创建新规则”并将其命名为 `Global Rule`。
 1. 单击事件旁边的“添加”，然后输入以下设置：
@@ -76,9 +76,9 @@ Adobe Experience Platform Launch 是一个可用于在您的网站（包括 Anal
 
 ## 文档和其他资源
 
-* [Adobe Analytics 扩展文档](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension)：特定于 Adobe Experience Platform Launch 中 Adobe Analytics 扩展的完整文档。
+* [Adobe Analytics扩展文档](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension):Adobe Experience Platform Launch中特定于Adobe Analytics扩展的完整文档。
 * [Launch 快速入门](https://docs.adobelaunch.com/getting-started)：有关 Launch 的完整文档，包括更详细的入门指南
-* [Adobe Experience Platform Launch YouTube 渠道](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&amp;shelf_id=0&amp;sort=dd)：通过视频了解如何使用 Launch
+* [Adobe Experience Platform Launch youTube频道](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&shelf_id=0&sort=dd):了解如何通过视频使用Launch
 
 ## 后续步骤
 
