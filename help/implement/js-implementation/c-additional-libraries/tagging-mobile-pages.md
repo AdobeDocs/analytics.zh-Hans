@@ -8,7 +8,7 @@ title: 移动协议的标记页面
 topic: 开发人员和实施
 uuid: 5788beaf-f309-4918-a99c-a3e591668205
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -52,4 +52,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 * `/5.5/` 始终返回 WBMP 图像。
 
-请参阅[使用移动协议识别访客](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#concept_8C5557634014440AA3588FBB0CF6BB49)。
+请参阅[使用移动协议识别访客](/help/implement/js-implementation/c-unique-visitors/visid-mobile.md)。
