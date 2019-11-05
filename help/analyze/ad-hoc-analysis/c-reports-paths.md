@@ -7,7 +7,7 @@ title: 路径报表
 topic: Ad Hoc Analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 **[!UICONTROL 流失]**：显示定义的各个检查点之间的访问流失情况及转化率。各步骤情况按自上向下的顺序排列，其中左边是原始数字和百分数，右边是转化和流失百分比。
 
-请参阅[流失报表](../../analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347)以了解详细信息。
+请参阅[流失报表](/help/analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347)以了解详细信息。
 
 **[!UICONTROL 路径长度]**：显示访客在网站上的浏览深度（以百分比和总计数衡量）。换言之，此报表指示访客退出网站前平均查看的页面数。
 
