@@ -7,7 +7,7 @@ title: 管理请求 - 定义
 topic: Report Builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -60,11 +60,11 @@ Report Builder 中“管理请求”的字段说明。
   </tr> 
   <tr> 
    <td colname="col1"> <p>添加 </p> </td> 
-   <td colname="col2"> <p>显示请求向导对话框。请参阅 <a href="../../../analyze/report-builder/data-requests/t-create-a-data-request.md#task_65B453C8F015429A8EA73A1B64025B6C" type="task" format="dita" scope="local"> 创建数据请求</a>. </p> </td> 
+   <td colname="col2"> <p>显示请求向导对话框。请参阅 <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   > 创建数据请求</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>编辑 </p> </td> 
-   <td colname="col2"> <p> （或者“编辑多个”）编辑所选的请求。系统会显示<span class="wintitle">请求向导</span>对话框。See <a href="../../../analyze/report-builder/manage-requests/t-edit-multiple-requests.md#task_70A13DBE43CD4BBEBE1B62459ADB3AD1" type="task" format="dita" scope="local"> Edit Multiple Requests</a>. </p> </td> 
+   <td colname="col2"> <p> （或者“编辑多个”）编辑所选的请求。系统会显示<span class="wintitle">请求向导</span>对话框。See <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   > Edit Multiple Requests</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>删除 </p> </td> 
@@ -80,7 +80,7 @@ Report Builder 中“管理请求”的字段说明。
   </tr> 
   <tr> 
    <td colname="col1"> <p> 刷新 </p> </td> 
-   <td colname="col2"> <p>刷新单个请求或所选的多个请求。（请参阅 <a href="../../../analyze/report-builder/manage-requests/t-refresh-a-request.md#task_96556DB051A2479A955999D3837EE609" type="task" format="dita" scope="local"> 刷新请求</a>.) </p> </td> 
+   <td colname="col2"> <p>刷新单个请求或所选的多个请求。（请参阅 <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   > 刷新请求</a>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>刷新列表 </p> </td> 
