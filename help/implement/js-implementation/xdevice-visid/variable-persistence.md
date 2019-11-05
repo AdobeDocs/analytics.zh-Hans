@@ -8,7 +8,7 @@ title: 属性和永久性
 topic: 开发人员和实施
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 * 如果存在，则从此时开始使用系统中存在的该访客资料，而不再使用之前的访客资料。
 * 如果找不到匹配的访客 ID，则会创建一个新资料。
 
-当未验证的客户首次到达您的网站时，Adobe Analytics 会为该客户分配一个访客资料。如[独特访客和访问计数](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC)中所示，进行验证时会创建新资料。创建新资料后，一次访问结束，另一次访问开始。
+当未验证的客户首次到达您的网站时，Adobe Analytics 会为该客户分配一个访客资料。如[独特访客和访问计数](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC)中所示，进行验证时会创建新资料。创建新资料后，一次访问结束，另一次访问开始。
 
 **在首次数据连接时**
 
@@ -58,7 +58,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 * 地域划分数据根据访问的首次点击进行记录，并且无论使用的是什么设备，单次访问的地域划分数据都不会更改。这意味着在新设备上进行后续数据连接时，通常不包括地域划分数据。
 * 浏览器、操作系统和颜色深度等技术列将根据访问的首次点击进行记录。和地域划分值一样，这些值不会复制到拼接的资料中。
-* “直接”或“内部”等通常设置为不覆盖其他渠道的营销渠道，将会在包含该设备首次验证（如[独特访客和访问计数](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC)中所示的首次验证）的后续数据连接时覆盖其他渠道。
+* “直接”或“内部”等通常设置为不覆盖其他渠道的营销渠道，将会在包含该设备首次验证（如[独特访客和访问计数](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC)中所示的首次验证）的后续数据连接时覆盖其他渠道。
 
 **特殊情况**
 
