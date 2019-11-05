@@ -7,7 +7,7 @@ title: 配置实时报表
 topic: 管理工具
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -37,7 +37,7 @@ Setting up real-time reports within [!UICONTROL Reports &amp; Analytics] consist
 
    ![](assets/real_time_admin.png)
 
-   有关支持的实时指标和维度的信息，请参 [阅支持的指标和维度](../../components/c-real-time-reporting/realtime-metrics.md#concept_B86D8DF89AD448839332AD84B1DF2AE7)。
+   有关支持的实时指标和维度的信息，请参 [阅支持的指标和维度](/help/components/c-real-time-reporting/realtime-metrics.md)。
 
    如果已创建了分类，则分类会缩进显示在其所定义的维度下。
 
@@ -47,7 +47,7 @@ Setting up real-time reports within [!UICONTROL Reports &amp; Analytics] consist
    >
    >对于单个实时报表，我们当前不支持启用重复维，即使为每个维选择了不同的分类也是如此。
 
-   有关分类的详细信息，请参阅关 [于分类](../../components/c-classifications2/c-classifications.md#concept_4CEC7FF1A9E24204A7DA6B9AC70709DE)。
+   有关分类的详细信息，请参阅关 [于分类](/help/components/c-classifications2/c-classifications.md)。
 
    >[!NOTE]
    >
