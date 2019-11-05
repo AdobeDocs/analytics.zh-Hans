@@ -7,12 +7,12 @@ title: 报表功能
 topic: Reports and Analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
-# 报表功能{#report-features}
+# 报表功能
 
 有关报表功能（包括工具栏、日历和详细信息表）的介绍。
 
@@ -30,7 +30,7 @@ An example of a Pages Report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site 
 
 ![](assets/toolbar.png){width="672px"}
 
-另请参阅自 [定义报告](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md)。
+另请参阅自 [定义报告](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)。
 
 ## 报表标题和设置 {#section_12A90FAE02EC43FB9F11F0E2CE8FAE8F}
 
@@ -38,7 +38,7 @@ An example of a Pages Report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site 
 
 ![](assets/settings_header.png){width="672px"}
 
-有关 [详细信息，请参阅自定义报告](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md) 。
+有关 [详细信息，请参阅自定义报告](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) 。
 
 ## 日历 {#section_8C6C4AD84D9043E8ABD53FF8F645AAB1}
 
@@ -46,23 +46,23 @@ An example of a Pages Report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site 
 
 ![](assets/calendar_large.png){width="672px"}
 
-请参 [阅选择日期或日期范围](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_9BEF7D4D839A4748B76E8500D1406C34)[和比较日期](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_95155C3700774B709F5FB81AE96B0824)。
+请参 [阅选择日期或日期范围](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)[和比较日期](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)。
 
 ## 图表类型 {#section_8B9CBA4096E64FC3B744E2E06EB83C19}
 
-选择要查看的图表类型。
+选择要查看的图表类型：
 
 ![](assets/graph_type.png)
 
-请参阅 [更改报表图表](../../../analyze/reports-analytics/reports-customize/t-reports-graphs.md#task_B290BF0B82124111AA19B3F3ACED500A).
+See [Changing Report Graphs.](/help/analyze/reports-analytics/reports-customize/t-reports-graphs.md)
 
 ## 图表显示 {#section_4C78ADC82C234CC6841AC92C803636F4}
 
-根据您所选的图表类型，通常会显示详细信息列表的前几个项目。如果图表为显示不同时间段的趋势图表，则会显示所有时间段。
+根据您所选的图表类型，通常会显示详细信息列表的前几个项目。如果图表为显示不同时间段的趋势图表，则会显示所有时间段。:
 
 ![](assets/graph.png)
 
-请参阅 [自定义报表](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+请参阅 [自定义报告。](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)
 
 ## 量度 {#section_8B8F9EC72B864E29B91039E7B7381EAD}
 
@@ -70,14 +70,14 @@ An example of a Pages Report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site 
 
 ![](assets/metrics.png)
 
-请参阅 [量度](../../../analyze/reports-analytics/metrics.md#concept_EB00207C07BD4481AB116E62EC24E686).
+请参阅 [量度.](/help/analyze/reports-analytics/metrics.md)
 
 ## 详细信息表 {#section_449A5DC848744F65A10DA12E189B835D}
 
-详细信息为大量报表数据。此时列出页面，用“页面查看”测量，或以时间段内加载的次数测量。
+详细信息为大量报表数据。在这种情况下，您列出了页面，并且这些页面按页面查看次数来测量，即在该时间段内加载的次数：
 
 ![](assets/detail.png)
 
 在详细信息表中，可以过滤数据、创建划分、添加量度等。
 
-请参阅 [自定义报表](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+请参阅 [自定义报表.](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)
