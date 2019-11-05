@@ -8,7 +8,7 @@ title: 转化变量 (eVar)
 topic: 管理工具
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -87,7 +87,7 @@ eVar 最适合用于度量原因和影响，例如：
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 促销</span> </p> <p>（仅限 eVar） </p> </td> 
-   <td colname="col2"> <p>促销变量可遵循以下两种语法之一： </p> <p> <b></b> 产品语法</span>:将eVar值与产品关联。 注意：如果选择“产品语法”，则“促销捆绑事件”区域会处于禁用状态，且无法选择该区域来进行编辑。对于此语法，“捆绑事件”不适用。 </p> </p> <p> <b></b> 转换变量语法</span>:仅在发生绑定事件时，才将eVar与产品关联。 在此情况下，您可以选择充当捆绑事件的事件。 </p> <p>更改此设置时，如果不相应更新 JavaScript 代码，则会导致数据丢失。请参阅<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/var_merchandising.html" format="http" scope="external">促销变量</a>。 </p> </td> 
+   <td colname="col2"> <p>促销变量可遵循以下两种语法之一： </p> <p> <b></b> 产品语法</span>:将eVar值与产品关联。 注意：如果选择“产品语法”，则“促销捆绑事件”区域会处于禁用状态，且无法选择该区域来进行编辑。对于此语法，“捆绑事件”不适用。 </p> </p> <p> <b></b> 转换变量语法</span>:仅在发生绑定事件时，才将eVar与产品关联。 在此情况下，您可以选择充当捆绑事件的事件。 </p> <p>更改此设置时，如果不相应更新 JavaScript 代码，则会导致数据丢失。请参阅<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/var_merchandising.html">促销变量</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 促销捆绑事件</span> </p> <p>（仅限 eVar） </p> </td> 
