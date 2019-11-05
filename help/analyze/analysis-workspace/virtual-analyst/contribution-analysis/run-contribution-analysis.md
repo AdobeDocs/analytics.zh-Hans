@@ -5,7 +5,7 @@ seo-title: 运行贡献分析
 title: 运行贡献分析
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
    ![](assets/contribution-analysis.png)
 
-1. （可选）在折线图或表中单击了&#x200B;**[!UICONTROL 运行贡献分析]**&#x200B;后，可通过[排除维度](../../../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC)来缩小分析范围（并且因此而提高分析速度）。
+1. （可选）在折线图或表中单击了&#x200B;**[!UICONTROL 运行贡献分析]**&#x200B;后，可通过[排除维度](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC)来缩小分析范围（并且因此而提高分析速度）。
 
 1. 在加载贡献分析时，请稍候。此过程可能需要用相当长一段时间，具体取决于报表包的大小和维度的数量。贡献分析可以对每个维度的前 50,000 项执行分析。
 1. 然后，Analysis Workspace 会将新的贡献分析面板直接加载到此项目中。如果您之前使用过 Reports &amp; Analytics 中的“贡献分析”，则会发现有许多熟悉的面板：
@@ -45,11 +45,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 1. 由于贡献分析现在属于 Analysis Workspace 的一部分，因此您可以利用表右键单击菜单中的大量功能使您的分析更有意义，例如：
 
-   * [按其他维度划分每个维度项目。](../../../../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md#task_B594DA2476E84DFDA8279E831F0BD9C4)
-   * [显示一个或多个行的趋势。](../../../../analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A)
-   * [添加新的可视化。](../../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)
+   * [按其他维度划分每个维度项目。](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
+   * [显示一个或多个行的趋势。](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A)
+   * [添加新的可视化。](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)
    * [创建警报。](/help/components/c-alerts/intellligent-alerts.md)
-   * [创建或比较区段。](../../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)
+   * [创建或比较区段。](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
 > [!NOTE] 我们在贡献分析和与之关联的智能警报项目中使用蓝点突出显示正在分析的异常。 这样可以更清楚地指示正在分析的异常。
 
