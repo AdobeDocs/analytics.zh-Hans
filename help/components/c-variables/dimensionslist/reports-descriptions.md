@@ -7,7 +7,7 @@ title: 维度描述
 topic: 报告
 uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -48,7 +48,7 @@ Reports &amp; Analytics 中可用的预定义报表的定义，以及其他 Anal
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Workbench </p> </td> 
-   <td colname="col2"><a href="https://marketing.adobe.com/resources/help/en_US/insight/dataset/c_ex_dim.html" format="html" scope="external"> 扩展维度</a> </td> 
+   <td colname="col2"><a href="https://marketing.adobe.com/resources/help/en_US/insight/dataset/c_ex_dim.html"  > 扩展维度</a> </td> 
   </tr> 
  </tbody> 
 </table>
