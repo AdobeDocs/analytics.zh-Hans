@@ -5,7 +5,7 @@ seo-description: 通过动态变量，您可以将一个变量中的值复制到
 solution: null
 title: 动态变量
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -30,7 +30,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 |---|---|---|---|
 | 不适用 | CDP | 影响多个报表，因为它控制访客 ID 的存储和处理方式。 | "2" |
 
-> [!NOTE]有些云计算服务被视为顶级域，不允许写入 Cookie。（例如，`compute.amazonaws.com`、`*.herokuapp.com`、`*.googlecode.com` 等等。）如果您在这些服务上进行实施，则可能会受到 Analytics 隐私设置的影响，因为如果您还没有设置自己的域（例如，如果您正在测试您的实施），那么该设置会删除已阻止所有 Cookie 的用户。在这种情况下，如果系统已确定其 Cookie 已禁用，则不可用或不可访问的点击会被禁止，因此会从报表中排除。
+>[!NOTE]
+>
+>有些云计算服务被视为顶级域，不允许写入 Cookie。（例如，`compute.amazonaws.com`、`*.herokuapp.com`、`*.googlecode.com` 等等。）如果您在这些服务上进行实施，则可能会受到 Analytics 隐私设置的影响，因为如果您还没有设置自己的域（例如，如果您正在测试您的实施），那么该设置会删除已阻止所有 Cookie 的用户。在这种情况下，如果系统已确定其 Cookie 已禁用，则不可用或不可访问的点击会被禁止，因此会从报表中排除。
 
 ## 示例
 
