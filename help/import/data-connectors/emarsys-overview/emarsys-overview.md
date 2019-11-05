@@ -5,7 +5,7 @@ seo-title: Adobe Analytics的Emarsys Data Connector
 title: Adobe Analytics的Emarsys Data Connector
 uuid: 6f2fbabc-dc6c-4975-887d-ec22eba42f9e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -53,7 +53,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 * 活动的emarsys帐户
 
-有关分步集成说明，请参阅运 [行Data Connectors集成向导](../emarsys-overview/emarsys-wizard.md#task-72b844fe0f7a44d9acf3eb8f9f7ecb5a)。
+有关分步集成说明，请参阅运 [行Data Connectors集成向导。](/help/import/data-connectors/emarsys-overview/emarsys-wizard.md)
 
 ## 定价{#pricing}
 
