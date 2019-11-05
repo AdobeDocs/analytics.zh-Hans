@@ -1,18 +1,18 @@
 ---
 description: Report Builder中滚动日期的字段定义。
 seo-description: Report Builder中滚动日期的字段定义。
-seo-title: 请求向导定义-滚动日期
+seo-title: 请求向导定义 - 滚动日期
 solution: Analytics
-title: 请求向导定义-滚动日期
+title: 请求向导定义 - 滚动日期
 topic: Report Builder
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
-# 请求向导定义-滚动日期
+# 请求向导定义 - 滚动日期
 
 Report Builder 中滚动日期的字段定义。
 
@@ -26,7 +26,7 @@ Report Builder 中滚动日期的字段定义。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>自定义表达式 </p> </td> 
-   <td colname="col2"> <p>请参阅 <a href="../../../../analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md#task_F5D3C926214F47B8A2C45B2A38C75A45" type="task" format="dita" scope="local"> 自定义的日期表达式</a>. </p> </td> 
+   <td colname="col2"> <p>请参阅 <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   > 自定义的日期表达式</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 截止日期 </p> </td> 
