@@ -8,7 +8,7 @@ title: 数据收集查询参数
 topic: 开发人员和实施
 uuid: 4d5af486-df27-42fe-bb9c-28938dddf2b2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 下表列出的查询参数包含每个要发送到数据收集的分析变量的值。
 
-可使用该信息的情况包括使用[数据包分析程序](../../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258)进行调试、手动构建图像请求或使用[动态变量](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262)。
+可使用该信息的情况包括使用[数据包分析程序](/help/implement/impl-testing/packet-monitor.md)进行调试、手动构建图像请求或使用[动态变量](/help/implement/js-implementation/c-variables/dynvars-overview.md)。
 
 <table id="table_5442E15BF0AE4BDA92DDADD1C08F7C13"> 
  <thead> 
