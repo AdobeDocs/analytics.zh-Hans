@@ -8,7 +8,7 @@ title: 用户群组设置
 topic: 管理工具
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
 
 ---
 
@@ -95,10 +95,10 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
      </ul> </p> </td> 
    <td colname="col2"> <p>群组成员可以访问报表群组中的部分报表。单击<span class="uicontrol">自定义</span>可打开一个页面，您可以通过该页面选择群组成员能够访问的报表群组中的特定报表。 </p> 
     <ul id="ul_16D5EF18D57D4608AEEDEC40D90D8828"> 
-     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md" format="dita" scope="local">Analytics 工具</a>：启用常规项目（帐单、日志等）、公司管理、工具、Web 服务访问、Report Builder 和 Data Connectors 集成的用户权限。 </li> 
-     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md" format="dita" scope="local">报表包工具</a>：启用 API 访问、报表包管理、工具和报表及功能板项目的用户权限。 </li> 
-     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md" format="dita" scope="local">量度</a>：启用流量、转化、自定义事件、解决方案事件和内容识别等的权限。 </li> 
-     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md" format="dita" scope="local">维度</a>：在粒度级别自定义用户访问权限，包括 eVar、流量报表、解决方案报表和路径报表。 </li> 
+     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">Analytics 工具</a>：启用常规项目（帐单、日志等）、公司管理、工具、Web 服务访问、Report Builder 和 Data Connectors 集成的用户权限。 </li> 
+     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md">报表包工具</a>：启用 API 访问、报表包管理、工具和报表及功能板项目的用户权限。 </li> 
+     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md">量度</a>：启用流量、转化、自定义事件、解决方案事件和内容识别等的权限。 </li> 
+     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">维度</a>：在粒度级别自定义用户访问权限，包括 eVar、流量报表、解决方案报表和路径报表。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -117,7 +117,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
      <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
       <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager（完全访问、自定义、无权访问） </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>具有活动 <span class="keyword">TagManager</span> 容器的客户支持这些权限。对于新用户则不可用。 </p> <p>Adobe 建议使用 <a href="https://marketing.adobe.com/resources/help/en_US/dtm/atm_migration.html" format="html" scope="external">Dynamic Tag Management</a> 进行部署。 </p> </td> 
+   <td colname="col2"> <p>具有活动 <span class="keyword">TagManager</span> 容器的客户支持这些权限。对于新用户则不可用。 </p> <p>Adobe 建议使用 <a href="https://marketing.adobe.com/resources/help/en_US/dtm/atm_migration.html">Dynamic Tag Management</a> 进行部署。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>指定用户登录</b> </td> 
