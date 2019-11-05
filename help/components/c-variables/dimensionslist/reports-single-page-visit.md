@@ -7,7 +7,7 @@ title: 单页面访问量
 topic: 报告
 uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -24,8 +24,8 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 * 单页面访问指一次访问包含一个唯一值，而不是一次图像请求。
 
-   * 在[页面报表](../../../components/c-variables/dimensionslist/reports-pages.md#concept_0219136EA25745B58434D0C7E751D7D5)中，在当次访问内只能触发一个唯一页面。
-   * 在[网站区域报表](../../../components/c-variables/dimensionslist/reports-site-sections.md#concept_39E550D7A9E34C9580E81F5F9E12BDDD)中，在当次访问内会触发一个唯一网站区域。
+   * 在[页面报表](/help/components/c-variables/dimensionslist/reports-pages.md)中，在当次访问内只能触发一个唯一页面。
+   * 在[网站区域报表](/help/components/c-variables/dimensionslist/reports-site-sections.md)中，在当次访问内会触发一个唯一网站区域。
    * 在[流量变量](/help/admin/admin/c-traffic-variables/traffic-var.md)中，如果触发了一个唯一值，则此报表中会填充一次访问。
 
 * 如果报表中的变量包含一个唯一值，则单页面访问量可由许多图像请求组成。在填充了第二个唯一值之后，当次访问将不再被视为一次单页面访问。
