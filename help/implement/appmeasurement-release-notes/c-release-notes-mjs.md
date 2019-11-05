@@ -8,7 +8,7 @@ title: AppMeasurement for JavaScript
 topic: 开发人员和实施
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -349,11 +349,11 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> iOS 扩展</span> </p> </td> 
-   <td colname="col2"> <p> 从 <span class="keyword">iOS</span> SDK 4.5 版开始，新增的 <span class="keyword">iOS</span> 扩展允许您从 Apple Watch 应用程序、今天小组件、照片编辑小组件和所有其他 <span class="keyword">iOS</span> 扩展应用程序中收集使用数据。 </p> <p>请参阅 <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html" format="https" scope="external">iOS 扩展实施</a>。 </p> </td> 
+   <td colname="col2"> <p> 从 <span class="keyword">iOS</span> SDK 4.5 版开始，新增的 <span class="keyword">iOS</span> 扩展允许您从 Apple Watch 应用程序、今天小组件、照片编辑小组件和所有其他 <span class="keyword">iOS</span> 扩展应用程序中收集使用数据。 </p> <p>请参阅 <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html">iOS 扩展实施</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Android Wearable 扩展</span> </p> </td> 
-   <td colname="col2"> <p> 从 <span class="keyword">Android</span> SDK 4.5 版开始，新增的 <span class="keyword">Android</span> 扩展允许您从 <span class="keyword">Android</span> 可穿戴应用程序中收集数据。 </p> <p>请参阅 <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html" format="https" scope="external">Android Wearable 扩展</a>。 </p> </td> 
+   <td colname="col2"> <p> 从 <span class="keyword">Android</span> SDK 4.5 版开始，新增的 <span class="keyword">Android</span> 扩展允许您从 <span class="keyword">Android</span> 可穿戴应用程序中收集数据。 </p> <p>请参阅 <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html">Android Wearable 扩展</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
