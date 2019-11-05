@@ -8,7 +8,7 @@ title: 在 Head 标记中置入 Analytics 代码
 topic: 开发人员和实施
 uuid: e8f91d3c-cb72-454d-9bd4-ff54d83d981f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Analytics 代码创建一个图像对象，它是一个不会显示在页面上的非可视图像。
 
-> [!NOTE]本节仅适用于旧版 s_code.js 实施。[AppMeasurement for JavaScript 1.0](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) 支持在 `<head>` 标记中部署库和页面代码。
+>[!NOTE]
+>
+>本节仅适用于旧版 s_code.js 实施。[AppMeasurement for JavaScript 1.0](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md) 支持在 `<head>` 标记中部署库和页面代码。
 
 之前，常见的实施做法是在 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 和 </head> 标记之间置入 Analytics JavaScript 代码。将代码置于这些标记之间，可防止由发送数据至 Adobe 服务器的请求返回的 1 x 1 像素图像以任何方式影响页面布局。将代码置于文件头中可使代码更早显示。这样，它可以更快执行，从而允许您更有效地计算部分页面加载的页面查看次数。
 
