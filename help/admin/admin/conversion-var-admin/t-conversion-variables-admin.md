@@ -7,7 +7,7 @@ title: 编辑转化变量
 topic: 管理工具
 uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -26,5 +26,5 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    单击&#x200B;**[!UICONTROL 新增]，将未使用的 eVar 添加至报表包。**
 1. 选择想要修改的转化变量字段。
 
-   请参阅[转化变量 - 描述](../../../admin/admin/conversion-var-admin/conversion-var-admin.md#section_7C317BB0287A4B8EB0A1A4ECC40627BF)。某些字段可让您在字段中直接键入。其他字段可从包含支持的值的下拉列表中选择。
+   请参阅[转化变量 - 描述](/help/admin/admin/conversion-var-admin/conversion-var-admin.md#section_7C317BB0287A4B8EB0A1A4ECC40627BF)。某些字段可让您在字段中直接键入。其他字段可从包含支持的值的下拉列表中选择。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
