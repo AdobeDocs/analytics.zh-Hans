@@ -9,7 +9,7 @@ title: 访问
 topic: 开发人员和实施
 uuid: 3035be8f-6adc-45df-a3f2-5de6d3ed99ce
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,4 +22,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 每当发生服务器调用并且访问页码等于 1 时，Analytics 即会计为一次访问。
 
-如果查看[前表](../../../implement/js-implementation/xdevice-visid/visit-example.md#concept_E3B32B8E539F4FDC8E3FA872328B87BA)，就会发现同一访客被计算了 4 次：即第 1、9、11 和 12 次点击。与访客类似，该值会在初次关联后恢复正常，因为[!UICONTROL 访问页码]会由于有效[!UICONTROL 访客 ID] 发生更改而被重置为 1。
+如果查看[前表](/help/implement/js-implementation/xdevice-visid/visit-example.md)，就会发现同一访客被计算了 4 次：即第 1、9、11 和 12 次点击。与访客类似，该值会在初次关联后恢复正常，因为[!UICONTROL 访问页码]会由于有效[!UICONTROL 访客 ID] 发生更改而被重置为 1。
