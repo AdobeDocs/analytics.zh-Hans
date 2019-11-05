@@ -8,7 +8,7 @@ title: 量度
 topic: 开发人员和实施
 uuid: d2addb55-cae6-470d-b482-303ef365809c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>计算量度 </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/calculated_metric.html" format="html" scope="external">计算量度使您可以将多个量度通过数学运算组合成新的量度来使用。</a>您可以为添加了量度的报表创建这些计算量度。管理员可以为报表包的所有用户创建计算量度。 </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/calculated_metric.html">计算量度使您可以将多个量度通过数学运算组合成新的量度来使用。</a>您可以为添加了量度的报表创建这些计算量度。管理员可以为报表包的所有用户创建计算量度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
