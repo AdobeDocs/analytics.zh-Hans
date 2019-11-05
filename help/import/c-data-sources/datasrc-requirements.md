@@ -8,7 +8,7 @@ title: 要求和上载限制
 topic: 开发人员和实施
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -19,11 +19,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 以下各节列出了数据源以及导入市场营销报告与分析的数据所适用的限制。
 
-* [大小限制](../../import/c-data-sources/datasrc-requirements.md#section_77B06D82CB374FFABD39F7D9A49D8E18)
-* [日期](../../import/c-data-sources/datasrc-requirements.md#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2)
-* [常规](../../import/c-data-sources/datasrc-requirements.md#section_1CD337F660484ABDB7D8CAE96FF46ACF)
-* [多字节支持](../../import/c-data-sources/datasrc-requirements.md#section_96C8D26B21184C3E839865DB6F23EA22)
-* [上载网络日志文件](../../import/c-data-sources/datasrc-requirements.md#section_DD736FC971FE45C89AB310BEDC1FE707)
+* [大小限制](/help/import/c-data-sources/datasrc-requirements.md#section_77B06D82CB374FFABD39F7D9A49D8E18)
+* [日期](/help/import/c-data-sources/datasrc-requirements.md#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2)
+* [常规](/help/import/c-data-sources/datasrc-requirements.md#section_1CD337F660484ABDB7D8CAE96FF46ACF)
+* [多字节支持](/help/import/c-data-sources/datasrc-requirements.md#section_96C8D26B21184C3E839865DB6F23EA22)
+* [上载网络日志文件](/help/import/c-data-sources/datasrc-requirements.md#section_DD736FC971FE45C89AB310BEDC1FE707)
 
 ## 大小限制 {#section_77B06D82CB374FFABD39F7D9A49D8E18}
 
@@ -43,7 +43,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 * 在上载数据源文件时，数据源会执行基本的数据验证，以确保文件不含格式错误。如果某文件中遇到错误，将发送一封电子邮件通知，并停止处理。
 * 数据字段不能包含分号。数据源会跳过包含分号的记录。
-* 网络日志、流量和某些普通数据源组中的数据在 Data Warehouse 或 Discover 中不可用。有关详细信息，请参 [阅数据类型和类别](../../import/c-data-sources/c-datasrc-types/datasrc-categories.md#concept_42D1534F48324F20B4F9297FC4022105)。
+* 网络日志、流量和某些普通数据源组中的数据在 Data Warehouse 或 Discover 中不可用。有关详细信息，请参 [阅数据类型和类别](/help/import/c-data-sources/c-datasrc-types/datasrc-categories.md)。
 * 数据源不支持序列化事件。
 
 ## 多字节支持 {#section_96C8D26B21184C3E839865DB6F23EA22}
@@ -60,7 +60,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>受支持。与数据源一起使用的报表包必须启用多字节字符支持。 </p> <p>请参阅帮助中的<a href="https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html" format="https" scope="external">新报表包</a>。 </p> </td> 
+   <td colname="col2"> <p>受支持。与数据源一起使用的报表包必须启用多字节字符支持。 </p> <p>请参阅帮助中的<a href="https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html"  >新报表包</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 带字节顺序标记的 UTF-8 (EF BB BF) </td> 
