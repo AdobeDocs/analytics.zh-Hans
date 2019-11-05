@@ -9,7 +9,7 @@ title: getAndPersistValue
 topic: 开发人员和实施
 uuid: ddeab80c-260e-44b6-8483-8b8b369ec19b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ getAndPersistValue 插件可获取您选择的值，并在确定的时间段内�
 
 >[!IMPORTANT]
 >
->尚未验证此插件是否与 [AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) 兼容。请参阅 [AppMeasurement 插件支持](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A)。
+>尚未验证此插件是否与 [AppMeasurement for JavaScript](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md) 兼容。请参阅 [AppMeasurement 插件支持](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md)。
 
 例如，您可以使用此插件在每个访客在接下来的 30 天内进行页面查看时，将促销活动代码中的 *`campaign`* 变量设置为的自定义流量 (*`s.prop`*) 变量。通过该示例可以确定最初的点进导致跟踪代码产生了多少次页面查看。
 
