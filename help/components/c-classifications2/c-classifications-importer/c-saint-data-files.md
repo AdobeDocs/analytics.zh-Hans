@@ -8,7 +8,7 @@ title: 分类数据文件
 topic: 管理工具
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 导入器允许您将文件中的分类数据批量上载至分析报表。导入要求使用特定文件格式，才能成功上载数据。
 
-为了帮助创建有效的数据文件，可以下载模板文件，将分类数据粘贴到该模板文件所提供的文件结构中。有关详细信息，请参阅 [下载分类模板](../../../components/c-classifications2/c-classifications-importer/c-download-saint-data.md#concept_0F06847AD8D042F5BA818AE3C37E2417).
+为了帮助创建有效的数据文件，可以下载模板文件，将分类数据粘贴到该模板文件所提供的文件结构中。有关详细信息，请参阅 [下载分类模板](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md).
 
-See [General File Structure](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9EFF968DF5D244A887DE94075431C1BE) for more information about character limits in classifications.
+See [General File Structure](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) for more information about character limits in classifications.
 
-See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md#concept_71024B7B91DF4E909076062AB1380D8B) for information about uploading data using numeric 2 classifications.
+See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) for information about uploading data using numeric 2 classifications.
 
 ## 常规文件结构
 
@@ -34,7 +34,7 @@ See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric
 * 分类不能包含 0（零）值。
 * Adobe 建议您将导入和导出列的数量限制为 30。
 * 上载的文件必须使用不带 BOM 字符编码的 UTF-8 格式。
-* 包含制表符、换行符和引号在内的特殊字符可以嵌入在单元格内，前提是指定了 v2.1 文件格式，并且该单元格已被正确[转义](../../../components/c-classifications2/c-classifications-importer/t-classifications-escape-data.md#task_EB47E80063F14F9CB2D186C0CAA9CBAD)。特殊字符包括：
+* 包含制表符、换行符和引号在内的特殊字符可以嵌入在单元格内，前提是指定了 v2.1 文件格式，并且该单元格已被正确[转义](/help/components/c-classifications2/c-classifications-importer/t-classifications-escape-data.md)。特殊字符包括：
 
    ```
    \t     tab character 
@@ -60,7 +60,7 @@ See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric
    * 如果文件中指定的是 v2.1，但实际上需要的是 v2.0，也就是说，当引号的使用方式在 Excel 格式中违规时，则可能产生问题。例如，若您有以下值："VP NO REPS" S/l Dress w/ Overlay。在 v2.1 中，这是错误的格式（此值应当由左右引号括起来，并且作为实际值一部分的引号应当由额外的引号转义），而且分类也无法正常工作。
    * 请确保您执行了以下操作之一：通过更改上载文件中的标题（单元格 C1）将您的文件格式更改为 v2.0，或者在所有文件中正确实施 Excel 引号功能。
 
-* 数据文件的第一行（非注释）包含用于标识该列中分类数据的列标题。导入器要求列标题采用特定的格式。有关详细信息，请参阅 [列标题格式](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_ADC08C783477451B959782CEA23AF5EF).
+* 数据文件的第一行（非注释）包含用于标识该列中分类数据的列标题。导入器要求列标题采用特定的格式。有关详细信息，请参阅 [列标题格式](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
 * 在数据文件中，紧接标题行的是数据行。每行数据都应包含各列标题的数据字段。
 * 数据文件支持以下控制代码，Adobe 可以使用这些代码为文件提供结构以及正确导入分类数据：
 
@@ -78,11 +78,11 @@ See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric
   </tr> 
   <tr> 
    <td colname="col1"> <p>~autogen~ </p> </td> 
-   <td colname="col2"> <p>要求 Adobe 自动为此元素生成唯一的 ID。 </p> <p>在促销活动环境中，此控制值会指示 Adobe 为每个创作元素指定一个标识符。请参阅 <a href="../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_0B77B3079B5C414F9956058688990443" format="dita" scope="local"> 键值 </a>. </p> </td> 
+   <td colname="col2"> <p>要求 Adobe 自动为此元素生成唯一的 ID。 </p> <p>在促销活动环境中，此控制值会指示 Adobe 为每个创作元素指定一个标识符。请参阅 <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > 键值 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>~period~ </p> </td> 
-   <td colname="col2"> <p>指定此数据列代表与此项目相关联的日期范围。请参阅 <a href="../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9ECCD5ED97764CDC90C0B7B0F9461825" format="dita" scope="local"> Date </a>. </p> </td> 
+   <td colname="col2"> <p>指定此数据列代表与此项目相关联的日期范围。请参阅 <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > Date </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>空白字段 </p> </td> 
@@ -90,7 +90,7 @@ See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric
   </tr> 
   <tr> 
    <td colname="col1"> <p>PER 修饰符 </p> </td> 
-   <td colname="col2"> <p>指定此数据列代表 <span class="wintitle">PER 修饰符</span>字段。See <a href="../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_7E199A26E3274B31B07CCAF8DFE3B274" format="dita" scope="local"> PER Modifier Headings </a>. </p> </td> 
+   <td colname="col2"> <p>指定此数据列代表 <span class="wintitle">PER 修饰符</span>字段。See <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > PER Modifier Headings </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
