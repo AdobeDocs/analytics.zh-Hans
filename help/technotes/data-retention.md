@@ -5,7 +5,7 @@ title: 数据保留策略
 description: 数据保留策略决定了Adobe存储数据的时间。
 uuid: 9988ef5c-d657-4521-8601-e508756d7d07
 translation-type: tm+mt
-source-git-commit: b135a1d2ddea4857496e90921c22fb30bd44da50
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -45,7 +45,7 @@ Adobe作为您的数据处理者，必须采取适当措施协助其客户实现
 
 **我可以在删除之前请求一份数据副本吗？**
 
-能。Adobe可以提供原始点击级别数据的历史数据转储。 有关 [详细信息](../export/analytics-data-feed/c-getstarted/data-feed-overview.md) ，请参阅导出用户指南中的数据源。 如果您的数据导出要求超出UI可提供的范围，请与贵组织的客户经理联系。 酒店可提供特殊的住宿；成本可能不同。
+能。Adobe可以提供原始点击级别数据的历史数据转储。 有关 [详细信息](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) ，请参阅导出用户指南中的数据源。 如果您的数据导出要求超出UI可提供的范围，请与贵组织的客户经理联系。 酒店可提供特殊的住宿；成本可能不同。
 
 **Adobe何时删除数据？**
 
