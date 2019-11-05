@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 管理广告帐户
 title: 管理广告帐户
-uuid: 0b205046-2eb5-4cd6-be62-cdf716 fe934 e
+uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
 translation-type: tm+mt
-source-git-commit: 463e28e9d710cc41e4ab4ace5e3861b8ae8fbdcc
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -30,7 +30,7 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ 添加 </p> </td> 
-   <td colname="col2"> <p>使您转到<a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C" format="dita" scope="local">设置广告帐户</a> UI。 </p> </td> 
+   <td colname="col2"> <p>使您转到<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  >设置广告帐户</a> UI。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>重命名 </p> </td> 
