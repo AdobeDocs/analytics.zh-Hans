@@ -8,7 +8,7 @@ title: Facebook Instant Articles（即时文章）
 topic: 开发人员和实施
 uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -82,7 +82,7 @@ Facebook Instant Articles（即时文章） 是发布者在 Facebook 中创建�
    1. 贵公司的跟踪服务器域。
    1. 您的访客命名空间变量。**注意：**&#x200B;大多数值都可以在 Analytics 标准实施的过程中找到。如果需要，客户关怀团队或 Adobe 咨询人员可以帮助提供适当的值。
 
-1. [设置自定义变量和事件跟踪](../../implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B).
+1. [设置自定义变量和事件跟踪](/help/implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B).
 1. 将页面查看图像请求语法 `( s.t())` 包含在内。
 
 ## 步骤 3. 设置自定义变量和事件跟踪 {#section_932C41BD21154C25B99389299BDF3E0B}
