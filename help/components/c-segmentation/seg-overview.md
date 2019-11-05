@@ -7,7 +7,7 @@ title: 关于区段和容器
 topic: 区段
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 区段基于使用嵌套容器模型的[!UICONTROL 访客]、[!UICONTROL 访问]和[!UICONTROL 点击]级别层次结构。您可以使用嵌套容器根据各容器之间和容器内的规则定义访客属性和操作。可在 [!DNL Adobe Experience Cloud] 的多个产品和功能中生成、批准、共享、保存和运行 Analytics 区段。区段可通过报表生成、可内建于功能板报表中，或添加书签以便快速访问。
 
-您可以在区段生成器中生成并保存区段，也可以通过流失报表（在 [!DNL ad hoc analysis] 中）生成区段。还可以根据嵌套容器之间的特定规则采用和扩展预先生成的区段，从而可以过滤结果并应用于报表。此外，区段还可以结合在一起作为[堆叠区段](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_40C299B60B354E10B344702EA3138B34)使用。
+您可以在区段生成器中生成并保存区段，也可以通过流失报表（在 [!DNL ad hoc analysis] 中）生成区段。还可以根据嵌套容器之间的特定规则采用和扩展预先生成的区段，从而可以过滤结果并应用于报表。此外，区段还可以结合在一起作为[堆叠区段](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)使用。
 
 ## 区段 {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
@@ -113,7 +113,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 **逻辑组容器**
 
-通过使用逻辑组容器，您可以在区段规则中提供独立的容器，进而能够不按照层次结构过滤实体。例如，您可能想要提供一个嵌套于区段且按照访客进行过滤的容器。这一类型的逻辑要求您打破层次结构（因为您已经拥有一个顶级访客容器），从而只过滤选定的访客。这可以通过使用逻辑组容器来实现。请参阅[逻辑组容器示例](../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_83AEC78CD25F442EBEE364856A889560)以了解其他信息。
+通过使用逻辑组容器，您可以在区段规则中提供独立的容器，进而能够不按照层次结构过滤实体。例如，您可能想要提供一个嵌套于区段且按照访客进行过滤的容器。这一类型的逻辑要求您打破层次结构（因为您已经拥有一个顶级访客容器），从而只过滤选定的访客。这可以通过使用逻辑组容器来实现。请参阅[逻辑组容器示例](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)以了解其他信息。
 
 ## Nesting containers {#section_7FDF47B3C6A94C38AE40D3559AFFAF70}
 
@@ -154,13 +154,13 @@ Country = United States + Order = True
 
 ![](assets/nesting_container.png)
 
-[!UICONTROL 访客]构成顺序区段中的最高顺序容器，[!UICONTROL 访问]包含在[!UICONTROL 访客]容器中，而[!UICONTROL 点击]包含在[!UICONTROL 访客]或[!UICONTROL 访问]容器中。必须保持这种[容器层次结构](../../components/c-segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70)以生成秩序井然的顺序区段。
+[!UICONTROL 访客]构成顺序区段中的最高顺序容器，[!UICONTROL 访问]包含在[!UICONTROL 访客]容器中，而[!UICONTROL 点击]包含在[!UICONTROL 访客]或[!UICONTROL 访问]容器中。必须保持这种[容器层次结构](/help/components/c-segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70)以生成秩序井然的顺序区段。
 
 **要生成顺序区段**，请嵌套容器并使用 [!UICONTROL THEN] 运算符联接顺序逻辑，这要求每个容器都基于访客序列。
 
 ![](assets/sequential_segmentation_nesting_3.png)
 
-这种容器层次结构的唯一例外是在使用[逻辑组容器](../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_83AEC78CD25F442EBEE364856A889560)时。通过使用[!UICONTROL 逻辑组]容器，您可以按任意顺序将点击嵌套在容器中以捕获事件和维度，而不按照特定的顺序。
+这种容器层次结构的唯一例外是在使用[逻辑组容器](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)时。通过使用[!UICONTROL 逻辑组]容器，您可以按任意顺序将点击嵌套在容器中以捕获事件和维度，而不按照特定的顺序。
 
 ![](assets/logic_group_hierarchy.png)
 
@@ -253,7 +253,7 @@ Country = United States + Order = True
 
 如果维度在一些页面上保持不变（例如促销活动 eVar 或反向链接维度），按这样的维度进行过滤会影响容器级别收集的数据，需要对此有深入了解来确保报表的准确性。
 
-根据某个维度的持续性，或者所选页面中应用的变量，区段数据可能会有所变化。包括页面维度在内的某些维度会在页面级别提供唯一值，并根据点击容器的数据进行过滤。（请参阅[以容器数据为基础的报表](../../components/c-segmentation/seg-overview.md#concept_BE822C12F87C4F07B7147D80BEFBAB87)示例）。反向链接域名维度等其他维度在一次访问的多个页面上均保持不变。某些维度或应用的变量（如访问持续时间）会持续访客的整个历史记录。
+根据某个维度的持续性，或者所选页面中应用的变量，区段数据可能会有所变化。包括页面维度在内的某些维度会在页面级别提供唯一值，并根据点击容器的数据进行过滤。（请参阅[以容器数据为基础的报表](/help/components/c-segmentation/seg-overview.md)示例）。反向链接域名维度等其他维度在一次访问的多个页面上均保持不变。某些维度或应用的变量（如访问持续时间）会持续访客的整个历史记录。
 
 ![](assets/RefDomain_aol.png)
 
