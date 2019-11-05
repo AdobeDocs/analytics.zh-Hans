@@ -5,7 +5,7 @@ seo-title: 构建简单的“每次访问的页面查看次数”量度
 title: 构建简单的“每次访问的页面查看次数”量度
 uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 显示如何生成简单的“每次访问页面查看次数”量度。
 
-有关 UI 组件的详细描述，请参阅 [生成量度](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#concept_5EC82A91EB9C44FC870326C85F9D0B18).
+有关 UI 组件的详细描述，请参阅 [生成量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 下面说明了如何生成简单的“每次访问页面查看次数”量度。
 
@@ -31,5 +31,5 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 1. 产品兼容性显示该量度是与“[当前数据](https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html)”兼容，还是仅与“完全处理数据”兼容。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 1. 请注意，无论您何时对量度定义进行更改，**[!UICONTROL 概要]公式都会随之发生更新。**
-1. 您现在会自动转到“计 [算量度管理器](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md#concept_BA6815CB06D842D5825766396B691653)”，它类似于“区段管理器”。 它允许您共享、批准、（重新）标记、重命名或删除量度。
+1. 您现在会自动转到“计 [算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)”，它类似于“区段管理器”。 它允许您共享、批准、（重新）标记、重命名或删除量度。
 
