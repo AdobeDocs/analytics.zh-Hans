@@ -7,7 +7,7 @@ title: 复制简单请求
 topic: Report Builder
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 复制简单请求，而不是引用请求。简单请求是指不引用另一请求或单元格内容的请求。
 
-A [referential request](../../../../analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md#task_82A145CC2A774F5EA86977D670E07DC8) uses values from cells as input for parameters, such as a data filter or relational filter. 这些过滤器使用匹配或趋势条件，并且基于之前请求的结果或基于用户输入的单元格（称为输入单元格）内容。
+A [referential request](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md) uses values from cells as input for parameters, such as a data filter or relational filter. 这些过滤器使用匹配或趋势条件，并且基于之前请求的结果或基于用户输入的单元格（称为输入单元格）内容。
 1. 创建有效的请求。
 1. 右键单击请求映射到的单元格之一，或者选择包含请求的单元格区域。
 
