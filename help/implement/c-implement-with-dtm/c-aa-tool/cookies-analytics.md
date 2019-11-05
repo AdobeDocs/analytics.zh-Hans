@@ -6,8 +6,8 @@ seo-title: Cookie
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Cookie
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -38,11 +38,11 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
   </tr> 
   <tr> 
    <td colname="col1"> 域名句点数量 </td> 
-   <td colname="col2"> <p>在域中设置了 Analytics cookie（<code>s_cc</code> 和 <code>s_sq</code>），以此来确定页面 URL 的域中句点的数量。某些插件还会使用此变量来确定要设置插件 Cookie 的正确域。 </p> </td> 
+   <td colname="col2"> <p>在域中设置了 Analytics cookie（<code> s_cc</code> 和 <code> s_sq</code>），以此来确定页面 URL 的域中句点的数量。某些插件还会使用此变量来确定要设置插件 Cookie 的正确域。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> FP 域名句点 </td> 
-   <td colname="col2"> <p><span class="term">fpCookieDomainPeriods</span> 变量适用于由 JavaScript 设置的内置第一方 Cookie（<code>s_sq</code>、<code>s_cc</code>、插件），即使您的实施使用的是第三方 <span class="filepath">2o7.net</span> 或 <span class="filepath">omtrdc.net</span> 域。 </p> <p>请参阅 <a href="../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00" format="dita" scope="local">s.fpCookieDomainPeriods</a>。 </p> </td> 
+   <td colname="col2"> <p>The <span class="term"> fpCookieDomainPeriods</span> variable is for cookies set by JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party <span class="filepath"> 2o7.net</span> or <span class="filepath"> omtrdc.net</span> domains. </p> <p>请参阅 <a href="/help/implement/js-implementation/c-variables/configuration-variables.md"  >s.fpCookieDomainPeriods</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 交易 ID </td> 
