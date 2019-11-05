@@ -8,7 +8,7 @@ title: 营销渠道处理规则 - 定义
 topic: Reports and Analytics
 uuid: 4e71ff5b-912a-4dc0-9c22-4be74c5e3cc0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>转化变量 </p> </td> 
-   <td colname="col2"> <p>由为本报表包启用的 eVar 组成，并且只在通过网页上的 Adobe 代码设置变量时才适用。 </p> <p>请参阅<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/oms_sc_implement.pdf" scope="external" format="html">实施指南</a>。 </p> </td> 
+   <td colname="col2"> <p>由为本报表包启用的 eVar 组成，并且只在通过网页上的 Adobe 代码设置变量时才适用。 </p> <p>请参阅<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/oms_sc_implement.pdf"  >实施指南</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>存在 </p> </td> 
@@ -56,7 +56,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>将渠道识别为 </p> </td> 
-   <td colname="col2"> <p>将规则与您添加到<span class="wintitle">“营销渠道管理器”</span>页面上的营销渠道相关联。 </p> <p>See <a href="../../components/c-marketing-channels/c-channels.md#task_98C9D3F5DBBC4B198E0A9ED4D3891E03" type="task" format="dita" scope="local"> Add marketing channels </a>. </p> </td> 
+   <td colname="col2"> <p>将规则与您添加到<span class="wintitle">“营销渠道管理器”</span>页面上的营销渠道相关联。 </p> <p>See <a href="/help/components/c-marketing-channels/c-channels.md"   > Add marketing channels </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>匹配付费搜索检测规则 </p> </td> 
@@ -72,7 +72,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>引用网站与内部 URL 筛选器不匹配 </p> </td> 
-   <td colname="col2"> <p>按照“管理工具”中对报表包的定义，引用 URL 与内部 URL 筛选器不匹配。您可以将此设置与 <span class="term"> Page URL </span> and <span class="term"> Exists </span> to set up a catch-all rule, so that no visits land in the <a href="../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7" type="section" format="dita" scope="local"> No Channel Identified </a> section of the report. </p> </td> 
+   <td colname="col2"> <p>按照“管理工具”中对报表包的定义，引用 URL 与内部 URL 筛选器不匹配。您可以将此设置与 <span class="term"> Page URL </span> and <span class="term"> Exists </span> to set up a catch-all rule, so that no visits land in the <a href="/help/components/c-marketing-channels/c-faq.md#no-channel-identified" > No Channel Identified </a> section of the report. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>忽略与内部 URL 过滤器匹配的点击量 </p> </td> 
@@ -147,6 +147,3 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
  </tbody> 
 </table>
-
-
-
