@@ -1,31 +1,31 @@
 ---
 title: 常见问题解答
-description: 从第三方平台移动到Adobe时，获得常见问题解答。
+description: 从第三方平台转到Adobe时，获得常见问题解答。
 translation-type: tm+mt
-source-git-commit: f10c258341ccef97f58beb6fb4f0046a48e79dda
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
 
 # 常见问题解答
 
-**如何将我的历史数据从第三方平台迁移到Adobe？**
+**如何将我的历史数据从第三方平台迁移到Adobe?**
 
-每个Analytics平台都有不同的收集、处理和存储数据的方法。Adobe建议建立一个清晰的剪切日期，而不是迁移历史数据，以开始收集和使用Adobe Analytics中的数据。频繁使用的日期是指财年的开始日期、日历年度的开始或日历月的开始。如果用户希望查看历史数据，他们可以登录到第三方平台以获得任何特定的历史报告需求。
+每个Analytics平台都有不同的数据收集、处理和存储方式。 Adobe建议建立明确的截止日期，以便开始在Adobe Analytics中收集和使用数据，而不是迁移历史数据。 经常使用的截止日期是财政年度的开始、日历年的开始或日历月的开始。 如果用户希望查看历史数据，则可登录第三方平台以获取任何特定的历史报告需求。
 
-如果贵组织热衷于将历史数据移植到Adobe，请与贵组织的客户经理联系。实施顾问可以与您的组织合作，将Google Analytics数据导出转换为可由Adobe数据收集服务器摄取的数据源。
+如果贵组织坚决要求将历史数据移植到Adobe，请与贵组织的客户经理联系。 实施顾问可以与您的组织合作，将Google Analytics数据导出转换为可由Adobe数据收集服务器摄取的数据源。
 
-Adobe不建议移植历史数据，因为这是一个复杂的过程，并且对您的组织极具成本禁止。访客识别也不可能无缝移植到Adobe，因为访客信息存储在不同的cookie和不同平台之间的不同格式中。
+Adobe不建议移植历史数据，因为这是一个复杂的过程，并且贵组织成本高昂。 访客身份识别也无法无缝地移植到Adobe，因为访客信息存储在不同的cookie和平台之间的不同格式中。
 
-**我在许多报告中习惯了细分下拉列表。How can I recreate that in Analysis Workspace?**
+**我习惯了许多报告中的细分下拉菜单。 如何在Analysis Workspace中重新创建它？**
 
-下拉列表是Analysis Workspace中一个灵活而强大的功能，它允许分段下拉列表。在工作区项目中：
+下拉式过滤器是Analysis Workspace中灵活而强大的功能，允许分段下拉列表。 在工作区项目中时：
 
-1. 在要包含在下拉菜单中的组件上，按住Ctrl键并单击(Windows)或cmd并单击(Mac)。您不仅仅局限于细分；任何组件都可以包含在下拉过滤器中。
-2. 将组件组拖到标记为“在此处放置区段”的工作区区域。在放手之前，请按住Shift。
+1. 对要包含在下拉列表中的组件使用ctrl+单击(Windows)或cmd+单击(Mac)。 您不仅仅限于细分；任何组件都可以包含在下拉式筛选器中。
+2. 将组件拖动到标有“将区段拖到此处”的工作区区域。 放手前，按住Shift键。
 
-访问此工作区项目的用户现在可以使用此下拉菜单将区段或其他组件应用到项目。See [Panels Overview](../../analyze/analysis-workspace/c-panels/panels.md) in the Analytics user guide for more information.
+访问此工作区项目的用户现在可以使用此下拉列表将区段或其他组件应用到项目。 有关更 [多信息，请参阅](/help/analyze/analysis-workspace/c-panels/panels.md) Analytics用户指南中的面板概述。
 
-**我习惯单击维度值以查看drzzown。How can I replicate that easy workflow in Analysis Workspace?**
+**我习惯于单击维值以查看下钻。 如何在Analysis Workspace中复制该轻松的工作流？**
 
-Analysis Workspace中的维度值还有一个简单的细分工作流程；使用右键单击而不是左键单击访问它。右键单击某个维度值，单击“划分”，然后选择所需的组件。您可以通过在每个值上使用Ctrl并单击(Windows)或cmd并单击(Mac)，将同一细分应用于多个维度值。
+Analysis Workspace中的维度值还具有简单的细分工作流程；它使用右键单击（而不是左键单击）进行访问。 右键单击维值，单击划分，然后选择所需的组件。 对每个值使用ctrl+单击(Windows)或cmd+单击(Mac)，可将相同细分应用于多个维值。
