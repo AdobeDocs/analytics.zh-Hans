@@ -9,7 +9,7 @@ title: getQueryParam
 topic: 开发人员和实施
 uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 >[!IMPORTANT]
 >
->此插件只能由 H 代码使用。[AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) 本身通过使用 [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5) 提供此功能。
+>此插件只能由 H 代码使用。[AppMeasurement for JavaScript](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md) 本身通过使用 [Util.getQueryParam](/help/implement/js-implementation/util-getqueryparam.md) 提供此功能。
 
 在您的 [!DNL AppMeasurement] for JavaScript 代码中安装该插件后，可通过以下操作对插件进行配置：选择一个 [!DNL Analytics] 变量以使用在查询字符串中找到的数据对该变量进行填充，并指定要捕获的查询字符串值。该插件会检测是否存在指定的查询字符串；如果存在，将使用该字符串的值填充所选变量。如果未找到具有该值的查询字符串参数，则返回空字符串。如果存在某个查询字符串参数，但该参数没有任何值（例如 `?param1&param2=value` 中的 param1），则会返回 *`true`*。
 
