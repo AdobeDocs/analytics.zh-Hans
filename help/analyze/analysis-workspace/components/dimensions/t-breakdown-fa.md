@@ -8,7 +8,7 @@ title: 划分维度
 topic: Reports and Analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 为了满足您的特定需求，划分数据的方法可以不受限制；您可以使用相关的量度、维度、区段、时间线以及其他分析划分值来构建查询。
 
-1. [创建项目](../../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2)，其中包含一个数据表。
+1. [创建项目](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)，其中包含一个数据表。
 1. In the data table, right-click a line item and select **[!UICONTROL Breakdown]** &gt; *`<item>`*.
 
    ![步骤结果](assets/fa_data_table_actions.png)
