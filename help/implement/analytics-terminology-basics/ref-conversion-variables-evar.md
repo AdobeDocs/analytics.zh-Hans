@@ -8,7 +8,7 @@ title: 转化变量 (eVar)
 topic: 开发人员和实施
 uuid: 50071c1c-be00-4b3a-a7ee-5d129acf498b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -35,7 +35,7 @@ eVar 可以是基于访问的，其功能与 Cookie 类似。在预先设定的�
 
 有关变量的更多信息，请参阅：
 
-* [适用于 Analytics 实施和报告的变量](../../implement/js-implementation/c-variables/sc-variables.md#concept_E10E43221A2740FAAF900B79CE1EC5FB)（位于本帮助文档中）
+* [适用于 Analytics 实施和报告的变量](/help/implement/js-implementation/c-variables/sc-variables.md)（位于本帮助文档中）
 * [变量 - 如何在报表中使用变量](https://marketing.adobe.com/resources/help/en_US/reference/variable_definitions.html)
 * [页面变量](/help/implement/js-implementation/c-variables/page-variables.md)
 * [促销活动变量](/help/implement/js-implementation/c-variables/page-variables.md)
