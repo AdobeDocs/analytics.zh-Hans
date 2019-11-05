@@ -8,7 +8,7 @@ title: 访客 ID
 topic: 开发人员和实施
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 访客 ID 可通过选择普通（交易 ID）类别来集成。
 
-请参 [阅集成脱机数据](../../../import/c-data-sources/datasrc-integrating-offline-data.md#concept_B5C576220F1548B5A3A57112AA3960C6)。
+请参 [阅集成脱机数据](/help/import/c-data-sources/datasrc-integrating-offline-data.md)。
 
 <p class="head"> <b>访客 ID 维度</b> </p>
 
