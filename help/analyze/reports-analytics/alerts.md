@@ -8,7 +8,7 @@ title: 警报
 topic: Reports and Analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -103,17 +103,17 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>具有 ASI 插槽的警报作为报表包 </p> </td> 
-   <td colname="col2"> <p>不能再<a href="https://marketing.adobe.com/resources/help/en_US/reference/ASI_slots_admin.html" format="https" scope="external">创建或编辑 ASI 插槽</a>，并且在 Analysis Workspace 中不可用。因此，它们不受新警报的支持。 </p> <p> </p> </td> 
+   <td colname="col2"> <p>不能再<a href="https://marketing.adobe.com/resources/help/en_US/reference/ASI_slots_admin.html"  >创建或编辑 ASI 插槽</a>，并且在 Analysis Workspace 中不可用。因此，它们不受新警报的支持。 </p> <p> </p> </td> 
    <td colname="col3"> <p>在新的警报管理器中不可用。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用参与量度的警报 </p> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_participation.html" format="https" scope="external">参与量度</a>在 Reports &amp; Analytics 中可用，但当前在 Analysis Workspace 的新警报系统中不可用。 </p> <p> </p> </td> 
+   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_participation.html"  >参与量度</a>在 Reports &amp; Analytics 中可用，但当前在 Analysis Workspace 的新警报系统中不可用。 </p> <p> </p> </td> 
    <td colname="col3"> <p>在新的警报管理器中不可用。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>用于自定义日历报表包的每月警报 </p> </td> 
-   <td colname="col2"> <p>这仅会对满足以下条件的客户造成影响：针对具有<a href="https://marketing.adobe.com/resources/help/en_US/arb/custom_calendar.html" format="https" scope="external">自定义月份开始日期</a>（美国零售联合会/NRF 和自定义日历类型）的报表包设置了警报。 </p> <p>它不影响“公历”或“已修改的公历”日历报表包中的警报。以前，这些警报是在公历月份的第一天发送的（例如，1 月 1 日，2 月 1 日等）。这与警报的新“异常检测”功能不相符，因为它在检测异常时会考虑之前月份的数据。以后，我们将增加对计划系统的自定义日历支持，这样警报和计划项目都可以通过计划在自定义日历月的第一天发送，而不只是在公历月的第一天发送。 </p> <p> </p> </td> 
+   <td colname="col2"> <p>这仅会对满足以下条件的客户造成影响：针对具有<a href="https://marketing.adobe.com/resources/help/en_US/arb/custom_calendar.html"  >自定义月份开始日期</a>（美国零售联合会/NRF 和自定义日历类型）的报表包设置了警报。 </p> <p>它不影响“公历”或“已修改的公历”日历报表包中的警报。以前，这些警报是在公历月份的第一天发送的（例如，1 月 1 日，2 月 1 日等）。这与警报的新“异常检测”功能不相符，因为它在检测异常时会考虑之前月份的数据。以后，我们将增加对计划系统的自定义日历支持，这样警报和计划项目都可以通过计划在自定义日历月的第一天发送，而不只是在公历月的第一天发送。 </p> <p> </p> </td> 
    <td colname="col3"> <p>在新警报管理器中尚不可用。 </p> </td> 
   </tr> 
   <tr> 
