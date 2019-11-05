@@ -9,7 +9,7 @@ title: 自定义 Analytics 工具权限
 topic: 管理工具
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -39,23 +39,23 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 | 元素 | 描述 |
 |--- |--- |
 | **常规** |  |
-| [代码管理器](../../../admin/admin/code-manager-admin.md) | 启用下载适用于 Web 和移动平台的数据收集代码的权限。 |
+| [代码管理器](/help/admin/admin/code-manager-admin.md) | 启用下载适用于 Web 和移动平台的数据收集代码的权限。 |
 | 代码管理器 - Web 服务 | 允许非管理用户通过 Web 服务访问代码管理器。 |
-| [日志](../../../admin/admin/logs.md) | 启用日志文件权限，日志文件有助于您了解用户登录的时间、用户使用情况、访问情况、报表包，以及管理员执行的更改。 |
+| [日志](/help/admin/admin/logs.md) | 启用日志文件权限，日志文件有助于您了解用户登录的时间、用户使用情况、访问情况、报表包，以及管理员执行的更改。 |
 | 日志 - Web 服务 | 允许非管理用户通过 Web 服务访问管理工具日志。 |
-| [流量管理](../../../admin/c-traffic-management/traffic-management.md) | 使用“流量管理”页面可以指定预期流量的变更。 |
+| [流量管理](/help/admin/c-traffic-management/traffic-management.md) | 使用“流量管理”页面可以指定预期流量的变更。 |
 | 权限管理 | 授予非管理员用户访问管理工具中的“用户管理”页面的权限。这些用户具有“读取”权限，但没有“写入”权限。 |
 | 权限（写入）- Web 服务 | 在 Web 服务中的“用户管理”下向非管理员用户授予读写权限设置。<br>此设置专门针对管理员 API 中指示的权限操作。 |
 | 权限（读取）- Web 服务 | 允许非管理用户在 Web 服务中查看“用户管理”下的权限设置。<br>此设置专门针对管理员 API 中指示的权限操作。 |
 | **公司管理** |  |
-| [安全性](../../../admin/company/security-manager.md) | 授予通过“安全管理器”页面控制报表数据访问权限的权限。相关选项包括强密码、密码过期时间、IP 登录限制及电子邮件域限制。 |
+| [安全性](/help/admin/company/security-manager.md) | 授予通过“安全管理器”页面控制报表数据访问权限的权限。相关选项包括强密码、密码过期时间、IP 登录限制及电子邮件域限制。 |
 | 支持信息 | 授予访问“公司设置”中的“支持信息”的权限。 |
-| [Web 服务](../../../admin/company/web-services-admin.md) | 允许访问“管理工具”界面中的“Web 服务”页面（[!UICONTROL 公司设置] &gt; [!UICONTROL Web 服务]）。<br>Web 服务 API 提供了一种通过编程访问 Adobe Analytics 服务的方式，让您可以复制和扩展通过用户界面提供的功能。 |
+| [Web 服务](/help/admin/company/web-services-admin.md) | 允许访问“管理工具”界面中的“Web 服务”页面（[!UICONTROL 公司设置] &gt; [!UICONTROL Web 服务]）。<br>Web 服务 API 提供了一种通过编程访问 Adobe Analytics 服务的方式，让您可以复制和扩展通过用户界面提供的功能。 |
 | 单点登录（旧版） | 授予对管理工具中的单点登录页面的访问权限。<br>**注意：** Adobe Experience Cloud 中的单点登录是通过 Experience Cloud 与各个解决方案之间的[帐户关联](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)实现的。 |
-| [待定操作](../../../admin/company/pending-actions-admin.md) | 授予在“[!UICONTROL 公司设置]”中管理待定操作的权限。 |
-| [联合品牌](../../../admin/company/co-branding-admin.md) | 授予对 Analytics 进行品牌联合的权限。 |
-| [首选项](../../../admin/admin/preferences-manager.md) | 授予访问[!UICONTROL 首选项管理器]的权限。 |
-| [隐藏报表包](../../../admin/company/c-hide-report-suites.md) | 授予在 Adobe Analytics 用户界面中隐藏报表包的权限。 |
+| [待定操作](/help/admin/company/pending-actions-admin.md) | 授予在“[!UICONTROL 公司设置]”中管理待定操作的权限。 |
+| [联合品牌](/help/admin/company/co-branding-admin.md) | 授予对 Analytics 进行品牌联合的权限。 |
+| [首选项](/help/admin/admin/preferences-manager.md) | 授予访问[!UICONTROL 首选项管理器]的权限。 |
+| [隐藏报表包](/help/admin/company/c-hide-report-suites.md) | 授予在 Adobe Analytics 用户界面中隐藏报表包的权限。 |
 | **工具** | 以下设置授予对 Analytics 工具（界面和应用程序）及分段和计算量度等高级功能的访问权限。 |
 | [当前数据](https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html) | 授予在报表中使用“当前数据”功能的权限。 |
 | [](https://marketing.adobe.com/resources/help/en_US/dsc/)Ad Hoc Analysis 授权用户 | 授予访问 [!UICONTROL Ad Hoc Analysis] 的权限。 |
