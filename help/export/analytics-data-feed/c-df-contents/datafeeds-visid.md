@@ -8,22 +8,22 @@ title: 识别访客
 topic: Reports and Analytics
 uuid: 2490b67e-a333-422d-82fa-cb0670ef2e0c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
 # 识别访客
 
-Analytics 提供了几种用于识别访客的机制（在[识别访客](../../../export/analytics-data-feed/c-df-contents/datafeeds-visid.md#concept_BE966BABA7D0475BB706BC6676B8FA11)中列出）。Regardless of the method used to identify a visitor, in data feeds the final visitor ID used by Analytics is split across the `post_visid_high` and `post_visid_low` columns, even when using the Identity Service.
+Analytics 提供了几种用于识别访客的机制（在[识别访客](/help/export/analytics-data-feed/c-df-contents/datafeeds-visid.md)中列出）。Regardless of the method used to identify a visitor, in data feeds the final visitor ID used by Analytics is split across the `post_visid_high` and `post_visid_low` columns, even when using the Identity Service.
 
 **如何识别独特访客：**
 
 1. Exclude all rows where `exclude_hit > 0`.
-1. Exclude all rows with `hit_source = 5,7,8,9`. 5、8 和 9 是使用数据源上载的摘要行。7 表示不应包括在访问和访客计数中的交易 ID 数据源上载。请参阅 [点击来源对照](../../../export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md#concept_FE4C114F6A524F7593D5CAC944C36C42)
+1. Exclude all rows with `hit_source = 5,7,8,9`. 5、8 和 9 是使用数据源上载的摘要行。7 表示不应包括在访问和访客计数中的交易 ID 数据源上载。请参阅 [点击来源对照](/help/export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md)
 1. 结合 `post_visid_high` 使用 `post_visid_low`。 All hits across all dates that contain this combination of `post_visid_high` and `post_visid_low` can be considered as coming from same visitor.
 
-如果您要决定使用哪种机制来确定访客 ID 值（例如，计算接受 Cookie），则 `post_visid_type` 会包含对照关键值来指示所用的 ID 方法。对照关键值在[下表](../../../export/analytics-data-feed/c-df-contents/datafeeds-visid.md#table_D267D36451F643D1BB68AF6FEAA6AD1A)中随访客 ID 机制一起列出。
+如果您要决定使用哪种机制来确定访客 ID 值（例如，计算接受 Cookie），则 `post_visid_type` 会包含对照关键值来指示所用的 ID 方法。对照关键值在[下表](/help/export/analytics-data-feed/c-df-contents/datafeeds-visid.md#aa-vids)中随访客 ID 机制一起列出。
 
 ## Experience Cloud ID {#section_1628ED37D31E4B0EB75632E397A06B29}
 
@@ -35,7 +35,7 @@ If the Experience Cloud ID was used to identify the visitor, the ID will be cont
 >
 > When using the Adobe Analytics visitor ID as a key for other systems, always use `post_visid_high` and `post_visid_low`. 这些字段是唯一能够确保在数据馈送的每一行都有值的访客 ID 字段。
 
-## Analytics 访客 ID {#section_DE1DC9FC9B6D4388995B70E35B8BCDDF}
+## Analytics 访客 ID {#aa-vids}
 
 在 Analytics 中可通过数种方式来识别访客（在下表中以优先顺序列出）：
 
