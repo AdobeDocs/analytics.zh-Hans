@@ -7,7 +7,7 @@ title: 过滤报表数据
 topic: Reports and Analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -173,7 +173,7 @@ t_reports_correlation_filter.xml
 
 **添加关联过滤器**
 
-1. 运行支持关联的报表。(See [Running a Breakdown Report](../../../analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
+1. 运行支持关联的报表。(See [Running a Breakdown Report](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
 1. In the report header, click the **[!UICONTROL Correlation Filter]** link.
 1. 在[!UICONTROL “过滤器规则生成器”]下，选择要与某项目关联的类别。
 1. Click **[!UICONTROL OK.]**
