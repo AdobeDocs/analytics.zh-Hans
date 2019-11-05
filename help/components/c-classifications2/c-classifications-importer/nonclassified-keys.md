@@ -8,7 +8,7 @@ title: 未分类键
 topic: 管理工具
 uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -40,4 +40,4 @@ Steps that describe how to rename a non-classified key that displays as *`none`*
    要遵循此文档中的示例，您可能要在名为[!UICONTROL 移动设备促销活动名称]的列中键入“非移动设备促销活动”。
 
    此条目会将 *`None`* to *`non-mobile campaign`* in the [!UICONTROL Mobile Campaign Type] report.
-1. [将数据导入](../../../components/c-classifications2/c-classifications-importer/import-file.md#concept_F88785E2BDFD448CB5D1DA3491466B0D)回系统中。
+1. [将数据导入](/help/components/c-classifications2/c-classifications-importer/import-file.md)回系统中。
