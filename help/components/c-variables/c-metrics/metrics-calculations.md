@@ -1,18 +1,18 @@
 ---
 description: 计算量度的方法有以下几种：标准、参与率、最近和线性。由于公式不同，每种方法在计算量度值时各有不同。
 seo-description: 计算量度的方法有以下几种：标准、参与率、最近和线性。由于公式不同，每种方法在计算量度值时各有不同。
-seo-title: 度量计算
+seo-title: 量度计算
 solution: Analytics
-title: 度量计算
+title: 量度计算
 topic: 量度
-uuid: af58f1e-12c5-4828-ae39-c9 aaaef6 b705
+uuid: 2af58f1e-12c5-4828-ae39-c9aeaef6b705
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
-# 度量计算
+# 量度计算
 
 计算量度的方法有以下几种：标准、参与率、最近和线性。由于公式不同，每种方法在计算量度值时各有不同。
 
@@ -34,11 +34,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> 线性 </td> 
-   <td colname="col2"> <p>选择线性分配时，成功事件会被平均划分到访问期间见到的所有变量值。对于数值和货币事件，例如<span class="term"> 收入</span>，货币金额被划分。For counter events such as <span class="term"> Orders</span>, a fraction of the event is awarded to each variable value in the visit. 生成报表时会对这些部分进行合计，然后在报表中四舍五入为最接近的整数。 </p> <p>例如，在一次访问中，如果在成功事件之前访问了四个页面，则每个页面将收到该事件 25% 的信用。如果在同一次访问中，<span class="varname"> 营销活动</span> 具有两个值，每个营销活动值将获得该事件的50%信用。 </p> </td> 
+   <td colname="col2"> <p>选择线性分配时，成功事件会被平均划分到访问期间见到的所有变量值。对于数值和货币事件，例如 <span class="term"> Revenue</span>, the monetary amount is divided. 对于计数器事件(如 <span class="term"> “订单</span>”)，会将部分事件授予访问中的每个变量值。 生成报表时会对这些部分进行合计，然后在报表中四舍五入为最接近的整数。 </p> <p>例如，在一次访问中，如果在成功事件之前访问了四个页面，则每个页面将收到该事件 25% 的信用。如果在同一次访问中， campaign <span class="varname"></span> 有两个值，每个营销活动值将获得活动50%的积分。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 参与率 </td> 
-   <td colname="col2"> <p>将完整信用分配给访问中对成功事件做出了贡献的每个变量值。如果您使用交叉访问参与率量度，则此计算还可以跨访客会话进行应用。 </p> <p>请参阅<a href="../../../components/c-variables/c-metrics/metrics-participation.md#concept_8E6B39106A244CB49E055150B291B477" format="dita" scope="local">参与率</a>以了解更多相关信息。 </p> </td> 
+   <td colname="col2"> <p>将完整信用分配给访问中对成功事件做出了贡献的每个变量值。如果您使用交叉访问参与率量度，则此计算还可以跨访客会话进行应用。 </p> <p>请参阅<a href="/help/components/c-variables/c-metrics/metrics-participation.md"  >参与率</a>以了解更多相关信息。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,7 +47,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 假设您的网站有一个内部搜索，并使用转化变量 (eVar) 对该搜索进行跟踪。访客在做出 $100 的购买决定前执行了多次内部搜索：
 
-*`Pet`* &gt; *`Feline`* &gt; *`Cat`* &gt; *`Kitten`* &gt;$100购买
+*`Pet`* &gt; *`Feline`* &gt; *`Cat`* &gt; *`Kitten`* &gt; 100美元购买
 
 在报表中，信用分配如下所示：
 
