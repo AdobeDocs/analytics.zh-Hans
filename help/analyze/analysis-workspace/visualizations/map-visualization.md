@@ -5,7 +5,7 @@ seo-title: 地图
 title: 地图
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -61,7 +61,7 @@ Analysis Workspace 中的地图可视化
       * 绿/红颜色方案：正/负
    * 通过按住 [!UICONTROL Ctrl] 键并移动地图，**旋转** 2D 或 3D 地图。
 
-   * 使用以下描述的[设置](../../../analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E)，**切换**&#x200B;到其他视图，如热图。请注意，气泡视图是默认设置。
+   * 使用以下描述的[设置](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E)，**切换**&#x200B;到其他视图，如热图。请注意，气泡视图是默认设置。
 
 
 1. **保存**&#x200B;该项目，以保存所有地图设置（坐标、缩放、旋转）。
