@@ -5,7 +5,7 @@ seo-title: 在 Adobe Analytics 中报告广告数据
 title: 在 Adobe Analytics 中报告广告数据
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 通过此模板，实施此搜索引擎集成的任何人都可以访问 Analytics 中丰富的搜索引擎数据。You can access it via **[!UICONTROL Workspace]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Advertising]** &gt; **[!UICONTROL Search Engines.]**
 
-> [!NOTE] 即使您尚未实施任何广告帐户，所有客户都可以看到“广告模板”类别。 但是，如果您尝试为尚未配置该帐户的公司打开搜索引擎模板，则会显示一条错误消息，提示您尚未配置任何搜索引擎帐户。在这种情况下，请单击&#x200B;**[!UICONTROL 立即配置]**，然后便可看到[广告帐户设置](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C)页面。
+>[!NOTE]
+>
+> 即使您尚未实施任何广告帐户，所有客户都可以看到“广告模板”类别。 但是，如果您尝试为尚未配置该帐户的公司打开搜索引擎模板，则会显示一条错误消息，提示您尚未配置任何搜索引擎帐户。在这种情况下，请单击&#x200B;**[!UICONTROL 立即配置]**，然后便可看到[广告帐户设置](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)页面。
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
