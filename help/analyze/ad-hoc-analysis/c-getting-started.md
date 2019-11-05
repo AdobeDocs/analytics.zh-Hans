@@ -5,7 +5,7 @@ seo-title: 快速入门
 title: 快速入门
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. 登录 Adobe <span class="keyword">Analytics</span>。 </p> </td> 
-   <td colname="col2"> <p>Go to <a href="https://marketing.adobe.com" scope="external" format="https"> marketing.adobe.com </a>and log in using your Adobe Analytics credentials. </p> </td> 
+   <td colname="col2"> <p>Go to <a href="https://marketing.adobe.com"  > marketing.adobe.com </a>and log in using your Adobe Analytics credentials. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. 启动 Ad Hoc Analysis。 </p> </td> 
@@ -37,20 +37,20 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>3. 创建项目。 </p> </td> 
-   <td colname="col2"> <p>在 启动页面中，选择一个报表包，然后单击“创建项目”<span class="uicontrol"></span>。 </p> <p>See <a href="../../analyze/ad-hoc-analysis/c-getting-started.md#concept_FAE346335B0347A192C6C806C775D72B" type="concept" format="dita" scope="local"> Projects and Workspaces</a>. </p> </td> 
+   <td colname="col2"> <p>在 启动页面中，选择一个报表包，然后单击“创建项目”<span class="uicontrol"></span>。 </p> <p>See <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > Projects and Workspaces</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4. 打开报表。 </p> </td> 
-   <td colname="col2"> <p>使用标准 Cloud 报表菜单搜索报表。您也可以选择使用模板。 </p> <p>请参阅 <a href="../../analyze/ad-hoc-analysis/c-getting-started.md#concept_370F674C5B4C45368731AA801C5A45F8" type="concept" format="dita" scope="local"> 报表模板</a>. </p> </td> 
+   <td colname="col2"> <p>使用标准 Cloud 报表菜单搜索报表。您也可以选择使用模板。 </p> <p>请参阅 <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > 报表模板</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>5. 配置报表。 </p> </td> 
    <td colname="col2"> <p>执行任务以配置报表，例如： </p> 
     <ul id="ul_0D2E8C614F2A4899A376BCEECEA374C6"> 
      <li id="li_FA925D52A8FD4DFAB0C88B797B24E72B"> 创建区段以深入挖掘数据 </li> 
-     <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> 将量度、维度和区段添加到 <a href="../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E" type="concept" format="dita" scope="local"> 表生成器</a> </li> 
-     <li id="li_019316C9A94B4A8C8A77D07C04E50278">配置 <a href="../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47" type="concept" format="dita" scope="local"> 日期范围</a> </li> 
-     <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="../../analyze/ad-hoc-analysis/c-schedule.md#concept_12D2DDD66086453BAB6D48D9D22932F2" type="concept" format="dita" scope="local"> 计划</a>报表提交 </li> 
+     <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> 将量度、维度和区段添加到 <a href="/help/analyze/ad-hoc-analysis/c-tablebuilder.md"   > 表生成器</a> </li> 
+     <li id="li_019316C9A94B4A8C8A77D07C04E50278">配置 <a href="/help/analyze/ad-hoc-analysis/c-dates.md"   > 日期范围</a> </li> 
+     <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > 计划</a>报表提交 </li> 
     </ul> <p>搜索此帮助系统以查找所需的帮助。 </p> </td> 
   </tr> 
  </tbody> 
