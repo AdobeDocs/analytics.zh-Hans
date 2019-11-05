@@ -9,7 +9,7 @@ title: 重定向和别名
 topic: 开发人员和实施
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -38,8 +38,8 @@ redirects_sc.xml
 
 下列示例说明了不使用重定向和使用重定向会如何影响浏览：
 
-* [示例：不使用重定向浏览](../../implement/js-implementation/redirects-overview.md#section_5C835A4D665A4625A23333C2C21F152D)
-* [示例：使用重定向浏览](../../implement/js-implementation/redirects-overview.md#section_921DDD32932847848C4A901ACEF06248)
+* [示例：不使用重定向浏览](/help/implement/js-implementation/redirects-overview.md#section_5C835A4D665A4625A23333C2C21F152D)
+* [示例：使用重定向浏览](/help/implement/js-implementation/redirects-overview.md#section_921DDD32932847848C4A901ACEF06248)
 
 ## 示例：不使用重定向浏览 {#section_5C835A4D665A4625A23333C2C21F152D}
 
@@ -58,7 +58,7 @@ redirects_sc.xml
 1. 浏览器窗口的地址栏显示用户在搜索字段输入的搜索词 `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`。请注意，搜索词包括在 `https://www.google.com/search?` ? 后面的 URL 查询字符串参数中。浏览器还会显示包含搜索结果的页面，其中包括到您的一个域名的链接：[!DNL https://www.flytohawaiiforfree.com/]。此&#x200B;*虚构的*&#x200B;域已配置为将用户重定向到`https://www.flywithus.com/` 。
 1. 用户单击链接 `https://www.flytohawaiiforfree.com/`，即被服务器重定向到您的主网站 `https://www.flywithus.com`。在发生重定向后，由于浏览器清除了反向链接 URL，因此对 [!DNL Analytics] 数据收集极其重要的数据将丢失。所以，在 [!DNL Analytics] 报表中使用的原始搜索信息（例如[!UICONTROL 反向链接域名]、[!UICONTROL 搜索引擎]、[!UICONTROL 搜索关键词]）将丢失。
 
-[实施重定向](../../implement/js-implementation/redirects-overview.md#concept_5EC2EE9677A44CC5B90A38ECF28152E7)讨论了如何利用 [!DNL Analytics] 变量捕获重定向中丢失的数据。该部分特别讨论了如何修复上述“discount airline tickets”情况。
+[实施重定向](/help/implement/js-implementation/redirects-overview.md#concept_5EC2EE9677A44CC5B90A38ECF28152E7)讨论了如何利用 [!DNL Analytics] 变量捕获重定向中丢失的数据。该部分特别讨论了如何修复上述“discount airline tickets”情况。
 
 ## 实施重定向 {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
 
