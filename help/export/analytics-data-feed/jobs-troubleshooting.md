@@ -7,68 +7,48 @@ solution: Analytics
 title: 作业疑难解答
 uuid: 8fbb914e-03db-434e-b4d3-8594144ff2b7
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: ee9a6462138fe3483ca8a4ba042cb4eb39536031
 
 ---
 
 
 # 作业疑难解答
 
+如果您在获取FTP站点上的数据源时遇到问题，请使用此页了解原因。
+
+## 错误代码
+
 出现错误时，“作业状态”栏会报告错误。
 
-错误和可能导致这些错误的原因显示如下：
+### FTP chdir错误
 
-<table id="table_BE2921B8E7C94B0EB88774321B8692F0"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 错误 </th> 
-   <th colname="col2" class="entry"> 可能的原因 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> FTP Chdir 错误 </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_79AB3EA974CC46A0A645A439BC612D88"> 
-      <li id="li_4A6A5922275946908E06499E8EAAF18B"> 网络或目标服务器失败 </li> 
-      <li id="li_33393FF286624A63B12991DCE079841D">读/写权限问题 </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> FTP 连接错误 </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_5F926078850D4495B83BC938395CAC6B"> 
-      <li id="li_A72A357F6289438EA1A091AC4FD3A3D0"> 身份验证问题 </li> 
-      <li id="li_48532C78285E4DB6A47B1435A5FA549B"> 网络或目标服务器失败 </li> 
-      <li id="li_11DF6FA218CA48539C4561695234CA4D"> 读/写权限问题 </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> FTP 错误 </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_020BA1DC81F645FFABCAD07E51351D1E"> 
-      <li id="li_8566EECEFD344BFDB638259474A8E8EA"> 磁盘空间已满或已超出额定磁盘空间 </li> 
-      <li id="li_15CD50ED54F846F79BFDF25359864C59"> 网络或目标服务器失败 </li> 
-      <li id="li_741A3315C0B940D3A9874F15C78B4F28"> 读/写权限问题 </li> 
-      <li id="li_49F707F7F65A443F8AC6E058E3D89B96"> 身份验证问题 </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> FTP 登录错误 </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_F7F128ADF1FD4E9D8B79424A6432378E"> 
-      <li id="li_68C377CAD50346B1B9937B77E7EB2AAD"> 身份验证问题 </li> 
-      <li id="li_7EA91C90FFC0493EA156292620EF1589"> 网络或目标服务器失败 </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> FTP 放置错误 </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_760DA2CBD46B4C348BE3B7B43E803FD9"> 
-      <li id="li_6578482722E14E998515B4B3EA370C44"> 磁盘空间已满或已超出额定磁盘空间 </li> 
-      <li id="li_342240DDD9D3423198C23123473D539C"> 网络或目标服务器失败 </li> 
-      <li id="li_44CEFE1D92A74842A6321C416637421F"> 读/写权限问题 </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+源无法导航或写入指定的文件夹。 确保FTP站点上存在目标文件夹，并且提供的凭据对该文件夹具有正确的读／写权限。
+
+### FTP 连接错误
+
+源无法连接到FTP目标。 确保FTP目标正确有效。
+
+### FTP 错误
+
+一个通用错误，源最终无法将文件写入FTP站点。 此错误可能来自FTP服务器的磁盘已满或超出配额。 该错误也可能源自网络或目标服务器故障。
+
+### FTP 登录错误
+
+源无法使用提供的凭据登录。 确保FTP用户名和密码正确无误。
+
+### FTP 放置错误
+
+源无法将文件写入FTP站点。 确保FTP登录具有在FTP站点上读取和写入数据的正确权限。 此错误也可能来自FTP服务器上的完整磁盘或超出磁盘配额。
+
+## 疑难解答步骤
+
+登录到FTP站点，然后将任何文件上传到该站点。 在大多数情况下，您可以使用这些步骤来确定故障点。
+
+1. 使用文件浏览器(Windows)或Finder(Mac)登录到FTP站点。 确保使用FTP协议(`ftp://`)。 如果您无法到达FTP站点，则可以与FTP站点的所有者一起确定正确的目标。
+
+   ![文件浏览器](assets/file_explorer.png)
+
+2. 此时会出现一个弹出窗口，询问用户名和密码。 输入您的身份验证凭据。 如果接受凭据，则窗口将显示FTP站点上的当前内容。 如果不接受凭据，则可与FTP所有者合作，以确保用户名和密码正确无误。
+3. 将文件拖入已验证的窗口，将其上传到FTP站点。 任何图像或文本文档都足够了。 如果尝试将文件放置到FTP站点上时出错，请与FTP所有者一起确认磁盘空间是否足够，以及用户名是否对FTP站点具有写权限。
+4. 确认文件在FTP站点上后，可删除上一步中上传的文件。
+5. 如果上述所有步骤都有效，并且您仍然会收到FTP错误，请让客户支持代表与客户关怀联系。
