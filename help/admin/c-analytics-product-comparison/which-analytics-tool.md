@@ -5,7 +5,7 @@ seo-title: 我应该使用哪种 Adobe Analytics 工具？
 title: 我应该使用哪种 Adobe Analytics 工具？
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
 
 ---
 
@@ -49,7 +49,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 * 适用于需要以选项卡方式组织项目工作的情况.
 * 用于使用网站分析报表（3D 路径报表）。
 
-**[Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)** 的使用说明：
+**[Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)** 的使用说明：
 
 * 最灵活的 Analytics 工具选项（针对访客级别和点击级别分析）。
 * 用于创建从 CRM 到 POS 和 Web 的在线和离线交互的多渠道数据集。
