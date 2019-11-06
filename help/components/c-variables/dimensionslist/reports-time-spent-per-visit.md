@@ -1,19 +1,43 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 每次访问逗留时间
 solution: Analytics
 title: 每次访问逗留时间
 topic: 报告
 uuid: 76441e36-b7fe-4cf3-8d72-c51d558afa13
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 77eac41cdcfe0ad71ffe81525f6de4dc6b2b48d4
 
 ---
 
 
 # 每次访问逗留时间
 
->[!NOTE]
->
->See [Time Spent](/help/components/c-variables/c-metrics/metrics-time-spent.md) for calculation examples.
+Adobe Analytics提供多种方法来确定Analytics报告中所花费的时间。 在大多数情况下，使用以下步骤计算所花费的时间：
+
+1. 对于给定的访问，请查看第一次点击的时间戳。
+2. 将此点击与上次访问点击的时间戳进行比较。
+3. 这两个点击之间经过的时间确定该访问所花费的时间。
+
+查看维度数据所花费的时间时，请牢记以下几点：
+
+* 在计算花费的时间数据时，会考虑页面查看和链接跟踪点击类型。
+* 在上次访问点击期间，不会测量所花费的时间，因为没有后续图像请求来测量已用时间。
+* 弹回次数不能测量所花费的时间，因为访问包含一次点击。
+
+每次访问所花费的时间衡量一次访问的总占用时间。 粒度和存储段之 **间存** 在单 **独的尺寸**。
+
+* **** 粒度：每个维度值是组成访问的不同秒数。
+* **** Buckered:每个维值都是预定义的存储段：
+   * 少于 1 分钟
+   * 1-5 分钟
+   * 5-10 分钟
+   * 30-60 分钟
+   * 1-2 小时
+   * 2-5 小时
+   * 5-10 小时
+   * 10-15 小时
+   * 超过 15 小时
+
+> [!NOTE] 访 [问](../c-metrics/metrics-visit.md) 通常在12小时的活动后结束。 但是，如果使用时间戳的点击或数据源，访问量可能超过12小时。
+
+此维度基于访问。 将此维度与页 [面停留时间进行比较](reports-time-spent-on-page.md)，该维度是基于点击的维度。
