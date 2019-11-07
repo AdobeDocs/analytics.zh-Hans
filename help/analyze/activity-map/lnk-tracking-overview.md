@@ -1,12 +1,12 @@
 ---
-description: 'Activity map使用更可靠的算法跟踪链接，该算法 '
-seo-description: 'Activity map使用更可靠的算法跟踪链接，该算法 '
+description: 'Activity Map 利用更加可靠的算法来跟踪链接 '
+seo-description: 'Activity Map 利用更加可靠的算法来跟踪链接 '
 seo-title: 可靠的链接跟踪
 solution: Analytics
 title: 可靠的链接跟踪
 topic: Activity Map
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -21,13 +21,13 @@ Activity Map 利用更加可靠的算法来跟踪链接：
 
 有关 Activity Map 中链接跟踪的更多信息，请转至[此处](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)。
 
-## How Activity Map link tracking may collect PII Data {#section_AEE57510D17B4C21A7D49D32D21D67B9}
+## Activity Map 链接跟踪如何收集 PII 数据 {#section_AEE57510D17B4C21A7D49D32D21D67B9}
 
-> [!CAUTION]启用 Activity Map 跟踪后，您可能会收集个人身份识别信息 (PII) 数据。此类数据可用于（单独或与其他信息配合使用）识别、联系或查找个人，或者在上下文中识别个人。
+> [!CAUTION] 启用 Activity Map 跟踪后，您可能会收集个人身份识别信息 (PII) 数据。此类数据可用于（单独或与其他信息配合使用）识别、联系或查找个人，或者在上下文中识别个人。
 
 以下是使用 Activity Map 跟踪收集 PII 数据的一些已知案例：
 
-* `Mailto` 链接。 Mailto 链接是一种 HTML 链接，它可以激活计算机上的默认邮件客户端来发送电子邮件。
-* `User ID` 用户登录后，网站的页眉／页脚中可能显示的链接。
+* `Mailto` 链接。Mailto 链接是一种 HTML 链接，它可以激活计算机上的默认邮件客户端来发送电子邮件。
+* 用户登录后可能出现在网站页眉/页脚的 `User ID` 链接。
 * 在金融机构的网站中，账号可能会显示为链接。单击该链接将收集链接的文本。
 * 在医疗保健网站中，PII 数据也可能会显示为链接。单击这些链接将收集链接的文本，进而收集 PII 数据。
