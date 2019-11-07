@@ -6,7 +6,7 @@ solution: Analytics
 title: Activity Map 常见问题解答
 topic: Activity Map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -20,15 +20,15 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 **问：启用新 Activity Map 的实现步骤有哪些？**
 
-答：请参阅 [启用 Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
+答：请参阅[启用 Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 
 **问：是否所有的 Analytics 客户都可以访问管理工具 Activity Map 启用页面？**
 
-答：Adobe SiteCatalyst客户无权访问Admin Console的“活动图启用”页面。 只有签署了 Adobe Analytics Standard 和 Adobe Analytics Premium 合同的公司，才具备访问此配置页面的权限。
+答：Adobe SiteCatalyst 客户无法访问管理控制台的 Activity Map 启用页面。只有签署了 Adobe Analytics Standard 和 Adobe Analytics Premium 合同的公司，才具备访问此配置页面的权限。
 
 **问：能否通过动态标签管理 (DTM) 配置新的 AppMeasurement 代码？**
 
-答：可以，您可以[手动实现](https://marketing.adobe.com/resources/help/en_US/dtm/analytics_dtm.html)新的 AppMeasurement 代码。
+答：可以，您可以[手动实现](https://marketing.adobe.com/resources/help/zh_CN/dtm/analytics_dtm.html)新的 AppMeasurement 代码。
 
 **问：AppMeasurement v1.6 库有何重要变化？**
 
@@ -42,7 +42,7 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 答：没问题。Activity Map 的功能并不是取决于 Visitor API。
 
-## Activity Map application {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
+## Activity Map 应用程序 {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
 
 **问：如果我之前没有在网站上用过访客 ClickMap，我能否使用 Activity Map？**
 
@@ -73,13 +73,13 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 **问：为什么量度下拉菜单多次列出同样的量度？**
 
-答：Activity Map 会列出所有报表包的量度。因此，如果贵公司没有执行[量度合并流程](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_transition.html)，就会看到重复的量度。
+答：Activity Map 会列出所有报表包的量度。因此，如果贵公司没有执行[量度合并流程](https://marketing.adobe.com/resources/help/zh_CN/analytics/calcmetrics/cm_transition.html)，就会看到重复的量度。
 
 您可以通过“量度”下拉菜单将计算的量度列表限制为分配给所访问页面的报表包的量度。
 
 **问：Activity Map“所有链接”报表与“Reports &amp; Analytics”Activity Map 报告有何区别？**
 
-答：要在Activity map中拉取“所有链接”报表，我们将创建一个细分请求，如下所示：Activity Map Page = "visitedpage"，按中的Activity Map Link&amp;Region细分 `<list of link&regions present in the page at rendering time>`。
+答：要在 Activity Map 中提取“所有链接”报表，我们将创建一个划分请求，如下所示：Activity Map 页面 =“visitedpage”，按 `<list of link&regions present in the page at rendering time>` 中的 Activity Map 链接和区域划分。
 
 要在“Reports &amp; Analytics”中获得同样的报表，您首选需要导航至 Activity Map 页面报表。通过该报表，您可以在 Activity Map 中过滤访问过的页面名称。访问过的页面名称将显示在 Activity Map 详细信息页面底部面板的左列中。找到页面后，您可以划分此页面，并选择 Activity Map 链接和区域作为次要维度。
 
@@ -89,7 +89,7 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 答：默认情况下，Activity Map 会使用与页面发送的第一个标签相关联的报表包。
 
-您可以通过Activity Map 设置 &gt; 其他选项卡，选择带有标签的其他报表包。
+您可以通过“Activity Map 设置”&gt; 其他选项卡，选择带有标签的其他报表包。
 
 **问：Activity Map 扫描 Analytics 标签要花多长时间？**
 
@@ -119,21 +119,21 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 *网页包含不兼容的 Analytics 标签（AppMeasurement v1.5 或早期版本）*
 
-将显示一条警告消息，指示您需要(/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)将页面代码升级到v1.6。
+出现警告消息，指示您需要 (/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) 将页面代码升级到 v1.6。
 
 *网页包含兼容的 Analytics 标签（AppMeasurement v1.6 或更高版本），但是管理工具中未启用 Activity Map 报告*
 
-将显示一条警告消息，指示您需要让您的管理员\[启用Activity Map报告\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md")。
+出现警告消息，指示您需要请求管理员 \[启用 Activity Map 报表\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) 。
 
-**问：能否通过[Analytics 数据馈送](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)导出 Activity Map 数据 (contextData)？**
+**问：能否通过 [Analytics 数据馈送](https://marketing.adobe.com/resources/help/zh_CN/reference/analytics-data-feed.html)导出 Activity Map 数据 (contextData)？**
 
-答：不能。
+答：没问题。
 
 ## Activity Map 中的区段划分 {#section_44D6C5F59B8542DC8A3AF38BD8078DCA}
 
 **问：区段是否与单个用户区段相关联？或者，Activity Map 中是否有可用的管理员级别的共享区段？**
 
-答：Activity map会从Analytics继承您的管理员级别区段（报告区段）。
+答：Activity Map 会从 Analytics 继承您的管理员级别区段（报告区段）。
 
 **问：实时模式下能否使用区段？**
 
