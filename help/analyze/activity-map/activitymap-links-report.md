@@ -6,7 +6,7 @@ solution: Analytics
 title: 链接报表
 topic: Activity Map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -18,9 +18,9 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 “页面上的链接”报表可以提供链接的表格视图。有时，您或许希望在一个视图中查看链接点击次数（或其他量度）的排名。这可以让您更好地将某一个链接与其他链接进行比较。创建“页面上的链接”报表，其中包括页面上所有链接的排名列表（按链接 ID 排序）、点击信息（点击次数及百分比值），以及页面中的区域。单击 Activity Map 工具栏中的“页面上的链接”报表按钮。
 
-**[!UICONTROL 页面上的链接]报表会在 Activity Map 功能板的浏览器框架下方打开。**
+**[!UICONTROL 页面上的链接]**&#x200B;报表会在 Activity Map 功能板的浏览器框架下方打开。
 
-## Standard mode {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
+## 标准模式 {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
 
 ![](assets/links_in_page.png)
 
@@ -40,7 +40,7 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
   </tr> 
   <tr> 
    <td colname="col1"> 链接 ID </td> 
-   <td colname="col2">链接的主ID(有关[新链接跟踪方法]如何定义主ID的详细信息，请参阅/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) </td> 
+   <td colname="col2">链接的主 ID。要了解如何定义主 ID，请参阅 [新的链接跟踪方法] (/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 点击量 </td> 
@@ -63,11 +63,11 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 **过滤数据**
 
-如果您希望专门关注特定链接，则可以在&#x200B;**[!UICONTROL 过滤数据]字段中搜索相关词条。**&#x200B;只有与搜索条件相匹配的链接，才会拥有叠加图。如果没有过滤器，则会在 [Activity Map 设置](/help/analyze/activity-map/activitymap-overlay-settings.md)中显示指定的叠加图。
+如果您希望专门关注特定链接，则可以在&#x200B;**[!UICONTROL 过滤数据]**&#x200B;字段中搜索相关词条。只有与搜索条件相匹配的链接，才会拥有叠加图。如果没有过滤器，则会在 [Activity Map 设置](/help/analyze/activity-map/activitymap-overlay-settings.md)中显示指定的叠加图。
 
-## Live mode {#section_AC1967217B5A4532ACB01D33636F6770}
+## 实时模式 {#section_AC1967217B5A4532ACB01D33636F6770}
 
-在“实时”模式中，“页面链接”报告显示跨几分钟的趋势数据。
+在实时模式下，“页面上的链接”报表会显示数分钟范围内的趋势数据。
 
 ![](assets/links_on_page.png)
 
@@ -85,7 +85,7 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
   </tr> 
   <tr> 
    <td colname="col1"> 链接 ID </td> 
-   <td colname="col2">链接的主 ID。有关如何通过新的[链接跟踪方法]定义主ID的更多信息(/help/analyze/activity-map/activitymap-link-tracking/activitymap-tracking/activitymap-)ink-tracking-methodology.md)。 </td> 
+   <td colname="col2">链接的主 ID。要了解如何定义主 ID，请参阅新的 [链接跟踪方法。] (/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 链接点击次数 </td> 
@@ -114,7 +114,7 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
  </tbody> 
 </table>
 
-## Sorting and filtering {#section_4B8E8233C21247CAA70DAEC2156548AD}
+## 排序和过滤 {#section_4B8E8233C21247CAA70DAEC2156548AD}
 
 有时，您只需分析特定页面区域的结果（例如，左侧面板），即可决定如何组织网页中此特定区域的内容。
 
