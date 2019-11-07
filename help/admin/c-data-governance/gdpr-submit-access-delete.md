@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 提交访问和删除请求
 title: 提交访问和删除请求
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -25,21 +23,21 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ## 验证用户及其数据 {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
-作为数据控制者，您有责任验证自称是数据主体的用户的真实身份，并且他们有权访问所请求的数据。此外，您有责任确保将正确的数据返回给数据主体，并确保它们不会无意中收到有关其他数据主体的数据。
+作为数据控制者，您有责任验证自称是数据主体的用户的真实身份，并且他们有权访问所请求的数据。另外，您还有责任确保将正确的数据返回给数据主体，并且他们不会意外收到有关其他数据主体的数据。
 
-这包括在将Adobe Analytics作为数据隐私权访问请求的一部分返回的数据发送到数据主体之前，先对其进行审核。 如果您使用人员ID，并且不仅返回存在该ID的数据，而且还返回有时存在该ID的共享设备上其他点击的数据，则应特别注意。 请参阅 [ID扩展。](/help/admin/c-data-governance/gdpr-id-expansion.md)
+这包括先审查由 Adobe Analytics 在数据隐私访问请求中返回的数据，然后再将这些数据发送给数据主体。如果您使用人员 ID，并且返回的不仅有存在此 ID 的数据，还有共享设备上有时会存在此 ID 的其他点击数据，此时应当特别注意。请参阅 [ID 扩展。](/help/admin/c-data-governance/gdpr-id-expansion.md)
 
 每个文件均会合并来自所有报表包的数据，并自动删除额外的重复命中项。您可以确定要将其中的哪些文件返回给数据主体。或者，您可以提取其中的部分数据，并与来自其他系统的数据合并，然后再将它们返回给数据主体。
 
 ## 提交请求 {#submit-requests}
 
-您可以通过我们的数据隐私UI门户或我们的 [数据隐私API提交数据隐私访问和](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)[删除请求。](https://www.adobe.io/apis/experienceplatform/gdpr.html)
+您可以通过我们的[数据隐私 UI 门户](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)或者[数据隐私 API ](https://www.adobe.io/apis/experienceplatform/gdpr.html)来提交数据隐私访问和删除请求。
 
-> [!NOTE] 数据隐私API支持在单个请求中为多个用户批量提交。 当前支持的限制是：允许单个请求 JSON 文件中有 1000 个独立用户（每个用户可以有多个 ID）。
+> [!NOTE]数据隐私 API 支持在一个请求中批量提交多个用户。当前支持的限制是：允许单个请求 JSON 文件中有 1000 个独立用户（每个用户可以有多个 ID）。
 
 ## JSON 请求示例 {#sample-json-request}
 
-以下是可通过数据隐私API或UI提交的JSON，它请求三个用户的数据隐私处理。
+以下是可能通过数据隐私 API 或用户界面提交的 JSON，请求为三位用户进行数据隐私处理。
 
 ```
 { 
@@ -99,7 +97,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 } 
 ```
 
-注意，用户部分有三个块，代表三个单独的请求，大概是三个单独的数据主题。
+请注意，“user”部分有三个数据块，代表三个单独的请求，可能是三个独立的数据主体。
 
 * 第一个请求是使用传统 Adobe Analytics Cookie ID (AAID) 的访问请求。
 * 第二个请求也是访问请求，但是它是使用 MCID/ECID Cookie 的访问请求。
@@ -107,10 +105,10 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 请记住以下事项
 
-* “companyContexts”部分中的值“5D7236525AA6D9580A495C6C@AdobeOrg”必须使用您自己的Experience cloud组织的值进行更新。
-* The "type" and "namespace" fields are described in more detail in the [Namespaces](/help/admin/c-data-governance/gdpr-namespaces.md) section.
-* 将忽略“description”字段。
-* “key”字段可以包含您需要的任何值。 如果您有用于跟踪数据隐私请求的内部ID，则可以将该值放在此处，以便更轻松地将Adobe系统中的请求与您自己系统中的请求相匹配。
+* 必须使用您的 Experience Cloud 组织的值来更新“companyContexts”部分的“5D7236525AA6D9580A495C6C@AdobeOrg”值。
+* “type”和“namespace”字段在[命名空间](/help/admin/c-data-governance/gdpr-namespaces.md)部分有更多详细介绍。
+* “description”字段被忽略。
+* “key”字段可以包含您想要的任何值。如果您有用于跟踪数据隐私请求的内部 ID，则可以将该值添加到此处，以便更轻松地将 Adobe 系统中的请求与自己系统中的请求进行匹配。
 
 ## 响应详情 {#section_93F554F65DBB48A18B75EB5784056C96}
 
@@ -136,17 +134,17 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 **删除响应详情**
 
-删除请求不返回任何数据——仅数据隐私API的状态已成功完成请求。
+删除请求不会返回任何数据 - 只向数据隐私 API 返回一个指示请求已成功完成的状态。
 
-## 测试数据隐私处理 {#section_FBA843DBFAE64D979D8DB8A3C56784D7}
+## 在您的数据中测试隐私处理{#section_FBA843DBFAE64D979D8DB8A3C56784D7}
 
 通常情况下，在向公众发布之前，Analytics 客户会设置一些测试报表包来验证功能。预生产网站或应用程序会将数据发送到这些测试/开发/QA 报表包中，以评估在将实际流量发送到生产报表包之前代码完成时的运行情况。
 
-但是，在正常配置下，在将请求应用到生产报表包之前，不能先在这些测试报表包上对 GPDR 请求的处理进行测试。其原因是数据隐私请求会自动应用于Experience cloud组织中的所有报表包，通常是您公司的所有报表包。
+但是，在正常配置下，在将请求应用到生产报表包之前，不能先在这些测试报表包上对 GPDR 请求的处理进行测试。这是因为，数据隐私请求会自动应用于 Experience Cloud 组织中的所有报表包，通常也是您公司的所有报表包。
 
-在将数据隐私处理应用到所有报表包之前，您仍可以通过以下几种方法测试数据隐私处理：
+在将数据隐私请求应用于所有报表包之前，您仍可以使用以下几种方法测试您的数据隐私处理：
 
-* 一种选择是，设置一个单独的 Experience Cloud 组织，其中仅包含测试报表包。然后，将此Experience cloud组织用于您的数据隐私测试，并将正常的Experience cloud组织用于实际的数据隐私处理。
+* 一种选择是，设置一个单独的 Experience Cloud 组织，其中仅包含测试报表包。然后，使用此 Experience Cloud 组织进行数据隐私测试，并使用常规的 Experience Cloud 组织进行实际的数据隐私处理。
 * 另一种选择是，为测试报表包中的 ID 分配与生产报表包中的 ID 不同的命名空间。
 
-   例如，您可以在测试报告套件中为每个命名空间添加“qa-”前缀。 当您提交仅包含带有qa前缀的命名空间的数据隐私请求时，这些请求将仅针对您的测试报表包运行。 之后，当您提交不带 qa 前缀的请求时，它们将应用于您的生产报表包。**我们推荐使用这种方法，除非您使用 visitorId、AAID、ECID 或 customVisitorId 命名空间，因为这些命名空间均为硬编码，您无法在测试报表包中为它们指定备用名称**。
+   例如，您可以在测试报表包中为每个命名空间添加“qa-”作为前缀。当您提交仅带有 qa 前缀的命名空间的数据隐私请求时，这些请求将仅针对您的测试报表包运行。之后，当您提交不带 qa 前缀的请求时，它们将应用于您的生产报表包。**我们推荐使用这种方法，除非您使用 visitorId、AAID、ECID 或 customVisitorId 命名空间，因为这些命名空间均为硬编码，您无法在测试报表包中为它们指定备用名称**。
