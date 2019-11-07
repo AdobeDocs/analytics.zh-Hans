@@ -6,7 +6,7 @@ solution: Analytics
 title: 可自定义的叠加图
 topic: Activity Map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -30,7 +30,7 @@ Activity Map 提供三类叠加图：
 
 将鼠标悬停在叠加图上方时，可显示其[详细信息](/help/analyze/activity-map/activitymap-overlay-details.md)。
 
-## Gradient overlay (Heatmap) {#section_06AF13DE05A1454D960176CD0DA921A6}
+## 渐变叠加图（热图）{#section_06AF13DE05A1454D960176CD0DA921A6}
 
 使用渐变叠加图时，颜色浓度是根据链接的受欢迎程度而定。此颜色浓度可以被标准化为受欢迎程度的前 30 排名，或者行使绝对量度值的作用。
 
@@ -42,7 +42,7 @@ Activity Map 提供三类叠加图：
 
 ![](assets/gradient.png)
 
-## Bubble overlay {#section_A657AB3F64CB47F881BBFFD72B37D9D4}
+## 气泡叠加图 {#section_A657AB3F64CB47F881BBFFD72B37D9D4}
 
 气泡叠加图可以在小型标注气泡中显示叠加内容（量度、百分比或排名）。
 
@@ -50,13 +50,13 @@ Activity Map 提供三类叠加图：
 
 ![](assets/bubble_overlay.png)
 
-> [!NOTE] 子菜单的气泡叠加仅在显示子菜单时显示：
+> [!NOTE] 仅当您显示子菜单时，才出现子菜单的气泡叠加图：
 >
 >![](assets/bubbles_submenu.png)&gt;
 
-## Gainers and losers overlays {#section_EE80278E20C14824869BF5A27A4634C8}
+## 获胜方和失败方叠加图 {#section_EE80278E20C14824869BF5A27A4634C8}
 
-**[!UICONTROL 获胜方和失败方叠加]** ，仅在“实时”模式下可用。 它们通过对比当前时段与上一时段的量度，报告链接活动的实时变化。它们能够为您提供一种直观且富有说服力的方式，让您实时查看变化趋势。
+**[!UICONTROL 获胜方和失败方叠加图]**&#x200B;仅在实时模式下可用。它们通过对比当前时段与上一时段的量度，报告链接活动的实时变化。它们能够为您提供一种直观且富有说服力的方式，让您实时查看变化趋势。
 
 这种实时叠加图根据上一时段到当前时段所产生的量度值的变化，对点击情况进行排名。
 
