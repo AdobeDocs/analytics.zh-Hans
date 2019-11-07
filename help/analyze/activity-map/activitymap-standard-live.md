@@ -6,7 +6,7 @@ solution: Analytics
 title: 标准模式与实时模式的对比
 topic: Activity Map
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -41,7 +41,7 @@ Activity Map 提供了两种基本模式，它们可以在报告页面活动时�
 
 >[!IMPORTANT]
 >
->虚拟报告套件与实时模式不兼容，只与标准模式兼容。
+>虚拟报表包不兼容实时模式，仅兼容标准模式。
 
 ![](assets/live_mode.png)
 
