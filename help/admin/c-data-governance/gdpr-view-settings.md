@@ -1,11 +1,9 @@
 ---
 description: “管理工具”中的“数据管理”对话框概述了哪些报表包已配置数据管理，是否已将这些报表包映射到 Experience Cloud 组织，以及是否已为这些报表包设置数据保留策略。
-seo-description: “管理工具”中的“数据管理”对话框概述了哪些报表包已配置数据管理，是否已将这些报表包映射到 Experience Cloud 组织，以及是否已为这些报表包设置数据保留策略。
-seo-title: 查看/管理报表包的数据管理设置
 title: 查看/管理报表包的数据管理设置
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -15,7 +13,7 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 “管理工具”中的“数据管理”对话框概述了哪些报表包已配置数据管理，是否已将这些报表包映射到 Experience Cloud 组织，以及是否已为这些报表包设置数据保留策略。
 
 1. 登录到 Adobe Experience Cloud。
-1. 导航至 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 数据管理。]**
+1. 导航至 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 数据管理]**。
 
    您将看到您的登录公司拥有的所有报表包：
 
