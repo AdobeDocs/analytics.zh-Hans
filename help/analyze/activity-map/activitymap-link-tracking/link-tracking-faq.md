@@ -6,7 +6,7 @@ solution: Analytics
 title: 链接跟踪常见问题解答
 topic: Activity Map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -18,12 +18,12 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 >[!CAUTION]
 >
->**通过打开Activity Map跟踪，您**&#x200B;可能会收集个人识别信息(PII)数据。这些数据可以单独使用，也可以与其他信息一起使用，以识别、联系或定位单个人，或在上下文中识别个人。
+>启用 Activity Map 跟踪后，**您可能会收集个人身份识别信息 (PII) 数据。**&#x200B;此类数据可用于（单独或与其他信息配合使用）识别、联系或查找个人，或者在上下文中识别个人。
 
 以下是使用 Activity Map 跟踪收集 PII 数据的一些已知案例：
 
-* `Mailto` 链接。 Mailto 链接是一种 HTML 链接，它可以激活计算机上的默认邮件客户端来发送电子邮件。
-* `User ID` 用户登录后，网站的页眉／页脚中可能显示的链接。
+* `Mailto` 链接。Mailto 链接是一种 HTML 链接，它可以激活计算机上的默认邮件客户端来发送电子邮件。
+* 用户登录后可能出现在网站页眉/页脚的 `User ID` 链接。
 * 在金融机构的网站中，账号可能会显示为链接。单击该链接将收集链接的文本。
 * 在医疗保健网站中，PII 数据也可能会显示为链接。单击这些链接将收集链接的文本，进而收集 PII 数据。
 
@@ -42,17 +42,17 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
      <li id="li_D4B0AEEEA58A4F82A1BCBD3971A60D02">是否属于包含值或子文本的 INPUT 标记或 SUBMIT 按钮？ </li> 
      <li id="li_F7ABE88308E1413E9B9C2224DEC91BAB">是否属于包含 IMAGE 类型和 src 属性的 INPUT 标记？ </li> 
      <li id="li_F34A0C986E8040109A1DDF88C26E56D5">是否属于 &lt;Button&gt;？ </li> 
-    </ul> <p>如果以上任一问题的回答为<b>是</b>，则该元素将被视为链接，需要对其进行跟踪。 </p> <p>重要：AppMeasurement 不会将具有属性 type="button" 的 Button 标记视为链接。请考虑删除按钮标记上的“type='button'”，然后添加 role="button" 或 submit="button"。 </p> <p>重要说明：AppMeasurement将带有以“#”开头的href的锚点标记视为内部目标位置，而不是链接（因为您不会离开页面）。默认情况下，Activity map不跟踪这些内部目标位置。 它只跟踪将用户导航到新页面的链接。</p></td> 
+    </ul> <p>如果以上任一问题的回答为<b>是</b>，则该元素将被视为链接，需要对其进行跟踪。 </p> <p>重要：AppMeasurement 不会将具有属性 type="button" 的 Button 标记视为链接。请考虑删除按钮标记上的“type='button'”，然后添加 role="button" 或 submit="button"。 </p> <p>重要：AppMeasurement 将带有以“#”开头的 href 的锚点标记视为内部目标位置，而不是链接（因为您不会离开页面）。默认情况下，Activity Map 不跟踪这些内部目标位置，而是仅跟踪将用户导航到新页面的链接。</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>问：Activity Map 如何跟踪其他可视化 HTML 元素？</b> </td> 
    <td colname="col2"> 
     <ol id="ol_DA3AED165CFF44B08DFB386D4DEE26C5"> 
-     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>通过函 <code> s.tl() </code> 数</b> <p>如果单击操作是通过 s.tl 调用发生的，则 Activity Map 也会收到这个单击事件，并且会确认是否能够找到 linkName 字符串变量。在 s.tl 执行期间，该 linkName 将被设置为 Activity Map 链接 ID。发起 s.tl() 调用的被单击元素将用于确定区域。示例: </p> <p> 
+     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>通过 <code> s.tl() </code> 函数</b> <p>如果单击操作是通过 s.tl 调用发生的，则 Activity Map 也会收到这个单击事件，并且会确认是否能够找到 linkName 字符串变量。在 s.tl 执行期间，该 linkName 将被设置为 Activity Map 链接 ID。发起 s.tl() 调用的被单击元素将用于确定区域。示例： </p> <p> 
        <code>
          &lt;img&amp;nbsp;onclick="s.tl(true,'o','abc')"&amp;nbsp;src="someimageurl.png"/&gt; 
        </code> </p> </li> 
-     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>通过变 <code> s_objectID </code> 量</b> <p>示例: </p> <p> 
+     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>通过 <code> s_objectID </code> 变量</b> <p>示例： </p> <p> 
        <code>
          &lt;img&nbsp;onclick="s_objectID='abc';"&nbsp;src="someimageurl.png"/&gt; &lt;a&nbsp;href="some-url.html"&nbsp;onclick="s_objectID='abc';"&nbsp;&gt;Link&nbsp;Text&nbsp;Here&lt;/a&gt;
        </code> </p> <p>重要：请注意，在 Activity Map 中使用 s_objectID 时，需要以分号 (;) 结尾。 </p> </li> 
@@ -92,11 +92,11 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
       <code>
         &lt;a&amp;nbsp;name="innerAnchor"&gt;Section&amp;nbsp;header&lt;/a&gt; 
       </code> </li> 
-     <li id="li_736A5F7DC2D74B4DA1CECEE3AD10EB19">Reason: Neither <code> s_ObjectID </code> nor <code> s.tl() </code> present 
+     <li id="li_736A5F7DC2D74B4DA1CECEE3AD10EB19">原因：既不存在 <code> s_ObjectID </code>，也不存在 <code> s.tl() </code> 
       <code>
         &lt;p&nbsp;onclick="showPanel('market&nbsp;rates')"&gt; &nbsp;&nbsp;&nbsp;&nbsp;&lt;span&nbsp;class="title"&gt;Current&nbsp;Market&nbsp;Rates&lt;/span&gt;&lt;span&nbsp; class="subtitle"&gt;1.45USD&lt;/span&gt; &lt;/p&gt;
       </code> </li> 
-     <li id="li_45F9ED97140F47F99F8C167BC1DC546F">Reason: Neither <code> s_ObjectID </code> nor <code> s.tl() </code> present 
+     <li id="li_45F9ED97140F47F99F8C167BC1DC546F">原因：既不存在 <code> s_ObjectID </code>，也不存在 <code> s.tl() </code> 
       <code>
         &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="A"/&gt; &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="B"/&gt; &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="C"/&gt;
       </code> </li> 
