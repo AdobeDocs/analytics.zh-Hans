@@ -1,28 +1,28 @@
 ---
 description: “详细信息页面”选项卡可以将页面报表显示为表格，将页面流量报表显示为蝴蝶结报表。
 seo-description: “详细信息页面”选项卡可以将页面报表显示为表格，将页面流量报表显示为蝴蝶结报表。
-seo-title: 页面详细信息
+seo-title: 详细信息页面
 solution: Analytics
-title: 页面详细信息
+title: 详细信息页面
 topic: Activity Map
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 页面详细信息
+# 详细信息页面
 
 “详细信息页面”选项卡可以将页面报表显示为表格，将页面流量报表显示为蝴蝶结报表。
 
 ![](assets/page_flow.png)
 
-## Page report {#section_2335A9EFE57B4A7687B397DF2098CC6B}
+## 页面报表 {#section_2335A9EFE57B4A7687B397DF2098CC6B}
 
 此面板显示与所访问网页相关的流量量度。如果您访问的网页没有实现 Analytics 页面标签，则不显示该面板。
 
-## Page Flow report {#section_D6EDE78CF7124758BF846E57ADABA234}
+## 页面流量报表 {#section_D6EDE78CF7124758BF846E57ADABA234}
 
 左边显示“先前页面”和“引荐”（外部），您也可以扩大显示范围来显示各个类别的前四个条目。
 
