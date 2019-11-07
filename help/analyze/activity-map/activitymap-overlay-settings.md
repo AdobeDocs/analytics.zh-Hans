@@ -6,7 +6,7 @@ solution: Analytics
 title: 配置 Activity Map 设置
 topic: Activity Map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -20,12 +20,12 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 设置面板会根据选定的应用程序模式，显示不同的内容。“其他”选项卡则包含的是一些常规设置。
 
-| 标准 | **[!UICONTROL 渐变]**&#x200B;叠加图或&#x200B;**[!UICONTROL 气泡]叠加图** |
+| 标准 | **[!UICONTROL 渐变]**&#x200B;叠加图或&#x200B;**[!UICONTROL 气泡]**&#x200B;叠加图 |
 |---|---|
-| 实时 | **[!UICONTROL 获胜方和失败方]**、渐 **[!UICONTROL 变]**、气泡 **[!UICONTROL 叠加]** |
+| 实时 | **[!UICONTROL 获胜方和失败方]**&#x200B;叠加图、**[!UICONTROL 渐变]**&#x200B;叠加图、**[!UICONTROL 气泡]**&#x200B;叠加图 |
 | 其他 | 报表包选择和语言选择 |
 
-## Settings for standard mode overlay {#section_24DB95376E1A448494ECF3F57743FC19}
+## 标准模式叠加图的设置 {#section_24DB95376E1A448494ECF3F57743FC19}
 
 ![](assets/settings_standard.png)
 
@@ -78,18 +78,18 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
  </tbody> 
 </table>
 
-## Settings for live mode overlays {#section_D30F6E62FB5D404090B588F396A460AF}
+## 实时模式叠加图的设置 {#section_D30F6E62FB5D404090B588F396A460AF}
 
 ![](assets/settings_live.png)
 
 | 设置 | 描述 |
 |---|---|
-| **[!UICONTROL 显示排名最前的]** | Select number of links to display (or all) and the **[!UICONTROL Gainers]** or **[!UICONTROL Losers]** (or both) to display as overlays. |
+| **[!UICONTROL 显示排名最前的]** | 选择要显示的链接数量（或选择全部）以及&#x200B;**[!UICONTROL 获胜方]**&#x200B;或&#x200B;**[!UICONTROL 失败方]**（或选择两者），以显示为叠加图。 |
 | **[!UICONTROL 排除最低值 (%)]** | 选择此选项可利用稀疏数据排除获胜方-失败方链接。按照所需的百分比，将链接变更的最低值排除，以便专门查看拥有足够数据来显示相关得与失的链接。百分比是根据页面上的链接数量计算的。例如，要在包含 200 个链接的列表中筛选出 10% 的最低值，则需要筛选最后 20 个链接。 |
 | **[!UICONTROL 自动更新数据]** | 允许您在计算新的时段时，确定是否要自动更新界面中显示的 Analytics 数据。 |
 | **[!UICONTROL 自动更新时段]** | 选中此选项后，每次进行新的数据检索时就会刷新网页，这样页面中的链接就可以更加及时地与收集的数据保持同步。 |
 
-## Other settings {#section_697A12F099494D699A4BF498598178C5}
+## 其他设置 {#section_697A12F099494D699A4BF498598178C5}
 
 ![](assets/settings_other.png)
 
