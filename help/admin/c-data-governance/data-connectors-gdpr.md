@@ -1,24 +1,22 @@
 ---
 description: 此页面列出了 Data Connectors（以前称为 Genesis）中的所有合作伙伴变量，这些变量可能包含数据主体的直接可识别数据或间接可识别数据。
-seo-description: 此页面列出了 Data Connectors（以前称为 Genesis）中的所有合作伙伴变量，这些变量可能包含数据主体的直接可识别数据或间接可识别数据。
-seo-title: 数据隐私和数据连接器(Genesis)
-title: 数据隐私和数据连接器(Genesis)
+title: 数据隐私和 Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
 
-# 数据隐私和数据连接器(Genesis)
+# 数据隐私和 Data Connectors (Genesis)
 
 此页面列出了 Data Connectors（以前称为 Genesis）中的所有合作伙伴变量，这些变量可能包含数据主体的直接可识别数据或间接可识别数据。
 
-此信息允许您在连接器收到数据隐私请求时识别通过我们的连接器导入的任何直接识别数据或间接识别数据。
+借助这些信息，您可以识别我们的连接器在收到数据隐私请求时，导入的任何直接可识别数据或间接可识别数据。
 
 如果您正在使用以下任意连接器的集成，那么可以简单地查看一下集成中的哪个合作伙伴变量/分类可能包含直接可识别数据或间接可识别数据。
 
-> [!NOTE] 此信息旨在帮助您识别必须标记的变量 [](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)，但您作为数据管理者的责任是应用相应的标签或执行其他操作以准备数据隐私 [](/help/admin/c-data-governance/an-gdpr-overview.md) （更新分类等）。
+> [!NOTE]此信息旨在帮助您识别必须[标记的](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)变量，但是您作为数据控制者，有责任应用适当的标签或执行其他操作以便做好[数据隐私准备](/help/admin/c-data-governance/an-gdpr-overview.md)（更新分类等）。
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
