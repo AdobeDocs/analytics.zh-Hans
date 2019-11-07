@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 标签功能示例
 title: 标签功能示例
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -58,39 +56,39 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 | AAID=77 expandIDs 值<br>没有影响 | AAID=77 expandIDs 值<br>没有影响 | AAID=77 expandIDs 值<br>没有影响 | AAID=77 expandIDs 值<br>没有影响 | AAID=77 expandIDs 值<br>没有影响 |
 |---|---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| Mary | 42 | A | 隐私-7398 | 隐私-9152 |
+| Mary | 42 | A | Privacy-7398 | Privacy-9152 |
 | Mary | 88 | B | N | Y |
 | Mary | 99 | C | O | Z |
-| John | 42 | D | 隐私-1866 | 隐私-8216 |
+| John | 42 | D | Privacy-1866 | Privacy-8216 |
 | John | 88 | E | N | U |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE]只有包含 AAID = 77 和 DEL-DEVICE 标签的行中的单元格会受到影响。
+> [!NOTE]只有包含 AAID = 77 和 DEL-DEVICE 标签的行中的单元格会受到影响。
 
 | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false |
 |--- |---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| 隐私-0523 | 77 | 隐私-1866 | 隐私-3681 | X |
-| 隐私-0523 | 88 | 隐私-2178 | 隐私-1975 | Y |
-| 隐私-0523 | 99 | 隐私-9045 | 隐私-2864 | Z |
+| Privacy-0523 | 77 | Privacy-1866 | Privacy-3681 | X |
+| Privacy-0523 | 88 | Privacy-2178 | Privacy-1975 | Y |
+| Privacy-0523 | 99 | Privacy-9045 | Privacy-2864 | Z |
 | John | 77 | D | P | W |
 | John | 88 | E | N | U |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE]只有包含 user=Mary 和 DEL-PERSON 标签的行中的单元格会受到影响。此外，在实践中，包含A_ID的变量可能是prop或eVar，其替换值将是以“Privacy-”开头的字符串，后跟随机数(GUID)，而不是用其他随机数值替换数字值。
+> [!NOTE]只有包含 user=Mary 和 DEL-PERSON 标签的行中的单元格会受到影响。另外，实际上，包含 A_ID 的变量可能是 prop 或 eVar，其替换值是以“Privacy-”开头的字符串，后面跟有随机数 (GUID)，而不是用不同的随机数值来替换该数值。
 
 | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true |
 |--- |---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| 隐私-5782 | 09 | 隐私-0859 | 隐私-8183 | 隐私-9152 |
-| 隐私-5782 | 16 | 隐私-6104 | 隐私-2911 | 隐私-6821 |
-| 隐私-5782 | 83 | 隐私-2714 | 隐私-0219 | 隐私-4395 |
-| John | 09 | D | 隐私-8454 | 隐私-8216 |
-| John | 16 | E | 隐私-2911 | 隐私-2930 |
+| Privacy-5782 | 09 | Privacy-0859 | Privacy-8183 | Privacy-9152 |
+| Privacy-5782 | 16 | Privacy-6104 | Privacy-2911 | Privacy-6821 |
+| Privacy-5782 | 83 | Privacy-2714 | Privacy-0219 | Privacy-4395 |
+| John | 09 | D | Privacy-8454 | Privacy-8216 |
+| John | 16 | E | Privacy-2911 | Privacy-2930 |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
