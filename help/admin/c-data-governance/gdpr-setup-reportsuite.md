@@ -1,11 +1,9 @@
 ---
 description: 为报表包数据设置标签即是向给定报表包中的每个变量分配身份、敏感性和数据管理标签。请确保您首先要熟悉标签及其定义。
-seo-description: 为报表包数据设置标签即是向给定报表包中的每个变量分配身份、敏感性和数据管理标签。请确保您首先要熟悉标签及其定义。
-seo-title: 为报表包数据设置标签
 title: 为报表包数据设置标签
 uuid: a694851c-8933-496e-9118-113cc38cba8a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -18,9 +16,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ## 分配或编辑报表包标签 {#section_39F829F35A274EACA532E2F6FF392996}
 
-**示例**:作为数据管理者，您计划从数据主体收集电子邮件地址和cookie ID，以处理其数据隐私请求。 这些 Cookie ID 存储在 Adobe Analytics 的报表包中。要为电子邮件地址和 Cookie ID 创建标签，您必须在 Analytics 中使用 Adobe Cloud Platform 的数据使用标签和执行 (DULE) 框架。
+**示例**：作为数据控制者，您可以计划从数据主体收集电子邮件地址和 Cookie ID，以处理他们的数据隐私请求。这些 Cookie ID 存储在 Adobe Analytics 的报表包中。要为电子邮件地址和 Cookie ID 创建标签，您必须在 Analytics 中使用 Adobe Cloud Platform 的数据使用标签和执行 (DULE) 框架。
 
-1. In Analytics, navigate to **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Governance]** &gt; **[!UICONTROL (select report suite)]** ![](assets/privacy_rs_settings.png)
+1. 在 Analytics 中，导航至&#x200B;**[!UICONTROL 管理员]** &gt; **[!UICONTROL 数据管理]** &gt; **[!UICONTROL （选择报表包）]**![](assets/privacy_rs_settings.png)
 
 1. 选择要为哪个变量组设置标签。
 
@@ -43,7 +41,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
    ![](assets/edit.png)
 
-1. 此时，**身份数据**&#x200B;标签对话框会自动打开。这些标签对数据进行分类，可单独使用，也可与其他数据结合使用，以识别个人或能够用来与个人直接联系。For more information on these options, refer to [Identity Data Labels (DULE).](/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels)
+1. 此时，**身份数据**&#x200B;标签对话框会自动打开。这些标签对数据进行分类，可单独使用，也可与其他数据结合使用，以识别个人或能够用来与个人直接联系。有关这些选项的更多信息，请参阅[身份数据标签 (DULE)。](/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels)
 
    >[!NOTE]
    >
@@ -51,11 +49,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
    ![](assets/identity_labels.png)
 
-1. 打开&#x200B;**敏感数据**&#x200B;部分，以设置敏感数据标签，它可以对地理位置数据进行分类。For more information on these options, refer to [Sensitive Data Labels (DULE).](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)
+1. 打开&#x200B;**敏感数据**&#x200B;部分，以设置敏感数据标签，它可以对地理位置数据进行分类。有关这些选项的更多信息，请参阅[敏感数据标签 (DULE)。](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)
 
    ![](assets/sensitive_data.png)
 
-1. Open the Data Privacy Data section to set **Data Governance** Labels. 使用本节指导Adobe如何处理数据隐私访问和删除请求的每个变量，以及定义应扫描哪些变量以查找这些请求的数据主体ID。 For more information on these options, refer to [Data Governance Labels (Data Privacy).](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)
+1. 打开数据隐私“数据”部分，以设置&#x200B;**数据管理**&#x200B;标签。使用本节信息指导 Adobe 如何处理数据隐私访问和删除请求的每个变量，并且定义应该扫描哪些变量以查找这些请求的数据主体 ID。有关这些选项的更多信息，请参阅[数据管理标签（数据隐私）](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)。
 
    ![](assets/privacy_labels.png)
 
@@ -63,7 +61,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ## 将标签复制到报表包{#section_7C6FDAFF049F4126B84F6261F72668EE}
 
-如果要将相同的DULE/数据隐私设置应用到多个报表包，您可以执行以下步骤：
+如果您要将相同的 DULE/数据隐私设置应用于多个报表包，则可以执行以下步骤：
 
 1. 选择变量组（标准维度、转化维度等）包含要复制的变量。请注意，您一次只能复制一组变量的标签。
 1. 选择此变量组中的部分或所有变量。
