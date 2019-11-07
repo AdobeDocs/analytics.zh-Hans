@@ -6,7 +6,7 @@ solution: Analytics
 title: 实时页面分析（实时模式）
 topic: Activity Map
 uuid: a3faa9bd-73d8-48b3-be2b-f818ed7456fb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -28,7 +28,7 @@ Describe what you can do with the feature: - what is the data shown? why do I se
 
  -->
 
-## Data latency as a result of A4T configuration {#section_806CE36354FC4C539A0DED9266A5C704}
+## 由 A4T 配置导致的数据滞后 {#section_806CE36354FC4C539A0DED9266A5C704}
 
 在 Adobe Target 中启用 A4T 集成后，您在 Adobe Analytics 中会额外经历 5 至 10 分钟的滞后。这额外增加的滞后允许您将 Analytics 和 Target 中的数据存储到同一个点击上，从而允许您按页面和网站部分来细分测试。
 
@@ -37,4 +37,4 @@ Describe what you can do with the feature: - what is the data shown? why do I se
 * 对于实时流、实时报表和 API 请求，以及流量变量的当前数据，仅包含额外数据 ID 的点击会发生延迟。
 * 对于转化量度的当前数据、最终数据和数据馈送，所有的点击都会额外延迟 5 至 7 分钟的时间。
 
-Be aware that the latency increase starts after you implement the [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), even if you have not fully implemented this integration.
+请注意，实施 [Identity 服务](https://marketing.adobe.com/resources/help/zh_CN/mcvid/)之后，即使您还未完全实施 A4T 集成，滞后的时间也会开始增加。
