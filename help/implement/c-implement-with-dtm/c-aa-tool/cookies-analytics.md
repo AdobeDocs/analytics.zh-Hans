@@ -7,7 +7,7 @@ solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Cookie
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 9b946238b48fa4532d136d2f7aa0187fdabd005b
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 用于在 Adobe Analytics 中部署 [!UICONTROL Dynamic Tag Management] 的“Cookie”全局设置的字段描述。
 
-**[!UICONTROL *`Property`*]** &gt; **[!UICONTROL   ![](assets/settings_gear.png)
-
-编辑工具]** &gt; **[!UICONTROL Cookie]**
+*`Property`* &gt; 编辑工具 &gt;  Cookie
 
 <table id="table_2758C770C91B4025AD74009B360D71F7"> 
  <thead> 
