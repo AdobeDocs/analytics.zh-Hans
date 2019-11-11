@@ -4,7 +4,7 @@ audience: 最终用户
 user-guide-title: Analytics 实施指南
 user-guide-url: /content/help/zh-Hans/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
+source-git-commit: 3e449b1075ad04fc3f1a48aea28b5a46b9db3d6f
 
 ---
 
@@ -264,3 +264,4 @@ source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
    + [报表到变量的映射](impl-testing/report-variable-mapping.md)
    + [变量到报表的映射](impl-testing/var-report-mapping.md)
 + [为数字助理实施 Analytics](c-analytics-digital-assistants/digital-assistants-white-paper.md)
++ [为移动设备实施分析](mobile-device-sdk.md)
