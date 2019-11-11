@@ -1,19 +1,37 @@
 ---
-title: Analytics 实施帮助
-seo-title: Analytics 实施帮助
+title: 为移动设备实施分析
+seo-title: 为移动设备实施分析
 description: 'null'
 seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: 120392f57295577e94c93b4a10805ea24792a150
+source-git-commit: 4907b2930d894525b93b02f743c095f824a61a3b
 
 ---
 
 
-# Analytics 实施指南
+# 为移动设备实施分析
 
 ![横幅](../../assets/doc_banner_implement.png)
 
-本指南将指导您了解不同的 Adobe Analytics 实施方法。
+要实施适用于移动设备的Analytics，请参阅以下SDK存储库和文档列表：
+
+Experience Platform SDK
+
+
+Experience Platform SDK
+
+Experience Platform SDK文档
+
+4.x SDK:
+
+4.x SDK文档
+
+3.x SDK文档：尽管不再支持用于移动设备的3.x Analytics SDK，但您可以访问以下文档：
+
+
+
+
+
 
 * **Adobe Experience Platform Launch：**&#x200B;这是一种在实施 Adobe Analytics 时推荐使用的标准化方法。该方法会在每个页面上设置一个加载器标记，并使用 Launch 的界面来确定每个变量的定义方式。
 * **Dynamic Tag Management：** Launch 的前身。DTM 使用类似的界面来实施 Analytics，但不再更新，也没有那么灵活。Adobe 建议使用 Launch 来实施 Adobe Analytics。
