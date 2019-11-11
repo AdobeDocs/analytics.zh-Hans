@@ -1,42 +1,42 @@
 ---
-description: AppMeasurement 3.x for Android
-seo-description: 适用于Android的AppMeasurement 3.x的传统文档
-seo-title: AppMeasurement 3.x for Android
+description: AppMeasurement 3.x for ios
+seo-description: AppMeasurement 3.x for ios的传统文档
+seo-title: AppMeasurement 3.x for ios
 solution: Analytics
 subtopic: 书签
-title: AppMeasurement 3.x for Android
+title: AppMeasurement 3.x for ios
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 595efd52fe3b8edae32d8b3c2216ea066ec642be
+source-git-commit: 4907b2930d894525b93b02f743c095f824a61a3b
 
 ---
 
 
-# AppMeasurement 3.x for Android
+# AppMeasurement 3.x for iOS
 
-*注意：本文档包含AppMeasurement早期版本的旧版信息，特别是针对Android版本3.x的旧版信息。
+*注意：本文档包含AppMeasurement先前版本的旧版信息，特别是针对iOS版本3.x的旧版信息。
 有关当前AppMeasurement实施的信息，请参[阅关于AppMeasurement for Javascript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)。*
 
-*上次更新：2018年3月15日适用于Android的AppMeasurement 3.x*
+*上次更新时间：2018年3月15日AppMeasurement 3.x for iOS*
 
-Adobe appMeasurement for android允许您在Adobe Experience cloud中测量原生Android应用程序。
+Adobe appMeasurement for iOS允许您在Adobe Experience cloud中测量本机Apple iPhone和iPad应用程序。
 
-本指南分为两部分：其中一个面向具有Adobe Analytics经验的分析师，另一个面向具有移动应用程序开发经验的Android开发人员。
+本指南分为两部分：其中一个面向具有Adobe Analytics经验的分析师，另一个面向具有移动应用程序开发经验的OS开发人员。
 
-**支持的版本**:Android 2.0或更高版本。
+**支持的版本**:iOS 4.3或更高版本。
 
-**下载库下载说**&#x200B;明和所有AppMeasurement移动平台的链接，可在开发人员连接上的“测量和优化移动应用程序”页获取。 您必须具有免费的 Developer Connection 帐户或登录 SiteCatalyst 以后才能下载库。在您登录后下载链接才会出现。
+**下载库下载说**&#x200B;明和所有AppMeasurement移动平台的链接，可在开发人员连接上的“测量和优化移动应用程序”页获取。 您必须具有免费的 Developer Connection 帐户或登录报告与分析后才能下载库。在您登录后下载链接才会出现。
 
 ## 分析师快速入门
 
-此部分指导您实施 Android 库和添加标准实施所需的代码。并提供了具体步骤，向您展示如何发送自定义事件和其他数据。
+此部分指导您实施 iOS 库和添加标准实施所需的代码。并提供了具体步骤，向您展示如何发送自定义事件和其他数据。
 
 作为分析师，您需要对您的报表包启用移动设备应用程序报表。如果您有其他量度要捕获，则应向您的开发人员提供应用程序应发送的上下文数据变量的描述。例如，要在登录后收集用户名，可以让您的开发人员将用户名设置到名为 `myco.username` 的上下文数据变量中。
 
-### 在 SiteCatalyst 中启动移动设备应用程序报表
+### 在 Analytics 中启用移动设备应用程序报表
 
-SiteCatalyst 提供了用于启用移动设备应用程序生命周期跟踪的接口。此映射可让 SiteCatalyst 自动生成移动设备应用程序报表。
+Analytics 提供了用于启用移动设备应用程序生命周期跟踪的接口。此映射可让 Analytics 自动生成移动设备应用程序报表。
 
 1. 打开管理控制台&gt;报表包&gt;编辑设置&gt;移动设备管理&gt;移动设备应用程序报表。
 1. 单击“启用移动应用程序生命周期跟踪”。
@@ -57,19 +57,17 @@ SiteCatalyst 提供了用于启用移动设备应用程序生命周期跟踪的�
 
 启用离线跟踪后，所有点击都必须盖上时间戳，否则将无法收集这些点击。如果您目前在向某个报表包报告 AppMeasurement 数据，而该报表包也从 JavaScript 收集数据，那么您应该为移动数据单独建立一个报表包，以避免数据丢失，或使用 s.timestamp 变量在 JavaScript 点击上添加自定义时间戳。
 
-如果不确定您的报表包是否启用了时间戳，请与客户服务联系。
+如果您不确定报表包是否已启用时间戳，请联系客户关怀团队。
 
 ## 开发人员快速入门
 
-此部分指导您完成选择和配置用于收集 Android 数据的事件、eVar 和 prop。还提供创建处理规则的步骤，以将 Android 库发送的上下文数据复制到这些变量。
-
-实施Android库和开始发送测量数据的步骤如下：
+本节将指导您完成实施iOS库和开始发送测量数据的步骤，包括：
 
 * 获取库
 * 将库添加到项目
-* 添加应用程序权限
 * TrackingHelper 的简介
 * 实施
+
 
 ### 获取库
 
