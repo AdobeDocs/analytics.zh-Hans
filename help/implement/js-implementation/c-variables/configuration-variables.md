@@ -9,7 +9,7 @@ title: 配置变量
 topic: 开发人员和实施
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: e4cf3c1273db545e01d89a31f433b7c11e07bb6c
+source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
 
 ---
 
@@ -68,7 +68,7 @@ source-git-commit: e4cf3c1273db545e01d89a31f433b7c11e07bb6c
 
 * [s.linkDownloadFileTypes](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkdownldftype.html):包含以逗号分隔的文件扩展名列表。
 
-* [s.linkInternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkintfilters.html):包括以逗号分隔的过滤器列表，这些过滤器表示站点中的链接。
+* [s.linkInternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackintfilters.html):包括以逗号分隔的过滤器列表，这些过滤器表示站点中的链接。
 
 * [s.linkLeaveQueryString](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linklvqrystring.html):确定“退出链接”和“文件下载”报告中是否应包含查询字符串。
 
@@ -77,4 +77,3 @@ source-git-commit: e4cf3c1273db545e01d89a31f433b7c11e07bb6c
 * [s.linkExternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkextfilters.html):用于报告特定的退出链接子集。
 
 * [s.usePlugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-useplugins.html):在每个图 `s_doPlugins` 像请求之前调用函数。
-
