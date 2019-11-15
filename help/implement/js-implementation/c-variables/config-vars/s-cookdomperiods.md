@@ -1,11 +1,10 @@
 ---
 description: 通过动态变量，您可以将一个变量中的值复制到另一个变量，而无需在网站上的图像请求中多次键入完整的值。
-keywords: Analytics 实施
-seo-description: 通过动态变量，您可以将一个变量中的值复制到另一个变量，而无需在网站上的图像请求中多次键入完整的值。
+keywords: Analytics Implementation
 solution: null
 title: 动态变量
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -66,4 +65,4 @@ if(window.location.indexOf(".co.jp") > 0 || window.location.indexOf(".com.au") >
 * 如果您发现访客点击图数据缺失，或[!UICONTROL 流量] &gt; [!UICONTROL 技术] &gt; [!UICONTROL Cookie] 报表显示有相当大比例的访客拒绝 Cookie，请检查 *`cookieDomainPeriods`* 的值是否正确。
 
 * 如果 *`cookieDomainPeriods`* 大于该域的节数，则将在全域设置 Cookie。在访客切换子域时，这可能会导致数据丢失。
-* The *`cookieDomainPeriods`* 变量在已停用实施的 *`trackingServer`* 之前使用，以设置访客 ID Cookie。尽管该变量仅出现在过时的代码中，但在这种情况下，如果未能正确定义 *`cookieDomainPeriods`*，仍会导致您的实施丢失数据。
+* The *`cookieDomainPeriods`* 变量在已停用实施的 *`trackingServer`* 之前使用，以设置访客 ID Cookie。尽管该变量仅出现在过时的代码中，但在这种情况下，如果未能正确定义 *`cookieDomainPeriods`*，仍会导致您的实�
