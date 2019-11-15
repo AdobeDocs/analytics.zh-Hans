@@ -1,14 +1,12 @@
 ---
 description: 访客 ID 可通过选择普通（交易 ID）类别来集成。
-seo-description: 访客 ID 可通过选择普通（交易 ID）类别来集成。
-seo-title: 访客 ID
 solution: Analytics
-subtopic: 数据源
+subtopic: Data sources
 title: 访客 ID
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
