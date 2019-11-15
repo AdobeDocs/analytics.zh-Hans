@@ -1,13 +1,11 @@
 ---
 description: 您可以激活已暂停或不活动的馈送。
-keywords: 数据馈送；feed；激活
-seo-description: 您可以激活已暂停或不活动的馈送。
-seo-title: 激活馈送
+keywords: Data Feed;feed;activate
 solution: Analytics
 title: 激活馈送
 uuid: f7bd977e-3004-4134-a1fb-07f1f7c516ea
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
