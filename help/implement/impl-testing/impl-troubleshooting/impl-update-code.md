@@ -1,15 +1,13 @@
 ---
 description: Adobe 提供了一些更新 Analytics 代码的最佳实践。
-keywords: Analytics 实施
-seo-description: Adobe 提供了一些更新 Analytics 代码的最佳实践。
-seo-title: 替换 Analytics 代码
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 故障诊断
+subtopic: Troubleshooting
 title: 替换 Analytics 代码
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: d3ea6585-199f-4dbe-9ee8-15b204689f2f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
