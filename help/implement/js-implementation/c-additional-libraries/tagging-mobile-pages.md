@@ -1,14 +1,12 @@
 ---
 description: 移动跟踪代码以服务器生成的图像标记形式置于页面上。
-keywords: Analytics 实施;移动跟踪;移动协议;阻止缓存;alt 标记;默认图像类型
-seo-description: 移动跟踪代码以服务器生成的图像标记形式置于页面上。
-seo-title: 移动协议的标记页面
+keywords: Analytics Implementation;mobile tracking;mobile protocols;prevent caching;alt tag;default image type
 solution: Analytics
 title: 移动协议的标记页面
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 5788beaf-f309-4918-a99c-a3e591668205
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
