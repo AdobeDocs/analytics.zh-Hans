@@ -1,13 +1,11 @@
 ---
 description: 链接报表可以针对在当前页面上找到的链接进行报告。它并非根据为此页面收集的所有链接进行报告。
-seo-description: 链接报表可以针对在当前页面上找到的链接进行报告。它并非根据为此页面收集的所有链接进行报告。
-seo-title: 链接报表
 solution: Analytics
 title: 链接报表
-topic: Activity Map
+topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
