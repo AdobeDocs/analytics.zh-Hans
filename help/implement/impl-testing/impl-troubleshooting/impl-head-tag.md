@@ -1,14 +1,12 @@
 ---
 description: Analytics 代码创建一个图像对象，它是一个不会显示在页面上的非可视图像。
-keywords: Analytics 实施
-seo-description: Analytics 代码创建一个图像对象，它是一个不会显示在页面上的非可视图像。
-seo-title: 在 Head 标记中置入 Analytics 代码
+keywords: Analytics Implementation
 solution: Analytics
 title: 在 Head 标记中置入 Analytics 代码
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: e8f91d3c-cb72-454d-9bd4-ff54d83d981f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
