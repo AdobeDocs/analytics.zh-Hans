@@ -1,13 +1,11 @@
 ---
 description: 为聚合内容的新闻门户等网站定义通用设置。
-seo-description: 为聚合内容的新闻门户等网站定义通用设置。
-seo-title: 内容聚合门户
 solution: Analytics
 title: 内容聚合门户
-topic: 管理工具
+topic: Admin tools
 uuid: d227c209-4d88-4eff-b126-994b2a179c51
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
