@@ -1,13 +1,11 @@
 ---
 description: 描述如何生成 Excel 电子表格以包含选定报表包所有设置的步骤。
-seo-description: 描述如何生成 Excel 电子表格以包含选定报表包所有设置的步骤。
-seo-title: 下载报表包设置
 solution: Analytics
 title: 下载报表包设置
-topic: 管理工具
+topic: Admin tools
 uuid: f0aa19a5-eb5d-4ad4-b463-9400abb07038
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
