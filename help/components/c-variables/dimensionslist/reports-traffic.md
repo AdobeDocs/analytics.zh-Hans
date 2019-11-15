@@ -1,13 +1,11 @@
 ---
 description: 通过使用流量报表，您可以对访客与网站之间的交互情况进行深入分析。
-seo-description: 通过使用流量报表，您可以对访客与网站之间的交互情况进行深入分析。
-seo-title: 流量
 solution: Analytics
 title: 流量
-topic: 报告
+topic: Reports
 uuid: c32af0c0-f0c2-47f7-a5f6-4a2df63e11fc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
