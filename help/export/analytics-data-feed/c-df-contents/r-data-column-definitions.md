@@ -1,13 +1,11 @@
 ---
 description: 参阅此部分可了解如何选择要包含在馈送中的数据列，以及如何在提交前处理和打包馈送数据。
-keywords: 数据馈送；数据；列；定义；选择列模板；单击stream；可用列；包括的列；压缩格式；打包类型；包括数据清单；删除转义字符；下载csv
-seo-description: 参阅此部分可了解如何选择要包含在馈送中的数据列，以及如何在提交前处理和打包馈送数据。
-seo-title: 数据列定义
+keywords: Data Feed;data;column;definitions;select column templates;clickstream;available columns;included columns;compression format;packaging type;include data manifest;remove escaped characters;download csv
 solution: Analytics
 title: 数据列定义
 uuid: 43370933-5dd9-48f0-a1be-3d10d38a0edb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
