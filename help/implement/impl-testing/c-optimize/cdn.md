@@ -1,15 +1,13 @@
 ---
 description: 内容传递服务或内容发布网络 (CDN)（如 Akamai 和 Speedera）可将网站内容置于网络的最前沿，即让经常请求的文档靠近其受访问的位置。
-keywords: Analytics 实施
-seo-description: 内容传递服务或内容发布网络 (CDN)（如 Akamai 和 Speedera）可将网站内容置于网络的最前沿，即让经常请求的文档靠近其受访问的位置。
-seo-title: 内容传递服务/网络
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 故障诊断
+subtopic: Troubleshooting
 title: 内容传递服务/网络
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 6cb57c59-d0f9-4ca5-9f15-0e74e585a4a1
-translation-type: ht
-source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
