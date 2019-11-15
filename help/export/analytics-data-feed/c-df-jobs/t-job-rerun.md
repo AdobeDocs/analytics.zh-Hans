@@ -1,18 +1,16 @@
 ---
 description: 您可以在“作业”列表中重新运行一个或多个作业。
-keywords: 数据馈送；工作；rreun
-seo-description: 您可以在“作业”列表中重新运行一个或多个作业。
-seo-title: 重新运行工作
+keywords: Data Feed;job;rerun
 solution: Analytics
-title: 重新运行工作
-uuid: 5caf95da-dd88-4b1 a-a081-684f4 fd1 f714
+title: 重新运行作业
+uuid: 5caf95da-dd88-4b1a-a081-684f4fd1f714
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 重新运行工作
+# 重新运行作业
 
 您可以在“作业”列表中重新运行一个或多个作业。
 
