@@ -1,14 +1,12 @@
 ---
 description: 针对以转化方式处理的数据类型，数据源支持以下转化数据维度和量度。
-seo-description: 针对以转化方式处理的数据类型，数据源支持以下转化数据维度和量度。
-seo-title: 转化
 solution: Analytics
-subtopic: 数据源
+subtopic: Data sources
 title: 转化
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
