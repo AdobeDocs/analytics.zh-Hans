@@ -1,13 +1,11 @@
 ---
 description: 描述如何在动态标签管理中创建规则的步骤。
-keywords: Dynamic Tag Management;规则;创建规则;新规则;基于事件的规则;页面加载规则;直接调用规则
-seo-description: 描述如何在动态标签管理中创建规则的步骤。
-seo-title: 创建新规则
+keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;page load rule;direct call rule
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 创建新规则
 uuid: 2ec14270-b023-4328-b43e-42a250bf92d4
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
