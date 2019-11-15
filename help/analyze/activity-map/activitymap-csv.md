@@ -1,13 +1,11 @@
 ---
 description: 在标准模式下，可以将 Analytics 数据从 Activity Map 导出到逗号分隔值 (CSV) 文件中。
-seo-description: 在标准模式下，可以将 Analytics 数据从 Activity Map 导出到逗号分隔值 (CSV) 文件中。
-seo-title: 导出到 CSV 文件
 solution: Analytics
 title: 导出到 CSV 文件
-topic: Activity Map
+topic: Activity map
 uuid: dc6c50c0-57f7-45b8-a4cb-2092a21da529
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -16,7 +14,7 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 在标准模式下，可以将 Analytics 数据从 Activity Map 导出到逗号分隔值 (CSV) 文件中。
 
-作为一名用户，您或许需要将链接点击数据与其他数据源相结合，或者执行其他分析（例如，在 Excel 中）。导出 CSV 文件可以让您以一种简单易用的格式，获取特定页面的所有 Activity Map 数据。由于 CSV 文件能够让您导出 Page Report, [Page Flow Report](/help/analyze/activity-map/activitymap-page-flow.md)), and [Links on Page](/help/analyze/activity-map/activitymap-links-report.md) data. 随后，您可以按照电子表格或文本文件的形式查看该文件，或者将数据导入其他系统。
+作为一名用户，您或许需要将链接点击数据与其他数据源相结合，或者执行其他分析（例如，在 Excel 中）。导出 CSV 文件可以让您以一种简单易用的格式，获取特定页面的所有 Activity Map 数据。由于 CSV 文件能够让您导出页面报表、[页面流量报表](/help/analyze/activity-map/activitymap-page-flow.md)和[页面上的链接](/help/analyze/activity-map/activitymap-links-report.md)数据，因此您可以将这些针对页面生成的分析数据存储为 CSV 平面文件。随后，您可以按照电子表格或文本文件的形式查看该文件，或者将数据导入其他系统。
 
 单击 Activity Map 工具栏上的“导出”图标。
 
