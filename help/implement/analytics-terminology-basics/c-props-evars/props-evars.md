@@ -1,14 +1,12 @@
 ---
 description: 自定义流量变量也称为 prop (s.prop) 或属性变量，是计算每个值发送到 Analytics 的次数的计数器。
-keywords: Analytics 实施;流量 prop;prop;转化;eVar;s.prop;自定义转化分析;流量变量
-seo-description: 自定义流量变量也称为 prop (s.prop) 或属性变量，是计算每个值发送到 Analytics 的次数的计数器。
-seo-title: prop 和 eVar 概述
+keywords: Analytics Implementation;Traffic prop;prop;conversion;evar;s.prop;custom conversion insight;traffic variable
 solution: Analytics
 title: prop 和 eVar 概述
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 522cab2b-1ef8-4f10-b216-c82b21431487
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
