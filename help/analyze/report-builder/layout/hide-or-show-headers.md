@@ -1,13 +1,11 @@
 ---
 description: 此过程说明如何隐藏或显示标题。
-seo-description: 此过程说明如何隐藏或显示标题。
-seo-title: 隐藏或显示标题
 solution: Analytics
 title: 隐藏或显示标题
-topic: Report Builder
+topic: Report builder
 uuid: ab0ef56f-3531-48fb-9456-1220718d59c5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
