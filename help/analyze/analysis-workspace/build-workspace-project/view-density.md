@@ -1,10 +1,8 @@
 ---
 description: 了解如何调整视图密度。
-seo-description: 了解如何在Analysis Workspace表中调整视图密度。
-seo-title: Analysis Workspace中的视图密度设置
 title: 视图密度
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
