@@ -1,13 +1,11 @@
 ---
 description: 访客参与率是一个量度系列，它让您可以查看营销渠道、促销活动、收入等访客会话的参与率。例如，购买和收入信用可以归属于达成订单的这次访问之前的其他营销接触点。Ad Hoc Analysis 提供多次访问的访客参与率。
-seo-description: 访客参与率是一个量度系列，它让您可以查看营销渠道、促销活动、收入等访客会话的参与率。例如，购买和收入信用可以归属于达成订单的这次访问之前的其他营销接触点。Ad Hoc Analysis 提供多次访问的访客参与率。
-seo-title: 访客参与率 - Ad Hoc Analysis
 solution: Analytics
 title: 访客参与率 - Ad Hoc Analysis
-topic: 量度
+topic: Metrics
 uuid: 567d627c-a2a8-4fbf-b3fd-abb1341e57a0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
