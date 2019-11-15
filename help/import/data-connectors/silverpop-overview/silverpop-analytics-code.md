@@ -1,11 +1,9 @@
 ---
 description: '如果选择了JavaScript插件数据收集方法，请复制以下几行代码并将它们添加到页面上的Analytics代码中 '
-seo-description: '如果选择了JavaScript插件数据收集方法，请复制以下几行代码并将它们添加到页面上的Analytics代码中 '
-seo-title: Analytics插件代码
 title: Analytics插件代码
 uuid: 534874bd-49d9-4b15-8019-b503dfcf3182
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
