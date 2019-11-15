@@ -1,13 +1,11 @@
 ---
 description: 介绍了可在规划区段时遵循的步骤和最佳实践。
-seo-description: 介绍了可在规划区段时遵循的步骤和最佳实践。
-seo-title: 计划区段
 solution: Analytics
 title: 计划区段
-topic: 区段
+topic: Segments
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
