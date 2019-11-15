@@ -1,14 +1,12 @@
 ---
 description: HTTP 请求和响应头用于收集 AppMeasurement 收集范围外的其他数据。本节介绍在数据收集过程中使用的头。
-keywords: Analytics 实施
-seo-description: HTTP 请求和响应头用于收集 AppMeasurement 收集范围外的其他数据。本节介绍在数据收集过程中使用的头。
-seo-title: 数据收集 HTTP 头
+keywords: Analytics Implementation
 solution: Analytics
 title: 数据收集 HTTP 头
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
