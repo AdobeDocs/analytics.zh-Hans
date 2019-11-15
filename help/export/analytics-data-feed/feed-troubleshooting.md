@@ -1,13 +1,11 @@
 ---
 description: 本节包含一些常见问题的相关信息。
-keywords: 数据馈送；疑难解答
-seo-description: 本节包含一些常见问题的相关信息。
-seo-title: 数据馈送疑难解答
+keywords: Data Feed;troubleshooting
 solution: Analytics
 title: 数据馈送疑难解答
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
