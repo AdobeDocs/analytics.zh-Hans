@@ -1,18 +1,16 @@
 ---
 description: 为数据请求选择基本报表类型的步骤。
-seo-description: 为数据请求选择基本报表类型的步骤。
-seo-title: 选择报告类型
 solution: Analytics
-title: 选择报告类型
-topic: Report Builder
-uuid: eb682b8-590e-4444-9c29-5c4db2f5edd1
+title: 选择报表类型
+topic: Report builder
+uuid: ebb682b8-590e-4484-9c29-5c4db2f5edd1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 选择报告类型
+# 选择报表类型
 
 为数据请求选择基本报表类型的步骤。
 
