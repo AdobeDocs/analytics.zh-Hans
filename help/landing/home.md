@@ -1,10 +1,8 @@
 ---
 title: Adobe Analytics 技术文档指南
-seo-title: Adobe Analytics 技术文档和自助式用户指南的完整列表
 description: Analytics 用户指南和资源
-seo-description: Adobe Analytics 技术文档、发行说明和自助式用户指南的完整列表。
 translation-type: tm+mt
-source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
