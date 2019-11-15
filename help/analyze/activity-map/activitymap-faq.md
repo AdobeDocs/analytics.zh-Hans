@@ -1,13 +1,11 @@
 ---
 description: 有关在 Activity Map 中设置、配置和部署功能的常见问题解答。
-seo-description: 有关在 Activity Map 中设置、配置和部署功能的常见问题解答。
-seo-title: Activity Map 常见问题解答
 solution: Analytics
 title: Activity Map 常见问题解答
-topic: Activity Map
+topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -28,7 +26,7 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 **问：能否通过动态标签管理 (DTM) 配置新的 AppMeasurement 代码？**
 
-答：可以，您可以[手动实现](https://marketing.adobe.com/resources/help/zh_CN/dtm/analytics_dtm.html)新的 AppMeasurement 代码。
+答：可以，您可以[手动实现](https://marketing.adobe.com/resources/help/en_US/dtm/analytics_dtm.html)新的 AppMeasurement 代码。
 
 **问：AppMeasurement v1.6 库有何重要变化？**
 
@@ -73,7 +71,7 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 **问：为什么量度下拉菜单多次列出同样的量度？**
 
-答：Activity Map 会列出所有报表包的量度。因此，如果贵公司没有执行[量度合并流程](https://marketing.adobe.com/resources/help/zh_CN/analytics/calcmetrics/cm_transition.html)，就会看到重复的量度。
+答：Activity Map 会列出所有报表包的量度。因此，如果贵公司没有执行[量度合并流程](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_transition.html)，就会看到重复的量度。
 
 您可以通过“量度”下拉菜单将计算的量度列表限制为分配给所访问页面的报表包的量度。
 
@@ -125,7 +123,7 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 出现警告消息，指示您需要请求管理员 \[启用 Activity Map 报表\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) 。
 
-**问：能否通过 [Analytics 数据馈送](https://marketing.adobe.com/resources/help/zh_CN/reference/analytics-data-feed.html)导出 Activity Map 数据 (contextData)？**
+**问：能否通过 [Analytics 数据馈送](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)导出 Activity Map 数据 (contextData)？**
 
 答：没问题。
 
