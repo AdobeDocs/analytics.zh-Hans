@@ -1,15 +1,13 @@
 ---
 description: AppMeasurement for JavaScript 是一个新库，所提供的核心功能与 s_code.js 相同，但其设计更轻便，速度更快，非常适合在移动和桌面网站上使用。
-keywords: appmeasurement;Analytics 实施;javascript;appmeasurement for javascript;初始化;检索 appmeasurement 实例;clear vars;clearvars;appmeasurement 实用程序;appmeasurement 实例;appmeasurement 好处
-seo-description: AppMeasurement for JavaScript 是一个新库，所提供的核心功能与 s_code.js 相同，但其设计更轻便，速度更快，非常适合在移动和桌面网站上使用。
-seo-title: 关于 AppMeasurement for JavaScript
+keywords: appmeasurement;Analytics Implementation;javascript;appmeasurement for javascript;initialization;retrieve appmeasurement instance;clear vars;clearvars;appmeasurement utilities;appmeasurement instance;appmeasurement benefits
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: 关于 AppMeasurement for JavaScript
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: dc71ad7a-92bd-40cd-8fab-707f6f8472e2
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
