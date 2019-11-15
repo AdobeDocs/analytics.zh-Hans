@@ -1,13 +1,11 @@
 ---
 description: 使用 AND/OR 搜索表达式通过布尔逻辑配置的排名和条件过滤器。
-seo-description: 使用 AND/OR 搜索表达式通过布尔逻辑配置的排名和条件过滤器。
-seo-title: 最受欢迎的过滤设置
 solution: Analytics
 title: 最受欢迎的过滤设置
-topic: Report Builder
+topic: Report builder
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
