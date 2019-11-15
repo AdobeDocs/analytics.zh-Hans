@@ -1,14 +1,12 @@
 ---
 description: 地域划分数据根据访问的首次点击进行记录，并且无论使用的是什么设备，单次访问的地域划分数据都不会更改。
-keywords: Analytics 实施
-seo-description: 地域划分数据根据访问的首次点击进行记录，并且无论使用的是什么设备，单次访问的地域划分数据都不会更改。
-seo-title: 地域划分数据
+keywords: Analytics Implementation
 solution: Analytics
 title: 地域划分数据
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 8449bf11-c367-4698-a73e-f6cb59f8c945
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
