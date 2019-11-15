@@ -1,13 +1,11 @@
 ---
 description: 使用“作业”选项卡可查看作业历史记录和执行作业管理任务。
-keywords: 数据馈送；作业；配置
-seo-description: 使用“作业”选项卡可查看作业历史记录和执行作业管理任务。
-seo-title: 数据馈送作业 - 概述
+keywords: Data Feed;job;configure
 solution: Analytics
 title: 数据馈送作业 - 概述
 uuid: 83ccaabb-9457-4e37-9d1e-f2ee281daba6
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
