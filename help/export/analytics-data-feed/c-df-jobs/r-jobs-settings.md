@@ -1,13 +1,11 @@
 ---
 description: 设置馈送后，某些设置可确定处理作业的频率。
-keywords: 数据馈送；作业；设置；每日；每小时；每小时数据馈送的数据回填；回填
-seo-description: 设置馈送后，某些设置可确定处理作业的频率。
-seo-title: 作业设置
+keywords: Data Feed;job;settings;daily;hourly;Data Backfills for Hourly Data Feeds;backfill
 solution: Analytics
 title: 作业设置
 uuid: e124b4f1-0168-4eaa-8657-19207b2f263f
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
