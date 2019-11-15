@@ -1,13 +1,11 @@
 ---
 description: Activity Map 提供了两种基本模式，它们可以在报告页面活动时进行相互补充。
-seo-description: Activity Map 提供了两种基本模式，它们可以在报告页面活动时进行相互补充。
-seo-title: 标准模式与实时模式的对比
 solution: Analytics
 title: 标准模式与实时模式的对比
-topic: Activity Map
+topic: Activity map
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
