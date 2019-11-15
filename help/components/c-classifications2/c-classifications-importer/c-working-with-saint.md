@@ -1,14 +1,12 @@
 ---
 description: 使用导入程序将分类上传到Adobe Analytics。 您也可以在导入前导出要更新的数据。
-seo-description: 使用导入程序将分类上传到Adobe Analytics。 您也可以在导入前导出要更新的数据。
-seo-title: 分类导入器 - 概述
 solution: Analytics
-subtopic: 分类
+subtopic: Classifications
 title: 分类导入器 - 概述
-topic: 管理工具
+topic: Admin tools
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
