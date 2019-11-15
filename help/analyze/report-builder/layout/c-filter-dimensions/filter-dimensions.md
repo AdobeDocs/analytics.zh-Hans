@@ -1,13 +1,11 @@
 ---
 description: 您可以过滤添加到“行标签”网格中的维度。过滤器可减少请求返回的数据，并且可以从引导布局或自定义布局中进行应用。通过引导布局配置维度过滤时，您还可以指定单元格中的条目数。
-seo-description: 您可以过滤添加到“行标签”网格中的维度。过滤器可减少请求返回的数据，并且可以从引导布局或自定义布局中进行应用。通过引导布局配置维度过滤时，您还可以指定单元格中的条目数。
-seo-title: 过滤器维度概述
 solution: Analytics
 title: 过滤器维度概述
-topic: Report Builder
+topic: Report builder
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
