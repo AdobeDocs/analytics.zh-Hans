@@ -1,11 +1,9 @@
 ---
 description: 通过维恩图可视化，最多可拖入 3 个区段（从“组件”中）和一个量度来构建维恩图。
-seo-description: 通过维恩图可视化，最多可拖入 3 个区段（从“组件”中）和一个量度来构建维恩图。
-seo-title: 维恩图
 title: 维恩图
-uuid: 0a743370-f588-417f-9108-4a1313 d6 bb
+uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
