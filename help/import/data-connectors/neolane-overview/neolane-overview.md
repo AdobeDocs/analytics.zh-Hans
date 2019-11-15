@@ -1,11 +1,9 @@
 ---
 description: 此Adobe® Data Connectors™电子邮件集成将Adobe Analytics®的行为信息与电子邮件营销相结合，创建出一个功能强大的工具，用于重新定义成功衡量并通过更相关的消息定位受众。
-seo-description: 此Adobe® Data Connectors™电子邮件集成将Adobe Analytics®的行为信息与电子邮件营销相结合，创建出一个功能强大的工具，用于重新定义成功衡量并通过更相关的消息定位受众。
-seo-title: Adobe Analytics的Neolane Ozon Data Connector
 title: Adobe Analytics的Neolane Ozon Data Connector
 uuid: a0415fc2-9bf3-445d-92a3-705895ff740c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
