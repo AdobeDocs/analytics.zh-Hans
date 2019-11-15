@@ -1,15 +1,13 @@
 ---
 description: 当您在变量中输入值时，可遵循一些最佳实践。
-keywords: Analytics 实施
-seo-description: 当您在变量中输入值时，可遵循一些最佳实践。
-seo-title: 使用引号
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 故障诊断
+subtopic: Troubleshooting
 title: 使用引号
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 9f09c48b-7ae5-441e-8635-fd6bdc2e94c7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
