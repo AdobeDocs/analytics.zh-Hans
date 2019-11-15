@@ -1,11 +1,9 @@
 ---
 description: 虚拟报告套件中的上下文感知会话会更改Adobe Analytics计算移动访问的方式。 本文介绍了后台点击处理和应用程序启动事件处理（均由移动 SDK 设置）对移动设备访问定义方式的影响。
-seo-description: 虚拟报告套件中的上下文感知会话会更改Adobe Analytics计算移动访问的方式。 本文介绍了后台点击处理和应用程序启动事件处理（均由移动 SDK 设置）对移动设备访问定义方式的影响。
-seo-title: 上下文感知会话
 title: 上下文感知会话
 uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
