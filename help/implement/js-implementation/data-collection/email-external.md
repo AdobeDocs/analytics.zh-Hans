@@ -1,14 +1,12 @@
 ---
 description: 公司使用 Analytics 来确定电子邮件促销活动的成功与否。
-keywords: Analytics 实施
-seo-description: 公司使用 Analytics 来确定电子邮件促销活动的成功与否。
-seo-title: 外部电子邮件跟踪
+keywords: Analytics Implementation
 solution: Analytics
 title: 外部电子邮件跟踪
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: fa450f45-14cf-4d0d-a87c-14a946512a9b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
