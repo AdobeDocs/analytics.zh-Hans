@@ -1,14 +1,12 @@
 ---
 description: 处理规则简化了数据收集，并在数据被发送到报表时对内容进行管理。
-seo-description: 处理规则简化了数据收集，并在数据被发送到报表时对内容进行管理。
-seo-title: 处理规则概述
 solution: Analytics
-subtopic: 处理规则
+subtopic: Processing rules
 title: 处理规则概述
-topic: 管理工具
-uuid: 6b4ee7c9-2b86-47a6-b64c-c8d64fff67d
+topic: Admin tools
+uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
