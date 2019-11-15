@@ -1,11 +1,9 @@
 ---
 description: 在日历中，您可以指定日期和日期范围，或者选择一个预设。
-seo-description: 在日历中，您可以指定日期和日期范围，或者选择一个预设。
-seo-title: 日历和日期范围概述
 title: 日历和日期范围概述
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
