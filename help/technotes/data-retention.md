@@ -1,11 +1,9 @@
 ---
-seo-description: 由Adobe Analytics收集的数据将保留特定时间段。 Adobe保留此数据的时间因合同而异，并在组织的数据保留策略中进行了概述。
-seo-title: Adobe Analytics的数据保留策略
 title: 数据保留策略
 description: 数据保留策略决定了Adobe存储数据的时间。
 uuid: 9988ef5c-d657-4521-8601-e508756d7d07
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
