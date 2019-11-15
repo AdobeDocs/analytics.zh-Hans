@@ -1,14 +1,12 @@
 ---
 description: 数据源类别可识别具有相似功能的不同数据源类型。
-seo-description: 数据源类别可识别具有相似功能的不同数据源类型。
-seo-title: 数据类型和类别概述
 solution: Analytics
-subtopic: 数据源
+subtopic: Data sources
 title: 数据类型和类别概述
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
