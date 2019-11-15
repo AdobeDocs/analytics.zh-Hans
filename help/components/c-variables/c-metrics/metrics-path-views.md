@@ -1,13 +1,11 @@
 ---
 description: 路径查看量度基于路径数据，将为所有接受永久 Cookie 的用户跟踪该数据。
-seo-description: 路径查看量度基于路径数据，将为所有接受永久 Cookie 的用户跟踪该数据。
-seo-title: 路径查看次数
 solution: Analytics
 title: 路径查看次数
-topic: 量度
+topic: Metrics
 uuid: ceab036c-8e0c-43b7-946a-aeba6a253982
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
