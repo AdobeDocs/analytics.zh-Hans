@@ -1,14 +1,12 @@
 ---
 description: 可在 doPlugins 中设置中止标记来阻止发送当前的跟踪调用。
-keywords: Analytics 实施
-seo-description: 可在 doPlugins 中设置中止标记来阻止发送当前的跟踪调用。
-seo-title: s.abort 标记
+keywords: Analytics Implementation
 solution: Analytics
 title: s.abort 标记
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 0c6ec8c7-d136-4851-8cb6-6cb1b7f6f0dc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
