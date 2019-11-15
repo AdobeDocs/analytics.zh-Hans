@@ -1,13 +1,11 @@
 ---
 description: 描述如何自定义图表以供预定受众充分使用的步骤。
-seo-description: 描述如何自定义图表以供预定受众充分使用的步骤。
-seo-title: 更改报表图表
 solution: Analytics
 title: 更改报表图表
-topic: Reports & Analytics
-uuid: c2e81c6c-bfe9-4457-8b5 d-512255ca9711
+topic: Reports and analytics
+uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
