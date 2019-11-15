@@ -1,13 +1,11 @@
 ---
 description: 衡量各种广告跟踪代码如何影响您网站上的不同转化事件。此报表可用于衡量对于不同的成功事件哪些特定促销活动效果最佳，或了解促销活动如何帮助或阻碍您网站的活动，例如哪些促销活动会带来最多的收入。
-seo-description: 衡量各种广告跟踪代码如何影响您网站上的不同转化事件。此报表可用于衡量对于不同的成功事件哪些特定促销活动效果最佳，或了解促销活动如何帮助或阻碍您网站的活动，例如哪些促销活动会带来最多的收入。
-seo-title: 跟踪代码
 solution: Analytics
 title: 跟踪代码
-topic: 报告
+topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
