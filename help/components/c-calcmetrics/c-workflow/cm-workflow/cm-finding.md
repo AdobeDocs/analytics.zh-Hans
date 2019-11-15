@@ -1,16 +1,14 @@
 ---
-description: 介绍查找量度排序和筛选的两种主要方法。
-seo-description: 介绍查找量度排序和筛选的两种主要方法。
-seo-title: 查找指标
-title: 查找指标
+description: 介绍查找指标排序和筛选的两种主要方法。
+title: 查找量度
 uuid: 60c8e02c-736d-4d20-8799-69f6ca250033
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 查找指标
+# 查找量度
 
 描述用于查找量度的两种主要方式：排序和过滤。
 
