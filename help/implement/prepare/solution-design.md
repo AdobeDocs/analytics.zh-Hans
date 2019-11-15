@@ -1,10 +1,8 @@
 ---
 title: 创建解决方案设计文档
-seo-title: 创建解决方案设计文档
 description: 了解解决方案设计文档是什么，以及如何在组织中使用它。
-seo-description: 了解解决方案设计文档是什么，以及如何在组织中使用它。
-translation-type: ht
-source-git-commit: d195fb85711f58383577bf1d7b4da4078b909427
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -46,11 +44,11 @@ source-git-commit: d195fb85711f58383577bf1d7b4da4078b909427
 
 > [!NOTE] 尽管 Analytics 社区成员发现以下链接很有帮助，但这些链接并不归 Adobe 所有。查看其内容时，请注意这一点。
 
-* [设置 Web Analytics 解决方案设计的 7 个步骤](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance)，由 ObservePoint 提供
-* [数字分析流程框架](https://analyticsdemystified.com/cn/analytics-strategy/framework-digital-analytics-process/)，由 Analytics Demystified 提供
-* [解决方案设计参考实际上是您的 BFF](http://numericanalytics.com/why-a-simple-piece-of-documentation-is-the-key-to-analytics-success-the-solution-design-reference-is-actually-your-bff/)，由 Numeric Analytics 提供
-* [如何制作 Adobe Analytics 标记图](http://www.anttikoski.fi/how-to-make-adobe-analytics-tagging-map-aka-solution-design-requirements-for-sitecatalyst-implementation/)，由 Antti Koski 提供
-* [解决方案设计文档的重要性](https://www.ebiquity.com/news-insights/analytics/the-importance-of-the-solution-design-document)，由 Ebiquity 提供
+* [通过ObservePoint设置Web分析解决方案设计的](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance) 7个步骤
+* [Analytics Demystified的数字分析流程框架](https://analyticsdemystified.com/analytics-strategy/framework-digital-analytics-process/) (A)
+* [解决方案设计参考实际上是您通过数字分析得出的BFF](http://numericanalytics.com/why-a-simple-piece-of-documentation-is-the-key-to-analytics-success-the-solution-design-reference-is-actually-your-bff/) 。
+* [如何制作Adobe Analytics标记地图](http://www.anttikoski.fi/how-to-make-adobe-analytics-tagging-map-aka-solution-design-requirements-for-sitecatalyst-implementation/) ，作者Antti Koski
+* [Ebiquity解决方案设计文档的重要性](https://www.ebiquity.com/news-insights/analytics/the-importance-of-the-solution-design-document)
 
 ## 后续步骤
 
