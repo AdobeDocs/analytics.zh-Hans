@@ -1,14 +1,12 @@
 ---
 description: s_gi() 函数用于按报表包 ID 创建或查找 AppMeasurement 实例。AppMeasurement 会在内部保持跟踪每个创建的实例，s_gi() 会为报表包返回现有实例（如果存在）。如果实例不存在，则会创建一个新实例并返回。
-keywords: Analytics 实施
-seo-description: s_gi() 函数用于按报表包 ID 创建或查找 AppMeasurement 实例。AppMeasurement 会在内部保持跟踪每个创建的实例，s_gi() 会为报表包返回现有实例（如果存在）。如果实例不存在，则会创建一个新实例并返回。
-seo-title: s_gi() 函数
+keywords: Analytics Implementation
 solution: Analytics
 title: s_gi() 函数
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: a77de90e-c60e-4946-90cf-deaf8aa3d755
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -17,7 +15,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 s_gi() 函数用于按报表包 ID 创建或查找 AppMeasurement 实例。AppMeasurement 会在内部保持跟踪每个创建的实例，s_gi() 会为报表包返回现有实例（如果存在）。如果实例不存在，则会创建一个新实例并返回。
 
-We recommend calling `s_gi()` before setting variables and making tracking calls throughout your page code. 这能确保在 s 变量被无意中被覆盖后也能使用正确的对象跟踪调用。
+我们建议调用 `s_gi()` 后再设置变量并通过页面代码进行跟踪调用。这能确保在 s 变量被无意中被覆盖后也能使用正确的对象跟踪调用。
 
 ## 使用多报表包 {#section_F2F3B76E7AFD4B4B91CDC8BBEB34BBC5}
 
