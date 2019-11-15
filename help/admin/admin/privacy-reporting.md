@@ -1,12 +1,10 @@
 ---
 description: 您可以启用隐私报告。
-seo-description: 您可以启用隐私报告。
-seo-title: 隐私报表
 solution: Analytics
 title: 隐私报表
-topic: 管理工具
+topic: Admin tools
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
