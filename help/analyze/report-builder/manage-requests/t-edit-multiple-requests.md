@@ -1,13 +1,11 @@
 ---
 description: 您可以基于请求的报表包、粒度和日期范围同时更改多个请求。
-seo-description: 您可以基于请求的报表包、粒度和日期范围同时更改多个请求。
-seo-title: 编辑多个请求
 solution: Analytics
 title: 编辑多个请求
-topic: Report Builder
+topic: Report builder
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
