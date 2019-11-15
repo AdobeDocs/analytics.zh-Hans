@@ -1,14 +1,12 @@
 ---
 description: 描述如何将一个用户帐户中的用户帐户项目（功能板、计算量度、日历事件、警报、书签、区段、Analysis Workspace 项目和计划项目）分配给另一个用户帐户的步骤。
-seo-description: 描述如何将一个用户帐户中的用户帐户项目（功能板、计算量度、日历事件、警报、书签、区段、Analysis Workspace 项目和计划项目）分配给另一个用户帐户的步骤。
-seo-title: 转移用户帐户项目
 solution: Analytics
-subtopic: 用户和用户组
+subtopic: Users and groups
 title: 转移用户帐户项目
-topic: 管理工具
-uuid: b083c622-1397-45ab-8796-f7 cdc7043 ec6
+topic: Admin tools
+uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
 translation-type: tm+mt
-source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -32,5 +30,5 @@ source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
 
    >[!NOTE]
    >
-   >无法转让临时分析资源。如果您的组织使用多个登录公司，则无法在这些登录公司之间转移任何内容。
+   >无法传输临时分析资源。 如果您的组织使用多个登录公司，则无法在这些登录公司之间转移任何内容。
 
