@@ -1,13 +1,11 @@
 ---
 description: 根据您的权限，可以与整个组织、组或个人用户共享区段。
-seo-description: 根据您的权限，可以与整个组织、组或个人用户共享区段。
-seo-title: 共享区段
 solution: Analytics
 title: 共享区段
-topic: 区段
+topic: Segments
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
