@@ -1,13 +1,11 @@
 ---
 description: 在 Activity Map 或旧版 ClickMap 中，停止链接跟踪的步骤。
-seo-description: 在 Activity Map 或旧版 ClickMap 中，停止链接跟踪的步骤。
-seo-title: 停止链接跟踪
 solution: Analytics
 title: 停止链接跟踪
-topic: Activity Map
+topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 translation-type: tm+mt
-source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -43,7 +41,7 @@ source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap（旧称访客 ClickMap） </td> 
-   <td colname="col2"> <p>将 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html"  >trackInlineStats</a> 变量设置为 false（这是默认设置）。The syntax reads as follows: 
+   <td colname="col2"> <p>将 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html"  >trackInlineStats</a> 变量设置为 false（这是默认设置）。语法如下所示：
      <code>
        s.trackInlineStats=false
      </code> </p> </td> 
