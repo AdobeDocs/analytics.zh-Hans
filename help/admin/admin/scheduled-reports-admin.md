@@ -1,13 +1,11 @@
 ---
 description: 让管理员级别的用户能够跨组织查看和管理计划报表。
-seo-description: 让管理员级别的用户能够跨组织查看和管理计划报表。
-seo-title: 计划报表队列
 solution: Analytics
 title: 计划报表队列
-topic: 报告
+topic: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
