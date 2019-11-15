@@ -1,13 +1,11 @@
 ---
 description: 有关登录 Report Builder 的三种方法的信息。
-seo-description: 有关登录 Report Builder 的三种方法的信息。
-seo-title: Report Builder 登录
 solution: Analytics
 title: Report Builder 登录
-topic: Report Builder
+topic: Report builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
