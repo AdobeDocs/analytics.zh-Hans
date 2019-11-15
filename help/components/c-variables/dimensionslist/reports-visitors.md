@@ -1,13 +1,11 @@
 ---
 description: 显示选定时间段（小时、日、周、月、季或年）内网站独特访客人数。独特访客在所选时间范围内仅计数一次。在超过该时间范围前，不会将回访网站的访客再次算作独特用户。
-seo-description: 显示选定时间段（小时、日、周、月、季或年）内网站独特访客人数。独特访客在所选时间范围内仅计数一次。在超过该时间范围前，不会将回访网站的访客再次算作独特用户。
-seo-title: 访客
 solution: Analytics
 title: 访客
-topic: 报告
+topic: Reports
 uuid: f7df37ca-f268-4770-9217-21e64680c0f2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
