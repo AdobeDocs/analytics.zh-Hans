@@ -1,13 +1,11 @@
 ---
 description: 在 Activity Map 或旧版 ClickMap 中，启动链接跟踪的步骤。
-seo-description: 在 Activity Map 或旧版 ClickMap 中，启动链接跟踪的步骤。
-seo-title: 开始链接跟踪
 solution: Analytics
 title: 开始链接跟踪
-topic: Activity Map
+topic: Activity map
 uuid: 425cb287-f76e-4430-802f-288499711ba9
 translation-type: tm+mt
-source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -43,7 +41,7 @@ source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap（旧称访客 ClickMap） </td> 
-   <td colname="col2"> <p>将 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html"  >trackInlineStats</a> 变量设置为 true。The syntax reads as follows: 
+   <td colname="col2"> <p>将 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html"  >trackInlineStats</a> 变量设置为 true。语法如下所示：
      <code>
        s.trackInlineStats=true
      </code> </p> </td> 
