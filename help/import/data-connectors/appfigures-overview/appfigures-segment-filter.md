@@ -1,11 +1,9 @@
 ---
 description: appFigures集成通常用于跨多个应用商店收集多个应用程序的数据。 您可以创建区段以隔离特定应用程序或应用程序商店的报告数据。
-seo-description: appFigures集成通常用于跨多个应用商店收集多个应用程序的数据。 您可以创建区段以隔离特定应用程序或应用程序商店的报告数据。
-seo-title: 对应用程序数据进行分段
 title: 对应用程序数据进行分段
 uuid: 9c2aaf0d-088f-4178-8ed1-a8124087a683
 translation-type: tm+mt
-source-git-commit: 84c40be45ed4b03435451c12b000910579d75ba1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
