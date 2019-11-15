@@ -1,13 +1,11 @@
 ---
 description: 顺序区段使用 THEN 运算符（而非 AND 或 OR）创建。THEN 意味着出现一个区段标准后，接着出现另一个区段标准。默认情况下，顺序区段标识所有匹配的数据，显示过滤器“包括所有人”。 使用“仅序列前”和“仅序列后”选项，可以进一步将顺序区段过滤为匹配点击的子集。
-seo-description: 顺序区段使用 THEN 运算符（而非 AND 或 OR）创建。THEN 意味着出现一个区段标准后，接着出现另一个区段标准。默认情况下，顺序区段标识所有匹配的数据，显示过滤器“包括所有人”。 使用“仅序列前”和“仅序列后”选项，可以进一步将顺序区段过滤为匹配点击的子集。
-seo-title: 生成顺序区段
 solution: Analytics
 title: 生成顺序区段
-topic: 区段
+topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
