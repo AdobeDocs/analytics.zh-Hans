@@ -1,18 +1,16 @@
 ---
 description: 帮助您从现有请求选择报表包的步骤。
-seo-description: 帮助您从现有请求选择报表包的步骤。
-seo-title: 从Excel中的现有请求中选择报表包
 solution: Analytics
-title: 从Excel中的现有请求中选择报表包
-topic: Report Builder
-uuid: 92fe4823-6b8a-4178-9c94-fb4 f5 e03 e4 a5
+title: 在 Excel 中通过现有请求选择报表包
+topic: Report builder
+uuid: 92fe4823-6b8a-4178-9c94-fb4f5e03e4a5
 translation-type: tm+mt
-source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 从Excel中的现有请求中选择报表包
+# 在 Excel 中通过现有请求选择报表包
 
 帮助您从现有请求选择报表包的步骤。
 
