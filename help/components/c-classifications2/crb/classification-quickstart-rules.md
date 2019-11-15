@@ -1,14 +1,12 @@
 ---
 description: 分类规则会定期查找未分类的术语。如果找到匹配规则的术语，规则会自动将其添加到分类数据表。您还可以使用分类规则覆盖现有键值。
-seo-description: 分类规则会定期查找未分类的术语。如果找到匹配规则的术语，规则会自动将其添加到分类数据表。您还可以使用分类规则覆盖现有键值。
-seo-title: 分类规则
 solution: Analytics
-subtopic: 分类
+subtopic: Classifications
 title: 分类规则
-topic: 管理工具
+topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -307,7 +305,7 @@ t_classification_rule.xml
 
 >[!NOTE]
 >
-> 在此过程中，您必须将规则应用于一个或多个报表包。 即使没有限制，我们也建议每个规则集的规则数量在 500 到 1000 之间。如果您的规则超过 1000 条，请考虑使用[子分类](/help/components/c-classifications2/c-sub-classifications.md)简化规则集。
+>在此过程中，您必须将规则应用于一个或多个报表包。 即使没有限制，我们也建议每个规则集的规则数量在 500 到 1000 之间。如果您的规则超过 1000 条，请考虑使用[子分类](/help/components/c-classifications2/c-sub-classifications.md)简化规则集。
 
 1. [创建分类规则集](/help/components/c-classifications2/crb/classification-rule-set.md) 。
 1. On the rule set page, click **[!UICONTROL Add Rule]**.
@@ -319,7 +317,7 @@ t_classification_rule.xml
    此时会显示&#x200B;**[!UICONTROL 选择报表包]页面。**
 
    >[!NOTE]
-   当满足以下条件时，报 *`only`* 表包会显示在此页面上：&gt;
+   当满足以下条件时，报 *`only`* 表包会显示在此页面上：       &gt;
 
    * 报表包在[!UICONTROL 管理工具]中针对该变量至少定义了一个分类。
    （请参阅 在 *`Variable`* 分类 [规则集中](/help/components/c-classifications2/crb/classification-rule-set.md) ，以了解有关此入门项目的说明。)
