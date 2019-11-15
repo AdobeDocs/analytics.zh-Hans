@@ -1,13 +1,11 @@
 ---
 description: 计算量度的方法有以下几种：标准、参与率、最近和线性。由于公式不同，每种方法在计算量度值时各有不同。
-seo-description: 计算量度的方法有以下几种：标准、参与率、最近和线性。由于公式不同，每种方法在计算量度值时各有不同。
-seo-title: 量度计算
 solution: Analytics
 title: 量度计算
-topic: 量度
+topic: Metrics
 uuid: 2af58f1e-12c5-4828-ae39-c9aeaef6b705
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
