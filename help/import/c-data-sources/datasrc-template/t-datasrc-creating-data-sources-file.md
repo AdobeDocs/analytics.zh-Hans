@@ -1,14 +1,12 @@
 ---
 description: 导入模板文件旨在让您开始导入。
-seo-description: 导入模板文件旨在让您开始导入。
-seo-title: 生成导入文件模板
 solution: Analytics
-subtopic: 数据源
+subtopic: Data sources
 title: 生成导入文件模板
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
