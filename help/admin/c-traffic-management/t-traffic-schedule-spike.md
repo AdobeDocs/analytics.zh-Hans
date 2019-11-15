@@ -1,13 +1,11 @@
 ---
 description: 使用“计划尖峰”部分可以提醒 Adobe 注意临时峰值，以便我们能够分配适当的资源来处理此情况。
-seo-description: 使用“计划尖峰”部分可以提醒 Adobe 注意临时峰值，以便我们能够分配适当的资源来处理此情况。
-seo-title: 计划流量尖峰
 solution: Analytics
 title: 计划流量尖峰
-topic: 管理工具
+topic: Admin tools
 uuid: 350bebc0-0593-4ee7-b7e2-7848d9f5726b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
