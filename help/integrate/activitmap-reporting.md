@@ -1,13 +1,11 @@
 ---
 description: 在 Analytics 中启用 Activity Map 报表功能的管理步骤。
-seo-description: 在 Analytics 中启用 Activity Map 报表功能的管理步骤。
-seo-title: Activity Map 报告
 solution: Analytics
 title: Activity Map 报告
-topic: 报告
-uuid: 7636c670-bb6c-4a25-823a-7bbbb0b747b
+topic: Reports
+uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
