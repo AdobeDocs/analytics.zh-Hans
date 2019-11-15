@@ -1,11 +1,9 @@
 ---
 description: 使用“即插即用”向导，直观的分步进程将引导您完成系统同步点并初始化集成。
-seo-description: 使用“即插即用”向导，直观的分步进程将引导您完成系统同步点并初始化集成。
-seo-title: 集成过程和先决条件
 title: 集成过程和先决条件
 uuid: d0cd9f08-b66e-470a-a5d2-08cbddc18275
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
