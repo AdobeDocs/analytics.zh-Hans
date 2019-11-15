@@ -1,14 +1,12 @@
 ---
 description: “组织”让您可在共享项目前限制组件。您可以将项目及其组件与业务中涉及的营销人员及其他非分析人员共享。在项目中批注并应用标记。
 keywords: Analysis Workspace
-seo-description: “组织”让您可在共享项目前限制组件。您可以将项目及其组件与业务中涉及的营销人员及其他非分析人员共享。在项目中批注并应用标记。
-seo-title: 组织/共享概述
 solution: Analytics
 title: 组织/共享概述
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
