@@ -1,13 +1,11 @@
 ---
 description: 您可以对数据馈送执行各种操作。
-keywords: 数据馈送；操作
-seo-description: 您可以对数据馈送执行各种操作。
-seo-title: 数据馈送面板
+keywords: Data Feed;actions
 solution: Analytics
 title: 数据馈送面板
 uuid: 10527738-13c2-48c0-9bb3-c4c93fbb4d8f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
