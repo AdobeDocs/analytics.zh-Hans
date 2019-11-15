@@ -1,13 +1,11 @@
 ---
 description: 将源工作簿中的整个电子表格复制为一个或多个目标工作簿中的电子表格。
-seo-description: 将源工作簿中的整个电子表格复制为一个或多个目标工作簿中的电子表格。
-seo-title: 在工作簿之间复制请求和工作表
 solution: Analytics
 title: 在工作簿之间复制请求和工作表
-topic: Report Builder
+topic: Report builder
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
