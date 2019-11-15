@@ -1,14 +1,12 @@
 ---
 description: 通过数据提取，可选择要在报表的 X 和 Y 轴上显示的参数以及过滤报表所依据的项目。
-seo-description: 通过数据提取，可选择要在报表的 X 和 Y 轴上显示的参数以及过滤报表所依据的项目。
-seo-title: 数据提取
 solution: Analytics
-subtopic: 计划
+subtopic: Schedule
 title: 数据提取
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 430f03bb-09e2-4e43-8cbd-1754b49acefe
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
