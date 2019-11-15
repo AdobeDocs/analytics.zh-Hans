@@ -1,14 +1,12 @@
 ---
 description: 记录您的页面在浏览器中处于活动选项卡状态的秒数，并将该值传递到下一页面查看的量度中。
-keywords: Analytics 实施
-seo-description: 记录您的页面在浏览器中处于活动选项卡状态的秒数，并将该值传递到下一页面查看的量度中。
-seo-title: getPageVisibility
+keywords: Analytics Implementation
 solution: Analytics
 title: getPageVisibility
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
