@@ -1,14 +1,12 @@
 ---
 description: 显示选定时间段（小时、日、周、月、季或年）内网站独特访客的人数。
-keywords: 访客
-seo-description: 显示选定时间段（小时、日、周、月、季或年）内网站独特访客的人数。
-seo-title: 访客
+keywords: visitors
 solution: Analytics
 title: 访客
-topic: 量度
+topic: Metrics
 uuid: 098beb78-5294-42b4-8875-f3908aa646ca
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
