@@ -1,14 +1,12 @@
 ---
 description: 先创建渠道和用于处理数据的基础规则，然后渠道和渠道数据才能显示在报表中。您还可以创建相关渠道的成本和预算金额，并指定您希望访客参与时间持续多久。在“管理工具”中执行报表配置任务。
-seo-description: 先创建渠道和用于处理数据的基础规则，然后渠道和渠道数据才能显示在报表中。您还可以创建相关渠道的成本和预算金额，并指定您希望访客参与时间持续多久。在“管理工具”中执行报表配置任务。
-seo-title: 关于渠道和规则
 solution: Analytics
-subtopic: 营销渠道
+subtopic: Marketing channels
 title: 关于渠道和规则
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 7d574790-4d0d-419d-8fb5-c16ec5a4a387
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -25,7 +23,7 @@ Adobe 在[自动设置](/help/components/c-marketing-channels/c-channel-autosetu
 
 >[!NOTE]
 >
-> Adobe建议您在报表包中设置报表，以用作测试用的模板。 您可以使用该模板将这些渠道和规则集全局应用到一个或多个生产报表包中。
+>Adobe建议您在报表包中设置报表，以用作测试用的模板。 您可以使用该模板将这些渠道和规则集全局应用到一个或多个生产报表包中。
 >
 >请参阅[将模板报表包设置应用于多个报表包](/help/components/c-marketing-channels/t-template.md)。
 
