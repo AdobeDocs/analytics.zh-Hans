@@ -1,19 +1,17 @@
 ---
 description: 在 Analysis Workspace 中，可使用键盘交互、快捷键以及点击行为。
 keywords: Analysis Workspace
-seo-description: 在 Analysis Workspace 中，可使用键盘交互、快捷键以及点击行为。
-seo-title: Analysis Workspace中可用的快捷键
 solution: Analytics
-title: Analysis Workspace中可用的快捷键
-topic: Reports & Analytics
-uuid: 1ee93ce3-acab-44f8-abdc-9a68 ed35 d32
+title: Analysis Workspace 中可用的热键
+topic: Reports and analytics
+uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Analysis Workspace中可用的快捷键
+# Analysis Workspace 中可用的热键
 
 在 Analysis Workspace 中，可使用键盘交互、快捷键以及点击行为。
 
