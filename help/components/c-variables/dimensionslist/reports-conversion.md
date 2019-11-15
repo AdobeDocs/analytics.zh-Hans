@@ -1,13 +1,11 @@
 ---
 description: 实现对客户活动的全面、准确和详细分析。通过使用促销活动管理、销售周期、客户流失和客户转化等量度，您可以衡量电子商务交易、销售源、广告效果和客户忠诚度等。
-seo-description: 实现对客户活动的全面、准确和详细分析。通过使用促销活动管理、销售周期、客户流失和客户转化等量度，您可以衡量电子商务交易、销售源、广告效果和客户忠诚度等。
-seo-title: 转化
 solution: Analytics
 title: 转化
-topic: 报告
+topic: Reports
 uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
