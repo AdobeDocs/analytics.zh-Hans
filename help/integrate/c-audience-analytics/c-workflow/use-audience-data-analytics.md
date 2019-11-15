@@ -1,12 +1,10 @@
 ---
 description: '您可以在整个 Analytics 中使用 AAM 受众维度。集成的区段是名为“受众 ID”和“受众名称”的新 Analytics 维度，并且可以像 Analytics 收集的任何其他维度一样使用。在数据馈送中，受众ID存储在“mc_audiences”列中。 这些维度当前在 Data Workbench 或 Livestream 中不可用。如何利用受众维度的一些示例包括 '
-seo-description: '您可以在整个 Analytics 中使用 AAM 受众维度。集成的区段是名为“受众 ID”和“受众名称”的新 Analytics 维度，并且可以像 Analytics 收集的任何其他维度一样使用。在数据馈送中，受众ID存储在“mc_audiences”列中。 这些维度当前在 Data Workbench 或 Livestream 中不可用。如何利用受众维度的一些示例包括 '
-seo-title: 在 Analytics 中使用受众数据
 solution: Experience Cloud
 title: 在 Analytics 中使用受众数据
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
