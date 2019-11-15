@@ -1,13 +1,11 @@
 ---
 description: 使用馈送信息部分命名馈送、指定运行馈送所针对的报表包、确定馈送重复周期以及指定馈送开始和结束的时间。
-keywords: 数据馈送；信息；名称；报表包；完成时电子邮件；电子邮件；间隔；馈送；延迟处理；延迟；开始；结束；日期；连续馈送
-seo-description: 使用馈送信息部分命名馈送、指定运行馈送所针对的报表包、确定馈送重复周期以及指定馈送开始和结束的时间。
-seo-title: 馈送信息
+keywords: Data Feed;information;name;report suite;email when complete;email;interval;feed;delay processing;delay;start;end;date;continuous feed
 solution: Analytics
 title: 馈送信息
 uuid: adf92f42-a957-4de0-a5a1-683f2933af04
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
