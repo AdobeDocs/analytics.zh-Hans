@@ -1,14 +1,12 @@
 ---
 description: Adobe Analytics 数据源允许您手动导入其他在线或离线数据以便进行报告。
-seo-description: Adobe Analytics 数据源允许您手动导入其他在线或离线数据以便进行报告。
-seo-title: 数据源概述
 solution: Analytics
-subtopic: 数据源
+subtopic: Data sources
 title: 数据源概述
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
