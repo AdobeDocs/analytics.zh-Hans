@@ -1,11 +1,9 @@
 ---
 description: 添加或管理“服务器调用使用情况”警报。设置警报后，该警报将应用于账单公司旗下的所有登录公司所具有的全部报表包。
-seo-description: 添加或管理“服务器调用使用情况”警报。设置警报后，该警报将应用于账单公司旗下的所有登录公司所具有的全部报表包。
-seo-title: 服务器调用使用情况警报
 title: 服务器调用使用情况警报
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
