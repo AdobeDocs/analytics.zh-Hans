@@ -1,14 +1,12 @@
 ---
 description: 区段是数据的自定义子集，或者是由您创建的规则所过滤的数据。
-keywords: Analytics 实施;区段
-seo-description: 区段是数据的自定义子集，或者是由您创建的规则所过滤的数据。
-seo-title: 区段
+keywords: Analytics Implementation;segment
 solution: Analytics
 title: 区段
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 090a3aa1-2625-4bfe-8221-e24d0621040a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
