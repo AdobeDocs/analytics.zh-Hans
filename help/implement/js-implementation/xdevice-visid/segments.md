@@ -1,14 +1,12 @@
 ---
 description: 您可以在每次与指定的访客 ID Cookie 发生关联时创建一个区段。
-keywords: Analytics 实施
-seo-description: 您可以在每次与指定的访客 ID Cookie 发生关联时创建一个区段。
-seo-title: 创建区段
+keywords: Analytics Implementation
 solution: Analytics
 title: 创建区段
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 476a4667-033c-4e53-961d-ad67e7c2b045
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
