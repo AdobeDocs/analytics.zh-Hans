@@ -1,15 +1,13 @@
 ---
 description: 每当发生服务器调用并且访问页码等于 1 时，Analytics 即会计为一次访问。
-keywords: Analytics 实施
-seo-description: 每当发生服务器调用并且访问页码等于 1 时，Analytics 即会计为一次访问。
-seo-title: 访问
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 访客
+subtopic: Visitors
 title: 访问
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 3035be8f-6adc-45df-a3f2-5de6d3ed99ce
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
