@@ -1,14 +1,12 @@
 ---
 description: “分类层次结构”页面可让您定义分类层次结构，将其用于创建具有相同名称的“层次结构”报表。
-seo-description: “分类层次结构”页面可让您定义分类层次结构，将其用于创建具有相同名称的“层次结构”报表。
-seo-title: 分类层次结构
 solution: Analytics
-subtopic: 分类
+subtopic: Classifications
 title: 分类层次结构
-topic: 管理工具
-uuid: 1b2b73af-84ea-4b90-b4a5-ba7523547fb
+topic: Admin tools
+uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
