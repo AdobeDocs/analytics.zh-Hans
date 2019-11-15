@@ -1,13 +1,11 @@
 ---
 description: 描述如何将过滤器应用到路径报表的步骤。
-seo-description: 描述如何将过滤器应用到路径报表的步骤。
-seo-title: 使用请求向导过滤路径报表
 solution: Analytics
 title: 使用请求向导过滤路径报表
-topic: Report Builder
+topic: Report builder
 uuid: 9b22d5b5-7ae8-49a2-90ae-0c1075562bbe
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
