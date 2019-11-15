@@ -1,11 +1,9 @@
 ---
 description: 借助计算量度生成器，任何人都可以创建参与量度。
-seo-description: 借助计算量度生成器，任何人都可以创建参与量度。
-seo-title: 参与量度
 title: 参与量度
 uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
