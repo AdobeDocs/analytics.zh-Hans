@@ -1,13 +1,11 @@
 ---
 description: 显示有关向您的网站导引流量的网络位置信息。您可以看到哪些搜索引擎和域外网站向您的网站导引访客。
-seo-description: 显示有关向您的网站导引流量的网络位置信息。您可以看到哪些搜索引擎和域外网站向您的网站导引访客。
-seo-title: 流量源
 solution: Analytics
 title: 流量源
-topic: 报告
+topic: Reports
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
