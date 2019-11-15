@@ -1,14 +1,12 @@
 ---
 description: 创建为营销渠道报表用户授予有限管理权限的群组，然后为该群组指定用户。例如，您可能需要创建一个群组，允许非管理员用户输入成本或预算金额。
-seo-description: 创建为营销渠道报表用户授予有限管理权限的群组，然后为该群组指定用户。例如，您可能需要创建一个群组，允许非管理员用户输入成本或预算金额。
-seo-title: 授予有限管理权限
 solution: Analytics
-subtopic: 营销渠道
+subtopic: Marketing channels
 title: 授予有限管理权限
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 439fe486-78d5-4d58-8b4f-8b6a4b98b00d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
