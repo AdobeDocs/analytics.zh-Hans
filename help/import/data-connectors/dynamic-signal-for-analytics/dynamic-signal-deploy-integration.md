@@ -1,12 +1,10 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 部署集成
 solution: Analytics
 title: 部署集成
 uuid: 1a0770a7-c61b-4eec-a9b3-983def842ad8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -53,7 +51,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    1. 查找成功导入 **[!UICONTROL 的分类数据等条目]**。 这些条目应在成功部署后的24小时内显示。
 1. 在Adobe Analytics中，使用控制面板查看动态信号报告，该控制面板是使用Adobe Integration向导自动为您创建的（步骤7）。 或者，您也可以导航到Adobe Analytics菜单结构中的动态信号报告——请参阅以下屏幕快照。
 
-   **注意**:此数据应在成功部署后的24-48小时内显示。
+   **注意**: 此数据应在成功部署后的24-48小时内显示。
 
    ![](assets/reporting.png)
 
