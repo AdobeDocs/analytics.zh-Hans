@@ -1,14 +1,12 @@
 ---
 description: 描述如何删除或移除分类数据的步骤。
-seo-description: 描述如何删除或移除分类数据的步骤。
-seo-title: 删除分类数据
 solution: Analytics
-subtopic: 分类
+subtopic: Classifications
 title: 删除分类数据
-topic: 管理工具
+topic: Admin tools
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
