@@ -1,13 +1,11 @@
 ---
 description: 描述如何启用和实施促销变量。
-keywords: 分析实施；推销；变量；产品语法；转换变量语法；s.products
-seo-description: 描述如何启用和实施促销变量。
-seo-title: 实施促销变量
+keywords: Analytics Implementation;merchandising;variable;product syntax;Conversion Variable Syntax;s.products
 solution: Analytics
 title: 实施促销变量
-topic: 开发人员和实施
+topic: Developer and implementation
 translation-type: tm+mt
-source-git-commit: f3c3a3c74434586f2bd8bcf3c23f488994129394
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
