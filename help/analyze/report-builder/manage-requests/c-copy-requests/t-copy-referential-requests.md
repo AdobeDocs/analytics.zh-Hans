@@ -1,13 +1,11 @@
 ---
 description: 引用请求使用单元格中的值作为参数的输入，如数据过滤器或关系过滤器。
-seo-description: 引用请求使用单元格中的值作为参数的输入，如数据过滤器或关系过滤器。
-seo-title: 复制引用请求
 solution: Analytics
 title: 复制引用请求
-topic: Report Builder
+topic: Report builder
 uuid: b6f64630-868f-455b-8682-471ff9fc596e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
