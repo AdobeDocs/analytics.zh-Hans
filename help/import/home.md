@@ -1,10 +1,8 @@
 ---
 title: Analytics 导入帮助
-seo-title: Analytics 导入帮助
 description: 'null'
-seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -25,7 +23,7 @@ source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 
 ## 重要 Analytics 资源
 
-* [联系客户关怀](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [联系客户关怀团队](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [分析论坛](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics资源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
