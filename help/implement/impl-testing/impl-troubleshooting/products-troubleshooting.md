@@ -1,15 +1,13 @@
 ---
 description: s.products 变量可能是数据收集所使用的语法最复杂的变量。
-keywords: Analytics 实施
-seo-description: s.products 变量可能是数据收集所使用的语法最复杂的变量。
-seo-title: 产品变量中的常见错误
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 故障诊断
+subtopic: Troubleshooting
 title: 产品变量中的常见错误
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 94075c56-37c3-44de-bf37-1dfd228c6665
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
