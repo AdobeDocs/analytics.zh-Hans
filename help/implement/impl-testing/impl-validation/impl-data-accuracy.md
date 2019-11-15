@@ -1,14 +1,12 @@
 ---
 description: 数据准确性验证是比较报表数据与已知的可验证数据点的过程。
-keywords: Analytics 实施
-seo-description: 数据准确性验证是比较报表数据与已知的可验证数据点的过程。
-seo-title: 数据准确性验证
+keywords: Analytics Implementation
 solution: Analytics
 title: 数据准确性验证
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 267f6c61-705a-41cf-9e09-4e2ce2331f32
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
