@@ -1,14 +1,12 @@
 ---
 description: 营销渠道通常用于提供有关访客如何到达您网站的分析。您可以基于要跟踪的渠道以及跟踪方式，自定义营销渠道处理规则。
-seo-description: 营销渠道通常用于提供有关访客如何到达您网站的分析。您可以基于要跟踪的渠道以及跟踪方式，自定义营销渠道处理规则。
-seo-title: 营销渠道快速入门
 solution: Analytics
-subtopic: 营销渠道
+subtopic: Marketing channels
 title: 营销渠道快速入门
-topic: Reports and Analytics
-uuid: d38cb0e5-0b75-4690-b1da-fea2fdf9e7d
+topic: Reports and analytics
+uuid: d38cb0e5-0b75-4690-b1da-fea2fdff9e7d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -44,7 +42,7 @@ See [Channels and Rules](/help/components/c-marketing-channels/c-channels-rules.
 
 >[!NOTE]
 >
-> 如果之前尚未配置营销渠道，则会显示 [自动设置](/help/components/c-marketing-channels/c-channel-autosetup.md) 。 该设置提供多个可自定义的预配置渠道。Adobe 建议将这些规则用作模板。但如果已有固定的渠道定义，则可跳过自动设置。
+>如果之前尚未配置营销渠道，则会显示 [自动设置](/help/components/c-marketing-channels/c-channel-autosetup.md) 。 该设置提供多个可自定义的预配置渠道。Adobe 建议将这些规则用作模板。但如果已有固定的渠道定义，则可跳过自动设置。
 
 ![](assets/step3_icon.png)在[!UICONTROL “营销渠道处理规则”]页面上配置或优化每个渠道的规则。
 
