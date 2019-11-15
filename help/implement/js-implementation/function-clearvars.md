@@ -1,14 +1,12 @@
 ---
 description: 从实例对象中清除以下值。此函数会删除以下元素（将其设为“未定义”）。
-keywords: Analytics 实施
-seo-description: 从实例对象中清除以下值。此函数会删除以下元素（将其设为“未定义”）。
-seo-title: s.clearVars() 函数
+keywords: Analytics Implementation
 solution: Analytics
 title: s.clearVars() 函数
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 43c425bc-15ae-4892-a5a5-e1defcb25ff4
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
