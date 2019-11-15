@@ -1,14 +1,12 @@
 ---
 description: 处理规则用于将上下文数据变量的值迁移到 prop 和 eVar。
-seo-description: 处理规则用于将上下文数据变量的值迁移到 prop 和 eVar。
-seo-title: 将上下文数据变量复制到 eVar
 solution: Analytics
-subtopic: 处理规则
+subtopic: Processing rules
 title: 将上下文数据变量复制到 eVar
-topic: 管理工具
+topic: Admin tools
 uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
