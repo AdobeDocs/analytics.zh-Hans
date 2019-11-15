@@ -1,13 +1,11 @@
 ---
 description: 异常检测使用统计建模，自动查找数据中的意外趋势。此模型对量度进行分析，并确定值的下限、上限和预期范围。如果发生意外的尖峰或低谷，系统会在报表中进行警报。
-seo-description: 异常检测使用统计建模，自动查找数据中的意外趋势。此模型对量度进行分析，并确定值的下限、上限和预期范围。如果发生意外的尖峰或低谷，系统会在报表中进行警报。
-seo-title: 异常检测
 solution: Analytics
 title: 异常检测
-topic: Report Builder
+topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
