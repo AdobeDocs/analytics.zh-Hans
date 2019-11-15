@@ -1,11 +1,9 @@
 ---
 description: 将用户从旧版 Analytics 用户管理系统迁移到 Admin Console。
-seo-description: 将用户从旧版 Analytics 用户管理系统迁移到 Admin Console。
-seo-title: 为 Adobe ID 迁移 Analytics 用户帐户
 title: 为 Adobe ID 迁移 Analytics 用户帐户
 uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
