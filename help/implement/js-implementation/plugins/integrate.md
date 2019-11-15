@@ -1,10 +1,8 @@
 ---
 title: 集成模块
-seo-title: 用于 Adobe Analytics 的集成模块
 description: 借助集成模块，Adobe 合作伙伴可以将其数据收集工作与您的组织集成在一起。
-seo-description: 借助集成模块，Adobe 合作伙伴可以将其数据收集工作与您的组织集成在一起。
-translation-type: ht
-source-git-commit: dae73042ace20eded9d0caf690a14203827f903a
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -40,7 +38,7 @@ source-git-commit: dae73042ace20eded9d0caf690a14203827f903a
 
 在网站上实施集成模块要求具有访问 Adobe Experience Platform Launch 的权限。如果使用旧版 JavaScript 实施，则需要具有访问贵组织网站源代码的权限。
 
-1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com/cn)。
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)/cn。
 2. 单击要编辑的 Launch 属性。
 3. 单击“扩展”选项卡，然后单击 Adobe Analytics 下的“配置”。
 4. 打开“使用自定义代码配置跟踪器”折叠面板，然后单击“&lt;/&gt; 打开编辑器”。
