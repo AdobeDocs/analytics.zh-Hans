@@ -1,14 +1,12 @@
 ---
 description: 'null'
-keywords: Analytics 实施
-seo-description: 'null'
-seo-title: 实施 Adobe 选择退订
+keywords: Analytics Implementation
 solution: Analytics
 title: 实施 Adobe 选择退订
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: fc3a411c-8476-409d-99de-05b34ace5019
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
