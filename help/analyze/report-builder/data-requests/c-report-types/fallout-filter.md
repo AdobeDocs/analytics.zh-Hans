@@ -1,13 +1,11 @@
 ---
 description: 描述如何将过滤器应用到流失报表的步骤。
-seo-description: 描述如何将过滤器应用到流失报表的步骤。
-seo-title: 使用请求向导过滤流失报表
 solution: Analytics
 title: 使用请求向导过滤流失报表
-topic: Report Builder
+topic: Report builder
 uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -39,4 +37,4 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
    For more information on refining the filter, see [Filter Dimensions](/help/analyze/report-builder/layout/c-filter-dimensions/filter-dimensions.md). 1. Move **[!UICONTROL Available Elements]** from the left column to the right by selecting them and clicking the orange arrow.
 1. Click **[!UICONTROL OK]** three times, then click **[!UICONTROL Finish]**.
 
-   现在应当刷新了报表。
+   现在应当刷新了�
