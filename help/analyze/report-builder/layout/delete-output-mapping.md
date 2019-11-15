@@ -1,13 +1,11 @@
 ---
 description: 如果您正在编辑工作簿，并且希望为新请求腾出空间，可能需要删除请求。
-seo-description: 如果您正在编辑工作簿，并且希望为新请求腾出空间，可能需要删除请求。
-seo-title: 删除输出映射
 solution: Analytics
 title: 删除输出映射
-topic: Report Builder
-uuid: a6805800-4cb9-4cc-aada-198a15def643
+topic: Report builder
+uuid: a6805800-4cb9-4ccc-aada-198a15def643
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
