@@ -1,11 +1,9 @@
 ---
 description: 在计算量度管理器内，您可以设置一个工作流程，用于批准多个级别的应用程序和特定部门或群组的量度。
-seo-description: 在计算量度管理器内，您可以设置一个工作流程，用于批准多个级别的应用程序和特定部门或群组的量度。
-seo-title: 批准计算量度
 title: 批准计算量度
 uuid: df51252c-3121-4030-8a8c-566d557f28b2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
