@@ -1,13 +1,11 @@
 ---
 description: 在“报告和分析”中实施简化报告菜单的步骤。
-seo-description: 在“报告和分析”中实施简化报告菜单的步骤。
-seo-title: 简化的报表菜单
 solution: Analytics
 title: 简化的报表菜单
-topic: 管理工具
+topic: Admin tools
 uuid: cc7023e4-9e28-477e-9266-6d06e5379559
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
