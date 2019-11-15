@@ -1,14 +1,12 @@
 ---
 description: 帮助您解答导入器相关问题的资源。
-seo-description: 帮助您解答导入器相关问题的资源。
-seo-title: 有关分类的疑难解答
 solution: Analytics
-subtopic: 分类
+subtopic: Classifications
 title: 有关分类的疑难解答
-topic: 管理工具
+topic: Admin tools
 uuid: e8273635-28b7-4264-aca5-c5307f313e81
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
