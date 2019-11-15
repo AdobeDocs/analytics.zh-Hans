@@ -1,14 +1,12 @@
 ---
 description: '如果您想要跟踪其他信息，但没有足够的变量来跟踪，您现在可以访问其他eVar和成功事件 '
-keywords: Analytics 实施;evar;事件;evar 数量;evar 个数;事件数量
-seo-description: '如果您想要跟踪其他信息，但没有足够的变量来跟踪，您现在可以访问其他eVar和成功事件 '
-seo-title: 附加的 eVar 和事件
+keywords: Analytics Implementation;evars;events;evars number;how many evars;how many events
 solution: Analytics
 title: 附加的 eVar 和事件
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 6f53069b-6941-40f1-9db6-2d1839822b8f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
