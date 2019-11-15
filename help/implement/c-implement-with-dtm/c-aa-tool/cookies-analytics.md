@@ -1,13 +1,11 @@
 ---
 description: 用于在 Adobe Analytics 中部署动态标签管理的“Cookie”全局设置的字段描述。
-keywords: Dynamic Tag Management;Cookie;访客 ID;访客命名空间;域名句点;FP 域名句点;交易 ID;Cookie 生命周期
-seo-description: 用于在 Adobe Analytics 中部署动态标签管理的“Cookie”全局设置的字段描述。
-seo-title: Cookie
+keywords: Dynamic Tag Management;cookies;visitor id;visitor namespace;domain periods;fp domain periods;transaction id;cookie lifetime
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Cookie
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
 translation-type: tm+mt
-source-git-commit: 9b946238b48fa4532d136d2f7aa0187fdabd005b
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
