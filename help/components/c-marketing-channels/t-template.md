@@ -1,14 +1,12 @@
 ---
 description: 如何使用主报表包作为模板来测试您的营销渠道配置。为了节省时间，您可以在批量更新中将此模板应用于一个或多个生产报表包。您需要为渠道和规则集分别执行此任务。
-seo-description: 如何使用主报表包作为模板来测试您的营销渠道配置。为了节省时间，您可以在批量更新中将此模板应用于一个或多个生产报表包。您需要为渠道和规则集分别执行此任务。
-seo-title: 将模板报表包设置应用于多个报表包
 solution: Analytics
-subtopic: 营销渠道
+subtopic: Marketing channels
 title: 将模板报表包设置应用于多个报表包
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 212d16d7-fb0c-40c4-b8ff-a86c9a511a23
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
