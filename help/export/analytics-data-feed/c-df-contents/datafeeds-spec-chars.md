@@ -1,15 +1,13 @@
 ---
 description: 有关数据馈送中使用的特殊字符的信息。
-keywords: 数据馈送；作业；特殊字符；hit_data；多值变量；events_list;products_list;mvvars
-seo-description: 有关数据馈送中使用的特殊字符的信息。
-seo-title: 特殊字符
+keywords: Data Feed;job;special characters;hit_data;multi-valued variables;events_list;products_list;mvvars
 solution: Analytics
-subtopic: 数据馈送
+subtopic: data feeds
 title: 特殊字符
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
