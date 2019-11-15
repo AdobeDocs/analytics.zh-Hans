@@ -1,13 +1,11 @@
 ---
 description: 有关 iPad 应用程序的介绍。
-seo-description: 有关 iPad 应用程序的介绍。
-seo-title: 适用于 iOS 的 Adobe Analytics
 solution: Analytics
 title: 适用于 iOS 的 Adobe Analytics
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 45f91f5a-8ff1-44f0-8880-4c52f03a7b42
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
