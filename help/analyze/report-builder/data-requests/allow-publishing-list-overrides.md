@@ -1,13 +1,11 @@
 ---
 description: 计划报表时，您可以选择要用于分发的发布列表。
-seo-description: 计划报表时，您可以选择要用于分发的发布列表。
-seo-title: 允许发布列表覆盖
 solution: Analytics
 title: 允许发布列表覆盖
-topic: Report Builder
-uuid: f2cc9878-ab54-4c6f-8a88-3f3b57955e3
+topic: Report builder
+uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
