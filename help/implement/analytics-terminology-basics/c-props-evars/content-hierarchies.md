@@ -1,14 +1,12 @@
 ---
 description: 内容层级的常见用法是显示访客到达某个页面、级别等时经过的不同路径。
-keywords: Analytics 实施;内容层级;hier
-seo-description: 内容层级的常见用法是显示访客到达某个页面、级别等时经过的不同路径。
-seo-title: 内容层级计数
+keywords: Analytics Implementation;content hierachies;hier
 solution: Analytics
 title: 内容层级计数
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: d41df92d-65fb-44de-bf46-8fac24303dad
-translation-type: ht
-source-git-commit: 1bc1c7a1e00d7b59cd39f368ac9afb745bea9e47
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
