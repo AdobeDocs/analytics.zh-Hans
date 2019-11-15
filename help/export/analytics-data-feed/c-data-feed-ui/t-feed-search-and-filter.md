@@ -1,13 +1,11 @@
 ---
 description: 搜索和过滤功能可帮助您在列表中查找馈送。
-keywords: 数据馈送；搜索；过滤器；报表包；所有者；状态
-seo-description: 搜索和过滤功能可帮助您在列表中查找馈送。
-seo-title: 搜索和过滤
+keywords: Data Feed;search;filter;report suite;owner;status
 solution: Analytics
 title: 搜索和过滤
 uuid: 0d9e38ea-e681-4aa3-843a-d0221e88c177
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
