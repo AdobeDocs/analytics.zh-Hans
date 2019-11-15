@@ -1,11 +1,9 @@
 ---
 description: Analysis Workspace中的日期比较允许您选取包含日期范围的任何列并创建常见的日期比较，如年度比较、季度比较、月度比较等。
-seo-description: Analysis Workspace中的日期比较允许您选取包含日期范围的任何列并创建常见的日期比较，如年度比较、季度比较、月度比较等。
-seo-title: 日期比较
 title: 日期比较
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
