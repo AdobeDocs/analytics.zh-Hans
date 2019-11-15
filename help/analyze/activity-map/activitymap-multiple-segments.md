@@ -1,13 +1,11 @@
 ---
 description: 允许您在 Activity Map 中应用多区段过滤器。
-seo-description: 允许您在 Activity Map 中应用多区段过滤器。
-seo-title: 客户分段
 solution: Analytics
 title: 客户分段
-topic: Activity Map
+topic: Activity map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -16,9 +14,9 @@ source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 允许您在 Activity Map 中应用多区段过滤器。
 
-> [!NOTE] “细分”控件仅在标准模式下可用，因为Adobe Analytics平台不支持对实时数据进行分段。
+> [!NOTE] 区段控件仅在标准模式下可用，因为 Adobe Analytics 平台不支持对实时数据进行分段。
 
-您可以从下面显示的&#x200B;**[!UICONTROL 区段]下拉菜单中选择一个或多个区段。**&#x200B;列出的区段与您所拥有的区段或者通过“Reports &amp; Analytics”与您共享的区段（用于选定的报表包）相同。
+您可以从下面显示的&#x200B;**[!UICONTROL 区段]**&#x200B;下拉菜单中选择一个或多个区段。列出的区段与您所拥有的区段或者通过“Reports &amp; Analytics”与您共享的区段（用于选定的报表包）相同。
 
 ![](assets/segments.png)
 
@@ -28,4 +26,4 @@ source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ![](assets/two_segments.png)
 
-选定区段将被应用于 Activity Map 中存在的所有 Analytics 报表，例如叠加图、**[!UICONTROL 页面上的链接]**&#x200B;和&#x200B;**详细信息页面]报表。[!UICONTROL **
+选定区段将被应用于 Activity Map 中存在的所有 Analytics 报表，例如叠加图、**[!UICONTROL 页面上的链接]**&#x200B;和&#x200B;**[!UICONTROL 详细信息页面]**&#x200B;报表。
