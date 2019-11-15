@@ -1,14 +1,12 @@
 ---
 description: 未分类键值在分类报表中分在一起，作为标记为“无”的一行项目。可用于将“无”重命名为更具描述性的某些项目。
-seo-description: 未分类键值在分类报表中分在一起，作为标记为“无”的一行项目。可用于将“无”重命名为更具描述性的某些项目。
-seo-title: 未分类键
 solution: Analytics
-subtopic: 分类
+subtopic: Classifications
 title: 未分类键
-topic: 管理工具
+topic: Admin tools
 uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
