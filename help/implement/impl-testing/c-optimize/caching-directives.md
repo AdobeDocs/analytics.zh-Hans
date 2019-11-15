@@ -1,15 +1,13 @@
 ---
 description: JavaScript 库文件将在用户首次加载页面之后，被放入用户浏览器的缓存中。
-keywords: Analytics 实施
-seo-description: JavaScript 库文件将在用户首次加载页面之后，被放入用户浏览器的缓存中。
-seo-title: 缓存指令
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 故障诊断
+subtopic: Troubleshooting
 title: 缓存指令
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 6bd2c26d-93ee-4039-8beb-6a6b16218a07
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
