@@ -1,14 +1,12 @@
 ---
 description: 您可以结合使用分类规则生成器和子分类，以简化分类管理和减少所需的规则数量。如果您的跟踪代码中包含需要单独分类的代码，您可能需要此功能。
-seo-description: 您可以结合使用分类规则生成器和子分类，以简化分类管理和减少所需的规则数量。如果您的跟踪代码中包含需要单独分类的代码，您可能需要此功能。
-seo-title: 子分类和规则生成器 - 用例
 solution: Analytics
-subtopic: 分类
+subtopic: Classifications
 title: 子分类和规则生成器 - 用例
-topic: 管理工具
+topic: Admin tools
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -49,11 +47,11 @@ t_rule_builder_subclass.xml
 
 >[!NOTE]
 >
-> 这些步骤描述了如何完成子分类和规 [则构建器中描述的用例](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)。
+>这些步骤描述了如何完成子分类和规 [则构建器中描述的用例](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)。
 
 1. 在[分类管理器](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)中创建分类和子分类。
 
-   示例:
+   示例：
 
    ![步骤信息](assets/sub_class_create.png)
 
@@ -74,7 +72,7 @@ t_rule_builder_subclass.xml
 
    请参 [阅多级分类](/help/components/c-classifications2/c-sub-classifications.md)。
 
-   示例:
+   示例：
 
    | 键值 | 渠道 | 广泛促销活动代码 | 广泛的营销活动代码&amp;Hat；营销活动类型 | 广泛的营销活动代码&amp;Hat；营销活动总监 | ... |
    |---|---|---|---|---|---|
