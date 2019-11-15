@@ -1,13 +1,11 @@
 ---
-description: 用于描述如何在 Report Builder 中创建异常检测请求的步骤。
-seo-description: 用于描述如何在报表生成器中创建异常检测请求的步骤。
-seo-title: 配置异常检测请求
+description: 用于描述如何在报表生成器中创建异常检测请求的步骤。
 solution: Analytics
 title: 配置异常检测请求
-topic: Report Builder
+topic: Report builder
 uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
