@@ -1,13 +1,11 @@
 ---
 description: 显示包含单次点击的访问次数的百分比。
-seo-description: 显示包含单次点击的访问次数的百分比。
-seo-title: 跳出率
 solution: Analytics
 title: 跳出率
-topic: 量度
+topic: Metrics
 uuid: 9a5aba33-c16a-47db-b8d3-f66be6eb65be
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
