@@ -1,15 +1,13 @@
 ---
 description: Analytics 将每个有效的独特访客 ID 算作一个独特访客。
-keywords: Analytics 实施
-seo-description: Analytics 将每个有效的独特访客 ID 算作一个独特访客。
-seo-title: 访客
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 访客
+subtopic: Visitors
 title: 访客
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 16cfdb64-a3c6-4056-97da-3227cddcf1cd
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
