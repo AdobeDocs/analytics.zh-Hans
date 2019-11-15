@@ -1,14 +1,12 @@
 ---
 description: 配置用户群组对营销渠道的访问权限。
-seo-description: 配置用户群组对营销渠道的访问权限。
-seo-title: 配置用户群组访问权限
 solution: Analytics
-subtopic: 营销渠道
+subtopic: Marketing channels
 title: 配置用户群组访问权限
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: b85661af-5e33-4a92-a756-3589afb2f457
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
