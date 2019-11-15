@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Demandbase Data Connector for Adobe Analytics
 title: Demandbase Data Connector for Adobe Analytics
 uuid: 28fddb8f-06f6-4447-8257-4a59131bedbe
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -14,7 +12,7 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 此Adobe® Data Connectors集成将Demandbase的实时ID服务与Adobe Analytics的行为信息结合在一起，为B2B组织创造强大的分析、优化和内容个性化机会。
 
-根据预先确定的特性向潜在客户提供相关内容，驱动更多合格的销售线索并提高转化率。 提供与特定行业、公司规模甚至特定公司本身相关的内容使您能够直接向访客提供正确的信息，而无需依赖访客在您的网站上找到该信息。 这将减少退回次数并提供一个更健康、更合格的转化漏斗。
+根据预先确定的特性向潜在客户提供相关内容，驱动更多合格的销售线索并提高转化率。 提供与特定行业、公司规模甚至特定公司本身相关的内容使您能够直接向访客提供正确的信息，而无需依赖访客在您的网站上找到该信息。 这将减少退回次数，并提供一个更健康、更合格的转化漏斗。
 
 ## 主要优势和功能{#key-benefits-and-features}
 
