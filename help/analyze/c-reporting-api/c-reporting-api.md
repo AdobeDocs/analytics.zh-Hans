@@ -1,18 +1,16 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Analytics 报表 API
-title: Analytics 报表 API
-uuid: 68ec3400-6e47-46606-860d-dd5 e89 c574 a1
+title: Analytics Reporting API
+uuid: 68ec3490-6e47-4606-860d-dd5e89c574a1
 translation-type: tm+mt
-source-git-commit: e638903d4b08c5afea248c21dde14334d2af42f7
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Analytics 报表 API
+# Analytics Reporting API
 
-请参阅这些资源用于Analytics报告API。
+请参阅Analytics报告API的这些资源。
 
-* [Analytics 报表 API 比较](api-comparison.md)
+* [Analytics Reporting API 比较](api-comparison.md)
 * [https://github.com/AdobeDocs/analytics-2.0-apis](https://github.com/AdobeDocs/analytics-2.0-apis)
