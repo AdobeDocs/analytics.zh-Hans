@@ -1,14 +1,12 @@
 ---
 description: 可通过多种方法来实施 Adobe Analytics。
-keywords: Analytics 实施;实施方法;dynamic tag management;dtm;javascript
-seo-description: 可通过多种方法来实施 Adobe Analytics。
-seo-title: 选择实施方法
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;javascript
 solution: Analytics
 title: 选择实施方法
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 20d3317f-7c63-4421-93e0-fff60dbd9f87
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
