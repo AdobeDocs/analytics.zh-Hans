@@ -1,14 +1,12 @@
 ---
 description: 在您将相应数据复制到分类模板文件中之后，您可以导入（上载）到 Adobe 数据收集服务器。
-seo-description: 在您将相应数据复制到分类模板文件中之后，您可以导入（上载）到 Adobe 数据收集服务器。
-seo-title: 浏览器和 FTP 导入
 solution: Analytics
-subtopic: 分类
+subtopic: Classifications
 title: 浏览器和 FTP 导入
-topic: 管理工具
+topic: Admin tools
 uuid: a1d501be-6df0-4bc8-bb36-838e8d6744e3
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
