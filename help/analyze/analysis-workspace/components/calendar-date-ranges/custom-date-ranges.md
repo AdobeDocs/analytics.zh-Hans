@@ -1,14 +1,12 @@
 ---
 description: 在 Analysis Workspace 中创建自定义日期范围，并将它们另存为“时间”组件。
 keywords: Analysis Workspace
-seo-description: 在 Analysis Workspace 中创建自定义日期范围，并将它们另存为“时间”组件。
-seo-title: 创建自定义日期范围
 solution: Analytics
 title: 创建自定义日期范围
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
