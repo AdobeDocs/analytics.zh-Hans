@@ -1,11 +1,9 @@
 ---
 description: 计算量度权限在管理员级别的用户和非管理员用户之间有所不同。
-seo-description: 计算量度权限在管理员级别的用户和非管理员用户之间有所不同。
-seo-title: 计算的指标基于角色的权限
 title: 计算的指标基于角色的权限
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
