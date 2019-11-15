@@ -1,14 +1,12 @@
 ---
 description: 在访客资料与同一访客 ID 变量关联后进行合并时，历史数据集中的属性不会发生更改。
-keywords: Analytics 实施
-seo-description: 在访客资料与同一访客 ID 变量关联后进行合并时，历史数据集中的属性不会发生更改。
-seo-title: 属性和永久性
+keywords: Analytics Implementation
 solution: Analytics
 title: 属性和永久性
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
