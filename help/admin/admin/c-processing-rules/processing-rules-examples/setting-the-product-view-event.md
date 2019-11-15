@@ -1,19 +1,17 @@
 ---
 description: 可以基于页面值或变量中的特定值设置事件。
-seo-description: 可以基于页面值或变量中的特定值设置事件。
-seo-title: 从产品概述页面设置产品视图事件
 solution: Analytics
-subtopic: 处理规则
-title: 从产品概述页面设置产品视图事件
-topic: 管理工具
-uuid: ca7a077-dd47-460e-b14 d-fe10 c61 f97
+subtopic: Processing rules
+title: 在产品概述页面中设置产品视图事件
+topic: Admin tools
+uuid: caa7a077-dd47-460e-b14d-fe10c4e61f97
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 从产品概述页面设置产品视图事件
+# 在产品概述页面中设置产品视图事件
 
 可以基于页面值或变量中的特定值设置事件。
 
