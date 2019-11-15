@@ -1,14 +1,12 @@
 ---
 description: 此参考数据表定义您在“营销渠道处理规则”页面上可选择的字段、选项和点击属性。
-seo-description: 此参考数据表定义您在“营销渠道处理规则”页面上可选择的字段、选项和点击属性。
-seo-title: 营销渠道处理规则 - 定义
 solution: Analytics
-subtopic: 营销渠道
+subtopic: Marketing channels
 title: 营销渠道处理规则 - 定义
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 4e71ff5b-912a-4dc0-9c22-4be74c5e3cc0
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
