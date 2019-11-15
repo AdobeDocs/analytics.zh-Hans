@@ -1,13 +1,11 @@
 ---
 description: 只有使用SFTP连接和替代身份验证方法，才能在不使用密码的情况下连接到FTP帐户。 这涉及一个由两个文件（一个位于 FTP 帐户上，另一个位于您的计算机中）构成的组，被称为公钥和私钥组合。
 keywords: ftp;sftp
-seo-description: 只有使用SFTP连接和替代身份验证方法，才能在不使用密码的情况下连接到FTP帐户。 这涉及一个由两个文件（一个位于 FTP 帐户上，另一个位于您的计算机中）构成的组，被称为公钥和私钥组合。
-seo-title: 在无密码的情况下通过 SFTP 连接到 Adobe
 solution: Analytics
 title: 在无密码的情况下通过 SFTP 连接到 Adobe
 uuid: 88728309-50d2-450b-b0e6-7dcdf61b5dbc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
