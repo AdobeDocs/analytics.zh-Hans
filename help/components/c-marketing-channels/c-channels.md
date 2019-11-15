@@ -1,14 +1,12 @@
 ---
 description: 在营销渠道管理器中添加或启用营销渠道。 对于没有营销渠道的报表包，自动设置让您可以创建多个渠道及渠道规则。您可以编辑预定义渠道以满足您的需求，或创建您自己的渠道（最多 25 个）。
-seo-description: 在营销渠道管理器中添加或启用营销渠道。 对于没有营销渠道的报表包，自动设置让您可以创建多个渠道及渠道规则。您可以编辑预定义渠道以满足您的需求，或创建您自己的渠道（最多 25 个）。
-seo-title: 管理营销渠道
 solution: Analytics
-subtopic: 营销渠道
+subtopic: Marketing channels
 title: 管理营销渠道
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
