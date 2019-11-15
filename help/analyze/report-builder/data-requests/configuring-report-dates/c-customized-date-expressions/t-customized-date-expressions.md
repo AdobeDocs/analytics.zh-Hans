@@ -1,13 +1,11 @@
 ---
 description: 您可以通过构建自定义表达式指定复杂的日期范围。
-seo-description: 您可以通过构建自定义表达式指定复杂的日期范围。
-seo-title: 自定义的日期表达式 - 概述
 solution: Analytics
 title: 自定义的日期表达式 - 概述
-topic: Report Builder
+topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
