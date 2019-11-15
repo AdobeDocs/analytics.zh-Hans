@@ -1,12 +1,10 @@
 ---
 description: 描述通过集成实现的营销效率。
-seo-description: 描述通过集成实现的营销效率。
-seo-title: Lyris Data Connector for Adobe Analytics
 solution: Analytics
 title: Lyris Data Connector for Adobe Analytics
 uuid: db213865-1296-4a93-a0a2-781c026b2be5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
