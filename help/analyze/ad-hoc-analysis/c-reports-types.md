@@ -1,13 +1,11 @@
 ---
 description: Experience Cloud 中使用的报表类型的说明。
-seo-description: Experience Cloud 中使用的报表类型的说明。
-seo-title: 报表类型
 solution: Analytics
 title: 报表类型
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
