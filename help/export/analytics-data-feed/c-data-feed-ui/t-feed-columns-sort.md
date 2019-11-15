@@ -1,13 +1,11 @@
 ---
 description: 您可以确定哪些列可用，并根据需要对其进行排序。
-keywords: 数据馈送；列；列配置
-seo-description: 您可以确定哪些列可用，并根据需要对其进行排序。
-seo-title: 对列排序
+keywords: Data Feed;columns;columns configuration
 solution: Analytics
 title: 对列排序
 uuid: 97861aff-6395-48da-8eb4-aea67cd74005
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
