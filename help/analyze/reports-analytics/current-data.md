@@ -1,13 +1,12 @@
 ---
 description: Reports & Analytics 中的“包括当前数据”选项通常可让您在数据经过完全处理并完成前，查看最新的 Analytics 数据。当前数据会在数分钟内显示大部分量度，为快速制定决策提供可用数据。
-seo-title: 当前数据
 solution: Analytics
-subtopic: 当前数据
+subtopic: Current Data
 title: 当前数据
-topic: 报告
+topic: Reports
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
