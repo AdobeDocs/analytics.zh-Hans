@@ -1,14 +1,12 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Java
 solution: Analytics
-subtopic: 发行说明
+subtopic: Release notes
 title: Java
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 14d13bc6-984e-4ef4-a1d5-51326e652868
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
