@@ -1,12 +1,10 @@
 ---
 description: 计算量度和高级计算（或派生）量度是指您可以从现有量度创建的自定义量度。
-keywords: 计算量度；派生量度；高级计算量度
-seo-description: 计算量度和高级计算（或派生）量度是指您可以从现有量度创建的自定义量度。
-seo-title: 计算量度和高级计算（派生）量度
+keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: 计算量度和高级计算（派生）量度
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
