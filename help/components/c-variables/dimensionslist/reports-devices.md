@@ -1,13 +1,11 @@
 ---
 description: 显示用于访问您网站的移动设备的详细列表。
-seo-description: 显示用于访问您网站的移动设备的详细列表。
-seo-title: 设备
 solution: Analytics
 title: 设备
-topic: 报告
+topic: Reports
 uuid: b7ca4a3f-8646-42b8-82c8-ea4f809dc115
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
