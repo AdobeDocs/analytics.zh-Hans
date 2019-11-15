@@ -1,13 +1,11 @@
 ---
 description: 设置希望条件要触发的操作。
-keywords: Dynamic Tag Management;规则;创建规则;新规则;Javascript/第三方标记;设置条件对应的操作;添加新脚本;非连续 Javascript;连续 Javascript;非连续 HTML
-seo-description: 设置希望条件要触发的操作。
-seo-title: 设置条件要触发的操作
+keywords: Dynamic Tag Management;rule;create rule;new rule;javascript/third party tags;set up actions for condition;add new script;non-sequential javascript;sequential javascript;non-sequential html
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 设置条件要触发的操作
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
