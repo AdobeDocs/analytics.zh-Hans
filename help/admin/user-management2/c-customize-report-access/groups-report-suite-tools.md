@@ -1,15 +1,13 @@
 ---
 description: 启用 API 访问、报表包管理、工具和报表及功能板项目的用户权限。
-keywords: 用户组；权限
-seo-description: 启用 API 访问、报表包管理、工具和报表及功能板项目的用户权限。
-seo-title: 自定义报表包工具权限
+keywords: groups;permissions
 solution: Analytics
-subtopic: 用户和用户组
+subtopic: Users and groups
 title: 自定义报表包工具权限
-topic: 管理工具
+topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
