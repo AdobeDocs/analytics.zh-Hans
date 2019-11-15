@@ -1,11 +1,9 @@
 ---
 description: 关于服务器端转发相关特性、功能和问题的常见问题解答。
-seo-description: 关于服务器端转发相关特性、功能和问题的常见问题解答。
-seo-title: 服务器端转发常见问题解答
 title: 服务器端转发常见问题解答
 uuid: ecd0bc9b-ebf7-414e-88a2-ebba3fd75c92
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
