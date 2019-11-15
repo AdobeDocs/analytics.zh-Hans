@@ -1,13 +1,11 @@
 ---
 description: 识别单个产品和产品组（类别）对各项转化量度（如收入或结账）的贡献情况。
-seo-description: 识别单个产品和产品组（类别）对各项转化量度（如收入或结账）的贡献情况。
-seo-title: 产品
 solution: Analytics
 title: 产品
-topic: 报告
+topic: Reports
 uuid: a081352b-601a-43be-83ad-fa7f69890b49
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
