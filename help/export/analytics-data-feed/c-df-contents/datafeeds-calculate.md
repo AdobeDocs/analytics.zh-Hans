@@ -1,14 +1,12 @@
 ---
 description: 介绍如何使用数据馈送计算常见量度。
-keywords: 数据馈送；作业；度量；预列；后列；机器人程序；日期过滤；事件字符串；常用；公式
-seo-description: 介绍如何使用数据馈送计算常见量度。
-seo-title: 计算量度
+keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event string;common;formulas
 solution: Analytics
 title: 计算量度
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
