@@ -1,12 +1,10 @@
 ---
 description: 本主题介绍有关每个 Adobe Analytics 用户界面系统要求的详细信息。
-seo-description: 本主题介绍有关每个 Adobe Analytics 用户界面系统要求的详细信息。
-seo-title: 系统要求
 solution: Analytics
 title: 系统要求
 uuid: 320f3e77-69aa-4732-9228-fa32a9fe1a5c
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
