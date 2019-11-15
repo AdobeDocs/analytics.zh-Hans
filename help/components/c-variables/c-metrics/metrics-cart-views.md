@@ -1,13 +1,11 @@
 ---
 description: 客户查看购物车内容的事件。此值来自 scView 事件。
-seo-description: 客户查看购物车内容的事件。此值来自 scView 事件。
-seo-title: 购物车查看
 solution: Analytics
 title: 购物车查看
-topic: 量度
+topic: Metrics
 uuid: f51213ed-c396-4d6a-8f88-4ea870e5bfed
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
