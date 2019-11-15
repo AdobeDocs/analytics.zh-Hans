@@ -1,14 +1,12 @@
 ---
 description: 表示一系列的页面查看操作。访问量度通常用在显示选定时段内用户会话数量的报表中。
-keywords: 访问
-seo-description: 表示一系列的页面查看操作。访问量度通常用在显示选定时段内用户会话数量的报表中。
-seo-title: 访问
+keywords: visit
 solution: Analytics
 title: 访问
-topic: 量度
+topic: Metrics
 uuid: 91317487-f116-4546-8cd2-421418c49a7a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
