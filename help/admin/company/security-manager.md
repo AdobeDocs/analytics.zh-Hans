@@ -1,13 +1,11 @@
 ---
 description: 可让您控制对报表数据的访问。相关选项包括强密码、密码过期时间、IP 登录限制及电子邮件域限制。
-seo-description: 可让您控制对报表数据的访问。相关选项包括强密码、密码过期时间、IP 登录限制及电子邮件域限制。
-seo-title: 安全管理器
 solution: Analytics
 title: 安全管理器
-topic: 管理工具
-uuid: b3fbdba0-e2bf-4d67-92e3-ef0571141d4
+topic: Admin tools
+uuid: b3fbdba0-e2bf-4d67-92e3-ef05711141d4
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
