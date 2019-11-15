@@ -1,13 +1,11 @@
 ---
 description: 有关 Adobe Analytics 部署的自动配置的常见问题解答。自动配置方法可为您管理 AppMeasurement 代码。
-keywords: Dynamic Tag Management;插件;暂存;对当前设置的影响;修订历史记录;潜在风险;报表包 ID;货币代码;跟踪服务器;ssl 跟踪服务器;自定义代码;库管理
-seo-description: 有关 Adobe Analytics 部署的自动配置的常见问题解答。自动配置方法可为您管理 AppMeasurement 代码。
-seo-title: 关于 Adobe Analytics 工具的常见问题解答
+keywords: Dynamic Tag Management;plugins;staging;effect on current settings;revision history;potential pitfalls;report suite id;currency code;tracking server;ssl tracking server;custom code;library management
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 关于 Adobe Analytics 工具的常见问题解答
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
