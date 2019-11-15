@@ -1,14 +1,12 @@
 ---
 description: 在零点几秒内获取页面加载时间，并支持将该值存储在 prop、eVar 和/或数值事件中。
-keywords: Analytics 实施
-seo-description: 在零点几秒内获取页面加载时间，并支持将该值存储在 prop、eVar 和/或数值事件中。
-seo-title: getLoadTime
+keywords: Analytics Implementation
 solution: Analytics
 title: getLoadTime
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 5d26a69b-cbde-4be1-bac1-5ee8a4e55ca3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
