@@ -1,14 +1,12 @@
 ---
 description: 了解 Analysis Workspace 中的可视化和可视化设置。
 keywords: Analysis Workspace
-seo-description: 了解 Analysis Workspace 中的可视化和可视化设置。
-seo-title: 可视化概述
 solution: Analytics
 title: 可视化概述
-topic: Reports and Analytics
-uuid: 318dea64-6277-4ec3-ad48-4dfcb7a5455
+topic: Reports and analytics
+uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -51,7 +49,7 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
   </tr> 
   <tr> 
    <td colname="col1"> <p>100% 堆叠 </p> </td> 
-   <td colname="col2"> <p>堆叠的面积、堆叠的条形或堆叠的水平条形可视化上的此设置将图表变为“100% 堆叠”可视化。示例: </p> <p><img  src="assets/stacked_100_percent.png" placement="break" width="400px" id="image_1B60D53F7EB84571B1580BC3A1E603EE" /> </p> </td> 
+   <td colname="col2"> <p>堆叠的面积、堆叠的条形或堆叠的水平条形可视化上的此设置将图表变为“100% 堆叠”可视化。示例： </p> <p><img  src="assets/stacked_100_percent.png" placement="break" width="400px" id="image_1B60D53F7EB84571B1580BC3A1E603EE" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>图例可见 </p> </td> 
