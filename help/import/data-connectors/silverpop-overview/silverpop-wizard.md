@@ -1,11 +1,9 @@
 ---
 description: 数据连接器集成向导将指导您完成数据连接器集成过程。
-seo-description: 数据连接器集成向导将指导您完成数据连接器集成过程。
-seo-title: Silverpop集成
 title: Silverpop集成
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -116,7 +114,7 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
    <td colname="col3"> <p>此集成创建在“合作伙伴区段”部分中显示的合作伙伴定义的区段。 </p> <p>此外，您还可以选择要包含在集成中的现有报表包级别区段。 </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col2"> <p> 访问请求 </p> </td> 
+   <td colname="col2"> <p>访问请求 </p> </td> 
    <td colname="col03"> <p>（三）数据设置 </p> </td> 
    <td colname="col3"> <p> （必需）启用 <span class="uicontrol"> 允许此集成下载产品数据</span>。 </p> <p>可选：允许此集成下载收入、订单和件数。 </p> </td> 
   </tr> 
