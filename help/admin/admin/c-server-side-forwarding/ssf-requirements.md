@@ -1,12 +1,10 @@
 ---
 description: 您必须满足以下 Experience Cloud 解决方案、服务和代码要求，才能实施服务器端转发。这些要求还包括有关如何检查代码版本以及从何处获取最新代码库的说明。
-seo-description: 您必须满足以下 Experience Cloud 解决方案、服务和代码要求，才能实施服务器端转发。这些要求还包括有关如何检查代码版本以及从何处获取最新代码库的说明。
-seo-title: 服务器端转发要求
 solution: Audience Manager
 title: 服务器端转发要求
 uuid: e52c9292-b2ed-4782-9594-c813e4f894e1
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
