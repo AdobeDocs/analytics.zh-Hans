@@ -1,11 +1,9 @@
 ---
 description: 配置整体行为设置。例如，您可以配置自动保存、图表和表设置，以及指定字体和区域设置。
-seo-description: 配置整体行为设置。例如，您可以配置自动保存、图表和表设置，以及指定字体和区域设置。
-seo-title: 设置
 title: 设置
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
