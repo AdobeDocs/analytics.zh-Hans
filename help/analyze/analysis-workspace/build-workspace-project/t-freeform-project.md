@@ -1,14 +1,12 @@
 ---
 description: 创建一个项目并将组件（维度、量度、区段、日期范围）添加到自由格式面板。
 keywords: Analysis Workspace
-seo-description: 创建一个项目并将组件（维度、量度、区段、日期范围）添加到自由格式面板。
-seo-title: 创建 Workspace 项目
 solution: Analytics
 title: 创建 Workspace 项目
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
