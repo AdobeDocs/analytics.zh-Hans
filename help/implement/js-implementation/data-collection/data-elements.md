@@ -1,14 +1,12 @@
 ---
 description: 您可以将表单元素（例如单选按钮和复选框项目）的值捕获到报表中。这可帮助您分析在线表单中最受欢迎的选项。
-keywords: Analytics 实施
-seo-description: 您可以将表单元素（例如单选按钮和复选框项目）的值捕获到报表中。这可帮助您分析在线表单中最受欢迎的选项。
-seo-title: 从表单元素收集数据
+keywords: Analytics Implementation
 solution: Analytics
 title: 从表单元素收集数据
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: e0c13b96-e1ca-4744-a912-60ca2b8f25c3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
