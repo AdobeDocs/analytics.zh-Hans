@@ -1,14 +1,12 @@
 ---
 description: 通过同步可视化信息，您可以控制与可视化对应的数据表或数据源。
-keywords: Analysis Workspace；将可视化与数据源同步
-seo-description: 通过同步可视化信息，您可以控制与可视化对应的数据表或数据源。
-seo-title: 管理数据源
+keywords: Analysis Workspace;Synchronize visualization with data source
 solution: Analytics
 title: 管理数据源
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 7bacf497-a933-463a-bf9d-f6d0c5de0cba
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
