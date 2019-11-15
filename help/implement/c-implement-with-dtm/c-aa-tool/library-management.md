@@ -1,13 +1,11 @@
 ---
 description: 动态标签管理“库管理”设置中各个字段和选项的描述。
-keywords: 库管理;页面代码;库加载位置;由 Adobe 管理;自定义;托管代码;托管 s_code
-seo-description: 动态标签管理“库管理”设置中各个字段和选项的描述。
-seo-title: 库管理
+keywords: library management;page code;load library at;managed by adobe;custom;code hosted;s_code hosted
 solution: Experience Cloud,Dynamic Tag Management
 title: 库管理
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
