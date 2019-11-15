@@ -1,10 +1,8 @@
 ---
 title: PWA for Analytics
-seo-title: PWA for Analytics
 description: 用于Adobe Analytics的渐进式Web应用程序
-seo-description: 将PWA与Analytics结合使用
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
