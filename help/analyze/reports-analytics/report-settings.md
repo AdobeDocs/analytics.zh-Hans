@@ -1,13 +1,11 @@
 ---
 description: 定义所有报告的显示方式以及将默认菜单选项应用到简化菜单中其位置的信息的设置。
-seo-description: 定义所有报告的显示方式以及将默认菜单选项应用到简化菜单中其位置的信息的设置。
-seo-title: 报表显示设置和导航
 solution: Analytics
 title: 报表显示设置和导航
-topic: 报表, Reports and Analytics
+topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
