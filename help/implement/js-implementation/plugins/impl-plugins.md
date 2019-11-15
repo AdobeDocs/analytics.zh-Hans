@@ -1,15 +1,13 @@
 ---
 description: AppMeasurement for JavaScript 插件是执行多项高级功能的程序或功能。
-keywords: Analytics 实施
-seo-description: AppMeasurement for JavaScript 插件是执行多项高级功能的程序或功能。
-seo-title: 使用实施插件
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 插件
+subtopic: Plug-ins
 title: 使用实施插件
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 7ffcfe89-b7e2-45e4-b771-942d5ae07c39
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
