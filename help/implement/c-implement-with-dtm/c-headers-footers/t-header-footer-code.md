@@ -1,14 +1,12 @@
 ---
 description: 使用动态标签管理可添加页眉和页脚代码，以便确定 JavaScript 和页面内容在网站上的加载情况。无论使用何种托管选项，您都必须在网站的每个页面上同时安装页眉和页脚代码。
-keywords: Analytics 实施;实施方法;dynamic tag management;DTM;代码;页面代码;页眉代码;页脚代码;嵌入代码;嵌入选项卡;嵌入
-seo-description: 使用动态标签管理可添加页眉和页脚代码，以便确定 JavaScript 和页面内容在网站上的加载情况。无论使用何种托管选项，您都必须在网站的每个页面上同时安装页眉和页脚代码。
-seo-title: 添加页眉和页脚代码
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;code;page code;header code;footer code;embed code;embed tab;embed
 solution: Analytics
 title: 添加页眉和页脚代码
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
