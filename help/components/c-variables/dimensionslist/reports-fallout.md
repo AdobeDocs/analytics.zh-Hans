@@ -1,13 +1,11 @@
 ---
 description: 显示访客离开（流失）并继续浏览（途经）一系列预先指定顺序页面的位置。它可显示每个步骤之间的转化和流失比率。例如，您可以跟踪购买期间访客的流失点数。应选择开始点和结束点，然后添加中间点以创建网站导航路径。
-seo-description: 显示访客离开（流失）并继续浏览（途经）一系列预先指定顺序页面的位置。它可显示每个步骤之间的转化和流失比率。例如，您可以跟踪购买期间访客的流失点数。应选择开始点和结束点，然后添加中间点以创建网站导航路径。
-seo-title: 流失
 solution: Analytics
 title: 流失
-topic: 报告
+topic: Reports
 uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
