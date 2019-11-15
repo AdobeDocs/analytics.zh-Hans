@@ -1,14 +1,12 @@
 ---
 description: 对于每个数值 2 分类，导入和导出文件中都包含六个列。
-seo-description: 对于每个数值 2 分类，导入和导出文件中都包含六个列。
-seo-title: 导入数值 2 分类
 solution: Analytics
-subtopic: 分类
+subtopic: Classifications
 title: 导入数值 2 分类
-topic: 管理工具
+topic: Admin tools
 uuid: 82a3034c-e002-4991-900f-22dd45d54910
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -50,4 +48,4 @@ YYYY/MM/DD - YYYY/MM/DD
 * event2
 * 等
 
-**~~MyCost^~Hinge**:用于在细分期间分发值的事件。 This value is often the same as [!UICONTROL ~MyCost^~rate~], unless you are using [!UICONTROL fixed]. The valid values for this column are identical to that of [!UICONTROL ~MyCost^~rate~], with the addition of [!UICONTROL none
+**~~MyCost^~Hinge**:用于在细分期间分发值的事件。 This value is often the same as [!UICONTROL ~MyCost^~rate~], unless you are using [!UICONTROL fixed]. The valid values for this column are identical to that of [!UICONTROL ~MyCost^~rate~], with the addition of [!UICONTROL none].
