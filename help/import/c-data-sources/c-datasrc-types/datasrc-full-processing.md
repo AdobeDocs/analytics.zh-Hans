@@ -1,14 +1,12 @@
 ---
 description: 数据源在处理作为标准服务器调用的数据时，支持以下变量（普通 > 完全处理）。
-seo-description: 数据源在处理作为标准服务器调用的数据时，支持以下变量（普通 > 完全处理）。
-seo-title: 完全处理
 solution: Analytics
-subtopic: 数据源
+subtopic: Data sources
 title: 完全处理
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
