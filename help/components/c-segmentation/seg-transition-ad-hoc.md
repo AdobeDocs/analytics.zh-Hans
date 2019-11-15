@@ -1,14 +1,12 @@
 ---
 description: 如果您习惯于在 Ad Hoc Analysis 中使用区段生成器，那么此常见问题解答解释了现有区段和文件夹的情况以及需要采取哪些操作。
-keywords: 分段；段
-seo-description: 如果您习惯于在 Ad Hoc Analysis 中使用区段生成器，那么此常见问题解答解释了现有区段和文件夹的情况以及需要采取哪些操作。
-seo-title: 适用于 Ad Hoc Analysis 的过渡指南
+keywords: segmentation;segments
 solution: Analytics
 title: 适用于 Ad Hoc Analysis 的过渡指南
-topic: 区段
+topic: Segments
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
