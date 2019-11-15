@@ -1,13 +1,11 @@
 ---
 description: 报表包模板可为几种类型的报表包配置最常见的设置。
-seo-description: 报表包模板可为几种类型的报表包配置最常见的设置。
-seo-title: 报表包模板概述
 solution: Analytics
 title: 报表包模板概述
-topic: 管理工具
+topic: Admin tools
 uuid: 5717863f-208d-44b5-8bc5-c286beccf8ff
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
