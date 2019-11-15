@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: GDPR/e隐私合规性和服务器端转发
 title: GDPR/e隐私合规性和服务器端转发
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -32,7 +30,7 @@ When this new context variable, `cm.ssf=1`, exists on a hit, this hit gets flagg
 | DTM | 将上下文数据变量定义添加到自定义页面代码编辑器：<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注意：定义 contextdata 变量时，如果客户不同意进行目标营销，则将其设置为 1。如果客户同意进行目标营销，则将 contextdata 变量设置为 0。 |
 | AppMeasurement | 将上下文数据变量定义添加到 AppMeasurement.js 文件：<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注意：定义 contextdata 变量时，如果客户不同意进行目标营销，则将其设置为 1。如果客户同意进行目标营销，则将 contextdata 变量设置为 0。 |
 
-## 报表（可选） {#section_6AD4028EC11C4DABA2A34469DDC99E89}
+## Reporting (Optional) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
 您可以使用Adobe Analytics报告有多少流量是基于同意的，因此已转发到服务器端，有多少流量不是基于同意的且尚未转发到AAM。
 
