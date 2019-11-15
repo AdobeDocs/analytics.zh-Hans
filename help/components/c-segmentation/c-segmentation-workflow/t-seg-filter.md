@@ -1,13 +1,11 @@
 ---
 description: 按照标记、所有者和其他过滤器（全部显示、我的、已与我共享、收藏和已批准）进行过滤。
-seo-description: 按照标记、所有者和其他过滤器（全部显示、我的、已与我共享、收藏和已批准）进行过滤。
-seo-title: 过滤区段
 solution: Analytics
 title: 过滤区段
-topic: 区段
+topic: Segments
 uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
