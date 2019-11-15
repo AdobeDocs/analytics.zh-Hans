@@ -1,14 +1,12 @@
 ---
 description: AppMeasurement for JavaScript 的发行说明汇总。
-seo-description: AppMeasurement for JavaScript 的发行说明汇总。
-seo-title: AppMeasurement for JavaScript
 solution: Analytics
-subtopic: 发行说明
+subtopic: Release notes
 title: AppMeasurement for JavaScript
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
