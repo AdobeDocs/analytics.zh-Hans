@@ -1,13 +1,11 @@
 ---
 description: 这些报表显示有关访客使用的浏览器、操作系统、显示器分辨率等信息。
-seo-description: 这些报表显示有关访客使用的浏览器、操作系统、显示器分辨率等信息。
-seo-title: 技术
 solution: Analytics
 title: 技术
-topic: 报告
+topic: Reports
 uuid: 8e2f88dc-e1b9-428e-b0d3-faf4c063bebc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
