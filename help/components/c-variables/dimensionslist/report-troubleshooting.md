@@ -1,14 +1,12 @@
 ---
 description: Adobe Analytics 提供了一个灵活的报表界面，允许您生成各种复杂的报表。因为大多数报表的生成速度都非常快，所以您可能会遇到报表超时或无法成功生成的情况。为了有助于避免报表生成失败的情况，本节解释了影响报表生成速度的多种因素。了解此信息可帮助您构建报表，以便提高成功生成报表的几率。
-keywords: 最佳实践；失败；超时；疑难解答；慢
-seo-description: Adobe Analytics 提供了一个灵活的报表界面，允许您生成各种复杂的报表。因为大多数报表的生成速度都非常快，所以您可能会遇到报表超时或无法成功生成的情况。为了有助于避免报表生成失败的情况，本节解释了影响报表生成速度的多种因素。了解此信息可帮助您构建报表，以便提高成功生成报表的几率。
-seo-title: 报表最佳实践和疑难解答
+keywords: best practices;failure;timeout;troubleshooting;slow
 solution: Analytics
 title: 报表最佳实践和疑难解答
-topic: 报告
+topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
