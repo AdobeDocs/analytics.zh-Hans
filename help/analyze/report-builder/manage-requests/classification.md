@@ -1,13 +1,11 @@
 ---
 description: 分类划分用于将分析报表数据映射到相关属性。分类的用途广泛，但最常用于对促销活动跟踪代码（内部和外部）和产品 ID 进行分类。
-seo-description: 分类划分用于将分析报表数据映射到相关属性。分类的用途广泛，但最常用于对促销活动跟踪代码（内部和外部）和产品 ID 进行分类。
-seo-title: 分类
 solution: Analytics
 title: 分类
-topic: Report Builder
+topic: Report builder
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
