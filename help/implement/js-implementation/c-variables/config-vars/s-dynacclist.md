@@ -1,11 +1,10 @@
 ---
 description: 通过动态变量，您可以将一个变量中的值复制到另一个变量，而无需在网站上的图像请求中多次键入完整的值。
-keywords: Analytics 实施
-seo-description: 通过动态变量，您可以将一个变量中的值复制到另一个变量，而无需在网站上的图像请求中多次键入完整的值。
+keywords: Analytics Implementation
 solution: null
 title: 动态变量
 translation-type: tm+mt
-source-git-commit: 5d6ff87bd49140a974fcaaeed714d0f0b7d1e58b
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 5d6ff87bd49140a974fcaaeed714d0f0b7d1e58b
 
 > [!NOTE] 当前 `s.dynamicAccountList` AppMeasurement库中不 [支持该变量](../../c-appmeasurement-js/appmeasure-mjs.md)。 它仅用于传统AppMeasurement，如H代码。
 
-The `s.dynamicAccountList` variable is used to help dynamically determine a report suite to send data to. 它与和变量一 `dynamicAccountSelection` 起使 `dynamicAccountMatch` 用。 The rules in `dynamicAccountList` are applied if `dynamicAccountSelection` is set to `true`, and they apply to the section of the URL specified in `dynamicAccountMatch`.
+该 `s.dynamicAccountList` 变量用于帮助动态确定要将数据发送到的报表包。 它与和变量一 `dynamicAccountSelection` 起使 `dynamicAccountMatch` 用。 The rules in `dynamicAccountList` are applied if `dynamicAccountSelection` is set to `true`, and they apply to the section of the URL specified in `dynamicAccountMatch`.
 
 ## 语法和可能值
 
@@ -50,8 +49,8 @@ s.dynamicAccountList = "examplersid4=path4;examplersid5=path5";
 
 ## 缺陷、问题和提示
 
-* The rules listed in this variable are applied in a left-to-right order. If the `dynamicAccountMatch` variable matches more than one rule, the left-most rule is used to determine the report suite. As a result, place more generic rules to the right of the list.
+* 此变量中列出的规则按从左到右的顺序应用。If the `dynamicAccountMatch` variable matches more than one rule, the left-most rule is used to determine the report suite. 因此，在列表右侧放置更多通用规则。
 * If no rules match, the default report suite in `s_account` is used.
 * 如果将您的页面保存到某人的硬盘中或通过基于Web的翻译引擎（如Google的翻译页面）进行翻译，则动态帐户选择可能无效。
-* The `dynamicAccountSelection` rules apply only to the section of the URL specified in `dynamicAccountMatch`.
-* 使用 [!DNL Adobe Experience Cloud Debugger] 测试目标报表包。
+* `dynamicAccountSelection` 规则仅适用于 `dynamicAccountMatch` 中指定的 URL 部分。
+* Use the [!DNL Adobe Experience Cloud Debugger] to test the destination report suite.
