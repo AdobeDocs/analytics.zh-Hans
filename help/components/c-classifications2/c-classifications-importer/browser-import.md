@@ -1,14 +1,12 @@
 ---
 description: 您可以使用浏览器导入（上载）分类数据。此方法仅限将分类数据上载到单个报表包。
-seo-description: 您可以使用浏览器导入（上载）分类数据。此方法仅限将分类数据上载到单个报表包。
-seo-title: 浏览器导入
 solution: Analytics
-subtopic: 分类
+subtopic: Classifications
 title: 浏览器导入
-topic: 管理工具
+topic: Admin tools
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
