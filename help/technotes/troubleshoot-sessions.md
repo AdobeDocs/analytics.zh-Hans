@@ -1,10 +1,8 @@
 ---
 title: Adobe Analytics中的会话疑难解答
 description: 了解如何解决与注销Adobe Analytics相关的问题。
-seo-title: Adobe Analytics中的会话疑难解答
-seo-description: 了解如何解决与注销Adobe Analytics相关的问题。
 translation-type: tm+mt
-source-git-commit: 5df7bc43587deed41786f6c85f472fb6f908caf8
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
