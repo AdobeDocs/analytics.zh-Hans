@@ -1,13 +1,11 @@
 ---
 description: 维度是可以在报表中查看、划分和比较的量度数据的说明或特性。它们是原始报表类型量度分类、与之相关或子相关的非数值和日期。
-seo-description: 维度是可以在报表中查看、划分和比较的量度数据的说明或特性。它们是原始报表类型量度分类、与之相关或子相关的非数值和日期。
-seo-title: 维度
 solution: Analytics
 title: 维度
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
