@@ -1,13 +1,11 @@
 ---
 description: 为提供有关服务和产品（往往需要通过进一步参与来销售）信息的网站定义通用设置。
-seo-description: 为提供有关服务和产品（往往需要通过进一步参与来销售）信息的网站定义通用设置。
-seo-title: 商机拓展
 solution: Analytics
 title: 商机拓展
-topic: 管理工具
+topic: Admin tools
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
