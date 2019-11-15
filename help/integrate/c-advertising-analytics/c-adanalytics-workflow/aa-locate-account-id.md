@@ -1,11 +1,9 @@
 ---
 description: 以下说明可帮助您找到Google和Bing的帐户ID。
-seo-description: 以下说明可帮助您找到Google和Bing的帐户ID。
-seo-title: 查找帐户 ID
 title: 查找帐户 ID
 uuid: 34f9bb8d-84b4-4890-9200-c926d0abb1d6
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
