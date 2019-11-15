@@ -1,14 +1,12 @@
 ---
 description: 用于根据 page_event 值确定点击来源的对照表。
-keywords: 数据馈送；点击；source
-seo-description: 用于根据 page_event 值确定点击来源的对照表。
-seo-title: 点击来源对照
+keywords: Data Feed;hit;source
 solution: Analytics
 title: 点击来源对照
-topic: Reports & Analytics
-uuid: b4ef2366-a7 c3-421b-8dc6-279706fe277 f
+topic: Reports and analytics
+uuid: b4ef2366-a7c3-421b-8dc6-279706fe277f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
