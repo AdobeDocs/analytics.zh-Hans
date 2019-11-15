@@ -1,10 +1,8 @@
 ---
 description: 安装旧版Adobe Experience Cloud调试器。 此调试器检查Analytics、Target、Advertising Cloud、Identity Service、DTM和Launch的标记。
-seo-description: 安装旧版Adobe Experience Cloud调试器。 此调试器检查Analytics、Target、Advertising Cloud、Identity Service、DTM和Launch的标记。
-seo-title: 旧版Adobe Experience cloud调试器
 title: 旧版Adobe Experience cloud调试器
 translation-type: tm+mt
-source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -51,30 +49,30 @@ javascript:void(window.open("","stats_debugger","width=800,height=800,location=0
 
 Edge无法手动创建书签，但可以编辑书签URL。
 
-1. Click the star icon on the right side of the URL field to bookmark the current page.
+1. 单击URL字段右侧的星形图标，将当前页面加入书签。
 2. 将书签命名为“Adobe Experience Cloud Debugger”，并将其保存到所需位置。
-3. Click the star icon with lines to open the Favorites bar.
-4. Right click the newly created bookmark, the select 'Edit URL'.
-5. Paste the code snippet in the text field, then hit Enter.
+3. 单击带有线条的星形图标以打开“收藏夹”栏。
+4. 右键单击新创建的书签，选择“编辑URL”。
+5. 将代码片断粘贴到文本字段中，然后点击Enter。
 
 #### Safari
 
-Safari does not have the ability to manually create a bookmarklet, but a bookmark URL can be edited.
+Safari无法手动创建书签，但可以编辑书签URL。
 
-1. Click the Share icon in the top right, which opens a bookmark modal window.
-2. Name the bookmark "Adobe Experience Cloud Debugger", and save it in the desired location.
-3. Click Bookmarks &gt; Edit Bookmarks, and locate the newly created bookmark.
-4. Right click &gt; Edit Address, then paste the code snippet into text field.
+1. 单击右上方的“共享”图标，打开书签模式窗口。
+2. 将书签命名为“Adobe Experience Cloud Debugger”，并将其保存到所需位置。
+3. 单击“书签”&gt;“编辑书签”，然后找到新创建的书签。
+4. 右键单击&gt;编辑地址，然后将代码片断粘贴到文本字段中。
 
-## Using the legacy debugger
+## 使用传统调试器
 
-To use the debugger, navigate to the desired page on your site, then click the bookmarklet. A pop-up window appears, showing data sent to Adobe.
+要使用调试器，请导航到站点上所需的页面，然后单击书签。 出现一个弹出窗口，显示发送到Adobe的数据。
 
-> [!NOTE] 某些广告阻止插件和弹出窗口阻止程序可能会干扰调试器窗口的加载。 Check for blocked pop-ups in your browser, and allow them so the debugger can work correctly.
+> [!NOTE] 某些广告阻止插件和弹出窗口阻止程序可能会干扰调试器窗口的加载。 检查浏览器中阻止的弹出窗口，并允许它们，以便调试器能够正确工作。
 
-调试器具有多个可用选项，所有选项都可自定义数据的显示方式。 None of these options affect data collection.
+调试器具有多个可用选项，所有选项都可自定义数据的显示方式。 这些选项均不影响数据收集。
 
-* **** Displayed Experience Cloud products: Shows or hides image requests for each respective Experience Cloud product.
+* **** 显示的Experience cloud产品：显示或隐藏每个Experience cloud产品的图像请求。
 * **** URL解码：URL会解码图像请求以匹配报告中显示的内容。 Adobe建议选中此框。
 * **** 自动刷新：每隔几秒自动刷新弹出窗口，以检查页面上是否有更多图像请求。 如果需要在调试器中复制／粘贴内容，请禁用自动刷新，以便保持选择。
 * **** 友好格式：在图像请求中的有用标签和原始查询字符串之间切换显示格式。 有关详 [细信息，请参阅数据收集查询参数](../js-implementation/data-collection/query-parameters.md) 。
