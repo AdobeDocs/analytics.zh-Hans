@@ -1,13 +1,11 @@
 ---
 description: 数据馈送用户界面可通过“”管理员选项卡访问。
-keywords: 数据馈送；数据馈送登陆页；馈送列表
-seo-description: 数据馈送用户界面可通过“”管理员选项卡访问。
-seo-title: 打开数据馈送界面
+keywords: Data Feed;data feed landing page;feeds list
 solution: Analytics
 title: 打开数据馈送界面
 uuid: d4a1aa01-603b-423e-b5ed-9091c39aa14b
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
