@@ -1,13 +1,11 @@
 ---
 description: “查找方法”页面可识别各种查找方法报表在网站上接收转化成功事件信用的方式。例如，如果某个搜索引擎引荐一个访客到您的网站购物，“查找方法”可指定该搜索引擎如何接收反向链接的信用。
-seo-description: “查找方法”页面可识别各种查找方法报表在网站上接收转化成功事件信用的方式。例如，如果某个搜索引擎引荐一个访客到您的网站购物，“查找方法”可指定该搜索引擎如何接收反向链接的信用。
-seo-title: 查找方法
 solution: Analytics
 title: 查找方法
-topic: 管理工具
-uuid: 1053993e-7fc4-4874-84fa-367ecd7b45
+topic: Admin tools
+uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
