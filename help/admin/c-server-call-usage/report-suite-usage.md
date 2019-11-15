@@ -1,11 +1,9 @@
 ---
 description: “报表包使用情况”选项卡提供与您的账单公司关联的所有登录公司所具有的各个报表包在当前使用时段内的服务器调用使用情况数据。
-seo-description: “报表包使用情况”选项卡提供与您的账单公司关联的所有登录公司所具有的各个报表包在当前使用时段内的服务器调用使用情况数据。
-seo-title: 查看报表包使用情况
 title: 查看报表包使用情况
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
