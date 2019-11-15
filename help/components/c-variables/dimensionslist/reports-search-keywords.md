@@ -1,13 +1,11 @@
 ---
 description: 显示搜索关键词的划分。
-seo-description: 显示搜索关键词的划分。
-seo-title: 搜索关键词
 solution: Analytics
 title: 搜索关键词
-topic: 报表
-uuid: db9d477b-b711-4b93-9c25-3aebis5 f2 ace6
+topic: Reports
+uuid: db9d477b-b711-4b93-9c25-3aebe5f2ace6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -24,7 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!IMPORTANT]
 >
->对于付费和自然搜索，搜索引擎停止提供(在大多数情况下)作为引介的一部分的搜索关键字。因此，Adobe 始终会将 Google（或 Bing、Yahoo）域分类为搜索。根据反向链接的格式和内容（甚至不含关键词），Adobe 通常可确定它是否为搜索的结果，因此搜索将在没有关键词的情况下进行计数。[更多信息...](https://helpx.adobe.com/analytics/kb/keyword-unavailable.html)
+>对于付费和自然搜索，搜索引擎停止（在大多数情况下）作为引用的一部分提供搜索关键字。 因此，Adobe 始终会将 Google（或 Bing、Yahoo）域分类为搜索。根据反向链接的格式和内容（甚至不含关键词），Adobe 通常可确定它是否为搜索的结果，因此搜索将在没有关键词的情况下进行计数。[更多信息...](https://helpx.adobe.com/analytics/kb/keyword-unavailable.html)
 
 ## 分配、过期和特殊值 {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
 
