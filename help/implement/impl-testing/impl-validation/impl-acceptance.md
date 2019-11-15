@@ -1,14 +1,12 @@
 ---
 description: 实施流程步骤。
-keywords: Analytics 实施
-seo-description: 实施流程步骤。
-seo-title: 实施验收
+keywords: Analytics Implementation
 solution: Analytics
 title: 实施验收
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 6f7ec56e-9e4f-4dc8-b534-92b1580b5b47
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
