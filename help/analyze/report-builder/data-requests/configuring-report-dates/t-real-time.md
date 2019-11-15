@@ -1,13 +1,11 @@
 ---
 description: 用于描述如何配置实时请求日期的步骤。
-seo-description: 用于描述如何配置实时请求日期的步骤。
-seo-title: 配置实时请求
 solution: Analytics
 title: 配置实时请求
-topic: Report Builder
+topic: Report builder
 uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
