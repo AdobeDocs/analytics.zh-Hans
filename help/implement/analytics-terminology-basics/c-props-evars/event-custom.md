@@ -1,14 +1,12 @@
 ---
 description: 自定义事件可让您定义要跟踪的成功类型。
-keywords: Analytics 实施;自定义事件
-seo-description: 自定义事件可让您定义要跟踪的成功类型。
-seo-title: 什么是自定义事件？
+keywords: Analytics Implementation;custom event
 solution: Analytics
 title: 什么是自定义事件？
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 8e78ba04-9b4c-4566-980c-c24dd9d82236
-translation-type: ht
-source-git-commit: d7056c233e784a073c75c55f396ff43c9e0d1c71
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
