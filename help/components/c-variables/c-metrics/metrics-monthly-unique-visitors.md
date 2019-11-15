@@ -1,13 +1,11 @@
 ---
 description: 一个月内访问您网站的非重复（只计数一次）的访客数。
-seo-description: 一个月内访问您网站的非重复（只计数一次）的访客数。
-seo-title: 每月独特访客
 solution: Analytics
 title: 每月独特访客
-topic: 量度
-uuid: b11555b6-b4 df-4edf-ba2 c-2f31655656 f6
+topic: Metrics
+uuid: b11555b6-b4df-4ebf-ba2c-2f31651256f6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
