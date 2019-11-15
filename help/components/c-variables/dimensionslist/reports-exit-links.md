@@ -1,13 +1,11 @@
 ---
 description: 显示人们最常单击的、导向网站外部的链接。这些链接通常指向合作伙伴或附属网站。但是，它们可以是您实施外部链接的任意位置。您可以使用此报表来查看最热门的附属链接，或帮助验证您的合作伙伴声称您提供的反向链接数量。
-seo-description: 显示人们最常单击的、导向网站外部的链接。这些链接通常指向合作伙伴或附属网站。但是，它们可以是您实施外部链接的任意位置。您可以使用此报表来查看最热门的附属链接，或帮助验证您的合作伙伴声称您提供的反向链接数量。
-seo-title: '退出链接 '
 solution: Analytics
 title: '退出链接 '
-topic: 报告
+topic: Reports
 uuid: e1452f04-389d-4aa3-8763-732880284302
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
