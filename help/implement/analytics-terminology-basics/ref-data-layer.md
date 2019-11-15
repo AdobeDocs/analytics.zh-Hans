@@ -1,14 +1,12 @@
 ---
 description: “数据层”是指开发人员插入页面的一种 JavaScript 对象框架。
-keywords: Analytics 实施;数据层;digitalData
-seo-description: “数据层”是指开发人员插入页面的一种 JavaScript 对象框架。数据层可供跟踪工具（包括诸如动态标签管理之类的标签管理系统）用来填充报表。
-seo-title: 数据层
+keywords: Analytics Implementation;data layer;digitalData
 solution: Analytics
 title: 数据层
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: dedb2a50-06f3-4354-8993-a25d4952ce1e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
