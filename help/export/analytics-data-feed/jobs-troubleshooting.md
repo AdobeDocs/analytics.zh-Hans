@@ -1,13 +1,11 @@
 ---
 description: 出现错误时，“作业状态”栏会报告错误。
-keywords: 数据馈送；作业；疑难解答；错误；ftp;chdir;connect；登录；上传
-seo-description: 出现错误时，“作业状态”栏会报告错误。
-seo-title: 作业疑难解答
+keywords: Data Feed;job;troubleshooting;error;ftp;chdir;connect;login;put
 solution: Analytics
 title: 作业疑难解答
 uuid: 8fbb914e-03db-434e-b4d3-8594144ff2b7
 translation-type: tm+mt
-source-git-commit: ee9a6462138fe3483ca8a4ba042cb4eb39536031
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
