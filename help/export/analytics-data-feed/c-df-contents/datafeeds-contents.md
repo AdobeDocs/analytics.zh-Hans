@@ -1,15 +1,13 @@
 ---
 description: 本节介绍数据馈送提交中包含的文件。
-keywords: 数据馈送；作业；内容；清单；文件；查找；点击数据；交付内容
-seo-description: 本节介绍数据馈送提交中包含的文件。
-seo-title: 数据馈送内容 - 概述
+keywords: Data Feed;job;contents;manifest;file;lookup;hit data;delivery contents
 solution: Analytics
-subtopic: 数据馈送
+subtopic: data feeds
 title: 数据馈送内容 - 概述
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 translation-type: tm+mt
-source-git-commit: 4ce92a400c6590ce7c891155f404b64f0808bcb8
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
