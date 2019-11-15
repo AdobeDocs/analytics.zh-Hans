@@ -1,13 +1,11 @@
 ---
 description: 显示有关网站的量化信息，如访客查看某个页面的次数、从特定页面进行的购买总数、访客进入网站的时间及其他类似的量化数据。其中每个报表都是一个量度，您可以将其放在其他基于项目的报表中。
-seo-description: 显示有关网站的量化信息，如访客查看某个页面的次数、从特定页面进行的购买总数、访客进入网站的时间及其他类似的量化数据。其中每个报表都是一个量度，您可以将其放在其他基于项目的报表中。
-seo-title: 网站量度报表
 solution: Analytics
 title: 网站量度报表
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
