@@ -1,11 +1,9 @@
 ---
 description: 将 Ad Hoc Analysis 术语和任务与 Analysis Workspace 进行比较。
-seo-description: 将 Ad Hoc Analysis 术语和任务与 Analysis Workspace 进行比较。
-seo-title: Analysis Workspace 与 Ad Hoc Analysis 的比较
 title: Analysis Workspace 与 Ad Hoc Analysis 的比较
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
