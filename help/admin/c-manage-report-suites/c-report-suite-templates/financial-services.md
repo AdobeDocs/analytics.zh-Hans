@@ -1,13 +1,11 @@
 ---
 description: 为提供在线服务的银行或其他机构定义通用设置。
-seo-description: 为提供在线服务的银行或其他机构定义通用设置。
-seo-title: 金融服务
 solution: Analytics
 title: 金融服务
-topic: 管理工具
+topic: Admin tools
 uuid: a321b409-24a4-4d9f-9aac-65761261e991
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
