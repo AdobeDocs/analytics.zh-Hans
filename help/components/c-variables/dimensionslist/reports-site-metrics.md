@@ -1,13 +1,11 @@
 ---
 description: 网站量度报表显示有关网站的量化信息。例如，它们显示访客查看页面的次数、从特定页面实施的购买次数、在页面上花费的时间、收入和类似量化数据。其中每个报表都是一个量度，您可以将其放在其他基于项目的报表中。
-seo-description: 网站量度报表显示有关网站的量化信息。例如，它们显示访客查看页面的次数、从特定页面实施的购买次数、在页面上花费的时间、收入和类似量化数据。其中每个报表都是一个量度，您可以将其放在其他基于项目的报表中。
-seo-title: 网站量度
 solution: Analytics
 title: 网站量度
-topic: 报告
+topic: Reports
 uuid: a7bec7f5-7dc7-4124-b61d-2faa3d4f3a8e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
