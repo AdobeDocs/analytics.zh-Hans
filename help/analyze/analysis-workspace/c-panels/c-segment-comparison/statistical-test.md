@@ -1,14 +1,12 @@
 ---
 description: 排名最前的每个比较表都会显示一个差异分数，该分数由若干统计测试根据所做的比较计算得出；但是，无论使用哪个测试，差异分数都显示为一个介于 0 到 1 之间的值。
-keywords: Analysis Workspace；细分IQ
-seo-description: 排名最前的每个比较表都会显示一个差异分数，该分数由若干统计测试根据所做的比较计算得出；但是，无论使用哪个测试，差异分数都显示为一个介于 0 到 1 之间的值。
-seo-title: 细分比较中使用的统计测试
+keywords: Analysis Workspace;Segment IQ
 solution: Analytics
 title: 细分比较中使用的统计测试
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: c3f52470-5bfc-4e6b-8638-1c142b08d013
 translation-type: tm+mt
-source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
