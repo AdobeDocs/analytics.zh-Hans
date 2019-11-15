@@ -1,13 +1,11 @@
 ---
 description: 创建用于确定在哪些页面上触发规则的规则。
-keywords: Dynamic Tag Management;规则;创建规则;新规则;页面加载规则
-seo-description: 创建用于确定在哪些页面上触发规则的规则。
-seo-title: 为页面加载规则创建条件
+keywords: Dynamic Tag Management;rule;create rule;new rule;page load rule
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 为页面加载规则创建条件
 uuid: 30a6c69f-56e7-414e-9636-64c262e7ccd4
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
