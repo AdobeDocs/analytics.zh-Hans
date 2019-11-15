@@ -1,14 +1,12 @@
 ---
 description: 客户有责任测试 .JS 文件或 HTML 代码的任何修改。这一测试应当在修改被发布到制作的网站之前完成。
-keywords: Analytics 实施
-seo-description: 客户有责任测试 .JS 文件或 HTML 代码的任何修改。这一测试应当在修改被发布到制作的网站之前完成。
-seo-title: 代码修改
+keywords: Analytics Implementation
 solution: Analytics
 title: 代码修改
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: efac045e-15f5-45f6-a21a-de6c4b0a8185
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
