@@ -1,18 +1,16 @@
 ---
-description: 此Adobe® Data Connectors™电子邮件集成将Analytics®的行为信息与emarsys电子邮件营销相结合，从而创建出一个功能强大的工具，用于重新定义成功衡量并通过更相关的消息定位受众。
-seo-description: 此Adobe® Data Connectors™电子邮件集成将Analytics®的行为信息与emarsys电子邮件营销相结合，从而创建出一个功能强大的工具，用于重新定义成功衡量并通过更相关的消息定位受众。
-seo-title: Adobe Analytics的Emarsys Data Connector
+description: 此Adobe® Data Connectors™电子邮件集成将Analytics®的行为信息与emarsys电子邮件营销相结合，创建出一个功能强大的工具，用于重新定义成功衡量并通过更相关的消息定位受众。
 title: Adobe Analytics的Emarsys Data Connector
 uuid: 6f2fbabc-dc6c-4975-887d-ec22eba42f9e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Emarsys Data Connector for Adobe Analytics{#emarsys-data-connector-for-adobe-analytics}
 
-此Adobe® Data Connectors™电子邮件集成将Analytics®的行为信息与emarsys电子邮件营销相结合，从而创建出一个功能强大的工具，用于重新定义成功衡量并通过更相关的消息定位受众。
+此Adobe® Data Connectors™电子邮件集成将Analytics®的行为信息与emarsys电子邮件营销相结合，创建出一个功能强大的工具，用于重新定义成功衡量并通过更相关的消息定位受众。
 
 向这些市场领域提供相关电子邮件可能会带来全新的收入机会，从而在新电子邮件和现有电子邮件营销活动中提高转化率和收入。 例如，根据访问期间查看的产品或放弃购物车中的产品发送相关电子邮件已证明对收入产生显着影响，并且对成本的影响最小，因为这只是利用您的网站已获得的访客。
 
