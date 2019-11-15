@@ -1,14 +1,12 @@
 ---
 description: Marketing Cloud 中可使用多种类型的变量。其中两种最常见的类型 Prop 和 eVar，允许您的组织对网站报告自定义维度，而标准的现成报表则无法提供此功能。
-keywords: Analytics 实施;prop;eVar;prop 与 eVar;命名约定;流量变量;永久性;成功事件;路径分析
-seo-description: Marketing Cloud 中可使用多种类型的变量。其中两种最常见的类型 Prop 和 eVar，允许您的组织对网站报告自定义维度，而标准的现成报表则无法提供此功能。
-seo-title: 比较 Prop 和 eVar
+keywords: Analytics Implementation;prop;evar;props vs evars;naming convention;traffic variables;persistence;success event;pathing
 solution: Analytics
 title: 比较 Prop 和 eVar
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 0f02760f-ff69-481c-a817-799f02dafe8e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
