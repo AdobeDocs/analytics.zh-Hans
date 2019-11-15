@@ -1,13 +1,11 @@
 ---
 description: 介绍如何创建报表包以及如何将报表包的设置复制到新报表包的步骤。
-seo-description: 介绍如何创建报表包以及如何将报表包的设置复制到新报表包的步骤。
-seo-title: 创建报表包
 solution: Analytics
 title: 创建报表包
-topic: 管理工具
-uuid: fada5b10-f574-4c3f-8704-679c992fc88
+topic: Admin tools
+uuid: fada5b10-f574-4c3f-8704-679c9992fc88
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
