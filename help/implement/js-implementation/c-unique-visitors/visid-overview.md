@@ -1,15 +1,13 @@
 ---
 description: Adobe 使用 Cookie 来跟踪独特的浏览器/设备。
-keywords: Analytics 实施
-seo-description: Adobe 使用 Cookie 来跟踪独特的浏览器/设备。
-seo-title: 识别独特访客
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 访客
+subtopic: Visitors
 title: 识别独特访客
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
