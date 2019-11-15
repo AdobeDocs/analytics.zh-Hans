@@ -1,11 +1,9 @@
 ---
 description: 显示从移动设备所访问的网站的相关信息。移动设备报表收集有关用于查看网站的移动设备的数据，从而改进访客识别。移动设备报表可以确定设备的制造商和功能，如屏幕大小、视频、音频，Cookie 支持及其他量度等。移动设备报表可用于所有报表包。
-seo-description: 显示从移动设备所访问的网站的相关信息。移动设备报表收集有关用于查看网站的移动设备的数据，从而改进访客识别。移动设备报表可以确定设备的制造商和功能，如屏幕大小、视频、音频，Cookie 支持及其他量度等。移动设备报表可用于所有报表包。
-seo-title: 移动设备报表
 title: 移动设备报表
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
