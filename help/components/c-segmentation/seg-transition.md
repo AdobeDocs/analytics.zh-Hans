@@ -1,14 +1,12 @@
 ---
 description: 'null'
-keywords: 分段；段
-seo-description: 'null'
-seo-title: 常见问题解答
+keywords: segmentation;segments
 solution: Analytics
 title: 常见问题解答
-topic: 区段
-uuid: f49dc829-1d53-4183-9add-1aea5219d89
+topic: Segments
+uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
