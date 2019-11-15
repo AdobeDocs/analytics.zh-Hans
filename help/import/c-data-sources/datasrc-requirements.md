@@ -1,14 +1,12 @@
 ---
 description: 有关使用数据源之前的报表包要求的信息。
-seo-description: 有关使用数据源之前的报表包要求的信息。
-seo-title: 要求和上载限制
 solution: Analytics
-subtopic: 数据源
+subtopic: Data sources
 title: 要求和上载限制
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
