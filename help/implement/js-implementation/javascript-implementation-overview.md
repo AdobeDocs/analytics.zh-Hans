@@ -1,14 +1,12 @@
 ---
 description: 要开始使用 Analytics，必须将数据发送到报表包才能在报表中进行显示。
-keywords: Analytics 实施;Javascript;Javascript 实施;Appmeasurement;下载 Appmeasurement;Identity Service;visitorapi.js;缓存;Appmeasurement 压缩
-seo-description: 要开始使用 Analytics，必须将数据发送到报表包才能在报表中进行显示。
-seo-title: JavaScript 实施概述
+keywords: Analytics Implementation;javascript;javascript implementation;appmeasurement;download appmeasurement;Identity Service;visitorapi.js;caching;appmeasurement compression
 solution: Analytics
 title: JavaScript 实施概述
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: bb661d8c-faf9-4454-ac3c-0c1a4c0a9336
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
