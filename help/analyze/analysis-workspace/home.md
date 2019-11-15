@@ -1,14 +1,12 @@
 ---
 description: 如何开始使用Adobe Analytics。
 keywords: Analysis Workspace
-seo-description: 如何开始使用Adobe Analytics。
-seo-title: 入门指南
 solution: Analytics
 title: 入门指南
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 851feadb-5e30-45ab-9f66-02bdf844fa54
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -94,7 +92,7 @@ Analysis Workspace是Adobe的旗舰工具之一，可为您的组织制定基于
 * [工作区UI的详细信息](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md):现在您已创建了基本报告，因此对界面的其余部分更加熟悉。
 * [工作区中的可视化](visualizations/freeform-analysis-visualizations.md):自由格式表只是Analysis Workspace中的一种可视化类型。 了解如何使用其他可视化，如线图、条形图和地理地图。
 * [工作区中的尺寸](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md):了解更多关于维度以及如何在排名报告中使用维度的信息。
-* [Workspace中的指标](/help/analyze/analysis-workspace/components/apply-create-metrics.md):进一步了解什么是指标以及如何在自由形式表的其他部分中使用它们。
+* [Workspace中的指标](/help/analyze/analysis-workspace/components/apply-create-metrics.md):进一步了解什么是指标以及如何在自由格式表的其他部分使用它们。
 * [细分简介](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md):了解什么是区段，并使用区段提取基本报告。
 * [Workspace中的日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md):了解相对日期和滚动日期，并将其用于工作区项目。
 * 在工作区中共享项目：向您的同事展示您创建的精彩Workspace项目。
