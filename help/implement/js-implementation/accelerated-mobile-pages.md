@@ -1,14 +1,12 @@
 ---
 description: 在 Adobe Analytics 中实施“加速移动网页”(AMP) 项目。
-keywords: Analytics 实施;amp;amp-analytics;adobeanalytics 模板;adobeanalytics_nativeConfig 模板;点击跟踪;访客虚增;id 服务
-seo-description: 在 Adobe Analytics 中实施“加速移动网页”(AMP) 项目。
-seo-title: Accelerated Mobile Pages（“加速移动网页”项目）
+keywords: Analytics Implementation;amp;amp-analytics;adobeanalytics template;adobeanalytics_nativeConfig template;click tracking;visitor inflation;id service
 solution: Analytics
 title: Accelerated Mobile Pages（“加速移动网页”项目）
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: c86e4a80-7191-4ee7-ab20-787730026c4b
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
