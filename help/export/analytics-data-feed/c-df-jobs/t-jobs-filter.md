@@ -1,13 +1,11 @@
 ---
 description: 搜索和过滤功能可帮助您在列表中查找作业。
-keywords: 数据馈送；工作；filter；search
-seo-description: 搜索和过滤功能可帮助您在列表中查找作业。
-seo-title: 过滤器作业列表
+keywords: Data Feed;job;filter;search
 solution: Analytics
 title: 过滤器作业列表
-uuid: 81190bb-b721-42c3-9262-2ec2 ba262087
+uuid: 811990bb-b721-42c3-9262-2ec2ba262087
 translation-type: tm+mt
-source-git-commit: ace5f9f2c003d8c0617d3d5c338ff02439a013b5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
