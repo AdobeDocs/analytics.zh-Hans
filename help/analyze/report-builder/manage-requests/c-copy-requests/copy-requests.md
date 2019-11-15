@@ -1,13 +1,11 @@
 ---
 description: 您可以复制映射到多个请求的单元格并将内容粘贴到所选的空白电子表格区域。
-seo-description: 您可以复制映射到多个请求的单元格并将内容粘贴到所选的空白电子表格区域。
-seo-title: 复制请求概述
 solution: Analytics
 title: 复制请求概述
-topic: Report Builder
+topic: Report builder
 uuid: 1e0274a3-2038-45c7-87c8-bd949538d4e1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
