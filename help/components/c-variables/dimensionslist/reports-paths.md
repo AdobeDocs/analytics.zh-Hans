@@ -1,13 +1,11 @@
 ---
 description: 显示有关访客访问网站页面的顺序的信息。您可以收集访客访问网站任何网页之前和之后的动向信息。
-seo-description: 显示有关访客访问网站页面的顺序的信息。您可以收集访客访问网站任何网页之前和之后的动向信息。
-seo-title: 路径
 solution: Analytics
 title: 路径
-topic: 报告
+topic: Reports
 uuid: 1f6df932-76cd-490d-b883-d59277405178
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
