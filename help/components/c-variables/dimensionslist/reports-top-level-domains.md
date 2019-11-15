@@ -1,13 +1,11 @@
 ---
 description: 显示来自不同国家/地区的客户对您的成功量度有何影响。该维度依据源域名的扩展名来识别访客所属的地区。
-seo-description: 显示来自不同国家/地区的客户对您的成功量度有何影响。该维度依据源域名的扩展名来识别访客所属的地区。
-seo-title: 顶级域名
 solution: Analytics
 title: 顶级域名
-topic: 报告
+topic: Reports
 uuid: c40ba9bc-fbf2-4e50-9117-6c5947e6675b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
