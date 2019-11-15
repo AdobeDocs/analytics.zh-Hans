@@ -1,13 +1,11 @@
 ---
 description: 使用这些过滤器可以限制报表的内容，使其包括或排除与过滤器匹配的行项目。
-seo-description: 使用这些过滤器可以限制报表的内容，使其包括或排除与过滤器匹配的行项目。
-seo-title: 过滤报表数据
 solution: Analytics
 title: 过滤报表数据
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
