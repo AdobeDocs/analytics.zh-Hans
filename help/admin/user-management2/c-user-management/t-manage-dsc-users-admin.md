@@ -1,14 +1,12 @@
 ---
 description: 描述如何添加、编辑或删除 Ad Hoc Analysis 用户的步骤。
-seo-description: 描述如何添加、编辑或删除 Ad Hoc Analysis 用户的步骤。
-seo-title: 管理 Ad Hoc Analysis 用户
 solution: Analytics
-subtopic: 用户和用户组
+subtopic: Users and groups
 title: 管理 Ad Hoc Analysis 用户
-topic: 管理工具
+topic: Admin tools
 uuid: 9018e90c-e808-4ef3-a0d6-529d931632a5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
