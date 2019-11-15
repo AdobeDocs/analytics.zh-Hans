@@ -1,13 +1,11 @@
 ---
 description: 馈送旁可显示若干状态标签。
-keywords: 数据馈送；状态；活动；待批准；已删除；完成；待批准；未活动
-seo-description: 馈送旁可显示若干状态标签。
-seo-title: 数据馈送状态
+keywords: Data Feed;status;active;approval pending;deleted;complete;pending;inactive
 solution: Analytics
 title: 数据馈送状态
 uuid: 07ec0d16-925c-481d-801c-869eb1568689
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
