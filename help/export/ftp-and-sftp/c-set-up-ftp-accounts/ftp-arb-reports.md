@@ -1,13 +1,11 @@
 ---
 description: 使用适用于Microsoft excel的Adobe Report builder插件从Web分析数据构建自定义请求，您可以将其插入Excel工作表。
 keywords: ftp;sftp
-seo-description: 使用适用于Microsoft excel的Adobe Report builder插件从Web分析数据构建自定义请求，您可以将其插入Excel工作表。
-seo-title: Report Builder 传送的报表
 solution: Analytics
 title: Report Builder 传送的报表
 uuid: 94070700-4073-499a-afe2-10a30eeab79f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
