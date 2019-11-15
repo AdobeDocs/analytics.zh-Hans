@@ -1,20 +1,18 @@
 ---
 description: 配置变量是在 AppMeasurement.js 中设置的。
-keywords: Analytics 实施
-seo-description: 在适用于 Adobe Analytics 的 AppMeasurement.js 中设置的配置变量
-seo-title: 配置变量
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 变量
+subtopic: Variables
 title: 配置变量
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
+source-git-commit: bc8d4e922a776596c9af83a1cd6e22f8967ef2d0
 
 ---
 
 
-# 配置变量 概述
+# 配置变量概述
 
 配置变量能够控制报表中捕获和处理数据的方式。最常见的配置变量通常在主全局JavaScript appMeasurement.js中设置。 适当的时候，可以在 Analytics 页面级代码和链接中设置这些变量。
 
@@ -58,8 +56,6 @@ source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
 
 * [s.registerPreTrackCallback](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-regpretrackcback.html):用作回调（函数）和该函数的参数的函数。
 
-* [s.registerPostTrackCallback](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-regpretrackcback.html):用作回调（函数）和该函数的参数的函数。
-
 * [s.trackDownLoadLinks](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackdnloadlinks.html):跟踪网站上可下载文件的链接。
 
 * [s.trackExternalLinks](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackextlinks.html):确定单击的任何链接是否为退出链接。
@@ -77,3 +73,17 @@ source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
 * [s.linkExternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkextfilters.html):用于报告特定的退出链接子集。
 
 * [s.usePlugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-useplugins.html):在每个图 `s_doPlugins` 像请求之前调用函数。
+
+* [s.useForcedlinkTracking](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-usedforcedlinktracking.html):禁用某些浏览器的强制链接跟踪。
+
+* [s.linkType](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktype.html):将链接类型设置为下载、退出或自定义。
+
+* [s.linkName](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkname.html):设置在下载、退出或自定义链接报告中显示的名称。
+
+* [s.ForcedlinkTrackingTimeout](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-forcedlinktrackingtimeout.html):设置跟踪时的最大等待时间。
+
+* [s.linkTrackEvents](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackingevents.html):禁用某些浏览器的强制链接跟踪。
+
+* [s.linkUrl](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkurl.html):设置链接的URL。
+
+* [s.linkObject](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkobject.html):引用已单击的对象。
