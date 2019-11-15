@@ -1,16 +1,14 @@
 ---
 description: 显示过滤和加权量度的示例。
-seo-description: 显示过滤和加权量度的示例。
-seo-title: 筛选和加权指标
-title: 筛选和加权指标
-uuid: 8c4ed912-68a3-4896-91c8-aa7 dafae6 a9
+title: 过滤和加权量度
+uuid: 8c4ed912-68a3-4896-91c8-aa7daffae6a9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 筛选和加权指标
+# 过滤和加权量度
 
 显示过滤和加权量度的示例。
 
