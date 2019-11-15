@@ -1,14 +1,12 @@
 ---
 description: 使用功能板管理器可以复制、共享、存档和计划功能板以进行提交。
-seo-description: 使用功能板管理器可以复制、共享、存档和计划功能板以进行提交。
-seo-title: 功能板管理器
 solution: Analytics
-subtopic: 功能板
+subtopic: Dashboards
 title: 功能板管理器
-topic: Reports and Analytics
-uuid: 380fd148-2ed9-43bf-9d42-46e373e78e4
+topic: Reports and analytics
+uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -31,7 +29,7 @@ Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICON
 |--- |--- |
 | 共享 | 显示是否共享功能板。 |
 | 已设置发布时间 | 让您计划功能板以进行提交。 |
-| 查看存档 | 让您查看功能板存档。此功能在2020年1月将不再可用。 |
+| 查看存档 | 让您查看功能板存档。 此功能在2020年1月将不再可用。 |
 | 提交至用户 | 让您共享功能板。 |
 | 管理 | 让您编辑、复制和删除功能板。 |
 
