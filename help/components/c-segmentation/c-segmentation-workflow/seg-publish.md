@@ -1,13 +1,11 @@
 ---
 description: 允许您将区段用于受众库、Target和Audience manager中的营销活动。
-seo-description: 允许您将区段用于受众库、Target和Audience manager中的营销活动。
-seo-title: 将区段发布到 Experience Cloud
 solution: Analytics
 title: 将区段发布到 Experience Cloud
-topic: 区段
+topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
