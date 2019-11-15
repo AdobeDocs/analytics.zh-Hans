@@ -1,14 +1,12 @@
 ---
 description: 本主题提供了一些常见问题的解答。
-seo-description: 本主题提供了一些常见问题的解答。
-seo-title: 数据源常见问题解答
 solution: Analytics
-subtopic: 数据源
+subtopic: Data sources
 title: 数据源常见问题解答
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
