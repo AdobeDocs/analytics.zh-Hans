@@ -1,13 +1,11 @@
 ---
 description: Report Builder 使用 Analytics 的自定义日历。您可以使用该日历定义周和年的第一天，或者使用其他零售日历样式。日历格式可用于多种用途，包括销售额比较和预测标准化、工资单费用分析或实际库存计数调节。
-seo-description: Report Builder 使用 Analytics 的自定义日历。您可以使用该日历定义周和年的第一天，或者使用其他零售日历样式。日历格式可用于多种用途，包括销售额比较和预测标准化、工资单费用分析或实际库存计数调节。
-seo-title: 自定义日历
 solution: Analytics
 title: 自定义日历
-topic: Report Builder
+topic: Report builder
 uuid: 88d24bf9-de46-41e0-937e-b8a1fe36c55d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
