@@ -1,14 +1,12 @@
 ---
 description: 数据源提供其他两种方式，用于将离线发生的事件集成到您的在线数据。
-seo-description: 数据源提供其他两种方式，用于将离线发生的事件集成到您的在线数据。
-seo-title: 交易和客户集成
 solution: Analytics
-subtopic: 数据源
+subtopic: Data sources
 title: 交易和客户集成
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
