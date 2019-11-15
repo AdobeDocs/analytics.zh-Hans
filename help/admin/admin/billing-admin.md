@@ -1,13 +1,11 @@
 ---
 description: 使用“帐单”页可以访问帐单信息，包括每个报表包的流量详情。只有经授权的管理员才有权访问此页面。
-seo-description: 使用“帐单”页可以访问帐单信息，包括每个报表包的流量详情。只有经授权的管理员才有权访问此页面。
-seo-title: 帐单
 solution: Analytics
 title: 帐单
-topic: 管理工具
+topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
