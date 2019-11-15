@@ -1,11 +1,9 @@
 ---
 description: 直方图是 Analysis Workspace 中一种新的可视化类型。
-seo-description: 直方图是 Analysis Workspace 中一种新的可视化类型。
-seo-title: 直方图
 title: 直方图
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
