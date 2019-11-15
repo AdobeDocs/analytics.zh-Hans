@@ -1,11 +1,9 @@
 ---
 description: 计算量度生成器允许您将统计和数学函数应用于生成高级计算量度。
-seo-description: 计算量度生成器允许您将统计和数学函数应用于生成高级计算量度。
-seo-title: 参考基本功能
 title: 参考基本功能
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
