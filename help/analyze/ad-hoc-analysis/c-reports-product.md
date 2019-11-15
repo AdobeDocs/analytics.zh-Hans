@@ -1,13 +1,11 @@
 ---
 description: 显示网站上销售、分销或显示产品的信息。您可以查看订购数据，或产品、应用程序及内容的下载数据。
-seo-description: 显示网站上销售、分销或显示产品的信息。您可以查看订购数据，或产品、应用程序及内容的下载数据。
-seo-title: 产品报表
 solution: Analytics
 title: 产品报表
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
