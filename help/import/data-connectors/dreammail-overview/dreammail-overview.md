@@ -1,11 +1,9 @@
 ---
 description: 此Adobe® Data Connectors™电子邮件集成将Analytics®的行为信息与电子邮件营销相结合，创建出一个功能强大的工具，用于重新定义成功衡量并通过更相关的消息定位受众。
-seo-description: 此Adobe® Data Connectors™电子邮件集成将Analytics®的行为信息与电子邮件营销相结合，创建出一个功能强大的工具，用于重新定义成功衡量并通过更相关的消息定位受众。
-seo-title: DreamMail Data Connector for Adobe Analytics
 title: DreamMail Data Connector for Adobe Analytics
 uuid: f6c01bf8-4e6a-4163-9d41-f24fb5f06bdc
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
