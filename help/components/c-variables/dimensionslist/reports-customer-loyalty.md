@@ -1,20 +1,18 @@
 ---
 description: 客户忠诚度显示客户的购买类型。
-seo-description: 客户忠诚度显示客户的购买类型。
-seo-title: 客户忠诚度
 solution: Analytics
 title: 客户忠诚度
-topic: 报告
-uuid: 7dc30b57-7b18-4228-a6ab-6eb6b3d9402
+topic: Reports
+uuid: 7dc30b57-7b18-4228-a6ab-6eb66b3d9402
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # 客户忠诚度
 
-客户忠诚度 揭示客户的购买模式。
+客户忠诚度显示客户的购买类型。
 
 该报表根据四种忠诚度类别显示客户的购买类型：
 
