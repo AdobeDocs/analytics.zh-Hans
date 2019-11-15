@@ -1,13 +1,11 @@
 ---
 description: 说明如何为请求自定义滚动日期的步骤。
-seo-description: 说明如何为请求自定义滚动日期的步骤。
-seo-title: 滚动日期
 solution: Analytics
 title: 滚动日期
-topic: Report Builder
+topic: Report builder
 uuid: 28319f02-2a4a-408d-a7d1-545247ad6178
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
