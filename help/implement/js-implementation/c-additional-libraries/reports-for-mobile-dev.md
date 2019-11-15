@@ -1,14 +1,12 @@
 ---
 description: 由于移动设备是通过信标进行跟踪的，因此和其他访客一样，大部分报表都是可用和正确的。
-keywords: Analytics 实施;报表;移动协议;搜索引擎;搜索关键字;反向链接域;反向链接;地域划分;域;连接类型;时区;cookie;java;javascript;显示器颜色;显示器分辨率;浏览器宽度;高度;netscape 插件
-seo-description: 由于移动设备是通过信标进行跟踪的，因此和其他访客一样，大部分报表都是可用和正确的。
-seo-title: 使用移动协议的设备报表
+keywords: Analytics Implementation;reports;mobile protocols;search engines;search keywords;referring domains;referrers;geosegmentation;domains;connection type;time zone;cookies;java;javascript;monitor colors;monitor resolution;browser width;height;netscape plug-in
 solution: Analytics
 title: 使用移动协议的设备报表
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 4aab125d-c131-4402-9bc8-1c7fd1bb2bee
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
