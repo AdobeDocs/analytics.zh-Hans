@@ -1,13 +1,11 @@
 ---
 description: 显示您网站的访客喜爱的链接。例如，您的网站主页可能有多个显示同一页面的链接。可能有链接至同一页面的图形和文本链接。此报表显示使用图形链接与使用文本链接的访客百分比。
-seo-description: 显示您网站的访客喜爱的链接。例如，您的网站主页可能有多个显示同一页面的链接。可能有链接至同一页面的图形和文本链接。此报表显示使用图形链接与使用文本链接的访客百分比。
-seo-title: 自定义链接
 solution: Analytics
 title: 自定义链接
-topic: 报告
+topic: Reports
 uuid: 2e0d0175-d5e4-4919-b601-3f488ef3e090
 translation-type: tm+mt
-source-git-commit: 4420560ef19f8123de1736ba904b655b9bee1a4c
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
