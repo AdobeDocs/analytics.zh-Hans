@@ -1,14 +1,12 @@
 ---
 description: 成功事件是指可跟踪的活动。什么是成功事件完全由您来决定。例如，如果访客购买一件产品，则该购买事件可视为成功事件。.
 keywords: event
-seo-description: 成功事件是指可跟踪的活动。什么是成功事件完全由您来决定。例如，如果访客购买一件产品，则该购买事件可视为成功事件。.
-seo-title: 成功事件概述
 solution: Analytics
 title: 成功事件概述
-topic: 管理工具
-uuid: 410ee44-8960-462c-a9c3-07b44d0b1df0
+topic: Admin tools
+uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
