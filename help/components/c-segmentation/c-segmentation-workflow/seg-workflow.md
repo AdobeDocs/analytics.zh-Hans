@@ -1,13 +1,11 @@
 ---
 description: 描述了使用区段生成器创建并通过区段管理器管理的区段的建议工作流程。
-seo-description: 描述了使用区段生成器创建并通过区段管理器管理的区段的建议工作流程。
-seo-title: 分段工作流程概述
 solution: Analytics
 title: 分段工作流程概述
-topic: 区段
+topic: Segments
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 translation-type: tm+mt
-source-git-commit: 29bff19e4d33402e8fb65192d7eee134c76c537d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
