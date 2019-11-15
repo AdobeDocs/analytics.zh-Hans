@@ -1,13 +1,11 @@
 ---
 description: 您可以通过选择预定义的模板或者使用某个现有报表包作为模型，来创建新的报表包。
-seo-description: 您可以通过选择预定义的模板或者使用某个现有报表包作为模型，来创建新的报表包。
-seo-title: 新报表包 - 设置
 solution: Analytics
 title: 新报表包 - 设置
-topic: 管理工具
+topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
