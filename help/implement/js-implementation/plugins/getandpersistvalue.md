@@ -1,15 +1,13 @@
 ---
 description: getAndPersistValue 插件可获取您选择的值，并在确定的时间段内用该值填充某个 Analytics 变量。通常用于了解一个促销活动在点进之后共产生多少次页面查看，这样能让您很容易知道每个促销活动中最常被查看的页面。
-keywords: Analytics 实施
-seo-description: getAndPersistValue 插件可获取您选择的值，并在确定的时间段内用该值填充某个 Analytics 变量。通常用于了解一个促销活动在点进之后共产生多少次页面查看，这样能让您很容易知道每个促销活动中最常被查看的页面。
-seo-title: getAndPersistValue
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 插件
+subtopic: Plug-ins
 title: getAndPersistValue
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: ddeab80c-260e-44b6-8483-8b8b369ec19b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
