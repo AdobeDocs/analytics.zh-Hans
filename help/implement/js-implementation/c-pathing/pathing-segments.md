@@ -1,14 +1,12 @@
 ---
 description: 按用户类型划分路径区段是一种常见的请求，这种方法便于了解您站点上特定用户类型的路径。
-keywords: Analytics 实施
-seo-description: 按用户类型划分路径区段是一种常见的请求，这种方法便于了解您站点上特定用户类型的路径。
-seo-title: 按用户类型划分路径区段
+keywords: Analytics Implementation
 solution: Analytics
 title: 按用户类型划分路径区段
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 5c298f39-381d-453b-a608-109e3276b361
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
