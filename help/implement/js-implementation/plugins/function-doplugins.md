@@ -1,15 +1,13 @@
 ---
 description: JavaScript 插件通常由 doPlugins 函数调用；在待粘贴代码中调用 t() 函数时，将执行此函数。
-keywords: Analytics 实施
-seo-description: JavaScript 插件通常由 doPlugins 函数调用；在待粘贴代码中调用 t() 函数时，将执行此函数。
-seo-title: doPlugins 函数
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 插件
+subtopic: Plug-ins
 title: doPlugins 函数
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 367d5550-f8e2-477d-8681-18ae9665d699
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
