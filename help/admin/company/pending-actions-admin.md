@@ -1,13 +1,11 @@
 ---
 description: 使用“管理待定操作”页面可以查看 Analytics 环境中的待定操作列表。待定操作是指任何在实施之前需要 Adobe 批准的系统更改。
-seo-description: 使用“管理待定操作”页面可以查看 Analytics 环境中的待定操作列表。待定操作是指任何在实施之前需要 Adobe 批准的系统更改。
-seo-title: 待定操作
 solution: Analytics
 title: 待定操作
-topic: 管理工具
+topic: Admin tools
 uuid: 63efbf6d-22d6-4ffe-af25-69e10bed7989
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
