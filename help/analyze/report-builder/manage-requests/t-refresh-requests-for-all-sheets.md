@@ -1,13 +1,11 @@
 ---
 description: 您可以刷新所有工作表的请求或多个请求。
-seo-description: 您可以刷新所有工作表的请求或多个请求。
-seo-title: 刷新所有工作表的请求
 solution: Analytics
 title: 刷新所有工作表的请求
-topic: Report Builder
+topic: Report builder
 uuid: 7aa3a206-6b14-40c1-8e18-51998f02649e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
