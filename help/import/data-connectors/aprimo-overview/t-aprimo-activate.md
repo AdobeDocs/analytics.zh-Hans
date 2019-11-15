@@ -1,11 +1,9 @@
 ---
 description: 使用Adobe Data Connectors配置向导设置集成。
-seo-description: 使用Adobe Data Connectors配置向导设置集成。
-seo-title: 激活集成
 title: 激活集成
 uuid: 0a5d2d45-5133-4259-96ce-c992a1e314ee
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -32,7 +30,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 | 跳出次数 | （必需）指定存储从电子邮件系统导入的电子邮件总弹回次数数据的Adobe Analytics事件。 “总弹回次数”事件可让您查看由于传送问题而未发送给收件人的电子邮件数。 |
 | 取消订阅 | （必需）指定存储从电子邮件系统导入的电子邮件取消订阅数据的Adobe Analytics事件。 通过取消订阅活动，您可以查看打开电子邮件但随后单击取消订阅链接以选择退出您组织的将来电子邮件的访客数量。 |
 | 区段 | 此集成创建在“合作伙伴区段”部分中显示的合作伙伴定义的区段。 此外，您还可以选择要包含在集成中的现有报表包级别区段。 |
-|  访问请求 | 启用建议的访问权限。 |
+| 访问请求 | 启用建议的访问权限。 |
 | 数据收集 | 如果 **** 要使用s_code.js插件作为此集成的集合模型，请选择“JavaScript插件”。 |
 如果 **要为此集成使用自动收集模型** ，请选择自动化解决方案，然后指定用于此集成的唯一标识符。 如果选择此选项，请指定用于此集成的唯一标识符：
 <ul><li>消息ID查询字符串参数：此值表示电子邮件合作伙伴附加到登陆页面URL的消息ID。</li>
