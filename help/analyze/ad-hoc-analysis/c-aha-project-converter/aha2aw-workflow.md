@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 在 Ad Hoc Analysis 中转换项目
 title: 在 Ad Hoc Analysis 中转换项目
 uuid: 20bd9974-209e-457c-9e52-d50f90078af6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -18,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 * 要转换项目，您必须以管理员身份或以具备 Analysis Workspace 使用权限的非管理员身份登录 Ad Hoc Analysis。
 * 由于这是一次性转换，因此如果您对 Ad Hoc 项目进行任何更改，该更改并不会反映到 Analysis Workspace 中。但是，您可以选择重新转换项目。
-* 已转换的任何 Ad Hoc Analysis 项目都将会继续存在于 Ad Hoc 中，但是其标题中会带有圆括号，表示该项目已经转换及其转换次数。示例:
+* 已转换的任何 Ad Hoc Analysis 项目都将会继续存在于 Ad Hoc 中，但是其标题中会带有圆括号，表示该项目已经转换及其转换次数。示例：
 
    ![](assets/aha_title_converted.png)
 
