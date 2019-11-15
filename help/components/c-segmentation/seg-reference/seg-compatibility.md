@@ -1,13 +1,11 @@
 ---
 description: 区段生成器中创建的所有区段并非都与 Data Warehouse 兼容。此表列出了受支持的功能。
-seo-description: 区段生成器中创建的所有区段并非都与 Data Warehouse 兼容。此表列出了受支持的功能。
-seo-title: Data Warehouse 区段兼容性
 solution: Analytics
 title: Data Warehouse 区段兼容性
-topic: 区段
+topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: 26bba9528873c983852754056a5495c4004d25e6
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -47,7 +45,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
   </tr> 
   <tr> 
    <td colname="col1"> <b>维度</b> </td> 
-   <td colname="col2">将维度拖动到区段生成器的“定义”<span class="uicontrol"></span>字段中，以便了解其产品兼容性的相关信息。例如，这些维度仅在Analysis Workspace、Reports&amp; Analytics和Ad Hoc Analysis中受支持： 
+   <td colname="col2">将维度拖动到区段生成器的“定义”<span class="uicontrol"></span>字段中，以便了解其产品兼容性的相关信息。例如，仅在Analysis Workspace、Reports &amp; Analytics和临时分析中支持以下维： 
     <ul id="ul_BD708CC3A16743F49F998D1046EC70A3"> 
      <li id="li_240DA619D50B4336ACD9117BF59AF10A">登录服务器 </li> 
      <li id="li_222D4D4116674EF8A52945CCB9C78719">登录类别 </li> 
