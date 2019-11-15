@@ -1,19 +1,17 @@
 ---
 description: 'null'
-keywords: Analytics 实施
-seo-description: 'null'
-seo-title: 销售变量概述
+keywords: Analytics Implementation
 solution: Analytics
-title: 销售变量概述
-topic: 开发人员和实施
-uuid: 2ccf516a-a7 ee-48ab-92aa-414228a4102 f
+title: 促销变量概述
+topic: Developer and implementation
+uuid: 2ccf516a-a7ee-48ab-92aa-414228a4102f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 销售变量概述
+# 促销变量概述
 
 测量外部促销活动或外部搜索术语的成功程度时，通常需要一个单独的值来对发生的所有成功事件接收信用。例如，如果某个客户单击电子邮件促销活动中的链接访问您的网站，那么该客户因此进行的所有购买都将计入此促销活动中。
 
