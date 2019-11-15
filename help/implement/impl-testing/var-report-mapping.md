@@ -1,14 +1,12 @@
 ---
 description: 下表显示用于填充 Analytics 报表的报表映射变量。
-keywords: Analytics 实施
-seo-description: 下表显示用于填充 Analytics 报表的报表映射变量。
-seo-title: 变量到报表的映射
+keywords: Analytics Implementation
 solution: Analytics
 title: 变量到报表的映射
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: fd81f97d-dd1a-47d5-9157-b7932fe13490
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
