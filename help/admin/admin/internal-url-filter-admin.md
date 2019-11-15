@@ -1,13 +1,11 @@
 ---
 description: 内部 URL 过滤器可识别您视为存在于网站内部的反向链接。它们可帮助流量源报表填充数据，并且有助于过滤内部流量。
-seo-description: 内部 URL 过滤器可识别您视为存在于网站内部的反向链接。它们可帮助流量源报表填充数据，并且有助于过滤内部流量。
-seo-title: 内部 URL 过滤器
 solution: Analytics
 title: 内部 URL 过滤器
-topic: 管理工具
+topic: Admin tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
