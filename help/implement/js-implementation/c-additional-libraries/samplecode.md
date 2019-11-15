@@ -1,14 +1,12 @@
 ---
 description: 说明如何在 HTML 示例页面中使用服务器生成的图像标记的示例。
-keywords: Analytics 实施;变量
-seo-description: 说明如何在 HTML 示例页面中使用服务器生成的图像标记的示例。
-seo-title: 示例代码
+keywords: Analytics Implementation;variables
 solution: Analytics
 title: 示例代码
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 47e5e82c-cfb2-4912-919b-720b2ee852ba
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
