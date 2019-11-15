@@ -1,15 +1,13 @@
 ---
 description: 数据包分析程序允许您查看由实施发送至 Adobe 数据收集服务器的数据。
-keywords: Analytics 实施
-seo-description: 数据包分析程序允许您查看由实施发送至 Adobe 数据收集服务器的数据。
-seo-title: 数据包分析程序
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 调试程序
+subtopic: Debugger
 title: 数据包分析程序
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 3597c23a-1c72-46e6-909d-f861cbeef490
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
