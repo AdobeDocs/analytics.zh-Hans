@@ -1,13 +1,11 @@
 ---
 description: 叠加图为您提供了多种配置数据可视化的方法，让您能够轻松地查看和了解页面上链接的受欢迎程度。
-seo-description: 叠加图为您提供了多种配置数据可视化的方法，让您能够轻松地查看和了解页面上链接的受欢迎程度。
-seo-title: 可自定义的叠加图
 solution: Analytics
 title: 可自定义的叠加图
-topic: Activity Map
+topic: Activity map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
