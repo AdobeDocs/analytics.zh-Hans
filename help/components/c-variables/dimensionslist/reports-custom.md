@@ -1,13 +1,11 @@
 ---
 description: 管理员可以使用特定量度和特定日期范围配置报表，然后将其保存至报表菜单，以供所有用户使用。
-seo-description: 管理员可以使用特定量度和特定日期范围配置报表，然后将其保存至报表菜单，以供所有用户使用。
-seo-title: 自定义
 solution: Analytics
 title: 自定义
-topic: 报告
+topic: Reports
 uuid: 04a2cf81-6f2a-49f3-a449-cb701a899aad
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
