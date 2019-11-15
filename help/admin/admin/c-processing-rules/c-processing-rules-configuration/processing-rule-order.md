@@ -1,14 +1,12 @@
 ---
 description: 若要高效地使用处理规则，了解在数据收集期间何时应用处理规则非常重要。
-seo-description: 若要高效地使用处理规则，了解在数据收集期间何时应用处理规则非常重要。
-seo-title: 处理顺序
 solution: Analytics
-subtopic: 处理规则
+subtopic: Processing rules
 title: 处理顺序
-topic: 管理工具
+topic: Admin tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
