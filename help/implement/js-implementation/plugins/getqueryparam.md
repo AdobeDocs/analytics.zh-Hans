@@ -1,15 +1,13 @@
 ---
 description: 返回指定查询字符串参数的值（如果在当前页面 URL 中找到）。由于重要数据（例如促销活动跟踪代码、内部搜索关键词等）可在页面上的查询字符串中找到，getQueryParam 可帮助将这些数据捕获到 Analytics 变量中。
-keywords: Analytics 实施
-seo-description: 返回指定查询字符串参数的值（如果在当前页面 URL 中找到）。由于重要数据（例如促销活动跟踪代码、内部搜索关键词等）可在页面上的查询字符串中找到，getQueryParam 可帮助将这些数据捕获到 Analytics 变量中。
-seo-title: getQueryParam
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 插件
+subtopic: Plug-ins
 title: getQueryParam
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
