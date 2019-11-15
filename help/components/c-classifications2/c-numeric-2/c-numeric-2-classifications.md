@@ -1,14 +1,12 @@
 ---
 description: 数值 2 分类提供了自定义的灵活量度，您可以通过导入器将这些量度导入 Adobe Experience Cloud。
-seo-description: 数值 2 分类提供了自定义的灵活量度，您可以通过导入器将这些量度导入 Adobe Experience Cloud。
-seo-title: 数值 2 分类概述
 solution: Analytics
-subtopic: 分类
+subtopic: Classifications
 title: 数值 2 分类概述
-topic: 管理工具
+topic: Admin tools
 uuid: cbea7cd1-3a92-4e9d-b671-646e9add1ee6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
