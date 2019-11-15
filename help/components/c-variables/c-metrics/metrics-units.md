@@ -1,13 +1,11 @@
 ---
 description: 选定时间段内订购的总件数。由于您在每次订购中可以购买多件物品，因此“件数”是一项重要量度，可揭示总体存货的流动情况。
-seo-description: 选定时间段内订购的总件数。由于您在每次订购中可以购买多件物品，因此“件数”是一项重要量度，可揭示总体存货的流动情况。
-seo-title: 件数
 solution: Analytics
 title: 件数
-topic: 量度
-uuid: a0b3e3e0-5ba2-4c5c-9f7b-9b89b3079dd8
+topic: Metrics
+uuid: a0b3f3e0-5ba2-4c5c-9f7b-5b89b3079dd8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
