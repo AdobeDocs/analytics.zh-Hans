@@ -1,13 +1,11 @@
 ---
 description: 文件下载有助于了解访客从您的网站下载文件的频度。文件下载可包括文字处理器文档、电子表格、音频文件、视频文件和用户手册等。其中包括直接从浏览器保存和打开的文件，以及保存到用户计算机的文件。此报表显示下载文件的名称，包含访问该文件所需的完整 URL。
-seo-description: 文件下载有助于了解访客从您的网站下载文件的频度。文件下载可包括文字处理器文档、电子表格、音频文件、视频文件和用户手册等。其中包括直接从浏览器保存和打开的文件，以及保存到用户计算机的文件。此报表显示下载文件的名称，包含访问该文件所需的完整 URL。
-seo-title: 文件下载
 solution: Analytics
 title: 文件下载
-topic: 报告
-uuid: 897fc221-aa30-4eac-aca6-bcb76adaf71
+topic: Reports
+uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
