@@ -1,15 +1,13 @@
 ---
 description: 返回指定查询字符串参数的值（如果在当前页面 URL 中或在提供的字符串中找到）。
-keywords: Analytics 实施
-seo-description: 返回指定查询字符串参数的值（如果在当前页面 URL 中或在提供的字符串中找到）。
-seo-title: Util.getQueryParam
+keywords: Analytics Implementation
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Util.getQueryParam
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 1fecd148-3e52-46f2-a73f-003563f7a62c
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
