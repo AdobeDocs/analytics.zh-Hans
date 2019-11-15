@@ -1,13 +1,11 @@
 ---
 description: Reports & Analytics 中可用的预定义报表的定义，以及其他 Analytics 工具（如 Analysis Workspace）中可用维度的定义。
-seo-description: Reports & Analytics 中可用的预定义报表的定义，以及其他 Analytics 工具（如 Analysis Workspace）中可用维度的定义。
-seo-title: 维度描述
 solution: Analytics
 title: 维度描述
-topic: 报告
+topic: Reports
 uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
