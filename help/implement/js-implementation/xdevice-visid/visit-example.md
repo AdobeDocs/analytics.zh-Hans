@@ -1,15 +1,13 @@
 ---
 description: 示例中包含常见客户交互中发送的服务器调用范例。
-keywords: Analytics 实施
-seo-description: 示例中包含常见客户交互中发送的服务器调用范例。
-seo-title: 示例访问
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 访客
+subtopic: Visitors
 title: 示例访问
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
