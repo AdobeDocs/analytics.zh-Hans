@@ -1,14 +1,12 @@
 ---
 description: 点进次数表示 a) 促销活动实例，以及 b) 营销渠道实例。
-keywords: 促销活动查看次数
-seo-description: 点进次数表示 a) 促销活动实例，以及 b) 营销渠道实例。
-seo-title: 点进次数
+keywords: Campaign Views
 solution: Analytics
 title: 点进次数
-topic: 量度
-uuid: da605430-24aa-4713-a5 c3-735fx0 a3441
+topic: Metrics
+uuid: da605430-24aa-4713-a5c3-735fac0a3441
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
