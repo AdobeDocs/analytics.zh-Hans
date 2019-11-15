@@ -1,20 +1,18 @@
 ---
 description: 'Activity Map UI 由两部分组成 '
-seo-description: 'Activity Map UI 由两部分组成 '
-seo-title: Activity Map 用户界面
 solution: Analytics
 title: Activity Map 用户界面
-topic: Activity Map
+topic: Activity map
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Activity Map 用户界面
 
-Activity Map UI 由两部分组成：
+Activity Map UI 由两部分组成:
 
 * 顶部窗口，其中包含网页以及插入式叠加图和工具栏。
 * 底部面板，用于显示报表。
