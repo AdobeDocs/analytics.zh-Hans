@@ -1,15 +1,13 @@
 ---
 description: 以下信息有助于解决Analytics数据中的报表包延迟问题。
-keywords: 缺失数据；慢
-seo-description: 以下信息有助于解决Analytics数据中的报表包延迟问题。
-seo-title: 数据可用性和延迟
+keywords: missing data;slow
 solution: Analytics
-subtopic: 当前数据
+subtopic: Current data
 title: 数据可用性和延迟
-topic: 报告
+topic: Reports
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
