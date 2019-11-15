@@ -1,10 +1,8 @@
 ---
 description: 将跟踪数据从第三方应用程序导入到 Analytics 中。
-seo-description: 登录数据连接器；将跟踪数据从第三方应用程序导入Analytics、添加集成、数据连接器控制台。
-seo-title: 分析数据连接器
 title: Analytics数据连接器入门
 translation-type: tm+mt
-source-git-commit: 757814b2f7163fdc915c5c5c770f956f9733c1ba
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
