@@ -1,15 +1,13 @@
 ---
 description: 确定用户自最近一次访问您的网站后经过的天数，并在 Analytics 变量中捕获此信息。
-keywords: Analytics 实施
-seo-description: 确定用户自最近一次访问您的网站后经过的天数，并在 Analytics 变量中捕获此信息。
-seo-title: getDaysSinceLastVisit
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 插件
+subtopic: Plug-ins
 title: getDaysSinceLastVisit
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: cad95882-3bd0-4f94-a0c3-4e7b6058d246
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
