@@ -1,14 +1,12 @@
 ---
 description: Adobe Analytics支持单级和多级分类模型。 使用分类层次结构可以将分类应用到分类。
-seo-description: Adobe Analytics支持单级和多级分类模型。 使用分类层次结构可以将分类应用到分类。
-seo-title: 关于子分类
 solution: Analytics
-subtopic: 分类
+subtopic: Classifications
 title: 关于子分类
-topic: 管理工具
-uuid: 48bd7fc1-54a1-40ef-bc55-39538522f2d
+topic: Admin tools
+uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -111,4 +109,4 @@ c_classifications_example.xml
 |---|---|---|
 | * | 01 | 铁灰 |
 | * | 03 | 混色 |
-| * | 23 | 浅绿色 |
+| * | 2
