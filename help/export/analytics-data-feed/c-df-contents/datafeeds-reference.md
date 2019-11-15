@@ -1,15 +1,13 @@
 ---
 description: 描述数据馈送中的列的表数据。
-keywords: 数据馈送；列
-seo-description: 描述数据馈送中的列的表数据。
-seo-title: 数据列引用
+keywords: Data Feed;columns
 solution: Analytics
-subtopic: 数据馈送
+subtopic: data feeds
 title: 数据列引用
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -51,7 +49,7 @@ source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 | color | 基于 c_color 列值的颜色深度 ID。引用 color_depth.tsv 查询表。 | smlint未签名 |
 | connection_type | 表示连接类型的数字 ID。在“连接类型”维度中使用的变量。引用 connection_type.tsv 查询表。 | tinyint，无符号 |
 | cookie | 在“Cookie 支持”维度中使用的变量。<br>Y:启<br>用N:禁<br>用U:未知 | char(1) |
-| country | 表示点击来源的国家/地区的数字 ID。Adobe 与 Digital Envoy 合作，以将 IP 地址匹配到国家/地区。使用 country.tsv 查询表。 | smallint unsigned |
+| country | 表示点击来源的国家/地区的数字 ID。Adobe 与 Digital Envoy 合作，以将 IP 地址匹配到国家/地区。使用 country.tsv 查询表。 | smlint未签名 |
 | ct_connect_type | 与 connection_type 列相关。最常见的值为“局域网/Wifi”、“移动设备运营商”和“调制调节器”。 | char(20) |
 | curr_factor | 确定货币的小数位，用于货币兑换。例如，美元使用两个小数位，因此该列的值为 2。 | tinyint |
 | curr_rate | 交易时的汇率。Adobe 与 XE 合作，以确定当天的汇率。 | decimal(24,12) |
@@ -67,7 +65,7 @@ source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 | ef_id | 在 Adobe Advertising Cloud 集成中使用的 ef_id。 | varchar(255) |
 | evar1-evar250 | 自定义变量 1-250。每个公司使用 eVar 的方式有所不同。要了解有关贵组织如何填充各个 eVar 的更多信息，您最好参阅专为贵组织设计的解决方案文档。 | varchar(255) |
 | event_list | 以逗号分隔的数字 ID 列表，其中各 ID 表示点击时所触发的各个事件。包含默认事件及自定义事件 1-1000。使用 event.tsv 查询表。 | text |
-| exclude_hit | 表示点击已从报表中排除的标记。The visit_num column is not incremented for excluded hits.<br>1：未使用. 已报废功能的一部分。<br>2：未使用. 已报废功能的一部分。<br>3:不再使用。 用户代理排除<br>4:基于IP地址<br>5排除：缺少重要点击信息，如page_url、pagename、page_event或event_list<br>6:JavaScript未正确处理hit<br>7:特定于帐户的排除，如在VISTA规则<br>8中：未使用。 替代帐户特定排除。<br>9：未使用. 已报废功能的一部分。<br>10: Invalid currency code11: Hit missing a timestamp on a timestamp-only report suite, or a hit contained a timestamp on a non-timestamp report suite12: Not used. <br><br>Part of a scrapped feature.<br>13：未使用. Part of a scrapped feature.<br>14: Target hit that did not match up with an Analytics hit15: Not currently used.<br><br>16: Advertising Cloud hit that did not match up to an Analytics hit | tinyint，无符号 |
+| exclude_hit | 表示点击已从报表中排除的标记。排除的点击不会增加visit_num列。<br>1：未使用. 已报废功能的一部分。<br>2：未使用. 已报废功能的一部分。<br>3:不再使用。 用户代理排除<br>4:基于IP地址<br>5排除：缺少重要点击信息，如page_url、pagename、page_event或event_list<br>6:JavaScript未正确处理hit<br>7:特定于帐户的排除，如在VISTA规则<br>8中：未使用。 替代帐户特定排除。<br>9：未使用. 已报废功能的一部分。<br>10:货币代码无效<br>11:点击缺少仅时间戳报表包上的时间戳，或点击包含非时间戳报表包<br>12上的时间戳：未使用。 已报废功能的一部分。<br>13：未使用. 已报废功能的一部分。<br>14:Target点击与Analytics点击<br>15不匹配：当前未使用。<br>16:Advertising cloud的点击量与Analytics的点击量不匹配 | tinyint，无符号 |
 | first_hit_page_url | 访客访问的第一个 URL。 | varchar(255) |
 | first_hit_pagename | 在“原始登录页面”维度中使用的变量。访客访问的原始登录页面名称。 | varchar(100) |
 | first_hit_ref_domain | 在“原始反向链接域名”维度中使用的变量。基于 first_hit_referrer。访客访问的第一个反向链接的域名。 | varchar(100) |
@@ -80,20 +78,20 @@ source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 | geo_region | 点击来源的州/市/自治区或区域的名称（基于 IP）。Adobe 与 Digital Envoy 合作，以将 IP 地址匹配到州/市/自治区/区域。 | char(32) |
 | geo_zip | 点击来自IP的邮政编码。 Adobe 与 Digital Envoy 合作，以将 IP 地址匹配到邮政编码。 | varchar(16) |
 | hier1 - hier5 | 由层级变量使用。包含一个分隔的值列表。在“报表包设置”下方选择分隔符。 | varchar(255) |
-| hit_source | 表示点击的来源。<br>1: Standard image request without timestamp 2: Standard image request with timestamp 3: Live data source upload with timestamps 4: Not used 5: Generic data source upload 6: Full processing data source upload 7: TransactionID data source upload 8: No longer used; Previous versions of Adobe Advertising Cloud data sources 9: No longer used; Adobe Social summary metrics<br><br><br><br><br><br><br><br> | tinyint，无符号 |
-| hit_time_gmt | The timestamp of the hit Adobe data collection servers received the hit, based in Unix time. | int |
-| hitid_high | 与 hitid_low 结合使用，用来唯一标识点击。 | bigint unsigned |
-| hitid_low | 与 hitid_high 结合使用，用来唯一标识点击。 | bigint unsigned |
+| hit_source | 表示点击的来源。<br>1:不带时间戳 <br>2的标准图像请求：带有时间戳 <br>3的标准图像请求：实时数据源上传，带有时间戳 <br>4:未使用 <br>5:通用数据源上 <br>传6:完全处理数据源上传 <br>7:TransactionID数据源上 <br>传8:不再使用；Adobe Advertising cloud数据源的先前版本 <br>9:不再使用；Adobe Social摘要指标 | tinyint，无符号 |
+| hit_time_gmt | 点击的Adobe数据收集服务器的时间戳根据Unix时间接收到点击。 | int |
+| hitid_high | 与 hitid_low 结合使用，用来唯一标识点击。 | bigint，未签名 |
+| hitid_low | 与 hitid_high 结合使用，用来唯一标识点击。 | bigint，未签名 |
 | homepage | 已不再使用。指示当前的 URL 是否是浏览器的主页。 | char(1) |
 | hourly_visitor | 确定点击是否为新的每小时访客的标记。 | tinyint，无符号 |
 | ip | IP 地址，基于图像请求的 HTTP 标头。 | char(20) |
 | ip2 | 未使用。报表包的后端引用变量，包含基于 IP 地址的 VISTA 规则。 | char(20) |
 | j_jscript | 浏览器支持的 JavaScript 版本。 | char(5) |
-| java_enabled | 表示 Java 是否已启用的标记。<br>Y: Enabled N: Disabled U: Unknown<br><br> | char(1) |
+| java_enabled | 表示 Java 是否已启用的标记。<br>Y:启用 <br>的N:禁用 <br>的U:未知 | char(1) |
 | javascript | JavaScript 版本的查询 ID（基于 j_jscript）。使用查询表。 | tinyint，无符号 |
-| language | 语言的数字 ID。使用 languages.tsv 查询表。 | smallint unsigned |
+| language | 语言的数字 ID。使用 languages.tsv 查询表。 | smlint未签名 |
 | last_hit_time_gmt | 上次点击的时间戳（基于 Unix 时间）。用于计算“上次访问间隔天数”维度。 | int |
-| last_purchase_num | 在“客户忠诚度”维度中使用的变量。表示访客以往的购买次数。<br>0: No prior purchases (not a customer) 1: 1 prior purchase (new customer) 2: 2 prior purchases (return customer) 3: 3 or more prior purchases (loyal customer)<br><br><br> | inusting |
+| last_purchase_num | 在“客户忠诚度”维度中使用的变量。表示访客以往的购买次数。<br>0:之前没有购买（不是客户） <br>1:1个先前购买（新客户） <br>2:2先前购买（退货客户） <br>3:3次或更多先前购买（忠诚客户） | inusting |
 | last_purchase_time_gmt | 在“上次购买间隔天数”维度中使用。上次购买的时间戳（基于 Unix 时间）。对于首次购买及之前未购买过的访客，该值为 0。 | int |
 | latlon1 | 位置（精确到 10 千米） | varchar(255) |
 | latlon23 | 位置（精确到 100 米） | varchar(255) |
@@ -101,10 +99,10 @@ source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 | mc_audiences | 列出访客所属的 Audience Manager 区段 ID。 | text |
 | mcvisid | Experience Cloud 访客 ID. 一个 128 位的数字（由两个 64 位的数字拼接而成），共占据了 19 位数。 | varchar(255) |
 | mobile_id | 如果用户使用移动设备，则指设备的数字ID。 | int |
-| mobileaction | 移动设备操作。Automatically collected when trackAction is called in Mobile Services. 应用程序支持自动的操作路径。 | varchar(100) |
+| mobileaction | 移动设备操作。在Mobile services中调用trackAction时自动收集。 应用程序支持自动的操作路径。 | varchar(100) |
 | mobileappid | 移动设备应用程序 ID。采用以下格式存储应用程序名称和版本：[AppName] [BundleVersion] | varchar(255) |
-| mobileappperformanceappid | Used in the Apteligent data connector. The App ID used in Apteligent. | varchar(255) |
-| mobileappperformancecrashid | 用于Apteligent数据连接器。 The crash ID used in Apteligent. | varchar(255) |
+| mobileappperformanceappid | 用于Apteligent数据连接器。 Apteligent中使用的应用程序ID。 | varchar(255) |
+| mobileappperformancecashid | 用于Apteligent数据连接器。 Apteligent中使用的崩溃ID。 | varchar(255) |
 | mobileappstoreobjectid | 用于Appfigures数据连接器。 应用商店对象ID | varchar(255) |
 | mobilebeaconmajor | Mobile services信标专业 | varchar(100) |
 | mobilebeaconminor | Mobile services信标次要 | varchar(100) |
@@ -134,13 +132,13 @@ source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 | mobileosenvironment | 从上下文数据变量a.OSEnvironment收集。 状态操作系统环境，如Android或iOS。 | varchar(255) |
 | mobileosversion | Mobile services操作系统版本 | varchar(255) |
 | mobileplaceaccuracy | 从上下文数据变量a.loc.acc收集。 指示收集时GPS的精度（以米为单位）。 | varchar(255) |
-| mobileplacecategory | 从上下文数据变量a.loc.category收集。 Describes the category of a specific place. | varchar(255) |
-| mobileplaceid | Collected from the context data variable a.loc.id. <span></span>给定目标点的标识符。 | varchar(255) |
-| mobilerelaunchcampaigncontent | Mobile Services launch content | varchar(255) |
-| mobilerelaunchcampaignmedium | Mobile Services launch medium | varchar(255) |
-| mobilerelaunchcampaignsource | Mobile Services launch source | varchar(255) |
-| mobilerelaunchcampaignterm | Mobile Services launch term | varchar(255) |
-| mobilerelaunchcampaigntrackingcode | Collected from the context data variable a.launch.campaign.trackingcode. 在客户获取中用作启动系列活动的跟踪代码。 | varchar(255) |
+| mobileplacecategory | 从上下文数据变量a.loc.category收集。 描述特定位置的类别。 | varchar(255) |
+| mobileplaceid | 从上下文数据变量a.<span>loc</span>.id收集。 给定目标点的标识符。 | varchar(255) |
+| mobilerelaunchcampaigncontent | Mobile services启动内容 | varchar(255) |
+| mobilerelaunchcampaignmedium | Mobile services启动媒体 | varchar(255) |
+| mobilerelaunchcampaignsource | Mobile services启动源 | varchar(255) |
+| mobilerelaunchcampaignterm | Mobile services启动期限 | varchar(255) |
+| mobilerelaunchcampaigntrackingcode | 从上下文数据变量a.launch.campaign.trackingcode收集。 在客户获取中用作启动系列活动的跟踪代码。 | varchar(255) |
 | mobileresolution | 移动设备分辨率。宽 x 高（以像素为单位）。 | varchar(255) |
 | monthly_visitor | 表示访客属于当月的独特访客的标记。 | tinyint，无符号 |
 | mvvar1 - mvvar3 | 列出变量值。包含分隔的自定义值列表（取决于实施）。 | text |
@@ -172,10 +170,10 @@ source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 | ref_type | 表示点击的反向链接类型的数字 ID。<br>1:站点内<br>2:其他网 <br>站3:搜索引擎 <br>4:硬盘 <br>5:USENET <br>6:输入／添加书签（无引用） <br>7:电子邮件 <br>八：无JavaScript <br>9:社交网络 | tinyint，无符号 |
 | referrer | 上一页的页面 URL。 | varchar(255) |
 | resolution | 表示显示器分辨率的数字 ID。填充“显示器分辨率”维度。使用 resolution.tsv 查询表。 | smlint未签名 |
-| s_kwcid | Keyword ID used in Adobe Advertising Cloud integrations. | varchar(255) |
+| s_kwcid | Adobe Advertising cloud集成中使用的关键字ID。 | varchar(255) |
 | s_resolution | 原始屏幕分辨率值需使用 JavaScript 函数 screen.width x screen.height 来收集。 | char(20) |
 | sampled_hit | 已不再使用。之前用于在 Ad Hoc Analysis 中取样。 | char(1) |
-| search_engine | 表示将访客引荐至您网站的搜索引擎的数字 ID。使用 search_engines.tsv 查询表。 | smallint unsigned |
+| search_engine | 表示将访客引荐至您网站的搜索引擎的数字 ID。使用 search_engines.tsv 查询表。 | smlint未签名 |
 | search_page_num | 由“所有搜索页面排名”维度使用。指示用户在点进您网站之前您的网站位于搜索结果的第几页。 | smlint未签名 |
 | secondary_hit | 用于跟踪次级点击的标记。通常来自于多包标记和用于复制点击的 VISTA 规则。 | tinyint，无符号 |
 | service | 未使用。请改为使用 page_event。 | char(2) |
@@ -216,13 +214,13 @@ source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 | va_finder_id | 用于标识“首次联系渠道”维度的数字 ID。可在营销渠道管理器中找到此 ID 所对应的查询表。 | tinyint，无符号 |
 | va_instance_event | 用于标识营销渠道实例的标记。由“营销渠道最近联系实例”量度使用。 | tinyint，无符号 |
 | va_new_engagement | 用于标识营销渠道新参与的标记。由“新参与”量度使用。 | tinyint，无符号 |
-| video | Video content | varchar(255) |
-| videoad | Video ad name | varchar(255) |
-| videoadinpod | Video ad in pod position | varchar(255) |
-| videoadlength | Video ad length | varchar(255) |
+| video | 视频内容 | varchar(255) |
+| videoad | 视频广告名称 | varchar(255) |
+| videoadinpod | 窗格位置中的视频广告 | varchar(255) |
+| videoadlength | 视频广告长度 | varchar(255) |
 | videoadload | 视频广告加载 | varchar(255) |
-| videoadname | Video ad name | varchar(255) |
-| videoadplayername | Video ad player name | varchar(255) |
+| videoadname | 视频广告名称 | varchar(255) |
+| videoadplayername | 视频广告播放器名称 | varchar(255) |
 | videoadpod | 视频广告窗格 | varchar(255) |
 | videoadvertiser | 视频广告商 | varchar(255) |
 | videoalbum | 视频音频相册 | varchar(255) |
