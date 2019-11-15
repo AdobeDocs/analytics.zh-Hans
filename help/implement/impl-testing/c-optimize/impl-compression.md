@@ -1,15 +1,13 @@
 ---
 description: 客户可使用基于特定标准的编码（如 gzip）来压缩 JavaScript 库文件。
-keywords: Analytics 实施
-seo-description: 客户可使用基于特定标准的编码（如 gzip）来压缩 JavaScript 库文件。
-seo-title: 文件压缩
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 故障诊断
+subtopic: Troubleshooting
 title: 文件压缩
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 609fec4b-2732-4ef5-9263-32192e4f0825
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
