@@ -1,13 +1,11 @@
 ---
 description: 按支持的颜色数目对移动设备点击量进行分组。此报表/维度显示经由移动设备访问网站的访客总人数，并按移动设备中配置的颜色数目对他们进行分组。例如，如果访客的手机支持24种颜色，则报表会增加与24种颜色对应的行项目。
-seo-description: 按支持的颜色数目对移动设备点击量进行分组。此报表/维度显示经由移动设备访问网站的访客总人数，并按移动设备中配置的颜色数目对他们进行分组。例如，如果访客的手机支持24种颜色，则报表会增加与24种颜色对应的行项目。
-seo-title: 颜色深度
 solution: Analytics
 title: 颜色深度
-topic: 报告
+topic: Reports
 uuid: 6143a37c-2452-4107-a855-d97aebd9f778
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
