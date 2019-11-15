@@ -1,13 +1,11 @@
 ---
 description: 独特访客是指在某个时段内首次访问网站的个人。例如，独特访客可能在一周内访问了网站 10 次，但是如果时段指定该周内的独特访客，则在该周内，每一位独特访客将只被计入一次。一旦该周结束，这位独特访客就可以在新的指定时段内再次被计入下来。
-seo-description: 独特访客是指在某个时段内首次访问网站的个人。例如，独特访客可能在一周内访问了网站 10 次，但是如果时段指定该周内的独特访客，则在该周内，每一位独特访客将只被计入一次。一旦该周结束，这位独特访客就可以在新的指定时段内再次被计入下来。
-seo-title: 每周独特访客
 solution: Analytics
 title: 每周独特访客
-topic: 量度
-uuid: b732abf9-design2-4518-966-30b85 b3 e1 e28
+topic: Metrics
+uuid: b732abf9-cad2-4518-9669-30b85b3e1e28
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
