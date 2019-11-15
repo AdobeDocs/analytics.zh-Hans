@@ -1,13 +1,11 @@
 ---
 description: 显示同一访客从初次访问网站到回访之间的时间长度，以及每个时间长度下出现的访问量。使用此报表可查看常客未访问您的网站的平均时间，以及常客的访问趋势。
-seo-description: 显示同一访客从初次访问网站到回访之间的时间长度，以及每个时间长度下出现的访问量。使用此报表可查看常客未访问您的网站的平均时间，以及常客的访问趋势。
-seo-title: 回访频度
 solution: Analytics
 title: 回访频度
-topic: 报告
+topic: Reports
 uuid: 7069205d-8fab-4ff7-9d01-be9705142e27
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
