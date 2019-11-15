@@ -1,14 +1,12 @@
 ---
 description: 列出可用的测量库。
-keywords: Analytics 实施;收集;数据;收集
-seo-description: 列出可用的测量库。
-seo-title: 其他库概述
+keywords: Analytics Implementation;collect;data;collection
 solution: Analytics
 title: 其他库概述
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 1ec291f6-073f-49d1-b6ab-044b1069db4e
 translation-type: tm+mt
-source-git-commit: b7a92c7b7305c5456e6764b4329c51ad13f2609e
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
