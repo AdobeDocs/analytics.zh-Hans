@@ -1,14 +1,12 @@
 ---
 description: 有关 Adobe 如何提供数据源访问权限的信息。
-seo-description: 有关 Adobe 如何提供数据源访问权限的信息。
-seo-title: 数据源工作原理
 solution: Analytics
-subtopic: 数据源
+subtopic: Data sources
 title: 数据源工作原理
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
