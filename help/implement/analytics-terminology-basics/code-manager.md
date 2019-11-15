@@ -1,14 +1,12 @@
 ---
 description: 代码管理器可让您下载适用于 Web 和移动平台的数据收集代码。
-keywords: Analytics 实施;数据收集;代码管理器
-seo-description: 代码管理器可让您下载适用于 Web 和移动平台的数据收集代码。
-seo-title: 代码管理器
+keywords: Analytics Implementation;data collection;code manager
 solution: Analytics
 title: 代码管理器
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 4dc79214-a38b-4e1a-90f9-d09c8142dd0a
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -19,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **[!UICONTROL Analytics &gt; 管理员 &gt; 代码管理器]**。
 
-下载库后，您必须配置代码，以便将数据发送到正确的跟踪服务器和报表包。您可以在[开发人员和实施](https://marketing.adobe.com/resources/help/zh_CN/reference/developer.html)中找到其他实施资源。
+下载库后，您必须配置代码，以便将数据发送到正确的跟踪服务器和报表包。其他实施资源可在[开发人员与实施指南](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)中找到。
 
 ## “代码管理器”页面描述{#section_0C23784E20BD4631841FF24E5075DA12}
 
