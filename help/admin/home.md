@@ -1,10 +1,8 @@
 ---
 title: Analytics 管理帮助
-seo-title: Analytics 产品比较
 description: Adobe Analytics管理员的管理帮助，包括Admin Console中的用户和产品管理，用于设置报表包、变量、分类和数据收集。
-seo-description: Adobe Analytics管理员的管理帮助，包括Admin Console中的用户和产品管理，用于设置报表包、变量、分类和数据收集。
 translation-type: tm+mt
-source-git-commit: d868c0fe8406b096ca97081ad4dbb7d34a23212b
+source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
 
