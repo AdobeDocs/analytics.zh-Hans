@@ -1,13 +1,11 @@
 ---
 description: 部署 Analytics 时，动态标签管理中用于链接跟踪的字段描述。
-keywords: Dynamic Tag Management;链接跟踪;启用 Clickmap;跟踪下载链接;下载扩展;跟踪出站链接;保留 URL 参数
-seo-description: 部署 Analytics 时，动态标签管理中用于链接跟踪的字段描述。
-seo-title: 链接跟踪
+keywords: Dynamic Tag Management;link tracking;enable clickmap;track download links;download extensions;track outbound links;keep url parameters
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 链接跟踪
 uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
