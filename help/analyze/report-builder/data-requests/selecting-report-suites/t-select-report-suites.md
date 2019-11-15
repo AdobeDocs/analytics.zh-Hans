@@ -1,13 +1,11 @@
 ---
 description: 帮助您在 Excel 中选择报表包的步骤。
-seo-description: 帮助您在 Excel 中选择报表包的步骤。
-seo-title: 选择报表包
 solution: Analytics
 title: 选择报表包
-topic: Report Builder
-uuid: e9fb6e20-17c-4b36-aaec-19ccf407 da93
+topic: Report builder
+uuid: e9fb6e20-217c-4b36-aaec-19ccf407da93
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
