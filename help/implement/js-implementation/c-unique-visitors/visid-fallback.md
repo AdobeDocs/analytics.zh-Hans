@@ -1,14 +1,12 @@
 ---
 description: 如果其他访客 ID 方法失败，Adobe 会设置回退 Cookie 或使用 IP 地址和用户代理的组合来识别访客。
-keywords: Analytics 实施
-seo-description: 如果其他访客 ID 方法失败，Adobe 会设置回退 Cookie 或使用 IP 地址和用户代理的组合来识别访客。
-seo-title: 回退 ID 方法
+keywords: Analytics Implementation
 solution: Analytics
 title: 回退 ID 方法
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: f242d481-81f0-4287-be4f-52fd03eb01fc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
