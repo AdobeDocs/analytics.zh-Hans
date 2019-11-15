@@ -1,16 +1,14 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 智能提醒-使用案例
-title: 智能提醒-使用案例
-uuid: aa8e00f-4885-4861-a47 f-40c8 df8 f8539
+title: 智能警报 - 用例
+uuid: 2aa8e00f-4885-4861-a47f-40c8df1f8539
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 智能提醒-使用案例
+# 智能警报 - 用例
 
 ## 创建按两个区段过滤的简单警报 {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
 
