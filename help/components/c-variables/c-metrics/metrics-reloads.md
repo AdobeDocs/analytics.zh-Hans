@@ -1,13 +1,11 @@
 ---
 description: 当同一页面名称连续被加载两次时计数。这通常表明页面已被刷新。
-seo-description: 当同一页面名称连续被加载两次时计数。这通常表明页面已被刷新。
-seo-title: 重新载入
 solution: Analytics
 title: 重新载入
-topic: 量度
+topic: Metrics
 uuid: 0896ae8b-3db6-4b95-8dab-134946f98201
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
