@@ -1,16 +1,14 @@
 ---
 description: 了解Analysis Workspace中的细分功能。
-seo-description: 了解Analysis Workspace中的细分功能。
-seo-title: Analysis Workspace中的分段功能
-title: Analysis Workspace中的分段功能
-uuid: ed1d95e2-bd32-4f03-a007-1d3 e4 ca08 a5 b
+title: Analysis Workspace 中的分段功能
+uuid: ed1d95e2-bd32-4f03-a007-1d3e4ca08a5b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Analysis Workspace中的分段功能
+# Analysis Workspace 中的分段功能
 
 了解Analysis Workspace中的细分功能。
 
