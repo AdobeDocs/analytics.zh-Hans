@@ -1,14 +1,12 @@
 ---
 description: 导入器允许您将文件中的分类数据批量上载至分析报表。导入要求使用特定文件格式，才能成功上载数据。
-seo-description: 导入器允许您将文件中的分类数据批量上载至分析报表。导入要求使用特定文件格式，才能成功上载数据。
-seo-title: 分类数据文件
 solution: Analytics
-subtopic: 分类
+subtopic: Classifications
 title: 分类数据文件
-topic: 管理工具
+topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
