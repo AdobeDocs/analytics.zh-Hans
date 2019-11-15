@@ -1,12 +1,10 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 部署集成
 solution: Analytics
 title: 部署集成
 uuid: df3f24c9-d2e3-489e-b97e-e1af0d5dd1fa
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -36,7 +34,7 @@ source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
    | 链接 ID | 选择一个eVar以实时收集链接ID。 |
    | 消息ID | 选择一个eVar以实时收集消息ID。 |
    | Recipient ID | 选择一个eVar以实时收集收件人ID。 |
-   | 跳出次数 | 选择一个数字事件，以从ContactLab接收每日弹回。 |
+   | 跳出次数 | 选择一个数字事件以从ContactLab接收每日弹回。 |
    | 已发送 | 选择一个数字事件，以接收从ContactLab发送的每日发送。 |
    | 已单击 | 选择一个数字事件，以从ContactLab接收每日总点击量。 |
    | 已打开 | 从ContactLab中选择一个数字事件，以接收每日打开的总数。 |
@@ -66,4 +64,4 @@ source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
       ![](assets/reporting.png)
 
-   1. 查找ContactLab报告。 此数据应在成功部署后的24-48小时内显示。
+   1. 查找ContactLab报告。  此数据应在成功部署后的24-48小时内显示。
