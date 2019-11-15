@@ -1,10 +1,8 @@
 ---
 description: 此部分包含 Adobe Analytics 的关键概念，有关该概念的简要描述，以及具有该主题额外详细信息的特定文档链接。
-seo-description: 此部分包含 Adobe Analytics 的关键概念，有关该概念的简要描述，以及具有该主题额外详细信息的特定文档链接。
-seo-title: Adobe Analytics - 关键概念
 title: Adobe Analytics - 关键概念
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
