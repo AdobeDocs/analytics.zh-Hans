@@ -1,14 +1,12 @@
 ---
 description: Web 属性可以是包含在一个嵌入代码中且具有规则库的一个或多个域和子域的任意组合。
-keywords: Analytics 实施;实施方法;dynamic tag management;DTM;Web 属性;属性
-seo-description: Web 属性可以是包含在一个嵌入代码中且具有规则库的一个或多个域和子域的任意组合。
-seo-title: 创建 Web 属性
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;web property;property
 solution: Analytics
 title: 创建 Web 属性
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -21,7 +19,7 @@ Web 属性可以是包含在一个嵌入代码中且具有规则库的一个或�
 
 您可以使用 DTM 管理和跟踪这些资产。例如，假定您有多个基于一个模板的网站，并希望在所有这些网站中跟踪相同的资产。您可以将一个 Web 属性应用于多个域。
 
-有关 Web 属性和最佳实践的一般信息，请参阅 动 [态标签管理](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html) 产品文档中的Web属性。
+有关 Web 属性和最佳实践的一般信息，请参阅[Dynamic Tag Management 产品文档](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html)中的 Web 属性。
 
 1. 导航到您的公司页面，然后单击&#x200B;**[!UICONTROL 添加属性]**。
 
