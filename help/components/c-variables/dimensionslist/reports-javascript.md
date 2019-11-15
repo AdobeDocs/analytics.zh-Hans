@@ -1,13 +1,11 @@
 ---
 description: 根据设备是启用、禁用 JavaScript 还是当作“未识别”Javascript 来显示量度。
-seo-description: 根据设备是启用、禁用 JavaScript 还是当作“未识别”Javascript 来显示量度。
-seo-title: JavaScript 支持
 solution: Analytics
 title: JavaScript 支持
-topic: 报告
-uuid: 7b95001a-cd35-478a-8b24-54d3066110d
+topic: Reports
+uuid: 7b95001a-cd35-478a-8b24-54d30666110d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
