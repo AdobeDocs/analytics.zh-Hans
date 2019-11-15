@@ -1,13 +1,11 @@
 ---
 description: 描述报表构建器如何支持路径和流失报告，以及实施与报告与分析的不同之处。
-seo-description: 描述报表构建器如何支持路径和流失报告，以及实施与报告与分析的不同之处。
-seo-title: Report Builder 中的路径报表和路径流失报表
 solution: Analytics
 title: Report Builder 中的路径报表和路径流失报表
-topic: Report Builder
+topic: Report builder
 uuid: 9ca6cb97-8f31-46f6-977a-e81a89a176d1
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
