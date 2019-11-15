@@ -1,14 +1,12 @@
 ---
 description: 在Analysis Workspace中创建同期群并运行同期群分析报告。
 keywords: Analysis Workspace
-seo-description: 在Analysis Workspace中创建同期群并运行同期群分析报告。
-seo-title: 运行队列分析报表
 solution: Analytics
 title: 运行队列分析报表
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
