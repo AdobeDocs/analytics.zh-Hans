@@ -1,14 +1,12 @@
 ---
 description: 功能板是由一组以缩略图方式显示的报表（称为“缩图报表”）构成的。包含相关缩图报表的功能板非常有用，因为这样您就可以对网站的某些方面（如查找方法、访客资料等）有一个完整的概括性认识。
-seo-description: 功能板是由一组以缩略图方式显示的报表（称为“缩图报表”）构成的。包含相关缩图报表的功能板非常有用，因为这样您就可以对网站的某些方面（如查找方法、访客资料等）有一个完整的概括性认识。
-seo-title: 功能板和缩图报表
 solution: Analytics
-subtopic: 功能板
+subtopic: Dashboards
 title: 功能板和缩图报表
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
