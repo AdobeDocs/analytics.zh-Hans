@@ -1,20 +1,18 @@
 ---
 description: 'Activity Map 利用更加可靠的算法来跟踪链接 '
-seo-description: 'Activity Map 利用更加可靠的算法来跟踪链接 '
-seo-title: 可靠的链接跟踪
 solution: Analytics
 title: 可靠的链接跟踪
-topic: Activity Map
+topic: Activity map
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # 可靠的链接跟踪
 
-Activity Map 利用更加可靠的算法来跟踪链接：
+Activity Map 利用更加可靠的算法来跟踪链接:
 
 * 将页面区域的跟踪包括在内，以避免混淆不同设备上的相同链接，因为链接会出现在页面上不同的位置；
 * 确保链接的唯一性，即，不能因为链接 ID 的问题或不同浏览器造成的问题，将本不相同的链接误认为同一个链接。
