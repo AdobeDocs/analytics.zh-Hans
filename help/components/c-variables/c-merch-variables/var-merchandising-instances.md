@@ -1,14 +1,12 @@
 ---
 description: 描述实例如何在促销变量上进行计数。
-keywords: Analytics 实施
-seo-description: 描述实例如何在促销变量上进行计数。
-seo-title: 有关促销变量的实例
+keywords: Analytics Implementation
 solution: Analytics
 title: 有关促销变量的实例
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 4cdfd53e-88aa-48cf-a135-98f7fc8dcece
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
