@@ -1,13 +1,11 @@
 ---
 description: 如果您从现有的报表包中复制了设置，则会有一条系统消息来标识所有未复制到新报表包中的设置。
-seo-description: 如果您从现有的报表包中复制了设置，则会有一条系统消息来标识所有未复制到新报表包中的设置。
-seo-title: 未从源报表包复制的设置
 solution: Analytics
 title: 未从源报表包复制的设置
-topic: 管理工具
-uuid: 5176c561-a278-43e4-837f-a1775985d52
+topic: Admin tools
+uuid: 5176c561-a278-43e4-837f-a17759985d52
 translation-type: tm+mt
-source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
