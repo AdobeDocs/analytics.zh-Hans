@@ -1,13 +1,11 @@
 ---
 description: 根据客户使用的操作系统对 Web 流量分组。
-seo-description: 根据客户使用的操作系统对 Web 流量分组。
-seo-title: 操作系统
 solution: Analytics
 title: 操作系统
-topic: 报表
-uuid: 68307788-467a-4294-becc-921c105 a0825
+topic: Reports
+uuid: 68307788-467a-4294-becc-921c105a0825
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
