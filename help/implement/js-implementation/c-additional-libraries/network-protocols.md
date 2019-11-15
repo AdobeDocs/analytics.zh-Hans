@@ -1,14 +1,12 @@
 ---
 description: WAP 和 I-Mode 是当今采用的两种主要协议或标准。WAP 主要用于美国，而 I-Mode 常用于日本和欧洲。
-keywords: Analytics 实施;wap;i-mode
-seo-description: WAP 和 I-Mode 是当今采用的两种主要协议或标准。WAP 主要用于美国，而 I-Mode 常用于日本和欧洲。
-seo-title: 移动网络协议
+keywords: Analytics Implementation;wap;i-mode
 solution: Analytics
 title: 移动网络协议
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: b453677c-7449-4174-a243-a0eb024b319d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
