@@ -1,14 +1,12 @@
 ---
 description: 用于根据 page_event 值确定点击类型的对照表。
-keywords: 数据源；页；事件；page_event;post_page_event
-seo-description: 用于根据 page_event 值确定点击类型的对照表。
-seo-title: 页面事件对照
+keywords: Data Feed;page;event;page_event;post_page_event
 solution: Analytics
 title: 页面事件对照
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
