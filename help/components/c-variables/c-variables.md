@@ -1,10 +1,8 @@
 ---
 title: 变量
 description: Analytics变量的登录页面
-seo-title: Analytics 变量
-seo-description: Analytics变量
 translation-type: tm+mt
-source-git-commit: 1b8fd205eb843e2e207b5a62ba3dca313a07bce9
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -13,5 +11,5 @@ source-git-commit: 1b8fd205eb843e2e207b5a62ba3dca313a07bce9
 
 * [量度](/help/components/c-variables/c-metrics/metricslist.md)
 * [维度](/help/components/c-variables/dimensionslist/dimension-compatibility.md)
-* [销售变量](/help/components/c-variables/c-merch-variables/var-merchandising.md)
-* See also [Implementation variables](/help/implement/js-implementation/c-variables/evars-events.md) in the Implementation Guide.
+* [促销变量](/help/components/c-variables/c-merch-variables/var-merchandising.md)
+* 另请参 [阅实施指南](/help/implement/js-implementation/c-variables/evars-events.md) 中的实施变量。
