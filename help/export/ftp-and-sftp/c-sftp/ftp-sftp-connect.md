@@ -1,13 +1,11 @@
 ---
 description: 有关通过 Adobe FTP 服务器设置安全传输的说明。
 keywords: ftp;sftp
-seo-description: 有关通过 Adobe FTP 服务器设置安全传输的说明。
-seo-title: 通过 SFTP 连接到 Adobe FTP 帐户
 solution: Analytics
 title: 通过 SFTP 连接到 Adobe FTP 帐户
 uuid: 4faf27b8-7276-4c68-87cb-35802b809e27
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
