@@ -1,14 +1,12 @@
 ---
 description: 分类是一种对Analytics变量数据进行分类的方法，然后在生成报告时以不同的方式显示数据。
-seo-description: 分类是一种对Analytics变量数据进行分类的方法，然后在生成报告时以不同的方式显示数据。
-seo-title: 关于分类
 solution: Analytics
-subtopic: 分类
+subtopic: Classifications
 title: 关于分类
-topic: 管理工具
+topic: Admin tools
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
