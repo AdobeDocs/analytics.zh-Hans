@@ -1,14 +1,12 @@
 ---
 description: 有关计划、下载和分发报表的信息。
-seo-description: 有关计划、下载和分发报表的信息。
-seo-title: 报表计划和分发
 solution: Analytics
-subtopic: 计划
+subtopic: Schedule
 title: 报表计划和分发
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
