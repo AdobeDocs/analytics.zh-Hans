@@ -1,15 +1,13 @@
 ---
 description: 启用流量量度、转化量度、自定义事件、解决方案事件和内容识别的权限。
-keywords: 用户组；权限
-seo-description: 启用流量量度、转化量度、自定义事件、解决方案事件和内容识别的权限。
-seo-title: 自定义量度权限
+keywords: groups;permissions
 solution: Analytics
-subtopic: 用户和用户组
+subtopic: Users and groups
 title: 自定义量度权限
-topic: 管理工具
+topic: Admin tools
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
