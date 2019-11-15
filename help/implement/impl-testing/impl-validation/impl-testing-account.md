@@ -1,14 +1,12 @@
 ---
 description: 运行 Experience Cloud 调试器时，您可能想要查找 s_account 变量。
-keywords: Analytics 实施
-seo-description: 运行 Experience Cloud 调试器时，您可能想要查找 s_account 变量。
-seo-title: 在调试器中确定 s_account 变量
+keywords: Analytics Implementation
 solution: Analytics
 title: 在调试器中确定 s_account 变量
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: aae1763a-07e0-45e7-9695-15862d77c0ec
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
