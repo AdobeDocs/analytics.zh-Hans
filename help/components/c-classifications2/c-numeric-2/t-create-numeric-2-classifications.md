@@ -1,14 +1,12 @@
 ---
 description: 创建数值 2 分类的方法与创建其他分类的方法相同。您只能将数值 2 分类添加到转化变量或渠道变量。
-seo-description: 创建数值 2 分类的方法与创建其他分类的方法相同。您只能将数值 2 分类添加到转化变量或渠道变量。
-seo-title: 创建数值 2 分类
 solution: Analytics
-subtopic: 分类
+subtopic: Classifications
 title: 创建数值 2 分类
-topic: 管理工具
+topic: Admin tools
 uuid: 5573e009-49aa-4dd6-8ac7-73046e4d9938
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
