@@ -1,12 +1,10 @@
 ---
 description: 比如说，您可以了解去年特定时间范围内的每日服务器调用平均值，以及服务器调用量在今年的预期增加量。您随后可计划基于此乘数因子的流量峰值。
-seo-description: 比如说，您可以了解去年特定时间范围内的每日服务器调用平均值，以及服务器调用量在今年的预期增加量。您随后可计划基于此乘数因子的流量峰值。
-seo-title: 评估过去的服务器调用并计划流量尖峰
 solution: Analytics
 title: 评估过去的服务器调用并计划流量尖峰
 uuid: 38deb1df-afb0-437d-b541-69295f0dc8dc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
