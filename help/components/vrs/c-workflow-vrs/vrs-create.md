@@ -1,14 +1,12 @@
 ---
 description: 在您开始创建虚拟报表包之前，请注意下面一些事项。
-keywords: 虚拟报表包
-seo-description: 在您开始创建虚拟报表包之前，请注意下面一些事项。
-seo-title: 创建虚拟报表包
+keywords: Virtual Report Suite
 solution: Analytics
 title: 创建虚拟报表包
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
