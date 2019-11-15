@@ -1,14 +1,12 @@
 ---
 description: 您可以使用关联选项通过组合其他值来填充值。
-seo-description: 您可以使用关联选项通过组合其他值来填充值。
-seo-title: 通过连接类别和页面名称添加子类别
 solution: Analytics
-subtopic: 处理规则
+subtopic: Processing rules
 title: 通过连接类别和页面名称添加子类别
-topic: 管理工具
+topic: Admin tools
 uuid: 45e5b004-690f-4d66-98f1-29baf9a954d0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
