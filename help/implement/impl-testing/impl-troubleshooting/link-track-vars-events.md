@@ -1,14 +1,12 @@
 ---
 description: 成功实施链接跟踪的关键是理解 s.linkTrackVars 和 s.linkTrackEvents 变量。这样，您可以在用户操作中传递自定义变量值。
-keywords: Analytics 实施
-seo-description: 成功实施链接跟踪的关键是理解 s.linkTrackVars 和 s.linkTrackEvents 变量。这样，您可以在用户操作中传递自定义变量值。
-seo-title: 使用 s.linkTrackVars 和 s.linkTrackEvents
+keywords: Analytics Implementation
 solution: Analytics
 title: 使用 s.linkTrackVars 和 s.linkTrackEvents
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: f6b7019b-987b-4b7d-a446-80205f7cc36c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
