@@ -1,13 +1,11 @@
 ---
 description: 付费搜索检测可将搜索引擎和搜索关键词报表中的付费搜索与免费搜索区别开来。您可以指定在其中使用付费广告的搜索引擎，并且指定一个从访问付费广告的 URL 中找到的字符串。
-seo-description: 付费搜索检测可将搜索引擎和搜索关键词报表中的付费搜索与免费搜索区别开来。您可以指定在其中使用付费广告的搜索引擎，并且指定一个从访问付费广告的 URL 中找到的字符串。
-seo-title: 付费搜索检测
 solution: Analytics
 title: 付费搜索检测
-topic: 管理工具
-uuid: 41aadf17-7b8b-49ce-84ca-dc329360205
+topic: Admin tools
+uuid: 41aadf17-7b8b-49ce-84ca-dc3293660205
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
