@@ -1,15 +1,13 @@
 ---
 description: getVisitNum 插件可以确定用户访问网站的次数，并在 Analytics 变量中捕获这一数量。
-keywords: Analytics 实施
-seo-description: getVisitNum 插件可以确定用户访问网站的次数，并在 Analytics 变量中捕获这一数量。
-seo-title: getVisitNum
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 插件
+subtopic: Plug-ins
 title: getVisitNum
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 27d57f92-fffb-44d0-b9ca-9da93323f64c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
