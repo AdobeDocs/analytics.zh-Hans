@@ -1,13 +1,11 @@
 ---
 description: “页面查看”报表是一个趋势报表，它显示选定时段（小时、日、周、月、季或年）内网站页面的查看次数。您可以利用此报表来跟踪网站中每个页面的查看次数，以及整个网站的页面查看次数总和。
-seo-description: 页面查看报表是一个趋势报表，它显示选定时段（小时、日、周、月、季或年）内网站页面的查看次数。您可以利用此报表来跟踪网站中每个页面的查看次数，以及整个网站的页面查看次数总和。
-seo-title: 页面查看次数
 solution: Analytics
 title: 页面查看次数
-topic: 报告
+topic: Reports
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
