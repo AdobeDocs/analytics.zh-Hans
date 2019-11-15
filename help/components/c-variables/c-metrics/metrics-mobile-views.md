@@ -1,13 +1,11 @@
 ---
 description: 通过移动设备访问时，页面的查看次数或维度的设置次数。仅限 Ad Hoc Analysis。
-seo-description: 通过移动设备访问时，页面的查看次数或维度的设置次数。仅限 Ad Hoc Analysis。
-seo-title: 移动设备查看次数
 solution: Analytics
 title: 移动设备查看次数
-topic: 量度
+topic: Metrics
 uuid: ba6ba9e8-3242-4a38-ae7b-359f821e2a46
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
