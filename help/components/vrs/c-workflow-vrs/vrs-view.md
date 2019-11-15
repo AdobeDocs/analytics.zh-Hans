@@ -1,14 +1,12 @@
 ---
 description: 单击报表包名称旁边的 i（信息）图标可获取有关该报表包的信息。
-keywords: 虚拟报表包
-seo-description: 单击报表包名称旁边的 i（信息）图标可获取有关该报表包的信息。
-seo-title: 查看虚拟报表包信息
+keywords: Virtual Report Suite
 solution: Analytics
 title: 查看虚拟报表包信息
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
