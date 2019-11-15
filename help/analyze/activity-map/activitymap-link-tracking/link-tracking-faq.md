@@ -1,13 +1,11 @@
 ---
 description: 有关 Activity Map 中链接跟踪的常见问题解答。
-seo-description: 有关 Activity Map 中链接跟踪的常见问题解答。
-seo-title: 链接跟踪常见问题解答
 solution: Analytics
 title: 链接跟踪常见问题解答
-topic: Activity Map
+topic: Activity map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
