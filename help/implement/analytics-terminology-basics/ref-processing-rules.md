@@ -1,14 +1,12 @@
 ---
 description: 处理规则简化了数据收集，并在数据被发送到报表时对内容进行管理。
-keywords: Analytics 实施;处理规则;规则
-seo-description: 处理规则简化了数据收集，并在数据被发送到报表时对内容进行管理。
-seo-title: 处理规则
+keywords: Analytics Implementation;processing rules;rules
 solution: Analytics
 title: 处理规则
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 6655a82f-4eb1-4c28-918e-168254ab1f92
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
