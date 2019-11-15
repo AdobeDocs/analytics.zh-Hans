@@ -1,14 +1,12 @@
 ---
 description: 使用处理规则时，您可以读取和写入的维度（另有说明的除外）。
-seo-description: 使用处理规则时，您可以读取和写入的维度（另有说明的除外）。
-seo-title: 可用于处理规则的维度
 solution: Analytics
-subtopic: 处理规则
+subtopic: Processing rules
 title: 可用于处理规则的维度
-topic: 管理工具
+topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
