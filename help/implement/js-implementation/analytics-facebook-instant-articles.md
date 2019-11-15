@@ -1,14 +1,12 @@
 ---
 description: 如何在 Facebook Instant Articles 中实施分析。
-keywords: Analytics 实施;嵌入;自定义变量;自定义事件;访客跟踪;跟踪;限制
-seo-description: 如何在 Facebook Instant Articles 中实施分析。
-seo-title: Facebook Instant Articles（即时文章）
+keywords: Analytics Implementation;embed;custom variable;custom event;visitor tracking;tracking;limitations
 solution: Analytics
 title: Facebook Instant Articles（即时文章）
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
