@@ -1,13 +1,11 @@
 ---
 description: 通过编辑、应用过滤器更新请求后，或者需要查看更新的数据时，您需要刷新请求。您可以选择一个工作表中的多个请求，然后一次刷新所有这些请求。
-seo-description: 通过编辑、应用过滤器更新请求后，或者需要查看更新的数据时，您需要刷新请求。您可以选择一个工作表中的多个请求，然后一次刷新所有这些请求。
-seo-title: 刷新请求
 solution: Analytics
 title: 刷新请求
-topic: Report Builder
+topic: Report builder
 uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
