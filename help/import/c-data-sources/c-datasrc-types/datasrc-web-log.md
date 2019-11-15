@@ -1,14 +1,12 @@
 ---
 description: 网络日志数据源允许您导入标准的网站服务器日志文件。
-seo-description: 网络日志数据源允许您导入标准的网站服务器日志文件。
-seo-title: 网络日志
 solution: Analytics
-subtopic: 数据源
+subtopic: Data sources
 title: 网络日志
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: a0efed57-6d1b-43d8-97ce-dc31009805e0
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
