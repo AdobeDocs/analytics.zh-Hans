@@ -1,13 +1,11 @@
 ---
 description: 显示指定时间段内整个网站的访问量。
-seo-description: 显示指定时间段内整个网站的访问量。
-seo-title: 访问
 solution: Analytics
 title: 访问
-topic: 报告
+topic: Reports
 uuid: ff65bddf-fb65-4cf0-8aae-4ab59c2bb0a7
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
