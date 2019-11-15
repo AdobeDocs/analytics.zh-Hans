@@ -1,13 +1,11 @@
 ---
 description: Report Builder 提交的优化方式及有时可能出现的错误消息的列表。
-seo-description: Report Builder 提交的优化方式及有时可能出现的错误消息的列表。
-seo-title: Report Builder 疑难解答和最佳实践
 solution: Analytics
 title: Report Builder 疑难解答和最佳实践
-topic: Report Builder
+topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
