@@ -1,14 +1,12 @@
 ---
 description: 部署此集成是一个简单的过程，需要执行以下操作。
-seo-description: 部署此集成是一个简单的过程，需要执行以下操作。
-seo-title: 部署集成
 solution: Analytics
 subtopic: Qualtrics
 title: 部署集成
 topic: Data connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -42,7 +40,7 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
    |---|---|
    | 事件 | 选择最多五个要显示的自定义事件以导出到Qualtrics |
    | Prop | 选择最多五个要公开的Prop以导出到Qualtrics |
-   |  访问请求 | 选中要导出到Qualtrics的任何标准度量和维度的复选框。 需 `visitor_id` 要允许导出正常工作。 |
+   | 访问请求 | 选中要导出到Qualtrics的任何标准度量和维度的复选框。 需 `visitor_id` 要允许导出正常工作。 |
 
 1. **向导步骤5**:查看配置，然后单击“ **[!UICONTROL 立即激活”]**。
 
