@@ -1,13 +1,11 @@
 ---
 description: 在“区段管理器”中，您可以通过标记区段来组织区段。
-seo-description: 在“区段管理器”中，您可以通过标记区段来组织区段。
-seo-title: 标记区段
 solution: Analytics
 title: 标记区段
-topic: 区段
+topic: Segments
 uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
