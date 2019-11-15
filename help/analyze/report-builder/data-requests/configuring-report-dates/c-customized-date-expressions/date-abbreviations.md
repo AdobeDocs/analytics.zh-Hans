@@ -1,13 +1,11 @@
 ---
 description: 时间缩写是指某一时段具体的开始日期，而不是天数范围。天数范围通过使用两个时间缩写（或词）指定开始日期和结束日期来表示。
-seo-description: 时间缩写是指某一时段具体的开始日期，而不是天数范围。天数范围通过使用两个时间缩写（或词）指定开始日期和结束日期来表示。
-seo-title: 日期缩写
 solution: Analytics
 title: 日期缩写
-topic: Report Builder
+topic: Report builder
 uuid: 829d613e-5900-4586-a9fc-239988492d8b
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
