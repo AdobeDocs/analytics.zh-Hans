@@ -1,13 +1,11 @@
 ---
 description: 描述如何添加和启用流量变量报表的步骤。
-seo-description: 描述如何添加和启用流量变量报表的步骤。
-seo-title: 启用流量变量报表
 solution: Analytics
 title: 启用流量变量报表
-topic: 管理工具
-uuid: c4109da1-4d46-407c-9ca7-cb22 eda68 ba
+topic: Admin tools
+uuid: c4109da1-4d46-407c-9ca7-cb22edaa68ba
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
