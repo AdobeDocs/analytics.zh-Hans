@@ -1,10 +1,8 @@
 ---
 title: 为移动设备实施分析
-seo-title: 为移动设备实施分析
 description: 'null'
-seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: 4907b2930d894525b93b02f743c095f824a61a3b
+source-git-commit: bc8d4e922a776596c9af83a1cd6e22f8967ef2d0
 
 ---
 
@@ -36,5 +34,5 @@ source-git-commit: 4907b2930d894525b93b02f743c095f824a61a3b
 *注意：不再支持用于移动设备的AppMeasurement 3.x SDK。 但是，SDK的文档如下所示。*
 
 
-* [iOS文档](https://git.corp.adobe.com/AdobeDocs/analytics.en/blob/master/assets/adobe_mobile_ios_3.x.pdf)
-* [Android文档](https://git.corp.adobe.com/AdobeDocs/analytics.en/blob/master/assets/android_3.x.pdf)
+* [iOS文档](/assets/adobe_mobile_ios_3.x.pdf)
+* [Android文档](/assets/android_3.x.pdf)
