@@ -1,13 +1,11 @@
 ---
 description: 商品被添加到购物车的次数。该值来自于 scAdd 事件。
-seo-description: 商品被添加到购物车的次数。该值来自于 scAdd 事件。
-seo-title: 购物车加货
 solution: Analytics
 title: 购物车加货
-topic: 量度
-uuid: d034ba4c-f78 b-4ce3-9ba2-dd158 e26 ede5
+topic: Metrics
+uuid: d034ba4c-f78b-4ce3-9ba2-dd158e26ede5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
