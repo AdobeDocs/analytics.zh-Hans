@@ -1,13 +1,11 @@
 ---
 description: 单次存取由网站的访问量（包含一个唯一的页面名称值）定义。如果用户进入您的网站并点击跟踪链接、触发了事件（例如视频查看），或重新载入页面，则访问仍会被视为一次单次存取。只要 pageName 变量的值没有更改，就可以发送任意次请求，并且访问仍然会被视为一次单次存取。
-seo-description: 单次存取由网站的访问量（包含一个唯一的页面名称值）定义。如果用户进入您的网站并点击跟踪链接、触发了事件（例如视频查看），或重新载入页面，则访问仍会被视为一次单次存取。只要 pageName 变量的值没有更改，就可以发送任意次请求，并且访问仍然会被视为一次单次存取。
-seo-title: 单次存取
 solution: Analytics
 title: 单次存取
-topic: 量度
-uuid: e35a12e-53ca-45a5-84a6-6eedbf3f4639
+topic: Metrics
+uuid: 3e35a12e-53ca-45a5-84a6-6eedbf3f4639
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
