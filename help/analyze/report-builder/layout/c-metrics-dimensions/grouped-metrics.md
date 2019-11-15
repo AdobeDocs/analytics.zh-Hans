@@ -1,18 +1,16 @@
 ---
 description: 现在您可以在同一请求中组合使用这两种量度类型，而不必分别创建不同的请求。
-seo-description: 现在您可以在同一请求中组合使用这两种量度类型，而不必分别创建不同的请求。
-seo-title: 在同一请求中组合流量和商务指标
 solution: Analytics
-title: 在同一请求中组合流量和商务指标
-topic: Report Builder
-uuid: 2813d594-f4 ec-4f6 a-8539-ec7 d954 a392 f
+title: 在同一请求中组合使用流量和商务量度
+topic: Report builder
+uuid: 2813d594-f4ec-4f6a-8539-ec7d954a392f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 在同一请求中组合流量和商务指标
+# 在同一请求中组合使用流量和商务量度
 
 现在您可以在同一请求中组合使用这两种量度类型，而不必分别创建不同的请求。
 
