@@ -1,11 +1,9 @@
 ---
 description: 配置用户和了解数据取样。
-seo-description: 配置用户和了解数据取样。
-seo-title: 管理
 title: 管理
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
