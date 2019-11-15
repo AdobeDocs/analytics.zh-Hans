@@ -1,14 +1,12 @@
 ---
 description: 分类规则生成器中的页面上界面元素的定义。
-seo-description: 分类规则生成器中的页面上界面元素的定义。
-seo-title: 分类规则 - 定义
 solution: Analytics
-subtopic: 分类
+subtopic: Classifications
 title: 分类规则 - 定义
-topic: 管理工具
+topic: Admin tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 translation-type: tm+mt
-source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
