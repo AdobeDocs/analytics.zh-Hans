@@ -1,10 +1,8 @@
 ---
 title: Adobe Analytics 管理入门指南
-seo-title: Adobe Analytics 管理入门指南
 description: 了解如何开始使用Adobe Analytics、常规角色类型和登录UI。
-seo-description: 了解如何开始使用Adobe Analytics、常规角色类型和登录UI。
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -29,7 +27,7 @@ source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
 系统级管理员无法直接访问产品，但是，他们可以通过添加自己为产品级管理员来授予自己访问权限。 如果您希望自己或其他人有权访问Adobe Analytics，您可以执行以下步骤。
 
 1. 使用您的Adobe ID凭 [据登录到Admin Console](https://adminconsole.adobe.com/) 。
-1. 单击顶部的“产品”选项卡。 您的组织购买的所有产品都位于左侧。 单击Adobe Analytics，然后单击“新建配置文件”按钮。
+1. 单击顶部的“产品”选项卡。 您的组织购买的所有产品都位于左侧。 单击“Adobe Analytics”，然后单击“新建配置文件”按钮。
 1. 将此配置文件命名为“Analytics完全管理员访问权限”，然后单击完成。
 1. 返回至“产品配置文件”页面，单击新创建的配置文件，然后单击“权限”选项卡。
 1. 单击其中一个权限行项目。 如果“自动包含”可用，请启用它。 如果“自动包含”不可用，请单击“全部添加”。 这两个选项都会将所有权限项目移到右列。
