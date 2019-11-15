@@ -1,14 +1,12 @@
 ---
 description: 书签可让您访问最常用的报表。创建的书签会添加到 Experience Cloud 中，并可在 Data Connectors 等集成功能中使用。
-seo-description: 书签可让您访问最常用的报表。创建的书签会添加到 Experience Cloud 中，并可在 Data Connectors 等集成功能中使用。
-seo-title: 书签管理器
 solution: Analytics
-subtopic: 书签
+subtopic: Bookmarks
 title: 书签管理器
-topic: Reports & Analytics
-uuid: a1287da-8a39-4add-90b0-f311 b5 e83722
+topic: Reports and analytics
+uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -29,11 +27,11 @@ t_bookmarks_creating.xml
 
 1. Run a report, then click **[!UICONTROL Bookmark.]**.
 
-       |名称| A此书签的用户友好名称。|
-       |---|---|
-       |Add to|Specifies the folder in which you want to place the bookmark.|
-       |Make Public| Makes this bookmark available for users with access to the report suite.|
-       |Display report upon login| Displays the report when you log in.|
+       |名称|此书签的用户友好名称。
+    |
+ |—|—|     |添加到|指定要在其中放置书签的文件夹。
+|     |公开|向有权访问报表包的用户提供此书签。
+|     |登录时显示报告|登录时显示报告。|
    
 ## 管理书签 {#task_1EE793CB52EA467787817BBD98DEF150}
 
@@ -45,7 +43,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL “分析]** ”&gt; **[!UICONTROL “组件]** ”&gt;“ **[!UICONTROL 书签]**”。
+**[!UICONTROL Analytics]** &gt; Components **** &gt; **[!UICONTROL Bookmarks]**。
 
 **我的书签**
 
