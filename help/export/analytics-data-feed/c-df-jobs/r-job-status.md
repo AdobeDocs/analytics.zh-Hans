@@ -1,13 +1,11 @@
 ---
 description: 作业旁可显示若干状态标签。
-keywords: 数据馈送；作业；状态；等待数据；失败；就绪；处理；完成；无数据
-seo-description: 作业旁可显示若干状态标签。
-seo-title: 作业状态
+keywords: Data Feed;job;status;waiting for data;failed;ready;processing;complete;no data
 solution: Analytics
 title: 作业状态
 uuid: 0058b83f-7bff-4fd0-bb9f-ab15616d29cf
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
