@@ -1,10 +1,8 @@
 ---
 title: 在 Launch 中创建 Analytics 属性
-seo-title: 在 Adobe Experience Platform Launch 中创建 Adobe Analytics 属性
 description: 使用 Adobe Experience Platform Launch 创建一个空间以自定义收集数据的方式。
-seo-description: 使用 Adobe Experience Platform Launch 创建一个空间以自定义在 Adobe Analytics 中收集数据的方式。
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
