@@ -1,19 +1,17 @@
 ---
 description: 分类用于对值进行分组归类，并按照分组级别进行报告。例如，您可将所有“付费搜索”促销活动归为一个类似于流行音乐术语的类别，并且相对于“实例”（点进次数）等量度，报告该类别的成功以及有关成功事件的转化。
-seo-description: 分类用于对值进行分组归类，并按照分组级别进行报告。例如，您可将所有“付费搜索”促销活动归为一个类似于流行音乐术语的类别，并且相对于“实例”（点进次数）等量度，报告该类别的成功以及有关成功事件的转化。
-seo-title: 转换分类
 solution: Analytics
-subtopic: 分类
-title: 转换分类
-topic: 管理工具
-uuid: b088ea-4b-8ab7-4cf-96c6-8567d91fb8cf
+subtopic: Classifications
+title: 转化分类
+topic: Admin tools
+uuid: b088ea4b-8ab7-4ccf-96c6-8567d91fb8cf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 转换分类
+# 转化分类
 
 分类用于对值进行分组归类，并按照分组级别进行报告。例如，您可将所有“付费搜索”促销活动归为一个类似于流行音乐术语的类别，并且相对于“实例”（点进次数）等量度，报告该类别的成功以及有关成功事件的转化。
 
