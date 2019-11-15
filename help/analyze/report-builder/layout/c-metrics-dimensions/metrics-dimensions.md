@@ -1,13 +1,11 @@
 ---
 description: 您可以向请求向导第2步中添加度量和维度，以定义请求中数据的分析布局。 Report Builder中的度量和维度列表遵循“报告和分析”中显示的菜单布局。
-seo-description: 您可以向请求向导第2步中添加度量和维度，以定义请求中数据的分析布局。 Report Builder中的度量和维度列表遵循“报告和分析”中显示的菜单布局。
-seo-title: 量度和维度概述
 solution: Analytics
 title: 量度和维度概述
-topic: Report Builder
+topic: Report builder
 uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
