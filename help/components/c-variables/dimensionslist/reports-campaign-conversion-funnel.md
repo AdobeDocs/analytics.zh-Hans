@@ -1,13 +1,11 @@
 ---
 description: 显示“促销活动”报表组中量度的平均值。默认量度包括点进次数、总销售额、订购及收入。
-seo-description: 显示“促销活动”报表组中量度的平均值。默认量度包括点进次数、总销售额、订购及收入。
-seo-title: 促销活动转化漏斗
 solution: Analytics
 title: 促销活动转化漏斗
-topic: 报告
+topic: Reports
 uuid: b0a90917-e4c7-40da-854e-58649de09742
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
