@@ -1,13 +1,11 @@
 ---
 description: 将移动设备分组为移动电话、平板电脑、电子阅读器、游戏机、电视、机顶盒、媒体播放器及其他高级别分类，以便查看各种移动设备类型之间的分布情况。
-seo-description: 将移动设备分组为移动电话、平板电脑、电子阅读器、游戏机、电视、机顶盒、媒体播放器及其他高级别分类，以便查看各种移动设备类型之间的分布情况。
-seo-title: 设备类型
 solution: Analytics
 title: 设备类型
-topic: 报告
+topic: Reports
 uuid: e1224769-9a94-4cad-a1ed-e285d60d23f3
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
