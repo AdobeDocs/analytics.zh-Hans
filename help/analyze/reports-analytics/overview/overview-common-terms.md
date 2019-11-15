@@ -1,13 +1,11 @@
 ---
 description: 有关市场营销报告中常用 Web 分析术语的介绍。
-seo-description: 有关市场营销报告中常用 Web 分析术语的介绍。
-seo-title: 常用术语
 solution: Analytics
 title: 常用术语
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
 translation-type: tm+mt
-source-git-commit: f7b0a6d53c9c43aa51c3e0fe14ec0569c91cdad2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
