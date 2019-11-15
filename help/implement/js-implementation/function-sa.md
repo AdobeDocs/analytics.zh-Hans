@@ -1,15 +1,13 @@
 ---
 description: s.sa() 函数允许您在触发图像请求的前后，随时在页面上动态更改报表包。
-keywords: Analytics 实施
-seo-description: s.sa() 函数允许您在触发图像请求的前后，随时在页面上动态更改报表包。
-seo-title: s.sa() 函数
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 函数
+subtopic: Functions
 title: s.sa() 函数
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: a6aacd10-2a5b-448b-b3b7-bed5590b71d4
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
