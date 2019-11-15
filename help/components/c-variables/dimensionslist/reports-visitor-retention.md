@@ -1,13 +1,11 @@
 ---
 description: 显示有关客户忠诚度的信息。您可以查看访客再次访问您的网站的次数和频率。此类报表显示客户忠诚度信息。您可以查看访客再次访问您的网站的次数和频率。
-seo-description: 显示有关客户忠诚度的信息。您可以查看访客再次访问您的网站的次数和频率。此类报表显示客户忠诚度信息。您可以查看访客再次访问您的网站的次数和频率。
-seo-title: 访客维系
 solution: Analytics
 title: 访客维系
-topic: 报告
+topic: Reports
 uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
