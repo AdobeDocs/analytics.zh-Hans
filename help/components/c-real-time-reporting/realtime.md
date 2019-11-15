@@ -1,13 +1,11 @@
 ---
 description: 实时显示 Web 页面流量和并对页面查看次数进行排名。提供制定业务决策所需的可操作数据。
-seo-description: 实时显示 Web 页面流量和并对页面查看次数进行排名。提供制定业务决策所需的可操作数据。
-seo-title: 实时报告概述
 solution: Analytics
 title: 实时报告概述
-topic: 报告
+topic: Reports
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -18,7 +16,7 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 >[!NOTE]
 >
->实时报告无需额外实施或标记。 它可以充分利用您现有的 Adobe Analytics 实施。要配置实时报表，请参阅 [实时报表配置](/help/components/c-real-time-reporting/t-realtime-admin.md).
+> 实时报告无需额外实施或标记。 它可以充分利用您现有的 Adobe Analytics 实施。要配置实时报表，请参阅 [实时报表配置](/help/components/c-real-time-reporting/t-realtime-admin.md).
 
 **[!UICONTROL 网站指标]** &gt; **[!UICONTROL 实时]**
 
@@ -57,4 +55,4 @@ After the A4T integration is enabled in Adobe [!DNL Target], you will experience
 * 对于实时流、实时报表和 API 请求，以及流量变量的当前数据，仅包含额外数据 ID 的点击会发生延迟。
 * 对于转化量度的当前数据、最终数据和数据馈送，所有的点击都会额外延迟 5 至 7 分钟的时间。
 
-请注意，即使您尚未完全实现此集成，延迟也会在实施Identity service后开始增加。
+请注意，实施 Identity 服务之后，即使您还未完全实施 A4T 集成，滞后的时间也会开始增加。
