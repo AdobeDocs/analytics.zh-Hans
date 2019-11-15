@@ -1,15 +1,13 @@
 ---
 description: 使用 APL（或 appendList）插件，您可以为任意分隔值列表附加更多的值，同时还可选择是否执行区分大小写（或不区分大小写）检查以确保附加的值不会已存在于列表中。此 APL 插件由多个标准插件引用，但在多种情况下也可直接使用。
-keywords: Analytics 实施
-seo-description: 使用 APL（或 appendList）插件，您可以为任意分隔值列表附加更多的值，同时还可选择是否执行区分大小写（或不区分大小写）检查以确保附加的值不会已存在于列表中。此 APL 插件由多个标准插件引用，但在多种情况下也可直接使用。
-seo-title: appendList
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 插件
+subtopic: Plug-ins
 title: appendList
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
