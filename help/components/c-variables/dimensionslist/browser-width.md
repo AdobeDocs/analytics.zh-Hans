@@ -1,13 +1,11 @@
 ---
 description: 这两个量度专指浏览器窗口中数据的水平/垂直距离。如需具体信息，请参阅浏览器
-seo-description: 这两个量度专指浏览器窗口中数据的水平/垂直距离。如需具体信息，请参阅浏览器
-seo-title: 浏览器宽度/高度
 solution: Analytics
 title: 浏览器宽度/高度
-topic: 量度
+topic: Metrics
 uuid: 1c0d3ea9-e001-4152-9bfc-8fe6406bc755
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
