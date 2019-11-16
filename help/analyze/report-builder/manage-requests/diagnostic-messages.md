@@ -1,13 +1,11 @@
 ---
 description: 诊断消息在您刷新请求时提供有关请求状态的信息。
-seo-description: 诊断消息在您刷新请求时提供有关请求状态的信息。
-seo-title: 诊断消息
 solution: Analytics
 title: 诊断消息
-topic: Report Builder
+topic: Report builder
 uuid: 8ba783b7-5c81-4d60-b830-ff10313a3b01
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
