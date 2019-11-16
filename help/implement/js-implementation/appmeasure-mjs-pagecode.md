@@ -1,15 +1,13 @@
 ---
 description: 本部分包含您的核心 JavaScript 文件及站点页面的示例代码。
-keywords: Analytics 实施;appmeasurement.js 代码;页面代码示例
-seo-description: 本部分包含您的核心 JavaScript 文件及站点页面的示例代码。
-seo-title: 示例页面代码和全局配置
+keywords: Analytics Implementation;appmeasurement.js code;example page code
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: 示例页面代码和全局配置
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: e8880d77-172b-42e5-8187-ce371aa9eff9
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
