@@ -1,11 +1,9 @@
 ---
 description: Analytics 和 Audience Manager 均使用区段。但是，Analytics 区段和 Audience Manager 区段并不完全一样。这些区别在某种程度上造成了 Analytics 和 Audience Manager 报表之间的差异。因此，当您开始使用这两种解决方案中的区段时，尝试了解这些差异是非常重要和有用的。
-seo-description: Analytics 和 Audience Manager 均使用区段。但是，Analytics 区段和 Audience Manager 区段并不完全一样。这些区别在某种程度上造成了 Analytics 和 Audience Manager 报表之间的差异。因此，当您开始使用这两种解决方案中的区段时，尝试了解这些差异是非常重要和有用的。
-seo-title: 了解 Analytics 和 Audience Manager 中的区段
 title: 了解 Analytics 和 Audience Manager 中的区段
-uuid: 13f7d1d7-6a3f-42f1-822e-8d352399efa
+uuid: 13f7d1d7-6a3f-42f1-822e-8d3523999efa
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
