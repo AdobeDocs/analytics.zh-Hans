@@ -14,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 使用“计划尖峰”部分可以提醒 Adobe 注意临时峰值，以便我们能够分配适当的资源来处理此情况。
 
-在计划流量尖峰之前，请 [阅读有关“流量增加所需的提前期](/help/admin/c-traffic-management/traffic-lead-time.md) ”的信息。
+请在计划流量尖峰之前，阅读有关[流量增长必需的前置时间](/help/admin/c-traffic-management/traffic-lead-time.md)的信息。
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. 选择报表包.
