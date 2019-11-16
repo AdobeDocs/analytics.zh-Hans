@@ -1,13 +1,11 @@
 ---
 description: 这些条件决定了何时触发基于事件的规则。
-keywords: Dynamic Tag Management;规则;创建规则;新规则;基于事件的规则;延迟链接激活;将事件处理程序直接应用于元素;冒泡;事件冒泡
-seo-description: 这些条件决定了何时触发基于事件的规则。
-seo-title: 为基于事件的规则创建条件
+keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;delay link activation;apply event handler directly to element;bubbling;event bubbling
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 为基于事件的规则创建条件
 uuid: a847391c-5aec-4d64-8a35-388587731598
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
