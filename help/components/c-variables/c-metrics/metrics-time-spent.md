@@ -2,9 +2,9 @@
 description: Adobe Analytics 提供了多种逗留时间量度和维度。了解它们的含义以及它们的计算方式。
 solution: Analytics
 title: 逗留时间
-topic: 量度
+topic: Metrics
 translation-type: tm+mt
-source-git-commit: ee9a6462138fe3483ca8a4ba042cb4eb39536031
+source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 
 ---
 
@@ -38,7 +38,9 @@ Adobe Analytics提供多种方法来确定Analytics报告中所花费的时间�
 
 ## 网站平均停留时间（秒）
 
-具有给定维度值的网站平均停留时间。 此量度通常与日期维度配对，以显示一段时间内所花费的时间。 其近似计算是 `Total seconds spent / (Sequences - Bounces)`的。 序列是维度值未更改的一系列点击。 在大多数情况下，请改用每次访问的时间。
+在站点上花费的平均时间，通常与日期维度配对。 尽管此度量通常显示一段时间内趋势化的停留时间，但也可以将其与维一起用作每次访问停留时间的替代计算。 其近似计算是 `Total seconds spent / (Sequences - Bounces)`的。 序列是维度值未更改的一系列点击。
+
+> [!NOTE] 每次访问所花费的时间和网站平均停留时间是相似的指标。 这两个指标的区别是分母，每次访问所用的时 `visits - bounces`间，而站点使用的平均时间 `sequences - bounces`在访问级别上，这些指标看起来类似，但在点击级别上可能有一些差异。
 
 ## 页面平均逗留时间
 
