@@ -1,11 +1,9 @@
 ---
 description: 对计算量度在 Analytics 中的工作方式所做的这些更改可能会影响到您。
-seo-description: 对计算量度在 Analytics 中的工作方式所做的这些更改可能会影响到您。
-seo-title: 常见问题解答
 title: 常见问题解答
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
