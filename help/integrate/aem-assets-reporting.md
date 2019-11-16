@@ -1,13 +1,11 @@
 ---
 description: 在 Analytics 中启用 AEM 资产报表功能的管理步骤。
-seo-description: 在 Analytics 中启用 AEM 资产报表功能的管理步骤。
-seo-title: AEM Assets 报告
 solution: Analytics
 title: AEM Assets 报告
-topic: 报告
+topic: Reports
 uuid: 242f5ea0-146c-4edb-928e-35b4c084934d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
