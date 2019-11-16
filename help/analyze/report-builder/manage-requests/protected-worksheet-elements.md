@@ -1,13 +1,11 @@
 ---
 description: 如果您通过锁定单元格保护工作表，则无法创建、编辑或刷新请求。在使用请求管理器之前，请取消工作表中的所有保护。
-seo-description: 如果您通过锁定单元格保护工作表，则无法创建、编辑或刷新请求。在使用请求管理器之前，请取消工作表中的所有保护。
-seo-title: 受保护的工作表元素
 solution: Analytics
 title: 受保护的工作表元素
-topic: Report Builder
+topic: Report builder
 uuid: 4b632862-4943-4567-a458-46a6548952fa
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
