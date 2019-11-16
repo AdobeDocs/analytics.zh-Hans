@@ -1,13 +1,11 @@
 ---
 description: 收入是在购买事件中捕获的，它被定义为订购每件产品的合计美元金额。此值来自购买事件。
-seo-description: 收入是在购买事件中捕获的，它被定义为订购每件产品的合计美元金额。此值来自购买事件。
-seo-title: 收入
 solution: Analytics
 title: 收入
-topic: 量度
+topic: Metrics
 uuid: d0c2c012-42a7-4ff2-8224-6486ab956d98
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
