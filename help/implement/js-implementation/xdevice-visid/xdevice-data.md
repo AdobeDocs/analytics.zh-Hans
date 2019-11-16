@@ -1,15 +1,13 @@
 ---
 description: 概述启用跨设备访客识别会对报表中所显示的数据产生怎样的影响。
-keywords: Analytics 实施
-seo-description: 概述启用跨设备访客识别会对报表中所显示的数据产生怎样的影响。
-seo-title: 跨设备访客识别的数据影响
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 访客
+subtopic: Visitors
 title: 跨设备访客识别的数据影响
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 1db4d149-cd50-4b41-a850-988901f25051
-translation-type: ht
-source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -18,7 +16,7 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->不再建议使用这种方法来识别跨设备访客。请参阅 [Adobe Experience Cloud 设备协作文档](https://marketing.adobe.com/resources/help/zh_CN/mcdc/)。
+>不再建议使用这种方法来识别跨设备访客。请参阅 [Adobe Experience cloud设备协作文档](https://marketing.adobe.com/resources/help/en_US/mcdc/)。
 
 概述启用跨设备访客识别会对报表中所显示的数据产生怎样的影响。
 
