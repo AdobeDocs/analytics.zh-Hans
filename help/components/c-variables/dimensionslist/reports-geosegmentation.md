@@ -1,13 +1,11 @@
 ---
 description: 显示有关访客位置的数据。地域划分报表包括国家、地区、城市、美国各州和美国 DMA（数字营销区域）。已为所有客户启用了地域划分报表。
-seo-description: 显示有关访客位置的数据。地域划分报表包括国家、地区、城市、美国各州和美国 DMA（数字营销区域）。已为所有客户启用了地域划分报表。
-seo-title: 地域划分
 solution: Analytics
 title: 地域划分
-topic: 报告
-uuid: 66aa22c4-dcbc-491a-b23c-0c3d8744d23
+topic: Reports
+uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
