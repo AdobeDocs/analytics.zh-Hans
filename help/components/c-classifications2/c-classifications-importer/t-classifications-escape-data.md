@@ -1,14 +1,12 @@
 ---
 description: 描述如何转义分类文件中的分类数据的步骤。
-seo-description: 描述如何转义分类文件中的分类数据的步骤。
-seo-title: 转义分类数据
 solution: Analytics
-subtopic: 分类
+subtopic: Classifications
 title: 转义分类数据
-topic: 管理工具
-uuid: 724edcc5-4990-4f24-afbb-9aef301791 a7
+topic: Admin tools
+uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
