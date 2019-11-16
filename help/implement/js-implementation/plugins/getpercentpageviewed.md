@@ -1,15 +1,13 @@
 ---
 description: 衡量访客的页面滚动活动，以了解访客在进入其他页面前查看了某个页面的多少内容。使用此插件可以确定用户查看的内容平均有多少，以便您能够根据用户行为优化页面长度和布局。
-keywords: Analytics 实施
-seo-description: 衡量访客的页面滚动活动，以了解访客在进入其他页面前查看了某个页面的多少内容。使用此插件可以确定用户查看的内容平均有多少，以便您能够根据用户行为优化页面长度和布局。
-seo-title: getPercentPageViewed
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 插件
+subtopic: Plug-ins
 title: getPercentPageViewed
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 1751dcdb-699f-4bd1-8bcb-5e62fa24896a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
