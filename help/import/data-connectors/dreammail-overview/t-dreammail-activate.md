@@ -1,11 +1,9 @@
 ---
 description: 使用Adobe Data Connectors配置向导设置集成。
-seo-description: 使用Adobe Data Connectors配置向导设置集成。
-seo-title: 激活集成
 title: 激活集成
 uuid: 9084b691-291d-49f7-9fa4-abda507e060d
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -38,6 +36,6 @@ source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 | 聚光灯值 | 可在再营销区段中导出的收入事件。 |
 | TotalClicks | 通过“已点击”事件，您可以查看点击电子邮件的访客数。 |
 | 区段 | 此集成创建在“合作伙伴区段”部分中显示的合作伙伴定义的区段。 此外，您还可以选择要包含在集成中的现有报表包级别区段。 |
-|  访问请求 | 启用建议的访问权限。 |
+| 访问请求 | 启用建议的访问权限。 |
 | 数据收集 | 如果 **要使用s_code.js插件作为此集成的集合模型** ，请选择“JavaScript插件”（请参阅）。 如果 **要为此集成使用自动收集模型** ，请选择自动化解决方案，然后指定用于此集成的唯一标识符。 如果选择此选项，请指定用于此集成的唯一标识符：<ul><li>消息ID查询字符串参数：此值表示电子邮件合作伙伴附加到登陆页面URL的消息ID。</li><li>收件人ID查询字符串参数：此值表示电子邮件合作伙伴附加到登录页面URL的收件人ID。</li></ul> |
 | 功能板和书签生成 | 自动生成功能板和书签以进行集成。 |
