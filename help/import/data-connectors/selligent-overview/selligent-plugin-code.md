@@ -1,12 +1,10 @@
 ---
 description: 在使用以下代码之前，请在Adobe Analytics的管理工具中保留必要的eVar。
-seo-description: 在使用以下代码之前，请在Adobe Analytics的管理工具中保留必要的eVar。
-seo-title: 查询字符串参数插件代码
 solution: Analytics
 title: 查询字符串参数插件代码
 uuid: a71e7774-bc7a-414e-a116-739770b900bf
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
