@@ -1,13 +1,11 @@
 ---
 description: 复制简单请求，而不是引用请求。简单请求是指不引用另一请求或单元格内容的请求。
-seo-description: 复制简单请求，而不是引用请求。简单请求是指不引用另一请求或单元格内容的请求。
-seo-title: 复制简单请求
 solution: Analytics
 title: 复制简单请求
-topic: Report Builder
+topic: Report builder
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
