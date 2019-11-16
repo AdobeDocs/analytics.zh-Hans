@@ -1,14 +1,12 @@
 ---
 description: 有关实施的常见问题，以及指向更多信息的链接。
-keywords: Analytics 实施;FAQ;常见问题解答;eVar 过期;自定义事件可见性;时间戳;访客 ID 宽限期;访客 ID;Experience Cloud 访客 ID;Analytics 访客 ID;DTM;心率;Cookie;跟踪服务器;性能;Javascript;数据收集;s_code 版本;s_code 调试;跟踪链接类型;跟踪视频;跟踪移动设备应用程序;第一方 Cookie;SSL 证书;证书过期;插件;数据插入 API;500 错误;500;管理用户;管理群组;用户;群组
-seo-description: 有关实施的常见问题，以及指向更多信息的链接。
-seo-title: 有关 Analytics 实施的常见问题解答
+keywords: Analytics Implementation;faq;frequently asked questions;evar expiration;custom event visibility;timestamp;visitor id grace period;visitor id;Experience Cloud visitor id;analytics visitor id;dtm;heartbeat;cookies;tracking server;performance;javascript;data collection;s_code version;s_code debug;track link types;track video;track mobile app;first party cookie;ssl certificate;certification expiration;certificate expiration;plugins;data insertion api;500 error;500;Manage user;manage group;users;groups
 solution: Analytics
 title: 有关 Analytics 实施的常见问题解答
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
 translation-type: tm+mt
-source-git-commit: c723d0938a2ea782d026daf67599d7be38a93c46
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
