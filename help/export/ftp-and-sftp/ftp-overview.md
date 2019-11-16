@@ -1,13 +1,11 @@
 ---
 description: 了解如何使用 FTP 和 SFTP 在计算机和服务器之间传输文件。
 keywords: ftp;sftp
-seo-description: 了解如何使用 FTP 和 SFTP 在计算机和服务器之间传输文件。
-seo-title: 将 FTP 和 SFTP 用于 Adobe Experience Cloud
 solution: Analytics
 title: 将 FTP 和 SFTP 用于 Adobe Experience Cloud
 uuid: 12a82a13-1634-4a2d-bb92-5006d650ebe9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
