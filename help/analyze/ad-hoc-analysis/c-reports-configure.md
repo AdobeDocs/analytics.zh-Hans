@@ -1,11 +1,9 @@
 ---
 description: 了解您可以在报表上执行的各种操作，例如配置图表、图形和划分以及提取数据。
-seo-description: 了解您可以在报表上执行的各种操作，例如配置图表、图形和划分以及提取数据。
-seo-title: 配置现有报表
 title: 配置现有报表
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
