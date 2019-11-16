@@ -1,15 +1,13 @@
 ---
 description: 通过变量覆盖，您可以更改单个跟踪的变量值或跟踪链接调用。
-keywords: Analytics 实施
-seo-description: 通过变量覆盖，您可以更改单个跟踪的变量值或跟踪链接调用。
-seo-title: 变量覆盖
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 变量
+subtopic: Variables
 title: 变量覆盖
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 3ec09ae8-b9df-426f-8065-42b4518e6c5f
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
