@@ -1,11 +1,9 @@
 ---
 description: “点击类型”维度表示在收集点击时，应用程序是处于前台还是后台。
-seo-description: “点击类型”维度表示在收集点击时，应用程序是处于前台还是后台。
-seo-title: 点击类型
 title: 点击类型
 uuid: 14a04260-27b2-4f59-b0a5-80387d39e1a9
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
