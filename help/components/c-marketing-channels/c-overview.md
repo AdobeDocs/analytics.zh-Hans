@@ -1,14 +1,12 @@
 ---
 description: 营销渠道报表让您对营销渠道产生的收入量一目了然。这些报表包含首次联系和最近联系渠道分配的概述报表，并显示关键和标准的量度，如收入、订购和成本等。
-seo-description: 营销渠道报表让您对营销渠道产生的收入量一目了然。这些报表包含首次联系和最近联系渠道分配的概述报表，并显示关键和标准的量度，如收入、订购和成本等。
-seo-title: 关于营销渠道报表
 solution: Analytics
-subtopic: 营销渠道
+subtopic: Marketing channels
 title: 关于营销渠道报表
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 464cabc9-9e8f-4db7-a7c7-203aa7852635
 translation-type: tm+mt
-source-git-commit: 2b5e51e76b18980d169a024276fc0aa6b085c248
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
