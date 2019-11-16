@@ -1,14 +1,12 @@
 ---
 description: 'null'
-keywords: 数据馈送；作业；访客；Experience Cloud ID；分析访客ID；识别
-seo-description: 'null'
-seo-title: 识别访客
+keywords: Data Feed;job;visitors;Experience Cloud ID;analytics visitor id;identify
 solution: Analytics
 title: 识别访客
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 2490b67e-a333-422d-82fa-cb0670ef2e0c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
