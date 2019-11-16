@@ -1,13 +1,11 @@
 ---
 description: 下载并编辑共享的工作簿。
-seo-description: 下载并编辑共享的工作簿。
-seo-title: 下载工作簿
 solution: Analytics
 title: 下载工作簿
-topic: Report Builder
-uuid: 8b69254f-4769-433a-9957-fad78447aa6
+topic: Report builder
+uuid: 8b69254f-4769-433a-9957-fad788447aa6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
