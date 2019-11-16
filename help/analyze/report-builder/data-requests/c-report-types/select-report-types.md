@@ -1,18 +1,16 @@
 ---
 description: 您可以为数据请求选择基本报表类型，如“网站量度”、“网站内容”和“视频”。
-seo-description: 您可以为数据请求选择基本报表类型，如“网站量度”、“网站内容”和“视频”。
-seo-title: 报告类型概述
 solution: Analytics
-title: 报告类型概述
-topic: Report Builder
-uuid: 63e656d0-f22 e-4846-9e24-7ef3299 dde5 a
+title: 报表类型概述
+topic: Report builder
+uuid: 63e656d0-f22e-4846-9e24-7ef3299dde5a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 报告类型概述
+# 报表类型概述
 
 您可以为数据请求选择基本报表类型，如“网站量度”、“网站内容”和“视频”。
 
