@@ -1,14 +1,12 @@
 ---
 description: 流量分类允许您对流量变量 (prop) 进行分类。流量分类只能使用文本分类。
-seo-description: 流量分类允许您对流量变量 (prop) 进行分类。流量分类只能使用文本分类。
-seo-title: 流量分类
 solution: Analytics
-subtopic: 分类
+subtopic: Classifications
 title: 流量分类
-topic: 管理工具
+topic: Admin tools
 uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
