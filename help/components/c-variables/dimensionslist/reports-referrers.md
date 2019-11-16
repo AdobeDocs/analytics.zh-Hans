@@ -1,13 +1,11 @@
 ---
-description: 显示访客在进入网站前所在的域或 URL、访客找到网站的方法、以及经由这些反向链接位置对您网站的访问次数。
-seo-description: 显示访客在进入网站前所在的域名或 URL、访客找到网站的方法、以及经由这些反向链接位置对您的网站的访问次数。
-seo-title: 反向链接
+description: 显示访客在进入网站前所在的域名或 URL、访客找到网站的方法、以及经由这些反向链接位置对您的网站的访问次数。
 solution: Analytics
 title: 反向链接
-topic: 报告
+topic: Reports
 uuid: e63b47b4-49f3-43af-8409-3272bec0484e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
