@@ -1,14 +1,12 @@
 ---
 description: 如果使用常用变量（如 q）填充搜索词，则可以使用处理规则向内部搜索词 eVar 填充这些值。
-seo-description: 如果使用常用变量（如 q）填充搜索词，则可以使用处理规则向内部搜索词 eVar 填充这些值。
-seo-title: 使用查询字符串参数填充内部搜索词
 solution: Analytics
-subtopic: 处理规则
+subtopic: Processing rules
 title: 使用查询字符串参数填充内部搜索词
-topic: 管理工具
+topic: Admin tools
 uuid: 05ae2b0a-8797-468c-8f59-643beac614c5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
