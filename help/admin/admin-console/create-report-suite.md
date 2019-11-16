@@ -1,10 +1,8 @@
 ---
 title: 创建报表包
-seo-title: 在Adobe Analytics中创建报表包
 description: 在Adobe Analytics中为数据收集创建基本容器。
-seo-description: 在Adobe Analytics中为数据收集创建基本容器。
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 
 ---
 
@@ -21,7 +19,7 @@ source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
 
 ## 创建报表包
 
-> [!NOTE]注意：还有一种方法可使用旧版管理员在Adobe Analytics中创建报表包。 Adobe建议使用此处概述的报表包设置向导。
+> [!NOTE] 还有一种方法可使用旧版管理员在Adobe Analytics中创建报表包。 Adobe建议使用此处概述的报表包设置向导。
 
 1. 使用您的 Adobe ID 凭据登录 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 1. 单击右上角的 9 个正方形图标，然后单击彩色的 Analytics 徽标。
