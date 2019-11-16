@@ -1,18 +1,16 @@
 ---
 description: 用于在 Report Builder 中配置量度的字段说明。
-seo-description: 用于在 Report Builder 中配置量度的字段说明。
-seo-title: 修改指标-字段定义
 solution: Analytics
-title: 修改指标-字段定义
-topic: Report Builder
-uuid: 5b82f4f7-f9 d2-41c3-b5 cb-eefcc2 c1 d3 a6
+title: 修改量度 - 字段定义
+topic: Report builder
+uuid: 5b82f4f7-f9d2-41c3-b5cb-eefcc2c1d3a6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 修改指标-字段定义
+# 修改量度 - 字段定义
 
 用于在 Report Builder 中配置量度的字段说明。
 
