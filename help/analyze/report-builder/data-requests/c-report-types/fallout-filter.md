@@ -37,4 +37,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    For more information on refining the filter, see [Filter Dimensions](/help/analyze/report-builder/layout/c-filter-dimensions/filter-dimensions.md). 1. Move **[!UICONTROL Available Elements]** from the left column to the right by selecting them and clicking the orange arrow.
 1. Click **[!UICONTROL OK]** three times, then click **[!UICONTROL Finish]**.
 
-   现在应当刷新了�
+   现在应当刷新了报表。
