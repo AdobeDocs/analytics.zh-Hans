@@ -1,13 +1,11 @@
 ---
 description: 此功能允许您自定义用户在“Reports & Analytics”中看到的报表菜单。您可以针对所有用户显示或隐藏报表，还可以在不同的文件夹中移动报表。如果您的组织仅使用特定报表，并且不希望让未使用的或者不相关的数据来填充您的左侧菜单，则此功能尤为适用。
-seo-description: 此功能允许您自定义用户在“Reports & Analytics”中看到的报表菜单。您可以针对所有用户显示或隐藏报表，还可以在不同的文件夹中移动报表。如果您的组织仅使用特定报表，并且不希望让未使用的或者不相关的数据来填充您的左侧菜单，则此功能尤为适用。
-seo-title: 菜单自定义
 solution: Analytics
 title: 菜单自定义
-topic: 管理工具
+topic: Admin tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
