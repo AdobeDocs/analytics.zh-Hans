@@ -1,14 +1,12 @@
 ---
 description: 创建营销渠道处理规则，这些规则决定访客点击是否符合分配到渠道的标准。
-seo-description: 创建营销渠道处理规则，这些规则决定访客点击是否符合分配到渠道的标准。
-seo-title: 创建营销渠道处理规则
 solution: Analytics
-subtopic: 营销渠道
+subtopic: Marketing channels
 title: 创建营销渠道处理规则
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 0e47634f-3c69-46db-8af4-8d0b3d15f7a8
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
