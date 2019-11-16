@@ -1,17 +1,17 @@
 ---
-description: 虚拟报表包可以用来替代多包标记。例如，您无需将数据发送到两个单独的报表包，而可以将数据发送到一个报表包，然后使用虚拟报表包来限制用户可以访问的数据量。但是，控制数据访问权限只是单独报表包可能有用的原因之一。在实施中进行虚拟报表包相关更改之前，请认真考虑以下使用案例。
-keywords: Virtual Report Suite
+description: 虚拟报告套件和多套件标记具有不同的优势。 了解哪种方式最适合您的组织。
+keywords: Virtual Report Suite,VRS
 solution: Analytics
-title: VRS 和全局/多包标记注意事项
-topic: Reports and analytics
+title: 虚拟报告套件和多套件标记注意事项
+topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: a835e5f4d7569532f220dc3d59f88ee7468a909e
+source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 
 ---
 
 
-# VRS 和全局/多包标记注意事项
+# 虚拟报告套件和多套件标记注意事项
 
 虚拟报表包 (VRS) 允许您通过从数字属性中收集数据的报表包来查看数据，但会永久应用区段。
 
