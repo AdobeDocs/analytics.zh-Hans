@@ -1,14 +1,12 @@
 ---
 description: 描述如何向公司中所有用户发送电子邮件消息的步骤。
-seo-description: 描述如何向公司中所有用户发送电子邮件消息的步骤。
-seo-title: 电子邮件用户
 solution: Analytics
-subtopic: 用户和用户组
+subtopic: Users and groups
 title: 电子邮件用户
-topic: 管理工具
+topic: Admin tools
 uuid: c44a1398-dba4-4edc-9b90-b0ceb9da395c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
