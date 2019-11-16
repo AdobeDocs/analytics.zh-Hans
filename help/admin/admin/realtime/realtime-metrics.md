@@ -1,25 +1,23 @@
 ---
 description: 列出实时报表所支持的量度和维度。还支持分类（如果已定义）。
-seo-description: 列出实时报表所支持的量度和维度。还支持分类（如果已定义）。
-seo-title: 支持的实时指标和维度
 solution: Analytics
-title: 支持的实时指标和维度
-topic: 报表
-uuid: 836af337-1187-4舍入90c8-a19 b15 df4705
+title: 受支持的实时量度和维度
+topic: Reports
+uuid: 836af337-1187-4ded-90c8-a19b15df4705
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 支持的实时指标和维度
+# 受支持的实时量度和维度
 
 列出实时报表所支持的量度和维度。还支持分类（如果已定义）。
 
 ## 受支持的量度 {#section_514ED8B382494C47BFC0657894D1AF94}
 
 * 收入
-* 订单数
+* 订购
 * 件数
 * 购物车
 * 购物车查看
