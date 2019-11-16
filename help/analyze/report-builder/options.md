@@ -1,13 +1,11 @@
 ---
 description: 在“选项”面板中，您可以指定日期设置、延迟设置（“当前数据”）和日志信息，还可以配置更新。
-seo-description: 在“选项”面板中，您可以指定日期设置、延迟设置（“当前数据”）和日志信息，还可以配置更新。
-seo-title: Report Builder 选项
 solution: Analytics
 title: Report Builder 选项
-topic: Report Builder
-uuid: f2920dee-4245-4617-a02e-03726de2bb5
+topic: Report builder
+uuid: f2920dee-4245-4617-a02e-03726dde2bb5
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
