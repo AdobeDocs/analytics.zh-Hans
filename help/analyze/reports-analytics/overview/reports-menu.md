@@ -1,11 +1,9 @@
 ---
 description: “Reports & Analytics”中的“报表”菜单概述。
-seo-description: “Reports & Analytics”中的“报表”菜单概述。
-seo-title: “报表”菜单
 title: “报表”菜单
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
