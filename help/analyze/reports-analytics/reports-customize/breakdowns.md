@@ -1,13 +1,11 @@
 ---
 description: 当您想要详细了解报表项目或区段如何与其他报表关联时，可使用划分。这通常称为“按其他报表划分”报表。
-seo-description: 当您想要详细了解报表项目或区段如何与其他报表关联时，可使用划分。这通常称为“按其他报表划分”报表。
-seo-title: 划分
 solution: Analytics
 title: 划分
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
