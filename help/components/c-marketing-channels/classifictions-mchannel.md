@@ -1,14 +1,12 @@
 ---
 description: 分类用于将值归到相关群组并在群组级别进行报告。例如，您可以将所有“付费搜索”促销活动归为类似“视频卡”的类别。然后，可在该类别相对于“实例”（或“点进次数”）等量度而成功时进行报告。
-seo-description: 分类用于将值归到相关群组并在群组级别进行报告。例如，您可以将所有“付费搜索”促销活动归为类似“视频卡”的类别。然后，可在该类别相对于“实例”（或“点进次数”）等量度而成功时进行报告。
-seo-title: 营销渠道中的分类
 solution: Analytics
-subtopic: 营销渠道
+subtopic: Marketing channels
 title: 营销渠道中的分类
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 8b31cff5-36a6-4072-b0f9-f932dc890a87
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
