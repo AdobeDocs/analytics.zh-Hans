@@ -1,13 +1,11 @@
 ---
 description: 这部分内容主要面向 Adobe Analytics 管理员。关注的重点是新的链接跟踪参数，以及这些参数如何确保链接在各种浏览器和设备上的唯一性和一致性，以及如何更好地处理链接在页面上的位置变换。
-seo-description: 这部分内容主要面向 Adobe Analytics 管理员。关注的重点是新的链接跟踪参数，以及这些参数如何确保链接在各种浏览器和设备上的唯一性和一致性，以及如何更好地处理链接在页面上的位置变换。
-seo-title: 链接跟踪方法
 solution: Analytics
-title: 链接跟踪 方法论
-topic: Activity Map
+title: 链接跟踪方法
+topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -18,7 +16,7 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 >[!IMPORTANT]
 >
->Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). 有关 Activity Map 如何收集 PII 数据的更多信息，请转至[此处](/help/analyze/activity-map/lnk-tracking-overview.md)。
+>其文本（非 href）可能包含 PII（个人身份识别信息）的任何链接，均应使用 [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) 或通过以 [s.ActivityMap.linkExclusions 或 s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars) 排除 ActivityMap 链接收集的方式进行显式实施。有关 Activity Map 如何收集 PII 数据的更多信息，请转至[此处](/help/analyze/activity-map/lnk-tracking-overview.md)。
 
 Activity Map 根据以下两个 ID 进行链接跟踪：
 
@@ -50,7 +48,7 @@ Activity Map 根据以下两个 ID 进行链接跟踪：
 * 不会因链接在页面上变换位置而受到影响。
 * 能够提高可读性，因此用户在 Activity Map 之外就可以开始分析链接跟踪报表。
 
-## Link region {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
+## 链接区域 {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
 
 这个新增的属性允许用户指定一个能够代表链接所在页面区域的字符串。
 
@@ -61,12 +59,12 @@ Activity Map 根据以下两个 ID 进行链接跟踪：
 * 有助于区分具有相同主 ID 的链接。
 * 区域中的趋势不太会受到网页上动态方面的影响。
 * 用户可以看到区域内表现最佳的链接。以“区域”作为锚点，我们可以显示当前在页面中不可见的链接所对应的叠加图（Ajax，定位）。
-* “区域”可以取代页面，成为可以在多个网页中使用的特定区域。它有助于回答如下问题：“我的“产品提供”区域在女性登录页面或男性登录页面上的表现是否最佳？
+* “区域”可以取代页面，成为可以在多个网页中使用的特定区域。它有助于解答这样的问题：“我的‘产品供应’区域在女性登录页面表现最佳，还是在男性登录页面表现最佳？”
 * 就其本身而言，区域是用于分析高度动态网页的相关维度。这是因为它能够消除由于不断变化的链接所带来的干扰信息：CNN 登录页面的“最新消息”区域可能会有很多不断变化的链接。但是区域始终不变。所以在区域的层面上，表现数日范围内的趋势可能会很有吸引力。
 
 **自定义区域跟踪**
 
-您可以自定义链接的区域参数（默认为链接 ID）：一个设置为“ID”的标签将会把所有包含“id”参数的 HTML 元素作为一个区域。因此，将“地区”标记设置为“id”很可能会返回许多不同的区域（如同页面上有不同的“ID”一样多）。 或者，如果您希望实现更具定制化的效果，则可以将区域标签设置得更加具体，例如“region_id”。
+您可以自定义链接的区域参数（默认为链接 ID）：一个设置为“ID”的标签将会把所有包含“id”参数的 HTML 元素作为一个区域。因此，将区域标签设置为“id”很可能会返回大量不同的区域（页面上有多少个不同的“ID”，就会返回多少个不同的区域）。或者，如果您希望实现更具定制化的效果，则可以将区域标签设置得更加具体，例如“region_id”。
 
 您可以在下方看到一些 HTML 样例，均使用默认区域 ID 属性“id”。
 
