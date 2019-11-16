@@ -1,13 +1,11 @@
 ---
 description: 一天内访问您网站的非重复（只计数一次）的访客数。每日独特访客访问的结束时间为报表包中所选时区午夜十二时。
-seo-description: 一天内访问您网站的非重复（只计数一次）的访客数。每日独特访客访问的结束时间为报表包中所选时区午夜十二时。
-seo-title: 每日独特访客
 solution: Analytics
 title: 每日独特访客
-topic: 量度
+topic: Metrics
 uuid: 31cc98e0-5c81-4893-9f50-b0b47799d2f3
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
