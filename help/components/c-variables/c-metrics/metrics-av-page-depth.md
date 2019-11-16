@@ -1,13 +1,11 @@
 ---
 description: 显示访问中触发每个值的平均深度。此量度用于确定一次访问中访客到达给定页面或 prop 值的深度。平均页面深度可用于任何启用了路径分析的变量。
-seo-description: 显示访问中触发每个值的平均深度。此量度用于确定一次访问中访客到达给定页面或 prop 值的深度。平均页面深度可用于任何启用了路径分析的变量。
-seo-title: 平均页面深度
 solution: Analytics
 title: 平均页面深度
-topic: 量度
+topic: Metrics
 uuid: 4d8a3a3c-c698-4210-8dd8-a02a1638483c
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
