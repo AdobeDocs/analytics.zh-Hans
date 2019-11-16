@@ -1,15 +1,13 @@
 ---
 description: 使用上下文数据变量可在每个页面上定义能够由处理规则读取的自定义变量。
-keywords: Analytics 实施;contextdata;s.contextdata
-seo-description: 使用上下文数据变量可在每个页面上定义能够由处理规则读取的自定义变量。
-seo-title: 上下文数据变量
+keywords: Analytics Implementation;contextdata;s.contextdata
 solution: Analytics
-subtopic: 变量
+subtopic: Variables
 title: 上下文数据变量
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -21,11 +19,13 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 您可以使用通过处理规则映射的上下文数据变量发送数据，而无需在代码中将值明确分配给 prop 和 eVar。处理规则提供强大的图形界面，以便对接收的数据进行更改。根据上下文数据中发送的值，您可以设置事件、将值复制到 eVar 和 prop，以及执行其他条件语句。
 
 > [!NOTE]上下文数据变量不区分大小写。例如，以下 2 个变量实际上是相同的：
->```
+>
+```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
 >和
->```
+>
+```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
 
