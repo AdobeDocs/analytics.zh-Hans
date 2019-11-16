@@ -1,13 +1,11 @@
 ---
 description: 启用移动设备管理可激活移动设备解决方案变量，以便从移动设备应用程序中捕获生命周期和其他量度。
-seo-description: 启用移动设备管理可激活移动设备解决方案变量，以便从移动设备应用程序中捕获生命周期和其他量度。
-seo-title: 移动设备管理
 solution: Analytics
 title: 移动设备管理
-topic: 管理工具
+topic: Admin tools
 uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
