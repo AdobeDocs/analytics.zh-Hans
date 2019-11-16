@@ -1,13 +1,11 @@
 ---
 description: “单页面访问量”报表显示网站访客登入网站后直接退出的页面（即访客未进一步查看您网站上的任何其他页面），请不要将其与 Ad Hoc Analysis 中的“单页面访问量”量度混淆。
-seo-description: “单页面访问量”报表显示网站访客登入网站后直接退出的页面（即访客未进一步查看您网站上的任何其他页面），请不要将其与 Ad Hoc Analysis 中的“单页面访问量”量度混淆。
-seo-title: 单页面访问量
 solution: Analytics
 title: 单页面访问量
-topic: 报告
+topic: Reports
 uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
