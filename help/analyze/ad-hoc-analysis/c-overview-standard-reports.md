@@ -1,13 +1,11 @@
 ---
 description: 标准报表显示网站和访客活动、流量模式、反向链接数据、广告促销活动、访客维系、产品数据等数据。您可以运行报表，然后使用工具来配置区段、量度和报表比较。
-seo-description: 标准报表显示网站和访客活动、流量模式、反向链接数据、广告促销活动、访客维系、产品数据等数据。您可以运行报表，然后使用工具来配置区段、量度和报表比较。
-seo-title: 报表概述
 solution: Analytics
 title: 报表概述
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
