@@ -1,14 +1,12 @@
 ---
 description: 预处理列包含发送到数据收集的数据。后处理列包含处理后的值。
-keywords: 数据馈送；作业；预列；后列；区分大小写
-seo-description: 预处理列包含发送到数据收集的数据。后处理列包含处理后的值。
-seo-title: 预处理列和后处理列
+keywords: Data Feed;job;pre column;post column;case sensitivity
 solution: Analytics
 title: 预处理列和后处理列
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: a415327b-6151-4d08-b8b9-5aaa2348eb0c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
