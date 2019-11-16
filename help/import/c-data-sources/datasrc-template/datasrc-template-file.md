@@ -1,14 +1,12 @@
 ---
 description: 有关数据源模板的信息，该模板提供了一个数据框架，可用于将一组特定的外部数据提交到数据源。
-seo-description: 有关数据源模板的信息，该模板提供了一个数据框架，可用于将一组特定的外部数据提交到数据源。
-seo-title: 数据源模板概述
 solution: Analytics
-subtopic: 数据源
+subtopic: Data sources
 title: 数据源模板概述
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
