@@ -1,14 +1,12 @@
 ---
 description: 在“管理员”中可以查看活动处理规则。
-seo-description: 在“管理员”中可以查看活动处理规则。
-seo-title: 查看活动处理规则
 solution: Analytics
-subtopic: 处理规则
+subtopic: Processing rules
 title: 查看活动处理规则
-topic: 管理工具
+topic: Admin tools
 uuid: be85c0a8-574e-448f-9bcc-7e9b81de5e4a
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
