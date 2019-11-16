@@ -1,13 +1,11 @@
 ---
 description: 参与率量度将成功事件的所有点数分配给访问期间传递的所有 eVar 值。参与率量度可帮助确定哪些页面、促销活动或其他自定义变量值对站点的成功贡献最大。参与率是基于访问的。当事件发生时，点击之前以及包含此点击的访问的所有 eVar 值均会收到参与率信用，无论过期设置如何。
-seo-description: 参与率量度将成功事件的全部信用分配给访问期间传递的所有 eVar 值。参与率量度可帮助确定哪些页面、促销活动或其他自定义变量值对站点的成功贡献最大。参与率是基于访问的。当事件发生时，点击之前以及包含此点击的访问的所有 eVar 值均会收到参与率信用，无论过期设置如何。
-seo-title: 参与率
 solution: Analytics
 title: 参与率
-topic: 量度
+topic: Metrics
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
