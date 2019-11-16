@@ -1,14 +1,12 @@
 ---
 description: “自定义分析转化变量”（或 eVar）置于您网站所选网页的 Adobe 代码中。其主要目的是在自定义市场营销报告中划分转化成功量度区段。
-keywords: Analytics 实施;eVar;转化变量;eVar 值;转化;成功事件
-seo-description: “自定义分析转化变量”（或 eVar）置于您网站所选网页的 Adobe 代码中。其主要目的是在自定义市场营销报告中划分转化成功量度区段。
-seo-title: 转化变量 (eVar)
+keywords: Analytics Implementation;eVar;conversion variable;eVar value;conversion;success event
 solution: Analytics
 title: 转化变量 (eVar)
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 50071c1c-be00-4b3a-a7ee-5d129acf498b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
