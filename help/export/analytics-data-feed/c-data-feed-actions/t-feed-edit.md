@@ -1,13 +1,11 @@
 ---
 description: 您可以编辑馈送的某些字段。
-keywords: 数据馈送；feed；编辑
-seo-description: 您可以编辑馈送的某些字段。
-seo-title: 编辑馈送
+keywords: Data Feed;feed;edit
 solution: Analytics
 title: 编辑馈送
-uuid: 75e862f3-da08-4d1f-84d9-513981d98d5
+uuid: 75e862f3-da08-4d1f-84d9-513981d98dd5
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
