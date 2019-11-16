@@ -1,13 +1,11 @@
 ---
 description: 在自定义布局中，您可以将量度列转换为具有相应百分比值的条形图或者具有相应条形图的百分比值。百分比值是时段内整个未过滤请求的量度值或总计。
-seo-description: 在自定义布局中，您可以将量度列转换为具有相应百分比值的条形图或者具有相应条形图的百分比值。百分比值是时段内整个未过滤请求的量度值或总计。
-seo-title: 创建 Microchart
 solution: Analytics
 title: 创建 Microchart
-topic: Report Builder
+topic: Report builder
 uuid: 778ef184-9946-4958-b08f-6ee8c86a0f69
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
