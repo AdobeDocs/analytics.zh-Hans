@@ -1,15 +1,13 @@
 ---
 description: 在新版 JavaScript AppMeasurement 中，插件支持发生了更改。
-keywords: Analytics 实施;appmeasurement;javascript;插件;插件
-seo-description: 在新版 JavaScript AppMeasurement 中，插件支持发生了更改。
-seo-title: AppMeasurement 插件支持
+keywords: Analytics Implementation;appmeasurement;javascript;plugin;plug-in
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: AppMeasurement 插件支持
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: e048e16b-994a-4079-bde4-3faa3df8c96d
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
