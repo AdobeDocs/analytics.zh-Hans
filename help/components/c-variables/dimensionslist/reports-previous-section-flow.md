@@ -1,13 +1,11 @@
 ---
 description: “上一区域流量”报表与“上一页面流量”报表类似。它显示“网站区域”（相关网页组）的数据。如果某个页面包含在多个网站区域中，此报表将显示所有网站区域的数据。
-seo-description: “上一区域流量”报表与“上一页面流量”报表类似。它显示“网站区域”（相关网页组）的数据。如果某个页面包含在多个网站区域中，此报表将显示所有网站区域的数据。
-seo-title: 上一区域流量
 solution: Analytics
 title: 上一区域流量
-topic: 报告
+topic: Reports
 uuid: 7be8d3e5-4936-40a0-845c-1617208479d6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
