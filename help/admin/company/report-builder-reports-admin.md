@@ -1,13 +1,11 @@
 ---
 description: 管理分配到 Report Builder 用户的许可证。
-seo-description: 管理分配到 Report Builder 用户的许可证。
-seo-title: Report Builder 报表
 solution: Analytics
 title: Report Builder 报表
-topic: 管理工具
-uuid: 41f98b99-9a78-430a-8a42-101edd3d2ef
+topic: Admin tools
+uuid: 41f98b99-9a78-430a-8a42-101eddd3d2ef
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
