@@ -1,18 +1,16 @@
 ---
 description: 描述如何创建带有预定义过滤器的路径报表。
-seo-description: 描述如何创建带有预定义过滤器的路径报表。
-seo-title: 通过添加从属请求过滤路径报告
 solution: Analytics
-title: 通过添加从属请求过滤路径报告
-topic: Report Builder
-uuid: dd1294f8-a26 b-4254-a9 f6-1365b2912 adf
+title: 通过添加从属请求过滤路径报表
+topic: Report builder
+uuid: dd1294f8-a26b-4254-a9f6-1365b2912adf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 通过添加从属请求过滤路径报告
+# 通过添加从属请求过滤路径报表
 
 描述如何创建带有预定义过滤器的路径报表。
 
@@ -38,4 +36,4 @@ Report Builder does not offer these as standalone reports, but you can create th
 
 1. Select the predefined filter, for example **[!UICONTROL Previous Page]**.
 
-   此时会出现“请求向导”，其中已选定“上一页”量度。1. 继续在请求向导中调整请求并生成请求。
+   此时会出现“请求向导”，其中已选定“上一页”量度。1.在请求向导中继续优化您的请求并生成您的请求。
