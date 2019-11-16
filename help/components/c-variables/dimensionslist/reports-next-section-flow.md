@@ -1,13 +1,11 @@
 ---
 description: “下一区域流量”与“下一页面流量”类似。它显示“网站区域”（相关网页组）的数据。如果某个页面包含在多个网站区域中，它将显示所有网站区域的数据。
-seo-description: “下一区域流量”与“下一页面流量”类似。它显示“网站区域”（相关网页组）的数据。如果某个页面包含在多个网站区域中，它将显示所有网站区域的数据。
-seo-title: 下一区域流量
 solution: Analytics
 title: 下一区域流量
-topic: 报告
+topic: Reports
 uuid: cd476822-a3e2-496c-a27d-a13beac8cba2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
