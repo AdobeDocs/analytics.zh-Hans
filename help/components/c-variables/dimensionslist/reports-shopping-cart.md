@@ -1,13 +1,11 @@
 ---
 description: 显示指定时间段内打开的购物车数目。您可以运行报表以分析购物车查看、加货、减货和结账。购物车通常在客户选择购买项目时打开，但在没有项目时也能打开它。
-seo-description: 显示指定时间段内打开的购物车数目。您可以运行报表以分析购物车查看、加货、减货和结账。购物车通常在客户选择购买项目时打开，但在没有项目时也能打开它。
-seo-title: 购物车
 solution: Analytics
 title: 购物车
-topic: 报告
+topic: Reports
 uuid: ce97e7f0-b455-438c-a064-d4856a1279e7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
