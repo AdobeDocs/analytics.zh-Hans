@@ -1,10 +1,10 @@
 ---
 product: analytics
-audience: 最终用户
-user-guide-title: Analytics Analyze 指南
-user-guide-url: /content/help/zh-Hans/analytics/analyze/home.html
+audience: end-user
+user-guide-title: Analytics Analyze Guide
+user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 5df7bc43587deed41786f6c85f472fb6f908caf8
+source-git-commit: e526a38415135440f666ecadd73c34920c0c4c1d
 
 ---
 
@@ -120,6 +120,10 @@ source-git-commit: 5df7bc43587deed41786f6c85f472fb6f908caf8
    + [优化 Analysis Workspace 性能](analysis-workspace/optimizing-performance.md)
    + [Analysis Workspace 与 Ad Hoc Analysis 的比较](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
    + [Analysis Workspace 限制](analysis-workspace/aw-limitations.md)
+   + [归因 IQ](analysis-workspace/attribution-iq.md)
+   + [历程 IQ](analysis-workspace/journey-iq.md)
+   + [区段 IQ](analysis-workspace/segment-iq.md)
+   + [虚拟分析师](analysis-workspace/journey-iq.md)
 + Report Builder {#report-builder}
    + [Adobe Report Builder 帮助](report-builder/home.md)
    + [Report Builder 的新增功能](report-builder/whats-new-arb.md)
@@ -238,7 +242,7 @@ source-git-commit: 5df7bc43587deed41786f6c85f472fb6f908caf8
    + [可靠的链接跟踪](activity-map/lnk-tracking-overview.md)
    + [标准模式与实时模式的对比](activity-map/activitymap-standard-live.md)
    + [链接报表](activity-map/activitymap-links-report.md)
-   + [页面详细信息](activity-map/activitymap-page-flow.md)
+   + [详细信息页面](activity-map/activitymap-page-flow.md)
    + [整套量度](activity-map/activitymap-complete-metrics.md)
    + [实时页面分析（实时模式）](activity-map/activitymap-realtime.md)
    + [客户分段](activity-map/activitymap-multiple-segments.md)
