@@ -6,38 +6,55 @@ title: 删除分类数据
 topic: Admin tools
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: e526a38415135440f666ecadd73c34920c0c4c1d
 
 ---
 
 
 # 删除分类数据
 
-描述如何删除或移除分类数据的步骤。
+有时，上载分类数据后必须删除该数据。 根据 `~empty~` 要删除 `~deletekey~`的内容，使用或。
+
+## 删除分类数据的步骤
+
+删除分类数据涉及上传包含或位于相 `~empty~` 应单元 `~deletekey~` 格中的分类文件。
 
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
 1. Click **[!UICONTROL Browser Export]**.
 1. 选择您要从中删除分类数据的报表包和数据集。
 1. Adjust any optional settings to filter specific data you're looking for, then click **[!UICONTROL Export File]**.
-1. Once the file has been downloaded, open the file and replace any classification values you wish to delete with [!DNL ~empty~].
+1. 下载文件后，打开文件并将任何分类值替换为或 `~empty~` 值 `~deletekey~`。
+1. 将文件另存为制表符分隔的文本文件。
+1. 单击 **[!UICONTROL 导入文件]**，然后将保存的分类文件上传回Adobe Analytics。
 
-   Alternatively, use [!DNL ~deletekey~]. 此命令会视为指定键值从未出现过该分类。它会从查找表中完全删除该分类和任何列数据。
+## 删除单个分类值
 
-   **警告**:您只需要一列包含 [!DNL ~deletekey~]。 The [!DNL ~empty~] command works at the cell level (key and column combination), so you need [!DNL ~empty~] in the classification column you want to remove. However, [!DNL ~deletekey~] works at the row level (the key and all associated metadata), so it only needs to appear in one of the columns in the row. 此命令可从行中删除所有元数据。Adobe 将此解释为从未对键值进行分类，并且将其显示在[无](/help/components/c-classifications2/c-classifications-importer/nonclassified-keys.md#concept_233E51DDF3084FF7B7EA89381C73C5FF)类别中。
+多个分类可属于同一变量。 例如，您可以有2个不同的eVar1分类。 如果您只想删除单个分类值，请将分类值替换为 `~empty~`。 例如：
 
-1. 保存文件，并使用“[!UICONTROL 导入文件]”选项卡，将其上载。
+| 库存SKU(eVar8) | 库存名称 | 库存类别 |
+| --- | --- | --- |
+| 857467 | V领毛衣 | 女装 |
+| 948203 | 踝链 | 珠宝 |
+| 174391 | 白灯绒裤子 | `~empty~` |
 
-   After you upload the file, the system recognizes [!DNL ~empty~] as a command to delete that classification value.
+在“ `~empty~` 库存类别”分类下使用仍保留“库存名称”分类的数据。 该 `~empty~` 值仅删除该单元格的分类数据。
 
-   **此命令的属性**
+## 删除整个分类行
 
-* [!DNL ~empty~] must be lowercase without spaces. 以下输入无效：
+在任 `~deletekey~` 何列中使用可删除整个分类行。 例如：
 
-   * [!DNL ~EMPTY~]
-   * [!DNL ~ empty ~]
-   * [!DNL ~Empty~]
+| 库存SKU(eVar8) | 库存名称 | 库存类别 |
+| --- | --- | --- |
+| 857467 | V领毛衣 | 女装 |
+| 948203 | 踝链 | 珠宝 |
+| 174391 | 白灯绒裤子 | `~deletekey~` |
 
-* 您无法删除键值列中的值。这是直接传递到报表中的数据，将会永久保存。
-* 如果删除具有子分类的分类值，则也会删除子分类。没有键值的分类无法存在，而子分类的父级是其键值。
+使用 `~deletekey~` 库存类别分类会删除关键值的所有分类数据 `174391`。 这就好像行从未被分类一样。
+
+## 陷阱和提示
+
+* 如果使 `~deletekey~`用，则在分类文件中只需每行一行。
+* `~empty~` 必须 `~deletekey~` 是精确 *匹配* 。 不允许使用空格或大写。
+* 不能删除键列中的值，这些值将直接传递到变量中，并且是永久的。
+* 如果删除的分类值具有子分类，则这些子分类也会被删除。 没有键值的分类无法存在，而子分类的父级是其键值。
 * 可以在保持父分类完整的情况下，删除子分类数据。
-
