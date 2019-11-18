@@ -7,14 +7,14 @@ title: 页面变量
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: c32f7302fdc30860da6f5a29d98ada53a6a6da20
+source-git-commit: 3cb4a916a083e9397479d53294795136409e15d0
 
 ---
 
 
 # 页面变量
 
-页面变量可以直接填充报表，例如 pageName、列表属性、列表变量，等等。要获得有关特定页面变量的帮助，请单击以下任意链接：
+页面变量可以直接填充报表，例如 pageName、列表属性、列表变量，等等。要获得有关特定页面变量的帮助，请单击以下列表中变量的名称：
 
 * [browserHeight](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)
 * [browserWidth](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)
