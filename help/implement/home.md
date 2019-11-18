@@ -2,7 +2,7 @@
 title: 为移动设备实施分析
 description: 'null'
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 9dba25b73ad8125a1bf5f1644792456957fefdee
 
 ---
 
@@ -10,25 +10,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 # 为移动设备实施分析
 
 ![横幅](../../assets/doc_banner_implement.png)
-
-要实施适用于移动设备的Analytics，请参阅以下SDK存储库和文档列表：
-
-Experience Platform SDK
-
-
-Experience Platform SDK
-
-Experience Platform SDK文档
-
-4.x SDK:
-
-4.x SDK文档
-
-3.x SDK文档：尽管不再支持用于移动设备的3.x Analytics SDK，但您可以访问以下文档：
-
-
-
-
 
 
 * **Adobe Experience Platform Launch：**&#x200B;这是一种在实施 Adobe Analytics 时推荐使用的标准化方法。该方法会在每个页面上设置一个加载器标记，并使用 Launch 的界面来确定每个变量的定义方式。
