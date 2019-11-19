@@ -2,9 +2,9 @@
 description: 显示访客在网页上逗留的时间。
 solution: Analytics
 title: 页面逗留时间
-topic: 报告
+topic: Reports
 translation-type: tm+mt
-source-git-commit: 77eac41cdcfe0ad71ffe81525f6de4dc6b2b48d4
+source-git-commit: df64b85f2567df68d2f710762596e4960214a4f6
 
 ---
 
@@ -40,4 +40,4 @@ Adobe Analytics提供多种方法来确定Analytics报告中所花费的时间�
 
 此维度基于点击，如果用作细分，可提供更有意义的数据。 将此维度与每次 [访问所花费的时间进行比较](reports-time-spent-per-visit.md)，这是一个基于访问的维度。
 
-![所花费的时间](assets/time-spent1.png)
+![所花费的时间](/help/components/c-variables/c-metrics/assets/time-spent1.png)
