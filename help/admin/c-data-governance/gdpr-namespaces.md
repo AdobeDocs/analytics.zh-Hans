@@ -3,7 +3,7 @@ description: 您希望能够搜索的每个 ID 均分配有一个命名空间；
 title: 命名空间
 uuid: cab61844-3209-4980-b14c-6859de777606
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 * “type”字段，它在大部分 Adobe Analytics 请求中包含值“analytics”。
 * “value”字段，其中包含 Analytics 应在每个报表包的关联命名空间变量中搜索的 ID。
 
-有关更多详细信息，请参阅 [Experience Cloud 数据隐私 API 文档](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)。
-
-<!-- Meike, I converted this table to headings and text to fix a validation error. -Bob -->
+有关更多详细信息，请参阅 [Experience Cloud 数据隐私 API 文档](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md)。
 
 ## Cookie ID
 
