@@ -7,7 +7,7 @@ title: 页面变量
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
 
 ---
 
@@ -57,7 +57,7 @@ The *`products`*&#x200B;变量应始终结合成功事件进行设置。
  </tbody> 
 </table>
 
-**语法** {#section_ABA3682985E540E6AA67A510176CCFFC}
+**语法**
 
 ```js
 "Category;Product;Quantity;Price;eventN=X[|eventN2=X2];eVarN=merch_category[|eVarN2=merch_category2]"
@@ -66,23 +66,23 @@ The *`products`*&#x200B;变量应始终结合成功事件进行设置。
 | 字段 | 定义 |
 |---|---|
 | 类别 | 包含关联的产品类别。在版本 15 中，products 可以与多个类别相关联，从而修复了版本 14 中存在的限制。如果之前未记录产品类别，则建议开始为版本 15 上的报表包填充此字段。 |
-| 产品 | （必需）用于跟踪产品的标识符。此标识符用于填充[!UICONTROL 产品]报表。请务必在整个结帐过程中使用同一标识符。 |
-| 数量 | 所购买的件数。此字段必须在[!UICONTROL 购买]事件中设置才能记录。 |
-| 价格 | 指总购买量的联合成本（件数 x 单价），而不是单价。此字段必须在[!UICONTROL 购买]事件中设置才能记录。 |
-| 事件 | 与指定产品关联的货币事件。请参阅[产品特定的货币事件](/help/implement/js-implementation/c-variables/page-variables.md#section_F814DF053C0D463A97DA039E6323720C)和[订单范围的货币事件](/help/implement/js-implementation/c-variables/page-variables.md#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0)。 |
+| 产品 | （必需）用于跟踪产品的标识符。此标识符用于填充产品报表。请务必在整个结帐过程中使用同一标识符。 |
+| 数量 | 所购买的件数。此字段必须在购买事件中设置才能记录。 |
+| 价格 | 指总购买量的联合成本（件数 x 单价），而不是单价。此字段必须在购买事件中设置才能记录。 |
+| 事件 | 与指定产品关联的货币事件。请参阅[产品特定的货币事件](https://helpx.adobe.com/analytics/kb/comparing-event-types.html)和[订单范围的货币事件](https://helpx.adobe.com/analytics/kb/comparing-event-types.html)。 |
 | eVar | 与特定产品关联的促销 eVar 值。请参阅[促销变量](/help/components/c-variables/c-merch-variables/var-merchandising.md)。 |
 
 包含在&#x200B;*`products`*&#x200B;变量中包含的值基于您所记录的事件类型。省略类别时，需要使用类别/产品分隔符 (;) 作为占位符。仅当需要区分所包含的参数时，才要求使用其他分隔符，如本页上的示例所示。
 
-**设置非购买事件的 products** {#section_D5E689D4AAE941EC851CA9B98328A4DE}
+**设置非购买事件的 products**
 
 *`products`* 变量必须结合成功事件进行设置。
 
-**设置购买事件的 products** {#section_618AAC96E7B541A7AABAA028E5F4E5C3}
+**设置购买事件的 products**
 
 *`purchase`* 事件应在订购流程的最终确认（“谢谢！”）页面上设置。产品名称、类别、数量和价格都将使用 *`products`* 变量捕获。尽管 *`purchaseID`* 并非必要变量，但是强烈建议设置此变量，以防出现重复订购情况。
 
-**产品特定的货币事件** {#section_F814DF053C0D463A97DA039E6323720C}
+**产品特定的货币事件**
 
 如果货币事件在 *`products`* 变量中接收的是一个值而不是 events 变量，则该事件仅适用于该值。这对于跟踪产品特定的折扣、产品运输及类似值非常有用。例如，如果将事件 1 配置为跟踪产品运输，则运输费用为“4.50”的产品可能会类似于以下内容：
 
@@ -93,7 +93,7 @@ s.products="Footwear;Running Shoes;1;99.99;event1=4.50"
 
 在此示例中，值 4.50 直接与“Running Shoes”产品相关联。如果将 event1 添加到 products 报表中，您会发现“Running Shoes”行项目将列出“4.50”。与“价格”类似，该值应反映所列数量的总值。如果有 2 个运输费用均为“4.50”的项目，则 event1 应为“9.00”。
 
-**订单范围的货币事件** {#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0}
+**订单范围的货币事件**
 
 如果货币事件在事件列表中接收的是值而不是 *`products`* 变量，则它将适用于 *`products`* 变量中的所有产品。这对于在不修改产品价格，或单独跟踪产品列表中值的情况下，跟踪订单范围折扣、运输费以及类似值非常有用。
 
@@ -109,15 +109,15 @@ s.purchaseID="1234567890"
 
 > [!NOTE]如果在 *`products`* 变量和 *`events`* 变量中指定了相同数值/货币事件的值，则会使用 *`events`* 的值。
 
-**缺陷、问题和提示** {#section_D38FD0B79C0347B9AB4CF1632183DA2E}
+**缺陷、问题和提示**
 
-* *`products`* 变量应当始终结合一个[!UICONTROL 成功]事件（或多个事件）进行设置。如果未指定任何[!UICONTROL 成功]事件，则默认事件为 [!UICONTROL prodView]。
+* *`products`* 变量应当始终结合一个成功事件（或多个事件）进行设置。如果未指定任何成功事件，则默认事件为 prodView。
 
 * 在填充 products 变量之前，请先清除产品和类别名称中的所有逗号和分号。
 * 清除所有 HTML 字符（注册符号、商标等）。
 * 清除价格中的货币符号 ($)。
 
-**示例** {#section_FCC6EF43D3534ECB9A95CDB05820F564}
+**示例**
 
 <table id="table_6F1334E73CE048A5AC0CC28B561C1B2D"> 
  <tbody> 
