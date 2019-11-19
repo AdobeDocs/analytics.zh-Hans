@@ -4,7 +4,7 @@ solution: Analytics
 title: 计算量度
 uuid: 039fbb1a-8fa9-479b-badb-ad609b225524
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 7ac854aa4d83f952bec911cfc63058f2997096e8
 
 ---
 
@@ -13,4 +13,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 计算量度使您可以将多个量度通过数学运算组合成新的量度来使用。您可以为添加了量度的报表创建这些计算量度。管理员可以为报表包的所有用户创建计算量度。
 
-有关对在 Adobe Analytics 中创建和管理计算量度的方式进行更改的详细信息，请参阅[计算量度指南](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)。
+For more information on changes to the way calculated metrics are created and managed across Adobe Analytics, refer to the [Calculated Metrics documentation](/help/components/c-calcmetrics/cm-overview.md).
