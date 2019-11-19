@@ -5,7 +5,7 @@ title: 跟踪代码
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5f087807ddff07f2439f82061e471624381febf8
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **常规属性**
 
-* 此报表直接引用来自贵网站上实施的 [s.campaign](/help/implement/js-implementation/c-variables/page-variables.md) 变量中的数据。
+* 此报表直接引用来自贵网站上实施的 [s.campaign](/help/implement/js-implementation/page-variables/page-variables.md) 变量中的数据。
 * 此报表所基于的变量是一个[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。这表明它的持续时间要超过页面查看，并且可将其自身与它指定的过期时间内的量度相关联。
 * 此报表的默认量度为收入。您可以在[!UICONTROL 管理工具]中的[!UICONTROL 报表包管理器]内更改此默认值。( **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Individual Report Settings]** &gt; **[!UICONTROL Default Metrics]**.)
 
