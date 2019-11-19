@@ -7,7 +7,7 @@ title: 页面变量
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -25,17 +25,17 @@ list_props.xml
 
 **注意事项**
 
-* 列表属性只在流量变量启用 ([props](/help/implement/js-implementation/c-variables/page-variables.md))。
+* 列表属性只在流量变量启用 ([props](/help/implement/js-implementation/page-variables/propn.md))。
 * 无法为列表属性启用路径分析和关联。
 * Analytics 几乎为每个报表（包括所有列表属性报表）都提供了访问和独特访客。
 * 列表属性支持分类。
-* 任何自定义流量变量都可成为一个列表属性。（例外：[pageName](/help/implement/js-implementation/c-variables/page-variables.md)、[channel](/help/implement/js-implementation/c-variables/page-variables.md) 和 [server](/help/implement/js-implementation/c-variables/page-variables.md)。）
+* 任何自定义流量变量都可成为一个列表属性。（例外：[pageName](/help/implement/js-implementation/page-variables/pagename.md)、[channel](/help/implement/js-implementation/page-variables/channel.md) 和 [server](/help/implement/js-implementation/page-variables/server.md)。）
 
 * 在同一个图像请求中定义重复值时，不会删除重复实例。
 
 可以通过启用“列表支持”并选择分隔符，在“管理工具”&gt;“报表包”&gt;“流量变量”页面将属性更改为列表属性。常用的分隔符包括冒号、分号、逗号或竖线。从技术上讲，分隔符可以是头 127 个 ASCII 字符中的任意一个。
 
-**实施示例** {#section_A3DD7293A8BB4807B42BFB1F73BE11AC}
+**实施示例**
 
 在请求启用列表属性时，请指明您要使用的分隔符。在启用了您选择的&#x200B;*`s.prop`*&#x200B;之后，可在变量中设置多个值，如以下示例中所示：
 
