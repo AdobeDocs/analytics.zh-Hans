@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 6aafcddb0fb08d642de8020c656e59a7f2a670aa
+source-git-commit: 8deec068fcea49f1183633826d5ce8271fb38a14
 
 ---
 
@@ -150,7 +150,8 @@ source-git-commit: 6aafcddb0fb08d642de8020c656e59a7f2a670aa
          + [s.linkObject](js-implementation/c-variables/config-vars/s-linkobject.md)
       + [上下文数据变量](js-implementation/c-variables/context-data-variables.md)
       + [动态变量](js-implementation/c-variables/dynvars-overview.md)
-      + [页面变量] {#page-variables}
+      + 页面变量 {#page-variables}
+         + [页面变量概述](js-implementation/page-variables/page-variables.md)
          + [browserHeight](js-implementation/page-variables/browserheight.md)
          + [browserWidth](js-implementation/page-variables/browserwidth.md)
          + [campaign](js-implementation/page-variables/campaign.md)
