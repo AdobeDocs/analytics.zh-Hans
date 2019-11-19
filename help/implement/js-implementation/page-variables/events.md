@@ -7,7 +7,7 @@ title: 页面变量
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -46,13 +46,13 @@ events.xml
 
 成功事件默认配置为&#x200B;*计数器*&#x200B;事件。计数器事件可计算成功事件的设置次数 (x+1)。事件还可配置为&#x200B;*数值*&#x200B;事件。数值事件允许您指定要增加的数量（在计算动态值或不定值时可能有用，例如由内部搜索返回的结果数量）。
 
-最终事件类型&#x200B;*货币*&#x200B;允许您定义要添加的数量（类似于数值事件），但在报表中显示为货币，并需符合基于 s.*`currencyCode`*&#x200B;值的货币兑换和报表包的默认货币设置。有关使用数值和货币事件的其他信息，请参阅[产品](/help/implement/js-implementation/c-variables/page-variables.md)。
+最终事件类型&#x200B;*货币*&#x200B;允许您定义要添加的数量（类似于数值事件），但在报表中显示为货币，并需符合基于 s.*`currencyCode`*&#x200B;值的货币兑换和报表包的默认货币设置。有关使用数值和货币事件的其他信息，请参阅[产品](/help/implement/js-implementation/page-variables/page-variables.md)。
 
-**配置变量** {#section_9195286C34C54B02B2598E2B856492C3}
+**配置变量**
 
-[!UICONTROL s.events] 变量默认为在所有实施中启用。七个预配置转化事件在所有新报表包中自动启用。新的自定义事件（event1- [event100 或 event1000](/help/implement/js-implementation/c-variables/page-variables.md)）可由管理员级别的任何用户通过使用 Admin Console 来启用。
+`s.events` 变量默认为在所有实施中启用。七个预配置转化事件在所有新报表包中自动启用。新的自定义事件（event1- [event100 或 event1000](/help/implement/js-implementation/page-variables/page-variables.md)）可由管理员级别的任何用户通过使用 Admin Console 来启用。
 
-**可能值** {#section_18395A3BEFEB4E9F8D7B2ED0001FBE4E}
+**可能值**
 
 以下是事件变量的可能值列表：
 
@@ -67,9 +67,9 @@ events.xml
 | purchase | 购买（订购）完成 | 订购 |
 | event1 至 event1000（event100 对应点产品） | 自定义事件 | 自定义事件 |
 
-**语法和示例** {#section_45A159DF00114066B8551DDEB15E084C}
+**语法和示例**
 
-在以逗号隔开的列表（如果有多个事件需要传递）中，将所需的事件置于 [!UICONTROL s.events] 变量中，可设置计数器事件。
+在以逗号隔开的列表（如果有多个事件需要传递）中，将所需的事件置于 `s.events` 变量中，可设置计数器事件。
 
 ```js
 s.events="scAdd"
@@ -99,19 +99,19 @@ s.events="scRemove=3,event6,event2=4"
 
 实施分配了整数值的计数器事件，会检查事件是否在图像请求内触发了多次。计数器事件不允许有小数，如果您需要此功能，建议使用数值事件。数值和货币事件必须包含在 [!UICONTROL s.events] 变量中，即使它们经常会收到 [!UICONTROL s.products] 变量中的数字值（例如 24.99）。这允许您将特定的数值和货币值与各个产品条目关联。
 
-**事件序列化** {#section_A89488EF4471405AAFC4D6DD05E77621}
+**事件序列化**
 
 默认情况下，某事件在您的网站每设置一次，都会计为一个事件。
 
 请参阅[事件序列化](/help/implement/js-implementation/event-serialization.md)，以了解更多信息。
 
-**语法** {#section_8559D42D3F344AF3BB3C0125F78C4989}
+**语法**
 
 ```js
 s.events="event1:3167fhjkah"
 ```
 
-**示例** {#section_7B5B5728A59648ADB3E2548CDAD2C9D4}
+**示例**
 
 ```js
 s.events="scAdd:003717174"
