@@ -2,7 +2,7 @@
 title: Adobe Analytics中使用的术语
 description: Adobe Analytics词汇表，用于定义使用的常用术语。
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 0ff163713e47d47e104e15258586f1544fc5f019
 
 ---
 
@@ -23,11 +23,11 @@ source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 * **** 弹回：一次点击即可访问。 请参 [阅组件](/help/components/c-variables/c-metrics/metrics-bounces.md) 用户指南中的弹回。 另请参阅单次访问。
 * **** 计算量度：允许将现有指标、统计函数和公式组合在一起以用于报告。 请参 [阅组件用户指南](/help/components/c-calcmetrics/cm-overview.md) 中的计算量度。
 * **** 营销活动：可以参考：
-   * Campaign变量，用于填充“跟踪代码”维。 请参 [阅实施用户指南](/help/implement/js-implementation/c-variables/page-variables.md) 中的页面变量。
+   * Campaign变量，用于填充“跟踪代码”维。 请参 [阅实施用户指南](/help/implement/js-implementation/page-variables/page-variables.md) 中的页面变量。
    * 跟踪代码维度的默认分类；自动为所有报表包创建。
    * Adobe Campaign是Adobe Experience cloud的一部分。 有关 [Adobe.com的更多信息](https://www.adobe.com/marketing/campaign.html)。
 * **** 渠道：可以参考：
-   * Channel变量，用于填充“站点区域”维。 请参 [阅实施用户指南](/help/implement/js-implementation/c-variables/page-variables.md) 中的页面变量。
+   * Channel变量，用于填充“站点区域”维。 请参 [阅实施用户指南](/help/implement/js-implementation/page-variables/page-variables.md) 中的页面变量。
    * 营销渠道，一个可帮助了解用户如何到达您网站的组件。 请参 [阅组件用户指南](/help/components/c-marketing-channels/c-overview.md) 中的营销渠道。
 * **** 分类：Adobe Analytics中允许对维值进行分组的功能。 请参 [阅组件](/help/components/c-classifications2/c-classifications.md) 用户指南中的分类。
 * **** Clickmap:不再使用。 一个旧版浏览器插件，它显示您网站上哪些区域被点击最多。 此工具已停用，改为“活动图”。
@@ -65,8 +65,8 @@ source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 * **** KPI:关键绩效指标的缩写。 有助于企业了解其网站表现的指标。 每个组织的KPI各不相同，它们衡量业务的不同方面。 请参 [阅实施用户指南中的](/help/implement/prepare/solution-design.md) “创建解决方案设计文档”。
 * **** 延迟：在收集数据和报告中提供数据之间的延迟。 报告套件中的典型滞后时间为30-90分钟。 请参 [阅Technotes用户指南](/help/technotes/latency.md) 中的延迟。
 * **** 启动项：Adobe Experience Platform Launch的简称，Adobe的当前实施解决方案。 请参 [阅](https://docs.adobe.com/content/help/en/launch/using/overview.html) Adobe Experience Platform Launch用户指南中的概述。
-* **** 列表属性：一种设置，可转换典型流量变量以支持同一点击中的多个值。 如果启用了设置，则任何自定义流量变量都可以成为列表属性。 请参 [阅实施用户指南](/help/implement/js-implementation/c-variables/page-variables.md) 中的页面变量。
-* **** 列表变量：与转换变量分开的不同变量。 列表变量支持同一点击中的多个值，并且变量值会在访问中保留，这与转换变量类似。 组织只能使用三个列表变量。 请参 [阅实施用户指南](/help/implement/js-implementation/c-variables/page-variables.md) 中的页面变量。
+* **** 列表属性：一种设置，可转换典型流量变量以支持同一点击中的多个值。 如果启用了设置，则任何自定义流量变量都可以成为列表属性。 请参 [阅实施用户指南](/help/implement/js-implementation/page-variables/page-variables.md) 中的页面变量。
+* **** 列表变量：与转换变量分开的不同变量。 列表变量支持同一点击中的多个值，并且变量值会在访问中保留，这与转换变量类似。 组织只能使用三个列表变量。 请参 [阅实施用户指南](/help/implement/js-implementation/page-variables/page-variables.md) 中的页面变量。
 * **** 登录公司：您的组织使用的报表包集合。 某些组织有多个登录公司，这些公司适用于其组织的不同部分。
 * **** 营销渠道：Adobe Analytics中的一项功能，可按点击到达网站的方式对点击量进行分类。 可使用营销渠道处理规则自定义用于分类点击的逻辑。 请参 [阅组件用户指南](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 中的营销渠道入门。
 * **** 指标：包含定量数据的组件类型。 度量值通常包含数字，如页面查看次数、访问次数和收入。 维度通常是对应的。
