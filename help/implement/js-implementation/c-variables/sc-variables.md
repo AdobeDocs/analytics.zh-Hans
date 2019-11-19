@@ -7,7 +7,7 @@ title: 变量概述
 topic: Developer and implementation
 uuid: 067d0135-572a-4a44-af9e-445d3c4e9271
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -16,10 +16,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Analytics 提供了多个变量来收集 Analytics 数据。例如，pageName 变量中的值是将报告的网页的名称。本部分列出了 AppMeasurement 支持的变量。
 
-有关页面变量的详细信息，请转到[此处](/help/implement/js-implementation/c-variables/page-variables.md)。
+有关页面变量的详细信息，请转到[此处](/help/implement/js-implementation/page-variables/page-variables.md)。
 有关配置变量的详细信息，请转到[此处](/help/implement/js-implementation/c-variables/configuration-variables.md)。
 
-## 如何设置变量 {#section_E52CF9E8FDF74164A1511E0D9D31884D}
+## 如何设置变量
 
 AppMeasurement 要求在初次调用 track 函数 *`t()`* 之前设置所有配置变量。如果在调用 *`t()`* 之后设置配置变量，则可能会发生意外结果。
 
