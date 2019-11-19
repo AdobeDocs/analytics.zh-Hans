@@ -7,7 +7,7 @@ title: 变量和限制
 topic: Developer and implementation
 uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!NOTE]
 >
->请参阅[配置变量](/help/implement/js-implementation/c-variables/configuration-variables.md)和[页面变量](/help/implement/js-implementation/c-variables/page-variables.md)，以深入了解最常见的 Analytics 变量。
+>请参阅[配置变量](/help/implement/js-implementation/c-variables/configuration-variables.md)和[页面变量](/help/implement/js-implementation/page-variables/page-variables.md)，以深入了解最常见的 Analytics 变量。
 
 下面的表格提供了有关 [!DNL Analytics] 变量的概览信息：
 
@@ -84,6 +84,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | transactionID | 将离线数据关联至在线交易（如在线生成的商机或购买）。每个发送到 Adobe 的唯一 *`transactionID`* 均会被记录，以备该交易离线信息的[!UICONTROL 数据源]上载。请参阅[数据源指南](https://marketing.adobe.com/resources/help/en_US/sc/datasources/)。 |
 | s_usePlugins | 如果 *`s_doPlugins`* 函数可用，并且包含有用的代码，则应将 [!UICONTROL s_usePlugins] 设置为“true”。当 [!UICONTROL usePlugins] 为“true”时，将在每个图像请求之前调用 *`s_doPlugins`* 函数。 |
 | visitorID | 可根据 *`visitorID`* 标记或 IP 地址/用户代理识别访客。*`visitorID`* 最长可包含 100 个字母数字字符，且不得包含连字符。 |
-| visitorNamespace | 如果在 JavaScript 文件中使用 *`visitorNamespace`*，请不要将其删除或进行更改。该变量用于确定设置 Cookie 的域。如果更改 *`visitorNamespace`*，则所有在 中报告的访客都可能会变成新访客。[!DNL Analytics]简而言之，未经 Adobe 顾问批准不要更改此变量。 |
-| zip | 捕获网站访客所在地的邮政编码。 |
-
+| visitorNamespace | 如果在 JavaScript 文件中使用 *`visitorNamespace`*，请不要将其删除或进行更改。该变量用于确定设置 Cookie 的域。如果更改 *`visitorNamespace`*，则所有在 中报告的访客都可能会变成新访客。[!DNL Analytics]简而言之，未经 Adobe
