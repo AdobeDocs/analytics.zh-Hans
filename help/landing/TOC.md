@@ -1,10 +1,10 @@
 ---
 product: analytics
-audience: 所有
-user-guide-title: Analytics 文档
-user-guide-url: /content/help/zh-Hans/analytics/landing/home.html
+audience: all
+user-guide-title: Analytics Documentation
+user-guide-url: /content/help/en/analytics/landing/home.html
 translation-type: tm+mt
-source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
+source-git-commit: e95673ff669b395ce942d6a0ccd644221c3d9381
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
 * [集成指南](https://docs.adobe.com/content/help/en/analytics/integration/home.html)
 * [媒体分析指南](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
 * [数据工作台指南](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)
+* [客户历程分析](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)
 
 * [文档更新](doc-updates.md)
 * [发行说明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
