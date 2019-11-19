@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Analyze Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: e526a38415135440f666ecadd73c34920c0c4c1d
+source-git-commit: 28a50956dd69d695b5ac304c414fcf631d394d9e
 
 ---
 
@@ -123,7 +123,7 @@ source-git-commit: e526a38415135440f666ecadd73c34920c0c4c1d
    + [归因 IQ](analysis-workspace/attribution-iq.md)
    + [历程 IQ](analysis-workspace/journey-iq.md)
    + [区段 IQ](analysis-workspace/segment-iq.md)
-   + [虚拟分析师](analysis-workspace/journey-iq.md)
+   + [虚拟分析师](analysis-workspace/virtual-analyst.md)
 + Report Builder {#report-builder}
    + [Adobe Report Builder 帮助](report-builder/home.md)
    + [Report Builder 的新增功能](report-builder/whats-new-arb.md)
