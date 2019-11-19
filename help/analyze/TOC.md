@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Analyze Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 28a50956dd69d695b5ac304c414fcf631d394d9e
+source-git-commit: 4320a2dc41ebb24860edb440f89f182d87aba3c2
 
 ---
 
@@ -84,7 +84,6 @@ source-git-commit: 28a50956dd69d695b5ac304c414fcf631d394d9e
       + [自由格式面板](analysis-workspace/c-panels/freeform-panel.md)
       + Segment comparison {#segment-comparison}
          + [细分 IQ 概述](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-         + [临时页面](analysis-workspace/c-panels/c-segment-comparison/compare-segments.md)
          + [细分 IQ 用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [细分比较中使用的统计测试](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 组织或共享项目 {#curate-share}
@@ -94,11 +93,6 @@ source-git-commit: 28a50956dd69d695b5ac304c414fcf631d394d9e
       + [共享和计划项目文件](analysis-workspace/curate-share/send-schedule-files.md)
       + [发送文件 - 计划交付项目](analysis-workspace/curate-share/t-schedule-report.md)
       + [计划项目管理器](analysis-workspace/curate-share/schedule-projects.md)
-   + 归因 IQ {#attribution-iq}
-      + [临时页面](analysis-workspace/attribution-iq/attribution.md)
-      + [临时页面](analysis-workspace/attribution-iq/use-attribution-iq.md)
-      + [临时页面](analysis-workspace/attribution-iq/attribution-calcmetrics.md)
-      + [临时页面](analysis-workspace/attribution-iq/attribution-faq.md)
    + 虚拟分析师 {#virtual-analyst}
       + [虚拟分析师](analysis-workspace/virtual-analyst/virtual-analyst.md)
       + 异常检测 {#anomaly-detection}
@@ -121,7 +115,6 @@ source-git-commit: 28a50956dd69d695b5ac304c414fcf631d394d9e
    + [Analysis Workspace 与 Ad Hoc Analysis 的比较](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
    + [Analysis Workspace 限制](analysis-workspace/aw-limitations.md)
    + [归因 IQ](analysis-workspace/attribution-iq.md)
-   + [历程 IQ](analysis-workspace/journey-iq.md)
    + [区段 IQ](analysis-workspace/segment-iq.md)
    + [虚拟分析师](analysis-workspace/virtual-analyst.md)
 + Report Builder {#report-builder}
