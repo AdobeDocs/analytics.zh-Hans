@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: 常见问题解答
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 7ac854aa4d83f952bec911cfc63058f2997096e8
 
 ---
 
@@ -84,7 +84,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：我可以在 Analytics 中的哪些地方使用这些维度？</b> </p> </td> 
-   <td colname="col2"> <p>几乎任何地方都可以使用；对它们的处理方式与 Analytics 中收集到的任何其他维度类似。存在以下两个例外：目前，在 Data Workbench 或 Livestream 中将不会有数据。 </p> </td> 
+   <td colname="col2"> <p>几乎任何地方都可以使用；对它们的处理方式与 Analytics 中收集到的任何其他维度类似。有一个例外：目前，数据不会在Data Workbench中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：为什么我看不到Analytics中的数据流？</b> </p> </td> 
@@ -119,7 +119,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>问：如果我实施了旧版 SSF，我还需要转至 Analytics 管理员，开启报表包 SSF 吗？</b> </p> </td> 
-   <td colname="col2"> <p>能。在 AAM 目标设置中，您将只会看到开启了 SSF 的报表包。 </p> </td> 
+   <td colname="col2"> <p>是. 在 AAM 目标设置中，您将只会看到开启了 SSF 的报表包。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：为什么无法在Analytics Admin中为SSF打开某些报表包？</b> </p> </td> 
