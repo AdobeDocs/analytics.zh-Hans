@@ -5,7 +5,7 @@ solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 页面查看次数和内容
 uuid: 6d019304-5892-475b-9887-00f86983f859
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -26,19 +26,19 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> 页面名称 </td> 
-   <td colname="col2"> <p>您的网站中每个页面的名称。 </p> <p>请参阅<a href="/help/implement/js-implementation/c-variables/page-variables.md">页面变量</a>. </p> </td> 
+   <td colname="col2"> <p>您的网站中每个页面的名称。 </p> <p>请参阅 <a href="/help/implement/js-implementation/page-variables/pagename.md">pageName</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 页面 URL 覆盖 </td> 
-   <td colname="col2"> <p> 覆盖页面的实际 URL。 </p> <p>请参阅<a href="/help/implement/js-implementation/c-variables/page-variables.md">页面变量</a>. </p> </td> 
+   <td colname="col2"> <p> 覆盖页面的实际 URL。 </p> <p>请参阅 <a href="/help/implement/js-implementation/page-variables/pageurl.md">pageURL</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 渠道（网站区域） </td> 
-   <td colname="col2"> <p>对网站中的区域进行标识。 </p> <p>请参阅<a href="/help/implement/js-implementation/c-variables/page-variables.md">页面变量</a>. </p> </td> 
+   <td colname="col2"> <p>对网站中的区域进行标识。 </p> <p>请参阅 <a href="/help/implement/js-implementation/page-variables/channel.md">channel</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 层级 </td> 
-   <td colname="col2"> <p>确定页面在网站层级中的位置。 </p> <p>请参阅<a href="/help/implement/js-implementation/c-variables/page-variables.md">页面变量</a>. </p> </td> 
+   <td colname="col2"> <p>确定页面在网站层级中的位置。 </p> <p>请参阅<a href="/help/implement/js-implementation/page-variables/page-variables.md">页面变量</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
