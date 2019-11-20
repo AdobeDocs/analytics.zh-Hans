@@ -1,13 +1,13 @@
 ---
-title: 为移动设备实施分析
+title: 实施Adobe Analytics
 description: 'null'
 translation-type: tm+mt
-source-git-commit: 9dba25b73ad8125a1bf5f1644792456957fefdee
+source-git-commit: 3669f5d5ad81d9adab2d1ed0628de251bec3a90b
 
 ---
 
 
-# 为移动设备实施分析
+# 实施Adobe Analytics
 
 ![横幅](../../assets/doc_banner_implement.png)
 
@@ -16,7 +16,7 @@ source-git-commit: 9dba25b73ad8125a1bf5f1644792456957fefdee
 * **Dynamic Tag Management：** Launch 的前身。DTM 使用类似的界面来实施 Analytics，但不再更新，也没有那么灵活。Adobe 建议使用 Launch 来实施 Adobe Analytics。
 * **旧版 JavaScript：**&#x200B;实施 Adobe Analytics 的历史手动方法。概述实施中使用的变量和设置，对于使用自定义代码规则的 Launch 实施很有用。
 
-## 重要 Analytics 导入文章
+## 关键分析实施文章
 
 * [Adobe Debugger](impl-testing/debugger.md)
 * [在 Experience Platform Launch 中创建属性](implement-with-launch/create-analytics-property.md)
