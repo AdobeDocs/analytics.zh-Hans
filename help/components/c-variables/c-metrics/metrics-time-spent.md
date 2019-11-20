@@ -4,7 +4,7 @@ solution: Analytics
 title: 逗留时间
 topic: Metrics
 translation-type: tm+mt
-source-git-commit: e67926856111834bb9c783ec916a24d34981454c
+source-git-commit: e04051a655a842092f3d99ba784a738e86d65eb2
 
 ---
 
@@ -46,13 +46,15 @@ The **numerator** in all time spent calculations is total seconds spent.
 
 The **denominator** is not available as a separate metric in Adobe Analytics. 对于点击级别的“停留时间”指标，分母是序列。 一个序列是一组连续的点击，其中给定的变量包含相同的值（不论是设置、扩展还是保留的值）。“向前扩展”是指为计算所花费的时间而在页面查看之间（即在后续链接事件之间）保留prop。
 
-* For example, in the case of [!UICONTROL Page Name] or other dimensions at the hit level, the denominator is essentially 'Instances' or 'Page Views', but with reloads and unset values (e.g. link events) counted as a single interaction (a sequence).
+* For example, in the case of [!UICONTROL Page Name] or other dimensions at the hit level, the denominator is essentially [!UICONTROL 'Instances'] or [!UICONTROL 'Page Views'], but with reloads and unset values (e.g. link events) counted as a single interaction (a sequence).
 
 * 跳出和退出点击也会从分母中删除，因为无法知道“停留时间”。
 
 ## 常见问题解答
 
-**第1季度：是否可以将所有“所花时间”指标应用于任何维度？**&#x200B;答：可应用于任何维度的“停留时间”指标包括：
+**第1季度：是否可以将所有“所花时间”指标应用于任何维度？**
+
+答：可应用于任何维度的“停留时间”指标包括：
 
 * [!UICONTROL 所用总秒数]
 
@@ -62,15 +64,21 @@ The **denominator** is not available as a separate metric in Adobe Analytics. �
 
 * [!UICONTROL 网站平均停留时间] （秒）
 
-**第2季度：在与其他维度进行细分时，最好使用哪个时间维度？**&#x200B;答：页 [!UICONTROL 面停留时间——粒度维度] 是点击级别维度。 按其他维度划分此维度将显示点击持续的秒数，其中也会显示划分维度。在以下示例中，搜索词“classifieds”与54秒、59秒等的点击时间相关联，这可能表示访客花时间阅读该词返回的内容。
+**第2季度：在与其他维度进行细分时，最好使用哪个时间维度？**
+
+A: The [!UICONTROL Time Spent on Page – granular] dimension is a hit-level dimension. 按其他维度划分此维度将显示点击持续的秒数，其中也会显示划分维度。在以下示例中，搜索词“classifieds”与54秒、59秒等的点击时间相关联，这可能表示访客花时间阅读该词返回的内容。
 
 ![](assets/time-spent1.png)
 
-**第三季度：针对页面停留时间——粒度[!UICONTROL 维度，哪些指标合适]?**&#x200B;答：任何指标。 维度将显示在发生事件的确切点击上花费的时间。 逗留时间越长意味着访客在发生事件的页面（点击）中停留的时间越长。
+**第三季度：针对页面停留时间——粒度[!UICONTROL 维度，哪些指标合适]?**
+
+答：任何指标。 维度将显示在发生事件的确切点击上花费的时间。 逗留时间越长意味着访客在发生事件的页面（点击）中停留的时间越长。
 
 ![](assets/time-spent2.png)
 
-**第4季度：网站平[!UICONTROL 均停留时间与每次访问][!UICONTROL 停留时间有何不同]?**&#x200B;答：区别在于度量中的分母：
+**第4季度：网站平[!UICONTROL 均停留时间与每次访问][!UICONTROL 停留时间有何不同]?**
+
+答：区别在于度量中的分母：
 
 * [!UICONTROL 网站平均停留时间] ，使用包含维度项的序列。
 
