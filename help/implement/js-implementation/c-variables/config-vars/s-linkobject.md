@@ -1,11 +1,10 @@
 ---
 description: 通过动态变量，您可以将一个变量中的值复制到另一个变量，而无需在网站上的图像请求中多次键入完整的值。
-keywords: Analytics 实施
-seo-description: 通过动态变量，您可以将一个变量中的值复制到另一个变量，而无需在网站上的图像请求中多次键入完整的值。
+keywords: Analytics Implementation
 solution: null
 title: 动态变量
 translation-type: tm+mt
-source-git-commit: 82060388a9a2122b66c57725cafa0eb4ce54e147
+source-git-commit: ff9ca2a07b5e488d1cd4412fcea221c2e0c5d1c4
 
 ---
 
