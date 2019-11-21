@@ -2,7 +2,7 @@
 title: 为移动设备实施分析
 description: 'null'
 translation-type: tm+mt
-source-git-commit: c94e581e98ae1563359140b9896eb892303c06ba
+source-git-commit: 0550b1ad44aebe70398b3994ff0dd72507e2ed4c
 
 ---
 
@@ -32,5 +32,5 @@ source-git-commit: c94e581e98ae1563359140b9896eb892303c06ba
 
 *注意：不再支持用于移动设备的AppMeasurement 3.x SDK。 但是，SDK的文档如下所示。*
 
-* [iOS文档](/assets/adobe_mobile_ios_3.x.pdf)
-* [Android文档](/assets/android_3.x.pdf)
+* [iOS文档](../../assets/adobe_mobile_ios_3x.pdf)
+* [Android文档](../../assets/android_3x.pdf)
