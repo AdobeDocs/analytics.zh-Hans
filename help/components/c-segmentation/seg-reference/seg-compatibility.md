@@ -5,7 +5,7 @@ title: Data Warehouse 区段兼容性
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: b91fb59ab3483ee670a86f428b2757786e89a3c5
 
 ---
 
@@ -36,7 +36,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
   <tr> 
    <td colname="col1"> <b>AND 和 OR 可自由组合不受限制</b> </td> 
    <td colname="col2"> 受支持 </td> 
-   <td colname="col3"> 存在一些限制 </td> 
+   <td colname="col3"> 存在一些限制。请参见下表的*注意*。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>嵌套的容器</b> </td> 
@@ -94,3 +94,4 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
  </tbody> 
 </table>
 
+*注意：数据仓库不支持在使用时使用或容器`exclusion`的所`without`有情况`AND/OR`。 在使用这种组合时，数据仓库中只支持那些可重写为`A AND NOT B`、(或&#x200B;**包含此特征并**排除此特征&#x200B;****)的段。*
