@@ -7,7 +7,7 @@ title: 页面变量
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
 # 产品
 
  变量用于跟踪产品和产品类别，以及购买数量和购买价格。products 通常与购物车事件或 事件一起设置。
+
 
 <!-- 
 
