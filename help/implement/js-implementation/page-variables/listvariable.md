@@ -7,7 +7,7 @@ title: 页面变量
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: ce200ed36f8c61d2870ea1500664673fa1cc4b5e
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: ce200ed36f8c61d2870ea1500664673fa1cc4b5e
 # 列表变量
 
 也称为 List Var（列表变量）。与“列表属性”的功能类似，“列表变量”允许在同一图像请求中包含多个值。它们的作用也与 eVar 类似，可独立于定义它们的图像请求之外存在。您可以使用这些变量来查看单一页面上多个元素（例如，产品列表、请求列表、搜索调整列表或展示广告列表）之间的因果关系。
+
 
 <!-- 
 
