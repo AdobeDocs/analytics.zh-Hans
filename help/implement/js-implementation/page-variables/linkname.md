@@ -7,7 +7,7 @@ title: 页面变量
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
 # linkName
 
 该变量是用于[!UICONTROL 链接跟踪]的可选变量，可确定自定义链接、下载链接或退出链接的名称。
+
 
 <!-- 
 
