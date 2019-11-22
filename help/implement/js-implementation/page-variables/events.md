@@ -7,7 +7,7 @@ title: 页面变量
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 # 事件
 
  变量用于记录常见的购物车成功事件以及自定义成功事件。
+
 
 <!-- 
 
