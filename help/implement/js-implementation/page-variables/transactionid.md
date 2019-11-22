@@ -7,7 +7,7 @@ title: 页面变量
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
 # transactionID
 
 [!UICONTROL 集成数据源使用交易 ID 将离线数据绑定至在线交易（如在线生成的商机或购买）。]
+
 
 <!-- 
 
