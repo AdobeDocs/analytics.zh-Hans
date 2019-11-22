@@ -7,7 +7,7 @@ title: 页面变量
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 # 列表属性
 
 列表属性是一种分隔的值列表，这些值被传入到一个变量，然后作为单独的行项目进行报告。列表属性通常在包含用户可选值的页面上实施，例如，具有复选框或单选按钮的列表项目。当您希望在不发送多个图像请求的情况下，在一个变量中定义多个值时，这些列表属性非常有用。
+
 
 <!-- 
 
