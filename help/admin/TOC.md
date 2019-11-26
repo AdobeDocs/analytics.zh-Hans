@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: admin
-user-guide-title: Analytics 管理指南
-user-guide-url: /content/help/zh-Hans/analytics/admin/home.html
+user-guide-title: Analytics Admin Guide
+user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
+source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 ---
 
@@ -117,6 +117,7 @@ source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
    + [联合品牌](company/co-branding-admin.md)
    + [隐藏报表包](company/c-hide-report-suites.md)
    + [安全管理器](company/security-manager.md)
+   + [“强制IP登录限制”寿终正寝](company/login-restrictions-eol.md)
 + 管理报表包 {#manage-report-suites}
    + [报表包管理器](c-manage-report-suites/report-suites-admin.md)
    + [汇总报表包和全局报表包](c-manage-report-suites/rollup-report-suite.md)
@@ -161,9 +162,9 @@ source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
    + [电子邮件用户](user-management2/t-email-users.md)
 + 数据管理 {#data-governance}
    + [Adobe Analytics 和 GDPR](c-data-governance/an-gdpr-overview.md)
-   + [Adobe Analytics和CCPA](c-data-governance/an-ccpa-overview.md)
+   + [Adobe Analytics 和 CCPA](c-data-governance/an-ccpa-overview.md)
    + [常见问题解答](c-data-governance/gdpr-faq.md)
-   + [Adobe Analytics数据隐私工作流程](c-data-governance/an-gdpr-workflow.md)
+   + [Adobe Analytics 数据隐私工作流程](c-data-governance/an-gdpr-workflow.md)
    + [查看/管理报表包的数据管理设置](c-data-governance/gdpr-view-settings.md)
    + [为报表包数据设置标签](c-data-governance/gdpr-setup-reportsuite.md)
    + [提交访问和删除请求](c-data-governance/gdpr-submit-access-delete.md)
@@ -172,9 +173,9 @@ source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
    + [ID 扩展](c-data-governance/gdpr-id-expansion.md)
    + [标签设置最佳实践](c-data-governance/gdpr-analytics-ids.md)
    + [标签设置示例](c-data-governance/gdpr-labeling-example.md)
-   + [数据隐私和数据连接器(Genesis)](c-data-governance/data-connectors-gdpr.md)
+   + [数据隐私和 Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [数据隐私术语](c-data-governance/gdpr-terminology.md)
-   + [隐私报告变量](c-data-governance/consent-variables.md)
+   + [隐私报表变量](c-data-governance/consent-variables.md)
 + 服务器调用使用情况 {#server-call-usage}
    + [服务器调用使用情况概述](c-server-call-usage/overage-overview.md)
    + [查看当前的服务器调用使用情况](c-server-call-usage/server-call-usage-dashboard.md)
