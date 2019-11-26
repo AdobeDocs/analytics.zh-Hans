@@ -6,7 +6,7 @@ title: 有关 Analytics 实施的常见问题解答
 topic: Developer and implementation
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: c3bdd39808041b2e716d3e6bbdcfbf23c37b7a24
 
 ---
 
@@ -87,7 +87,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td> 哪一个是 s_code 文件的最新版本？ </td> 
-   <td> 本部分包含跨 Web 平台和移动平台的 [!DNL AppMeasurement] 库的发行历史记录。可以通过下面的方法下载每个库的最新版本：“Reports &amp; Analytics”&gt;“管理工具”&gt;“代码管理器”。<a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/c_release_notes_javascript.html"> [更多...] </a> </td> 
+   <td> This section contains a release history for <code>AppMeasurement</code> libraries across web and mobile platforms. 可以通过下面的方法下载每个库的最新版本：“Reports &amp; Analytics”&gt;“管理工具”&gt;“代码管理器”。<a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/c_release_notes_javascript.html"> [更多...] </a> </td> 
   </tr> 
   <tr> 
    <td> 我该如何调试 s_code 文件？ </td> 
