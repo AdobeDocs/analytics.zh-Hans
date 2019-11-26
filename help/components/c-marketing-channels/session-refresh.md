@@ -2,7 +2,7 @@
 title: 内部（会话刷新）渠道
 description: 阅读有关内部（会话刷新）渠道的信息。
 translation-type: tm+mt
-source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
+source-git-commit: cf05e9f5d666fd40e74028929a831dad57ee2007
 
 ---
 
@@ -66,7 +66,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
 
 ### 方案5:长的入门页面加载时间
 
-访客登录页面A（内容繁重）,Adobe Analytics代码位于页面的底部。 在加载所有内容（包括Adobe Analytics图像请求）之前，访问者单击页面B。页面B将触发其Adobe Analytics图像请求。 由于页面A的图像请求从未加载，因此在Adobe Analytics中，第二个页面将显示为访问的第一次点击，页面A将作为引用。 访问被分类为“会话刷新”。
+访客登录页面A（内容很多）,Adobe Analytics代码位于页面底部。 在加载所有内容（包括Adobe Analytics图像请求）之前，访客单击页面B。页面B将触发其Adobe Analytics图像请求。 由于页面A的图像请求从未加载，因此在Adobe Analytics中，第二个页面将显示为访问的第一次点击，页面A将作为引用。 访问被分类为“会话刷新”。
 
 ### 场景6:清除站点中的Cookie
 
