@@ -1,10 +1,10 @@
 ---
 product: analytics
-audience: 最终用户
-user-guide-title: Analytics 组件指南
-user-guide-url: /content/help/zh-Hans/analytics/components/home.html
-translation-type: ht
-source-git-commit: d843fc462a820f9e04bca5a2962adbf2adcf2159
+audience: end-user
+user-guide-title: Analytics Components Guide
+user-guide-url: /content/help/en/analytics/components/home.html
+translation-type: tm+mt
+source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
 
 ---
 
@@ -332,6 +332,7 @@ source-git-commit: d843fc462a820f9e04bca5a2962adbf2adcf2159
    + [关于渠道和规则](c-marketing-channels/c-channels-rules.md)
    + [自动设置](c-marketing-channels/c-channel-autosetup.md)
    + [管理营销渠道](c-marketing-channels/c-channels.md)
+   + [内部（会话刷新）渠道](c-marketing-channels/session-refresh.md)
    + [营销渠道的处理规则](c-marketing-channels/c-rules.md)
    + [创建营销渠道处理规则](c-marketing-channels/t-rules.md)
    + [营销渠道处理规则 - 定义](c-marketing-channels/r-channel-rule-definitions.md)
