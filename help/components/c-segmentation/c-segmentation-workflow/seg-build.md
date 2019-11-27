@@ -5,7 +5,7 @@ title: 生成区段
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 ---
 
@@ -56,13 +56,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    * **[!UICONTROL + 通过选择添加容器]**：用于从您在“定义”字段中选择（多选）的元素创建新容器。
    * **[!UICONTROL 排除]**：用于通过排除一个或多个维度、区段或量度来定义区段。
 
-**[!UICONTROL 归因模型]**:用于维度细分。 维模型在顺序细分中尤其有用，例如在支持流可视化的细分中：
+1. **[!UICONTROL 归因模型]**:用于维度细分。 维模型在顺序细分中尤其有用，例如在支持流可视化的细分中：
 
-    * **重[!UICONTROL 复]**(（默认）):包括维的实例和保留的值。
-    * **实[!UICONTROL 例]**:包括维的实例。
-    ***[!UICONTROL 非重复实例]**:包括维的唯一实例（非重复）。
-
-![](assets/attribution-models.jpg)
+   * **[!UICONTROL 重复]** (（默认）):包括维的实例和保留的值。
+   * **[!UICONTROL 实例]**:包括维的实例。
+   * **[!UICONTROL 非重复实例]**:包括维的唯一实例（非重复）。
+   ![](assets/attribution-models.jpg)
 
 1. **[!UICONTROL 维]**:从维列表（橙色提要栏）中拖放维。
 1. **[!UICONTROL 比较]**:可以使用选定的运算符比较和约束值。
