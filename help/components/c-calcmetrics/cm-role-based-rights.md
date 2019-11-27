@@ -3,7 +3,7 @@ description: 计算量度权限在管理员级别的用户和非管理员用户�
 title: 计算的指标基于角色的权限
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col1"> <b>管理员级别的用户</b> </td> 
    <td colname="col02"> 管理员可以创建计算量度，也可以通过创建<a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >组</a>来限制用户创建计算量度的权限。 </td> 
    <td colname="col2"> 可与整个公司、用户组和个人用户进行共享。 </td> 
-   <td colname="col3"> <span class="keyword"> [!UICONTROL报告与分析] </span>:可以查看／编辑／删除／等 他们自己以及其他用户的计算量度执行查看/编辑/删除等操作。 <p> <span class="keyword">Ad Hoc Analysis</span> 和 <span class="keyword">Report Builder</span>：可以查看/编辑/删除/等等。他们自己的计算量度以及与他们共享的计算量度执行查看/编辑/删除等操作。 </p> </td> 
+   <td colname="col3"> <span class="keyword">Reports &amp; Analytics</span>：可以查看/编辑/删除/等等。他们自己以及其他用户的计算量度执行查看/编辑/删除等操作。 <p> <span class="keyword">Ad Hoc Analysis</span> 和 <span class="keyword">Report Builder</span>：可以查看/编辑/删除/等等。他们自己的计算量度以及与他们共享的计算量度执行查看/编辑/删除等操作。 </p> </td> 
    <td colname="col4"> 可以批准计算量度作为规范。 </td> 
    <td colname="col5"> 可以在整个组织内应用任何计算量度。 </td> 
   </tr> 
