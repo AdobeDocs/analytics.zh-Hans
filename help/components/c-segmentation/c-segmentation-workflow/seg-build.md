@@ -5,16 +5,14 @@ title: 生成区段
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
+source-git-commit: a50b08cba865b61bc647ba6af9e678ef8edfe3bc
 
 ---
 
 
 # 区段生成器
 
-区段生成器提供了一个画布以将量度维度、区段和事件拖放到其中，从而根据容器层次结构逻辑、规则和运算符划分访客。通过使用该集成开发工具，您可以生成和保存简单或复杂的区段，以确定跨访问和页面点击的访客属性和操作。
-
-[!UICONTROL 区段生成器]提供了一个画布以将量度维度、区段和事件拖放到其中，从而根据容器层次结构逻辑、规则和运算符划分访客。通过使用该集成开发工具，您可以生成和保存简单或复杂的区段，以确定跨访问和页面点击的访客属性和操作。
+The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metrics, Dimensions, Segments, and Events to segment visitors based on container hierarchy logic, rules, and operators. 通过使用该集成开发工具，您可以生成和保存简单或复杂的区段，以确定跨访问和页面点击的访客属性和操作。
 
 >[!IMPORTANT]
 >
@@ -36,7 +34,7 @@ source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 通过使用[!UICONTROL 区段生成器]，您可以在 Web UI（或 [Ad Hoc Analysis 的 Java UI](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)）中生成和编辑区段。您可以添加规则定义和容器来优化区段、堆叠区段和嵌套区段以对其进行优化。还可以验证由当前区段定义产生的页面查看、访问和独特访客数量。接下来，保存区段以供将来使用。
 
-区段生成器可通过以下方式访问:
+区段生成器可通过以下方式访问：
 
 * 显示一个现有报表，然后单击左侧导航中的“区段”图标 ![。](assets/segment_icon.png)In the segment rail that displays, click **[!UICONTROL Add]**.
 
