@@ -2,7 +2,7 @@
 title: Adobe Analytics中的受众报告
 description: 了解如何使用Analysis Workspace创建基于受众的报告。
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 6217430bf0ae9c0f9c6426e4bb2a8101257068e7
 
 ---
 
@@ -50,7 +50,7 @@ Google Analytics中的“受众”报表需要设置受众。 受众还需要通
 用户浏览器报告允许分析人员通过匿名标识符查看个人访问。 Adobe不会在数据馈送之外显示后端标识符，这些数据馈送是数据的命中级原始导出。
 
 * 如果Analysis Workspace中需要此数据，则可以与实施顾问合作，将匿名唯一标识符cookie值传递到eVar。 请注意，这仅适用于每月唯一访问者少于100万的较小实施。
-* 如果数据馈送中需要此数据，则连接列 `visid_high` 和 `visid_low` 是识别唯一访客的最常用方法。 了解有关数据 [源的更多信息](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) ，请参阅导出用户指南。
+* 如果数据馈送中需要此数据，则连接列 `visid_high` 和 `visid_low` 是识别唯一访客的最常用方法。 了解有关数据 [源的更多信息](/help/export/analytics-data-feed/data-feed-overview.md) ，请参阅导出用户指南。
 
 ## 人口统计和兴趣报告
 
@@ -162,7 +162,7 @@ Adobe不会自动收集人口统计和兴趣数据。 但是，如果您的组�
 
 ## 移动——设备
 
-移动设备报告与移动设备维度 **大致相同** 。
+移动设备报告与移动设备维 **度大致相等** 。
 
 1. 在组件菜单中，找到移 **动设备维度** ，并将其拖动到标有“将维度放在此处”的大型自由格式表区域。
 2. 将所需的度量与自动创建的“发生次数”度量一起拖 **动到工** 作区。 有关如何获 [取各个度量的详细信息](common-metrics.md) ，请参阅度量转换指南。
