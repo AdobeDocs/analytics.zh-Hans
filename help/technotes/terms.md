@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics中使用的术语
-description: Adobe Analytics词汇表，用于定义使用的常用术语。
+description: Adobe Analytics词汇表，用于定义常用术语。
 translation-type: tm+mt
-source-git-commit: 0ff163713e47d47e104e15258586f1544fc5f019
+source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 0ff163713e47d47e104e15258586f1544fc5f019
 * **** 活动图：一个浏览器插件，它显示您网站上哪些区域的点击率最高。 请参 [阅分析用户指南](/help/analyze/activity-map/activity-map.md) 中的活动图。
 * **** 管理控制台：可以参考：
    * 旧版管理工具，管理Adobe Analytics中的报表包设置。 在Adobe Analytics的先前版本中，用户权限也在此处进行管理。 请参 [阅管理员用户指南](/help/admin/admin/c-admin-tools.md) 中的管理工具。
-   * Adobe管理控制台，在该控制台中，将配置产品访问权限并管理用户权限。 请参 [阅管理员用户指南](/help/admin/admin-console/home.md) 中的Admin Console。
+   * Adobe管理控制台，在该控制台中，将配置产品访问权限并管理用户权限。 See [Admin Console](/help/admin/admin-console/home.md) in the Admin user guide.
 * **** 分配：如果转换变量在访问期间遇到多个值，则该变量的分配设置将决定保留哪个值。 See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin user guide.
 * **** 异常：使用统计建模检测到数据，以自动发现数据中的意外趋势。 该模型可分析量度并确定值的下限、上限和预期范围。请参 [阅分析用户指南](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) 中的异常检测。
 * **** AppMeasurement:用于收集数据并将其发送到Adobe的代码库。 请参阅 [实施用户指南](/help/implement/home.md) 的主页。
@@ -43,7 +43,7 @@ source-git-commit: 0ff163713e47d47e104e15258586f1544fc5f019
 * **** 客户支持代表：已授权与Adobe客户关怀直接交互的指定用户。 请参 [阅Experience cloud知识库中](https://helpx.adobe.com/experience-cloud/supported-users.html) 的客户支持代表。
 * **** 数据收集服务器：接收和处理数据的Adobe自有服务器。 图像请求将发送到Adobe的数据收集服务器以用于报告。
 * **** 数据连接器：一个完整的开发解决方案，它允许第三方自动将数据上传到Adobe Analytics。 该第三方的客户可以使用数据连接器在Adobe Analytics中丰富其数据。 大多数数据连接器都使用在数据源中使用的类似工作流。 请参阅导入用户指南中的数据连接器。
-* **** 数据馈送：原始数据导出，它将每次点击列为行，将变量列为单独的列。 最常用于将Adobe Analytics数据导出到第三方数据库。 请参 [阅“导出](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) ”用户指南中的数据源。
+* **** 数据馈送：原始数据导出，它将每次点击列为行，将变量列为单独的列。 最常用于将Adobe Analytics数据导出到第三方数据库。 请参 [阅“导出](/help/export/analytics-data-feed/data-feed-overview.md) ”用户指南中的数据源。
 * **** 数据源：允许用户将数据从文件上载到Adobe Analytics。 文件通常从FTP站点中提取。 请参 [阅导入用户指南](/help/import/c-data-sources/datasrc-home.md) 中的数据源。
 * **** 数据仓库：Adobe Analytics中的一项功能，允许您请求更大的报告。 请参 [阅“导出](/help/export/data-warehouse/data-warehouse.md) ”用户指南中的数据仓库。
 * **** 维度：包含变量值（如文本）的组件类型。 示例包括页面名称、跟踪代码或引用域。 度量通常是其对应的。
