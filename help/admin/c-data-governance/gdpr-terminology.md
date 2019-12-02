@@ -2,7 +2,7 @@
 description: 'null'
 title: GDPR 术语
 uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -56,7 +56,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 **主营业机构** - 欧盟内部围绕数据处理进行主要决策的地方；就处理者而言
 
-**个人数据** -任何与自然人或“数据主体”相关的信息，可用于直接或间接识别该人
+**个人数据** - 任何与自然人或“数据主体”相关的信息，可用于直接或间接识别人员
 
 **个人数据违规** - 违反安全规定，导致对个人数据进行意外或非法访问、破坏或滥用等
 
