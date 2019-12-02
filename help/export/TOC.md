@@ -1,58 +1,33 @@
 ---
 product: analytics
-audience: 最终用户
-user-guide-title: Analytics 导出指南
-user-guide-url: /content/help/zh-Hans/analytics/export/home.html
-translation-type: ht
-source-git-commit: f008d05f686bd6c357c0dc422b5976aaea53f0d0
+audience: end-user
+user-guide-title: Analytics Export Guide
+user-guide-url: /content/help/en/analytics/export/home.html
+translation-type: tm+mt
+source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
 
 
 # Analytics 导出指南 {#export}
 
-+ [Analytics 导出帮助](home.md)
++ [Analytics导出主页](home.md)
 + Analytics 数据馈送 {#analytics-data-feed}
-   + 快速入门 {#get-started}
-      + [Analytics 数据馈送概述](analytics-data-feed/c-getstarted/data-feed-overview.md)
-      + [术语](analytics-data-feed/c-getstarted/datafeeds-terminology.md)
-      + [最佳实践和常规信息](analytics-data-feed/c-getstarted/data-feeds-best-practices.md)
-   + 数据馈送界面 {#data-feed-ui}
-      + [打开数据馈送界面](analytics-data-feed/c-data-feed-ui/t-open-data-feed.md)
-      + [对列排序](analytics-data-feed/c-data-feed-ui/t-feed-columns-sort.md)
-      + [搜索和过滤](analytics-data-feed/c-data-feed-ui/t-feed-search-and-filter.md)
-      + [数据馈送状态](analytics-data-feed/c-data-feed-ui/r-datafeed-status.md)
-   + 数据馈送操作 {#data-feed-actions}
-      + [数据馈送面板](analytics-data-feed/c-data-feed-actions/data-feed-actions.md)
-      + [添加馈送](analytics-data-feed/c-data-feed-actions/t-feed-add.md)
-      + [馈送信息](analytics-data-feed/c-data-feed-actions/r-feed-information.md)
-      + [馈送目标](analytics-data-feed/c-data-feed-actions/r-feed-destination.md)
-      + [查看馈送的作业历史记录](analytics-data-feed/c-data-feed-actions/t-feed-job-history.md)
-      + [删除馈送](analytics-data-feed/c-data-feed-actions/t-feed-delete.md)
-      + [暂停馈送](analytics-data-feed/c-data-feed-actions/t-feed-pause.md)
-      + [激活馈送](analytics-data-feed/c-data-feed-actions/t-feed-activate.md)
-      + [编辑馈送](analytics-data-feed/c-data-feed-actions/t-feed-edit.md)
-   + 数据馈送作业 {#data-feed-jobs}
-      + [数据馈送作业 - 概述](analytics-data-feed/c-df-jobs/feed-jobs-processing.md)
-      + [过滤器作业列表](analytics-data-feed/c-df-jobs/t-jobs-filter.md)
-      + [作业设置](analytics-data-feed/c-df-jobs/r-jobs-settings.md)
-      + [作业状态](analytics-data-feed/c-df-jobs/r-job-status.md)
-      + [重新运行作业](analytics-data-feed/c-df-jobs/t-job-rerun.md)
+   + [数据馈送概述](analytics-data-feed/data-feed-overview.md)
+   + [创建或编辑数据馈送](analytics-data-feed/create-feed.md)
+   + [管理数据馈送](analytics-data-feed/df-manage-feeds.md)
+   + [管理数据馈送作业](analytics-data-feed/df-manage-jobs.md)
    + 数据馈送内容 {#data-feed-contents}
-      + [数据馈送内容 - 概述](analytics-data-feed/c-df-contents/datafeeds-contents.md)
+      + [数据馈送内容概述](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [计算量度](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
-      + [识别访客](analytics-data-feed/c-df-contents/datafeeds-visid.md)
-      + [数据列定义](analytics-data-feed/c-df-contents/r-data-column-definitions.md)
       + [数据列引用](analytics-data-feed/c-df-contents/datafeeds-reference.md)
-      + [页面事件对照](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
-      + [点击来源对照](analytics-data-feed/c-df-contents/datafeeds-hit-source.md)
-      + [预处理列和后处理列](analytics-data-feed/c-df-contents/datafeeds-column-types.md)
+      + [页面事件查找](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [特殊字符](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [迟到的点击量](analytics-data-feed/c-df-contents/late-arriving-hits.md)
-      + [作业常见问题解答](analytics-data-feed/c-df-contents/jobs-faq.md)
-   + [数据馈送疑难解答](analytics-data-feed/feed-troubleshooting.md)
+   + [数据源常见问题解答](analytics-data-feed/df-faq.md)
+   + [数据馈送最佳实践](analytics-data-feed/data-feeds-best-practices.md)
+   + [数据源疑难解答](analytics-data-feed/feed-troubleshooting.md)
    + [作业疑难解答](analytics-data-feed/jobs-troubleshooting.md)
-   + [数据馈送发行说明](analytics-data-feed/datafeeds-history.md)
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse 概述](data-warehouse/data-warehouse.md)
    + [添加 Data Warehouse 用户群组](data-warehouse/t-dw-group.md)
