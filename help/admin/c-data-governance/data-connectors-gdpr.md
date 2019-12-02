@@ -2,7 +2,7 @@
 description: 此页面列出了 Data Connectors（以前称为 Genesis）中的所有合作伙伴变量，这些变量可能包含数据主体的直接可识别数据或间接可识别数据。
 title: 数据隐私和 Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
