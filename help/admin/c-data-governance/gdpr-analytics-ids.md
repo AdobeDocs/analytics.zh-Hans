@@ -2,7 +2,7 @@
 description: 'null'
 title: 标签设置最佳实践
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -43,14 +43,14 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
   <tr> 
    <td colname="col1"> <p>Cookie ID </p> 
     <ul id="ul_CB43CEA3054E490585CBF3AB46F95B5B"> 
-     <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html">（旧版）Analytics Cookie</a> </li> 
-     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/"> Identity 服务 Cookie </a> (ECID)，以前称为 Marketing Cloud ID (MCID) </li> 
+     <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://marketing.adobe.com/resources/help/zh_CN/whitepapers/cookies/cookies_analytics.html">（旧版）Analytics Cookie</a> </li> 
+     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://marketing.adobe.com/resources/help/zh_CN/mcvid/"> Identity 服务 Cookie </a> (ECID)，以前称为 Marketing Cloud ID (MCID) </li> 
     </ul> </td> 
    <td colname="col2"> <p>这些 Cookie 可识别设备，或更具体地说，可识别某设备用户的浏览器。对于使用常规登录的共享设备，此 ID 可应用于该设备的任何/所有用户。Adobe 创建了一些<a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm">统一的 JavaScript</a>，您可以将它们置于网站中来收集这些 Cookie（如果您希望允许将这些 Cookie 用于数据隐私请求）。 </p> <p>Adobe Analytics Mobile SDK 的用户还拥有 Experience Cloud ID (ECID)。SDK 内有一些 API 调用可读取此 ID，因此您可以增强应用程序来收集此 ID 以用于数据隐私请求。 </p> <p>许多公司考虑将浏览器 Cookie ID 作为共享设备 ID。因此，在与公司的法律团队商讨之后，这些公司可能选择不支持使用这些 ID 作为数据隐私请求的可接受 ID，或者他们可能选择在使用这些 ID 时只返回非常有限的数据量或是仅接受这些 ID 用于删除请求。 </p> <p>这些 Cookie 具有无法更改的 ID-DEVICE 标签（以及 I2 和 DEL-DEVICE 标签）。默认的 Adobe Analytics 配置将只返回有关设备的一般性信息，例如设备类型、操作系统、浏览器等等，以及在使用这些 ID 时，对您的网站进行访问的时间/日期。但是，如果您选择支持将这些 ID 用于数据隐私请求，那么按照下面讨论的内容，您可以添加或删除 ACC-ALL 标签，以配置您希望数据隐私访问请求返回的确切字段集。 </p> <p>特别是在报表包对应移动设备应用程序，而您的移动设备应用程序又要求登录的情况下，您可以决定将该设备的 Experience Cloud ID 对应于特定的用户，这样一来，您可能希望使用 ACC-ALL 标签来标记更多的字段，其中包括已访问页面的名称、查看的产品等等。 </p> <p>请注意：如果您在数据隐私请求中指定了“expandIds”选项，那么除了您指定的任何其他 ID 之外，您的请求将始终包含 Cookie ID。更多详细信息，请参阅 <a href="/help/admin/c-data-governance/gdpr-id-expansion.md">ID 扩展</a>。在这些情况下，对于只具有 Cookie ID 而没有其他 ID 的命中项，则仅为访问请求返回具有 ACC-ALL 标记的数据。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>自定义变量中的 ID </p> </td> 
-   <td colname="col2"> <p>某些客户将 ID 置于<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html">自定义流量变量 (prop) 或自定义转化变量 (eVar)</a> 中。最常见的是 CRM ID，其他则包括电子邮件地址、用户登录名、客户会员号或这些值的哈希值。 </p> 
+   <td colname="col2"> <p>某些客户将 ID 置于<a href="https://marketing.adobe.com/resources/help/zh_CN/sc/implement/props_eVars.html">自定义流量变量 (prop) 或自定义转化变量 (eVar)</a> 中。最常见的是 CRM ID，其他则包括电子邮件地址、用户登录名、客户会员号或这些值的哈希值。 </p> 
     <ul id="ul_0B9492CF786046BB97E31CCF83A85FEA"> 
      <li id="li_D35B61CC6A8B485A8E09358A46D3F598">如果您希望将这些 ID 之一用于数据隐私请求，您应当为包含 ID 的字段设置 ID-PERSON 标签。 </li> 
      <li id="li_94541340B054436297C5565F074413DC">（不太常见）如果其中某个自定义变量中的 ID 只识别可能由多人共享的设备，您可以改用 ID-DEVICE 标签。 </li> 
