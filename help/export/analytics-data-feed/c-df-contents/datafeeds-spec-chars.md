@@ -3,122 +3,53 @@ description: 有关数据馈送中使用的特殊字符的信息。
 keywords: Data Feed;job;special characters;hit_data;multi-valued variables;events_list;products_list;mvvars
 solution: Analytics
 subtopic: data feeds
-title: 特殊字符
+title: 数据馈送中的特殊字符
 topic: Reports and analytics
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
 
 
-# 特殊字符
+# 数据馈送中的特殊字符
 
-有关数据馈送中使用的特殊字符的信息。
+Adobe使用转义逻辑确保发送到数据收集服务器的值不会损坏或为负数据馈送文件。 Adobe保留以下字符用于以下目的 `hit_data.tsv`。
 
-* [hit_data 文件中的特殊字符](/help/export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_9759C7A6AE684EB5B4A154FB6A26B39E)
-* [多值变量（events_list、products_list、mvvar）中的特殊字符](/help/export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_056F8D540FFC4F24A001DC74331C2AAC)
-* [示例工作流程](/help/export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_97F8C2925A35433DA2E7E8BE60037E37)
+## 任意列中的特殊字符
 
-## hit_data 文件中的特殊字符 {#section_9759C7A6AE684EB5B4A154FB6A26B39E}
+| 字符 | 描述 |
+|--- |--- |
+| `\t` | 表示选项卡。 标记列或数据字段的结尾。 |
+| `\n` | 表示换行符。 标记行或点击的结尾。 |
+| `\` | 反斜线. 作为数据收集的一部分发送时对字符进行转义。 |
 
-以下字符在 hit_data 文件中具有特殊含义：
+当这些保留值前面有反斜杠时，这些值将作为数据收集的一部分发送。
 
-| 字符 | 含义 | 描述 |
-|--- |--- |--- |
-| \t（制表符） | 列结尾 | 标记数据字段的结尾。 |
-| \n（换行符） | 行结尾 | 标记数据行的结尾。 |
-| \（反斜线字符） | 转义字符 | 当制表符、换行符和反斜线字符是数据收集期间发送的值的一部分时，对这些字符进行转义。 |
+| 字符 | 描述 |
+|--- |--- |
+| `\\t` | 值“`\t`”在数据收集期间发送，由Adobe转义。 |
+| `\\n` | 值“`\n`”在数据收集期间发送，由Adobe转义。 |
+| `\\` | 值“`\`”在数据收集期间发送，由Adobe转义。 |
 
-当任何特殊字符之前有反斜线时，该字符表示原义字符。
+例如，您网站的访客使用内部搜索和搜索“search\nstring”。 您用“search\nstring”填充eVar1，并将该值发送给Adobe。 Adobe接收此点击，并转义字符串中包含的换行符。 原始数据中的实际值是“search\\nstring”。
 
-| 字符 | 含义 | 描述 |
-|--- |--- |--- |
-| \\t | 制表符 | 原义制表符。此字符是数据收集期间发送的值的一部分。 |
-| \\n | 换行符 | 原义换行符。此字符是数据收集期间发送的值的一部分。 |
-| \\ | 反斜线 | 原义反斜线字符。此字符是数据收集期间发送的值的一部分。 |
+## 多值变量（events_list、products_list、mvvar）中的特殊字符
 
-## 多值变量（events_list、products_list、mvvar）中的特殊字符 {#section_056F8D540FFC4F24A001DC74331C2AAC}
+以下字符在可包含多个值的列中具有特殊含义。
 
-以下字符在多值变量中具有特殊含义：
+| 字符 | 描述 |
+|--- |--- |
+| `,` | 逗号. 表示单个值的结尾。 分隔产品字符串、事件ID或其他值。 |
+| `;` | 分号。 表示中单个值的结尾 `product_list`。 在单个产品字符串中分隔字段。 |
+| `=` | 等号。 Assigns a value to an event in `product_list`. |
+| `^` | 脱字符号. 作为数据收集的一部分发送时对字符进行转义。 |
 
-<table id="table_FDA13DE05A784ED4972C2955BD2642C7"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 字符 </th> 
-   <th colname="col02" class="entry"> 含义 </th> 
-   <th colname="col2" class="entry"> 描述 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <code> , </code> （逗号字符） </td> 
-   <td colname="col02"> 值结尾 </td> 
-   <td colname="col2"> <p>在多值变量中隔开产品字符串、事件 ID 或其他值。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <code> ; </code> （分号字符） </td> 
-   <td colname="col02"> 单个产品值中的子值的结尾 </td> 
-   <td colname="col2"> <p>隔开与 <code> product_list </code> 中的单个产品关联的值。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <code> = </code> （等于字符） </td> 
-   <td colname="col02"> 值分配 </td> 
-   <td colname="col2"> <p>Assigns a value to an event in the <code> event_list </code>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+当这些保留值前面有尖号时，它们将作为数据收集的一部分发送。
 
-当任何特殊字符之前有脱字符号时，该字符表示原义字符。
-
-| 字符 | 含义 | 描述 |
-|--- |--- |--- |
-| ^, | 逗号 | 原义逗号字符。此字符是数据收集期间发送的值的一部分。 |
-| ^; | 分号 | 原义分号字符。此字符是数据收集期间发送的值的一部分。 |
-| ^= | 等号 | 原义等号字符。此字符是数据收集期间发送的值的一部分。 |
-| ^^ | 脱字符号 | 原义脱字符号。此字符是数据收集期间发送的值的一部分。 |
-
-## 示例工作流程 {#section_97F8C2925A35433DA2E7E8BE60037E37}
-
-如果数据馈送中的某些列包含用户提交的数据，在通过使用 `split`、`readLine` 或类似方法按列或行来分隔数据之前，您应该检查特殊字符。
-
-请仔细研究以下数据：
-
-| 浏览器宽度 | 浏览器高度 | eVar1 | prop1 |
-|---|---|---|---|
-| 1680 | 1050 | search\nstring | en |
-| 800 | 600 | search\tstring | en |
-
-导出期间，eVar1 值中的换行符和制表符会进行转义。这些行的数据馈送如下所示：
-
-```
-1680\t1050\tsearch\\nstring\ten\n 
-800\t600\tsearch\\tstring\ten\n
-```
-
-Calling `readLine()` on the first row returns the following partial string:
-
-```
-800\t600\tsearch\
-```
-
-Calling `split("\t")` on the second row returns the following string array:
-
-```
-800 
-600 
-search\ 
-string 
-en
-```
-
-为避免这样，请使用如下解决方案：
-
-1. 在文件的开头开始读取，直到您找到制表符、换行符、反斜线或脱字符号字符。
-1. 根据遇到的特殊字符，执行下列某项操作：
-
-   * 制表符 - 将该点以上的字符串插入数据存储单元，然后继续。
-   * 换行符 - 完成数据存储行。
-   * 反斜线 - 读取下一个字符，插入适当的原义字符串，然后继续。
-   * 脱字符号 - 读取下一个字符，插入适当的原义字符串，然后继续。
-
+| 字符 | 描述 |
+|--- |--- |
+| `^,` | 值“`,`”在数据收集期间发送，由Adobe转义。 |
+| `^;` | 值“`;`”在数据收集期间发送，由Adobe转义。 |
+| `^=` | 值“`=`”在数据收集期间发送，由Adobe转义。 |
+| `^^` | 值“`^`”在数据收集期间发送，由Adobe转义。 |
