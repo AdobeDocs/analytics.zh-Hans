@@ -2,7 +2,7 @@
 description: 'null'
 title: 提交访问和删除请求
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ## 管理用户同意 {#section_3012015E7E8942519FB9279CF7057EAB}
 
-作为数据控制者，您有责任在收集与数据主体相关的数据（可能包括 Adobe Analytics 数据）之前获得他们的明确同意，并且有责任在您的网站上[实施退出机制](https://marketing.adobe.com/resources/help/en_US/dtm/opt-in.html)。该机制允许您的数据主体退出以后的 Adobe Experience Cloud 数据收集。
+作为数据控制者，您有责任在收集与数据主体相关的数据（可能包括 Adobe Analytics 数据）之前获得他们的明确同意，并且有责任在您的网站上[实施退出机制](https://marketing.adobe.com/resources/help/zh_CN/dtm/opt-in.html)。该机制允许您的数据主体退出以后的 Adobe Experience Cloud 数据收集。
 
 ## 验证用户及其数据 {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
@@ -33,7 +33,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 您可以通过我们的[数据隐私 UI 门户](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)或者[数据隐私 API ](https://www.adobe.io/apis/experienceplatform/gdpr.html)来提交数据隐私访问和删除请求。
 
-> [!NOTE]数据隐私 API 支持在一个请求中批量提交多个用户。当前支持的限制是：允许单个请求 JSON 文件中有 1000 个独立用户（每个用户可以有多个 ID）。
+> [!NOTE] 数据隐私 API 支持在一个请求中批量提交多个用户。当前支持的限制是：允许单个请求 JSON 文件中有 1000 个独立用户（每个用户可以有多个 ID）。
 
 ## JSON 请求示例 {#sample-json-request}
 
