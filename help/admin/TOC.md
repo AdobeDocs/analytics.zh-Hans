@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin Guide
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
+source-git-commit: b7ef2f8b097540799a19c3964dfc64d59babd4a6
 
 ---
 
@@ -80,6 +80,7 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
    + [计划报表队列](admin/scheduled-reports-admin.md)
    + 服务器端转发 {#server-side-forwarding}
       + [服务器端转发概述](admin/c-server-side-forwarding/ssf.md)
+      + [GDPR/ePrivacy 合规和服务器端转发](admin/c-server-side-forwarding/ssf-gdpr.md)
       + [服务器端转发要求](admin/c-server-side-forwarding/ssf-requirements.md)
       + [服务器端转发数据和代码引用](admin/c-server-side-forwarding/ssf-reference.md)
       + [如何验证服务器端转发的实施情况](admin/c-server-side-forwarding/ssf-verify.md)
@@ -168,7 +169,7 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
    + [查看/管理报表包的数据管理设置](c-data-governance/gdpr-view-settings.md)
    + [为报表包数据设置标签](c-data-governance/gdpr-setup-reportsuite.md)
    + [提交访问和删除请求](c-data-governance/gdpr-submit-access-delete.md)
-   + [Analytics变量的数据隐私标签](c-data-governance/gdpr-labels.md)
+   + [Analytics 变量的数据隐私标签](c-data-governance/gdpr-labels.md)
    + [命名空间](c-data-governance/gdpr-namespaces.md)
    + [ID 扩展](c-data-governance/gdpr-id-expansion.md)
    + [标签设置最佳实践](c-data-governance/gdpr-analytics-ids.md)
