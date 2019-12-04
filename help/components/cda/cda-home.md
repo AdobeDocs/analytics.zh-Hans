@@ -2,7 +2,7 @@
 title: Cross-Device Analytics
 description: 跨设备分析通过将设备数据拼接在一起，将您的数据从以设备为中心转变为以人为中心。
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: c358df811f23a57441e6f9410c957e34954de712
 
 ---
 
@@ -49,10 +49,12 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 * 无法按照上述先决条件中所述跨报表包进行拼接。
 * Adobe Analytics报表包不能映射到多个IMS组织。 由于CDA在给定的报表包内拼接设备，因此不能使用CDA跨多个IMS组织拼接数据。
 * CDA当前与“客户属性”不兼容。 客户属性不能用于在跨设备区段内创建CDA虚拟报告套件，或用于在基于CDA虚拟报告套件的Analysis Workspace项目内进行报告。
-* CDA需要合作图或专用图。 不支持第三方设备图形。
+   > [!TIP] 虽然客户属性不能在CDA中使用，但这两个功能都依赖于该函 `setCustomerIDs` 数。 这两个功能在单独的（虚拟）报表包中可以保持一致。
+* CDA要求使用合作图或专用图。 不支持第三方设备图形。
 * 不支持旧版Analytics ID。 仅拼接具有Experience Cloud ID的访客。
 * 客户服务部门尚未完全支持此功能。 跨 [设备分析论坛可用于支持此功能](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/cross-device-analytics/overview) ，包括Adobe产品经理的积极和直接参与。
 * 跨设备分析使用虚拟报告套件和报告时间处理，它们有各自的限制。 有关这 [些限制的详细信息](../vrs/vrs-about.md) ，请参 [阅虚拟报告套件和报告时间处理](../vrs/vrs-report-time-processing.md) 。
+* 不支持1.4 API。 Power BI连接器和Report Builder都依赖于1.4 API，因此与CDA不兼容。
 * 访问网站的新设备最长可能需要两周时间才能通过合作图或专用图进行处理。 CDA中最近两周的缝合水平通常低于两周以前的日期范围。 Adobe计划改进Adobe Experience Platform Identity Service，以便将来实时拼接新设备。
 * 虚拟报告套件中的历史数据会因Adobe识别和拼接设备而发生变化。 源报表包中的数据不会更改。
 
