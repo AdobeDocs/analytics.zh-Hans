@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Analyze Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 4320a2dc41ebb24860edb440f89f182d87aba3c2
+source-git-commit: b7ef2f8b097540799a19c3964dfc64d59babd4a6
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: 4320a2dc41ebb24860edb440f89f182d87aba3c2
       + [创建项目 - 概述](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [创建 Workspace 项目](analysis-workspace/build-workspace-project/t-freeform-project.md)
       + [模板](analysis-workspace/build-workspace-project/starter-projects.md)
+      + [Workspace中的多个报表包](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + 列和行设置 {#column-row-settings}
          + [列设置](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [行设置](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
