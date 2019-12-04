@@ -3,7 +3,7 @@ description: 在 Adobe Experience Cloud 中将 Analytics 用户 ID 迁移到 Adm
 title: 将 Analytics 用户迁移到 Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 22fbe95ec5534694187b2015dd4ed39aa6b9398d
 
 ---
 
@@ -52,7 +52,7 @@ On this page:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>单点登录 </p> </td> 
-   <td colname="col2"> <p>Analytics 用户可以使用其 Adobe ID 或企业 ID 登录到 Experience Cloud 及所有解决方案。这种登录允许用户在 Experience Cloud 中访问集成解决方案与核心服务。 </p> <p>After the migration, users who attempt to sign in via legacy logins (<span class="filepath"> my.omniture.com</span> and <span class="filepath"> sc.omniture.com</span>) are redirected to <span class="filepath"> experiencecloud.adobe.com</span>. </p> </td> 
+   <td colname="col2"> <p>Analytics 用户可以使用其 Adobe ID 或企业 ID 登录到 Experience Cloud 及所有解决方案。这种登录允许用户在 Experience Cloud 中访问集成解决方案与核心服务。 </p> <p>迁移后，尝试通过旧版登录（<span class="filepath">my.omniture.com</span> 和 <span class="filepath">sc.omniture.com</span>）进行登录的用户将被重定向至 <span class="filepath">experiencecloud.adobe.com</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>管理用户身份和权限 </p> </td> 
@@ -65,7 +65,7 @@ On this page:
      <li id="li_DC31AE8BAAB843F39A7CC9EB047265D5">邀请新用户 </li> 
      <li id="li_73724DD7D79E41F8A1D58C74E37674BA">创建产品配置文件 </li> 
      <li id="li_7E75FC68E0F84873A9A211D2707B6DE7">授予用户对特定产品和服务的权限 </li> 
-     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">获取 Adobe Experience Cloud 中可用的<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/solutions_capability_names.html">跨解决方案核心服务</a>的访问权限。 </li> 
+     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">获取 Adobe Experience Cloud 中可用的<a href="https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html">跨解决方案核心服务</a>的访问权限。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -102,7 +102,7 @@ On this page:
      <li id="li_BA0AD50DCDC14C90ADD513DEF6F78180">设置公司迁移的开始和结束日期。 </li> 
      <li id="li_C048A5C64FAA46C4BB41EF24F1CEDF62">向公司的当前 Analytics 管理员发送电子邮件通知，发送时间大概是在迁移前 30 天左右。 </li> 
      <li id="li_476265B24CE2404B995201170C75D674">显示产品内通知，以告知管理员迁移的开始日期。 </li> 
-    </ul> <p> 在迁移当日，您以前的权限组将被自动复制到 Admin Console。您将无法在 Analytics 管理工具中邀请新用户或创建新组。 </p> <p>迁移后： </p> 
+    </ul> <p> 在迁移当日，您以前的权限组将被自动复制到 Admin Console。您将无法在 Analytics 管理工具中邀请新用户或创建新群组。 </p> <p>迁移后： </p> 
     <ul id="ul_4639963EB08F407F8C18ACE2B3D30223"> 
      <li id="li_7F24A3FC900146C3B2E988D399C859EA">管理员将使用 Admin Console 管理他们的 Analytics 用户和权限。（您将无法在“Analytics”&gt;“管理员”&gt;“用户管理”中使用用户管理界面。） </li> 
      <li id="li_5B5234D4F94A4B96A8920F6A5831A64C">用户将使用其 Adobe ID 或 Enterprise ID 通过 Experience Cloud 访问 Analytics，而不是通过 <span class="filepath">my.omniture.com</span> 来访问。 </li> 
@@ -114,18 +114,18 @@ On this page:
     <ul id="ul_25D1DBDF5C804D048E741F31550FF5F3"> 
      <li id="li_418476105FE341229CE146E730AAB33D">您在 Analytics 中的现有权限组将作为产品配置文件自动复制到 Admin Console 中，其中包括它们的描述以及报表包、量度、维度、Analytics 与报表包工具之间的粒度权限。 </li> 
      <li id="li_412F88C454B0455A8F3BC8016226855C">如果您有任何当前 Analytics 用户是在 Admin Console 中创建的（这表示他们具有链接的 Adobe ID 或企业 ID），他们将被添加到 Admin Console 中相应的产品配置文件内。 </li> 
-     <li id="li_8A05137EC05C4FD5910E73FE58300DCB">Analytics 中“管理员”选项卡下方的“用户管理”部分将被设置为 <span class="term"> 只读</span>. 您将无法在此处创建新用户或权限组，并将需要在 Admin Console 中执行这两个功能。有关更多信息，请参阅 <a href="/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56">Admin Console 中不支持的 Analytics 功能</a>。 </li> 
-     <li id="li_2742DE69E9B547198A58E1F33E908361">作为管理员，您将获得对[用户ID迁移工具](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/t_migrate-users.html)的访问权限。 此外，还会显示一则产品内通知，其中包含迁移的结束日期（通常是未来 60 天）以及帮助内容和常见问题解答的链接。 </li> 
+     <li id="li_8A05137EC05C4FD5910E73FE58300DCB">Analytics 中“管理员”选项卡下方的“用户管理”部分将被设置为“<span class="term">只读</span>”。您将无法在此处创建新用户或权限组，并将需要在 Admin Console 中执行这两个功能。有关更多信息，请参阅 <a href="/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56">Admin Console 中不支持的 Analytics 功能</a>。 </li> 
+     <li id="li_2742DE69E9B547198A58E1F33E908361">作为管理员，您将被授予访问 [用户 ID 迁移工具] (https://marketing.adobe.com/resources/help/zh_CN/experience-cloud/admin-console/analytics-migration/t_migrate-users.html) 的权限。此外，还会显示一则产品内通知，其中包含迁移的结束日期（通常是未来 60 天）以及帮助内容和常见问题解答的链接。 </li> 
      <li id="li_095D42E3A3544FC59A60A8C8F94C971B">您将在 Admin Console 中获得“权限”选项卡的访问权限，以便您可以使用 Analytics 中所有熟悉的粒度选项创建产品配置文件。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>如何迁移用户 ID？ </p> </td> 
-   <td colname="col2"> <p> 单击“管理员”页面中“用户管理”下的<a href="/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9">迁移用户 ID</a>。使用该工具将用户添加到 Admin Console 中的产品配置文件（从 Analytics 的权限组中复制）。您可以按照自己的节奏迁移用户 ID。 </p> <p>需要管理权限。迁移完成后将无法撤消。 </p> <p>在迁移结束当天，将禁用登录公司中用户对 <span class="filepath">my.omniture.com</span> 的访问。Users (including those that are yet to be migrated) will be redirected to login via the new Experience Cloud URL (<span class="filepath"> experiencecloud.adobe.com</span>) </p> <p>注意：Adobe 建议您利用这个机会在迁移之前对用户和组进行审核。删除旧的和未使用的帐户，或不再具有产品访问权限的帐户（例如不再隶属于组织的员工）。 </p> <p>Related topic: <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md"> Migrate Analytics user accounts for Enterprise and Federated IDs</a>. </p> </td> 
+   <td colname="col2"> <p> 单击“管理员”页面中“用户管理”下的<a href="/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9">迁移用户 ID</a>。使用该工具将用户添加到 Admin Console 中的产品配置文件（从 Analytics 的权限组中复制）。您可以按照自己的节奏迁移用户 ID。 </p> <p>需要管理权限。迁移完成后将无法撤消。 </p> <p>在迁移结束当天，将禁用登录公司中用户对 <span class="filepath">my.omniture.com</span> 的访问。用户（包括那些尚未迁移的用户）将被重定向，以便通过新的 Experience Cloud URL (<span class="filepath">experiencecloud.adobe.com</span>) 登录 </p> <p>注意：Adobe 建议您利用这个机会在迁移之前对用户和组进行审核。删除旧的和未使用的帐户，或不再具有产品访问权限的帐户（例如不再隶属于组织的员工）。 </p> <p>相关主题：<a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md">为 Enterprise ID 和 Federated ID 迁移 Analytics 用户帐户</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>迁移会影响我的 Analytics 实施或数据的收集方式吗？ </p> </td> 
-   <td colname="col2"> <p>不会。 </p> <p>现有的迁移工具可帮助您将用户 ID 和权限从 Analytics 用户管理过渡到 <a href="https://adminconsole.adobe.com/enterprise/">Experience Cloud Admin Console</a>。 </p> </td> 
+   <td colname="col2"> <p>否. </p> <p>现有的迁移工具可帮助您将用户 ID 和权限从 Analytics 用户管理过渡到 <a href="https://adminconsole.adobe.com/enterprise/">Experience Cloud Admin Console</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>迁移过程将持续多长时间？ </p> </td> 
@@ -133,7 +133,7 @@ On this page:
   </tr> 
   <tr> 
    <td colname="col1"> <p>我可以加快迁移进度吗？ </p> </td> 
-   <td colname="col2"> <p>能。但是，Adobe 建议您利用迁移开始前的时间进行如下准备工作： </p> 
+   <td colname="col2"> <p>可以。但是，Adobe 建议您利用迁移开始前的时间进行如下准备工作： </p> 
     <ul id="ul_52C7EC44A5534975BFD7A6F37A829C25"> 
      <li id="li_8CFFF72877E8456DAC3241143AD648AD">确认您是 Admin Console 中的 Analytics 产品管理员。 </li> 
      <li id="li_25DAA8D1EEDA45A0B5B59472BD8896C4">与您的用户群沟通，告知他们的登录体验在迁移开始后将发生改变。 </li> 
@@ -148,14 +148,14 @@ On this page:
    <td colname="col1"> <p>我能推迟迁移开始日期吗？ </p> </td> 
    <td colname="col2"> <p>能。联系 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Adobe 客户关怀</a>。 </p> 
     <draft-comment> 
-     <p>有关在开始日期对当前Analytics用户和权限管理所做的更改的说明，请参阅下文。 </p> 
+     <p>有关在开始日期对当前 Analytics 用户和权限管理所做的更改的说明，请参见下文。 </p> 
     </draft-comment> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>我的公司当前正在迁移到 Admin Console，我在迁移开始日期之前应在何处创建新用户和权限组？ </p> </td> 
    <td colname="col2"> <p>在迁移开始日期之前，您可以在 Admin Console 中或在“Analytics”&gt;“用户管理”中创建用户。 </p> <p>在迁移开始后，您只能在 Admin Console 中创建用户和权限组。 </p> 
     <draft-comment> 
-     <p>有关迁移开始日期将发生什么情况的更多详细信息，请参阅下面的迁移部分)。 </p> 
+     <p>请参阅下面的“迁移”部分，以了解有关迁移开始日期所发生情况的详细信息）。 </p> 
     </draft-comment> </td> 
   </tr> 
   <tr> 
@@ -187,22 +187,22 @@ On this page:
   </tr> 
   <tr> 
    <td colname="col1"> <p>我可以更新未迁移用户的权限组成员资格吗？ </p> </td> 
-   <td colname="col2"> <p>能。您可以从“Analytics 用户管理”部分中更改未迁移用户的组成员资格。 </p> 
+   <td colname="col2"> <p>可以。您可以从“Analytics 用户管理”部分中更改未迁移用户的组成员资格。 </p> 
     <draft-comment> 
-     <p>等待Ashok的澄清，说明这是在哪里完成的。 </p> 
+     <p>等待 Ashok 提供的关于何处已完成迁移的说明。 </p> 
     </draft-comment> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>我可以在迁移开始后在 Analytics 中创建用户和权限组，然后使用迁移工具将它们移到 Admin Console 吗？ </p> </td> 
-   <td colname="col2"> <p> 不可以。迁移开始后，所有新用户和权限组（在 Admin Console 中称为“产品配置文件”）必须在 Admin Console 中创建。 </p> </td> 
+   <td colname="col2"> <p> 不会。迁移开始后，所有新用户和权限组（在 Admin Console 中称为“产品配置文件”）必须在 Admin Console 中创建。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用迁移工具迁移的用户会分配他们在 Analytics 中拥有的相同权限吗？ </p> </td> 
-   <td colname="col2"> <p>能。使用工具迁移的用户将被授予他们当前在 Analytics 中拥有的权限。此外，他们在通过 Experience Cloud 访问 Analytics 时，还将保留对其 Analytics 资产（如区段、项目、计算量度等等）的访问权限。 </p> </td> 
+   <td colname="col2"> <p>是的。使用工具迁移的用户将被授予他们当前在 Analytics 中拥有的权限。此外，他们在通过 Experience Cloud 访问 Analytics 时，还将保留对其 Analytics 资产（如区段、项目、计算量度等等）的访问权限。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>迁移到 Admin Console 的用户可继续使用 <span class="filepath">my.omniture.com</span> 访问 Analytics 吗？ </p> </td> 
-   <td colname="col2"> <p>能。在迁移结束日期之前，迁移用户将能够继续使用其现有的用户名和密码经由 <span class="filepath">my.omniture.com</span> 访问 Analytics，除非您禁止他们通过迁移工具进行旧版登录访问。 </p> </td> 
+   <td colname="col2"> <p>可以。在迁移结束日期之前，迁移用户将能够继续使用其现有的用户名和密码经由 <span class="filepath">my.omniture.com</span> 访问 Analytics，除非您禁止他们通过迁移工具进行旧版登录访问。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>我的两名或更多用户在其 Analytics 记录中具有相同的电子邮件 ID。如果我迁移它们会怎样？ </p> </td> 
@@ -226,7 +226,7 @@ On this page:
   </tr> 
   <tr> 
    <td colname="col1"> <p>我可以使用 API 代替迁移工具来迁移我的用户吗？ </p> </td> 
-   <td colname="col2"> <p>不可以。您必须使用迁移工具，以确保您的所有现有用户都能被迁移到 Admin Console。 </p> </td> 
+   <td colname="col2"> <p>不会。您必须使用迁移工具，以确保您的所有现有用户都能被迁移到 Admin Console。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>哪些 Analytics 用户管理功能在 Admin Console 中不可用？ </p> </td> 
@@ -251,7 +251,7 @@ On this page:
   </tr> 
   <tr> 
    <td colname="col1"> <p>我未能在迁移结束日期前迁移我的所有用户。未迁移的用户会丢失对 Analytics 的访问权限吗？ </p> </td> 
-   <td colname="col2"> <p>在结束日期之前尚未迁移的用户将被重定向到Experience cloud登录页面(experiencecloud.adobe.com)，并且将无法访问Analytics。 但是，您将可以继续访问迁移工具，因此您可以查找并迁移他们以恢复其访问权限。 </p> </td> 
+   <td colname="col2"> <p>截止到结束日期还未被迁移的用户将被重定向到 Experience Cloud 登录页面 (experiencecloud.adobe.com)，并将无法访问 Analytics。但是，您将可以继续访问迁移工具，因此您可以查找并迁移他们以恢复其访问权限。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -268,7 +268,7 @@ On this page:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>从 Admin Console 中删除用户 </p> </td> 
-   <td colname="col2"> <p> 在 Analytics 中，已删除的用户会被设置为 <span class="term"> expired</span>, but the account continues to exist. 保留帐户可使转移资产（例如区段、计算量度、计划报表、项目等）得以进行。 </p> </td> 
+   <td colname="col2"> <p> 在 Analytics 中，已删除的用户会被设置为<span class="term">已过期</span>，但其帐户仍然存在。保留帐户可使转移资产（例如区段、计算量度、计划报表、项目等）得以进行。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>帐户过期日期 </p> </td> 
@@ -281,7 +281,7 @@ On this page:
 
 >[!IMPORTANT]
 >
->查看在迁移过程中可能适用于您的以下问题。
+>检查以下可能会在迁移期间遇到的问题。
 
 <table id="table_88E2FA03D5F241B79AB54D12F64B51DA"> 
  <thead> 
@@ -301,7 +301,7 @@ On this page:
   </tr> 
   <tr> 
    <td colname="col1"> <p>上次访问（上次登录） </p> </td> 
-   <td colname="col2"> <p> 有关用户上次登录日期和时间的详细信息将显示在“Analytics 用户和资产”链接中，而不是显现在 Admin Console 中。Analytics中的上次登录日期特定于用户从Experience cloud中实际访问Analytics的时间，不反映用户登录Experience cloud的日期／时间。 </p> </td> 
+   <td colname="col2"> <p> 有关用户上次登录日期和时间的详细信息将显示在“Analytics 用户和资产”链接中，而不是显现在 Admin Console 中。Analytics 中的上次登录日期与用户从 Experience Cloud 内实际访问 Analytics 的时间有关，而不反映他们登录到 Experience Cloud 的日期/时间。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>用户管理 API <a href="https://helpx.adobe.com/enterprise/help/identity.html">Adobe 支持的身份类型</a> </p> </td> 
@@ -334,15 +334,15 @@ On this page:
 
 您可能需要主动将此迁移计划传达给您的当前用户。以下是一个模板，您可以对其进行自定义，以发送给您的所有当前 Analytics 用户：
 
-To email all users, navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; [Email Users](https://marketing.adobe.com/resources/help/en_US/reference/t_email_users.html).
+要向所有用户发送电子邮件，请导航至 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 用户管理]** &gt; [电子邮件用户](https://marketing.adobe.com/resources/help/en_US/reference/t_email_users.html)。
 
 **主题：**&#x200B;即将推出 - 一种用于登录到 Adobe Analytics 和 Adobe Experience Cloud 的新方法。
 
 **正文：** Adobe Analytics 用户，您好！
 
-Our company will begin migrating all Adobe Analytics accounts away from [!DNL https://my.omniture.com/login/] to Adobe Experience Cloud ([experiencecloud.adobe.com](http://experiencecloud.adobe.com/)). 在此次迁移中，将升级您的 Adobe Analytics 帐户以允许通过 Adobe Experience Cloud 访问 Analytics。虽然访问 Analytics 的方法将发生变化，但您对报表包和工具的所有现有权限都将保留下来。
+我们公司即将开始把所有 Adobe Analytics 帐户从 [!DNL https://my.omniture.com/login/] 迁移到 Adobe Experience Cloud ([experiencecloud.adobe.com](http://experiencecloud.adobe.com/))。在此次迁移中，将升级您的 Adobe Analytics 帐户以允许通过 Adobe Experience Cloud 访问 Analytics。虽然访问 Analytics 的方法将发生变化，但您对报表包和工具的所有现有权限都将保留下来。
 
-**** 后续步骤：我们将从 <INSERT DATE>。请查看发送到您 Analytics 帐户下方列出的电子邮件 ID 的欢迎邮件，其中包含您的新登录信息。如果您没有设置链接到电子邮件地址的 [Adobe ID](https://helpx.adobe.com/x-productkb/global/adobe-id-account-change.html)，系统将要求您设置一个帐户。
+**后续步骤：**&#x200B;我们将从 &lt;&gt; 开始迁移用户。 <INSERT DATE>. 请查看发送到您 Analytics 帐户下方列出的电子邮件 ID 的欢迎邮件，其中包含您的新登录信息。如果您没有设置链接到电子邮件地址的 [Adobe ID](https://helpx.adobe.com/x-productkb/global/adobe-id-account-change.html)，系统将要求您设置一个帐户。
 
 **有用的资源：**
 
