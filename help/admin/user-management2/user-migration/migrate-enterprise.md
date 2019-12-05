@@ -3,7 +3,7 @@ description: 如何将 Analytics 用户帐户作为 Enterprise ID 或 Federated 
 title: 为 Enterprise ID 和 Federated ID 迁移 Analytics 用户帐户
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
+source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 
 ---
 
@@ -64,9 +64,9 @@ source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
 
       > [!TIP] 在此步骤中，Adobe 建议简化用户列表，以确保 Enterprise ID 或 Federated ID 迁移中只包含拥有有效电子邮件 ID 的用户。
 
-1. 在 Admin Console 中，下载 Admin Console 用户列表：
+1. In the [!UICONTROL Admin Console], download a list of Admin Console users:
 
-   1. 导航至 [Admin Console](http://adminconsole.adobe.html/#) &gt; **[!UICONTROL 用户]**，然后单击[将用户列表导出到 CSV](https://helpx.adobe.com/enterprise/using/users.html)。
+   1. 导航至 [!UICONTROL Admin Console] &gt; **[!UICONTROL 用户]**，然后单击[将用户列表导出到 CSV](https://helpx.adobe.com/enterprise/using/users.html)。
 
       ![](assets/export-csv.png)
 
@@ -119,7 +119,7 @@ source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
   </tr> 
   <tr> 
    <td colname="col1"> <p>域 </p> </td> 
-   <td colname="col2"> <p>确保<span class="term">域</span>和<span class="term">电子邮件</span>列中的域与<a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md#prereqs"  >先决条件</a>中建立的域匹配。 </p> </td> 
+   <td colname="col2"> <p>确保<span class="term">域</span>和<span class="term">电子邮件</span>列中的域与先决条件</a>中建立的域匹配。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>国家/地区代码 </p> </td> 
@@ -130,16 +130,16 @@ source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
 
 有关 [!DNL .csv] 文件中字段的更多信息，请参阅 [CSV 文件格式](https://helpx.adobe.com/enterprise/using/users.html)。
 
-> [!NOTE] 其他列（例如 *`Product Configurations`* 和 *`Admin Roles`*）可以为空白。
+> [!NOTE] 其他列(如“产品 [!UICONTROL 配置] ”和“ [!UICONTROL 管理员角色] ”)可为空。
 
 1. 在 Admin Console 的“用户”选项卡中，单击&#x200B;**[!UICONTROL 通过 CSV 添加用户]**（如步骤 3 中所示）以上载模板文件。
-1. 在 Analytics 中，运行迁移工具（如[迁移 Analytics 用户帐户](/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md)中所述）。
+1. 在 Analytics 中，运行迁移工具（如[迁移 Analytics 用户帐户](/help/admin/user-management2/user-migration/t-migrate-users.md)中所述）。
 1. 单击&#x200B;**[!UICONTROL 迁移]** &gt; **[!UICONTROL 按照 Enterprise ID 进行迁移]**。
 
    ![步骤信息](assets/migrate-as-enterprise.png)
 
    单击&#x200B;**[!UICONTROL 迁移]**&#x200B;时，会将用户链接到 Admin Console 中的 Enterprise ID/Federated ID 帐户。Analytics 中旧版用户帐户的权限将与 **[!UICONTROL Admin Console]** &gt; **[!UICONTROL Analytics]** &gt; **[!UICONTROL 产品配置文件]**&#x200B;中授予 Enterprise ID/Federated ID 登录的权限相匹配。用户 ID 将显示在“迁移已完成”分段中。您可以禁用其旧版 [!DNL my.omniture.com] 访问权限。
 
-   在迁移用户后，“迁移状态”列下方的状态将从 *`Not Initiated`* 更改为 *`Migrated`*。
+   After migrating users, the status under the Migration Status column changes from **[!UICONTROL Not Initiated]** to **[!UICONTROL Migrated]**.
 
    迁移工具中显示的 Adobe ID 用户也可以在此过程中迁移。在执行身份切换之前，他们仍旧必须使用 Adobe ID 进行登录。请联系 Adobe 客户关怀，以帮助进行身份切换。
