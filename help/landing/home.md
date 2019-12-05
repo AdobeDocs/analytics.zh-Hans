@@ -2,7 +2,7 @@
 title: Adobe Analytics 技术文档指南
 description: Analytics 用户指南和资源
 translation-type: tm+mt
-source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
+source-git-commit: cb1594fbfff4e3ec0dcb7bbe76874b04828eb69e
 
 ---
 
@@ -11,23 +11,23 @@ source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 
 欢迎使用Adobe Analytics产品和技术文档主页。 在此，您可以找到报表工具(如 [!UICONTROL Analysis]、 [!UICONTROL Report Builder]、Reporting API、 [!UICONTROL Data Workbench]和Activity Map Report)的自助和 支持信息。 您还可以访问有关产品和用户管理、实施以及Adobe Analytics中支持的所有功能的文档。
 
-[![工具](assets/analyze_50px.png)](/help/analyze/home.md) [Analytics 工具指南](/help/analyze/home.md) – 包含可以在 Adobe Analytics 中使用的所有分析工具。该指南是第一个、也是最重要的一个全面提供了关于 Analysis Workspace 以及适用于 Analytics 的主要分析和可视化工具的说明文档。
+[![工具](assets/analyze_50px.png)](/help/analyze/home.md)[Analytics工具指南](/help/analyze/home.md) -提供对 [](/help/analyze/analysis-workspace/home.md)Analysis Workspace的访问，Analysis Workspace是Analytics的主要分析和可视化工具。 还提供了可在Adobe Analytics中使[!UICONTROL 用的所有分析工具]( [!UICONTROL Report Builder]、Reporting API、 [!UICONTROL Data Workbench]和Activity Map)。
 
-[![管理员](assets/admin_50px.png)](/help/admin/home.md) [管理员指南](/help/admin/home.md) – 配置报表包、数据管理、服务器调用使用情况等管理任务。
+[![管理员](assets/admin_50px.png)](/help/admin/home.md)[](/help/admin/home.md) 指南——了解如何在Experience Cloud Admin Console中管理用户和产品、配置报表包、公司设置、数据管理、服务器调用使用、流量管理等。
 
-[![实施](assets/implement_50px.png)](/help/implement/home.md) [实施指南](/help/implement/home.md) – 自定义要收集哪些数据以便更加充分地利用 Adobe Analytics。其中包含关于 Adobe Experience Platform Launch 和 JavaScript 实施的内容。
+[![实施](assets/implement_50px.png)](/help/implement/home.md) [实施指南](/help/implement/home.md) – 自定义要收集哪些数据以便更加充分地利用 Adobe Analytics。Includes content on [!UICONTROL Adobe Experience Platform Launch] and JavaScript implementations.
 
 [![组件](assets/components_50px.png)](/help/components/home.md) [组件指南](/help/components/home.md) – 了解有助于您管理和组织数据的功能。组件包括区段、计算度量、虚拟报表包和警报等。该指南还包含变量参考，对所有可用的维度和量度进行了阐述。
 
-[![导出](assets/export_50px.png)](/help/export/home.md) [导出指南](/help/export/home.md) – 通过 Data Warehouse 和数据馈送等功能获取 Adobe Analytics 中的数据。
+[![导出](assets/export_50px.png)](/help/export/home.md)[导出指南](/help/export/home.md) -从Adobe Analytics获取数据：使 [!UICONTROL 用数据馈送] ，可接收每小时或每天导出的原始数据。 使用数据仓库检索数据的电子表 [!UICONTROL 格输出]。
 
-[![导入](assets/import_50px.png)](/help/import/home.md) [导入指南](/help/import/home.md) – 将外部源中的数据批量或实时导入 Analytics 中。包括数据源、数据插入 API 和 Data Connectors。
+[![导入](assets/import_50px.png)](/help/import/home.md) [导入指南](/help/import/home.md) – 将外部源中的数据批量或实时导入 Analytics 中。Includes [!UICONTROL Data Sources], [!UICONTROL Data Insertion API], and [!UICONTROL Data Connectors].
 
-[![集成](assets/integrate_50px.png)](/help/integrate/home.md) [集成指南](/help/integrate/home.md) – 配置与其他 Adobe Experience Cloud 解决方案的集成，例如 Audience Manager、Advertising Cloud 或 Target。
+[![集成](assets/integrate_50px.png)](/help/integrate/home.md)[集成指南](/help/integrate/home.md) -配置与其他Adobe Experience cloud解决方案（如Audience Manager、Advertising cloud和Target）的集成。
 
 [![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)Media Analytics Guide[](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) —— 对音频或视频源实施Analytics。 包括 Media SDK 和 Media Collection API。
 
-[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)Data Workbench指南[](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) - Data Workbench客户端、安装、数据集配置等
+[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)[Data Workbench指南](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) -了解 [!UICONTROL Data Workbench高度灵活、强大的多渠道功能]。 包括 [!UICONTROL Data Workbench Client]、Installation [!UICONTROL 、Dataset Configuration] guides等。
 
 [![技术文件](assets/technotes_50px.png)](/help/technotes/home.md) [Analytics 技术文件](/help/technotes/home.md) – 一个知识库，其中包含不属于某个具体 Analytics 工具或组件的有用文章。
 
