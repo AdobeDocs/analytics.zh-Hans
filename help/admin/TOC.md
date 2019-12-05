@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin Guide
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: cb1594fbfff4e3ec0dcb7bbe76874b04828eb69e
+source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
 
 ---
 
@@ -145,7 +145,11 @@ source-git-commit: cb1594fbfff4e3ec0dcb7bbe76874b04828eb69e
    + [用户和产品管理](user-management2/user-management.md)
    + [将用户群组分配给报表包](user-management2/t-group-access-report-suite.md)
    + 用户管理 {#user-management}
-      + [将用户迁移到Experience Cloud Admin Console](user-management2/user-migration/c-migration-tool/c-migration-tool.md)
+      + [将 Analytics 用户迁移到 Admin Console](user-management2/user-migration/c-migration-tool.md)
+         + [为 Adobe ID 迁移 Analytics 用户帐户](user-management2/user-migration/t-migrate-users.md)
+         + [为 Enterprise ID 和 Federated ID 迁移 Analytics 用户帐户](user-management2/user-migration/migrate-enterprise.md)
+         + [禁用旧版登录](user-management2/user-migration/t-disable-legacy-login.md)
+         + [受迁移影响的 API](user-management2/user-migration/developer.md)
       + [用户管理概述](user-management2/c-user-management/users.md)
       + [添加用户帐户](user-management2/c-user-management/t-add-user-account.md)
       + [用户和群组权限更改](user-management2/c-user-management/permissions-changes.md)
