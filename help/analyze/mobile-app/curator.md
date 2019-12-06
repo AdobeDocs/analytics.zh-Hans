@@ -2,7 +2,7 @@
 description: 有关设置移动应用程序记分卡的说明。
 title: Adobe Analytics移动应用程序策展人指南
 translation-type: tm+mt
-source-git-commit: e01002d04560b6fe56a2ac2f4869d48f7604972d
+source-git-commit: 4d1184f7b7c7f683fc3da2ea42a6e5911c60427b
 
 ---
 
@@ -32,12 +32,12 @@ Adobe Analytics移动应用程序可随时随地从Adobe Analytics提供洞察�
 Mobile Scorecard以平铺的布局为执行用户显示关键数据可视化，如下所示：
 
 
-![示例记分卡](/help/analyze/mobile-app/assets/intro_scorecard.png)
+![示例记分卡](assets/intro_scorecard.png)
 
 
 作为此记分卡的管理者，您可以使用记分卡构建器配置在消费者的记分卡上显示的拼贴。 您还可以配置在点击拼贴后如何调整详细视图或细分。 Scorecard builder界面如下所示：
 
-![Scorecard Builder](help/analyze/mobile-app/assets/scorecard_builder.png)
+![Scorecard Builder](assets/scorecard_builder.png)
 
 
 要创建记分卡，您需要执行以下操作：
@@ -56,7 +56,7 @@ Mobile Scorecard以平铺的布局为执行用户显示关键数据可视化，�
 2. 单击“创 **建新项目** ”按钮，然后选择 **** Blank Mobile Scorecard项目模板。
 3. Click the **Create** button.
 
-![记分卡模板](help/analyze/mobile-app/assets/new_template.png)
+![记分卡模板](assets/new_template.png)
 
 
 *注意：如下所示，如果看不到空白Mobile Scorecard模板，则表明您的公司尚未激活测试版。 请联系您的客户服务经理。*
@@ -66,7 +66,7 @@ Mobile Scorecard以平铺的布局为执行用户显示关键数据可视化，�
 
 在“项 **目** ”屏幕的“组件”选项卡 **下，单击“添加** ”按钮并选 **择** “Mobile Scorecard ****”。
 
-![添加项目](help/analyze/mobile-app/assets/add_project.png)
+![添加项目](assets/add_project.png)
 
 **使用Analytics工具**
 
@@ -78,11 +78,11 @@ Mobile Scorecard以平铺的布局为执行用户显示关键数据可视化，�
 
 1. 在 **属性** （在右侧边栏中）下，指定要从中使用数据的 **项目报表包** 。
 
-   ![报告套件选择](help/analyze/mobile-app/assets/properties_save.png)
+   ![报告套件选择](assets/properties_save.png)
 
 2. 要向记分卡添加新拼贴，请从左侧面板中拖动一个量度，然后将其放入将 **量度拖放到此处** 。 您还可以使用类似的工作流在两个拼贴之间插入度量。
 
-   ![添加拼贴](help/analyze/mobile-app/assets/build_list.png)
+   ![添加拼贴](assets/build_list.png)
 
 
    *从每个拼贴中，您可以访问一个详细视图，其中显示有关度量的其他信息，如相关维列表的顶级项。*
@@ -90,7 +90,7 @@ Mobile Scorecard以平铺的布局为执行用户显示关键数据可视化，�
 
 3. 要向度量添加相关维，请从左侧面板拖动维并将其放到拼贴上。 例如，您可以将相应的维度(如本例中的 **DMA Region**)拖放到“独特访客 **** ”量度中；您添加的维将显示在特定于拼贴的属性的划分部分 **下**。 可向每个拼贴添加多个维度。
 
-   ![添加维](help/analyze/mobile-app/assets/layer_dimensions.png)
+   ![添加维](assets/layer_dimensions.png)
 
    *注意：您还可以通过将维拖放到记分卡画布上，将维添加到所有拼贴。*
 
@@ -99,7 +99,7 @@ Mobile Scorecard以平铺的布局为执行用户显示关键数据可视化，�
 
    此外，如果单击拼贴，动态弹出窗口将显示“细分”视图在应用程序中对执行用户的显示方式。 如果未将维应用于拼贴，则划分维将为小时 ******或天数**，具体取决于默认日期范围。
 
-   ![Breakdown_view](help/analyze/mobile-app/assets/break_view.png)
+   ![Breakdown_view](assets/break_view.png)
 
    *请注意添加到拼贴的每个维度将如何显示在应用程序详细视图的下拉列表中。 然后，执行用户可以从下拉列表中列出的选项中进行选择。*
 
@@ -107,7 +107,7 @@ Mobile Scorecard以平铺的布局为执行用户显示关键数据可视化，�
 
 5. 同样，要删除应用于整个记分卡的组件，请单击拼贴外部记分卡上的任意位置，然后单击将鼠标悬停在组件上时显示的 **x** ，将其删除，如 **** Mobile Customers区段所示：
 
-   ![Remove_components](help/analyze/mobile-app/assets/new_remove.png)
+   ![Remove_components](assets/new_remove.png)
 
 6. 在“记分卡 **属性**”下，您还可以选择指定以下内容：
 
@@ -119,7 +119,7 @@ Mobile Scorecard以平铺的布局为执行用户显示关键数据可视化，�
 
 7. 要命名记分卡，请单击屏幕左上角的命名空间，然后键入新名称。
 
-   ![Naming_scordecars](help/analyze/mobile-app/assets/new_name.png)
+   ![Naming_scordecars](assets/new_name.png)
 
 ## 共享记分卡
 
@@ -137,7 +137,7 @@ Mobile Scorecard以平铺的布局为执行用户显示关键数据可视化，�
 
 3. 单击&#x200B;**共享**。
 
-![Share_Scordecars](help/analyze/mobile-app/assets/new_share.png)
+![Share_Scordecars](assets/new_share.png)
 
 
 共享记分卡后，收件人可以在其Analytics移动应用程序上访问该记分卡。 如果您在Scorecard Builder中对记分卡进行后续更改，则共享记分卡中会自动更新这些更改。 然后，执行用户将在其应用程序上刷新Scorecard后看到更改。
@@ -172,12 +172,12 @@ Mobile Scorecard以平铺的布局为执行用户显示关键数据可视化，�
 
       单击链接后，将显示以下Testflight屏幕：
 
-      ![Testflight屏幕](help/analyze/mobile-app/assets/testflight1.png)
+      ![Testflight屏幕](assets/testflight1.png)
 
    2. 点按屏 **幕上的“在App Store中查看** ”链接以下载Testflight应用程序。
 
    3. 安装Testflight应用程序后，从Testflight中查找并安装Adobe Analytics移动应用程序，如下所示：
-   ![Testflight屏幕](help/analyze/mobile-app/assets/testflight2.png)
+   ![Testflight屏幕](assets/testflight2.png)
 
    **对于Android上的执行用户：**
 
@@ -188,34 +188,35 @@ Mobile Scorecard以平铺的布局为执行用户显示关键数据可视化，�
 
       点击链接后，点按以下屏幕上的“成为测试人员”链接：
 
-      ![“播放商店”屏幕](help/analyze/mobile-app/assets/play.png)
+      ![“播放商店”屏幕](assets/play.png)
 
    2. 点按下 **面屏幕上的Google Play链接** ，下载它：
 
-      ![下载链接](help/analyze/mobile-app/assets/playnext.png)
+      ![下载链接](assets/playnext.png)
 
    3. 下载并安装应用程序。
    下载并安装后，执行用户可以使用他们现有的Adobe Analytics凭据登录应用程序；我们同时支持Adobe和Enterprise/Federated ID。
 
-   ![应用程序欢迎屏幕](help/analyze/mobile-app/assets/welcome.png)
+   ![应用程序欢迎屏幕](assets/welcome.png)
 
-2. 帮助他们访问您的记分卡。 管理用户登录应用程序后，将显示“选择公司”屏幕。 此屏幕列出了执行用户所属的登录公司。 要帮助他们进入记分卡，请执行以下操作：
+2. 帮助他们访问您的记分卡。 管理用户登录应用程序后，将显示“ **选择公司** ”屏幕。 此屏幕列出了执行用户所属的登录公司。 要帮助他们进入记分卡，请执行以下操作：
 
-* 点按应用于您共享的记分卡的登录公司或Experience cloud组织的名称。 然后，记分卡列表会显示与该登录公司下的主管共享的所有记分卡。
-* 帮助他们按最近修改的列表（如果适用）排序此列表。
-* 点按记分卡的名称以查看它。
-
-
-1. 点击即可选择公司。
-2. 从记分卡列表中点按记分卡。
+   * 点按应用于您共享的记分卡的登录公司或Experience cloud组织的名称。 然后，记分卡列表会显示与该登录公司下的主管共享的所有记分卡。
+   * 帮助他们按最近修改的列 **表(如果适用**)排序此列表。
+   * 点按记分卡的名称以查看它。
+   ![选择一个公司](assets/accesscard.png)
 
    注意：如果执行用户登录并看到一条消息，指示没有共享内容：
 
    * 执行用户可能选择了错误的Analytics实例
-   * 未与执行用户共享记分卡
+   * Scorecard可能未与执行用户共享
+   ![无共享内容](assets/nothing.png)
 
-3. 显示拼贴在您共享的记分卡中的显示方式。
+   验证执行用户是否可以登录到正确的Analytics实例，以及是否已共享记分卡。
 
+3. 向执行用户解释拼贴在您共享的记分卡中的显示方式。
+
+   ![解释拼贴](assets/newexplain.png)
 
 
    有关拼贴的其他信息：
@@ -228,57 +229,39 @@ Mobile Scorecard以平铺的布局为执行用户显示关键数据可视化，�
        *您可以下拉屏幕以刷新记分卡。
    
 
-4. 点按拼贴可显示拼贴的详细细分或趋势报表的工作方式。
+4. 点按拼贴可显示拼贴的详细细分工作方式。
+
+   ![分组窗口视图](assets/sparkline.png)
 
 
 5. 要更改记分卡的日期范围：
 
+   ![更改日期](assets/changedate.png)
 
+   *注意：您还可以按相同方式更改上述“细分”视图中的日期范围。*
 
-   *1. 点按日期标题。 2.在“日期范围”屏幕上，点按要处理的时间跨度。*
-
-   根据您点按的间隔（日、周、月或年），您将看到两个日期范围选项——当前时间范围或紧接它之前的时间范围。 点按这两个选项之一以选择第一个范围。 在“比较对象”列表下，点按其中一个显示的选项，将此时间段的数据与您选择的第一个日期范围进行比较。 点按屏幕右上角的完成。 “日期范围”字段和记分卡拼贴将使用您所选新范围中的新比较数据进行更新。
-
+   根据点按(**Day**、 **Week**、 **Month**、 **Year** Span)的时间间隔，您将看到两个选项范围（当前时间范围或紧接其之前的日期范围）。 点按这两个选项之一以选择第一个范围。 在“ **比较对象** ”列表下，点按其中一个显示的选项，将此时间段的数据与您选择的第一个日期范围进行比较。 点 **击屏幕右上角** 的“完成”。 “日 **期范围** ”字段和“记分卡”拼贴会使用您所选新范围中的新比较数据进行更新。
 
 6. 要在此应用程序上保留反馈，请执行以下操作：
 
-
    1. 点按应用程序屏幕右上角的用户图标。
-   2. 在“我的帐户”屏幕上，点按反馈选项。
+   2. 在“我的 **帐户** ”屏幕上，点按 **反馈** 。
    3. 点按可查看退出反馈的选项。
+   ![保留反馈](assets/feedback.png)
+   ![反馈选项](assets/feedback_option.png)
 
 
+**要报告错误**:
 
-*点按右上角的用户图标。 2.点按反馈类型。 3.点按适用的反馈选项。*
-
-
-
+点按该选项并选择错误的子类别。 在报告错误的表单中，在顶部字段中提供您的电子邮件地址，并在其下方字段中提供错误的说明。 您的帐户信息的屏幕快照会自动附加到消息中，但如果需要，您可以通过点击附件图像中的 **X** 来删除该屏幕快照。 您还可以选择进行屏幕录制、添加更多屏幕截图或附加文件。 要发送报表，请点按表单右上角的纸质平面图标。
 
 
+![报告错误](assets/newbug.png)
 
+**建议改进**:
 
+点按选项，然后为建议选择子类别。 在建议表单中，在顶部字段中提供您的电子邮件地址，并在其下方字段中提供错误的说明。 您的帐户信息的屏幕快照会自动附加到消息中，但如果需要，您可以通过点击附件图像中的 **X** 来删除该屏幕快照。 您还可以选择进行屏幕录制、添加更多屏幕截图或附加文件。 要发送建议，请点按表单右上角的纸面图标。
 
-报告错误：
+**要提问**:
 
-点按该选项并选择错误的子类别。 在报告错误的表单中，在顶部字段中提供您的电子邮件地址，并在其下方字段中提供错误的说明。 您的帐户信息的屏幕快照会自动附加到消息中，但是，如果您想要删除该屏幕快照，请点击附件图像中的X。 您还可以选择进行屏幕录制、添加更多屏幕截图或附加文件。 要发送报表，请点按表单右上角的纸质平面图标。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-建议改进：
-
-点按选项，然后为建议选择子类别。 在建议表单中，在顶部字段中提供您的电子邮件地址，并在其下方字段中提供错误的说明。 您的帐户信息的屏幕快照会自动附加到消息中，但是，如果您想要删除该屏幕快照，请点击附件图像中的X。 您还可以选择进行屏幕录制、添加更多屏幕截图或附加文件。 要发送建议，请点按表单右上角的纸面图标。
-
-要提出问题：
-
-点按选项，在顶部字段中提供您的电子邮件地址，并在其下方字段中提供您的问题。 屏幕截图会自动附加到消息中，但是，如果您想要删除该消息，可点击附件图像中的X。 您还可以选择进行屏幕录制、添加更多屏幕截图或附加文件。 要发送问题，请点按表单右上角的纸质平面图标。
+点按选项，在顶部字段中提供您的电子邮件地址，并在其下方字段中提供您的问题。 屏幕截图会自动附加到消息中，但如果需要，您可以通过点击附件图像中的 **X** 来删除它。 您还可以选择进行屏幕录制、添加更多屏幕截图或附加文件。 要发送问题，请点按表单右上角的纸质平面图标。
