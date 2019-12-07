@@ -1,12 +1,11 @@
 ---
 description: 帮助您回答以下问题“用户点击某一促销活动进入我的网站后，都浏览了哪些位置？”
 keywords: Analytics Implementation
-solution: Analytics
 title: 按促销活动或跟踪代码进行路径分析
 topic: Developer and implementation
 uuid: eb6e3484-1b40-4ec6-8017-ac1003cdf636
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
