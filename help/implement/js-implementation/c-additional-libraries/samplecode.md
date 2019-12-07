@@ -1,12 +1,11 @@
 ---
 description: 说明如何在 HTML 示例页面中使用服务器生成的图像标记的示例。
 keywords: Analytics Implementation;variables
-solution: Analytics
 title: 示例代码
 topic: Developer and implementation
 uuid: 47e5e82c-cfb2-4912-919b-720b2ee852ba
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,7 +23,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | events | purchase,event1 |
 | c1 | 已注册 |
 | purchaseID | 0123456 |
-| 产品 | Books;Book Name;1;19.95 |
+| products | Books;Book Name;1;19.95 |
 | state | CA |
 | zip | 90210 |
 | 随机 # | 123456 |
