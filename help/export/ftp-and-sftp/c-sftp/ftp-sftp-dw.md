@@ -1,11 +1,10 @@
 ---
 description: Adobe支持将数据仓库请求导出到SFTP服务器。
 keywords: ftp;sftp
-solution: Analytics
 title: 将 Data Warehouse 请求发送到 SFTP 服务器
 uuid: 393634a1-0643-4d63-bb6e-fb80f1ba76c1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
