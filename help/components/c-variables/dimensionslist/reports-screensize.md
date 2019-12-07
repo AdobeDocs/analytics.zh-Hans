@@ -1,11 +1,10 @@
 ---
 description: 按移动设备的屏幕大小对网站的移动设备点击量进行分组。显示各个屏幕大小、使用各个屏幕大小的网站访客人数，以及各个屏幕大小在查看总次数中所占的百分比。与“屏幕高度”和“屏幕宽度”相比，“屏幕大小”可同时显示屏幕的高度和宽度。
-solution: Analytics
 title: 屏幕大小
 topic: Reports
 uuid: a71378c7-91b1-43da-8583-fbbdc5df39ba
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
