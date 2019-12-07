@@ -1,11 +1,10 @@
 ---
 description: 显示网站页面的层次结构布局，并根据 hierN 变量中页面的配置方式按顺序显示这些页面。此报表将使用适当的变量配置进行填充，该配置是为您要加入层次结构的每个页面设定的。通过使用该报表，您可以查看用于层次结构的所选量度（如独特访客人数）。
-solution: Analytics
 title: 层级
 topic: Reports
 uuid: 52f5d0af-67f7-4439-923f-4b79bf1c3fff
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
