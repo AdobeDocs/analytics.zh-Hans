@@ -1,12 +1,11 @@
 ---
 description: 大多数移动设备接受浏览器 Cookie。但是，如果设备不接受 Cookie，则可使用其他方法来唯一识别无线设备。
 keywords: Analytics Implementation
-solution: Analytics
 title: 识别移动设备
 topic: Developer and implementation
 uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
