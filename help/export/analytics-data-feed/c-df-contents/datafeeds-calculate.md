@@ -1,12 +1,11 @@
 ---
 description: 介绍如何使用数据馈送计算常见量度。
 keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event string;common;formulas
-solution: Analytics
 title: 计算量度
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
 translation-type: tm+mt
-source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -48,7 +47,7 @@ Adobe用于识别唯一访客的所有方法（自定义访客ID、Experience Cl
 
 1. Count the number of times the event lookup value appears in `post_event_list`.
 
-## 所花费的时间
+## 逗留时间
 
 首先必须按访问对点击进行分组，然后根据访问中的点击编号进行排序。
 
