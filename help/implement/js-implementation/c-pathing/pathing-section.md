@@ -1,12 +1,11 @@
 ---
 description: 如果您希望了解访客如何从网站的一个区域移动到另一个区域，首先需要确保使用 channel 变量标记网站区域。
 keywords: Analytics Implementation
-solution: Analytics
 title: 从一个区域移动到另一个区域
 topic: Developer and implementation
 uuid: 987cdaf3-4daf-423a-bcfe-226d8e7c3648
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
