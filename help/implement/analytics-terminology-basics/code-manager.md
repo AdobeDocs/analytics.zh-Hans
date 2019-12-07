@@ -1,12 +1,11 @@
 ---
 description: 代码管理器可让您下载适用于 Web 和移动平台的数据收集代码。
 keywords: Analytics Implementation;data collection;code manager
-solution: Analytics
 title: 代码管理器
 topic: Developer and implementation
 uuid: 4dc79214-a38b-4e1a-90f9-d09c8142dd0a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,7 +23,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 <table id="table_0C091AC7F1FC447998C1F0E867607E20"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 列 </th> 
+   <th colname="col1" class="entry"> 栏目 </th> 
    <th colname="col2" class="entry"> 描述 </th> 
   </tr>
  </thead>
