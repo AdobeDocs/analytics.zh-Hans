@@ -1,12 +1,11 @@
 ---
 description: 用于在 Adobe Analytics 用户界面中隐藏报表包。
 keywords: delete report suite
-solution: Analytics
 title: 隐藏报表包
 topic: Admin tools
 uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,14 +20,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->从您的站点发送到隐藏报表包的数据将继续收集、处理和计费。 换句话说，报表包从来不会被完全删除。
+>会继续收集和处理从网站发送至隐藏报表包的数据，且需要付费。换句话说，报表包从来不会被完全删除。
 
-To hide the report suite, go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Hide Report Suites]**. 选中报表包名称左边的&#x200B;**[!UICONTROL 隐藏]复选框。**
+要隐藏报表包，请转到 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 公司设置]** &gt; **[!UICONTROL 隐藏报表包]**。选中报表包名称左边的&#x200B;**[!UICONTROL 隐藏]**&#x200B;复选框。
 
-要取消隐藏报表包，请取消选中&#x200B;**[!UICONTROL 隐藏]复选框。**
+要取消隐藏报表包，请取消选中&#x200B;**[!UICONTROL 隐藏]**&#x200B;复选框。
 
-To view only hidden report suites, under **[!UICONTROL Company Settings]**, select **[!UICONTROL View]** &gt; **[!UICONTROL Only Hidden Report Suites]**.
+要仅查看隐藏的报表包，请在&#x200B;**[!UICONTROL 公司设置]**&#x200B;下，选择&#x200B;**[!UICONTROL 查看]** &gt; **[!UICONTROL 仅隐藏的报表包]**。
 
-To view only visible report suites, under **[!UICONTROL Company Settings]**, select **[!UICONTROL View]** &gt; **[!UICONTROL Only Visible Report Suites]**.
+要仅查看可见的报表包，请在&#x200B;**[!UICONTROL 公司设置]**&#x200B;下，选择&#x200B;**[!UICONTROL 查看]** &gt; **[!UICONTROL 仅可见的报表包]**。
 
-The default is **[!UICONTROL View]** &gt; **[!UICONTROL All]**.
+默认为&#x200B;**[!UICONTROL 查看]** &gt; **[!UICONTROL 全部]**。
