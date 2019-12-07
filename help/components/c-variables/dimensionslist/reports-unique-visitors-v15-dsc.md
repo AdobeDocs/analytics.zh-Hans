@@ -1,11 +1,10 @@
 ---
 description: 显示访问您网站的独特访客人数。每名访客计作一人，无论此人访问了您的网站多少次。
-solution: Analytics
 title: 独特访客
 topic: Reports
 uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,7 +20,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 <table id="table_4F54873A4ED8451494E466C2BDB15B00"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 日期 </th> 
+   <th colname="col1" class="entry"> 页面 </th> 
    <th colname="col2" class="entry"> 2017/1/1 </th> 
    <th colname="col3" class="entry"> 2017/1/1 </th> 
    <th colname="col4" class="entry"> 2017/1/2 </th> 
@@ -57,7 +56,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 独特访客报表 - 趋势量度 {#section_372C08A881D34BBF811C1DE0A1460617}
 
-[!UICONTROL “唯一访客] ”报表在临时分析中的行为类似。 对于发生访问的每次点击，访客都会在点击时被记录一次。每个页面都会因该页面上有该访客而收到信用。
+[!UICONTROL 独特访客]报表的工作方式与在 Ad Hoc Analysis 中类似。对于发生访问的每次点击，访客都会在点击时被记录一次。每个页面都会因该页面上有该访客而收到信用。
 
 <table id="table_7D9119045E8243698B6BB2E8C93F6B97"> 
  <thead> 
@@ -99,25 +98,25 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 <table id="table_E0D06D9434444947BDA818F61A580B65"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 日期 </th> 
+   <th colname="col1" class="entry"> 页面 </th> 
    <th colname="col2" class="entry"> 独特访客 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 月 1 日 </p> </td> 
+   <td colname="col1"> <p>1 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 2 日 </p> </td> 
+   <td colname="col1"> <p>2 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 3 日 </p> </td> 
+   <td colname="col1"> <p>3 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 4 日 </p> </td> 
+   <td colname="col1"> <p>4 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -127,32 +126,32 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-**[!UICONTROL 独特访客报表]按&#x200B;*`Page`*.**
+**[!UICONTROL 独特访客报表]按&#x200B;*`Page`*划分。**
 
 您可以为[!UICONTROL 独特访客报表]选择一个页面。在以下报表中，访客在这些日期访问页面 A：
 
 <table id="table_2ABA17B19E0D4F92AAB003BE784DA9E0"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 日期 </th> 
+   <th colname="col1" class="entry"> 页面 </th> 
    <th colname="col2" class="entry"> 独特访客 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 月 1 日 </p> </td> 
+   <td colname="col1"> <p>1 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 2 日 </p> </td> 
+   <td colname="col1"> <p>2 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 3 日 </p> </td> 
+   <td colname="col1"> <p>3 年 1 月 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 4 日 </p> </td> 
+   <td colname="col1"> <p>4 年 1 月 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -171,25 +170,25 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 <table id="table_FF14F05CDFDA4F2E92A62D9D751A1CAA"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 日期 </th> 
+   <th colname="col1" class="entry"> 页面 </th> 
    <th colname="col2" class="entry"> 每周独特访客 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 月 1 日 </p> </td> 
+   <td colname="col1"> <p>1 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 2 日 </p> </td> 
+   <td colname="col1"> <p>2 年 1 月 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 3 日 </p> </td> 
+   <td colname="col1"> <p>3 年 1 月 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 4 日 </p> </td> 
+   <td colname="col1"> <p>4 年 1 月 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -204,25 +203,25 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 <table id="table_4E44BC4722064501A5B648BE80ED8E60"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 日期 </th> 
+   <th colname="col1" class="entry"> 页面 </th> 
    <th colname="col2" class="entry"> 每日独特访客 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 月 1 日 </p> </td> 
+   <td colname="col1"> <p>1 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 2 日 </p> </td> 
+   <td colname="col1"> <p>2 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 3 日 </p> </td> 
+   <td colname="col1"> <p>3 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 4 日 </p> </td> 
+   <td colname="col1"> <p>4 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -237,17 +236,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 <table id="table_B695708BB22949E7BA293FE492D2EEA0"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 日期 </th> 
+   <th colname="col1" class="entry"> 页面 </th> 
    <th colname="col2" class="entry"> 每周独特访客 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 月 2 日 </p> </td> 
+   <td colname="col1"> <p>2 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 3 日 </p> </td> 
+   <td colname="col1"> <p>3 年 1 月 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -272,25 +271,25 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 <table id="table_9C5E00029C7340B28D76696E84F66511"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 日期 </th> 
+   <th colname="col1" class="entry"> 页面 </th> 
    <th colname="col2" class="entry"> 每周独特访客 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 月 1 日 </p> </td> 
+   <td colname="col1"> <p>1 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 2 日 </p> </td> 
+   <td colname="col1"> <p>2 年 1 月 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 3 日 </p> </td> 
+   <td colname="col1"> <p>3 年 1 月 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 4 日 </p> </td> 
+   <td colname="col1"> <p>4 年 1 月 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -305,25 +304,25 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 <table id="table_262150BECCB74120B58F506F4BC6F629"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 日期 </th> 
+   <th colname="col1" class="entry"> 页面 </th> 
    <th colname="col2" class="entry"> 访问 - 每周独特访客 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 月 1 日 </p> </td> 
+   <td colname="col1"> <p>1 年 1 月 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 2 日 </p> </td> 
+   <td colname="col1"> <p>2 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 3 日 </p> </td> 
+   <td colname="col1"> <p>3 年 1 月 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 4 日 </p> </td> 
+   <td colname="col1"> <p>4 年 1 月 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -348,27 +347,27 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p>A </p> </td> 
-   <td colname="col02"> <p>1 月 1 日 </p> </td> 
+   <td colname="col02"> <p>1 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>B </p> </td> 
-   <td colname="col02"> <p>1 月 2 日 </p> </td> 
+   <td colname="col02"> <p>2 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>C </p> </td> 
-   <td colname="col02"> <p>1 月 3 日 </p> </td> 
+   <td colname="col02"> <p>3 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>D </p> </td> 
-   <td colname="col02"> <p>1 月 4 日 </p> </td> 
+   <td colname="col02"> <p>4 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>E </p> </td> 
-   <td colname="col02"> <p>1 月 5 日 </p> </td> 
+   <td colname="col02"> <p>5 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -392,22 +391,22 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p>A </p> </td> 
-   <td colname="col02"> <p>1 月 1 日 </p> </td> 
+   <td colname="col02"> <p>1 年 1 月 </p> </td> 
    <td colname="col2"> <p>2 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>B </p> </td> 
-   <td colname="col02"> <p>1 月 2 日 </p> </td> 
+   <td colname="col02"> <p>2 年 1 月 </p> </td> 
    <td colname="col2"> <p>2 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>C </p> </td> 
-   <td colname="col02"> <p>1 月 3 日 </p> </td> 
+   <td colname="col02"> <p>3 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>D </p> </td> 
-   <td colname="col02"> <p>1 月 4 日 </p> </td> 
+   <td colname="col02"> <p>4 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -418,7 +417,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-要按其他属性划分某个属性（如按 *`page`* by *`eVar`*), Analytics allocates a period-based Unique Visitor for each unique instance of the period and page (or the attribute being correlated).
+要按其他属性划分某个属性（如按 *`page`* 划分 *`eVar`*），Analytics 将为时段和页面（或关联的属性）的每个独特实例分配一个基于时段的独特访客。
 
 如果按 eVar T、U 划分页面 A，则会排除 1 月 2 日，因为页面 A 的查看日期为 1 月 1 日。每周独特访客的结果如下所示：
 
@@ -447,6 +446,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 永久性 Cookie {#section_81E139F08AEB4E30A06472856975EA1E}
 
-永久性 Cookie 在访问之间存留在访客的计算机上，以便于 Adobe 识别进行后续访问的访客。To see the percentage of users who do and do not accept persistent cookies, select **[!UICONTROL Filter]** &gt; **[!UICONTROL Persistent Cookies]**.
+永久性 Cookie 在访问之间存留在访客的计算机上，以便于 Adobe 识别进行后续访问的访客。要查看接受和不接受永久性 Cookie 的用户百分比，请选择&#x200B;**[!UICONTROL 过滤器]** &gt; **[!UICONTROL 永久性 Cookie]**。
 
 下面的图表及详细信息视图同时显示永久性 Cookie 访客和非永久性 Cookie 访客。大部分时候，非永久性 Cookie 访客的数量都是可以忽略的。
