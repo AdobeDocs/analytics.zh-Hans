@@ -1,15 +1,14 @@
 ---
 description: Adobe Analytics 提供了多种逗留时间量度和维度。了解它们的含义以及它们的计算方式。
-solution: Analytics
 title: 逗留时间
 topic: Metrics
 translation-type: tm+mt
-source-git-commit: e04051a655a842092f3d99ba784a738e86d65eb2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# [!UICONTROL 所花费的时间]
+# [!UICONTROL 逗留时间]
 
 Adobe [!UICONTROL Analytics产品提供了各种] “花费时间”指标和维度。
 
