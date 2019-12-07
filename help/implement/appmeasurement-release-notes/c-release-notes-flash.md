@@ -1,12 +1,11 @@
 ---
 description: Flash 的发行说明汇总。使用 ActionScript 的 Flash 应用程序可在桌面和 Web 上进行测量。
-solution: Analytics
 subtopic: Release notes
 title: Flash-Flex
 topic: Developer and implementation
 uuid: 2ee7fb92-9b62-44d4-bd93-6dff26764b7f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
