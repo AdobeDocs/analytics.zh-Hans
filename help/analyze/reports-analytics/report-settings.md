@@ -1,11 +1,10 @@
 ---
 description: 定义所有报告的显示方式以及将默认菜单选项应用到简化菜单中其位置的信息的设置。
-solution: Analytics
 title: 报表显示设置和导航
 topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -64,7 +63,7 @@ nav_menu.xml
 |  | 关键量度 | 量度 &gt; 关键量度 |
 |  | 页面查看次数 | 量度 &gt; 页面查看 |
 |  | 访问 | 量度 &gt; 访问 |
-|  | 访客 | 量度 &gt; 访客数 |
+|  | 访客 | 量度 &gt; 访客 |
 |  | 每次访问逗留时间 | 量度 &gt; 每次访问逗留时间 |
 |  | 发生事件之前逗留的时间 | 转化 &gt; 发生事件之前逗留的时间 |
 |  | 购买 | 量度 &gt; 购买 |
