@@ -1,11 +1,10 @@
 ---
 description: 测量您所有的产品在特定时段内产生的收入量。
-solution: Analytics
 title: 收入
 topic: Reports
 uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,9 +19,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * 要使此报表能够成功收集数据，必须满足一定的要求。在同一个图像请求内必须发生以下情况：
 
-   * 必须触发一个[!UICONTROL 购买]事件（在 `s.events` 变量捕获。
+   * 必须触发一个[!UICONTROL 购买]事件（在 `s.events` 变量中）。
 
-   * The `products` variable must be defined with a number in the price field.
+   * 必须在价格字段内为 `products` 变量定义一个数字。
    * 例如，这将向收入报表中传递 $35.99。
 
       ```js
@@ -33,11 +32,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
        s.events="purchase"
       ```
 
-* 当 [!UICONTROL s.products] 变量中存在不止一个产品时，则所有对象都将计入收入报表。For example, [!DNL s.products="Mens;Socks;1;4.50,Womens;Socks;1;4.50"] would pass $9 in revenue to reporting.
+* 当 [!UICONTROL s.products] 变量中存在不止一个产品时，则所有对象都将计入收入报表。例如，[!DNL s.products="Mens;Socks;1;4.50,Womens;Socks;1;4.50"] 会向报表传递收入 $9。
 
    >[!NOTE]
    >
-   >如果单个产品中的数量增加，则收入不会乘以数量。 For example, [!DNL s.products="Womens;Socks;5;4.50"] does not pass $22.50 into reporting, it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed ( [!DNL s.products="Womens;Socks;5;22.50"]).
+   >在单个产品的数量增加的情况下，收入并不会按此倍数增加。例如，[!DNL s.products="Womens;Socks;5;4.50"] 不会向报表传递 $22.50，而是传递 $4.50。请确保您的实施传递了所列数量的总收入 ([!DNL s.products="Womens;Socks;5;22.50"])。
 
 * “[!UICONTROL 收入]”会将某时段的总收入量四舍五入至最接近的货币值。它不会对每一个单独的产品或每一次点击进行四舍五入。
 * 由于 Analytics 会将每日收入四舍五入至最接近的整数货币值，因此每日收入量之和与每月总收入量相比较，会有极微小的出入。这是因为每月总收入量并非是经过四舍五入的每日收入量之和，而是将绝对总和四舍五入到最接近的整数货币值。
@@ -65,15 +64,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 产品特定的属性 {#section_ED87FFD020634453AABE86B0248BE69B}
 
-* This report can be accessed by going to **[!UICONTROL Conversion]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Revenue]**.
+* 通过转至&#x200B;**[!UICONTROL 转化]** &gt; **[!UICONTROL 购买]** &gt; **[!UICONTROL 收入]**，可访问此报表。
 
-* [!UICONTROL 流量源]划分可在[!UICONTROL “查找方法”]下方找到。
+* “[!UICONTROL 流量源]”划分可在“[!UICONTROL 查找方法]”下方找到。
 
-* This report can be accessed by going to **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Revenue]**.
+* 通过转至&#x200B;**[!UICONTROL 网站量度]** &gt; **[!UICONTROL 购买]** &gt; **[!UICONTROL 收入]**，可访问此报表。
 
 * 除前面提到的所有划分外，还提供[!UICONTROL 首次联系和最近联系营销渠道]划分。
 
-* This report can also be accessed by going to **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Revenue]**.
+* 还可通过转至&#x200B;**[!UICONTROL 网站量度]** &gt; **[!UICONTROL 购买]** &gt; **[!UICONTROL 收入]**&#x200B;访问此报表。
 
 * 除了之前提到的划分之外，还可使用[!UICONTROL 列表]变量和当前[!UICONTROL 视频]变量。
 
