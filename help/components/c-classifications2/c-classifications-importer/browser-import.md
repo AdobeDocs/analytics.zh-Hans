@@ -1,12 +1,11 @@
 ---
 description: 您可以使用浏览器导入（上载）分类数据。此方法仅限将分类数据上载到单个报表包。
-solution: Analytics
 subtopic: Classifications
 title: 浏览器导入
 topic: Admin tools
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,7 +18,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 您可以使用浏览器导入（上载）分类数据。此方法仅限将分类数据上载到单个报表包。
 
-**[!UICONTROL “管理员]** ”&gt;“分 **[!UICONTROL 类导入程序”]**
+**[!UICONTROL 管理员]** &gt; **[!UICONTROL 分类导入器]**
 
 ## 分类浏览器导入 - 字段描述 {#section_F628C47081DA4026A4D30E3D3454B1DA}
 
@@ -62,11 +61,11 @@ t_upload_a_saint_data_file_via_web_browser.xml
 
  -->
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. Click **[!UICONTROL Import File]**.
-1. 配置浏 **[!UICONTROL 览器导入]** 字段。
-1. Click **[!UICONTROL Import File]**.
+1. 单击&#x200B;**[!UICONTROL 管理员]** &gt; **[!UICONTROL 分类导入器]**。
+1. 单击&#x200B;**[!UICONTROL 导入文件]**。
+1. 配置&#x200B;**[!UICONTROL 浏览器导入]**&#x200B;字段。
+1. 单击&#x200B;**[!UICONTROL 导入文件]**。
 1. 查看状态窗口以了解处理消息。
-1. (Conditional) If you selected **[!UICONTROL Automatically Download Classification File After Upload is Complete]**, specify where you want to store the resulting file when processing completes.
+1. （视情况而定）如果您选择了&#x200B;**[!UICONTROL 上载完成后自动下载分类文件]**，请指定希望在处理完成时用于存储所生成文件的位置。
 >成功的导入操作会立即在导出操作中显示相应的更改。但是，使用浏览器导入时，报表中的数据更改至多需要 4 个小时完成，而使用 FTP 导入时，则需要长达 24 小时才能完成。
 
