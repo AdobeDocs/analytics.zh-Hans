@@ -1,11 +1,10 @@
 ---
 description: 这些报表显示有关访客使用的浏览器、操作系统、显示器分辨率等信息。
-solution: Analytics
 title: 技术
 topic: Reports
 uuid: 8e2f88dc-e1b9-428e-b0d3-faf4c063bebc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -44,7 +43,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> 显示器颜色深度 </td> 
-   <td colname="col2"> <p> 显示访客在其计算机上配置的最常用颜色深度设置。 颜色深度是指屏幕上可显示的颜色数量。 </p> </td> 
+   <td colname="col2"> <p> 显示访客在其计算机上配置的最常用的颜色深度设置。颜色深度是指屏幕上可显示的颜色数量。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 显示器分辨率 </td> 
@@ -60,7 +59,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> JavaScript 版本 </td> 
-   <td colname="col2"> <p> 显示访客浏览器在查看站点时使用的JavaScript版本。 </p> </td> 
+   <td colname="col2"> <p> 显示访客查看网站时所用的浏览器使用的 JavaScript 版本。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cookie </td> 
