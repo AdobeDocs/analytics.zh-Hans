@@ -1,13 +1,12 @@
 ---
 description: 页面变量可以直接填充报表，例如 pageName、列表属性、列表变量，等等。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: 页面变量
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -51,7 +50,7 @@ The *`products`*&#x200B;变量应始终结合成功事件进行设置。
  <tbody> 
   <tr> 
    <td> <p>“<span class="wintitle"> products </span>”字符串的最大大小为 64 k。 </p> </td> 
-   <td> 产品 </td> 
+   <td> products </td> 
    <td> 产品 <p>类别（可选） </p> <p>收入（可选） </p> <p>件数（可选） </p> <p>自定义事件（可选） </p> <p>eVar（可选） </p> </td> 
    <td> " " </td> 
   </tr> 
@@ -73,7 +72,7 @@ The *`products`*&#x200B;变量应始终结合成功事件进行设置。
 | 事件 | 与指定产品关联的货币事件。请参阅[产品特定的货币事件](https://helpx.adobe.com/analytics/kb/comparing-event-types.html)和[订单范围的货币事件](https://helpx.adobe.com/analytics/kb/comparing-event-types.html)。 |
 | eVar | 与特定产品关联的促销 eVar 值。请参阅[促销变量](/help/components/c-variables/c-merch-variables/var-merchandising.md)。 |
 
-包含在&#x200B;*`products`*&#x200B;变量中包含的值基于您所记录的事件类型。省略类别时，需要使用类别/产品分隔符 (;) 作为占位符。仅当需要区分所包含的参数时，才要求使用其他分隔符，如本页上的示例所示。
+变量中包含的 *`products`* 值基于您所录制的事件类型。 省略类别时，需要使用类别/产品分隔符 (;) 作为占位符。仅当需要区分所包含的参数时，才要求使用其他分隔符，如本页上的示例所示。
 
 **设置非购买事件的 products**
 
