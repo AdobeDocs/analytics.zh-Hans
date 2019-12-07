@@ -1,11 +1,10 @@
 ---
 description: 运行报表后，您可以自定义报表，以根据需要查看和分析数据。您可以过滤报表数据，以图形方式更改数据的呈现方式，更改日期粒度等。
-solution: Analytics
 title: 自定义报表概述
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -59,7 +58,7 @@ t_reports_select_date.xml
 1. 单击右上方的日历图标。
 1. 选择日期。
 
-   您可以：
+   您可以:
 
    * 查看日、月或年时间段（多达三个）。
    * 在日期中拖动光标选择一个范围。
