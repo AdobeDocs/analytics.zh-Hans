@@ -1,13 +1,12 @@
 ---
 description: 当您在变量中输入值时，可遵循一些最佳实践。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: 使用引号
 topic: Developer and implementation
 uuid: 9f09c48b-7ae5-441e-8635-fd6bdc2e94c7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
