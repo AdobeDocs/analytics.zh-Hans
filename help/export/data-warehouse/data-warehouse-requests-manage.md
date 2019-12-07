@@ -1,11 +1,10 @@
 ---
 description: 请求管理器允许您查看和复制请求，并重新安排请求的优先级。
-solution: Analytics
 title: 管理 Data Warehouse 请求
 topic: Data warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
