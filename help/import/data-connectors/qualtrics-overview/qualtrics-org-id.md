@@ -1,12 +1,11 @@
 ---
 description: 组织ID是完成集成向导所必需的。 要查找此ID，您必须执行以下操作。
-solution: Analytics
 subtopic: Qualtrics
 title: 查找Qualtrics组织ID
 topic: Data connectors
 uuid: ed27becd-7364-423b-8a49-35bf7217f4b3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
