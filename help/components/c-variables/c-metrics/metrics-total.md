@@ -1,11 +1,10 @@
 ---
 description: 报告期间所有报表行项目的值。如果当前选择了一个过滤器，则总计信息可能表示过滤的总计信息而不是报表包的总计信息。如果未选择任何过滤器，则总计信息表示报表包的总计信息。
-solution: Analytics
 title: 合计
 topic: Metrics
 uuid: b0827325-9736-4a68-ade2-3fe859c7f43c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
