@@ -1,11 +1,10 @@
 ---
 description: 显示访问中触发每个值的平均深度。此量度用于确定一次访问中访客到达给定页面或 prop 值的深度。平均页面深度可用于任何启用了路径分析的变量。
-solution: Analytics
 title: 平均页面深度
 topic: Metrics
 uuid: 4d8a3a3c-c698-4210-8dd8-a02a1638483c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
