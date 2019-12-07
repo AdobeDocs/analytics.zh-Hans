@@ -1,13 +1,12 @@
 ---
 description: 重定向无需用户交互即可将浏览器指向新的位置。重定向可以在 Web 浏览器（客户端重定向）或 Web 服务器（服务器端重定向）上执行。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Redirects
 title: 重定向和别名
 topic: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
