@@ -1,12 +1,11 @@
 ---
 description: 您可以根据常见的错误拼写形式匹配值并更新这些值，以便它们能在报表中正确显示。
-solution: Analytics
 subtopic: Processing rules
 title: 清理报告中的值
 topic: Admin tools
 uuid: fcd72afc-3a3c-47a9-a5e4-53389dba7d83
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
