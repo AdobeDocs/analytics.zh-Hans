@@ -1,11 +1,10 @@
 ---
 description: “详细信息页面”选项卡可以将页面报表显示为表格，将页面流量报表显示为蝴蝶结报表。
-solution: Analytics
 title: 详细信息页面
 topic: Activity map
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
