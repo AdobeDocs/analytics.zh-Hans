@@ -1,11 +1,10 @@
 ---
 description: 路径查看量度基于路径数据，将为所有接受永久 Cookie 的用户跟踪该数据。
-solution: Analytics
 title: 路径查看次数
 topic: Metrics
 uuid: ceab036c-8e0c-43b7-946a-aeba6a253982
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
