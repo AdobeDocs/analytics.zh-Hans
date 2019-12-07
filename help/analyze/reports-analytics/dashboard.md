@@ -1,12 +1,11 @@
 ---
 description: 功能板是由一组以缩略图方式显示的报表（称为“缩图报表”）构成的。包含相关缩图报表的功能板非常有用，因为这样您就可以对网站的某些方面（如查找方法、访客资料等）有一个完整的概括性认识。
-solution: Analytics
 subtopic: Dashboards
 title: 功能板和缩图报表
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -83,7 +82,7 @@ t_dashboard_add.xml
 1. 通过将项目拖到缩图报表画布，向功能板添加可用内容。
 
    请参 [阅创建缩图报表](/help/analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) 和编 [辑功能板设置](/help/analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459)。
-1. Click **[!UICONTROL Save.]**
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
    保存功能板，使之在&#x200B;**[!UICONTROL 功能板]菜单中可用。** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (请参阅 [管理仪表板](/help/analyze/reports-analytics/dashboard-manage.md)。)
 
@@ -167,7 +166,7 @@ t_dashboard_content.xml
 
    显示已经添加到功能板的项目。
 
-1. Click **[!UICONTROL Save.]**
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 编辑功能板和缩图报表数据 {#task_B460CCD70D9F40FCAC6BBC1C044CC460}
 
@@ -184,7 +183,7 @@ t_dashboard_edit.xml
 1. Click **[!UICONTROL Components]** &gt; **[!UICONTROL Dashboards]** &gt; *dashboard name* to open a dashboard.
 1. Click **[!UICONTROL Layout]**.
 
-| 若要 | 执行此操作 |
+| 至 | 执行此操作 |
 |--- |--- |
 | 更改功能板的报表包 | 单击 Experience Cloud 标题中的菜单，然后选择一个报表包。 |
 | 更改缩图报表的报表包 | 在缩图报表中，单击报表包名称，然后从[!UICONTROL 报表包]菜单中选择一个报表包。 |
@@ -209,7 +208,7 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理员]** &gt;公 **[!UICONTROL 司设置]**。
+1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 公司设置]**.
 1. On the [!UICONTROL Company Settings] page, click **[!UICONTROL Co-Brand the Adobe Experience Cloud]**.
 1. Click **[!UICONTROL Enable Co-Branding]**.
 1.  浏览并上载图像，然后点击&#x200B;**[!UICONTROL 保存]。**
