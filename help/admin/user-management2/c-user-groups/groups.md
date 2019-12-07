@@ -1,25 +1,24 @@
 ---
 description: “定义用户群组”页面上的元素描述。
-solution: Analytics
 subtopic: Users and groups
 title: 用户群组设置
 topic: Admin tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# 用户组设置（旧版）
+# 用户群组设置（旧版）
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe 会通知您何时迁移用户。After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在迁移完所有客户之后，将撤销 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员工具]** &gt; **[!UICONTROL 用户管理]**&#x200B;中的帮助内容。
 
 “定义用户群组”页面上的元素描述。
 
-**[!UICONTROL 管理员]** &gt;用 **[!UICONTROL 户管理]** &gt; **[!UICONTROL 组]** &gt;添 **[!UICONTROL 加新用户组]**
+**[!UICONTROL 管理员]** &gt; **[!UICONTROL 用户管理]** &gt; **[!UICONTROL 群组]** &gt; **[!UICONTROL 添加新用户群组]**
 
 <table id="table_85E9EBF7984545C780631D6C2090BD99"> 
  <thead> 
@@ -61,16 +60,16 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
     <draft-comment> 
      <p> 
       <ul id="ul_81ABB1701BEC44ECB548F98EB818F83B"> 
-       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>流量报告</b>:根据流量（如页面查看、访问和唯一访客）授予对所有报告的访问权限。 </li> 
-       <li id="li_2742B7A661FC45F496DFFBBB6CE675DE"><b>工具</b>（授予对“报告与分析”中所用工具的访问权限，这些工具包括“按 IP 排除”、“分类”和旧版 Clickmap 等。） </li> 
+       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>流量报表</b>：根据页面查看次数、访问次数和独特访客人数等流量，授予对所有报表的访问权限。 </li> 
+       <li id="li_2742B7A661FC45F496DFFBBB6CE675DE"><b>工具</b>（授予对 Reports &amp; Analytics 中所用工具的访问权限，这些工具包括“按 IP 排除”、“分类”和旧版 Clickmap 等。） </li> 
        <li id="li_88D54C31211B4A38B46FF64651718865"><b>视频和移动设备报表</b> </li> 
        <li id="li_DBC756832B52433DA6467EA8AEC02DBA"><b>路径报表</b>（授予对路径报表的访问权限，这些报表包括“下一页”、“流失”和“页面逗留时间”等。） </li> 
        <li id="li_D0B1B964C071441EAEC919DD7CC08E3D"><b>自定义路径报表</b> </li> 
        <li id="li_D63F60FF2DD2418A876B53404634D12D"><b>Test &amp; Target</b>（您的组织同时使用 Analytics 和 Target 时，授予对 Target 报表的访问权限。） </li> 
        <li id="li_03CE1718D51049D596DB061932D97506"><b>SearchCenter</b> </li> 
        <li id="li_78AB0BCEDBA946718F90B6D7AB52CB80"><b>Web 服务</b>（授予对 API 资源的访问权限以便进行报告和管理。） </li> 
-       <li id="li_DCA83780F6214AF1A82255BC977744F1"><b>量度</b>（授予对“报告与分析”中所用量度的访问权限，这些量度包括页面查看次数等默认量度以及自定义事件等其他量度。）</li> 
-       <li id="li_A200E3CED33D4B15BFD30CBDD930912C"><b>管理控制台</b>（授予对“管理员”菜单中各个组件的访问权限，这些组件包括“日志”和“报表包”设置。） </li> 
+       <li id="li_DCA83780F6214AF1A82255BC977744F1"><b>量度</b>（授予对 Reports &amp; Analytics 中所用量度的访问权限，这些量度包括页面查看次数等默认量度以及自定义事件等其他量度。）</li> 
+       <li id="li_A200E3CED33D4B15BFD30CBDD930912C"><b>Admin Console</b>（授予对“管理员”菜单中各个组件的访问权限，这些组件包括“日志”和“报表包”设置。） </li> 
        <li id="li_CF3FA04D402A47618401633BA8583010"><b>报表下载</b>（授予在 Analytics 用户界面中下载报表的权限。） </li> 
        <li id="li_03AC2D9FF43648CB90E514C62DC31217"><b>Survey</b>（您的组织还使用已弃用的 Adobe Survey 功能时，授予对 Survey 报表的访问权限。） </li> 
        <li id="li_9FC3F25F335641B5AC9232BDC2DCCECA"><b>高级报表</b>（授予对高级报表的访问权限，这些报表包括“营销渠道”、“异常检测”、“区段”和“计算量度”等。） </li> 
