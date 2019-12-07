@@ -1,10 +1,9 @@
 ---
 description: 描述通过集成实现的营销效率。
-solution: Analytics
 title: Lyris Data Connector for Adobe Analytics
 uuid: db213865-1296-4a93-a0a2-781c026b2be5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -96,37 +95,37 @@ Lyris与Adobe Analytics的集成提供了以下主要优势：
    <td colname="col4"> <p>状态：已启用 </p> <p>分配：最近 </p> <p>过期时间：“业务决策” </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 事件 </td> 
+   <td colname="col1"> Event </td> 
    <td colname="col2"> Lyris —— 已发送电子邮件 </td> 
    <td colname="col3"> 存储否。 从Lyris发送的电子邮件 </td> 
    <td colname="col4">类型：数字 <p>参与：已启用 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 事件 </td> 
+   <td colname="col1"> Event </td> 
    <td colname="col2"> Lyris —— 已打开电子邮件 </td> 
    <td colname="col3"> 存储否。 打开的电子邮件 </td> 
    <td colname="col4">类型：数字 <p>参与：已启用 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 事件 </td> 
+   <td colname="col1"> Event </td> 
    <td colname="col2"> Lyris —— 打开的唯一电子邮件 </td> 
    <td colname="col3"> 存储否。 打开的独特电子邮件 </td> 
    <td colname="col4">类型：数字 <p>参与：已启用 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 事件 </td> 
+   <td colname="col1"> Event </td> 
    <td colname="col2"> Lyris —— 电子邮件点进次数 </td> 
    <td colname="col3"> 存储否。 点击任何电子邮件的次数 </td> 
    <td colname="col4">类型：数字 <p>参与：已启用 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 事件 </td> 
+   <td colname="col1"> Event </td> 
    <td colname="col2"> Lyris —— 电子邮件弹回次数 </td> 
    <td colname="col3"> 存储否。 那些邮件 </td> 
    <td colname="col4">类型：数字 <p>参与：已启用 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 事件 </td> 
+   <td colname="col1"> Event </td> 
    <td colname="col2"> Lyris —— 取消订阅电子邮件 </td> 
    <td colname="col3"> 存储否。 已禁用的电子邮件订阅 </td> 
    <td colname="col4">类型：数字 <p>参与：已启用 </p> </td> 
