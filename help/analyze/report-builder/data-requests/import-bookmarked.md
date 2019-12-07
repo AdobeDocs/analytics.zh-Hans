@@ -1,11 +1,10 @@
 ---
 description: 现在，所有标为书签的报表和功能板报表都作为维度列在“请求向导”的第 1 步中，并且可以导入为 Report Builder 请求。
-solution: Analytics
 title: 导入加入书签的报表和功能板缩图报表
 topic: Report builder
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 现在，所有标为书签的报表和功能板报表都作为维度列在“请求向导”的第 1 步中，并且可以导入为 Report Builder 请求。
 
-当您选择标为书签的报表时，“请求向导”会填充用于定义此标为书签的报表的所有维度和量度。日期范围、粒度和选定的区段也会根据选定的书签进行更新。.
+当您选择标为书签的报表时，“请求向导”会填充用于定义此标为书签的报表的所有维度和量度。日期范围、粒度和选定的区段也会根据选定的书签进行更新。。
 
 下面显示了“请求向导”的第 1 步是如何显示功能板及其缩图报表的：
 
