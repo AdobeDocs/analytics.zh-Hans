@@ -1,12 +1,11 @@
 ---
 description: 按用户类型划分路径区段是一种常见的请求，这种方法便于了解您站点上特定用户类型的路径。
 keywords: Analytics Implementation
-solution: Analytics
 title: 按用户类型划分路径区段
 topic: Developer and implementation
 uuid: 5c298f39-381d-453b-a608-109e3276b361
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
