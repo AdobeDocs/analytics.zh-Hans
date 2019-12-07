@@ -1,12 +1,11 @@
 ---
 description: 一旦 DFA 和 Adobe® 收集服务器可互相通信，您即可在报告与分析中生成包含 DFA 数据的报表。
 keywords: DFA
-solution: Analytics
 title: 使用 DFA 数据的 Analytics 报告
 topic: Data connectors
 uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -35,7 +34,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports &amp; Analytics]**. 请确保您已选择安装有 DFA 集成的报表包。
 
 1. 在左侧导航中，选择用于捕获 DFA 点进数据的转化变量，然后选择所需的 DFA 报表。
-1. Click **[!UICONTROL Add Metrics]**. 此操作将打开“量度选择器”对话框。
+1. 单击&#x200B;**[!UICONTROL 添加量度]**。此操作将打开“量度选择器”对话框。
 1. Check the Impressions and Clicks metrics in the **[!UICONTROL Available Metrics]** list and click **[!UICONTROL Apply]**.
 
    所生成的报表会显示展示次数、点击量和收入数据，这样您就能了解 DFA 服务转化为利润收入的情况。例如，DFA 广告名称报表可显示直接归因于当前 DFA 广告促销活动中特定横幅广告的展示次数、点击量和收入数据。
