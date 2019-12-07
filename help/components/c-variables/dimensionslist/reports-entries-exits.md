@@ -1,11 +1,10 @@
 ---
 description: “登录页面”报表按百分比和总访问量显示哪些是新访问首先会查看的网站页面。
-solution: Analytics
 title: 登录和退出
 topic: Reports
 uuid: 756de55b-136b-427b-a80c-f822260131b1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -13,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 # 登录和退出
 
 >[!NOTE]
->对于产品变量中具有多个值的点击，“条目”和“退出”适用于点击中的所有产品值，而不仅适用于第一个产品值。
+>对于产品变量中具有多个值的点击，登录次数和退出次数适用于点击中的所有产品值，而不只适用于第一个产品值。
 
 “登录页面”报表按百分比和总访问量显示哪些是新访问首先会查看的网站页面。
 
@@ -21,7 +20,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * **登录页面**（或区域）：按百分比和总访问量显示哪些是新访问首先会查看的网站页面。您可以使用此报表来确定哪些网页的登录次数最多，而且可优化网站上的主要登录点并提升关键消息的登录流量。
 
-   A useful way to use the Page View metric is to run a **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Pages Entry]** report, sort by it, and see which entry pages drive the most page views.
+   使用“页面查看”量度的一种有效方法是运行&#x200B;**[!UICONTROL 路径]** &gt; **[!UICONTROL 页面]** &gt; **[!UICONTROL 页面登录]**&#x200B;报表，并按“页面查看”进行排序，了解哪些登录页面产生的页面查看次数最多。
 
 * **原始登录页面**：显示访客首次访问网站时查看的首页。每个用户仅计数一次，除非他们删除其 cookie 或没有通过 cookie 受到跟踪。
 * **单页面访问量**：显示在访客浏览会话期间，通常同时为登录页面和退出页面的页面。
