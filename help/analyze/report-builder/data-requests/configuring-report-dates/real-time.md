@@ -1,11 +1,10 @@
 ---
 description: 实时显示网页流量并对页面查看次数进行排名，以便更快地了解您网站上的趋势。
-solution: Analytics
 title: 实时报表
 topic: Report builder
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,7 +15,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 对于实时报告，Analytics 使用高频率量度和网站分析，直观地报告动态新闻和零售网站的流量及页面查看趋势。只需数秒钟进行收集，即可时时刻刻看到数据的实时趋势。它通过对内容和某些转换进行实时关联和跟踪，来收集数据并将数据传输到界面。
 
-您可以：
+您可以:
 
 * 使用现有的量度、维度和分类，在每个报表包中最多创建三个实时报表。可使用次要维度来关联（或划分）主要维度。
 * 除网站范围的量度外，为每个报表添加 3 个维度（或分类），1 个主要，2 个次要。
