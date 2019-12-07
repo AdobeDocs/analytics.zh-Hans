@@ -1,12 +1,11 @@
 ---
 description: AppMeasurement for JavaScript 的发行说明汇总。
-solution: Analytics
 subtopic: Release notes
 title: AppMeasurement for JavaScript
 topic: Developer and implementation
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -178,7 +177,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 版本 2.0.0 {#section_4C4A502CDFC84F06914EB16CE77736D1}
 
-发行日期：**2017 年 03 月 9 日**
+发行日期：**2017 年 3 月 9 日**
 
 * 已移动到需要将版本号更新为 2.0.0 的新生成流程。(AN-137878)
 * 已将 mboxMCSDID 处理移动到执行跟踪调用的正确区域位置。(AN-138483)
