@@ -1,11 +1,10 @@
 ---
 description: 在开始将项目映射到电子表格之前，请确保电子表格未处于受保护状态。如果工作表的保护方案阻止用户执行任何操作，则无法选择电子表格中的单元格。首先取消工作表保护，然后再添加单元格映射。
-solution: Analytics
 title: 将量度和维度映射到单元格
 topic: Report builder
 uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
