@@ -1,11 +1,10 @@
 ---
 description: 在“区段管理器”中，您可以通过标记区段来组织区段。
-solution: Analytics
 title: 标记区段
 topic: Segments
 uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -28,7 +27,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 1. 单击&#x200B;**[!UICONTROL 标记]并执行以下操作之一**
 
    * 从现有标记中进行选择，或者
-   * add a new tag and press **[!UICONTROL Enter]**.
+   * 添加新标记并按 **[!UICONTROL Enter]**。
 
       ![](assets/tagging_ui.png)
 
@@ -36,4 +35,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 标记现在应会显示在“标记”列中。（单击右上方的齿轮图标可管理您的列。）
 
-You can also filter on tags by going to **[!UICONTROL Filters]** &gt; **[!UICONTROL Tags]**.
+您还可以转到&#x200B;**[!UICONTROL 过滤器]** &gt; **[!UICONTROL 标记]**，对标记进行过滤。
