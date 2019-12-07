@@ -1,11 +1,10 @@
 ---
 description: 选定时间段内订购的总件数。由于您在每次订购中可以购买多件物品，因此“件数”是一项重要量度，可揭示总体存货的流动情况。
-solution: Analytics
 title: 件数
 topic: Metrics
 uuid: a0b3f3e0-5ba2-4c5c-9f7b-5b89b3079dd8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
