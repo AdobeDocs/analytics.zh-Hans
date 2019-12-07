@@ -1,11 +1,10 @@
 ---
 description: 通过使用流量报表，您可以对访客与网站之间的交互情况进行深入分析。
-solution: Analytics
 title: 流量
 topic: Reports
 uuid: c32af0c0-f0c2-47f7-a5f6-4a2df63e11fc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -25,4 +24,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **一般持久性**
 
-在“流量源”中，所有报表值都持续存在且会获得信用，直到它们被覆盖或访问结束（以先发生为准）。以前，只有“关键词”和“反向链接域名”会持续存在。例如，如果访客用 Google 搜索 *`DVD`*, which brings them to your site for a $100 purchase, the report allocates $100 credit to the keyword *`DVD`* and also to the Google search engine. 此功能不能变更，不管管理员如何设置。
+在“流量源”中，所有报表值都持续存在且会获得信用，直到它们被覆盖或访问结束（以先发生为准）。以前，只有“关键词”和“反向链接域名”会持续存在。例如，如果访客用 Google 搜索 *`DVD`*，并因此将访客带入您的网站消费 100 美元，则报表将为关键词 *`DVD`* 以及 Google 搜索引擎分别分配 100 美元信用。此功能不能变更，不管管理员如何设置。
