@@ -1,12 +1,11 @@
 ---
 description: 规则集是特定变量的一组分类规则。您可将变量应用到规则集。如果您要为一个变量创建多个规则集，则必须将每个规则集应用到多个报表包。
-solution: Analytics
 subtopic: Classifications
 title: 分类规则集
 topic: Admin tools
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,7 +20,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 分类规则生成器页面 {#section_C60B0888C76D49C596EF19F11808B718}
 
-**[!UICONTROL 分析]** &gt;管 **[!UICONTROL 理]** &gt;分 **[!UICONTROL 类规则生成器]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 分类规则生成器]**
 
 “[!UICONTROL 分类规则生成器]”中提供了以下字段和选项。
 
@@ -66,27 +65,27 @@ t_classification_rule_set.xml
 
 命名分类规则集，应用变量并指定覆盖设置。
 
-1. (Prerequisite) Define the classification structure in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. （先决条件）在&#x200B;**[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]**&#x200B;中定义分类结构。
 
    （请参阅“管理工具”帮助中的[分类](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)，以了解有关添加分类的信息。）
 
    只有在变量至少定义了一个分类后，变量才会在[!UICONTROL 新建规则集]面板中显示。
 
-   You can create classifications on a variable in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Traffic]** &gt; **[!UICONTROL Traffic Classifications]** (or **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Classifications]**). Then select the variable, then click **[!UICONTROL Add Classification]**.
+   您可以在&#x200B;**[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]** &gt; **[!UICONTROL 流量]** &gt; **[!UICONTROL 流量分类]**（或&#x200B;**[!UICONTROL 转化]** &gt; **[!UICONTROL 转化分类]**）中对变量创建分类。然后选择该变量，并单击&#x200B;**[!UICONTROL 添加分类]**。
 
-1. To create the rule set, click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Rule Builder]** &gt; **[!UICONTROL Add Rule Set]**.
+1. 要创建规则集，请单击&#x200B;**[!UICONTROL 管理员]** &gt; **[!UICONTROL 分类规则生成器]** &gt; **[!UICONTROL 添加规则集]**。
 
    ![](assets/new_rule_set.png)
 
-1. Name the rule set, then click **[!UICONTROL Create Rule Set]**.
+1. 命名规则集，然后单击&#x200B;**[!UICONTROL 创建规则集]**。
 1. 选择要编辑的规则集。
 
    ![](assets/classification_rules_page.png)
 
-1. Click **[!UICONTROL Select Report Suites and Variables]**.
+1. 单击&#x200B;**[!UICONTROL 选择报表包和变量]**。
 
    报表包和变量列表中填充了可在登录公司的所有报表包中使用的所有分类变量。报表包中的单个变量只能属于一个规则集。
 
    请参阅&#x200B;*`Variable`*（详细信息位于[分类规则生成器](/help/components/c-classifications2/crb/classification-rule-definitions.md)页面的定义中）。
-1. Specify the report suites and variables to use, then click **[!UICONTROL Save]**.
-1. Continue by [adding classification rules](/help/components/c-classifications2/crb/classification-rule-set.md) to the rule set.
+1. 指定要使用的报表包和变量，然后单击&#x200B;**[!UICONTROL 保存]**。
+1. 继续向规则集[添加分类规则](/help/components/c-classifications2/crb/classification-rule-set.md)。
