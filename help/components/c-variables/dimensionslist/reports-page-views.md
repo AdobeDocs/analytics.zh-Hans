@@ -1,11 +1,10 @@
 ---
 description: “页面查看”报表是一个趋势报表，它显示选定时段（小时、日、周、月、季或年）内网站页面的查看次数。您可以利用此报表来跟踪网站中每个页面的查看次数，以及整个网站的页面查看次数总和。
-solution: Analytics
 title: 页面查看次数
 topic: Reports
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,7 +18,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 **报表属性**
 
 * 此报表引用了 [s.t()](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_the_s.t(.html)function) 函数在您的网站上被调用的次数。
-* Custom [link tracking](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html) calls (such as custom links, file downloads, and exit links) use the [!DNL s.tl()] function and are not counted in this report.
+* 自定义[链接跟踪](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html)调用（例如自定义链接、文件下载和退出链接）使用 [!DNL s.tl()] 函数且不会被计入此报表。
 
 * 由于图像请求会在用户刷新页面或单击返回按钮时发送，因此，此报表也包含这些操作。
 * 小时划分是基于报表包的时区。
@@ -31,7 +30,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 <table id="table_61F964F47D1D43508B271999F495F7F9"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> Reports and Analytics </p> </td> 
+   <td colname="col1"> <p> Reports &amp; Analytics </p> </td> 
    <td colname="col2"> <p> <span class="uicontrol"> 网站内容</span> &gt; <span class="uicontrol">页面查看</span> </p> <p>此报表可使用区段。 </p> </td> 
   </tr> 
   <tr> 
