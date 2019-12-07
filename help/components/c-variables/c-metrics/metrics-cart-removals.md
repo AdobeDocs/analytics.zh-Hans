@@ -1,11 +1,10 @@
 ---
 description: 从购物车中移除商品的次数。此值来自 scRemove 事件。
-solution: Analytics
 title: 购物车减货
 topic: Metrics
 uuid: bddd5c63-e906-472a-8aec-a342f417ddfa
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
