@@ -1,11 +1,10 @@
 ---
 description: 链接报表可以针对在当前页面上找到的链接进行报告。它并非根据为此页面收集的所有链接进行报告。
-solution: Analytics
 title: 链接报表
 topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,7 +26,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 <table id="table_3DE41B2CFA644B70AF802A3123CE51D9"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 列 </th> 
+   <th colname="col1" class="entry"> 栏目 </th> 
    <th colname="col2" class="entry"> 描述 </th> 
   </tr> 
  </thead>
@@ -72,7 +71,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 <table id="table_61D1FB0F02894055A1AB394DE4FE4742"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 列 </th> 
+   <th colname="col1" class="entry"> 栏目 </th> 
    <th colname="col2" class="entry"> 描述 </th> 
   </tr> 
  </thead>
