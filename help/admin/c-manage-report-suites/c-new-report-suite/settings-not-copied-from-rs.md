@@ -1,11 +1,10 @@
 ---
 description: 如果您从现有的报表包中复制了设置，则会有一条系统消息来标识所有未复制到新报表包中的设置。
-solution: Analytics
 title: 未从源报表包复制的设置
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
