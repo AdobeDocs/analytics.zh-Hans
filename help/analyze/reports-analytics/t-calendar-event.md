@@ -1,11 +1,10 @@
 ---
 description: 添加日历事件和管理共享事件的步骤。
-solution: Analytics
 title: 日历事件
 topic: Reports and analytics
 uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,7 +28,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 1. （可选）除非进行共享，否则日历事件是特定于用户的。要共享此事件，请选择&#x200B;**[!UICONTROL 共享]**。
 1. （可选）将日历事件推送给用户。现在，标记为“共享”的日历事件增加了一个“推送”选项，可以将此类日历事件推送给其他用户。推送某个日历事件即表示，该事件将出现在收件人用户的趋势图和时间走势图上。
    1. 单击&#x200B;**[!UICONTROL 提交至用户]**。
-   1. Click **[!UICONTROL Check All]** or check the box next to the user name/s.
+   1. 单击&#x200B;**[!UICONTROL 全选]**&#x200B;或选中一个或多个用户名旁边的复选框。
    1. 单击&#x200B;**[!UICONTROL 保存]**。
    这使日历事件更加实用。分析人员现在能够在其用户报表上添加一个覆盖图，以便提供更多上下文信息。
 1. 单击 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 组件]** &gt; **[!UICONTROL 日历事件]**。
