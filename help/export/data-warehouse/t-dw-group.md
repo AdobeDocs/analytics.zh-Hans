@@ -1,11 +1,10 @@
 ---
 description: 描述管理员如何为用户群组启用 Data Warehouse 报表访问权限的步骤。
-solution: Analytics
 title: 添加 Data Warehouse 用户群组
 topic: Data warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 描述管理员如何为用户群组启用 Data Warehouse 报表访问权限的步骤。
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
+1. 单击 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 用户管理]**。
 1. Click **[!UICONTROL Edit Groups]**.
 1. Click **[!UICONTROL Add New User Group]**.
 1. In the **[!UICONTROL Define User Group]** section, type a name in the Group Name field. 请提供以下群组信息：
@@ -27,7 +26,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    Alternatively, click **[!UICONTROL Customize]**, then enable **[!UICONTROL Custom Data Warehouse Report]**.
 
 1. 在[!UICONTROL “指定用户登录”]下，添加所需的用户登录。
-1. Click **[!UICONTROL Save Group]**.
+1. 单击&#x200B;**[!UICONTROL 保存群组]**。
 
    添加到此群组的用户在下次登录时，将会看到 Data Warehouse 选项已添加到“[!UICONTROL Reports &amp; Analytics]”菜单中。
 
