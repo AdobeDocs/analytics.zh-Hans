@@ -1,13 +1,12 @@
 ---
 description: 确定访客是新访客还是回访者，并在 Analytics 变量中捕获此信息。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: getNewRepeat
 topic: Developer and implementation
 uuid: e3e9f362-e0b1-4a2b-bb5b-98eddaa0a7f4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
