@@ -1,13 +1,12 @@
 ---
 description: getTimeParting 插件可使用小时、星期、周末和工作日等值填充自定义变量。Analysis Workspace 提供了一些现成的“时间区分”维度。如果除 Analysis Workspace 之外，其他 Analytics 解决方案中也需要使用时间区分维度，则应该使用此插件。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: getTimeParting
 topic: Developer and implementation
 uuid: 74f696a3-7169-4560-89b2-478b3d8385e1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
