@@ -1,11 +1,10 @@
 ---
 description: 衡量各种广告跟踪代码如何影响您网站上的不同转化事件。此报表可用于衡量对于不同的成功事件哪些特定促销活动效果最佳，或了解促销活动如何帮助或阻碍您网站的活动，例如哪些促销活动会带来最多的收入。
-solution: Analytics
 title: 跟踪代码
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 5f087807ddff07f2439f82061e471624381febf8
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,7 +17,7 @@ source-git-commit: 5f087807ddff07f2439f82061e471624381febf8
 
 * 此报表直接引用来自贵网站上实施的 [s.campaign](/help/implement/js-implementation/page-variables/page-variables.md) 变量中的数据。
 * 此报表所基于的变量是一个[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。这表明它的持续时间要超过页面查看，并且可将其自身与它指定的过期时间内的量度相关联。
-* 此报表的默认量度为收入。您可以在[!UICONTROL 管理工具]中的[!UICONTROL 报表包管理器]内更改此默认值。( **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Individual Report Settings]** &gt; **[!UICONTROL Default Metrics]**.)
+* 此报表的默认量度为收入。您可以在[!UICONTROL 管理工具]中的[!UICONTROL 报表包管理器]内更改此默认值。（**[!UICONTROL 编辑设置]** &gt; **[!UICONTROL 单个报表设置]** &gt; **[!UICONTROL 默认量度]**。）
 
 * 此报表可通过趋势和排名两种格式查看。
 * 此报表可使用搜索过滤器来查找特定的行项目。
@@ -44,7 +43,7 @@ source-git-commit: 5f087807ddff07f2439f82061e471624381febf8
 
 **Reports &amp; Analytics 属性**
 
-* Click **[!UICONTROL Conversion]** &gt; **[!UICONTROL Campaigns]** &gt; **[!UICONTROL Tracking Code]** to locate this report, unless the menu is customized.
+* 只要菜单没有经过自定义，即可通过单击&#x200B;**[!UICONTROL 转化]** &gt; **[!UICONTROL 促销活动]** &gt; **[!UICONTROL 跟踪代码]**&#x200B;找到此报表。
 
 * 此报表也可以按所有[列表变量](https://marketing.adobe.com/resources/help/en_US/sc/implement/list_var.html)划分。
 * 页面查看、访问和独特访客均可作为量度使用。
