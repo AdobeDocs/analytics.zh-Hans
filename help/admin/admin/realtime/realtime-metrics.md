@@ -1,11 +1,10 @@
 ---
 description: 列出实时报表所支持的量度和维度。还支持分类（如果已定义）。
-solution: Analytics
 title: 受支持的实时量度和维度
 topic: Reports
 uuid: 836af337-1187-4ded-90c8-a19b15df4705
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
