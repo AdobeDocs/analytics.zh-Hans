@@ -1,11 +1,10 @@
 ---
 description: 客户在购买过程中到达结账阶段时发生的事件。结账通常是购物完成之前的最后一个步骤，而且往往需要客户输入个人信息（例如送货和帐单信息）。您可以控制您网站上被确定为结账的事件。此值来自 scCheckout 事件。
-solution: Analytics
 title: 结账
 topic: Metrics
 uuid: 5379b814-7055-44d1-b080-bc8a27b967d6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
