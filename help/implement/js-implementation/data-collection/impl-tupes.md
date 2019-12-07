@@ -1,12 +1,11 @@
 ---
 description: 此信息适用于熟悉报表和实施的高级用户。如果不清楚后果，请不要尝试编辑实施。如果您要对实施进行更改，请联系贵组织的客户经理。
 keywords: Analytics Implementation
-solution: Analytics
 title: 跨不同的实施类型跟踪
 topic: Developer and implementation
 uuid: a0a3229a-79a2-4dc2-b0be-4b8fac2efa3a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
