@@ -1,11 +1,10 @@
 ---
 description: 创建具有嵌入请求的报表后，您可以通过在 Excel 中单击“文件”>“保存”或“文件”>“另存为”来保存报表。Report Builder 会检测报表是否包含请求。单击任一保存选项时，将显示“将工作簿另存为”窗体。
-solution: Analytics
 title: 保存具有请求的工作簿
 topic: Report builder
 uuid: 31611031-0982-4124-9fc7-7888124aa603
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
