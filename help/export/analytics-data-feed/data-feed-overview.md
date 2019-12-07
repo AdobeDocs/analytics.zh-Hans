@@ -1,11 +1,10 @@
 ---
 description: 在 Adobe Data Warehouse 中可处理和存储从网站、移动应用程序收集，或使用 Web 服务 API 或数据源上载的数据。该原始点击流数据形成 Adobe Analytics 使用的数据集。
 keywords: clickstream;data feed;datafeed;Data Feed
-solution: Analytics
 title: Analytics 数据馈送概述
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 translation-type: tm+mt
-source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -57,7 +56,10 @@ source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 了解获取数据馈送的基本工作流程后，您可以与组织内的团队合作，将原始数据存储或摄取到数据库中。
 
-[创建数据源](create-feed.md):有关创建数据源的技术详细信息，请详细说明各个字段[管理数据源](df-manage-feeds.md):了解有关导航数据馈送界面的更多信息[数据馈送内容](c-df-contents/datafeeds-contents.md):了解压缩文件“数据”列定义[中包含的内容](c-df-contents/datafeeds-reference.md):所有可用列的完整列表
+* [创建数据源](create-feed.md):有关创建数据源的技术详细信息，请详细说明各个字段
+* [管理数据源](df-manage-feeds.md):了解有关导航数据馈送界面的更多信息
+* [数据馈送内容](c-df-contents/datafeeds-contents.md):了解压缩文件中包含的内容
+* [数据列定义](c-df-contents/datafeeds-reference.md):所有可用列的完整列表
 
 ## 其他资源
 
