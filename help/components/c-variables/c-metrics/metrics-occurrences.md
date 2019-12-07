@@ -1,18 +1,17 @@
 ---
-description: 捕捉特定值的次数加上保留给定值的页面查看数量。也就是说，发生次数是页面查看次数和页面事件数之和。发生次数适用于 Analysis Workspace 和 Ad Hoc Analysis。
-solution: Analytics
+description: 捕获特定值的次数加上保留给定值的页面查看次数。也就是说，发生次数是页面查看次数和页面事件数之和。发生次数适用于 Analysis Workspace 和 Ad Hoc Analysis。
 title: 发生次数
 topic: Metrics
 uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 发生次数
 
-捕捉特定值的次数加上保留给定值的页面查看数量。也就是说，发生次数是页面查看次数和页面事件数之和。发生次数适用于 Analysis Workspace 和 Ad Hoc Analysis。
+捕获特定值的次数加上保留给定值的页面查看次数。也就是说，发生次数是页面查看次数和页面事件数之和。发生次数适用于 Analysis Workspace 和 Ad Hoc Analysis。
 
 ## 比较实例数和发生次数 {#section_4B0741AC1A78456E98AE0D4D28D70D29}
 
