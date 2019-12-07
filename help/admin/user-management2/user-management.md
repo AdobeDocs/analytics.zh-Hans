@@ -1,12 +1,11 @@
 ---
 description: 在 Admin Console 中管理 Analytics 用户、群组和产品。
-solution: Analytics
 subtopic: Users and groups
 title: 用户和产品管理
 topic: Admin tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +16,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe 会通知您何时迁移用户。After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在迁移完所有客户之后，将撤销 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理工具]** &gt; **[!UICONTROL 用户管理]**&#x200B;中的帮助内容。
 
 ## 面向 Admin Console 管理员的帮助资源 {#section_C13BBB89E4F248F193358BB3A59DD502}
 
@@ -35,7 +34,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>启动 Admin Console </p> </td> 
-   <td colname="col2"> <p>在迁移了用户帐户之后，您可以在 Admin Console 中管理所有解决方案的用户和产品。 </p> <p>Navigate to: <a href="https://adminconsole.adobe.com/enterprise/#"> https://adminconsole.adobe.com/enterprise/</a>. </p> <p>要获取相关帮助，请参阅<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html">管理 Experience Cloud 用户和产品</a>，以了解在 Admin Console 中管理 Experience Cloud 用户和产品的更新内容。 </p> </td> 
+   <td colname="col2"> <p>在迁移了用户帐户之后，您可以在 Admin Console 中管理所有解决方案的用户和产品。 </p> <p>导航到 <a href="https://adminconsole.adobe.com/enterprise/#">https://adminconsole.adobe.com/enterprise/</a>。 </p> <p>要获取相关帮助，请参阅<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html">管理 Experience Cloud 用户和产品</a>，以了解在 Admin Console 中管理 Experience Cloud 用户和产品的更新内容。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,7 +65,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 添加新用户</span> </td> 
-   <td colname="col2"> <p>可向公司添加用户帐户。此链接仅在剩余登录用户数量大于 0 时才可用。 </p> <p>请参阅 <a href="/help/admin/user-management2/c-user-management/users.md"> 用户</a>. </p> </td> 
+   <td colname="col2"> <p>可向公司添加用户帐户。此链接仅在剩余登录用户数量大于 0 时才可用。 </p> <p>请参阅<a href="/help/admin/user-management2/c-user-management/users.md">用户</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 下载报表</span> </td> 
@@ -74,7 +73,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 登录</span> </td> 
-   <td colname="col2"> <p>用户名。您可以单击用户名以编辑用户帐户属性。 </p> <p>请参阅 <a href="/help/admin/user-management2/c-user-management/users.md"> 用户</a>. </p> </td> 
+   <td colname="col2"> <p>用户名。您可以单击用户名以编辑用户帐户属性。 </p> <p>请参阅<a href="/help/admin/user-management2/c-user-management/users.md">用户</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 名字</span> </td> 
@@ -110,7 +109,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 编辑</span> </td> 
-   <td colname="col2"> <p>编辑用户帐户设置。 </p> <p>请参阅 <a href="/help/admin/user-management2/c-user-management/users.md"> 用户</a>. </p> </td> 
+   <td colname="col2"> <p>编辑用户帐户设置。 </p> <p>请参阅<a href="/help/admin/user-management2/c-user-management/users.md">用户</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 删除</span> </td> 
@@ -118,7 +117,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 转移</span> </td> 
-   <td colname="col2">将一个用户帐户的权利（包括各种权限和资源访问权）分配给另一用户帐户。 <p>请参阅 <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md"> 转移用户帐户特权</a>. </p> </td> 
+   <td colname="col2">将一个用户帐户的权利（包括各种权限和资源访问权）分配给另一用户帐户。 <p>请参阅<a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md"> 转移用户帐户特权</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> 以此用户身份登录</span> </td> 
