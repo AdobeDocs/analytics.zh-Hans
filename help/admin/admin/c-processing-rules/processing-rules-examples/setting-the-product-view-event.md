@@ -1,12 +1,11 @@
 ---
 description: 可以基于页面值或变量中的特定值设置事件。
-solution: Analytics
 subtopic: Processing rules
 title: 在产品概述页面中设置产品视图事件
 topic: Admin tools
 uuid: caa7a077-dd47-460e-b14d-fe10c4e61f97
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
