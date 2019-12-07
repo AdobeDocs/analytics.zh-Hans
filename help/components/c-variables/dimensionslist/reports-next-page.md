@@ -1,11 +1,10 @@
 ---
 description: 显示访客浏览网站上选定页面之后所查看的页面，以提供详细的网站路径分析。例如，如果选择并报告整个网站的相关数据，报表会显示最受欢迎的 10 个登录页面，并在各个登录页面下方列出 5 个最受欢迎的后续页面。此数据可帮助您了解哪些内容和功能最能促使访客浏览您的网站。
-solution: Analytics
 title: 下一页面
 topic: Reports
 uuid: 4abecb9c-efc4-4844-9712-f352b2570936
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
