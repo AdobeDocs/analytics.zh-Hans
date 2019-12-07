@@ -1,11 +1,10 @@
 ---
 description: 根据设备是启用、禁用 JavaScript 还是当作“未识别”Javascript 来显示量度。
-solution: Analytics
 title: JavaScript 支持
 topic: Reports
 uuid: 7b95001a-cd35-478a-8b24-54d30666110d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 根据设备是启用、禁用 JavaScript 还是当作“未识别”Javascript 来显示量度。
 
-> [!NOTE] 在2016年11月初，我们计划取消JavaScript始终列为移动设备的 *`disabled / unidentified`* 限制。
+> [!NOTE] 2016 年 11 月初，我们计划删除在移动设备中始终将 JavaScript 列为 *`disabled / unidentified`* 的限制。
 
 JavaScript 报表对应于原始数据中的 javascript 列。
 
