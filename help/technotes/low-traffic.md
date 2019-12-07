@@ -1,11 +1,10 @@
 ---
 description: 当报表具有大量唯一值时，Adobe会提供一些功能，以确保最重要的值显示在您的报表中。
-solution: Analytics
 title: Adobe Analytics中的低流量值
 topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
