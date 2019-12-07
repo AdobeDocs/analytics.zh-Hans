@@ -1,12 +1,11 @@
 ---
 description: 交易 ID 可通过选择普通（交易 ID）类别来集成。
-solution: Analytics
 subtopic: Data sources
 title: 交易 ID
 topic: Developer and implementation
 uuid: f3370bb7-3f28-460b-a20d-c9e58d7301d4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 交易 ID 可通过选择普通（交易 ID）类别来集成。
 
-请参 [阅集成脱机数据](/help/import/c-data-sources/datasrc-integrating-offline-data.md)。
+See [Integrating Offline Data](/help/import/c-data-sources/datasrc-integrating-offline-data.md).
 
 Data uploaded with *`transactionID`* automatically associates with the same marketing channel that processed the original server call that contained the *`transactionID`*.
 
