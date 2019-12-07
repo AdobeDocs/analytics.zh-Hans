@@ -1,12 +1,11 @@
 ---
 description: 下表列出的查询参数包含每个要发送到数据收集的分析变量的值。
 keywords: Analytics Implementation
-solution: Analytics
 title: 数据收集查询参数
 topic: Developer and implementation
 uuid: 4d5af486-df27-42fe-bb9c-28938dddf2b2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
