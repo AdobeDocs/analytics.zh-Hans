@@ -1,13 +1,12 @@
 ---
 description: 页面变量可以直接填充报表，例如 pageName、列表属性、列表变量，等等。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: 页面变量
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -57,7 +56,7 @@ events.xml
 
 以下是事件变量的可能值列表：
 
-| 事件 | 描述 | 填充报表 |
+| Event | 描述 | 填充报表 |
 |---|---|---|
 | prodView | 产品查看次数 | 产品 |
 | scOpen | 打开/启动新购物车 | 购物车 |
