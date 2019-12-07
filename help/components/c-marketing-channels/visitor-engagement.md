@@ -1,12 +1,11 @@
 ---
 description: 了解如何在营销渠道中指定访客参与到期。
-solution: Analytics
 subtopic: Marketing channels
 title: 访客参与到期
 topic: Reports and analytics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,10 +28,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 指定访客参与到期。
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Expiration]**.
+1. 单击 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]**。
+1. 在“[!UICONTROL 报表包管理器]”中，单击&#x200B;**[!UICONTROL 编辑设置]** &gt; **[!UICONTROL 营销渠道]** &gt; **[!UICONTROL 营销渠道到期]**。
 
    ![](assets/mchannel_expiration.png)
 
 1. 配置访客参与到期字段。
-1. Click **[!UICONTROL Save.]**
+1. 单击&#x200B;**[!UICONTROL 保存]**。
