@@ -1,12 +1,11 @@
 ---
 description: 描述如何添加用户群组的步骤。
-solution: Analytics
 subtopic: Users and groups
 title: 添加用户群组
 topic: Admin tools
 uuid: 01b662df-040d-48e6-a5c1-6ce65341bf79
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,12 +14,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe 会通知您何时迁移用户。After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在迁移完所有客户之后，将撤销 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理工具]** &gt; **[!UICONTROL 用户管理]**&#x200B;中的帮助内容。
 
 描述如何添加用户群组的步骤。
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
-1. Click **[!UICONTROL Add New User Group]**, then complete the fields and options described in [Define User Groups](/help/admin/user-management2/c-user-groups/groups.md).
+1. 单击 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 用户管理]**。
+1. 单击&#x200B;**[!UICONTROL 添加新用户群组]**，然后完成[定义用户群组](/help/admin/user-management2/c-user-groups/groups.md)中所述的字段和选项。
 
    快速链接：
 
@@ -29,4 +28,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    * [量度](/help/admin/user-management2/c-customize-report-access/groups-metrics.md)：启用流量、转化、自定义事件、解决方案事件和内容识别等的权限。
    * [维度](/help/admin/user-management2/c-customize-report-access/groups-dimensions.md)：在粒度级别自定义用户访问权限，包括 eVar、流量报表、解决方案报表和路径报表。
 
-1. Click **[!UICONTROL Save Group]** to create the group and return to the [!UICONTROL Groups] page.
+1. 单击&#x200B;**[!UICONTROL 保存群组]**&#x200B;可创建一个群组并返回到[!UICONTROL 群组]页面。
