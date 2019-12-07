@@ -1,11 +1,10 @@
 ---
 description: 发布列表提供了一种简单的方法，可发送特定于您组织不同群组的各种报表，而无需创建多个单独的计划报表。如果您拥有多个位置特定的报表包并且希望为各自的部门提供特定功能板的副本，则发布列表对您十分有用。或者，如果您使用的是一个报表包，则可以利用发布列表向多人发送数据，无需分别键入他们的电子邮件地址。
-solution: Analytics
 title: 发布列表
 topic: Admin tools
 uuid: 07dad661-c302-4981-80d1-3169ad1fe90e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,6 +20,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 元素 | 描述 |
 |--- |--- |
 | [!UICONTROL 搜索] | 可让您过滤表格以搜索发布列表。 |
-| !UICONTROL要包含的报表包] | 覆盖计划报表的报表包或功能板上的所有缩图报表。尽管没有针对单个报表包条目数量的技术限制，但我们建议您将数量限制为 50 左右。对于可包含的电子邮件数量，尚未设立限制。 |
-| !UICONCONTROL电子邮件地址] | 所有将收到新报表包内报表、且以逗号分隔的电子邮件列表。Click **!UICONTROL Click to Edit]**to specify the Email addresses to receive. 输入每个电子邮件地址，使用分号 (;) 分隔多个电子邮件地址。Press`<Enter>`when finished entering Email addresses.<br>“电子邮件计数”字段显示当前与报表包条目关联的电子邮件地址数。 |
-| !UICONCONTROL复制] | 创建发布列表副本。 |
+| !UICONTROL 要包含的报表包] | 覆盖计划报表的报表包或功能板上的所有缩图报表。尽管没有针对单个报表包条目数量的技术限制，但我们建议您将数量限制为 50 左右。对于可包含的电子邮件数量，尚未设立限制。 |
+| !UICONTROL 电子邮件地址] | 所有将收到新报表包内报表、且以逗号分隔的电子邮件列表。单击**!UICONTROL 单击以编辑]**以指定接收人的电子邮件地址。输入每个电子邮件地址，使用分号 (;) 分隔多个电子邮件地址。在完成输入电子邮件地址时按`<Enter>`。<br>“电子邮件计数”字段显示当前与报表包条目关联的电子邮件地址数。 |
+| !UICONTROL 复制] | 创建发布列表副本。 |
