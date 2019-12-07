@@ -1,12 +1,11 @@
 ---
 description: 如果您习惯于在 Ad Hoc Analysis 中使用区段生成器，那么此常见问题解答解释了现有区段和文件夹的情况以及需要采取哪些操作。
 keywords: segmentation;segments
-solution: Analytics
 title: 适用于 Ad Hoc Analysis 的过渡指南
 topic: Segments
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,11 +18,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * 区段对于所有报表包都是通用的。以前，区段是报表包特有的。
 * Ad Hoc Analysis 包含对区段生成器的更新，以及对区段管理器的完整更新。
-* 您现在可以标记区段，以便稍后进行组织和搜索，而无需使用文件夹。Previously, you used folders in [!DNL Ad Hoc Analysis] to organize your segments.
+* 您现在可以标记区段，以便稍后进行组织和搜索，而无需使用文件夹。以前，在 [!DNL Ad Hoc Analysis] 中使用文件夹来组织区段。
 
 ## 我的现有区段有什么变化？{#section_76CF47142D1A4FB6A0718AD9073049FE}
 
-您的现有区段将继续和以前一样使用。已应用了这些区段的任何报表将仍可以正常使用。
+您的现有区段将继续和以前一样使用。已应用了这些区段的任何报表将仍可正常使用。
 
 以前大多数的预定义包区段将作为区段模板迁移到区段生成器中。使用区段模板可以快速生成适合一般受众的自定义区段。区段模板无法直接应用于报表，但可以轻松保存到自定义区段。
 
@@ -73,7 +72,7 @@ Ad Hoc Analysis 仅显示由您生成的区段或明确与您共享的区段。�
 * 将区段添加到区段库（如果适用）。
 * 批准符合规范的区段。
 
-## 为什么无法删除此区段？ {#section_0FEB6711031A4ABCA915CDA745ECF38D}
+## 为什么无法删除此区段？{#section_0FEB6711031A4ABCA915CDA745ECF38D}
 
 如果区段已发布到 Experience Cloud，则无法删除或编辑该区段。但是，您可以复制该区段，然后编辑其复制版本。
 
@@ -92,7 +91,7 @@ Ad Hoc Analysis 仅显示由您生成的区段或明确与您共享的区段。�
    <td colname="col2">在 Adobe Analytics 中，这些 Ad Hoc Analysis 区段显示为常规区段。 <p>请不要将这些区段与区段管理器中可用于将区段标记为收藏的“收藏夹”功能混淆。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1">临时分析中的预配置区段： 
+   <td colname="col1">Ad Hoc Analysis 中的预配置区段： 
     <ul id="ul_BBF3C3F4D41A40AF98DA9DA6D299AD03"> 
      <li id="li_B65A004BDF8743FDABCD3332AEB8A010">单页面访问量 </li> 
      <li id="li_908CF5F964154C9D9EBBAC2A900DCB49">来自移动设备的访问量 </li> 
