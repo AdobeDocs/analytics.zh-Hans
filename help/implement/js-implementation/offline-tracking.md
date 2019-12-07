@@ -1,12 +1,11 @@
 ---
 description: 您可以使用下面的变量和函数在应用程序离线时存储测量调用。
 keywords: Analytics Implementation
-solution: Analytics
 title: 脱机跟踪
 topic: Developer and implementation
 uuid: f7c55aef-28a4-4f2f-8f47-792a05f9525b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -60,7 +59,7 @@ AppMeasurement 在每次后续点击时或经过 `offlineThrottleDelay` 定义�
     <ul id="ul_5A9CFD2968F64F938652C1D779EB7589"> 
      <li id="li_AF074C55DFED4DC8BD8CF3D25805040C"> 如果 <code> trackOffline </code> 为 true：会存储点击量，直到测量在线。 </li> 
      <li id="li_6A623377462548DB97C31654EADCFAF3"> 如果 <code> trackOffline </code> 为 false：会丢弃点击量。 </li> 
-    </ul> <p> <b>示例:</b> </p> 
+    </ul> <p> <b>示例：</b> </p> 
     
 
 s.forceOnline();
