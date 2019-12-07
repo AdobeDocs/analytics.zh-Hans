@@ -1,12 +1,11 @@
 ---
 description: 本主题提供了一些常见问题的解答。
-solution: Analytics
 subtopic: Data sources
 title: 数据源常见问题解答
 topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,7 +28,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 是否需要在我的电子表格数据中加入一个日期列？ {#section_EA37F5FFB13446C497B3C64943F7084E}
 
-能。由于许多市场营销报表是从日期列键入的，因此数据源需要一个日期列。
+可以。由于许多市场营销报表是从日期列键入的，因此数据源需要一个日期列。
 
 ## Can I store data in existing variables that I'm already using? {#section_AB557C2997D04EAFBDC61398B13D13C6}
 
@@ -37,7 +36,7 @@ Adobe 建议您选择新的未用变量，以使用数据源导入数据。如�
 
 ## 可否删除使用数据源导入的数据？ {#section_DB73BC06BD774738BF019B347D9DED96}
 
-否。使用数据源上载到报表的数据，一经导入便无法删除，哪怕是 Adobe 技术人员也不行。它已被永久性地插入您的现有数据，并且与通过传统数据收集方式（例如 JavaScript、ActionSource、数据插入 API 等）输入的数据毫无区别。因此，Adobe 强烈建议先将数据源数据上载到测试报表包，然后再上载到生产包。
+不会。使用数据源上载到报表的数据，一经导入便无法删除，哪怕是 Adobe 技术人员也不行。它已被永久性地插入您的现有数据，并且与通过传统数据收集方式（例如 JavaScript、ActionSource、数据插入 API 等）输入的数据毫无区别。因此，Adobe 强烈建议先将数据源数据上载到测试报表包，然后再上载到生产包。
 
 ## 一次可以导入多少数据？ {#section_7A76D59E2C5B434D9BDBD2ABD2873168}
 
