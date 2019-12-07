@@ -1,12 +1,11 @@
 ---
 description: 使用“用户管理”页面的“管理报表用户和群组”可管理用户和群组，以及控制对报表、工具和报表包的访问。
-solution: Analytics
 subtopic: Users and groups
 title: 用户管理概述
 topic: Admin tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,11 +14,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe 会通知您何时迁移用户。After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在迁移完所有客户之后，将撤销 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理工具]** &gt; **[!UICONTROL 用户管理]**&#x200B;中的帮助内容。
 
 使用“用户管理”页面的“管理报表用户和群组”可管理用户和群组，以及控制对报表、工具和报表包的访问。
 
-**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理员]** &gt;用户 **[!UICONTROL 管理]** &gt;编 **[!UICONTROL 辑用户]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 用户管理]** &gt; **[!UICONTROL 编辑用户]**
 
 ## 用户帐户描述 {#section_14A7E169514A42A88E06387CC7C2E9AD}
 
@@ -46,7 +45,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 |---|---|
 | [!UICONTROL 名字] | 用户的名字。 |
 | [!UICONTROL 姓氏] | 用户的姓氏。 |
-| [!UICONTROL 职位] | （可选）用户的工作职位。 |
+| [!UICONTROL 标题] | （可选）用户的工作职位。 |
 | [!UICONTROL 电话号码] | （可选）用户的办公电话号码。 |
 | [!UICONTROL 电子邮件地址] | 用户的办公电子邮件地址。 |
 
@@ -80,7 +79,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 用户</span> </td> 
-   <td colname="col2"> <p> 仅授予用户所选群组的权限。在左侧的<span class="uicontrol">可用群组</span>字段中选择所需的群组，然后单击<span class="uicontrol">添加</span>。分配的群组将显示在右侧<span class="uicontrol">分配的群组</span>字段中。For information about creating and managing groups, see <a href="/help/admin/user-management2/c-user-groups/groups.md"> Groups</a>. </p> </td> 
+   <td colname="col2"> <p> 仅授予用户所选群组的权限。在左侧的<span class="uicontrol">可用群组</span>字段中选择所需的群组，然后单击<span class="uicontrol">添加</span>。分配的群组将显示在右侧<span class="uicontrol">分配的群组</span>字段中。有关创建和管理群组的信息，请参阅<a href="/help/admin/user-management2/c-user-groups/groups.md">群组</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
