@@ -1,11 +1,10 @@
 ---
 description: 有关报表功能（包括工具栏、日历和详细信息表）的介绍。
-solution: Analytics
 title: 报表功能
 topic: Reports and analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -56,7 +55,7 @@ See [Changing Report Graphs.](/help/analyze/reports-analytics/reports-customize/
 
 ## 图表显示 {#section_4C78ADC82C234CC6841AC92C803636F4}
 
-根据您所选的图表类型，通常会显示详细信息列表的前几个项目。如果图表为显示不同时间段的趋势图表，则会显示所有时间段。:
+根据您所选的图表类型，通常会显示详细信息列表的前几个项目。如果图表为显示不同时间段的趋势图表，则会显示所有时间段。：
 
 ![](assets/graph.png)
 
