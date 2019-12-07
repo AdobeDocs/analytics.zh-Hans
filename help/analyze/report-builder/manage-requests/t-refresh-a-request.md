@@ -1,11 +1,10 @@
 ---
 description: 通过编辑、应用过滤器更新请求后，或者需要查看更新的数据时，您需要刷新请求。您可以选择一个工作表中的多个请求，然后一次刷新所有这些请求。
-solution: Analytics
 title: 刷新请求
 topic: Report builder
 uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
