@@ -1,26 +1,25 @@
 ---
 description: 在粒度级别自定义用户访问权限，包括 eVar、流量报表、解决方案报表和路径报表。
 keywords: groups;permissions
-solution: Analytics
 subtopic: Users and groups
 title: 自定义维度权限
 topic: Admin tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 自定义维度权限
 
-> [!IMPORTANT] 用户和产品管理将移至 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)。 Adobe 会通知您何时迁移用户。After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+> [!IMPORTANT] 用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在迁移完所有客户之后，将撤销 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员工具]** &gt; **[!UICONTROL 用户管理]**&#x200B;中的帮助内容。
 
 在粒度级别自定义用户访问权限，包括 eVar、流量报表、解决方案报表和路径报表。
 
-**[!UICONTROL “用户管理”]** &gt;“ **[!UICONTROL 组]** ”&gt;“报 **[!UICONTROL 告访问”]** &gt;“维度 **[!UICONTROL ”&gt;“自定义]****[!UICONTROL ”]**
+**[!UICONTROL 用户管理]** &gt; **[!UICONTROL 群组]** &gt; **[!UICONTROL 报表访问]** &gt; **[!UICONTROL 维度]** &gt; **[!UICONTROL 自定义]**
 
-> [!IMPORTANT] 某些维此时不可授权。 这些维度包括：移动书签长度；移动设备编号；移动 DRM；移动信息服务；移动 Java 虚拟机；移动邮件装饰；移动网络协议；移动操作系统；移动一键通。
+> [!IMPORTANT] 某些维度当前不是许可维度。这些维度包括：移动书签长度；移动设备编号；移动 DRM；移动信息服务；移动 Java 虚拟机；移动邮件装饰；移动网络协议；移动操作系统；移动一键通。
 >
 >无论其他权限如何，这些维度可供所有用户使用。
 
@@ -32,7 +31,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * eVar 1 至 250 是单独授权的。
 * 所有流量报表都属于维度类别。
-* 视频和移动报告是维度，也是其他Analytics解决方案报告（Experience Manager、Advertising Cloud、Social等）。
+* 视频和移动设备报表属于维度类别，其他 Analytics 解决方案报表（Experience Manager、Advertising Cloud、Social 等）也属于维度类别。
 * 如果用户拥有父维度的访问权限，则路径报表将可用。
 * 自定义群组内的所有当前维度和量度均已自动迁移到新类别。如果现有的群组启用了量度，则默认情况下将为其提供所有新增的许可维度（eVar 和内容识别）和量度。
 * 分类导入器（前身为 SAINT）权限：分类的访问权限取决于对此分类所依据的[变量](https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html)的访问权限。
@@ -69,7 +68,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>标准 </p> </td> 
-   <td colname="col2"> <p>指 Analytics 中的标准 （现成）维度。 </p> </td> 
+   <td colname="col2"> <p>指 Analytics 中的标准（现成）维度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/em/"> AEM </a> </p> </td> 
