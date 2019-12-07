@@ -1,11 +1,10 @@
 ---
 description: 如何从区段边栏将一个或多个区段应用于报表。
-solution: Analytics
 title: 选择和应用区段
 topic: Segments
 uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,21 +14,21 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 如何从区段边栏将一个或多个区段应用于报表。
 
 1. 显示要应用区段的报表，例如[!UICONTROL 页面报表]。
-1. Click **[!UICONTROL Show Segments]** above the report. 将打开区段边栏。
+1. 单击报表上方的&#x200B;**[!UICONTROL 显示区段]**。将打开区段边栏。
 
    ![](assets/segment_rail.png)
 
-1. Mark the checkbox next to one or more of the segments or **[!UICONTROL Search Segments]** to find the right segment.
+1. 选中一个或多个区段旁边的复选框或&#x200B;**[!UICONTROL 搜索区段]**&#x200B;以找到正确的区段。
 
    >[!NOTE]
    >
-   >您可以将多个区段应用到报表（称为区段堆叠）。 在应用多个区段时，每个区段中的条件将使用“and”运算符组合在一起，然后再加以应用。可堆叠的区段数量没有任何限制。
+   >一个报表可应用多个区段（这种方式称为区段堆叠）。在应用多个区段时，每个区段中的条件将使用“and”运算符组合在一起，然后再加以应用。可堆叠的区段数量没有任何限制。
 
    >[!NOTE]
    >
-   >单击区段名称旁边的“信息”图标(i)可预览关键指标，以查看您是否有有效的区段以及该区段的范围。
+   >通过单击区段名称旁边的信息图标 (i)，您可以预览关键量度，以确定是否具有有效的区段以及区段的广泛程度。
 
-1. You can filter by report suite by selecting the **[!UICONTROL (Only)`<report suite name>`]** check box. 这将仅显示该报表包中最后保存的区段。
-1. Click **[!UICONTROL Apply Segment]** and the report will refresh. 应用的区段现在将显示在报表顶部：
+1. 您可以通过选中&#x200B;**[!UICONTROL （仅限）`<report suite name>`]**&#x200B;复选框来按报表包进行过滤。这将仅显示该报表包中最后保存的区段。
+1. 单击&#x200B;**[!UICONTROL 应用区段]**，此时报表将进行刷新。应用的区段现在将显示在报表顶部：
 
    ![](assets/applied_segments.png)
