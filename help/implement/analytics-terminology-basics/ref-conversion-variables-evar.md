@@ -1,12 +1,11 @@
 ---
 description: “自定义分析转化变量”（或 eVar）置于您网站所选网页的 Adobe 代码中。其主要目的是在自定义市场营销报告中划分转化成功量度区段。
 keywords: Analytics Implementation;eVar;conversion variable;eVar value;conversion;success event
-solution: Analytics
 title: 转化变量 (eVar)
 topic: Developer and implementation
 uuid: 50071c1c-be00-4b3a-a7ee-5d129acf498b
 translation-type: tm+mt
-source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,7 +28,7 @@ eVar 可以是基于访问的，其功能与 Cookie 类似。在预先设定的�
 
 为访客设置 eVar 值之后，Adobe 会自动记住该值，直到它过期。eVar 值有效期间，访客遇到的任何成功事件将计入该 eVar 值。
 
-> [!NOTE]在图像请求中，一个 eVar 中只能存储一个值。如果一个 eVar 值中需要多个值，我们建议您实施[](/help/implement/js-implementation/page-variables/listvariable.md)列表变量 (list vars)。
+> [!NOTE] 在图像请求中，一个 eVar 中只能存储一个值。如果一个 eVar 值中需要多个值，我们建议您实施[](/help/implement/js-implementation/page-variables/listvariable.md)列表变量 (list vars)。
 
 有关变量的更多信息，请参阅：
 
