@@ -1,13 +1,12 @@
 ---
 description: 变量及其限制概览。
 keywords: Analytics Implementation;variable;limitations;limits
-solution: Analytics
 subtopic: Variables
 title: 变量和限制
 topic: Developer and implementation
 uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
 translation-type: tm+mt
-source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -69,7 +68,7 @@ source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 | pageType | 仅用于指定 404（页面未找到）错误页面。该变量只有一个可能值：errorPage。在 404 错误页面上，*`pageName`*&#x200B;变量不应被填充。 |
 | pageUrl | 在少数情况下，页面的 URL 不是您想在 [!DNL Analytics] 中报告的 URL。为了适应这些情况，[!DNL Analytics] 提供了 *`pageURL`* 变量，该变量将覆盖页面的实际 URL。 |
 | plugins | 在 Netscape 和基于 Mozilla 的浏览器上，列出浏览器中安装的插件。 |
-| 产品 | 用于跟踪产品和产品类别及购买数量和购买价格。The *`products`*&#x200B;变量应始终结合成功事件进行设置。或者，*`products`* 变量可以选择跟踪自定义数值和货币事件及[!UICONTROL 促销] eVar。 |
+| products | 用于跟踪产品和产品类别及购买数量和购买价格。The *`products`*&#x200B;变量应始终结合成功事件进行设置。或者，*`products`* 变量可以选择跟踪自定义数值和货币事件及[!UICONTROL 促销] eVar。 |
 | propN | 用于在 [!DNL Analytics][!UICONTROL  流量模块]中生成自定义报表。[!UICONTROL prop] 可用作计数器(计数页面查看的发送次数），在路径报表或关联报表中使用。 |
 | purchaseID | 用于避免订单被 [!DNL Analytics] 计数多次。每当您在网站上使用购买事件时，都应使用 *`purchaseID`* 变量。 |
 | referrer | 还原丢失的反向链接信息。 |
