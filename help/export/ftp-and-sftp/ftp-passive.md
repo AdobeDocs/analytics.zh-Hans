@@ -1,11 +1,10 @@
 ---
 description: 选择主动 FTP 还是被动 FTP 可控制端口连接的建立方式，并且该选项会对防火墙产生影响。
 keywords: ftp;sftp
-solution: Analytics
 title: 使用被动 FTP 模式
 uuid: e56e937e-ec42-45ec-ae8e-8a8ea1b76f3f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
