@@ -1,12 +1,11 @@
 ---
 description: 有关计划、下载和分发报表的信息。
-solution: Analytics
 subtopic: Schedule
 title: 报表计划和分发
 topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -81,7 +80,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 使用 PDF、CSV、Excel 或原始数据导出格式下载有关特定报表的详细信息。
 
 1. 在 **Analytics** &gt; **[!UICONTROL 报表]**&#x200B;中，选择要查看的报表。
-1. Click **[!UICONTROL Download]**.
+1. 单击&#x200B;**[!UICONTROL 下载]**。
 
    ![](assets/download_basic.png)
 
