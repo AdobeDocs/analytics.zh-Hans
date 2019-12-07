@@ -1,12 +1,11 @@
 ---
 description: 'null'
-solution: Analytics
 subtopic: Alerts
 title: 警报
 topic: Reports and analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,8 +17,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 智能警报是所有Adobe Analytics的新警报系统，可让您创建和管理警报，并提供警报预览和规则贡献。 您可以
 
 * 构建基于异常的警报（90%、95% 或 99% 阈值；% 更改；以上/以下）。
-* 预览警报触发的频率。
-* 通过含链接的电子邮件或短信将警报发送到自动生成的 Analysis Workspace 项目。
+* 预览警报触发的频率.
+* 通过含链接的电子邮件或短信将警报发送到自动生成的 Analysis Workspace 项目.
 * 创建可在一个警报中捕获了多个量度的“堆栈式”警报。
 
 您可以通过 Reports &amp; Analytics 的任何报表中的&#x200B;**[!UICONTROL 更多]** &gt; **[!UICONTROL 警报]**，访问此新的警报系统。
