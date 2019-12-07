@@ -1,11 +1,10 @@
 ---
 description: 有关使用以自定义表达式表示的日期范围的示例、注释和语法说明。
-solution: Analytics
 title: 使用自定义表达式的日期范围示例
 topic: Report builder
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,7 +17,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | 示例 | 日期范围 | 自定义表达式 | 报表的日期范围 |
 |---|---|---|---|
-|  |  | **从** | **到** |  |
+|  |  | **从** | **至** |  |
 | 1 | 2 周前 | cw-2w | cw-1w-1d | 10 月 26 日至 11 月 1 日 |
 | 2 | 去年第 5 个月的前 3 天 | cy-1y+4m | cy-1y+4m+2d | 2010 年 5 月 1 日至 5 月 3 日 |
 | 3 | 4 周前的一整周 | cw-4w | cw-3w-1d | 10 月 12 日至 10 月 18 日 |
