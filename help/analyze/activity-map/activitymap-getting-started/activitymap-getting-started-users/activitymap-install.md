@@ -1,11 +1,10 @@
 ---
 description: 具体的安装过程会因为您所使用的浏览器而有所不同。
-solution: Analytics
 title: 安装 Activity Map 浏览器插件
 topic: Activity map
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
