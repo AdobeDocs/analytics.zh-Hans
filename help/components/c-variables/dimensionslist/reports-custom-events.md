@@ -1,11 +1,10 @@
 ---
 description: 您希望访客在您的网站上完成的转化操作。这些操作可能是注册、订阅和填写商机表单、开始聊天、购买、预订或完成调查。
-solution: Analytics
 title: 自定义事件
 topic: Reports
 uuid: 5afc574c-974f-4b6c-9fb7-03458d0ecf14
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
