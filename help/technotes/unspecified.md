@@ -1,9 +1,8 @@
 ---
 description: Adobe Analytics中的各种报表可显示“未指定”、“其他”或“未知”，具体取决于查看的特定报表。 通常，此行项目表示变量未定义或不可用。
-solution: Analytics
 title: 报告中未指定、其他和未知
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
