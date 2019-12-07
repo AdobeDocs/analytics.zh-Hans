@@ -1,11 +1,10 @@
 ---
 description: 营销渠道概述报表旨在提供概要性的分析，帮助您确定哪些方法最能吸引客户访问您的网站。使用此报表可将成功量度和收入分配到各种不同渠道。您还可以查看每个渠道中最成功的具体促销活动或关键词。它包含自己的独特直观界面，让您可以同时查看首次联系和最近联系量度。
-solution: Analytics
 title: 营销渠道概述
 topic: Reports
 uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -38,7 +37,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **版本 14 和 15**
 
-This report can be accessed by going to **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Channel Overview Report]** (provided the menu is not customized).
+通过转至&#x200B;**[!UICONTROL 营销渠道]** &gt; **[!UICONTROL 渠道概述报表]**（如果未对菜单进行自定义），可访问此报表。
 
 此报表无法使用区段，请改为使用“[!UICONTROL 首个/最近联系渠道]”或[!UICONTROL “首个/最近联系详细信息]”报表。
 
