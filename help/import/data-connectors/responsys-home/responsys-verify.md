@@ -1,10 +1,9 @@
 ---
 description: 部署后，您应通过以下检查验证集成是否成功传输数据。
-solution: Analytics
 title: 验证集成
 uuid: 5f0f9f69-e932-4472-8578-dd3af1315c0c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -25,4 +24,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
       ![](assets/reporting.png)
 
-   1. 查找Responsys报告。  此数据应在成功部署后的24-48小时内显示。
+   1. 查找Responsys报告。 此数据应在成功部署后的24-48小时内显示。
