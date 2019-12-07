@@ -1,12 +1,11 @@
 ---
 description: products 变量用于跟踪产品和产品类别（以及购买数量和购买价格）。
 keywords: Analytics Implementation;products variable;product view;success event
-solution: Analytics
 title: 详细的产品查看页面
 topic: Developer and implementation
 uuid: 464c9daf-b042-4fb8-8ca6-e104c0bcef45
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
