@@ -1,11 +1,10 @@
 ---
 description: 报表包可以针对选定的网站、网站集合或网页的子集，定义完整、独立的报表。通常情况下，一个报表包是一个网站，但也可以是为了得到总量而综合了若干网站数据的一个全局区段。在登录到任何 Adobe Analytics 解决方案时，您需要选择一个要使用的报表包（除非您使用的是合并各报表包的统计报表包）。另外，报表包也可能比网站小（如果您要对网站的一部分运行报表）。Analytics 解决方案会收集并报告这些数据存储。使用管理员“报表包管理器”可定义一些规则来管理报表包中数据的处理方式。
-solution: Analytics
 title: 报表包管理器
 topic: Admin tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,9 +13,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 报表包可以针对选定的网站、网站集合或网页的子集，定义完整、独立的报表。通常情况下，一个报表包是一个网站，但也可以是为了得到总量而综合了若干网站数据的一个全局区段。在登录到任何 Adobe Analytics 解决方案时，您需要选择一个要使用的报表包（除非您使用的是合并各报表包的统计报表包）。另外，报表包也可能比网站小（如果您要对网站的一部分运行报表）。Analytics 解决方案会收集并报告这些数据存储。使用管理员“报表包管理器”可定义一些规则来管理报表包中数据的处理方式。
 
-**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理员]** &gt;报 **[!UICONTROL 表包]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]**
 
-> [!NOTE] 虚拟报告套件通过 **[!UICONTROL Analytics]** &gt;组 **[!UICONTROL 件]** &gt;虚 **[!UICONTROL 拟报告套件管理]**。 请参阅虚拟 [报告套件文档](/help/components/vrs/vrs-about.md)。
+> [!NOTE] 可通过 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 组件]** &gt; **[!UICONTROL 虚拟报表包]**&#x200B;管理虚拟报表包。请参阅[虚拟报表包文档](/help/components/vrs/vrs-about.md)。
 
 ## 报表包管理器描述 {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
@@ -52,7 +51,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 汇总</span> </td> 
-   <td colname="col2"> <p>汇总是指一个报表包中合并了数个其他报表包的跟踪数据。 </p> <p>请参阅 <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md"> 汇总报表包</a>. </p> </td> 
+   <td colname="col2"> <p>汇总是指一个报表包中合并了数个其他报表包的跟踪数据。 </p> <p>请参阅<a href="/help/admin/c-manage-report-suites/rollup-report-suite.md">汇总报表包</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 编辑设置</span> </td> 
