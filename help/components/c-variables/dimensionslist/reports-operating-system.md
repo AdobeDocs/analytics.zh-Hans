@@ -1,11 +1,10 @@
 ---
 description: 根据客户使用的操作系统对 Web 流量分组。
-solution: Analytics
 title: 操作系统
 topic: Reports
 uuid: 68307788-467a-4294-becc-921c105a0825
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,7 +23,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | Windows 8 |
 | Linux |
 | Windows Vista |
-| Windows Server 2003 and XP x64 Edition |
+| Windows Server 2003 和 XP x64 Edition |
 | Android 4.0.4 |
 | 移动设备 iOS 7.0.3 |
 
@@ -32,12 +31,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 此报表使用的是随新设备的发布和识别持续更新的动态设备数据。例如，一部发布于当前月份的新平板电脑可能会被错误地识别，因为它尚不存在于设备数据库中。在设备数据库更新了此新设备后，所产生的任何更改都会应用于所有报表日期。因此，您可能发现此报表的历史日期总会稍有变化。作为一般规则，最新的报表在任何报表时段总是具有最准确的数据。
 
-## Changes（更改） {#section_B028CE3DDDC4401FA0609F908885A5DD}
+## 更改 {#section_B028CE3DDDC4401FA0609F908885A5DD}
 
 <table id="table_82084301B1044103BB3B293595BC86BD"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 日期 </th> 
+   <th colname="col1" class="entry"> 页面 </th> 
    <th colname="col2" class="entry"> 更改 </th> 
   </tr>
  </thead>
