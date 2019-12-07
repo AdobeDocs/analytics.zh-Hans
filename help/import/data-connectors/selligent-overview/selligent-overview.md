@@ -1,10 +1,9 @@
 ---
 description: 'null'
-solution: Analytics
 title: Selligent Data Connector for Adobe Analytics
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -77,31 +76,31 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col4"> <p><b>状态</b>:已启用 </p> <p><b>分配</b>:最近 </p> <p><b>过期时间</b>:“业务决策” </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 事件 </td> 
+   <td colname="col1"> Event </td> 
    <td colname="col2"> 已发送 </td> 
    <td colname="col3"> 存储从Selligent发送的电子邮件数。 </td> 
    <td colname="col4"> <p><b>类型</b>:数字 </p> <p><b>参与</b>:已启用 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 事件 </td> 
+   <td colname="col1"> Event </td> 
    <td colname="col2"> 交付 </td> 
    <td colname="col3"> 存储已发送的电子邮件数。 </td> 
    <td colname="col4"> <p><b>类型</b>:数字 </p> <p><b>参与</b>:已启用 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 事件 </td> 
+   <td colname="col1"> Event </td> 
    <td colname="col2"> 查看次数 </td> 
    <td colname="col3"> 存储查看的唯一电子邮件数。 </td> 
    <td colname="col4"> <p><b>类型</b>:数字 </p> <p><b>参与</b>:已启用 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 事件 </td> 
+   <td colname="col1"> Event </td> 
    <td colname="col2"> 点击次数 </td> 
    <td colname="col3"> 存储任何电子邮件被点击的次数。 </td> 
    <td colname="col4"> <p><b>类型</b>:数字 </p> <p><b>参与</b>:已启用 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 事件 </td> 
+   <td colname="col1"> Event </td> 
    <td colname="col2"> 退回 </td> 
    <td colname="col3"> 存储退回的电子邮件数。 </td> 
    <td colname="col4"> <p><b>类型</b>:数字 </p> <p><b>参与</b>:已启用 </p> </td> 
