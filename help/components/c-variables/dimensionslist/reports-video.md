@@ -1,11 +1,10 @@
 ---
 description: 显示有关在线媒体访问统计数据的信息。这些报表显示视频和其他媒体访问数据。
-solution: Analytics
 title: 视频
 topic: Reports
 uuid: d14c4451-2543-414e-a582-001dce001f5f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,7 +20,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 <table id="table_A032C55365C34F808764965ADF62F81F"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 报告 </th> 
+   <th colname="col1" class="entry"> 报表 </th> 
    <th colname="col2" class="entry"> 描述 </th> 
   </tr> 
  </thead>
@@ -45,4 +44,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-See [Measuring audio and video in Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/).
+请参阅[在 Adobe Analytics 中测量音频和视频](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/)。
