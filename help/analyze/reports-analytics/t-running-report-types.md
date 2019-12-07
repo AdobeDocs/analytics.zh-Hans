@@ -1,11 +1,10 @@
 ---
 description: 运行不同报告类型的步骤。
-solution: Analytics
 title: 运行不同的报表类型
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
