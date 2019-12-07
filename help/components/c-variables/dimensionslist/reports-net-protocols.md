@@ -1,11 +1,10 @@
 ---
 description: 按移动设备支持的网络协议（GPRS、CSD、EDGE、HSCSD 等）进行分组。对于未识别的网络协议，该报表还提供了“未知”组。
-solution: Analytics
 title: 网络协议
 topic: Reports
 uuid: 565edadb-44e4-455b-a476-fad2e4b28765
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
