@@ -1,11 +1,10 @@
 ---
 description: 下表列出了相关国家/地区是否拥有地区或邮政编码，这指示我们是否需要填充地区或邮政编码报表。
-solution: Analytics
 title: 按国家/地区的地域划分地区和邮政编码使用情况
 topic: Reports
 uuid: 9dab88f8-cd3f-481f-955f-2fc2f48c006d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
