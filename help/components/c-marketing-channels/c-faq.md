@@ -1,12 +1,11 @@
 ---
 description: 了解如何填充为营销渠道设置的不同规则的最佳实践和相关示例。
-solution: Analytics
 subtopic: Marketing channels
 title: 常见问题和示例
 topic: Reports and analytics
 uuid: 1c63a1b5-a191-4855-aa65-fac19ab1037a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -28,7 +27,7 @@ Read about best practices and examples of how to populate various rules you can 
 * [Direct](/help/components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A)
 -->
 
-See [Create Marketing Channel Processing Rules](/help/components/c-marketing-channels/t-rules.md) for definitions of fields displayed on the [!UICONTROL Marketing Channel Processing Rules] page.
+请参阅[创建营销渠道处理规则](/help/components/c-marketing-channels/t-rules.md)，以了解“[!UICONTROL 营销渠道处理规则]”页面中显示的字段定义。
 
 ## 常见问题解答 {#faq}
 
@@ -37,9 +36,9 @@ See [Create Marketing Channel Processing Rules](/help/components/c-marketing-cha
 **问题**：我的跟踪代码不遵循模式，我必须为我的“附属活动”渠道指定数千个代码。
 
 * 使用排除法。如果您的“电子邮件”和“附属活动”渠道使用相同的查询字符串参数，但您只有少数的电子邮件跟踪代码，则您可以在一个定义电子邮件的规则集中指定电子邮件跟踪代码。然后，分类其他所有跟踪代码时使用 *`affiliates.`*
-* 在您的电子邮件系统中，为所有登陆页面 URL 添加一个查询字符串参数，例如 *`&ch=eml`*. 创建一个规则集，用于检测 ch 查询参数是否等于 *`eml`*. 如果它不包含， *`eml`*&#x200B;则它是附属机构。
+* 在您的电子邮件系统中，为所有登陆页面 URL 添加一个查询字符串参数，例如 *`&ch=eml`*。创建一个规则集，用于检测 ch 查询参数是否等于 *`eml`*。如果该规则集中不包含 *`eml`*，则它是一个附属活动。
 
-**问题**:引用域包含的数据比我预期的要多。
+**问题**：反向链接域包含的数据比我预期的多。
 
 * 反向链接域可能在处理规则列表中排位过高。反向链接域应该是最后一个规则集之一（或最后一个规则集），因为处理顺序是很重要的。
 
@@ -57,19 +56,19 @@ See [Create Marketing Channel Processing Rules](/help/components/c-marketing-cha
 
 * 规则按顺序处理。如果无任何具体标准相匹配，点击可以分为三大类：
 
-1. 无反向链接（直接访问）。
+1. 无反向链接（一次直接的访问）。
 
-2. 内部引用，位于访问的第一页。
+2. 访问首页上的内部反向链接。
 
 3. 页面处理故障。
 
 请确保您拥有可以用于这三种可能的渠道。例如，创建以下规则：
 
-1. **[!UICONTROL 引用]** , **[!UICONTROL 不存在]** , **[!UICONTROL 是访问的第一页]**。 (See [Direct.](/help/components/c-marketing-channels/c-faq.md))
+1. **[!UICONTROL 反向链接]**&#x200B;和&#x200B;**[!UICONTROL 不存在]**&#x200B;和&#x200B;**[!UICONTROL 是访问第一页]**。（请参阅[直接](/help/components/c-marketing-channels/c-faq.md)。）
 
-2. **[!UICONTROL 引用与内部URL过滤器匹配]** , **[!UICONTROL 是访问的第一页]**。 （请参阅[内部](/help/components/c-marketing-channels/c-faq.md)。）
+2. **[!UICONTROL 引用网站与内部 URL 筛选器匹配]**&#x200B;和&#x200B;**[!UICONTROL 是访问第一页]**。（请参阅[内部](/help/components/c-marketing-channels/c-faq.md)。）
 
-3. **[!UICONTROL 引用]** 、 **[!UICONTROL 存在]** 、引 **[!UICONTROL 用与内部URL筛选器不匹配]**。
+3. **[!UICONTROL 反向链接]**&#x200B;和&#x200B;**[!UICONTROL 存在]**&#x200B;和&#x200B;**[!UICONTROL 引用网站与内部 URL 筛选器不匹配]**。
 
 最后，创建一个捕捉剩余点击的&#x200B;*其他*&#x200B;渠道，如[未识别渠道](/help/components/c-marketing-channels/c-faq.md#no-channel-identified)中所述。
 
@@ -79,13 +78,13 @@ See [Create Marketing Channel Processing Rules](/help/components/c-marketing-cha
 
 ![](assets/example_other.png)
 
-This kind of rule serves as a catch-all to ensure that channel traffic always matches external traffic, and typically does not end up in **[!UICONTROL No Channel Identified]**. 要小心不要建立一个同时确定内部流量的规则。将渠道值设置为&#x200B;**[!UICONTROL 反向链接域]**&#x200B;或&#x200B;**页面 URL]是创建有效“其他”规则的最常见、最有用的方法。[!UICONTROL **
+这种规则可充当一个通用规则，确保该渠道流量与外部流量始终匹配，且通常不会在&#x200B;**[!UICONTROL 未识别渠道]**&#x200B;中结束。要小心不要建立一个同时确定内部流量的规则。将渠道值设置为&#x200B;**[!UICONTROL 反向链接域]**&#x200B;或&#x200B;**页面 URL]是创建有效“其他”规则的最常见、最有用的方法。[!UICONTROL **
 
-> [!NOTE] 可能仍有一些渠道流量属于未识别渠道类别。 例如：访客访问该网站并将某个页面添加为书签，并且在同一次访问中通过书签返回到该页面。由于这不是访问的第一个页面，而且没有反向链接域，因此它既不会被列入“直接”渠道，也不会被列入“其他”渠道。
+> [!NOTE] 仍可能会有一些渠道流量被列入“未识别渠道”类别。例如：访客访问该网站并将某个页面添加为书签，并且在同一次访问中通过书签返回到该页面。由于这不是访问的第一个页面，而且没有反向链接域，因此它既不会被列入“直接”渠道，也不会被列入“其他”渠道。
 
 ## 付费搜索 {#paid-search}
 
-付费搜索是指您向搜索引擎支付一定费用，以让某个单词或短语出现在搜索结果中。为了匹配付费搜索检测规则，营销渠道使用[!UICONTROL “付费搜索检测”]页面上配置的设置。( **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Paid Search Detection]**). 目标 URL 匹配该搜索引擎的现有付费搜索检测规则。
+付费搜索是指您向搜索引擎支付一定费用，以让某个单词或短语出现在搜索结果中。为了匹配付费搜索检测规则，营销渠道使用[!UICONTROL “付费搜索检测”]页面上配置的设置。（**[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]** &gt; **[!UICONTROL 编辑设置]** &gt; **[!UICONTROL 常规]** &gt; **[!UICONTROL 付费搜索检测]**）。目标 URL 匹配该搜索引擎的现有付费搜索检测规则。
 
 对于营销渠道规则，[!UICONTROL “付费搜索”]设置如下：
 
