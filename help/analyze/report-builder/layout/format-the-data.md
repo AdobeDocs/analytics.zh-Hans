@@ -1,11 +1,10 @@
 ---
 description: 除了 Excel 的“格式”>“单元格”(Ctrl+1) 功能提供的标准单元格格式选项之外，您还可以通过 Report Builder 对单元格范围应用少量格式。这些格式选项取决于您选择的量度。
-solution: Analytics
 title: 设置日期格式
 topic: Report builder
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -26,7 +25,7 @@ After you [add dimensions](/help/analyze/report-builder/layout/c-metrics-dimensi
 | 一 | 月份 | 3 |
 | MM | 月份（小于 10 时使用 0 填充） | 03 |
 | MMM | 月份的短名称 | 三月 |
-| MMMM | 月份的长名称 | 三月 |
+| MMMM | 月份的长名称 |  年 3 月 |
 | D | 日期的长名称 | 2012 年 3 月 14 日，星期三 |
 | d | 日 | 14 |
 | dd | 日（小于 10 时使用 0 填充） | 01 - 09 |
