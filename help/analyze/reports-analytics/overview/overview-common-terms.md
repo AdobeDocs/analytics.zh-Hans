@@ -1,11 +1,10 @@
 ---
 description: 有关市场营销报告中常用 Web 分析术语的介绍。
-solution: Analytics
 title: 常用术语
 topic: Reports and analytics
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -28,7 +27,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td> <p>量度 </p> </td> 
-   <td> <p>有关网站活动的量化信息，包括查看次数、点击量、重新加载次数、平均逗留、时间、日期和件数等。 </p> <p>有关详细信息，请参阅 <a href="/help/analyze/reports-analytics/metrics.md">量度</a>. </p> </td> 
+   <td> <p>有关网站活动的量化信息，包括查看次数、点击量、重新加载次数、平均逗留、时间、日期和件数等。 </p> <p>For more information, see <a href="/help/analyze/reports-analytics/metrics.md">Metrics</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> 维度 </p> </td> 
