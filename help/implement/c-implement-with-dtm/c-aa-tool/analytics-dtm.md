@@ -1,12 +1,11 @@
 ---
 description: 您可以通过创建 Adobe Analytics 工具并自动或手动配置页面代码，来使用 Dynamic Tag Management 部署 Adobe Analytics。对于大多数用户，建议使用自动方法。
 keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;analytics tool;property;tool type;tool name;configuration method;analytics premium;evars;events
-solution: Analytics
 title: 添加 Adobe Analytics 工具
 topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
