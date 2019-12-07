@@ -1,12 +1,11 @@
 ---
 description: 营销渠道通常用于提供有关访客如何到达您网站的分析。您可以基于要跟踪的渠道以及跟踪方式，自定义营销渠道处理规则。
-solution: Analytics
 subtopic: Marketing channels
 title: 营销渠道快速入门
 topic: Reports and analytics
 uuid: d38cb0e5-0b75-4690-b1da-fea2fdff9e7d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -32,22 +31,22 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 建议的渠道列表可在[常见问题和示例](/help/components/c-marketing-channels/c-faq.md)中找到。创建要使用的渠道列表，以便在创建渠道时方便启用和定义渠道。
 
-![](assets/step2_icon.png) 在“营销渠道管理器”页 [!UICONTROL 面上添加营销渠道] 。
+![](assets/step2_icon.png) 在“[!UICONTROL 营销渠道管理器]”页面上添加营销渠道。
 
-After defining what channels to track, you enable them in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+定义要跟踪的渠道后，可在&#x200B;**[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]**&#x200B;中启用它们。
 
-See [Channels and Rules](/help/components/c-marketing-channels/c-channels-rules.md) for important prerequisite and conceptual information.
+请参阅[渠道和规则](/help/components/c-marketing-channels/c-channels-rules.md)，以了解先决条件和概念等重要信息。
 
-请参 [阅添加营销渠道](/help/components/c-marketing-channels/c-channels.md) ，以了解相关步骤。
+请参阅[添加营销渠道](/help/components/c-marketing-channels/c-channels.md)，以了解相关过程。
 
 >[!NOTE]
 >
->如果之前尚未配置营销渠道，则会显示 [自动设置](/help/components/c-marketing-channels/c-channel-autosetup.md) 。 该设置提供多个可自定义的预配置渠道。Adobe 建议将这些规则用作模板。但如果已有固定的渠道定义，则可跳过自动设置。
+>如果之前未配置营销渠道，则会显示[自动设置](/help/components/c-marketing-channels/c-channel-autosetup.md)。该设置提供多个可自定义的预配置渠道。Adobe 建议将这些规则用作模板。但如果已有固定的渠道定义，则可跳过自动设置。
 
 ![](assets/step3_icon.png)在[!UICONTROL “营销渠道处理规则”]页面上配置或优化每个渠道的规则。
 
 在[!UICONTROL “营销渠道管理器”]页面上创建渠道后，可配置规则，以便渠道可检索和报告数据。
 
-请参阅 [营销渠道处理规则](/help/components/c-marketing-channels/c-rules.md).
+请参阅[营销渠道处理规则](/help/components/c-marketing-channels/c-rules.md)。
 
 如果渠道是在自动设置中创建的，则这些渠道中的规则已经过定义。您可以修改这些规则以满足您的需求。
