@@ -1,12 +1,11 @@
 ---
 description: 数值 2 分类提供了自定义的灵活量度，您可以通过导入器将这些量度导入 Adobe Experience Cloud。
-solution: Analytics
 subtopic: Classifications
 title: 数值 2 分类概述
 topic: Admin tools
 uuid: cbea7cd1-3a92-4e9d-b671-646e9add1ee6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,13 +18,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 >
 >已从代码库中移除了导入数字 2 分类和启用日期的分类的功能。这项更改将随 2019 年 6 月维护版本的发布而生效。如果您的导入文件中包含“数字”或“启用日期”列，则这些单元格会被静默忽略，同时该文件中的任何其他数据均会正常导入。现有的分类仍可以通过标准分类工作流程导出，并将继续在报表中可用。
 
-> [!NOTE] 在2018年5月10日的Analytics维护版本中，Adobe开始限制启用日期的分类和数字分类的功能。 这些分类类型已从管理员和分类导入器界面中删除。无法添加新的启用日期的分类和数值分类。现有的分类仍可以通过标准分类工作流程进行管理（上传、删除），并将继续在报表中可用。
+> [!NOTE] 在 2018 年 5 月 10 日的 Analytics 维护版本中，Adobe 已开始限制启用日期的分类和数值分类的功能。这些分类类型已从管理员和分类导入器界面中删除。无法添加新的启用日期的分类和数值分类。现有的分类仍可以通过标准分类工作流程进行管理（上传、删除），并将继续在报表中可用。
 
 数值 2 分类常用于针对不同项目（例如商品销售成本）随时间变化的数值变量。在管理中，您可以在[!UICONTROL 转化分类]页上创建分类，然后使用导入器导出文件，做出编辑，然后将文件导入 Adobe。导入数据后，在创建计算量度时，您就可以使用数值分类了。
 
 >[!IMPORTANT]
 >
->Analysis Workspace和临时分析不支持数字2分类。
+>Analysis Workspace 和 Ad Hoc Analysis 不支持数值 2 分类。
 
 下表列出了分类类型之间的不同点：
 
