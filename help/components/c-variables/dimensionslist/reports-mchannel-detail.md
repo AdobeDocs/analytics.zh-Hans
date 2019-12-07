@@ -1,11 +1,10 @@
 ---
 description: 这些报表可让您深入了解您网站上最有效的特定促销活动或关键词。您可以使用此报表将成功量度和收入分配到多个渠道详细信息，无论它们处于哪个整体渠道。例如，您可以查看特定付费搜索关键词与特定电子邮件促销活动的比较结果。相对于营销渠道概述报表，此报表更类似于标准市场营销报告。
-solution: Analytics
 title: 营销渠道详细信息 - 首次联系和最近联系
 topic: Reports
 uuid: 669152df-90b3-4a39-b8c0-aea0f5dd8323
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -40,5 +39,5 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    * 访问和访客：其可用性取决于组织和报表包。请联系您的客户经理以了解详细信息。
    请参阅[!UICONTROL 营销渠道]帮助中的[量度](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_metrics.html)。
 
-> [!NOTE] 营 [!UICONTROL 销渠道] 13.5版中不提供报告。
+> [!NOTE] [!UICONTROL 营销渠道]报表在版本 13.5 中不可用。
 
