@@ -1,11 +1,10 @@
 ---
 description: SFTP是一种用于传输数据的安全协议，可确保除您之外没有人能够看到您的数据。 Adobe工程服务可以设置SFTP帐户以安全保留您的数据。
 keywords: ftp;sftp
-solution: Analytics
 title: 安全文件传输协议 - 概述
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
