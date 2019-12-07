@@ -1,11 +1,10 @@
 ---
 description: 每个组织可以利用自定义流量报表来报告默认情况下未实施的其他维度。自定义流量报表的使用方式有多种，最常见的是用来测量流量和路径。
-solution: Analytics
 title: 自定义流量
 topic: Reports
 uuid: 627e8f34-e8f7-4f79-919b-f6237f85685d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +16,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 ## 自定义流量报表的属性 {#section_4CBFC4EDFB1C49CD88F9874B6EF6FDEC}
 
 * 自定义流量报表完全基于 [prop](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_propn.html)（流量变量）。
-* 报表的默认量度为页面查看（或者在版本 15 中为实例）。版本 14 的页面查看和版本 15 的实例相同，因为它们都计数变量定义的总次数。版本 15 的页面查看仅计数 图像 *`s.t()`* 请求(不包括 *`s.tl()`* 请求)。
+* 报表的默认量度为页面查看（或者在版本 15 中为实例）。版本 14 的页面查看和版本 15 的实例相同，因为它们都计数变量定义的总次数。版本 15 的页面查看仅计数 *`s.t()`* 图像请求（不包括 *`s.tl()`* 请求）的数量。
 
 * 如果贵组织的合同中包含路径，并且受支持用户对此提出了请求，则可以启用路径。在为流量变量启用了路径后，可用量度包括：
 * 
