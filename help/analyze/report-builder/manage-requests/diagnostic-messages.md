@@ -1,11 +1,10 @@
 ---
 description: 诊断消息在您刷新请求时提供有关请求状态的信息。
-solution: Analytics
 title: 诊断消息
 topic: Report builder
 uuid: 8ba783b7-5c81-4d60-b830-ff10313a3b01
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
