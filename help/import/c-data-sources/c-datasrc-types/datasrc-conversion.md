@@ -1,12 +1,11 @@
 ---
 description: 针对以转化方式处理的数据类型，数据源支持以下转化数据维度和量度。
-solution: Analytics
 subtopic: Data sources
 title: 转化
 topic: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,7 +23,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 列名称 | 描述 |
 |--- |--- |
 | 跟踪代码 | 跟踪代码名称。 |
-| 日期 | 使用以下日期格式：MM/DD/YYYY/HH/mm/SS（例如 01/01/2015/06/00/00） |
+| 页面 | 使用以下日期格式：MM/DD/YYYY/HH/mm/SS（例如 01/01/2015/06/00/00） |
 | 类别 | 类别名称。如果指定一个类别，则必须还要选择一个产品。 |
 | 渠道 | 渠道名称。 |
 | eVarn | 变量名称。 n 的有效值是 1 - 75 之间的整数。 |
