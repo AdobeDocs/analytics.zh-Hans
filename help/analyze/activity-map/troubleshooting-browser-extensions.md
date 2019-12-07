@@ -1,11 +1,10 @@
 ---
 description: 列出与 Activity Map 的使用不兼容的浏览器参数。您应该禁用以下设置。
-solution: Analytics
 title: 浏览器扩展疑难解答
 topic: Activity map
 uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
