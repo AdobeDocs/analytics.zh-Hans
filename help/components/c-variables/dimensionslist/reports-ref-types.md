@@ -1,18 +1,17 @@
 ---
-description: 通过跟踪和记录每次访问的访客“引用网站”，您可以确定访客如何找到每次访问的网站。
-solution: Analytics
+description: 通过跟踪和记录访客每次访问的反向链接网站，可以确定访客每次访问时如何找到您的网站。
 title: 反向链接类型
 topic: Reports
 uuid: 7f63d327-d223-4537-a722-4780aae05c2b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 反向链接类型
 
-通过跟踪和记录每次访问的访客“引用网站”，您可以确定访客如何找到每次访问的网站。
+通过跟踪和记录访客每次访问的反向链接网站，可以确定访客每次访问时如何找到您的网站。
 
 以下列表列出了有关不同类型反向链接的定义：
 
@@ -22,11 +21,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **[!UICONTROL 社交网络]**：反向链接值必须被 Adobe 视为社交网络。请参阅[社交网络列表](https://helpx.adobe.com/analytics/kb/list-social-networks.html)。
 
-**电子邮件**:当访客单击通过电子邮件发送的包含协议的消息链接或到达您的网站时，引用域被视 [!DNL imap://] 为电子 [!DNL mail://] 邮件引用域。 例如，由于协议为 [!DNL https://mail.yahoo.com]://，因此来自 [!DNL https://] 的任何消息均不会计为电子邮件反向链接。Outlook 电子邮件会报告于“键入/书签式”行上，而任何采用 HTTP 协议（域为已知搜索引擎）的反向链接均报告于“搜索引擎”行上。
+**电子邮件**：访客单击经电子邮件发送的消息链接（包含协议 [!DNL imap://] 或 [!DNL mail://]）并进入网站后，反向链接域名会被视为电子邮件反向链接域名。例如，由于协议为 [!DNL https://]，因此来自 [!DNL https://mail.yahoo.com] 的任何消息均不会计为电子邮件反向链接。Outlook 电子邮件会报告于“键入/书签式”行上，而任何采用 HTTP 协议（域为已知搜索引擎）的反向链接均报告于“搜索引擎”行上。
 
-**输入／添加书签**:访问者直接在浏览器中键入您网站的URL，或通过选择书签访问您网站时，会记录引用网站。 如果访问的第一次点击 *`typed/bookmarked`* 中没有引用，移动设备会报告引用类型。
+**键入/书签式**：在以下两种情形下记录反向链接：访客在其浏览器中直接键入您网站的 URL，或者访客通过选择书签来访问您的网站。如果访问的第一次点击中没有反向链接，则移动设备会报告反向链接类型为 *`typed/bookmarked`*。
 
-**[!UICONTROL 网站内部]**：这些项目是由内部 URL 过滤器标记的 URL。These items are not counted as *`referrer instances`* but can be seen when reporting on other metrics.
+**[!UICONTROL 网站内部]**：这些项目是由内部 URL 过滤器标记的 URL。这些项目将不会计为 *`referrer instances`*，但在报告其他量度时将会显示这些项目。
 
 ## 按界面划分的反向链接类型 {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
 
@@ -46,21 +45,21 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
     <ul id="ul_EFC8E81EC6DF4CC2AC0E290244FD5859"> 
      <li id="li_686FCAEB04054B9F8A7D2434E8C49F04">其他网站 </li> 
      <li id="li_C232868230AA4A54958B524F3D8FDA35"> 搜索引擎 </li> 
-     <li id="li_A89BFD0468F74ED7822F64BE4A7332AE"> Social </li> 
+     <li id="li_A89BFD0468F74ED7822F64BE4A7332AE"> 社交 </li> 
      <li id="li_C824E6F7F6E748DD827A95B105ADBADD"> 键入/书签式 </li> 
     </ul> <p> 此报表仅显示两个预定义量度：“实例”和“独特访客”。 </p> </td> 
    <td colname="col3"> 
     <ul id="ul_FD81EB3C1BD949A39C5A9E9688D25271"> 
      <li id="li_6099E7E03F3843D484808258A332BBE9">其他网站 </li> 
      <li id="li_5AABC02DA7964D578BF8404DA819245D"> 搜索引擎 </li> 
-     <li id="li_B18907AC7FA1429A893B57634EB7DC6F"> Social </li> 
+     <li id="li_B18907AC7FA1429A893B57634EB7DC6F"> 社交 </li> 
      <li id="li_7674B67897994E1FA99BCD9B604BCB6E"> 键入/书签式 </li> 
     </ul> </td> 
    <td colname="col4"> 
     <ul id="ul_C37ADBEC31D04295BF5CDEA25DB5191A"> 
      <li id="li_81A642C96C674669BA00B2DACA534B8A">其他网站 </li> 
      <li id="li_29B9DA9F2AAD46A69886D34D5E6E43D4"> 搜索引擎 </li> 
-     <li id="li_E381EEF111F248F99EE39600D616B7C2"> Social </li> 
+     <li id="li_E381EEF111F248F99EE39600D616B7C2"> 社交 </li> 
      <li id="li_596377F4D3C248BEA5191EE2985A2B13"> 键入/书签式 </li> 
      <li id="li_A7A72D3D6B9A4CCFB43EDA77ABFDEDBC"> 网站内部 </li> 
     </ul> </td> 
@@ -75,7 +74,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 报表历史记录 {#section_6C0FCEA9DAF04D97BA056E153B7E4628}
 
-| 日期 | 更改 |
+| 页面 | 更改 |
 |---|---|
 | 2014 年 1 月 16 日 | Data Warehouse 已更新，以匹配 Marketing Reports &amp; Analytics 所用的逻辑。在此日期之前，反向链接类型在整个访问期间不是持续值。 |
 
