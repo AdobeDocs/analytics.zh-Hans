@@ -1,18 +1,17 @@
 ---
 description: 区段生成器中创建的所有区段并非都与 Data Warehouse 兼容。此表列出了受支持的功能。
-solution: Analytics
 title: Data Warehouse 区段兼容性
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: b91fb59ab3483ee670a86f428b2757786e89a3c5
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Data Warehouse 区段兼容性
 
-Not all segments created in the Segment Builder are compatible with [!DNL Data Warehouse]. 此表列出了受支持的功能。
+区段生成器中创建的所有区段并非都与 [!DNL Data Warehouse] 兼容。此表列出了受支持的功能。
 
 <table id="table_BBB1DAFDF85041598FA4AF869172CF7F"> 
  <thead> 
@@ -45,7 +44,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
   </tr> 
   <tr> 
    <td colname="col1"> <b>维度</b> </td> 
-   <td colname="col2">将维度拖动到区段生成器的“定义”<span class="uicontrol"></span>字段中，以便了解其产品兼容性的相关信息。例如，仅在Analysis Workspace、Reports &amp; Analytics和临时分析中支持以下维： 
+   <td colname="col2">将维度拖动到区段生成器的“定义”<span class="uicontrol"></span>字段中，以便了解其产品兼容性的相关信息。例如，这些维度只在 Analysis Workspace、Reports &amp; Analytics 和 Ad Hoc Analysis 中受支持： 
     <ul id="ul_BD708CC3A16743F49F998D1046EC70A3"> 
      <li id="li_240DA619D50B4336ACD9117BF59AF10A">登录服务器 </li> 
      <li id="li_222D4D4116674EF8A52945CCB9C78719">登录类别 </li> 
@@ -58,7 +57,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
      <li id="li_D8E040F77A8C46A084547F4FE685CB10">页面 URL </li> 
      <li id="li_4C79AE900CF6458780C124143DC6FA5B">访客 ID </li> 
      <li id="li_4EC10645DE9740609D8DDFD4F668FE67">Experience Cloud 访客 ID </li> 
-    </ul> <p>The following dimensions <b>cannot </b>be used in Data Warehouse segments: </p> 
+    </ul> <p>以下维度<b>不能</b>在 Data Warehouse 区段中使用： </p> 
     <ul id="ul_FE143F6D1ABF45DAA444E1B5691C7D4F"> 
      <li id="li_E77F3CC45BA04674B857FE5AB19D56F1">所有搜索页面排名 </li> 
      <li id="li_95E1549C13F14BA0B32686401EE78E31">上午/下午 </li> 
@@ -79,7 +78,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
      <li id="li_1833B6E2011C4757A60CAA2C98B35AFA">回访频度 </li> 
      <li id="li_39154CD74A534D9AA09C701FE1E2C521">单页面访问量 </li> 
      <li id="li_84BDE34DD577488881E8842D2DE72D3C">发生事件之前逗留的时间 </li> 
-     <li id="li_552BE3414CC949B3B24BE99298945874">页面逗留时间 - 已存储 </li> 
+     <li id="li_552BE3414CC949B3B24BE99298945874">页面逗留时间 - 分段统计 </li> 
      <li id="li_33D815E04CB3493C82BE33E958C2D7B9">每次访问逗留时间 - 分段统计 </li> 
      <li id="li_76F2BB88B8CD456DB50D04F36BB7854B">跟踪选择退出的原因 </li> 
      <li id="li_07345E08D0584CEC99128A0542587019">美国各州 </li> 
@@ -87,7 +86,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>区段堆栈</b> </td> 
+   <td colname="col1"> <b>区段堆叠</b> </td> 
    <td colname="col2"> 受支持 </td> 
    <td colname="col3"> 不受支持 </td> 
   </tr> 
