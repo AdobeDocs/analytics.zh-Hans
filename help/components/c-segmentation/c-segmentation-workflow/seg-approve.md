@@ -1,11 +1,10 @@
 ---
 description: 您可以在区段管理器内设置一个工作流程，其中包含各种级别的申请和特定部门或组的批准区段，并与报表策略相一致。
-solution: Analytics
 title: 批准区段
 topic: Segments
 uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,5 +23,5 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/seg_approved.png)
 
-1. You can also unapprove an approved segment by clicking **[!UICONTROL Unapprove]**.
+1. 您也可以通过单击&#x200B;**[!UICONTROL 取消批准]**&#x200B;来取消批准已批准的区段。
 
