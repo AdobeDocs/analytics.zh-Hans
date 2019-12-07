@@ -1,11 +1,10 @@
 ---
 description: 使用“关键量度”报表可以比较各个量度以同时了解它们的趋势。例如，随着页面查看次数的增加，访客计数是否增加了？
-solution: Analytics
 title: 关键量度
 topic: Reports
 uuid: 33e57c24-66e6-40a5-a1b0-dc6a66a74a1c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
