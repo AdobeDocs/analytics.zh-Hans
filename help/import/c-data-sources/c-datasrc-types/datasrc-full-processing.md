@@ -1,12 +1,11 @@
 ---
 description: 数据源在处理作为标准服务器调用的数据时，支持以下变量（普通 > 完全处理）。
-solution: Analytics
 subtopic: Data sources
 title: 完全处理
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -54,7 +53,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   </tr> 
   <tr> 
    <td colname="col1"> <p>timestamp </p> </td> 
-   <td colname="col2"> <p>date </p> </td> 
+   <td colname="col2"> <p>日期 </p> </td> 
    <td colname="col3"> <p>Use the ISO 8601 date format of <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (for example, <code> 2013-09-01T12:00:00-07:00 </code>), or Unix Time Format (the number of seconds elapsed since January 1, 1970). </p> </td> 
   </tr> 
   <tr> 
@@ -111,8 +110,8 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
    <td colname="col3"> <p>页面URL(例如 <code>https://www.mysite.com/index.html)</code>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>产品 </p> </td> 
-   <td colname="col2"> <p>产品 </p> </td> 
+   <td colname="col1"> <p>products </p> </td> 
+   <td colname="col2"> <p>products </p> </td> 
    <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
   </tr> 
   <tr> 
