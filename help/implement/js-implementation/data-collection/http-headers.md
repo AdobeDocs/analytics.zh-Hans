@@ -1,12 +1,11 @@
 ---
 description: HTTP 请求和响应头用于收集 AppMeasurement 收集范围外的其他数据。本节介绍在数据收集过程中使用的头。
 keywords: Analytics Implementation
-solution: Analytics
 title: 数据收集 HTTP 头
 topic: Developer and implementation
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -93,16 +92,16 @@ HTTP 请求和响应头用于收集 AppMeasurement 收集范围外的其他数�
 | **头** | **用途** |
 |---|---|
 | Access-Control-Allow-Origin | 可支持向我们的服务器发出跨源资源共享形式的数据收集请求。 |
-| Expires | 浏览器缓存控制。 |
+| 过期 | 浏览器缓存控制。 |
 | Last-Modified | 浏览器缓存控制。 |
 | Cache-Control | 浏览器缓存控制。 |
 | Pragma | 浏览器缓存控制。 |
 | ETag | 浏览器缓存控制。 |
 | Vary | 浏览器缓存控制。 |
 | P3P | 提供数据收集请求的默认或自定义 P3P 策略。 |
-| Status | 包含无内容请求的“SUCCESS”或“FAILURE”状态。仅在请求指定不应返回内容时使用。 |
+| 状态 | 包含无内容请求的“SUCCESS”或“FAILURE”状态。仅在请求指定不应返回内容时使用。 |
 | Reason | 包含无内容请求失败状态的原因。仅在请求指定不应返回内容时使用。 |
-| Location | 用于将发出数据收集请求的客户端重定向至其他 URL。例如，我们的 Cookie 握手可检测设置访客 ID Cookie 的能力。 |
+| 位置 | 用于将发出数据收集请求的客户端重定向至其他 URL。例如，我们的 Cookie 握手可检测设置访客 ID Cookie 的能力。 |
 | Content-Type | 指定发送回客户端的内容类型（GIF、文本、Javascript 等）。 |
 | Content-Length | 指定发送回客户端的内容大小。 |
 
