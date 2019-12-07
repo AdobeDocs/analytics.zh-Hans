@@ -1,11 +1,10 @@
 ---
 description: 交互控件允许您直接从工作表编辑一个或多个请求的区段和日期范围。这使您可以更加灵活地更新 Report Builder 请求。
-solution: Analytics
 title: 交互控件
 topic: Report builder
 uuid: 5f324b61-e032-455e-9947-5037f013e0fa
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
