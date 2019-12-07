@@ -1,12 +1,11 @@
 ---
 description: 为导入数值 2 分类提供指南的示例。
-solution: Analytics
 subtopic: Classifications
 title: 示例
 topic: Admin tools
 uuid: 0553d07f-87c1-4372-90ce-7118a6393a01
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,7 +23,7 @@ c_example_1__rate.xml
 在此例中，您已在[!UICONTROL 分类
 转化]管理器上创建了分类，现在希望导入 1 月的值：
 
-| 键值 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
+| 键 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
 | Product1 | Text1 | `Cost1_jan_var` |  | `.2` |
 | Product2 | Text2 | `Cost2_jan_var` |  | `.3` |
@@ -34,7 +33,7 @@ c_example_1__rate.xml
 | 2010/01/01 - 2010/01/31 | revenue | revenue |
 | 2010/01/01 - 2010/01/31 | revenue | revenue |
 
-In January, Product1 had a cost of 20% of its revenue (shown in `~MyCost^~value~`) and Product2 had a cost of 30% of its revenue. Because you are importing a new row, `~MyCost^~id~` is blank.
+在 1 月，Product1 的成本为其收入的 20%（如 `~MyCost^~value~` 中所示）；Product2 的成本为其收入的 30%。由于您正在导入一个新行，因此，`~MyCost^~id~` 为空白。
 
 ## 结果 {#section_E0569289C9B34C479C7D2CD9ECBF866E}
 
@@ -55,7 +54,7 @@ c_example_2__rate.xml
 
  -->
 
-| 键值 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
+| 键 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
 | Product1 | Text1 | `Cost1_jan_var` | 1 | .2 |
 | Product2 | Text2 | `Cost2_jan_var` | 2 | .3 |
@@ -69,7 +68,7 @@ c_example_2__rate.xml
 | 2010/02/01 - 2010/02/28 | revenue | revenue |
 | 2010/02/01 - 2010/02/28 | revenue | revenue |
 
-2月份，用户对Product1的成本降至收入的15%，而Product2则降至收入的25%。
+在 2 月，用户的 Product1 成本下降到收入的 15%；Product2 的成本下降到收入的 25%。
 
 ## 结果 {#section_23DF5353AC1B478C88647F222703352C}
 
@@ -110,7 +109,7 @@ c_example_3__fixed.xml
 
 因此，您会导入以下数据：
 
-| 键值 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
+| 键 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
 | Product1 | Text1 | `Cost1_mar_fixed` |  | 3000.00 |
 | Product2 | Text2 | `Cost2_jan_fixed` |  | 2000.00 |
@@ -141,7 +140,7 @@ c_example_4__(advanced)_multiple_row_per_time_period.xml
 
 在此示例中，您将 $500 的运费增加到 1 月的 Product1，将 $600 的运费添加到 2 月份。
 
-| 键值 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
+| 键 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
 | Product1 | Text1 | `Cost1_jan_var` | 1 | .2 |
 | Product1 | Text1 | `Cost2_jan_fixed` |  | 500 |
@@ -169,7 +168,7 @@ c_example_4__(advanced)_multiple_row_per_time_period.xml
 |---|---|---|
 | Product1 | $10,000.23 | $2500.05 |
 
-> [!NOTE] 此功能允许高级用户近似计算值。 因此，不应将结果信息视为精确值。
+> [!NOTE] 此功能可为高级用户产生近似值。因此，不应将结果信息视为精确值。
 
 <!-- 
 
@@ -179,7 +178,7 @@ c_example_5__identical_rate_hinge.xml
 
 该示例的说明如下：
 
-| 键值 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
+| 键 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
 | Product1 | Text1 | `Cost1_mar_var` |  | 1 |
 
@@ -207,7 +206,7 @@ c_example_5__fixed_no_hinge.xml
 
  -->
 
-| 键值 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
+| 键 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
 | Product1 | Text1 | `Cost1_mar_fixed` |  | 3000.00 |
 | Product2 | Text2 | `Cost2_mar_fixed` |  | 2000.00 |
@@ -239,7 +238,7 @@ c_example_7__fixed_hinge.xml
 
 在此例中，您会导入以下数据：
 
-| 键值 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
+| 键 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
 | Product1 | Text1 | `Cost1_mar_fixed` |  | 3000.00 |
 | Product2 | Text2 | `Cost2_mar_fixed` |  | 2000.00 |
@@ -271,7 +270,7 @@ c_example_7_continued__different_rate_hinge.xml
 
 在此例中，您将导入以下文件数据：
 
-| 键值 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
+| 键 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
 | Product1 | Text1 | Cost1_mar_fixed |  | 3 |
 
