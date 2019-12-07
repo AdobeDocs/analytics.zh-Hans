@@ -1,12 +1,11 @@
 ---
 description: 分类规则生成器中的页面上界面元素的定义。
-solution: Analytics
 subtopic: Classifications
 title: 分类规则 - 定义
 topic: Admin tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,7 +32,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p>选择报表包和变量 </p> </td> 
-   <td colname="col2"> <p><b>报表包</b> </p> <p>要对其应用规则集的报表包。 </p> <p><b>变量</b> </p> <p>创建分类规则集时，只能应用一个变量。如果您要为一个变量创建多个规则集，则必须将每个规则集应用到多个报表包。 </p> <p>注意：您只能使用您在报表包中拥有访问权限的变量。只有在变量至少定义了一个分类后，变量才会在<span class="wintitle">新建规则集</span>面板中显示。 </p> <p>例如，要使“页 <span class="term"> 面</span> ”作为规则集的变量可用，请确保报表包已为“页面”实施流量分类 <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classifications.html"  ></a><span class="term"></span>。 </p> <p> 您可以在<span class="uicontrol">管理员</span> &gt; <span class="uicontrol">报表包</span> &gt; <span class="uicontrol">流量</span> &gt; <span class="uicontrol">流量分类</span>（或<span class="uicontrol">转化</span> &gt; <span class="uicontrol">转化分类</span>）中对变量创建分类。然后选择该变量，并单击<span class="uicontrol">添加分类</span>。 </p> <p>请参阅管理员帮助中的<a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classification_admin.html"  >流量分类</a>和<a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html"  >转化分类</a>。 </p> </td> 
+   <td colname="col2"> <p><b>报表包</b> </p> <p>要对其应用规则集的报表包。 </p> <p><b>变量</b> </p> <p>创建分类规则集时，只能应用一个变量。如果您要为一个变量创建多个规则集，则必须将每个规则集应用到多个报表包。 </p> <p>注意：您只能使用您在报表包中拥有访问权限的变量。只有在变量至少定义了一个分类后，变量才会在<span class="wintitle">新建规则集</span>面板中显示。 </p> <p>例如，要使<span class="term">页面</span>可以作为一个变量用于规则集，请确保报表包已为<span class="term">页面</span>实施了<a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classifications.html"  >流量分类</a>。 </p> <p> 您可以在<span class="uicontrol">管理员</span> &gt; <span class="uicontrol">报表包</span> &gt; <span class="uicontrol">流量</span> &gt; <span class="uicontrol">流量分类</span>（或<span class="uicontrol">转化</span> &gt; <span class="uicontrol">转化分类</span>）中对变量创建分类。然后选择该变量，并单击<span class="uicontrol">添加分类</span>。 </p> <p>请参阅管理员帮助中的<a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classification_admin.html"  >流量分类</a>和<a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html"  >转化分类</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 激活</span> </p> </td> 
@@ -45,7 +44,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>配置报表包和变量 </p> </td> 
-   <td colname="col2"> <p>显示<span class="wintitle">可用报表包</span>页，其中可以选择一个或多个用于所有规则集的可用报表包。（当您首次运行<span class="wintitle">分类规则生成器</span>时，此页面也会显示。） </p> <p>此功能旨在帮助减少存在成百上千个可用报表包时报表包的加载时间。 </p> <p>The report suites you select here are made available at the rule level, when you click <span class="uicontrol"> Add Suites</span> when creating a rule. </p> <p>注意：仅当报表包在“管 <span class="term"> 理工具</span> ”中至少为变量定义了一个分类时，报表包才 <span class="wintitle"> 可用</span>。 <p>(有关此 <span class="term"> 入门项目的说明，请参</span><a href="/help/components/c-classifications2/crb/classification-rule-set.md"  ></a> 阅分类规则集中的变量。) </p> </p> </td> 
+   <td colname="col2"> <p>显示<span class="wintitle">可用报表包</span>页，其中可以选择一个或多个用于所有规则集的可用报表包。（当您首次运行<span class="wintitle">分类规则生成器</span>时，此页面也会显示。） </p> <p>此功能旨在帮助减少存在成百上千个可用报表包时报表包的加载时间。 </p> <p>创建规则时，当您单击“<span class="uicontrol">添加报表包</span>”后，您在此处选择的报表包将可用于规则级别。 </p> <p>注意：<span class="term">仅</span>当报表包在“<span class="wintitle">管理工具</span>”中至少为变量定义了一个分类时，报表包才可用。 <p>（请参阅<a href="/help/components/c-classifications2/crb/classification-rule-set.md"  >分类规则集</a>中的“<span class="term">变量</span>”，了解关于此先决条件的说明。） </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>规则会覆盖任何现有的值 </p> </td> 
@@ -57,7 +56,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>回顾窗口 </p> </td> 
-   <td colname="col2"> <p>激活并验证规则时，您可以指定规则是否应覆盖受影响键值的现有分类。（只有之前在指定的时间段内传递给 <span class="keyword">Adobe Analytics</span> 的分类键值才会受到影响。） </p> <p>If you to not specify a <span class="term"> lookback window</span>, the rules look back roughly one month (depending on current day of the month.) 现有分类不会被覆盖，除非您启用此选项。 </p> <p><b>开发中心</b>：合作伙伴可以在<span class="wintitle">开发中心</span>创建分类规则。当客户激活集成时，即会部署这些规则。在<span class="wintitle">开发中心</span>，合作伙伴通过<span class="uicontrol">覆盖开始时间</span>选项可以指定客户在激活或编辑集成时，是否能够决定覆盖值。 </p> <p>See <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > How Rules Are Processed</a> for more information about rule processing. </p> </td> 
+   <td colname="col2"> <p>激活并验证规则时，您可以指定规则是否应覆盖受影响键值的现有分类。（只有之前在指定的时间段内传递给 <span class="keyword">Adobe Analytics</span> 的分类键值才会受到影响。） </p> <p>如果您没有指定<span class="term">回顾窗口</span>，则规则大约一个月回顾一次（取决于当前日期）。现有分类不会被覆盖，除非您启用此选项。 </p> <p><b>开发中心</b>：合作伙伴可以在<span class="wintitle">开发中心</span>创建分类规则。当客户激活集成时，即会部署这些规则。在<span class="wintitle">开发中心</span>，合作伙伴通过<span class="uicontrol">覆盖开始时间</span>选项可以指定客户在激活或编辑集成时，是否能够决定覆盖值。 </p> <p>请参阅<a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  >如何处理规则</a>，以了解有关规则处理的详细信息。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > 添加规则 </a> </td> 
