@@ -1,11 +1,10 @@
 ---
 description: 标准报表显示网站和访客活动、流量模式、反向链接数据、广告促销活动、访客维系、产品数据等数据。您可以运行报表，然后使用工具来配置区段、量度和报表比较。
-solution: Analytics
 title: 报表概述
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -100,7 +99,7 @@ c_Statistical_Calculation_ad_hoc.xml
 <table id="table_9EC56B15C6A340DA8917CB0DBCAC2355"> 
  <thead> 
   <tr> 
-   <th colname="col1" align="center" class="entry"> 日期 </th> 
+   <th colname="col1" align="center" class="entry"> 页面 </th> 
    <th colname="col2" align="center" class="entry"> 单次访问 </th> 
    <th colname="col3" align="center" class="entry"> 登录 </th> 
    <th colname="col4" align="center" class="entry"> 跳出率 </th> 
