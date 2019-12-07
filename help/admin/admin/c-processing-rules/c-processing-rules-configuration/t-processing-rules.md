@@ -1,12 +1,11 @@
 ---
 description: 处理规则在报表包中进行设置。
-solution: Analytics
 subtopic: Processing rules
 title: 创建处理规则
 topic: Admin tools
 uuid: fd92e6c9-8ef0-4604-8fd4-4225527b4fa9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,16 +14,16 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 处理规则在报表包中进行设置。
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. 选择 Report Suite.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Processing Rules]**.
-1. On the **[!UICONTROL Processing Rules]** page, click **[!UICONTROL Add Rule]**.
-1. Click **[!UICONTROL Add Condition]** and then select when the rule applies.
+1. 单击 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]**。
+1. 选择报表包。
+1. 单击&#x200B;**[!UICONTROL 编辑设置]** &gt; **[!UICONTROL 常规]** &gt; **[!UICONTROL 处理规则]**。
+1. 在&#x200B;**[!UICONTROL 处理规则]**&#x200B;页面中，单击&#x200B;**[!UICONTROL 添加规则]**。
+1. 单击&#x200B;**[!UICONTROL 添加条件]**，然后选择何时应用规则。
 
-   如果添加多个条件，请单击&#x200B;**[!UICONTROL 全部]下拉框以选择必须匹配哪些条件才应用规则。**&#x200B;如果不添加任何条件，将始终执行定义的操作。
+   如果添加多个条件，请单击&#x200B;**[!UICONTROL 全部]**&#x200B;下拉框以选择必须匹配哪些条件才应用规则。如果不添加任何条件，将始终执行定义的操作。
 
-1. Click **[!UICONTROL Add Action]** and then select the action you want performed when the conditions match.
-1. Add an note that contains details on the rule and then click **[!UICONTROL Save]**.
+1. 单击&#x200B;**[!UICONTROL 添加操作]**，然后选择在条件匹配时要执行的操作
+1. 添加一个包含规则详细信息的说明，然后单击&#x200B;**[!UICONTROL 保存]**。
 
    如果有多个规则，请将它们拖放到页面上以更改处理顺序。
 
