@@ -1,12 +1,11 @@
 ---
 description: 处理规则简化了数据收集，并在数据被发送到报表时对内容进行管理。
 keywords: Analytics Implementation;processing rules;rules
-solution: Analytics
 title: 处理规则
 topic: Developer and implementation
 uuid: 6655a82f-4eb1-4c28-918e-168254ab1f92
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
