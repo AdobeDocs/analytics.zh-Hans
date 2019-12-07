@@ -1,11 +1,10 @@
 ---
 description: 数据仓库可以以Tableau Data Extract(TDE)文件格式传送报表，使您能够从Adobe Analytics外部可视化数据和图层中的其他数据。 您可以通过电子邮件发送此信息，也可以将此信息通过 FTP 发送到 FTP 站点。
-solution: Analytics
 title: 表格数据文件
 topic: Data warehouse
 uuid: 84566ba8-87d8-4c5e-8c31-f659a577848c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
