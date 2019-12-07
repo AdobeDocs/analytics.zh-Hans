@@ -1,10 +1,9 @@
 ---
 description: 数据隐私中的隐私报表的变量。
-solution: Analytics
 title: 隐私报表变量
-topic: 管理工具
-translation-type: ht
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+topic: Admin tools
+translation-type: tm+mt
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -58,13 +57,13 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 已预定义了三个上下文数据变量，以与隐私报表管理保留变量一起使用。需要由每位实施工程师来决定如何管理和保留这些变量的设置。
 
-有关实施上下文数据变量的常规指导，请参阅[上下文数据变量](https://docs.adobe.com/help/zh-Hans/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html)。
+有关实施上下文数据变量的常规指导，请参阅[上下文数据变量](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html)。
 
 ### SSF
 
 * 上下文数据：`contextData.['cm.ssf']`
 * 接受的值：
-   * 1 - 发送值“1”时，这表示服务器端转发处于选择退出状态。与此变量配对的值“1”将阻止与 Adobe Audience Manager 共享此命中。请参阅 [AAM ePrivacy 合规性](https://docs.adobe.com/help/zh-Hans/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)。
+   * 1 - 发送值“1”时，这表示服务器端转发处于选择退出状态。与此变量配对的值“1”将阻止与 Adobe Audience Manager 共享此命中。请参阅 [AAM ePrivacy 合规性](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)。
    * 此参数不接受其他任何值。
 
 ### DMP
