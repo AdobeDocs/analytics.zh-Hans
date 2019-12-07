@@ -1,11 +1,10 @@
 ---
 description: 预设日期允许您选择常用的日期或保存的日期。在请求向导步骤1中，选择预设日期。 以下是Report builder中预设日期的字段定义。
-solution: Analytics
 title: 请求向导定义 - 预设日期
 topic: Report builder
 uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
