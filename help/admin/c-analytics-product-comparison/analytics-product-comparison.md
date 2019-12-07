@@ -1,19 +1,18 @@
 ---
-description: 系统要求，并比较Analysis Workspace、Reports & Analytics、Ad Hoc Analysis、Report Builder、Data Warehouse和Data Workbench
-solution: Analytics
+description: Analysis Workspace、Reports & Analytics、Ad Hoc Analysis、Report Builder、Data Warehouse 和 Data Workbench 的系统要求和比较。
 title: Analytics 产品比较和要求
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Analytics 产品比较和要求
 
-系统要求，并比较Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder、Data Warehouse和Data Workbench
+Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder、Data Warehouse 和 Data Workbench 的系统要求和比较。
 
-For information on which Adobe Analytics product to use, go [here](/help/admin/c-analytics-product-comparison/which-analytics-tool.md).
+有关使用哪种 Adobe Analytics 产品的信息，请转至[此处](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)。
 
 <table id="table_8A42BE3253024552A170F6471B1E4D1D"> 
  <tbody> 
@@ -90,7 +89,7 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
    <td colname="col6"> 是 </td> 
   </tr> 
   <tr> 
-   <td> <b>队列分析</b> </td> 
+   <td> <b>同类群组分析</b> </td> 
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/cohort_analysis.html"> 是 </a> </td> 
    <td> 否 </td> 
    <td> 否 </td> 
