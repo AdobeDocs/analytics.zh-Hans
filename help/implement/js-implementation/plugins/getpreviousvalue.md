@@ -1,13 +1,12 @@
 ---
 description: 在下一页面查看时捕获 Analytics 变量值。例如，您可以使用此插件将上一页面查看的 s.pageName 值捕获到一个自定义流量变量中。它还提供一个选项，可以在只有设置了指定的成功事件时才捕获上一个值。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: getPreviousValue
 topic: Developer and implementation
 uuid: 20da7b4a-9820-4690-a1cc-d10b6dd627a7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
