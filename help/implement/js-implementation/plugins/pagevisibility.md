@@ -1,12 +1,11 @@
 ---
 description: 记录您的页面在浏览器中处于活动选项卡状态的秒数，并将该值传递到下一页面查看的量度中。
 keywords: Analytics Implementation
-solution: Analytics
 title: getPageVisibility
 topic: Developer and implementation
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -37,7 +36,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 `s.pvel` 变量应包含您希望使用的三个事件：
 
-| 事件 | 定义 |
+| Event | 定义 |
 |---|---|
 | 页面可见性总秒数（数值） | 页面在浏览器内处于活动状态的时间 |
 | 页面总秒数（数值） | 页面在浏览器中加载的时间，不考虑它的可见性状态 |
