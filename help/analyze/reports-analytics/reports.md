@@ -1,11 +1,10 @@
 ---
 description: 有关基本报表类型（包括流量、转化和路径）的信息。
-solution: Analytics
 title: 报表类型
 topic: Reports and analytics
 uuid: c1705d98-58f9-4b34-afdf-4afcea01da97
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
