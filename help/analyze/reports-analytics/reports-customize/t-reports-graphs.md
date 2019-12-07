@@ -1,11 +1,10 @@
 ---
 description: 描述如何自定义图表以供预定受众充分使用的步骤。
-solution: Analytics
 title: 更改报表图表
 topic: Reports and analytics
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
