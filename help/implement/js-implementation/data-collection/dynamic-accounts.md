@@ -1,12 +1,11 @@
 ---
 description: 一个 .js 文件，可对其进行配置以自动选择报表包 ID。
 keywords: Analytics Implementation
-solution: Analytics
 title: 报表包 ID - 动态帐户
 topic: Developer and implementation
 uuid: 763a9741-309d-4795-8819-6543866047d5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
