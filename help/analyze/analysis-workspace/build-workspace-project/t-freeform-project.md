@@ -1,37 +1,36 @@
 ---
 description: 创建一个项目并将组件（维度、量度、区段、日期范围）添加到自由格式面板。
 keywords: Analysis Workspace
-solution: Analytics
-title: 创建 Workspace 项目
+title: 创建工作区项目
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# 创建 Workspace 项目
+# 创建工作区项目
 
 创建一个项目并将组件（维度、量度、区段、日期范围）添加到自由格式面板。
 
-在本篇文章中，您可以熟悉 Analysis Workspace 的界面元素，并了解如何创建项目。有关特定用例，请参 [阅Analysis Workspace的用例](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md)。
+在本篇文章中，您可以熟悉 Analysis Workspace 的界面元素，并了解如何创建项目。有关特定用例，请参阅 [Analysis Workspace 的用例](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md)。
 
 ## 创建项目
 
 1. 指定创建和管理项目的用户权限。
 
-   创建或组织 Analysis Workspace 项目之前，管理员必须要将您添加到具有&#x200B;**[!UICONTROL 在 Analysis Workspace 中创建/组织项目]**&#x200B;权限的组，或者添加到&#x200B;**全部报表访问]用户组。[!UICONTROL **( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; [Groups](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)).
+   创建或组织 Analysis Workspace 项目之前，管理员必须要将您添加到具有&#x200B;**[!UICONTROL 在 Analysis Workspace 中创建/组织项目]**&#x200B;权限的组，或者添加到&#x200B;**[!UICONTROL 全部报表访问]**&#x200B;用户组。（**[!UICONTROL 管理员]** &gt; **[!UICONTROL 用户管理]** &gt; [群组](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)）。
 
-1. In the [!DNL Experience Cloud], click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**.
+1. 在 [!DNL Experience Cloud] 中，单击 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 工作区]**。
 
    ![](assets/analysis_workspace_menu.png)
 
-   或者，输入正斜杠 (/) 以打开报表搜索栏，然后键入“分析工作区 *`workspace`*.
+   或者，输入正斜杠 (/) 以打开报表搜索栏，然后键入“分析工作区 *`workspace`*。
 
    ![](assets/analysis-app-search.png)
 
-1. Click **[!UICONTROL Create New Project]**.
+1. 单击&#x200B;**[!UICONTROL 新建项目]**。
 
    您可以选择从以下项创建项目：
 
@@ -41,17 +40,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/start_modal.png)
 
-1. To create a project from a blank project, click **[!UICONTROL Blank Project]**.
+1. 要从空白项目创建项目，请单击&#x200B;**[!UICONTROL 空白项目]**。
 
-   * Then click **[!UICONTROL Create]**, or
-   * Simply click **[!UICONTROL Enter]**.
+   * 然后单击&#x200B;**[!UICONTROL 创建]**，或
+   * 只需按下 **[!UICONTROL Enter]** 键。
    屏幕上会显示空白项目，其中包括一个自由格式面板和一个数据表可视化信息。
 
    ![](assets/fa_project_new.png)
 
    >[!NOTE]
    >
-   >有时，在加载项目（或切换到报表包）时，“不兼容的报表包”消息会显示，其中并非项目中包含的所有组件（度量／维度）都包含在报表包中。 您可以看到不兼容的组件列表，这样便可以了解为什么会收到该消息。
+   >有时候，在加载项目（或切换到报表包）时，如果该项目中的所有组件（量度/维度）并非全部包含在报表包中，将会显示“不兼容的报表包”消息。您可以看到不兼容的组件列表，这样便可以了解为什么会收到该消息。
 
 <table id="table_3989E45D9D4241CBB2E58B29DA257B2F"> 
  <thead> 
@@ -66,7 +65,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col2"> <p>可拖入项目中的维度、量度、区段和日期范围。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > 可视化</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > 可视化图表</a> </td> 
    <td colname="col2"> <p>这些项目可拖至界面上的面板或项目区域中。 </p> </td> 
   </tr> 
   <tr> 
@@ -76,7 +75,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-1. 保存项目。Name the project, provide a description (optional, but useful) and tag the project (optional), then click **[!UICONTROL Save Project]**.
+1. 保存项目。为项目命名，提供描述（可选但很有用）并标记项目（可选），然后单击&#x200B;**[!UICONTROL 保存项目]**。
 
    ![](assets/save_project.png)
 
@@ -86,11 +85,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    >[!NOTE]
    >
-   >复制／另存为后，内部链接现在相对于它们所在的项目，而不是它们从中复制的原始项目。
+   >如今，当您执行“保存”或“另存为”操作后，内部链接都是一些相对于其所在项目的链接，并非相对于以往进行复制的原始项目。
 
 ## 添加组件和可视化 {#task_CDAC9B3007BE4A3790AFAD3746D669B1}
 
-1. 通过拖动和拖到项 *`components`* 目来 *`visualizations`* 构建项目。
+1. 通过将 *`components`* 和 *`visualizations`* 拖动到项目来构建项目。
 
    **组件**
 
@@ -110,11 +109,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> 量度（绿色） </td> 
-   <td colname="col2"> <p>应用于项目级别。 </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> 发生次数</span> ，是数据表的默认度量。 </p> </td> 
+   <td colname="col2"> <p>应用于项目级别。 </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term">发生次数</span>是数据表默认的量度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 区段（蓝色） </td> 
-   <td colname="col2"> <p>只能在面板级别进行拖动，不过，您可以在数据表中创建内联区段。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>有关详 <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  > 细信息，请参阅Analysis Workspace的使用案例</a> 。 </p> </td> 
+   <td colname="col2"> <p>只能在面板级别进行拖动，不过，您可以在数据表中创建内联区段。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>有关更多信息，请参阅 <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  >Analysis Workspace 的用例</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 日期范围和粒度（紫色） </td> 
