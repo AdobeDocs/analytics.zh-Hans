@@ -1,12 +1,11 @@
 ---
 description: 针对变量设置某个值的次数。
 keywords: instances
-solution: Analytics
 title: 实例
 topic: Metrics
 uuid: fec94bdd-a1dc-4cb0-8983-ea575b69589f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 针对变量设置某个值的次数。
 
-所有点击类型都会计算实例数，但是在后续点击上针对变量记录值时将不计算实例数量，因为这会一直存留。
+实例 对于所有点击类型进行计数，但是当由于持久性而在后续点击上为变量记录值时，不进行计数。
 
 例如，如果用户通过 [!DNL example.com] 访问到您的网站，则您网站上的第一个图像请求包含了 [!DNL example.com] 反向链接。设置此值后，一个实例将归属于 [!DNL example.com]，即使针对该次访问期间查看的所有页面记录此反向链接也不例外。
 
