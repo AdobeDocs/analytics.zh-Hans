@@ -1,11 +1,10 @@
 ---
 description: 显示有关向您的网站导引流量的网络位置信息。您可以看到哪些搜索引擎和域外网站向您的网站导引访客。
-solution: Analytics
 title: 流量源
 topic: Reports
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -58,7 +57,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> 所有搜索页面排名 </td> 
-   <td colname="col2"> <p> 显示所有访客搜索列表中网站的排名，包括付费和自然搜索页面排名数据。 </p> <p>例如，通过搜索引擎到达您网站的用户可能会发现您的网站位于 100 个结果页面的第 3 位。这将有助于您快速了解搜索引擎的效果并进行优化。该报表中的数据可依照除<span class="wintitle">“每小时”</span>之外的任意时段查看。 </p> </td> 
+   <td colname="col2"> <p> 显示您的网站在所有访客搜索列表中的排名，包括付费和免费的搜索页面排名数据。 </p> <p>例如，通过搜索引擎到达您网站的用户可能会发现您的网站位于 100 个结果页面的第 3 位。这将有助于您快速了解搜索引擎的效果并进行优化。该报表中的数据可依照除<span class="wintitle">“每小时”</span>之外的任意时段查看。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 反向链接域名 </td> 
@@ -70,16 +69,16 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> 反向链接 </td> 
-   <td colname="col2"> <p> 显示访客在进入网站前所在的域或 URL、访客找到网站的方法、以及经由这些反向链接位置对您网站的访问次数。 </p> <p>例如，如果访客点击网站 A 上的链接后转至您的网站，则网站 A 为反向链接（如果它未定义为属于您的域）。在实施过程中，实施顾问可帮助您定义属于您网站的域和 URL（这也可在实施后进行）。任何不属于这些已定义域和 URL 的域或 URL 会视为反向链接。 </p> <p>例如，若网页 A 和网页 B 已添加至内部 URL 过滤器（但网页 C 没有），则网页 C 会视为反向链接。 </p> <p>请参阅 <a href="/help/admin/admin/internal-url-filter-admin.md"> 内部 URL 过滤器</a></p>  <p>Note: Analytics records a referring domain as an email when visitors click an emailed message link containing the protocol <code> imap://</code> or <span class="filepath"> mail://</span> and arrive at your site. </p> <p>For example, anything coming from <code> https://mail.yahoo.com</code> is not counted as an email referrer because the protocol is <span class="filepath"> https://</span>. Outlook 电子邮件会在<span class="wintitle">“键入/书签式”</span>行报告，而任何采用 HTTP 协议（域为已知搜索引擎）的反向链接均报告于<span class="wintitle">“搜索引擎”</span>行上。 </p> </td> 
+   <td colname="col2"> <p> 显示访客在进入网站前所在的域或 URL、访客找到网站的方法、以及经由这些反向链接位置对您网站的访问次数。 </p> <p>例如，如果访客点击网站 A 上的链接后转至您的网站，则网站 A 为反向链接（如果它未定义为属于您的域）。在实施过程中，实施顾问可帮助您定义属于您网站的域和 URL（这也可在实施后进行）。任何不属于这些已定义域和 URL 的域或 URL 会视为反向链接。 </p> <p>例如，若网页 A 和网页 B 已添加至内部 URL 过滤器（但网页 C 没有），则网页 C 会视为反向链接。 </p> <p>请参阅<a href="/help/admin/admin/internal-url-filter-admin.md">内部 URL 过滤器</a></p>  <p>注意：访客单击经电子邮件发送的消息链接（包含协议 <code> imap://</code> 或 <span class="filepath">mail://</span>）并进入网站后，Analytics 会将反向链接域名记录为电子邮件。 </p> <p>例如，由于协议为 <span class="filepath">https://</span>，因此来自 <code> https://mail.yahoo.com</code> 的任何消息均不会计为电子邮件反向链接。Outlook 电子邮件会在<span class="wintitle">“键入/书签式”</span>行报告，而任何采用 HTTP 协议（域为已知搜索引擎）的反向链接均报告于<span class="wintitle">“搜索引擎”</span>行上。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 反向链接类型 </td> 
-   <td colname="col2"> <p> 通过跟踪和记录访客每次访问的引用网站，可以确定访客每次访问时如何找到您的网站。 下面列出有关不同类型访问来源的定义。 </p> 
+   <td colname="col2"> <p> 通过跟踪和记录访客每次访问的反向链接网站，可以确定访客每次访问时如何找到您的网站。下面列出有关不同类型访问来源的定义。 </p> 
     <ul id="ul_981E224B63A44893BFCCE4110BA941F7"> 
      <li id="li_9CF3A37599D24C628E1FD9C5F014DF0F"> 硬盘反向链接会在访客点击 HTML 文档（位于其硬盘上）中的链接时进行记录，因而会转到您的网站。 </li> 
      <li id="li_7B48C857AE0A48E5A35A73A00B039328"> 其他网站反向链接，在访客点击其他网站（并非定义为您的网站的一部分）页面上的链接，然后转到您的网站时进行记录。 </li> 
      <li id="li_87BCF837F21B43C0B4C9C97C4CBF69A2"> 搜索引擎反向链接，在访客使用搜索引擎来访问您的网站时进行记录。 </li> 
-     <li id="li_14A94FA2F4A44F47A810A86F94896162"> 当访客在浏览器中直接键入您网站的URL或通过选择书签访问您的网站时，会记录“输入／添加书签”引用网站。 </li> 
+     <li id="li_14A94FA2F4A44F47A810A86F94896162"> “键入/书签式”反向链接在以下两种情形下进行记录：访客在其浏览器中直接键入您网站的 URL，或者访客通过选择书签来访问您的网站。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
