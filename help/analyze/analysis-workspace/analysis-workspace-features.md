@@ -1,32 +1,31 @@
 ---
 keywords: Analysis Workspace
-solution: Analytics
-title: Analysis Workspace概述
+title: Analysis Workspace 概述
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Analysis Workspace概述
+# Analysis Workspace 概述
 
 Analysis Workspace 去除了单一 Analytics 报表存在的所有典型限制。它提供了一个功能强大而灵活的画布，用于构建自定义分析项目。您可以向一个项目拖放任意数量的数据表、可视化信息和组件（维度、量度、区段和时间粒度）。可以即时创建划分和区段、创建用于分析的同类群组、创建警报、比较区段、进行流量和流失分析，并且组织和计划报表以与公司的其他人员共享。
 
-**[!UICONTROL “分析]** ”&gt;“工 **[!UICONTROL 作区”]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 工作区]**
 
-## Overview video {#section_B99BF8A326D94ECB91BD69C9888AD10C}
+## 概述视频 {#section_B99BF8A326D94ECB91BD69C9888AD10C}
 
 >[!VIDEO](https://www.youtube.com/watch?v=IHOy-QsvVcA)
 
-完整的 Youtube 播放列表可在[此处](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)获得。
+完整的 YouTube 播放列表可在[此处](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)获得。
 
 >[!NOTE]
 >
->See [What's New in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) for updates about features.
+> 请参阅 [Analysis Workspace 中的新增功能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)以获取相关功能更新。
 
-## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
+## 实现项目元素和组件的全面控制 {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
 Analysis Workspace 可以提供自由和灵活性。
 
@@ -38,7 +37,7 @@ Analysis Workspace 可以提供自由和灵活性。
 
 请参阅[创建一个 Analysis Workspace 项目](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)，以了解更多信息。
 
-## Multiple visualizations in a project {#section_B7670740C2D44130B21DAF0873280DA5}
+## 在一个项目中显示多种可视化信息 {#section_B7670740C2D44130B21DAF0873280DA5}
 
 您可以根据需要，在项目中拖放多种可视化信息。
 
@@ -48,11 +47,11 @@ Analysis Workspace 可以提供自由和灵活性。
 
 ![](assets/visualizations-multiple02.png)
 
-See [Create an Analysis Workspace project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) for more information.
+请参阅[创建一个 Analysis Workspace 项目](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)，以了解更多信息。
 
-## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
+## 内部链接到面板和可视化 {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](/help/analyze/analysis-workspace/visualizations/text.md) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. 您可以像共享项目链接一样共享这些链接，以将某个人定向到项目中的特定可视化或面板。新增了名为“获取面板链接”和“获取可视化链接”的右键单击选项。 要将内部链接添加到您的项目，请执行以下操作：
+要与 Analysis Workspace 的[富文本编辑](/help/analyze/analysis-workspace/visualizations/text.md)功能一起使用，您可以从文本框向下链接到项目中的特定面板和可视化图表，如创建项目目录。您可以像共享项目链接一样共享这些链接，以将某个人定向到项目中的特定可视化或面板。新增了名为“获取面板链接”和“获取可视化图表链接”的右键单击选项。要将内部链接添加到您的项目，请执行以下操作：
 
 1. 将文本可视化拖到项目中可能需要某些上下文的可视化或表格旁边。
 1. 使用相关内容（例如目录）填充文本框，然后突出显示要链接到面板或可视化的项目，例如“成功量度”。
@@ -60,7 +59,7 @@ In conjunction with the [rich text editing](/help/analyze/analysis-workspace/vis
    ![](assets/intra-linking1.png)
 
 1. 滚动到该面板或可视化，并右键单击面板的标题。
-1. Scroll down and select **[!UICONTROL Get Panel Link]** or **[!UICONTROL Get Visualization Link]**:
+1. 向下滚动并选择&#x200B;**[!UICONTROL 获取面板链接]**&#x200B;或&#x200B;**[!UICONTROL 获取可视化图表链接]**：
 
    ![](assets/intra-linking2.png)
 
@@ -68,29 +67,29 @@ In conjunction with the [rich text editing](/help/analyze/analysis-workspace/vis
 
 如果您在项目中折叠了面板或可视化，则单击链接将可展开该面板/可视化信息，以便用户可以看到它。
 
-> [!NOTE] 您还可以在“编辑说明”右键单击选 **[!UICONTROL 项中使用]** 此功能。
+> [!NOTE] 您还可以在&#x200B;**[!UICONTROL 编辑说明]**&#x200B;右键单击选项内使用此功能。
 
-## Link to other projects {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
+## 链接到其他项目 {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
 
-You can link users to other projects that may be of interest to them by going to  **[!UICONTROL Share]** &gt; **[!UICONTROL Get Project Link]** and embedding this link in project descriptions, for example.
+您可以将用户链接到其可能感兴趣的其他项目，方法是转到&#x200B;**[!UICONTROL 共享]** &gt; **[!UICONTROL 获取项目链接]**，并嵌入此链接，例如嵌入到项目描述中。
 
-## Dynamic visualization of selected cells {#section_182CEC285E4547EBA4608D5F70C9D5D7}
+## 查看选定单元格的动态可视化信息 {#section_182CEC285E4547EBA4608D5F70C9D5D7}
 
 可选择若干单元格，查看这些单元格可视化信息的动态变化情况。可[同步并锁定](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_9D66A001586F49CEB0C565581E44957C)选定单元格的可视化信息。
 
 ![](assets/visualize-selected-cells.png)
 
-## Lock selected items or positions {#section_9D66A001586F49CEB0C565581E44957C}
+## 锁定选定项目或位置 {#section_9D66A001586F49CEB0C565581E44957C}
 
 通过锁定可视化信息可以控制与其对应的自由格式数据表来源。
 
 ![](assets/manage-data-source.png)
 
-请参阅 [管理数据源](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
+请参阅[管理数据源](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)。
 
-## Trend visualizations from selected cells {#section_34930C967C104C2B9092BA8DCF2BF81A}
+## 呈现选定单元格的趋势可视化信息 {#section_34930C967C104C2B9092BA8DCF2BF81A}
 
-创建选定单元格的可视化信息。(Right-click &gt; **[!UICONTROL Trend Selection]**.)
+创建选定单元格的可视化信息。（右键单击 &gt; **[!UICONTROL 趋势选择]**。）
 
 ![](assets/trend-selection.png)
 
@@ -98,15 +97,15 @@ You can link users to other projects that may be of interest to them by going to
 
 ![](assets/trend-selection2.png)
 
-## Dimensions and dimension item breakdowns {#section_1380C1F9E51E4BFB8C5D35E7A53BC70D}
+## 维度和维度项目划分 {#section_1380C1F9E51E4BFB8C5D35E7A53BC70D}
 
 作为零售商，您能够采取比以往更加深入的方式来调研促销活动，了解怎样可以更好地吸引客户。您可以采用任何方式，无限制地划分数据以满足自己的特定需求；使用相关的量度、维度、区段、时间线以及其他分析划分值来构建查询。
 
 ![步骤结果](assets/fa_data_table_actions.png)
 
-See [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
+请参阅[划分维度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
 
-## Segments from table selections {#section_73BC3688089B426D969B3D5B606DA970}
+## 根据表的选定内容创建区段 {#section_73BC3688089B426D969B3D5B606DA970}
 
 选择自由格式表中的单元格，然后根据选定的内容创建区段。
 
@@ -118,9 +117,9 @@ See [Break down dimensions](/help/analyze/analysis-workspace/components/dimensio
 
 ![](assets/segment-panel.png)
 
-请参阅 [区段](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md).
+请参阅[区段](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)。
 
-## Project and component tagging {#section_F54D688132A541F2982326D5E022B90D}
+## 在项目和组件中应用标记 {#section_F54D688132A541F2982326D5E022B90D}
 
 可将标记应用到 Analysis Workspace 的项目和组件中：
 
@@ -129,21 +128,21 @@ See [Break down dimensions](/help/analyze/analysis-workspace/components/dimensio
 * 从“组件”面板中右键单击组件，可应用（或创建）标记。
 * 在搜索栏中使用“#”可查找标记。
 
-## Component actions {#section_CBF4D0A5F63E4B0883077B8D852B800B}
+## 组件操作 {#section_CBF4D0A5F63E4B0883077B8D852B800B}
 
-从位于组件左边栏顶部的“操作”菜单执行组件级别的操作。选择某个组件并单击&#x200B;**[!UICONTROL 操作]可查看相关操作。**
+从位于组件左边栏顶部的“操作”菜单执行组件级别的操作。选择某个组件并单击&#x200B;**[!UICONTROL 操作]**&#x200B;可查看相关操作。
 
 | 组件操作 | 描述 |
 |--- |--- |
-| 标记 | 通过对组件应用标记来组织或管理组件。然后它会显示在相应的组件管理器中，如 Analytics &gt; 组件 &gt; 区段，或 Analytics &gt; 组件 &gt; 项目 |
-| 收藏 | 将组件添加到您的收藏夹列表中。然后它会显示在相应的组件管理器中，如 Analytics &gt; 组件 &gt; 区段，或 Analytics &gt; 组件 &gt; 项目  . |
-| 批准 | 批准组件以使其成为规范。然后它会显示在相应的组件管理器中，如 Analytics &gt; 组件 &gt; 区段，或 Analytics &gt; 组件 &gt; 项目 |
+| 标记 | 通过对组件应用标记来组织或管理组件。然后它会显示在相应的组件管理器中，如“Analytics”&gt;“组件”&gt;“区段”，或“Analytics”&gt;“组件”&gt;“项目” |
+| 收藏 | 将组件添加到您的收藏夹列表中。然后它会显示在相应的组件管理器中，如“Analytics”&gt;“组件”&gt;“区段”，或“Analytics”&gt;“组件”&gt;“项目”。 |
+| 批准 | 批准组件以使其成为规范。然后它会显示在相应的组件管理器中，如“Analytics”&gt;“组件”&gt;“区段”，或“Analytics”&gt;“组件”&gt;“项目” |
 | 共享 | 仅适用于区段。 |
 | 删除 | 仅适用于区段。 |
 
 请参阅[可视化](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)，以了解更多信息。
 
-## Additional feature descriptions {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
+## 关于其他功能的描述 {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
 
 **拖动和堆叠项**
 
@@ -164,7 +163,7 @@ See [Break down dimensions](/help/analyze/analysis-workspace/components/dimensio
 * 排序日期范围预设（不包括自定义日期范围）。
 * 按住 Ctrl（或 Command），单击并拖动可复制该列，拖动复制的列会将其粘贴至表中的新位置。
 
-See [Hotkeys Available in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) for more information.
+请参阅 [Analysis Workspace 中可用的热键](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)，以获取更多信息。
 
 **选择并操作**
 
@@ -182,7 +181,7 @@ See [Hotkeys Available in Analysis Workspace](/help/analyze/analysis-workspace/b
 
 **所有访问**
 
-Analysis Workspace 特有的默认区段。*`All Visits`*&#x200B;显示您添加到数据表中的组件的所有访问次数。
+Analysis Workspace 特有的默认区段。*`All Visits`* 显示您添加到数据表中的组件的所有访问次数。
 
 **计算量度**
 
