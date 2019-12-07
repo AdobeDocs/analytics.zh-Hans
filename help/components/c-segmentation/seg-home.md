@@ -1,12 +1,11 @@
 ---
 description: Adobe Analytics 允许您使用各种 Analytics 功能、Adobe Experience Cloud、Adobe Target 和其他集成的 Adobe 产品生成、管理和共享强大而集中的受众区段并将它们应用到您的报表中。
 keywords: segmentation;segments
-solution: Analytics
 title: Analytics 分段
 topic: Segments
 uuid: 845c1743-1264-4090-bccc-78830477f52e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,4 +22,4 @@ Analytics 区段包括[区段生成器](/help/components/c-segmentation/c-segmen
 
 **快速入门**
 
-从设 [置分段工作流或构建](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) 区段开始 [，或参阅关](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)于区段 [](/help/components/c-segmentation/seg-overview.md) ，以获得快速概述。
+从[设置分段工作流程](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)或[生成区段](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)开始，或者，参阅[关于区段](/help/components/c-segmentation/seg-overview.md)以查看快速概述。
