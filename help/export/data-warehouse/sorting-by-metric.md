@@ -1,10 +1,9 @@
 ---
 description: 在 Data Warehouse 中提供排名的划分报表（按量度值从大到小排序）。
-solution: Analytics
 title: 按量度排序
 uuid: 07da2607-b3fd-463b-90d4-6884a93c7e25
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
