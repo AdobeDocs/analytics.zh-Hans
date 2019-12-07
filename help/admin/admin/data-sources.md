@@ -1,11 +1,10 @@
 ---
 description: “数据源”功能允许您将数据从离线资源导入 Analytics。导入后，对这些数据的处理方式即类似于从本地收集的数据。
-solution: Analytics
 title: 数据源
 topic: Admin tools
 uuid: eab8a22b-5471-4922-b246-c991814c4b8b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
