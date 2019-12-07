@@ -1,11 +1,10 @@
 ---
 description: 显示促成客户访问网站的原始反向链接。由于客户可以多次访问网站，并且每次访问都使用不同的反向链接，因此原始反向链接域会显示客户首次到达您网站时使用的反向链接信息。此维度仅按基本域名（如 aol.com、yahoo.com 等）列出反向链接。
-solution: Analytics
 title: 原始反向链接域名
 topic: Reports
 uuid: 4a21c2a2-8507-4d25-8d75-f5a5a20409b0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
