@@ -1,11 +1,10 @@
 ---
 description: 脱机模式会返回占位符数据，从而加快创建和编辑请求的过程。
-solution: Analytics
 title: 用于创建和编辑请求的脱机模式
 topic: Report builder
 uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
