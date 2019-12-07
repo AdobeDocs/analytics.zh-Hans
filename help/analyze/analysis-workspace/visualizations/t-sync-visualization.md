@@ -1,12 +1,11 @@
 ---
 description: 通过同步可视化信息，您可以控制与可视化对应的数据表或数据源。
 keywords: Analysis Workspace;Synchronize visualization with data source
-solution: Analytics
 title: 管理数据源
 topic: Reports and analytics
 uuid: 7bacf497-a933-463a-bf9d-f6d0c5de0cba
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,9 +18,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 管理数据源允许您显示数据源或锁定选择。这些设置决定了当有新数据输入时，可视化发生更改（或不发生更改）的方式。
 
-1. [使用数据表](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) 和可视化创建项 [目](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)。
+1. [创建项目](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)，其中包含一个数据表和一个[可视化](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)。
 1. 在数据表中，选择要和可视化信息关联的单元格（数据源）。
-1. In the visualization, click the dot next to the title to bring up the **[!UICONTROL Data Source]** dialog. Select **[!UICONTROL Show Data Source]** or **[!UICONTROL Lock Selection]**.
+1. 在可视化中，单击标题旁边的圆点，打开&#x200B;**[!UICONTROL 数据源]**&#x200B;对话框。选择&#x200B;**[!UICONTROL 显示数据源]**&#x200B;或&#x200B;**[!UICONTROL 锁定选择]**。
 
    ![](assets/manage-data-source.png)
 
@@ -33,7 +32,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 显示数据源 | 允许您显示（启用复选框）或隐藏（禁用复选框）与可视化对应的数据表。 |
 | 锁定选择 | 启用此设置后，可将可视化锁定到相应数据表中当前选择的数据。启用后，您可以选择以下两项：  <ul><li>**选定位置**：如果您要将可视化持续锁定在相应数据表内所选择的位置上，可选择此选项。即使这些位置中的具体项目发生更改，这些位置仍将继续保持可视化状态。例如，如果您要始终显示此可视化中前五个促销活动名称，而无论具体是哪些促销活动名称显示在前五位，就可以选择此选项。</li> <li>**选定项目**：如果您要将可视化持续锁定在相应数据表内当前所选定的项目中，可选择此选项。即使这些项目更改了它们在表中的排名，仍将继续保持可视化状态。例如，如果您要始终显示此可视化中某五个特定促销活动名称，而无论这些促销活动名称的排名如何，就可以选择此选项。</li></ul> |
 
-此架构与之前的架构不同，因为Analysis Workspace不再创建可为您存储锁定选择的重复隐藏表。 现在，数据源指向用于创建可视化的表格。
+此新架构与上一个架构的不同之处在于，Analysis Workspace 不再创建用于存储锁定选择的重复隐藏表格。现在，数据源指向用于创建可视化的表格。
 
 **用例示例：**
 
