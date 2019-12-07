@@ -1,12 +1,11 @@
 ---
 description: 处理规则简化了数据收集，并在数据被发送到报表时对内容进行管理。
-solution: Analytics
 subtopic: Processing rules
 title: 处理规则概述
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -34,14 +33,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 1. 如果您还没有这么做，[请创建一个群组](/help/admin/user-management2/c-user-groups/groups.md)，其中只包含那些应当有权使用处理规则的非管理员。
 1. [将非管理员添加到该组](/help/admin/user-management2/c-user-management/t-add-user-to-group.md)。
-1. Then go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]** &gt; **[!UICONTROL [group name]]** &gt; **[!UICONTROL Edit]** &gt; **[!UICONTROL Report Access]** &gt; **[!UICONTROL Report Suite Tools]** &gt; **[!UICONTROL Customize]** &gt; **[!UICONTROL Report Suite Management]**.
-1. Check the box next to [!UICONTROL Processing Rules] and click **[!UICONTROL OK]**.
+1. 然后转到 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 用户管理]** &gt; **[!UICONTROL 群组]** &gt; **[!UICONTROL [群组名称]]** &gt; **[!UICONTROL 编辑]** &gt; **[!UICONTROL 报表访问]** &gt; **[!UICONTROL 报表包工具]** &gt; **[!UICONTROL 自定义]** &gt; **[!UICONTROL 报表包管理]**。
+1. 选中[!UICONTROL 处理规则]旁边的框，然后单击&#x200B;**[!UICONTROL 确定]**。
 
 ![](assets/processing-rules.png)
 
 >[!IMPORTANT]
 >
->由于处理规则会永久影响Analytics数据，我们强烈建议处理规则管理员在Adobe Analytics中接受认证培训，并熟悉报表包的所有数据源（标准网站、移动站点、移动应用程序、数据插入API等）。 了解有关在各种平台内填充的上下文数据变量和标准变量的知识，将有助于防止数据被意外删除或更改。
+>由于处理规则会永久影响 Analytics 数据，我们强烈建议处理规则的管理员参加 Adobe Analytics 的认证培训，并熟悉报表包的所有数据源（标准网站、移动设备网站、移动设备应用程序、数据插入 API 等）。了解有关在各种平台内填充的上下文数据变量和标准变量的知识，将有助于防止数据被意外删除或更改。
 
 ## 使用上下文数据简化数据收集 {#section_09EEA03612D24C15839631AA9E9668D8}
 
@@ -59,4 +58,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 在您的实施中定义上下文数据变量后，必须将这些变量复制到 eVar 等变量中，才能在报表中使用。
 
-有关详细信息，请访问 [这里](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) , [这里](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)。
+有关详细信息，请访问[此处](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)和[此处](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)。
