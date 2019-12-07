@@ -1,11 +1,10 @@
 ---
 description: Web 服务 API 可通过编程方式访问市场营销报告及其他“包”服务，从而让您以其他方式使用通过 Analytics 界面提供的功能，以及实现更多功能。
-solution: Analytics
 title: Web 服务
 topic: Admin tools
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Web 服务 API 可通过编程方式访问市场营销报告及其他“包”服务，从而让您以其他方式使用通过 Analytics 界面提供的功能，以及实现更多功能。
 
-**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理员]** &gt;公司 **[!UICONTROL 设置]** &gt; **[!UICONTROL Web服务]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 公司设置]** &gt; **[!UICONTROL Web 服务]**
 
 ## 管理 Web 服务
 
@@ -22,7 +21,7 @@ Web 服务 API 可通过编程方式访问市场营销报告及其他“包”�
 
 ## WSDL：为 Web 服务开发人员下载 Web 服务 API WSDL。
 
-访 [问Adobe I/O](https://www.adobe.io/apis/experiencecloud/analytics.html)，它提供与Web服务API相关的文档、示例代码和论坛。 有关更多信息，请单击 Web 服务 API 概述。
+访问 [Adobe I/O](https://www.adobe.io/apis/experiencecloud/analytics.html)，其中提供了与 Web 服务 API 相关的文档、示例代码和论坛。有关更多信息，请单击 Web 服务 API 概述。
 
 ## 筛选选项
 
