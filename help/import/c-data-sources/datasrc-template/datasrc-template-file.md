@@ -1,12 +1,11 @@
 ---
 description: 有关数据源模板的信息，该模板提供了一个数据框架，可用于将一组特定的外部数据提交到数据源。
-solution: Analytics
 subtopic: Data sources
 title: 数据源模板概述
 topic: Developer and implementation
 uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
