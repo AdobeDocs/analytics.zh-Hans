@@ -1,12 +1,11 @@
 ---
 description: 管理计划的 Analysis Workspace 项目。
 keywords: Analysis Workspace
-solution: Analytics
 title: 计划项目管理器
 topic: Reports and analytics
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,13 +14,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 管理计划的 Analysis Workspace 项目。
 
-**[!UICONTROL Analytics]** &gt;组 **[!UICONTROL 件]** &gt;计 **[!UICONTROL 划项目]**。
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 组件]** &gt; **[!UICONTROL 计划项目]**。
 
 ![](assets/components-scheduled-projects.png)
 
 在计划项目管理器中，您可以编辑和删除重复的项目提交。您可以创建提交计划，通过电子邮件将报表发送至指定位置。您可以将这些计划配置为以指定间隔在某个时间段或不定时地自动发送报表，或停止提交重复性的项目。
 
-“计划项目管理器”显示特定用户已创建的项目。 若应用程序中禁用此用户帐户，则会停止所有计划的提交。
+计划项目管理器可显示特定用户已创建的项目。若应用程序中禁用此用户帐户，则会停止所有计划的提交。
 
 ![](assets/scheduled-projects.png)
 
