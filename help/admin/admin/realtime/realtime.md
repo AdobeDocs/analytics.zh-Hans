@@ -1,11 +1,10 @@
 ---
 description: 实时显示 Web 页面流量和并对页面查看次数进行排名。提供制定业务决策所需的可操作数据。
-solution: Analytics
 title: 实时报表
 topic: Reports
 uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,9 +13,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 实时显示 Web 页面流量和并对页面查看次数进行排名。提供制定业务决策所需的可操作数据。
 
-> [!NOTE] 实时报告无需额外实施或标记。 它可以充分利用您现有的 Adobe Analytics 实施。要配置实时报表，请参阅 [实时报表配置](/help/admin/admin/realtime/t-realtime-admin.md).
+> [!NOTE] 实时报表不需要额外实施或添加标签。它可以充分利用您现有的 Adobe Analytics 实施。要配置实时报表，请参阅[实时报表配置](/help/admin/admin/realtime/t-realtime-admin.md)。
 
-**[!UICONTROL 网站指标]** &gt; **[!UICONTROL 实时]**
+**[!UICONTROL 网站量度]** &gt; **[!UICONTROL 实时]**
 
 实时回答以下问题：我的网站上有什么趋势，为什么？它可以让营销人员快速响应并主动管理营销内容和促销活动的表现。报告的实时数据延迟不超过两分钟，并且会每分钟自动更新。
 
@@ -40,7 +39,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * 例如，将上周的值与上一年的值（以及当日的总计值）进行比较。
 
-请记住，由于没有持续性的概念，eVar（转化量度）不受支持。但是您可以选择转化量度，这些量度仅在与维度设置在同一个页面时，才起作用。有关详细信息，请参阅 设 [置实时报告](/help/admin/admin/realtime/t-realtime-admin.md)。
+请记住，由于没有持续性的概念，eVar（转化量度）不受支持。但是您可以选择转化量度，这些量度仅在与维度设置在同一个页面时，才起作用。有关详细信息，请参阅[设置实时报表](/help/admin/admin/realtime/t-realtime-admin.md)。
 
 仅管理员或“全部报表访问”和“高级报表”权限组中的所有用户有权设置和查看实时报表。而且，实时报表确实遵守权限设置。例如，如果您没有查看收入的权限，也便无法查看其中包含收入数据的实时报表。
 
