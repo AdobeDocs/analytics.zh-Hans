@@ -1,11 +1,10 @@
 ---
 description: 按设备支持的视频格式类型对移动设备进行分组。例如，如果访客的移动设备支持 .mp4，那么在访问网站后，视频支持报表至少递增 1。如果移动电话支持多种视频格式（如 .mp4、.wmv），报表中的这些组将递增。这样，群组总数可能大于报表底部显示的总数。
-solution: Analytics
 title: 视频支持
 topic: Reports
 uuid: a1dcf60a-a1e5-4a0c-9aec-3fadc71c22c1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
