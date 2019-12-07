@@ -1,12 +1,11 @@
 ---
 description: 表示一系列的页面查看操作。访问量度通常用在显示选定时段内用户会话数量的报表中。
 keywords: visit
-solution: Analytics
 title: 访问
 topic: Metrics
 uuid: 91317487-f116-4546-8cd2-421418c49a7a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 表示一系列的页面查看操作。访问量度通常用在显示选定时段内用户会话数量的报表中。
 
-> [!NOTE] 有关如何计算访问和移动应用程序启动次数的信息，请参 [阅知识库中的比较访问和移动应用程序启动](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html) 。
+> [!NOTE] 有关访问量和移动设备应用程序启动次数计算方式的信息，请参阅知识库中的[比较访问量和移动设备应用程序启动次数](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html)。
 
 访问量度始终与某个时段关联，因此当同一访客返回您的站点时，您可以知道是否将其认为是新的访问。会话在用户首次到达您的网站时开始，并在遇到以下情况之一时结束：
 
@@ -24,7 +23,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * **2500 次点击：**&#x200B;如果用户在不启动新会话的情况下生成大量的点击次数，那么在 2500 次图像请求后会认为是新的访问。
 * **100 秒内 100 次点击**：如果某次访问在 100 秒内有超过 100 次点击，那么该次访问将自动结束。此行为通常是机器人行为，我们会强制执行该限制，以避免这些频繁处理的访问造成延迟增加以及生成报表的时间增加。
 
-> [!NOTE] 如果特别请求，可以缩短报表包的访问定义，但不能延长访问定义。 请让贵组织的一位受支持用户联系客户关怀，以请求此更改。
+> [!NOTE] 如果特别要求，可为报表包缩短访问的定义，但无法将其加长。请让贵组织的一位受支持用户联系客户关怀，以请求此更改。
 
 在遇到以下情况时，不会开始新的访问：
 
@@ -35,7 +34,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 当某访问结束时，与该访问到期有关的所有变量都将过期，并且不再持续存在。访问量量度将在该访客的下次访问时递增。
 
-> [!NOTE] 如果您使用Analytics作为Adobe Target的报告源，请参阅文档中的 [A4T中的“最小化夸大访问和访客计数](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) ” [!DNL Target] 。
+> [!NOTE] 如果您将 Analytics 用作 Adobe Target 的报表源，请参阅 [!DNL Target] 文档中的[在 A4T 中最大限度地减少夸大的访问和访客计数](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html)。
 
 有关详细信息，请参阅《Adobe Analytics 实施指南》中的[识别独特访客](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_overview.html)。
 
