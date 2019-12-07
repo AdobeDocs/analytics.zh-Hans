@@ -1,11 +1,10 @@
 ---
 description: '以下是数据馈送处理和提交的最佳实践。您应该 '
 keywords: Data Feed;best practices;traffic spike;hourly;ftp
-solution: Analytics
 title: 最佳实践和常规信息
 uuid: f2d6c13a-5d4e-4fc2-8baa-28c69f0cf5f6
 translation-type: tm+mt
-source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
