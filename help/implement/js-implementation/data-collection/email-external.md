@@ -1,12 +1,11 @@
 ---
 description: 公司使用 Analytics 来确定电子邮件促销活动的成功与否。
 keywords: Analytics Implementation
-solution: Analytics
 title: 外部电子邮件跟踪
 topic: Developer and implementation
 uuid: fa450f45-14cf-4d0d-a87c-14a946512a9b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
