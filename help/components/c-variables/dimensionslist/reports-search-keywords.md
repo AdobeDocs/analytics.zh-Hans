@@ -1,11 +1,10 @@
 ---
 description: 显示搜索关键词的划分。
-solution: Analytics
 title: 搜索关键词
 topic: Reports
 uuid: db9d477b-b711-4b93-9c25-3aebe5f2ace6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -22,7 +21,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->对于付费和自然搜索，搜索引擎停止（在大多数情况下）作为引用的一部分提供搜索关键字。 因此，Adobe 始终会将 Google（或 Bing、Yahoo）域分类为搜索。根据反向链接的格式和内容（甚至不含关键词），Adobe 通常可确定它是否为搜索的结果，因此搜索将在没有关键词的情况下进行计数。[更多信息...](https://helpx.adobe.com/analytics/kb/keyword-unavailable.html)
+>对于付费和免费搜索，搜索引擎都已停止在反向链接中提供（大多数情况下）搜索关键词。因此，Adobe 始终会将 Google（或 Bing、Yahoo）域分类为搜索。根据反向链接的格式和内容（甚至不含关键词），Adobe 通常可确定它是否为搜索的结果，因此搜索将在没有关键词的情况下进行计数。[更多...](https://helpx.adobe.com/analytics/kb/keyword-unavailable.html)
 
 ## 分配、过期和特殊值 {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
 
@@ -65,7 +64,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 报表历史记录 {#section_6C0FCEA9DAF04D97BA056E153B7E4628}
 
-| 日期 | 更改 |
+| 页面 | 更改 |
 |---|---|
 | 2014 年 1 月 16 日 | Data Warehouse 已更新，以匹配 Marketing Reports &amp; Analytics 所用的逻辑。在此日期之前，搜索关键词在整个访问期间并非持续存在。 |
 
