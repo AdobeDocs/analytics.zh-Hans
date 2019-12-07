@@ -1,18 +1,17 @@
 ---
 description: 显示访客进行“全部”、“付费”和“免费”搜索时所使用的搜索引擎。
-solution: Analytics
 title: 搜索引擎
 topic: Reports
 uuid: a8234a11-ad83-44a1-a36b-d257dfc43d0f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 搜索引擎
 
-显示访客进行“全部”、“付费”和“免费”搜索时所用的搜索引擎。
+显示访客进行“全部”、“付费”和“免费”搜索时所使用的搜索引擎。
 
 **[!UICONTROL 搜索引擎 - 全部]**：显示用户使用哪些搜索引擎来查找网页。其中图表显示用于查找网站的搜索引擎的百分比分类。
 
