@@ -1,11 +1,10 @@
 ---
 description: 数据馈送是 Adobe 收到的 Clickstream 数据的导出格式，可提供标准和自定义的数据馈送。
 keywords: ftp;sftp
-solution: Analytics
 title: 数据馈送
 uuid: 3c70eea3-ca59-4aa5-9b11-64e1bb677bfa
 translation-type: tm+mt
-source-git-commit: a52516c7746db399ff54a1a4880eeb7ee0ca66e1
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
