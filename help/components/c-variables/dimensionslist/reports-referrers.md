@@ -1,11 +1,10 @@
 ---
-description: 显示访客在进入网站前所在的域名或 URL、访客找到网站的方法、以及经由这些反向链接位置对您的网站的访问次数。
-solution: Analytics
+description: 显示访客在进入网站前所在的域或 URL、访客找到网站的方法、以及经由这些反向链接位置对您网站的访问次数。
 title: 反向链接
 topic: Reports
 uuid: e63b47b4-49f3-43af-8409-3272bec0484e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -69,7 +68,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 <table id="table_9DFA79EC6A5A48648F2FB5418E1752DB"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 日期 </th> 
+   <th colname="col1" class="entry"> 页面 </th> 
    <th colname="col2" class="entry"> 更改 </th> 
   </tr>
  </thead>
