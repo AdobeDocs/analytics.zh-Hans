@@ -1,19 +1,18 @@
 ---
-description: 如何在营销渠道报告中使用指标。
-solution: Analytics
+description: 如何在营销渠道报表中使用量度。
 subtopic: Marketing channels
 title: 营销渠道报表中使用的量度
 topic: Reports and analytics
 uuid: be5bcb94-927e-4b5f-b201-3d54eb51e740
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 营销渠道报表中使用的量度
 
-如何在营销渠道报告中使用指标。
+如何在营销渠道报表中使用量度。
 
 ![](assets/metric_edit_icon.png)
 
@@ -21,13 +20,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/add_column_icon.png)
 
- 向报表中添加列。
+向报表中添加列。
 
-## 首次接触和最近接触指标 {#first-and-last-touch}
+## 首次联系和最近联系量度 {#first-and-last-touch}
 
-首次联系和最近联系是渠道属性，通过这些属性，您可以查看访客在渠道中的活动所产生的新参与（或度量数据，如产品查看、收入和订单）数。
+首次联系和最近联系都是渠道属性，让您可以查看由渠道中的访客活动产生的新参与（或量度数据，如产品查看、收入和订单）数。
 
-When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](/help/components/c-marketing-channels/visitor-engagement.md)). 它会记下用户登入所用的第一个渠道以及最近渠道。然后将成功事件的信用赋予每个相应的渠道。
+发生成功事件时，Analytics 会查看访客的总体活动和历史记录（回溯到[访客参与到期](/help/components/c-marketing-channels/visitor-engagement.md)）。它会记下用户登入所用的第一个渠道以及最近渠道。然后将成功事件的信用赋予每个相应的渠道。
 
 <!-- 
 
@@ -57,13 +56,13 @@ When a success event occurs, Analytics looks at the entire visitor's activity an
 
 每个成功事件实例都将具有一个“首次联系”渠道和一个“最近联系”渠道。这意味着如果为任何成功事件添加一个给定的量度列，其值始终正好等于同一时间段内的总数。该总数还将正好等于相应[!UICONTROL “网站量度”]&gt;[!UICONTROL “自定义事件”]报表中的事件总数。非成功事件量度（如访问和访客）将不符合一一对应的关系，因为同一访问中可能触发多个渠道。
 
-> [!NOTE] 此报告使用每个指标的首次联系或最近联系版本。 因此，[!UICONTROL 营销渠道]报表中显示的数据可能与其他报表中显示的数据不匹配。
+> [!NOTE] 此报表使用各个量度的首次联系或最近联系版本。因此，[!UICONTROL 营销渠道]报表中显示的数据可能与其他报表中显示的数据不匹配。
 
-## Metric definitions {#metric-defs}
+## 量度定义 {#metric-defs}
 
 | 量度 | 定义 |
 |--- |--- |
-| 首次联系渠道 | 访客参与的第一个营销渠道。从技术上讲，首次接触渠道是具有原始分配的eVar。 |
+| 首次联系渠道 | 访客参与的第一个营销渠道。从技术角度来讲，首次联系渠道是采用原始分配的 eVar。 |
 | 首次联系访客 | 在渠道报表中，首次联系访客是来源于某一渠道的每日独特访客。访客参与此网站的持续时间将被存储，可以延续多次访问。 |
 | 最近联系渠道 | 转化渠道，指的是访客参与并导致转化的最后一个营销渠道。只有一个渠道设置为首次联系渠道。最近联系渠道会随着对网站的每次回访而改变。每次访问都有首次联系渠道和最近联系渠道，但首次联系渠道的值从不随后续访问发生变化。 |
 
@@ -96,5 +95,5 @@ When a success event occurs, Analytics looks at the entire visitor's activity an
 
    ![步骤结果](assets/metric_create.png)
 
-1. To create calculated metrics, scroll to [!UICONTROL Calculated Metrics], then click **[!UICONTROL Create]**.
-1. Click **[!UICONTROL Save.]**
+1. 要创建计算量度，请滚动到“[!UICONTROL 计算量度]”，然后单击&#x200B;**[!UICONTROL 创建]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
