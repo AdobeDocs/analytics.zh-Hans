@@ -1,20 +1,19 @@
 ---
 description: 页面变量可以直接填充报表，例如 pageName、列表属性、列表变量，等等。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: 页面变量
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # maxDelay
 
-s.maxDelay 变量主要用在 Genesis DFA 集成中，用来确定联系 DFA 主机时的超时时间段。如果 Adobe 在变量中设置的指定时段内没有收到来自 DFA 服务器的响应，则连接断开，并照常处理数据。如果您关注的是每个页面上的 DFA 响应时间，则实施此变量。建议使用此值进行试验，以确定最佳的超时时间段。
+s.maxDelay 变量主要用在 Genesis DFA 集成中，用来确定联系 DFA 主机时的超时时间段。如果 Adobe 在 变量中设置的指定时间段内没有收到来自 DFA 服务器的响应，则断开连接，并正常处理数据。如果您关注的是每个页面上的 DFA 响应时间，则实施此变量。建议使用此值进行试验，以确定最佳的超时时间段。
 
 
 <!-- 
