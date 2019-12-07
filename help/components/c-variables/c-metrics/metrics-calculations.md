@@ -1,11 +1,10 @@
 ---
 description: 计算量度的方法有以下几种：标准、参与率、最近和线性。由于公式不同，每种方法在计算量度值时各有不同。
-solution: Analytics
 title: 量度计算
 topic: Metrics
 uuid: 2af58f1e-12c5-4828-ae39-c9aeaef6b705
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -32,7 +31,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> 线性 </td> 
-   <td colname="col2"> <p>选择线性分配时，成功事件会被平均划分到访问期间见到的所有变量值。对于数值和货币事件，例如 <span class="term"> Revenue</span>, the monetary amount is divided. 对于计数器事件(如 <span class="term"> “订单</span>”)，会将部分事件授予访问中的每个变量值。 生成报表时会对这些部分进行合计，然后在报表中四舍五入为最接近的整数。 </p> <p>例如，在一次访问中，如果在成功事件之前访问了四个页面，则每个页面将收到该事件 25% 的信用。如果在同一次访问中， campaign <span class="varname"></span> 有两个值，每个营销活动值将获得活动50%的积分。 </p> </td> 
+   <td colname="col2"> <p>选择线性分配时，成功事件会被平均划分到访问期间见到的所有变量值。对于数值和货币事件（例如<span class="term">收入</span>），货币金额会被划分。对于计数器事件（例如<span class="term">订购次数</span>），会将部分事件授予访问中的每个变量值。生成报表时会对这些部分进行合计，然后在报表中四舍五入为最接近的整数。 </p> <p>例如，在一次访问中，如果在成功事件之前访问了四个页面，则每个页面将收到该事件 25% 的信用。如果在同一次访问中，<span class="varname">营销活动</span>有两个值，则每个营销活动值将收到该事件 50% 的信用。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 参与率 </td> 
@@ -45,7 +44,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 假设您的网站有一个内部搜索，并使用转化变量 (eVar) 对该搜索进行跟踪。访客在做出 $100 的购买决定前执行了多次内部搜索：
 
-*`Pet`* &gt; *`Feline`* &gt; *`Cat`* &gt; *`Kitten`* &gt; 100美元购买
+*`Pet`* &gt; *`Feline`* &gt; *`Cat`* &gt; *`Kitten`* &gt; $100 的购买
 
 在报表中，信用分配如下所示：
 
