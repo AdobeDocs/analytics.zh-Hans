@@ -1,13 +1,12 @@
 ---
 description: 使用上下文数据变量可在每个页面上定义能够由处理规则读取的自定义变量。
 keywords: Analytics Implementation;contextdata;s.contextdata
-solution: Analytics
 subtopic: Variables
 title: 上下文数据变量
 topic: Developer and implementation
 uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,11 +18,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 您可以使用通过处理规则映射的上下文数据变量发送数据，而无需在代码中将值明确分配给 prop 和 eVar。处理规则提供强大的图形界面，以便对接收的数据进行更改。根据上下文数据中发送的值，您可以设置事件、将值复制到 eVar 和 prop，以及执行其他条件语句。
 
 > [!NOTE]上下文数据变量不区分大小写。例如，以下 2 个变量实际上是相同的：
->```
+>
+```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
 >和
->```
+>
+```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
 
@@ -53,7 +54,7 @@ s.contextData['myco.rsid'] = 'value'
  <tbody> 
   <tr> 
    <td colname="col1"> <p>支持的名称和字符 </p> </td> 
-   <td colname="col2"> <p>上下文数据变量名称只能包含字母数字字符、下划线和点。任何其他字符都将被去除。上下文数据变量并非数值型变量，它而是名称型变量。 </p> <p>For example, the context data variable <code> login_page-home </code> automatically becomes <code> login_pagehome </code>. All data sent to the <code> login_page-home </code> variable is allocated under <code> login_pagehome </code>. </p> </td> 
+   <td colname="col2"> <p>上下文数据变量名称只能包含字母数字字符、下划线和点。任何其他字符都将被去除。上下文数据变量并非数值型变量，它而是名称型变量。 </p> <p>For example, the context data variable <code> login_page-home </code> automatically becomes <code> login_pagehome </code>. 发送给 <code> login_page-home </code> 变量的所有数据会被分配在 <code> login_pagehome </code> 下。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>命名空间 </p> </td> 
