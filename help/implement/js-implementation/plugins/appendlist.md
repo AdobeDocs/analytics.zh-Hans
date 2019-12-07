@@ -1,13 +1,12 @@
 ---
 description: 使用 APL（或 appendList）插件，您可以为任意分隔值列表附加更多的值，同时还可选择是否执行区分大小写（或不区分大小写）检查以确保附加的值不会已存在于列表中。此 APL 插件由多个标准插件引用，但在多种情况下也可直接使用。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: appendList
 topic: Developer and implementation
 uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,7 +28,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p>方案 </p> </td> 
-   <td colname="col2"> <p>添加 <span class="term">event1</span> 到当前事件变量，并确保此事件不重复。 </p> <p>s.events="scCheckout" </p> </td> 
+   <td colname="col2"> <p>Add <span class="term"> event1 </span> to the current events variable while ensuring the event isn't duplicated. </p> <p>s.events="scCheckout" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>代码 </p> </td> 
