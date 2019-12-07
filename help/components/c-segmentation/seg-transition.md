@@ -1,19 +1,18 @@
 ---
 description: 'null'
 keywords: segmentation;segments
-solution: Analytics
 title: 常见问题解答
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 常见问题解答
 
-回答有关细分功能、访问、权限、最佳实践和管理旧版细分的常见问题。
+解答有关分段功能、访问、权限、最佳实践和管理旧版区段的常见问题。
 
 ## 功能 {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
@@ -25,10 +24,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * 您可以[将多个区段应用于一个报表或项目](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)。
 * 区段对于所有报表包都是通用的。
-* The [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) simplifies segment creation.
+* [区段生成器](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)简化了区段的创建过程。
 * 您可以通过[区段管理器](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)中的区段共享、标记、验证和批准功能，来设置[工作流程](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)。
 
-* 您可以[标记区段](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)，以便稍后进行组织和搜索，而无需使用文件夹。Previously, you used folders (in [!DNL Ad Hoc Analysis]) to organize your segments.
+* 您可以[标记区段](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)，以便稍后进行组织和搜索，而无需使用文件夹。以前，使用文件夹（在 [!DNL Ad Hoc Analysis] 中）来组织区段。
 
 * 您可以在 Ad Hoc Analysis 之外创建[连续区段](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)。
 * 页面查看容器已重命名为“点击”容器，以表示该容器可分段所有类型的数据，而不仅仅是页面查看。例如，点击容器完全包含或排除链接跟踪调用和移动 SDK 中的 trackAction 调用。请注意，此容器的运行方式并没有发生任何更改，只是进行了重命名。
@@ -41,9 +40,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 您可以通过以下方法访问区段生成器：
 
-* 显示一个现有报表，然后单击左侧导航中的“区段”图标 ![。](assets/segment_icon.png)In the segment rail that displays, then click **[!UICONTROL Add]**, or
+* 显示一个现有报表，然后单击左侧导航中的“区段”图标 ![](assets/segment_icon.png)。在显示的区段边栏中，单击&#x200B;**[!UICONTROL 添加]**，或者
 
-* At the top of the Segment Manager, clicking **[!UICONTROL + Add]**.  ![](assets/add_button.png)
+* 单击区段管理器顶部的 **[!UICONTROL + 添加]**。![](assets/add_button.png)
 
    或
 
@@ -53,17 +52,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 访问区段管理器的方法如下：:
 
-* Going to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** in the top navigation. Then click **[!UICONTROL Segments]**, or
+* 在顶部导航中，转到 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 组件]**。然后，单击&#x200B;**[!UICONTROL 区段]**，或者
 
-* 显示一个现有报表，然后单击左侧导航中的“区段”图标 ![。](assets/segment_icon.png)Then click **[!UICONTROL Manage]**, or
+* 显示一个现有报表，然后单击左侧导航中的“区段”图标 ![](assets/segment_icon.png)。接下来，单击&#x200B;**[!UICONTROL 管理]**，或者
 
 * 在界面的任意位置按斜杠键“/”，并搜索区段管理器。
 
 **原有的区段下拉菜单转到了何处？**
 
-Reports &amp; Analytics 中的区段下拉菜单已被功能更加丰富的[区段生成器](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)界面取代，通过使用该界面，您可以创建在报表包中和 Adobe Analytics 解决方案中“通用”的区段。要查看现有区段的列表，请单击“区段”图标 ![](assets/segment_icon.png)
+Reports &amp; Analytics 中的区段下拉菜单已被功能更加丰富的[区段生成器](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)界面取代，通过使用该界面，您可以创建在报表包中和 Adobe Analytics 解决方案中“通用”的区段。要查看现有区段的列表，请在左侧导航中单击“区段”图标 ![](assets/segment_icon.png)，
 
-在左侧导航中，将显示区段边栏。
+此时将显示区段边栏。
 
 **原有的报表包下拉菜单转到了何处？**
 
@@ -81,7 +80,7 @@ Reports &amp; Analytics 中的区段下拉菜单已被功能更加丰富的[区�
 
 **我可以看到公司的所有区段吗？**
 
-Yes, Admins can see all segments within the [!DNL Analysis Workspace] and [!DNL Reports & Analytics] user interfaces.
+可以，管理员可以在 [!DNL Analysis Workspace] 和 [!DNL Reports & Analytics] 用户界面中看到所有区段。
 
 “Ad Hoc Analyics”和“Report Builder”可以显示您拥有的区段以及与您共享的区段。
 
@@ -138,11 +137,11 @@ Yes, Admins can see all segments within the [!DNL Analysis Workspace] and [!DNL 
 
 ![](assets/duplicate_seg_names.png)
 
-您的书签引用 mainprod 报表包的区段。然后，删除该区段，因为它重复。 书签将继续运行，仍引用已删除区段的定义。如果更改 maindev 区段的区段定义以包括卡特琳娜岛和墨西哥的提华纳，则应用于书签的区段将不会发生更改。仍将使用旧定义。要修复此问题，请更新书签以引用新定义。如果您不确定书签、功能板或计划报表是否使用已删除的区段，您可以更改其余区段的名称，以便更清楚书签是否使用剩余区段。
+您的书签引用 mainprod 报表包的区段。然后，由于该区段是重复项，您删除该区段。书签将继续运行，仍引用已删除区段的定义。如果更改 maindev 区段的区段定义以包括卡特琳娜岛和墨西哥的提华纳，则应用于书签的区段将不会发生更改。仍将使用旧定义。要修复此问题，请更新书签以引用新定义。如果不确定书签、功能板或计划报表是否在使用删除的区段，可以更改剩余区段的名称，这样可以更加明确书签是否在使用剩余的区段。
 
 **Data Warehouse 区段有何变化？**
 
-所有现有 Data Warehouse 区段仍可以在数据仓库中使用。大多数数据仓库区段还将在其他组件（如Analysis Workspace、临时分析和报告与分析）中工作。
+所有现有 Data Warehouse 区段仍可以在数据仓库中使用。大多数 Data Warehouse 区段也可以在其他组件中使用，如 Analysis Workspace、Ad Hoc Analysis 以及 Reports &amp; Analytics。
 
 您可以在区段生成器/管理器中创建或编辑新的 Data Warehouse 区段。区段生成器中的产品兼容性机制会自动确定区段是否与 Data Warehouse 兼容。
 
@@ -182,7 +181,7 @@ Yes, Admins can see all segments within the [!DNL Analysis Workspace] and [!DNL 
 
 **管理员**&#x200B;区段将迁移到新的区段界面中，并将显示为与每个人共享的区段。
 
-这些区段的所有者将设置为登录公司管理员用户列表中具有最旧帐户的管理员，但所有管理员都可以删除、编辑和共享这些区段。
+这些区段的所有者被设置为使用登录公司管理员用户列表中最旧帐户的管理员，但所有管理员都可以删除、编辑和共享这些区段。
 
 管理控制台中管理员创建和管理这些全局区段的区段管理界面不再可用。管理员应使用新的区段生成器创建区段，并将其与相应组、个人或每个人共享。
 
@@ -198,13 +197,13 @@ seg_definition.xml
 
 以下提示将可帮助您迁移一些常用维度：
 
-* 地域城市／地区／国家——搜索和选择特定城市、地区或国家，而不是使用部分匹配。
-* 浏览器——使用“浏览器类型”维度获取某种类型的所有浏览器，例如Google Chrome
-* 操作系统——使用操作系统类型维获取某种类型的所有操作系统，如Microsoft Windows。
+* 地域（市、州/省、国家/地区）– 搜索并选择特定的城市、州/省或国家/地区，而不是使用部分匹配。
+* 浏览器 – 使用浏览器类型维度来获取某种类型的所有浏览器，如 Google Chrome
+* 操作系统 – 使用操作系统类型维度来获取某种类型的所有操作系统，如 Microsoft Windows。
 
 * [新维度和重命名的维度](/help/components/c-segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
 * [对“包含”的更改](/help/components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [小于和大于的更改](/help/components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* [对“小于”和“大于”的更改](/help/components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
 
 ## 新维度和重命名的维度 {#section_73CF121B64A24DEF8E6499F3167BF742}
 
@@ -221,28 +220,28 @@ seg_definition.xml
  <tbody> 
   <tr> 
    <td colname="col1"> 操作系统类型 </td> 
-   <td colname="col2"> 新 </td> 
+   <td colname="col2"> 新建 </td> 
    <td colname="col3"> 在 2015 年春季版中添加。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 浏览器宽度 - 桶式 </td> 
+   <td colname="col1"> 浏览器宽度 - 分段统计 </td> 
    <td colname="col2"> 浏览器宽度 </td> 
    <td colname="col3"> 该维度与所有界面兼容，根据范围划分成枚举列表，而不是具体的整数值。如果需要分段具体的值，请在 Data Warehouse 区段中使用此维度的粒度版本。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 浏览器高度 - 桶式 </td> 
+   <td colname="col1"> 浏览器高度 - 分段统计 </td> 
    <td colname="col2"> 浏览器高度 </td> 
    <td colname="col3"> 该维度与所有界面兼容，根据范围划分成枚举列表，而不是具体的整数值。如果需要分段具体的值，请在 Data Warehouse 区段中使用此维度的粒度版本。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 浏览器宽度 - 粒度 </td> 
    <td colname="col2"> 浏览器宽度 </td> 
-   <td colname="col3"> <p>该维度已重命名，现在仅与 Data Warehouse 兼容。在定义与所有界面兼容的区段时，使用枚举类型“浏览器宽度 - 桶式”。 </p> </td> 
+   <td colname="col3"> <p>该维度已重命名，现在仅与 Data Warehouse 兼容。在定义与所有界面兼容的区段时，使用枚举类型“浏览器宽度 - 分段统计”。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 浏览器高度 - 粒度 </td> 
    <td colname="col2"> 浏览器高度 </td> 
-   <td colname="col3"> <p>该维度已重命名，现在仅与 Data Warehouse 兼容。在定义与所有界面兼容的区段时，使用枚举类型“浏览器高度 - 桶式”。 </p> </td> 
+   <td colname="col3"> <p>该维度已重命名，现在仅与 Data Warehouse 兼容。在定义与所有界面兼容的区段时，使用枚举类型“浏览器高度 - 分段统计”。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cookie 支持 </td> 
@@ -351,7 +350,7 @@ seg_definition.xml
 
 ## 对具有已知值的整数维度的更改 {#section_84A8AAD0344148AD9F9211D3EB271903}
 
-具有已知值集的整数维度（如浏览器宽度）已被拆分为多个枚举范围，因此您可以快速定义特定范围的区段。这些枚举列表会在维度名称后附加“- 桶式”。以下屏幕演示了如何使用以前的区段生成器界面和新区段生成器界面来分段这些维度：
+具有已知值集的整数维度（如浏览器宽度）已被拆分为多个枚举范围，因此您可以快速定义特定范围的区段。这些枚举列表会在维度名称后附加“- 分段统计”。以下屏幕演示了如何使用以前的区段生成器界面和新区段生成器界面来分段这些维度：
 
 ![](assets/seg_browser_dimension.png)
 
