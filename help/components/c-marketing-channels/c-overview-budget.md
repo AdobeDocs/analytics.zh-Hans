@@ -1,12 +1,11 @@
 ---
 description: 了解如何将成本和预算金额分配给渠道。
-solution: Analytics
 subtopic: Marketing channels
 title: 成本和预算
 topic: Reports and analytics
 uuid: 7ba0e968-e565-4d4c-8fc0-39bf25d3e5b1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,17 +28,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 向营销渠道中添加成本和预算项目。
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. 在[!UICONTROL “报表包管理器”]页面上，选择一个报表包。
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Costs]**.
-1. On the [!UICONTROL Marketing Channel Costs] page, click **[!UICONTROL Add Cost Item]** or **[!UICONTROL Add Budget Item]**.
-1. Click **[!UICONTROL Save.]**
+1. 单击 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]**。
+1. 在“[!UICONTROL 报表包管理器]”页面上，选择一个报表包。
+1. 单击&#x200B;**[!UICONTROL 编辑设置]** &gt; **[!UICONTROL 营销渠道]** &gt; **[!UICONTROL 营销渠道成本]**。
+1. 在“[!UICONTROL 营销渠道成本]”页面上，单击&#x200B;**[!UICONTROL 添加成本项目]**&#x200B;或&#x200B;**[!UICONTROL 添加预算项目]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-   To continue adding cost items, click **[!UICONTROL Save and Add Another]**.
+   要继续添加成本项目，请单击&#x200B;**[!UICONTROL 保存并添加另一个]**。
 
-1. (Optional) To export or import CSV files, access the [!UICONTROL Marketing Channel Costs] page, click **[!UICONTROL Export File]** or **[!UICONTROL Import File]**, then follow the prompts.
+1. （可选）要导出或导入 CSV 文件，请访问“[!UICONTROL 营销渠道成本]”页面，单击&#x200B;**[!UICONTROL 导出文件]**&#x200B;或&#x200B;**[!UICONTROL 导入文件]**，然后根据提示操作。
 
-## Marketing Channel costs - definitions {#mktg-channel-costs}
+## 营销渠道成本 - 定义 {#mktg-channel-costs}
 
 “营销渠道成本”或“营销渠道预算”的字段定义。
 
