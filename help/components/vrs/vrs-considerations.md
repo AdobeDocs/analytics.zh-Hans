@@ -1,12 +1,11 @@
 ---
 description: 虚拟报告套件和多套件标记具有不同的优势。 了解哪种方式最适合您的组织。
 keywords: Virtual Report Suite,VRS
-solution: Analytics
 title: 虚拟报告套件和多套件标记注意事项
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -93,7 +92,7 @@ Adobe Analytics 中的某些 Adobe 合作伙伴集成限制为每个报表包具
    * 如果从现有的多包标记实施进行迁移，请将虚拟报表包的区段与现有子报表包进行比较。 在将用户移至虚拟报告套件之前，您需要确保数据是可比的。
    * 作为最佳实践，请考虑使 [用区段堆叠](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) ，以便在一个位置编辑区段并将其应用于所有从属虚拟报表包。
    * 如果要使虚拟报表包更互斥，请使用点击容器。
-2. 确认虚拟报表包设置正确后，从实施中删除辅助报表包ID。 要删除次级报表包，请执行以下操作：
+2. 确认虚拟报表包设置正确后，从实施中删除辅助报表包ID。 要删除辅助报表包，请执行以下操作：
    * 在Adobe Experience Platform Launch中，单击您不想再使用的任何报表包旁边的“x”。
    * 在DTM中，找到属性和分析工具。 在“生产帐户ID”和“暂存帐户ID”字段中，删除您不想再使用的任何报表包ID。
    * 在旧版JavaScript实现中，找 `s.account` 到该变量并删除您不想再使用的任何报表包ID。
