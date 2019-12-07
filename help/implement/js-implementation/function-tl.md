@@ -1,13 +1,12 @@
 ---
 description: 您可以根据 JavaScript AppMeasurement 文件中设置的参数自动跟踪文件下载和退出链接。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Link tracking
 title: s.tl() 函数 - 链接跟踪
 topic: Developer and implementation
 uuid: f28f071a-8820-4f74-89cd-fd2333a21f22
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
