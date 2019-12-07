@@ -1,11 +1,10 @@
 ---
 description: 您可以安排报表按照定义的时间和文件格式发送。
-solution: Analytics
 title: 计划数据请求
 topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -45,9 +44,9 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 | 字段 | 描述 |
 |--- |--- |
 | 选择报表 | 工作簿的名称。 对于新的计划报表，此字段使用活动工作簿的名称填充。 |
-| 选择 | 显示“选择报表”页。您可以从服务器（先前计划的所有工作簿都存储在其中）选择报表，也可以从本地计算机选择报表。如果从本地驱动器选择 .xls 格式的工作簿，系统会将文件转换为 .xlsx。在转换过程中，系统会在 Excel 中打开并激活该文件。如果为计划报表选择的工作簿与当前在 Excel 中打开的工作簿具有相同的文件名，系统会选择本地文件，而不是先前上载的文件。如果从计划存储库中选择报告，则会在服务器上创建工作簿的副本，其文件名将更新为1。新创建的计划报告使用复制的工作簿。 |
+| Select | 显示“选择报表”页。您可以从服务器（先前计划的所有工作簿都存储在其中）选择报表，也可以从本地计算机选择报表。如果从本地驱动器选择 .xls 格式的工作簿，系统会将文件转换为 .xlsx。在转换过程中，系统会在 Excel 中打开并激活该文件。如果为计划报表选择的工作簿与当前在 Excel 中打开的工作簿具有相同的文件名，系统会选择本地文件，而不是先前上载的文件。如果从计划存储库中选择报告，则会在服务器上创建工作簿的副本，其文件名将更新为1。新创建的计划报告使用复制的工作簿。 |
 | 通过更改日期范围、 | 允许您自定义日期格式。 |
-| 收件人 | 显示 Outlook 通讯簿（如果适用）。 |
+| 至 | 显示 Outlook 通讯簿（如果适用）。 |
 | 收件人: 电子邮件 | 工作簿的电子邮件收件人。 |
 | 收件人: 发布列表 | 显示此公司的可用通讯组列表的列表。 |
 | Power BI | 请参阅[将工作簿发布到 Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md)，以了解更多信息。 |
