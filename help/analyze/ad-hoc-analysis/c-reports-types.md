@@ -1,11 +1,10 @@
 ---
 description: Experience Cloud 中使用的报表类型的说明。
-solution: Analytics
 title: 报表类型
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -119,7 +118,7 @@ c_reports_next_server_flow.xml
 
  -->
 
-例如，如果在不同的服务器上存储特定的数据，或在单独的服务器中存储镜像数据，该报表将显示用户点击的服务器之间的路径。这也适用于网站中的域。For example, you can see how many users went from a `https://www.mysite.com` to `https://info.mysite.com` or `https://sales.mysite.com`.
+例如，如果在不同的服务器上存储特定的数据，或在单独的服务器中存储镜像数据，该报表将显示用户点击的服务器之间的路径。这也适用于网站中的域。例如，您可以看到多少位用户从 `https://www.mysite.com` 跳转到 `https://info.mysite.com` 或 `https://sales.mysite.com`。
 
 ## 下一区域流量 {#concept_7C9C8567E7DF477DA186E47DD3FD47A4}
 
@@ -170,7 +169,7 @@ c_reports_previous_server_flow.xml
 
  -->
 
-例如，如果在不同的服务器上存储特定的数据，或在单独的服务器中存储镜像数据，该报表将显示用户点击的服务器之间的路径。这也适用于网站中的域。For example, you can see how many users went from a `www.mysite.com` to `info.mysite.com` or `sales.mysite.com`.
+例如，如果在不同的服务器上存储特定的数据，或在单独的服务器中存储镜像数据，该报表将显示用户点击的服务器之间的路径。这也适用于网站中的域。例如，您可以看到多少位用户从 `www.mysite.com` 跳转到 `info.mysite.com` 或 `sales.mysite.com`。
 
 ## 转化漏斗报表 {#concept_35A2EB61E84441CBB670C2E02CA26F81}
 
@@ -215,12 +214,12 @@ c_reports_site_analysis.xml
 | 适合屏幕 | 还原图表的初始视图。 |
 | 鸟瞰图 | 提供图表自上而下的视图。 |
 | 切换网格 | 打开或关闭网格。 |
-| 维度 | 您报告的项目。从维度中拖动项目。. |
+| 维度 | 您报告的项目。从维度中拖动项目。。 |
 
 | 选项 | 描述 |
 |--- |--- |
 | 编辑 | 用于在柱体中添加或删除页面。 |
 | 删除 | 用于删除柱体。 |
-| 报告 | 用于从柱体中启动其他报表。 |
+| 报表 | 用于从柱体中启动其他报表。 |
 | 将图表另存为 | 用于将图表另存为 .png 或 .jpg。如果在保存前更改图表控件（图角、大小），这些更改将保存在输出中。 |
 | 将图表复制到剪贴板 | 复制图表以将其粘贴到其他应用程序中。如果在保存前更改图表控件（图角、大小），这些更改将保存在输出中。 |
