@@ -1,12 +1,11 @@
 ---
 description: 此部分包含测试处理规则的指南和要避免的常见错误列表。
-solution: Analytics
 subtopic: Processing rules
 title: 处理规则的提示和技巧
 topic: Admin tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,15 +20,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **测试读取搜索词的规则**
 
-对于基于搜索的任何标准（如prop1包含“news”），请转至prop 1报告并搜索“news”，并查看是否存在您不期望的任何匹配项。
+有关基于搜索的任何标准，比如 prop1 包含“news”时，请转到 prop 1 报表并搜索“news”，查看是否存在您不希望出现的任何匹配。
 
 **测试读取变量的规则**
 
-Create a blank HTML page on your desktop, include the s_code from your site, and set the `s.account` variable to a dev report suite. 如果您的规则基于反向链接、反向链接域等，请从实时反向链接报表中取出一些示例 URL，并用这些值中的任一值设置 `s.referrer` 变量和加载页面。同样，如果规则基于页面 URL 值，则可以设置 `s.pageURL`。相同的流程可用于任何变量。
+在您的桌面上创建空白 HTML 页面（包含您网站上的 s_code），并将 `s.account` 变量设置到开发报表包中。如果您的规则基于反向链接、反向链接域等，请从实时反向链接报表中取出一些示例 URL，并用这些值中的任一值设置 `s.referrer` 变量和加载页面。同样，如果规则基于页面 URL 值，则可以设置 `s.pageURL`。相同的流程可用于任何变量。
 
 **使用开发报表包**
 
-我们建议在开发报告套件上配置处理规则，以确保它们能正常工作。 如有可能，我们建议您在广泛部署前先将规则复制到小型生产报表包中。
+我们建议您在开发报表包中配置处理规则，以确保它们正常工作。如有可能，我们建议您在广泛部署前先将规则复制到小型生产报表包中。
 
 ## 检查空值 {#section_EE84A5525E26415787930723B0CAAE0F}
 
@@ -37,7 +36,7 @@ Create a blank HTML page on your desktop, include the s_code from your site, and
 
 ![](assets/tips-set-value-acquisition-code.png)
 
-考虑处理顺序十分重要。在以下示例中，如果页面名称不存在，则显示“上一页面名称”自定义eVar将设置为URL。 但是，在应用处理规则后，URL 将被置于页面名称中，因此，在这种情况下，如果未在页面上设置页面名称，则“页面名称”将为空。
+考虑处理顺序十分重要。在以下示例中，未显示“页面名称”时，“前一页面名称”自定义 evar 将被设置为 URL。但是，在应用处理规则后，URL 将被置于页面名称中，因此，在这种情况下，如果未在页面上设置页面名称，则“页面名称”将为空。
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
