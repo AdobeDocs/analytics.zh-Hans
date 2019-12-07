@@ -1,11 +1,10 @@
 ---
 description: 利用目标可以评测网站的绩效，跟踪目标进度。例如，您可能想增加来自某一地理区域的访客数量、每次定购收入、或特定反向链接的点击量。
-solution: Analytics
 title: 目标
 topic: Reports and analytics
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
