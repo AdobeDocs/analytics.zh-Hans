@@ -1,11 +1,10 @@
 ---
 description: 一种报表，可按不同资料类别（包括国家/地区、州、邮政编码及域）来显示客户的购买模式。
-solution: Analytics
 title: 访客资料
 topic: Reports
 uuid: ffdd24ab-5de4-44a0-8d9b-5d6a9b60a2dd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,14 +16,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 <table id="table_B09EA999973A4646BF66DF5D7BEA0820"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 报告 </th> 
+   <th colname="col1" class="entry"> 报表 </th> 
    <th colname="col2" class="entry"> 描述 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> 语言 </td> 
-   <td colname="col2"> <p> 显示访客首选的语言，捕获默认的浏览器语言，并显示访客在您的网站上最常用的语言。 </p> </td> 
+   <td colname="col2"> <p> 显示访客首选的语言，并可捕获默认浏览器语言及显示网站访客使用最多的语言。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 域名 </td> 
