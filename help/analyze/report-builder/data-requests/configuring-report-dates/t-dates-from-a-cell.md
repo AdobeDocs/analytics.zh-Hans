@@ -1,11 +1,10 @@
 ---
 description: 您可以通过从工作表中选择包含请求的单元格来指定日期范围。Report Builder 使用这些请求中的特定日期范围信息。如果选择今天的日期，那么您只能基于请求在今天的运行时间看到部分数据。
-solution: Analytics
 title: 单元格中的日期
 topic: Report builder
 uuid: 0d9bf08d-d39d-4f37-94f1-232da0813245
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
