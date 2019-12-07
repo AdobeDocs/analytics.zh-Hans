@@ -1,11 +1,10 @@
 ---
 description: 捕获访客浏览器中的语言设置，可让您查看与语言设置相关的收入和独特访客数。当您了解首选语言对网站成功量度的影响后，您便可以确定如何以其他语言来呈现网站。例如，如果您发现网站上参与购物车活动的访客中有许多是讲德语的客户，您便可以将网站翻译成该语言，并实施营销活动以将客户流引至德文网站。
-solution: Analytics
 title: 语言
 topic: Reports
 uuid: 04f1fc86-2738-4063-8091-772ddc59f9cf
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,9 +13,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 捕获访客浏览器中的语言设置，可让您查看与语言设置相关的收入和独特访客数。当您了解首选语言对网站成功量度的影响后，您便可以确定如何以其他语言来呈现网站。例如，如果您发现网站上参与购物车活动的访客中有许多是讲德语的客户，您便可以将网站翻译成该语言，并实施营销活动以将客户流引至德文网站。
 
-**[!UICONTROL 访客资料]** &gt;语 **[!UICONTROL 言]**
+**[!UICONTROL 访客资料]** &gt; **[!UICONTROL 语言]**
 
-我们会根据 http 标头请求的接受语言部分填充此报表。接受语言的HTTP头配置为每个浏览器的语言首选项设置的一部分：
+我们会根据 http 标头请求的接受语言部分填充此报表。语言接受 HTTP 标头将被配置为每个浏览器的语言首选项设置的一部分。
 
 [https://www.w3.org/International/questions/qa-lang-priorities.en.php](https://www.w3.org/International/questions/qa-lang-priorities.en.php)
 
@@ -24,5 +23,5 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 此报表中的某些行项目包含地区。这些是地区子标签。
 
-> [!NOTE] 不支持每小时时间粒度。
+> [!NOTE] 不支持“每小时”时间粒度。
 
