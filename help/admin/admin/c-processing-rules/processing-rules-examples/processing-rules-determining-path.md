@@ -1,12 +1,11 @@
 ---
 description: 您可以将 eVar 的值复制到一个属性来启用路径分析。
-solution: Analytics
 subtopic: Processing rules
 title: 通过将 eVar 值复制到 prop 来确定路径
 topic: Admin tools
 uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
