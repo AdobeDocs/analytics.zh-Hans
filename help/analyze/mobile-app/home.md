@@ -2,7 +2,7 @@
 title: 移动设备应用程序
 description: Adobe Analytics移动应用程序的产品文档和自助服务
 translation-type: tm+mt
-source-git-commit: 3abe9a29137f85e0c6f8438435663bb7b78a05d0
+source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
 
 ---
 
@@ -15,6 +15,6 @@ Adobe Analytics移动应用程序可随时随地从Adobe Analytics提供洞察�
 
 Analytics移动应用程序提供以下测试版文档：
 
-* 执行用户快速入门指南：本指南旨在帮助执行用户阅读和解释Analytics移动应用程序上的记分卡。 该应用程序使执行用户能够在自己的移动设备上快速、轻松地查看重要摘要数据的广泛呈现。
+* [策展人指南](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/curator.html):本指南旨在帮助数据策展人在Analytics移动应用程序上为其执行用户配置记分卡。 策展人可以是组织管理员或其他角色中负责设置应用程序记分卡的人员。
 
-* 策展人指南：本指南旨在帮助数据策展人在Analytics移动应用程序上为其执行用户配置记分卡。 策展人可以是组织管理员或其他角色中负责设置应用程序记分卡的人员。
+* [执行用户快速入门指南](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/executive.html):本指南旨在帮助执行用户阅读和解释Analytics移动应用程序上的记分卡。 该应用程序使执行用户能够在自己的移动设备上快速、轻松地查看重要摘要数据的广泛呈现。
