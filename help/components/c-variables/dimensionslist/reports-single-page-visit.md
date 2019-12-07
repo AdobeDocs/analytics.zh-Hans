@@ -1,11 +1,10 @@
 ---
 description: “单页面访问量”报表显示网站访客登入网站后直接退出的页面（即访客未进一步查看您网站上的任何其他页面），请不要将其与 Ad Hoc Analysis 中的“单页面访问量”量度混淆。
-solution: Analytics
 title: 单页面访问量
 topic: Reports
 uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,7 +28,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 如果报表中的变量包含一个唯一值，则单页面访问量可由许多图像请求组成。在填充了第二个唯一值之后，当次访问将不再被视为一次单页面访问。
 * 这是一种路径分析报表。默认情况下，[!UICONTROL 页面]变量已启用路径分析。但是，任何流量变量都具备此功能。是否在其他流量变量上启用路径分析，取决于您的合同。请联系贵组织的客户经理以获得详细信息。
 * 此报表可使用搜索过滤器来查找特定的行项目。
-* 此报表可通过 趋 [势](/help/components/c-variables/dimensionslist/reports-types.md)[和排名](/help/components/c-variables/dimensionslist/reports-types.md) 。
+* 此报表可通过[趋势](/help/components/c-variables/dimensionslist/reports-types.md)和[排名](/help/components/c-variables/dimensionslist/reports-types.md)两种格式查看。
 
 * 此报表中没有可用的划分。
 * 此报表内唯一可用的量度是[!UICONTROL “访问”]。
