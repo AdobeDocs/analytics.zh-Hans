@@ -1,11 +1,10 @@
 ---
 description: Ad Hoc analysis与Analytics细分环境集成，使您能够跨Adobe产品构建、共享、管理和应用访客细分。 Ad Hoc analysis为其区段生成器和区段管理器提供基于Java的用户界面，与其他Analytics工具使用的基于Web的工具相同，可匹配服务器调用，并从基于Java的控制台提供相同的特性和功能。
-solution: Analytics
 title: 生成区段
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -38,7 +37,7 @@ Ad Hoc Analysis 包含用于构建区段的类似功能，另有新功能升级�
 * 您可以通过[区段管理器](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html)中的区段共享、标记、验证和批准功能，来设置[工作流程](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_workflow.html)。
 
 * 经过更新的[区段生成器](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html)可以简化区段的创建过程。
-* 您可以[标记区段](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_tag.html)，以便稍后进行组织和搜索，而无需使用文件夹。Previously, you used folders (in [!DNL ad hoc analysis]) to organize your segments.
+* 您可以[标记区段](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_tag.html)，以便稍后进行组织和搜索，而无需使用文件夹。以前，使用文件夹（在 [!DNL ad hoc analysis] 中）来组织区段。
 
 * 您可以在 Ad Hoc Analysis 之外创建[连续区段](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_sequential.html)。
 * 
@@ -47,9 +46,9 @@ Ad Hoc Analysis 包含用于构建区段的类似功能，另有新功能升级�
 >
 >在临时分析中，您无法向区段添加日期范围。 此功能在 Analysis Workspace 中可用。同时，在 Ad Hoc Analysis 中，您也无法使用“仅在序列前/仅在序列后”。
 
-## 我的现有区段有什么变化？ {#section_76CF47142D1A4FB6A0718AD9073049FE}
+## 我的现有区段有什么变化？{#section_76CF47142D1A4FB6A0718AD9073049FE}
 
-您的现有区段将与在推出 Analytics 分段之前一样继续工作。已应用了这些区段的任何报表将仍可以正常使用。
+您的现有区段将与在推出 Analytics 分段之前一样继续工作。已应用了这些区段的任何报表将仍可正常使用。
 
 以前大多数的预定义包区段将作为[区段模板](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html)迁移到区段生成器中。使用区段模板可以快速生成适合一般受众的自定义区段。区段模板无法直接应用于报表，但可以轻松保存到自定义区段。
 
@@ -88,7 +87,7 @@ Ad Hoc Analysis 包含用于构建区段的类似功能，另有新功能升级�
 * 批准符合规范的区段。
 * 根据最佳实践标记区段。
 
-## 为什么无法删除此区段？ {#section_0FEB6711031A4ABCA915CDA745ECF38D}
+## 为什么无法删除此区段？{#section_0FEB6711031A4ABCA915CDA745ECF38D}
 
 如果区段已[发布到 Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/t_publish_audience_segment.html)，则无法删除或编辑该区段。但是，您可以复制该区段，然后编辑其复制版本。
 
@@ -132,7 +131,7 @@ Ad Hoc Analysis 包含用于构建区段的类似功能，另有新功能升级�
   </tr> 
   <tr> 
    <td colname="col1">管理员区段 <p>（也称为“全局”区段） </p> </td> 
-   <td colname="col2"> <p> <b>管理员</b>区段将迁移到新的区段界面中，并将显示为与每个人共享的区段。 </p> <p>这些区段的所有者将设置为登录公司管理员用户列表中具有最旧帐户的管理员，但所有管理员都可以删除、编辑和共享这些区段。 </p> <p>管理控制台中管理员创建和管理这些全局区段的区段管理界面不再可用。管理员应使用新的区段生成器创建区段，并将其与相应组、个人或每个人共享。 </p> </td> 
+   <td colname="col2"> <p> <b>管理员</b>区段将迁移到新的区段界面中，并将显示为与每个人共享的区段。 </p> <p>这些区段的所有者被设置为使用登录公司管理员用户列表中最旧帐户的管理员，但所有管理员都可以删除、编辑和共享这些区段。 </p> <p>管理控制台中管理员创建和管理这些全局区段的区段管理界面不再可用。管理员应使用新的区段生成器创建区段，并将其与相应组、个人或每个人共享。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
