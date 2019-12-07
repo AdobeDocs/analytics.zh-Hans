@@ -1,11 +1,10 @@
 ---
 description: 一个 Ad Hoc Analysis 报表。网站分析显示访客如何在特定页面和事件之间移动。例如，您可以查看页面之间的流量、产品和营销渠道之间的关系以及促销活动和渠道如何转化为产品订单。您可以拖动页面、维度项目（和列表）以及量度事件。每个柱体表示一个或多个维度项目（页面）或事件。箭头表示柱体值之间的流动方向。将为柱体位置（X 和 Y 轴）、柱体宽度、柱体高度和颜色分配量度。位置、大小和颜色因量度值而异。
-solution: Analytics
 title: 网站分析
 topic: Reports
 uuid: 39c22dc8-6ff3-43aa-a2ed-bc02c2db4764
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -78,7 +77,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col2"> <p>用于删除柱体。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>报告 </p> </td> 
+   <td colname="col1"> <p>报表 </p> </td> 
    <td colname="col2"> <p>用于从柱体中启动其他报表。 </p> </td> 
   </tr> 
   <tr> 
