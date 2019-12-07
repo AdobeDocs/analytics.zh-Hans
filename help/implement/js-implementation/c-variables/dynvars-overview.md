@@ -1,13 +1,12 @@
 ---
 description: 通过动态变量，您可以将一个变量中的值复制到另一个变量，而无需在网站上的图像请求中多次键入完整的值。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: 动态变量
 topic: Developer and implementation
 uuid: 1c6db083-570e-4bc4-858d-84cf46e7bec8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,13 +15,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 通过动态变量，您可以将一个变量中的值复制到另一个变量，而无需在网站上的图像请求中多次键入完整的值。
 
-动态变量用于同时捕获多个变量中的相同数据（例如促销活动跟踪代码）。当不同的报表提供了唯一且重要的量度时，通常会使用动态变量。例如，通过捕获[!UICONTROL 自定义转化]变量和[!UICONTROL 自定义流量]变量中的内部搜索关键词，您可以分别查看与这些关键词关联的[!UICONTROL 收入]和[!UICONTROL 每周独特访客]量度.
+动态变量用于同时捕获多个变量中的相同数据（例如促销活动跟踪代码）。当不同的报表提供了唯一且重要的量度时，通常会使用动态变量。例如，通过捕获[!UICONTROL 自定义转化]变量和[!UICONTROL 自定义流量]变量中的内部搜索关键词，您可以分别查看与这些关键词关联的[!UICONTROL 收入]和[!UICONTROL 每周独特访客]量度。
 
 动态变量还可用于在多种报表条件下查看数据。可在多个具有不同分配和 Cookie 过期设置的 eVar 中捕获促销活动跟踪代码。这就允许用户自行选择将转化量度分配到这些促销活动的方式。
 
 > [!NOTE]不支持同时使用动态变量与 Cookie（s_cc、s_sq、s_fid、s_vi 以及插件设置的任何 Cookie）。您无法使用 `D=<cookie value>`。
 
-动态变量的一个重要优势是能够捕获多个变量中的数据的长字符串，而且无需重复地实际传递这些长字符串。部分浏览器限定了 HTTP GET 请求（包括 Adobe 图像请求）的最大长度。在多个变量之间存在重复数据的情况下，使用动态变量可确保通过降低 Adobe 服务器请求的长度，从而捕捉所有数据。.
+动态变量的一个重要优势是能够捕获多个变量中的数据的长字符串，而且无需重复地实际传递这些长字符串。部分浏览器限定了 HTTP GET 请求（包括 Adobe 图像请求）的最大长度。在多个变量之间存在重复数据的情况下，使用动态变量可确保通过降低 Adobe 服务器请求的长度，从而捕捉所有数据。。
 
 在页面查看期间发生的 Adobe 图像请求中，如果使用动态变量将 [!UICONTROL Custom Traffic ] 的值复制到 [!UICONTROL Custom Conversion ]，则会显示 `v1=D=c1`1=1。如果 eVar1 收到之前在请求中的值，则 Adobe 服务器会在数据处理过程中将 [!UICONTROL Custom Traffic 1] 的值动态复制到 [!UICONTROL Custom Conversion 1]。这样，最初使用 [!UICONTROL Custom Traffic 1] 传递的值也会出现在 [!UICONTROL Custom Conversion 1] 报表中。
 
