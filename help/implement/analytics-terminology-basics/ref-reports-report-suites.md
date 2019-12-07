@@ -1,12 +1,11 @@
 ---
 description: 报表包可以针对选定的网站、网站集合或网页的子集，定义完整、独立的报表。通常情况下，一个报表包是一个网站，但也可以是为了得到总量而综合了若干网站数据的一个全局区段。当您登录到市场营销报告、临时分析和报表生成器时，请选择一个报表包来使用（除非您使用的是合并各报表包的统计报表包）。
 keywords: Analytics Implementation;reports;report suite;analytics report;global segment;roll-ups;rollups;combine report suites;traffic;conversion;path
-solution: Analytics
 title: 报表和报表包
 topic: Developer and implementation
 uuid: 288203f6-cd13-4e01-9950-2c7e5cfb8a17
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
