@@ -1,12 +1,11 @@
 ---
 description: 分类规则会定期查找未分类的术语。如果找到匹配规则的术语，规则会自动将其添加到分类数据表。您还可以使用分类规则覆盖现有键值。
-solution: Analytics
 subtopic: Classifications
 title: 分类规则
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,16 +14,16 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 分类规则会定期查找未分类的术语。如果找到匹配规则的术语，规则会自动将其添加到分类数据表。您还可以使用分类规则覆盖现有键值。
 
-**[!UICONTROL 分析]** &gt;管 **[!UICONTROL 理]** &gt;分 **[!UICONTROL 类规则生成器]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 分类规则生成器]**
 
-规则构建器允许您创建 *`classification rule set`*&#x200B;一个列表，该列表包含 *`classification rules`*。 如果规则与您指定的条件相匹配，则执行相应的操作。
+通过规则生成器，您可以创建 *`classification rule set`*，这是一个 *`classification rules`* 列表。如果规则与您指定的条件相匹配，则执行相应的操作。
 
 分类规则可提供以下便利性：
 
 * **电子邮件**&#x200B;和&#x200B;**展示广告**：创建分类规则可对各个展示广告促销活动进行分组，以便您了解展示促销活动是如何针对电子邮件促销活动执行的。
 
 * **跟踪代码**：创建分类规则可对由跟踪代码中的字符串派生的键值进行分类，并将其与您定义的特定条件进行匹配。
-* **搜索词**：使用[正则表达式](/help/components/c-classifications2/crb/classification-quickstart-rules.md)和通配符可简化搜索词分类。例如，如果搜索词包含 *`baseball`*&#x200B;内容，则可以将分 *`Sports League`* 类设置为 *`MLB`*。
+* **搜索词**：使用[正则表达式](/help/components/c-classifications2/crb/classification-quickstart-rules.md)和通配符可简化搜索词分类。例如，如果搜索词包含 *`baseball`*，则可以将 *`Sports League`* 分类设置为 *`MLB`*。
 
 例如，假设电子邮件促销活动 ID 的跟踪代码为：
 
@@ -32,7 +31,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 您可以在规则集中设置三条规则来识别字符串的各个部分，然后对值进行分类：
 
-| 选择规则类型 | 输入匹配条件 | 设置分类 | 值 |
+| 选择规则类型 | 输入匹配条件 | 设置分类 | 至 |
 |---|---|---|---|
 | 开头 | em: | 渠道 | Email |
 | 结尾 | Sale | 类型 | Sale |
@@ -52,26 +51,26 @@ about_classification_rules.xml
 * [规则何时不会对键值进行分类？](/help/components/c-classifications2/crb/classification-rule-builder.md)
 * [关于规则优先级](/help/components/c-classifications2/crb/classification-quickstart-rules.md)
 
-> [!NOTE] 规 [!UICONTROL 则构建器] 不支持数字2分类。
+> [!NOTE] [!UICONTROL 规则生成器]不支持数值 2 分类。
 
 ## 有关规则的重要信息
 
 * 在“管理工具”中指定分类的[群组权限](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)。
 
-* **正则表达式**:有关帮助，请参阅分 [类规则中的正则表达式](/help/components/c-classifications2/crb/classification-quickstart-rules.md)。
+* **正则表达式**：[分类规则中的正则表达式](/help/components/c-classifications2/crb/classification-quickstart-rules.md)下提供了相关帮助。
 
 * **报表包**：在至少选择一个报表包后，您才可以选取分类。在创建规则集并分配变量后，您才可以应用报表包。
 
    在测试规则集时，使用报表中的键值（经过分类的变量）可查看规则集将如何影响键值。（[键值](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)是经过分类的变量，或者是分类上载表中的第一列。）
 
-* **规则优先级**：如果一个键值匹配多条规则，这些规则设置了相同的分类（在“[!UICONTROL 设置分类]”列中），则将使用匹配分类的最后一条规则。请参阅 [关于规则优先级](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
+* **规则优先级**：如果一个键值匹配多条规则，这些规则设置了相同的分类（在“[!UICONTROL 设置分类]”列中），则将使用匹配分类的最后一条规则。请参阅[关于规则优先级](/help/components/c-classifications2/crb/classification-quickstart-rules.md)。
 
 * **规则数量的限制**：对于您可以创建的规则数量，不设定任何限制。但是，大量规则可能会影响浏览器性能。
 * **处理**：根据分类相关的流量数目，定期处理规则。
 
    活动规则每四小时进行一次处理，通常每月检查一次返回的分类数据。规则会自动检查新值，并使用导入器上载分类。
 
-* **覆盖现有分类**：请参阅[规则何时不会对键值进行分类？](/help/components/c-classifications2/crb/classification-quickstart-rules.md) 如有必要，您可以使用导入程序删除或删除现有分类。
+* **覆盖现有分类**：请参阅[规则何时不会对键值进行分类？](/help/components/c-classifications2/crb/classification-quickstart-rules.md)如有必要，您可以使用导入器删除或移除现有分类。
 
 ## 规则何时不会对键值进行分类？
 
@@ -86,7 +85,7 @@ about_classification_rules.xml
 
    >[!NOTE]
    >
-   >在报表中，当关键字存在时，分类将应用于指定的任何时间范围。 报表的日期范围不会影响报表。
+   >在报表中，当存在键值时，分类适用于指定的任何时间范围。报表的日期范围不会影响报表。
 
 ![](assets/overwrite_keys.png)
 
@@ -110,7 +109,7 @@ regex_classification_rules.xml
 
 ## 正则表达式 - 跟踪代码示例 {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
-> [!NOTE] 如果跟踪代码是URL编码的，则 **不会** 由规则生成器分类。
+> [!NOTE] 如果跟踪代码采用 URL 编码，它将&#x200B;**不会**&#x200B;由规则生成器分类。
 
 在此示例中，假设您要对以下促销活动 ID 进行分类：
 
@@ -118,9 +117,9 @@ regex_classification_rules.xml
 
 您要分类的跟踪代码包含以下部分：
 
-* `em` = email
-* `JuneSale` =营销活动名称
-* `20130601` =日期
+* `em` = 电子邮件
+* `JuneSale` = 促销活动名称
+* `20130601` = 日期
 
 [!UICONTROL Regular Expression]: `^(.+)\:(.+)\:(.+)$`
 
@@ -132,13 +131,13 @@ regex_classification_rules.xml
 
 ![](assets/regex_tracking_code.png)
 
-This example tells the rule that the campaign date `20140601` is at the third group `(.+)`, identified by `$3`.
+此示例说明了促销活动日期 `20140601` 位于第三组 `(.+)` 且由 `$3` 标识的规则。
 
 **[!UICONTROL 规则生成器]**
 
 在[!UICONTROL 规则生成器]中，采用如下方式配置规则：
 
-| 选择规则类型 | 输入匹配条件 | 设置分类 | 值 |
+| 选择规则类型 | 输入匹配条件 | 设置分类 | 至 |
 |---|---|---|---|
 | 正则表达式 | &amp;Hat;(.+)\:(.+)\:(.+)$ | 促销活动日期 | $3 |
 
@@ -146,8 +145,8 @@ This example tells the rule that the campaign date `20140601` is at the third gr
 
 | 正则表达式 | 字符串或匹配结果 | 对应的匹配群组 |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`:em:JuneSale:20130601 `$1`:em `$2`:6月销售 `$3`:邮编：20130601 |
-| 构建语法 | `^` =开始行()=组字符，允许您在括号中提取匹配字符。  `(.+)` = 捕获一个 ( . )character和(+)any more \ = start of a string.  `$` =表示前面的字符（或字符组）是行中的最后一个字符。 |
+| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`：em:JuneSale:20130601  `$1`：em  `$2`：JuneSale  `$3`：20130601 |
+| 构建语法 | `^` = 开始此行  () = 将字符分组并让您提取括号中的匹配字符。`(.+)` = 捕获一个 ( . ) 字符，以及再捕获 ( + )  \ = 字符串的开头。`$` = 指示前面的字符（或字符组）位于行的最后。 |
 
 有关正则表达式中字符含义的信息，请参阅[正则表达式 - 参考表](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)。
 
@@ -157,7 +156,7 @@ This example tells the rule that the campaign date `20140601` is at the third gr
 
 [!UICONTROL Sample Key]: `4s3234`
 
-* `4` =品牌名称
+* `4` = 品牌名称
 * `s` = 标识搜索引擎，例如 Google
 
 ![](assets/regex_char_position.png)
@@ -166,10 +165,10 @@ This example tells the rule that the campaign date `20140601` is at the third gr
 
 在[!UICONTROL 规则生成器]中，采用如下方式配置规则：
 
-| 选择规则类型 | 输入匹配条件 | 设置分类 | 值 |
+| 选择规则类型 | 输入匹配条件 | 设置分类 | 至 |
 |--- |--- |--- |--- |
-| 正则表达式 | `^.(s).*$` | 品牌和引擎 | `$0` （捕获品牌名称和搜索引擎的前两个字符。） |
-| 正则表达式 | `^.(s).*$` | 搜索引擎 | `$1` （捕获Google的第二个字符。） |
+| 正则表达式 | `^.(s).*$` | 品牌和引擎 | `$0`（为品牌名称和搜索引擎捕获前两个字符。） |
+| 正则表达式 | `^.(s).*$` | 搜索引擎 | `$1`（为 Google 捕获第二个字符。） |
 
 ## 正则表达式 - 匹配不同长度的跟踪代码 {#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2}
 
@@ -191,14 +190,14 @@ This example tells the rule that the campaign date `20140601` is at the third gr
 
 在[!UICONTROL 规则生成器]中，采用如下方式配置规则：
 
-| 选择规则类型 | 输入匹配条件 | 设置分类 | 值 |
+| 选择规则类型 | 输入匹配条件 | 设置分类 | 至 |
 |--- |--- |--- |--- |
-| 匹配字符串a:b的正则表达式 | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
-| 匹配字符串a:b的正则表达式 | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
-| 匹配字符串a:b:c的正则表达式 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
-| 匹配字符串a:b:c的正则表达式 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
-| 匹配字符串a:b:c的正则表达式 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
-| 正则表达式匹配字符串a:b:c:d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
+| 匹配字符串 a:b 的正则表达式 | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
+| 匹配字符串 a:b 的正则表达式 | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
+| 匹配字符串 a:b:c 的正则表达式 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
+| 匹配字符串 a:b:c 的正则表达式 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
+| 匹配字符串 a:b:c 的正则表达式 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
+| 匹配字符串 a:b:c:d 的正则表达式 | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
 ## 正则表达式 -“不包含”示例 {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
@@ -225,7 +224,7 @@ c:d:xoxo
 c:d:yoyo
 ```
 
-In this result, `a:b:1313` does not indicate a match.
+在此结果中，`a:b:1313` 不表示匹配项。
 
 ## 正则表达式 - 参考表 {#section_0211DCB1760042099CCD3ED7A665D716}
 
@@ -258,7 +257,7 @@ In this result, `a:b:1313` does not indicate a match.
 | `a{3,}` | 3 个或更多 a |
 | `a{3,6}` | 3 到 6 个 a |
 
-用于测试正则表达式有效性的一个好资源是https://rubular.com/。
+测试正则表达式有效性的一个有用资源是 https://rubular.com/。
 
 ## 关于规则优先级
 
@@ -274,17 +273,17 @@ rule_priority.xml
 
 以下是对运动员搜索类型进行分类的搜索词规则示例：
 
-| 规则编号 | 规则类型 | 匹配 | 设置分类 | 值 |
+| 规则编号 | 规则类型 | 匹配 | 设置分类 | 至 |
 |---|---|---|---|---|
 | 1 | 包含 | Cowboys | 搜索类型 | Team |
 | 2 | 包含 | Fantasy | 搜索类型 | Fantasy |
 | 3 | 包含 | Romo | 搜索类型 | Player |
 
-如果用户搜索 *`Cowboys fantasy Tony Romo`*, the term *`Player`* is classified, because it matches the last given classification shown in the Set Classification column.
+如果用户搜索 *`Cowboys fantasy Tony Romo`*，会对术语 *`Player`* 进行分类，因为它与“设置分类”列中显示的最后一个给定分类相匹配。
 
 同样，假设您在规则集中为以下搜索词设置了两条规则：
 
-| 规则编号 | 规则类型 | 匹配 | 设置分类 | 值 |
+| 规则编号 | 规则类型 | 匹配 | 设置分类 | 至 |
 |---|---|---|---|---|
 | 1 | 包含 | Cowboys | 城市 | Dallas |
 | 2 | 包含 | Broncos | 城市 | Denver |
@@ -305,24 +304,24 @@ t_classification_rule.xml
 
 >[!NOTE]
 >
->在此过程中，您必须将规则应用于一个或多个报表包。 即使没有限制，我们也建议每个规则集的规则数量在 500 到 1000 之间。如果您的规则超过 1000 条，请考虑使用[子分类](/help/components/c-classifications2/c-sub-classifications.md)简化规则集。
+>在此过程中，必须将规则应用到一个或多个报表包。即使没有限制，我们也建议每个规则集的规则数量在 500 到 1000 之间。如果您的规则超过 1000 条，请考虑使用[子分类](/help/components/c-classifications2/c-sub-classifications.md)简化规则集。
 
-1. [创建分类规则集](/help/components/c-classifications2/crb/classification-rule-set.md) 。
-1. On the rule set page, click **[!UICONTROL Add Rule]**.
+1. [创建分类规则集](/help/components/c-classifications2/crb/classification-rule-set.md)。
+1. 在规则集页面上，单击&#x200B;**[!UICONTROL 添加规则]**。
 
    ![](assets/add_rule.png)
 
-1. Next to **[!UICONTROL Report Suites]**, click **[!UICONTROL Add Suites]** to specify one or more report suites to assign to this rule set.
+1. 单击&#x200B;**[!UICONTROL 报表包]**&#x200B;旁边的&#x200B;**[!UICONTROL 添加报表包]**，以指定要分配到此规则集的一个或多个报表包。
 
-   此时会显示&#x200B;**[!UICONTROL 选择报表包]页面。**
+   此时会显示&#x200B;**[!UICONTROL 选择报表包]**&#x200B;页面。
 
    >[!NOTE]
-   当满足以下条件时，报 *`only`* 表包会显示在此页面上：       &gt;
+   *仅 (`only`)* 当满足以下条件时，才会在此页面上显示报表包：&gt;
 
    * 报表包在[!UICONTROL 管理工具]中针对该变量至少定义了一个分类。
-   （请参阅 在 *`Variable`* 分类 [规则集中](/help/components/c-classifications2/crb/classification-rule-set.md) ，以了解有关此入门项目的说明。)
+   （请参阅&#x200B;*分类规则集`Variable`中的*[](/help/components/c-classifications2/crb/classification-rule-set.md)，了解关于此先决条件的说明。）
 
-   * 您在“可用报表包”页面上选 **[!UICONTROL 择了报表包]** ，单击“添加规则集 [](/help/components/c-classifications2/crb/classification-rule-set.md) ”以创建规则集后将显示该报表包。
+   * 您在单击[添加规则集](/help/components/c-classifications2/crb/classification-rule-set.md)以创建规则集后显示的&#x200B;**[!UICONTROL 可用报表包]**&#x200B;页面上选择了报表包。
 
 
 1. 指定是否覆盖现有的值：
@@ -335,18 +334,18 @@ t_classification_rule.xml
 
    ![步骤结果](assets/classification_rules_page.png)
 
-   有关构建规则的示例，请参 [阅分类规则构建器](/help/components/c-classifications2/crb/classification-rule-builder.md)[和分类规则中的正则表达式](/help/components/c-classifications2/crb/classification-quickstart-rules.md)。
+   有关构建规则的示例，请参阅[分类规则生成器](/help/components/c-classifications2/crb/classification-rule-builder.md)和[分类规则中的正则表达式](/help/components/c-classifications2/crb/classification-quickstart-rules.md)。
 
    >[!NOTE]
    >
-   >如果键与设置相同分类的多个规则匹配（在“设置分类”列中），则使用与分类匹配的最后一个规则。 See **About Rule Priority** above for more information about sorting rules.
+   >如果一个键值匹配多条规则，而这些规则设置了相同的分类（在“设置分类”列中），则将使用匹配分类的最后一条规则。请参阅上述&#x200B;**关于规则优先级**，以了解有关对规则进行排序的详细信息。
 
 1. [测试规则集](/help/components/c-classifications2/crb/classification-quickstart-rules.md)。
-1. After testing, click **[!UICONTROL Active]** to validate and activate the rule.
+1. 测试后，单击&#x200B;**[!UICONTROL 活动]**&#x200B;以验证并激活规则。
 
    激活规则会自动构建文件并进行上载。
 
-   Field definitions: See [Classification Rule Builder](/help/components/c-classifications2/crb/classification-rule-definitions.md) for complete definitions of interface options on this page.
+   字段定义：请参阅[分类规则生成器](/help/components/c-classifications2/crb/classification-rule-definitions.md)，以了解此页面上界面选项的完整定义。
 
 ## 测试分类规则集
 
@@ -358,10 +357,10 @@ t_classifications_test_rule.xml
 
 描述如何测试分类规则或规则集的步骤。运行测试会检查规则集中的所有规则。
 
-1. [创建分类规则集](/help/components/c-classifications2/crb/classification-rule-set.md) 。
+1. [创建分类规则集](/help/components/c-classifications2/crb/classification-rule-set.md)。
 1. 在“[!UICONTROL 分类规则生成器]”中，单击规则集名称。
 1. 确保该规则集已与报表包相关联。
-1. On the rule editor, click **[!UICONTROL Test Rule Set]**.
+1. 在规则编辑器中，单击&#x200B;**[!UICONTROL 测试规则集]**。
 
    ![步骤结果](assets/classification_test_rule_set.png)
 
@@ -372,12 +371,12 @@ t_classifications_test_rule.xml
    * 跟踪代码
    * 搜索关键词或短语
    请参阅[分类规则中的正则表达式](/help/components/c-classifications2/crb/classification-quickstart-rules.md)以了解有关测试正则表达式的信息。
-1. Click **[!UICONTROL Run Test]**.
+1. 单击&#x200B;**[!UICONTROL 运行测试]**。
 
    匹配的规则将显示在“[!UICONTROL 结果]”表中。
-1. (Optional) Click **[!UICONTROL Activate]** to activate the rule, and to overwrite existing classifications.
+1. （可选）单击&#x200B;**[!UICONTROL 激活]**&#x200B;以激活规则并覆盖现有分类。
 
-   有关使用规则覆盖现有分类的更多信息，请参阅。
+   请参阅有关使用规则覆盖现有分类的详细信息。
 
 ## 验证和激活分类规则
 
@@ -389,12 +388,12 @@ t_validate_rules.xml
 
 描述如何验证和激活分类规则的步骤。
 
-1. [创建分类规则集](/help/components/c-classifications2/crb/classification-rule-set.md) ，然后 [将分类规则](/help/components/c-classifications2/crb/classification-quickstart-rules.md) 添加到集。
-1. On the rule editor, click **[!UICONTROL Activate]**.
+1. [创建分类规则集](/help/components/c-classifications2/crb/classification-rule-set.md)，然后向规则集中[添加分类规则](/help/components/c-classifications2/crb/classification-quickstart-rules.md)。
+1. 在规则编辑器中，单击&#x200B;**[!UICONTROL 激活]**。
 
    ![](assets/overwrite_keys.png)
 
-1. (Optional) To overwrite classifications, enable **[!UICONTROL Overwrite classifications for]** *`<selection>`*.
+1. （可选）要覆盖分类，请启用&#x200B;**[!UICONTROL 覆盖&#x200B;*`<selection>`*的分类]**。
 
    使用此选项可以覆盖受影响键值的现有分类。
 
