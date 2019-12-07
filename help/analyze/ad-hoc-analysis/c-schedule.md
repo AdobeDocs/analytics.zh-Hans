@@ -1,11 +1,10 @@
 ---
 description: 您可以自定义报表的提交计划。可以在特定时间停止提交操作，或指定发送报表的次数。新计划使用在报表中定义的日期范围。例如，如果针对过去 90 天创建一个报表，并计划每天运行该报表，则会每天收到针对过去 90 天的报表。如果您从日历创建具有静态日期范围的报表，则在每次发送此报表时您将看见相同的报表。
-solution: Analytics
 title: 计划管理器
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
