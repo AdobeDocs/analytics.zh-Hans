@@ -1,11 +1,10 @@
 ---
 description: Experience Cloud 中所用报表类别的描述。
-solution: Analytics
 title: 报表类别
 topic: Reports
 uuid: 78369121-3854-4bf9-9156-c2369ec75d73
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,13 +13,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Experience Cloud 中所用报表类别的描述。
 
-A **ranked report** displays a table with ranked items, using numbers and percentages in metrics. 例如，页面报表根据流量对您的网站上的页面进行排名，并且明细表会显示页面查看和收入等量度的百分比和数值。水平条形图是默认的图表类型。每个量度在图中显示为一种颜色。排名报表可以在一份报表中显示多个量度。A **trended report** lets you examine how conversions and events trend over a selected time granularity (Hour, Day, Week, Month, Quarter, or Year) during a reporting period.
+**排名报表**&#x200B;会显示一份项目排名的表，并在其中使用数值和百分比量度。例如，页面报表根据流量对您的网站上的页面进行排名，并且明细表会显示页面查看和收入等量度的百分比和数值。水平条形图是默认的图表类型。每个量度在图中显示为一种颜色。排名报表可以在一份报表中显示多个量度。**趋势报表**&#x200B;用于查看报告期间选定时间粒度（小时、日、周、月、季或年）内的转化和事件趋势。
 
 在图表中，纵轴显示跟踪的项目。横轴显示时间粒度。在表中，您可以从特定的单元格进行趋势分析，并从该单元格启动整个报表。使用的日期或时间基于单元格的值。
 
 您也可以根据所选粒度选择多个单元格并启动趋势报表。在对多个单元格进行趋势分析时，报表列将显示整个报告期间的数据。
 
-产品报表即是一种趋势报表。您可以查看选定时间段内产品的收入。如果您的报告期间是一周，则可以查看该时间段内该产品每天产生的收入，也可以显示当天特定产品的趋势图，或为所选项打开一个单独的趋势报表。A Totals报告是显示底线数字的行政级别报告。 该报表包含有关总收入、页面查看和订购的数据。您可以将报表分段并添加其他量度以查看更多数据。“流量”显示用户访问页面、网站区域和服务器时最常用的路径。
+产品报表即是一种趋势报表。您可以查看选定时间段内产品的收入。如果您的报告期间是一周，则可以查看该时间段内该产品每天产生的收入，也可以显示当天特定产品的趋势图，或为所选项打开一个单独的趋势报表。“总计”报表是显示基本数据的执行级别报表。该报表包含有关总收入、页面查看和订购的数据。您可以将报表分段并添加其他量度以查看更多数据。“流量”显示用户访问页面、网站区域和服务器时最常用的路径。
 
 有关流量如何在 Analysis Workspace 中工作的信息，请参阅[客户历程 - 流量](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html)。
 
@@ -30,4 +29,4 @@ A **ranked report** displays a table with ranked items, using numbers and percen
 
 **上一流量**
 
-上一流量报表类似于下一流量报表，但前者显示的是访客访问指定页面前所在的位置，而不是访问选定页面后前往的位置。用于此类报表的控件与用于“下一流量”报表的相同。流失可视化为构建流失报表提供了多个选项。流失报表显示访客从何处离开（流失）或继续通过（流过）预定义的页面序列。有关详细信息，请参阅 [Analysis](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html) Workspace中的流失。
+上一流量报表类似于下一流量报表，但前者显示的是访客访问指定页面前所在的位置，而不是访问选定页面后前往的位置。用于此类报表的控件与用于“下一流量”报表的相同。流失可视化为构建流失报表提供了多个选项。流失报表显示访客从何处离开（流失）或继续通过（流过）预定义的页面序列。有关详细信息，请参阅 Analysis Workspace 中的[流失](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html)。
