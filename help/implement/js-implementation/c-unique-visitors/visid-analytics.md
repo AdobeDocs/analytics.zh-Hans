@@ -1,12 +1,11 @@
 ---
 description: 当用户访问您的网站时，Adobe Web 服务器会设置一个永久性 Cookie，并将其包含在对浏览器的 HTTP 响应中。此 Cookie 是在指定的数据收集域中设置的。
 keywords: Analytics Implementation
-solution: Analytics
 title: Analytics 访客 ID
 topic: Developer and implementation
 uuid: fa7737cc-0190-4d27-af1b-87301a715df2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
