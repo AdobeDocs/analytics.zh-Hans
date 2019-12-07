@@ -1,11 +1,10 @@
 ---
 description: 可帮助您了解 Report Builder 工具栏上各个按钮功能的信息。
-solution: Analytics
 title: Report Builder 工具栏
 topic: Report builder
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -32,7 +31,7 @@ After you install Report Builder and launch Excel, click **[!UICONTROL Add-Ins]*
 
 **库：**&#x200B;启动“[!UICONTROL 工作簿库]”，以便您可以上载要共享的 Report Builder Excel 工作簿。您还可以下载并编辑共享的工作簿。See [Use the Workbook Library](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md).
 
-**** 选项：允许您指定在刷新请求时是否希望提示您输入“截止 **** （现在）”日期，并允许您启用日志记录以进行疑难解答。 请参阅[选项](/help/analyze/report-builder/options.md)。
+**** 选项：允许您指定在刷新请求时是否希望提示您输入“截止 **** （现在）”日期，并允许您启用日志记录以进行疑难解答。 请参阅 [选项](/help/analyze/report-builder/options.md).
 
 **锁定/解锁：**&#x200B;您可以锁定工作簿，从而防止对工作簿中的所有请求执行添加和编辑操作。这允许通过暂停所有报表请求来脱机编辑工作簿，从而提高编辑效率。请参阅 [锁定/解锁工作簿](/help/analyze/report-builder/workbook-library/protect-wb.md).
 
