@@ -1,11 +1,10 @@
 ---
 description: Report Builder 提交的优化方式及有时可能出现的错误消息的列表。
-solution: Analytics
 title: Report Builder 疑难解答和最佳实践
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
