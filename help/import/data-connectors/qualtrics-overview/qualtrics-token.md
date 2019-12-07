@@ -1,12 +1,11 @@
 ---
 description: 完成集成向导需要一个令牌。 要查找此ID，请完成以下操作。
-solution: Analytics
 subtopic: Qualtrics
 title: 生成Qualtrics Adobe Analytics令牌
 topic: Data connectors
 uuid: 6038279e-c399-4e10-9afc-9c4305dc36d5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
