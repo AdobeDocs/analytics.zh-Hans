@@ -1,11 +1,10 @@
 ---
 description: 日志文件有助于您了解用户登录的时间、用户使用情况、访问情况、报表包，以及管理员执行的更改。
-solution: Analytics
 title: 日志
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 日志文件有助于您了解用户登录的时间、用户使用情况、访问情况、报表包，以及管理员执行的更改。
 
-**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理员]** &gt;日 **[!UICONTROL 志]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 日志]**
 
 ## 管理日志 {#section_8ADE8A7204A8401C968ABC20AECA381D}
 
@@ -31,7 +30,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | IP | 按 IP 地址过滤日志。 |
 | 报表包 | 按特定的报表包 ID 过滤日志。 |
 | 事件类型 | 按事件类型过滤日志。从下拉列表中选择事件类型。 |
-| 事件 | 按事件描述中的字词或短语过滤日志。 |
+| Event | 按事件描述中的字词或短语过滤日志。 |
 | 下载报表 | 将“[!UICONTROL 使用与访问日志]”的内容导出到以制表符分隔的文件。 |
 
 ## 报表包更改日志 {#section_3864966639414BBEA871F4D0352F56B6}
@@ -50,6 +49,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 公司 | 按公司名称过滤日志。 |
 | 登录 | 按用户名过滤日志。 |
 | IP | 按 IP 地址过滤日志。 |
-| 事件 | 按事件描述中的字词或短语过滤日志。 |
+| Event | 按事件描述中的字词或短语过滤日志。 |
 | 下载报表 | 将“[!UICONTROL 使用与访问日志]”的内容导出到以制表符分隔的文件。 |
 
