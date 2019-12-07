@@ -1,12 +1,11 @@
 ---
 description: 使用处理规则可以基于定义的条件对数据进行更改。当属性或值匹配定义的条件时，可以设置和删除值，并可以设置事件。
-solution: Analytics
 subtopic: Processing rules
 title: 处理规则的工作原理
 topic: Admin tools
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 使用处理规则可以基于定义的条件对数据进行更改。当属性或值匹配定义的条件时，可以设置和删除值，并可以设置事件。
 
-收集数据时，会对数据应用处理规则，并且规则会应用于通过 AppMeasurement 库和数据插入 API 获得的所有数据。处理规则还应用于完整数据源和日志数据源。这些数据源包含的数据代表一次&#x200B;*`hit`*&#x200B;或用户采取的某个操作。处理规则不应用于其他数据源。
+收集数据时，会对数据应用处理规则，并且规则会应用于通过 AppMeasurement 库和数据插入 API 获得的所有数据。处理规则还应用于完整数据源和日志数据源。这些数据源包含的数据代表一次&#x200B;*`hit`* 或用户采取的某个操作。处理规则不应用于其他数据源。
 
 ## 重要概念 {#section_EB138775E7C64C74B0D1D3213F7A823C}
 
@@ -39,11 +38,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>处理规则在保存后将被立即应用于报表包。 </p> </td> 
-   <td colname="col2"> <p>来自处理规则的更改应在保存后的几分钟内在您的报表包中可见。在测试处理规则时，我们建议在您的测试报表包中配置 <a href="/help/admin/admin/realtime/t-realtime-admin.md"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
+   <td colname="col2"> <p>来自处理规则的更改应在保存后的几分钟内在您的报表包中可见。在测试处理规则时，我们建议在您的测试报表包中配置<a href="/help/admin/admin/realtime/t-realtime-admin.md">实时报表</a>，以便于快速查看处理规则的结果。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>处理规则是访问上下文数据变量的唯一途径。 </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> 将上下文数据变量复制到eVar </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> 将上下文数据变量复制到 eVar</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>处理规则先于 VISTA 规则和营销渠道规则应用。 </p> </td> 
@@ -62,7 +61,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col2"> <p>移动设备查找先于处理规则发生，但属性在处理规则中不可用。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>如果您运行的是 JavaScript AppMeasurement H.25.2 或更早版本，则无法读取查询字符串参数中的 URL 前 255 个字符以外的内容。JavaScript appMeasurement H.25.3及更高版本为处理规则提供完整URL，包括所有查询字符串参数。 </p> </td> 
+   <td colname="col1"> <p>如果您运行的是 JavaScript AppMeasurement H.25.2 或更早版本，则无法读取查询字符串参数中的 URL 前 255 个字符以外的内容。JavaScript AppMeasurement H.25.3 及更高版本提供了完整的 URL，包括用于处理规则的所有查询字符串参数。 </p> </td> 
    <td colname="col2"> <p>升级到 H.25.3 或更高版本，或者读取来自长 URL 客户端的查询字符串参数，并将值存储在上下文数据变量中。 </p> </td> 
   </tr> 
   <tr> 
@@ -83,7 +82,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>上下文数据变量名称只能包含字母数字字符、下划线和点。任何其他字符都会被去除。 </p> </td> 
-   <td colname="col2"> <p>For example, The context data variable <code> login_page-home</code> automatically becomes <code> login_pagehome</code>. All data sent to the <code> login_page-home</code> variable is allocated under <code> login_pagehome</code>. </p> <p>包含不受支持字符的上下文数据变量无法添加到“处理规则”界面中。 </p> </td> 
+   <td colname="col2"> <p>例如，上下文数据变量 <code> login_page-home</code> 会自动变为 <code> login_pagehome</code>。发送给 <code> login_page-home</code> 变量的所有数据会被分配在 <code> login_pagehome</code> 下。 </p> <p>包含不受支持字符的上下文数据变量无法添加到“处理规则”界面中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>插入符号 (^) 在处理规则系统中是特殊字符。 </p> </td> 
