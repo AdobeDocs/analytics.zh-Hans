@@ -1,11 +1,10 @@
 ---
 description: Data Warehouse 提供了一项可提取访客 ID 列表的功能。这些 ID 不是 Cookie ID，而是在您的任一转化变量中捕获的 ID。尽管有其他方法可获取此信息，但是以下示例提供了一种可快速生成 Data Warehouse 请求的方法。
-solution: Analytics
 title: 用例 - 提取访客 ID
 topic: Admin tools
 uuid: ed228334-619c-43d7-b781-a18af73b00bb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Data Warehouse 提供了一项可提取访客 ID 列表的功能。这些 ID 不是 Cookie ID，而是在您的任一转化变量中捕获的 ID。尽管有其他方法可获取此信息，但是以下示例提供了一种可快速生成 Data Warehouse 请求的方法。
 
-例如，假设您的企业向客户和潜在客户发送营销电子邮件。则每个电子邮件收件人在您的电子邮件系统中均有一个唯一的 ID（如 *`EMAIL Contact ID`*). 您可以设置您的电子邮件，以便联系人在收到电子邮件并单击其中的某个链接时，到达您网站的访客会具有一个促销活动 ID 和唯一电子邮件联系人 ID。例如，您的电子邮件链接可能解析为：
+例如，假设您的企业向客户和潜在客户发送营销电子邮件。则每个电子邮件收件人在您的电子邮件系统中均有一个唯一的 ID（如 *`EMAIL Contact ID`*）。您可以设置您的电子邮件，以便联系人在收到电子邮件并单击其中的某个链接时，到达您网站的访客会具有一个促销活动 ID 和唯一电子邮件联系人 ID。例如，您的电子邮件链接可能解析为：
 
 ```js
 https://www.test.com/?cid=springmailblast&mid=1363660158
