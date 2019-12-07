@@ -1,11 +1,10 @@
 ---
-description: Report Builder中滚动日期的字段定义。
-solution: Analytics
+description: Report Builder 中滚动日期的字段定义。
 title: 请求向导定义 - 滚动日期
 topic: Report builder
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
