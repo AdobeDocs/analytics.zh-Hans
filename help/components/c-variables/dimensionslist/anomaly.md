@@ -1,12 +1,11 @@
 ---
 description: 异常检测提供了一种统计方法来确定给定的量度相对于以前的数据发生了什么变化。
 keywords: anomaly
-solution: Analytics
 title: 异常检测
 topic: Reports
 uuid: 0e8bf30c-004d-47d3-ad8d-c5a86ba81d9d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
