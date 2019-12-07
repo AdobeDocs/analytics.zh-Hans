@@ -1,11 +1,10 @@
 ---
 description: 按设备支持的图像类型对移动设备进行分组。例如，如果访客的电话支持 .jpg 图像，并访问了网站，则图像支持报表至少递增 1。如果手机支持多种图像格式，则对网站的一次访问会产生多个递增量。换言之，如果移动电话支持 .jpg、.png 和 .gif 格式，报表中的这些组将递增。这样，群组总数可能大于报表底部显示的总数。
-solution: Analytics
 title: 图像支持
 topic: Reports
 uuid: 99cea17a-660b-46ff-8cbc-a4e42d6e8c89
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
