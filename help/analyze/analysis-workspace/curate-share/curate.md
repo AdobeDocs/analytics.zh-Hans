@@ -1,12 +1,11 @@
 ---
 description: “组织”让您可在共享项目前限制组件。您可以将项目及其组件与业务中涉及的营销人员及其他非分析人员共享。在项目中批注并应用标记。
 keywords: Analysis Workspace
-solution: Analytics
 title: 组织/共享概述
 topic: Reports and analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,22 +18,22 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&index=79&t=0s&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
 
-**[!UICONTROL 工作区]** &gt;共 **[!UICONTROL 享]**&gt;管 **[!UICONTROL 理项目数据]**
+**[!UICONTROL 工作区]** &gt; **[!UICONTROL 共享]** &gt; **[!UICONTROL 策划项目数据]**
 
-## 管理项目数据
+## 策划项目数据
 
 1. 指定创建和组织项目的权限。
 
-   Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) with the **[!UICONTROL Analysis Workspace Access]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]**).
+   创建或策划 Analysis Workspace 项目之前，管理员必须将您添加到已启用 **[!UICONTROL Analysis Workspace 访问权限]**[组](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)，或添加到&#x200B;**[!UICONTROL 所有报表访问权限]**&#x200B;用户组。（**[!UICONTROL 管理员]** &gt; **[!UICONTROL 用户管理]** &gt; **[!UICONTROL 组]**）。
 
-1. [创建并保存项目](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) ，然后单击“共 **[!UICONTROL 享]** ”&gt;“ **[!UICONTROL 创建项目数据”]**。
-1. 将您要从左侧可拖动组件堆叠中共享的组件拖到&#x200B;**[!UICONTROL 策划的组件]字段。**
+1. [创建并保存](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)一个项目，然后单击&#x200B;**[!UICONTROL 共享]** &gt; **[!UICONTROL 策划项目数据]**。
+1. 将您要从左侧可拖动组件堆叠中共享的组件拖到&#x200B;**[!UICONTROL 策划的组件]**&#x200B;字段。
 
    ![](assets/curated-components.png)
 
    >[!IMPORTANT]
    >
-   >共享项目不需要创建组件。 您可以共享包含所有可用、默认组件的项目，或者共享包含选定组件的项目。To preserve all of the default components in a project, a best practice is to create a copy of a project for yourself (using **[!UICONTROL Save As]**) prior to curating components. 一旦您在项目中组织了组件，其他组件将不能继续用于该项目。
+   >共享项目并非必须要求策划组件。您可以共享包含所有可用、默认组件的项目，或者共享包含选定组件的项目。要在项目中保留所有默认的组件，最佳做法是在策划组件之前，自行创建一个项目副本（使用&#x200B;**[!UICONTROL 另存为]**）。一旦您在项目中组织了组件，其他组件将不能继续用于该项目。
 
 1. 单击&#x200B;**[!UICONTROL 完成]**。
 
@@ -44,22 +43,22 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 共享可以使此项目供您的组织内的其他 Analysis Workspace 用户使用。当其他人使用此项目时，您完成的任何组织工作都会得到反映。
 
-1. After you curate the components of a report, click **[!UICONTROL Share]** &gt; **[!UICONTROL Share Project]**.
+1. 在您策划报表中的组件后，单击&#x200B;**[!UICONTROL 共享]** &gt; **[!UICONTROL 共享项目]**。
 
    ![](assets/share_component.png)
 
 1. 添加接收人。
-1. （可选）您也可以将嵌入的项目组件（区段、计算量度和日期范围）与所有接收人共享。共享后，这些组件将显示在收件人工作区的组件下拉菜单中。
+1. （可选）您也可以将嵌入的项目组件（区段、计算量度和日期范围）与所有接收人共享。共享后，这些组件将显示在接收人工作区的组件下拉菜单中。
 
    >[!IMPORTANT]
    >
-   >此设置不会持续存在——共享时这是一个单一操作。
+   >此设置不具有持续性，在分享时，它是独立的操作。
 
 1. 或者，您也可以将此页面设置为接收人的登录页面。
 
    >[!IMPORTANT]
    >
-   >此设置不会持续存在——共享时这是一个单一操作。
+   >此设置不具有持续性，在分享时，它是独立的操作。
 
 1. 单击&#x200B;**[!UICONTROL 共享]**。
 
