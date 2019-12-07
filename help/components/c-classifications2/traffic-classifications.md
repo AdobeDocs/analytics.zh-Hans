@@ -1,12 +1,11 @@
 ---
 description: 流量分类允许您对流量变量 (prop) 进行分类。流量分类只能使用文本分类。
-solution: Analytics
 subtopic: Classifications
 title: 流量分类
 topic: Admin tools
 uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,7 +22,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 在启动分类后，使用[分类导入器](/help/components/c-classifications2/c-classifications-importer/c-working-with-saint.md)来对适当分类分配特定值。
 
-## Add a Traffic Classification {#task_4DB49CCB1D764483907BC33A5CEB7315}
+## 添加流量分类 {#task_4DB49CCB1D764483907BC33A5CEB7315}
 
 <!-- 
 
@@ -33,15 +32,15 @@ t_classification_add_traffic.xml
 
 描述如何添加或编辑选定报表包的分类的步骤。
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** in the Suite header.
-1. 选择报表包.
-1.  在&#x200B;**选择分类类型**&#x200B;字段中，选择要添加分类的变量。
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Traffic]** &gt; **[!UICONTROL Traffic Classifications]**.
+1. 单击包标题中的&#x200B;**[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]**。
+1. 选择报表包。
+1. 在&#x200B;**[!UICONTROL 选择分类类型]**&#x200B;字段中，选择要添加分类的变量。
+1. 单击&#x200B;**[!UICONTROL 编辑设置]** &gt; **[!UICONTROL 流量]** &gt; **[!UICONTROL 流量分类]**。
 
    ![步骤信息](assets/traffic-classification.png)
 
-1. Mouse over the **[!UICONTROL Edit Classification]** icon, then select **[!UICONTROL Add Classification]** or **[!UICONTROL Edit Classification]**.
-1. In the **[!UICONTROL Text Classification]** dialog box, configure the classification as desired:
+1. 将鼠标悬停在&#x200B;**[!UICONTROL 编辑分类]**&#x200B;图标上，然后选择&#x200B;**[!UICONTROL 添加分类]**&#x200B;或&#x200B;**[!UICONTROL 编辑分类]**。
+1. 在&#x200B;**[!UICONTROL 文本分类]**&#x200B;对话框中，根据需要配置分类：
 
    **[!UICONTROL 名称：]**&#x200B;指定分类名称。
 
