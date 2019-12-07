@@ -1,11 +1,10 @@
 ---
 description: 这两个量度专指浏览器窗口中数据的水平/垂直距离。如需具体信息，请参阅浏览器
-solution: Analytics
 title: 浏览器宽度/高度
 topic: Metrics
 uuid: 1c0d3ea9-e001-4152-9bfc-8fe6406bc755
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 这两个量度专指浏览器窗口中数据的水平/垂直距离。如需具体信息，请参阅浏览器
 
-Adobe Analytics 仅使用来自某访问第一次点击的浏览器高度和宽度。其余的点击不会得到同一访问的属性。The browser width/height dimensions capture similar but distinct values when compared with [mobile screen size](/help/components/c-variables/dimensionslist/reports-mobile.md#topic_D306EA4558194488AC47A45B9C570150).
+Adobe Analytics 仅使用来自某访问第一次点击的浏览器高度和宽度。其余的点击不会得到同一访问的属性。与[移动设备屏幕大小](/help/components/c-variables/dimensionslist/reports-mobile.md#topic_D306EA4558194488AC47A45B9C570150)相比，浏览器宽度/高度维度会捕获相似但却不同的值。
 
 例如，当您对浏览器宽度或高度按移动设备分辨率进行划分时，您需要注意到以下不同之处：
 
