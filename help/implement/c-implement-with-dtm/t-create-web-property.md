@@ -1,12 +1,11 @@
 ---
 description: Web 属性可以是包含在一个嵌入代码中且具有规则库的一个或多个域和子域的任意组合。
 keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;web property;property
-solution: Analytics
 title: 创建 Web 属性
 topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
