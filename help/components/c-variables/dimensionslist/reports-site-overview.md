@@ -1,11 +1,10 @@
 ---
 description: 网站量度 > 网站概述报表在登录时显示，可让您立即查看并与相关数据交互。您可以编辑布局，将其另存为功能板，并对这些数据进行深入分析。
-solution: Analytics
 title: 网站概述
 topic: Reports
 uuid: 6bd9ca4b-9026-4d31-9fb3-3112a37cf845
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
