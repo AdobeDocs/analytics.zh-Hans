@@ -1,11 +1,10 @@
 ---
 description: 升级 Adobe FTP 服务器会引入一些新配置并对自动脚本（通常用于定期下载或上传数据）产生影响，且这些脚本的构建通常依赖于特定的服务器设置。
 keywords: ftp;sftp
-solution: Analytics
 title: 升级 Adobe FTP 服务器
 uuid: cc9e5e13-e213-480f-9ff6-3dbec24baeee
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
