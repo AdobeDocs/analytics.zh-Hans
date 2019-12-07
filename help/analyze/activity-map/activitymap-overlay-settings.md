@@ -1,11 +1,10 @@
 ---
 description: 您可以通过“Activity Map 设置”面板，为所有类型的叠加图可视化修改设置和属性。
-solution: Analytics
 title: 配置 Activity Map 设置
 topic: Activity map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
