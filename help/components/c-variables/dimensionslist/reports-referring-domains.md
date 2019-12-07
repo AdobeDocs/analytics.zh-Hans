@@ -1,11 +1,10 @@
 ---
-description: 显示对网站成功量度影响最大的顾客所使用的反向链接域名。引用分为两个主要类别：域和URL。 “域”指的是域名，它显示为不带查询字符串或子目录的基本域。URL 包括基本域名以及任何查询字符串或子目录。
-solution: Analytics
+description: 显示对网站成功量度影响最大的顾客所使用的反向链接域名。反向链接分为两大类别：域和 URL。“域”指的是域名，它显示为不带查询字符串或子目录的基本域。URL 包括基本域名以及任何查询字符串或子目录。
 title: 反向链接域名
 topic: Reports
 uuid: ab310bb8-51b1-4428-a42e-2377d36ca986
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
