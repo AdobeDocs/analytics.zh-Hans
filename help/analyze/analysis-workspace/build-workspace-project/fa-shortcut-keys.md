@@ -1,12 +1,11 @@
 ---
 description: 在 Analysis Workspace 中，可使用键盘交互、快捷键以及点击行为。
 keywords: Analysis Workspace
-solution: Analytics
 title: Analysis Workspace 中可用的热键
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -54,7 +53,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col2"> <p> Ctrl（或 Command）+ Shift + e </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>组织项目数据 </p> </td> 
+   <td colname="col1"> <p>策划项目数据 </p> </td> 
    <td colname="col2"> <p>Ctrl（或 Command）+ Shift + g </p> </td> 
   </tr> 
   <tr> 
