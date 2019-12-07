@@ -1,13 +1,12 @@
 ---
 description: getValOnce 插件可防止指定变量被设置为之前定义的值。它使用 Cookie 来确定变量最近一次显示的值。如果当前值匹配 Cookie 值，则变量会被一个空白字符串覆盖，然后发送到 Adobe 处理服务器。此插件可有效防止在用户刷新页面或单击返回按钮时造成转化变量实例虚增。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: getValOnce
 topic: Developer and implementation
 uuid: 82fe0da5-3bc4-4632-8c62-7b5683f6b587
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
