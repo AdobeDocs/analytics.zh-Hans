@@ -1,20 +1,19 @@
 ---
 description: “管理联合品牌图像”页面可以在下载的报表中显示自己公司的徽标。
-solution: Analytics
-title: 联合品牌
+title: 品牌联合
 topic: Admin tools
 uuid: 918db633-44bb-4502-bd04-98a6337a166c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# 联合品牌
+# 品牌联合
 
-通过“管理品牌联合图像”页面，您可以在“报告与分析”下载的报告和传统仪表板中显示您的公司徽标。 Analysis Workspace中不使用品牌联合。
+通过“管理品牌联合图像”页面，您可以在 Reports &amp; Analytics 下载的报表和旧版功能板中显示公司徽标。Analysis Workspace 中不使用品牌联合。
 
-**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理员]** &gt;公司 **[!UICONTROL 设置]** &gt; **[!UICONTROL 联合品牌Adobe Experience Cloud]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 公司设置]** &gt; **[!UICONTROL 品牌联合 Adobe Experience Cloud]**
 
 使用以下图像准则以获得最佳效果：
 
