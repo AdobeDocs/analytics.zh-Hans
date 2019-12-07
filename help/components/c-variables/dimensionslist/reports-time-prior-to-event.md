@@ -1,11 +1,10 @@
 ---
 description: 显示了在访问过程中选定的转化事件发生之前的时长。您可以看到开始访问的图像请求与触发指定转化事件的图像请求之间的时间差异。此报表用于确定访客从到达站点到实现成功事件（例如提交表单或下订单）之间的时间。
-solution: Analytics
 title: 发生事件之前逗留的时间
 topic: Reports
 uuid: 851d9b6e-9d85-464a-9c40-ce525365ea7d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,6 +13,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 显示了在访问过程中选定的转化事件发生之前的时长。您可以看到开始访问的图像请求与触发指定转化事件的图像请求之间的时间差异。此报表用于确定访客从到达站点到实现成功事件（例如提交表单或下订单）之间的时间。
 
-In ad hoc analysis, this report is found under **[!UICONTROL Paths]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Time Prior to Event]**.
+在 Ad Hoc Analysis 中，此报表位于&#x200B;**[!UICONTROL 路径]** &gt; **[!UICONTROL 常规]** &gt; **[!UICONTROL 发生事件之前逗留的时间]**&#x200B;中。
 
-In marketing reports, it is found under **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Time Prior to Event]**.
+在市场营销报表中，此报表位于&#x200B;**[!UICONTROL 网站量度]** &gt; **[!UICONTROL 发生事件之前逗留的时间]**&#x200B;中。
