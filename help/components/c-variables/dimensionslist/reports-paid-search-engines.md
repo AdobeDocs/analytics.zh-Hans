@@ -1,11 +1,10 @@
 ---
 description: 显示访客用于付费搜索的搜索引擎。
-solution: Analytics
 title: 付费搜索引擎
 topic: Reports
 uuid: 82f27eea-f72b-48a9-ba5d-5968c212b536
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
