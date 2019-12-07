@@ -1,12 +1,11 @@
 ---
 description: 描述如何转义分类文件中的分类数据的步骤。
-solution: Analytics
 subtopic: Classifications
 title: 转义分类数据
 topic: Admin tools
 uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,11 +22,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    >[!NOTE]
    >
-   >To specify a format of v2.1, enable **[!UICONTROL Quoted Output]** when exporting the file on the [!UICONTROL Classification Importer] page ( [!UICONTROL Browser Export] or [!UICONTROL FTP Export]).
+   >要指定 v2.1 格式，请在“[!UICONTROL 分类导入器]”页面中导出文件时启用&#x200B;**[!UICONTROL 为输出加引号]**（“[!UICONTROL 浏览器导出]”或“[!UICONTROL FTP 导出]”）。
 
-1. Surround the field containing special characters in double quotes (`"`).
+1. 为包含特殊字符的字段加上双引号 (`"`)。
 
-A double quote character can appear in an escaped cell by replacing it with two double quote characters (`" "`). 例如：
+可通过将一个双引号字符替换为两个双引号字符 (`" "`) 的方式，让其显示在已转义的单元格内。例如：
 
 ```
 My String "of data"
