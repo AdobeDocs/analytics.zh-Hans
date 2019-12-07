@@ -1,12 +1,11 @@
 ---
 description: “智能警报”功能允许您在 Analysis Workspace 中创建和管理警报，以及警报预览和规则贡献。
 keywords: Analytics Implementation;alert;anomalies;anomaly;email;sms;multiple metrics
-solution: Analytics
 title: 警报
 topic: Developer and implementation
 uuid: 8b266adf-bb6b-4bff-8307-e246aca717c7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,7 +17,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 您可以
 
 * 构建基于异常的警报（90%、95% 或 99% 阈值；% 更改；以上/以下）。
-* 预览警报触发的频率。
+* 预览警报触发的频率.
 * 通过含链接的电子邮件或短信将警报发送到自动生成的 [!UICONTROL Analysis Workspace] 项目。
 * 创建可在一个警报中捕获了多个量度的“堆栈式”警报。
 
