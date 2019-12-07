@@ -1,16 +1,15 @@
 ---
 description: 将区段标记为收藏是另一种组织区段以便于使用的方式。
-solution: Analytics
-title: 将区段标记为收藏夹
+title: 将区段标记为收藏
 topic: Segments
 uuid: 0bc1f19c-4ab1-47a2-8dd4-9aa0015846ed
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# 将区段标记为收藏夹
+# 将区段标记为收藏
 
 将区段标记为收藏是另一种组织区段以便于使用的方式。
 
@@ -18,4 +17,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/favorites.png)
 
-1. You can also filter on favorites under **[!UICONTROL Filters]** &gt; **[!UICONTROL Other Filters]** &gt; **[!UICONTROL Favorites]**.
+1. 您也可以在&#x200B;**[!UICONTROL 过滤器]** &gt; **[!UICONTROL 其他过滤器]** &gt; **[!UICONTROL 收藏]**&#x200B;下对收藏项进行过滤。
