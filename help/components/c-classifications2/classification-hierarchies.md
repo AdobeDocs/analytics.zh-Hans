@@ -1,12 +1,11 @@
 ---
 description: “分类层次结构”页面可让您定义分类层次结构，将其用于创建具有相同名称的“层次结构”报表。
-solution: Analytics
 subtopic: Classifications
 title: 分类层次结构
 topic: Admin tools
 uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,7 +26,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 先创建分类，然后再将它们添加到层次结构。
 
-## Create a Classification Hierarchy {#task_3805EBCACC844261A7125D63D772CCDF}
+## 创建分类层次结构 {#task_3805EBCACC844261A7125D63D772CCDF}
 
 <!-- 
 
@@ -35,9 +34,9 @@ t_classification_heirarchy.xml
 
  -->
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. 选择报表包.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Classification Hierarchies]**.
+1. 单击&#x200B;**[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]**。
+1. 选择报表包。
+1. 单击&#x200B;**[!UICONTROL 编辑设置]** &gt; **[!UICONTROL 转化]** &gt; **[!UICONTROL 分类层次结构]**。
 1.  从&#x200B;**要构建层次结构的对象**&#x200B;下拉列表中，选择要创建分类层次结构的变量。
 
    分类列表将自动显示所选变量的分类变量。
