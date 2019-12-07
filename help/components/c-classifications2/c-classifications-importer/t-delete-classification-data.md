@@ -1,12 +1,11 @@
 ---
 description: 描述如何删除或移除分类数据的步骤。
-solution: Analytics
 subtopic: Classifications
 title: 删除分类数据
 topic: Admin tools
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 translation-type: tm+mt
-source-git-commit: e526a38415135440f666ecadd73c34920c0c4c1d
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,10 +18,10 @@ source-git-commit: e526a38415135440f666ecadd73c34920c0c4c1d
 
 删除分类数据涉及上传包含或位于相 `~empty~` 应单元 `~deletekey~` 格中的分类文件。
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. Click **[!UICONTROL Browser Export]**.
+1. 单击&#x200B;**[!UICONTROL 管理员]** &gt; **[!UICONTROL 分类导入器]**。
+1. 单击&#x200B;**[!UICONTROL 浏览器导出]**。
 1. 选择您要从中删除分类数据的报表包和数据集。
-1. Adjust any optional settings to filter specific data you're looking for, then click **[!UICONTROL Export File]**.
+1. 调整任何可选设置，以便过滤要查找的特定数据，然后单击&#x200B;**[!UICONTROL 导出文件]**。
 1. 下载文件后，打开文件并将任何分类值替换为或 `~empty~` 值 `~deletekey~`。
 1. 将文件另存为制表符分隔的文本文件。
 1. 单击 **[!UICONTROL 导入文件]**，然后将保存的分类文件上传回Adobe Analytics。
