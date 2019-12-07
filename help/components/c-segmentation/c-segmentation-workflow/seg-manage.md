@@ -1,11 +1,10 @@
 ---
 description: 区段管理器提供了许多种管理区段的方式，如共享、过滤、标记、批准、复制、删除和标记为收藏。
-solution: Analytics
 title: 管理区段
 topic: Segments
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,8 +15,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Analytics 区段管理器显示了您拥有的所有区段以及共享给您的所有区段。管理员级别的用户可以查看组织内的所有区段。此概述说明了用户界面和区段管理器的功能。访问区段管理器的方法如下：
 
-* Going to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Segments]** in the top navigation.
-* 显示一个现有报表，然后单击左侧导航中的“区段”图标 ![。](assets/segment_icon.png)Then click **[!UICONTROL Manage]**.
+* 在顶部导航中，转到 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 组件]** &gt; **[!UICONTROL 区段]**。
+* 显示一个现有报表，然后单击左侧导航中的“区段”图标 ![](assets/segment_icon.png)。接下来，单击&#x200B;**[!UICONTROL 管理]**。
 
 ## 操作方法视频 {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
@@ -48,7 +47,7 @@ Analytics 区段管理器显示了您拥有的所有区段以及共享给您的�
 
 Ad Hoc Analysis 中的 Segment Organizer 显示您拥有的所有区段以及与您共享的所有区段。
 
-To access the Segment Organizer in [!DNL ad hoc analysis]:
+要在 [!DNL ad hoc analysis] 中访问 Segment Organizer，请执行以下操作：
 
 * 转到左侧面板中的“区段”****&#x200B;选项卡，然后单击扳手图标 ![，接着从菜单中选择“组织区段”](assets/wrench_icon.png)**。**
 
