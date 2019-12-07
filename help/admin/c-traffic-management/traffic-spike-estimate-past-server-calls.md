@@ -1,10 +1,9 @@
 ---
 description: 比如说，您可以了解去年特定时间范围内的每日服务器调用平均值，以及服务器调用量在今年的预期增加量。您随后可计划基于此乘数因子的流量峰值。
-solution: Analytics
 title: 评估过去的服务器调用并计划流量尖峰
 uuid: 38deb1df-afb0-437d-b541-69295f0dc8dc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -13,20 +12,20 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 比如说，您可以了解去年特定时间范围内的每日服务器调用平均值，以及服务器调用量在今年的预期增加量。您随后可计划基于此乘数因子的流量峰值。
 
-1. Log in to Analytics as an Admin and go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Traffic Management]**.
+1. 以管理员身份登录 Analytics，然后转到&#x200B;**[!UICONTROL 管理员]** &gt; **[!UICONTROL 流量管理]**。
 
-1. 单击&#x200B;**[!UICONTROL 展开]**&#x200B;以展开报表包列表，然后单击&#x200B;**选择报表包]以选择多个报表包。[!UICONTROL **
+1. 单击&#x200B;**[!UICONTROL 展开]**&#x200B;以展开报表包列表，然后单击&#x200B;**[!UICONTROL 选择报表包]**&#x200B;以选择多个报表包。
 
-1. Click **[!UICONTROL Schedule Spikes]**.
-1. Under **[!UICONTROL Past Server Calls]**, select a start and end date for the selected report suites.
+1. 单击&#x200B;**[!UICONTROL 计划尖峰]**。
+1. 在&#x200B;**[!UICONTROL 过去的服务器调用数]**&#x200B;下，选择选定报表包的开始日期和结束日期。
 
    此时会生成“高峰日”、“高峰日服务器调用数”和“每天平均服务器调用数”的数量。
 
-1. Input a value for the multiplication factor and click **[!UICONTROL Click to multiply and set]**.
+1. 输入乘数因子的值，然后单击&#x200B;**[!UICONTROL 单击以求积并设置]**。
 
    此时每个报表包都会对其中每列的值进行乘法运算。
 
-1. Under **[!UICONTROL Set Spike Parameters]**, submit the spike parameters for the selected report suites.
+1. 在&#x200B;**[!UICONTROL 设置尖峰参数]**&#x200B;下，提交选定报表包的尖峰参数。
 
    现在已为每个选定的报表包计划了尖峰。
 
