@@ -1,11 +1,10 @@
 ---
 description: 无论是分类还是数据源，任何 FTP 文件的处理时间均取决于处理队列中已有的文件数量和您的文件大小。
 keywords: ftp;sftp
-solution: Analytics
 title: FTP 处理时间
 uuid: a0f67db4-0bb1-4596-95da-21c8ab2a4a61
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
