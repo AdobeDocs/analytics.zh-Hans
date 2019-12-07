@@ -1,12 +1,11 @@
 ---
 description: 成功事件是指可跟踪的活动。什么是成功事件完全由您来决定。例如，如果访客购买一件产品，则该购买事件可视为成功事件。.
 keywords: event
-solution: Analytics
 title: 成功事件概述
 topic: Admin tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,18 +28,18 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 成功事件页面 - 描述 {#section_681ECEC981694CABBDBF00E18165B447}
 
-**[!UICONTROL Analytics]** Admin **[!UICONTROL &gt; Report Suites]** &gt; **[!UICONTROL Settings]** &gt; Edit Conversion Suites **********[!UICONTROL &gt; Conversion Success Events]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]** &gt; **[!UICONTROL 编辑设置]** &gt; **[!UICONTROL 转化]** &gt; **[!UICONTROL 成功事件]**
 
 使用“成功事件”页面可配置您网站上使用的事件变量。您可以添加多达 1,000 个成功事件。事件 81-1,000 仅在 H22 代码或更高版本的代码中才可用。
 
 | 元素 | 描述 |
 |--- |--- |
-| 事件 | 事件的原始名称。 |
+| Event | 事件的原始名称。 |
 | 名称 | 为您的网站上使用的成功事件取一个有意义的名称。例如，如果 event1 用于跟踪注册，则在此处更改名称，使 event1 在所有转化报表中都表示为“注册”量度。 |
 | 类型 | 所选类型确定事件是计数器（标准）、量度还是货币事件。数值和货币事件允许您以大于 1 的增量增加量度。计数器事件用于及时记录事件，而货币事件则记录小数，例如税款或运输费用。传递给货币事件的值在收到后将从页面货币换算为报表包的基本货币。有关使用货币事件的详细信息，请与 Adobe 代表联系。数值事件用于报告非货币数字，例如订单中使用的优惠券数量。货币事件用于跟踪税款和运输费用。在“标准”类型的“数据源”中使用的事件必须是数值事件或货币事件。 |
 | 极性 | 量度极性允许您指示 Adobe Analytics 将给定自定义事件（量度）上升的情况视为好还是坏。它允许 Adobe Analytics 显示各种量度的方向指示器（箭头）以添加上下文（例如，逐周比较）。示例：如果“提交的错误数”呈逐周上升趋势，Adobe Analytics 应将这种情况视为好还是坏？“电子邮件注册数”的上升可能是好的。但“表单提交错误数”的上升可能是坏的。在 Analysis Workspace 中，极性可应用于以下对象：自由格式表的条件格式、“概要变化”可视化图表，及地图可视化的“反差”颜色方案。 |
 | 描述 | 有关事件目的和用法的简要描述。 |
 | 独特事件记录 | 请参阅[事件序列化](/help/implement/js-implementation/event-serialization.md)。 |
-| 参与率 | 请参阅 [指标参与](/help/components/c-variables/c-metrics/metrics-participation.md)。 |
+| 参与率 | 请参阅[参与率量度](/help/components/c-variables/c-metrics/metrics-participation.md)。 |
 | 警告（货币事件） | 将事件类型更改为货币事件，或将货币事件更改为其他事件类型时，将显示一则消息，声明历史数据在报表中不可用。不同事件类型使用单独的数据表格，并且无法同时使用。如果用户还原事件类型，则可以恢复一些历史数据。但是，初始更改后收集的任何数据都将不可用。更改事件类型时，请务必要小心谨慎。 |
 
