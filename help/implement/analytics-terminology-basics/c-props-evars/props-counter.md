@@ -1,12 +1,11 @@
 ---
 description: 计数器存储（有时显示）特定事件或流程的发生次数。
 keywords: Analytics Implementation;props;s.prop;custom traffic;counters
-solution: Analytics
 title: 将 prop 用作计数器
 topic: Developer and implementation
 uuid: ab83bd7e-10d9-49f9-b9e7-c50397e95c17
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
