@@ -1,11 +1,10 @@
 ---
 description: 描述如何启用和实施促销变量。
 keywords: Analytics Implementation;merchandising;variable;product syntax;Conversion Variable Syntax;s.products
-solution: Analytics
 title: 实施促销变量
 topic: Developer and implementation
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,15 +15,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 启用促销变量
 
-可以对“管理工具”&gt;“报表包” **[!UICONTROL &gt;“转换变量”下的任]** 何自定义eVar启用 **[!UICONTROL “销售]** ” ****。
+可以在&#x200B;**[!UICONTROL 管理工具]** &gt; **[!UICONTROL 报表包]** &gt; **[!UICONTROL 转化变量]**&#x200B;下为任何自定义 eVar 启用促销。
 
 ![](assets/merch-enable.png)
 
 | 设置 | 描述 |
 |--- |--- |
 | 过期时间 | 确定促销值的持续时间。 |
-| 促销 | **** 产品语法：该值在中设置 `s.products`。<br>**** 转换变量语法：该值在指定的销售eVar中设置。 |
-| 促销捆绑事件（仅转化变量语法） | 指示何时将产品与当前的促销类别绑定。按住Ctrl并单击列表中的多个项目，可选择多个事件。 只有在选择了“转化变量语法”后才能选择事件。 |
+| 促销 | **产品语法：**&#x200B;该值在 `s.products` 内设置。<br>**转化变量语法：**&#x200B;该值在指定的促销 eVar 中设置。 |
+| 促销捆绑事件（仅转化变量语法） | 指示何时将产品与当前的促销类别绑定。通过按住 Ctrl 并单击列表中的多个项目，可选择多个事件。只有在选择了“转化变量语法”后才能选择事件。 |
 
 ## 使用产品语法实施
 
@@ -43,7 +42,7 @@ s.events="prodView";
 s.products=";Snow Goggles;;;;eVar1=goggles";
 ```
 
-eVar1的值“护目镜”被分配给产品“雪地护目镜”。 所有涉及此产品的后续成功事件（产品添加、结账、购买等）都将被归为“护目镜”。
+eVar1 的值“护目镜”被分配给产品“雪地护目镜”。所有涉及此产品的后续成功事件（产品添加、结账、购买等）都将被归为“护目镜”。
 
 ## 使用转化变量语法实施
 
@@ -53,13 +52,13 @@ eVar1的值“护目镜”被分配给产品“雪地护目镜”。 所有涉�
 
 ### 语法
 
-放在绑定事件之前的同一页或上一页：
+放在捆绑事件的同一页面或前一页面上：
 
 ```js
 s.eVar1="merchandising_category";
 ```
 
-放在发生绑定事件的页面上：
+放在捆绑事件发生的页面上：
 
 ```js
 s.events="prodView";
@@ -68,24 +67,24 @@ s.products="category;product";
 
 ### 示例
 
-在访问的第1页上：
+在访问的页面 1 上：
 
 ```js
 s.eVar1="Outdoors"
 ```
 
-在访问的第2页上：
+在访问的页面 2 上：
 
 ```js
 s.events="prodView";
 s.products=";Snow Goggles";
 ```
 
-eVar1的值“Outdoors”被分配给产品“Snow Goggles”。 与本产品相关的所有后续成功事件（产品添加、结帐、购买等）均计入“雪景”。 另外，促销变量的当前值将被绑定到所有后续产品，直到满足以下其中一个条件为止：
+eVar1 的值“户外”被分配给产品“雪地护目镜”。所有涉及此产品的后续成功事件（产品添加、结账、购买等）都将被归为“雪地护目镜”。另外，促销变量的当前值将被绑定到所有后续产品，直到满足以下其中一个条件为止：
 
 * eVar 过期（根据“过期时间”设置）
 * 促销 eVar 被新值覆盖。
 
-## 外部附加信息
+## 其他外部信息
 
-[Advanced Conversion Syntax Merchandising](https://analyticsdemystified.com/adobe-analytics/advanced-conversion-syntax-merchandising/) on [!DNL analyticsdemystified.com]
+[!DNL analyticsdemystified.com] 上的[高级转化语法促销](https://analyticsdemystified.com/adobe-analytics/advanced-conversion-syntax-merchandising/)
