@@ -1,12 +1,11 @@
 ---
 description: 针对虚拟报表包新用户的提示和最佳实践。
 keywords: Virtual Report Suite
-solution: Analytics
 title: VRS 常见问题解答
 topic: Reports and analytics
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
