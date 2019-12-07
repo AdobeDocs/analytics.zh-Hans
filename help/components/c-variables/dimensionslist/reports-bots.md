@@ -1,11 +1,10 @@
 ---
 description: 显示哪些蜘蛛程序和机器人在给定的时间段内访问了网站。如果经识别，流量是由机器人（根据您设置的机器人规则）生成的，那么该流量将不会发送至报表包。而是将被单独收集。此报表显示的是这些代理已经访问的页面。
-solution: Analytics
 title: 机器人
 topic: Reports
 uuid: 9909ce3b-41a4-4ce8-afe9-02cb46f31d64
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
