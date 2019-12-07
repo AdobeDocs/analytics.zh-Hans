@@ -1,11 +1,10 @@
 ---
 description: 计划任务管理器的字段说明。
-solution: Analytics
 title: 计划任务管理器
 topic: Report builder
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -65,7 +64,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col2"> 报表的电子邮件收件人。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>报告 </p> </td> 
+   <td colname="col1"> <p>报表 </p> </td> 
    <td colname="col2"> 发送到每个收件人的报表。 </td> 
   </tr> 
   <tr> 
