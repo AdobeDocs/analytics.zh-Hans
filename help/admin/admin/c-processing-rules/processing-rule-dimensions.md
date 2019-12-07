@@ -1,12 +1,11 @@
 ---
 description: 使用处理规则时，您可以读取和写入的维度（另有说明的除外）。
-solution: Analytics
 subtopic: Processing rules
 title: 可用于处理规则的维度
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -39,7 +38,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>上下文数据变量 </p> </td> 
-   <td colname="col2"> <p>随点击发送的命名变量。 </p> <p>注意：上下文数据变量中包含的任何数据都必须复制到报表变量中才能显示在报表中。上下文数据变量不可在任何报表界面（包括点击流数据馈送）中查看。 </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> 将上下文数据变量复制到eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> 使用上下文数据变量设置事件 </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html"> 上下文数据变量</a> </p> </td> 
+   <td colname="col2"> <p>随点击发送的命名变量。 </p> <p>注意：上下文数据变量中包含的任何数据都必须复制到报表变量中才能显示在报表中。上下文数据变量不可在任何报表界面（包括点击流数据馈送）中查看。 </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> 将上下文数据变量复制到 eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> 使用上下文数据变量设置事件 </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html"> 上下文数据变量</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -97,11 +96,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>查询字符串参数 </p> </td> 
-   <td colname="col2"> <p>当前 URL 中指定查询字符串参数的值或不存在参数时的 Null。For the URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, the value of Query String Parameter <span class="syntax codeph"> cid</span> is <b>ad1</b>, and the value of Query String Parameter <span class="syntax codeph"> node</span> is <b>4</b>. </p> <p>如果您运行 JavaScript AppMeasurement H.25.2 或更早版本，则页面 URL 可能会在 255 个字符后截断。JavaScript AppMeasurement H.25.3（2013 年 1 月发布）及更高版本为处理规则提供了完整的 URL。 </p> </td> 
+   <td colname="col2"> <p>当前 URL 中指定查询字符串参数的值或不存在参数时的 Null。对于 URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>，查询字符串参数 <span class="syntax codeph">cid</span> 的值为 <b>ad1</b>，并且查询字符串参数 <span class="syntax codeph">node</span> 的值为 <b>4</b>。 </p> <p>如果您运行 JavaScript AppMeasurement H.25.2 或更早版本，则页面 URL 可能会在 255 个字符后截断。JavaScript AppMeasurement H.25.3（2013 年 1 月发布）及更高版本为处理规则提供了完整的 URL。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>页面路径 </p> </td> 
-   <td colname="col2"> <p>页面 URL 的路径。The path of the URL <b>https://www.example.com/news/a.html?cid=ad1</b> is <span class="syntax codeph"> news/a.html</span> . </p> </td> 
+   <td colname="col2"> <p>页面 URL 的路径。URL <b>https://www.example.com/news/a.html?cid=ad1</b> 的路径是 <span class="syntax codeph">news/a.html</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>页面域 </p> </td> 
@@ -109,7 +108,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>页面根目录域 </p> </td> 
-   <td colname="col2"> <p>页面主机名的最后两个部分。https://en.main.example。<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
+   <td colname="col2"> <p>页面主机名的最后两个部分。https://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>页面查询字符串 </p> </td> 
@@ -121,7 +120,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>反向链接查询字符串参数（只读） </p> </td> 
-   <td colname="col2"> <p>反向链接 URL 中指定查询字符串参数的值或不存在参数时的 Null。For the URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, the value of Query String Parameter <span class="syntax codeph"> cid</span> is <b>ad1</b>, and the value of Query String Parameter <span class="syntax codeph"> node</span> is <b>4</b>. </p> <p>如果您运行 JavaScript AppMeasurement H.25.2 或更早版本，则页面 URL 可能会在 255 个字符后截断。JavaScript AppMeasurement H.25.3（2013 年 1 月发布）及更高版本为处理规则提供了完整的 URL。 </p> </td> 
+   <td colname="col2"> <p>反向链接 URL 中指定查询字符串参数的值或不存在参数时的 Null。对于 URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>，查询字符串参数 <span class="syntax codeph">cid</span> 的值为 <b>ad1</b>，并且查询字符串参数 <span class="syntax codeph">node</span> 的值为 <b>4</b>。 </p> <p>如果您运行 JavaScript AppMeasurement H.25.2 或更早版本，则页面 URL 可能会在 255 个字符后截断。JavaScript AppMeasurement H.25.3（2013 年 1 月发布）及更高版本为处理规则提供了完整的 URL。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>反向链接域名（只读） </p> </td> 
@@ -129,7 +128,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>反向链接根目录域（只读） </p> </td> 
-   <td colname="col2"> <p>反向链接主机名的最后两个部分。https://en.main.example。<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
+   <td colname="col2"> <p>反向链接主机名的最后两个部分。https://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>反向链接查询字符串（只读） </p> </td> 
@@ -202,7 +201,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 <table id="table_926ED12B58CA4FB685D799DC6EE567C0"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 事件 </th> 
+   <th colname="col1" class="entry"> Event </th> 
    <th colname="col2" class="entry"> 描述 </th> 
   </tr> 
  </thead>
