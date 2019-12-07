@@ -1,13 +1,12 @@
 ---
 description: JavaScript 变量中完全不许使用的字符和字符串。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: 非法 JavaScript 字符
 topic: Developer and implementation
 uuid: 04e3b4b4-7ff5-4673-8060-34302b6ee545
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
