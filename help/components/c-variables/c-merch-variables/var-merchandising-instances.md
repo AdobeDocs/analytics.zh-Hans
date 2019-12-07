@@ -1,12 +1,11 @@
 ---
 description: 描述实例如何在促销变量上进行计数。
 keywords: Analytics Implementation
-solution: Analytics
 title: 有关促销变量的实例
 topic: Developer and implementation
 uuid: 4cdfd53e-88aa-48cf-a135-98f7fc8dcece
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -48,5 +47,5 @@ s.products=";Fernie Snow Goggles"
 
 如果您在未发生捆绑事件的页面上为 eVar 设置了一个值，或者在没有捆绑事件的产品字符串中设置了一个 eVar 值，则会被分配至“无”。
 
-> [!NOTE] 正在检查用于计算销售变量实例的当前功能，并计划在即将发布的版本中进行更改。
+> [!NOTE] 当前用于计数有关促销变量的实例的功能正在审核中，并计划在下一个发行版本中进行更改。
 
