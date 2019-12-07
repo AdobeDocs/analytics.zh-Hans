@@ -1,12 +1,11 @@
 ---
 description: 这个插件通过使用 Navigation Timing JavaScript API 来运行，用于准确测量 Web 的性能。该插件能够提供一种本地方法，可针对页面加载事件和资产加载时间，获取准确而详细的时间数据。以前进行此类测量时，要么利用时间量度的 JavaScript Date 对象，要么利用 Navigation Timing 量度的基础推断法。尽管这两种方法都能够针对页面加载时间提供一些趋势数据，但并不可靠。
 keywords: Analytics Implementation
-solution: Analytics
 title: performanceTiming
 topic: Developer and implementation
 uuid: ab2a6c51-8791-41e7-9bea-c1ce8d312de8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,7 +22,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 这个插件可利用下列详细的事件，来跟踪页面加载的各个时间组件：
 
-| 事件 | 名称 | 计算依据 |
+| Event | 名称 | 计算依据 |
 |---|---|---|
 | 1 | 重定向时间 | fetchStart - navigationStart |
 | 2 | 应用程序缓存时间 | domainLookupStart - fetchStart |
