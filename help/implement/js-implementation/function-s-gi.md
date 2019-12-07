@@ -1,12 +1,11 @@
 ---
 description: s_gi() 函数用于按报表包 ID 创建或查找 AppMeasurement 实例。AppMeasurement 会在内部保持跟踪每个创建的实例，s_gi() 会为报表包返回现有实例（如果存在）。如果实例不存在，则会创建一个新实例并返回。
 keywords: Analytics Implementation
-solution: Analytics
 title: s_gi() 函数
 topic: Developer and implementation
 uuid: a77de90e-c60e-4946-90cf-deaf8aa3d755
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
