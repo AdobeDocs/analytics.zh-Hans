@@ -1,12 +1,11 @@
 ---
 description: 少数情况下，在比较 Adobe Analytics 量度和 DFA 量度时，某些量度可能不在可接受的差别范围内。以下是量度定义和可能导致差别的原因列表。
 keywords: DFA
-solution: Analytics
 title: 协调量度差异
 topic: Data connectors
 uuid: aa3ca006-d3cf-410e-a000-781ab17fb9e3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
