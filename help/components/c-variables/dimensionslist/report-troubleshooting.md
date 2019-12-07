@@ -1,12 +1,11 @@
 ---
 description: Adobe Analytics 提供了一个灵活的报表界面，允许您生成各种复杂的报表。因为大多数报表的生成速度都非常快，所以您可能会遇到报表超时或无法成功生成的情况。为了有助于避免报表生成失败的情况，本节解释了影响报表生成速度的多种因素。了解此信息可帮助您构建报表，以便提高成功生成报表的几率。
 keywords: best practices;failure;timeout;troubleshooting;slow
-solution: Analytics
 title: 报表最佳实践和疑难解答
 topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,9 +15,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 Adobe Analytics 提供了一个灵活的报表界面，允许您生成各种复杂的报表。因为大多数报表的生成速度都非常快，所以您可能会遇到报表超时或无法成功生成的情况。为了有助于避免报表生成失败的情况，本节解释了影响报表生成速度的多种因素。了解此信息可帮助您构建报表，以便提高成功生成报表的几率。
 
 >[!Note]
->这些建议适用于Reports &amp; Analytics、Ad Hoc analysis和Report Builder。
->它们不适用于Analysis Workspace，后者有其自己的一组最 [佳实践](/help/analyze/analysis-workspace/optimizing-performance.md)。 They also do not &gt;apply to Data Warehouse [best practices](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html). 另一组
->[Adobe Analytics](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) Reporting API提供最佳实践。
+>这些建议适用于 Reports &amp; Analytics、Ad Hoc Analysis 和 Report Builder。
+>但是，它们不适用于 Analysis Workspace，Analysis Workspace 有其自身的一套[最佳实践](/help/analyze/analysis-workspace/optimizing-performance.md)。同时，这些建议也不适用于 Data Warehouse [最佳实践](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)。另一组
+>[最佳实践](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices)可用于 Adobe Analytics 报表 API。
 
 ## 报表超时和请求队列 {#section_A42AD7E487C749B7B879BAFA814FFEF9}
 
