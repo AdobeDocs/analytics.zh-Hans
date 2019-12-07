@@ -1,13 +1,12 @@
 ---
 description: 指定禁用链接，并自定义链接的标注方式。访问您网站的访客可以通过访问数据收集域的退出页面，选择不在Adobe的分析产品中跟踪其活动。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: 添加选择退订链接
 topic: Developer and implementation
 uuid: c12092be-3be7-4621-b838-d6b78d074f84
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
