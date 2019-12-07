@@ -1,11 +1,10 @@
 ---
 description: Data Warehouse 是指用于存储的 Analytics 数据副本，以及可通过过滤这些数据来运行的自定义报表。您可让报表根据您的特定问题显示原始数据的高级数据关系。Data Warehouse 报表通过电子邮件或 FTP 发送，过程可能需要长达 72 小时。处理时间取决于查询的复杂程度和请求的数据量。
-solution: Analytics
 title: Data Warehouse 概述
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
