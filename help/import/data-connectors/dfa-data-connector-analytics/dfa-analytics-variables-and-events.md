@@ -1,12 +1,11 @@
 ---
 description: DFA 的 Data connectors 集成使用 Analytics 变量来跟踪 DFA 促销活动结果。
 keywords: DFA
-solution: Analytics
 title: Analytics 变量和事件
 topic: Data connectors
 uuid: 8996cb58-c793-4600-99ef-af3064642b29
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
