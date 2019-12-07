@@ -1,12 +1,11 @@
 ---
 description: 了解 Analysis Workspace 中的可视化和可视化设置。
 keywords: Analysis Workspace
-solution: Analytics
 title: 可视化概述
 topic: Reports and analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,23 +14,23 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 了解 Analysis Workspace 中的可视化和可视化设置。
 
-[YouTube上Analysis Workspace中的可视化类型](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+[YouTube 上 Analysis Workspace 中的可视化图表类型](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
 
-## Visualizations panel {#section_DC07F032FBEF4046A40F7B95C28DA018}
+## “可视化”面板 {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-要显示“可视化”面板，请单击侧边面板中的&#x200B;**[!UICONTROL 可视化]。**
+要显示“可视化”面板，请单击侧边面板中的&#x200B;**[!UICONTROL 可视化]**。
 
 ![步骤结果](assets/visualizations.png)
 
 大部分可视化类型（例如面积图、条形图、圆环图和折线图）都是 Adobe Analytics 用户非常熟悉的。但是，Analysis Workspace 提供了可视化设置，以及许多全新或独特的具有交互功能的可视化类型。
 
-## Visualization settings {#section_D3BB5042A92245D8BF6BCF072C66624B}
+## “可视化”设置 {#section_D3BB5042A92245D8BF6BCF072C66624B}
 
-要访问“[!UICONTROL 可视化设置]”，请将一个可视化拖到“[!UICONTROL 自由格式面板]”中，然后单击“[!UICONTROL 可视化设置]”齿轮图标。
+要访问[!UICONTROL 可视化设置]，请将一个可视化拖到[!UICONTROL 自由格式面板]中，然后单击[!UICONTROL 可视化设置]齿轮图标。
 
 >[!IMPORTANT]
 >
->可见的可视化设置取决于可视化。 并非所有设置都适用于所有可视化。此外，某些高级设置&#x200B;**仅**&#x200B;可对特定可视化显示，例如[直方图设置](/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477)。
+>可视化决定了哪些可视化设置可见。并非所有设置都适用于所有可视化。此外，某些高级设置&#x200B;**仅**&#x200B;可对特定可视化显示，例如[直方图设置](/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477)。
 
 ![](assets/visualization_settings.png)
 
@@ -65,11 +64,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>标准化 </p> </td> 
-   <td colname="col2"> <p>要求所有量度按等比例计算。请参阅 <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html"  > 标准化</a>。 </p> </td> 
+   <td colname="col2"> <p>要求所有量度按等比例计算。请参阅<a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html"  >标准化</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>显示双轴 </p> </td> 
-   <td colname="col2"> <p>仅在您有两个度量时适用——您可以在左侧（对于一个度量）和右侧（对于另一个度量）有一个y轴。 </p> </td> 
+   <td colname="col2"> <p>仅适用于具有两个量度的情况，可以在左（用于一个量度）、右（用于另一个量度）两边各有一个 y 轴。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>显示异常 </p> </td> 
@@ -78,13 +77,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## Create Visual icon {#section_9C11D9DEDC42413AA53E69A71A509DFC}
+## “创建可视化”图标 {#section_9C11D9DEDC42413AA53E69A71A509DFC}
 
-如果不确定应选取哪个可视化，请单击任意表行中的&#x200B;**[!UICONTROL 创建可视化]图标。**&#x200B;将光标悬停在表行上时，将显示此图标。单击此图标将提示 Analysis Workspace 针对哪种可视化最适合您的数据做出有根据的推测。例如，如果最多选择了 3 个区段，系统将创建维恩图。如果选择了 3 个以上的区段，系统将创建条形图。对于其他类型的数据，系统可能会创建折线图，等等。
+如果不确定应选取哪个可视化，请单击任意表行中的&#x200B;**[!UICONTROL 创建可视化]**&#x200B;图标。将光标悬停在表行上时，将显示此图标。单击此图标将提示 Analysis Workspace 针对哪种可视化最适合您的数据做出有根据的推测。例如，如果最多选择了 3 个区段，系统将创建维恩图。如果选择了 3 个以上的区段，系统将创建条形图。对于其他类型的数据，系统可能会创建折线图，等等。
 
 ![](assets/create-visual.png)
 
-## Right-click visualization/panel menu {#section_05B7914D4C9E443F97E2BFFDEC70240C}
+## 右键单击“可视化”/“面板”菜单 {#section_05B7914D4C9E443F97E2BFFDEC70240C}
 
 在可视化或面板标头旁单击鼠标右键后，可以访问图形的上下文设置。以下部分或全部设置将可用：
 
@@ -104,7 +103,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 获取可视化链接 | 此设置允许您复制并共享该链接，从而让其他人直接访问这个可视化。需要用户登录。 |
 | 重新开始 | （适用于流量、维恩、直方图）删除当前可视化的配置，并打开一个新面板，您可以在此处重新配置该可视化。 |
 
-## Edit legend labels {#section_94F1988CB4B9434BA1D9C6034062C3DE}
+## 编辑图例标签 {#section_94F1988CB4B9434BA1D9C6034062C3DE}
 
 您可以对可视化图例（流失、面积图、堆叠的面积图、条形图、堆叠的条形图、圆环图、直方图、水平条形图、堆叠的水平条形图、折线图、散点图和维恩图）中的系列名称进行重命名，从而让可视化变得更方便使用。
 
@@ -113,11 +112,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 要编辑图例标签，例如在折线图中编辑图例标签，请执行以下操作：
 
 1. 右键单击某个图例标签。
-1. Click **[!UICONTROL Edit Label]**.
+1. 单击&#x200B;**[!UICONTROL 编辑标签]**。
 
    ![](assets/edit-label.png)
 
 1. 输入新的标签文本。
-1. 按 **[!UICONTROL Enter]键保存。**
+1. 按 **[!UICONTROL Enter]** 键保存。
 
 下面是一个[指向该主题相关视频的链接](https://www.youtube.com/watch?v=mry3vDrTml0&index=61&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)。
