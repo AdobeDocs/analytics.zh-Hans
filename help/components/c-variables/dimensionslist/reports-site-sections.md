@@ -1,11 +1,10 @@
 ---
 description: 显示访客经常访问的网站区域。网站区域可以包括定义的产品组，它与类别类似。例如，可以包括页面的“照相机”组、“计算机”组等。“转化网站区域”报表的数据会从“流量”组中的“网站区域”报表导入，后者从跟踪代码中的 channel 变量接收信息。您可以使用此报表确定不同网站区域中的项目对网站统计信息的最大影响。
-solution: Analytics
 title: 网站区域
 topic: Reports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
