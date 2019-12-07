@@ -1,11 +1,10 @@
 ---
 description: 显示访客来自哪个时区。图表显示的是一张世界地图。如果您有来自某一时区的访客，该时区就会显示一个色柱，以反映在指定时段内您接待的访客数量。所有时区均以作为国际标准时间的格林尼治标准时间 (GMT) 表示。
-solution: Analytics
 title: 时区
 topic: Reports
 uuid: 8cdc1bba-e6b9-4ff0-b529-91c427223ddc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
