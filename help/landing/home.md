@@ -2,14 +2,14 @@
 title: Adobe Analytics 技术文档指南
 description: Analytics 用户指南和资源
 translation-type: tm+mt
-source-git-commit: cb1594fbfff4e3ec0dcb7bbe76874b04828eb69e
+source-git-commit: b983e8d85378514c1ae4e6c1e20f95ac5f51da15
 
 ---
 
 
 # Adobe Analytics 文档
 
-欢迎使用Adobe Analytics产品和技术文档主页。 在此，您可以找到报表工具(如 [!UICONTROL Analysis]、 [!UICONTROL Report Builder]、Reporting API、 [!UICONTROL Data Workbench]和Activity Map Report)的自助和 支持信息。 您还可以访问有关产品和用户管理、实施以及Adobe Analytics中支持的所有功能的文档。
+欢迎使用Adobe Analytics产品和技术文档主页。 您可以在此找到报告工具(如 [!UICONTROL Analysis Workspace]、 [!UICONTROL Report Builder]、Reporting API、 [!UICONTROL Data Workbench]和Activity Map)的自助和 支持信息。 您还可以访问有关产品和用户管理、实施以及Adobe Analytics中支持的所有功能的文档。
 
 [![工具](assets/analyze_50px.png)](/help/analyze/home.md)[Analytics工具指南](/help/analyze/home.md) -提供对 [](/help/analyze/analysis-workspace/home.md)Analysis Workspace的访问，Analysis Workspace是Analytics的主要分析和可视化工具。 还提供了可在Adobe Analytics中使[!UICONTROL 用的所有分析工具]( [!UICONTROL Report Builder]、Reporting API、 [!UICONTROL Data Workbench]和Activity Map)。
 
