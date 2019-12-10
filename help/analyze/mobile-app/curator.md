@@ -2,7 +2,7 @@
 description: 有关设置移动应用程序记分卡的说明。
 title: Adobe Analytics移动应用程序策展人指南
 translation-type: tm+mt
-source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
+source-git-commit: 4248dc8f197f32cad5a0c9de7c65f845abdef88f
 
 ---
 
@@ -191,8 +191,6 @@ Mobile Scorecard以平铺的布局为执行用户显示关键数据可视化，�
    **对于Android上的执行用户：**
 
    1. 点按用户设备上的以下“播放商店”链接(该链接也可在“工具” **&gt;“移动应用程** 序”下的Analytics中使用 ****):
-
-
       [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
       点击链接后，点按以下屏幕上的“成为测试人员”链接：
@@ -200,12 +198,10 @@ Mobile Scorecard以平铺的布局为执行用户显示关键数据可视化，�
       ![“播放商店”屏幕](assets/play.png)
 
    2. 点按下 **面屏幕上的Google Play链接** ，下载它：
-
       ![下载链接](assets/playnext.png)
 
    3. 下载并安装应用程序。
-   下载并安装后，执行用户可以使用他们现有的Adobe Analytics凭据登录应用程序；我们同时支持Adobe和Enterprise/Federated ID。
-
+下载并安装后，执行用户可以使用他们现有的Adobe Analytics凭据登录应用程序；我们同时支持Adobe和Enterprise/Federated ID。
    ![应用程序欢迎屏幕](assets/welcome.png)
 
 2. 帮助他们访问您的记分卡。 管理用户登录应用程序后，将显示“ **选择公司** ”屏幕。 此屏幕列出了执行用户所属的登录公司。 要帮助他们进入记分卡，请执行以下操作：
