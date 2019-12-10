@@ -21,12 +21,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 >
 ```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
->```
+>
+```
+
 >和
 >
 ```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
->```
+>
+```
 
 使用上下文数据有助于避免更新代码后支持不同的报表包配置。
 
