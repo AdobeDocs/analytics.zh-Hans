@@ -3,7 +3,7 @@ description: 数据隐私中的隐私报表的变量。
 title: 隐私报表变量
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 033f962f9ff686d8c5f36b06a27df0d49198341b
 
 ---
 
@@ -64,7 +64,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 上下文数据：`contextData.['cm.ssf']`
 * 接受的值：
    * 1 - 发送值“1”时，这表示服务器端转发处于选择退出状态。与此变量配对的值“1”将阻止与 Adobe Audience Manager 共享此命中。请参阅 [AAM ePrivacy 合规性](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)。
-   * 此参数不接受其他任何值。
+   * 0 —— 可选。 对于同意进行定向营销的客户，请使用值“0”。 如果不设置变量，也会产生相同的结果。
 
 ### DMP
 
