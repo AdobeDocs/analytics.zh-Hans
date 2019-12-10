@@ -5,7 +5,7 @@ title: 用户和产品管理
 topic: Admin tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: ad8615bcbdb00a91ac9c0c3beace3f1155e74694
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> <p>将 Analytics 用户 ID 迁移至 Admin Console </p> </td> 
-   <td colname="col2"> <p> Adobe 正协助 Analytics 管理员将用户 ID 迁移至 Adobe Admin Console。这项工作将分批进行。当轮到您迁移用户时，Adobe 将通过电子邮件告知 Analytics 管理员有关迁移的说明。届时，可使用 Analytics 用户管理中提供的<a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/t_migrate-users.html">迁移工具</a>来简化此任务。 </p> <p>重要提示：在您迁移用户的当日，您以前的权限群组将被自动复制到 Admin Console。您将无法在 Analytics 管理工具中邀请新用户或创建新群组。请查看<a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/">将 Analytics 用户迁移到 Admin Console</a> 中的常见问题解答和帮助，以了解有关如何准备迁移以及有关受影响的管理功能的信息。 </p> </td> 
+   <td colname="col2"> <p> Adobe 正协助 Analytics 管理员将用户 ID 迁移至 Adobe Admin Console。这项工作将分批进行。当轮到您迁移用户时，Adobe 将通过电子邮件告知 Analytics 管理员有关迁移的说明。届时，可使用 Analytics 用户管理中提供的<a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">迁移工具</a>来简化此任务。 </p> <p>重要提示：在您迁移用户的当日，您以前的权限群组将被自动复制到 Admin Console。您将无法在 Analytics 管理工具中邀请新用户或创建新群组。请查看<a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/">将 Analytics 用户迁移到 Admin Console</a> 中的常见问题解答和帮助，以了解有关如何准备迁移以及有关受影响的管理功能的信息。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>启动 Admin Console </p> </td> 
