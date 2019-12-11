@@ -3,7 +3,7 @@ description: 数据隐私中的隐私报表的变量。
 title: 隐私报表变量
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: 033f962f9ff686d8c5f36b06a27df0d49198341b
+source-git-commit: faade4c02c48ad20e26a94fa39e14ed1d894ae00
 
 ---
 
