@@ -1,8 +1,8 @@
 ---
 title: 归因 IQ
-description: 归因 IQ 是 Adobe Analytics 中的一组功能，可提供有关营销工作是如何促进转化的相关信息。
-translation-type: ht
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+description: '归因 IQ 是 Adobe Analytics 中的一组功能，可提供有关营销工作是如何促进转化的相关信息。 '
+translation-type: tm+mt
+source-git-commit: 3a0bed6c9e6fbf1319d0e0a62078d8527b80d2d6
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Analytics 通过让您能够执行以下操作来增强归因：
 * 直观地分析关键营销序列：通过多节点流量和流失可视化图表，以可视方式探索导致转化的路径。
 * 构建计算量度：使用任意数量的归因分配方法。
 
-## 功能
+## 功能 {#features}
 
 归因 IQ 包括以下功能：
 
