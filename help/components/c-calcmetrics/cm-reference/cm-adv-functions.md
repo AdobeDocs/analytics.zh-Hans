@@ -1,22 +1,16 @@
 ---
-description: 选中“函数”下拉列表中的“显示高级函数”，可访问这些函数。
-title: 参考高级功能
+description: 可通过以下方法访问这些函数：选中函数下拉列表中的显示高级。
+title: 引用：高级函数
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
 
 
 # 引用：高级函数
 
-<!-- 
-
-cm_adv_functions.xml
-
- -->
-
-Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UICONTROL Functions]** drop-down list.
+可通过以下方法访问这些函数：选中&#x200B;**[!UICONTROL 函数]**&#x200B;下拉列表中的&#x200B;**[!UICONTROL 显示高级]**。
 
 ## table 函数与 row 函数 {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -34,7 +28,7 @@ Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UIC
 
 返回其参数的值。使用 NOT 确保值不等于某一特定值。
 
-> [!NOTE] 0（零）表示False，任何其他值都为True。
+> [!NOTE] 0（零）表示 False，而任何其他值均表示 True。
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -42,7 +36,7 @@ AND(logical_test1,[logical_test2],...)
 
 | 参数 | 描述 |
 |---|---|
-| *logical_test1* | 必选。任何可被计算为 TRUE 或 FALSE 的值或表达式。 |
+| *logical_test1* | 必需. 任何可被计算为 TRUE 或 FALSE 的值或表达式。 |
 | *logical_test2* | 可选。您希望计算为 TRUE 或 FALSE 的其他条件 |
 
 ## 非重复近似计数（维度）{#concept_000776E4FA66461EBA79910B7558D5D7}
@@ -75,7 +69,7 @@ Count()、RowCount() 和 Approximate Count Distinct() 会受到[“超出的独�
 
 ## 比较计数函数 {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
-Approximate Count Distinct() 是对 Count() 和 RowCount() 函数所做出的改进，因为创建的度量可用于任何维度报表，以呈现单独维度项目的近似计数。例如，“移动设备类型”报表中使用的客户 ID 计数。
+Approximate Count Distinct() 是对 Count() 和 RowCount() 函数所做出的改进，因为创建的量度可用于任何维度报表，以呈现单独维度项目的近似计数。例如，“移动设备类型”报表中使用的客户 ID 计数。
 
 由于 Approximate Count Distinct() 使用了 HLL 方法，而 Count() 和 RowCount() 属于精确计数，因而此函数的准确性要略小于 Count() 和 RowCount()。
 
@@ -117,7 +111,7 @@ ATAN(metric)
 
 ## 指数回归：预测的 Y (Row) {#concept_25615693312B4A7AB09A2921083502AD}
 
-计算预测的 Y 值 (metric_Y)，假定已知的 X 值 (metric_X) 使用“最小二乘法”计算基于  ) 的最佳拟合直线。
+计算预测的 y 值 (metric_Y)，假定已知的 x 值 (metric_X) 使用“最小二乘法”计算基于以下方程式的最佳拟合直线。
 
 ```
 ESTIMATE.EXP(metric_X, metric_Y)
@@ -210,7 +204,7 @@ CBRT(metric)
 
 如果 N &lt;= 0，则使用所有之前的行。由于它是按维度排序的，因此它仅对于具有自然顺序的维度（例如日期或路径长度）有用。
 
-> [!NOTE] 这与收入／访客等费率指标的效果不符：它将比率平均化，而不是将最后N的收入求和，并将访客在最后N中求和，然后对其进行划分。 它使用的是
+> [!NOTE] 使用收入/访客之类的比率量度时，它可能不会按预期工作：它会计算比率的平均值，而不是总计最后 N 行的收入并总计最后 N 行的访客数，然后将二者相除。它使用的是
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -222,7 +216,7 @@ cumul(revenue)/cumul(visitor)
 
 ## 指数回归_ 相关系数 (Table) {#concept_C18BBFA43C1A499293290DF49566D8D8}
 
-Returns the correlation coefficient, *r*, between two metric columns ( *metric_A* and *metric_B*) for the regression equation .
+返回相关系数 *r*，它介于回归方程式的两个量度列（*metric_A* 和 *metric_B*）之间。
 
 ```
 CORREL.EXP(metric_X, metric_Y)
@@ -235,7 +229,7 @@ CORREL.EXP(metric_X, metric_Y)
 
 ## 指数回归：截距 (Table) {#concept_0047206C827841AD936A3BE58EEE1514}
 
-Returns the intercept, *b*, between two metric columns ( *metric_X* and *metric_Y*) for
+返回截距 *b*，它介于以下方程式的两个量度列（*metric_X* 和 *metric_Y*）之间。
 
 ```
 INTERCEPT.EXP(metric_X, metric_Y)
@@ -248,7 +242,7 @@ INTERCEPT.EXP(metric_X, metric_Y)
 
 ## 指数回归：斜率 (Table) {#concept_230991B0371E44308C52853EFA656F04}
 
-Returns the slope, *a*, between two metric columns ( *metric_X* and *metric_Y*) for .
+返回斜率 *a*，它介于以下方程式的两个量度列（*metric_X* 和 *metric_Y*）之间。
 
 ```
 SLOPE.EXP(metric_X, metric_Y)
@@ -325,7 +319,7 @@ IF(logical_test, [value_if_true], [value_if_false])
 
 | 参数 | 描述 |
 |---|---|
-| *logical_test* | 必选。任何可被计算为 TRUE 或 FALSE 的值或表达式。 |
+| *logical_test* | 必需. 任何可被计算为 TRUE 或 FALSE 的值或表达式。 |
 | *[value_if_true]* | 您希望在 *logical_test* 参数计算为 TRUE 时返回的值。（如果未包含此参数，则此参数默认为 0。） |
 | *[value_if_false]* | 您希望在 *logical_test* 参数计算为 FALSE 时返回的值。（如果未包含此参数，则此参数默认为 0。） |
 
@@ -367,7 +361,7 @@ LOG10(metric)
 
 ## 对数回归：相关系数 (Table) {#concept_F3EB35016B754E74BE41766E46FDC246}
 
-Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. 它是使用 CORREL 方程式计算的。
+返回相关系数 *r*，它介于回归方程式 [!DNL Y = a ln(X) + b] 的两个量度列（*metric_X* 和 *metric_Y*）之间。它是使用 CORREL 方程式计算的。
 
 ```
 CORREL.LOG(metric_X,metric_Y)
@@ -380,7 +374,7 @@ CORREL.LOG(metric_X,metric_Y)
 
 ## 对数回归：截距 (Table) {#concept_75A3282EDF54417897063DC26D4FA363}
 
-返回截距 *b* 作为最小二乘法回归，它介于回归方程式 *的两个量度列（* metric_X *和* metric_Y[!DNL Y = a ln(X) + b]）之间。它是使用 INTERCEPT 方程式计算的。
+返回截距 *b* 作为最小二乘法回归，它介于回归方程式 [!DNL Y = a ln(X) + b] 的两个量度列（*metric_X* 和 *metric_Y*）之间。它是使用 INTERCEPT 方程式计算的。
 
 ```
 INTERCEPT.LOG(metric_X, metric_Y)
@@ -393,7 +387,7 @@ INTERCEPT.LOG(metric_X, metric_Y)
 
 ## 对数回归：预测的 Y（行）{#concept_5F3A9263BBB84E6098160A4DFB9E3607}
 
-Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the "least squares" method for calculating the line of best fit based on [!DNL Y = a ln(X) + b]. 该值使用 ESTIMATE 方程式进行计算。
+计算预测的 [!DNL y] 值 (metric_Y)，假定已知的 [!DNL x] 值 (metric_X) 使用“最小二乘法”计算基于 [!DNL Y = a ln(X) + b] 的最佳拟合直线。该值使用 ESTIMATE 方程式进行计算。
 
 在回归分析中，此函数计算预测的 [!DNL y] 值 (*metric_Y*)，假定已知的 [!DNL x] 值 (*metric_X*) 使用对数计算 [!DNL Y = a ln(X) + b] 的最佳拟合直线。[!DNL a] 值对应每个 x 值，而 [!DNL b] 则是一个常数值。
 
@@ -408,7 +402,7 @@ ESTIMATE.LOG(metric_X, metric_Y)
 
 ## 对数回归：斜率 (Table) {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. 它是使用 SLOPE 方程式计算的。
+返回斜率 *a*，它介于回归方程式 [!DNL Y = a ln(X) + b] 的两个量度列（*metric_X* 和 *metric_Y*）之间。它是使用 SLOPE 方程式计算的。
 
 ```
 SLOPE.LOG(metric_A, metric_B)
@@ -416,8 +410,8 @@ SLOPE.LOG(metric_A, metric_B)
 
 | 参数 | 描述 |
 |---|---|
-| *metric_A* | 您希望指定为因变量数据的量度。 |
-| *metric_B* | 您希望指定为自变量数据的量度。 |
+| *metric_A* | 要指定为相关数据的量度。 |
+| *metric_B* | 要指定为独立数据的量度。 |
 
 ## 自然对数 {#concept_D3BE148A9B84412F8CA61734EB35FF9E}
 
@@ -441,7 +435,7 @@ NOT(logical)
 
 | 参数 | 描述 |
 |---|---|
-| *logical* | 必选。可被计算为 TRUE 或 FALSE 的值或表达式。 |
+| *logical* | 必需. 可被计算为 TRUE 或 FALSE 的值或表达式。 |
 
 使用 NOT 时，需要知道表达式（&lt;、&gt;、=、&lt;&gt; 等）返回值 0 还是 1。
 
@@ -453,7 +447,7 @@ NOT(logical)
 
 如果有任何参数为 TRUE，则返回 TRUE；如果所有参数均为 FALSE，则返回 FALSE。
 
-> [!NOTE] 0（零）表示False，任何其他值都为True。
+> [!NOTE] 0（零）表示 False，而任何其他值均表示 True。
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -461,7 +455,7 @@ OR(logical_test1,[logical_test2],...)
 
 | 参数 | 描述 |
 |---|---|
-| *logical_test1* | 必选。任何可被计算为 TRUE 或 FALSE 的值或表达式。 |
+| *logical_test1* | 必需. 任何可被计算为 TRUE 或 FALSE 的值或表达式。 |
 | *logical_test2* | 可选。您希望计算为 TRUE 或 FALSE 的其他条件 |
 
 ## Pi {#concept_41258789660D4A33B5FB86228F12ED9C}
@@ -476,7 +470,7 @@ PI()
 
 ## 幂回归：相关系数 (Table) {#concept_91EC2CFB5433494F9E0F4FDD66C63766}
 
-Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+返回相关系数 *r*，它介于 [!DNL Y = b*X] 的两个量度列（*metric_X* 和 *metric_Y*）之间。
 
 ```
 CORREL.POWER(metric_X, metric_Y)
@@ -489,7 +483,7 @@ CORREL.POWER(metric_X, metric_Y)
 
 ## 幂回归：截距 (Table) {#concept_7781C85597D64D578E19B212BDD1764F}
 
-Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+返回截距 *b*，它介于 [!DNL Y = b*X] 的两个量度列（*metric_X* 和 *metric_Y*）之间。
 
 ```
  INTERCEPT.POWER(metric_X, metric_Y)
@@ -502,7 +496,7 @@ Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y
 
 ## 幂回归：预测的 Y (Row) {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
 
-Calculates the predicted [!DNL y] values ( [!DNL metric_Y]), given the known [!DNL x] values ( [!DNL metric_X]) using the "least squares" method for calculating the line of best fit for [!DNL Y = b*X].
+计算预测的 [!DNL y] 值 ([!DNL metric_Y])，假定已知的 [!DNL x] 值 ([!DNL metric_X]) 使用“最小二乘法”计算 [!DNL Y = b*X] 的最佳拟合直线。
 
 ```
  ESTIMATE.POWER(metric_X, metric_Y)
@@ -515,7 +509,7 @@ Calculates the predicted [!DNL y] values ( [!DNL metric_Y]), given the known [!D
 
 ## 幂回归：斜率 (Table) {#concept_5B9E71B989234694BEB5EEF29148766C}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+返回斜率 *a*，它介于 [!DNL Y = b*X] 的两个量度列（*metric_X* 和 *metric_Y*）之间。
 
 ```
 SLOPE.POWER(metric_X, metric_Y)
@@ -528,7 +522,7 @@ SLOPE.POWER(metric_X, metric_Y)
 
 ## 二次回归：相关系数 (Table) {#concept_9C9101A456B541E69BA29FCEAC8CD917}
 
-Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y=(a*X+b)]****.
+返回相关系数 *r*，它介于 [!DNL Y=(a*X+b)]**** 的两个量度列（*metric_X* 和 *metric_Y*）之间。
 
 ```
 CORREL.QUADRATIC(metric_X, metric_Y)
@@ -541,7 +535,7 @@ CORREL.QUADRATIC(metric_X, metric_Y)
 
 ## 二次回归：截距 (Table) {#concept_69DC0FD6D38C40E9876F1FD08EC0E4DE}
 
-Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y=(a*X+b)]****.
+返回截距 *b*，它介于 [!DNL Y=(a*X+b)]**** 的两个量度列（*metric_X* 和 *metric_Y*）之间。
 
 ```
 INTERCEPT.POWER(metric_X, metric_Y)
@@ -554,7 +548,7 @@ INTERCEPT.POWER(metric_X, metric_Y)
 
 ## 二次回归：预测的 Y (Row) {#concept_2F1ED70B1BDE4664A61CC09D30C39CBB}
 
-Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the least squares method for calculating the line of best fit using [!DNL Y=(a*X+b)]**** .
+计算预测的 [!DNL y] 值 (metric_Y)，假定已知的 [!DNL x] 值 (metric_X) 使用最小二乘法计算使用 [!DNL Y=(a*X+b)]**** 的最佳拟合直线。
 
 ```
 ESTIMATE.QUADRATIC(metric_A, metric_B)
@@ -562,12 +556,12 @@ ESTIMATE.QUADRATIC(metric_A, metric_B)
 
 | 参数 | 描述 |
 |---|---|
-| *metric_A* | 您希望指定为因变量数据的量度。 |
-| *metric_B* | 您希望指定为因变量数据的量度。 |
+| *metric_A* | 要指定为相关数据的量度。 |
+| *metric_B* | 要指定为相关数据的量度。 |
 
 ## 二次回归：斜率 (Table) {#concept_0023321DA8E84E6D9BCB06883CA41645}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and metric_Y) for [!DNL Y=(a*X+b)]****.
+返回斜率 *a*，它介于 [!DNL Y=(a*X+b)]**** 的两个量度列（*metric_X* 和 metric_Y）之间。
 
 ```
 SLOPE.QUADRATIC(metric_X, metric_Y)
@@ -580,7 +574,7 @@ SLOPE.QUADRATIC(metric_X, metric_Y)
 
 ## 倒数回归：相关系数 (Table) {#concept_EBEC509A19164B8AB2DBDED62F4BA2A5}
 
-返回相关系数 *r*，它介于 *的两个量度列（* metric_X *和* metric_Y[!DNL Y = a/X+b]）之间。
+返回相关系数 *r*，它介于 [!DNL Y = a/X+b] 的两个量度列（*metric_X* 和 *metric_Y*）之间。
 
 ```
 CORREL.RECIPROCAL(metric_X, metric_Y)
@@ -593,7 +587,7 @@ CORREL.RECIPROCAL(metric_X, metric_Y)
 
 ## 倒数回归：截距 (Table) {#concept_2DA45B5C69F140EC987649D2C88F19B3}
 
-Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = a/X+b].
+返回截距 *b*，它介于 [!DNL Y = a/X+b] 的两个量度列（*metric_X* 和 *metric_Y*）之间。
 
 ```
 INTERCEPT.RECIPROCAL(metric_A, metric_B)
@@ -606,7 +600,7 @@ INTERCEPT.RECIPROCAL(metric_A, metric_B)
 
 ## 倒数回归：预测的 Y (Row) {#concept_2CF4B8F417A84FE98050FE488E227DF8}
 
-Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the least squares method for calculating the line of best fit using [!DNL Y = a/X+b].
+计算预测的 [!DNL y] 值 (metric_Y)，假定已知的 [!DNL x] 值 (metric_X) 使用最小二乘法计算使用 [!DNL Y = a/X+b] 的最佳拟合直线。
 
 ```
 ESTIMATE.RECIPROCAL(metric_X, metric_Y)
@@ -619,7 +613,7 @@ ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 
 ## 倒数回归：斜率 (Table) {#concept_8A8B68C9728E42A6BFDC6BD5CBDCCEC5}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = a/X+b].
+返回斜率 *a*，它介于 [!DNL Y = a/X+b] 的两个量度列（*metric_X* 和 *metric_Y*）之间。
 
 ```
 SLOPE.RECIPROCAL(metric_X, metric_Y)
@@ -650,7 +644,7 @@ Z 分数的别名，即由平均值偏差除以标准偏差
 
 通过 col 的 t 分数和 n 自由度，执行以 m 结尾的 t 测试。
 
-签名是 `t_test( x, n, m )`。 在下面，它只是调用 `m*cdf_t(-abs(x),n)`。 (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
+签名为 `t_test( x, n, m )`。在下面，它只是调用 `m*cdf_t(-abs(x),n)`。（这类似于运行 `m*cdf_z(-abs(x))` 的 z 测试函数。）
 
 其中，`m` 为尾数，`n` 为自由度。这些应为数字（整个报表的常量，即不按行发生变化）。
 
@@ -658,15 +652,15 @@ Z 分数的别名，即由平均值偏差除以标准偏差
 
 返回值是指在给定自由度和尾数的情况下，获得测试统计数据 x 的几率。
 
-**示例:**
+**示例：**
 
-1. 用它找到异常值：
+1. 用其查找离群值：
 
    ```
    t_test( zscore(bouncerate), row-count-1, 2)
    ```
 
-1. Combine it with `if` to ignore very high or low bounce rates, and count visits on everything else:
+1. 将其与 `if` 结合使用，以忽略过高或过低的跳出率，并对其他内容的访问次数进行计数：
 
    ```
    if ( t_test( z-score(bouncerate), row-count, 2) < 0.01, 0, visits )
@@ -694,9 +688,9 @@ Z 分数的方程式为：
 
 其中，[!DNL x] 为原始分数，[!DNL μ] 为群体平均值，[!DNL σ] 为群体标准偏差。
 
-> [!NOTE] [!DNL μ] (μ)和[!DNL σ] (σ)从该度量自动计算。
+> [!NOTE] [!DNL μ] (mu) 和 [!DNL σ] (sigma) 会使用该量度自动计算。
 
-Z得分（度量）
+Z 分数（量度）
 
 <table id="table_AEA3622A58F54EA495468A9402651E1B"> 
  <thead> 
@@ -719,5 +713,5 @@ Z得分（度量）
 
 返回当前行在列中偶然可见的几率。
 
-> [!NOTE] 假定这些值正常分布。
+> [!NOTE] 假定值为正态分布。
 
