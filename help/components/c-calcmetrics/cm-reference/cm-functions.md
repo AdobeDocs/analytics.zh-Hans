@@ -1,26 +1,20 @@
 ---
 description: 计算量度生成器允许您将统计和数学函数应用于生成高级计算量度。
-title: 参考基本功能
+title: 引用：基本函数
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
 
 
 # 引用：基本函数
 
-<!-- 
-
-cm_functions.xml
-
- -->
-
 计算量度生成器允许您将统计和数学函数应用于生成高级计算量度。
 
 这里有一个按字母顺序排列的函数及其定义列表。
 
-> [!NOTE] 当在 [!DNL metric] 函数中标识为参数时，也允许使用其他度量表达式。 For example, [!DNL MAXV(metrics)] also allows for [!DNL MAXV(PageViews + Visits).]
+> [!NOTE] 当 [!DNL metric] 被标识为函数中的参数时，还允许使用其他量度表达式。例如，[!DNL MAXV(metrics)] 还允许使用 [!DNL MAXV(PageViews + Visits).]
 
 ## table 函数与 row 函数 {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -103,7 +97,7 @@ EXP(metric)
 幂运算符
 
 <pre>
-pow(x,y)=<sup>xy</sup> = x*x*x*...（y次）
+pow(x,y) = x<sup>y</sup> = x*x*x*… (y 次)
 </pre>
 
 ## 平均值 (Table) {#concept_F4FF950580304D0B99DA7FBB5DB8730A}
@@ -156,7 +150,7 @@ modulo(modulo(x,y)+y,y)
 
 ## 百分位数 (Table) {#concept_51DF57B606D14F898E5010DBA61CA979}
 
-返回某量度的 k-th 百分位数形式的值。您可以使用此函数确立一个接受阈值。例如，您可以决定检查得分高于90百分点的维元素。
+返回某量度的 k-th 百分位数形式的值。您可以使用此函数确立一个接受阈值。例如，您可以决定检查其分数大于第 90 个百分位数的维度元素。
 
 ```
 PERCENTILE(metric,k)
@@ -208,7 +202,7 @@ QUARTILE(metric,quart)
  </tbody> 
 </table>
 
-*如果 *quart* = 0，则 QUARTILE 返回最小值。If *quart* = 1, QUARTILE returns the first quartile (25 percentile). If *quart* = 2, QUARTILE returns the first quartile (50 percentile). If *quart* = 3, QUARTILE returns the first quartile (75 percentile). 如果 *quart* = 4，则 QUARTILE 返回最大值。
+*如果 *quart* = 0，则 QUARTILE 返回最小值。如果 *quart* = 1，则 QUARTILE 返回第一个四分位数（第 25 个百分位数）。如果 *quart* = 2，则 QUARTILE 返回第一个四分位数（第 50 个百分位数）。如果 *quart* = 3，则 QUARTILE 返回第一个四分位数（第 75 个百分位数）。如果 *quart* = 4，则 QUARTILE 返回最大值。
 
 ## 轮次 {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
 
@@ -233,7 +227,7 @@ round( 314.15, -2) = 300
 
 ## 行计数 {#concept_0DBF5995881C47CF95F793125F3A0E2B}
 
-返回给定列的行数（在维中报告的唯一元素数）。“超出的唯一值”计为1。
+返回给定列的行数（某个维度内报告的独特元素数）。“超出的独特数”将记为 1。
 
 ## 行最大值 {#concept_984D045D7EDD4A1ABED454CDF2EC23C5}
 
@@ -308,9 +302,9 @@ VARIANCE(metric)
 
 1. 从数字中减去平均值。
 
-2. 将结果平方。
+2. 将结果求平方。
 
-3. 将其加到总数中。
+3. 再相加求和。
 
 对整列进行迭代后，您将得到一个总数。然后，将该总数除以列中的项目数。得出的数值就是列变量。它是单个数字。但它会显示为一列数字。
 
@@ -322,7 +316,7 @@ VARIANCE(metric)
 
 3
 
-此列的平均值为 2。该列的方差为(1-2)² +(2-2)² +(3-2)²/3 = 2/3。 在 Ad Hoc Analysis 中，它将显示如下：
+此列的平均值为 2。此列的变量将为 ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3。在 Ad Hoc Analysis 中，它将显示如下：
 
 1 2/3
 
