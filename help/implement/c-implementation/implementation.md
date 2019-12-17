@@ -3,7 +3,7 @@ description: 'null'
 title: 实施路线图
 uuid: 988bcca5-67ae-4e3f-97e6-6a42030b1962
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 9d0b8e1e9bc2d92fb949ceed7bcfaa31818d02b8
 
 ---
 
@@ -70,12 +70,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <img  src="assets/step4_icon.png" id="image_B255E5EAE7BB43FC946D0E9DFCA83003" /> </td> 
-   <td colname="col1"> 验证实施。 </td> 
-   <td colname="col2"> <p> <a href="/help/implement/impl-testing/impl-validation/impl-validation.md">测试和验证</a>提供了有关如何验证实施的信息。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <img  src="assets/step5_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
+   <td colname="col01"> <img  src="assets/step4_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
    <td colname="col1"> 使用 Adobe Experience Cloud 调试器验证数据是否已发送。 </td> 
    <td colname="col2"> <p>安装 <a href="/help/implement/impl-testing/debugger.md">Experience Cloud 调试器</a>。安装完成后，载入某个您已部署页面代码的页面，然后打开调试程序。调试程序会显示有关已发送的收集数据的详细信息。 </p> </td> 
   </tr> 
