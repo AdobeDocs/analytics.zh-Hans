@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin Guide
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
+source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
 
 ---
 
@@ -145,16 +145,17 @@ source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
    + [用户和产品管理](user-management2/user-management.md)
    + [将用户群组分配给报表包](user-management2/t-group-access-report-suite.md)
    + 用户管理 {#user-management}
-      + [将 Analytics 用户迁移到 Admin Console](user-management2/user-migration/c-migration-tool.md)
-         + [为 Adobe ID 迁移 Analytics 用户帐户](user-management2/user-migration/t-migrate-users.md)
-         + [为 Enterprise ID 和 Federated ID 迁移 Analytics 用户帐户](user-management2/user-migration/migrate-enterprise.md)
-         + [禁用旧版登录](user-management2/user-migration/t-disable-legacy-login.md)
-         + [受迁移影响的 API](user-management2/user-migration/developer.md)
       + [用户管理概述](user-management2/c-user-management/users.md)
       + [添加用户帐户](user-management2/c-user-management/t-add-user-account.md)
       + [用户和群组权限更改](user-management2/c-user-management/permissions-changes.md)
       + [转移用户帐户项目](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
       + [将用户添加到群组](user-management2/c-user-management/t-add-user-to-group.md)
+      + 将用户迁移到Adobe Admin Console {#migrate-users}
+         + [将 Analytics 用户迁移到 Admin Console](user-management2/user-migration/c-migration-tool.md)
+         + [为 Adobe ID 迁移 Analytics 用户帐户](user-management2/user-migration/t-migrate-users.md)
+         + [为 Enterprise ID 和 Federated ID 迁移 Analytics 用户帐户](user-management2/user-migration/migrate-enterprise.md)
+         + [禁用旧版登录](user-management2/user-migration/t-disable-legacy-login.md)
+         + [受迁移影响的 API](user-management2/user-migration/developer.md)
       + [管理 Ad Hoc Analysis 用户](user-management2/c-user-management/t-manage-dsc-users-admin.md)
    + 用户群组 {#user-groups}
       + [添加用户群组](user-management2/c-user-groups/t-user-group.md)
