@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: d5804b411c28270ef910eec5a815532c067a4642
+source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
 
 ---
 
@@ -181,7 +181,7 @@ source-git-commit: d5804b411c28270ef910eec5a815532c067a4642
          + [pageType](js-implementation/page-variables/pagetype.md)
          + [pageUrl](js-implementation/page-variables/pageurl.md)
          + [plugins](js-implementation/page-variables/plugins.md)
-         + [产品](js-implementation/page-variables/products.md)
+         + [products](js-implementation/page-variables/products.md)
          + [propN](js-implementation/page-variables/propn.md)
          + [purchaseID](js-implementation/page-variables/purchaseid.md)
          + [referrer](js-implementation/page-variables/referrer.md)
@@ -266,26 +266,13 @@ source-git-commit: d5804b411c28270ef910eec5a815532c067a4642
    + [Experience Cloud 核心服务](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html)
    + 跨设备访客识别 {#cross-device-visitor-id}
       + [跨设备连接用户](js-implementation/xdevice-visid/xdevice-connecting.md)
-      + [跨设备访客识别的数据影响](js-implementation/xdevice-visid/xdevice-data.md)
-      + [示例访问](js-implementation/xdevice-visid/visit-example.md)
-      + [访客](js-implementation/xdevice-visid/visitors.md)
-      + [访问](js-implementation/xdevice-visid/visits.md)
-      + [创建区段](js-implementation/xdevice-visid/segments.md)
-      + [地域划分数据](js-implementation/xdevice-visid/geo-data.md)
+      + [跨设备示例](js-implementation/xdevice-visid/visit-example.md)
       + [属性和永久性](js-implementation/xdevice-visid/variable-persistence.md)
+      + [跨设备常见问题解答](js-implementation/xdevice-visid/xdevice-faq.md)
    + [访客迁移](js-implementation/visitor-migration.md)
    + [使用可选时间戳](js-implementation/timestamps-overview.md)
    + [重定向和别名](js-implementation/redirects-overview.md)
 + 测试和验证 {#testing-and-validation}
-   + 测试和验证过程 {#testing-and-validation-process}
-      + [测试和验证概述](impl-testing/impl-validation/impl-validation.md)
-      + [在调试器中确定 s_account 变量](impl-testing/impl-validation/impl-testing-account.md)
-      + [JavaScript JS 文件](impl-testing/impl-validation/impl-js-file.md)
-      + [代码修改](impl-testing/impl-validation/impl-code-updates.md)
-      + [变量和值](impl-testing/impl-validation/impl-var-values.md)
-      + [自定义变量](impl-testing/impl-validation/impl-custom-vars.md)
-      + [实施验收](impl-testing/impl-validation/impl-acceptance.md)
-      + [数据准确性验证](impl-testing/impl-validation/impl-data-accuracy.md)
    + [Experience Cloud 调试器](impl-testing/debugger.md)
    + [数据包分析程序](impl-testing/packet-monitor.md)
    + 实施疑难解答 {#implementation-troubleshooting}
