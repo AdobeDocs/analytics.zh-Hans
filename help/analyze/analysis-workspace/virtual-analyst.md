@@ -2,7 +2,7 @@
 title: Virtual Analyst
 description: 了解 Adobe Analytics 中的哪些功能有助于发挥 Virtual Analyst 的作用。
 translation-type: tm+mt
-source-git-commit: 3a0bed6c9e6fbf1319d0e0a62078d8527b80d2d6
+source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ---
 
@@ -13,7 +13,7 @@ Virtual Analyst 是 Adobe Analytics 中的一组功能集，它通过运用预�
 
 ## 功能 {#features}
 
-Virtual Analyst 包含以下功能：
+虚拟分析师包括以下功能：
 
 * [异常检测：](virtual-analyst/c-anomaly-detection/anomaly-detection.md)提供了一种统计方法来确定给定的量度相对于以前的数据发生了什么变化。
 * [贡献分析：](virtual-analyst/contribution-analysis/run-contribution-analysis.md)帮助确定对数据异常贡献最大的因素。
