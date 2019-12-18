@@ -1,9 +1,9 @@
 ---
 title: 区段 IQ 概述
 description: 了解 Adobe Analytics 区段 IQ 是什么，以及它如何为您的组织提供帮助。
-keywords: Analysis Workspace;区段 IQ
-translation-type: ht
-source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+keywords: Analysis Workspace;Segment IQ
+translation-type: tm+mt
+source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 分析人员可能需要花费几个小时乃至几天时间，在公司的各种量度和维度中搜索区段之间的相关差异。这项分析不仅繁琐耗时，而且您永远无法确定是否漏掉了某个区段的关键差异，而该区段可能会对您的目标营销工作产生重大影响。
 
-许多组织都使用由区段 IQ 支持的功能取得了成功。请参阅[区段比较使用案例](c-panels/c-segment-comparison/segment-compare-use-cases.md)，了解已为组织提供宝贵洞察的真实使用场景。
+许多组织都使用由区段 IQ 支持的功能取得了成功。See [Segment comparison use cases](c-panels/c-segment-comparison/segment-compare-use-cases.md) for real-world scenarios that provide organizations valuable insight.
 
 ## 功能
 
