@@ -18,13 +18,11 @@ source-git-commit: 5d69587886c87bc62ad744c51d56bb6cd9e53167
 您可以使用通过处理规则映射的上下文数据变量发送数据，而无需在代码中将值明确分配给 prop 和 eVar。处理规则提供强大的图形界面，以便对接收的数据进行更改。根据上下文数据中发送的值，您可以设置事件、将值复制到 eVar 和 prop，以及执行其他条件语句。
 
 > [!NOTE]上下文数据变量不区分大小写。例如，以下 2 个变量实际上是相同的：
->
-```
+>```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
 >和
->
-```
+>```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
 
