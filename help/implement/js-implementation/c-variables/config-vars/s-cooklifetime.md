@@ -3,7 +3,7 @@ description: 通过动态变量，您可以将一个变量中的值复制到另�
 keywords: Analytics Implementation
 solution: null
 title: 动态变量
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 |---|---|---|---|
 | 不适用 | cl | “流量”&gt;“技术”&gt;“Cookie”所有与访客有关的报表 | "" |
 
-If *`cookieLifetime`* is set, it overrides any other cookie expirations for both JavaScript and data collection servers, with one exception, described below. *`cookieLifetime`* 变量的值为以下三者之一：
+如果设置 *`cookieLifetime`*，它会覆盖 JavaScript 和数据收集服务器的任何其他 Cookie 过期日期，但有一种情况除外，下文对此进行了介绍。*`cookieLifetime`* 变量的值为以下三者之一：
 
 * [!DNL Analytics] Cookie
 * Cookie
