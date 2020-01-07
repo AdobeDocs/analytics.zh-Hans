@@ -1,8 +1,8 @@
 ---
 title: Analysis Workspace 帮助
 description: Analysis Workspace、Activity Map、Report Builder、报表 API 以及 Reports & Analytics（以前称为 Omniture Analytics 产品）的产品文档和自助信息。
-translation-type: ht
-source-git-commit: d3071ea852e98f447d51c0511a6a8fff642a8fe2
+translation-type: tm+mt
+source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
 
 ---
 
@@ -23,6 +23,7 @@ source-git-commit: d3071ea852e98f447d51c0511a6a8fff642a8fe2
 ## 重要 Analytics 工具文章
 
 * [Analysis Workspace 快速入门](analysis-workspace/home.md)
+* [我应该使用哪种 Adobe Analytics 工具？](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)
 * [Report Builder 快速入门](report-builder/home.md)
 * [Activity Map 快速入门](activity-map/activity-map.md)
 
@@ -32,7 +33,7 @@ source-git-commit: d3071ea852e98f447d51c0511a6a8fff642a8fe2
 
 ## 重要 Analytics 资源
 
-* [联系客户关怀团队](https://helpx.adobe.com/cn/contact/enterprise-support.ec.html)
+* [联系客户关怀团队](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analytics 论坛](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics 资源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
