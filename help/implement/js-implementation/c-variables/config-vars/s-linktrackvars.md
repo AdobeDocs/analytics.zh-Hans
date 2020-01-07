@@ -3,7 +3,7 @@ description: 通过动态变量，您可以将一个变量中的值复制到另�
 keywords: Analytics Implementation
 solution: null
 title: 动态变量
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
  变量是随自定义、退出和下载链接一起发送的、以逗号隔开的变量列表。
 
-The [`linkTrackVars`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html) parameter should include each variable that you want to track with every file download, exit link, and custom link.
+[`linkTrackVars`](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html) 参数应包括您想要通过每个文件下载、退出链接和自定义链接跟踪的每个变量。
 
-The settings for `linkTrackVars` and `linkTrackEvents` within the JS file affect every file download, exit link, and custom link. 如果变量（或事件）应用至当前页面而非特定的文件下载、退出链接或自定义链接，则会夸大每个变量和事件的实例。
+JS 文件中的 `linkTrackVars` 和 `linkTrackEvents` 设置可影响每个文件下载、退出链接和自定义链接。如果变量（或事件）应用至当前页面而非特定的文件下载、退出链接或自定义链接，则会夸大每个变量和事件的实例。
 
-为确保使用自定义链接代码设置正确的变量，Adobe建议按如 `linkTrackVars` 下方 `linkTrackEvents` 式在自定义链接代码中进行设置：
+为确保使用自定义链接代码设置正确的变量，Adobe 建议在自定义链接代码中设置 `linkTrackVars` 和 `linkTrackEvents`，如下所示：
 
 ```js
 <a href="index.html" onClick=" 
@@ -30,19 +30,19 @@ s.tl(this,'o','Link Name');
 ">My Page 
 ```
 
-在上例中，prop1的值是在自定义链接代码本身中设置的。 prop2 的值则来自在页面上设置的变量的当前值。
+在上述示例中，prop1 的值在自定义链接代码中设置。prop2 的值则来自在页面上设置的变量的当前值。
 
-The values of `linkTrackVars` and `linkTrackEvents` override the settings in the JS file and ensure only the variables and events specified in the custom link code are set for the specific link.
+`linkTrackVars` 和 `linkTrackEvents` 的值将覆盖 JS 文件中的设置，并确保仅为特定链接设置自定义链接代码中指定的变量和事件。
 
-*注意：如果`linkTrackVars`(或`linkTrackEvents`)为null（或空字符串，如“”），则跟踪为当前页面定义的所有Analytics变量（或事件）。 换句话说，所有具有值的变量都会与链接数据一起发送。 这很可能会使每个变量的实例膨胀。 为避免与其他变量相关联的实例次数或页面查看次数虚增，Adobe 建议在用于链接跟踪的链接的`linkTrackVars`onClick`linkTrackEvents`事件中填充[!UICONTROL 和]。*
+*注意：如果`linkTrackVars`（或`linkTrackEvents`）为空（或是诸如 "" 之类的空字符串），则将跟踪为当前页面定义的所有 Analytics 变量（或事件）。换言之，所有具有值的变量都会随链接数据一起发送。这很可能会导致每个变量的实例虚增。为避免与其他变量相关联的实例次数或页面查看次数虚增，Adobe 建议在用于链接跟踪的链接的`linkTrackVars`onClick`linkTrackEvents`事件中填充[!UICONTROL 和]。*
 
-所有应随链接数据（自定义、退出和下载链接）一起发送的变量都应在 `linkTrackVars`. 如果使用 `linkTrackEvents`，则 `linkTrackVars` 应包含“events”。
+所有应随链接数据（自定义、退出和下载链接）一起发送的变量都应在 `linkTrackVars` 中列出。如果使用 `linkTrackEvents`，则 `linkTrackVars` 应包含“events”。
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |---|---|---|---|
 | 不适用 | 不适用 | 任何 | "无" |
 
-When populating `linkTrackVars`, do not use the 's.' prefix for variables. 例如，不要用“s.prop1”填充 `linkTrackVars`，而应用“prop1”填充。以下示例说明了应如何使用 `linkTrackVars`。
+填充 `linkTrackVars` 时，请不要使用“s.”作为变量的前缀。例如，不要用“s.prop1”填充 `linkTrackVars`，而应用“prop1”填充。以下示例说明了应如何使用 `linkTrackVars`。
 
 ```js
 s.linkTrackVars="eVar1,events" 
@@ -65,7 +65,7 @@ s.t() // eVar1, event1 and event2 are recorded
 s.linkTrackVars="variable_name[,variable_name[...]]"
 ```
 
-The `linkTrackVars` variable may contain only variables that are sent to [!DNL Analytics], namely: `events`, `campaign`, `purchaseID`, `products`, `eVar1-75`, `prop1-75`, `hier1-5`, `channel`, `server`, `state`, `zip`, and `pageType`.
+`linkTrackVars` 变量只能包含已发送至 [!DNL Analytics] 的变量，即：`events`、`campaign`、`purchaseID`、`products`、`eVar1-75`、`prop1-75`、`hier1-5`、`channel`、`server`、`state`、`zip` 和 `pageType`。
 
 ## 示例
 
