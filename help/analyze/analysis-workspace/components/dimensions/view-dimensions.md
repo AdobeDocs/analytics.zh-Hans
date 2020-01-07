@@ -2,7 +2,7 @@
 description: 'null'
 title: 预览维度
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 预览维度
 
-## Dimension preview {#section_13D5A69AE6194715A721BC87D283F6F2}
+## 维度预览 {#section_13D5A69AE6194715A721BC87D283F6F2}
 
 将鼠标悬停在某个维度旁边的“信息”(i) 图标上。此时会显示非时间维度的前 5 个值（对于时间维度，显示前 15 个值）。过去，这些值会保持不变（例如，选定的 5 个值永远不会更改）。
 
@@ -24,8 +24,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/dimension_static.png)
 
-## Show dimension items {#section_A074B3A984634AC7B1362889088E0A42}
+## 显示维度项目 {#section_A074B3A984634AC7B1362889088E0A42}
 
 当您将鼠标悬停在维度上并单击其旁边的灰色右箭头时，会显示其维度项目列表。任何维度项目列表通常会显示过去 30 天排名最前的项目。
 
-If you scroll down to the bottom of the list, you will see a **[!UICONTROL Show Top Items From Last 6 Months]**. 单击此选项可查看过去 180 天排名最前的维度项目。
+如果向下滚动到列表的底部，将看到&#x200B;**[!UICONTROL 显示过去 6 个月排名最前的项目]**。单击此选项可查看过去 180 天排名最前的维度项目。
