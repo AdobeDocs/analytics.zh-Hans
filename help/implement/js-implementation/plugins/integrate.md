@@ -1,7 +1,7 @@
 ---
 title: 集成模块
 description: 借助集成模块，Adobe 合作伙伴可以将其数据收集工作与您的组织集成在一起。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
