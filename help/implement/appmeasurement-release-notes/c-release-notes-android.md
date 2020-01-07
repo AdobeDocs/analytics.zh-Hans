@@ -5,7 +5,7 @@ subtopic: Release notes
 title: Android
 topic: Developer and implementation
 uuid: 32232d28-3459-4f78-bb00-ca3163c63461
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -91,7 +91,7 @@ Android 移动库的发行说明汇总。
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 深层链接 </p> </td> 
-   <td colname="2"> <p>When calling <code> trackAdobeDeepLink</code>, variables prefixed with "<code> adb</code>" and "<code> ctx</code>" are now handled properly. </p> </td> 
+   <td colname="2"> <p>如今，在调用 <code> trackAdobeDeepLink</code> 时，可正确处理前缀为“<code> adb</code>”和“<code> ctx</code>”的变量。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -405,7 +405,7 @@ Android 移动库的发行说明汇总。
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword">PhoneGap</span> 中的信标跟踪支持 </p> </td> 
-   <td colname="2"> <p>The <code> trackBeacon</code> and <code> clearCurrentBeacon</code> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
+   <td colname="2"> <p>现在，<code> trackBeacon</code> 和 <code> clearCurrentBeacon</code> 调用在 <span class="keyword">PhoneGap</span> 中可用。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
