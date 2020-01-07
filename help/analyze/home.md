@@ -1,7 +1,7 @@
 ---
 title: Analysis Workspace 帮助
-description: Analysis Workspace、Activity Map、Report Builder、Reporting API以及Reports & Analytics的产品文档和自助服务（以前称为Omniture Analytics产品）。
-translation-type: tm+mt
+description: Analysis Workspace、Activity Map、Report Builder、报表 API 以及 Reports & Analytics（以前称为 Omniture Analytics 产品）的产品文档和自助信息。
+translation-type: ht
 source-git-commit: d3071ea852e98f447d51c0511a6a8fff642a8fe2
 
 ---
@@ -11,14 +11,14 @@ source-git-commit: d3071ea852e98f447d51c0511a6a8fff642a8fe2
 
 ![横幅](../../assets/doc_banner_analyze.png)
 
-本指南提供以下Adobe Analytics报告和分析工具的产品文档和自助服务：
+本指南提供以下 Adobe Analytics 报告和分析工具的产品文档和自助信息：
 
-* **Analysis Workspace**:Adobe Analytics中最重要的功能。 Workspace 提供了一个画布，您可以在其中拖动组件以满足报表需求。
-* **活动图**:一个浏览器插件，它显示站点上的叠加，显示哪些元素被点击最多。
-* **临时分析**:具有强大报告功能的独立Java应用程序。 这款工具不再更新，并且最终将会停用。
-* **报告API**:直接向Adobe服务器进行报告查询，并获取响应以用于您自己的客户报告工具。
-* **Report Builder**:一个Excel插件，允许您检索Analytics数据并将其直接放入工作簿中。
-* **报告与分析**:包含数十种预建报告的工具。 Adobe 建议您使用 Analysis Workspace 以满足大多数的报表需求。
+* **[!UICONTROL Analysis Workspace]：** Adobe Analytics 中最重要的功能。Workspace 提供了一个画布，您可以在其中拖动组件以满足报表需求。
+* **[!UICONTROL Activity Map]：**&#x200B;作为一个浏览器插件，它可以在您的网站上显示一个覆盖层，以展示点击量最多的元素。
+* **[!UICONTROL Ad Hoc Analysis]：**&#x200B;一款具有强大报告功能的独立 Java 应用程序。这款工具不再更新，并且最终将会停用。
+* **[!UICONTROL 报表 API]：**&#x200B;可直接向 Adobe 的服务器提出报表查询请求，并且获得的响应结果可以在您自己的客户报表工具中使用。
+* **[!UICONTROL Report Builder]：**&#x200B;一种 Excel 加载项，可允许您检索 Analytics 数据，并将其直接放入工作簿中。
+* **[!UICONTROL Reports &amp; Analytics]：**&#x200B;一个包含大量预建报表的工具。Adobe 建议您使用 Analysis Workspace 以满足大多数的报表需求。
 
 ## 重要 Analytics 工具文章
 
@@ -32,7 +32,7 @@ source-git-commit: d3071ea852e98f447d51c0511a6a8fff642a8fe2
 
 ## 重要 Analytics 资源
 
-* [联系客户关怀团队](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [分析论坛](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analytics资源](https://forums.adobe.com/message/10660755)
+* [联系客户关怀团队](https://helpx.adobe.com/cn/contact/enterprise-support.ec.html)
+* [Analytics 论坛](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics 资源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
