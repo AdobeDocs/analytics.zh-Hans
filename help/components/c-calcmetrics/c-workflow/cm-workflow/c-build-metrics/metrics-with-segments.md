@@ -2,7 +2,7 @@
 description: 对单个量度分段允许您对同一报表内的量度进行比较。（仅限派生量度）
 title: 分段量度
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -28,11 +28,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    >[!NOTE]
    >
-   >You can also do this in the [Segment Builder](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html), but we have simplified the workflow by making dimensions available in the Calculated Metric Builder.
+   >您也可以在[区段生成器](https://marketing.adobe.com/resources/help/zh_CN/analytics/segment/seg_build.html)中执行此操作，但是我们已在计算量度生成器中提供了维度，从而简化了工作流程。
 
    >[!NOTE]
    >
-   >"Internal" means that the segment is not visible in the **[!UICONTROL Segments]** list in the left rail. You can however, make it public by hovering over the "i" icon next to it and clicking **[!UICONTROL Make public]**.
+   >“内部”表示该区段在左边栏的&#x200B;**[!UICONTROL 区段]**&#x200B;列表中不可见。但是，您可以将鼠标悬停在该列表旁边的“i”图标上，然后单击&#x200B;**[!UICONTROL 设为公用]**。
 
 1. 如果您没有可比较的区段，请创建一个名为“国际访客”的区段，其中“国家/地区”不等于“德国”。
 1. 通过将“德国”区段拖到“定义”画布中，并将独特访客量度拖到其内部，生成并保存名为“德国访客”的量度。
@@ -40,11 +40,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    ![](assets/german-visitors.png)
 
 1. 对国际访客区段和独特访客量度重复执行步骤 3，以便创建“国际访客”量度。
-1. 在 Analysis Workspace 中，将&#x200B;**[!UICONTROL 页面]维度拖动到自由格式表中，并将两个新的计算量度拖动到顶部且使它们彼此相邻：**
+1. 在 Analysis Workspace 中，将&#x200B;**[!UICONTROL 页面]**&#x200B;维度拖动到自由格式表中，并将两个新的计算量度拖动到顶部且使它们彼此相邻：
 
    ![](assets/workspace-pages.png)
 
-1. Or, in [!UICONTROL Reports &amp; Analytics], open the [!UICONTROL Pages] report and click **[!UICONTROL Show Metrics]**, then apply the new US Visitors and International Visitors segmented metrics to see how their content browsing behavior compares.
+1. 或者，在 [!UICONTROL Reports &amp; Analytics] 中，打开[!UICONTROL 页面]报表，并单击&#x200B;**[!UICONTROL 显示量度]**，然后应用新的“美国访客”和“国际访客”分段量度，以查看他们的内容浏览行为是如何比较的。
 
    ![](assets/pages-report.png)
 
@@ -61,11 +61,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/cm_percent_total.png)
 
-## Compare Differences in Percentages (using Containers) {#section_13D6353259B74C09B37BA6378A501938}
+## 以百分比形式比较差别（使用容器）{#section_13D6353259B74C09B37BA6378A501938}
 
 如果您要快速了解美国和国际浏览行为之间的最大差别，则可以创建另一个可减去彼此百分比的量度。为此，您可以使用容器功能，以有效地使用圆括号括住 2 组量度。
 
-1. In the [!UICONTROL Definition] canvas, click **[!UICONTROL Add]** &gt; **[!UICONTROL Container]**:
+1. 在“[!UICONTROL 定义]”画布中，单击&#x200B;**[!UICONTROL 添加]** &gt; **[!UICONTROL 容器]**：
 
    ![](assets/cm_add_container.png)
 
