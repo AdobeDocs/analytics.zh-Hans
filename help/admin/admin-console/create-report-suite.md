@@ -1,7 +1,7 @@
 ---
 title: 创建报表包
-description: 在Adobe Analytics中为数据收集创建基本容器。
-translation-type: tm+mt
+description: 在 Adobe Analytics 中创建用于数据收集的基本容器。
+translation-type: ht
 source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 
 ---
@@ -9,38 +9,38 @@ source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 
 # 创建报表包
 
-报表包是Adobe Analytics用来拉取报表的数据库。 组织可以有许多报表包，每个报表包都包含不同的数据集。 虽然单独的报表包过去很重要，但拥有单个报表包已变得更有利。 虚拟报告套件的引入和报告时间处理允许用户创建自己的数据子集，从而允许灵活地获取全局数据和站点特定数据。
+报表包是一种数据存储库，Adobe Analytics 使用报表包提取单个报表。一个组织可以有多个报表包，每个报表包中包含不同的数据集。过去，有必要设置多个独立报表包，但现在单个报表包的优势变得日益凸显。引入虚拟报表包和报表时间处理后，用户可以自行创建子数据集，因而能够根据需要灵活地获取全局性数据和特定于网站的数据。
 
-本文面向系统级管理员或分析管理员，旨在为数据收集做好准备。
+本文旨在帮助系统级别管理员或 Analytics 管理员做好数据收集前的准备工作。
 
 ## 先决条件
 
-[Adobe Analytics第一管理指南](first-admin-guide.md):确保系统级管理员已授予您通过Experience Cloud Admin Console访问Adobe Analytics的权限
+[Adobe Analytics 每一个管理员入门指南](first-admin-guide.md)：确保系统级别管理员已通过 Experience Cloud Admin Console 向您授予 Adobe Analytics 的访问权限
 
 ## 创建报表包
 
-> [!NOTE] 还有一种方法可使用旧版管理员在Adobe Analytics中创建报表包。 Adobe建议使用此处概述的报表包设置向导。
+> [!NOTE] 在 Adobe Analytics 中，还可以使用旧版管理界面创建报表包。Adobe 建议使用此处介绍的报表包设置向导。
 
 1. 使用您的 Adobe ID 凭据登录 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 1. 单击右上角的 9 个正方形图标，然后单击彩色的 Analytics 徽标。
-1. 您应该会自动弹出“欢迎使用Adobe Analytics”模式窗口。 如果不这样做，请单击右上角的帮助图标，然后选择“欢迎使用Adobe Analytics”。
-1. 在模态窗口中，单击“开始设置”(Start Setup)。
-1. 按照每个提示操作，概述基本信息，如财产类型、行业和时区。 单击下一步。
-1. 报表包现已创建。 Adobe还建议您拥有一个开发报告套件，因此测试不会污染客户数据。 单击右上角的帮助图标，然后再次选择“欢迎使用Adobe Analytics”。
-1. 在模态窗口中，单击“开始设置”(Start Setup)。
-将此报告套件命名为相同名称，但在结尾处附加“- DEV”。 由于此报表包将仅接收内部流量，因此估计的大小可以是最小的。
-1. 单击“下一步”以完成开发报告套件的创建。
+1. 此时，您应该会看到一个自动弹出的“欢迎使用 Adobe Analytics”模式窗口。如果没有看到该窗口，请单击右上方的帮助图标，然后选择“欢迎使用 Adobe Analytics”。
+1. 在该模式窗口中，单击“开始设置”。
+1. 按照每个提示操作，提示中会提供属性类型、行业和时区等基本信息。单击“下一步”。
+1. 将立即创建报表包。Adobe 还建议您创建一个开发报表包，以免测试破坏客户数据。为此，请单击右上方的帮助图标，然后再次选择“欢迎使用 Adobe Analytics”。
+1. 在弹出的模式窗口中，单击“开始设置”。
+使用相同的名称命名此报表包，但要在后面附加“- DEV”。由于此报表包将仅接收内部流量，因此预估的大小可以为最小值。
+1. 单击“下一步”，即可完成创建开发报表包。
 
 ## 故障诊断
 
-**登录到Experience cloud后，Analytics图标将灰显。**
+**登录到 Experience Cloud 后，Analytics 图标显示为灰色。**
 
-这意味着您的帐户尚未获得对Analytics的正确权限。 与组织中的系统级管理员合作，确保您属于具有访问Adobe Analytics足够权限的配置文件。
+这意味着您的帐户尚未获得所需的 Analytics 访问权限。与组织中的系统级别管理员合作，确保您所属的配置文件具有足够权限访问 Adobe Analytics。
 
-**登录Adobe Analytics后，“欢迎使用Adobe Analytics”弹出窗口和下拉框丢失。**
+**登录到 Adobe Analytics 后，看不到“欢迎使用 Adobe Analytics”弹出窗口和下拉列表。**
 
-确保您已通过Experience cloud登录，而非通过my.omniture.com登录。 通过my.omniture.com登录的用户没有可用的报表包设置向导。
+确保您是通过 Experience Cloud 而不是 my.omniture.com 登录的。如果用户通过 my.omniture.com 登录，将不会显示报表包设置向导。
 
 ## 后续步骤
 
-[在Launch中为Adobe Analytics创建和配置属性](/help/implement/implement-with-launch/create-analytics-property.md):创建管理Analytics实施的区域
+[在 Launch 中创建并配置 Adobe Analytics 资产](/help/implement/implement-with-launch/create-analytics-property.md)：创建一个用于管理 Analytics 实施的区域
