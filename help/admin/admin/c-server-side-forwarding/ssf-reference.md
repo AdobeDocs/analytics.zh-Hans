@@ -2,7 +2,7 @@
 description: 服务器端转发调用中的配置变量、HTTP 头和数据信号的综合列表及描述。
 title: 服务器端转发数据和代码引用
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,12 +14,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 配置变量 {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-Parameters prefixed with `d_*` identify special, system-level key-value pairs used by our [data collection servers](https://marketing.adobe.com/resources/help/en_US/aam/c_compcollect.html) (DCS). 另请参阅 [DCS API 调用支持的属性](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html)。
+带有 `d_*` 前缀的参数用于标识由我们的[数据收集服务器](https://marketing.adobe.com/resources/help/en_US/aam/c_compcollect.html) (DCS) 使用的系统级别特殊键值对。另请参阅 [DCS API 调用支持的属性](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html)。
 
 | 参数 | 描述 |
 |--- |--- |
-| d_rs | （设置为传统／基于跟踪服务器的服务器端转发） <br>设置为通过点击传递到Analytics的报表包。 |
-| d_dst_filter | （通过基于报表包的服务器端转发进行设置） <br>将设置为通过点击传递到Analytics的报表包ID。 |
+| d_rs | （通过基于旧版/跟踪服务器的服务器端转发进行设置）。<br>设置为将点击数据传递到 Analytics 的报表包。 |
+| d_dst_filter | （通过基于报表包的服务器端转发进行设置）。<br>设置为将报表包 ID 传递到 Analytics 的点击。 |
 | d_dst | 如果对 Analytics 的请求需要有关要发送回客户端的目标的内容，请设置 d_dst=1<br>。 |
 | d_mid | 传递到 Analytics 的 Experience Cloud ID。 |
 
@@ -31,41 +31,41 @@ Parameters prefixed with `d_*` identify special, system-level key-value pairs us
 
 | HTTP 头 | 描述 |
 |--- |--- |
-| 主机 | 设置为在 Analytics 主机配置文件中指定的客户端的特定数据收集主机名。它显示为   `host name .demdex.net` .  请参阅了解 Demdex 域调用。 |
+| 主机 | 设置为在 Analytics 主机配置文件中指定的客户端的特定数据收集主机名。它显示为 `host name .demdex.net`。请参阅了解 Demdex 域调用。 |
 | User-Agent | 设置为传递到 Analytics 的 User-Agent 头。 |
-| X-Original-User-Agent | Only set if an alternate user agent was specified by one of these headers: </br>`X-Device-User-Agent\ `  </br>`X-Original-User-Agent\`   </br>`X-OperaMini-Phone-UA\`   </br>`X-Skyfire-Phone\`    </br>`X-Bolt-Phone-UA\` |
+| X-Original-User-Agent | 只有在通过以下标头之一指定了备用用户代理时才会设置此头：</br>`X-Device-User-Agent\ `  </br>`X-Original-User-Agent\`   </br>`X-OperaMini-Phone-UA\`   </br>`X-Skyfire-Phone\`    </br>`X-Bolt-Phone-UA\` |
 | X-Forwarded-For | 设置为请求客户端的 IP 地址。Analytics 将已经解析传入的 `X-Forwarded-For` 头并确定要使用的正确 IP 地址。 |
 | Accept-Language | 设置为传递到 Analytics 的 `Accept-Language` 头。 |
 | Referer | 设置为传递到 Analytics 的页面 URL，或从传递到 Analytics 的 Referer 头中收集的页面 URL。 |
 
 ## 客户定义的信号 {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Parameters prefixed with `c_` identify customer-defined variables. 另请参阅 [DCS API 调用支持的属性](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html)。
+带有 `c_` 前缀的参数用于标识客户定义的变量。另请参阅 [DCS API 调用支持的属性](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html)。
 
 | 信号 | 描述 |
 |--- |--- |
 | c_browserWidth 和 c_browserHeight | 浏览器窗口宽度和高度。 |
 | c_campaign | 由 s.campaign 设置。 |
 | c_channel | 由 s.channel 设置。 |
-| c_clientDateTime | 格式为dd/mm/yyy hh:mm:ss W TZ的时间戳。    TZ 以分钟为单位，并与 Date.getTimezoneOffset 方法的返回值匹配。 |
+| c_clientDateTime | 时间戳的格式为 yyyy/mm/dd hh:mm:ss W TZ。TZ 以分钟为单位，并与 Date.getTimezoneOffset 方法的返回值匹配。 |
 | c_colorDepth | 指定为 16 位或 32 位颜色。 |
 | c_connectionType | 指定连接类型。选项包括：<ul><li>modem</li><li>lan</li></ul> |
-| c_contextData.* | 示例:<ul><li>AppMeasurement:s.contextData</li><li>["category"] = "news";</li><li>信号：c_contextData.category=news</li></ul> |
-| c_cookiesEnabled | 指定是否可启用 Cookie。选项包括： 是，否，未知 |
+| c_contextData.* | 示例：<ul><li>AppMeasurement：s.contextData</li><li>["category"] = "news";</li><li>信号：c_contextData.category=news</li></ul> |
+| c_cookiesEnabled | 指定是否可启用 Cookie。选项包括：是、否、未知 |
 | c_currencyCode | 用于交易的货币类型。 |
 | c_evar# | 自定义 eVar |
 | c_events | 由 s.events 设置。 |
 | c_hier# | 自定义层次结构变量。 |
-| c_javaEnabled | 指定是否可启用 Java。选项包括： 是，否，未知 |
+| c_javaEnabled | 指定是否可启用 Java。选项包括：是、否、未知 |
 | c_javaScriptVersion | 浏览器支持的 JavaScript 版本。 |
 | c_latitude | 数值纬度 |
-| c_linkClick | 选项包括：自定义，下载退出 |
+| c_linkClick | 选项包括：自定义、下载退出 |
 | c_linkCustomName | 为链接提供的自定义名称（如果有）。 |
 | c_linkDownloadURL | 下载链接 URL。 |
 | c_linkExitURL | 退出链接 URL。 |
 | c_list# | 自定义列表变量。 |
 | c_longitude | 数值经度。 |
-| c_mediaPlayerType | 用于媒体流跟踪请求。选项包括：  其他，primetime |
+| c_mediaPlayerType | 用于媒体流跟踪请求。选项包括：其他、primetime |
 | c_pageName | 页面名称（如果已设置）。 |
 | c_pageURL | 浏览器地址栏中的页面地址。 |
 | c_products | 产品字符串（由 s.products 设置）。 |
