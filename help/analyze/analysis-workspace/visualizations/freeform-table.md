@@ -2,7 +2,7 @@
 description: 'null'
 title: 自由格式表
 uuid: eb272991-9f12-4b67-8b38-7ed548139a1d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -20,11 +20,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * [从表选定范围中创建警报](/help/components/c-alerts/alert-builder.md)
 * 运行[划分](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)，并创建内联区段（右键单击）
-* Run [visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) on specific cells
-* Export rows to [CSV](/help/analyze/analysis-workspace/curate-share/download-send.md)
+* 针对特定的单元格运行[可视化](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)
+* 将行导出为 [CSV](/help/analyze/analysis-workspace/curate-share/download-send.md)
 * 运行选定单元格中的[趋势](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A)可视化
 * 从所选内容中创建[区段](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)
-* Perform a [segment comparison](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+* 执行[区段比较](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 * 只显示选定的行
 
-See [Create an Analysis Workspace project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) for more information.
+请参阅[创建一个 Analysis Workspace 项目](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)以了解更多信息。
