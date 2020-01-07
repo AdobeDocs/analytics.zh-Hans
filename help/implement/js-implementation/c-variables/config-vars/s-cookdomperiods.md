@@ -3,7 +3,7 @@ description: 通过动态变量，您可以将一个变量中的值复制到另�
 keywords: Analytics Implementation
 solution: null
 title: 动态变量
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -21,9 +21,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 如果&#x200B;*`cookieDomainPeriods`*&#x200B;被设置为 "3"，而域仅包含两个句点，则 JavaScript 文件会尝试在网站的子域上设置 Cookie。例如，如果在域 `www2.mysite.com` 上将 *`cookieDomainPeriods`* 设置为“3”，则会在域 `www2.mysite.com` 上创建 `s_cc` 和 `s_sq` Cookie。在访客转到网站的子域（如 `www4.mysite.com`）时，对 `www2.mysite.com` 设置的所有 Cookie 都将无法读取。
 
-> [!NOTE] 不要将其他子域作为的一部分包含 *`cookieDomainPeriods`*。 例如，`store.toys.mysite.com` 仍会将 *`cookieDomainPeriods`* 设置为“2”。此变量定义可以在根域 [!DNL mysite.com] 上正确设置 Cookie。将 *`cookieDomainPeriods`* 设置为“3”会在域 [!DNL toys.mysite.com] 上设置 Cookie，其结果与上一个示例相同。
+> [!NOTE] 请不要在 *`cookieDomainPeriods`* 中包含其他子域。例如，`store.toys.mysite.com` 仍会将 *`cookieDomainPeriods`* 设置为“2”。此变量定义可以在根域 [!DNL mysite.com] 上正确设置 Cookie。将 *`cookieDomainPeriods`* 设置为“3”会在域 [!DNL toys.mysite.com] 上设置 Cookie，其结果与上一个示例相同。
 
-另请参见 [s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)。
+另请参见 [s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)。
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |---|---|---|---|
@@ -65,4 +65,4 @@ if(window.location.indexOf(".co.jp") > 0 || window.location.indexOf(".com.au") >
 * 如果您发现访客点击图数据缺失，或[!UICONTROL 流量] &gt; [!UICONTROL 技术] &gt; [!UICONTROL Cookie] 报表显示有相当大比例的访客拒绝 Cookie，请检查 *`cookieDomainPeriods`* 的值是否正确。
 
 * 如果 *`cookieDomainPeriods`* 大于该域的节数，则将在全域设置 Cookie。在访客切换子域时，这可能会导致数据丢失。
-* The *`cookieDomainPeriods`* 变量在已停用实施的 *`trackingServer`* 之前使用，以设置访客 ID Cookie。尽管该变量仅出现在过时的代码中，但在这种情况下，如果未能正确定义 *`cookieDomainPeriods`*，仍会导致您的实施丢失数据。
+* *`cookieDomainPeriods`* 变量在已停用实施的 *`trackingServer`* 之前使用，以设置访客 ID Cookie。尽管该变量仅出现在过时的代码中，但在这种情况下，如果未能正确定义 *`cookieDomainPeriods`*，仍会导致您的实施丢失数据。
