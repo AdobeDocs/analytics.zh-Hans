@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;customize page code;open editor;execute
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 自定义页面代码
 uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -30,7 +30,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p>打开编辑器 </p> </td> 
-   <td colname="col2"> <p>You can insert any JavaScript call that must be triggered before the final <code> s.t()</code> call, which is contained in the <code> s_code</code>. </p> </td> 
+   <td colname="col2"> <p>您可以插入必须在最终 <code> s.t()</code> 调用（包含在 <code> s_code</code> 中）之前触发的任何 JavaScript 调用。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>执行 </p> </td> 
