@@ -2,7 +2,7 @@
 description: 'null'
 title: 公司设置概述
 uuid: 175de01f-02ae-44e2-ae94-fa49733e2703
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,9 +10,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 公司设置概述
 
-通过[!UICONTROL “公司设置”]页面，您可以配置设置并应用于您的组织所管理的所有报表包。
+通过[!UICONTROL 公司设置]页面，您可以配置设置并应用于您的组织所管理的所有报表包。
 
-**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理员]** &gt;公司 **[!UICONTROL 设置]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 公司设置]**
 
 + [功能访问级别](feature-access-levels.md)
 + [Web 服务](web-services-admin.md)
