@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;dela
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 为基于事件的规则创建条件
 uuid: a847391c-5aec-4d64-8a35-388587731598
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/condition-event-based.png)
 
-   有关更多信息，请参阅“Adobe 标签管理产品文档”中的[事件类型](https://marketing.adobe.com/resources/help/en_US/dtm/event_types.html)。
+   有关更多信息，请参阅“Adobe 标签管理产品文档”中的[事件类型](https://marketing.adobe.com/resources/help/zh_CN/dtm/event_types.html)。
 
 1. 根据需要启用以下选项：
 
@@ -35,7 +35,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/condition-event-based2.png)
 
-   有关如何找到正确的元素标记的信息，请参阅“动态标签管理产品文档”中的[使用 CSS 选择器](https://marketing.adobe.com/resources/help/en_US/dtm/css-selector.html)。
+   有关如何找到正确的元素标记的信息，请参阅“动态标签管理产品文档”中的[使用 CSS 选择器](https://marketing.adobe.com/resources/help/zh_CN/dtm/css-selector.html)。
 
 1. 选择并设置您希望绑定到规则的任何其他标准或条件类型。
 
@@ -47,6 +47,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    | 如果您... | 选中此选项 |
    |--- |--- |
-   | 希望已识别的规则选择器子元素中的相关交互触发规则。 | 允许子元素中的事件冒泡。. |
+   | 希望已识别的规则选择器子元素中的相关交互触发规则。 | 允许子元素中的事件冒泡。。 |
    | 希望在子元素已触发其自身的事件时阻止事件冒泡。 | 在子元素已触发事件时不允许这么做。 |
    | 不希望已识别的规则选择器事件超出事件层级中的元素本身。 | 不允许事件向上冒泡至父元素。 |
