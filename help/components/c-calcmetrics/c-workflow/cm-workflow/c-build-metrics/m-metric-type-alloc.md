@@ -2,7 +2,7 @@
 description: 选择量度旁边的齿轮图标允许您指定量度类型和归因模型。
 title: 量度类型和归因
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -22,25 +22,25 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | 量度类型 | 定义 |
 |---|---|
-| 标准 | These metrics are the same metrics used in standard [!DNL Analytics] reporting. 如果公式包含一个标准量度，它会显示与其相对的非计算量度的相同数据。标准量度可用于创建特定于每个单独行项目的计算量度。For example, [Orders] / [Visits] takes orders for that specific line item and divides it by the number of visits for that specific line item. |
-| 合计 | 使用每个行项目中报告时段的合计。如果公式包含一个合计量度，它会显示每个行项目中的相同合计数。合计量度可用于创建与网站合计数据相比较的计算量度。For example, [Orders] / [Total Visits] shows the proportion of orders against ALL visits to your site, not just the visits to the specific line item. |
+| 标准 | 这些量度是在标准 [!DNL Analytics] 报表中使用的相同量度。如果公式包含一个标准量度，它会显示与其相对的非计算量度的相同数据。标准量度可用于创建特定于每个单独行项目的计算量度。例如，[订购次数]/[访问次数]是将特定行项目的订购次数除以特定行项目的访问次数。 |
+| 合计 | 使用每个行项目中报告时段的合计。如果公式包含一个合计量度，它会显示每个行项目中的相同合计数。合计量度可用于创建与网站合计数据相比较的计算量度。例如，[订购次数]/[总访问次数]会显示订购次数与网站所有访问次数的比例，而不只是与特定行项目访问次数的比例。 |
 
 ## 列归因模型 {#section_F9690FD1943B403AB28E2FAC54EFE032}
 
 >[!IMPORTANT]
 >
->In July 2018, [!DNL Analytics] introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. 作为此更改的一部分，使用非默认分配模型的计算量度已迁移至改进的新归因模型。
+>2018 年 7 月，[!DNL Analytics] 引入了[归因 IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html)，这改进了计算量度中分配模型的计算方式。作为此更改的一部分，使用非默认分配模型的计算量度已迁移至改进的新归因模型。
 >
 >* 有关支持的非默认归因模型和回顾窗口的完整列表，请参阅[归因 IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html) 文档。
->* “营销渠道最近接触”和“营销渠道首次接触”分配模型将分别迁移到新的“最近接触”和“首次接触”归因模型(注意：不会弃用“营销渠道”-只有计算量度中显示的两个分配模型才会弃用。
->* 此外，我们还将修正线性分配的计算方式。对于使用“线性”分配模型的计算指标的客户，报告可能会稍有变化以反映经过修正的新归因模型。 This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 有关更多信息，请参阅[线性分配工作原理（自 2018 年 7 月 19 日起）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)。
+>* “营销渠道最近联系”和“营销渠道首次联系”分配模型将分别迁移至新的“最近联系”和“首次联系”归因模型（注：“营销渠道”并不会被弃用 - 弃用的只有此处所述出现在计算量度中的这两个分配模型）。
+>* 此外，我们还将修正线性分配的计算方式。对于通过“线性”分配模型使用计算量度的客户，报表可能会稍有变化，以反映修正后的新归因模型。计算量度的这一更改将反映在 Analysis Workspace、[!UICONTROL Reports &amp; Analytics]、报表 API、Report Builder 和 Ad Hoc Analysis 中。有关更多信息，请参阅[线性分配工作原理（自 2018 年 7 月 19 日起）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)。
 >
 
 
 
 ## 线性分配工作原理（自 2018 年 7 月 19 日起） {#section_EDBB2E14A6C248C5A79C0913C02D7CA1}
 
-2018年7月，Adobe更改了计算量度的线性分配报告方式。 This change impacts Analysis Workspace, Ad Hoc Analysis, [!UICONTROL Reports &amp; Analytics], Report Builder, Activity Map, and the Reporting APIs. 此更改将主要影响具有持久性的 eVar 与其他维度。Note that these changes will only apply to calculated metrics and will not impact other reports using linear allocation (such as the Pages report in [!UICONTROL Reports &amp; Analytics]). 其他使用线性分配的报表将继续使用现有的线性分配方式。
+2018 年 7 月，Adobe 更改了计算量度中线性分配的报告方式。这一更改将会影响 Analysis Workspace、Ad Hoc Analysis、[!UICONTROL Reports &amp; Analytics]、Report Builder、Activity Map 和报表 API。此更改将主要影响具有持久性的 eVar 与其他维度。请注意，这些更改只会应用于计算量度，而不会对其他使用线性分配的报表产生影响（例如 [!UICONTROL Reports &amp; Analytics] 中的“页面”报表）。其他使用线性分配的报表将继续使用现有的线性分配方式。
 
 下例说明了使用线性分配的计算量度将在报告时发生何种变化：
 
@@ -118,7 +118,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **线性分配工作原理概要（自 2018 年 7 月 19 日起）**
 
-从 2018 年 7 月 19 日起，我们修改了计算量度中的此种方式。Instead of using the persisted values based on last touch or first touch, [!DNL Analytics] now uses only the values that were passed in (the first row of the top table). 基于此，维度分配设置不会再影响线性分配的计算方式（这意味着 Prop 和 eVar 都将以相同方式得到处理）；结果将反映最初传递的内容，而不是反映那些可能具有持久性的首次或最近联系值。因此，在上述所有三种情况下，均为：A = 10 * (2/4) = $5，B = 10 * (1/4) = $2.50，C = 10 * (1/4) = $2.50。
+从 2018 年 7 月 19 日起，我们修改了计算量度中的此种方式。现在，[!DNL Analytics] 不再基于最近联系或首次联系使用持久值，而是仅使用传入的值（即顶部表中的第一行）。基于此，维度分配设置不会再影响线性分配的计算方式（这意味着 Prop 和 eVar 都将以相同方式得到处理）；结果将反映最初传递的内容，而不是反映那些可能具有持久性的首次或最近联系值。因此，在上述所有三种情况下，均为：A = 10 * (2/4) = $5，B = 10 * (1/4) = $2.50，C = 10 * (1/4) = $2.50。
 
 | 值 | 最近联系 eVar 新分配值 | 首次联系 eVar 新分配值 | Prop 新分配值 |
 |---|---|---|---|
