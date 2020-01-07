@@ -2,7 +2,7 @@
 description: 'null'
 title: 常见问题解答
 uuid: f2eb6784-8355-4be3-af10-f20d1ab0de0e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -28,7 +28,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>如何实施 Analysis Workspace？ </p> </td> 
-   <td colname="col2"> <p>不要求执行任何特殊的实施操作。Analysis Workspace 可向所有使用 Analytics Standard 或 Premium 的公司提供。但是，内容（如报表包和项目组件）的标准权限在此适用，并可用于组织和共享项目。请参阅<a href="/help/analyze/analysis-workspace/frequently-asked-questions-analysis-workspace.md#section_FD3737DE452F4F6CA181F13FF3DC668F"  >管理和访问权限要求</a>。 </p> </td> 
+   <td colname="col2"> <p>不要求执行任何特殊的实施操作。Analysis Workspace 可向所有使用 Analytics Standard 或 Premium 的公司提供。但是，内容（如报表包和项目组件）的标准权限在此适用，并可用于组织和共享项目。请参阅<a href="/help/analyze/analysis-workspace/frequently-asked-questions-analysis-workspace.md#section_FD3737DE452F4F6CA181F13FF3DC668F"  >管理和访问要求</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace 会更改 Adobe Analytics 中预配置的报表吗？ </p> </td> 
@@ -44,7 +44,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace 的功能与 Ad Hoc Analysis 相比有何异同？ </p> </td> 
-   <td colname="col2"> <p>请参阅 <a href="/help/analyze/analysis-workspace/adhocanalysis-vs-analysisworkspace.md"  > Analysis Workspace 与 Ad Hoc Analysis 的比较</a>. </p> </td> 
+   <td colname="col2"> <p>请参阅 <a href="/help/analyze/analysis-workspace/adhocanalysis-vs-analysisworkspace.md"  >Analysis Workspace 与 Ad Hoc Analysis 的比较</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
