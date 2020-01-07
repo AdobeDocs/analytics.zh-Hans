@@ -2,7 +2,7 @@
 description: 'null'
 title: 警报生成器
 uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,18 +12,18 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->Intelligent Alerts are available to Adobe [!DNL Analytics] Prime and Adobe [!DNL Analytics] Ultimate customers only.
+>智能警报仅适用于 Adobe [!DNL Analytics] Prime 和 Adobe [!DNL Analytics] Ultimate 客户。
 
 可通过以下四种方法访问警报生成器：
 
 * 在 Analysis Workspace 中使用以下快捷键：
 
    `ctrl (or cmd) + shift + a`
-* By going to **[!UICONTROL Workspace]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL New Alert]**.
-* By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
-* From within a [!UICONTROL Reports &amp; Analytics] report, by going to **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
+* 转到&#x200B;**[!UICONTROL 工作区]** &gt; **[!UICONTROL 组件]** &gt; **[!UICONTROL 新警报]**。
+* 选择一个或多个自由格式表行项目，单击鼠标右键并选择&#x200B;**[!UICONTROL 从选定范围中创建警报]**。
+* 从 [!UICONTROL Reports &amp; Analytics] 报表中，转到&#x200B;**[!UICONTROL 更多]** &gt; **[!UICONTROL 添加警报]**。
 
-The Alert Builder interface is familiar to those who have built segments or calculated metrics in [!DNL Analytics]:
+警报生成器界面与 [!DNL Analytics] 中具有生成区段或计算量度的界面相似：
 
 ![](assets/alert_builder.png)
 
@@ -35,15 +35,15 @@ The Alert Builder interface is familiar to those who have built segments or calc
 
 指定要何时检查量度：每小时、每天、每周或每月。
 
-> [!NOTE] 对于具有自定义日历的报表包，我们不支持警报生成器中的每月粒度。
+> [!NOTE] 对于包含自定义日历的报表包，警报生成器不支持每月粒度。
 
 **收件人**
 
-指定警报的发送地址。An alert can be sent to an [!DNL Analytics] user, an [!DNL Analytics] group, a raw email address, or to a phone number.
+指定警报的发送地址。可以将警报发送给 [!DNL Analytics] 用户、[!DNL Analytics] 组、原始电子邮件地址或电话号码。
 
 >[!IMPORTANT]
 >
->The phone number must be preceded by a "+" and a [country code](https://countrycode.org/).
+>电话号码前必须加上“+”和[国家/地区代码](https://countrycode.org/)。
 
 **过期日期**
 
@@ -55,7 +55,7 @@ The Alert Builder interface is familiar to those who have built segments or calc
 
 * 将量度拖放到将添加触发器的画布中。
 
-   Note that an **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   请注意，如果警报中有组件（量度/维度/区段）与当前选中的报表包不兼容，则会显示&#x200B;**“组件不兼容”**&#x200B;消息。
 
 * 确定触发警报前量度必须超过的阈值。您可以将此值设置为一个阈值，然后设置为下列条件之一：
 
