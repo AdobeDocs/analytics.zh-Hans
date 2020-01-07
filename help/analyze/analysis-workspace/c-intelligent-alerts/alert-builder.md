@@ -2,7 +2,7 @@
 description: 'null'
 title: 警报生成器
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->智能警报仅适用于Adobe Analytics Prime和Adobe Analytics Ultimate客户。
+>智能警报仅适用于 Adobe Analytics Prime 和 Adobe Analytics Ultimate 客户。
 
 ## 访问警报生成器
 
@@ -21,11 +21,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 在 Analysis Workspace 中使用以下快捷键：
 
    `ctrl (or cmd) + shift + a`
-* By going to **[!UICONTROL Workspace]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL New Alert]**.
-* By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
-* From within a Reports &amp; Analytics report, by going to **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
+* 转到&#x200B;**[!UICONTROL 工作区]** &gt; **[!UICONTROL 组件]** &gt; **[!UICONTROL 新警报]**。
+* 选择自由格式表中的一个或多个行项目，右键单击并选择&#x200B;**[!UICONTROL 从选定范围中创建警报]**。
+* 从 Reports &amp; Analytics 报表中，转到&#x200B;**[!UICONTROL 更多]** &gt; **[!UICONTROL 添加警报]**。
 
-## 生成警报
+## 构建警报
 
 警报生成器界面与 Analytics 中具有生成区段或计算量度的界面相似：
 
@@ -41,7 +41,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 指定要何时检查量度：每小时、每天、每周或每月。
 
-> [!NOTE] 对于具有自定义日历的报表包，我们不支持警报生成器中的每月粒度。
+> [!NOTE] 对于包含自定义日历的报表包，警报生成器不支持每月粒度。
 
 **收件人**
 
@@ -49,9 +49,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->The phone number must be preceded by a "+" and a [country code](https://countrycode.org/).
+>电话号码前必须加上“+”和[国家/地区代码](https://countrycode.org/)。
 
-触发警报后用户将收到的电子邮件类似于：
+触发警报后用户将收到类似于以下内容的电子邮件：
 
 ![](assets/alerts-email.PNG)
 
@@ -65,7 +65,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * 将量度拖放到将添加触发器的画布中。
 
-   An **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   如果警报中有组件（量度/维度/区段）与当前选中的报表包不兼容，则会显示&#x200B;**“组件不兼容”**&#x200B;消息。
 * 确定触发警报前量度必须超过的阈值。您可以将此值设置为一个阈值，然后设置为下列条件之一：
 
    * 异常已存在
