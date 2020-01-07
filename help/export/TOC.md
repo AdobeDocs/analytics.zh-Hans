@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Export Guide
 user-guide-url: /content/help/en/analytics/export/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 # Analytics 导出指南 {#export}
 
-+ [Analytics导出主页](home.md)
++ [Analytics 导出主页](home.md)
 + Analytics 数据馈送 {#analytics-data-feed}
    + [数据馈送概述](analytics-data-feed/data-feed-overview.md)
    + [创建或编辑数据馈送](analytics-data-feed/create-feed.md)
@@ -24,9 +24,9 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
       + [页面事件查找](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [特殊字符](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [迟到的点击量](analytics-data-feed/c-df-contents/late-arriving-hits.md)
-   + [数据源常见问题解答](analytics-data-feed/df-faq.md)
+   + [数据馈送常见问题解答](analytics-data-feed/df-faq.md)
    + [数据馈送最佳实践](analytics-data-feed/data-feeds-best-practices.md)
-   + [数据源疑难解答](analytics-data-feed/feed-troubleshooting.md)
+   + [数据馈送疑难解答](analytics-data-feed/feed-troubleshooting.md)
    + [作业疑难解答](analytics-data-feed/jobs-troubleshooting.md)
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse 概述](data-warehouse/data-warehouse.md)
