@@ -3,7 +3,7 @@ description: 通过动态变量，您可以将一个变量中的值复制到另�
 keywords: Analytics Implementation
 solution: null
 title: 动态变量
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
  变量使用 DOM 对象检索 中所有规则都适用的 URL 的区域。
 
-只有 *`dynamicAccountSelection`* 设置为“True”时，此变量才有效。由于默认值为 [!DNL window.location.host]，因此[!UICONTROL 动态帐户选择]不需要此变量也可使用。有关其他信息，请参阅 [dynamicAccountList](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)。
+只有 *`dynamicAccountSelection`* 设置为“True”时，此变量才有效。由于默认值为 [!DNL window.location.host]，因此[!UICONTROL 动态帐户选择]不需要此变量也可使用。有关其他信息，请参阅 [dynamicAccountList](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)。
 
 在 `dynamicAccountList` 中找到的规则将应用于 `dynamicAccountMatch` 的值。如果 `dynamicAccountMatch` 仅包含 [!DNL window.location.host]（默认值），则 `dynamicAccountList` 中的规则仅适用于该页面的域。
 
@@ -54,7 +54,7 @@ s.dynamicAccountMatch=window.location.host+window.location.pathname
 
 ## 缺陷、问题和提示
 
-* [AppMeasurement for javaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html) 不支持动态帐户选择。
+* [AppMeasurement for javaScript](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html) 不支持动态帐户选择。
 
 * 页面被保存到硬盘时，[!DNL window.location.host] 为空，从而导致这些页面查看被发送到默认报表包（在 `s_account`).
 
