@@ -2,7 +2,7 @@
 description: 有关如何创建量度以显示哪个营销渠道有助于提高订购数量的说明。此说明适用于任何感兴趣的维度或成功事件。
 title: 订购协助量度
 uuid: 7c82227a-7fcc-486f-bef8-164ea84af77c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 有关如何创建量度以显示哪个营销渠道有助于提高订购数量的说明。此说明适用于任何感兴趣的维度或成功事件。
 
-1. 在计算量度生成器中，将度量命名为“辅助订购”。
+1. 在计算量度生成器中，将量度命名为“辅助订购”。
 1. 在“定义”画布中，拖入“订购”量度。然后，选中&#x200B;**[!UICONTROL 使用非默认归因模型]复选框，以通过“设置”齿轮调整归因模型。**
 
    ![](assets/attr-model.png)
