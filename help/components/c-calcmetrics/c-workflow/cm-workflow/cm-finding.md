@@ -1,8 +1,8 @@
 ---
-description: 介绍查找指标排序和筛选的两种主要方法。
+description: 描述用于查找量度的两种主要方式：排序和过滤。
 title: 查找量度
 uuid: 60c8e02c-736d-4d20-8799-69f6ca250033
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -27,7 +27,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 过滤 - 高级选择 {#section_33818CC048C04F098703AC229693F8CA}
 
-When you open a report and click the Metrics icon, then click **[!UICONTROL Manage]**. 现在，单击“过滤器”图标。您可以通过多种方式进行过滤。
+当您打开报表时，单击“量度”图标，然后单击&#x200B;**[!UICONTROL 管理]**。现在，单击“过滤器”图标。您可以通过多种方式进行过滤。
 
 ![](assets/cm_advanced_sel.png)
 
