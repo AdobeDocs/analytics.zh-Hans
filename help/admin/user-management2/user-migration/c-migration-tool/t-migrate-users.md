@@ -2,7 +2,7 @@
 description: 将用户从旧版 Analytics 用户管理系统迁移到 Admin Console。
 title: 为 Adobe ID 迁移 Analytics 用户帐户
 uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -16,11 +16,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 将用户从旧版 Analytics 用户管理系统迁移到 Admin Console。
 
-> [!NOTE] 如果未通过Experience cloud登录的管理员尝试访问用户ID迁移工具，则会将其重定向到Experience cloud登录页面。
+> [!NOTE] 如果未通过 Experience Cloud 登录的管理员尝试访问用户 ID 迁移工具，他们将被重定向到 Experience Cloud 登录页面。
 
 **迁移 Analytics 用户**
 
-1. Navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User ID Migration]**.
+1. 导航至 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 用户 ID 迁移]**。
 
    ![](assets/migration-progress.png)
 
@@ -42,7 +42,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>旧版登录已禁用 </p> </td> 
-   <td colname="col2"> <p>使用公司 ID 的旧版登录被禁用。用户将立即使用其 Adobe ID 或 Enterprise ID 访问 Experience Cloud。当所有用户都达到此阶段时，即表明您完成了迁移。 </p> <p>在迁移中，旧版登录名被禁用。 用户将被重定 <span class="filepath"> 向到experiencecloud.adobe.com</span> ，并且必须使用Adobe ID或Enterprise ID登录。 </p> <p>See <a href="/help/admin/user-management2/user-migration/c-migration-tool/t-disable-legacy-login.md"> Disable Legacy Logins</a> for more information. </p> </td> 
+   <td colname="col2"> <p>使用公司 ID 的旧版登录被禁用。用户将立即使用其 Adobe ID 或 Enterprise ID 访问 Experience Cloud。当所有用户都达到此阶段时，即表明您完成了迁移。 </p> <p>在迁移中，旧版登录将被禁用。用户将被重定向到 <span class="filepath">experiencecloud.adobe.com</span>，并且必须使用 Adobe ID 或 Enterprise ID 登录。 </p> <p>有关更多信息，请参阅<a href="/help/admin/user-management2/user-migration/c-migration-tool/t-disable-legacy-login.md">禁用旧版登录</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,24 +61,24 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p>域 </p> </td> 
-   <td colname="col2"> <p>域特定于当前 Analytics 用户群的电子邮件 ID。域只能由一个组织的声明，并且只有系统管理员才能声明域。有关更多信息，请参阅<a href="https://helpx.adobe.com/enterprise/help/request-access-to-claimed-domain.html">请求对声明域的访问权限</a>。 </p> </td> 
+   <td colname="col2"> <p>域特定于当前 Analytics 用户群的电子邮件 ID。域只能由一个组织的声明，并且只有系统管理员才能声明域。有关更多信息，请参阅<a href="https://helpx.adobe.com/cn/enterprise/help/request-access-to-claimed-domain.html">请求对声明域的访问权限</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>声明的域 </p> </td> 
-   <td colname="col2"> <p>如果要按 Enterprise ID 或 Federated ID 迁移用户，您必须是系统管理员，并通过 Admin Console 声明可用域，然后才能迁移用户。在<a href="https://helpx.adobe.com/enterprise/help/identity.html">这里</a>了解更多。 </p> <p>如果不想为 Enterprise ID 或 Federated ID 声明任何域，请跳过此步骤，并继续按 Adobe ID 迁移用户。在<a href="https://helpx.adobe.com/enterprise/help/identity.html">这里</a>了解有关 ID 类型的更多信息。 </p> </td> 
+   <td colname="col2"> <p>如果要按 Enterprise ID 或 Federated ID 迁移用户，您必须是系统管理员，并通过 Admin Console 声明可用域，然后才能迁移用户。在<a href="https://helpx.adobe.com/cn/enterprise/help/identity.html">这里</a>了解更多。 </p> <p>如果不想为 Enterprise ID 或 Federated ID 声明任何域，请跳过此步骤，并继续按 Adobe ID 迁移用户。在<a href="https://helpx.adobe.com/cn/enterprise/help/identity.html">这里</a>了解有关 ID 类型的更多信息。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-1. Locate the domain containing the user IDs you want to migrate, then, under **[!UICONTROL Requiring Migration]**, click **[!UICONTROL Select Users]**.
-1. On the [!DNL Users] page, select the users you want to migrate, then click **[!UICONTROL Migrate]**.
+1. 找到包含待迁移用户 ID 的域，然后在&#x200B;**[!UICONTROL 要求迁移]**&#x200B;下单击&#x200B;**[!UICONTROL 选择用户]**。
+1. 在 [!DNL Users] 页面上，选择要迁移的用户，然后单击&#x200B;**[!UICONTROL 迁移]**。
 
-   When you click **[!UICONTROL Migrate]**, users receive an invitation (Migration Initiated) and must accept it. 此操作会将用户 ID 移至“迁移已完成”。然后，您可以关闭其对 [!DNL my.omniture.com] 的旧版访问权限。
+   在单击&#x200B;**[!UICONTROL 迁移]**&#x200B;后，用户将收到一封邀请函（迁移已启动）并且必须接受它。此操作会将用户 ID 移至“迁移已完成”。然后，您可以关闭其对 [!DNL my.omniture.com] 的旧版访问权限。
 
    ![](assets/user-info.png)
 
-1. 指定要迁移用户的 ID 类型（[Adobe ID 或 Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html)）。
+1. 指定要迁移用户的 ID 类型（[Adobe ID 或 Enterprise ID](https://helpx.adobe.com/cn/enterprise/help/identity.html)）。
 
-   After migrating users, the status under the column Migration Status changes from *`Not Initiated`* to *`Migrated`*.
+   在迁移用户后，“迁移状态”列下方的状态将从 *`Not Initiated`* 更改为 *`Migrated`*。
 
-   If *`Failed`* displays, hover over the icon for a description about why the migration failed.
+   如果显示 *`Failed`*，请将光标悬停在图标上方，以查看有关迁移失败原因的描述。
