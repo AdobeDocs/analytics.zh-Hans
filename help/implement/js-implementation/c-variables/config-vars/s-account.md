@@ -3,7 +3,7 @@ description: 通过动态变量，您可以将一个变量中的值复制到另�
 keywords: Analytics Implementation
 solution: null
 title: 动态变量
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
@@ -30,7 +30,7 @@ source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 `s_account` 变量通常在 JavaScript 文件 (s_code.js) 内声明。您可以在 HTML 页面上声明 `s_account` 变量，当 `s_account` 的值在页面之间可能会发生更改时，这是一种常见的做法。由于 `s_account` 变量具有全局范围，因此应紧接在包括 Adobe 的 JavaScript 文件之前声明该变量。如果 `s_account` 在加载 JavaScript 文件时没有值，则不会向 [!DNL Analytics] 发送数据。
 
-Adobe 的 [!DNL DigitalPulse Debugger] 会在 URL 的路径中显示 `s_account` 值，即在单词“Image”的正下方，紧接 /b/ss/ 之后。在某些情况下，`s_account` 的值也会显示在该域中，112.2o7.net 之前。路径中的值是唯一确定目标报表包的值。下面的粗体文本显示接收发送数据的报表包，它也会在调试程序中显示。请参阅 [DigitalPulse Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html).
+Adobe 的 [!DNL DigitalPulse Debugger] 会在 URL 的路径中显示 `s_account` 值，即在单词“Image”的正下方，紧接 /b/ss/ 之后。在某些情况下，`s_account` 的值也会显示在该域中，112.2o7.net 之前。路径中的值是唯一确定目标报表包的值。下面的粗体文本显示接收发送数据的报表包，它也会在调试程序中显示。请参阅 [DigitalPulse Debugger](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/testing-and-validation/debugger.html)。
 
 ```js
 https://mycompany.112.207.net/b/ss/ 
