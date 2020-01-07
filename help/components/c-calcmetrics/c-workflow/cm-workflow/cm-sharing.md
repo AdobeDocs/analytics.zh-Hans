@@ -2,7 +2,7 @@
 description: 根据您的权限，您可以与整个组织、群组或个人用户共享量度。
 title: 共享计算量度
 uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -31,11 +31,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/cm_share.png)
 
-   如果您是管理员，则可以选择&#x200B;**[!UICONTROL 所有人]**&#x200B;或组织中的&#x200B;**[!UICONTROL 群组]和（向下滚动到）**&#x200B;用户&#x200B;**。**&#x200B;如果您不是管理员，则只能看到个人用户。可使用&#x200B;**[!UICONTROL 搜索]字段搜索群组或用户。**
+   如果您是管理员，则可以选择&#x200B;**[!UICONTROL 所有人]**&#x200B;或组织中的&#x200B;**[!UICONTROL 群组]和（向下滚动到）**&#x200B;用户&#x200B;**。**&#x200B;如果您不是管理员，则只能看到个人用户。可使用&#x200B;**[!UICONTROL 搜索]**&#x200B;字段搜索群组或用户。
 
 1. 单击&#x200B;**[!UICONTROL 共享]**。
 
    “共享”图标显示在量度旁边：![](assets/share_icon.png)
 
-1. You can filter on metrics shared with you by going to **[!UICONTROL Filters]** &gt; **[!UICONTROL Other Filters]** &gt; **[!UICONTROL Shared with Me]**.
+1. 您可以过滤与您共享的量度，方法是转到&#x200B;**[!UICONTROL 过滤器]** &gt; **[!UICONTROL 其他过滤器]** &gt; **[!UICONTROL 与我共享]**。
 
