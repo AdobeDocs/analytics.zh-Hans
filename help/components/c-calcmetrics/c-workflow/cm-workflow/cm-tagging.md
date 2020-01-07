@@ -2,7 +2,7 @@
 description: 在计算量度管理器中，您可以通过标记区段来组织区段。
 title: 标记计算量度
 uuid: f90ddbed-adc4-407d-b4b0-469eda61c704
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -20,10 +20,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * **工作流程**&#x200B;标记：待批准；策划（为特定的业务部门）
 
 1. 在计算量度管理器中，选中要进行标记的量度旁边的复选框。此时会出现管理工具栏：
-1. 单击&#x200B;**[!UICONTROL 标记]并执行以下操作之一**
+1. 单击&#x200B;**[!UICONTROL 标记]**&#x200B;并执行以下操作之一
 
    * 从现有标记中进行选择，或者
-   * add a new tag name in the Add Tags/Search dialog box and press **[!UICONTROL Enter]**.
+   * 在“添加标记”/“搜索”对话框中添加新的标记名称，然后按 **[!UICONTROL Enter]**。
 
       ![](assets/cm_add_tags.png)
 
@@ -31,4 +31,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 标记现在应会显示在“标记”列中。（单击右上方的齿轮图标可管理您的列。）
 
-You can also filter on tags by going to **[!UICONTROL Show Filters]** &gt; **[!UICONTROL Tags]**.
+您还可以转到&#x200B;**[!UICONTROL 显示过滤器]** &gt; **[!UICONTROL 标记]**，对标记进行过滤。
