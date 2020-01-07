@@ -5,7 +5,7 @@ subtopic: Release notes
 title: Windows Phone 8
 topic: Developer and implementation
 uuid: 7378969a-d219-42bf-9750-141acc9e4b7d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 > [!NOTE]要找到当前库版本，请打开调试记录。
 
-Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
+可以在 [!DNL Developer Connection] 上[下载](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications)移动库。
 
 > [!NOTE][!DNL Windows] Phone 8 SDK 已由 [Windows 8.1 通用应用程序商店](../appmeasurement-release-notes/c-release-notes-winu.md) SDK 替代。未来不会再对此 SDK 进行进一步的研发。
 
