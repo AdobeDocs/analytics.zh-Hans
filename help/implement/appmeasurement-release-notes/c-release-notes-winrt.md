@@ -5,7 +5,7 @@ subtopic: Release notes
 title: WinRT for Windows 8
 topic: Developer and implementation
 uuid: cec19d63-114c-4ef6-a55e-db6aad4e948b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 >
 >要找到当前库版本，请打开调试记录。
 
-Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
+可以在 [!DNL Developer Connection] 上[下载](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications)移动库。
 
 >[!NOTE]
 >
@@ -82,6 +82,6 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 
 ## 版本 3.0.1 {#section_EA2E5F8550C348BDB948A9236BD35619}
 
-**2012 年 10 月 日**
+**2012 年 10 月**
 
 第一版。
