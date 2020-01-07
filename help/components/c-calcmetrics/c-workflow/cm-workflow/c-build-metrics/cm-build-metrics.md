@@ -2,7 +2,7 @@
 description: 计算量度生成器提供了一个画布，用于拖放维度、量度、区段和函数，以基于容器层次结构逻辑、规则和运算符创建自定义量度。通过此集成式开发工具，您可以生成并保存简单的计算量度或复杂的高级计算量度。
 title: 生成量度
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,12 +14,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 可通过以下几种方式访问计算量度生成器：
 
-* In Analysis Workspace, open a project and click  **[!UICONTROL + New]** &gt; **[!UICONTROL Create Metric]** .
-* In [!DNL Analytics], go to **[!UICONTROL Components]** &gt; **[!UICONTROL Calculated Metrics]**.
+* 在 Analysis Workspace 中，打开一个项目，然后单击 **[!UICONTROL + 新建]** &gt; **[!UICONTROL 创建量度]**。
+* 在 [!DNL Analytics] 中，转到&#x200B;**[!UICONTROL 组件]** &gt; **[!UICONTROL 计算量度]**。
 
-* Click **[!UICONTROL + Add]** at the top of the [Calculated Metric Manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), or
+* 单击[计算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)顶部的 **[!UICONTROL + 添加]**，或者
 
-* Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]**, open any report and click the Metrics icon  ![](assets/metrics_icon.png) to bring up the Metrics rail, then click **[!UICONTROL Add]**.
+* 转到 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 报表]**，打开任意报表并单击“量度”图标 ![](assets/metrics_icon.png) 以调出“量度”边栏，然后单击&#x200B;**[!UICONTROL 添加]**。
 
 ![](assets/cm_builder_ui.png)
 
@@ -85,7 +85,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 产品兼容性 </span> </td> 
-   <td colname="col3"> <p>“产品兼容性”显示量度是与“<a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html"  >当前数据</a>”、“完全处理数据”兼容，还是只与“营销渠道报表”（首次联系分配）兼容。 <p>注意：“当前数据”并不支持所有量度。包含区段或函数的量度与“当前数据”不兼容。<a href="/help/components/c-calcmetrics/cm-compatibility.md"  > 更多... </a> </p> </p> </td> 
+   <td colname="col3"> <p>“产品兼容性”显示量度是与“<a href="https://marketing.adobe.com/resources/help/zh_CN/reference/data_latency.html"  >当前数据</a>”、“完全处理数据”兼容，还是只与“营销渠道报表”（首次联系分配）兼容。 <p>注意：“当前数据”并不支持所有量度。包含区段或函数的量度与“当前数据”不兼容。<a href="/help/components/c-calcmetrics/cm-compatibility.md"  > 更多... </a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 添加 </span> </td> 
@@ -98,11 +98,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col2"> 齿轮图标（<span class="uicontrol">量度类型</span>、<span class="uicontrol">归因</span>） </td> 
-   <td colname="col3"> <p>Selecting the gear icon next to a metric lets you specify the <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > metric type and attribution models </a>. </p> </td> 
+   <td colname="col3"> <p>选择量度旁边的齿轮图标允许您指定<a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  >量度类型和归因模型</a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> + 新的 </span> </td> 
-   <td colname="col3"> <p>允许您创建新组件，例如新区段（可使您转到<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html"  >区段生成器</a>）。 </p> </td> 
+   <td colname="col2"> <span class="uicontrol"> + 新建 </span> </td> 
+   <td colname="col3"> <p>允许您创建新组件，例如新区段（可使您转到<a href="https://marketing.adobe.com/resources/help/zh_CN/analytics/segment/seg_build_ui.html"  >区段生成器</a>）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>搜索组件 </p> </td> 
@@ -110,7 +110,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col2"> <p>维度列表 </p> </td> 
-   <td colname="col3"> <p>而不是离开“计算量度生成器”以构建简单的区段（在“区段生成器”中），例如“Page = Homepage”，您可以拖入页面，并直接从“计算量度生成器”中选择“主页”。 </p> <p>这可以极大地简化用于创建分段计算量度的工作流程。 </p> </td> 
+   <td colname="col3"> <p>要在区段生成器中构建简单区段（例如“页面 = 主页”），您无需离开计算量度生成器，而是可以在“页面”中拖动并从计算量度生成器中直接选择“主页”。 </p> <p>这可以极大地简化用于创建分段计算量度的工作流程。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>量度列表 </p> </td> 
@@ -128,11 +128,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col2"> <p>区段列表 </p> </td> 
-   <td colname="col3"> <p>（仅限高级计算量度）如果您是管理员，此列表会显示在您的登录公司中创建的所有区段。如果您不是管理员，此列表会显示您拥有的区段以及与您共享的区段。<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_rights.html"  > 更多... </a> </p> </td> 
+   <td colname="col3"> <p>（仅限高级计算量度）如果您是管理员，此列表会显示在您的登录公司中创建的所有区段。如果您不是管理员，此列表会显示您拥有的区段以及与您共享的区段。<a href="https://marketing.adobe.com/resources/help/zh_CN/analytics/segment/seg_rights.html"  > 更多... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>函数列表 </p> </td> 
-   <td colname="col3"> <p>（仅限高级计算量度）函数将分为两个列表： <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > Basic </a> (used most often) and <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  > Advanced </a>. </p> </td> 
+   <td colname="col3"> <p>（仅限高级计算量度）函数将分为两个列表：<a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  >基本</a>（最常用）和<a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  >高级</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>报表包选择器 </p> </td> 
