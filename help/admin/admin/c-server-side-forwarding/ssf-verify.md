@@ -3,7 +3,7 @@ description: 要验证是否已正确启用服务器端转发，您将需要检�
 solution: Audience Manager
 title: 如何验证服务器端转发的实施情况
 uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!CAUTION]
 >
->If the response contains the key value pair `"status":"SUCCESS"` or a 2 x 2 image, then server-side forwarding * is not* configured correctly. 请确保正确部署了标识服务，您已部署了App Measurement模块，相应的报表包已映射到正确的IMS组织，并且已在Analytics管理控制台中启用了服务器端转发。
+>如果响应包含键值对 `"status":"SUCCESS"` 或一个 2 x 2 图像，则表示服务器端转发的配置 *不* 正确。请确保已正确部署标识服务，已部署 App Measurement 模块，已将适用的报表包映射到正确的 IMS 组织，并且已在 Analytics Admin Console 中启用服务器端转发。
 
 >[!MORELIKETHIS]
 >
