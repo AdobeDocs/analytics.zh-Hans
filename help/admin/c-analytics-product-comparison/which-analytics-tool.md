@@ -2,7 +2,7 @@
 description: 本帮助页面包含每个 Adobe Analytics 工具的推荐使用案例。应该按照工具的列出顺序来考虑使用哪个工具。如果某个工具无法满足需求，请考虑切换到下一个工具。
 title: 我应该使用哪种 Adobe Analytics 工具？
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## Adobe Analytics 报表用户界面 {#section_8265460EBB47405AB19A3B2B0729C8A4}
 
-**[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)** 应该是您的首选用户界面，可满足您所有的报告与分析需求。Adobe 会继续投入人力和物力坚持每月发布此产品的更新。如果Analysis Workspace中有一个任务无法完成，请考虑以下其他界面。**
+**[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)** 应该是您的首选用户界面，可满足您所有的报告与分析需求。Adobe 会继续投入人力和物力坚持每月发布此产品的更新。如果有任务无法在 Analysis Workspace 中完成，您可以考虑使用下面列出的其他界面。**
 
 **[Reports &amp; Analytics](/help/analyze/reports-analytics/overview/report-overview.md)** 的使用说明：
 
@@ -31,7 +31,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 用于访问独特的视频数据（包括并行查看者、视频时段和视频查看者退出率）的可视化图表。
 * 用于在计划报表中使用“发布列表”功能。
 
-**[Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)** 的使用说明：
+**[Mobile Services UI](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html)** 的使用说明：
 
 * 适用于需要只查看移动设备应用程序数据的情况。
 * 用于管理移动设备应用程序 SDK 的实施。
@@ -44,7 +44,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * 适用于确实需要使用表格生成器功能的情况。例如，a) Analysis Workspace 无法支持您需要构建的内容，b) 您希望能够控制何时重新构建表格，c) 您希望表格记住要应用到所有行的不同划分级别 d) 您希望对量度行手动排序
 * 用于导出 50,000 行数据
-* 适用于需要以选项卡方式组织项目工作的情况.
+* 适用于需要以选项卡方式组织项目工作的情况
 * 用于使用网站分析报表（3D 路径报表）。
 
 **[Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)** 的使用说明：
@@ -61,10 +61,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 **[分类](/help/components/c-classifications2/c-classifications.md)**&#x200B;的使用说明：
 
 * 适用于要将元数据与收集值（eVar、prop、营销渠道）关联的情况
-* 选项：
+* 选项:
 
    * 规则生成器：可在为变量（例如分隔值）收集可预测格式的值时使用。通过这种方法，您只需设置一次规则，然后就“万事无忧”了。
-   * 浏览器导入程序：当您没有可预测值，或者当您有有限的值列表需要一次性更新时使用。 此方法要求您持续监控分类的新值。
+   * 浏览器导入器：可在没有可预测的值或需要一次性更新有限的值列表时使用。此方法要求您持续监控分类的新值。
 
 **[数据源](/help/import/c-data-sources/datasrc-home.md)**&#x200B;的使用说明：
 
@@ -98,20 +98,20 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 **[Report Builder](/help/analyze/report-builder/home.md)** 的使用说明：
 
 * 适用于工作区的自定义布局选项有限的情况（在 Excel 的限制范围内，Report Builder 可执行任何操作）。
-* 用于将用户输入的内容或离线数据源（展示次数、成本）松散绑定到 Adobe 数据。用于将数据关联起来的更为永久的解决方案是数据源（请参阅“将数据导入 Analytics”）.
+* 用于将用户输入的内容或离线数据源（展示次数、成本）松散绑定到 Adobe 数据。用于将数据关联起来的更为永久的解决方案是数据源（请参阅“将数据导入 Analytics”）
 * 用于将不同维度报表中的数据合并起来（例如，将促销活动展示次数报表和促销活动点击对话报表合并起来）。
 * 用于进行跨报表包查看。
 * 适用于需要通过计划实现自动化的情况（XLSX、XLSM、CSV、PDF、TXT、XML、MHT）。
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** 的使用说明：
 
-* 要访问在UI中隐藏的变量- IP地址、Experience Cloud ID、Analytics访客ID、页面URL)
+* 用于访问隐藏在 UI 中的变量，包括 IP 地址、Experience Cloud ID、Analytics 访客 ID、页面 URL
 * 用于访问比 UI 更细粒度的数据（非规范化的表视图）
 * 用于下载适用于数据透视表输入格式的数据
 * 适用于客户端要将 Adobe 数据输入第三方数据可视化工具的情况（稍微汇总，不是点击级别）
-* 在Adobe Analytics中遇到“流量低”时访问所有唯一维度值
+* 用于在 Adobe Analytics 中遇到“低流量”的情况下访问所有独特维度值
 
-**[应使用Analytics Data Feed](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** :
+应使用 **[Analytics 数据馈送](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)**：
 
 * 用于利用 Adobe 可提供的最细粒度的数据馈送（访客 ID、点击量）
 * 适用于客户端要在 Adobe 可发送的最细粒度级别发送客户端数据库中存储的 Adobe 数据的情况。
@@ -125,9 +125,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 自定义解决方案 {#section_4A212F26A15947599DFB0399A0440CB6}
 
-应在以下情况使用工程技术服务：:
+应在以下情况使用工程技术服务：
 
-* 其他Adobe工具无法满足您的需求。
+* 其他 Adobe 工具无法满足您的需求。
 * 希望获得自定义体验。
 * 希望获得完全自动化的解决方案。
 * 希望使用许多设备。
