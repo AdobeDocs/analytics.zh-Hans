@@ -3,7 +3,7 @@ description: 通过动态变量，您可以将一个变量中的值复制到另�
 keywords: Analytics Implementation
 solution: null
 title: 动态变量
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 名称“*`fpCookieDomainPeriods`*”是指句点（“.”）的数量。“www”开头的域中句点 (.) 的数量。例如，`www.mysite.com` 包含两个句点，而 `www.mysite.co.jp` 包含三个句点。描述此变量的另一种方式是网站主域的节数（`mysite.com` 为两节，而 `mysite.co.jp` 为三节）。
 
-[!DNL AppMeasurement] for JavaScript 文件使用变量 *`fpCookieDomainPeriods`* 确定用来设置除[!UICONTROL 访客 ID] (s_vi) Cookie 以外的第一方 Cookie 的域。There are at least two cookies affected by this variable, including `s_sq` and `s_cc` (used for visitor click map and cookie checking respectively). [!UICONTROL getValOnce] 等插件使用的 Cookie 也会受到影响。
+[!DNL AppMeasurement] for JavaScript 文件使用变量 *`fpCookieDomainPeriods`* 确定用来设置除[!UICONTROL 访客 ID] (s_vi) Cookie 以外的第一方 Cookie 的域。至少有两个 Cookie 会受此变量影响，包括 `s_sq` 和 `s_cc`（分别用于访客点击图和 Cookie 检查）。[!UICONTROL getValOnce] 等插件使用的 Cookie 也会受到影响。
 
 | 最大大小 | 调试程序参数 | 填充报表 | 默认值 |
 |---|---|---|---|
