@@ -1,14 +1,14 @@
 ---
 description: 'null'
-title: 概要数量和概要更改
+title: 概要数字和概要更改
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 概要数量和概要更改
+# 概要数字和概要更改
 
 ## 概要数字可视化
 
@@ -19,7 +19,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/summary-number.png)
 
-## 摘要更改可视化
+## 概要更改可视化
 
 * 如果未选中单元格，此可视化会比较列中的前两个单元格值。
 * 如果选中了一个单元格，此可视化会显示 0，因为它将单元格值与其自身进行比较。
@@ -29,10 +29,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 如果选中了列，会将第一个值与其自身进行比较，结果会显示变化为 0。
 * 可通过以下方式控制概要更改的绿色和红色：
 
-   * [自定义事件极性](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html)。
-   * 计算量度的[将上升趋势显示为](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_build_metrics.html)选项。
+   * [自定义事件极性](https://marketing.adobe.com/resources/help/zh_CN/reference/success_event.html)。
+   * 计算量度的[将上升趋势显示为](https://marketing.adobe.com/resources/help/zh_CN/analytics/calcmetrics/cm_build_metrics.html)选项。
 
-## Summary Change settings {#section_2581AC0107634FB4990AB8347E5897AA}
+## 概要更改设置 {#section_2581AC0107634FB4990AB8347E5897AA}
 
 单击可视化旁边的齿轮图标可配置概要设置：
 
