@@ -3,7 +3,7 @@ description: 通过动态变量，您可以将一个变量中的值复制到另�
 keywords: Analytics Implementation
 solution: null
 title: 动态变量
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -45,6 +45,6 @@ s.dynamicAccountSelection=false
 
 ## 缺陷、问题和提示
 
-* [AppMeasurement for JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html) 不支持动态帐户选择。
+* [AppMeasurement for JavaScript](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html) 不支持动态帐户选择。
 
 * 通常使用 [!DNL DigitalPulse Debugger] 来确定将由哪个报表包从各页面接收数据。
