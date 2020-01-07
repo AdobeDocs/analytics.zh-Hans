@@ -1,7 +1,7 @@
 ---
 title: 将 Adobe Analytics 部署到开发环境
 description: 了解如何使用 Adobe Experience Platform Launch 将 Adobe Analytics 部署到开发环境。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Experience cloud 调试器是一个 Chrome 插件，可显示页面上存在的所有 Experience Cloud 标记。
 
-1. Open [Chrome Web Browser](https://www.google.com/chrome/) and go to [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) on the Chrome Web Store to install the extension.
+1. 打开 [Chrome Web 浏览器](https://www.google.com/chrome/)，然后转到 Chrome 网上应用店中的 [Adobe Experience Cloud 调试器](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)以安装该扩展。
 2. 导航到已实施 Launch 的开发网站。
 3. 单击 Chrome 右上角的 Adobe Experience Cloud 调试器图标
 4. 如果一切都已正确实施，则应会在 Adobe Analytics、Adobe Experience Platform Launch 和 Adobe Experience Cloud 访客 ID 服务中看到以下内容：
