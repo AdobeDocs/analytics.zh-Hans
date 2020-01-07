@@ -3,7 +3,7 @@ description: 通过动态变量，您可以将一个变量中的值复制到另�
 keywords: Analytics Implementation
 solution: null
 title: 动态变量
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 点击退出或下载链接时
 * 点击由访客 ClickMap 跟踪的任意页面元素时
 
-The *`doPlugins`*&#x200B;函数用于运行自定义例程，以收集或更改数据。如果您使用“s”以外的对象名称，请确保正确重命名 *`s_doPlugins`*。例如，如果对象名为 s_mc，则 *`s_doPlugins`* 函数应称为 s_mc_doPlugins。
+*`doPlugins`*&#x200B;函数用于运行自定义例程，以收集或更改数据。如果您使用“s”以外的对象名称，请确保正确重命名 *`s_doPlugins`*。例如，如果对象名为 s_mc，则 *`s_doPlugins`* 函数应称为 s_mc_doPlugins。
 
 ## 语法和可能值
 
