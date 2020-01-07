@@ -2,7 +2,7 @@
 description: Analysis Workspace 中“撤消”选项的更改和增强。
 title: “撤消”和“重做”设置
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,22 +10,22 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # “撤消”和“重做”设置
 
-**[!UICONTROL 工作区]** &gt; **[!UICONTROL 项目]** &gt;撤 **[!UICONTROL 消／重做]**
+**[!UICONTROL 工作区]** &gt; **[!UICONTROL 项目]** &gt; **[!UICONTROL 撤消/重做]**
 
-* **[!UICONTROL 重做]**&#x200B;选项（用于重做撤消的操作）位于&#x200B;**编辑[!UICONTROL 菜单中。]**
+* **[!UICONTROL 重做]**&#x200B;选项（用于重做撤消的操作）位于&#x200B;**[!UICONTROL 编辑]**&#x200B;菜单中。
 
-* 单击&#x200B;**[!UICONTROL 保存]**&#x200B;不会清除&#x200B;**撤消]堆叠。[!UICONTROL **
+* 单击&#x200B;**[!UICONTROL 保存]**&#x200B;不会清除&#x200B;**[!UICONTROL 撤消]**&#x200B;堆叠。
 
-* **[!UICONTROL 新建项目]**&#x200B;或&#x200B;**[!UICONTROL 打开现有项目]**&#x200B;会清除&#x200B;**撤消]堆叠[!UICONTROL **
+* **[!UICONTROL 新建项目]**&#x200B;或&#x200B;**[!UICONTROL 打开现有项目]**&#x200B;会清除&#x200B;**[!UICONTROL 撤消]**&#x200B;堆叠
 
 * 您可以对更改报表包的操作执行撤消/恢复。
 * 项目名称旁边会显示撤消/恢复消息，表示正在进行撤消/恢复。
-* 您可以使用以下 [热键](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md):
+* 您可以使用以下[热键](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)：
 
    * CTRL(CMD)+Z 表示撤消
    * CTRL(CMD)+SHIFT+Z 表示重做
 
-## What you can undo and redo {#section_1E94152CC206470D84FC11710311DA12}
+## 可以撤消或重做的事项 {#section_1E94152CC206470D84FC11710311DA12}
 
 * 管理分析
 * 全部清除
@@ -58,7 +58,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 编辑描述
 * 复制可视化
 
-## What you cannot undo and redo {#section_65BB313E048F4744B692926362873230}
+## 无法撤消或重做的事项 {#section_65BB313E048F4744B692926362873230}
 
 * 项目信息与设置更改（添加标签、描述更改、计数重复实例设置）
 * 设置为登录页面
