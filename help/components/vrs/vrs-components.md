@@ -2,7 +2,7 @@
 description: 可对虚拟报表包进行管理以在 Analysis Workspace 中包含和排除组件。
 title: 虚拟报表包组件管理
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,22 +12,22 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 可对虚拟报表包进行管理以在 Analysis Workspace 中包含和排除组件。
 
-> [!NOTE]无论是管理员还是非管理员，都可以在策划的 Workspace 项目和策划的虚拟报表包 (VRS) 中，查看发生更改的组件。Previously, anyone could see non-curated components by clicking **[!UICONTROL Show all Components]**. [策划体验经过更新后](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate-projects-vrs.html)，在查看组件方面提供了更加精细化的控制。
+> [!NOTE] 无论是管理员还是非管理员，都可以在策划的 Workspace 项目和策划的虚拟报表包 (VRS) 中，查看发生更改的组件。以前，单击&#x200B;**[!UICONTROL 显示所有组件]**&#x200B;后，大家只能看到非策划的组件。[策划体验经过更新后](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/curate-projects-vrs.html)，在查看组件方面提供了更加精细化的控制。
 
 要启用组件管理，请执行以下操作：
 
-1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]** &gt; **[!UICONTROL Create new virtual report suite]**.
-1. 定义&#x200B;**[!UICONTROL 设置]**&#x200B;后，单击&#x200B;**组件]选项卡。[!UICONTROL **
+1. 转到 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 组件]** &gt; **[!UICONTROL 虚拟报表包]** &gt; **[!UICONTROL 新建虚拟报表包]**。
+1. 定义&#x200B;**[!UICONTROL 设置]**&#x200B;后，单击&#x200B;**[!UICONTROL 组件]**&#x200B;选项卡。
 
-1. Select the checkbox **[!UICONTROL Enable Customization of Virtual Report Suite Components]**:
+1. 选中&#x200B;**[!UICONTROL 启用虚拟报表包组件自定]**&#x200B;复选框：
 
    ![](assets/vrs-enable.png)
 
    >[!NOTE]
    >
-   >If component customization is enabled, the virtual report suite is accessible **only in Analysis Workspace** and is not accessible in the following:
+   >如果启用了组件自定，则虚拟报表包&#x200B;**只能在 Analysis Workspace 中**&#x200B;访问，而不能在以下位置访问：
 
-   * [!UICONTROL Reports &amp; Analytics]
+   * [!UICONTROL Reports and Analytics]
    * [!UICONTROL Ad Hoc Analysis]
    * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
@@ -40,9 +40,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    * 日期范围
    >[!NOTE]
    >
-   >There is no need to *share* curated components (segments, calculated metrics, date ranges). 在管理虚拟报表包的上述组件时，则即使没有共享，它们也会在 Analysis Workspace 中始终保持可见。
+   >不需要&#x200B;*共享*&#x200B;已经过策划的组件（区段、计算量度、日期范围）。在管理虚拟报表包的上述组件时，则即使没有共享，它们也会在 Analysis Workspace 中始终保持可见。
 
-1. Additionally, you can filter or search the components and add the entire filtered selection to the included column by clicking **[!UICONTROL Add All]**.
+1. 此外，您还可以过滤或搜索组件，并单击&#x200B;**[!UICONTROL 添加全部]**&#x200B;以将整个过滤的选定内容添加到“已包括”列中。
 
    ![](assets/vrs-add-all.png)
 
@@ -64,4 +64,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 工作区行为 {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-有关 Analysis Workspace 中策化的更多信息，请参阅[策划和共享项目](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html)。
+有关 Analysis Workspace 中策化的更多信息，请参阅[策划和共享项目](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/curate.html)。
