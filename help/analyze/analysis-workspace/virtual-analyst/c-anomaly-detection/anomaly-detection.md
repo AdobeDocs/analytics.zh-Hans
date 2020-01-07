@@ -2,7 +2,7 @@
 description: 您可以在 Analysis Workspace 中根据上下文查看和分析数据异常。
 title: 异常检测概述
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,13 +10,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 异常检测概述
 
-您可以在Analysis Workspace中按上下文查看和分析数据异常。
+您可以在 Analysis Workspace 中根据上下文查看和分析数据异常。
 
-[YouTube上的异常检测](https://www.youtube.com/watch?v=krXyQCjXoeU&index=63&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:53)
+[YouTube 上的异常检测](https://www.youtube.com/watch?v=krXyQCjXoeU&amp;index=63&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:53)
 
-[YouTube的贡献分析](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20)
+[YouTube 上的贡献分析](https://www.youtube.com/watch?v=MbpeJIADtGk&amp;index=64&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20)
 
->[!IMPORTANT] 异常检测已从“报告和分析”功能集中删除，现在仅通过Analysis Workspace提供。 请注意，Adobe Analytics select和Adobe Analytics Foundation客户只能访问Workspace中的“每日粒度”异常检测。 有关更多信息，请参阅[异常检测和贡献分析授权](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A)。
+>[!IMPORTANT] 异常检测已从 Reports &amp; Analytics 功能集中删除，现在只能通过 Analysis Workspace 使用。请注意，Adobe Analytics Select 和 Adobe Analytics Foundation 客户只能访问工作区中的“每日粒度”异常检测。有关更多信息，请参阅[异常检测和贡献分析授权](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A)。
 
 异常检测提供了一种统计方法来确定给定的量度相对于以前的数据发生了什么变化。
 
@@ -31,7 +31,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 视频缓冲事件剧增
 * 低视频比特率剧增
 
-异常检测和[贡献分析](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html)是 Analysis Workspace 中的核心工作流程。您可以针对任何每日异常运行“贡献分析”，并将结果嵌入到您的 Analysis Workspace 项目中。
+异常检测和[贡献分析](https://marketing.adobe.com/resources/help/zh_CN/analytics/contribution/ca_main.html)是 Analysis Workspace 中的核心工作流程。您可以针对任何每日异常运行“贡献分析”，并将结果嵌入到您的 Analysis Workspace 项目中。
 
 Analysis Workspace 的异常检测算法包括
 
