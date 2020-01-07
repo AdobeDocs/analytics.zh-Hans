@@ -3,7 +3,7 @@ description: 通过动态变量，您可以将一个变量中的值复制到另�
 keywords: Analytics Implementation
 solution: null
 title: 动态变量
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 如果支持以多种货币销售，则建议填充 HTML 页面中的&#x200B;*`currencyCode`*&#x200B;变量，而不是 JavaScript 文件中的变量。如果要使用自己的兑换率而不是 Adobe 使用的兑换率，请将 *`currencyCode`* 设置为等于报表包的基本货币。然后在将收入发送到 [!DNL Analytics] 之前兑换所有收入。
 
-货币兑换适用于收入和任何货币事件。这些事件用于计算与收入类似的值的总和，例如税款和运输费用。收入和货币事件在产品字符串中指定。有关产品的详细信息，请参阅 [events](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-events.html).
+货币兑换适用于收入和任何货币事件。这些事件用于计算与收入类似的值的总和，例如税款和运输费用。收入和货币事件在产品字符串中指定。有关产品的详细信息，请参阅 [events](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/analytics-basics/ref-events.html).
 
 ## 语法和可能值
 
@@ -52,4 +52,4 @@ Adobe [!DNL Customer Care] 可以更改报表包的默认货币设置。更改�
 * 货币事件不应用于非货币用途。如需计算非货币的任意值或动态值，请使用[!UICONTROL 数值]事件类型。
 * 在&#x200B;*`currencyCode`*&#x200B;变量为空时，不会发生兑换。
 
-有关详细信息，请参阅 [货币代码](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/currency.html)。
+有关详细信息，请参阅[货币代码](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/currency.html)。
