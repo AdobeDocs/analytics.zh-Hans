@@ -2,38 +2,38 @@
 title: Adobe Analytics 文档更新
 description: Adobe Analytics 技术文档更新
 short-title: Analytics documentation updates
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c863d5f09d978fdac4be364ad71f3c0224becdca
 
 ---
 
 
-# Adobe Analytics的技术文档更新
+# Adobe Analytics 技术文档更新
 
 自 2019 年 1 月以来的 Adobe Analytics 文档集内容更新。
 
-* 有关新增功能、管理员声明和错误修复的完整列表，请参阅最新的 [Experience cloud发行说明](https://marketing.adobe.com/resources/help/en_US/whatsnew/)。
+* 有关新增功能、管理员声明和错误修复的完整列表，请参阅最新的 [Experience Cloud 发行说明](https://marketing.adobe.com/resources/help/zh_CN/whatsnew/)。
 * 有关 Analysis Workspace 新增功能的更多详细信息，请参阅[此主题](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)。
-* 有关Adobe Analytics for Audio和Video的信息，请参阅在Analytics [中测量音频和视频](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)。
+* 有关 Adobe Analytics for Audio and Video 的信息，请参阅[在 Analytics 中测量音频和视频](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-overview.html)。
 
 ## 更新详细信息
 
-| 日期 | 描述 |
+| 页面 | 描述 |
 |---|---|
-| 2019 年 11 月 29 日 | 对数据馈送文 [档进行大修](/help/export/analytics-data-feed/data-feed-overview.md) |
-| 2019 年 11 月 25 日 | 关于强制 [IP登录限制寿终正寝的新主题](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
-| 2019 年 11 月 25 日 | 有关内部(会 [话刷新)营销渠道的新主题](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
-| 2019 年 11 月 21 日 | 客户旅程分析 [新文档集](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) |
-| 2019 年 9 月 28 日 | 有关Javascript实现 [的配置变量的新文章](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html) |
-| 2019 年 9 月 12 日 | 旅程IQ的 [新文档：跨设备分析](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) |
-| 2019 年 8 月 28 日 | 有关用于Analytics的 [渐进式Web应用程序(PWA)的新文章](https://docs.adobe.com/content/help/en/analytics/analyze/pwa/pwa.html) |
+| 2019 年 11 月 29 日 | 全面修订了[数据馈送文档](/help/export/analytics-data-feed/data-feed-overview.md) |
+| 2019 年 11 月 25 日 | 新增了[“强制 IP 登录限制”终止使用](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/company-settings/login-restrictions-eol.html)主题 |
+| 2019 年 11 月 25 日 | 新增了[内部（会话刷新）营销渠道](https://docs.adobe.com/content/help/zh-Hans/analytics/components/marketing-channels/session-refresh.html)主题 |
+| 2019 年 11 月 21 日 | 新增了[客户历程分析](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)文档集 |
+| 2019 年 9 月 28 日 | 新增了有关[用于 Javascript 实施的配置变量](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html)的文章 |
+| 2019 年 9 月 12 日 | 新增了[历程 IQ：跨设备分析](https://docs.adobe.com/content/help/zh-Hans/analytics/components/cda/cda-home.html)文档 |
+| 2019 年 8 月 28 日 | 新增了有关[用于 Analytics 的渐进式 Web 应用程序 (PWA)](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/pwa/pwa.html) 的文章 |
 | 2019 年 8 月 8 日 | 有关[计算量度合计](/help/components/c-calcmetrics/cm-totals.md)的新文章 |
 | 2019 年 8 月 8 日 | 关于[已启用时间戳的会话数据](/help/admin/admin/timestamp-optional.md)的说明 |
 | 2019 年 8 月 5 日 | [关键概念](/help/analyze/reports-analytics/key-concepts.md)更新 |
 | 2019 年 8 月 2 日 | [Analytics 词汇表](/help/technotes/terms.md)的主要更新 |
 | 2019 年 7 月 22 日 | 将“Magento：营销和商务”模板添加到 [Analysis Workspace 模板](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)文档。 |
 | 2019 年 7 月 18 日 | 更新了[同类群组表格设置](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。 |
-| 2019 年 6 月 10 日 | 中国区域 [数据采集新论](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/rdc-china.html) |
+| 2019 年 6 月 10 日 | 新增了有关[中国地区数据收集 (RDC)](https://docs.adobe.com/content/help/zh-Hans/analytics/technotes/rdc/rdc-china.html) 的文章 |
 | 2019 年 6 月 4 日 | 编写了题为[从第三方分析平台转换到 Adobe Analytics](/help/technotes/ga-to-aa/home.md) 的新指南。 |
 | 2019 年 5 月 30 日 | 全面修订了[数据馈送列参考](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)。 |
 | 2019 年 4 月 11 日 | 更新了[优化 Workspace 性能](/help/analyze/analysis-workspace/optimizing-performance.md)。 |
