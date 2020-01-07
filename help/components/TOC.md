@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Components Guide
 user-guide-url: /content/help/en/analytics/components/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
 
 ---
@@ -27,7 +27,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [将区段发布到 Experience Cloud](c-segmentation/c-segmentation-workflow/seg-publish.md)
       + [选择和应用区段](c-segmentation/c-segmentation-workflow/t-seg-apply.md)
       + [过滤区段](c-segmentation/c-segmentation-workflow/t-seg-filter.md)
-      + [将区段标记为收藏夹](c-segmentation/c-segmentation-workflow/t-seg-favorite.md)
+      + [将区段标记为收藏](c-segmentation/c-segmentation-workflow/t-seg-favorite.md)
       + [删除区段](c-segmentation/c-segmentation-workflow/seg-delete.md)
       + [管理区段](c-segmentation/c-segmentation-workflow/seg-manage.md)
    + 区段引用 {#segment-reference}
@@ -343,7 +343,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
    + [营销渠道报表中使用的量度](c-marketing-channels/c-overview-metrics.md)
    + [营销渠道报表中使用的计算量度](c-marketing-channels/c-channel-calc-metrics.md)
    + [成本和预算](c-marketing-channels/c-overview-budget.md)
-   + [添加脱机数据](c-marketing-channels/t-offline-data.md)
+   + [添加离线数据](c-marketing-channels/t-offline-data.md)
    + [报表访问](c-marketing-channels/c-channel-report-access.md)
    + [配置用户群组访问权限](c-marketing-channels/t-user-groups.md)
    + [授予有限管理权限](c-marketing-channels/t-admin-rights.md)
