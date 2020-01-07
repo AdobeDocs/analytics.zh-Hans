@@ -2,7 +2,7 @@
 description: 'null'
 title: 水平条形图和堆叠的水平条形图
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 水平条形图和堆叠的水平条形图
 
-## 横条 {#section_73A4D6F6C8864045A97B0B32B5FFFEDB}
+## 水平条形图 {#section_73A4D6F6C8864045A97B0B32B5FFFEDB}
 
 此可视化显示了一些水平条，这些水平条表示一个或多个量度中的各种值。
 
@@ -18,11 +18,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 堆叠的水平条形图 {#section_50C08E9E20A94024A6553BC352ADB597}
 
-This visualization is like the [!UICONTROL Horizontal Bar Chart], but the series bars appear stacked.
+此可视化与[!UICONTROL 水平条形图]类似，只是系列条以堆叠方式显示。
 
 ![](assets/horizontal-bar-stacked.png)
 
-The [!UICONTROL Horizontal Bar Stacked] visualization setting on bar stacked visualizations turns the chart into a "100% stacked" visualization:
+堆叠的条形可视化中的[!UICONTROL 堆叠的水平条形图]设置将图表变为“100% 堆叠”可视化：
 
 ![](assets/horizstacked100.png)
 
