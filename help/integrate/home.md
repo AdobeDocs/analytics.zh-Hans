@@ -1,7 +1,7 @@
 ---
 title: Analytics 集成帮助
 description: 'null'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ![横幅](../../assets/doc_banner_integrate.png)
 
-本指南侧重于集成多个Experience cloud解决方案。 如果要查找Analytics数据连接器，请参阅导入 [用户指南中](/help/import/data-connectors/getting-started-data-connectors.md) “数据连接器”页。
+本指南重点介绍如何集成多个 Experience Cloud 解决方案。如果要查找 Analytics Data Connectors，请参阅导入用户指南中的 [Data Connectors](/help/import/data-connectors/getting-started-data-connectors.md) 页面。
 
 配置与其他 Adobe Experience Cloud 解决方案（例如，Audience Manager、Advertising Cloud 或 Target）的集成。这些集成包括：
 
@@ -32,7 +32,7 @@ source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ## 重要 Analytics 资源
 
-* [联系客户关怀团队](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [分析论坛](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analytics资源](https://forums.adobe.com/message/10660755)
+* [联系客户关怀团队](https://helpx.adobe.com/cn/contact/enterprise-support.ec.html)
+* [Analytics 论坛](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics 资源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
