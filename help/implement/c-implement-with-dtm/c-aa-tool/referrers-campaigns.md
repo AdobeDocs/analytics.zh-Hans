@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;referrers;campaigns;referrer override;campaign 
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 反向链接和促销活动
 uuid: 56580206-a382-4993-9bba-a488da65cf89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
 
 ---
@@ -30,7 +30,7 @@ source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
   </tr> 
   <tr> 
    <td colname="col1"> 促销活动 </td> 
-   <td colname="col2"> <p>一种变量，可识别将访客吸引到您网站的市场营销活动。促销活动的值通常取自查询字符串参数。 </p> <p>See [<a href="/help/implement/js-implementation/page-variables/campaign.md">Page Variables</a>. </p> </td> 
+   <td colname="col2"> <p>一种变量，可识别将访客吸引到您网站的市场营销活动。促销活动的值通常取自查询字符串参数。 </p> <p>请参阅<a href="/help/implement/js-implementation/page-variables/campaign.md">页面变量</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
