@@ -2,7 +2,7 @@
 description: 'null'
 title: 地图
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,15 +14,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Analysis Workspace 中的地图可视化
 
-* 允许您构建任何度量（包括计算度量）的可视映射。
+* 允许您构建任何量度（包括计算量度）的可视地图。
 * 用于识别和比较不同地理区域间的量度数据。
 * 可以支持两种数据源：出自移动设备使用情况的经纬度或 Web 使用情况的地理维度。
-* 支持PDF导出。
+* 支持 PDF 导出。
 * 利用 WebGL 显示图形。如果您的图形驱动程序不支持 WebGL 渲染，则可能需要更新您的驱动程序。
 
-## Build a map visualization {#section_61BBFA3A7BFD48DA8D305A69D9416299}
+## 构建地图可视化 {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
-1. 从可视化列表中，将&#x200B;**[!UICONTROL 地图]拖到“自由格式”面板中：**
+1. 从可视化列表中，将&#x200B;**[!UICONTROL 地图]**&#x200B;拖到“自由格式”面板中：
 
    ![](assets/map-viz1.png)
 
@@ -42,7 +42,7 @@ Analysis Workspace 中的地图可视化
  </tbody> 
 </table>
 
-1. Click **[!UICONTROL Build]**.
+1. 单击&#x200B;**[!UICONTROL 生成]**。
 
    您看到的第一个视图将是一个具有气泡图的世界视图，它类似于下图。
 
@@ -67,9 +67,9 @@ Analysis Workspace 中的地图可视化
 
    ![](assets/location-dimensions.png)
 
-## Map visualization settings {#section_5F89C620A6AA42BC8E0955478B3A427E}
+## 地图可视化设置 {#section_5F89C620A6AA42BC8E0955478B3A427E}
 
-映射存在2组设置：
+地图存在 2 组设置：
 
 单击右上方的&#x200B;**扳手图标**，可重新显示用于更改量度和数据源的初始对话框：
 
@@ -84,4 +84,4 @@ Analysis Workspace 中的地图可视化
 | 样式：颜色主题 | 显示热图和气泡的颜色方案。您可以选择珊瑚色、红色、绿色或蓝色。默认为珊瑚色。 |
 | 样式：地图样式 | 您可以选择基本、街道、明亮、浅色、深色和卫星。 |
 | 集群半径 | 将像素数量在指定范围之内的数据点组合在一起。默认值为 50。 |
-| 自定义最大值 | 允许您更改映射的最大值的阈值——调整此值可调整气泡／热图值（颜色和大小）相对于自定最大值集的比例。 |
+| 自定义最大值 | 允许您更改地图最大值的阈值 - 调整该值即会调整气泡/热图值（颜色和大小）相对于自定义最大值设置的缩放比例。 |
