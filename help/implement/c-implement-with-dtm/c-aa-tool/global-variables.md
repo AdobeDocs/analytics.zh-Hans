@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;global variables;server variable;evar;props;dyn
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 全局变量
 uuid: d759320a-96ee-4073-b5fd-5257b7033003
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
 
 ---
@@ -25,4 +25,4 @@ source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
 | 服务器 | 该预定义变量填充 Adobe Analytics 中的“服务器”维度。请参阅[页面变量](/help/implement/js-implementation/page-variables/page-variables.md) |
 | eVar | [eVar 变量](/help/implement/js-implementation/page-variables/evarn.md)用于构建自定义转化报表。 |
 | Prop | [Prop 变量](/help/implement/js-implementation/page-variables/propn.md)用于生成自定义流量报表。 |
-| 动态变量前缀 | 值开头的特殊前缀。默认前缀为 "D="。请参阅[动态变量](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/dynvars-overview.html) |
+| 动态变量前缀 | 值开头的特殊前缀。默认前缀为 "D="。请参阅[动态变量](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/javascript-implementation/variables-analytics-reporting/dynvars-overview.html) |
