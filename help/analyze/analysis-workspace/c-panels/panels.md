@@ -2,7 +2,7 @@
 description: 'null'
 title: 面板概述
 uuid: 480700e6-332e-44f2-a486-e3d1852cddbc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -35,15 +35,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **要创建并使用下拉过滤器，请执行以下操作：**
 
-1. 从左边栏中选择任意项目，**并在按住   键的同时**，将这些项目放入面板拖放区域。
+1. 从左边栏中选择任意项目，**并在按住键的同时**，将这些项目放入面板拖放区域。
 
    ![](assets/create_dropdown.png)
 
-   此操作可将组件转换为下拉列表，而不是区段。（还可以通过不按住   键来添加区段。）
+   此操作可将组件转换为下拉列表，而不是区段。（还可以通过不按住键来添加区段。）
 
    ![](assets/dropdown.png)
 
-1. 从下拉列表中选择一个选项，以更改下面面板中的数据。(You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.)
+1. 从下拉列表中选择一个选项，以更改下面面板中的数据。（您还可以通过选择&#x200B;**[!UICONTROL 无过滤器]**，不对任何面板数据进行过滤。）
 1. 例如，如果您还希望按营销渠道对数据进行切片，则可以添加另外一个名为“营销渠道”的下拉列表：
 
    ![](assets/mc_dropdown.png)
