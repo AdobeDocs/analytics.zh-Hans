@@ -2,7 +2,7 @@
 description: 您希望能够搜索的每个 ID 均分配有一个命名空间；命名空间是一个自定义字符串，用于在所有报表包之间使用的任何变量中识别该 ID。
 title: 命名空间
 uuid: cab61844-3209-4980-b14c-6859de777606
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
 
 ---
@@ -64,7 +64,7 @@ source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
 
 此外，也可以转而使用 `"namespaceId": 4` 作为 `"namespace": "ECID"` 的代替或补充，您可能会看到其他一些 Adobe 产品使用该表单。
 
-> [!NOTE]Experience Cloud ID (ECID) 以前称为 Marketing Cloud ID (MCID)，在一些现有的文档中依然会采用这种旧称。
+> [!NOTE] Experience Cloud ID (ECID) 以前称为 Marketing Cloud ID (MCID)，在一些现有的文档中依然会采用这种旧称。
 >
 >这些 ID 是 Analytics 支持的唯一 ID，使用“type”值而不是“analytics”值。
 
