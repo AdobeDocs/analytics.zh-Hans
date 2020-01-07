@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;data element;create new data element;name;type;
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 创建数据元素
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -26,14 +26,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
     </thead> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>名称</strong></td> 
-      <td class="chdesc stentry"> <p>营销人员可以识别的数据元素易记名称。例如， 
-        <code>
+      <td class="chdesc stentry"> <p>营销人员可以识别的数据元素易记名称。例如：<code>
           Product ID
-        </code>. </p> <p> <p>注意：规则生成器引用的是名称，而不是 ID。如果更改数据元素的名称，则必须在使用该数据元素的每个规则中更改其引用。 </p> </p> </td> 
+        </code>。 </p> <p> <p>注意：规则生成器引用的是名称，而不是 ID。如果更改数据元素的名称，则必须在使用该数据元素的每个规则中更改其引用。 </p> </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>类型</strong></td> 
-      <td class="chdesc stentry"> <p> 指定从何处提取数据，如 JS 对象、CSS 选择器、Cookie、URL 参数或自定义脚本。 </p> <p>根据您选择的类型，显示的选项会有所不同。有关更多信息和示例，请参阅“动态标签管理产品文档”中的<a href="https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html">数据元素类型</a>。 </p> </td> 
+      <td class="chdesc stentry"> <p> 指定从何处提取数据，如 JS 对象、CSS 选择器、Cookie、URL 参数或自定义脚本。 </p> <p>根据您选择的类型，显示的选项会有所不同。有关更多信息和示例，请参阅“动态标签管理产品文档”中的<a href="https://marketing.adobe.com/resources/help/zh_CN/dtm/data_elements.html">数据元素类型</a>。 </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>默认值</strong></td> 
@@ -54,5 +53,5 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
     </tr> 
    </table>
 
-   有关如何使用数据元素的更多信息，请参阅“Adobe 标签管理产品文档”中的[数据元素](https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html)。
+   有关如何使用数据元素的更多信息，请参阅“Adobe 标签管理产品文档”中的[数据元素](https://marketing.adobe.com/resources/help/zh_CN/dtm/data_elements.html)。
 1. 单击&#x200B;**[!UICONTROL 保存数据元素]**。
