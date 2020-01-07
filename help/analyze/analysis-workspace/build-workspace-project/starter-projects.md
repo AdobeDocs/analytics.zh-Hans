@@ -2,7 +2,7 @@
 description: 'null'
 title: 模板
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,11 +12,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 模板 {#topic_40932F09E18A467983AFBB29908E1CB8}
 
-您可以选择从以下项创建项目：:
+您可以选择从以下项创建项目：
 
-* 空白项目（默认）。有关说明，请参 [阅创建Analysis Workspace项目](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)。
+* 空白项目（默认）。有关说明，请参阅[创建一个 Analysis Workspace 项目](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)。
 * 标准模板。这些模板由 Adobe 创建并且即装即用。
-* 自定义模板。这些模板可由具有管理员权限的用户或非管理员（前提是他们获得了“另存为模板”权限）创建。(See [Manage product permissions](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html) in the Admin Console documentation for more information.
+* 自定义模板。这些模板可由具有管理员权限的用户或非管理员（前提是他们获得了“另存为模板”权限）创建。（有关更多信息，请参阅在 Admin Console 中[管理产品权限](https://helpx.adobe.com/cn/enterprise/using/manage-permissions-and-roles.html)文档。）
 
 ![](assets/start_modal.png)
 
@@ -28,7 +28,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 具有管理员权限的用户可以将他们创建的任何项目转换为自定义模板。以下是具体操作方法：
 
 1. 打开该项目。
-1. Go to **[!UICONTROL Project]** &gt; **[!UICONTROL Save As Template]**.
+1. 转到&#x200B;**[!UICONTROL 项目]** &gt; **[!UICONTROL 另存为模板]**。
 
    ![](assets/save_project_template.png)
 
@@ -36,7 +36,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    >[!NOTE]
    >
-   >默认情况下，项目模板对组织中的每个人都可见。 您可以通过应用标记来组织这些模板。(Go to **[!UICONTROL Project]** &gt; **[!UICONTROL Project Info &amp; Settings]** to edit tags and descriptions.)
+   >默认情况下，项目模板对贵组织的每个人均可见。您可以通过应用标记来组织这些模板。（转到&#x200B;**[!UICONTROL 项目]** &gt; **[!UICONTROL 项目信息和设置]**&#x200B;以编辑标记和描述。）
 
 ### 可对自定义模板执行的操作
 
@@ -81,63 +81,63 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## Standard templates {#concept_4FE900FEEC894E849CB6C6A0E0ADA524}
+## 标准模板 {#concept_4FE900FEEC894E849CB6C6A0E0ADA524}
 
-首次打开工作区时，模板位于左边栏中。 Analysis Workspace 模板涵盖常见用例。它们按所属的垂直领域分组，并填充了不同的维度、区段、量度和可视化，具体取决于您选择的报表包。
+首次打开工作区时，模板位于左边栏中。Analysis Workspace 模板涵盖常见用例。它们按所属的垂直领域分组，并填充了不同的维度、区段、量度和可视化，具体取决于您选择的报表包。
 
 您可以按原样使用这些预填充模板，或修改它们以符合您的需要（例如，添加或替换量度或可视化），然后起一个新名称保存它们。
 
-[YouTube上Analysis Workspace中的标准模板](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
+[YouTube 上 Analysis Workspace 中的标准模板](https://www.youtube.com/watch?v=aRgYwPneVXg&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=6) (2:46)
 
-以下是可用的模板以及每个模板有助于回答的问题：
+以下是可用的模板和每个模板帮助回答的问题：
 
 ### 广告
 
 >[!IMPORTANT]
 >
->只有在您的报表包启用了Advertising cloud时，广告模板才可用。
+>广告模板仅在您的报表包针对 Advertising Cloud 启用的情况下才可用。
 
-* **搜索引擎**:此模板可划分广告趋势、广告平台、关键字、帐户、营销活动等。
+* **搜索引擎**：此模板可划分广告趋势、广告平台、关键字、帐户、营销活动等。
 
 ### 商务
 
-* **马根托：营销和商务**:此模板按营销渠道归因划分您的电子商务转化，并按搜索关键字、登录页面、地理位置等提供分析。 有关视频概述，请参阅&gt;[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+* **Magento：营销与商务**：此模板按营销渠道归因划分您的电子商务转化，并按搜索关键字、登录页面、地理位置等提供分析。有关视频概述，请参阅 &gt; [!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
 
 ### 媒体
 
-* **音频消耗**:哪些内容被消耗得最多，哪些内容吸引用户？
-* **最近——频率——忠诚度**:我的忠实读者是谁？
+* **音频使用情况**：哪个内容的使用次数最多并且吸引用户？
+* **回访间隔 - 频度 - 忠诚度**：谁是我的忠实读者？
 
 ### 移动设备
 
 >[!IMPORTANT]
 >
->移动模板仅在您的报告套件启用了移动时可用。
+>移动设备模板仅在您的报表包针对移动设备启用的情况下才可用。
 
-* **** 消息传递：专注于应用程序内和推送消息的性能。
-* **** 位置：包括展示位置数据的地图。
-* **** 关键指标：掌握应用程序的关键指标。
-* **** 应用程序使用：应用程序有多少个应用程序用户、启动项和首次启动项，平均会话长度是多少？
-* **** 收购：了解移动客户获取链接的效果。
-* **** 性能：应用程序的性能如何，用户在哪里遇到问题？
-* **** 保留：谁是我的忠实用户，他们做什么？
-* **** 旅程：我的应用程序的主要使用模式是什么？
+* **消息：**&#x200B;重点关注应用内消息和消息推送的性能。
+* **位置：**&#x200B;包括可展示位置数据的“地图”
+* **关键量度：**&#x200B;掌握应用程序关键量度。
+* **应用程序使用情况：**&#x200B;应用程序拥有多少用户、启动次数和首次启动次数，以及平均会话时长是多少？
+* **客户获取：**&#x200B;了解移动设备客户获取链接的表现如何。
+* **性能：**&#x200B;应用程序性能如何、用户在哪些情况下遇到问题？
+* **维系率：**&#x200B;谁是我的忠实用户，他们会怎么做？
+* **历程：**&#x200B;我的应用程序最突出的使用模式是什么？
 
 ### 零售
 
-* **** 营销活动效果：哪些营销活动最能带来收入？
-* **** 产品：哪些产品表现最佳？
+* **促销活动效果：**&#x200B;哪些促销活动获得的收入最多？
+* **产品：**&#x200B;哪些产品的表现最佳？
 
 ### Web
 
-* **** 收购：我网站的主要流量驱动因素是什么？
-* **** 内容消费：我网站上的热门位置是什么？
-* **** 保留：哪些类型的用户可能是我网站的忠实用户？
-* **** 技术：访问我的站点的人员使用哪些技术？
+* **客户获取：**&#x200B;我的网站最主要的流量推动因素是什么？
+* **内容使用情况：**&#x200B;用户在我的网站中最常访问哪些区域？
+* **维系率：**&#x200B;哪类用户可能成为我的网站的忠实用户？
+* **技术：**&#x200B;用户使用哪些技术访问我的网站？
 
 ### 人员
 
-> [!NOTE] “人员”模板及其关联的“人员”量度仅可作为 [Adobe Experience Cloud Device Co-op的一部分使用](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html)。
+> [!NOTE]“人员”模板及其关联的“人员”量度只能在 [Adobe Experience Cloud 设备协作](https://marketing.adobe.com/resources/help/zh_CN/mcdc/mcdc-people.html)中使用。
 
 基于“人员”量度，为删除了重复数据的独特访客量度版本。通过“人员”量度可测量客户使用多个设备与您的品牌进行交互的频率。该模板允许您
 
