@@ -1,22 +1,22 @@
 ---
 description: 添加或管理“服务器调用使用情况”警报。设置警报后，该警报将应用于账单公司旗下的所有登录公司所具有的全部报表包。
-title: 服务器调用使用情况警报
+title: “服务器调用使用情况”警报
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 服务器调用使用情况警报
+# “服务器调用使用情况”警报
 
 设置警报后，该警报将应用于账单公司旗下的所有登录公司所具有的全部报表包。
 
 ## 概述
 
-A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the existing [Alert Management](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) user interface.
+现有的&#x200B;**[!UICONTROL 警报管理]**&#x200B;用户界面中将新增一个警报类别，即[服务器调用使用情况警报](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/intellligent_alerts.html)。
 
-It is pre-populated with **1 default alert** that appears within any login company that has access to the Server Call Usage feature. 如果满足以下条件之一，此警报将触发发送给所有登录公司管理员的通知：
+该界面中已预填充了 **1 个默认警报**，该默认警报将显示在有权访问“服务器调用使用情况”功能的任何登录公司中。如果满足了以下任一条件，此警报将触发一条发送给所有登录公司管理员的通知消息：
 
 * 您有权使用的“任何”服务器调用类型所对应的使用量“大于或等于”100%；或者
 * 您有权使用的“任何”服务器调用类型所对应的使用量“大于或等于”90%；或者
@@ -26,14 +26,14 @@ It is pre-populated with **1 default alert** that appears within any login compa
 
 您可以通过以下两种方式访问“服务器调用使用情况”警报：
 
-* 单击“当前使用情况”选项卡或“报表包使用情况”选项卡右上角的&#x200B;**[!UICONTROL 管理警报]；或**
-* Navigate to **[!UICONTROL Components]** &gt; **[!UICONTROL Alerts]** in Adobe Analytics.
+* 单击“当前使用情况”选项卡或“报表包使用情况”选项卡右上角的&#x200B;**[!UICONTROL 管理警报]**；或
+* 在 Adobe Analytics 中导航到&#x200B;**[!UICONTROL 组件]** &gt; **[!UICONTROL 警报]**。
 
 ## 创建“服务器调用使用情况”警报 {#section_2A2882C6D48D47C1944D52FB7C766BEC}
 
 要创建更多警报，请
 
-1. Click **[!UICONTROL + Add]** and select **[!UICONTROL Server Call Usage Alert]**.
+1. 单击 **[!UICONTROL + 添加]**，然后选择&#x200B;**[!UICONTROL “服务器调用使用情况”警报]**。
 
    ![](assets/server_call_alert.png)
 
@@ -41,16 +41,18 @@ It is pre-populated with **1 default alert** that appears within any login compa
 
    ![](assets/sc_alert.png)
 
-   * **标题**:指定描述性名称。 如果没有名称，您将无法保存警报。
-   * **时间粒度**:指示检查警报的频率。 *我们当前支持的粒度为“每周”。*&#x200B;这表示将每周查看一次警报，并回顾当前使用时段的数据。
-   * **收件人**:指定在警报触发指定阈值时应收到电子邮件的单位中的任何人。
-   * **到期日期**:默认情况下，过期日期为警报创建日期的一年后。
-   * **发送警报时间**:
+   * **标题**：指定描述性名称。如果没有名称，您将无法保存警报。
+   * **时间粒度**：指查看警报的频率。*我们当前支持的粒度为“每周”。*&#x200B;这表示将每周查看一次警报，并回顾当前使用时段的数据。
+   * **收件人**：指定当警报触发指定的阈值时，组织中应接收电子邮件的人员。
+   * **过期日期**：默认情况下，警报会在创建日期一年以后过期。
+   * **发送警报时间**：
 
-      * 任何这些度量触发器将服务器调用的类型添加为度量，并通过选择修饰符和阈值来指定警报阈值：
+      * 以下任何一个量度触发器
+添加服务器调用类型作为量度，然后选择限定条件以及阈值，从而指定警报触发条件：
          * 大于或等于
          * 小于或等于
-      * 使用指定使用期所用的阈值和条件（高于或等于或低于或等于）。
+      * 且
+为所用的使用时段指定阈值和条件（“大于或等于”或者“小于或等于”）。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
