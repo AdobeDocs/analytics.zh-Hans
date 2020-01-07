@@ -49,7 +49,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
     </ul> <p>请注意：如果未设置数据保留期限，Adobe Analytics 将无法协助您处理数据隐私 API 请求（即，处理从最终用户那里收到的访问或删除请求）。请联系您的客户成功经理以便设置数据保留期限。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>群组 </p> </td> 
+   <td colname="col1"> <p>群组  </p> </td> 
    <td colname="col2"> <p>当前尚未实施群组功能。 </p> </td> 
   </tr> 
   <tr> 
