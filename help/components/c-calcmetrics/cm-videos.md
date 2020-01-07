@@ -2,7 +2,7 @@
 description: 这些简短视频（不超过 8 分钟）概述了如何优化计算量度工具的使用。
 title: 操作方法视频
 uuid: b6920b20-4c38-4017-bb10-cb187d39fd77
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
