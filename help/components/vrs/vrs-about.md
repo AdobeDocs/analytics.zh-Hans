@@ -2,7 +2,7 @@
 description: 虚拟报表包可对您的 Adobe Analytics 数据进行分段，以便您能够控制每个区段的访问权限。
 title: 虚拟报表包概述
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -59,7 +59,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 可单独添加至权限群组 | 是 | 是 |
 | 可使用“管理员”功能修改此报表包的各个设置（管理员 &gt; 报表包） | 否（从父项继承设置） | 是 |
 
-## 组合虚拟报告套件和多套件标记 {#section_026FA3FCD7314DD18220E73EC5702AFF}
+## 将虚拟报表包与多包标记结合使用 {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
 在某些情况下，同时使用虚拟报表包和多包标记会带来一些好处。
 
