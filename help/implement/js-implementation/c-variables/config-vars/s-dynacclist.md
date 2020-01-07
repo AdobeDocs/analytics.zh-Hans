@@ -3,7 +3,7 @@ description: 通过动态变量，您可以将一个变量中的值复制到另�
 keywords: Analytics Implementation
 solution: null
 title: 动态变量
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -11,9 +11,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # s.dynamicAccountList
 
-> [!NOTE] 当前 `s.dynamicAccountList` AppMeasurement库中不 [支持该变量](../../c-appmeasurement-js/appmeasure-mjs.md)。 它仅用于传统AppMeasurement，如H代码。
+> [!NOTE] [当前的 AppMeasurement 库](../../c-appmeasurement-js/appmeasure-mjs.md)不支持 `s.dynamicAccountList` 变量。该变量只能在旧版 AppMeasurement（如 H 代码）中使用。
 
-该 `s.dynamicAccountList` 变量用于帮助动态确定要将数据发送到的报表包。 它与和变量一 `dynamicAccountSelection` 起使 `dynamicAccountMatch` 用。 The rules in `dynamicAccountList` are applied if `dynamicAccountSelection` is set to `true`, and they apply to the section of the URL specified in `dynamicAccountMatch`.
+`s.dynamicAccountList` 变量用于帮助动态确定要将数据发送到的报表包。它将与 `dynamicAccountSelection` 和 `dynamicAccountMatch` 变量结合使用。如果将 `dynamicAccountSelection` 设置为 `true`，则将应用 `dynamicAccountList` 中的规则，并且这些规则将应用于 `dynamicAccountMatch` 中指定的 URL 部分。
 
 ## 语法和可能值
 
@@ -21,17 +21,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 s.dynamicAccountList="rs1[,rs2]=domain1.com[,domain2.com/path][;...]";
 ```
 
-有效输入是以分号分隔的name=value对（规则）列表。 每个列表都包含以下项目：
+有效输入为一组分号分隔的规则列表，每条规则表示为一个名称=值对。每个列表都包含以下项目：
 
-* 一个或多个报表包ID（以逗号分隔）
-* 等号
-* 一个或多个URL过滤器（以逗号分隔）
+* 一个或多个报表包 ID（以逗号分隔）
+* 一个等号
+* 一个或多个 URL 过滤器（以逗号分隔）
 
 该字符串中只能使用标准的 ASCII 字符（不允许有空格）。
 
 ## 示例
 
-对于以下所有示例，页面URL `https://example.com/path2/?prod_id=12345`都是， `dynamicAccountSelection` 变量设置为 `true`，变 `s_account` 量设置为 `examplersid`。
+对于以下所有示例，页面 URL 是 `https://example.com/path2/?prod_id=12345`，`dynamicAccountSelection` 变量设置为 `true`，`s_account` 变量设置为 `examplersid`。
 
 ```js
 // In this example, the report suite that receives data is examplersid1.
@@ -49,8 +49,8 @@ s.dynamicAccountList = "examplersid4=path4;examplersid5=path5";
 
 ## 缺陷、问题和提示
 
-* 此变量中列出的规则按从左到右的顺序应用。If the `dynamicAccountMatch` variable matches more than one rule, the left-most rule is used to determine the report suite. 因此，在列表右侧放置更多通用规则。
-* If no rules match, the default report suite in `s_account` is used.
-* 如果将您的页面保存到某人的硬盘中或通过基于Web的翻译引擎（如Google的翻译页面）进行翻译，则动态帐户选择可能无效。
+* 此变量中列出的规则按从左到右的顺序应用。如果 `dynamicAccountMatch` 变量与多个规则匹配，则使用最左侧的规则确定报表包。因此，请将较通用的规则移动到列表的右侧。
+* 如果没有匹配的规则，则使用 `s_account` 中的默认报表包。
+* 如果页面被保存到某个人的硬盘，或通过基于 Web 的翻译引擎（如 Google 的翻译页面）进行了翻译，则动态帐户选择可能无效。
 * `dynamicAccountSelection` 规则仅适用于 `dynamicAccountMatch` 中指定的 URL 部分。
-* Use the [!DNL Adobe Experience Cloud Debugger] to test the destination report suite.
+* 使用 [!DNL Adobe Experience Cloud Debugger] 来测试目标报表包。
