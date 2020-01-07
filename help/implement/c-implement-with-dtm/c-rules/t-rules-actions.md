@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;javascript/third part
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 设置条件要触发的操作
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 每个规则都可以触发任意所需数量的脚本或 HTML 注入。
 
-> [!NOTE] 由于DTM允许您将自定义代码插入页面，请注意不要创建跨站点脚本(XSS)漏洞(有关详细信息，请参阅 [OWASP的指南](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) )。 在脚本中使用数据元素时需要特别注意。应始终假定数据元素值来自不受信任的源。
+> [!NOTE] 由于 DTM 允许在您的页面中注入自定义代码，因此，请注意不要创建跨站点脚本 (XSS) 漏洞（有关详细信息，请参阅 [OWASP 指南](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS))）。在脚本中使用数据元素时需要特别注意。应始终假定数据元素值来自不受信任的源。
 
 **设置条件要触发的操作**
 
