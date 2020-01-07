@@ -2,7 +2,7 @@
 description: 'null'
 title: 分段疑难解答
 uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 分段疑难解答
 
-## Error: "Incompatible elements in this segment" {#section_B167EE10A0844E649DD7E14D0BAEDA17}
+## 错误：“此区段中存在不兼容的元素”{#section_B167EE10A0844E649DD7E14D0BAEDA17}
 
 当您尝试在“Data Warehouse”文件夹中保存的区段含有与 Data Warehouse 不兼容的元素时，会出现此问题。要解决此错误，请执行以下操作之一：
 
