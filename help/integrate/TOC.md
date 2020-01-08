@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Integration Guide
 user-guide-url: /content/help/en/analytics/integration/home.html
 translation-type: tm+mt
-source-git-commit: ecac9aba326217880111cfcc4af6f100d043bb8a
+source-git-commit: bd741125b0c68c490c0f7d54d56ce5280c512a12
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: ecac9aba326217880111cfcc4af6f100d043bb8a
       + [服务器端转发要求 - 管理员指南](/help/admin/admin/c-server-side-forwarding/ssf-requirements.md)
       + [验证服务器端转发实施 - 管理员指南](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)
       + [服务器端转发常见问题解答 - 管理员指南](/help/admin/admin/c-server-side-forwarding/ssf-faq.md)
-      + [创建分析目标](https://docs.adobe.com/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
+      + [创建分析目标- AAM指南](https://docs.adobe.com/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
       + [在 Analytics 中使用受众数据](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Audience Analytics 用例](c-audience-analytics/aam-audience-use-cases.md)
       + [常见问题解答](c-audience-analytics/mc-audiences-faqs.md)
