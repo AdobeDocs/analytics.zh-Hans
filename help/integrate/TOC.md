@@ -1,10 +1,10 @@
 ---
 product: analytics
-audience: 最终用户
-user-guide-title: Analytics 集成指南
-user-guide-url: /content/help/zh-Hans/analytics/integration/home.html
-translation-type: ht
-source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
+audience: end-user
+user-guide-title: Analytics Integration Guide
+user-guide-url: /content/help/en/analytics/integration/home.html
+translation-type: tm+mt
+source-git-commit: ecac9aba326217880111cfcc4af6f100d043bb8a
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
       + [服务器端转发要求 - 管理员指南](/help/admin/admin/c-server-side-forwarding/ssf-requirements.md)
       + [验证服务器端转发实施 - 管理员指南](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)
       + [服务器端转发常见问题解答 - 管理员指南](/help/admin/admin/c-server-side-forwarding/ssf-faq.md)
-      + [创建 Analytics 目标](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/features/destinations/create-analytics-destination.html)
+      + [创建分析目标](https://docs.adobe.com/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
       + [在 Analytics 中使用受众数据](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Audience Analytics 用例](c-audience-analytics/aam-audience-use-cases.md)
       + [常见问题解答](c-audience-analytics/mc-audiences-faqs.md)
@@ -39,7 +39,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
       + [管理广告帐户](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Advertising Analytics 疑难解答](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [常见问题解答](c-advertising-analytics/aa-faq.md)
-+ [Analytics for Target - A4T](https://marketing.adobe.com/resources/help/zh_CN/target/a4t/a4t.html)
++ [Analytics for Target - A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html)
 + [Adobe Campaign 报告](adobe-campaign.md)
 + [AEM Assets 报告](aem-assets-reporting.md)
 + [Activity Map 报告](activitmap-reporting.md)
