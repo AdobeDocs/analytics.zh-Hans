@@ -3,7 +3,7 @@ description: 描述三步部署过程。
 title: 部署集成
 uuid: a3c0ef21-ed9a-44d7-bdce-19b3bd5b8b80
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a3aa8feb937e2a1f40c498aa4e143de21cf26b86
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    ![](assets/data_connectors.png)
 
-1. 在“ **[!UICONTROL 添加集成]**”下，将Lyris插件拖放到Adobe Experience Cloud中。 这将打开Lyris Data Connector集成。
+1. 在“ **[!UICONTROL 添加集成]**”下的Lyris HQ下，单击“激**[!UICONTROL &#x200B;活”]**。
 
    ![](assets/add_integration.png)
 
@@ -37,7 +37,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    ![](assets/variable_mapping.png)
 
-1. 除了3个自动化的合作伙伴区 **[!UICONTROL 段外]** ，您还可以在“区段”下选择您自己的区段。
+1. 除了3个自动化的合作伙伴区 **[!UICONTROL 段外]**，您还可以在“区段”下选择您自己的区段。
 1. 此集成可能需要将几个数据点下载到您的Lyris帐户。 您可以在“访问请求”下选择授予此访 **[!UICONTROL 问权限]**。
 1. 在“ **[!UICONTROL 数据收集]**”下，您可以选择使用自动或手动解决方案（JavaScript插件）从登录页面URL中收集查询字符串参数。 如果您选择拥有自动化解决方案，请为消息ID和收件人ID输入查询字符串参数。 有关JavaScript插件，请与Adobe顾问联系。
 
@@ -74,13 +74,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 > [!NOTE] 数据交换需要几天时间才能开始。 请确保在激活集成后与Lyris联系。
 
-1. 导航到Data Connectors中的Lyris集成。 在“支持 **** ”选项卡&gt;“集成 **[!UICONTROL 活动日志”下，您应当看到成功导入的]** Metric数据和 **[!UICONTROL /或成功导入的]****** Classification数据等事件：
+1. 导航到Data Connectors中的Lyris集成。 在“支持 ****”选项卡>“集成**[!UICONTROL &#x200B;活动日志”下，您应当看到成功导入的]**Metric数据和 **[!UICONTROL /或成功导入的]******Classification数据等事件：
 
    ![](assets/integration_info.png)
 
 1. 现在，使用相应的指标查看您的Lyris消息报告。 在Adobe Experience cloud中，选择“报 **[!UICONTROL 告与分析”]**。
 1. 选择适当的报表包。
-1. 在“自 **[!UICONTROL 定义转换]**”下，选择“ **[!UICONTROL 消息ID报告]** ”，然后选择“ **[!UICONTROL 消息ID/消息名称”]**。
+1. 在“自 **[!UICONTROL 定义转换]**”下，选择“**[!UICONTROL &#x200B;消息ID报告]** ”，然后选择“ **[!UICONTROL 消息ID/消息名称”]**。
 
 ## 查询字符串参数插件代码{#query-string-param-plug-in-code}
 
