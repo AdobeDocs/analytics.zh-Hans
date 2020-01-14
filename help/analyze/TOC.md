@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics Analyze Guide
+user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
+source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
 
 ---
 
@@ -83,7 +83,7 @@ source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
          + [使用“归因”面板](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [归因常见问题解答](analysis-workspace/c-panels/attribution/attribution-faq.md)
       + [自由格式面板](analysis-workspace/c-panels/freeform-panel.md)
-      + Segment comparison {#segment-comparison}
+      + 区段比较 {#segment-comparison}
          + [细分 IQ 概述](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [细分 IQ 用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [细分比较中使用的统计测试](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
@@ -332,7 +332,7 @@ source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
    + [执行用户快速入门指南](mobile-app/executive.md)
 + 渐进式 Web 应用程序 {#pwa}
    + [渐进式 Web 应用程序](pwa/pwa.md)
-+ Analytics Reporting API {#analytics-reporting-api}
-   + [Analytics Reporting API 概述](c-reporting-api/c-reporting-api.md)
-   + [Analytics Reporting API 比较](c-reporting-api/api-comparison.md)
++ Analytics 报表 API {#analytics-reporting-api}
+   + [Analytics 报表 API 概述](c-reporting-api/c-reporting-api.md)
+   + [Analytics 报表 API 比较](c-reporting-api/api-comparison.md)
    + [https://github.com/AdobeDocs/analytics-2.0-apis](https://github.com/AdobeDocs/analytics-2.0-apis)
