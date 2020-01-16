@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
+source-git-commit: 1aaba87b40f1715fe8365b60b6a4afab9b4b3a3d
 
 ---
 
@@ -263,6 +263,7 @@ source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
       + [Analytics 访客 ID](js-implementation/c-unique-visitors/visid-analytics.md)
       + [回退 ID 方法](js-implementation/c-unique-visitors/visid-fallback.md)
       + [识别移动设备](js-implementation/c-unique-visitors/visid-mobile.md)
+      + [浏览器和分析Cookie](js-implementation/c-unique-visitors/cookie-changes.md)
    + [Experience Cloud 核心服务](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html)
    + 跨设备访客识别 {#cross-device-visitor-id}
       + [跨设备连接用户](js-implementation/xdevice-visid/xdevice-connecting.md)
@@ -303,4 +304,4 @@ source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
    + [报表到变量的映射](impl-testing/report-variable-mapping.md)
    + [变量到报表的映射](impl-testing/var-report-mapping.md)
 + [为数字助理实施 Analytics](c-analytics-digital-assistants/digital-assistants-white-paper.md)
-+ [为移动设备实施分析](mobile-device-sdk.md)
++ [为移动设备实施 Analytics](mobile-device-sdk.md)
