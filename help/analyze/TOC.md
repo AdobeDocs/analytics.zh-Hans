@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
+source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
 
 ---
 
@@ -94,8 +94,15 @@ source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
       + [共享和计划项目文件](analysis-workspace/curate-share/send-schedule-files.md)
       + [发送文件 - 计划交付项目](analysis-workspace/curate-share/t-schedule-report.md)
       + [计划项目管理器](analysis-workspace/curate-share/schedule-projects.md)
+   + [常见问题解答](analysis-workspace/faq.md)
+   + [管理要求](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
+   + [优化 Analysis Workspace 性能](analysis-workspace/optimizing-performance.md)
+   + [Analysis Workspace 与 Ad Hoc Analysis 的比较](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
+   + [Analysis Workspace 限制](analysis-workspace/aw-limitations.md)
+   + [归因 IQ](analysis-workspace/attribution-iq.md)
+   + [区段 IQ](analysis-workspace/segment-iq.md)
    + 虚拟分析师 {#virtual-analyst}
-      + [虚拟分析师概述](analysis-workspace/virtual-analyst.md)
+      + [虚拟分析师概述](analysis-workspace/virtual-analyst/overview.md)
       + 异常检测 {#anomaly-detection}
          + [异常检测概述](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
          + [在 Analysis Workspace 中查看异常](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
@@ -110,13 +117,6 @@ source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
          + [警报生成器](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [警报管理器](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [智能警报 - 用例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
-   + [常见问题解答](analysis-workspace/faq.md)
-   + [管理要求](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
-   + [优化 Analysis Workspace 性能](analysis-workspace/optimizing-performance.md)
-   + [Analysis Workspace 与 Ad Hoc Analysis 的比较](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
-   + [Analysis Workspace 限制](analysis-workspace/aw-limitations.md)
-   + [归因 IQ](analysis-workspace/attribution-iq.md)
-   + [区段 IQ](analysis-workspace/segment-iq.md)
 + Report Builder {#report-builder}
    + [Adobe Report Builder 帮助](report-builder/home.md)
    + [Report Builder 的新增功能](report-builder/whats-new-arb.md)
