@@ -5,7 +5,7 @@ title: Analysis Workspace 中的新增功能
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 功能 | 描述 |
 |--- |--- |
 | [同类群组分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 对同类群组分析进行重大改进后，您能够：<ul><li>应用区段包含并单独返回量度。 </li><li>显示流失率而不是保留率。</li><li>显示延时表（包含事件之前和之后经过的时间）。</li><li>自定义同类群组维度（根据 eVar 而不只是时间对访客进行分组）。</li><li>进行滚动式同类群组计算：根据先前的时间段而不是原始同类群组来计算维系率/流失率。 </li><li>将多个量度添加到包含和回访字段中，并应用区段。（不支持计算量度）</li></ul> |
-| [视图密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 此新设置可减少左边栏、自由格式表和同类群组表中的垂直边距，从而使您能够在单个屏幕上查看更多数据。可通过项目 &gt; 项目信息和设置进行访问。 |
+| [视图密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 此新设置可减少左边栏、自由格式表和同类群组表中的垂直边距，从而使您能够在单个屏幕上查看更多数据。可通过项目 > 项目信息和设置进行访问。 |
 | [在归因 IQ 中支持多值变量](/help/analyze/analysis-workspace/attribution-iq/attribution.md) | Analytics 中的某些维度可以在单次点击中包含多个值，例如 listVar、产品变量、列表属性或推销 eVar。Analysis Workspace 允许您在点击级别将归因 IQ 应用于任何此类变量。 |
 | 性能改进 | 提高了划分可视化图表的速度 - 具有大量划分的项目将能更快加载。 |
 
@@ -246,7 +246,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td colname="col2"> <p>堆叠的区域/堆叠的条形/堆叠的水平条形可视化的新可视化设置将图表变为“100% 堆叠”的可视化，因此您可以度量相对比例。 </p> <p><img placement="break"  src="assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/virtual-analyst.md"  > 异常检测和贡献分析</a>当前只能通过 Analysis Workspace 使用 </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  > 异常检测和贡献分析</a>当前只能通过 Analysis Workspace 使用 </p> </td> 
    <td colname="col2"> <p>异常检测和贡献分析已从 Reports &amp; Analytics 功能集中删除，现在只能通过 Analysis Workspace 使用。 </p> <p>请注意，Adobe Analytics Select 和 Adobe Analytics Foundation 客户只能访问工作区中的“每日粒度”异常检测。 </p> </td> 
   </tr> 
  </tbody> 
@@ -706,7 +706,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>新建<b><a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  >热键</a></b> </p> </td> 
+   <td colname="col1"> <p>New <b> <a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > Hotkeys </a></b> </p> </td> 
    <td colname="col2"> <p>添加了以下热键： </p> 
     <ul id="ul_5AE965D910DA4883BC2067CDFDBBA75A"> 
      <li id="li_6DBD6DFB9CA54F89B9A0627F3B1D5928">alt + shift + 1 = 转到“面板”窗格 </li> 
@@ -848,8 +848,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td colname="col2"> <p>“智能警报”是 Adobe Analytics 的新警报系统，您可以通过该系统在 Analysis Workspace 中创建和管理警报，以及进行警报预览和规则贡献。您可以: </p> <p> </p> 
     <ul id="ul_02BD64D3047942009880B8F1DA1F2A40"> 
      <li id="li_01504AABBC514DF38354683843222541">构建基于异常的警报（90%、95% 或 99% 阈值；% 更改；以上/以下）。 </li> 
-     <li id="li_9BFE2B4C429D441287F1A37A08E62A40">预览警报触发的频率. </li> 
-     <li id="li_08D310196581483DB499C00358835B73">通过含链接的电子邮件或短信将警报发送到自动生成的 Analysis Workspace 项目. </li> 
+     <li id="li_9BFE2B4C429D441287F1A37A08E62A40">预览警报触发的频率。 </li> 
+     <li id="li_08D310196581483DB499C00358835B73">通过含链接的电子邮件或短信将警报发送到自动生成的 Analysis Workspace 项目。 </li> 
      <li id="li_2ADF9465EE474CDB839ED867662CCE6F">创建可在一个警报中捕获了多个量度的“堆栈式”警报。 </li> 
     </ul> <p><img placement="break"  src="assets/intel-alerts.png" width="400px" id="image_10069C33B6B1437CA578B8194FC75AD8" /> </p> </td> 
   </tr> 
@@ -901,7 +901,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 2016 年 6 月 16 日发布的新功能：
 
-* [新的组权限](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)让管理员可以允许或拒绝用户访问 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 工作区]**&#x200B;选项卡。自 2016 年 6 月 16 日开始，所有用户都将拥有访问此选项卡的权限。要拒绝访问，只需要从“Analysis Workspace 访问”组中删除用户即可。
+* [新的组权限](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)让管理员可以允许或拒绝用户访问 **[!UICONTROL Analytics]**>**[!UICONTROL &#x200B;工作区]**选项卡。自 2016 年 6 月 16 日开始，所有用户都将拥有访问此选项卡的权限。要拒绝访问，只需要从“Analysis Workspace 访问”组中删除用户即可。
 * The[区段比较面板](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)通过自动分析您有权访问的每个量度和维度，可发现任意两个区段之间的最显著统计学差异。
 * [新的项目菜单结构](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)重新排列了顶部菜单，提高了其可扩展性。例如，创建&#x200B;**新同类群组面板**&#x200B;的过程现在包括创建一个空白面板和拖入一个同类群组表可视化。
 * [新的左边栏](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：面板、可视化、组件
@@ -966,11 +966,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 此外，您还可以使用标准 Windows 和 Mac [键盘快捷键](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)（Ctrl + Z 或 cmd + Z）执行撤消操作。
 
-*`Undo`*&#x200B;功能在撤消表中的划分时特别有用。
+*`Undo`*功能在撤消表中的划分时特别有用。
 
-非&#x200B;*`not`*&#x200B;不可撤消的操作：
+非&#x200B;*`not`*不可撤消的操作：
 
-* 更改[!UICONTROL 同类群组表]的配置（例如，拖放量度、更改值）。但是，在单击&#x200B;**[!UICONTROL 运行]**&#x200B;后，您还可以单击&#x200B;**[!UICONTROL 撤消]**。
+* 更改[!UICONTROL 同类群组表]的配置（例如，拖放量度、更改值）。但是，在单击&#x200B;**[!UICONTROL 运行]**后，您还可以单击**[!UICONTROL &#x200B;撤消]**。
 
 * 调整面板和子面板大小，或者移动它们。
 
@@ -1017,17 +1017,17 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 针对区段、量度和日期的另存为功能 {#section_04C8B10A0751453AAE5F1BC35938C6CE}
 
-在 Analysis Workspace 区段生成器中编辑现有（已保存）的区段时，单击&#x200B;**[!UICONTROL 另存为]**&#x200B;可生成一个副本。
+在 Analysis Workspace 区段生成器中编辑现有（已保存）的区段时，单击&#x200B;**[!UICONTROL 另存为]**可生成一个副本。
 
 ![](assets/segment-save-as.png)
 
 新区段显示在[!UICONTROL 组件]面板的[!UICONTROL 区段]组内。
 
-*`Save As`*&#x200B;还可用于[!UICONTROL 计算量度生成器]和[!UICONTROL 日期范围生成器]。
+*`Save As`*还可用于[!UICONTROL 计算量度生成器]和[!UICONTROL 日期范围生成器]。
 
 ## “添加新区段”按钮{#section_85CC88C02C79456EA2B41F2BFBB64FC4}
 
-**[!UICONTROL 添加新区段]**&#x200B;按钮已被添加到您将区段拖放到项目中的位置。
+**[!UICONTROL 添加新区段]**按钮已被添加到您将区段拖放到项目中的位置。
 
 ![](assets/add-new-segment.png)
 
@@ -1075,13 +1075,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 图例可见 {#section_28D10D86CAE343AB838808C1DD2E7983}
 
-在[!UICONTROL 可视化设置]中，**[!UICONTROL 图例可见]**&#x200B;选项可显示或隐藏可视化的图例。
+在[!UICONTROL 可视化设置]中，**[!UICONTROL 图例可见]**选项可显示或隐藏可视化的图例。
 
 ![](assets/legend-visible.png)
 
 ## 将 Y 轴定位为 0 {#section_83DF5DE79EF04F9F8DCB3154F5E799B3}
 
-根据折线图和面积图的数字，Y 轴的底部可能不为 0。在&#x200B;**[!UICONTROL 可视化图设置]**&#x200B;中启用“[!UICONTROL 将 Y 轴定位为 0]”，可强制将 Y 轴设为 0，以便更加准确地查看趋势。以下示例显示收入图表在启用和禁用此设置的情况下有何变化：
+根据折线图和面积图的数字，Y 轴的底部可能不为 0。在&#x200B;**[!UICONTROL 可视化图设置]**中启用“[!UICONTROL 将 Y 轴定位为 0]”，可强制将 Y 轴设为 0，以便更加准确地查看趋势。以下示例显示收入图表在启用和禁用此设置的情况下有何变化：
 
 **将 Y 轴定位为 0 已禁用**
 
@@ -1099,4 +1099,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 管理员可以将 [!UICONTROL Analysis Workspace] 项目从一名用户转移到另一用户。
 
-导航至&#x200B;**[!UICONTROL 管理员]** &gt; **[!UICONTROL 用户管理]** &gt; **[!UICONTROL 转移]**，以便转移项目。
+导航至&#x200B;**[!UICONTROL 管理员]**>**[!UICONTROL &#x200B;用户管理]** > **[!UICONTROL 转移]**，以便转移项目。
