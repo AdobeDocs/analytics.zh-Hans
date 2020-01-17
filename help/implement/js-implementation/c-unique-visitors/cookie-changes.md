@@ -3,7 +3,7 @@ description: Analytics Cookie
 title: 浏览器和分析Cookie常见问题解答
 uuid: null
 translation-type: tm+mt
-source-git-commit: 38de617d3c77195d2308e14783962f6690b4b3fc
+source-git-commit: 782d34c26942d75ce445cb4e3bf413e27fd9c326
 
 ---
 
@@ -71,7 +71,7 @@ source-git-commit: 38de617d3c77195d2308e14783962f6690b4b3fc
 下表汇总了Analytics cookie:
 
 
-![分析Cookie表](assets/cookie_table.png)
+![分析Cookie表](assets/cookietable.png)
 
 
 ## 为Chrome、Firefox和Edge更改准备我的站点的最佳方式是什么？
