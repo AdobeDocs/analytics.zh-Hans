@@ -5,12 +5,56 @@ title: Analysis Workspace 中的新增功能
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
+source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 ---
 
 
 # Analysis Workspace 中的新增功能
+
+## 2020 年 1 月
+
+2020年1月16日发布的新增功能。
+
+| 功能 | 描述 |
+|--- |--- |
+| [自由格式表生成器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | 启用表生成器后，您可以通过拖放多个维度、细分、量度和区段来构建可解答更复杂业务问题的表。数据不会立即更新。相反，单击&#x200B;**[!UICONTROL 生成]**后才会进行更新，这样可在您知道自己要构建什么表的情况下节省您的时间。此外，此功能还提供：<ul><li>**预览**：您可以先预览表的格式，然后再花费时间渲染实际数据。</li><li>**灵活的行和划分设置**：您可以为每个维度行设置行级别和划分级别。以前，工作区施加了一些默认值，这些默认值在返回数据之前无法更改。</li><li>**按状态划分**：您可以将维度行设置为始终&#x200B;_按状态划分_&#x200B;而不是&#x200B;_按特定项目_（默认值）划分。</li><li>**手动静态行排序**：您可以手动对静态行进行排序，以使表行完全按照您的需要显示。以前，静态行只能按度量列或按字母顺序排序。</li></ul> |
+
+## 2019 年 10 月
+
+增强功能于2019年10月10日发布。
+
+| 增强功能 | 描述 |
+|--- |--- |
+| 更新到自由格式表总计 | 现在，自由格式表包含两项总数统计：**[!UICONTROL 表格总计]**和**[!UICONTROL &#x200B;全部总计]**。表格总计行会将已应用的[报表过滤器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)计入在内。以前，只有区段会影响总数的计算。[了解更多](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>，此外，**[!UICONTROL ￼显示总数]**和**[!UICONTROL &#x200B;显示总计]**选项已添加到&#x200B;**[!UICONTROL 列设置]**中。<br/>鉴于自由格式表的这项变化，与之相关的可视化图表（例如关联的**[!UICONTROL &#x200B;概要数字]**可视化图表）也将进行相应的更新，导出的 CSV 和 PDF 数据同样也会更新。 |
+| 用于删除“未指定”/“无”的选项 | 一个可以轻松删除“未指定（无）”的选项已经添加到报表过滤器。 |
+| 弃用紫色粒度组件 | 已弃用紫色的时间粒度组件（分钟、小时、日、周、月、季度、年）。紫色时间组件与对应的橙色维度组件的功能是一样的，因此这项更改将简化这方面的使用体验。即使之前使用了某个紫色时间组件，您也&#x200B;**无需执行任何操作**。<br/>此外，根据这项变化，紫色的&#x200B;**[!UICONTROL 时间]**部分已重命名为**[!UICONTROL &#x200B;日期范围]**。 |
+
+## 2019 年 8 月
+
+增强功能于2019年8月8日发布。
+
+| 增强功能 | 描述 |
+|--- |--- |
+| 将下拉筛选器的项目限制从50提高到200 | 我们将可放置在下拉筛选器中的项目限制从 50 提高到了 200。此增强功能适用于各种用例，例如将所有国家/地区 (195) 添加到筛选器，或将所有美国州和省 (52) 添加到筛选器。 |
+
+## 2019 年 7 月
+
+增强功能于2019年7月18日发布。
+
+| 增强功能 | 描述 |
+|--- |--- |
+| 群组分析增强功能 | 新增了以下[阶层分析设置](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html)： <ul><li>仅显示百分比</li><li>将百分比四舍五入到最接近的整数</li><li>显示平均百分比行</li></ul> |
+| 显示最近18个月的项目 | 在左边栏中，用户现在可以选择&#x200B;_显示过去 18 个月内的项目_。以前，回看周期最长为 6 个月。这样，用户就可以更轻松地比较去年（最长 18 个月前）的页面或营销活动。 |
+| 新的 Analysis Workspace 模板 | 我们在 Analysis Workspace 中新增了一个名为[“Magento：营销与商务”](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)的模板。它专为 Magento 电子商务客户设计，不过任何零售商都可使用它来获得有关其商务活动的独特洞察。 |
+
+## 2019 年 6 月
+
+增强功能于2019年6月13日发布。
+
+| 增强功能 | 描述 |
+|--- |--- |
+| 新的现成滤镜 | 左边栏搜索新增了开箱即用的过滤器。除了您现在看到的这些过滤器（维度、量度、已批准等）之外，还新增了一些过滤器（例如计算指标、客户属性、eVar、Prop、视频等）以更便于查找所需的组件。 |
 
 ## 2019 年 5 月
 
