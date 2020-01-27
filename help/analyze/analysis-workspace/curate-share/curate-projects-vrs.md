@@ -2,7 +2,7 @@
 title: VRS 和项目策划
 description: 了解如何策划 VRS 组件和项目
 translation-type: tm+mt
-source-git-commit: 02f9106d7b8b42c1aca46682736b94f5cde519ef
+source-git-commit: db983980a6ec3db4d60bbc8fc3ba57a4e1219287
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 02f9106d7b8b42c1aca46682736b94f5cde519ef
 
 在策划项目或虚拟报表包 (VRS) 时，您实际上可以过滤掉一些组件，以便受众只能查看您希望他们使用的那些项目/VRS 组件（维度、量度、区段、日期范围）。
 
->[!N注意：]
+>[!NOTE]
 >
 >产品配置文件是控制用户可以查看哪些组件的主要机制。 They are managed through the [Admin Console](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html#createproductprofiles). “策划”是一个次级过滤器。
 
