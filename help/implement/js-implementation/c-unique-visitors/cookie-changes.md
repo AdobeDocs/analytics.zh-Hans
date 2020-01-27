@@ -3,7 +3,7 @@ description: Analytics Cookie
 title: 浏览器和分析Cookie常见问题解答
 uuid: null
 translation-type: tm+mt
-source-git-commit: 782d34c26942d75ce445cb4e3bf413e27fd9c326
+source-git-commit: b25c052dee5ee22ca009cbe43356007210a06d19
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 782d34c26942d75ce445cb4e3bf413e27fd9c326
 
 第三方Cookie不是由用户访问的网站创建的。 虽然浏览器当前对所有第三方Cookie的处理方式相同并相应地存储它们，但第三方Cookie本身的行为方式可能不同而重要。 通过客户的Analytics第三方Cookie实施，客户仅向Adobe发出呼叫，而不向未知或可疑的第三方域发出呼叫。 这是用于实施Analytics以实现安全(HTTPS)和使用永久标识符进行可靠跟踪的当前方法。 通过配置AppMeasurement.js文件来实现此方法。 有关详细信息，请参 [阅Cookie和Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)。
 
-![Cookie差异](assets/cookieimage.PNG)
+![](assets/cookies2.png)
 
 ## 浏览器当前如何存储和管理Analytics cookies?
 
@@ -70,9 +70,7 @@ source-git-commit: 782d34c26942d75ce445cb4e3bf413e27fd9c326
 
 下表汇总了Analytics cookie:
 
-
-![分析Cookie表](assets/cookietable.png)
-
+![](assets/cookies1.png)
 
 ## 为Chrome、Firefox和Edge更改准备我的站点的最佳方式是什么？
 
