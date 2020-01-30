@@ -26,7 +26,7 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 | 增强功能 | 描述 |
 |--- |--- |
-| 更新到自由格式表总计 | 现在，自由格式表包含两项总数统计：**[!UICONTROL 表格总计]**和**[!UICONTROL &#x200B;全部总计]**。表格总计行会将已应用的[报表过滤器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)计入在内。以前，只有区段会影响总数的计算。[了解更多](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>，此外，**[!UICONTROL ￼显示总数]**和**[!UICONTROL &#x200B;显示总计]**选项已添加到&#x200B;**[!UICONTROL 列设置]**中。<br/>鉴于自由格式表的这项变化，与之相关的可视化图表（例如关联的**[!UICONTROL &#x200B;概要数字]**可视化图表）也将进行相应的更新，导出的 CSV 和 PDF 数据同样也会更新。 |
+| 更新到自由格式表总计 | 现在，自由格式表包含两项总数统计： **[!UICONTROL 表格总计]** 和 **[!UICONTROL &#x200B;全部总计]**&#x200B;。表格总计行会将已应用的[报表过滤器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)计入在内。以前，只有区段会影响总数的计算。[了解更多](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>，此外，**[!UICONTROL ￼显示总数]** 和 **[!UICONTROL &#x200B;显示总计]** 选项已添加到&#x200B;**[!UICONTROL 列设置]**&#x200B;中。<br/>鉴于自由格式表的这项变化，与之相关的可视化图表（例如关联的&#x200B;**[!UICONTROL 概要数字]**&#x200B;可视化图表）也将进行相应的更新，导出的 CSV 和 PDF 数据同样也会更新。 |
 | 用于删除“未指定”/“无”的选项 | 一个可以轻松删除“未指定（无）”的选项已经添加到报表过滤器。 |
 | 弃用紫色粒度组件 | 已弃用紫色的时间粒度组件（分钟、小时、日、周、月、季度、年）。紫色时间组件与对应的橙色维度组件的功能是一样的，因此这项更改将简化这方面的使用体验。即使之前使用了某个紫色时间组件，您也&#x200B;**无需执行任何操作**。<br/>此外，根据这项变化，紫色的&#x200B;**[!UICONTROL 时间]**部分已重命名为**[!UICONTROL &#x200B;日期范围]**。 |
 
