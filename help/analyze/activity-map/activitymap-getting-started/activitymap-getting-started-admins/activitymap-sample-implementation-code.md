@@ -4,14 +4,14 @@ title: 实现代码样例
 topic: Activity map
 uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28
 translation-type: tm+mt
-source-git-commit: 758bfb7c44ffe7c878939ec69724b3807985385c
+source-git-commit: 48b0d6a92de1697acc54c8601e6b2c920e01ffee
 
 ---
 
 
 # 实现代码样例 {#sample-implementation-code}
 
-## AppMeasurement.js 文件的样例 {#section_CD6E603EB41141E587B71E138FE99F52}
+## AppMeasurement.js 文件的样例
 
 以下示例用于说明 AppMeasurement 库和 Activity Map 模块如何在 [!DNL AppMeasurement.js] 文件中合并。
 
