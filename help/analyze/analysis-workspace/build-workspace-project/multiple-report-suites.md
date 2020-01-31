@@ -2,7 +2,7 @@
 title: Workspace中的多个报表包
 description: 了解如何在Workspace中使用多个报表包创建项目以及创建原因
 translation-type: tm+mt
-source-git-commit: 7f79d5c041959e4093b2aaacb64c948b0593262f
+source-git-commit: 48b0d6a92de1697acc54c8601e6b2c920e01ffee
 
 ---
 
@@ -47,8 +47,8 @@ source-git-commit: 7f79d5c041959e4093b2aaacb64c948b0593262f
 
    ![](assets/incompat-rs.png)
 
-   1. 您有3种方法可处理此不兼容问题：
-   * 继续处理某些缺少的组件。
+   您有3种方法可处理此不兼容问题：
+   * 继续处理某些缺少的组件。 这将导致这些组件没有数据和／或空白可视化。
    * 撤消.
    * 更改报表包.
 
@@ -58,6 +58,6 @@ source-git-commit: 7f79d5c041959e4093b2aaacb64c948b0593262f
 
 1. （可选）您还可以转到其他Analytics组件构建器，并确保它们现在显示一个报表包标签，指示
 
-   * 将创建区段的位置（区段生成器）。
-   * 将创建计算量度的位置（计算量度生成器）。
-   * 将生成警报的位置（警报生成器）。
+   * 将创建区段的位置：区 [段构建器](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html)。
+   * 创建计算量度的位置：计 [算量度生成器](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)。
+   * 将生成警报的位置：警 [报生成器](https://docs.adobe.com/content/help/en/analytics/components/alerts/alert-builder.html)。
