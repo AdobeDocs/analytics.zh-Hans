@@ -2,14 +2,14 @@
 title: rfl
 description: 从以字符分隔的字符串中删除特定值。
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe插件：rfl（从列表中删除）
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics的使用中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
 
 该插 `rfl` 件允许您“安全”地从分隔字符串(如、、列表变量 `events``products`和其他)中删除值。 如果您希望从分隔字符串中删除特定值而不担心分隔符，此插件非常有用。 其他几个插件依赖于此代码才能正确运行。 如果您不需要同时对多个Analytics变量运行特定函数，或者您未使用任何相关插件，则不需要此插件。
 
