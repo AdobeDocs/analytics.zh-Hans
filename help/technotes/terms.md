@@ -2,7 +2,7 @@
 title: Adobe Analytics中使用的术语
 description: Adobe Analytics词汇表，用于定义常用术语。
 translation-type: tm+mt
-source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
+source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
 
@@ -23,22 +23,22 @@ source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 * **** 弹回：一次点击即可访问。 请参 [阅组件](/help/components/c-variables/c-metrics/metrics-bounces.md) 用户指南中的弹回。 另请参阅单次访问。
 * **** 计算量度：允许将现有指标、统计函数和公式组合在一起以用于报告。 请参 [阅组件用户指南](/help/components/c-calcmetrics/cm-overview.md) 中的计算量度。
 * **** 营销活动：可以参考：
-   * Campaign变量，用于填充“跟踪代码”维。 请参 [阅实施用户指南](/help/implement/js-implementation/page-variables/page-variables.md) 中的页面变量。
+   * Campaign变量，用于填充“跟踪代码”维。 请参 [阅实施](../implement/vars/page-vars/campaign.md) 用户指南中的系列活动。
    * 跟踪代码维度的默认分类；自动为所有报表包创建。
    * Adobe Campaign是Adobe Experience cloud的一部分。 有关 [Adobe.com的更多信息](https://www.adobe.com/marketing/campaign.html)。
 * **** 渠道：可以参考：
-   * Channel变量，用于填充“站点区域”维。 请参 [阅实施用户指南](/help/implement/js-implementation/page-variables/page-variables.md) 中的页面变量。
+   * Channel变量，用于填充“站点区域”维。 请参 [阅实施](../implement/vars/page-vars/channel.md) 《用户指南》中的频道。
    * 营销渠道，一个可帮助了解用户如何到达您网站的组件。 请参 [阅组件用户指南](/help/components/c-marketing-channels/c-overview.md) 中的营销渠道。
 * **** 分类：Adobe Analytics中允许对维值进行分组的功能。 请参 [阅组件](/help/components/c-classifications2/c-classifications.md) 用户指南中的分类。
 * **** Clickmap:不再使用。 一个旧版浏览器插件，它显示您网站上哪些区域被点击最多。 此工具已停用，改为“活动图”。
 * **** 点击流数据源：请参阅数据馈送。
 * **** 同期群：一组在特定时间段内具有共同特征的人。 See [What is Cohort Analysis?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) 分析用户指南中。
 * **** 集合服务器：请参阅数据收集服务器。
-* **** 上下文数据变量：仅用于处理规则的临时变量。 如果处理规则不将上下文数据变量值复制到转换或流量变量，则上下文数据变量值将永久丢失。 请参 [阅《实施用户指南](/help/implement/js-implementation/c-variables/context-data-variables.md) 》中的上下文数据变量。
+* **** 上下文数据变量：仅用于处理规则的临时变量。 如果处理规则不将上下文数据变量值复制到转换或流量变量，则上下文数据变量值将永久丢失。 请参 [阅《实施用户指南](../implement/vars/page-vars/contextdata.md) 》中的上下文数据变量。
 * **** 转换变量：俗称eVar。 存储自定义值，并保留变量值，直到其过期。 See [Conversion variables](/help/components/c-variables/dimensionslist/reports-conversion.md) in the Components user guide.
 * **** 关联：不再用作术语；替换为维度细分。 在Adobe Analytics的早期版本中，关联允许划分流量变量。 请参 [阅分析用户指南](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) 中的划分维度。
 * **** 当前数据：某些报告中的选项允许包含最近收集的尚未完全处理的数据。 请参 [阅分析用户指南](/help/analyze/reports-analytics/current-data.md) 中的当前数据。
-* **** 自定义链接：包含非页面视图数据的点击类型。 请参阅 [实施用户指南中的](/help/implement/js-implementation/function-tl.md) s.tl()函数。 另请参阅点击。
+* **** 自定义链接：包含非页面视图数据的点击类型。 请参阅 [实施用户指南中的](../implement/vars/functions/tl.md) s.tl()函数。 另请参阅点击。
 * **** 客户属性：Experience cloud的一项功能，允许上传属性数据。 请参 [阅核心服务](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) (Core services)用户指南中的客户属性。
 * **** 客户支持代表：已授权与Adobe客户关怀直接交互的指定用户。 请参 [阅Experience cloud知识库中](https://helpx.adobe.com/experience-cloud/supported-users.html) 的客户支持代表。
 * **** 数据收集服务器：接收和处理数据的Adobe自有服务器。 图像请求将发送到Adobe的数据收集服务器以用于报告。
@@ -47,8 +47,8 @@ source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 * **** 数据源：允许用户将数据从文件上载到Adobe Analytics。 文件通常从FTP站点中提取。 请参 [阅导入用户指南](/help/import/c-data-sources/datasrc-home.md) 中的数据源。
 * **** 数据仓库：Adobe Analytics中的一项功能，允许您请求更大的报告。 请参 [阅“导出](/help/export/data-warehouse/data-warehouse.md) ”用户指南中的数据仓库。
 * **** 维度：包含变量值（如文本）的组件类型。 示例包括页面名称、跟踪代码或引用域。 度量通常是其对应的。
-* **** 动态标签管理：Adobe以前的标签管理解决方案。 请参 [阅《实施用户指南](/help/implement/c-implement-with-dtm/dtm-implementation-overview.md) 》中的DTM实施概述。 Adobe建议改用Adobe Experience Platform Launch。
-* **** 事件序列化：执行防止收集重复事件的措施的过程。 请参 [阅《实施用户指南](/help/implement/js-implementation/event-serialization.md) 》中的事件序列化。
+* **** 动态标签管理：Adobe以前的标签管理解决方案。 请参 [阅《实施用户指南](/help/implement/other/dtm/dtm-implementation-overview.md) 》中的DTM实施概述。 Adobe建议改用Adobe Experience Platform Launch。
+* **** 事件序列化：执行防止收集重复事件的措施的过程。 请参 [阅《实施用户指南](../implement/vars/page-vars/events/event-serialization.md) 》中的事件序列化。
 * **** eVar:请参阅转换变量。
 * **** 事件：请参阅成功事件。
 * **** ExcelClient:不再用作术语。 Report Builder的前身的名称。
@@ -64,9 +64,9 @@ source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
    * 自定义分析，自定义流量变量的历史名称。
 * **** KPI:关键绩效指标的缩写。 有助于企业了解其网站表现的指标。 每个组织的KPI各不相同，它们衡量业务的不同方面。 请参 [阅实施用户指南中的](/help/implement/prepare/solution-design.md) “创建解决方案设计文档”。
 * **** 延迟：在收集数据和报告中提供数据之间的延迟。 报告套件中的典型滞后时间为30-90分钟。 请参 [阅Technotes用户指南](/help/technotes/latency.md) 中的延迟。
-* **** 启动项：Adobe Experience Platform Launch的简称，Adobe的当前实施解决方案。 请参 [阅](https://docs.adobe.com/content/help/en/launch/using/overview.html) Adobe Experience Platform Launch用户指南中的概述。
-* **** 列表属性：一种设置，可转换典型流量变量以支持同一点击中的多个值。 如果启用了设置，则任何自定义流量变量都可以成为列表属性。 请参 [阅实施用户指南](/help/implement/js-implementation/page-variables/page-variables.md) 中的页面变量。
-* **** 列表变量：与转换变量分开的不同变量。 列表变量支持同一点击中的多个值，并且变量值会在访问中保留，这与转换变量类似。 组织只能使用三个列表变量。 请参 [阅实施用户指南](/help/implement/js-implementation/page-variables/page-variables.md) 中的页面变量。
+* **** 启动项：Adobe Experience Platform Launch的简称，Adobe的当前实施解决方案。 See [Overview](https://docs.adobe.com/content/help/en/launch/using/overview.html) in the Adobe Experience Platform Launch user guide.
+* **** 列表属性：一种设置，可转换典型流量变量以支持同一点击中的多个值。 如果启用了设置，则任何自定义流量变量都可以成为列表属性。 请参 [阅实施](../implement/vars/page-vars/prop.md) 《用户指南》中的prop。
+* **** 列表变量：与转换变量分开的不同变量。 列表变量支持同一点击中的多个值，并且变量值会在访问中保留，这与转换变量类似。 组织只能使用三个列表变量。 请参 [阅《实施](../implement/vars/page-vars/list.md) 》用户指南中的列表。
 * **** 登录公司：您的组织使用的报表包集合。 某些组织有多个登录公司，这些公司适用于其组织的不同部分。
 * **** 营销渠道：Adobe Analytics中的一项功能，可按点击到达网站的方式对点击量进行分类。 可使用营销渠道处理规则自定义用于分类点击的逻辑。 请参 [阅组件用户指南](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 中的营销渠道入门。
 * **** 指标：包含定量数据的组件类型。 度量值通常包含数字，如页面查看次数、访问次数和收入。 维度通常是对应的。
@@ -87,8 +87,8 @@ source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 * **** 报告套件：发送数据至的总容器。 Adobe Analytics中的所有报告都引用了一个报告套件。
 * **** 滚动日期范围：随时间变化而更改的相对日期范围类型。 例如，显示最近7天的报表可视为滚动日期范围。 另请参阅静态日期范围。
 * **** RSID:报表包ID的缩写。 报表包同时具有易记名称和报表包ID。
-* **** s.t():发送页面查看图像请求的AppMeasurement库中函数的名称。 某些AppMeasurement库会改 `s.track()` 用它。 请参 [阅实施用户指南中的s.t()](/help/implement/js-implementation/function-t.md) 。
-* **s<span>.</span>** tl():发送链接跟踪图像请求的AppMeasurement库中函数的名称。 某些AppMeasurement库会改 `s.trackLink()` 用它。 请参 [阅实施用户指南中的s.tl()](/help/implement/js-implementation/function-tl.md) 。
+* **** s.t():发送页面查看图像请求的AppMeasurement库中函数的名称。 某些AppMeasurement库会改 `s.track()` 用它。 请参 [阅](../implement/vars/functions/t.md) 《实施用户指南》中的t。
+* **s<span>.</span>** tl():发送链接跟踪图像请求的AppMeasurement库中函数的名称。 某些AppMeasurement库会改 `s.trackLink()` 用它。 请参 [阅](../implement/vars/functions/tl.md) 《实施用户指南》中的tl。
 * **** s_code.js:在Adobe Analytics的历史版本中使用的JavaScript文件的名称。 使用的JavaScript文件的当前名称为AppMeasurement.js。
 * **** 卫星：不再用作术语。 动态标签管理的前产品名称。
 * **** 辅助服务器调用：图像请求或点击的替代名称，主要用于多套件标记和计费的上下文。 当同一点击被发送到多个报表包时，第一个列出的报表包之后的所有报表包都是辅助服务器调用。 另请参阅主服务器调用。
