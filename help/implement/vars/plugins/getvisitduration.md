@@ -2,14 +2,14 @@
 title: getVisitDuration
 description: 跟踪访客在网站上停留的时间。
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe插件：getVisitDuration
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics的使用中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
 
 该插 `getVisitDuration` 件跟踪访客在该时间段之前在网站上停留的时间（以分钟为单位）。 如果您希望跟踪到该时间为止站点上的累积时间，或跟踪执行活动所花费的时间，Adobe建议使用此插件。 该插件不跟踪事件之间的时间长短；如果需要此功能，请 `getTimeBetweenEvents` 使用插件。
 
