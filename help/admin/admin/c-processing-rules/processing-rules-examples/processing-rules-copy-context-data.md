@@ -5,7 +5,7 @@ title: 将上下文数据变量复制到 eVar
 topic: Admin tools
 uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 处理规则用于将上下文数据变量的值迁移到 prop 和 eVar。如果没有处理规则，上下文数据变量将毫无意义，并且不会在 Analytics 中填充任何报表。
 
-[!UICONTROL 上下文变量]列表包含在之前 30 天发送到报表包中的所有变量。如果您知道上下文数据变量名称，但尚未将其发送到当前报表包，则可通过键入变量名称并单击&#x200B;**[!UICONTROL 添加变量名称上下文数据]**&#x200B;来添加值：
+[!UICONTROL 上下文变量]列表包含在之前 30 天发送到报表包中的所有变量。如果您知道上下文数据变量名称，但尚未将其发送到当前报表包，则可通过键入变量名称并单击&#x200B;**[!UICONTROL 添加变量名称上下文数据]**来添加值：
 
 ![添加](assets/add-context-variable.png)
 
@@ -28,4 +28,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ![视情况而定](assets/add-conditional.png)
 
-有关实施上下文数据变量的更多信息，请参阅“实施”用户指南中的[上下文数据变量](/help/implement/js-implementation/c-variables/context-data-variables.md)。
+有关实施上下文数据变量的更多信息，请参阅“实施”用户指南中的[上下文数据变量](/help/implement/vars/page-vars/contextdata.md)。
