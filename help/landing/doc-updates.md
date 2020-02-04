@@ -3,7 +3,7 @@ title: Adobe Analytics 文档更新
 description: Adobe Analytics 技术文档更新
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: ad559f0c067de932aba01d1a84b3c22944e9be75
+source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
 
@@ -40,6 +40,6 @@ source-git-commit: ad559f0c067de932aba01d1a84b3c22944e9be75
 | 2019 年 4 月 11 日 | 更新了[优化 Workspace 性能](/help/analyze/analysis-workspace/optimizing-performance.md)。 |
 | 2019 年 3 月 14 日 | 对[地区数据收集](/help/technotes/rdc/regional-data-collection.md)进行了重大更新。 |
 | 2019 年 2 月 7 日 | 对[常规帐户设置](/help/admin/admin/general-acct-settings-admin.md)中的“将 IP 地址的最后一个八位字节替换为 0”设置和“IP 模糊处理”设置进行了小幅更新。 |
-| 2019 年 2 月 1 日 | 对 [getPercentPageViewed](/help/implement/js-implementation/plugins/getpercentpageviewed.md) 实施插件进行了重大更新。 |
+| 2019 年 2 月 1 日 | 对 [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 实施插件进行了重大更新。 |
 | 2019 年 1 月 17 日 | 在 Analysis Workspace 中新增了项目设置[视图密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)。 |
 | 2019 年 1 月 17 日 | 对[同类群组分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)进行了重大更新。 |
