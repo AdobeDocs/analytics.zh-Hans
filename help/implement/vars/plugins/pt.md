@@ -2,14 +2,14 @@
 title: pt
 description: 在变量列表上执行函数。
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe插件：pt
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics的使用中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
 
 该 `pt` 插件可执行Analytics变量列表中的函数或方法。 例如，您可以选择性地对多个变 `clearVars` 量运行该方法，而无需每次手动调用该方法。 其他几个插件依赖于此代码才能正确运行。 如果您不需要同时对多个Analytics变量运行特定函数，或者您未使用任何相关插件，则不需要此插件。
 
