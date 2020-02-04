@@ -2,7 +2,7 @@
 title: addProductEvar
 description: 将销售eVar添加到产品变量。
 translation-type: tm+mt
-source-git-commit: d73ba14ac217ad6a46c16a29b4e19b265573fdda
+source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 ---
 
@@ -23,13 +23,13 @@ Adobe提供了一个扩展，允许您使用最常用的插件。
 1. 单击所需的属性。
 1. 转到“扩 [!UICONTROL 展] ”选项卡，然后单击“目 [!UICONTROL 录] ”按钮
 1. 安装和发布 [!UICONTROL Common Analytics插件扩展]
-1. 如果尚未创建，请使用以下配置创建一个名为“初始化插件”的新启动规则：
+1. 如果尚未创建，请使用以下配置创建标有“初始化插件”的规则：
    * 条件：无
    * 事件：核心——载入的库（页面顶部）
 1. 使用以下配置向上述规则添加操作：
    * 扩展：常见分析插件
    * 操作类型：初始化addProductEvar
-1. 保存更改并发布到规则
+1. 保存更改并发布到规则。
 
 ## 使用Launch自定义代码编辑器安装插件
 
