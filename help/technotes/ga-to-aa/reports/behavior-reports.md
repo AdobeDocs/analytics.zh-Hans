@@ -2,7 +2,7 @@
 title: Adobe Analytics中的行为报告
 description: 了解如何在Adobe Analytics中创建行为报告
 translation-type: tm+mt
-source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
+source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
 1. 单击左侧的可视化图标，然后将流可视化拖到自由格式表上方的工作区上
 2. 找到页 **面维** ，然后单击箭头图标以显示页面值。 尺寸值为黄色。
 3. 找到要开始的所需页面值，并将其拖动到中心标有“维度或项目”的空间中
-4. 此流报告是交互式的。 单击任意值可将流展开到后续或上一页。 使用右键单击菜单可展开或折叠列。 同一流量报告中也可以使用不同的维度。
+4. 此流量报表是交互式的。单击任意值可将流量展开到后续或之前的页面。使用右键单击菜单可展开或折叠列。此外，还可以在同一流量报表中使用不同的维度。
 
 ![流量报告](/help/technotes/ga-to-aa/assets/flow.png)
 
@@ -33,7 +33,7 @@ source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
 
 作为替代方法，Adobe提供了若干名为模板的预创建工作区。 “内容消耗(Web)”模板提供的值与所有页面报表的值类似。
 
-1. 单击 *[!UICONTROL “项目]”(Project[!UICONTROL )&gt; “]*&#x200B;新建”(New)，此时将打开一个包含项目选项的模态窗口。
+1. 单击 *[!UICONTROL “项目]”(Project[!UICONTROL )> “]*新建”(New)，此时将打开一个包含项目选项的模态窗口。
 2. 单击内容消耗(Web)模板，然后单击创建。
 
 ## 站点内容——内容下钻
@@ -62,7 +62,7 @@ Adobe建议对此维 **度使用** “访问”量度。
 
 网站速度报告显示页面加载速度有多快，从而显示增加页面加载时间的机会。
 
-此功能需要在两个平台上实现额外功能；Adobe建议与实施顾问合作，以确保为Analysis Workspace正确配置此数据。 Performance Timing [插件通常分配给eVar](/help/implement/js-implementation/plugins/performancetiming.md) ，以在Adobe Analytics中获取性能数据。
+此功能需要在两个平台上实现额外功能；Adobe建议与实施顾问合作，以确保为Analysis Workspace正确配置此数据。 通 [常，getPageLoadTime插件分配给eVar](/help/implement/vars/plugins/getpageloadtime.md) ，以在Adobe Analytics中获取性能数据。
 
 ## 站点搜索报告
 
