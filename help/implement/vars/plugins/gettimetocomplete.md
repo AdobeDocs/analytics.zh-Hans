@@ -2,14 +2,14 @@
 title: getTimeToComplete
 description: 测量完成任务所花费的时间。
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe插件：getTimeToComplete
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics的使用中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
 
 该插 `getTimeToComplete` 件跟踪用户在网站上完成进程所花费的时间。 “时钟”在调用操作时开 `start` 始，在调用操作时 `stop` 结束。 如果网站上有一个工作流程需要一些时间才能完成，并且您希望了解访客完成该工作需要多长时间，Adobe建议使用此插件。 如果您站点上的工作流需要很短的时间（少于3秒），则不必使用此插件，因为粒度只下降到完整秒。
 
