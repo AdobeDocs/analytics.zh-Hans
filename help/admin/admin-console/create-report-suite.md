@@ -1,8 +1,8 @@
 ---
 title: 创建报表包
 description: 在 Adobe Analytics 中创建用于数据收集的基本容器。
-translation-type: ht
-source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
+translation-type: tm+mt
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -31,6 +31,8 @@ source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 使用相同的名称命名此报表包，但要在后面附加“- DEV”。由于此报表包将仅接收内部流量，因此预估的大小可以为最小值。
 1. 单击“下一步”，即可完成创建开发报表包。
 
+有关此模态窗口中的步骤的详细信息，请参阅“实 [施用户指南](/help/implement/prepare/implementation-modal.md) ”中的实施模态。
+
 ## 故障诊断
 
 **登录到 Experience Cloud 后，Analytics 图标显示为灰色。**
@@ -43,4 +45,4 @@ source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 
 ## 后续步骤
 
-[在 Launch 中创建并配置 Adobe Analytics 资产](/help/implement/implement-with-launch/create-analytics-property.md)：创建一个用于管理 Analytics 实施的区域
+[在 Launch 中创建并配置 Adobe Analytics 资产](/help/implement/launch/create-analytics-property.md)：创建一个用于管理 Analytics 实施的区域
