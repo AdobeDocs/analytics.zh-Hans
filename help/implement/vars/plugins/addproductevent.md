@@ -2,14 +2,14 @@
 title: addProductEvent
 description: 将自定义事件添加到产品和事件变量。
 translation-type: tm+mt
-source-git-commit: e08f3e168a779f9678a109d7f533761629cd38f3
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe插件：addProductEvent
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics的使用中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
 
 插 `addProductEvent` 件会向变量添加数字或货币事 `products` 件。 如果您希望向变量添加数字或货币事件而不担心产品字符串格式，Adobe `products` 建议使用此插件。 如果不在变量中使用数字或货币事件，则无需使用此插 `products` 件。
 
