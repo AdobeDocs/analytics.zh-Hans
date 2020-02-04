@@ -2,14 +2,14 @@
 title: formatTime
 description: 将秒数转换为以分钟、小时等为单位的等效时间。
 translation-type: tm+mt
-source-git-commit: e08f3e168a779f9678a109d7f533761629cd38f3
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe插件：formatTime
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics的使用中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
 
 该插 `formatTime` 件允许您花费任意秒数，并以分时段格式显示它们，舍入到所需的基准值。 如果您希望以秒为单位捕获时间值并将其转换为时段格式（如分钟、天或周）,Adobe建议使用此插件。 如果您不想将基于秒的值存储为时间舍入格式，则不需要此插件。
 
