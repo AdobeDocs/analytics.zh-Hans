@@ -4,7 +4,7 @@ title: 可选时间戳
 topic: Admin tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -19,11 +19,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 将加盖时间戳的数据从移动设备应用程序发送至全局报表包。
 * 升级应用程序以使用离线跟踪功能，而不必创建新的报表包。
 
-请参阅[使用可选时间戳](/help/implement/js-implementation/timestamps-overview.md)，以了解在报表包中使用时间戳的最佳做法。
-
->[!IMPORTANT]
->
->如果您正在使用可选时间戳，请不要在已加盖时间戳的数据上设置 [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html)。这可能会导致数据混乱，并且会对时间计算操作（例如，逗留时间值）、属性（eVar 持久性）、访问量/访问计数以及路径报表产生负面影响。
+> [!IMPORTANT] 如果使用“可选时间戳”，则不要对已设 [置时间戳的数据设置s.visitorID](/help/implement/vars/config-vars/visitorid.md) 。 这可能会导致数据混乱，并且会对时间计算操作（例如，逗留时间值）、属性（eVar 持久性）、访问量/访问计数以及路径报表产生负面影响。
 
 > [!NOTE] 启用了时间戳的会话数据会保存长达 92 天。这意味着访问/会话将“保持打开”92 天，而任何离上次点击未满 30 分钟（点击时间）的额外点击仍可能包含在同一访问/会话中。意外收到的任何“旧”点击将产生“未知”结果，因为有许多因素（分段、分配、过期设置等）都会影响是否要将这些点击包含在报表中。
 
@@ -31,7 +27,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 * 如果通过模板创建，则新报表包将默认使用“可选时间戳”。
 
-   （您可在以下位置通过模板新建报表包：**管理员 &gt; 报表包 &gt; 新建 &gt; 报表包**。）
+   （您可在以下位置通过模板新建报表包：**管理员 > 报表包 > 新建 > 报表包**。）
 * 如果从现有的报表包进行复制，则新报表包将继承原始报表包的时间戳设置，其中包括：
 
    * **禁用时间戳**（支持设置 s.visitorID）
@@ -40,7 +36,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 将现有报表包更改为“可选时间戳” {#section_40BCD3B4639241DEA716F7640ED33E72}
 
-1. 转到&#x200B;**管理员 &gt; 报表包 &gt; 编辑设置 &gt; 常规 &gt; 时间戳配置**。
+1. 转到&#x200B;**管理员 > 报表包 > 编辑设置 > 常规 > 时间戳配置**。
 1. 选中&#x200B;**将选定的报表包转换为可选时间戳**&#x200B;框。
 
    这会将您的报表包更改为“可选时间戳”。
