@@ -4,7 +4,7 @@ title: 隐私设置
 topic: Admin tools
 uuid: 517b1d9c-d36e-43c1-a796-1787785a8747
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 ---
 
@@ -13,4 +13,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 您可以启用浏览器 Cookie 的隐私设置。
 
-请参阅[启用浏览器 Cookie 的隐私设置](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/browser_cookie_settings.html)。
+请参 [阅核心服务用户指南中](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/browser-cookie-settings.html) ，为浏览器cookie启用隐私设置。
