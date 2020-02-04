@@ -4,7 +4,7 @@ title: Activity Map 常见问题解答
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
 
@@ -66,7 +66,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **问：为什么在 Activity Map 运行时无法收集链接点击数据？**
 
-答：使用 Activity Map 时，Analytics 标签无法收集链接点击数据。此行为与 ClickMap 插件的行为一致。
+答：使用 Activity Map 时，Analytics 标签无法收集链接点击数据。此行为遵循ClickMap插件的行为。
 
 **问：为什么量度下拉菜单多次列出同样的量度？**
 
@@ -86,7 +86,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 答：默认情况下，Activity Map 会使用与页面发送的第一个标签相关联的报表包。
 
-您可以通过“Activity Map 设置”&gt; 其他选项卡，选择带有标签的其他报表包。
+您可以通过“Activity Map 设置”> 其他选项卡，选择带有标签的其他报表包。
 
 **问：Activity Map 扫描 Analytics 标签要花多长时间？**
 
