@@ -5,7 +5,7 @@ title: 入门指南
 topic: Reports and analytics
 uuid: 851feadb-5e30-45ab-9f66-02bdf844fa54
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -16,7 +16,7 @@ Analysis Workspace 是 Adobe 的一款旗舰工具，可用于为您的组织制
 
 ## 先决条件
 
-[使用 Adobe Experience Platform Launch 将数据发送到 Adobe Analytics](/help/implement/implement-with-launch/validate-publish-prod.md)：使用 Analysis Workspace 需要有效的实施。在使用这款工具之前，请确保您的组织正在向 Adobe 发送数据。其他实施（如 DTM 或旧版手动实施）也可以正常工作。
+[使用 Adobe Experience Platform Launch 将数据发送到 Adobe Analytics](/help/implement/launch/validate-publish-prod.md)：使用 Analysis Workspace 需要有效的实施。在使用这款工具之前，请确保您的组织正在向 Adobe 发送数据。其他实施（如 DTM 或旧版手动实施）也可以正常工作。
 
 ## 在工作区中提取基本的排名报表
 
@@ -30,7 +30,7 @@ Analysis Workspace 是 Adobe 的一款旗舰工具，可用于为您的组织制
 6. 在左侧，您应该会看到维度、量度、区段和日期范围的列表。找到“页面”维度（橙色），并将其拖动到画布上，其中显示“将维度放置在此处”。
 7. 请注意，如果报表包包含数据，则可以看到显示当月热门页面的报表。Analysis Workspace 会自动使用[发生次数](/help/components/c-variables/c-metrics/metrics-occurrences.md)量度填充报表。
 8. 找到“访问次数”量度（绿色），将其拖动到“发生次数”量度标头的&#x200B;**上面**&#x200B;或&#x200B;**旁边**（避免将“访问次数”量度置于“发生次数”的上方）。如果将“访问次数”量度拖动到“发生次数”的上方，则报表中的“发生次数”量度会被替换。如果将“访问次数”量度拖动到“发生次数”旁边，则这两个量度会并排显示。
-9. 如果要保存项目，请单击左上角菜单中的&#x200B;*[!UICONTROL 项目]&gt;[!UICONTROL 保存]*。
+9. 如果要保存项目，请单击左上角菜单中的&#x200B;*[!UICONTROL 项目]>[!UICONTROL 保存]*。
 
 ## 在工作区中提取基本的趋势报表
 
@@ -46,13 +46,13 @@ Analysis Workspace 是 Adobe 的一款旗舰工具，可用于为您的组织制
 8. 在左侧的日期范围组件列表中找到“周”日期范围（紫色）。单击日期范围标题可展开并查看所有日期范围组件，或使用搜索栏。
 9. 将“周”日期范围拖动到画布上的“日”日期范围标题上方可将其替换。
 10. 请注意，现在按“周”而不是按“日”来汇总您的趋势报表。
-11. 如果要保存项目，请单击左上角菜单中的&#x200B;*[!UICONTROL 项目]&gt;[!UICONTROL 保存]*。
+11. 如果要保存项目，请单击左上角菜单中的&#x200B;*[!UICONTROL 项目]>[!UICONTROL 保存]*。
 
 ## 试用该工具
 
 由于 Analysis Workspace 是一款报表工具，因此不会对数据收集产生任何影响。您可以不加选择地将组件拖到项目中来查看具体效果，这不会产生任何影响。将不同的维度和量度组合拖动到工作区项目中，可查看相应的效果。
 
-如果意外地将无效组件拖动到工作区项目，或者希望返回到上一个步骤，请按 Ctrl + Z (Windows) 或 cmd + Z (Mac) 以撤消上一个操作。此外，您还可以通过单击左上角菜单中的&#x200B;*[!UICONTROL 项目]&gt;[!UICONTROL 新建]*&#x200B;来重头开始创建。
+如果意外地将无效组件拖动到工作区项目，或者希望返回到上一个步骤，请按 Ctrl + Z (Windows) 或 cmd + Z (Mac) 以撤消上一个操作。此外，您还可以通过单击左上角菜单中的&#x200B;*[!UICONTROL 项目]>[!UICONTROL 新建]*来重头开始创建。
 
 ## 故障诊断
 
@@ -73,7 +73,7 @@ Analysis Workspace 是 Adobe 的一款旗舰工具，可用于为您的组织制
 
 * [Analysis Workspace 发行说明](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)：仔细研读该工具中引入的最新功能。
 * [YouTube 上的 Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)：通过这个内容丰富的播放列表，了解如何使用 Analysis Workspace 中的大多数功能。
-* 产品内提示：Analysis Workspace 的右下角不时会显示“每日提示”和一些简短视频。如果取消这些提示，您可以随时通过&#x200B;*[!UICONTROL 帮助]&gt;[!UICONTROL 提示]*&#x200B;来访问它们。
+* 产品内提示：Analysis Workspace 的右下角不时会显示“每日提示”和一些简短视频。如果取消这些提示，您可以随时通过&#x200B;*[!UICONTROL 帮助]>[!UICONTROL 提示]*来访问它们。
 * [Analysis Workspace 社区](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace)：与同事讨论 Analysis Workspace，并就您希望在工具中看到的功能进行投票。
 * 博客文章：
    * [使组织拥有更智能的分析功能](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/)
