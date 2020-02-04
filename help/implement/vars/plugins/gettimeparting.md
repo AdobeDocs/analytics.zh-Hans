@@ -2,14 +2,14 @@
 title: getTimeParting
 description: 测量特定操作发生的时间。
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe插件：getTimeParting
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics的使用中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
 
 该插 `getTimeParting` 件允许您捕获网站上发生任何可衡量活动的详细时间。 当您希望按给定日期范围内的任何可重复时间划分指标时，此插件很有价值。 例如，您可以比较一周中两个不同天的转化率，如所有星期日与所有星期四。 您还可以比较一天中的时段，如所有早晨与所有晚上。
 
