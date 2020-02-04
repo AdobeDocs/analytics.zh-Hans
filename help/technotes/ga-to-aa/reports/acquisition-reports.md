@@ -2,7 +2,7 @@
 title: Adobe Analytics中的客户获取报告
 description: 了解如何使用Analysis Workspace创建基于客户获取的报告。
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
 
@@ -77,7 +77,7 @@ Adobe使用Analysis Workspace中称为Advertising Analytics的功能从包括Goo
 
 社交报告提供的信息与其各自的“行为”报告类似，社交网络上下文除外。 通过将维与段组合，此数据在Analysis Workspace中可用。
 
-有时，访客通过同一会话中的多个渠道访问您的网站。 例如，访客单击社交媒体页面，然后在几分钟后访问搜索引擎以访问您的网站。 在这些情况下，非社交域可能显示在此报表中。 如果要排除非社交域，请按访问对报表排序，或创建基于点击而非访问的区段副本。 有关详 [细信息，请参阅](/help/components/c-segmentation/seg-overview.md) “组件”用户指南中的分段容器。
+有时，访客通过同一会话中的多个渠道访问您的网站。 例如，访客单击社交媒体页面，然后在几分钟后访问搜索引擎以访问您的网站。 在这些情况下，非社交域可能显示在此报表中。 如果要排除非社交域，请按访问对报表排序，或创建基于点击而非访问的区段副本。 See [Segmentation Containers](/help/components/c-segmentation/seg-overview.md) in the Components user guide for more information.
 
 ### 社交——网络引用
 
@@ -101,7 +101,7 @@ Adobe使用Analysis Workspace中称为Advertising Analytics的功能从包括Goo
 
 ### 社交——插件
 
-“插件”报告显示访客如何与网站上嵌入的社交媒体插件进行交互。 Analysis Workspace中需要进一步实施。 Adobe建议与实施顾问合作，以确保准确收集这些数据。
+“插件”报告显示访客如何与您网站上嵌入的社交媒体插件交互。 Analysis Workspace中需要进一步实施。 Adobe建议与实施顾问合作，以确保准确收集这些数据。
 
 ### 社交——用户流
 
@@ -111,7 +111,7 @@ Adobe使用Analysis Workspace中称为Advertising Analytics的功能从包括Goo
 2. 单击左侧的组件图标，然后将“从社交站点访问”区段拖 **** 动到流可视化上方标有“将区段拖放到此处”的小区域。
 3. 找到页 **面维** ，然后单击箭头图标以显示页面值。 尺寸值为黄色。
 4. 找到要开始的所需页面值，并将其拖动到中心标有“维度或项目”的空间中
-5. 此流报告是交互式的。 单击任意值可将流展开到后续或上一页。 使用右键单击菜单可展开或折叠列。 同一流量报告中也可以使用不同的维度。
+5. 此流量报表是交互式的。单击任意值可将流量展开到后续或之前的页面。使用右键单击菜单可展开或折叠列。此外，还可以在同一流量报表中使用不同的维度。
 
 ## 营销活动——全部
 
