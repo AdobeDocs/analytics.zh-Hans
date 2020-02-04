@@ -3,7 +3,7 @@ description: 部署此集成是一个简单的3步过程。
 title: 部署集成
 uuid: c578bf26-34c2-44ea-8e60-2990273f8659
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    ![](assets/selligent-variables.png)
 
-1. **数据设置**:除了3个自动合作伙伴区段 **[!UICONTROL 外，您还可以在]** “区段”下选择 **[!UICONTROL 您自己的区段]** 。
+1. **数据设置**:除了3个自动合作伙伴区段 **[!UICONTROL 外，您还可以在]**“区段”下选择**[!UICONTROL &#x200B;您自己的区段]** 。
 
 1. 此集成可能需要将几个数据点下载到您的Selligent帐户。 您可以在“访问请求”下选择授予相同 **[!UICONTROL 权限]**。
 1. 在“ **[!UICONTROL 数据收集]**”下，选择自动或手动解决方案（JavaScript插件），以从登录页面URL中收集查询字符串参数。 如果选择自动解决方案，请为消息ID和收件人ID输入查询字符串参数（分别为MID和RID）。 有关JavaScript插件，请与Adobe顾问联系。
@@ -64,7 +64,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ### 集成活动日志 {#section-927e270495db479fba9578915d9ae9c9}
 
-导航到Data Connectors中的Selligent集成。 在支持 **[!UICONTROL 选项卡下]** ，您应当看到成功导入的度量数据和／或分类数据等事件：
+导航到Data Connectors中的Selligent集成。 在支持 **[!UICONTROL 选项卡下]**，您应当看到成功导入的度量数据和／或分类数据等事件：
 
 ![](assets/selligent-verifying.png)
 
@@ -74,4 +74,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 1. 转到Adobe Experience cloud下的“报告与分析”。
 1. 选择适当的报表包。
-1. 在“自 **[!UICONTROL 定义转换]**”下，选择“ **[!UICONTROL 消息ID报告]** ”，然后选择“ **[!UICONTROL 消息ID/消息名称”]**。
+1. 在“自 **[!UICONTROL 定义转换]**”下，选择“**[!UICONTROL &#x200B;消息ID报告]** ”，然后选择“ **[!UICONTROL 消息ID/消息名称”]**。
