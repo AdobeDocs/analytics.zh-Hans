@@ -4,14 +4,16 @@ keywords: privacy
 title: 隐私概述
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 ---
 
 
 # 隐私概述
 
-有关 Adobe Analytics 所收集数据和其他隐私注意事项的概述。
+Adobe 建议您向网站访客提供易于查找且通俗易懂的信息，让访客可以选择禁止 Adobe 产品或服务收集其浏览信息。
+
+访问者可以进一步了解Adobe通常如何使用在 [Adobe隐私中心收集的信息](https://www.adobe.com/privacy.html)。 您的组织应披露您如何使用Adobe的产品和服务，因为您的组织只控制如何实施Adobe的服务。 您负责创建自己的隐私政策，遵循您的隐私政策，您与 Adobe 之间的服务协议，以及所有适用法律。
 
 ## 数据收集划分 {#section_F59D958D7AE44747846993E643CD4BF2}
 
