@@ -2,14 +2,14 @@
 title: getResponsiveLayout
 description: 确定当前正在查看网站的哪个布局。
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe插件：getResponsiveLayout
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics的使用中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
 
 该插 `getResponsiveLayout` 件可让您跟踪访客当前正在查看的基于设计的响应式网站的哪个版本。 如果您的站点使用响应式设计并希望跟踪访客查看的站点版本，则Adobe建议使用此插件。 如果您的站点不使用响应式设计，则不需要此插件。
 
