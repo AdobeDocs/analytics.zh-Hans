@@ -2,14 +2,14 @@
 title: cleanStr
 description: 从字符串中删除或替换所有不必要的字符。
 translation-type: tm+mt
-source-git-commit: e08f3e168a779f9678a109d7f533761629cd38f3
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe插件：cleanStr
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics的使用中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
 
 该插 `cleanStr` 件可删除或替换字符串中所有不必要的字符，包括HTML标记字符、额外的空格、制表符和换行／回车符。 它还替换左／右单引号(`‘` 和 `’`)直单引号(`'`)。 如果您希望从变量值中删除不必要的字符，并且Launch中的“清理文本”功能无法满足您的实施需求，则Adobe建议使用此插件。 如果收集的数据不包含不必要的字符，或者Launch中的“清理文本”功能足够，则无需此插件。
 
