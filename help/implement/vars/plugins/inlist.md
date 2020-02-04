@@ -2,14 +2,14 @@
 title: inList
 description: 检查另一个以字符分隔的值中是否包含值。
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe插件：inList
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics的使用中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
 
 该插 `inList` 件允许您检查分隔字符串或JavaScript数组对象中是否已存在一个值。 其他几个插件的工 `inList` 作方式取决于插件。 与JavaScript方法相比，该插件具有一个明显的优 `indexOf()` 势，即它不匹配部分字符串。 例如，如果您使用此插件检查 `"event2"`，它与包含的字符串不匹配 `"event25"`。 如果您不需要检查分隔字符串或数组中的值，或者如果您要使用您自己的逻辑，则不需要此插 `indexOf()` 件。
 
