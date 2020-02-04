@@ -2,14 +2,14 @@
 title: getValOnce
 description: 防止将Analytics变量设置为一行中的相同值两次。
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe插件：getValOnce
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics的使用中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
 
 插 `getValOnce` 件可防止将变量设置为等于同一值多次。 当您希望删除访客刷新页面或以其他方式多次访问给定页面的重复出现时，Adobe建议使用此插件。 如果您不担心Analysis Workspace中的“发生次数”量度，则不必使用此插件。
 
