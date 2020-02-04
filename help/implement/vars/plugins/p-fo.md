@@ -2,14 +2,14 @@
 title: p_fo（仅限页面优先）
 description: 确保某些例程每页只触发一次。
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe插件：p_fo（仅限页面优先）
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics的使用中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
 
 插 `p_fo` 件是检查特定JavaScript对象是否存在的实用程序。 如果该对象不存在，则插件将创建该对象并返回 `true`。 如果页面上已存在JavaScript对象，则返回该对象 `false`。 此插件对于在页面上仅运行一次代码非常有用。 其他几个插件依赖此代码才能工作。 如果您不担心某个页面上的代码运行次数或未使用任何相关插件，则无需使用此插件。
 
