@@ -1,8 +1,8 @@
 ---
 title: Cross-Device Analytics 常见问题解答
 description: Cross-Device Analytics 常见问题解答
-translation-type: ht
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+translation-type: tm+mt
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -35,7 +35,7 @@ Adobe 将带有时间戳的点击视为在时间戳时间（而不是 Adobe 收�
 
 **CDA 与自定义访客 ID 有何异同？**
 
-[自定义访客 ID](/help/implement/js-implementation/c-unique-visitors/visid-custom.md) 是[跨设备连接用户](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md)的传统方法。对于自定义访客 ID，您可以使用 `s.visitorID` 变量明确设置用于访客逻辑的 ID。`s.visitorID` 变量会覆盖任何存在的基于 Cookie 的 ID。请参阅实施用户指南中的[识别独特访客](/help/implement/js-implementation/c-unique-visitors/visid-overview.md)，以了解详细信息。
+[自定义访客 ID](/help/implement/vars/config-vars/visitorid.md) 是[跨设备连接用户](/help/implement/js/xdevice-visid/xdevice-connecting.md)的传统方法。对于自定义访客 ID，您可以使用 `s.visitorID` 变量明确设置用于访客逻辑的 ID。`s.visitorID` 变量会覆盖任何存在的基于 Cookie 的 ID。
 
 自定义访客 ID 具有许多不良副作用，而 CDA 则可克服或最大限度地减少这些副作用。例如，自定义访客 ID 方法没有回顾功能。如果用户在访问过程中进行身份验证，则访问的前面部分与访问的后面部分会关联不同的访客 ID。单独的访客 ID 会导致访问和访客数夸大。CDA 的 30 天回顾窗口允许其及时回溯，以便重新声明之前的行为属于同一用户，从而将未经身份验证的跨设备行为与经过身份验证的跨设备行为结合在一起，同时消除或最大限度地减少数量夸大情况。
 
