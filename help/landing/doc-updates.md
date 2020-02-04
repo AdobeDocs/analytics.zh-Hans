@@ -3,7 +3,7 @@ title: Adobe Analytics 文档更新
 description: Adobe Analytics 技术文档更新
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 1fdc279fc7e7c1de11f68a8bf2555910e227d3c1
 
 ---
 
@@ -20,7 +20,9 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 | 页面 | 描述 |
 |---|---|
-| 2020 年 1 月 22 日 | 更新了“自由格式表”页，其中包含有关新的自由格式表 [生成器的信息](/help/analyze/analysis-workspace/visualizations/freeform-table.md) |
+| 2020年2月4日 | 全面重写实 [施用户指南](../implement/home.md)。 |
+| 2020 年 1 月 22 日 | 更新了“自由格式表”页，其中包含有关新的自由格式表 [生成器的信息](/help/analyze/analysis-workspace/visualizations/freeform-table.md)。 |
+| 2020 年 1 月 13 日 | 添加 [了Adobe Analytics和浏览器cookie](../technotes/cookies.md)。 |
 | 2019 年 11 月 29 日 | 全面修订了[数据馈送文档](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 2019 年 11 月 25 日 | 新增了[“强制 IP 登录限制”终止使用](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html)主题 |
 | 2019 年 11 月 25 日 | 新增了[内部（会话刷新）营销渠道](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html)主题 |
