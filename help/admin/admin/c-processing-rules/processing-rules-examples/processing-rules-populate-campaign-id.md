@@ -5,7 +5,7 @@ title: 通过查询字符串参数填充促销活动 ID
 topic: Admin tools
 uuid: 2bc61f9f-d8d2-41b7-bd39-4a9df30ff013
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 您可以使用查询字符串参数填充变量。
 
-在大多数情况下，您使用插件从查询字符串填充变量。如果发生拼写错误或类似问题妨碍了填充值，则可以使用处理规则填充变量。
+在大多数情况下，您可以使用插件从查询字符串填充变量。 如果发生拼写错误或类似问题妨碍了填充值，则可以使用处理规则填充变量。
 
 在覆盖之前，应始终检查值是否为空或包含所需的值。
 
