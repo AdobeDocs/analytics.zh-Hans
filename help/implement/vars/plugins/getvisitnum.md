@@ -2,14 +2,14 @@
 title: getVisitNum
 description: 跟踪访客的当前访问次数。
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe插件：getVisitNum
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics的使用中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
 
 该 `getVisitNum` 插件会返回在所需天数内访问网站的所有访客的访问次数。 Analysis Workspace提供了一个“访问次数”维度，该维度提供类似的功能。 如果您希望对访问次数的递增方式有更多控制权，Adobe建议使用此插件。 如果Analysis Workspace中内置的“访问次数”维度足以满足您的报告需求，则不必使用此插件。
 
