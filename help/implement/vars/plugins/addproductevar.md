@@ -2,14 +2,14 @@
 title: addProductEvar
 description: 将销售eVar添加到产品变量。
 translation-type: tm+mt
-source-git-commit: e08f3e168a779f9678a109d7f533761629cd38f3
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe插件：addProductEvar
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics的使用中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
 
 该插 `addProductEvar` 件允许您轻松地将使用产品语法的Adobe Analytics销售eVar添加到产品变量中，而不必担心产品变量的现有内容是否会被更改／移动／删除。 如果您希望将产品语法推销eVar轻松添加到变量，Adobe建议使用此插 `products` 件。 如果不将销售eVar与产 `addProductEvar` 品语法一起使用，则无需使用插件。
 
