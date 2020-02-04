@@ -2,14 +2,14 @@
 title: getNewRepeat
 description: 跟踪新访客与重复访客的活动。
 translation-type: tm+mt
-source-git-commit: aa4e1e71b8962fca8c880b9efe2b0a2b8b9e1360
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe插件：getNewRepeat
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics的使用中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
 
 该插 `getNewRepeat` 件允许您确定网站访客是新访客还是在所需天数内的重复访客。 如果您希望使用自定义天数将访客识别为“新”访客，Adobe建议使用此插件。 如果Analysis Workspace中的新访客／重复访客维度满足您组织的需求，则无需使用此插件。
 
