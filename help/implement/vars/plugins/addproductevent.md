@@ -2,7 +2,7 @@
 title: addProductEvent
 description: 将自定义事件添加到产品和事件变量。
 translation-type: tm+mt
-source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
+source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 ---
 
@@ -21,10 +21,13 @@ Adobe提供了一个扩展，允许您使用最常用的插件。
 1. 单击所需的属性。
 1. 转到“扩 [!UICONTROL 展] ”选项卡，然后单击“目 [!UICONTROL 录] ”按钮
 1. 安装和发布 [!UICONTROL Common Analytics插件扩展]
-1. 对于要使用插件的任何启动规则，请添加一个具有以下配置的操作：
+1. 如果尚未创建，请使用以下配置创建标有“初始化插件”的规则：
+   * 条件：无
+   * 事件：核心——载入的库（页面顶部）
+1. 使用以下配置向上述规则添加操作：
    * 扩展：常见分析插件
-   * 操作类型：初始化addProductEvar
-1. 保存更改并发布到规则
+   * 操作类型：初始化addProductEvent
+1. 保存更改并发布到规则。
 
 ## 使用Launch自定义代码编辑器安装插件
 
