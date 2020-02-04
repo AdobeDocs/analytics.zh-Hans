@@ -1,8 +1,8 @@
 ---
 title: 创建解决方案设计文档
 description: 了解解决方案设计文档是什么，以及如何在组织中使用它。
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 先决条件
 
-[验证 Analytics 实施并发布到生产环境](../implement-with-launch/validate-publish-prod.md) - 虽然没有直接要求，但 Adobe 建议实现一个基本实施，以便在建立和实施其他业务需求的同时收集关键数据。
+[验证 Analytics 实施并发布到生产环境](../launch/validate-publish-prod.md) - 虽然没有直接要求，但 Adobe 建议实现一个基本实施，以便在建立和实施其他业务需求的同时收集关键数据。
 
 ## 设计文档的所有权和存放位置
 
@@ -41,14 +41,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 定义解决方案设计文档是一个相当复杂的项目，尤其是对于以前从未创建过此类文档的组织而言。如果需要其他帮助，Adobe 将会为您提供专门的咨询服务，以帮助贵组织启动并运行 Adobe Analytics。如果希望获得 Adobe 的专业服务，请与您的客户经理联系。您可以填写一份[技术实施前调查问卷](assets/technical-pre-implementation-questionnaire.pdf)，以便 Adobe 知道如何根据贵组织的需求提供帮助。
 
 另外还有一些 Adobe 合作伙伴专门负责帮助创建解决方案设计文档，以及在您的网站上实施 Adobe Analytics。
-
-> [!NOTE] 尽管 Analytics 社区成员发现以下链接很有帮助，但这些链接并不归 Adobe 所有。查看其内容时，请注意这一点。
-
-* [设置 Web Analytics 解决方案设计的 7 个步骤](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance)，由 ObservePoint 提供
-* [数字分析流程框架](https://analyticsdemystified.com/analytics-strategy/framework-digital-analytics-process/)，由 Analytics Demystified 提供
-* [解决方案设计参考实际上是您的 BFF](http://numericanalytics.com/why-a-simple-piece-of-documentation-is-the-key-to-analytics-success-the-solution-design-reference-is-actually-your-bff/)，由 Numeric Analytics 提供
-* [如何制作 Adobe Analytics 标记图](http://www.anttikoski.fi/how-to-make-adobe-analytics-tagging-map-aka-solution-design-requirements-for-sitecatalyst-implementation/)，由 Antti Koski 提供
-* [解决方案设计文档的重要性](https://www.ebiquity.com/news-insights/analytics/the-importance-of-the-solution-design-document)，由 Ebiquity 提供
 
 ## 后续步骤
 
