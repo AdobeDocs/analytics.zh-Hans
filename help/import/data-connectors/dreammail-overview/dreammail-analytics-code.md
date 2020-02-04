@@ -1,14 +1,14 @@
 ---
 description: 如果选择了JavaScript插件数据收集方法，请复制以下几行代码并将它们添加到页面上的Analytics代码中。
-title: Analytics插件代码
+title: Analytics 插件代码
 uuid: c75a6cd2-ee7a-4c2f-98a8-4618d0617b4f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
 
 
-# Analytics插件代码{#analytics-plug-in-code}
+# Analytics 插件代码{#analytics-plug-in-code}
 
 如果选择了JavaScript插件数据收集方法，请复制以下几行代码并将它们添加到页面上的Analytics代码中。
 
