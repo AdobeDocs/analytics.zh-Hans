@@ -2,7 +2,7 @@
 title: eVar
 description: 可在实施中使用的自定义变量。
 translation-type: tm+mt
-source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
+source-git-commit: dcb69257fd29686ae346cf4d0cf50ed041ebcbbc
 
 ---
 
@@ -54,6 +54,8 @@ s.eVar1 = "+12.49";
 
 如果小数超过两位，则 eVar 计数器舍入为两位小数。eVar计数器不能包含负数。
 
+> [!IMPORTANT] 必须首先在管理控制台中将eVar配置为“计数器”，然后才能使用计数器eVar。 See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
+
 ## prop或eVar的独有优势
 
 在Adobe Analytics的当前版本中，prop和eVar都是具有类似功能的自定义变量。 但是，它们有几个主要区别：
@@ -61,4 +63,4 @@ s.eVar1 = "+12.49";
 * Prop中的数据在几分钟内即可在报告中使用。 eVar在报告中可能需要超过30分钟才能显示。
 * Prop在报表中具有100字节的限制。 eVar有255字节的限制。
 * Prop能够成为列表Prop，它们在同一点击中接受多个值。 列表变量是单独的变量，只有三个列表变量可用。
-* 默认情况下，Prop不会在设置的点击之外保留。 eVar具有自定义过期时间，允许您确定eVar何时不再获得后续活动的信用。 如果您使 [用报告时间处理](../../../components/vrs/vrs-report-time-processing.md),prop和eVar都可以使用您喜欢的任何归因模型。
+* 默认情况下，Prop不会在设置的点击之外保留。 eVar具有自定义过期时间，允许您确定eVar何时不再获得后续活动的信用。 但是，如果您使用报 [告时间处理](../../../components/vrs/vrs-report-time-processing.md), prop和eVar都可以使用自定义归因模型。
