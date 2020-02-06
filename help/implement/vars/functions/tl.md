@@ -2,7 +2,7 @@
 title: tl
 description: 向Adobe发送链接跟踪调用。
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
 
 ---
 
@@ -18,11 +18,11 @@ source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
 Launch有一个专用位置，可设置链接跟踪调用。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. 单击所需的属性。
-3. 转到“规 [!UICONTROL 则] ”选项卡，然后单击所需的规则（或创建规则）。
-4. 在“ [!UICONTROL 操作]”下，单击“+”图标
-5. 将“扩 [!UICONTROL 展] ”下拉列表设置为Adobe Analytics，将“操作类 [!UICONTROL 型”设置为] “发送信标”。
-6. Click the `s.tl()` radio button.
+1. 单击所需的属性。
+1. 转到“规 [!UICONTROL 则] ”选项卡，然后单击所需的规则（或创建规则）。
+1. 在“ [!UICONTROL 操作]”下，单击“+”图标
+1. 将“扩 [!UICONTROL 展] ”下拉列表设置为Adobe Analytics，将“操作类 [!UICONTROL 型”设置为] “发送信标”。
+1. Click the `s.tl()` radio button.
 
 不能在启动项中设置任何可选参数。
 
