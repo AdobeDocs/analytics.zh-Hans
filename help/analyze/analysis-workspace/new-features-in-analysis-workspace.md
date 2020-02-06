@@ -5,7 +5,7 @@ title: Analysis Workspace 中的新增功能
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
+source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 | 功能 | 描述 |
 |--- |--- |
-| [自由格式表生成器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | 启用表生成器后，您可以通过拖放多个维度、细分、量度和区段来构建可解答更复杂业务问题的表。数据不会立即更新。相反，单击&#x200B;**[!UICONTROL 生成]**后才会进行更新，这样可在您知道自己要构建什么表的情况下节省您的时间。此外，此功能还提供：<ul><li>**预览**：您可以先预览表的格式，然后再花费时间渲染实际数据。</li><li>**灵活的行和划分设置**：您可以为每个维度行设置行级别和划分级别。以前，工作区施加了一些默认值，这些默认值在返回数据之前无法更改。</li><li>**按状态划分**：您可以将维度行设置为始终&#x200B;_按状态划分_&#x200B;而不是&#x200B;_按特定项目_（默认值）划分。</li><li>**手动静态行排序**：您可以手动对静态行进行排序，以使表行完全按照您的需要显示。以前，静态行只能按度量列或按字母顺序排序。</li></ul> |
+| [自由格式表生成器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | 启用表生成器后，您可以通过拖放多个维度、细分、量度和区段来构建可解答更复杂业务问题的表。数据不会立即更新。相反，单击&#x200B;**[!UICONTROL 生成]**&#x200B;后才会进行更新，这样可在您知道自己要构建什么表的情况下节省您的时间。此外，此功能还提供：<ul><li>**预览**：您可以先预览表的格式，然后再花费时间渲染实际数据。</li><li>**灵活的行和划分设置**：您可以为每个维度行设置行级别和划分级别。以前，工作区施加了一些默认值，这些默认值在返回数据之前无法更改。</li><li>**按状态划分**：您可以将维度行设置为始终&#x200B;_按状态划分_&#x200B;而不是&#x200B;_按特定项目_（默认值）划分。</li><li>**手动静态行排序**：您可以手动对静态行进行排序，以使表行完全按照您的需要显示。以前，静态行只能按度量列或按字母顺序排序。</li></ul> |
 
 ## 2019 年 10 月
 
@@ -26,9 +26,9 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 | 增强功能 | 描述 |
 |--- |--- |
-| 更新到自由格式表总计 | 现在，自由格式表包含两项总数统计： **[!UICONTROL 表格总计]** 和 **[!UICONTROL &#x200B;全部总计]**&#x200B;。表格总计行会将已应用的[报表过滤器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)计入在内。以前，只有区段会影响总数的计算。[了解更多](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>，此外，**[!UICONTROL ￼显示总数]** 和 **[!UICONTROL &#x200B;显示总计]** 选项已添加到&#x200B;**[!UICONTROL 列设置]**&#x200B;中。<br/>鉴于自由格式表的这项变化，与之相关的可视化图表（例如关联的&#x200B;**[!UICONTROL 概要数字]**&#x200B;可视化图表）也将进行相应的更新，导出的 CSV 和 PDF 数据同样也会更新。 |
+| 更新到自由格式表总计 | 现在，自由格式表包含两项总数统计：**[!UICONTROL 表格总计]**&#x200B;和&#x200B;**[!UICONTROL 全部总计]**。表格总计行会将已应用的[报表过滤器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)计入在内。以前，只有区段会影响总数的计算。[了解更多](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>，此外，**[!UICONTROL ￼显示总数]**&#x200B;和&#x200B;**[!UICONTROL 显示总计]**&#x200B;选项已添加到&#x200B;**[!UICONTROL 列设置]**&#x200B;中。<br/>鉴于自由格式表的这项变化，与之相关的可视化图表（例如关联的&#x200B;**[!UICONTROL 概要数字]**&#x200B;可视化图表）也将进行相应的更新，导出的 CSV 和 PDF 数据同样也会更新。 |
 | 用于删除“未指定”/“无”的选项 | 一个可以轻松删除“未指定（无）”的选项已经添加到报表过滤器。 |
-| 弃用紫色粒度组件 | 已弃用紫色的时间粒度组件（分钟、小时、日、周、月、季度、年）。紫色时间组件与对应的橙色维度组件的功能是一样的，因此这项更改将简化这方面的使用体验。即使之前使用了某个紫色时间组件，您也&#x200B;**无需执行任何操作**。<br/>此外，根据这项变化，紫色的&#x200B;**[!UICONTROL 时间]**部分已重命名为**[!UICONTROL &#x200B;日期范围]**。 |
+| 弃用紫色粒度组件 | 已弃用紫色的时间粒度组件（分钟、小时、日、周、月、季度、年）。紫色时间组件与对应的橙色维度组件的功能是一样的，因此这项更改将简化这方面的使用体验。即使之前使用了某个紫色时间组件，您也&#x200B;**无需执行任何操作**。<br/>此外，根据这项变化，紫色的&#x200B;**[!UICONTROL 时间]**&#x200B;部分已重命名为&#x200B;**[!UICONTROL 日期范围]**。 |
 
 ## 2019 年 8 月
 
@@ -584,7 +584,7 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
    <td colname="col2"> <p>您现在可以“全部清除”工作区中以下区域的所有元素，而不必手动删除每个元素。 </p> 
     <ul id="ul_73E06D64CDCA4E83B9FEC2FD99D41CD3"> 
      <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC"  >“贡献分析”中“排除的组件”</a> </li> 
-     <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/compare-segments.md">“区段比较”中“排除的组件”</a> </li> 
+     <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md">“区段比较”中“排除的组件”</a> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -945,7 +945,7 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 2016 年 6 月 16 日发布的新功能：
 
-* [新的组权限](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)让管理员可以允许或拒绝用户访问 **[!UICONTROL Analytics]**>**[!UICONTROL &#x200B;工作区]**选项卡。自 2016 年 6 月 16 日开始，所有用户都将拥有访问此选项卡的权限。要拒绝访问，只需要从“Analysis Workspace 访问”组中删除用户即可。
+* [新的组权限](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)让管理员可以允许或拒绝用户访问 **[!UICONTROL Analytics]** > **[!UICONTROL 工作区]**&#x200B;选项卡。自 2016 年 6 月 16 日开始，所有用户都将拥有访问此选项卡的权限。要拒绝访问，只需要从“Analysis Workspace 访问”组中删除用户即可。
 * The[区段比较面板](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)通过自动分析您有权访问的每个量度和维度，可发现任意两个区段之间的最显著统计学差异。
 * [新的项目菜单结构](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)重新排列了顶部菜单，提高了其可扩展性。例如，创建&#x200B;**新同类群组面板**&#x200B;的过程现在包括创建一个空白面板和拖入一个同类群组表可视化。
 * [新的左边栏](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：面板、可视化、组件
@@ -1010,11 +1010,11 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 此外，您还可以使用标准 Windows 和 Mac [键盘快捷键](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)（Ctrl + Z 或 cmd + Z）执行撤消操作。
 
-*`Undo`*功能在撤消表中的划分时特别有用。
+*`Undo`*&#x200B;功能在撤消表中的划分时特别有用。
 
-非&#x200B;*`not`*不可撤消的操作：
+非&#x200B;*`not`*&#x200B;不可撤消的操作：
 
-* 更改[!UICONTROL 同类群组表]的配置（例如，拖放量度、更改值）。但是，在单击&#x200B;**[!UICONTROL 运行]**后，您还可以单击**[!UICONTROL &#x200B;撤消]**。
+* 更改[!UICONTROL 同类群组表]的配置（例如，拖放量度、更改值）。但是，在单击&#x200B;**[!UICONTROL 运行]**&#x200B;后，您还可以单击&#x200B;**[!UICONTROL 撤消]**。
 
 * 调整面板和子面板大小，或者移动它们。
 
@@ -1061,17 +1061,17 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 ## 针对区段、量度和日期的另存为功能 {#section_04C8B10A0751453AAE5F1BC35938C6CE}
 
-在 Analysis Workspace 区段生成器中编辑现有（已保存）的区段时，单击&#x200B;**[!UICONTROL 另存为]**可生成一个副本。
+在 Analysis Workspace 区段生成器中编辑现有（已保存）的区段时，单击&#x200B;**[!UICONTROL 另存为]**&#x200B;可生成一个副本。
 
 ![](assets/segment-save-as.png)
 
 新区段显示在[!UICONTROL 组件]面板的[!UICONTROL 区段]组内。
 
-*`Save As`*还可用于[!UICONTROL 计算量度生成器]和[!UICONTROL 日期范围生成器]。
+*`Save As`*&#x200B;还可用于[!UICONTROL 计算量度生成器]和[!UICONTROL 日期范围生成器]。
 
 ## “添加新区段”按钮{#section_85CC88C02C79456EA2B41F2BFBB64FC4}
 
-**[!UICONTROL 添加新区段]**按钮已被添加到您将区段拖放到项目中的位置。
+**[!UICONTROL 添加新区段]**&#x200B;按钮已被添加到您将区段拖放到项目中的位置。
 
 ![](assets/add-new-segment.png)
 
@@ -1119,13 +1119,13 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 ## 图例可见 {#section_28D10D86CAE343AB838808C1DD2E7983}
 
-在[!UICONTROL 可视化设置]中，**[!UICONTROL 图例可见]**选项可显示或隐藏可视化的图例。
+在[!UICONTROL 可视化设置]中，**[!UICONTROL 图例可见]**&#x200B;选项可显示或隐藏可视化的图例。
 
 ![](assets/legend-visible.png)
 
 ## 将 Y 轴定位为 0 {#section_83DF5DE79EF04F9F8DCB3154F5E799B3}
 
-根据折线图和面积图的数字，Y 轴的底部可能不为 0。在&#x200B;**[!UICONTROL 可视化图设置]**中启用“[!UICONTROL 将 Y 轴定位为 0]”，可强制将 Y 轴设为 0，以便更加准确地查看趋势。以下示例显示收入图表在启用和禁用此设置的情况下有何变化：
+根据折线图和面积图的数字，Y 轴的底部可能不为 0。在&#x200B;**[!UICONTROL 可视化图设置]**&#x200B;中启用“[!UICONTROL 将 Y 轴定位为 0]”，可强制将 Y 轴设为 0，以便更加准确地查看趋势。以下示例显示收入图表在启用和禁用此设置的情况下有何变化：
 
 **将 Y 轴定位为 0 已禁用**
 
@@ -1143,4 +1143,4 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 管理员可以将 [!UICONTROL Analysis Workspace] 项目从一名用户转移到另一用户。
 
-导航至&#x200B;**[!UICONTROL 管理员]**>**[!UICONTROL &#x200B;用户管理]** > **[!UICONTROL 转移]**，以便转移项目。
+导航至&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 转移]**，以便转移项目。
