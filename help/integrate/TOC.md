@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Integration Guide
 user-guide-url: /content/help/en/analytics/integration/home.html
 translation-type: tm+mt
-source-git-commit: bd741125b0c68c490c0f7d54d56ce5280c512a12
+source-git-commit: 440b75f03e34ac3ccf75671323502b6e2bb50fdc
 
 ---
 
@@ -16,11 +16,6 @@ source-git-commit: bd741125b0c68c490c0f7d54d56ce5280c512a12
    + [Audience Analytics 概述](c-audience-analytics/mc-audiences-aam.md)
    + Audience Analytics 工作流程 {#audience-analytics-workflow}
       + [工作流程概述](c-audience-analytics/c-workflow/audiences-workflow.md)
-      + [服务器端转发概述 - 管理员指南](/help/admin/admin/c-server-side-forwarding/ssf.md)
-      + [GDPR/电子隐私合规性和服务器端转发 - 管理员指南](/help/admin/admin/c-server-side-forwarding/ssf-gdpr.md)
-      + [服务器端转发要求 - 管理员指南](/help/admin/admin/c-server-side-forwarding/ssf-requirements.md)
-      + [验证服务器端转发实施 - 管理员指南](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)
-      + [服务器端转发常见问题解答 - 管理员指南](/help/admin/admin/c-server-side-forwarding/ssf-faq.md)
       + [创建分析目标- AAM指南](https://docs.adobe.com/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
       + [在 Analytics 中使用受众数据](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Audience Analytics 用例](c-audience-analytics/aam-audience-use-cases.md)
