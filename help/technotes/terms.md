@@ -2,7 +2,7 @@
 title: Adobe Analytics中使用的术语
 description: Adobe Analytics词汇表，用于定义常用术语。
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 59956169308291e7607a2712cd63a802d7b8bd11
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 * **** 转换变量：俗称eVar。 存储自定义值，并保留变量值，直到其过期。 See [Conversion variables](/help/components/c-variables/dimensionslist/reports-conversion.md) in the Components user guide.
 * **** 关联：不再用作术语；替换为维度细分。 在Adobe Analytics的早期版本中，关联允许划分流量变量。 请参 [阅分析用户指南](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) 中的划分维度。
 * **** 当前数据：某些报告中的选项允许包含最近收集的尚未完全处理的数据。 请参 [阅分析用户指南](/help/analyze/reports-analytics/current-data.md) 中的当前数据。
-* **** 自定义链接：包含非页面视图数据的点击类型。 请参阅 [实施用户指南中的](../implement/vars/functions/tl.md) s.tl()函数。 另请参阅点击。
+* **** 自定义链接：包含非页面视图数据的点击类型。 请参阅 [实施用户指南中的](../implement/vars/functions/tl-method.md) s.tl()函数。 另请参阅点击。
 * **** 客户属性：Experience cloud的一项功能，允许上传属性数据。 请参 [阅核心服务](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) (Core services)用户指南中的客户属性。
 * **** 客户支持代表：已授权与Adobe客户关怀直接交互的指定用户。 请参 [阅Experience cloud知识库中](https://helpx.adobe.com/experience-cloud/supported-users.html) 的客户支持代表。
 * **** 数据收集服务器：接收和处理数据的Adobe自有服务器。 图像请求将发送到Adobe的数据收集服务器以用于报告。
@@ -87,8 +87,8 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 * **** 报告套件：发送数据至的总容器。 Adobe Analytics中的所有报告都引用了一个报告套件。
 * **** 滚动日期范围：随时间变化而更改的相对日期范围类型。 例如，显示最近7天的报表可视为滚动日期范围。 另请参阅静态日期范围。
 * **** RSID:报表包ID的缩写。 报表包同时具有易记名称和报表包ID。
-* **** s.t():发送页面查看图像请求的AppMeasurement库中函数的名称。 某些AppMeasurement库会改 `s.track()` 用它。 请参 [阅](../implement/vars/functions/t.md) 《实施用户指南》中的t。
-* **s<span>.</span>** tl():发送链接跟踪图像请求的AppMeasurement库中函数的名称。 某些AppMeasurement库会改 `s.trackLink()` 用它。 请参 [阅](../implement/vars/functions/tl.md) 《实施用户指南》中的tl。
+* **** s.t():发送页面查看图像请求的AppMeasurement库中函数的名称。 某些AppMeasurement库会改 `s.track()` 用它。 请参 [阅](../implement/vars/functions/t-method.md) 《实施用户指南》中的t。
+* **s<span>.</span>** tl():发送链接跟踪图像请求的AppMeasurement库中函数的名称。 某些AppMeasurement库会改 `s.trackLink()` 用它。 请参 [阅](../implement/vars/functions/tl-method.md) 《实施用户指南》中的tl。
 * **** s_code.js:在Adobe Analytics的历史版本中使用的JavaScript文件的名称。 使用的JavaScript文件的当前名称为AppMeasurement.js。
 * **** 卫星：不再用作术语。 动态标签管理的前产品名称。
 * **** 辅助服务器调用：图像请求或点击的替代名称，主要用于多套件标记和计费的上下文。 当同一点击被发送到多个报表包时，第一个列出的报表包之后的所有报表包都是辅助服务器调用。 另请参阅主服务器调用。
