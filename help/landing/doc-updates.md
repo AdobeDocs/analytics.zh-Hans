@@ -3,7 +3,7 @@ title: Adobe Analytics 文档更新
 description: Adobe Analytics 技术文档更新
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 1fdc279fc7e7c1de11f68a8bf2555910e227d3c1
+source-git-commit: 01bc8d216aa6deba062261e9e0371e257e5cfffd
 
 ---
 
@@ -13,13 +13,14 @@ source-git-commit: 1fdc279fc7e7c1de11f68a8bf2555910e227d3c1
 自 2019 年 1 月以来的 Adobe Analytics 文档集内容更新。
 
 * 有关新增功能、管理员声明和错误修复的完整列表，请参阅最新的 [Experience Cloud 发行说明](https://marketing.adobe.com/resources/help/en_US/whatsnew/)。
-* 有关 Analysis Workspace 新增功能的更多详细信息，请参阅[此主题](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)。
+* 有关新增功能的详细信息，请参 [阅分析用户指南中的](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) Analysis Workspace新增功能。
 * 有关 Adobe Analytics for Audio and Video 的信息，请参阅[在 Analytics 中测量音频和视频](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)。
 
 ## 更新详细信息
 
 | 页面 | 描述 |
 |---|---|
+| 2020 年 2 月 7 日 | 设置跨设 [备分析和常见问题解答的更新](../components/cda/cda-setup.md) (英 [文)](../components/cda/cda-faq.md) |
 | 2020年2月4日 | 全面重写实 [施用户指南](../implement/home.md)。 |
 | 2020 年 1 月 22 日 | 更新了“自由格式表”页，其中包含有关新的自由格式表 [生成器的信息](/help/analyze/analysis-workspace/visualizations/freeform-table.md)。 |
 | 2020 年 1 月 13 日 | 添加 [了Adobe Analytics和浏览器cookie](../technotes/cookies.md)。 |
