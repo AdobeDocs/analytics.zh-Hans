@@ -3,7 +3,7 @@ title: AppMeasurement for javaScript发行说明
 description: AppMeasurement for JavaScript 的发行说明汇总。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 033f17bda17f84fbb629d8adae18bb9769968d48
 
 ---
 
@@ -14,7 +14,13 @@ source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-您可以在代码管理器中下载最新版 [本的AppMeasurement](/help/admin/admin/code-manager-admin.md)。
+您可以在代码管理器(/help/admin/admin/code-manager-admin.md)中下载最 [新版AppMeasurement]。
+
+## 版本 2.18.0
+
+发行日期：**2020 年 2 月 20 日**
+
+* AppMeasurement现在可以通过设置为“true”强制cookies `writeSecureCookies` 包含安全标记。 此设置的要求是整个客户端网站能够安全地提供(https)服务。 (AN-204604)
 
 ## 版本 2.17.0
 
@@ -27,7 +33,7 @@ source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
 
 发行日期：**2019 年 8 月 15 日**
 
-* 在 [!UICONTROL AppMeasurement] 中针对退出链接实施了 `sendBeacon` 支持。如果点击使 `sendBeacon` 用并卸载页面，则请求仍然完成。 这对退出链接非常有用，因为点击更可能到达数据收集服务器。 (AN-175142)
+* 在 `sendBeacon` 中针对退出链接实施了 [!UICONTROL AppMeasurement] 支持。如果点击使 `sendBeacon` 用并卸载页面，则请求仍然完成。 这对退出链接非常有用，因为点击更可能到达数据收集服务器。 (AN-175142)
 * 即使 OptIn 设置发生更改，ECID/fid 值现在也会在首次点击时缓存。(AN-175142)
 * 将“受众管理模块”更新为DIL 9.3。 (AN-182704)
 * Exposed switch in `s.ActivityMap.trackScrollReach` to turn scroll reach tracking on or off. (AN-182754)
@@ -228,7 +234,7 @@ Updated: **August 4, 2016**
 发行日期：**2016 年 4 月 21 日**
 
 * [!DNL AppMeasurement] Activity Map 模块已集成在 [!DNL AppMeasurement] 标准模块中，因此，您只需引用一个 [!DNL .js] 文件。此外，默认情况下会激活 Activity Map 跟踪。(AN-112689)
-* 修复了 [!DNL AppMeasurement] 中的查询字符串变量顺序存在的截断问题，以便 *`pageURLRest`*位于最后。(AN-114647)
+* 修复了 [!DNL AppMeasurement] 中的查询字符串变量顺序存在的截断问题，以便 *`pageURLRest`* 位于最后。(AN-114647)
 
 ## 版本 1.5.4
 
@@ -262,8 +268,8 @@ Updated: **August 4, 2016**
 
 发行日期：**2015 年 6 月 18 日**
 
-* 支持 Visitor API 1.5，它使用&#x200B;*`getCustomerIDs`*方法收集客户 ID 和经过验证的状态，并且通过数据收集请求来发送 ID。
-* 修复了在 **[!UICONTROL AudienceManagement]**模块 (DIL 6.1) 中创建重复的目标 iframe 的问题。
+* 支持 Visitor API 1.5，它使用&#x200B;*`getCustomerIDs`*&#x200B;方法收集客户 ID 和经过验证的状态，并且通过数据收集请求来发送 ID。
+* 修复了在 **[!UICONTROL AudienceManagement]** 模块 (DIL 6.1) 中创建重复的目标 iframe 的问题。
 * 修复了 1.4.5 版中描述的已知问题。
 
 ## 版本 1.4.5
@@ -290,7 +296,7 @@ Updated: **August 4, 2016**
 发行日期：**2015 年 2 月 19 日**
 
 * 保持所有延迟跟踪调用的处理连贯一致，这可以修复延迟期间已备份变量（例如，已单击的对象）的问题。
-* 首次跟踪调用后更改为不执行自动反向链接跟踪，以便第 2 次、第 3 次（依此类推）跟踪调用在&#x200B;*`s.referrer`*于首次跟踪调用之前被手动设置时，不会将反向链接计算两次。
+* 首次跟踪调用后更改为不执行自动反向链接跟踪，以便第 2 次、第 3 次（依此类推）跟踪调用在&#x200B;*`s.referrer`*&#x200B;于首次跟踪调用之前被手动设置时，不会将反向链接计算两次。
 * 更新了分发 zip 文件以包括 Visitor API 1.3.5。
 
 ## 版本 1.4.2
@@ -298,7 +304,7 @@ Updated: **August 4, 2016**
 发行日期：**2015 年 1 月 15 日**
 
 * 修复了 WebKit 预渲染处理阻止跟踪未查看的预渲染页面的问题。
-* 更新了分发 zip 文件以包括 Visitor API 1.3.4 和更新的 **[!UICONTROL AudienceManagement]**模块（包括 DIL 版本 5.5）。
+* 更新了分发 zip 文件以包括 Visitor API 1.3.4 和更新的 **[!UICONTROL AudienceManagement]** 模块（包括 DIL 版本 5.5）。
 
 ## 版本 1.4.1
 
@@ -328,7 +334,7 @@ Updated: **August 4, 2016**
 发行日期：**2014 年 8 月 21 日**
 
 * 已删除对浏览器插件的跟踪（`p` 查询参数），因为这些插件在版本 15 中不再报告。
-* 下载 zip 文件中添加了 **[!UICONTROL AudienceManagement]**模块。
+* 下载 zip 文件中添加了 **[!UICONTROL AudienceManagement]** 模块。
 * 添加了对其他 eVar (76-250) 和事件 (101-1000) 的支持。
 
 > [!NOTE]H 代码不支持这些附加的 eVar 和事件。
