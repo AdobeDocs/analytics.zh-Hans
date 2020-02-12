@@ -3,8 +3,8 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Components Guide
 user-guide-url: /content/help/en/analytics/components/home.html
-translation-type: ht
-source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
+translation-type: tm+mt
+source-git-commit: 73ca71231f84acbb460d31199e398d9472a80708
 
 ---
 
@@ -327,24 +327,25 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
    + [配置实时报表](c-real-time-reporting/t-realtime-admin.md)
    + [受支持的实时量度和维度](c-real-time-reporting/realtime-metrics.md)
 + 营销渠道 {#marketing-channels}
-   + [营销渠道快速入门](c-marketing-channels/c-getting-started-mchannel.md)
-   + [关于营销渠道报表](c-marketing-channels/c-overview.md)
-   + [关于渠道和规则](c-marketing-channels/c-channels-rules.md)
-   + [自动设置](c-marketing-channels/c-channel-autosetup.md)
-   + [管理营销渠道](c-marketing-channels/c-channels.md)
-   + [内部（会话刷新）渠道](c-marketing-channels/session-refresh.md)
-   + [营销渠道的处理规则](c-marketing-channels/c-rules.md)
-   + [创建营销渠道处理规则](c-marketing-channels/t-rules.md)
-   + [营销渠道处理规则 - 定义](c-marketing-channels/r-channel-rule-definitions.md)
-   + [常见问题和示例](c-marketing-channels/c-faq.md)
-   + [将模板报表包设置应用于多个报表包](c-marketing-channels/t-template.md)
-   + [营销渠道中的分类](c-marketing-channels/classifictions-mchannel.md)
-   + [访客参与到期](c-marketing-channels/visitor-engagement.md)
-   + [营销渠道报表中使用的量度](c-marketing-channels/c-overview-metrics.md)
-   + [营销渠道报表中使用的计算量度](c-marketing-channels/c-channel-calc-metrics.md)
-   + [成本和预算](c-marketing-channels/c-overview-budget.md)
-   + [添加离线数据](c-marketing-channels/t-offline-data.md)
-   + [报表访问](c-marketing-channels/c-channel-report-access.md)
-   + [配置用户群组访问权限](c-marketing-channels/t-user-groups.md)
-   + [授予有限管理权限](c-marketing-channels/t-admin-rights.md)
-   + [运行营销渠道报表](c-marketing-channels/t-reports-sc.md)
+   + [营销渠道入门]{#mc-get-started}
+      + [快速入门](c-marketing-channels/getting-started/c-getting-started-mchannel.md)
+      + [自动设置](c-marketing-channels/getting-started/c-channel-autosetup.md)
+      + [将模板报表包设置应用于多个报表包](c-marketing-channels/getting-started/t-template.md)
+   + [营销渠道经理]{#mc-manager}
+      + [管理营销渠道](c-marketing-channels/mark-channel-mgr/c-channels.md)
+      + [关于渠道和规则](c-marketing-channels/mark-channel-mgr/c-channels-rules.md)
+   + [营销渠道处理规则]{#mc-proc-rules}
+      + [营销渠道的处理规则](c-marketing-channels/mc-proc-rules/c-rules.md)
+      + [创建营销渠道处理规则](c-marketing-channels/mc-proc-rules/t-rules.md)
+      + [营销渠道规则标准](c-marketing-channels/mc-proc-rules/r-channel-rule-definitions.md)
+      + [内部（会话刷新）渠道](c-marketing-channels/mc-proc-rules/session-refresh.md)
+   + [营销渠道分类]{#mc-classifications}
+      + [营销渠道中的分类](c-marketing-channels/mc-classifications/classifictions-mchannel.md)
+   + [营销渠道到期]{#mc-expire}
+      + [访客参与到期](c-marketing-channels/mc-expiration/visitor-engagement.md)
+   + [分析营销渠道]{#mc-analyze}
+      + [分析营销渠道](c-marketing-channels/mc-analyze/analyze-mc.md)
+   + [访问营销渠道]{#mc-access}
+      + [营销渠道权限](c-marketing-channels/mc-access/c-channel-report-access.md)
+   + [营销渠道常见问题解答]{#mc-faq}
+      + [营销渠道常见问题解答和示例](c-marketing-channels/mc-faq/c-faq.md)
