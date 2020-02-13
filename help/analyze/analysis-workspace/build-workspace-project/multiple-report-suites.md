@@ -2,7 +2,7 @@
 title: Workspace中的多个报表包
 description: 了解如何在Workspace中使用多个报表包创建项目以及创建原因
 translation-type: tm+mt
-source-git-commit: 195681c622b19fc0d701b1758097e7579ebb72f7
+source-git-commit: 1736ada89b02c95aa749ff14165d491fd878a251
 
 ---
 
@@ -10,7 +10,7 @@ source-git-commit: 195681c622b19fc0d701b1758097e7579ebb72f7
 # Workspace中的多个报表包
 
 >[!IMPORTANT]
->Workspace中的多个报表包当前处于受限版本中。 从2020年2月20日开始，该功能将在几周内向所有客户推出。
+>Workspace中的多个报表包当前处于受限版本中。
 
 您现在可以在Analysis Workspace中使用来自多个报表包的数据创建项目。 现在在面板级别上选择了报表包，因此您可以为同一Workspace项目中的每个面板选择不同的报表包。
 
