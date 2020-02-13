@@ -2,7 +2,7 @@
 title: 分析营销渠道
 description: 了解如何在Workspace中使用营销渠道维度。
 translation-type: tm+mt
-source-git-commit: 53a4f2cf78077a81d888401777323f5543cfc71c
+source-git-commit: 49e349b2caefdad09ff31550649b5dc35656b9bb
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 53a4f2cf78077a81d888401777323f5543cfc71c
 | 营销渠道 | 这是我们建议使用的营销渠道维度。 Attribution IQ模型可在运行时应用于该模型。 通用营销渠道维的行为与上次接触渠道维相同，但标签不同，以防止在将其与其他归因模型一起使用时混淆。 |
 | 最近联系渠道 | 旧维度，属性模型预应用且不可更改。 |
 | 首个联系渠道 | 旧维度，属性模型预应用且不可更改。 |
-| [营销渠道实例此量度……] |
+| 营销渠道实例 | 此指标…… |
 | 新参与 | 这是一个旧度量，仅在渠道应用了“首次接触”分配时递增。 |
 
 ## 基本分析
@@ -57,4 +57,4 @@ source-git-commit: 53a4f2cf78077a81d888401777323f5543cfc71c
 
 ![](assets/mc-viz6.png)
 
-通过此视频了解 [更多信息](https://www.youtube.com/watch?v=M3EOdONa-3E)。
+在此视频中进一步了解跨标签营销 [分析](https://www.youtube.com/watch?v=M3EOdONa-3E)。
