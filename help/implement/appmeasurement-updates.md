@@ -3,7 +3,7 @@ title: AppMeasurement for javaScript发行说明
 description: AppMeasurement for JavaScript 的发行说明汇总。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 033f17bda17f84fbb629d8adae18bb9769968d48
+source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 033f17bda17f84fbb629d8adae18bb9769968d48
 
 ## 版本 2.18.0
 
-发行日期：**2020 年 2 月 20 日**
+发行日期：**2020 年 2 月 13 日**
 
 * AppMeasurement现在可以通过设置为“true”强制cookies `writeSecureCookies` 包含安全标记。 此设置的要求是整个客户端网站能够安全地提供(https)服务。 (AN-204604)
 
