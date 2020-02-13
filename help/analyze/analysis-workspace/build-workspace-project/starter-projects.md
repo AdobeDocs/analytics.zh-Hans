@@ -2,8 +2,8 @@
 description: 'null'
 title: 模板
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 1d2df77352c3ab39cbd602d08ae2c82a02c95f93
 
 ---
 
@@ -14,21 +14,18 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 您可以选择从以下项创建项目：
 
-* 空白项目（默认）。有关说明，请参阅[创建一个 Analysis Workspace 项目](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)。
-* 标准模板。这些模板由 Adobe 创建并且即装即用。
-* 自定义模板。这些模板可由具有管理员权限的用户或非管理员（前提是他们获得了“另存为模板”权限）创建。（有关更多信息，请参阅在 Admin Console 中[管理产品权限](https://helpx.adobe.com/cn/enterprise/using/manage-permissions-and-roles.html)文档。）
+* **空白项目（默认）**:有关说明，请参 [阅创建Analysis Workspace项目](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)。
+* **标准模板**:这些模板由Adobe创建，随产品一起提供。
+* **自定义模板**:这些模板可由具有管理员权限的用户或非管理员用户创建、共享或删除，前提是他们已在Admin Console [!UICONTROL Analysis Workspace: Save as Template] 中获得权限。 [了解更多...](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
-
-* [创建自定义模板](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
-* [标准模板](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 
 ## 创建自定义模板 {#create-custom-template}
 
 具有管理员权限的用户可以将他们创建的任何项目转换为自定义模板。以下是具体操作方法：
 
 1. 打开该项目。
-1. 转到&#x200B;**[!UICONTROL 项目]** &gt; **[!UICONTROL 另存为模板]**。
+1. Go to **[!UICONTROL Project]** > **[!UICONTROL Save As Template]**.
 
    ![](assets/save_project_template.png)
 
@@ -36,50 +33,20 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    >[!NOTE]
    >
-   >默认情况下，项目模板对贵组织的每个人均可见。您可以通过应用标记来组织这些模板。（转到&#x200B;**[!UICONTROL 项目]** &gt; **[!UICONTROL 项目信息和设置]**&#x200B;以编辑标记和描述。）
+   >默认情况下，项目模板对贵组织的每个人均可见。您可以通过应用标记来组织这些模板。(转到 **[!UICONTROL Project]** >以 **[!UICONTROL Project Info & Settings]** 编辑标记和说明。)
 
 ### 可对自定义模板执行的操作
 
 ![](assets/custom_templates.png)
 
-<table id="table_D7C7B0CA1EE64E108484C03426800EBC"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 操作 </th> 
-   <th colname="col2" class="entry"> 描述 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>编辑模板 </p> </td> 
-   <td colname="col2"> <p>允许管理员通过更改模板的数据源、修改组件、可视化、日期范围等内容来编辑模板。 </p> <p>要编辑自定义模板，请 </p> 
-    <ul id="ul_2B3A371F83334E14806385753A360903"> 
-     <li id="li_EE75E0281B764BA9B56FF1DB1B12D2CC">在 Analysis Workspace 中调出自定义模板列表，选择一个模板，然后单击<span class="uicontrol">编辑模板</span>，或 </li> 
-     <li id="li_4934DAAA46204990A295E22A97F81EDA">在 Analytics 中，导航到<span class="ignoretag"><span class="uicontrol">组件</span> &gt; <span class="uicontrol">项目</span></span>，然后对<span class="uicontrol">模板</span>进行过滤。单击要编辑的模板的名称。 </li> 
-    </ul> <p> </p> <p>注意：编辑模板之后，根据具体情况，您有两个选项可用：<span class="uicontrol">保存</span>、<span class="uicontrol">另存为</span>。以下是它们的不同之处： 
-     <ul id="ul_87E2842C8AA442399585B1C6189F5E16"> 
-      <li id="li_AB7B189729E14E40A0141ECE2A24C113"><b>保存</b>：更新所有用户的自定义模板。其他人从该自定义模板创建项目时会看到您做出的更改。 </li> 
-      <li id="li_C85B0B9873A3404D8B443BBD30B37CEB"><b>另存为</b>：创建包含您所做更改的自定义模板副本。 </li> 
-     </ul> </p> <p>（如果<span class="uicontrol">共享</span> &gt; <span class="uicontrol">共享项目</span>菜单项处于禁用状态，那么您可以据此判断您处于编辑模式当中。） </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>搜索模板 </p> </td> 
-   <td colname="col2"> <p>在“自定义模板”对话框中，单击<span class="uicontrol">搜索模板</span>。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>排序模板 </p> </td> 
-   <td colname="col2"> <p>您可以按字母顺序、相关性和创建日期对模板进行排序。 </p> <p>在“自定义模板”对话框中，单击<span class="uicontrol">排序:</span>。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>将标签应用到模板 </p> </td> 
-   <td colname="col2"> <p>打开模板，然后转到<span class="ignoretag"><span class="uicontrol">项目</span> &gt; <span class="uicontrol">项目信息和设置</span></span>。单击<span class="uicontrol">添加标签</span>。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>修改模板描述 </p> </td> 
-   <td colname="col2"> <p>打开模板，然后转到<span class="ignoretag"><span class="uicontrol">项目</span> &gt; <span class="uicontrol">项目信息和设置</span></span>。双击该描述并进行编辑。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 操作 | 描述 |
+|--- |--- |
+| 编辑模板 | 允许管理员通过更改模板的数据源、修改组件、可视化、日期范围等内容来编辑模板。要编辑自定义模板，请<ul><li>在 Analysis Workspace 中调出自定义模板列表，选择一个模板，然后单击编辑模板，或</li><li>在 Analytics 中，导航到组件 > 项目，然后对模板进行过滤。单击要编辑的模板的名称。</li></ul>**注意：**&#x200B;编辑模板之后，根据具体情况，您有两个选项可用：保存、另存为。以下是它们的不同之处：<ul><li>**** 保存：更新所有用户的自定义模板。 其他人从该自定义模板创建项目时会看到您做出的更改。</li><li>**** 另存为：创建包含更改的自定义模板的副本。 （如果共享 > 共享项目菜单项处于禁用状态，那么您可以据此判断您处于编辑模式当中。）</li></ul> |
+| 搜索模板 | 在“自定义模板”对话框中，单击搜索模板。 |
+| 排序模板 | 您可以按字母顺序、相关性和创建日期对模板进行排序。在“自定义模板”对话框中，单击排序:。 |
+| 将标签应用到模板 | 打开模板，然后转到项目 > 项目信息和设置。单击添加标签。 |
+| 修改模板描述 | 打开模板，然后转到项目 > 项目信息和设置。双击该描述并进行编辑。 |
+
 
 ## 标准模板 {#concept_4FE900FEEC894E849CB6C6A0E0ADA524}
 
@@ -87,7 +54,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 您可以按原样使用这些预填充模板，或修改它们以符合您的需要（例如，添加或替换量度或可视化），然后起一个新名称保存它们。
 
-[YouTube 上 Analysis Workspace 中的标准模板](https://www.youtube.com/watch?v=aRgYwPneVXg&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=6) (2:46)
+[YouTube 上 Analysis Workspace 中的标准模板](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
 
 以下是可用的模板和每个模板帮助回答的问题：
 
@@ -101,7 +68,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ### 商务
 
-* **Magento：营销与商务**：此模板按营销渠道归因划分您的电子商务转化，并按搜索关键字、登录页面、地理位置等提供分析。有关视频概述，请参阅 &gt; [!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+* **Magento：营销与商务**：此模板按营销渠道归因划分您的电子商务转化，并按搜索关键字、登录页面、地理位置等提供分析。有关视频概述，请参阅 > [!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
 
 ### 媒体
 
@@ -137,7 +104,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ### 人员
 
-> [!NOTE]“人员”模板及其关联的“人员”量度只能在 [Adobe Experience Cloud 设备协作](https://marketing.adobe.com/resources/help/zh_CN/mcdc/mcdc-people.html)中使用。
+> [!NOTE]“人员”模板及其关联的“人员”量度只能在 [Adobe Experience Cloud 设备协作](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html)中使用。
 
 基于“人员”量度，为删除了重复数据的独特访客量度版本。通过“人员”量度可测量客户使用多个设备与您的品牌进行交互的频率。该模板允许您
 
@@ -149,3 +116,21 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 了解如何对“人员”量度进行分段堆叠。
 * 探索如何在您的环境中使用 Experience Cloud ID 来增强“人员”量度的效率。
 
+### 旅程IQ:跨设备分析模板
+
+<!-->This content is mirrored in the CDA doc.<-->
+
+通过此模板，您可以查看重要的跨设备性能数据。 它仅适用于有权访问跨设备分 [析](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) (CDA)的客户。
+
+* **对合作图成员的特别说明**:显示报表包的哪些部分包含受支持合作图的区域和不受支持的区域的访客。
+* **用户标识**:显示使用基于跨设备分析的方法识别网站访客的频率。
+* **衡量受众规模**:显示“独特设备”与“人物”的比较。 这两个数字的比例称为“跨设备压缩”，该计算量度在此面板中可见。 此压缩度量取决于各种因素：
+   * **使用合作图或专用图**:一般而言，使用设备合作计划的组织往往比使用专用图表的组织发现更好的压缩率。
+   * **登录率**:登录网站的用户越多，Adobe越能跨设备识别和拼接访客。 登录率较低的网站，其压缩率也较低。
+   * **Experience Cloud ID覆盖范围**:只能拼接具有ECID的访客。 使用 ECID 访问您网站的访客百分比越低，则压缩率也越低。
+   * **多种设备使用**:如果网站的访问者不使用多种设备，则可以看到较低的压缩率。
+   * **报告粒度**:按日压缩通常比按月或按年压缩小。 单个用户在一天内使用多种设备的几率比整个月内使用多种设备的几率更小。分段、过滤或使用划分维度也可能会获得较低的压缩率。
+* **基于人员的细分**:包含区段下拉列表，允许您查看设备特定数据。 此面板鼓励试验区段，以了解包括或排除设备类型对报表的影响。
+* **分析跨设备旅程**:根据设备类型提供流量和流失报告。
+* **跨设备归因**:将旅程IQ和归因IQ的功能结合在一起。
+* **其他提示与技巧**:有关CDA的有用主题，可让您进一步利用它。
