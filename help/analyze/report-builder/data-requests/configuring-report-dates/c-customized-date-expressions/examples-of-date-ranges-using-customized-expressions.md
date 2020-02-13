@@ -4,7 +4,7 @@ title: 使用自定义表达式的日期范围示例
 topic: Report builder
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 52b4a48ad8f2424978fd882efedeb002e20acbd6
 
 ---
 
@@ -43,10 +43,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 只能使用这些缩写：cd cw cm cq cy d w m q y
 * 最佳做法是在开始日期和结束日期中使用相同的日期引用：cd、cd 或 cw、cw 或 cy、cy。混用日期引用可能会导致在一年中的某些时间出现无效日期。
 * 缩写 d w m q y 的有效倍数是通过为缩写添加的前置整数 (1 2 3 ...) 表示的，如 53d 3w 5q 9m 2y
-
-   * 不允许使用非整数数字。
-   * 请勿仅为缩写添加前置 0。例如，不允许使用 0w。
-
+* 不允许使用非整数数字。
+* 请勿仅为缩写添加前置 0。例如，不允许使用 0w。
 * 下列运算符用于连接缩写：+ -
 * 由于必须相对于当前时段计算日期范围，因此表达式中的第一个词始终以 c 开头。
 
