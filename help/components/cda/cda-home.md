@@ -2,7 +2,7 @@
 title: Cross-Device Analytics
 description: Cross-Device Analytics 可将设备数据拼合在一起，从而将您的数据从以设备为中心转变为以人员为中心。
 translation-type: tm+mt
-source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
+source-git-commit: 45d7a8d195ae12c3abcb2c623f921cd0762dc6ec
 
 ---
 
@@ -55,7 +55,8 @@ Cross-Device Analytics 是一项具有突破性的强大功能，但其使用方
 * 客户关怀团队尚未完全支持此项功能。可使用 [Cross-Device Analytics 论坛](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/cross-device-analytics/overview)获取关于这项功能的支持信息，在该论坛中，Adobe 产品经理将会积极地直接参与讨论。
 * Cross-Device Analytics 使用虚拟报表包和报表时间处理，二者各有其自身的限制。有关具体限制的详细信息，请参阅[虚拟报表包](../vrs/vrs-about.md)和[报表时间处理](../vrs/vrs-report-time-processing.md)。
 * 不支持 1.4 API。Power BI 连接器和 Report Builder 都依赖于 1.4 API，因此与 CDA 不兼容。
-* 访问网站的新设备最长可能需要两周时间才能通过合作图进行处理。 CDA 中针对最近两周数据的拼合级别，通常低于两周以前的日期范围。Adobe 计划改进 Adobe Experience Platform Identity Service，以便将来实时拼合新设备。
+* 如果您的组织使用专用图，则新设备拼接最多需要24小时。
+* 访问网站的新设备最长可能需要两周时间才能通过合作图进行处理。 CDA 中针对最近两周数据的拼合级别，通常低于两周以前的日期范围。Adobe计划在将来将合作图改进为每日更新的图。
 * 虚拟报表包中的历史数据会因 Adobe 识别和拼合的设备而发生变化。源报表包中的数据不会更改。
 
 贵组织在满足所有要求并了解相关限制后，便可以开始[设置 Cross-Device Analytics](cda-setup.md)。
