@@ -5,7 +5,7 @@ title: Analysis Workspace 中的新增功能
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: c911ca4396f01ad7647ec761ed3b749d63364683
+source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: c911ca4396f01ad7647ec761ed3b749d63364683
 | 适用于使用跨设备分析的组织的新工作区模板 | 此模板显示CDA在拼接访问方面的有效性，并指导您了解CDA独有的维度和指标。 必须使用CDA的报表包。 有关 [详细信息，请参阅设置跨设备分析](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html) 。 |
 | Workspace中的新热键 | <ul><li>折叠／展开所有面板： `alt + m`</li><li>折叠／展开活动面板： `alt + ctrl + m`</li><li>搜索左边栏： `ctrl + /`</li><li>移到下一个面板： `alt + Right Key`</li><li>移到上一个面板： `alt + Left Key`</li></ul>[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | 其他工作区增强功能 | <ul><li>将面板或可视化放入Workspace后，左边栏现在将自动切换到组件，以实现更无缝的工作流程。</li><li>模板组件现在可以根据这些组件进行操作（例如，标记、收藏、已批准）。</li><li>如果找不到所需内容，则筛选的度量和区段列表会提供+按钮以添加新组件。</li></ul> |
+| 工作区调试器 | 工作区调试器已添加到“帮助”菜单中，为调试工作区请求提供了一种更无缝的方式。 [了解更多...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
 ## 2020 年 1 月
 
