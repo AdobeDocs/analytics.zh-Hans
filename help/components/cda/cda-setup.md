@@ -2,7 +2,7 @@
 title: 设置 Cross-Device Analytics
 description: 了解在满足先决条件后，如何设置 Cross-Device Analytics。
 translation-type: tm+mt
-source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
+source-git-commit: 2faec7513624be207a6cf01545702a977a84d5fc
 
 ---
 
@@ -56,6 +56,8 @@ Adobe提供了一个模板，用于查看重要的跨设备性能数据。
 1. 如果出现提示，请将报表包更改为支持CDA的报表包。
 
 将创建一个包含多个面板的Analysis Workspace项目。 顶部显示目录和简介，允许报告的上下文和单个报告的导航。 单击目录中的链接或展开面板的折叠面板以查看这些报告。
+
+<!-->The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md<-->
 
 * **对合作图成员的特别说明**:显示报表包的哪些部分包含受支持合作图的区域和不受支持的区域的访客。
 * **用户标识**:显示使用基于跨设备分析的方法识别网站访客的频率。
