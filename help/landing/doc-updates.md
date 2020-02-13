@@ -3,7 +3,7 @@ title: Adobe Analytics 文档更新
 description: Adobe Analytics 技术文档更新
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
+source-git-commit: 2eda65f50e008574306ec345574a0c1b98e3726b
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
 
 | 页面 | 描述 |
 |---|---|
-| 2020 年 2 月 12 日 | 营销渠道文档的更新和重组。 |
+| 2020 年 2 月 12 日 | 营销渠道文档的更新 [和重组](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) 。 |
 | 2020 年 2 月 7 日 | 设置跨设 [备分析和常见问题解答的更新](../components/cda/cda-setup.md) (英 [文)](../components/cda/cda-faq.md) |
 | 2020年2月4日 | 完全重写实 [施用户指南](../implement/home.md)。 |
 | 2020 年 1 月 22 日 | 更新了“自由格式表”页，其中包含有关新的自由格式表 [生成器的信息](/help/analyze/analysis-workspace/visualizations/freeform-table.md)。 |
