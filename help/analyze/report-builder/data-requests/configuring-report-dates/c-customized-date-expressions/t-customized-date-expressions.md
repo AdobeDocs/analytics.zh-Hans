@@ -4,7 +4,7 @@ title: 自定义的日期表达式 - 概述
 topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 52b4a48ad8f2424978fd882efedeb002e20acbd6
 
 ---
 
@@ -17,6 +17,10 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **启用自定义表达式**
 
-1. On the [!UICONTROL Request Wizard: Step 1], select **[!UICONTROL Rolling Dates]**.
-1. Enable **[!UICONTROL Custom Expression]**.
-1.  在&#x200B;**开始**&#x200B;和&#x200B;**[!UICONTROL 结束]字段中键入特殊表达式，键入时可参考下面给出的缩写、语法规则和示例。**
+1. 在上， [!UICONTROL Request Wizard: Step 1]选择 **[!UICONTROL Rolling Dates]**。
+
+   ![](assets/rolldates1.png)
+
+1. 
+1. 启用 **[!UICONTROL Customize Expression]**.
+1. Type a special expression in the **[!UICONTROL From]** and **[!UICONTROL To]** fields, following the abbreviations, syntax rules, and examples given below.
