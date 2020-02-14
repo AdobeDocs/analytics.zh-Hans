@@ -2,7 +2,7 @@
 title: Adobe Analytics中的客户获取报告
 description: 了解如何使用Analysis Workspace创建基于客户获取的报告。
 translation-type: tm+mt
-source-git-commit: 0d9d94608deac089bed97f7570b468e098d1b46e
+source-git-commit: 2e3896501a036e20f9f392c325e0c8ff1d586fba
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 0d9d94608deac089bed97f7570b468e098d1b46e
 
 > [!IMPORTANT]
 >
-> 设置您的营销渠道处理规则以使用这些报告。 有关如 [何在您的组织中最佳配置营销渠道的信息](/help/components/c-marketing-channels/getting-started/c-getting-started-mchannel.md) ，请参阅营销渠道入门。
+> 设置您的营销渠道处理规则以使用这些报告。 有关如 [何在您的组织中最佳配置营销渠道的信息](/help/components/c-marketing-channels/c-getting-started-mchannel.md) ，请参阅营销渠道入门。
 
 本页假定用户对使用Analysis Workspace有基本知识。 如 [果您还不熟悉Adobe Analytics中的工具](create-report.md) ，请参阅在Analysis Workspace中为Google Analytics用户创建基本报告。
 
