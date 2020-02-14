@@ -2,8 +2,8 @@
 description: 'null'
 title: 提交访问和删除请求
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
-translation-type: ht
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+translation-type: tm+mt
+source-git-commit: 604f9b896b843f68b23949fe77502a6d22a06509
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ## 管理用户同意 {#section_3012015E7E8942519FB9279CF7057EAB}
 
-作为数据控制者，您有责任在收集与数据主体相关的数据（可能包括 Adobe Analytics 数据）之前获得他们的明确同意，并且有责任在您的网站上[实施退出机制](https://marketing.adobe.com/resources/help/zh_CN/dtm/opt-in.html)。该机制允许您的数据主体退出以后的 Adobe Experience Cloud 数据收集。
+作为数据控制者，您有责任在收集与数据主体相关的数据（可能包括 Adobe Analytics 数据）之前获得他们的明确同意，并且有责任在您的网站上[实施退出机制](https://marketing.adobe.com/resources/help/en_US/dtm/opt-in.html)。该机制允许您的数据主体退出以后的 Adobe Experience Cloud 数据收集。
 
 ## 验证用户及其数据 {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
@@ -82,13 +82,13 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
                     "namespace": "CRM-ID", 
                     "type": "analytics", 
                     "description": "namespace defined on eVar17 in some report suites", 
-                    "value": "ACME-12345678", 
+                    "value": "ACME-12345678"
                 }, 
                 { 
                     "namespace": "email address", 
                     "type": "analytics", 
                     "description": "namespace defined on eVar23 in some report suites", 
-                    "value": "john@mail.com", 
+                    "value": "john@mail.com" 
                 } 
             ] 
         } 
