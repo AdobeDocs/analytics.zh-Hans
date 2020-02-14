@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics中使用的术语
-description: Adobe Analytics词汇表，用于定义使用的常用术语。
+description: Adobe Analytics词汇表，用于定义常用术语。
 translation-type: tm+mt
-source-git-commit: e080c38e536f710490291aaca252cba36456b0f9
+source-git-commit: f2137572c9c5d08e4a293ea4d285b78a12b37925
 
 ---
 
@@ -27,8 +27,8 @@ source-git-commit: e080c38e536f710490291aaca252cba36456b0f9
    * 跟踪代码维度的默认分类；自动为所有报表包创建。
    * Adobe Campaign是Adobe Experience cloud的一部分。 有关 [Adobe.com的更多信息](https://www.adobe.com/marketing/campaign.html)。
 * **** 渠道：可以参考：
-   * Channel变量，用于填充“站点区域”维。 请参 [阅实施](../implement/vars/page-vars/channel.md) 《用户指南》中的频道。
-   * 营销渠道，一个可帮助了解用户如何到达您网站的组件。 请参 [阅组件用户指南](/help/components/c-marketing-channels/mc-analyze/analyze-mc.md) 中的营销渠道。
+   * Channel变量，用于填充“站点区域”维。 请参 [阅实施用户指南](/help/implement/vars/page-vars/page-variables.md) 中的页面变量。
+   * 营销渠道，一个可帮助了解用户如何到达您网站的组件。 请参 [阅组件用户指南](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 中的营销渠道。
 * **** 分类：Adobe Analytics中允许对维值进行分组的功能。 请参 [阅组件](/help/components/c-classifications2/c-classifications.md) 用户指南中的分类。
 * **** Clickmap:不再使用。 一个旧版浏览器插件，它显示您网站上哪些区域被点击最多。 此工具已停用，改为“活动图”。
 * **** 点击流数据源：请参阅数据馈送。
@@ -68,7 +68,7 @@ source-git-commit: e080c38e536f710490291aaca252cba36456b0f9
 * **** 列表属性：一种设置，可转换典型流量变量以支持同一点击中的多个值。 如果启用了设置，则任何自定义流量变量都可以成为列表属性。 请参 [阅实施](../implement/vars/page-vars/prop.md) 《用户指南》中的prop。
 * **** 列表变量：与转换变量分开的不同变量。 列表变量支持同一点击中的多个值，并且变量值会在访问中保留，这与转换变量类似。 组织只能使用三个列表变量。 请参 [阅《实施](../implement/vars/page-vars/list.md) 》用户指南中的列表。
 * **** 登录公司：您的组织使用的报表包集合。 某些组织有多个登录公司，这些公司适用于其组织的不同部分。
-* **** 营销渠道：Adobe Analytics中的一项功能，可按点击到达网站的方式对点击量进行分类。 可使用营销渠道处理规则自定义用于分类点击的逻辑。 请参 [阅组件用户指南](/help/components/c-marketing-channels/getting-started/c-getting-started-mchannel.md) 中的营销渠道入门。
+* **** 营销渠道：Adobe Analytics中的一项功能，可按点击到达网站的方式对点击量进行分类。 可使用营销渠道处理规则自定义用于分类点击的逻辑。 请参 [阅组件用户指南](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 中的营销渠道入门。
 * **** 指标：包含定量数据的组件类型。 度量值通常包含数字，如页面查看次数、访问次数和收入。 维度通常是对应的。
 * **** 多套件标记：向多个报表包发送相同点击的实践。 随着虚拟报表包的推出，这一做法已基本不再必要。 大多数多套件标记工作都有助于容纳全局报表包。
 * **** 标准化：一种组织可视化的方法，它采用所有指标并强制它们按同等比例排列，从而更轻松地比较趋势。
