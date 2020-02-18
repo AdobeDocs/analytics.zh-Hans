@@ -3,7 +3,7 @@ title: AppMeasurement for javaScript发行说明
 description: AppMeasurement for JavaScript 的发行说明汇总。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
+source-git-commit: 54804b1b00730a99b7352619d04bdbd2566ba5d3
 
 ---
 
@@ -14,13 +14,13 @@ source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-您可以在代码管理器(/help/admin/admin/code-manager-admin.md)中下载最 [新版AppMeasurement]。
+您可以在代码管理器中下载最新版 [本的AppMeasurement](/help/admin/admin/code-manager-admin.md)。
 
 ## 版本 2.18.0
 
 发行日期：**2020 年 2 月 13 日**
 
-* AppMeasurement现在可以通过设置为“true”强制cookies `writeSecureCookies` 包含安全标记。 此设置的要求是整个客户端网站能够安全地提供(https)服务。 (AN-204604)
+* AppMeasurement现在可以通过设置变量强制cookies包含“安全”属 [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) 性。 对此变量的要求是整个客户端网站能够安全地提供(HTTPS)服务。 (AN-204604)
 
 ## 版本 2.17.0
 
