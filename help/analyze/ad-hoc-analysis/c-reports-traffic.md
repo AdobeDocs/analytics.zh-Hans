@@ -3,7 +3,7 @@ description: 通过使用流量源报表，可以深入分析访客与您的网�
 title: 流量源报表
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **一般持久性**
 
-在“[!UICONTROL 流量源]”中，所有报表值都持续存在且会获得信用，直到它们被覆盖或访问结束（以先发生者为准）。以前，只有“关键词”和“反向链接域名”会持续存在。例如，如果访客用 Google 搜索“DVD”并因此将访客带入您的网站并消费 100 美元，则报表将为关键字“DVD”以及 Google 搜索引擎分别分配 100 美元信用。This functionality is unalterable, regardless of [!DNL Admin Console] settings.
+在“[!UICONTROL 流量源]”中，所有报表值都持续存在且会获得信用，直到它们被覆盖或访问结束（以先发生者为准）。以前，只有“关键词”和“反向链接域名”会持续存在。例如，如果访客用 Google 搜索“DVD”并因此将访客带入您的网站并消费 100 美元，则报表将为关键字“DVD”以及 Google 搜索引擎分别分配 100 美元信用。这项功能不会发生改变，无论 [!DNL Admin Console] 如何设置。
 
 ## 搜索关键词 {#concept_071FDCBD0A3B4242BA00744786D1C59C}
 
@@ -38,7 +38,7 @@ c_reports_search_keyword.xml
 
  -->
 
-**[!UICONTROL 搜索关键词 - 全部]**：显示搜索关键词分类细目，其中包含被用来找到您的网站的每个搜索关键词。可点击列表上方的列标题，按页面查看或搜索关键词对列表排序。点击搜索关键词旁边的放大镜，可查看网站的搜索结果。
+**[!UICONTROL 搜索关键词 - 全部]**：显示用于查找网站的各个搜索关键词的分类。可点击列表上方的列标题，按页面查看或搜索关键词对列表排序。点击搜索关键词旁边的放大镜，可查看网站的搜索结果。
 
 **[!UICONTROL 搜索关键词 - 付费]**：显示搜索关键词分类细目，其中包含用于查找您的网站的每个付费搜索关键词。可点击列表上方的列标题，按页面查看或搜索关键词对列表排序。点击搜索关键词旁边的放大镜，可查看网站的搜索结果。
 
@@ -94,9 +94,9 @@ c_reports_referrers.xml
 
 域和 URL 如果不属于这些定义的对象则会被视为反向链接。例如，网页 A 和网页 B 都被添加到内部 URL 过滤器中，但是网页 C 没有。在这种情况下，网页 C 被视为反向链接。
 
-See [Internal URL Filters](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter_admin.html) in the [!DNL Admin Console] help for more information.
+有关详细信息，请参阅 [!DNL Admin Console] 帮助中的[内部 URL 过滤器](https://marketing.adobe.com/resources/help/zh_CN/reference/internal_URL_filter_admin.html)。
 
-> [!NOTE] 当访客单击通过电子邮件发送的包含协议的消息链接或到达您的网站时，市场营销报告和分析会将引用域 [!DNL imap://] 记录 [!DNL mail://] 为电子邮件。 例如，由于协议为 [!DNL https://]，因此来自 [!DNL https://mail.yahoo.com] 的任何消息均不会计为电子邮件反向链接。Outlook 电子邮件会报告于“键入/书签式”行上，而任何采用 HTTP 协议（域为已知搜索引擎）的反向链接均报告于“搜索引擎”行上。
+> [!NOTE]当访客点击电子邮件中含有 [!DNL imap://] 或 [!DNL mail://] 协议的链接而进入您的网站时，Marketing Reports and Analytics 会将反向链接域记录为电子邮件。例如，由于协议为 [!DNL https://]，因此来自 [!DNL https://mail.yahoo.com] 的任何消息均不会计为电子邮件反向链接。Outlook 电子邮件会报告于“键入/书签式”行上，而任何采用 HTTP 协议（域为已知搜索引擎）的反向链接均报告于“搜索引擎”行上。
 
 ## 反向链接类型 {#concept_689E42D8F96C450DA41C7167C7388198}
 
@@ -115,7 +115,7 @@ c_reports_ref_types.xml
 * *分类/添加书签*&#x200B;的反向链接已进行记录
 
    * 如果访客通过非浏览器链接进入您的网站（例如，在电子邮件中）。
-   * 如果访客直接在其浏览器中键入您网站的URL。
+   * 如果访客在浏览器中直接键入您的网站 URL。
    * 如果访客单击其个人硬盘驱动器上的 HTML 链接。
    * 如果访客通过选择浏览器书签访问您的网站。
 
@@ -123,11 +123,11 @@ c_reports_ref_types.xml
 
 运行此报表时可能会显示以下行项目：
 
-**网站内部**：这些项目是由内部 URL 过滤器标记的 URL。这些项目不计为引用实例，但在报告其他指标时可以看到。
+**网站内部**：这些项目是由内部 URL 过滤器标记的 URL。这些项目将不会计为反向链接实例，但在报告其他量度时将可以显示这些项目。
 
 **无 JavaScript**：无 JavaScript，因此无法识别类型（未知）。这表示浏览器（不会报告可支持 Javascript）上的客户端未提供任何反向链接信息。这些项目将不会计为“反向链接实例”，但在报告其他量度时将会显示这些项目。
 
-**USENET（新闻组）**：这表示反向链接的 URL 以 `news://` :// 开头。因此，反向链接是被发布在 USENET 新闻组中，而不是网页上。
+**USENET（新闻组）**：这表示反向链接的 URL 以 `news://` 开头。因此，反向链接是被发布在 USENET 新闻组中，而不是网页上。
 
-> [!NOTE] “引用类型”逻辑与其他流量源报表(如“引 [!UICONTROL 用”][!UICONTROL 和“引用域]”)匹配。 这会减少[!UICONTROL 反向链接类型]报表中出现“网站内部”和“无 JavaScript”行项目的次数，或者使其不再出现。
+> [!NOTE]“反向链接类型”在逻辑上与其他流量源报表（例如[!UICONTROL 反向链接]和[!UICONTROL 反向链接域]）匹配。这会减少[!UICONTROL 反向链接类型]报表中出现“网站内部”和“无 JavaScript”行项目的次数，或者使其不再出现。
 
