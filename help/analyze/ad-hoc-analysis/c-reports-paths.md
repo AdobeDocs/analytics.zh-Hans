@@ -3,7 +3,7 @@ description: 显示有关访客访问网站页面的顺序的信息。您可以�
 title: 路径报表
 topic: Ad hoc analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -79,13 +79,13 @@ t_fallout.xml
 
  -->
 
-1. Click **[!UICONTROL Reports]** &gt; **[!UICONTROL New Report]** &gt; **[!UICONTROL Fallout.]**
+1. 单击&#x200B;****“报表”>“新建报表”****>“流失”****。
 
-   Other Fallout reports are found in **[!UICONTROL Reports]** &gt; **[!UICONTROL Paths]**.
+   可以在&#x200B;****“报表”>“路径”****&#x200B;中找到其他流失报表。
 
 1. （可选）如果要按特定区段过滤数据，请将区段拖到“[!UICONTROL 在此放置区段]”字段中。
 1. 将任意维度项目拖到“[!UICONTROL 在此放置事件或维度项目]”字段中。
-1. Click **[!UICONTROL Show Fallout At]**Visit or Visitor level, depending on whether you want to view fallout at the visit level, or across visitor sessions.
+1. 单击**[!UICONTROL 在访问级别显示流失数据，或者单击在访客级别显示流失数据]**，具体取决于您是要查看访问级别的流失数据，还是要查看访客会话中的流失数据。
 1. 向报表中添加维度项目，例如页面。
 
 ## 为流失报表分配页面 {#task_B386289703494FA7B5A40FF9F97CB537}
@@ -98,7 +98,7 @@ t_fallout_assign_pages.xml
 
  -->
 
-1. Click **[!UICONTROL Reports]** &gt; **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Pages Fallout]**.
+1. 单击&#x200B;****“报表”>“路径”****>****“页面”>“页面流失”****。
 1. 从“维度”窗格中，找到要添加的页面，然后将其拖到[!UICONTROL 在此放置事件或维度]字段。
 
 ## 流失报表 - 字段说明 {#reference_74255CC8D6134F349FEBFEC72934C866}
