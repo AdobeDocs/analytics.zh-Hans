@@ -3,7 +3,7 @@ description: 显示网站上销售、分销或显示产品的信息。您可以�
 title: 产品报表
 topic: Ad hoc analysis
 uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -23,7 +23,7 @@ c_reports_products_conv_funnel.xml
 
  -->
 
-要添加来自其他报表组的量度和自定义事件，请点击报表标题中的“选定事件”**链接。**
+要添加来自其他报表组的量度和自定义事件，请点击报表标题中的“选定事件”****&#x200B;链接。
 
 由于您查看数据时当前时间段尚未结束，此报表可能会指示从上一时间段至当前时间段呈下降趋势。例如，今天的访问量可能低于昨天，但这只是由于时间段余下部分的统计信息尚未产生所致。
 
