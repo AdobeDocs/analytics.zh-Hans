@@ -3,7 +3,7 @@ description: 日志文件是一个文本文件，服务器使用该文件存储�
 title: 日志文件
 topic: Ad hoc analysis
 uuid: 1e5c0e70-928b-45de-9f5b-0c562909baed
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,10 +15,10 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 保存和查看日志文件的快捷方法是：
 
-1. Click **[!UICONTROL Help]** &gt; **[!UICONTROL About Ad Hoc Analysis]**
+1. 单击“帮助”****>“关于 Ad Hoc Analysis”****
 
-1. 单击“Ad Hoc Analysis”**徽标。**
-1. Click **[!UICONTROL Save Log File]**.
+1. 单击“Ad Hoc Analysis”****&#x200B;徽标。
+1. 单击“保存日志文件”****。
 
-> [!NOTE] 使用此过程保存的日志适用于当前会话。
+> [!NOTE]使用此过程保存的日志适用于当前会话。
 
