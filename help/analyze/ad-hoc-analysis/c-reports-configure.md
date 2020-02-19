@@ -194,7 +194,7 @@ t_reports_clipboard.xml
 
    建议您在复制数据前打开 Excel，因为启动 Excel 时它会清除内存缓冲区。
 
-1. 在报表级别，单击“设置”****![](assets/settings_icon.png)，然后单击“复制报表数据”****。
+1. 在报表级别，单击&#x200B;**[!UICONTROL “设置”]** ![](assets/settings_icon.png)，然后单击&#x200B;**[!UICONTROL “复制报表数据”]**&#x200B;。
 1. 在 Excel 中，选择一个单元格，然后粘贴数据。
 
 ## 提取访客 ID {#task_7223BE8E0389460282825E61BEDC0574}
