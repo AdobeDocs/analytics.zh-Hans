@@ -4,7 +4,7 @@ title: 自定义的日期表达式 - 概述
 topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: 2a6031cde69014859d6c3f943220c4da499a3191
+source-git-commit: 9e1fdd7785b7323e4f667eab58a1f107272493f0
 
 ---
 
@@ -34,5 +34,5 @@ source-git-commit: 2a6031cde69014859d6c3f943220c4da499a3191
 
    例如，如果将上述日期从三个月前的第一天更改为每月滚动，则提前选项部分中的日期会自行更新，以反映这一点：
 
-   ![](assets/rolldates5.png)
+   ![](assets/rolldates3.png)
 
