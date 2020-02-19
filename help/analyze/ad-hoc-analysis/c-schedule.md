@@ -3,7 +3,7 @@ description: 您可以自定义报表的提交计划。可以在特定时间停�
 title: 计划管理器
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,13 +17,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 您可以自定义报表的提交计划。可以在特定时间停止提交操作，或指定发送报表的次数。新计划使用在报表中定义的日期范围。例如，如果针对过去 90 天创建一个报表，并计划每天运行该报表，则会每天收到针对过去 90 天的报表。如果您从日历创建了一个固定日期范围的报表，则在每次发送此报表时您将看见相同的报表。
 
-> [!NOTE] 禁用用户帐户后，该用户创建的所有计划报表提交都将被挂起。
+> [!NOTE]禁用某个用户帐户时，该用户创建的计划报表交付将会挂起。
 
-要确保细分中的行项目在保存的和计划的报表中保持不变，请使用 **[!UICONTROL Table Builder]** （表生成器）中的“编辑项目”功能在 [](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) 细分中创建固定维度列表。
+要确保划分中的行项目在保存报表和计划报表中持续不变，请使用[表生成器](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)中的&#x200B;**[!UICONTROL 编辑项目]**&#x200B;功能，以便在划分中创建固定的维度列表。
 
 >[!IMPORTANT]
 >
->通过Ad Hoc Analysis，您可以快速定义和计划针对特定、及时的临时报告需求的报告。 它本身并不适合通过数据提取来完整地导出含有大量行、列、量度评估或庞大划分的数据。
+>Ad Hoc Analysis 允许您快速定义和计划报表，以便及时满足 Ad Hoc 报表的特定需求。它本身并不适合通过数据提取来完整地导出含有大量行、列、量度评估或庞大划分的数据。
 >
 >在对 Ad Hoc Analysis 中的计划报表进行实际限制时，应当基于以下原则：如果不能在十分钟内（Ad Hoc Analysis 的超时期限）构建报表，则说明报表很可能过于复杂。
 >
@@ -41,8 +41,8 @@ t_schedule_delivery.xml
 
  -->
 
-1. Click **[!UICONTROL Tools]**, then click **[!UICONTROL Schedule Manager]**.
-1. 在[!UICONTROL 计划管理器]**中，单击“新建”。**
+1. 单击“工具”****，然后单击“计划管理器”****。
+1. 在[!UICONTROL 计划管理器]中，单击“新建”****。
 
 ## 提交选项 - 定义 {#reference_CA49AC560258471AAE959BCA243F170C}
 
@@ -85,7 +85,7 @@ r_delivery_options.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> 高级 </p> </td> 
-   <td colname="col2"> <p> See <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > Advanced Format Settings</a>. </p> </td> 
+   <td colname="col2"> <p> 请参阅<a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   >高级格式设置</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>文件目标 </p> </td> 
