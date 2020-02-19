@@ -3,7 +3,7 @@ description: Experience Cloud 中使用的报表类型的说明。
 title: 报表类型
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -54,13 +54,13 @@ t_trend_row.xml
 **从单元格中启动趋势报表**
 
 1. 打开排名报表。
-1. In the table, locate the cell and click **[!UICONTROL Trend]**.
+1. 在表中，查找单元格并单击“趋势”****。
 
    ![](assets/TrendInspector_Buttcon.png)
 
-1. To view a full report from the cell, click **[!UICONTROL Launch Trend Report]**.
+1. 要从单元格中查看完整报表，请单击“启动趋势报表”****。
 
-   Alternatively, right-click the cell, then click **[!UICONTROL Trend Cell]**. 也可以在选择多个单元格后执行此任务。
+   或者，右键单击此单元格，然后单击“显示单元格趋势”****。也可以在选择多个单元格后执行此任务。
 
 ## 总计报表 {#concept_48E23FB3BCCD43DFB486A048960800A8}
 
