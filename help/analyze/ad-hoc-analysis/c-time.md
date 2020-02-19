@@ -2,7 +2,7 @@
 description: 时间是用于显示小时、日、周和日期范围趋势的报表维度。例如，产品报表显示选定日期范围内产品所产生的收入。您可以添加日维度以查看报告期间每天的趋势。时间提供“小时”、“日”、“周”、“月”、“季度”和“年”粒度设置。日期范围预设包含今天、昨天和过去一周等设置。
 title: 时间
 uuid: a6efbf80-342c-4aeb-80f3-91a3dbdbd33c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
