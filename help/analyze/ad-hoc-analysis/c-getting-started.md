@@ -1,17 +1,17 @@
 ---
-description: 开始使用临时分析。
+description: Ad Hoc Analysis 使用入门。
 title: 快速入门
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 临时分析入门{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
+# Ad Hoc Analysis 使用入门{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
 
->[!I重要]
->2018 年 8 月 6 日，Adobe 宣布计划终止 Ad Hoc Analysis 生命周期。确定终止日期后，Adobe 会立即与大家共享此信息。For more information, including which versions of Java will be compatible during this period, visit [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
+>[!I重要信息]
+>2018 年 8 月 6 日，Adobe 宣布计划终止 Ad Hoc Analysis 生命周期。确定终止日期后，Adobe 会立即与大家共享此信息。有关详细信息（包括在此期间兼容的 Java 版本），请访问 [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace)。
 
 您可以即时对网站活动执行高级分析。您可以同时查看多个报表并跨多个维度应用区段。可以从微观和宏观的视角分析数据，以查看它们对您的重要业务量度的影响。
 
@@ -27,7 +27,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. 登录 Adobe <span class="keyword">Analytics</span>。 </p> </td> 
-   <td colname="col2"> <p>Go to <a href="https://marketing.adobe.com"  > marketing.adobe.com </a>and log in using your Adobe Analytics credentials. </p> </td> 
+   <td colname="col2"> <p>转到 <a href="https://marketing.adobe.com"  >marketing.adobe.com</a>，然后使用您的 Adobe Analytics 凭据登录。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. 启动 Ad Hoc Analysis。 </p> </td> 
@@ -35,19 +35,19 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>3. 创建项目。 </p> </td> 
-   <td colname="col2"> <p>在 启动页面中，选择一个报表包，然后单击“创建项目”<span class="uicontrol"></span>。 </p> <p>See <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > Projects and Workspaces</a>. </p> </td> 
+   <td colname="col2"> <p>在 启动页面中，选择一个报表包，然后单击“创建项目”<span class="uicontrol"></span>。 </p> <p>请参阅<a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   >项目和工作区</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4. 打开报表。 </p> </td> 
-   <td colname="col2"> <p>使用标准 Cloud 报表菜单搜索报表。您也可以选择使用模板。 </p> <p>请参阅 <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > 报表模板</a>. </p> </td> 
+   <td colname="col2"> <p>使用标准 Cloud 报表菜单搜索报表。您也可以选择使用模板。 </p> <p>请参阅<a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   >报表模板</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>5. 配置报表。 </p> </td> 
    <td colname="col2"> <p>执行任务以配置报表，例如： </p> 
     <ul id="ul_0D2E8C614F2A4899A376BCEECEA374C6"> 
      <li id="li_FA925D52A8FD4DFAB0C88B797B24E72B"> 创建区段以深入挖掘数据 </li> 
-     <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> 将量度、维度和区段添加到 <a href="/help/analyze/ad-hoc-analysis/c-tablebuilder.md"   > 表生成器</a> </li> 
-     <li id="li_019316C9A94B4A8C8A77D07C04E50278">配置 <a href="/help/analyze/ad-hoc-analysis/c-dates.md"   > 日期范围</a> </li> 
+     <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> 将量度、维度和区段添加到<a href="/help/analyze/ad-hoc-analysis/c-tablebuilder.md"   >表生成器</a> </li> 
+     <li id="li_019316C9A94B4A8C8A77D07C04E50278">配置<a href="/help/analyze/ad-hoc-analysis/c-dates.md"   >日期范围</a> </li> 
      <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > 计划</a>报表提交 </li> 
     </ul> <p>搜索此帮助系统以查找所需的帮助。 </p> </td> 
   </tr> 
@@ -64,7 +64,7 @@ c_sys_reqs.xml
 
  -->
 
-> [!NOTE]从 2018 年 7 月起，Ad Hoc Analysis 将仅支持 Java 8 或更高版本。如果您在2018年7月维护版本发布后选择在Java 7上运行临时分析，Adobe将不再支持您的临时分析实施。
+> [!NOTE]从 2018 年 7 月起，Ad Hoc Analysis 将仅支持 Java 8 或更高版本。2018 年 7 月维护版本推出后，如果您选择在 Java 7 中运行 Ad Hoc Analysis，Adobe 将不再对您的 Ad Hoc Analysis 实施提供支持。
 
 * 支持 OpenGL 2.0 的显卡
 * Cookie：必需
@@ -79,7 +79,7 @@ c_sys_reqs.xml
 
 ## Java 升级说明 {#section_E4C0C6492FF24636A0FF71A59331111D}
 
-从 2018 年 7 月起，Ad Hoc Analysis 将仅支持 Java 8 或更高版本。如果您在2018年7月维护版本发布后选择在Java 7上运行临时分析，Adobe将不再支持您的临时分析实施。
+从 2018 年 7 月起，Ad Hoc Analysis 将仅支持 Java 8 或更高版本。2018 年 7 月维护版本推出后，如果您选择在 Java 7 中运行 Ad Hoc Analysis，Adobe 将不再对您的 Ad Hoc Analysis 实施提供支持。
 
 我们的 .jar 文件将使用安全的 256 位加密方法进行签名，低于 1.7.0_76 的 Java 版本不支持此加密方法。通过使用此 256 位证书，我们可以为您提供增强的安全性。
 
@@ -87,9 +87,9 @@ c_sys_reqs.xml
 
 * 如果允许您在计算机上安装程序，请执行以下操作：
 
-   1. 请访问https://www.java.com。
-   1. Click **[!UICONTROL Free Java Download]**.
-   1. Click **[!UICONTROL Agree and Start Free Download]**.
+   1. 转到 https://www.java.com。
+   1. 单击&#x200B;**[!UICONTROL 免费 Java 下载]**。
+   1. 单击&#x200B;**[!UICONTROL 同意并开始免费下载]**。
    1. 安装特定于您的操作系统的最新 Java 版本。
 
 * 如果&#x200B;**不允许**&#x200B;您在计算机上安装程序，请采用以下方法：
@@ -116,13 +116,13 @@ t_login_suite.xml
 
  -->
 
-1. In a browser, navigate to [!DNL marketing.adobe.com].
-1. Type your company name, your username, and your password. Then click **[!UICONTROL Sign In]**.
-1. Click **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL Ad Hoc Analysis]**.
+1. 在浏览器中，导航至 [!DNL marketing.adobe.com]。
+1. 键入公司名称、您的用户名和密码，然后单击&#x200B;**[!UICONTROL 登录]**。
+1. 单击 **[!UICONTROL Adobe Analytics]** > **[!UICONTROL 工具]** > **[!UICONTROL Ad Hoc Analysis]**。
 
    如果此页面中未显示&#x200B;**启动 Ad Hoc Analysis** 按钮，请确保管理员已将您添加到管理工具的 *Ad hoc Analysis 授权用户*&#x200B;群组中。
-1. Click **[!UICONTROL Launch Ad Hoc Analysis]**.
-1. 将文件保 [!DNL discover.jnlp] 存到本地。
+1. 单击&#x200B;**[!UICONTROL 启动 Ad Hoc Analysis]**。
+1. 将文件 [!DNL discover.jnlp] 保存在本地。
 
    您可以随时运行该保存的文件来启动 Ad Hoc Analysis。
 
@@ -155,7 +155,7 @@ t_project_start.xml
  -->
 
 1. 登录。
-1. Open a saved project or click **[!UICONTROL Create Project]**.
+1. 打开已保存的项目或单击“创建项目”****。
 1. 搜索报表或选择模板。
 
 ## 打开最近保存的工作区 {#task_DE4A54180BC24E9DAEC98E2171DC6B40}
@@ -168,7 +168,7 @@ t_recent_workspace.xml
 
  -->
 
-1. Click **[!UICONTROL File]** &gt; **[!UICONTROL Recent Workspace]**.
+1. 单击&#x200B;****“文件”>“最近的工作区”****。
 
    您最多可以打开 5 个最近使用过的工作区。退出会话后，最近保存的工作区将不再可用。
 
@@ -182,20 +182,20 @@ t_share_projects.xml
 
  -->
 
-1. Go to **[!UICONTROL File]** &gt; **[!UICONTROL Save As]**.
-1. **[!UICONTROL 从保]**&#x200B;存位置&#x200B;**[!UICONTROL ，选择]**&#x200B;共享项目：下拉菜单。
+1. 转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 另存为]**。
+1. 从&#x200B;**[!UICONTROL 保存位置：]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 共享项目]**。
 
    ![](assets/shared_projects.png)
 
-1. Click **[!UICONTROL Save]** to save the project.
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存项目。
 
-   Shared projects can be opened via **[!UICONTROL File]** &gt; **[!UICONTROL Open]** &gt; **[!UICONTROL Shared Projects]**.
+   通过&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 打开]** > **[!UICONTROL 共享项目]**，可打开共享项目。
 
    >[!NOTE]
    >
-   >您可以通过选择一个或多个项目，在共享项目的同一对话框中删除您自己的共享项目。
+   >通过选择一个或多个项目，可以在用于共享项目的同一对话框中删除您自己的共享项目。
 
-## Rename a Workspace {#task_0DB177DD6DB54B7F9FE60A0B3FC7CFC3}
+## 重命名工作区 {#task_0DB177DD6DB54B7F9FE60A0B3FC7CFC3}
 
 描述如何重命名工作区的步骤。
 
@@ -206,8 +206,8 @@ t_rename_workspace.xml
  -->
 
 1. 右键单击工作区名称。
-1. Choose **[!UICONTROL Rename Workspace]**.
-1. Type a name, then click **[!UICONTROL OK]**.
+1. 选择“重命名工作区”****。
+1. 键入名称，然后单击“确定”****。
 
 ## 打开本地项目 {#task_1B3EF63A80C74776B24B99D80EAC74AC}
 
@@ -219,8 +219,8 @@ t_open_local_project.xml
 
  -->
 
-1. Click **[!UICONTROL File]** &gt; **[!UICONTROL Open Local Copy]**.
-1. Navigate to the local [!DNL .dproj] file, then click **[!UICONTROL Open]**.
+1. 单击&#x200B;****“文件”>“打开本地拷贝”****。
+1. 导航到本地 [!DNL .dproj] 文件，然后单击“打开”****。
 
 ## 报表模板 {#concept_370F674C5B4C45368731AA801C5A45F8}
 
@@ -232,7 +232,7 @@ c_templates.xml
 
  -->
 
-You can access templates when creating a project ( **[!UICONTROL File]** &gt; **[!UICONTROL New Project]**), or by adding a workspace or report.
+在创建项目（****“文件”>“新建项目”****）或添加工作区或报表时，您可以访问模板。
 
 | 模板 | 描述 |
 |--- |--- |
@@ -258,5 +258,5 @@ t_reports_opening.xml
 有几种方法可打开报表：
 
 * 在“新建报表”页面上，搜索报表或选择模板。
-* 单击菜单中的“报表”**，然后选择报表或报表模板。**
-* 从维度启动报表：右键单击维度名称，然后选择&#x200B;**[!UICONTROL 运行报表]** &gt; **`report name`**.
+* 单击菜单中的“报表”****，然后选择报表或报表模板。
+* 从维度启动报表：右键单击维度名称，然后选择&#x200B;****“运行报表”> **`report name`**。
