@@ -2,7 +2,7 @@
 description: 配置用户和了解数据取样。
 title: 管理
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 配置用户和了解数据取样。
 
-For [!DNL Admin Console] help, see the [Analytics Reference](https://marketing.adobe.com/resources/help/en_US/reference/index.html).
+有关 [!DNL Admin Console] 的帮助，请参阅 [Analytics 参考](https://marketing.adobe.com/resources/help/zh_CN/reference/index.html)。
 
 ## 用户许可证 {#concept_C1440741C77C471EB38A243B013EA620}
 
@@ -36,15 +36,15 @@ t_user_licenses.xml
 
  -->
 
-1. Log in to the [!DNL Experience Cloud].
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
-1. Click **[!UICONTROL Edit Groups]**.
+1. 登录到 [!DNL Experience Cloud]。
+1. 单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]**。
+1. 单击&#x200B;**[!UICONTROL 编辑群组]**。
 
    如果贵公司已经购买了用户许可，则[!UICONTROL “Ad Hoc Analysis 授权用户”]组将会出现在[!UICONTROL “群组名称”]列。同时还会显示可供用户登录用的可用许可证数量。
 
-1. Click **[!UICONTROL Edit]**.
-1. 在[!UICONTROL 指定用户登录]**下，选择要添加到该组的用户，然后单击[!UICONTROL 添加。]**
-1. Click **[!UICONTROL Save Group]**.
+1.  点击&#x200B;**[!UICONTROL 编辑]**。
+1. 在[!UICONTROL 指定用户登录]下，选择要添加到该组的用户，然后单击&#x200B;**[!UICONTROL 添加。]** 
+1. 单击&#x200B;**[!UICONTROL 保存群组]**。
 
    许可系统不会显示添加到组中的用户数量。对于购买的用户许可的数量，存在并用方面的限制。
 
@@ -58,8 +58,8 @@ t_managing_users.xml
 
  -->
 
-1. 单击 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**，然后单击管理用 ****&#x200B;户管理。
-1. 找到用户，然后单击&#x200B;**[!UICONTROL 终止]。**
+1. 单击 **[!UICONTROL Adobe Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]**，然后单击&#x200B;**[!UICONTROL 管理用户]**。
+1. 找到用户，然后单击&#x200B;**[!UICONTROL 终止]**。
 
    在“[!UICONTROL 活动 Ad Hoc Analysis 会话]”页面中，空闲最久的用户显示在列表顶部。
 
@@ -71,7 +71,7 @@ c_permissions.xml
 
  -->
 
-You set up access to report suites in the [!DNL Administration Console]. 您可以在报表包级别配置权限。例如，如果您启用了多个报表包，但不希望为所有用户授予所有报表包的访问权限，则可以创建包含特定报表包的组，然后将这些用户分配给相应的组。
+您可以在 [!DNL Administration Console] 中设置对报表包的访问权限。您可以在报表包级别配置权限。例如，如果您启用了多个报表包，但不希望为所有用户授予所有报表包的访问权限，则可以创建包含特定报表包的组，然后将这些用户分配给相应的组。
 
 ## 向所有报表访问群组添加用户 {#task_E821BF3B4FDB434D844A98AAB15487A9}
 
@@ -83,11 +83,11 @@ t_permissions.xml
 
  -->
 
-1. Log in to the **[!UICONTROL Experience Cloud]**.
-1. Click **[!UICONTROL Adobe Analytics &gt; Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Edit Groups]**.
-1. Click **[!UICONTROL All Report Access]**.
-1. 在**“现有用户”中，选择用户，然后单击“添加”。**
-1. Click **[!UICONTROL Save Group]**.
+1. 登录到 **[!UICONTROL Experience Cloud]**。
+1. 单击 **[!UICONTROL Adobe Analytics > 管理员]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 编辑群组]**。
+1. 单击“所有报表访问”****。
+1. 在“现有用户”中，选择用户，然后单击&#x200B;****“添加”。
+1. 单击&#x200B;**[!UICONTROL 保存群组]**。
 
 ## 创建权限群组 {#task_65A4C2E58B13475B9B2606CEB93B7CBD}
 
@@ -99,8 +99,8 @@ t_permission_groups.xml
 
  -->
 
-1. Log in to the **[!UICONTROL Experience Cloud]**.
-1. Click **[!UICONTROL Adobe Analytics &gt; Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Edit Groups]**.
+1. 登录到 **[!UICONTROL Experience Cloud]**。
+1. 单击 **[!UICONTROL Adobe Analytics > 管理员]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 编辑群组]**。
 1. 创建一个非管理员用户的权限组，在该组中纳入您允许用户访问的活动的 Ad Hoc Analysis 报表包。
 
    在您创建新项目时，用户可用的报表包会显示在“[!UICONTROL 报表云]”菜单中。
@@ -117,10 +117,10 @@ t_proxy_policies.xml
 
 Ad Hoc Analysis 通过 HTTP 与服务器进行通信。可以使用与其他 HTTP 流量相同的代理策略。
 
-1. 在中， [!DNL Windows Control Panel]启动 [!UICONTROL Java控制面板]。
-1. On the **[!UICONTROL General]** tab, click **[!UICONTROL Network Settings]**.
-1. Select **[!UICONTROL Use browser settings]**, or manually configure the proxy settings.
-1. Click **[!UICONTROL OK]**, then click **[!UICONTROL OK]** on the [!UICONTROL Java Control Panel].
+1. 在 [!DNL Windows Control Panel] 中，启动 [!UICONTROL Java 控制面板]。
+1. 在“常规”****&#x200B;选项卡中，单击“网络设置”****。
+1. 选择“使用浏览器设置”****，或手动配置代理设置。
+1. 单击“确定”****，然后单击“Java 控制面板”****&#x200B;上的“确定”。
 
 ## 数据如何采样 {#concept_8433CFD38E0243849E92DF4F1E743AC3}
 
