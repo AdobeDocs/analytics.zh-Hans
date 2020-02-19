@@ -2,7 +2,7 @@
 description: 'null'
 title: 在 Ad Hoc Analysis 中转换项目
 uuid: 20bd9974-209e-457c-9e52-d50f90078af6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -27,22 +27,22 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **从列表中选择项目**
 
-1. In Ad Hoc Analysis, click **[!UICONTROL File]** &gt; **[!UICONTROL Convert Projects to Analysis Workspace]**.
+1. 在 Ad Hoc Analysis 中，单击&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 将项目转换到 Analysis Workspace]**。
 
    ![](assets/aha2aw_convert.png)
 
-1. In the **[!UICONTROL Convert Projects to Analysis Workspace]** dialog, select the project to convert or press  +  to select the entire list.
+1. 在&#x200B;**[!UICONTROL 将项目转换到 Analysis Workspace]** 对话框中，选择要转换的项目，或者，按 + 以选择整个列表。
 
    ![](assets/aha2aw_projects.png)
 
-1. Click **[!UICONTROL Convert]**.
-1. 现在，[!UICONTROL 转换概要]会列出已转换的所有项目，还会显示状态列，指示转换成功或失败及错误代码。Contact Adobe Client Care for further diagnosis with the "`Error-Id: <Error-Code>`".
+1. 单击&#x200B;**[!UICONTROL 转换]**。
+1. 现在，[!UICONTROL 转换概要]会列出已转换的所有项目，还会显示状态列，指示转换成功或失败及错误代码。请联系 Adobe 客户关怀，以便针对“`Error-Id: <Error-Code>`”错误，获得进一步的诊断。
 
    ![](assets/export_summary.png)
 
 **转换当前项目**
 
 1. 在 Ad Hoc Analysis 中，打开要转换的项目。
-1. 单击&#x200B;**[!UICONTROL 将当前项目转换到 Analysis Workspace。]**![](assets/export_current.png)
+1. 单击&#x200B;**[!UICONTROL 将当前项目转换到 Analysis Workspace]**。 ![](assets/export_current.png)
 
-1. 现在，[!UICONTROL 转换概要]会列出已转换的所有项目，还会显示状态列，指示转换成功或失败及错误代码。Contact Adobe Client Care for further diagnosis with the "`Error-Id: <Error-Code>`".
+1. 现在，[!UICONTROL 转换概要]会列出已转换的所有项目，还会显示状态列，指示转换成功或失败及错误代码。请联系 Adobe 客户关怀，以便针对“`Error-Id: <Error-Code>`”错误，获得进一步的诊断。
