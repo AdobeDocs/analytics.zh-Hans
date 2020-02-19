@@ -1,9 +1,9 @@
 ---
 description: 显示有关网站的量化信息，如访客查看某个页面的次数、从特定页面进行的购买总数、访客进入网站的时间及其他类似的量化数据。其中每个报表都是一个量度，您可以将其放在其他基于项目的报表中。
-title: 网站量度 报告
+title: 网站量度报表
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 显示有关网站的量化信息，如访客查看某个页面的次数、从特定页面进行的购买总数、访客进入网站的时间及其他类似的量化数据。其中每个报表都是一个量度，您可以将其放在其他基于项目的报表中。
 
-## 网站量度 reports {#concept_0639CA16551749A693F49ADED4842CCE}
+## 网站量度报表 {#concept_0639CA16551749A693F49ADED4842CCE}
 
 显示有关网站的量化信息，如访客查看某个页面的次数、从特定页面进行的购买总数、访客进入网站的时间及其他类似的量化数据。其中每个报表都是一个量度，您可以将其放在其他基于项目的报表中。
 
@@ -89,7 +89,7 @@ c_reports_time_spent_per_visit.xml
 
 ## 购买报表 {#concept_E3B9AF43CCD24F25A85D05DFB51C4740}
 
-显示收入、订购和件数的汇总数据。您还可以查看报 [!DNL Purchase Conversion Funnel] 告。
+显示收入、订购和件数的汇总数据。您还可以查看 [!DNL Purchase Conversion Funnel] 报表。
 
 <!-- 
 
@@ -127,7 +127,7 @@ c_reports_custom_events.xml
 
  -->
 
-由于每个分析报表包都不相同，因此对于不同的客户，此报表集的用途也不尽相同。[!UICONTROL 自定义事件]报表可用作显示事件发生次数的计数器。例如，如果将 **[!UICONTROL event1]设置为计算文档的下载次数，则事件 1 的自定义事件报表会显示该事件（或下载）发生的总次数。**你可使用多个自定义事件报表。
+由于每个分析报表包都不相同，因此对于不同的客户，此报表集的用途也不尽相同。[!UICONTROL 自定义事件]报表可用作显示事件发生次数的计数器。例如，如果将 **[!UICONTROL event1]** 设置为计算文档的下载次数，则事件 1 的自定义事件报表会显示该事件（或下载）发生的总次数。你可使用多个自定义事件报表。
 
 ## 转化报表 {#concept_BDD3DD8A46F043BB916C7E346E7C314F}
 
@@ -151,7 +151,7 @@ c_reports_conversion.xml
 
 ## 营销渠道报表 {#concept_81FFA8C15A9B4914BFED37488ADD17FD}
 
-营销渠道报表显示第一个和最后一个成交流量渠道分配，并显示关键和标准量度，如收入、订单和成本，以使您对每个渠道产生的收入量一目了然。You configure channel definition rules in the [!DNL Admin Console], and APIs specific for the channel reports are available.
+营销渠道报表显示第一个和最后一个成交流量渠道分配，并显示关键和标准量度，如收入、订单和成本，以使您对每个渠道产生的收入量一目了然。可以在 [!DNL Admin Console] 中配置渠道定义规则，并且可以使用特定于渠道报表的 API。
 
 <!-- 
 
@@ -163,4 +163,4 @@ c_reports_marketing_channel.xml
 
 **[!UICONTROL 首个或最近联系渠道明细报表]**：显示页面名称和反向链接等详细信息，这些信息来自配置规则时在“渠道值设置为”选项中设置的渠道值。通过渠道详细报表可以仔细检查概述报表的渠道明细值。
 
-有关在市场营销报告与分析中配置营销渠道的深度信息，请参阅[营销渠道帮助](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html)系统。
+有关在市场营销报告与分析中配置营销渠道的深度信息，请参阅[营销渠道帮助](https://marketing.adobe.com/resources/help/zh_CN/mchannel/index.html)系统。
