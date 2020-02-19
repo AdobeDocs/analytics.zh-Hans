@@ -2,7 +2,7 @@
 description: 了解您可以在报表上执行的各种操作，例如配置图表、图形和划分以及提取数据。
 title: 配置现有报表
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -50,7 +50,7 @@ c_report_actions.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>提交选项 </p> </td> 
-   <td colname="col2"> <p> 请参阅 <a href="/help/analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C"   > 交付选项</a>。 </p> </td> 
+   <td colname="col2"> <p> 请参阅<a href="/help/analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C"   >提交选项</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 打印 </p> </td> 
@@ -62,7 +62,7 @@ c_report_actions.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>数据源 </p> </td> 
-   <td colname="col2"> <p>See <a href="/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB"   > General Settings Tab - Definitions</a>. </p> </td> 
+   <td colname="col2"> <p>请参阅<a href="/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB"   >“常规设置”选项卡 - 定义</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>查看 </p> </td> 
@@ -93,7 +93,7 @@ c_chart_options.xml
    <td colname="col1"> <p>图形类型 </p> </td> 
    <td colname="col2"> <p> 用于将图表类型更改为线图、条形图、堆叠式区域图、泡泡图等。 </p> 
     <ul id="ul_98A8DBBCADA042359C5D096EA0B1104B"> 
-     <li id="li_6C29218C3ADC47199DE832A2E3A105C7"> <b>泡泡图</b>：泡泡图适用于任何排名报表。泡泡图最多可以提供 5 个独立维度的量度分析。当点直径没有应用量度时，您可将该图表用作散点图。泡泡图动态变动以反映报表数据的更改。. </li> 
+     <li id="li_6C29218C3ADC47199DE832A2E3A105C7"> <b>泡泡图</b>：泡泡图适用于任何排名报表。泡泡图最多可以提供 5 个独立维度的量度分析。当点直径没有应用量度时，您可将该图表用作散点图。泡泡图动态变动以反映报表数据的更改。。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -155,12 +155,12 @@ t_reports_breakdown_table.xml
 
 **划分表数据**
 
-1. 运行报表.
-1. 右键单击行项目，然后单击&#x200B;**划分** &gt; *项目*。
+1. 运行报表。
+1. 右键单击行项目，然后单击&#x200B;****“划分”>“项目”**。
 
    >[!NOTE]
    >
-   >要获得更大的灵活性，请使 [用Table Builder](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) （表生成器）配置具有划分的报表。 当您打开具有划分的保存报表或计划报表后，可能需要单击“替换表”**以刷新动态报表数据的划分。**&#x200B;例如，您可能需要刷新包含行项目划分的计划报表，这些行项目可根据日期范围或访客活动发生更改。
+   >要获得更大的灵活性，请使用[表生成器](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)来配置带有划分的报表。当您打开具有划分的保存报表或计划报表后，可能需要单击“替换表”****&#x200B;以刷新动态报表数据的划分。例如，您可能需要刷新包含行项目划分的计划报表，这些行项目可根据日期范围或访客活动发生更改。
 
 >[!MORELIKETHIS]
 >
@@ -180,7 +180,7 @@ t_reports_changing_types.xml
 **在表中更改报表类型**
 
 1. 打开并配置排名报表。
-1. 右键单击表格中的报表名称列标题，然后单击&#x200B;**选择报表**，然后导航至报表。
+1. 右键单击表中的报表名称列标题，单击“选择报表”****，然后导航到报表。
 
 ## 将数据复制到剪贴板 {#task_357E53EF61FF49F8BE5AC8D2F419375C}
 
@@ -190,11 +190,11 @@ t_reports_clipboard.xml
 
  -->
 
-1. 打开Microsoft Excel。
+1. 打开 Microsoft Excel。
 
    建议您在复制数据前打开 Excel，因为启动 Excel 时它会清除内存缓冲区。
 
-1. At the report level, click **[!UICONTROL Settings]** ![](assets/settings_icon.png), then click **[!UICONTROL Copy Report Data]**.
+1. 在报表级别，单击“设置”****![](assets/settings_icon.png)，然后单击“复制报表数据”****。
 1. 在 Excel 中，选择一个单元格，然后粘贴数据。
 
 ## 提取访客 ID {#task_7223BE8E0389460282825E61BEDC0574}
@@ -205,16 +205,16 @@ t_reports_extract_ID.xml
 
  -->
 
-在Reports &amp; Analytics中，您可以设置一个字段以包含用户ID数据。 如果您配置了此选项，[!UICONTROL 提取访客 ID] 选项将变为可用。如果没有启用此选项，但之后又决定启用它，则无法返回和提取历史访客 ID。
+在 Reports &amp; Analytics 中，您可以设置一个包含用户 ID 数据的字段。如果您配置了此选项，[!UICONTROL 提取访客 ID] 选项将变为可用。如果没有启用此选项，但之后又决定启用它，则无法返回和提取历史访客 ID。
 
 **提取访客 ID**
 
 1. 向报表中添加数据仓库区段。
-1. Right-click the segment and select **[!UICONTROL Extract Visitor IDs]**.
+1. 右键单击区段并选择“提取访客 ID”****。
 
    将启动数据仓库应用程序。
 1. 在 [!UICONTROL Data Warehouse 请求]选项卡上，键入过滤器名称。
-1. Click **[!UICONTROL Request this Report]**.
+1. 单击&#x200B;**[!UICONTROL 请求此报表]**。
 
 ## 趋势化行 {#task_83C003EDCA7140C3AE9804629DD7A235}
 
@@ -233,7 +233,7 @@ t_reports_trending_row.xml
 
    您可以选择要在单个趋势报表中应用的多个单元格。
 
-1. To launch a report, click **[!UICONTROL Launch Trend Report]**.
+1. 要启动报表，请单击“启动趋势报表”****。
 
 ## 设置列宽度 {#task_0FCF395B4A8C40508B38B44586FB5969}
 
@@ -243,9 +243,9 @@ t_column_width.xml
 
  -->
 
-1. In the table, right-click the column header, then click **[!UICONTROL Column Width]**.
+1. 在表中右键单击列标题，然后单击“列宽”****。
 
-   如果启用了“适合窗口”，则会禁用该选项。1. Specify a width in pixels, then click **[!UICONTROL OK]**.
+   如果启用了“适合窗口”，则会禁用该选项。1. 以像素为单位指定宽度，然后单击“确定”****。
 
 >[!MORELIKETHIS]
 >
