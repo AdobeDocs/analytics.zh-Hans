@@ -2,7 +2,7 @@
 description: 可以使用表生成器创建具有任何量度、维度、区段配置的报表。例如，您可以将多个量度添加到表生成器中，然后将区段同时应用于所有量度。您可以从工具窗格中将项目应用为行和划分，或者应用为列，然后轻松旋转表以获得不同的视图。在生成表后，您可以直接与结果数据表交互以进行进一步分析。请记住，从表生成器中生成数据表时会运行查询和创建新的数据表。
 title: 表生成器
 uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -42,7 +42,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 编辑项目</span> </td> 
-   <td colname="col2"> <p><img  src="assets/Edit_Buttcon.png" id="image_E44BCC4B0BFF453D8564047E3DA2501A"> </img> </p> <p>选择维度项目列表以针对划分创建一个固定列表。当您将项目添加到该列表时，它们会在保存的报表中持续存在，并且在打开保存的报表或计划报表时不会折叠。 </p> <p>请参阅 <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#task_29BEE0AF09DA4625B9B44BAB77D7C841"  > 划分表格数据</a>. </p> </td> 
+   <td colname="col2"> <p><img  src="assets/Edit_Buttcon.png" id="image_E44BCC4B0BFF453D8564047E3DA2501A"> </img> </p> <p>选择维度项目列表以针对划分创建一个固定列表。当您将项目添加到该列表时，它们会在保存的报表中持续存在，并且在打开保存的报表或计划报表时不会折叠。 </p> <p>请参阅<a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#task_29BEE0AF09DA4625B9B44BAB77D7C841"  >划分表格数据</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 列</span> </td> 
@@ -63,7 +63,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## 从表生成器{#task_B04801AC9848485C93DF02E96C9A9902}中生成报表 
+## 从表生成器中生成报表 {#task_B04801AC9848485C93DF02E96C9A9902}
 
 描述如何使用[!UICONTROL 表生成器]的步骤。
 
@@ -73,10 +73,10 @@ t_table_builder.xml
 
  -->
 
-1. To access the [!UICONTROL Table Builder], run a supported report, then click **[!UICONTROL Table Builder]**.
+1. 要访问[!UICONTROL 表生成器]，请运行支持的报表，然后单击“表生成器”****。
 1. 将工具窗格中的项目（维度、量度和区段）拖到[!UICONTROL 表生成器]中。
 1. 将项目配置为行、划分和列。
-1. Click **[!UICONTROL Replace Table]** to generate the report.
+1. 单击“替换报表”****&#x200B;以生成报表。
 
-   在单击“替换表”**时，将运行新查询并创建新数据表。**&#x200B;不会在表生成器中反映对明细表的手动编辑。
+   在单击“替换表”****&#x200B;时，将运行新查询并创建新数据表。不会在表生成器中反映对明细表的手动编辑。
 
