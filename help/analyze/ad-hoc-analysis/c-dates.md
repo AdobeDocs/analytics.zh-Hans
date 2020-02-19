@@ -2,7 +2,7 @@
 description: 在日历中，您可以指定日期和日期范围，或者选择一个预设。您可以在项目、工作区和报表级别选择日历。项目的日期范围是默认日期。不过，工作区日期范围优先于项目日期范围。同样，报表的日期范围优先于工作区和项目的日期设置。您无法选择数据可用性范围以外的日期范围。
 title: 日期和日期范围
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -16,15 +16,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 在日历中，您可以指定日期和日期范围，或者选择一个预设。您可以在项目、工作区和报表级别选择日历。项目的日期范围是默认日期。不过，工作区日期范围优先于项目日期范围。同样，报表的日期范围优先于工作区和项目的日期设置。您无法选择数据可用性范围以外的日期范围。
 
-![](assets/Delete_Standard.png) 启用的“清除日期”**选项表明日期范围是在报表级别指定的。**
+![](assets/Delete_Standard.png) 启用的“清除日期”****&#x200B;选项表明日期范围是在报表级别指定的。
 
 也可以将日期（和时间维度）拖到报表或[!UICONTROL 表生成器]中。您可以选择特定的日、周、月、年或滚动日期。如果您在 Marketing Reports &amp; Analytics 中使用自定义日历，则报表包将继承这些设置并相应地更新报表。
 
-如果您在创建项目时选择了一个日期范围，那么使用左侧的预配置可以设置一个滚动日期，而使用右侧的日历则无法设置。An easy way to tell whether your date range is rolling is the statement "This date range will roll" next to the **[!UICONTROL OK]** button.
+如果您在创建项目时选择了一个日期范围，那么使用左侧的预配置可以设置一个滚动日期，而使用右侧的日历则无法设置。分辨日期范围是否为滚动日期的简便方法是：查看“确定”****&#x200B;按钮旁边是否显示了声明“此日期范围将会滚动”。
 
 ![](assets/daterange.jpeg)
 
-> [!NOTE] 如果运行旧版报告时需要帮助，请与客户经理联系。
+> [!NOTE]如果您在运行旧式报表时需要获得帮助，请联系您的客户经理。
 
 ## 旧式日期片段 {#concept_53AA34DB3CE647608CAF4B41D6EAF45E}
 
@@ -39,7 +39,7 @@ c_legacy_data.xml
 **访问历史日期片段**
 
 1. [创建或打开一个项目。](/help/analyze/ad-hoc-analysis/c-getting-started.md)
-1. 打开日 [历](/help/analyze/ad-hoc-analysis/c-dates.md)，然后选择季 **[!UICONTROL 度]** 或 **[!UICONTROL 年]**。
+1. 打开[日历](/help/analyze/ad-hoc-analysis/c-dates.md)，然后选择&#x200B;**[!UICONTROL 季度]**&#x200B;或&#x200B;**[!UICONTROL 年份]**。
 
-> [!NOTE] 历史日期切片位于季度和年限内。 您无法查看跨越旧式片段与新处理平台之间边界的数据。跨越这两个边界的日期范围会导致出现错误。此外，日期范围仅适用于阳历日历，而不适用于自定义日历。
+> [!NOTE]历史日期片段的约束范围是季度和年份。您无法查看跨越旧式片段与新处理平台之间边界的数据。跨越这两个边界的日期范围会导致出现错误。此外，日期范围仅适用于阳历日历，而不适用于自定义日历。
 
