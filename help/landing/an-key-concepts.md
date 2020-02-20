@@ -23,7 +23,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | Data Warehouse | 用于存储和自定义报表的、未经处理的原始数据，您可通过过滤数据运行它。无点击级别。 | [Data Warehouse 主页](https://docs.adobe.com/content/help/zh-Hans/analytics/export/data-warehouse/data-warehouse.html) |
 | Adobe Mobile Services | 可以在整个 Adobe Experience Cloud 范围内将移动设备应用程序的移动营销功能整合在一起，以便您了解和提高应用程序的用户参与度。 | [Mobile Services 主页](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html) |
 | Adobe Exchange Data Connectors（以前称为 Genesis） | 可将来自第三方应用程序的跟踪数据导入 Analytics，从而在一个中心位置提供端到端的性能可见性。 | [Data Connectors 主页](https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works) |
-| 动态标签管理 (DTM) | 帮助您管理所有网站上的 Analytics、Target 及其他标签，而无需考虑您有多少个域。 | [DTM 主页](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/implement-analytics-with-dtm/dtm-implementation-overview.html) |
+| Dynamic Tag Management (DTM) | 帮助您管理所有网站上的 Analytics、Target 及其他标签，而无需考虑您有多少个域。 | [DTM 主页](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/implement-analytics-with-dtm/dtm-implementation-overview.html) |
 | Adobe Launch | Adobe 推出的新一代网站标记和移动 SDK 管理功能。 | [Adobe Launch 主页](https://docs.adobe.com/content/help/zh-Hans/launch/using/overview.translate.html) |
 
 ## 关键术语 {#concept_E473ACBB8E4A42B4AC005538AC12F154}
@@ -42,7 +42,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 区段 | 能够生成、管理和共享强大而集中的受众区段，并将其应用于您的 Analytics 报表。区段在各 Analytics 产品间共享，还可在整个 Experience Cloud 中共享。 | [区段划分](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/seg-home.html) |
 | 时间（日期范围） | 能够将日期过滤到任何时间段并创建可在分析中重用的自定义日期范围。 | [日期范围](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) |
 | 可视化图表 | 丰富的视觉效果有助于使项目中的数据变得生动。 | [可视化图表](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) |
-| 管理分析 | 能够限制可在项目或虚拟报表包中访问的组件。 | [VRS 策划](https://docs.adobe.com/content/help/zh-Hans/analytics/components/virtual-report-suites/vrs-components.html)<br>[项目策划](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/curate.html)</br><br>[比较](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) |
+| 管理分析 | 能够限制可在项目或虚拟报表包中访问的组件。 | [VRS 管理分析](https://docs.adobe.com/content/help/zh-Hans/analytics/components/virtual-report-suites/vrs-components.html)<br>[项目管理分析](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/curate.html)</br><br>[比较](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) |
 
 ## 关键报表
 
