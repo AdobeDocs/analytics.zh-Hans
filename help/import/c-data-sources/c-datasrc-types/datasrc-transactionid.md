@@ -2,7 +2,7 @@
 title: 交易ID数据源
 description: 了解使用交易ID数据源的一般工作流程。
 translation-type: tm+mt
-source-git-commit: a5c3d9b2cd02dc7e89abb469e2e0e44985a17638
+source-git-commit: c54704bef49a2c3076caac6fe7dd3ec8d40596ef
 
 ---
 
@@ -21,3 +21,29 @@ source-git-commit: a5c3d9b2cd02dc7e89abb469e2e0e44985a17638
 1. 按照数据源设置向导进行操作，以获取一个FTP位置以上传数据并下载数据源模板文件。
 1. 更新您的实施以包含该 `transactionID` 变量。
 1. 将数据源文件与文件一起上传到FTP站 `.fin` 点。
+
+## 上传文件和实施代码示例
+
+如果您上传了以下数据源文件，并在您的站点上实施了以下代码，您会在报告中看到链接的数据。 数据源文件使用eVar1和event1，而联机实现使用eVar2和event2。 由于事务ID匹配，因此您可以看到eVar1的event2数据和eVar2的event1数据。
+
+### 示例文件
+
+下载模板，更新值，然后将其上传到数据源FTP位置：
+
+| `# Generic Data Source (Transaction ID) template file (user: 0 ds_id: 1)` |  |  |  |
+|---|---|---|---|
+| `#` | `Example eVar1 name` | `Example event 1 name` | `1` |
+| `Date` | `Evar 1` | `Event 1` | `transactionID` |
+| `01/01/2020/12/00/00` | `Example eVar1 value` | `1` | `1234` |
+
+### 示例实施代码
+
+有关事务ID的更详细说明，请参阅 [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 《实施用户指南》中的“。
+
+```js
+var s = s_gi("examplersid");
+s.eVar2 = "Example eVar2 value";
+s.events = "event2";
+s.transactionID = "1234";
+s.t();
+```
