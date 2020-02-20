@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics 技术文档指南
 description: Analytics 用户指南和资源
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b983e8d85378514c1ae4e6c1e20f95ac5f51da15
 
 ---
@@ -9,31 +9,31 @@ source-git-commit: b983e8d85378514c1ae4e6c1e20f95ac5f51da15
 
 # Adobe Analytics 文档
 
-欢迎使用Adobe Analytics产品和技术文档主页。 您可以在此找到报告工具(如 [!UICONTROL Analysis Workspace]、 [!UICONTROL Report Builder]、Reporting API、 [!UICONTROL Data Workbench]和Activity Map)的自助和 支持信息。 您还可以访问有关产品和用户管理、实施以及Adobe Analytics中支持的所有功能的文档。
+欢迎使用 Adobe Analytics 产品和技术文档主页。在这里，您可以找到有关如下报表工具的自助信息和支持信息：[!UICONTROL Analysis Workspace]、[!UICONTROL Report Builder]、报表 API、[!UICONTROL Data Workbench] 和 [!UICONTROL Activity Map]。您还可以访问有关产品和用户管理、实施以及 Adobe Analytics 中支持的所有功能的文档。
 
-[![工具](assets/analyze_50px.png)](/help/analyze/home.md)[Analytics工具指南](/help/analyze/home.md) -提供对 [](/help/analyze/analysis-workspace/home.md)Analysis Workspace的访问，Analysis Workspace是Analytics的主要分析和可视化工具。 还提供了可在Adobe Analytics中使[!UICONTROL 用的所有分析工具]( [!UICONTROL Report Builder]、Reporting API、 [!UICONTROL Data Workbench]和Activity Map)。
+[![工具](assets/analyze_50px.png)](/help/analyze/home.md) [Analytics 工具指南](/help/analyze/home.md) – 提供了 [Analysis Workspace](/help/analyze/analysis-workspace/home.md)（适用于 Analytics 的最佳分析和可视化工具）的访问权限；另外，还提供了可在 Adobe Analytics 中使用的所有分析工具（[!UICONTROL Report Buidler]、报表 API、[!UICONTROL Data Workbench] 和 [!UICONTROL Activity Map]）。
 
-[![管理员](assets/admin_50px.png)](/help/admin/home.md)[](/help/admin/home.md) 指南——了解如何在Experience Cloud Admin Console中管理用户和产品、配置报表包、公司设置、数据管理、服务器调用使用、流量管理等。
+[![管理员](assets/admin_50px.png)](/help/admin/home.md) [管理员指南](/help/admin/home.md) – 了解如何在 Experience Cloud Admin Console 中管理用户和产品，如何配置报表包、公司设置、数据管理、服务器调用使用情况、流量管理，及其他更多项目。
 
-[![实施](assets/implement_50px.png)](/help/implement/home.md) [实施指南](/help/implement/home.md) – 自定义要收集哪些数据以便更加充分地利用 Adobe Analytics。Includes content on [!UICONTROL Adobe Experience Platform Launch] and JavaScript implementations.
+[![实施](assets/implement_50px.png)](/help/implement/home.md)[ 实施指南](/help/implement/home.md) – 自定义要收集哪些数据，以便更加充分地利用 Adobe Analytics。其中包含关于 [!UICONTROL Adobe Experience Platform Launch] 和 JavaScript 实施的内容。
 
-[![组件](assets/components_50px.png)](/help/components/home.md) [组件指南](/help/components/home.md) – 了解有助于您管理和组织数据的功能。组件包括区段、计算度量、虚拟报表包和警报等。该指南还包含变量参考，对所有可用的维度和量度进行了阐述。
+[![组件](assets/components_50px.png)](/help/components/home.md)[ 组件指南](/help/components/home.md) – 了解有助于您管理和组织数据的功能。组件包括区段、计算度量、虚拟报表包和警报等。该指南还包含变量参考，对所有可用的维度和量度进行了阐述。
 
-[![导出](assets/export_50px.png)](/help/export/home.md)[导出指南](/help/export/home.md) -从Adobe Analytics获取数据：使 [!UICONTROL 用数据馈送] ，可接收每小时或每天导出的原始数据。 使用数据仓库检索数据的电子表 [!UICONTROL 格输出]。
+[![导出](assets/export_50px.png)](/help/export/home.md) [导出指南](/help/export/home.md) – 从 Adobe Analytics 导出数据：使用[!UICONTROL 数据馈送]接收导出的原始数据，接收频率为每小时或每天一次。使用 [!UICONTROL Data Warehouse] 检索生成的数据电子表格。
 
-[![导入](assets/import_50px.png)](/help/import/home.md) [导入指南](/help/import/home.md) – 将外部源中的数据批量或实时导入 Analytics 中。Includes [!UICONTROL Data Sources], [!UICONTROL Data Insertion API], and [!UICONTROL Data Connectors].
+[![导入](assets/import_50px.png)](/help/import/home.md)[ 导入指南](/help/import/home.md) – 将外部源中的数据批量或实时导入 Analytics 中。包括[!UICONTROL 数据源]、[!UICONTROL 数据插入 API] 和 [!UICONTROL Data Connectors]。
 
-[![集成](assets/integrate_50px.png)](/help/integrate/home.md)[集成指南](/help/integrate/home.md) -配置与其他Adobe Experience cloud解决方案（如Audience Manager、Advertising cloud和Target）的集成。
+[![集成](assets/integrate_50px.png)](/help/integrate/home.md) [集成指南](/help/integrate/home.md) – 配置与其他 Adobe Experience Cloud 解决方案（例如 Audience Manager、Advertising Cloud 或 Target）的集成。
 
-[![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)Media Analytics Guide[](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) —— 对音频或视频源实施Analytics。 包括 Media SDK 和 Media Collection API。
+[![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-overview.html) [Media Analytics 指南](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-overview.html) – 对音频或视频源实施 Analytics。包括 Media SDK 和 Media Collection API。
 
-[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)[Data Workbench指南](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) -了解 [!UICONTROL Data Workbench高度灵活、强大的多渠道功能]。 包括 [!UICONTROL Data Workbench Client]、Installation [!UICONTROL 、Dataset Configuration] guides等。
+[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) [Data Workbench 指南](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) – 了解 [!UICONTROL Data Workbench] 所具有的高度灵活且强大的多渠道功能。其中包括 [!UICONTROL Data Workbench 客户端]指南、安装指南、[!UICONTROL 数据集配置]指南，及其他指南。
 
-[![技术文件](assets/technotes_50px.png)](/help/technotes/home.md) [Analytics 技术文件](/help/technotes/home.md) – 一个知识库，其中包含不属于某个具体 Analytics 工具或组件的有用文章。
+[![技术文档](assets/technotes_50px.png)](/help/technotes/home.md) [Analytics 技术文档](/help/technotes/home.md) – 一个知识库，其中包含并非适用于特定 Analytics 工具或组件的实用文章。
 
 | 新增项目和特色项目 | 重要 Analytics 资源 |
 | --- | --- |
-| <ul><li>[地区数据收集](/help/technotes/rdc/regional-data-collection.md)</li><li>[优化 Workspace 性能](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Analytics 产品比较](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[我应该使用哪种 Adobe Analytics 工具？](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br>另请参阅：[2019 年文档更新](doc-updates.md) | <ul><li> [发行说明](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li> [Adobe Analytics Youtube频道](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[分析教程和视频](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Analytics社区论坛](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[现场培训和虚拟课程](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[联系客户关怀团队](https://helpx.adobe.com/support/analytics.html)</li></ul> |
+| <ul><li>[地区数据收集](/help/technotes/rdc/regional-data-collection.md)</li><li>[优化 Workspace 性能](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Analytics 产品比较](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[我应该使用哪种 Adobe Analytics 工具？](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br>另请参阅：[2019 年文档更新](doc-updates.md) | <ul><li> [发行说明](https://marketing.adobe.com/resources/help/zh_CN/whatsnew/)</li><li> [Adobe Analytics YouTube 渠道](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Analytics 教程和视频](https://helpx.adobe.com/cn/analytics/kt/index/analytics-videos.html)</li><li>[Analytics 社区论坛](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[面对面培训和虚拟课程](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[联系客户关怀团队](https://helpx.adobe.com/cn/support/analytics.html)</li></ul> |
 
 <!-- Keep around for now
 
