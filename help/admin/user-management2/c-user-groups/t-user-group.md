@@ -4,7 +4,7 @@ subtopic: Users and groups
 title: 添加用户群组
 topic: Admin tools
 uuid: 01b662df-040d-48e6-a5c1-6ce65341bf79
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,11 +14,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在迁移完所有客户之后，将撤销 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理工具]** &gt; **[!UICONTROL 用户管理]**&#x200B;中的帮助内容。
+>用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在迁移完所有客户之后，将撤销 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员工具]** > **[!UICONTROL 用户管理]**&#x200B;中的帮助内容。
 
 描述如何添加用户群组的步骤。
 
-1. 单击 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 用户管理]**。
+1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]**。
 1. 单击&#x200B;**[!UICONTROL 添加新用户群组]**，然后完成[定义用户群组](/help/admin/user-management2/c-user-groups/groups.md)中所述的字段和选项。
 
    快速链接：
