@@ -3,7 +3,7 @@ description: 描述如何创建汇总报表包的步骤。
 title: 创建汇总报表包
 topic: Admin tools
 uuid: d4bab32a-2a09-49a7-b280-29f8f33ee021
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 描述如何创建汇总报表包的步骤。
 
-1. 单击 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]**。
+1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
 1. 在[!UICONTROL 报表包群组]中，单击&#x200B;**[!UICONTROL 汇总]**&#x200B;标题旁的&#x200B;**[!UICONTROL 添加]**。
 1.  在&#x200B;**[!UICONTROL 新建汇总]**&#x200B;对话框中，提供以下信息：
 
