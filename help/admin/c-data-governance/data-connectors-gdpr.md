@@ -16,7 +16,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 如果您正在使用以下任意连接器的集成，那么可以简单地查看一下集成中的哪个合作伙伴变量/分类可能包含直接可识别数据或间接可识别数据。
 
-> [!NOTE]此信息旨在帮助您识别必须[标记的](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)变量，但是您作为数据控制者，有责任应用适当的标签或执行其他操作以便做好[数据隐私准备](/help/admin/c-data-governance/an-gdpr-overview.md)（更新分类等）。
+> [!NOTE]此信息旨在帮助您识别必须[标记的](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)变量，但是您作为数据控制者，有责任应用适当的标签或执行其他操作，以便做好[数据隐私准备](/help/admin/c-data-governance/an-gdpr-overview.md)（更新分类等）。
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
