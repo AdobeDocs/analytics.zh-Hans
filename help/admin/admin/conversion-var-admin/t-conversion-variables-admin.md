@@ -3,7 +3,7 @@ description: 描述如何添加或编辑转化变量的步骤。
 title: 编辑转化变量
 topic: Admin tools
 uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 描述如何添加或编辑转化变量的步骤。
 
-1. 单击 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]**。
+1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
 1. 选择报表包。
-1. 单击&#x200B;**[!UICONTROL 编辑设置]** &gt; **[!UICONTROL 转化]** &gt; **[!UICONTROL 转化变量]**。
+1. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 转化]** > **[!UICONTROL 转化变量]**。
 1. 在[!UICONTROL 转化变量]页面上，单击您想要修改的转化变量旁的&#x200B;**[!UICONTROL 展开]**&#x200B;图标 [+]。
 
    或
