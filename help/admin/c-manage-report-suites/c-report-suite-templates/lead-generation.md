@@ -3,7 +3,7 @@ description: 为提供有关服务和产品（往往需要通过进一步参与�
 title: 商机拓展
 topic: Admin tools
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
