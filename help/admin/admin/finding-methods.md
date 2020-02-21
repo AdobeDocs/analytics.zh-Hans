@@ -3,7 +3,7 @@ description: “查找方法”页面可识别各种查找方法报表在网站�
 title: 查找方法
 topic: Admin tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 “查找方法”页面可识别各种查找方法报表在网站上接收转化成功事件信用的方式。例如，如果某个搜索引擎引荐一个访客到您的网站购物，“查找方法”可指定该搜索引擎如何接收反向链接的信用。
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]** &gt; **[!UICONTROL 编辑设置]** &gt; **[!UICONTROL 转化]** &gt; **[!UICONTROL 查找方法]**。
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 转化]** > **[!UICONTROL 查找方法]**。
 
 ## 查找方法描述 {#section_8B6278DB75224EAB9F49D89A86274E8A}
 
