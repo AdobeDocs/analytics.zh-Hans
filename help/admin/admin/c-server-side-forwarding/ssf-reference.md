@@ -33,7 +33,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 |--- |--- |
 | 主机 | 设置为在 Analytics 主机配置文件中指定的客户端的特定数据收集主机名。它显示为 `host name .demdex.net`。请参阅了解 Demdex 域调用。 |
 | User-Agent | 设置为传递到 Analytics 的 User-Agent 头。 |
-| X-Original-User-Agent | 只有在通过以下标头之一指定了备用用户代理时才会设置此头：</br>`X-Device-User-Agent\ `  </br>`X-Original-User-Agent\`   </br>`X-OperaMini-Phone-UA\`   </br>`X-Skyfire-Phone\`    </br>`X-Bolt-Phone-UA\` |
+| X-Original-User-Agent | 只有在通过以下标头之一指定了备用用户代理时才会设置此头：</br>`X-Device-User-Agent\ `</br>`X-Original-User-Agent\`  </br>`X-OperaMini-Phone-UA\`</br>`X-Skyfire-Phone\`   </br>`X-Bolt-Phone-UA\`        |
 | X-Forwarded-For | 设置为请求客户端的 IP 地址。Analytics 将已经解析传入的 `X-Forwarded-For` 头并确定要使用的正确 IP 地址。 |
 | Accept-Language | 设置为传递到 Analytics 的 `Accept-Language` 头。 |
 | Referer | 设置为传递到 Analytics 的页面 URL，或从传递到 Analytics 的 Referer 头中收集的页面 URL。 |
@@ -50,7 +50,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | c_clientDateTime | 时间戳的格式为 yyyy/mm/dd hh:mm:ss W TZ。TZ 以分钟为单位，并与 Date.getTimezoneOffset 方法的返回值匹配。 |
 | c_colorDepth | 指定为 16 位或 32 位颜色。 |
 | c_connectionType | 指定连接类型。选项包括：<ul><li>modem</li><li>lan</li></ul> |
-| c_contextData.* | 示例：<ul><li>AppMeasurement：s.contextData</li><li>["category"] = "news";</li><li>信号：c_contextData.category=news</li></ul> |
+| c_contextData.* | 示例：<ul><li>AppMeasurement：s.contextData</li><li>[&quot;category&quot;] = &quot;news&quot;;</li><li>信号：c_contextData.category=news</li></ul> |
 | c_cookiesEnabled | 指定是否可启用 Cookie。选项包括：是、否、未知 |
 | c_currencyCode | 用于交易的货币类型。 |
 | c_evar# | 自定义 eVar |
