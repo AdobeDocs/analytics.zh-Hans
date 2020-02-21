@@ -19,6 +19,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 要设置视图密度，请执行以下操作：
 
-1. 在工作区中中，导航至&#x200B;**[!UICONTROL 项目]** &gt; **[!UICONTROL 项目信息和设置]**。
+1. 在工作区中，导航至&#x200B;**[!UICONTROL 项目]** > **[!UICONTROL 项目信息和设置]**。
 
 1. 从上面列出的 3 个选项中进行选择，然后单击&#x200B;**[!UICONTROL 保存]**。
