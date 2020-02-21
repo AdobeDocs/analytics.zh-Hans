@@ -45,6 +45,6 @@ Adobe 认识到您最熟悉您的报表包中的自定义数据，因此我们�
 * 将您要设置进行数据管理的任何 Adobe Analytics 报表包映射到[您的 Experience Cloud 组织。](https://marketing.adobe.com/resources/help/zh_CN/mcloud/report-suite-mapping.html)
 * 为每个报表包设置一项数据保留策略，以便能够处理 GDPR 删除和访问请求。
 
-   > [!NOTE] 如果未在 Adobe Analytics 中设置数据保留期限，Adobe Analytics 将无法协助您处理 GDPR API 请求，例如，处理您从最终用户那里收到的访问请求或删除请求。请联系您的客户成功经理以便设置数据保留期限。
+   > [!NOTE] 如果没有在 Adobe Analytics 中设置数据保留期限，Adobe Analytics 则无法协助您处理 GDPR API 请求，也就是说，无法协助您处理来自最终用户的访问请求或删除请求。请联系您的客户成功经理以便设置数据保留期限。
 
 * 检查您的权限：要在 Adobe Analytics 中使用“数据管理”管理界面，您必须是 Adobe Analytics 管理员。
