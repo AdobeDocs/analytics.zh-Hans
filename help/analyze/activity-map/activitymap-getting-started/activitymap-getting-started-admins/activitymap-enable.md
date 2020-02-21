@@ -3,7 +3,7 @@ description: 解释为了启用 Activity Map 链接收集和用户下载，Analy
 title: 启用 Activity Map
 topic: Activity map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,7 +19,7 @@ Activity Map 模块是 AppMeasurement.js 文件的一部分（位于文件顶部
 
 除非您更新至 AppMeasurement 的这个版本（或更高版本），否则无法收集 Activity Map 数据。
 
-1. 通过转至 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 代码管理器]**&#x200B;下载最新的 AppMeasurement 代码 (AppMeasurement_Javascript-1.6.zip) 并[实现该代码](https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html)。
+1. 通过转至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 代码管理器]**&#x200B;下载最新的 AppMeasurement 代码 (AppMeasurement_Javascript-1.6.zip) 并[实现它](https://marketing.adobe.com/resources/help/zh_CN/sc/implement/js_implementation.html)。
 
    我们已经提供了一些[实现代码样例](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)，以帮助您直观地了解在添加 Activity Map 模块后代码产生的变化。
 
@@ -32,13 +32,13 @@ Activity Map 模块是 AppMeasurement.js 文件的一部分（位于文件顶部
       …&c.&a.&Activity Map.&link=My%20Link&region=My%20Region&page=My%20Page&.Activity Map&.a&.c&...
       ```
 
-1. 按照 **[!UICONTROL Activity Map 链接（按区域）]**&#x200B;划分此报表时，可以查看该页面的链接/区域：![](assets/am_breakdown.png){width="400px"}
+1. 按照 **[!UICONTROL Activity Map 链接（按区域）]**&#x200B;划分此报表时，可以查看该页面的链接/区域：![](assets/am_breakdown.png){width=&quot;400px&quot;}
 
 ## 步骤 2. 启用 Activity Map 报表 {#section_D14F15D2FC0346FCAD8B3B87E6DD33D4}
 
 首先，您需要在报表包级别上启用 Activity Map 报表。
 
-1. 登录 Adobe Analytics，然后导航至 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员 &gt; 报表包 &gt;[选择报表包]&gt; 编辑设置 &gt; Activity Map]** &gt; **[!UICONTROL Activity Map 报告]**。
+1. 登录到 Adobe Analytics，然后导航至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员 > 报表包 >[选择报表包]> 编辑设置 > Activity Map]**>**[!UICONTROL  Activity Map 报告&#x200B;]**。
 1. Activity Map 会收集 Activity Map 报表中的链接数据。为了激活，您必须首先通过单击&#x200B;**[!UICONTROL 启用 Activity Map 报表]**&#x200B;来激活变量。
 
    该步骤会添加您收集数据所需的所有维度。
@@ -51,8 +51,8 @@ Activity Map 模块是 AppMeasurement.js 文件的一部分（位于文件顶部
 
    这会把您带入“管理控制台”中的群组管理页面。
 
-1. [将用户添加至组](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)并&#x200B;**[!UICONTROL 保存群组]**。
+1. [将用户添加至组](https://marketing.adobe.com/resources/help/zh_CN/reference/groups.html)并&#x200B;**[!UICONTROL 保存群组]**。
 
-1. This allow your Admin users to download Activity Map from  **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL ActivityMap]** .
+1. 这可以允许您的管理员用户从 **[!UICONTROL Adobe Analytics]** > **[!UICONTROL 工具]** > **[!UICONTROL Activity Map]** 下载 Activity Map。
 
 > [!NOTE] 如果您希望非管理员用户下载 Activity Map，请新建一个用户组，以提供“工具”和“旧版 ClickMap 安装”的权限。此级别权限与“Activity Map 访问”结合使用，可提供下载和使用该工具的权限。
