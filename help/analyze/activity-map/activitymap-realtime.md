@@ -3,7 +3,7 @@ description: 实时页面分析（实时模式）允许您实时获取带有分�
 title: 实时页面分析（实时模式）
 topic: Activity map
 uuid: a3faa9bd-73d8-48b3-be2b-f818ed7456fb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -34,4 +34,4 @@ Describe what you can do with the feature: - what is the data shown? why do I se
 * 对于实时流、实时报表和 API 请求，以及流量变量的当前数据，仅包含额外数据 ID 的点击会发生延迟。
 * 对于转化量度的当前数据、最终数据和数据馈送，所有的点击都会额外延迟 5 至 7 分钟的时间。
 
-请注意，实施 [Identity 服务](https://marketing.adobe.com/resources/help/en_US/mcvid/)之后，即使您还未完全实施 A4T 集成，滞后的时间也会开始增加。
+请注意，实施 [Identity 服务](https://marketing.adobe.com/resources/help/zh_CN/mcvid/)之后，即使您还未完全实施 A4T 集成，滞后的时间也会开始增加。
