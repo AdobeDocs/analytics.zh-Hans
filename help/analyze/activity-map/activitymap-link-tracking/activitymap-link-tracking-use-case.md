@@ -3,7 +3,7 @@ description: 您可以通过以下方式区分链接：使用 s_objectID 变量�
 title: 区分引用相同链接 ID 和区域的多个链接
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -48,7 +48,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 使用 s_objectID 来自定义链接 ID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-通过为链接或页面上的链接位置创建唯一对象 ID，您可以改善 Activity Map 跟踪功能，或使用 Activity Map（而非链接 URL）来报告链接的类型或位置。单击[此处](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html)，以了解有关 s_objectID 变量的更多信息。
+通过为链接或页面上的链接位置创建唯一对象 ID，您可以改善 Activity Map 跟踪功能，或使用 Activity Map（而非链接 URL）来报告链接的类型或位置。单击[此处](https://marketing.adobe.com/resources/help/zh_CN/sc/implement/s_objectID.html)，以了解有关 s_objectID 变量的更多信息。
 
 >[!IMPORTANT]
 >
