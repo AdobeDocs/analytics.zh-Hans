@@ -3,7 +3,7 @@ description: 有关 Activity Map 中链接跟踪的常见问题解答。
 title: 链接跟踪常见问题解答
 topic: Activity map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
