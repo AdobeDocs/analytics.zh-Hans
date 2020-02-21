@@ -3,7 +3,7 @@ description: 您可以通过选择预定义的模板或者使用某个现有报�
 title: 新报表包 - 设置
 topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
