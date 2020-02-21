@@ -2,7 +2,7 @@
 description: 本帮助页面包含每个 Adobe Analytics 工具的推荐使用案例。应该按照工具的列出顺序来考虑使用哪个工具。如果某个工具无法满足需求，请考虑切换到下一个工具。
 title: 我应该使用哪种 Adobe Analytics 工具？
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
 
 ---
@@ -30,7 +30,7 @@ source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
 * 用于访问独特的视频数据（包括并行查看者、视频时段和视频查看者退出率）的可视化图表。
 * 用于在计划报表中使用“发布列表”功能。
 
-**[Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)**的使用说明：
+**[Mobile Services UI](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html)**的使用说明：
 
 * 适用于需要只查看移动设备应用程序数据的情况。
 * 用于管理移动设备应用程序 SDK 的实施。
@@ -42,7 +42,7 @@ source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
 **[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)**的使用说明：
 
 * 用于导出 50,000 行数据
-* 适用于需要以选项卡方式组织项目工作的情况.
+* 适用于需要以选项卡方式组织项目工作的情况
 * 用于使用网站分析报表（3D 路径报表）。
 
 **[Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)**的使用说明：
@@ -73,7 +73,7 @@ source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
    * 交易 ID：数据上载将在线端点与离线数据连接起来，并将导入的数据与访客在线捕获的快照完全关联（例如，在线完成并离线返回的订单）
    * 完全处理：像处理 Adobe 服务器收集的点击一样处理带有时间戳的数据源。例如，直接将数据插入访客历程。
 
-**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)（以前称为 Genesis）**&#x200B;的使用说明：
+**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)（以前称为 Genesis）**的使用说明：
 
 * 适用于跟已经与 Adobe Analytics 建立受支持连接的第三方提供商合作的情况。Data Connectors 通常会定期将摘要级别的数据自动地永久合并到 Adobe Analytics 中。
 
@@ -96,7 +96,7 @@ source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
 **[Report Builder](/help/analyze/report-builder/home.md)**的使用说明：
 
 * 适用于工作区的自定义布局选项有限的情况（在 Excel 的限制范围内，Report Builder 可执行任何操作）。
-* 用于将用户输入的内容或离线数据源（展示次数、成本）松散绑定到 Adobe 数据。用于将数据关联起来的更为永久的解决方案是数据源（请参阅“将数据导入 Analytics”）.
+* 用于将用户输入的内容或离线数据源（展示次数、成本）松散绑定到 Adobe 数据。用于将数据关联起来的更为永久的解决方案是数据源（请参阅“将数据导入 Analytics”）
 * 用于将不同维度报表中的数据合并起来（例如，将促销活动展示次数报表和促销活动点击对话报表合并起来）。
 * 用于进行跨报表包查看。
 * 适用于需要通过计划实现自动化的情况（XLSX、XLSM、CSV、PDF、TXT、XML、MHT）。
