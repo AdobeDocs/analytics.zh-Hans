@@ -3,7 +3,7 @@ description: 报表包模板为多种类型的报表包配置了最常见的设�
 title: 报表包模板概述
 topic: Admin tools
 uuid: 5717863f-208d-44b5-8bc5-c286beccf8ff
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
