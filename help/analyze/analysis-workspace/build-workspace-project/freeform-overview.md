@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 创建项目 - 概述
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # 创建项目 - 概述
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 工作区]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 工作区]**
 
 您可以基于可视化、报表组件和数据表的任意组合，创建功能强大的 Analytics 项目。它将 Ad Hoc Analysis 的许多表格生成器功能引入到 Analytics 中。
 
@@ -22,7 +22,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 工作区项目列表页面 {#section_39AA007D7C384F4E869F842F1C7B11F8}
 
-当您首次访问 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 工作区]**&#x200B;时，该页面会列出您拥有或已获得访问权限的所有项目。通过单击&#x200B;**[!UICONTROL 设置为登录页面]**，您可以将此页面设置为您的 Adobe Analytics 登录页面。（如果您未看到此选项，如下面的屏幕快照所示，则它已是您的登录页面。）
+当您首次访问 **[!UICONTROL Analytics]** > **[!UICONTROL 工作区]**&#x200B;时，该页面会列出您拥有或已获得访问权限的所有项目。通过单击&#x200B;**[!UICONTROL 设置为登录页面]**，您可以将此页面设置为您的 Adobe Analytics 登录页面。（如果您未看到此选项，如下面的屏幕快照所示，则它已是您的登录页面。）
 
 ![](assets/sample-project.png)
 
@@ -32,16 +32,16 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 |---|---|
 | 项目[模板](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | 您可以按原样使用这些预填充项目模板，或调整它们以符合您的需要（例如，添加或替换量度或可视化），然后取一个新名称将它们保存。 |
 | [新建项目](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | 单击此链接可重新启动一个新项目。 |
-| 管理项目 | 单击此链接将会转到项目组件管理器（**[!UICONTROL Analytics]** &gt; **[!UICONTROL 组件]** &gt; **[!UICONTROL 项目]**），其中列出了您的所有项目，并允许您标记、共享、删除、重命名、批准、复制项目以及将项目导出到 CSV。 |
+| 管理项目 | 单击此链接将会转到项目组件管理器（**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 项目]**），其中列出了您的所有项目，并允许您标记、共享、删除、重命名、批准、复制项目以及将项目导出到 CSV。 |
 | 查看教程 | 转到 [Analysis Workspace YouTube 视频](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)。 |
 | 名称 | 工作区项目名称。 |
 | 创建者 | 创建此项目的人员（您或与您共享项目的人员）。 |
-| 标记 | 项目组件管理器中或&#x200B;**[!UICONTROL 工作区]** &gt; **[!UICONTROL 项目]** &gt; **[!UICONTROL 项目信息和设置]**&#x200B;下应用于项目的标记。 |
+| 标记 | 项目组件管理器中或&#x200B;**[!UICONTROL 工作区]** > **[!UICONTROL 项目]** > **[!UICONTROL 项目信息和设置]**&#x200B;下应用于项目的标记。 |
 | 上次修改时间 | 项目上次修改的日期和时间。 |
 
 ## 项目信息和设置 {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
-**[!UICONTROL 工作区]** &gt; **[!UICONTROL 项目]** &gt; **[!UICONTROL 项目信息和设置]**
+**[!UICONTROL 工作区]** > **[!UICONTROL 项目]** > **[!UICONTROL 项目信息和设置]**
 
 ![](assets/projectinfo.png)
 
