@@ -3,7 +3,7 @@ description: 介绍如何创建报表包以及如何将报表包的设置复制�
 title: 创建报表包
 topic: Admin tools
 uuid: fada5b10-f574-4c3f-8704-679c9992fc88
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 介绍如何创建报表包以及如何将报表包的设置复制到新报表包的步骤。
 
-1. 单击 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]**。
+1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
 1. 选择报表包。
-1. 单击&#x200B;**[!UICONTROL 新建]** &gt; **[!UICONTROL 报表包]**。
+1. 单击&#x200B;**[!UICONTROL “新建”]**>**[!UICONTROL “报表包”]**。
 1. 要复制报表包的设置，请在模板列表中，选择预定义的模板，或选择现有的报表包以用作[模板](/help/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)。
 
    >[!NOTE]
