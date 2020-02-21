@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: 使用上下文数据变量设置事件
 topic: Admin tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -35,4 +35,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ![](assets/processing_rule_set_event.png)
 
-请参阅实施帮助中的[上下文数据变量](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html)。
+请参阅实施帮助中的[上下文数据变量](https://marketing.adobe.com/resources/help/zh_CN/sc/implement/context_data_variables.html)。
