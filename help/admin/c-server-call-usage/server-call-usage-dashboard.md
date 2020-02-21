@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 查看当前的服务器调用使用情况
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 服务器调用使用情况]** &gt; **[!UICONTROL 当前使用情况]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 服务器调用使用情况]** > **[!UICONTROL 当前使用情况]**
 
 > [!IMPORTANT] 您所看到的任何使用情况和承诺使用数值是所有登录公司和报表包的累计数值。
 
