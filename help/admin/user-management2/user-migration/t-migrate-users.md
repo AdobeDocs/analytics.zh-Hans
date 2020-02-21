@@ -2,7 +2,7 @@
 description: 将用户从旧版 Analytics 用户管理系统迁移到 Admin Console。
 title: 为 Adobe ID 迁移 Analytics 用户帐户
 uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 
 **迁移 Analytics 用户**
 
-1. 导航至 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 用户 ID 迁移]**。
+1. 导航至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 用户 ID 迁移]**。
 
    ![](assets/migration-progress.png)
 
@@ -61,11 +61,11 @@ source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
    <tbody> 
    <tr> 
       <td colname="col1"> <p>域 </p> </td> 
-      <td colname="col2"> <p>域特定于当前 Analytics 用户群的电子邮件 ID。域只能由一个组织的声明，并且只有系统管理员才能声明域。有关更多信息，请参阅<a href="https://helpx.adobe.com/enterprise/help/request-access-to-claimed-domain.html">请求对声明域的访问权限</a>。 </p> </td> 
+      <td colname="col2"> <p>域特定于当前 Analytics 用户群的电子邮件 ID。域只能由一个组织的声明，并且只有系统管理员才能声明域。有关更多信息，请参阅<a href="https://helpx.adobe.com/cn/enterprise/help/request-access-to-claimed-domain.html">请求对声明域的访问权限</a>。 </p> </td> 
    </tr> 
    <tr> 
       <td colname="col1"> <p>声明的域 </p> </td> 
-      <td colname="col2"> <p>如果要按 Enterprise ID 或 Federated ID 迁移用户，您必须是系统管理员，并通过 Admin Console 声明可用域，然后才能迁移用户。在<a href="https://helpx.adobe.com/enterprise/help/identity.html">这里</a>了解更多。 </p> <p>如果不想为 Enterprise ID 或 Federated ID 声明任何域，请跳过此步骤，并继续按 Adobe ID 迁移用户。在<a href="https://helpx.adobe.com/enterprise/help/identity.html">这里</a>了解有关 ID 类型的更多信息。 </p> </td> 
+      <td colname="col2"> <p>如果要按 Enterprise ID 或 Federated ID 迁移用户，您必须是系统管理员，并通过 Admin Console 声明可用域，然后才能迁移用户。在<a href="https://helpx.adobe.com/cn/enterprise/help/identity.html">这里</a>了解更多。 </p> <p>如果不想为 Enterprise ID 或 Federated ID 声明任何域，请跳过此步骤，并继续按 Adobe ID 迁移用户。在<a href="https://helpx.adobe.com/cn/enterprise/help/identity.html">这里</a>了解有关 ID 类型的更多信息。 </p> </td> 
    </tr> 
    </tbody> 
    </table>
@@ -73,11 +73,11 @@ source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 1. 找到包含待迁移用户 ID 的域，然后在&#x200B;**[!UICONTROL 要求迁移]**&#x200B;下单击&#x200B;**[!UICONTROL 选择用户]**。
 1. 在 [!DNL Users] 页面上，选择要迁移的用户，然后单击&#x200B;**[!UICONTROL 迁移]**。
 
-   在单击&#x200B;**[!UICONTROL 迁移]**&#x200B;后，用户将收到一封邀请函（迁移已启动）并且必须接受它。此操作会将用户 ID 移至“迁移已完成”。You can then turn off their legacy access to `[!DNL my.omniture.com].`
+   在单击&#x200B;**[!UICONTROL 迁移]**&#x200B;后，用户将收到一封邀请函（迁移已启动）并且必须接受它。此操作会将用户 ID 移至“迁移已完成”。然后，您可以关闭他们对 `[!DNL my.omniture.com].` 的旧版访问权限
 
    ![](assets/user-info.png)
 
-1. 指定要迁移用户的ID类型（Adobe ID或Enterprise ID）
+1. 指定要迁移用户的 ID 类型（Adobe ID 或 Enterprise ID）
 
    在迁移用户后，“迁移状态”列下方的状态将从 *`Not Initiated`* 更改为 *`Migrated`*。
 
