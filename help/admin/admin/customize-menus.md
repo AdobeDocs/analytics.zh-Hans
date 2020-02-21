@@ -3,7 +3,7 @@ description: 此功能允许您自定义用户在“Reports & Analytics”中看
 title: 菜单自定义
 topic: Admin tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
