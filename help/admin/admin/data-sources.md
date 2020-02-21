@@ -3,7 +3,7 @@ description: “数据源”功能允许您将数据从离线资源导入 Analyt
 title: 数据源
 topic: Admin tools
 uuid: eab8a22b-5471-4922-b246-c991814c4b8b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,4 +21,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 激活报表包上的数据源时，会提供一个 FTP 地址，这样您就可以上载要集成到报表中的文件。完成上载后，Adobe 服务器会自动处理数据并将其集成到您的报表包中。
 
-请参阅[数据源帮助](https://marketing.adobe.com/resources/help/en_US/sc/datasources/)。
+请参阅[数据源帮助](https://marketing.adobe.com/resources/help/zh_CN/sc/datasources/)。
