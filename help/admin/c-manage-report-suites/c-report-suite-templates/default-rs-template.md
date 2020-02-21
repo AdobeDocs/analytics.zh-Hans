@@ -3,7 +3,7 @@ description: 为典型网站配置多个常见变量和成功事件。
 title: 默认模板
 topic: Admin tools
 uuid: edcf1b97-4ff2-4e98-b84c-199af2181d68
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
