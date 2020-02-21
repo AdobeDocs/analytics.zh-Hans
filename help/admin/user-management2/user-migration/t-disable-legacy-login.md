@@ -2,7 +2,7 @@
 description: 了解如何禁用 Analytics 用户的旧版登录。
 title: 禁用旧版登录
 uuid: 085874b2-10bf-4a56-a337-f3104428d71e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
 
 在您的用户从旧版 Analytics 用户管理系统迁移到 Adobe Admin Console 后，您可以禁用他们的旧版登录。如果用户尝试使用旧版登录，则禁用旧版登录会将其重定向到 Experience Cloud 登录。
 
-1. 在 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 用户 ID 迁移]**&#x200B;中打开迁移工具。
+1. 在 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 用户 ID 迁移]**&#x200B;中打开迁移工具。
 1. 在 [!DNL User Information] 部分中，找到包含待处理用户的域，然后单击&#x200B;**[!UICONTROL 选择用户]**。
 1. 选择要禁用其旧版登录的用户。
 
