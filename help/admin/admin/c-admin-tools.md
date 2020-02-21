@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 管理工具
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]**
 
 >[!IMPORTANT] 请不要在同一个浏览器中打开多个“管理员”选项卡。这可能导致您无意中将设置保存到错误的报表包。例如，如果您需要比较规则集并将它们复制到新的报表包，我们建议您打开一个新的浏览器或抓取屏幕截图来比较规则集。
 
