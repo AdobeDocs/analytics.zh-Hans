@@ -3,7 +3,7 @@ description: 您可以从报表中排除特定 IP 地址的数据，例如，内
 title: 按 IP 地址排除
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 您可以从报表中排除特定 IP 地址的数据，例如，内部网站活动、站点测试和员工使用情况。数据排除能够通过排除 IP 地址数据来提高报表的准确性。此外，还可以删除来自拒绝服务攻击或其他可能影响报表数据准确性的恶意事件的数据。您可以对排除进行配置，也可以使用您的防火墙进行排除。
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 按 IP 排除]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 按 IP 排除]**
 
-> [!NOTE] 按 IP 地址排除的点击将作为[服务器调用](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html)计费。
+> [!NOTE] 按 IP 地址排除的点击将作为[服务器调用](https://marketing.adobe.com/resources/help/zh_CN/reference/primary_server_calls.html)计费。
 
 ## 按 Cookie 排除 {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -25,7 +25,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 | 元素 | 描述 |
 |--- |--- |
-| [!UICONTROL 添加 CNAME] | 生成一个禁用链接，可用于排除您的域。如需帮助，请与您公司的受支持用户联系。<br>只需访问您公司的禁用页面并选择将您的浏览器排除在测量范围之外，就不会在报表包中报告您的流量。<br>如果您的实施使用的是第三方 Cookie，请从[此处](https://democorp.112.2o7.net/optout.html?locale=en_US&popup=true)获取您的禁用页面。 |
+| [!UICONTROL 添加 CNAME] | 生成一个禁用链接，可用于排除您的域。如需帮助，请与您公司的受支持用户联系。<br>只需访问您公司的禁用页面并选择将您的浏览器排除在测量范围之外，就不会在报表包中报告您的流量。<br>如果您的实施使用的是第三方 Cookie，请从[此处](https://democorp.112.2o7.net/optout.html?locale=en_US&amp;popup=true)获取您的禁用页面。 |
 
 > [!NOTE] 只有符合以下条件时，按计算机排除数据才适适用：
 >
@@ -46,7 +46,7 @@ IP 地址就是互联网地址。所有互联网用户都拥有数字 IP 地址�
 
 您还可以通过防火墙阻止从特定 IP 地址收集数据。
 
-请参阅 [Experience Cloud 中使用的 IP 地址](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-adobe-ip-addresses)一文。
+请参阅 [Experience Cloud 中使用的 IP 地址](https://marketing.adobe.com/resources/help/zh_CN/home/index.html#kb-adobe-ip-addresses)一文。
 
 ## IP 模糊处理的影响 {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
