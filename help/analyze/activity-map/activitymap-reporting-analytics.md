@@ -3,7 +3,7 @@ description: 介绍设置权限的方法和 Analytics 中的可用维度。
 title: Analytics 中的 Activity Map 报告
 topic: Activity map
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,12 +18,12 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 要使用户可以报告 Activity Map 维度，管理员需要执行以下操作：
 
 * [将用户添加至 Activity Map 访问群组](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)。
-* 向此群组添加您希望可访问的报表包。导航至&#x200B;**[!UICONTROL 管理员]** &gt; **[!UICONTROL 用户管理]** &gt; **[!UICONTROL 群组]** &gt; **[!UICONTROL Activity Map 访问]** &gt; **[!UICONTROL 编辑]**。
+* 向此群组添加您希望可访问的报表包。导航至&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 群组]** > **[!UICONTROL Activity Map 访问]** > **[!UICONTROL 编辑]**。
 * 自定义用户对维度的访问权限。请参阅以下部分。
 
 ## Analytics Activity Map 维度 {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}
 
-您可以在粒度级别[自定义用户对维度的访问权限](https://marketing.adobe.com/resources/help/en_US/reference/groups-dimensions.html)。以下是 Analytics 中可用的 Activity Map 维度：
+您可以在粒度级别[自定义用户对维度的访问权限](https://marketing.adobe.com/resources/help/zh_CN/reference/groups-dimensions.html)。以下是 Analytics 中可用的 Activity Map 维度：
 
 | 维度 | 描述 |
 |---|---|
@@ -34,7 +34,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | Activity Map XY | 未使用 |
 
 * 这些维度在 Analysis Workspace、Reports &amp; Analytics 和 Report Builder 中应该可用，前提是您已经为 Analytics 实施[启用了 Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)。
-* 在 Reports &amp; Analytics 中，导航至&#x200B;**[!UICONTROL 查看所有报表]** &gt; **[!UICONTROL Activity Map]**。
+* 在 Reports &amp; Analytics 中，导航至&#x200B;**[!UICONTROL 查看所有报表]** > **[!UICONTROL Activity Map]**。
 
 * 要查看特定页面的链接和区域，您只需在 Activity Map 链接和区域中创建一个相应 Activity Map 页面的划分即可。
 
