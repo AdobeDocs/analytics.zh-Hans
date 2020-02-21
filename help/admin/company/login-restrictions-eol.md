@@ -9,7 +9,7 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 # “[!UICONTROL 强制 IP 登录限制]”终止使用
 
-通过 Adobe Analytics 中的&#x200B;**[强制 IP 登录限制](/help/admin/company/security-manager.md)**&#x200B;功能，您可以将特定的 IP 地址（被认为是安全的）列入白名单，以便成功登录并访问 Adobe Analytics 环境。在许多情况下，此功能用于将公司 IP 地址设置为用户可以从中登录的唯一安全 IP 地址。因此，要使用 Adobe Analytics，这要求用户位于公司办公室或通过 VPN 登录网络。
+通过 Adobe Analytics 中的&#x200B;**[强制 IP 登录限制](/help/admin/company/security-manager.md)**功能，您可以将特定的 IP 地址（被认为是安全的）列入白名单，以便成功登录并访问 Adobe Analytics 环境。在许多情况下，此功能用于将公司 IP 地址设置为用户可以从中登录的唯一安全 IP 地址。因此，要使用 Adobe Analytics，这要求用户位于公司办公室或通过 VPN 登录网络。
 
 我们计划于 2020 年 10 月终止使用此功能。
 
@@ -25,7 +25,7 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 对于已设置&#x200B;**[!UICONTROL 强制 IP 登录限制]**&#x200B;的任何客户，此功能将于 2020 年 10 月被删除。届时，将不再强制执行任何已设置的 IP 登录限制。如果仍需要通过 IP 地址限制登录，则应查看并实施推荐的单点登录和 Federated ID 解决方案（下面提供了更多信息和资源）。
 
-此外，还将从 Analytics UI 的&#x200B;**[!UICONTROLA管理员 &gt; 公司设置 &gt; 安全管理器]**&#x200B;中删除&#x200B;**[!UICONTROL 强制 IP 登录限制]**&#x200B;设置（如下所示）。
+此外，还将从 Analytics UI 的&#x200B;**[!UICONTROL 管理员 > 公司设置 > 安全管理器]**&#x200B;中删除&#x200B;**[!UICONTROLA强制 IP 登录限制]**&#x200B;设置（如下所示）。
 
 ![](assets/sec-manager2.png)
 
