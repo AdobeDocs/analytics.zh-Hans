@@ -2,7 +2,7 @@
 description: 'null'
 title: 受迁移影响的 API
 uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
 
 ---
@@ -41,8 +41,8 @@ Adobe 正在将所有 Analytics 登录公司从 [!DNL my.omniture.com] 是迁移
 
 有关其他信息：
 
-* [一般用户管理信息](https://helpx.adobe.com/enterprise/help/users.html)
+* [一般用户管理信息](https://helpx.adobe.com/cn/enterprise/help/users.html)
 * [通过 adobe.io 的用户管理 API](https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html)
 * [用户管理 API 论坛](https://forums.adobe.com/community/umapi/overview)
-* [将 Analytics 用户访问和管理迁移到 Experience Cloud](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)
+* [将 Analytics 用户访问和管理迁移到 Experience Cloud](https://marketing.adobe.com/resources/help/zh_CN/experience-cloud/admin-console/analytics-migration/)
 
