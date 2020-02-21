@@ -4,7 +4,7 @@ subtopic: Bot rules
 title: 机器人规则概述
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 定义了机器人规则之后，将按照定义的规则对所有传入流量进行比较。报表包中将不会收集与任何这些规则匹配的流量，并且流量量度中也不会包含这些流量。
 
-要更新或上载机器人规则，请导航至 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]**。选择正确的报表包，然后转到&#x200B;**[!UICONTROL 编辑设置]** &gt; **[!UICONTROL 常规]** &gt; **[!UICONTROL 机器人规则]**。
+要更新或上载机器人规则，请导航至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。选择正确的报表包，然后转到&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 常规]** > **[!UICONTROL 机器人规则]**。
 
 删除机器人程序流量通常会减少流量和转化量度。许多客户发现删除机器人程序流量会导致转化比率增加以及其他可用性量度值增加。在删除机器人程序流量之前，请与利益关系人进行交流以确保做出此更改后他们会对关键性能指标做出必要的调整。如有可能，我们建议您首先从小型报表包中删除机器人程序流量以评估潜在的影响。
 
@@ -72,7 +72,7 @@ Adobe 无法向客户提供详细的 IAB 机器人程序列表，但是您可以
 
 ### 定义自定义机器人规则
 
-1. 转到 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]**，选择一个或多个报表包并单击&#x200B;**[!UICONTROL 常规]** &gt; **[!UICONTROL 机器人规则]**。
+1. 转到 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]**，选择一个或多个报表包并单击&#x200B;**[!UICONTROL 常规]** > **[!UICONTROL 机器人规则]**。
 1. 单击&#x200B;**[!UICONTROL 添加规则]**&#x200B;并定义一个或多个匹配条件。
 1. 单击&#x200B;**[!UICONTROL 保存]**。此更改应在 30 分钟内生效。
 
