@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 创建自定义日期范围
 topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,9 +14,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 在 Analysis Workspace 中创建自定义日期范围，并将它们另存为“时间”组件。
 
-**[!UICONTROL 组件]** &gt; **[!UICONTROL 新建日期范围]**
+**[!UICONTROL 组件]** > **[!UICONTROL 新建日期范围]**
 
-日期范围应用于面板级别。要在项目中添加日期范围，请单击&#x200B;**面板** &gt; *`<select panel>`*，然后指定一个新的日期范围。
+日期范围应用于面板级别。要在项目中添加日期范围，请单击&#x200B;**面板** > *`<select panel>`*，然后指定一个新的日期范围。
 
 ## “两个月之前”的日期范围{#section_C4109C57CB444BB2A79CC8082BD67294}
 
@@ -34,7 +34,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 使用 7 天滚动日期范围 {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
 
-日期范围应用于面板级别。若要在项目中添加日期范围，请单击&#x200B;**操作** &gt; **添加面板**，然后指定一个新的日期范围。
+日期范围应用于面板级别。若要在项目中添加日期范围，请单击&#x200B;**操作** > **添加面板**，然后指定一个新的日期范围。
 
 在“日期范围生成器”中，您可以创建一个与其他日期范围一同显示在“组件”面板中的自定义日期范围。
 
