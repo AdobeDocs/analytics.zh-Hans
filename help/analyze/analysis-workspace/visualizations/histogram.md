@@ -46,7 +46,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 查看和编辑直方图数据 {#section_B2CD7CDF0F6B432F928103AE7AAA3617}
 
-要查看或更改直方图图表的数据源，请单击直方图标题旁边的点，以转到&#x200B;**[!UICONTROL 数据源设置]** &gt; **[!UICONTROL 显示数据源]**。
+要查看或更改直方图图表的数据源，请单击直方图标题旁边的点，以转到&#x200B;**[!UICONTROL 数据源设置]** > **[!UICONTROL 显示数据源]**。
 
 ![](assets/manage-data-source.png)
 
