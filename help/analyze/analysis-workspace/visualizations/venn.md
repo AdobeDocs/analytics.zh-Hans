@@ -18,7 +18,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/venn_hover.png)
 
-要将维恩图转换为自由格式表，请单击&#x200B;**[!UICONTROL 维恩图]**&#x200B;标题旁边的彩色圆点，然后选择&#x200B;**[!UICONTROL 管理数据源]** &gt; **[!UICONTROL 可用的数据源]** &gt; **[!UICONTROL 自由格式表]**。
+要将维恩图转换为自由格式表，请单击&#x200B;**[!UICONTROL 维恩图]**&#x200B;标题旁边的彩色圆点，然后选择&#x200B;**[!UICONTROL 管理数据源]** > **[!UICONTROL 可用的数据源]** > **[!UICONTROL 自由格式表]**。
 
 要标准化维恩图（提取其大小），请转到维恩图的“可视化设置”图标，然后选择&#x200B;**[!UICONTROL 标准化]**。
 
