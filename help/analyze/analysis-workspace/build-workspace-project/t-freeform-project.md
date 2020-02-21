@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 创建工作区项目
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,9 +20,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 1. 指定创建和管理项目的用户权限。
 
-   创建或组织 Analysis Workspace 项目之前，管理员必须要将您添加到具有&#x200B;**[!UICONTROL 在 Analysis Workspace 中创建/组织项目]**&#x200B;权限的组，或者添加到&#x200B;**[!UICONTROL 全部报表访问]**&#x200B;用户组。（**[!UICONTROL 管理员]** &gt; **[!UICONTROL 用户管理]** &gt; [群组](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)）。
+   创建或组织 Analysis Workspace 项目之前，管理员必须要将您添加到具有&#x200B;**[!UICONTROL 在 Analysis Workspace 中创建/组织项目]**&#x200B;权限的组，或者添加到&#x200B;**[!UICONTROL 全部报表访问]**&#x200B;用户组。（**[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]** > [群组](https://marketing.adobe.com/resources/help/zh_CN/reference/groups.html)）。
 
-1. 在 [!DNL Experience Cloud] 中，单击 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 工作区]**。
+1. 在 [!DNL Experience Cloud] 中，单击 **[!UICONTROL Analytics]** > **[!UICONTROL 工作区]**。
 
    ![](assets/analysis_workspace_menu.png)
 
@@ -122,7 +122,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-**[可视化](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)**
+**[可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)**
 
 [!UICONTROL 可视化]面板提供标准的 Analytics 图形、图表、圆环图、数据表、[同类群组](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)表、维恩图等等。您可以将多个可视化信息拖放到项目中。
 
