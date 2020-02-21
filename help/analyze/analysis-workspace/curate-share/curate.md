@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 组织/共享概述
 topic: Reports and analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,17 +16,17 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **视频概述**
 
->[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&index=79&t=0s&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
+>[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&amp;index=79&amp;t=0s&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
 
-**[!UICONTROL 工作区]** &gt; **[!UICONTROL 共享]** &gt; **[!UICONTROL 策划项目数据]**
+**[!UICONTROL 工作区]** > **[!UICONTROL 共享]** > **[!UICONTROL 组织项目数据]**
 
 ## 策划项目数据
 
 1. 指定创建和组织项目的权限。
 
-   创建或策划 Analysis Workspace 项目之前，管理员必须将您添加到已启用 **[!UICONTROL Analysis Workspace 访问权限]**[组](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)，或添加到&#x200B;**[!UICONTROL 所有报表访问权限]**&#x200B;用户组。（**[!UICONTROL 管理员]** &gt; **[!UICONTROL 用户管理]** &gt; **[!UICONTROL 组]**）。
+   创建或策划 Analysis Workspace 项目之前，管理员必须将您添加到已启用 [Analysis Workspace 访问权限](https://marketing.adobe.com/resources/help/zh_CN/reference/groups.html)**[!UICONTROL 组]**，或添加到&#x200B;**[!UICONTROL 所有报表访问权限]**&#x200B;用户组。（**[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 群组]**）。
 
-1. [创建并保存](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)一个项目，然后单击&#x200B;**[!UICONTROL 共享]** &gt; **[!UICONTROL 策划项目数据]**。
+1. [创建并保存](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)一个项目，然后单击&#x200B;**[!UICONTROL 共享]** > **[!UICONTROL 组织项目数据]**。
 1. 将您要从左侧可拖动组件堆叠中共享的组件拖到&#x200B;**[!UICONTROL 策划的组件]**&#x200B;字段。
 
    ![](assets/curated-components.png)
@@ -43,7 +43,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 共享可以使此项目供您的组织内的其他 Analysis Workspace 用户使用。当其他人使用此项目时，您完成的任何组织工作都会得到反映。
 
-1. 在您策划报表中的组件后，单击&#x200B;**[!UICONTROL 共享]** &gt; **[!UICONTROL 共享项目]**。
+1. 在您组织报表中的组件后，单击&#x200B;**[!UICONTROL 共享]** > **[!UICONTROL 共享项目]**。
 
    ![](assets/share_component.png)
 
