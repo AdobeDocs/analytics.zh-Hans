@@ -4,7 +4,7 @@ keywords: delete report suite
 title: 隐藏报表包
 topic: Admin tools
 uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -22,12 +22,12 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 >
 >会继续收集和处理从网站发送至隐藏报表包的数据，且需要付费。换句话说，报表包从来不会被完全删除。
 
-要隐藏报表包，请转到 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 公司设置]** &gt; **[!UICONTROL 隐藏报表包]**。选中报表包名称左边的&#x200B;**[!UICONTROL 隐藏]**&#x200B;复选框。
+要隐藏报表包，请转到 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 公司设置]** > **[!UICONTROL 隐藏报表包]**。选中报表包名称左边的&#x200B;**[!UICONTROL 隐藏]**&#x200B;复选框。
 
 要取消隐藏报表包，请取消选中&#x200B;**[!UICONTROL 隐藏]**&#x200B;复选框。
 
-要仅查看隐藏的报表包，请在&#x200B;**[!UICONTROL 公司设置]**&#x200B;下，选择&#x200B;**[!UICONTROL 查看]** &gt; **[!UICONTROL 仅隐藏的报表包]**。
+要仅查看隐藏的报表包，请在&#x200B;**[!UICONTROL 公司设置]**&#x200B;下，选择&#x200B;**[!UICONTROL 查看]** > **[!UICONTROL 仅隐藏的报表包]**。
 
-要仅查看可见的报表包，请在&#x200B;**[!UICONTROL 公司设置]**&#x200B;下，选择&#x200B;**[!UICONTROL 查看]** &gt; **[!UICONTROL 仅可见的报表包]**。
+要仅查看可见的报表包，请在&#x200B;**[!UICONTROL 公司设置]**&#x200B;下，选择&#x200B;**[!UICONTROL 查看]** > **[!UICONTROL 仅可见的报表包]**。
 
-默认为&#x200B;**[!UICONTROL 查看]** &gt; **[!UICONTROL 全部]**。
+默认为&#x200B;**[!UICONTROL 查看]** > **[!UICONTROL 全部]**。
