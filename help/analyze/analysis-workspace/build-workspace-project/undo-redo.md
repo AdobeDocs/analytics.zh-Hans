@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # “撤消”和“重做”设置
 
-**[!UICONTROL 工作区]** &gt; **[!UICONTROL 项目]** &gt; **[!UICONTROL 撤消/重做]**
+**[!UICONTROL 工作区]** > **[!UICONTROL 项目]** > **[!UICONTROL 撤消/重做]**
 
 * **[!UICONTROL 重做]**&#x200B;选项（用于重做撤消的操作）位于&#x200B;**[!UICONTROL 编辑]**&#x200B;菜单中。
 
