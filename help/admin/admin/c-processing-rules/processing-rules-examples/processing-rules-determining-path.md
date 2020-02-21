@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: 通过将 eVar 值复制到 prop 来确定路径
 topic: Admin tools
 uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
