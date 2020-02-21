@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 通过[!UICONTROL 公司设置]页面，您可以配置设置并应用于您的组织所管理的所有报表包。
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 公司设置]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 公司设置]**
 
 + [功能访问级别](feature-access-levels.md)
 + [Web 服务](web-services-admin.md)
