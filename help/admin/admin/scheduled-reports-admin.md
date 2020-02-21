@@ -3,7 +3,7 @@ description: 让管理员级别的用户能够跨组织查看和管理计划报�
 title: 计划报表队列
 topic: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 让管理员级别的用户能够跨组织查看和管理计划报表。
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 组件]** &gt; **[!UICONTROL 计划报表]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 计划报表]**
 
 计划报表管理器中的管理员级别功能包括：
 
