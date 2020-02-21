@@ -40,8 +40,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 1. [启用 prop。](/help/admin/admin/c-traffic-variables/traffic-var.md)
 1. 使用处理规则将上下文变量映射到 prop。
 
-   1. 转至 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]**，然后选择一个报表包。
-   1. 单击&#x200B;**[!UICONTROL 编辑报表包]** &gt; **[!UICONTROL 常规]** &gt; **[!UICONTROL 处理规则]**。
+   1. 转至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**，然后选择一个报表包。
+   1. 单击&#x200B;**[!UICONTROL 编辑报表包]** > **[!UICONTROL 常规]** > **[!UICONTROL 处理规则]**。
    1. 单击&#x200B;**[!UICONTROL 添加规则。]**
    1. 在&#x200B;**[!UICONTROL 始终执行]**&#x200B;下，使用上下文变量“cm.ssf(Context Data)”覆盖您已启用的 prop 的值。
    1. 单击&#x200B;**[!UICONTROL 保存]**。
