@@ -4,7 +4,7 @@ keywords: Analysis Workspace;Synchronize visualization with data source
 title: 管理数据源
 topic: Reports and analytics
 uuid: 7bacf497-a933-463a-bf9d-f6d0c5de0cba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -38,10 +38,10 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 * 您可以创建一个概要可视化，并将其锁定到用于创建可视化的表格的单元格。当您启用“显示数据源”后，它会准确地显示表中信息的来源。源数据将会变成灰色：
 
-   ![](assets/data-source2.png)&gt;
+   ![](assets/data-source2.png)>
 * 您可以添加许多可视化，并在同一个表格的不同单元格中显示它们的来源，如下所示。此表与上述示例中的表相同，但显示来源的单元格（和量度）却不同：
 
-   ![](assets/data-source3.png)&gt;
+   ![](assets/data-source3.png)>
 * 单击左上侧的点（数据源设置），可查看是否有可视化连接到自由格式或对列表。将鼠标悬停在其上方将突出显示链接的可视化，单击它即会转到该可视化。
 
-   ![](assets/linked-visualizations.png)&gt;
+   ![](assets/linked-visualizations.png)>
