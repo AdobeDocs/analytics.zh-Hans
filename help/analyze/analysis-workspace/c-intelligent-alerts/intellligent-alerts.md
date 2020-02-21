@@ -25,13 +25,13 @@ Analysis Workspace 中新增的警报生成器和警报管理器取代了 Report
 
 可通过四种方式访问警报生成器：
 
-* 直接转到警报生成器：**[!UICONTROL 组件]** &gt; **[!UICONTROL 警报]**
+* 直接转到警报生成器：**[!UICONTROL 组件]** > **[!UICONTROL 警报]**
 * 在工作区中使用键盘快捷键：`Ctrl + Shift + A` (Windows) 或 `Cmd + Shift + A` (Mac)
 * 选择一个或多个自由格式表行项目，右键单击并选择&#x200B;**[!UICONTROL 从选定范围中创建警报]**。此时将打开警报生成器，并预填充从表中应用的相应量度和过滤器。您可以根据需要编辑警报。
 
    ![从选定范围中创建警报](assets/create-alert-from-selection.png)
 
-* 从 Reports &amp; Analytics 报表中，转到&#x200B;**[!UICONTROL 更多]** &gt; **[!UICONTROL 添加警报]**。此时将打开警报生成器，并预填充从报表中应用的相应量度和过滤器。您可以根据需要编辑警报。
+* 在 Reports &amp; Analytics 报表中，转到&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 添加警报]**。此时将打开警报生成器，并预填充从报表中应用的相应量度和过滤器。您可以根据需要编辑警报。
 
    ![添加警报](assets/add-alert.png)
 
