@@ -23,7 +23,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 更改调色板：
 
-1. 导航至&#x200B;**[!UICONTROL 工作区]** &gt; **[!UICONTROL 项目]** &gt; **[!UICONTROL 项目信息和设置]**。
+1. 导航至&#x200B;**[!UICONTROL 工作区]** > **[!UICONTROL 项目]** > **[!UICONTROL 项目信息和设置]**。
 1. 从&#x200B;**[!UICONTROL 项目调色板]**&#x200B;下拉列表中，您可以从 5 种预设配色方案中选取一种配色方案。
 
    ![](assets/custom_palette.png)
