@@ -21,9 +21,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 在 Analysis Workspace 中使用以下快捷键：
 
    `ctrl (or cmd) + shift + a`
-* 转到&#x200B;**[!UICONTROL 工作区]** &gt; **[!UICONTROL 组件]** &gt; **[!UICONTROL 新警报]**。
-* 选择自由格式表中的一个或多个行项目，右键单击并选择&#x200B;**[!UICONTROL 从选定范围中创建警报]**。
-* 从 Reports &amp; Analytics 报表中，转到&#x200B;**[!UICONTROL 更多]** &gt; **[!UICONTROL 添加警报]**。
+* 转到&#x200B;**[!UICONTROL 工作区]** > **[!UICONTROL 组件]** > **[!UICONTROL 新警报]**。
+* 选择一个或多个自由格式表行项目，单击鼠标右键并选择&#x200B;**[!UICONTROL 从选定范围中创建警报]**。
+* 在 Reports &amp; Analytics 报表中，转到&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 添加警报]**。
 
 ## 构建警报
 
