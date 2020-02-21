@@ -3,7 +3,7 @@ description: 叠加图为您提供了多种配置数据可视化的方法，让�
 title: 可自定义的叠加图
 topic: Activity map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -49,7 +49,7 @@ Activity Map 提供三类叠加图：
 
 > [!NOTE] 仅当您显示子菜单时，才出现子菜单的气泡叠加图：
 >
->![](assets/bubbles_submenu.png)&gt;
+>![](assets/bubbles_submenu.png)>
 
 ## 获胜方和失败方叠加图 {#section_EE80278E20C14824869BF5A27A4634C8}
 
