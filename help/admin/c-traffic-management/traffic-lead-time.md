@@ -3,7 +3,7 @@ description: Adobe 要求预先通知新帐户设置、流量尖峰和流量增�
 title: 流量增长必需的前置时间
 topic: Admin tools
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
