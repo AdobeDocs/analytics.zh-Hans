@@ -2,7 +2,7 @@
 description: Analysis Workspace、Reports & Analytics、Ad Hoc Analysis、Report Builder、Data Warehouse 和 Data Workbench 的系统要求和比较。
 title: Analytics 产品比较和要求
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,11 +18,11 @@ Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder�
  <tbody> 
   <tr> 
    <td> <b>产品名称和帮助链接</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/"> Analysis Workspace </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/index.html"> Reports and Analytics </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/"> Ad Hoc Analysis </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/index.html"> Report Builder </a> </td> 
-   <td colname="col06"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html"> Data Warehouse </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/"> Analysis Workspace </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/zh_CN/sc/user/index.html"> Reports and Analytics </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/zh_CN/dsc/"> Ad Hoc Analysis </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/zh_CN/arb/index.html"> Report Builder </a> </td> 
+   <td colname="col06"> <a href="https://marketing.adobe.com/resources/help/zh_CN/reference/data_warehouse.html"> Data Warehouse </a> </td> 
    <td colname="col6"> <a href="https://docs.adobe.com/content/help/en/data-workbench/using/home.html"> Data Workbench </a> </td> 
   </tr> 
   <tr> 
@@ -72,9 +72,9 @@ Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder�
   </tr> 
   <tr> 
    <td> <b>漏斗/路径</b> </td> 
-   <td> 是 <p> </p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html"> 流失 </a> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html"> 流量 </a> </p> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/reports.html"> 是 </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_reports_paths.html"> 是 </a> </td> 
+   <td> 是 <p> </p> <a href="https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/fallout_flow.html"> 流失 </a> <p> <a href="https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/flow.html"> 流量 </a> </p> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/zh_CN/sc/user/reports.html"> 是 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/zh_CN/dsc/c_reports_paths.html"> 是 </a> </td> 
    <td> 是 </td> 
    <td colname="col06"> 否 </td> 
    <td colname="col6"> 是 </td> 
@@ -90,7 +90,7 @@ Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder�
   </tr> 
   <tr> 
    <td> <b>同类群组分析</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/cohort_analysis.html"> 是 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/cohort_analysis.html"> 是 </a> </td> 
    <td> 否 </td> 
    <td> 否 </td> 
    <td> 否 </td> 
@@ -108,7 +108,7 @@ Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder�
   </tr> 
   <tr> 
    <td> <b>增强的可视化选项</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/analysis-workspace-features.html"> 是 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/analysis-workspace-features.html"> 是 </a> </td> 
    <td> 否 </td> 
    <td> 是 </td> 
    <td> 是 </td> 
@@ -117,16 +117,16 @@ Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder�
   </tr> 
   <tr> 
    <td> <b>可自定义的布局</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/analysis-workspace-features.html"> 是 </a> </td> 
-   <td> 是 - <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html">功能板 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/analysis-workspace-features.html"> 是 </a> </td> 
+   <td> 是 - <a href="https://marketing.adobe.com/resources/help/zh_CN/sc/user/dashboard.html">功能板 </a> </td> 
    <td> 否 </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/configure_the_custom_layout.html"> 是 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/zh_CN/arb/configure_the_custom_layout.html"> 是 </a> </td> 
    <td colname="col06"> <p> 按划分或按量度对结果排序。 </p> </td> 
    <td colname="col6"> 是 </td> 
   </tr> 
   <tr> 
    <td> <b>项目管理操作（针对非分析人员简化报表）</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html"> 是 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/curate.html"> 是 </a> </td> 
    <td> 否 </td> 
    <td> 否 </td> 
    <td> 是 </td> 
@@ -135,8 +135,8 @@ Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder�
   </tr> 
   <tr> 
    <td> <b>项目共享</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html"> 是</a>；所有/任何用户 </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/scheduling.html"> 是</a>；所有/任何用户 </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/curate.html"> 是</a>；所有/任何用户 </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/zh_CN/sc/user/scheduling.html"> 是</a>；所有/任何用户 </td> 
    <td> 仅限“Ad Hoc Analysis”用户 </td> 
    <td> 是；所有/任何用户 </td> 
    <td colname="col06"> 否 </td> 
@@ -144,21 +144,21 @@ Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder�
   </tr> 
   <tr> 
    <td> <b>计划报表交付</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/schedule-projects.html"> 是 </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/scheduling.html"> 是 </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_schedule.html"> 是 </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/schedule_report_requests.html"> 是 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/schedule-projects.html"> 是 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/zh_CN/sc/user/scheduling.html"> 是 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/zh_CN/dsc/c_schedule.html"> 是 </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/zh_CN/arb/schedule_report_requests.html"> 是 </a> </td> 
    <td colname="col06"> 是 </td> 
    <td colname="col6"> 是 </td> 
   </tr> 
   <tr> 
    <td> <b>系统要求</b> </td> 
-   <td> <p>浏览器 </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html"> 更多... </a> </p> </td> 
-   <td> <p>浏览器 </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html"> 更多... </a> </p> </td> 
-   <td> <p>Java </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_sys_reqs.html"> 更多... </a> </p> </td> 
-   <td> <p>Windows、MS Excel </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/arb/system_requirements.html"> 更多... </a> </p> </td> 
+   <td> <p>浏览器 </p> <p> <a href="https://marketing.adobe.com/resources/help/zh_CN/sc/user/requirements.html"> 更多... </a> </p> </td> 
+   <td> <p>浏览器 </p> <p> <a href="https://marketing.adobe.com/resources/help/zh_CN/sc/user/requirements.html"> 更多... </a> </p> </td> 
+   <td> <p>Java </p> <p> <a href="https://marketing.adobe.com/resources/help/zh_CN/dsc/c_sys_reqs.html"> 更多... </a> </p> </td> 
+   <td> <p>Windows、MS Excel </p> <p> <a href="https://marketing.adobe.com/resources/help/zh_CN/arb/system_requirements.html"> 更多... </a> </p> </td> 
    <td colname="col06"> 用于打开 <span class="filepath">.csv</span> 文件的浏览器或程序，例如 MS Excel。可生成表格格式的文件。 </td> 
-   <td colname="col6"> Windows（64 位）、适用于 OpenGL 3.2 的良好图形适配器（<u><a href="https://marketing.adobe.com/resources/help/en_US/insight/install/c_Data_Workbench_Client_install.html">更多...</a></u>） </td> 
+   <td colname="col6"> Windows（64 位）、适用于 OpenGL 3.2 的良好图形适配器（<u><a href="https://marketing.adobe.com/resources/help/zh_CN/insight/install/c_Data_Workbench_Client_install.html">更多...</a></u>） </td> 
   </tr> 
  </tbody> 
 </table>
