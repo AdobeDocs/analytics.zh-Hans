@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 可视化概述
 topic: Reports and analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 了解 Analysis Workspace 中的可视化和可视化设置。
 
-[YouTube 上 Analysis Workspace 中的可视化图表类型](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+[YouTube 上 Analysis Workspace 中的可视化图表类型](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
 
 ## “可视化”面板 {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
@@ -64,7 +64,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <p>标准化 </p> </td> 
-   <td colname="col2"> <p>要求所有量度按等比例计算。请参阅<a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html"  >标准化</a>。 </p> </td> 
+   <td colname="col2"> <p>要求所有量度按等比例计算。请参阅<a href="https://marketing.adobe.com/resources/help/zh_CN/reference/normalization.html"  >标准化</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>显示双轴 </p> </td> 
@@ -98,7 +98,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 折叠面板中的所有可视化 | 折叠此项目面板中的所有可视化。 |
 | 展开所有面板 | 展开所有项目面板。 |
 | 展开面板中的所有可视化 | 展开此项目面板中的所有可视化。 |
-| 编辑描述 | 添加（或编辑）可视化/面板的文本描述。此描述会显示在项目 &gt; 项目信息和设置中。 |
+| 编辑描述 | 添加（或编辑）可视化/面板的文本描述。此描述会显示在项目 > 项目信息和设置中。 |
 | 获取面板链接 | 此设置允许您将人员引导至项目中的特定面板。 |
 | 获取可视化链接 | 此设置允许您复制并共享该链接，从而让其他人直接访问这个可视化。需要用户登录。 |
 | 重新开始 | （适用于流量、维恩、直方图）删除当前可视化的配置，并打开一个新面板，您可以在此处重新配置该可视化。 |
@@ -119,4 +119,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 1. 输入新的标签文本。
 1. 按 **[!UICONTROL Enter]** 键保存。
 
-下面是一个[指向该主题相关视频的链接](https://www.youtube.com/watch?v=mry3vDrTml0&index=61&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)。
+下面是一个[指向该主题相关视频的链接](https://www.youtube.com/watch?v=mry3vDrTml0&amp;index=61&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)。
