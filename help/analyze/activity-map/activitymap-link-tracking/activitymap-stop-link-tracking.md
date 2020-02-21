@@ -3,7 +3,7 @@ description: 在 Activity Map 或旧版 ClickMap 中，停止链接跟踪的步�
 title: 停止链接跟踪
 topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -40,7 +40,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap（旧称访客 ClickMap） </td> 
-   <td colname="col2"> <p>将 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html"  >trackInlineStats</a> 变量设置为 false（这是默认设置）。语法如下所示：
+   <td colname="col2"> <p>将 <a href="https://marketing.adobe.com/resources/help/zh_CN/sc/implement/trackInlineStats.html"  >trackInlineStats</a> 变量设置为 false（这是默认设置）。语法如下所示：
      <code>
        s.trackInlineStats=false
      </code> </p> </td> 
