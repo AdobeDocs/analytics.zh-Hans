@@ -3,7 +3,7 @@ description: Activity Map 是一款 Adobe Analytics 应用程序，专门用于�
 title: Activity Map 概述
 topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69403e37c377ac65a2a1b110e153e18c559421b4
 
 ---
@@ -12,18 +12,18 @@ source-git-commit: 69403e37c377ac65a2a1b110e153e18c559421b4
 # Activity Map 概述
 
 >[!IMPORTANT]
->从2020年1月16日起，Adobe Analytics将开始转到新域- https://experience.adobe.com/analytics。 此更改可能导致Activity Map在特定情况下停止为某些客户工作。 如您所知，Activity Map将插入iframe中的客户页面（Activity Map工具栏中的一个iframe,Activity map底部面板中的一个iframe）。 您可能已在网页上为“frame-src”设置了不包含“.adobe.com”的“内容安全策略”指令。 在这种情况下，Activity map将停止处理此类网页。
+>从 2020 年 1 月 16 日开始，Adobe Analytics 将逐步迁移到一个新的域上 - https://experience.adobe.com/analytics。这种域的变更可能会在特定情况下，导致 Activity Map 停止为某些客户提供服务。如您所知，Activity Map 是以 iframe 的形式注入在客户页面中（一个 iframe 用于 Activity Map 的工具栏，另一个 iframe 用于 Activity Map 底部面板）。您可能会在您的网页上为“frame-src”设置一个不包含“.adobe.com”的“内容安全策略”指令。对于这种情况，Activity Map 将停止处理此类网页。
 
 Activity Map 是一款 Adobe Analytics 应用程序，专门用于通过可视化叠加图为链接活动排名，并且可以提供实时分析功能板，以监控受众在您网页上的参与度。
 
 Activity Map 允许您设置不同的视图，以此来直观地标识客户活动的增速、量化营销举措，并根据受众的需求和行为采取相应的措施。
 
-**管理员入门**
+**管理员入门指南**
 
 * [启用 Activity Map](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 * [实现代码样例](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
 
-**用户入门**
+**用户入门指南**
 
 * [安装 Activity Map 浏览器插件](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
 * [启动 Activity Map](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
