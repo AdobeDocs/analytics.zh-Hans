@@ -1,7 +1,7 @@
 ---
-description: Adobe Analysis Workspace及其相关组件中的已知限制列表
+description: Adobe Analysis Workspace 及其相关组件中的已知限制列表
 title: Analysis Workspace 中的已知限制
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ---
@@ -29,26 +29,26 @@ source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 * 区段比较：如果在初始放置区中使用区段模板，则不会创建[!UICONTROL 其他各项]区段。
 
-## “组件”&gt;“区段”
+## “组件”>“区段”
 
 * 某些量度和维度不可分段，如[!UICONTROL 发生次数]、[!UICONTROL 唯一访客]，等等。
-* 如果从工作区中创建区段（而不是从[!UICONTROL 组件 &gt; 区段]创建区段），则某些组件和运算符将不可用。例如，IP 地址。
+* 如果从工作区中创建区段（而不是从[!UICONTROL 组件 > 区段]创建区段），则某些组件和运算符将不可用。例如，IP 地址。
 
-## “组件”&gt;“计算量度”
+## “组件”>“计算量度”
 
 * 计算量度不能用于某些可视化图表。请参阅上面的“可视化”。
 * 计算量度无法在[!UICONTROL 归因]面板中使用，因为计算量度本身可以包括单独的归因模型。
-* 如果从工作区中创建计算量度（而不是从[!UICONTROL 组件 &gt; 区段]创建），则某些组件和操作符将不可用。例如，[!UICONTROL IP 地址]。
+* 如果从工作区中创建计算量度（而不是从[!UICONTROL 组件 > 区段]创建），则某些组件和操作符将不可用。例如，[!UICONTROL IP 地址]。
 
-## “组件”&gt;“日期范围”
+## “组件”>“日期范围”
 
 * 自定义日期范围不支持[!UICONTROL 去年今日]、[!UICONTROL 上个月今日]，等等。
 
-## “组件”&gt;“虚拟报表包”
+## “组件”>“虚拟报表包”
 
 * 启用报表时间处理后，某些组件将不受支持。有关完整列表，请参阅[报表时间处理](/help/components/vrs/vrs-report-time-processing.md)。
 
-## “组件”&gt;“报表设置”
+## “组件”>“报表设置”
 
 * [!UICONTROL 报表设置]页面上的某些设置不适用。Analysis Workspace 只使用底部的[!UICONTROL 语言/货币/编码]设置：[!UICONTROL 千位分隔符]、[!UICONTROL 计划报表编码]和 [!UICONTROL CSV 分隔符]。
 
