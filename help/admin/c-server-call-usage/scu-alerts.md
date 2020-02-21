@@ -27,7 +27,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 您可以通过以下两种方式访问“服务器调用使用情况”警报：
 
 * 单击“当前使用情况”选项卡或“报表包使用情况”选项卡右上角的&#x200B;**[!UICONTROL 管理警报]**；或
-* 在 Adobe Analytics 中导航到&#x200B;**[!UICONTROL 组件]** &gt; **[!UICONTROL 警报]**。
+* 在 Adobe Analytics 中导航到&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 警报]**。
 
 ## 创建“服务器调用使用情况”警报 {#section_2A2882C6D48D47C1944D52FB7C766BEC}
 
