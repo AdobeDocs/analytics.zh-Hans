@@ -3,7 +3,7 @@ description: 描述如何配置成功事件的步骤。
 title: 配置成功事件
 topic: Admin tools
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 描述如何配置成功事件的步骤。
 
-1. 单击 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]**。
+1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
 1. 选择报表包。
-1. 单击&#x200B;**[!UICONTROL 编辑设置]** &gt; **[!UICONTROL 转化]** &gt; **[!UICONTROL 成功事件]**。
+1. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 转化]** > **[!UICONTROL 成功事件]**.
 
    ![步骤结果](assets/success_event_page.png)
 
@@ -38,7 +38,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    >[!NOTE]
    >
-   >您最多可以为 100 个自定义事件启用参与率。除此之外，您还可以在[计算量度](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html)生成器中创建参与率量度。
+   >您最多可以为 100 个自定义事件启用参与率。除此之外，您还可以在[计算量度](https://marketing.adobe.com/resources/help/zh_CN/analytics/calcmetrics/participation_metric.html)生成器中创建参与率量度。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
