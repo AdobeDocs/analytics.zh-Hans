@@ -2,7 +2,7 @@
 description: 您可以隐藏“菜单”、“量度选择器”、“计算量度生成器”和“区段生成器”中的标准（内置）量度、自定义事件和内置事件。
 title: 量度可见性
 uuid: fa2d6cba-8e03-422d-9f7d-4f35021fa9b4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 您可以隐藏“菜单”、“量度选择器”、“计算量度生成器”和“区段生成器”中的标准（内置）量度、自定义事件和内置事件。
 
-1. 导航至 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]** &gt; **[!UICONTROL 编辑设置]** &gt; **[!UICONTROL 转化]** &gt; **[!UICONTROL 成功事件]**。[更多...](/help/admin/admin/c-success-events/t-success-events.md)
+1. 导航至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 转化]** > **[!UICONTROL 成功事件]**。[更多...](/help/admin/admin/c-success-events/t-success-events.md)
 1. 将“可见性”列设置为&#x200B;**[!UICONTROL 随时随地可见]**、**[!UICONTROL 生成器]**&#x200B;或&#x200B;**[!UICONTROL 随时随地隐藏]**。
 
 这项设置不影响相关量度的数据收集，只影响该量度在用户界面的可见性。以下是各项设置会在用户界面中对量度可见性产生何种影响：
