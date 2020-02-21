@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 您可以立即或按计划共享并组织项目以及发送项目文件（PDF 或 CSV 格式）。
 
-**[!UICONTROL 工作区]** &gt; **[!UICONTROL 共享]**
+**[!UICONTROL Workplace]** > **[!UICONTROL 共享]**
 
 <table id="table_5104A6D817E94A268BBDD47C5C8BB26E"> 
  <thead> 
