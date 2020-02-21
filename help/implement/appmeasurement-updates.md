@@ -3,7 +3,7 @@ title: AppMeasurement for javaScript发行说明
 description: AppMeasurement for JavaScript 的发行说明汇总。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 54804b1b00730a99b7352619d04bdbd2566ba5d3
+source-git-commit: 9b6b08d41f9846a5ee6b0c3610bf04f481ccd34b
 
 ---
 
@@ -15,6 +15,12 @@ source-git-commit: 54804b1b00730a99b7352619d04bdbd2566ba5d3
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 您可以在代码管理器中下载最新版 [本的AppMeasurement](/help/admin/admin/code-manager-admin.md)。
+
+## 版本 2.19.0
+
+发行日期：**2020 年 2 月 21 日**
+
+* 已将受众管理模块更新至 DIL 9.4。(AN-209341)
 
 ## 版本 2.18.0
 
