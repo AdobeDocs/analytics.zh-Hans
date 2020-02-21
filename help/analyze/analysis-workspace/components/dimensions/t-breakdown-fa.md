@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 划分维度
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 为了满足您的特定需求，划分数据的方法可以不受限制；您可以使用相关的量度、维度、区段、时间线以及其他分析划分值来构建查询。
 
 1. [创建项目](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)，其中包含一个数据表。
-1. 在数据表中，右键单击某个行项目，然后选择&#x200B;**[!UICONTROL 划分]** &gt; *`<item>`*。
+1. 在数据表中，右键单击某个行项目，然后选择&#x200B;**[!UICONTROL 划分]** > *`<item>`*。
 
    ![步骤结果](assets/fa_data_table_actions.png)
 
@@ -27,6 +27,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    >
    >数据表可显示的划分数量最多为 200 个。在导出划分时，该限额会有所增加。
 
-[YouTube 上的 Analysis Workspace 中的维度](https://www.youtube.com/watch?v=P9W0hhIHhCs&index=12&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:54)
+[YouTube 上的 Analysis Workspace 中的维度](https://www.youtube.com/watch?v=P9W0hhIHhCs&amp;index=12&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:54)
 
-[YouTube 上的维度划分](https://www.youtube.com/watch?v=3mQ2HN7-lIc&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=13) (2:02)
+[YouTube 上的维度划分](https://www.youtube.com/watch?v=3mQ2HN7-lIc&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=13) (2:02)
