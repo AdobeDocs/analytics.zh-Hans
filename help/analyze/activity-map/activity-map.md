@@ -3,8 +3,8 @@ description: Activity Map 是一款 Adobe Analytics 应用程序，专门用于�
 title: Activity Map 概述
 topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
-translation-type: ht
-source-git-commit: 69403e37c377ac65a2a1b110e153e18c559421b4
+translation-type: tm+mt
+source-git-commit: 59e1bc7644a02c6cafbb7d7833d1cc9bd157b9d1
 
 ---
 
@@ -48,3 +48,4 @@ Activity Map 允许您设置不同的视图，以此来直观地标识客户活�
 * [Analytics 中的 Activity Map 报告](activitymap-reporting-analytics.md)
 * [浏览器扩展疑难解答](troubleshooting-browser-extensions.md)
 * [知识资源](activitymap-info-resources.md)
+
