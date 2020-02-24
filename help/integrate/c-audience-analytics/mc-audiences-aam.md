@@ -3,7 +3,7 @@ description: Adobe Audience Manager (AAM) 作为一款功能强大的数据管�
 solution: Experience Cloud
 title: Audience Analytics 概述
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -31,11 +31,11 @@ Audience Analytics 集成功能具有以下主要优点：
 
 1. 每当访客访问您的数字属性时，都会收集点击量并将其发送给 Analytics。
 1. 通过[服务器端转发](/help/admin/admin/c-server-side-forwarding/ssf.md)，Analytics 收到的每次点击都会实时地自动发送给 AAM。
-1. 通过Audience Analytics集成，对于每个点击，将在AAM中查找访客的受众成员资格，并将区段ID列表返回Analytics进行实时处理。
+1. 通过 Audience Analytics 集成，对于每次点击，均会在 AAM 中查找访客的受众成员资格，并将区段 ID 列表返回到 Analytics 以便进行实时处理。
 
 由于 AAM 区段是基于相同点击而插入的，您可以确保无论 AAM 中有哪些关于访客的数据，该数据都不会丢失并针对该点击保持最新状态。由于插件只能在下一次点击（而不是当前点击）时提供这些区段，因此这种方式要优于 AppMeasurement 插件。
 
-此外，我们会自动将AAM区段ID分类为您的易记名称，这样您就不必在Analytics报告中查看字母数字ID。
+此外，我们会自动将 AAM 区段 ID 划分到其易记名称，因此您不必在 Analytics 报表中查看字母数字 ID。
 
 ## 先决条件 {#section_A345DC31F7D44EAE9DC1AB53E824C0CC}
 
@@ -43,8 +43,8 @@ Audience Analytics 集成功能具有以下主要优点：
 
 * 您既是 Audience Manager 的客户，也是 Adobe Analytics 的客户。
 * 您是 Audience Manager 管理员。
-* 您使用的是Identity Service v1.5或更高版本。
-* AAM 和 Adobe Analytics 报表包[已映射到相同的 Experience Cloud 组织](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html)。
-* You use [server-side forwarding](/help/admin/admin/c-server-side-forwarding/ssf.md) and have implemented the [Audience Management module](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html) (no DIL code) - AppMeasurement 1.5 or later.
+* 您使用的是 Identity Service v1.5 或更高版本。
+* AAM 和 Adobe Analytics 报表包[已映射到相同的 Experience Cloud 组织](https://marketing.adobe.com/resources/help/zh_CN/mcloud/report-suite-mapping.html)。
+* 您使用[服务器端转发](/help/admin/admin/c-server-side-forwarding/ssf.md)并实施了[受众管理模块](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html)（不是 DIL 代码）- AppMeasurement 1.5 或更高版本。
 
-Audience Analytics工作流程中介绍了这 [些先决条件](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)。
+[Audience Analytics 工作流程](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)中介绍了这些先决条件。
