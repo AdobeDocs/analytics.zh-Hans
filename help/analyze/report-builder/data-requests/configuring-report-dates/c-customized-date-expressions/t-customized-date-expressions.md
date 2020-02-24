@@ -4,7 +4,7 @@ title: 自定义的日期表达式 - 概述
 topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: 9e1fdd7785b7323e4f667eab58a1f107272493f0
+source-git-commit: 4f879bc347656bc442108a5174be26efa171d7e3
 
 ---
 
@@ -28,11 +28,11 @@ source-git-commit: 9e1fdd7785b7323e4f667eab58a1f107272493f0
 
 1. 启用 **[!UICONTROL Customize Expression]**. 通过选择下方的选 **[!UICONTROL Rolling Dates]**&#x200B;项，您可以轻松查看自定义日期表达式的语法。
 
-   ![](assets/rolldates5.png)
+   ![](assets/rolldatesfor5.png)
 
    您可以使用高级选项来混合和匹配自定义日期表达式。 例如，如果您希望查看从年初到上个完整月末的数据，他们可以写下：发件人：cy To:cm-1d 您可以在向导中看到，它会确认这些日期为2020年1月1日。
 
    例如，如果将上述日期从三个月前的第一天更改为每月滚动，则提前选项部分中的日期会自行更新，以反映这一点：
 
-   ![](assets/rolldates3.png)
+   ![](assets/rolldatesfor3.png)
 
