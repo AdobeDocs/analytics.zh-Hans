@@ -2,7 +2,7 @@
 description: 'null'
 title: 工作流程概述
 uuid: be550622-eadb-4062-a0cb-2d66b2ddca92
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -31,7 +31,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * Analysis Workspace“付费搜索性能”模板
 * Reports &amp; Analytics
 * Report Builder
-* Analytics Reporting API
+* Analytics 报表 API
 
 ![](assets/step5_icon.png) [管理广告帐户](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
 
