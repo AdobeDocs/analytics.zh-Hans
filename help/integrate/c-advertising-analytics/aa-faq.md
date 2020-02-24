@@ -2,7 +2,7 @@
 description: 'null'
 title: 常见问题解答
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -21,12 +21,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Q: Do I need to be an <b>Adobe Advertising Cloud or Adobe Advertising Cloud (AMO) customer</b> to access this functionality? </p> </td> 
+   <td colname="col1"> <p>问：我是否需要成为 <b>Adobe Advertising Cloud 或 Adobe Advertising Cloud (AMO) 客户</b>才能访问此功能？ </p> </td> 
    <td colname="col2"> <p>答：不需要，非 Advertising Cloud 和非 AMO 的客户都可以使用此功能。 </p> <p>AMO 客户可以利用现有的 Analytics-AMO 集成；他们将无法使用 Ad Analytics。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>问：哪些 <b>Adobe Analytics SKU</b> 使您可以使用 Advertising Analytics？ </p> </td> 
-   <td colname="col2"> <p>答：Advertising Analytics 适用于 Adobe Analytics <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html"  >Select</a>、<a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html"  >Prime</a> 和 <a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html"  >Ultimate</a> 三种 SKU 版本。 </p> </td> 
+   <td colname="col2"> <p>答：Advertising Analytics 适用于 Adobe Analytics <a href="https://www.adobe.com/cn/data-analytics-cloud/analytics/select.html"  >Select</a>、<a href="https://www.adobe.com/cn/data-analytics-cloud/analytics/prime.html"  >Prime</a> 和 <a href="https://www.adobe.com/cn/data-analytics-cloud/analytics/ultimate.html"  >Ultimate</a> 三种 SKU 版本。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>问：我们是否必须<b>支付额外费用</b>才能使用 Advertising Analytics？ </p> </td> 
@@ -89,15 +89,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>问：我正在尝试<b>将我的 Advertising Analytics 帐户映射到特定报表包</b>，但它在“报表包”模式中不可用。为什么？ </p> </td> 
-   <td colname="col2"> <p>答：在将报表包分配到 Advertising Analytics 帐户之前，<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >需要为 Advertising Analytics 报表</a>配置所需的报表包。 </p> <p>This is done through a separate Admin page that is accessible from: <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Report Suites </span>  &gt; <span class="uicontrol"> [select Experience Cloud-enabled report suite] </span>  &gt; <span class="uicontrol"> Edit Settings </span>  &gt; <span class="uicontrol"> Advertising Analytics Configuration </span> </span>. </p> </td> 
+   <td colname="col2"> <p>答：在将报表包分配到 Advertising Analytics 帐户之前，<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >需要为 Advertising Analytics 报表</a>配置所需的报表包。 </p> <p>此操作可通过单独的管理员页面完成，访问方式如下：<span class="ignoretag"><span class="uicontrol">管理员</span> &gt; <span class="uicontrol">报表包</span> &gt; <span class="uicontrol">[选择启用了 Experience Cloud 的报表包]</span> &gt; <span class="uicontrol">编辑设置</span> &gt; <span class="uicontrol">Advertising Analytics 配置</span></span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>问：是否可以将<b>虚拟报表包</b> (VRS) 分配到 Advertising Analytics 帐户？ </p> </td> 
-   <td colname="col2"> <p>答：虚拟报表包不收集数据，因此您不能直接将 Advertising Analytics 帐户映射到虚拟报表包。 </p> <p>但是，您可以将 Advertising Analytics 帐户映射到您想要查看其数据的虚拟报表包的父报表包。 </p> <p>搜索引擎指标（点击／成本／印象）可能不会显示在VRS中，除非您根据AMO ID（或其分类）在区段逻辑中包含“或”条件。 示例：添加“AMO ID存在的所有点击”将包括区段中的搜索引擎量度。 </p> </td> 
+   <td colname="col2"> <p>答：虚拟报表包不收集数据，因此您不能直接将 Advertising Analytics 帐户映射到虚拟报表包。 </p> <p>但是，您可以将 Advertising Analytics 帐户映射到您想要查看其数据的虚拟报表包的父报表包。 </p> <p>除非您根据 AMO ID（或其分类）在区段逻辑中包含“或”条件，否则搜索引擎量度（点击次数/成本/展示次数）可能不会显示在 VRS 中。示例：添加“存在 AMO ID 的所有点击”将包括该区段中的搜索引擎量度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>问：Advertising Analytics 量度是否可以在<b>营销渠道</b>报表中进行报告？ </p> </td> 
-   <td colname="col2"> <p>答：否，它们不包含在营销渠道报告中。 </p> </td> 
+   <td colname="col2"> <p>答：不可以，营销渠道报表中不包含这些量度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>问：搜索数据<b>何时</b>会提取到 Analytics 中？ </p> </td> 
@@ -113,7 +113,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>问：我们是仅捕获 google.com，还是也会捕获<b>国家/地区版本</b>（例如 google.co.uk、google.it、google.fr 或 google.de）？ </p> </td> 
-   <td colname="col2"> <p>答：广告平台分类可捕获以下值：“Google广告词”和“必应广告”。 </p> <p>通常的最佳做法是将国家/地区代码包含在营销活动名称中。然后，您可以筛选或细分(例如，如果所有营销活动以国家／地区代码_开头，则创建一个营销活动(AMO ID)以“UK_”开头的区段，该区段将仅为英国提供数据)。 </p> </td> 
+   <td colname="col2"> <p>答：广告平台分类可捕获以下值：“Google Adwords”和“Bing Ads”。 </p> <p>通常的最佳做法是将国家/地区代码包含在营销活动名称中。之后，您可以进一步过滤或分段（例如，如果所有促销活动均以 countrycode_ 开头，则创建一个以“UK_”开头的促销活动 (AMO ID) 区段，可提供仅与 UK 有关的数据）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>问：量度“AMO 成本”是搜索引擎所报告的每个关键字/广告的成本花费。这是指净成本还是总成本？ </p> </td> 
