@@ -2,7 +2,7 @@
 description: 'null'
 title: Advertising Analytics 疑难解答
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -11,11 +11,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 # Advertising Analytics 疑难解答
 
 * [我在“映射”部分中没有看到我的报表包](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
-* [向Google Adwords帐户进行身份验证时，我收到错误消息……](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
+* [我在对 Google AdWords 帐户进行身份验证时遇到错误...](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
 
 ## 我在“映射”部分中没有看到我的报表包 {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-您正在尝试[设置一个新的广告帐户](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)，并且在&#x200B;**[!UICONTROL 选择报表包]下拉列表中列出的报表包中，没有看到您的报表包。**&#x200B;出现此问题的原因可能有两个：
+您正在尝试[设置一个新的广告帐户](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)，并且在&#x200B;**[!UICONTROL 选择报表包]**&#x200B;下拉列表中列出的报表包中，没有看到您的报表包。出现此问题的原因可能有两个：
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 
@@ -26,7 +26,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1.报表包未映射到登录用户的Experience cloud组织ID。 </p> </td> 
+   <td colname="col1"> <p>1. 未将报表包映射到登录用户的 Experience Cloud 组织 ID。 </p> </td> 
    <td colname="col2"> <p>有关说明，请参阅<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  >将报表包映射到组织</a>。 </p> </td> 
   </tr> 
   <tr> 
