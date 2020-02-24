@@ -2,7 +2,7 @@
 description: Adobe Analytics 和 Adobe Audience Manager 中有一些访客量度具有相似的定义，但由于各种原因并不是完全一致。
 title: 访客计数差异
 uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -65,9 +65,9 @@ AAM 实时区段人口和 Audience Analytics 报表内使用的具有 Experience
   <tr> 
    <td colname="col1"> <p>150 个区段限制 </p> </td> 
    <td colname="col2"> <p>否 </p> </td> 
-   <td colname="col3"> <p>是 - Analytics 计数可能受 150 个区段集成限制影响而产生最多 5% 的偏差。如果发生截断，“已达到受众限制”将显示在“受众名称”维中。 </p> </td> 
+   <td colname="col3"> <p>是 - Analytics 计数可能受 150 个区段集成限制影响而产生最多 5% 的偏差。如果发生截断，“受众名称”维度中将显示“已达到受众限制”。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-See [Understanding Segments in Analytics and Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md) for additional explanation on the nuances between Analytics and Audience Manager data and segmentation.
+请参阅[了解 Analytics 和 Audience Manager 中的区段](/help/integrate/c-audience-analytics/aam-analytics-segments.md)，以获取关于 Analytics 和 Audience Manager 数据与分段之间细微差别的其他解释。
