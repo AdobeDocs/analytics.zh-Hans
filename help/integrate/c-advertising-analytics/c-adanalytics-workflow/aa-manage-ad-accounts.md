@@ -2,7 +2,7 @@
 description: 'null'
 title: 管理广告帐户
 uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 管理广告帐户
 
-You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **[!UICONTROL Advertising Accounts]**.
+您可以通过导航到&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 广告帐户]**&#x200B;来访问管理 UI。
 
 ![](assets/manage_ad_accounts.png)
 
@@ -24,7 +24,7 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>操作</b> </p> </td> 
-   <td colname="col2"> <p><b>注意：仅当您至少选择了一个广告帐户时，才会显示操作。 </b> </p> </td> 
+   <td colname="col2"> <p><b>注意：仅当您至少选择了一个广告帐户后，才会显示“操作”。</b> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ 添加 </p> </td> 
