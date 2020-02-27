@@ -3,7 +3,7 @@ description: 实时显示网页流量并对页面查看次数进行排名，以�
 title: 实时报表
 topic: Report builder
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,5 +24,5 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 实时需要考虑用户和群组的权限。例如，如果您没有查看收入的权限，也便无法查看其中包含收入数据的实时报表。不支持 eVar（转化量度）。[管理工具](https://marketing.adobe.com/resources/help/en_US/reference/RealTime_Reports_Configuration.html)中已启用实时权限。
 
-> [!NOTE] 实 [!UICONTROL 时报告与先前发布的“包括当前数据][](https://marketing.adobe.com/resources/help/en_US/arb/options.html) （数据新近度）”功能不同，后者通过在最终确定之前显示数据来减少标准报告的延迟。
+> [!NOTE][!UICONTROL 实时报表]与以前发布的[包括当前数据](https://marketing.adobe.com/resources/help/zh_CN/arb/options.html)（“数据新近度”）功能不同，后者通过在最终确定数据之前显示数据来减少标准报告的延迟。
 
