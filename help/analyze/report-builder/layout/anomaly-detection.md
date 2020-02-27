@@ -3,7 +3,7 @@ description: 异常检测使用统计建模，自动查找数据中的意外趋�
 title: 异常检测
 topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 视频缓冲事件剧增
 * 低视频比特率剧增
 
-> [!NOTE] 异常检测仅在您选择“日”粒度时可用。
+> [!NOTE] 仅当您选择“日”粒度时，才可使用“异常检测”。
 
 <p class="head"> <b>异常检测量度</b> </p>
 
