@@ -2,7 +2,7 @@
 description: 介绍如何将 Report Builder 发布的资产提取到 Power BI Desktop
 title: 将已发布的资产提取到 Power BI Desktop
 uuid: ef47d5c7-31e0-44fc-a792-bc9d12bb089e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -21,12 +21,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 在 Power BI Desktop 的 2017 年 4 月更新中，Microsoft 发布了可连接到 Power BI 服务中数据集的功能。此功能允许您根据已发布到云的现有数据集创建新报表。您可以利用此功能加强团队间的协作并减少重复劳动。
 
-1. In Power BI Desktop, go to **[!UICONTROL File]** &gt; **[!UICONTROL Options and settings]** &gt; **[!UICONTROL Options]** &gt; **[!UICONTROL Preview features.]**
-1. Enable **[!UICONTROL Power BI Service Live Connection]** and click **[!UICONTROL OK]**. ![](assets/bi-preview-features.png)
+1. 在 Power BI Desktop 中，转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 选项和设置]** > **[!UICONTROL 选项]** > **[!UICONTROL 预览功能。]**
+1. 启用 **[!UICONTROL Power BI 服务实时连接]**&#x200B;并单击&#x200B;**[!UICONTROL 确定]**。![](assets/bi-preview-features.png)
 
 1. 重新启动 Power BI Desktop。
-1. **[!UICONTROL 重新启动桌面后，请转至“主页”]**&gt;“获&#x200B;**[!UICONTROL 取数据]**”**[!UICONTROL &gt;“]**&#x200B;更多……”.
-1. Search for and select **[!UICONTROL Power BI service]**.
-1. Under **[!UICONTROL Microsoft Power BI service]** &gt; **[!UICONTROL My Workspace]**, select the dataset that you had previously published from Report Builder.
+1. 重新启动桌面后，请转到&#x200B;**[!UICONTROL 主页]** > **[!UICONTROL 获取数据]** > **[!UICONTROL 更多...]**。
+1. 搜索并选择 **[!UICONTROL Power BI 服务]**。
+1. 在 **[!UICONTROL Microsoft Power BI 服务]** > **[!UICONTROL 我的工作区]**&#x200B;下方，选择之前从 Report Builder 发布的数据集。
 
-有关详细信息，请参阅此 [Microsoft 博客文章](https://powerbi.microsoft.com/en-us/blog/connecting-to-datasets-in-the-power-bi-service-from-desktop/)。
+有关更多信息，请参阅此 [Microsoft 博客文章](https://powerbi.microsoft.com/zh-cn/blog/connecting-to-datasets-in-the-power-bi-service-from-desktop/)。
