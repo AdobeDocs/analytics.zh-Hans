@@ -2,7 +2,7 @@
 description: 以下是在结合使用 Report Builder 与 Power BI 时存在的几个常见问题。
 title: Power BI 集成疑难解答
 uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 以下是在结合使用 Report Builder 与 Power BI 时存在的几个常见问题。
 
-## 步骤 1. Failure to publish to Power BI {#section_5B87DC1C302C4FD8AB9E4DD6B162DC9B}
+## 步骤 1. 发布到 Power BI 失败 {#section_5B87DC1C302C4FD8AB9E4DD6B162DC9B}
 
 要求 Power BI 发布的计划工作簿需要 Power BI 服务启动和运行。发布失败的两个主要原因包括：
 
@@ -25,7 +25,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 在第二次不成功的尝试之后，您将不会收到消息。
 * 在第三次不成功的尝试之后，您将收到以下消息：“无法将此计划工作簿发布到 Power BI。”
 
-## 步骤 2. Broken visualizations in Power BI {#section_FFFE200D06F843B2AF093710FD678166}
+## 步骤 2. Power BI 中的可视化图表损坏 {#section_FFFE200D06F843B2AF093710FD678166}
 
 以下是在将 Report Builder 请求发布到 Power BI 后导致可视化中断的几个主要原因：
 
