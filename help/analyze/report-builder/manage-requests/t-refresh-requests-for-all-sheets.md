@@ -3,7 +3,7 @@ description: 您可以刷新所有工作表的请求或多个请求。
 title: 刷新所有工作表的请求
 topic: Report builder
 uuid: 7aa3a206-6b14-40c1-8e18-51998f02649e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 刷新多个请求时，系统会收集请求并根据请求是原始请求还是从属请求来确定其优先级。系统会显示有关刷新进度的消息。刷新过程可能需要几分钟的时间，具体取决于您请求的数据量。
 
-1. Click **[!UICONTROL Manage]**.
-1. Enable **[!UICONTROL All Sheets]**.
-1. Click **[!UICONTROL Refresh]**.
-1. Specify a date reference, then click **[!UICONTROL OK]**.
+1. 单击&#x200B;**[!UICONTROL 管理]**。
+1. 启用&#x200B;**[!UICONTROL 所有工作表]**。
+1. 点击&#x200B;**[!UICONTROL 刷新]**。
+1. 指定日期引用，然后单击&#x200B;**[!UICONTROL 确定]**。
