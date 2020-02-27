@@ -3,7 +3,7 @@ description: 时间缩写是指某一时段具体的开始日期，而不是天�
 title: 日期缩写
 topic: Report builder
 uuid: 829d613e-5900-4586-a9fc-239988492d8b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,10 +21,10 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * cq = 当前季度（当前季度的第一天）
 * cy = 当前年份（当前年份的第一天）
 
-In the following list, *[UNIT]* indicates any integer multiplier.
+在以下列表中，*[UNIT]* 表示任意整数乘数。
 
-* [单位] d =天
-* [UNIT] w =周
-* [单位] m =月
-* [UNIT] q =季度
-* [单位] y =年
+* [UNIT] d = 天
+* [UNIT] w = 周
+* [UNIT] m = 月
+* [UNIT] q = 季度
+* [UNIT] y = 年
