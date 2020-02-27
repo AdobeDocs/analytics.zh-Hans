@@ -3,7 +3,7 @@ description: Adobe Report Builder 支持 .xlsm 格式，从而允许您计划启
 title: 计划启用宏的工作簿
 topic: Report builder
 uuid: 874cfac8-ca63-4dec-b2aa-a3dcd037c5c5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,6 +17,6 @@ Adobe Report Builder 支持 .xlsm 格式，从而允许您计划启用宏的工�
 
 >[!IMPORTANT]
 >
->即使Report builder允许您计划包含宏的工作簿，但这些宏在每次计划运行期间都不会被执行。 仅当在本机 Microsoft Excel 应用程序中打开工作簿时，才会运用这些宏。
+>虽然 Report Builder 允许您计划带有宏的工作簿，但并非在每次计划运行期间都运用这些宏。仅当在本机 Microsoft Excel 应用程序中打开工作簿时，才会运用这些宏。
 
 带有宏的计划工作簿只能以启用宏的格式 (.xlsm) 提交，因为所有其他受支持的格式（xls、xlsx、pdf、word、csv 或 txt）将会从工作簿中删除宏。
