@@ -3,7 +3,7 @@ description: 在同一工作簿中将一个电子表格复制为另一个电子�
 title: 复制工作表
 topic: Report builder
 uuid: 817b8c7e-26bd-41a0-a5bb-ff12e5246e03
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,8 +13,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 在同一工作簿中将一个电子表格复制为另一个电子表格。
 
-1. Right-click a cell anywhere in the spreadsheet and select **[!UICONTROL Copy Worksheet w/Requests]**.
-1. Right-click again and select **[!UICONTROL Paste Worksheet w/Requests]**.
+1. 右键单击电子表格中任意位置的单元格，并选择&#x200B;**[!UICONTROL 复制带有请求的工作表]**。
+1. 再次右键单击并选择&#x200B;**[!UICONTROL 粘贴带有请求的工作表]**。
 
    一个新工作表将添加到工作簿中。默认情况下，工作表与原始工作表具有相同的名称，但是具有后缀 (2)。如果重复粘贴操作，新工作表将具有后缀 (3)，依此类推。粘贴已复制的电子表格时，新电子表格紧靠活动工作表的右侧显示。
 
