@@ -3,7 +3,7 @@ description: Adobe Report Builder 现在具有类似于 Analytics 管理工具�
 title: 维度和量度的用户访问权限
 topic: Report builder
 uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -23,8 +23,8 @@ Adobe Report Builder 现在具有类似于 Analytics 管理工具中的权限设
 
 1. 打开工作簿。
 1. 刷新所有请求。
-1. 如果系统提示您用户访问权限错误，请单击&#x200B;**[!UICONTROL 打开 CSV 文件]以获取权限受限错误的列表。**
-1. 创建一个文件“AllRestrictedPermissionErrors.xlsx”，并将CSV文件中的受限权限错误列表复制／粘贴到此文件中。
+1. 如果系统提示您用户访问权限错误，请单击&#x200B;**[!UICONTROL 打开 CSV 文件]**&#x200B;以获取权限受限错误的列表。
+1. 创建文件“AllRestrictedPermissionErrors.xlsx”，然后将权限受限错误的列表从 CSV 文件复制/粘贴到此文件中。
 1. 关闭 Report Builder 工作簿。
 
-处理所有工作簿后，您应在“AllRestrictedPermissionErrors.xlsx”中拥有受限权限错误的完整列表。 将此列表发送给您的 Adobe Analytics 用户访问权限管理员，要求他授予您访问量度和维度的权限。
+处理完所有工作簿后，“AllRestrictedPermissionErrors.xlsx”文件中应当具有权限受限错误的综合列表。将此列表发送给您的 Adobe Analytics 用户访问权限管理员，要求他授予您访问量度和维度的权限。
