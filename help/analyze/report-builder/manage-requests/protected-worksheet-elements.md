@@ -3,7 +3,7 @@ description: 如果您通过锁定单元格保护工作表，则无法创建、�
 title: 受保护的工作表元素
 topic: Report builder
 uuid: 4b632862-4943-4567-a458-46a6548952fa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
