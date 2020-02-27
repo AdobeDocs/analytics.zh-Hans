@@ -1,8 +1,8 @@
 ---
-description: 通过“编辑跨越多个请求的量度”功能，您可以在一个预先存在的请求中或一组请求间轻松地移动、删除或替换量度。
+description: 通过“编辑跨越多个请求的量度”功能，您可以在一个预先存在的请求中或一组请求间轻松地添加、删除或替换量度。
 title: 编辑跨越多个请求的量度
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 ---
@@ -10,27 +10,27 @@ source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 # 编辑跨越多个请求的量度
 
-通过“编辑跨越多个请求的量度”功能，您可以在一个预先存在的请求中或一组请求间轻松地移动、删除或替换量度。
+通过“编辑跨越多个请求的量度”功能，您可以在一个预先存在的请求中或一组请求间轻松地添加、删除或替换量度。
 
-## Add metrics {#section_3FBDA9668039404895059618D70FCBCD}
+## 添加量度 {#section_3FBDA9668039404895059618D70FCBCD}
 
 请记住以下事项
 
 * 只能将量度添加到引导布局请求中。如果某些选定的请求为自定义布局，则无法添加量度。其原因在于，由于布局进行了自定义，Report Builder 不知道将新量度放置到电子表格中的哪个地方。
-* 因此，如果您只选择自定义布局请求，则&#x200B;**[!UICONTROL 添加量度]选项不可用。**
+* 因此，如果您只选择自定义布局请求，则&#x200B;**[!UICONTROL 添加量度]**&#x200B;选项不可用。
 * 添加量度将增加请求的大小，并且可能会导致与其他请求重叠。请确保您的请求周围有足够的空间以允许添加量度。
 * 如果添加的量度已存在于某一个选定的请求中，则不会将其添加到该请求。
 
 要添加一个或多个量度，请执行以下操作：
 
-1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; `<choose metric>` &gt; **[!UICONTROL Edit Group]** to select the group of requests to modify.)
-1. Select **[!UICONTROL Add Metric(s)]**and select the metrics to add.
+1. 在 Excel 中选择一个或多个请求，并右键单击选择&#x200B;**[!UICONTROL 编辑量度]**。（或者，单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 编辑多个]** > `<choose metric>` > **[!UICONTROL 编辑群组]**，以选择要修改的一组请求）。
+1. 选择 **[!UICONTROL 添加量度]** 并选择要添加的量度。
 
    ![](assets/add_metric.png)
 
 1. 刷新请求以查看实际数据。在刷新之前，您看到的都是脱机数据。
 
-## Replace metric {#section_D773AAC7B30C4FBEBDB66B203C217818}
+## 替换量度 {#section_D773AAC7B30C4FBEBDB66B203C217818}
 
 请记住以下事项
 
@@ -45,16 +45,16 @@ source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 替换量度
 
-1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **`<choose metric>`** &gt; **[!UICONTROL Edit Group]** to select the group of requests to modify.)
+1. 在 Excel 中选择一个或多个请求，并右键单击选择&#x200B;**[!UICONTROL 编辑量度]**。（或者，单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 编辑多个]** > **`<choose metric>`** > **[!UICONTROL 编辑群组]**，以选择要修改的一组请求）。
 
-1. Select **[!UICONTROL Replace Metric]**.
+1. 选择&#x200B;**[!UICONTROL 替换量度]**。
 
    ![](assets/replace_metric.png)
 
 1. 选择要替换的量度和替换它的量度。
 1. 刷新请求。在刷新之前，您看到的都是脱机数据。
 
-## Remove metrics {#section_D3CD5BAC7670416593B633B2B8423C60}
+## 删除量度 {#section_D3CD5BAC7670416593B633B2B8423C60}
 
 请记住以下事项
 
@@ -65,9 +65,9 @@ source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 要删除量度，请执行以下步骤：
 
-1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **`<choose metric>`** &gt; **[!UICONTROL Edit Group]** to select the group of requests to modify.)
+1. 在 Excel 中选择一个或多个请求，并右键单击选择&#x200B;**[!UICONTROL 编辑量度]**。（或者，单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 编辑多个]** > **`<choose metric>`** > **[!UICONTROL 编辑群组]**，以选择要修改的一组请求）。
 
-1. Select **[!UICONTROL Remove Metric(s)]**.
+1. 选择&#x200B;**[!UICONTROL 删除量度]**。
 
    ![](assets/remove_metric.png)
 
