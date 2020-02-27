@@ -3,7 +3,7 @@ description: 向请求添加量度和维度的步骤。
 title: 添加量度和维度
 topic: Report builder
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 向请求添加量度和维度的步骤。
 
-1. [在请求向导中创建数据](/help/analyze/report-builder/data-requests/data-requests.md)[!UICONTROL 请求：第1步]，然后单击“下 **[!UICONTROL 一步]**”。
+1. [创建数据请求](/help/analyze/report-builder/data-requests/data-requests.md)（通过[!UICONTROL 请求向导：第 1 步]），然后单击&#x200B;**[!UICONTROL 下一步]**。
 1. 在“[!UICONTROL 请求向导: 第 2 步]”上，双击量度，或者将量度拖动到所需的位置。
 
    ![步骤信息](assets/adding_metrics.png)
@@ -52,16 +52,16 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 在“[!UICONTROL 维度]”选项卡上，系统会显示划分的各个维度，或者是在第 1 步和报表包配置时选择的任何基本报表的分类。将维度放到布局网格时，会将其从树视图中删除，并重新计算剩余可用维度的列表。
 
-“[!UICONTROL 日期]”维度由系统自动添加。可用日期维度会因在“[!UICONTROL 请求向导: 第 1 步]”中选择的粒度而有所不同。(有效值为：
+“[!UICONTROL 日期]”维度由系统自动添加。可用日期维度会因在“[!UICONTROL 请求向导: 第 1 步]”中选择的粒度而有所不同。有效值为：
 
-    *小时
-    *天
-    *周
-    *月
-    
-    *年*日期范围（未指定粒度时）
+    * 小时
+    * 日
+    * 周
+    * 月
+    * 年
+    * 日期范围（未指定粒度时）
 
-1. 通过配置格式选项和筛选器 [修改量度](/help/analyze/report-builder/layout/t-format-display-headers.md) 和维度。
+1. 通过配置[格式选项](/help/analyze/report-builder/layout/t-format-display-headers.md)和过滤器，修改量度和维度。
 1. 单击&#x200B;**[!UICONTROL 完成]**。在以下示例中，维度与“[!UICONTROL 页面]”量度相关联。其中，[!UICONTROL 反向链接域]维度会在[!UICONTROL 页面]和[!UICONTROL 反向链接域]之间创建划分报表。[!UICONTROL 维度]选项卡会进行更新，以便只显示可添加到划分报表的维度。
 
 ![](assets/page_pageview_02.png)
