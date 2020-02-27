@@ -3,7 +3,7 @@ description: Report Builder 中“管理请求”的字段说明。
 title: 管理请求 - 定义
 topic: Report builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,9 +17,9 @@ Report Builder 中“管理请求”的字段说明。
 
 [!UICONTROL 请求管理器]提供一个详细视图，其中显示为活动工作簿中的所有工作表或一个工作表构建的所有请求的状态。通过右键单击 Excel 电子表格中包含先前请求的可用单元格，您还可以添加、编辑、刷新和删除请求（通常与[!UICONTROL 请求向导]和[!UICONTROL 请求管理器]相关联的功能）。
 
-单 [!UICONTROL 击“管理] ”（在Report builder工具栏中）时，将显示“请求管理器 ****![](assets/edit_request.gif) ”。
+当您单击&#x200B;**[!UICONTROL 管理]**（位于 Report Builder 工具栏中的 ![](assets/edit_request.gif)）时，将显示[!UICONTROL 请求管理器]。
 
-> [!NOTE] Adobe Report builder仅在同一工作表内强制实施请求依赖关系，而不是跨工作表。 将从属关系限制在一张工作表中可确保执行的时效性。
+> [!NOTE]Adobe Report Builder 只能在同一个工作表内实施请求从属关系，而无法跨工作表执行。将从属关系限制在一张工作表中可确保执行的时效性。
 
 ## 定义 {#section_FD29D8614DE74F32A0027FA130F40304}
 
@@ -57,11 +57,11 @@ Report Builder 中“管理请求”的字段说明。
   </tr> 
   <tr> 
    <td colname="col1"> <p>添加 </p> </td> 
-   <td colname="col2"> <p>显示请求向导对话框。请参阅 <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   > 创建数据请求</a>. </p> </td> 
+   <td colname="col2"> <p>显示请求向导对话框。请参阅 <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   > 创建数据请求</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>编辑 </p> </td> 
-   <td colname="col2"> <p> （或者“编辑多个”）编辑所选的请求。系统会显示<span class="wintitle">请求向导</span>对话框。See <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   > Edit Multiple Requests</a>. </p> </td> 
+   <td colname="col2"> <p> （或者“编辑多个”）编辑所选的请求。系统会显示<span class="wintitle">请求向导</span>对话框。请参阅<a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   >编辑多个请求</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>删除 </p> </td> 
@@ -77,7 +77,7 @@ Report Builder 中“管理请求”的字段说明。
   </tr> 
   <tr> 
    <td colname="col1"> <p> 刷新 </p> </td> 
-   <td colname="col2"> <p>刷新单个请求或所选的多个请求。（请参阅 <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   > 刷新请求</a>.) </p> </td> 
+   <td colname="col2"> <p>刷新单个请求或所选的多个请求。（请参阅 <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   >刷新请求</a>。) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>刷新列表 </p> </td> 
