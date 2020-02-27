@@ -3,7 +3,7 @@ description: Report Builder 提交的优化方式及有时可能出现的错误�
 title: Report Builder 疑难解答和最佳实践
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Report Builder 提交的优化方式及有时可能出现的错误消息的列表。
 
-## Report Builder 5.0 users and opening 5.1 workbooks {#section_C29898775999453FABB5FB0E098415C8}
+## Report Builder 5.0 用户和打开 5.1 工作簿 {#section_C29898775999453FABB5FB0E098415C8}
 
 Adobe 将维度与分类之间的分隔符从下划线字符 (_) 改为 ||。此项更改旨在解决有分类请求的 Report Builder 5.0 用户在打开 Report Builder 5.1 版工作簿时的兼容性问题。每次从 v5.1 之前的版本打开工作簿时，所有序列化的分类请求都将转换为此格式。
 
@@ -21,13 +21,13 @@ Adobe 将维度与分类之间的分隔符从下划线字符 (_) 改为 ||。此
 
 在打开具有分类请求的 ARB v5.1 工作簿时，您会体验到以下不良影响：
 
-* 打开工作簿时，您会收到以下警告：“此工作簿上次使用Report Builder v5.1保存。此版本引入了一些与此计算机上安装的Report builder版本不兼容的功能。 强烈建议您先升级到最新的Report Builder版本，然后再更新此工作簿。”
+* 打开该工作簿时，会收到以下警告：“本工作簿上次是使用 Report Builder v5.1 保存的。此版本的某些功能与安装在这台计算机上的 Report Builder 版本不兼容。我们强烈建议您在更新此工作簿之前，升级到最新的 Report Builder 版本。”
 * 如果右键单击带有分类的 ARB 请求，并不会出现 Report Builder 上下文菜单（编辑请求、添加从属请求...）。
 * 如果通过单击第三个按钮或通过刷新请求管理器表单中的一系列请求来执行“全部刷新”操作，则可以成功执行分类请求。然而却无法写出分类值。
 * 您还可以通过打开请求管理器来编辑请求，然后逐行检查，直到成为正确的请求。
 * 如果您编辑请求并保持所有参数相同，那么在单击“完成”后，将可以正常写出响应。事实上，编辑请求的这种方法可以解决问题，因为响应布局参数会重新进行序列化。所以说还是有解决方案的，只是这种方案过于费时。
 
-## Authentication issues in Report Builder {#section_FD79104DF1414FE2B36591606C963DE6}
+## Report Builder 中的身份验证问题 {#section_FD79104DF1414FE2B36591606C963DE6}
 
 Report Builder 需要进行身份验证，才能从报表包创建数据请求。有时在登录 Report Builder 时会出现问题，具体取决于 [!DNL Analytics] 或您网络内的设置。
 
@@ -42,7 +42,7 @@ Report Builder 需要进行身份验证，才能从报表包创建数据请求�
 
 Report Builder 使用端口 80 和 443。确保您所在组织的防火墙允许这些端口通过。有关其他防火墙排除项，还可以参阅“Adobe 的内部 IP 地址”。
 
-## Recommendations for optimizing requests {#section_33EF919255BF46CD97105D8ACB43573F}
+## 优化请求的建议 {#section_33EF919255BF46CD97105D8ACB43573F}
 
 以下因素可能会增加请求的复杂性和导致处理缓慢：
 
@@ -96,15 +96,15 @@ Report Builder 使用端口 80 和 443。确保您所在组织的防火墙允许
 
 任何计划报表都会在四小时后超时。系统再尝试计划 3 次，这可能会导致失败。（一般而言，数据集越大，所用的运行时间越长。）这些超时可在 [!DNL Analytics] 报告和 Report Builder 中查看：
 
-* [!DNL Analytics]:“收藏夹 **[!UICONTROL ”&gt;“计]****[!UICONTROL 划报告”]**
+* [!DNL Analytics]：**[!UICONTROL 收藏夹]** > **[!UICONTROL 计划报表]**
 
 * Report Builder：在 Excel 中，单击&#x200B;**[!UICONTROL 加载项]**&#x200B;选项卡中的[!UICONTROL 管理]。
 
-## Error message descriptions {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
+## 错误消息说明 {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
 
 使用 Report Builder 过程中有时会显示的错误消息列表。
 
-> [!NOTE] 这只是一组错误消息，而不是完整列表。 要了解有关解决错误的更多信息，请与您的管理员联系。
+> [!NOTE] 这只是一部分错误消息，并不是详尽列表。要了解有关解决错误的更多信息，请与您的管理员联系。
 
 **此功能只能应用于打开的工作簿。**
 
