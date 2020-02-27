@@ -3,7 +3,7 @@ description: 通过编辑、应用过滤器更新请求后，或者需要查看�
 title: 刷新请求
 topic: Report builder
 uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 如果增加请求的日期范围，然后刷新该请求，则 Report Builder 会添加单元格，以适应添加的时段数。
 
 1. 创建并运行请求。
-1.  更改请求后，右键单击请求，然后从快捷菜单中选择&#x200B;**刷新请求**。（或者，单击请求，然后单击工具栏中的&#x200B;**[!UICONTROL 刷新]。）**
+1. 更改请求后，右键单击请求，然后从快捷菜单中选择&#x200B;**[!UICONTROL 刷新请求]**。（或者，单击请求，然后单击工具栏中的&#x200B;**[!UICONTROL 刷新]**。）
 
    系统将显示“[!UICONTROL 刷新请求]”窗体：
 
