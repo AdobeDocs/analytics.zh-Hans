@@ -3,7 +3,7 @@ description: 计划任务管理器的字段说明。
 title: 计划任务管理器
 topic: Report builder
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -37,7 +37,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <p>发布选项 </p> </td> 
-   <td colname="col2"> <p>如果选中了其中一个<a href="/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md"  >Power BI 发布选项</a>，此列将列出 Power BI。 </p> </td> 
+   <td colname="col2"> <p>如果选中了其中一个 <a href="/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md"  >Power BI 发布选项</a>，此列将列出 Power BI。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>计划 </p> </td> 
