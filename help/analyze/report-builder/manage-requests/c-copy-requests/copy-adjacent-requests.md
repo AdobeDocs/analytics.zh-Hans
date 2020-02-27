@@ -3,7 +3,7 @@ description: 与复制并粘贴请求一样，您还可以通过从快捷菜单�
 title: 复制相邻请求
 topic: Report builder
 uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 剪切请求会将请求从原位置删除，并在选择“[!UICONTROL 粘贴请求]”后将请求放置到新位置。如果您在剪切某一特定请求后改变了主意，决定复制或剪切另一单元格中的其他请求，Report Builder 会将第一个请求保留在其原单元格中，仅对第二个请求执行操作（复制或剪切）。
 
-> [!NOTE] Report Builder不支持剪切或粘贴请求的Excel撤消命令。 因此，在剪切请求时一定要谨慎。
+> [!NOTE]对于剪切或粘贴请求，Report Builder 不支持 Excel 的“撤消”命令。因此，在剪切请求时一定要谨慎。
 
 您不一定要在工作簿的同一工作表中复制并粘贴。您可以复制一个工作表中的请求，然后粘贴到同一工作簿中另一工作表的某个位置。
 
