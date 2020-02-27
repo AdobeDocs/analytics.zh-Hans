@@ -3,7 +3,7 @@ description: 将源工作簿中的整个电子表格复制为一个或多个目�
 title: 在工作簿之间复制请求和工作表
 topic: Report builder
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,8 +14,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 将源工作簿中的整个电子表格复制为一个或多个目标工作簿中的电子表格。
 
 要执行此操作，您必须在同一 Excel 实例中打开至少 2 个工作簿：第一个源工作簿的电子表格（工作表）中包含映射到单元格的请求，而另一个目标工作簿是目标位置。对于每个新目标工作簿，您应该首先登录以访问与源工作簿相同的报表包，然后才能粘贴包含请求的电子表格。
-1. Right-click the spreadsheet in the source workbook and select **[!UICONTROL Copy Worksheet w/Requests]**.
-1. In the destination workbook, right-click the spreadsheet and select **[!UICONTROL Paste Worksheet w/Requests]**.
+1. 右键单击源工作簿中的电子表格，然后选择&#x200B;**[!UICONTROL 复制带有请求的工作表]**。
+1. 在目标工作簿中，右键单击电子表格，然后选择&#x200B;**[!UICONTROL 粘贴带有请求的工作表]**。
 
    同一 Excel 实例是指在某个时间计算机上只运行一个 Excel 进程 ([!DNL excel.exe])。如果启动两个 Excel 实例，然后尝试将工作表从第一个 Excel 实例中的工作簿复制到第二个 Excel 实例中的工作簿，则 Report Builder 不会在第二个 Excel 实例的快捷菜单中提供粘贴工作表的选项。
 
