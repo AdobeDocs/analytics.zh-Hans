@@ -3,7 +3,7 @@ description: 复制简单请求，而不是引用请求。简单请求是指不�
 title: 复制简单请求
 topic: Report builder
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,22 +13,22 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 复制简单请求，而不是引用请求。简单请求是指不引用另一请求或单元格内容的请求。
 
-A [referential request](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md) uses values from cells as input for parameters, such as a data filter or relational filter. 这些过滤器使用匹配或趋势条件，并且基于之前请求的结果或基于用户输入的单元格（称为输入单元格）内容。
+[引用请求](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md)使用单元格中的值作为参数的输入，如数据过滤器或关系过滤器。这些过滤器使用匹配或趋势条件，并且基于之前请求的结果或基于用户输入的单元格（称为输入单元格）内容。
 1. 创建有效的请求。
 1. 右键单击请求映射到的单元格之一，或者选择包含请求的单元格区域。
 
    从请求涉及的单元格组中选择要作为复制起始位置的单元格时要保持一致。首选方法是选择请求涉及的单元格组中左上角的单元格，并按从左到右的顺序工作。这是因为 Excel 电子表格包含可向右和向下扩展的数百列和数千行。如果您决定从与请求关联的单元格组中的最右侧或底部单元格开始复制请求，那么，如果要粘贴的单元格将超出电子表格的左边界或上边界，系统将不允许您粘贴请求。
-1. Select **[!UICONTROL Copy Request]**.
+1. 选择&#x200B;**[!UICONTROL 复制请求]**。
 1. 在电子表格的另一区域，右键单击一个空白单元格（不包含请求的单元格）。
 
    为了防止丢失或损坏已创建的请求，您无法将包含请求的单元格粘贴到当前已与请求建立映射关系的单元格中。如果复制或剪切包含请求的单元格，在右键单击包含请求的单元格（或单元格组）时，快捷菜单中的“[!UICONTROL 粘贴请求]”选项不可用。必须选择其他单元格作为粘贴操作的目标位置，以便请求不会重叠。无论选择包含要粘贴的请求的单个单元格还是包含请求的单元格区域，都会出现这种情况。
-1. Click **[!UICONTROL Paste Request]**.
+1. 单击&#x200B;**[!UICONTROL 粘贴请求]**。
 
    系统会根据原始请求的布置将原始请求的副本放置在一个或多个位置的单元格中。
 
    >[!NOTE]
    >
-   >只复制请求，而不复制单元格的内容。 如果您有其他并非基于请求、但有助于理解单元格中显示的数据的信息（如表的列标题或行标识符），请使用 Excel 的标准“复制”和“粘贴”命令。
+   >只复制请求，不复制单元格内容。如果您有其他并非基于请求、但有助于理解单元格中显示的数据的信息（如表的列标题或行标识符），请使用 Excel 的标准“复制”和“粘贴”命令。
 
    由于在复制单元格内容和复制请求时 Excel 使用不同的剪贴板，因此您可以通过按顺序执行“复制”/“粘贴”和“复制请求”/“粘贴请求”，先复制非请求单元格内容，然后复制请求。然而，如果对电子表格中的请求应用了格式，然后复制并粘贴，则 Report Builder 会在粘贴区域中重现原始格式（如边框和字体等）。
 
