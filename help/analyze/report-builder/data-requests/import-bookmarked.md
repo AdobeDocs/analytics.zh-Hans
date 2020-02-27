@@ -3,7 +3,7 @@ description: 现在，所有标为书签的报表和功能板报表都作为维�
 title: 导入加入书签的报表和功能板缩图报表
 topic: Report builder
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,11 +19,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ![](assets/import_dashboard_reportlet.png)
 
-When you click **[!UICONTROL Retrieve your Dashboards]** or **[!UICONTROL Retrieve your Bookmarks]**, your existing dashboard and/or bookmark data is retrieved and pasted in the worksheet.
+单击&#x200B;**[!UICONTROL 检索功能板]**&#x200B;或&#x200B;**[!UICONTROL 检索书签]**&#x200B;时，系统将检索现有功能板和/或书签数据并将其粘贴至工作表中。
 
-> [!NOTE] 在Report builder中，可用的仪表板和书签列表仅限于用户，也限于适用于您在向导的步骤1中选择的报表包的列表。 与此相反，在市场营销 Reports &amp; Analytics 中，您可以访问所有可用的书签和功能板，无论这些功能板和书签使用哪些报表包。
+> [!NOTE] 在 Report Builder 中，用户可用的功能板和书签列表是有限的，此外，应用于您在向导的第 1 步中选择的报表包的功能板和书签列表也是有限的。与此相反，在市场营销 Reports &amp; Analytics 中，您可以访问所有可用的书签和功能板，无论这些功能板和书签使用哪些报表包。
 
-> [!NOTE] 只导入数据，因此如果书签包含图表，或如果功能板缩图报表仅包含图表，则只导入用于填充图表的数据。
+> [!NOTE] 只导入数据，因此，如果书签包含图表，或者如果功能板缩图报表仅由图表组成，则只会导入用于填充图表的数据。
 
 通过导入功能板缩图报表（或书签）创建请求后，该请求将会关联到缩图报表（或书签）的主要维度。因此，如果您编辑请求，树视图将不再选择功能板缩图报表树视图节点（或书签节点）：而是会选择其主要维度。
 
@@ -31,5 +31,5 @@ When you click **[!UICONTROL Retrieve your Dashboards]** or **[!UICONTROL Retrie
 
 >[!IMPORTANT]
 >
->日期范围将设置为相同的日期范围，但会设置为静态日期范围——即使此日期范围是Reports &amp; Analytics书签中的滚动日期范围。
+>日期范围将会设置为相同的日期范围，但是会作为静态日期范围 - 即使此日期范围在 Reports &amp; Analytics 书签中为滚动日期范围也是如此。
 
