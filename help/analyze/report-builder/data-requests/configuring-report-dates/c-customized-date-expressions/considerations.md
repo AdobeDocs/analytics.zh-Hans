@@ -3,7 +3,7 @@ description: '使用自定义表达式设置日期范围时的两个重要注意
 title: 自定义日期注意事项
 topic: Report builder
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -48,4 +48,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 当前周的起始日期（11 月 23 日，星期日）减去 1 天 = 11 月 22 日，星期六
 
-在欧洲和其他一些国家/地区，一周的第一天是星期一，而不是星期日。在这种情况下，您可以自定义日历以更改开始日期。（请参阅 [自定义日历](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).)
+在欧洲和其他一些国家/地区，一周的第一天是星期一，而不是星期日。在这种情况下，您可以自定义日历以更改开始日期。（请参阅[自定义日历](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)。)
