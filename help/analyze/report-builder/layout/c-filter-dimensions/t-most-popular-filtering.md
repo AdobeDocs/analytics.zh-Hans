@@ -3,7 +3,7 @@ description: 使用 AND/OR 搜索表达式通过布尔逻辑配置的排名和�
 title: 最受欢迎的过滤设置
 topic: Report builder
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 使用 AND/OR 搜索表达式通过布尔逻辑配置的排名和条件过滤器。
 
-Most Popular filters are expression filters that you configure using Boolean logic with AND/OR conditions, such as [!UICONTROL Page does not contain]*`<product name>`* with conditions or groups of conditions like [!UICONTROL Includes All], [!UICONTROL Includes Any], or [!UICONTROL Excludes All]. You can [save](/help/analyze/report-builder/layout/c-filter-dimensions/saved-filters.md) these expressions for other request in this workbook, or in other workbooks.
+最受欢迎的过滤器是使用 AND/OR 条件通过布尔逻辑配置的表达式过滤器，如使用[!UICONTROL 包括全部]、[!UICONTROL 包括任何]或[!UICONTROL 排除所有]等条件或条件组的[!UICONTROL 页面不包含&#x200B;]*`<product name>`*。您可以[保存](/help/analyze/report-builder/layout/c-filter-dimensions/saved-filters.md)这些表达式，供此工作簿或其他工作簿中的其他请求使用。
 
 **创建最受欢迎的过滤器**
 
@@ -21,8 +21,8 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    ![步骤信息](assets/dimension_filter.png)
 
-1. On the [!UICONTROL Request Wizard: Step 2], click the link next to the dimension in the grid, then choose **[!UICONTROL Filter]**.
-1. 在“[!UICONTROL 选择页面]**”窗体中，启用[!UICONTROL 最受欢迎]**，然后配置下列选项：
+1. 在“[!UICONTROL 请求向导: 第 2 步]”中，单击网格中维度旁边的链接，然后选择&#x200B;**[!UICONTROL 过滤器]**。
+1. 在“[!UICONTROL 选择页面]”窗体中，启用&#x200B;**[!UICONTROL 最受欢迎]**，然后配置下列选项：
 
    **起始排名：**&#x200B;维度的起始排名。默认排名 1 表示在报告的数据列表中排在第 1 位的项目。例如，对于维度“[!UICONTROL 页面]”，起始标记 1 表示您网站中请求次数最多的单个页面。您可以指定 10 或另一值作为起始排名单元格，这样会生成将 10 作为最高排名的报表。量度按降序排列，以便系统首先在列表中报告具有最高活动频率的行项目。如果您在一个请求中需要超过 50,000 个页面名称，但是您已要求系统报告数千个页面的数据，则可以复制请求并更改起始排名，以在 50,000 个数据块中检索相应数据。
 
@@ -32,9 +32,9 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    >[!NOTE]
    >
-   >将过滤器应用于现有请求会导致显示的数据发生更改。 假定将前 10 个[!UICONTROL 页面]映射到单元格 $A$1 至 $A$10，并且“[!UICONTROL 起始排名]”为 1，“[!UICONTROL 条目数]”为 10。如果将“[!UICONTROL 起始排名]”的值更改为 1，将“[!UICONTROL 条目数]”的值更改为 3，则先前填充单元格 $A$4 至 $A$10 的数据将不再显示。
+   >对现有请求应用过滤器会导致提供的数据发生变化。假定将前 10 个[!UICONTROL 页面]映射到单元格 $A$1 至 $A$10，并且“[!UICONTROL 起始排名]”为 1，“[!UICONTROL 条目数]”为 10。如果将“[!UICONTROL 起始排名]”的值更改为 1，将“[!UICONTROL 条目数]”的值更改为 3，则先前填充单元格 $A$4 至 $A$10 的数据将不再显示。
 
-1. To create a search expression, click **[!UICONTROL Add]**.
+1. 要创建搜索表达式，请单击&#x200B;**[!UICONTROL 添加]**。
 
    ![步骤信息](assets/expressions_define_filter.png)
 
@@ -48,5 +48,5 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    ![步骤信息](assets/choose_page_02.png)
 
-1. 在“[!UICONTROL 选择页面]**”窗体上，单击[!UICONTROL 保存]**&#x200B;以保存表达式。
+1. 在“[!UICONTROL 选择页面]”窗体上，单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存表达式。
 1. 单击&#x200B;**[!UICONTROL 确定]**。
