@@ -3,7 +3,7 @@ description: 计划报表时，您可以选择要用于分发的发布列表。
 title: 允许发布列表覆盖
 topic: Report builder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 发布列表在 Analytics 管理工具中进行设置。
 
-请参阅 Analytics 参考资料中的[发布列表管理器](https://marketing.adobe.com/resources/help/en_US/reference/publishing_list.html)。
+请参阅 Analytics 参考资料中的[发布列表管理器](https://marketing.adobe.com/resources/help/zh_CN/reference/publishing_list.html)。
 
 要启用此功能，请导航到“[!UICONTROL 请求向导: 第 1 步]”窗口。
 
