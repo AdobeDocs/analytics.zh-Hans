@@ -2,7 +2,7 @@
 description: 'null'
 title: 限制和规范
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,17 +10,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 限制和规范
 
-## Power BI publishing restrictions {#section_D4BDD70B20F94A0FAE53531CA528AE42}
+## Power BI 发布限制 {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 
-> [!NOTE] 这些限制仅适用于选项“将Report Builder请求作为Power BI数据集表发布”。
+> [!NOTE] 这些限制仅适用于选项“作为 Power BI 数据集表发布 Report Builder 请求”。
 
 * 对于每个工作簿，最多可向 Power BI 导出 100 个 Report Builder 请求。
 * 在达到 101 个请求时，计划过程将停止导出请求。
 * 对于每个 Report Builder 请求，只有前 10,000 行 Analytics 数据将被发送到 Power BI。剩余的行将被忽略。
 
-## Edit a Report Builder request after publishing to Power BI {#section_6989E74F68DD43F08D37C36B6777DB50}
+## 在发布到 Power BI 之后编辑 Report Builder 请求 {#section_6989E74F68DD43F08D37C36B6777DB50}
 
-> [!NOTE] 此规范适用于“将所有Report Builder请求发布为Power BI数据集表”选项和“将工作簿中的所有格式化表发布为Power BI数据集表”选项。
+> [!NOTE] 此规范适用于选项“作为 Power BI 数据集表发布所有 Report Builder 请求”和“作为 Power BI 数据集表发布工作簿中所有带格式的表”。
 
 在发布到 Power BI 之后编辑 Report Builder 请求，可能会引发问题。
 
@@ -54,7 +54,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * **案例 2**：您将工作簿的某一部分固定到 Power BI 中的功能板，随后又从工作簿中删除固定的部分（例如一个图表或一个表）。这将中断可视化。
 
-## Change the name of a Power BI report {#section_2E7893A78B914EBFACB2B08CBD9E472E}
+## 更改 Power BI 报表的名称 {#section_2E7893A78B914EBFACB2B08CBD9E472E}
 
 默认情况下，将从工作簿文件名填充名称（不含 .xlsx 扩展），但空格由下划线字符替代。
 
@@ -62,5 +62,5 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * 标签不能是可被误认为行和列地址的字母和数字组合。例如，A100 不能用作标签，因为它是工作表中一个单元格的地址。
 * 以下字符不是有效的标签字符：“#”、“@”、“!”、“$”、“^”、“&amp;”、“*”、“`”、“~”、“ ”。它们将由一个下划线字符替代。
-* 如果您输入一个无效名称，将显示一则警告消息，并向您推荐一个自动生成的名称。If you click **[!UICONTROL Yes]**, this name will be used. If you click **[!UICONTROL No]**, the Advanced Wizard UI will let you enter the new name.
+* 如果您输入一个无效名称，将显示一则警告消息，并向您推荐一个自动生成的名称。如果单击&#x200B;**[!UICONTROL 是]**，将会使用此名称。如果单击&#x200B;**[!UICONTROL 否]**，高级向导 UI 将让您输入新名称。
 
