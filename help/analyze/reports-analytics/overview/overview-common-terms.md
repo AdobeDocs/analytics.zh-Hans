@@ -3,7 +3,7 @@ description: 有关市场营销报告中常用 Web 分析术语的介绍。
 title: 常用术语
 topic: Reports and analytics
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # 常用术语
 
-介绍常用的Adobe Analytics术语。
+介绍常用的 Adobe Analytics 术语。
 
 <table id="table_58F5D292485F45F9902B372E4E1E3103"> 
  <thead> 
@@ -27,7 +27,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td> <p>量度 </p> </td> 
-   <td> <p>有关网站活动的量化信息，包括查看次数、点击量、重新加载次数、平均逗留、时间、日期和件数等。 </p> <p>For more information, see <a href="/help/analyze/reports-analytics/metrics.md">Metrics</a>. </p> </td> 
+   <td> <p>有关网站活动的量化信息，包括查看次数、点击量、重新加载次数、平均逗留、时间、日期和件数等。 </p> <p>有关详细信息，请参阅<a href="/help/analyze/reports-analytics/metrics.md">量度</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> 维度 </p> </td> 
@@ -35,7 +35,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td> <p> 报表 </p> </td> 
-   <td> <p>市场营销报告功能的基础。您可以对收集的所有数据运行在线报表。 </p> <p>有关详细信息，请参阅 <a href="/help/analyze/reports-analytics/reports.md"> 报表类型</a>. </p> </td> 
+   <td> <p>市场营销报告功能的基础。您可以对收集的所有数据运行在线报表。 </p> <p>有关详细信息，请参阅<a href="/help/analyze/reports-analytics/reports.md"> 报表类型</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> 页面查看 </p> </td> 
@@ -43,7 +43,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td> <p>访问 </p> </td> 
-   <td> <p>表示一系列的页面查看操作。访问仅会在 30 分钟不活动或 12 小时持续活动后结束。（此时间测量是 Web 分析行业标准。）访问量是通过 Cookie 进行跟踪的。访问从访客访问页面开始。一次访问有时是指一个 <span class="term"> session</span>, but it is not a browser session. 转到其他网站、关闭浏览器甚至重新启动计算机并不结束访问。 </p> <p> 如果在访客阅读网页时发生不活动状态超时，则该访问将结束并被处理。新访问在访客点进另一页面时开始。 </p> <p>如果在访问期间日期改变，如在午夜访问网站，该访问将属于访问开始的那一天。 </p> </td> 
+   <td> <p>表示一系列的页面查看操作。访问仅会在 30 分钟不活动或 12 小时持续活动后结束。（此时间测量是 Web 分析行业标准。）访问量是通过 Cookie 进行跟踪的。访问从访客访问页面开始。一次访问有时是指一个<span class="term">会话</span>，但不是浏览器会话。转到其他网站、关闭浏览器甚至重新启动计算机并不结束访问。 </p> <p> 如果在访客阅读网页时发生不活动状态超时，则该访问将结束并被处理。新访问在访客点进另一页面时开始。 </p> <p>如果在访问期间日期改变，如在午夜访问网站，该访问将属于访问开始的那一天。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> 页面查看次数 </p> </td> 
@@ -63,7 +63,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td> <p>渠道 </p> </td> 
-   <td> <p> 网站上定义的区域或类别。包括两个主要类别（如 天 <span class="term"> 气</span> , <span class="term"> 新闻</span>，有两个频道。 您可以对网站任何渠道中发生的所有页面查看的统计数据进行分组。 </p> </td> 
+   <td> <p> 网站上定义的区域或类别。包括两个主要类别（如<span class="term">天气</span>和<span class="term">新闻</span>）的网站具有两个渠道。您可以对网站任何渠道中发生的所有页面查看的统计数据进行分组。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
