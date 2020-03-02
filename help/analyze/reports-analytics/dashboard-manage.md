@@ -4,8 +4,8 @@ subtopic: Dashboards
 title: 功能板管理器
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: 92eaaeafdd587febcfe7fe60f696baca0691b4bc
 
 ---
 
@@ -22,13 +22,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 使用功能板管理器可以复制、共享、存档和计划功能板以进行提交。
 
-单击 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 功能板]**。
+单击 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
 
 | 元素 | 描述 |
 |--- |--- |
 | 共享 | 显示是否共享功能板。 |
 | 已设置发布时间 | 让您计划功能板以进行提交。 |
-| 查看存档 | 让您查看功能板存档。2020 年 1 月，这项功能将不再可用。 |
+| 查看存档 | 此功能不再可用。 |
 | 提交至用户 | 让您共享功能板。 |
 | 管理 | 让您编辑、复制和删除功能板。 |
 
@@ -36,8 +36,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 描述如何使用共享功能板管理选项的步骤。
 
-1. 转至 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 功能板]**。
-1. 在“[!UICONTROL 共享功能板]”下方，找到您要管理的共享功能板（或原有功能板），然后选取下面一个或多个选项：
+1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
+1. Under [!UICONTROL Shared Dashboards], locate the shared dashboard (or legacy dashboard) you want to manage and choose one or more of the following options:
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
  <thead class="chhead sthead"> 
@@ -46,7 +46,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </thead> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>查看存档</strong></td> 
-  <td class="chdesc stentry"> 如果具有存档，则可以查看共享功能板的报表存档。 </td> 
+  <td class="chdesc stentry"> 此功能不再可用。 </td> 
  </tr> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>功能板播放器</strong></td> 
@@ -70,7 +70,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 现有的旧版功能板将继续运行，而且您仍然可以编辑、下载它们并为其制定计划，但是您不能再新建旧版功能板。强烈建议您将现有旧版功能板升级为较新的功能板格式。
 
-> [!NOTE] 接下来，请考虑使用 [Analysis Workspace 项目](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/)及其将要下载和计划的功能。
+> [!NOTE] 接下来，请考虑使用 [Analysis Workspace 项目](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)及其将要下载和计划的功能。
 
 复制原有功能板时，系统将打开原有功能板以供您编辑，您可添加旧内容或新内容。当您复制原有功能板时，旧内容将保留在原有功能板列表中。
 
@@ -78,8 +78,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **迁移版本 14.x 原有功能板**
 
-1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 管理功能板]**。
-1. 在“[!UICONTROL 管理]”列中的“[!UICONTROL 原有功能板]”下，单击&#x200B;**[!UICONTROL 复制到新功能板]**。
+1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Manage Dashboards]**.
+1. 在列的 [!UICONTROL Manage] 下方，单 [!UICONTROL Legacy Dashboards]击 **[!UICONTROL Copy to New Dashboard]**。
 
    复制的功能板将在功能板布局编辑器中打开。
 
@@ -87,22 +87,22 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 共享功能板
 
-描述管理员如何将功能板共享（或推送）给多个用户的步骤。当您向用户推送功能板时，功能板将在用户的[!UICONTROL 共享功能板]菜单中变为可用。
+描述管理员如何将功能板共享（或推送）给多个用户的步骤。When you push dashboards to users, the dashboards become available in user&#39;s [!UICONTROL Shared Dashboards] menu.
 
-1.  在[!UICONTROL 功能板管理器]中，定位功能板并启用&#x200B;**[!UICONTROL 共享]**。
-1. 单击&#x200B;**[!UICONTROL 提交至用户]**。![](assets/push.png)
+1. 在中， [!UICONTROL Dashboard Manager]找到功能板，然后启用 **[!UICONTROL Shared]**。
+1. 单击 **[!UICONTROL Push To Users]**.  ![](assets/push.png)
 
-1. 在“[!UICONTROL 推送功能板]”页面中，选择目标用户或单击&#x200B;**[!UICONTROL 全部选中]**。
-1. 单击&#x200B;**[!UICONTROL 保存]**。
+1. 在页面 [!UICONTROL Push Dashboard] 上，选择目标用户或单击 **[!UICONTROL Check All]**。
+1. 单击 **[!UICONTROL Save]**.
 
-如果功能板的共享用户看不到您在功能板中所做的更改，请检查您的功能板管理器，以查看这些用户是否选择了&#x200B;**[!UICONTROL 抄送我]**&#x200B;选项。如果选择了该选项，则他们看不到您所做的更新/更改。为了能够看到所有更改/更新，共享用户需要选择功能板管理器中的&#x200B;**[!UICONTROL 置于菜单]**&#x200B;选项。
+If shared users of your dashboard cannot see changes you made in the dashboard, check your Dashboard Manager to see if the users have chosen the **[!UICONTROL Copy Me]** option. 如果选择了该选项，则他们看不到您所做的更新/更改。To see all the changes/updates, shared users need to select the **[!UICONTROL On Menu]** option in the Dashboard Manager.
 
 ## 计划功能板以进行提交
 
-在[!UICONTROL 功能板管理器]中，您可以看到功能板是否已计划进行提交，并且可以编辑计划。功能板提交选项与报表提交选项相同。
+In the [!UICONTROL Dashboard Manager], you can see whether a dashboard is scheduled for delivery, and edit the schedule. 功能板提交选项与报表提交选项相同。
 
 1. 打开功能板。
-1. 单击&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 发送]**。
+1. 单击 **[!UICONTROL More]** > **[!UICONTROL Send]**.
 
    有关更多信息，请参阅[计划和分发](/help/analyze/reports-analytics/scheduling.md)。
 
@@ -113,8 +113,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 描述如何将任何发送的功能板存档为 PDF 文件的步骤。系统会将存档文件保存两年，或直到您存档的报表达到了最大 4 GB 容量限制，以先到者为准。
 
 1. 打开功能板。
-1. 单击&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 发送]**。
-1.  在[!UICONTROL 电子邮件报表]组中，启用&#x200B;**[!UICONTROL 存档]**。
-1.  指定提交选项，然后单击&#x200B;**[!UICONTROL 发送]**。
+1. 单击 **[!UICONTROL More]** > **[!UICONTROL Send]**.
+1. 在组 [!UICONTROL Email Report] 中，启用 **[!UICONTROL Archive]**。
+1. Specify delivery options, then click **[!UICONTROL Send]**.
 
-   您可以在功能板管理器中查看存档的功能板。或者打开一个功能板，并单击&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 查看存档]**。
+   您可以在功能板管理器中查看存档的功能板。或者，打开功能板并单击 **[!UICONTROL More]** > **[!UICONTROL View Archive]**。
