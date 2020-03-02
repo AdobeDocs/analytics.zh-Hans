@@ -3,7 +3,7 @@ description: Data Warehouse 是指用于存储的、未经处理的原始数据�
 title: Data Warehouse 请求
 topic: Reports and analytics
 uuid: 586d3c8c-244f-4d47-8f93-230f166afaf9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,4 +15,4 @@ Data Warehouse 是指用于存储的、未经处理的原始数据副本，以�
 
 <!-- I edited this link so it doesn't point to marketing.adobe.com. Please check -Bob -->
 
-请参 [阅数据仓库](/help/export/data-warehouse/data-warehouse.md) ，获取更多帮助。
+请参阅 [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)，以获取更多帮助。
