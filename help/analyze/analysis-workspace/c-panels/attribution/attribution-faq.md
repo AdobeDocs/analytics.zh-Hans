@@ -1,8 +1,8 @@
 ---
 title: 归因常见问题解答
 description: 获取有关归因的常见问题解答。
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **在使用归因模型时，为什么有时会看到超出报告窗口以外的日期？**
 
-这些额外的日期是由于访客报表回顾窗口造成的。有关更多信息，请参阅 Analytics KB 中的[出现报表窗口以外的数据](https://helpx.adobe.com/cn/analytics/kb/data-appearing-outside-reporting-window.html)。Adobe 计划在即将发布的版本中过滤掉这些额外的行。
+这些额外的日期是由于访客报表回顾窗口造成的。有关更多信息，请参阅 Analytics KB 中的[出现报表窗口以外的数据](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html)。Adobe 计划在即将发布的版本中过滤掉这些额外的行。
 
 **我可以在归因模型中使用自定义回顾窗口吗？**
 
@@ -56,13 +56,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 单页面访问量
 * 单次存取
 
-**Analysis Workspace 中的归因与 Data Workbench 中的归因有何不同？**
+**我可以在归因模型中使用自定义回顾窗口吗？**
 
-Data Workbench 会逐步提供：
-
-* 在更多访客级别的数据源中进行归因的功能，例如广告展示次数和销售点。
-* 算法建模。Analysis Workspace 中的归因仅包括基于规则的模型。请参阅《Data Workbench 用户指南》中的[最适合建模](https://marketing.adobe.com/resources/help/zh_CN/insight/client/c_attrib_algorithmic.html)。
-* 其他可视化图表，例如延时表。请参参阅《Data Workbench 用户指南》中的[延迟表](https://marketing.adobe.com/resources/help/zh_CN/insight/client/c_lat_tbls.html)。
+是，使用自定义回顾窗口选项，可以将回顾窗口配置为在报告窗口之前90天内的任何日期范围。 有关更多信息，请参阅[报表时间处理](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html)。
 
 **归因是否可与分类一起使用？**
 
