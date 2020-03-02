@@ -2,7 +2,7 @@
 description: “Reports & Analytics”中的“报表”菜单概述。
 title: “报表”菜单
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -23,21 +23,21 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 “我的收藏夹”、“最常查看”和“报表历史记录”都是特定于报表包的。如果更改报表包，所有三个列表都将发生相应的更改。
 
-报表是采用分层列视图导航的。Click **[!UICONTROL View All Reports]**, or press the Forward Slash key (/), and then press the Down Arrow key (?) to quickly display and navigate the menu using the Arrow keys. 按 Esc 键可在不更改当前报表的情况下关闭菜单，或按 Enter 可加载选定报表。
+报表是采用分层列视图导航的。单击&#x200B;**[!UICONTROL 查看所有报表]**，或按正斜杠键 (/)，然后按向下箭头键 (?)，可使用箭头键快速显示并导航菜单。按 Esc 键可在不更改当前报表的情况下关闭菜单，或按 Enter 可加载选定报表。
 
-![](assets/reports-landing.png){width="672px"}
+![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-有关单个报表的详细信息，请参阅[报表描述](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html)。
+有关单个报表的详细信息，请参阅[报表描述](https://marketing.adobe.com/resources/help/zh_CN/reference/reports_descriptions.html)。
 
 ## 搜索报表 {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
-“报表”菜单提供了增强的搜索体验。Click **[!UICONTROL View All Reports]** , or press the Forward Slash key (/) , and then begin typing to quickly find a report. 报表搜索已扩展到包含 Analytics 左侧导航器菜单中的所有内容（管理员，组件等）。
+“报表”菜单提供了增强的搜索体验。单击&#x200B;**[!UICONTROL 查看所有报表]**，或按正斜杠键 (/)，然后开始键入内容可快速查找报表。报表搜索已扩展到包含 Analytics 左侧导航器菜单中的所有内容（管理员，组件等）。
 
 ![](assets/menu-search.png)
 
 按 Tab 键或向下箭头键 (?) 可在报表列表中导航。按 Esc 键可在不更改当前报表的情况下关闭搜索，或按 Enter 可加载选定报表。
 
-> [!NOTE] 您还可以按prop、eVar和事件编号搜索报表列表。 在搜索栏中，输入 prop、eVar 或事件编号。
+> [!NOTE]您也可以按照 prop、eVar 和事件编号来搜索报表列表。在搜索栏中，输入 prop、eVar 或事件编号。
 
 ## 导航概述 {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -51,7 +51,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1">Experience Cloud 解决方案菜单 <img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
-   <td colname="col2"> 单击此图标将展开Experience cloud菜单，以便您访问其他Marketing Could解决方案。 </td> 
+   <td colname="col2"> 单击此图标可扩展 Experience Cloud 菜单，让您能够访问其他 Marketing Could 解决方案。 </td> 
   </tr> 
   <tr> 
    <td colname="col1">切换“报表”菜单 <img placement="inline"  src="assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
@@ -59,7 +59,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">区段 <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">可显示用于添加或管理区段的区段边栏。您还可以通过区段边栏访问<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html"  >区段生成器</a>和<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html"  >区段管理器</a>界面。 </td> 
+   <td colname="col2">可显示用于添加或管理区段的区段边栏。您还可以通过区段边栏访问<a href="https://marketing.adobe.com/resources/help/zh_CN/analytics/segment/seg_build_ui.html"  >区段生成器</a>和<a href="https://marketing.adobe.com/resources/help/zh_CN/analytics/segment/seg_manage.html"  >区段管理器</a>界面。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">量度 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -95,11 +95,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> 书签...</span> </td> 
-   <td colname="col2">允许您 <a href="/help/analyze/reports-analytics/bookmarks.md"  > 将报表</a> 加入书签。 </td> 
+   <td colname="col2">允许您为报表<a href="/help/analyze/reports-analytics/bookmarks.md"  >添加书签</a>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> 功能板</span>... </td> 
-   <td colname="col2">Lets you add the report to a <a href="/help/analyze/reports-analytics/dashboard.md"  > dashboard</a>. </td> 
+   <td colname="col2">允许您将报表添加到<a href="/help/analyze/reports-analytics/dashboard.md"  >功能板</a>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> 更多...</span> </td> 
@@ -107,7 +107,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1">报表包选择器 <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">允许您选择<a href="https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html"  >基本报表包</a>或<a href="https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html"  >虚拟报表包</a>。 </td> 
+   <td colname="col2">允许您选择<a href="https://marketing.adobe.com/resources/help/zh_CN/reference/report_suites_admin.html"  >基本报表包</a>或<a href="https://marketing.adobe.com/resources/help/zh_CN/reference/virtual-report-suites.html"  >虚拟报表包</a>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1">日历 <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
@@ -118,4 +118,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 自定义所有报表菜单 {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-管理员可以更改“报表”菜单中包含的报表。请参阅“管理参考”中的[菜单自定义](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html)。
+管理员可以更改“报表”菜单中包含的报表。请参阅“管理参考”中的[菜单自定义](https://marketing.adobe.com/resources/help/zh_CN/reference/customize_menus.html)。
