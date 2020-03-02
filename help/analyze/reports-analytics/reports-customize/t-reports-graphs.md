@@ -3,7 +3,7 @@ description: 描述如何自定义图表以供预定受众充分使用的步骤�
 title: 更改报表图表
 topic: Reports and analytics
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,8 +17,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **更改报表图表**
 
-1. 运行报表.
-1. Click **[!UICONTROL Configure Graph]**.
+1. 运行报表。
+1.  单击&#x200B;**[!UICONTROL 配置图表]**。
 1.  选择一个图表类型。
 
    **[!UICONTROL 趋势线]**：趋势线显示报表量度的每日趋势，可用于以每条线显示某时段一个量度的趋势分析。
