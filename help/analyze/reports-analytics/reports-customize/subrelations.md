@@ -3,7 +3,7 @@ description: 完全子关系会在所有转化报表中启用，因此任意一�
 title: 子关系
 topic: Reports and analytics
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
