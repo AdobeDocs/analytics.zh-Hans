@@ -1,9 +1,9 @@
 ---
-description: 运行不同报告类型的步骤。
+description: 运行不同的报表类型的步骤。
 title: 运行不同的报表类型
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa98e4d6612fc8d02f33f525ef3faf3206fe8daa
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: fa98e4d6612fc8d02f33f525ef3faf3206fe8daa
 
 # 运行不同的报表类型
 
-运行不同报告类型的步骤。
+运行不同的报表类型的步骤。
 
 
 ## 运行排名报表 {#task_C570BA4A213F4F2EB7B30E012934BE7D}
@@ -24,7 +24,7 @@ t_reports_ranked.xml
 
  -->
 
-1. 生成报表，如[!UICONTROL 页面报表]（**[!UICONTROL 报表]**>**[!UICONTROL &#x200B;网站内容]** > **[!UICONTROL 页面]**）。
+1. 生成报表，如[!UICONTROL 页面报表]（**[!UICONTROL 报表]** > **[!UICONTROL 网站内容]** > **[!UICONTROL 页面]**）。
 1.  在报表标题中，单击&#x200B;**[!UICONTROL 排名]**。
 1.  要对报表排名，单击表格的列标题。
 
@@ -44,8 +44,8 @@ t_reports_trended.xml
 
 **运行趋势报表**
 
-1. 运行转化或流量报表，如&#x200B;**[!UICONTROL 报表]**>**[!UICONTROL &#x200B;网站内容]** > **[!UICONTROL 页面]**。
-1. 在&#x200B;**[!UICONTROL 报表类型]**下方，单击**[!UICONTROL &#x200B;趋势]**。
+1. 运行转化或流量报表，如&#x200B;**[!UICONTROL 报表]** > **[!UICONTROL 网站内容]** > **[!UICONTROL 页面]**。
+1. 在&#x200B;**[!UICONTROL 报表类型]**&#x200B;下方，单击&#x200B;**[!UICONTROL 趋势]**。
 
 ## 运行转化漏斗报表 {#task_B926A74AA6A641138C2986C1635120CB}
 
@@ -57,9 +57,9 @@ t_reports_conversion_funnel.xml
 
  -->
 
-要运行此报表，请选择一个报表，如页面报表（**[!UICONTROL 报表]**>**[!UICONTROL &#x200B;促销活动]** > **[!UICONTROL 跟踪代码]**>**[!UICONTROL &#x200B;促销活动转化漏斗]**）。
+要运行此报表，请选择一个报表，如页面报表（**[!UICONTROL 报表]** > **[!UICONTROL 促销活动]** > **[!UICONTROL 跟踪代码]** > **[!UICONTROL 促销活动转化漏斗]**）。
 
-有关描述，请参阅[转化报表](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html)。
+有关描述，请参阅[转化报表](https://marketing.adobe.com/resources/help/zh_CN/reference/reports_conversion.html)。
 
 ## 运行流失报表 {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -71,32 +71,32 @@ t_reports_fallout.xml
 
  -->
 
-在 Analysis Workspace 中查看新的[流失分析](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html)面板！
+在 Analysis Workspace 中查看新的[流失分析](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/fallout_flow.html)面板！
 
-1. 在 [!UICONTROL Adobe Analytics] 中，单击&#x200B;**[!UICONTROL 报表]**>**[!UICONTROL &#x200B;路径]** > **[!UICONTROL 页面]**>**[!UICONTROL &#x200B;流失]**。
+1. 在 [!UICONTROL Adobe Analytics] 中，单击&#x200B;**[!UICONTROL 报表]** > **[!UICONTROL 路径]** > **[!UICONTROL 页面]** > **[!UICONTROL 流失]**。
 1.  在[!UICONTROL 流失报表]页面上，单击&#x200B;**[!UICONTROL 启动流失 Report Builder]**。
 
    ![步骤结果](assets/fallout_add_items.png)
 
 1.  在[!UICONTROL 定义检查点]页面上，指定要用于报表的检查点。
-1. 单击&#x200B;**[!UICONTROL 运行报表]**。
+1. 单击&#x200B;**[!UICONTROL 运行报告]**。
 
    ![步骤结果](assets/fallout_report.png)
 
 >[!MORELIKETHIS]
 >
->* [流失报表描述](https://marketing.adobe.com/resources/help/en_US/reference/reports_fallout.html)
+>* [流失报表描述](https://marketing.adobe.com/resources/help/zh_CN/reference/reports_fallout.html)
 
 
 ## 运行页面流量报表 {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
 页面流量报表显示访客访问页面和导航网站的顺序。此报表有助于解答相关问题。
 
-在 Analysis Workspace 中查看新的[流量可视化](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html)！
+在 Analysis Workspace 中查看新的[流量可视化](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/flow.html)！
 
-运行[路径](https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html)报表。
+运行[路径](https://marketing.adobe.com/resources/help/zh_CN/reference/reports_paths.html)报表。
 
-例如，单击&#x200B;**[!UICONTROL 报表]**>**[!UICONTROL &#x200B;路径]** > **[!UICONTROL 页面]**>**[!UICONTROL &#x200B;下一页面流量]**。
+例如，单击&#x200B;**[!UICONTROL 报表]** > **[!UICONTROL 路径]** > **[!UICONTROL 页面]** > **[!UICONTROL 下一页面流量]**。
 
 ![](assets/page_flow.png)
 
@@ -120,7 +120,7 @@ t_reports_funnel.xml
 
  -->
 
-1. 单击&#x200B;**[!UICONTROL 报表]**>**[!UICONTROL &#x200B;产品]** > [产品转化漏斗](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion_funnel.html)。
+1. 单击&#x200B;**[!UICONTROL 报表]** > **[!UICONTROL 产品]** > [产品转化漏斗](https://marketing.adobe.com/resources/help/zh_CN/reference/reports_conversion_funnel.html)。
 
 ## 运行营销渠道报表 {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -132,7 +132,7 @@ t_reports_marketing_channel.xml
 
  -->
 
-有关更多信息，请参阅[营销渠道](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html)帮助系统。
+有关更多信息，请参阅[营销渠道](https://marketing.adobe.com/resources/help/zh_CN/mchannel/index.html)帮助系统。
 
 ## 运行异常检测报表 {#task_4808C96327354D789C075823F5C3A049}
 
@@ -144,13 +144,13 @@ t_anomaly_view.xml
 
  -->
 
-在 Analysis Workspace 中查看新的[异常检测和贡献分析](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)功能！
+在 Analysis Workspace 中查看新的[异常检测和贡献分析](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/anomaly_detection.html)功能！
 
-**[!UICONTROL 报表]**>**[!UICONTROL &#x200B;网站量度]** > **[!UICONTROL 异常检测]**。
+**[!UICONTROL 报表]** > **[!UICONTROL 网站量度]** > **[!UICONTROL 异常检测]**。
 
-> [!NOTE] 您还可以从Analysis Workspace项目中运行异常检测。 [更多...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
+> [!NOTE] 另外，您也可以在 Analysis Workspace 项目中运行异常检测。[更多...](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/anomaly_detection.html)
 
-有关设置异常检测的信息，请参阅《[参考指南](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Setting_up_Anomaly_Detection)》。
+有关设置异常检测的信息，请参阅《[参考指南](https://marketing.adobe.com/resources/help/zh_CN/sc/user/index.html#Setting_up_Anomaly_Detection)》。
 
 异常检测显示了两种类型的图表：概要图表和单个量度图表。仅当至少检测到量度的一个异常时，才显示单个量度图表。
 
@@ -173,11 +173,11 @@ t_anomaly_view.xml
       <li id="li_85C0F426952547B5A75D6BD31DE19CA5">偏差百分比值（位于图表左侧）是按照下面的方法计算的： 
        <ul id="ul_BEC0A88BFFAC4CF78BC9885FEB749694"> 
         <li id="li_1BAB2F50482745B69937DFAF1E09982E">如果上限与期望值相同，则偏差百分比为 100%。 </li> 
-        <li id="li_CA48064F5788448C8646CCE196161237">否则，偏差%为(（实际值——上界值）/（上界值——预期值）)* 100 </li> 
-        <li id="li_4090357A0D214BC7B1C3DE0615875554">如果下限和期望值相同，则偏差%为-100% </li> 
-        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">否则，偏差%为(（下限值——实际值）/（预期值——下限值）)* -100 </li> 
+        <li id="li_CA48064F5788448C8646CCE196161237">否则，偏差百分比为：((实际值 – 上限值) / (上限值 – 期望值)) * 100 </li> 
+        <li id="li_4090357A0D214BC7B1C3DE0615875554">如果下限与期望值相同，则偏差百分比为 -100%。 </li> 
+        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">否则，偏差百分比为：((下限值 – 实际值) / (期望值 – 下限值)) * -100 </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">单击<span class="uicontrol">显示区段</span>可显示区段边栏，以允许您将区段应用到异常检测报表。请参阅有关分段的<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/"  >更多信息</a>。 </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C">单击<span class="uicontrol">显示区段</span>可显示区段边栏，以允许您将区段应用到异常检测报表。请参阅有关分段的<a href="https://marketing.adobe.com/resources/help/zh_CN/analytics/segment/"  >更多信息</a>。 </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">单击<span class="uicontrol">编辑量度</span>可让您选择和取消选择要为其检测异常的量度。 </li> 
      </ul> </p> </td> 
   </tr> 
@@ -213,9 +213,9 @@ t_anomaly_config.xml
 
 1. 导航至 **[!UICONTROL Analytics > 报表 > 网站量度 > 异常检测]**。
 1. 选择要跟踪每日异常检测情况的报表包。要显示报表包列表，请单击“报表包”选择器下拉菜单。
-1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]**at the top right of the screen:![](assets/metrics_icon.png).
+1. 要选择量度和/或定义过滤量度，请单击屏幕右上方的&#x200B;**[!UICONTROL 编辑量度]**：![](assets/metrics_icon.png)。
 
-   您可以从以下位置选取量度：所有量度的列表（包括计算量度）或跟踪量度的列表。您还可以依据特定词语进行过滤，以缩小列表范围。1. Once the report has been generated, define the **[!UICONTROL Training Period]**and the**[!UICONTROL  View Period]** for anomaly detection. （将培训时段看作是算法的“学习时段”。）
+   您可以从以下位置选取量度：所有量度的列表（包括计算量度）或跟踪量度的列表。您还可以依据特定词语进行过滤，以缩小列表范围。1. 在生成报表后，定义用于异常检测的&#x200B;**[!UICONTROL 培训时段]**&#x200B;和&#x200B;**[!UICONTROL 查看时段]**。（将培训时段看作是算法的“学习时段”。）
 
    ![](assets/view_training_periods.png)
 
@@ -226,11 +226,11 @@ t_anomaly_config.xml
 * 如果延长培训时段，则会将您的数据放入一个更大的上下文中，而且可能会缩小异常的大小。
 
    每当您更改参数时，异常检测量度报表就会随之刷新。
-1. （可选）单击&#x200B;**[!UICONTROL 显示区段]**并选择一个或多个现有区段，或创建一个新区段并应用它，以将区段应用于报表。
+1. （可选）单击&#x200B;**[!UICONTROL 显示区段]**&#x200B;并选择一个或多个现有区段，或创建一个新区段并应用它，以将区段应用于报表。
 
    ![](assets/ad_top_menu.png)
 
-   有关创建和管理区段的详细信息，请参阅《[Analytics 分段指南](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)》。1. （可选）将报表加入收藏夹或为其添加书签。
+   有关创建和管理区段的详细信息，请参阅《[Analytics 分段指南](https://marketing.adobe.com/resources/help/zh_CN/analytics/segment/)》。1. （可选）将报表加入收藏夹或为其添加书签。
 1. （可选）更改查看时段的结束日期。默认日期为昨天。
 1. 您现在可以开始解读报表了。[查看异常检测图表](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)。
 
@@ -248,9 +248,9 @@ reports_realtime.xml
 
 实时报表提供了两个主要的报表 - 概述报表和详细信息报表。每个报表都包含许多缩图报表。
 
-有关配置实时报表的信息，请参阅《[Analytics 参考指南](https://marketing.adobe.com/resources/help/en_US/reference/index.html#RealTime_Reports_Configuration)》。
+有关配置实时报表的信息，请参阅《[Analytics 参考指南](https://marketing.adobe.com/resources/help/zh_CN/reference/index.html#RealTime_Reports_Configuration)》。
 
-1. Take a look at the **[!UICONTROL Overview]**report and its components:![](assets/rtr_overview_report.png)
+1. 了解&#x200B;**[!UICONTROL 概述]**&#x200B;报表及其组件：![](assets/rtr_overview_report.png)
 
    <table id="choicetable_8586BECF55E843B2B5CD41205567EA32"> 
    <thead class="chhead sthead"> 
@@ -259,7 +259,7 @@ reports_realtime.xml
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>选择报表包</strong></td> 
-   <td class="chdesc stentry"> 显示此实时报表涵盖的报表包。要更改报表包，请参阅<a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html"  >实时报表配置</a>。 </td> 
+   <td class="chdesc stentry"> 显示此实时报表涵盖的报表包。要更改报表包，请参阅<a href="https://marketing.adobe.com/resources/help/zh_CN/reference/t_realtime_admin.html"  >实时报表配置</a>。 </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>切换报表</strong></td> 
@@ -302,7 +302,7 @@ reports_realtime.xml
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>按最受欢迎/获胜方/失败方进行排序</strong></td> 
-   <td class="chdesc stentry"> 您可以按<span class="uicontrol">最受欢迎</span>（默认）、<span class="uicontrol">获胜方</span>（显示增长最多的维度）和<span class="uicontrol">失败方</span>（处于下跌轨迹的维度）切换排序。 <p>下面是用于确定获胜方或失败方的公式：实时查看最早的样本和最新的样本，并执行简单的“%更改”计算。 因此，如果选择“最近15分钟”，且n表示当前分钟，则将n-1与n-15进行比较。 “实时”当前不执行任何加权操作。当前的时间（分钟）会被忽略，因为它没有完成，而且可能会产生一个错误的 % 变更。 </p> <p>这个公式对于实时报表中用到的所有量度来说，都是一致的。 </p> </td> 
+   <td class="chdesc stentry"> 您可以按<span class="uicontrol">最受欢迎</span>（默认）、<span class="uicontrol">获胜方</span>（显示增长最多的维度）和<span class="uicontrol">失败方</span>（处于下跌轨迹的维度）切换排序。 <p>下面是用来确定获胜方或失败方的公式：“实时”查看最早的示例和接近最新的示例，然后执行简单的“% 变更”计算。如果选定“最近 15 分钟”，且 n 代表当前时间，则会计算 n-1 与 n-15 期间的变更情况。“实时”当前不执行任何加权操作。当前的时间（分钟）会被忽略，因为它没有完成，而且可能会产生一个错误的 % 变更。 </p> <p>这个公式对于实时报表中用到的所有量度来说，都是一致的。 </p> </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>次要 1 缩图报表</strong></td> 
@@ -314,7 +314,7 @@ reports_realtime.xml
    </tr> 
    </table>
 
-1. Click a list item in the Primary Reportlet to launch the **[!UICONTROL Details]**view for that list item:![](assets/rtr_detail_report.png)
+1. 单击主要缩图报表中的列表项，以便为该列表项启动&#x200B;**[!UICONTROL 详细信息]**&#x200B;视图：![](assets/rtr_detail_report.png)
 
    | **项目趋势缩图报表** | 显示概述报表中选定的项目在最近 N 分钟内的趋势线。可以通过时间范围选择器对 N 进行配置。 |
    |---|---|
