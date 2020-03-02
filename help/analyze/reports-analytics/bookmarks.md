@@ -4,7 +4,7 @@ subtopic: Bookmarks
 title: 书签管理器
 topic: Reports and analytics
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,13 +24,13 @@ t_bookmarks_creating.xml
 
  -->
 
-1. Run a report, then click **[!UICONTROL Bookmark.]**.
+1. 运行报表，然后单击&#x200B;**[!UICONTROL 书签]**。
 
-|名称|此书签的用户友好名称。|
-|---|---|     
-|添加到|指定要在其中放置书签的文件夹。|     
-|公开|向有权访问报表包的用户提供此书签。|     
-|登录时显示报告|登录时显示报告。|
+       |名称|此书签的用户易记名称。|
+       |---|---|
+       |添加至|指定您要放置书签的文件夹。|
+       |设为公用|将此书签设为可供拥有报表包访问权限的用户使用。|
+    |登录时显示报表|在登录时显示报表。|
    
 ## 管理书签 {#task_1EE793CB52EA467787817BBD98DEF150}
 
@@ -42,7 +42,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL Analytics]** &gt; Components **** &gt; **[!UICONTROL Bookmarks]**。
+**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 书签]**。
 
 **我的书签**
 
