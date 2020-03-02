@@ -3,7 +3,7 @@ description: 量度是报表的基础，可帮助您查看和了解数据关系�
 title: 量度
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 [计算量度](/help/components/c-calcmetrics/cm-overview.md)通过对量度进行组合来创建。
 
-For definitions, see [Metrics overview](/help/components/c-variables/c-metrics/metricslist.md)
+有关定义，请参阅[量度概述](/help/components/c-variables/c-metrics/metricslist.md)
 
 ## 选择默认报表量度
 
@@ -33,9 +33,9 @@ t_metrics_set_default.xml
 
  -->
 
-1. 运行报表.
+1. 运行报表。
 1.  添加要另存为默认量度的量度。
-1. Click the **[!UICONTROL Add Metrics]** drop-down list, then select **[!UICONTROL Set as Default]**.
+1. 单击&#x200B;**[!UICONTROL 添加量度]**&#x200B;下拉列表，然后选择&#x200B;**[!UICONTROL 设为默认值]**。
 
    所选量度将另存为该报表的默认量度。以下信息适用于默认量度：
 
