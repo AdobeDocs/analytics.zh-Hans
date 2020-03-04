@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: f009b53ce14e22b7f5c014e2d6c3277d7940efe2
+source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
 
 ---
 
@@ -85,8 +85,8 @@ source-git-commit: f009b53ce14e22b7f5c014e2d6c3277d7940efe2
          + [算法归因](analysis-workspace/c-panels/attribution/algorithmic.md)
       + [自由格式面板](analysis-workspace/c-panels/freeform-panel.md)
       + 区段比较 {#segment-comparison}
-         + [细分 IQ 概述](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-         + [细分 IQ 用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
+         + [区段比较概述](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+         + [“区段比较”用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [细分比较中使用的统计测试](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 组织或共享项目 {#curate-share}
       + [组织/共享概述](analysis-workspace/curate-share/curate.md)
