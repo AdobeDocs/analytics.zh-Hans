@@ -1,8 +1,8 @@
 ---
 description: Adobe Analysis Workspace 及其相关组件中的已知限制列表
 title: Analysis Workspace 中的已知限制
-translation-type: ht
-source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
+translation-type: tm+mt
+source-git-commit: 06d2e64fc72c911828f089de5c487117251e060e
 
 ---
 
@@ -17,32 +17,32 @@ source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 * 当区段用作表的行时，将禁用通过所选内容创建量度。此外，通过所选内容创建量度不应应用于日期对齐列。
 * 划分行的条件格式不能使用自定义范围。
 * 当应用通过汇总行值设置来计算总数时（通常与静态行项目一起使用），表总行数不能趋势化。
-* [!UICONTROL 贡献分析]只能在&#x200B;__[!UICONTROL 每日]粒度下运行。它不能针对[!UICONTROL 每小时]、[!UICONTROL 每周]等数据运行。
+* [!UICONTROL Contribution Analysis] 只能以粒度 [!UICONTROL daily] 运 _行_。 It cannot be run against [!UICONTROL hourly], [!UICONTROL weekly], etc., data.
 
-## 可视化
+## 可视化图表
 
-* 利用分段的可视化（如[!UICONTROL 流失]、[!UICONTROL 流量]、[!UICONTROL 同类群组]和[!UICONTROL 直方图]）不能接受计算量度作为输入。
-* [!UICONTROL 流量]：登入/退出维度（例如，[!UICONTROL 进入页面]）不能在流量中使用。
-* [!UICONTROL 同类群组]：非整数不能用作同类群组标准。
+* Visualizations that leverage segmentation, such as [!UICONTROL Fallout], [!UICONTROL Flow], [!UICONTROL Cohort], and [!UICONTROL Histogram], cannot accept calculated metrics as inputs.
+* [!UICONTROL Flow]:进入／退出维度，例如, [!UICONTROL Entry page]cannot used in Flow.
+* [!UICONTROL Cohort]:非整数不能用作同期群标准。
 
 ## 面板
 
-* 区段比较：如果在初始放置区中使用区段模板，则不会创建[!UICONTROL 其他各项]区段。
+* Segment Comparison: The [!UICONTROL Everyone Else] segment does not get created if a segment template is used in the initial drop zone.
 
 ## “组件”>“区段”
 
-* 某些量度和维度不可分段，如[!UICONTROL 发生次数]、[!UICONTROL 唯一访客]，等等。
-* 如果从工作区中创建区段（而不是从[!UICONTROL 组件 > 区段]创建区段），则某些组件和运算符将不可用。例如，IP 地址。
+* Certain metrics and dimensions are not segmentable, such as [!UICONTROL Occurrences], [!UICONTROL Unique Visitors], etc.
+* Certain components and operators are unavailable if a segment is created from Workspace (as opposed to being created from [!UICONTROL Components > Segments]). 例如，IP 地址。
 
 ## “组件”>“计算量度”
 
 * 计算量度不能用于某些可视化图表。请参阅上面的“可视化”。
-* 计算量度无法在[!UICONTROL 归因]面板中使用，因为计算量度本身可以包括单独的归因模型。
-* 如果从工作区中创建计算量度（而不是从[!UICONTROL 组件 > 区段]创建），则某些组件和操作符将不可用。例如，[!UICONTROL IP 地址]。
+* Calculated metrics cannot be used in the [!UICONTROL Attribution] panel, since calculated metrics themselves can include separate attribution models.
+* Certain components and operators are unavailable if a calculated metric is created from Workspace (as opposed to being created from [!UICONTROL Components > Segments]). 例如：[!UICONTROL IP Address]。
 
 ## “组件”>“日期范围”
 
-* 自定义日期范围不支持[!UICONTROL 去年今日]、[!UICONTROL 上个月今日]，等等。
+* 自定义日期范围不 [!UICONTROL This day last year]支持 [!UICONTROL This day last month]等。
 
 ## “组件”>“虚拟报表包”
 
@@ -50,8 +50,8 @@ source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ## “组件”>“报表设置”
 
-* [!UICONTROL 报表设置]页面上的某些设置不适用。Analysis Workspace 只使用底部的[!UICONTROL 语言/货币/编码]设置：[!UICONTROL 千位分隔符]、[!UICONTROL 计划报表编码]和 [!UICONTROL CSV 分隔符]。
+* Some of the settings on the [!UICONTROL Report Settings] page do not apply. Analysis Workspace只使用底 [!UICONTROL Language/Currency/Encoding] 部的设置： [!UICONTROL Thousands separator]、 [!UICONTROL Scheduled Report Encoding]和 [!UICONTROL CSV Separator Character]。
 
 ## 归因 IQ
 
-* [!UICONTROL 归因 IQ] 中不支持量度的子集。有关完整列表，请参阅[归因 IQ 常见问题解答](/help/analyze/analysis-workspace/attribution-iq/attribution-faq.md)。
+* A subset of metrics is not supported in [!UICONTROL Attribution IQ]. 有关完整列表，请参阅[归因 IQ 常见问题解答](c-panels/attribution/attribution-faq.md)。
