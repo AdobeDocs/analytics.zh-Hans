@@ -2,8 +2,8 @@
 description: 将 Ad Hoc Analysis 术语和任务与 Analysis Workspace 进行比较。
 title: Analysis Workspace 与 Ad Hoc Analysis 的比较
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 06d2e64fc72c911828f089de5c487117251e060e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Analysis Workspace 将 Ad Hoc Analysis 的大多数功能都引入到了浏览器工作流程中。虽然有些术语和功能在这两种产品之间保持相同，但 Analysis Workspace 中也引入了一些新的分析术语和方法。
 
-有关这两种产品之间关键功能和系统要求的技术比较，请转到[此处](https://marketing.adobe.com/resources/help/zh_CN/reference/analytics-product-comparison.html)。
+有关这两种产品之间关键功能和系统要求的技术比较，请转到[此处](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html)。
 
 ## 关键术语的比较 {#section_6109406B83B043A18E46D38F130B1D2E}
 
@@ -100,7 +100,7 @@ Analysis Workspace 将 Ad Hoc Analysis 的大多数功能都引入到了浏览�
   </tr> 
   <tr> 
    <td colname="col1"> <p>归因 IQ </p> </td> 
-   <td colname="col2"> <p>通过 Analysis Workspace 中的<a href="/help/analyze/analysis-workspace/attribution-iq/attribution.md"  >归因 IQ</a>，您可以将多个新类型的归因模型添加到自由格式表、可视化图表和计算量度。 </p> </td> 
+   <td colname="col2"> <p>通过 Analysis Workspace 中的<a href="/help/analyze/analysis-workspace/attribution-iq.md"  >归因 IQ</a>，您可以将多个新类型的归因模型添加到自由格式表、可视化图表和计算量度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>未包含 </p> </td> 
