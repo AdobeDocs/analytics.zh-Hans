@@ -5,7 +5,7 @@ title: Analysis Workspace 中的新增功能
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
+source-git-commit: 06d2e64fc72c911828f089de5c487117251e060e
 
 ---
 
@@ -19,14 +19,14 @@ source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
 | 功能 | 描述 |
 |--- |--- |
 | 支持Workspace中的多个报表包 | 您现在可以将多个报表包中的数据并入单个项目中，以便并排查看。 从2020年2月20日开始，该功能将在几周内向所有客户推出。 [了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
-| 适用于使用跨设备分析的组织的新工作区模板 | 此模板显示CDA在拼接访问方面的有效性，并指导您了解CDA独有的维度和指标。 必须使用CDA的报表包。 有关 [详细信息，请参阅设置跨设备分析](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html) 。 |
-| Workspace中的新热键 | <ul><li>折叠／展开所有面板： `alt + m`</li><li>折叠／展开活动面板： `alt + ctrl + m`</li><li>搜索左边栏： `ctrl + /`</li><li>移到下一个面板： `alt + Right Key`</li><li>移到上一个面板： `alt + Left Key`</li></ul>[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| 适用于使用跨设备分析的组织的新工作区模板 | 此模板显示CDA在拼接访问方面的有效性，并指导您了解CDA独有的维度和指标。 需要使用 CDA 的报表包。有关更多信息，请参阅[设置跨设备分析](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html)。 |
+| Workspace中的新热键 | <ul><li>折叠/展开所有面板：`alt + m`</li><li>折叠/展开活动面板：`alt + ctrl + m`</li><li>搜索左边栏：`ctrl + /`</li><li>移到下一个面板：`alt + Right Key`</li><li>移到上一个面板：`alt + Left Key`</li></ul>[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | 其他工作区增强功能 | <ul><li>将面板或可视化放入Workspace后，左边栏现在将自动切换到组件，以实现更无缝的工作流程。</li><li>模板组件现在可以根据这些组件进行操作（例如，标记、收藏、已批准）。</li><li>如果找不到所需内容，则筛选的度量和区段列表会提供+按钮以添加新组件。</li></ul> |
-| 工作区调试器 | 工作区调试器已添加到“帮助”菜单中，为调试工作区请求提供了一种更无缝的方式。 [了解更多...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
+| 工作区调试器 | Workspace 调试器已添加到“帮助”菜单，可让您根据调试 Workspace 请求更加无缝地启用调试器。[了解更多...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
 ## 2020 年 1 月
 
-2020年1月16日发布的新增功能。
+2020 年 1 月 16 日发布的新功能。
 
 | 功能 | 描述 |
 |--- |--- |
@@ -34,39 +34,39 @@ source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
 
 ## 2019 年 10 月
 
-增强功能于2019年10月10日发布。
+2019 年 10 月 10 日发布的增强功能。
 
 | 增强功能 | 描述 |
 |--- |--- |
-| 更新到自由格式表总计 | 自由格式表现在包含两个总计， **[!UICONTROL Table total]** a和a **[!UICONTROL Grand total]**。 表格总计行会将已应用的[报表过滤器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)计入在内。以前，只有区段会影响总数的计算。[了](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>解更多信息此 **[!UICONTROL Show Totals]** 外， **[!UICONTROL Show Grand Total]** 还添加了选项 **[!UICONTROL Column Settings]**。<br/>对自由形式总计进行此更改后，将更新相关可视化(例如链接的可 **[!UICONTROL Summary Number]** 视化)以及导出的CSV和PDF数据。 |
-| 用于删除“未指定”/“无”的选项 | 一个可以轻松删除“未指定（无）”的选项已经添加到报表过滤器。 |
+| 更新了自由格式表总计 | 自由格式表现在包含两个总计， **[!UICONTROL Table total]** a和a **[!UICONTROL Grand total]**。 表格总计行会将已应用的[报表过滤器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)计入在内。以前，只有区段会影响总数的计算。[了](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>解更多 **[!UICONTROL Show Totals]** , **[!UICONTROL Show Grand Total]** 还添加了选项 **[!UICONTROL Column Settings]**。<br/>对自由形式总计进行此更改后，将更新相关可视化(例如链接的可 **[!UICONTROL Summary Number]** 视化)以及导出的CSV和PDF数据。 |
+| 用于删除“未指定/无”的选项 | 一个可以轻松删除“未指定（无）”的选项已经添加到报表过滤器。 |
 | 弃用紫色粒度组件 | 已弃用紫色的时间粒度组件（分钟、小时、日、周、月、季度、年）。紫色时间组件与对应的橙色维度组件的功能是一样的，因此这项更改将简化这方面的使用体验。即使之前使用了某个紫色时间组件，您也&#x200B;**无需执行任何操作**。<br/>通过此更改，紫色 **[!UICONTROL Time]** 部分也已更名为 **[!UICONTROL Date Ranges]**。 |
 
 ## 2019 年 8 月
 
-增强功能于2019年8月8日发布。
+2019 年 8 月 8 日发布的增强功能。
 
 | 增强功能 | 描述 |
 |--- |--- |
-| 将下拉筛选器的项目限制从50提高到200 | 我们将可放置在下拉筛选器中的项目限制从 50 提高到了 200。此增强功能适用于各种用例，例如将所有国家/地区 (195) 添加到筛选器，或将所有美国州和省 (52) 添加到筛选器。 |
+| 将下拉筛选器的项目限制从 50 提高至 200 | 我们将可放置在下拉筛选器中的项目限制从 50 提高到了 200。此增强功能适用于各种用例，例如将所有国家/地区 (195) 添加到筛选器，或将所有美国州和省 (52) 添加到筛选器。 |
 
 ## 2019 年 7 月
 
-增强功能于2019年7月18日发布。
+2019 年 7 月 18 日发布的增强功能。
 
 | 增强功能 | 描述 |
 |--- |--- |
-| 群组分析增强功能 | 新增了以下[阶层分析设置](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html)： <ul><li>仅显示百分比</li><li>将百分比四舍五入到最接近的整数</li><li>显示平均百分比行</li></ul> |
-| 显示最近18个月的项目 | 在左边栏中，用户现在可以选择&#x200B;_显示过去 18 个月内的项目_。以前，回看周期最长为 6 个月。这样，用户就可以更轻松地比较去年（最长 18 个月前）的页面或营销活动。 |
+| 同类群组分析增强功能 | 新增了以下[阶层分析设置](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html)： <ul><li>仅显示百分比</li><li>将百分比四舍五入到最接近的整数</li><li>显示平均百分比行</li></ul> |
+| 显示过去 18 个月内的项目 | 在左边栏中，用户现在可以选择&#x200B;_显示过去 18 个月内的项目_。以前，回看周期最长为 6 个月。这样，用户就可以更轻松地比较去年（最长 18 个月前）的页面或营销活动。 |
 | 新的 Analysis Workspace 模板 | 我们在 Analysis Workspace 中新增了一个名为[“Magento：营销与商务”](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)的模板。它专为 Magento 电子商务客户设计，不过任何零售商都可使用它来获得有关其商务活动的独特洞察。 |
 
 ## 2019 年 6 月
 
-增强功能于2019年6月13日发布。
+2019 年 6 月 13 日发布的增强功能。
 
 | 增强功能 | 描述 |
 |--- |--- |
-| 新的现成滤镜 | 左边栏搜索新增了开箱即用的过滤器。除了您现在看到的这些过滤器（维度、量度、已批准等）之外，还新增了一些过滤器（例如计算指标、客户属性、eVar、Prop、视频等）以更便于查找所需的组件。 |
+| 新增的开箱即用的过滤器 | 左边栏搜索新增了开箱即用的过滤器。除了您现在看到的这些过滤器（维度、量度、已批准等）之外，还新增了一些过滤器（例如计算指标、客户属性、eVar、Prop、视频等）以更便于查找所需的组件。 |
 
 ## 2019 年 5 月
 
@@ -92,7 +92,7 @@ source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
 |--- |--- |
 | [同类群组分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 对同类群组分析进行重大改进后，您能够：<ul><li>应用区段包含并单独返回量度。 </li><li>显示流失率而不是保留率。</li><li>显示延时表（包含事件之前和之后经过的时间）。</li><li>自定义同类群组维度（根据 eVar 而不只是时间对访客进行分组）。</li><li>进行滚动式同类群组计算：根据先前的时间段而不是原始同类群组来计算维系率/流失率。 </li><li>将多个量度添加到包含和回访字段中，并应用区段。（不支持计算量度）</li></ul> |
 | [视图密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 此新设置可减少左边栏、自由格式表和同类群组表中的垂直边距，从而使您能够在单个屏幕上查看更多数据。可通过项目 > 项目信息和设置进行访问。 |
-| [在归因 IQ 中支持多值变量](/help/analyze/analysis-workspace/attribution-iq/attribution.md) | Analytics 中的某些维度可以在单次点击中包含多个值，例如 listVar、产品变量、列表属性或推销 eVar。Analysis Workspace 允许您在点击级别将归因 IQ 应用于任何此类变量。 |
+| [在归因 IQ 中支持多值变量](attribution-iq.md) | Analytics 中的某些维度可以在单次点击中包含多个值，例如 listVar、产品变量、列表属性或推销 eVar。Analysis Workspace 允许您在点击级别将归因 IQ 应用于任何此类变量。 |
 | 性能改进 | 提高了划分可视化图表的速度 - 具有大量划分的项目将能更快加载。 |
 
 ## 2018 年 11 月
@@ -193,7 +193,7 @@ source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/attribution-iq/attribution.md"  > 归因 IQ </a> </b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="attribution-iq.md"  > 归因 IQ </a> </b> </p> </td> 
    <td colname="col2"> <p>借助“归因 IQ”，您可以对营销效果进行更复杂、更智能的分析。新的归因模型可用于 Analysis Workspace（在任何表格或任何划分中）和计算量度中的量度。新的归因面板可提供更好的可视化图表和比较。 </p> </td> 
   </tr> 
   <tr> 
@@ -762,7 +762,7 @@ source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>New <b> <a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > Hotkeys </a></b> </p> </td> 
+   <td colname="col1"> <p>新增的<b>热键<a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  ></a></b> </p> </td> 
    <td colname="col2"> <p>添加了以下热键： </p> 
     <ul id="ul_5AE965D910DA4883BC2067CDFDBBA75A"> 
      <li id="li_6DBD6DFB9CA54F89B9A0627F3B1D5928">alt + shift + 1 = 转到“面板”窗格 </li> 
