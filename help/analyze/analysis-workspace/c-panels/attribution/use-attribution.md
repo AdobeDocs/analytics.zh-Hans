@@ -1,14 +1,13 @@
 ---
-description: 'null'
-title: 在 Analysis Workspace 中使用归因 IQ
-uuid: 99fc91b6-eebe-4a60-bb82-64a7611a04c6
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+title: '在 Analysis Workspace 中使用归因 '
+description: 了解Adobe Analytics中可使用归因的位置。
+translation-type: tm+mt
+source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
 
 ---
 
 
-# 在 Analysis Workspace 中使用归因 IQ
+# 在 Analysis Workspace 中使用归因 
 
 通过 Analysis Workspace 中的归因 IQ，您可以：将任何受支持的归因模型相互比较；通过使用高级流失和流量可视化图表，显示导致转化的关键营销序列；轻松发现任何营销渠道或促销活动的趋势以查看一段时间内的效果；以及查找渠道/促销活动效果中的统计异常，并在效果出现上下波动时收到警报。
 
@@ -20,7 +19,7 @@ Analysis Workspace 自由格式表支持几乎可用于所有量度的归因模�
 
    ![](assets/Column_Settings.png)
 
-1. 在&#x200B;**[!UICONTROL 数据设置]**&#x200B;下，选中&#x200B;**[!UICONTROL 使用非默认归因模型]**。有关不同归因模型的更多信息，请参阅[归因 IQ 概述](attribution.md)。
+1. 下 **[!UICONTROL Data Settings]**&#x200B;面，查 **[!UICONTROL Use non-default attribution model]**。 有关不同归因模型的更多信息，请参阅[归因 IQ 概述](attribution.md)。
 
    ![](assets/Attribution_Model_Selection.png)
 
@@ -32,7 +31,7 @@ Analysis Workspace 自由格式表支持几乎可用于所有量度的归因模�
 
 ## 将一个归因模型与另一个归因模型进行比较 {#section_1D74C09549CC4EC8A952A7392C76D375}
 
-如果您想要快速轻松地将一个归因模型与另一个归因模型进行比较，请右键单击某个量度并选择&#x200B;**[!UICONTROL 添加比较归因模型]**：
+If you&#39;d like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Add comparative attribution model]**:
 
 ![](assets/Comparative_Attribution_Model.png)
 
