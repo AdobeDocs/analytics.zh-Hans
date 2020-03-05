@@ -1,9 +1,9 @@
 ---
-title: Adobe Analytics 文档更新
-description: Adobe Analytics 技术文档更新
+title: Adobe Analytics 技术文档更新
+description: 对Adobe Analytics文档存储库的显着更新。
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 2eda65f50e008574306ec345574a0c1b98e3726b
+source-git-commit: 1b8de7489be8461707307dfe99d86f46557c7b8b
 
 ---
 
@@ -20,10 +20,12 @@ source-git-commit: 2eda65f50e008574306ec345574a0c1b98e3726b
 
 | 页面 | 描述 |
 |---|---|
+| 2020 年 2 月 25 日 | 添加了 [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) 变量。 |
+| 2020 年 2 月 18 日 | 添加了 [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) 变量。 |
 | 2020 年 2 月 12 日 | 营销渠道文档的更新 [和重组](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) 。 |
 | 2020 年 2 月 7 日 | 设置跨设 [备分析和常见问题解答的更新](../components/cda/cda-setup.md) (英 [文)](../components/cda/cda-faq.md) |
-| 2020年2月4日 | 完全重写实 [施用户指南](../implement/home.md)。 |
-| 2020 年 1 月 22 日 | 更新了“自由格式表”页，其中包含有关新的自由格式表 [生成器的信息](/help/analyze/analysis-workspace/visualizations/freeform-table.md)。 |
+| 2020 年 2 月 4 日 | 完全重写实 [施用户指南](../implement/home.md)。 |
+| 2020 年 1 月 22 日 | 更新了“自由格式表”页面，其中包含与新增的[自由格式表生成器](/help/analyze/analysis-workspace/visualizations/freeform-table.md)相关的信息。 |
 | 2020 年 1 月 13 日 | 添加 [了Adobe Analytics和浏览器cookie](../technotes/cookies.md)。 |
 | 2019 年 11 月 29 日 | 全面修订了[数据馈送文档](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 2019 年 11 月 25 日 | 新增了[“强制 IP 登录限制”终止使用](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html)主题 |
