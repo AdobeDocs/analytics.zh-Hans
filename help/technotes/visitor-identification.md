@@ -5,7 +5,7 @@ subtopic: Visitors
 title: 识别独特访客
 topic: Developer and implementation
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 
 ---
@@ -24,7 +24,7 @@ Adobe Analytics 提供了多种识别访客的机制。下表列出了在 Analyt
 | 1 | vid (s.visitorID) | 已设置 s.visitorID |
 | 2 | aid (s_vi cookie) | 在您部署访客 ID 服务或配置访客 ID 宽限期之前，访客已拥有一个现有的 s_vi Cookie。 |
 | 3 | mid（由 Experience Cloud 访客 ID 服务设置的 AMCV_ Cookie） | 访客的浏览器接受 Cookie（第一方） |
-| 4 | fid（回退cookie） | 访客的浏览器接受 Cookie（第一方） |
+| 4 | fid（回退 Cookie） | 访客的浏览器接受 Cookie（第一方） |
 | 5 | IP 地址、用户代理、网关 IP 地址 | 访客的浏览器不接受 Cookie。 |
 
 在许多情况下，您可能会在一次调用中看到 2 或 3 个不同的 ID，但是 Analytics 会将上表中出现的第一个 ID 用作正式的访客 ID。例如，如果您正在设置一个自定义访客 ID （包含在“vid”查询参数中），那么该 ID 将在同一次点击中出现的其他 ID 之前被使用。
@@ -68,7 +68,7 @@ Adobe Analytics 提供了多种识别访客的机制。下表列出了在 Analyt
 
 Identity Service 取代了原有的 Analytics 访客 ID 机制，成为了[!UICONTROL 心率]视频测量、Analytics for Target 以及将来实现 Experience Cloud 核心服务与集成所必需的服务。
 
-有关此服务的产品文档，请参阅 [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
+有关此服务的产品文档，请参阅 [Identity Service](https://marketing.adobe.com/resources/help/zh_CN/mcvid/)。
 
 ## 识别移动设备
 
