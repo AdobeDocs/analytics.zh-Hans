@@ -3,7 +3,7 @@ description: 有关 Adobe Analytics 所收集数据和其他隐私注意事项�
 keywords: privacy
 title: 隐私概述
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 Adobe 建议您向网站访客提供易于查找且通俗易懂的信息，让访客可以选择禁止 Adobe 产品或服务收集其浏览信息。
 
-访问者可以进一步了解Adobe通常如何使用在 [Adobe隐私中心收集的信息](https://www.adobe.com/privacy.html)。 您的组织应披露您如何使用Adobe的产品和服务，因为您的组织只控制如何实施Adobe的服务。 您负责创建自己的隐私政策，遵循您的隐私政策，您与 Adobe 之间的服务协议，以及所有适用法律。
+访客可以进一步了解 Adobe 通常如何使用在 [Adobe 隐私中心](https://www.adobe.com/cn/privacy.html)收集的信息。这取决于贵组织是否披露 Adobe 产品和服务的用途，因为贵组织对于如何实施 Adobe 服务具有完全控制权。您负责创建自己的隐私政策，遵循您的隐私政策，您与 Adobe 之间的服务协议，以及所有适用法律。
 
 ## 数据收集划分 {#section_F59D958D7AE44747846993E643CD4BF2}
 
@@ -73,7 +73,7 @@ Adobe Analytics 收集以下数据：
   </tr> 
   <tr> 
    <td colname="col1"> 全球 </td> 
-   <td colname="col2"> 第一方分析不在“在线行为广告自律计划”(“AdChoices”)的范围内。 </td> 
+   <td colname="col2"> 第一方分析不在针对在线行为广告 (AdChoices) 的自律计划的范围之内。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 全球 </td> 
@@ -89,19 +89,19 @@ Adobe Analytics 收集以下数据：
   </tr> 
   <tr> 
    <td colname="col1"> 欧洲 </td> 
-   <td colname="col2"> Adobe 启用了设置 IP 模糊处理：对于欧洲、中东和非洲地区使用报表包集的所有客户，默认设置为“已启用 - IP 已删除 (x.x.x.x)”。通过此设置，在地理查询后 IP 地址将由值 (x.x.x.x) 完全取代，且不再可作为数据点使用。 <p>这个基本替换方法无法通过实施反向工程返回一个唯一的特定 IP 地址。客户或 Adobe 均无法访问该 IP 地址，该 IP 地址已经过不可逆转的匿名化处理。有关其他 IP 模糊设置的详细信息，请参阅 </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html#General_Account_Settings"  > https://marketing.adobe.com/resources/help/zh_CN/reference/index.html#General_Account_Settings </a> </p> </td> 
+   <td colname="col2"> Adobe 启用了设置 IP 模糊处理：对于欧洲、中东和非洲地区使用报表包集的所有客户，默认设置为“已启用 - IP 已删除 (x.x.x.x)”。通过此设置，在地理查询后 IP 地址将由值 (x.x.x.x) 完全取代，且不再可作为数据点使用。 <p>这个基本替换方法无法通过实施反向工程返回一个唯一的特定 IP 地址。客户或 Adobe 均无法访问该 IP 地址，该 IP 地址已经过不可逆转的匿名化处理。有关其他 IP 模糊设置的详细信息，请参阅 </p> <p> <a href="https://marketing.adobe.com/resources/help/zh_CN/reference/index.html#General_Account_Settings"  > https://marketing.adobe.com/resources/help/zh_CN/reference/index.html#General_Account_Settings </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 全球 </td> 
-   <td colname="col2"> 客户可以在JavaScript测量代码中将cookie生命周期变量设置为“none”、“session”或以秒为单位的其他指定值。 </td> 
+   <td colname="col2"> 客户可以在 JavaScript 量度代码中将 Cookie 持续时间变量设置为“none”、“session”值，或其他以秒为单位的特定值。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 欧洲 </td> 
-   <td colname="col2"> Adobe开发了一个新的“按设计保护隐私”设置，现在可由Adobe clientCare for Adobe Analytics（以前称为SiteCatalyst）版本14.9和15.4启用该设置。启用此新设置后，Adobe收集IP地址后，IP地址的最后八位字节（最后一部分）将立即替换为值0。 在对 IP 地址进行任何处理之前，包括在对 IP 地址进行可选地理查询和 ISP 查询之前，会执行此匿名化操作。 </td> 
+   <td colname="col2"> Adobe 制定了新的“从设计着手保护隐私”设置，Adobe ClientCare 为 Adobe Analytics（以前称为 SiteCatalyst）发布版本 14.9 和 15.4 启用了此设置。启用这一新设置后，当 Adobe 收集 IP 地址时，该 IP 地址的最后八位字节（最后一部分）会立即被 0 值取代。在对 IP 地址进行任何处理之前，包括在对 IP 地址进行可选地理查询和 ISP 查询之前，会执行此匿名化操作。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 德国 </td> 
-   <td colname="col2"> <p>如果客户尚未与 Adobe 就 Adobe Analytics 签订数据处理协议 (Data Processing Agreement)，则应与 Adobe 客户经理或客户成功经理取得联系，他们会与 Adobe 法律部合作，协助签订 DPA。 </p> <p>Adobe为Analytics准备了一份数据处理协议(Vertrag fuer Auftragsdatenverarbeitung - ADV)，该协议已得到巴伐利亚数据保护局(Bayerisches Landesamt fuer Datenschutzaufsicht - BayLDA)的审查和批准。 ADV 以德语和英语提供。 </p> </td> 
+   <td colname="col2"> <p>如果客户尚未与 Adobe 就 Adobe Analytics 签订数据处理协议 (Data Processing Agreement)，则应与 Adobe 客户经理或客户成功经理取得联系，他们会与 Adobe 法律部合作，协助签订 DPA。 </p> <p>Adobe 就 Analytics 准备了一份数据处理协议 (Vertrag fuer Auftragsdatenverarbeitung – ADV)，该协议已通过巴伐利亚数据保护局 (Bayerisches Landesamt fuer Datenschutzaufsicht – BayLDA) 的审查和批准。ADV 以德语和英语提供。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
