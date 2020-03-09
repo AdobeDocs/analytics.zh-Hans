@@ -1,182 +1,182 @@
 ---
-title: Adobe Analytics和浏览器cookie
-description: 了解Adobe Analytics如何处理浏览器的cookies。
-translation-type: tm+mt
+title: Adobe Analytics 和浏览器 Cookie
+description: 了解 Adobe Analytics 处理如何浏览器 Cookie。
+translation-type: ht
 source-git-commit: 3566960f546d847ed4f6ca8ecbb9c759460f4fb0
 
 ---
 
 
-# Adobe Analytics和浏览器cookie
+# Adobe Analytics 和浏览器 Cookie
 
-为了支持跨属性和解决方案的永久用户识别，Adobe Analytics能够响应浏览器处理Cookie的方式的更改。 以下常见问题解答介绍了如何通过浏览器cookie更改来保留永久访客标识。
+为了支持跨属性和解决方案的永久用户标识，Adobe Analytics 会对浏览器处理 Cookie 方式的更改做出响应。以下常见问题解答介绍了如何通过浏览器 Cookie 更改来保留永久访客标识。
 
-## 浏览器如何改变其处理Cookie的方式？
+## 浏览器如何更改其处理 Cookie 的方式？
 
-通常，大多数浏览器在保存第三方Cookie的方式上都变得更加限制。 如果浏览器删除或拒绝Cookie，这会影响跟踪。 Safari浏览器还为某些第一方Cookie设置了一些限制。
+通常，大多数浏览器在保存第三方 Cookie 方面的限制越来越严格。如果浏览器删除或拒绝 Cookie，这可能会影响跟踪。Safari 浏览器还为某些第一方 Cookie 设置了一些额外限制。
 
-以下列表根据浏览器显示了一些最近的更改：
+以下列表按浏览器显示了一些近期更改：
 
-* Chrome:从Chrome 80开始，该属 `SameSite` 性会以不同方式处理，以管理第三方cookie或跨站点请求。 最终，Chrome开发人员正在寻找方 [法彻底弃用第三方Cookie](https://blog.chromium.org/2020/01/building-more-private-web-path-towards.html?m=1) 。
+* Chrome：从 Chrome 80 开始，通过不同方式处理 `SameSite` 属性，以管理第三方 Cookie 或跨站点请求。最终，Chrome 开发人员正在寻找方法彻底[弃用第三方 Cookie](https://blog.chromium.org/2020/01/building-more-private-web-path-towards.html?m=1)。
 
-* Firefox和Edge:产品公告指出，其浏览器的后续版本将遵循与Chrome 80中相同的更改。
+* Firefox 和 Edge：产品公告指出，其浏览器的后续版本将遵循与 Chrome 80 中相同的更改。
 
-* Safari: With [Safari 12.1](https://webkit.org/blog/category/privacy/), first party persistent cookies set through the document.cookie API, often known as “client-side” cookies, have their expiration capped at seven days.
+* Safari：在 [Safari 12.1](https://webkit.org/blog/category/privacy/) 中，通过 document.Cookie API 设置的第一方持久性 Cookie（通常称为“客户端”Cookie）的有效期限最长为 7 天。
 
-## 第三方Cookie和第一方Cookie之间有何区别？
+## 第三方 Cookie 和第一方 Cookie 有何区别？
 
 ### 第一方 Cookie
 
-第一方Cookie由客户网站（特定于域）创建，并在用户访问客户网站时存储在客户浏览器中。 所有浏览器通常接受第一方Cookie。 在第一方Cookie分析实施中，当主机名与域通过使用 [CNAME协调时，访客ID cookie会在Adobe节点上创建](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html)。 然后，浏览器在第一方上下文中接受该cookie。 有关详细信息，请 [参阅关于第一方Cookie](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html)。
+第一方 Cookie 由客户网站（特定于域）创建，并在用户访问客户网站时存储在客户端浏览器中。所有浏览器通常接受第一方 Cookie。在第一方 Cookie 分析实施中，当主机名与使用 [CNAME](https://docs.adobe.com/content/help/zh-Hans/id-service/using/reference/analytics-reference/cname.html) 的域协调一致时，会在 Adobe 节点上创建访客 ID Cookie。然后，浏览器在第一方上下文中接受该 Cookie。有关更多信息，请参阅[关于第一方 Cookie](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/ec-cookies/cookies-first-party.html)。
 
-### 第三方Cookie
+### 第三方 Cookie
 
-第三方Cookie不是由用户访问的网站创建的。 虽然浏览器当前对所有第三方Cookie的处理方式相同并相应地存储它们，但第三方Cookie本身的行为方式可能不同而重要。 通过客户的Analytics第三方Cookie实施，客户仅向Adobe发出呼叫，而不向未知或可疑的第三方域发出呼叫。 这是用于实施Analytics以实现安全(HTTPS)和使用永久标识符进行可靠跟踪的当前方法。 通过配置AppMeasurement.js文件来实现此方法。 有关详细信息，请参 [阅Cookie和Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)。
+第三方 Cookie 不是由用户访问的网站创建的。虽然浏览器当前对所有第三方 Cookie 的处理方式相同，并相应地进行存储，但第三方 Cookie 本身可以以不同的重要方式运行。通过客户的 Analytics 第三方 Cookie 实施，客户仅向 Adobe 发出调用，而不会向未知或可疑的第三方域发出调用。这是当前用于实施 Analytics 以通过持久标识符进行安全 (HTTPS) 可靠跟踪的方法。此方法通过配置 AppMeasurement.js 文件来实现。有关更多信息，请参阅 [Cookie 和 Experience Platform Identity Service](https://docs.adobe.com/content/help/zh-Hans/id-service/using/intro/cookies.html)。
 
-![Cookie比较](assets/cookies2.png)
+![Cookie 比较](assets/cookies2.png)
 
-## 浏览器当前如何存储和管理Analytics cookies?
+## 浏览器当前如何存储和管理 Analytics Cookie？
 
-根据实施，Analytics Cookies会按如下方式存储：
+根据实施，Analytics Cookies 会按如下方式进行存储：
 
-### 第三方Cookie实施
+### 第三方 Cookie 实施
 
-浏览器当前将Adobe [demdex.net](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/demdex-calls.html) ID存储为第三方Cookie。 此Cookie提供跨域的永久标识符并允许安全(https)内容。
+当前，浏览器将 Adobe [demdex.net](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/reference/demdex-calls.html) ID 存储为第三方 Cookie。此 Cookie 提供跨域的永久标识符，并允许安全 (https) 内容。
 
-### 第一方Cookie实施
+### 第一方 Cookie 实施
 
-通过配置CNAME，您的用户可以在其浏览器的第一方Cookie上下文中接收Adobe Cookie。 如果第三方Cookie实施对您的用户来说不是最佳方案，则这可能是一个可行的选项。
+通过配置 CNAME，您的用户可以在其浏览器的第一方 Cookie 上下文中接收 Adobe Cookie。如果第三方 Cookie 实施对您的用户来说不是最佳方案，则这是一个可行的选项。
 
-## 什么是SameSite cookie属性，它对Analytics有何影响？
+## 什么是 SameSite Cookie 属性？该属性对 Analytics 有何影响？
 
-随着Chrome 80浏览器的发布以及Firefox和Edge浏览器的后续版本，SameSite cookie属性强制对三个不同值进行规范，以控制跨站点请求的行为，如下所示：
+随着 Chrome 80 浏览器以及 Firefox 和 Edge 浏览器后续版本的发布，SameSite Cookie 属性强制对三个不同值进行规范，以控制跨站点请求的行为，如下所示：
 
-* `None`:此设置允许跨站点访问，并允许在第三方上下文中传递Cookie。 要指定此属性，您还必须指定， `Secure` 并且所有浏览器请求都必须遵循HTTPS。 例如，在设置Cookie时，需要按如下方式配对属性的值： `Set-Cookie: example_session=test12; SameSite=None; Secure`. 如果未正确标记，则Cookies对于较新的浏览器不可用，并将被拒绝。
+* `None`：此设置允许跨站点访问，并允许在第三方上下文中传递 Cookie。要指定此属性，您还必须指定 `Secure`，并且所有浏览器请求都必须遵循 HTTPS。例如，在设置 Cookie 时，需要按如下方式配对属性的值：`Set-Cookie: example_session=test12; SameSite=None; Secure`。如果未正确标记，则 Cookie 将对于较新的浏览器不可用，并将被拒绝。
 
-* `Lax`:允许使用安全 ** （只读，如）HTTP方法，仅对顶级导航使用同一站点Cookie发送跨站点请求 `GET`。
+* `Lax`：允许使用&#x200B;*安全*（只读，如 `GET`）HTTP 方法，通过仅用于顶级导航的相同站点 Cookie 发送跨站点请求。
 
-* `Strict`:不会为任何第三方网站请求发送同一站点Cookie。 仅当cookie的站点与URL栏中的站点匹配时，才会发送cookie。
+* `Strict`：不会为任何第三方网站请求发送相同站点 Cookie。仅当 Cookie 的站点与 URL 栏中的站点匹配时，才会发送 Cookie。
 
-这些浏览器版本中的默认行为是将没有指定属性的Cookie `SameSite` 视为相同 `SameSite=Lax`。
+这些浏览器版本中的默认行为是将没有指定 `SameSite` 属性的 Cookie 视为与 `SameSite=Lax` 相同。
 
-## Adobe Analytics如何响应这些更改？
+## Adobe Analytics 如何响应这些更改？
 
-所有Adobe cookie更新都通过Adobe服务器进行处理，Adobe已更新其边缘服务器以设置相应的Cookie属性。 Adobe发布了服务器端更新，以使用相应的属性设置其第三方Cookie。 您的站点不需要JavaScript更新。
+所有 Adobe Cookie 更新都通过 Adobe 服务器进行处理，Adobe 已更新其边缘服务器以设置相应的 Cookie 属性。Adobe 发布了服务器端更新，以使用相应的属性设置其第三方 Cookie。您的网站不需要进行 JavaScript 更新。
 
-当用户访问使用Cookie的任何网站时，Adobe边缘服务器将自动进行此升级。 对于大多数Adobe产品，Cookies在发布Chrome 80时会有相应的标记。 Adobe Analytics实施除外，这些实施使用第三方数据收集，但不使用Experience Cloud Identity Service(ECID)。 这些客户可能会遇到新访客数量的临时性小增，否则这些新访客将被标记为回访访客。
+当用户访问使用 Cookie 的任何网站时，Adobe 边缘服务器将自动进行此升级。对于大多数 Adobe 产品，Cookie 在发布 Chrome 80 时会有相应的标记。Adobe Analytics 实施除外，这些实施使用第三方数据收集，并不使用 Experience Cloud Identity Service (ECID)。这些客户可能会遇到新访客数量的临时性增加，否则这些新访客将被标记为回访访客。
 
-对于Google在设置为时已识别为处理Cookie `SameSite` 的浏览器 `None`, `SameSite` 将取消设置。
+将 `SameSite` 设置为 `None` 时，对于被 Google 标识为错误处理 Cookie 的浏览器，`SameSite` 将保留为未设置。
 
-下表汇总了Analytics cookie:
+下表汇总了 Analytics Cookie：
 
-![Cookie表](assets/cookies1.png)
+![Cookie 表](assets/cookies1.png)
 
-## 为Chrome、Firefox和Edge更改准备我的站点的最佳方式是什么？
+## 为网站做好 Chrome、Firefox 和 Edge 更改准备的最佳方法是什么？
 
-分析客户应确认其JavaScript配置使用HTTPS来调用Adobe服务。 ECID将第三方HTTP调用重定向到其HTTPS端点，这会增加延迟，但意味着您无需更改配置。
+Analytics 客户应确认其 JavaScript 配置正在使用 HTTPS 来调用 Adobe 服务。ECID 将第三方 HTTP 调用重定向到其 HTTPS 端点，这会增加延迟，但也意味着您无需更改配置。
 
-Adobe建议您确保所有网站页面都使用HTTPS。
+Adobe 建议您确保所有网站页面都通过 HTTPS 提供。
 
-### 一个CNAME用于多个域
+### 一个 CNAME 用于多个域
 
-如果您的CNAME实现与网站设置在同一域中，则这将是第一方Cookie上下文，您无需进行更改。
+如果您的 CNAME 实施与网站设置在同一域中，则这将是第一方 Cookie 上下文，无需进行更改。
 
-但是，如果您拥有多个域，并且在所有域中使用相同的CNAME进行数据收集，那么在这些其他域上，它将被视为第三方Cookie。 在Chrome 80中，它将不再在这些其他域上可见。 为了使所有浏览器的行为更相似，Analytics明确将 `SameSite` 此Cookie的值设置为 `Lax`。 如果您在友好的第三方上下文中使用此Cookie，则需要将Cookie设置为值，这也意味 `SameSite=None` 着您必须始终使用HTTPS。 请联系Adobe客户关怀部门，为您的安全CNAME更改SameSite值。 注意，使用ECID的Analytics客户不需要执行此操作。
+但是，如果您拥有多个域，并且在所有域中使用相同的 CNAME 进行数据收集，那么在这些其他域上，它将被视为第三方 Cookie。在 Chrome 80 中，该 CNAME 实施将不会再出现在这些其他域上。为了使所有浏览器的行为更相似，Analytics 明确将此 Cookie 的 `SameSite` 值设置为 `Lax`。如果您在友好的第三方上下文中使用此 Cookie，则需要使用 `SameSite=None` 值设置 Cookie，这也意味着您必须始终使用 HTTPS。请联系 Adobe 客户关怀部门，更改 SameSite 值，以获取安全的 CNAME。注意，使用 ECID 的 Analytics 客户不需要执行此操作。
 
-## Safari更改(ITP 2.1)对Analytics有何影响？
+## Safari 更改 (ITP 2.1) 对 Analytics 有何影响？
 
-尽管Safari 12.1发生了更改，但仍在收集来自Adobe Experience Cloud Cookies的数据集。 虽然Cookies的上限为七天，但在该时间内返回您财产的访客会续订Cookie并防止其再过期七天。 在提供Adobe更新之前，可能会减少Safari流量的回顾窗口和回访访客计数。
+尽管 Safari 12.1 发生了更改，但仍从 Adobe Experience Cloud Cookie 中收集数据集。虽然 Cookie 的存储时间上限为七天，但在该时间内返回您属性的访客会更新 Cookie，以使存储时间再增加 7 天。在提供 Adobe 更新之前，Safari 流量的回顾窗口和回访访客计数可能会减少。
 
-由于缩短了七天的过期时间，客户可能会看到独特访客的增加。 访问和页面查看次数不应受到影响。 如果您的房产具有季节性流量（如税务服务或假日零售），您可能会看到更大的影响，因为此访客不会在季节之间连接。
+由于缩短了 7 天的存储期限，客户可能会看到独特访客有所增加。访问和页面查看次数应不会受到影响。如果您的属性具有季节性流量（如税务服务或假日零售），您可能面临更大的影响，因为此类访客在季节之间具有不连贯性。
 
-如果您使用CNAME，访客ID服务会将ECID保存到服务器端第一方Cookie中。 这允许Cookie在整个持续时间内保持不变。
+如果您使用 CNAME，访客 ID 服务会将 ECID 保存到服务器端第一方 Cookie 中。这样可使 Cookie 在整个持续时间内保持不变。
 
-**注意：ITP 2.1不适用于移动应用程序中的嵌入式浏览器。**
+**注意：ITP 2.1 不适用于移动应用程序中的嵌入式浏览器。**
 
-### 受影响的第一方Cookie
+### 受影响的第一方 Cookie
 
-通过创建的第一方Cookie `document.cookie` 受影响。 如果您通过HTTP响应（服务器端）或使用CNAME认证来设置这些Cookie中的任何一个，则不会受ITP 2.1中的更改的影响。以下第一方Cookie和相关的Adobe javaScript库受影响：
+通过 `document.cookie` 创建的第一方 Cookie 会受影响。如果您通过 HTTP 响应（服务器端）或使用 CNAME 认证来设置这些 Cookie 中的任意一个，则不会受 ITP 2.1 中的更改的影响。以下第一方 Cookie 和相关的 Adobe JavaScript 库会受到影响：
 
-* 由ECID(Experience Cloud ID)服务库设置的AMCV Cookie
-* 分析旧版回退cookie `s_fid`
+* 由 ECID (Experience Cloud ID) 服务库设置的 AMCV Cookie
+* Analytics 旧版回退 Cookie `s_fid`
 
-作为第 `s_vi` 三方Cookie的分析旧版Cookie（包括2o7.net或omtrdc.net的集合目标）继续基于ITP的早期版本被阻止。
+基于 ITP 早期版本，作为第三方 Cookie 的 Analytics 旧版 `s_vi` Cookie（包括 2o7.net 或 omtrdc.net 的集合目标）仍将受到阻止。
 
-总之：
+综上所述：
 
-* 如果您有CNAME，并使用访客ID服务— 您的实施不会受到影响。
+* 如果您有 CNAME，并使用访客 ID 服务 - 您的实施不会受到影响。
 
-* 如果您在第一方上下文中使用第一方CNAME，但不使用访客ID服务— 您的实施不会受到影响。
+* 如果您在第一方上下文中使用第一方 CNAME，但不使用访客 ID 服务 - 您的实施不会受到影响。
 
-* 如果您在第三方上下文中使用第一方Cookie域，或使用标准第三方域名（如2o7.net、omtrdc.net等）,Safari将继续阻止它。
+* 如果您在第三方上下文中使用第一方 Cookie 域，或使用标准第三方域名（如 2o7.net、omtrdc.net 等），Safari 将继续阻止。
 
-* 如果您使用自定义访客ID — 这取决于您如何存储访客ID。 如果您将您的ID存储在第一方“客户端”Cookie中，那么您将面临七天的过期时间。 如果您使用其他方式存储您的自定义ID，那么您需要评估自己是否受到影响。
+* 如果您使用自定义访客 ID - 是否阻止取决于您如何存储访客 ID。如果您将 ID 存储在第一方“客户端”Cookie 中，则受七天到期限制。如果您使用其他方式存储您的自定义 ID，则需要评估自己是否受到影响。
 
 ### 影响最小的数据集
 
-频繁回访的活动访客的数据集受更改影响最小。 如果您网站的内容使客户每天或每周至少回访几次，则这些活动用户的Cookie将在过期前续订。 社交网络、新闻和其他媒体网站最有可能拥有大量频繁回访的用户社区。
+频繁回访的活动访客的数据集受更改影响最小。如果客户每天或每周至少回访数次您网站的内容，则这些活动用户的 Cookie 将在过期前续订。社交网络、新闻和其他媒体网站最有可能拥有大量频繁回访的用户社区。
 
-使用ITP 2.1 `s_vi` 作为主要访客ID并配置了使用CNAME的第一方数据收集的客户将不会受到影响。请注意，在无法设 `s_vi` 置的情况下，可能会使 `s_fid` 用备用Cookie，并且将有七天的过期时间。
+使用 `s_vi` 作为主要访客 ID，并使用 CNAME 配置了第一方数据收集的客户不会受到 ITP 2.1 的影响。请注意，在无法设置 `s_vi` 的情况下，可以使用回退 Cookie `s_fid`，它将在七天后过期。
 
-此外，使用访客ID服务并具有第一方域的数据集受到的影响最小。
+此外，使用访客 ID 服务并具有第一方域的数据集受到的影响最小。
 
-## Safari的更改是否会影响我的业务？
+## Safari 的更改是否会影响我的业务？
 
-Adobe建议客户在对数据收集进行任何更改之前，首先在自己的公司内部测量影响。 这可以通过本节下面提供的方法来完成。
+Adobe 建议客户在对数据收集进行任何更改之前，首先在自己的公司内部衡量影响。可以通过本节下面提供的方法进行衡量。
 
-要衡量对报告和测试的影响，请务必了解已实施的访客和cookie跟踪类型以及Safari用户的流量。 请考虑以下因素，以衡量对个人业务的影响：
+要衡量对报表和测试的影响，请务必了解已实施的访客和 Cookie 跟踪类型以及 Safari 用户的流量。请考虑以下因素，以衡量对个人业务的影响：
 
-* 检查Adobe库正在设置哪些类型的Cookie。
+* 查看 Adobe 库正在设置哪些类型的 Cookie。
 
-* 在最新的Safari浏览器中打开开发人员控制台。 如果您在您的第一方域中看到以上列出的任何cookie，您可能会受到这些更改的影响。
+* 在最新的 Safari 浏览器中打开开发人员控制台。如果您在第一方域中看到以上列出的任何 Cookie，您可能会受到这些更改的影响。
 
-* 如果您看到 `s_vi` cookie，但未在CNAME上下文中设置 `AMCV` cookie，则表示您使用CNAME进行访客识别，且Analytics使用情况不受这些更改的影响。 如果您在CNAME上下文中看到 `s_vi` cookie和 `AMCV` cookie设置，则您最近或当前都在使用宽限期，并且您的某些Analytics流量可能会受到影响。
+* 如果您看到 `s_vi` Cookie，但未在 CNAME 上下文中看到 `AMCV` Cookie 集，则表示为访客标识使用 CNAME 以及 Analytics 使用情况不受这些更改的影响。如果您看到在 CNAME 上下文中设置了 `s_vi` Cookie 和 `AMCV` Cookie，则表示您最近或当前在使用宽限期，并且您的某些 Analytics 流量可能会受到影响。
 
-* 使用Analytics测量七天内未回访的访客百分比。 如果访客在七天内反复回访，则流量可能不会受到重大影响。 有关使用Analtyics找到此问题的说明，请参阅 [Safari ITP 2.1对Adobe Experience cloud和Experience platform客户的影响](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)。
+* 使用 Analytics 衡量 7 天内未回访的访客百分比。如果访客在 7 天内反复回访，则流量可能不会受到显著影响。有关使用 Analtyics 确定是否受到影响的说明，请参阅 [Safari ITP 2.1 对 Adobe Experience Cloud 和 Experience Platform 客户的影响](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)。
 
-* 从Safari浏览器测量流量百分比，以确定是否有足够的保证进行更改。 有关使用Analtyics查找您的站点的Safari流量百分比的说明，请参阅 [Safari ITP 2.1对Adobe Experience cloud和Experience platform客户的影响](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)。
+* 衡量来自 Safari 浏览器的流量百分比，以确定是否有必要进行任何更改。有关使用 Analtyics 确定您网站上 Safari 流量百分比的说明，请参阅 [Safari ITP 2.1 对 Adobe Experience Cloud 和 Experience Platform 客户的影响](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)。
 
 ## 我的访客最常使用哪些浏览器？
 
-如果您有兴趣进一步了解访客使用的浏览器，可以使用Analytics [Browser Dimension](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-browsers.html) （分析浏览器维度）来确定哪些浏览器最适合您的网站。 您还可以使用Analytics Dimensions来查看根据地理区域最常使用的浏览器。 For more information, see [GeoSegmentation](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-geosegmentation.html).
+如果您有兴趣进一步了解访客使用的浏览器，可以使用 Analytics 的[浏览器维度](https://docs.adobe.com/content/help/zh-Hans/analytics/components/variables/dimensions-reports/reports-browsers.html)来确定哪些浏览器最常用于您的网站。您还可以使用 Analytics 维度按地理区域查看最常使用的浏览器。有关更多信息，请参阅[地域划分](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-geosegmentation.html)。
 
-根据 [统计](https://gs.statcounter.com/browser-market-share/all)，于2019年底，各浏览器的全球市场份额如下：
+根据[统计数据](https://gs.statcounter.com/browser-market-share/all)显示，2019 年底各浏览器的全球市场份额如下：
 
-* Chrome:~64%
-* Safari:~17%
-* Firefox:~4%
-* 边缘：~2%
+* Chrome：约 64%
+* Safari：约 17%
+* Firefox：约 4%
+* Edge：约 2%
 
-随着市场份额的变化，您可以参考这些统计 [数据](https://gs.statcounter.com/browser-market-share/all) ，以检查您的实施战略。
+由于市场份额在不断变化，您可以参考这些[统计数据](https://gs.statcounter.com/browser-market-share/all)，以检查您的实施策略。
 
-## 如何在短期内最好地使用Safari中的ITP 2.1更改？
+## 如何在短期内最好地运用 Safari 中的 ITP 2.1 更改？
 
-Adobe的CNAME和托管证书程序用于处理ITP更改。 Adobe 管理的证书计划允许您在不增加任何额外费用的情况下，为第一方 Cookie 实施新的第一方 证书。如今，Adobe按解决方案提供了多项CNAME服务，并且希望在短期内利用Analytics认证计划。
+Adobe 的 CNAME 和管理的证书计划将用于处理 ITP 更改。Adobe 管理的证书计划允许您在不增加任何额外费用的情况下，为第一方 Cookie 实施新的第一方证书。如今，Adobe 按解决方案提供了多项 CNAME 服务，并且希望在短期内利用 Analytics 认证计划。
 
-具有CNAME设置的任何当前Analytics客户（同时也使用Experience Cloud ID服务进行访客识别）都将能够利用将来的ECID库更新。 此更改将允许CNAME认证的跟踪服务器维护ECID并用作访客识别的参考。 ECID库的后续版本中提供了更多信息。
+如果当前 Analytics 客户设置了 CNAME，并且还使用 Experience Cloud ID 服务进行访客标识，则他们将能够利用将来的 ECID 库更新。此更改将允许 CNAME 认证的跟踪服务器维护 ECID，并将用作访客标识的参考。ECID 库的后续版本中提供了更多信息。
 
-Adobe了解到，并非所有ECID库客户都使用CNAMES或Analytics。 所有ECID客户都将获得CNAME设置，以利用相同的功能。
+Adobe 了解到，并非所有 ECID 库客户都使用 CNAME 或 Analytics。将为所有 ECID 客户提供 CNAME 设置，以利用相同的功能。
 
-如果您当前没有利用CNAME进行实施，则可以通过与客户关怀团队交谈来开始该过程。
+如果您的实施当前没有利用 CNAME，则可以通过与客户关怀团队沟通来开始该过程。
 
-## Adobe的持久访客识别未来计划是什么？
+## Adobe 关于持久访客标识的未来计划是什么？
 
 新功能和实施包括：
 
-* 跨所有Adobe解决方案的CNAME认证自助服务选项
+* 跨所有 Adobe 解决方案的 CNAME 认证自助服务选项
 
-* 灵活的访客ID收集方法、BYOI（自带身份）和API-first数据收集
+* 灵活的访客 ID 收集方法、BYOI（自带身份标识）和优先 API 数据收集
 
-* Adobe Experience platform的标识图
+* Adobe Experience Platform 的标识图
 
-* 统一的Adobe数据收集方法
+* 统一的 Adobe 数据收集方法
 
-Adobe致力于为希望获得个性化体验的消费者提供更准确的个性化体验。 Adobe努力为客户提供在线标识功能，帮助他们与消费者的隐私选择保持一致。
+Adobe 致力于为希望获得个性化体验的消费者提供更准确的个性化服务。Adobe 努力为客户提供联机标识功能，帮助他们与客户的隐私选择保持一致。
 
 ## 更多信息
 
 有关信息，请参阅：
 
-* [Adobe Experience Cloud:Google Chrome的Cookie更新](https://medium.com/adobetech/adobe-experience-cloud-cookie-updates-for-google-chrome-19ad67cf1598)
+* [Adobe Experience Cloud：Google Chrome 的 Cookie 更新](https://medium.com/adobetech/adobe-experience-cloud-cookie-updates-for-google-chrome-19ad67cf1598)
 
-* [Safari ITP 2.1对Adobe Experience cloud和Experience Platform客户的影响](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)
+* [Safari ITP 2.1 对 Adobe Experience Cloud 和 Experience Platform 客户的影响](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)
