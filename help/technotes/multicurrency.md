@@ -1,9 +1,9 @@
 ---
-description: 介绍如何定义目标货币代码，以便提供多货币支持。
+description: 介绍如何定义目标货币代码以使多货币支持正常工作。
 title: 多货币支持
 topic: null
 uuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 63a6ca92ae5fe103648c74bd16bcdf90858c71f3
 
 ---
@@ -13,407 +13,407 @@ source-git-commit: 63a6ca92ae5fe103648c74bd16bcdf90858c71f3
 
 本文档介绍如何为多货币支持定义目标货币代码。
 
-目标货币代码在以下三个级别中定义：
+目标货币代码可在以下三个级别中定义：
 
 ## 页面级别
 
-您可以在页面级别为目标货币设置JavaScript变量。 站点所有者使用相应的三字母ISO 4217货币代码设置此变量（如本文档下面所列）。 如果 [currencyCode变量未在此级别设置](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/currencycode.html) ，则默认货币将与报表包中指定的货币相同。 如果页面级别的变量与报表包中指定的变量冲突，则报表包中的变量将优先。
+您可以在页面级别为目标货币设置 JavaScript 变量。网站所有者使用三字母 ISO 4217 货币代码（如本文档下面所列）来设置此变量。如果未在此级别设置 [currencyCode](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/config-vars/currencycode.html) 变量，则默认货币将与报表包中指定的货币相同。如果页面级别的变量与报表包中指定的变量冲突，则将优先使用报表包中的变量。
 
 
-## 报告套件级别
+## 报表包级别
 
-创建 **报表包时** ，将指 [定基本货币](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html)。 这是货币的默认设置，优先于在页面级别设置的货币代码。 因此，如果报表包的订单接受美元、欧元和英镑，并且报表包的默认货币代码设置为“美元”，则报表后端数据库将所有交易转换为美元。
+[创建报表包](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html)时将指定&#x200B;**基本货币**。这是货币的默认设置，优先于在页面级别设置的货币代码。因此，如果某报表包内有接受美元、欧元和英镑的订单，且报表包的默认货币代码设置为“美元”，则报告后端数据库会将所有交易额都折算为美元。
 
-市场营销报告使用图像请求发出时的汇率将页面级别的货币值折算为默认报表包货币值。 报表包使用“美元”作为默认货币。
+市场营销报告使用以图像请求发出的汇率将页面级别的货币值折算为默认的报表包货币值。报表包将使用“美元”作为默认货币。
 
 
-## 报告级别
+## 报表级别
 
-用户可以为用户登录会话设置默认报告的货币。 可通过任何&#x200B;**转化报表**&#x200B;中的“显示选项”链接来设置。市场营销报告使用运行报告时的汇率将报告包货币值折算为报告指定的货币值。
+用户可设置用户登录会话的默认报告货币。可通过任何&#x200B;**转化报表**&#x200B;中的“显示选项”链接来设置。市场营销报告使用以报表运行时的汇率将报表包货币值折算为报表指定的货币值。
 
-## 支持的货币代码(ISO 4217)
+## 支持的货币代码 (ISO 4217)
 
-Analytics当前支持以下货币格式进行转换交易：
+Analytics 当前支持以下货币格式进行折算交易：
 
 
-阿富汗阿富汗阿富汗(AFA)
+“AFA”阿富汗尼 (AFA)
 
-阿富汗阿富汗阿富汗（阿富汗）
+“AFN”阿富汗尼 (AFN)
 
-&quot;全&quot;阿尔巴尼亚莱克（全）
+“ALL”阿尔巴尼亚勒克 (ALL)
 
-“DZD”阿尔及利亚第纳尔(DZD)
+“DZD”阿尔及利亚第纳尔 (DZD)
 
-安哥拉宽扎(AOA)
+“AOA”安哥拉宽扎 (AOA)
 
-&quot;ARS&quot;阿根廷比索(ARS)
+“ARS”阿根廷比索 (ARS)
 
-&quot;AMD&quot;亚美尼亚德拉姆(AMD)
+“AMD”亚美尼亚德拉姆 (AMD)
 
-阿鲁巴盾(AWG)
+“AWG”阿鲁巴岛荷兰盾 (AWG)
 
-澳元（澳元）
+“AUD”澳元 (AUD)
 
-阿塞拜疆马纳茨(AZM)
+“AZM”阿塞拜疆马纳特 (AZM)
 
-&quot;AZN&quot;阿塞拜疆新马纳茨(AZN)
+“AZN”阿塞拜疆新马纳特 (AZN)
 
-“BSD”巴哈马元(BSD)
+“BSD”巴哈马元 (BSD)
 
-&quot;BHD&quot;巴林第纳尔(BHD)
+“BHD”巴林第纳尔 (BHD)
 
-孟加拉塔卡
+“BDT”孟加拉国塔卡 (BDT)
 
-巴巴多斯元
+“BBD”巴巴多斯元 (BBD)
 
-白俄罗斯卢布
+“BYR”白俄罗斯卢布 (BYR)
 
-伯利兹元
+“BZD”伯利兹元 (BZD)
 
-百慕大元
+“BMD”百慕大元 （BMD）
 
-&quot;BTN&quot;不丹努尔特鲁姆(BTN)
+“BTN”不丹努尔特鲁姆 (BTN)
 
-玻利维亚诺
+“BOB”玻利维亚币 (BOB)
 
-波——黑可转换马卡(BAM)
+“BAM”波斯尼亚可兑换马卡尔 (BAM）
 
-博茨瓦纳普拉斯
+“BWP”博茨瓦纳普拉 (BWP)
 
-巴西雷亚尔（巴西雷亚尔）
+“BRL”巴西雷亚尔 (BRL)
 
-文莱元（文莱元）
+“BND”文莱元 (BND)
 
-保加利亚列弗(BGN)
+“BGN”保加利亚列弗 (BGN)
 
-布隆迪法郎(BIF)
+“BIF”布隆迪法郎 (BIF)
 
-柬埔寨里尔斯
+“KHR”柬埔寨瑞尔 (KHR)
 
-加拿大元
+“CAD”加拿大元 (CAD)
 
-“CVE”佛得角埃斯库多斯(CVE)
+“CVE”佛得角埃斯库多 (CVE)
 
-开曼群岛元
+“KYD” 开曼岛元 (KYD)
 
-“CLP”智利比索(CLP)
+“CLP”智利比索 (CLP)
 
-人民币
+“CNY”中国人民币 (CNY)
 
-&quot;COP&quot;哥伦比亚比索(COP)
+“COP”哥伦比亚比索 (COP)
 
-非洲金融共同体法郎BCEAO（非洲金融共同体法郎）
+“XOF”非洲金融共同体法郎 BCEAO (XOF)
 
-非洲金融共同体法郎BEAC（非洲金融共同体）
+“XAF”非洲金融共同体法郎 BEAC (XAF)
 
-科摩罗法郎(KMF)
+“KMF”科摩罗法郎 (KMF)
 
-&quot;XPF&quot;太平洋法郎(XPF)
+“XPF”太平洋法郎 (XPF)
 
-&quot;CDF&quot;刚果／金沙萨法郎(CDF)
+“CDF”刚果/金沙萨法郎 (CDF)
 
-哥斯达黎加科朗
+“CRC”哥斯达黎加科朗 (CRC)
 
-克罗地亚库纳(HRK)
+“HRK”克罗地亚库纳 (HRK)
 
-古巴可兑换比索
+“CUC”古巴可兑换比索 (CUC)
 
-古巴比索（杯）
+“CUP 古巴比索 (CUP)
 
-塞浦路斯镑
+“CYP”塞浦路斯镑 (CYP)
 
-捷克共和国克朗
+“CZK”捷克共和国克朗 (CZK)
 
-丹麦克朗(DKK)
+“DKK”丹麦克朗 (DKK)
 
-吉布提法郎(DJF)
+“DJF”吉布提法郎 (DJF)
 
-多米尼加比索(DOP)
+“DOP”多米尼加比索 (DOP)
 
-东加勒比元
+“XCD”东加勒比元 (XCD)
 
-埃及镑
+“EGP”埃及镑 (EGP)
 
-&quot;SVC&quot;萨尔瓦多科隆(SVC)
+“SVC”萨尔瓦多科朗 (SVC)
 
-&quot;ERN&quot;厄立特里亚纳克法(ERN)
+“ERN”厄立特里亚纳克法 (ERN)
 
-“XBT”ERR(XBT)
+“XBT”ERR (XBT)
 
-《EEK》爱沙尼亚·克罗尼(EEK)
+“EEK”爱沙尼亚克朗 (EEK)
 
-埃塞俄比亚比尔
+“ETB”埃塞俄比亚比尔 (ETB)
 
-欧元（欧元）
+“EUR”欧元 (EUR)
 
-福克兰群岛镑
+“FKP”福克兰群岛镑 (FKP)
 
-斐济元（斐济元）
+“FJD”斐济元 (FJD)
 
-冈比亚达拉西(GMD)
+“GMD”冈比亚达拉西 (GMD)
 
-&quot;GEL&quot; Georgia Lari(GEL)
+“GEL”格鲁吉亚拉里 (GEL)
 
-加纳塞迪斯
+“GHC”加纳塞地 (GHC)
 
-加纳塞地（全球统一制度）
+“GHS”加纳塞地 (GHS)
 
-直布罗陀镑
+“GIP”直布罗陀镑 (GIP)
 
-XAU金盎司(XAU)
+“XAU”金盎司 (XAU)
 
-《格查尔》危地马拉格查尔（格查尔）
+“GTQ”危地马拉格查尔 (GTQ)
 
-格恩西镑
+“GGP”根西岛镑 (GGP)
 
-&quot;GNF&quot;几内亚法郎(GNF)
+“GNF”几内亚法郎 (GNF)
 
-圭亚那元（圭亚那元）
+“GYD”圭亚那元 (GYD)
 
-“HTG”海地古德(HTG)
+“HTG”海地古德 (HTG)
 
-洪都拉斯伦皮拉(HNL)
+“HNL”洪都拉斯伦皮拉 (HNL)
 
-“港元”港元
+“HKD”港币 (HKD)
 
-匈牙利福林
+“HUF”匈牙利福林 (HUF)
 
-冰岛克朗(ISK)
+“ISK”冰岛克朗 (ISK)
 
-印度卢比（印度卢比）
+“INR”印度卢比 (INR)
 
-“IDR”印度尼西亚盾(IDR)
+“IDR”印度尼西亚卢比 (IDR)
 
-XDR国际货币基金特别提款权(XDR)
+“XDR”国际货币基金组织特别提款权 (XDR)
 
-“IRR”伊朗里亚尔(IRR)
+“IRR”伊朗里亚尔 (IRR)
 
-“IDR”伊拉克第纳尔(IDR)
+“IQD”伊拉克第纳尔 (IQD)
 
-&quot;IMP&quot;马恩岛(IMP)
+“IMP”曼岛磅 (IMP)
 
-“ILS”以色列新谢克尔(ILS)
+“ILS”以色列新谢克尔 (ILS)
 
-牙买加元
+“JMD”牙买加元 (JMD)
 
-“JPY”日元(JPY)
+“JPY”日元 (JPY)
 
-JEP泽西镑(JEP)
+“JEP”泽西岛镑 (JEP)
 
-“JOD”约旦第纳尔(JOD)
+“JOD”约旦第纳尔 (JOD)
 
-&quot;KZT&quot;哈萨克斯坦腾格(KZT)
+“KZT”哈萨克斯坦坚戈 (KZT)
 
-肯尼亚先令(KES)
+“KES”肯尼亚先令 (KES)
 
-&quot;KWD&quot;科威特第纳尔(KWD)
+“KWD”科威特第纳尔 (KWD)
 
-&quot;KGS&quot;吉尔吉斯斯坦索姆(KGS)
+“KGS”吉尔吉斯斯坦索姆 (KGS)
 
-“LAK”老挝基普(LAK)
+“LAK”老挝基普 (LAK)
 
-拉脱维亚拉提(LVL)
+“LVL”拉脱维亚拉提 (LVL)
 
-黎巴嫩镑
+“LBP”黎巴嫩镑 (LBP)
 
-莱索托马洛蒂(LSL)
+“LSL”巴索托洛蒂 (LSL)
 
-利比里亚元
+“LRD”利比里亚元 (LRD)
 
-“LYD”利比亚第纳尔(LYD)
+“LYD”利比亚第纳尔 (LYD)
 
-《立陶宛立泰》
+“LTL”立陶宛立特 (LTL)
 
-澳门元
+“MOP”澳门元 (MOP)
 
-马其顿第纳尔
+“MKD”马其顿第纳尔 (MKD)
 
-马达加斯加阿里亚里
+“MGA”马达加斯加阿里亚里 (MGA)
 
-马拉维克瓦查斯(MWK)
+“MWK”马拉维克瓦查 (MWK)
 
-马来西亚林吉特(MYR)
+“MYR”马来西亚林吉特 (MYR)
 
-马尔地夫鲁菲亚(MVR)
+“MVR”马尔地夫拉菲亚 (MVR)
 
-&#39;MTL&#39;马耳他里拉(MTL)
+“MTL”马耳他里拉 (MTL)
 
-毛里塔尼亚乌吉亚(MRO)
+“MRO”毛里塔尼亚乌吉亚 (MRO)
 
-毛里求斯卢比(MUR)
+“MUR”毛里求斯卢比 (MUR)
 
-“MXN”墨西哥比索(MXN)
+“MXN”墨西哥比索 (MXN)
 
-摩尔多瓦列伊（列伊）
+“MDL”摩尔多瓦列伊 (MDL)
 
-蒙古图格里克（图格里克）
+“MNT”蒙古图格里克 (MNT)
 
-摩洛哥迪拉姆(MAD)
+“MAD”摩洛哥迪拉姆 (MAD)
 
-莫桑比克美提卡(MZN)
+“MZN”莫桑比克梅蒂卡尔 (MZN)
 
-莫桑比克美提卡(MZM)
+“MZM”莫桑比克梅蒂卡尔 (MZM)
 
-缅甸缅元
+“MMK”缅甸元 (MMK)
 
-纳米比亚元(NAD)
+“NAD”纳米比亚元 (NAD)
 
-尼泊尔卢比(NPR)
+“NPR”尼泊尔卢比 (NPR)
 
-荷属安的列斯盾(ANG)
+“ANG”荷兰盾 (ANG)
 
-新西兰元
+“NZD”新西兰元 (NZD)
 
-尼加拉瓜科多巴(NIO)
+“NIO”尼加拉瓜科多巴 (NIO)
 
-尼日利亚奈拉斯(NGN)
+“NGN”尼日利亚奈拉 (NGN)
 
-朝鲜元(KPW)
+“KPW”朝鲜圆 (KPW)
 
-“NOK”挪威克朗(NOK)
+“NOK”挪威克朗 (NOK)
 
-阿曼里亚尔(OMR)
+“OMR”阿曼里亚尔 (OMR)
 
-巴基斯坦卢比(PKR)
+“PKR”巴基斯坦卢比 (PKR)
 
-XPD钯盎司(XPD)
+“XPD”钯盎司 (XPD)
 
-&quot;PAB&quot;巴拿马巴尔博(PAB)
+“PAB”巴拿马巴波亚 (PAB)
 
-巴布亚新几内亚基那
+“PGK”巴布亚新几内亚基那 (PGK)
 
-巴拉圭瓜拉尼语(PYG)
+“PYG”巴拉圭瓜拉尼 (PYG)
 
-秘鲁新索尔(PEN)
+“PEN”秘鲁索尔 (PEN)
 
-“PHP”菲律宾比索(PHP)
+“PHP”菲律宾比索 (PHP)
 
-“XPT”铂金盎司(XPT)
+“XPT”铂盎司 (XPT)
 
-波兰兹罗提(PLN)
+“PLN”波兰兹罗提 (PLN)
 
-卡塔尔里亚尔
+“QAR”卡塔尔里亚尔 (QAR)
 
-罗尔罗州雷（罗尔州）
+“ROL”罗马尼亚列伊 (ROL)
 
-罗恩罗马尼亚新列伊
+“RON”罗马尼亚新列伊 (RON)
 
-“卢布”俄罗斯卢布（卢布）
+“RUB”俄罗斯卢布 (RUB)
 
-俄罗斯卢布
+“RUR”俄罗斯卢布 (RUR)
 
-卢旺达法郎(RWF)
+“RWF”卢旺达法郎 (RWF)
 
-圣赫勒拿镑
+“SHP”圣赫勒拿磅 (SHP)
 
-“WST”萨摩亚塔拉(WST)
+“WST”萨摩亚塔拉 (WST)
 
-圣多美和普林西比多布拉(STD)
+“STD”圣多美和普林西比多布拉 (STD)
 
-沙特阿拉伯里亚尔
+“SAR”沙特阿拉伯里亚尔 (SAR)
 
-“SPL”塞波加·卢伊吉尼(SPL)
+“SPL”塞波加大公国货币 (SPL)
 
-塞尔维亚第纳尔
+“RSD”塞尔维亚第纳尔 (RSD)
 
-“CSD”塞尔维亚第纳尔(CSD)
+“CSD”塞尔维亚第纳尔 (CSD)
 
-塞舌尔卢比(SCR)
+“SCR”塞舌尔卢比 (SCR)
 
-塞拉利昂利昂(SLL)
+“SLL”塞拉利昂利昂 (SLL)
 
-&quot;XAG&quot;银盎司(XAG)
+“XAG”银盎司 (XAG)
 
-新加坡元(SGD)
+“SGD”新加坡元 (SGD)
 
-“SKK”斯洛伐克克朗(SKK)
+“SKK”斯洛伐克克朗 (SKK)
 
-斯洛文尼亚托拉尔(SIT)
+“SIT”斯洛文尼亚托拉尔 (SIT)
 
-所罗门群岛元
+“SBD”所罗门群岛元 (SBD)
 
-&quot;SOS&quot;索马里先令(SOS)
+“SOS”索马里先令 (SOS)
 
-南非兰特(ZAR)
+“ZAR”南非兰特 (ZAR)
 
-“韩圆”韩元（韩圆）
+“KRW”韩元 (KRW)
 
-斯里兰卡卢比(LKR)
+“LKR”斯里兰卡卢比 (LKR)
 
-“SDD”苏丹第纳尔
+“SDD”苏丹第纳尔 (SDD）
 
-“SDG”苏丹镑(SDG)
+“SDG”苏丹镑 (SDG)
 
-苏里南元
+“SRD”苏里南元 (SRD)
 
-苏里南盾
+“SRG”苏里南盾 (SRG)
 
-《斯威士兰里兰吉尼》(SZL)
+“SZL”斯威士兰里兰吉尼 (SZL)
 
-“瑞典克朗”(SEK)
+“SEK”瑞典克朗 (SEK)
 
-瑞士法郎(CHF)
+“CHF”瑞士法郎 (CHF)
 
-叙利亚镑
+“SYP”叙利亚镑 (SYP)
 
-新台币（新台币）
+“TWD”新台币 (TWD）
 
-塔吉克索莫尼(TJS)
+“TJS”塔吉克斯坦索莫尼 (TJS)
 
-坦桑尼亚先令
+“TZS”坦桑尼亚先令 (TZS)
 
-泰铢（泰铢）
+“THB”泰铢 (THB)
 
-“TOP”汤加潘加(TOP)
+“TOP”汤加潘加 (TOP)
 
-特立尼达和多巴哥元
+“TTD”特立尼达和多巴哥元 (TTD)
 
-“TND”突尼斯第纳尔(TND)
+“TND”突尼斯第纳尔 (TND)
 
-土耳其里拉（试用）
+“TRY”土耳其里拉 (TRY)
 
-土耳其利拉
+“TRL”土耳其里拉 (TRL)
 
-《土库曼斯坦马纳特》(TMM)
+“TMM”土库曼斯坦马纳特 (TMM)
 
-土库曼斯坦新马纳茨
+“TMT”土库曼斯坦新马纳特 (TMT)
 
-图瓦卢元(TVD)
+“TVD”图瓦卢元 (TVD)
 
-“UGX”乌干达先令(UGX)
+“UGX”乌干达先令 (UGX)
 
-乌克兰格里夫尼亚(UAH)
+“UAH”乌克兰格里夫纳 (UAH)
 
-阿联酋迪拉姆(AED)
+“AED”阿联酋迪拉姆 (AED）
 
-英镑（英镑）
+“GBP”英镑 (GBP)
 
-&quot;美元&quot;选定美元（美元）
+“USD”选定美元 (USD)
 
-乌拉圭比索(UYU)
+“UYU”乌拉圭比索 (UYU)
 
-乌兹别克斯坦苏姆(UZS)
+“UZS”乌兹别克斯坦索姆 (UZS)
 
-瓦努阿图瓦图(VUV)
+“VUV”瓦努阿图瓦图 (VUV)
 
-委内瑞拉玻利瓦尔
+“VEB”委内瑞拉玻利瓦尔 (VEB)
 
-委内瑞拉玻利瓦雷斯富尔特斯(VEF)
+“VEF”委内瑞拉玻利瓦尔 (VEF)
 
-越南盾(VND)
+“VND”越南盾 (VND)
 
-“YER”也门里亚尔(YER)
+“YER”也门里亚尔 (YER)
 
-赞比亚克瓦查(ZMK)
+“ZMK”赞比亚克瓦查 (ZMK)
 
-赞比亚克瓦查(ZMW)
+“ZMW”赞比亚克瓦查 (ZMW)
 
-“ZWD”津巴布韦元(ZWD)
+“ZWD”津巴布韦元 (ZWD)
 
 
-## AppMeasurement.js示例
+## AppMeasurement.js 示例
 
-可 `currencyCode` 以在AppMeasurement.js文件中全局定义变量。 在此文件中定义currencyCode变量可确保所有货币事务都使用统一的货币代码。 以下示例将欧元指定 `currencyCode` 为AppMeasurement.js文 `CONFIG SECTION` 件中的变量。 所有购买事件都将被解释为“欧元”交易。
+可以在 AppMeasurement.js 文件中全局定义 `currencyCode` 变量。在此文件中定义 currencyCode 变量可确保所有的货币交易都使用统一的货币代码。以下示例将欧元指定为 AppMeasurement.js 文件 `CONFIG SECTION` 中的 `currencyCode` 变量。报表会将所有购买事件都解释为“欧元”交易。
 
 ```
 /************************** CONFIG SECTION **************************/ 
@@ -428,12 +428,12 @@ s.linkTrackEvents="None"
     
 ```
 
-有关编辑AppMeasurement.js文件的详细信息，请参 [阅将代码插入AppMeasurement.js文件](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html)。
+有关编辑 AppMeasurement.js 文件的更多信息，请参阅[将代码插入 AppMeasurement.js 文件](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html)。
 
 ## 其它实施注意事项
 
-* 请记住，虽然货币代码可以在页面之间更改，但给定页面请求上定义的所有折换行项目必须使用相同的货币（例如，您不能在同一页面视图中定义欧元、英镑和美元）。 如果不想进行任何货币兑换，应将currencyCode值留空。 这会导致发送的值直接传递到不进行转换的报表。
+* 请记住，虽然不同页面上货币代码可以不同，但是在指定页面请求上定义的所有兑换行项目必须使用同一货币（例如，您不能在同一页面视图上定义欧元、英镑和美元）。如果不想进行任何货币折算，应将 currencyCode 值保留为空。这会导致发送的值在不进行折算的情况下直接传递到报表。
 
-* 设置无效的currencyCode（“支持的货币代码”列表上没有的任何值）会导致排除整个点击，并且不会为该事务收集数据。 在生产 `currencyCode` 中进行设置之前，请使用测试报告套件来验证已收集的数据以及货币换算是否正确。
+* 设置无效的 currencyCode（“支持的货币代码”列表上没有的任何值）会导致排除整个点击，并且不会为该交易收集任何数据。在生产中设置 `currencyCode` 之前，请使用测试报表包来验证是否收集数据以及货币折算是否正确。
 
-* 必须修改未使用句点 (.) 作为分隔符的货币，以使用句点而不是典型的分隔符。例如，必须将使用逗号 (,) 的瑞典克朗修改为使用句点。分析使用逗号分隔值，数据将无法正确传递。 该期间将正确地将值传递给报表。
+* 必须修改未使用句点 (.) 作为分隔符的货币，以使用句点而不是典型的分隔符。例如，必须将使用逗号 (,) 的瑞典克朗修改为使用句点。如果 Analytics 使用逗号来分隔值，将无法准确传递数据。句点可准确地将值传递到报表。
