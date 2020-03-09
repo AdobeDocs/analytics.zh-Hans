@@ -4,7 +4,7 @@ keywords: Analytics Implementation
 title: 使用可选时间戳
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 
 > [!NOTE]“可选时间戳”是从模板生成的所有新报表包的默认设置。从现有报表包复制而来的新报表包将继承原始报表包的设置。
 
-请参阅[可选时间戳](https://marketing.adobe.com/resources/help/en_US/reference/timestamp-optional.html)，以了解更多设置信息。
+请参阅[可选时间戳](https://marketing.adobe.com/resources/help/zh_CN/reference/timestamp-optional.html)，以了解更多设置信息。
 
 ## 可选时间戳：集成加盖时间戳和未加盖时间戳的数据 {#section_BF17CB593044462B993FD0D28EA56518}
 
