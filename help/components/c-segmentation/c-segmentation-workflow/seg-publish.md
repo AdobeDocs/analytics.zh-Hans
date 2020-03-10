@@ -4,7 +4,7 @@ title: 将区段发布到 Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: e60de040e1036a1344baecfcc9c1fd5d71c4cf40
+source-git-commit: 5c555bbea04bed68dd8b569ee2cdd7d25092bb7a
 
 ---
 
@@ -119,6 +119,7 @@ The AAM UUID on the browser will be used by default when [!UICONTROL Visitor Pro
 ![](assets/aam-traits.png)
 
 * 将创建一个区段，其中包含一个特性。该区段使用与您在其中发布该区段的报表包关联的数据源。
+* 特征到期现在设置为16天（以前为2天）。
 
 ## 在 [!DNL Adobe Target] 中查看区段
 
