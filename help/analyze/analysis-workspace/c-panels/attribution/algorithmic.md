@@ -2,12 +2,14 @@
 title: 算法归因
 description: 有关Adobe Analytics中算法归因模型的详细信息。
 translation-type: tm+mt
-source-git-commit: 143cbed5f2159b7faab387e10896af836d0780f7
+source-git-commit: 30d44e990f9ed33d15cc1845e6bd11a1fef14eda
 
 ---
 
 
 # 算法归因
+
+> [!NOTE] 算法归因目前仅通过 [Adobe Analytics实验室提供](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html)。 该功能将是2020年6月发布的一般版本的一部分。
 
 Analysis Workspace中 [的Algorithmic attribution模型与其他模型不同之处在于](attribution.md) ，它使用统计技术在报表或自由格式表中的维值之间分配信用。 与Analysis Workspace中的所有其他归因模型一样，该模型可用于任何维度或度量，并支持无限细分和细分，并将100%的转化率分布到表中的维（也称为“分数”归因）。
 
