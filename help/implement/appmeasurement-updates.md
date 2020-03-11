@@ -3,7 +3,7 @@ title: AppMeasurement for JavaScript发行说明
 description: AppMeasurement for JavaScript 的发行说明汇总。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 55150b8f6968fff973c889c8011e89eecc0d1720
+source-git-commit: e3bffe93b224089cb8561c415bf20a0457645ac3
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 55150b8f6968fff973c889c8011e89eecc0d1720
 
 发行日期：**2020 年 3 月 5 日**
 
-* 修复了与安全相关的问题。
+* 通过更新Internet Explorer检测以抑制JSLint警告，修复了与安全相关的问题。
 
 ## 版本 2.19.0
 
