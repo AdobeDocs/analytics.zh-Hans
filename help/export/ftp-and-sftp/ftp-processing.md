@@ -3,7 +3,7 @@ description: 无论是分类还是数据源，任何 FTP 文件的处理时间�
 keywords: ftp;sftp
 title: FTP 处理时间
 uuid: a0f67db4-0bb1-4596-95da-21c8ab2a4a61
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
