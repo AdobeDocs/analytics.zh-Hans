@@ -3,7 +3,7 @@ description: 'null'
 title: 归因面板概述
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: fec5551a8d19af5201c741d64ed7efbfea062f17
+source-git-commit: 8bae313fd4c26de8aedf18b095202735c0382bae
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: fec5551a8d19af5201c741d64ed7efbfea062f17
 | ![时间衰减](assets/time_decay.png) | 时间衰减 | 密切关注使用自定义半衰期参数的指数衰减（默认值为 7 天）。每个渠道的权重，取决于在接触点启动与最终转化之间流逝的时间。用于确定点数的公式是 `2^(-t/halflife)`，其中 `t` 是接触点与转化之间流逝的时间。然后，所有接触点均被标准化为 100%。 | 非常适合定期运行视频广告或针对预定日期的事件进行营销的团队。营销活动后发生转化所需的时间越长，获得的点数就越少。 |
 | ![参与率](assets/participation.png) | 参与率 | 将 100% 的点数分给所有独特的接触点。与其他归因模型相比，转化总数被夸大。参与率会对重复出现的渠道进行重复数据删除。 | 非常适用于了解哪些客户经常接触到特定的交互。媒体组织经常使用此模型来计算内容速率。零售组织通常使用此模型来了解其网站的哪些内容对于转化至关重要。 |
 
-> [!NOTE] 以下算法归因模型目前在 [Adobe Analytics Labs中可用](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html) ，并将作为2020年一个常规版本的一部分。
+> [!NOTE] 以下算法归因模型目前在 [Adobe Analytics Labs中可用](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html) ，并且最终将成为一般版本的一部分。
 
 | UI 图标 | 归因模型 | 定义 | 使用时间 |
 | --- | --- | --- | --- |
