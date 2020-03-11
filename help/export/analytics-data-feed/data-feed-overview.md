@@ -3,7 +3,7 @@ description: 在 Adobe Data Warehouse 中可处理和存储从网站、移动应
 keywords: clickstream;data feed;datafeed;Data Feed
 title: Analytics 数据馈送概述
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
@@ -56,10 +56,10 @@ source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 了解获取数据馈送的基本工作流程后，您可以与组织内的团队合作，将原始数据存储或纳入到数据库中。
 
-* [创建数据源](create-feed.md):有关创建数据源的技术详细信息，请详细说明各个字段
-* [管理数据源](df-manage-feeds.md):了解有关导航数据馈送界面的更多信息
-* [数据馈送内容](c-df-contents/datafeeds-contents.md):了解压缩文件中包含的内容
-* [数据列定义](c-df-contents/datafeeds-reference.md):所有可用列的完整列表
+* [创建数据馈送](create-feed.md)：有关创建数据馈送的技术详细信息，更加详细地阐述各个字段
+* [管理数据馈送](df-manage-feeds.md)：了解有关导览数据馈送界面的更多信息
+* [数据馈送内容](c-df-contents/datafeeds-contents.md)：了解压缩文件中包含的内容
+* [数据列定义](c-df-contents/datafeeds-reference.md)：所有可用列的完整列表
 
 ## 其他资源
 
