@@ -1,25 +1,25 @@
 ---
 description: 有关数据馈送的常见问题解答
 keywords: Data Feed;job;pre column;post column;case sensitivity
-title: 数据源常见问题解答
-translation-type: tm+mt
+title: 数据馈送常见问题解答
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# 数据源常见问题解答
+# 数据馈送常见问题解答
 
 有关数据馈送的常见问题解答。
 
-## 带前缀的列和不带前缀 `post_` 的列之间有何差 `post_` 异？
+## 带 `post_` 前缀的列和不带 `post_` 前缀的列之间有何差异？
 
-没有前缀 `post_` 的列包含的数据与发送到数据收集时完全相同。 带前缀 `post_` 的列包含处理后的值。 可以更改值的示例包括变量持久性、处理规则、VISTA规则、货币兑换或Adobe应用的其他服务器端逻辑。 Adobe建议尽可能 `post_` 使用列的版本。
+不带 `post_` 前缀的列所包含的数据与发送到数据收集的数据完全相同。而带 `post_` 前缀的列包含的是处理后的值。可更改值的示例包括变量持久性、处理规则、VISTA 规则、货币转换或 Adobe 应用的其他服务器端逻辑。Adobe 建议尽可能使用带 `post_` 前缀的列。
 
-If a column does not contain a `post_` version (for example, `visit_num`), then the column can be considered a post column.
+如果某列不带 `post_` 前缀（例如 `visit_num`），则可能会将该列视为后处理列。
 
-## 数据服务如何处理区分大小写的问题？
+## 数据馈送如何处理大小写问题？
 
-在Adobe Analytics中，大多数变量在报告时都会被视为不区分大小写。 例如，“snow”、“Snow”、“SNOW”和“sNow”都被视为相同的值。 在数据源中保留区分大小写。
+在 Adobe Analytics 中，大多数变量在用于报告时都会被视为不区分大小写。例如，“snow”、“Snow”、“SNOW”和“sNow”全都会被视为相同的值。在数据馈送中会保留区分大小写。
 
-如果您看到非帖子和帖子列之间相同值的不同大小写变体（例如，前列中的“snow”，后列中的“Snow”），则您的实施将在整个站点中同时使用大小写值。 后处理列中的不同大小写是在之前传递的，并被存储在虚拟 Cookie 中，或者是在大致相同的时间针对该报表包处理的。
+如果您在非后处理列和后处理列中看到同一个值的不同大小写（例如，前处理列中的“snow”与后处理列中的“Snow”），则您的实施将在整个网站中同时使用大写值和小写值。后处理列中的不同大小写是在之前传递的，并被存储在虚拟 Cookie 中，或者是在大致相同的时间针对该报表包处理的。
