@@ -3,7 +3,7 @@ description: 您可以使用 Analytics 创建和管理基于 FTP 的数据源，
 keywords: ftp;sftp
 title: 数据源
 uuid: 41ba2de7-d33d-4394-b7d8-04a116f45419
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,14 +19,14 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 在“[!UICONTROL 管理数据源]”窗口中，查找您的数据源并选择“FTP 信息”链接。您的 FTP 登录信息会在“[!UICONTROL 上传/FTP 信息]”部分的“[!UICONTROL 激活数据源]”窗口中显示。
 
-有关 FTP 限制和数据保留的信息，请参阅[FTP 限制和数据保留](/help/export/ftp-and-sftp/ftp-limits.md)。
+有关 FTP 限制和数据保留的信息，请参阅 [FTP 限制和数据保留](/help/export/ftp-and-sftp/ftp-limits.md)。
 
 ## 关于分类和数据源上传时使用的 .fin 文件 {#section_1484719F8A134EAE91212DBD8F15174F}
 
-When you upload a classifications or [!UICONTROL Data Source] file ( [!DNL .tab] or [!DNL .txt]) the upload also requires that you upload an empty file with the exact same name as the data file being imported, but with a [!DNL .fin] extension. This [!DNL .fin] file is a finish file. 此文件的作用是告诉系统该数据文件已完全上传到 FTP 帐户。The [!DNL .fin] file lets Adobe recognize that you are done with your import. 在提交之后，Adobe 会从 FTP 上删除这两个文件，并开始处理导入。导入文件: [!DNL Classifications.tab]
+在上传分类或[!UICONTROL 数据源]文件（[!DNL .tab] 或 [!DNL .txt]）时，还要求您上传一个与正在导入的数据文件完全同名，但具有 [!DNL .fin] 扩展名的空白文件。此 [!DNL .fin] 文件是一个完成文件。此文件的作用是告诉系统该数据文件已完全上传到 FTP 帐户。[!DNL .fin] 文件可让 Adobe 知道您已完成导入。在提交之后，Adobe 会从 FTP 上删除这两个文件，并开始处理导入。导入文件: [!DNL Classifications.tab]
 
-完成文件： [!DNL Classifications.fin]
+完成文件：[!DNL Classifications.fin]
 
-If you upload your Data Sources or SAINT file without an accompanying [!DNL .fin] file, Adobe does not add it to the queue for processing. The file remains on the FTP, and is not applied to your data in the [!UICONTROL Experience Cloud]. 只有您在报表的“[!UICONTROL 创建 FTP 帐户]”窗口的“[!UICONTROL 通知收件人]”中输入了您的电子邮件地址，才会向您发出通知。如果没有在此字段中输入电子邮件地址，则不会发送通知。
+如果您在上传数据源或 SAINT 文件时没有提供 [!DNL .fin] 文件，Adobe 不会将它添加到待处理的队列。该文件将保留在 FTP 上，并且不会被应用到 [!UICONTROL Experience Cloud] 中的数据。只有您在报表的“[!UICONTROL 创建 FTP 帐户]”窗口的“[!UICONTROL 通知收件人]”中输入了您的电子邮件地址，才会向您发出通知。如果没有在此字段中输入电子邮件地址，则不会发送通知。
 
-If you do upload your file with a [!DNL .fin] file, but there is an error in the file, it is submitted for processing, but the error causes the processing to cease and the file to be sent to an error folder. 如果发生这种情况，会向“[!UICONTROL 创建 FTP 帐户]”窗口的“[!UICONTROL 通知收件人]”字段中列出的电子邮件地址发送一个通知。如果没有输入电子邮件地址，则不会发送通知。
+如果您上传文件时含有 [!DNL .fin] 文件，但文件中存在错误，则在提交它进行处理时，该错误会导致处理停止，并将文件发送到错误文件夹。如果发生这种情况，会向“[!UICONTROL 创建 FTP 帐户]”窗口的“[!UICONTROL 通知收件人]”字段中列出的电子邮件地址发送一个通知。如果没有输入电子邮件地址，则不会发送通知。
