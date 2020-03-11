@@ -3,7 +3,7 @@ description: Data Warehouse 是指用于存储的 Analytics 数据副本，以�
 title: Data Warehouse 概述
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,11 +19,11 @@ Data Warehouse 会自动将任何大小超过 1 MB 的文件压缩为 zip 包。
 
 在针对各个计划报表和已下载报表的单个请求中，Data Warehouse 可处理无限数量的行。
 
-> [!NOTE] 数据仓库会报告在报告期间遇到的第一个值。
+> [!NOTE]Data Warehouse 会报告在报表时段遇到的第一个值。
 
 >[!IMPORTANT]
 >
->在按分类值进行细分时，Analysis Workspace和Data Warehouse会以不同方式处理“未指定”值。 Workspace 中的“未指定”是指未分类的值，而 Data Warehouse 中的“未指定”是指您分类为“未指定”的值。
+>在对分类的值进行分段时，Analysis Workspace 和 Data Warehouse 处理“未指定”值的方式有所不同。Workspace 中的“未指定”是指未分类的值，而 Data Warehouse 中的“未指定”是指您分类为“未指定”的值。
 
 ## Data Warehouse 请求描述 {#section_F21C78ED36884C389C852E876AF5CDE8}
 
@@ -52,7 +52,7 @@ Data Warehouse 会自动将任何大小超过 1 MB 的文件压缩为 zip 包。
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 可用区段</span> </td> 
-   <td colname="col2"> <p>可让您选择要调查的访客群体，以及生成复杂区段。您可加载预配置区段、创建新区段，以及将区段组件存储于库中以用于生成其他区段。 </p> <p>现在您可以堆叠区段。在选择多个区段时，预览区域、请求管理器和“请求详细信息”弹出窗口会显示以逗号分隔的名称列表（例如，Segment1, Segment2）。 </p> <p>有关详细信息，请参阅 <a href="/help/components/c-segmentation/seg-home.md"> 分段指南。</a> </p> <p>注意：您不能在同一个 Data Warehouse 报表的同一个区段中既包括区段过滤器，又包括划分。这样做会导致出错。 </p> </td> 
+   <td colname="col2"> <p>可让您选择要调查的访客群体，以及生成复杂区段。您可加载预配置区段、创建新区段，以及将区段组件存储于库中以用于生成其他区段。 </p> <p>现在您可以堆叠区段。在选择多个区段时，预览区域、请求管理器和“请求详细信息”弹出窗口会显示以逗号分隔的名称列表（例如，Segment1, Segment2）。 </p> <p>有关详细信息，请参阅<a href="/help/components/c-segmentation/seg-home.md">分段指南</a>。 </p> <p>注意：您不能在同一个 Data Warehouse 报表的同一个区段中既包括区段过滤器，又包括划分。这样做会导致出错。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 划分</span> </td> 
@@ -60,7 +60,7 @@ Data Warehouse 会自动将任何大小超过 1 MB 的文件压缩为 zip 包。
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 量度</span> </td> 
-   <td colname="col2">允许您添加要报告的指标。 </td> 
+   <td colname="col2">允许您添加要报告的量度。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> 量度排序</span> </td> 
