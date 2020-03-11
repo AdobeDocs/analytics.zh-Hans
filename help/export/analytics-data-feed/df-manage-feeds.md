@@ -15,7 +15,7 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 1. 登录到 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 2. 单击右上方的 9 宫格菜单，然后单击“[!UICONTROL Analytics]”。
-3. 在顶部菜单中，单击“[!UICONTROL 管理员]”&gt;“[!UICONTROL 数据馈送]”。
+3. 在顶部菜单中，单击“[!UICONTROL 管理员]”>“[!UICONTROL 数据馈送]”。
 
 ![“数据馈送”菜单](assets/AdminMenu.png)
 
