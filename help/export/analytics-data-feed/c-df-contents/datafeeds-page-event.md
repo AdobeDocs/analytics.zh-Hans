@@ -4,7 +4,7 @@ keywords: Data Feed;page;event;page_event;post_page_event
 title: 页面事件对照
 topic: Reports and analytics
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,9 +16,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 | 点击类型 | `page_event` value | `post_page_event` value |
 | --- | --- | --- |
-| 页面查看 | 0:来自移动SDK的 `trackState` 所有页面查看调用和调用 | 与 `post_page_event` |
-| 链接跟踪 | 10:移动SDK的 `trackAction` 11中的自定义链接和<br>调用：下载链接<br>12:退出链接 | 100:移动SDK' `trackAction` s<br>101中的自定义链接和调用：下载链接<br>102:退出链接 |
-| 里程碑视频 | 31:媒体开始<br>32:媒体更新（无其他变量处理）<br>33:媒体更新（使用其他变量） | 76:媒体开始<br>77:媒体更新（无其他变量处理）<br>78:媒体更新（使用其他变量） |
-| 心率视频 | 50:媒体流开始（非Primetime）<br>51:媒体流关闭（非Primetime）<br>52:媒体流擦洗（非Primetime）<br>53:媒体流保持活力（非Primetime）<br>54:媒体流广告开始（非Primetime）<br>55:媒体流和结束（非Primetime）<br>56:媒体流和擦洗（非Primetime）<br>60:Primetime媒体流起<br>61:Primetime媒体流结束<br>62:Primetime媒体流擦洗<br>63:黄金时段媒体流保持活<br>力64:Primetime媒体流广告<br>65:Primetime媒体流和结束<br>66:Primetime媒体流和擦洗 | 与 `post_page_event` |
-| 调查 | 40:从Survey生成的任何调用 | 80:从Survey生成的任何调用 |
-| 目标分析 | 70:命中包括目标活动数据 | 与 `post_page_event` |
+| 页面查看 | 0：来自 Mobile SDK 的所有页面查看调用和 `trackState` 调用 | 与 `post_page_event` 的值相同 |
+| 链接跟踪 | 10：Mobile SDK 中的自定义链接和 `trackAction` 调用<br>11：下载链接<br>12：退出链接 | 100：Mobile SDK 中的自定义链接和 `trackAction` 调用<br>101：下载链接<br>102：退出链接 |
+| 里程碑视频 | 31：媒体开始<br>32：媒体更新（无其他变量处理）<br>33：媒体更新（使用其他变量） | 76：媒体开始<br>77：媒体更新（无其他变量处理）<br>78：媒体更新（使用其他变量） |
+| 心率视频 | 50：媒体流开始（非 Primetime）<br>51：媒体流关闭（非 Primetime）<br>52：媒体流删除（非 Primetime）<br>53：媒体流继续存在（非 Primetime）<br>54：媒体流广告开始（非黄金时段）<br>55：媒体流广告结束（非 Primetime）<br>56：媒体流广告删除（非 Primetime）<br>60：Primetime 媒体流开始<br>61：Primetime 媒体流结束<br>62：Primetime 媒体流删除<br>63：Primetime 媒体流继续存在<br>64：Primetime 媒体流广告开始<br>65：Primetime 媒体流广告结束<br>66：Primetime 媒体流广告删除 | 与 `post_page_event` 的值相同 |
+| 调查 | 40：从调查生成的任何调用 | 80：从调查生成的任何调用 |
+| Analytics for Target | 70：点击包括 Target 活动数据 | 与 `post_page_event` 的值相同 |
