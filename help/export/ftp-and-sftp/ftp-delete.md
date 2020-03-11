@@ -3,7 +3,7 @@ description: Adobe FTP 政策会自动禁用连续 90 天保持闲置状态的 F
 keywords: ftp;sftp
 title: 删除 FTP 数据和 FTP 帐户
 uuid: 1cbd3add-3561-492a-9ed4-aedbd3d5b257
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
