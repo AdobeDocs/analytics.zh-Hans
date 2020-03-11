@@ -3,7 +3,7 @@ description: 设置并使用 Adobe 托管的 FTP 帐户。
 keywords: ftp;sftp
 title: 设置 FTP 帐户 - 概述
 uuid: e5524619-248a-4aae-9f64-cd7d33f3c407
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,6 +21,6 @@ Adobe 客户会通过标准流程收到有关维护事件计划的通知。为�
 * 在 Adobe 传送到 FTP 帐户的数据已被成功传输到系统之后，用户应当删除这些数据。
 * 请在不再需要 FTP 帐户时通知 Adobe，以停用它们。
 
-The Adobe FTP host name is [!DNL ftp.omniture.com] or [!DNL ftp2.omniture.com].
+Adobe FTP 主机名为 [!DNL ftp.omniture.com] 或 [!DNL ftp2.omniture.com]。
 
-This information, along with a username and password, should be provided either within the [!UICONTROL Experience Cloud] (for classifications and Data Sources), or by the Adobe representative responsible for setting up the account at your request. 如果您不知道要使用哪个 FTP 地址，请联系您的 Adobe 客户经理，他可为您提供正确的地址。此外，对于分类和数据源帐户，Adobe 不确定会在一天中的哪个具体时段处理 FTP 文件。Adobe 会使用一个可持续轮询 FTP 帐户的脚本，来用于新文件的处理。已上传到这些帐户的文件将得到尽快的处理。
+该信息连同用户名和密码，应当在 [!UICONTROL Experience Cloud]（对于分类和数据源）中提供，或由负责按照您的请求设置帐户的 Adobe 代表提供。如果您不知道要使用哪个 FTP 地址，请联系您的 Adobe 客户经理，他可为您提供正确的地址。此外，对于分类和数据源帐户，Adobe 不确定会在一天中的哪个具体时段处理 FTP 文件。Adobe 会使用一个可持续轮询 FTP 帐户的脚本，来用于新文件的处理。已上传到这些帐户的文件将得到尽快的处理。
