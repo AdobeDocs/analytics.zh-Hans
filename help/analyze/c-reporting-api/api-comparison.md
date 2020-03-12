@@ -1,18 +1,18 @@
 ---
 description: Analytics 报表 API 的比较表。提供了支持文档的链接。
-title: Analytics Reporting API 比较
+title: Analytics 报表 API 比较
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Analytics Reporting API 比较
+# Analytics 报表 API 比较
 
 Analytics 报表 API 的比较表。提供了支持文档的链接。
 
-> [!NOTE] 关于延迟，Analytics for Target(A4T)将Analytics和Target数据组合到同一次点击中，以便进行集成报告。 由于 Analytics 和 Target 调用在不同的时间发生，因此在进行任何处理以从这两个解决方案收集数据之前，将会存储点击。此过程在所有检查点处增加了&#x200B;**额外 7-10 分钟**&#x200B;的延迟。
+> [!NOTE] 针对延迟，Analytics for Target (A4T) 将整合有关同一点击的 Analytics 和 Target 数据以进行综合报告。由于 Analytics 和 Target 调用在不同的时间发生，因此在进行任何处理以从这两个解决方案收集数据之前，将会存储点击。此过程在所有检查点处增加了&#x200B;**额外 7-10 分钟**&#x200B;的延迟。
 
 <table id="table_7AF4FD678D494063ADF459B3CBC3EF3F"> 
  <thead> 
@@ -47,7 +47,7 @@ Analytics 报表 API 的比较表。提供了支持文档的链接。
    <td colname="col5"> 完全 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/"  > 报表接口</a> </td> 
+   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/zh_CN/reference/"  > 报表接口</a> </td> 
    <td colname="col2"> Reports &amp; Analytics、Report Builder、API </td> 
    <td colname="col3"> Reports &amp; Analytics 中的实时报表、Report Builder、API </td> 
    <td colname="col4"> 仅限 API </td> 
@@ -86,7 +86,7 @@ Analytics 报表 API 的比较表。提供了支持文档的链接。
    <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B"  > Web 服务</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time"  > 实时报表</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B"  > 实时流概述</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html"  > Data Warehouse</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/zh_CN/reference/data_warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
