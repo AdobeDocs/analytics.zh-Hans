@@ -1,7 +1,7 @@
 ---
 title: Labs 用户指南
 description: 预览 Adobe Analytics 的原型项目
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bff1f6c76484cc7c488ceeaa9076f549d6593514
 
 ---
