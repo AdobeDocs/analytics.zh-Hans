@@ -2,7 +2,7 @@
 title: 创建解决方案设计文档
 description: 了解解决方案设计文档是什么，以及如何在组织中使用它。
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
 
@@ -46,5 +46,4 @@ source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 在解决方案设计文档中实施变量。
 
-* eVar 简介：了解 eVar 是什么、其工作方式以及如何在实施中使用
-* 事件简介：了解成功事件是什么、其工作方式以及如何在实施中使用
+[创建数据层](data-layer.md):将设计文档中的变量翻译为站点上的JavaScript变量。
