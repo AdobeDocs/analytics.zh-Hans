@@ -1,7 +1,6 @@
 ---
-description: 'null'
 title: 将数据层对象映射到数据元素
-uuid: null
+description: 将启动项配置为从数据层读取。
 translation-type: tm+mt
 source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
@@ -10,35 +9,28 @@ source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 # 将数据层对象映射到数据元素
 
+在您的组织在站点上建立并实施了数据层后，您可以在Launch中将数据层对象映射到数据元素。
 
-在为 [实施创建数据层后](https://docs.adobe.com/content/help/en/analytics/implementation/prepare/data-layer.html) ，您可以将其中的对象映射到Launch中 [的数据元素](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html#create-a-data-element)。 数据元素是数据图的构件块，可通过多种方式加以利用。 您可以使用数据元素跨Adobe Platform解决方案（包括Analytics报告）收集、组织和交付数据。
+## 先决条件
 
-要将数据层对象映射到启动数据元素，请执行以下操作：
+[创建数据层](../prepare/data-layer.md):确保站点上存在数据层。 虽然从技术上讲，您可以映射任何JavaScript对象或直接从页面中刮取CSS元素，但Adobe建议将此做法作为最后手段。 如果站点布局发生更改，则启动项中使用的CSS选择器停止工作，导致数据丢失。
 
-1. 在启动项中，单击要向其添加数据元素的属性名称。 如果尚未设置属性，请参阅创建启动项属 [性的说明](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch.html)。
+## 使用Adobe Experience Platform Launch创建数据元素
 
-2. Click **Data Elements** and then click **Create New Data Element**.
+[数据元素](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html#create-a-data-element) 是Launch中的组件，您可以在工具中使用它。 您可以使用数据元素在Adobe Analytics扩展中分配变量值。
+
+1. 转到 [Adobe Experience Platform Launch](https://launch.adobe.com)，并在出现提示时登录。
+1. 单击所需的启动项属性。
+1. Click the [!UICONTROL Data Elements] tab, then click [!UICONTROL Add Data Element].
 
    ![创建数据元素](assets/createelement.png)
 
+1. 为数据元素输入名称。 它可以是一个简单的标签，它对应于您要跟踪的数据层中的JavaScript变量。
+1. 在下拉列 [!UICONTROL Extension] 表中，选择 [!UICONTROL Core]。
+1. 在下拉列 [!UICONTROL Data Element Type] 表中，选择 [!UICONTROL JavaScript Variable]。 右侧会显示一个文本字段，允许您输入JavaScript变量以映射到此数据元素。
+1. 通常在数据层中输入所需的Javascript变量。 例如，如果贵组织的数据层与Adobe的建议做法紧密匹配，则值可能为 `digitalData.page.pageInfo.pageName`。 您可以使用浏览器的控制台验证JavaScript变量语法和值。
+1. 单击 [!UICONTROL Save].
 
-3. 为数据元素输入名称。 此名称应该是一个简单标签，与要跟踪的数据层中的JavaScript变量相对应。
+## 后续步骤
 
-4. 对于“扩展”，选择“ **核心”。** 此扩展包含您需要的所有变量。
-
-5. For **Data Element Type**, select **JavaScript Variable**. 在适用 **的字段中输入** Javascript变量名称。 这应与JavaScript数据层中对象的确切名称匹配。
-
-6. 在“ **默认值**”中，输入您希望在默认情况下建立的任何值，或在适当时将其留空。
-
-7. 根据您的实践，您可以选择强制使用小写值的选项并强制使用干净文本（Launch将应用常规间距）。
-
-8. 指定要为新数据元素设置启动存储值的持续时间。
-
-9. 单击&#x200B;**保存**。
-
-以下示例显示了在启动项中为数据层中的JavaScript变量创建的页 ``pageName`` 面名称数据元素：
-
-![指定元素](assets/new_element.png)
-
-
-将数据层对象映射到数据元素后，您可以利用它们填充Analytics变量。 有关详细信息，请参 [阅将数据元素映射到分析变量](https://docs.adobe.com/content/help/en/analytics/implementation/prepare/data-layer.html)。
+[将数据元素映射到Analytics变量](elements-to-variable.md):将数据元素分配给Analytics变量，以便在Analysis Workspace中将它们用作维。
