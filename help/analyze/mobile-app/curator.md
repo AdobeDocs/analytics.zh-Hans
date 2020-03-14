@@ -188,6 +188,7 @@ Adobe Analytics 移动设备应用程序可随时随地提供来自 Adobe Analyt
    3. 安装 Testflight 应用程序后，从 Testflight 中找到并安装 Adobe Analytics 移动设备应用程序，如下所示：
 
       ![Testflight 屏幕](assets/testflight2.png)
+
    **对于 Android 上的执行用户：**
 
    1. 在用户设备上点按以下 Play Store 链接（此链接也可在 Analytics 中的&#x200B;**工具** > **移动设备应用程序**下找到）：
