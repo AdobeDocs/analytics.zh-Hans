@@ -4,7 +4,7 @@ keywords: Virtual Report Suite
 title: 创建虚拟报表包
 topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 无法共享虚拟报表包。可通过群组/权限实现“共享”。
 * 在虚拟报表包管理器中，您只能看到自己的虚拟报表包。您需要单击“显示所有”才能看到其他所有人的虚拟报表包。
 
-1. 导航至&#x200B;**[!UICONTROL 组件]** &gt; **[!UICONTROL 虚拟报表包]**。
+1. 导航至&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 虚拟报表包]**。
 1. 单击&#x200B;**[!UICONTROL 添加 +]**。
 
    ![](assets/new_vrs.png)
@@ -59,7 +59,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> 区段 </td> 
-   <td colname="col2"> <p>您可以仅添加一个区段，也可以<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_stack.html"  >堆叠区段</a>。 </p> <p> <p>注意：堆叠两个区段时，将使用 AND 语句联接它们。无法更改为 OR 语句。 </p> </p> <p>当您尝试删除或修改虚拟报表包中当前使用的某个区段时，会显示一条警告。 </p> </td> 
+   <td colname="col2"> <p>您可以仅添加一个区段，也可以<a href="https://marketing.adobe.com/resources/help/zh_CN/analytics/segment/seg_stack.html"  >堆叠区段</a>。 </p> <p> <p>注意：堆叠两个区段时，将使用 AND 语句联接它们。无法更改为 OR 语句。 </p> </p> <p>当您尝试删除或修改虚拟报表包中当前使用的某个区段时，会显示一条警告。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
