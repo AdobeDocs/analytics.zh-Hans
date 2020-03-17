@@ -3,7 +3,7 @@ description: 区段生成器中创建的所有区段并非都与 Data Warehouse 
 title: Data Warehouse 区段兼容性
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -35,7 +35,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   <tr> 
    <td colname="col1"> <b>AND 和 OR 可自由组合不受限制</b> </td> 
    <td colname="col2"> 受支持 </td> 
-   <td colname="col3"> 存在一些限制。请参见下表的*注意*。 </td> 
+   <td colname="col3"> 存在一些限制。请参阅下表的*注释*。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>嵌套的容器</b> </td> 
@@ -93,4 +93,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-*注意：数据仓库不支持在使用时使用或容器`exclusion`的所`without`有情况`AND/OR`。 在使用这种组合时，数据仓库中只支持那些可重写为`A AND NOT B`、(或&#x200B;**包含此特征并**排除此特征&#x200B;****)的段。*
+*注意：在使用`AND/OR`时，Data Warehouse 不支持使用`exclusion`或`without`容器的所有情况。在使用此类组合时，Data Warehouse 仅支持那些可以重写为`A AND NOT B`（或&#x200B;**包括此特征**和&#x200B;**排除此特征**）的区段。*
