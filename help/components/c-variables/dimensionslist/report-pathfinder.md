@@ -2,7 +2,7 @@
 description: PathFinder 报表可让您进一步将整个路径剖析为片段，从而生成有助于优化网站的精确模式。
 title: PathFinder
 uuid: 35a00bd7-263c-4a8b-99d0-fea08046edc7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
