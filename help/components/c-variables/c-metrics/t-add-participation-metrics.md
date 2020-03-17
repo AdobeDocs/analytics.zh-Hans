@@ -3,7 +3,7 @@ description: 描述有关如何添加参与率量度的步骤。
 title: 添加参与率量度
 topic: Metrics
 uuid: 0cadc5f7-64d0-442a-8faf-b3bf13f04434
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 必须在“管理工具”中为事件 (1-100) [启用](/help/components/c-variables/c-metrics/metrics-participation.md)参与率，然后才能将事件添加到报表中。
 
-您还可以在[计算量度](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html)生成器中创建参与率量度。
+您还可以在[计算量度](https://marketing.adobe.com/resources/help/zh_CN/analytics/calcmetrics/participation_metric.html)生成器中创建参与率量度。
 
 1. 登录并导航到您申请参与率量度的转化报表或流量报表上。
 1. 单击&#x200B;**[!UICONTROL 添加量度]**。
