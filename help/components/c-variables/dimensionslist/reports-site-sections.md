@@ -3,7 +3,7 @@ description: 显示访客经常访问的网站区域。网站区域可以包括�
 title: 网站区域
 topic: Reports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
