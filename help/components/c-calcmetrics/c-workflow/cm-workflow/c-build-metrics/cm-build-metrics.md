@@ -14,12 +14,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 可通过以下几种方式访问计算量度生成器：
 
-* 在 Analysis Workspace 中，打开一个项目，然后单击 **[!UICONTROL + 新建]** &gt; **[!UICONTROL 创建量度]**。
-* 在 [!DNL Analytics] 中，转到&#x200B;**[!UICONTROL 组件]** &gt; **[!UICONTROL 计算量度]**。
+* 在 Analysis Workspace 中，打开一个项目然后单击 **[!UICONTROL + 新建]** > **[!UICONTROL 创建量度]**。
+* 在 [!DNL Analytics] 中，转到&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 计算量度]**。
 
-* 单击[计算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)顶部的 **[!UICONTROL + 添加]**，或者
+* 单击&#x200B;**[!UICONTROL 计算量度管理器]**&#x200B;顶部的 [+ 添加](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)，或者
 
-* 转到 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 报表]**，打开任意报表并单击“量度”图标 ![](assets/metrics_icon.png) 以调出“量度”边栏，然后单击&#x200B;**[!UICONTROL 添加]**。
+* 转到 **[!UICONTROL Analytics]** > **[!UICONTROL 报表]**，打开任意报表并单击“量度”图标 ![](assets/metrics_icon.png) 以调出“量度”边栏，然后单击&#x200B;**[!UICONTROL 添加]**。
 
 ![](assets/cm_builder_ui.png)
 
