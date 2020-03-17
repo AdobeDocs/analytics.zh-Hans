@@ -3,7 +3,7 @@ description: 网站量度报表显示有关网站的量化信息。例如，它�
 title: 网站量度
 topic: Reports
 uuid: a7bec7f5-7dc7-4124-b61d-2faa3d4f3a8e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
