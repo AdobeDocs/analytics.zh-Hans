@@ -3,7 +3,7 @@ description: 每个组织可以利用自定义流量报表来报告默认情况�
 title: 自定义流量
 topic: Reports
 uuid: 627e8f34-e8f7-4f79-919b-f6237f85685d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
