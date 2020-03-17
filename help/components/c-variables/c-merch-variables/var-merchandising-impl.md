@@ -3,7 +3,7 @@ description: 描述如何启用和实施促销变量。
 keywords: Analytics Implementation;merchandising;variable;product syntax;Conversion Variable Syntax;s.products
 title: 实施促销变量
 topic: Developer and implementation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,14 +15,14 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 启用促销变量
 
-可以在&#x200B;**[!UICONTROL 管理工具]** &gt; **[!UICONTROL 报表包]** &gt; **[!UICONTROL 转化变量]**&#x200B;下为任何自定义 eVar 启用促销。
+可以在&#x200B;**[!UICONTROL 管理工具]** > **[!UICONTROL 报表包]** > **[!UICONTROL 转化变量]**&#x200B;下为任何自定义 eVar 启用促销。
 
 ![](assets/merch-enable.png)
 
 | 设置 | 描述 |
 |--- |--- |
 | 过期时间 | 确定促销值的持续时间。 |
-| 促销 | **产品语法：**&#x200B;该值在 `s.products` 内设置。<br>**转化变量语法：**&#x200B;该值在指定的促销 eVar 中设置。 |
+| 促销 | **产品语法：**&#x200B;该值在 `s.products` 内设置。<br>**转化变量语法：**该值在指定的促销 eVar 中设置。 |
 | 促销捆绑事件（仅转化变量语法） | 指示何时将产品与当前的促销类别绑定。通过按住 Ctrl 并单击列表中的多个项目，可选择多个事件。只有在选择了“转化变量语法”后才能选择事件。 |
 
 ## 使用产品语法实施
