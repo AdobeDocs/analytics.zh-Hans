@@ -3,7 +3,7 @@ description: 在版本 14 中，独特访客是指在指定时段内首次访问
 title: 独特访客
 topic: Metrics
 uuid: ae210698-99f9-485e-a640-c7520807adc7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
