@@ -3,7 +3,7 @@ description: 现在，管理员级别的用户和非管理员级别的用户能�
 title: 区段权限（按角色）
 topic: Segments
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
