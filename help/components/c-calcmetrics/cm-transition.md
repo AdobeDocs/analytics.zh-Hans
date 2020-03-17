@@ -57,7 +57,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 如何访问计算量度管理器？{#section_DD0BD13E9EC940268EBE8BC88241A152}
 
-* 在左侧导航中，转到 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 组件]**。然后，单击&#x200B;**[!UICONTROL 计算量度]**。
+* 在左侧导航中，转到&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 组件]**。然后，单击&#x200B;**[!UICONTROL 计算量度]**。
 
 * 在任意 [!DNL Analytics] 报表中，单击报表左侧的“量度”图标 ![](assets/metrics_icon.png) 以调出“量度”边栏，然后单击&#x200B;**[!UICONTROL 管理]**。
 
