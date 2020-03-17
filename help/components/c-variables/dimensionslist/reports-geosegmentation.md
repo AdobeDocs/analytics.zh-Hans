@@ -3,7 +3,7 @@ description: 显示有关访客位置的数据。地域划分报表包括国家�
 title: 地域划分
 topic: Reports
 uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
