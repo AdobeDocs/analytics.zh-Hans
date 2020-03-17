@@ -3,7 +3,7 @@ description: 显示哪些蜘蛛程序和机器人在给定的时间段内访问�
 title: 机器人
 topic: Reports
 uuid: 9909ce3b-41a4-4ce8-afe9-02cb46f31d64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
