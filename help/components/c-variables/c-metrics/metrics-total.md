@@ -3,7 +3,7 @@ description: 报告期间所有报表行项目的值。如果当前选择了一�
 title: 合计
 topic: Metrics
 uuid: b0827325-9736-4a68-ade2-3fe859c7f43c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
