@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 创建数值 2 分类
 topic: Admin tools
 uuid: 5573e009-49aa-4dd6-8ac7-73046e4d9938
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,8 +16,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 > [!NOTE] 在 2018 年 5 月 10 日的 Analytics 维护版本中，Adobe 已开始限制启用日期的分类和数值分类的功能。这些分类类型已从管理员和分类导入器界面中删除。无法添加新的启用日期的分类和数值分类。现有的分类仍可以通过标准分类工作流程进行管理（上传、删除），并将继续在报表中可用。
 
-1. 单击&#x200B;**[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]**。
-1. 选择报表包，然后单击&#x200B;**[!UICONTROL 编辑设置]** &gt; **[!UICONTROL 转化]** &gt; **[!UICONTROL 转化分类]**。
+1. 单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
+1. 选择报表包，然后单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 转化]** > **[!UICONTROL 转化分类]**。
 1. 单击&#x200B;**[!UICONTROL 添加分类]**&#x200B;图标。
 1. 填写以下字段：
 
