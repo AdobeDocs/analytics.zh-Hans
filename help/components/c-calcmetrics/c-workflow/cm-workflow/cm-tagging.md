@@ -27,8 +27,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
       ![](assets/cm_add_tags.png)
 
-1. 再次单击&#x200B;**[!UICONTROL 标记]以标记量度。**
+1. 再次单击&#x200B;**[!UICONTROL 标记]**&#x200B;以标记量度。
 
 标记现在应会显示在“标记”列中。（单击右上方的齿轮图标可管理您的列。）
 
-您还可以转到&#x200B;**[!UICONTROL 显示过滤器]** &gt; **[!UICONTROL 标记]**，对标记进行过滤。
+您还可以转到&#x200B;**[!UICONTROL 显示过滤器]** > **[!UICONTROL 标记]**，对标记进行过滤。
