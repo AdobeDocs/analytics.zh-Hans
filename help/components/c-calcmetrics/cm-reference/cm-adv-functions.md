@@ -2,7 +2,7 @@
 description: 可通过以下方法访问这些函数：选中函数下拉列表中的显示高级。
 title: 引用：高级函数
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
@@ -65,7 +65,7 @@ Approximate Count Distinct (customer ID eVar) 是此函数的常见用例。
 
 ## 超出的独特数 {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Count()、RowCount() 和 Approximate Count Distinct() 会受到[“超出的独特数”限制](https://marketing.adobe.com/resources/help/en_US/reference/metrics_uniques_high_numbers.html)的约束。如果维度在特定月份内达到“超出的独特数”限制，则该值将计数为 1 个维度项目。
+Count()、RowCount() 和 Approximate Count Distinct() 会受到[“超出的独特数”限制](https://marketing.adobe.com/resources/help/zh_CN/reference/metrics_uniques_high_numbers.html)的约束。如果维度在特定月份内达到“超出的独特数”限制，则该值将计数为 1 个维度项目。
 
 ## 比较计数函数 {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
@@ -437,7 +437,7 @@ NOT(logical)
 |---|---|
 | *logical* | 必需. 可被计算为 TRUE 或 FALSE 的值或表达式。 |
 
-使用 NOT 时，需要知道表达式（&lt;、&gt;、=、&lt;&gt; 等）返回值 0 还是 1。
+使用 NOT 时，需要知道表达式（&lt;、>、=、&lt;> 等）返回值 0 还是 1。
 
 ## 不等于 {#concept_EC010B7A9D2049099114A382D662FC16}
 
@@ -688,7 +688,7 @@ Z 分数的方程式为：
 
 其中，[!DNL x] 为原始分数，[!DNL μ] 为群体平均值，[!DNL σ] 为群体标准偏差。
 
-> [!NOTE] [!DNL μ] (mu) 和 [!DNL σ] (sigma) 会使用该量度自动计算。
+> [!NOTE][!DNL μ]  (mu) 和 [!DNL σ] (sigma) 会使用该量度自动计算。
 
 Z 分数（量度）
 
