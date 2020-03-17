@@ -4,7 +4,7 @@ keywords: segmentation;segments
 title: 常见问题解答
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,9 +18,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 * Analysis Workspace 中的分段：
 
-   * 您可以[比较区段](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html)。
-   * 在比较中使用[区段作为维度](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segments_as_dimensions.html)。
-   * 在[流失分析](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/graphics/compare-segments-fallout.html)中使用区段。
+   * 您可以[比较区段](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/segment-comparison.html)。
+   * 在比较中使用[区段作为维度](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/segments_as_dimensions.html)。
+   * 在[流失分析](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/graphics/compare-segments-fallout.html)中使用区段。
 
 * 您可以[将多个区段应用于一个报表或项目](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)。
 * 区段对于所有报表包都是通用的。
@@ -52,7 +52,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 访问区段管理器的方法如下：:
 
-* 在顶部导航中，转到 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 组件]**。然后，单击&#x200B;**[!UICONTROL 区段]**，或者
+* 在顶部导航中，转到 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]**。然后，单击&#x200B;**[!UICONTROL 区段]**，或者
 
 * 显示一个现有报表，然后单击左侧导航中的“区段”图标 ![](assets/segment_icon.png)。接下来，单击&#x200B;**[!UICONTROL 管理]**，或者
 
@@ -74,7 +74,7 @@ Reports &amp; Analytics 中的区段下拉菜单已被功能更加丰富的[区�
 
 **需要哪些权限才能使用、创建和管理区段？**
 
-默认情况下，所有用户都可以创建和编辑个人区段。但是，管理员可以决定哪些用户应拥有[创建区段的权限](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)，然后将这些用户分配到特定的组。这些区段可以直接与任何其他 Analytics 用户共享。
+默认情况下，所有用户都可以创建和编辑个人区段。但是，管理员可以决定哪些用户应拥有[创建区段的权限](https://marketing.adobe.com/resources/help/zh_CN/reference/groups.html)，然后将这些用户分配到特定的组。这些区段可以直接与任何其他 Analytics 用户共享。
 
 管理员可以编辑任何区段，并且可以与组织中的组和每个人共享区段。[更多...](/help/components/c-segmentation/seg-reference/seg-rights.md)
 
@@ -90,7 +90,7 @@ Reports &amp; Analytics 中的区段下拉菜单已被功能更加丰富的[区�
 
 管理员可以在 Analysis Workspace 和 [!DNL Reports & Analytics] 用户界面中看到所有区段。
 
-“Ad Hoc Analyics”和“Report Builder”只显示由您生成的区段或专门与您共享的区段。
+Ad Hoc Analysis 和 Report Builder 只显示由您生成的区段或专门与您共享的区段。
 
 **为什么无法删除此区段？**
 
