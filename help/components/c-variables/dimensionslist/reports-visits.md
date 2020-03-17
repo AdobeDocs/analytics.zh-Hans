@@ -3,7 +3,7 @@ description: 显示指定时间段内整个网站的访问量。
 title: 访问
 topic: Reports
 uuid: ff65bddf-fb65-4cf0-8aae-4ab59c2bb0a7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 一次访问的开始定义为新访客（或现有用户在访问过期后）的第一个图像请求。这可被确认为是登录页面。
 * 一次访问的结束定义为访问过期前的最后一个图像请求。这可被确认为是退出页面。
 
-   请参阅 [登录和退出报表](/help/components/c-variables/dimensionslist/reports-entries-exits.md).
+   请参阅[登录和退出报表](/help/components/c-variables/dimensionslist/reports-entries-exits.md)。
 * 小时划分是基于报表包的时区。
 * 此报表不包含行项目。您只能以趋势格式查看。
 * 可应用“小时”、“日”、“周”、“月”、“季”和“年”粒度。这些粒度设置的可用性取决于报表的日期范围。
