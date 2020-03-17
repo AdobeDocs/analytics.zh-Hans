@@ -3,7 +3,7 @@ description: “页面查看”报表是一个趋势报表，它显示选定时�
 title: 页面查看次数
 topic: Reports
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
