@@ -3,7 +3,7 @@ description: 按移动设备支持的网络协议（GPRS、CSD、EDGE、HSCSD �
 title: 网络协议
 topic: Reports
 uuid: 565edadb-44e4-455b-a476-fad2e4b28765
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
