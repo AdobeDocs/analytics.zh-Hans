@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 关于子分类
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
