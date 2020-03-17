@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 导入数值 2 分类
 topic: Admin tools
 uuid: 82a3034c-e002-4991-900f-22dd45d54910
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -47,4 +47,4 @@ YYYY/MM/DD - YYYY/MM/DD
 * event2
 * 等
 
-**~MyCost^~hinge~：**&#x200B;在划分期间用于分配此值的事件。除非使用 [!UICONTROL fixed]，否则该值通常与 [!UICONTROL ~MyCost^~rate~] 的值相同。该列的有效值与 [!UICONTROL ~MyCost^~rate~] 的有效值相同，此外，还包括 [!UICONTROL none]。
+**~MyCost^~hinge~：**&#x200B;在划分期间用于分配此值的事件。除非使用 [!UICONTROL fixed~，否则该值通常与 ~]~MyCost^[!UICONTROL rate] 的值相同。该列的有效值与 [!UICONTROL ~MyCost^~rate~] 的有效值相同，此外，还包括 [!UICONTROL none]。
