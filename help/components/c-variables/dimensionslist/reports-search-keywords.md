@@ -3,7 +3,7 @@ description: 显示搜索关键词的划分。
 title: 搜索关键词
 topic: Reports
 uuid: db9d477b-b711-4b93-9c25-3aebe5f2ace6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->对于付费和免费搜索，搜索引擎都已停止在反向链接中提供（大多数情况下）搜索关键词。因此，Adobe 始终会将 Google（或 Bing、Yahoo）域分类为搜索。根据反向链接的格式和内容（甚至不含关键词），Adobe 通常可确定它是否为搜索的结果，因此搜索将在没有关键词的情况下进行计数。[更多...](https://helpx.adobe.com/analytics/kb/keyword-unavailable.html)
+>对于付费和免费搜索，搜索引擎都已停止在反向链接中提供（大多数情况下）搜索关键词。因此，Adobe 始终会将 Google（或 Bing、Yahoo）域分类为搜索。根据反向链接的格式和内容（甚至不含关键词），Adobe 通常可确定它是否为搜索的结果，因此搜索将在没有关键词的情况下进行计数。[更多...](https://helpx.adobe.com/cn/analytics/kb/keyword-unavailable.html)
 
 ## 分配、过期和特殊值 {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
 
