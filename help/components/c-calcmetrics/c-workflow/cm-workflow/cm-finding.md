@@ -14,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 排序 {#section_89F9C4D515084F5796F2A54D468BF6C8}
 
-当您打开报表并单击报表左侧的“量度”图标 ![](assets/metrics_icon.png) 以调出“量度”边栏时，“量度选择器”中的&#x200B;**排序方式]下拉菜单中会选择四个排序选项：[!UICONTROL **
+当您打开报表并单击报表左侧的“量度”图标 ![](assets/metrics_icon.png) 以调出“量度”边栏时，“量度选择器”中的&#x200B;**[!UICONTROL 排序方式]**&#x200B;下拉菜单中会选择四个排序选项：
 
 ![](assets/cm_sort.png)
 
