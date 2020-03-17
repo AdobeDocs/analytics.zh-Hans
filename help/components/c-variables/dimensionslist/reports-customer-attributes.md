@@ -13,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 有关客户属性以及如何运行客户属性报表的 Analytics 常见问题解答。
 
-**[!UICONTROL 报表]** &gt; **[!UICONTROL 访客资料]** &gt; **[!UICONTROL 客户属性]**
+**[!UICONTROL 报表]** > **[!UICONTROL 访客资料]** > **[!UICONTROL 客户属性]**
 
 如果您在客户关系管理 (CRM) 数据库中捕获到企业客户数据，则可以将该数据上传到 Experience Cloud 中的客户属性数据源。上载数据之后，即可在 Reports &amp; Analytics 中运行“客户属性”报表。
 
@@ -24,11 +24,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## Analytics 中的客户属性和报表量度 {#section_EF343662146B460A882D3DF772ADD86D}
 
-在您上传客户属性并（在 Experience Cloud 中）验证架构后，系统会根据映射到属性字符串和整数的友好名称（例如 *`age`* 或 *`gender`*）创建量度。这些量度显示在&#x200B;**[!UICONTROL 访客资料]** &gt; **[!UICONTROL 客户属性]**&#x200B;报表中。
+在您上传客户属性并（在 Experience Cloud 中）验证架构后，系统会根据映射到属性字符串和整数的友好名称（例如 *`age`* 或 *`gender`*）创建量度。这些量度显示在&#x200B;**[!UICONTROL 访客资料]** > **[!UICONTROL 客户属性]**&#x200B;报表中。
 
 例如：
 
-**[!UICONTROL 访客资料]** &gt; **[!UICONTROL 客户属性]** &gt; **[!UICONTROL 年龄]**
+**[!UICONTROL 访客资料]** > **[!UICONTROL 客户属性]** > **[!UICONTROL 年龄]**
 
 ![](assets/report_age.png)
 
