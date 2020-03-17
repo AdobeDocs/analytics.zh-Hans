@@ -3,7 +3,7 @@ description: 搜索引擎和关键词的推荐默认量度。此量度代表点�
 title: 搜索
 topic: Metrics
 uuid: 7269e83c-6ac7-4423-bb6e-d07540fdd750
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
