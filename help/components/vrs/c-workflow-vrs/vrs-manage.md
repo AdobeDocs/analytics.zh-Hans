@@ -4,7 +4,7 @@ keywords: Virtual Report Suite
 title: 管理虚拟报表包
 topic: Reports and analytics
 uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 在虚拟报表包管理器中，管理员可以编辑、添加、标记、删除、重命名、批准、复制、导出和过滤虚拟报表包。虚拟报表包管理器对非管理员用户不可见。
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 组件]** &gt; **[!UICONTROL 虚拟报表包]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 虚拟报表包]**
 
 ![](assets/vrs-manage.png)
 
