@@ -3,7 +3,7 @@ description: 访客参与率是一个量度系列，它让您可以查看营销�
 title: 访客参与率 - Ad Hoc Analysis
 topic: Metrics
 uuid: 567d627c-a2a8-4fbf-b3fd-abb1341e57a0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
