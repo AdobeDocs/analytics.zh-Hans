@@ -16,10 +16,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 >
 >这些报表不应与 Adobe [Target](/help/components/c-variables/dimensionslist/reports-tnt.md#topic_EBC899DB84A84780A1B8EE95C6C4CF18) 报表混淆。
 
-要访问“目标”报表，请转到 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 报表]** &gt; **[!UICONTROL 目标]** &gt; **[!UICONTROL [您的目标名称]]**
+要访问目标报表，请转到 **[!UICONTROL Analytics]** > **[!UICONTROL 报表]** > **[!UICONTROL 目标]** > **[!UICONTROL [您的目标名称]]**
 
 [创建目标](https://marketing.adobe.com/resources/help/zh_CN/sc/user/targets.html)时，选择要测量的属性量度或 eVar，或根据所选量度选择测量整个网站。
 
 此报表显示指定量度的累计总数，以及该总数和你在配置报表时所设目标之间的差额。
 
-您还可以在 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 组件]** &gt; **[!UICONTROL 目标]**&#x200B;下方管理您的目标。
+您还可以在 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 目标]**&#x200B;下方管理您的目标。
