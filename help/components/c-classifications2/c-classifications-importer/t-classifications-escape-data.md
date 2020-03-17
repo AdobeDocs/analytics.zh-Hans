@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 转义分类数据
 topic: Admin tools
 uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    >[!NOTE]
    >
-   >要指定 v2.1 格式，请在“[!UICONTROL 分类导入器]”页面中导出文件时启用&#x200B;**[!UICONTROL 为输出加引号]**（“[!UICONTROL 浏览器导出]”或“[!UICONTROL FTP 导出]”）。
+   >要指定 v2.1 格式，请在“**[!UICONTROL 分类导入器]**”页面中导出文件时启用[!UICONTROL 为输出加引号]（“[!UICONTROL 浏览器导出]”或“[!UICONTROL FTP 导出]”）。
 
 1. 为包含特殊字符的字段加上双引号 (`"`)。
 
