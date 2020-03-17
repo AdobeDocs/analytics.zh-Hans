@@ -3,7 +3,7 @@ description: 一天内访问您网站的非重复（只计数一次）的访客�
 title: 每日独特访客
 topic: Metrics
 uuid: 31cc98e0-5c81-4893-9f50-b0b47799d2f3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
