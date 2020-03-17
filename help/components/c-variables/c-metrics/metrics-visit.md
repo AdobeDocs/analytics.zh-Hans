@@ -4,7 +4,7 @@ keywords: visit
 title: 访问
 topic: Metrics
 uuid: 91317487-f116-4546-8cd2-421418c49a7a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 表示一系列的页面查看操作。访问量度通常用在显示选定时段内用户会话数量的报表中。
 
-> [!NOTE] 有关访问量和移动设备应用程序启动次数计算方式的信息，请参阅知识库中的[比较访问量和移动设备应用程序启动次数](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html)。
+> [!NOTE] 有关访问量和移动设备应用程序启动次数计算方式的信息，请参阅知识库中的[比较访问量和移动设备应用程序启动次数](https://helpx.adobe.com/cn/analytics/kb/compare-visits-and-mobile-app-launches.html)。
 
 访问量度始终与某个时段关联，因此当同一访客返回您的站点时，您可以知道是否将其认为是新的访问。会话在用户首次到达您的网站时开始，并在遇到以下情况之一时结束：
 
@@ -34,9 +34,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 当某访问结束时，与该访问到期有关的所有变量都将过期，并且不再持续存在。访问量量度将在该访客的下次访问时递增。
 
-> [!NOTE] 如果您将 Analytics 用作 Adobe Target 的报表源，请参阅 [!DNL Target] 文档中的[在 A4T 中最大限度地减少夸大的访问和访客计数](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html)。
+> [!NOTE] 如果您将 Analytics 用作 Adobe Target 的报表源，请参阅 [ 文档中的](https://marketing.adobe.com/resources/help/zh_CN/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html)在 A4T 中最大限度地减少夸大的访问和访客计数[!DNL Target]。
 
-有关详细信息，请参阅《Adobe Analytics 实施指南》中的[识别独特访客](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_overview.html)。
+有关详细信息，请参阅《Adobe Analytics 实施指南》中的[识别独特访客](https://marketing.adobe.com/resources/help/zh_CN/sc/implement/visid_overview.html)。
 
 **时段**
 
