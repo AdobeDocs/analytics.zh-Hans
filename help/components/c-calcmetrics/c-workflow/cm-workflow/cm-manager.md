@@ -14,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 计算量度管理器显示了您拥有的所有区段以及与您共享的区段。管理员级别的用户可以查看组织内的所有自定义量度。此概述说明了计算量度管理器的用户界面和功能。其访问方式如下：
 
-* 在左侧导航中，转到 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 组件]**。然后，单击&#x200B;**[!UICONTROL 计算量度]**。
+* 在左侧导航中，转到&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 组件]**。然后，单击&#x200B;**[!UICONTROL 计算量度]**。
 
 ![](assets/calcmet_mgr_ui.png)
 
