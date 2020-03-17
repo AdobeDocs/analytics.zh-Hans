@@ -3,7 +3,7 @@ description: 通过移动设备访问时，页面的查看次数或维度的设�
 title: 移动设备查看次数
 topic: Metrics
 uuid: ba6ba9e8-3242-4a38-ae7b-359f821e2a46
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
