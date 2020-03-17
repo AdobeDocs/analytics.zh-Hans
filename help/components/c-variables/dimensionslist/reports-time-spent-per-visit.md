@@ -3,7 +3,7 @@ description: 'null'
 title: 每次访问逗留时间
 topic: Reports
 uuid: 76441e36-b7fe-4cf3-8d72-c51d558afa13
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -37,6 +37,6 @@ Adobe Analytics 提供了多种方法来确定 Analytics 报表中的逗留时�
    * 10-15 小时
    * 超过 15 小时
 
-> [!NOTE] [访问](../c-metrics/metrics-visit.md)通常在活动 12 小时后结束。但是，如果使用带有时间戳的点击或数据源，则访问时长可能超过 12 小时。
+> [!NOTE][ 访问](../c-metrics/metrics-visit.md)通常在活动 12 小时后结束。但是，如果使用带有时间戳的点击或数据源，则访问时长可能超过 12 小时。
 
 此维度基于访问。可将此维度与[页面逗留时间](reports-time-spent-on-page.md)进行比较，后者是一个基于点击的维度。
