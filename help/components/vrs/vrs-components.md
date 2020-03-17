@@ -16,7 +16,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 要启用组件管理，请执行以下操作：
 
-1. 转到 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 组件]** &gt; **[!UICONTROL 虚拟报表包]** &gt; **[!UICONTROL 新建虚拟报表包]**。
+1. 转到 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 虚拟报表包]** > **[!UICONTROL 新建虚拟报表包]**。
 1. 定义&#x200B;**[!UICONTROL 设置]**&#x200B;后，单击&#x200B;**[!UICONTROL 组件]**&#x200B;选项卡。
 
 1. 选中&#x200B;**[!UICONTROL 启用虚拟报表包组件自定]**&#x200B;复选框：
