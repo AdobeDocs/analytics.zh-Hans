@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 分类规则 - 定义
 topic: Admin tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -32,7 +32,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> <p>选择报表包和变量 </p> </td> 
-   <td colname="col2"> <p><b>报表包</b> </p> <p>要对其应用规则集的报表包。 </p> <p><b>变量</b> </p> <p>创建分类规则集时，只能应用一个变量。如果您要为一个变量创建多个规则集，则必须将每个规则集应用到多个报表包。 </p> <p>注意：您只能使用您在报表包中拥有访问权限的变量。只有在变量至少定义了一个分类后，变量才会在<span class="wintitle">新建规则集</span>面板中显示。 </p> <p>例如，要使<span class="term">页面</span>可以作为一个变量用于规则集，请确保报表包已为<span class="term">页面</span>实施了<a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classifications.html"  >流量分类</a>。 </p> <p> 您可以在<span class="uicontrol">管理员</span> &gt; <span class="uicontrol">报表包</span> &gt; <span class="uicontrol">流量</span> &gt; <span class="uicontrol">流量分类</span>（或<span class="uicontrol">转化</span> &gt; <span class="uicontrol">转化分类</span>）中对变量创建分类。然后选择该变量，并单击<span class="uicontrol">添加分类</span>。 </p> <p>请参阅管理员帮助中的<a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classification_admin.html"  >流量分类</a>和<a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html"  >转化分类</a>。 </p> </td> 
+   <td colname="col2"> <p><b>报表包</b> </p> <p>要对其应用规则集的报表包。 </p> <p><b>变量</b> </p> <p>创建分类规则集时，只能应用一个变量。如果您要为一个变量创建多个规则集，则必须将每个规则集应用到多个报表包。 </p> <p>注意：您只能使用您在报表包中拥有访问权限的变量。只有在变量至少定义了一个分类后，变量才会在<span class="wintitle">新建规则集</span>面板中显示。 </p> <p>例如，要使<span class="term">页面</span>可以作为一个变量用于规则集，请确保报表包已为<span class="term">页面</span>实施了<a href="https://marketing.adobe.com/resources/help/zh_CN/reference/traffic_classifications.html"  >流量分类</a>。 </p> <p> 您可以在<span class="uicontrol">管理员</span> &gt; <span class="uicontrol">报表包</span> &gt; <span class="uicontrol">流量</span> &gt; <span class="uicontrol">流量分类</span>（或<span class="uicontrol">转化</span> &gt; <span class="uicontrol">转化分类</span>）中对变量创建分类。然后选择该变量，并单击<span class="uicontrol">添加分类</span>。 </p> <p>请参阅管理员帮助中的<a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classification_admin.html"  >流量分类</a>和<a href="https://marketing.adobe.com/resources/help/zh_CN/reference/conversion_classifications.html"  >转化分类</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 激活</span> </p> </td> 
@@ -129,7 +129,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 匹配群组 | 显示正则表达式与促销活动 ID 字符的对应方式，以便您可以对促销活动 ID 中的位置进行分类。 |
 | 匹配结果 | 显示与正则表达式成功匹配的字符串部分。 |
 
-请参阅 [分类规则中的正则表达式](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
+请参阅[分类规则中的正则表达式](/help/components/c-classifications2/crb/classification-quickstart-rules.md)。
 
 ## “测试”页面{#section_EC926F97901C4E65901413F9683AA70A}
 
