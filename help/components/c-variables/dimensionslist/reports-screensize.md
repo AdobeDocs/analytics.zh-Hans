@@ -3,7 +3,7 @@ description: 按移动设备的屏幕大小对网站的移动设备点击量进�
 title: 屏幕大小
 topic: Reports
 uuid: a71378c7-91b1-43da-8583-fbbdc5df39ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
