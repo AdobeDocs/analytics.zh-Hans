@@ -3,7 +3,7 @@ description: 显示人们最常单击的、导向网站外部的链接。这些�
 title: 退出链接
 topic: Reports
 uuid: e1452f04-389d-4aa3-8763-732880284302
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
