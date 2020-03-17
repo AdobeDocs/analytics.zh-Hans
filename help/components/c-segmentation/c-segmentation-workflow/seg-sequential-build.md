@@ -3,7 +3,7 @@ description: 顺序区段使用 THEN 运算符（而非 AND 或 OR）创建。TH
 title: 生成顺序区段
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -25,8 +25,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 | 如果结果为... | 序列 |
 |--- |--- |
-| 匹配 | A -&gt; B<br>A -&gt;（在不同的访问中）B<br>A -&gt; D -&gt; B |
-| 不匹配 | B -&gt; A |
+| 匹配 | A -> B<br>A ->（在不同的访问中）B<br>A -> D -> B |
+| 不匹配 | B -> A |
 
 ## “仅在序列前”和“仅在序列后” {#section_736E255C8CFF43C2A2CAAA6D312ED574}
 
@@ -35,9 +35,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * **仅在序列前**：包含序列之前的所有点击 + 该序列自身的第一次点击（见示例 1、3）。如果序列在路径中出现多次，则“仅在序列前”包括该序列最后一个实例的第一次点击和之前的所有点击（见示例 2）。
 * **仅在序列后**：包含序列之后的所有点击 + 该序列自身的最后一次点击（见示例 1、3）。如果序列在路径中出现多次，则“仅在序列后”包括该序列首个实例的最后一次点击和之后的所有点击（见示例 2）。
 
-以 B -&gt; D 序列为例。三种过滤器将按以下方式确定点击量：
+以 B -> D 序列为例。三种过滤器将按以下方式确定点击量：
 
-**示例 1：B -&gt; D 出现一次**
+**示例 1：B -> D 出现一次**
 
 | 示例 | A | B | C | D | E | F |
 |---|---|---|---|---|---|---|
@@ -45,7 +45,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 仅在序列前 | A | B |  |  |  |  |
 | 仅在序列后 |  |  |  | D | E | F |
 
-**示例 2：B -&gt; D 出现多次**
+**示例 2：B -> D 出现多次**
 
 | 示例 | A | B | C | D | B | C | D | E |
 |---|---|---|---|---|---|---|---|---|
@@ -55,7 +55,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 我们还可以使用“点击深度”维度来描述这个概念。
 
-**示例 3：点击深度 3 -&gt; 5**
+**示例 3：点击深度 3 -> 5**
 
 ![](assets/hit-depth.png)
 
@@ -69,8 +69,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 | 如果结果为... | 序列 |
 |--- |--- |
-| 匹配 | A -&gt; B |
-| 不匹配 | A -&gt; C -&gt; B（因为 B 不在 A 的 1 个页面之内）<br>**注意：**&#x200B;如果取消维度限制，则“A -&gt; B”和“A -&gt; C -&gt; B”都将匹配。 |
+| 匹配 | A -> B |
+| 不匹配 | A -> C -> B（因为 B 不在 A 的 1 个页面之内）<br>**注意：**如果取消维度限制，则“A -> B”和“A -> C -> B”都将匹配。 |
 
 ## 简单页面查看序列
 
@@ -127,7 +127,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 1. 从左侧窗格中拖动两个页面维度到顶级[!UICONTROL 访客]容器中。
 1. 在两个维度之间添加 THEN 运算符。
-1. 单击&#x200B;**[!UICONTROL 选项]** &gt; **[!UICONTROL 添加容器]**，然后在“[!UICONTROL 访客]”级别下添加一个[!UICONTROL 访问]容器，并使用 [!UICONTROL THEN] 运算符排列。
+1. 单击“选项”****>“添加容器”****，然后在[!UICONTROL 访客]级别下添加[!UICONTROL 访问]容器，并使用 [!UICONTROL THEN] 运算符排列。
 
 ![](assets/mixed_level_checkpoints.png)
 
@@ -163,7 +163,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 **创建此区段**
 
 1. 在顶级[!UICONTROL 访问]容器下，拖入两个页面维度。
-1. 通过多选选择两个规则，单击&#x200B;**[!UICONTROL 选项]** &gt; **[!UICONTROL 从所选内容添加容器]**，然后将其更改为[!UICONTROL 访问]容器。
+1. 通过多选选择两个规则，单击“选项”****>“从选择添加容器”****，然后将其更改为[!UICONTROL 访问]容器。
 1. 使用 [!UICONTROL THEN] 运算符将二者联接起来。
 1. 创建一个点击容器作为[!UICONTROL 访问]容器的对等容器并拖入一个页面维度。
 1. 使用另一个 [!UICONTROL THEN] 运算符，将[!UICONTROL 访问]容器中的嵌套序列与[!UICONTROL 点击]容器联接在一起。
@@ -278,7 +278,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 1. 从左侧窗格拖动维度、事件或区段。
 1. 将顶部容器更改为[!UICONTROL 访客]容器。
 1. 将默认插入的 [!UICONTROL AND] 或 [!UICONTROL OR] 运算符更改为 THEN 运算符。
-1. 选择“[!UICONTROL 点击]”容器（维度、事件或项目）并单击&#x200B;**[!UICONTROL 选项]** &gt; **[!UICONTROL 从所选内容添加容器]**。
+1. 选择[!UICONTROL 点击]容器（维度、事件或项目）并单击“选项”****>“从选择添加容器”****。
 1. 单击容器图标并选择&#x200B;**[!UICONTROL 逻辑组]**。![](assets/logic_group_checkpoints.png)
 1. 现在，您可以在[!UICONTROL 逻辑组]容器中设置[!UICONTROL 点击]，而与层次结构无关。
 
@@ -322,7 +322,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 从左窗格中拖动维度、事件和预生成的区段以生成该区段。请参阅[生成逻辑组区段](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)。
 
-在[!UICONTROL 逻辑组]中嵌套这些值后，单击[!UICONTROL 逻辑组]容器中的&#x200B;**[!UICONTROL 排除]**&#x200B;按钮。
+在[!UICONTROL 逻辑组]中嵌套这些值后，单击&#x200B;**[!UICONTROL 逻辑组]**&#x200B;容器中的[!UICONTROL 排除]按钮。
 
 ![](assets/logic_exclude_and.png)
 
@@ -338,7 +338,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 从左窗格中拖动维度、事件和预生成的区段以生成该区段。
 
-在[!UICONTROL 逻辑组]中嵌套这些值后，单击[!UICONTROL 逻辑组]容器中的&#x200B;**[!UICONTROL 排除]**&#x200B;按钮。
+在[!UICONTROL 逻辑组]中嵌套这些值后，单击&#x200B;**[!UICONTROL 逻辑组]**&#x200B;容器中的[!UICONTROL 排除]按钮。
 
 ![](assets/logic_exclude_or.png)
 
