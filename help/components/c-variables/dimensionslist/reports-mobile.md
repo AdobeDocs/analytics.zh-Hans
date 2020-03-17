@@ -3,7 +3,7 @@ description: 显示有关通过移动设备访问网站的信息。移动设备�
 title: 移动设备
 topic: Reports
 uuid: ec8f6977-da92-478e-a934-c32cf5889526
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -108,7 +108,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> PTT </td> 
-   <td colname="col2"> <p> 按设备是否支持一键通 (Push To Talk, PTT) 对移动设备进行分组。The report also includes an <span class="term"> Unknown</span> group for those devices where PTT support cannot be determined. </p> </td> 
+   <td colname="col2"> <p> 按设备是否支持一键通 (Push To Talk, PTT) 对移动设备进行分组。对于不确定是否支持 PTT 的移动设备，该报表还提供了“未知”<span class="term"></span>组。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 修饰邮件支持 </td> 
