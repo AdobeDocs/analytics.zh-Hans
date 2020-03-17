@@ -65,7 +65,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 如果您要快速了解美国和国际浏览行为之间的最大差别，则可以创建另一个可减去彼此百分比的量度。为此，您可以使用容器功能，以有效地使用圆括号括住 2 组量度。
 
-1. 在“[!UICONTROL 定义]”画布中，单击&#x200B;**[!UICONTROL 添加]** &gt; **[!UICONTROL 容器]**：
+1. 在[!UICONTROL 定义]画布中，单击&#x200B;**[!UICONTROL 添加]** > **[!UICONTROL 容器]**：
 
    ![](assets/cm_add_container.png)
 
