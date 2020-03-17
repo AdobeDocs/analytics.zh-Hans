@@ -3,7 +3,7 @@ description: 通过跟踪和记录访客每次访问的反向链接网站，可�
 title: 反向链接类型
 topic: Reports
 uuid: 7f63d327-d223-4537-a722-4780aae05c2b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **搜索引擎**：在访客使用搜索引擎来访问您的网站时，会记录搜索引擎反向链接。反向链接值必须被 Adobe 视为搜索引擎，并且不能是不被视为搜索引擎的子域（例如 [!DNL mail.yahoo.com] 不是搜索引擎，因为此域名将用于电子邮件）。
 
-**[!UICONTROL 社交网络]**：反向链接值必须被 Adobe 视为社交网络。请参阅[社交网络列表](https://helpx.adobe.com/analytics/kb/list-social-networks.html)。
+**[!UICONTROL 社交网络]**：反向链接值必须被 Adobe 视为社交网络。请参阅[社交网络列表](https://helpx.adobe.com/cn/analytics/kb/list-social-networks.html)。
 
 **电子邮件**：访客单击经电子邮件发送的消息链接（包含协议 [!DNL imap://] 或 [!DNL mail://]）并进入网站后，反向链接域名会被视为电子邮件反向链接域名。例如，由于协议为 [!DNL https://]，因此来自 [!DNL https://mail.yahoo.com] 的任何消息均不会计为电子邮件反向链接。Outlook 电子邮件会报告于“键入/书签式”行上，而任何采用 HTTP 协议（域为已知搜索引擎）的反向链接均报告于“搜索引擎”行上。
 
