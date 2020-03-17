@@ -3,7 +3,7 @@ description: 区段生成器提供了一个画布以将量度维度、区段和�
 title: 生成区段
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # 区段生成器
 
-The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metrics, Dimensions, Segments, and Events to segment visitors based on container hierarchy logic, rules, and operators. 通过使用该集成开发工具，您可以生成和保存简单或复杂的区段，以确定跨访问和页面点击的访客属性和操作。
+[!UICONTROL 区段生成器]提供了一个画布以将量度、维度、区段和事件拖放到其中，从而根据容器层次结构逻辑、规则和运算符划分访客。通过使用该集成开发工具，您可以生成和保存简单或复杂的区段，以确定跨访问和页面点击的访客属性和操作。
 
 >[!IMPORTANT]
 >
@@ -19,11 +19,11 @@ The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metrics, Dim
 
 访问区段生成器的方法有以下几种：
 
-* **Analytics 顶部导航**：单击 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 组件]** &gt; **[!UICONTROL 区段]**。
-* **[!UICONTROL Analysis Workspace]**：单击 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 工作区]**，打开一个项目，然后单击 **[!UICONTROL + 新建]** &gt; **[!UICONTROL 创建区段]**。
-* **[!UICONTROL Reports &amp; Analytics]**：单击 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 报表]**，打开一个现有报表并单击左侧导航中的“区段”图标 ![](assets/segment_icon.png)，然后单击&#x200B;**[!UICONTROL 添加]**。
+* **Analytics 顶部导航**：单击 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 区段]**。
+* **[!UICONTROL Analysis Workspace]**：单击 **[!UICONTROL Analytics]** > **[!UICONTROL 工作区]**，打开一个项目，然后单击 **[!UICONTROL + 新建]** > **[!UICONTROL 创建区段]**。
+* **[!UICONTROL Reports &amp; Analytics]**：单击 **[!UICONTROL Analytics]** > **[!UICONTROL 报表]**，打开一个现有报表并单击左侧导航中的“区段”图标 ![](assets/segment_icon.png)，然后单击&#x200B;**[!UICONTROL 添加]**。
 * **[!UICONTROL Ad Hoc Analysis]**：[在 Ad Hoc Analysis 中生成区段](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md#build-segments)。
-* **[!UICONTROL Report Builder]**：[在 Report Builder 中添加或编辑区段](https://marketing.adobe.com/resources/help/en_US/arb/segmentation.html)。
+* **[!UICONTROL Report Builder]**：[在 Report Builder 中添加或编辑区段](https://marketing.adobe.com/resources/help/zh_CN/arb/segmentation.html)。
 
 ## 区段生成器用户界面 {#concept_643F2DF74C544796B58F4656ABC5F726}
 
@@ -55,9 +55,9 @@ The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metrics, Dim
 
 1. **[!UICONTROL 归因模型]**：用于维度分段。维度模型在连续分段中尤其有用，例如，在那些支持流量可视化图表的连续分段中。
 
-   * **[!UICONTROL 重复]** (（默认）):包括维的实例和保留的值。
-   * **[!UICONTROL 实例]**:包括维的实例。
-   * **[!UICONTROL 非重复实例]**:包括维的唯一实例（非重复）。
+   * **[!UICONTROL 重复]**（默认）：包含维度的实例和持久值。
+   * **[!UICONTROL 实例]**：包含维度的实例。
+   * **[!UICONTROL 非重复实例]**：包含维度的唯一实例（非重复）。
    ![](assets/attribution-models.jpg)
 
 1. **[!UICONTROL 维度]**：从维度列表中拖放的维度（橙色侧栏）。
@@ -99,13 +99,13 @@ The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metrics, Dim
 
    ![](assets/drag_n_drop_dimension.png)
 
-   将元素拖动到[!UICONTROL 定义]中之后，将显示默认的顶级[!UICONTROL 点击]容器。您可以从“显示”**下拉菜单中将容器类型更改为“访问”或“访客”。**
+   将元素拖动到[!UICONTROL 定义]中之后，将显示默认的顶级[!UICONTROL 点击]容器。您可以从“显示”****&#x200B;下拉菜单中将容器类型更改为“访问”或“访客”。
 
 1. 从下拉菜单中，设置[运算符](/help/components/c-segmentation/seg-reference/seg-operators.md)。
 1. 输入或选择所选项目的值。
-1. 如果需要，可使用 **[!UICONTROL And]**、**[!UICONTROL Or]** 或 **[!UICONTROL Then]** 规则添加其他容器。
+1. 如果需要，可使用“**[!UICONTROL And]**”、“**[!UICONTROL Or]**”或“**[!UICONTROL Then]**”规则添加其他容器。
 1. 在放置容器并设置规则之后，可以在右上方的验证图表中看到区段的结果。验证器将指示与所创建区段匹配的页面查看、访问和独特访客的百分比和绝对数。
-1. 在&#x200B;**[!UICONTROL 标记]**&#x200B;下，通过选择现有标记或创建新标记来[标记](/help/components/c-segmentation/c-segmentation-workflow/seg-tag.md)容器。
+1. 在“标记”****&#x200B;下，通过选择现有标记或创建新标记来[标记](/help/components/c-segmentation/c-segmentation-workflow/seg-tag.md)容器。
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存区段。
 
 此时您将转到[区段管理器](/help/components/c-segmentation/c-segmentation-workflow/seg-manage.md)，在此处，可以通过多种方式标记、共享和管理区段。
@@ -114,7 +114,7 @@ The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metrics, Dim
 
 您可以[生成容器框架](/help/components/c-segmentation/seg-overview.md)，然后在其中放置逻辑规则和运算符。
 
-1. 单击&#x200B;**[!UICONTROL 选项 &gt; 添加容器]**。
+1. 单击&#x200B;**[!UICONTROL 选项 > 添加容器]**。
 
    ![](assets/add_container.png)
 
@@ -124,11 +124,11 @@ The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metrics, Dim
 
 1. 根据需要更改容器类型。
 1. 将维度、区段或事件从左侧窗格拖动到容器中。
-1. 继续通过定义顶部的顶级&#x200B;**[!UICONTROL 选项]** &gt; **[!UICONTROL 添加容器]**&#x200B;按钮添加新容器，或者从容器中添加容器以嵌套逻辑。
+1. 继续通过定义顶部的顶级“**[!UICONTROL 选项]** > **[!UICONTROL 添加容器]**”按钮添加新容器，或者从容器中添加容器以嵌套逻辑。
 
    **或者**
 
-   选择一个或多个规则，然后单击&#x200B;**[!UICONTROL 选项]** &gt; **[!UICONTROL 从所选内容添加容器]**。这会将您的选择转换为单独的容器。
+   选择一个或多个规则，然后单击“**[!UICONTROL 选项]** > **[!UICONTROL 通过选择添加容器]**”。这会将您的选择转换为单独的容器。
 
 ## 在区段中使用日期范围 {#concept_252A83D43B6F4A4EBAB55F08AB2A1ACE}
 
@@ -162,7 +162,7 @@ The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metrics, Dim
 1. 转到区段生成器。
 1. 提供区段的标题和描述。
 
-   步骤结果 1. 单击&#x200B;**[!UICONTROL 显示区段]可在左侧导航中显示区段列表。**
+   步骤结果 1. 单击&#x200B;**[!UICONTROL 显示区段]**&#x200B;可在左侧导航中显示区段列表。
 
    步骤结果 1. 将要堆叠的区段拖放到区段定义画布上。下面是堆叠现有的“来自平板电脑的访问”和“美国地区”区段的区段示例：
 
