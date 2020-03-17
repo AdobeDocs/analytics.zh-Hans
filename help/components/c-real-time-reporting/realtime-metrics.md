@@ -3,7 +3,7 @@ description: 列出实时报表所支持的量度和维度。还支持分类（�
 title: 受支持的实时量度和维度
 topic: Reports
 uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
