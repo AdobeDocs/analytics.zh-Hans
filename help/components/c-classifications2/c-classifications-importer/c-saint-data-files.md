@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 分类数据文件
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 导入器允许您将文件中的分类数据批量上载至分析报表。导入要求使用特定文件格式，才能成功上载数据。
 
-为了帮助创建有效的数据文件，可以下载模板文件，将分类数据粘贴到该模板文件所提供的文件结构中。有关详细信息，请参阅 [下载分类模板](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md)。
+为了帮助创建有效的数据文件，可以下载模板文件，将分类数据粘贴到该模板文件所提供的文件结构中。有关详细信息，请参阅[下载分类模板](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md)。
 
 请参阅[通用文件结构](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)，以了解有关分类中字符限制的详细信息。
 
@@ -52,12 +52,12 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 分类导出可能包含重复键值，因为键值中存在换行符。在 FTP 或浏览器导出中，通过打开 FTP 帐户的引号功能可以解决此问题。该功能会在每个带有换行符的键值两边加上引号。
 * 导入文件首行中的单元格 C1 包含一个版本标识符，用于决定分类如何处理文件剩余部分内引号的使用。
 
-   * v2.0 忽略引号，并将所有引号都视为指定键和值的一部分。以下面这个值为例："This is ""some value"""。v2.0 会照字面将其解释为 "This is ""some value"""。
-   * v2.1 则要求分类将引号视为 Excel 文件中使用的文件格式的一部分。因此，v2.1 将以上示例的格式解释为：This is "some value"。
-   * 如果文件中指定的是 v2.1，但实际上需要的是 v2.0，也就是说，当引号的使用方式在 Excel 格式中违规时，则可能产生问题。例如，若您有以下值："VP NO REPS" S/l Dress w/ Overlay。在 v2.1 中，这是错误的格式（此值应当由左右引号括起来，并且作为实际值一部分的引号应当由额外的引号转义），而且分类也无法正常工作。
+   * v2.0 忽略引号，并将所有引号都视为指定键和值的一部分。以下面这个值为例：&quot;This is &quot;&quot;some value&quot;&quot;&quot;。v2.0 会照字面将其解释为 &quot;This is &quot;&quot;some value&quot;&quot;&quot;。
+   * v2.1 则要求分类将引号视为 Excel 文件中使用的文件格式的一部分。因此，v2.1 将以上示例的格式解释为：This is &quot;some value&quot;。
+   * 如果文件中指定的是 v2.1，但实际上需要的是 v2.0，也就是说，当引号的使用方式在 Excel 格式中违规时，则可能产生问题。例如，若您有以下值：&quot;VP NO REPS&quot; S/l Dress w/ Overlay。在 v2.1 中，这是错误的格式（此值应当由左右引号括起来，并且作为实际值一部分的引号应当由额外的引号转义），而且分类也无法正常工作。
    * 请确保您执行了以下操作之一：通过更改上载文件中的标题（单元格 C1）将您的文件格式更改为 v2.0，或者在所有文件中正确实施 Excel 引号功能。
 
-* 数据文件的第一行（非注释）包含用于标识该列中分类数据的列标题。导入器要求列标题采用特定的格式。有关详细信息，请参 [阅列标题格式](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)。
+* 数据文件的第一行（非注释）包含用于标识该列中分类数据的列标题。导入器要求列标题采用特定的格式。有关详细信息，请参阅[列标题格式](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)。
 * 在数据文件中，紧接标题行的是数据行。每行数据都应包含各列标题的数据字段。
 * 数据文件支持以下控制代码，Adobe 可以使用这些代码为文件提供结构以及正确导入分类数据：
 
@@ -94,7 +94,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!MORELIKETHIS]
 >
->* [常见上载问题](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)
+>* [常见上载问题](https://helpx.adobe.com/cn/analytics/kb/common-saint-upload-issues.html)
 
 
 ## 列标题格式
@@ -173,7 +173,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 根据日期范围分类促销活动：
 
-1. 登录 [!DNL Analytics]，然后转到“管理员”&gt;“分类”。
+1. 登录 [!DNL Analytics]，然后转到“管理员”>“分类”。
 1. 单击&#x200B;**[!UICONTROL 浏览器导出]**&#x200B;选项卡，确保启用日期的分类的设置均正确，然后单击“导出文件”。
 1. 在 Microsoft Excel 或您熟悉的其他电子表格编辑器中打开此文件。
 1. 其中一列将以下面的内容结尾：
@@ -195,5 +195,5 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 有关分类的疑难解答
 
-* [常见 上载问题](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)：知识库文章，描述由于文件格式以及文件内容不正确导致的问题。
+* [常见 上载问题](https://helpx.adobe.com/cn/analytics/kb/common-saint-upload-issues.html)：知识库文章，描述由于文件格式以及文件内容不正确导致的问题。
 
