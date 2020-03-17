@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/alert-manager.png)
 
-警报管理器（**[!UICONTROL Analytics]** &gt; **[!UICONTROL 组件]** &gt; **[!UICONTROL 警报]**）的结构与[区段管理器](https://marketing.adobe.com/resources/help/zh_CN/analytics/segment/seg_manage.html)和[计算量度管理器](https://marketing.adobe.com/resources/help/zh_CN/analytics/calcmetrics/cm_manager.html)非常类似，允许您
+警报管理器（**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 警报]**）的结构与[区段管理器](https://marketing.adobe.com/resources/help/zh_CN/analytics/segment/seg_manage.html)和[计算量度管理器](https://marketing.adobe.com/resources/help/zh_CN/analytics/calcmetrics/cm_manager.html)非常类似，允许您
 
 ![](assets/alert-manager-tasks.png)
 
