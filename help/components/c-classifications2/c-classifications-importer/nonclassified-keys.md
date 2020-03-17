@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 未分类键值
 topic: Admin tools
 uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -36,5 +36,5 @@ t_rename_classification_none.xml
 
    要遵循此文档中的示例，您可能要在名为[!UICONTROL 移动设备促销活动名称]的列中键入“非移动设备促销活动”。
 
-   此条目会将“*移动设备促销活动类型`None`”报表中的**`non-mobile campaign`重命名为*。
+   此条目会将“*`None`*&#x200B;移动设备促销活动类型&#x200B;*`non-mobile campaign`*”报表中的 [!UICONTROL  重命名为 ]。
 1. [将数据导入](/help/components/c-classifications2/c-classifications-importer/import-file.md)回系统中。
