@@ -3,7 +3,7 @@ description: 指访客使用的浏览器类型，如 Internet Explorer、Mozilla
 title: 浏览器类型
 topic: Reports
 uuid: c755abce-ac24-42b6-b118-a971af7f6a59
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
