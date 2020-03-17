@@ -3,7 +3,7 @@ description: 客户添加第一件商品而打开购物车的次数。发生在�
 title: 购物车打开
 topic: Metrics
 uuid: 3aac7908-979e-48db-a6d4-580863657e3c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
