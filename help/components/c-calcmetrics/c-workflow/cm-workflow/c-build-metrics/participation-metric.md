@@ -18,7 +18,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 1. 在计算量度生成器中创建新量度。
 1. 将成功事件“订购”拖到“定义”画布。
-1. 在&#x200B;**[!UICONTROL 设置]**&#x200B;齿轮下，将该事件的[归因模型](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)更改为&#x200B;**[!UICONTROL 参与率]**。选择&#x200B;**[!UICONTROL 访问]**&#x200B;回顾窗口。定义应该类似于：
+1. 在[设置](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)齿轮下，将该事件的&#x200B;**[!UICONTROL 归因模型]**&#x200B;更改为&#x200B;**[!UICONTROL 参与率]**。选择&#x200B;**[!UICONTROL 访问]**&#x200B;回顾窗口。定义应该类似于：
 
    ![](assets/participation.png)
 
