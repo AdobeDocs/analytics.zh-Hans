@@ -3,7 +3,7 @@ description: 通过使用流量报表，您可以对访客与网站之间的交�
 title: 流量
 topic: Reports
 uuid: c32af0c0-f0c2-47f7-a5f6-4a2df63e11fc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 确定受欢迎的网站内容。
 * 采用任何可度量的标准对访客分类。
 
-一些现成的报表同时包含流量和转化量度（如[!UICONTROL 搜索引擎]报表）。不过，[!UICONTROL 流量]和[!UICONTROL 转化]报表对您的组织是唯一的，并显示在&#x200B;**[!UICONTROL 流量]**&#x200B;和&#x200B;**转化]菜单中。[!UICONTROL **
+一些现成的报表同时包含流量和转化量度（如[!UICONTROL 搜索引擎]报表）。不过，[!UICONTROL 流量]和[!UICONTROL 转化]报表对您的组织是唯一的，并显示在&#x200B;**[!UICONTROL 流量]**&#x200B;和&#x200B;**[!UICONTROL 转化]**&#x200B;菜单中。
 
 **一般持久性**
 
