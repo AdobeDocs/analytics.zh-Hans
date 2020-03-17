@@ -3,7 +3,7 @@ description: 实现对客户活动的全面、准确和详细分析。通过使�
 title: 转化
 topic: Reports
 uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,13 +15,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 例如，如果您希望了解您主页上哪些类型的内部促销活动可能会导致购买行为，您必须先捕获内部跟踪代码并为捕获内部促销活动的&#x200B;*`s.eVar`*&#x200B;设置单次访问期间的持续时间。完成成功事件（例如购买）时，该成功事件的信用将分配给该访客具备的所有转化变量，例如内部促销活动 ID。通过运行[!UICONTROL 内部促销活动报表]，您可以了解哪种促销活动在网站上产生的转化最多。
 
-一些现成的报表同时包含流量和转化量度（如[!UICONTROL 搜索引擎]报表）。不过，[!UICONTROL 流量]和[!UICONTROL 转化]报表对您的组织是唯一的，并显示在&#x200B;**[!UICONTROL 流量]**&#x200B;和&#x200B;**转化]菜单中。[!UICONTROL **
+一些现成的报表同时包含流量和转化量度（如[!UICONTROL 搜索引擎]报表）。不过，[!UICONTROL 流量]和[!UICONTROL 转化]报表对您的组织是唯一的，并显示在&#x200B;**[!UICONTROL 流量]**&#x200B;和&#x200B;**[!UICONTROL 转化]**&#x200B;菜单中。
 
 **报表属性**
 
 * [!UICONTROL 自定义转化]报表基于 eVar（转化变量）。
 * 转化变量可独立于页面查看之外存在，并可在其指定的过期日期内与量度关联。
-* 报表的默认量度为收入。若要更改默认量度，请参阅[选择默认报表量度](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html)。
+* 报表的默认量度为收入。若要更改默认量度，请参阅[选择默认报表量度](https://marketing.adobe.com/resources/help/zh_CN/sc/user/t_metrics_set_default.html)。
 * 这些报表以趋势格式和排名格式显示。
 * 您可以在这些报表中使用“分类”来重命名和整合行项目。
 * 如果启用基本子关系，则可以按以下方式划分这些报表：
