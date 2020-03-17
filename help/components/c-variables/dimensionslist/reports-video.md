@@ -3,7 +3,7 @@ description: 显示有关在线媒体访问统计数据的信息。这些报表�
 title: 视频
 topic: Reports
 uuid: d14c4451-2543-414e-a582-001dce001f5f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -44,4 +44,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-请参阅[在 Adobe Analytics 中测量音频和视频](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/)。
+请参阅[在 Adobe Analytics 中测量音频和视频](https://marketing.adobe.com/resources/help/zh_CN/sc/appmeasurement/hbvideo/)。
