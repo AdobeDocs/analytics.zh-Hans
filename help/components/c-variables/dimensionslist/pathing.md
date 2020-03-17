@@ -3,7 +3,7 @@ description: 一组基于路径分析的报表。从技术上说，路径分析�
 title: 路径分析
 topic: Reports
 uuid: c4ff9fa8-e567-4039-9c86-322800a942da
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 一组基于路径分析的报表。从技术上说，路径分析意味着从一个页面名称进入另一个页面名称（从一个值到另一个值）。
 
-请使用 [Analysis Workspace 流量](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html)了解更灵活的路径选项。
+请使用 [Analysis Workspace 流量](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/flow.html)了解更灵活的路径选项。
 
-> [!NOTE]要启用路径分析，请转到&#x200B;**[!UICONTROL 管理员 &gt; 报表包 &gt; 编辑设置 &gt; 流量 &gt; 流量变量]**。要在网站区域和服务器报表中启用路径分析，请联系客户关怀团队。
+> [!NOTE]要启用路径分析，请转到&#x200B;**[!UICONTROL 管理员 > 报表包 > 编辑设置 > 流量 > 流量变量]**。要在网站区域和服务器报表中启用路径分析，请联系客户关怀团队。
 
 如果您要了解值收集的顺序，则需为搜集这些值的变量启用路径。页面默认启用路径。路径在默认情况下没有对任何 prop 启用，因为它仅适合特定情况。请与客户关怀联系以对 prop 启用路径。
 
@@ -33,7 +33,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **示例 - 搜索路径**
 
-从一个值移动到另一个值的概念同样也适用于其他流量变量，包括 *`s.props`*。例如，如果为内部搜索词 *`s.prop`* 启用路径，则可以查看访客通过搜索词进行访问的路径。
+从一个值移动到另一个值的概念同样也适用于其他流量变量，包括 *`s.props`*。例如，如果为内部搜索词 *`s.prop`* 启用路径，则可以查看访客通过搜索词进行访问的路径。
 
 **示例 - 按登录状态分析路径**
 
