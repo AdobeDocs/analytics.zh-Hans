@@ -3,7 +3,7 @@ description: 此路径报表显示访客浏览网站上选定页面之前所查�
 title: 上一页面
 topic: Reports
 uuid: 743d9931-25ed-4782-a10a-da25c4f89480
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
