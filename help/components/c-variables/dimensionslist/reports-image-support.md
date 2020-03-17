@@ -3,7 +3,7 @@ description: 按设备支持的图像类型对移动设备进行分组。例如�
 title: 图像支持
 topic: Reports
 uuid: 99cea17a-660b-46ff-8cbc-a4e42d6e8c89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
