@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 分类模板
 topic: Admin tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 （可选）在将分类导入市场营销报告之前，您可以下载模板来帮助您创建分类数据文件。数据文件会将您所需的分类用作列标题，然后在相应的分类标题下组织报表数据集。
 
-**[!UICONTROL 管理员]** &gt; **[!UICONTROL 分类导入器]**。
+**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
 
 | 元素 | 描述 |
 |---|---|
@@ -40,7 +40,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 > [!NOTE] 模板方法将您的数据下载限制为单个报表包。
 
-1. 单击&#x200B;**[!UICONTROL 管理员]** &gt; **[!UICONTROL 分类导入器]**。
+1. 单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
 1. 在&#x200B;**[!UICONTROL 下载模板]**&#x200B;选项卡上，指定[数据模板配置](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md)。
 1. 单击&#x200B;**[!UICONTROL 下载]**。
 1. 将模板文件保存到您的本地系统中。
