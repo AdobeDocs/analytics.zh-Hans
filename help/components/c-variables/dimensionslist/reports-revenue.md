@@ -3,7 +3,7 @@ description: 测量您所有的产品在特定时段内产生的收入量。
 title: 收入
 topic: Reports
 uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -40,7 +40,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 * “[!UICONTROL 收入]”会将某时段的总收入量四舍五入至最接近的货币值。它不会对每一个单独的产品或每一次点击进行四舍五入。
 * 由于 Analytics 会将每日收入四舍五入至最接近的整数货币值，因此每日收入量之和与每月总收入量相比较，会有极微小的出入。这是因为每月总收入量并非是经过四舍五入的每日收入量之和，而是将绝对总和四舍五入到最接近的整数货币值。
-* 您可以使用[计算量度](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)创建一个报表，该报表不会将收入量四舍五入到最接近的整数货币值。
+* 您可以使用[计算量度](https://marketing.adobe.com/resources/help/zh_CN/analytics/calcmetrics/)创建一个报表，该报表不会将收入量四舍五入到最接近的整数货币值。
 * 除非使用 `purchaseID` 变量，否则用户在刷新页面时会使收入虚增，因为它会将此数据多次发送至 Adobe。
 * 小时划分是基于报表包的时区。
 * 此报表不包含行项目。它只能以趋势格式查看。
@@ -64,15 +64,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 产品特定的属性 {#section_ED87FFD020634453AABE86B0248BE69B}
 
-* 通过转至&#x200B;**[!UICONTROL 转化]** &gt; **[!UICONTROL 购买]** &gt; **[!UICONTROL 收入]**，可访问此报表。
+* 转至&#x200B;**[!UICONTROL 转化]** > **[!UICONTROL 购买]** > **[!UICONTROL 收入]**，可访问此报表。
 
 * “[!UICONTROL 流量源]”划分可在“[!UICONTROL 查找方法]”下方找到。
 
-* 通过转至&#x200B;**[!UICONTROL 网站量度]** &gt; **[!UICONTROL 购买]** &gt; **[!UICONTROL 收入]**，可访问此报表。
+* 转至&#x200B;**[!UICONTROL 网站量度]** > **[!UICONTROL 购买]** > **[!UICONTROL 收入]**，可访问此报表。
 
 * 除前面提到的所有划分外，还提供[!UICONTROL 首次联系和最近联系营销渠道]划分。
 
-* 还可通过转至&#x200B;**[!UICONTROL 网站量度]** &gt; **[!UICONTROL 购买]** &gt; **[!UICONTROL 收入]**&#x200B;访问此报表。
+* 还可通过转至&#x200B;**[!UICONTROL 网站量度]** > **[!UICONTROL 购买]** > **[!UICONTROL 收入]**&#x200B;访问此报表。
 
 * 除了之前提到的划分之外，还可使用[!UICONTROL 列表]变量和当前[!UICONTROL 视频]变量。
 
