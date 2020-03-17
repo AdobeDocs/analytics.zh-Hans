@@ -3,7 +3,7 @@ description: 显示用于访问您网站的移动设备的详细列表。
 title: 设备
 topic: Reports
 uuid: b7ca4a3f-8646-42b8-82c8-ea4f809dc115
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
