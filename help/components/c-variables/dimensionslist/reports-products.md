@@ -3,7 +3,7 @@ description: 识别单个产品和产品组（类别）对各项转化量度（�
 title: 产品
 topic: Reports
 uuid: a081352b-601a-43be-83ad-fa7f69890b49
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
