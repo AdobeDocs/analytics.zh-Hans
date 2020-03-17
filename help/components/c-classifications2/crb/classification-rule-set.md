@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 分类规则集
 topic: Admin tools
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 分类规则生成器页面 {#section_C60B0888C76D49C596EF19F11808B718}
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理员]** &gt; **[!UICONTROL 分类规则生成器]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 分类规则生成器]**
 
 “[!UICONTROL 分类规则生成器]”中提供了以下字段和选项。
 
@@ -65,15 +65,15 @@ t_classification_rule_set.xml
 
 命名分类规则集，应用变量并指定覆盖设置。
 
-1. （先决条件）在&#x200B;**[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]**&#x200B;中定义分类结构。
+1. （前提条件）在&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**&#x200B;中定义分类结构。
 
-   （请参阅“管理工具”帮助中的[分类](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)，以了解有关添加分类的信息。）
+   （请参阅“管理工具”帮助中的[分类](https://marketing.adobe.com/resources/help/zh_CN/reference/classifications.html)，以了解有关添加分类的信息。）
 
    只有在变量至少定义了一个分类后，变量才会在[!UICONTROL 新建规则集]面板中显示。
 
-   您可以在&#x200B;**[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]** &gt; **[!UICONTROL 流量]** &gt; **[!UICONTROL 流量分类]**（或&#x200B;**[!UICONTROL 转化]** &gt; **[!UICONTROL 转化分类]**）中对变量创建分类。然后选择该变量，并单击&#x200B;**[!UICONTROL 添加分类]**。
+   您可以在&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **[!UICONTROL 流量]** > **[!UICONTROL 流量分类]**（或&#x200B;**[!UICONTROL 转化]** > **[!UICONTROL 转化分类]**）中对变量创建分类。然后选择该变量，并单击&#x200B;**[!UICONTROL 添加分类]**。
 
-1. 要创建规则集，请单击&#x200B;**[!UICONTROL 管理员]** &gt; **[!UICONTROL 分类规则生成器]** &gt; **[!UICONTROL 添加规则集]**。
+1. 要创建规则集，请单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 分类规则生成器]** > **[!UICONTROL 添加规则集]**。
 
    ![](assets/new_rule_set.png)
 
