@@ -3,7 +3,7 @@ description: 商品被添加到购物车的次数。该值来自于 scAdd 事件
 title: 购物车加货
 topic: Metrics
 uuid: d034ba4c-f78b-4ce3-9ba2-dd158e26ede5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
