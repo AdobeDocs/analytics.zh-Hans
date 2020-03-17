@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
+source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
 
 ---
 
@@ -150,6 +150,8 @@ source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
    + [创建Analytics属性](launch/create-analytics-property.md)
    + [部署到开发环境](launch/deploy-dev.md)
    + [验证并发布到prod](launch/validate-publish-prod.md)
+   + [将数据层对象映射到数据元素](launch/layer-to-elements.md)
+   + [将启动项数据元素映射到Analytics变量](launch/elements-to-variable.md)
 + 在其他平台上实施Analytics {#other}
    + [使用硬编码图像请求实施分析](other/hardcoded.md)
    + Implement Analytics using DTM {#dtm}
@@ -190,7 +192,7 @@ source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
    + [跨不同的实施类型跟踪](use-cases/cross-type-implementation.md)
    + [外部电子邮件跟踪](use-cases/email-external.md)
 + Validate your implementation {#validate}
-   + [旧版Adobe Experience cloud调试器](validate/debugger.md)
+   + [旧版Adobe Experience Cloud调试器](validate/debugger.md)
    + [数据收集查询参数](validate/query-parameters.md)
    + [数据包监视器](validate/packet-monitor.md)
    + [哈希冲突](validate/hash-collisions.md)
