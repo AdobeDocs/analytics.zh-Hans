@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 转化分类
 topic: Admin tools
 uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -61,9 +61,9 @@ t_classification_conversion.xml
 
 描述如何在“管理员”中添加转化分类的步骤。
 
-1. 单击&#x200B;**[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]**。
+1. 单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
 1. 选择报表包。
-1. 单击&#x200B;**[!UICONTROL 编辑设置]** &gt; **[!UICONTROL 转化]** &gt; **[!UICONTROL 转化分类]**。
+1. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 转化]** > **[!UICONTROL 转化分类]**。
 1. 从&#x200B;**[!UICONTROL 选择分类类型]**&#x200B;下拉列表中，选择要添加分类的变量。
 
    ![步骤信息](assets/sub_class_create.png)
@@ -91,9 +91,9 @@ t_classification_delete_conversion.xml
 
 删除不再需要的转化分类。
 
-1. 单击包标题中的&#x200B;**[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]**，以打开报表包管理器。
+1. 单击包标题中的&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**，打开报表包管理器。
 1. 选择报表包。
-1. 单击&#x200B;**[!UICONTROL 编辑设置]** &gt; **[!UICONTROL 转化]** &gt; **[!UICONTROL 转化分类]**。
+1. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 转化]** > **[!UICONTROL 转化分类]**。
 1. 从&#x200B;**[!UICONTROL 选择分类类型]**&#x200B;下拉列表中，选择要从中删除分类的变量。
 1. 将鼠标悬停在&#x200B;**[!UICONTROL 编辑分类]**&#x200B;图标上，然后选择&#x200B;**[!UICONTROL 删除分类]**。
 1. 在“删除分类”对话框中，单击&#x200B;**[!UICONTROL 删除]**。
