@@ -32,12 +32,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 在 Analysis Workspace 中使用以下快捷键：
 
    `ctrl (or cmd) + shift + a`
-* 直接转到警报生成器：**[!UICONTROL 工作区]** &gt; **[!UICONTROL 组件]** &gt; **[!UICONTROL 新警报]**。
+* 直接转到警报生成器：**[!UICONTROL 工作区]** > **[!UICONTROL 组件]** > **[!UICONTROL 新警报]**。
 * 选择一个或多个自由格式表行项目，单击鼠标右键并选择&#x200B;**[!UICONTROL 从选定范围中创建警报]**。这将打开警报生成器，并在生成器中预填充表格中应用的相应量度和过滤器。然后，您可以根据需要编辑警报。
 
    ![](assets/create-alert-from-selection.png)
 
-* 从 [!UICONTROL Reports &amp; Analytics] 报表中，转到&#x200B;**[!UICONTROL 更多]** &gt; **[!UICONTROL 添加警报]**。这将打开新的警报生成器，并在生成器中预填充报表中应用的相应量度和过滤器。然后，您可以根据需要编辑警报。
+* 从 [!UICONTROL Reports &amp; Analytics] 报表中，转到&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 添加警报]**。这将打开新的警报生成器，并在生成器中预填充报表中应用的相应量度和过滤器。然后，您可以根据需要编辑警报。
 
    ![](assets/add-alert.png)
 
