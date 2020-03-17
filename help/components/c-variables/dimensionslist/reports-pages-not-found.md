@@ -3,7 +3,7 @@ description: 帮助您识别包含损坏链接的页面，并测量对不存在�
 title: 页面未找到
 topic: Reports
 uuid: a1f5f3d1-1c4e-486c-8913-24da573ad015
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
