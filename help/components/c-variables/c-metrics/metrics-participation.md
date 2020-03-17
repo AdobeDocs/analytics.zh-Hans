@@ -3,7 +3,7 @@ description: 参与率量度将成功事件的全部信用分配给访问期间�
 title: 参与率
 topic: Metrics
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * **禁用**：每个转化事件的默认状态。将不收集此事件的参与率数据。
 * **启用**：收集此事件的参与率数据。
 
-> [!NOTE] 您最多可以为 100 个自定义事件启用参与率。除此之外，您还可以在[计算量度](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html)生成器中创建参与率量度。
+> [!NOTE] 您最多可以为 100 个自定义事件启用参与率。除此之外，您还可以在[计算量度](https://marketing.adobe.com/resources/help/zh_CN/analytics/calcmetrics/participation_metric.html)生成器中创建参与率量度。
 
 启用后，参与率量度即在所有转化报表中自动提供。但是，参与率量度也可根据您的请求在特定流量报表中查看。您可以选择性地请求在某些自定义流量报表中提供参与率量度。
 
