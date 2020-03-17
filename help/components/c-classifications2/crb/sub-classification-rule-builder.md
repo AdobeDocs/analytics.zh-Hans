@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 子分类和规则生成器 - 用例
 topic: Admin tools
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 `channel:broad_campaign:creative`
 
-使用分类层次结构可以将分类应用到分类（称为 *`sub-classification`*). 表示您可以对多个表格使用导入器（如关系数据库）。一个表格将完全跟踪代码映射到键值，另一个表格将键值映射到其他表格。
+使用分类层次结构可以将分类应用到分类（称为 *`sub-classification`*)。 表示您可以对多个表格使用导入器（如关系数据库）。一个表格将完全跟踪代码映射到键值，另一个表格将键值映射到其他表格。
 
 ![](assets/sub_class_table.png)
 
@@ -48,7 +48,7 @@ t_rule_builder_subclass.xml
 >
 >以下步骤描述如何完成[子分类和规则生成器](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)中所述的用例。
 
-1. 在[分类管理器](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)中创建分类和子分类。
+1. 在[分类管理器](https://marketing.adobe.com/resources/help/zh_CN/reference/classifications.html)中创建分类和子分类。
 
    示例：
 
