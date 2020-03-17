@@ -3,7 +3,7 @@ description: 文件下载有助于了解访客从您的网站下载文件的频�
 title: 文件下载
 topic: Reports
 uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **导航**
 
-**[!UICONTROL 报表]** &gt; **[!UICONTROL 网站内容]** &gt; **[!UICONTROL 链接]** &gt; **[!UICONTROL 文件下载]**
+**[!UICONTROL 报表]** > **[!UICONTROL 网站内容]** > **[!UICONTROL 链接]** > **[!UICONTROL 文件下载]**
 
 如果该报表不在默认位置，请咨询您的管理员，他们可能已更改了默认菜单结构，以更好地满足您组织的独特需求。
 
