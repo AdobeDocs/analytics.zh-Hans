@@ -3,7 +3,7 @@ description: 实时显示 Web 页面流量和并对页面查看次数进行排�
 title: 实时报表概述
 topic: Reports
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 >
 >实时报表不需要额外实施或添加标记。它可以充分利用您现有的 Adobe Analytics 实施。要配置实时报表，请参阅[实时报表配置](/help/components/c-real-time-reporting/t-realtime-admin.md)。
 
-**[!UICONTROL 网站量度]** &gt; **[!UICONTROL 实时]**
+**[!UICONTROL 网站量度]** > **[!UICONTROL 实时]**
 
 实时回答以下问题：我的网站上有什么趋势，为什么？它可以让营销人员快速响应并主动管理营销内容和促销活动的表现。报告的实时数据延迟不超过两分钟，并且会每分钟自动更新。
 
