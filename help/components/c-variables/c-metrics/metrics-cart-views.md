@@ -3,7 +3,7 @@ description: 客户查看购物车内容的事件。此值来自 scView 事件�
 title: 购物车查看
 topic: Metrics
 uuid: f51213ed-c396-4d6a-8f88-4ea870e5bfed
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
