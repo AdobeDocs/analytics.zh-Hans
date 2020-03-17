@@ -4,7 +4,7 @@ keywords: segmentation;segments
 title: 适用于 Ad Hoc Analysis 的过渡指南
 topic: Segments
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
