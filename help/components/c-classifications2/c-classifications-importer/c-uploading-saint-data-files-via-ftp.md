@@ -4,7 +4,7 @@ subtopic: Classifications
 title: FTP 导入
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 描述如何通过 FTP 上载数据文件的步骤。
 
-**[!UICONTROL 管理员]** &gt; **[!UICONTROL 分类导入器]**。
+**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
 
 以下建议的限制很重要：
 
@@ -35,7 +35,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 > [!NOTE] 处理分类数据文件所需的时间因文件大小和 Adobe 服务器已在处理的当前文件数而异。处理数据文件的时间通常不超过 72 小时。
 
-在通过 FTP 上载数据之前，请先创建 FTP 帐户。For more information, see [Create an FTP account](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+在通过 FTP 上载数据之前，请先创建 FTP 帐户。有关详细信息，请参阅[创建 FTP 帐户](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)。
 
 ## 通过 FTP 导入分类 {#task_132C36830B69418B8C929E39838EF01D}
 
@@ -49,7 +49,7 @@ t_upload_a_saint_data_file_via_ftp.xml
 
 有关创建 FTP 帐户的更多信息，请参阅[创建 FTP 帐户](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)。
 
-1. 单击&#x200B;**[!UICONTROL 管理员]** &gt; **[!UICONTROL 分类导入器]**。
+1. 单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
 1. 单击&#x200B;**[!UICONTROL 导入文件]**，然后单击 **[!UICONTROL FTP 导入]**。
 1. 在要使用的 FTP 帐户旁边，单击&#x200B;**[!UICONTROL 查看]**。
 1. 使用 FTP 访问信息（主机、登录名、密码），通过您选择的 FTP 客户端访问 FTP 服务器。
@@ -62,7 +62,7 @@ Adobe 会定期检索已上载的具有关联 FIN 文件的数据文件。然后
 
 ## 创建 FTP 帐户 {#task_C019268E6C934C7C95F4326F42A22CCF}
 
-在通过 FTP 上载数据之前，请先创建 FTP 帐户。&gt;
+在通过 FTP 上载数据之前，请先创建 FTP 帐户。>
 
 <!-- 
 
@@ -70,9 +70,9 @@ t_create_an_ftp_account.xml
 
  -->
 
-有关 Adobe FTP 服务器的其他详细信息，请参阅 [FTP 和 sFTP](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/)。
+有关 Adobe FTP 服务器的其他详细信息，请参阅 [FTP 和 sFTP](https://marketing.adobe.com/resources/help/zh_CN/whitepapers/ftp/)。
 
-1. 单击&#x200B;**[!UICONTROL 管理员]** &gt; **[!UICONTROL 分类导入器]**。
+1. 单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
 1. 单击&#x200B;**[!UICONTROL 导入文件]**，然后单击 **[!UICONTROL FTP 导入]**。
 1. 在&#x200B;**[!UICONTROL 导入文件]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL 新增]**。
 1. 指定 FTP 帐户详细信息：
