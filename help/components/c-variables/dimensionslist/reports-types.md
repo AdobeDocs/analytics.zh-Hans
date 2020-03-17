@@ -3,7 +3,7 @@ description: Experience Cloud 中所用报表类别的描述。
 title: 报表类别
 topic: Reports
 uuid: 78369121-3854-4bf9-9156-c2369ec75d73
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,7 +21,7 @@ Experience Cloud 中所用报表类别的描述。
 
 产品报表即是一种趋势报表。您可以查看选定时间段内产品的收入。如果您的报告期间是一周，则可以查看该时间段内该产品每天产生的收入，也可以显示当天特定产品的趋势图，或为所选项打开一个单独的趋势报表。“总计”报表是显示基本数据的执行级别报表。该报表包含有关总收入、页面查看和订购的数据。您可以将报表分段并添加其他量度以查看更多数据。“流量”显示用户访问页面、网站区域和服务器时最常用的路径。
 
-有关流量如何在 Analysis Workspace 中工作的信息，请参阅[客户历程 - 流量](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html)。
+有关流量如何在 Analysis Workspace 中工作的信息，请参阅[客户历程 - 流量](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/flow.html)。
 
 **下一流量**
 
@@ -29,4 +29,4 @@ Experience Cloud 中所用报表类别的描述。
 
 **上一流量**
 
-上一流量报表类似于下一流量报表，但前者显示的是访客访问指定页面前所在的位置，而不是访问选定页面后前往的位置。用于此类报表的控件与用于“下一流量”报表的相同。流失可视化为构建流失报表提供了多个选项。流失报表显示访客从何处离开（流失）或继续通过（流过）预定义的页面序列。有关详细信息，请参阅 Analysis Workspace 中的[流失](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html)。
+上一流量报表类似于下一流量报表，但前者显示的是访客访问指定页面前所在的位置，而不是访问选定页面后前往的位置。用于此类报表的控件与用于“下一流量”报表的相同。流失可视化为构建流失报表提供了多个选项。流失报表显示访客从何处离开（流失）或继续通过（流过）预定义的页面序列。有关详细信息，请参阅 Analysis Workspace 中的[流失](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/fallout_flow.html)。
