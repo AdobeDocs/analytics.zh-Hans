@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 浏览器导入
 topic: Admin tools
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 您可以使用浏览器导入（上载）分类数据。此方法仅限将分类数据上载到单个报表包。
 
-**[!UICONTROL 管理员]** &gt; **[!UICONTROL 分类导入器]**
+**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**
 
 ## 分类浏览器导入 - 字段描述 {#section_F628C47081DA4026A4D30E3D3454B1DA}
 
@@ -61,7 +61,7 @@ t_upload_a_saint_data_file_via_web_browser.xml
 
  -->
 
-1. 单击&#x200B;**[!UICONTROL 管理员]** &gt; **[!UICONTROL 分类导入器]**。
+1. 单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
 1. 单击&#x200B;**[!UICONTROL 导入文件]**。
 1. 配置&#x200B;**[!UICONTROL 浏览器导入]**&#x200B;字段。
 1. 单击&#x200B;**[!UICONTROL 导入文件]**。
