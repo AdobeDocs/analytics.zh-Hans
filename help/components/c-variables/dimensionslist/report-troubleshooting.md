@@ -4,7 +4,7 @@ keywords: best practices;failure;timeout;troubleshooting;slow
 title: 报表最佳实践和疑难解答
 topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,7 +16,7 @@ Adobe Analytics 提供了一个灵活的报表界面，允许您生成各种复�
 
 >[!Note]
 >这些建议适用于 Reports &amp; Analytics、Ad Hoc Analysis 和 Report Builder。
->但是，它们不适用于 Analysis Workspace，Analysis Workspace 有其自身的一套[最佳实践](/help/analyze/analysis-workspace/optimizing-performance.md)。同时，这些建议也不适用于 Data Warehouse [最佳实践](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)。另一组
+>但是，它们不适用于 Analysis Workspace，Analysis Workspace 有其自身的一套[最佳实践](/help/analyze/analysis-workspace/optimizing-performance.md)。同时，这些建议也不适用于 Data Warehouse [最佳实践](https://marketing.adobe.com/resources/help/zh_CN/reference/data_warehouse_bp.html)。另一组
 >[最佳实践](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices)可用于 Adobe Analytics 报表 API。
 
 ## 报表超时和请求队列 {#section_A42AD7E487C749B7B879BAFA814FFEF9}
