@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 关于分类
 topic: Admin tools
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 有关 [Analytics 分类](https://video.tv.adobe.com/v/16853/?captions=chi_hans)的视频概述。
 
-**[!UICONTROL 管理员]** &gt; **[!UICONTROL 报表包]** &gt; **[!UICONTROL 编辑设置]** &gt; *`<Traffic or Conversion>`*
+**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **[!UICONTROL 编辑设置]** > *`<Traffic or Conversion>`*
 
 在分类时，您会在变量以及与该变量相关的元数据之间建立关系。分类最常用在促销活动中。通过将元数据应用到变量中收集的值，可以汇总使用变量（eVar、prop 和事件）信息收集的数据。
 
@@ -38,7 +38,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Reports &amp; Analytics 包含针对跟踪代码变量的预定义分类，从而提供以分类为基础的报表（名为“创作元素”和“促销活动”）。您必须针对其他所有转化和流量变量手动配置分类。
 
-请参阅[流量分类](/help/admin/admin/c-traffic-variables/traffic-classifications.md)和[转化分类](https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html)。
+请参阅[流量分类](/help/admin/admin/c-traffic-variables/traffic-classifications.md)和[转化分类](https://marketing.adobe.com/resources/help/zh_CN/reference/conversion_classifications.html)。
 
 下表说明了各种可用的分类类型，以及支持这些分类的变量类型。请在上载数据文件之前，查看[通用文件结构](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)中的相关信息。
 
