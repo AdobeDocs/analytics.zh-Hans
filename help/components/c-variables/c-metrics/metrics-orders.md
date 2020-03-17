@@ -3,7 +3,7 @@ description: 选定时间段内网站上的订购数目。您可通过其他量�
 title: 订购
 topic: Metrics
 uuid: b20ad038-370b-4343-a394-434d3c4bd111
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
