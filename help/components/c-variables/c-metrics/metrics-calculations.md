@@ -3,7 +3,7 @@ description: 计算量度的方法有以下几种：标准、参与率、最近�
 title: 量度计算
 topic: Metrics
 uuid: 2af58f1e-12c5-4828-ae39-c9aeaef6b705
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -44,7 +44,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 假设您的网站有一个内部搜索，并使用转化变量 (eVar) 对该搜索进行跟踪。访客在做出 $100 的购买决定前执行了多次内部搜索：
 
-*`Pet`* &gt; *`Feline`* &gt; *`Cat`* &gt; *`Kitten`* &gt; $100 的购买
+*`Pet`* > *`Feline`* > *`Cat`* > *`Kitten`* > $100 的购买
 
 在报表中，信用分配如下所示：
 
