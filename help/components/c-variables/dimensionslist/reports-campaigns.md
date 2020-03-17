@@ -3,7 +3,7 @@ description: 显示有关广告活动效果的信息。您可以查看哪些类�
 title: 促销活动
 topic: Reports
 uuid: ce6379cb-8617-44f4-b012-945fe1bd98d0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
