@@ -2,29 +2,29 @@
 title: linkInternalFilters
 description: 使用linkInternalFilters变量帮助自动退出链接跟踪。
 translation-type: tm+mt
-source-git-commit: 8f7baa770f800ffe800e760f1eca59911d3db348
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # linkInternalFilters
 
-AppMeasurement提供自动跟踪站点外的链接的功能。 如果 `trackExternalLinks` 是 `true`这样，则当访客单击链接离开您的站点时，图像请求会直接发送到Adobe。 这些 `linkTrackExternalFilters` 和变 `linkTrackInternalFilters` 量决定哪些链接被视为内部／外部链接。
+AppMeasurement提供自动跟踪站点外的链接的功能。 如果 [`trackExternalLinks`](trackexternallinks.md) 启用此功能，则当访客单击链接离开您的站点时，图像请求会直接发送到Adobe。 这些 [`linkExternalFilters`](linkexternalfilters.md) 和变 `linkInternalFilters` 量决定哪些链接被视为内部／外部链接。
 
-如果此变量包含值，则自动退出链接跟踪的行为类似于黑名单。 如果链接单击与任何值不匹 `linkInternalFilters` 配，则该链接被视为退出链接。 将针对此变量检查整个URL。 如果 `linkLeaveQueryString` 是 `true`，则查询字符串也会被检查。
+如果此变量包含值，则自动退出链接跟踪的行为类似于黑名单。 如果链接单击与任何值不匹 `linkInternalFilters` 配，则该链接被视为退出链接。 将针对此变量检查整个URL。 如果 [`linkLeaveQueryString`](linkleavequerystring.md) 启用，则还会检查查询字符串。
 
 如果同时使用和 `linkInternalFilters` 同时使 `linkExternalFilters` 用，则单击的链接必须匹配 `linkExternalFilters` 且不匹配 **，才**`linkInternalFilters` 能被视为退出链接。 如果单击的链接与退出链接和下载链接条件均匹配，则下载链接类型将优先。
 
-> [!NOTE] 内 `linkInternalFilters` 部URL过滤器是单独的功能，可用于不同用途。 该变 `linkInternalFilters` 量专门用于退出链接跟踪。 内部URL过滤器是管理员设置，可帮助处理流量源维度，如引用域。 See [Internal URL filters](/help/admin/admin/internal-url-filter-admin.md) in the Admin user guide.
+> [!NOTE] 和 `linkInternalFilters` 内 [部URL过滤器是单独的功能](/help/admin/admin/internal-url-filter-admin.md) ，可以实现单独的用途。 该变 `linkInternalFilters` 量专门用于退出链接跟踪。 内部URL过滤器是管理员设置，可帮助处理流量源维度，如引用域。
 
 ## 出站链接——在Adobe Experience Platform Launch中从不跟踪
 
-“从不跟踪”字段是配置Adobe Analytics扩展时“链接跟踪”折叠面板下以逗号分隔的筛选器(通常是 [!UICONTROL 域] )列表。
+“从不跟踪”字段是配置Adobe Analytics扩展时accordion下以逗号分隔的筛 [!UICONTROL Link Tracking] 选器（通常是域）列表。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 单击所需的属性。
-3. 转到“扩 [!UICONTROL 展] ”选项卡，然后单击Adobe Analytics [!UICONTROL 下的] “配置”按钮。
-4. 展开“链 [!UICONTROL 接跟踪] ”折叠面板，该面板显示“出站链 [!UICONTROL 接——从不跟踪] ”字段。
+3. 转到选项卡， [!UICONTROL Extensions] 然后单击“Adobe Analytics” [!UICONTROL Configure] 下的按钮。
+4. 展开可 [!UICONTROL Link Tracking] 折叠面板，以显示 [!UICONTROL Outbound Links - Never Track] 字段。
 
 在此字段中放置您永远不希望作为退出链接跟踪的过滤器。 用逗号分隔多个域，不带空格。
 
