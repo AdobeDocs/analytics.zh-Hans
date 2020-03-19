@@ -2,7 +2,7 @@
 title: 中止
 description: 中止变量是一个布尔值，它可阻止将点击发送到Adobe数据收集服务器。
 translation-type: tm+mt
-source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,7 +19,7 @@ Launch中没有专用字段可使用此变量。 按照AppMeasurement语法使�
 
 该 `abort` 变量是布尔值。 Its default value is `false`.
 
-* 如果设置为， `true`则下一次跟踪调用(`t()` 或 `tl()`)不会向Adobe发送任何数据。
+* 如果设置为， `true`则下一次跟踪调用([`t()`](../functions/t-method.md) 或 [`tl()`](../functions/tl-method.md))不会向Adobe发送任何数据。
 * 如果设置为 `false` 或未定义，则此变量不执行任何操作。
 
 ```js
@@ -30,7 +30,7 @@ s.abort = true;
 
 ## 示例
 
-可 `abort` 以在函数中设置变量，该函 `doPlugins()` 数是向Adobe发送图像请求之前要运行的最后一个函数。
+可 `abort` 以在函数中设置变量，该函 [`doPlugins()`](../functions/doplugins.md) 数是向Adobe发送图像请求之前要运行的最后一个函数。
 
 ```js
 s.doPlugins = function(s) {
