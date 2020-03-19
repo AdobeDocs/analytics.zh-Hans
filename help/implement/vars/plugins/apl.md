@@ -2,7 +2,7 @@
 title: apl(appendToList)
 description: 将值追加到支持多个值的变量。
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 > [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
 
-该插 `apl` 件允许您安全地向列表分隔的变量(如、、列表变量 `events``linkTrackVars`和其他变量)添加新值。
+该插 `apl` 件允许您安全地向列表分隔的变量（如、、和其他变量）添 [`events`](../page-vars/events/events-overview.md)加 [`linkTrackVars`](../config-vars/linktrackvars.md)新 [`list`](../page-vars/list.md)值。
 
 * 如果要添加的值在变量中不存在，则代码会将该值添加到字符串的结尾。
 * 如果要添加的值在变量中已存在，则此插件不会更改该值。 此功能可让您的实施避免重复的值。
@@ -25,8 +25,8 @@ Adobe提供了一个扩展，允许您使用最常用的插件。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 单击所需的属性。
-1. 转到“扩 [!UICONTROL 展] ”选项卡，然后单击“目 [!UICONTROL 录] ”按钮
-1. 安装和发布 [!UICONTROL Common Analytics插件扩展]
+1. 转到选 [!UICONTROL Extensions] 项卡，然后单击按 [!UICONTROL Catalog] 钮
+1. 安装和发布扩 [!UICONTROL Common Analytics Plugins] 展
 1. 如果尚未创建，请使用以下配置创建标有“初始化插件”的规则：
    * 条件：无
    * 事件：核心——载入的库（页面顶部）
@@ -41,14 +41,14 @@ Adobe提供了一个扩展，允许您使用最常用的插件。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 单击所需的属性。
-1. 转到“扩 [!UICONTROL 展] ”选项卡，然后单击Adobe Analytics扩 [!UICONTROL 展下的] “配置”按钮。
-1. 使用自定 [!UICONTROL 义代码accordion展开“配置跟踪] ”，该面板显示“打 [!UICONTROL 开编辑器] ”按钮。
+1. 转到选项卡， [!UICONTROL Extensions] 然后单击Adobe Analytics扩 [!UICONTROL Configure] 展下的按钮。
+1. 展开折 [!UICONTROL Configure tracking using custom code] 叠面板，以显示按 [!UICONTROL Open Editor] 钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
 1. 保存更改并将其发布到Analytics扩展。
 
 ## 使用AppMeasurement安装插件
 
-在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 `s_gi`码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
+在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 [`s_gi`](../functions/s-gi.md)码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -64,11 +64,11 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 该方 `apl` 法使用以下参数：
 
-* **`lv`**（必需，字符串）:包含要向
-* **`vta`**（必需，字符串）:要添加到参数值的新值的以逗号分隔的`lv`列表。
-* **`d1`**（可选，字符串）:用于分隔参数中已包含的各个值的分`lv`隔符。  未设置时，默`,`认为逗号()。
-* **`d2`**（可选，字符串）:输出分隔符。 默认值与未设置时`d1`的值相同。
-* **`cc`**（可选，布尔）:指示是否使用区分大小写的检查的标志。 如果`true`是，则复制检查区分大小写。 如果`false`未设置，复制检查将不区分大小写。 默认为`false`。
+* **`lv`** （必需，字符串）:包含要向
+* **`vta`** （必需，字符串）:要添加到参数值的新值的以逗号分隔的 `lv` 列表。
+* **`d1`** （可选，字符串）:用于分隔参数中已包含的各个值的分 `lv` 隔符。  未设置时，默`,`认为逗号()。
+* **`d2`** （可选，字符串）:输出分隔符。 默认值与未设置时 `d1` 的值相同。
+* **`cc`** （可选，布尔）:指示是否使用区分大小写的检查的标志。 如果 `true`是，则复制检查区分大小写。 如果 `false` 未设置，复制检查将不区分大小写。 默认为 `false`。
 
 该方 `apl` 法返回参数的值加上 `lv` 参数中任何不重复的值 `vta` 。
 
