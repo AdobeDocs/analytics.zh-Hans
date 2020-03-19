@@ -2,7 +2,7 @@
 title: 插件概述
 description: 将代码粘贴到您的站点上以引入新功能。
 translation-type: tm+mt
-source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -21,7 +21,7 @@ Adobe提供多种安装给定插件的方法：
 
 每个组织有不同的实施需求，因此您可以决定如何将它们纳入实施。 确保在站点中包含代码时符合以下条件：
 
-1. 首先实例化Analytics跟踪对象(使 `s_gi`用)。
+1. 首先实例化Analytics跟踪对象(使 [`s_gi`](../functions/s-gi.md)用)。
    * Launch在加载Adobe Analytics时自动实例化跟踪对象。
    * 使用的实 `AppMeasurement.js` 现通常初始化JavaScript文件顶部的跟踪对象。
 2. 请随时包含插件代码。
