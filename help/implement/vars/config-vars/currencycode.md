@@ -2,7 +2,7 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
 
 对于使用商务的网站，收入和货币是Analytics的重要组成部分。 许多网站，尤其是跨多个国家／地区的网站，使用不同的货币。 使用变 `currencyCode` 量可确保收入属于正确的币种。
 
-如 `currencyCode` 果未定义，则定义变量和货币事件的 `products` 货币值将被视为与报表包的货币相同。 请参 [阅管理员用户指南中的](/help/admin/admin/general-acct-settings-admin.md) “常规帐户设置”，查看报表包的货币。
+如 `currencyCode` 果未定义，则定义变量和货币事件的 [`products`](../page-vars/products.md) 货币值将被视为与报表包的货币相同。 请参 [阅管理员用户指南中的](/help/admin/admin/general-acct-settings-admin.md) “常规帐户设置”，查看报表包的货币。
 
 如果 `currencyCode` 已定义并且与报表包的货币匹配，则不应用货币兑换。
 
@@ -23,12 +23,12 @@ source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
 
 ## Adobe Experience Platform Launch中的货币代码
 
-货币代码是配置Adobe Analytics扩展时“ [!UICONTROL 常规] ”折叠面板下的字段。
+货币代码是配置Adobe Analytics扩展 [!UICONTROL General] 时accordion下的字段。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 单击所需的属性。
-3. 转到“扩 [!UICONTROL 展] ”选项卡，然后单击Adobe Analytics [!UICONTROL 下的] “配置”按钮。
-4. 展开“ [!UICONTROL 常规] ”折叠面板 [!UICONTROL ，该面板显示“] 货币代码”字段。
+3. 转到选项卡， [!UICONTROL Extensions] 然后单击“Adobe Analytics” [!UICONTROL Configure] 下的按钮。
+4. 展开可 [!UICONTROL General] 折叠面板，以显示 [!UICONTROL Currency Code] 字段。
 
 您可以使用预设货币代码或自定义货币代码。 如果使用自定义货币代码，请确保该代码有效。
 
