@@ -2,14 +2,14 @@
 title: 购买事件
 description: 使用购买事件收集“订单”、“件数”和“收入”指标的数据。
 translation-type: tm+mt
-source-git-commit: 7a1c3c7ed0e509969e281e865e8ff2c969a18bcb
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # 购买事件
 
-购买事件是变量中的一个 `events` 值。 此值对于希望收集其站点所生成收入相关数据的组织很有用。 它严重依赖于变量 `products` 和变 `purchaseID` 量。
+购买事件是变量中的一个 `events` 值。 此值对于希望收集其站点所生成收入相关数据的组织很有用。 它严重依赖于变量 [`products`](../products.md) 和变 [`purchaseID`](../purchaseid.md) 量。
 
 在设置购买事件时，它会影响以下指标：
 
@@ -21,10 +21,10 @@ source-git-commit: 7a1c3c7ed0e509969e281e865e8ff2c969a18bcb
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 单击所需的属性。
-3. 转到“规 [!UICONTROL 则] ”选项卡，然后单击所需的规则（或创建规则）。
-4. 在“ [!UICONTROL 操作]”下，单击现有  Adobe Analytics —— 设置变量操作或单击“+”图标。
-5. 将“扩 [!UICONTROL 展] ”下拉列表设置为Adobe Analytics，将“操作类 [!UICONTROL 型] ”设置为“ [!UICONTROL 设置变量”]。
-6. 找到“ [!UICONTROL 活动] ”部分，然后将“活动”下拉列表设 [!UICONTROL 置为购买]。
+3. 转到选项卡， [!UICONTROL Rules] 然后单击所需的规则（或创建规则）。
+4. 在下 [!UICONTROL Actions]面，单击现有 [!UICONTROL Adobe Analytics - Set Variables] 操作或单击“+”图标。
+5. 将下拉 [!UICONTROL Extension] 列表设置为Adobe Analytics，将其设置为 [!UICONTROL Action Type] to [!UICONTROL Set Variables]。
+6. 找到该 [!UICONTROL Events] 部分，然后将事件下拉列表设置为 [!UICONTROL purchase]。
 
 其他从属变量(如 `products` 和) `purchaseID` 在启动项中没有专用字段。 对这些变量使用AppMeasurement语法后面的自定义代码编辑器。
 
