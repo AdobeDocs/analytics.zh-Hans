@@ -2,7 +2,7 @@
 title: s_gi()
 description: 创建和跟踪AppMeasurement实例。
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -13,12 +13,12 @@ source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
 
 ## s_gi()
 
-Analytics扩展为您实例化和管理跟踪对象。 但是，在配置Adobe Analytics扩展时，您也可以在“库管理” [!UICONTROL 折叠式] (Library Management)面板中设置全局跟踪对象。
+Analytics扩展为您实例化和管理跟踪对象。 但是，在配置Adobe Analytics扩展时，您也可以在accordion [!UICONTROL Library Management] 中设置全局跟踪对象。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 单击所需的属性。
-3. 转到“扩 [!UICONTROL 展] ”选项卡，然后单击Adobe Analytics [!UICONTROL 下的] “配置”按钮。
-4. 展开“ [!UICONTROL 库管理] ”折叠面板，然后选择除“为我管理库” [!UICONTROL 之外的任何单选按钮]。
+3. 转到选项卡， [!UICONTROL Extensions] 然后单击“Adobe Analytics” [!UICONTROL Configure] 下的按钮。
+4. 展开折叠 [!UICONTROL Library Management] 面板，然后选择除之外的任何单选按钮 [!UICONTROL Manage the library for me]。
 
 全局变量文本字段允许您设置自定义跟踪对象。 Its default value is `s`.
 
@@ -36,7 +36,7 @@ var s = s_gi("examplersid");
 var s = s_gi("examplersid1,examplersid2");
 ```
 
-> [!WARNING] 以下各节和示例包含复杂的实施主题。 彻底测试您的实施并跟踪贵组织的解决方案设计文档中的重 [要自定义项](../../prepare/solution-design.md)。
+> [!CAUTION] 以下各节和示例包含复杂的实施主题。 彻底测试您的实施并跟踪贵组织的解决方案设计文档中的重 [要自定义项](../../prepare/solution-design.md)。
 
 ## 使用不同的跟踪对象管理多个实现
 
