@@ -2,7 +2,7 @@
 title: getTimeParting
 description: 测量特定操作发生的时间。
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -23,8 +23,8 @@ Adobe提供了一个扩展，允许您使用最常用的插件。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 单击所需的属性。
-1. 转到“扩 [!UICONTROL 展] ”选项卡，然后单击“目 [!UICONTROL 录] ”按钮
-1. 安装和发布 [!UICONTROL Common Analytics插件扩展]
+1. 转到选 [!UICONTROL Extensions] 项卡，然后单击按 [!UICONTROL Catalog] 钮
+1. 安装和发布扩 [!UICONTROL Common Analytics Plugins] 展
 1. 如果尚未创建，请使用以下配置创建标有“初始化插件”的规则：
    * 条件：无
    * 事件：核心——载入的库（页面顶部）
@@ -39,14 +39,14 @@ Adobe提供了一个扩展，允许您使用最常用的插件。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 单击所需的属性。
-1. 转到“扩 [!UICONTROL 展] ”选项卡，然后单击Adobe Analytics扩 [!UICONTROL 展下的] “配置”按钮。
-1. 使用自定 [!UICONTROL 义代码accordion展开“配置跟踪] ”，该面板显示“打 [!UICONTROL 开编辑器] ”按钮。
+1. 转到选项卡， [!UICONTROL Extensions] 然后单击Adobe Analytics扩 [!UICONTROL Configure] 展下的按钮。
+1. 展开折 [!UICONTROL Configure tracking using custom code] 叠面板，以显示按 [!UICONTROL Open Editor] 钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
 1. 保存更改并将其发布到Analytics扩展。
 
 ## 使用AppMeasurement安装插件
 
-在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 `s_gi`码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
+在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 [`s_gi`](../functions/s-gi.md)码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -59,7 +59,7 @@ var getTimeParting=function(a){a=document.documentMode?void 0:a||"Etc/GMT";a=(ne
 
 该方 `getTimeParting` 法使用以下参数：
 
-**`t`**（可选，但建议，字符串）:将访客的本地时间转换为的时区名称。  默认为UTC/GMT时间。 请参[阅维基百科上的TZ数据库时区列表](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)，以获取有效值的完整列表。
+**`t`** （可选，但建议，字符串）:将访客的本地时间转换为的时区名称。  默认为UTC/GMT时间。 请参 [阅维基百科上的TZ数据库时区列表](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) ，以获取有效值的完整列表。
 
 常见有效值包括：
 
@@ -100,9 +100,9 @@ s.eVarX = getTimeParting();
 
 加纳在UTC/GMT时区内。  此示例说明，在这种情况下，不必使用插件参数。
 
-### Internet explorer浏览器计费
+### Internet Explorer浏览器计费
 
-如果要从Internet explorer访客中排除分时段数据，请使用以下示例（因为从IE浏览器返回的值只能在访客的本地时间内）
+如果要从Internet Explorer访客中排除分时段数据，请使用以下示例（因为从IE浏览器返回的值只能在访客的本地时间内）
 
 ```js
 if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
@@ -154,7 +154,7 @@ s.eVar10 = getTimeParting("Australia/Sydney");
 
 ### 6.1（2018年11月26日）
 
-* 针对Internet explorer浏览器的修复。 他们可以返回时间，但只返回访客的当地时间。
+* 针对Internet Explorer浏览器的修复。 他们可以返回时间，但只返回访客的当地时间。
 
 ### 6.0（2018年8月14日）
 
