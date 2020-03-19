@@ -2,16 +2,16 @@
 title: tl
 description: 向Adobe发送链接跟踪调用。
 translation-type: tm+mt
-source-git-commit: 8494e8bb08b45006b357dd114e6bf9507f0cd54a
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # tl
 
-该方 `tl` 法是Adobe Analytics的一个重要核心组件。 它将获取页面上定义的所有Analytics变量，将其编译为图像请求，并将该数据发送到Adobe数据收集服务器。 它的工作方式与方 `t` 法类似，但此方法不会增加页面查看次数。 它对于跟踪链接和其他不会被视为完整页面加载的元素很有用。
+该方 `tl()` 法是Adobe Analytics的一个重要核心组件。 它将获取页面上定义的所有Analytics变量，将其编译为图像请求，并将该数据发送到Adobe数据收集服务器。 它的工作方式与方 [`t()`](t-method.md) 法类似，但此方法不会增加页面查看次数。 它对于跟踪链接和其他不会被视为完整页面加载的元素很有用。
 
-如果启 `trackDownloadLinks` 用或 `trackExternalLinks` 启用了该功能，AppMeasurement会自动调用方法来 `tl` 发送下载链接和退出链接跟踪数据。 如果您的组织希望对要跟踪的链接及其行为拥有更多控制权，则可以手动调用 `tl` 该方法。 只能手动跟踪自定义链接。
+如果启 [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) 用或 [`trackExternalLinks`](../config-vars/trackexternallinks.md) 启用了该功能，AppMeasurement会自动调用方法来 `tl()` 发送下载链接和退出链接跟踪数据。 如果您的组织希望对要跟踪的链接及其行为拥有更多控制权，则可以手动调用 `tl()` 该方法。 只能手动跟踪自定义链接。
 
 ## Adobe Experience Platform Launch中的链接跟踪调用
 
@@ -19,9 +19,9 @@ Launch有一个专用位置，可设置链接跟踪调用。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 单击所需的属性。
-1. 转到“规 [!UICONTROL 则] ”选项卡，然后单击所需的规则（或创建规则）。
-1. 在“ [!UICONTROL 操作]”下，单击“+”图标
-1. 将“扩 [!UICONTROL 展] ”下拉列表设置为Adobe Analytics，将“操作类 [!UICONTROL 型”设置为] “发送信标”。
+1. 转到选项卡， [!UICONTROL Rules] 然后单击所需的规则（或创建规则）。
+1. 在 [!UICONTROL Actions]下，单击“+”图标
+1. 将下拉 [!UICONTROL Extension] 列表设置为Adobe Analytics，将其设置为发送 [!UICONTROL Action Type] 信标。
 1. Click the `s.tl()` radio button.
 
 不能在启动项中设置任何可选参数。
@@ -44,7 +44,7 @@ s.tl([Link object],[Link type],[Link name],[Override variable]);
 
 链接对象参数确定浏览器在离开页面前是否等待500毫秒。 如果发送图像请求的时间早于 500 毫秒，则页面会立即导航到点击的链接。
 
-> [!NOTE] AppMeasurement会自动为退出链 `useBeacon` 接启用变量，这使得现代浏览器不再需要此参数。 此参数在AppMeasurement的早期版本中更常用。
+> [!NOTE] AppMeasurement会自动为退出链 [`useBeacon`](../config-vars/usebeacon.md) 接启用变量，这使得现代浏览器不再需要此参数。 此参数在AppMeasurement的早期版本中更常用。
 
 * `this`：最长等待 500 毫秒，以便给 AppMeasurement 一些时间来发送图像请求。默认值。
 * `true`：不等待。
@@ -59,7 +59,7 @@ s.tl(true);
 
 ### 链接类型
 
-链接类型参数是一个单字母字符串，它决定链接跟踪调用的类型。 它与设置变量相 `linkType` 同。
+链接类型参数是一个单字母字符串，它决定链接跟踪调用的类型。 它与设置变量相 [`linkType`](../config-vars/linktype.md) 同。
 
 ```js
 // Send a custom link
@@ -74,7 +74,7 @@ s.tl(true,"e");
 
 ### 链接名称
 
-链接名称参数是确定链接跟踪维值的字符串。 它与设置变量相 `linkName` 同。
+链接名称参数是确定链接跟踪维值的字符串。 它与设置变量相 [`linkName`](../config-vars/linkname.md) 同。
 
 ```js
 s.tl(true,"d","Example download link");
