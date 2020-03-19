@@ -2,7 +2,7 @@
 title: addProductEvar
 description: 将销售eVar添加到产品变量。
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 > [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
 
-该插 `addProductEvar` 件允许您轻松地将使用产品语法的Adobe Analytics销售eVar添加到产品变量中，而不必担心产品变量的现有内容是否会被更改／移动／删除。 如果您希望将产品语法推销eVar轻松添加到变量，Adobe建议使用此插 `products` 件。 如果不将销售eVar与产 `addProductEvar` 品语法一起使用，则无需使用插件。
+该插 `addProductEvar` 件允许您轻松地将使用产品语法的Adobe Analytics销售eVar添加到产品变量中，而不必担心产品变量的现有内容是否会被更改／移动／删除。 如果您希望将产品语法推销eVar轻松添加到变量，Adobe建议使用此插 [`products`](../page-vars/products.md) 件。 如果不将销售eVar与产 `addProductEvar` 品语法一起使用，则无需使用插件。
 
 > [!NOTE] 此插件不替换产品条目中已存在的eVar。 它仅附加您使用此插件设置的值。 附加该产品已存在的eVar时请务必小心。
 
@@ -21,8 +21,8 @@ Adobe提供了一个扩展，允许您使用最常用的插件。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 单击所需的属性。
-1. 转到“扩 [!UICONTROL 展] ”选项卡，然后单击“目 [!UICONTROL 录] ”按钮
-1. 安装和发布 [!UICONTROL Common Analytics插件扩展]
+1. 转到选 [!UICONTROL Extensions] 项卡，然后单击按 [!UICONTROL Catalog] 钮
+1. 安装和发布扩 [!UICONTROL Common Analytics Plugins] 展
 1. 如果尚未创建，请使用以下配置创建标有“初始化插件”的规则：
    * 条件：无
    * 事件：核心——载入的库（页面顶部）
@@ -37,14 +37,14 @@ Adobe提供了一个扩展，允许您使用最常用的插件。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 单击所需的属性。
-1. 转到“扩 [!UICONTROL 展] ”选项卡，然后单击Adobe Analytics扩 [!UICONTROL 展下的] “配置”按钮。
-1. 使用自定 [!UICONTROL 义代码accordion展开“配置跟踪] ”，该面板显示“打 [!UICONTROL 开编辑器] ”按钮。
+1. 转到选项卡， [!UICONTROL Extensions] 然后单击Adobe Analytics扩 [!UICONTROL Configure] 展下的按钮。
+1. 展开折 [!UICONTROL Configure tracking using custom code] 叠面板，以显示按 [!UICONTROL Open Editor] 钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
 1. 保存更改并将其发布到Analytics扩展。
 
 ## 使用AppMeasurement安装插件
 
-在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 `s_gi`码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
+在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 [`s_gi`](../functions/s-gi.md)码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -57,9 +57,9 @@ s.addProductEvar=function(en,ev,ap){if("string"===typeof en&&"string"===typeof e
 
 该 `addProductEvar` 插件使用以下参数：
 
-* **`en`**（必需，字符串）:要添加到当前包含在products变量中的最后一个条目的eVar。 如果products变量为空，则插件将创建一个“空白”产品条目，其eVar值附加到条目末尾。
-* **`ev`**（必需，字符串）:分配给eVar的值。
-* **`ap`**（可选，布尔）:如果products变量当前包含多个产品条目，则值为true（或1）会将eVar添加到所**&#x200B;有&#x200B;**产品条目。  默认为false（或0），它只将eVar添加到products变量中**&#x200B;包含的&#x200B;**最后一个条目。
+* **`en`** （必需，字符串）:要添加到当前包含在products变量中的最后一个条目的eVar。 如果products变量为空，则插件将创建一个“空白”产品条目，其eVar值附加到条目末尾。
+* **`ev`** （必需，字符串）:分配给eVar的值。
+* **`ap`** （可选，布尔）:如果products变量当前包含多个产品条目，则值为true（或1）会将eVar添加到所 **有** 产品条目。  默认为false（或0），它只将eVar添加到products变量中 **包含的** 最后一个条目。
 
 该 `addProductEvar` 插件不会返回任何内容。 而是将和参数中指定的eVar（和eVar值） `en` 添加 `ev` 到变 `products` 量。
 
