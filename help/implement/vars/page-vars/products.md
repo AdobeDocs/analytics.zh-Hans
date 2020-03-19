@@ -2,7 +2,7 @@
 title: 产品
 description: 发送有关显示或购物车中的产品的数据。
 translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
 
 该变 `products` 量跟踪与其关联的产品和属性。 此变量通常在单个产品页面、购物车页面和购买确认页面上设置。 它是一个多值变量，这意味着您可以在同一次点击中发送多个产品，Adobe会将该值解析为单独的维值。
 
-> [!NOTE] 如果此变量在点击中设置，而变量中没有购物车事 `events` 件，则“产品查看次数”量度将递增1。 确保每次点击时都设置了相应的购物车事件。
+> [!NOTE] 如果此变量在点击中设置，而变量中没有购物车事 [`events`](events/events-overview.md) 件，则“产品查看次数”量度将递增1。 确保每次点击时都设置了相应的购物车事件。
 
 ## Adobe Experience Platform Launch中的产品
 
@@ -19,7 +19,7 @@ Launch中没有专用字段来设置此变量；但是，存在多个第三方�
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 单击所需的属性。
-3. 转到“扩展 [!UICONTROL 功能] ”选项卡，然后单击“ [!UICONTROL 目录] ”以查看所有可用的扩展功能。
+3. 转到选项卡， [!UICONTROL Extensions] 然后单击以查 [!UICONTROL Catalog] 看所有可用的扩展。
 4. 搜索术语“product”，该术语显示了若干可用于帮助设置此变量的扩展。
 
 您可以使用其中一个扩展，也可以按照下面的AppMeasurement语法使用自定义代码编辑器。
@@ -31,7 +31,7 @@ Launch中没有专用字段来设置此变量；但是，存在多个第三方�
 * **类别** （可选）:总体产品类别。 贵组织决定如何将产品分组到类别中。
 * **产品名称** （必需）:产品的名称。
 * **数量** （可选）:此产品在购物车中的数量。 此字段仅适用于购买事件的点击。
-* **价格** （可选）:以小数表示的产品总价。 如果数量大于1，则将价格设置为总价，而不是单独产品价格。 对齐此值的货币以匹配变 `currencyCode` 量。 请勿在此字段中包含货币符号。 此字段仅适用于购买事件的点击。
+* **价格** （可选）:以小数表示的产品总价。 如果数量大于1，则将价格设置为总价，而不是单独产品价格。 对齐此值的货币以匹配变 [`currencyCode`](../config-vars/currencycode.md) 量。 请勿在此字段中包含货币符号。 此字段仅适用于购买事件的点击。
 * **事件** （可选）:与产品关联的活动。 用管道()分隔多个事`|`件。 有关更 [多信息](events/events-overview.md) ，请参阅活动。
 * **eVar** （可选）:与产品绑定的销售eVar。 用管道(`|`)分隔多个销售eVar。 有关更 [多信息，请参阅销售eVar](../../../components/c-variables/c-merch-variables/var-merchandising.md) 。
 
@@ -47,7 +47,7 @@ s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eV
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
-> [!IMPORTANT] 确保从产品名称、类别和销售eVar值中清除所有分号、逗号和管道。 如果产品名称包含逗号，则AppMeasurement会将其解析为新产品的开头。 此错误解析会引发产品字符串的其余部分，导致维和报告中的数据不正确。
+> [!IMPORTANT] 从产品名称、类别和销售eVar值中去除所有分号、逗号和管道。 如果产品名称包含逗号，则AppMeasurement会将其解析为新产品的开头。 此错误解析会引发产品字符串的其余部分，导致维和报告中的数据不正确。
 
 ## 示例
 
