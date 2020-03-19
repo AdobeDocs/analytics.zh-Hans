@@ -2,7 +2,7 @@
 title: getPercentPageViewed
 description: 检索访客查看的页面百分比。
 translation-type: tm+mt
-source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,14 +19,14 @@ The `getPercentPageViewed` plug-in measures a visitor&#39;s scroll activity to s
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 单击所需的属性。
-1. 转到“扩 [!UICONTROL 展] ”选项卡，然后单击Adobe Analytics扩 [!UICONTROL 展下的] “配置”按钮。
-1. 使用自定 [!UICONTROL 义代码accordion展开“配置跟踪] ”，该面板显示“打 [!UICONTROL 开编辑器] ”按钮。
+1. 转到选项卡， [!UICONTROL Extensions] 然后单击Adobe Analytics扩 [!UICONTROL Configure] 展下的按钮。
+1. 展开折 [!UICONTROL Configure tracking using custom code] 叠面板，以显示按 [!UICONTROL Open Editor] 钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
 1. 保存更改并将其发布到Analytics扩展。
 
 ## 使用AppMeasurement安装插件
 
-在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 `s_gi`码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
+在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 [`s_gi`](../functions/s-gi.md)码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -45,8 +45,8 @@ s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo
 
 该方 `getPercentPageViewed` 法使用以下参数：
 
-* **`pid`**（可选，字符串）: 基于页面的标识符，您可以与插件度量提供的百分比相关联。  默认为变`pageName`量。
-* **`ch`**（可选，布尔）: 如果您不希`false`望插件在页面初始加载后考虑对页面大小所做的任何更改，请将其设置为(或`0`)。 如果省略，则此参数默认为`true`。 Adobe建议在大多数情况下忽略此参数。
+* **`pid`** （可选，字符串）: 基于页面的标识符，您可以与插件度量提供的百分比相关联。  默认为变 `pageName` 量。
+* **`ch`** （可选，布尔）: 如果您不希 `false` 望插件在页面初始加载后考虑对页面大小所做的任何更改，请将其设置为(或 `0`)。 如果省略，则此参数默认为 `true`。 Adobe建议在大多数情况下忽略此参数。
 
 调用此方法不会返回任何内容；而是设置以下变量：
 
