@@ -2,7 +2,7 @@
 title: linkURL
 description: 覆盖AppMeasurement在链接跟踪调用中使用的自动生成的链接URL。
 translation-type: tm+mt
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -23,4 +23,4 @@ Launch中没有专用字段可使用此变量。 按照AppMeasurement语法使�
 s.linkURL = "https://example.com";
 ```
 
-如果未 `linkName` 为链接跟踪调用设置变量，则会改 `linkURL` 用该变量。
+如果未 [`linkName`](linkname.md) 为链接跟踪调用设置变量，则会改 `linkURL` 用该变量。
