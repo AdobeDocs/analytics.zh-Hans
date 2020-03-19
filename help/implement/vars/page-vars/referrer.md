@@ -2,7 +2,7 @@
 title: referrer
 description: 覆盖自动收集的点击参照。
 translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -17,10 +17,10 @@ source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 单击所需的属性。
-3. 转到“规 [!UICONTROL 则] ”选项卡，然后单击所需的规则（或创建规则）。
-4. 在“ [!UICONTROL 操作]”下，单击现有  Adobe Analytics —— 设置变量操作或单击“+”图标。
-5. 将“扩 [!UICONTROL 展] ”下拉列表设置为Adobe Analytics，将“操作类 [!UICONTROL 型] ”设置为“ [!UICONTROL 设置变量”]。
-6. 找到“引 [!UICONTROL 用] ”部分。
+3. 转到选项卡， [!UICONTROL Rules] 然后单击所需的规则（或创建规则）。
+4. 在下 [!UICONTROL Actions]面，单击现有 [!UICONTROL Adobe Analytics - Set Variables] 操作或单击“+”图标。
+5. 将下拉 [!UICONTROL Extension] 列表设置为Adobe Analytics，将其设置为 [!UICONTROL Action Type] to [!UICONTROL Set Variables]。
+6. Locate the [!UICONTROL Referrer] section.
 
 可以将引用设置为任何字符串值，包括数据元素。
 
@@ -36,7 +36,7 @@ s.referrer = "https://example.com";
 
 ## 示例
 
-许多组织都处理有关重定向的实施。 如果您的站点 [`getQueryParam`](../functions/util-getqueryparam.md) 容纳了该实用程序，则可以使用该实用程序从URL获取引用。 确保URL对查询字符串中包含的任何值进行编码。
+许多组织都处理有关重定向的实施。 如果您的站点 [`Util.getQueryParam()`](../functions/util-getqueryparam.md) 容纳了该实用程序，则可以使用该实用程序从URL获取引用。 确保URL对查询字符串中包含的任何值进行编码。
 
 ```js
 // Example if the URL is https://example.com?r=https%3A%2F%2Fexample.org
