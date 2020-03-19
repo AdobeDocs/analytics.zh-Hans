@@ -2,14 +2,14 @@
 title: contextData
 description: 上下文数据变量允许您在处理规则可读取的每个页面上定义自定义变量。
 translation-type: tm+mt
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # contextData
 
-上下文数据变量允许您在处理规则可读取的每个页面上定义自定义变量。 您可以在上下文数据变量中发送数据，而不是在代码中显式地为Analytics变量赋值。 然后，处理规则将上下文数据变量值传递给相应的Analytics变量。 See [Processing rules](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) in the Admin user guide.
+上下文数据变量允许您在处理规则可读取的每个页面上定义自定义变量。 您可以在上下文数据变量中发送数据，而不是在代码中显式地为Analytics变量赋值。 然后，处理规则将上下文数据变量值传递给相应的Analytics变量。 请参阅管理用户指南中的[处理规则](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)。
 
 上下文数据变量有助于开发团队收集指定元素中的数据而不是编号变量。 例如，您可以请求开发团队将页面的作者分配给页面，而 `eVar10`不是请求开发团队将页面的作者分配给 `s.contextData["author"]` 它。 然后，组织中的Analytics管理员可以创建处理规则，将上下文数据变量映射到分析变量中以进行报告。 开发团队最终只会担心上下文数据变量，而不是Adobe提供的许多页面变量。
 
@@ -44,7 +44,7 @@ s.contextData["example_variable"] = "Example value";
 
 ## 在链接跟踪调用中发送上下文数据
 
-将上下文数据变量作为以下项的属 `contextData` 性包含 `s.linkTrackVars`:
+将上下文数据变量作为以下项的属 `contextData` 性包含 [`s.linkTrackVars`](../config-vars/linktrackvars.md):
 
 ```js
 s.contextData["example_variable"] = "Example value";
