@@ -2,7 +2,7 @@
 title: 配置变量
 description: 使用配置变量帮助确定如何收集数据。
 translation-type: tm+mt
-source-git-commit: e9a876a1f562333056387d63de46a9cfe3fb3939
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -21,4 +21,4 @@ source-git-commit: e9a876a1f562333056387d63de46a9cfe3fb3939
 2. 单击要编辑的属性。
 3. Click the [!UICONTROL Extensions] tab, then Click [!UICONTROL Configure] under Adobe Analytics.
 
-> [!IMPORTANT] 确保在调用跟踪函数（或）之前设置所`t()` 有配置 `tl()`变量。 避免在函数中设置配置 `doPlugins()` 变量。
+> [!IMPORTANT] 在调用跟踪方法（或）之前，请确保已设置所[`t()`](../functions/t-method.md) 有配置 [`tl()`](../functions/tl-method.md)变量。 避免在函数中设置配置 [`doPlugins()`](../functions/doplugins.md) 变量。
