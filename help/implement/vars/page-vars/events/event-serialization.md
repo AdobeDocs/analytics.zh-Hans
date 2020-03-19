@@ -2,7 +2,7 @@
 title: 事件序列化
 description: 帮助消除网站上的重复指标。
 translation-type: tm+mt
-source-git-commit: c5a60bc9756af2742740dbc6a26a081f55ee3235
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: c5a60bc9756af2742740dbc6a26a081f55ee3235
 
 ## 设置事件序列化
 
-必须首先在报告包设置中将活 [!UICONTROL 动的唯一活动录制][!UICONTROL 设置为使用活动ID] 。 See [Success Events](../../../../admin/admin/c-success-events/success-event.md) in the Admin user guide.
+必须首先在报告包设置中 [!UICONTROL Unique Event Recording] 将活 [!UICONTROL Use Event ID] 动设置为。 See [Success Events](/help/admin/admin/c-success-events/success-event.md) in the Admin user guide.
 
 使用事件ID时，重复数据消除会发生在以下级别：
 
@@ -23,7 +23,7 @@ source-git-commit: c5a60bc9756af2742740dbc6a26a081f55ee3235
 * 重复数据消除功能可跨所有访客实现。 如果访客A发送， `event1:ABC` 则访客B也发送， `event1:ABC`则Adobe会忽略访客B的第二个实例。
 * 重复数据消除不会过期。 如果访客发送 `event1:ABC` 后在2年后返回并再次发送， `event1:ABC` 则Adobe将忽略第二个实例。
 
-> [!TIP] 如果要消除事件重复项， `purchase` 请改用 `purchaseID` 变量。
+> [!TIP] 如果要消除事件重复项， [`purchase`](event-purchase.md) 请改用 [`purchaseID`](../purchaseid.md) 变量。
 
 ## 在Adobe Experience Platform Launch中使用活动ID
 
@@ -31,10 +31,10 @@ source-git-commit: c5a60bc9756af2742740dbc6a26a081f55ee3235
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 单击所需的属性。
-3. 转到“规 [!UICONTROL 则] ”选项卡，然后单击所需的规则（或创建规则）。
-4. 在“ [!UICONTROL 操作]”下，单击现有  Adobe Analytics —— 设置变量操作或单击“+”图标。
-5. 将“扩 [!UICONTROL 展] ”下拉列表设置为Adobe Analytics，将“操作类 [!UICONTROL 型] ”设置为“ [!UICONTROL 设置变量”]。
-6. 找到“ [!UICONTROL 事件] ”部分，其中每个事件都包含一 [!UICONTROL 个“事件ID] ”字段。
+3. 转到选项卡， [!UICONTROL Rules] 然后单击所需的规则（或创建规则）。
+4. 在下 [!UICONTROL Actions]面，单击现有 [!UICONTROL Adobe Analytics - Set Variables] 操作或单击“+”图标。
+5. 将下拉 [!UICONTROL Extension] 列表设置为Adobe Analytics，将其设置为 [!UICONTROL Action Type] to [!UICONTROL Set Variables]。
+6. 找到该 [!UICONTROL Events] 部分，其中每个事件都包含一个 [!UICONTROL Event ID] 字段。
 
 有效值是长度不超过20字节的字母数字字符。
 
