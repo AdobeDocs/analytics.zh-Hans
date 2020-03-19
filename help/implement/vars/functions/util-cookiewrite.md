@@ -2,14 +2,14 @@
 title: Util.cookieWrite
 description: 写入cookie的值。
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # Util.cookieWrite
 
-Cookies可以在同一域上跨页面存储和检索信息。 使用 `Util.cookieWrite` 该方法将值设置为cookie。 您可以使用该 `Util.cookieRead` 方法检索使用设置的值 `Util.cookieWrite`。
+Cookies可以在同一域上跨页面存储和检索信息。 使用 `Util.cookieWrite()` 该方法将值设置为cookie。 您可以使用该 [`Util.cookieRead()`](util-cookieread.md) 方法检索使用设置的值 `Util.cookieWrite()`。
 
 ## 在Adobe Experience Platform Launch中设置Cookie
 
@@ -23,7 +23,7 @@ Launch不提供在界面中设置Cookie的功能。 按照AppMeasurement语法�
 s.Util.cookieWrite("example_cookie","Example cookie value")
 ```
 
-可选的第三个参数可用，用于确定Cookie的过期时间。 默认情况下， `s.Util.cookieWrite()` 使用设置的Cookie在浏览器会话结束时过期。
+可选的第三个参数可用，用于确定Cookie的过期时间。 使用设置 `s.Util.cookieWrite()` 的Cookie在默认情况下在浏览器会话结束时过期。
 
 ```js
 // Set a cookie with an expiration 6 months from now
