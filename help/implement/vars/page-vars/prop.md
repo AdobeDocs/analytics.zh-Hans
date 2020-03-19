@@ -2,7 +2,7 @@
 title: prop
 description: 可在实施中使用的自定义变量。
 translation-type: tm+mt
-source-git-commit: ddab63a4fe3b8f1a3187893eba1ac3a1eda3bc41
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -21,14 +21,14 @@ Prop是自定义变量，您可以随心所欲地使用它。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 单击所需的属性。
-3. 转到“规 [!UICONTROL 则] ”选项卡，然后单击所需的规则（或创建规则）。
-4. 在“ [!UICONTROL 操作]”下，单击现有  Adobe Analytics —— 设置变量操作或单击“+”图标。
-5. 将“扩 [!UICONTROL 展] ”下拉列表设置为Adobe Analytics，将“操作类 [!UICONTROL 型] ”设置为“ [!UICONTROL 设置变量”]。
-6. 找到“ [!UICONTROL Props] ”部分。
+3. 转到选项卡， [!UICONTROL Rules] 然后单击所需的规则（或创建规则）。
+4. 在下 [!UICONTROL Actions]面，单击现有 [!UICONTROL Adobe Analytics - Set Variables] 操作或单击“+”图标。
+5. 将下拉 [!UICONTROL Extension] 列表设置为Adobe Analytics，将其设置为 [!UICONTROL Action Type] to [!UICONTROL Set Variables]。
+6. Locate the [!UICONTROL Props] section.
 
 您可以选择属性来设置值或数据元素。 您还可以从其他Analytics变量复制值。
 
-## s.prop1 - s.prop75 in appMeasurement and Launch自定义代码编辑器
+## s.prop1 - s.prop75 in AppMeasurement and Launch自定义代码编辑器
 
 每个prop变量都是一个字符串，其中包含特定于您的组织的自定义值。 最大长度为100字节；超过100字节的值在发送到Adobe时会自动截断。
 
@@ -56,3 +56,5 @@ s.prop1 = "value1,value2,value3";
 ```
 
 > [!IMPORTANT] 列表属性仍受100字节最大长度的限制。 列表属性更容易达到此限制并被截断，因为它们可以包含多个值。 如果可能达到这个100字节限制，请考虑使用缩写或缩短值。
+
+如果在列表属性中多次设置相同的值，则会在报告中消除重复值。 Analysis Workspace会计算查看某个值的点击次数，而不是计算某个值在数据中存在的次数。
