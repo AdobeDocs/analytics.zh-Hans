@@ -2,7 +2,7 @@
 title: rfl
 description: 从以字符分隔的字符串中删除特定值。
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 > [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
 
-该插 `rfl` 件允许您“安全”地从分隔字符串(如、、列表变量 `events``products`和其他)中删除值。 如果您希望从分隔字符串中删除特定值而不担心分隔符，此插件非常有用。 其他几个插件依赖于此代码才能正确运行。 如果您不需要同时对多个Analytics变量运行特定函数，或者您未使用任何相关插件，则不需要此插件。
+插 `rfl` 件允许您“安全”地从分隔字符串（如、、和其他字符串）中删 [`events`](../page-vars/events/events-overview.md)除 [`products`](../page-vars/products.md)值 [`list`](../page-vars/list.md)。 如果您希望从分隔字符串中删除特定值而不担心分隔符，此插件非常有用。 其他几个插件依赖于此代码才能正确运行。 如果您不需要同时对多个Analytics变量运行特定函数，或者您未使用任何相关插件，则不需要此插件。
 
 该插件使用以下逻辑：
 
@@ -24,8 +24,8 @@ Adobe提供了一个扩展，允许您使用最常用的插件。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 单击所需的属性。
-1. 转到“扩 [!UICONTROL 展] ”选项卡，然后单击“目 [!UICONTROL 录] ”按钮
-1. 安装和发布 [!UICONTROL Common Analytics插件扩展]
+1. 转到选 [!UICONTROL Extensions] 项卡，然后单击按 [!UICONTROL Catalog] 钮
+1. 安装和发布扩 [!UICONTROL Common Analytics Plugins] 展
 1. 如果尚未创建，请使用以下配置创建标有“初始化插件”的规则：
    * 条件：无
    * 事件：核心——载入的库（页面顶部）
@@ -40,14 +40,14 @@ Adobe提供了一个扩展，允许您使用最常用的插件。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 单击所需的属性。
-1. 转到“扩 [!UICONTROL 展] ”选项卡，然后单击Adobe Analytics扩 [!UICONTROL 展下的] “配置”按钮。
-1. 使用自定 [!UICONTROL 义代码accordion展开“配置跟踪] ”，该面板显示“打 [!UICONTROL 开编辑器] ”按钮。
+1. 转到选项卡， [!UICONTROL Extensions] 然后单击Adobe Analytics扩 [!UICONTROL Configure] 展下的按钮。
+1. 展开折 [!UICONTROL Configure tracking using custom code] 叠面板，以显示按 [!UICONTROL Open Editor] 钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
 1. 保存更改并将其发布到Analytics扩展。
 
 ## 使用AppMeasurement安装插件
 
-在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 `s_gi`码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
+在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 [`s_gi`](../functions/s-gi.md)码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -60,11 +60,11 @@ s.rfl=function(lv,vr,d1,d2,df){if(!lv||!vr)return"";var d=[],b="";d2=d2?d2:d1;df
 
 该方 `rfl` 法使用以下参数：
 
-* **`lv`**（必需，字符串）:包含分隔值列表的变量（或字符串）
-* **`vr`**（必需，字符串）:您希望从参数中删除的`lv`值。 Adobe建议不要在一次调用期间删除多个`rfl`值。
-* **`d1`**（可选，字符串）:参数使用的`lv`分隔符。 默认为逗号(`,`)。
-* **`d2`**（可选，字符串）:您希望返回字符串使用的分隔符。 默认为与参数相同的`d1`值。
-* **`df`**（可选，布尔）:如`true`果，则仅强制从参数中重复`vr`该参数的实`lv`例，而不是所有实例。 未设置`false`时，默认值为。
+* **`lv`** （必需，字符串）:包含分隔值列表的变量（或字符串）
+* **`vr`** （必需，字符串）:您希望从参数中删除的 `lv` 值。 Adobe建议不要在一次调用期间删除多个 `rfl` 值。
+* **`d1`** （可选，字符串）:参数使用的 `lv` 分隔符。 默认为逗号(`,`)。
+* **`d2`** （可选，字符串）:您希望返回字符串使用的分隔符。 默认为与参数相同的 `d1` 值。
+* **`df`** （可选，布尔）:如 `true`果，则仅强制从参数中重复 `vr` 该参数的实 `lv` 例，而不是所有实例。 未设置 `false` 时，默认值为。
 
 调用此方法将返回一个修改后的字符串，该字符串包含该 `lv` 参数，但不包含该参数中指定值的任何实例（或重复实例） `vr` 。
 
