@@ -2,18 +2,18 @@
 title: forceOnline
 description: 手动设置AppMeasurement的联机状态。
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # forceOnline
 
-该方 `forceOnline` 法允许您覆盖自动检测到的AppMeasurement状态。
+该方 `forceOnline()` 法允许您覆盖自动检测到的AppMeasurement状态。
 
-> [!IMPORTANT] 仅在启用时使 `trackOffline` 用此函数。 在脱机跟踪之外使用此函数可能会导致数据丢失。
+> [!IMPORTANT] 仅在启用时使 [`trackOffline`](../config-vars/trackoffline.md) 用此方法。 在脱机跟踪之外使用此函数可能会导致数据丢失。
 
-AppMeasurement可自动检测设备的联机状态。 您可以使用该方 `forceOnline` 法强制AppMeasurement将点击视为设备处于联机状态。 此方法不采用任何参数，也不返回任何值。 它的唯一目的是覆盖AppMeasurement中的联机状态。
+AppMeasurement可自动检测设备的联机状态。 您可以使用该方 `forceOnline()` 法强制AppMeasurement将点击视为设备处于联机状态。 此方法不采用任何参数，也不返回任何值。 它的唯一目的是覆盖AppMeasurement中的联机状态。
 
 ## 在Adobe Experience Platform Launch中强制在线
 
