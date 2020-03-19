@@ -2,7 +2,7 @@
 title: useBeacon
 description: 通过 useBeacon，您可以强制 AppMeasurement 使用浏览器 sendBeacon API
 translation-type: tm+mt
-source-git-commit: 58513f012bdbd1143601221985a399ed46916664
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 58513f012bdbd1143601221985a399ed46916664
 
 大多数现代浏览器都包含本机方法 `navigator.sendBeacon()`。 它通过HTTP将少量数据异步发送到Web服务器。 如果启用了变 `navigator.sendBeacon()` 量，AppMeasurement可 `useBeacon` 以使用该方法。 对于退出链接以及您希望在卸载页面之前发送信息的其他情况，此功能非常有用。
 
-如果 `useBeacon` 启用此功能，则发送到Adobe的下一次点击将使用浏览器的方 `navigator.sendBeacon()` 法而不是标准图 `GET` 像请求。 此变量同时适用于 `s.t()` 和 `s.tl()` 图像请求。它需要AppMeasurement 2.17.0或更高版本。
+如果 `useBeacon` 启用此功能，则发送到Adobe的下一次点击将使用浏览器的方 `navigator.sendBeacon()` 法而不是标准图 `GET` 像请求。 此变量同时适用于 [`s.t()`](../functions/t-method.md) 和 [`s.tl()`](../functions/tl-method.md) 图像请求。它需要AppMeasurement 2.17.0或更高版本。
 
 > [!TIP] AppMeasurement可自动启 `useBeacon` 用退出链接图像请求。
 
