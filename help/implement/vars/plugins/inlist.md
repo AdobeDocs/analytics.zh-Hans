@@ -2,7 +2,7 @@
 title: inList
 description: 检查另一个以字符分隔的值中是否包含值。
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,8 +19,8 @@ Adobe提供了一个扩展，允许您使用最常用的插件。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 单击所需的属性。
-1. 转到“扩 [!UICONTROL 展] ”选项卡，然后单击“目 [!UICONTROL 录] ”按钮
-1. 安装和发布 [!UICONTROL Common Analytics插件扩展]
+1. 转到选 [!UICONTROL Extensions] 项卡，然后单击按 [!UICONTROL Catalog] 钮
+1. 安装和发布扩 [!UICONTROL Common Analytics Plugins] 展
 1. 如果尚未创建，请使用以下配置创建标有“初始化插件”的规则：
    * 条件：无
    * 事件：核心——载入的库（页面顶部）
@@ -35,14 +35,14 @@ Adobe提供了一个扩展，允许您使用最常用的插件。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 单击所需的属性。
-1. 转到“扩 [!UICONTROL 展] ”选项卡，然后单击Adobe Analytics扩 [!UICONTROL 展下的] “配置”按钮。
-1. 使用自定 [!UICONTROL 义代码accordion展开“配置跟踪] ”，该面板显示“打 [!UICONTROL 开编辑器] ”按钮。
+1. 转到选项卡， [!UICONTROL Extensions] 然后单击Adobe Analytics扩 [!UICONTROL Configure] 展下的按钮。
+1. 展开折 [!UICONTROL Configure tracking using custom code] 叠面板，以显示按 [!UICONTROL Open Editor] 钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
 1. 保存更改并将其发布到Analytics扩展。
 
 ## 使用AppMeasurement安装插件
 
-在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 `s_gi`码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
+在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 [`s_gi`](../functions/s-gi.md)码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,10 +55,10 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 该方 `inList` 法使用以下参数：
 
-* **`lv`**（必需，字符串或数组）:要搜索的值或JavaScript数组对象的分隔列表
-* **`vtc`**（必需，字符串）:要搜索的值
-* **`d`**（可选，字符串）:用于分隔参数中各个值的分隔`lv`符。 未设置时，默`,`认为逗号()。
-* **`cc`**（可选，布尔）:如果设置为`true`，则会进行区分大小写的检查。 如果设置为`false`或忽略，则进行不区分大小写的检查。 默认为`false`。
+* **`lv`** （必需，字符串或数组）:要搜索的值或JavaScript数组对象的分隔列表
+* **`vtc`** （必需，字符串）:要搜索的值
+* **`d`** （可选，字符串）:用于分隔参数中各个值的分隔 `lv` 符。 未设置时，默`,`认为逗号()。
+* **`cc`** （可选，布尔）:如果设置为 `true`，则会进行区分大小写的检查。 如果设置为 `false` 或忽略，则进行不区分大小写的检查。 默认为 `false`。
 
 如果找到匹 `true` 配项，并且找不到匹配项， `false` 则调用此方法将返回。
 
