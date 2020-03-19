@@ -2,7 +2,7 @@
 title: events
 description: 设置事件变量，该变量控制网站上的大多数指标。
 translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -17,10 +17,10 @@ source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 单击所需的属性。
-3. 转到“规 [!UICONTROL 则] ”选项卡，然后单击所需的规则（或创建规则）。
-4. 在“ [!UICONTROL 操作]”下，单击现有  Adobe Analytics —— 设置变量操作或单击“+”图标。
-5. 将“扩 [!UICONTROL 展] ”下拉列表设置为Adobe Analytics，将“操作类 [!UICONTROL 型] ”设置为“ [!UICONTROL 设置变量”]。
-6. 找到“ [!UICONTROL 事件] ”部分。
+3. 转到选项卡， [!UICONTROL Rules] 然后单击所需的规则（或创建规则）。
+4. 在下 [!UICONTROL Actions]面，单击现有 [!UICONTROL Adobe Analytics - Set Variables] 操作或单击“+”图标。
+5. 将下拉 [!UICONTROL Extension] 列表设置为Adobe Analytics，将其设置为 [!UICONTROL Action Type] to [!UICONTROL Set Variables]。
+6. Locate the [!UICONTROL Events] section.
 
 提供以下几项功能：
 
@@ -42,7 +42,7 @@ source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
 * `scView`:增加“购物车查看次数”量度。
 * `scCheckout`:增加“结帐”量度。
 
-> [!TIP] 此变量区分大小写。 避免错误地使用事件值，以确保准确的数据收集。
+> [!NOTE] 此变量区分大小写。 避免错误地使用事件值，以确保准确的数据收集。
 
 ```js
 // Set the events variable to a single value
