@@ -2,14 +2,14 @@
 title: Util.getQueryParam
 description: 返回查询字符串参数的值。
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # Util.getQueryParam
 
-浏览器URL中的查询字符串参数经常包含Analytics的重要数据。 使用该 `Util.getQueryParam` 方法从查询字符串检索数据。
+浏览器URL中的查询字符串参数经常包含Analytics的重要数据。 使用该 `Util.getQueryParam()` 方法从查询字符串检索数据。
 
 ## 在Adobe Experience Platform Launch中获取查询字符串参数数据
 
@@ -17,8 +17,8 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 单击所需的属性。
-3. 转到“数 [!UICONTROL 据元素] ”选项卡，然后单击所需的数据元素（或创建数据元素）。
-4. 将“扩 [!UICONTROL 展] ”下拉列表设 [!UICONTROL 置为Core]，将“ [!UICONTROL 数据元素类型] ”设置为 Query String参数。
+3. 转到选项卡， [!UICONTROL Data Elements] 然后单击所需的数据元素（或创建数据元素）。
+4. 将下拉 [!UICONTROL Extension] 列表设 [!UICONTROL Core]置为，将 [!UICONTROL Data Element Type] 其设置为 [!UICONTROL Query String Parameter]。
 5. 在文本字段中输入查询字符串参数。
 
 查询字符串参数值存储在数据元素中。 然后，您可以引用规则中的数据元素来分配Analytics变量。
@@ -50,4 +50,4 @@ var customString = "https://example.com?q1=value1;q2=value2;q3=value3";
 s.eVar1 = s.Util.getQueryParam("q2",customString,";");
 ```
 
-> [!NOTE] AppMeasurement的先前版本有一个名为可用的插 `s.getQueryParam` 件。 此插件不再需要，因为默认情况下，它现在包含在AppMeasurement中。
+> [!TIP] 还有一个名为的类似 [`s.getQueryParam`](../plugins/getqueryparam.md) 插件。 此插件包含更高级的功能，但也更复杂，默认情况下不包含在AppMeasurement中。
