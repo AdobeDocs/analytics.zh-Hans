@@ -2,7 +2,7 @@
 title: getTimeBetweenEvents
 description: 测量两个事件之间的时间。
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,8 +19,8 @@ Adobe提供了一个扩展，允许您使用最常用的插件。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 单击所需的属性。
-1. 转到“扩 [!UICONTROL 展] ”选项卡，然后单击“目 [!UICONTROL 录] ”按钮
-1. 安装和发布 [!UICONTROL Common Analytics插件扩展]
+1. 转到选 [!UICONTROL Extensions] 项卡，然后单击按 [!UICONTROL Catalog] 钮
+1. 安装和发布扩 [!UICONTROL Common Analytics Plugins] 展
 1. 如果尚未创建，请使用以下配置创建标有“初始化插件”的规则：
    * 条件：无
    * 事件：核心——载入的库（页面顶部）
@@ -35,14 +35,14 @@ Adobe提供了一个扩展，允许您使用最常用的插件。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 单击所需的属性。
-1. 转到“扩 [!UICONTROL 展] ”选项卡，然后单击Adobe Analytics扩 [!UICONTROL 展下的] “配置”按钮。
-1. 使用自定 [!UICONTROL 义代码accordion展开“配置跟踪] ”，该面板显示“打 [!UICONTROL 开编辑器] ”按钮。
+1. 转到选项卡， [!UICONTROL Extensions] 然后单击Adobe Analytics扩 [!UICONTROL Configure] 展下的按钮。
+1. 展开折 [!UICONTROL Configure tracking using custom code] 叠面板，以显示按 [!UICONTROL Open Editor] 钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
 1. 保存更改并将其发布到Analytics扩展。
 
 ## 使用AppMeasurement安装插件
 
-在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 `s_gi`码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
+在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 [`s_gi`](../functions/s-gi.md)码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -61,14 +61,14 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 该方 `getTimeBetweenEvents` 法使用以下参数：
 
-* **`ste`**（必需，字符串）:启动计时器事件。 用于“启动计时器”的Analytics事件的逗号分隔字符串。
-* **`rt`**（必需，布尔）:重新启动计时器选项。 如果要`true`在每次变量包含启动计时器事件时重新`events`启动计时器，则设置为。 如果不`false`希望计时器在看到开始计时器事件时重新启动，则设置为。
-* **`stp`**（必需，字符串）:停止计时器事件。 逗号分隔的“停止计时器”Analytics事件字符串。
-* **`res`**（必需，布尔）:重置计时器选项。 如果要`true`记录计时器启动后的时间，则设置为，并在计时器停止后重置计时器。 如果`false`要录制时间，但不停止计时器，则设置为。 如果设置为`false`，则在events变量记录停止事件后，计时器将继续运行。
+* **`ste`** （必需，字符串）:启动计时器事件。 用于“启动计时器”的Analytics事件的逗号分隔字符串。
+* **`rt`** （必需，布尔）:重新启动计时器选项。 如果要 `true` 每次变量包含启动计时器事件时都重 `events` 新启动计时器，则设置为。 如果不 `false` 希望计时器在看到开始计时器事件时重新启动，则设置为。
+* **`stp`** （必需，字符串）:停止计时器事件。 逗号分隔的“停止计时器”Analytics事件字符串。
+* **`res`** （必需，布尔）:重置计时器选项。 如果要 `true` 记录计时器启动后的时间，则设置为，并在计时器停止后重置计时器。 如果 `false` 要录制时间，但不停止计时器，则设置为。 如果设置为 `false`，则在events变量记录停止事件后，计时器将继续运行。
    > [!TIP] 如果将此参数设置为， `false`则强烈建议在 `rte` 下面设置参数。
-* **`cn`**（可选，字符串）:存储第一个事件的时间的Cookie名称。 默认为`"s_tbe"`。
-* **`etd`**（可选，整数）:cookie的过期时间（以天为单位）。 设置为`0`在浏览器会话结束时过期。 未设置时，默认为1天。
-* **`fmt`**（可选，字符串）:返回秒数的时间格式（默认为无）
+* **`cn`** （可选，字符串）:存储第一个事件的时间的Cookie名称。 默认为 `"s_tbe"`。
+* **`etd`** （可选，整数）:cookie的过期时间（以天为单位）。 设置为 `0` 在浏览器会话结束时过期。 未设置时，默认为1天。
+* **`fmt`** （可选，字符串）:返回秒数的时间格式（默认为无）
    * `"s"` 秒
    * `"m"` 几分钟
    * `"h"` 数小时
@@ -78,8 +78,8 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
       * 一分钟到一小时之间的任何内容，都四舍五入到最接近的1/2分钟基准。 例如，30.5分钟，31分钟
       * 一小时到一天之间的任何内容都舍入到最接近的四分之一小时基准。 例如，2.25小时，3.5小时
       * 任何大于一天的项目都会舍入到最接近的日基准。 例如，1天，3天，9天
-* **`bml`**（可选，数字）:根据参数格式的舍入基准的长`fmt`度。 例如，如果参数`fmt`为，`"s"`且此参数为，则返回`2`值将舍入到最接近的2秒基准。 如果`fmt`参数为`"m"`且此参数为，则返回值`0.5`将舍入到最接近的半分钟基准值。
-* **`rte`**（可选，字符串）:删除或删除计时器的Analytics事件的逗号分隔字符串。 默认为无。
+* **`bml`** （可选，数字）:根据参数格式的舍入基准的长 `fmt` 度。 例如，如果参数 `fmt` 为， `"s"` 且此参数为，则返回 `2`值将舍入到最接近的2秒基准。 如果 `fmt` 参数为 `"m"` 且此参数为，则返回值 `0.5`将舍入到最接近的半分钟基准值。
+* **`rte`** （可选，字符串）:删除或删除计时器的Analytics事件的逗号分隔字符串。 默认为无。
 
 调用此方法将返回一个整数，该整数表示以所需格式开始计时器事件和停止计时器事件之间的时间量。
 
