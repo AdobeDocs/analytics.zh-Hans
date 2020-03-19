@@ -2,7 +2,7 @@
 title: getValOnce
 description: 防止将Analytics变量设置为一行中的相同值两次。
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,8 +19,8 @@ Adobe提供了一个扩展，允许您使用最常用的插件。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 单击所需的属性。
-1. 转到“扩 [!UICONTROL 展] ”选项卡，然后单击“目 [!UICONTROL 录] ”按钮
-1. 安装和发布 [!UICONTROL Common Analytics插件扩展]
+1. 转到选 [!UICONTROL Extensions] 项卡，然后单击按 [!UICONTROL Catalog] 钮
+1. 安装和发布扩 [!UICONTROL Common Analytics Plugins] 展
 1. 如果尚未创建，请使用以下配置创建标有“初始化插件”的规则：
    * 条件：无
    * 事件：核心——载入的库（页面顶部）
@@ -35,14 +35,14 @@ Adobe提供了一个扩展，允许您使用最常用的插件。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 单击所需的属性。
-1. 转到“扩 [!UICONTROL 展] ”选项卡，然后单击Adobe Analytics扩 [!UICONTROL 展下的] “配置”按钮。
-1. 使用自定 [!UICONTROL 义代码accordion展开“配置跟踪] ”，该面板显示“打 [!UICONTROL 开编辑器] ”按钮。
+1. 转到选项卡， [!UICONTROL Extensions] 然后单击Adobe Analytics扩 [!UICONTROL Configure] 展下的按钮。
+1. 展开折 [!UICONTROL Configure tracking using custom code] 叠面板，以显示按 [!UICONTROL Open Editor] 钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
 1. 保存更改并将其发布到Analytics扩展。
 
 ## 使用AppMeasurement安装插件
 
-在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 `s_gi`码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
+在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 [`s_gi`](../functions/s-gi.md)码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,10 +55,10 @@ s.getValOnce=function(vtc,cn,et,ep){if(vtc&&(cn=cn||"s_gvo",et=et||0,ep="m"===ep
 
 该方 `getValOnce` 法使用以下参数：
 
-* **`vtc`**（必需，字符串）:要检查并查看它之前是否设置为相同值的变量
-* **`cn`**（可选，字符串）:包含要检查的值的Cookie的名称。 默认值为`"s_gvo"`
-* **`et`**（可选，整数）:cookie的到期时间(以天为单位，或以分钟为单位，具体取决于`ep`参数)。 默认为`0`，浏览器会话结束时过期
-* **`ep`**（可选，字符串）:仅当参数也被设置时`et`才设置此参数。 如果希望该参`"m"`数在数分钟(而`et`不是数天)后过期，请将此参数设置为。 默认为`"d"`，以天为单位`et`设置参数。
+* **`vtc`** （必需，字符串）:要检查并查看它之前是否设置为相同值的变量
+* **`cn`** （可选，字符串）:包含要检查的值的Cookie的名称。 默认值为 `"s_gvo"`
+* **`et`** （可选，整数）:cookie的到期时间(以天为单位，或以分钟为单位，具体取决于 `ep` 参数)。 默认为 `0`，浏览器会话结束时过期
+* **`ep`** （可选，字符串）:仅当参数也被设置时 `et` 才设置此参数。 如果希望该参 `"m"` 数在数分钟(而 `et` 不是数天)后过期，请将此参数设置为。 默认为 `"d"`，以天为单位 `et` 设置参数。
 
 如果参 `vtc` 数与cookie值匹配，则此方法返回空字符串。 如果参 `vtc` 数与cookie值不匹配，则该方法将参数作为 `vtc` 字符串返回。
 
@@ -72,7 +72,7 @@ s.getValOnce=function(vtc,cn,et,ep){if(vtc&&(cn=cn||"s_gvo",et=et||0,ep="m"===ep
 s.campaign=s.getValOnce(s.campaign,"s_campaign",30);
 ```
 
-在上述调用中，插件将首先比较s_campaign cookie中已包含的值与当前s.campaign变量中的值。   如果未匹配，插件会将s_campaign cookie设置为与s.campaign中的新值相等，然后返回新值。   这种比较将在接下来的30天内进行
+在上述调用中，插件将首先比较s_campaign cookie中已包含的值与当前s.campaign变量中的值。   如果未匹配，插件会将s_campaign Cookie设置为与s.campaign中的新值相等，然后返回新值。   这种比较将在接下来的30天内进行
 
 ### 示例#2
 
