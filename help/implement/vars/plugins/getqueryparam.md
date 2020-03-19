@@ -2,7 +2,7 @@
 title: getQueryParam
 description: 提取URL的查询字符串参数的值。
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 该插 `getQueryParam` 件允许您提取URL中包含的任何查询字符串参数的值。 它可用于从登录页面URL提取内部和外部营销活动代码。 在提取搜索词或其他查询字符串参数时，它也很有价值。
 
-此插件在解析复杂URL时提供强大功能，包括散列和包含多个查询字符串参数的URL。 如果您只有简单的查询字符串参数需要，Adobe建议使用Launch中的URL参数功能或AppMeasurement `Util.getQueryParam` 中包含的方法。
+此插件在解析复杂URL时提供强大功能，包括散列和包含多个查询字符串参数的URL。 如果您只有简单的查询字符串参数需要，Adobe建议使用Launch中的URL参数功能或AppMeasurement [`Util.getQueryParam()`](../functions/util-getqueryparam.md) 中包含的方法。
 
 ## 使用Adobe Experience Platform Launch扩展安装插件
 
@@ -21,8 +21,8 @@ Adobe提供了一个扩展，允许您使用最常用的插件。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 单击所需的属性。
-1. 转到“扩 [!UICONTROL 展] ”选项卡，然后单击“目 [!UICONTROL 录] ”按钮
-1. 安装和发布 [!UICONTROL Common Analytics插件扩展]
+1. 转到选 [!UICONTROL Extensions] 项卡，然后单击按 [!UICONTROL Catalog] 钮
+1. 安装和发布扩 [!UICONTROL Common Analytics Plugins] 展
 1. 如果尚未创建，请使用以下配置创建标有“初始化插件”的规则：
    * 条件：无
    * 事件：核心——载入的库（页面顶部）
@@ -37,8 +37,8 @@ Adobe提供了一个扩展，允许您使用最常用的插件。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 单击所需的属性。
-1. 转到“扩 [!UICONTROL 展] ”选项卡，然后单击Adobe Analytics扩 [!UICONTROL 展下的] “配置”按钮。
-1. 使用自定 [!UICONTROL 义代码accordion展开“配置跟踪] ”，该面板显示“打 [!UICONTROL 开编辑器] ”按钮。
+1. 转到选项卡， [!UICONTROL Extensions] 然后单击Adobe Analytics扩 [!UICONTROL Configure] 展下的按钮。
+1. 展开折 [!UICONTROL Configure tracking using custom code] 叠面板，以显示按 [!UICONTROL Open Editor] 钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
 1. 保存更改并将其发布到Analytics扩展。
 
@@ -56,9 +56,9 @@ s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var
 
 该方 `getQueryParam` 法使用以下参数：
 
-* **`qsp`**（必需）:要在URL中查找的查询字符串参数的逗号分隔列表。 它不区分大小写。
-* **`de`**（可选）:多个查询字符串参数匹配时使用的分隔符。 默认为空字符串。
-* **`url`**（可选）:用于从中提取查询字符串参数值的自定义URL、字符串或变量。 默认为`window.location`。
+* **`qsp`** （必需）:要在URL中查找的查询字符串参数的逗号分隔列表。 它不区分大小写。
+* **`de`** （可选）:多个查询字符串参数匹配时使用的分隔符。 默认为空字符串。
+* **`url`** （可选）:用于从中提取查询字符串参数值的自定义URL、字符串或变量。 默认为 `window.location`。
 
 调用此方法会根据上述参数和URL返回一个值：
 
@@ -139,7 +139,7 @@ http://www.abc123.com/#location&cid=trackingcode1&ecid=123456
 s.campaign=s.getQueryParam('ecid');
 ```
 
-**** 注意：如果问号不存在，该插件会用问号替换Check的哈希字符的URL。  如果URL包含哈希字符前面的问号，则插件会将URL替换为“检查的哈希字符”的和号；
+**注意：** 如果问号不存在，该插件会用问号替换Check的哈希字符的URL。  如果URL包含哈希字符前面的问号，则插件会将URL替换为“检查的哈希字符”的和号；
 
 ### 示例#6
 
@@ -167,7 +167,7 @@ s.campaign=s.getQueryParam('cid');
 s.campaign=s.getQueryParam('cid','',s.testURL);
 ```
 
-**** 注意：第三个参数可以是代码将用来尝试在
+**注意：** 第三个参数可以是代码将用来尝试在
 
 以下代码将s.eVar2设置为等于“123456|trackingcode1|true|300”:
 
