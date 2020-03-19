@@ -2,17 +2,17 @@
 title: doPlugins
 description: 在编译点击并发送到Adobe之前配置逻辑。
 translation-type: tm+mt
-source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # doPlugins
 
-该 `doPlugins` 变量充当“最后调用”，用于在您的实现中设置值。 如果 `usePlugins` 是 `true`，则它会在编译和发送任何类型的图像请求之前自动运行，包括：
+该 `doPlugins` 变量充当“最后调用”，用于在您的实现中设置值。 如果 [`usePlugins`](../config-vars/useplugins.md) 启用此功能，则它会在编译任何类型的图像请求并将其发送到Adobe之前自动运行，包括：
 
-* 所有页面查看(`t`)调用
-* 所有链接跟踪(`tl`)调用，包括自动下载链接和退出链接
+* 所有页面查看([`t()`](t-method.md))调用
+* 所有链接跟踪([`tl()`](tl-method.md))调用，包括自动下载链接和退出链接
 
 使用该 `doPlugins` 变量调用插件代码并在编译图像请求并将其发送到Adobe之前设置最终变量值。
 
