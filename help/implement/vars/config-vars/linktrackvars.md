@@ -2,16 +2,16 @@
 title: linkTrackVars
 description: 指定要包含在链接跟踪图像请求中的变量。
 translation-type: tm+mt
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # linkTrackVars
 
-某些实现不希望将所有变量包含在所有链接跟踪图像请求中。 使用和 `linkTrackVars` 变量 `linkTrackEvents` 在调用中有选择地包含维度和 `tl()` 度量。
+某些实现不希望将所有变量包含在所有链接跟踪图像请求中。 使用和 `linkTrackVars` 变量 [`linkTrackEvents`](linktrackevents.md) 在调用中有选择地包含维度和 [`tl()`](../functions/tl-method.md) 度量。
 
-此变量不用于页面查看调用(函`t()` 数)。
+此变量不用于页面查看调用(方`t()` 法)。
 
 ## 使用Adobe Experience Platform Launch进行链接跟踪调用中的变量
 
@@ -21,7 +21,7 @@ Launch会根据在界面中设置的变量在后端自动填充此变量，因�
 
 ## AppMeasurement中的s.linkTrackVars和启动自定义代码编辑器
 
-变 `s.linkTrackVars` 量是一个字符串，其中包含要包含在链接跟踪图像请求（函数）中的以逗号分隔的变量`tl()` 列表。 必须满足以下两个条件才能在链接跟踪点击中包含维：
+变 `s.linkTrackVars` 量是一个字符串，其中包含要包含在链接跟踪图像请求（方法）中的以逗号分隔的变量`tl()` 列表。 必须满足以下两个条件才能在链接跟踪点击中包含维：
 
 * 设置所需的变量值。 例如：`s.eVar1 = "Example value";`。
 * 在变量中设置所需的 `linkTrackVars` 变量。 例如：`s.linkTrackEvents = "eVar1";`。
