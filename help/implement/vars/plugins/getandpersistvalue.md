@@ -2,7 +2,7 @@
 title: getAndPersistValue
 description: 存储稍后可随时检索的值。
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 > [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
 
-该插 `getAndPersistValue` 件允许您在cookie中存储一个值，该值可在访问期间稍后检索。 它的作用与Adobe Experience Platform Launch中的“存 [!UICONTROL 储持续时间] ”功能类似。 如果您希望在设置变量后的后续点击中自动将Analytics变量保留为相同的值，Adobe建议使用此插件。 如果Launch的“存储持续时间  ”功能足够，或者您无需在后续点击中将变量设置为相同值并将其保留为相同值，则无需使用此插件。 eVar的内置持久性不需要使用此插件，因为这些变量在服务器端由Adobe保留。
+该插 `getAndPersistValue` 件允许您在cookie中存储一个值，该值可在访问期间稍后检索。 它的作用与Adobe Experience Platform Launch [!UICONTROL Storage duration] 中的功能类似。 如果您希望在设置变量后的后续点击中自动将Analytics变量保留为相同的值，Adobe建议使用此插件。 如果Launch的功能足够，或者您无需在后续点击中将变量设置为相同值并将其保留为相同值，则不必使用此插件。 [!UICONTROL Storage duration] eVar的内置持久性不需要使用此插件，因为这些变量在服务器端由Adobe保留。
 
 ## 使用Adobe Experience Platform Launch扩展安装插件
 
@@ -19,8 +19,8 @@ Adobe提供了一个扩展，允许您使用最常用的插件。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 单击所需的属性。
-1. 转到“扩 [!UICONTROL 展] ”选项卡，然后单击“目 [!UICONTROL 录] ”按钮
-1. 安装和发布 [!UICONTROL Common Analytics插件扩展]
+1. 转到选 [!UICONTROL Extensions] 项卡，然后单击按 [!UICONTROL Catalog] 钮
+1. 安装和发布扩 [!UICONTROL Common Analytics Plugins] 展
 1. 如果尚未创建，请使用以下配置创建标有“初始化插件”的规则：
    * 条件：无
    * 事件：核心——载入的库（页面顶部）
@@ -35,14 +35,14 @@ Adobe提供了一个扩展，允许您使用最常用的插件。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 单击所需的属性。
-1. 转到“扩 [!UICONTROL 展] ”选项卡，然后单击Adobe Analytics扩 [!UICONTROL 展下的] “配置”按钮。
-1. 使用自定 [!UICONTROL 义代码accordion展开“配置跟踪] ”，该面板显示“打 [!UICONTROL 开编辑器] ”按钮。
+1. 转到选项卡， [!UICONTROL Extensions] 然后单击Adobe Analytics扩 [!UICONTROL Configure] 展下的按钮。
+1. 展开折 [!UICONTROL Configure tracking using custom code] 叠面板，以显示按 [!UICONTROL Open Editor] 钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
 1. 保存更改并将其发布到Analytics扩展。
 
 ## 使用AppMeasurement安装插件
 
-在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 `s_gi`码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
+在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 [`s_gi`](../functions/s-gi.md)码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,9 +55,9 @@ s.getAndPersistValue=function(vtp,cn,ex){var b=new Date;cn=cn?cn:"s_gapv";(ex=ex
 
 该方 `getAndPersist` 法使用以下参数：
 
-* **`vtp`**（必需）:要在页面之间保留的值
-* **`cn`**（可选）:用于存储值的Cookie的名称。 如果未设置此参数，则命名Cookie`"s_gapv"`
-* **`ex`**（可选）:cookie过期前的天数。 如果此参数`0`已设置或未设置，则Cookie将在访问结束时过期（30分钟不活动）。
+* **`vtp`** （必需）:要在页面之间保留的值
+* **`cn`** （可选）:用于存储值的Cookie的名称。 如果未设置此参数，则命名Cookie `"s_gapv"`
+* **`ex`** （可选）:cookie过期前的天数。 如果此参数 `0` 已设置或未设置，则Cookie将在访问结束时过期（30分钟不活动）。
 
 如果参数中的 `vtp` 变量已设置，则插件会设置cookie，然后返回cookie值。 如果未设置 `vtp` 参数中的变量，则插件只返回cookie值。
 
