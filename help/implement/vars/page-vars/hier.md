@@ -2,7 +2,7 @@
 title: (hier)
 description: 在Adobe Analytics中实施层次变量。
 translation-type: tm+mt
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,41 +11,24 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 层次变量是自定义变量，可让您查看站点的结构。
 
-该变量最适用于网站结构超过三层的网站。例如，某媒体网站的“体育”区域可能有 4 个级别：体育、地方体育、棒球、红袜队 (Red Sox)。如果有人访问“棒球”页面，则“体育”、“地方体育”和“棒球”这几个级别都会反映此访问。
+> [!TIP] 此变量在Adobe Analytics的早期版本中更为常见。 Adobe建议改 [用eVar](evar.md) 和分类。
 
-有五个可用的[!UICONTROL 层级]变量，它们都必须由 Adobe 客户关怀部门启用。启用层级后，您需要决定变量的分隔符以及层级的最大级别数目。例如，如果使用逗号作为分隔符，则体育层级可能显示如下。
+此变量对于站点结构中具有三个以上级别的站点很有用。 例如，媒体站点的“体育”部分可以有4个级别： `Sports`、 `Local Sports`、 `Baseball`和 `Team name`。 如果有人访问“棒球”页面，则“体育”、“地方体育”和“棒球”这几个级别都会反映此访问。
 
-```js
-s.hier1="Sports,Local Sports,Baseball"
-```
-
-请确保您的所有区域名称中没有分隔符。例如，如果您有一个名为“Coach Griffin, Jim”的区域，则您需要选择逗号以外的其他分隔符。每个层级区域限制在 255 字节以内，且全部变量限制也是 255 字节。分隔符一旦选定（即在层级创建时），便不易更改。
-
-若要更改现有层级的分隔符，请联系 Adobe 客户关怀部门。分隔符也可由多个字符组成，如 || 或 /|\，这些字符组合在层级区域中出现的概率较低。
-
-## 语法和可能值
-
-请不要在分隔符间插入空格。在以下示例语法中，N 是一个介于 1 至 5 之间的数值。
+Adobe在您的实施中最多支持5个层次结构变量。 在启用层次时，确定变量的分隔符以及层次的最大级别数。 例如，如果分隔符为逗号，则层次结构将类似于：
 
 ```js
-s.hierN="Level 1[<delimiter>Level 2[<delimiter>Level 3[...]]]"
+s.hier1 = "Sports,Local Sports,Baseball";
 ```
 
-除了用于分隔层级的级别外，请不要在其他时候使用分隔符。分隔符可以是您选择的任何字符或字符集。
+请确保您的所有区域名称中没有分隔符。例如，如果调用了某个部分，请选 `Coach Griffin, Jim`择逗号以外的分隔符。 总变量限制为255字节。 分隔符可以由多个字符组成， `||` 如 `/|\`或，这些字符不太可能出现在变量值中。
 
 ## 示例
 
 ```js
-s.hier1="Toys|Boys 6+|Legos|Super Block Tub"
+s.hier1="Toys|Boys 6+|Legos|Super Block Tub";
 ```
 
 ```js
-s.hier4="Sports/Local Sports/Baseball"
+s.hier4="Sports/Local Sports/Baseball";
 ```
-
-## 缺陷、问题和提示
-
-* 一旦设置了层级，便不可更改分隔符。若必须更改层级的分隔符，请联系 Adobe 客户关怀部门。
-* 层级一旦设置好后，便不可更改级别数。
-
-> [!NOTE]更改层级可能需要收取服务费。
