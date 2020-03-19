@@ -2,7 +2,7 @@
 title: getVisitNum
 description: 跟踪访客的当前访问次数。
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,8 +19,8 @@ Adobe提供了一个扩展，允许您使用最常用的插件。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 单击所需的属性。
-1. 转到“扩 [!UICONTROL 展] ”选项卡，然后单击“目 [!UICONTROL 录] ”按钮
-1. 安装和发布 [!UICONTROL Common Analytics插件扩展]
+1. 转到选 [!UICONTROL Extensions] 项卡，然后单击按 [!UICONTROL Catalog] 钮
+1. 安装和发布扩 [!UICONTROL Common Analytics Plugins] 展
 1. 如果尚未创建，请使用以下配置创建标有“初始化插件”的规则：
    * 条件：无
    * 事件：核心——载入的库（页面顶部）
@@ -35,14 +35,14 @@ Adobe提供了一个扩展，允许您使用最常用的插件。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 单击所需的属性。
-1. 转到“扩 [!UICONTROL 展] ”选项卡，然后单击Adobe Analytics扩 [!UICONTROL 展下的] “配置”按钮。
-1. 使用自定 [!UICONTROL 义代码accordion展开“配置跟踪] ”，该面板显示“打 [!UICONTROL 开编辑器] ”按钮。
+1. 转到选项卡， [!UICONTROL Extensions] 然后单击Adobe Analytics扩 [!UICONTROL Configure] 展下的按钮。
+1. 展开折 [!UICONTROL Configure tracking using custom code] 叠面板，以显示按 [!UICONTROL Open Editor] 钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
 1. 保存更改并将其发布到Analytics扩展。
 
 ## 使用AppMeasurement安装插件
 
-在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 `s_gi`码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
+在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 [`s_gi`](../functions/s-gi.md)码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -58,11 +58,11 @@ var endOfDatePeriod=function(dp){var a=new Date,b=isNaN(dp)?0:Math.floor(dp);a.s
 
 该方 `getVisitNum` 法使用以下参数：
 
-* **`rp`**（可选，整数OR字符串）:访问次数计数器重置前的天数。  未设置`365`时，默认值为。
+* **`rp`** （可选，整数OR字符串）:访问次数计数器重置前的天数。  未设置 `365` 时，默认值为。
    * 当此参数 `"w"`为时，计数器将在周末重置（本周六晚上11:59）
    * 当此参数 `"m"`为时，计数器将在月末（本月的最后一天）重置
    * 当此参数 `"y"`为时，计数器将在年末（12月31日）重置
-* **`erp`**（可选，布尔）:当参`rp`数是数字时，此参数确定访问号是否应延长。 如果设置为`true`，则您站点的后续点击将重置访问次数计数器。 如果设置为`false`，则访问次数计数器重置时，您站点的后续点击不会延长。 默认为`true`。 当参数为字符串时，`rp`此参数无效。
+* **`erp`** （可选，布尔）:当参 `rp` 数是数字时，此参数确定访问号是否应延长。 如果设置为 `true`，则您站点的后续点击将重置访问次数计数器。 如果设置为 `false`，则访问次数计数器重置时，您站点的后续点击不会延长。 默认为 `true`。 当参数为字符串时， `rp` 此参数无效。
 
 访客在非活动状态持续30分钟后返回您的网站时，访问次数会增加。 调用此方法将返回一个表示访客当前访问次数的整数。
 
