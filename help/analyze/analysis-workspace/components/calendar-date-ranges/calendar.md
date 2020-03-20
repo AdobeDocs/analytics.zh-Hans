@@ -2,8 +2,8 @@
 description: 在日历中，您可以指定日期和日期范围，或者选择一个预设。
 title: 日历和日期范围概述
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
 
 ---
 
@@ -12,16 +12,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 在日历中，您可以指定日期和日期范围，或者选择一个预设。
 
-日历选择在面板级别应用，但您可以选择将它们应用于所有面板。默认情况下，工作区日历显示当月和上个月。
+日历选择在面板级别应用，但您可以选择将它们应用于所有面板。在Workspace中单击日期范围时，界面将显示当前日历月和上一个日历月。 您可以通过单击各个上角的左右箭头来调整这两个日历。
 
-首次单击开始选择日期范围。然后向任一方向突出显示日期范围，直到单击第二次选择结束日期范围。如果在单击第一个日期的同时按住 `Shift` 键（或使用右键单击），可选择日期范围。
+![日历](assets/aw_calendar.png)
+
+日历上的第一次点击会开始选择日期范围。 第二次单击将完成日期范围选择，该选项将高亮显示。 如果按 `Shift` 住键（或使用右键单击），则该键会附加到当前选定的范围。
 
 您还可以将日期（和时间维度）拖放到工作区项目中。您可以选择特定的日期、周、月、年或滚动日期。
 
-![](assets/aw_calendar.png)
-
-[YouTube 上的使用 Analysis Workspace 中的日期范围和日历](https://www.youtube.com/watch?v=L4FSrxr3SDA&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=28) (4:07)
-
+[YouTube 上的使用 Analysis Workspace 中的日期范围和日历](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28) (4:07)
 
 | 设置 | 描述 |
 |--- |--- |
