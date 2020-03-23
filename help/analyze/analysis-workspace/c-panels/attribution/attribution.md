@@ -3,7 +3,7 @@ description: 'null'
 title: 归因面板概述
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: 8bae313fd4c26de8aedf18b095202735c0382bae
+source-git-commit: 3869385b9ad17cbea5e7a4e09bd06d5f0b53dd3c
 
 ---
 
@@ -96,3 +96,5 @@ Analytics 中的某些维度可能包含单个点击时的多个值。常见示�
 例如，如果创建一个应用了“展示广告点击”区段的 VRS，则您可能会在使用某些归因模型的表中看到其他渠道。
 
 ![仅显示虚拟报表包](assets/vrs-aiq-example.png)
+
+> [!NOTE] 如果区段抑制包含您的度量的点击，则这些度量实例不会被归因于任何维。 但是，类似的报表过滤器只会隐藏一些维度值，而不会影响每个归因模型处理的度量。 因此，具有类似定义的区段和过滤器有时可能会返回较低的区段值。
