@@ -4,7 +4,7 @@ keywords: DFA
 title: 使用 DFA 数据的 Analytics 报告
 topic: Data connectors
 uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -31,11 +31,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 要生成 DFA 报表，请执行以下操作：
 
 1. 登录到 Adobe Experience Cloud。
-1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports &amp; Analytics]**. 请确保您已选择安装有 DFA 集成的报表包。
+1. 转到 **[!UICONTROL Analytics]** > **[!UICONTROL 报告与分析]**。请确保您已选择安装有 DFA 集成的报表包。
 
 1. 在左侧导航中，选择用于捕获 DFA 点进数据的转化变量，然后选择所需的 DFA 报表。
 1. 单击&#x200B;**[!UICONTROL 添加量度]**。此操作将打开“量度选择器”对话框。
-1. Check the Impressions and Clicks metrics in the **[!UICONTROL Available Metrics]** list and click **[!UICONTROL Apply]**.
+1. 在&#x200B;**[!UICONTROL 可用量度]**&#x200B;列表中选中展示次数和点击量量度，然后单击&#x200B;**[!UICONTROL 应用]**。
 
    所生成的报表会显示展示次数、点击量和收入数据，这样您就能了解 DFA 服务转化为利润收入的情况。例如，DFA 广告名称报表可显示直接归因于当前 DFA 广告促销活动中特定横幅广告的展示次数、点击量和收入数据。
 
@@ -45,8 +45,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 * 报表标题（标有 DFA_广告名称报表）显示报表时段（2009 年 2 月），并使用水平条格式指示这是一个排名报表。
 * 此图表本身显示了报表中每个 DFA 广告的三个量度（展示次数、点击量和收入）。
-* 此图表将每个量度的数据显示为一个总量度百分比，而不是对每个量度使用实际数字。您可以在&#x200B;**[!UICONTROL 配置报表]对话框中更改它。**
+* 此图表将每个量度的数据显示为一个总量度百分比，而不是对每个量度使用实际数字。您可以在&#x200B;**[!UICONTROL 配置报表]**&#x200B;对话框中更改它。
 * 在图表下方，DFA_广告名称报表列出了每个 DFA 广告的报表详细信息，并同时显示广告效果的数字和百分比数据。
 * 选择一个特定的 DFA 广告名称来打开一个选项菜单，以便获取有关此特定 DFA 广告的更多信息。
-* 每个度量列都包括一个颜色键，该颜色键与图中度量的指定颜色相对应。
+* 每个量度列均包含一个与图表中量度所分配颜色对应的颜色键。
 * 报表按收入量度排序，具有最高收入的广告列在最顶部。您可以通过单击不同的列（量度）标签来更改报表排序。
