@@ -2,7 +2,7 @@
 description: 'null'
 title: 使用集成
 uuid: c902a868-20a7-42df-8a79-8e154608f299
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,41 +12,41 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 部署后，您可以开始使用此集成提供的其他功能。
 
-**注意**:在Adobe Analytics报告中，可能需要24-48小时才能开始查看某些动态信号数据。
+**注意**：在 Adobe Analytics 报表中，可能需要 24-48 小时才能开始看到一些 Dynamic Signal 数据。
 
-以下操作会从Adobe Analytics中的此集成中获得增值。
+通过执行以下操作，可在 Adobe Analytics 中从此集成额外获益。
 
-## 按动态信号维度查看流量和转换指标{#viewing-traffic-and-conversion-metrics-by-dynamic-signal-dimensions}
+## 按 Dynamic Signal 维度查看流量和转化量度{#viewing-traffic-and-conversion-metrics-by-dynamic-signal-dimensions}
 
-Adobe Analytics中的报表示例。
+Adobe Analytics 中的报表示例。
 
-此集成提供了新维度，这些维度可作为Adobe Analytics报告使用。 以下报告是分析访问和按文章标题细分的转化量度（注册）的示例。
+此集成提供了新的维度，这些维度可用于 Adobe Analytics 报表。以下报表是对按“文章标题”划分的“访问量”和转化量度“注册量”进行分析的示例。
 
 ![](assets/examplereport.png)
 
-## 按动态信号维数细分{#segmenting-by-dynamic-signal-dimensions}
+## 按 Dynamic Signal 维度划分{#segmenting-by-dynamic-signal-dimensions}
 
-基于动态信号尺寸的段示例。
+基于 Dynamic Signal 维度的区段示例。
 
-此集成的主要功能是能够根据集成的报告维度创建Adobe Analytics细分。 例如，您可以构建一个区段，该区段仅包含来自特定VoiceStorm社区的访问。 您可以将此称为“由超级粉丝驱动的访问”。 此区段定义可能如下所示。
+此集成的主要功能是，根据集成的报表维度来创建 Adobe Analytics 区段。例如，您可以构建一个仅包含来自特定 VoiceStorm 社区的访问的区段。您可以将此区段命名为“由超级粉丝驱动的访问”。此区段定义可能如下所示。
 
 ![](assets/segment1.png)
 
 ![](assets/segment2.png)
 
-## 集成的报告维度{#integrated-reporting-dimensions}
+## 集成的报表维度{#integrated-reporting-dimensions}
 
-列出此集成中包含的动态信号报告维度。
+列出此集成中包含的 Dynamic Signal 报表维度。
 
 | 维度 | 描述 |
 |---|---|
-| 渠道类型 | 用户共享社区帖子的社交网络（或博客平台）。 用户可以在多个渠道上共享帖子。 单击和其他活动会按渠道进行分段。 此字段显示Facebook、Twitter等。 这样您就可以看到驱动活动的渠道类型。 |
-| 文章ID | 文章ID可唯一标识动态信号社区中的每条内容。 |
-| 源类型 | 此字段指示帖子是由“会员”还是“品牌”创建的。 请注意，无论哪种情况，内容都可以在应用程序中手动创建或从外部源导入。 |
-| 用户名 | 在其社交网络上共享帖子的用户，生成对您网站的点进。 |
-| 源ID | 源ID可唯一标识共享帖子的创建者（或作者）。 这通常是特定成员或外部源。 |
-| 用户 ID | 用户ID可唯一标识动态信号社区中的用户（即成员）。 在这种情况下，用户是在其社交网络上共享帖子的共享者。 |
-| 源名称 | 源是共享帖子的创建者（或作者）。 在大多数情况下，这是社区的成员或外部源。 |
-| 文章标题 | 生成单击返回站点的共享帖子的标题。 |
-| 社区名称 | 您的动态信号社区的名称。 |
+| 渠道类型 | 用户分享社区帖子的社交网络（或博客平台）。用户可能会在多个渠道上分享帖子。点击量和其他活动将按渠道进行分段。此字段会显示 Facebook、Twitter 等，以便您查看哪种渠道类型有助于提升活动效果。 |
+| 文章 ID | 文章 ID 唯一标识 Dynamic Signal 社区中的每一条内容。 |
+| 源类型 | 此字段指示帖子是由“会员”还是“品牌”创建的。请注意，无论哪种情况，均可在应用程序中手动创建内容或从外部馈送中导入内容。 |
+| 用户名 | 在社交网络上分享帖子，从而生成对您网站的点进次数的用户。 |
+| 源 ID | 源 ID 唯一标识所分享帖子的创建者（或作者）。通常是特定会员或外部馈送。 |
+| 用户 ID | 用户 ID 唯一标识 Dynamic Signal 社区中的用户（即会员）。在这种情况下，用户是在社交网络上分享帖子的分享者。 |
+| 源名称 | 源是所分享帖子的创建者（或作者）。大多数情况下是社区会员或外部馈送。 |
+| 文章标题 | 生成对您网站的点击量的所分享帖子的标题。 |
+| 社区名称 | 您的 Dynamic Signal 社区的名称。 |
 
