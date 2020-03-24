@@ -4,7 +4,7 @@ subtopic: Data sources
 title: 数据源管理器
 topic: Developer and implementation
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 创建、管理和查看报表包中数据源的使用情况。
 
-**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理员]** &gt;数 **[!UICONTROL 据源]**。
+**[!UICONTROL 分析]**>**[!UICONTROL 管理]**>**[!UICONTROL 数据源]**。
 
 ## “创建”选项卡{#section_74603FDA3D8842E49F1A51624A06DE20}
 
@@ -38,7 +38,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <p>完成处理 </p> </td> 
-   <td colname="col2"> <p>指示数据源关闭文件中一切打开的访问，并结束数据源文件的处理（就好像处理已完成）。这在您的访问跨越了多个数据源文件时很有用。该选项仅适用于 <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > 完全处理</a>. </p> </td> 
+   <td colname="col2"> <p>指示数据源关闭文件中一切打开的访问，并结束数据源文件的处理（就好像处理已完成）。这在您的访问跨越了多个数据源文件时很有用。该选项仅适用于<a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   >完全处理</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>停用 </p> </td> 
@@ -46,7 +46,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <p>出错或警告时停止处理 </p> </td> 
-   <td colname="col2"> <p> 指示数据源处理引擎在遇到错误时停止处理。您选择重新启动处理之前，数据源不会恢复处理。“警告时停止处理”选项仅适用于 <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > 完全处理</a>. </p> <p>当数据源遇到文件错误时，它会通知您该错误。系统会将出错的数据源文件移到 FTP 服务器上名为 <span class="filepath">files_with_errors</span> 的文件夹中。在问题解决之后，请重新提交数据源文件进行处理。 </p> </td> 
+   <td colname="col2"> <p> 指示数据源处理引擎在遇到错误时停止处理。您选择重新启动处理之前，数据源不会恢复处理。“警告时停止处理”选项仅适用于<a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   >完全处理</a>。 </p> <p>当数据源遇到文件错误时，它会通知您该错误。系统会将出错的数据源文件移到 FTP 服务器上名为 <span class="filepath">files_with_errors</span> 的文件夹中。在问题解决之后，请重新提交数据源文件进行处理。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>配置 </p> </td> 
@@ -64,7 +64,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td colname="col1"> <p>状态 </p> </td> 
    <td colname="col2"> <p> 文件的当前状态。可能的状态值包含以下几个： </p> 
     <ul id="ul_56A0BF8C1BE249F6BB39B0D11DA3997F"> 
-     <li id="li_BAB359E08EDE4E0298C0362258789603">队列中（步骤 1，共 3 步）：文件存在，但是未开始处理。If the file doesn't appear within 30 minutes, check that the associated <span class="filepath"> .fin</span> file is present </li> 
+     <li id="li_BAB359E08EDE4E0298C0362258789603">队列中（步骤 1，共 3 步）：文件存在，但是未开始处理。如果文件没有在 30 分钟内显示，请检查关联的 <span class="filepath">.fin</span> 文件是否存在 </li> 
      <li id="li_A09A14F42CB74F01B694799740B3DA17">准备中（步骤 2，共 3 步）：正在检查文件是否出现错误或警告。 </li> 
      <li id="li_793FDCDB64CF434D82CAF5B6E9BDE557">处理中（步骤 3，共 3 步）：正在处理文件。 </li> 
      <li id="li_1D8C4B241FF0453EAF7DDFD8354C5573">失败：文件由于出错而无法处理。 </li> 
