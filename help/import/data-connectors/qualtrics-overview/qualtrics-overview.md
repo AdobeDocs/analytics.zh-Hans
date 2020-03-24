@@ -1,41 +1,41 @@
 ---
-description: 此集成将Qualtrics Research Suite的客户研究功能与您在Adobe Analytics中收集的丰富数据相结合，为您的组织创建强大的分析和优化机会。
+description: 此集成将 Qualtrics Research Suite 的客户研究功能与您在 Adobe Analytics 中收集的丰富数据整合在一起，为贵组织提供强大的分析和优化契机。
 subtopic: Qualtrics
-title: Qualtrics Data Connector for Adobe Analytics
+title: 适用于 Adobe Analytics 的 Qualtrics Data Connector
 topic: Data connectors
 uuid: f1fa90b6-1b80-4da4-a39b-efb8bac1692a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Qualtrics Data Connector for Adobe Analytics{#qualtrics-data-connector-for-adobe-analytics}
+# 适用于 Adobe Analytics 的 Qualtrics Data Connector{#qualtrics-data-connector-for-adobe-analytics}
 
-此集成将Qualtrics Research Suite的客户研究功能与您在Adobe Analytics中收集的丰富数据相结合，为您的组织创建强大的分析和优化机会。
+此集成将 Qualtrics Research Suite 的客户研究功能与您在 Adobe Analytics 中收集的丰富数据整合在一起，为贵组织提供强大的分析和优化契机。
 
-这种双向集成首先将Qualtrics调查响应数据与访客点击流数据连接起来。 然后，它将相关的行为操作和属性从Adobe Analytics注入回Qualtrics调查报告。
+这种双向集成先将 Qualtrics 调查响应数据与访客点击流数据相关联。然后，再将相关的行为操作和属性从 Adobe Analytics 注入回 Qualtrics 调查报表。
 
 ## 主要优势和功能{#key-benefits-and-features}
 
-* 根据用户对特定调查问题的答复构建用户细分。
-* 基于调查、问题和响应级别详细信息的流量和转化报告。
-* 仅使用1个ListVar、1个eVar和1个事件来集成不限数量的Qualtrics调查。
-* 使用最多5个自定义转化维度、5个自定义流量维度、5个自定义成功事件以及20多个使用Adobe Analytics跟踪的其他标准指标和维度增强Qualtrics报告。
-* 在提交调查时，Adobe Analytics中的集成调查数据会以“实时”方式流动。 对Qualtrics的导出每天进行。
+* 根据用户对特定调查问题的响应构建用户区段。
+* 根据调查级别、问题级别和响应级别的详细信息，提供流量和转化报表。
+* 仅使用 1 个 ListVar、1 个 eVar 和 1 个事件来集成不限数量的 Qualtrics 调查。
+* 使用 Adobe Analytics 跟踪的最多 5 个自定义转化维度、5 个自定义流量维度、5 个自定义成功事件以及 20 多个其他标准量度和维度增强 Qualtrics 报表。
+* 在提交调查时，Adobe Analytics 中的集成调查数据会以“实时”方式流动。每天均会导出到 Qualtrics。
 
-## 激活此连接器之前{#before-you-activate-this-connector}
+## 在激活此连接器之前{#before-you-activate-this-connector}
 
-### Adobe先决条件 {#section-fd37a66150c34cd6b494d13f75e5fb0d}
+### Adobe 先决条件 {#section-fd37a66150c34cd6b494d13f75e5fb0d}
 
-* 必须是Adobe Analytics的当前客户。
+* 必须是 Adobe Analytics 的当前客户。
 * 必须是管理员用户。
-* 报表包中必须有1个可用且已启用的列表变量。
-* 报表包中必须有1个可用且已启用的eVar（或prop）变量。
-* 报告包中必须有1个可用的自定义事件。
+* 您的报表包中必须具有 1 个已启用的可用列表变量。
+* 您的报表包中必须具有 1 个已启用的可用 eVar（或 prop）变量。
+* 您的报表包中必须具有 1 个可用的自定义事件。
 
-### Qualtrics先决条件 {#section-dbb780af47c145d7b6ae12acde3ca94c}
+### Qualtrics 先决条件 {#section-dbb780af47c145d7b6ae12acde3ca94c}
 
-* 必须是Qualtrics Research Suite的当前客户。
-* 必须是已获得启用Adobe Analytics集成权限的用户。
-* 必须能够在Research Suite的Qualtrics ID区域 **[!UICONTROL 内生成]** Adobe Analytics令牌。
+* 必须是 Qualtrics Research Suite 的当前客户。
+* 必须是有权启用 Adobe Analytics 集成的用户。
+* 必须能够在 Research Suite 的 **[!UICONTROL Qualtrics ID]** 区域内生成 Adobe Analytics 令牌。
