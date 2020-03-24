@@ -2,7 +2,7 @@
 description: 'null'
 title: 数据源处理时间
 uuid: d7cd679a-f9e3-4740-87cf-6171f3fe5cd9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,11 +11,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 # 数据源处理时间
 
 >[!Note]
->任何数据处理时间段都应视为近似的，不构成服务级别协议(SLA)。
+>任何数据处理时间段都应视为粗略估计值，不构成服务级别协议 (SLA)。
 
 数据处理时间不尽相同，具体原则如下所示：
 
-* 当日数据：在上传数据约2小时后，处理完成。
+* 当天的数据：将在数据上载后约 2 个小时内完成处理。
 * 前一天的数据：将在数据上载后约 3 个小时内完成处理。
 
 所上载数据的日期每往前推一天，处理时间将增加约 1 个小时，最多可增加 17 个小时。
