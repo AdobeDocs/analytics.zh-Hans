@@ -1,32 +1,32 @@
 ---
-description: 此Adobe数据连接器集成结合了appFigures集成移动应用商店分析和Adobe Analytics直接应用跟踪的强大功能，为您的组织创建强大的分析和优化机会。
+description: 此 Adobe Data Connectors 集成将 appFigures 的集成式移动应用商店分析功能与 Adobe Analytics 的直接应用程序跟踪功能整合在一起，为贵组织提供强大的分析和优化契机。
 keywords: AppFigures
-title: appFigures Data Connector for Adobe Analytics
+title: 适用于 Adobe Analytics 的 appFigures Data Connector
 uuid: b9bdb88c-2d7d-4fe4-aa05-da531224993f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# appFigures Data Connector for Adobe Analytics{#appfigures-data-connector-for-adobe-analytics}
+# 适用于 Adobe Analytics 的 appFigures Data Connector{#appfigures-data-connector-for-adobe-analytics}
 
-此Adobe数据连接器集成结合了appFigures集成移动应用商店分析和Adobe Analytics直接应用跟踪的强大功能，为您的组织创建强大的分析和优化机会。
+此 Adobe Data Connectors 集成将 appFigures 的集成式移动应用商店分析功能与 Adobe Analytics 的直接应用程序跟踪功能整合在一起，为贵组织提供强大的分析和优化契机。
 
-在移动App领域，最重要的性能指标分为两个数据集：
+在移动应用程序领域，最重要的性能量度分为两个数据集：
 
-* 您可以直接跟踪的用户行为。
-* 活动仅对应用程序商店可见。
+* 可直接跟踪的用户行为。
+* 仅对应用商店可见的活动。
 
-通过组合这两个Analytics数据集，您可以全面了解您的应用程序如何为您的组织创造价值。
+通过将这两个 Analytics 数据集整合在一起，您可以全面了解应用程序如何为贵组织创造价值。
 
 ## 主要优势和功能{#key-benefits-and-features}
 
-此集成提供以下主要优点。
+此集成具有以下主要优势。
 
-* 在appFigures和Adobe Analytics之间自动每日同步应用商店尺寸和指标。
-* 在集成激活之前，可以回填长达13个月的历史数据。 如果您之前与App Store数据提供商有任何集成，请与appFigures联系以避免重叠。
-* App Store数据的专用变量，因此您无需使用自定义商务变量和事件。
+* 在 appFigures 与 Adobe Analytics 之间每天自动同步应用商店维度和量度。
+* 可回填集成激活之前长达 13 个月的历史数据。如果您之前与应用商店数据提供商有任何集成，请联系 appFigures 以避免重叠。
+* 使用专用变量获取应用商店数据，因此，您无需使用自定义商务变量和事件。
 
 **相关文章**
 
