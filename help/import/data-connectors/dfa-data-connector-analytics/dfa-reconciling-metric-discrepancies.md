@@ -4,7 +4,7 @@ keywords: DFA
 title: 协调量度差异
 topic: Data connectors
 uuid: aa3ca006-d3cf-410e-a000-781ab17fb9e3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -36,7 +36,7 @@ Adobe 使用以下术语谈论与 DFA 集成相关的量度：
 
 是否接受第三方 Cookie 通常是导致 Adobe Analytics 和 DFA 之间出现差异的最大因素。Safari 和某些其他默认阻止第三方 Cookie 的浏览器。这意味着在默认情况下，Safari 接受大部分 Analytics 实施使用的第一方 Cookie，但拒绝 DFA 使用的第三方 Cookie。
 
-来自Analytics 15测试版客户的数据样本显示，不到0.5%的用户通常拒绝第一方Cookie，而5-12%的用户拒绝第三方Cookie（其中许多拒绝可能是由于默认浏览器设置所致）。
+来自我们 Analytics 的 15 个测试客户的数据示例显示，不到 0.5% 的用户通常会拒绝第一方 Cookie，而 5% 到 12% 的用户会拒绝第三方 Cookie（这其中有很多可能是因为默认的浏览器设置所致）。
 
 这种差异可导致 Analytics 和 DFA 收集的数据间出现较大差别。
 
@@ -47,24 +47,24 @@ Adobe 使用以下术语谈论与 DFA 集成相关的量度：
 
    * 在分类报表中，找到名为“无”的行项目。
    * 使用原始 DFA ID 报表，以按相同的变量划分此行项目（如促销活动 ID）。
-   * In this report, take note of any unclassified DFA tracking codes which are in the form `DFA:XXXXX:XXXXX`.
+   * 在此报表中，请注意任何格式为 `DFA:XXXXX:XXXXX` 的未分类 DFA 跟踪代码。
    * 如果这其中的许多跟踪代码确实存在，请调查夜间 SAINT 分类过程。
 
 ### 为何 DFA 点击量可能高于 Adobe Analytics 点进次数？ {#section-2fce4608ed044bdc9cf812cb719d5d35}
 
-* DFA 在访客登陆客户网站之前即记录一次点击。Analytics 在登陆页面加载后记录点进次数，并执行 Adobe JavaScript 信标。通常，差异的出现是因为访客在 DFA 跟踪到一次点击后没有到达登陆页面，或是`s.maxDelay`计时器被点击。
-* Ensure all placements and creatives in the Floodlight Configuration include the clickThroughParam in the landing page URL (for example "`?CID=1`"). 未能设置此参数将导致 Adobe Analytics JavaScript 丢失在访问的首次点击后发生的任何点进。
+* DFA 在访客登陆客户网站之前即记录一次点击。Analytics 在登陆页面加载后记录点进次数，并执行 Adobe JavaScript 信标。通常，差异的出现是因为访客在 DFA 跟踪到一次点击后没有到达登陆页面，或是 `s.maxDelay` 计时器被点击。
+* 请确保 Floodlight 配置中的所有版面和创作均在登陆页面 URL 中加入了 clickThroughParam（例如“`?CID=1`”）。未能设置此参数将导致 Adobe Analytics JavaScript 丢失在访问的首次点击后发生的任何点进。
 * 请确保所有版面和创作的登陆页面均使用 JavaScript 标记并具有 DFA 集成模块，而且此登陆页面中的 Floodlight 配置 ID 匹配服务广告的 Floodlight 配置 ID。通常，差异的出现是因为广告的登陆页面被设置为第三方网站或服务的广告。
 * 如果您使用富媒体广告或 Flash (swf) 广告，请确保每当 DFA 点击跟踪器被点击时，访客的浏览器都会被重定向到查询字符串中包含 `clickThroughParam` 的登陆页面。未能重定向浏览器将不会导致记录一次点进。
-* 超时表示虽然可能已有可用的 DFA 数据，但 JavaScript 却没有及时收到响应的情况。当访客到达登陆页面时，Adobe JavaScript 从 DFA 的 fls.doubleclick.net 服务请求访客的信息。The`s.maxDelay`参数决定 JavaScript 将等待 Floodlight 服务 (FLS) 数据多长时间。If `s.maxDelay` is too high, visitors can leave the site before Adobe collects the hit data; meaning that no click data is recorded. If `s.maxDelay` is set too low, the visitor's Internet connection cannot retrieve the FLS data in time; meaning that the hit is sent to Adobe without DFA click information.
+* 超时表示虽然可能已有可用的 DFA 数据，但 JavaScript 却没有及时收到响应的情况。当访客到达登陆页面时，Adobe JavaScript 从 DFA 的 fls.doubleclick.net 服务请求访客的信息。`s.maxDelay`参数决定 JavaScript 将等待 Floodlight 服务 (FLS) 数据多长时间。如果 `s.maxDelay` 过高，访客可能在 Adobe 收集点击数据之前离开网站，这种情况下不会记录任何点击数据。如果 `s.maxDelay` 设置过低，访客的 Internet 连接无法及时检索 FLS 数据，在这种情况下，点击将被发送到 Adobe，但不包含任何 DFA 点击信息。
 * 机器人流量可能夸大 DFA 点击数。机器人或许能够点击广告，但其复杂性可能不足以执行 Analytics 信标或触发同步脚本标记以加载 Floodlight 服务器请求数据。如果这些机器人未从点击量数据中删除，则可能成为造成差异的一个因素。
-* 在`s.maxDelay`过期及 DFA 数据返回之前离开页面的访客将会丢失；且不会为他们收集任何 DFA 或访客数据。
-* Analytics 尝试标识并删除重复的点进，这样这些点进将对应每个促销活动每次访问只计数一次。DFA将单击“返回”并多次通过广告重定向的访客计为额外的ACM点击，而Analytics不将这些点击计为多次点进。
+* 在 `s.maxDelay` 过期及 DFA 数据返回之前离开页面的访客将会丢失；且不会为他们收集任何 DFA 或访客数据。
+* Analytics 会尝试标识并删除重复的点进，这样在每次访问时每个促销活动只会计数一次点进。DFA 将单击“返回”和经历多次广告重定向的访客数计为额外的 ACM 点击量，而 Analytics 不会将它们计为多次点进。
 * DFA Floodlight 标记不依赖启用的 JavaScript，而 Analytics 却依赖它们。因此，在某些情况下可能会出现 DFA 记录了一次点击，而 Analytics 没有记录。要辨明这是否是个问题，请使用“访客配置文件”菜单中的 Analytics JavaScript 报表。
 
 ### 为何 DFA 后展示活动数可能高于 Adobe Analytics 显示到达次数？ {#section-5daa91039c404df48b6a3447c20406f7}
 
-* Analytics 尝试标识并删除重复的点进，这样这些点进将对应每个促销活动每次访问只计数一次。DFA将单击“返回”并多次通过广告重定向的访客计为额外的ACM点击，而Analytics不将这些点击计为多次点进。
+* Analytics 会尝试标识并删除重复的点进，这样在每次访问时每个促销活动只会计数一次点进。DFA 将单击“返回”和经历多次广告重定向的访客数计为额外的 ACM 点击量，而 Analytics 不会将它们计为多次点进。
 * DFA Floodlight 标记不依赖禁用的 JavaScript，而 Analytics 却依赖它们。因此，可能会出现以下这类情况，即 DFA 记录了一次点击，而 Analytics 没有记录。
 * DFA 在使用 Floodlight 标记时（它们可能置于客户端网站上）可对后展示活动进行计数。Analytics 在 JavaScript 信标（图像请求）执行后对显示到达进行计数。网页上的代码布局可决定将一个终止的页面加载计为一次后展示活动还是一次显示到达。
 
