@@ -2,7 +2,7 @@
 title: 工作区中的多个报表包
 description: 了解如何在工作区中使用多个报表包来创建项目以及为什么创建项目
 translation-type: tm+mt
-source-git-commit: e60de040e1036a1344baecfcc9c1fd5d71c4cf40
+source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
 
 ---
 
@@ -16,6 +16,12 @@ source-git-commit: e60de040e1036a1344baecfcc9c1fd5d71c4cf40
 * 比较两个不同区域的数据，以及存储在两个不同的报表包中的数据。您可以构建一些表格和可视化图表，以并排比较数据。
 
 * 构建一个包含量度和可视化图表的功能板，向其他组织报告。您现在可以将不同报表包中的数据提取到同一项目。
+
+## 将报表包应用于所有面板
+
+通过右键单击任意面板标题并选择，可以一次将报表包应用于所有面板 **[!UICONTROL Apply Report Suite to All Panels]**。
+
+![](assets/apply-rs-all-panels.png)
 
 ## 活动面板
 
