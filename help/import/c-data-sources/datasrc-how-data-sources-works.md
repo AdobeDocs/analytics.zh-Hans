@@ -4,7 +4,7 @@ subtopic: Data sources
 title: 数据源工作原理
 topic: Developer and implementation
 uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 有关 Adobe 如何提供数据源访问权限的信息。
 
-> [!NOTE] 一旦通过数据源提交，导入的数据就无法与使用其他方法（JavaScript信标、ActionSource、数据插入API等）收集的报告数据区分开来。 数据一经导入便无法删除。
+> [!NOTE] 在经由数据源提交之后，导入的数据便与使用其他方法（JavaScript 信标、ActionSource、数据插入 API 等）收集的报表数据没有区别。数据一经导入便无法删除。
 
 ![](assets/data_sources_overview.png)
 
