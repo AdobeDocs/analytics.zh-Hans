@@ -1,10 +1,10 @@
 ---
-description: 数据源类别可识别具有相似功能的不同数据源类型。
+description: 数据源类别标识提供相似功能的不同数据源类型。
 subtopic: Data sources
 title: 数据类型和类别概述
 topic: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,9 +12,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # 数据类型和类别概述
 
-数据源类别可识别具有相似功能的不同数据源类型。
+数据源类别标识提供相似功能的不同数据源类型。
 
-类别提供了一种从用户角度对数据源进行分组的方法。 通过数据源 UI 创建数据源时，首先要选择一个数据源类别，然后选择一个特定的数据源类型。每个类别都包含多种支持相似数据类型的数据源类型。数据源具有以下数据源类别：
+通过类别，可以从用户的角度对数据源进行分组。通过数据源 UI 创建数据源时，首先要选择一个数据源类别，然后选择一个特定的数据源类型。每个类别都包含多种支持相似数据类型的数据源类型。数据源具有以下数据源类别：
 
 ## 网站使用 {#section_4BA8D97B6BA848518F21760AE49F41D1}
 
@@ -33,9 +33,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td colname="col3"> <p>大多数网站服务器都会生成日志文件，其中记录了所提供的每一个页面。使用该数据源，您可以处理来自大多数网站服务器数据的日志文件，并将该数据添加到您的报表中。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Advertising cloud批量上传 </p> </td> 
+   <td colname="col1"> <p>Advertising Cloud 批量上载 </p> </td> 
    <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > 转化 </a> </p> </td> 
-   <td colname="col3"> <p>在Advertising cloud中提供手动和Excel自动化批量上传。 </p> </td> 
+   <td colname="col3"> <p>Advertising Cloud 中提供手动和高效自动批量上载。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>站点级别流量数据源 </p> </td> 
