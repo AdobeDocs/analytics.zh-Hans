@@ -4,7 +4,7 @@ subtopic: Data sources
 title: 数据源常见问题解答
 topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -28,15 +28,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 是否需要在我的电子表格数据中加入一个日期列？ {#section_EA37F5FFB13446C497B3C64943F7084E}
 
-可以。由于许多市场营销报表是从日期列键入的，因此数据源需要一个日期列。
+是。由于许多市场营销报表是从日期列键入的，因此数据源需要一个日期列。
 
-## Can I store data in existing variables that I'm already using? {#section_AB557C2997D04EAFBDC61398B13D13C6}
+## 可否在已在使用的现有变量中存储数据？{#section_AB557C2997D04EAFBDC61398B13D13C6}
 
 Adobe 建议您选择新的未用变量，以使用数据源导入数据。如果您不太清楚数据文件的配置，或希望更好地了解重用变量的风险，请联系 Customer Care。
 
 ## 可否删除使用数据源导入的数据？ {#section_DB73BC06BD774738BF019B347D9DED96}
 
-不会。使用数据源上载到报表的数据，一经导入便无法删除，哪怕是 Adobe 技术人员也不行。它已被永久性地插入您的现有数据，并且与通过传统数据收集方式（例如 JavaScript、ActionSource、数据插入 API 等）输入的数据毫无区别。因此，Adobe 强烈建议先将数据源数据上载到测试报表包，然后再上载到生产包。
+不可以。使用数据源上载到报表的数据，一经导入便无法删除，哪怕是 Adobe 技术人员也不行。它已被永久性地插入您的现有数据，并且与通过传统数据收集方式（例如 JavaScript、ActionSource、数据插入 API 等）输入的数据毫无区别。因此，Adobe 强烈建议先将数据源数据上载到测试报表包，然后再上载到生产包。
 
 ## 一次可以导入多少数据？ {#section_7A76D59E2C5B434D9BDBD2ABD2873168}
 
@@ -50,7 +50,7 @@ Adobe 建议您选择新的未用变量，以使用数据源导入数据。如�
 
 上载数据源数据的同时，您也在上载可用于报表界面的量度。
 
-例如，如果您在上载对应网站销售产品的呼叫中心收入，则能够将该呼叫中心收入上载到在线收入所在的报表中。但是，您将不能将其与访问结合使用，因为您没有上传访问次数。 Adobe 只能报告通过数据源上载的量度和元素（除了常规市场营销报表量度之外）。
+例如，如果您在上载对应网站销售产品的呼叫中心收入，则能够将该呼叫中心收入上载到在线收入所在的报表中。但是，您无法将其与“访问量”一起使用，因为您并未随其一起上载访问次数。Adobe 只能报告通过数据源上载的量度和元素（除了常规市场营销报表量度之外）。
 
 ## 如果我通过数据源将负值传递到报表会怎样？ {#section_77E5F37F3CFB4407BA32A91E6F3132B2}
 
@@ -83,7 +83,7 @@ Adobe 建议您选择新的未用变量，以使用数据源导入数据。如�
 
 ## 数据源上载或分类文件的文件扩展名是否区分大小写？ {#section_710787BA4D8C403D8326D666807832B8}
 
-如果数据源上载文件或分类文件的扩展名是大写的，则不会处理这些文件。数据源上载文件的扩展名必须为小写。For example, [!DNL file.TXT] and [!DNL file.FIN] will not be processed. Similarly, [!DNL .TAB] and [!DNL .FIN] will not be processed. 但是， [!DNL .txt] 并 [!DNL .fin] 且已处理。
+如果数据源上载文件或分类文件的扩展名是大写的，则不会处理这些文件。数据源上载文件的扩展名必须为小写。例如，[!DNL file.TXT] 和 [!DNL file.FIN] 将不被处理。同样，[!DNL .TAB] 和 [!DNL .FIN] 也不被处理。但是，[!DNL .txt] 和 [!DNL .fin] 会被处理。
 
 ## 我可以向生成的模板添加更多事件还是只限于三个事件？{#section_F184913926DD43B1872956CED308ADB5}
 
@@ -108,13 +108,13 @@ Adobe 建议您选择新的未用变量，以使用数据源导入数据。如�
 
 ## 独特访客在网站服务器日志数据源上载中是如何计算的？ {#section_477FEDFD1DBE45278E7D09AFBD59CDAC}
 
-The number of Unique Visitors in a web-server log is calculated as the different distinct combinations of *`IP Address`* and *`User Agent`* in the Web log. 这两个项目的每种唯一组合都可作为一个独特访客来计算。如果“[!UICONTROL 用户代理]”列为空（或未包含在网络日志中），则我们无法确定独特访客计数，并且全部上载都将计作一个独特访客（即使存在多个 IP 地址）。
+网站服务器日志中的独特访客数可通过网络日志中 *`IP Address`* 和 *`User Agent`* 的不同组合来计算。这两个项目的每种唯一组合都可作为一个独特访客来计算。如果“[!UICONTROL 用户代理]”列为空（或未包含在网络日志中），则我们无法确定独特访客计数，并且全部上载都将计作一个独特访客（即使存在多个 IP 地址）。
 
 ## 在数据源中，如何区分哪次登录属于哪个报表包？ {#section_8EF9D22D5BE14C218724B06E78EF7DF4}
 
 在数据源中，报表包 ID 是登录的第一个部分，其后附加一个随机数字，用于标识已设置的特定数据源。例如：`RSID-drmossdev5 Login-drmossdev5_0001343430`。
 
-## How does version 15 and segmentation impact data sources? {#section_7E9E541DB73C49CDAADC031B678F8678}
+## 版本 15 和分段如何影响数据源？{#section_7E9E541DB73C49CDAADC031B678F8678}
 
 在版本 15 中，数据源的行为根据数据源类型而有所不同：
 
@@ -127,8 +127,8 @@ The number of Unique Visitors in a web-server log is calculated as the different
 
 ## 当前保留在访客资料中的 eVar 是否分配到了使用数据源上载的量度中？ {#section_1748BD5C6A12467F8082E07D6A9CD595}
 
-对于完全处理，答案是否定的；对于交易 ID，答案是肯定的。使用单独的访客资料处理完全处理的数据源，因此即使访客ID匹配，也不会从eVar分配角度将它们绑定在一起。 交易 ID 数据源绑定到主要访客资料，因此，保留的 eVar 会分配到使用交易 ID 上载的事件。
+对于完全处理，答案是否定的；对于交易 ID，答案是肯定的。完全处理数据源使用单独的访客资料进行处理，因此即使访客 ID 匹配，它们也不会通过 eVar 分配绑定在一起。交易 ID 数据源绑定到主要访客资料，因此，保留的 eVar 会分配到使用交易 ID 上载的事件。
 
 ## 使用数据源上载的 eVar 是否持续保留到后续在线行为？ {#section_0B490CEAAB604826AFD3E8B2531C8F2D}
 
-不会。通过交易 ID 数据源上载的 eVar 将只从存储的资料信息中读取，而不会更新资料。不会。eVar 是存储于访客资料快照中的唯一变量。
+不可以。通过交易 ID 数据源上载的 eVar 将只从存储的资料信息中读取，而不会更新资料。不可以。eVar 是存储于访客资料快照中的唯一变量。
