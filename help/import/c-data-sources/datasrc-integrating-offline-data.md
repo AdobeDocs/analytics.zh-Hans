@@ -4,7 +4,7 @@ subtopic: Data sources
 title: 交易和客户集成
 topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # 交易和客户集成
 
-数据源提供了另外两种将离线事件集成到在线数据中的方法。
+数据源提供其他两种方式，用于将离线发生的事件集成到您的在线数据。
 
 * [启用交易 ID 记录](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)
 * [交易集成](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_B3F281CEFF9B47E9A07F9851D61D415D)
@@ -24,7 +24,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 交易 ID 可以从 UI 启用/禁用，而无需 ClientCare 的参与：
 
-Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL [Select Report Suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL General Account Settings]**.
+转到&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **[!UICONTROL [选择报表包]]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 常规]** > **[!UICONTROL 一般帐户设置]**。
 
 <!-- 
 
@@ -36,7 +36,7 @@ Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONT
 
  -->
 
-To see if Transaction ID Recording is enabled, navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Sources]**.
+要查看是否启用了“交易 ID 记录”，请导航至&#x200B;**[!UICONTROL 分析]**>**[!UICONTROL 管理]**>**[!UICONTROL 数据源]**。
 
 ![](assets/transaction-ID-recording-active.png)
 
@@ -46,10 +46,10 @@ To see if Transaction ID Recording is enabled, navigate to **[!UICONTROL Analyti
 
 客户 ID 用于指定客户的离线活动，并将其与在线活动关联。它们应当在以下情况下使用：
 
-* 在 *`visitorID`* 变量捕获。
+* 在 *`visitorID`* 变量中）。
 * 客户活动转为离线（例如商机提供或购买）没有指定的时间点。
 
-若要配置此类型的数据源，请参阅 [访客 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
+若要配置此类型的数据源，请参阅[访客 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
 
 ## 交易集成 {#section_B3F281CEFF9B47E9A07F9851D61D415D}
 
@@ -65,4 +65,4 @@ To see if Transaction ID Recording is enabled, navigate to **[!UICONTROL Analyti
 
 这是因为交易 ID 数据不与访问关联（因为离线事件通常不是在线事件的一部分），而是与访客关联。
 
-请参阅 [交易 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
+请参阅[交易 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)。
