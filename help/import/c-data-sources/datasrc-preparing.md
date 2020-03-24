@@ -4,7 +4,7 @@ subtopic: Data sources
 title: 准备使用数据源
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -22,13 +22,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 量度的识别和命名 {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
 
-It is important to understand the metrics or measurements that are contained in your data sources, such as *`Off-line Sales Revenue by Product`*, *`Returns by Product`*, or *`Ad Impressions by Campaign`*. 这些名称可以与报表量度（事件、prop 和 eVar）关联。
+了解数据源中包含的量度或度量很重要，例如 *`Off-line Sales Revenue by Product`*、*`Returns by Product`* 或 *`Ad Impressions by Campaign`*。这些名称可以与报表量度（事件、prop 和 eVar）关联。
 
 在确定数据源数据的相应量度到事件映射之后，请使用关联数据源量度所适用的描述性名称重命名事件。
 
-请参阅管理工具帮助中的[成功事件](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html)。
+请参阅管理工具帮助中的[成功事件](https://marketing.adobe.com/resources/help/zh_CN/reference/success_event.html)。
 
-> [!NOTE] Adobe强烈建议将新的空事件与数据源数据结合使用，但在极少数情况下，使用预先存在的事件可能是有意义的。
+> [!NOTE] Adobe 强烈建议结合使用新的空事件与数据源数据，但在极少数情况下也可以使用预先存在的事件。
 
 ## 标识数据维度 {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
@@ -36,15 +36,15 @@ It is important to understand the metrics or measurements that are contained in 
 
 例如，如果数据源量度测量广告显示次数，则您的数据维度可能是促销活动跟踪代码。如果测量离线销售，建议您使用产品代码（或 SKU）作为数据维度。
 
-您可以定义多个数据维度对应一个量度，但是每个量度必须为每个关联的数据维度提供一个相关的值，或多个值的组合。例如，如果您导入离线销售量度并将其与 *`Product`* and *`Partner`* data dimensions, the Off-line Sales metric must be relevant for each combination of product and partner (for example, Total Revenue).
+您可以定义多个数据维度对应一个量度，但是每个量度必须为每个关联的数据维度提供一个相关的值，或多个值的组合。例如，如果您导入离线销售量度并将其与 *`Product`* 和 *`Partner`* 数据维度关联，则离线销售量度必须与产品和合作伙伴的每个组合相关（例如，总收入）。
 
-> [!NOTE] 可以导入无法按任何数据维细分的总量度。
+> [!NOTE] 可能会导入无法按任何数据维度划分的总计量度。
 
 在您定义要与数据源一起使用的数据维度之后，请通过将维度数据映射到变量，将其集成到市场营销报表中。可使用标准报表（例如，产品、跟踪代码、搜索关键词）或转化流量变量 (eVar)。
 
 在使用 eVar 时，您可以将现有 eVar 或新 eVar 用作数据维度。在选择了用于从数据源接收数据维度的 eVar 之后，请确保将其正确命名。
 
-请参阅 Analytics 帮助中的[成功事件](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html)。
+请参阅 Analytics 帮助中的[成功事件](https://marketing.adobe.com/resources/help/zh_CN/reference/success_event.html)。
 
 ## 促销活动跟踪代码 {#section_468222796FF449ABAA90D88EB3264CB1}
 
