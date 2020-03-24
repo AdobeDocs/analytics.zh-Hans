@@ -1,8 +1,8 @@
 ---
-description: 作为appFigures集成的一部分，将同步以下度量。
+description: 以下量度将会作为 appFigures 集成的一部分进行同步。
 title: 量度和维度
 uuid: 419a9031-1291-4ec0-a2e1-93993858991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,61 +10,61 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 量度和维度{#metrics-and-dimensions}
 
-作为appFigures集成的一部分，将同步以下度量。
+以下量度将会作为 appFigures 集成的一部分进行同步。
 
 | 量度 | 描述 |
 |---|---|
 | 应用商店下载 | 移动应用程序下载次数。 |
-| App Store购买（应用程序内） | 应用程序内购买的数量。 |
-| 应用商店排名 | 用于定义平均appFigures计算量度。 不直接使用。 |
-| 应用商店排名因素 | 用于定义平均appFigures计算量度。 不直接使用。 |
-| App Store 排行榜 | 用于定义平均appFigures计算量度。 不直接使用。 |
-| App Store 排名因素 | 用于定义平均appFigures计算量度。 不直接使用。 |
-| App Store收入（应用程序内） | 应用程序内收入额。 |
-| App Store收入（一次性） | 与应用程序购买关联的收入额。 |
-| App Store版税（应用程序内） | 已弃用。 |
-| App Store版税（一次性） | 已弃用。 |
+| 应用商店购买（应用程序内） | 应用程序内购买的次数。 |
+| 应用商店排名 | 用于定义平均 appFigures 计算量度。不直接使用。 |
+| 应用商店排名因素 | 用于定义平均 appFigures 计算量度。不直接使用。 |
+| 应用商店评分 | 用于定义平均 appFigures 计算量度。不直接使用。 |
+| 应用商店评分因素 | 用于定义平均 appFigures 计算量度。不直接使用。 |
+| 应用商店收入（应用程序内） | 应用程序内收入额。 |
+| 应用商店收入（一次性） | 与应用程序购买关联的收入额。 |
+| 应用商店版税（应用程序内） | 已弃用。 |
+| 应用商店版税（一次性） | 已弃用。 |
 
-以下保留的分类维是由数据连接器向导为保留的AppFigures对象ID eVar创建的。
+Data Connectors 向导会为 appFigures 对象 ID 保留的 eVar 创建以下保留的分类维度。
 
 | 分类维度 | 描述 |
 |---|---|
-| 国家/地区名称 | 与App Store活动相关的国家／地区的名称。 |
-| 设备名称 | 与应用程序商店活动相关的移动设备的名称。 |
-| 应用程序商店名称 | 报告活动的appstore的名称。 |
+| 国家/地区名称 | 与应用商店活动相关的国家/地区的名称。 |
+| 设备名称 | 与应用商店活动相关的移动设备的名称。 |
+| 应用商店名称 | 报告活动的应用商店的名称。 |
 | 应用程序名称 | 移动应用程序的名称。 |
-| 应用程序内名称 | 应用程序内购买的物品。 |
-| 类别名称 | 应用程序商店中应用程序的主要类别。 |
-| 查看标题 | 审阅的标题。 |
-| 查看评论 | 评论 |
-| Application Version | 用于生成审阅的应用程序版本。 |
-| App Store 用户 | 审阅的作者（用户名）。 |
+| 应用程序内名称 | 在应用程序内购买的项目。 |
+| 类别名称 | 应用商店中应用程序的主要类别。 |
+| 评论标题 | 评论的标题。 |
+| 评论内容 | 评论的内容 |
+| 应用程序版本 | 用于生成评论的应用程序版本。 |
+| 应用商店用户 | 评论的作者（用户名）。 |
 
-数据连接器向导将创建以下计算度量：
+Data Connectors 向导会创建以下计算度量：
 
 | 计算量度 | 描述 |
 |--- |--- |
-| 应用商店平均排名（数字） | 平均应用程序排名。 此计算量度使用以下公式定义：  `[App Store Rank]` / `[App Store Rank Divisor]` 注 <br> 意： 按类别和国家／地区排名的应用程序数量因应用商店而异。 如果应用程序的排名低于此阈值，则应用程序等级不可用。 |
-| 应用商店平均评分 | 平均应用程序评级。 This calculated metric is defined using the following formula:  `[App Store Rating]` / `[App Store Rating Divisor]` |
+| 应用商店平均排名（数字） | 应用程序的平均排名。使用以下公式来定义此计算量度：`[App Store Rank]` / `[App Store Rank Divisor]` <br> 注意：每种类别和每个国家/地区排名的应用程序数量在各个应用商店之间有所不同。如果应用程序的排名低于此阈值，则无法提供应用程序排名。 |
+| 应用商店平均评分 | 应用程序的平均评分。使用以下公式来定义此计算量度：`[App Store Rating]` / `[App Store Rating Divisor]` |
 
-## 每个AppFigures量度的相关维度 {#section-cd356d3dce04412893beed345305c247}
+## 每个 appFigures 量度的相关维度 {#section-cd356d3dce04412893beed345305c247}
 
-下表显示了与哪些指标相关的报表维度。
+下表显示了哪些报表维度与哪个量度有关。
 
 <table id="table_B9CF57EABE22449FBF1963E3F105E702"> 
  <tbody> 
   <tr> 
    <td> </td> 
-   <td> App Store下载 </td> 
-   <td> App Store购买（应用程序内） </td> 
+   <td> 应用商店下载 </td> 
+   <td> 应用商店购买（应用程序内） </td> 
    <td> 应用商店排名 </td> 
    <td> 应用商店排名因素 </td> 
-   <td> App Store 排行榜 </td> 
-   <td> App Store 排名因素 </td> 
-   <td> App Store收入（应用程序内） </td> 
-   <td> App Store收入（一次性） </td> 
+   <td> 应用商店评分 </td> 
+   <td> 应用商店评分因素 </td> 
+   <td> 应用商店收入（应用程序内） </td> 
+   <td> 应用商店收入（一次性） </td> 
    <td> 应用商店平均排名 </td> 
-   <td> 应用商店平均 评级 </td> 
+   <td> 应用商店平均评分 </td> 
   </tr> 
   <tr> 
    <td> 国家/地区名称 </td> 
@@ -93,7 +93,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td> <p> <img id="image_6E5B220C71CD47CEBB9CE65FB42CC692" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
   </tr> 
   <tr> 
-   <td> 应用程序商店名称 </td> 
+   <td> 应用商店名称 </td> 
    <td> <p> <img id="image_B0382AE2E0A44D8BBB373E95061C96B7" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_653EE4DADF644E329EB948051AF511CC" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_16E4236EAAC64FC4872603974E61417B" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
@@ -158,7 +158,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td> <p> <img id="image_6CDA126F236B4040A5C1C56BE0C2909C" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
   </tr> 
   <tr> 
-   <td> 查看标题 </td> 
+   <td> 评论标题 </td> 
    <td> <p> <img id="image_50BD0F2F2C4F4AFBA89781A7AE171A91" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_53B9B3711C774785B6149B6BD088C112" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_903D16BB646E4A9C98B2B04F0DB6A421" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
@@ -171,7 +171,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td> <p> <img id="image_C06F1597D1A147E7B7DE53FD90023C57" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
   </tr> 
   <tr> 
-   <td> 查看评论 </td> 
+   <td> 评论内容 </td> 
    <td> <p> <img id="image_3B34008198EC4E5EBB55E1B31CD3CBAA" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_A5FD916CAA2841039691E70E66D66A2C" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_7883A267FB3C490A89673E5BE6C7EBCE" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
@@ -197,7 +197,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td> <p> <img id="image_58044643FFD44CD1A31370F1D41DEEE3" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
   </tr> 
   <tr> 
-   <td> App Store 用户 </td> 
+   <td> 应用商店用户 </td> 
    <td> <p> <img id="image_9B14F4DC100644AFB2BA201C1BD09BD7" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_EDF0CCE6E744429EB5E2C7A0DC8893EC" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_2CCE0C5058BE4919A8FC5989D83D9121" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
