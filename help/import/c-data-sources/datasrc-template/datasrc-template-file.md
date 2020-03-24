@@ -4,7 +4,7 @@ subtopic: Data sources
 title: 数据源模板概述
 topic: Developer and implementation
 uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -25,10 +25,10 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * [访客 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
 * [完全处理](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md)
 
-For example, for a Visitor ID data type, you can add a column for any metric or dimensions listed in [Visitor ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md).
+例如，对于访客 ID 数据类型，您可以为[访客 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md) 中列出的任何量度或维度添加一列。
 
 创建模板之后，您就可以下载它并导入您的数据，然后将数据上载到数据源 FTP 站点。在经数据源服务器处理之后，导入的数据即可用于您的市场营销报表。
 
-The Data Source template is a [!DNL .txt] file that you can open with any text editor. 但是，模板最简单的处理方式是使用 Microsoft Excel 或其他电子表格应用程序。模板内容会根据您在[!UICONTROL 数据源激活向导]中的选择而改变。
+数据源模板是一个 [!DNL .txt] 文件，可使用任何文本编辑器将其打开。但是，模板最简单的处理方式是使用 Microsoft Excel 或其他电子表格应用程序。模板内容会根据您在[!UICONTROL 数据源激活向导]中的选择而改变。
 
 请参阅[导入文件引用](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md)以了解更多详细信息。
