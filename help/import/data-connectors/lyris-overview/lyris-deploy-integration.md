@@ -1,8 +1,8 @@
 ---
-description: 描述三步部署过程。
+description: 描述三步部署流程。
 title: 部署集成
 uuid: a3c0ef21-ed9a-44d7-bdce-19b3bd5b8b80
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a3aa8feb937e2a1f40c498aa4e143de21cf26b86
 
 ---
@@ -10,53 +10,53 @@ source-git-commit: a3aa8feb937e2a1f40c498aa4e143de21cf26b86
 
 # 部署集成{#deploying-the-integration}
 
-描述三步部署过程。
+描述三步部署流程。
 
-部署此集成是一个简单的过程，它需要执行以下操作：
+部署此集成的流程非常简单，只需执行以下操作：
 
 ## 完成集成向导{#completing-the-integration-wizard}
 
 使用集成向导的步骤。
 
-要激活集成，您必须在Data Connectors界面中完成Lyris集成向导。
+要激活集成，必须在 Data Connectors 界面中完成 Lyris 配置向导。
 
-1. 导航到Adobe Experience cloud中的数据连接器（以前称为Genesis）区域。
+1. 导航到 Adobe Experience Cloud 中的“Data Connectors”（以前称为 Genesis）区域。
 
    ![](assets/data_connectors.png)
 
-1. 在“ **[!UICONTROL 添加集成]**”下的Lyris HQ下，单击“激**[!UICONTROL &#x200B;活”]**。
+1. 在&#x200B;**[!UICONTROL 添加集成]**&#x200B;中的“Lyris HQ”下，单击&#x200B;**[!UICONTROL 激活]**。
 
    ![](assets/add_integration.png)
 
-1. 在“ **[!UICONTROL 常规设置]**”下，选择所需的报表包并提供集成的名称。
-1. 在“自定义值”下填写所有与Lyris帐户相关 **[!UICONTROL 的信息]**。
+1. 在&#x200B;**[!UICONTROL 常规设置]**&#x200B;下，选择所需的报表包并提供集成的名称。
+1. 在&#x200B;**[!UICONTROL 自定义值]**&#x200B;下，填写所有与您的 Lyris 帐户相关的信息。
 
    ![](assets/general_settings.png)
 
-1. 从下拉菜单中选择适当的保留eVar和事件。
+1. 从下拉菜单中选择适当的保留 eVar 和事件。
 
    ![](assets/variable_mapping.png)
 
-1. 除了3个自动化的合作伙伴区 **[!UICONTROL 段外]**，您还可以在“区段”下选择您自己的区段。
-1. 此集成可能需要将几个数据点下载到您的Lyris帐户。 您可以在“访问请求”下选择授予此访 **[!UICONTROL 问权限]**。
-1. 在“ **[!UICONTROL 数据收集]**”下，您可以选择使用自动或手动解决方案（JavaScript插件）从登录页面URL中收集查询字符串参数。 如果您选择拥有自动化解决方案，请为消息ID和收件人ID输入查询字符串参数。 有关JavaScript插件，请与Adobe顾问联系。
+1. 除了 3 个自动提供的合作伙伴区段外，您还可以在&#x200B;**[!UICONTROL 您的区段]**&#x200B;下选择自己的区段。
+1. 此集成可能需要将几个数据点下载到您的 Lyris 帐户。您可以在&#x200B;**[!UICONTROL 访问请求]**&#x200B;下选择授予此访问权限。
+1. 在&#x200B;**[!UICONTROL 数据收集]**&#x200B;下，您可以选择使用自动或手动解决方案（JavaScript 插件）从登陆页面 URL 中收集查询字符串参数。如果您选择使用自动解决方案，请输入消息 ID 和收件人 ID 的查询字符串参数。有关 JavaScript 插件，请联系您的 Adobe 顾问。
 
    ![](assets/data_collection.png)
 
-1. 您可以选择自动为您生成Lyris控制面板和书签。
+1. 您可以选择自动为您生成 Lyris 功能板和书签。
 
    ![](assets/dashboard_generation.png)
 
-1. 查看集成摘要，然后单击“ **[!UICONTROL 激活]**”。
+1. 查看集成摘要并单击&#x200B;**[!UICONTROL 激活]**。
 
-## Lyris emailLabs中的配置{#configuration-within-the-lyris-emaillabs}
+## Lyris EmailLabs 中的配置{#configuration-within-the-lyris-emaillabs}
 
-完成向导后，说明在Lyris中要配置什么的步骤。
+介绍完成向导后要在 Lyris 中配置的项目的步骤。
 
-1. 完成集成向导后，您必须与Lyris Professional团队合作，以完成与Lyris HQ帐户的集成并促进测试。
-1. 添加URL查询字符串参数：验证在用户界面的“组织”设置区域中是否正确输入了附加的URL字符串。 这应包含系列活动级别ID(hq_m)和收件人级别ID(hq_v)。
+1. 完成集成向导后，您必须与 Lyris 专业团队合作，以完成与 Lyris HQ 帐户的集成并开展测试。
+1. 添加 URL 查询字符串参数：验证 URL 附加字符串是否已正确输入到用户界面的“组织”设置区域中。它应当包含促销活动级别 ID (hq_m) 和收件人级别 ID (hq_v)。
 
-   字符串ID的示例如下：
+   以下是字符串 ID 的一个示例：
 
    ```
    hq_lid=149&hq_m=96843&hq_l=23&hq_v=7703a51905
@@ -64,29 +64,29 @@ source-git-commit: a3aa8feb937e2a1f40c498aa4e143de21cf26b86
 
    >[!NOTE]
    >
-   >如果要应用Lyris的本机分析工具，请 *单击跟踪* ，以标记所有添加的所需变量。
+   >如果要应用 Lyris 的本机分析工具，请单击所有添加的必需变量的“跟踪”**&#x200B;标记。
 
 ## 验证集成{#verifying-the-integration}
 
-验证Lyris/Adobe Analytics集成是否成功的步骤。
+验证 Lyris/Adobe Analytics 集成是否成功的步骤。
 
-完成所有部署步骤后，您可以验证集成是否成功传输数据。
+完成所有部署步骤后，您可以验证集成是否可成功传输数据。
 
-> [!NOTE] 数据交换需要几天时间才能开始。 请确保在激活集成后与Lyris联系。
+> [!NOTE] 需要几天时间才能开始交换数据。请确保在激活集成后联系 Lyris。
 
-1. 导航到Data Connectors中的Lyris集成。 在“支持 ****”选项卡>“集成**[!UICONTROL &#x200B;活动日志”下，您应当看到成功导入的]**Metric数据和 **[!UICONTROL /或成功导入的]******Classification数据等事件：
+1. 导航到 Data Connectors 中的 Lyris 集成。在&#x200B;**[!UICONTROL 支持]**&#x200B;选项卡 > **[!UICONTROL 集成活动日志]**&#x200B;下，您应会看到诸如&#x200B;**[!UICONTROL 已成功导入量度数据]**&#x200B;和/或&#x200B;**[!UICONTROL 已成功导入分类数据]**&#x200B;等事件：
 
    ![](assets/integration_info.png)
 
-1. 现在，使用相应的指标查看您的Lyris消息报告。 在Adobe Experience cloud中，选择“报 **[!UICONTROL 告与分析”]**。
+1. 现在，查看包含相应量度的 Lyris 消息报表。在 Adobe Experience Cloud 中，选择 **[!UICONTROL Reports &amp; Analytics]**。
 1. 选择适当的报表包。
-1. 在“自 **[!UICONTROL 定义转换]**”下，选择“**[!UICONTROL &#x200B;消息ID报告]** ”，然后选择“ **[!UICONTROL 消息ID/消息名称”]**。
+1. 在&#x200B;**[!UICONTROL 自定义转化]**&#x200B;下，选择&#x200B;**[!UICONTROL 消息 ID 报表]**，然后选择&#x200B;**[!UICONTROL 消息 ID/消息名称]**。
 
 ## 查询字符串参数插件代码{#query-string-param-plug-in-code}
 
-显示要与Adobe Analytics一起使用的Lyris插件代码。
+显示要与 Adobe Analytics 一起使用的 Lyris 插件代码。
 
-> [!NOTE] 在使用以下代码之前，请确保在Adobe Analytics的Admin Tool中保留了必要的eVar。 一旦您知道已保留哪些eVar，请用相关eVar替换eVarN。 例如eVar10。
+> [!NOTE] 在使用以下代码之前，请确保在 Adobe Analytics 的管理员工具中保留了必需的 eVar。在获知保留了哪些 eVar 之后，请使用相关 eVar 替换 eVarN。例如，eVar10。
 
 ```
 /* 
