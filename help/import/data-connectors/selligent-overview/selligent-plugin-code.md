@@ -1,8 +1,8 @@
 ---
-description: 在使用以下代码之前，请在Adobe Analytics的管理工具中保留必要的eVar。
+description: 使用以下代码之前，请在 Adobe Analytics 的管理工具中保留必要的 eVar。
 title: 查询字符串参数插件代码
 uuid: a71e7774-bc7a-414e-a116-739770b900bf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -10,9 +10,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # 查询字符串参数插件代码{#query-string-param-plug-in-code}
 
-在使用以下代码之前，请在Adobe Analytics的管理工具中保留必要的eVar。
+使用以下代码之前，请在 Adobe Analytics 的管理工具中保留必要的 eVar。
 
-一旦您知道已保留的eVar，请将eVarN替换为相关的eVar，例如eVar10。
+获知已保留的 eVar 后，请将 eVarN 替换为相关的 eVar，例如 eVar10。
 
 ```
 /* 
