@@ -2,7 +2,7 @@
 description: 'null'
 title: 部署集成
 uuid: 1a0770a7-c61b-4eec-a9b3-983def842ad8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -10,47 +10,47 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # 部署集成{#deploying-the-integration}
 
-部署此集成是一个简单的过程，包括完成Adobe集成向导和验证集成。
+部署此集成的流程非常简单，包括完成 Adobe 集成向导和验证集成。
 
-## 完成Adobe集成向导{#completing-the-adobe-integration-wizard}
+## 完成 Adobe 集成向导{#completing-the-adobe-integration-wizard}
 
-完成数据连接器界面中集成向导的步骤。
+在 Data Connectors 界面中完成集成向导的步骤。
 
-1. 导航到Adobe Experience cloud中的数据连接器（以前称为Genesis）区域。
-1. 启动Dynamic Signal集成向导。
+1. 导航到 Adobe Experience Cloud 中的“Data Connectors”（以前称为 Genesis）区域。
+1. 启动 Dynamic Signal 集成向导。
 1. 选择所需的报表包并提供集成的名称。
 1. 配置以下项目：
 
    | 项目 | 描述 |
    |---|---|
    | 电子邮件地址 | 主要联系人的电子邮件地址。 |
-   | 描述 | （可选）此集成设置的说明。 |
-   | 社区ID | 您可以从动态信号代表处获取此ID。 |
+   | 描述 | （可选）对此集成设置的描述。 |
+   | 社区 ID | 您可以从 Dynamic Signal 代表处获取此 ID。 |
 
-1. 配置以下 **[!UICONTROL 变量映射]** :
+1. 配置以下&#x200B;**[!UICONTROL 变量映射]**&#x200B;项目：
 
    | 项目 | 描述 |
    |---|---|
-   | 跟踪代码 | 从报表包中选择可用的eVar变量。 |
+   | 跟踪代码 | 从报表包中选择一个可用的 eVar 变量。 |
 
 1. 查看将为此集成创建的分类。
-1. 选中该框可创建Dynamic Signal集成仪表板（可选，但强烈建议）。
-1. 查看所有配置项，然后单击“ **[!UICONTROL 立即激活]**”。
-1. **重要说明**:完成向导后，您必须通知动态信号代表，以便他们激活VoiceStorm平台上的集成。
+1. 选中用于创建 Dynamic Signal 集成功能板的框（可选，但强烈推荐）。
+1. 查看所有配置项目并单击&#x200B;**[!UICONTROL 立即激活]**。
+1. **重要信息**：完成向导后，必须通知 Dynamic Signal 代表，以便他们在 VoiceStorm 平台上激活该集成。
 
 ## 验证集成{#verifying-the-integration}
 
-查看Adobe Experience cloud中Dynamic Signal VoiceStorm集成设置的步骤
+查看 Adobe Experience Cloud 中的 Dynamic Signal VoiceStorm 集成设置的步骤
 
-1. 在集成活动日志中查看动态信号集成设置。
-   1. 在Adobe Experience cloud中，导航至“支持” **[!UICONTROL &gt;“集]** 成活动日志” **** 。
+1. 在集成活动日志中查看 Dynamic Signal 集成设置。
+   1. 在 Adobe Experience Cloud 中，导航到&#x200B;**[!UICONTROL 支持]** > **[!UICONTROL 集成活动日志]**。
 
       ![](assets/integration_activity_log.png)
 
-   1. 查找成功导入 **[!UICONTROL 的分类数据等条目]**。 这些条目应在成功部署后的24小时内显示。
-1. 在Adobe Analytics中，使用控制面板查看动态信号报告，该控制面板是使用Adobe Integration向导自动为您创建的（步骤7）。 或者，您也可以导航到Adobe Analytics菜单结构中的动态信号报告——请参阅以下屏幕快照。
+   1. 查找&#x200B;**[!UICONTROL 已成功导入分类数据]**&#x200B;等条目。这些条目应会在成功部署后的 24 小时内显示。
+1. 使用通过 Adobe 集成向导自动为您创建的功能板（步骤 7），查看 Adobe Analytics 中的 Dynamic Signal 报表。或者，您也可以导航到 Adobe Analytics 菜单结构中的 Dynamic Signal 报表 - 请参阅以下屏幕快照。
 
-   **注意**:此数据应在成功部署后的24-48小时内显示。
+   **注意**：此数据应会在成功部署后的 24-48 小时内显示。
 
    ![](assets/reporting.png)
 
