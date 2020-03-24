@@ -4,7 +4,7 @@ subtopic: Data sources
 title: 完全处理
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # 完全处理
 
-数据源在处理作为标准服务器调用的数据时，支持以下变量（普通 &gt; 完全处理）。
+数据源在处理作为标准服务器调用的数据时，支持以下变量（普通 > 完全处理）。
 
 完全处理数据源数据会像 Adobe 服务器在指定的时间接收到该数据一样进行处理（每个点击包含一个时间戳）。
 
@@ -23,7 +23,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 完全处理数据源数据使用单独的访客资料进行处理，因此即使上载数据中的访客 ID 与使用 JavaScript 或其他 AppMeasurement 库收集的数据匹配，访客资料也不会通过 eVar 分配进行关联。
 
-For example, a user with a visitor ID of `"user@example.com"` visits your site from a marketing campaign named "Spring Sale", which is stored in the campaign variable. 如果您稍后使用相同的访客 ID 上载一个交易，则“春季促销”活动不会收到使用完全处理数据源上载的任何收入或成功事件的积分。
+例如，访客 ID 为 `"user@example.com"` 的用户通过名为“春季促销”的市场促销活动访问您的网站，该活动存储在促销活动变量中。如果您稍后使用相同的访客 ID 上载一个交易，则“春季促销”活动不会收到使用完全处理数据源上载的任何收入或成功事件的积分。
 
 ## 列引用 {#section_92BAE76639E3404E97276B1BE0581078}
 
@@ -48,18 +48,18 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   </tr> 
   <tr> 
    <td colname="col1"> <p>currencyCode </p> </td> 
-   <td colname="col2"> <p>currencyCode </p> <p>Note:  This variable is also supported by Standard data sources as <code> currency code </code>. </p> </td> 
+   <td colname="col2"> <p>currencyCode </p> <p>注意：此变量还受到作为 <code> currency code </code> 的标准数据源支持。 </p> </td> 
    <td colname="col3"> <p>收入货币代码（例如 USD）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>timestamp </p> </td> 
-   <td colname="col2"> <p>日期 </p> </td> 
-   <td colname="col3"> <p>Use the ISO 8601 date format of <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (for example, <code> 2013-09-01T12:00:00-07:00 </code>), or Unix Time Format (the number of seconds elapsed since January 1, 1970). </p> </td> 
+   <td colname="col2"> <p>date </p> </td> 
+   <td colname="col3"> <p>使用 ISO 8601 日期格式 <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code>（例如，<code> 2013-09-01T12:00:00-07:00 </code>），或 Unix 时间格式（自 1970 年 1 月 1 日起经过的秒数）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
    <td colname="col2"> <p>eVar<i>N</i>，例如 &lt;eVar2&gt;…&lt;/eVar2&gt; </p> </td> 
-   <td colname="col3"> <p>转化 eVar 名称。您最多可有 75 个 eVar ( <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>您可以指定 eVar 名称 (eVar12) 或一个易记名称（广告活动 3）。 </p> </td> 
+   <td colname="col3"> <p>转化 eVar 名称。您最多可有 75 个 eVar (<span class="varname">eVar1</span> - <span class="varname">eVar75</span>)。 </p> <p>您可以指定 eVar 名称 (eVar12) 或一个易记名称（广告活动 3）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
@@ -72,7 +72,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>hier<i>N</i> </p> </td> 
    <td colname="col2"> <p>hier<i>N</i>，例如 &lt;hier2&gt;…&lt;/hier2&gt; </p> </td> 
-   <td colname="col3"> <p>层级名称。您最多可有 5 个层级 ( <span class="varname"> hier1</span> - <span class="varname">hier5 </span>). </p> <p>您可以指定默认的层级名称 (<span class="varname">hier2</span>) 或一个易记名称（<span class="term">北方人</span>）。 </p> </td> 
+   <td colname="col3"> <p>层级名称。您最多可有 5 个层级 (<span class="varname">hier1</span> - <span class="varname">hier5</span>)。 </p> <p>您可以指定默认的层级名称 (<span class="varname">hier2</span>) 或一个易记名称（<span class="term">北方人</span>）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkName </p> </td> 
@@ -107,17 +107,17 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>pageUrl </p> </td> 
    <td colname="col2"> <p>pageUrl </p> </td> 
-   <td colname="col3"> <p>页面URL(例如 <code>https://www.mysite.com/index.html)</code>。 </p> </td> 
+   <td colname="col3"> <p>页面 URL（例如 <code>https://www.mysite.com/index.html)</code>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
+   <td colname="col3"> <p>产品列表（例如 <code> "Sports;Ball;1;5.95") </code>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
    <td colname="col2"> <p>prop<i>N</i>，例如 &lt;prop2&gt;…&lt;/prop2&gt; </p> </td> 
-   <td colname="col3"> <p>属性编号字符串（例如 <span class="term"> 体育区域 </span>). </p> </td> 
+   <td colname="col3"> <p>属性编号字符串（例如<span class="term">体育区域</span>）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchaseID </p> </td> 
@@ -199,7 +199,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   </tr> 
   <tr> 
    <td colname="col1"> <p>connectionType </p> </td> 
-   <td colname="col2"> <p>Visitor's connection type ( <span class="term"> lan </span> or <span class="term"> modem </span>). </p> </td> 
+   <td colname="col2"> <p>访客的连接类型（<span class="term">lan</span> 或<span class="term">调制解调器</span>）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>cookiesEnabled </p> </td> 
