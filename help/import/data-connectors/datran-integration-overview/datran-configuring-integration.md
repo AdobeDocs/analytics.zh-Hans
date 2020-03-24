@@ -1,23 +1,23 @@
 ---
-description: 运行Data Connectors集成向导以实施Data Connectors集成之前，必须具有的任务和信息。
-title: 准备Data Connectors电子邮件集成
+description: 运行 Data Connectors 集成向导以实施 Data Connectors 集成之前必须完成的任务和具备的信息。
+title: 为 Data Connectors 电子邮件集成做准备
 uuid: 3cedc6ec-1453-4b1f-879c-972b0238d124
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 准备Data Connectors电子邮件集成{#preparing-for-the-data-connectors-email-integration}
+# 为 Data Connectors 电子邮件集成做准备{#preparing-for-the-data-connectors-email-integration}
 
-运行Data Connectors集成向导以实施Data Connectors集成之前，必须具有的任务和信息。
+运行 Data Connectors 集成向导以实施 Data Connectors 集成之前必须完成的任务和具备的信息。
 
-Adobe Analytics®为组织提供了与其在线策略和营销计划相关的可操作实时智能。 Adobe Analytics与Datran相结合，提供基于行为定位的再营销。 通过无缝集成Datran和Adobe Analytics web分析数据，提高目标营销并了解营销活动的有效性。
+Adobe Analytics® 为组织提供有关在线策略和营销活动的可执行实时资讯。与 Datran 整合在一起后，Adobe Analytics 可根据行为定位提供再营销。通过将 Datran 与 Adobe Analytics Web 分析数据无缝集成，可改进目标营销并了解促销活动的有效性。
 
-在为电子邮件帐户配置集成之前，您需要具备以下功能：
+在为电子邮件帐户配置集成之前，您需要完成以下任务或具备以下信息：
 
-* 了解您要使用哪个电子邮件地址来接收有关集成操作的通知。
-* 了解您的帐户ID（由Datran分配给您的组织的唯一标识符）。
-* 识别或创建用于捕获收件人ID/访客ID的自定义变量。
-* 识别或创建用于捕获消息ID的自定义变量（通常为系列活动变量）。
+* 知晓您要使用哪个电子邮件地址来接收关于集成操作的通知。
+* 知晓您的帐户 ID（由 Datran 分配给贵组织的唯一标识符）。
+* 识别或创建用于捕获收件人 ID/访客 ID 的自定义变量。
+* 识别或创建用于捕获消息 ID 的自定义变量（通常为促销活动变量）。
 
