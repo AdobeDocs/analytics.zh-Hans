@@ -4,7 +4,7 @@ subtopic: Data sources
 title: 导入文件引用
 topic: Developer and implementation
 uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -25,9 +25,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **日期**：（必需）对应文件中每个数据行的时间戳。
 
-**变量**:映射到数据源数据维的报告变量的名称。
+**变量**：映射到数据源数据维度的报告变量的名称。
 
-**活动**:映射到数据源度量的事件的名称。
+**事件**：映射到数据源量度的事件的名称。
 
 使用数据源模板创建数据源文件，其中包含要上载的数据。在创建数据源文件时，请记住以下事项：
 
@@ -60,6 +60,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **.FIN 文件**
 
-完成数据源文件的填写后，可将其FTP传入Analytics。 但是，若要使您的数据得以处理，还需要一个额外文件。You will need to upload an empty text file with the same name of your data file, but with a [!DNL .fin] extension.
+在完成数据源文件的填写之后，您可以通过 FTP 将其上载到 Analytics。但是，若要使您的数据得以处理，还需要一个额外文件。您将需要上载一个空文本文件，该文件应当与您的数据文件同名，但扩展名为 [!DNL .fin]。
 
-For example, if you upload a (tab-delimited) data file called [!DNL myproductdata.txt], you would also need to upload an empty text file called [!DNL myproductdata.fin]. Without the [!DNL .fin] file, data would never be processed.
+例如，如果您上载了一个名为 [!DNL myproductdata.txt] 的（制表符分隔）数据文件，则还将需要上载一个名为 [!DNL myproductdata.fin] 的空文本文件。如果没有 [!DNL .fin] 文件，数据将永远不会被处理。
