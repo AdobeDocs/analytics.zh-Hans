@@ -1,17 +1,17 @@
 ---
-title: Analytics Data Connectors帮助
-description: 数据连接器帮助
-translation-type: tm+mt
+title: Analytics Data Connectors 帮助
+description: Data Connectors 帮助
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 分析数据连接器指南
+# Analytics Data Connectors 指南
 
-本指南介绍如何
+本指南介绍操作说明
 
-这些方法包括：
+它包括：
 
 
 ## 重要 Analytics 导入文章
@@ -24,7 +24,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 重要 Analytics 资源
 
-* [联系客户关怀团队](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [分析论坛](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analytics资源](https://forums.adobe.com/message/10660755)
+* [联系客户关怀团队](https://helpx.adobe.com/cn/contact/enterprise-support.ec.html)
+* [Analytics 论坛](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics 资源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
