@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Components Guide
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
+source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 ---
 
@@ -107,7 +107,7 @@ source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
       + [分类规则集](c-classifications2/crb/classification-rule-set.md)
       + [分类规则](c-classifications2/crb/classification-quickstart-rules.md)
       + [分类规则 - 定义](c-classifications2/crb/classification-rule-definitions.md)
-      + [子分类和规则生成器 - 用例](c-classifications2/crb/sub-classification-rule-builder.md)
+      + [子分类和规则构建器](c-classifications2/crb/sub-classification-rule-builder.md)
    + 数值 2 分类 {#numeric2-classification}
       + [数值 2 分类概述](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
       + [创建数值 2 分类](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
