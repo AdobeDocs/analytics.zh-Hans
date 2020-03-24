@@ -2,7 +2,7 @@
 description: 'null'
 title: 部署集成
 uuid: df3f24c9-d2e3-489e-b97e-e1af0d5dd1fa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -10,57 +10,57 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # 部署集成{#deploying-the-integration}
 
-部署此集成是一个简单的过程，它需要执行以下操作：
+部署此集成的流程非常简单，只需执行以下操作：
 
-## 完成Adobe集成向导{#completing-the-adobe-integration-wizard}
+## 完成 Adobe 集成向导{#completing-the-adobe-integration-wizard}
 
-完成数据连接器界面中集成向导的步骤。
+在 Data Connectors 界面中完成集成向导的步骤。
 
-1. 导航到Adobe Experience cloud中的数据连接器（以前称为Genesis）区域。
-1. 启动ContactLab集成向导。
+1. 导航到 Adobe Experience Cloud 中的“Data Connectors”（以前称为 Genesis）区域。
+1. 启动 ContactLab 集成向导。
 1. 选择所需的报表包并提供集成的名称。
 1. 配置以下项目：
 
    | 项目 | 描述 |
    |---|---|
    | 电子邮件地址 | 主要联系人的电子邮件地址 |
-   | 描述 | （可选）此集成设置的说明 |
+   | 描述 | （可选）对此集成设置的描述 |
 
-1. 配置以下 **[!UICONTROL 变量映射]** :
+1. 配置以下&#x200B;**[!UICONTROL 变量映射]**&#x200B;项目：
 
    | 项目 | 描述 |
    |---|---|
-   | 链接 ID | 选择一个eVar以实时收集链接ID。 |
-   | 消息ID | 选择一个eVar以实时收集消息ID。 |
-   | Recipient ID | 选择一个eVar以实时收集收件人ID。 |
-   | 跳出次数 | 选择一个数字事件以从ContactLab接收每日弹回。 |
-   | 已发送 | 选择一个数字事件，以接收从ContactLab发送的每日发送。 |
-   | 已单击 | 选择一个数字事件，以从ContactLab接收每日总点击量。 |
-   | 已打开 | 从ContactLab中选择一个数字事件，以接收每日打开的总数。 |
-   | 取消订阅 | 选择一个数字事件，以便从ContactLab接收每日取消订阅。 |
+   | 链接 ID | 选择一个用于实时收集链接 ID 的 eVar。 |
+   | 消息 ID | 选择一个用于实时收集消息 ID 的 eVar。 |
+   | 收件人 ID | 选择一个用于实时收集收件人 ID 的 eVar。 |
+   | 退回 | 选择一个用于从 ContactLab 接收每日退回量的数字事件。 |
+   | 已发送 | 选择一个用于从 ContactLab 接收每日发送量的数字事件。 |
+   | 已点击 | 选择一个用于从 ContactLab 接收每日总点击量的数字事件。 |
+   | 已打开 | 选择一个用于从 ContactLab 接收每日总打开量的数字事件。 |
+   | 已取消订阅 | 选择一个用于从 ContactLab 接收每日取消订阅量的数字事件。 |
 
-1. 启用数据访问和配置数据收集。
+1. 启用数据访问并配置数据收集。
    1. 根据需要重命名分类。
-   1. **[!UICONTROL 合作伙伴细分]** ，是包含在您的集成中的标准再营销细分。
-   1. 在“ **[!UICONTROL 您的区段]**”下，选择要包含在此集成中的任何自定义区段。 您可以在管理面板下创建其他自定义区段。
-   1. 在“ **[!UICONTROL 访问请求]**”下，选中该框可允许将产品信息导出到每日再营销区段的ContactLab。
+   1. **[!UICONTROL 合作伙伴区段]**&#x200B;是包含在集成中的标准再营销区段。
+   1. 在&#x200B;**[!UICONTROL 您的区段]**&#x200B;下，选择要包含在此集成中的任何自定义区段。您可以在管理面板下创建其他自定义区段。
+   1. 在&#x200B;**[!UICONTROL 访问请求]**&#x200B;下，选中允许将产品信息导出到 ContactLab 中的每日再营销区段的框。
    1. 根据需要重命名计算量度。
-   1. 配置您是通过手动更新Analytics收集代码还是使用自动化解决方案来收集ID。 如果选择“ **[!UICONTROL 自动解决方案]**”，则必须包含电子邮件链接中使用的参数才能传递ID。
-1. 查看所有配置项，然后单击“ **[!UICONTROL 立即激活]**”。
+   1. 配置收集 ID 的方式：通过手动更新 Analytics 收集代码还是使用自动解决方案。如果选择&#x200B;**[!UICONTROL 自动解决方案]**，则必须包含电子邮件链接中用于传递 ID 的参数。
+1. 查看所有配置项目并单击&#x200B;**[!UICONTROL 立即激活]**。
 
 ## 验证集成{#verifying-the-integration}
 
-查看Adobe Experience cloud中的ContactLab集成设置
+查看 Adobe Experience Cloud 中的 ContactLab 集成设置
 
 1. 查看集成活动日志。
-   1. 在Adobe Experience cloud中，导航至“支持” **[!UICONTROL &gt;“集]** 成活动日志” ****。
+   1. 在 Adobe Experience Cloud 中，导航到&#x200B;**[!UICONTROL 支持]** > **[!UICONTROL 集成活动日志]**。
 
       ![](assets/integration_activity_log.png)
 
-   1. 查找成功导 **[!UICONTROL 入的分类数据]**、 **[!UICONTROL 成功导入的量度数据]**、成功导 **[!UICONTROL 出的量度数据等条目]**。 这些条目应在成功部署后的1天内显示。
-1. 在Adobe Analytics中查看报告数据。
-   1. 导航到“自 **[!UICONTROL 定义转化]** ”&gt;“自定 **[!UICONTROL 义转化1-10]** ” **[!UICONTROL &gt;“消息]** ID报告”。
+   1. 查找&#x200B;**[!UICONTROL 已成功导入分类数据]**、**[!UICONTROL 已成功导入量度数据]**、**[!UICONTROL 已成功导出量度数据]**&#x200B;等条目。这些条目应会在成功部署后的 1 天内显示。
+1. 查看 Adobe Analytics 中的报表数据。
+   1. 导航到&#x200B;**[!UICONTROL 自定义转化]** > **[!UICONTROL 自定义转化 1-10]** > **[!UICONTROL 消息 ID 报表]**。
 
       ![](assets/reporting.png)
 
-   1. 查找ContactLab报告。 此数据应在成功部署后的24-48小时内显示。
+   1. 查找 ContactLab 报表。此数据应会在成功部署后的 24-48 小时内显示。
