@@ -4,7 +4,7 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: 常规
 topic: Developer and implementation
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 DTM 中用于部署 Adobe Analytics 的“常规”设置的字段描述。
 
-**[!UICONTROL &lt;属性>]**> “编![](assets/settings_gear.png)辑工**[!UICONTROL &#x200B;具”]** > “常 **[!UICONTROL 规”]**
+**[!UICONTROL &lt;属性>]** > ![](assets/settings_gear.png) **[!UICONTROL 编辑工具]** > **[!UICONTROL 常规]**
 
 <table id="table_DD8DA303698041D296DD5DB080AF7971"> 
  <thead> 
