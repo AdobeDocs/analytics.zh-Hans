@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;page load rule
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 为页面加载规则创建条件
 uuid: 30a6c69f-56e7-414e-9636-64c262e7ccd4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 1. 指定导致规则触发的条件。
 
-   例如，您可以选择&#x200B;**[!UICONTROL 路径]**来识别您希望规则触发的特定页面。
+   例如，您可以选择&#x200B;**[!UICONTROL 路径]**&#x200B;来识别您希望规则触发的特定页面。
 
    ![](assets/conditions-page-load-rules2.png)
 
