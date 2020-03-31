@@ -1,7 +1,7 @@
 ---
 title: 外部电子邮件跟踪
-description: 使用Adobe Analytics跟踪电子邮件内容。
-translation-type: tm+mt
+description: 使用 Adobe Analytics 跟踪电子邮件内容。
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
@@ -56,7 +56,7 @@ source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
    1. 通过调用 [!UICONTROL getQueryParam] 自定义 [!DNL s_code.js]。
 
-      [!DNL s_code.js] 文件应置于 Web 服务器上每个网页都可以访问的位置。应更改此文件中的 *`doPlugins`*函数，以便捕获电子邮件链接上的查询字符串参数。例如：
+      [!DNL s_code.js] 文件应置于 Web 服务器上每个网页都可以访问的位置。应更改此文件中的 *`doPlugins`* 函数，以便捕获电子邮件链接上的查询字符串参数。例如：
 
       ```js
       /* Plugin Config */ 
@@ -69,7 +69,7 @@ source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
       s.doPlugins=s_doPlugins 
       ```
 
-      每个需要复制到变量的查询字符串参数应调用一次 [!UICONTROL getQueryParam]。在以上示例中，查询字符串参数 [!UICONTROL sc_cid] 被复制到 *`campaign`*.
+      每个需要复制到变量的查询字符串参数应调用一次 [!UICONTROL getQueryParam]。在以上示例中，查询字符串参数 [!UICONTROL sc_cid] 被复制到&#x200B;*`campaign`*。
 
       仅需要第一次调用 [!UICONTROL getQueryParam] 来捕获点进次数。请联系 Adobe [!DNL Customer Care] 来实施此函数，并确保您的 JavaScript 文件版本包含 [!UICONTROL getQueryParam] 插件。
 
@@ -78,7 +78,7 @@ source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
       在更新 JavaScript 库时，请记住以下要点。这些要点如下所示。
 
       * 查询字符串参数 [!UICONTROL sc_cid] 必须显示在最终登陆页面的 URL 中，否则不会记录任何点进转化。
-      * [!UICONTROL sc_cid] 参数是一个示例查询字符串参数。[!UICONTROL getQueryParam] 插件可使用和捕获任何查询字符串参数。请确保查询字符串参数仅用于促销活动跟踪。任何时候，只要查询字符串中显示有参数，它们的值就会复制到 *`campaign`*.
+      * [!UICONTROL sc_cid] 参数是一个示例查询字符串参数。[!UICONTROL getQueryParam] 插件可使用和捕获任何查询字符串参数。请确保查询字符串参数仅用于促销活动跟踪。任何时候，只要查询字符串中显示有参数，它们的值就会复制到&#x200B;*`campaign`*。
 
 1. 使用 [!UICONTROL SAINT] 划分促销活动跟踪代码。
 
