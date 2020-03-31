@@ -1,7 +1,7 @@
 ---
 title: 将 Adobe Analytics 部署到开发环境
 description: 了解如何使用 Adobe Experience Platform Launch 将 Adobe Analytics 部署到开发环境。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ## 使用 Experience Cloud 调试器验证您的开发实施
 
-Experience cloud调试器是一个Chrome插件，可显示页面上存在的所有Experience cloud标记。
+Experience Cloud 调试器是一个 Chrome 插件，可显示页面上存在的所有 Experience Cloud 标记。
 
 1. 打开 [Chrome Web 浏览器](https://www.google.com/chrome/)，然后转到 Chrome 网上应用店中的 [Adobe Experience Cloud 调试器](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)以安装该扩展。
 2. 导航到已实施 Launch 的开发网站。
@@ -57,7 +57,7 @@ Experience cloud调试器是一个Chrome插件，可显示页面上存在的所�
 * 控制台中没有 JavaScript 错误。与贵组织的网站所有者合作，确保解决了所有 JS 错误。
 * 正确实施了页眉代码：确保页眉代码位于 `<head>` 标记内部，并且文件存在。
 * AppMeasurement 库存在：直接导航到 JS 源，以确保 JS 文件包含代码。如果不包含，请确保创建了每个环境，并且库已发布到各自对应的环境。
-* 干扰插件：某些Chrome插件可以防止触发图像请求。 禁用任何可能阻止数据发送到Adobe服务器的插件。
+* 干扰插件：某些 Chrome 插件可阻止触发图像请求。禁用任何可能会阻止将数据发送到 Adobe 服务器的插件。
 
 ## 后续步骤
 
