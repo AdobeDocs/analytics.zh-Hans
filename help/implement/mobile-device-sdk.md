@@ -1,7 +1,7 @@
 ---
 title: 为移动设备实施 Analytics
-description: 确定要使用的移动AppMeasurement库。
-translation-type: tm+mt
+description: 确定要使用的移动 AppMeasurement 库。
+translation-type: ht
 source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
 
 ---
@@ -18,15 +18,15 @@ source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
 
 ## 版本 4 Mobile SDK
 
-> [!CAUTION] 对版本4 Mobile SDK的支持将于2020年9月30日终止。 有关 [更多信息，请参阅版本4 Mobile SDK停止支持常见问题解答](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq) 。
+> [!CAUTION] 对版本 4 Mobile SDK 的支持将于 2020 年 9 月 30 日终止。有关更多信息，请参阅[版本 4 Mobile SDK 支持终止常见问题解答](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)。
 
 * [SDK 存储库](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/sdks)
-* [iOS 文档](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)
-* [Android 文档](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)
+* [iOS 文档](https://docs.adobe.com/content/help/zh-Hans/mobile-services/ios/overview.html)
+* [Android 文档](https://docs.adobe.com/content/help/zh-Hans/mobile-services/android/overview.html)
 
 ## AppMeasurement 3.x
 
-> [!CAUTION] 不再支持用于移动设备的AppMeasurement 3.x SDK。
+> [!CAUTION] 不再支持适用于移动设备的 AppMeasurement 3.x SDK。
 
-* [AppMeasurement 3.x SDK for iOS文档](../../assets/adobe_mobile_ios_3x.pdf)
-* [AppMeasurement 3.x SDK for android文档](../../assets/android_3x.pdf)
+* [适用于 iOS 的 AppMeasurement 3.x SDK 文档](../../assets/adobe_mobile_ios_3x.pdf)
+* [适用于 Android 的 AppMeasurement 3.x SDK 文档](../../assets/android_3x.pdf)
