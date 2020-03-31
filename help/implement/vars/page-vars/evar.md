@@ -2,39 +2,41 @@
 title: eVar
 description: 可在实施中使用的自定义变量。
 translation-type: tm+mt
-source-git-commit: dcb69257fd29686ae346cf4d0cf50ed041ebcbbc
+source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 ---
 
 
 # eVar
 
-eVar是自定义变量，您可以随意使用。
+*此帮助页介绍如何实施eVar。 有关eVar如何作为维度工作的信息，请参[阅组件用户指南](../../../components/c-variables/dimensionslist/reports-conversion.md)中的eVar。*
 
-> [!TIP] 在大多数情况下，Adobe建议在prop上使用eVar。 在Adobe Analytics的早期版本中，prop和eVar之间有利有弊。 但是，Adobe已将eVar改进为几乎可满足prop的所有使用案例。
+eVar 是自定义变量，您可以根据需要随意使用。
 
-确保在解决方案设计文档中记录每个eVar的使用方 [式及其逻辑](../../prepare/solution-design.md)。
+> [!TIP] 在大多数情况下，Adobe 建议使用 eVar 而不使用 prop。在 Adobe Analytics 的早期版本中，prop 和 eVar 各有利弊。但是，Adobe 已改进 eVar，现在几乎可以满足 prop 的所有用例。
 
-## 在报表包设置中设置eVar
+确保在[解决方案设计文档](../../prepare/solution-design.md)中记录每个 eVar 的使用方式及其逻辑。
 
-在实施中使用eVar之前，请确保在报表包设置中配置每个eVar。 See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
+## 在报表包设置中设置 eVar
 
-## Adobe Experience Platform Launch中的eVar
+在实施中使用 eVar 之前，请确保在报表包设置中配置每个 eVar。请参阅管理员指南中的[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
 
-您可以在配置Analytics扩展时（全局变量）或根据规则设置eVar。
+## Adobe Experience Platform Launch 中的 eVar
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+您可以在配置 Analytics 扩展时（全局变量）或根据规则设置 eVar。
+
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 2. 单击所需的属性。
-3. 转到“规 [!UICONTROL 则] ”选项卡，然后单击所需的规则（或创建规则）。
-4. 在“ [!UICONTROL 操作]”下，单击现有  Adobe Analytics —— 设置变量操作或单击“+”图标。
-5. 将“扩 [!UICONTROL 展] ”下拉列表设置为Adobe Analytics，将“操作类 [!UICONTROL 型] ”设置为“ [!UICONTROL 设置变量”]。
-6. 找到 [!UICONTROL eVars部分] 。
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. 在下 [!UICONTROL Actions]面，单击现有 [!UICONTROL Adobe Analytics - Set Variables] 操作或单击“+”图标。
+5. 将下拉 [!UICONTROL Extension] 列表设置为Adobe Analytics，将其设置为 [!UICONTROL Action Type] to [!UICONTROL Set Variables]。
+6. 找到该 [!UICONTROL eVars] 部分。
 
-您可以选择eVar来设置值或数据元素。 您还可以从其他Analytics变量复制值。
+您可以选择 eVar 来设置值或数据元素。您还可以从其他 Analytics 变量复制值。
 
-## s.eVar1 - s.eVar250 in AppMeasurement and Launch自定义代码编辑器
+## AppMeasurement 和 Launch 自定义代码编辑器中的 s.eVar1 - s.eVar250
 
-每个eVar都是一个字符串，其中包含特定于您的组织的自定义值。 最大长度为255字节；超过255字节的值在发送到Adobe时会自动截断。
+每个 eVar 都是一个字符串，其中包含特定于贵组织的自定义值。这些值的最大长度为 255 字节；超过 255 字节的值在发送到 Adobe 时会自动被截断。
 
 ```js
 s.eVar1 = "Example custom value";
@@ -42,7 +44,7 @@ s.eVar1 = "Example custom value";
 
 ## 计数器 eVar
 
-eVar值通常包含字符串值。 但是，您可以将eVar配置为包含计数器。 例如，您希望计算购买前进行的内部搜索数。 除了设置文本值，您应使用以下语法：
+eVar 值通常包含字符串值。但是，您可以将 eVar 配置为包含计数器。例如，您希望计算购买前进行的内部搜索次数。您可以使用以下语法，而不是设置文本值：
 
 ```js
 // Increment a counter eVar by 1
@@ -52,15 +54,15 @@ s.eVar1 = "+1";
 s.eVar1 = "+12.49";
 ```
 
-如果小数超过两位，则 eVar 计数器舍入为两位小数。eVar计数器不能包含负数。
+如果小数超过两位，则 eVar 计数器舍入为两位小数。eVar 计数器不能包含负数。
 
-> [!IMPORTANT] 必须首先在管理控制台中将eVar配置为“计数器”，然后才能使用计数器eVar。 See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
+> [!IMPORTANT] 必须首先在管理控制台中将eVar配置为“计数器”，然后才能使用计数器eVar。 请参阅管理员指南中的[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
 
-## prop或eVar的独有优势
+## prop 或 eVar 的独特优势
 
-在Adobe Analytics的当前版本中，prop和eVar都是具有类似功能的自定义变量。 但是，它们有几个主要区别：
+在 Adobe Analytics 的当前版本中，prop 和 eVar 都是自定义变量，且具有相似功能。但是，它们之间有几个主要区别：
 
-* Prop中的数据在几分钟内即可在报告中使用。 eVar在报告中可能需要超过30分钟才能显示。
-* Prop在报表中具有100字节的限制。 eVar有255字节的限制。
-* Prop能够成为列表Prop，它们在同一点击中接受多个值。 列表变量是单独的变量，只有三个列表变量可用。
-* 默认情况下，Prop不会在设置的点击之外保留。 eVar具有自定义过期时间，允许您确定eVar何时不再获得后续活动的信用。 但是，如果您使用报 [告时间处理](../../../components/vrs/vrs-report-time-processing.md), prop和eVar都可以使用自定义归因模型。
+* Prop 中的数据在几分钟内即可显示在报表中。eVar 则要经过 30 多分钟才能显示在报表中。
+* Prop 在报表中具有 100 字节的限制。而 eVar 具有 255 字节的限制。
+* Prop 能够成为列表属性，此类属性可在同一点击中接受多个值。列表变量是单独的变量，并且只有三个列表变量可用。
+* 默认情况下，Prop 不会在设置的点击之外存留。eVar 具有自定义过期时间，允许您确定 eVar 何时不再获得后续事件的点数。但是，如果您使用报 [告时间处理](../../../components/vrs/vrs-report-time-processing.md), prop和eVar都可以使用自定义归因模型。
