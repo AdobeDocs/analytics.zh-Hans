@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;data element;create new data element;name;type;
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 创建数据元素
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 在动态标签管理中创建数据元素。
 
 1. [创建 Web 属性](/help/implement/other/dtm/t-create-web-property.md)（如果尚未创建）。
-1. 在 Web 属性中，单击&#x200B;**[!UICONTROL 规则]**>**[!UICONTROL &#x200B;数据元素]**。
+1. 在 Web 属性中，单击&#x200B;**[!UICONTROL 规则]** > **[!UICONTROL 数据元素]**。
 1. 单击&#x200B;**[!UICONTROL 创建新数据元素]**。
 1. 填写以下字段和选项：
 
@@ -32,7 +32,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>类型</strong></td> 
-      <td class="chdesc stentry"> <p> 指定从何处提取数据，如 JS 对象、CSS 选择器、Cookie、URL 参数或自定义脚本。 </p> <p>根据您选择的类型，显示的选项会有所不同。有关更多信息和示例，请参阅“动态标签管理产品文档”中的<a href="https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html">数据元素类型</a>。 </p> </td> 
+      <td class="chdesc stentry"> <p> 指定从何处提取数据，如 JS 对象、CSS 选择器、Cookie、URL 参数或自定义脚本。 </p> <p>根据您选择的类型，显示的选项会有所不同。有关更多信息和示例，请参阅“动态标签管理产品文档”中的<a href="https://marketing.adobe.com/resources/help/zh_CN/dtm/data_elements.html">数据元素类型</a>。 </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>默认值</strong></td> 
@@ -40,7 +40,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>强制使用小写值</strong></td> 
-      <td class="chdesc stentry"> <p>动态标签管理会自动将值转换为小写。 </p> </td> 
+      <td class="chdesc stentry"> <p>Dynamic Tag Management 会自动将值转换为小写。 </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>记住此值多久</strong></td> 
@@ -53,5 +53,5 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
     </tr> 
    </table>
 
-   有关如何使用数据元素的更多信息，请参阅“Adobe 标签管理产品文档”中的[数据元素](https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html)。
+   有关如何使用数据元素的更多信息，请参阅“Adobe 标签管理产品文档”中的[数据元素](https://marketing.adobe.com/resources/help/zh_CN/dtm/data_elements.html)。
 1. 单击&#x200B;**[!UICONTROL 保存数据元素]**。
