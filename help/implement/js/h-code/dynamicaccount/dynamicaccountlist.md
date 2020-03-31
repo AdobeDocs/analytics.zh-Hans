@@ -1,7 +1,7 @@
 ---
 title: dynamicAccountList
-description: 建立关于实施如何确定其报表包的逻辑。
-translation-type: tm+mt
+description: 构建有关实施如何确定其报表包的逻辑。
+translation-type: ht
 source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 ---
@@ -9,25 +9,25 @@ source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 # s.dynamicAccountList
 
-> [!IMPORTANT] 动态帐户仅支持使用传统JavaScript实现（H代码）。 当前AppMeasurement库或Adobe Experience Platform Launch不支持这些变量。
+> [!IMPORTANT] 仅当使用旧版 JavaScript 实施（H 代码）时，才支持动态帐户。当前的 AppMeasurement 库或 Adobe Experience Platform Launch 不支持这些变量。
 
-变 `s.dynamicAccountList` 量动态确定的值 `s_account`。 如果 `dynamicAccountSelection` 设置为 `true`，则 `dynamicAccountMatch` 将比较变量 `dynamicAccountList`。 如果找到匹配项，则使用匹配的报表包ID。
+`s.dynamicAccountList` 变量可动态确定 `s_account` 的值。如果将 `dynamicAccountSelection` 设置为 `true`，则会将 `dynamicAccountMatch` 变量与 `dynamicAccountList` 进行比较。如果找到匹配项，则使用匹配的报表包 ID。
 
 ## 语法
 
-此变量是JavaScript文件自动分析的字符串。
+此变量是一个字符串，将由 JavaScript 文件自动解析。
 
 ```JavaScript
 s.dynamicAccountList = "[rsid]=[valuetomatch],[rsid2]=[valuetomatch]";
 ```
 
-有效输入是以分号分隔的rsid和值对列表。 每个列表都包含以下项目：
+有效输入是以分号分隔的 rsid 和值对列表。每个列表都包含以下项目：
 
 * 一个或多个报表包 ID（以逗号分隔）
 * 一个等号
 * 要匹配的一个或多个字符串（以逗号分隔）
 
-字符串中只应使用标准ASCII字符。 不要包含空格。
+该字符串中只能使用标准的 ASCII 字符。不允许包含空格。
 
 ## 示例
 
