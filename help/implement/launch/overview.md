@@ -1,35 +1,35 @@
 ---
-title: 使用Launch概述实施
-description: 了解如何使用Adobe Experience Platform Launch实施Adobe Analytics
-translation-type: tm+mt
+title: 使用 Launch 实施概述
+description: 了解如何使用 Adobe Experience Platform Launch 实施 Adobe Analytics
+translation-type: ht
 source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
 
 ---
 
 
-# 使用Launch概述实施
+# 使用 Launch 实施概述
 
-在Adobe Analytics的整个生命周期中，Adobe提供了多种不同的方法在您的网站上实施代码以收集数据。 Adobe目前推荐的方法是通过Adobe Experience Platform Launch。
+在 Adobe Analytics 的整个生命周期中，Adobe 提供了多种不同方法来帮助您在网站上实施用于收集数据的代码。Adobe 目前推荐的方法是使用 Adobe Experience Platform Launch 进行实施。
 
-Launch是一款标签管理解决方案，可让您在部署Analytics代码的同时部署其他标签要求。 Adobe提供与其他解决方案和产品的集成，并允许您部署自定义代码。 所有这些任务都可以完成，无需依赖组织中的任何开发团队更新站点上的代码。
+Launch 是一款标签管理解决方案，可让您在满足其他标记要求的同时部署 Analytics 代码。Adobe 提供了与其他解决方案和产品的集成，并允许您部署自定义代码。无需依赖组织中的开发团队，也可以完成以下所有任务，进而更新网站上的代码。
 
-拥有有效Adobe Experience cloud合同的所有客户都可以使用Launch。 如果不确定您是否有权访问，请与贵组织的某个Experience cloud系统管理员联系。
+凡是已签署有效 Adobe Experience Cloud 合同的客户都可以使用 Launch。如果不确定您是否具有所需访问权限，请联系贵组织的 Experience Cloud 系统管理员。
 
-## 整体工作流程
+## 整个工作流
 
-使用Launch运行实施的步骤如下：
+使用 Launch 运行实施应遵循如下步骤：
 
-1. **获取对Launch的访问权限**:您可以通过组织中的系统管理员获取对Launch的访问权限。
-2. **创建属性**:属性是用于引用标签管理数据的总体容器。
-3. **部署到开发环境**:有一个环境，您可以在其中对标签的开发进行迭代。
-4. **验证并发布到生产**:确保一切正常，然后实时发布。
+1. **获取对 Launch 的访问权限**：您可以通过组织的系统管理员获取对 Launch 的访问权限。
+2. **创建属性**：属性是用于引用标签管理数据的总容器。
+3. **部署到开发环境**：有一个可在其中进行标签迭代开发的环境。
+4. **验证并发布到生产环境**：确保一切正常，然后将其实时发布。
 
-请参 [阅在Adobe Experience Platform Launch中创建Analytics属性](create-analytics-property.md) ，开始使用。
+要开始操作，请参阅[在 Adobe Experience Platform Launch 中创建 Analytics 属性](create-analytics-property.md)。
 
 ## 其他资源
 
-Launch可以高度自定义。 进一步了解如何通过在实施中包含正确的数据来充分利用Adobe Analytics。
+Launch 可高度定制。详细了解如何通过在实施中包含正确的数据来充分利用 Adobe Analytics。
 
-* [启动文档](https://docs.adobe.com/content/help/en/launch/using/overview.html):了解界面的工作方式和可用的扩展。
-* [Adobe Analytics扩展](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html):使用Analytics扩展将数据发送到Adobe Analytics。
-* [实施变量](../vars/overview.md):确定要发送到数据收集服务器的变量。
+* [Launch 文档](https://docs.adobe.com/content/help/zh-Hans/launch/using/overview.translate.html)：了解界面的使用方式和可用的扩展。
+* [Adobe Analytics 扩展](https://docs.adobe.com/content/help/zh-Hans/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html)：使用 Analytics 扩展将数据发送到 Adobe Analytics。
+* [实施变量](../vars/overview.md)：确定要发送到数据收集服务器的变量。
