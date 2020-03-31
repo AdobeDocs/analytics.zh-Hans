@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;page
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 创建新规则
 uuid: 2ec14270-b023-4328-b43e-42a250bf92d4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 描述如何在动态标签管理中创建规则的步骤。
 
 1. [创建 Web 属性](/help/implement/other/dtm/t-create-web-property.md)（如果尚未创建）。
-1. 在 Web 属性中，单击&#x200B;**[!UICONTROL 规则]**选项卡。
+1. 在 Web 属性中，单击&#x200B;**[!UICONTROL 规则]**&#x200B;选项卡。
 1. 从左侧导航窗格中选择您希望创建的规则类型，例如“基于事件的规则”或“页面加载规则”。
 1. 单击&#x200B;**[!UICONTROL 创建新规则]**。
 1. 根据需要命名规则并选择类别。
