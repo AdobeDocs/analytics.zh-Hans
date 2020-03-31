@@ -1,24 +1,24 @@
 ---
-title: H代码实现疑难解答
-description: 了解旧版JavaScript实现的一些常见问题。
-translation-type: tm+mt
+title: H 代码实施疑难解答
+description: 了解旧版 JavaScript 实施存在的一些常见问题。
+translation-type: ht
 source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 ---
 
 
-# H代码实现疑难解答
+# H 代码实施疑难解答
 
-以下是H代码实现的特定疑难解答步骤。
+以下是特定于 H 代码实施的疑难解答步骤。
 
 ## 在 Head 标记中置入 Analytics 代码
 
-> [!NOTE] 虽然H代码实现要求在标记中引用代码，但其他实现( `<body>` 如使用Adobe Experience Platform Launch)要求在标记中引用代 `<head>` 码。
+> [!NOTE] 虽然 H 代码实施要求在 `<body>` 标记中引用代码，但其他实施（如使用 Adobe Experience Platform Launch 的实施）要求在 `<head>` 标记中引用代码。
 
-分析代码可创建不可见的1x1像素图像。 以前，一个常见的实施做法是将引 `s_code.js` 用放在标记 `<head>` 中。 将代码放置到此处可防止图像以任何方式影响页面布局。 它还可以更快地执行，这样您就可以更有效地计算部分页面加载的页面查看次数。
+Analytics 代码可创建不可见的 1x1 像素图像。过去，一种常用的实施做法是将 `s_code.js` 引用放置到 `<head>` 标记中。将代码放置到此处可防止图像以任何方式影响页面布局。此外，Analytics 代码还可以更快执行，从而允许您更有效地计算部分页面加载的页面查看次数。
 
-However, certain elements of the code require the existence of the `<body>` object. 如果Analytics javaScript代码在标记中， `<head>` 则该代码会在对象存在前 `<body>` 执行。 As a result, your implementation does not collect [!UICONTROL ClickMap] data, automatic tracking of file downloads or exit links, or connection type data. 将脚本引用放 `s_code.js` 入标 `<head>` 记是有效的，但结果是Analytics的有限版本。
+但是，某些代码元素要求存在 `<body>` 对象。如果 Analytics JavaScript 代码位于 `<head>` 标记中，则该代码会在 `<body>` 对象存在之前先执行。因此，您的实施不会收集 [!UICONTROL ClickMap] 数据、文件下载或退出链接的自动跟踪数据，或连接类型数据。虽然可以将对 `s_code.js` 的脚本引用放置到 `<head>` 标记中，但生成的结果只能是非常受限的 Analytics 版本。
 
-The Analytics code can be placed anywhere inside the `<body>` tag of a well-formed HTML page. Adobe建议将Analytics代码放置到尽可能靠近标 `<body>` 记顶部的位置。 确保在文件加载后设置任何页 `s_code.js` 面变量。
+对于格式正确的 HTML 页面，Analytics 代码可置于 `<body>` 标记中的任何位置。Adobe 建议尽量靠近 `<body>` 标记的顶部放置 Analytics 代码。确保在 `s_code.js` 文件加载后再设置任何页面变量。
 
-> [!TIP] 如果要将Adobe Analytics与Adobe Target集成，则必须将JavaScript包含文件放在页面底部。
+> [!TIP] 如果您要将 Adobe Analytics 与 Adobe Target 集成，则 JavaScript 包含文件必须置于页面底部。
