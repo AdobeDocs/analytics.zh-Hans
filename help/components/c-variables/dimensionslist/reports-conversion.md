@@ -1,52 +1,70 @@
 ---
-description: 实现对客户活动的全面、准确和详细分析。通过使用促销活动管理、销售周期、客户流失和客户转化等量度，您可以衡量电子商务交易、销售源、广告效果和客户忠诚度等。
-title: 转化
-topic: Reports
-uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+title: eVar
+description: 可在报告中使用的自定义维。
+translation-type: tm+mt
+source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 ---
 
 
-# 转化
+# eVar
 
-实现对客户活动的全面、准确和详细分析。通过使用促销活动管理、销售周期、客户流失和客户转化等量度，您可以衡量电子商务交易、销售源、广告效果和客户忠诚度等。
+*此帮助页介绍eVar如何作为维度工作。 有关如何实施eVar的信息，请参[阅实施用户指南](/help/implement/vars/page-vars/evar.md)中的eVar。*
 
-例如，如果您希望了解您主页上哪些类型的内部促销活动可能会导致购买行为，您必须先捕获内部跟踪代码并为捕获内部促销活动的&#x200B;*`s.eVar`*&#x200B;设置单次访问期间的持续时间。完成成功事件（例如购买）时，该成功事件的信用将分配给该访客具备的所有转化变量，例如内部促销活动 ID。通过运行[!UICONTROL 内部促销活动报表]，您可以了解哪种促销活动在网站上产生的转化最多。
+eVar 是自定义变量，您可以根据需要随意使用。如果您有解决 [方案设计文档](/help/implement/prepare/solution-design.md)，则特定于您组织的大多数维度最终都会是eVar。 默认情况下，eVar会在其设置的点击之外继续存在。 您可以在报表包设置的“转换变量”下自 [定义其到期](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) 和分配。
 
-一些现成的报表同时包含流量和转化量度（如[!UICONTROL 搜索引擎]报表）。不过，[!UICONTROL 流量]和[!UICONTROL 转化]报表对您的组织是唯一的，并显示在&#x200B;**[!UICONTROL 流量]**&#x200B;和&#x200B;**[!UICONTROL 转化]**&#x200B;菜单中。
+## eVar的工作方式
 
-**报表属性**
+当您将数据发送到Adobe Analytics时，数据收集服务器会将点击转换为包含数百列的单行数据。 每个eVar都有两列专用；一个用于直接数据收集，另一个用于持久值。
 
-* [!UICONTROL 自定义转化]报表基于 eVar（转化变量）。
-* 转化变量可独立于页面查看之外存在，并可在其指定的过期日期内与量度关联。
-* 报表的默认量度为收入。若要更改默认量度，请参阅[选择默认报表量度](https://marketing.adobe.com/resources/help/zh_CN/sc/user/t_metrics_set_default.html)。
-* 这些报表以趋势格式和排名格式显示。
-* 您可以在这些报表中使用“分类”来重命名和整合行项目。
-* 如果启用基本子关系，则可以按以下方式划分这些报表：
+* 标准列包含从图像请求发送到Adobe的数据。
+* “post”列包含永久数据，这取决于eVar的过期和分配。
 
-   * 促销活动和产品，以及所有相关分类
-   * 客户忠诚度
-   * 所有完全子相关 eVar
+在几乎所有情况下，该 `post_evar` 列都用于报告。
 
-* 启用完全子关系时可对其他报表进行划分：
+### eVar如何与指标绑定
 
-   * 每次访问逗留时间
-   * 页面和网站区域，以及所有相关分类
-   * 登录页面
-   * 几乎所有流量源报表
-   * 访问量
-   * 许多访客资料和技术报表
-   * 所有其他 eVar
-   * 首次联系和最近联系营销渠道
+成功事件和eVar通常在不同的图像请求中定义。 该列 `post_evar` 允许eVar值将自己绑定到事件，以报告显示数据。 例如，以下访问为例：
 
-* 以下事件可用作量度：
+1. 访客到达您主页的网站。
+2. 他们使用您网站的内部搜索搜索“cats”。 实施将eVar1设置为内部搜索。
+3. 他们视图产品，然后完成结帐流程。
 
-   * 实例，定义 eVar 的次数
-   * 所有标准电子商务量度：收入、订购、件数、购物车、购物车查看、结账、购物车加货、购物车减货。
-   * 所有自定义事件：事件 1-80、事件 81-100（使用 H22 代码或更高版本的代码时）
-   * 访问和访客：其可用性取决于组织和报表包。请联系您的客户经理以了解详细信息。
+原始数据的简化版本将类似于以下内容：
 
-* 每个[!UICONTROL 自定义转化]报表的位置因 eVar 分配的数值而异。通常，可以在“[!UICONTROL 自定义转化]”文件夹下找到它们（如果未对菜单进行自定义）。
+| `visitor_id` | `pagename` | `evar1` | `post_evar1` | `event_list` |
+| --- | --- | --- | --- | --- |
+| `examplevisitor_987` | `Home page` |  |  |  |
+| `examplevisitor_987` | `Search results` | `cats` | `cats` | `event1` |
+| `examplevisitor_987` | `Product page` |  | `cats` | `prodView` |
+| `examplevisitor_987` | `Cart` |  | `cats` | `scAdd` |
+| `examplevisitor_987` | `Checkout` |  | `cats` | `scCheckout` |
+| `examplevisitor_987` | `Purchase confirmation` |  | `cats` | `purchase` |
 
+* 该 `visitor_id` 列将点击量绑定到同一访客。 在实际原始数据中，连接的值 `visid_high` 和确 `visid_low` 定访客ID。
+* 该列 `pagename` 填充“页面”维。
+* 列确 `evar` 定显式设置eVar1时的点击量。
+* 根 `post_evar1` 据报表包设置下变量的分配和过期时间设置，该值将带有上一个值。
+* 该列 `event_list` 包含所有度量数据。 对于此示例， `event1` 为“搜索”，其他事件为标准购物车量度。 在实际原始数据中， `event_list` 包含一组以逗号分隔的数字，其中查找表将这些数字与度量关联。
+
+### 将数据收集转换为报告
+
+Adobe Analytics中的工具(如分析工作区)可处理此收集的数据。 例如，如果您使用eVar1作为维度，使用“订单”作为度量来提取报表，则您会看到类似于以下内容的报表：
+
+| `Internal search term (eVar1)` | `Orders` |
+| --- | --- |
+| `cats` | `1` |
+
+分析工作区使用以下逻辑提取此报告：
+
+* 查看所有 `event_list` 值，并挑选其中的所有点 `purchase` 击量。
+* 在这些点击中，显示 `post_evar1` 值。
+
+### 分配和到期的重要性
+
+由于分配和过期决定了什么值会保留，因此它们对于从分析实施中获得最大价值至关重要。 Adobe强烈建议您在组织内讨论如何处理（分配）每个eVar的多个值以及eVar停止持久数据（过期）时。
+
+* 默认情况下，eVar使用上次分配。 新值将覆盖保留的值。
+* 默认情况下，eVar使用访问到期。 访问结束后，值即停止在列中逐行复 `post_evar` 制。
+
+您可以在报表包设置的“转换变量”下 [更改eVar分配](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) 和过期时间。
