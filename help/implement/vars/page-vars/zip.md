@@ -1,7 +1,7 @@
 ---
 title: zip
-description: 如果报表包设置允许，手动填充“邮政编码”维。
-translation-type: tm+mt
+description: 在报表包设置允许时手动填充“邮政编码”维度。
+translation-type: ht
 source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
 
 ---
@@ -9,26 +9,26 @@ source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
 
 # zip
 
-如果 `zip` 报表包设置中的“压缩选项”允许，该变量允许您手动填充 [!UICONTROL “邮政编码”维] 。 在Adobe Analytics的先前版本中，此变量只能手动设置，通常在零售站点上输入送货信息时才能设置。 Adobe Analytics的改进使此变量能够使用地理位置数据自动设置。 此变量不会在设置的点击之外继续存在。
+通过 `zip` 变量，您可以在报表包设置中的[!UICONTROL 邮政编码选项]允许时手动填充“邮政编码”维度。在 Adobe Analytics 的先前版本中，通常只有在零售网站上输入送货信息时才能手动设置此变。Adobe Analytics 的改进允许您能够使用地理位置数据自动设置此变量。此变量不会在设置的点击之外继续存在。
 
-> [!IMPORTANT] 确保将报 [!UICONTROL 表包设置中的] “Zip选项”设置为所需的值。 如果始终使用geo zip  ，则不能使用此变量。 See [General Account Settings](/help/admin/admin/general-acct-settings-admin.md) in the Admin user guide for more information.
+> [!IMPORTANT] 确保将报表包设置中的[!UICONTROL 邮政编码选项]设置为所需的值。如果始终使用[!UICONTROL 地区邮政编码]，则不能使用此变量。有关详细信息，请参阅管理员用户指南中的[一般帐户设置](/help/admin/admin/general-acct-settings-admin.md)。
 
-## Adobe Experience Platform Launch中的Zip
+## Adobe Experience Platform Launch 中的邮政编码
 
-您可以在配置Analytics扩展时（全局变量）或根据规则设置邮政编码。
+您可以在配置 Analytics 扩展时（全局变量）或根据规则设置邮政编码。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 2. 单击所需的属性。
-3. 转到“规 [!UICONTROL 则] ”选项卡，然后单击所需的规则（或创建规则）。
-4. 在“ [!UICONTROL 操作]”下，单击现有  Adobe Analytics —— 设置变量操作或单击“+”图标。
-5. 将“扩 [!UICONTROL 展] ”下拉列表设置为Adobe Analytics，将“操作类 [!UICONTROL 型] ”设置为“ [!UICONTROL 设置变量”]。
-6. 找到 [!UICONTROL Zip] 部分。
+3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
+4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
+5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
+6. 找到[!UICONTROL 邮政编码]部分。
 
-您可以将邮政编码设置为任何字符串值，包括数据元素。
+您可以将“邮政编码”设置为任何字符串值，包括数据元素。
 
-## AppMeasurement中的s.zip和启动自定义代码编辑器
+## AppMeasurement 和 Launch 自定义代码编辑器中的 s.zip
 
-变 `s.zip` 量是一个字符串，通常包含邮政编码，但可以包含长度不超过50字节的任何所需值。
+`s.zip` 变量是一个通常包含邮政编码的字符串，但可以包含长度不超过 50 字节的任何所需值。
 
 ```js
 s.zip = "84043";
