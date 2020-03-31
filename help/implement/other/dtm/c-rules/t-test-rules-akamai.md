@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;switcher plug-in;akamai;test akamai;unpubl
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 测试用于 Akamai 托管的尚未发布的规则
 uuid: 979e3d74-8d96-47d0-b581-cf5371248434
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
@@ -14,9 +14,9 @@ source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 如果使用 Akamai 托管，则从控制台测试未发布的规则。
 
-Switcher插件通常是最简单的测试方法。 See [Search Discovery plug-ins](https://marketing.adobe.com/resources/help/en_US/dtm/search_discovery_plugins.html) in the Dynamic Tag Management Product Documentation for more information.
+Switcher 插件通常是最简单的测试方法。有关更多信息，请参阅 Dynamic Tag Management 产品文档中的 [Search Discovery 插件](https://marketing.adobe.com/resources/help/zh_CN/dtm/search_discovery_plugins.html)。
 
-以下步骤演示了如何不使用切换程序插件进行测试：
+下列步骤说明了如何在不使用 Switcher 插件的情况下进行测试：
 
 1. 访问您网站中的 Web 控制台，并键入 `localStorage.setItem('sdsat_stagingLibrary', true)`.
 1. 按 **[!UICONTROL Enter]**。
