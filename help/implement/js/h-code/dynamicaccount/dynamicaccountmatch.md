@@ -1,7 +1,7 @@
 ---
 title: dynamicAccountMatch
-description: dynamicAccountMatch变量确定在动态帐户中要查看的值。
-translation-type: tm+mt
+description: dynamicAccountMatch 变量确定在动态帐户中要查看的值。
+translation-type: ht
 source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 ---
@@ -9,9 +9,9 @@ source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 # dynamicAccountMatch
 
-> [!IMPORTANT] 动态帐户仅支持使用传统JavaScript实现（H代码）。 当前AppMeasurement库或Adobe Experience Platform Launch不支持这些变量。
+> [!IMPORTANT] 仅当使用旧版 JavaScript 实施（H 代码）时，才支持动态帐户。当前的 AppMeasurement 库或 Adobe Experience Platform Launch 不支持这些变量。
 
-变 `dynamicAccountMatch` 量是查看和比较 `dynamicAccountList` 其值的值。 如果 `dynamicAccountSelection` 未设置为， `true`则忽略此变量。
+`dynamicAccountMatch` 变量值由 `dynamicAccountList` 进行检查和与其值进行比较。如果 `dynamicAccountSelection` 未设置为 `true`，则忽略此变量。
 
 如果未定义此变量，则其默认值为 `window.location.host`。
 
@@ -39,5 +39,5 @@ s.dynamicAccountMatch =  location.hostname + location.pathname + location.search
 
 ## 其他说明
 
-* 保存到硬盘的页面没有定义 `location` 多个变量(例如， `location.host` 为空)。 确保包 `s_account` 含默认的报表包。
-* 通过基于Web的翻译引擎（如Google）翻译页面时，动态帐户选择无法按设计方式工作。 For more precise tracking, populate the `s_account` variable server-side.
+* 保存到硬盘的页面不会定义任何 `location` 变量（例如，`location.host` 为空）。确保 `s_account` 包含默认的报表包。
+* 在页面通过基于 Web 的翻译引擎（如 Google）进行了翻译时，动态帐户选择无法按预期使用。如需更精确的跟踪，请通过服务器端填充 `s_account` 变量。
