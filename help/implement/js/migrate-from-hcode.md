@@ -1,7 +1,7 @@
 ---
 title: 迁移到 AppMeasurement for JavaScript
-description: 确定从H代码迁移实施所需的内容。
-translation-type: tm+mt
+description: 确定从 H 代码迁移实施所需的内容。
+translation-type: ht
 source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 
 ---
@@ -9,29 +9,29 @@ source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 
 # 迁移到 AppMeasurement for JavaScript
 
-如果您的实施仍使用H代码，Adobe强烈建议迁移到最新版AppMeasurement。 建议通过 [Adobe Experience Platform Launch实施Analytics](../launch/overview.md) ，但可以使用更新的JavaScript实施。
+如果您的实施仍使用 H 代码，Adobe 强烈建议迁移到最新版 AppMeasurement。建议通过 [Adobe Experience Platform Launch](../launch/overview.md) 实施 Analytics，但也可以使用更新的 JavaScript 实施。
 
-与H代码相比，AppMeasurement中存在以下显着更改：
+与 H 代码相比，AppMeasurement 中存在以下显著更改：
 
-* 比H代码快3-7倍。
-* 比H代码轻- 21kb未压缩代码，而H代码为33kb未压缩代码。
+* 比 H 代码快 3 至 7 倍。
+* 比 H 代码更轻 - 21kb（未压缩）相对于 H 代码的 33kb（未压缩）。
 * 库和页面代码可以部署在 `<head>` 标记中。
-* 现有的页面级H代码与AppMeasurement兼容。
+* 现有的页面级别 H 代码与 AppMeasurement 兼容。
 * 该库提供了一些本地实用工具，用来获取查询参数、读取和写入 Cookie，以及执行高级链接跟踪。
-* 库不支持动态帐户配置变量( `dynamicAccountSelection`包括、 `dynamicAccountMatch`和 `dynamicAccountList`)。
+* 该库不支持动态帐户配置变量（包括 `dynamicAccountSelection`、`dynamicAccountMatch` 和 `dynamicAccountList`）。
 * 但不支持调查模块。
 
 以下步骤概述了典型的迁移工作流程。
 
-1. **下载新的AppMeasurement文件**:登录到Adobe Analytics，然后导航到“管理员”>“代码管理器”，即可访问新文件。 下载的压缩文件包含一个缩 `AppMeasurement.js` 小的文件，以及媒体和集成模块。
-1. **将自定`s_code.js`义复制到`AppMeasurement.js`**:将所有代码移到`DO NOT ALTER ANYTHING BELOW THIS LINE`部分`s_code.js`之前的开头`AppMeasurement.js`。
-1. **更新所有插件**:确保您使用的是文件中列出的每个插件的最新版本 `s_code.js` 。 这包括媒体和集成模块。
-1. **部署AppMeasurement.js文件**:将文件 `AppMeasurement.js` 上传到Web服务器。
-1. **更新脚本引用以指向`AppMeasurement.js`**:确保所有页面都引`AppMeasurement.js`用而不是引`s_code.js`用。
+1. **下载新的 AppMeasurement 文件**：登录到 Adobe Analytics，然后导航到“管理员”>“代码管理器”以访问新文件。下载的压缩文件包含一个缩小的 `AppMeasurement.js` 文件，以及媒体和集成模块。
+1. **将`s_code.js`自定义项复制到`AppMeasurement.js`**：将`s_code.js`中`DO NOT ALTER ANYTHING BELOW THIS LINE`部分之前的所有代码移到`AppMeasurement.js`的开头。
+1. **更新所有插件**：确保您使用的是 `s_code.js` 文件中列出的每个插件的最新版本。这包括媒体和集成模块。
+1. **部署 AppMeasurement.js 文件**：将 `AppMeasurement.js` 文件上传到 Web 服务器。
+1. **更新脚本引用以指向`AppMeasurement.js`**：确保所有页面都引用`AppMeasurement.js`而不是`s_code.js`。
 
-## 示例Appmeasurement代码
+## 示例 Appmeasurement 代码
 
-典型文 `AppMeasurement.js` 件。 确保在函数上方设置配置变 `doPlugins` 量。
+典型的 `AppMeasurement.js` 文件。确保在 `doPlugins` 函数上方设置配置变量。
 
 ```js
 // Initialize AppMeasurement
@@ -74,7 +74,7 @@ s.trackingServer="example.sc.omtrdc.net";
 
 ## 示例页面代码
 
-每页加载的典型代码。
+在每个页面上加载的典型代码。
 
 ```html
 <script src="AppMeasurement.js"></script>
@@ -86,4 +86,4 @@ s.t();
 </script>
 ```
 
-请务必在每个页面上也加入 `AppMeasurement.js` 和 `VisitorAPI.js` 的引用。有关更 [多信息，请参阅](/help/implement/js/overview.md) JavaScript实施。
+请务必在每个页面上也加入 `AppMeasurement.js` 和 `VisitorAPI.js` 的引用。有关更多信息，请参阅 [JavaScript 实施](/help/implement/js/overview.md)。
