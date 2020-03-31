@@ -1,7 +1,7 @@
 ---
 title: 旧版 Adobe Experience Cloud 调试器
 description: 安装旧版 Adobe Experience Cloud 调试器。此调试器可检查 Analytics、Target、Advertising Cloud、Identity Service、DTM 和 Launch 的标签。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 # 旧版 Adobe Experience Cloud 调试器
 
-> [!IMPORTANT] Adobe 将不再维护此调试工具。Adobe 建议改用 [Adobe Experience Cloud 调试器 Chrome 扩展](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)。
+> [!IMPORTANT] Adobe 将不再维护此调试工具。Adobe 建议改用 [Adobe Experience Cloud 调试器 Chrome 扩展](https://docs.adobe.com/content/help/zh-Hans/debugger/using/experience-cloud-debugger.html)。
 
 [!UICONTROL 旧版调试器]可检查大多数 Adobe Experience Cloud 服务的标签。通过使用该调试器，您可以查看在网站上的任何给定页面向 Adobe 发送了哪些数据。您可以使用此信息对贵组织的实施进行故障诊断或验证。
 
@@ -31,7 +31,7 @@ javascript:void(window.open("","stats_debugger","width=800,height=800,location=0
 
 #### Chrome
 
-如果您坚持不使用 [Chrome 扩展](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)，则可以改用旧版调试器小书签。
+如果您坚持不使用 [Chrome 扩展](https://docs.adobe.com/content/help/zh-Hans/debugger/using/experience-cloud-debugger.html)，则可以改用旧版调试器小书签。
 
 1. 单击右上方的三个圆点，然后转到“书签”>“书签管理器”。此外，您还可以按 `Ctrl` + `Shift` + `O` (Windows) 或 `Cmd` + `Shift` + `O` (Mac)。
 2. 在书签管理器的右上方，单击三个圆点，然后单击“添加新书签”。
@@ -47,7 +47,7 @@ javascript:void(window.open("","stats_debugger","width=800,height=800,location=0
 
 #### Edge
 
-Edge无法手动创建书签，但可以将书签URL编辑到书签中。
+Edge 无法手动创建小书签，但可以将书签 URL 编辑为小书签。
 
 1. 单击“URL”字段右侧的星形图标，以将当前页面加入书签。
 2. 将书签命名为“Adobe Experience Cloud 调试器”，并将其保存到所需位置。
@@ -57,7 +57,7 @@ Edge无法手动创建书签，但可以将书签URL编辑到书签中。
 
 #### Safari
 
-Safari无法手动创建书签，但可以将书签URL编辑到书签中。
+Safari 无法手动创建小书签，但可以将书签 URL 编辑为小书签。
 
 1. 单击右上方的“共享”图标，以打开书签模式窗口。
 2. 将书签命名为“Adobe Experience Cloud 调试器”，并将其保存到所需位置。
@@ -66,7 +66,7 @@ Safari无法手动创建书签，但可以将书签URL编辑到书签中。
 
 ## 使用旧版调试器
 
-导航到站点上的所需页面，然后单击书签。 此时将出现一个弹出窗口，其中显示了发送到 Adobe 的数据。
+导航到网站上的所需页面，然后单击小书签。此时将出现一个弹出窗口，其中显示了发送到 Adobe 的数据。
 
 > [!NOTE] 某些广告拦截插件和弹出窗口阻止程序可能会妨碍调试器窗口的加载。请检查浏览器中遭到阻止的弹出窗口，并允许显示这些弹出窗口，以便调试器能够正常工作。
 
