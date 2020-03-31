@@ -1,7 +1,7 @@
 ---
 title: 动态变量
-description: 复制变量而不增加图像请求长度。
-translation-type: tm+mt
+description: 在不增加图像请求长度的情况下复制变量。
+translation-type: ht
 source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 ---
@@ -9,32 +9,32 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 # 动态变量
 
-动态变量允许您将值从一个变量复制到另一个变量，而不会增加图像请求长度。 在多个变量中捕获相同的数据时，这些功能非常有用。
+动态变量允许您在不增加图像请求长度的情况下将值从一个变量复制到另一个变量。在多个变量中获取相同的数据时，这些功能非常有用。
 
-在Analytics的早期版本中，图像请求长度对于防止截断数据很重要。 AppMeasurement的改进允许更长的图像请求查询字符串，因此通常不需要动态变量。
+在 Analytics 的早期版本中，图像请求长度对于防止数据被截断很重要。AppMeasurement 经过改进后，使用更长的图像请求查询字符串，因此通常不需要动态变量。
 
-动态变量支持图像请求中的查询字符串参数或HTTP头。 有关 [可参考的可用参数的完整列表](../../validate/query-parameters.md) ，请参阅数据收集查询参数。 请参 [阅维基百科上的标准请求字段](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Request_fields) ，以获得可参考的HTTP请求字段的完整列表。
+动态变量在图像请求中支持查询字符串参数或 HTTP 标头。有关可引用的可用参数的完整列表，请参阅[数据收集查询参数](../../validate/query-parameters.md)。有关可引用的可用 HTTP 请求字段的完整列表，请参阅维基百科上的[标准请求字段](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Request_fields)。
 
-当Adobe识别动态变量前缀时，它会自动复制报表包中的查询字符串或HTTP头值。 此操作在任何其他处理（包括处理规则和VISTA规则）之前发生。
+当 Adobe 识别动态变量前缀时，它会自动复制报表包中的查询字符串或 HTTP 标头值。此操作在任何其他处理（包括处理规则和 VISTA 规则）之前执行。
 
-> [!TIP] 在复制变量时注意最大字符限制。 例如，如果复制 `eVar1` 到 `prop1`, `prop1` 则可能有截断值，因为它有100字节限制(而 `eVar1` 有255字节限制)。
+> [!TIP] 在复制变量时需要注意最大字符限制。例如，如果将 `eVar1` 复制到 `prop1`，`prop1` 的值可能会被截断，因为它的长度限制为 100 字节（而 `eVar1` 的长度限制为 255 字节）。
 
-## Adobe Experience Platform Launch中的动态变量
+## Adobe Experience Platform Launch 中的动态变量
 
-您可以在接受字符串的任何维字段中使用动态变量。 维值通常在配置Analytics扩展（全局变量）时或在规则下设置。
+您可以在接受字符串的任何维度字段中使用动态变量。通常在配置 Analytics 扩展（全局变量）时或根据规则设置维度值。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 2. 单击所需的属性。
-3. 转到“规 [!UICONTROL 则] ”选项卡，然后单击所需的规则（或创建规则）。
-4. 在“ [!UICONTROL 操作]”下，单击现有  Adobe Analytics —— 设置变量操作或单击“+”图标。
-5. 将“扩 [!UICONTROL 展] ”下拉列表设置为Adobe Analytics，将“操作类 [!UICONTROL 型] ”设置为“ [!UICONTROL 设置变量”]。
-6. 找到所需的维值。
+3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
+4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
+5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
+6. 找到所需的维度值。
 
-将动态变量前缀放在文本字段中，后跟要引用的查询字符串参数或HTTP头。 默认情况下，动态变量前缀为 `D=`。
+将动态变量前缀置于文本字段中，然后放置要引用的查询字符串参数或 HTTP 标头。默认情况下，动态变量前缀为 `D=`。
 
-## AppMeasurement和Launch自定义代码编辑器中的动态变量
+## AppMeasurement 和 Launch 自定义代码编辑器中的动态变量
 
-动态变量是分配给其他变量的文本字符串。 默认的动态变量前缀为 `D=`。 动态变量区分大小写。
+动态变量是分配给其他变量的文本字符串。默认的动态变量前缀为 `D=`。动态变量区分大小写。
 
 ```js
 // Copy eVar1 into eVar2. The query string parameter of eVar1 is v1.
@@ -48,4 +48,4 @@ s.eVar1 = "D=User-Agent";
 s.eVar1 = "D=g";
 ```
 
-> [!NOTE] 在调试实施时，动态变量显示为字符串。 值由Adobe数据收集服务器在服务器端复制。
+> [!NOTE] 在调试实施时，动态变量会显示为字符串。值由 Adobe 数据收集服务器在服务器端复制。
