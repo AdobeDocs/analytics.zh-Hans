@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;plug-ins;staging;effect on current settings;rev
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 关于 Adobe Analytics 工具的常见问题解答
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
@@ -23,8 +23,8 @@ source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> 通过DTM实施Adobe Analytics时，我应将插件放在哪里？ </p> </td> 
-   <td colname="col2"> <p> If using DTM to manually host the <code> s_code</code>, plug-ins can be added in the same editor as the hosted <code> s_code</code>, just as it would be in a typical Adobe Analytics implementation. </p> <p>However, it is also an option to place the plug-ins in the editor within the <span class="term"> Customize Page Code</span> section of the tool settings. 两种实施方法应具有同等效力。 </p> </td> 
+   <td colname="col1"> <p> 通过 DTM 实施 Adobe Analytics 时，我应将插件放在何处？ </p> </td> 
+   <td colname="col2"> <p> 如果使用 DTM 手动托管 <code> s_code</code>，则可以将插件添加到与托管的 <code> s_code</code> 相同的编辑器中，就像在常规的 Adobe Analytics 实施中一样。 </p> <p>但是，也可以将插件放入工具设置的<span class="term">自定义页面代码</span>部分的编辑器中。两种实施方法应具有同等效力。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>如果我在新版工具中更改配置，我能否先在暂存环境中进行测试，然后再发布到生产环境？ </p> </td> 
