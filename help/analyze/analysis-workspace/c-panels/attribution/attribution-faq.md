@@ -2,7 +2,7 @@
 title: 归因常见问题解答
 description: 获取有关归因的常见问题解答。
 translation-type: tm+mt
-source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
+source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
 
 **使用归因时，“无”行项目是什么？**
 
-“无”行项目是一个全包项，它表示在回顾窗口内发生的不含任何接触点的所有转化。请尝试在报告窗口中包含更长的时间范围。
+“无”行项目是一个全包项目，它表示在回顾窗口中没有任何接触点的所有转换。 请尝试在报告窗口中包含更长的时间范围。
 
 **在使用归因模型时，为什么有时会看到超出报告窗口以外的日期？**
 
@@ -45,8 +45,8 @@ source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
 * 访问
 * 发生次数
 * 页面查看次数
-* A4T 量度
-* 逗留时间量度
+* A4T指标
+* 逗留时间指标
 * 跳出次数
 * 跳出率
 * 登录
@@ -58,7 +58,7 @@ source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
 
 **我可以在归因模型中使用自定义回顾窗口吗？**
 
-是，使用自定义回顾窗口选项，可以将回顾窗口配置为在报告窗口之前90天内的任何日期范围。 有关更多信息，请参阅[报表时间处理](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html)。
+是的，使用自定义回顾窗口选项，可以将回顾窗口配置为在报告窗口之前90天以内的任何日期范围。 有关更多信息，请参阅[报表时间处理](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html)。
 
 **归因是否可与分类一起使用？**
 
