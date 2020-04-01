@@ -3,7 +3,7 @@ title: Adobe Analytics 技术文档更新
 description: 对Adobe Analytics文档存储库的显着更新。
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 1b8de7489be8461707307dfe99d86f46557c7b8b
+source-git-commit: 8228b44a6877bee8668e0177cc84a3928ce6c820
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 1b8de7489be8461707307dfe99d86f46557c7b8b
 自 2019 年 1 月以来的 Adobe Analytics 文档集内容更新。
 
 * 有关新增功能、管理员声明和错误修复的完整列表，请参阅最新的 [Experience Cloud 发行说明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)。
-* 有关新增功能的详细信息，请参 [阅工具用户指南中的](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) Analysis Workspace的新增功能。
+* 有关新增功能的详细信息，请参 [阅工具用户指南中的分析工作区](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) “新增功能”。
 * 有关 Adobe Analytics for Audio and Video 的信息，请参阅[在 Analytics 中测量音频和视频](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)。
 
 ## 更新详细信息
@@ -26,7 +26,7 @@ source-git-commit: 1b8de7489be8461707307dfe99d86f46557c7b8b
 | 2020 年 2 月 7 日 | 设置跨设 [备分析和常见问题解答的更新](../components/cda/cda-setup.md) (英 [文)](../components/cda/cda-faq.md) |
 | 2020 年 2 月 4 日 | 完全重写实 [施用户指南](../implement/home.md)。 |
 | 2020 年 1 月 22 日 | 更新了“自由格式表”页面，其中包含与新增的[自由格式表生成器](/help/analyze/analysis-workspace/visualizations/freeform-table.md)相关的信息。 |
-| 2020 年 1 月 13 日 | 添加 [了Adobe Analytics和浏览器cookie](../technotes/cookies.md)。 |
+| 2020 年 1 月 13 日 | Added [Adobe Analytics and browser cookies](../technotes/cookies.md). |
 | 2019 年 11 月 29 日 | 全面修订了[数据馈送文档](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 2019 年 11 月 25 日 | 新增了[“强制 IP 登录限制”终止使用](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html)主题 |
 | 2019 年 11 月 25 日 | 新增了[内部（会话刷新）营销渠道](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html)主题 |
@@ -43,7 +43,7 @@ source-git-commit: 1b8de7489be8461707307dfe99d86f46557c7b8b
 | 2019 年 6 月 10 日 | 新增了有关[中国地区数据收集 (RDC)](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/rdc-china.html) 的文章 |
 | 2019 年 6 月 4 日 | 编写了题为[从第三方分析平台转换到 Adobe Analytics](/help/technotes/ga-to-aa/home.md) 的新指南。 |
 | 2019 年 5 月 30 日 | 全面修订了[数据馈送列参考](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)。 |
-| 2019 年 4 月 11 日 | 更新了[优化 Workspace 性能](/help/analyze/analysis-workspace/optimizing-performance.md)。 |
+| 2019 年 4 月 11 日 | 更新了[优化 Workspace 性能](/help/analyze/analysis-workspace/workspace-faqs/optimizing-performance.md)。 |
 | 2019 年 3 月 14 日 | 对[地区数据收集](/help/technotes/rdc/regional-data-collection.md)进行了重大更新。 |
 | 2019 年 2 月 7 日 | 对[常规帐户设置](/help/admin/admin/general-acct-settings-admin.md)中的“将 IP 地址的最后一个八位字节替换为 0”设置和“IP 模糊处理”设置进行了小幅更新。 |
 | 2019 年 2 月 1 日 | 对 [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 实施插件进行了重大更新。 |
