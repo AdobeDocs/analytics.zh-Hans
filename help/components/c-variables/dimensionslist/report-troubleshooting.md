@@ -5,7 +5,7 @@ title: 报表最佳实践和疑难解答
 topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: dca5bac72a2cf5f5ded5072e1867676392a7850e
+source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Analytics提供了灵活的报告界面，可让您生成各种复杂的�
 
 >[!Note]
 >这些建议适用于 Reports &amp; Analytics、Ad Hoc Analysis 和 Report Builder。
->但是，它们不适用于 Analysis Workspace，Analysis Workspace 有其自身的一套[最佳实践](/help/analyze/analysis-workspace/workspace-faqs/optimizing-performance.md)。同时，这些建议也不适用于 Data Warehouse [最佳实践](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)。另一组
+>但是，它们不适用于 Analysis Workspace，Analysis Workspace 有其自身的一套[最佳实践](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。同时，这些建议也不适用于 Data Warehouse [最佳实践](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)。另一组
 >[最佳实践](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices)可用于 Adobe Analytics 报表 API。
 
 ## 报表超时和请求队列 {#section_A42AD7E487C749B7B879BAFA814FFEF9}
