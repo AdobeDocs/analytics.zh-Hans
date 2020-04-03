@@ -3,7 +3,7 @@ title: Adobe Analytics 技术文档更新
 description: 对Adobe Analytics文档存储库的显着更新。
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 8228b44a6877bee8668e0177cc84a3928ce6c820
+source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: 8228b44a6877bee8668e0177cc84a3928ce6c820
 | 2019 年 6 月 10 日 | 新增了有关[中国地区数据收集 (RDC)](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/rdc-china.html) 的文章 |
 | 2019 年 6 月 4 日 | 编写了题为[从第三方分析平台转换到 Adobe Analytics](/help/technotes/ga-to-aa/home.md) 的新指南。 |
 | 2019 年 5 月 30 日 | 全面修订了[数据馈送列参考](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)。 |
-| 2019 年 4 月 11 日 | 更新了[优化 Workspace 性能](/help/analyze/analysis-workspace/workspace-faqs/optimizing-performance.md)。 |
+| 2019 年 4 月 11 日 | 更新了[优化 Workspace 性能](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。 |
 | 2019 年 3 月 14 日 | 对[地区数据收集](/help/technotes/rdc/regional-data-collection.md)进行了重大更新。 |
 | 2019 年 2 月 7 日 | 对[常规帐户设置](/help/admin/admin/general-acct-settings-admin.md)中的“将 IP 地址的最后一个八位字节替换为 0”设置和“IP 模糊处理”设置进行了小幅更新。 |
 | 2019 年 2 月 1 日 | 对 [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 实施插件进行了重大更新。 |
