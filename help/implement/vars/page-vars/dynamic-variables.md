@@ -1,8 +1,8 @@
 ---
 title: 动态变量
 description: 在不增加图像请求长度的情况下复制变量。
-translation-type: ht
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 当 Adobe 识别动态变量前缀时，它会自动复制报表包中的查询字符串或 HTTP 标头值。此操作在任何其他处理（包括处理规则和 VISTA 规则）之前执行。
 
-> [!TIP] 在复制变量时需要注意最大字符限制。例如，如果将 `eVar1` 复制到 `prop1`，`prop1` 的值可能会被截断，因为它的长度限制为 100 字节（而 `eVar1` 的长度限制为 255 字节）。
+>[!TIP] 在复制变量时需要注意最大字符限制。例如，如果将 `eVar1` 复制到 `prop1`，`prop1` 的值可能会被截断，因为它的长度限制为 100 字节（而 `eVar1` 的长度限制为 255 字节）。
 
 ## Adobe Experience Platform Launch 中的动态变量
 
@@ -25,9 +25,9 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 2. 单击所需的属性。
-3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
-4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
-5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. 在下 [!UICONTROL Actions]面，单击现有 [!UICONTROL Adobe Analytics - Set Variables] 操作或单击“+”图标。
+5. 将下拉 [!UICONTROL Extension] 列表设置为Adobe Analytics，将其设置为 [!UICONTROL Action Type] to [!UICONTROL Set Variables]。
 6. 找到所需的维度值。
 
 将动态变量前缀置于文本字段中，然后放置要引用的查询字符串参数或 HTTP 标头。默认情况下，动态变量前缀为 `D=`。
@@ -48,4 +48,4 @@ s.eVar1 = "D=User-Agent";
 s.eVar1 = "D=g";
 ```
 
-> [!NOTE] 在调试实施时，动态变量会显示为字符串。值由 Adobe 数据收集服务器在服务器端复制。
+>[!NOTE] 在调试实施时，动态变量会显示为字符串。值由 Adobe 数据收集服务器在服务器端复制。
