@@ -1,48 +1,48 @@
 ---
 title: inList
-description: 检查另一个以字符分隔的值中是否包含值。
+description: 检查某个值是否包含在另一个字符分隔的值中。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobe插件：inList
+# Adobe 插件：inList
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+>[!IMPORTANT] 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
-该插 `inList` 件允许您检查分隔字符串或JavaScript数组对象中是否已存在一个值。 其他几个插件的工 `inList` 作方式取决于插件。 与JavaScript方法相比，该插件具有一个明显的优 `indexOf()` 势，即它不匹配部分字符串。 例如，如果您使用此插件检查 `"event2"`，它与包含的字符串不匹配 `"event25"`。 如果您不需要检查分隔字符串或数组中的值，或者如果您要使用您自己的逻辑，则不需要此插 `indexOf()` 件。
+`inList` 插件允许您检查某个值是否已存在于一个分隔字符串或 JavaScript 数组对象中。有一些其他插件需要 `inList` 插件才能正常运行。与 JavaScript 方法 `indexOf()` 相比，此插件具有一个明显的优势，即它不会匹配部分字符串。例如，如果您使用此插件检查 `"event2"`，则此插件不会匹配包含 `"event25"` 的字符串。如果您不需要检查分隔字符串或数组中的值，或者如果您要使用自己的 `indexOf()` 逻辑，则无需使用此插件。
 
-## 使用Adobe Experience Platform Launch扩展安装插件
+## 使用 Adobe Experience Platform Launch 扩展安装此插件
 
-Adobe提供了一个扩展，允许您使用最常用的插件。
+Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
-1. 转到选 [!UICONTROL Extensions] 项卡，然后单击按 [!UICONTROL Catalog] 钮
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. 安装和发布扩 [!UICONTROL Common Analytics Plugins] 展
-1. 如果尚未创建，请使用以下配置创建标有“初始化插件”的规则：
+1. 如果还没有任何扩展，请使用以下配置创建一个标签为“初始化插件”的规则：
    * 条件：无
-   * 事件：核心——载入的库（页面顶部）
+   * 事件：核心 - 已加载的库（页面顶部）
 1. 使用以下配置向上述规则添加操作：
-   * 扩展：常见分析插件
-   * 操作类型：初始化inList
-1. 保存更改并发布到规则。
+   * 扩展：常用 Analytics 插件
+   * 操作类型：初始化 inList
+1. 保存并发布对上述规则所做的更改。
 
-## 使用Launch自定义代码编辑器安装插件
+## 使用 Launch 自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
-1. 转到选项卡， [!UICONTROL Extensions] 然后单击Adobe Analytics扩 [!UICONTROL Configure] 展下的按钮。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. 展开折 [!UICONTROL Configure tracking using custom code] 叠面板，以显示按 [!UICONTROL Open Editor] 钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
-1. 保存更改并将其发布到Analytics扩展。
+1. 保存并发布对此 Analytics 扩展所做的更改。
 
-## 使用AppMeasurement安装插件
+## 使用 AppMeasurement 安装此插件
 
-在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 [`s_gi`](../functions/s-gi.md)码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -51,20 +51,20 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## 使用插件
+## 使用此插件
 
-该方 `inList` 法使用以下参数：
+`inList` 方法使用以下参数：
 
-* **`lv`** （必需，字符串或数组）:要搜索的值或JavaScript数组对象的分隔列表
-* **`vtc`** （必需，字符串）:要搜索的值
-* **`d`** （可选，字符串）:用于分隔参数中各个值的分隔 `lv` 符。 未设置时，默`,`认为逗号()。
-* **`cc`** （可选，布尔）:如果设置为 `true`，则会进行区分大小写的检查。 如果设置为 `false` 或忽略，则进行不区分大小写的检查。 默认为 `false`。
+* **`lv`**（必需，字符串或数组）：要搜索的值分隔列表或 JavaScript 数组对象
+* **`vtc`**（必需，字符串）：要搜索的值
+* **`d`**（可选，字符串）：用于分隔 `lv` 参数中各个值的分隔符。如果未设置，则将默认使用逗号 (`,`)。
+* **`cc`**（可选，布尔）：如果设置为 `true`，则在检查时会区分大小写。如果设置为 `false` 或忽略，则会在检查不会区分大小写。默认为 `false`。
 
-如果找到匹 `true` 配项，并且找不到匹配项， `false` 则调用此方法将返回。
+调用此方法时，如果找到匹配项，则将返回 `true`；如果找不到匹配项，则将返回 `false`。
 
 ## 示例调用
 
-### 示例#1
+### 示例 1
 
 如果...
 
@@ -72,15 +72,15 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 s.events="event22,event24";
 ```
 
-...下面的代码运行……
+...并运行以下代码...
 
 ```js
 if(s.inList(s.events,"event22"))
 ```
 
-...条件if语句为true
+...if 条件语句将为 true
 
-### 示例#2
+### 示例 2
 
 如果...
 
@@ -88,15 +88,15 @@ if(s.inList(s.events,"event22"))
 s.events="event22,event24";
 ```
 
-...下面的代码运行……
+...并运行以下代码...
 
 ```js
 if(s.inList(s.events,"event2"))
 ```
 
-...条件if语句将为false，因为inList调用未在event2和s.events中的分隔值之一之间做出精确匹配
+...if 条件语句将为 false，因为 inList 调用在 event2 与 s.events 中的任何分配值之间未找到精确匹配项
 
-### 示例#3
+### 示例 3
 
 如果...
 
@@ -104,15 +104,15 @@ if(s.inList(s.events,"event2"))
 s.events="event22,event24";
 ```
 
-...下面的代码运行……
+...并运行以下代码...
 
 ```js
 if(!s.inList(s.events,"event23"))
 ```
 
-...条件if语句将为true，因为inList调用未在event23和s.events中的分隔值之一之间做出精确匹配（请注意inList变量调用开头的“NOT”运算符）。
+...if 条件语句将为 true，因为 inList 调用在 event23 与 s.events 中的任何分配值之间未找到精确匹配项（请注意 inList 变量调用开头的“NOT”运算符）。
 
-### 示例#4
+### 示例 4
 
 如果...
 
@@ -120,15 +120,15 @@ if(!s.inList(s.events,"event23"))
 s.events = "event22,event23";
 ```
 
-...下面的代码运行……
+...并运行以下代码...
 
 ```js
 if(s.inList(s.events,"EVenT23","",1))
 ```
 
-...条件if语句为false。  尽管此示例不实用，但它表明在使用区分大小写的标志时需要小心。
+...if 条件语句将为 false。尽管此示例不太符合实际，但它可以表明在使用区分大小写的标志时需要谨慎。
 
-### 示例#5
+### 示例 5
 
 如果...
 
@@ -136,29 +136,29 @@ if(s.inList(s.events,"EVenT23","",1))
 s.linkTrackVars = "events,eVar1";
 ```
 
-...下面的代码运行……
+...并运行以下代码...
 
 ```js
 if(s.inList(s.linkTrackVars,"eVar1","|"))
 ```
 
-...条件if语句为false。  传入调用的d参数的值(即&quot;|&quot;)假定s.linkTrackVars中的各个值以管道字符分隔，而实际上，这些值以逗号分隔。  在这种情况下，该插件将尝试在s.linkTrackVars(即“events,eVar1”)和要查找的值(即“eVar1”)。
+...if 条件语句将为 false。传递到调用的 d 参数的值（即 &quot;|&quot;）会假定 s.linkTrackVars 中的各个值以管道字符分隔，而实际上，这些值以逗号分隔。在这种情况下，此插件将尝试在 s.linkTrackVars 的完整值（即 &quot;events,eVar1&quot;）与要查找的值（即 &quot;eVar1&quot;）之间进行匹配。
 
-## 版本历史
+## 版本历史记录
 
-### v2.1（2019年9月26日）
+### v2.1（2019 年 9 月 26 日）
 
-* 为参数添加 `cc` 了不是布尔值的选项。 例如， `1` 是有效的案例检查值。
+* 添加了将 `cc` 参数设为非布尔值的选项。例如，`1` 是有效的示例检查值。
 
-### v2.0（2018年4月17日）
+### v2.0（2018 年 4 月 17 日）
 
-* 点发行版（重新编译后，代码尺寸更小）。
+* 修正版本（重新编译，代码更小）。
 
-### v1.01（2017年9月27日）
+### v1.01（2017 年 9 月 27 日）
 
-* 优化了代码以减小大小
+* 优化了代码，以减小代码大小
 
-### v1.0(2009)
+### v1.0（2009 年）
 
 * 第一版。
 
