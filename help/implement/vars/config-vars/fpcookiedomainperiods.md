@@ -1,35 +1,35 @@
 ---
 title: cookieDomainPeriods
-description: 帮助AppMeasurement了解如果您的域在其后缀中有句点，应存储cookie的域。
+description: 帮助 AppMeasurement 了解当您的域的后缀中有句点时，应使用哪个域来存储 Cookie。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # fpCookieDomainPeriods
 
-该变 `fpCookieDomainPeriods` 量通过调用域后缀中有额外的句点，帮助AppMeasurement确定Analytics cookies的设置位置。 此变量允许AppMeasurement适应域后缀中的额外句点，并在正确的位置设置cookie。 它继承了的 [`cookieDomainPeriods`](cookiedomainperiods.md)值，但如果您使用第一方Cookie实施，它仍然是设置的最佳实践。
+`fpCookieDomainPeriods` 变量会声明域后缀中含有额外的句点，从而可帮助 AppMeasurement 确定在何处设置 Analytics Cookie。此变量允许 AppMeasurement 处理域后缀中的额外句点，并在正确的位置设置 Cookie。它会继承 [`cookieDomainPeriods`](cookiedomainperiods.md) 的值，如果您使用第一方 Cookie 实施，最佳做法便是将此变量设置为该值。
 
-* 对于或 `example.com` 等 `www.example.com`域，无需设置此变量。 如果需要，可将此变量设置为 `"2"`。
-* 对于或等 `example.co.uk` 域， `www.example.co.jp`将此变量设置为 `"3"`。
+* 对于 `example.com` 或 `www.example.com` 等域，无需设置此变量。如果需要，可将此变量设置为 `"2"`。
+* 对于 `example.co.uk` 或 `www.example.co.jp` 等域，将此变量设置为 `"3"`。
 
-> [!IMPORTANT] 请勿将子域考虑在内。 例如，不要在示 `fpCookieDomainPeriods` 例URL上设置 `store.toys.example.com`。 AppMeasurement默认识别Cookie应存储在上，即使 `example.com`在具有许多子域的URL上也是如此。
+>[!IMPORTANT] 此变量不考虑子域。例如，不要在示例 URL `store.toys.example.com` 上设置 `fpCookieDomainPeriods`。默认情况下，AppMeasurement 允许将 Cookie 存储在 `example.com` 上，甚至存储在具有许多子域的 URL 上。
 
-## Adobe Experience Platform Launch中的第一方域句点
+## Adobe Experience Platform Launch 中的“第一方域名段”
 
-第一方域句点是配置Adobe Analytics扩展时 [!UICONTROL Cookies] accordion下的字段。
+First-party Domain Periods is a field under the [!UICONTROL Cookies] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 2. 单击所需的属性。
-3. 转到选项卡， [!UICONTROL Extensions] 然后单击“Adobe Analytics” [!UICONTROL Configure] 下的按钮。
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. 展开可 [!UICONTROL Cookies] 折叠面板，以显示 [!UICONTROL First-party Domain Periods] 字段。
 
-将此字段设 `3` 置为仅在后缀中包含句点的域上。 否则，此字段可留空。
+仅当域的后缀中包含句点时，才会将此字段设置为 `3`。否则，可将此字段留空。
 
-## s.fpCookieDomainPeriods in AppMeasurement and Launch自定义代码编辑器
+## AppMeasurement 和 Launch 自定义代码编辑器中的 s.fpCookieDomainPeriods
 
-变 `fpCookieDomainPeriods` 量是一个字符串，通常设置为 `"3"`，仅在后缀中包含句点的域上。 其默认值是， `"2"`它适合大多数域。
+`fpCookieDomainPeriods` 变量是一个字符串，一般而言，仅对于后缀中包含句点的域，才会将该变量设置为 `"3"`。其默认值是 `"2"`，该值适用于大多数域。
 
 ```js
 // Manually set fpCookieDomainPeriods for domains with a period in its suffix, such as www.example.co.uk
