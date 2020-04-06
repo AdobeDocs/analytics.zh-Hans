@@ -1,8 +1,8 @@
 ---
 title: Data Warehouse 中的组件支持
 description: 了解 Data Warehouse 中有哪些其他维度和量度可用，以及哪些维度和量度不受支持。
-translation-type: ht
-source-git-commit: 00d4d59cb4c922b54a97ef7000e294ef3bf61f20
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -31,15 +31,15 @@ Data Warehouse 的独特处理架构，可支持某些通常情况下在 Adobe A
 
 Data Warehouse 不支持某些维度和量度。
 
-> [!NOTE]如果 Data Warehouse 不支持某个维度或量度，则也不支持使用这些维度或量度的区段。在创建或编辑区段时，请务必检查产品兼容性。
+>[!NOTE]如果 Data Warehouse 不支持某个维度或量度，则也不支持使用这些维度或量度的区段。在创建或编辑区段时，请务必检查产品兼容性。
 
 ### 不支持的维度
 
 * 一些基于时间的维度，包括：
    * 上午/下午
-   * 日期
+   * 每月的某一日
    * 每周时间
-   * 每年的某一天
+   * 每年的某一日
    * 每天时间
    * 分钟
    * 月份
@@ -53,7 +53,7 @@ Data Warehouse 不支持某些维度和量度。
    * 回访频度
    * 发生事件之前逗留的时间
    * 页面逗留时间 - 分段统计
-   * 每次访问逗留时间 - 分段统计
+   * 每次访问逗留时间 - 存储段
    * 访问深度
 * 所有搜索页面排名
 * 层次结构变量
@@ -62,7 +62,7 @@ Data Warehouse 不支持某些维度和量度。
 * 付费搜索
 * 单页面访问量
 * 跟踪选择退出的原因
-* 美国各州
+* 美国州
 
 ### 不支持的量度
 
