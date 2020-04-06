@@ -1,8 +1,8 @@
 ---
 title: 集成模块
 description: 借助集成模块，Adobe 合作伙伴可以将其数据收集工作与您的组织集成在一起。
-translation-type: ht
-source-git-commit: e8f22d3e9efd57de0134a3c4ff55d0ad148f3df1
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: e8f22d3e9efd57de0134a3c4ff55d0ad148f3df1
 
 借助集成模块，Adobe 合作伙伴可以将其数据收集工作与您的组织集成在一起。这种集成为双向数据连接提供了机会。通常情况下，集成模块的使用是由 Adobe 合作伙伴来驱动的。
 
-> [!NOTE]在实施中请求合作伙伴数据可能会增加页面加载和发送到 Adobe 数据收集服务器的数据之间的延迟。如果访客在发送数据之前加载了新页面，则不会记录该页面。
+>[!NOTE]在实施中请求合作伙伴数据可能会增加页面加载和发送到 Adobe 数据收集服务器的数据之间的延迟。如果访客在发送数据之前加载了新页面，则不会记录该页面。
 
 ## 集成模块工作流程
 
@@ -30,7 +30,7 @@ source-git-commit: e8f22d3e9efd57de0134a3c4ff55d0ad148f3df1
 
 1. 使用您的 Adobe ID 凭据登录 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 1. 单击右上角的 9 个正方形图标，然后单击彩色的 Analytics 徽标。
-1. 在顶部导航中，单击[!UICONTROL 管理员] > [!UICONTROL 代码管理器]。
+1. 在顶部导航中，单击 [!UICONTROL Admin] > [!UICONTROL Code Manager].
 1. 下载最新的 JavaScript AppMeasurement 库。
 1. 下载后，解压缩文件并找到 `AppMeasurement_Module_Integrate.js`。
 
