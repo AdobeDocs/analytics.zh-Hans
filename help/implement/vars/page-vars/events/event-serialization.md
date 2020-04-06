@@ -1,46 +1,46 @@
 ---
 title: 事件序列化
-description: 帮助消除网站上的重复指标。
+description: 帮助删除网站上的重复量度。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# 事件ID序列化
+# 事件 ID 序列化
 
-事件序列化是实施措施以防止重复事件进入 Analytics 报告的过程。如果您不希望访客刷新页面而夸大指标，重复数据消除很重要。
+事件序列化是实施措施以防止重复事件进入 Analytics 报告的过程。如果您不希望量度由于访客刷新页面而虚增，删除重复事件很重要。
 
-> [!NOTE]数据源不支持事件序列化或删除重复事件。
+>[!NOTE]数据源不支持事件序列化或删除重复事件。
 
 ## 设置事件序列化
 
-必须首先在报告包设置中 [!UICONTROL Unique Event Recording] 将活 [!UICONTROL Use Event ID] 动设置为。 See [Success Events](/help/admin/admin/c-success-events/success-event.md) in the Admin user guide.
+必须首先在报表包设置中 [!UICONTROL Unique Event Recording] 将事件 [!UICONTROL Use Event ID] 设置为。 请参阅管理员用户指南中的[成功事件](/help/admin/admin/c-success-events/success-event.md)。
 
-使用事件ID时，重复数据消除会发生在以下级别：
+使用事件 ID 时，会在以下级别进行重复数据删除：
 
-* 每个变量都使用自己的表进行重复数据消除。 例如，和 `event1:ABC` 都 `event2:ABC` 计入报告中。
-* 重复数据消除功能可跨所有访客实现。 如果访客A发送， `event1:ABC` 则访客B也发送， `event1:ABC`则Adobe会忽略访客B的第二个实例。
-* 重复数据消除不会过期。 如果访客发送 `event1:ABC` 后在2年后返回并再次发送， `event1:ABC` 则Adobe将忽略第二个实例。
+* 每个变量都使用自己的表进行重复数据删除。例如，`event1:ABC` 和 `event2:ABC` 都被计入到报表中。
+* 可在所有访客中进行重复数据删除。如果访客 A 发送 `event1:ABC`，然后访客 B 也发送 `event1:ABC`，则 Adobe 会忽略访客 B 的第二个实例。
+* 重复数据删除不会过期。如果访客发送 `event1:ABC`，然后 2 年后返回并再次发送 `event1:ABC`，则 Adobe 将忽略第二个实例。
 
-> [!TIP] 如果要消除事件重复项， [`purchase`](event-purchase.md) 请改用 [`purchaseID`](../purchaseid.md) 变量。
+>[!TIP] 如果要删除重复的 [`purchase`](event-purchase.md) 事件，请改用 [`purchaseID`](../purchaseid.md) 变量。
 
-## 在Adobe Experience Platform Launch中使用活动ID
+## 在 Adobe Experience Platform Launch 中使用事件 ID
 
-您可以在配置Analytics扩展时（全局变量）设置事件ID字段，也可以设置为规则中的操作。
+您可以在配置 Analytics 扩展时（全局变量）设置事件 ID 字段，也可以根据规则执行此操作。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 2. 单击所需的属性。
-3. 转到选项卡， [!UICONTROL Rules] 然后单击所需的规则（或创建规则）。
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
 4. 在下 [!UICONTROL Actions]面，单击现有 [!UICONTROL Adobe Analytics - Set Variables] 操作或单击“+”图标。
 5. 将下拉 [!UICONTROL Extension] 列表设置为Adobe Analytics，将其设置为 [!UICONTROL Action Type] to [!UICONTROL Set Variables]。
-6. 找到该 [!UICONTROL Events] 部分，其中每个事件都包含一个 [!UICONTROL Event ID] 字段。
+6. 找到该 [!UICONTROL Events] 部分，其中每个事件都包含一 [!UICONTROL Event ID] 个字段。
 
-有效值是长度不超过20字节的字母数字字符。
+有效值是长度不超过 20 字节的字母数字字符。
 
-## 在AppMeasurement和Launch自定义代码编辑器中使用事件ID
+## 在 AppMeasurement 和 Launch 自定义代码编辑器中使用事件 ID
 
-事件序列化是变量的一 `s.events` 部分。 使用字符串中的冒号为每个事件分配一个ID。
+事件序列化是 `s.events` 变量的一部分。在字符串中使用冒号为每个事件分配一个 ID。
 
 ```js
 // Assign custom ID serialization to a single value
@@ -50,4 +50,4 @@ s.events = "event1:ABC123";
 s.events = "event1:ABC123,event2:ABC123";
 ```
 
-如果某个事件已启用序列化，但不包含序列化ID，则始终会计算该事件。
+如果某个事件已启用序列化，但不包含序列化 ID，则始终会计算该事件。
