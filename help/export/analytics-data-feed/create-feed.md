@@ -1,8 +1,8 @@
 ---
 title: 创建或编辑数据馈送
 description: 了解如何创建或编辑数据馈送。
-translation-type: ht
-source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -59,7 +59,7 @@ source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 * eu-west-1
 * sa-east-1
 
-> [!NOTE] 不支持 cn-north-1 区域。
+>[!NOTE] 不支持 cn-north-1 区域。
 
 ### Azure Blob
 
@@ -67,7 +67,7 @@ source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ![Azure 信息](assets/azure.png)
 
-> [!NOTE] 您必须实施自己的流程来管理馈送目标上的磁盘空间。Adobe 不会从服务器中删除任何数据。
+>[!NOTE] 您必须实施自己的流程来管理馈送目标上的磁盘空间。Adobe 不会从服务器中删除任何数据。
 
 ## 数据列定义
 
@@ -77,6 +77,6 @@ source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 * **压缩格式**：使用的压缩类型。Gzip 以 `.tar.gz` 格式输出文件。Zip 以 `.zip` 格式输出文件。
 * **包装类型**：如果选择单个文件，则可能会以单个大型文件的形式输出 `hit_data.tsv` 文件。如果选择多个文件，则会将您的数据分为多个 2 GB 的区块（未压缩）。如果选择了多个文件，而报告时间范围的未压缩数据小于 2 GB，则会发送一个文件。Adobe 建议对大多数的数据馈送使用多个文件。
 * **列模板**：创建多个数据馈送时，Adobe 建议创建列模板。选择列模板会自动包含模板中指定的列。默认情况下，Adobe 也提供了多个模板。
-* **可用列**：Adobe Analytics 中的所有可用数据列。单击“[!UICONTROL 全部添加]”可在数据馈送中包含所有列。
-* **包含的列**：要包含在数据馈送中的列。单击“[!UICONTROL 全部移除]”可从数据馈送中移除所有列。
+* **可用列**：Adobe Analytics 中的所有可用数据列。Click [!UICONTROL Add all] to include all columns in a data feed.
+* **包含的列**：要包含在数据馈送中的列。Click [!UICONTROL Remove all] to remove all columns from a data feed.
 * **下载 CSV**：下载含有所有包含的列的 CSV 文件。
