@@ -1,32 +1,32 @@
 ---
 title: getPercentPageViewed
-description: 检索访客查看的页面百分比。
+description: 检索访客查看的页面内容所占的百分比。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobe插件：getPercentPageViewed
+# Adobe 插件：getPercentPageViewed
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+>[!IMPORTANT] 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
-The `getPercentPageViewed` plug-in measures a visitor&#39;s scroll activity to see how much of a page they view before moving on to another page. 如果您的页面高度较小或不想测量滚动活动，则不必使用此插件。
+`getPercentPageViewed` 插件可衡量访客的页面滚动活动，以了解访客在进入其他页面前查看了某个页面的多少内容。如果您的页面高度较小或者您不想要测量页面滚动活动，则无需使用此插件。
 
-## 使用Launch自定义代码编辑器安装插件
+## 使用 Launch 自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
-1. 转到选项卡， [!UICONTROL Extensions] 然后单击Adobe Analytics扩 [!UICONTROL Configure] 展下的按钮。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. 展开折 [!UICONTROL Configure tracking using custom code] 叠面板，以显示按 [!UICONTROL Open Editor] 钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
-1. 保存更改并将其发布到Analytics扩展。
+1. 保存并发布对此 Analytics 扩展所做的更改。
 
-## 使用AppMeasurement安装插件
+## 使用 AppMeasurement 安装此插件
 
-在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 [`s_gi`](../functions/s-gi.md)码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -41,31 +41,31 @@ s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## 使用插件
+## 使用此插件
 
-该方 `getPercentPageViewed` 法使用以下参数：
+`getPercentPageViewed` 方法使用以下参数：
 
-* **`pid`** （可选，字符串）: 基于页面的标识符，您可以与插件度量提供的百分比相关联。  默认为变 `pageName` 量。
-* **`ch`** （可选，布尔）: 如果您不希 `false` 望插件在页面初始加载后考虑对页面大小所做的任何更改，请将其设置为(或 `0`)。 如果省略，则此参数默认为 `true`。 Adobe建议在大多数情况下忽略此参数。
+* **`pid`**（可选，字符串）：基于页面的标识符，可将其与此插件测量出的百分比值相关联。默认值为 `pageName` 变量。
+* **`ch`**（可选，布尔）：如果您不希望此插件考虑在页面初次加载后对页面大小所做的任何更改，请将该参数设置为 `false`（或 `0`）。如果忽略，则该参数将默认为 `true`。在大多数情况下，Adobe 建议忽略该参数。
 
-调用此方法不会返回任何内容；而是设置以下变量：
+调用此方法时，不会返回任何内容；但是，会设置以下变量：
 
-* `s._ppvPreviousPage`:查看的上一页的名称。 加载新页面后，才可使用当前页面的最终滚动度量。
-* `s._ppvHighestPercentViewed`：访客查看的上一页面内容所占的最高百分比（以高度衡量）。访客在上一页上向下滚动到的最远点。
-* `s._ppvInitialPercentViewed`:上一页首次加载时可见的上一页的百分比。
+* `s._ppvPreviousPage`：查看的上一个页面的名称。直到新页面加载完成后，才能获得当前页面的最终滚动测量结果。
+* `s._ppvHighestPercentViewed`：访客查看的上一页面内容所占的最高百分比（以高度衡量）。访客在上一页面上向下滚动到的最远点。
+* `s._ppvInitialPercentViewed`：上一页面首次加载时查看内容所占的百分比。
 * `s._ppvHighestPixelsSeen`：访客在上一页面上向下滚动时，所看到的总像素的最大值（以高度衡量）。
-* `s._ppvFoldsSeen`:访客向下滚动上一页时“页面折页数”达到最高。 此变量包括“页面顶部”折叠。
-* `s._ppvFoldsAvailable`:可在上一页上向下滚动的“页面折页”总数。
+* `s._ppvFoldsSeen`：访客在上一页面上向下滚动时，所达到的“页面折叠”的最大值。此变量包括“页面顶部”折叠。
+* `s._ppvFoldsAvailable`：在上一页面上向下滚动时，可达到的“页面折叠”总量。
 
-将一个或多个这些变量分配给eVar，以在报告中查看维数据。
+将上述一个或多个变量分配给 eVar，以便在报告中查看维度数据。
 
-此插件创建一个名为的第一方Cookie, `s_ppv` 其中包含上述值。 它将在浏览器会话结束时过期。
+此插件会创建一个名为 `s_ppv` 且包含上述值的第一方 Cookie。该 Cookie 将在浏览器会话结束时过期。
 
 ## 示例调用
 
-### 示例#1
+### 示例 1
 
-以下代码……
+以下代码...
 
 ```js
 if(s.pageName) s.getPercentPageViewed();
@@ -76,19 +76,19 @@ if(s._ppvPreviousPage)
 }
 ```
 
-* 确定是否设置了s.pageName，如果设置了s.pageName，则代码将运行getPercentPageViewed函数
-* 当getPercentPageViewed函数运行时，它将创建上面“返回”部分中描述的变量
-* 如果“Returns”变量已成功设置：
-   * 代码将s.prop1设置为与s._ppvPreviousPage的值（即s.pageName的上一个值或上一页）相等
-   * 该代码还将s.prop2设置为上一页的“查看次数最高百分比”和上一页的“查看次数初始百分比”，以及访客到达的折页数和可用的折页数
+* 确定是否设置了 s.pageName，如果已设置，则代码将运行 getPercentPageViewed 函数
+* 当 getPercentPageViewed 函数运行时，它将创建上面“Returns”部分中描述的变量
+* 如果成功设置了“Returns”变量：
+   * 该代码会将 s.prop1 设置为等于 s._ppvPreviousPage 的值（即先前的 s.pageName 值或上一页面）
+   * 该代码还会将 s.prop2 设置等于上一页面“查看内容所占的最高百分比”以及上一页面“查看内容所占的初始百分比”，以及访客达到的页面折叠量和可用的页面折叠量。
 
-**注意**: 如果在首次加载时整个页面可见，则“查看的最高百分比”和“查看的初始百分比”尺寸均等于100,“查看的折页”和“可用折页”均等于1。   当整个页面在首次加载时不可见，但访客从未在移到下一页之前向上向下滚动页面，则“查看的最高百分比”和“查看的初始百分比”维度将等于相同的值。
+**注意**：如果在首次加载时整个页面都可见，则“查看内容所占的最高百分比”和“查看内容所占的初始百分比”都等于 100，而“查看的页面折叠量”和“可用的页面折叠量”均等于 1。如果整个页面在首次加载时不可见，但是访客在继续浏览下一页之前从未向下滚动页面，则“查看内容所占的最高百分比”和“查看内容所占的初始百分比”维度的值将相同。
 
-### 示例#2
+### 示例 2
 
 假设已将 s.prop5 设置为捕获汇总的“页面类型”，而不是整个页面名称。
 
-以下代码确定s.prop5是否已设置，如果已设置，则将其值存储为“上一页”，以与“查看的最高百分比”和“查看的初始百分比”维相关联。  该值仍将存储在s._ppvPreviousPage变量中，但可以视为上一页类型而不是上一页名称。
+以下代码可确定是否已设置 s.prop5，如果已设置，则将其值存储为“上一页”，以与“查看内容所占的最高百分比”和“查看内容所占的初始百分比”维度相关联。尽管该值仍会存储在 s._ppvPreviousPage 变量中，但可以将其视为上一个页面类型而不是上一个页面名称。
 
 ```js
 if(s.prop5) s.getPercentPageViewed(s.prop5);
@@ -99,17 +99,17 @@ if(s._ppvPreviousPage)
 }
 ```
 
-## 版本历史
+## 版本历史记录
 
-### v4.0（2019年10月7日）
+### v4.0（2019 年 10 月 7 日）
 
-* 新增了 `s._ppvFoldsSeen` 解决方案 `s._ppvFoldsAvailable` 和
+* 新增了 `s._ppvFoldsSeen` 和 `s._ppvFoldsAvailable` 解决方案
 
-### v3.01（2018年8月13日）
+### v3.01（2018 年 8 月 13 日）
 
-* 修复了在页面上具有多个AppMeasurement对象的页面的问题
+* 修复了一个页面上具有多个 AppMeasurement 对象的问题
 
-### v3.0（2018年4月13日）
+### v3.0（2018 年 4 月 13 日）
 
-* 点发行版（重新编译，代码更小）
-* 插件现在可创建要分配给Adobe Analytics变量的变量，而不是返回值
+* 修正版本（重新编译，代码更小）
+* 此插件现在可创建要分配给 Adobe Analytics 变量而不是返回值的变量
