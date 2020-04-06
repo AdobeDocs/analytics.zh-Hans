@@ -1,25 +1,25 @@
 ---
-description: 报表包可以针对选定的网站、网站集合或网页的子集，定义完整、独立的报表。通常情况下，一个报表包是一个网站，但也可以是为了得到总量而综合了若干网站数据的一个全局区段。在登录到任何 Adobe Analytics 解决方案时，您需要选择一个要使用的报表包（除非您使用的是合并各报表包的统计报表包）。另外，报表包也可能比网站小（如果您要对网站的一部分运行报表）。Analytics 解决方案会收集并报告这些数据存储。使用管理员“报表包管理器”可定义一些规则来管理报表包中数据的处理方式。
+description: 报表包可以针对选定的网站、网站集合或网页的子集，定义完整、独立的报表。通常，报表包是一个网站，但它可以是一个全局区段，您在该区段中合并了多个站点的数量，以获得总数。 登录到任何Adobe Analytics解决方案时，您可以选择一个要使用的报表包（使用合并报表包的汇总时除外）。 此外，如果要为站点的一部分运行报告，报告包可能比网站小。 分析解决方案聚合和报告这些数据存储。 通过管理员报表包管理器，您可以定义管理报表包中数据处理方式的规则。
 title: 报表包管理器
 topic: Admin tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # 报表包管理器
 
-报表包可以针对选定的网站、网站集合或网页的子集，定义完整、独立的报表。通常情况下，一个报表包是一个网站，但也可以是为了得到总量而综合了若干网站数据的一个全局区段。在登录到任何 Adobe Analytics 解决方案时，您需要选择一个要使用的报表包（除非您使用的是合并各报表包的统计报表包）。另外，报表包也可能比网站小（如果您要对网站的一部分运行报表）。Analytics 解决方案会收集并报告这些数据存储。使用管理员“报表包管理器”可定义一些规则来管理报表包中数据的处理方式。
+报表包可以针对选定的网站、网站集合或网页的子集，定义完整、独立的报表。通常，报表包是一个网站，但它可以是一个全局区段，您在该区段中合并了多个站点的数量，以获得总数。 登录到任何Adobe Analytics解决方案时，您可以选择一个要使用的报表包（使用合并报表包的汇总时除外）。 此外，如果要为站点的一部分运行报告，报告包可能比网站小。 分析解决方案聚合和报告这些数据存储。 通过管理员报表包管理器，您可以定义管理报表包中数据处理方式的规则。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**
 
-> [!NOTE] 可通过 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 虚拟报表包]**&#x200B;管理虚拟报表包。请参阅[虚拟报表包文档](/help/components/vrs/vrs-about.md)。
+>[!NOTE] 虚拟报告套件通过 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** >管理 **[!UICONTROL Virtual Report Suites]**。 请参阅[虚拟报表包文档](/help/components/vrs/vrs-about.md)。
 
 ## 报表包管理器描述 {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
-下表描述了[!UICONTROL “报表包管理器”]页面上的元素。
+下表介绍了该页面上的 [!UICONTROL Report Suite Manager] 元素。
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
@@ -39,11 +39,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 搜索</span> </td> 
-   <td colname="col2"> 可在报表包列表中查找特定的报表包。搜索工具包括基本搜索（基于名称）和高级搜索页面（用于深入的搜索）。 </td> 
+   <td colname="col2"> 允许您在“报表包”列表中找到特定的报表包。 搜索工具包括基于名称的基本搜索和用于深入搜索的高级搜索页面。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">群组 </span> </td> 
-   <td colname="col2"> <p>可将报表包组织为自定义的群组。您可以快速访问使用相似设置或通常一起编辑的多个报表包。 </p> </td> 
+   <td colname="col2"> <p>允许您将报表包组织到自定义组中。 您可以快速访问多个共享类似设置或通常一起编辑的报表包。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 保存的搜索</span> </td> 
@@ -51,7 +51,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 汇总</span> </td> 
-   <td colname="col2"> <p>汇总是指一个报表包中合并了数个其他报表包的跟踪数据。 </p> <p>请参阅<a href="/help/admin/c-manage-report-suites/rollup-report-suite.md">汇总报表包</a>。 </p> </td> 
+   <td colname="col2"> <p>汇总是单个报表包，它合并了其他几个报表包的跟踪数据。 </p> <p>See <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md"> Rollup Report Suites</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 编辑设置</span> </td> 
