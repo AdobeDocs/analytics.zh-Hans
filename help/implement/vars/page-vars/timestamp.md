@@ -1,8 +1,8 @@
 ---
 title: timestamp
 description: 手动设置点击的时间戳。
-translation-type: ht
-source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
 
 `timestamp` 变量可手动为启用了时间戳的报表包设置点击的时间戳。
 
-> [!WARNING] 如果您的报表包未明确配置为接受带有时间戳的点击，请勿使用此变量。AppMeasurement 会为不支持带有时间戳的点击的报表包自动设置点击时间。如果使用此变量将点击发送到不支持时间戳的报表包，则该数据将永久丢失。
+>[!WARNING] 如果您的报表包未明确配置为接受带有时间戳的点击，请勿使用此变量。AppMeasurement 会为不支持带有时间戳的点击的报表包自动设置点击时间。如果使用此变量将点击发送到不支持时间戳的报表包，则该数据将永久丢失。
 
 ## Adobe Experience Platform Launch 中的时间戳
 
