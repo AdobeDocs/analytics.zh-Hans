@@ -1,48 +1,48 @@
 ---
 title: getPreviousValue
-description: 获取传递到变量的最后一个值。
+description: 获取传递到变量的上一个值。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobe插件：getPreviousValue
+# Adobe 插件：getPreviousValue
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+>[!IMPORTANT] 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
-该 `getPreviousValue` 插件允许您将变量设置为上一次点击时的值。 如果您的实施包含当前点击中的所有所需值，则不需要此插件。
+`getPreviousValue` 插件允许您将一个变量设置为在上一次点击时设置的值。如果您的实施包含当前点击的所有所需值，则无需使用此插件。
 
-## 使用Adobe Experience Platform Launch扩展安装插件
+## 使用 Adobe Experience Platform Launch 扩展安装此插件
 
-Adobe提供了一个扩展，允许您使用最常用的插件。
+Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
-1. 转到选 [!UICONTROL Extensions] 项卡，然后单击按 [!UICONTROL Catalog] 钮
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. 安装和发布扩 [!UICONTROL Common Analytics Plugins] 展
-1. 如果尚未创建，请使用以下配置创建标有“初始化插件”的规则：
+1. 如果还没有任何扩展，请使用以下配置创建一个标签为“初始化插件”的规则：
    * 条件：无
-   * 事件：核心——载入的库（页面顶部）
+   * 事件：核心 - 已加载的库（页面顶部）
 1. 使用以下配置向上述规则添加操作：
-   * 扩展：常见分析插件
-   * 操作类型：初始化getPreviousValue
-1. 保存更改并发布到规则。
+   * 扩展：常用 Analytics 插件
+   * 操作类型：初始化 getPreviousValue
+1. 保存并发布对上述规则所做的更改。
 
-## 使用Launch自定义代码编辑器安装插件
+## 使用 Launch 自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
-1. 转到选项卡， [!UICONTROL Extensions] 然后单击Adobe Analytics扩 [!UICONTROL Configure] 展下的按钮。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. 展开折 [!UICONTROL Configure tracking using custom code] 叠面板，以显示按 [!UICONTROL Open Editor] 钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
-1. 保存更改并将其发布到Analytics扩展。
+1. 保存并发布对此 Analytics 扩展所做的更改。
 
-## 使用AppMeasurement安装插件
+## 使用 AppMeasurement 安装此插件
 
-在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 [`s_gi`](../functions/s-gi.md)码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -51,57 +51,57 @@ s.getPreviousValue=function(v,c){var s=this,d;c=c||"s_gpv";var b=new Date;b.setT
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## 使用插件
+## 使用此插件
 
-该方 `getPreviousValue` 法使用以下参数：
+`getPreviousValue` 方法使用以下参数：
 
-* **`v`** （字符串，必需）:具有要传递给下一个图像请求的值的变量。 用于检索上一页 `s.pageName` 值的公用变量。
-* **`c`** （字符串，可选）:存储值的Cookie的名称。  如果未设置此参数，则默认为 `"s_gpv"`。
+* **`v`**（字符串，必需）：具有要传递给下一个图像请求的值的变量。用于检索上一页值的常用变量为 `s.pageName`。
+* **`c`**（字符串，可选）：用于存储值的 Cookie 的名称。如果未设置此参数，则将默认使用 `"s_gpv"`。
 
-当您调用此方法时，它将返回包含在cookie中的字符串值。 然后，该插件会重置Cookie过期时间，并从参数中为其分配变量 `v` 值。 Cookie在30分钟不活动后过期。
+调用此方法时，将返回 Cookie 中包含的字符串值。然后，此插件会重置 Cookie 过期时间，并为其分配 `v` 参数中的变量值。该 Cookie 将在处于非活动状态 30 分钟后过期。
 
 ## 示例调用
 
-### 示例#1
+### 示例 1
 
-以下代码……
+以下代码...
 
 ```js
 s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
 ```
 
-* 首先将s.prop7设置为与上一个图像请求中传递到s.pageName的值（即存储在“gpv_Page”cookie中的值）相等
-* 然后，代码将重置“gpv_Page”cookie，使其等于s.pageName的当前值
-* 如果运行此代码时未设置s.pageName，则代码将重置cookie的当前值的过期时间
+* 首先将 s.prop7 设置为等于在上一个图像请求中传递到 s.pageName 的值（即存储在“gpv_Page”Cookie 中的值）
+* 然后，代码将重置“gpv_Page”Cookie，使其等于 s.pageName 的当前值
+* 如果运行此代码时未设置 s.pageName，则代码将重置 Cookie 当前值的过期时间
 
-### 示例#2
+### 示例 2
 
-以下代码将s.prop7设置为与传递到s.pageName的最后一个值相等，但仅当在调用发生时，事件1也包含在s.events中时（通过inList插件确定）。
+以下代码会将 s.prop7 设置为等于传递到 s.pageName 的上一个值，但前提是在调用发生时，event1 也包含在 s.events 中（通过 inList 插件确定）。
 
 ```js
 if(s.inList(s.events,"event1")) s.prop7=s.getPreviousValue(s.pageName,"gpv_Page");
 ```
 
-### 示例#3
+### 示例 3
 
-以下代码将s.prop7设置为与传递到s.pageName的最后一个值相等，但前提是当前在页面上同时设置了s.pageName。
+以下代码会将 s.prop7 设置为等于传递到 s.pageName 的上一个值，但前提是当前还在页面上同时设置了 s.pageName。
 
 ```js
 if(s.pageName) s.prop7=s.getPreviousValue(s.pageName,"gpv_Page");
 ```
 
-### 示例#4
+### 示例 4
 
-以下代码将s.eVar10设置为与上一个图像请求中传递到s.eVar1的值相等。   以前的eVar1值应包含在“s_gpv”cookie中。  然后，代码将“s_gpv”cookie设置为与s.eVar1的当前值相等。
+以下代码会将 s.eVar10 设置等于在上一个图像请求中传递到 s.eVar1 的值。上一个 eVar1 值应包含在“s_gpv”Cookie 中。然后，代码会将“s_gpv”Cookie 设置为等于 s.eVar1 的当前值。
 
 ```js
 s.eVar10 = s.getPreviousValue(s.eVar1)
 ```
 
-## 不太可能的怪癖
+## 罕见情况
 
-如果与v参数关联的变量设置为新值并且getPreviousValue插件运行，但Analytics服务器调用未同时发送，则新v参数值在下次插件运行时仍被视为“上一个值”。
-例如，假定以下代码在访问的第一页运行：
+如果将与 v 参数关联的变量设为新值且运行 getPreviousValue 插件，但未同时发送 Analytics 服务器调用，则在下次运行插件时，仍会将 v 参数的新值视为“上一个值”。
+例如，假定以下代码在访问的第一个页面上运行：
 
 ```js
 s.pageName="home"
@@ -109,16 +109,16 @@ s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
 s.t();
 ```
 
-此代码将生成一个服务器调用，其中pageName参数等于“home”且未设置p7(prop7)参数。  但是，对s.getPreviousValue的调用将存储s.pageName(即“主页”)中指定的cookie（即“gpv_Page”cookie）。
-现在，假定随后在同一页面上运行以下代码（无论原因如何）:
+该代码将生成一个服务器调用，其中 pageName 参数等于“home”且未设置 p7 (prop7) 参数。但是，对 s.getPreviousValue 的调用会将 s.pageName 的值（即“home”）存储到在调用中指定的 Cookie（即“gpv_Page”Cookie）中。
+现在，假定将紧接着在同一页面上运行以下代码（无论出于原因如何）：
 
 ```js
 s.pageName="happy value"
 s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
 ```
 
-由于s.t()函数未在此代码块中运行，因此将不创建另一个图像请求。  但是，当s.getPreviousValue()函数代码此次运行时，s.prop7将设置为与s.pageName的先前值(即“home”)，然后将存储s.pageName的新值(即“gpv_Page”cookie中的“happy value”)。
-假设访客导航到其他页面，并且此页面上运行以下代码：
+由于此代码块中未运行 s.t() 函数，因此将不会再创建图像请求。但是，如果此时运行 s.getPreviousValue() 函数代码，则会将 s.prop7 设置为等于 s.pageName 的上一个值（即“home”），然后将 s.pageName 的新值（即“happy value”）存储到“gpv_Page”Cookie 中。
+假设访客导航到其他页面，并且以下代码在该页面上运行：
 
 ```js
 s.pageName="page 2"
@@ -126,10 +126,10 @@ s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
 s.t();
 ```
 
-运行s.t()调用函数时，它将创建一个图像请求，其中s.pageName=&quot;page 2&quot;和s.prop7等于&quot;happy value&quot;，这是上次调用getPreviousValue时s.pageName的值。   “home”的s.prop7值从未包含在任何实际图像请求中，即使“home”是传递到s.pageName的第一个值。
+运行 s.t() 调用函数时，将创建一个图像请求，其中 s.pageName=&quot;page 2&quot; 和 s.prop7 等于“happy value”，该值是上次调用 getPreviousValue 时 s.pageName 的值。虽然 s.prop7 的值“home”是传递到 s.pageName 的第一个值，但“home”从未包含在任何实际图像请求中。
 
-## 版本历史
+## 版本历史记录
 
-### v2.0（2019年10月7日）
+### v2.0（2019 年 10 月 7 日）
 
-* 点发行（完整逻辑重写）。
+* 修正版本（对逻辑进行了彻底重写）。
