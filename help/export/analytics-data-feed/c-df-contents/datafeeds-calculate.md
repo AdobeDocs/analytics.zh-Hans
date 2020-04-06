@@ -4,8 +4,8 @@ keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event
 title: 计算量度
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 介绍如何使用数据馈送计算常见量度。
 
-> [!IMPORTANT]从 Adobe Analytics 中排除的点击通常包含在数据馈送中。使用 `exclude_hit > 0` 可从原始数据查询中删除排除的点击。此外，数据馈送中还包含数据源数据。如果要排除数据源，请排除 `hit_source = 5,7,8,9` 的所有行。
+>[!IMPORTANT]从 Adobe Analytics 中排除的点击通常包含在数据馈送中。使用 `exclude_hit > 0` 可从原始数据查询中删除排除的点击。此外，数据馈送中还包含数据源数据。如果要排除数据源，请排除 `hit_source = 5,7,8,9` 的所有行。
 
 ## 页面查看
 
@@ -25,7 +25,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 1. 拼接 `post_visid_high`、`post_visid_low`、`visit_num` 和 `visit_start_time_gmt`。
 1. 计算唯一值的数量。
 
-> [!NOTE]Internet 违规、系统违规或使用自定义访客 ID 极少数情况下会将相同的 `visit_num` 值用于不同的访问。在计数访问次数时使用 `visit_start_time_gmt` 可确保计数这些访问。
+>[!NOTE]Internet 违规、系统违规或使用自定义访客 ID 极少数情况下会将相同的 `visit_num` 值用于不同的访问。在计数访问次数时使用 `visit_start_time_gmt` 可确保计数这些访问。
 
 ## 访客
 
