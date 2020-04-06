@@ -1,8 +1,8 @@
 ---
 title: 使用 Facebook Instant Articles 实施
 description: 在 Facebook Instant Articles 页面上实施 Adobe Analytics。
-translation-type: ht
-source-git-commit: 9d2007bead6a4963022f8ea884169802b1c002ff
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -24,7 +24,7 @@ Facebook Instant Articles 允许发布者在 Facebook 上快速构建交互式�
 
 ### 第 1 步：创建 `stats.html` 页面
 
-下面的 HTML 示例可用于从 Instant Articles 中捕获统计数据。此文件通常会托管在贵公司的某台 Web 服务器中。每次加载 Instant Articles 时，它都会将相应文件加载到 iFrame 中，进而触发向 Adobe 发送数据的操作。
+以下示例HTML可用于从即时文章捕获统计数据。 此文件通常托管在您的公司的Web服务器上。 每次加载 Instant Articles 时，它都会将相应文件加载到 iFrame 中，进而触发向 Adobe 发送数据的操作。
 
 ```html
 <html>
@@ -83,7 +83,7 @@ Adobe 建议将您的 `stats.html` 页面与最新版本的 `AppMeasurement.js`�
 <iframe class="no-margin" src="https://example.com/stats.html?eVar2=Dynamic%20article%20title&pageName=Example%20article%20name&cmpId=exampleID123" height="0"></iframe>
 ```
 
-> [!NOTE] 由于 iFrame 的性质，不会自动跟踪“反向链接”维度。如果要跟踪此维度，请确保将此维度包含到查询字符串中。
+>[!NOTE] 由于 iFrame 的性质，不会自动跟踪“反向链接”维度。如果要跟踪此维度，请确保将此维度包含到查询字符串中。
 
 ## Facebook Instant Articles 和隐私政策
 
