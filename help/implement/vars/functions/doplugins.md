@@ -1,34 +1,34 @@
 ---
 title: doPlugins
-description: 在编译点击并发送到Adobe之前配置逻辑。
+description: 在编译点击并将其发送到 Adobe 之前配置逻辑。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # doPlugins
 
-该 `doPlugins` 变量充当“最后调用”，用于在您的实现中设置值。 如果 [`usePlugins`](../config-vars/useplugins.md) 启用此功能，则它会在编译任何类型的图像请求并将其发送到Adobe之前自动运行，包括：
+`doPlugins` 变量会用作“最后一次调用”，以便在您的实施中设置值。If [`usePlugins`](../config-vars/useplugins.md) is enabled, it automatically runs just before any type of image request is compiled and sent to Adobe, including:
 
-* 所有页面查看([`t()`](t-method.md))调用
-* 所有链接跟踪([`tl()`](tl-method.md))调用，包括自动下载链接和退出链接
+* 所有页面查看 ([`t()`](t-method.md)) 调用
+* 所有链接跟踪 ([`tl()`](tl-method.md)) 调用，包括自动下载链接和退出链接
 
-使用该 `doPlugins` 变量调用插件代码并在编译图像请求并将其发送到Adobe之前设置最终变量值。
+在编译图像请求并将其发送到 Adobe 之前，使用 `doPlugins` 变量调用插件代码并设置最终变量值。
 
-## Adobe Experience Platform Launch中的插件
+## Adobe Experience Platform Launch 中的“插件”
 
-Launch中没有专用字段可使用此变量。 按照AppMeasurement语法使用自定义代码编辑器。
+Launch 中没有可使用此变量的专用字段。按照 AppMeasurement 语法使用自定义代码编辑器。
 
-## AppMeasurement中的s.doPlugins和启动自定义代码
+## AppMeasurement 和 Launch 自定义代码编辑器中的 s.doPlugins
 
-将变量设 `s.doPlugins` 置为包含所需代码的函数。 当您进行跟踪调用时，该函数会自动运行。
+将 `s.doPlugins` 变量设置为包含所需代码的函数。当您进行跟踪调用时，该函数会自动运行。
 
 ```js
 s.doPlugins = function() {/* Desired code */};
 ```
 
-> [!NOTE] 在您的实施中，将函 `doPlugins` 数设置为变量仅一次。 如果多次设 `doPlugins` 置变量，则只使用最新的代码。
+>[!NOTE] 在您的实施中仅一次将函数设置为 `doPlugins` 变量。如果多次设置 `doPlugins` 变量，则仅会使用最新的代码。
 
 ## 示例
 
@@ -44,4 +44,4 @@ s.doPlugins = function() {
 }
 ```
 
-> [!NOTE] AppMeasurement的先前版本的代码略有 `doPlugins()` 不同。 Adobe建议将上述格式作为最佳实践。
+>[!NOTE] AppMeasurement 的先前版本具有的 `doPlugins()` 代码略有不同。Adobe 建议将上述格式作为最佳实践。
