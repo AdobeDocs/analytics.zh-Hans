@@ -2,8 +2,8 @@
 description: 部署集成后，您可以开始使用此集成提供的其他功能。
 title: 使用集成
 uuid: 5e861274-4d81-4ee0-b84e-ab83bc1c1331
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 部署集成后，您可以开始使用此集成提供的其他功能。
 
-> [!NOTE] 在 Adobe Analytics 报表中，可能需要 24-48 小时才能开始看到一些 Demandbase 数据。
+>[!NOTE] 在 Adobe Analytics 报表中，可能需要 24-48 小时才能开始看到一些 Demandbase 数据。
 
 通过执行下面一些操作，可在 Adobe Analytics 中从此集成获益。
 
