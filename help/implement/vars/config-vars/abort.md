@@ -1,36 +1,36 @@
 ---
-title: 中止
-description: 中止变量是一个布尔值，它可阻止将点击发送到Adobe数据收集服务器。
+title: abort
+description: abort 变量是一个布尔值，用于阻止将点击发送到 Adobe 数据收集服务器。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# 中止
+# abort
 
-该 `abort` 变量是一个布尔值，它可阻止向Adobe发送下一个跟踪调用。
+`abort` 变量是一个布尔值，用于阻止将下一个跟踪调用发送到 Adobe。
 
-## 在Adobe Experience Platform Launch中使用中止变量
+## 在 Adobe Experience Platform Launch 中使用 abort 变量
 
-Launch中没有专用字段可使用此变量。 按照AppMeasurement语法使用自定义代码编辑器。
+Launch 中没有可使用此变量的专用字段。按照 AppMeasurement 语法使用自定义代码编辑器。
 
-## Launch中的AppMeasurement语法和自定义代码编辑器
+## Launch 中的 AppMeasurement 语法和自定义代码编辑器
 
-该 `abort` 变量是布尔值。 Its default value is `false`.
+`abort` 变量是一个布尔值。其默认值为 `false`。
 
-* 如果设置为， `true`则下一次跟踪调用([`t()`](../functions/t-method.md) 或 [`tl()`](../functions/tl-method.md))不会向Adobe发送任何数据。
+* 如果设置为 `true`，则下一次跟踪调用（[`t()`](../functions/t-method.md) 或 [`tl()`](../functions/tl-method.md)）不会向 Adobe 发送任何数据。
 * 如果设置为 `false` 或未定义，则此变量不执行任何操作。
 
 ```js
 s.abort = true;
 ```
 
-> [!NOTE] 该变 `abort` 量将重置为 `false` 每次跟踪调用之后。 如果需要中止同一页面上的后续跟踪调用，请再次 `abort` 设置为 `true` 此值。
+>[!NOTE] `abort` 变量在每次跟踪调用后将重置为 `false`。如果需要中止同一页面上的后续跟踪调用，请再次将 `abort` 设置为 `true`。
 
 ## 示例
 
-可 `abort` 以在函数中设置变量，该函 [`doPlugins()`](../functions/doplugins.md) 数是向Adobe发送图像请求之前要运行的最后一个函数。
+可以在 [`doPlugins()`](../functions/doplugins.md) 函数中设置 `abort` 变量，该函数是在向 Adobe 发送图像请求之前要运行的最后一个函数。
 
 ```js
 s.doPlugins = function(s) {
@@ -41,4 +41,4 @@ s.doPlugins = function(s) {
 };
 ```
 
-您可以集中使用的逻辑来标识您不想跟踪的活动，例如展示广告中的一些自定义链接或外部链接。
+您可以将用于确认您不希望跟踪的活动（如一些自定义链接或显示广告中的外部链接）的逻辑集中在一起。
