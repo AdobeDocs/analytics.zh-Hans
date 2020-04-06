@@ -5,7 +5,7 @@ title: 关于子分类
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,13 +14,13 @@ source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 Adobe Analytics支持单级和多级分类模型。 使用分类层次结构可以将分类应用到分类。
 
-> [!NOTE] 子分类是指创建分类的分类的功能。However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. 有关分类层次结构的详细信息，请参阅[分类层次结构](classification-hierarchies.md)。
+>[!NOTE] 子分类是指创建分类的分类的功能。However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. 有关分类层次结构的详细信息，请参阅[分类层次结构](classification-hierarchies.md)。
 
 例如：
 
 ![](assets/single-level-popup-C.png)
 
-此模型中的每个分类都是独立的，并且对应于所选报表变量的新子报表。 此外，每个分类在数据文件中构成一个数据列，其中以分类名称为列标题。 例如：
+该模型中的每个分类都是独立的，并且对应于所选报告变量的新子报表。 此外，每个分类在数据文件中构成一个数据列，其中以分类名称为列标题。 例如：
 
 | KEY | 属性1 | 属性2 |
 |---|---|---|
@@ -35,7 +35,7 @@ For more information about the data file, see [Classification Data Files](/help/
 
 **父项分类：**&#x200B;父项分类是指具有一个关联子项分类的任何分类。分类可以是父分类和子分类。 顶级父分类与单级分类相对应(请参 [阅单级分类](/help/components/c-classifications2/c-sub-classifications.md))。
 
-**子项分类：**&#x200B;子项分类是以其他分类而非变量做为其父项的分类。子分类提供有关其父分类的其他信息。 例如，某个分类可 [!UICONTROL Campaigns] 能具有“营销活动所有者”子分类。 [!UICONTROL Numeric] 分类在分类报告中也起到指标的作用。
+**子项分类：**&#x200B;子项分类是以其他分类而非变量做为其父项的分类。子分类提供有关其父分类的其他信息。 例如，分类可 [!UICONTROL Campaigns] 能具有活动所有者子分类。 [!UICONTROL Numeric] 分类在分类报告中也起到指标的作用。
 
 每个分类（父类或子类）都构成数据文件中的一个数据列。 使用以下命名格式的子分类的列标题：
 
@@ -52,7 +52,7 @@ For more information about the data file, see [Classification Data Files](/help/
 
 尽管多级分类的文件模板更复杂，但多级分类的强大之处在于可以将不同级别上传为单独的文件。 此方法可以通过将数据分组为随时间变化的分类级别，而不是不随时间变化的分类级别，来使需要定期（每日、每周等）上传的数据量最小化。
 
-> [!NOTE] 如果数 [!UICONTROL Key] 据文件中的列为空，Adobe会为每个数据行自动生成唯一的键。 要避免在上传包含二级或更高级分类数据的数据文件时可能发生文件损坏，请在列的每行中填入星号( [!UICONTROL Key] *)。
+>[!NOTE] 如果数 [!UICONTROL Key] 据文件中的列为空，Adobe会为每个数据行自动生成唯一的键。 要避免在上传包含二级或更高级分类数据的数据文件时可能发生文件损坏，请在列的每行中填入星号( [!UICONTROL Key] *)。
 
 如需疑难解答帮助，请参阅[常见分类上载问题](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-common-saint-upload-issues)。
 
