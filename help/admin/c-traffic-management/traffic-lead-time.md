@@ -1,39 +1,39 @@
 ---
-description: Adobe 要求预先通知新帐户设置、流量尖峰和流量增长。硬件必须预先进行分配，以最大程度减小延迟以及对整体系统可能造成的负面影响。
+description: Adobe要求提前通知新帐户设置、流量高峰和流量增加。 必须预先分配硬件以最大限度地减少延迟以及可能对整个系统造成的不利影响。
 title: 流量增长必需的前置时间
 topic: Admin tools
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # 流量增长必需的前置时间
 
-Adobe 要求预先通知新帐户设置、流量尖峰和流量增长。硬件必须预先进行分配，以最大程度减小延迟以及对整体系统可能造成的负面影响。
+Adobe要求提前通知新帐户设置、流量高峰和流量增加。 必须预先分配硬件以最大限度地减少延迟以及可能对整个系统造成的不利影响。
 
 硬件的分配是由通过 Reports &amp; Analytics 用户界面提交的警报所驱动的。
 
-> [!IMPORTANT] Adobe 无法处理“占位符”流量更改请求。除非另有指示，否则尽可能地遵循建议的前置时间，这包括不要过早地发送警报。请参阅[计划流量尖峰](/help/admin/c-traffic-management/t-traffic-schedule-spike.md)或[指定永久性流量增长](/help/admin/c-traffic-management/t-traffic-permanent.md)。
+>[!IMPORTANT] Adobe 无法处理“占位符”流量更改请求。除非另有指示，否则尽可能地遵循建议的前置时间，这包括不要过早地发送警报。请参阅[计划流量尖峰](/help/admin/c-traffic-management/t-traffic-schedule-spike.md)或[指定永久性流量增长](/help/admin/c-traffic-management/t-traffic-permanent.md)。
 
-使用以下准则来确定您必须提前多久提交流量警报：
+使用以下准则确定必须提前多久提交流量警报：
 
-## 硬件分配前置时间
+## 硬件分配提前期
 
 <table id="table_A67CC3B164F740088797BD8913244E47">
  <thead>
   <tr>
-   <th colname="col1" class="entry"> 每日流量估计（点击） </th>
+   <th colname="col1" class="entry"> 每日流量估计（点击量） </th>
    <th colname="col2" class="entry"> <p>所需的前置时间（一月至十月） </p> </th>
    <th colname="col3" class="entry"> <p>所需的前置时间（十一月至十二月） </p> </th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> 最高 1,000,000 </td>
-   <td colname="col2"> 无需前置时间 </td>
-   <td colname="col3"> 无需前置时间 </td>
+   <td colname="col1"> 最多1,000,000 </td>
+   <td colname="col2"> 无需提前期 </td>
+   <td colname="col3"> 无需提前期 </td>
   </tr>
   <tr>
    <td colname="col1"> 1,000,000 - 5,000,000 </td>
@@ -49,22 +49,22 @@ Adobe 要求预先通知新帐户设置、流量尖峰和流量增长。硬件�
    <td colname="col2"> 两个日历周 </td>
   </tr>
   <tr>
-   <td colname="col1"> <p>高于 25,000,000 </p> </td>
+   <td colname="col1"> <p>超过25,000,000 </p> </td>
    <td colname="col2"> 一个或多个月 </td>
   </tr>
  </tbody>
 </table>
 
-其他考虑事项：
+其他需要考虑的事项：
 
-* 如果您的多个报表包一开始具有或逐渐增加到上面所列数量，则可应用前置时间，以作为每个报表包的预计流量总和。
-* 获取以下信息以提交流量更改：
+* 如果您有多个报表包的启动次数或增加次数与上述数字相加，则提前期将作为每个报表包预期流量的总和。
+* 请提供以下信息以提交流量更改：
 
    * 报表包 ID
-   * 预计的每日点击量
-   * 起始日期
+   * 估计每日点击量
+   * 上市日期
 
-* 当流量减少或报表包被弃用时，也需要客户端警报。
+* 当流量减少或报表包已弃用时，也需要客户端警报。
 
 ## 由于未实现的流量导致的硬件取消分配
 
