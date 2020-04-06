@@ -2,8 +2,8 @@
 description: 在激活此集成之前，请针对您的 Adobe Analytics® 部署和电子邮件软件查看以下项目。
 title: 在激活此集成之前
 uuid: fdc762bc-24e3-4c0a-904d-d4be2a4f3a20
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -56,9 +56,9 @@ appFigures 的 Data Connectors 集成使用 Analytics 变量来跟踪不同的 a
 
 ### 必需变量 {#section-3ca8dc46bab0436cba0c9ef827c8356a}
 
-> [!NOTE] 此集成使用专用变量来获取应用商店数据，因此，您无需分配自定义商务变量和事件。
+>[!NOTE] 此集成使用专用变量来获取应用商店数据，因此，您无需分配自定义商务变量和事件。
 
-| 变量类型 | 名称 | 填充方法 | 描述 |
+| 变量类型 | 名称 | 种群方法 | 描述 |
 |---|---|---|---|
 | eVar | 应用商店对象 ID | 从 appFigures 导入。 | 使用“访问过期”、“最近分配”以及基本子关系来配置此 eVar。 |
 | 事件（数字） | 应用商店下载 | 从 appFigures 导入。 | 移动应用程序下载次数。 |
