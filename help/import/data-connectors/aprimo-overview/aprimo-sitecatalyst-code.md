@@ -2,8 +2,8 @@
 description: 如果您选择了 JavaScript 插件数据收集方法，请复制以下几行代码并将其添加到您的页面上的 Adobe Analytics 代码中。
 title: Adobe Analytics 插件代码
 uuid: 60d80366-d144-465a-b3de-acc2341be1cd
-translation-type: ht
-source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -26,5 +26,5 @@ source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable
 ```
 
-> [!NOTE] 上述插件假定某些自定义商务变量 (eVar) 可用。如果上述插件中指定的变量在 Adobe Analytics 部署中不可用，只需将它们替换为可用的变量即可。
+>[!NOTE] 上述插件假定某些自定义商务变量 (eVar) 可用。如果上述插件中指定的变量在 Adobe Analytics 部署中不可用，只需将它们替换为可用的变量即可。
 
