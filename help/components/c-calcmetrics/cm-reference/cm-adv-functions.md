@@ -2,33 +2,33 @@
 description: 可通过以下方法访问这些函数：选中函数下拉列表中的显示高级。
 title: 引用：高级函数
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
-translation-type: ht
-source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # 引用：高级函数
 
-可通过以下方法访问这些函数：选中&#x200B;**[!UICONTROL 函数]**&#x200B;下拉列表中的&#x200B;**[!UICONTROL 显示高级]**。
+Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UICONTROL Functions]** drop-down list.
 
 ## table 函数与 row 函数 {#section_8977BE40A47E4ED79EB543A9703A4905}
 
-在 table 函数中，输出对于表中的每一行都是相同的。在 row 函数中，输出对于表中的每一行都是不同的。
+表函数是表中每行的输出相同的函数。 行函数是表中每行的输出不同的函数。
 
-## Include-Zeros 参数的含义 {#section_C7A2B05929584C65B308FD372CB8E8E3}
+## Include-Zeros参数意味着什么？ {#section_C7A2B05929584C65B308FD372CB8E8E3}
 
-它可告知计算中是否包含零。零有时表示“无”，有时又十分重要。
+它告诉计算中是否包含零。 有时零表示“无”，但有时它很重要。
 
-例如，如果您有收入量度，然后又将页面查看次数量度添加到报表中，则您的收入会突然多出一些全部为零的行。您也许不希望这影响到收入列中已有的任何 MEAN、MIN、QUARTILE 等计算。在这种情况下，您需要检查 include-zeros 参数。
+例如，如果您有一个“收入”量度，然后向报表中添加一个“页面视图”量度，则您的收入会突然出现更多行，这些行均为零。 您可能不希望这影响任何MEAN、MIN、QUARTILE等。 您在收入列中的计算。 在这种情况下，您应检查include-zeros参数。
 
-另一方面，如果您有两个感兴趣的量度，则因为其中一个量度的某些行是零而说该量度具有更高的平均值或最小值，这是不合理的，因此，在这种情况下，您不需要检查参数是否包含零。
+另一方面，如果您有两个您感兴趣的指标，那么说一个的平均值或最小值可能不公平，因为它的一些行是零，所以您不会检查参数以包含零。
 
 ## 和 {#concept_E14513FE464F4491AD0D4130D4EE621C}
 
-返回其参数的值。使用 NOT 确保值不等于某一特定值。
+返回其参数的值。 使用“不”(NOT)确保值不等于一个特定值。
 
-> [!NOTE] 0（零）表示 False，而任何其他值均表示 True。
+>[!NOTE] 0（零）表示 False，而任何其他值均表示 True。
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -36,12 +36,12 @@ AND(logical_test1,[logical_test2],...)
 
 | 参数 | 描述 |
 |---|---|
-| *logical_test1* | 必需. 任何可被计算为 TRUE 或 FALSE 的值或表达式。 |
-| *logical_test2* | 可选。您希望计算为 TRUE 或 FALSE 的其他条件 |
+| *logical_test1* | 必需。任意值或者可以计算为 TRUE 或 FALSE 的表达式。 |
+| *logical_test2* | 可选。要求计算为TRUE或FALSE的附加条件 |
 
 ## 非重复近似计数（维度）{#concept_000776E4FA66461EBA79910B7558D5D7}
 
-返回适用于所选维度的维度项目的非重复近似计数。该函数使用非重复近似计数的 HyperLogLog (HLL) 方法。该函数已配置为保证该值在 95% 的实际值的 5% 以内。
+针对所选维度，返回其维度项目的非重复近似计数。该函数使用HyperLogLog(HLL)方法逼近不同计数。  它配置为保证该值在实际值的5%以内，即95%的时间。
 
 ```
 Approximate Count Distinct (dimension)
@@ -49,9 +49,9 @@ Approximate Count Distinct (dimension)
 
 | 参数 |  |
 |---|---|
-| *维度* | 您想要的非重复近似项目计数的维度 |
+| *维度* | 要求其大致不同项目计数的尺寸。 |
 
-## 用例示例 {#section_424E3FC5092948F0A9D655F6CCBA0312}
+## 示例用例 {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 Approximate Count Distinct (customer ID eVar) 是此函数的常见用例。
 
@@ -59,23 +59,23 @@ Approximate Count Distinct (customer ID eVar) 是此函数的常见用例。
 
 ![](assets/approx-count-distinct.png)
 
-以下表示在报告中使用“近似客户”度量的方式：
+以下表示在报告中使用“近似客户”量度的方式：
 
 ![](assets/approx-customers.png)
 
-## 超出的独特数 {#section_9C583858A9F94FF7BA054D1043194BAA}
+## 超出的唯一值 {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Count()、RowCount() 和 Approximate Count Distinct() 会受到[“超出的独特数”限制](https://marketing.adobe.com/resources/help/zh_CN/reference/metrics_uniques_high_numbers.html)的约束。如果维度在特定月份内达到“超出的独特数”限制，则该值将计数为 1 个维度项目。
+与Count()和RowCount()一样，Approximate Count Distinct()受“超出 [唯一值”限制](https://marketing.adobe.com/resources/help/zh_CN/reference/metrics_uniques_high_numbers.html)。 如果某个维的“超出的唯一值”限制在某个特定月份内达到，则该值计为1个维项。
 
 ## 比较计数函数 {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
-Approximate Count Distinct() 是对 Count() 和 RowCount() 函数所做出的改进，因为创建的量度可用于任何维度报表，以呈现单独维度项目的近似计数。例如，“移动设备类型”报表中使用的客户 ID 计数。
+Approximate Count Distinct() 是对 Count() 和 RowCount() 函数所做出的改进，因为创建的量度可用于任何维度报表，以呈现单独维度项目的近似计数。例如，在“移动设备类型”报告中使用的客户ID计数。
 
-由于 Approximate Count Distinct() 使用了 HLL 方法，而 Count() 和 RowCount() 属于精确计数，因而此函数的准确性要略小于 Count() 和 RowCount()。
+此函数的精确度会略低于Count()和RowCount()，因为它使用HLL方法，而Count()和RowCount()是精确计数。
 
 ## 反余弦 (Row) {#concept_1DA3404F3DDE4C6BAF3DBDD655D79C7B}
 
-返回某量度的反余弦。反余弦是一个其余弦为数字的角。返回的角为范围在 0（零）到 pi 之间的弧度。如果要将结果从弧度转换为角度，请将其乘以 180/PI( )。
+返回一个数的反余弦值。反余弦是余弦值等于该数字的角。返回的角以弧度表示，位于区间 0（零）到 π 之间。若要将结果从弧度转换为角度，则将结果乘以 180/π( )。
 
 ```
 ACOS(metric)
@@ -83,11 +83,11 @@ ACOS(metric)
 
 | 参数 |  |
 |---|---|
-| *metric* | 所需角的余弦，其范围介于 -1 到 1 之间。 |
+| *量度* | 您希望其介于 -1 到 1 之间的角余弦值。 |
 
 ## 反正弦 (Row) {#concept_90F00DEC46BA47F8A21493647D9668CD}
 
-返回某数字的反正弦。反正弦是一个其正弦为数字的角。返回的角为范围在 -pi/2 到 pi/2 之间的弧度。要以角度表示反正弦，请将结果乘以 180/PI( )。
+返回一个数的反正弦值。反正弦是正弦值等于该数字的角。返回的角以弧度表示，位于区间 -π/2 到 π/2。若要以角度表示反正弦值，则将结果乘以 180/π( )。
 
 ```
 ASIN(metric) 
@@ -95,11 +95,11 @@ ASIN(metric)
 
 | 参数 |  |
 |---|---|
-| *metric* | 所需角的余弦，其范围介于 -1 到 1 之间。 |
+| *量度* | 您希望其介于 -1 到 1 之间的角余弦值。 |
 
 ## 反正切 (Row) {#concept_3408520673774A10998E9BD8B909E90C}
 
-返回某数字的反正切。反正切是一个其正切为数字的角。返回的角为范围在 -pi/2 到 pi/2 之间的弧度。要以角度表示反正切，请将结果乘以 180/PI( )。
+返回一个数的反正切值。反正切是正切值等于该数字的角。返回的角以弧度表示，位于区间 -π/2 到 π/2。若要以角度表示反正切值，则将结果乘以 180/π( )。
 
 ```
 ATAN(metric)
@@ -107,7 +107,7 @@ ATAN(metric)
 
 | 参数 |  |
 |---|---|
-| *metric* | 所需角的余弦，其范围介于 -1 到 1 之间。 |
+| *量度* | 您希望其介于 -1 到 1 之间的角余弦值。 |
 
 ## 指数回归：预测的 Y (Row) {#concept_25615693312B4A7AB09A2921083502AD}
 
@@ -157,11 +157,11 @@ CEILING(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 要舍入的量度。 |
+| *量度* | 您希望将其四舍五入的量度。 |
 
 ## 余弦 (Row) {#concept_DD07AA1FB08145DC89B69D704545FD0A}
 
-返回给定角的余弦。如果角以角度表示，则将该角乘以 PI( )/180。
+返回给定角的余弦值。如果该角以度数表示，则将该角度乘以 π( )/180。
 
 ```
 COS(metric)
@@ -169,11 +169,11 @@ COS(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 您希望求余弦的弧度角。 |
+| *量度* | 您希望求得其余弦的角弧度。 |
 
 ## 立方根 {#concept_BD93EFA45DF7447A8F839E1CA5B5F795}
 
-返回某数字的正立方根。某数字的立方根是该数字三分之一次幂的值。
+返回一个数的正立方根。一个数字的立方根是该数字 1/3 次幂的值。
 
 ```
 CBRT(metric)
@@ -181,13 +181,13 @@ CBRT(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 您希望求立方根的量度。 |
+| *量度* | 您希望求得其立方根的量度。 |
 
 ## 累积 {#concept_3D3347797B6344CE88B394C3E39318ED}
 
-返回最后 N 行的 x 总和（按维度排序，将哈希值用于基于字符串的字段）。
+返回最后N行的x和（按维排序，使用基于字符串的字段的哈希值）。
 
-如果 N &lt;= 0，则使用所有之前的行。由于它是按维度排序的，因此它仅对于具有自然顺序的维度（例如日期或路径长度）有用。
+如果N &lt;= 0，则它使用所有以前的行。 由于它按维排序，因此它仅对具有自然顺序（如日期或路径长度）的维有用。
 
 ```
 | Date | Rev  | cumul(0,Rev) | cumul(2,Rev) | 
@@ -200,11 +200,11 @@ CBRT(metric)
 
 ## 累积平均数 {#concept_ABB650962DC64FD58A79C305282D3E61}
 
-返回最后 N 行的平均数。
+返回最后N行的平均值。
 
-如果 N &lt;= 0，则使用所有之前的行。由于它是按维度排序的，因此它仅对于具有自然顺序的维度（例如日期或路径长度）有用。
+如果N &lt;= 0，则它使用所有以前的行。 由于它按维排序，因此它仅对具有自然顺序（如日期或路径长度）的维有用。
 
-> [!NOTE] 使用收入/访客之类的比率量度时，它可能不会按预期工作：它会计算比率的平均值，而不是总计最后 N 行的收入并总计最后 N 行的访客数，然后将二者相除。它使用的是
+>[!NOTE] 使用收入/访客之类的比率量度时，它可能不会按预期工作：它会计算比率的平均值，而不是总计最后 N 行的收入并总计最后 N 行的访客数，然后将二者相除。它使用的是
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -224,8 +224,8 @@ CORREL.EXP(metric_X, metric_Y)
 
 | 参数 | 描述 |
 |---|---|
-| *metric_X* | 您希望与 *metric_Y* 关联的量度。 |
-| *metric_Y* | 您希望与 *metric_X* 关联的量度。 |
+| *metric_X* | A metric that you would like to correlate with *metric_Y*. |
+| *metric_Y* | A metric that you would like to correlate with *metric_X*. |
 
 ## 指数回归：截距 (Table) {#concept_0047206C827841AD936A3BE58EEE1514}
 
@@ -263,7 +263,7 @@ FLOOR(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 您希望舍入的量度。 |
+| *量度* | 要舍入的度量。 |
 
 ## 大于 {#concept_A83734A0C0C14646B76D2CC5E677C644}
 
@@ -275,7 +275,7 @@ FLOOR(metric)
 
 ## 双曲余弦 (Row) {#concept_79DD5681CE9640BDBA3C3F527343CA98}
 
-返回某数字的双曲余弦。
+返回一个数的双曲余弦值。
 
 ```
 COSH(metric)
@@ -283,11 +283,11 @@ COSH(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 您希望求双曲余弦的弧度角。 |
+| *量度* | 您希望求得其双曲余弦的角弧度。 |
 
 ## 双曲正弦 (Row) {#concept_96230731600C45E3A4E823FE155ABA85}
 
-返回某数字的双曲正弦。
+返回一个数的双曲正弦值。
 
 ```
 SINH(metric)
@@ -295,11 +295,11 @@ SINH(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 您希望求双曲正弦的弧度角。 |
+| *量度* | 您希望求得其双曲正弦的角弧度。 |
 
 ## 双曲正切 (Row) {#concept_BD249013732F462B9863629D142BCA6A}
 
-返回某数字的双曲正切。
+返回一个数的双曲正切值。
 
 ```
 TANH(metric)
@@ -307,11 +307,11 @@ TANH(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 您希望求双曲正切的弧度角。 |
+| *量度* | 要查找其双曲切线的角度（以弧度为单位）。 |
 
 ## IF (Row) {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
 
-IF 函数可在您指定的条件计算为 TRUE 时返回一个值，在该条件计算为 FALSE 时返回另一个值。
+如果您指定的条件的计算结果为TRUE，则IF函数返回一个值；如果该条件的计算结果为FALSE，则返回另一个值。
 
 ```
 IF(logical_test, [value_if_true], [value_if_false])
@@ -319,9 +319,9 @@ IF(logical_test, [value_if_true], [value_if_false])
 
 | 参数 | 描述 |
 |---|---|
-| *logical_test* | 必需. 任何可被计算为 TRUE 或 FALSE 的值或表达式。 |
-| *[value_if_true]* | 您希望在 *logical_test* 参数计算为 TRUE 时返回的值。（如果未包含此参数，则此参数默认为 0。） |
-| *[value_if_false]* | 您希望在 *logical_test* 参数计算为 FALSE 时返回的值。（如果未包含此参数，则此参数默认为 0。） |
+| *logical_test* | 必需。任意值或者可以计算为 TRUE 或 FALSE 的表达式。 |
+| *[value_if_true]* | The value that you want to be returned if the *logical_test* argument evaluates to TRUE. (This argument defaults to 0 if not included.) |
+| *[value_if_false]* | The value that you want to be returned if the *logical_test* argument evaluates to FALSE. (This argument defaults to 0 if not included.) |
 
 ## 小于 {#concept_A4A85C0FDF944AACAD4B8B55699D1B11}
 
@@ -349,7 +349,7 @@ Y = a X + b。返回 a。
 
 ## 以 10 为底的对数 (Row) {#concept_4C65DF9659164261BE52AA5A95FD6BC1}
 
-返回某数字以 10 为底数的对数。
+返回一个数以 10 为底的对数值。
 
 ```
 LOG10(metric)
@@ -357,7 +357,7 @@ LOG10(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 您希望求以 10 为底数的对数的正实数。 |
+| *量度* | 您希望求得其以 10 为底的对数的正实数。 |
 
 ## 对数回归：相关系数 (Table) {#concept_F3EB35016B754E74BE41766E46FDC246}
 
@@ -369,8 +369,8 @@ CORREL.LOG(metric_X,metric_Y)
 
 | 参数 | 描述 |
 |---|---|
-| *metric_X* | 您希望与 *metric_Y* 关联的量度。 |
-| *metric_Y* | 您希望与 *metric_X* 关联的量度。 |
+| *metric_X* | A metric that you would like to correlate with *metric_Y*. |
+| *metric_Y* | A metric that you would like to correlate with *metric_X*. |
 
 ## 对数回归：截距 (Table) {#concept_75A3282EDF54417897063DC26D4FA363}
 
@@ -415,7 +415,7 @@ SLOPE.LOG(metric_A, metric_B)
 
 ## 自然对数 {#concept_D3BE148A9B84412F8CA61734EB35FF9E}
 
-返回某数字的自然对数。自然对数以常数 *e* (2.71828182845904) 为底数。LN 是 EXP 函数的反函数。
+Returns the natural logarithm of a number. Natural logarithms are based on the constant *e* (2.71828182845904). LN is the inverse of the EXP function.
 
 ```
 LN(metric)
@@ -423,11 +423,11 @@ LN(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 您希望求自然对数的正实数。 |
+| *量度* | 您希望求得其自然对数的正实数。 |
 
 ## NOT {#concept_BD954C455A8148A3904A301EC4DC821E}
 
-如果数字为 0，则返回 1；如果为其他数字，则返回 0。
+如果数字为0，则返回1；如果另一个数字，则返回0。
 
 ```
 NOT(logical)
@@ -435,9 +435,9 @@ NOT(logical)
 
 | 参数 | 描述 |
 |---|---|
-| *logical* | 必需. 可被计算为 TRUE 或 FALSE 的值或表达式。 |
+| *逻辑* | 必需。一个值或者可以计算为 TRUE 或 FALSE 的表达式。 |
 
-使用 NOT 时，需要知道表达式（&lt;、>、=、&lt;> 等）返回值 0 还是 1。
+使用NOT需要知道表达式（&lt;、>、=、&lt;>等）返回0或1个值。
 
 ## 不等于 {#concept_EC010B7A9D2049099114A382D662FC16}
 
@@ -447,7 +447,7 @@ NOT(logical)
 
 如果有任何参数为 TRUE，则返回 TRUE；如果所有参数均为 FALSE，则返回 FALSE。
 
-> [!NOTE] 0（零）表示 False，而任何其他值均表示 True。
+>[!NOTE] 0（零）表示 False，而任何其他值均表示 True。
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -455,8 +455,8 @@ OR(logical_test1,[logical_test2],...)
 
 | 参数 | 描述 |
 |---|---|
-| *logical_test1* | 必需. 任何可被计算为 TRUE 或 FALSE 的值或表达式。 |
-| *logical_test2* | 可选。您希望计算为 TRUE 或 FALSE 的其他条件 |
+| *logical_test1* | 必需。任意值或者可以计算为 TRUE 或 FALSE 的表达式。 |
+| *logical_test2* | 可选。要求计算为TRUE或FALSE的附加条件 |
 
 ## Pi {#concept_41258789660D4A33B5FB86228F12ED9C}
 
@@ -478,8 +478,8 @@ CORREL.POWER(metric_X, metric_Y)
 
 | 参数 | 描述 |
 |---|---|
-| *metric_X* | 您希望与 *metric_Y* 关联的量度。 |
-| *metric_Y* | 您希望与 *metric_X* 关联的量度。 |
+| *metric_X* | A metric that you would like to correlate with *metric_Y*. |
+| *metric_Y* | A metric that you would like to correlate with *metric_X*. |
 
 ## 幂回归：截距 (Table) {#concept_7781C85597D64D578E19B212BDD1764F}
 
@@ -530,8 +530,8 @@ CORREL.QUADRATIC(metric_X, metric_Y)
 
 | 参数 | 描述 |
 |---|---|
-| *metric_X* | 您希望与 *metric_Y* 关联的量度。 |
-| *metric_Y* | 您希望与 *metric_X* 关联的量度。 |
+| *metric_X* | A metric that you would like to correlate with *metric_Y*. |
+| *metric_Y* | A metric that you would like to correlate with *metric_X*. |
 
 ## 二次回归：截距 (Table) {#concept_69DC0FD6D38C40E9876F1FD08EC0E4DE}
 
@@ -582,8 +582,8 @@ CORREL.RECIPROCAL(metric_X, metric_Y)
 
 | 参数 | 描述 |
 |---|---|
-| *metric_X* | 您希望与 *metric_Y* 关联的量度。 |
-| *metric_Y* | 您希望与 *metric_X* 关联的量度。 |
+| *metric_X* | A metric that you would like to correlate with *metric_Y*. |
+| *metric_Y* | A metric that you would like to correlate with *metric_X*. |
 
 ## 倒数回归：截距 (Table) {#concept_2DA45B5C69F140EC987649D2C88F19B3}
 
@@ -626,7 +626,7 @@ SLOPE.RECIPROCAL(metric_X, metric_Y)
 
 ## 正弦 (Row) {#concept_21C8C3AA835947A28B53A4E756A7451E}
 
-返回给定角的正弦。如果角以角度表示，则将该角乘以 PI( )/180。
+返回给定角的正弦值。如果该角以度数表示，则将该角度乘以 π( )/180。
 
 ```
 SIN(metric)
@@ -634,7 +634,7 @@ SIN(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 您希望求正弦的弧度角。 |
+| *量度* | 您希望求得其正弦的角弧度。 |
 
 ## T 分数 {#concept_80D2B4CED3D0426896B2412B4FC73BF7}
 
@@ -650,7 +650,7 @@ Z 分数的别名，即由平均值偏差除以标准偏差
 
 `X` 为 t 测试统计数据，通常是基于量度的公式（例如 zscore），每行都将对其进行评估。
 
-返回值是指在给定自由度和尾数的情况下，获得测试统计数据 x 的几率。
+返回值是在给定自由度和尾数的情况下查看测试统计量的概率x。
 
 **示例：**
 
@@ -668,7 +668,7 @@ Z 分数的别名，即由平均值偏差除以标准偏差
 
 ## 正切 {#concept_C25E00CB17054263AB0460D9EF94A700}
 
-返回给定角的正切。如果角以角度表示，则将该角乘以 PI( )/180。
+返回给定角的正切值。如果该角以度数表示，则将该角度乘以 π( )/180。
 
 ```
 TAN (metric)
@@ -676,19 +676,19 @@ TAN (metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 您希望求正切的弧度角。 |
+| *量度* | 您希望求得其正切的角弧度。 |
 
 ## Z 分数 (Row) {#concept_96BEAC79476C49B899DB7E193A5E7ADD}
 
-返回基于正态分布的 Z 分数，或正态分数。Z 分数是一个标准偏差数，观测分数来自平均值。Z 分数为 0（零）表示分数与平均值相同。Z 分数可以为正数或负数，用于指示该分数在平均值之上还是之下，以及依据多少个标准偏差。
+根据正常分布返回Z得分或正常得分。 Z得分是与平均值相比的标准偏差数。 Z得分为0（零）表示得分与平均值相同。 Z分数可以是正数还是负数，表示该分数是高于还是低于平均值以及标准偏差的多少。
 
-Z 分数的方程式为：
+Z得分的等式是：
 
 ![](assets/z_score.png)
 
 其中，[!DNL x] 为原始分数，[!DNL μ] 为群体平均值，[!DNL σ] 为群体标准偏差。
 
-> [!NOTE][!DNL μ]  (mu) 和 [!DNL σ] (sigma) 会使用该量度自动计算。
+>[!NOTE][!DNL μ]  (mu) 和 [!DNL σ] (sigma) 会使用该量度自动计算。
 
 Z 分数（量度）
 
@@ -701,17 +701,17 @@ Z 分数（量度）
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <i>metric</i> </td> 
-   <td colname="col2"> <p> 返回其首个非零参数的值。 </p> </td> 
+   <td colname="col1"> <i>量度</i> </td> 
+   <td colname="col2"> <p> 返回其第一个非零参数的值。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Z 测试 {#concept_2A4ADD6B3AEB4A2E8465F527FAFC4C23}
 
-通过 A 的 Z 分数，执行以 n 结尾的 Z 测试。
+使用A的Z得分执行n尾Z测试。
 
-返回当前行在列中偶然可见的几率。
+返回当前行在列中偶然可见的概率。
 
-> [!NOTE] 假定值为正态分布。
+>[!NOTE] 假定值为正态分布。
 
