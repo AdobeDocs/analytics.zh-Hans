@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics 中的转化报表
 description: 了解如何在 Adobe Analytics 中使用转化报表。
-translation-type: ht
-source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -45,7 +45,7 @@ Google Analytics 中的电子商务报表和 Adobe Analytics 中的产品报表�
 
 多渠道漏斗报表提供的营销渠道数据超出了客户获取报表提供的范围。这些报表侧重于访客如何转化，而不是访客如何到达您的网站。
 
-> [!NOTE]
+>[!NOTE]
 >
 > 要在 Adobe Analytics 中使用多渠道报表，需要设置“营销渠道”和自定义实施以适应产品变量和购买事件。如果尚未为报表包配置这些功能，Adobe 建议与实施顾问合作。
 
