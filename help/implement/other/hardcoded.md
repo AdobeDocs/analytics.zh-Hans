@@ -1,8 +1,8 @@
 ---
 title: 使用硬编码图像请求实施
 description: 使用 HTML 图像标记（硬编码图像请求）实施 Adobe Analytics。
-translation-type: ht
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ Adobe 提供的 AppMeasurement 库可编译页面上存在的变量，然后将�
 
 这种实施方法可在显示外部图像的任意平台上使用。此方法根本不依赖 JavaScript。
 
-> [!NOTE] 虽然硬编码图像请求很容易设置，但却很难在较大的项目中调试、维护和扩展。在继续操作之前，请确保硬编码图像请求是最符合您需求的选择。
+>[!NOTE] 虽然硬编码图像请求很容易设置，但却很难在较大的项目中调试、维护和扩展。在继续操作之前，请确保硬编码图像请求是最符合您需求的选择。
 
 ## 图像请求语法
 
