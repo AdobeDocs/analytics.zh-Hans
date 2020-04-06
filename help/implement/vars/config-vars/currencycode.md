@@ -2,39 +2,39 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # currencyCode
 
-对于使用商务的网站，收入和货币是Analytics的重要组成部分。 许多网站，尤其是跨多个国家／地区的网站，使用不同的货币。 使用变 `currencyCode` 量可确保收入属于正确的币种。
+对于商业网站，收入和货币是 Analytics 的重要组成部分。很多网站（尤其是跨多个国家/地区的网站）都会使用多种不同的货币。使用 `currencyCode` 变量可确保按正确的币种计算收入。
 
-如 `currencyCode` 果未定义，则定义变量和货币事件的 [`products`](../page-vars/products.md) 货币值将被视为与报表包的货币相同。 请参 [阅管理员用户指南中的](/help/admin/admin/general-acct-settings-admin.md) “常规帐户设置”，查看报表包的货币。
+如果未定义 `currencyCode` 但定义了货币值，则会将 [`products`](../page-vars/products.md) 变量和货币事件视为与报表包中使用的货币相同。要了解报表包中使用的货币，请参阅管理员用户指南中的[常规帐户设置](/help/admin/admin/general-acct-settings-admin.md)。
 
-如果 `currencyCode` 已定义并且与报表包的货币匹配，则不应用货币兑换。
+如果 `currencyCode` 已定义并且与报表包中使用的货币相一致，则无需进行货币换算。
 
-如果 `currencyCode` 已定义并且与报表包的货币不同，则Adobe会根据当天的汇率应用货币换算。 Adobe与 [XE合作](https://xe.com) ，每天兑换货币。 存储在数据收集服务器中的所有值最终都以报表包的货币存储。
+如果 `currencyCode` 已定义并且与报表包中使用的货币不同，则 Adobe 会根据当天的汇率进行货币换算。Adobe 与 [XE](https://xe.com) 合作，共同开展每日的货币换算工作。数据收集服务器中存储的所有值最终都将以报表包中使用的货币进行存储。
 
-> [!IMPORTANT] 如果 `currencyCode` 包含无效值，则整个点击会被丢弃，从而导致数据丢失。 如果在实施中使用此变量，请确保正确定义它。
+>[!IMPORTANT] 如果 `currencyCode` 包含无效值，则整个点击都会被丢弃，从而导致数据丢失。如果要在实施中使用此变量，请确保正确定义此变量。
 
-此变量不会在点击之间保留。 确保在涉及收入或货币事件的每个页面上定义此变量。
+此变量不会在点击之间保留。确保在涉及收入或货币事件的每个页面上定义此变量。
 
-## Adobe Experience Platform Launch中的货币代码
+## Adobe Experience Platform Launch 中的“货币代码”
 
-货币代码是配置Adobe Analytics扩展 [!UICONTROL General] 时accordion下的字段。
+Currency Code is a field under the [!UICONTROL General] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 2. 单击所需的属性。
-3. 转到选项卡， [!UICONTROL Extensions] 然后单击“Adobe Analytics” [!UICONTROL Configure] 下的按钮。
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. 展开可 [!UICONTROL General] 折叠面板，以显示 [!UICONTROL Currency Code] 字段。
 
-您可以使用预设货币代码或自定义货币代码。 如果使用自定义货币代码，请确保该代码有效。
+您可以使用预设货币代码或自定义货币代码。如果使用自定义货币代码，请确保该代码有效。
 
-## s.currencyAppMeasurement和Launch自定义代码编辑器中的代码
+## AppMeasurement 和 Launch 自定义代码编辑器中的 s.currencyCode
 
-变 `s.currencyCode` 量是一个字符串，包含表示页面上货币的3个字母的大写代码。
+`s.currencyCode` 变量是一个字符串，其中包含由 3 个大写字母构成的表示页面上所用货币的代码。
 
 ```js
 s.currencyCode = "USD";
@@ -48,7 +48,7 @@ s.currencyCode = "USD";
 | `AFA` | 阿富汗阿富汗尼 |
 | `ALL` | 阿尔巴尼亚列克 |
 | `AMD` | 亚美尼亚德拉姆 |
-| `ANG` | 荷属安列斯盾 |
+| `ANG` | 荷属安的列斯盾 |
 | `AOA` | 安哥拉宽扎 |
 | `ARS` | 阿根廷比索 |
 | `AUD` | 澳大利亚元 |
@@ -151,7 +151,7 @@ s.currencyCode = "USD";
 | `MZM` | 莫桑比克梅蒂卡尔 |
 | `NAD` | 纳米比亚元 |
 | `NGN` | 尼日利亚奈拉 |
-| `NIO` | 尼加拉瓜金科多巴 |
+| `NIO` | 尼加拉瓜科多巴 |
 | `NOK` | 挪威克郎 |
 | `NPR` | 尼泊尔卢比 |
 | `NZD` | 新西兰元 |
