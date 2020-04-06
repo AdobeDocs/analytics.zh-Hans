@@ -1,19 +1,19 @@
 ---
 title: H 代码 JavaScript 实施概述
 description: 了解在您的网站上实施 H 代码的工作流。
-translation-type: ht
-source-git-commit: 664d0cde8b8b17c86b47858611d459026aab0bef
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # H 代码 JavaScript 实施概述
 
-> [!IMPORTANT] 不再支持此版本的数据收集。升级到 [Adobe Experience Platform Launch](../../launch/overview.md) 或 [AppMeasurement for JavaScript](../overview.md)。
+>[!IMPORTANT] 不再支持此版本的数据收集。升级到 [Adobe Experience Platform Launch](../../launch/overview.md) 或 [AppMeasurement for JavaScript](../overview.md)。
 
 您必须能够访问托管服务器，才能成功为页面实施用于收集数据的代码。以下步骤详细说明了如何进行基本的 Analytics H 代码实施。
 
-> [!NOTE] 在按以下说明操作之前，您必须已拥有 `s_code.js` 的副本。Adobe 将不再提供用于在代码管理器中下载 H 代码的选项。
+>[!NOTE] 在按以下说明操作之前，您必须已拥有 `s_code.js` 的副本。Adobe 将不再提供用于在代码管理器中下载 H 代码的选项。
 
 1. **更新核心 JS 文件变量**：编辑 `s_code.js` 文件，并确保已更新以下变量：
    * `s_account` 包含要将数据发送到的报表包 ID。请参阅
@@ -26,7 +26,7 @@ source-git-commit: 664d0cde8b8b17c86b47858611d459026aab0bef
 
 ## 缓存
 
-JavaScript 文件首次加载后会缓存在访客的浏览器中，通常情况下，针对每个会话至多下载一次。即使网站上的每个页面都使用该文件，也不会为每个页面下载它。在大多数网站上，用户在每个会话内平均都会查看多个页面，因此将使用多次的 JavaScript 转移到此文件中可减少总体下载数据量。
+JavaScript文件在最初加载后缓存在访客的浏览器中，并且通常每个会话下载不多于一次。 即使站点上的每个页面都使用该文件，也不会在每个页面上下载该文件。 在大多数网站上，用户平均每个会话的页面视图数都超过几页，因此将多次使用的JavaScript传输到此文件中可能会减少总下载数据的数量。
 
 ## H 代码压缩
 
