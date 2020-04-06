@@ -1,36 +1,36 @@
 ---
 title: visitorNameSpace
-description: 已弃用的变量，用于确定cookie域。
+description: 已停用的变量，用于确定 Cookie 域。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # visitorNamespace
 
-> [!IMPORTANT] 此变量已停用。 请改 [`trackingServer`](trackingserver.md) 用。
+>[!IMPORTANT] 此变量已停用。请改用 [`trackingServer`](trackingserver.md)。
 
-在Adobe Analytics的早期版本中，AppMeasurement使 `visitorNameSpace` 用变量帮助确定存储访客Cookie `2o7.net` 的子域。 现代浏览器中增加的隐私权惯例使第三方Cookie变得不那么可靠。 随着和变量的 `trackingServer` 引入 [`trackingServerSecure`](trackingserversecure.md) , `visitorNameSpace` 不再需要。
+在 Adobe Analytics 的早期版本中，AppMeasurement 使用 `visitorNameSpace` 变量帮助确定访客 Cookie 存储在 `2o7.net` 的哪个子域中。现代浏览器中增加的隐私权惯例使第三方 Cookie 变得不那么可靠。随着 `trackingServer` 和 [`trackingServerSecure`](trackingserversecure.md) 变量的引入，不再需要使用 `visitorNameSpace`。
 
-> [!TIP] Adobe建议在您的网站上使用第一方Cookie。 第一方Cookie不使用此变量。
+>[!TIP] Adobe 建议在您的网站上使用第一方 Cookie。第一方 Cookie 不使用此变量。
 
-## Adobe Experience Platform Launch中的访客命名空间
+## Adobe Experience Platform Launch 中的“访客命名空间”
 
 [!UICONTROL Visitor Namespace] 是配置Adobe Analytics扩展 [!UICONTROL Cookies] 时accordion下的字段。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 2. 单击所需的属性。
-3. 转到选项卡， [!UICONTROL Extensions] 然后单击“Adobe Analytics” [!UICONTROL Configure] 下的按钮。
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. 展开可 [!UICONTROL Cookies] 折叠面板，以显示 [!UICONTROL Visitor Namespace] 字段。
 
-Adobe建议不要使用此字段。 请改 `trackingServer` 用 `trackingServerSecure` 和。
+Adobe 建议不要使用此字段。请改用 `trackingServer` 和 `trackingServerSecure`。
 
-## AppMeasurement和Launch自定义代码编辑器中的s.visitorNamespace
+## AppMeasurement 和 Launch 自定义代码编辑器中的 s.visitorNamespace
 
-变 `s.visitorNamespace` 量是一个字符串，其中包含每个组织的唯一值。 旧版AppMeasurement库在从旧版Adobe Analytics下载时会自动包含此唯一值。 当前AppMeasurement库不使用此变量，除非 `trackingServer` 且 `trackingServerSecure` 未设置。
+`s.visitorNamespace` 变量是一个字符串，其中包含每个组织的唯一值。在通过 Adobe Analytics 早期版本下载旧版 AppMeasurement 库时，该库会自动包含此唯一值。当前 AppMeasurement 库不使用此变量，除非未设置 `trackingServer` 和 `trackingServerSecure`。
 
-如果您的组织仍需要此变量，请选取一个表示您的组织的值。 您可以将此值存储在解决方案 [设计文档中](../../prepare/solution-design.md)。
+如果贵组织仍需要此变量，请选取一个值来代表贵组织。您可以将此值存储在[解决方案设计文档](../../prepare/solution-design.md)中。
 
 ```js
 // If trackingServer is not set, cookies are stored under example.112.2o7.net
