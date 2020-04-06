@@ -1,48 +1,48 @@
 ---
 title: getValOnce
-description: 防止将Analytics变量设置为一行中的相同值两次。
+description: 防止将一个 Analytics 变量连续两次设置为同一个值。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobe插件：getValOnce
+# Adobe 插件：getValOnce
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+>[!IMPORTANT] 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
-插 `getValOnce` 件可防止将变量设置为等于同一值多次。 当您希望删除访客刷新页面或以其他方式多次访问给定页面的重复出现时，Adobe建议使用此插件。 如果您不担心Analysis Workspace中的“发生次数”量度，则不必使用此插件。
+`getValOnce` 插件可防止将一个变量多次设置为等于同一个值。如果您希望在发生访客刷新页面或多次访问给定页面的情况下进行去重处理，Adobe 建议您使用此插件。如果您不担心 Analysis Workspace 中的“发生次数”量度，则无需使用此插件。
 
-## 使用Adobe Experience Platform Launch扩展安装插件
+## 使用 Adobe Experience Platform Launch 扩展安装此插件
 
-Adobe提供了一个扩展，允许您使用最常用的插件。
+Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
-1. 转到选 [!UICONTROL Extensions] 项卡，然后单击按 [!UICONTROL Catalog] 钮
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. 安装和发布扩 [!UICONTROL Common Analytics Plugins] 展
-1. 如果尚未创建，请使用以下配置创建标有“初始化插件”的规则：
+1. 如果还没有任何扩展，请使用以下配置创建一个标签为“初始化插件”的规则：
    * 条件：无
-   * 事件：核心——载入的库（页面顶部）
+   * 事件：核心 - 已加载的库（页面顶部）
 1. 使用以下配置向上述规则添加操作：
-   * 扩展：常见分析插件
-   * 操作类型：初始化getValOnce
-1. 保存更改并发布到规则。
+   * 扩展：常用 Analytics 插件
+   * 操作类型：初始化 getValOnce
+1. 保存并发布对上述规则所做的更改。
 
-## 使用Launch自定义代码编辑器安装插件
+## 使用 Launch 自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
-1. 转到选项卡， [!UICONTROL Extensions] 然后单击Adobe Analytics扩 [!UICONTROL Configure] 展下的按钮。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. 展开折 [!UICONTROL Configure tracking using custom code] 叠面板，以显示按 [!UICONTROL Open Editor] 钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
-1. 保存更改并将其发布到Analytics扩展。
+1. 保存并发布对此 Analytics 扩展所做的更改。
 
-## 使用AppMeasurement安装插件
+## 使用 AppMeasurement 安装此插件
 
-在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 [`s_gi`](../functions/s-gi.md)码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -51,46 +51,46 @@ s.getValOnce=function(vtc,cn,et,ep){if(vtc&&(cn=cn||"s_gvo",et=et||0,ep="m"===ep
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## 使用插件
+## 使用此插件
 
-该方 `getValOnce` 法使用以下参数：
+`getValOnce` 方法使用以下参数：
 
-* **`vtc`** （必需，字符串）:要检查并查看它之前是否设置为相同值的变量
-* **`cn`** （可选，字符串）:包含要检查的值的Cookie的名称。 默认值为 `"s_gvo"`
-* **`et`** （可选，整数）:cookie的到期时间(以天为单位，或以分钟为单位，具体取决于 `ep` 参数)。 默认为 `0`，浏览器会话结束时过期
-* **`ep`** （可选，字符串）:仅当参数也被设置时 `et` 才设置此参数。 如果希望该参 `"m"` 数在数分钟(而 `et` 不是数天)后过期，请将此参数设置为。 默认为 `"d"`，以天为单位 `et` 设置参数。
+* **`vtc`**（必需，字符串）：要检查并确定之前是否已设置为相同值的变量
+* **`cn`**（可选，字符串）：包含要检查的值的 Cookie 的名称。默认为 `"s_gvo"`
+* **`et`**（可选，整数）：Cookie 的过期时间（以天或分钟为单位，具体取决于 `ep` 参数）。默认值为 `0`，该值表示将在浏览器会话结束时过期
+* **`ep`**（可选，字符串）：仅当还同时设置了 `et` 参数时才会设置此参数。如果希望 `et` 的过期时间以分钟而不是以天为单位，请将此参数设置为 `"m"`。默认值为 `"d"`，该值会以天为单位设置 `et` 参数。
 
-如果参 `vtc` 数与cookie值匹配，则此方法返回空字符串。 如果参 `vtc` 数与cookie值不匹配，则该方法将参数作为 `vtc` 字符串返回。
+如果 `vtc` 参数与 Cookie 值相匹配，此方法将返回空字符串。如果 `vtc` 参数与 Cookie 值不匹配，此方法会将 `vtc` 参数作为字符串返回。
 
 ## 示例调用
 
-### 示例#1
+### 示例 1
 
-使用此调用可防止在接下来30天内连续多次将相同值传入s.campaign:
+使用此调用可防止在接下来的 30 天内连续多次将同一个值传递到 s.campaign：
 
 ```js
 s.campaign=s.getValOnce(s.campaign,"s_campaign",30);
 ```
 
-在上述调用中，插件将首先比较s_campaign cookie中已包含的值与当前s.campaign变量中的值。   如果未匹配，插件会将s_campaign Cookie设置为与s.campaign中的新值相等，然后返回新值。   这种比较将在接下来的30天内进行
+在上述调用中，插件会先比较 s_campaign Cookie 中已包含的值与来自当前 s.campaign 变量的值。如果这两个值不匹配，插件会将 s_campaign Cookie 设置为等于来自 s.campaign 的新值，然后返回该新值。这种比较将在接下来的 30 天内持续进行
 
-### 示例#2
+### 示例 2
 
-使用此调用可防止在整个会话中设置相同的值：
+使用此调用可防止在整个会话期间设置相同的值：
 
 ```js
 s.eVar2=s.getValOnce(s.eVar2,"s_ev2",0,"m");
 ```
 
-此代码可防止同一值在用户整个会话中连续多次传入s.eVar2。  由于到期时间设置为等于0，因此它还会忽略参数中的“m”值（在呼叫结束时）。   该代码还将比较值存储在s_ev2 cookie中。
+此代码可防止在整个用户会话期间连续多次将同一个值传递到 s.eVar2。由于已将过期时间设置为等于 0，因此还会忽略 ep 参数中的“m”值（在调用结束时）。此代码还会将比较值存储到 s_ev2 Cookie 中。
 
-## 版本历史
+## 版本历史记录
 
 ### 2.0
 
-* 点发行版（重新编译后，代码尺寸更小）。
+* 修正版本（重新编译，代码更小）。
 
 ### 1.1
 
-* 添加了通过参数选择到期时间的分钟数或天 `t` 数。
-* 更正了用于 `k` 仅限插件的变量的范围。 此更改可防止页面上其他代码的可能干扰。
+* 添加了通过 `t` 参数选择有效期（分钟或天数）的选项。
+* 更正了 `k` 变量的使用范围，以将该变量设为仅供此插件使用。此更改可防止页面上的其他代码可能造成的干扰。
