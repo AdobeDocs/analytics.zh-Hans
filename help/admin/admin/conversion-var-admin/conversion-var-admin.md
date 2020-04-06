@@ -5,7 +5,7 @@ title: 转化变量 (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 76613290f4496a400ba9c16171cef7e161a29cf3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -24,7 +24,7 @@ eVar最适用于衡量因果，例如：
 
 如果需要流量测量或路径分析，建议使用流量变量。
 
-> [!NOTE] 在图像请求中，一个 eVar 中只能存储一个值。如果一个 eVar 值中需要多个值，我们建议您实施[列表变量 (list vars)](https://marketing.adobe.com/resources/help/zh_CN/sc/implement/listN.html)。
+>[!NOTE] 在图像请求中，一个 eVar 中只能存储一个值。如果一个 eVar 值中需要多个值，我们建议您实施[列表变量 (list vars)](https://marketing.adobe.com/resources/help/zh_CN/sc/implement/listN.html)。
 
 ## 转化变量 - 描述 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -70,7 +70,7 @@ eVar最适用于衡量因果，例如：
        <li id="li_25846328766D4B4BAF407236C65C956C">周到期：eVar将于下周一上午7:15过期。 </li> 
        <li id="li_82DB2D7F53304623A5E1241D75C7DF94">月到期：eVar的有效期为31天，从星期一上午7:15开始。 </li> 
       </ul> </li> 
-     <li id="li_C132C5C5A5344B91BDF5EB6A1C717C37"><b>特定的转化事件。</b> 在指定的特定事件之后触发的任何其他转换事件与eVar相关联。 </li> 
+     <li id="li_C132C5C5A5344B91BDF5EB6A1C717C37"><b>特定的转化事件。</b> 在指定的特定事件后触发的任何其他转换事件与eVar相关联。 </li> 
      <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>从不.</b> 只要访客 <span class="varname"> ID</span> cookies完好无损，eVar和事件之间就可以通过任何时间。 </li> 
     </ul> </td> 
   </tr> 
