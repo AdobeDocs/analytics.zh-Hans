@@ -1,35 +1,35 @@
 ---
 title: registerPostTrackCallback
-description: 在向Adobe发送点击后创建回调函数。
+description: 在向 Adobe 发送点击后创建回调函数。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # registerPostTrackCallback
 
-该 `registerPostTrackCallback` 变量允许您的组织在成功将点击发送到Adobe后立即挂接JavaScript函数。 如果跟踪调用失败，则此函数不运行。 您可以使用此变量将AppMeasurement收集的数据发送到合作伙伴或内部基础结构，或清除单页应用程序中的变量值。
+`registerPostTrackCallback` 变量允许贵组织在成功将点击发送到 Adobe 后立即挂接 JavaScript 函数。如果跟踪调用失败，则此函数不会运行。您可以使用此变量将 AppMeasurement 收集的数据发送到合作伙伴或内部基础结构，或者清除单页应用程序中的变量值。
 
-> [!IMPORTANT] 请勿调用任何跟踪调用，如变 [`t()`](t-method.md) 量 [`tl()`](tl-method.md) 或变量 `registerPostTrackCallback` 内。 此变量中的跟踪函数会导致图像请求无限循环！
+>[!IMPORTANT] 请勿调用任何跟踪调用，如变 [`t()`](t-method.md) 量 [`tl()`](tl-method.md) 或变量 `registerPostTrackCallback` 内。 此变量中的跟踪函数可能会导致图像请求无限循环！
 
-每次调用变量 `registerPostTrackCallback` 时，您都会挂接该函数以在成功发送图像请求后立即运行。 避免在同一页面加载中多次注册同一功能。
+每次调用 `registerPostTrackCallback` 变量时，您都会挂接该函数以使其在成功发送图像请求后立即运行。避免在同一页面加载过程中多次注册同一函数。
 
-> [!NOTE] 在和之间触发的函数的时 [`registerPreTrackCallback`](registerpretrackcallback.md) 间和 `registerPostTrackCallback` 顺序不保证。 避免这两个函数之间的依赖关系。
+>[!NOTE] [`registerPreTrackCallback`](registerpretrackcallback.md) 和 `registerPostTrackCallback` 之间触发函数的时间和顺序无法得到保证。避免这两个函数之间存在依赖关系。
 
-## 在Adobe Experience Platform Launch中注册帖子跟踪回调
+## 在 Adobe Experience Platform Launch 中注册后跟踪回调
 
-Launch中没有专用字段可使用此变量。 按照AppMeasurement语法使用自定义代码编辑器。
+Launch 中没有可使用此变量的专用字段。按照 AppMeasurement 语法使用自定义代码编辑器。
 
-## AppMeasurement中的s.registerPostTrackCallback和启动自定义代码编辑器
+## AppMeasurement 和 Launch 自定义代码编辑器中的 s.registerPostTrackCallback
 
-它 `s.registerPostTrackCallback` 是将函数作为其唯一参数的函数。 嵌套函数在发送图像请求之前即运行。
+`s.registerPostTrackCallback` 是一个函数，只接受函数作为参数。嵌套函数在发送图像请求之前运行。
 
 ```js
 s.registerPostTrackCallback(function(){/* Desired code */});
 ```
 
-如果要在代码中使用图像请求URL，请引用嵌套函 `requestUrl` 数中的字符串参数。 您可以解析变 `requestUrl` 量以供您使用；调整此变量不会影响数据收集。
+如果要在代码中使用图像请求 URL，请引用嵌套函数中的 `requestUrl` 字符串参数。您可以解析 `requestUrl` 变量以满足您的所需用途；调整此变量不会影响数据收集。
 
 ```js
 s.registerPostTrackCallback(function(requestUrl){
@@ -37,7 +37,7 @@ s.registerPostTrackCallback(function(requestUrl){
 });
 ```
 
-函数中可以包含其他参 `s.registerPostTrackCallback` 数，该参数可用于嵌套函数：
+`s.registerPostTrackCallback` 函数中可以包含其他参数，该参数可用于嵌套函数：
 
 ```js
 s.registerPostTrackCallback(function(requestUrl,a,b,c) {
@@ -50,7 +50,7 @@ s.registerPostTrackCallback(function(requestUrl,a,b,c) {
 
 ## 用例示例
 
-在后跟 [`clearVars()`](clearvars.md) 踪回调中注册该函数对单页应用程序很有帮助。 每次您成功将点击发送到Adobe时，该函 `clearVars()` 数都会运行。 然后，您的实现可以再次定义变量，而不必担心值的持久性不正确。
+在后跟踪回调中注册该 [`clearVars()`](clearvars.md) 函数对单页应用程序可能很有益处。每次您将点击成功发送到 Adobe 时，`clearVars()` 函数都会运行。然后，您的实施可以再次定义变量，而不必担心会错误地保留值。
 
 ```js
 s.registerPostTrackCallback(function(){s.clearVars();});
