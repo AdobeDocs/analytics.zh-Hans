@@ -1,15 +1,15 @@
 ---
 title: dynamicAccountMatch
 description: dynamicAccountMatch 变量确定在动态帐户中要查看的值。
-translation-type: ht
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # dynamicAccountMatch
 
-> [!IMPORTANT] 仅当使用旧版 JavaScript 实施（H 代码）时，才支持动态帐户。当前的 AppMeasurement 库或 Adobe Experience Platform Launch 不支持这些变量。
+>[!IMPORTANT] 仅当使用旧版 JavaScript 实施（H 代码）时，才支持动态帐户。当前的 AppMeasurement 库或 Adobe Experience Platform Launch 不支持这些变量。
 
 `dynamicAccountMatch` 变量值由 `dynamicAccountList` 进行检查和与其值进行比较。如果 `dynamicAccountSelection` 未设置为 `true`，则忽略此变量。
 
