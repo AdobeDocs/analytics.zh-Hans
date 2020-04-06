@@ -1,48 +1,48 @@
 ---
 title: getTimeSinceLastVisit
-description: 测量两次访问之间经过的时间。
+description: 测量两次访问之间的间隔时间。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobe插件：getTimeSinceLastVisit
+# Adobe 插件：getTimeSinceLastVisit
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+>[!IMPORTANT] 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
-该插 `getTimeSinceLastVisit` 件允许您跟踪访客在上次访问后回访您的网站所花费的时间。
+`getTimeSinceLastVisit` 插件允许您跟踪访客在距上次访问后多久再次访问您的网站。
 
-## 使用Adobe Experience Platform Launch扩展安装插件
+## 使用 Adobe Experience Platform Launch 扩展安装此插件
 
-Adobe提供了一个扩展，允许您使用最常用的插件。
+Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
-1. 转到选 [!UICONTROL Extensions] 项卡，然后单击按 [!UICONTROL Catalog] 钮
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. 安装和发布扩 [!UICONTROL Common Analytics Plugins] 展
-1. 如果尚未创建，请使用以下配置创建标有“初始化插件”的规则：
+1. 如果还没有任何扩展，请使用以下配置创建一个标签为“初始化插件”的规则：
    * 条件：无
-   * 事件：核心——载入的库（页面顶部）
+   * 事件：核心 - 已加载的库（页面顶部）
 1. 使用以下配置向上述规则添加操作：
-   * 扩展：常见分析插件
-   * 操作类型：初始化getTimeSinceLastVisit
-1. 保存更改并发布到规则。
+   * 扩展：常用 Analytics 插件
+   * 操作类型：初始化 getTimeSinceLastVisit
+1. 保存并发布对上述规则所做的更改。
 
-## 使用Launch自定义代码编辑器安装插件
+## 使用 Launch 自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
-1. 转到选项卡， [!UICONTROL Extensions] 然后单击Adobe Analytics扩 [!UICONTROL Configure] 展下的按钮。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. 展开折 [!UICONTROL Configure tracking using custom code] 叠面板，以显示按 [!UICONTROL Open Editor] 钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
-1. 保存更改并将其发布到Analytics扩展。
+1. 保存并发布对此 Analytics 扩展所做的更改。
 
-## 使用AppMeasurement安装插件
+## 使用 AppMeasurement 安装此插件
 
-在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 [`s_gi`](../functions/s-gi.md)码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -57,40 +57,40 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
  /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## 使用插件
+## 使用此插件
 
-该方 `getTimeSinceLastVisit` 法不使用任何参数。 它返回自访客上次访问网站以来经过的时间，以下列格式存储：
+`getTimeSinceLastVisit` 方法不使用任何参数。此方法将返回距访客上次访问网站的间隔时间，并按以下列格式存储该时间：
 
-* 自上次访问以来30分钟到一小时的时间设置为最近的半分钟基准。 For example, `"30.5 minutes"`, `"53 minutes"`
-* 一小时到一天之间的时间四舍五入到最接近的四分之一小时基准。 For example, `"2.25 hours"`, `"7.5 hours"`
-* 大于一天的时间将舍入到最接近的日基准。 For example, `"1 day"`, `"3 days"`, `"9 days"`, `"372 days"`
-* 如果访客之前未访问过，或已用时间大于两年，则将该值设置为 `"New Visitor"`。
+* 若距上次访问的间隔时间介于 30 分钟和 1 小时之间，则会以“0.5 分钟”为基准将间隔时间四舍五入到最接近的值。例如 `"30.5 minutes"`、`"53 minutes"`
+* 若距上次访问的间隔时间介于 1 小时和 1 天之间，则会以“0.25 小时”为基准将间隔时间四舍五入到最接近的值。例如 `"2.25 hours"`、`"7.5 hours"`
+* 若距上次访问的间隔时间大于 1 天，则会以“1 天”为基准将间隔时间四舍五入到最接近的值。例如 `"1 day"`、`"3 days"`、`"9 days"`、`"372 days"`
+* 如果访客之前未访问过，或间隔时间超过两年，则会将该值设为 `"New Visitor"`。
 
-> [!NOTE] 此插件仅在访问的第一次点击时返回值。
+>[!NOTE] 此插件仅在访客在访问期间进行第一次点击时返回值。
 
-此插件创建一个名为设置为当前时间的Unix `"s_tslv"` 时间戳的第一方Cookie。 Cookie在两年不活动后过期。
+此插件会创建一个名为 `"s_tslv"` 的第一方 Cookie，并将其设置为当前时间的 Unix 时间戳。Cookie 将在处于非活动状态两年后过期。
 
 ## 示例调用
 
-### 示例#1
+### 示例 1
 
-如果一个全新访客访问了该站点，并且在访问的第一页上运行了以下代码……
+如果一位全新访客访问网站，且在访问的第一个页面上运行以下代码...
 
 ```javascript
 s.prop1 = s.getTimeSinceLastVisit();
 s.linkTrackVars = s.apl(s.linkTrackVars, "prop1") //ensures that prop1 will be included on the first hit of the visit
 ```
 
-...s.prop1的值将设置为等于“新访客”。
+...会将 s.prop1 的值设置为等于“新访客”。
 
-如果同一代码在非活动状态持续35分钟后在同一域上运行，则s.prop1的值将设置为等于“35分钟”。
+如果在处于非活动状态 35 分钟后在同一域上运行相同的代码，则会将 s.prop1 的值将设置为等于“35 分钟”。
 
-如果同一代码在进一步不活动4天后运行在同一域上，则s.prop1的值将设置为等于“4天”。
+如果在处于非活动状态 4 天后在同一域上运行相同的代码，则会将 s.prop1 的值将设置为等于“4 天”。
 
-## 版本历史
+## 版本历史记录
 
-### 1.0（2018年4月16日）
+### 1.0（2018 年 4 月 16 日）
 
-* 点发行（重新编译的代码和较小的大小）。
-* 从插件派生 `getDaysSinceLastVisit` 的代码（现在已弃用和重命名）。
-* 现在 `formatTime` 使用 `inList` 和插件获取返回值。
+* 修正版本（重新编译了代码，代码更小）。
+* 从 `getDaysSinceLastVisit` 插件派生的代码（现已被弃用并重命名）。
+* 现在对返回值使用 `formatTime` 和 `inList` 插件。
