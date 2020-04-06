@@ -1,48 +1,48 @@
 ---
 title: getPageName
-description: 从当前网站路径创建一个易于阅读的pageName。
+description: 从当前网站路径创建一个简单易读的 pageName。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobe插件：getPageName
+# Adobe 插件：getPageName
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+>[!IMPORTANT] 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
-该插 `getPageName` 件可创建当前URL的易读且格式友好的版本。 如果您希望在报告中设置和理解 [`pageName`](../page-vars/pagename.md) 一个易于设置和理解的值，Adobe建议使用此插件。 如果已经有变量的命名结构（如通过数据层）, `pageName` 则不需要此插件。 当没有其他解决方案来设置变量时，最好使用该 `pageName` 变量。
+`getPageName` 插件可为当前 URL 创建一个简单易读且格式友好的版本。如果您希望在报告中使用易于设置且便于理解的 [`pageName`](../page-vars/pagename.md) 值，Adobe 建议您使用此插件。如果已经有 `pageName` 变量的命名结构（如通过数据层命名），则无需使用此插件。当没有其他解决方案可用来设置 `pageName` 变量时，最好使用此插件。
 
-## 使用Adobe Experience Platform Launch扩展安装插件
+## 使用 Adobe Experience Platform Launch 扩展安装此插件
 
-Adobe提供了一个扩展，允许您使用最常用的插件。
+Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
-1. 转到选 [!UICONTROL Extensions] 项卡，然后单击按 [!UICONTROL Catalog] 钮
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. 安装和发布扩 [!UICONTROL Common Analytics Plugins] 展
-1. 如果尚未创建，请使用以下配置创建标有“初始化插件”的规则：
+1. 如果还没有任何扩展，请使用以下配置创建一个标签为“初始化插件”的规则：
    * 条件：无
-   * 事件：核心——载入的库（页面顶部）
+   * 事件：核心 - 已加载的库（页面顶部）
 1. 使用以下配置向上述规则添加操作：
-   * 扩展：常见分析插件
-   * 操作类型：初始化getPageName
-1. 保存更改并发布到规则。
+   * 扩展：常用 Analytics 插件
+   * 操作类型：初始化 getPageName
+1. 保存并发布对上述规则所做的更改。
 
-## 使用Launch自定义代码编辑器安装插件
+## 使用 Launch 自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
-1. 转到选项卡， [!UICONTROL Extensions] 然后单击Adobe Analytics扩 [!UICONTROL Configure] 展下的按钮。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. 展开折 [!UICONTROL Configure tracking using custom code] 叠面板，以显示按 [!UICONTROL Open Editor] 钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
-1. 保存更改并将其发布到Analytics扩展。
+1. 保存并发布对此 Analytics 扩展所做的更改。
 
-## 使用AppMeasurement安装插件
+## 使用 AppMeasurement 安装此插件
 
-在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 [`s_gi`](../functions/s-gi.md)码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -51,154 +51,154 @@ var getPageName=function(si,qv,hv,de){var c=location.hostname,f=location.pathnam
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## 使用插件
+## 使用此插件
 
-该方 `getPageName` 法使用以下参数：
+`getPageName` 方法使用以下参数：
 
-* **`si`** （可选，字符串）:插入到表示站点ID的字符串开头的ID。 此值可以是数字ID或友好名称。 如果未设置，则默认为当前域。
-* **`qv`** （可选，字符串）:查询字符串参数的逗号分隔列表（如果在URL中找到）将添加到该字符串
-* **`hv`** （可选，字符串）:在URL哈希中找到的以逗号分隔的参数列表，如果在URL中找到，则添加到字符串中
-* **`de`** （可选，字符串）:用于拆分字符串各个部分的分隔符。 默认为管道(`|`)。
+* **`si`**（可选，字符串）：插入到字符串开头的 ID，表示网站的 ID。此值可以是数字 ID 或友好名称。如果未设置此值，则将默认使用当前域。
+* **`qv`**（可选，字符串）：以逗号分隔的查询字符串参数列表，其中包含在 URL 中找到的已添加到字符串的参数（如果可找到）
+* **`hv`**（可选，字符串）：以逗号分隔的参数列表，其中包含在 URL 散列中找到的已添加到字符串的参数（如果可找到）
+* **`de`**（可选，字符串）：用于拆分字符串各个部分的分隔符。默认使用管道分隔符 (`|`)。
 
-该方法返回一个包含URL的友好格式版本的字符串。 此字符串通常分配给变 `pageName` 量，但也可用于其他变量。
+此方法将返回一个包含当前 URL 的友好格式版本的字符串。此字符串通常会被分配给 `pageName` 变量，但也可以用于其他变量。
 
 ## 示例调用
 
-### 示例#1
+### 示例 1
 
-如果当前URL是……
+如果当前 URL 为...
 
 ```js
 https://mail.google.com/mail/u/0/#inbox
 ```
 
-...下面的代码运行……
+...并运行以下代码...
 
 ```js
 s.pageName = getPageName()
 ```
 
-...s.pageName的最终值将为：
+...s.pageName 的最终值将为：
 
 ```js
 s.pageName = "mail.google.com|mail|u|0";
 ```
 
-### 示例#2
+### 示例 2
 
-如果当前URL是……
+如果当前 URL 为...
 
 ```js
 https://mail.google.com/mail/u/0/#inbox
 ```
 
-...下面的代码运行……
+...并运行以下代码...
 
 ```js
 s.pageName = getPageName("gmail")
 ```
 
-...s.pageName的最终值将为：
+...s.pageName 的最终值将为：
 
 ```js
 s.pageName = "gmail|mail|u|0";
 ```
 
-### 示例#3
+### 示例 3
 
-如果当前URL是……
+如果当前 URL 为...
 
 ```js
 https://www.google.com/
 ```
 
-...下面的代码运行……
+...并运行以下代码...
 
 ```js
 s.pageName = getPageName()
 ```
 
-...s.pageName的最终值将为：
+...s.pageName 的最终值将为：
 
 ```js
 s.pageName = "www.google.com|home"
 ```
 
-**注意**:当代码在不包含路径的URL上运行时，它将始终将“home”值添加到返回值的末尾
+**注意**：当代码在不包含路径的 URL 上运行时，代码会始终在返回值的末尾处添加“home”值
 
-### 示例#4
+### 示例 4
 
-如果当前URL是……
+如果当前 URL 为...
 
 ```js
 https://www.google.com/
 ```
 
-...下面的代码运行……
+...并运行以下代码...
 
 ```js
 s.pageName = getPageName("google","","","|")
 ```
 
-...s.pageName的最终值将为：
+...s.pageName 的最终值将为：
 
 ```js
 s.pageName = "google|home"
 ```
 
-### 示例#5
+### 示例 5
 
-如果当前URL是……
+如果当前 URL 为...
 
 ```js
 https://www.hotelrooms.com/en/booking/room-booking.html?cid=1235#/step2&arrive=2018-05-26&depart=2018-05-27&numGuests=2
 ```
 
-...下面的代码运行……
+...并运行以下代码...
 
 ```js
 s.pageName = getPageName()
 ```
 
-...s.pageName的最终值将为：
+...s.pageName 的最终值将为：
 
 ```js
 s.pageName = "www.hotelrooms.com|en|booking|room-booking.html"
 ```
 
-但是，如果以下代码改为运行……
+但是，如果运行以下代码...
 
 ```js
 s.pageName = getPageName("hotelrooms","cid","arrive,numGuests",": ")
 ```
 
-...s.pageName的最终值将为：
+...s.pageName 的最终值将为：
 
 ```js
 s.pageName = "hotelrooms: en: booking: room-booking.html: cid=1235: arrive=2018-05-26: numGuests=2"
 ```
 
-## 从先前版本升级
+## 从先前的版本升级
 
-getPageName插件的4.0+版不取决于要运行的Adobe Analytics的AppMeasurement对象（即“s”对象）的存在。  如果选择升级到此版本，请务必从调用中删除“s”对象的任何实例，以更改调用插件的代码。
-例如，更改以下内容：
+不论是否存在 Adobe Analytics 的 AppMeasurement 对象（即“s”对象），4.0 及更高版本的 getPageName 插件都可以正常运行。如果选择升级到此版本，请务必从调用中删除所有“s”对象的实例，以更改用于调用此插件的代码。
+例如，将以下代码：
 
 ```js
 s.pageName = s.getPageName();
 ```
 
-...至此：
+...更改为下列代码：
 
 ```js
 s.pageName = getPageName();
 ```
 
-## 版本历史
+## 版本历史记录
 
-### 4.1（2019年9月17日）
+### 4.1（2019 年 9 月 17 日）
 
-* 将默认分隔符值更改为管道字符（从冒号+空格）。
+* 将默认分隔符值从“冒号 + 空格”更改为管道字符。
 
-### 4.0（2018年5月22日）
+### 4.0（2018 年 5 月 22 日）
 
-* 插件的完全重新分析／重写
+* 对插件进行了彻底的再分析/重写
