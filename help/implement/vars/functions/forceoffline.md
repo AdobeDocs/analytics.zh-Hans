@@ -1,27 +1,27 @@
 ---
 title: forceOffline
-description: 手动设置AppMeasurement的联机状态。
+description: 手动设置 AppMeasurement 的在线状态。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # forceOffline
 
-该方 `forceOffline()` 法允许您覆盖自动检测到的AppMeasurement状态。
+`forceOffline()` 方法允许您覆盖自动检测到的 AppMeasurement 状态。
 
-> [!IMPORTANT] 仅在启用时使 [`trackOffline`](../config-vars/trackoffline.md) 用此函数。 在脱机跟踪之外使用此函数可能会导致数据丢失。
+>[!IMPORTANT] 仅在启用 [`trackOffline`](../config-vars/trackoffline.md) 时才使用此函数。在离线跟踪之外使用此函数可能会导致数据丢失。
 
-AppMeasurement可自动检测设备的联机状态。 您可以使用该方 `forceOffline()` 法强制AppMeasurement将点击视为设备处于脱机状态。 此方法不采用任何参数，也不返回任何值。 它的唯一目的是覆盖AppMeasurement中的联机状态。
+AppMeasurement 会自动检测设备的在线状态。您可以使用该 `forceOffline()` 方法强制 AppMeasurement 处理点击，如同设备处于离线状态一样。此方法不接受任何参数，也不返回任何值。它的唯一用途是覆盖 AppMeasurement 中的在线状态。
 
-## 在Adobe Experience Platform Launch中强制脱机
+## Adobe Experience Platform Launch 中的“强制离线”
 
-Launch中没有专用字段可使用此变量。 按照AppMeasurement语法使用自定义代码编辑器。
+Launch 中没有可使用此变量的专用字段。按照 AppMeasurement 语法使用自定义代码编辑器。
 
-## AppMeasurement中的s.forceOffline()和启动自定义代码编辑器
+## AppMeasurement 和 Launch 自定义代码编辑器中的 s.forceOffline()
 
-在实例化Analytics对 `s.forceOffline()` 象后，您可以在实施中的任意位置调用该方法。
+在实例化 Analytics 对象后，您可以在实施中的任意位置调用 `s.forceOffline()` 方法。
 
 ```js
 s.forceOffline();
