@@ -1,48 +1,48 @@
 ---
 title: cleanStr
-description: 从字符串中删除或替换所有不必要的字符。
+description: 删除或替换字符串中所有不必要的字符。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobe插件：cleanStr
+# Adobe 插件：cleanStr
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+>[!IMPORTANT] 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
-该插 `cleanStr` 件可删除或替换字符串中所有不必要的字符，包括HTML标记字符、额外的空格、制表符和换行／回车符。 它还将左／右单引号(`‘` 和 `’`)替换为直单引号(`'`)。 如果您希望从变量值中删除不必要的字符，并且Launch中的“清理文本”功能无法满足您的实施需求，则Adobe建议使用此插件。 如果收集的数据不包含不必要的字符，或者Launch中的“清理文本”功能足够，则无需此插件。
+`cleanStr` 插件可删除或替换字符串中所有不必要的字符，包括 HTML 标记字符、额外的空格、制表符和换行符/回车符。It also replaces left/right single quotes (`‘` and `’`) with straight single quotes (`'`). 如果您想要从变量值中删除不必要的字符，并且 Launch 中的“清理文本”功能无法满足您的实施需求，则 Adobe 建议您使用此插件。如果收集的数据不包含不必要的字符，或者 Launch 中的“清理文本”功能满足您的实施需求，则无需使用此插件。
 
-## 使用Adobe Experience Platform Launch扩展安装插件
+## 使用 Adobe Experience Platform Launch 扩展安装此插件
 
-Adobe提供了一个扩展，允许您使用最常用的插件。
+Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
-1. 转到选 [!UICONTROL Extensions] 项卡，然后单击按 [!UICONTROL Catalog] 钮
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. 安装和发布扩 [!UICONTROL Common Analytics Plugins] 展
-1. 如果尚未创建，请使用以下配置创建标有“初始化插件”的规则：
+1. 如果还没有任何扩展，请使用以下配置创建一个标签为“初始化插件”的规则：
    * 条件：无
-   * 事件：核心——载入的库（页面顶部）
+   * 事件：核心 - 已加载的库（页面顶部）
 1. 使用以下配置向上述规则添加操作：
-   * 扩展：常见分析插件
-   * 操作类型：初始化cleanStr
-1. 保存更改并发布到规则。
+   * 扩展：常用 Analytics 插件
+   * 操作类型：初始化 cleanStr
+1. 保存并发布对上述规则所做的更改。
 
-## 使用Launch自定义代码编辑器安装插件
+## 使用 Launch 自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
-1. 转到选项卡， [!UICONTROL Extensions] 然后单击Adobe Analytics扩 [!UICONTROL Configure] 展下的按钮。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. 展开折 [!UICONTROL Configure tracking using custom code] 叠面板，以显示按 [!UICONTROL Open Editor] 钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
-1. 保存更改并将其发布到Analytics扩展。
+1. 保存并发布对此 Analytics 扩展所做的更改。
 
-## 使用AppMeasurement安装插件
+## 使用 AppMeasurement 安装此插件
 
-在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 [`s_gi`](../functions/s-gi.md)码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -51,33 +51,33 @@ function cleanStr(str){if("string"===typeof str){str=str.replace(/<\/?[^>]+(>|$)
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## 使用插件
+## 使用此插件
 
-该方 `cleanStr` 法使用以下参数：
+`cleanStr` 方法使用以下参数：
 
-* **`str`** （必需，字符串）:要清理HTML编码、额外空白、制表符或其他不必要字符的值。
+* **`str`**（必需，字符串）：用于清理 HTML 编码、额外空格、制表符或其他不必要字符的值。
 
-该方法返回参数的值，并删 `str` 除所有不必要的字符。
+该方法会返回 `str` 参数的值，并删除所有不必要的字符。
 
 ## 示例
 
-### 示例#1
+### 示例 1
 
-假设如下(其中点表示空格，箭头表示制表符字符
+假设以下字符串（其中点代表空格，而箭头代表制表符）
 
 ```js
 s.eVar1 = "»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
 ```
 
-运行以下代码时……
+运行以下代码时...
 
 ```js
 s.eVar1 = cleanStr(s.eVar1)
 ```
 
-...eVar1将设置为等于“this is a messystring”（删除所有额外空格和所有制表符）
+...eVar1 将被设置为等于“this is a messystring”（删除了所有额外空格和所有制表符）
 
-### 示例#2
+### 示例 2
 
 如果...
 
@@ -85,22 +85,22 @@ s.eVar1 = cleanStr(s.eVar1)
 s.eVar1 = "»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
 ```
 
-...下面的代码运行……
+...并运行以下代码...
 
 ```js
 cleanStr(s.eVar1)
 ```
 
-...s.eVar1的最终值仍将是：
+...s.eVar1 的最终值仍将为：
 
 ```js
 "»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
 ```
 
-单独运行插件（不将返回值分配给变量）实际上不会“重置”通过str参数传入的变量。
+单独运行此插件（不将返回值指定给变量）实际上不会“重置”通过 str 参数传入的变量。
 
-## 版本历史
+## 版本历史记录
 
-### 1.0（2018年4月15日）
+### 1.0（2018 年 4 月 15 日）
 
 * 第一版。
