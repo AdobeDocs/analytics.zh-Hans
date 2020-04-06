@@ -1,9 +1,9 @@
 ---
-title: AppMeasurement for JavaScript发行说明
+title: AppMeasurement for JavaScript 发行说明
 description: AppMeasurement for JavaScript 的发行说明汇总。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: e3bffe93b224089cb8561c415bf20a0457645ac3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: e3bffe93b224089cb8561c415bf20a0457645ac3
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-您可以在代码管理器中下载最新版 [本的AppMeasurement](/help/admin/admin/code-manager-admin.md)。
+您可以在[代码管理器](/help/admin/admin/code-manager-admin.md)中下载最新版本的 AppMeasurement。
 
 ## 版本 2.20.0
 
@@ -26,7 +26,7 @@ source-git-commit: e3bffe93b224089cb8561c415bf20a0457645ac3
 
 发行日期：**2020 年 2 月 21 日**
 
-* 已将受众管理模块更新至 DIL 9.4。(AN-209341)
+* 将受众管理模块更新为DIL 9.4。 (AN-209341)
 
 ## 版本 2.18.0
 
@@ -45,10 +45,10 @@ source-git-commit: e3bffe93b224089cb8561c415bf20a0457645ac3
 
 发行日期：**2019 年 8 月 15 日**
 
-* 在 `sendBeacon` 中针对退出链接实施了 [!UICONTROL AppMeasurement] 支持。如果点击使 `sendBeacon` 用并卸载页面，则请求仍然完成。 这对退出链接非常有用，因为点击更可能到达数据收集服务器。 (AN-175142)
+* 在 `sendBeacon` 中针对退出链接实施了 [!UICONTROL AppMeasurement] 支持。如果点击使用 `sendBeacon` 并卸载页面，则仍然会完成请求。这对退出链接非常有用，因为点击很可能会到达数据收集服务器。(AN-175142)
 * 即使 OptIn 设置发生更改，ECID/fid 值现在也会在首次点击时缓存。(AN-175142)
-* 将“受众管理模块”更新为DIL 9.3。 (AN-182704)
-* Exposed switch in `s.ActivityMap.trackScrollReach` to turn scroll reach tracking on or off. (AN-182754)
+* 已将受众管理模块更新至 DIL 9.3。(AN-182704)
+* 显示了 `s.ActivityMap.trackScrollReach` 中用于打开或关闭滚动覆盖范围跟踪的开关。(AN-182754)
 * 升级了 AppMeasurement 以使用访客 ID 服务 4.4.0。(AN-182912)
 
 ## 版本 2.15.0
@@ -75,8 +75,8 @@ source-git-commit: e3bffe93b224089cb8561c415bf20a0457645ac3
 
 发行日期：**2019 年 2 月 22 日**
 
-* 已将受众管理模块更新至 DIL 9.1。(AN-175255)
-* GTM 安全策略不允许使用 Activity Map 模块。(AN-174679)
+* 将受众管理模块更新为DIL 9.1。 (AN-175255)
+* GTM安全策略不允许活动映射模块。 (AN-174679)
 * 改进了 AppMeasurement，支持未在“选择加入”中 Identity Service 时选择退出。(AN-175259)
 
 ## 版本 2.11.0
@@ -84,7 +84,7 @@ source-git-commit: e3bffe93b224089cb8561c415bf20a0457645ac3
 发行日期：**2019 年 2 月 11 日**
 
 * 在 AppMeasurement 中添加了对新的 Adobe“选择加入”服务功能的支持。(AN-163546)
-* 添加了对在会话存储中存储链接跟踪数据的支持。(AN-162272)
+* 增加了在会话存储上存储链接跟踪数据的支持。 (AN-162272)
 * 为音频分析添加了对媒体流类型的支持。(AN-173265)
 
 ## 版本 2.10.0
@@ -94,7 +94,7 @@ source-git-commit: e3bffe93b224089cb8561c415bf20a0457645ac3
 此版本可确保 [!DNL AppMeasurement] 库为所有连接类型正确提交 Cookie。
 
 * [!DNL AppMeasurement] 会在 POST 期间阻止 Cookie 传输。(AN-165538)
-* 对 XDomainRequest 的拖放支持。(AN-165733)
+* 放弃对XDomainRequest的支持。 (AN-165733)
 * 将 [!DNL AppMeasurement] 默认 Cookie 生命周期从 5 年减少到 2 年。(AN-158572)
 * 从“代码管理器”删除了“媒体模块”([!DNL AppMeasurement]) (AN-166590)
 
@@ -102,10 +102,10 @@ source-git-commit: e3bffe93b224089cb8561c415bf20a0457645ac3
 
 发行日期：**2018 年 5 月 24 日**
 
-> [!NOTE]使用 [!DNL Experience Cloud] ID 服务的客户需要安装访客 API 3.0 或更高版本。Adobe 建议，每当更新关联的代码库（[!DNL at.js] 等）时，请升级至访客 API 的最新版本。[!DNL AppMeasurement.js]
+>[!NOTE]使用 [!DNL Experience Cloud] ID 服务的客户需要安装访客 API 3.0 或更高版本。Adobe 建议，每当更新关联的代码库（[!DNL at.js] 等）时，请升级至访客 API 的最新版本。[!DNL AppMeasurement.js]
 
 * 更新了 [!DNL AppMeasurement] 以使用更新的访客界面来获取请求 ID。(AN-151483)
-* 修复了在关闭链接跟踪后，链接跟踪 Cookie 仍继续写入的问题。(AN-156332)
+* 修复了在关闭链接跟踪后，链接跟踪Cookie继续写入的问题。 (AN-156332)
 * 修复了 `registerPreTrackCallback` 和 `registerPostTrackCallback` 在调用多次后中断回调函数签名的问题。(AN-158566)
 
 ## 版本 2.8.2
@@ -113,7 +113,7 @@ source-git-commit: e3bffe93b224089cb8561c415bf20a0457645ac3
 发行日期：**2018 年 4 月 12 日**
 
 * 更新 [!DNL AppMeasurement] 以使用更新的访客界面来获取请求 ID。(AN-151483)
-* 关闭链接跟踪后，链接跟踪 Cookie 将继续写入。(AN-156332)
+* 关闭链接跟踪后，链接跟踪Cookie会一直被写入。 (AN-156332)
 * 将 [!DNL AppMeasurement] 默认 Cookie 生命周期从 5 年减少到 2 年。(AN-158572)
 
 ## 版本 2.8.1
@@ -129,16 +129,16 @@ source-git-commit: e3bffe93b224089cb8561c415bf20a0457645ac3
 重新捆绑 Visitor API 3.1.0 (AN-159524)，该版本包含热修复程序：（CORE-11390、CORE-10634）
 
 * 将 VAPI 版本 3.1 与 [!DNL AppMeasurement] 版本 2.8 捆绑在一起。(AN-158353)
-* 重新构建数据收集端点以方便共享。(AN-156647)
+* 重新构建数据收集端点以便于共享。 (AN-156647)
 * 将请求往返计时量度添加到 [!DNL AppMeasurement]。(AN-158343)
 
 ## 版本 2.7.0
 
 发行日期：**2018 年 1 月 18 日**
 
-* 不再支持 IE 6 至 9
-* 包括访客 API 3.0.0 版
-* 包括 DIL 7.00 版
+* 放弃对IE 6到9的支持
+* 包含访客API v3.0.0
+* 包含DIL v7.00
 
 ## 版本 2.6.0
 
@@ -157,14 +157,14 @@ source-git-commit: e3bffe93b224089cb8561c415bf20a0457645ac3
 
 发行日期：**2017 年 8 月 17 日**
 
-* 包含 dil.js v6.11
+* 包括dil.js v6.11
 * 包含 Visitor API 2.4.0
 
 ## 版本 2.3.0
 
 发行日期：**2017 年 7 月 20 日**
 
-* 修复了捕获到的 `s.Util.getQueryParam` 错误 `#`
+* 修复了 `s.Util.getQueryParam` 捕获 `#` 的错误
 * 添加了 6.10 版的 `dil.js` (AN-145701)
 
 ## 版本 2.2.0
@@ -172,7 +172,7 @@ source-git-commit: e3bffe93b224089cb8561c415bf20a0457645ac3
 发布日期：**2017 年 6 月 8 日**
 
 * 添加了对多个 [!DNL AppMeasurement] 实例化订单的支持。(AN-138237)
-* 包括 Visitor API 版本 2.2.0。(AN-144042)
+* 包含版本2.2.0访客API。 (AN-144042)
 
 ## 版本 2.1.0
 
@@ -180,24 +180,24 @@ source-git-commit: e3bffe93b224089cb8561c415bf20a0457645ac3
 
 * 包含最新版本的 `dil.js` (AN-140396)
 * 为覆盖页面引荐的 `adobe_mc_ref` 参数添加支持。(AN-131920)
-* 重新包含 Visitor API 2.1.0。(AN-140873)
+* 重新包含访客API 2.1.0。 (AN-140873)
 * 添加了 `mcorgid` 参数。(AN-139586)
-* 添加 cp (customerPerspective) 参数。(AN-140897)
+* 添加了cp(customerPerspective)参数。 (AN-140897)
 
 ## 版本 2.0.0
 
 发行日期：**2017 年 3 月 9 日**
 
-* 已移动到需要将版本号更新为 2.0.0 的新生成流程。(AN-137878)
-* 已将 mboxMCSDID 处理移动到执行跟踪调用的正确区域位置。(AN-138483)
+* 已移至需要将版本号更新到2.0.0的新构建流程。 (AN-137878)
+* 将mboxMCSDID处理移到进行跟踪调用的正确章节位置。 (AN-138483)
 
 ## 版本 1.8.0
 
 发行日期：**2017 年 1 月 19 日**
 
-* 包含 Visitor API 2.0.0
-* 重新排序了功能调用和检查，确保在完成中止检查后使用 SDID。(AN-134364)
-* 已添 `s.registerPreTrackCallback` 加和 `s.registerPostTrackCallback` 钩子。 (AN-134567)
+* 包括VisitorAPI 2.0.0
+* 对函数调用和检查重新排序，以便在中止检查完成后使用SDID。 (AN-134364)
+* 添加了 `s.registerPreTrackCallback` 和 `s.registerPostTrackCallback` 挂钩。(AN-134567)
 
 ## 版本 1.7.0
 
@@ -211,20 +211,20 @@ source-git-commit: e3bffe93b224089cb8561c415bf20a0457645ac3
 
 ## 版本 1.6.4
 
-Updated: **August 18, 2016**
+更新日期：**2016 年 8 月 18 日**
 
 * 更新了 [!DNL AppMeasurement] 以读写 AMCV cookie。(AN-127098)
 * 包括 Visitor API 1.7.0。
 
-> [!NOTE]另请参阅下面的 [!DNL JavaScript] 版本 1.6.3 发行说明，其中包括 Marketing Cloud ID 服务的更新要求。
+>[!NOTE]另请参阅下面的 [!DNL JavaScript] 版本 1.6.3 发行说明，其中包括 Marketing Cloud ID 服务的更新要求。
 
 ## 版本 1.6.3
 
-Updated: **August 4, 2016**
+更新日期：**2016 年 8 月 4 日**
 
 * 修复了 [!DNL AppMeasurement] 过早终止请求连接的问题。(AN-126448)
 
->[!IMPORTANT]版本 1.6.0 的 [!DNL Experience Cloud] ID 服务&#x200B;*要求* [!DNL AppMeasurement] for [!DNL JavaScript] 版本 1.6.3 或更高版本。If you want to upgrade to version 1.6.0 of the Experience Cloud ID service, please make sure you are using [!DNL AppMeasurement] code version 1.6.3 or higher.
+>[!IMPORTANT]版本 1.6.0 的 [!DNL Experience Cloud] ID 服务&#x200B;*要求* [!DNL AppMeasurement] for [!DNL JavaScript] 版本 1.6.3 或更高版本。如果您要升级到版本 1.6.0 的 Experience Cloud ID 服务，请确保您使用的是 [!DNL AppMeasurement] 代码版本 1.6.3 或更高版本。
 
 ## 版本 1.6.2
 
@@ -236,7 +236,7 @@ Updated: **August 4, 2016**
 
 ## 版本 1.6.1
 
-发行日期：**2016 年 6 月 16 日**
+发布日期：**2016 年 6 月 16 日**
 
 * 包括 Visitor API 1.5.7。
 * 修复了在 Firefox 中处理链接点击次数跟踪时无法触发完整事件的问题。
@@ -245,7 +245,7 @@ Updated: **August 4, 2016**
 
 发行日期：**2016 年 4 月 21 日**
 
-* [!DNL AppMeasurement] Activity Map 模块已集成在 [!DNL AppMeasurement] 标准模块中，因此，您只需引用一个 [!DNL .js] 文件。此外，默认情况下会激活 Activity Map 跟踪。(AN-112689)
+* [!DNL AppMeasurement] Activity Map 模块已集成在 [!DNL AppMeasurement] 标准模块中，因此，您只需引用一个 [!DNL .js] 文件。此外，活动图跟踪在默认情况下处于激活状态。 (AN-112689)
 * 修复了 [!DNL AppMeasurement] 中的查询字符串变量顺序存在的截断问题，以便 *`pageURLRest`* 位于最后。(AN-114647)
 
 ## 版本 1.5.4
@@ -260,14 +260,14 @@ Updated: **August 4, 2016**
 发行日期：**2016 年 1 月 21 日**
 
 * 修复了在 POST 用于跟踪调用时对 [!DNL Audience Manager] 模块的处理。(AN-115381)
-* 将页面 URL 的其余部分（“-g”）移到跟踪请求查询字符串的末尾。(AN-114647)
+* 已将页面URL的其余部分(“-g”)移至跟踪请求查询字符串的末尾。 (AN-114647)
 
 ## 版本 1.5.2
 
 发行日期：**2015 年 11 月 5 日**
 
 * 包括 Visitor API 1.5.3。
-* 修复了 URL 截断 2047 的 IE11 检测 (AN-114914)
+* 修复了URL截断2047的IE11检测(AN-114914)
 
 ## 版本 1.5.1
 
@@ -280,7 +280,7 @@ Updated: **August 4, 2016**
 
 发行日期：**2015 年 6 月 18 日**
 
-* 支持 Visitor API 1.5，它使用&#x200B;*`getCustomerIDs`*&#x200B;方法收集客户 ID 和经过验证的状态，并且通过数据收集请求来发送 ID。
+* 支持访客 API 1.5，它使用 *`getCustomerIDs`* 方法收集客户 ID 和已验证的状态，并通过数据收集请求发送 ID。
 * 修复了在 **[!UICONTROL AudienceManagement]** 模块 (DIL 6.1) 中创建重复的目标 iframe 的问题。
 * 修复了 1.4.5 版中描述的已知问题。
 
@@ -288,12 +288,12 @@ Updated: **August 4, 2016**
 
 发行日期：**2015 年 5 月 21 日**
 
-* 从iOS SDK版本4.5开始，新的iOS扩展允许您从Apple Watch应用程序、“今日”构件、照片编辑构件和所有其他iOS扩展应用程序收集使用数据。 请参 [阅移动服务用户指南](https://docs.adobe.com/content/help/en/mobile-services/ios/ios-ext/ios-ext.html) 中的iOS扩展实施。
-* 从Android SDK版本4.5开始，新的Android扩展允许您从Android可穿戴应用程序收集数据。 请参 [阅Mobile Services用户指南中的](https://docs.adobe.com/content/help/en/mobile-services/android/wearables-android/android-wearable.html) Android可穿戴设备。
+* 从 iOS SDK 4.5 版开始，新增的 iOS 扩展允许您从 Apple Watch 应用程序、“今天”小组件、照片编辑小组件和所有其他 iOS 扩展应用程序中收集使用情况数据。请参阅 Mobile Services 用户指南中的 [iOS 扩展实施](https://docs.adobe.com/content/help/zh-Hans/mobile-services/ios/ios-ext/ios-ext.html)。
+* 从 Android SDK 版本 4.5 开始，新增的 Android 扩展允许您从 Android 可穿戴应用程序中收集数据。请参阅 Mobile Services 用户指南中的 [Android 可穿戴应用程序](https://docs.adobe.com/content/help/zh-Hans/mobile-services/android/wearables-android/android-wearable.html)。
 * 包括 Visitor API 1.4。
-* 更新了 AudienceManagement 模块，以便使用 DIL 版本 6.0。
+* 更新了AudienceManagement模块以使用DIL版本6.0。
 
-> [!NOTE] 已 **知问题**:在访客API/模块集 [!DNL AppMeasurement][!DNL Audience Manager] 成中，有两个目标发布IE6-9中发出的iFrame请求： `//fast.<subdomain>.demdex.net/dest5.html` 和 `//fast.<subdomain>.demdex.net/dest4.html`。 如在其他浏览器中所看到的，正确的行为是仅加载 `//fast.<subdomain>.demdex.net/dest5.html`.
+>[!NOTE] **已知问题**：在访客 API/[!DNL AppMeasurement] [!DNL Audience Manager] 模块集成中，将有两个在 IE6-9 中发出的目标发布 iFrame 请求：`//fast.<subdomain>.demdex.net/dest5.html` 和 `//fast.<subdomain>.demdex.net/dest4.html`。如在其他浏览器中所看到的，正确的行为是仅加载 `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## 版本 1.4.4
 
@@ -301,21 +301,21 @@ Updated: **August 4, 2016**
 
 * 您现在可以包含具有生命周期量度的自定义上下文数据变量。
 * 现在，`trackBeacon` 和 `clearCurrentBeacon` 调用在 PhoneGap 中可用。
-* A minor fix to clear the light server call profile ID after the `trackLight` call.
+* 进行了小修复，以便在 `trackLight` 调用之后清除轻量级服务器调用配置文件 ID。
 
 ## 版本 1.4.3
 
 发行日期：**2015 年 2 月 19 日**
 
-* 保持所有延迟跟踪调用的处理连贯一致，这可以修复延迟期间已备份变量（例如，已单击的对象）的问题。
-* 首次跟踪调用后更改为不执行自动反向链接跟踪，以便第 2 次、第 3 次（依此类推）跟踪调用在&#x200B;*`s.referrer`*&#x200B;于首次跟踪调用之前被手动设置时，不会将反向链接计算两次。
+* 使延迟跟踪调用的所有处理保持一致，这修复了延迟期间备份变量的问题，如已单击的对象。
+* Changed to not do automatic referrer tracking after the first tracking call so the 2nd, 3rd, etc tracking call (usually link tracking) will not double-count the referrer when *`s.referrer`* was manually set before the first tracking call.
 * 更新了分发 zip 文件以包括 Visitor API 1.3.5。
 
 ## 版本 1.4.2
 
 发行日期：**2015 年 1 月 15 日**
 
-* 修复了 WebKit 预渲染处理阻止跟踪未查看的预渲染页面的问题。
+* 修复了对WebKit预渲染处理的处理，以防止跟踪未查看的预渲染页面。
 * 更新了分发 zip 文件以包括 Visitor API 1.3.4 和更新的 **[!UICONTROL AudienceManagement]** 模块（包括 DIL 版本 5.5）。
 
 ## 版本 1.4.1
@@ -332,14 +332,14 @@ Updated: **August 4, 2016**
    //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
    ```
 
-   这 4 个字符仅限于在 URL 文件路径中允许使用的字符，例如字母数字和句点。
+   4个字符仅限于URL文件路径中允许使用的字符，如字母数字和句点。
 
-* 在具有双标签和 H 代码的页面上，修复了在启用强制链接跟踪（在 Webkit 浏览器中默认启用）时在自动链接跟踪过程中（下载和退出）可能出现的循环。此外，在自动链接跟踪过程中增加了一般防护措施，防止出现相同的循环。该防护措施将&#x200B;*相同*&#x200B;对象的重复单击的自动链接跟踪频率限制为每 10 秒钟一次。该防护措施仅适用于自动链接跟踪，因此手动链接跟踪 (s.tl) 调用不受限制。另外，单击不同的对象不受该防护措施的影响，将会对此进行跟踪。
-* 修复了需要延迟时处理单击的对象的问题。
-* 修复了如果访客 API 尚未具有所需的值，从链接 onclick 函数调用 s.t 时导致双页面视图计数的问题。
-* HTTP POST 支持。
+* 对于带有H代码的双重标记的页面，修复了在启用强制链接跟踪时（在Webkit浏览器中默认），在自动链接跟踪（下载并退出）过程中可能发生的循环。 此外，还增加了自动链接跟踪的常规保护功能，以防止类似的循环。 此保护功能将重复点击到同一对象的自动链 *接跟踪* 限制为每10秒一次。 此保护仅适用于自动链接跟踪，因此手动链接跟踪(s.tl)调用不受限制。 对不同对象的单击也不受此保护的影响，并将被跟踪。
+* 修复了在需要延迟时对单击的对象的处理。
+* 修复了在多次API尚未具有所需值时，从链接onclick函数调用s.t时导致访客页面视图计数的问题。
+* HTTP POST支持。
 
-   > [!IMPORTANT] 要调 [!DNL Analytics] 用使用POST方法而不是GET方法(在 [!DNL AppMeasurement] IE中解决截断的URL的方法 [](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html))，您必须使用Experience Cloud的最新访客ID服务实施。
+   > [!IMPORTANT] 对于在 [!DNL AppMeasurement] 中使用 POST 方法而不是 GET 方法（一种用于解决 [IE 中的截断 URL](https://helpx.adobe.com/cn/analytics/kb/shortening-image-request-urls.html) 的方法）的 [!DNL Analytics] 调用，您必须对 Experience Cloud 使用最新的访客 ID 服务实施。
 
 ## 版本 1.4
 
@@ -349,7 +349,7 @@ Updated: **August 4, 2016**
 * 下载 zip 文件中添加了 **[!UICONTROL AudienceManagement]** 模块。
 * 添加了对其他 eVar (76-250) 和事件 (101-1000) 的支持。
 
-> [!NOTE]H 代码不支持这些附加的 eVar 和事件。
+>[!NOTE]H 代码不支持这些附加的 eVar 和事件。
 
 ## 版本 1.3.2
 
@@ -368,19 +368,19 @@ Updated: **August 4, 2016**
 
 发行日期：**2014 年 4 月 17 日**
 
-* 支持 [Experience Cloud 访客 ID 服务](https://docs.adobe.com/content/help/en/id-service/using/home.html)。
+* 支持 [Experience Cloud 访客 ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)。
 
 ## 版本 1.2.4
 
 发行日期：**2014 年 3 月 13 日**
 
-* 心率视频的错误修复。
+* 心跳视频的错误修复。
 
 ## 版本 1.2.3
 
 发行日期：**2014 年 2 月 20 日**
 
-* 心率视频的错误修复。
+* 心跳视频的错误修复。
 
 ## 版本 1.2.2
 
@@ -392,14 +392,14 @@ Updated: **August 4, 2016**
 
 发行日期：**2013 年 11 月 15 日**
 
-* 修复了用于心跳视频测量的页面事件。
+* 修复了用于心率视频测量的页面事件。
 
 ## 版本 1.2
 
 发行日期：**2013 年 11 月 14 日**
 
-* Added support for [Heartbeat video measurement](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
-* `VisitorAPI.js`添加了 ，以便支持[访客 ID 服务](https://docs.adobe.com/content/help/en/id-service/using/home.html)。
+* 添加了对[心率视频测量](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-overview.html)的支持。
+* `VisitorAPI.js`添加了 ，以便支持[访客 ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)。
 
 ## 版本 1.1.1
 
@@ -438,7 +438,7 @@ Updated: **August 4, 2016**
 
 代码管理器目前提供了新的 [!DNL JavaScript] [!DNL AppMeasurement] 库。此库提供了与 [!DNL s_code.js] 相同的核心功能，但它更轻快，更适合在移动网站和桌面网站上使用。
 
-* 比 H.25 代码快 3 至 7 倍。
-* 未压缩时仅为 21k，压缩后为 8k（H.25 代码未压缩时为 33k，压缩后为 13k）。
-* 本地支持获取查询参数、读取 cookie，以及执行高级链接跟踪。
-* 小巧、快速的特点非常适合用于移动网站，而强健的功能又适合在完整的桌面网站上使用，从而使您可以在所有 Web 环境中使用单个库。
+* 比H.25代码快3-7倍。
+* 只有21k未压缩和8k gzipp（H.25代码为33k未压缩和13k gzipp）。
+* 本机支持获取查询参数、读写cookie以及执行高级链接跟踪。
+* 小巧、快速且足以与移动站点一起使用，强大到足以在完整桌面Web上使用，使您能跨所有Web环境利用单个库。
