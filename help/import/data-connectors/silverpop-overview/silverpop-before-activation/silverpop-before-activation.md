@@ -2,8 +2,8 @@
 description: 在激活此集成之前，请针对您的 Adobe Analytics® 部署和电子邮件软件查看以下项目。
 title: 在激活此集成之前
 uuid: b911edc6-2265-48ed-9e3c-c79cc20dd9b2
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * **有效的 Silverpop 帐户：**&#x200B;要使用此 Data Connectors 电子邮件集成，客户必须拥有启用电子邮件的活动 Silverpop 帐户以及活动用户凭据。
 * **联系您的 Silverpop 代表**。此集成不会由 Silverpop 自动启用。在从 Analytics 导入或导出数据之前，必须联系 Silverpop 代表以启动 Silverpop 设置。
 
-> [!NOTE] 此集成仅适用于 Engage（而非 Transact）组织。
+>[!NOTE] 此集成仅适用于 Engage（而非 Transact）组织。
 
 ## 定价{#pricing}
 
