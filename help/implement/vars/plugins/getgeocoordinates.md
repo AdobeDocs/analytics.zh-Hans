@@ -1,48 +1,48 @@
 ---
 title: getGeoCoordinates
-description: 跟踪访客的geoLocation。
+description: 跟踪访客的地理位置。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobe插件：getGeoCoordinates
+# Adobe 插件：getGeoCoordinates
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+>[!IMPORTANT] 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
-该 `getGeoCoordinates` 插件允许您捕获访客设备的经度和纬度。 如果您希望在Analytics变量中捕获地理位置数据，Adobe建议使用此插件。
+`getGeoCoordinates` 插件允许您捕获访客设备所在的纬度和经度。如果您想要在 Analytics 变量中捕获地理位置数据，Adobe 建议使用此插件。
 
-## 使用Adobe Experience Platform Launch扩展安装插件
+## 使用 Adobe Experience Platform Launch 扩展安装此插件
 
-Adobe提供了一个扩展，允许您使用最常用的插件。
+Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
-1. 转到选 [!UICONTROL Extensions] 项卡，然后单击按 [!UICONTROL Catalog] 钮
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. 安装和发布扩 [!UICONTROL Common Analytics Plugins] 展
-1. 如果尚未创建，请使用以下配置创建标有“初始化插件”的规则：
+1. 如果还没有任何扩展，请使用以下配置创建一个标签为“初始化插件”的规则：
    * 条件：无
-   * 事件：核心——载入的库（页面顶部）
+   * 事件：核心 - 已加载的库（页面顶部）
 1. 使用以下配置向上述规则添加操作：
-   * 扩展：常见分析插件
-   * 操作类型：初始化getGeoCoordinates
-1. 保存更改并发布到规则。
+   * 扩展：常用 Analytics 插件
+   * 操作类型：初始化 getGeoCoordinates
+1. 保存并发布对上述规则所做的更改。
 
-## 使用Launch自定义代码编辑器安装插件
+## 使用 Launch 自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
-1. 转到选项卡， [!UICONTROL Extensions] 然后单击Adobe Analytics扩 [!UICONTROL Configure] 展下的按钮。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. 展开折 [!UICONTROL Configure tracking using custom code] 叠面板，以显示按 [!UICONTROL Open Editor] 钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
-1. 保存更改并将其发布到Analytics扩展。
+1. 保存并发布对此 Analytics 扩展所做的更改。
 
-## 使用AppMeasurement安装插件
+## 使用 AppMeasurement 安装此插件
 
-在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 [`s_gi`](../functions/s-gi.md)码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -51,33 +51,33 @@ s.getGeoCoordinates=function(){var d=this,b="",a=d.c_r("s_ggc").split("|"),e={ti
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## 使用插件
+## 使用此插件
 
-该方 `getGeoCoordinates` 法不使用任何参数。 它返回以下值之一：
+`getGeoCoordinates` 方法不使用任何参数。它会返回以下任一值：
 
-* `"geo coordinates not available"`:对于在插件运行时没有可用地理位置数据的设备。 此值在首次访问点击时很常见，尤其是当访客首次需要同意跟踪其位置时。
-* `"error retrieving geo coordinates"`:当插件尝试检索设备位置时遇到任何错误
-* `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"`:其中 [LATITUDE]/[LONGITUDE] （经纬度）分别是经纬度
+* `"geo coordinates not available"`：对于在插件运行时没有可用地理位置数据的设备。此值在首次访问点击时很常见，特别是在访客需要首先准许跟踪其位置时。
+* `"error retrieving geo coordinates"`：对于插件尝试检索设备位置时遇到任何错误的情况
+* `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"`：其中 [LATITUDE]/[LONGITUDE] 分别表示纬度和经度
 
-> [!NOTE] 坐标值四舍五入到最接近的四进制。 例如，舍入值 `"40.438635333"` 以限制要 `"40.4386"` 捕获的唯一值的数量。 这些值足够接近，能够准确定位设备在约20英尺内的准确位置。
+>[!NOTE] 坐标值会四舍五入到最接近的小数点后四位。例如，值 `"40.438635333"` 会舍入到 `"40.4386"` 以限制要捕获的唯一值的数量。这些值足以能够将设备精确定位到 20 英尺内的确切位置。
 
-该插件使用名为cookie的Cookie，以在必 `"s_ggc"` 要时存储点击之间的坐标。
+如果需要，此插件会使用名为 `"s_ggc"` 的 Cookie 来存储点击之间的坐标。
 
 ## 示例调用
 
-### 示例#1
+### 示例 1
 
-以下代码……
+以下代码...
 
 ```js
 s.eVar1 = s.getGeoCoordinates();
 ```
 
-...根据访客的设备状态，将eVar1设置为等于上述返回值之一
+...根据访客的设备状态，将 eVar1 设置为等于上述返回值之一
 
-### 示例#2
+### 示例 2
 
-以下代码将纬度和经度提取到它们自己的变量（称为finalLatitude和finalLongitude）中，以用于其他代码／应用程序
+以下代码会将纬度和经度提取到它们自己的变量（称为 finalLatitude 和 finalLongitude）中，以供在其他代码/应用程序中使用
 
 ```js
 var coordinates = s.getGeoCoordinates();
@@ -88,7 +88,7 @@ if(coordinates.indexOf("latitude") > -1)
 }
 ```
 
-从那里，您可以确定访客是否在自由女神像处：
+通过此变量，您可以确定访客的位置，例如是否正在参观自由女神像：
 
 ```js
 if(finalLatitude >= 40.6891 && finalLatitude <= 40.6893 && finalLongtude >= -74.0446 && finalLongitude <= -74.0444)
@@ -97,8 +97,8 @@ else
   var visitorAtStatueOfLiberty = false;
 ```
 
-## 版本历史
+## 版本历史记录
 
-### 1.0（2015年5月25日）
+### 1.0（2015 年 5 月 25 日）
 
 * 第一版。
