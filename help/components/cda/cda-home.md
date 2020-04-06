@@ -2,14 +2,14 @@
 title: Cross-Device Analytics
 description: Cross-Device Analytics 可将设备数据拼合在一起，从而将您的数据从以设备为中心转变为以人员为中心。
 translation-type: tm+mt
-source-git-commit: 3e821ce7b045647c09d9548659834ffc2170163d
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Cross-Device Analytics
 
-> [!NOTE] 随着功能的进一步开发，Cross-Device Analytics 文档可能会发生更改。请定期查看以获取最新信息。
+>[!NOTE] 随着功能的进一步开发，Cross-Device Analytics 文档可能会发生更改。请定期查看以获取最新信息。
 
 Cross-Device Analytics 是一项功能，可将 Analytics 从以设备为中心的视图转变为以人员为中心的视图。此功能使用 Adobe Experience Platform Identity Service 协作图或专用图来识别属于个人的设备，并将这些设备拼合在一起。因此，分析师可以了解跨浏览器、设备或应用程序的用户行为。通过使用 CDA，您可以回答类似下面的问题：
 
@@ -27,19 +27,19 @@ Cross-Device Analytics 是一项功能，可将 Analytics 从以设备为中心�
 
 自 2019 年 9 月起，启用 Cross-Device Analytics 需要满足以下条件。请与贵组织内的团队以及 Adobe 客户经理合作，确保满足以下所有条件。
 
-> [!IMPORTANT] 如果不满足所有先决条件，则可能会导致无法启用 Cross-Device Analytics，或者导致拼合数据时的结果不佳。
+>[!IMPORTANT] 如果不满足所有先决条件，则可能会导致无法启用 Cross-Device Analytics，或者导致拼合数据时的结果不佳。
 
 * 贵组织的数据必须位于 Adobe 的太平洋西北地区数据中心。我们计划将来为世界其他地区的数据中心提供支持。
 * 联系贵组织的客户经理以确定以下要点：
    * 必须与 Adobe 签订有关 Adobe Analytics Ultimate 的合同。
-   * 贵组织必须使用 Adobe Experience Platform Identity Service 协作图或专用图。请参阅《Device Co-op 用户指南》中的[主页](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)。
+   * 贵组织必须使用 Adobe Experience Platform Identity Service 协作图或专用图。请参阅《Device Co-op 用户指南》中的[主页](https://docs.adobe.com/content/help/zh-Hans/device-co-op/using/home.html)。
    * 本着合作和透明的精神，我们希望我们的客户了解我们与跨设备分析相结合使用Microsoft Azure的情况。 Adobe使用Azure存储设备图形数据并执行跨设备拼接。 因此，Adobe Analytics数据会在Adobe的数据处理中心和Adobe的Microsoft Azure配置实例之间来回传递。
 * Cross-Device Analytics 是按报表包启用的。已启用 CDA 的报表包需要满足以下条件：
    * 报表包每天的点击量不能超过5亿。
    * Adobe 建议在报表包中纳入跨设备数据，即，来自多种设备类型（Web、应用程序等）的数据。某些组织将此概念称为“全球”报表包，尽管从地理角度来说，CDA 并不一定包含严格意义上的全球范围。Cross-Device Analytics 不适用于多个报表包，也无法合并多个报表包的数据。
 * 您的实施必须满足以下要求：
-   * 必须部署最新版本的 Experience Cloud ID 服务。请参阅《Experience Cloud Identity Service 用户指南》中的[主页](https://docs.adobe.com/content/help/en/id-service/using/home.html)。大多数使用 Adobe Experience Platform Launch 的实施可能已经部署 ECID。
-   * 当个人身份可以识别（例如，用户登录或打开电子邮件）时，需调用 `setCustomerIDs` 函数。这项要求适用于所有平台，包括使用的移动设备应用程序。请参阅《Experience Cloud Identity Service 用户指南》中的 [setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/setcustomerids.html)。
+   * 必须部署最新版本的 Experience Cloud ID 服务。请参阅《Experience Cloud Identity Service 用户指南》中的[主页](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)。大多数使用 Adobe Experience Platform Launch 的实施可能已经部署 ECID。
+   * 当个人身份可以识别（例如，用户登录或打开电子邮件）时，需调用 `setCustomerIDs` 函数。这项要求适用于所有平台，包括使用的移动设备应用程序。请参阅《Experience Cloud Identity Service 用户指南》中的 [setCustomerIDs](https://docs.adobe.com/content/help/zh-Hans/id-service/using/id-service-api/methods/setcustomerids.html)。
 
 ## 限制
 
