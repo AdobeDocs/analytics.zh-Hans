@@ -2,7 +2,7 @@
 title: 将启动项数据元素映射到Analytics变量
 description: 将数据元素分配给Analytics变量，以便在分析工作区中将其用作维。
 translation-type: tm+mt
-source-git-commit: 6937d47e3cf980a21bec680cdbd2931a4a368221
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 6937d47e3cf980a21bec680cdbd2931a4a368221
 
 ### 在规则中设置变量
 
-在不希望在每页设置变量的情况下，规则中设置的变量是理想的。 您可以在规则中定义条件。 See [Rules](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/rules.html) in the Adobe Experience Platform Launch user guide.
+在不希望在每页设置变量的情况下，规则中设置的变量是理想的。 您可以在规则中定义条件。 See [Rules](https://docs.adobe.com/content/help/zh-Hans/launch/using/reference/manage-resources/rules.html) in the Adobe Experience Platform Launch user guide.
 
 1. 转到 [Adobe Experience Platform Launch](https://launch.adobe.com)，并在出现提示时登录。
 1. 单击所需的启动项属性。
@@ -43,7 +43,7 @@ source-git-commit: 6937d47e3cf980a21bec680cdbd2931a4a368221
 1. 在模态窗口中选择所需的数据元素。 单击 [!UICONTROL Select].
 1. 数据元素名称将添加到由符号环绕的文本字 `%` 段。 例如，如果将数据元素命名为“页面名称”，则在将数据元素分配到变 `%Page name%` 量时将看到该字符串。
 
-> [!TIP] 您可以在同一变量中连接数据元素。 例如，如果您有“主机名”数据元素和“路径名”数据元素，则可以使用将这两个元素组合到单个变量中 `%Hostname%%Pathname%`。
+>[!TIP] 您可以在同一变量中连接数据元素。 例如，如果您有“主机名”数据元素和“路径名”数据元素，则可以使用将这两个元素组合到单个变量中 `%Hostname%%Pathname%`。
 
 ## 后续步骤
 
