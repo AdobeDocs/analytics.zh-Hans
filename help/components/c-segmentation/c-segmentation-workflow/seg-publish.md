@@ -4,7 +4,7 @@ title: 将区段发布到 Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: 5c555bbea04bed68dd8b569ee2cdd7d25092bb7a
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -15,23 +15,23 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 
 现在，处理过程可能最多需要 8 小时，但是根据其他流量和区段大小，处理速度可能会更快。（不过，我们目前无法通知您区段何时可用，因此您必须手动查看。）我们还将可发布区段的最大数量从 20 个增加到 75 个。您可以在“组件”>“区段”中查看已发布的区段。
 
-> [!NOTE] Adobe Campaign（Classic 和 Standard）的行为方式不同，因为它在 8 小时延迟的基础之上会额外产生 24 小时的延迟。
+>[!NOTE] Adobe Campaign（Classic 和 Standard）的行为方式不同，因为它在 8 小时延迟的基础之上会额外产生 24 小时的延迟。
 
 
 ## 先决条件
 
-* 确保[已为 Experience Cloud 启用](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)要保存此区段的报表包。否则，您无法将其发布到 Experience Cloud。
-* 确保您使用的报表包[已映射到 Experience Cloud 组织](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html)。
+* 确保[已为 Experience Cloud 启用](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/audiences/t-publish-audience-segment.html)要保存此区段的报表包。否则，您无法将其发布到 Experience Cloud。
+* 确保您使用的报表包[已映射到 Experience Cloud 组织](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/about-core-services/report-suite-mapping.html)。
 * 确保您的组织使用的是 Experience Cloud ID。
-* Before you can publish segments, your Admin needs to assign the [!UICONTROL Segment Publishing] permission to a product profile in the [Admin Console](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html), and add you to the product profile.
+* Before you can publish segments, your Admin needs to assign the [!UICONTROL Segment Publishing] permission to a product profile in the [Admin Console](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-getting-started.html), and add you to the product profile.
 
 
 ## 注意事项
 
 * **报表包限制**：每个报表包最多可发布 75 个区段。此限制是强制实施的。如果已发布 75 个区段，则只有在取消发布足够数量的区段，使区段数量低于 75 个区段的阈值后，才能发布任何其他区段。
 * **会员资格限制**：从 Analytics 共享到 [!DNL Experience Cloud] 的受众数量不能超过 2000 万个独特会员。
-* **数据隐私**：受众并非基于访客的身份验证状态进行过滤。如果访客可在未验证或已验证的状态下浏览您的站点，则访客在处于未验证状态时执行的操作仍会导致访客被包含在受众中。请查看 [Adobe Experience Cloud 隐私](https://www.adobe.com/privacy/experience-cloud.html)，了解受众共享对隐私的全面影响。
-* 有关&#x200B;**[!DNL Adobe Analytics]和[!DNL Audience Manager]**中的区段之间的差异的讨论，请转到[此处](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)。
+* **数据隐私**：受众并非基于访客的身份验证状态进行过滤。如果访客可在未验证或已验证的状态下浏览您的站点，则访客在处于未验证状态时执行的操作仍会导致访客被包含在受众中。请查看 [Adobe Experience Cloud 隐私](https://www.adobe.com/cn/privacy/experience-cloud.html)，了解受众共享对隐私的全面影响。
+* 有关&#x200B;**[!DNL Adobe Analytics]和[!DNL Audience Manager]**中的区段之间的差异的讨论，请转到[此处](https://docs.adobe.com/content/help/zh-Hans/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)。
 
 ## 区段发布时间轴
 
@@ -68,7 +68,7 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 
 要删除已发布到 Experience Cloud 的区段，必须先取消发布该区段。要取消发布区段，只需&#x200B;**取消选中**&#x200B;用于发布该区段的复选框。
 
-> [!NOTE]您&#x200B;**无法**&#x200B;取消发布以下任何一个 Adobe 解决方案当前正在使用的区段：[!DNL Analytics]（位于 [!DNL Audience Analytics] 中）、[!DNL Campaign]、[!DNL Advertising Cloud]（适用于 [!DNL Core Service] 和 [!DNL Audience Manager] 客户）和所有其他外部合作伙伴（适用于 [!DNL Audience Manager] 客户）。您&#x200B;**可以**&#x200B;取消发布 [!DNL Target] 正在使用的区段。
+>[!NOTE]您&#x200B;**无法**&#x200B;取消发布以下任何一个 Adobe 解决方案当前正在使用的区段：[!DNL Analytics]（位于 [!DNL Audience Analytics] 中）、[!DNL Campaign]、[!DNL Advertising Cloud]（适用于 [!DNL Core Service] 和 [!DNL Audience Manager] 客户）和所有其他外部合作伙伴（适用于 [!DNL Audience Manager] 客户）。您&#x200B;**可以**&#x200B;取消发布 [!DNL Target] 正在使用的区段。
 
 ## View segment publishing status in the [!UICONTROL Segment Manager]
 
@@ -88,7 +88,7 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 
 **方法 1：使用 Adobe Experience Cloud 调试器**
 
-1. 从 Chrome 网上应用店中，下载并安装 [Adobe Experience Cloud 调试器](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html)。
+1. 从 Chrome 网上应用店中，下载并安装 [Adobe Experience Cloud 调试器](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/testing-and-validation/debugger.html)。
 1. 加载页面时启动该调试器。
 1. 滚动到 Audience Manager 部分，然后找到在当前浏览器页面上设置的 AAM UUID
 （以下示例中为 `50814298273775797762943354787774730612`）
@@ -102,7 +102,7 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 
 ![Chrome 开发人员工具](assets/ggogle-uuid.png)
 
-## 使用Audience Manager [!UICONTROL Visitor Profile Viewer]
+## 使用受众管理器 [!UICONTROL Visitor Profile Viewer]
 
 The AAM UUID on the browser will be used by default when [!UICONTROL Visitor Profile Viewer] is loaded. If verifying trait realizations for other users, input a UUID in the UUID field and click [!UICONTROL Refresh]. 请参阅[访客资料查看器](https://marketing.adobe.com/resources/help/en_US/aam/t_visitor_profile_viewer.html)，以了解详细信息。
 
