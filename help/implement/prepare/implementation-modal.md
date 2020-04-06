@@ -1,8 +1,8 @@
 ---
 title: “实施”模式窗口
 description: 了解客户首次实施 Adobe Analytics 的体验。
-translation-type: ht
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -25,13 +25,13 @@ source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 1. 使用您的 Adobe ID 凭据登录 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 2. 单击顶部的 9 宫格图标，然后单击 [!UICONTROL Adobe Analytics]。
-3. 如果尚未创建报表包，则会自动显示此模式窗口。如果此登录公司存在报表包，请单击右上方的“帮助”图标，然后单击[!UICONTROL 欢迎使用 Adobe Analytics]。
+3. 如果尚未创建报表包，则会自动显示此模式窗口。If a report suite exists for this login company, click the Help icon in the top right, then click [!UICONTROL Welcome to Adobe Analytics].
 
-> [!NOTE] 仅当您通过 Adobe Experience Cloud 登录时，才会显示[!UICONTROL 欢迎使用 Adobe Analytics] 选项。如果通过旧域登录，则将不会显示此模式窗口。
+>[!NOTE] 仅 [!UICONTROL Welcome to Adobe Analytics] 当您通过Adobe Experience Cloud登录时，才会显示此选项。 如果通过旧域登录，则将不会显示此模式窗口。
 
 ## 创建报表包
 
-单击[!UICONTROL 开始设置]按钮以启动报表包创建工作流。
+Click the [!UICONTROL Start Setup] button to begin the report suite creation workflow.
 
 ![RS 向导](assets/analytics-implementation-rs-wizard.png)
 
@@ -67,7 +67,7 @@ source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 确定报表包存储货币值时所采用的币种。
 
-> [!IMPORTANT] 确保声明正确的货币，特别是当具有与收入相关的报告要求时。数据收集开始后，很难更改基本货币。
+>[!IMPORTANT] 确保声明正确的货币，特别是当具有与收入相关的报告要求时。数据收集开始后，很难更改基本货币。
 
 ## 实施资源
 
