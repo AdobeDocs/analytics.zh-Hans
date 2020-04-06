@@ -1,48 +1,48 @@
 ---
 title: getNewRepeat
-description: 跟踪新访客与重复访客的活动。
+description: 跟踪新访客与回访访客的活动。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobe插件：getNewRepeat
+# Adobe 插件：getNewRepeat
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+>[!IMPORTANT] 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
-该插 `getNewRepeat` 件允许您确定网站访客是新访客还是在所需天数内的重复访客。 如果您希望使用自定义天数将访客识别为“新”访客，Adobe建议使用此插件。 如果Analysis Workspace中的新访客／重复访客维度满足您组织的需求，则无需使用此插件。
+`getNewRepeat` 插件允许您确定网站访客是新访客还是所需天数内的回访访客。如果您想要使用自定义天数将访客识别为“新”访客，Adobe 建议使用此插件。如果 Analysis Workspace 中的新访客/回访访客维度满足贵组织的需求，则无需使用此插件。
 
-## 使用Adobe Experience Platform Launch扩展安装插件
+## 使用 Adobe Experience Platform Launch 扩展安装此插件
 
-Adobe提供了一个扩展，允许您使用最常用的插件。
+Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
-1. 转到选 [!UICONTROL Extensions] 项卡，然后单击按 [!UICONTROL Catalog] 钮
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. 安装和发布扩 [!UICONTROL Common Analytics Plugins] 展
-1. 如果尚未创建，请使用以下配置创建标有“初始化插件”的规则：
+1. 如果还没有任何扩展，请使用以下配置创建一个标签为“初始化插件”的规则：
    * 条件：无
-   * 事件：核心——载入的库（页面顶部）
+   * 事件：核心 - 已加载的库（页面顶部）
 1. 使用以下配置向上述规则添加操作：
-   * 扩展：常见分析插件
-   * 操作类型：初始化getNewRepeat
-1. 保存更改并发布到规则。
+   * 扩展：常用 Analytics 插件
+   * 操作类型：初始化 getNewRepeat
+1. 保存并发布对上述规则所做的更改。
 
-## 使用Launch自定义代码编辑器安装插件
+## 使用 Launch 自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
-1. 转到选项卡， [!UICONTROL Extensions] 然后单击Adobe Analytics扩 [!UICONTROL Configure] 展下的按钮。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. 展开折 [!UICONTROL Configure tracking using custom code] 叠面板，以显示按 [!UICONTROL Open Editor] 钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
-1. 保存更改并将其发布到Analytics扩展。
+1. 保存并发布对此 Analytics 扩展所做的更改。
 
-## 使用AppMeasurement安装插件
+## 使用 AppMeasurement 安装此插件
 
-在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 [`s_gi`](../functions/s-gi.md)码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -51,65 +51,65 @@ s.getNewRepeat=function(d){d=d?d:30;var s=this,p="s_nr"+d,b=new Date,e=s.c_r(p),
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## 使用插件
+## 使用此插件
 
-该方 `getNewRepeat` 法使用以下参数：
+`getNewRepeat` 方法使用以下参数：
 
-* **`d`** （integer，可选）:将访客重置回访的访问之间所需的最少天数 `"New"`。 如果未设置此参数，则默认为30天。
+* **`d`**（整数，可选）：将访客重置回 `"New"` 的两次访问之间所需的最小天数。如果未设置此参数，则默认为 30 天。
 
-如果插件设置的 `"New"` Cookie不存在或已过期，则此方法返回的值。 如果插件设置的 `"Repeat"` cookie存在，则返回的值，且自当前点击和cookie中设置的时间大于30分钟以来的时间。 此方法为整个访问返回相同的值。
+如果插件设置的 Cookie 不存在或已过期，则此方法将返回值 `"New"`。如果插件设置的 Cookie 存在，并且自当前点击以来的时间以及 Cookie 中设置的时间大于 30 分钟，则它将返回值 `"Repeat"`。在整个访问期间，此方法将返回相同的值。
 
-此插件使用名为where的cookie, `"s_nr[LENGTH]"` 该 `[LENGTH]` cookie等于参 `d` 数。 Cookie包含表示访客（或）的当前时间和当前状态的Unix`"New"` 时间 `"Repeat"`戳。
+该插件使用名为 `"s_nr[LENGTH]"` 的 Cookie，其中 `[LENGTH]` 等于 `d` 参数。Cookie 包含一个 Unix 时间戳，该时间戳表示访客的当前时间和当前状态（`"New"` 或 `"Repeat"`）。
 
 ## 示例调用
 
-### 示例#1
+### 示例 1
 
-以下代码将新访客的s.eVar1设置为“New”值，并在访客访问网站的剩余时间内继续将s.eVar1设置为“New”值（每次新调用）。
-
-```js
-s.eVar1=s.getNewRepeat();
-```
-
-### 示例#2
-
-如果访客自上次调用s.getNewRepeat()以来在31分钟到30天内随时返回网站，则以下代码将s.eVar1设置为“Repeat”值，并在访客访问网站的剩余时间中继续将s.eVar1设置为“Repeat”值（每次新调用）。
+以下代码会将新访客的 s.eVar1 的值设置为等于“New”，并在访客访问网站的剩余时间内继续将 s.eVar1 的值设置为等于“New”（通过每次新调用）。
 
 ```js
 s.eVar1=s.getNewRepeat();
 ```
 
-### 示例#3
+### 示例 2
 
-如果访客自上次调用s.getNewRepeat()起至少30天未访问过网站，则以下代码将s.eVar1设置为“New”值，并在访客访问网站的剩余时间内继续将s.eVar1设置为“New”值（每次新调用）。
+如果访客自上次调用 s.getNewRepeat() 以来在 31 分钟到 30 天内的任何时间返回网站，则以下代码会将 s.eVar1 的值设置为等于“Repeat”，并在访客访问网站的剩余时间中继续将 s.eVar1 的值设置为等于“Repeat”（通过每次新调用）。
 
 ```js
 s.eVar1=s.getNewRepeat();
 ```
 
-### 示例#4
+### 示例 3
 
-如果访客自上次调用s.getNewRepeat()以来在31分钟到365天（即1年）内回访网站，则以下代码将s.eVar1设置为“Repeat”的值，并将s.eVar1设置为“Repeat”的值（每次新调用），并在剩余时间内继续将s.eVar1设置为“Repeat”的值访客对网站的访问。
+如果访客自上次调用 s.getNewRepeat() 以来至少有 30 天未返回网站，则以下代码会将 s.eVar1 的值设置为“New”，并在访客访问网站的剩余时间中继续将 s.eVar1 的值设置为等于“New”（通过每次新调用）。
+
+```js
+s.eVar1=s.getNewRepeat();
+```
+
+### 示例 4
+
+如果访客自上次调用 s.getNewRepeat() 以来在 31 分钟到 365 天（即 1 年）内的任何时间返回网站，则以下代码将 s.eVar1 的值设置为等于“Repeat”，并在访客访问网站的剩余时间中继续将 s.eVar1 的值设置为等于“Repeat”（通过每次新调用）。
 
 ```js
 s.eVar1=s.getNewRepeat(365);
 ```
 
-### 示例#5
+### 示例 5
 
-如果访客自上次调用s.getNewRepeat()以来至少365天（即1年）未访问过网站，则以下代码将s.eVar1设置为“New”值，并将s.eVar1设置为“New”值（每次新调用），在剩余时间内，始终将s.eVar1设置为“New”值访问网站。
+如果访客自上次调用 s.getNewRepeat() 以来至少有 365 天（即 1 年）未返回网站，则以下代码会将 s.eVar1 的值设置为等于“New”，并在访客访问网站的剩余时间中继续将 s.eVar1 的值设置为等于“New”（通过每次新调用）。
 
 ```js
 s.eVar1=s.getNewRepeat(365);
 ```
 
-## 版本历史
+## 版本历史记录
 
-### 2.1（2019年9月30日）
+### 2.1（2019 年 9 月 30 日）
 
-* 重排JavaScript逻辑以减小插件大小
+* 重新整理了 JavaScript 逻辑以减小插件大小
 
-### 2.0（2018年4月16日）
+### 2.0（2018 年 4 月 16 日）
 
 * 使用较小的代码大小重新编译
-* 删除了命名cookie以存储访问信息的功能。 该插件现在根据传递到参数的值动态命名Cookie `d` 。
+* 删除了命名 Cookie 以存储访问信息的功能。该插件现在会根据传递到 `d` 参数的值动态命名 Cookie。
