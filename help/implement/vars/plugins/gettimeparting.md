@@ -2,51 +2,51 @@
 title: getTimeParting
 description: 测量特定操作发生的时间。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobe插件：getTimeParting
+# Adobe 插件：getTimeParting
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+>[!IMPORTANT] 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
-该插 `getTimeParting` 件允许您捕获网站上发生任何可衡量活动的详细时间。 当您希望按给定日期范围内的任何可重复时间划分指标时，此插件很有价值。 例如，您可以比较一周中两个不同天的转化率，如所有星期日与所有星期四。 您还可以比较一天中的时段，如所有早晨与所有晚上。
+`getTimeParting` 插件允许您捕获网站上发生任何可衡量活动的详细时间。如果您希望按任一可重复分时段对指定日期范围内的量度进行细分，此插件将非常有帮助。例如，您可以比较一周内某两天的转化率，如所有星期日的转化率与所有星期四的转化率。您还可以比较一天内的不同时段，如比较所有上午与所有晚上。
 
-Analysis Workspace提供的开箱即用尺寸与此插件格式略有不同。 有关详 [细信息，请参阅](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md) “分析用户指南”中的分时维度。 一些组织发现，Analysis Workspace的现成维度已足够。
+Analysis Workspace 提供了与此插件类似的开箱即用维度，只是维度的格式略有不同。有关更多信息，请参阅 Analytics 用户指南中的[时间划分维度](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md)。有些组织发现 Analysis Workspace 提供的开箱即用维度足以满足其需求。
 
-> [重要] ：此插件的4.0+版与先前版本有显着不同。 Adobe强烈建议“从头开始”实施此插件。 引用4.0版之前的插件的代码与此插件的当前版本不兼容。
+>[重要信息] 此插件的 4.0 及更高版本与以往版本有显著差异。Adobe 强烈建议您“从头开始”实施此插件。引用了版本 4.0 之前插件的代码与此插件的当前版本不兼容。
 
-## 使用Adobe Experience Platform Launch扩展安装插件
+## 使用 Adobe Experience Platform Launch 扩展安装此插件
 
-Adobe提供了一个扩展，允许您使用最常用的插件。
+Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
-1. 转到选 [!UICONTROL Extensions] 项卡，然后单击按 [!UICONTROL Catalog] 钮
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. 安装和发布扩 [!UICONTROL Common Analytics Plugins] 展
-1. 如果尚未创建，请使用以下配置创建标有“初始化插件”的规则：
+1. 如果还没有任何扩展，请使用以下配置创建一个标签为“初始化插件”的规则：
    * 条件：无
-   * 事件：核心——载入的库（页面顶部）
+   * 事件：核心 - 已加载的库（页面顶部）
 1. 使用以下配置向上述规则添加操作：
-   * 扩展：常见分析插件
-   * 操作类型：初始化getTimeParting
-1. 保存更改并发布到规则。
+   * 扩展：常用 Analytics 插件
+   * 操作类型：初始化 getTimeParting
+1. 保存并发布对上述规则所做的更改。
 
-## 使用Launch自定义代码编辑器安装插件
+## 使用 Launch 自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
-1. 转到选项卡， [!UICONTROL Extensions] 然后单击Adobe Analytics扩 [!UICONTROL Configure] 展下的按钮。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. 展开折 [!UICONTROL Configure tracking using custom code] 叠面板，以显示按 [!UICONTROL Open Editor] 钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
-1. 保存更改并将其发布到Analytics扩展。
+1. 保存并发布对此 Analytics 扩展所做的更改。
 
-## 使用AppMeasurement安装插件
+## 使用 AppMeasurement 安装此插件
 
-在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 [`s_gi`](../functions/s-gi.md)码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,54 +55,54 @@ var getTimeParting=function(a){a=document.documentMode?void 0:a||"Etc/GMT";a=(ne
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## 使用插件
+## 使用此插件
 
-该方 `getTimeParting` 法使用以下参数：
+`getTimeParting` 方法会使用以下参数：
 
-**`t`** （可选，但建议，字符串）:将访客的本地时间转换为的时区名称。  默认为UTC/GMT时间。 请参 [阅维基百科上的TZ数据库时区列表](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) ，以获取有效值的完整列表。
+**`t`**（可选但建议使用的字符串）：要将访客的本地时间转换到的时区的名称。默认为 UTC/GMT 时间。请参阅维基百科上的 [TZ 时区数据库所含时区列表](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)，以获取有效值的完整列表。
 
 常见有效值包括：
 
-* `"America/New_York"` for Eastern Time
-* `"America/Chicago"` 对于Central Time
-* `"America/Denver"` for Mountain Time
-* `"America/Los_Angeles"` 对于太平洋时间
+* `"America/New_York"`（表示东部时间）
+* `"America/Chicago"`（表示中部时间）
+* `"America/Denver"`（表示山地时间）
+* `"America/Los_Angeles"`（表示太平洋时间）
 
-调用此方法将返回一个字符串，该字符串包含以管道(`|`)分隔的以下内容：
+调用此方法将返回一个字符串，其中包含以管道 (`|`) 分隔的以下项：
 
-* 本年度
-* 当月
-* 当月的某天
-* 一周中的某天
-* 当前时间（上午／下午）
+* 当前年份
+* 当前月份
+* 当前日期
+* 星期几
+* 当前时间（上午/下午）
 
 ## 示例调用
 
 ### 特定时区示例
 
-如果客户端位于法国巴黎，请使用以下示例代码：
+如果客户位于法国巴黎，请使用以下示例代码：
 
 ```js
 s.eVarX = getTimeParting("Europe/Paris");
 ```
 
-如果客户端位于加利福尼亚州圣何塞：
+如果客户位于加利福尼亚州圣何塞，请使用以下示例代码：
 
 ```js
 s.eVarX = getTimeParting("America/Los_Angeles");
 ```
 
-如果客户在非洲国家加纳：
+如果客户位于非洲加纳，请使用以下示例代码：
 
 ```js
 s.eVarX = getTimeParting();
 ```
 
-加纳在UTC/GMT时区内。  此示例说明，在这种情况下，不必使用插件参数。
+加纳处于 UTC/GMT 时区内。此示例说明，在这种情况下，无需使用任何插件参数。
 
-### Internet Explorer浏览器计费
+### 考虑 Internet Explorer 浏览器
 
-如果要从Internet Explorer访客中排除分时段数据，请使用以下示例（因为从IE浏览器返回的值只能在访客的本地时间内）
+如果要排除 Internet Explorer 访客的时间划分数据，请使用以下示例（原因是从 IE 浏览器返回的值只能使用访客所在地区的本地时间）
 
 ```js
 if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
@@ -111,60 +111,60 @@ else s.eVarX = "Internet Explorer Visitors";
 
 ### 调用结果
 
-如果科罗拉多州丹佛的访客在2020年8月31日上午9:15访问某网站，
+如果来自科罗拉多州丹佛的访客于 2020 年 8 月 31 日上午 9:15 访问某网站，
 
-正在运行以下代码……
+运行以下代码...
 
 ```js
 s.eVar10 = getTimeParting("Europe/Athens");
 ```
 
-...将s.eVar10设置为等于“year=2020”|月=八月| date=31| day=星期五|时间=下午6:15&quot;
+...会将 s.eVar10 设置为等于“year=2020 | month=August | date=31 | day=Friday | time=6:15 PM”
 
-当以下代码……
+而以下代码...
 
 ```js
 s.eVar10 = getTimeParting("America/Nome");
 ```
 
-...将s.eVar10设置为等于“year=2020”|月=八月| date=31| day=星期五| time=6:15 AM&quot;
+...会将 s.eVar10 设置为等于“year=2020 | month=August | date=31 | day=Friday | time=6:15 AM”
 
-以下代码……
+以下代码...
 
 ```js
 s.eVar10 = getTimeParting("Asia/Calcutta");
 ```
 
-...将s.eVar10设置为等于“year=2020”|月=八月| date=31| day=星期五|时间=晚上8:45”
+...会将 s.eVar10 设置为等于“year=2020 | month=August | date=31 | day=Friday | time=8:45 PM”
 
-下面的代码……
+以下代码...
 
 ```js
 s.eVar10 = getTimeParting("Australia/Sydney");
 ```
 
-...将s.eVar10设置为等于“year=2020”|月=九月| date=1| day=星期六| time=1:15 AM&quot;
+...会将 s.eVar10 设置为等于“year=2020 | month=September | date=1 | day=Saturday | time=1:15 AM”
 
-## 版本历史
+## 版本历史记录
 
-### 6.2（2019年11月5日）
+### 6.2（2019 年 11 月 5 日）
 
-* 小错误修复
-* 缩小了总体代码大小
+* 修复了若干小错误
+* 从整体上缩小了代码大小
 
-### 6.1（2018年11月26日）
+### 6.1（2018 年 11 月 26 日）
 
-* 针对Internet Explorer浏览器的修复。 他们可以返回时间，但只返回访客的当地时间。
+* 对 Internet Explorer 浏览器问题进行了修复。此类浏览器可以返回时间，但只能返回访客所在地区的本地时间。
 
-### 6.0（2018年8月14日）
+### 6.0（2018 年 8 月 14 日）
 
-* 完全重写以符合国际标准。 现在可正确转换夏令时和所有时区。
+* 为符合国际标准，进行了彻底重写。现在可正确转换夏令时和所有时区。
 
-### 5.0（2018年4月17日）
+### 5.0（2018 年 4 月 17 日）
 
-* 点发行（重新编译后，代码更小）
-* 删除了对该参数的 `tpDST` 需求，因为现在自动检测夏令时开始／结束日期
+* 修正版本（重新编译，代码更小）
+* 由于现在可自动检测到夏令时开始/结束日期，因此无需再使用 `tpDST` 参数。
 
-### 4.0（2016年8月22日）
+### 4.0（2016 年 8 月 22 日）
 
-* 提供全新的解决方案，现在包括年份、月份和日期信息。
+* 提供了全新的解决方案，现在可包含年份、月份和日期信息。
