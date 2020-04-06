@@ -1,48 +1,48 @@
 ---
 title: addProductEvent
-description: 将自定义事件添加到产品和事件变量。
+description: 将自定义事件添加到产品变量和事件变量。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobe插件：addProductEvent
+# Adobe 插件：addProductEvent
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+>[!IMPORTANT] 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
-插 `addProductEvent` 件会向变量添加数字或货币事 [`products`](../page-vars/products.md) 件。 如果您希望向变量添加数字或货币事件而不担心产品字符串格式，Adobe `products` 建议使用此插件。 如果不在变量中使用数字或货币事件，则无需使用此插 `products` 件。
+`addProductEvent` 插件会向 [`products`](../page-vars/products.md) 变量添加数值或货币事件。如果您希望向 `products` 变量添加数值或货币事件而无需担心产品字符串格式，Adobe 建议使用此插件。如果不在 `products` 变量中使用数值或货币事件，则无需使用此插件。
 
-## 使用Adobe Experience Platform Launch扩展安装插件
+## 使用 Adobe Experience Platform Launch 扩展安装此插件
 
-Adobe提供了一个扩展，允许您使用最常用的插件。
+Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
-1. 转到选 [!UICONTROL Extensions] 项卡，然后单击按 [!UICONTROL Catalog] 钮
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. 安装和发布扩 [!UICONTROL Common Analytics Plugins] 展
-1. 如果尚未创建，请使用以下配置创建标有“初始化插件”的规则：
+1. 如果还没有任何扩展，请使用以下配置创建一个标签为“初始化插件”的规则：
    * 条件：无
-   * 事件：核心——载入的库（页面顶部）
+   * 事件：核心 - 已加载的库（页面顶部）
 1. 使用以下配置向上述规则添加操作：
-   * 扩展：常见分析插件
-   * 操作类型：初始化addProductEvent
-1. 保存更改并发布到规则。
+   * 扩展：常用 Analytics 插件
+   * 操作类型：初始化 addProductEvent
+1. 保存并发布对上述规则所做的更改。
 
-## 使用Launch自定义代码编辑器安装插件
+## 使用 Launch 自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
-1. 转到选项卡， [!UICONTROL Extensions] 然后单击Adobe Analytics扩 [!UICONTROL Configure] 展下的按钮。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. 展开折 [!UICONTROL Configure tracking using custom code] 叠面板，以显示按 [!UICONTROL Open Editor] 钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
-1. 保存更改并将其发布到Analytics扩展。
+1. 保存并发布对此 Analytics 扩展所做的更改。
 
-## 使用AppMeasurement安装插件
+## 使用 AppMeasurement 安装此插件
 
-在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 [`s_gi`](../functions/s-gi.md)码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -57,23 +57,23 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## 使用插件
+## 使用此插件
 
-该方 `addProductEvent` 法使用以下参数：
+`addProductEvent` 方法使用以下参数：
 
-* **`en`** （必需，字符串）:要添加到变量中最后一个条目的事 `products` 件。 如果变 `products` 量为空，则会创建一个“空白”产品条目，并附加事件（及其值）。
-* **`ev`** （必需，字符串）:为参数中的数字或货币事件分配的 `en` 值。  未设置 `1` 时，默认值为。
-* **`ap`** （可选，布尔）:如果products变量当前包含多个产品条目，则值为 `true` (或 `1`)会将事件添加到所有产品条目。  未设置 `false` 时，默认值为。
+* **`en`**（必需，字符串）：要添加到 `products` 变量中最后一个条目的事件。如果 `products` 变量为空，则会创建一个“空白”产品条目，并附加事件（及其值）。
+* **`ev`**（必需，字符串）：分配给 `en` 参数中的数值或货币事件的值。如果未设置，则默认为 `1`。
+* **`ap`**（可选，布尔值）：如果产品变量当前包含多个产品条目，则值为 `true`（或 `1`）会将事件添加到所有产品条目。如果未设置，则默认为 `false`。
 
-这些 `addProductEvent` 数据不会返回任何结果。 而是将事件及其值添加到变 `products` 量。 该插件还会自动将事件添加到变 [`events`](../page-vars/events/events-overview.md) 量中，因为该变量也是必需的。
+`addProductEvent` 不会返回任何结果。而是将事件及其值添加到 `products` 变量。该插件还会自动将事件添加到 [`events`](../page-vars/events/events-overview.md) 变量中，因为此变量也需要该事件。
 
 ## Cookie
 
-addProductEvent插件不创建或使用任何Cookie
+addProductEvent 插件不会创建或使用任何 Cookie
 
 ## 示例调用
 
-### 示例#1
+### 示例 1
 
 以下代码将变 `s.products` 量设置为 `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`。
 
@@ -85,7 +85,7 @@ s.addProductEvent("event35", "25");
 
 上述代码还将变 `s.events` 量设置为 `"purchase,event35"`
 
-### 示例#2
+### 示例 2
 
 下面的代码将变 `s.products` 量设置为 `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
 
@@ -94,9 +94,9 @@ s.products=";product1;3;300,;product2;2;122,;product3;1;25";
 s.addProductEvent("event35", 25, 1);
 ```
 
-当调用中的第三个参 `addProductEvent` 数是 `true` (或 `1`)时，每个产品条目都会将调用中指定的事件添加到其值中。
+当调用中的第三个参 `addProductEvent` 数为 `true` (或 `1`)时，每个产品条目都将调用中指定的事件添加到其值中。
 
-### 示例#3
+### 示例 3
 
 下面的代码将变 `s.products` 量设置为 `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
 
@@ -110,7 +110,7 @@ s.addProductEvent("event35", "15");
 
 上述代码还将变 `s.events` 量设置为 `"purchase,event2,event33,event34,event35"`
 
-### 示例#4
+### 示例 4
 
 下面的代码将变 `s.products` 量设置为 `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
 
@@ -124,9 +124,9 @@ s.addProductEvent("event35", "15", 1);
 
 上述代码还将变 `s.events` 量设置为 `"purchase,event2,event33,event34,event35"`。
 
-> [!NOTE] 调用中的第二个参数可以是整数 **** ，也可以是表示整数／数字的字符串
+>[!NOTE] 调用中的第二个参数可以是整数 **** ，也可以是表示整数／数字的字符串
 
-### 示例#5
+### 示例 5
 
 如 `s.products` 果尚未设置，以下代码将其设置为 `";;;;event35=25"`
 
@@ -136,8 +136,8 @@ s.addProductEvent("event35", "25");
 
 上述代码还附 `"event35"` 加到结 `s.events` 尾 **，如**&#x200B;果尚未设置， `s.events` 则上述代码将设 `s.events` 置为 `"event35"`
 
-## 版本历史
+## 版本历史记录
 
-### 1.0（2019年10月7日）
+### 1.0（2019 年 10 月 7 日）
 
 * 第一版。
