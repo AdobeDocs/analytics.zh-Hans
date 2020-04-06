@@ -1,15 +1,15 @@
 ---
 title: dynamicAccountSelection
 description: dynamicAccountSelection 变量可启用或禁用动态帐户选择。
-translation-type: ht
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # dynamicAccountSelection
 
-> [!IMPORTANT] 仅当使用旧版 JavaScript 实施（H 代码）时，才支持动态帐户。当前的 AppMeasurement 库或 Adobe Experience Platform Launch 不支持这些变量。
+>[!IMPORTANT] 仅当使用旧版 JavaScript 实施（H 代码）时，才支持动态帐户。当前的 AppMeasurement 库或 Adobe Experience Platform Launch 不支持这些变量。
 
 `dynamicAccountSelection` 变量是一个布尔值，可确定是否使用动态帐户选择。
 
