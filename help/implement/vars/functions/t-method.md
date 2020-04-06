@@ -1,17 +1,17 @@
 ---
 title: t
-description: 向Adobe发送页面查看跟踪调用。
+description: 向 Adobe 发送页面查看跟踪调用。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # t()
 
-该方 `t()` 法是Adobe Analytics的一个重要核心组件。 它将获取页面上定义的所有Analytics变量，将其编译为图像请求，并将该数据发送到Adobe数据收集服务器。
+`t()` 方法是 Adobe Analytics 的一个重要核心组件。它将获取页面上定义的所有 Analytics 变量，将其编译为图像请求，并将该数据发送到 Adobe 数据收集服务器。
 
-例如，请考虑以下JavaScript代码：
+例如，请考虑以下 JavaScript 代码：
 
 ```js
 // Instantiate the tracking object
@@ -25,34 +25,34 @@ s.eVar1 = "Example dimension value";
 s.t();
 ```
 
-运行该方 `t()` 法会定义所有Analytics变量，并根据这些变量制定URL。 某些Analytics变量决定图像的URL，而其他变量则决定查询字符串参数值。
+运行 `t()` 方法可获取所有已定义的 Analytics 变量，并根据这些变量制定 URL。某些 Analytics 变量可确定图像的 URL，而其他变量则可确定查询字符串参数值。
 
 ```text
 https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 ```
 
-Adobe接收图像请求，然后分析请求标题、URL和查询字符串参数。 然后，数据收集服务器返回透明的1x1像素图像，该图像在您的站点上不可见地显示。
+Adobe 会接收图像请求，然后解析请求标头、URL 和查询字符串参数。然后，数据收集服务器会返回透明的 1x1 像素图像，该图像会隐式显示在您的网站上。
 
-## Adobe Experience Platform Launch中的页面查看跟踪调用
+## Adobe Experience Platform Launch 中的“页面查看跟踪调用”
 
-Launch有一个专用位置，用于设置页面查看跟踪调用。
+Launch 有一个专用位置，用于设置页面查看跟踪调用。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 2. 单击所需的属性。
-3. 转到选项卡， [!UICONTROL Rules] 然后单击所需的规则（或创建规则）。
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
 4. 在 [!UICONTROL Actions]下，单击“+”图标
-5. 将下拉 [!UICONTROL Extension] 列表设置为Adobe Analytics，将其设置为发送 [!UICONTROL Action Type] 信标。
-6. Click the `s.t()` radio button.
+5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
+6. 单击 `s.t()` 单选按钮。
 
-## s.t()方法（在AppMeasurement中）和启动自定义代码编辑器
+## AppMeasurement 和 Launch 自定义代码编辑器中的 s.t() 方法
 
-当您要 `s.t()` 向Adobe发送跟踪调用时，请调用该方法。
+当您要向 Adobe 发送跟踪调用时，请调用 `s.t()` 方法。
 
 ```js
 s.t();
 ```
 
-或者，您也可以将对象用作参数来覆盖变量值。 有关更 [多信息](../../js/overrides.md) ，请参阅变量覆盖。
+或者，您也可以将对象用作参数来覆盖变量值。有关更多信息，请参阅[变量覆盖](../../js/overrides.md)。
 
 ```js
 var y = new Object();
@@ -60,4 +60,4 @@ y.eVar1 = "Override value";
 s.t(y);
 ```
 
-> [!NOTE] AppMeasurement的早期版本使用几行代码调用此函数。 以前，附加的代码可以满足不同浏览器的解决办法。 现代浏览器中的标准化和最佳实践不再需要此代码块。 现在只需要方 `s.t()` 法调用。
+>[!NOTE] AppMeasurement 的早期版本使用几行代码调用此函数。过去，其他代码可适应不同浏览器的解决方法。现代浏览器中的标准化和最佳实践不再需要此代码块。现在只需要方法调用 `s.t()`。
