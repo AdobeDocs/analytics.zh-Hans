@@ -3,7 +3,7 @@ description: 'null'
 title: 部署集成
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: 61df62a6f7089ce7d0308e3b62664176b76e520e
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: 61df62a6f7089ce7d0308e3b62664176b76e520e
 
 完成集成向导后，将集成配置对象部署到您的Web属性。 在很多情况下，部署集成配置对象最简单的方法是，将其包含在 Adobe Analytics 部署代码中。
 
-> [!NOTE] 如果您使用Adobe Experience Platform Launch，则可以通过该工具轻松添加集成配置对象。
+>[!NOTE] 如果您使用Adobe Experience Platform Launch，则可以通过该工具轻松添加集成配置对象。
 
 1. Navigate to the **[!UICONTROL Resources]** > **[!UICONTROL Support]** tab of the integration.
 1. 下载并保存 **[!UICONTROL Kampyle Integration Code (JS)]** 资源。 该代码与以下内容类似：
@@ -61,7 +61,7 @@ source-git-commit: 61df62a6f7089ce7d0308e3b62664176b76e520e
 
 View your Kampyle integration setup within the Adobe Experience Cloud by navigating to **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**. Under the **[!UICONTROL Data In]** tab, you should see entries stating that classification data was successfully imported.
 
-> [!NOTE] 日志条目通常在成功部署后的24小时内显示。
+>[!NOTE] 日志条目通常在成功部署后的24小时内显示。
 
 ![集成活动日志](assets/integration_activity_log.png)
 
@@ -69,6 +69,6 @@ View your Kampyle integration setup within the Adobe Experience Cloud by navigat
 
 通过在 Adobe Analytics 的相应菜单结构中导航到 Kampyle 报表，查看 Kampyle 反馈报表。
 
-> [!NOTE] 如果集成反馈表单主动接收提交，则报表数据应会在成功部署后的 24-48 小时内显示。
+>[!NOTE] 如果集成反馈表单主动接收提交，则报表数据应会在成功部署后的 24-48 小时内显示。
 
 ![Adobe报告数据](assets/adobe_reporting_data.png)
