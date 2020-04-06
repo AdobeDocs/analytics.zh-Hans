@@ -1,32 +1,32 @@
 ---
 title: s_gi()
-description: 创建和跟踪AppMeasurement实例。
+description: 创建和跟踪 AppMeasurement 实例。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # s_gi
 
-该函 `s_gi()` 数按报表包ID实例化或查找AppMeasurement的实例。 AppMeasurement keeps track of every instance created, and `s_gi()` returns the existing instance for a report suite if one exists. 如果实例不存在，则会创建新实例。
+`s_gi()` 函数按报表包 ID 实例化或查找 AppMeasurement 的实例。AppMeasurement 会保持跟踪每个创建的实例，`s_gi()` 会为报表包返回现有实例（如果存在）。如果实例不存在，则会创建一个新实例。
 
-## s_gi()
+## Adobe Experience Platform Launch 中的 s_gi()
 
-Analytics扩展为您实例化和管理跟踪对象。 但是，在配置Adobe Analytics扩展时，您也可以在accordion [!UICONTROL Library Management] 中设置全局跟踪对象。
+Analytics 扩展可为您实例化和管理跟踪对象。However, you can also set a global tracking object in the [!UICONTROL Library Management] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 2. 单击所需的属性。
-3. 转到选项卡， [!UICONTROL Extensions] 然后单击“Adobe Analytics” [!UICONTROL Configure] 下的按钮。
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. 展开折叠 [!UICONTROL Library Management] 面板，然后选择除之外的任何单选按钮 [!UICONTROL Manage the library for me]。
 
-全局变量文本字段允许您设置自定义跟踪对象。 Its default value is `s`.
+全局变量文本字段允许您设置自定义跟踪对象。其默认值为 `s`。
 
-## s_gi()在AppMeasurement和Launch自定义代码编辑器中
+## AppMeasurement 和 Launch 自定义代码编辑器中的 s_gi()
 
-调用函 `s_gi()` 数以实例化跟踪对象。 其唯一参数包含以逗号分隔的报表包ID字符串。 报表包ID参数为必填。
+调用 `s_gi()` 函数以实例化跟踪对象。其唯一参数包含以逗号分隔的报表包 ID 字符串。报表包 ID 参数为必需参数。
 
-> [!TIP] Adobe建议将该变 `s` 量用作跟踪对象。 Adobe在其 `s` 文档、实施示例和插件中使用。 但是，只要您的站点保持一致，您就可以使用任何变量。
+>[!TIP] Adobe 建议将该 `s` 变量用作跟踪对象。Adobe 在其文档、实施示例和插件中使用 `s`。但是，只要在网站中保持一致，可以使用任何变量。
 
 ```js
 // Instantiate the tracking object with a single report suite
@@ -36,11 +36,11 @@ var s = s_gi("examplersid");
 var s = s_gi("examplersid1,examplersid2");
 ```
 
-> [!CAUTION] 以下各节和示例包含复杂的实施主题。 彻底测试您的实施并跟踪贵组织的解决方案设计文档中的重 [要自定义项](../../prepare/solution-design.md)。
+>[!CAUTION] 以下各部分和示例包含复杂的实施主题。完整测试您的实施并跟踪贵组织的](../../prepare/solution-design.md)解决方案设计文档[中的重要自定义项。
 
-## 使用不同的跟踪对象管理多个实现
+## 使用不同的跟踪对象管理多个实施
 
-如果您实例化了多个跟踪对象，则可以向不同的报表包发送不同的数据。 这两个跟踪对象相互独立地操作。
+如果您实例化多个跟踪对象，则可以向不同的报表包发送不同的数据。这两个跟踪对象会相互独立地运作。
 
 ```js
 // Instantiate two separate tracking objects to two different report suites
@@ -58,9 +58,9 @@ s.t();
 z.t();
 ```
 
-## 覆盖s对象后恢复AppMeasurement变量
+## 覆盖 s 对象后还原 AppMeasurement 变量
 
-某些第三方工具可能还使用JavaScript对 `s` 象。 如果意外覆盖了站 `s` 点上的对象，可以使用相同的RSID字符串 `s_gi` 参数调用以恢复所有被覆盖的变量和方法。
+某些第三方工具可能还使用 JavaScript `s` 对象。如果意外覆盖了网站上的 `s` 对象，可以使用相同的 RSID 字符串参数调用 `s_gi` 以恢复所有被覆盖的变量和方法。
 
 ```js
 // Step 1: Instantiate the tracking object
@@ -81,7 +81,7 @@ s.t();
 
 ## 使用多个变量引用同一跟踪对象
 
-如果两个变量在同一报 `s_gi()` 表包中引用同一函数，则可以交替使用这些变量。
+如果两个变量使用同一报表包引用同一 `s_gi()` 函数，则可以交替使用这些变量。
 
 ```js
 // If the RSID is the same, any variables set in the 's' tracking object also get set in 'z' tracking object
