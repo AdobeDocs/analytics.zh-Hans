@@ -4,8 +4,8 @@ keywords: Virtual Report Suite,VRS
 title: 虚拟报表包和多包标记注意事项
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 在很多情况下，您可以使用虚拟报表包替换多包标记。切换到虚拟报表包可以有效地消除[次级服务器调用](/help/admin/c-server-call-usage/overage-overview.md)的必要性。例如，您的组织有 6 个不同的网站，每个网站都会向各自的报表包以及一个合并的全局报表包发送数据。每个网站都会发出次级服务器调用；一个指向单个品牌报表包，另一个指向全局报表包。您可以将所有网站的数据仅发送到全局报表包，然后使用多个虚拟报表包来划分各个品牌的数据。
 
-使用全局报表包和 VRS 替换多包标记可以简化 Adobe Analytics 实施并减少服务器调用使用情况，我们鼓励将这种方法作为最佳实践。但是，VRS 存在一些重要的限制需要考虑。以下准则可帮助您确定实施基于全局报表包的虚拟报表包对您是否可行。
+使用全局报表包和 VRS 替换多包标记可以简化 Adobe Analytics 实施并减少服务器调用使用情况，我们鼓励将这种方法作为最佳实践。但是，VRS 存在一些重要的限制需要考虑。以下准则可以帮助您确定实施基于全局报表包构建的虚拟报表包是否适合您。
 
 ## 准则
 
@@ -52,7 +52,7 @@ Adobe 客户关怀团队可以为少量维度增加唯一值限制，从而完�
 
 确保唯一维度和量度的数量适合单个全局报表包。如果您发现唯一维度或量度的数量过多，请检查每个实施中的每个维度。可能存在对业务成功不重要的重叠情况和维度。此外，还请考虑使用](/help/components/c-classifications2/c-classifications.md)分类[。例如，根据“产品”维度创建“产品名称”分类，而不是在 eVar5 中捕获“产品名称”。源报表包中的分类可自动用于任何从属虚拟报表包。
 
-> [!TIP] 通过引入[管理](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md)，您现在可以基于每个 VRS 更改给定维度或量度的名称。
+>[!TIP] 通过引入[管理](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md)，您现在可以基于每个 VRS 更改给定维度或量度的名称。
 
 ### 分段细微差别
 
@@ -82,7 +82,7 @@ Adobe Analytics 中的某些 Adobe 合作伙伴集成限制为每个报表包具
 
 通过概要数据源，您可以在报表包级别将汇总量度导入 Adobe Analytics。由于概要数据源上载包含汇总量度，因此无法对其进行分段。由于 VRS 使用分段进行操作，因此使用概要数据源导入的所有数据在虚拟报表包中不可用。概要数据源仅在源报表包中可见。
 
-> [!TIP] 完全处理数据源支持分段，并可用于虚拟报表包。
+>[!TIP] 完全处理数据源支持分段，并可用于虚拟报表包。
 
 ## 您决定使用 VRS 时要遵循的步骤
 
