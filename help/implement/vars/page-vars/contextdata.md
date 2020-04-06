@@ -2,49 +2,49 @@
 title: contextData
 description: 上下文数据变量允许您在处理规则可读取的每个页面上定义自定义变量。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # contextData
 
-上下文数据变量允许您在处理规则可读取的每个页面上定义自定义变量。 您可以在上下文数据变量中发送数据，而不是在代码中显式地为Analytics变量赋值。 然后，处理规则将上下文数据变量值传递给相应的Analytics变量。 请参阅管理用户指南中的[处理规则](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)。
+上下文数据变量允许您在处理规则可读取的每个页面上定义自定义变量。您可以在上下文数据变量中发送数据，而不是显式地为代码中的 Analytics 变量分配值。然后，处理规则会接收上下文数据变量值并将其传递给相应的 Analytics 变量。请参阅管理员用户指南中的[处理规则](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)。
 
-上下文数据变量有助于开发团队收集指定元素中的数据而不是编号变量。 例如，您可以请求开发团队将页面的作者分配给页面，而 `eVar10`不是请求开发团队将页面的作者分配给 `s.contextData["author"]` 它。 然后，组织中的Analytics管理员可以创建处理规则，将上下文数据变量映射到分析变量中以进行报告。 开发团队最终只会担心上下文数据变量，而不是Adobe提供的许多页面变量。
+上下文数据变量有助于开发团队收集指定元素中的数据而不是编号变量。例如，您可以请求开发团队将页面的作者分配给 `s.contextData["author"]`，而不是请求他们将其分配给 `eVar10`。然后，贵组织中的 Analytics 管理员可以创建处理规则，以将上下文数据变量映射到用于报告的 Analytics 变量。开发团队最终只需关注上下文数据变量，而无需考虑 Adobe 提供的许多页面变量。
 
-## Adobe Experience Platform Launch中的上下文数据变量
+## Adobe Experience Platform Launch 中的上下文数据变量
 
-启动项没有用于设置上下文数据变量的专用位置。 按照AppMeasurement语法使用自定义代码编辑器。
+Launch 没有用于设置上下文数据变量的专用位置。按照 AppMeasurement 语法使用自定义代码编辑器。
 
-## s.contextAppMeasurement中的数据和启动自定义代码编辑器
+## AppMeasurement 和 Launch 自定义代码编辑器中的 s.contextData
 
-该 `s.contextData` 变量不直接取值。 而是将此变量的属性设置为字符串。
+`s.contextData` 变量不会直接接收值。它会将此变量的属性设置为字符串。
 
 ```js
 // Assign the example_variable property a value
 s.contextData["example_variable"] = "Example value";
 ```
 
-* 有效的上下文数据变量只包含字母数字字符、下划线和句点。 如果您包括其他字符（如连字符），则Adobe不保证在处理规则中收集数据。
-* 请勿使用上下文数据变量启动 `"a."`。 此前缀由Adobe保留和使用。 例如，请勿使用 `s.contextData["a.InstallEvent"]`。
-* 上下文数据变量不区分大小写。 变量 `s.contextData["example"]` 和 `s.contextData["EXAMPLE"]` 相同。
+* 有效的上下文数据变量只包含字母数字字符、下划线和句点。如果您包括其他字符（如连字符），则 Adobe 无法对处理规则中的数据收集提供担保。
+* 请勿将上下文数据变量以 `"a."` 开头。此前缀由 Adobe 保留和使用。例如，请勿使用 `s.contextData["a.InstallEvent"]`。
+* 上下文数据变量不区分大小写。变量 `s.contextData["example"]` 和 `s.contextData["EXAMPLE"]` 是相同的。
 
-## 使用处理规则填充分析变量
+## 使用处理规则填充 Analytics 变量
 
-> [!IMPORTANT] 运行处理规则后，上下文数据变量将被丢弃。 如果没有将值放入变量的活动处理规则，则该数据会永久丢失！
+>[!IMPORTANT] 运行处理规则后，上下文数据变量将被丢弃。如果没有可将值置于变量的处于活动状态的处理规则，则该数据会永久丢失！
 
 1. 更新您的实施以设置上下文数据变量名称和值。
-2. 登录到Adobe Analytics，然后转到“管理员”>“报表包”。
-3. 选择所需的报表包，然后转到编辑设置>常规>处理规则。
-4. 创建一个将Analytics变量设置为上下文数据变量值的处理规则。
+2. 登录到 Adobe Analytics，然后转到“管理员”>“报表包”。
+3. 选择所需的报表包，然后转到“编辑设置”>“常规”>“处理规则”。
+4. 创建一个将 Analytics 变量设置为上下文数据变量值的处理规则。
 5. 保存更改。
 
-处理规则在保存后立即生效。 它们不适用于历史数据。
+处理规则在保存后会立即生效。它们不适用于历史记录数据。
 
 ## 在链接跟踪调用中发送上下文数据
 
-将上下文数据变量作为以下项的属 `contextData` 性包含 [`s.linkTrackVars`](../config-vars/linktrackvars.md):
+将上下文数据变量作为 `contextData` 的属性包含在 [`s.linkTrackVars`](../config-vars/linktrackvars.md) 中：
 
 ```js
 s.contextData["example_variable"] = "Example value";
