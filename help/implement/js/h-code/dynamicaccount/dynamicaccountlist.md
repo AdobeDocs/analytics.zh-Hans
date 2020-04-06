@@ -1,15 +1,15 @@
 ---
 title: dynamicAccountList
 description: 构建有关实施如何确定其报表包的逻辑。
-translation-type: ht
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # s.dynamicAccountList
 
-> [!IMPORTANT] 仅当使用旧版 JavaScript 实施（H 代码）时，才支持动态帐户。当前的 AppMeasurement 库或 Adobe Experience Platform Launch 不支持这些变量。
+>[!IMPORTANT] 仅当使用旧版 JavaScript 实施（H 代码）时，才支持动态帐户。当前的 AppMeasurement 库或 Adobe Experience Platform Launch 不支持这些变量。
 
 `s.dynamicAccountList` 变量可动态确定 `s_account` 的值。如果将 `dynamicAccountSelection` 设置为 `true`，则会将 `dynamicAccountMatch` 变量与 `dynamicAccountList` 进行比较。如果找到匹配项，则使用匹配的报表包 ID。
 
