@@ -2,47 +2,47 @@
 title: getPageLoadTime
 description: 跟踪页面加载所用的时间。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobe插件：getPageLoadTime
+# Adobe 插件：getPageLoadTime
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+>[!IMPORTANT] 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
-该 `getPageLoadTime` 插件使用JavaScript性能对象来测量页面完全加载所花费的时间。 如果您想要测量页面加载所需的时间，Adobe建议使用此插件。
+`getPageLoadTime` 插件使用 JavaScript 性能对象来让您可以测量页面完全加载所需的时间。如果您想要测量页面加载所需的时间，Adobe 建议您使用此插件。
 
-## 使用Adobe Experience Platform Launch扩展安装插件
+## 使用 Adobe Experience Platform Launch 扩展安装此插件
 
-Adobe提供了一个扩展，允许您使用最常用的插件。
+Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
-1. 转到选 [!UICONTROL Extensions] 项卡，然后单击按 [!UICONTROL Catalog] 钮
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. 安装和发布扩 [!UICONTROL Common Analytics Plugins] 展
-1. 如果尚未创建，请使用以下配置创建标有“初始化插件”的规则：
+1. 如果还没有任何扩展，请使用以下配置创建一个标签为“初始化插件”的规则：
    * 条件：无
-   * 事件：核心——载入的库（页面顶部）
+   * 事件：核心 - 已加载的库（页面顶部）
 1. 使用以下配置向上述规则添加操作：
-   * 扩展：常见分析插件
-   * 操作类型：初始化getPageLoadTime
-1. 保存更改并发布到规则。
+   * 扩展：常用 Analytics 插件
+   * 操作类型：初始化 getPageLoadTime
+1. 保存并发布对上述规则所做的更改。
 
-## 使用Launch自定义代码编辑器安装插件
+## 使用 Launch 自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
-1. 转到选项卡， [!UICONTROL Extensions] 然后单击Adobe Analytics扩 [!UICONTROL Configure] 展下的按钮。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. 展开折 [!UICONTROL Configure tracking using custom code] 叠面板，以显示按 [!UICONTROL Open Editor] 钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
-1. 保存更改并将其发布到Analytics扩展。
+1. 保存并发布对此 Analytics 扩展所做的更改。
 
-## 使用AppMeasurement安装插件
+## 使用 AppMeasurement 安装此插件
 
-在实例化（使用）Analytics跟踪对象后，复制并粘贴AppMeasurement文件中的任意位置的以下代 [`s_gi`](../functions/s-gi.md)码。 在您的实施中保留代码的注释和版本号可帮助Adobe解决任何潜在问题。
+在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -57,23 +57,23 @@ s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## 使用插件
+## 使用此插件
 
-该方 `getPageLoadTime` 法不使用任何参数。 调用此方法时，不会返回任何内容。 相反，它会设置以下变量：
+`getPageLoadTime` 方法不使用任何参数。调用此方法时，不会返回任何内容。相反，会设置以下变量：
 
-* `s._pltPreviousPage`:上一页，这样您可以将加载时间与上一页关联
-* `s._pltLoadTime`:上一页加载所用的时间（以秒为单位）
+* `s._pltPreviousPage`：上一页，以便您可以将加载时间与上一页关联
+* `s._pltLoadTime`：加载上一页所用的时间（以秒为单位）
 
-getPageLoadTime插件可创建两个第一方Cookie:
+getPageLoadTime 插件会创建两个第一方 Cookie：
 
-* `s_plt`:上一页加载所用的时间（以秒为单位）。 在浏览器会话结束时过期。
-* `s_pltp` 在上一个Adobe `s.pageName` Analytics图像请求中记录的变量值。 在浏览器会话结束时过期。
+* `s_plt`：加载上一页所用的时间（以秒为单位）。将在浏览器会话结束时过期。
+* `s_pltp`：在上一个 Adobe Analytics 图像请求中记录的 `s.pageName` 变量的值。将在浏览器会话结束时过期。
 
 ## 示例调用
 
-### 示例#1
+### 示例 1
 
-正在运行以下代码……
+运行以下代码...
 
 ```js
 if(s.pageName) s.getPageLoadTime();
@@ -88,13 +88,13 @@ if(s._pltPreviousPage)
 
 ...将执行以下操作：
 
-* 设置s.pageName时运行getPageLoadTime插件
-* 将s.prop10设置为等于上一页的加载时间
-* 将s.prop11和s.eVar10设置为与上一页的名称相等（如s.pageName中记录）
-* 将event100设置为等于上一页的加载时间的自定义数字事件。   在这种情况下，使用自定义事件可以获得上一页面所有页面加载的总时间（来自所有访客／访问），从而使用计算的度量获得每个页面的平均页面加载时间
+* 设置 s.pageName 后运行 getPageLoadTime 插件
+* 将 s.prop10 设置为等于上一页的加载时间
+* 将 s.prop11 和 s.eVar10 设置为等于上一页的名称（s.pageName 中记录的上一页的名称）
+* 将 event100（自定义数值类事件）设置为等于上一页的加载时间。在这种情况下，通过使用自定义事件，可以获得上一页每次加载（来自每位访客/每次访问）累计相加的总时间，从而可以使用计算量度计算出每页面的平均页面加载时间
 
-## 版本历史
+## 版本历史记录
 
-### 1.0（2018年5月22日）
+### 1.0（2018 年 5 月 22 日）
 
 * 第一版。
