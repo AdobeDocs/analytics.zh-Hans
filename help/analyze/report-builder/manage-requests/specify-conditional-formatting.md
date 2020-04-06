@@ -3,8 +3,8 @@ description: 创建具有嵌入请求的报表后，您可以对工作簿的单�
 title: 指定条件格式
 topic: Report builder
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,11 +13,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 创建具有嵌入请求的报表后，您可以对工作簿的单元格应用条件格式。
 
-在 Report Builder 工具栏上，单击&#x200B;**[!UICONTROL 格式]**。
+On the report builder Toolbar, click **[!UICONTROL Format]**.
 
-条件格式允许您标识包含要监控的结果或值的单元格。例如，如果收入低于预期，您可以对特定单元格应用红色底纹（或突出显示效果）；如果收入超出预测金额，可以应用蓝色底纹。如果请求的日期范围发生变化，从而删除了导致对单元格值应用条件格式的条件，则会暂时禁用突出显示该条件的格式。即使指定的条件格式未改变显示的单元格格式，但因为未满足任何条件，这些条件格式仍会继续应用于单元格，除非您将其删除。
+条件格式允许您标识包含要监视的结果或值的单元格。 例如，如果收入低于预期，您可以对特定单元格应用红色底纹（或突出显示）；如果收入超出预测金额，则可应用蓝色底纹。 如果请求的日期范围的更改删除了导致条件格式应用于单元格值的条件，则突出显示该条件的格式将暂时禁用。 虽然您指定的条件格式不会导致单元格格式的显示发生变化，但由于未满足条件，因此这些格式将继续应用于单元格，直到您删除它们。
 
-出于安全原因，使用 Excel 的 Visual Basic for Applications (VBA) 语言为工作簿编写的宏会被禁用。
+出于安全原因，您使用Excel的Visual Basic for Applications(VBA)语言为工作簿编写的宏被禁用。
 
-> [!NOTE] 条件格式是 Excel 的一项功能。有关创建格式规则的信息，请参阅 Excel 文档。
+>[!NOTE] 条件格式是 Excel 的一项功能。有关创建格式规则的信息，请参阅 Excel 文档。
 
