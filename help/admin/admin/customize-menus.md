@@ -1,21 +1,21 @@
 ---
-description: 此功能允许您自定义用户在“Reports & Analytics”中看到的报表菜单。您可以针对所有用户显示或隐藏报表，还可以在不同的文件夹中移动报表。如果您的组织仅使用特定报表，并且不希望让未使用的或者不相关的数据来填充您的左侧菜单，则此功能尤为适用。
+description: 利用此功能，您可以自定义用户在“报告和分析”中看到的报告菜单。 您可以显示或隐藏报表，还可以在所有用户之间将报表移到不同的文件夹中。 如果您的组织只使用某些报告并且不希望将左侧菜单包含未使用或不相关的数据，则此功能特别有用。
 title: 菜单自定义
 topic: Admin tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # 菜单自定义
 
-此功能允许您自定义用户在“Reports &amp; Analytics”中看到的报表菜单。您可以针对所有用户显示或隐藏报表，还可以在不同的文件夹中移动报表。如果您的组织仅使用特定报表，并且不希望让未使用的或者不相关的数据来填充您的左侧菜单，则此功能尤为适用。
+利用此功能，您可以自定义用户在“报告和分析”中看到的报告菜单。 您可以显示或隐藏报表，还可以在所有用户之间将报表移到不同的文件夹中。 如果您的组织只使用某些报告并且不希望将左侧菜单包含未使用或不相关的数据，则此功能特别有用。
 
-菜单更改应用于访问报表包的所有用户。不过，用户在使用报表包时可以还原菜单的默认配置。
+菜单更改适用于访问报告包的所有用户。 但是，用户在使用报告包时可以恢复菜单的默认配置。
 
-> [!NOTE] 对菜单结构所做的任何更改都不会影响 Report Builder 和 Ad Hoc Analysis。但重命名报表将会反映在这两个工具中。
+>[!NOTE] 对菜单结构所做的任何更改都不会影响 Report Builder 和 Ad Hoc Analysis。但重命名报表将会反映在这两个工具中。
 
 ## 菜单自定义描述 {#section_B0D224DACB914A378902A4E0E1234889}
 
@@ -29,7 +29,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 新建文件夹</span> </td> 
-   <td colname="col2"> <p> 在当前选定项目的上方添加新文件夹。请注意，您必须添加至少一份报表到文件夹中，文件夹才能可见。 </p> </td> 
+   <td colname="col2"> <p> 在当前选定项目上方添加新文件夹。 请注意，在文件夹可见之前，必须至少向文件夹添加一个报告。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 重命名</span> </td> 
@@ -41,7 +41,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 切换可见性</span> </td> 
-   <td colname="col2"> <p> 隐藏（显示）当前选定项目。隐藏的项目在“菜单自定义”页面显示为灰线模式。 </p> </td> 
+   <td colname="col2"> <p> 隐藏（显示）当前选定的项目。 在“菜单自定义”页面中，隐藏项目以灰色线形显示。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 删除</span> </td> 
