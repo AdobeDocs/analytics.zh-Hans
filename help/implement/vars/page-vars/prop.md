@@ -2,35 +2,35 @@
 title: prop
 description: 可在实施中使用的自定义变量。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # prop
 
-Prop是自定义变量，您可以随心所欲地使用它。
+Prop 是自定义变量，您可以根据需要随意使用。
 
-> [!TIP] Adobe建议在大多数情况下使用eVar。 在Adobe Analytics的早期版本中，prop和eVar之间有利有弊。 但是，Adobe已将eVar改进为几乎可满足prop的所有使用案例。 请参 [阅eVar](evar.md) ，了解这两种自定义变量类型之间的功能比较。
+>[!TIP] Adobe 建议在大多数情况下使用 eVar。在 Adobe Analytics 的早期版本中，prop 和 eVar 各有利弊。但是，Adobe 已改进 eVar，现在几乎可以满足 prop 的所有用例。请参阅 [eVar](evar.md) 以了解这两种自定义变量类型之间的特性比较。
 
-如果您的组织使用prop，请确保在解决方案设计文档中记录其使 [用和逻辑](../../prepare/solution-design.md)。
+如果贵组织使用 prop，请确保在[解决方案设计文档](../../prepare/solution-design.md)中记录其使用方式和逻辑。
 
-## Adobe Experience Platform Launch中的Prop
+## Adobe Experience Platform Launch 中的 Prop
 
-您可以在配置Analytics扩展时（全局变量）或在规则下设置prop。
+您可以在配置 Analytics 扩展时（全局变量）或根据规则设置 prop。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 2. 单击所需的属性。
-3. 转到选项卡， [!UICONTROL Rules] 然后单击所需的规则（或创建规则）。
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
 4. 在下 [!UICONTROL Actions]面，单击现有 [!UICONTROL Adobe Analytics - Set Variables] 操作或单击“+”图标。
 5. 将下拉 [!UICONTROL Extension] 列表设置为Adobe Analytics，将其设置为 [!UICONTROL Action Type] to [!UICONTROL Set Variables]。
-6. Locate the [!UICONTROL Props] section.
+6. 找到该 [!UICONTROL Props] 部分。
 
-您可以选择属性来设置值或数据元素。 您还可以从其他Analytics变量复制值。
+您可以选择 prop 来设置值或数据元素。您还可以从其他 Analytics 变量复制值。
 
-## s.prop1 - s.prop75 in AppMeasurement and Launch自定义代码编辑器
+## AppMeasurement 和 Launch 自定义代码编辑器中的 s.prop1 - s.prop75
 
-每个prop变量都是一个字符串，其中包含特定于您的组织的自定义值。 最大长度为100字节；超过100字节的值在发送到Adobe时会自动截断。
+每个 prop 变量都是一个字符串，其中包含特定于贵组织的自定义值。其值的最大长度为 100 字节；超过 100 字节的值在发送到 Adobe 时会自动被截断。
 
 ```js
 s.prop1 = "Example custom value";
@@ -38,23 +38,23 @@ s.prop1 = "Example custom value";
 
 ## 列表属性
 
-列表属性是应用于prop的设置，它允许变量在同一点击中包含多个值。 如果未启用此设置，或者如果使用了错误的分隔符，则变量将被视为单个值。
+列表属性是应用于 prop 的设置，它允许变量在同一点击中包含多个值。如果未启用此设置，或者如果使用了错误的分隔符，则变量将被视为单个值。
 
 ### 配置列表属性
 
-在报表包设置中启用列表属性。 See [Traffic variables](/help/admin/admin/c-traffic-variables/traffic-var.md) in the Admin user guide. 确保正确配置所需的分隔符。 Adobe不提供默认分隔符。
+在报表包设置中启用列表属性。请参阅管理员用户指南中的[流量变量](/help/admin/admin/c-traffic-variables/traffic-var.md)。确保正确配置所需的分隔符。Adobe 不提供默认分隔符。
 
-> [!TIP] 实施中使用的常见分隔符是逗号(`,`)、冒号(`:`)、分号(`;`)或管道(`|`)。 您可以使用最适合您的实施的分隔符。
+>[!TIP] 实施中使用的常见分隔符为逗号 (`,`)、冒号 (`:`)、分号 (`;`) 或管道字符 (`|`)。您可以使用最适合您的实施的任何分隔符。
 
 ### 设置列表属性
 
-在报表包设置中使用所需的分隔符配置列表属性后，除了使用分隔符外，没有任何实现差异。
+在报表包设置中使用所需的分隔符配置列表属性后，除了使用分隔符外，没有任何其他实施差异。
 
 ```js
 // List prop delimited with a comma
 s.prop1 = "value1,value2,value3";
 ```
 
-> [!IMPORTANT] 列表属性仍受100字节最大长度的限制。 列表属性更容易达到此限制并被截断，因为它们可以包含多个值。 如果可能达到这个100字节限制，请考虑使用缩写或缩短值。
+>[!IMPORTANT] 列表属性仍受最大长度为 100 字节的限制。列表属性更容易达到此限制并被截断，因为它们可能会包含多个值。如果可能会达到此 100 字节限制，请考虑使用缩写或将值缩短。
 
-如果在列表属性中多次设置相同的值，则会在报告中消除重复值。 Analysis Workspace会计算查看某个值的点击次数，而不是计算某个值在数据中存在的次数。
+如果在列表属性中多次设置相同的值，则会在报告中消除重复值。 分析工作区计算查看值的点击次数，而不是计算数据中存在值的次数。
