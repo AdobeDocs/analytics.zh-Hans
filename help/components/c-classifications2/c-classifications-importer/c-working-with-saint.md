@@ -4,8 +4,8 @@ subtopic: Classifications
 title: 分类导入器 - 概述
 topic: Admin tools
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,11 +14,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 使用导入器将分类上载到 Adobe Analytics。您也可以在导入前导出要更新的数据。
 
-**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**
+**[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**
 
-使用导入工具导入的数据必须采用指定格式。Adobe 为您提供了下载数据模板的选项，其中所有相应的标题详细信息都包含在以制表符分隔的数据文件中。您可以将新数据添加到该模板中，然后使用 FTP 将数据文件导入浏览器。
+使用导入工具导入的数据必须采用特定格式。 Adobe为您提供了下载数据模板的选项，该模板包含制表符分隔的数据文件中所有正确的标题详细信息。 您可以将新数据添加到此模板，然后使用FTP在浏览器中导入数据文件。
 
-> [!NOTE]Adobe 建议您将导入和导出列的数量限制为 30。
+>[!NOTE]Adobe 建议您将导入和导出列的数量限制为 30。
 
 请参阅[数值 2 分类](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md)，以了解有关使用数值 2 分类上载数据的信息。
 
