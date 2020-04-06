@@ -1,42 +1,42 @@
 ---
 title: linkInternalFilters
-description: 使用linkInternalFilters变量帮助自动退出链接跟踪。
+description: 使用 linkInternalFilters 变量有助于进行自动退出链接跟踪。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # linkInternalFilters
 
-AppMeasurement提供自动跟踪站点外的链接的功能。 如果 [`trackExternalLinks`](trackexternallinks.md) 启用此功能，则当访客单击链接离开您的站点时，图像请求会直接发送到Adobe。 这些 [`linkExternalFilters`](linkexternalfilters.md) 和变 `linkInternalFilters` 量决定哪些链接被视为内部／外部链接。
+AppMeasurement 提供自动跟踪指向网站外部的链接的功能。If [`trackExternalLinks`](trackexternallinks.md) is enabled, an image request is sent to Adobe right as a visitor clicks a link to leave your site. [`linkExternalFilters`](linkexternalfilters.md) 和 `linkInternalFilters` 变量可确定哪些链接被视为内部/外部链接。
 
-如果此变量包含值，则自动退出链接跟踪的行为类似于黑名单。 如果链接单击与任何值不匹 `linkInternalFilters` 配，则该链接被视为退出链接。 将针对此变量检查整个URL。 如果 [`linkLeaveQueryString`](linkleavequerystring.md) 启用，则还会检查查询字符串。
+如果此变量包含值，则自动退出链接跟踪将以黑名单的方式执行。如果链接点击与任何 `linkInternalFilters` 值都不匹配，则会将其视为退出链接。系统将针对此变量检查整个 URL。If [`linkLeaveQueryString`](linkleavequerystring.md) is enabled, the query string is also examined.
 
-如果同时使用和 `linkInternalFilters` 同时使 `linkExternalFilters` 用，则单击的链接必须匹配 `linkExternalFilters` 且不匹配 **，才**`linkInternalFilters` 能被视为退出链接。 如果单击的链接与退出链接和下载链接条件均匹配，则下载链接类型将优先。
+如果同时使用 `linkInternalFilters` 和 `linkExternalFilters`，则点击的链接必须与 `linkExternalFilters` 匹配&#x200B;**且**&#x200B;与 `linkInternalFilters` 不匹配时才能被视为退出链接。如果点击的链接与退出链接和下载链接标准均匹配，则将优先使用下载链接类型。
 
-> [!NOTE] 和 `linkInternalFilters` 内 [部URL过滤器是单独的功能](/help/admin/admin/internal-url-filter-admin.md) ，可以实现单独的用途。 该变 `linkInternalFilters` 量专门用于退出链接跟踪。 内部URL过滤器是管理员设置，可帮助处理流量源维度，如引用域。
+>[!NOTE] `linkInternalFilters`[](/help/admin/admin/internal-url-filter-admin.md) 和内部 URL 过滤器是两个不同功能，可以实现不同的目的。`linkInternalFilters` 变量专门用于退出链接跟踪。内部 URL 过滤器是一个管理员设置，可帮助处理流量源维度，如反向链接域名。
 
-## 出站链接——在Adobe Experience Platform Launch中从不跟踪
+## Adobe Experience Platform Launch 中的“出站链接 - 从不跟踪”
 
-“从不跟踪”字段是配置Adobe Analytics扩展时accordion下以逗号分隔的筛 [!UICONTROL Link Tracking] 选器（通常是域）列表。
+The Never Track field is a comma-separated list of filters (usually domains) under the [!UICONTROL Link Tracking] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 2. 单击所需的属性。
-3. 转到选项卡， [!UICONTROL Extensions] 然后单击“Adobe Analytics” [!UICONTROL Configure] 下的按钮。
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. 展开可 [!UICONTROL Link Tracking] 折叠面板，以显示 [!UICONTROL Outbound Links - Never Track] 字段。
 
-在此字段中放置您永远不希望作为退出链接跟踪的过滤器。 用逗号分隔多个域，不带空格。
+在此字段中放置您永远不希望作为退出链接进行跟踪的过滤器。用逗号分隔多个域，不带空格。
 
-## AppMeasurement中的s.linkInternalFilters和启动自定义代码编辑器
+## AppMeasurement 和 Launch 自定义代码编辑器中的 s.linkInternalFilters
 
-该 `s.linkInternalFilters` 变量是一个包含过滤器（如域）的字符串，您认为这些过滤器是站点内部的。 使用不带空格的逗号分隔多个过滤器。
+`s.linkInternalFilters` 变量是包含您视为网站内部链接的过滤器（如域）的字符串。用逗号分隔多个过滤器，不带空格。
 
 ```js
 s.linkInternalFilters = "example.com,example.net,example.org";
 ```
 
-请考虑以下实施示例，就像它在上一样 `adobe.com`:
+假定 `adobe.com` 上有以下实施示例：
 
 ```html
 <script>
