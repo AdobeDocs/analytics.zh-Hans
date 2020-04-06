@@ -1,32 +1,32 @@
 ---
 title: cookieDomain
-description: cookieDomain变量可帮助确定要设置cookie的域。
+description: cookieDomain 变量可帮助确定要在其中设置 Cookie 的域。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # cookieDomain
 
-> [!IMPORTANT] 此变量已停用。 请改 [`trackingServer`](trackingserver.md) 用。
+>[!IMPORTANT] 此变量已停用。请改用 [`trackingServer`](trackingserver.md)。
 
-该变 `cookieDomain` 量确定AppMeasurement设置cookie的域。 您可以使用此变量显式设置cookie域，而不是使用变 [`cookieDomainPeriods`](cookiedomainperiods.md) 量。
+`cookieDomain` 变量可确定 AppMeasurement 将在哪个域中设置 Cookie。您可以使用此变量而不是 [`cookieDomainPeriods`](cookiedomainperiods.md) 变量来明确设置 Cookie 域。
 
-仅当满足以下两个条件时 **才需** 要使用此变量：
+仅当&#x200B;**同时**&#x200B;满足以下两个条件时，才需要使用此变量：
 
-* 如果您的实施使用第一方Cookie。 在使用包含值的实现中不需要 [`trackingServer`](trackingserver.md) 此变量 `sc.omtrdc.net`。
-* 如果域的后缀中有句点。 例如，可 `example.co.uk` 以使用变量 `cookieDomain` 显式声明cookie域是 `example.co.uk` 否是 `co.uk`。
+* 您的实施使用第一方 Cookie。对于使用含有 `sc.omtrdc.net` 的 [`trackingServer`](trackingserver.md) 值的实施，不需要使用此变量。
+* 域的后缀中有句点。例如，`example.co.uk` 可以使用 `cookieDomain` 变量明确声明 Cookie 域是 `example.co.uk` 而不是 `co.uk`。
 
-只有少量实现可用于变量， `cookieDomain` 甚至可以改用替代变 [`cookieDomainPeriods`](cookiedomainperiods.md) 量（如）。
+只有少量实施需要使用 `cookieDomain` 变量，虽然如此，可以改用替代变量，如 [`cookieDomainPeriods`](cookiedomainperiods.md)。
 
-## Adobe Experience Platform Launch中的Cookie域
+## Adobe Experience Platform Launch 中的 Cookie 域
 
-Launch中没有专用字段可使用此变量。 按照AppMeasurement语法使用自定义代码编辑器。
+Launch 中没有可使用此变量的专用字段。按照 AppMeasurement 语法使用自定义代码编辑器。
 
-## AppMeasurement中的s.cookieDomain和启动自定义代码编辑器
+## AppMeasurement 和 Launch 自定义代码编辑器中的 s.cookieDomain
 
-该 `cookieDomain` 变量是一个字符串，并设置为要在其上存储cookie的域。
+`cookieDomain` 变量是一个字符串，设置为要用于存储 Cookie 的域。
 
 ```js
 s.cookieDomain = "stats.example.com";
