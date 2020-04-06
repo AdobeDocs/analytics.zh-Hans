@@ -1,8 +1,8 @@
 ---
 description: 关于设置移动设备应用程序记分卡的说明。
 title: Adobe Analytics 移动设备应用程序策划人指南
-translation-type: ht
-source-git-commit: 4248dc8f197f32cad5a0c9de7c65f845abdef88f
+translation-type: tm+mt
+source-git-commit: 6baf94c359c4fa54c326b2c68378cd08161f7da9
 
 ---
 
@@ -188,7 +188,6 @@ Adobe Analytics 移动设备应用程序可随时随地提供来自 Adobe Analyt
    3. 安装 Testflight 应用程序后，从 Testflight 中找到并安装 Adobe Analytics 移动设备应用程序，如下所示：
 
       ![Testflight 屏幕](assets/testflight2.png)
-
    **对于 Android 上的执行用户：**
 
    1. 在用户设备上点按以下 Play Store 链接（此链接也可在 Analytics 中的&#x200B;**工具** > **移动设备应用程序**下找到）：
@@ -198,7 +197,8 @@ Adobe Analytics 移动设备应用程序可随时随地提供来自 Adobe Analyt
 
       ![Play Store 屏幕](assets/play.png)
 
-   2. 点按以下屏幕上的&#x200B;**在 Google Play 上下载**链接：
+   2. 点按以下屏幕上的&#x200B;**在 Google Play 上下载**&#x200B;链接：
+
       ![下载链接](assets/playnext.png)
 
    3. 下载并安装应用程序。下载并安装后，执行用户可以使用他们现有的 Adobe Analytics 凭据登录应用程序；我们同时支持 Adobe ID 和 Enterprise/Federated ID。
