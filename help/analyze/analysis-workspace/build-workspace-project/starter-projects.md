@@ -3,7 +3,7 @@ description: 'null'
 title: 模板
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 3e055bbf83ee72217764aee22448b0ff1ab30751
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -52,7 +52,7 @@ source-git-commit: 3e055bbf83ee72217764aee22448b0ff1ab30751
 
 您可以按原样使用这些预填充的模板，或根据您的需要（例如，通过添加或替换指标或可视化）调整这些模板，然后使用新名称保存它们。
 
-[YouTube 上 Analysis Workspace 中的标准模板](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
+[YouTube 上 Analysis Workspace 中的标准模板](https://www.youtube.com/watch?v=aRgYwPneVXg&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=6) (2:46)
 
 以下是可用的模板以及每个模板有助于回答的问题。
 
@@ -106,7 +106,7 @@ source-git-commit: 3e055bbf83ee72217764aee22448b0ff1ab30751
 
 ### 人员
 
-> [!NOTE]“人员”模板及其关联的“人员”量度只能在 [Adobe Experience Cloud 设备协作](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html)中使用。
+>[!NOTE]“人员”模板及其关联的“人员”量度只能在 [Adobe Experience Cloud 设备协作](https://marketing.adobe.com/resources/help/zh_CN/mcdc/mcdc-people.html)中使用。
 
 此模板基于“人员”量度，它是“唯一访客”量度的消除重复版本。 “人员”指标可衡量使用多种设备的消费者与您品牌互动的频率。 通过模板，您
 
@@ -122,7 +122,7 @@ source-git-commit: 3e055bbf83ee72217764aee22448b0ff1ab30751
 
 <!-->This content is mirrored in the CDA doc.<-->
 
-通过此模板，您可以查看重要的跨设备性能数据。 它仅适用于有权访问跨设备分 [析](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) (CDA)的客户。
+通过此模板，您可以查看重要的跨设备性能数据。 它仅适用于有权访问跨设备分 [析](https://docs.adobe.com/content/help/zh-Hans/analytics/components/cda/cda-home.html) (CDA)的客户。
 
 * **对合作图成员的特别说明**:显示报表包中支持协作图的区域和不支持该图的区域中包含访客的部分。
 * **用户标识**:显示使用基于跨设备分析的方法识别网站访客的频率。
