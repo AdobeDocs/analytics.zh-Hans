@@ -2,33 +2,33 @@
 title: linkName
 description: 设置自定义链接点击的名称。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # linkName
 
-运行 `linkName` 下一个方法时，使用变量确定自定义链接、下载链接或退出链接的维 [`tl()`](../functions/tl-method.md) 度值。
+Use the `linkName` variable to determine the dimension value of custom links, download links, or exit links when running the next [`tl()`](../functions/tl-method.md) method.
 
-如果此变量为空，则AppMeasurement会还原到该 [`linkURL`](linkurl.md) 变量。
+如果此变量为空，则 AppMeasurement 会还原为该 [`linkURL`](linkurl.md) 变量。
 
-## Adobe Experience Platform Launch中的链接名称
+## Adobe Experience Platform Launch 中的“链接名称”
 
-在配置规则以发送信标时，可以设置链接名称字段。
+在配置发送信标的规则时，可以设置链接名称字段。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 2. 单击所需的属性。
-3. 转到选项卡， [!UICONTROL Rules] 然后单击所需的规则（或创建规则）。
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
 4. 在 [!UICONTROL Actions]下，单击“+”图标
-5. 将下拉 [!UICONTROL Extension] 列表设置为Adobe Analytics，将其设置为发送 [!UICONTROL Action Type] 信标。
-6. 单击显 `s.tl()` 示字段的单选按钮 [!UICONTROL Link Name] 。
+5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
+6. Click the `s.tl()` radio button which reveals the [!UICONTROL Link Name] field.
 
-## AppMeasurement中的s.linkName和启动自定义代码编辑器
+## AppMeasurement 和 Launch 自定义代码编辑器中的 s.linkName
 
-变 `s.linkName` 量是一个字符串，它确定自定义链接、下载链接或退出链接的维度值(具体取决于 [`s.linkType`](linktype.md) 什么)。 它最多可容纳100字节。
+`s.linkName` 变量是用于确定自定义链接、下载链接或退出链接维度值（具体取决于 [`s.linkType`](linktype.md) 的内容）的字符串。它最多可包含 100 字节。
 
-> [!TIP] 此变量是方法的第三个参 `tl()` 数，通常不需要设置为独立变量。 但是，如果不想 `linkName` 在方法中将值设置为参数，则可以使用该 `tl()` 变量。
+>[!TIP] 此变量是方法的第三个参 `tl()` 数，通常不需要设置为独立变量。 However, you can use the `linkName` variable if you do not want to set values as arguments in the `tl()` method.
 
 ```js
 s.linkName = "Example custom link";
@@ -36,7 +36,7 @@ s.linkName = "Example custom link";
 
 ## 示例
 
-以下两个示例链接跟踪调用的功能相同。 它们是实现相同链接跟踪点击的不同方法。
+以下两个示例链接跟踪调用的功能相同。它们是实现相同链接跟踪点击的两个不同方法。
 
 ```js
 // Set link tracking arguments as individual variables
