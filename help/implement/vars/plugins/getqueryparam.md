@@ -1,46 +1,46 @@
 ---
 title: getQueryParam
-description: 提取URL的查询字符串参数的值。
+description: 提取 URL 查询字符串参数的值。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobe插件：getQueryParam
+# Adobe 插件：getQueryParam
 
-> [!IMPORTANT] 此插件由Adobe Consulting提供，旨在帮助您从Adobe Analytics中获得更多价值。 Adobe客户关怀部门不提供此插件的支持，包括安装或疑难解答。 如果您需要此插件的帮助，请与贵组织的客户经理联系。 他们可以安排与顾问的会议寻求帮助。
+>[!IMPORTANT] 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
-该插 `getQueryParam` 件允许您提取URL中包含的任何查询字符串参数的值。 它可用于从登录页面URL提取内部和外部营销活动代码。 在提取搜索词或其他查询字符串参数时，它也很有价值。
+`getQueryParam` 插件允许您提取 URL 中包含的任意查询字符串参数的值。在从登录页面 URL 中提取内部和外部促销活动代码时，此插件非常有用。在提取搜索词或其他查询字符串参数时，此插件也非常有价值。
 
-此插件在解析复杂URL时提供强大功能，包括散列和包含多个查询字符串参数的URL。 如果您只有简单的查询字符串参数需要，Adobe建议使用Launch中的URL参数功能或AppMeasurement [`Util.getQueryParam()`](../functions/util-getqueryparam.md) 中包含的方法。
+此插件在解析复杂 URL（包括散列和包含多个查询字符串参数的 URL）方面提供了强大的功能。如果您只需要处理简单的查询字符串参数，Adobe 建议您使用 Launch 中的 URL 参数功能或 AppMeasurement 中包含的 [`Util.getQueryParam()`](../functions/util-getqueryparam.md) 方法。
 
-## 使用Adobe Experience Platform Launch扩展安装插件
+## 使用 Adobe Experience Platform Launch 扩展安装此插件
 
-Adobe提供了一个扩展，允许您使用最常用的插件。
+Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
-1. 转到选 [!UICONTROL Extensions] 项卡，然后单击按 [!UICONTROL Catalog] 钮
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. 安装和发布扩 [!UICONTROL Common Analytics Plugins] 展
-1. 如果尚未创建，请使用以下配置创建标有“初始化插件”的规则：
+1. 如果还没有任何扩展，请使用以下配置创建一个标签为“初始化插件”的规则：
    * 条件：无
-   * 事件：核心——载入的库（页面顶部）
+   * 事件：核心 - 已加载的库（页面顶部）
 1. 使用以下配置向上述规则添加操作：
-   * 扩展：常见分析插件
-   * 操作类型：初始化getQueryParam
-1. 保存更改并发布到规则。
+   * 扩展：常用 Analytics 插件
+   * 操作类型：初始化 getQueryParam
+1. 保存并发布对上述规则所做的更改。
 
-## 使用Launch自定义代码编辑器安装插件
+## 使用 Launch 自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
-1. 转到选项卡， [!UICONTROL Extensions] 然后单击Adobe Analytics扩 [!UICONTROL Configure] 展下的按钮。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. 展开折 [!UICONTROL Configure tracking using custom code] 叠面板，以显示按 [!UICONTROL Open Editor] 钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
-1. 保存更改并将其发布到Analytics扩展。
+1. 保存并发布对此 Analytics 扩展所做的更改。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -52,171 +52,171 @@ s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## 使用插件
+## 使用此插件
 
-该方 `getQueryParam` 法使用以下参数：
+`getQueryParam` 方法使用以下参数：
 
-* **`qsp`** （必需）:要在URL中查找的查询字符串参数的逗号分隔列表。 它不区分大小写。
-* **`de`** （可选）:多个查询字符串参数匹配时使用的分隔符。 默认为空字符串。
-* **`url`** （可选）:用于从中提取查询字符串参数值的自定义URL、字符串或变量。 默认为 `window.location`。
+* **`qsp`**（必需）：包含要在 URL 中查找的查询字符串参数列表，以逗号分隔。此列表不区分大小写。
+* **`de`**（可选）：当有多个匹配的查询字符串参数时使用的分隔符。默认使用空字符串。
+* **`url`**（可选）：要从中提取查询字符串参数值的自定义 URL、字符串或变量。默认值为 `window.location`。
 
-调用此方法会根据上述参数和URL返回一个值：
+调用此方法时，会根据上述参数和 URL 返回一个值：
 
-* 如果找不到匹配的查询字符串参数，则该方法返回空字符串。
-* 如果找到匹配的查询字符串参数，则该方法返回查询字符串参数值。
-* 如果找到匹配的查询字符串参数，但该值为空，则该方法返回 `true`。
-* 如果找到多个匹配的查询字符串参数，则该方法返回一个字符串，每个参数值由参数中的字符串分 `de` 隔。
+* 如果找不到匹配的查询字符串参数，此方法将返回空字符串。
+* 如果找到一个匹配的查询字符串参数，此方法将返回该查询字符串参数值。
+* 如果找到一个匹配的查询字符串参数，但其值为空，此方法将返回 `true`。
+* 如果找到多个匹配的查询字符串参数，此方法将返回一个字符串，其中每个参数值均由 `de` 参数中的字符串分隔。
 
 ## 示例调用
 
-### 示例#1
+### 示例 1
 
-如果当前URL为：
+如果当前 URL 为：
 
 ```js
 http://www.abc123.com/?cid=trackingcode1
 ```
 
-以下代码将s.campaign设置为等于“trackingcode1”:
+以下代码会将 s.campaign 设置为等于“trackingcode1”：
 
 ```js
 s.campaign=s.getQueryParam('cid');
 ```
 
-### 示例#2
+### 示例 2
 
-如果当前URL为：
+如果当前 URL 为：
 
 ```js
 http://www.abc123.com/?cid=trackingcode1&ecid=123456
 ```
 
-以下代码将s.campaign设置为等于“trackingcode1:123456”:
+以下代码会将 s.campaign 设置为等于“trackingcode1:123456”：
 
 ```js
 s.campaign=s.getQueryParam('cid,ecid',':');
 ```
 
-### 示例#3
+### 示例 3
 
-如果当前URL为：
+如果当前 URL 为：
 
 ```js
 http://www.abc123.com/?cid=trackingcode1&ecid=123456
 ```
 
-以下代码将s.campaign设置为等于“trackingcode1123456”:
+以下代码会将 s.campaign 设置为等于“trackingcode1123456”：
 
 ```js
 s.campaign=s.getQueryParam('cid,ecid');
 ```
 
-### 示例#4
+### 示例 4
 
-如果当前URL为：
+如果当前 URL 为：
 
 ```js
 http://www.abc123.com/?cid=trackingcode1&ecid=123456#location
 ```
 
-以下代码将s.campaign设置为等于“123456”:
+以下代码会将 s.campaign 设置为等于“123456”：
 
 ```js
 s.campaign=s.getQueryParam('ecid');
 ```
 
-### 示例#5
+### 示例 5
 
-如果当前URL为：
+如果当前 URL 为：
 
 ```js
 http://www.abc123.com/#location&cid=trackingcode1&ecid=123456
 ```
 
-以下代码将s.campaign设置为等于“123456”
+以下代码会将 s.campaign 设置为等于“123456”
 
 ```js
 s.campaign=s.getQueryParam('ecid');
 ```
 
-**注意：** 如果问号不存在，该插件会用问号替换Check的哈希字符的URL。  如果URL包含哈希字符前面的问号，则插件会将URL替换为“检查的哈希字符”的和号；
+**注意**：如果用于检查的 URL 中没有问号，此插件会将 URL 中的井号替换为问号。如果在用于检查的 URL 中井号前面有一个问号，此插件会将 URL 中的井号替换为与号；
 
-### 示例#6
+### 示例 6
 
-如果当前URL为以下URL...
+如果当前 URL 为...
 
 ```js
 http://www.abc123.com/
 ```
 
-...如果按如下方式设置变量s.testURL:
+...且如果按如下所示设置变量 s.testURL：
 
 ```js
 s.testURL="http://www.abc123.com/?cid=trackingcode1&ecid=123456#location&pos=300";
 ```
 
-以下代码根本不会设置s.campaign:
+以下代码根本不会设置 s.campaign：
 
 ```js
 s.campaign=s.getQueryParam('cid');
 ```
 
-但是，以下代码将s.campaign设置为等于“trackingcode1”:
+但是，以下代码会将 s.campaign 设置为等于“trackingcode1”：
 
 ```js
 s.campaign=s.getQueryParam('cid','',s.testURL);
 ```
 
-**注意：** 第三个参数可以是代码将用来尝试在
+**注意**：第三个参数可以是代码将用于在其中查找查询字符串参数的任意字符串/变量
 
-以下代码将s.eVar2设置为等于“123456|trackingcode1|true|300”:
+以下代码会将 s.eVar2 设置为等于“123456|trackingcode1|true|300”：
 
 ```js
 s.eVar2=s.getQueryParam('ecid,cid,location,pos','|',s.testURL);
 ```
 
-* 值123456来自s.testURL变量中的ecid参数
-* trackingcode1的值来自s.testURL变量中的cid参数
-* true的值来自s.testURL变量中散列字符后的位置参数的存在（但非值）
+* 值“123456”来自 s.testURL 变量中的 ecid 参数
+* 值“trackingcode1”来自 s.testURL 变量中的 cid 参数
+* 值“true”来自 s.testURL 变量中的井号后存在的位置参数（而不是参数的值）
 
-值300来自s.testURL变量中pos参数的值
+值“300”来自 s.testURL 变量中 pos 参数的值
 
-## 版本历史
+## 版本历史记录
 
-### 3.3（2019年9月24日）
+### 3.3（2019 年 9 月 24 日）
 
-* 绕过不必要的逻辑以减小代码大小
+* 绕过了不必要的逻辑，因而减小了代码大小
 
-### 3.2（2018年5月15日）
+### 3.2（2018 年 5 月 15 日）
 
-* 将 `findParameterValue` 和 `getParameterValue` 函数移入函 `getQueryParam` 数
+* 将 `findParameterValue` 和 `getParameterValue` 函数移到了 `getQueryParam` 函数
 
-### 3.1（2018年5月10日）
+### 3.1（2018 年 5 月 10 日）
 
-* 修复了捕获无值查询字符串参数的问题
+* 修复了捕获到查询字符串参数但值为空的问题
 
-### 3.0（2018年4月16日）
+### 3.0（2018 年 4 月 16 日）
 
-* 点发行版（重新编译后，代码尺寸更小）。
-* 为了可读性，将帮助 `findParameterValue` 程序函 `getParameterValue` 数重命名为和。
-* 删除了添加参数以查找URL哈希中包含的参数的需求
+* 修正版本（重新编译，代码更小）。
+* 出于可读性目的，将帮助程序函数重命名 `findParameterValue` 和 `getParameterValue`。
+* 消除了添加参数来查找 URL 散列中所包含参数的需要
 
-### 2.5（2016年1月8日）
+### 2.5（2016 年 1 月 8 日）
 
-* 与H代码和AppMeasurement兼容(需要与AppMeasurement `s.pt` 一起使用)。
+* 与 H 代码和 AppMeasurement 都兼容（需要同时使用 `s.pt` 和 AppMeasurement）。
 
 ### 2.4
 
-* 添加了 `h` 参数，允许代码查找在哈希()字符后找到的查询字符串`#`参数
+* 添加了 `h` 参数，允许代码查找在井号 (`#`) 后找到的查询字符串参数
 
 ### 2.3
 
-* 修复了一个回归问题，该问题导致插件仅在跟踪代码后存在哈希时才起作用
+* 修复了插件仅在跟踪代码后存在井号的情况下才能正常运行的回归问题
 
 ### 2.2
 
-* 现在从返回值中删除哈希字符（以及之后的所有内容）
+* 现已从返回值中删除井号（以及之后的所有内容）
 
 ### 2.1
 
-* 与H.10代码兼容
+* 与 H.10 代码兼容
