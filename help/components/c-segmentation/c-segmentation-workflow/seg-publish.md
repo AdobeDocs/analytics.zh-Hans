@@ -4,7 +4,7 @@ title: 将区段发布到 Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: a2b76a0e2fbe2ec598fffea64def771a2ddc0121
 
 ---
 
@@ -41,6 +41,9 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 | 具有会员资格的可用区段 | 发布后约 8 小时 | [!DNL Audience Manager] 中的访客资料查看器 |
 | 特性和会员人群 | 24 - 48 小时内 | [!DNL Audience Manager] |
 
+>[!NOTE]
+>每周一次，所有数据都将完全同步，以解决前一周未捕获的任何增量或差异。
+
 ## 在 [!UICONTROL Segment Builder]
 
 1. 导航到 **[!UICONTROL Analytics > Workspace > Components > Segments]> +**
@@ -51,7 +54,6 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 ![](assets/publish-ec.png)
 
 >[!IMPORTANT]
->
 >将 Adobe Analytics 数字与 Audience Manager 数字进行比较时，确保在 Analytics 中查看区段预览时使用“具有 Experience Cloud ID 的访客”，而不是总计“独特访客数”区段预览：
 >
 >![](assets/seg-vis-ecid.png)
