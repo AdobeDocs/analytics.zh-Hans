@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: all
-user-guide-title: Analytics Implementation Guide
+user-guide-title: Analytics 实施指南
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
+source-git-commit: 3684fdfe0910f0b1b31f741dbf6e3937d169f430
 
 ---
 
@@ -12,12 +12,12 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
 # Analytics 实施指南 {#implementation}
 
 + [Analytics 实施帮助](home.md)
-+ [AppMeasurement发行说明](appmeasurement-updates.md)
-+ 分析变量、函数和方法 {#vars}
++ [AppMeasurement 发行说明](appmeasurement-updates.md)
++ Analytics 变量、函数和方法 {#vars}
    + [概述](vars/overview.md)
    + 配置变量 {#config-vars}
       + [配置变量概述](vars/config-vars/configuration-variables.md)
-      + [中止](vars/config-vars/abort.md)
+      + [abort](vars/config-vars/abort.md)
       + [account](vars/config-vars/account.md)
       + [charSet](vars/config-vars/charset.md)
       + [cookieDomain](vars/config-vars/cookiedomain.md)
@@ -50,7 +50,7 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
       + [visitorID](vars/config-vars/visitorid.md)
       + [visitorNamespace](vars/config-vars/visitornamespace.md)
       + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
-   + 页面变量{page-vars}
+   + 页面变量 {page-vars}
       + [页面变量概述](vars/page-vars/page-variables.md)
       + [campaign](vars/page-vars/campaign.md)
       + [channel](vars/page-vars/channel.md)
@@ -58,10 +58,10 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
       + [动态变量](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
       + events {#events}
-         + [活动概述](vars/page-vars/events/events-overview.md)
+         + [事件概述](vars/page-vars/events/events-overview.md)
          + [购买事件](vars/page-vars/events/event-purchase.md)
          + [事件序列化](vars/page-vars/events/event-serialization.md)
-      + [hier](vars/page-vars/hier.md)
+      + [(hier)](vars/page-vars/hier.md)
       + [list](vars/page-vars/list.md)
       + [pageName](vars/page-vars/pagename.md)
       + [pageType](vars/page-vars/pagetype.md)
@@ -95,7 +95,7 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
       + [插件概述](vars/plugins/impl-plugins.md)
       + [addProductEvar](vars/plugins/addproductevar.md)
       + [addProductEvent](vars/plugins/addproductevent.md)
-      + [ap](vars/plugins/apl.md)
+      + [apl](vars/plugins/apl.md)
       + [cleanStr](vars/plugins/cleanstr.md)
       + [formatTime](vars/plugins/formattime.md)
       + [getAndPersistValue](vars/plugins/getandpersistvalue.md)
@@ -116,45 +116,45 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
       + [getVisitNum](vars/plugins/getvisitnum.md)
       + [inList](vars/plugins/inlist.md)
       + [manageVars](vars/plugins/managevars.md)
-      + [数字套件](vars/plugins/numberssuite.md)
+      + [Numbers Suite](vars/plugins/numberssuite.md)
       + [p_fo](vars/plugins/p-fo.md)
-      + [pt](vars/plugins/pt.md)
+      + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
    + [集成模块](vars/integrate.md)
-+ Prepare to implement Adobe Analytics {#prepare}
++ 准备实施 Adobe Analytics {#prepare}
    + [创建数据层](prepare/data-layer.md)
    + [全局报表包注意事项](prepare/global-rs.md)
-   + [实施模式](prepare/implementation-modal.md)
+   + [“实施”模式窗口](prepare/implementation-modal.md)
    + [创建解决方案设计文档](prepare/solution-design.md)
 + 使用 JavaScript 实施 Analytics {#js}
-   + [JavaScript概述](js/overview.md)
-   + [实施退出链接](js/opt-out.md)
+   + [JavaScript 概述](js/overview.md)
+   + [实施选择退出链接](js/opt-out.md)
    + [变量覆盖](js/overrides.md)
-   + [从H代码迁移](js/migrate-from-hcode.md)
+   + [从 H 代码迁移](js/migrate-from-hcode.md)
    + H 代码 {#h-code}
-      + [H代码概述](js/h-code/overview.md)
+      + [H 代码概述](js/h-code/overview.md)
       + 动态帐户 {#dynamicaccount}
          + [动态帐户概述](js/h-code/dynamicaccount/overview.md)
          + [dynamicAccountList](js/h-code/dynamicaccount/dynamicaccountlist.md)
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
          + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
-      + [H代码疑难解答](js/h-code/troubleshooting.md)
-   + 传统的跨设备标识 {#xdevice-visid}
-      + [跨设备连接用户概述](js/xdevice-visid/xdevice-connecting.md)
+      + [H 代码疑难解答](js/h-code/troubleshooting.md)
+   + 旧版跨设备识别功能 {#xdevice-visid}
+      + [“跨设备连接用户”概述](js/xdevice-visid/xdevice-connecting.md)
       + [变量持久性](js/xdevice-visid/variable-persistence.md)
       + [访问示例](js/xdevice-visid/visit-example.md)
-      + [传统的跨设备常见问题解答](js/xdevice-visid/xdevice-faq.md)
-   + [AppMeasurement疑难解答](js/troubleshooting.md)
-+ Implement Analytics using Adobe Experience Platform Launch {#launch}
+      + [旧版跨设备识别功能常见问题解答](js/xdevice-visid/xdevice-faq.md)
+   + [AppMeasurement 疑难解答](js/troubleshooting.md)
++ 使用 Adobe Experience Platform Launch 实施 Analytics {#launch}
    + [Launch 概述](launch/overview.md)
-   + [创建Analytics属性](launch/create-analytics-property.md)
+   + [创建 Analytics 属性](launch/create-analytics-property.md)
    + [部署到开发环境](launch/deploy-dev.md)
-   + [验证并发布到prod](launch/validate-publish-prod.md)
+   + [验证并发布到生产环境](launch/validate-publish-prod.md)
    + [将数据层对象映射到数据元素](launch/layer-to-elements.md)
    + [将启动项数据元素映射到Analytics变量](launch/elements-to-variable.md)
-+ 在其他平台上实施Analytics {#other}
-   + [使用硬编码图像请求实施分析](other/hardcoded.md)
-   + Implement Analytics using DTM {#dtm}
++ 在其他平台上实施 Analytics {#other}
+   + [使用硬编码图像请求实施 Analytics](other/hardcoded.md)
+   + 使用 DTM 实施 Analytics {#dtm}
       + [Dynamic Tag Management 实施概述](other/dtm/dtm-implementation-overview.md)
       + [创建 Web 属性](other/dtm/t-create-web-property.md)
       + [配置托管选项](other/dtm/t-configure-hosting.md)
@@ -183,17 +183,17 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
          + [设置条件要触发的操作](other/dtm/c-rules/t-rules-actions.md)
          + [测试用于 Akamai 托管的尚未发布的规则](other/dtm/c-rules/t-test-rules-akamai.md)
          + [测试库下载或 FTP 的规则](other/dtm/c-rules/t-test-rules-ftp.md)
-   + [在Ajax上实施分析](other/ajax.md)
-   + [在AMP上实施分析](other/amp.md)
-   + [对数字助理实施分析](other/digital-assistants.md)
-   + [在Facebook Instant Articles上实施分析](other/fb-instant-articles.md)
-+ [在移动设备上实施Analytics](mobile-device-sdk.md)
-+ 实施使用案例 {#use-cases}
+   + [在 Ajax 上实施 Analytics](other/ajax.md)
+   + [在 AMP 上实施 Analytics](other/amp.md)
+   + [在数字助理中实施 Analytics](other/digital-assistants.md)
+   + [在 Facebook Instant Articles 上实施 Analytics](other/fb-instant-articles.md)
++ [在移动设备上实施 Analytics](mobile-device-sdk.md)
++ 实施用例 {#use-cases}
    + [跨不同的实施类型跟踪](use-cases/cross-type-implementation.md)
    + [外部电子邮件跟踪](use-cases/email-external.md)
-+ Validate your implementation {#validate}
-   + [旧版Adobe Experience Cloud调试器](validate/debugger.md)
++ 验证实施 {#validate}
+   + [旧版 Adobe Experience Cloud 调试器](validate/debugger.md)
    + [数据收集查询参数](validate/query-parameters.md)
-   + [数据包监视器](validate/packet-monitor.md)
+   + [数据包监视工具](validate/packet-monitor.md)
    + [哈希冲突](validate/hash-collisions.md)
 + [常见问题解答](faq.md)
