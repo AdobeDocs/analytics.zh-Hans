@@ -5,12 +5,20 @@ title: Analysis Workspace 中的新增功能
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 7180c2bf154d91db957a9e74efae61c2fc1ffa6d
+source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
 
 ---
 
 
 # Analysis Workspace 中的新增功能
+
+## 2020年4月
+
+2020年4月16日发布的新增功能。
+
+| 功能 | 描述 |
+|--- |--- |
+| 从空白状 [!UICONTROL Freeform Tables] 态自动构建 | 以前，不能将组件直接放入空白项目或空白面板；您必须先添加自由格式表。 您现在可以将组件直接放到空白项目或面板中，并且将自动以推荐的格式为您构建自由格式表。 此外，还改进了将混合组件类型（如维度和度量）一起放入空白时的处理方 [!UICONTROL Freeform Table] 式。 |
 
 ## 2020 年 3 月
 
