@@ -63,9 +63,9 @@ Adobe Analytics 会通过 Data Warehouse 将这些文件作为单独的每日文
 
 **区段**
 
-* [!UICONTROL Cart Abandonment]:访客向购物车中添加了商品但未购买的百分比。 从技术上讲，它是由订单除以购物车加货的计算量度。
-* [!UICONTROL Purchases]:根据特定产品中的消息ID进行购买的收件人ID(或访客ID)。
-* [!UICONTROL Product Views]:与类似， [!UICONTROL Cart Abandonment]这也是一个计算度量。 It reports [!UICONTROL Product Views] divided by Orders, because customers&#39; viewing the product shows some interest.
+* [!UICONTROL 放弃购买]：将产品添加到购物车但没有完成购买的访客百分比。从技术上说，这是一种计算量度，由订购数除以购物车加货次数得到。
+* [!UICONTROL 购买]：根据特定产品中的消息 ID 进行购买的收件人 ID 数（或访客 ID 数）。
+* [!UICONTROL 产品查看]：与“[!UICONTROL 放弃购买]”类似，也是一种计算量度。它会报告[!UICONTROL 产品查看次数]除以订单数的结果，因为客户查看产品即反映出对该产品有一些兴趣。
 
 **实施示例**
 
@@ -79,14 +79,14 @@ Adobe Analytics 会通过 Data Warehouse 将这些文件作为单独的每日文
 
 >[!NOTE] 如果定义的产品没有关联事件，则会自动触发 prodView 事件。如果不满足以上要求，那么相应的再营销区段将无法正常报告。
 
-[!UICONTROL Cart Abandonment]:用户将产品添加到购物车后将触发：
+[!UICONTROL 放弃购买]：用户将产品添加到购物车后触发：
 
 ```
 s.products=";cat";
 s.events="scAdd";
 ```
 
-[!UICONTROL Purchases]:将在购买确认页面上触发：
+[!UICONTROL 购买]：在购买确认页面触发：
 
 ```
 s.products=";
