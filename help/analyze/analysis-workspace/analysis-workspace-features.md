@@ -4,7 +4,7 @@ title: Analysis Workspace 概述
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 5161ccaf333908525c261b73419899918554b91c
 
 ---
 
@@ -15,9 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
-## 概述视频 {#section_B99BF8A326D94ECB91BD69C9888AD10C}
+## 概述视频
 
->[!VIDEO](https://www.youtube.com/watch?v=IHOy-QsvVcA)
+>[!VIDEO](https://video.tv.adobe.com/v/26266?quality=12)
 
 完整的 YouTube 播放列表可在[此处](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)获得。
 
@@ -25,7 +25,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 >
 > 请参阅 [Analysis Workspace 中的新增功能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)以获取相关功能更新。
 
-## 实现项目元素和组件的全面控制 {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
+## 实现项目元素和组件的全面控制
 
 分析工作区提供了自由和灵活性：
 
@@ -37,7 +37,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 请参阅[创建一个 Analysis Workspace 项目](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)，以了解更多信息。
 
-## 在一个项目中显示多种可视化信息 {#section_B7670740C2D44130B21DAF0873280DA5}
+## 在一个项目中显示多种可视化信息
 
 您可以根据需要，在项目中拖放多种可视化信息。
 
@@ -49,7 +49,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 请参阅[创建一个 Analysis Workspace 项目](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)，以了解更多信息。
 
-## 内部链接到面板和可视化 {#section_253EA04E067F4A29A8B54CE2B7631086}
+## 内部链接到面板和可视化
 
 要与 Analysis Workspace 的[富文本编辑](/help/analyze/analysis-workspace/visualizations/text.md)功能一起使用，您可以从文本框向下链接到项目中的特定面板和可视化图表，如创建项目目录。您可以像共享项目链接一样共享这些链接，以将某个人定向到项目中的特定可视化或面板。新增了名为“获取面板链接”和“获取可视化图表链接”的右键单击选项。要向项目添加内部链接，请执行以下操作：
 
@@ -69,17 +69,17 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!NOTE] 您还可以在右键单击选项中 **[!UICONTROL Edit Description]** 使用此功能。
 
-## 链接到其他项目 {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
+## 链接到其他项目
 
 You can link users to other projects that may be of interest to them by going to  **[!UICONTROL Share]** > **[!UICONTROL Get Project Link]** and embedding this link in project descriptions, for example.
 
-## 查看选定单元格的动态可视化信息 {#section_182CEC285E4547EBA4608D5F70C9D5D7}
+## 查看选定单元格的动态可视化信息
 
 选择单个单元格并查看可视化动态更改。 [将可视化与选定单元格同步](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_9D66A001586F49CEB0C565581E44957C) ，并将其锁定。
 
 ![](assets/visualize-selected-cells.png)
 
-## 锁定选定项目或位置 {#section_9D66A001586F49CEB0C565581E44957C}
+## 锁定选定项目或位置
 
 锁定可视化允许您控制与可视化相对应的自由形式数据表源。
 
@@ -87,7 +87,7 @@ You can link users to other projects that may be of interest to them by going to
 
 See [Manage data sources](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
 
-## 呈现选定单元格的趋势可视化信息 {#section_34930C967C104C2B9092BA8DCF2BF81A}
+## 呈现选定单元格的趋势可视化信息
 
 创建选定单元格的可视化信息。(右键单击> **[!UICONTROL Trend Selection]**.)
 
@@ -97,7 +97,7 @@ See [Manage data sources](/help/analyze/analysis-workspace/visualizations/t-sync
 
 ![](assets/trend-selection2.png)
 
-## 维度和维度项目划分 {#section_1380C1F9E51E4BFB8C5D35E7A53BC70D}
+## 维度和维度项目划分
 
 作为零售商，您可以比以往更深入地了解活动，以了解如何更好地吸引客户。 根据您的特定需求无限细分数据；使用相关指标、维度、细分、时间线和其他查询细分值构建分析。
 
@@ -105,7 +105,7 @@ See [Manage data sources](/help/analyze/analysis-workspace/visualizations/t-sync
 
 请参阅[划分维度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
 
-## 根据表的选定内容创建区段 {#section_73BC3688089B426D969B3D5B606DA970}
+## 根据表的选定内容创建区段
 
 在自由格式表中选择单元格，然后从选择中创建区段。
 
@@ -119,7 +119,7 @@ See [Manage data sources](/help/analyze/analysis-workspace/visualizations/t-sync
 
 请参阅 [区段](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)。
 
-## 在项目和组件中应用标记 {#section_F54D688132A541F2982326D5E022B90D}
+## 在项目和组件中应用标记
 
 可将标记应用到 Analysis Workspace 的项目和组件中：
 
@@ -128,7 +128,7 @@ See [Manage data sources](/help/analyze/analysis-workspace/visualizations/t-sync
 * 在“组件”面板中右键单击组件以标记（或创建标记）。
 * 在“搜索”字段中使用#查找标记。
 
-## 组件操作 {#section_CBF4D0A5F63E4B0883077B8D852B800B}
+## 组件操作
 
 从位于组件左边栏顶部的“操作”菜单执行组件级别的操作。Select a component and click **[!UICONTROL Actions]** to view the actions.
 
@@ -142,7 +142,7 @@ See [Manage data sources](/help/analyze/analysis-workspace/visualizations/t-sync
 
 See [Visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) for more information.
 
-## 关于其他功能的描述 {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
+## 关于其他功能的描述
 
 **拖动和堆叠项**
 
@@ -187,4 +187,4 @@ Analysis Workspace 特有的默认区段。*`All Visits`* 显示您添加到数�
 
 使用计算的方式与使用标准度量的方式相同。
 
-请参阅 [计算量度](https://marketing.adobe.com/resources/help/zh_CN/analytics/calcmetrics/)。
+请参阅 [计算量度](https://docs.adobe.com/content/help/zh-Hans/analytics/components/calculated-metrics/cm-overview.html)。
