@@ -1,9 +1,9 @@
 ---
-description: 通过选择度量旁边的齿轮图标，可以指定度量类型和归因模型。
+description: '了解 '
 title: 量度类型和归因
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
+source-git-commit: 7a791dda238b04fbee2773c60668eb45db0a1fd0
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
 * [列归因模型](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
 * [线性分配的工作原理（自2018年7月19日起）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
 
-## 量度类型 {#section_34A86FB402F94E988724232283BF18B7}
+## 量度类型
 
 ![](assets/cm_type_alloc.png)
 
@@ -25,7 +25,7 @@ source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
 | 标准 | 这些量度是在标准 [!DNL Analytics] 报表中使用的相同量度。如果公式由单个标准度量组成，则它显示与其非计算度量对应的相同数据。 标准量度可用于创建特定于每个单独行项目的计算量度。 例如，[订购次数]/[访问次数]是将特定行项目的订购次数除以特定行项目的访问次数。 |
 | 合计 | 在每个行项目中使用报告期间的合计。 如果公式由单个总量度组成，则在每个行项目上显示相同的总数。 总量度可用于创建与站点总数据进行比较的计算量度。 例如，[订购次数]/[总访问次数]会显示订购次数与网站所有访问次数的比例，而不只是与特定行项目访问次数的比例。 |
 
-## 列归因模型 {#section_F9690FD1943B403AB28E2FAC54EFE032}
+## 列归因模型
 
 >[!IMPORTANT]
 >
@@ -40,68 +40,25 @@ source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
 
 ## 线性分配的工作原理（自2018年7月19日起）
 
-2018 年 7 月，Adobe 更改了计算量度中线性分配的报告方式。这一更改将会影响 Analysis Workspace、Ad Hoc Analysis、Reports &amp; Analytics、Report Builder、Activity Map 和报表 API。此更改将主要影响具有持久性的 eVar 与其他维度。请注意，这些更改只会应用于计算量度，而不会对其他使用线性分配的报表产生影响（例如 Reports &amp; Analytics 中的“页面”报表）。其他使用线性分配的报表将继续使用现有的线性分配方法。
+2018 年 7 月，Adobe 更改了计算量度中线性分配的报告方式。这一更改将会影响 Analysis Workspace、Ad Hoc Analysis、Reports &amp; Analytics、Report Builder、Activity Map 和报表 API。此更改主要影响eVar和具有持久性的其他维度。 请注意，这些更改仅适用于计算的指标，不会影响使用线性分配的其他报告（如“报告与分析”中的“页面”报告）。 其他使用线性分配的报表将继续使用现有的线性分配方法。
 
 以下示例说明具有线性分配的计算度量在报告中将如何变化：
 
-<table id="table_E66D066A3E7B4232BBC220775F8B985A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> 点击1 </th> 
-   <th colname="col3" class="entry"> 点击2 </th> 
-   <th colname="col4" class="entry"> 点击3 </th> 
-   <th colname="col5" class="entry"> 点击4 </th> 
-   <th colname="col6" class="entry"> Hit 5 </th> 
-   <th colname="col7" class="entry"> Hit 6 </th> 
-   <th colname="col8" class="entry"> Hit 7 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>发送数据 </p> </td> 
-   <td colname="col2"> 促销A </td> 
-   <td colname="col3"> - </td> 
-   <td colname="col4"> 促销A </td> 
-   <td colname="col5"> 促销B </td> 
-   <td colname="col6"> - </td> 
-   <td colname="col7"> Promo C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>上次联系eVar </p> </td> 
-   <td colname="col2"> 促销A </td> 
-   <td colname="col3"> 促销A </td> 
-   <td colname="col4"> 促销A </td> 
-   <td colname="col5"> 促销B </td> 
-   <td colname="col6"> 促销B </td> 
-   <td colname="col7"> Promo C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>首次接触eVar </p> </td> 
-   <td colname="col2"> 促销A </td> 
-   <td colname="col3"> 促销A </td> 
-   <td colname="col4"> 促销A </td> 
-   <td colname="col5"> 促销A </td> 
-   <td colname="col6"> 促销A </td> 
-   <td colname="col7"> 促销A </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>示例prop </p> </td> 
-   <td colname="col2"> 促销A </td> 
-   <td colname="col3"> - </td> 
-   <td colname="col4"> 促销A </td> 
-   <td colname="col5"> 促销B </td> 
-   <td colname="col6"> - </td> 
-   <td colname="col7"> Promo C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
- </tbody> 
-</table>
+|  | 点击1 | 点击2 | 点击3 | 点击4 | Hit 5 | Hit 6 | Hit 7 |
+|--- |--- |--- |--- |--- |--- |--- |--- |
+| 发送数据 | 促销A | - | 促销A | 促销B | - | Promo C | $10 |
+| 上次联系eVar | 促销A | 促销A | 促销A | 促销B | 促销B | Promo C | $10 |
+| 首次接触eVar | 促销A | 促销A | 促销A | 促销A | 促销A | 促销A | $10 |
+| 示例prop | 促销A | - | 促销A | 促销B | - | Promo C | $10 |
 
 在此示例中，值A、B和C在点击1、3、4和6之前被发送到一个变量中，然后在点击7时进行$10的购买。 在第二行中，这些值会在最后一次点击访问的基础上跨点击保留。 第三行说明了首次接触访问的持久性。 最后，最后一行说明了如何为没有持久性的prop记录数据。
+
+## 在Reports &amp; Analytics与Workspace中线性分配的工作方式方面的差异
+
+这两种工具在线性归因的工作方式上存在一些差异：
+
+* 在Reports &amp; Analytics中，（已处理）线性归因始终基于访问，而在Workspace中，它可以基于访问或访客。
+* 在Reports &amp; Analytics中，如果访问的第一次点击没有传递值，则（初始）值将从上次访问中保留。 在Workspace(Attribution IQ)中，情况并非如此。 如果访问的第一次点击没有传递任何值，则“无”是初始值。
 
 ## 线性分配在2018年7月之前是如何运作的
 
