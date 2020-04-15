@@ -1,44 +1,44 @@
 ---
-description: 关于设置移动设备应用程序记分卡的说明。
-title: Adobe Analytics 移动设备应用程序策划人指南
+description: 设置仪表板记分卡的说明。
+title: Adobe Analytics仪表板策展人指南
 translation-type: tm+mt
-source-git-commit: 6baf94c359c4fa54c326b2c68378cd08161f7da9
+source-git-commit: 84c2d3534828b4c8d84d18de9168a46317a8b372
 
 ---
 
 
 
-# 测试版：Analytics 移动设备应用程序策划人指南
+# 测试版：Adobe Analytics仪表板策展人指南
 
 
 ## 简介
 
-Adobe Analytics 移动设备应用程序可随时随地提供来自 Adobe Analytics 的分析。该应用程序允许用户通过移动设备访问直观的记分卡，这些记分卡可从 Adobe Analytics 的桌面 UI 创建和共享。记分卡是关键量度和其他组件的集合，这些组件以平铺布局显示，您可以点击它们以获取更详细的划分和趋势报表。您可以根据对您最重要的数据来定制记分卡。iOS 和 Android 操作系统均支持移动设备应用程序。
+Adobe Analytics仪表板可随时随地从Adobe Analytics提供洞察。 该应用程序允许用户通过移动设备访问直观的记分卡，这些记分卡可从 Adobe Analytics 的桌面 UI 创建和共享。记分卡是关键量度和其他组件的集合，这些组件以平铺布局显示，您可以点击它们以获取更详细的划分和趋势报表。您可以根据对您最重要的数据来定制记分卡。iOS和Android操作系统均支持分析仪表板。
 
 ## 关于本指南
 
-本指南旨在帮助 Adobe Analytics 数据策划人在 Analytics 移动设备应用程序上为其执行用户配置记分卡。策划人可以是组织管理员，也可以是其他角色中负责设置应用程序记分卡的人员，该应用程序使执行用户能够在自己的移动设备上快速、轻松地查看广泛呈现的重要摘要数据。尽管执行用户是 Analytics 移动设备应用程序的最终用户，但是本指南将帮助数据策划人为这些用户有效地设置应用程序。
+本指南旨在帮助Adobe Analytics数据的策展人在Analytics仪表板上为其执行用户配置记分卡。 策划人可以是组织管理员，也可以是其他角色中负责设置应用程序记分卡的人员，该应用程序使执行用户能够在自己的移动设备上快速、轻松地查看广泛呈现的重要摘要数据。尽管执行用户是Analytics仪表板的最终用户，但本指南将帮助数据策展人为这些用户有效地设置应用程序。
 
 
 ## 术语表
 
-下表描述了用于了解 Analytics 移动设备应用程序的受众、功能和操作的术语。
+下表描述了了解Analytics受众的仪表板、功能和操作的术语。
 
 | 术语 | 定义 |
 |--- |--- |
 | 用户 | 在移动设备上查看 Analytics 中的关键量度和分析的执行人员 |
 | 策划人 | 精通数据的人员，可从 Analytics 中查找和发布分析数据，并配置供用户查看的记分卡 |
-| 策划 | 创建或编辑移动记分卡的操作，记分卡中包含用户的相关量度、维度和其他组件 |
-| 记分卡 | 包含一个或多个图块的移动设备应用程序视图 |
+| 策划 | 创建或编辑包含消费者相关指标、维度和其他组件的移动记分卡的操作 |
+| 记分卡 | 包含一个或多个磁贴的仪表板视图 |
 | 图块 | 记分卡视图中量度的呈现方式 |
 | 划分 | 一种辅助视图，点按记分卡中的图块可访问这种辅助视图。此视图将展开图块上显示的量度，并（可选）报告其他划分维度。 |
-| 日期范围 | 移动设备应用程序报告的主要日期范围 |
+| 日期范围 | 仪表板报告的主要日期范围 |
 | 比较日期范围 | 与主要日期范围进行比较的日期范围 |
 
  
 ## 为执行用户创建记分卡
 
-移动记分卡以平铺布局为执行用户显示关键数据可视化图表，如下所示：
+记分卡以平铺的布局显示管理用户的关键数据可视化，如下所示：
 
 
 ![示例记分卡](assets/intro_scorecard.png)
@@ -79,7 +79,7 @@ Adobe Analytics 移动设备应用程序可随时随地提供来自 Adobe Analyt
 
 **使用 Analytics 工具**
 
-在 Analytics 中，单击&#x200B;**工具**&#x200B;菜单，然后选择&#x200B;**移动设备应用程序**。在后续显示的屏幕上，单击&#x200B;**创建记分卡**&#x200B;按钮。
+In Analytics, click the **Tools** menu and select **dashboards**. 在后续显示的屏幕上，单击&#x200B;**创建记分卡**&#x200B;按钮。
 
 ### 使用数据配置记分卡并保存
 
@@ -149,7 +149,7 @@ Adobe Analytics 移动设备应用程序可随时随地提供来自 Adobe Analyt
 ![Share_Scorecards](assets/new_share.png)
 
 
-共享记分卡后，收件人可在其 Analytics 移动设备应用程序中访问该记分卡。如果您在记分卡生成器中对记分卡进行后续更改，则已共享的记分卡会自动更新以反映这些更改。然后，执行用户在其应用程序中刷新记分卡后，便可看到这些更改。
+共享记分卡后，您的收件人可以在其Analytics仪表板中访问该记分卡。 如果您在记分卡生成器中对记分卡进行后续更改，则已共享的记分卡会自动更新以反映这些更改。然后，执行用户在其应用程序中刷新记分卡后，便可看到这些更改。
 
 *注意：如果通过添加新组件来更新记分卡，则您可能需要再次共享记分卡（并选中&#x200B;**自动与收件人共享嵌入的组件**选项），以确保执行用户有权访问这些更改。*
 
@@ -175,7 +175,7 @@ Adobe Analytics 移动设备应用程序可随时随地提供来自 Adobe Analyt
 
    **对于 iOS 上的执行用户：**
 
-   1. 单击以下公共链接（此链接也可在 Analytics 中的&#x200B;**工具** > **移动设备应用程序**&#x200B;下找到）：
+   1. Click the following public link (it is also available in Analytics under **Tools** > **dashboards**):
 
       [iOS 链接](https://testflight.apple.com/join/WtXMQxlI)：`https://testflight.apple.com/join/WtXMQxlI`
 
@@ -185,13 +185,12 @@ Adobe Analytics 移动设备应用程序可随时随地提供来自 Adobe Analyt
 
    2. 点按屏幕上的&#x200B;**在 App Store 中查看**&#x200B;链接，以下载 Testflight 应用程序。
 
-   3. 安装 Testflight 应用程序后，从 Testflight 中找到并安装 Adobe Analytics 移动设备应用程序，如下所示：
+   3. 安装Testflight应用程序后，从Testflight中查找并安装Adobe Analytics仪表板，如下所示：
 
       ![Testflight 屏幕](assets/testflight2.png)
-
    **对于 Android 上的执行用户：**
 
-   1. 在用户设备上点按以下 Play Store 链接（此链接也可在 Analytics 中的&#x200B;**工具** > **移动设备应用程序**下找到）：
+   1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
       [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp)：`https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
       点按该链接后，再点按以下屏幕上的“成为测试人员”链接：
