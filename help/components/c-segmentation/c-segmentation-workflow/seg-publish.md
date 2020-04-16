@@ -4,16 +4,16 @@ title: 将区段发布到 Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: a2b76a0e2fbe2ec598fffea64def771a2ddc0121
+source-git-commit: f516be8395f7e7c0398f1ebb1d1e019e905d67ee
 
 ---
 
 
 # 将区段发布到 Experience Cloud
 
-Publishing a segment to the Experience Cloud lets you use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], [!DNL Audience Manager], [!DNL Advertising Cloud], and [!DNL Campaign]. 最近的更新显著优化了发布工作流程。以前，发布可用区段大约需要 48 小时。
+Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], [!DNL Audience Manager], [!DNL Advertising Cloud], and [!DNL Campaign]. 最近的更新显著优化了发布工作流程。您现在可以在8小时内将Analytics区段发布到Experience Cloud。 使用这些区段可激活受众管理器中到所有下游目标的受众。
 
-现在，处理过程可能最多需要 8 小时，但是根据其他流量和区段大小，处理速度可能会更快。（不过，我们目前无法通知您区段何时可用，因此您必须手动查看。）我们还将可发布区段的最大数量从 20 个增加到 75 个。您可以在“组件”>“区段”中查看已发布的区段。
+我们还将可发布的Adobe Analytics区段的最大数量从20个增加到75个。 您可以在中视图已发布的区段 [!UICONTROL Analytics > Components > Segments]。
 
 >[!NOTE] Adobe Campaign（Classic 和 Standard）的行为方式不同，因为它在 8 小时延迟的基础之上会额外产生 24 小时的延迟。
 
@@ -29,7 +29,7 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 ## 注意事项
 
 * **报表包限制**：每个报表包最多可发布 75 个区段。此限制是强制实施的。如果已发布 75 个区段，则只有在取消发布足够数量的区段，使区段数量低于 75 个区段的阈值后，才能发布任何其他区段。
-* **会员资格限制**：从 Analytics 共享到 [!DNL Experience Cloud] 的受众数量不能超过 2000 万个独特会员。
+* **会员资格限制**:从Adobe Analytics共享 [!DNL Experience Cloud] 到的受众不能超过2000万个唯一成员。
 * **数据隐私**：受众并非基于访客的身份验证状态进行过滤。如果访客可在未验证或已验证的状态下浏览您的站点，则访客在处于未验证状态时执行的操作仍会导致访客被包含在受众中。请查看 [Adobe Experience Cloud 隐私](https://www.adobe.com/cn/privacy/experience-cloud.html)，了解受众共享对隐私的全面影响。
 * 有关&#x200B;**[!DNL Adobe Analytics]和[!DNL Audience Manager]**中的区段之间的差异的讨论，请转到[此处](https://docs.adobe.com/content/help/zh-Hans/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)。
 
