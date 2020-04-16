@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics Components Guide
+user-guide-title: Analytics 组件指南
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
+source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
 
 ---
 
@@ -35,6 +35,8 @@ source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
       + [Data Warehouse 区段兼容性](c-segmentation/seg-reference/seg-compatibility.md)
       + [区段权限（按角色）](c-segmentation/seg-reference/seg-rights.md)
       + [故障诊断](c-segmentation/seg-reference/c-troubleshooting.md)
+   + 用例 {#use-cases}
+      + [排除特定日期](c-segmentation/use-cases/exclude-date-range.md)
    + [常见问题解答](c-segmentation/seg-transition.md)
    + [Analytics 分段的新功能](c-segmentation/whats-new-segmentation.md)
    + [适用于 Ad Hoc Analysis 的过渡指南](c-segmentation/seg-transition-ad-hoc.md)
