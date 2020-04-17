@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: all
-user-guide-title: Analytics tech notes
+user-guide-title: Analytics 技术说明
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: 4062baa150aa991bd017a8d639ac2a56cc88dbcd
+source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
 
 ---
 
@@ -26,6 +26,7 @@ source-git-commit: 4062baa150aa991bd017a8d639ac2a56cc88dbcd
       + [转化](ga-to-aa/reports/conversions-reports.md)
    + [常见问题解答](ga-to-aa/faq.md)
    + [处理平台之间的差异](ga-to-aa/processing-differences.md)
++ [分析受事件影响的数据](event-impacted.md)
 + [浏览器 Cookie](cookies.md)
 + [数据保留](data-retention.md)
 + [延迟](latency.md)
