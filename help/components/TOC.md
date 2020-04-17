@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
+source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
 
 ---
 
@@ -38,12 +38,10 @@ source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
    + 用例 {#use-cases}
       + [排除特定日期](c-segmentation/use-cases/exclude-date-range.md)
    + [常见问题解答](c-segmentation/seg-transition.md)
-   + [Analytics 分段的新功能](c-segmentation/whats-new-segmentation.md)
+   + [Analytics细分的新增功能](c-segmentation/whats-new-segmentation.md)
    + [适用于 Ad Hoc Analysis 的过渡指南](c-segmentation/seg-transition-ad-hoc.md)
 + 计算量度 {#calculated-metrics}
-   + [计算量度和高级计算（派生）量度](c-calcmetrics/cm-overview.md)
-   + [常见问题解答](c-calcmetrics/cm-transition.md)
-   + [操作方法视频](c-calcmetrics/cm-videos.md)
+   + [计算和高级计算（派生）指标](c-calcmetrics/cm-overview.md)
    + 计算量度工作流程 {#calcmetric-workflow}
       + [计算量度工作流程](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [查找量度](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
@@ -66,6 +64,9 @@ source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
       + [量度兼容性](c-calcmetrics/cm-compatibility.md)
       + [计算量度：基于角色的权限](c-calcmetrics/cm-role-based-rights.md)
       + [计算量度总计](c-calcmetrics/cm-totals.md)
+   + [派生受事件影响的数据](c-calcmetrics/cm-events.md)
+   + [常见问题解答](c-calcmetrics/cm-transition.md)
+   + [操作方法视频](c-calcmetrics/cm-videos.md)
 + 虚拟报表包 {#virtual-report-suites}
    + [虚拟报表包概述](vrs/vrs-about.md)
    + [虚拟报表包组件管理](vrs/vrs-components.md)
