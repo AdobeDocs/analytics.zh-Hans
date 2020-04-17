@@ -2,7 +2,7 @@
 title: Labs 用户指南
 description: 预览 Adobe Analytics 的原型项目
 translation-type: tm+mt
-source-git-commit: 52904d401455909a0786e66cd5439d547a53f062
+source-git-commit: 5209751a8b771b92f82bab9b170ac76a077e4b87
 
 ---
 
@@ -52,7 +52,7 @@ Labs 允许更快地为早期创意制作原型。它以客户为中心，整合
 
 1. 单击&#x200B;**提供反馈**&#x200B;按钮，以便在使用原型时随时在消息框中提供反馈。
 
-   ![feedback_box](https://user-images.githubusercontent.com/29133525/58670344-f0363f80-82fb-11e9-8824-ec2b41f7187a.png)
+   ![feedback_box](assets/give_feedback.png)
 
 1. 单击&#x200B;**提交**&#x200B;以发送您的反馈。
 
