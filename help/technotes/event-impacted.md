@@ -2,7 +2,7 @@
 title: 分析受事件影响的数据
 description: 了解受事件影响的数据对整体数据质量的贡献。
 translation-type: tm+mt
-source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
+source-git-commit: d400bd219cbd8710f2a2fbdaaa9210f3bc70c40b
 
 ---
 
@@ -25,16 +25,10 @@ Adobe Analytics优惠了一种简单而可靠的方法，可使用细分来集�
 
 如果您想进一步了解一段时间内事件对数据的影响，可以在分析工作区中使用日期比较。 利用此功能，您可以逐日、逐周或逐月比较数据，以了解数据与先前范围的比较情况。 然后，您可以使用此比较来确定事件对趋势的影响程度。 请参 [阅分析用户指南中比较受事件影响的日期](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md) ，以前的范围。
 
-## 使用计算的指标校正趋势数据
+## 使用计算的度量派生数据
 
 在创建细分和使用日期比较后，您可以结合这两个概念，使用计算的指标来更正趋势数据。 将区段包含在计算的量度中，然后将受影响的天数乘以比较日期时找到的偏移量。 请参 [阅组件用户指南中的](/help/components/c-calcmetrics/cm-events.md) “派生受事件影响的数据”。
 
-## 在Reports &amp; Analytics中使用日历事件
+## 向组织中的用户传达影响
 
-如果您使用Reports &amp; Analytics，则可以使用日历 [事件](/help/components/t-calendar-event.md) ，在任何趋势报告中突出显示受影响的日期。 此方法不适用于分析工作区。
-
-1. 导航到 **[!UICONTROL Components]** > **[!UICONTROL Calendar events]**。
-2. 输入所需的标题、日期范围和附注文本。
-3. 单击 **[!UICONTROL Save]**.
-
-![日历事件](assets/exclude_calendar_event.jpg)
+准备好处理事件的方式后，即可与组织 [中的用户进行交流](event/event-communicate.md)。 Adobe在Analytics中优惠了多个位置，您可以放置文本以向用户传达所发生的事情以及他们可以使用的组件。
