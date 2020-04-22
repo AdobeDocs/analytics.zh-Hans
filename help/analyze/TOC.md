@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 77b126b2add78113c266265f413240f27f89bced
+source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
 
 ---
 
@@ -79,7 +79,7 @@ source-git-commit: 77b126b2add78113c266265f413240f27f89bced
    + 面板 {#panels}
       + [面板概述](analysis-workspace/c-panels/panels.md)
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
-      + [Quick Insights Builder](analysis-workspace/c-panels/quickinsight.md)
+      + [快速洞察构建器](analysis-workspace/c-panels/quickinsight.md)
       + 归因 {#attribution}
          + [归因概述](analysis-workspace/c-panels/attribution/attribution.md)
          + [使用“归因”面板](analysis-workspace/c-panels/attribution/use-attribution.md)
