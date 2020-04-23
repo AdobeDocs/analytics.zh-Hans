@@ -2,7 +2,7 @@
 description: 'null'
 title: 快速洞察构建器
 translation-type: tm+mt
-source-git-commit: c8f482c21e6301ef34a221a73323cd7386921f2f
+source-git-commit: 718de88664e9d27ed5973f5269a324ffbc3b5414
 
 ---
 
@@ -13,17 +13,17 @@ source-git-commit: c8f482c21e6301ef34a221a73323cd7386921f2f
 >
 >**[!UICONTROL Quick Insights]** 目前正在测试版中，并非所有Adobe Analytics客户都能使用。
 
-[!UICONTROL Quick Insights] 为非分析师和分析Workspace的新用户提供指导，了解如何快速轻松地回答业务问题。 对于希望快速回答简单问题而无需自己构建表的高级用户来说，它也是一个不错的工具。
+[!UICONTROL Quick Insights] 为非分析师和新用户提供指导， [!UICONTROL Analysis Workspace] 了解如何快速轻松地回答业务问题。 对于希望快速回答简单问题而无需自己构建表的高级用户来说，它也是一个不错的工具。
 
-首次使用此分析工作区进行开始时，您可能会想知道哪些可视化最有用，哪些维度和指标可以促进洞察、在何处拖放项目、在何处创建区段等。
+首次使用此开始时，您可能会想知道哪些可视化功能最有用、哪些维度和指标可以促进洞察、在何处拖放项目、在何处创建区段等。 [!UICONTROL Analysis Workspace]
 
-为此，并根据您自己的公司在分析工作区中对数据组件的使用情况，利用一种算法，该算法将向您展示您公司使用的最流行的维度、度量、细分和日期范围。 [!UICONTROL Quick Insights]
+为了帮助您实现这一点，并根据您自己公司在中对数据组件的使用情况 [!UICONTROL Analysis Workspace], [!UICONTROL Quick Insights] 利用一种算法，该算法将为您提供公司使用的最受欢迎的维度、量度、细分和日期范围。
 
 [!UICONTROL Quick Insights] 帮助您
 
-* 在分析工作区中正确构建数据表和随附的可视化。
-* 了解基本组件和分析工作区的术语和词汇。
-* 在自由格式表中轻松进行维度的简单细分、添加多个指标或比较区段。
+* 在中正确构建数据表和随附的可视化 [!UICONTROL Analysis Workspace]。
+* 了解基本组件和部分的术语和词汇 [!UICONTROL Analysis Workspace]。
+* 轻松地对维度进行简单细分、添加多个指标或在某个维度内比较区段 [!UICONTROL Freeform table]。
 * 更改或尝试各种可视化类型，快速、直观地找到适合您的分析的查找工具。
 
 ## 基本关键术语
@@ -35,7 +35,8 @@ source-git-commit: c8f482c21e6301ef34a221a73323cd7386921f2f
 | [!UICONTROL Dimension] | 维是可以在项目中查看、细分和比较的度量数据的描述或特性。 它们是非数字值和日期，可划分为维项目。 例如，“browser”或“page”是维。 |
 | [!UICONTROL Dimension item] | 维项目是维的单个值。 例如，浏览器维度的维度项将为“Chrome”、“Firefox”、“Edge”等。 |
 | [!UICONTROL Metric] | 指标是有关访客活动的量化信息，如视图、点进率、重新加载、平均花费时间、件数、订单、收入等。 |
-| 可视化 | 工作区优惠 [大量可视化功能](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md) ，以构建数据的可视化表示形式，如条形图、圆环图、直方图、线图、地图、散点图等。 |
+| [!UICONTROL Visualization] | 工作区优惠 [大量可视化功能](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md) ，以构建数据的可视化表示形式，如条形图、圆环图、直方图、线图、地图、散点图等。 |
+| [!UICONTROL Breakdown] | 细分是一种按其他维度来划分维度的方法。 在我们的示例中，您可以按移动设备划分美国各州，以按每个州或按移动设备类型或按地区、按内部活动等获取移动设备访问。 |
 | [!UICONTROL Segment] | 细分允许您根据特征或网站交互确定访客子集。 例如，您可以基于属 [!UICONTROL Visitor] 性构建区段：浏览器类型、设备、访问次数、国家／地区、性别或基于交互：活动、关键字搜索、搜索引擎或基于退出和条目：访客自Facebook、定义的登陆页、引用域或基于自定义变量：表单字段、定义的类别、客户ID。 |
 
 ## 快速洞察入门
@@ -45,14 +46,14 @@ source-git-commit: c8f482c21e6301ef34a221a73323cd7386921f2f
 
    ![](assets/qibuilder.png)
 
-1. 首次开始时，请阅读教您一些Quick Insight Builder基础知识的简短教程。 或者，单击 **[!UICONTROL Skip Tutorial]**。
+1. 首次开始时，请阅读教您一些基本知识的简短教 [!UICONTROL Quick Insights Builder] 程。 或者，单击 **[!UICONTROL Skip Tutorial]**。
 1. 选择构建块（也称为组件）:维度（橙色）、度量（绿色）、区段（蓝色）或日期范围（紫色）您必须为要自动构建的表选择至少一个维度和一个度量。
 
    ![](assets/qibuilder2.png)
 
    您有三种选择构件块的方法：
    * 从左边栏中拖放它们。
-   * 如果您知道要查找的内容：开始键入姓名和“快速分析”将为您填补空白。
+   * 如果您知道要查找的内容：开始键入名称 [!UICONTROL Quick Insights Builder] 并为您填写空白。
    * 单击下拉列表并搜索列表。
 
 1. 当您至少添加了一个维和一个度量时，将为您创建以下内容：
@@ -69,7 +70,7 @@ source-git-commit: c8f482c21e6301ef34a221a73323cd7386921f2f
 
 ## 其他有用选项
 
-Quick Insights Builder中将弹出其他有用的提示，其中一些提示取决于您的上次操作。
+其他有用的提示将在中弹出， [!UICONTROL Quick Insights Builder]其中一些提示取决于您的上一个操作。
 
 * **尝试拖放**:例如，如果您使用下拉框选择构建块，则可能会弹出：
 
@@ -79,7 +80,7 @@ Quick Insights Builder中将弹出其他有用的提示，其中一些提示取�
 
    ![](assets/qibuilder8.png)
 
-* **细分依据**:您最多可以使用3个级别的维度细分来向下钻取到您真正需要的数据。 细分是一种按其他维度来划分维度的方法。 在我们的示例中，您可以按移动设备划分美国各州，以按每个州或按移动设备类型或按地区、按内部活动等获取移动设备访问。
+* **细分依据**:您最多可以使用3个级别的维度细分来向下钻取到您真正需要的数据。
 
    ![](assets/qibuilder5.png)
 
@@ -93,7 +94,7 @@ Quick Insights Builder中将弹出其他有用的提示，其中一些提示取�
 
 ## 已知限制
 
-如果尝试直接在表中编辑，将导致Quick Insights Builder（填空工具）不同步。 您可以通过转到将其恢复到之前的“快速分析”设置 **[!UICONTROL Help > Tutorials]**，也可以通过单击“快速分析”面板右上角的 **[!UICONTROL Clear]** 选项来清除表。
+如果尝试直接在表中编辑，则 [!UICONTROL Quick Insights Builder] 会导致（填空工具）不同步。 您可以通过转到将其恢复到之前的“快速分析”设置 **[!UICONTROL Help > Tutorials]**，也可以通过单击“快速分析”面板右上角的 **[!UICONTROL Resync Builder]** 选项来清除表。
 
 否则，直接构建将导致表现为传统的自由形式表，而新用户没有有用的功能。
 
