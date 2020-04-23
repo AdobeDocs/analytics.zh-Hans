@@ -2,14 +2,14 @@
 title: 派生受事件影响的数据
 description: 使用计算的指标来校正受事件影响的趋势数据。
 translation-type: tm+mt
-source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
+source-git-commit: 1ffbd728aba893d7f7a4ecf027c479fc753e371a
 
 ---
 
 
 # 派生受事件影响的数据
 
-如果数据受 [到事件影响](/help/technotes/event-impacted.md)，则可以使用计算量度在事件持续期间派生趋势值。 例如，如果您的事件导致数据下降25%，则可以将该数据用作计算量度中的乘数。
+如果数据受 [到事件影响](/help/technotes/event-impacted.md)，则可以使用计算量度在事件持续期间派生趋势值。 例如，如果您的事件导致数据下降25%，则可以将该数据用作计算量度中的乘数。 如果您没有时间或资源使用数据源或数据插入API将数据插入Adobe Analytics [，则此方](/help/import/c-data-sources/datasrc-home.md) 法很有帮助 [](/help/import/c-data-insertion-api/c-data-insertion-api.md)。
 
 >[!NOTE] 当您从细分和日期比较角度了解事件的影响时，这些步骤最有效。 确保在此页 [面之前，将受事件影响的日期与之前的进行比较](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md) , [](../c-segmentation/use-cases/exclude-date-range.md) 并排除分析中的特定日期。
 
