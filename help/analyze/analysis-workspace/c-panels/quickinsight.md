@@ -1,8 +1,8 @@
 ---
-description: 'null'
+description: Quick Insights Builder是面向新Workspace用户的工具，可指导他们构建数据表和可视化
 title: 快速洞察构建器
 translation-type: tm+mt
-source-git-commit: 718de88664e9d27ed5973f5269a324ffbc3b5414
+source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 ---
 
