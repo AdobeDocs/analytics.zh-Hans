@@ -4,17 +4,17 @@ keywords: Dynamic Tag Management;referrers;campaigns;referrer override;campaign 
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 反向链接和促销活动
 uuid: 56580206-a382-4993-9bba-a488da65cf89
-translation-type: ht
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+translation-type: tm+mt
+source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 ---
 
 
 # 反向链接和促销活动
 
-在 Adobe [!DNL Analytics] 中部署 [!UICONTROL Dynamic Tag Management] 时，[!UICONTROL Dynamic Tag Management] 中用于反向链接和促销活动选项的字段描述。
+Field descriptions in [!UICONTROL Dynamic Tag Management] for referrers and campaign options when deploying [!UICONTROL Dynamic Tag Management] in Adobe [!DNL Analytics].
 
-**[!UICONTROL *`Property`*]**>![齿轮图标](assets/settings_gear.png)**[!UICONTROL &#x200B;编辑工具&#x200B;]**>**[!UICONTROL &#x200B;反向链接和促销活动&#x200B;]**
+**[!UICONTROL  *`Property`*]** >齿 ![轮图标](assets/settings_gear.png) > **[!UICONTROL Edit Tool]****[!UICONTROL Referrers & Campaigns]**
 
 <table id="table_09AE3BFF0F12442F9C19CD96451F93E4">
  <thead>
@@ -25,12 +25,12 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> 反向链接覆盖 </td>
-   <td colname="col2"> <p>覆盖 <span class="varname">s.referrer</span> 变量中设置的值，它通常由浏览器中设置的反向链接填充。 </p> <p>请参阅 [referrer](../../../vars/page-vars/referrer.md)。 </p> </td>
+   <td colname="col1"> 推荐人覆盖 </td>
+   <td colname="col2"> <p>覆盖在 <span class="varname"> s.推荐人变量中设置的值</span> ，该变量通常由浏览器中设置的推荐人填充。 </p> <p>请参阅 <a href="../../../vars/page-vars/referrer.md">推荐人</a>。 </p> </td>
   </tr>
   <tr>
    <td colname="col1"> 促销活动 </td>
-   <td colname="col2"> <p>一种变量，可识别将访客吸引到您网站的市场营销活动。促销活动的值通常取自查询字符串参数。 </p> <p>请参阅 [campaign](../../../vars/page-vars/campaign.md)。 </p> </td>
+   <td colname="col2"> <p>一个变量，用于标识用于将活动带到您的网站的营销访客。 活动的值通常取自查询字符串参数。 </p> <p>请参阅 <a href="../../../vars/page-vars/campaign.md">活动</a>。 </p> </td>
   </tr>
  </tbody>
 </table>
