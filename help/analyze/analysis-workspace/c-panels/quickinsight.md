@@ -2,7 +2,7 @@
 description: 'null'
 title: 快速洞察构建器
 translation-type: tm+mt
-source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
+source-git-commit: c8f482c21e6301ef34a221a73323cd7386921f2f
 
 ---
 
@@ -59,7 +59,6 @@ source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
 
    * 一个自由格式表，其顶部为垂直维度（此处为美国州）和水平度量度量（此处为访问量）。 查看下表：
    ![](assets/qibuilder3.png)
-
 
    * 随附的可视化，此处为条 [形图](/help/analyze/analysis-workspace/visualizations/bar.md)。 生成的可视化基于您添加到表中的数据类型。 您可以通过单击旁边的下拉箭头来更改可视化的类型 **[!UICONTROL Bar]**。
 
