@@ -2,7 +2,7 @@
 title: 向用户传达影响
 description: 了解传达事件对组织的影响的有效方式。
 translation-type: tm+mt
-source-git-commit: d400bd219cbd8710f2a2fbdaaa9210f3bc70c40b
+source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
 
 ---
 
@@ -31,4 +31,4 @@ source-git-commit: d400bd219cbd8710f2a2fbdaaa9210f3bc70c40b
 2. 输入所需的标题、日期范围和附注文本。
 3. 单击 **[!UICONTROL Save]**.
 
-![日历事件](../assets/exclude_calendar_event.jpg)
+![日历事件](../assets/exclude_calendar_event.png)
