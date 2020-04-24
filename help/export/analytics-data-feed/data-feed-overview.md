@@ -1,5 +1,5 @@
 ---
-description: 从网站、移动应用程序收集或使用Web服务API或数据源上传的数据，将被处理并存储在Adobe的数据仓库中。 此原始点击流数据构成Adobe Analytics使用的数据集。
+description: 在 Adobe Data Warehouse 中可处理和存储从网站、移动应用程序收集，或使用 Web 服务 API 或数据源上载的数据。该原始点击流数据形成 Adobe Analytics 使用的数据集。
 keywords: clickstream;data feed;datafeed;Data Feed
 title: Analytics 数据馈送概述
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
