@@ -1,7 +1,7 @@
 ---
 title: 数据馈送 UI
 description: 了解如何导览数据馈送界面。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 1. 登录到 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 2. 单击右上方的 9 宫格菜单，然后单击“[!UICONTROL Analytics]”。
-3. 在顶部菜单中，单击“[!UICONTROL 管理员]”>“[!UICONTROL 数据馈送]”。
+3. In the top menu, click [!UICONTROL Admin] > [!UICONTROL Data Feeds].
 
 ![“数据馈送”菜单](assets/AdminMenu.png)
 
@@ -25,7 +25,7 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ![数据馈送](assets/feeds.png)
 
-如果尚未设置馈送，则该页面会显示“[!UICONTROL 新建数据馈送]”按钮。
+如果未设置源，则页面会显示一个按 [!UICONTROL Create New Data Feed] 钮。
 
 ### 过滤器和搜索
 
@@ -45,7 +45,7 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ### 添加
 
-在“馈送”和“作业”选项卡附近，单击“+ [!UICONTROL 添加]”按钮可创建新馈送。有关详细信息，请参阅[添加馈送](create-feed.md)。
+Near the feeds and jobs tabs, click the + [!UICONTROL Add] button to create a new feed. 有关详细信息，请参阅[添加馈送](create-feed.md)。
 
 ### 列
 
@@ -78,7 +78,7 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 单击数据馈送旁边的复选框可显示可用的操作。
 
 * **作业历史记录**：查看与此数据馈送相关联的所有作业。系统会使您自动转至[“管理作业”界面](df-manage-jobs.md)。
-* **删除**：删除数据馈送，将其状态设置为“[!UICONTROL 已删除]”。
+* **删除**:删除数据馈送，将其状态设置为 [!UICONTROL Deleted]。
 * **复制**：允许您使用当前馈送的所有设置[创建新馈送](create-feed.md)。如果选择多个数据馈送，则只能复制一个。
-* **暂停**：停止处理馈送，将其状态设置为“[!UICONTROL 不活动]”。
+* **暂停**:停止对源的处理，将其状态设置为 [!UICONTROL Inactive]。
 * **激活**：仅适用于不活动的馈送。将从之前停止时所处的状态继续处理数据，如有必要，可回填任何日期。
