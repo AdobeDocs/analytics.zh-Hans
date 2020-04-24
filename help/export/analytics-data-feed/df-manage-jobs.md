@@ -1,7 +1,7 @@
 ---
 title: 管理数据馈送作业
 description: 了解如何管理数据馈送中的各个作业。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 1. 登录到 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 2. 单击右上方的 9 宫格菜单，然后单击“[!UICONTROL Analytics]”。
-3. 在顶部菜单中，单击“[!UICONTROL 管理员]”>“[!UICONTROL 数据馈送]”。
+3. In the top menu, click [!UICONTROL Admin] > [!UICONTROL Data Feeds].
 4. 单击顶部附近的“作业”选项卡。
 
 ![“数据馈送”菜单](assets/AdminMenu.png)
