@@ -15,18 +15,18 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 在数据仓库中，选择选 **[!UICONTROL Request Manager]** 项卡。
 
-使用此选项卡可
+使用此选项卡，您可以
 
-* 按报告名称、已应用的区段、申请人、请求日期和状态视图最近的报告请求。
-* 重复请求。 单击 **[!UICONTROL Duplicate]** 请求旁边的。
+* 按报表名称、应用的区段、请求者、请求日期和状态查看最近的报表请求。
+* 复制请求。Click **[!UICONTROL Duplicate]** next to the request.
 
    >[!NOTE]
    >
    >此操作只会复制请求，而不会复制计划或提交详细信息。
 
-* 按报告名称或申请人的登录名搜索报告。
-* 通过将报告拖放到队列中的新位置，重新确定报告的优先级。
-* 要查看请求何时开始处理，请单击计划的请求ID并检查打开的弹出窗口。
+* 按报表名称或请求者的登录名搜索报表。
+* 通过将报表拖放到队列中的新位置，重新安排报表的优先级。
+* 要查看请求开始处理的时间，请单击计划请求 ID，然后检查打开的弹出窗口。
 
 >[!NOTE]要取消 Data Warehouse 请求，请[执行以下步骤](https://helpx.adobe.com/cn/analytics/kb/cancel-data-warehouse-requests.html)。
 
