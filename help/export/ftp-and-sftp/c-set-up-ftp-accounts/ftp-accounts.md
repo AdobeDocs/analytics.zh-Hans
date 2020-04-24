@@ -3,7 +3,7 @@ description: 设置并使用 Adobe 托管的 FTP 帐户。
 keywords: ftp;sftp
 title: 设置 FTP 帐户 - 概述
 uuid: e5524619-248a-4aae-9f64-cd7d33f3c407
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
