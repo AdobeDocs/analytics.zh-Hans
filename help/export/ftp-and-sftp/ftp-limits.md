@@ -1,5 +1,5 @@
 ---
-description: 所有Adobe FTP帐户的数据存储限制为2 GB（或63个文件）。 文件会在这些 FTP 帐户上保留 90 天。
+description: 所有 Adobe FTP 帐户都具有 2GB（或 63 个文件）的数据存储限制。文件会在这些 FTP 帐户上保留 90 天。
 keywords: ftp;sftp
 title: FTP 限制和数据保留
 uuid: deb807c9-e988-4587-b518-881857cad1cf
