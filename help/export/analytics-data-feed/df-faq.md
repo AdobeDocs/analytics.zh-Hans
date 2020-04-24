@@ -2,7 +2,7 @@
 description: 有关数据馈送的常见问题解答
 keywords: Data Feed;job;pre column;post column;case sensitivity
 title: 数据馈送常见问题解答
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
