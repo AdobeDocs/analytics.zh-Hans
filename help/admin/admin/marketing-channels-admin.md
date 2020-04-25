@@ -11,8 +11,8 @@ source-git-commit: 79a3bd43171f982831120a5a9fe181dd2f8dec16
 
 # 营销渠道
 
-营销渠道通常用于分析访客如何（通过哪个渠道）访问您的网站。 您可以基于要跟踪的渠道以及跟踪方式，创建并且自定义营销渠道处理规则。
+营销渠道通常用于分析访客如何(通过哪个渠道)到达您的网站。 您可以基于要跟踪的渠道以及跟踪方式，创建并且自定义营销渠道处理规则。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 营销渠道]**。
 
 请参阅[营销渠道](/help/components/c-marketing-channels/analyze-mc.md)。
