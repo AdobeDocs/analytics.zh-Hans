@@ -20,4 +20,4 @@ source-git-commit: 5e0562312dc086c7e84de2ee8d5d47f6d1e12bce
 | Analytics 工具 | Analysis Workspace 访问权限 | 授予对 Analysis Workspace 的访问权限。用户必须属于此组（首选）或“报告与分析访问”，才能在Workspace中使用营销渠道维。 |
 | Analytics 工具 | 报告和分析访问 | 授予对报告和分析的访问权限。 用户必须属于此组或“Analysis Workspace 访问权限”组（首选），才能使用 Adobe Analytics。 |
 
-有关Admin Console中的产品配置和Adobe Analytics权限的更多信息，请转 [到此处](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html)。
+有关Admin Console中的产品用户档案和Adobe Analytics权限的更多信息，请访 [问此处](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html)。
