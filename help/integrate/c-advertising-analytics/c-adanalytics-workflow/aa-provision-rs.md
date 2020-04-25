@@ -12,11 +12,11 @@ source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
 
 要在 Analytics 中查看任何 Advertising Analytics 搜索数据，您需要配置每个 Experience Cloud 映射的报表包，以便进行 Advertising Analytics 报告。
 
-1. [将报表包映射到组织](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html)。
-1. 导航到 **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**。
+1. [将报表包映射到组织](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/about-core-services/report-suite-mapping.html)。
+1. 导航至&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
 
 1. 选择已映射到您的 Experience Cloud 组织的报表包。
-1. 单击 **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**.
+1. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL Advertising Analytics 配置]**。
 
    ![报表](assets/aa_reporting.png)
 
@@ -30,5 +30,5 @@ source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
    | 最近（上一个） | 无论之前使用了什么变量，所看到的最后一个值将获得成功事件的全部分配点数。 |
    | 过期时间 | 让您可以指定一个时段或事件，eVar 值将在此时段或事件之后过期（即，不再接收成功事件的点数）。如果在 eVar 过期之后发生成功事件，则由“无”值接收该事件的信用（不激活任何 eVar）。 |
 
-1. 单 **[!UICONTROL Enable Advertising Analytics Reporting]** 击（第一次）或 **[!UICONTROL Update Advertising Analytics Reporting]** （后续时间）。 您的报表包现已准备好接收 Advertising Analytics 搜索数据。现在，您可以[创建广告帐户](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)。
+1. 单击&#x200B;**[!UICONTROL 启用 Advertising Analytics 报表]**（第一次）或&#x200B;**[!UICONTROL 更新 Advertising Analytics 报表]**（第一次之后）。您的报表包现已准备好接收 Advertising Analytics 搜索数据。现在，您可以[创建广告帐户](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)。
 
