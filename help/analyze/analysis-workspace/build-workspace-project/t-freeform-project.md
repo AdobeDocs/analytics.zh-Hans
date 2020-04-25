@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 创建工作区项目
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,9 +20,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 1. 指定创建和管理项目的用户权限。
 
-   创建或组织 Analysis Workspace 项目之前，管理员必须要将您添加到具有&#x200B;**[!UICONTROL 在 Analysis Workspace 中创建/组织项目]**&#x200B;权限的组，或者添加到&#x200B;**[!UICONTROL 全部报表访问]**&#x200B;用户组。（**[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]** > [群组](https://marketing.adobe.com/resources/help/zh_CN/reference/groups.html)）。
+   Before creating or curating an Analysis Workspace project, administrators must add you to a group with the **[!UICONTROL Create / Curate Projects in Analysis Workspace]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [群组](https://marketing.adobe.com/resources/help/zh_CN/reference/groups.html)).
 
-1. 在 [!DNL Experience Cloud] 中，单击 **[!UICONTROL Analytics]** > **[!UICONTROL 工作区]**。
+1. In the [!DNL Experience Cloud], click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
 
    ![](assets/analysis_workspace_menu.png)
 
@@ -30,7 +30,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    ![](assets/analysis-app-search.png)
 
-1. 单击&#x200B;**[!UICONTROL 新建项目]**。
+1. 单击 **[!UICONTROL Create New Project]**.
 
    您可以选择从以下项创建项目：
 
@@ -40,10 +40,10 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    ![](assets/start_modal.png)
 
-1. 要从空白项目创建项目，请单击&#x200B;**[!UICONTROL 空白项目]**。
+1. To create a project from a blank project, click **[!UICONTROL Blank Project]**.
 
-   * 然后单击&#x200B;**[!UICONTROL 创建]**，或
-   * 只需按下 **[!UICONTROL Enter]** 键。
+   * 然后，单 **[!UICONTROL Create]**&#x200B;击，或
+   * 只需单击 **[!UICONTROL Enter]**&#x200B;即可。
    屏幕上会显示空白项目，其中包括一个自由格式面板和一个数据表可视化信息。
 
    ![](assets/fa_project_new.png)
@@ -75,7 +75,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-1. 保存项目。为项目命名，提供描述（可选但很有用）并标记项目（可选），然后单击&#x200B;**[!UICONTROL 保存项目]**。
+1. 保存项目。Name the project, provide a description (optional, but useful) and tag the project (optional), then click **[!UICONTROL Save Project]**.
 
    ![](assets/save_project.png)
 
@@ -124,7 +124,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **[可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)**
 
-[!UICONTROL 可视化]面板提供标准的 Analytics 图形、图表、圆环图、数据表、[同类群组](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)表、维恩图等等。您可以将多个可视化信息拖放到项目中。
+The [!UICONTROL Visualizations] panel provides standard Analytics graphs, charts, donuts, data tables, [cohort](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) tables, Venn diagrams, and so on. 您可以将多个可视化信息拖放到项目中。
 
 ![步骤结果](assets/visualizations.png)
 
