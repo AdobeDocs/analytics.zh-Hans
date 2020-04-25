@@ -1,7 +1,7 @@
 ---
 title: SSL 证书许可
 description: 客户管理证书的证书程序
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 290838566b86f71902abd303b5c43dd2661d3ce1
 
 ---
