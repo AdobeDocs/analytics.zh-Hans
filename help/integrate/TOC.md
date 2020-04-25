@@ -1,7 +1,7 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics Integration Guide
+user-guide-title: Analytics 集成指南
 user-guide-url: /content/help/en/analytics/integration/home.html
 translation-type: tm+mt
 source-git-commit: 440b75f03e34ac3ccf75671323502b6e2bb50fdc
@@ -16,7 +16,7 @@ source-git-commit: 440b75f03e34ac3ccf75671323502b6e2bb50fdc
    + [Audience Analytics 概述](c-audience-analytics/mc-audiences-aam.md)
    + Audience Analytics 工作流程 {#audience-analytics-workflow}
       + [工作流程概述](c-audience-analytics/c-workflow/audiences-workflow.md)
-      + [创建分析目标- AAM指南](https://docs.adobe.com/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
+      + [创建 Analytics 目标 - AAM 指南](https://docs.adobe.com/help/zh-Hans/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.translate.html)
       + [在 Analytics 中使用受众数据](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Audience Analytics 用例](c-audience-analytics/aam-audience-use-cases.md)
       + [常见问题解答](c-audience-analytics/mc-audiences-faqs.md)
@@ -34,7 +34,7 @@ source-git-commit: 440b75f03e34ac3ccf75671323502b6e2bb50fdc
       + [管理广告帐户](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Advertising Analytics 疑难解答](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [常见问题解答](c-advertising-analytics/aa-faq.md)
-+ [Analytics for Target - A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html)
++ [Analytics for Target - A4T](https://marketing.adobe.com/resources/help/zh_CN/target/a4t/a4t.html)
 + [Adobe Campaign 报告](adobe-campaign.md)
 + [AEM Assets 报告](aem-assets-reporting.md)
 + [Activity Map 报告](activitmap-reporting.md)
