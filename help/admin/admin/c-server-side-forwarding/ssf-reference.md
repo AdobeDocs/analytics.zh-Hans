@@ -2,7 +2,7 @@
 description: 服务器端转发调用中的配置变量、HTTP 头和数据信号的综合列表及描述。
 title: 服务器端转发数据和代码引用
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
