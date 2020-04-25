@@ -3,7 +3,7 @@ description: 假设您已经安装了正确的浏览器插件，那么就可以�
 title: 启动 Activity Map
 topic: Activity map
 uuid: f617fbc3-a577-4bd2-a316-578959219874
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
