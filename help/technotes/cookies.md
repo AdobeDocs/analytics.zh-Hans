@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics 和浏览器 Cookie
 description: 了解 Adobe Analytics 处理如何浏览器 Cookie。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3566960f546d847ed4f6ca8ecbb9c759460f4fb0
 
 ---
