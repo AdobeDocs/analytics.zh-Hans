@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics 中的报表自定义
 description: 了解如何在 Adobe Analytics 中自定义报表
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
