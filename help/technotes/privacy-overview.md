@@ -3,7 +3,7 @@ description: 有关 Adobe Analytics 所收集数据和其他隐私注意事项�
 keywords: privacy
 title: 隐私概述
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 ---
@@ -30,7 +30,7 @@ Adobe Analytics 收集以下数据：
 | 访问客户页面之前用户所在页面的 URL | 是 |
 | 消费者单击客户页面链接时的搜索查询 | 是 |
 | 浏览器类型 | 是 |
-| 设备类型 | 是 |
+| Device Type | 是 |
 | 操作系统 | 是 |
 | ISP/连接速度 | 是 |
 | 显示设置（例如屏幕大小和分辨率） | 是 |
