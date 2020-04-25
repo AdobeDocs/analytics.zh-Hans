@@ -4,7 +4,7 @@ subtopic: Qualtrics
 title: 生成 Qualtrics Adobe Analytics 令牌
 topic: Data connectors
 uuid: 6038279e-c399-4e10-9afc-9c4305dc36d5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
