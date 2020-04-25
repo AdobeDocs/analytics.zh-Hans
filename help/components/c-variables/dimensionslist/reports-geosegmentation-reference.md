@@ -3,7 +3,7 @@ description: 下表列出了相关国家/地区是否拥有地区或邮政编码
 title: 按国家/地区的地域划分地区和邮政编码使用情况
 topic: Reports
 uuid: 9dab88f8-cd3f-481f-955f-2fc2f48c006d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
