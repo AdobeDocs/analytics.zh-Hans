@@ -3,7 +3,7 @@ description: 描述如何启用和实施促销变量。
 keywords: Analytics Implementation;merchandising;variable;product syntax;Conversion Variable Syntax;s.products
 title: 实施促销变量
 topic: Developer and implementation
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
