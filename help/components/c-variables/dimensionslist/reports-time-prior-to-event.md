@@ -3,7 +3,7 @@ description: 显示了在访问过程中选定的转化事件发生之前的时�
 title: 发生事件之前逗留的时间
 topic: Reports
 uuid: 851d9b6e-9d85-464a-9c40-ce525365ea7d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
