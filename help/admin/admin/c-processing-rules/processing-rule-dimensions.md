@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: 可用于处理规则的维度
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -66,7 +66,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td colname="col2"> <p> <code> s.channel </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>服务器 </p> </td> 
+   <td colname="col1"> <p>Server </p> </td> 
    <td colname="col2"> <p> <code> s.server </code> </p> </td> 
   </tr> 
  </tbody> 
