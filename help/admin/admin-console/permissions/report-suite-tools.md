@@ -1,6 +1,6 @@
 ---
 source-git-commit: d8f2458e7bae596dbabc8dab33ea5d2881047566
-translation-type: ht
+translation-type: tm+mt
 
 ---
 # 产品配置文件权限中列出的报表包工具
