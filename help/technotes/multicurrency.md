@@ -3,7 +3,7 @@ description: 介绍如何定义目标货币代码以使多货币支持正常工�
 title: 多货币支持
 topic: null
 uuid: null
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 63a6ca92ae5fe103648c74bd16bcdf90858c71f3
 
 ---
