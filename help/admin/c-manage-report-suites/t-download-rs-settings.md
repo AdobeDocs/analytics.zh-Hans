@@ -3,7 +3,7 @@ description: 描述如何生成 Excel 电子表格以包含选定报表包所有
 title: 下载报表包设置
 topic: Admin tools
 uuid: f0aa19a5-eb5d-4ad4-b463-9400abb07038
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
