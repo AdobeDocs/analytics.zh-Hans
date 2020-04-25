@@ -3,7 +3,7 @@ description: 在 Analytics 报表中查看和划分 Adobe Target 流量数据。
 title: Adobe Target
 topic: Ad hoc analysis
 uuid: 420da093-9d0d-454e-a193-e0595f36d3b1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
