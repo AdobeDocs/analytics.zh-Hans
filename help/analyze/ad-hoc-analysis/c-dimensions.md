@@ -3,7 +3,7 @@ description: 维度是可以在报表中查看、划分和比较的量度数据�
 title: 维度
 topic: Ad hoc analysis
 uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
