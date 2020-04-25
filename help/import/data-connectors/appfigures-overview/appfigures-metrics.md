@@ -2,7 +2,7 @@
 description: 以下量度将会作为 appFigures 集成的一部分进行同步。
 title: 量度和维度
 uuid: 419a9031-1291-4ec0-a2e1-93993858991a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
