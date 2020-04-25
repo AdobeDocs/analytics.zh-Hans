@@ -2,7 +2,7 @@
 description: 了解您可以在报表上执行的各种操作，例如配置图表、图形和划分以及提取数据。
 title: 配置现有报表
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -65,7 +65,7 @@ c_report_actions.xml
    <td colname="col2"> <p>请参阅<a href="/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB"   >“常规设置”选项卡 - 定义</a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>查看 </p> </td> 
+   <td colname="col1"> <p>视图 </p> </td> 
    <td colname="col2"> <p>指定是查看图表、图形还是查看两者。 </p> </td> 
   </tr> 
  </tbody> 
@@ -90,7 +90,7 @@ c_chart_options.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>图形类型 </p> </td> 
+   <td colname="col1"> <p>图表类型 </p> </td> 
    <td colname="col2"> <p> 用于将图表类型更改为线图、条形图、堆叠式区域图、泡泡图等。 </p> 
     <ul id="ul_98A8DBBCADA042359C5D096EA0B1104B"> 
      <li id="li_6C29218C3ADC47199DE832A2E3A105C7"> <b>泡泡图</b>：泡泡图适用于任何排名报表。泡泡图最多可以提供 5 个独立维度的量度分析。当点直径没有应用量度时，您可将该图表用作散点图。泡泡图动态变动以反映报表数据的更改。。 </li> 
@@ -194,7 +194,7 @@ t_reports_clipboard.xml
 
    建议您在复制数据前打开 Excel，因为启动 Excel 时它会清除内存缓冲区。
 
-1. 在报表级别，单击&#x200B;**[!UICONTROL “设置”]** ![](assets/settings_icon.png)，然后单击&#x200B;**[!UICONTROL “复制报表数据”]**&#x200B;。
+1. 在报表级别，单击“设置”****![](assets/settings_icon.png)，然后单击“复制报表数据”****。
 1. 在 Excel 中，选择一个单元格，然后粘贴数据。
 
 ## 提取访客 ID {#task_7223BE8E0389460282825E61BEDC0574}
