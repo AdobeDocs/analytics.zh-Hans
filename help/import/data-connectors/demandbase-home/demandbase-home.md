@@ -2,7 +2,7 @@
 description: 'null'
 title: 适用于 Adobe Analytics 的 Demandbase Data Connector
 uuid: 28fddb8f-06f6-4447-8257-4a59131bedbe
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
