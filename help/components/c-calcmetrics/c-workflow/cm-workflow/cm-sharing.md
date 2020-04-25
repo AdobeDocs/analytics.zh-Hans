@@ -2,7 +2,7 @@
 description: 根据您的权限，您可以与整个组织、群组或个人用户共享量度。
 title: 共享计算量度
 uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
