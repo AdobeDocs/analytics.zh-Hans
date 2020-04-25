@@ -3,7 +3,7 @@ description: 要验证是否已正确启用服务器端转发，您将需要检�
 solution: Audience Manager
 title: 如何验证服务器端转发的实施情况
 uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
