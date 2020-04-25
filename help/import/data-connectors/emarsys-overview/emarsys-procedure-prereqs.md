@@ -2,7 +2,7 @@
 description: 使用“即插即用”向导，直观的分步流程将引导您完成各个系统同步点并初始化集成。
 title: 集成过程和先决条件
 uuid: d0cd9f08-b66e-470a-a5d2-08cbddc18275
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
