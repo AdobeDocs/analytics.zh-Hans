@@ -2,7 +2,7 @@
 description: 量度是有关访客活动的量化信息，如查看次数、点进次数、重新加载次数、平均逗留时间、日期、件数、订购数、收入等。量度和关联的数据显示在报表的列中。
 title: 量度
 uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
