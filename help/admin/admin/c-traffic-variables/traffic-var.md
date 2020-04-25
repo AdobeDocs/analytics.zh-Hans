@@ -15,4 +15,4 @@ source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
 
 使用“[!UICONTROL 流量变量]”页面可以启用、禁用或重命名流量变量报表。一旦禁用了流量变量报表，它便不会显示在用户界面中。
 
-请参阅 也 [是实施](../../../implement/vars/page-vars/prop.md) 用户指南中的prop。
+请参阅 also [prop](../../../implement/vars/page-vars/prop.md) in the Implement user guide.
