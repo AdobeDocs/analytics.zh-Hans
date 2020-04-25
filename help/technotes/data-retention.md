@@ -2,7 +2,7 @@
 title: 数据保留策略
 description: 数据保留策略确定 Adobe 将您的数据存储多长时间。
 uuid: 9988ef5c-d657-4521-8601-e508756d7d07
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 
 ---
