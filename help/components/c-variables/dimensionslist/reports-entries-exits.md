@@ -3,7 +3,7 @@ description: “登录页面”报表按百分比和总访问量显示哪些是�
 title: 登录和退出
 topic: Reports
 uuid: 756de55b-136b-427b-a80c-f822260131b1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
