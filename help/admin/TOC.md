@@ -1,7 +1,7 @@
 ---
 product: analytics
 audience: admin
-user-guide-title: Analytics Admin Guide
+user-guide-title: Analytics 管理指南
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
 source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
@@ -151,7 +151,7 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
       + [用户和群组权限更改](user-management2/c-user-management/permissions-changes.md)
       + [转移用户帐户项目](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
       + [将用户添加到群组](user-management2/c-user-management/t-add-user-to-group.md)
-      + 将用户迁移到Adobe Admin Console {#migrate-users}
+      + 将用户迁移到 Adobe Admin Console {#migrate-users}
          + [将 Analytics 用户迁移到 Admin Console](user-management2/user-migration/c-migration-tool.md)
          + [为 Adobe ID 迁移 Analytics 用户帐户](user-management2/user-migration/t-migrate-users.md)
          + [为 Enterprise ID 和 Federated ID 迁移 Analytics 用户帐户](user-management2/user-migration/migrate-enterprise.md)
