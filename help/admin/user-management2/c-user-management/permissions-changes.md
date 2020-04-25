@@ -15,13 +15,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!IMPORTANT]
 >
->用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在迁移完所有客户之后，将撤销 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员工具]** > **[!UICONTROL 用户管理]**&#x200B;中的帮助内容。
 
 ## 更改了哪些内容？{#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
-**[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]**
+**[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 群组]**
 
->[!NOTE] 由于可用的可能权限组合太多，我们无法提供文档介绍可在每种权限组合中使用的所有 API 方法。通常，被授予Web服务访问权限的非管理员将只有对API方法的读取访问权限。 他们将无权访问方法的“写入”权限。
+>[!NOTE] 由于可用的可能权限组合太多，我们无法提供文档介绍可在每种权限组合中使用的所有 API 方法。通常，被授予 Web 服务访问权限的非管理员将只有 API 方法的读取权限。他们将没有这些方法的写入权限。
 
 由于 API 和界面使用相同的权限系统，因此无论管理员在界面（Adobe Admin Console）中为特定的非管理员授予怎样的权限，该用户在 API 中都将拥有相同的权限。
 
@@ -44,23 +44,23 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
     </ul> <p>例如，您可以创建一个群组，并为其授予对多个 Analytics 工具（<span class="wintitle">Analysis Workspace</span>、<span class="wintitle">Reports &amp; Analytics</span> 和 <span class="wintitle">Report Builder</span>）的访问权限，以及使用特定量度和维度（包括 eVar）及区段或计算量度创建等功能的权限。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>对预定义用户组的更改 </p> </td> 
-   <td colname="col2"> <p> <b>管理员访问：</b> 管理员不再需要预定义用户组。 管理员现在可以访问所有项目（工具、度量、维度），以及Web服务访问、Report Builder、活动图和临时分析。 </p> <p>今后，用户组的目的是授予或限制对非管理用户的访问权限。 </p> <p> <b>自定义用户组：</b> 自定义用户组已替换预定义的用户组。 现有预定义用户组将使用相同的用户组名称迁移到自定义用户组。 您创建的任何自定义用户组（包括其设置）都将被保留。 但是，您会注意到设置的位置将会移动。 例如，“自定义 Admin Console”中的“公司设置”现在位于<a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">自定义 Analytics 工具</a>中。 </p> <p> 属于<span class="term">所有报表访问</span>的用户已迁移到具有以下访问权限的自定义群组： </p> 
+   <td colname="col1"> <p>更改了预定义群组 </p> </td> 
+   <td colname="col2"> <p> <b>管理员访问权限：</b>管理员不再需要预定义群组。管理员现在具有对所有项目（工具、量度、维度）以及 Web 服务访问、Report Builder、Activity Map 和 Ad Hoc Analysis 的访问权限。 </p> <p>从此以后，群组的用途是授予或限制非管理用户的访问权限。 </p> <p> <b>自定义群组：</b>自定义群组取代了预定义群组。现有预定义群组将迁移到自定义群组，所用的群组名称保持不变。您已创建的任何自定义群组（包括其设置）将被保留。但您会发现，设置的位置将发生移动。例如，“自定义 Admin Console”中的“公司设置”现在位于<a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">自定义 Analytics 工具</a>中。 </p> <p> 属于<span class="term">所有报表访问</span>的用户已迁移到具有以下访问权限的自定义群组： </p> 
     <ul id="ul_696A9243F5FD4AF187352C2F4B1CFDC2"> 
      <li id="li_683A0A3BB7214CFFBC61D5A4CD237F48">所有维度 </li> 
      <li id="li_D8FDBF6A32224731AB706315DEA0A03E">所有量度 </li> 
      <li id="li_65ABE5C95D43444D88E63EE95C9AED05">所有报表包 </li> 
      <li id="li_7ED1505590144B38B3B9851BAA6BBB49">渠道报表 权限 </li> 
-     <li id="li_F718FE1FCF9A4B05AB933CA3F105F3EC">异常检测报告权限 </li> 
-     <li id="li_527BD52007E846FE8B5F71AB3C12F695">实时报告权限 </li> 
-     <li id="li_AFFB58C7FB644AC8A85E2D76BA7D51F5">分析工作区访问权限 </li> 
+     <li id="li_F718FE1FCF9A4B05AB933CA3F105F3EC">异常检测报表权限 </li> 
+     <li id="li_527BD52007E846FE8B5F71AB3C12F695">实时报表权限 </li> 
+     <li id="li_AFFB58C7FB644AC8A85E2D76BA7D51F5">Analysis Workspace 访问权限 </li> 
     </ul> <p>管理员可以删除自定义群组并创建他们自己的群组，因为之前在预定义群组中提供的所有设置都可以在<a href="/help/admin/user-management2/c-user-groups/groups.md">定义用户群组</a>中的“<span class="wintitle">报表访问</span>”设置下进行自定义。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>维级别权限 </p> </td> 
-   <td colname="col2"> <p>您可以自定义权限以包括或排除对维度的访问权限（除了指标之外）。 </p> 
+   <td colname="col1"> <p>维度级别权限 </p> </td> 
+   <td colname="col2"> <p>您可以对权限进行自定义，以便包含或排除对维度（和量度）的访问权限。 </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
-     <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>自定义组中的所有当前维度和指标已自动迁移到新类别。 如果现有组启用了度量，默认情况下将为其提供所有新授权的维度（eVar和内容感知）和度量。 </p> </li> 
+     <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>自定义群组内的所有当前维度和量度均已自动迁移到新类别。如果现有的群组启用了量度，则默认情况下将为其提供所有新增的许可维度（eVar 和内容识别）和量度。 </p> </li> 
      <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 分类导入器（前身为 SAINT）权限：分类的访问权限取决于对此分类所依据的<a href="https://marketing.adobe.com/resources/help/zh_CN/reference/c_classifications.html">变量</a>的访问权限。 </li> 
     </ul> <p>请参阅<a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">自定义维度权限</a>。 </p> </td> 
   </tr> 
@@ -73,7 +73,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## 关于权限更改的常见问题解答 {#section_02809EFC95054B40A089E6C6E4FACA13}
 
-以下是有关新更新和计划更新以及它们如何影响您的管理环境的重要新信息。
+以下是有关新更新和计划更新以及这些更新对管理环境有何影响的重要新增信息。
 
 <table id="table_1E93F45C66E841E6882FB602509F30A3"> 
  <thead> 
@@ -84,7 +84,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1">2016年7月版本中发生了 <b>哪些权限更</b> 改？ </td> 
+   <td colname="col1"><b>2016 年 7 月</b>版本做出了哪些权限更改？ </td> 
    <td colname="col2"> <p> <b>全部报表包访问</b> </p> <p>在添加要包含在群组中的报表包时，您可以指定<span class="uicontrol">全部报表包访问</span>。此设置会将群组权限应用到所有当前和后续的报表包。 </p> <p>要启用此功能，请导航至<span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">群组</span> &gt; <span class="uicontrol">添加新用户群组</span>，然后选择<span class="uicontrol">全部报表包访问</span>。 </p> <p><img placement="break"  src="assets/all-report-suites.png" width="300px" id="image_9E814D412E87484C940F1100D6DE2B0F" /> </p> </td> 
   </tr> 
   <tr> 
@@ -101,37 +101,37 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>迁移用户时需要做什么吗？ </p> </td> 
-   <td colname="col2"> <p>否，所有权限迁移都将透明地进行。 </p> <p> 
+   <td colname="col1"> <p>我需要做什么来迁移用户？ </p> </td> 
+   <td colname="col2"> <p>您不需要做任何操作，所有权限迁移的执行都将是透明的。 </p> <p> 
      <ul id="ul_654F85286EC04416B3E0BA725EBE10AD"> 
-      <li id="li_8050B8941F794103B82A0ADF0930D216">自定义组中的所有当前流量报告将自动迁移到新的维类别。 </li> 
-      <li id="li_B97079DB29A346B98D066F11AB7F94AF">如果自定义组已启用任何指标，它将自动获得所有新授权的维度（eVar和解决方案变量）。 </li> 
-      <li id="li_F1219EF490DA473BA15F2B215F2995AE"> 将自动向至少具有一个度量的自定义组授予对所有eVar和其他内容感知维度的访问权限 <b></b> ，但新可用的流量维度（以前称为流量报告）除外。 </li> 
-      <li id="li_F494CE6144A04A6199CFBBA1D7BEA32B">每个预定义的用户组都将更改为权限。 这些新权限将被添加到新的 <span class="uicontrol">Analytics 工具</span>类别中。 </li> 
-      <li id="li_2FCD9254FC3C4FD7871EEF9453E5CE1E">每个包含任何指标的自定义组都会将所有Analytics Solution事件添加为新指标。 </li> 
-      <li id="li_34C4560769B64F28A4E83BAE71065DCC">以前位于“所有报告访问”中的每个用户都将添加到新的自定义组中。 “所有报告访问”将不再存在。 </li> 
+      <li id="li_8050B8941F794103B82A0ADF0930D216">当前自定义群组中的所有流量报表都将自动迁移到新的维度类别中。 </li> 
+      <li id="li_B97079DB29A346B98D066F11AB7F94AF">如果自定义群组已经启用任何量度，则将自动为其提供所有新增的可授权维度（eVar 和解决方案变量）。 </li> 
+      <li id="li_F1219EF490DA473BA15F2B215F2995AE"> 对于至少具有一个量度的自定义群组，将自动为其授予对所有 eVar 及其他内容识别维度的访问权限，新提供的流量维度（以前称为流量报表）<b>除外</b>。 </li> 
+      <li id="li_F494CE6144A04A6199CFBBA1D7BEA32B">每个预定义群组都将更改为权限。这些新权限将被添加到新的 <span class="uicontrol">Analytics 工具</span>类别中。 </li> 
+      <li id="li_2FCD9254FC3C4FD7871EEF9453E5CE1E">具有任何量度的每个自定义群组会将所有 Analytics 解决方案事件添加为新量度。 </li> 
+      <li id="li_34C4560769B64F28A4E83BAE71065DCC">过去位于“全部报表访问”中的每个用户都将被添加到新的自定义群组中。“全部报表访问”将不再存在。 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>什么不会改变？ </p> </td> 
-   <td colname="col2"> <p>访客属性将继续为非授权属性。 </p> </td> 
+   <td colname="col1"> <p>哪些功能没有变化？ </p> </td> 
+   <td colname="col2"> <p>“访客属性”仍将不可授权。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 权限快速参考 {#section_A3FDD8259F524B21A5489833533D1B28}
+## 授权快速参考 {#section_A3FDD8259F524B21A5489833533D1B28}
 
 下表列出了相关任务以及执行这些任务的位置（具体取决于公司的状态）。
 
->[!NOTE] *`migrated user`* 和 *`Experience Cloud user`* 指已接受加入 Experience Cloud 的电子邮件邀请的用户。如果未接受电子邮件邀请，用户仍是 Analytics 用户，无法在 Admin Console 中对其进行管理。(例外情况是迁移使用企业 [ID或联合ID](https://helpx.adobe.com/cn/enterprise/using/set-up-identity.html)。 在这种情况下，当管理员逐个用户迁移用户时，将迁移用户。)
+>[!NOTE] *`migrated user`* 和 *`Experience Cloud user`* 指已接受加入 Experience Cloud 的电子邮件邀请的用户。如果未接受电子邮件邀请，用户仍是 Analytics 用户，无法在 Admin Console 中对其进行管理。（迁移时使用了[企业或联合 ID](https://helpx.adobe.com/cn/enterprise/using/set-up-identity.html) 的情况除外。在这种情况下，当管理员逐个迁移用户时，将迁移此类用户。）
 
 <table id="table_B68FD00FC5D24823A86BB69558C0327C"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 任务 </th> 
-   <th colname="col2" class="entry"> 非迁移登录公司 </th> 
-   <th colname="col3" class="entry"> 当前迁移公司 </th> 
-   <th colname="col4" class="entry"> 已完成迁移登录公司 </th> 
+   <th colname="col2" class="entry"> 未迁移的登录公司 </th> 
+   <th colname="col3" class="entry"> 当前正在迁移的公司 </th> 
+   <th colname="col4" class="entry"> 已完成迁移的登录公司 </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -145,7 +145,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    <td colname="col1"> 编辑用户 </td> 
    <td colname="col2"> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> 管理工具</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> <p> 管理工具 - 编辑（对于迁移用户，管理工具中的编辑功能仅限于 API 密钥管理）和删除/转移资产。 </p> </td> 
-   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> <p> 管理工具——编辑仅限于API密钥管理和删除／传输资产。 </p> </td> 
+   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> <p> 管理工具 - 编辑（仅限于 API 密钥管理）和删除/转移资产。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 删除用户 </td> 
@@ -154,9 +154,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    <td colname="col4"> <p>Admin Console </p> <p> 管理工具 - 在 Admin Console 中删除 Experience Cloud 用户，或取消关联这些用户的帐户后，您可以从管理工具中删除 Analytics 登录。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 登录到Analytics </td> 
-   <td colname="col2"> <p> <b>Experience Cloud: </b><span class="filepath"> marketing.adobe.com</span>。 仅适用于Experience Cloud用户。 </p> <p> <b>Analytics（旧版）：</b><span class="filepath">sc.omniture.com</span>。仅适用于Analytics用户，适用于具有其Analytics凭据的Experience Cloud用户 </p> </td> 
-   <td colname="col3"> <p> <span class="filepath"> marketing.adobe.com</span> —— 仅适用于Experience Cloud用户。 </p> <p> <span class="filepath">sc.omniture.com</span> - 适用于仅 Analytics 用户以及具有 Analytics 凭据的 Experience Cloud 用户。 </p> <p>在迁移过程中，管理员可以针对特定用户关闭 <span class="filepath">omniture.com</span> 登录功能。 </p> </td> 
+   <td colname="col1"> 登录到 Analytics </td> 
+   <td colname="col2"> <p> <b>Experience Cloud：</b><span class="filepath">marketing.adobe.com</span>。仅适用于 Experience Cloud 用户。 </p> <p> <b>Analytics（旧版）：</b><span class="filepath">sc.omniture.com</span>。适用于仅 Analytics 用户以及具有 Analytics 凭据的 Experience Cloud 用户 </p> </td> 
+   <td colname="col3"> <p> <span class="filepath">marketing.adobe.com</span> - 仅适用于 Experience Cloud 用户。 </p> <p> <span class="filepath">sc.omniture.com</span> - 适用于仅 Analytics 用户以及具有 Analytics 凭据的 Experience Cloud 用户。 </p> <p>在迁移过程中，管理员可以针对特定用户关闭 <span class="filepath">omniture.com</span> 登录功能。 </p> </td> 
    <td colname="col4"> <p>Admin Console </p> </td> 
   </tr> 
   <tr> 
