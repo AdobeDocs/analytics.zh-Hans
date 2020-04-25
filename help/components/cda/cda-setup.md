@@ -51,8 +51,8 @@ Adobe优惠一个模板以查看重要的跨设备性能数据。
 
 1. 导航到 [experiencecloud.adobe.com](https://experiencecloud.adobe.com) 并使用 Adobe ID 凭据登录。
 1. 单击顶部的 9 宫格图标，然后单击“Analytics”。
-1. 单击 [!UICONTROL Workspace] 顶部的，然后单击 [!UICONTROL Create New Project]。
-1. 找到“旅程IQ:“跨设备分析”模板，然后单击 [!UICONTROL Create]。
+1. Click [!UICONTROL Workspace] at the top, then click [!UICONTROL Create New Project].
+1. 找到“旅程IQ:“跨设备分析”模板，然后单击“创 [!UICONTROL 建”]。
 1. 如果出现提示，请将报表包更改为支持CDA的报表包。
 
 将创建一个包含多个面板的分析工作区项目。 顶部显示目录和简介，允许报告的上下文和单个报告的导航。 单击目录中的链接或展开面板的折叠面板以视图这些报告。
