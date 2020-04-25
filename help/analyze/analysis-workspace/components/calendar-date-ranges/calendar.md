@@ -16,11 +16,11 @@ source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
 
 ![日历](assets/aw_calendar.png)
 
-日历上的第一次点击会开始选择日期范围。 第二次单击将完成日期范围选择，该选项将高亮显示。 如果按 `Shift` 住键（或使用右键单击），则该键会附加到当前选定的范围。
+第一次单击日历时，将开始日期范围选择。 第二次单击将完成日期范围选择，该选项将高亮显示。 如果按 `Shift` 住键（或使用右键单击），则该键会附加到当前选定的范围。
 
 您还可以将日期（和时间维度）拖放到工作区项目中。您可以选择特定的日期、周、月、年或滚动日期。
 
-[YouTube 上的使用 Analysis Workspace 中的日期范围和日历](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28) (4:07)
+[YouTube 上的使用 Analysis Workspace 中的日期范围和日历](https://www.youtube.com/watch?v=L4FSrxr3SDA&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=28) (4:07)
 
 | 设置 | 描述 |
 |--- |--- |
