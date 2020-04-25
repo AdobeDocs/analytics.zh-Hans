@@ -15,14 +15,14 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!NOTE] 区段控件仅在标准模式下可用，因为 Adobe Analytics 平台不支持对实时数据进行分段。
 
-You can select one or several of the segments from the **[!UICONTROL Segments]** drop-down menu shown below. 列出的区段与您拥有的区段或通过“报告与分析”与您共享的区段与选定的报表包的区段相同。
+您可以从下面显示的&#x200B;**[!UICONTROL 区段]**&#x200B;下拉菜单中选择一个或多个区段。列出的区段与您所拥有的区段或者通过“Reports &amp; Analytics”与您共享的区段（用于选定的报表包）相同。
 
 ![](assets/segments.png)
 
-当区段选择发生更改后，关闭区段选择器后，将针对应用程序中显示的所有指标启动新的Analytics数据检索过程。 在页面之间导航时，将记住选定的区段。
+更改区段选择后，以及关闭区段选择器后，会为应用程序中显示的所有量度启动新的 Analytics 数据检索进程。当从一个页面导航至另一个页面时，所选择的区段会被记录下来。
 
-选择多个区段后，区段选择标签（处于折叠状态）将显示“多个”。 单击控件时，将显示选定区段的完整列表。
+当选择多个区段时，区段选择标签（处于折叠状态）将显示“多个”。当您点击控件时，将显示完整的选定区段列表。
 
 ![](assets/two_segments.png)
 
-The selected segments will be applied to all Analytics reports presented in Activity Map, i.e. overlays and the **[!UICONTROL Links on Page]** and **[!UICONTROL Page Details]** reports.
+选定区段将被应用于 Activity Map 中存在的所有 Analytics 报表，例如叠加图、**[!UICONTROL 页面上的链接]**&#x200B;和&#x200B;**[!UICONTROL 详细信息页面]**&#x200B;报表。
