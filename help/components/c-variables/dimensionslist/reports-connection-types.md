@@ -17,7 +17,7 @@ source-git-commit: b580a8cb149babd9f64ec1ac532fdff7e7c18df7
 
 ## 示例
 
-以下报告比较“访问”和“页面查看 [”量度](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-visit.html) 的连 [接类型](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-page-views.html):
+以下报告比较“访问”和“页面 [视图](https://docs.adobe.com/content/help/zh-Hans/analytics/components/variables/metrics/metrics-visit.html) ”的 [连接类型](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-page-views.html):
 
 ![报表](assets/contype_compare.png)
 
