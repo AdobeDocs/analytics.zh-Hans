@@ -28,10 +28,10 @@ source-git-commit: 5e0562312dc086c7e84de2ee8d5d47f6d1e12bce
 
 指定访客参与到期。
 
-1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Expiration]**.
+1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
+1. 在[!UICONTROL 报表包管理器]中，单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 营销渠道]** > **[!UICONTROL 营销渠道到期]**。
 
    ![](assets/mchannel_expiration.png)
 
 1. 配置访客参与到期字段。
-1. 单击 **[!UICONTROL Save.]**
+1. 单击&#x200B;**[!UICONTROL 保存]**。
