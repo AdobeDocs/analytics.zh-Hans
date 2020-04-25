@@ -3,7 +3,7 @@ description: 显示网站页面的层次结构布局，并根据 hierN 变量中
 title: 层级
 topic: Reports
 uuid: 52f5d0af-67f7-4439-923f-4b79bf1c3fff
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
