@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics 中的受众报表
 description: 了解如何使用 Analysis Workspace 创建基于受众的报表。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6217430bf0ae9c0f9c6426e4bb2a8101257068e7
 
 ---
