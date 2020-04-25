@@ -1,7 +1,7 @@
 ---
 title: 重定向
 description: 此页面已移除。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
