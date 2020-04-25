@@ -3,7 +3,7 @@ description: 标准报表显示网站和访客活动、流量模式、反向链�
 title: 报表概述
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
