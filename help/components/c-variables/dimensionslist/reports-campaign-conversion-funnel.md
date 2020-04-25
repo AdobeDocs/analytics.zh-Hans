@@ -3,7 +3,7 @@ description: 显示“促销活动”报表组中量度的平均值。默认量�
 title: 促销活动转化漏斗
 topic: Reports
 uuid: b0a90917-e4c7-40da-854e-58649de09742
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
