@@ -1,5 +1,5 @@
 ---
-description: 此帮助页面包含每个Adobe Analytics工具的推荐用例。 工具的列出顺序应考虑在内。 如果某个工具不满足需求，请移到下一个工具进行考虑。
+description: 本帮助页面包含每个 Adobe Analytics 工具的推荐使用案例。应该按照工具的列出顺序来考虑使用哪个工具。如果某个工具无法满足需求，请考虑切换到下一个工具。
 title: 我应该使用哪种 Adobe Analytics 工具？
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
@@ -10,9 +10,9 @@ source-git-commit: f7125e6845a653ca3d4dd3f1313d1b39f564459c
 
 # 我应该使用哪种 Adobe Analytics 工具？
 
-此帮助页面包含每个Adobe Analytics工具的推荐用例。 工具的列出顺序应考虑在内。 如果某个工具不满足需求，请移到下一个工具进行考虑。
+本帮助页面包含每个 Adobe Analytics 工具的推荐使用案例。应该按照工具的列出顺序来考虑使用哪个工具。如果某个工具无法满足需求，请考虑切换到下一个工具。
 
-有关Adobe Analytics产品比较的更多信息，请访 [问此处](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)。
+有关 Adobe Analytics 产品比较的详细信息，请转至[此处](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)。
 
 ## Adobe Analytics 报表用户界面 {#section_8265460EBB47405AB19A3B2B0729C8A4}
 
@@ -21,46 +21,46 @@ source-git-commit: f7125e6845a653ca3d4dd3f1313d1b39f564459c
 **[Reports &amp; Analytics](/help/analyze/reports-analytics/overview/report-overview.md)**的使用说明：
 
 * 适用于需要访问更易导航的预构建报表的初学用户。
-* 了解目标活动(Analytics for目标/A4T)提升和信心。
-* 在UI中访问实时数据。
-* 设置日历事件。
-* 设置目标。
-* 敬视图机器人报告。
-* 要访问并发查看器、视频时段和查看器下拉的唯一视频可视化，请执行以下操作：
-* 在计划报告中利用发布列表。
+* 用于了解 Target 活动 (Analytics for Target/A4T) 的提升度和置信度。
+* 用于访问 UI 中的实时数据。
+* 用于设置日历事件。
+* 用于设置目标。
+* 用于查看机器人报表。
+* 用于访问独特的视频数据（包括并行查看者、视频时段和视频查看者退出率）的可视化图表。
+* 用于在计划报表中使用“发布列表”功能。
 
-**[Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)**的使用说明：
+**[Mobile Services UI](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html)**的使用说明：
 
-* 如果需要孤立的视图移动应用程序数据。
-* 管理移动应用程序SDK的实施。
-* 设置移动广告，如应用程序内消息传递、推送消息和位置定位。
-* 如果需要更多交互式可视化来查看应用程序数据(Sunburst)。
-* 在地图上可视化感兴趣的点。
-* 对于“生命周期”价值指标。
+* 适用于需要只查看移动设备应用程序数据的情况。
+* 用于管理移动设备应用程序 SDK 的实施。
+* 用于设置移动设备广告，例如应用程序内消息、推送消息和位置定位。
+* 适用于应用程序数据 (Sunburst) 需要更多交互可视化的情况。
+* 用于可视化地图上的目标点。
+* 适用于存留期值量度。
 
 **[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)**的使用说明：
 
-* 导出50,000行数据
-* 如果需要项目工作的选项卡组织。
-* 使用网站分析报表（3D路径报表）。
+* 用于导出 50,000 行数据
+* 适用于需要以选项卡方式组织项目工作的情况.
+* 用于使用网站分析报表（3D 路径报表）。
 
 **[Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)**的使用说明：
 
-* 作为最灵活的Analytics工具选项(下至访客级、点击级分析)。
-* 创建从CRM到POS再到Web的线上和线下互动的多渠道数据集。
-* 适用于高级归因（基于规则和算法模型）。
-* 用于预测、统计建模（倾向评分、聚类、关联等）。
-* 对于延迟分析(事件之前／之后的时间)。
-* 用于识别和导出整个Adobe Experience Cloud中的复杂细分。
+* 最灵活的 Analytics 工具选项（针对访客级别和点击级别分析）。
+* 用于创建从 CRM 到 POS 和 Web 的在线和离线交互的多渠道数据集。
+* 适用于高级属性（基于规则的模型和算法模型）。
+* 适用于预测统计模型（倾向评分、群集、关联等）。
+* 适用于延迟分析（事件前/后的时间）。
+* 用于识别和导出 Adobe Experience Cloud 中的复杂区段。
 
-## 将数据导入Adobe Analytics {#section_B42B998D6E3E4357B024AEFA4EC69A23}
+## 将数据导入 Adobe Analytics {#section_B42B998D6E3E4357B024AEFA4EC69A23}
 
 **[分类](/help/components/c-classifications2/c-classifications.md)**的使用说明：
 
-* 当存在要与收集值(eVar、prop、营销渠道)关联的元数据时
+* 适用于要将元数据与收集值（eVar、prop、营销渠道）关联的情况
 * 选项:
 
-   * 规则构建器：当您为变量（如分隔值）收集了可预测的格式化值时使用。 这种方法允许您建立规则，基本上是“设定并忘记”。
+   * 规则生成器：可在为变量（例如分隔值）收集可预测格式的值时使用。通过这种方法，您只需设置一次规则，然后就“万事无忧”了。
    * 浏览器导入器：可在没有可预测的值或需要一次性更新有限的值列表时使用。此方法要求您持续监控分类的新值。
 
 **[数据源](/help/import/c-data-sources/datasrc-home.md)**的使用说明：
@@ -68,13 +68,13 @@ source-git-commit: f7125e6845a653ca3d4dd3f1313d1b39f564459c
 * 适用于要将离线数据永久写入 Adobe Analytics 的情况
 * 选项:
 
-   * 摘要：简单的数据上传，按日或有限维度
-   * 交易ID:将联机端点连接到脱机数据并将导入的数据完全关联到联机捕获的访客快照（例如，在线完成订单和脱机返回订单）的数据上传
-   * 完全处理：加盖时间戳的数据源，处理方式就像是Adobe服务器收集的点击一样。 即数据直接插入访客旅程。
+   * 概要：按日期或有限维度显示简单数据上载
+   * 交易 ID：数据上载将在线端点与离线数据连接起来，并将导入的数据与访客在线捕获的快照完全关联（例如，在线完成并离线返回的订单）
+   * 完全处理：像处理 Adobe 服务器收集的点击一样处理带有时间戳的数据源。例如，直接将数据插入访客历程。
 
 **[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)（以前称为 Genesis）**的使用说明：
 
-* 当您与已使用Adobe Analytics构建受支持连接的第三方提供商接洽时。 Data Connectors通常会定期将摘要级别数据永久自动地并入Adobe Analytics中。
+* 适用于跟已经与 Adobe Analytics 建立受支持连接的第三方提供商合作的情况。Data Connectors 通常会定期将摘要级别的数据自动地永久合并到 Adobe Analytics 中。
 
 **[数据插入 API](https://marketing.adobe.com/developer/documentation/data-insertion/c-data-insertion-api)**的使用说明：
 
@@ -82,53 +82,53 @@ source-git-commit: f7125e6845a653ca3d4dd3f1313d1b39f564459c
 
 **[客户属性](/help/components/c-variables/dimensionslist/reports-customer-attributes.md)**的使用说明：
 
-* 如果您在客户关系管理(CRM)数据库中捕获企业客户数据，并希望将数据上传到Experience Cloud。
-* 如果您希望在Analytics中使用CRM数据进行更深入的分析，或在Adobe目标中将其用作定位标准。
+* 适用于您在客户关系管理 (CRM) 数据库中捕获了企业客户数据，并希望将该数据上载到 Experience Cloud 的情况。
+* 适用于要在 Analytics 中使用 CRM 数据进行更深入的分析，或要在 Adobe Target 中将该数据作为定位条件的情况。
 
 **[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)**的使用说明：
 
-* 如果要将Adobe受众管理器(AAM)受众数据(如人口统计信息（如性别或收入水平）、心理信息（如兴趣和爱好）、CRM数据或广告印象数据)合并到任何Analytics工作流程中。
-* 如果您希望上传的CRM数据基于时间，因为此集成会将新信息发送到点击后的Analytics。
+* 适用于要将诸如人口统计信息（如性别或收入水平）、心理统计信息（如兴趣和爱好）、CRM 数据或广告展示数据之类的 Adobe Audience Manager (AAM) 受众数据合并到任何 Analytics 工作流程中的情况。
+* 适用于希望上载的 CRM 数据基于时间（因为此集成会按点击将新信息发送给 Analytics）的情况。
 
-## 从Adobe Analytics导出数据 {#section_901C06ABF2014E92B2952906723DF235}
+## 从 Adobe Analytics 导出数据 {#section_901C06ABF2014E92B2952906723DF235}
 
 **[Report Builder](/help/analyze/report-builder/home.md)**的使用说明：
 
-* 如果Workspace的自定义布局选项有限（Report Builder中的任何功能均可在Excel的限制内实现）。
-* 松散地将用户输入或离线数据源（印象、成本）与Adobe数据绑定。 用于绑定数据的更永久解决方案是数据源（请参阅将数据导入分析）。
-* 要将不同维度报表的数据合并在一起（例如，与促销点击转化报表一起加入的促销印象报表）。
-* 用于跨报表包视图。
-* 如果需要通过计划实现自动化(XLSX、XLSM、CSV、PDF、TXT、XML、MHT)。
+* 适用于工作区的自定义布局选项有限的情况（在 Excel 的限制范围内，Report Builder 可执行任何操作）。
+* 用于将用户输入的内容或离线数据源（展示次数、成本）松散绑定到 Adobe 数据。用于将数据关联起来的更为永久的解决方案是数据源（请参阅“将数据导入 Analytics”）.
+* 用于将不同维度报表中的数据合并起来（例如，将促销活动展示次数报表和促销活动点击对话报表合并起来）。
+* 用于进行跨报表包查看。
+* 适用于需要通过计划实现自动化的情况（XLSX、XLSM、CSV、PDF、TXT、XML、MHT）。
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)**的使用说明：
 
 * 用于访问隐藏在 UI 中的变量，包括 IP 地址、Experience Cloud ID、Analytics 访客 ID、页面 URL
-* 要访问比UI更精细的数据(非规范化表视图)
-* 以适用于透视表输入的格式下载数据
-* 如果客户希望将Adobe数据输入到第三方数据可视化工具中（稍微总结一下，而非点击级别）
+* 用于访问比 UI 更细粒度的数据（非规范化的表视图）
+* 用于下载适用于数据透视表输入格式的数据
+* 适用于客户端要将 Adobe 数据输入第三方数据可视化工具的情况（稍微汇总，不是点击级别）
 * 用于在 Adobe Analytics 中遇到“低流量”的情况下访问所有独特维度值
 
 应使用 **[Analytics 数据馈送](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)**：
 
-* 为了利用我们可以提供的最精细的数据馈送(访客ID、点击)。
-* 如果客户端希望将Adobe数据存储在客户端数据库中，则可以发送最精细的数据。
-* 如果客户希望开发Business Intelligence(BI)工具或将点击级Adobe数据输入到第三方工具中。
+* 用于利用 Adobe 可提供的最细粒度的数据馈送（访客 ID、点击量）
+* 适用于客户端要在 Adobe 可发送的最细粒度级别发送客户端数据库中存储的 Adobe 数据的情况。
+* 适用于客户端要开发商智能 (BI) 工具或将点击级别的 Adobe 数据导入第三方工具的情况.
 
-**[报表 API](https://marketing.adobe.com/developer/get-started/introduction/c-introduction)**适用于其他可视化选项无法满足您需求的情况。3个API选项包括：
+**[报表 API](https://marketing.adobe.com/developer/get-started/introduction/c-introduction)**适用于其他可视化选项无法满足您需求的情况。其中包括以下 3 个 API 选项：
 
-* **完全处理**:当您需要功能丰富的数据(包括访问、访客和细分)时。 这是典型的Analytics UI汇总数据，在约30-90分钟内可用。 可通过Report Builder使用。
-* **实时**:当您希望将一些度量和维度视图并等待数秒的延迟时。 这是有限的、部分处理的、汇总的数据，在约30秒内可用。 包括最受欢迎的、获胜方和失败方的独特算法。 可通过Report Builder使用。
-* **[!UICONTROL Live Stream]**:当您希望在收集后的数秒内获得经过部分处理的命中级分析数据流时。 这是部分处理的数据，在约30秒内可用。 仅适用于Analytics Premium。 需要某种方式来可视化数据，通常通过工程服务参与。
+* **经过完全处理**：适用于您需要功能丰富的数据（包括访问量、访客量和区段）的情况。这是典型的 Analytics UI 汇总数据，有效期约为 30-90 分钟。可以通过 Report Builder 使用。
+* **实时**：适用于要延迟几秒查看若干量度和维度的情况。这是经过部分处理的有限汇总数据，有效期约为 30 秒。其中包含最受欢迎、获胜方和失败方的独特算法。可以通过 Report Builder 使用。
+* **[!UICONTROL 实时流]**：适用于要在几秒内收集经过部分处理的点击级别的 Analytics 数据流。这是经过部分处理的数据，有效时间在大约 30 秒之内。仅适用于 Analytics Premium。要求通过某种方式显示数据，通常是通过参与工程技术服务。
 
 ## 自定义解决方案 {#section_4A212F26A15947599DFB0399A0440CB6}
 
 应在以下情况使用工程技术服务：
 
 * 其他 Adobe 工具无法满足您的需求。
-* 您需要自定义体验。
-* 您需要一款完全自动化的解决方案。
-* 您希望访问许多设备。
-* 您有多个数据源。
-* 您有复杂的数据ETL（提取——转换——加载）要求。
-* 您需要自定义品牌。
-* 您希望可视化 [!UICONTROL Analytics Live Stream]。
+* 希望获得自定义体验。
+* 希望获得完全自动化的解决方案。
+* 希望使用许多设备。
+* 拥有多个数据源。
+* 您的数据 ETL（提取-转换-加载）要求十分复杂。
+* 希望自定义品牌。
+* 希望可视化 [!UICONTROL Analytics 实时流]。
