@@ -1,7 +1,7 @@
 ---
 title: 地区数据收集
 description: 关于区域数据收集的信息
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 449a64e361523d7a68514d60541c443a4f696c9d
 
 ---
