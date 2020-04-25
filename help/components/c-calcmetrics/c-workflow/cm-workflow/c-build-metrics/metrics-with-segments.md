@@ -2,7 +2,7 @@
 description: 对单个量度分段允许您对同一报表内的量度进行比较。（仅限派生量度）
 title: 分段量度
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
