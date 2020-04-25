@@ -1,6 +1,6 @@
 ---
 title: 自定义流量
-description: 查看基于自定义流量变量的报告。
+description: 视图基于自定义流量变量的报告。
 translation-type: tm+mt
 source-git-commit: de2f8c1270aa236b7ea5540a594963f4f6f97d8f
 
@@ -18,4 +18,4 @@ source-git-commit: de2f8c1270aa236b7ea5540a594963f4f6f97d8f
 * 这些报表可通过趋势和排名两种格式查看。
 * 搜索过滤器可用于查找特定的行项目。
 * 分类可用于这些报表，允许您重命名并整合行项目。
-* 每个自定义流量报表的位置因 prop 分配的数值而异。通常，可在或文件夹下 [!UICONTROL Traffic] 找到 [!UICONTROL Custom Traffic] 它们。
+* 每个自定义流量报表的位置因 prop 分配的数值而异。通常，可以在“[!UICONTROL 流量]”或“[!UICONTROL 自定义流量]”文件夹下找到这些报表。
