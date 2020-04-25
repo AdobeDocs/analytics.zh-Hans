@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics 中的行为报表
 description: 了解如何在 Adobe Analytics 中创建行为报表
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
 
 ---
