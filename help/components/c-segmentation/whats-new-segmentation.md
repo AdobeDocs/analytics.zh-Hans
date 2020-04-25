@@ -2,7 +2,7 @@
 description: Adobe Analytics 分段中的新功能。
 title: Analytics 分段的新功能
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -103,7 +103,7 @@ Adobe Analytics 分段中的新功能。
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>“Analysis Workspace”&gt;“区段比较” </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace &gt; 区段比较 </p> </td> 
    <td colname="col2"> <p> 使用 Analysis Workspace 中的<a href="https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/segment-comparison.html"  >区段比较</a>（区段 IQ）面板，客户能够快速比较任意两个 Analytics 区段，并在所有数据点中找出它们之间最重要的差异。 </p> </td> 
   </tr> 
  </tbody> 
