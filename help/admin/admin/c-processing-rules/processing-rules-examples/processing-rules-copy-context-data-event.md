@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: 使用上下文数据变量设置事件
 topic: Admin tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 以下规则定义对[将上下文数据变量复制到 eVar](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) 规则进行了扩展，以便在包含特定上下文数据变量的每个点击上设置事件：
 
-| 规则集 | 数值 |
+| 规则集 | 值 |
 |---|---|
 | 条件 | 设置了“搜索词”上下文数据时 |
 | 操作 | 设置事件“搜索” |
