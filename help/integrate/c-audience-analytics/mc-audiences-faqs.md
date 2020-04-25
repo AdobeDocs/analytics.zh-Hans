@@ -3,7 +3,7 @@ description: 实施 Audience Analytics 时可能遇到的问题的解答。
 solution: Experience Cloud
 title: 常见问题解答
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7ac854aa4d83f952bec911cfc63058f2997096e8
 
 ---
