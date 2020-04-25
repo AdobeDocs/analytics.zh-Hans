@@ -2,7 +2,7 @@
 description: Analysis Workspace 中“撤消”选项的更改和增强。
 title: “撤消”和“重做”设置
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,13 +10,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # “撤消”和“重做”设置
 
-**[!UICONTROL 工作区]** > **[!UICONTROL 项目]** > **[!UICONTROL 撤消/重做]**
+**[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Undo/Redo]**
 
-* **[!UICONTROL 重做]**&#x200B;选项（用于重做撤消的操作）位于&#x200B;**[!UICONTROL 编辑]**&#x200B;菜单中。
+* The **[!UICONTROL Redo]** option (to redo an undo) is in the **[!UICONTROL Edit]** menu.
 
-* 单击&#x200B;**[!UICONTROL 保存]**&#x200B;不会清除&#x200B;**[!UICONTROL 撤消]**&#x200B;堆叠。
+* 单击 **[!UICONTROL Save]** 不会清除堆 **[!UICONTROL Undo]** 栈。
 
-* **[!UICONTROL 新建项目]**&#x200B;或&#x200B;**[!UICONTROL 打开现有项目]**&#x200B;会清除&#x200B;**[!UICONTROL 撤消]**&#x200B;堆叠
+* **[!UICONTROL New Project]** 或清 **[!UICONTROL Open Existing Project]** 除堆 **[!UICONTROL Undo]** 栈
 
 * 您可以对更改报表包的操作执行撤消/恢复。
 * 项目名称旁边会显示撤消/恢复消息，表示正在进行撤消/恢复。
