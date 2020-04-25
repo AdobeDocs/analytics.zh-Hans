@@ -3,7 +3,7 @@ description: 显示产品查看次数、购物车加货、订购数、收入和�
 title: 产品转化漏斗
 topic: Reports
 uuid: e857aa20-32b6-45a2-a934-6a11deadb49d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
