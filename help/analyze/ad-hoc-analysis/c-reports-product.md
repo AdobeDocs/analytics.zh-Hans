@@ -3,7 +3,7 @@ description: 显示网站上销售、分销或显示产品的信息。您可以�
 title: 产品报表
 topic: Ad hoc analysis
 uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
