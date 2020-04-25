@@ -3,7 +3,7 @@ description: 文件下载有助于了解访客从您的网站下载文件的频�
 title: 文件下载
 topic: Reports
 uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
