@@ -34,12 +34,12 @@ source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
 您可以通过 Analytics Admin Console 中提供的一项新隐私设置来启用隐私报表变量。
 
 每个报表包可以按如下方式进行配置：
-1. 在“Reports &amp; Analytics”（报告与分析）中，单击 **[!UICONTROL Admin > Report Suites]**。
-1. Select the report suite(s) where you are collecting media data and click **[!UICONTROL Edit Settings > Privacy Management]**.
+1. 在 Reports &amp; Analytics 中，单击&#x200B;**[!UICONTROL 管理员 > 报表包]**。
+1. 选择要在其中收集媒体数据的报表包，然后单击&#x200B;**[!UICONTROL 编辑设置 > 隐私管理]**。
 
    ![](assets/rsm-privacy-select.png)
 
-1. 单击按 **[!UICONTROL Enable Data Privacy Reports]** 钮。
+1. 单击&#x200B;**[!UICONTROL 启用数据隐私报表]**&#x200B;按钮。
 
    > [!NOTE] 启用后，这些变量将无法关闭。
 
@@ -49,7 +49,7 @@ source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
 
    ![](assets/rsm-privacy-config.png)
 
-1. 保留的变量现在可在Reports &amp; Analytics和Workspace中进行分析。 请参阅“同意管理选择退出和同意管理选择加入”。
+1. 保留的变量现在可在Reports &amp; Analytics和Workspace中分析。 请参阅“同意管理选择退出和同意管理选择加入”。
 
    ![](assets/consent-management.png)
 
@@ -57,14 +57,14 @@ source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
 
 已预定义了三个上下文数据变量，以与隐私报表管理保留变量一起使用。需要由每位实施工程师来决定如何管理和保留这些变量的设置。
 
-有关实施上下文数据变量的常规指导，请参阅[上下文数据变量](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html)。
+有关实施上下文数据变量的常规指导，请参阅[上下文数据变量](https://docs.adobe.com/help/zh-Hans/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html)。
 
 ### SSF
 
 * 上下文数据：`contextData.['cm.ssf']`
 * 接受的值：
-   * 1 - 发送值“1”时，这表示服务器端转发处于选择退出状态。与此变量配对的值“1”将阻止与 Adobe Audience Manager 共享此命中。请参阅 [AAM ePrivacy 合规性](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)。
-   * 0 —— 可选。 对于同意进行定向营销的客户，请使用值“0”。 如果不设置变量，也会产生相同的结果。
+   * 1 - 发送值“1”时，这表示服务器端转发处于选择退出状态。与此变量配对的值“1”将阻止与 Adobe Audience Manager 共享此命中。请参阅 [AAM ePrivacy 合规性](https://docs.adobe.com/help/zh-Hans/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)。
+   * 0 - 可选。对于同意进行定向市场营销的客户，请使用值“0”。如果不设置该变量，也会产生相同的结果。
 
 ### DMP
 
