@@ -2,7 +2,7 @@
 description: 允许您采用过去 Target Classic 中的相同方法，评估 Adobe Analytics 中的促销活动成功与否。
 title: Target 提升和置信度
 uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
