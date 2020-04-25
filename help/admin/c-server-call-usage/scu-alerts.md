@@ -2,7 +2,7 @@
 description: 添加或管理“服务器调用使用情况”警报。设置警报后，该警报将应用于账单公司旗下的所有登录公司所具有的全部报表包。
 title: “服务器调用使用情况”警报
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -73,6 +73,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    | 重命名 | 您可以重命名所有警报（默认警报除外）。 |
    | 批准 | 您可以批准警报，以使其成为“官方”警报。 |
    | 启用/禁用 | 您可以启用或禁用所有警报，甚至包括默认警报。 |
-   | 续订 | 在选择了一个或多个警报后，可以进行续订。这会将它们的过期日期延长一年的时间（从单击[!UICONTROL 续订]之日算起，而不考虑它们的原始过期日期）。 |
+   | 续订 | When one or more alerts are selected, they can be renewed. This extends their expiration dates to be 1 year from the day [!UICONTROL Renew] was clicked, regardless of their original expiration date. |
    | 导出到 CSV | 请参阅[下载“使用情况”报表](/help/admin/c-server-call-usage/report-suite-usage.md) |
 
