@@ -14,17 +14,17 @@ source-git-commit: 3997889ae72920d719203edbb159b55b983158e7
 
 >[!IMPORTANT]
 >
->用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在迁移完所有客户之后，将撤销 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员工具]** > **[!UICONTROL 用户管理]**&#x200B;中的帮助内容。
 
 描述如何将一个用户帐户中的用户帐户项目（功能板、计算量度、日历事件、警报、书签、区段、Analysis Workspace 项目和计划项目）分配给另一个用户帐户的步骤。
 
-1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
-1. 单击 **[!UICONTROL Edit Users]**.
+1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]**。
+1. 单击&#x200B;**[!UICONTROL 编辑用户]**。
 1. 查找要从中传输资产的用户，并选中此用户行旁边的复选框。
-1. 从顶 **[!UICONTROL Transfer Assets]** 部的操作栏中进行选择。
-1. On the **[!UICONTROL Transfer]** page, select the user account that is to receive this user&#39;s account items.
-1. Select the account items to transfer, then click **[!UICONTROL Transfer]**.
-1. Click **[!UICONTROL OK]** to confirm that you want to transfer the selected account resources.
+1. 从顶 **[!UICONTROL 部的操作栏中]** ，选择转移资产。
+1. 在&#x200B;**[!UICONTROL 转移]**&#x200B;页面中，选择要接收此用户的帐户项目的用户帐户。
+1. 选择要转移的帐户项目，然后单击&#x200B;**[!UICONTROL 转移]**。
+1. 单击&#x200B;**[!UICONTROL 确定]**，确认您希望转移所选的帐户资源。
 
    接收用户将会收到原始用户拥有的所选帐户资源的所有权限，但计划报表的权限除外。
 
