@@ -34,11 +34,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>appFigures</b> </p> </td> 
-   <td colname="col2"> <p>App Store Object ID -&gt; App Store用户 </p> <p>App Store对象ID -&gt;审阅注释 </p> <p>App Store对象ID -&gt;审阅标题 </p> </td> 
+   <td colname="col2"> <p>App Store Object ID -&gt; App Store User </p> <p>App Store Object ID -&gt; Review Comment </p> <p>App Store Object ID -&gt; Review Title </p> </td> 
    <td colname="col4"> <p>分类 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Aprimo企业营销管理</b> </p> </td> 
+   <td colname="col1"> <p><b>Aprimo Enterprise Marketing Management</b> </p> </td> 
    <td colname="col2"> <p>收件人 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
@@ -53,22 +53,22 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>数据媒体</b> </p> </td> 
+   <td colname="col1"> <p><b>Datran Media</b> </p> </td> 
    <td colname="col2"> <p>收件人 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>德利夫拉</b> </p> </td> 
+   <td colname="col1"> <p><b>Delivra</b> </p> </td> 
    <td colname="col2"> <p>收件人 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> <p><b>Dialog Tech</b> </p> </td> 
-   <td colname="col2"> <p>对话技术拨叫者 </p> </td> 
+   <td colname="col2"> <p>Dialog Tech Caller </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Dialog Tech Caller -&gt; City </p> <p>对话技术拨叫者-&gt;名字 </p> <p>对话技术拨叫者-&gt;姓氏 </p> <p>对话技术拨叫者-&gt;状态 </p> <p>Dialog Tech Caller -&gt; Street Address </p> <p>Dialog Tech Caller -&gt;邮政编码 </p> </td> 
+   <td colname="col2"> <p>Dialog Tech Caller -&gt; City </p> <p>Dialog Tech Caller -&gt; First Name </p> <p>Dialog Tech Caller -&gt; Last Name </p> <p>Dialog Tech Caller -&gt; State </p> <p>Dialog Tech Caller -&gt; Street Address </p> <p>Dialog Tech Caller -&gt; Zip Code </p> </td> 
    <td colname="col4"> <p>分类 </p> </td> 
   </tr> 
   <tr> 
@@ -77,8 +77,8 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>动态信号</b> </p> </td> 
-   <td colname="col2"> <p>跟踪代码-&gt;源ID </p> <p>跟踪代码-&gt;源名称 </p> <p>跟踪代码-&gt;用户ID </p> <p>跟踪代码-&gt;用户名 </p> </td> 
+   <td colname="col1"> <p><b>Dynamic Signal</b> </p> </td> 
+   <td colname="col2"> <p>Tracking Code -&gt; Source ID </p> <p>Tracking Code -&gt; Source Name </p> <p>Tracking Code -&gt; User ID </p> <p>Tracking Code -&gt; User Name </p> </td> 
    <td colname="col4"> <p>分类 </p> </td> 
   </tr> 
   <tr> 
@@ -92,36 +92,36 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" morerows="1"> <p><b>电子邮件活动指挥官</b> </p> </td> 
+   <td colname="col1" morerows="1"> <p><b>Emailvision Campaign Commander</b> </p> </td> 
    <td colname="col2"> <p>访客 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>邮件ID -&gt;邮件列表名 </p> <p>消息ID -&gt;管理器ID </p> <p>消息ID -&gt;管理器名称 </p> </td> 
+   <td colname="col2"> <p>Message ID -&gt; Mailing List Name </p> <p>Message ID -&gt; Manager ID </p> <p>Message ID -&gt; Manager Name </p> </td> 
    <td colname="col4"> <p>分类 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Epsilon Harmony</b> </p> </td> 
-   <td colname="col2"> <p>电子邮件地址 </p> <p>客户密钥 </p> </td> 
+   <td colname="col2"> <p>电子邮件地址 </p> <p>Customer Key </p> </td> 
    <td colname="col4"> <p>eVar </p> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>精确目标</b> </p> </td> 
+   <td colname="col1"> <p><b>Exact Target</b> </p> </td> 
    <td colname="col2"> <p>访客 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" morerows="1"> <p><b>ForeSee(v2.0)</b> </p> </td> 
+   <td colname="col1" morerows="1"> <p><b>ForeSee (v2.0)</b> </p> </td> 
    <td colname="col2"> <p>Foresee Respondent ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Foresee Respondent ID -&gt;变量名1 </p> <p>... </p> <p>Foresee Respondent ID -&gt; variable name n </p> </td> 
+   <td colname="col2"> <p>Foresee Respondent ID -&gt; variable name 1 </p> <p>... </p> <p>Foresee Respondent ID -&gt; variable name n </p> </td> 
    <td colname="col4"> <p>分类 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Foresee Feedback</b> </p> </td> 
-   <td colname="col2"> <p>ForeSee响应列表-&gt;响应 </p> <p>ForeSee Response列表-&gt;调查&gt;问题&gt;响应 </p> </td> 
+   <td colname="col2"> <p>ForeSee Response List -&gt; Response </p> <p>ForeSee Response List -&gt; Survey &gt; Question &gt; Response </p> </td> 
    <td colname="col4"> <p>分类 </p> </td> 
   </tr> 
   <tr> 
@@ -135,7 +135,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Neolane - Enterprise Marketing Platform</b> </p> </td> 
+   <td colname="col1"> <p><b>Neolane - 企业营销平台</b> </p> </td> 
    <td colname="col2"> <p>Broadlog ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
@@ -151,7 +151,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Responsys 2.0</b> </p> </td> 
-   <td colname="col2"> <p>访客 ID </p> <p>客户 ID </p> </td> 
+   <td colname="col2"> <p>访客 ID </p> <p>Customer ID </p> </td> 
    <td colname="col4"> <p>eVar </p> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -160,7 +160,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>收件人 ID -&gt; RecipientField1 </p> <p>收件人ID -&gt; RecipientField2 </p> <p>收件人ID -&gt; RecipientField3 </p> <p>收件人ID -&gt; RecipientField4 </p> <p>收件人ID -&gt; RecipientField5 </p> </td> 
+   <td colname="col2"> <p>收件人 ID -&gt; RecipientField1 </p> <p>Recipient ID -&gt; RecipientField2 </p> <p>Recipient ID -&gt; RecipientField3 </p> <p>Recipient ID -&gt; RecipientField4 </p> <p>Recipient ID -&gt; RecipientField5 </p> </td> 
    <td colname="col4"> <p>分类 </p> </td> 
   </tr> 
   <tr> 
@@ -169,13 +169,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Silverpop Engage(v2.0)</b> </p> </td> 
+   <td colname="col1"> <p><b>Silverpop Engage (v2.0)</b> </p> </td> 
    <td colname="col2"> <p>Silverpop ID </p> <p>电子邮件地址 </p> </td> 
    <td colname="col4"> <p>eVar </p> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>协同！360</b> </p> </td> 
-   <td colname="col2"> <p>客户 ID </p> </td> 
+   <td colname="col1"> <p><b>Synergy!360</b> </p> </td> 
+   <td colname="col2"> <p>Customer ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -184,7 +184,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>WhatCounts电子邮件</b> </p> </td> 
+   <td colname="col1"> <p><b>WhatCounts Email</b> </p> </td> 
    <td colname="col2"> <p>访客 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
