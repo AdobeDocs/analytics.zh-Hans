@@ -2,7 +2,7 @@
 description: 运行 Data Connectors 集成向导以实施 Data Connectors 集成之前必须完成的任务和具备的信息。
 title: 为 Data Connectors 电子邮件集成做准备
 uuid: 01e1f269-54c9-4175-aff8-16c39ac4ee9d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
