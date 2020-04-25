@@ -65,7 +65,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    1. 请&#x200B;**勿**&#x200B;修改 8 个标准维度的名称（即 Demandbase SID、公司名称、行业等）。
 
 1. 选中自动为您创建 Demandbase 集成功能板的框（推荐）。
-1. Review all configuration items and click **[!UICONTROL Activate Now]**.
+1. 查看所有配置项目并单击&#x200B;**[!UICONTROL 立即激活]**。
 
 ## 部署集成代码{#deploying-the-integration-code}
 
@@ -73,7 +73,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!NOTE] 如果您使用 Adobe TagManager 或 Dynamic Tag Management 来部署 Adobe Analytics，则可以使用任意一种工具轻松添加集成代码。
 
-1. Go to the **[!UICONTROL Support]** tab and download and save the `integration code v2_0_1` resource from the Resources area of the integration.
+1. 转到&#x200B;**[!UICONTROL 支持]**&#x200B;选项卡，并从集成的“资源”区域下载并保存 `integration code v2_0_1` 资源。
 
 1. 如果适用，对代码进行任何必要的修改。有关更多信息，请参阅“修改集成代码”（位于本页面）。
 1. 如果 Adobe Analytics 部署代码中尚不存在集成模块，请包含该模块。
@@ -155,7 +155,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ### 对于 AppMeasurement v1.0+ {#section-f28d090bf2404cabaae34cd9c66fc575}
 
-1. Unzip the AppMeasurement zip file that you downloaded from **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL CodeManager]**.
+1. 解压缩您从 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 代码管理器]**&#x200B;下载的 AppMeasurement zip 文件。
 
 1. 打开名为 [!DNL AppMeasurement_Module_Integrate.js] 的文件。
 1. 将此文件的内容复制并粘贴到 [!DNL AppMeasurement.js] 主文件中。
