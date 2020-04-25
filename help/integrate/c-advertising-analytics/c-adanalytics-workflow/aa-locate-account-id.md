@@ -18,13 +18,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 >
 >Google AdWords 使用两种类型的帐户：a) MCC（我的客户端中心）帐户和 b) 标准帐户。若要将 Google AdWords 与 Adobe Analytics 相集成，**您必须使用标准帐户登录，而不能使用 MCC 帐户登录**。其原因在于，MCC 帐户作为一个“伞形”帐户，单次登录后可访问多个 AdWords 帐户，而标准帐户每次登录后只能访问一个 AdWords 帐户。
 
-单击右上方的“帐户”图标以视图AdWords帐户号（客户ID）。
+单击右上角的“帐户”图标可查看 AdWords 帐号（客户 ID）。
 
 ![](assets/google_account.png)
 
 ## Bing {#section_F1B9C7E997444746936599732CD62665}
 
-需要同时输入帐户 ID 和客户 ID。它们列在“帐户”选项卡上。
+需要同时输入帐户 ID 和客户 ID。它们均已在“帐户”选项卡上列出。
 
 >[!NOTE] 帐号与帐户 ID 并不相同。
 
