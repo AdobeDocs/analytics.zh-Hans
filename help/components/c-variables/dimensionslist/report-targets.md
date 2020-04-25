@@ -2,7 +2,7 @@
 description: 利用“目标”报表可以评测网站的表现，跟踪目标进度。例如，您可能想增加来自某一地理区域的访客数量、每次定购收入、或特定反向链接的点击量。
 title: 目标
 uuid: ecb9b964-0703-414a-a4ff-7cf75121a0e1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
