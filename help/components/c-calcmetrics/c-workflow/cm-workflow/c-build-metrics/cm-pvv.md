@@ -2,7 +2,7 @@
 description: 显示如何生成简单的“每次访问页面查看次数”量度。
 title: 构建简单的“每次访问的页面查看次数”量度
 uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
