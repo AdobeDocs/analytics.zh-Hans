@@ -1,7 +1,7 @@
 ---
 title: 常见问题解答
 description: 获取从第三方平台转到 Adobe 时的常见问题解答。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
