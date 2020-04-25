@@ -2,7 +2,7 @@
 description: 此 Adobe® Data Connectors™ 电子邮件集成将 Analytics® 中的行为信息与 Silverpop 电子邮件营销整合在一起，创建出一款功能强大的工具，通过更相关的消息传送来重新定义成功衡量指标和目标受众。
 title: 适用于 Adobe Analytics 的 Silverpop Data Connector
 uuid: 579d3100-4c34-48ff-a181-1465fa32b250
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
