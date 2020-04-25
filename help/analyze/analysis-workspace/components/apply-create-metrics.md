@@ -12,7 +12,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 可通过两种方式在 Analysis Workspace 中使用量度。
 
-您可以将标准度量、计算度量或计算度量模板从菜单拖 [!UICONTROL Components] 到表中：
+You can either drag a standard metric, calculated metric, or calculated metric template from the [!UICONTROL Components] menu to the table:
 
 ![](assets/metrics_icons.png)
 
