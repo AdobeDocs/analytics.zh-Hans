@@ -1,5 +1,5 @@
 ---
-description: “查找方法”页面可确定各种查找方法报表如何接收网站上转化成功事件的信用。 例如，如果搜索引擎将访客引用到您进行购买的站点，则“查找方法”将指定搜索引擎接收引用信用的方式。
+description: “查找方法”页面可识别各种查找方法报表在网站上接收转化成功事件信用的方式。例如，如果某个搜索引擎引荐一个访客到您的网站购物，“查找方法”可指定该搜索引擎如何接收反向链接的信用。
 title: 查找方法
 topic: Admin tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
@@ -11,9 +11,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # 查找方法
 
-“查找方法”页面可确定各种查找方法报表如何接收网站上转化成功事件的信用。 例如，如果搜索引擎将访客引用到您进行购买的站点，则“查找方法”将指定搜索引擎接收引用信用的方式。
+“查找方法”页面可识别各种查找方法报表在网站上接收转化成功事件信用的方式。例如，如果某个搜索引擎引荐一个访客到您的网站购物，“查找方法”可指定该搜索引擎如何接收反向链接的信用。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Finding Methods]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 转化]** > **[!UICONTROL 查找方法]**。
 
 ## 查找方法描述 {#section_8B6278DB75224EAB9F49D89A86274E8A}
 
@@ -31,7 +31,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
   </tr> 
   <tr> 
    <td colname="col1"> 分配 </td> 
-   <td colname="col2"> 指定如何为转诊申请信用。 支持的分配选项包括： <p> <span class="uicontrol">最近（上一个）：</span>将所有信用提供给最后一个反向链接（默认）。 </p> <p> <span class="uicontrol">原始值：</span>将所有信用给予第一个反向链接。 </p> <p> <span class="uicontrol">线性：</span>将信用平均分配到所有反向链接。 </p> </td> 
+   <td colname="col2"> 指定如何对反向链接应用信用。支持的分配选项包括： <p> <span class="uicontrol">最近（上一个）：</span>将所有信用提供给最后一个反向链接（默认）。 </p> <p> <span class="uicontrol">原始值：</span>将所有信用给予第一个反向链接。 </p> <p> <span class="uicontrol">线性：</span>将信用平均分配到所有反向链接。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 过期时间 </td> 
@@ -52,5 +52,5 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
  </tbody> 
 </table>
 
->[!NOTE] 访问结束时，所有“查找方法”都会过期。如果您选择在其他事件（例如，购物车结帐）后过期，则在访问期间发生购物车结帐时，查找方法将过期。 如果访问期间未发生购物车结帐，则在访问结束时，查找方法仍会过期。
+>[!NOTE] 访问结束时，所有“查找方法”都会过期。如果您选择在不同事件（例如，购物车结账）后过期，则“查找方法”会在访问期间购物车结账时过期。如果访问期间没有购物车结账，则“查找方法”仍会在访问结束后过期。
 
