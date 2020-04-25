@@ -2,7 +2,7 @@
 description: appFigures 集成通常用于跨多个应用商店收集多个应用程序的数据。您可以创建区段来分隔特定应用程序或应用商店的报表数据。
 title: 对应用程序数据进行分段
 uuid: 9c2aaf0d-088f-4178-8ed1-a8124087a683
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
