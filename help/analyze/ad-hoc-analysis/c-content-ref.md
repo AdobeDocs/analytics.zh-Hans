@@ -3,7 +3,7 @@ description: Ad Hoc Analysis 集成了 Analytics 区段环境，允许您在各�
 title: 生成区段
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -121,7 +121,7 @@ Ad Hoc Analysis 包含用于构建区段的类似功能，另有新功能升级�
     <ul id="ul_6968AFF6DEDA4BC8A7885B07CC1F57DF"> 
      <li id="li_073D9496F0C64AEB855855D01E65C1BA">非顾客 </li> 
      <li id="li_8958FD4272A14E16A9AA08216E8BC573">顾客 </li> 
-     <li id="li_1436D7C9651D4AC38E10662DEDDD2B95">首次访问量 </li> 
+     <li id="li_1436D7C9651D4AC38E10662DEDDD2B95">第一次访问 </li> 
      <li id="li_69F42B4F6107407792B0014804A8AF7B">社交网站访问量 </li> 
      <li id="li_29CA111186BE475C943E9F8450BDE8C8">访问时间超过 10 分钟的访问量* </li> 
      <li id="li_1FEF207959DC4D2E9FC925DD43177AA0">之前访问次数超过 5 次的访问量* </li> 
