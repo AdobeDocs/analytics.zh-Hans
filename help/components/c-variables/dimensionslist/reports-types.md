@@ -3,7 +3,7 @@ description: Experience Cloud 中所用报表类别的描述。
 title: 报表类别
 topic: Reports
 uuid: 78369121-3854-4bf9-9156-c2369ec75d73
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
