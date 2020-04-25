@@ -2,7 +2,7 @@
 description: 列出可在 Adobe 集成向导的步骤 4 中提供的可选维度标识符。
 title: Demandbase 自定义维度
 uuid: d1621046-3aa2-46b9-a536-4a8fb792b69f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
