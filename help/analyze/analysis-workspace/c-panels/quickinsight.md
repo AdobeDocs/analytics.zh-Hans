@@ -34,7 +34,7 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 |---|---|
 | [!UICONTROL Dimension] | 维是可以在项目中查看、细分和比较的度量数据的描述或特性。 它们是非数字值和日期，可划分为维项目。 例如，“browser”或“page”是维。 |
 | [!UICONTROL Dimension item] | 维项目是维的单个值。 例如，浏览器维度的维度项将为“Chrome”、“Firefox”、“Edge”等。 |
-| [!UICONTROL Metric] | 指标是有关访客活动的量化信息，如视图、点进率、重新加载、平均花费时间、件数、订单、收入等。 |
+| [!UICONTROL Metric] | 量度是有关访客活动的量化信息，包括查看次数、点进次数、重新加载次数、平均逗留时间、件数、订购、收入等。 |
 | [!UICONTROL Visualization] | 工作区优惠 [大量可视化功能](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md) ，以构建数据的可视化表示形式，如条形图、圆环图、直方图、线图、地图、散点图等。 |
 | [!UICONTROL Breakdown] | 细分是一种按其他维度来划分维度的方法。 在我们的示例中，您可以按移动设备划分美国各州，以按每个州或按移动设备类型或按地区、按内部活动等获取移动设备访问。 |
 | [!UICONTROL Segment] | 细分允许您根据特征或网站交互确定访客子集。 例如，您可以基于属 [!UICONTROL Visitor] 性构建区段：浏览器类型、设备、访问次数、国家／地区、性别或基于交互：活动、关键字搜索、搜索引擎或基于退出和条目：访客自Facebook、定义的登陆页、引用域或基于自定义变量：表单字段、定义的类别、客户ID。 |
