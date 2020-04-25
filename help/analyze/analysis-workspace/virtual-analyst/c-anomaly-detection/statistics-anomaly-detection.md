@@ -2,7 +2,7 @@
 description: Analysis Workspace 中的异常检测使用一系列高级统计技术来确定是否应将观测到的情况视为异常。
 title: 异常检测中使用的统计技术
 uuid: b6ef6a2e-0836-4c9a-bf7e-01910199bb92
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -31,7 +31,7 @@ Analysis Workspace 中的异常检测使用一系列高级统计技术来确定�
 完成模型选择后，算法接着根据假日和每年的季节性调整结果。对于假日，算法会执行相关检查，以确定报告日期范围内是否存在以下假日：
 
 * 阵亡将士纪念日
-* 7 月 4 日
+* 4 年 7 月
 * 感恩节
 * 黑色星期五
 * 网购星期一
