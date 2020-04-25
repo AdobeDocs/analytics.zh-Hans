@@ -3,7 +3,7 @@ description: 显示路径查看次数，或在路径约束内查看页面的次�
 title: 下一页面流量
 topic: Reports
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
