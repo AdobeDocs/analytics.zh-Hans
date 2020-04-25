@@ -3,7 +3,7 @@ description: 不同于公历模式的日历选项。相关选项包括 4-4-5、4
 title: 自定义日历
 topic: Admin tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
