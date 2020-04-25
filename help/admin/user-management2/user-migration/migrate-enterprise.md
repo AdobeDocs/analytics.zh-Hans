@@ -2,7 +2,7 @@
 description: 如何将 Analytics 用户帐户作为 Enterprise ID 或 Federated ID 迁移到 Admin Console。
 title: 为 Enterprise ID 和 Federated ID 迁移 Analytics 用户帐户
 uuid: f90bf78a-5603-4bef-b714-13215301187c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 
 ---
