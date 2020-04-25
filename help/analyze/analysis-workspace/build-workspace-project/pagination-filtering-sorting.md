@@ -2,7 +2,7 @@
 description: 'null'
 title: 对表格进行分页、过滤和排序
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
