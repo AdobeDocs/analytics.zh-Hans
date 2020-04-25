@@ -2,7 +2,7 @@
 description: 'null'
 title: 警报管理器
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,11 +12,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/alert-manager.png)
 
-警报管理器（**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 警报]**）的结构与[区段管理器](https://marketing.adobe.com/resources/help/zh_CN/analytics/segment/seg_manage.html)和[计算量度管理器](https://marketing.adobe.com/resources/help/zh_CN/analytics/calcmetrics/cm_manager.html)非常类似，允许您
+The Alert Manager ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**) is structured very much like the [Segment Manager](https://marketing.adobe.com/resources/help/zh_CN/analytics/segment/seg_manage.html) and the [Calculated Metric Manager](https://marketing.adobe.com/resources/help/zh_CN/analytics/calcmetrics/cm_manager.html) and allows you to
 
 ![](assets/alert-manager-tasks.png)
 
-* 通过单击 **[!UICONTROL + 添加]**&#x200B;访问警报生成器。
+* Access the Alert Builder by clicking **[!UICONTROL + Add]**.
 * 为警报添加标签。这允许您对它们进行组织以方便使用。
 * 删除警报。
 * 重命名警报。
