@@ -2,7 +2,7 @@
 description: 计算量度使您可以将多个量度通过数学运算组合成新的量度来使用。您可以为添加了量度的报表创建这些计算量度。管理员可以为报表包的所有用户创建计算量度。
 title: 计算量度
 uuid: 039fbb1a-8fa9-479b-badb-ad609b225524
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
