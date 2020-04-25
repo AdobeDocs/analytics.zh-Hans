@@ -15,7 +15,7 @@ source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
 
 **在使用归因模型时，为什么有时会看到超出报告窗口以外的日期？**
 
-这些额外的日期是由于访客报表回顾窗口造成的。有关更多信息，请参阅 Analytics KB 中的[出现报表窗口以外的数据](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html)。Adobe 计划在即将发布的版本中过滤掉这些额外的行。
+这些额外的日期是由于访客报表回顾窗口造成的。有关更多信息，请参阅 Analytics KB 中的[出现报表窗口以外的数据](https://helpx.adobe.com/cn/analytics/kb/data-appearing-outside-reporting-window.html)。Adobe 计划在即将发布的版本中过滤掉这些额外的行。
 
 **我可以在归因模型中使用自定义回顾窗口吗？**
 
@@ -45,8 +45,8 @@ source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
 * 访问
 * 发生次数
 * 页面查看次数
-* A4T指标
-* 逗留时间指标
+* A4T 量度
+* 逗留时间量度
 * 跳出次数
 * 跳出率
 * 登录
