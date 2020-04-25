@@ -4,7 +4,7 @@ keywords: DFA
 title: 协调量度差异
 topic: Data connectors
 uuid: aa3ca006-d3cf-410e-a000-781ab17fb9e3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -56,7 +56,7 @@ Adobe 使用以下术语谈论与 DFA 集成相关的量度：
 * 请确保 Floodlight 配置中的所有版面和创作均在登陆页面 URL 中加入了 clickThroughParam（例如“`?CID=1`”）。未能设置此参数将导致 Adobe Analytics JavaScript 丢失在访问的首次点击后发生的任何点进。
 * 请确保所有版面和创作的登陆页面均使用 JavaScript 标记并具有 DFA 集成模块，而且此登陆页面中的 Floodlight 配置 ID 匹配服务广告的 Floodlight 配置 ID。通常，差异的出现是因为广告的登陆页面被设置为第三方网站或服务的广告。
 * 如果您使用富媒体广告或 Flash (swf) 广告，请确保每当 DFA 点击跟踪器被点击时，访客的浏览器都会被重定向到查询字符串中包含 `clickThroughParam` 的登陆页面。未能重定向浏览器将不会导致记录一次点进。
-* 超时表示虽然可能已有可用的 DFA 数据，但 JavaScript 却没有及时收到响应的情况。当访客到达登陆页面时，Adobe JavaScript 从 DFA 的 fls.doubleclick.net 服务请求访客的信息。`s.maxDelay`参数决定 JavaScript 将等待 Floodlight 服务 (FLS) 数据多长时间。如果 `s.maxDelay` 过高，访客可能在 Adobe 收集点击数据之前离开网站，这种情况下不会记录任何点击数据。如果 `s.maxDelay` 设置过低，访客的 Internet 连接无法及时检索 FLS 数据，在这种情况下，点击将被发送到 Adobe，但不包含任何 DFA 点击信息。
+* 超时表示虽然可能已有可用的 DFA 数据，但 JavaScript 却没有及时收到响应的情况。当访客到达登陆页面时，Adobe JavaScript 从 DFA 的 fls.doubleclick.net 服务请求访客的信息。The`s.maxDelay`参数决定 JavaScript 将等待 Floodlight 服务 (FLS) 数据多长时间。如果 `s.maxDelay` 过高，访客可能在 Adobe 收集点击数据之前离开网站，这种情况下不会记录任何点击数据。如果 `s.maxDelay` 设置过低，访客的 Internet 连接无法及时检索 FLS 数据，在这种情况下，点击将被发送到 Adobe，但不包含任何 DFA 点击信息。
 * 机器人流量可能夸大 DFA 点击数。机器人或许能够点击广告，但其复杂性可能不足以执行 Analytics 信标或触发同步脚本标记以加载 Floodlight 服务器请求数据。如果这些机器人未从点击量数据中删除，则可能成为造成差异的一个因素。
 * 在 `s.maxDelay` 过期及 DFA 数据返回之前离开页面的访客将会丢失；且不会为他们收集任何 DFA 或访客数据。
 * Analytics 会尝试标识并删除重复的点进，这样在每次访问时每个促销活动只会计数一次点进。DFA 将单击“返回”和经历多次广告重定向的访客数计为额外的 ACM 点击量，而 Analytics 不会将它们计为多次点进。
