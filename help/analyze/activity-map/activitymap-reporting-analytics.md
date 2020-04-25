@@ -3,7 +3,7 @@ description: 介绍设置权限的方法和 Analytics 中的可用维度。
 title: Analytics 中的 Activity Map 报告
 topic: Activity map
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
