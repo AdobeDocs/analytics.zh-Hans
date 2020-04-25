@@ -12,7 +12,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 您可以使用函数过滤/排序数据，以及执行统计分析。
 
-有关所有功能的列表，请参阅“ [基本功能](/help/components/c-calcmetrics/cm-reference/cm-functions.md) ”和“ [高级功能”](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md)。
+有关所有函数的列表，请参阅[基本函数](/help/components/c-calcmetrics/cm-reference/cm-functions.md)和[高级函数](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md)。
 
 >[!NOTE] 在计算量度公式中加入函数时，应始终在拖入量度或区段之前应用该函数。
 
