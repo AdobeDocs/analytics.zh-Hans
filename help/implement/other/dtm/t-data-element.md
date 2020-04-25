@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;data element;create new data element;name;type;
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 创建数据元素
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -48,7 +48,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
       <ul id="ul_52F6CD8FC22942208F3F45492E914104"> 
         <li id="li_32E4366C5B2E46D788CD8478620FE3E0"> <p>会话：基于会话的时间会因实施而异。会话数据元素设置为会话 Cookie。但是，此设置可以基于 Web 服务器或浏览器。它和市场营销报告与分析中使用的会话不相关。 </p> </li> 
         <li id="li_8A944564BF7643E4B21F0EF2394B3FE8"> <p>页面查看 </p> </li> 
-        <li id="li_5C8A2F2392FD475AA89DDA7D5B5CF88B"> <p>访客 </p> </li> 
+        <li id="li_5C8A2F2392FD475AA89DDA7D5B5CF88B"> <p>Visitor </p> </li> 
       </ul> </td> 
     </tr> 
    </table>
