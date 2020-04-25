@@ -3,7 +3,7 @@ description: 每个已发送的服务器调用都计为一次页面查看。此�
 title: 页面查看
 topic: Metrics
 uuid: 85004c72-2369-44a9-a97f-f2e144a54c90
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
