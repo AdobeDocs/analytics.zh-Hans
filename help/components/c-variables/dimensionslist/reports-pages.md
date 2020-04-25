@@ -3,7 +3,7 @@ description: 按网站上网页收到的最大流量对页面进行排名。如�
 title: 页面
 topic: Reports
 uuid: 6435e262-e734-4c15-af5b-173799d5cc43
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -37,10 +37,10 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> 值过期时间 </td> 
-   <td colname="col2"> 页面查看 </td> 
-   <td colname="col3"> 页面查看 </td> 
-   <td colname="col4"> 页面查看 </td> 
-   <td colname="col5"> 页面查看 </td> 
+   <td colname="col2"> Page view </td> 
+   <td colname="col3"> Page view </td> 
+   <td colname="col4"> Page view </td> 
+   <td colname="col5"> Page view </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 值限制 </td> 
