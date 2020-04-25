@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;switcher plug-in;akamai;test akamai;unpubl
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 测试用于 Akamai 托管的尚未发布的规则
 uuid: 979e3d74-8d96-47d0-b581-cf5371248434
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
