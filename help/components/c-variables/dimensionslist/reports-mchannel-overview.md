@@ -3,7 +3,7 @@ description: 营销渠道概述报表旨在提供概要性的分析，帮助您�
 title: 营销渠道概述
 topic: Reports
 uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
