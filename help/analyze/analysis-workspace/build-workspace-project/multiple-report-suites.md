@@ -61,6 +61,6 @@ source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
 
 1. （可选）您还可以转到其他 Analytics 组件生成器，并确保它们现在显示一个报表包标签，指示
 
-   * 将创建区段的位置：[区段生成器](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html)。
-   * 将创建计算量度的位置：[计算量度生成器](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)。
-   * 将生成警报的位置：[警报生成器](https://docs.adobe.com/content/help/en/analytics/components/alerts/alert-builder.html)。
+   * 将创建区段的位置：[区段生成器](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/segmentation-workflow/seg-build.html)。
+   * 将创建计算量度的位置：[计算量度生成器](https://docs.adobe.com/content/help/zh-Hans/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)。
+   * 将生成警报的位置：[警报生成器](https://docs.adobe.com/content/help/zh-Hans/analytics/components/alerts/alert-builder.html)。
