@@ -35,7 +35,7 @@ Analysis Workspace 中新增的警报生成器和警报管理器取代了 Report
 
    ![添加警报](assets/add-alert.png)
 
-百分比阈值代表标准偏差。例如，95%=2个标准偏差，99%=3个标准偏差。 根据您选择的时间粒度，使 [用不同模型](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) ，计算每个数据点与范数的距离（标准偏差多少）。 设定的阈值越低，异常会越多。例如，同 99.75% 的相比，90% 的阈值会产生更多的异常。
+百分比阈值代表标准偏差。例如，95% 等于 2 个标准偏差，99% 等于 3 标准偏差。根据您选择的时间粒度，将使用[不同的模型](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)来计算每个数据点和标准值之间的间隔时间（标准偏差个数）。设定的阈值越低，异常会越多。例如，同 99.75% 的相比，90% 的阈值会产生更多的异常。
 
 >[!IMPORTANT] 使用带时间戳的数据创建警报可能会导致警报无法正确触发。Adobe 建议对智能警报使用不带时间戳的数据。
 
