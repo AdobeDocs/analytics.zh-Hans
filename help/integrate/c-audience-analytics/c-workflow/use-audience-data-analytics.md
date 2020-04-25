@@ -3,7 +3,7 @@ description: '您可以在整个 Analytics 中使用 AAM 受众维度。集成�
 solution: Experience Cloud
 title: 在 Analytics 中使用受众数据
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
