@@ -3,7 +3,7 @@ description: 显示您网站的访客喜爱的链接。例如，您的网站主�
 title: 自定义链接
 topic: Reports
 uuid: 2e0d0175-d5e4-4919-b601-3f488ef3e090
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
