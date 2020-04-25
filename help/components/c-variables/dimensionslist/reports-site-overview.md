@@ -3,7 +3,7 @@ description: 网站量度 > 网站概述报表在登录时显示，可让您立�
 title: 网站概述
 topic: Reports
 uuid: 6bd9ca4b-9026-4d31-9fb3-3112a37cf845
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
