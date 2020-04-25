@@ -2,7 +2,7 @@
 description: 您可以隐藏“菜单”、“量度选择器”、“计算量度生成器”和“区段生成器”中的标准（内置）量度、自定义事件和内置事件。
 title: 量度可见性
 uuid: fa2d6cba-8e03-422d-9f7d-4f35021fa9b4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
