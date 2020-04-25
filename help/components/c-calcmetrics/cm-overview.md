@@ -3,7 +3,7 @@ description: 计算量度和高级计算（或派生）量度是指您可以从�
 keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: 计算量度和高级计算（派生）量度
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
