@@ -12,7 +12,7 @@ source-git-commit: fa9efcba40ae00c22e99f68f5be8f4d5bf32e44c
 # Activity Map 概述
 
 >[!Note]
->通过我们的常见问题解答页面，了解Activity Map如何支持单页应用 [程序](/help/analyze/activity-map/activitymap-faq.md) (SPA)。
+>在常见问题解答页面上了解活动图如何支持单页应用程序(SPA) [](/help/analyze/activity-map/activitymap-faq.md) 。
 
 >[!IMPORTANT]
 >2020年1月16日，Adobe Analytics开始转向新域- https://experience.adobe.com/analytics。 这种域的变更可能会在特定情况下，导致 Activity Map 停止为某些客户提供服务。如您所知，Activity Map 是以 iframe 的形式注入在客户页面中（一个 iframe 用于 Activity Map 的工具栏，另一个 iframe 用于 Activity Map 底部面板）。您可能会在您的网页上为“frame-src”设置一个不包含“.adobe.com”的“内容安全策略”指令。对于这种情况，Activity Map 将停止处理此类网页。
