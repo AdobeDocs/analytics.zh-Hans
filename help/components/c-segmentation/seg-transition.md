@@ -4,7 +4,7 @@ keywords: segmentation;segments
 title: 常见问题解答
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -167,13 +167,13 @@ Ad Hoc Analysis 和 Report Builder 只显示由您生成的区段或专门与您
 
 * 非顾客
 * 顾客
-* 首次访问量
+* 第一次访问
 * 社交网站访问量
 * 访问时间超过 10 分钟的访问量*
 * 之前访问次数超过 5 次的访问量*
 * Facebook 访问量*
 
-其中大多数区段（使用星号 * 标记的区段除外）将作为区段模板迁移到区段生成器中。此外，还添加了多个新区段模板。
+这些区段中的大部分（带有星号 * 标记的区段除外）都将作为区段模板迁移到区段生成器中。此外，还添加了多个新区段模板。
 
 已应用这些区段的现有报表将仍可正常使用。
 
