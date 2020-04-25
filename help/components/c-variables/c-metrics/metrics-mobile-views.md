@@ -1,5 +1,5 @@
 ---
-description: 通过移动设备访问页面或设置维度的次数。 仅限临时分析。
+description: 通过移动设备访问时，页面的查看次数或维度的设置次数。仅限 Ad Hoc Analysis。
 title: 移动设备查看次数
 topic: Metrics
 uuid: ba6ba9e8-3242-4a38-ae7b-359f821e2a46
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # 移动设备查看次数
 
-通过移动设备访问页面或设置维度的次数。 仅限临时分析。
+通过移动设备访问时，页面的查看次数或维度的设置次数。仅限 Ad Hoc Analysis。
 
 >[!NOTE] 此报表已在 2017 年 9 月 21 日的维护版本中停用，不会再返回数据或可用于进行报告。
 
