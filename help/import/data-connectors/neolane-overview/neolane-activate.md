@@ -2,7 +2,7 @@
 description: 使用 Adobe Data Connectors 配置向导来设置集成。
 title: 激活集成
 uuid: 93c59f8e-3cf5-44c1-9a04-22460af93d5d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
