@@ -2,7 +2,7 @@
 description: 'null'
 title: 配置流量可视化
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -32,12 +32,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 图表中的路径按比例显示。活动越多，路径越粗。
 
-单击图表中的节点时，将显示该节点的详细信息。例如，如果单击顶部图表右上方的&#x200B;**[!UICONTROL 搜索结果]**，将展开该图表，显示有关搜索结果节点的更多详细信息。再次单击某个节点可折叠该节点。
+单击图表中的节点时，将显示该节点的详细信息。For example, if you click **[!UICONTROL Search Results]** at the top right in the top diagram above, the diagram expands to show more details about the search results node. 再次单击某个节点可折叠该节点。
 
 ![](assets/flow3.jpg)
 
-默认情况下，图表显示前五个流量。如果单击图表底部的&#x200B;**[!UICONTROL 更多]**&#x200B;节点，将向下展开该图表，显示另外五个流量。继续单击&#x200B;**[!UICONTROL 更多]**&#x200B;可一直展开，直到没有可显示的其他流量。
+默认情况下，图表显示前五个流量。If you click on the **[!UICONTROL More]** node at the bottom of the diagram, the diagram expands down to show five more flows. Continue clicking **[!UICONTROL More]** to expand until there are no additional flows to show.
 
 您可以在流量图中浏览的流量数量没有限制。
 
-您还可以将流量图导出为项目的 .CSV 文件的一部分并对其进行进一步分析，方法是转到&#x200B;**[!UICONTROL 项目]** > **[!UICONTROL 下载 CSV]**。
+You can also export and further analyze your Flow diagram as part of a project&#39;s .CSV file by going to **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**.
