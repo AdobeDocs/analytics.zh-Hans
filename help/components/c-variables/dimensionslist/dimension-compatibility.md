@@ -1,7 +1,7 @@
 ---
 title: Analytics 维度兼容性
 description: Analytics 维度和报表的参考。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | 维度名称（在 Analytics UI 中可见） | 维度 ID（用于 API 请求） |
 |---|---|
-| 目标分析 | targetraw |
+| Analytics for Target | targetraw |
 | 受众 ID | mcaudiences |
 | 浏览器 | browser |
 | 浏览器类型 | browsertype |
@@ -37,11 +37,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 自定义链接 | customlink |
 | 首次购买间隔天数 | daysbeforefirstpurchase |
 | 上次购买间隔天数 | dayssincelastpurchase |
-| 域 | filtereddomain |
-| 下载链接 | downloadlink |
+| Domain | filtereddomain |
+| Download Link | downloadlink |
 | 登录页面 | entrypage |
 | 原始登录页面 | entrypageoriginal |
-| 退出链接 | exitlink |
+| Exit Link | exitlink |
 | 首个联系渠道 | firsttouchchannel |
 | 首个联系渠道详细信息 | firsttouchchanneldetail |
 | 已启用 Java | javaenabled |
@@ -68,7 +68,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 监视器分辨率 | monitorresolution |
 | 操作系统 | operatingsystem |
 | 原始反向链接域名 | referringdomainoriginal |
-| 页面 | page |
+| 页面 | eVar |
 | 页面未找到 | pagesnotfound |
 | 产品 | product |
 | 反向链接 | referrer |
@@ -84,7 +84,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 搜索关键词 - 免费 | searchenginenaturalkeyword |
 | 搜索关键词 - 付费 | searchenginepaidkeyword |
 | 所有搜索页面排名 | searchenginepagerank |
-| 服务器 | server |
+| Server | server |
 | 单页面访问量 | singlepagevisits |
 | 网站区域 | sitesections |
 | 每次访问逗留时间 - 粒度 | sitetime |
@@ -365,7 +365,7 @@ Reports &amp; Analytics 中包含多个预配置报表，如果此类报表未�
 | 按区域划分的 Activity Map 链接 | clickmaplinkbyregion |
 | Activity Map 区域 | clickmapregion |
 | Activity Map 链接 | clickmaplink |
-| Activity Map 页面 | clickmappage |
+| Activity Map页面 | clickmappage |
 
 ### Nielsen 集成
 
