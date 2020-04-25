@@ -1,7 +1,7 @@
 ---
 title: 历程 IQ
 description: 了解构成历程 IQ 的功能，历程 IQ 是 Adobe Analytics 的一组功能。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
 
 ---
