@@ -3,7 +3,7 @@ description: 日志文件有助于您了解用户登录的时间、用户使用�
 title: 日志
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
