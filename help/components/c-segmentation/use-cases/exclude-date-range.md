@@ -15,7 +15,7 @@ source-git-commit: e2ddfc7fb7ced2d7f480bec3b50cb2657d779646
 
 创建一个区段，以隔离受影响的日期或日期范围。 如果您只想关注问题日期，以了解有关其影响的更多信息，则此区段非常有用。
 
-1. 转到>，然后单击以打开区 **[!UICONTROL Components]** 段 **[!UICONTROL Segments]**&#x200B;生成器 **[!UICONTROL Add]**。
+1. 转到组件 **[!UICONTROL >区段，然后单]** 击添加 **[!UICONTROL ，以打开区段生成器]******。
 2. 将“天”维拖动到定义画布上，并将其设置为与要隔离的天相等。
 3. 对要在报告中隔离的每天重复上述步骤。
 
@@ -29,8 +29,8 @@ Adobe建议使用橙色尺寸组件，而不是紫色日期范围组件。 如�
 
 创建不包括受影响日期或日期范围的区段。 如果您希望排除遇到问题的天数，以将对整体报告的影响降至最低，则此细分很有用。
 
-1. 转到>，然后单击以打开区 **[!UICONTROL Components]** 段 **[!UICONTROL Segments]**&#x200B;生成器 **[!UICONTROL Add]**。
-2. 在区段定义画布的右上角，单击 **[!UICONTROL Options]** > **[!UICONTROL Exclude]**。
+1. 转到组件 **[!UICONTROL >区段，然后单]** 击添加 **[!UICONTROL ，以打开区段生成器]******。
+2. 在区段定义画布的右上角，单击“选 **[!UICONTROL 项]** >排除 **[!UICONTROL ”]**。
 3. 将“天”维拖动到定义画布上，并将其设置为等于要删除的天。
 4. 对于要在报表中删除的每一天，重复上述步骤。
 
@@ -50,7 +50,7 @@ Adobe建议使用橙色尺寸组件，而不是紫色日期范围组件。 如�
 
 您可以将“排除受影响的天数”区段应用到Workspace项目。 将排除区段拖动到标有“将区段放在此 *处”的“工作区画布”部分*。
 
->[!TIP] 在面板说明中包含排除数据的附注，以帮助查看报告的用户。 右键单击面板的标题，然后单击 **[!UICONTROL Edit description]**。
+>[!TIP] 在面板说明中包含排除数据的附注，以帮助查看报告的用户。 右键单击面板的标题，然后单击“编 **[!UICONTROL 辑说明”]**。
 
 ![应用于面板的段](../assets/exclude_segment_panel.jpg)
 
@@ -58,10 +58,10 @@ Adobe建议使用橙色尺寸组件，而不是紫色日期范围组件。 如�
 
 您可以在虚拟报告套件中使 [用区段](../../vrs/vrs-about.md) ，更方便地排除数据。 此选项的理想之处在于您不必记住为包含受影响日期范围的每个报表应用区段。 如果您已经使用虚拟报表包作为主要数据源，则可以将区段添加到现有VRS。
 
-1. 导航到 **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]**。
-2. 单击 **[!UICONTROL Add]**.
+1. Navigate to **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]**.
+2. 单击&#x200B;**[!UICONTROL 添加]**。
 3. 输入虚拟报表包的所需名称和说明。
-4. 将排除区段拖至标记的区域 **[!UICONTROL Add segment]**。
-5. 单击 **[!UICONTROL Continue]** 右上角的，然后单击 **[!UICONTROL Save]**。
+4. 将排除区段拖动到标有“添加区段” **[!UICONTROL 的区域]**。
+5. 单击 **[!UICONTROL 右上角]** 的“继续”，然后单击“ **[!UICONTROL 保存”]**。
 
 ![应用于VRS的段](../assets/exclude_segment_vrs.png)
