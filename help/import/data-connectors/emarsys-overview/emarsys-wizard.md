@@ -2,7 +2,7 @@
 description: Data Connectors 集成向导会引导您逐步完成 Data Connectors 集成流程。
 title: 运行 Data Connectors 集成向导
 uuid: 25480e0d-e3ca-458c-8f18-65789c273a33
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
