@@ -3,7 +3,7 @@ description: “管理联合品牌图像”页面可以在下载的报表中显�
 title: 品牌联合
 topic: Admin tools
 uuid: 918db633-44bb-4502-bd04-98a6337a166c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
