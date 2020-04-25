@@ -3,7 +3,7 @@ description: 显示有关网站的量化信息，如访客查看某个页面的�
 title: 网站量度报表
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
