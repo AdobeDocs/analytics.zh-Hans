@@ -14,14 +14,14 @@ source-git-commit: 1ffbd728aba893d7f7a4ecf027c479fc753e371a
 >[!NOTE] 当您从细分和日期比较角度了解事件的影响时，这些步骤最有效。 确保在此页 [面之前，将受事件影响的日期与之前的进行比较](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md) , [](../c-segmentation/use-cases/exclude-date-range.md) 并排除分析中的特定日期。
 
 1. 如排除分析中的特定日期中所述，为“受影响的日期”和“排除受影响的日 [期”创建两个区段](../c-segmentation/use-cases/exclude-date-range.md)。
-2. 导航到 **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]**。
-3. 单击 **[!UICONTROL Add]**.
+2. 导航到 **[!UICONTROL 组件]** >计 **[!UICONTROL 算量度]**。
+3. 单击&#x200B;**[!UICONTROL 添加]**。
 4. 将以上两个区段拖动到定义画布。 将它们之间的运算符更改 `+` 为总和。
 5. 在两个区段内添加所需的量度。 例如，您可以使用“访问”量度。
 
    ![区段构建器](assets/event_segment_builder.png)
 
-6. 单 **[!UICONTROL Add]** 击“受影响的天数”容器右上角的，然后单击 **[!UICONTROL Static number]**。 将静态数字设置为要偏移数据的百分比，如将受事件影响的日期与先前范围 [进行比较下所述](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md)。 在此示例中，偏移量为25%或1.25。
+6. 单 **[!UICONTROL 击]** “受影响的天数”容器右上角的“添加”，然后单击“静 **[!UICONTROL 态”编号]**。 将静态数字设置为要偏移数据的百分比，如将受事件影响的日期与先前范围 [进行比较下所述](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md)。 在此示例中，偏移量为25%或1.25。
 
    ![静态数](assets/event_static_number.png)
 
