@@ -3,7 +3,7 @@ description: 列出用户代理字符串所确认的用于访问网站的浏览�
 title: 浏览器
 topic: Reports
 uuid: b8c386dd-1ae2-48c3-90bd-dce9f5698d3f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
