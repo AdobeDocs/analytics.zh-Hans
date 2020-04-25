@@ -1,7 +1,7 @@
 ---
 title: dynamicVariablePrefix
 description: 允许您自定义标识动态变量的字符串。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 03a4c0d5e080219a7fd96dff33ce122669351ac3
 
 ---
