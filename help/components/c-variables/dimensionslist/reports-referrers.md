@@ -9,7 +9,7 @@ source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 # 反向链接
 
-“推荐人”维显示访客到达您的站点前的来源URL。 例如，如果访客单击某个链接并 `example.com/example-page.html` 到达您的站点， `example.com/example-page.html` 则该推荐人不是域的一部分。
+“推荐人”维显示访客到达您的站点前的来源URL。 For example, if a visitor clicks a link from `example.com/example-page.html` and arrives on your site, `example.com/example-page.html` is the referrer if it is not defined as part of your domain.
 
 此维度要求您配置报表包的内 [部URL过滤器](/help/admin/admin/internal-url-filter-admin.md)。 如果您不配置内部URL过滤器,Adobe Analytics会将所有域视为站点的内部。
 
