@@ -2,7 +2,7 @@
 description: 您可以在表格或折线图中查看异常。
 title: 在 Analysis Workspace 中查看异常
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -37,7 +37,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 异常检测置信度间隔不会自动缩放可视化的 y 轴以期让图表变得更加清晰易读。
 
-您可以选择允许置信度间隔缩放图表。只需单击“设置”（齿轮）图标，并选中&#x200B;**[!UICONTROL 允许异常检测来缩放 Y 轴]**。
+您可以选择允许置信度间隔缩放图表。只需单击“设置”（齿轮）图标并选中即可 **[!UICONTROL Allow Anomaly Detection to Scale Y Axis]**。
 
 ![](assets/scale-y-axis.png)
 
