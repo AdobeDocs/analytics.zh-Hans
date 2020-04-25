@@ -3,7 +3,7 @@ description: 有关客户属性以及如何运行客户属性报表的 Analytics
 solution: Experience Cloud,Analytics
 title: 客户属性
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
