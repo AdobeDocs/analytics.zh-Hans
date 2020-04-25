@@ -3,7 +3,7 @@ description: 您可以在区段管理器内设置一个工作流程，其中包�
 title: 批准区段
 topic: Segments
 uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
