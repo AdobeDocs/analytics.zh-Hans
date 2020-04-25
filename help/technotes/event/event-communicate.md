@@ -13,7 +13,7 @@ source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
 
 ## 通过面板或可视化描述进行通信
 
-如果您的组织中的用户共享了一个工作区项目，则可以通过面板或可视化描述来传达事件的影响。 右键单击面板或可视化标题，然后选择 **[!UICONTROL Edit description]**。
+如果您的组织中的用户共享了一个工作区项目，则可以通过面板或可视化描述来传达事件的影响。 右键单击面板或可视化标题，然后选择编 **[!UICONTROL 辑说明]**。
 
 ![面板说明](../assets/panel_description.png)
 
@@ -27,8 +27,8 @@ source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
 
 如果您使用Reports &amp; Analytics，则可以使用日历 [事件](/help/components/t-calendar-event.md) ，在任何趋势报告中突出显示受影响的日期。 此方法不适用于分析工作区。
 
-1. 导航到 **[!UICONTROL Components]** > **[!UICONTROL Calendar events]**。
+1. 导航到 **[!UICONTROL 组件]** >日 **[!UICONTROL 历事件]**。
 2. 输入所需的标题、日期范围和附注文本。
-3. 单击 **[!UICONTROL Save]**.
+3. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ![日历事件](../assets/exclude_calendar_event.png)
