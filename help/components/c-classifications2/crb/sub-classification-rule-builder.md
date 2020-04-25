@@ -11,7 +11,7 @@ source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 如果确保每个子分类都有父级值，则可以将分类规则构建器与子分类合并。
 
-将分类规则构建器与子分类相结合可以简化分类管理并减少所需的规则数。 如果您的跟踪代码包含要单独分类的代码，您可能希望这样做。
+将分类规则构建器与子分类相结合可以简化分类管理并减少所需的规则数。 如果您的跟踪代码中包含需要单独分类的代码，您可能需要此功能。
 
 请参阅[子分类](/help/components/c-classifications2/c-sub-classifications.md)，了解子分类的概念信息。
 
@@ -21,13 +21,13 @@ source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 `channel:broad_campaign:creative`
 
-使用分类层次结构可以将分类应用到分类（称为 *`sub-classification`*)。 这意味着，您可以像关系数据库一样将导入程序与多个表一起使用。 一个表将完整跟踪代码映射到键，另一个表将这些键映射到其他表。
+使用分类层次结构可以将分类应用到分类（称为 *`sub-classification`*)。 表示您可以对多个表格使用导入器（如关系数据库）。一个表格将完全跟踪代码映射到键值，另一个表格将键值映射到其他表格。
 
 ![](assets/sub_class_table.png)
 
-在具有此结构后，您可以使用“分类规则生成器” [](/help/components/c-classifications2/crb/classification-rule-builder.md) ，上传仅更新查找表的小文件（上图中的绿色和红色表）。 然后，您可以使用规则构建器使主分类表保持最新。
+在您准备好这种结构后，您可以使用[分类规则生成器](/help/components/c-classifications2/crb/classification-rule-builder.md)来上载只更新查找表格（上述图像中的绿色和红色表格）的小文件。然后，您可以使用规则生成器来保持主分类表格最新。
 
-以下任务介绍如何完成此操作。
+以下任务描述如何完成此操作。
 
 ## 使用规则生成器设置子分类{#task_2D9016D8B4E84DBDAF88555E5369546F}
 
@@ -37,7 +37,7 @@ source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 >
 >以下步骤描述如何完成[子分类和规则生成器](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)中所述的用例。
 
-1. 在[分类管理器](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)中创建分类和子分类。
+1. 在[分类管理器](https://marketing.adobe.com/resources/help/zh_CN/reference/classifications.html)中创建分类和子分类。
 
    示例：
 
@@ -45,7 +45,7 @@ source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 1. 在[分类规则生成器](/help/components/c-classifications2/crb/classification-rule-builder.md)中，从原始跟踪代码中对子分类键值进行分类。
 
-   使用正则表达式执行此操作。 在此示例中，填充规则将 *`Broad Campaign code`* 使用以下正则表达式：
+   使用正则表达式来执行此操作。在此示例中，用以填充&#x200B;*`Broad Campaign code`*&#x200B;的规则将使用此正则表达式：
 
    | `#` | 规则类型 | 匹配 | 设置分类 | 至 |
    |---|---|---|---|---|
@@ -64,11 +64,11 @@ source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
    | 键 | Channel | 广泛促销活动代码 | 广泛促销活动代码&amp;Hat;促销活动类型 | 广泛促销活动代码&amp;Hat;促销活动主管 | ... |
    |---|---|---|---|---|---|
-   | * |  | 111 | 品牌 | 苏珊娜 |  |
+   | * |  | 111 | 品牌 | Suzanne |  |
    | * |  | 222 | 品牌 | Frank |  |
 
 1. 要维护查找表，请上载一个小文件（如上方所示）。
 
-   例如，当引入新 *`Broad Campaign code`* 时，您需要上载此文件。此文件将应用于以前分类的值。 同样，如果您创建新的子分类(如的子分类 *`Creative Theme`**`Creative code`*)，则只上传子分类文件，而不上传整个分类文件。
+   例如，当引入新 *`Broad Campaign code`* 时，您需要上载此文件。此文件将应用于之前分类的值。同样，如果您创建了新的子分类（例如 *`Creative Theme`* 作为 *`Creative code`* 的子分类），则只需上载子分类文件，而无需上载整个分类文件。
 
-   用于报告这些子分类的功能与顶级分类功能完全相同。 这减少了使用它们所需的管理负担。-->
+   这些子分类函数的报告方式与顶级分类类似。这降低了使用它们所需的管理负担。-->
