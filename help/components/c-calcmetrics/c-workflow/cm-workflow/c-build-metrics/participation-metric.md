@@ -1,5 +1,5 @@
 ---
-description: 使用“计算量度构建器”，任何人都可以创建参与量度。
+description: 借助计算量度生成器，任何人都可以创建参与量度。
 title: 参与量度
 uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
 translation-type: tm+mt
@@ -18,12 +18,12 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 1. 在计算量度生成器中创建新量度。
 1. 将成功事件“订购”拖到“定义”画布。
-1. Change the [attribution model](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) of that event to **[!UICONTROL Participation]** under the **[!UICONTROL Settings]** gear. 选择 **[!UICONTROL Visit]** 回顾。 定义应类似于：
+1. 在[设置](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)齿轮下，将该事件的&#x200B;**[!UICONTROL 归因模型]**&#x200B;更改为&#x200B;**[!UICONTROL 参与率]**。选择&#x200B;**[!UICONTROL 访问]**&#x200B;回顾窗口。定义应该类似于：
 
    ![](assets/participation.png)
 
-1. 保存度量。
-1. Use the calculated metric in a **[!UICONTROL Pages]** report.
+1. 保存该量度。
+1. 在&#x200B;**[!UICONTROL 页面]**&#x200B;报表中使用计算量度。
 
    ![](assets/participation-pages.png)
 
