@@ -13,11 +13,11 @@ source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
 
 ## 使用机器人规则
 
-Both standard and custom bot filtering methods are supported in **[!UICONTROL Analytics]**>**[!UICONTROL  Admin]** > **[!UICONTROL Report Suites]**>**[!UICONTROL  Edit Settings]** > **[!UICONTROL General]**>**[!UICONTROL  Bot Rules]**:
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 常规]** > **[!UICONTROL 机器人规则]**&#x200B;中同时支持标准和自定义的机器人过滤方法：
 
 | 规则类型 | 描述 |
 |--- |--- |
-| 标准 IAB 机器人规则 | 选择&#x200B;**[!UICONTROL 启用 IAB 机器人过滤规则]**可使用[IAB](https://www.iab.com/)的（国际广告局的）国际蜘蛛程序和机器人列表来删除机器人流量。大多数客户至少都会选择此选项。 |
+| 标准 IAB 机器人规则 | 选择&#x200B;**[!UICONTROL 启用 IAB 机器人过滤规则]**&#x200B;可使用 [IAB ](https://www.iab.com/)的（国际广告局的）国际蜘蛛程序和机器人列表来删除机器人流量。大多数客户至少都会选择此选项。 |
 | 自定义机器人规则 | 您可以根据用户代理、IP 地址或 IP 范围定义和添加自定义机器人规则。 |
 
 有关详细信息，请参阅[机器人规则概述](/help/admin/admin/bot-removal/bot-rules.md)。
@@ -28,7 +28,7 @@ Both standard and custom bot filtering methods are supported in **[!UICONTROL An
 
 ### 步骤 1：将访客的 Experience Cloud ID 传递到新声明的 ID
 
-首先，您需要在[人员核心服务](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)中创建一个新声明的 ID。您需要将访客的 Experience Cloud ID 传递到此新声明的 ID 中，您可以通过 [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) 轻松快速地完成此操作。我们使用名称“ECID”作为声明的 ID。
+首先，您需要在[人员核心服务](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/audiences/audience-library.html)中创建一个新声明的 ID。您需要将访客的 Experience Cloud ID 传递到此新声明的 ID 中，您可以通过 [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/zh-Hans/launch/using/implement/solutions/idservice-save.html) 轻松快速地完成此操作。我们使用名称“ECID”作为声明的 ID。
 
 ![](assets/bot-cust-attr-setup.png)
 
@@ -36,17 +36,17 @@ Both standard and custom bot filtering methods are supported in **[!UICONTROL An
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-设置此数据元素后，请按照[以下说明](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html)将声明的 ID 传递到 Launch 中的 ECID 工具。
+设置此数据元素后，请按照[以下说明](https://docs.adobe.com/content/help/zh-Hans/launch/using/implement/solutions/idservice-save.html)将声明的 ID 传递到 Launch 中的 ECID 工具。
 
 ### 步骤 2：使用分段识别机器人
 
-现在，您已将访客的 ECID 传递到已声明的 ID 中，下面可以使用 [Analysis Workspace 中的分段](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html)来识别行为类似于机器人的访客。机器人通常通过其行为进行定义：单次访问、异常用户代理、未知的设备/浏览器信息、无反向链接、新访客、异常登录页面等。使用工作区深化和分段的强大功能，识别已避开 IAB 过滤和您的报表包机器人规则的机器人。例如，以下是您可以使用的区段的屏幕截图：
+现在，您已将访客的 ECID 传递到已声明的 ID 中，下面可以使用 [Analysis Workspace 中的分段](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html)来识别行为类似于机器人的访客。机器人通常通过其行为进行定义：单次访问、异常用户代理、未知的设备/浏览器信息、无反向链接、新访客、异常登录页面等。使用工作区深化和分段的强大功能，识别已避开 IAB 过滤和您的报表包机器人规则的机器人。例如，以下是您可以使用的区段的屏幕截图：
 
 ![](assets/bot-filter-seg1.png)
 
 ### 步骤 3：通过 Data Warehouse 导出区段中的所有 [!DNL Experience Cloud IDs]
 
-由于您已经使用区段识别了机器人，那么下一步就是利用 Data Warehouse 提取与此区段关联的所有 Experience Cloud ID。这是您应设置 [Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) 请求的方式：
+由于您已经使用区段识别了机器人，那么下一步就是利用 Data Warehouse 提取与此区段关联的所有 Experience Cloud ID。这是您应设置 [Data Warehouse](https://docs.adobe.com/content/help/zh-Hans/analytics/export/data-warehouse/data-warehouse.html) 请求的方式：
 
 ![](assets/bot-dwh-3.png)
 
