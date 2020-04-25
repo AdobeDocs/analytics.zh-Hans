@@ -17,9 +17,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 要访问实时报表配置页面（需要管理员权限），请执行以下操作：
 
-1. Click [!UICONTROL Reports] in the Adobe Analytics header navigation.
-2. 在左侧菜单中，单击 *[!UICONTROL Site Metrics]* > *[!UICONTROL Real-Time]*。
-3. 如果报表包尚未启用实时功能，则会显示一条消息，其中包含用于配置报表包的链接。If the report suite has real-time enabled, click [!UICONTROL Configure] near the real-time report&#39;s title.
+1. 在 Adobe Analytics 标题导航中单击[!UICONTROL 报表]。
+2. 在左侧菜单中，单击&#x200B;*[!UICONTROL 网站量度]* > *[!UICONTROL 实时]*。
+3. 如果报表包尚未启用实时功能，则会显示一条消息，其中包含用于配置报表包的链接。如果报表包已启用实时功能，请单击实时报表标题附近的[!UICONTROL 配置]。
 
 Adobe 允许最多三个实时报表同时收集数据。每个报表都必须进行配置，然后才能开始实时收集数据。
 
@@ -29,13 +29,13 @@ Adobe 允许最多三个实时报表同时收集数据。每个报表都必须�
 
 实时位置可告知您当前访问您网站的访客所在的位置。要配置三个实时报表之一以显示位置数据，请执行以下操作：
 
-1. Click [!UICONTROL Configure] near the real-time report&#39;s title.
+1. 单击实时报表标题附近的[!UICONTROL 配置]。
 2. 在其中一个实时报表时段下：
    * 命名您的实时报表；例如，“位置”。
    * 通常使用实例作为量度。此时，用户/独特访客在实时报表中不可用。
    * 对于主要维度，通常使用“地域划分国家/地区”。此外，还提供“地域划分区域”、“地域划分 US DMA”和“地域划分城市”。
    * 对于两个次要维度，请对此流量使用您希望查看的首选附加数据。不必为次要维度设置特定位置。
-3. 单击 [!UICONTROL Save and View Report].
+3. 单击[!UICONTROL 保存并查看报表]。
 
 ## 实时流量源
 
@@ -47,19 +47,19 @@ Adobe 允许最多三个实时报表同时收集数据。每个报表都必须�
    * 通常使用实例作为量度。此时，用户/独特访客在实时报表中不可用。
    * 对于主要维度，通常使用“反向链接域名”。此外，还提供“搜索引擎”和“搜索关键字”。
    * 对于两个次要维度，请对此流量使用您希望查看的首选附加数据。不必为次要维度设置特定流量源。
-3. 单击 [!UICONTROL Save and View Report].
+3. 单击[!UICONTROL 保存并查看报表]。
 
 ## 实时内容
 
 实时内容可告知您访客当前正在查看的页面。要配置三个实时报表之一以显示内容数据，请执行以下操作：
 
-1. Click [!UICONTROL Configure] near the real-time report&#39;s title.
+1. 单击实时报表标题附近的[!UICONTROL 配置]。
 2. 在其中一个实时报表时段下：
    * 命名您的实时报表；例如，“内容”。
    * 通常使用实例作为量度。此时，用户/独特访客在实时报表中不可用。
    * 对于主要维度，通常使用“页面”。如果您的实施定义了这些变量，则还会提供“网站区域”和“服务器”。
    * 对于两个次要维度，请对此流量使用您希望查看的首选附加数据。不必为次要维度设置特定内容。
-3. 单击 [!UICONTROL Save and View Report].
+3. 单击[!UICONTROL 保存并查看报表]。
 
 ## 实时事件
 
@@ -71,12 +71,12 @@ Adobe 允许最多三个实时报表同时收集数据。每个报表都必须�
 
 在这两个平台中，实时转化以不同的方式提供数据。Google Analytics 中的目标类似于 Adobe Analytics 中的量度和成功事件。您可以在实时报表中使用 Adobe Analytics 中的大多数量度（包括成功事件等自定义量度和收入等标准量度）。与 Google Analytics 类似，您还可以在实时报表中应用产品名称、跟踪代码和营销活动效果等维度。
 
-1. Click [!UICONTROL Configure] near the real-time report&#39;s title.
+1. 单击实时报表标题附近的[!UICONTROL 配置]。
 2. 在其中一个实时报表时段下：
    * 命名您的实时报表；例如，“转化”。
    * 通常使用实例作为量度。此时，用户/独特访客在实时报表中不可用。
    * 对于主要维度，通常使用“跟踪代码”。如果您的实施使用“产品”维度，则该维度也将可用。
    * 对于两个次要维度，请对此流量使用您希望查看的首选附加数据。不必为次要维度设置特定转化。
-3. 单击 [!UICONTROL Save and View Report].
+3. 单击[!UICONTROL 保存并查看报表]。
 
 >[!NOTE]如果在实例外使用事件（如“订单”），请确保您的实施定义了同一点击中的维度和事件。如果维度和事件未在同一点击中触发，则在 Analysis Workspace 中可以使用标准处理延迟（通常为 30 - 90 分钟）来提供此数据。
