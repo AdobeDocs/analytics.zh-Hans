@@ -1,7 +1,7 @@
 ---
 title: “[!UICONTROL 强制 IP 登录限制]”终止使用
 description: 了解“[!UICONTROL 强制 IP 登录限制]”的终止使用时间和含义
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 ---
