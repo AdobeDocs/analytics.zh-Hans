@@ -3,7 +3,7 @@ description: 使用“管理待定操作”页面可以查看 Analytics 环境�
 title: 待定操作
 topic: Admin tools
 uuid: 63efbf6d-22d6-4ffe-af25-69e10bed7989
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
