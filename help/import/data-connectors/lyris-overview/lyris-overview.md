@@ -2,7 +2,7 @@
 description: 描述通过集成实现的营销效率。
 title: 适用于 Adobe Analytics 的 Lyris Data Connector
 uuid: db213865-1296-4a93-a0a2-781c026b2be5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
