@@ -24,12 +24,12 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    ![](assets/data_connectors.png)
 
-1. 在Lyris **[!UICONTROL Add Integration]** HQ下，单击 **[!UICONTROL Activate]**。
+1. 在&#x200B;**[!UICONTROL 添加集成]**&#x200B;中的“Lyris HQ”下，单击&#x200B;**[!UICONTROL 激活]**。
 
    ![](assets/add_integration.png)
 
-1. Under **[!UICONTROL General Settings]**, choose the desired Report Suite and provide a name for the integration.
-1. Fill in all your Lyris account-related information under **[!UICONTROL Custom Values]**.
+1. 在&#x200B;**[!UICONTROL 常规设置]**&#x200B;下，选择所需的报表包并提供集成的名称。
+1. 在&#x200B;**[!UICONTROL 自定义值]**&#x200B;下，填写所有与您的 Lyris 帐户相关的信息。
 
    ![](assets/general_settings.png)
 
@@ -37,9 +37,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    ![](assets/variable_mapping.png)
 
-1. You may choose your own segments under **[!UICONTROL Your Segments]** - apart from the 3 automated Partner segments.
-1. 此集成可能需要将几个数据点下载到您的 Lyris 帐户。You may choose to give access for this under **[!UICONTROL Access Request]**.
-1. Under **[!UICONTROL Data Collection]**, you can choose to have an automated or a manual solution (JavaScript Plug-in) to collect query string parameters from the landing page URL. 如果您选择使用自动解决方案，请输入消息 ID 和收件人 ID 的查询字符串参数。有关 JavaScript 插件，请联系您的 Adobe 顾问。
+1. 除了 3 个自动提供的合作伙伴区段外，您还可以在&#x200B;**[!UICONTROL 您的区段]**&#x200B;下选择自己的区段。
+1. 此集成可能需要将几个数据点下载到您的 Lyris 帐户。您可以在&#x200B;**[!UICONTROL 访问请求]**&#x200B;下选择授予此访问权限。
+1. 在&#x200B;**[!UICONTROL 数据收集]**&#x200B;下，您可以选择使用自动或手动解决方案（JavaScript 插件）从登陆页面 URL 中收集查询字符串参数。如果您选择使用自动解决方案，请输入消息 ID 和收件人 ID 的查询字符串参数。有关 JavaScript 插件，请联系您的 Adobe 顾问。
 
    ![](assets/data_collection.png)
 
@@ -47,7 +47,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    ![](assets/dashboard_generation.png)
 
-1. Review the integration summary and click **[!UICONTROL Activate]**.
+1. 查看集成摘要并单击&#x200B;**[!UICONTROL 激活]**。
 
 ## Lyris EmailLabs 中的配置{#configuration-within-the-lyris-emaillabs}
 
@@ -74,13 +74,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!NOTE] 需要几天时间才能开始交换数据。请确保在激活集成后联系 Lyris。
 
-1. 导航到 Data Connectors 中的 Lyris 集成。在选 **[!UICONTROL Support]** 项卡> **[!UICONTROL Integration Activity Log]**&#x200B;下，您应看到事件, **[!UICONTROL Metric data imported successfully]** 如和／或 **[!UICONTROL Classification data imported successfully]**:
+1. 导航到 Data Connectors 中的 Lyris 集成。在&#x200B;**[!UICONTROL 支持]**&#x200B;选项卡 > **[!UICONTROL 集成活动日志]**&#x200B;下，您应会看到诸如&#x200B;**[!UICONTROL 已成功导入量度数据]**&#x200B;和/或&#x200B;**[!UICONTROL 已成功导入分类数据]**&#x200B;等事件：
 
    ![](assets/integration_info.png)
 
-1. 现在，查看包含相应量度的 Lyris 消息报表。In the Adobe Experience Cloud, select **[!UICONTROL Reports & Analytics]**.
+1. 现在，查看包含相应量度的 Lyris 消息报表。在 Adobe Experience Cloud 中，选择 **[!UICONTROL Reports &amp; Analytics]**。
 1. 选择适当的报表包。
-1. 在下 **[!UICONTROL Custom Conversions]**&#x200B;面，选择 **[!UICONTROL Message ID Reports]** 并选择 **[!UICONTROL Message ID/Message Name]**。
+1. 在&#x200B;**[!UICONTROL 自定义转化]**&#x200B;下，选择&#x200B;**[!UICONTROL 消息 ID 报表]**，然后选择&#x200B;**[!UICONTROL 消息 ID/消息名称]**。
 
 ## 查询字符串参数插件代码{#query-string-param-plug-in-code}
 
