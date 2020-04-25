@@ -2,7 +2,7 @@
 description: 有关三个产品兼容性选项的说明。
 title: 量度兼容性
 uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
