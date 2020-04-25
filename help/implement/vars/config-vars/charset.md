@@ -1,7 +1,7 @@
 ---
 title: charSet
 description: charSet 变量可确定 Adobe 用于解析图像请求的编码。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
 
 ---
