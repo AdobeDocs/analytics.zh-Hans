@@ -2,7 +2,7 @@
 description: 了解如何禁用 Analytics 用户的旧版登录。
 title: 禁用旧版登录
 uuid: 085874b2-10bf-4a56-a337-f3104428d71e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
 
 ---
