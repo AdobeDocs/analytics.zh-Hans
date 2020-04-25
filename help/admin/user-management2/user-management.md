@@ -4,7 +4,7 @@ subtopic: Users and groups
 title: 用户和产品管理
 topic: Admin tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad8615bcbdb00a91ac9c0c3beace3f1155e74694
 
 ---
@@ -65,7 +65,7 @@ source-git-commit: ad8615bcbdb00a91ac9c0c3beace3f1155e74694
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 添加新用户</span> </td> 
-   <td colname="col2"> <p>可向公司添加用户帐户。此链接仅在剩余登录用户数量大于 0 时才可用。 </p> <p>请参阅<a href="/help/admin/user-management2/c-user-management/users.md">用户</a>。 </p> </td> 
+   <td colname="col2"> <p>可向公司添加用户帐户。此链接仅在剩余登录用户数量大于 0 时才可用。 </p> <p>请参阅 <a href="/help/admin/user-management2/c-user-management/users.md"> 用户</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 下载报表</span> </td> 
@@ -73,7 +73,7 @@ source-git-commit: ad8615bcbdb00a91ac9c0c3beace3f1155e74694
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 登录</span> </td> 
-   <td colname="col2"> <p>用户名。您可以单击用户名以编辑用户帐户属性。 </p> <p>请参阅<a href="/help/admin/user-management2/c-user-management/users.md">用户</a>。 </p> </td> 
+   <td colname="col2"> <p>用户名。您可以单击用户名以编辑用户帐户属性。 </p> <p>请参阅 <a href="/help/admin/user-management2/c-user-management/users.md"> 用户</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 名字</span> </td> 
@@ -109,7 +109,7 @@ source-git-commit: ad8615bcbdb00a91ac9c0c3beace3f1155e74694
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 编辑</span> </td> 
-   <td colname="col2"> <p>编辑用户帐户设置。 </p> <p>请参阅<a href="/help/admin/user-management2/c-user-management/users.md">用户</a>。 </p> </td> 
+   <td colname="col2"> <p>编辑用户帐户设置。 </p> <p>请参阅 <a href="/help/admin/user-management2/c-user-management/users.md"> 用户</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 删除</span> </td> 
