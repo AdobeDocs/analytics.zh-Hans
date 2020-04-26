@@ -27,8 +27,8 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 1. 转到 [Adobe Experience Platform Launch](https://launch.adobe.com)，并在出现提示时登录。
 1. 单击所需的启动项属性。
-1. 单击 [!UICONTROL Extensions tab]，然后单击 [!UICONTROL Configure] Adobe Analytics扩展下的。
-1. 单击accordion [!UICONTROL Global variables] ，该面板显示用于分配全局变量的界面。
+1. Click the [!UICONTROL Extensions tab], then click [!UICONTROL Configure] under the Adobe Analytics extension.
+1. 单击全 [!UICONTROL 局变量accordion] ，该面板显示用于分配全局变量的界面。
 
 ### 在规则中设置变量
 
@@ -36,11 +36,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 1. 转到 [Adobe Experience Platform Launch](https://launch.adobe.com)，并在出现提示时登录。
 1. 单击所需的启动项属性。
-1. 单击选 [!UICONTROL Rules] 项卡，然后单击所需的规则（或创建一个）。
-1. 单击下 [!UICONTROL Add] 面的按钮 [!UICONTROL Actions]。
-1. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Set Variables.
+1. 单击“ [!UICONTROL 规则] ”选项卡，然后单击所需的规则（或创建一个规则）。
+1. 单击“操 [!UICONTROL 作] ”下的“添 [!UICONTROL 加”按钮]。
+1. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为设置变量。
 1. 单击所 ![需Analytics变量右侧的](assets/data-element.png) “数据”元素图标。 贵组织的解决方案 [设计文档规定](../prepare/solution-design.md) ,Analytics变量应使用哪些内容。
-1. 在模态窗口中选择所需的数据元素。 单击 [!UICONTROL Select].
+1. 在模态窗口中选择所需的数据元素。 单击 [!UICONTROL 选择]。
 1. 数据元素名称将添加到由符号环绕的文本字 `%` 段。 例如，如果将数据元素命名为“页面名称”，则在将数据元素分配到变 `%Page name%` 量时将看到该字符串。
 
 >[!TIP] 您可以在同一变量中连接数据元素。 例如，如果您有“主机名”数据元素和“路径名”数据元素，则可以使用将这两个元素组合到单个变量中 `%Hostname%%Pathname%`。
