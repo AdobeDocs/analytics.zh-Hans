@@ -24,7 +24,7 @@ Facebook Instant Articles 允许发布者在 Facebook 上快速构建交互式�
 
 ### 第 1 步：创建 `stats.html` 页面
 
-以下示例HTML可用于从即时文章捕获统计数据。 此文件通常托管在您的公司的Web服务器上。 每次加载 Instant Articles 时，它都会将相应文件加载到 iFrame 中，进而触发向 Adobe 发送数据的操作。
+下面的 HTML 示例可用于从 Instant Articles 中捕获统计数据。此文件通常会托管在贵公司的某台 Web 服务器中。每次加载 Instant Articles 时，它都会将相应文件加载到 iFrame 中，进而触发向 Adobe 发送数据的操作。
 
 ```html
 <html>
