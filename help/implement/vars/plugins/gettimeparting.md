@@ -23,8 +23,8 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用�
 
 1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. 安装和发布扩 [!UICONTROL Common Analytics Plugins] 展
+1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
+1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
 1. 如果还没有任何扩展，请使用以下配置创建一个标签为“初始化插件”的规则：
    * 条件：无
    * 事件：核心 - 已加载的库（页面顶部）
@@ -39,8 +39,8 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用�
 
 1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
-1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
-1. 展开折 [!UICONTROL Configure tracking using custom code] 叠面板，以显示按 [!UICONTROL Open Editor] 钮。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的[!UICONTROL 配置]按钮。
+1. 展开[!UICONTROL 使用自定义代码配置跟踪]折叠面板，这会显示[!UICONTROL 打开编辑器]按钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
 1. 保存并发布对此 Analytics 扩展所做的更改。
 
