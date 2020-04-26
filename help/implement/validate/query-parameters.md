@@ -1,7 +1,7 @@
 ---
 title: 数据收集查询参数
 description: 列出了图像请求中使用的所有查询字符串参数。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
