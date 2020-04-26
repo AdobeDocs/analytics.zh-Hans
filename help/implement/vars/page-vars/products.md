@@ -19,7 +19,7 @@ Launch 中没有专门用于设置此变量的字段；但是，存在多个第�
 
 1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 2. 单击所需的属性。
-3. Go to the [!UICONTROL Extensions] tab, then click [!UICONTROL Catalog] to see all available extensions.
+3. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]以查看所有可用的扩展。
 4. 搜索术语“product”，结果会显示若干可用于设置此变量的扩展。
 
 您可以使用其中一个扩展，也可以按照下面的 AppMeasurement 语法使用自定义代码编辑器。
