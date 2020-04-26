@@ -15,12 +15,12 @@ Adobe 通过接收访客生成的图像请求来收集您网站上的数据。`t
 
 ## Adobe Experience Platform Launch 中的“跟踪服务器”
 
-Tracking Server is a field under the [!UICONTROL General] accordion when configuring the Adobe Analytics extension.
+“跟踪服务器”是配置 Adobe Analytics 扩展时位于[!UICONTROL 常规]折叠面板下的字段。
 
 1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 2. 单击所需的属性。
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. 展开可 [!UICONTROL General] 折叠面板，以显示 [!UICONTROL Tracking Server] 字段。
+3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的]配置[!UICONTROL 按钮。
+4. 展开[!UICONTROL 常规]折叠面板，这会显示[!UICONTROL 跟踪服务器]字段。
 
 如果此字段留空，则默认为 `[rsid].112.2o7.net`。
 
