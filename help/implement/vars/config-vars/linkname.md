@@ -19,10 +19,10 @@ Use the `linkName` variable to determine the dimension value of custom links, do
 
 1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 2. 单击所需的属性。
-3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-4. 在 [!UICONTROL Actions]下，单击“+”图标
-5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
-6. Click the `s.tl()` radio button which reveals the [!UICONTROL Link Name] field.
+3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
+4. 在[!UICONTROL 操作]下，单击“+”图标
+5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为“发送信标”。
+6. 单击 `s.tl()` 单选按钮，此时会显示[!UICONTROL 链接名称]字段。
 
 ## AppMeasurement 和 Launch 自定义代码编辑器中的 s.linkName
 
