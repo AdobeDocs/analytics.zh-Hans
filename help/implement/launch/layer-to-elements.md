@@ -17,7 +17,7 @@ source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ## 使用Adobe Experience Platform Launch创建数据元素
 
-[数据元素](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html#create-a-data-element) 是Launch中的组件，您可以在工具中使用它。 您可以使用数据元素在Adobe Analytics扩展中分配变量值。
+[数据元素](https://docs.adobe.com/content/help/zh-Hans/launch/using/reference/manage-resources/data-elements.html#create-a-data-element) 是Launch中的组件，您可以在工具中使用它。 您可以使用数据元素在Adobe Analytics扩展中分配变量值。
 
 1. 转到 [Adobe Experience Platform Launch](https://launch.adobe.com)，并在出现提示时登录。
 1. 单击所需的启动项属性。
@@ -26,11 +26,11 @@ source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
    ![创建数据元素](assets/createelement.png)
 
 1. 为数据元素输入名称。 它可以是一个简单的标签，它对应于您要跟踪的数据层中的JavaScript变量。
-1. 在下拉列 [!UICONTROL Extension] 表中，选择 [!UICONTROL Core]。
-1. 在下拉列 [!UICONTROL Data Element Type] 表中，选择 [!UICONTROL JavaScript Variable]。 右侧会显示一个文本字段，允许您输入JavaScript变量以映射到此数据元素。
+1. 在“扩 [!UICONTROL 展] ”下拉列表中，选 [!UICONTROL 择核心]。
+1. Under the [!UICONTROL Data Element Type] dropdown, select [!UICONTROL JavaScript Variable]. 右侧会显示一个文本字段，允许您输入JavaScript变量以映射到此数据元素。
 1. 通常在数据层中输入所需的Javascript变量。 例如，如果贵组织的数据层与Adobe的建议做法紧密匹配，则值可能为 `digitalData.page.pageInfo.pageName`。 您可以使用浏览器的控制台验证JavaScript变量语法和值。
-1. 单击 [!UICONTROL Save].
+1. 单击[!UICONTROL 保存]。
 
 ## 后续步骤
 
-[将数据元素映射到Analytics变量](elements-to-variable.md):将数据元素分配给Analytics变量，以便在Analysis Workspace中将它们用作维。
+[将数据元素映射到Analytics变量](elements-to-variable.md):将数据元素分配给Analytics变量，以便在分析工作区中将其用作维。
