@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!IMPORTANT] Adobe 将不再维护此调试工具。Adobe 建议改用 [Adobe Experience Cloud 调试器 Chrome 扩展](https://docs.adobe.com/content/help/zh-Hans/debugger/using/experience-cloud-debugger.html)。
 
-The [!UICONTROL Legacy Debugger] inspects tags for most Adobe Experience Cloud services. 通过使用该调试器，您可以查看在网站上的任何给定页面向 Adobe 发送了哪些数据。您可以使用此信息对贵组织的实施进行故障诊断或验证。
+[!UICONTROL 旧版调试器]可检查大多数 Adobe Experience Cloud 服务的标签。通过使用该调试器，您可以查看在网站上的任何给定页面向 Adobe 发送了哪些数据。您可以使用此信息对贵组织的实施进行故障诊断或验证。
 
 ## 安装旧版调试器
 
