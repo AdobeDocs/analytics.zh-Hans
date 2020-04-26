@@ -46,4 +46,4 @@ source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 在解决方案设计文档中实施变量。
 
-[创建数据层](data-layer.md):将设计文档中的变量翻译为站点上的JavaScript变量。
+[创建数据层](data-layer.md):将设计文档中的变量转换为站点上的JavaScript变量。
