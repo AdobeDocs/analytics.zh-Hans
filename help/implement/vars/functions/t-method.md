@@ -39,9 +39,9 @@ Launch 有一个专用位置，用于设置页面查看跟踪调用。
 
 1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 2. 单击所需的属性。
-3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-4. 在 [!UICONTROL Actions]下，单击“+”图标
-5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
+3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
+4. 在[!UICONTROL 操作]下，单击“+”图标
+5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为“发送信标”。
 6. 单击 `s.t()` 单选按钮。
 
 ## AppMeasurement 和 Launch 自定义代码编辑器中的 s.t() 方法
