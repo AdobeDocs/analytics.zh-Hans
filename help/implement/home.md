@@ -1,7 +1,7 @@
 ---
 title: 实施 Adobe Analytics
 description: 在您的网站、属性或应用程序上实施 Adobe Analytics。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 
 ---
