@@ -17,8 +17,8 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 2. 单击所需的属性。
-3. Go to the [!UICONTROL Data Elements] tab, then click the desired data element (or create a data element).
-4. 将下拉 [!UICONTROL Extension] 列表设 [!UICONTROL Core]置为，将 [!UICONTROL Data Element Type] 其设置为 [!UICONTROL Query String Parameter]。
+3. 转到[!UICONTROL 数据元素]选项卡，然后单击所需的数据元素（或创建数据元素）。
+4. 将[!UICONTROL 扩展]下拉列表设置为[!UICONTROL 核心]，将[!UICONTROL 数据元素类型]设置为[!UICONTROL 查询字符串参数]。
 5. 在文本字段中输入查询字符串参数。
 
 查询字符串参数值会存储在数据元素中。然后，您可以引用规则中的数据元素来分配 Analytics 变量。
