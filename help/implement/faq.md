@@ -2,7 +2,7 @@
 title: 有关 Analytics 实施的常见问题解答
 description: 有关实施的常见问题，以及指向更多信息的链接。
 keywords: Analytics Implementation;faq;frequently asked questions;evar expiration;custom event visibility;timestamp;visitor id grace period;visitor id;Experience Cloud visitor id;analytics visitor id;dtm;heartbeat;cookies;tracking server;performance;javascript;data collection;s_code version;s_code debug;track link types;track video;track mobile app;first party cookie;ssl certificate;certification expiration;certificate expiration;plugins;data insertion api;500 error;500;Manage user;manage group;users;groups
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
 
 ---
