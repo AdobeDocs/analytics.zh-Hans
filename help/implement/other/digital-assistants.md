@@ -1,6 +1,6 @@
 ---
 title: 为数字助理实施 Analytics
-description: 在Digital Assistant（如Amazon Alexa或Google Home）上实施Adobe Analytics。
+description: 在数字助理（如 Amazon Alexa 或 Google Home）上实施 Adobe Analytics。
 translation-type: tm+mt
 source-git-commit: d970f2428e24c0747ae9cac9b832d506a0b13854
 
@@ -25,13 +25,13 @@ Ticket: https://jira.corp.adobe.com/browse/AN-157750
 
 ## 数字体验架构概述
 
-![Digital Assistant Worflow](assets/Digital-Assitants.png)
+![数字助理工作流](assets/Digital-Assitants.png)
 
 现如今的数字助理大多采用了类似的高层架构：
 
-1. **设备**:有一个设备（如Amazon Echo或电话）带有麦克风，允许用户提出问题。
-1. **数字助理**:该设备与为数字助手供电的服务交互。 此服务可将语音转换为机器可理解的意图，并解析请求详情。理解用户的意图后，数字助理会将意图和请求详情传送至负责处理请求的应用程序。
-1. **“应用程序”**:应用程序可以是手机上的应用程序或语音应用程序。 应用程序负责对请求做出响应。应用程序对数字助理做出响应，然后数字助理再对用户做出响应。
+1. **设备**：带麦克风并允许用户提问的设备（如 Amazon Echo 或手机）。
+1. **数字助理**：该设备可以与支持数字助理的服务进行交互。此服务可将语音转换为机器可理解的意图，并解析请求详情。理解用户的意图后，数字助理会将意图和请求详情传送至负责处理请求的应用程序。
+1. **“应用程序”**：可以是手机应用程序，也可以是语音应用程序。应用程序负责对请求做出响应。应用程序对数字助理做出响应，然后数字助理再对用户做出响应。
 
 ## 在何处实施 Analytics
 
@@ -77,7 +77,7 @@ Cache-Control: no-cache
 
 ## 用户/访客识别
 
-Adobe Analytics 可使用 [Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) 将不同时间的互动与同一人关联起来。大多数的数字助理将返回 `userID`，可使用该值保留不同用户的活动。在大多数情况下，可以将该值作为唯一标识符进行传递。有些平台返回的标识符长于允许的 100 个字符。在这些情况下，Adobe 建议使用标准哈希算法（如 MD5 或 Sha1）对唯一标识符进行哈希处理，使其变为固定长度值。
+Adobe Analytics 可使用 [Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html) 将不同时间的互动与同一人关联起来。大多数的数字助理将返回 `userID`，可使用该值保留不同用户的活动。在大多数情况下，可以将该值作为唯一标识符进行传递。有些平台返回的标识符长于允许的 100 个字符。在这些情况下，Adobe 建议使用标准哈希算法（如 MD5 或 Sha1）对唯一标识符进行哈希处理，使其变为固定长度值。
 
 当您跨不同设备（例如从 Web 到数字助理）映射 ECID 时，使用 ID 服务能发挥最大作用。如果您的应用程序是移动设备应用程序，请按原样使用 Experience Platform SDK，然后使用 `setCustomerID` 方法发送用户 ID。但是，如果您的应用程序是一项服务，请使用该服务提供的用户 ID 作为 ECID，并在 `setCustomerID` 中对其进行设置。
 
@@ -87,7 +87,7 @@ Host: example.sc.omtrdc.net
 Cache-Control: no-cache
 ```
 
-## 会话
+## Sessions
 
 由于数字助理采用对话方式，因此它们通常使用会话的概念。例如：
 
@@ -97,12 +97,12 @@ Cache-Control: no-cache
 
 **使用者：**“晚上 8:30”
 
-**** Google:“听起来不错，司机会在晚上8:30到达”
+**Google：**“好了，司机会在晚上 8:30 来接你”
 
 会话对于保持语境非常重要，并有助于收集更多详细信息，从而使数字助理更加自然。如果对会话实施 Analytics，则会在启动新会话时执行以下两个操作：
 
-1. **联系Audience Manager**:获取用户所属的相关细分，以便您自定义响应。 （例如，该用户当前符合多渠道折扣的条件。）
-2. **在新会话或启动活动中发送**:向Analytics发送第一个响应时，请包括启动事件。 通常，可以通过设置 `a.LaunchEvent=1` 上下文数据来发送此响应。
+1. **访问 Audience Manager**：获取用户所属的相应区段，以便能够对响应进行自定义。（例如，该用户当前符合多渠道折扣的条件。）
+2. **发送新会话或启动事件**：将首个响应发送至 Analytics 时，包括启动事件。通常，可以通过设置 `a.LaunchEvent=1` 上下文数据来发送此响应。
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.LaunchEvent=1&c.Intent=[intent]&pageName=[intent]  HTTP/1.1
