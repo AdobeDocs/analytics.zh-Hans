@@ -21,10 +21,10 @@ Launch 会自动填充页面 URL。但是，您可以在配置 Analytics 扩展�
 
 1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 2. 单击所需的属性。
-3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-4. 在下 [!UICONTROL Actions]面，单击现有 [!UICONTROL Adobe Analytics - Set Variables] 操作或单击“+”图标。
-5. 将下拉 [!UICONTROL Extension] 列表设置为Adobe Analytics，将其设置为 [!UICONTROL Action Type] to [!UICONTROL Set Variables]。
-6. 找到该 [!UICONTROL Page URL] 部分。
+3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
+4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
+5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
+6. 找到[!UICONTROL 页面 URL] 部分。
 
 可以将页面 URL 设置为任何字符串值。
 
