@@ -19,6 +19,6 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)/cn。
 2. 单击要编辑的属性。
-3. Click the [!UICONTROL Extensions] tab, then Click [!UICONTROL Configure] under Adobe Analytics.
+3. 单击[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的[!UICONTROL 配置]。
 
 >[!IMPORTANT] 在调用跟踪方法（或）之前，请确保已设置所[`t()`](../functions/t-method.md) 有配置 [`tl()`](../functions/tl-method.md)变量。 避免在 [`doPlugins()`](../functions/doplugins.md) 函数中设置配置变量。
