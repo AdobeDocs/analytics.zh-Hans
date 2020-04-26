@@ -1,7 +1,7 @@
 ---
 title: 变量覆盖
 description: 通过变量覆盖，您可以更改单个跟踪的变量值或跟踪链接调用。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1f0fd2dcb0454ad9bc2e0c2141b5e17470c6a5de
 
 ---
