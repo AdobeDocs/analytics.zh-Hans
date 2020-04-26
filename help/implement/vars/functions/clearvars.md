@@ -9,9 +9,9 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 # clearVars
 
-某些实现（如在单页应用程序上）需要在同一页面加载时发送多个点击。 使用该 `clearVars()` 方法清除变量值，以便它们不会保留到后续点击中。
+某些实施（如在单页应用程序上）在同一页面加载过程中需要发送多个点击。使用 `clearVars()` 方法可清除变量值，以便它们不会保留在后续点击中。
 
-此方法不采用任何参数，也不返回任何值。 它的唯一目的是从实例对象中清除变量值。 此方法将以下元素设置为 `undefined`:
+此方法不接受任何参数，也不返回任何值。它的唯一用途是从实例对象中清除变量值。此方法可将以下元素设置为 `undefined`：
 
 * `prop1` - `prop75`
 * `eVar` - `eVar250`
@@ -26,19 +26,19 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 * `zip`
 * `campaign`
 
-## 在Adobe Experience Platform Launch中清除变量
+## Adobe Experience Platform Launch 中的“清除变量”
 
-设置配置规则时的清除变量操作。
+配置规则时设置“清除变量”操作。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 2. 单击所需的属性。
-3. 转到选项卡， [!UICONTROL Rules] 然后单击所需的规则（或创建规则）。
-4. 在 [!UICONTROL Actions]下，单击“+”图标
-5. 将下拉 [!UICONTROL Extension] 列表设置为Adobe Analytics，将其设置为 [!UICONTROL Action Type] to [!UICONTROL Clear Variables]。
+3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
+4. 在[!UICONTROL 操作]下，单击“+”图标
+5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 清除变量]。
 
-## AppMeasurement中的s.clearVars()和启动自定义代码编辑器
+## AppMeasurement 和 Launch 自定义代码编辑器中的 s.clearVars()
 
-在实例化Analytics对 `s.clearVars()` 象实例后，您可以在实施中的任意位置调用该方法。
+在实例化 Analytics 对象实例后，您可以在实施中的任意位置调用 `s.clearVars()` 方法。
 
 ```js
 s.clearVars();
