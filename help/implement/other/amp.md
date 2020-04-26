@@ -24,12 +24,12 @@ Adobe 创建了两种在使用 AMP 的页面上实施 Adobe Analytics 的方法�
 
 |  | **adobeanalytics 模板** | **adobeanalytics_nativeConfig 模板** |
 |---|---|---|
-| 现有报表包中的访客/访问计数 | 高通胀 | 最低通胀 |
-| 使用单独的报表包 | 建议 | 不必 |
-| 新增与退回访客 | 不受支持 | 受支持 |
-| 访客ID服务 | 不受支持 | 受支持 |
+| 现有报表包中的访客/访问计数 | 虚增较高 | 虚增极低 |
+| 使用单独的报表包 | 建议 | 不需要 |
+| 新访客与回访者的对比 | 不受支持 | 受支持 |
+| 访客 ID 服务 | 不受支持 | 受支持 |
 | 视频和链接跟踪 | 部分支持 | 尚不支持 |
-| 实施难度 | 有些困难 | 相对容易 |
+| 实施难度 | 有些困难 | 相对简单 |
 | Adobe Experience Cloud 集成 | 不受支持 | 部分支持 |
 
 在组织内权衡上述优缺以确定要使用的方法。有关示例代码，请参阅 Adobe GitHub 存储库中的 [AMP 示例](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/samples/mobile-web)。
@@ -161,7 +161,7 @@ Adobe 使用内置的 AMP 函数识别访客，并设置 `adobe_amp_id` Cookie�
 
 **如何区分我的数据中的 AMP 访客和其他访客？**
 
-For all AMP pages, the [!UICONTROL JavaScript Version] dimension collects a value similar to `AMP vX.X`. 此外，您还可以将自定义维度设置为“AMP”，以便对这些访客进行分段。
+对于所有 AMP 页面，[!UICONTROL JavaScript 版本]维度会收集类似于 `AMP vX.X` 的值。此外，您还可以将自定义维度设置为“AMP”，以便对这些访客进行分段。
 
 **此实施方法与 Facebook Instant Articles 有何异同？**
 
