@@ -14,7 +14,7 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 部署 Analytics 时，动态标签管理中用于页面查看次数和内容设置的字段描述。
 
-**[!UICONTROL  *`Property`*]** >齿 ![轮图标](assets/settings_gear.png) > **[!UICONTROL Edit Tool]****[!UICONTROL Page Views & Content]**
+**[!UICONTROL *`Property`*]**>![齿轮图标](assets/settings_gear.png)**[!UICONTROL &#x200B;编辑工具&#x200B;]**>**[!UICONTROL &#x200B;页面查看次数和内容&#x200B;]**
 
 <table id="table_654149A8A66B404BBF9BAF8EC67F5F8F">
  <thead>
@@ -26,19 +26,19 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
  <tbody>
   <tr>
    <td colname="col1"> 页面名称 </td>
-   <td colname="col2"> <p>站点上每个页面的名称。 </p> <p>请参 <a href="../../../vars/page-vars/pagename.md">阅pageName</a>。 </p> </td>
+   <td colname="col2"> <p>您的网站中每个页面的名称。 </p> <p>请参阅 <a href="../../../vars/page-vars/pagename.md">pageName</a>。 </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> 页面URL覆盖 </td>
-   <td colname="col2"> <p> 覆盖页面的实际URL。 </p> <p>请参 <a href="../../../vars/page-vars/pageurl.md">阅pageURL</a>。 </p> </td>
+   <td colname="col1"> 页面 URL 覆盖 </td>
+   <td colname="col2"> <p> 覆盖页面的实际 URL。 </p> <p>请参阅 <a href="../../../vars/page-vars/pageurl.md">pageURL</a>。 </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> 渠道（站点部分） </td>
-   <td colname="col2"> <p>标识站点的某个部分。 </p> <p>请参阅 <a href="../../../vars/page-vars/channel.md">渠道</a>。 </p> </td>
+   <td colname="col1"> 渠道（网站区域） </td>
+   <td colname="col2"> <p>对网站中的区域进行标识。 </p> <p>请参阅 <a href="../../../vars/page-vars/channel.md">渠道</a>。 </p> </td>
   </tr>
   <tr>
    <td colname="col1"> 层级 </td>
-   <td colname="col2"> <p>确定页面在站点层次结构中的位置。 </p> <p>请参 <a href="../../../vars/page-vars/hier.md">阅hier</a>。 </p> </td>
+   <td colname="col2"> <p>确定页面在网站层级中的位置。 </p> <p>请参 <a href="../../../vars/page-vars/hier.md">阅hier</a>。 </p> </td>
   </tr>
  </tbody>
 </table>
