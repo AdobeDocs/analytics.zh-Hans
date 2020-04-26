@@ -1,6 +1,6 @@
 ---
 title: AppMeasurement for JavaScript
-description: 了解如何使用JavaScript在无标签管理系统的情况下实施Adobe Analytics。
+description: 了解如何在没有标签管理系统的情况下使用 JavaScript 实施 Adobe Analytics。
 translation-type: tm+mt
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
@@ -9,17 +9,17 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 # AppMeasurement for JavaScript
 
-AppMeasurement for JavaScript历来是实施Adobe Analytics的常用方法。 但是，随着标签管理系统的日益普及，建议 [使用Adobe Experience Platform Launch](../launch/overview.md) 。
+AppMeasurement for JavaScript 一直以来都是实施 Adobe Analytics 的常用方法。但是，随着标签管理系统的日益普及，建议使用 [Adobe Experience Platform Launch](../launch/overview.md) 来实施。
 
-## 使用JavaScript向Adobe发送数据的整个工作流程
+## 使用 JavaScript 向 Adobe 发送数据的整个工作流
 
-1. 加载文 `AppMeasurement.js` 件。 此文件包含向Adobe发送数据所需的库。
+1. 加载 `AppMeasurement.js` 文件。此文件包含向 Adobe 发送数据所需的库。
 
    ```html
    <script src="AppMeasurement.js"></script>
    ```
 
-2. 在中定义配置变量 `AppMeasurement.js`。 实例化Analytics对象时，这些变量可确保数据收集设置正确无误。 有关 [可定义的变量的完整列表](../vars/config-vars/configuration-variables.md) ，请参阅配置变量。
+2. 在 `AppMeasurement.js` 中定义配置变量。实例化 Analytics 对象后，定义的配置变量可确保数据收集设置正确无误。有关可定义变量的完整列表，请参阅[配置变量](../vars/config-vars/configuration-variables.md)。
 
    ```js
    // Instantiate the Analytics tracking object with report suite ID
@@ -29,7 +29,7 @@ AppMeasurement for JavaScript历来是实施Adobe Analytics的常用方法。 �
    s.trackingServer = "example.omtrdc.net";
    ```
 
-3. 在站点的页面代码中定义页面级别变量。 这些变量决定发送给Adobe的特定维度和指标。 有关 [可定义的变量的完整列表](../vars/page-vars/page-variables.md) ，请参阅页面变量。
+3. 在网站的页面代码中定义页面级变量。此类变量可确定发送给 Adobe 的具体维度和量度。有关可定义变量的完整列表，请参阅[页面变量](../vars/page-vars/page-variables.md)。
 
    ```js
    s.pageName = "Example page";
@@ -37,7 +37,7 @@ AppMeasurement for JavaScript历来是实施Adobe Analytics的常用方法。 �
    s.events = "event1";
    ```
 
-4. 定义所有页面级变量后，使用该方法将数据发送到Adobe `t()` 。 请参 [阅](../vars/functions/t-method.md) t以了解更多信息。
+4. When all page-level variables are defined, send the data to Adobe using the `t()` method. 有关更多信息，请参阅 [t](../vars/functions/t-method.md)。
 
    ```js
    s.t();
