@@ -1,7 +1,7 @@
 ---
 title: offlineThrottleDelay
 description: 确定设备恢复为在线状态时的点击频率。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f313fd0c9ffda054a18ad1d457a74602b08e51fa
 
 ---
