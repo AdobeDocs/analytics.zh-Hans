@@ -4,7 +4,7 @@ subtopic: Alerts
 title: 警报
 topic: Reports and analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 通过含链接的电子邮件或短信将警报发送到自动生成的 Analysis Workspace 项目。
 * 创建可在一个警报中捕获了多个量度的“堆栈式”警报。
 
-您可以通过 Reports &amp; Analytics 的任何报表中的&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 警报]**，访问此新的警报系统。
+You can access this new Alerts system from **[!UICONTROL More]** > **[!UICONTROL Alerts]** in any report in Reports &amp; Analytics.
 
 有关更多信息，请转到 Analysis Workspace 文档中的[智能警报](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/intellligent_alerts.html)。
 
@@ -35,21 +35,21 @@ t_add_an_alert.xml
 
  -->
 
-在 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]**&#x200B;菜单中，导航到新的警报生成器。但是，您仍然可以从 Reports &amp; Analytics 的报表内访问它：
+Navigate to the new Alert Builder in the **[!UICONTROL Analytics]** > **[!UICONTROL Components]** menu. 但是，您仍然可以从 Reports &amp; Analytics 的报表内访问它：
 
 1. 在 Reports &amp; Analytics 中，打开要在其中设置警报的报表。
-1. 单击&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 添加警报]**。
+1. 单击 **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
 1. 这会将您引导至[新的警报生成器](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/alert-builder.html)。
 
 ## 查看或编辑现有警报 {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
 任务上下文
 
-1. 转至 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 警报]**。这会将您引导至新的[警报管理器](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/alert-manager.html)。
+1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. 这会将您引导至新的[警报管理器](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/alert-manager.html)。
 
 ## 旧警报迁移 {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 
-现有 Analytics 警报的几项功能将不会包含在 2016 年秋作为 Analysis Workspace 一部分发行的新警报管理器中。下表列出了弃用的警报功能和某些将以其他形式迁移到新警报管理器的警报功能。
+现有 Analytics 警报的几项功能将不会包含在新警报管理器中，而警报管理器将于 2016 年秋（作为 Analysis Workspace 的一部分）发行。下表列出了弃用的警报功能和某些将以其他形式迁移到新警报管理器的警报功能。
 
 <!-- 
 
