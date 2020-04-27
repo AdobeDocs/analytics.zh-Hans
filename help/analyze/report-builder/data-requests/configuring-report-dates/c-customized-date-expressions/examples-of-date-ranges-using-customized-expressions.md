@@ -25,7 +25,7 @@ source-git-commit: 52b4a48ad8f2424978fd882efedeb002e20acbd6
 | 5 | 2 个月前的一整月 | cm-2m | cm-1m-1d | 9 月 1 日至 9 月 30 日 |
 | 6 | 12 个月前 | cm-12m | cm-11m-1d | 2010 年 11 月 1 日至 11 月 30 日 |
 
-## Notes on examples {#section_37801B0D6D364ABAA8DCE3A4C0123B2C}
+## 示例说明 {#section_37801B0D6D364ABAA8DCE3A4C0123B2C}
 
 **示例 1**
 
@@ -35,7 +35,7 @@ source-git-commit: 52b4a48ad8f2424978fd882efedeb002e20acbd6
 
 年初（1 月 1 日）加上 4 个月得出 5 月；该月的第 1 天加上 2 天得出该月的第 3 天。
 
-## Syntax notes {#section_555D6563B2D94FA3BDD801DC0B8C289D}
+## 语法说明 {#section_555D6563B2D94FA3BDD801DC0B8C289D}
 
 通过使用运算符关联两个词，可创建涵盖大多数日期范围的自定义表达式。词是整数乘数与时段缩写的组合。例如，18d 是一个词，+ 是一个运算符。
 
