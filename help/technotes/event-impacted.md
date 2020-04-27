@@ -2,7 +2,7 @@
 title: 分析受事件影响的数据
 description: 了解受事件影响的数据对整体数据质量的贡献。
 translation-type: tm+mt
-source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
+source-git-commit: 65f5fad547558cc9dc481f0eca72873815c9d13a
 
 ---
 
@@ -38,3 +38,8 @@ Adobe Analytics优惠了一种简单而可靠的方法，可使用细分来集�
 此视频将逐步介绍上述各个步骤。
 
 >[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)
+
+* **0:27**:使用细分排除数据
+* **2:55**:将事件与先前的范围进行比较
+* **8:42**:使用计算的度量派生数据
+* **11:46**:向用户传达影响
