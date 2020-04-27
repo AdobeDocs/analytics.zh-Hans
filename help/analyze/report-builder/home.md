@@ -2,7 +2,7 @@
 title: Adobe Report Builder 帮助
 topic: Report builder
 uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -43,7 +43,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * [Experience Cloud 发行说明](https://marketing.adobe.com/resources/help/zh_CN/whatsnew/index.html#Current%20Release%20Notes)
 * [产品文档主页](https://marketing.adobe.com/resources/help/en_US/home/index.html)
 * [开发人员](https://marketing.adobe.com/resources/help/zh_CN/home/index.html#Developer)
-* [意见交流](https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3)
+* [Idea Exchange](https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3)
 * [Adobe 培训和教程](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK)
 * [特色解决方案服务中心](https://www.omniture.com/en/products/online_business_optimization)
 
