@@ -3,7 +3,7 @@ description: 您可以为报表命名并配置行和列标题的显示方式。�
 title: 设置显示标题的格式
 topic: Report builder
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 您可以为报表命名并配置行和列标题的显示方式。“格式选项”链接对“引导布局”和“自定义布局”类型可用。
 
-1. 在“[!UICONTROL 请求向导: 第 1 步]”中创建请求。
-1. 单击&#x200B;**[!UICONTROL 下一步]**。
-1. 在“[!UICONTROL 请求向导: 第 2 步]”窗体中，根据需要向请求添加维度和量度数据。
-1. 单击&#x200B;**[!UICONTROL 格式选项]**。
-1. 配置“[!UICONTROL 显示]”选项：
+1. 在上创建请求 [!UICONTROL Request Wizard: Step 1]。
+1. 单击 **[!UICONTROL Next]**.
+1. On the [!UICONTROL Request Wizard: Step 2] form, add dimensions and metrics data to the request, as desired.
+1. 单击 **[!UICONTROL Format Options]**.
+1. Configure the [!UICONTROL Display] options:
 
    | 元素 | 描述 |
    |--- |--- |
@@ -26,7 +26,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    | 区段 | 显示区段参数。 |
    | “数据新近度” | 显示数据新近度参数。例如：数据新近度：页面查看次数（1.5 小时前）、退出次数（30 分钟前）。有关当前数据处理的信息，请参阅[选项](/help/analyze/report-builder/options.md)。 |
 
-   关于显示顺序，如果“[!UICONTROL 行标签]”网格（在第 2 步中）包含项目，则首先在请求中显示该项目。如果未包含，则系统使用“[!UICONTROL 列标签]”网格中的第一项。如果没有行或列项目，则显示“[!UICONTROL 量度]”网格中的第一项。
+   Regarding display order, if the [!UICONTROL Row Label] grid (on Step 2) contains an item, it is displayed first in the request. If not, the system uses the first item present in the [!UICONTROL Column Label] grid. If no row or column items exist, the first item in the [!UICONTROL Metrics] grid is displayed.
 
    **显示行与列标题：**&#x200B;添加行和列以显示这些项目。
 
@@ -40,6 +40,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    **执行自动分级显示：**&#x200B;将 Report Builder 返回的数据从列表视图转换为树视图。
 
-   **为此请求命名：**&#x200B;允许您为请求键入用户定义的名称，或者使用在第 1 步中选择的默认名称。此名称在[!UICONTROL 请求管理器]中显示为[!UICONTROL 报表]名称。请参阅[为请求命名](/help/analyze/report-builder/layout/name-a-request.md)。
+   **为此请求命名：**&#x200B;允许您为请求键入用户定义的名称，或者使用在第 1 步中选择的默认名称。此名称在中 [!UICONTROL Report] 显示为名称 [!UICONTROL Request Manager]。 See [Name a Request](/help/analyze/report-builder/layout/name-a-request.md).
 
-1. 单击&#x200B;**[!UICONTROL 确定]**。
+1. 单击 **[!UICONTROL OK]**.
