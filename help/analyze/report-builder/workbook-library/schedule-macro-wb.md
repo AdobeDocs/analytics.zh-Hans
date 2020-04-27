@@ -3,7 +3,7 @@ description: Adobe Report Builder 支持 .xlsm 格式，从而允许您计划启
 title: 计划启用宏的工作簿
 topic: Report builder
 uuid: 874cfac8-ca63-4dec-b2aa-a3dcd037c5c5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
