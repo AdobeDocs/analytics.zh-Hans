@@ -2,7 +2,7 @@
 description: 客户属性将存储在名为 VisAttr 的全新元素类型中，可将其配置为维度或量度。
 title: 客户属性
 uuid: a8340b83-d7ba-46fe-bb20-b546cdf375b8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
