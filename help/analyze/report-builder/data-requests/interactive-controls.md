@@ -3,7 +3,7 @@ description: 交互控件允许您直接从工作表编辑一个或多个请求�
 title: 交互控件
 topic: Report builder
 uuid: 5f324b61-e032-455e-9947-5037f013e0fa
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -33,8 +33,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 实施交互日期范围控件 {#section_39B228F2D2C44985863D31424C953280}
 
-1. 在“请求向导”的第 1 步中，例如，选择&#x200B;**[!UICONTROL 页面]**&#x200B;报表。
-1. 在&#x200B;**[!UICONTROL 常用日期]**&#x200B;下拉列表的旁边，单击&#x200B;**[!UICONTROL 控件设置]**&#x200B;图标：
+1. In Step 1 of the Request Wizard select, for example, the **[!UICONTROL Page]** report.
+1. 单击下拉 **[!UICONTROL Commonly Used Dates]** 框旁边的图 **[!UICONTROL Control Settings]** 标：
 
    ![](assets/date_range_control.png)
 
@@ -47,16 +47,16 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    * 如果选中，则会刷新使用此控件的所有请求。
    * 如果不选中，则会更新关联的请求参数，而不会刷新请求。
 
-1. 单击&#x200B;**[!UICONTROL 确定]**。控件出现在您指定的单元格位置：
+1. 单击 **[!UICONTROL OK]**. 控件出现在您指定的单元格位置：
 
    ![](assets/date_range_control_interactive.png)
 
 1. 现在，您可以更改日期范围，请求将根据此日期范围进行刷新。
 1. 您还可以复制请求，然后单击鼠标右键以使用两个“粘贴请求”选项之一：
 
-   * **[!UICONTROL 粘贴请求]** > **[!UICONTROL 使用绝对输入单元格]**。这意味着复制的请求将指向与原始请求相同的交互日期范围控件。
+   * **[!UICONTROL Paste Request]** > **[!UICONTROL Use Absolute Input Cell]**. 这意味着复制的请求将指向与原始请求相同的交互日期范围控件。
 
-   * **[!UICONTROL 粘贴请求]** > **[!UICONTROL 使用相对输入单元格]**。这意味着复制的请求将指向其自身的控件。
+   * **[!UICONTROL Paste Request]**> **[!UICONTROL Use Relative input Cell]**. 这意味着复制的请求将指向其自身的控件。
 
       >[!NOTE]
       >
@@ -66,7 +66,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 实施交互区段控件与实施日期范围控件类似。
 
-1. 在“请求向导”的第 1 步中，在&#x200B;**[!UICONTROL 区段]**&#x200B;下拉列表旁边选择“区段控件设置”图标：
+1. In Step 1 of the Request Wizard, next to the **[!UICONTROL Segment]** drop-down list, select the Segment Control Settings icon:
 
    ![](assets/segment_interactive_1.png)
 
