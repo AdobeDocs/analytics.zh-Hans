@@ -11,7 +11,7 @@ source-git-commit: 52b4a48ad8f2424978fd882efedeb002e20acbd6
 
 # 请求向导定义 - 滚动日期
 
-Report builder中滚动日期的字段定义。
+Report Builder中滚动日期的字段定义。
 
 <table id="table_620F3BD3FD1B4C85A0319107EC03D54F"> 
  <thead> 
@@ -23,7 +23,7 @@ Report builder中滚动日期的字段定义。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>自定义表达式 </p> </td> 
-   <td colname="col2"> <p>请参阅 <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   > 自定义的日期表达式</a>. </p> </td> 
+   <td colname="col2"> <p>请参阅<a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   >自定义的日期表达式</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 截止日期 </p> </td> 
