@@ -3,7 +3,7 @@ description: 用来定义所有报表显示方式的设置以及将默认菜单�
 title: 报表显示设置和导航
 topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 报表显示设置和导航 {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 报表设置]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Report Settings]**
 
 <!--Meike, I replaced this table with one from https://marketing.adobe.com/resources/help/en_US/sc/user/report_settings.html -bob -->
 
@@ -80,7 +80,7 @@ nav_menu.xml
 |  | 页面未找到 | 导航 > 页面未找到 |
 | **移动设备** |  |  |
 |  | 设备 | 受众 > 移动设备 > 设备 |
-|  | 设备类型 | 受众 > 移动设备 > 设备类型 |
+|  | Device Type | 受众 > 移动设备 > 设备类型 |
 |  | 制造商 | 受众 > 移动设备 > 制造商 |
 |  | 屏幕大小 | 受众 > 移动设备 > 屏幕大小 |
 |  | 屏幕高度 | 受众 > 移动设备 > 屏幕高度 |
