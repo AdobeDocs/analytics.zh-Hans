@@ -20,8 +20,8 @@ source-git-commit: 67864f04effbc5cb41c14b9651da9144312148d9
 1. Open/Restart MS Excel to get the [!UICONTROL Add-Ins] menu to show up.
 1. Go to **[!UICONTROL Add-Ins]** > **[!UICONTROL Sign In]**.
 
-   按照 [Report Builder登录中的说明操作](/help/analyze/report-builder/setup/login.md)。
+   按照 [Report Builder 登录](/help/analyze/report-builder/setup/login.md)中的说明进行操作。
 
 ## 权限
 
-如果未在下面 **[!UICONTROL Report Builder]****[!UICONTROL Tools]**&#x200B;看到菜单项，请要求您的Adobe Analytics管理员确保您是包含以下权限的产品配置的一部分：“Report Builder”。 了解有关产品配置 [和分析权限](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html) 的 [更多信息](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/analytics-tools.html)。
+如果未在下面 **[!UICONTROL Report Builder]** 看到菜单项，请 **[!UICONTROL Tools]**&#x200B;让Adobe Analytics管理员确保您是包含以下权限的产品用户档案的一部分：“Report Builder”。 进一步了解 [产品用户档案](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html) 和 [Analytics权限](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/analytics-tools.html)。
