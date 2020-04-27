@@ -3,7 +3,7 @@ description: 量度是报表的基础，可帮助您查看和了解数据关系�
 title: 量度
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -35,12 +35,12 @@ t_metrics_set_default.xml
 
 1. 运行报表。
 1.  添加要另存为默认量度的量度。
-1. 单击&#x200B;**[!UICONTROL 添加量度]**&#x200B;下拉列表，然后选择&#x200B;**[!UICONTROL 设为默认值]**。
+1. 单击下 **[!UICONTROL Add Metrics]** 拉列表，然后选择 **[!UICONTROL Set as Default]**。
 
    所选量度将另存为该报表的默认量度。以下信息适用于默认量度：
 
 * 默认量度可在所有用户帐户中应用，但是会依据报表和报表包。例如，查看相同报表包中特定报表的所有用户会使用上述过程显示量度设置。
-* 如果在报表间移动，则会保留最近查看的报表中显示的量度。要在该新报表中显示默认量度，请单击“[!UICONTROL 添加量度]”下拉列表，然后单击“[!UICONTROL 显示默认值]”。
+* 如果在报表间移动，则会保留最近查看的报表中显示的量度。To display default metrics in that new report, click the [!UICONTROL Add Metrics] drop-down list, then click [!UICONTROL Show Defaults].
 
-* 单击“[!UICONTROL 清除默认值]”会删除该报表的默认量度，并将其还原为该报表的原始默认量度（prop 的[!UICONTROL 页面查看]，无论您在“管理工具”中如何设置 eVar）。
+* Clicking [!UICONTROL Clear Defaults] removes the default metrics for that report and reverts them to the original default metrics for that report ( [!UICONTROL Page Views] for props, and whatever you have set in Admin Tools for eVars).
 
