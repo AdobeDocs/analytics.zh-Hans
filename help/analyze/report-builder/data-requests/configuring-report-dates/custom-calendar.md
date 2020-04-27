@@ -3,7 +3,7 @@ description: Report Builder 使用 Analytics 的自定义日历。您可以使�
 title: 自定义日历
 topic: Report builder
 uuid: 88d24bf9-de46-41e0-937e-b8a1fe36c55d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ Report Builder 使用 Analytics 的自定义日历。您可以使用该日历定
 <table id="table_E609632569EB499184E56618C2CEF742"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 选项 </th> 
+   <th colname="col1" class="entry"> 日历 </th> 
    <th colname="col2" class="entry"> 描述 </th> 
   </tr> 
  </thead>
