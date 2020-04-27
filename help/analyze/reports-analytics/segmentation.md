@@ -3,7 +3,7 @@ description: 区段是数据的自定义子集，或者是由您创建的规则�
 title: 分析区段
 topic: Reports and analytics
 uuid: c8837cad-af30-43b8-8e3c-36bf6adb58d6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
