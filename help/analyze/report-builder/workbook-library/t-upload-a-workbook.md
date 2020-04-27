@@ -13,9 +13,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 上载要共享的 Report Builder Excel 工作簿。
 
-The [!UICONTROL Workbook Library] lets you upload a Report Builder Excel workbook that you want to share. 您还可以下载并编辑共享的工作簿。从ExcelClient迁移到Report Builder时，建议您从ExcelClient存储库下载工作簿，然后将其上传到Report Builder存储库。
+The [!UICONTROL Workbook Library] lets you upload a Report Builder Excel workbook that you want to share. 您还可以下载并编辑共享的工作簿。从 ExcelClient 迁移到 Report Builder 时，建议您从 ExcelClient 存储库下载工作簿，然后将其上载到 Report Builder 存储库。
 
->[!NOTE] 只能上载包含 Report Builder 请求的工作簿。此外，您还可以将Report Builder报表分发给未使用Report Builder的人员。 （用户无需登录即可查看数据。）
+>[!NOTE] 只能上载包含 Report Builder 请求的工作簿。此外，您还可以向未使用 Report Builder 的人员分发 Report Builder 报表。（用户无需登录即可查看数据。）
 
 1. 创建并运行请求。
 1. After you have saved the report, click **[!UICONTROL Share]**.
