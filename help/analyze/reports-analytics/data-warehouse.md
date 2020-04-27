@@ -3,7 +3,7 @@ description: Data Warehouse 是指用于存储的、未经处理的原始数据�
 title: Data Warehouse 请求
 topic: Reports and analytics
 uuid: 586d3c8c-244f-4d47-8f93-230f166afaf9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
