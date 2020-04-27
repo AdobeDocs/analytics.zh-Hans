@@ -1,5 +1,5 @@
 ---
-description: “报告与分析”中“报告”菜单的概述。
+description: “Reports & Analytics”中的“报表”菜单概述。
 title: “报表”菜单
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
@@ -10,52 +10,52 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # “报表”菜单{#reports-menu}
 
-“报告与分析”中“报告”菜单的概述。
+“Reports &amp; Analytics”中的“报表”菜单概述。
 
-“报告”菜单提供：
+“报表”菜单提供：
 
-* 访问完整的报告集
-* 能够设置收藏报告以便快速访问
-* 经常查看的报告
-* 增强的搜索功能
+* 对完整报表集的访问
+* 设置收藏报表以便于快速访问的功能
+* 最常查看的报表
+* 增强的搜索
 
 ![](assets/menu-mainnav.png)
 
-“我的收藏夹”、“经常查看”和“报告历史记录”都特定于报表包。 如果更改报表包，则这三个列表都将更改。
+“我的收藏夹”、“最常查看”和“报表历史记录”都是特定于报表包的。如果更改报表包，所有三个列表都将发生相应的更改。
 
-使用分层列视图导航报表。 单 **[!UICONTROL View All Reports]**&#x200B;击，或按正斜杠键(/)，然后按向下箭头键(?)以使用箭头键快速显示和导航菜单。 按Esc键关闭菜单而不更改当前报告，或按Enter键加载选定的报告。
+报表是采用分层列视图导航的。单 **[!UICONTROL View All Reports]**&#x200B;击，或按正斜杠键(/)，然后按向下箭头键(?)以使用箭头键快速显示和导航菜单。 按 Esc 键可在不更改当前报表的情况下关闭菜单，或按 Enter 可加载选定报表。
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-有关各个报表的详细信息，请参阅 [报表描述](https://marketing.adobe.com/resources/help/zh_CN/reference/reports_descriptions.html)。
+有关单个报表的详细信息，请参阅[报表描述](https://marketing.adobe.com/resources/help/zh_CN/reference/reports_descriptions.html)。
 
 ## 搜索报表 {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
-“报表”菜单提供了增强的搜索体验。单 **[!UICONTROL View All Reports]** 击，或按正斜杠键(/)，然后开始键入以快速找到报告。 报表搜索已扩展至包含Analytics左侧导航（管理员、组件等）中的所有内容。
+“报表”菜单提供了增强的搜索体验。Click **[!UICONTROL View All Reports]** , or press the Forward Slash key (/) , and then begin typing to quickly find a report. 报表搜索已扩展到包含 Analytics 左侧导航器菜单中的所有内容（管理员，组件等）。
 
 ![](assets/menu-search.png)
 
-按Tab键或向下箭头键(?)导航到报表列表。 按Esc键关闭搜索而不更改当前报告，或按Enter键加载选定的报告。
+按 Tab 键或向下箭头键 (?) 可在报表列表中导航。按 Esc 键可在不更改当前报表的情况下关闭搜索，或按 Enter 可加载选定报表。
 
->[!NOTE]您也可以按照 prop、eVar 和事件编号来搜索报表列表。在搜索栏中，输入prop、eVar或事件编号。
+>[!NOTE]您也可以按照 prop、eVar 和事件编号来搜索报表列表。在搜索栏中，输入 prop、eVar 或事件编号。
 
 ## 导航概述 {#section_A6A0A369207149BABE504753B48A42D7}
 
 <table id="table_3BA295966BBC4C94ABDC3718D1894698"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 菜单项 </th> 
+   <th colname="col1" class="entry"> 菜单项目 </th> 
    <th colname="col2" class="entry"> 描述 </th> 
   </tr>
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1">Experience Cloud解决方案菜单 <img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
+   <td colname="col1">Experience Cloud 解决方案菜单 <img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
    <td colname="col2"> 单击此图标可扩展 Experience Cloud 菜单，让您能够访问其他 Marketing Could 解决方案。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1">切换报告菜单 <img placement="inline"  src="assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
-   <td colname="col2"> 单击此按钮将展开或折叠“报告”菜单，以便您能够使用浏览器窗口的整个宽度视图报告。 </td> 
+   <td colname="col1">切换“报表”菜单 <img placement="inline"  src="assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
+   <td colname="col2"> 单击此按钮可展开或折叠“报表”菜单，以便您使用浏览器窗口的整个宽度查看报表。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">区段 <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
@@ -71,19 +71,19 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">查看所有报表</span>中的搜索栏 </td> 
-   <td colname="col2"> <p> 允许您搜索所需的资源。 它使用所谓的“模糊”搜索，因此您无需输入您所寻找的确切措辞。 搜索结果以直线列表显示，您可以使用向上、向下和向侧箭头导航。 对某个搜索结果按 <span class="uicontrol">Enter</span> 可直接转至该报表。 </p> </td> 
+   <td colname="col2"> <p> 允许您搜索所需的资源。它使用所谓的“模糊”搜索，这样您就无需精确输入要查找的词语。搜索结果显示在一个整齐的列表中，您可以使用上下左右箭头在此列表中进行导航。对某个搜索结果按 <span class="uicontrol">Enter</span> 可直接转至该报表。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">我的收藏夹</span> </td> 
-   <td colname="col2">您可以在此区域中轻松检索标记为<span class="uicontrol">已收藏</span>的报表。它会基于每位用户和每个报表包，在您拥有十个以上的收藏时显示十个收藏和一个<span class="uicontrol">更多...</span> 链接。 <p>请注意，您可以重命名“我的收藏夹”中的报表，但不能重命名仪表板。 </p> <p>收藏夹与书签类似，但它们不存储在文件夹中或通过书签管理器进行管理 <a href="/help/analyze/reports-analytics/bookmarks.md"  ></a> ，如书签。 </p> </td> 
+   <td colname="col2">您可以在此区域中轻松检索标记为<span class="uicontrol">已收藏</span>的报表。它会基于每位用户和每个报表包，在您拥有十个以上的收藏时显示十个收藏和一个<span class="uicontrol">更多...</span> 链接。 <p>请注意，您可以重命名“我的收藏夹”中的报表，但不能重命名功能板。 </p> <p>收藏夹类似于书签，但它们不像书签那样存储在一个文件夹中或通过<a href="/help/analyze/reports-analytics/bookmarks.md"  >书签管理器</a>进行管理。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> 最常查看</span> </td> 
-   <td colname="col2"> Adobe Analytics会跟踪您在过去90天内最常运行的10个报告，并在此处显示这些报告，并按运行频率进行排序。 如果您在此报表包中已经超过90天，它将在列表中填入10个常用报表的一般列表。 </td> 
+   <td colname="col2"> Adobe Analytics 可以跟踪您在过去 90 天内最常运行的十个报表，并在此处按照它们的运行频度顺序显示这些报表。如果您超过 90 天未使用此报表包，它会在列表中填充十个普遍最受欢迎的报表。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> 报表历史记录</span> </td> 
-   <td colname="col2"> 在此，您可以找到最近90天内访问过的10个报告或仪表板。 您可以轻松找到返回分析或报告中上一步的方法。 </td> 
+   <td colname="col2"> 在此处，您可以查找过去 90 天内最近访问的十个报表或功能板。您可以轻松返回分析或报表中之前的步骤。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> 下载</span> </td> 
@@ -91,7 +91,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> 发送</span> </td> 
-   <td colname="col2">允许您立即通过电子邮件发送报表，或者计划一次性或重复发送。格式选项包括PDF、CSV、Excel、HTML、Word或Mobile（仅限文本）。</td> 
+   <td colname="col2">允许您立即通过电子邮件发送报表，或者计划一次性或重复发送。格式选项包括 PDF、CSV、Excel、HTML、Word 或 Mobile（纯文本）。</td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> 书签...</span> </td> 
@@ -103,7 +103,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> 更多...</span> </td> 
-   <td colname="col2"> 允许您执行以下全部或部分操作：打印它、从它中提取数据、向它添加警报、创建自定义报告、复制图形、链接到此报告并打开新窗口。 </td> 
+   <td colname="col2"> 允许您执行以下全部或部分操作：打印报表、从报表中提取数据、向报表中添加警报、创建自定义报表、复制图形、关联此报表以及打开新窗口。 </td> 
   </tr> 
   <tr> 
    <td colname="col1">报表包选择器 <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
@@ -118,4 +118,4 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## 自定义所有报表菜单 {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-管理员可以更改“报告”菜单中包含的报告。 请参 [阅管理员帮助](https://marketing.adobe.com/resources/help/zh_CN/reference/customize_menus.html) 中的菜单自定义。
+管理员可以更改“报表”菜单中包含的报表。请参阅“管理参考”中的[菜单自定义](https://marketing.adobe.com/resources/help/zh_CN/reference/customize_menus.html)。
