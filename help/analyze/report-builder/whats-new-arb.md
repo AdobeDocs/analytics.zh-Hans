@@ -2,7 +2,7 @@
 description: 列出当前和以前的版本及其功能。
 title: Report Builder 的新增功能
 uuid: 20f4a839-0667-45a7-b037-0357d0e23010
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -32,7 +32,7 @@ Microsoft Power BI 是一组用来分析数据和共享分析的业务分析功�
 
 ## Report Builder 5.4{#rb-5-4-section}
 
-* **能够更好地跨多个请求管理和编辑区段。**&#x200B;通过“[!UICONTROL 编辑多个请求]”下方的新选项，您可以添加、删除以及替换多个目标请求内的所有区段。[更多信息...](/help/analyze/report-builder/data-requests/segmentation.md#section_C3D63FCBE1A94369A319243313B03C93)
+* **能够更好地跨多个请求管理和编辑区段。** 下面的新 [!UICONTROL Edit Multiple Requests] 选项允许您添加、删除、替换和替换多个目标请求中的所有区段。 [更多信息...](/help/analyze/report-builder/data-requests/segmentation.md#section_C3D63FCBE1A94369A319243313B03C93)
 
 * **新增 Adobe Report Builder 社区链接**“帮助”下的 Adobe 社区新链接会将您转到搜索范围缩小至 Report Builder 问题的 Adobe 社区论坛。Adobe 社区是向 Report Builder 同行询问有关该应用程序的问题以及查找或分享最佳实践的有效途径。
 
