@@ -3,7 +3,7 @@ description: 您可以过滤添加到“行标签”网格中的维度。过滤�
 title: 过滤器维度概述
 topic: Report builder
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 定义过滤器 - 值和特殊字符 {#section_15840216A4044C40974945FAA435AD93}
 
-**[!UICONTROL 最受欢迎的过滤器]** > **[!UICONTROL 定义过滤器]**&#x200B;面板中提供了有关过滤器的信息。
+有关“ **[!UICONTROL Most Popular Filter]** >”面板中过滤器 **[!UICONTROL Define Filter]** 的信息。
 
 ![](assets/define_filter.png)
 
@@ -85,7 +85,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td colname="col1"> <p>结束于 </p> </td> 
    <td colname="col02"> <p>返回以特定值结尾的结果。 </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
-   <td colname="col3"> <p>匹配 <span class="term">wxyz</span>，但不匹配 <span class="term">wxyz0</span> </p> </td> 
+   <td colname="col3"> <p>Matches <span class="term"> wxyz</span> but not <span class="term"> wxyz0</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>高级（特殊字符） </p> </td> 
