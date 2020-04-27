@@ -13,7 +13,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 从属请求是从属于现有请求的请求。
 
-对于在报表表中启用关联细分的报表，您可以通过右键单击单元格并单击 **[!UICONTROL Add Dependent Request]** >仔细查看项 **[!UICONTROL Breakdown]**。
+For reports with correlation breakdowns enabled within the report table, you can take a closer look at an item by right-clicking in the cell and clicking **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Breakdown]**.
 
 >[!NOTE] 您还可以在创建原始请求时添加划分请求。请参阅[创建数据请求](/help/analyze/report-builder/data-requests/t-create-a-data-request.md)。
 
