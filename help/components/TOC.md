@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
+source-git-commit: 3e97fe61fd207dddf32f3c0e3ddea19949d18bac
 
 ---
 
@@ -288,6 +288,7 @@ source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
       + [购物车查看](c-variables/c-metrics/metrics-cart-views.md)
       + [结账](c-variables/c-metrics/metrics-checkouts.md)
       + [点进次数](c-variables/c-metrics/metrics-click-throughs.md)
+      + [内容周转率](c-variables/c-metrics/metrics-content-velocity.md)
       + [自定义量度](c-variables/c-metrics/metrics-custom.md)
       + [每日独特访客](c-variables/c-metrics/metrics-daily-unique-visitors.md)
       + [登录](c-variables/c-metrics/metrics-entries.md)
