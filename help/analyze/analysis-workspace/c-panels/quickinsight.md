@@ -2,7 +2,7 @@
 description: Quick Insights Builder是面向新Workspace用户的工具，可指导他们构建数据表和可视化
 title: 快速洞察构建器
 translation-type: tm+mt
-source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+source-git-commit: d339a1171d1d71a1074c5fbf81d6002de4955628
 
 ---
 
@@ -36,24 +36,24 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 | [!UICONTROL Dimension item] | 维项目是维的单个值。 例如，浏览器维度的维度项将为“Chrome”、“Firefox”、“Edge”等。 |
 | [!UICONTROL Metric] | 量度是有关访客活动的量化信息，包括查看次数、点进次数、重新加载次数、平均逗留时间、件数、订购、收入等。 |
 | [!UICONTROL Visualization] | 工作区优惠 [大量可视化功能](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md) ，以构建数据的可视化表示形式，如条形图、圆环图、直方图、线图、地图、散点图等。 |
-| [!UICONTROL Breakdown] | 细分是一种按其他维度来划分维度的方法。 在我们的示例中，您可以按移动设备划分美国各州，以按每个州或按移动设备类型或按地区、按内部活动等获取移动设备访问。 |
+| [!UICONTROL Breakdown] | 细分是一种按其他维度来划分维度的方法。 在我们的示例中，您可以按移动设备划分美国各州，以获取每个州的移动设备访问次数，或按移动设备类型、地区、内部活动等划分移动设备。 |
 | [!UICONTROL Segment] | 细分允许您根据特征或网站交互确定访客子集。 例如，您可以基于属 [!UICONTROL Visitor] 性构建区段：浏览器类型、设备、访问次数、国家／地区、性别或基于交互：活动、关键字搜索、搜索引擎或基于退出和条目：访客自Facebook、定义的登陆页、引用域或基于自定义变量：表单字段、定义的类别、客户ID。 |
 
 ## 快速洞察入门
 
 1. 使用您提供的凭据登录到Adobe Analytics。
-1. 转到并 [!UICONTROL Workspace] 单击， **[!UICONTROL Create New Project]** 然后单击 **[!UICONTROL Quick Insights Builder]**。
+1. 转到并 [!UICONTROL Workspace] 单击， **[!UICONTROL Create New Project]** 然后单击 **[!UICONTROL Quick Insights]**。
 
    ![](assets/qibuilder.png)
 
-1. 首次开始时，请阅读教您一些基本知识的简短教 [!UICONTROL Quick Insights Builder] 程。 或者，单击 **[!UICONTROL Skip Tutorial]**。
+1. 首次开始时，请阅读教您一些基本知识的简短教 [!UICONTROL Quick Insights panel] 程。 或者，单击 **[!UICONTROL Skip Tutorial]**。
 1. 选择构建块（也称为组件）:维度（橙色）、度量（绿色）、区段（蓝色）或日期范围（紫色）您必须为要自动构建的表选择至少一个维度和一个度量。
 
    ![](assets/qibuilder2.png)
 
    您有三种选择构件块的方法：
    * 从左边栏中拖放它们。
-   * 如果您知道要查找的内容：开始键入名称 [!UICONTROL Quick Insights Builder] 并为您填写空白。
+   * 如果您知道要查找的内容：开始键 [!UICONTROL Quick Insights] 入内容，将为您填空。
    * 单击下拉列表并搜索列表。
 
 1. 当您至少添加了一个维和一个度量时，将为您创建以下内容：
@@ -72,13 +72,9 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 其他有用的提示将在中弹出， [!UICONTROL Quick Insights Builder]其中一些提示取决于您的上一个操作。
 
-* **尝试拖放**:例如，如果您使用下拉框选择构建块，则可能会弹出：
+* 首先，完成教 **[!UICONTROL More tips]** 程：通过帮助(?)访问它图标。 [!UICONTROL Quick Insights Panel]
 
    ![](assets/qibuilder4.png)
-
-* **更改您的可视化**:鼓励您尝试不同的数据可视表示形式，直到找到真正出色的数据。 以下是折线图的示例：
-
-   ![](assets/qibuilder8.png)
 
 * **细分依据**:您最多可以使用3个级别的维度细分来向下钻取到您真正需要的数据。
 
@@ -94,7 +90,13 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 ## 已知限制
 
-如果尝试直接在表中编辑，则 [!UICONTROL Quick Insights Builder] 会导致（填空工具）不同步。 您可以通过转到将其恢复到之前的“快速分析”设置 **[!UICONTROL Help > Tutorials]**，也可以通过单击“快速分析”面板右上角的 **[!UICONTROL Resync Builder]** 选项来清除表。
+如果尝试直接在表中编辑，则会 [!UICONTROL Quick Insights] 导致面板（填空工具）不同步。 单击面板右上角的 [!UICONTROL Quick Insights] 可将其恢 **[!UICONTROL Resync Builder]** 复为以前的设置。
+
+![](assets/qibuilder9.png)
+
+在将任何内容直接添加到表之前，您会收到一条警告：
+
+![](assets/qibuilder8.png)
 
 否则，直接构建将导致表现为传统的自由形式表，而新用户没有有用的功能。
 
