@@ -6,7 +6,7 @@ title: 自定义报表包工具权限
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0bf00f990a34768b93cef5d57a126ebe93087e91
 
 ---
 
@@ -15,19 +15,19 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在迁移完所有客户之后，将撤销 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员工具]** > **[!UICONTROL 用户管理]**&#x200B;中的帮助内容。
+>用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
 
 启用 API 访问、报表包管理、工具和报表及功能板项目的用户权限。
 
-**[!UICONTROL 用户管理]** > **[!UICONTROL 群组]** > **[!UICONTROL 报表访问]** > **[!UICONTROL 报表包工具]** > **[!UICONTROL 自定义]**
+**[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]**
 
-[!UICONTROL 自定义报表包工具]页面授予群组成员访问以下项目的权限。
+该页 [!UICONTROL Customize Report Suite Tools] 面授予用户组成员对以下项目的访问权限。
 
 ![](assets/report-suite-tools.png)
 
 ## 字段描述
 
-此页面上的设置与“[!UICONTROL 定义用户群组]”页面上选择的报表包有关。
+The settings on this page pertain to the report suites selected on the [!UICONTROL Define User Groups] page.
 
 | 元素 | 描述 |
 |--- |--- |
@@ -65,8 +65,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | [异常检测](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/anomaly_detection.html) | 授予“异常检测”的权限，“异常检测”提供了一种统计方法来确定给定的量度相对于以前的数据发生了什么变化。 |
 | [渠道报表](https://marketing.adobe.com/resources/help/zh_CN/mchannel/index.html) | 授予营销渠道报表的权限，此类报表可在报表 > 营销渠道报表中找到。 |
 | [实时报表](/help/admin/admin/realtime/t-realtime-admin.md) | 授予对实时报表的访问权限。 |
-| [机器人页面](/help/admin/admin/bot-removal/bot-rules.md) | 使用机器人规则，您可以从报表包中删除已知蜘蛛程序和机器人程序生成的流量。删除机器人程序流量可为您网站上的用户活动提供更准确的测量。 |
-| [机器人](/help/admin/admin/bot-removal/bot-rules.md) | 使用机器人规则，您可以从报表包中删除已知蜘蛛程序和机器人程序生成的流量。删除机器人程序流量可为您网站上的用户活动提供更准确的测量。 |
+| [机器人页面](/help/admin/admin/bot-removal/bot-rules.md) | **注意：“机器人页面”用于特定的“报告和分析”报告，而不用于管理机器人规则。 当前，没有允许编辑机器人规则的权限。**&#x200B;使用机器人规则，您可以从报表包中删除已知蜘蛛程序和机器人程序生成的流量。删除机器人程序流量可为您网站上的用户活动提供更准确的测量。 |
+| [机器人](/help/admin/admin/bot-removal/bot-rules.md) | **注意：机器人程序适用于特定的“报告和分析”报告，而不适用于管理机器人规则。 当前，没有允许编辑机器人规则的权限。** 机器人程序可让您从报表包中删除由已知蜘蛛程序和机器人程序生成的流量。 删除机器人程序流量可为您网站上的用户活动提供更准确的测量。 |
 | [自定义 Data Warehouse 报表](/help/export/data-warehouse/data-warehouse.md) | Data Warehouse 是指用于存储的、未经处理的原始数据副本，以及可通过过滤这些数据而运行的自定义报表。您可让报表根据您的特定问题显示原始数据的高级数据关系。 |
 | [每日回访](/help/components/c-variables/dimensionslist/reports-daily-return-visits.md) | （旧版）此报表可显示在指定的日期内访问网站的次数超过一次的访客数量。一日定义为过去 24 小时。 |
 | [数据源管理器](/help/admin/admin/data-sources.md) | “数据源”功能允许您将数据从离线资源导入 Analytics。 |
