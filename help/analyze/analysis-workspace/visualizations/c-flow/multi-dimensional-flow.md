@@ -3,7 +3,7 @@ description: 通过维度间流量可以跨不同维度查看用户路径。
 title: 维度间流量
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 87bfd1124e7f467e741f13deddd5770296f23827
 
 ---
 
@@ -59,5 +59,3 @@ The [!UICONTROL Action Name] dimension was added to the flow, with the top retur
 现在我希望查看这些促销活动将流量推入哪些页面，这样我就能将页面维度拖到流量结果的右侧以添加到可视化：
 
 ![](assets/multi-dimensional-flow9.png)
-
-随后，您可以按其他维度或量度（如收入、访问次数等）划分此结果。
