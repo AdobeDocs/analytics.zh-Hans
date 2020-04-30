@@ -3,7 +3,7 @@ description: 本帮助页面包含每个 Adobe Analytics 工具的推荐使用�
 title: 我应该使用哪种 Adobe Analytics 工具？
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: f7125e6845a653ca3d4dd3f1313d1b39f564459c
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -76,7 +76,7 @@ source-git-commit: f7125e6845a653ca3d4dd3f1313d1b39f564459c
 
 * 适用于跟已经与 Adobe Analytics 建立受支持连接的第三方提供商合作的情况。Data Connectors 通常会定期将摘要级别的数据自动地永久合并到 Adobe Analytics 中。
 
-**[数据插入 API](https://marketing.adobe.com/developer/documentation/data-insertion/c-data-insertion-api)**的使用说明：
+**[数据插入 API](/help/import/c-data-insertion-api/c-data-insertion-api.md)**的使用说明：
 
 * 适用于需要将数据上载到 Adobe Analytics，但无法使用 Adobe AppMeasurement 或移动 SDK 代码的情况。
 
@@ -114,11 +114,11 @@ source-git-commit: f7125e6845a653ca3d4dd3f1313d1b39f564459c
 * 适用于客户端要在 Adobe 可发送的最细粒度级别发送客户端数据库中存储的 Adobe 数据的情况。
 * 适用于客户端要开发商智能 (BI) 工具或将点击级别的 Adobe 数据导入第三方工具的情况.
 
-**[报表 API](https://marketing.adobe.com/developer/get-started/introduction/c-introduction)**适用于其他可视化选项无法满足您需求的情况。其中包括以下 3 个 API 选项：
+**[报表 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md)**适用于其他可视化选项无法满足您需求的情况。其中包括以下 3 个 API 选项：
 
 * **经过完全处理**：适用于您需要功能丰富的数据（包括访问量、访客量和区段）的情况。这是典型的 Analytics UI 汇总数据，有效期约为 30-90 分钟。可以通过 Report Builder 使用。
 * **实时**：适用于要延迟几秒查看若干量度和维度的情况。这是经过部分处理的有限汇总数据，有效期约为 30 秒。其中包含最受欢迎、获胜方和失败方的独特算法。可以通过 Report Builder 使用。
-* **[!UICONTROL 实时流]**：适用于要在几秒内收集经过部分处理的点击级别的 Analytics 数据流。这是经过部分处理的数据，有效时间在大约 30 秒之内。仅适用于 Analytics Premium。要求通过某种方式显示数据，通常是通过参与工程技术服务。
+* **[!UICONTROL Live Stream]**:当您希望在收集后的数秒内获得经过部分处理的命中级分析数据流时。 这是经过部分处理的数据，有效时间在大约 30 秒之内。仅适用于 Analytics Premium。要求通过某种方式显示数据，通常是通过参与工程技术服务。
 
 ## 自定义解决方案 {#section_4A212F26A15947599DFB0399A0440CB6}
 
@@ -131,4 +131,4 @@ source-git-commit: f7125e6845a653ca3d4dd3f1313d1b39f564459c
 * 拥有多个数据源。
 * 您的数据 ETL（提取-转换-加载）要求十分复杂。
 * 希望自定义品牌。
-* 希望可视化 [!UICONTROL Analytics 实时流]。
+* You want to visualize [!UICONTROL Analytics Live Stream].
