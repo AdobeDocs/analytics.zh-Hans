@@ -3,7 +3,7 @@ description: 时间划分会采用所收集的点击量的时间戳，并将其�
 title: 时间划分维度
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * 周末的销售额与工作日的销售额相比如何？
 * 特定促销活动是在上午还是在下午产生更高的转化？
 
->[!NOTE] 时间划分维度仅在 Analysis Workspace 中可用。要在其他 Analytics 解决方案中使用时间划分维度，您可以实施 [getTimeParting 插件](https://marketing.adobe.com/resources/help/zh_CN/sc/implement/getTimeParting.html)。
+>[!NOTE] 时间划分维度仅在 Analysis Workspace 中可用。要在其他 Analytics 解决方案中使用时间划分维度，您可以实施 [getTimeParting 插件](https://docs.adobe.com/content/help/en/analytics/implementation/vars/plugins/gettimeparting.html)。
 
 Analysis Workspace 中的时间划分维度包括：
 
