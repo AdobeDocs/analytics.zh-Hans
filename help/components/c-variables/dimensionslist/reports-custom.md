@@ -4,7 +4,7 @@ title: 自定义
 topic: Reports
 uuid: 04a2cf81-6f2a-49f3-a449-cb701a899aad
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,4 +21,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 此外，您还可以保存重要的报表。此类报表称为书签。您还可以将数个报表放在一个画布上，以快速查看最重要的报表。这些称为功能板，它们也用于特定用户。界面将在图表上方显示一栏，列出书签和功能板。
 
-请参阅[书签](https://marketing.adobe.com/resources/help/zh_CN/sc/user/c_bookmarks.html)以及[功能板和缩图报表](https://marketing.adobe.com/resources/help/zh_CN/sc/user/c_dashboard.html)，了解更多信息。
+See [Bookmarks Manager](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/bookmarks.html) and [Dashboards and Reportlets](https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/server-call-usage-dashboard.html) for more information.
