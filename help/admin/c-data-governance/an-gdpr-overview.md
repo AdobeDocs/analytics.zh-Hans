@@ -3,7 +3,7 @@ description: 本文档介绍您需要在 Adobe Analytics 中执行什么操作�
 title: Adobe Analytics 和 GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -41,8 +41,8 @@ Adobe 认识到您最熟悉您的报表包中的自定义数据，因此我们�
 ## 先决条件 {#section_3C766371CE0641C0821FE8E750E5AE0C}
 
 * 熟悉 [GDPR 术语。](/help/admin/c-data-governance/gdpr-terminology.md)
-* 将您的登录公司关联到 Experience Cloud 组织（如果尚未关联）。请联系 Adobe 客户关怀团队并参阅[组织和帐户关联。](https://marketing.adobe.com/resources/help/zh_CN/mcloud/organizations.html)
-* 将您要设置进行数据管理的任何 Adobe Analytics 报表包映射到[您的 Experience Cloud 组织。](https://marketing.adobe.com/resources/help/zh_CN/mcloud/report-suite-mapping.html)
+* 将您的登录公司关联到 Experience Cloud 组织（如果尚未关联）。请联系 Adobe 客户关怀团队并参阅[组织和帐户关联。](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/organizations.html)
+* 将您要设置进行数据管理的任何 Adobe Analytics 报表包映射到[您的 Experience Cloud 组织。](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/about-core-services/report-suite-mapping.html)
 * 为每个报表包设置一项数据保留策略，以便能够处理 GDPR 删除和访问请求。
 
    > [!NOTE] 如果没有在 Adobe Analytics 中设置数据保留期限，Adobe Analytics 则无法协助您处理 GDPR API 请求，也就是说，无法协助您处理来自最终用户的访问请求或删除请求。请联系您的客户成功经理以便设置数据保留期限。
