@@ -3,7 +3,7 @@ description: 'null'
 title: Ad Hoc Analysis 项目转换器概述
 uuid: 7d78753d-d56c-4eea-b1dd-7c9ec225cce3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,8 +21,8 @@ Ad Hoc Analysis 项目转换器可将您的所有 Ad Hoc 项目无缝地转换�
 
 项目转换有许多好处：
 
-* 可以将您的项目转换到先进的 Analytics 报表工具 [Analysis Workspace](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/)，该工具将通过新的可视化图表及其他符合实际需要的重要功能不断进行增强。
-* 您可以充分利用 Analysis Workspace 提供的所有强大功能，此处列出了这些功能：[Analytics 工具推荐](https://marketing.adobe.com/resources/help/zh_CN/reference/which_analytics_tool.html)。
+* 可以将您的项目转换到先进的 Analytics 报表工具 [Analysis Workspace](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/analysis-workspace-features.html)，该工具将通过新的可视化图表及其他符合实际需要的重要功能不断进行增强。
+* 您可以充分利用 Analysis Workspace 提供的所有强大功能，此处列出了这些功能：[Analytics 工具推荐](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/which-analytics-tool.html)。
 * 您可以批量转换项目，而无需在 Analysis Workspace 中手动重建项目。
 * 尽管 Ad Hoc Analysis 是已存在多年的有用工具，但目前该工具目前仍处于维护模式，并且未向其中添加任何新功能。
 
