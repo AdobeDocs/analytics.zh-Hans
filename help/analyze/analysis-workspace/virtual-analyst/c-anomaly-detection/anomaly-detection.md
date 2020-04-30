@@ -3,7 +3,7 @@ description: 您可以在 Analysis Workspace 中根据上下文查看和分析�
 title: 异常检测概述
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 视频缓冲事件剧增
 * 低视频比特率剧增
 
-异常检测和[贡献分析](https://marketing.adobe.com/resources/help/zh_CN/analytics/contribution/ca_main.html)是 Analysis Workspace 中的核心工作流程。您可以针对任何每日异常运行“贡献分析”，并将结果嵌入到您的 Analysis Workspace 项目中。
+异常检测和[贡献分析](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)是 Analysis Workspace 中的核心工作流程。您可以针对任何每日异常运行“贡献分析”，并将结果嵌入到您的 Analysis Workspace 项目中。
 
 Analysis Workspace 的异常检测算法包括
 
