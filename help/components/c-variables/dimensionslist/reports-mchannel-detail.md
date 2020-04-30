@@ -2,7 +2,7 @@
 title: 营销渠道详细信息——首次和最后一次联系
 description: 将成功指标和收入分配到各种渠道详细信息，而不考虑其所处的整体渠道。
 translation-type: tm+mt
-source-git-commit: 5bb107f22490bb9e092292367c51df4eafd43ba4
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 5bb107f22490bb9e092292367c51df4eafd43ba4
 
 * 此报表按营销渠道中定义的规则运行。请参阅[渠道和规则](/help/components/c-marketing-channels/c-channels.md)。
 
-   请特别注意，此报表使用每个规则的&#x200B;**[!UICONTROL 渠道值设置为]**&#x200B;部分。更改这些规则或渠道值的设置方式都将改变此报表中的数据计算方式。请参阅营销渠道处理规则[常见问题解答](/help/components/c-marketing-channels/c-faq.md)以了解更多信息。
+   具体而言，报告使用每 **[!UICONTROL Set the channel's value to]** 个规则的一部分。 更改这些规则或渠道值的设置方式都将改变此报表中的数据计算方式。请参阅营销渠道处理规则[常见问题解答](/help/components/c-marketing-channels/c-faq.md)以了解更多信息。
 
 * Differences between *First* and *Last Touch* are located in [About Marketing Channel Reports](/help/components/c-marketing-channels/analyze-mc.md).
 
@@ -32,4 +32,4 @@ source-git-commit: 5bb107f22490bb9e092292367c51df4eafd43ba4
    * 所有标准电子商务量度：收入、订购、件数、购物车、购物车查看、结账、购物车加货、购物车减货。
    * 所有自定义事件：事件 1-80、事件 81-100（使用 H22 代码或更高版本的代码时）。
    * 访问和访客：其可用性取决于组织和报表包。请联系您的客户经理以了解详细信息。
-   请参阅[!UICONTROL 营销渠道]帮助中的[量度](https://marketing.adobe.com/resources/help/zh_CN/mchannel/c_overview_metrics.html)。
+   See [Metrics](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-channels-rules.html) in [!UICONTROL Marketing Channel] Help.
