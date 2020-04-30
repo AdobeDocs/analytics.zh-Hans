@@ -5,7 +5,7 @@ title: 处理规则概述
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -33,8 +33,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 1. 如果您还没有这么做，[请创建一个群组](/help/admin/user-management2/c-user-groups/groups.md)，其中只包含那些应当有权使用处理规则的非管理员。
 1. [将非管理员添加到该组](/help/admin/user-management2/c-user-management/t-add-user-to-group.md)。
-1. 然后转到 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 群组]** > **[!UICONTROL [群组名称]]** > **[!UICONTROL 编辑]** > **[!UICONTROL 报表访问]** > **[!UICONTROL 报表包工具]** > **[!UICONTROL 自定义]** > **[!UICONTROL 报表包管理]**。
-1. 选中[!UICONTROL 处理规则]旁边的框，然后单击&#x200B;**[!UICONTROL 确定]**。
+1. 然后转到> **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > > > > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL `group name`]****[!UICONTROL Edit]****[!UICONTROL Report Access]****[!UICONTROL Report Suite Tools]****[!UICONTROL Customize]****[!UICONTROL Report Suite Management]**>含糊
+1. 选中旁边的框， [!UICONTROL Processing Rules] 然后单击 **[!UICONTROL OK]**。
 
 ![](assets/processing-rules.png)
 
@@ -48,7 +48,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ![](assets/evar-context-map.png)
 
-请参阅实施帮助中的[上下文数据变量](https://marketing.adobe.com/resources/help/zh_CN/sc/implement/context_data_variables.html)。
+请参阅实施帮助中的[上下文数据变量](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/contextdata.html)。
 
 ## 使用处理规则转换点击数据和触发事件 {#section_8284E72E999244E091CD7FB1A22342B6}
 
