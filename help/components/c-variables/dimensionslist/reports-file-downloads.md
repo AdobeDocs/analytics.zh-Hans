@@ -4,7 +4,7 @@ title: 文件下载
 topic: Reports
 uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **导航**
 
-**[!UICONTROL 报表]** > **[!UICONTROL 网站内容]** > **[!UICONTROL 链接]** > **[!UICONTROL 文件下载]**
+**[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Links]** > **[!UICONTROL File Downloads]**
 
 如果该报表不在默认位置，请咨询您的管理员，他们可能已更改了默认菜单结构，以更好地满足您组织的独特需求。
 
@@ -33,8 +33,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 1. 在您的网站上找到全局 JavaScript 文件。该文件通常名为 [!DNL s_code.js]，但可能已被重命名。如果该文件已被重命名，则您可以在站点上搜索值 *`s.account`* 的 JavaScript 文件，此值是 JavaScript 代码的一部分。
 
-1. 在文件中找到 [s.trackDownloadLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_trackdownllinks.html) 变量。确保将其设置为 *true*。
+1. 在文件中找到 [s.trackDownloadLinks](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/config-vars/trackdownloadlinks.html) 变量。确保将其设置为 *true*。
 
-1. 找到 [s.linkDownloadFileTypes](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkdownfiletypes.html) 变量。确保所需的所有文件扩展名都出现在列表中。如有必要，请添加缺少的扩展名，例如 [!DNL .zip]、[!DNL .pdf] 等。
+1. 找到 [s.linkDownloadFileTypes](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/config-vars/linkdownloadfiletypes.html) 变量。确保所需的所有文件扩展名都出现在列表中。如有必要，请添加缺少的扩展名，例如 [!DNL .zip]、[!DNL .pdf] 等。
 
-如果这些变量配置正确，但[!UICONTROL 文件下载报表]仍无法接收数据，则贵组织的受支持用户应与客户关怀团队联系。
+If these variables appear to be configured correctly, but the [!UICONTROL File Downloads Report] still is not receiving data, your organization&#39;s supported users should contact Customer Care.
