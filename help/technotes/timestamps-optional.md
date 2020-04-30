@@ -5,7 +5,7 @@ title: 使用可选时间戳
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!NOTE]“可选时间戳”是从模板生成的所有新报表包的默认设置。从现有报表包复制而来的新报表包将继承原始报表包的设置。
 
-请参阅[可选时间戳](https://marketing.adobe.com/resources/help/zh_CN/reference/timestamp-optional.html)，以了解更多设置信息。
+请参阅[可选时间戳](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/timestamp-optional.html)，以了解更多设置信息。
 
 ## 可选时间戳：集成加盖时间戳和未加盖时间戳的数据 {#section_BF17CB593044462B993FD0D28EA56518}
 
@@ -62,7 +62,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    无序数据可能包含从离线数据收集延迟抵达的数据和延迟抵达的点击量，或离线移动设备上不同步的时钟。无序数据可能对时间计算（如逗留时间值）、属性（eVar 持续性）、访问量/访问计数和路径报表造成负面影响。
 
-* 不建议在设置 [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) 时使用时间戳。这可能会导致数据顺序混乱。
+* 不建议在设置 [s.visitorID](https://docs.adobe.com/content/help/zh-Hans/analytics/technotes/visitor-identification.html) 时使用时间戳。这可能会导致数据顺序混乱。
 
 * 混合应用程序若包含可打开 Web 浏览器（未加盖时间戳的实时数据）的应用程序（加盖时间戳的离线数据），则不应使用时间戳。它会导致会话报告不准确。
 
