@@ -3,7 +3,7 @@ description: 'null'
 title: Advertising Analytics 疑难解答
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 我在“映射”部分中没有看到我的报表包 {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-您正在尝试[设置一个新的广告帐户](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)，并且在&#x200B;**[!UICONTROL 选择报表包]**&#x200B;下拉列表中列出的报表包中，没有看到您的报表包。出现此问题的原因可能有两个：
+You are trying to [set up a new Advertising Account](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) and you do not see your report suite listed in the **[!UICONTROL Select Report Suite]** drop-down list. 出现此问题的原因可能有两个：
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 
@@ -27,7 +27,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. 未将报表包映射到登录用户的 Experience Cloud 组织 ID。 </p> </td> 
-   <td colname="col2"> <p>有关说明，请参阅<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  >将报表包映射到组织</a>。 </p> </td> 
+   <td colname="col2"> <p>有关说明，请参阅<a href="https://docs.adobe.com/content/help/zh-Hans/core-services/interface/about-core-services/report-suite-mapping.html"  >将报表包映射到组织</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. 报表包没有配置为可以使用 Advertising Analytics 报告功能。 </p> </td> 
