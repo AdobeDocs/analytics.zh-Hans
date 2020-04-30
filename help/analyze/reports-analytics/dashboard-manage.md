@@ -5,7 +5,7 @@ title: 功能板管理器
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -70,7 +70,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 现有的旧版功能板将继续运行，而且您仍然可以编辑、下载它们并为其制定计划，但是您不能再新建旧版功能板。强烈建议您将现有旧版功能板升级为较新的功能板格式。
 
->[!NOTE] 接下来，请考虑使用 [Analysis Workspace 项目](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/)及其将要下载和计划的功能。
+>[!NOTE] 接下来，请考虑使用 [Analysis Workspace 项目](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/analysis-workspace-features.html)及其将要下载和计划的功能。
 
 复制原有功能板时，系统将打开原有功能板以供您编辑，您可添加旧内容或新内容。当您复制原有功能板时，旧内容将保留在原有功能板列表中。
 
