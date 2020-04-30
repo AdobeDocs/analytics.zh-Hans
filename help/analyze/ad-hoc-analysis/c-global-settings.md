@@ -3,7 +3,7 @@ description: 配置整体行为设置。例如，您可以配置自动保存、�
 title: 设置
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 配置整体行为设置。例如，您可以配置自动保存、图表和表设置，以及指定字体和区域设置。
 
-单击&#x200B;****“工具”>“设置”****&#x200B;以访问“全局设置”。
+单击 **[!UICONTROL Tools]** > **[!UICONTROL Settings]** 可访问 [!UICONTROL Global Settings]。
 
 ## “常规设置”选项卡 - 定义{#reference_EADAF83466994F89BCC6B0F49A9A53DB}
 
@@ -38,7 +38,7 @@ r_dsc_general_settings.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p> 数据设置 </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol">计算重复实例</span>：指定是否在报表中计算实例。这意味着，如果您针对相同的变量具有多个序列值，则可以将它们计为该变量的一个实例，也可以计为多个实例。 </p> <p>例如，您可能会看到重复的页面重新加载，这是在单次访问期间您的网站上页面重新加载或刷新的次数。通过使用此选项，您可以指定是将相同页面上的多次点击计为一次页面查看，还是计为多次页面查看。 </p> <p> <span class="uicontrol"> <span class="keyword">Ad hoc Analysis</span></span>：指定“<span class="keyword">Ad hoc Analysis</span>”为报表的唯一数据源。此数据来自网页生成的图像请求。 </p> <p> <span class="uicontrol"><span class="keyword">数据源</span></span>：指定是否使用从其他 Adobe 资源或自定义数据源上传的数据。此数据可用于 <span class="keyword">Experience Cloud</span> 中的产品。请参阅<a href="https://marketing.adobe.com/resources/help/zh_CN/sc/datasources/index.html"  >数据源</a>以了解详细信息。 </p> <p> <span class="uicontrol">两者皆有</span>：（默认）使用来自“<span class="keyword">Ad Hoc Analysis</span>”和其他数据源的数据。 </p> <p>注意：改变这些选项可能造成 <span class="keyword">Ad Hoc Analysis</span> 数据和 <span class="keyword">Marketing Reports &amp; Analytics 数据</span>之间出现差异。 </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol">计算重复实例</span>：指定是否在报表中计算实例。这意味着，如果您针对相同的变量具有多个序列值，则可以将它们计为该变量的一个实例，也可以计为多个实例。 </p> <p>例如，您可能会看到重复的页面重新加载，这是在单次访问期间您的网站上页面重新加载或刷新的次数。通过使用此选项，您可以指定是将相同页面上的多次点击计为一次页面查看，还是计为多次页面查看。 </p> <p> <span class="uicontrol"> <span class="keyword">Ad hoc Analysis</span></span>：指定“<span class="keyword">Ad hoc Analysis</span>”为报表的唯一数据源。此数据来自网页生成的图像请求。 </p> <p> <span class="uicontrol"><span class="keyword">数据源</span></span>：指定是否使用从其他 Adobe 资源或自定义数据源上传的数据。此数据可用于 <span class="keyword">Experience Cloud</span> 中的产品。请参阅<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/import/data-sources/datasrc-home.html"  >数据源</a>以了解详细信息。 </p> <p> <span class="uicontrol">两者皆有</span>：（默认）使用来自“<span class="keyword">Ad Hoc Analysis</span>”和其他数据源的数据。 </p> <p>注意：改变这些选项可能造成 <span class="keyword">Ad Hoc Analysis</span> 数据和 <span class="keyword">Marketing Reports &amp; Analytics 数据</span>之间出现差异。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 自动保存设置 </p> </td> 
