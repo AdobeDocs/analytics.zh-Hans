@@ -3,7 +3,7 @@ description: 添加或管理“服务器调用使用情况”警报。设置警�
 title: “服务器调用使用情况”警报
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 概述
 
-现有的&#x200B;**[!UICONTROL 警报管理]**&#x200B;用户界面中将新增一个警报类别，即[服务器调用使用情况警报](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/intellligent_alerts.html)。
+A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the existing [Alert Management](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html) user interface.
 
 该界面中已预填充了 **1 个默认警报**，该默认警报将显示在有权访问“服务器调用使用情况”功能的任何登录公司中。如果满足了以下任一条件，此警报将触发一条发送给所有登录公司管理员的通知消息：
 
@@ -26,14 +26,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 您可以通过以下两种方式访问“服务器调用使用情况”警报：
 
-* 单击“当前使用情况”选项卡或“报表包使用情况”选项卡右上角的&#x200B;**[!UICONTROL 管理警报]**；或
-* 在 Adobe Analytics 中导航到&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 警报]**。
+* Click **[!UICONTROL Manage Alerts]** in the upper right corner on the Current Usage tab or the Report Suite usage tab, or
+* 导航到 **[!UICONTROL Components]** Adobe **[!UICONTROL Alerts]** Analytics中的>。
 
 ## 创建“服务器调用使用情况”警报 {#section_2A2882C6D48D47C1944D52FB7C766BEC}
 
 要创建更多警报，请
 
-1. 单击 **[!UICONTROL + 添加]**，然后选择&#x200B;**[!UICONTROL “服务器调用使用情况”警报]**。
+1. 单击 **[!UICONTROL + Add]** 并选择 **[!UICONTROL Server Call Usage Alert]**。
 
    ![](assets/server_call_alert.png)
 
@@ -54,7 +54,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
       * 且
 为所用的使用时段指定阈值和条件（“大于或等于”或者“小于或等于”）。
 
-1. 单击&#x200B;**[!UICONTROL 保存]**。
+1. 单击 **[!UICONTROL Save]**.
 
 ## 管理“服务器调用使用情况”警报 {#section_8FF98170763C4B5CBEC6DD43F893177A}
 
@@ -67,12 +67,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    | 操作 | 定义 |
    |--- |--- |
-   | + 添加 | 通过单击 [!UICONTROL + 添加]访问[警报生成器](/help/admin/c-server-call-usage/scu-alerts.md)。 |
+   | + 添加 | Access the [Alert Builder](/help/admin/c-server-call-usage/scu-alerts.md) by clicking  [!UICONTROL + Add]. |
    | 标记 | 通过做标记来管理警报，以便于使用。 |
    | 删除 | 您可以删除所有警报（默认警报除外）。 |
    | 重命名 | 您可以重命名所有警报（默认警报除外）。 |
    | 批准 | 您可以批准警报，以使其成为“官方”警报。 |
    | 启用/禁用 | 您可以启用或禁用所有警报，甚至包括默认警报。 |
-   | 续订 | When one or more alerts are selected, they can be renewed. This extends their expiration dates to be 1 year from the day [!UICONTROL Renew] was clicked, regardless of their original expiration date. |
+   | 续订 | 在选择了一个或多个警报后，可以进行续订。This extends their expiration dates to be 1 year from the day [!UICONTROL Renew] was clicked, regardless of their original expiration date. |
    | 导出到 CSV | 请参阅[下载“使用情况”报表](/help/admin/c-server-call-usage/report-suite-usage.md) |
 
