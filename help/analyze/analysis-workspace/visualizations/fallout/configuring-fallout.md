@@ -3,7 +3,7 @@ description: 'null'
 title: 配置流失可视化
 uuid: fc117745-baf3-46fb-873d-9307092cc337
 translation-type: tm+mt
-source-git-commit: 2cd9872ed5052b9569d03a07d5171221b9e0af29
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 2cd9872ed5052b9569d03a07d5171221b9e0af29
 
 对于可添加的步骤数量或可使用的维度数量，没有任何限制。
 
-您可以对 eVar 执行路径分析，包括促销 eVar 和 [listVar](https://marketing.adobe.com/resources/help/zh_CN/sc/implement/listN.html)（每个点击可以具有多个值的变量，如产品、listVar、促销 eVar 和列表属性）。例如，假设某个用户在一个页面上查看鞋和衬衫，而在另一个页面上查看衬衫和袜子。鞋的下一个产品流量报表将是衬衫和袜子，而不是衬衫。
+您可以对 eVar 执行路径分析，包括促销 eVar 和 [listVar](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/page-vars/page-variables.html)（每个点击可以具有多个值的变量，如产品、listVar、促销 eVar 和列表属性）。例如，假设某个用户在一个页面上查看鞋和衬衫，而在另一个页面上查看衬衫和袜子。鞋的下一个产品流量报表将是衬衫和袜子，而不是衬衫。
 
 1. 将可 [!UICONTROL Fallout] 视化下拉菜单中的可视化拖入 [!UICONTROL Freeform Table]。
 
@@ -47,7 +47,7 @@ source-git-commit: 2cd9872ed5052b9569d03a07d5171221b9e0af29
 <table id="table_A91D99D9364B41929CC5A5BC907E8985"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>最终路径 </p> <p>(默认值) </p> </td> 
+   <td colname="col1"> <p>最终路径 </p> <p>(默认) </p> </td> 
    <td colname="col2"> <p>对“最终”在路径中登陆下一页，但不一定具有下一次点击的访客进行计数。 </p> </td> 
   </tr> 
   <tr> 
