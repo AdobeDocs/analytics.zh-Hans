@@ -4,14 +4,14 @@ title: Activity Map 概述
 topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 translation-type: tm+mt
-source-git-commit: fa9efcba40ae00c22e99f68f5be8f4d5bf32e44c
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # Activity Map 概述
 
->[!Note]
+>[!NOTE]
 >在常见问题解答页面上了解活动图如何支持单页应用程序(SPA) [](/help/analyze/activity-map/activitymap-faq.md) 。
 
 >[!IMPORTANT]
