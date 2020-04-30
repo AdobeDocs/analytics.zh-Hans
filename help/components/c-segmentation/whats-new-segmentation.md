@@ -3,7 +3,7 @@ description: Adobe Analytics 分段中的新功能。
 title: Analytics 分段的新功能
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -73,7 +73,7 @@ Adobe Analytics 分段中的新功能。
    <td colname="col2"> <p>在 THEN 语句之间的“within”子句中，您可以添加“在 1 个搜索关键词实例之内”、“在 1 个 eVar 47 实例之内”。此条件可将区段限制在维度的一个实例之内。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Analysis Workspace：<a href="https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/fallout_flow.html"  >在流失分析中使用区段 </a> </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace：<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html"  >在流失分析中使用区段 </a> </p> </td> 
    <td colname="col2"> <p>您可以从接触点创建区段，添加区段作为接触点，并比较 Analysis Workspace 中各个区段的关键工作流程。 </p> </td> 
   </tr> 
  </tbody> 
@@ -104,7 +104,7 @@ Adobe Analytics 分段中的新功能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace &gt; 区段比较 </p> </td> 
-   <td colname="col2"> <p> 使用 Analysis Workspace 中的<a href="https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/segment-comparison.html"  >区段比较</a>（区段 IQ）面板，客户能够快速比较任意两个 Analytics 区段，并在所有数据点中找出它们之间最重要的差异。 </p> </td> 
+   <td colname="col2"> <p> 使用 Analysis Workspace 中的<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html"  >区段比较</a>（区段 IQ）面板，客户能够快速比较任意两个 Analytics 区段，并在所有数据点中找出它们之间最重要的差异。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -119,7 +119,7 @@ Adobe Analytics 分段中的新功能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 创建区段</span>权限 </p> </td> 
-   <td colname="col2"> <p>如果用户没有<a href="https://marketing.adobe.com/resources/help/zh_CN/reference/groups.html"  >创建区段权限</a>，他们将不能再访问区段生成器。 </p> </td> 
+   <td colname="col2"> <p>如果用户没有<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/admin/user-product-management/user-groups/groups.html"  >创建区段权限</a>，他们将不能再访问区段生成器。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -168,7 +168,7 @@ Adobe Analytics 分段中的新功能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>区段生成器中的权限更改 </p> </td> 
-   <td colname="col2"> <p>管理员用户可以限制哪些用户能够创建新的区段。默认情况下，所有用户均能够创建区段。<a href="https://marketing.adobe.com/resources/help/zh_CN/reference/groups.html"  > 更多...</a> </p> </td> 
+   <td colname="col2"> <p>管理员用户可以限制哪些用户能够创建新的区段。默认情况下，所有用户均能够创建区段。<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/admin/user-product-management/user-groups/groups.html"  > 更多...</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
