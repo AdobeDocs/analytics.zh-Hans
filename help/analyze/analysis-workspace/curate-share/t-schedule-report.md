@@ -5,7 +5,7 @@ title: 发送文件 - 计划交付项目
 topic: Reports and analytics
 uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 通过电子邮件发送 Analysis Workspace 项目，或者针对项目的提交进行规划。
 
-1. [创建一个 Analysis Workspace 项目](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/t_freeform_project.html)并保存该项目。
+1. [创建一个 Analysis Workspace 项目](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html)并保存该项目。
 1. 单击 **[!UICONTROL Share]** > **[!UICONTROL Send File On Schedule]**.
 
    ![步骤结果](assets/send-file.png)
