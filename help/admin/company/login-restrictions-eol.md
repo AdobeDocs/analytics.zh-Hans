@@ -1,21 +1,21 @@
 ---
-title: “[!UICONTROL 强制 IP 登录限制]”终止使用
-description: 了解“[!UICONTROL 强制 IP 登录限制]”的终止使用时间和含义
+title: '[!UICONTROL强制IP登录限制]的生命周期结束'
+description: 了解生命周期结束的时间安排及其对[!UICONTROL强制IP登录限制]的影响
 translation-type: tm+mt
-source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
+source-git-commit: 940638b77f800b471f1ce4097a8ca6de98d518d3
 
 ---
 
 
-# “[!UICONTROL 强制 IP 登录限制]”终止使用
+# 终止使用 [!UICONTROL Enforce IP login restrictions]
 
 通过 Adobe Analytics 中的&#x200B;**[强制 IP 登录限制](/help/admin/company/security-manager.md)**功能，您可以将特定的 IP 地址（被认为是安全的）列入白名单，以便成功登录并访问 Adobe Analytics 环境。在许多情况下，此功能用于将公司 IP 地址设置为用户可以从中登录的唯一安全 IP 地址。因此，要使用 Adobe Analytics，这要求用户位于公司办公室或通过 VPN 登录网络。
 
-我们计划于 2020 年 10 月终止使用此功能。
+我们计划在2021年1月停止使用此功能。
 
 ## 为什么我们要终止使用此功能？
 
-在某些情况下，Experience Cloud 登录迁移和/或 Experience Cloud 登录会破坏此功能。对于使用&#x200B;**[!UICONTROL 客户属性]**&#x200B;或&#x200B;**[!UICONTROL 受众库]**&#x200B;的客户，此功能已知会受到破坏。
+在某些情况下，Experience Cloud 登录迁移和/或 Experience Cloud 登录会破坏此功能。对于使用或的客户来说，它会突 **[!UICONTROL Customer Attributes]** 破 **[!UICONTROL Audience Library]**。
 
 此外，如果您拥有多个 Experience Cloud 解决方案，则可以通过使用其他某个解决方案登录 Experience Cloud 来绕过此要求，因为该功能本身在 Analytics 外部不存在或不受支持。用户还可以通过 IP 欺骗来绕过此要求。
 
@@ -23,15 +23,15 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 ## 删除此功能对您有何影响？
 
-对于已设置&#x200B;**[!UICONTROL 强制 IP 登录限制]**&#x200B;的任何客户，此功能将于 2020 年 10 月被删除。届时，将不再强制执行任何已设置的 IP 登录限制。如果仍需要通过 IP 地址限制登录，则应查看并实施推荐的单点登录和 Federated ID 解决方案（下面提供了更多信息和资源）。
+对于已设置的任 **[!UICONTROL Enforce IP login restrictions]** 何客户，此功能将在2021年1月删除。 届时，将不再强制执行任何已设置的 IP 登录限制。如果仍需要通过 IP 地址限制登录，则应查看并实施推荐的单点登录和 Federated ID 解决方案（下面提供了更多信息和资源）。
 
-此外，还将从 Analytics UI 的&#x200B;**[!UICONTROL 管理员 > 公司设置 > 安全管理器]**&#x200B;中删除&#x200B;**[!UICONTROLA强制 IP 登录限制]**&#x200B;设置（如下所示）。
+Additionally, the **[!UICONTROL Enforce IP login restrictions]** setting will be removed from the **[!UICONTROLAdmin > Company Settings > Security Manager]** in the Analytics UI (as shown below).
 
 ![](assets/sec-manager2.png)
 
 ## 您有哪些其他选项？
 
-如上所述，此 Analytics 功能将终止使用。为了让您有时间实施 SSO 和 Federated ID，我们将终止使用日期推迟到了 2020 年 10 月。
+如上所述，此 Analytics 功能将终止使用。为了给您时间实施SSO和Federated ID，我们将EOL日期推迟到2021年1月。
 
 SSO 和 Federated ID 都是我们当前使用的 IP 登录限制功能的高级解决方案，它们将为您提供更好的控制、安全性和功能。有关如何设置 SSO/Federated ID 的信息，我们提供了以下帮助文档。我们建议您仔细阅读这些文档并与您的 IT 部门合作，以实施这些功能：
 
