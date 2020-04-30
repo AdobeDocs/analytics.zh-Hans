@@ -5,7 +5,7 @@ title: 管理要求
 topic: Reports and analytics
 uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -34,7 +34,7 @@ Analysis Workspace 的系统要求。
   </tr> 
   <tr> 
    <td colname="col1"> 用户 </td> 
-   <td colname="col2"> <p>要使用户能够访问 Analytics 中的“工作区”选项卡，管理员必须在<span class="uicontrol">管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">组</span>中将用户添加到 <a href="https://marketing.adobe.com/resources/help/zh_CN/reference/groups.html"  >Analysis Workspace 访问</a>组。 </p> </td> 
+   <td colname="col2"> <p>要使用户能够访问 Analytics 中的“工作区”选项卡，管理员必须在<span class="uicontrol">管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">组</span>中将用户添加到 <a href="https://docs.adobe.com/content/help/zh-Hans/analytics/admin/user-product-management/user-groups/groups.html"  >Analysis Workspace 访问</a>组。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 转移项目 </td> 
