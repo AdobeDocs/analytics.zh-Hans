@@ -5,7 +5,7 @@ title: 分类规则 - 定义
 topic: Admin tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> <p>选择报表包和变量 </p> </td> 
-   <td colname="col2"> <p><b>报表包</b> </p> <p>要对其应用规则集的报表包。 </p> <p><b>变量</b> </p> <p>创建分类规则集时，只能应用一个变量。如果您要为一个变量创建多个规则集，则必须将每个规则集应用到多个报表包。 </p> <p>注意：您只能使用您在报表包中拥有访问权限的变量。只有在变量至少定义了一个分类后，变量才会在<span class="wintitle">新建规则集</span>面板中显示。 </p> <p>例如，要使<span class="term">页面</span>可以作为一个变量用于规则集，请确保报表包已为<span class="term">页面</span>实施了<a href="https://marketing.adobe.com/resources/help/zh_CN/reference/traffic_classifications.html"  >流量分类</a>。 </p> <p> 您可以在<span class="uicontrol">管理员</span> &gt; <span class="uicontrol">报表包</span> &gt; <span class="uicontrol">流量</span> &gt; <span class="uicontrol">流量分类</span>（或<span class="uicontrol">转化</span> &gt; <span class="uicontrol">转化分类</span>）中对变量创建分类。然后选择该变量，并单击<span class="uicontrol">添加分类</span>。 </p> <p>请参阅管理员帮助中的<a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classification_admin.html"  >流量分类</a>和<a href="https://marketing.adobe.com/resources/help/zh_CN/reference/conversion_classifications.html"  >转化分类</a>。 </p> </td> 
+   <td colname="col2"> <p><b>报表包</b> </p> <p>要对其应用规则集的报表包。 </p> <p><b>变量</b> </p> <p>创建分类规则集时，只能应用一个变量。如果您要为一个变量创建多个规则集，则必须将每个规则集应用到多个报表包。 </p> <p>注意：您只能使用您在报表包中拥有访问权限的变量。只有在变量至少定义了一个分类后，变量才会在<span class="wintitle">新建规则集</span>面板中显示。 </p> <p>例如，要使<span class="term">页面</span>可以作为一个变量用于规则集，请确保报表包已为<span class="term">页面</span>实施了<a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/traffic-classifications.html"  >流量分类</a>。 </p> <p> 您可以在<span class="uicontrol">管理员</span> &gt; <span class="uicontrol">报表包</span> &gt; <span class="uicontrol">流量</span> &gt; <span class="uicontrol">流量分类</span>（或<span class="uicontrol">转化</span> &gt; <span class="uicontrol">转化分类</span>）中对变量创建分类。然后选择该变量，并单击<span class="uicontrol">添加分类</span>。 </p> <p>请参阅管理员帮助中的<a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/traffic-classifications.html"  >流量分类</a>和<a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  >转化分类</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 激活</span> </p> </td> 
@@ -117,7 +117,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## “正则表达式”页面{#section_C932A5469E774841B2229965A154163C}
 
-您可以在“[!UICONTROL 正则表达式]”页面上编辑正则表达式。
+You can edit regular expressions on the [!UICONTROL Regular Expression] page.
 
 ![](assets/regex_tracking_code.png)
 
@@ -140,5 +140,5 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 元素 | 描述 |
 |---|---|
 | 运行测试 | 在测试规则集时，使用报表中的键值来查看规则集将如何影响键值。 |
-| 过滤器 | 过滤“[!UICONTROL 结果]”面板中的值。 |
+| 过滤器 | Filters the values in the [!UICONTROL Results] panel. |
 
