@@ -6,7 +6,7 @@ title: 识别独特访客
 topic: Developer and implementation
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -37,12 +37,12 @@ Adobe Analytics 提供了多种识别访客的机制。下表列出了在 Analyt
 
 自定义访客 ID 可以在通过唯一方式识别访客的网站上使用。例如，当用户使用用户名和密码登录网站时，就会生成一个 ID。
 
-如果能够获得和管理用户的[!UICONTROL 访客 ID]，则可以使用以下方法设置 ID：
+Should you have the ability to derive and manage the [!UICONTROL visitor IDs] of your users, you can use the following methods to set the ID:
 
 | 方法 | 描述 |
 |---|---|
 | [s.visitorID](../implement/vars/config-vars/visitorid.md) 变量 | 如果在浏览器中使用 JavaScript，或者如果使用任何其他 AppMeasurement 库，则可以在数据收集变量中设置访客 ID。 |
-| 图像请求中的查询字符串参数 | 此功能允许您通过硬编码图像请求中的 [!UICONTROL vid 查询字符串]参数将[!UICONTROL 访客 ID] 传递到 Adobe。 |
+| 图像请求中的查询字符串参数 | 这允许您通过硬编 [!UICONTROL visitor ID] 码图像请 [!UICONTROL vid query string] 求中的参数将图像传递给Adobe。 |
 | 数据插入 API | 如果设备使用的无线协议不接受 JavaScript，则可以将包含 `<visitorid/>` XML 元素的 XML post 从您的服务器发送到 Adobe 收集服务器。 |
 | URL 重写和 VISTA | 部分部署架构支持使用 URL 重写，以便在无法设置 Cookie 的情况下保持会话状态。在此类情况下，Adobe 工程技术服务可以实施 [!DNL VISTA] 规则来查找页面 URL 中的会话值，然后设置其格式并置入 [!UICONTROL visid] 值。 |
 >[!CAUTION]
@@ -58,7 +58,7 @@ Adobe Analytics 提供了多种识别访客的机制。下表列出了在 Analyt
 
 有些浏览器（如 Apple Safari）不再存储来源域与当前网站所在域不匹配的 HTTP 头中设置的 Cookie（这是第三方上下文中使用的 Cookie 或第三方 Cookie）。例如，如果您在 `mysite.com` 上，您的数据收集服务器为 `mysite.omtrdc.net`，那么从 `mysite.omtrdc.net` 的 HTTP 标头中返回的 Cookie 可能会遭到浏览器的拒绝。
 
-为了避免这种情况，很多客户为其数据收集服务器实施了 CNAME 记录，以此作为[第一方 Cookie 实施](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/)的一部分。如果 CNAME 记录被配置为将客户域上的主机名映射至数据收集服务器（例如将 `metrics.mysite.com` 映射至 `mysite.omtrdc.net`），则会存储访客 ID Cookie，因为数据收集域现在与网站的域相匹配。这提高了访客 ID Cookie 被存储的概率，但也会增加一些开销，因为需要为数据收集服务器配置 CNAME 记录并维护 SSL 证书。
+为了避免这种情况，很多客户为其数据收集服务器实施了 CNAME 记录，以此作为[第一方 Cookie 实施](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/ec-cookies/cookies-first-party.html)的一部分。如果 CNAME 记录被配置为将客户域上的主机名映射至数据收集服务器（例如将 `metrics.mysite.com` 映射至 `mysite.omtrdc.net`），则会存储访客 ID Cookie，因为数据收集域现在与网站的域相匹配。这提高了访客 ID Cookie 被存储的概率，但也会增加一些开销，因为需要为数据收集服务器配置 CNAME 记录并维护 SSL 证书。
 
 ### 移动设备上的 Cookie {#section_7D05AE259E024F73A95C48BD1E419851}
 
@@ -66,9 +66,9 @@ Adobe Analytics 提供了多种识别访客的机制。下表列出了在 Analyt
 
 ## 标识服务
 
-Identity Service 取代了原有的 Analytics 访客 ID 机制，成为了[!UICONTROL 心率]视频测量、Analytics for Target 以及将来实现 Experience Cloud 核心服务与集成所必需的服务。
+The Identity Service replaces the legacy Analytics visitor ID mechanism, and is required by [!UICONTROL Heartbeat] video measurement, Analytics for Target, and future Experience Cloud core services and integrations.
 
-有关此服务的产品文档，请参阅 [Identity Service](https://marketing.adobe.com/resources/help/zh_CN/mcvid/)。
+有关此服务的产品文档，请参阅 [Identity Service](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)。
 
 ## 识别移动设备
 
@@ -76,7 +76,7 @@ Identity Service 取代了原有的 Analytics 访客 ID 机制，成为了[!UICO
 
 Adobe 已确立了一批可唯一识别大多数移动设备的 HTTP 订户 ID 头。这些头通常包含设备电话号码（或号码的哈希版本），或其他标识符。大部分的当前设备通常具有一个或多个可唯一识别设备的头，而所有的 Adobe 数据收集服务器都会自动使用这些头替代访客 ID。
 
-在典型的图像请求中，路径 (`/b/ss/rsid/1`) 中的“1”会使 Adobe 服务器返回 gif 图像，并尝试设置永久性[!UICONTROL 访客 ID] Cookie（`AMCV_` 或 `s_vi`）。但是，如果根据 HTTP 头，设备被识别为移动设备，则会传递“5”，而不是“1”，这指示应返回 wbmp 格式的图像，并且应使用我们识别的无线头列表（而不是 Cookie）来识别设备。
+In a typical image request, a &#39;1&#39; in the path ( `/b/ss/rsid/1`) causes Adobe servers to return a gif image and to attempt to set a persistent [!UICONTROL visitor ID] cookie ( `AMCV_` or `s_vi`). 但是，如果根据 HTTP 头，设备被识别为移动设备，则会传递“5”，而不是“1”，这指示应返回 wbmp 格式的图像，并且应使用我们识别的无线头列表（而不是 Cookie）来识别设备。
 
 下表根据路径中的返回图像类型值（“1”或“5”），列出了所用 ID 方法的顺序：
 
@@ -90,7 +90,7 @@ Adobe 已确立了一批可唯一识别大多数移动设备的 HTTP 订户 ID �
  <tbody> 
   <tr> 
    <td colname="col1"> <code> /1/</code> </td> 
-   <td colname="col2"> <p>默认值： </p> 
+   <td colname="col2"> <p>默认: </p> 
     <ul id="ul_E37E9919658A492C92187BAA18D33AB6"> 
      <li id="li_1A9E39C7CFB24C68AA07C8E85D33A858">自定义访客 ID </li> 
      <li id="li_0DC8D17828C848BEB614C6E47C090064">Cookie </li> 
