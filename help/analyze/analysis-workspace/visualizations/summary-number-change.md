@@ -3,7 +3,7 @@ description: 'null'
 title: 概要数字和概要更改
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -28,8 +28,8 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 * 如果选中了单元格范围，则会将范围内选定的第一个单元格与最后一个单元格进行比较。
 * 如果选中了列，会将第一个值与其自身进行比较，结果会显示变化为 0。
 * 可通过以下方式控制概要更改的绿色和红色：
-   * [自定义事件极性](https://marketing.adobe.com/resources/help/zh_CN/reference/success_event.html)。
-   * 计算量度的[将上升趋势显示为](https://marketing.adobe.com/resources/help/zh_CN/analytics/calcmetrics/cm_build_metrics.html)选项。
+   * [自定义事件极性](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/success-events/success-event.html)。
+   * 计算量度的[将上升趋势显示为](https://docs.adobe.com/content/help/zh-Hans/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)选项。
 
 ## 概要更改设置 {#section_2581AC0107634FB4990AB8347E5897AA}
 
