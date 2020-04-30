@@ -5,7 +5,7 @@ title: 常见问题解答
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -18,9 +18,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 * Analysis Workspace 中的分段：
 
-   * 您可以[比较区段](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/segment-comparison.html)。
-   * 在比较中使用[区段作为维度](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/segments_as_dimensions.html)。
-   * 在[流失分析](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/graphics/compare-segments-fallout.html)中使用区段。
+   * 您可以[比较区段](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)。
+   * 在比较中使用[区段作为维度](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/audiences/audience-library.html)。
+   * 在[流失分析](https://docs.adobe.com/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)中使用区段。
 
 * 您可以[将多个区段应用于一个报表或项目](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)。
 * 区段对于所有报表包都是通用的。
@@ -40,9 +40,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 您可以通过以下方法访问区段生成器：
 
-* 显示一个现有报表，然后单击左侧导航中的“区段”图标 ![](assets/segment_icon.png)。在显示的区段边栏中，单击&#x200B;**[!UICONTROL 添加]**，或者
+* 显示一个现有报表，然后单击左侧导航中的“区段”图标 ![](assets/segment_icon.png)。In the segment rail that displays, then click **[!UICONTROL Add]**, or
 
-* 单击区段管理器顶部的 **[!UICONTROL + 添加]**。![](assets/add_button.png)
+* At the top of the Segment Manager, clicking **[!UICONTROL + Add]**.  ![](assets/add_button.png)
 
    或
 
@@ -52,9 +52,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 访问区段管理器的方法如下：:
 
-* 在顶部导航中，转到 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]**。然后，单击&#x200B;**[!UICONTROL 区段]**，或者
+* Going to  **[!UICONTROL Analytics]** > **[!UICONTROL Components]** in the top navigation. 然后，单 **[!UICONTROL Segments]**&#x200B;击，或
 
-* 显示一个现有报表，然后单击左侧导航中的“区段”图标 ![](assets/segment_icon.png)。接下来，单击&#x200B;**[!UICONTROL 管理]**，或者
+* 显示一个现有报表，然后单击左侧导航中的“区段”图标 ![](assets/segment_icon.png)。然后，单 **[!UICONTROL Manage]**&#x200B;击，或
 
 * 在界面的任意位置按斜杠键“/”，并搜索区段管理器。
 
@@ -74,7 +74,7 @@ Reports &amp; Analytics 中的区段下拉菜单已被功能更加丰富的[区�
 
 **需要哪些权限才能使用、创建和管理区段？**
 
-默认情况下，所有用户都可以创建和编辑个人区段。但是，管理员可以决定哪些用户应拥有[创建区段的权限](https://marketing.adobe.com/resources/help/zh_CN/reference/groups.html)，然后将这些用户分配到特定的组。这些区段可以直接与任何其他 Analytics 用户共享。
+默认情况下，所有用户都可以创建和编辑个人区段。但是，管理员可以决定哪些用户应拥有[创建区段的权限](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/user-product-management/user-groups/groups.html)，然后将这些用户分配到特定的组。这些区段可以直接与任何其他 Analytics 用户共享。
 
 管理员可以编辑任何区段，并且可以与组织中的组和每个人共享区段。[更多...](/help/components/c-segmentation/seg-reference/seg-rights.md)
 
