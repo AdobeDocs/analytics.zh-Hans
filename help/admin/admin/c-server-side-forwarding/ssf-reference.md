@@ -3,7 +3,7 @@ description: 服务器端转发调用中的配置变量、HTTP 头和数据信�
 title: 服务器端转发数据和代码引用
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 配置变量 {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-带有 `d_*` 前缀的参数用于标识由我们的[数据收集服务器](https://marketing.adobe.com/resources/help/en_US/aam/c_compcollect.html) (DCS) 使用的系统级别特殊键值对。另请参阅 [DCS API 调用支持的属性](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html)。
+带有 `d_*` 前缀的参数用于标识由我们的[数据收集服务器](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS) 使用的系统级别特殊键值对。另请参阅 [DCS API 调用支持的属性](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)。
 
 | 参数 | 描述 |
 |--- |--- |
@@ -40,7 +40,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 客户定义的信号 {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-带有 `c_` 前缀的参数用于标识客户定义的变量。另请参阅 [DCS API 调用支持的属性](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html)。
+带有 `c_` 前缀的参数用于标识客户定义的变量。另请参阅 [DCS API 调用支持的属性](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)。
 
 | 信号 | 描述 |
 |--- |--- |
