@@ -3,7 +3,7 @@ description: 适用于 Analysis Workspace 和区段生成器。
 title: 具有 Experience Cloud ID 的访客
 uuid: 47ebd3d6-a921-4e51-ac7a-b8d5fb9565e0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -16,17 +16,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->要显示该量度，必须为报表包运行 [Identity Service](https://marketing.adobe.com/resources/help/zh_CN/mcvid/)。
+>要显示该量度，必须为报表包运行 [Identity Service](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)。
 
 ## 调试您的 Experience Cloud ID 设置 {#section_679E62142A3E46548FF8FBDA46568005}
 
-“[!UICONTROL 具有 Experience Cloud ID 的访客]”量度是 Adobe Analytics 中的一个有用量度，可帮助您查找并调试 [!UICONTROL Identity Service] 设置。该量度是报表包中对已从 Identity Service 分配 Experience Cloud ID 的访客的计数。该量度可用于诊断某些 Experience Cloud 集成为何没有被预期访客数共享，或用于识别您的网站上还没有部署 MCID 的区域。
+该 [!UICONTROL Visitors with Experience Cloud ID] 量度是Adobe Analytics中的一个有用量度，旨在帮助您查找和调试设 [!UICONTROL Identity Service]置。 该量度是报表包中对已从 Identity Service 分配 Experience Cloud ID 的访客的计数。该量度可用于诊断某些 Experience Cloud 集成为何没有被预期访客数共享，或用于识别您的网站上还没有部署 MCID 的区域。
 
-要使用“具有 Experience Cloud ID 的访客”量度，只需将它拖到任何报表中作为一个量度，例如“[!UICONTROL 页面]”报表：
+To use the Visitors with Experience Cloud ID metric, simply drag it in to any report as a metric, such as this [!UICONTROL Pages] report:
 
 ![](assets/metric-mcvid1.png)
 
-在该示例中，请注意每个页面的独特访客与具有 Experience Cloud ID 的访客数相同。但是，独特访客的总数大于具有 Experience Cloud ID 的访客总数。要查找没有为所有访客设置 MCID 的页面，请通过此定义[创建一个计算量度](https://marketing.adobe.com/resources/help/zh_CN/analytics/calcmetrics/cm_build_metrics.html)：
+在该示例中，请注意每个页面的独特访客与具有 Experience Cloud ID 的访客数相同。但是，独特访客的总数大于具有 Experience Cloud ID 的访客总数。要查找没有为所有访客设置 MCID 的页面，请通过此定义[创建一个计算量度](https://docs.adobe.com/content/help/zh-Hans/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)：
 
 ![](assets/metric-mcvid2.png)
 
@@ -38,7 +38,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 在识别了页面的访客没有 MCID 的情况后，您应当能够将该情况报告给实施团队，以便他们能够修复这些页面。
 
-在某些情况下，您可能发现有少量的 MCID 没有对某些访客进行设置，即使 MCID 服务已在该页面上实施时也是如此。在这些情况下，此问题极有可能是因 Analytics JavaScript 或 DTM 的常见错误配置导致 AppMeasurement 函数在提供报表包之前被调用所致。要避免此问题，请确保正确地[插入核心 AppMeasurement 代码](https://marketing.adobe.com/resources/help/en_US/sc/implement/dtm/t_appmeasurement-code.html)。
+在某些情况下，您可能发现有少量的 MCID 没有对某些访客进行设置，即使 MCID 服务已在该页面上实施时也是如此。在这些情况下，此问题极有可能是因 Analytics JavaScript 或 DTM 的常见错误配置导致 AppMeasurement 函数在提供报表包之前被调用所致。要避免此问题，请确保正确地[插入核心 AppMeasurement 代码](https://docs.adobe.com/content/help/en/analytics/implementation/other/dtm/analytics-tool/t-appmeasurement-code.html)。
 
 请注意，您与 Experience Cloud 共享的任何基于“产品快速视图”页面的区段（如上所示），有可能与其他 Experience Cloud 解决方案并不匹配。要检查任何区段的 MCID 覆盖情况，您可以构建如下报表：
 
