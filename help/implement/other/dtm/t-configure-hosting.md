@@ -5,18 +5,18 @@ title: 配置托管选项
 topic: Developer and implementation
 uuid: 04268f2d-e76f-4fe4-8fcc-f0db3a016502
 translation-type: tm+mt
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # 配置托管选项
 
-您可以使用一个或多个可用托管选项来部署 [!UICONTROL Dynamic Tag Management]。
+You can deploy [!UICONTROL Dynamic Tag Management] using one or more of the available hosting options.
 
-[!UICONTROL 动态标签管理提供了多个用于托管所需 JavaScript 文件的选项。]
+[!UICONTROL Dynamic Tag Management] 提供许多用于托管所需JavaScript文件的选项。
 
-有关托管的详细信息，请参阅“动态标签管理产品文档”中的[嵌入代码和托管选项](https://marketing.adobe.com/resources/help/zh_CN/dtm/deployment.html)。
+For detailed information about hosting, see [Embed Code and Hosting Options](https://docs.adobe.com/content/help/zh-Hans/dtm/using/client-side/client-side-information.html) in the [!UICONTROL Dynamic Tag Management] Product Documentation.
 
 在“嵌入”选项卡中，选择一个托管选项。
 
@@ -31,7 +31,7 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Akamai </p> </td> 
-   <td colname="col2"> <p> 最便于实施的托管选项。 </p> <p>全局分布式提交网络。 </p> <p>添加其他第三方基础环境依赖关系（DNS 查找、Akamai 可用性）。 </p> <p>有关更多详细信息，请参阅“动态标签管理产品文档”中的 <a href="https://marketing.adobe.com/resources/help/zh_CN/dtm/akamai.html">Akamai</a>。 </p> </td> 
+   <td colname="col2"> <p> 最便于实施的托管选项。 </p> <p>全局分布式提交网络。 </p> <p>添加其他第三方基础环境依赖关系（DNS 查找、Akamai 可用性）。 </p> <p>有关更多详细信息，请参阅“动态标签管理产品文档”中的 <a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/deployment.html#concept_722B01555D0441ACBB052BC34DC5B67D">Akamai</a>。 </p> </td> 
    <td colname="col3"> 
     <ol id="ol_EF148EF091A645B3962B084963B3C0B0"> 
      <li id="li_7ECE0C331EEE4907A563D581DF1DFEFE">动态标签管理生成自定义 JavaScript 库。 </li> 
@@ -41,7 +41,7 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
   </tr> 
   <tr> 
    <td colname="col1"> 自托管：FTP 交付 </td> 
-   <td colname="col2"> <p>一种<span class="term">推送</span>方法，Dynamic Tag Management 可凭借此方法将自定义 JavaScript 库经由 FTP 协议直接导出至 Web 内容服务器主机。 </p> <p>此解决方案要求 Web 内容服务器上有可用的 FTP 服务器和凭据，以便将更改发布到自定义动态标签管理库。 </p> <p>有关更多详细信息，请参阅“动态标签管理产品文档”中的 <a href="https://marketing.adobe.com/resources/help/zh_CN/dtm/deployment_ftp.html">FTP</a>。 </p> </td> 
+   <td colname="col2"> <p>一种<span class="term">推送</span>方法，Dynamic Tag Management 可凭借此方法将自定义 JavaScript 库经由 FTP 协议直接导出至 Web 内容服务器主机。 </p> <p>此解决方案要求 Web 内容服务器上有可用的 FTP 服务器和凭据，以便将更改发布到自定义动态标签管理库。 </p> <p>有关更多详细信息，请参阅“动态标签管理产品文档”中的 <a href="https://docs.adobe.com/help/en/dtm/using/client-side/deployment.html#task_A7B37CB2C89941A4A4D1F9AF06FC493D">FTP</a>。 </p> </td> 
    <td colname="col3"> 
     <ol id="ol_60348F9C991D4F2B9457006B0F98C834"> 
      <li id="li_24A141C3C7074BF9897C022A22CAE78C">动态标签管理生成自定义 JavaScript 库。 </li> 
@@ -51,7 +51,7 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
   </tr> 
   <tr> 
    <td colname="col1"> 自托管：库下载 </td> 
-   <td colname="col2"> <p>一种<span class="term">提取</span>方法，应用程序可使用此方法导出自定义 JavaScript 库。<!-- to Amazon S3-->这样，这些库就可以由托管的服务器端进程进行访问。 </p> <p>另外，这些库可通过 Web 下载直接从动态标签管理界面获取。 </p> <p>此解决方案要求手动检索并发布动态标签管理库，或者创建一个可将库从 Akamai 提取到 Web 内容服务器的自动化进程。 </p> <p>此方法在设置上最耗时，但也是最安全灵活的选项。 </p> <p>要检查引用的是否是库文件的最新版本，请使用相应命令 </p> <p>有关更多详细信息，请参阅“动态标签管理产品文档”中的<a href="https://marketing.adobe.com/resources/help/zh_CN/dtm/deployment_download.html">库下载</a>。 </p> </td> 
+   <td colname="col2"> <p>一种<span class="term">提取</span>方法，应用程序可使用此方法导出自定义 JavaScript 库。<!-- to Amazon S3-->这样，这些库就可以由托管的服务器端进程进行访问。 </p> <p>另外，这些库可通过 Web 下载直接从动态标签管理界面获取。 </p> <p>此解决方案要求手动检索并发布动态标签管理库，或者创建一个可将库从 Akamai 提取到 Web 内容服务器的自动化进程。 </p> <p>此方法在设置上最耗时，但也是最安全灵活的选项。 </p> <p>要检查引用的是否是库文件的最新版本，请使用相应命令 </p> <p>有关更多详细信息，请参阅“动态标签管理产品文档”中的<a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/deployment.html#task_B7A42F3B1D3E4B71B0BADD17C181F22A">库下载</a>。 </p> </td> 
    <td colname="col3"> 
     <ol id="ol_F40B721306FE473496BD657262DFD585"> 
      <li id="li_4EA4D6B555CE4E9CA476C7550C18C061">动态标签管理生成自定义 JavaScript 库。 </li> 
