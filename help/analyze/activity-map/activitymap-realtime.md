@@ -3,7 +3,7 @@ description: 实时页面分析（实时模式）允许您实时获取带有分�
 title: 实时页面分析（实时模式）
 topic: Activity map
 translation-type: tm+mt
-source-git-commit: 713a73a1d57d93c579e0da58e464cecab3f9d773
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -26,7 +26,7 @@ Describe what you can do with the feature: - what is the data shown? why do I se
 
 如果要检查哪个元素在“实时模式”中大多被单击：
 
-1. 在工具栏的“实时模式”趋 **[!UICONTROL 势行上]** ，选择要分析的时间段。
+1. 在工具栏的趋势行上选择 **[!UICONTROL Live Mode]** 要分析的时间段。
 1. 单击工具栏中的“眼睛”图标以访问链接报表表。
 1. 通过链接对表进行排序。
 
@@ -39,6 +39,6 @@ After the [A4T integration](https://docs.adobe.com/content/help/zh-Hans/target/u
 * 对于实时流、实时报表和 API 请求，以及流量变量的当前数据，仅包含额外数据 ID 的点击会发生延迟。
 * 对于转化量度的当前数据、最终数据和数据馈送，所有的点击都会额外延迟 5 至 7 分钟的时间。
 
-请注意，实施 [Identity 服务](https://marketing.adobe.com/resources/help/zh_CN/mcvid/)之后，即使您还未完全实施 A4T 集成，滞后的时间也会开始增加。
+请注意，实施 [Identity 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)之后，即使您还未完全实施 A4T 集成，滞后的时间也会开始增加。
 
 此处了解更 [多信息](/help/analyze/activity-map/activitymap-standard-live.md)。
