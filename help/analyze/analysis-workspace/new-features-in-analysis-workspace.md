@@ -5,7 +5,7 @@ title: Analysis Workspace 中的新增功能
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -169,7 +169,7 @@ source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>新模板：音频使用情况</b> </p> </td> 
-   <td colname="col2"> <p>请参阅 <a href="https://marketing.adobe.com/resources/help/zh_CN/sc/appmeasurement/hbvideo/media-workspace-templates.html"  >Analytics 音频</a>。 </p> </td> 
+   <td colname="col2"> <p>请参阅 <a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-workspace-templates.html"  >Analytics 音频</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -468,7 +468,7 @@ source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
    <td colname="col2"> <p>以前，当您复制某个项目或执行“另存为”时，保存在该项目中的所有内部链接均指向原始项目，而不是复制后的项目。 </p> <p>现在，执行“复制”或“另存为”操作后，内部链接都是一些相对于其所在项目的链接。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>贡献分析：<a href="https://marketing.adobe.com/resources/help/zh_CN/analytics/contribution/ca_main.html"  >令牌通知 </a> </p> </td> 
+   <td colname="col1"> <p>贡献分析：<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  >令牌通知 </a> </p> </td> 
    <td colname="col2"> <p>如果贵公司的贡献分析令牌数量有限，则您每次用掉一个令牌后 Analysis Workspace UI 中会显示相关通知。这可以让您知晓还剩下多少令牌。&amp;nbsp; </p> <p>（管理员用户：您可以通过编辑群组权限，对能够使用令牌的人员进行限制。此权限称为“异常检测和贡献分析”，位于 <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">编辑群组</span> &gt; <span class="uicontrol">编辑所有报表访问权限</span> &gt; <span class="uicontrol">自定义报表包工具</span> &gt; <span class="uicontrol">工具和报表</span>下。） </p> </td> 
   </tr> 
   <tr> 
@@ -803,7 +803,7 @@ source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  >“人员”模板</a> </p> </td> 
-   <td colname="col2"> <p>注意：“人员”模板及其关联的“人员”量度只能在 <a href="https://marketing.adobe.com/resources/help/zh_CN/mcdc/mcdc-people.html"  >Adobe Experience Cloud 设备协作</a>中使用。 </p> <p>该模板基于“人员”量度，“人员”量度是删除了重复数据的独特访客量度版本。通过“人员”量度可测量客户使用多个设备与您的品牌进行交互的频率。 </p> </td> 
+   <td colname="col2"> <p>注意：“人员”模板及其关联的“人员”量度只能在 <a href="https://docs.adobe.com/content/help/en/device-co-op/using/data/people.html"  >Adobe Experience Cloud 设备协作</a>中使用。 </p> <p>该模板基于“人员”量度，“人员”量度是删除了重复数据的独特访客量度版本。通过“人员”量度可测量客户使用多个设备与您的品牌进行交互的频率。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>“撤消/重做”选项的改进 </p> </td> 
@@ -973,7 +973,7 @@ source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
 
 2016 年 6 月 16 日发布的新功能：
 
-* [允许管理员](https://marketing.adobe.com/resources/help/zh_CN/reference/groups.html) “允许”或“拒绝”用户访问“ **[!UICONTROL Analytics]** >”选 **[!UICONTROL Workspace]** 项卡的新组权限。 自 2016 年 6 月 16 日开始，所有用户都将拥有访问此选项卡的权限。要拒绝访问，只需要从“Analysis Workspace 访问”组中删除用户即可。
+* [允许管理员](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/user-product-management/user-groups/groups.html) “允许”或“拒绝”用户访问“ **[!UICONTROL Analytics]** >”选 **[!UICONTROL Workspace]** 项卡的新组权限。 自 2016 年 6 月 16 日开始，所有用户都将拥有访问此选项卡的权限。要拒绝访问，只需要从“Analysis Workspace 访问”组中删除用户即可。
 * The[区段比较面板](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)通过自动分析您有权访问的每个量度和维度，可发现任意两个区段之间的最显著统计学差异。
 * [新的项目菜单结构](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)重新排列了顶部菜单，提高了其可扩展性。例如，创建&#x200B;**新同类群组面板**&#x200B;的过程现在包括创建一个空白面板和拖入一个同类群组表可视化。
 * [新的左边栏](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：面板、可视化、组件
