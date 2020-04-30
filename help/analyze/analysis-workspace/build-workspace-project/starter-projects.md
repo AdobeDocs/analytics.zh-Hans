@@ -3,7 +3,7 @@ description: 'null'
 title: 模板
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: cfe9f2221edab5fa1da9711982bd5bd65de1c0fd
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -110,7 +110,7 @@ source-git-commit: cfe9f2221edab5fa1da9711982bd5bd65de1c0fd
 
 ### 人员
 
->[!NOTE]“人员”模板及其关联的“人员”量度只能在 [Adobe Experience Cloud 设备协作](https://marketing.adobe.com/resources/help/zh_CN/mcdc/mcdc-people.html)中使用。
+>[!NOTE]“人员”模板及其关联的“人员”量度只能在 [Adobe Experience Cloud 设备协作](https://docs.adobe.com/content/help/en/device-co-op/using/data/people.html)中使用。
 
 此模板基于“人员”量度，它是“唯一访客”量度的消除重复版本。 通过“人员”量度可测量客户使用多个设备与您的品牌进行交互的频率。该模板允许您
 
