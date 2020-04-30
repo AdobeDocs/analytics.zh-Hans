@@ -5,7 +5,7 @@ title: 访问
 topic: Metrics
 uuid: 91317487-f116-4546-8cd2-421418c49a7a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -34,9 +34,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 当某访问结束时，与该访问到期有关的所有变量都将过期，并且不再持续存在。访问量量度将在该访客的下次访问时递增。
 
->[!NOTE] 如果您将 Analytics 用作 Adobe Target 的报表源，请参阅 [ 文档中的](https://marketing.adobe.com/resources/help/zh_CN/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html)在 A4T 中最大限度地减少夸大的访问和访客计数[!DNL Target]。
+>[!NOTE] 如果您将 Analytics 用作 Adobe Target 的报表源，请参阅 [ 文档中的](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/troubleshoot-a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html)在 A4T 中最大限度地减少夸大的访问和访客计数[!DNL Target]。
 
-有关详细信息，请参阅《Adobe Analytics 实施指南》中的[识别独特访客](https://marketing.adobe.com/resources/help/zh_CN/sc/implement/visid_overview.html)。
+有关详细信息，请参阅《Adobe Analytics 实施指南》中的[识别独特访客](https://docs.adobe.com/content/help/zh-Hans/analytics/technotes/visitor-identification.html)。
 
 **时段**
 
