@@ -2,7 +2,7 @@
 title: 设置广告帐户
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,14 +15,14 @@ Adobe Analytics 管理员可以创建新的广告帐户，并将多个帐户映�
 
 ![](assets/aa_accounts.png)
 
-1. 在 Adobe Analytics 中，导航到&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 广告帐户]**。
+1. 在Adobe Analytics中，导航到 **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]**。
 1. （仅限首次使用）接受最终用户许可协议的条款。
-1. 单击 **[!UICONTROL + 添加]**。
-1. 显示[!UICONTROL 新搜索引擎帐户]对话框：
+1. 单击 **[!UICONTROL + Add]**.
+1. 此时 [!UICONTROL New Search Engine Account] 将显示对话框：
 
    ![](assets/aa_new_se_account.png)
 
-1. 按照以下说明填写&#x200B;**[!UICONTROL 搜索引擎设置]**：
+1. 请填写以 **[!UICONTROL Search Engine Settings]** 下准则：
 
    <table id="table_B3BE66B7D4C54766B8FFD2C6DCD657AF"> 
     <thead> 
@@ -54,7 +54,7 @@ Adobe Analytics 管理员可以创建新的广告帐户，并将多个帐户映�
     </tbody> 
     </table>
 
-1. 在&#x200B;**[!UICONTROL 跟踪]**&#x200B;部分中，您提供的是有关您的 Adobe Analytics 实施如何对搜索引擎数据进行跟踪的信息。这是向 Adobe Analytics 数据适当增加搜索引擎数据的必要步骤。按照以下说明填写&#x200B;**[!UICONTROL 跟踪设置]**：
+1. In the **[!UICONTROL Tracking]** section, you provide information on how the Search Engine data is tracked by your Adobe Analytics implementation. 这是向 Adobe Analytics 数据适当增加搜索引擎数据的必要步骤。请填写以 **[!UICONTROL Tracking Settings]** 下准则：
 
    <table id="table_1AB4E31456E84ABF8209B02058259C4D"> 
     <thead> 
@@ -79,13 +79,13 @@ Adobe Analytics 管理员可以创建新的广告帐户，并将多个帐户映�
     </tbody> 
     </table>
 
-1. 在&#x200B;**[!UICONTROL 映射]**&#x200B;部分，您可以选择链接到此搜索引擎帐户的报表包。您必须先提供至少一个报表包，然后才能保存广告帐户。您可以将多个帐户映射到多个报表包（一对一、一对多、多对多）。请注意，AMO 从搜索引擎提取的数据只是简单地复制到所有映射的报表包中，因此不会出现拆分数据的情况。
+1. In the **[!UICONTROL Mapping]** section, you choose which report suite(s) to link to this search engine account. 您必须先提供至少一个报表包，然后才能保存广告帐户。您可以将多个帐户映射到多个报表包（一对一、一对多、多对多）。请注意，AMO 从搜索引擎提取的数据只是简单地复制到所有映射的报表包中，因此不会出现拆分数据的情况。
 
    >[!IMPORTANT]
    >
-   >只有已经[映射到 Experience Cloud 组织](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html)的报表包才可供选择。如果在列出的报表包中未看到您的报表包，请参阅 [Advertising Analytics 疑难解答](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)。
+   >只有已经[映射到 Experience Cloud 组织](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/about-core-services/report-suite-mapping.html)的报表包才可供选择。如果在列出的报表包中未看到您的报表包，请参阅 [Advertising Analytics 疑难解答](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)。
 
-   对于&#x200B;**[!UICONTROL 映射设置]**，请遵循以下说明：
+   根据以 **[!UICONTROL Mapping Settings]** 下准则：
 
    <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
     <thead> 
@@ -97,13 +97,13 @@ Adobe Analytics 管理员可以创建新的广告帐户，并将多个帐户映�
     <tbody> 
       <tr> 
       <td colname="col1"> <p>报表包 映射 </p> </td> 
-      <td colname="col2"> <p>报表包映射可确定链接到此搜索引擎帐户的报表包。换句话说，它可确定搜索引擎数据会发送到哪些报表包。 </p> <p>如果在列出的报表包中未看到您的报表包，则可使用此工具<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  >将您的报表包映射到 Experience Cloud 组织</a>。 </p> </td> 
+      <td colname="col2"> <p>报表包映射可确定链接到此搜索引擎帐户的报表包。换句话说，它可确定搜索引擎数据会发送到哪些报表包。 </p> <p>如果在列出的报表包中未看到您的报表包，则可使用此工具<a href="https://docs.adobe.com/content/help/zh-Hans/core-services/interface/about-core-services/report-suite-mapping.html"  >将您的报表包映射到 Experience Cloud 组织</a>。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
 
-1. 单击&#x200B;**[!UICONTROL 保存]**。
-1. 保存之后，会显示免责声明列出一系列注意事项。您需要确认您已经阅读并理解这份协议。单击复选框，然后单击&#x200B;**[!UICONTROL 确定]**。
+1. 单击 **[!UICONTROL Save]**.
+1. 保存之后，会显示免责声明列出一系列注意事项。您需要确认您已经阅读并理解这份协议。Click the checkbox, then click **[!UICONTROL OK]**.
 
    现在，您会进入广告帐户[管理 UI](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)，您新创建的帐户应已列于此处。
 
