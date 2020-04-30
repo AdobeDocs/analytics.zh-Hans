@@ -3,7 +3,7 @@ description: 部署集成后，您可以开始使用此集成提供的其他功�
 title: 使用集成
 uuid: 5e861274-4d81-4ee0-b84e-ab83bc1c1331
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -32,6 +32,6 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 受众等于 SMB。
 
-有关如何构建区段的更多信息，请参阅 [Analytics 分段指南](https://marketing.adobe.com/resources/help/zh_CN/analytics/segment/)。
+有关如何构建区段的更多信息，请参阅 [Analytics 分段指南](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/seg-home.html)。
 
 然后，可将此区段应用于几乎任何报表 - 例如，此处显示的“每次访问逗留时间”报表：![](assets/segment_applied_report.png)
