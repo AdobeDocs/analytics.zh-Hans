@@ -3,7 +3,7 @@ description: Report Builder 5.2 支持 Adobe Analytics 统一的计算量度。�
 title: 计算量度
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 translation-type: tm+mt
-source-git-commit: 96ddfa863fae6044131e27a6d1cddd62d50223eb
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -14,7 +14,7 @@ Report Builder 5.2 支持 Adobe Analytics 统一的计算量度。作为诸多�
 
 >[!NOTE] 现有的工作簿可能会指向包含旧量度 ID 的请求。在使用 Report Builder 5.2 时，这些旧量度 ID 将会被转换为新的全局 ID。如果将该工作簿共享给 Report Builder v5.1 或早期版本的用户，则该用户将看不到计算量度。
 
-如需更加详细地了解如何使用新版计算量度生成器和管理器来创建并管理计算量度，请参阅[计算量度指南](https://marketing.adobe.com/resources/help/zh_CN/analytics/calcmetrics)。
+如需更加详细地了解如何使用新版计算量度生成器和管理器来创建并管理计算量度，请参阅[计算量度指南](https://docs.adobe.com/content/help/zh-Hans/analytics/components/calculated-metrics/cm-overview.html)。
 
 在“请求向导”的第 2 步，可以过滤并应用计算量度。
 
