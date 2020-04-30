@@ -3,7 +3,7 @@ description: 本文档将介绍您需要在 Adobe Analytics 中执行什么操�
 title: Adobe Analytics 和 CCPA
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -37,8 +37,8 @@ Adobe 认识到您最熟悉您的报表包中的自定义数据，因此我们�
 ## 先决条件
 
 * 熟悉 [GDPR 术语。](/help/admin/c-data-governance/gdpr-terminology.md)
-* 将您的登录公司关联到 Experience Cloud 组织（如果尚未关联）。请联系 Adobe 客户关怀团队并参阅[组织和帐户关联。](https://marketing.adobe.com/resources/help/zh_CN/mcloud/organizations.html)
-* 将您要设置进行数据管理的任何 Adobe Analytics 报表包映射到[您的 Experience Cloud 组织。](https://marketing.adobe.com/resources/help/zh_CN/mcloud/report-suite-mapping.html)
+* 将您的登录公司关联到 Experience Cloud 组织（如果尚未关联）。请联系 Adobe 客户关怀团队并参阅[组织和帐户关联。](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/organizations.html)
+* 将您要设置进行数据管理的任何 Adobe Analytics 报表包映射到[您的 Experience Cloud 组织。](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/about-core-services/report-suite-mapping.html)
 * 为每个报表包设置一项数据保留策略，以便能够处理 CCPA 删除和访问请求。
 
    如果未在 Adobe Analytics 中设置数据保留期限，Adobe Analytics 将无法协助您处理隐私服务 API 请求，例如，处理您从最终用户那里收到的访问请求或删除请求。请联系您的客户成功经理以便设置数据保留期限。
