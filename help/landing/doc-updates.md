@@ -3,7 +3,7 @@ title: Adobe Analytics 技术文档更新
 description: 对Adobe Analytics文档存储库的显着更新。
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 2aca0e5820b3301cd52e43a528ba1e2d9eed8e83
 
 ---
 
@@ -20,6 +20,7 @@ source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 | 页面 | 描述 |
 |---|---|
+| 2020 年 2 月 27 日 | 添加了 [Adobe Analytics实验室的文档](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/tech-previews/overview.html)。 |
 | 2020 年 2 月 25 日 | 添加了 [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) 变量。 |
 | 2020 年 2 月 18 日 | 添加了 [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) 变量。 |
 | 2020 年 2 月 12 日 | 营销渠道文档的更新 [和重组](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) 。 |
