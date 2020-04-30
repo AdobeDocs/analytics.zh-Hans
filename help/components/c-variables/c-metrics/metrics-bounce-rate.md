@@ -4,7 +4,7 @@ title: 跳出率
 topic: Metrics
 uuid: 9a5aba33-c16a-47db-b8d3-f66be6eb65be
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,4 +21,4 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!NOTE] 现有实施有时可能包含与 Analytics 默认量度不同的计算量度。检查该计算量度定义，以确保它们之间没有区别。
 
-请参阅此[知识库文章](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-analytics-comparing-bounces-and-single-access)，以了解更多详细信息。
+请参阅此[知识库文章](https://helpx.adobe.com/analytics/kb/comparing-bounces-and-single-access.html)，以了解更多详细信息。
