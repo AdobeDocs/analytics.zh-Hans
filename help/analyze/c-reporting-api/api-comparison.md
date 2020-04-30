@@ -3,7 +3,7 @@ description: Analytics 报表 API 的比较表。提供了支持文档的链接�
 title: Analytics 报表 API 比较
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -33,7 +33,7 @@ Analytics 报表 API 的比较表。提供了支持文档的链接。
    <td colname="col5"> 用于提取大型数据导出的完全处理的完成数据。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/whitepapers/analytics-data-availability.pdf"  > 延迟</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/en/analytics/technotes/latency.html"  > 延迟</a> </p> </td> 
    <td colname="col2"> 30-90 分钟 </td> 
    <td colname="col3"> * 数秒 - 10 分钟 </td> 
    <td colname="col4"> 数秒 - 10 分钟 </td> 
@@ -47,7 +47,7 @@ Analytics 报表 API 的比较表。提供了支持文档的链接。
    <td colname="col5"> 完全 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/zh_CN/reference/"  > 报表接口</a> </td> 
+   <td colname="col1"> <a href="https://docs.adobe.com/content/help/zh-Hans/analytics/landing/home.html"  > 报表接口</a> </td> 
    <td colname="col2"> Reports &amp; Analytics、Report Builder、API </td> 
    <td colname="col3"> Reports &amp; Analytics 中的实时报表、Report Builder、API </td> 
    <td colname="col4"> 仅限 API </td> 
@@ -86,7 +86,7 @@ Analytics 报表 API 的比较表。提供了支持文档的链接。
    <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B"  > Web 服务</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time"  > 实时报表</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B"  > 实时流概述</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/zh_CN/reference/data_warehouse.html"  > Data Warehouse</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/zh-Hans/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
