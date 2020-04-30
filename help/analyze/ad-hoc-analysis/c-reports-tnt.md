@@ -4,7 +4,7 @@ title: Adobe Target
 topic: Ad hoc analysis
 uuid: 420da093-9d0d-454e-a193-e0595f36d3b1
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -25,4 +25,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 借助 Reports &amp; Analytics 中的数据，您可以使用划分深入研究 Target 方法，并检测出哪些区段效果显著，适合将来的测试及可能的针对性促销活动。Reports &amp; Analytics 报表显示转化数据，而不是 Target 的转化数据。
 
-有关详细信息，请参阅 [Adobe Target](https://marketing.adobe.com/resources/help/zh_CN/target/) 帮助系统。
+有关详细信息，请参阅 [Adobe Target](https://docs.adobe.com/content/help/zh-Hans/target/using/target-home.html) 帮助系统。
