@@ -4,7 +4,7 @@ solution: Experience Cloud,Analytics
 title: 客户属性
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -13,22 +13,22 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 有关客户属性以及如何运行客户属性报表的 Analytics 常见问题解答。
 
-**[!UICONTROL 报表]** > **[!UICONTROL 访客资料]** > **[!UICONTROL 客户属性]**
+**[!UICONTROL Reports]** **[!UICONTROL > Visitor Profile]** > **[!UICONTROL Customer Attributes]**
 
 如果您在客户关系管理 (CRM) 数据库中捕获到企业客户数据，则可以将该数据上传到 Experience Cloud 中的客户属性数据源。上载数据之后，即可在 Reports &amp; Analytics 中运行“客户属性”报表。
 
 * [Analytics 中的客户属性和报表量度](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_EF343662146B460A882D3DF772ADD86D)
 * [常见问题解答 - Analytics 中的客户属性](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_E29641D1F3D649C1AC9EA5231921F038)
 
-请参阅 Experience Cloud 帮助中的[客户属性](https://marketing.adobe.com/resources/help/zh_CN/mcloud/attributes.html)，以了解有关上载客户属性数据的信息。
+请参阅 Experience Cloud 帮助中的[客户属性](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/customer-attributes/attributes.html)，以了解有关上载客户属性数据的信息。
 
 ## Analytics 中的客户属性和报表量度 {#section_EF343662146B460A882D3DF772ADD86D}
 
-在您上传客户属性并（在 Experience Cloud 中）验证架构后，系统会根据映射到属性字符串和整数的友好名称（例如 *`age`* 或 *`gender`*）创建量度。这些量度显示在&#x200B;**[!UICONTROL 访客资料]** > **[!UICONTROL 客户属性]**&#x200B;报表中。
+在您上传客户属性并（在 Experience Cloud 中）验证架构后，系统会根据映射到属性字符串和整数的友好名称（例如 *`age`* 或 *`gender`*）创建量度。这些指标显示在 **[!UICONTROL Visitor Profile]** >报 **[!UICONTROL Customer Attributes]** 告中。
 
 例如：
 
-**[!UICONTROL 访客资料]** > **[!UICONTROL 客户属性]** > **[!UICONTROL 年龄]**
+**[!UICONTROL Visitor Profile]** > **[!UICONTROL Customer Attributes]** > **[!UICONTROL Age]**
 
 ![](assets/report_age.png)
 
@@ -40,7 +40,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 年龄量度：可添加到报表的量度，如独特访客报表。
 * 年龄计数量度：可让您了解（例如）访客是否在表单中指定了 *`age`* 值。
 
-由于量度是报表中的总和，您应当[创建一个计算量度](https://marketing.adobe.com/resources/help/zh_CN/analytics/calcmetrics/)，用于表示平均年龄。此量度的公式为 `Age / Count of Age`。
+由于量度是报表中的总和，您应当[创建一个计算量度](https://docs.adobe.com/content/help/zh-Hans/analytics/components/calculated-metrics/cm-overview.html)，用于表示平均年龄。此量度的公式为 `Age / Count of Age`。
 
 ## 常见问题解答 - Analytics 中的客户属性 {#section_E29641D1F3D649C1AC9EA5231921F038}
 
