@@ -5,7 +5,7 @@ title: FTP 导入
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 描述如何通过 FTP 上载数据文件的步骤。
 
-**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
+**[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 
 以下建议的限制很重要：
 
@@ -49,9 +49,9 @@ t_upload_a_saint_data_file_via_ftp.xml
 
 有关创建 FTP 帐户的更多信息，请参阅[创建 FTP 帐户](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)。
 
-1. 单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
-1. 单击&#x200B;**[!UICONTROL 导入文件]**，然后单击 **[!UICONTROL FTP 导入]**。
-1. 在要使用的 FTP 帐户旁边，单击&#x200B;**[!UICONTROL 查看]**。
+1. 单击 **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
+1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.
+1. Next to the FTP account that you want to use, click **[!UICONTROL View]**.
 1. 使用 FTP 访问信息（主机、登录名、密码），通过您选择的 FTP 客户端访问 FTP 服务器。
 1. 将数据文件（[!DNL .tab] 或 [!DNL .txt]）上载到 FTP 服务器。
 1. 上载数据文件之后，再上载指示可以处理文件的 FIN 文件。
@@ -70,11 +70,11 @@ t_create_an_ftp_account.xml
 
  -->
 
-有关 Adobe FTP 服务器的其他详细信息，请参阅 [FTP 和 sFTP](https://marketing.adobe.com/resources/help/zh_CN/whitepapers/ftp/)。
+有关 Adobe FTP 服务器的其他详细信息，请参阅 [FTP 和 sFTP](https://docs.adobe.com/content/help/en/analytics/export/ftp-and-sftp/ftp-overview.html)。
 
-1. 单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
-1. 单击&#x200B;**[!UICONTROL 导入文件]**，然后单击 **[!UICONTROL FTP 导入]**。
-1. 在&#x200B;**[!UICONTROL 导入文件]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL 新增]**。
+1. 单击 **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
+1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.
+1. 在选项卡 **[!UICONTROL Import File]** 上，单击 **[!UICONTROL Add New]**。
 1. 指定 FTP 帐户详细信息：
 
    | 元素 | 描述 |
@@ -87,6 +87,6 @@ t_create_an_ftp_account.xml
    | 通知收件人 | 指定电子邮件地址来接收有关此 FTP 帐户的通知。 |
    | 授权 | （必需）授权 Adobe 自动导入发送到新 FTP 帐户的所有数据文件。 |
 
-1. 单击&#x200B;**[!UICONTROL 保存]**。
+1. 单击 **[!UICONTROL Save]**.
 
 创建之后，您可以通过单击所需的 FTP 帐户旁边的相应链接来编辑或删除 FTP 帐户。
