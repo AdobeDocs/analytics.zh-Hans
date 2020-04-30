@@ -5,7 +5,7 @@ title: 访客迁移
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 通过访客迁移可以在更改数据收集域时保留访客识别 Cookie。数据收集域可能由于以下原因发生更改：
 
-* 从 `2o7.net` 转移到 `omtrdc.net`（[区域数据收集](https://marketing.adobe.com/resources/help/zh_CN/whitepapers/rdc/)）。
+* 从 `2o7.net` 转移到 `omtrdc.net`（[区域数据收集](hhttps://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)）。
 
-* 您将要实施 [Experience Cloud 访客 ID 服务](https://marketing.adobe.com/resources/help/zh_CN/mcvid/)并从 CNAME/第一方数据收集域转移到 `2o7.net` 或 `omtrdc.net`（[区域数据收集](https://marketing.adobe.com/resources/help/zh_CN/whitepapers/rdc/)）。
+* 您将要实施 [Experience Cloud 访客 ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)并从 CNAME/第一方数据收集域转移到 `2o7.net` 或 `omtrdc.net`（[区域数据收集](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)）。
 
-* 从 `2o7.net` 或 `omtrdc.net` 转移到 CNAME/第一方数据收集（[第一方 Cookie](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/)）。
+* 从 `2o7.net` 或 `omtrdc.net` 转移到 CNAME/第一方数据收集（[第一方 Cookie](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/ec-cookies/cookies-first-party.html)）。
 
 * 在 CNAME 之间转移（更改域）。
 
