@@ -3,7 +3,7 @@ description: 'null'
 title: 运行贡献分析
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -35,9 +35,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    * 显示当天&#x200B;**访问**&#x200B;次数的可视化。
    * 用于上下文的每月&#x200B;**访问趋势线**。
-   * 导致此异常的&#x200B;**排名最前的项目**（按[贡献得分](https://marketing.adobe.com/resources/help/zh_CN/analytics/contribution/ca_contribution_score.html)排序），以及相关量度和一个独特访客量度（用来对量度进行分级）。
+   * 导致此异常的&#x200B;**排名最前的项目**（按[贡献得分](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html)排序），以及相关量度和一个独特访客量度（用来对量度进行分级）。
 
-   * [生成的区段](https://marketing.adobe.com/resources/help/zh_CN/analytics/contribution/ca_workflow_premium.html)（排名最前的项目集群）表根据贡献得分、异常发生次数和对异常量度做出贡献的整体百分比，识别排名最前的项目间的关联。然后，将这种关联捕获为受众区段（贡献区段 1、贡献区段 2，等等）。单击“i”（信息）按钮将显示每个自动生成区段的定义，包括构成该自动生成区段的排名最前的项目：
+   * [生成的区段](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/segmentation-workflow/seg-build.html)（排名最前的项目集群）表根据贡献得分、异常发生次数和对异常量度做出贡献的整体百分比，识别排名最前的项目间的关联。然后，将这种关联捕获为受众区段（贡献区段 1、贡献区段 2，等等）。单击“i”（信息）按钮将显示每个自动生成区段的定义，包括构成该自动生成区段的排名最前的项目：
 
       ![](assets/auto_segment.png)
 
