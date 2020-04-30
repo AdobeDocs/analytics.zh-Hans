@@ -4,7 +4,7 @@ title: 页面未找到
 topic: Reports
 uuid: a1f5f3d1-1c4e-486c-8913-24da573ad015
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **属性**
 
-* 此报表直接引用来自贵网站上实施的 [pageType](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagetype.html) 变量中的数据。
+* 此报表直接引用来自贵网站上实施的 [pageType](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/pagetype.html) 变量中的数据。
 * 此报表可通过趋势和排名两种格式查看。
 * 单击放大镜图标可显示到该特定页面的最高反向链接。
 
