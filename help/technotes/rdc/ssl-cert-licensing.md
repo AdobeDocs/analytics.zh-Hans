@@ -2,16 +2,16 @@
 title: SSL 证书许可
 description: 客户管理证书的证书程序
 translation-type: tm+mt
-source-git-commit: 290838566b86f71902abd303b5c43dd2661d3ce1
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # SSL/TLS 证书许可
 
-Adobe 建议您通过 [Adobe Managed Certificate Program](https://marketing.adobe.com/resources/help/zh_CN/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) 管理您的证书，这样不会产生额外费用。Adobe Managed Certificate Prorgram 是完全自动的，可确保及时继订证书，从而不会由于证书过期而受到影响。
+Adobe 建议您通过 [Adobe Managed Certificate Program](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/ec-cookies/cookies-first-party.html) 管理您的证书，这样不会产生额外费用。Adobe Managed Certificate Prorgram 是完全自动的，可确保及时继订证书，从而不会由于证书过期而受到影响。
 
-如果您选择不使用 [Adobe Managed Certificate Prorgram](https://marketing.adobe.com/resources/help/zh_CN/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html)，则您负责提供用于第一方 Cookie 的 SSL/TLS 证书。
+如果您选择不使用 [Adobe Managed Certificate Prorgram](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/ec-cookies/cookies-first-party.html)，则您负责提供用于第一方 Cookie 的 SSL/TLS 证书。
 
 如果您自行提供证书，则您负责购买和维护该证书。您的 SSL/TLS 证书必须包含无限制的服务器许可证。
 
