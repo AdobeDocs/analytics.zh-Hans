@@ -3,7 +3,7 @@ description: “Reports & Analytics”中的“报表”菜单概述。
 title: “报表”菜单
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-有关单个报表的详细信息，请参阅[报表描述](https://marketing.adobe.com/resources/help/zh_CN/reference/reports_descriptions.html)。
+有关单个报表的详细信息，请参阅[报表描述](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html)。
 
 ## 搜索报表 {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -59,7 +59,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">区段 <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">可显示用于添加或管理区段的区段边栏。您还可以通过区段边栏访问<a href="https://marketing.adobe.com/resources/help/zh_CN/analytics/segment/seg_build_ui.html"  >区段生成器</a>和<a href="https://marketing.adobe.com/resources/help/zh_CN/analytics/segment/seg_manage.html"  >区段管理器</a>界面。 </td> 
+   <td colname="col2">可显示用于添加或管理区段的区段边栏。您还可以通过区段边栏访问<a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  >区段生成器</a>和<a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >区段管理器</a>界面。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">量度 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -107,7 +107,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
   </tr> 
   <tr> 
    <td colname="col1">报表包选择器 <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">允许您选择<a href="https://marketing.adobe.com/resources/help/zh_CN/reference/report_suites_admin.html"  >基本报表包</a>或<a href="https://marketing.adobe.com/resources/help/zh_CN/reference/virtual-report-suites.html"  >虚拟报表包</a>。 </td> 
+   <td colname="col2">允许您选择<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/admin/manage-report-suites/report-suites-admin.html"  >基本报表包</a>或<a href="https://docs.adobe.com/help/zh-Hans/analytics/components/virtual-report-suites/vrs-about.html"  >虚拟报表包</a>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1">日历 <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
@@ -118,4 +118,4 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## 自定义所有报表菜单 {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-管理员可以更改“报表”菜单中包含的报表。请参阅“管理参考”中的[菜单自定义](https://marketing.adobe.com/resources/help/zh_CN/reference/customize_menus.html)。
+管理员可以更改“报表”菜单中包含的报表。请参阅“管理参考”中的[菜单自定义](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html)。
