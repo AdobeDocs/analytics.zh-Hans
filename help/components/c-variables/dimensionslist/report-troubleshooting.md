@@ -5,7 +5,7 @@ title: 报表最佳实践和疑难解答
 topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,10 +14,10 @@ source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 Adobe Analytics 提供了一个灵活的报表界面，允许您生成各种复杂的报表。因为大多数报表的生成速度都非常快，所以您可能会遇到报表超时或无法成功生成的情况。为了有助于避免报表生成失败的情况，本节解释了影响报表生成速度的多种因素。了解此信息可帮助您构建报表，以便提高成功生成报表的几率。
 
->[!Note]
+>[!NOTE]
 >这些建议适用于 Reports &amp; Analytics、Ad Hoc Analysis 和 Report Builder。
->但是，它们不适用于 Analysis Workspace，Analysis Workspace 有其自身的一套[最佳实践](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。同时，这些建议也不适用于 Data Warehouse [最佳实践](https://marketing.adobe.com/resources/help/zh_CN/reference/data_warehouse_bp.html)。另一组
->[最佳实践](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices)可用于 Adobe Analytics 报表 API。
+>但是，它们不适用于 Analysis Workspace，Analysis Workspace 有其自身的一套[最佳实践](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。同时，这些建议也不适用于 Data Warehouse [最佳实践](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)。另一组
+>[最佳实践](https://www.adobe.io)可用于 Adobe Analytics 报表 API。
 
 ## 报表超时和请求队列 {#section_A42AD7E487C749B7B879BAFA814FFEF9}
 
