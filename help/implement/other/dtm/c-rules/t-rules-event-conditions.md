@@ -5,7 +5,7 @@ solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 为基于事件的规则创建条件
 uuid: a847391c-5aec-4d64-8a35-388587731598
 translation-type: tm+mt
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
    ![](assets/condition-event-based.png)
 
-   有关更多信息，请参阅“Adobe 标签管理产品文档”中的[事件类型](https://marketing.adobe.com/resources/help/zh_CN/dtm/event_types.html)。
+   有关更多信息，请参阅“Adobe 标签管理产品文档”中的[事件类型](https://docs.adobe.com/content/help/en/dtm/using/resources/rules/t-rules-event-conditions.html)。
 
 1. 根据需要启用以下选项：
 
@@ -35,7 +35,7 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
    ![](assets/condition-event-based2.png)
 
-   有关如何找到正确的元素标记的信息，请参阅“动态标签管理产品文档”中的[使用 CSS 选择器](https://marketing.adobe.com/resources/help/zh_CN/dtm/css-selector.html)。
+   有关如何找到正确的元素标记的信息，请参阅“动态标签管理产品文档”中的[使用 CSS 选择器](https://docs.adobe.com/content/help/en/dtm/using/resources/rules/t-rules-event-conditions.html#concept_DDF500DCB8214658AEDECDE69ED1D4AF)。
 
 1. 选择并设置您希望绑定到规则的任何其他标准或条件类型。
 
