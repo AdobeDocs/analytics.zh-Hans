@@ -3,14 +3,14 @@ description: 'null'
 title: 数据源处理时间
 uuid: d7cd679a-f9e3-4740-87cf-6171f3fe5cd9
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # 数据源处理时间
 
->[!Note]
+>[!NOTE]
 >任何数据处理时间段都应视为粗略估计值，不构成服务级别协议 (SLA)。
 
 数据处理时间不尽相同，具体原则如下所示：
