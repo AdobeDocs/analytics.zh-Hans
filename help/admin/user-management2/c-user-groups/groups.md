@@ -5,7 +5,7 @@ title: 用户群组设置
 topic: Admin tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,11 +14,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在迁移完所有客户之后，将撤销 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员工具]** > **[!UICONTROL 用户管理]**&#x200B;中的帮助内容。
+>用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
 
 “定义用户群组”页面上的元素描述。
 
-**[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 群组]** > **[!UICONTROL 添加新用户群组]**
+**[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Add New User Group]**
 
 <table id="table_85E9EBF7984545C780631D6C2090BD99"> 
  <thead> 
@@ -114,7 +114,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
      <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
       <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager（完全访问、自定义、无权访问） </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>具有活动 <span class="keyword">TagManager</span> 容器的客户支持这些权限。对于新用户则不可用。 </p> <p>Adobe 建议使用 <a href="https://marketing.adobe.com/resources/help/zh_CN/dtm/atm_migration.html">Dynamic Tag Management</a> 进行部署。 </p> </td> 
+   <td colname="col2"> <p>具有活动 <span class="keyword">TagManager</span> 容器的客户支持这些权限。对于新用户则不可用。 </p> <p>Adobe 建议使用 <a href="https://docs.adobe.com/content/help/en/dtm/using/migration/atm-migration.html">Dynamic Tag Management</a> 进行部署。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>指定用户登录</b> </td> 
