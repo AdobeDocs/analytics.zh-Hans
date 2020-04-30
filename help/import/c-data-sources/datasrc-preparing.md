@@ -5,7 +5,7 @@ title: 准备使用数据源
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 在确定数据源数据的相应量度到事件映射之后，请使用关联数据源量度所适用的描述性名称重命名事件。
 
-请参阅管理工具帮助中的[成功事件](https://marketing.adobe.com/resources/help/zh_CN/reference/success_event.html)。
+请参阅管理工具帮助中的[成功事件](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/success-events/success-event.html)。
 
 >[!NOTE] Adobe 强烈建议结合使用新的空事件与数据源数据，但在极少数情况下也可以使用预先存在的事件。
 
@@ -44,7 +44,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 在使用 eVar 时，您可以将现有 eVar 或新 eVar 用作数据维度。在选择了用于从数据源接收数据维度的 eVar 之后，请确保将其正确命名。
 
-请参阅 Analytics 帮助中的[成功事件](https://marketing.adobe.com/resources/help/zh_CN/reference/success_event.html)。
+请参阅 Analytics 帮助中的[成功事件](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/success-events/success-event.html)。
 
 ## 促销活动跟踪代码 {#section_468222796FF449ABAA90D88EB3264CB1}
 
