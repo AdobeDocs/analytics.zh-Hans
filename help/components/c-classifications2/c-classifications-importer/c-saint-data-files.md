@@ -5,7 +5,7 @@ title: 分类数据文件
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -109,19 +109,19 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ### 分类列标题
 
-例如，Reports &amp; Analytics 自动包含两种[!UICONTROL 促销活动]变量分类：[!UICONTROL 促销活动]和[!UICONTROL 创作元素]。若要将数据添加到[!UICONTROL 促销活动]分类中，分类数据文件中的列标题应为[!UICONTROL 促销活动]。
+例如，报告和分析自动包括两个变量 [!UICONTROL Campaign] 分类： [!UICONTROL Campaigns] 和 [!UICONTROL Creative Elements]。 To add data to the [!UICONTROL Campaigns] classification, the column heading in the classification data file would be [!UICONTROL Campaigns].
 
->[!NOTE] [!UICONTROL 分类]列标题中的值必须完全符合分类的命名规范，否则会导致导入失败。例如，如果管理员在[!UICONTROL 促销活动设置管理器]中将[!UICONTROL 促销活动]更改为[!UICONTROL 内部促销活动名称]，则文件列标题必须随之更改。
+>[!NOTE] 列标题中的 [!UICONTROL Classifications] 值必须与分类的命名约定完全匹配，否则导入将失败。 例如，如果管理员在 [!UICONTROL Campaigns] 中更 [!UICONTROL Internal Campaign Names] 改为 [!UICONTROL Campaign Set-up Manager]，则文件列标题必须更改为匹配。
 
 此外，数据文件支持下列其他标题规范，用于标识子分类和其他特殊数据列：
 
 ### 子分类标题
 
-例如，[!UICONTROL 促销活动^所有者]是包含[!UICONTROL 促销活动所有者]值的列的列标题。同样地，[!UICONTROL 创作元素^大小]是包含[!UICONTROL 创作元素]分类的[!UICONTROL 大小]子分类的列的列标题。
+例如， [!UICONTROL Campaigns^Owner] 是包含值的列的列标 [!UICONTROL Campaign Owner] 题。 同样， [!UICONTROL Creative Elements^Size] 该列的列标题也包含该分 [!UICONTROL Size] 类的子分 [!UICONTROL Creative Elements] 类。
 
 ### 分类量度标题
 
-例如，[!UICONTROL 促销活动^~成本]指的是[!UICONTROL 促销活动]分类中的[!UICONTROL 成本]量度。
+例如， [!UICONTROL Campaigns^~Cost] 引用分类 [!UICONTROL Cost] 中的度 [!UICONTROL Campaigns] 量。
 
 ### PER 修饰符标题
 
@@ -141,9 +141,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **REVENUE：**&#x200B;将该值乘以报表中行项目的收入金额。
 
-**SCADD：**&#x200B;将该值乘以报表中每个行项目出现[!UICONTROL 购物车加货]事件的次数。
+**SCADD:** 将该值乘以报表中每行项目 [!UICONTROL Shopping Cart Add] 调用事件的次数。
 
-**SCREMOVE：**&#x200B;将该值乘以报表中每个行项目出现[!UICONTROL 购物车减货]事件的次数。
+**屏幕移动：** 将该值乘以报表中每行项目 [!UICONTROL Shopping Cart Remove] 调用事件的次数。
 
 **INSTANCE：**&#x200B;将该值乘以报表中行项目的实例数。
 
@@ -151,30 +151,30 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **EVENT：**&#x200B;将该值乘以报表中每个行项目出现特定客户事件的次数。
 
-**示例：**&#x200B;如果促销活动 A 的成本为 $10,000，[!UICONTROL 促销活动^~成本]列包含的值为 10000，而[!UICONTROL 促销活动^~成本~per] 列包含 [!UICONTROL FIXED]。在报表中显示促销活动 A 的成本时，会将 $10,000 显示为日期范围内促销活动 A 的固定成本。
+**示例：** 如果活动A的费用为$10,000, [!UICONTROL Campaigns^~Cost] 则列包含值10000，而 [!UICONTROL Campaigns^~~Costper] 列包含 [!UICONTROL FIXED]。 在报表中显示促销活动 A 的成本时，会将 $10,000 显示为日期范围内促销活动 A 的固定成本。
 
-**示例：**&#x200B;如果每次单击促销活动 B 花费大约 $2，[!UICONTROL 促销活动^~成本]列包含 2，而&#x200B;**[!UICONTROL 促销活动^~成本~per]** 列包含 [!UICONTROL CLICK]。在报表中显示促销活动 B 的成本时，Adobe 会随时计算报表日期范围内的成本（2 * [点击次数]）。这样即可根据促销活动 B 的点击次数计算出总成本。
+**示例：** 如果活动B的每次点击费用约为$2，则列 [!UICONTROL Campaigns^~Cost] 包含2，而 **[!UICONTROL Campaigns^~~Costper]** 列包含 [!UICONTROL CLICK]。 在报表中显示促销活动 B 的成本时，Adobe 会随时计算报表日期范围内的成本（2 * [点击次数]）。这样即可根据促销活动 B 的点击次数计算出总成本。
 
 ### 页面
 
 促销活动日期通常是与各个促销活动关联的范围（开始日期和结束日期）。日期的格式应当为 YYYY/MM/DD。例如，2013/06/15-2013/06/30。
 
-有关详细信息，请参阅[转化分类](https://marketing.adobe.com/resources/help/en_US/admin/index.html#Conversion%20Classifications)。
+有关详细信息，请参阅[转化分类](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)。
 
 >[!NOTE] 在 2018 年 5 月 10 日的 [!DNL Analytics] 维护版本中，Adobe 已开始限制启用日期的分类和数值分类的功能。这些分类类型已从管理员和分类导入器界面中删除。无法添加新的启用日期的分类和数值分类。现有的分类仍可以通过标准分类工作流程进行管理（上传、删除），并将继续在报表中可用。
 
-## 将日期与[!UICONTROL 分类]一起使用 {#section_966A07B228CD4643B258E73FB8BA150A}
+## Using dates in conjunction with [!UICONTROL classifications] {#section_966A07B228CD4643B258E73FB8BA150A}
 
-[!UICONTROL 分类]可用于将日期范围分配给您的促销活动或其他转化[!UICONTROL 分类]，从而让促销活动测量更准确。指定值的日期范围后，该日期范围外任何匹配的值都不会进行分类。这对希望利用促销活动为“有效”，并且不是所有点击都与该促销活动本身匹配的具体日期的促销活动测量而言非常有用。要成功地用日期范围对值进行分类，必须满足以下条件：
+[!UICONTROL Classifications] 可用于为活动或其他转换指定日期范围，这 [!UICONTROL classifications]样可以更准确地测量活动。 指定值的日期范围后，该日期范围外任何匹配的值都不会进行分类。这对希望利用促销活动为“有效”，并且不是所有点击都与该促销活动本身匹配的具体日期的促销活动测量而言非常有用。要成功地用日期范围对值进行分类，必须满足以下条件：
 
-* [!UICONTROL 分类]必须以转化变量为基础。
-* 使用的[!UICONTROL 分类]必须设置为“启用日期”或“数值 2”。
+* The [!UICONTROL classification] must be based on a conversion variable.
+* The [!UICONTROL classification] used must be set as Date-Enabled or Numeric 2.
 * 涉及的日期范围必须包含开始日期和（可选）结束日期。
 
 根据日期范围分类促销活动：
 
 1. 登录 [!DNL Analytics]，然后转到“管理员”>“分类”。
-1. 单击&#x200B;**[!UICONTROL 浏览器导出]**&#x200B;选项卡，确保启用日期的分类的设置均正确，然后单击“导出文件”。
+1. Click the **[!UICONTROL Browser Export]** tab, ensure the settings to your date-enabled classification are correct, then click Export File.
 1. 在 Microsoft Excel 或您熟悉的其他电子表格编辑器中打开此文件。
 1. 其中一列将以下面的内容结尾：
 
