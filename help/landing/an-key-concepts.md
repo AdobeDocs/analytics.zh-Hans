@@ -2,7 +2,7 @@
 description: 此部分包含 Adobe Analytics 的关键概念、有关这些概念的简要描述，以及提供有关该主题的更多详细信息的特定文档链接。
 title: Adobe Analytics - 关键概念
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | Reports &amp; Analytics（以前称为 SiteCatalyst） | 用于报告和分析的浏览器解决方案。Analytics 包中的初学者工具。 | [Reports &amp; Analytics 主页](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/reports-analytics/getting-started.html) |
 | Report Builder | 允许您通过 Adobe Analytics 数据构建自定义请求并使用 Microsoft Excel 实现可视化的 Excel 外接程序。 | [Report Builder 主页](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/report-builder/home.html) |
 | Ad Hoc Analysis（以前称为 Discover） | 用于高级数字分析的基于 Java 的工具。 | [Ad Hoc Analysis 主页](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
-| Data Workbench（以前称为 Insight） | 旨在收集、处理、分析与可视化来自多个渠道间在线和离线客户交互的数据。 | [Data Workbench 客户端](https://marketing.adobe.com/resources/help/zh_CN/insight/client/) |
+| Data Workbench（以前称为 Insight） | 旨在收集、处理、分析与可视化来自多个渠道间在线和离线客户交互的数据。 | [Data Workbench 客户端](https://docs.adobe.com/content/help/en/data-workbench/using/client/t-open-ins.html) |
 | Data Warehouse | 用于存储和自定义报表的、未经处理的原始数据，您可通过过滤数据运行它。无点击级别。 | [Data Warehouse 主页](https://docs.adobe.com/content/help/zh-Hans/analytics/export/data-warehouse/data-warehouse.html) |
 | Adobe Mobile Services | 可以在整个 Adobe Experience Cloud 范围内将移动设备应用程序的移动营销功能整合在一起，以便您了解和提高应用程序的用户参与度。 | [Mobile Services 主页](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html) |
 | Adobe Exchange Data Connectors（以前称为 Genesis） | 可将来自第三方应用程序的跟踪数据导入 Analytics，从而在一个中心位置提供端到端的性能可见性。 | [Data Connectors 主页](https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works) |
@@ -48,7 +48,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | 报表 | 描述 | 文档链接 |
 |--- |--- |--- |
-| 完整维度/报表列表 | Adobe Analytics 中所有可用维度/报表的定义。 | [维度](https://marketing.adobe.com/resources/help/zh_CN/reference/reports_descriptions.html) |
+| 完整维度/报表列表 | Adobe Analytics 中所有可用维度/报表的定义。 | [维度](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html) |
 | Advertising Analytics | 在 Adobe Analytics 中并排分析所有 Google 和 Bing 付费搜索数据。通过该集成创建的维度包括广告平台、关键词、匹配类型等。创建的量度包括 AMO 展示次数、AMO 点击次数、AMO 成本、平均位置和平均质量分数。 | [Advertising Analytics](https://docs.adobe.com/help/zh-Hans/analytics/integration/advertising-analytics/overview.html) |
 | Audience Analytics | 通过 AAM 中用户的受众成员资格来丰富入站 Analytics 点击量。您可以将诸如人口统计信息（如性别或收入水平）、心理统计信息（如兴趣和爱好）、CRM 数据和广告展示数据之类的 AAM 受众数据合并到任何 Analytics 工作流程中。通过此集成创建的维度包括受众 ID 和受众名称。 | [Audience Analytics](https://docs.adobe.com/content/help/zh-Hans/analytics/integration/audience-analytics/mc-audiences-aam.html) |
 | 归因 IQ | 使您可了解如何在整个客户历程中开展有意义的互动，如何智能识别可将客户引导至目标结果的拐点，以及如何有效地优化营销活动。模型包括：首次联系、最近联系、线性、参与、J 型、反向 J 型、U 型、同一联系、自定义和时间衰减。 | [归因 IQ](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/attribution.html) |
@@ -81,8 +81,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | 选项 | 描述 | 文档链接 |
 |---|---|---|
-| 分类导入器 | 通过浏览器或 FTP 上载导入与已捕获维度对应的元数据。相对于规则生成器的手动方法。 | [分类导入器](https://marketing.adobe.com/resources/help/zh_CN/reference/c_working_with_saint.html) |
-| 规则生成器 | 根据用户定义的规则，自动创建维度的元数据分类。 | [分类规则生成器](https://marketing.adobe.com/resources/help/zh_CN/reference/classification_rule_builder.html) |
+| 分类导入器 | 通过浏览器或 FTP 上载导入与已捕获维度对应的元数据。相对于规则生成器的手动方法。 | [分类导入器](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html) |
+| 规则生成器 | 根据用户定义的规则，自动创建维度的元数据分类。 | [分类规则生成器](https://docs.adobe.com/content/help/zh-Hans/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) |
 | 客户属性 | 上传到 Experience Cloud 以用于 Adobe Analytics 和 Adobe Target 的 CRM 数据。 | [客户属性](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/customer-attributes/attributes.html) |
 | 数据源 | 根据维度或只是按天将离线量度导入到 Analytics。 | [数据源](https://docs.adobe.com/content/help/zh-Hans/analytics/import/data-sources/datasrc-home.html) |
 | Adobe Exchange Data Connectors | 请参阅 [Analytics 工具](/help/landing/an-key-concepts.md) |  |
@@ -107,7 +107,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | App Measurement (s_code) | 全局变量管理 | [AppMeasurement](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html) |
 | 应用程序 SDK | 包含应用程序配置文件预填充版本的自定义包。 | <ul><li>[iOS](https://docs.adobe.com/content/help/zh-Hans/mobile-services/ios/overview.html)</li><li>[Android](https://docs.adobe.com/content/help/zh-Hans/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
 | DTM 和 Adobe Launch | 请参阅 Analytics 工具。 |  |
-| VISTA | 允许您在收集数据时应用服务器端逻辑来更改或划分数据。 | [VISTA 规则](https://marketing.adobe.com/resources/help/zh_CN/reference/VISTA.html) |
+| VISTA | 允许您在收集数据时应用服务器端逻辑来更改或划分数据。 | [VISTA 规则](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/processing-rule-order.html) |
 | 处理规则 | 能够在 Analytics UI 中设置、修改和复制变量，以更改收集的数据。 | [处理规则](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/processing-rules/processing-rules.html) |
 | 调试器选项 | 有几个调试器和数据包探查器可用于帮助验证您的实施，包括 Adobe Experience Cloud 调试器。 | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en) |
 | 数据插入 API | 数据插入 API 提供了一种机制，可用于收集服务器端数据并将这些数据提交到 Experience Cloud 服务器。服务器端数据收集仅基于 Web 浏览器请求和 Web 服务器响应来收集数据，而不是在每个网页上使用 JavaScript 信标将访客数据传输到 Experience Cloud 服务器。 | [使用 POST 实施 Adobe Analytics 数据插入 API 的步骤](https://helpx.adobe.com/cn/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
