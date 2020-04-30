@@ -4,7 +4,7 @@ title: 过滤报表数据
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -49,7 +49,7 @@ help:Internal Search Term
 
 **不包含**
 
-如果在行项目的所有位置都找不到相关词语，则匹配成功。使用“不包含”，您可以从报表中过滤出“未指定”、“无”、“关键词不可用”以及其他[特殊值](https://marketing.adobe.com/resources/help/zh_CN/reference/none-unspecified-unknown-other.html)。
+如果在行项目的所有位置都找不到相关词语，则匹配成功。使用“不包含”，您可以从报表中过滤出“未指定”、“无”、“关键词不可用”以及其他[特殊值](https://docs.adobe.com/content/help/en/analytics/technotes/unspecified.html)。
 
 不包含: `none`
 
