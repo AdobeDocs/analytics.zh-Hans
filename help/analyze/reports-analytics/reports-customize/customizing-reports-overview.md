@@ -4,7 +4,7 @@ title: 自定义报表概述
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -35,7 +35,7 @@ t_reports_custom.xml
 
 >[!MORELIKETHIS]
 >
->* [菜单自定义](https://marketing.adobe.com/resources/help/zh_CN/reference/customize_menus.html)
+>* [菜单自定义](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html)
 
 
 ## 选择日期或日期范围 {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -81,7 +81,7 @@ t_reports_comparing_dates.xml
 
 您无法在趋势报表之间比较日期。
 
->[!NOTE] 如果您想对功能板中的关键量度执行日期比较，则可以使用两个不同的请求，将数据提取到 [Report Builder](https://marketing.adobe.com/resources/help/zh_CN/arb/) 中。然后，可以在 Excel 中使用自定义公式来分析二者的差异。
+>[!NOTE] 如果您想对功能板中的关键量度执行日期比较，则可以使用两个不同的请求，将数据提取到 [Report Builder](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/report-builder/home.html) 中。然后，可以在 Excel 中使用自定义公式来分析二者的差异。
 
 要比较“Reports &amp; Analytics”中排名报表之间的日期，请执行以下操作：
 
@@ -218,4 +218,4 @@ try_in_workspace.xml
 
 目前，仅当您的用户名拥有 Analysis Workspace 的完整访问权限时，该按钮才可用。
 
-有关可以自定义报表的所有方法的更多信息，请参阅 [Analysis Workspace](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/) 指南。
+有关可以自定义报表的所有方法的更多信息，请参阅 [Analysis Workspace](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/analysis-workspace-features.html) 指南。
