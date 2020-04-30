@@ -3,7 +3,7 @@ description: 在 Adobe Experience Cloud 中将 Analytics 用户 ID 迁移到 Adm
 title: 将 Analytics 用户迁移到 Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -73,7 +73,7 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
   </tr> 
   <tr> 
    <td colname="col1"> <p>更新 Report Builder </p> </td> 
-   <td colname="col2"> <p> <p>重要信息：将安装的 <a href="https://marketing.adobe.com/resources/help/zh_CN/arb/t_install_arb.html">Report Builder</a> 更新至最新版本。 </p> </p> </td> 
+   <td colname="col2"> <p> <p>重要信息：将安装的 <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html">Report Builder</a> 更新至最新版本。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>何时开始迁移？ </p> </td> 
@@ -95,7 +95,7 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
      <li id="li_418476105FE341229CE146E730AAB33D">您在 Analytics 中的现有权限组将作为产品配置文件自动复制到 Admin Console 中，其中包括它们的描述以及报表包、量度、维度、Analytics 与报表包工具之间的粒度权限。 </li> 
      <li id="li_412F88C454B0455A8F3BC8016226855C">如果您有任何当前 Analytics 用户是在 Admin Console 中创建的（这表示他们具有链接的 Adobe ID 或企业 ID），他们将被添加到 Admin Console 中相应的产品配置文件内。 </li> 
      <li id="li_8A05137EC05C4FD5910E73FE58300DCB">Analytics 中“管理员”选项卡下方的“用户管理”部分将被设置为“<span class="term">只读</span>”。您将无法在此处创建新用户或权限组，并将需要在 Admin Console 中执行这两个功能。有关更多信息，请参阅 <a href="/help/admin/user-management2/user-migration/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56">Admin Console 中不支持的 Analytics 功能</a>。 </li> 
-     <li id="li_2742DE69E9B547198A58E1F33E908361">As an administrator, you will be granted access to the <a href="https://marketing.adobe.com/resources/help/zh_CN/experience-cloud/admin-console/analytics-migration/t_migrate-users.html">User ID Migration tool</a>. 此外，还会显示一则产品内通知，其中包含迁移的结束日期（通常是未来 60 天）以及帮助内容和常见问题解答的链接。 </li> 
+     <li id="li_2742DE69E9B547198A58E1F33E908361">As an administrator, you will be granted access to the <a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/t-migrate-users.html">User ID Migration tool</a>. 此外，还会显示一则产品内通知，其中包含迁移的结束日期（通常是未来 60 天）以及帮助内容和常见问题解答的链接。 </li> 
      <li id="li_095D42E3A3544FC59A60A8C8F94C971B">您将在 Admin Console 中获得“权限”选项卡的访问权限，以便您可以使用 Analytics 中所有熟悉的粒度选项创建产品配置文件。 </li> 
     </ul> </td> 
   </tr> 
@@ -314,7 +314,7 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 您可能需要主动将此迁移计划传达给您的当前用户。以下是一个模板，您可以对其进行自定义，以发送给您的所有当前 Analytics 用户：
 
-要向所有用户发送电子邮件，请导航至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]** > [电子邮件用户](https://marketing.adobe.com/resources/help/zh_CN/reference/t_email_users.html)。
+要向所有用户发送电子邮件，请导航到 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** >电子邮 [件用户](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html)。
 
 **主题：**&#x200B;即将推出 - 一种用于登录到 Adobe Analytics 和 Adobe Experience Cloud 的新方法。
 
@@ -326,9 +326,7 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 **有用的资源：**
 
-[登录并管理配置文件设置](https://marketing.adobe.com/resources/help/zh_CN/mcloud/getting-started-experience-cloud.html).
-
-[关于 Experience Cloud 中的云、核心服务和解决方案](https://marketing.adobe.com/resources/help/en_US/mcloud/solutions_capability_names.html)
+[登录并管理配置文件设置](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/getting-started-experience-cloud.html).
 
 如果您有任何问题或疑问，请联系您的 Analytics 管理员。
 
