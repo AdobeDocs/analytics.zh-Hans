@@ -4,7 +4,7 @@ title: 设备类型
 topic: Reports
 uuid: e1224769-9a94-4cad-a1ed-e285d60d23f3
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,5 +21,5 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 此报表的数据使用访客的用户代理字符串来填充。
 
->[!Note]
+>[!NOTE]
 >只有对现有的移动设备 ID 所做的更改才具有可回溯性。如果是新设备，并且还没有对应的移动设备 ID，那么与此设备关联的数据将仅包括自对应 ID 添加到设备数据库之日起的数据。
