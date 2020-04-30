@@ -4,7 +4,7 @@ keywords: privacy
 title: 隐私概述
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -89,7 +89,7 @@ Adobe Analytics 收集以下数据：
   </tr> 
   <tr> 
    <td colname="col1"> 欧洲 </td> 
-   <td colname="col2"> Adobe 启用了设置 IP 模糊处理：对于欧洲、中东和非洲地区使用报表包集的所有客户，默认设置为“已启用 - IP 已删除 (x.x.x.x)”。通过此设置，在地理查询后 IP 地址将由值 (x.x.x.x) 完全取代，且不再可作为数据点使用。 <p>这个基本替换方法无法通过实施反向工程返回一个唯一的特定 IP 地址。客户或 Adobe 均无法访问该 IP 地址，该 IP 地址已经过不可逆转的匿名化处理。有关其他 IP 模糊设置的详细信息，请参阅 </p> <p> <a href="https://marketing.adobe.com/resources/help/zh_CN/reference/index.html#General_Account_Settings"  > https://marketing.adobe.com/resources/help/zh_CN/reference/index.html#General_Account_Settings </a> </p> </td> 
+   <td colname="col2"> Adobe 启用了设置 IP 模糊处理：对于欧洲、中东和非洲地区使用报表包集的所有客户，默认设置为“已启用 - IP 已删除 (x.x.x.x)”。通过此设置，在地理查询后 IP 地址将由值 (x.x.x.x) 完全取代，且不再可作为数据点使用。 <p>这个基本替换方法无法通过实施反向工程返回一个唯一的特定 IP 地址。客户或 Adobe 均无法访问该 IP 地址，该 IP 地址已经过不可逆转的匿名化处理。有关其他 IP 模糊设置的详细信息，请参阅 </p> <p> <a href="https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings"  > https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 全球 </td> 
