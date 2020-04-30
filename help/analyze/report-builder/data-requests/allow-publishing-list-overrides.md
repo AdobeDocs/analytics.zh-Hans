@@ -4,7 +4,7 @@ title: 允许发布列表覆盖
 topic: Report builder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 发布列表在 Analytics 管理工具中进行设置。
 
-请参阅 Analytics 参考资料中的[发布列表管理器](https://marketing.adobe.com/resources/help/zh_CN/reference/publishing_list.html)。
+请参阅 Analytics 参考资料中的[发布列表管理器](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/publishing-list.html)。
 
 要启用此功能，请导航到该 [!UICONTROL Request Wizard: Step 1] 窗口。
 
