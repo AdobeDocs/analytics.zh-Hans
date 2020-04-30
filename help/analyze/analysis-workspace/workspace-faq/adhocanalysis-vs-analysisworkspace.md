@@ -3,7 +3,7 @@ description: 将 Ad Hoc Analysis 术语和任务与 Analysis Workspace 进行比
 title: Analysis Workspace 与 Ad Hoc Analysis 的比较
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 Analysis Workspace 将 Ad Hoc Analysis 的大多数功能都引入到了浏览器工作流程中。虽然有些术语和功能在这两种产品之间保持相同，但 Analysis Workspace 中也引入了一些新的分析术语和方法。
 
-有关这两种产品之间关键功能和系统要求的技术比较，请转到[此处](https://marketing.adobe.com/resources/help/zh_CN/reference/analytics-product-comparison.html)。
+有关这两种产品之间关键功能和系统要求的技术比较，请转到[此处](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/analytics-product-comparison.html)。
 
 ## 关键术语的比较 {#section_6109406B83B043A18E46D38F130B1D2E}
 
