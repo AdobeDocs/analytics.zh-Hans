@@ -3,7 +3,7 @@ description: 新的智能警报系统允许对警报进行更多粒度控制，�
 title: 智能警报
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -25,19 +25,19 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 通过含链接的电子邮件或短信将警报发送到自动生成的 Analysis Workspace 项目。
 * 创建可在一个警报中捕获了多个量度的“堆栈式”警报。
 
-新警报系统的组件包括：警报生成器、警报管理器、警报预览以及更便于创建警报的上下文关联访问。旧的警报系统用户界面将不再可用，但警报将进行迁移。部分旧版警报功能[将不再可用](https://marketing.adobe.com/resources/help/zh_CN/sc/user/deprecated_alerts.html)。
+新警报系统的组件包括：警报生成器、警报管理器、警报预览以及更便于创建警报的上下文关联访问。旧的警报系统用户界面将不再可用，但警报将进行迁移。部分旧版警报功能[将不再可用](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/alerts.html)。
 
 可通过四种方式访问警报生成器：
 
 * 在 Analysis Workspace 中使用以下快捷键：
 
    `ctrl (or cmd) + shift + a`
-* 直接转到警报生成器：**[!UICONTROL 工作区]** > **[!UICONTROL 组件]** > **[!UICONTROL 新警报]**。
-* 选择一个或多个自由格式表行项目，单击鼠标右键并选择&#x200B;**[!UICONTROL 从选定范围中创建警报]**。这将打开警报生成器，并在生成器中预填充表格中应用的相应量度和过滤器。然后，您可以根据需要编辑警报。
+* 直接转到警报生成器： **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]** 。
+* By selecting one or more freeform table line item/s, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**. 这将打开警报生成器，并在生成器中预填充表格中应用的相应量度和过滤器。然后，您可以根据需要编辑警报。
 
    ![](assets/create-alert-from-selection.png)
 
-* 从 [!UICONTROL Reports &amp; Analytics] 报表中，转到&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 添加警报]**。这将打开新的警报生成器，并在生成器中预填充报表中应用的相应量度和过滤器。然后，您可以根据需要编辑警报。
+* 从报告 [!UICONTROL Reports & Analytics] 中，转到 **[!UICONTROL More]** > **[!UICONTROL Add Alert]** 。 这将打开新的警报生成器，并在生成器中预填充报表中应用的相应量度和过滤器。然后，您可以根据需要编辑警报。
 
    ![](assets/add-alert.png)
 
@@ -73,7 +73,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问题：我可以获得用虚线制成的“预期值”表格吗？表格中会包含一些预期值的结果吗？</b> </p> </td> 
-   <td colname="col2"> <p>在工作区中无法实现，但是在 Report Builder 中可以（请观看视频：<a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  >Report Builder 中的异常检测</a>)。 </p> <p>请记住，Report Builder 使用的是略微简单的异常检测方法。与 <a href="https://marketing.adobe.com/resources/help/zh_CN/reference/anomaly.html"  ><span class="uicontrol"></span>Reports &amp; Analytics 异常检测</a>相似，它使用 30 天的固定培训期，和 95% 的固定间隔。 </p> </td> 
+   <td colname="col2"> <p>在工作区中无法实现，但是在 Report Builder 中可以（请观看视频：<a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  >Report Builder 中的异常检测</a>)。 </p> <p>请记住，Report Builder 使用的是略微简单的异常检测方法。与 <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/layout/t-anomaly.html"  ><span class="uicontrol"></span>Reports &amp; Analytics 异常检测</a>相似，它使用 30 天的固定培训期，和 95% 的固定间隔。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
