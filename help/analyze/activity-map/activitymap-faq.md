@@ -4,7 +4,7 @@ title: Activity Map 常见问题解答
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 0e125be6e1710c65effa0adc8097e8916c8a3290
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 0e125be6e1710c65effa0adc8097e8916c8a3290
 
 **问：能否通过 Dynamic Tag Management (DTM) 配置新的 AppMeasurement 代码？**
 
-答：可以，您可以[手动实现](https://marketing.adobe.com/resources/help/zh_CN/dtm/analytics_dtm.html)新的 AppMeasurement 代码。
+答：可以，您可以[手动实现](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html)新的 AppMeasurement 代码。
 
 **问：AppMeasurement v1.6 库有何重要变化？**
 
