@@ -4,7 +4,7 @@ title: 跟踪代码
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 * 此报表直接引用 [s.campaign](/help/implement/vars/page-vars/campaign.md) 中的数据
 * 此报表所基于的变量是一个[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。这表明它的持续时间要超过页面查看，并且可将其自身与它指定的过期时间内的量度相关联。
-* 此报表的默认量度为收入。您可以在[!UICONTROL 管理工具]中的[!UICONTROL 报表包管理器]内更改此默认值。（**[!UICONTROL 编辑设置]** > **[!UICONTROL 单个报表包设置]** > **[!UICONTROL 默认量度]**。）
+* 此报表的默认量度为收入。您可以在中更改此默认 [!UICONTROL Report Suite Manager] 值 [!UICONTROL Admin Tools]。( **[!UICONTROL Edit Settings]** > **[!UICONTROL Individual Report Settings]** > **[!UICONTROL Default Metrics]**.)
 
 * 此报表可通过趋势和排名两种格式查看。
 * 此报表可使用搜索过滤器来查找特定的行项目。
-* [!UICONTROL 促销活动]和[!UICONTROL 创作元素]报表是基于此报表的分类，并随每个报表包自动创建。
+* The [!UICONTROL Campaigns] and [!UICONTROL Creative Elements] reports are classifications based on this report, and are automatically created with each report suite.
 
 * SAINT 分类可用于此报表，允许您重新命名并整合行项目。
 * 您可以根据以下报表划分此报表（取决于组织和报表包设置）：
@@ -43,9 +43,9 @@ source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 **Reports &amp; Analytics 属性**
 
-* 只要菜单没有经过自定义，即可通过单击&#x200B;**[!UICONTROL 转化]** > **[!UICONTROL 促销活动]** > **[!UICONTROL 跟踪代码]**&#x200B;找到此报表。
+* 单击 **[!UICONTROL Conversion]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Tracking Code]** 以查找此报告，除非菜单是自定义的。
 
-* 此报表也可以按所有[列表变量](https://marketing.adobe.com/resources/help/en_US/sc/implement/list_var.html)划分。
+* 此报表也可以按所有[列表变量](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/list-var-admin.html)划分。
 * 页面查看、访问和独特访客均可作为量度使用。
 * 此报表可使用区段。
 
