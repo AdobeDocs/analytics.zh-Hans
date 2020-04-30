@@ -3,7 +3,7 @@ description: 直方图是 Analysis Workspace 中一种新的可视化类型。
 title: 直方图
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -37,7 +37,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | 开始存储段 | 确定直方图从哪个存储段开始。“1”为默认值。您可以在 0 到无穷大（非负数）的范围内设置开始数量。 |
 | 量度存储段 | 您可以增加/减少数据范围（存储段）的数量。存储段的最大数量为 50。 |
 | 量度存储段大小 | 您可以设置每个存储段的大小。例如，您可以将存储段大小从 1 次页面查看更改为 2 次页面查看。 |
-| 计算方法 | 您可以在[访客](https://marketing.adobe.com/resources/help/zh_CN/reference/visitors.html)、[访问](https://marketing.adobe.com/resources/help/zh_CN/reference/metrics_visit.html)或[点击](https://marketing.adobe.com/resources/help/zh_CN/reference/hit.html)中进行选择。例如，每次访问的页面查看次数或每位访客的页面查看次数，或者每次点击的页面查看次数。对于点击来说，“发生次数”可作为自由格式表中的 y 轴量度。 |
+| 计算方法 | Lets you choose among [Visitor](/help/components/c-variables/c-metrics/visitors.md), [Visit](/help/components/c-variables/c-metrics/metrics-visit.md), or [Hit Type](/help/components/c-variables/dimensionslist/report-hit-type.md). 例如，每次访问的页面查看次数或每位访客的页面查看次数，或者每次点击的页面查看次数。对于点击来说，“发生次数”可作为自由格式表中的 y 轴量度。 |
+
+<!--Russ or Meike - Check Hit Type link above. -->
 
 **示例**：
 
@@ -54,4 +56,4 @@ To view or change the data source for the histogram chart, click the dot next to
 
 ![](assets/prebuilt_segments.png)
 
-要探索更多用于管理自由格式数据表及其他可视化的方法（如进行数据划分），请转到[此处](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/freeform-analysis-visualizations.html)。
+要探索更多用于管理自由格式数据表及其他可视化的方法（如进行数据划分），请转到[此处](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)。
