@@ -3,7 +3,7 @@ description: 如何开始使用 Adobe Analytics。
 keywords: Analysis Workspace
 title: 入门指南
 translation-type: tm+mt
-source-git-commit: 825dc13b0294e5a96b30b95f14524175d44c621d
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -97,6 +97,6 @@ Analysis Workspace 是 Adobe 的一款旗舰工具，可用于为您的组织制
 
 ### 对于希望提高组织内Workspace质量的分析师和管理员
 
-* [Analysis Workspace 权限](https://marketing.adobe.com/resources/help/zh_CN/mcloud/admin_getting_started.html)：通过 Adobe Admin Console 向用户分配工作区权限。
+* [Analysis Workspace 权限](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-getting-started.html)：通过 Adobe Admin Console 向用户分配工作区权限。
 * [工作区中的模板](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)：创建模板，让您的同事可以开始根据自己的需求定制项目空间。
 * [工作区管理操作](/help/analyze/analysis-workspace/curate-share/curate.md)：创建一个限制可用组件的项目，让不太熟悉这款工具的用户也能访问这些项目
