@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
+source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
 
 ---
 
@@ -44,7 +44,6 @@ source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
          + [日历和日期范围概述](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [创建自定义日期范围](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [日期比较](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
-         + [比较受事件影响的日期](analysis-workspace/components/calendar-date-ranges/compare-event.md)
    + 可视化 {#visualizations}
       + [可视化概述](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [管理数据源](analysis-workspace/visualizations/t-sync-visualization.md)
@@ -87,7 +86,7 @@ source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
          + [算法归因](analysis-workspace/c-panels/attribution/algorithmic.md)
       + [自由格式面板](analysis-workspace/c-panels/freeform-panel.md)
       + 区段比较 {#segment-comparison}
-         + [区段比较概述](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+         + [细分比较概述](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [“区段比较”用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [细分比较中使用的统计测试](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 组织或共享项目 {#curate-share}
