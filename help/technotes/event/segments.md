@@ -2,7 +2,7 @@
 title: 排除分析中的特定日期
 description: 如果您不想在报告中包含日期或日期范围，则提示排除日期或日期范围。
 translation-type: tm+mt
-source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
+source-git-commit: e5a4dc54abdaa029381296c013a07fe6f5aa05b2
 
 ---
 
@@ -52,7 +52,7 @@ Adobe建议使用橙色维度维度组件，而不是紫色日期范围组件。
 
 如果不想在表中显示零或可视化（导致低谷），请在列设置 **[!UICONTROL Interpret zero as no value]** 下启用。
 
-![解释零](../assets/interpret_zero.png)
+![解释零](assets/interpret_zero.png)
 
 ### 将排除区段应用到项目
 
