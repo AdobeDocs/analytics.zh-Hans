@@ -4,7 +4,7 @@ title: 自定义报表概述
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -121,7 +121,7 @@ t_reports_normalize.xml
 **标准化报表数据**
 
 1.  运行支持数据比较的报表
-1. 单 **[!UICONTROL Compare Dates]**&#x200B;击，然后指定日期比较。
+1. 单击 **[!UICONTROL Compare Dates]**，然后指定日期比较。
 1. 单击 **[!UICONTROL Run Report]**.
 1. 单击 **[!UICONTROL Normalize Data: Yes]**.
 
@@ -218,4 +218,4 @@ try_in_workspace.xml
 
 目前，仅当您的用户名拥有 Analysis Workspace 的完整访问权限时，该按钮才可用。
 
-有关可以自定义报表的所有方法的更多信息，请参阅 [Analysis Workspace](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/analysis-workspace-features.html) 指南。
+有关可以自定义报表的所有方法的更多信息，请参阅 [Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) 指南。
