@@ -3,7 +3,7 @@ title: Adobe Report Builder 帮助
 topic: Report builder
 uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -51,6 +51,6 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ## Reports &amp; Analytics 帮助
 
-* [Analysis Workspace 帮助](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/analysis-workspace-features.html)
+* [Analysis Workspace 帮助](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html)
 * [Reports &amp; Analytics 帮助](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/reports-analytics/getting-started.html)
 * [Analytics 参考](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/home.html)有关管理工具、报表和量度的帮助。
