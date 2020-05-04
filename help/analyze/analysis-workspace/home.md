@@ -1,102 +1,190 @@
 ---
-description: 如何开始使用 Adobe Analytics。
 keywords: Analysis Workspace
-title: 入门指南
+title: Analysis Workspace 概述
+topic: Reports and analytics
+uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: efbbf94882a406e95791e38e80f86691285986a6
 
 ---
 
 
-# Analysis Workspace
+# Analysis Workspace 概述
 
-Analysis Workspace 是 Adobe 的一款旗舰工具，可用于为您的组织制定基于数据的可操作决策。通过自由格式表（最常见的可视化图表），您可以使用维度、量度、区段和日期范围轻松创建自定义报表。
+Analysis Workspace 去除了单一 Analytics 报表存在的所有典型限制。它提供了一个功能强大而灵活的画布，用于构建自定义分析项目。您可以向一个项目拖放任意数量的数据表、可视化信息和组件（维度、量度、区段和时间粒度）。可以即时创建划分和区段、创建用于分析的同类群组、创建警报、比较区段、进行流量和流失分析，并且组织和计划报表以与公司的其他人员共享。
 
-## 先决条件
+**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
-[使用 Adobe Experience Platform Launch 将数据发送到 Adobe Analytics](/help/implement/launch/validate-publish-prod.md)：使用 Analysis Workspace 需要有效的实施。在使用这款工具之前，请确保您的组织正在向 Adobe 发送数据。其他实施（如 DTM 或旧版手动实施）也可以正常工作。
+## 概述视频
 
-## 在工作区中提取基本的排名报表
+>[!VIDEO](https://video.tv.adobe.com/v/26266?quality=12)
 
-使用 Analysis Workspace 提取基本的排名报表。排名报表会显示每个维度值的聚合总视图，其中最先显示最大值。这些类型的报表有助于查看网站中的哪些组件最有效，例如，哪些页面的流量最大，或者哪些产品销量最高。
+完整的 YouTube 播放列表可在[此处](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)获得。
 
-1. 使用您的 Adobe ID 凭据登录 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
-2. 单击右上角的 9 个正方形图标，然后单击彩色的 Analytics 徽标。
-3. 在顶部导航栏中，单击“工作区”。
-4. 单击“新建项目”按钮。
-5. 在模态弹出窗口中，确保选择“空白项目”，然后单击“创建”。
-6. 在左侧，您应该会看到维度、量度、区段和日期范围的列表。找到“页面”维度（橙色），并将其拖动到画布上，其中显示“将维度放置在此处”。
-7. 请注意，如果报表包包含数据，则可以看到显示当月热门页面的报表。Analysis Workspace 会自动使用[发生次数](/help/components/c-variables/c-metrics/metrics-occurrences.md)量度填充报表。
-8. 找到“访问次数”量度（绿色），将其拖动到“发生次数”量度标头的&#x200B;**上面**&#x200B;或&#x200B;**旁边**（避免将“访问次数”量度置于“发生次数”的上方）。如果将“访问次数”量度拖动到“发生次数”的上方，则报表中的“发生次数”量度会被替换。如果将“访问次数”量度拖动到“发生次数”旁边，则这两个量度会并排显示。
-9. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
+>[!NOTE]
+>
+> 请参阅 [Analysis Workspace 中的新增功能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)以获取相关功能更新。
 
-## 在工作区中提取基本的趋势报表
+## 实现项目元素和组件的全面控制
 
-使用 Analysis Workspace 提取基本的趋势报表。趋势报表使用选定日期范围显示一段时间的量度视图。这些类型的报表有助于确定一段时间内的趋势，并且可用于衡量业务决策的成败。例如，您可以查看一段时间的页面查看次数趋势报表，以便了解网站重新设计是否有助于增加流量或减少流量。
+Analysis Workspace 可以提供自由和灵活性。
 
-1. 使用您的 Adobe ID 凭据登录 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
-2. 单击右上角的 9 个正方形图标，然后单击彩色的 Analytics 徽标。
-3. 在顶部导航栏中，单击“工作区”。
-4. 单击“新建项目”按钮。
-5. 在模态弹出窗口中，确保选择“空白项目”，然后单击“创建”。
-6. 在左侧，您应该会看到维度、量度、区段和日期范围的列表。找到“页面查看次数”维度，并将其拖动到画布上标有“在此处放置量度”的小空间。请勿将其放置在为维度保留的空间中（至少对于本次练习）。
-7. 请注意，如果报表包包含数据，您应该会看到一个当月页面查看次数趋势报表。Analysis Workspace 会自动引入“日”日期范围，以便您可以查看当月页面查看次数趋势。
-8. 在左侧的日期范围组件列表中找到“周”日期范围（紫色）。单击日期范围标题可展开并查看所有日期范围组件，或使用搜索栏。
-9. 将“周”日期范围拖动到画布上的“日”日期范围标题上方可将其替换。
-10. 请注意，现在按“周”而不是按“日”来汇总您的趋势报表。
-11. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
+* 可拖放组件（维度、量度、区段和时间粒度）
+* 可在项目中拖放多种可视化信息
+* 根据需要，可随时在项目中移动、堆叠可视化信息并调整其大小
 
-## 试用该工具
+![](assets/fa_project_new.png)
 
-由于 Analysis Workspace 是一款报表工具，因此不会对数据收集产生任何影响。您可以不加选择地将组件拖到项目中来查看具体效果，这不会产生任何影响。将不同的维度和量度组合拖动到工作区项目中，可查看相应的效果。
+请参阅[创建一个 Analysis Workspace 项目](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)，以了解更多信息。
 
-如果意外地将无效组件拖动到工作区项目，或者希望返回到上一个步骤，请按 Ctrl + Z (Windows) 或 cmd + Z (Mac) 以撤消上一个操作。You can also start with a clean slate by clicking *[!UICONTROL Project]>[!UICONTROL New]*in the upper left menu.
+## 在一个项目中显示多种可视化信息
 
-## 故障诊断
+您可以根据需要，在项目中拖放多种可视化信息。
 
-**当我将量度拖动到上面时，显示“数据无效”。**
+![](assets/visualizations-multiple.png)
 
-无效数据意味着 Adobe 无法通过报表中使用的维度和量度组合返回数据。例如，两个彼此堆叠的量度不能作为数据返回，因为无法以这种堆叠方式显示这两个量度。相反，会并排显示这两个量度。
+创建一个显示变化（百分比）的项目，并在其中包含与自由格式数据表中单元格对应的多项可视化信息。
 
-**当我将量度拖动到上面时，看不到任何实际数据 - 只有零。**
+![](assets/visualizations-multiple02.png)
 
-如果您成功创建了工作区报表，但报表中没有数据，则可以检查以下几项内容：
+请参阅[创建一个 Analysis Workspace 项目](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)，以了解更多信息。
 
-* 仔细检查报表包，并确保报表包中已填充数据。
-* 如果在报表中使用了区段，区段标准可能与所有数据不匹配。请尝试移除区段或调整区段定义。
-* 检查右上角的日期范围，并确保它已设置为预期的值。
-* 导航到您的网站，然后使用调试器验证正在收集的数据。
+## 内部链接到面板和可视化
 
-## 其他资源
+要与 Analysis Workspace 的[富文本编辑](/help/analyze/analysis-workspace/visualizations/text.md)功能一起使用，您可以从文本框向下链接到项目中的特定面板和可视化图表，如创建项目目录。您可以像共享项目链接一样共享这些链接，以将某个人定向到项目中的特定可视化或面板。新增了名为“获取面板链接”和“获取可视化图表链接”的右键单击选项。要将内部链接添加到您的项目，请执行以下操作：
 
-* [Analysis Workspace 发行说明](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)：仔细研读该工具中引入的最新功能。
-* [YouTube 上的 Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)：通过这个内容丰富的播放列表，了解如何使用 Analysis Workspace 中的大多数功能。
-* 产品内提示：Analysis Workspace 的右下角不时会显示“每日提示”和一些简短视频。If these tips are dismissed, they can be reached through *[!UICONTROL Help]>[!UICONTROL Tips]*at any time.
-* [Analysis Workspace 社区](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace)：与同事讨论 Analysis Workspace，并就您希望在工具中看到的功能进行投票。
-* 博客文章：
-   * [使组织拥有更智能的分析功能](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/)
-   * [通过 Adobe Analytics 新增功能更容易得出独到的见解](https://blogs.adobe.com/digitalmarketing/analytics/new-adobe-analytics-capabilities-make-powerful-insights-accessible/)
-   * [使用 Analysis Workspace 最大程度提高工作效率的 5 个提示](https://blogs.adobe.com/digitalmarketing/analytics/5-tips-maximize-productivity-analysis-workspace/)
-   * [快速领悟 Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/faster-insights-with-the-analysis-workspace/)
-   * [为何要使用 Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/why-you-should-be-using-analysis-workspace-in-adobe-analytics/)
+1. 将文本可视化拖到项目中可能需要某些上下文的可视化或表格旁边。
+1. 使用相关内容（例如目录）填充文本框，然后突出显示要链接到面板或可视化的项目，例如“成功量度”。
 
-## 后续步骤
+   ![](assets/intra-linking1.png)
 
-您可以从多个不同角度来加深对 Analysis Workspace 的了解。以下是 Adobe 推荐掌握的一些基本知识：
+1. 滚动到该面板或可视化，并右键单击面板的标题。
+1. 向下滚动并选择 **[!UICONTROL Get Panel Link]** 或 **[!UICONTROL Get Visualization Link]**:
 
-### 对于希望拓展有关如何使用 Analysis Workspace 相关知识的最终用户
+   ![](assets/intra-linking2.png)
 
-* [关于工作区 UI 的详细信息](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)：既然您已创建了基础报表，那么应该更加熟悉用户界面的其余部分。
-* [工作区中的可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)：自由格式表只是 Analysis Workspace 中可视化图表的一种类型。了解如何使用其他可视化图标，例如折线图、条形图和地理地图。
-* [工作区中的维度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)：了解有关什么是维度及如何在排名报表等表格中使用维度的更多信息。
-* [工作区中的量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)：了解有关什么是量度及如何在自由形式表的其他部分中使用量度的更多信息。
-* [区段简介](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)：了解什么是区段，并使用区段提取基本报告。
-* [工作区中的日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)：了解相对日期和滚动日期，并在工作区项目中加以运用。
-* 在工作区中共享项目：向您的同事展示您创建的精彩工作区项目。
-* [（高级）工作区中的面板](/help/analyze/analysis-workspace/c-panels/panels.md)：使用工作区中的高级功能，例如“归因”和“区段比较”。
+1. 复制该链接，并将其添加到文本可视化中的“成功量度”超链接。单击复选标记以保存文本。
 
-### 对于希望提高组织内Workspace质量的分析师和管理员
+如果您在项目中折叠了面板或可视化，则单击链接将可展开该面板/可视化信息，以便用户可以看到它。
 
-* [Analysis Workspace 权限](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-getting-started.html)：通过 Adobe Admin Console 向用户分配工作区权限。
-* [工作区中的模板](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)：创建模板，让您的同事可以开始根据自己的需求定制项目空间。
-* [工作区管理操作](/help/analyze/analysis-workspace/curate-share/curate.md)：创建一个限制可用组件的项目，让不太熟悉这款工具的用户也能访问这些项目
+>[!NOTE] 您还可以在右键单击选项 **[!UICONTROL Edit Description]** 中使用此功能。
+
+## 链接到其他项目
+
+You can link users to other projects that may be of interest to them by going to  **[!UICONTROL Share]** > **[!UICONTROL Get Project Link]** and embedding this link in project descriptions, for example.
+
+## 查看选定单元格的动态可视化信息
+
+可选择若干单元格，查看这些单元格可视化信息的动态变化情况。可同步并锁定选定单元格的可视化信息。
+
+![](assets/visualize-selected-cells.png)
+
+## 锁定选定项目或位置
+
+通过锁定可视化信息可以控制与其对应的自由格式数据表来源。
+
+![](assets/manage-data-source.png)
+
+请参阅[管理数据源](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)。
+
+## 呈现选定单元格的趋势可视化信息
+
+创建选定单元格的可视化信息。(右键单击> **[!UICONTROL Trend Selection]**.)
+
+![](assets/trend-selection.png)
+
+趋势选择现已&#x200B;**关联**&#x200B;到下面的表，因此，如果选择表中的不同行，趋势图将反映出该行的内容。
+
+![](assets/trend-selection2.png)
+
+## 维度和维度项目划分
+
+作为零售商，您能够采取比以往更加深入的方式来调研促销活动，了解怎样可以更好地吸引客户。您可以采用任何方式，无限制地划分数据以满足自己的特定需求；使用相关的量度、维度、区段、时间线以及其他分析划分值来构建查询。
+
+![步骤结果](assets/fa_data_table_actions.png)
+
+请参阅[划分维度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
+
+## 根据表的选定内容创建区段
+
+选择自由格式表中的单元格，然后根据选定的内容创建区段。
+
+多个区段之间可进行比较，而且可以立即创建并应用区段。您可以应用多个区段，根据行为和交互情况来重点关注特定的客户，然后进行比较和对照。
+
+![](assets/segment_inline.png)
+
+如果按照项目级别将区段放在自由格式面板中，该区段则会应用在整个项目中。
+
+![](assets/segment-panel.png)
+
+请参阅 [区段](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)。
+
+## 在项目和组件中应用标记
+
+可将标记应用到 Analysis Workspace 的项目和组件中：
+
+* 在“信息”面板中可应用或创建项目级别的标记 (![](assets/information_icon.png))。
+
+* 从“组件”面板中右键单击组件，可应用（或创建）标记。
+* 在搜索栏中使用“#”可查找标记。
+
+## 组件操作
+
+从位于组件左边栏顶部的“操作”菜单执行组件级别的操作。Select a component and click **[!UICONTROL Actions]** to view the actions.
+
+| 组件操作 | 描述 |
+|--- |--- |
+| 标记 | 通过对组件应用标记来组织或管理组件。然后它会显示在相应的组件管理器中，如“Analytics”>“组件”>“区段”，或“Analytics”>“组件”>“项目” |
+| 收藏 | 将组件添加到您的收藏夹列表中。然后它会显示在相应的组件管理器中，如“Analytics”>“组件”>“区段”，或“Analytics”>“组件”>“项目”。 |
+| 批准 | 批准组件以使其成为规范。然后它会显示在相应的组件管理器中，如“Analytics”>“组件”>“区段”，或“Analytics”>“组件”>“项目” |
+| 共享 | 仅适用于区段。 |
+| 删除 | 仅适用于区段。 |
+
+请参阅[可视化](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)，以了解更多信息。
+
+## 关于其他功能的描述
+
+**拖动和堆叠项**
+
+组件
+
+* 维度
+* 区段
+* 量度
+* 日期范围
+* 时间粒度（小时、天、周等等）。
+
+**多个自由格式表和多项可视化信息**
+
+从技术角度来讲，可以向面板添加的自由格式表和可视化信息的数量并无限制。此外，您可以针对每个自由格式表或自由格式表的选定行，运行新的可视化（或将其导出为 CSV 格式）。
+
+**分类、排序和复制列**
+
+* 排序日期范围预设（不包括自定义日期范围）。
+* 按住 Ctrl（或 Command），单击并拖动可复制该列，拖动复制的列会将其粘贴至表中的新位置。
+
+请参阅 [Analysis Workspace 中可用的热键](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)，以获取更多信息。
+
+**选择并操作**
+
+您可以像在 Excel 中选择行和列那样来进行选择。然后，您可以在选定的内容上执行操作。例如：
+
+* 通过选定的内容创建可视化信息
+* 复制到剪贴板（Ctrl 或 Command + C）
+* 划分多个选定的行。选择若干行，然后将某个维度拖放到选定的行上。或者，右键单击选定的行，然后使用“划分”菜单。
+
+**自动保存和未保存的更改**
+
+当您尝试关闭浏览器（或使用“返回”按钮）并且尚未保存项目时，系统会提示您保存对项目所做的更改。如果系统崩溃，那么在您加载项目时，会收到一个将该项目还原至以前状态的警报。
+
+现有（非新）项目只有在浏览器崩溃时，或在其他一些没有机会保存的情况下才会自动保存。
+
+**所有访问**
+
+Analysis Workspace 特有的默认区段。*`All Visits`* 显示您添加到数据表中的组件的所有访问次数。
+
+**计算量度**
+
+使用的计算方法与使用标准量度相同。
+
+请参阅[计算量度](https://docs.adobe.com/content/help/zh-Hans/analytics/components/calculated-metrics/cm-overview.html)。
