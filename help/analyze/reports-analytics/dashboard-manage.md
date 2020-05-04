@@ -5,7 +5,7 @@ title: 功能板管理器
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -70,7 +70,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 现有的旧版功能板将继续运行，而且您仍然可以编辑、下载它们并为其制定计划，但是您不能再新建旧版功能板。强烈建议您将现有旧版功能板升级为较新的功能板格式。
 
->[!NOTE] 接下来，请考虑使用 [Analysis Workspace 项目](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/analysis-workspace-features.html)及其将要下载和计划的功能。
+>[!NOTE] 接下来，请考虑使用 [Analysis Workspace 项目](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html)及其将要下载和计划的功能。
 
 复制原有功能板时，系统将打开原有功能板以供您编辑，您可添加旧内容或新内容。当您复制原有功能板时，旧内容将保留在原有功能板列表中。
 
@@ -79,7 +79,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 **迁移版本 14.x 原有功能板**
 
 1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Manage Dashboards]**.
-1. 在列的 [!UICONTROL Manage] 下方，单 [!UICONTROL Legacy Dashboards]击 **[!UICONTROL Copy to New Dashboard]**。
+1. 在列的 [!UICONTROL Manage] 下方， [!UICONTROL Legacy Dashboards]单击 **[!UICONTROL Copy to New Dashboard]**。
 
    复制的功能板将在功能板布局编辑器中打开。
 
@@ -117,4 +117,4 @@ In the [!UICONTROL Dashboard Manager], you can see whether a dashboard is schedu
 1. 在组 [!UICONTROL Email Report] 中，启用 **[!UICONTROL Archive]**。
 1. Specify delivery options, then click **[!UICONTROL Send]**.
 
-   您可以在功能板管理器中查看存档的功能板。或者，打开仪表板并单击 **[!UICONTROL More]** > **[!UICONTROL View Archive]**。
+   您可以在功能板管理器中查看存档的功能板。或者，打开仪表板，然后单 **[!UICONTROL More]** 击> **[!UICONTROL View Archive]**。
