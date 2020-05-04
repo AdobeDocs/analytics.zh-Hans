@@ -6,7 +6,7 @@ title: 自定义 Analytics 工具权限
 topic: Admin tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -47,7 +47,7 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
 | **公司管理** |  |
 | [安全性](/help/admin/company/security-manager.md) | 授予通过“安全管理器”页面控制报表数据访问权限的权限。相关选项包括强密码、密码过期时间、IP 登录限制及电子邮件域限制。 |
 | 支持信息 | 授予访问“公司设置”中的“支持信息”的权限。 |
-| [Web 服务](/help/admin/company/web-services-admin.md) | 允许访问“管理工具”界面([!UICONTROL Company Settings] >)中的“Web服 [!UICONTROL Web Services]务”页。<br>Web 服务 API 提供了一种通过编程访问 Adobe Analytics 服务的方式，让您可以复制和扩展通过用户界面提供的功能。 |
+| [Web 服务](/help/admin/company/web-services-admin.md) | 允许访问“管理工具”界面(>)中的“Web服[!UICONTROL Company Settings] 务” [!UICONTROL Web Services]页面。<br>Web 服务 API 提供了一种通过编程访问 Adobe Analytics 服务的方式，让您可以复制和扩展通过用户界面提供的功能。 |
 | 单点登录（旧版） | 授予对管理工具中的单点登录页面的访问权限。<br>**注意：**Adobe Experience Cloud 中的单点登录是通过 Experience Cloud 与各个解决方案之间的[帐户关联](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/organizations.html)实现的。 |
 | [待定操作](/help/admin/company/pending-actions-admin.md) | Grants permission to manage pending actions in [!UICONTROL Company Settings]. |
 | [品牌联合](/help/admin/company/co-branding-admin.md) | 授予对 Analytics 进行品牌联合的权限。 |
@@ -58,7 +58,7 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
 | [Ad Hoc Analysis 授权用户](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/ad-hoc-analysis/adhoc-home.html) | Grants permission to access [!UICONTROL Ad Hoc Analysis]. |
 | Web 服务访问 | 为非管理员用户启用 Web 服务访问权限。生成 Web 服务凭据。 |
 | [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html) | Grants members of this group access to [!UICONTROL Report Builder] licenses. |
-| [Analysis Workspace 访问权限](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/analysis-workspace-features.html) | 授予用户访问 Analysis Workspace（[!DNL Adobe Analytics] 的推荐报表界面）的权限。 |
+| [Analysis Workspace 访问权限](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) | 授予用户访问 Analysis Workspace（[!DNL Adobe Analytics] 的推荐报表界面）的权限。 |
 | [Reports and Analytics](https://docs.adobe.com/content/help/en/analytics/landing/an-key-concepts.html) | 授予用户访问 Reports &amp; Analytics 的权限。 |
 | [计算量度创建](https://docs.adobe.com/content/help/zh-Hans/analytics/components/calculated-metrics/cm-overview.html) | 授予用户创建计算量度的权限。 |
 | [区段创建](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/seg-home.html) | 授予用户创建区段的权限。 |
