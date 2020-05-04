@@ -5,7 +5,7 @@ title: Analysis Workspace 中的新增功能
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -26,8 +26,8 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 | 功能 | 描述 |
 |--- |--- |
-| 支持Workspace中的多个报表包 | 您现在可以将多个报表包中的数据并排引入单个项目中以视图。 [了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
-| 培训教程模板 | 这个新的标准模板将指导您逐步了解在Workspace中构建第一个分析的常用术语和步骤。 该模板可用作新建项目模式中的标准模板，并替换当前存在的示例项目，供列表中没有其他项目的新用户使用。[了解更多...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
+| 支持Workspace中的多个报表包 | 您现在可以将多个报表包中的数据并排引入单个项目中视图。 [了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
+| 培训教程模板 | 这个新的标准模板将引导您逐步了解在Workspace中构建第一个分析的常用术语和步骤。 该模板可用作新建项目模式中的标准模板，并替换当前存在的示例项目，供列表中没有其他项目的新用户使用。[了解更多...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## 2020 年 2 月
 
@@ -36,8 +36,8 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 | 功能 | 描述 |
 |--- |--- |
 | 适用于使用跨设备分析的组织的新工作区模板 | 此模板显示CDA在拼接访问方面的有效性，并指导您了解CDA独有的维度和指标。 需要使用 CDA 的报表包。有关更多信息，请参阅[设置跨设备分析](https://docs.adobe.com/content/help/zh-Hans/analytics/components/cda/cda-setup.html)。 |
-| Workspace中的新热键 | <ul><li>折叠/展开所有面板：`alt + m`</li><li>折叠/展开活动面板：`alt + ctrl + m`</li><li>搜索左边栏：`ctrl + /`</li><li>移到下一个面板：`alt + Right Key`</li><li>移到上一个面板：`alt + Left Key`</li></ul>[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
-| 其他工作区增强功能 | <ul><li>将面板或可视化放入Workspace后，左边栏现在将自动切换到组件，以实现更无缝的工作流程。</li><li>模板组件现在可以根据这些组件进行操作（例如，标记、收藏、已批准）。</li><li>筛选的量度和区段列表优惠+按钮，添加新组件（如果找不到所需组件）。</li></ul> |
+| 工作区中的新热键 | <ul><li>折叠/展开所有面板：`alt + m`</li><li>折叠/展开活动面板：`alt + ctrl + m`</li><li>搜索左边栏：`ctrl + /`</li><li>移到下一个面板：`alt + Right Key`</li><li>移到上一个面板：`alt + Left Key`</li></ul>[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| 其他工作区增强功能 | <ul><li>将面板或可视化放入Workspace后，左边栏将自动切换到组件，实现更无缝的工作流程。</li><li>现在可以对模板组件进行操作（例如，标记、收藏、已批准）。</li><li>筛选的度量和区段列表优惠+按钮，添加新组件（如果您找不到所需组件）。</li></ul> |
 | 工作区调试器 | Workspace 调试器已添加到“帮助”菜单，可让您根据调试 Workspace 请求更加无缝地启用调试器。[了解更多...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
 ## 2020 年 1 月
@@ -54,7 +54,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 | 增强功能 | 描述 |
 |--- |--- |
-| 更新了自由格式表总计 | 自由格式表现在包含两个总计， **[!UICONTROL Table total]** a和a **[!UICONTROL Grand total]**。 表格总计行会将已应用的[报表过滤器](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)计入在内。以前，只有区段会影响总数的计算。[了](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>解更多 **[!UICONTROL Show Totals]** , **[!UICONTROL Show Grand Total]** 还添加了选项 **[!UICONTROL Column Settings]**。<br/>对自由形式总计进行此更改后，将更新相关可视化(例如链接的可 **[!UICONTROL Summary Number]** 视化)以及导出的CSV和PDF数据。 |
+| 更新了自由格式表总计 | 自由形式表现在包含两个总计， **[!UICONTROL Table total]** a和a **[!UICONTROL Grand total]**。 表格总计行会将已应用的[报表过滤器](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)计入在内。以前，只有区段会影响总数的计算。[了](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>解更多 **[!UICONTROL Show Totals]** 信息 **[!UICONTROL Show Grand Total]** ，还添加了选项 **[!UICONTROL Column Settings]**。<br/>对自由形式总计进行此更改后，将更新相关可视化(例如 **[!UICONTROL Summary Number]** 链接可视化)以及导出的CSV和PDF数据。 |
 | 用于删除“未指定/无”的选项 | 一个可以轻松删除“未指定（无）”的选项已经添加到报表过滤器。 |
 | 弃用紫色粒度组件 | 已弃用紫色的时间粒度组件（分钟、小时、日、周、月、季度、年）。紫色时间组件与对应的橙色维度组件的功能是一样的，因此这项更改将简化这方面的使用体验。即使之前使用了某个紫色时间组件，您也&#x200B;**无需执行任何操作**。<br/>通过此更改，紫色 **[!UICONTROL Time]** 部分也已更名为 **[!UICONTROL Date Ranges]**。 |
 
@@ -469,7 +469,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   </tr> 
   <tr> 
    <td colname="col1"> <p>贡献分析：<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  >令牌通知 </a> </p> </td> 
-   <td colname="col2"> <p>如果贵公司的贡献分析令牌数量有限，则您每次用掉一个令牌后 Analysis Workspace UI 中会显示相关通知。这可以让您知晓还剩下多少令牌。&amp;nbsp; </p> <p>（管理员用户：您可以通过编辑群组权限，对能够使用令牌的人员进行限制。此权限称为“异常检测和贡献分析”，位于 <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">编辑群组</span> &gt; <span class="uicontrol">编辑所有报表访问权限</span> &gt; <span class="uicontrol">自定义报表包工具</span> &gt; <span class="uicontrol">工具和报表</span>下。） </p> </td> 
+   <td colname="col2"> <p>如果贵公司的贡献分析令牌数量有限，则您每次用掉一个令牌后 Analysis Workspace UI 中会显示相关通知。这可以让您知晓还剩下多少令牌。&amp;nbsp </p> <p>（管理员用户：您可以通过编辑群组权限，对能够使用令牌的人员进行限制。此权限称为“异常检测和贡献分析”，位于 <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">编辑群组</span> &gt; <span class="uicontrol">编辑所有报表访问权限</span> &gt; <span class="uicontrol">自定义报表包工具</span> &gt; <span class="uicontrol">工具和报表</span>下。） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CSV 文件可包含多字节字符 </p> </td> 
@@ -519,7 +519,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > 地图可视化 </a> </p> </td> 
-   <td colname="col2"> <p>通过新的地图可视化，您可以轻松查看客户在其位置上下文内的交互。从宏观（全球）视图到微观（城市）视图，您可以轻松地放大和缩小可视化中的各种层次结构等级，以了解跨区域的客户集群。 </p> <p>您可以通过 IP 地址对位置数据进行可视化（对于非移动数据集），或者可以在 Analysis Workspace 中将经纬度数据（对于使用 Mobile SDK 的客户）变得生动有趣。&amp;nbsp; </p> </td> 
+   <td colname="col2"> <p>通过新的地图可视化，您可以轻松查看客户在其位置上下文内的交互。从宏观（全球）视图到微观（城市）视图，您可以轻松地放大和缩小可视化中的各种层次结构等级，以了解跨区域的客户集群。 </p> <p>您可以通过 IP 地址对位置数据进行可视化（对于非移动数据集），或者可以在 Analysis Workspace 中将经纬度数据（对于使用 Mobile SDK 的客户）变得生动有趣。&amp;nbsp </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  > 趋势可视化的粒度选择器 </a> </p> </td> 
@@ -682,7 +682,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
    <td colname="col2"> <p>允许您更改文本框可视化和面板/可视化描述中的字体设置（粗体、斜体等）和超链接。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/analysis-workspace-features.md#section_253EA04E067F4A29A8B54CE2B7631086"  >内部链接（使链接快速可视化）</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/home.md#section_253EA04E067F4A29A8B54CE2B7631086"  >内部链接（使链接快速可视化）</a></b> </p> </td> 
    <td colname="col2"> <p><b>内部链接</b>允许您从文本框向下链接到项目中的特定面板和可视化，如创建项目目录。您可以像共享项目链接一样共享这些链接，以将某个人定向到项目中的特定可视化或面板。新增了名为“获取面板链接”和“获取可视化图表链接”的右键单击选项。 </p> </td> 
   </tr> 
   <tr> 
@@ -973,12 +973,12 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 2016 年 6 月 16 日发布的新功能：
 
-* [允许管理员](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/user-product-management/user-groups/groups.html) “允许”或“拒绝”用户访问“ **[!UICONTROL Analytics]** >”选 **[!UICONTROL Workspace]** 项卡的新组权限。 自 2016 年 6 月 16 日开始，所有用户都将拥有访问此选项卡的权限。要拒绝访问，只需要从“Analysis Workspace 访问”组中删除用户即可。
+* [新的组权限](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/user-product-management/user-groups/groups.html) ，允许管理员允许或拒绝用户访问> **[!UICONTROL Analytics]** 选 **[!UICONTROL Workspace]** 项卡的权限。 自 2016 年 6 月 16 日开始，所有用户都将拥有访问此选项卡的权限。要拒绝访问，只需要从“Analysis Workspace 访问”组中删除用户即可。
 * The[区段比较面板](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)通过自动分析您有权访问的每个量度和维度，可发现任意两个区段之间的最显著统计学差异。
 * [新的项目菜单结构](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)重新排列了顶部菜单，提高了其可扩展性。例如，创建&#x200B;**新同类群组面板**&#x200B;的过程现在包括创建一个空白面板和拖入一个同类群组表可视化。
 * [新的左边栏](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：面板、可视化、组件
 * 新的[维恩图可视化类型](/help/analyze/analysis-workspace/visualizations/venn.md)允许您最多拖入 3 个区段和一个量度以构建维恩图。
-* 排名表格中的[趋势选择](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A)（折线图）现在已经关联。
+* 排名表格中的[趋势选择](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)（折线图）现在已经关联。
 * [“创建可视化”图标](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)：单击此图标可在执行下一步操作（条形图、维恩图...）时提供智能推测。
 * 扩展了[手动行](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)功能
 * [添加区段](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)拖放区域
@@ -1153,7 +1153,7 @@ In the [!UICONTROL Dimensions] component panel, you can hover over the informati
 
 ## 将 Y 轴定位为 0 {#section_83DF5DE79EF04F9F8DCB3154F5E799B3}
 
-根据折线图和面积图的数字，Y 轴的底部可能不为 0。启 **[!UICONTROL Anchor Y Axis at Zero]** 用 [!UICONTROL Visualization Settings] 将强制Y轴为零，从而更准确地视图趋势。 以下示例显示收入图表在启用和禁用此设置的情况下有何变化：
+根据折线图和面积图的数字，Y 轴的底部可能不为 0。实 **[!UICONTROL Anchor Y Axis at Zero]** 现 [!UICONTROL Visualization Settings] 强制Y轴为零，以更准确地视图趋势。 以下示例显示收入图表在启用和禁用此设置的情况下有何变化：
 
 **将 Y 轴定位为 0 已禁用**
 
