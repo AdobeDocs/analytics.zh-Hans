@@ -3,7 +3,7 @@ description: 'null'
 title: 运行贡献分析
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 1. 由于贡献分析现在属于 Analysis Workspace 的一部分，因此您可以利用表右键单击菜单中的大量功能使您的分析更有意义，例如：
 
    * [按其他维度划分每个维度项目。](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
-   * [显示一个或多个行的趋势。](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A)
+   * [显示一个或多个行的趋势。](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
    * [添加新的可视化。](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)
    * [创建警报。](/help/components/c-alerts/intellligent-alerts.md)
    * [创建或比较区段。](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -55,7 +55,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 有时，您可能想从“贡献分析”中排除一些维度。例如，您可能根本不关心任何与浏览器或硬件相关的维度，因此希望删除它们从而加快分析速度。
 
-1. 单击(或在折 **[!UICONTROL Run Contribution Analysis]** 线图 **[!UICONTROL Analyze]** 中)后，将显示 **[!UICONTROL Excluded Dimensions]** 面板。
+1. 单击(或 **[!UICONTROL Run Contribution Analysis]** 在折 **[!UICONTROL Analyze]** 线图中)后，将显示 **[!UICONTROL Excluded Dimensions]** 面板。
 
 1. 只需将任何不需要的尺寸拖 **[!UICONTROL Excluded Dimensions]** 入面板，然后单击以保存列表 **[!UICONTROL Set as Default]**。 Or, click **[!UICONTROL Clear All]** to start over with selecting dimensions to exclude.
 
