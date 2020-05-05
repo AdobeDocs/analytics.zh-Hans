@@ -2,16 +2,20 @@
 description: 有关使用仪表板记分卡的说明。
 title: Adobe Analytics仪表板执行指南
 translation-type: tm+mt
-source-git-commit: 34c04a571a53c61970a97bc454df74b71bdbe10c
+source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
 
 ---
 
 
-# Adobe Analytics仪表板:执行用户快速开始指南
+# Adobe Analytics仪表板: 执行用户快速开始指南
+
+>[!IMPORTANT]
+>
+>Adobe Analytics仪表板不会发布，只适用于受邀客户的测试版测试。 本文档仅面向测试版用户，不代表该功能的完整功能。 如果您对成为此>功能的测试版用户感兴趣，请与Ashok Gorrepati联系(gorrepati@adobe.com)。
 
 ## 简介
 
-Adobe Analytics仪表板可随时随地从Adobe Analytics提供洞察。  该应用程序允许用户通过移动设备访问直观的记分卡。记分卡是关键量度和其他组件的集合，这些组件以平铺布局显示，您可以点击它们以获取更详细的划分和趋势报表。仪表板在iOS和Android操作系统上都受支持。
+Adobe Analytics仪表板可以随时随地从Adobe Analytics提供洞察。  该应用程序允许用户通过移动设备访问直观的记分卡。记分卡是关键量度和其他组件的集合，这些组件以平铺布局显示，您可以点击它们以获取更详细的划分和趋势报表。仪表板在iOS和Android操作系统上都受支持。
 
 ## 关于本指南
 
@@ -24,15 +28,15 @@ Adobe Analytics仪表板可随时随地从Adobe Analytics提供洞察。  该应
 | 用户 | 在移动设备上查看 Analytics 中的关键量度和分析的执行人员 |
 | 策划人 | 精通数据的人员，可从 Analytics 中查找和发布分析数据，并配置供用户查看的记分卡 |
 | 策划 | 创建或编辑移动记分卡的操作，记分卡中包含用户的相关量度、维度和其他组件 |
-| 记分卡 | 包含一个或多个磁贴的仪表板视图 |
+| 记分卡 | 包含一个或多个拼贴的仪表板视图 |
 | 图块 | 记分卡视图中量度的呈现方式 |
 | 划分 | 一种辅助视图，点按记分卡中的图块可访问这种辅助视图。此视图将展开图块上显示的量度，并（可选）报告其他划分维度。 |
-| 日期范围 | 仪表板报告的主要日期范围 |
+| 日期范围 | 仪表板报告的主日期范围 |
 | 比较日期范围 | 与主要日期范围进行比较的日期范围 |
 
 ## 在设备上设置仪表板
 
-要有效地使用仪表板，您需要让Scorecard管理人帮助您设置它。 本节将介绍有助于您在策划人的帮助下设置应用程序的信息。
+要有效地使用仪表板，您需要让记分卡管理人帮助您设置它。 本节将介绍有助于您在策划人的帮助下设置应用程序的信息。
 
 ### 获取访问权限
 
@@ -57,7 +61,7 @@ Adobe Analytics仪表板可随时随地从Adobe Analytics提供洞察。  该应
 
 2. 点按屏幕上的&#x200B;**在 App Store 中查看**&#x200B;链接，以下载 Testflight 应用程序。
 
-3. 安装Testflight应用程序后，从Testflight中查找并安装Adobe Analytics仪表板，如下所示：
+3. 安装Testflight应用程序后，在Testflight中查找并安装Adobe Analytics仪表板，如下所示：
 
    ![Testflight 屏幕](assets/testflight2.png)
 
