@@ -4,7 +4,7 @@ title: Analysis Workspace 概述
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: efbbf94882a406e95791e38e80f86691285986a6
+source-git-commit: 225bc7022af656db5ad61bac2daf454c89ba1867
 
 ---
 
@@ -19,7 +19,7 @@ Analysis Workspace 去除了单一 Analytics 报表存在的所有典型限制�
 
 >[!VIDEO](https://video.tv.adobe.com/v/26266?quality=12)
 
-完整的 YouTube 播放列表可在[此处](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)获得。
+完整的 YouTube 播放列表可在[此处](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw/playlists?view=50&amp;sort=dd&amp;shelf_id=7)获得。
 
 >[!NOTE]
 >
