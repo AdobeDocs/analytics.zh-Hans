@@ -1,13 +1,13 @@
 ---
-title: 仪表板概述
+title: Adobe Analytics仪表板-概述
 description: Adobe Analytics仪表板的产品文档和自助服务
 translation-type: tm+mt
-source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
+source-git-commit: 7c1f35d92bfaccaf4d2bb7e16e93314d739545d3
 
 ---
 
 
-# Adobe Analytics仪表板概述
+# Adobe Analytics仪表板-概述
 
 >[!IMPORTANT]
 >
