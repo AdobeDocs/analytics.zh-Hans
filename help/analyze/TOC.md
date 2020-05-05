@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
+source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
 
 ---
 
@@ -328,7 +328,7 @@ source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
 + Labs {#tech-previews}
    + [Labs 概述](tech-previews/overview.md)
 + Adobe Analytics仪表板 {#mobapp}
-   + [Adobe Analytics仪表板概述](mobile-app/home.md)
+   + [Adobe Analytics仪表板-概述](mobile-app/home.md)
    + [策展人指南](mobile-app/curator.md)
    + [执行用户快速开始指南](mobile-app/executive.md)
 + 渐进式 Web 应用程序 {#pwa}
