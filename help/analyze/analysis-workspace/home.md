@@ -4,16 +4,19 @@ title: Analysis Workspace 概述
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 225bc7022af656db5ad61bac2daf454c89ba1867
+source-git-commit: 20e5273ba5a2c3416f13fd91e18621e5dd0eeac7
+workflow-type: tm+mt
+source-wordcount: '1134'
+ht-degree: 97%
 
 ---
 
 
 # Analysis Workspace 概述
 
-Analysis Workspace 去除了单一 Analytics 报表存在的所有典型限制。它提供了一个功能强大而灵活的画布，用于构建自定义分析项目。您可以向一个项目拖放任意数量的数据表、可视化信息和组件（维度、量度、区段和时间粒度）。可以即时创建划分和区段、创建用于分析的同类群组、创建警报、比较区段、进行流量和流失分析，并且组织和计划报表以与公司的其他人员共享。
+Analysis Workspace 去除了单一 Analytics 报表存在的所有典型限制。它提供了一个功能强大而灵活的画布，用于构建自定义分析项目。您可以向一个项目拖放任意数量的数据表、可视化信息和组件（维度、量度、区段和时间粒度）。可以即时创建划分和区段、创建用于分析的同类群组、创建警报、比较区段、进行流量和流失分析，并且组织和计划报表以与公司的其他人员共享。高级功能包括归因IQ、
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 工作区]**
 
 ## 概述视频
 
@@ -59,7 +62,7 @@ Analysis Workspace 可以提供自由和灵活性。
    ![](assets/intra-linking1.png)
 
 1. 滚动到该面板或可视化，并右键单击面板的标题。
-1. 向下滚动并选择 **[!UICONTROL Get Panel Link]** 或 **[!UICONTROL Get Visualization Link]**:
+1. 向下滚动并选择&#x200B;**[!UICONTROL 获取面板链接]**&#x200B;或&#x200B;**[!UICONTROL 获取可视化图表链接]**：
 
    ![](assets/intra-linking2.png)
 
@@ -67,11 +70,11 @@ Analysis Workspace 可以提供自由和灵活性。
 
 如果您在项目中折叠了面板或可视化，则单击链接将可展开该面板/可视化信息，以便用户可以看到它。
 
->[!NOTE] 您还可以在右键单击选项 **[!UICONTROL Edit Description]** 中使用此功能。
+>[!NOTE] 您还可以在&#x200B;**[!UICONTROL 编辑说明]**&#x200B;右键单击选项内使用此功能。
 
 ## 链接到其他项目
 
-You can link users to other projects that may be of interest to them by going to  **[!UICONTROL Share]** > **[!UICONTROL Get Project Link]** and embedding this link in project descriptions, for example.
+您可以将用户链接到其可能感兴趣的其他项目，方法是转到&#x200B;**[!UICONTROL 共享]** > **[!UICONTROL 获取项目链接]**，并嵌入此链接，例如嵌入到项目描述中。
 
 ## 查看选定单元格的动态可视化信息
 
@@ -89,7 +92,7 @@ You can link users to other projects that may be of interest to them by going to
 
 ## 呈现选定单元格的趋势可视化信息
 
-创建选定单元格的可视化信息。(右键单击> **[!UICONTROL Trend Selection]**.)
+创建选定单元格的可视化信息。（右键单击 > **[!UICONTROL 趋势选择]**。）
 
 ![](assets/trend-selection.png)
 
@@ -130,7 +133,7 @@ You can link users to other projects that may be of interest to them by going to
 
 ## 组件操作
 
-从位于组件左边栏顶部的“操作”菜单执行组件级别的操作。Select a component and click **[!UICONTROL Actions]** to view the actions.
+从位于组件左边栏顶部的“操作”菜单执行组件级别的操作。选择某个组件并单击&#x200B;**[!UICONTROL 操作]**&#x200B;可查看相关操作。
 
 | 组件操作 | 描述 |
 |--- |--- |
