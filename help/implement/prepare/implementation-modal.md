@@ -2,76 +2,81 @@
 title: “实施”模式窗口
 description: 了解客户首次实施 Adobe Analytics 的体验。
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+workflow-type: tm+mt
+source-wordcount: '30'
+ht-degree: 50%
 
 ---
 
 
 # “实施”模式窗口
 
-<!-- https://activation.adobedtm.com/index.php?redirected=1 -->
+请参阅 [创建报表包](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/create-report-suite.html)。
 
-“欢迎使用 Adobe Analytics”模式窗口中提供了一个创建报表包的简化工作流。Adobe 建议当组织中需要更多报表包时使用此工作流。
+<!-- https://activation.adobedtm.com/index.php?redirected=1 
 
-![模式窗口屏幕截图](assets/implementation-modal.png)
+The 'Welcome to Adobe Analytics' modal window provides a simplified workflow to create a report suite. Adobe recommends using this workflow whenever more report suites are needed in your organization.
 
-## 先决条件
+![Modal screenshot](assets/implementation-modal.png)
 
-您的 Adobe ID 必须能够同时访问 Adobe Analytics 和 Adobe Experience Platform Launch。如果您无权访问 Launch，则可能会陷入身份验证循环，即系统不断要求您验证凭据。联系组织中的系统管理员以获取对 Launch 的访问权限。
+## Prerequisites
 
-## 访问模式窗口
+Your Adobe ID must have access to both Adobe Analytics and Adobe Experience Platform Launch. If you do not have access to Launch, you can be placed into an authentication loop where it asks to verify your credentials indefinitely. Talk to a system admin in your organization to obtain access to Launch.
 
-访问此模式窗口以按以下步骤创建报表包。
+## Access the modal
 
-1. 使用您的 Adobe ID 凭据登录 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
-2. 单击顶部的 9 宫格图标，然后单击 [!UICONTROL Adobe Analytics]。
-3. 如果尚未创建报表包，则会自动显示此模式窗口。如果此登录公司存在报表包，请单击右上方的“帮助”图标，然后单击[!UICONTROL 欢迎使用 Adobe Analytics]。
+Access the modal to create a report suite using the following steps.
 
->[!NOTE] 仅当您通过 Adobe Experience Cloud 登录时，才会显示[!UICONTROL 欢迎使用 Adobe Analytics] 选项。如果通过旧域登录，则将不会显示此模式窗口。
+1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.
+2. Click the 9-grid icon at the top, then click [!UICONTROL Adobe Analytics].
+3. If you have not yet created a report suite, the modal automatically appears. If a report suite exists for this login company, click the Help icon in the top right, then click [!UICONTROL Welcome to Adobe Analytics].
 
-## 创建报表包
+>[!NOTE] The [!UICONTROL Welcome to Adobe Analytics] option only appears if you log in through the Adobe Experience Cloud. If you log in through legacy domains, the modal is not available.
 
-单击[!UICONTROL 开始设置]按钮以启动报表包创建工作流。
+## Create a report suite
 
-![RS 向导](assets/analytics-implementation-rs-wizard.png)
+Click the [!UICONTROL Start Setup] button to begin the report suite creation workflow.
 
-### 属性类型
+![RS wizard](assets/analytics-implementation-rs-wizard.png)
 
-属性类型可帮助 Adobe 根据您计划实施 Analytics 的位置确定一些后端设置。
+### Property type
 
-* **网站**：如果您计划仅为网站实施 Adobe Analytics。
-* **本机移动设备应用程序**：如果您计划仅为移动设备应用程序实施 Adobe Analytics。
-* **两者**：如果此报表包同时包含网站和移动设备应用程序的数据。
+Property type helps Adobe determine some backend settings based on where you intend to implement Analytics.
 
-### 行业
+* **Website**: If you intend to implement Adobe Analytics just for a website.
+* **Native Mobile App**: If you intend to implement Adobe Analytics just for a mobile app.
+* **Both**: If this report suite contains data for both a website and a mobile app.
 
-指定您的主要商业模式。此设置可帮助 Adobe 根据您的主要商业模式预配置一些变量名称和设置。
+### Industries
 
-### 数据层
+Specify your primary business model. This setting helps Adobe pre-configure some variable names and settings based on your primary business model.
 
-[数据层](data-layer.md)是一种 JavaScript 对象，可将实施中使用的所有变量都整理到一个有用位置。有关更多信息，请参阅[数据层](data-layer.md)。
+### Data layer
 
-### 数据存储库
+A [Data layer](data-layer.md) is a JavaScript object that organizes all variables used in your implementation into a single helpful location. See [Data layers](data-layer.md) for more information.
 
-为您的报表包提供一个友好名称。您的报表包 ID (RSID) 会根据友好名称和登录公司自动生成。
+### Data repository
 
-### 时区
+Give your report suite a friendly name. Your report suite ID (RSID) automatically generates based on the friendly name and login company.
 
-验证 Adobe 是否检测到报表包所处的正确时区。
+### Time zone
 
-### 估计每日页面查看次数
+Verify that Adobe detected the correct time zone for the report suite.
 
-估计您的网站或应用程序每天的流量。Adobe 可根据此信息为您的报表包分配适量的处理资源。
+### Estimated page views per day
 
-### 基本货币
+Estimate how much traffic your website or app gets per day. This information allows Adobe to allocate the correct amount of processing resources to your report suite.
 
-确定报表包存储货币值时所采用的币种。
+### Base currency
 
->[!IMPORTANT] 确保声明正确的货币，特别是当具有与收入相关的报告要求时。数据收集开始后，很难更改基本货币。
+Determine what currency the report suite stores monetary values in.
 
-## 实施资源
+>[!IMPORTANT] Make sure you state the correct currency, especially if you have reporting requirements around revenue. It is difficult to change base currency after data collection begins.
 
-创建报表包后，您可以选择以下两个选项之一来继续实施：
+## Implementation resources
 
-* **转到 Adobe Experience Platform Launch**：将链接至 [launch.adobe.com](https://launch.adobe.com)，以配置实施和下载部署代码。请参阅[使用 Launch 实施](../launch/overview.md)。大多数情况下，Adobe 建议使用 Launch。
-* **下载实施代码**：提供一个直接链接，通过该链接可下载手动实施 JavaScript 所需的 JavaScript 文件。请参阅 [AppMeasurement for JavaScript](../js/overview.md)。
+After the report suite is created, you have one of two options to proceed with your implementation:
+
+* **Go to Adobe Experience Platform Launch**: Links you to [launch.adobe.com](https://launch.adobe.com) to configure your implementation and download deploy code. See [Implement with Launch](../launch/overview.md). Adobe recommends using Launch in most cases.
+* **Download implementation code**: Provides a direct link to download JavaScript files for a manual JavaScript implementation. See [AppMeasurement for JavaScript](../js/overview.md). -->
