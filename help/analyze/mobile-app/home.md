@@ -2,7 +2,10 @@
 title: Adobe Analytics仪表板-概述
 description: Adobe Analytics仪表板的产品文档和自助服务
 translation-type: tm+mt
-source-git-commit: 7c1f35d92bfaccaf4d2bb7e16e93314d739545d3
+source-git-commit: b3772b96e02f6e3c6fb4f6c4a9f5df04512491e3
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 46%
 
 ---
 
@@ -11,12 +14,12 @@ source-git-commit: 7c1f35d92bfaccaf4d2bb7e16e93314d739545d3
 
 >[!IMPORTANT]
 >
->Adobe Analytics仪表板不会发布，只适用于受邀客户的测试版测试。 本文档仅面向测试版用户，不代表该功能的完整功能。 如果您对成为此>功能的测试版用户感兴趣，请与Ashok Gorrepati联系(gorrepati@adobe.com)。
+>Adobe Analytics仪表板不会发布，只适用于受邀客户的测试版测试。 本文档仅面向测试版用户，并不代表完整的功能。如果您对成为此功能的测试版用户感兴趣，请与Ashok Gorrepati联系(gorrepati@adobe.com)。
 
-Adobe Analytics仪表板可以随时随地从Adobe Analytics提供洞察。 该应用程序允许用户通过移动设备访问直观的记分卡。记分卡是关键量度和其他组件的集合，这些组件以平铺布局显示，您可以点击它们以获取更详细的划分和趋势报表。iOS 和 Android 操作系统均支持移动设备应用程序。
+**[!UICONTROL Adobe Analytics仪表板可]** 以随时随地从Adobe Analytics提供洞察。 该应用程序允许用户通过移动设备访问直观的记分卡。记分卡是关键量度和其他组件的集合，这些组件以平铺布局显示，您可以点击它们以获取更详细的划分和趋势报表。iOS 和 Android 操作系统均支持移动设备应用程序。
 
-以下测试版文档可供仪表板使用：
+以下测试版文档可供 [!UICONTROL 仪表板]:
 
-* [策展人指南](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/mobapp/curator.html): 本指南旨在帮助仪表板的数据管理者为其管理用户配置记分卡。 策展人可以是组织管理员或其他角色中负责设置记分卡的人员。
+* [策展人指南](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/mobapp/curator.html): 本指南旨在帮助仪表板的数据管理者为其管理用户配置记分卡 。 策展人可以是组织管理员或其他角色中负责设置记分卡的人员。
 
-* [执行用户快速开始指南](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/mobapp/executive.html): 本指南旨在帮助执行用户阅读和解释仪表板上的记分卡。 该应用程序使执行用户能够在自己的移动设备上快速、轻松地查看广泛呈现的重要摘要数据。
+* [执行用户快速开始指南](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/mobapp/executive.html): 本指南旨在帮助执行用户阅读和解释仪表板上的 [!UICONTROL 记分卡]。 该应用程序使执行用户能够在自己的移动设备上快速、轻松地查看广泛呈现的重要摘要数据。
