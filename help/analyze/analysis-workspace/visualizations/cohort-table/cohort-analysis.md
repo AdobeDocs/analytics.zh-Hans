@@ -4,7 +4,10 @@ title: 什么是同类群组分析？
 topic: Reports and analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: 99232c5bce94cfc55b9f01080555cb8e545442e9
+source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+workflow-type: tm+mt
+source-wordcount: '478'
+ht-degree: 91%
 
 ---
 
@@ -29,7 +32,7 @@ source-git-commit: 99232c5bce94cfc55b9f01080555cb8e545442e9
 
 >[!IMPORTANT]
 >
->同类群组分析不支持计算量度。
+>同期群分析不支持非可细分指标，如计算指标、非整数指标或 [!UICONTROL 发生]。 只有可在细分中使用的指标才能用于同期群分析，并且一次只能增加1。
 
 ## 同类群组分析功能
 
