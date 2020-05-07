@@ -1,72 +1,71 @@
 ---
-keywords: Analysis Workspace
 title: 什么是同类群组分析？
-topic: Reports and analytics
-uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
+description: 了解分析工作区中的同期群分析
 translation-type: tm+mt
-source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+source-git-commit: 79849c574909543d74e2935e493008927700585d
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 91%
+source-wordcount: '472'
+ht-degree: 45%
 
 ---
 
 
-# 什么是同类群组分析？
+# What is [!UICONTROL Cohort Analysis]?
 
-*`cohort`* 是指一组在特定期限内共享相同特性的人员。例如，在您想了解如何让一个同类群组喜欢某个品牌时，同类群组分析就能派上用场。您可以轻松识别趋势中的变化，然后相应地采取回应（网上提供了有同类群组分析的解释说明，例如，[同类群组分析基础](https://en.wikipedia.org/wiki/Cohort_analysis)）。
+*`cohort`* 是指一组在特定期限内共享相同特性的人员。[!UICONTROL 例如，在您想了解如何让一个同类群组喜欢某个品牌时，同类群组分析就能派上用场。]您可以轻松识别趋势中的变化，然后相应地采取回应(Explanations of [!UICONTROL Cohort Analysis] are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
 创建队列报表后，您可以组织其组件（特定的维度、量度和区段），然后可以与其他任何人员共享这份队列报表。请参阅[策划与共享](/help/analyze/analysis-workspace/curate-share/curate.md)。
 
-使用同类群组分析可以实现的作用（示例）：
+Examples of what you can do with [!UICONTROL Cohort Analysis]:
 
 * 启动旨在推动所需操作的促销活动。
 * 在客户生命周期的恰当时间内转变营销预算。
-* 识别终止试用或优惠活动的时间，以实现价值的最大化。
+* 识别何时结束试用或优惠，以实现最大价值。
 * 获取在一些领域（例如，定价、升级路径等）内进行 A/B 测试的建议。
-* 在引导分析报表中查看同类群组分析报表。
+* View a [!UICONTROL Cohort Analysis] report within a Guided Analysis report.
 
-同类群组分析适用于具有 Analysis Workspace 访问权限的所有 Analytics 客户。
+[!UICONTROL 同期群分析] 适用于有权访问分析工作区的所有Adobe Analytics [!UICONTROL 客户]。
 
 [YouTube 上的同类群组分析](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
 
 >[!IMPORTANT]
 >
->同期群分析不支持非可细分指标，如计算指标、非整数指标或 [!UICONTROL 发生]。 只有可在细分中使用的指标才能用于同期群分析，并且一次只能增加1。
+>[!UICONTROL 同期群分析] 不支持非可细分指标（包括计算指标）、非整数指标（如收入）或发生次数。 只有可在区段中使用的指标才能用于
+>[!UICONTROL 同期群分析]，而且每次只能增加1。
 
 ## 同类群组分析功能
 
-2019 年 1 月，Adobe 发布了一个功能显著增强的新版同类群组分析。该版本允许对正在构建的同类群组进行更为精细的控制。以下是其特有的增强功能：
+以下功能允许对您正在构建的群组进行微调控制：
 
-### 维系率表
+### [!UICONTROL 维系率表]
 
-维系同类群组报表返回访客：每个数据单元格显示了同类群组中在该时间段内执行操作的访客原始数量和百分比。您最多可以包含 3 个量度和 10 个区段。
+A [!UICONTROL Retention] cohort report returns visitors: each data cell shows the raw number and percentage of visitors in the cohort who did the action during that time period. 您最多可以包含 3 个量度和 10 个区段。
 
 ![](assets/retention-report.png)
 
-### 流失率表
+### [!UICONTROL 流失率表]
 
-流失率同类群组与维系率表完全相反，会显示随着时间的推移，您的同类群组中已流失或从不满足回访标准的访客。您最多可以包含 3 个量度和 10 个区段。
+A [!UICONTROL Churn] cohort is the inverse of a retention table and shows the visitors who fell out or never met the return criteria for your cohort over time. 您最多可以包含 3 个量度和 10 个区段。
 
 ![](assets/churn-report.png)
 
-### 滚动计算
+### [!UICONTROL 滚动计算]
 
 允许您根据前一列而不是所包含的列计算维系率或流失率。
 
 ![](assets/cohort-rolling-calculation.png)
 
-### 延时表
+### [!UICONTROL 延时表]
 
-衡量包含事件发生之前和之后经过的时间。此表非常适用于进行事件之前/之后分析。“已包括”列位于该表的中心，而包含事件之前和之后的时间段则分别显示在两侧。
+衡量包含事件发生之前和之后经过的时间。此表非常适用于进行事件之前/之后分析。The **[!UICONTROL Included]** column is in the center of the table and time periods before and after the inclusion event are shown on both sides.
 
 ![](assets/cohort-latency.png)
 
-### 自定义维度同类群组
+### [!UICONTROL 自定义维度同类群组]
 
-创建基于所选维度的同类群组，而不是默认的基于时间的同类群组。在 Adobe Analytics 中使用营销渠道、促销活动、产品、页面、区域或任何其他维度，可显示维系率根据这些维度值的不同有何变化。
+创建基于所选维度的同类群组，而不是默认的基于时间的同类群组。Use dimensions such as [!UICONTROL marketing channel], [!UICONTROL campaign], [!UICONTROL product], [!UICONTROL page], [!UICONTROL region], or any other dimension in Adobe Analytics to show how retention changes based on the different values of these dimensions.
 
 ![](assets/cohort-customizable-cohort-row.png)
 
-有关如何设置和运行同类群组报表的说明，请转到[配置同类群组分析报表](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。
+有关如何设置和运行同期群报告的说明，请转 [至配置同期群分析报告](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。
 
