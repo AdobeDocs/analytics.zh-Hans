@@ -5,7 +5,10 @@ solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 链接跟踪
 uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
 translation-type: tm+mt
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: 354785439a5920d8fc53d566fa9306c74e2504d2
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 95%
 
 ---
 
@@ -14,9 +17,7 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 部署 Analytics 时，动态标签管理中用于链接跟踪的字段描述。
 
-**[!UICONTROL *`Property`*]**> **[!UICONTROL![](assets/settings_gear.png)
-
-编辑工具]** > **[!UICONTROL 链接跟踪]**
+**[!UICONTROL “属性]** ”>“ ![齿轮”图](assets/settings_gear.png) 标“编 **[!UICONTROL 辑工具”]** >“链接跟 **[!UICONTROL 踪”]**
 
 <table id="table_F23FB0B284E74B66A107B1D69D22A51C">
  <thead>
