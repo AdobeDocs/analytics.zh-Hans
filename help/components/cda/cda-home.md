@@ -2,7 +2,10 @@
 title: Cross-Device Analytics
 description: Cross-Device Analytics 可将设备数据拼合在一起，从而将您的数据从以设备为中心转变为以人员为中心。
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 40d4dae0c54b8a71325846ae7f1c02947f9d36ea
+workflow-type: tm+mt
+source-wordcount: '1029'
+ht-degree: 89%
 
 ---
 
@@ -33,9 +36,9 @@ Cross-Device Analytics 是一项功能，可将 Analytics 从以设备为中心�
 * 联系贵组织的客户经理以确定以下要点：
    * 必须与 Adobe 签订有关 Adobe Analytics Ultimate 的合同。
    * 贵组织必须使用 Adobe Experience Platform Identity Service 协作图或专用图。请参阅《Device Co-op 用户指南》中的[主页](https://docs.adobe.com/content/help/zh-Hans/device-co-op/using/home.html)。
-   * 本着合作和透明的精神，我们希望我们的客户了解我们与跨设备分析相结合使用Microsoft Azure的情况。 Adobe使用Azure存储设备图形数据并执行跨设备拼接。 因此，Adobe Analytics数据会在Adobe的数据处理中心和Adobe的Microsoft Azure配置实例之间来回传递。
+   * 本着合作精神和透明精神，我们希望客户了解我们与跨设备分析相结合使用Microsoft Azure。 Adobe使用Azure存储设备图形数据并执行跨设备拼接。 因此，Adobe Analytics数据在Adobe的数据处理中心和Adobe的Microsoft Azure配置实例之间来回传递。
 * Cross-Device Analytics 是按报表包启用的。已启用 CDA 的报表包需要满足以下条件：
-   * 报表包每天的点击量不能超过5亿。
+   * 报表包每天的点击量不能超过5亿次。
    * Adobe 建议在报表包中纳入跨设备数据，即，来自多种设备类型（Web、应用程序等）的数据。某些组织将此概念称为“全球”报表包，尽管从地理角度来说，CDA 并不一定包含严格意义上的全球范围。Cross-Device Analytics 不适用于多个报表包，也无法合并多个报表包的数据。
 * 您的实施必须满足以下要求：
    * 必须部署最新版本的 Experience Cloud ID 服务。请参阅《Experience Cloud Identity Service 用户指南》中的[主页](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)。大多数使用 Adobe Experience Platform Launch 的实施可能已经部署 ECID。
@@ -56,7 +59,7 @@ Cross-Device Analytics 是一项具有突破性的强大功能，但其使用方
 * Cross-Device Analytics 使用虚拟报表包和报表时间处理，二者各有其自身的限制。有关具体限制的详细信息，请参阅[虚拟报表包](../vrs/vrs-about.md)和[报表时间处理](../vrs/vrs-report-time-processing.md)。
 * 不支持 1.4 API。Power BI 连接器和 Report Builder 都依赖于 1.4 API，因此与 CDA 不兼容。
 * 如果您的组织使用专用图，则新设备拼接最多需要24小时。
-* 访问网站的新设备最长可能需要两周时间才能通过合作图进行处理。 CDA 中针对最近两周数据的拼合级别，通常低于两周以前的日期范围。Adobe计划在将来将合作图改进为每日更新的图。
+* 访问网站的新设备最长可能需要两周时间才能通过合作图进行处理。 CDA 中针对最近两周数据的拼合级别，通常低于两周以前的日期范围。
 * 虚拟报表包中的历史数据会因 Adobe 识别和拼合的设备而发生变化。源报表包中的数据不会更改。
 
 贵组织在满足所有要求并了解相关限制后，便可以开始[设置 Cross-Device Analytics](cda-setup.md)。
