@@ -2,7 +2,10 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: fedece99d8d9fdaf4eb9ba5e997c7ee2f378df4c
+workflow-type: tm+mt
+source-wordcount: '810'
+ht-degree: 90%
 
 ---
 
@@ -29,6 +32,16 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 2. 单击所需的属性。
 3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的[!UICONTROL 配置]按钮。
 4. 展开[!UICONTROL 常规]折叠面板，这会显示[!UICONTROL 货币代码]字段。
+
+您可以使用预设货币代码或自定义货币代码。如果使用自定义货币代码，请确保该代码有效。
+
+## Adobe Experience Platform Mobile SDK中的货币代码
+
+货币代码通过Adobe Analytics扩展中的上下文数据变量传递到Adobe Experience Platform Mobile SDK。
+
+1. 在或期间在上下文数据变量中设置货币 `trackState` 代码 `trackAction`。
+2. 在Adobe Analytics管理控制台中为报表包创建处理规则。 设置规则以覆盖货币代码变量。
+3. 将货币代码传递 `products` 给调用或的变 `trackState` 量 `trackAction`。
 
 您可以使用预设货币代码或自定义货币代码。如果使用自定义货币代码，请确保该代码有效。
 
