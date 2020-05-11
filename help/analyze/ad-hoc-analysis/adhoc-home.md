@@ -1,7 +1,7 @@
 ---
-description: 临时分析介绍
+description: Ad Hoc Analysis 简介
 title: Ad Hoc Analysis 概述
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 ---
