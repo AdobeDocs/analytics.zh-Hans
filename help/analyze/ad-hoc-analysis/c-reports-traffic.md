@@ -3,7 +3,7 @@ description: 通过使用流量源报表，可以深入分析访客与您的网�
 title: 流量源报表
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 **一般持久性**
 
-In [!UICONTROL Traffic Sources], all report values persist and receive credit until they are overwritten or until the visit ends, whichever comes first. 以前，只有“关键词”和“反向链接域名”会持续存在。例如，如果访客用 Google 搜索“DVD”并因此将访客带入您的网站并消费 100 美元，则报表将为关键字“DVD”以及 Google 搜索引擎分别分配 100 美元信用。这项功能不会发生改变，无论 [!DNL Admin Console] 如何设置。
+在“[!UICONTROL 流量源]”中，所有报表值都持续存在且会获得信用，直到它们被覆盖或访问结束（以先发生者为准）。以前，只有“关键词”和“反向链接域名”会持续存在。例如，如果访客用 Google 搜索“DVD”并因此将访客带入您的网站并消费 100 美元，则报表将为关键字“DVD”以及 Google 搜索引擎分别分配 100 美元信用。这项功能不会发生改变，无论 [!DNL Admin Console] 如何设置。
 
 ## 搜索关键词 {#concept_071FDCBD0A3B4242BA00744786D1C59C}
 
@@ -38,11 +38,11 @@ c_reports_search_keyword.xml
 
  -->
 
-**[!UICONTROL Search Keywords - All]**:显示用于查找站点的每个搜索关键字的细分。 可点击列表上方的列标题，按页面查看或搜索关键词对列表排序。点击搜索关键词旁边的放大镜，可查看网站的搜索结果。
+**[!UICONTROL 搜索关键词 - 全部]**：显示用于查找网站的各个搜索关键词的分类。可点击列表上方的列标题，按页面查看或搜索关键词对列表排序。点击搜索关键词旁边的放大镜，可查看网站的搜索结果。
 
-**[!UICONTROL Search Keywords - Paid]**:显示用于查找站点的每个付费搜索关键字的细分。 可点击列表上方的列标题，按页面查看或搜索关键词对列表排序。点击搜索关键词旁边的放大镜，可查看网站的搜索结果。
+**[!UICONTROL 搜索关键词 - 付费]**：显示搜索关键词分类细目，其中包含用于查找您的网站的每个付费搜索关键词。可点击列表上方的列标题，按页面查看或搜索关键词对列表排序。点击搜索关键词旁边的放大镜，可查看网站的搜索结果。
 
-**[!UICONTROL Search Keywords - Natural]**:显示用于查找站点的每个自然搜索关键字的细分。 可点击列表上方的列标题，按页面查看或搜索关键词对列表排序。点击搜索关键词旁边的放大镜，可查看网站的搜索结果。
+**[!UICONTROL 搜索关键词 - 免费]**：显示搜索关键词分类细目，其中包含用于查找您的网站的每个免费搜索关键词。可点击列表上方的列标题，按页面查看或搜索关键词对列表排序。点击搜索关键词旁边的放大镜，可查看网站的搜索结果。
 
 ## 搜索引擎 {#concept_351CDE4F5FC44371B6B657064E125134}
 
@@ -54,11 +54,11 @@ c_reports_search_engines.xml
 
  -->
 
-**[!UICONTROL Search Engines - All]**:显示人们使用哪些搜索引擎查找您的网页。 其中图表显示用于查找网站的搜索引擎的百分比分类。
+**[!UICONTROL 搜索引擎 - 全部]**：显示用户使用哪些搜索引擎来查找网页。其中图表显示用于查找网站的搜索引擎的百分比分类。
 
-**[!UICONTROL Search Engines - Paid]**:显示人们使用哪些付费关键字搜索引擎来查找您的网页。 其中图表显示用于查找网站的搜索引擎的百分比分类。
+**[!UICONTROL 搜索引擎 - 付费]**：显示用户使用哪些付费关键词搜索引擎来查找网页。其中图表显示用于查找网站的搜索引擎的百分比分类。
 
-**[!UICONTROL Search Engines - Natural]**:显示用户使用哪些自然关键字搜索引擎查找您的网页。 其中图表显示用于查找网站的搜索引擎的百分比分类。
+**[!UICONTROL 搜索引擎 - 免费]**：显示用户使用哪些免费关键词搜索引擎来查找网页。其中图表显示用于查找网站的搜索引擎的百分比分类。
 
 ## 反向链接域名 {#concept_804614DF21C14C9FB542451B30F92788}
 
@@ -94,7 +94,7 @@ c_reports_referrers.xml
 
 域和 URL 如果不属于这些定义的对象则会被视为反向链接。例如，网页 A 和网页 B 都被添加到内部 URL 过滤器中，但是网页 C 没有。在这种情况下，网页 C 被视为反向链接。
 
-有关详细信息，请参阅 [!DNL Admin Console] 帮助中的[内部 URL 过滤器](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/internal-url-filter-admin.html)。
+有关详细信息，请参阅 [!DNL Admin Console] 帮助中的[内部 URL 过滤器](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/internal-url-filter-admin.html)。
 
 >[!NOTE]当访客点击电子邮件中含有 [!DNL imap://] 或 [!DNL mail://] 协议的链接而进入您的网站时，Marketing Reports and Analytics 会将反向链接域记录为电子邮件。例如，由于协议为 [!DNL https://]，因此来自 [!DNL https://mail.yahoo.com] 的任何消息均不会计为电子邮件反向链接。Outlook 电子邮件会报告于“键入/书签式”行上，而任何采用 HTTP 协议（域为已知搜索引擎）的反向链接均报告于“搜索引擎”行上。
 
@@ -129,5 +129,5 @@ c_reports_ref_types.xml
 
 **USENET（新闻组）**：这表示反向链接的 URL 以 `news://` 开头。因此，反向链接是被发布在 USENET 新闻组中，而不是网页上。
 
->[!NOTE] 推荐人类型逻辑与其他流量源报表(如 [!UICONTROL Referrers] 和 [!UICONTROL Referring Domains])匹配。 This should reduce or eliminate the occurrences of the Inside Your Site and No JavaScript line items in the [!UICONTROL Referrer Type] report.
+>[!NOTE]“反向链接类型”在逻辑上与其他流量源报表（例如[!UICONTROL 反向链接]和[!UICONTROL 反向链接域]）匹配。这会减少[!UICONTROL 反向链接类型]报表中出现“网站内部”和“无 JavaScript”行项目的次数，或者使其不再出现。
 
