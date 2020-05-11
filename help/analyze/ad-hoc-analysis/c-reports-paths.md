@@ -3,7 +3,7 @@ description: 显示有关访客访问网站页面的顺序的信息。您可以�
 title: 路径报表
 topic: Ad hoc analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
