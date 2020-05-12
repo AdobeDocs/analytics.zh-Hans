@@ -3,7 +3,7 @@ product: analytics
 audience: all
 user-guide-title: Analytics 技术说明
 user-guide-url: /content/help/en/analytics/technotes/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
 
 ---
@@ -28,7 +28,7 @@ source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
    + [处理平台之间的差异](ga-to-aa/processing-differences.md)
 + 分析受事件影响的数据 {#event}
    + [分析受事件影响的数据概述](event/overview.md)
-   + [排除分析中的特定日期](event/segments.md)
+   + [在分析中排除特定日期](event/segments.md)
    + [将日期与先前的范围进行比较](event/compare-dates.md)
    + [派生受事件影响的数据](event/calcmetrics.md)
    + [向用户传达事件](event/communicate.md)
