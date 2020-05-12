@@ -3,7 +3,7 @@ description: 实施 Audience Analytics 时可能遇到的问题的解答。
 solution: Experience Cloud
 title: 常见问题解答
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
    <td colname="col2"> 
     <ul id="ul_71E0ECD5981D4B65BCDA065BE07A43AA"> 
      <li id="li_F8FF61A4D7B54BA39DAA6F28DB51D749">如果 prop 或 eVar 中包含电子邮件、地址等信息，则应考虑在数据收集期间对数据执行哈希处理。 </li> 
-     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">如果您所在的国家/地区将 IP 地址视为 PII，则应<a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/exclude-ip.html"  >开启 IP 模糊处理</a>。 </li> 
+     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">如果您所在的国家/地区将 IP 地址视为 PII，则应<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/exclude-ip.html"  >开启 IP 模糊处理</a>。 </li> 
      <li id="li_C7AA02B831AE47A59E783623126A7789">咨询您的 Analytics 管理员，以了解您所收集的信息。 </li> 
      <li id="li_F6AAE868141E486AB8CAB291BD8EDB71">咨询您的法务部门，以了解他们将什么信息视为 PII。 </li> 
     </ul> </td> 
@@ -45,7 +45,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>问：我如何在 Audience Manager 中创建 Analytics 目标？</b> </p> </td> 
-   <td colname="col2"> 请参阅<a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  >在 AAM 中配置 Analytics 目标</a>。 </td> 
+   <td colname="col2"> 请参阅<a href="https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  >在 AAM 中配置 Analytics 目标</a>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：在创建并保存了 Analytics 目标之后，需要多久才会在我选择的报表包中显示数据？</b> </p> </td> 
@@ -136,7 +136,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>问：为何 Audience Manager 与 Analytics 提供的区段访客计数存在差异？</b> </p> </td> 
-   <td colname="col2"> <p>请参阅 <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > 访客计数差异 </a>. </p> </td> 
+   <td colname="col2"> <p>请参阅<a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  >访客计数差异 </a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：AAM 中的“受众”和 Analytics 中的“区段”之间有哪些区别？</b> </p> </td> 
