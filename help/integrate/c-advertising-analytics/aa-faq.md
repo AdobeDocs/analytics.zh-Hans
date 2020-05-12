@@ -2,7 +2,7 @@
 description: 'null'
 title: 常见问题解答
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -108,7 +108,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col2"> <p>答：AMO ID 将捕获以下搜索引擎量度：展示次数、成本、点击次数、平均位置和平均质量分数。如果没有点击次数，但具有展示次数，则仍会将展示次数/位置/质量分数数据发送到 Analytics。一般情况下，如果没有点击次数，则也不会有成本。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>问：此类数据是在哪个级别捕获的？<b>Visitor? 点击级别？</b> </p> </td> 
+   <td colname="col1"> <p>问：此类数据是在哪个级别捕获的？<b>访客？点击级别？</b> </p> </td> 
    <td colname="col2"> <p>答：搜索引擎量度是在点击级别捕获的，且关联到 AMO ID（及其分类）。此类数据是概要级别的数据，未关联到访问次数/访客数。因此，搜索引擎量度只能在属于点击级别范围且基于 AMO ID（或其分类）的区段中使用。 </p> <p>AMO ID 也可以在登陆页面上通过点击该页面来捕获（这会将此 ID 关联到访问/访客），此 ID 将保留到下游，以便获取其他 Analytics 量度的点数（直到此 ID 过期或被新的 AMO ID 覆盖）。与任何其他 eVar 一样，AMO ID 会完全合并到数据集中。 </p> </td> 
   </tr> 
   <tr> 
