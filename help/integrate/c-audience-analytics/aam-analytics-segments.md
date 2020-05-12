@@ -2,7 +2,7 @@
 description: Analytics 和 Audience Manager 均使用区段。但是，Analytics 区段和 Audience Manager 区段并不完全一样。这些区别在某种程度上造成了 Analytics 和 Audience Manager 报表之间的差异。因此，当您开始使用这两种解决方案中的区段时，尝试了解这些差异是非常重要和有用的。
 title: 了解 Analytics 和 Audience Manager 中的区段
 uuid: 13f7d1d7-6a3f-42f1-822e-8d3523999efa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -25,7 +25,7 @@ Audience Manager 区段成员资格不是固定不变。用户可以进入或退
 
 Audience Manager 区段在 Analytics 中以受众的形式表示。
 
-有关详细信息，请参阅[区段生成器中的特征和区段人口数据](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html)和[信号、特征和区段](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/signal-trait-segment.html)。
+有关详细信息，请参阅[区段生成器中的特征和区段人口数据](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/features/segments/segment-builder-data.html)和[信号、特征和区段](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/reference/signal-trait-segment.html)。
 
 ## Analytics 区段 {#section_62EC584BB7134E10923BCBA7F9BD89A8}
 
