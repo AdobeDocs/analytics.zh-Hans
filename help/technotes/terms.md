@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics 中使用的术语
 description: Adobe Analytics 词汇表，用于定义常用术语。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2137572c9c5d08e4a293ea4d285b78a12b37925
 
 ---
@@ -27,12 +27,12 @@ source-git-commit: f2137572c9c5d08e4a293ea4d285b78a12b37925
    * 跟踪代码维度的默认分类；将自动为所有报表包创建。
    * Adobe Campaign 是 Adobe Experience Cloud 的一部分。可在 [Adobe.com](https://www.adobe.com/cn/marketing/campaign.html) 查看更多相关信息。
 * **渠道：**&#x200B;可以称为：
-   * 渠道变量，用于填充“网站区域”维度。See [Page variables](/help/implement/vars/page-vars/page-variables.md) in the Implement user guide.
+   * 渠道变量，用于填充“网站区域”维度。请参阅实施用户指南中的[页面变量](/help/implement/vars/page-vars/page-variables.md)。
    * 营销渠道，可以帮助了解用户如何到达您网站的组件。请参阅组件用户指南中的[营销渠道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
 * **分类：** Adobe Analytics 中允许对维度值进行分组的功能。请参阅组件用户指南中的[分类](/help/components/c-classifications2/c-classifications.md)。
 * **Clickmap：**&#x200B;不再使用。一个旧版浏览器插件，用于显示您网站上哪些区域的点击率最高。此工具已停用，改为 Activity Map。
 * **点击流数据馈送：**&#x200B;请参阅“数据馈送”。
-* **同类群组：**&#x200B;一组在特定时间段内具有共同特征的人员。请参阅分析用户指南中的[什么是队列分析？](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) 分析用户指南中。
+* **同类群组：**&#x200B;一组在特定时间段内具有共同特征的人员。请参阅分析用户指南中的[什么是队列分析？](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
 * **收集服务器：**&#x200B;请参阅“数据收集服务器”。
 * **上下文数据变量：**&#x200B;仅用于处理规则的临时变量。如果处理规则未将上下文数据变量值复制到转化或流量变量，则上下文数据变量值将永久丢失。请参阅实施用户指南中的[上下文数据变量](../implement/vars/page-vars/contextdata.md)。
 * **转化变量：**&#x200B;通常称为 eVar。存储自定义值，并保留变量值，直到其过期。请参阅组件用户指南中的[转化变量](/help/components/c-variables/dimensionslist/reports-conversion.md)。
