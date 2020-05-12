@@ -2,7 +2,7 @@
 description: 'null'
 title: Audience Analytics 用例
 uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -24,8 +24,8 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ## 前景分析 {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
-作为一家 B2B 零售商，您现在可以使用[连续分段](https://docs.adobe.com/help/en/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html)深入分析潜在受众在购买之前的行为，这有助于您了解有哪些操作会促使转化。
+作为一家 B2B 零售商，您现在可以使用[连续分段](https://docs.adobe.com/help/zh-Hans/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html)深入分析潜在受众在购买之前的行为，这有助于您了解有哪些操作会促使转化。
 
 ## 人口统计定位 {#section_F034DB721A06419283DBD29D4A1B444B}
 
-作为一家目的地度假酒店，您可以使用 [Analysis Workspace 中的直方图](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/histogram.html)来了解各个年龄段的购买情况。这有助于您确定每个度假区设施的合适受众。
+作为一家目的地度假酒店，您可以使用 [Analysis Workspace 中的直方图](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/histogram.html)来了解各个年龄段的购买情况。这有助于您确定每个度假区设施的合适受众。
