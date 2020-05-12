@@ -3,7 +3,7 @@ description: 当报表具有大量的唯一值时，Adobe 提供的功能可确�
 title: Adobe Analytics 中的低流量值
 topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -41,7 +41,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 不同的功能处理低流量值的方式不同。
 
-* **数据仓库：**&#x200B;数据仓库报表中的唯一值数量没有限制。其独特的架构允许报告任意数量的唯一值。
+* **Data Warehouse：** Data Warehouse 报表中的唯一值数量没有限制。其独特的架构允许报告任意数量的唯一值。
    * 在某些有限情况下，仍功能出现低流量值。示例包括列表变量、列表属性、推销 eVar 和营销渠道详细信息维度。
 * **分段：**&#x200B;如果区段标准包含具有大量唯一值的变量，则将不包含低流量下捕获的值。
 * **分类：**&#x200B;分类报表也受唯一限制的约束。如果分类的父变量值包含在低流量下，则该值不会进行分类。
