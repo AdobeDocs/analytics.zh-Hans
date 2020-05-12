@@ -3,7 +3,7 @@ description: Adobe Audience Manager (AAM) 作为一款功能强大的数据管�
 solution: Experience Cloud
 title: Audience Analytics 概述
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -45,6 +45,6 @@ Audience Analytics 集成功能具有以下主要优点：
 * 您是 Audience Manager 管理员。
 * 您使用的是 Identity Service v1.5 或更高版本。
 * AAM 和 Adobe Analytics 报表包[已映射到相同的 Experience Cloud 组织](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/about-core-services/report-suite-mapping.html)。
-* 您使用[服务器端转发](/help/admin/admin/c-server-side-forwarding/ssf.md)并实施了[受众管理模块](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)（不是 DIL 代码）- AppMeasurement 1.5 或更高版本。
+* 您使用[服务器端转发](/help/admin/admin/c-server-side-forwarding/ssf.md)并实施了[受众管理模块](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)（不是 DIL 代码）- AppMeasurement 1.5 或更高版本。
 
 [Audience Analytics 工作流程](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)中介绍了这些先决条件。
