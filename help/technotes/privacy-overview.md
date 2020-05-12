@@ -3,7 +3,7 @@ description: 有关 Adobe Analytics 所收集数据和其他隐私注意事项�
 keywords: privacy
 title: 隐私概述
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -30,7 +30,7 @@ Adobe Analytics 收集以下数据：
 | 访问客户页面之前用户所在页面的 URL | 是 |
 | 消费者单击客户页面链接时的搜索查询 | 是 |
 | 浏览器类型 | 是 |
-| Device Type | 是 |
+| 设备类型 | 是 |
 | 操作系统 | 是 |
 | ISP/连接速度 | 是 |
 | 显示设置（例如屏幕大小和分辨率） | 是 |
@@ -89,7 +89,7 @@ Adobe Analytics 收集以下数据：
   </tr> 
   <tr> 
    <td colname="col1"> 欧洲 </td> 
-   <td colname="col2"> Adobe 启用了设置 IP 模糊处理：对于欧洲、中东和非洲地区使用报表包集的所有客户，默认设置为“已启用 - IP 已删除 (x.x.x.x)”。通过此设置，在地理查询后 IP 地址将由值 (x.x.x.x) 完全取代，且不再可作为数据点使用。 <p>这个基本替换方法无法通过实施反向工程返回一个唯一的特定 IP 地址。客户或 Adobe 均无法访问该 IP 地址，该 IP 地址已经过不可逆转的匿名化处理。有关其他 IP 模糊设置的详细信息，请参阅 </p> <p> <a href="https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings"  > https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings </a> </p> </td> 
+   <td colname="col2"> Adobe 启用了设置 IP 模糊处理：对于欧洲、中东和非洲地区使用报表包集的所有客户，默认设置为“已启用 - IP 已删除 (x.x.x.x)”。通过此设置，在地理查询后 IP 地址将由值 (x.x.x.x) 完全取代，且不再可作为数据点使用。 <p>这个基本替换方法无法通过实施反向工程返回一个唯一的特定 IP 地址。客户或 Adobe 均无法访问该 IP 地址，该 IP 地址已经过不可逆转的匿名化处理。有关其他 IP 模糊设置的详细信息，请参阅 </p> <p> <a href="https://docs.adobe.com/content/help/zh-Hans/analytics/landing/home.html#General_Account_Settings"  > https://docs.adobe.com/content/help/zh-Hans/analytics/landing/home.html#General_Account_Settings </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 全球 </td> 
@@ -124,15 +124,15 @@ Adobe Analytics 收集以下数据：
   <tr> 
    <td colname="col1"> AMS1 </td> 
    <td colname="col2"> <p>Luttenbergweg 4 </p> <p>Amsterdam 1101 EC </p> <p>The Netherlands </p> </td> 
-   <td colname="col3"> <p>托管设施 </p> <p>(Equinix) </p> </td> 
-   <td colname="col4"> <p>多渠道分析 </p> <p>数字分析 </p> </td> 
+   <td colname="col3"> <p>Colocation Facility </p> <p>(Equinix) </p> </td> 
+   <td colname="col4"> <p>Multichannel Analytics, </p> <p>Digital Analytics </p> </td> 
    <td colname="col5"> <p>ISO9001:2008 </p> <p>ISO14001:2004 </p> <p>OHSAS18001:2007 </p> <p>ISO27001:2005 </p> <p>ISO50001:2011 </p> <p>PCI-DSS </p> <p> <a href="https://www.equinix.com/solutions/by-services/colocation/standards-and-compliance/iso-certified-data-centers/#table"  > Equinix </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> LON5 </td> 
    <td colname="col2"> <p>3 Centro </p> <p>Boundary Way </p> <p>Hemel Hempstead HP2 7SU </p> <p>UK </p> </td> 
-   <td colname="col3"> <p>托管设施 </p> <p>(Gyron) </p> </td> 
-   <td colname="col4"> <p>多渠道分析 </p> <p>数字分析 </p> </td> 
+   <td colname="col3"> <p>Colocation Facility </p> <p>(Gyron) </p> </td> 
+   <td colname="col4"> <p>Multichannel Analytics, </p> <p>Digital Analytics </p> </td> 
    <td colname="col5"> SSAE 16 </td> 
   </tr> 
  </tbody> 
