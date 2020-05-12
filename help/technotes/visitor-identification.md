@@ -5,7 +5,7 @@ subtopic: Visitors
 title: 识别独特访客
 topic: Developer and implementation
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -27,7 +27,7 @@ Adobe Analytics 提供了多种识别访客的机制。下表列出了在 Analyt
 | 4 | fid（回退 Cookie） | 访客的浏览器接受 Cookie（第一方） |
 | 5 | IP 地址、用户代理、网关 IP 地址 | 访客的浏览器不接受 Cookie。 |
 
-在许多情况下，您可能会在一次调用中看到 2 或 3 个不同的 ID，但是 Analytics 会将上表中出现的第一个 ID 用作正式的访客 ID。例如，如果您正在设置一个自定义访客 ID （包含在“vid”查询参数中），那么该 ID 将在同一次点击中出现的其他 ID 之前被使用。
+在许多情况下，您可能会在一次调用中看到 2 或 3 个不同的 ID，但是 Analytics 会将上表中出现的第一个 ID 用作正式的访客 ID。例如，如果您正在设置一个自定义访客 ID（包含在“vid”查询参数中），那么该 ID 将在同一次点击中出现的其他 ID 之前被使用。
 
 >[!NOTE]每个 Analytics 访客 ID 均与 Adobe 服务器上的一个访客资料关联。无论任何访客 ID Cookie 是否过期，访客资料在处于至少 13 个月的非活动状态之后会被删除。
 
@@ -37,12 +37,12 @@ Adobe Analytics 提供了多种识别访客的机制。下表列出了在 Analyt
 
 自定义访客 ID 可以在通过唯一方式识别访客的网站上使用。例如，当用户使用用户名和密码登录网站时，就会生成一个 ID。
 
-Should you have the ability to derive and manage the [!UICONTROL visitor IDs] of your users, you can use the following methods to set the ID:
+如果能够获得和管理用户的[!UICONTROL 访客 ID]，则可以使用以下方法设置 ID：
 
 | 方法 | 描述 |
 |---|---|
 | [s.visitorID](../implement/vars/config-vars/visitorid.md) 变量 | 如果在浏览器中使用 JavaScript，或者如果使用任何其他 AppMeasurement 库，则可以在数据收集变量中设置访客 ID。 |
-| 图像请求中的查询字符串参数 | 这允许您通过硬编 [!UICONTROL visitor ID] 码图像请 [!UICONTROL vid query string] 求中的参数将图像传递给Adobe。 |
+| 图像请求中的查询字符串参数 | 此功能允许您通过硬编码图像请求中的 [!UICONTROL vid 查询字符串]参数将[!UICONTROL 访客 ID] 传递到 Adobe。 |
 | 数据插入 API | 如果设备使用的无线协议不接受 JavaScript，则可以将包含 `<visitorid/>` XML 元素的 XML post 从您的服务器发送到 Adobe 收集服务器。 |
 | URL 重写和 VISTA | 部分部署架构支持使用 URL 重写，以便在无法设置 Cookie 的情况下保持会话状态。在此类情况下，Adobe 工程技术服务可以实施 [!DNL VISTA] 规则来查找页面 URL 中的会话值，然后设置其格式并置入 [!UICONTROL visid] 值。 |
 >[!CAUTION]
@@ -66,7 +66,7 @@ Should you have the ability to derive and manage the [!UICONTROL visitor IDs] of
 
 ## 标识服务
 
-The Identity Service replaces the legacy Analytics visitor ID mechanism, and is required by [!UICONTROL Heartbeat] video measurement, Analytics for Target, and future Experience Cloud core services and integrations.
+Identity Service 取代了原有的 Analytics 访客 ID 机制，成为了[!UICONTROL 心率]视频测量、Analytics for Target 以及将来实现 Experience Cloud 核心服务与集成所必需的服务。
 
 有关此服务的产品文档，请参阅 [Identity Service](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)。
 
@@ -76,7 +76,7 @@ The Identity Service replaces the legacy Analytics visitor ID mechanism, and is 
 
 Adobe 已确立了一批可唯一识别大多数移动设备的 HTTP 订户 ID 头。这些头通常包含设备电话号码（或号码的哈希版本），或其他标识符。大部分的当前设备通常具有一个或多个可唯一识别设备的头，而所有的 Adobe 数据收集服务器都会自动使用这些头替代访客 ID。
 
-In a typical image request, a &#39;1&#39; in the path ( `/b/ss/rsid/1`) causes Adobe servers to return a gif image and to attempt to set a persistent [!UICONTROL visitor ID] cookie ( `AMCV_` or `s_vi`). 但是，如果根据 HTTP 头，设备被识别为移动设备，则会传递“5”，而不是“1”，这指示应返回 wbmp 格式的图像，并且应使用我们识别的无线头列表（而不是 Cookie）来识别设备。
+在典型的图像请求中，路径 (`/b/ss/rsid/1`) 中的“1”会使 Adobe 服务器返回 gif 图像，并尝试设置永久性[!UICONTROL 访客 ID] Cookie（`AMCV_` 或 `s_vi`）。但是，如果根据 HTTP 头，设备被识别为移动设备，则会传递“5”，而不是“1”，这指示应返回 wbmp 格式的图像，并且应使用我们识别的无线头列表（而不是 Cookie）来识别设备。
 
 下表根据路径中的返回图像类型值（“1”或“5”），列出了所用 ID 方法的顺序：
 
@@ -90,7 +90,7 @@ In a typical image request, a &#39;1&#39; in the path ( `/b/ss/rsid/1`) causes A
  <tbody> 
   <tr> 
    <td colname="col1"> <code> /1/</code> </td> 
-   <td colname="col2"> <p>默认: </p> 
+   <td colname="col2"> <p>默认： </p> 
     <ul id="ul_E37E9919658A492C92187BAA18D33AB6"> 
      <li id="li_1A9E39C7CFB24C68AA07C8E85D33A858">自定义访客 ID </li> 
      <li id="li_0DC8D17828C848BEB614C6E47C090064">Cookie </li> 
@@ -126,7 +126,7 @@ In a typical image request, a &#39;1&#39; in the path ( `/b/ss/rsid/1`) causes A
 1. 将头键转换为小写
 1. 将键的结尾部分与下表中的头相比较以查找匹配项：
 
-| Header | 类型 | 示例 |
+| 头 | 类型 | 示例 |
 |---|---|---|
 | callinglineid | ID | X-Up-Calling-Line-ID: 8613802423312 |
 | subno | ID | x-up-subno: swm_10448371100_vmag.mycingular.net |
