@@ -1,24 +1,24 @@
 ---
 description: 解释Adobe Analytics的全新连续功能发布战略
-title: Adobe Analytics —— 功能发布战略
+title: Adobe Analytics功能版本
 translation-type: tm+mt
-source-git-commit: 0b00405e9e27a427a85b0f4a0d970671ada4aa67
+source-git-commit: dcca8559c9e730c9e04981d69068786878062561
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '358'
 ht-degree: 4%
 
 ---
 
 
-# Adobe Analytics —— 功能发布战略
+# Adobe Analytics功能版本
 
-过去，Adobe Analytics功能的发布遵循固定的月度计划。 从2020年4月开始，Adobe Analytics将转向一种连续的投放模型，该模型允许采用更具可扩展性、分阶段的功能部署方法。
+过去，Adobe Analytics功能的发布遵循固定的月度计划。 从2020年4月开始，Adobe Analytics转向一种连续的投放模型，该模型允许采用更具可扩展性、分阶段的功能部署方法。
 
 ## 发布策略
 
 [!UICONTROL 分析工作] 区使用功能标志（也称为“切换”）控制新功能的可见性，允许在完全发布之前进行受控缩放测试。 此发布策略包括以下阶段：
 
-* **发布到生产(RTP)**: 代码发布到生产环境，并在分析工作区中关闭功能可见性。 **注意**: 此时，该功能可能在2.0 Analytics API中可用。
+* **发布到生产(RTP)**: 代码发布到生产环境，并在分析工作区中关闭功能可见性。 **注意**: 在RTP中，该功能可在2.0 Analytics API中使用。
 
 * **有限测试**: 分阶段发布从Adobe内部用户的测试开始。 然后，该版本在两个月内从0%扩展到100%的可用性。 分阶段转出在Experience Cloud组织级别进行，因此组织中的所有授权用户都可获得相同的体验。
 
