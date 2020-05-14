@@ -3,7 +3,7 @@ description: Report Builder 提交的优化方式及有时可能出现的错误�
 title: Report Builder 疑难解答和最佳实践
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -76,7 +76,7 @@ Report Builder 使用端口 80 和 443。确保您所在组织的防火墙允许
 |--- |--- |--- |
 | 划分和划分顺序 | 较少 | 较多 |
 |  | 示例：如果按照 Z 来划分 A，A 的项目数应始终少于 Z 的项目数。否则，请求时间会显著增加。 |
-| Date range | 小范围 | 大范围 |
+| 日期范围 | 小范围 | 大范围 |
 | 过滤 | 特定过滤 | 最受欢迎的过滤设置 |
 | 粒度 | 汇总 | 每小时<ul><li>每日</li><li>每周</li><li>每月</li><li>每季</li><li>每年</li></ul> |
 | 条目数 | 小型数据集 | 大型数据集 |
@@ -96,9 +96,9 @@ Report Builder 使用端口 80 和 443。确保您所在组织的防火墙允许
 
 任何计划报表都会在四小时后超时。系统再尝试计划 3 次，这可能会导致失败。（一般而言，数据集越大，所用的运行时间越长。）这些超时可在 [!DNL Analytics] 报告和 Report Builder 中查看：
 
-* [!DNL Analytics]: **[!UICONTROL Favorites]** > **[!UICONTROL Scheduled Reports]**
+* [!DNL Analytics]：**[!UICONTROL Favorites]** > **[!UICONTROL Scheduled Reports]**
 
-* Report Builder: Click **[!UICONTROL Management]** in the [!UICONTROL Add-ins] tab in Excel.
+* Report Builder：在 Excel 中，单击 [!UICONTROL Add-ins] 选项卡中的 **[!UICONTROL Management]**。
 
 ## 错误消息说明 {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
 
@@ -110,15 +110,15 @@ Report Builder 使用端口 80 和 443。确保您所在组织的防火墙允许
 
 如果未在 Excel 中打开工作簿（电子表格文档），则单击 Report Builder 工具栏上的一个图标时会显示此消息。另外还会禁用工具栏，直到您打开电子表格为止。然而，您可以在工具栏仍处于启用状态时单击在线帮助图标，这不会导致此错误。
 
-**在激活之前，您首[!UICONTROL Request Wizard]先需要退出[!UICONTROL Request Manager]。**
+**在激活[!UICONTROL Request Manager]之前，您需要先退出[!UICONTROL Request Wizard]。**
 
-虽然在功 [!UICONTROL Request Manager] 能上链接 [!UICONTROL Request Wizard] 了这些组件，但在完成或取消在中执行的操作之前，不能 [!UICONTROL Request Manager] 开始与它们一起使用 [!UICONTROL Request Wizard]。
+尽管在功能上 [!UICONTROL Request Manager] 和 [!UICONTROL Request Wizard] 相关联，但在完成或取消 [!UICONTROL Request Wizard] 中执行的操作之前，无法开始使用 [!UICONTROL Request Manager]。
 
 **没有与此范围关联的请求。**
 
-This error message occurs if you click on the [!UICONTROL From Sheet] button in the [!UICONTROL Request Manager] when a cell of the spreadsheet contains no requests.
+单击 [!UICONTROL Request Manager] 中的 [!UICONTROL From Sheet] 按钮时，如果电子表格的单元格不包含请求，则会显示此错误消息。
 
-To identify which cells in the spreadsheet contain requests, click individual requests listed in the table in the [!UICONTROL Request Manager]. 如果某一请求与单元格相关联，那么在表中选择该请求后，会突出显示这些单元格。
+要确定电子表格中的哪些单元格包含请求，请单击 [!UICONTROL Request Manager] 的表中列出的各个请求。如果某一请求与单元格相关联，那么在表中选择该请求后，会突出显示这些单元格。
 
 **选择范围无效。请选择其他范围。**
 
@@ -128,12 +128,12 @@ To identify which cells in the spreadsheet contain requests, click individual re
 
 **在使用此功能之前，请先退出具有焦点的 Excel 单元格。**
 
-如果您的一个 Excel 单元格处于编辑模式&#x200B;**，单击其中一个 Report Builder 图标时，会显示此错误消息。Excel 单元格的编辑模式是指选定了单元格，并且光标显示在单元格内。You are also in edit mode in an Excel cell when you type directly into the [!UICONTROL Formula] bar or into the [!UICONTROL Name Box] at the top of Excel.
+如果您的一个 Excel 单元格处于编辑模式&#x200B;**，单击其中一个 Report Builder 图标时，会显示此错误消息。Excel 单元格的编辑模式是指选定了单元格，并且光标显示在单元格内。直接在 Excel 顶部的 [!UICONTROL Formula] 栏或 [!UICONTROL Name Box] 中键入内容时，Excel 单元格也处于编辑模式。
 
 **选定范围与另一个请求的范围相交。请修改您的选择。**
 
 如果已映射电子表格的一组单元格，则会显示此错误。
 
-One way to determine which cells are mapped before adding new requests is to close the [!UICONTROL Request Wizard] and open the [!UICONTROL Request Manager]. 然后，逐一选择请求摘要表中列出的项目。选择列表中的请求时，会突出显示电子表格中包含请求映射的相应单元格。
+添加新请求之前确定已映射哪些单元格的一种方法是，关闭 [!UICONTROL Request Wizard] 并打开 [!UICONTROL Request Manager]。然后，逐一选择请求摘要表中列出的项目。选择列表中的请求时，会突出显示电子表格中包含请求映射的相应单元格。
 
 这就是在映射多个区域的多个单元格之前，应考虑使用突出显示功能、行或列信息或者格式样式标记单元格的一个原因。
