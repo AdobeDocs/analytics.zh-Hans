@@ -2,7 +2,7 @@
 description: Analytics 报表 API 的比较表。提供了支持文档的链接。
 title: Analytics 报表 API 比较
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -33,7 +33,7 @@ Analytics 报表 API 的比较表。提供了支持文档的链接。
    <td colname="col5"> 用于提取大型数据导出的完全处理的完成数据。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/en/analytics/technotes/latency.html"  > 延迟</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/zh-Hans/analytics/technotes/latency.html"  > 延迟</a> </p> </td> 
    <td colname="col2"> 30-90 分钟 </td> 
    <td colname="col3"> * 数秒 - 10 分钟 </td> 
    <td colname="col4"> 数秒 - 10 分钟 </td> 
