@@ -2,7 +2,7 @@
 description: 'null'
 title: 发布到 Power BI - 概述
 uuid: ad688817-6e3c-45da-983d-48c123465309
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -36,14 +36,14 @@ Microsoft Power BI 是一组用来分析数据和共享分析的业务分析功�
 **发布 Report Builder 中的工作簿**
 
 1. 在 Report Builder 中，生成并保存工作簿。
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
+1. 在 Report Builder 工具栏上，单击&#x200B;**[!UICONTROL 计划]** > **[!UICONTROL 新建]**。
 
-1. 在“基本计划向导”中，选中旁边的复选框 **[!UICONTROL Publish Workbook to Microsoft Power BI]**。
+1. 在“基本计划向导”中，选中&#x200B;**[!UICONTROL 将工作簿发布到 Microsoft Power BI]** 旁边的复选框。
 
    ![](assets/simple-schedule-wizard.png)
 
 1. 指定您的电子邮件并立即发送，或指定计划发布频率（每小时、每天等）。
-1. 单击 **[!UICONTROL OK]** 以发布。
+1. 单击&#x200B;**[!UICONTROL 确定]**&#x200B;继续。
 1. 系统随即将要求您登录到您的 Microsoft 帐户。提供您的凭据。
 1. Report Builder 工作簿将被计划并发布到 Power BI。
 
@@ -51,11 +51,11 @@ Microsoft Power BI 是一组用来分析数据和共享分析的业务分析功�
 
 **在 Power BI 中查看 Report Builder 工作簿数据**
 
-1. In Power BI, double click the workbook under the [!UICONTROL Workbooks] menu.
+1. 在 Power BI 中，双击[!UICONTROL 工作簿]菜单下方的工作簿。
 
    ![](assets/workbooks-power-bi.png)
 
-1. You can now view the workbook dashboard data.  ![](assets/view-data-pbi.png)
+1. 现在您可以查看工作簿功能板数据。  ![](assets/view-data-pbi.png)
 
 1. 您随后可以固定此工作簿的一个区域，以便将其包含在您的任意 Power BI 功能板中。
 
@@ -70,12 +70,12 @@ Microsoft Power BI 是一组用来分析数据和共享分析的业务分析功�
 **发布 Report Builder 中带格式的表**
 
 1. 在 Report Builder 中，生成一个数据表，其中包含一个标题行，后面接有一个数据行。
-1. 选择表，然后从菜 **[!UICONTROL Format as Table]** 单中进行 [!UICONTROL Home] 选择。 The table gets named by default (Table 1, Table 2, etc.), but you can change the name on the [!UICONTROL Design]menu.
+1. 选择此表，然后从[!UICONTROL 主页]菜单中选择&#x200B;**[!UICONTROL 套用表格式]**。此表将得到默认命名（Table 1, Table 2 等），但是您可以在[!UICONTROL 设计]菜单中更改名称。
 
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
+1. 在 Report Builder 工具栏上，单击&#x200B;**[!UICONTROL 计划]** > **[!UICONTROL 新建]**。
 
-1. 在“基本计划向导”中，单击 **[!UICONTROL Advanced Scheduling Options]**。
-1. 在选 [!UICONTROL Scheduling Wizard - Advanced]项卡中，选 **[!UICONTROL Publishing Options]** 中旁边的复选框 **[!UICONTROL Publish all Formatted Tables as Power BI dataset tables]**。
+1. 在“基本计划向导”中，单击&#x200B;**[!UICONTROL 高级计划选项]**。
+1. 在[!UICONTROL 计划向导 - 高级]内的&#x200B;**[!UICONTROL 发布选项]**&#x200B;选项卡中，选中&#x200B;**[!UICONTROL 作为 Power BI 数据集表发布所有带格式的表]**&#x200B;旁边的复选框。
 
    ![](assets/advanced-schedule-wizard2.png)
 
@@ -83,11 +83,11 @@ Microsoft Power BI 是一组用来分析数据和共享分析的业务分析功�
 
 **在 Power BI 中查看表数据**
 
-1. In Power BI, go to the **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** menu.
+1. 在 Power BI 中，转到&#x200B;**[!UICONTROL 工作区]** > **[!UICONTROL 数据集]**&#x200B;菜单。
 
    ![](assets/datasets-menu.png)
 
-1. Select the dataset that you published and click the [!UICONTROL Create report] icon next to it. 请注意，表将显示为字段。
+1. 选择已发布的数据集，并单击它旁边的[!UICONTROL 创建报表]图标。请注意，表将显示为字段。
 
    ![](assets/formatted-tables.png)
 
@@ -95,7 +95,7 @@ Microsoft Power BI 是一组用来分析数据和共享分析的业务分析功�
 
    ![](assets/view-table-dataset.png)
 
-1. From the [!UICONTROL Visualizations] menu, you can select how to visualize a table in Power BI. 例如，您可以选择以折线图的形式呈现您的数据：
+1. 从[!UICONTROL 可视化]菜单中，您可以选择如何可视化 Power BI 中的表。例如，您可以选择以折线图的形式呈现您的数据：
 
    ![](assets/bi-line-graph.png)
 
@@ -110,22 +110,22 @@ Microsoft Power BI 是一组用来分析数据和共享分析的业务分析功�
 >如果工作簿包含 100 个以上的请求，则只有前 100 个请求将被发布到 Power BI。此外，对于发布到 Power BI 的每个请求，只有前 10,000 行数据将获得发布。因此，尽管这些请求将通过计划成功地提交，但发布到 Power BI 的范围却是有限的。
 
 1. 在 Report Builder 中，通过 Report Builder 请求打开或创建一个工作簿。
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
+1. 在 Report Builder 工具栏上，单击&#x200B;**[!UICONTROL 计划]** > **[!UICONTROL 新建]**。
 
-1. 在“基本计划向导”中，单击 **[!UICONTROL Advanced Scheduling Options]**。
-1. 在选 [!UICONTROL Scheduling Wizard - Advanced]项卡中， **[!UICONTROL Publishing Options]****[!UICONTROL Publish all Report Builder Requests as Power BI Dataset Tables]** 选中 ![](assets/advanced-schedule-wizard2.png)
+1. 在“基本计划向导”中，单击&#x200B;**[!UICONTROL 高级计划选项]**。
+1. 在“[!UICONTROL 计划向导 - 高级]”内的&#x200B;**[!UICONTROL 发布选项]**&#x200B;选项卡中，选中&#x200B;**[!UICONTROL 作为 Power BI 数据集表发布所有 Report Builder 请求]**。![](assets/advanced-schedule-wizard2.png)
 
-1. 单击 **[!UICONTROL OK]**.
+1. 单击&#x200B;**[!UICONTROL 确定]**。
 
 **在 Power BI 中查看请求数据**
 
-每个计划的 Report Builder 请求都将作为数据集中的表发布。Each request table is named after the primary dimension in the request and it has a [!UICONTROL Report Suite] and a [!UICONTROL Segments] column.
+每个计划的 Report Builder 请求都将作为数据集中的表发布。每个请求表均按照请求中的主要维度命名，并具有“[!UICONTROL 报表包]”和“[!UICONTROL 区段]”列。
 
-1. In Power BI, go to the **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** menu.
+1. 在 Power BI 中，转到&#x200B;**[!UICONTROL 工作区]** > **[!UICONTROL 数据集]**&#x200B;菜单。
 
-1. Select the request that you published and click the [!UICONTROL Create report] icon next to it.
+1. 选择已发布的请求并单击它旁边的“[!UICONTROL 创建报表]”图标。
 
-   Notice that the requests appear as tables in the [!UICONTROL Fields] menu.
+   请注意，请求会显示为“[!UICONTROL 字段]”菜单中的表。
 
    ![](assets/published-requests.png)
 
@@ -133,7 +133,7 @@ Microsoft Power BI 是一组用来分析数据和共享分析的业务分析功�
    >
    >无论您如何配置 Report Builder 请求在工作表中的布局（引导布局、自定义布局、某些列不可见），Report Builder 将始终以下列二维单标题行格式发布您的请求：日期、维度、量度、报表包、区段。
 
-1. Also notice that there is an additional table called **[!UICONTROL Legend]**. 如果有请求不属于 Report Builder 环境，则很难记住它代表的含义。图例表的目的包括，例如：显示每个请求在表 ID 下的名称。您还可以添加其他“图例”列，以全面了解请求。
+1. 另请注意，还有一个称为&#x200B;**[!UICONTROL 图例]**&#x200B;的表。如果有请求不属于 Report Builder 环境，则很难记住它代表的含义。图例表的目的包括，例如：显示每个请求在表 ID 下的名称。您还可以添加其他“图例”列，以全面了解请求。
 
    ![](assets/legend-table.png)
 
