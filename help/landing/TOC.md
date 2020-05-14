@@ -1,19 +1,22 @@
 ---
 product: analytics
 audience: all
-user-guide-title: Analytics 文档
+user-guide-title: Adobe Analytics 文档
 user-guide-url: /content/help/en/analytics/landing/home.html
-translation-type: ht
-source-git-commit: dcb69257fd29686ae346cf4d0cf50ed041ebcbbc
+translation-type: tm+mt
+source-git-commit: aaeeeeb2598359f5e4c0e2323ae5f9344edb0f8d
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 89%
 
 ---
 
 
-# Analytics 文档 {#landing}
+# Adobe Analytics 文档 {#landing}
 
 * [主页](home.md)
-* [Analytics 关键概念](an-key-concepts.md)
-* [Analytics 工具指南](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/home.html)
+* [Adobe Analytics主要概念](an-key-concepts.md)
+* [工具指南](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/home.html)
 * [管理指南](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/home.html)
 * [组件指南](https://docs.adobe.com/content/help/zh-Hans/analytics/components/home.html)
 * [导出指南](https://docs.adobe.com/content/help/zh-Hans/analytics/export/home.html)
@@ -23,17 +26,7 @@ source-git-commit: dcb69257fd29686ae346cf4d0cf50ed041ebcbbc
 * [技术说明指南](https://docs.adobe.com/content/help/zh-Hans/analytics/technotes/home.html)
 * [Media Analytics 指南](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-overview.html)
 * [Data Workbench 指南](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)
-* [客户历程分析](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)
-* [文档更新](doc-updates.md)
+* [客户旅程分析指南](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)
+* [Analytics 文档更新](doc-updates.md)
 * [发行说明](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html)
-
-<!--
-+ Analytics Guides{#analytics-guides}
-  * [Analytics Analyze Guide](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
-  * [Admin Guide](https://docs.adobe.com/content/help/en/analytics/admin/home.html)
-  * [Components Guide](https://docs.adobe.com/content/help/en/analytics/components/home.html)
-  * [Export Guide](https://docs.adobe.com/content/help/en/analytics/export/home.html)
-  * [Implementation Guide](https://docs.adobe.com/content/help/en/analytics/implementation/home.html)
-  * [Import Guide](https://docs.adobe.com/content/help/en/analytics/import/home.html)
-  * [Integration Guide](https://docs.adobe.com/content/help/en/analytics/integration/home.html)
--->
+* [Adobe Analytics —— 功能发布战略](an-releases.md)
