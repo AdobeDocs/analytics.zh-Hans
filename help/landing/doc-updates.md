@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics 技术文档更新
-description: 对Adobe Analytics文档存储库的重要更新。
+description: 对 Adobe Analytics 文档存储库的重要更新。
 short-title: Analytics documentation updates
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c2194a6cf7e381ebeab05e273c9b64816552d744
 
 ---
@@ -12,26 +12,26 @@ source-git-commit: c2194a6cf7e381ebeab05e273c9b64816552d744
 
 自 2019 年 1 月以来的 Adobe Analytics 文档集内容更新。
 
-* 有关信息， [!UICONTROL Customer Journey Analytics]请转 [到此处](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)。
-* For a comprehensive list of new Adobe Analytics features, Admin notices, and bug fixes, see the latest [Experience Cloud Release Notes](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html).
-* 有关新增功能的详细信息，请 [参阅“工具”用户指南中的](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) “分析工作区新增功能”。
+* 有关 [!UICONTROL Customer Journey Analytics] 的信息，请转到[此处](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)。
+* 有关 Adobe Analytics 新增功能、管理员通知和错误修复的完整列表，请参阅最新的 [Experience Cloud 发行说明](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html)。
+* 有关新增功能的详细信息，请参阅工具用户指南中的 [Analysis Workspace 中的新增功能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)。
 * 有关 Adobe Analytics for Audio and Video 的信息，请参阅[在 Analytics 中测量音频和视频](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-overview.html)。
 
 ## 更新详细信息
 
 | 页面 | 描述 |
 |---|---|
-| 2020 年 4 月 28 日 | 添加了内容速 [度度量的文](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-content-velocity.html) 档。 |
-| 2020 年 3 月 12 日 | 为将区段发 [布到Experience Cloud添加了更新](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/segmentation-workflow/seg-publish.html)。 |
-| 2020 年 3 月 12 日 | 更新CDA拼接延迟。 |
-| 2020 年 2 月 27 日 | 添加了Adobe [Analytics Labs的文档](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/tech-previews/overview.html)。 |
+| 2020 年 4 月 28 日 | 添加了有关[内容周转率](https://docs.adobe.com/content/help/zh-Hans/analytics/components/variables/metrics/metrics-content-velocity.html)￼量度的文档。 |
+| 2020 年 3 月 12 日 | 添加了[将区段发布到 Experience Cloud](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/segmentation-workflow/seg-publish.html) 的更新。 |
+| 2020 年 3 月 12 日 | 更新了 CDA 拼合延迟。 |
+| 2020 年 2 月 27 日 | 添加了有关 [Adobe Analytics Labs](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/tech-previews/overview.html) 的文档。 |
 | 2020 年 2 月 25 日 | 添加了 [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) 变量。 |
 | 2020 年 2 月 18 日 | 添加了 [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) 变量。 |
-| 2020 年 2 月 12 日 | 营销渠道文档的 [更新和重](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) 组。 |
-| 2020 年 2 月 7 日 | 设置跨 [设备分析和常见问题解答](../components/cda/cda-setup.md) 的更 [新](../components/cda/cda-faq.md) |
-| 2020 年 2 月 4 日 | 完全重写实 [施用户指南](../implement/home.md)。 |
-| 2020 年 1 月 22 日 | Updated Freeform Table page to include information on the new [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
-| 2020 年 1 月 13 日 | Added [Adobe Analytics and browser cookies](../technotes/cookies.md). |
+| 2020 年 2 月 12 日 | 更新并重新整理了[营销渠道](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html)文档。 |
+| 2020 年 2 月 7 日 | 更新了[设置跨设备分析](../components/cda/cda-setup.md)和[常见问题解答](../components/cda/cda-faq.md)。 |
+| 2020 年 2 月 4 日 | 完全重写[实施用户指南](../implement/home.md)。 |
+| 2020 年 1 月 22 日 | 更新了“自由格式表”页面，现在包含有关新的[自由格式表生成器](/help/analyze/analysis-workspace/visualizations/freeform-table.md)的信息。 |
+| 2020 年 1 月 13 日 | 添加了 [Adobe Analytics 和浏览器 Cookie](../technotes/cookies.md)。 |
 | 2019 年 11 月 29 日 | 全面修订了[数据馈送文档](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 2019 年 11 月 25 日 | 新增了[“强制 IP 登录限制”终止使用](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/company-settings/login-restrictions-eol.html)主题 |
 | 2019 年 11 月 25 日 | 新增了[内部（会话刷新）营销渠道](https://docs.adobe.com/content/help/zh-Hans/analytics/components/marketing-channels/session-refresh.html)主题 |
