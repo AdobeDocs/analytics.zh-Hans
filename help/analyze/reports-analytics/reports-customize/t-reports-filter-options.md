@@ -3,7 +3,7 @@ description: 使用这些过滤器可以限制报表的内容，使其包括或�
 title: 过滤报表数据
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -49,7 +49,7 @@ help:Internal Search Term
 
 **不包含**
 
-如果在行项目的所有位置都找不到相关词语，则匹配成功。使用“不包含”，您可以从报表中过滤出“未指定”、“无”、“关键词不可用”以及其他[特殊值](https://docs.adobe.com/content/help/en/analytics/technotes/unspecified.html)。
+如果在行项目的所有位置都找不到相关词语，则匹配成功。使用“不包含”，您可以从报表中过滤出“未指定”、“无”、“关键词不可用”以及其他[特殊值](https://docs.adobe.com/content/help/zh-Hans/analytics/technotes/unspecified.html)。
 
 不包含: `none`
 
@@ -87,7 +87,7 @@ Sale & Values
 
 `Mens:Desk & Travel`
 
-**Starts With**
+**开头**
 
 如果行项目（包括空格和其他字符）以指定的短语开头，则匹配成功。
 
@@ -103,7 +103,7 @@ Mens Perfume Spray
 Mens Hemp/Bamboo Flip Flops
 ```
 
-**Ends With**
+**结束**
 
 如果行项目（包括空格和其他字符）以指定的短语结尾，则匹配成功。
 
@@ -142,17 +142,17 @@ t_reports_filter_specific.xml
 
  -->
 
-某些报表含有该报表特定的过滤器。例如，您可 [!UICONTROL Purchase Conversion Funnel Report] 以通过网页进行筛选。 A [!UICONTROL Geosegmentation Report] lets you filter by geographical region. 其他一些报表含有各自特定的过滤器。
+某些报表含有该报表特定的过滤器。例如，[!UICONTROL 购买转化漏斗]报表可让您按网页进行过滤。[!UICONTROL 地域划分]报表可让您按地域进行过滤。其他一些报表含有各自特定的过滤器。
 
 访问这些过滤器时，您可以看到列表中指定项目的报表量度。
 
 **创建特定于报表的过滤器**
 
-1. 生成报表，如 [!UICONTROL Purchase Report] ( **[!UICONTROL Site Metrics]** > **[!UICONTROL Purchases]** > **[!UICONTROL Purchase Conversion Funnel]**)。
-1. In the report header, click the **[!UICONTROL Filter]** link.
-1. 在页面 [!UICONTROL Filter Selector] 上，单击， **[!UICONTROL Apply a Filter]**&#x200B;然后选择筛选器类型。
-1. To search for an item, type a character string in the **[!UICONTROL Search]** field.
-1. 单击 **[!UICONTROL OK]**.
+1. 生成一个报表，如[!UICONTROL 购买报表]（**[!UICONTROL 网站量度]** > **[!UICONTROL 购买]** > **[!UICONTROL 购买转化漏斗]**）。
+1.  在报表标题中，单击&#x200B;**[!UICONTROL 过滤器]**&#x200B;链接。
+1.  在[!UICONTROL 过滤器选择器]页面，单击&#x200B;**[!UICONTROL 应用过滤器]**，然后选择一个过滤器类型。
+1.  要搜索项目，请在&#x200B;**[!UICONTROL 搜索]**&#x200B;字段中键入字符串。
+1. 单击&#x200B;**[!UICONTROL 确定]**。
 
 ## 添加关联过滤器 {#task_065042E384DA4BF3864C58AF2B88D6E2}
 
@@ -164,13 +164,13 @@ t_reports_correlation_filter.xml
 
  -->
 
-某些报表可让您添加自定义关联过滤器。For example, if you are viewing the [!UICONTROL Pages Report] for a report suite that has Site Sections correlated with a Women&#39;s page, you can create a filter rule that generates a report showing the most popular pages when Site Sections = Women.
+某些报表可让您添加自定义关联过滤器。例如，若您正在查看将“网站区域”与女性产品页面相关联的报表包中的[!UICONTROL 页面报表]，则可创建一个过滤器规则，以生成显示“网站区域 ＝ 女性产品”的最受欢迎页面的报表。
 
-可使用任何可用关联过滤关联报表中显示的数据。此示例显示添加搜索引擎关联过滤器的方法。
+可过滤关联报表（使用任何可用关联）中显示的数据。此示例显示添加搜索引擎关联过滤器的方法。
 
 **添加关联过滤器**
 
 1. 运行支持关联的报表。（请参阅[运行划分报表](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69)。）
-1. In the report header, click the **[!UICONTROL Correlation Filter]** link.
-1. 在下 [!UICONTROL Filter Rule Creator]面，选择要与项目关联的类别。
-1. 单击 **[!UICONTROL OK.]**
+1. 在报表标题中，单击&#x200B;**[!UICONTROL 关联过滤器]**&#x200B;链接。
+1. 在[!UICONTROL “过滤器规则生成器”]下，选择要与某项目关联的类别。
+1. 单击&#x200B;**[!UICONTROL “确定”]**。
