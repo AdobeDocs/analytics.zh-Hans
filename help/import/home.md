@@ -1,7 +1,7 @@
 ---
 title: Analytics 导入帮助
 description: Analytics 导入帮助
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebdf5ed1ca2b83b94284f1d8013a2b0c6b717714
 
 ---
