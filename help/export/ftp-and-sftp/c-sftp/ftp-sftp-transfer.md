@@ -3,7 +3,7 @@ description: Adobe 工程技术服务组可设置一个自定义项目，以通�
 keywords: ftp;sftp
 title: 通过 SFTP 将 Adobe 数据发送到外部 FTP 帐户
 uuid: 3edf27f1-b7b5-4bc2-abf9-1489e4397dd3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
