@@ -3,7 +3,10 @@ description: 'null'
 title: 运行贡献分析
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: 333dc32e6dbb39b9acb9350ac23499993979a85c
+workflow-type: tm+mt
+source-wordcount: '593'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 在项目中可以通过两种方式来调用贡献分析：
 
-* In a freeform table with daily granularity, right-click any row and select **[!UICONTROL Run Contribution Analysis]**. 甚至可以对没有显示任何异常的行运行贡献分析。
+* 在使用每天粒度的自由格式表中，右键单击任何行并选择&#x200B;**[!UICONTROL 运行贡献分析]**。甚至可以对没有显示任何异常的行运行贡献分析。
 
    >[!NOTE]
    >
@@ -24,11 +27,11 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
    ![](assets/run_ca.png)
 
-* 在折线图中，将光标悬停在折线图中的异常数据点上。Click the **[!UICONTROL Analyze]** link that appears.
+* 在折线图中，将光标悬停在折线图中的异常数据点上。单击显示的&#x200B;**[!UICONTROL 分析]**&#x200B;链接。
 
    ![](assets/contribution-analysis.png)
 
-1. (Optional) After you have clicked **[!UICONTROL Run Contribution Analysis]** in either the line chart or a table, you can narrow the scope of (and thus speed up) the analysis by [excluding dimensions](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC).
+1. （可选）在折线图或表中单击了&#x200B;**[!UICONTROL 运行贡献分析]**&#x200B;后，可通过[排除维度](#section_F6932F4BF74544B5872164E7B1E0C6FC)来缩小分析范围（并且因此而提高分析速度）。
 
 1. 在加载贡献分析时，请稍候。此过程可能需要用相当长一段时间，具体取决于报表包的大小和维度的数量。贡献分析可以对每个维度的前 50,000 项执行分析。
 1. 然后，Analysis Workspace 会将新的贡献分析面板直接加载到此项目中。如果您之前使用过 Reports &amp; Analytics 中的“贡献分析”，则会发现有许多熟悉的面板：
@@ -55,16 +58,16 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 有时，您可能想从“贡献分析”中排除一些维度。例如，您可能根本不关心任何与浏览器或硬件相关的维度，因此希望删除它们从而加快分析速度。
 
-1. 单击(或 **[!UICONTROL Run Contribution Analysis]** 在折 **[!UICONTROL Analyze]** 线图中)后，将显示 **[!UICONTROL Excluded Dimensions]** 面板。
+1. 单击&#x200B;**[!UICONTROL 运行贡献分析]**（或折线图中的&#x200B;**[!UICONTROL 分析]**）后，会显示&#x200B;**[!UICONTROL 排除的维度]**&#x200B;面板。
 
-1. 只需将任何不需要的尺寸拖 **[!UICONTROL Excluded Dimensions]** 入面板，然后单击以保存列表 **[!UICONTROL Set as Default]**。 Or, click **[!UICONTROL Clear All]** to start over with selecting dimensions to exclude.
+1. 只需将任何多余的维度拖到&#x200B;**[!UICONTROL 排除的维度]**&#x200B;面板中，然后单击&#x200B;**[!UICONTROL 设置为默认值]**&#x200B;保存列表即可。或者，选择要排除的维度后，单击&#x200B;**[!UICONTROL 全部清除]**&#x200B;以重新开始。
 
    ![](assets/exclude_dimensions.png)
 
-1. After you have added dimensions to exclude (or chosen not to), click **[!UICONTROL Run Contribution Analysis]** again.
+1. 添加了要排除的维度（或选择不排除的维度）后，请再次单击&#x200B;**[!UICONTROL 运行贡献分析]**。
 1. 如果您需要修订排除的维度列表，只需双击“维度”，系统便会显示排除的维度列表：
 
    ![](assets/excluded-dimensions.png)
 
-1. Just delete any unwanted dimensions by clicking the x next to them, then save the list by clicking **[!UICONTROL Set as Default]**.
+1. 单击多余维度旁边的 x 便可将其删除，然后单击&#x200B;**[!UICONTROL 设置为默认值]**&#x200B;保存该列表。
 
