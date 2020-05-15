@@ -1,7 +1,7 @@
 ---
 title: 迟到的点击量
 description: 了解数据馈送如何处理迟到的点击量。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
