@@ -3,7 +3,7 @@ description: 运行不同的报表类型的步骤。
 title: 运行不同的报表类型
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -24,8 +24,8 @@ t_reports_ranked.xml
 
  -->
 
-1. 生成报表，如 [!UICONTROL Pages Report] ( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**)。
-1. In the report header, click **[!UICONTROL Ranked.]**
+1. 生成报表，如[!UICONTROL 页面报表]（**[!UICONTROL 报表]** > **[!UICONTROL 网站内容]** > **[!UICONTROL 页面]**）。
+1.  在报表标题中，单击&#x200B;**[!UICONTROL 排名]**。
 1.  要对报表排名，单击表格的列标题。
 
    排名报表的表格可列出最多 200 个项目（如产品、类别、网页等）以及十个量度（如收入、订购、查看次数等）。
@@ -40,12 +40,12 @@ t_reports_trended.xml
 
  -->
 
-多数转换和流量报表可使用趋势视图。Using the [!UICONTROL Calendar], you can show improvement for any time period breakdowns, including days of a month, weeks of a year, weeks of a quarter, months of a year, and so on. 趋势报表显示单个量度（如收入、订购、点击次数等）的趋势，最多可显示五个项目（如产品、类别、网页等）。
+多数转换和流量报表可使用趋势视图。使用[!UICONTROL 日历]，您可显示任何时段划分的改进，包括一个月中的某些天、一年中的某些周、一个季度中的某些周、一年中的某些月等等。趋势报表显示单个量度（如收入、订购、点击次数等）的趋势，最多可显示五个项目（如产品、类别、网页等）。
 
 **运行趋势报表**
 
-1. 运行转化或流量报告，如 **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**。
-1. Under **[!UICONTROL Report Type]**, click **[!UICONTROL Trended.]**
+1. 运行转化或流量报表，如&#x200B;**[!UICONTROL 报表]** > **[!UICONTROL 网站内容]** > **[!UICONTROL 页面]**。
+1. 在&#x200B;**[!UICONTROL 报表类型]**&#x200B;下方，单击&#x200B;**[!UICONTROL 趋势]**。
 
 ## 运行转化漏斗报表 {#task_B926A74AA6A641138C2986C1635120CB}
 
@@ -57,13 +57,13 @@ t_reports_conversion_funnel.xml
 
  -->
 
-要运行此报表，请选择一个报表，如页面报表( **[!UICONTROL Reports]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Tracking Code]** > **[!UICONTROL Campaign Conversion Funnel]**)。
+要运行此报表，请选择一个报表，如页面报表（**[!UICONTROL 报表]** > **[!UICONTROL 促销活动]** > **[!UICONTROL 跟踪代码]** > **[!UICONTROL 促销活动转化漏斗]**）。
 
-有关描述，请参阅[转化报表](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion.html)。
+有关描述，请参阅[转化报表](https://docs.adobe.com/content/help/zh-Hans/analytics/components/variables/dimensions-reports/reports-conversion.html)。
 
 ## 运行流失报表 {#task_8FD97C8260464F9DA731A93DB8F80184}
 
-The [!UICONTROL Fallout Report] shows the number of visitors who visited a pre-specified sequence of pages. 它还显示每个步骤之间的转化和流失百分比。
+[!UICONTROL 流失报表]显示访问预先指定的页面顺序的访客数。它还显示每个步骤之间的转化和流失百分比。
 
 <!-- 
 
@@ -73,19 +73,19 @@ t_reports_fallout.xml
 
 在 Analysis Workspace 中查看新的[流失分析](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)面板！
 
-1. 在中， [!UICONTROL Adobe Analytics]单击 **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** > **[!UICONTROL Fallout]**。
-1. 在页面 [!UICONTROL Fallout Report] 上，单击 **[!UICONTROL Launch the Fallout Report Builder]**。
+1. 在 [!UICONTROL Adobe Analytics] 中，单击&#x200B;**[!UICONTROL 报表]** > **[!UICONTROL 路径]** > **[!UICONTROL 页面]** > **[!UICONTROL 流失]**。
+1.  在[!UICONTROL 流失报表]页面上，单击&#x200B;**[!UICONTROL 启动流失 Report Builder]**。
 
    ![步骤结果](assets/fallout_add_items.png)
 
-1. On the [!UICONTROL Define Checkpoints] page, specify the checkpoints that you want to use for the report.
-1. 单击 **[!UICONTROL Run Report]**.
+1.  在[!UICONTROL 定义检查点]页面上，指定要用于报表的检查点。
+1. 单击&#x200B;**[!UICONTROL 运行报告]**。
 
    ![步骤结果](assets/fallout_report.png)
 
 >[!MORELIKETHIS]
 >
->* [流失报表描述](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-fallout.html)
+>* [流失报表描述](https://docs.adobe.com/content/help/zh-Hans/analytics/components/variables/dimensions-reports/reports-fallout.html)
 
 
 ## 运行页面流量报表 {#task_133E8B87C3F04DA0A42D10CBA499305B}
@@ -96,7 +96,7 @@ t_reports_fallout.xml
 
 运行[路径](https://docs.adobe.com/content/help/zh-Hans/analytics/components/variables/dimensions-reports/reports-paths.html)报表。
 
-例如，单击 **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** > **[!UICONTROL Next Page Flow]**。
+例如，单击&#x200B;**[!UICONTROL 报表]** > **[!UICONTROL 路径]** > **[!UICONTROL 页面]** > **[!UICONTROL 下一页面流量]**。
 
 ![](assets/page_flow.png)
 
@@ -104,7 +104,7 @@ t_reports_fallout.xml
 
 页面名称旁将显示各后续页面的查看百分比。与下级各个页面关联的线条宽度即描述此相对百分比。
 
-**[!UICONTROL Path Views]**:指示在限制为显示的路径时查看页面的次数。
+**[!UICONTROL 路径查看]**：用于指示以显示的路径查看某个页面的次数。
 
 例如，“隐私策略”页面的总查看次数可能为 10,000，而只有 500 次与紧随主页后查看的页面关联。因而，会使用路径查看次数一词。
 
@@ -112,7 +112,7 @@ t_reports_fallout.xml
 
 ## 运行漏斗报表 {#task_2BBF6FACD48F479E8B2EE458919941CB}
 
-您可以选择成功事件，并将其添加到 [!UICONTROL Purchase Conversion Funnel] 报表或报 [!UICONTROL Product Conversion Funnel] 表。
+您可以选择成功事件并将它们添加到[!UICONTROL 购买转化漏斗]报表或[!UICONTROL 产品转化漏斗]报表。
 
 <!-- 
 
@@ -120,7 +120,7 @@ t_reports_funnel.xml
 
  -->
 
-1. Click **[!UICONTROL Reports]** > **[!UICONTROL Products]** > [Products Conversion Funnel](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html).
+1. 单击&#x200B;**[!UICONTROL 报表]** > **[!UICONTROL 产品]** > [产品转化漏斗](https://docs.adobe.com/content/help/zh-Hans/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html)。
 
 ## 运行营销渠道报表 {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -146,11 +146,11 @@ t_anomaly_view.xml
 
 在 Analysis Workspace 中查看新的[异常检测和贡献分析](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)功能！
 
-**[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Anomaly Detection]** .
+**[!UICONTROL 报表]** > **[!UICONTROL 网站量度]** > **[!UICONTROL 异常检测]**。
 
 >[!NOTE] 另外，您也可以在 Analysis Workspace 项目中运行异常检测。[更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
-有关设置异常检测的信息，请参阅《[参考指南](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection)》。
+有关设置异常检测的信息，请参阅《[参考指南](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection)》。
 
 异常检测显示了两种类型的图表：概要图表和单个量度图表。仅当至少检测到量度的一个异常时，才显示单个量度图表。
 
@@ -211,11 +211,11 @@ t_anomaly_config.xml
 
 可以为每个报表包设置单独的异常检测。
 
-1. 导航到 **[!UICONTROL Analytics > Reports > Site Metrics > Anomaly Detection]** 。
+1. 导航至 **[!UICONTROL Analytics > 报表 > 网站量度 > 异常检测]**。
 1. 选择要跟踪每日异常检测情况的报表包。要显示报表包列表，请单击“报表包”选择器下拉菜单。
-1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]** at the top right of the screen:  ![](assets/metrics_icon.png).
+1. 要选择量度和/或定义过滤量度，请单击屏幕右上方的&#x200B;**[!UICONTROL 编辑量度]**：![](assets/metrics_icon.png)。
 
-   您可以从以下位置选取量度：所有量度的列表（包括计算量度）或跟踪量度的列表。您还可以依据特定词语进行过滤，以缩小列表范围。1. Once the report has been generated, define the **[!UICONTROL Training Period]** and the **[!UICONTROL View Period]** for anomaly detection. （将培训时段看作是算法的“学习时段”。）
+   您可以从以下位置选取量度：所有量度的列表（包括计算量度）或跟踪量度的列表。您还可以依据特定词语进行过滤，以缩小列表范围。1. 在生成报表后，定义用于异常检测的&#x200B;**[!UICONTROL 培训时段]**&#x200B;和&#x200B;**[!UICONTROL 查看时段]**。（将培训时段看作是算法的“学习时段”。）
 
    ![](assets/view_training_periods.png)
 
@@ -226,7 +226,7 @@ t_anomaly_config.xml
 * 如果延长培训时段，则会将您的数据放入一个更大的上下文中，而且可能会缩小异常的大小。
 
    每当您更改参数时，异常检测量度报表就会随之刷新。
-1. (Optional) Apply segments to the report by clicking **[!UICONTROL Show Segments]** and selecting one or more existing segments or creating a new segment and applying it.
+1. （可选）单击&#x200B;**[!UICONTROL 显示区段]**&#x200B;并选择一个或多个现有区段，或创建一个新区段并应用它，以将区段应用于报表。
 
    ![](assets/ad_top_menu.png)
 
@@ -244,13 +244,13 @@ reports_realtime.xml
 
  -->
 
-**[!UICONTROL Reports > Site Metrics > Real-Time]**。
+**[!UICONTROL 报表 > 网站量度 > 实时]**。
 
 实时报表提供了两个主要的报表 - 概述报表和详细信息报表。每个报表都包含许多缩图报表。
 
-有关配置实时报表的信息，请参阅《[Analytics 参考指南](https://docs.adobe.com/content/help/en/analytics/landing/home.html#RealTime_Reports_Configuration)》。
+有关配置实时报表的信息，请参阅《[Analytics 参考指南](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/home.html#RealTime_Reports_Configuration)》。
 
-1. Take a look at the **[!UICONTROL Overview]** report and its components:  ![](assets/rtr_overview_report.png)
+1. 了解&#x200B;**[!UICONTROL 概述]**&#x200B;报表及其组件：![](assets/rtr_overview_report.png)
 
    <table id="choicetable_8586BECF55E843B2B5CD41205567EA32"> 
    <thead class="chhead sthead"> 
@@ -259,7 +259,7 @@ reports_realtime.xml
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>选择报表包</strong></td> 
-   <td class="chdesc stentry"> 显示此实时报表涵盖的报表包。要更改报表包，请参阅<a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >实时报表配置</a>。 </td> 
+   <td class="chdesc stentry"> 显示此实时报表涵盖的报表包。要更改报表包，请参阅<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >实时报表配置</a>。 </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>切换报表</strong></td> 
@@ -314,7 +314,7 @@ reports_realtime.xml
    </tr> 
    </table>
 
-1. Click a list item in the Primary Reportlet to launch the **[!UICONTROL Details]** view for that list item:  ![](assets/rtr_detail_report.png)
+1. 单击主要缩图报表中的列表项，以便为该列表项启动&#x200B;**[!UICONTROL 详细信息]**&#x200B;视图：![](assets/rtr_detail_report.png)
 
    | **项目趋势缩图报表** | 显示概述报表中选定的项目在最近 N 分钟内的趋势线。可以通过时间范围选择器对 N 进行配置。 |
    |---|---|
