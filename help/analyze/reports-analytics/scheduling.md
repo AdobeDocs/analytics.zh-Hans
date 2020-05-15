@@ -4,7 +4,7 @@ subtopic: Schedule
 title: 报表计划和分发
 topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -38,7 +38,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 描述如何以各种格式下载报表和通过电子邮件发送报表，以及计划报表以进行提交的步骤。
 
-1. Run a report, then click **[!UICONTROL More]** > **[!UICONTROL Send]**.
+1. 运行报表，然后单击&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 发送]**。
 1.  指定提交选项： 
 
    | 选项 | 描述 |
@@ -48,17 +48,17 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    | 主题 | 电子邮件的主题。 |
    | 日程安排 | 选择立即发送报表或者在不同的间隔发送。 |
 
-1. 单击 **[!UICONTROL Advanced Delivery Options]** 以指定投放计划。
+1.  单击&#x200B;**[!UICONTROL 高级提交选项]**&#x200B;以指定提交计划。 
 
 | 选项 | 描述 |
 |--- |--- |
-| 报表文件名称 | 指定报表名称。默认格式为 `<report name> for <suite> - <report date range>`。To specify a custom name, select [!UICONTROL Custom]. |
+| 报表文件名称 | 指定报表名称。默认格式为 `<report name> for <suite> - <report date range>`。要指定自定义名称，请选择[!UICONTROL 自定义]。 |
 | 报表格式 | 可让您指定 PDF、CSV、Excel、HTML、Word 或 Mobile 格式进行提交。如果选择 CSV，还可以为 CSV 指定编码：<ul><li>SHIFT-JIS：日文字符编码。</li><li>EUC-JP：扩展 UNIX 代码，主要用于日语、朝鲜语和简体中文。</li></ul> |
 | 报表目录 | <ul><li>表格中的行数：指定希望在发送的报表的表格中显示的行数。</li><li>页眉和页脚所用的语言：指定页眉和页脚的语言。</li><li>注释：指定在报表开始部分显示的文本。</li></ul> |
 | 发送数字签名文件 | 请求报表（例如，已添加书签的报表或 Data Warehouse 请求）时，您可以请求数据签名。Adobe 的数字签名不限制谁能够访问数据，但数字签名文件 (.sig) 的目的在于验证已提交报表文件的有效性。使用数字签名，报表的接收方可以验证文件是否来自 Adobe 且未发生更改。 |
 | 报表目标 | <ul><li>电子邮件：可配置电子邮件地址设置、主题行及注释。</li><li>FTP：可配置 FTP 设置，包括主机、端口、目录、用户名和密码。</li></ul> |
 
-1. 单击 **[!UICONTROL Scheduling Options]**.
+1.  单击&#x200B;**[!UICONTROL 计划选项]**。
 
 | 选项 | 描述 |
 |--- |--- |
@@ -73,14 +73,14 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 描述如何打印报表的步骤。
 
 1. 运行报表。
-1. 单击 **[!UICONTROL More]** > **[!UICONTROL Print]**.  ![](assets/print.png)
+1. 单击&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 打印]**。![](assets/print.png)
 
 ## 使用基本选项下载报表 {#task_43660107A1C9485D92981CD75B562577}
 
 使用 PDF、CSV、Excel 或原始数据导出格式下载有关特定报表的详细信息。
 
-1. In  **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** , select a report to view.
-1. 单击 **[!UICONTROL Download]**.
+1. 在 **[!UICONTROL Analytics]** > **[!UICONTROL 报表]**&#x200B;中，选择要查看的报表。
+1. 单击&#x200B;**[!UICONTROL 下载]**。
 
    ![](assets/download_basic.png)
 
@@ -98,11 +98,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 有关管理计划报表的信息。
 
-In the [!UICONTROL Schedule Reports Manager], you can edit and delete recurring report deliveries. 您可以创建提交计划，通过电子邮件或 FTP 将报表发送至指定位置。您可将这些计划配置为以指定间隔在某个时间段或不定时地自动发送报表，或停止报表循环提交操作。
+在[!UICONTROL 计划报表管理器]中，可以编辑和删除重复的报表提交。您可以创建提交计划，通过电子邮件或 FTP 将报表发送至指定位置。您可将这些计划配置为以指定间隔在某个时间段或不定时地自动发送报表，或停止报表循环提交操作。
 
-The [!UICONTROL Schedule Report Manager] shows the items that a specific user has created. 若应用程序中禁用此用户帐户，则会停止所有计划的提交。
+[!UICONTROL 计划报表管理器]显示特定用户创建的项目。若应用程序中禁用此用户帐户，则会停止所有计划的提交。
 
-1. 要访问管理者，请单击 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Scheduled Reports]**。
+1. 要访问管理器，请单击 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 计划报表]**。
 
 ## 共享报表链接 {#task_9711DDE9E140451B8C914EC5513E21EC}
 
@@ -113,7 +113,7 @@ The [!UICONTROL Schedule Report Manager] shows the items that a specific user ha
 **共享报表链接**
 
 1. 运行报表。
-1. 单击 **[!UICONTROL More]** > **[!UICONTROL Link to This Report]**.
+1. 单击&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 链接至此报表]**。
 
 ## 取消订阅计划报表 {#concept_6B48360F935740B6851BA85D32DEF637}
 
@@ -129,7 +129,7 @@ The [!UICONTROL Schedule Report Manager] shows the items that a specific user ha
 
    ![](assets/unsubscribe-email.png)
 
-1. 单击旁 **[!UICONTROL click here]** 边的链接 **[!UICONTROL To cancel automatic delivery of this report]**。
+1. 单击位于&#x200B;**[!UICONTROL 取消该报表的自动发送功能]**&#x200B;旁边的&#x200B;**[!UICONTROL 单击此处]**&#x200B;链接。
 
 1. 确认您要取消报表发送。
 
