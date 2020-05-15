@@ -4,7 +4,7 @@ subtopic: Data sources
 title: 要求和上载限制
 topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -77,7 +77,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   </tr> 
   <tr> 
    <td colname="col1"> UTF-16，不带字节顺序标记 </td> 
-   <td colname="col2"> 不受支持. </td> 
+   <td colname="col2"> 不受支持。 </td> 
   </tr> 
  </tbody> 
 </table>
