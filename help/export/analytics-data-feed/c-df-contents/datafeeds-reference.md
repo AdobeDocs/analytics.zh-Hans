@@ -5,7 +5,7 @@ subtopic: data feeds
 title: 数据列引用
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -167,7 +167,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | `quarterly_visitor` | 确定点击是否为新的每季访客的标记。 | tinyint，无符号 |
 | `ref_domain` | 基于反向链接列。点击的反向链接域名。 | varchar(100) |
 | `ref_type` | 表示点击的反向链接类型的数字 ID。<br>1：网站内<br>2：其他网站<br>3：搜索引擎<br>4：硬盘<br>5：未发送<br>6：已输入/添加书签（无反向链接）<br>7：电子邮件<br>8：无 JavaScript <br>9：社交网络 | tinyint，无符号 |
-| `referrer` | 上一页的页面 URL。请注意，当 `referrer` 使用varchar(255)的数据类型 `post_referrer` 时，使用varchar(244)的数据类型。 | varchar(255) |
+| `referrer` | 上一页的页面 URL。请注意，在 `referrer` 使用数据类型 varchar(255) 时，`post_referrer` 使用数据类型 varchar(244)。 | varchar(255) |
 | `resolution` | 表示显示器分辨率的数字 ID。填充“显示器分辨率”维度。使用 resolution.tsv 查询表。 | smallint，无符号 |
 | `s_kwcid` | Adobe Advertising Cloud 集成中使用的关键词 ID。 | varchar(255) |
 | `s_resolution` | 原始屏幕分辨率值需使用 JavaScript 函数 screen.width x screen.height 来收集。 | char(20) |
@@ -206,7 +206,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | `user_hash` | 已不再使用。有关报表包 ID 的散列。请改为使用 username。 | int，无符号 |
 | `user_server` | 在“服务器”维度中使用的变量。 | varchar(100) |
 | `userid` | 已不再使用。表示报表包 ID 的数字 ID。请改为使用 username。 | int，无符号 |
-| `username` | 点击的报表包ID。 | char(40) |
+| `username` | 点击的报表包 ID。 | char(40) |
 | `va_closer_detail` | 在“最近联系详细信息”维度中使用的变量。 | varchar(255) |
 | `va_closer_id` | 用于标识“最近联系渠道”维度的数字 ID。可在营销渠道管理器中找到此 ID 所对应的查询表。 | tinyint，无符号 |
 | `va_finder_detail` | 在“首次联系详细信息”维度中使用的变量。 | varchar(255) |
