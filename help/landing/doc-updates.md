@@ -2,8 +2,11 @@
 title: Adobe Analytics 技术文档更新
 description: 对 Adobe Analytics 文档存储库的重要更新。
 short-title: Analytics documentation updates
-translation-type: ht
-source-git-commit: c2194a6cf7e381ebeab05e273c9b64816552d744
+translation-type: tm+mt
+source-git-commit: 816a83a3911250460e26fac9469f604b7616560a
+workflow-type: tm+mt
+source-wordcount: '469'
+ht-degree: 98%
 
 ---
 
@@ -12,7 +15,7 @@ source-git-commit: c2194a6cf7e381ebeab05e273c9b64816552d744
 
 自 2019 年 1 月以来的 Adobe Analytics 文档集内容更新。
 
-* 有关 [!UICONTROL Customer Journey Analytics] 的信息，请转到[此处](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)。
+* 有关客户旅 [!UICONTROL 程分析的信息]，请访 [问此处](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)。
 * 有关 Adobe Analytics 新增功能、管理员通知和错误修复的完整列表，请参阅最新的 [Experience Cloud 发行说明](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html)。
 * 有关新增功能的详细信息，请参阅工具用户指南中的 [Analysis Workspace 中的新增功能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)。
 * 有关 Adobe Analytics for Audio and Video 的信息，请参阅[在 Analytics 中测量音频和视频](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-overview.html)。
@@ -21,13 +24,13 @@ source-git-commit: c2194a6cf7e381ebeab05e273c9b64816552d744
 
 | 页面 | 描述 |
 |---|---|
-| 2020 年 4 月 28 日 | 添加了有关[内容周转率](https://docs.adobe.com/content/help/zh-Hans/analytics/components/variables/metrics/metrics-content-velocity.html)￼量度的文档。 |
-| 2020 年 3 月 12 日 | 添加了[将区段发布到 Experience Cloud](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/segmentation-workflow/seg-publish.html) 的更新。 |
+| 2020 年 4 月 28 日 | 添加了有关[内容周转率](/help/components/c-variables/c-metrics/metrics-content-velocity.md)￼量度的文档。 |
+| 2020 年 3 月 12 日 | 添加了[将区段发布到 Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md) 的更新。 |
 | 2020 年 3 月 12 日 | 更新了 CDA 拼合延迟。 |
 | 2020 年 2 月 27 日 | 添加了有关 [Adobe Analytics Labs](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/tech-previews/overview.html) 的文档。 |
 | 2020 年 2 月 25 日 | 添加了 [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) 变量。 |
 | 2020 年 2 月 18 日 | 添加了 [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) 变量。 |
-| 2020 年 2 月 12 日 | 更新并重新整理了[营销渠道](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html)文档。 |
+| 2020 年 2 月 12 日 | 更新并重新整理了[营销渠道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)文档。 |
 | 2020 年 2 月 7 日 | 更新了[设置跨设备分析](../components/cda/cda-setup.md)和[常见问题解答](../components/cda/cda-faq.md)。 |
 | 2020 年 2 月 4 日 | 完全重写[实施用户指南](../implement/home.md)。 |
 | 2020 年 1 月 22 日 | 更新了“自由格式表”页面，现在包含有关新的[自由格式表生成器](/help/analyze/analysis-workspace/visualizations/freeform-table.md)的信息。 |
