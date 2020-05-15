@@ -3,7 +3,7 @@ description: 为一些最常见的 Analytics 问题提供答案和故障诊断�
 keywords: Troubleshooting Analytics
 title: 常见问题解答
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
