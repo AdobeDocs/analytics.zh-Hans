@@ -4,7 +4,7 @@ subtopic: Get started
 title: Reports and Analytics 快速入门
 topic: Reports and analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -56,14 +56,14 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 1. 启动联网计算机的浏览器。
 1. 转到 [!DNL https://login.experiencecloud.adobe.com/] 。
-1. 在页面 [!UICONTROL Sign In] 上，单击 **[!UICONTROL Single Sign-On]**。
-1. Complete the following information, then click **[!UICONTROL Sign In]**.
+1.  在[!UICONTROL 登录]页面，单击&#x200B;**[!UICONTROL 单点登录]**。
+1.  完成以下信息，然后单击&#x200B;**[!UICONTROL 登录]**。
 
-   **[!UICONTROL Company]**:指定公司ID。
+   **[!UICONTROL 公司]**：指定公司 ID。
 
-   **[!UICONTROL Username]**:指定您的帐户ID。
+   **[!UICONTROL 用户名]**：指定您的帐户 ID。
 
-   **[!UICONTROL Password]**:指定帐户密码。
+   **[!UICONTROL 密码]**：指定您的帐户密码。
 1. 从 Experience Cloud 主页转到 **Analytics > 报表**。
 
    在非活动状态下持续 30 分钟后，Experience Cloud 会自动将您注销。
@@ -72,11 +72,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 描述如何生成报表的步骤。
 
-1. Log in to [!UICONTROL Reports & Analytics].
+1. 登录到“[!UICONTROL Reports &amp; Analytics]”。
 
    此时会显示“报表”菜单，或显示[功能板](/help/analyze/reports-analytics/dashboard.md)（如果已设置）。
 
-1. 单击 **[!UICONTROL Site Content]** > **[!UICONTROL Pages]** （例如）。
+1.  单击&#x200B;**[!UICONTROL 网站内容]** > **[!UICONTROL 页面]**（例如）。
 
    ![](assets/pages_report.png)
 
@@ -88,9 +88,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 您可以查看和编辑联系信息，指定密码，查看 Web 服务信息，以及从数据收集中排除此计算机。
 
-Click the Account icon ![](assets/account.png)at the top right, then click the **[!UICONTROL Account Settings]** (wheel) icon next to your login name.
+单击右上方的“帐户”图标 ![](assets/account.png)，然后单击登录名旁边的&#x200B;**[!UICONTROL 帐户设置]**（轮状）图标。
 
-All users have access to the [!UICONTROL Account Information] page. 可以查看或编辑以下信息：
+所有用户都可以访问[!UICONTROL 帐户信息]页面。可以查看或编辑以下信息：
 
 <table id="table_58F5D292485F45F9902B372E4E1E3103"> 
  <thead> 
@@ -130,7 +130,7 @@ All users have access to the [!UICONTROL Account Information] page. 可以查看
 
 描述如何更改界面语言的步骤。您可以用所选的语言来查看 Reports &amp; Analytics 界面。
 
-1. Log in to Analytics and select the **[!UICONTROL Reports]** tab.
-1. In the page footer, click the active language in the **[!UICONTROL Language]** menu, then select your preferred language.
+1. 登录到 Analytics，然后选择&#x200B;**[!UICONTROL 报表]**&#x200B;选项卡。
+1. 在页脚中，单击&#x200B;**[!UICONTROL 语言]**&#x200B;菜单中的可用语言，然后选择您的首选语言。
 
-You can access the documentation and the Home Page from the Adobe Experience Cloud. ( **[!UICONTROL Help]** > **[!UICONTROL Help Home]**.)
+您可以从 Adobe Experience Cloud 访问文档和主页。（**[!UICONTROL 帮助]** > **[!UICONTROL 帮助主页]**。）
