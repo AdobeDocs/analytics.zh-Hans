@@ -3,7 +3,7 @@ description: Adobe 支持将 Data Warehouse 请求导出至 SFTP 服务器。
 keywords: ftp;sftp
 title: 将 Data Warehouse 请求发送到 SFTP 服务器
 uuid: 393634a1-0643-4d63-bb6e-fb80f1ba76c1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -33,7 +33,7 @@ Adobe 支持将 Data Warehouse 请求导出至 SFTP 服务器。
 1. 在获取此文件后，使用与 [!DNL Data Warehouse] 请求相同的凭据登录到 FTP 站点。
 1. 在根目录中，导航到名为 [!DNL .ssh] 的文件夹（如果不存在，请创建一个），并将 [!DNL authorized_keys] 文件置于此处。
 
-1. 转到 [!DNL Data Warehouse] 请求管理器。根据需要配置请求，然后单击 **[!UICONTROL Advanced Delivery Options]**。
+1. 转到 [!DNL Data Warehouse] 请求管理器。按需要配置请求，然后单击&#x200B;**[!UICONTROL 高级传送选项]**。
 
 1. 在弹出窗口中，单击 **[!UICONTROL FTP]**，然后指定通过端口 22 连接的 FTP 站点（包括 [!DNL sftp://] 协议，例如 [!DNL sftp://ftp.omniture.com]）。
 
@@ -41,7 +41,7 @@ Adobe 支持将 Data Warehouse 请求导出至 SFTP 服务器。
 
 1. 在“文件夹”字段中输入要在其中置入文件的文件夹的名称。文件夹是必填项。
 1. 输入在步骤 2 中使用的相同用户名和密码。
-1. 单击 **[!UICONTROL Send]**.
+1. 单击&#x200B;**[!UICONTROL 发送]**。
 
 sFTP PUT 命令会将具有 .part 扩展名的临时文件放入指定的目录中。上传完成后，该文件扩展名将被重命名为最终的扩展名，此后便可随时供您使用。
 
