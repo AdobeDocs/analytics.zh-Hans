@@ -4,7 +4,7 @@ subtopic: Dashboards
 title: 功能板和缩图报表
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -18,9 +18,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 功能板为一组以缩略图方式显示的报表，称为 *`reportlets`*。 包含相关缩图报表的功能板非常有用，因为这样您就可以对网站的某些方面（如查找方法、访客资料等）有一个完整的概括性认识。
 
-您可以向仪表板添加大多数市场营销报告，包括图形密集的报 [!UICONTROL Fallout Report]告， [!UICONTROL Conversion Funnel Report]如、和 [!UICONTROL Pathfinder Report]。
+在功能板中可添加大部分市场营销报告，包括图表丰富的报表，如[!UICONTROL 流失报表]、[!UICONTROL 转化漏斗报表]和 [!UICONTROL Pathfinder 报表]。
 
-您还可以将功能板设置为登陆页面，与其他用户共享功能板，以及计划功能板以进行提交。If you do not set a dashboard (or a bookmark) as a landing page, the [!UICONTROL My Recommended Reports] dashboard displays. **[!UICONTROL My Recommended Reports]** 显示报 **[!UICONTROL Key Metrics]** 表以及五个最常查看的报表。 动态选择并显示您使用最频繁的五个报表。
+您还可以将功能板设置为登陆页面，与其他用户共享功能板，以及计划功能板以进行提交。如果您没有将功能板（或书签）设置为登陆页面，则会显示“[!UICONTROL 我的推荐报表]”功能板。除了&#x200B;**[!UICONTROL 关键量度]**&#x200B;报表之外，**[!UICONTROL 我的推荐报表]**&#x200B;还将基于您在实际操作中最常查看的报表，动态选择并显示您使用最频繁的五个报表。
 
 请注意，某些频繁查看的报表无法包含在功能板中，因此将不会出现。这些功能包括：
 
@@ -31,18 +31,18 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * 实时报表
 * 其他功能板
 
->[!NOTE] 该 **[!UICONTROL Site Overview]** 仪表板不再列在Reports &amp; Analytics中。 但是，在某几种情况下，您仍然可以查看它的部分或全部缩图报表。
+>[!NOTE] **[!UICONTROL 网站概述]**&#x200B;功能板不再列于 Reports &amp; Analytics 中。但是，在某几种情况下，您仍然可以查看它的部分或全部缩图报表。
 
-* If you have, say, only three frequently viewed reports, Reports &amp; Analytics will take two reports from the Site Overview dashboard to complete the **[!UICONTROL My Recommended Reports]** dashboard.
-* 全新报表包最初也仍然会包含“网站概述”缩图报表，直到它们被您频繁查看的报表替换为止。即便如此，仪表板现在也将被称为。 **[!UICONTROL My Recommended Reports]**
+* 假如您只有三个频繁查看的报表，则 Reports &amp; Analytics 将从“网站概述”功能板中选取两个报表来填充&#x200B;**[!UICONTROL 我的推荐报表]**&#x200B;功能板。
+* 全新报表包最初也仍然会包含“网站概述”缩图报表，直到它们被您频繁查看的报表替换为止。即便如此，功能板现在还是被称为&#x200B;**[!UICONTROL 我的推荐报表]**。
 
 除了您创建的功能板以外，还包含以下预封装的功能板可供每个用户使用：
 
-**[!UICONTROL Components]>[!UICONTROL Dashboards]>[!UICONTROL Shared Dashboards]>[!UICONTROL Local Sites]**
+**[!UICONTROL 组件]>[!UICONTROL 功能板]>[!UICONTROL 共享功能板]>[!UICONTROL 本地网站]**
 
 此可自定义的功能板可将缩图报表拖放到提供的模板中。
 
-**[!UICONTROL Components]>[!UICONTROL Dashboards]>[!UICONTROL Shared Dashboards]>[!UICONTROL Site Operations Dashboard]**
+**[!UICONTROL 组件]>[!UICONTROL 功能板]>[!UICONTROL 共享功能板]>[!UICONTROL 网站操作功能板]**
 
 该功能板概述了与网站操作相关的关键量度。该功能板的报表包括：
 
@@ -53,9 +53,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * 文本缩图报表
 * 公司概要报表
 
-Use the [!UICONTROL Dashboard Manager] to edit and manage dashboards, and enable them for DirectAccess.
+使用“[!UICONTROL 功能板管理器]”，可以编辑和管理功能板，并为 DirectAccess 启用这些功能板。
 
-See [Managing Dashboards](/help/analyze/reports-analytics/dashboard-manage.md).
+请参阅[管理功能板](/help/analyze/reports-analytics/dashboard-manage.md)。
 
 ## 创建功能板 {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
@@ -69,24 +69,24 @@ t_dashboard_add.xml
 
 在将报表（作为缩图报表）添加到功能板之前，请定义功能板的布局。
 
-1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Manage Dashboards]**.
-1. 单击 **[!UICONTROL Add Dashboard]**.
+1. 转至 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 管理功能板]**。
+1. 单击&#x200B;**[!UICONTROL 添加功能板]**。
 1. 键入功能板名称。
 1. 单击 **[!UICONTROL 3 x 2]** 或 **[!UICONTROL 2 x 2]** 以指定希望在功能板页面上显示多少缩图报表。
 1. 配置功能板页面布局：
 
-   * **[!UICONTROL Add Page]**:向仪表板添加空白页面，您可以在该页面上拖动内容以创建缩图报表。
-   * **[!UICONTROL Paper]**:允许您指定纸张大小，如横向、纵向和A4。
-   * **[!UICONTROL Find Content]**:允许您在和菜单中搜索 [!UICONTROL Add Content] 内 [!UICONTROL Dashboard Contents] 容。
+   * **[!UICONTROL 添加页面]**：向功能板添加一个空白页面，可以在上面拖入内容创建缩图报表。
+   * **[!UICONTROL 纸张]**：用于指定纸张尺寸，如横向、纵向和 A4。
+   * **[!UICONTROL 查找内容]**：用于在[!UICONTROL 添加内容]和[!UICONTROL 功能板内容]菜单中搜索内容。
 
 1. 通过将项目拖到缩图报表画布，向功能板添加可用内容。
 
    请参阅[创建缩图报表](/help/analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3)和[编辑功能板设置](/help/analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459)。
-1. 单击 **[!UICONTROL Save.]**
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-   Saving a dashboard makes it available in the **[!UICONTROL Dashboard]** menu. The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** > **[!UICONTROL Dashboards]** > **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. （请参阅[管理功能板](/help/analyze/reports-analytics/dashboard-manage.md)。）
+   保存功能板，使之在&#x200B;**[!UICONTROL 功能板]**&#x200B;菜单中可用。新功能板还在[!UICONTROL 功能板管理器]（**[!UICONTROL 收藏夹]** > **[!UICONTROL 功能板]** > **[!UICONTROL 管理器]**）中提供，您可以在其中编辑、组织、共享、计划、存档功能板等。（请参阅[管理功能板](/help/analyze/reports-analytics/dashboard-manage.md)。）
 
-1. （可选）要将仪表板设置为登陆页，请单击 **[!UICONTROL More Options]** > **[!UICONTROL Set as Landing Page]**。
+1. （可选）要将功能板设置为登录页面，请单击&#x200B;**[!UICONTROL 更多选项]** > **[!UICONTROL 设置为登录页面]**。
 
 ## 创建缩图报表 {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
 
@@ -99,20 +99,20 @@ t_dashboard_add_report.xml
  -->
 
 1. 运行报表。
-1. 单击 **[!UICONTROL Dashboard.]**
-1. 在页 [!UICONTROL Add Reportlet] 面中，命名报表，然后从中选择仪表板 **[!UICONTROL Place in Dashboard]**。
+1. 单击&#x200B;**[!UICONTROL 功能板]**。
+1. 在“[!UICONTROL 添加缩图报表]”页面，命名报表，然后从&#x200B;**[!UICONTROL 置于功能板中]**&#x200B;选择一个功能板。
 1. （可选）配置日期范围。 
 
-   * **[!UICONTROL Rolling]**:根据时间跨度（每日、每月等）更改时间过去的日期。 例如，如果今天是 1 月 17 日，可以设置日期 1 月 15 - 16 日。Then if you select **[!UICONTROL Rolling]**, on January 27 the reportlet displays data for January 25 - 26.
-   * **[!UICONTROL Fixed]**:防止日期随着时间推移而前进。
+   * **[!UICONTROL 连续]**：根据时间区间（每日、每月等），日期随时间变化而更改。例如，如果今天是 1 月 17 日，可以设置日期 1 月 15 - 16 日。然后，如果选择&#x200B;**[!UICONTROL 连续]**，在 1 月 27 日缩图报表将显示 1 月 25 - 26 日的数据。
+   * **[!UICONTROL 固定]**：防止日期随时间变化而更改。
 
 1. （可选）覆盖发布的分发列表。
 
-   **[!UICONTROL Publishing List Override]**:如果启用此选项，则此缩图报表中引用的报表包在分发到发布列表时始终使用。 如果禁用此选项，则用发布列表中确定的报表包替换此缩图报表中的报表包。
+   **[!UICONTROL 发布列表覆盖]**：如果启用此选项，则会在分发到发布列表时始终使用此缩图报表中引用的报表包。如果禁用此选项，则用发布列表中确定的报表包替换此缩图报表中的报表包。
 
-1. 单击 **[!UICONTROL Create New]**.
+1. 单击&#x200B;**[!UICONTROL 新建]**。
 
-   The reportlet is added to the **[!UICONTROL Dashboard Contents]** menu in the dashboard editor.
+   缩图报表会添加到功能板编辑器中的&#x200B;**[!UICONTROL 功能板内容]**&#x200B;菜单。
 
 ## 将内容添加到功能板 {#task_90D7FAC1CC3E4DB786B4C87CC33B5459}
 
@@ -124,10 +124,10 @@ t_dashboard_content.xml
 
  -->
 
-1. Open a dashboard, then click **[!UICONTROL Layout]**.
-1. Click **[!UICONTROL Add Content]**, then drag items to the dashboard.
+1. 打开一个功能板，然后单击&#x200B;**[!UICONTROL 布局]**。
+1. 单击&#x200B;**[!UICONTROL 添加内容]**，然后将项目拖到功能板。
 
-   The [!UICONTROL Add Content] menu displays reportlet content from other dashboards, legacy dashboards, and shared dashboards.
+   [!UICONTROL 添加内容]菜单显示来自其他功能板、原有功能板和共享功能板的缩图报表内容。
 
    >[!NOTE]
    >
@@ -166,7 +166,7 @@ t_dashboard_content.xml
 
    显示已经添加到功能板的项目。
 
-1. 单击 **[!UICONTROL Save.]**
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 编辑功能板和缩图报表数据 {#task_B460CCD70D9F40FCAC6BBC1C044CC460}
 
@@ -180,22 +180,22 @@ t_dashboard_edit.xml
 
 **编辑功能板和缩图报表数据**
 
-1. Click **[!UICONTROL Components]** > **[!UICONTROL Dashboards]** > *dashboard name* to open a dashboard.
-1. 单击 **[!UICONTROL Layout]**.
+1. 单击&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 功能板]** > *功能板名称*，以打开功能板。
+1. 单击&#x200B;**[!UICONTROL 布局]**。
 
 | 至 | 执行此操作 |
 |--- |--- |
 | 更改功能板的报表包 | 单击 Experience Cloud 标题中的菜单，然后选择一个报表包。 |
-| 更改缩图报表的报表包 | In the reportlet, click the report suite name, then select a report suite from the [!UICONTROL Report Suite] menu. |
-| 将区段应用到功能板 | In the Experience Cloud header, click [!UICONTROL Show Segments], then select a segment. |
+| 更改缩图报表的报表包 | 在缩图报表中，单击报表包名称，然后从[!UICONTROL 报表包]菜单中选择一个报表包。 |
+| 将区段应用到功能板 | 在 Experience Cloud 标题中，单击[!UICONTROL 显示区段]，然后选择一个区段。 |
 | 将区段应用到缩图报表 | 在功能板中，单击布局以编辑功能板。   在缩图报表中，单击报表包名称，然后从区段字段中选择一个值，并单击更新。 |
-| 锁定报表包（阻止更改缩图报表中的报表包） | In the reportlet, click the report suite name, then enable [!UICONTROL Lock Report Suite]. 单击更新。 |
+| 锁定报表包（阻止更改缩图报表中的报表包） | 在缩图报表中，单击报表包名称，然后启用[!UICONTROL 锁定报表包]。单击更新。 |
 | 更改报表日期 | 对于功能板，单击日历。（功能板中的所有缩图报表都将反映此更改）。<br>对于缩图报表，单击日期链接，然后配置日历。 |
-| 命名功能板 | Open a dashboard, then click  [!UICONTROL More] >  [!UICONTROL Rename]. |
-| 查看功能板存档 | 单击  [!UICONTROL More] >  [!UICONTROL View Archive]. |
-| 将功能板设置为登录页面 | In a dashboard, click  [!UICONTROL More] > [!UICONTROL Set As Landing Page]. |
-| 下载功能板 | In a dashboard, click  [!UICONTROL More] >  Download. |
-| 打印功能板 | In a dashboard, click  [!UICONTROL More] >  Print. |
+| 命名功能板 | 打开一个功能板，然后单击[!UICONTROL 更多] > [!UICONTROL 重命名]。 |
+| 查看功能板存档 | 单击[!UICONTROL 更多] > [!UICONTROL 查看存档]。 |
+| 将功能板设置为登录页面 | 在功能板中，单击[!UICONTROL 更多] > [!UICONTROL 设置为登录页面]。 |
+| 下载功能板 | 在功能板中，单击[!UICONTROL 更多] > 下载。 |
+| 打印功能板 | 在功能板中，单击[!UICONTROL 更多] > 打印。 |
 | 保存功能板 | 在功能板中，点击另存为，然后指定一个名称。 |
 
 ## 品牌联合功能板 {#task_603BDE7700B945699AF5514C2DEB81F7}
@@ -208,10 +208,10 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]**.
-1. 在页面 [!UICONTROL Company Settings] 上，单击 **[!UICONTROL Co-Brand the Adobe Experience Cloud]**。
-1. 单击 **[!UICONTROL Enable Co-Branding]**.
-1. Browse to upload the image, then click **[!UICONTROL Save.]**
+1. **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 公司设置]**。
+1. 在[!UICONTROL 公司设置]页面上，单击&#x200B;**[!UICONTROL 品牌联合 Adobe Experience Cloud]**。
+1. 单击&#x200B;**[!UICONTROL 启用“联合品牌”]**。
+1. 浏览以上载图像，然后单击&#x200B;**[!UICONTROL 保存]**。
 
    为了在浏览器中查看图像时达到最佳效果，请上载 100px x 30px 图像。为获得最佳 PDF 输出效果，请上载 417px × 125px (300 dpi) 图像。尺寸过大的图像将被缩小到有效尺寸，同时保留纵横比。
 
@@ -227,5 +227,5 @@ segments_dashboards.xml
 
 分段可以应用到两个层级：整个功能板或特定的缩图报表。
 
-* **报表级别**:单 **[!UICONTROL Layout]**&#x200B;击，然后单击要细分的缩图报表的报表包。 会出现一个模态窗口，您可以在这个窗口中添加或更改缩图报表使用的分段。
+* **缩图报表层级**：单击&#x200B;**[!UICONTROL 布局]**，然后单击要分段的缩图报表的报表包。会出现一个模态窗口，您可以在这个窗口中添加或更改缩图报表使用的分段。
 * **功能板层级**：单击左侧导航中的“区段”图标，选中您要使用的区段，然后单击“应用”。所选的区段会覆盖并替换任何缩图报表级别区段。
