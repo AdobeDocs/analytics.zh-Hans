@@ -1,7 +1,7 @@
 ---
 title: 列表变量
-description: 创建和配置列表变量以用于报告。
-translation-type: tm+mt
+description: 创建并配置列表变量以用于报告。
+translation-type: ht
 source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 ---
@@ -9,13 +9,13 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 # 列表变量
 
-创建和配置列表变量以用于报告。 在此处设置其分隔符、过期、分配和最大值。
+创建并配置列表变量以用于报告。在此处设置其分隔符、过期、分配和最大值。
 
-您可以在Admin Console中访问配置：
+您可以在 Admin Console 中访问配置：
 
-1. 转至&#x200B;**[!UICONTROL “Analytics]**”>“**[!UICONTROL 管理员]**”>“**[!UICONTROL 报表包]**”
+1. 转至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**
 2. 选择报表包。
-3. 单击&#x200B;**[!UICONTROL “编辑设置]**”>“**[!UICONTROL 转化]**”>“**[!UICONTROL 列表变量]**”。
+3. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 转化]** > **[!UICONTROL 列表变量]**。
 
 * **名称**：每一个分隔值最多可包含 255 个字符（如果使用多字节字符，则会更少）。这是每个元素的最大长度。
 * **值分隔符**：用于在列表变量中分隔值的字符。通常有逗号、冒号、竖线或类似的字符。
