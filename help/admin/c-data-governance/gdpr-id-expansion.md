@@ -2,7 +2,7 @@
 description: '您提交的 ID 并不总是涵盖 Analytics 可将其与数据主体关联的所有命中数据。Analytics 可创建一个扩展的 ID 集，以便将此关联数据包含在数据隐私请求中。您可以为您提交的每个数据隐私请求来要求使用此选项，只需将以下可选参数添加到 JSON 请求即可 '
 title: ID 扩展
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -28,7 +28,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Cookie ID 扩展 </p> </td> 
-   <td colname="col2"> <p>许多 Analytics 客户最初使用（旧版）<a href="https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-privacy.html">Analytics Cookie</a>，但现在逐渐使用 <a href="https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html">Identity 服务 (ECID)</a>，这项服务以前称为 Marketing Cloud ID 服务 (MCID)。对于在转换后首次访问这些客户网站的访客，仅存在 ECID。但是，对于那些在仅可使用旧版 Cookie 时首次访问，但之后又访问过的访客，他们的某些数据将同时具有这两个 Cookie，但是较旧的数据将只有 Analytics Cookie，而在极少数情况中，最新的数据可能只有 ECID。 </p> <p>您需要确保通过 Analytics（访客 ID）Cookie 或 ECID 识别的访客的所有数据都能被找到。因此，如果您以前使用过 Analytics Cookie 且现在使用 ECID，则当您使用任一类型的 ID 提交请求时，应在请求中包含两种 ID，或者指定 expandIds 选项。当您指定 expandIds 时，Adobe 将检查与您提供的任何 Cookie ID 相对应的其他 ECID 或 Analytics Cookie。该请求将自动扩展以包含这些新识别的 Cookie ID。 </p> </td> 
+   <td colname="col2"> <p>许多 Analytics 客户最初使用（旧版）<a href="https://docs.adobe.com/content/help/zh-Hans/core-services/interface/ec-cookies/cookies-privacy.html">Analytics Cookie</a>，但现在逐渐使用 <a href="https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html">Identity 服务 (ECID)</a>，这项服务以前称为 Marketing Cloud ID 服务 (MCID)。对于在转换后首次访问这些客户网站的访客，仅存在 ECID。但是，对于那些在仅可使用旧版 Cookie 时首次访问，但之后又访问过的访客，他们的某些数据将同时具有这两个 Cookie，但是较旧的数据将只有 Analytics Cookie，而在极少数情况中，最新的数据可能只有 ECID。 </p> <p>您需要确保通过 Analytics（访客 ID）Cookie 或 ECID 识别的访客的所有数据都能被找到。因此，如果您以前使用过 Analytics Cookie 且现在使用 ECID，则当您使用任一类型的 ID 提交请求时，应在请求中包含两种 ID，或者指定 expandIds 选项。当您指定 expandIds 时，Adobe 将检查与您提供的任何 Cookie ID 相对应的其他 ECID 或 Analytics Cookie。该请求将自动扩展以包含这些新识别的 Cookie ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>自定义 ID 转 Cookie ID 扩展 </p> </td> 
