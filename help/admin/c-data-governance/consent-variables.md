@@ -2,7 +2,7 @@
 description: 数据隐私中的隐私报表的变量。
 title: 隐私报表变量
 topic: Admin tools
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
 
 ---
@@ -34,12 +34,12 @@ source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
 您可以通过 Analytics Admin Console 中提供的一项新隐私设置来启用隐私报表变量。
 
 每个报表包可以按如下方式进行配置：
-1. 在 Reports &amp; Analytics 中，单击&#x200B;**[!UICONTROL 管理员 > 报表包]**。
-1. 选择要在其中收集媒体数据的报表包，然后单击&#x200B;**[!UICONTROL 编辑设置 > 隐私管理]**。
+1. 在 Reports &amp; Analytics 中，单击 **[!UICONTROL Admin > Report Suites]**。
+1. 选择要在其中收集媒体数据的报表包，然后单击 **[!UICONTROL Edit Settings > Privacy Management]**。
 
    ![](assets/rsm-privacy-select.png)
 
-1. 单击&#x200B;**[!UICONTROL 启用数据隐私报表]**&#x200B;按钮。
+1. 单击 **[!UICONTROL Enable Data Privacy Reports]** 按钮。
 
    > [!NOTE] 启用后，这些变量将无法关闭。
 
@@ -49,7 +49,7 @@ source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
 
    ![](assets/rsm-privacy-config.png)
 
-1. 保留的变量现在可在Reports &amp; Analytics和Workspace中分析。 请参阅“同意管理选择退出和同意管理选择加入”。
+1. 保留变量现在可用于在 Reports &amp; Analytics 和 Workspace 中进行分析。请参阅“同意管理选择退出和同意管理选择加入”。
 
    ![](assets/consent-management.png)
 
@@ -70,7 +70,7 @@ source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
 
 * 上下文数据：`contextData.['opt.dmp']`
 * 接受的值：
-   * N – 发送值“N”时，这表示消费者选择退出共享到数据管理平台。**注意**:自2020年1月15日起，将此变量设置为“N”将阻止在AAM中共享此点击的服务器端。
+   * N – 发送值“N”时，这表示消费者选择退出共享到数据管理平台。**注意**：自 2020 年 1 月 15 日起，将此变量设置为“N”会阻止在服务器端将此点击共享到 AAM。
    * Y - 发送值“Y”时，这表示消费者选择加入共享到数据管理平台。
 
 ### SELL
