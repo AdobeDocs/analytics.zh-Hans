@@ -4,7 +4,7 @@ subtopic: Users and groups
 title: 用户和产品管理
 topic: Admin tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 >[!IMPORTANT]
 >
->用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在迁移完所有客户之后，将撤销 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员工具]** > **[!UICONTROL 用户管理]**&#x200B;中的帮助内容。
 
 ## 面向 Admin Console 管理员的帮助资源 {#section_C13BBB89E4F248F193358BB3A59DD502}
 
@@ -41,7 +41,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ## 用户管理描述 {#section_7C19842A3D4249109A9399D4DF18DE75}
 
-下表介绍了中选项卡上的 [!UICONTROL Users] 元素 [!UICONTROL User Management]。
+下表介绍[!UICONTROL “用户管理”]中[!UICONTROL “用户”]选项卡上的元素。
 
 <table id="table_6F81D1095EB945D8995FF971B65BA52A"> 
  <thead> 
@@ -65,7 +65,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 添加新用户</span> </td> 
-   <td colname="col2"> <p>可向公司添加用户帐户。此链接仅在剩余登录用户数量大于 0 时才可用。 </p> <p>请参阅 <a href="/help/admin/user-management2/c-user-management/users.md"> 用户</a>。 </p> </td> 
+   <td colname="col2"> <p>可向公司添加用户帐户。此链接仅在剩余登录用户数量大于 0 时才可用。 </p> <p>请参阅<a href="/help/admin/user-management2/c-user-management/users.md">用户</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 下载报表</span> </td> 
@@ -73,7 +73,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 登录</span> </td> 
-   <td colname="col2"> <p>用户名。您可以单击用户名以编辑用户帐户属性。 </p> <p>请参阅 <a href="/help/admin/user-management2/c-user-management/users.md"> 用户</a>。 </p> </td> 
+   <td colname="col2"> <p>用户名。您可以单击用户名以编辑用户帐户属性。 </p> <p>请参阅<a href="/help/admin/user-management2/c-user-management/users.md">用户</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 名字</span> </td> 
@@ -109,7 +109,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 编辑</span> </td> 
-   <td colname="col2"> <p>编辑用户帐户设置。 </p> <p>请参阅 <a href="/help/admin/user-management2/c-user-management/users.md"> 用户</a>。 </p> </td> 
+   <td colname="col2"> <p>编辑用户帐户设置。 </p> <p>请参阅<a href="/help/admin/user-management2/c-user-management/users.md">用户</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 删除</span> </td> 
