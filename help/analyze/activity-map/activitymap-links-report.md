@@ -3,7 +3,7 @@ description: 链接报表可以针对在当前页面上找到的链接进行报�
 title: 链接报表
 topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6b27755178d156b1eaf159640d466bd84659983d
 
 ---
@@ -37,7 +37,7 @@ source-git-commit: 6b27755178d156b1eaf159640d466bd84659983d
   </tr> 
   <tr> 
    <td colname="col1"> 链接 ID </td> 
-   <td colname="col2">The link's primary ID (for more information on how primary ID is defined by the <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md">New Link Tracking Methodology</a>) </td> 
+   <td colname="col2">链接的主 ID（有关<a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md">新的链接跟踪方法</a>如何定义主 ID 的详细信息） </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 点击 </td> 
@@ -82,7 +82,7 @@ source-git-commit: 6b27755178d156b1eaf159640d466bd84659983d
   </tr> 
   <tr> 
    <td colname="col1"> 链接 ID </td> 
-   <td colname="col2">链接的主 ID。For more information on how the primary ID is defined by the New <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md"> Link Tracking Methodology</a>. </td>
+   <td colname="col2">链接的主 ID。有关新的<a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md">链接跟踪方法</a>如何定义主 ID 的详细信息。 </td>
   </tr> 
   <tr> 
    <td colname="col1"> 链接点击次数 </td> 
