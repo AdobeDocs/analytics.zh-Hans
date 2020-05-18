@@ -1,29 +1,29 @@
 ---
-description: 可以使用s.tl()方法跟踪自定义元素并配置动态内容的叠加渲染。
-title: 使用s.tl()方法
+description: 您可以使用 s.tl() 方法来跟踪自定义元素并配置动态内容的叠加图呈现。
+title: 使用 s.tl() 方法
 topic: Activity map
 uuid: 59e062af-6a1c-46ff-9c3b-6cf7a0453711
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# 使用方 `tl()` 法
+# 使用 `tl()` 方法
 
-You can use the `tl()` method to track custom elements and to configure overlay rendering for dynamic content.
+您可以使用 `tl()` 方法来跟踪自定义元素并配置动态内容的叠加图呈现。
 
 ## 跟踪自定义元素 {#section_5D6688DFFFC241718249A9A0C632E465}
 
-Using the [`tl()` method](/help/implement/vars/functions/tl-method.md) as part of the Activity Map AppMeasurement module lets you track any object that is clicked on, even objects that are not anchor tags or image elements. 通过使用 s.tl，您可以跟踪未导致页面加载的任何自定义元素。
+通过将 [`tl()` 方法](/help/implement/vars/functions/tl-method.md)用作 Activity Map AppMeasurement 模块的一部分，您可以跟踪任何经过单击的对象，甚至可以跟踪不属于锚标记或图像元素的对象。通过使用 s.tl，您可以跟踪未导致页面加载的任何自定义元素。
 
-In the `tl()` method, the `linkName` parameter that is currently used to identify the exit links, custom links, etc. 现在也可用来识别 Activity Map 变量的链接 ID。
+在 `tl()` 方法中，当前用于识别退出链接、自定义链接等内容的 `linkName` 参数。现在也可用来识别 Activity Map 变量的链接 ID。
 
 ```js
 s.tl(this,linkType,linkName,variableOverrides)
 ```
 
-In other words, if you use `s.tl()` to track your custom elements, the link ID is pulled from the value passed as the third parameter (linkName) in the `s.tl()` method. 它并非是从 Activity Map 中用于进行[默认跟踪](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)的标准链接跟踪算法中提取。
+换句话说，如果您使用 `s.tl()` 来跟踪您的自定义元素，那么链接 ID 是从作为 `s.tl()` 方法中第三个参数 (linkName) 的值中提取的。它并非是从 Activity Map 中用于进行[默认跟踪](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)的标准链接跟踪算法中提取。
 
 ## 动态内容的叠加图呈现 {#section_FD24B61A732149C7B58BA957DD84A5E7}
 
@@ -33,9 +33,9 @@ In other words, if you use `s.tl()` to track your custom elements, the link ID i
 <div onclick="s.tl(this,'o','Example custom link')">Example link text</a>
 ```
 
-Whenever any web page content is added to the page after the initial page load, the `tl()` method is called indirectly and we cannot display overlays for that new content unless it is expressly activated/clicked. 随后，会通过 Activity Map 触发新的链接收集进程。
+初始页面加载后，无论何时向该页面添加任何网页内容，都是间接调用 `tl()` 方法，因此我们无法显示新增内容的叠加图，除非明确地激活/单击页面。随后，会通过 Activity Map 触发新的链接收集进程。
 
-When the `tl()` method is not called directly from the HTML element&#39;s on-click event, Activity Map can only display overlay once that element has been clicked by the user. Here is an example where the `tl()` method is called indirectly:
+如果不是从 HTML 元素的单击事件直接调用 `tl()` 方法，则只有当用户单击此元素后，Activity Map 才会显示叠加图。下面是间接调用 `tl()` 方法的示例：
 
 ```html
 <div onclick="someFn(event)"></div>
@@ -46,7 +46,7 @@ When the `tl()` method is not called directly from the HTML element&#39;s on-cli
 </script>
 ```
 
-The best way for Activity Map to overlay dynamic content links is to have a customized ActivityMap.link function set up to call the same function whose return value is passed to `s.tl`. 例如：
+Activity Map 叠加动态内容链接的最佳做法是设置一个自定义 ActivityMap.link 函数，以调用其返回值将传递到 `s.tl` 的相同函数。例如：
 
 ```js
 var originalLinkFunction = s.ActivityMap.link;
