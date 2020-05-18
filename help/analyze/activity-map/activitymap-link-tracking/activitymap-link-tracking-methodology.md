@@ -3,7 +3,7 @@ description: 这部分内容主要面向 Adobe Analytics 管理员。关注的�
 title: 链接跟踪方法
 topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
