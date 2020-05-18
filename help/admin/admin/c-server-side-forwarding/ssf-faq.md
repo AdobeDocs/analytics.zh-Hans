@@ -2,7 +2,7 @@
 description: 关于服务器端转发相关特性、功能和问题的常见问题解答。
 title: 服务器端转发常见问题解答
 uuid: ecd0bc9b-ebf7-414e-88a2-ebba3fd75c92
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
