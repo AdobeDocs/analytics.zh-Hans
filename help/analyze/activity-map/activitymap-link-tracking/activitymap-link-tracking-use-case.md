@@ -3,7 +3,7 @@ description: 您可以通过以下方式区分链接：使用 s_objectID 变量�
 title: 区分引用相同链接 ID 和区域的多个链接
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
