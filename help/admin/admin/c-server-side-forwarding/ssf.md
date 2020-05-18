@@ -3,7 +3,7 @@ description: 服务器端转发专为希望将 Analytics 中的数据实时共�
 solution: Audience Manager
 title: 服务器端转发概述
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
@@ -30,12 +30,12 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ## ![step1_icon.png 图像](assets/step1_icon.png) 验证 ECID 服务的实施情况
 
-通过检查 [Analytics 跟踪请求](https://docs.adobe.com/content/help/en/id-service/using/implementation/test-verify.html)，验证是否实施了 Experience Cloud ID (ECID) 服务。
+通过检查 [Analytics 跟踪请求](https://docs.adobe.com/content/help/zh-Hans/id-service/using/implementation/test-verify.html)，验证是否实施了 Experience Cloud ID (ECID) 服务。
 
 在“请求”选项卡中，验证是否设置了 ECID 值。这可让您了解是否正确实施了 Identity 服务，该服务是服务器端转发的先决条件。
 
 * 如果您看到了 ECID 值，请继续执行步骤 2。
-* 如果您没有看到 ECID 值，请先[实施 Identity 服务](https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-guides.html)，然后再继续执行步骤 2。
+* 如果您没有看到 ECID 值，请先[实施 Identity 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/implementation/implementation-guides.html)，然后再继续执行步骤 2。
 
 ## ![step2_icon.png 图像](assets/step2_icon.png) 验证服务器端转发实施版本
 
@@ -49,9 +49,9 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
    * **具有 DIL 的 AAM 客户**：调整以下 2 个项目以使其紧密配合工作：
 
-      1. 删除 DIL 代码并安装[受众管理模块](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)页面代码。
+      1. 删除 DIL 代码并安装[受众管理模块](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)页面代码。
       1. 按照步骤 3 中所述，在 Analytics 管理员用户界面中启用服务器端转发。如果在删除 DIL 代码之前启用该设置，则将复制数据并创建对 Audience Manager 的额外计费服务器调用。
-   * **新 AAM 客户** - 安装[受众管理模块](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)页面代码并继续执行步骤 3。在步骤 3 中开启了服务器端转发之后，才会将数据发送到 Audience Manager。
+   * **新 AAM 客户** - 安装[受众管理模块](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)页面代码并继续执行步骤 3。在步骤 3 中开启了服务器端转发之后，才会将数据发送到 Audience Manager。
 
 
 ## ![step3_icon.png 图像](assets/step3_icon.png) 验证报表包的服务器端转发实施
