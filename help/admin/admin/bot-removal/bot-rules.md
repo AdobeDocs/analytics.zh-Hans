@@ -4,7 +4,7 @@ subtopic: Bot rules
 title: 机器人规则概述
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 定义了机器人规则之后，将按照定义的规则对所有传入流量进行比较。报表包中将不会收集与任何这些规则匹配的流量，并且流量量度中也不会包含这些流量。
 
-要更新或上传机器人规则，请导航到 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**。 选择正确的报表包，然后转到 **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Bot Rules]**。
+要更新或上载机器人规则，请导航至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。选择正确的报表包，然后转到&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 常规]** > **[!UICONTROL 机器人规则]**。
 
 删除机器人程序流量通常会减少流量和转化量度。许多客户发现删除机器人程序流量会导致转化比率增加以及其他可用性量度值增加。在删除机器人程序流量之前，请与利益关系人进行交流以确保做出此更改后他们会对关键性能指标做出必要的调整。如有可能，我们建议您首先从小型报表包中删除机器人程序流量以评估潜在的影响。
 
@@ -24,12 +24,12 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 | 规则类型 | 描述 |
 |--- |--- |
-| 标准 IAB 机器人规则 | Selecting [!UICONTROL Enable IAB Bot Filtering Rules] uses the [IAB&#39;s](https://www.iab.com) (International Advertising Bureau&#39;s) International Spiders &amp; Bots List to remove bot traffic. 大多数客户至少都会选择此选项。 |
+| 标准 IAB 机器人规则 | 选择[!UICONTROL 启用 IAB 机器人过滤规则]可使用 [IAB ](https://www.iab.com)的（国际广告局的）国际蜘蛛程序和机器人列表来删除机器人流量。大多数客户至少都会选择此选项。 |
 | 自定义机器人规则 | 您可以根据用户代理、IP 地址或 IP 范围定义和添加自定义机器人规则。 |
 
 ## 标准 IAB 机器人规则
 
-通过选中此复选框，可以打开标准IAB机器人规 [!UICONTROL Enable IAB Bot Filtering Rules] 则。 此选择将删除 IAB（国际广告局）的国际蜘蛛程序与机器人列表中的机器人，从而删除机器人流量。IAB 会每月更新此列表。
+可以通过选中[!UICONTROL 启用 IAB 机器人过滤规则]复选框来打开标准 IAB 机器人规则。此选择将删除 IAB（国际广告局）的国际蜘蛛程序与机器人列表中的机器人，从而删除机器人流量。IAB 会每月更新此列表。
 
 ![](assets/bot-iab-checkbox.png)
 
@@ -51,11 +51,11 @@ Adobe 无法向客户提供详细的 IAB 机器人程序列表，但是您可以
 
 ### 用户代理
 
-A User Agent condition checks the user agent value to see if it **[!UICONTROL starts with]** or **[!UICONTROL contains]** the specified string. If **[!UICONTROL contains]** is selected, the substring is matched if it occurs anywhere in the user agent.
+用户代理条件会检查用户代理值以确定它是以指定的字符串&#x200B;**[!UICONTROL 开头]**&#x200B;还是&#x200B;**[!UICONTROL 包含]**&#x200B;指定的字符串。如果选择&#x200B;**[!UICONTROL 包含]**，则在用户代理中出现该字符串时将会匹配子字符串。
 
-Optional values can be included in the **[!UICONTROL does not contain]** list to define values that the user agent must not contain for a successful match. 通过在每行包含一个值，可指定多个值。如果用户代理满足在匹配字符串中指定的标准，但同时包含“不包含”列表中的字符串，则可将其视为匹配。
+**[!UICONTROL 不包含]**&#x200B;列表中可包含可选值，以定义用户代理进行成功匹配不得包含的值。通过在每行包含一个值，可指定多个值。如果用户代理满足在匹配字符串中指定的标准，但同时包含“不包含”列表中的字符串，则可将其视为匹配。
 
-The **[!UICONTROL contains]** field is limited to 100 characters. “不包含”列表限制为 255 个字符，在减去每个新行中的一个分隔符（分隔符数等于字符串的数量减 1。如果您指定 4 个&#x200B;*不包含*&#x200B;字符串，则需要 3 个分隔符）。所有字符串匹配区分大小写。
+**[!UICONTROL 包含]**&#x200B;字段限制为 100 个字符。“不包含”列表限制为 255 个字符，在减去每个新行中的一个分隔符（分隔符数等于字符串的数量减 1。如果您指定 4 个&#x200B;*不包含*&#x200B;字符串，则需要 3 个分隔符）。所有字符串匹配区分大小写。
 
 ### IP 地址（包含通配符匹配）
 
@@ -72,9 +72,9 @@ The **[!UICONTROL contains]** field is limited to 100 characters. “不包含�
 
 ### 定义自定义机器人规则
 
-1. 转到 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]**，选择一个或多个报表包，然后单击 **[!UICONTROL General]** > **[!UICONTROL Bot Rules]**。
-1. Click **[!UICONTROL Add Rule]** and define one or more match conditions.
-1. 单击 **[!UICONTROL Save]**. 此更改应在 30 分钟内生效。
+1. 转到 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]**，选择一个或多个报表包并单击&#x200B;**[!UICONTROL 常规]** > **[!UICONTROL 机器人规则]**。
+1. 单击&#x200B;**[!UICONTROL 添加规则]**&#x200B;并定义一个或多个匹配条件。
+1. 单击&#x200B;**[!UICONTROL 保存]**。此更改应在 30 分钟内生效。
 
 ## 上载机器人规则
 
@@ -106,11 +106,11 @@ The **[!UICONTROL contains]** field is limited to 100 characters. “不包含�
 
 ### 使用上载文件覆盖所有规则
 
-Select the **[!UICONTROL Overwrite existing rules]** checkbox to delete all existing rules and replace them with the rules defined in the upload file.
+选中&#x200B;**[!UICONTROL 覆盖现有规则]**&#x200B;复选框会删除所有现有规则，并会使用上载文件中定义的规则替换现有规则。
 
 ### 导出规则
 
-The **[!UICONTROL Export Uploaded Bot File]** button exports all rules defined in the UI in a CSV format.
+**[!UICONTROL 导出上传的机器人文件]**&#x200B;按钮可以 CSV 格式导出 UI 中定义的所有规则。
 
 
 ## 机器人规则对数据收集的影响 {#section_F01A3130E7A04A9993371CF26F6586F2}
