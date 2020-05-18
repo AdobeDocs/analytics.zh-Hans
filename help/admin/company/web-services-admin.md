@@ -3,7 +3,7 @@ description: Web 服务 API 可通过编程方式访问市场营销报告及其�
 title: Web 服务
 topic: Admin tools
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
