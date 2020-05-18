@@ -3,7 +3,7 @@ description: 如果您从现有的报表包中复制了设置，则会有一条�
 title: 未从源报表包复制的设置
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -25,7 +25,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
  <tbody> 
   <tr> 
    <td colname="col1"> <p>分类数据（复制分类结构） </p> </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html"> 分类导入器（上载）文档</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/zh-Hans/analytics/components/classifications/classifications-importer/c-working-with-saint.html"> 分类导入器（上载）文档</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>启用交易 ID 记录 </p> </td> 
@@ -68,7 +68,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   </tr> 
   <tr> 
    <td colname="col1"> <p>访客 ClickMap 管理器 </p> </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> 升级到 Activity Map</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> 升级到 Activity Map</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA 规则 </p> </td> 
