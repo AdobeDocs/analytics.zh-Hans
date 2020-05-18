@@ -2,7 +2,7 @@
 description: 'null'
 title: Analytics 变量的数据隐私标签
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -208,8 +208,8 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 
 如果您已经为登录公司的任何报表包中的其他变量分配了一个 ID 标签，则可以选择其中一个现有的命名空间。如果此变量包含的 ID 类型与之前已使用此命名空间设置标签的其他变量包含的 ID 类型相同，并且您希望在提交请求时搜索所有这些变量，则应重复使用该命名空间。
 
-1. 单击&#x200B;**[!UICONTROL 选择命名空间]**，然后选择其中一个现有的命名空间。
-1. 单击&#x200B;**[!UICONTROL 应用]**。
+1. 单击 **[!UICONTROL Select Namespace]**，然后选择其中一个现有的命名空间。
+1. 单击 **[!UICONTROL Apply]**.
 
 ![](assets/namespace.png)
 
@@ -217,12 +217,12 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 
 您也可以定义一个新的命名空间。我们建议将命名空间字符串限制为字母数字字符，以及下划线、短划线和空格。这些字符串将全部转换为小写字母。
 
-1. 单击&#x200B;**[!UICONTROL 选择命名空间]**&#x200B;并键入命名空间标题。
+1. 单击 **[!UICONTROL Select Namespace]**，然后键入命名空间标题。
 
    ![](assets/namespace2.png)
 
 1. 按 **[!UICONTROL Enter]** 以添加此命名空间。只有现在才可以激活“应用”按钮。
-1. 单击&#x200B;**[!UICONTROL 应用]**。
+1. 单击 **[!UICONTROL Apply]**.
 
 指定为命名空间的字符串与您在通过数据隐私 API 提交请求时，作为“namespace”参数的值使用的字符串相同。随后，该请求将促使 Adobe Analytics 搜索报表包中的所有变量，这些变量与该请求指定的 ID 共享此命名空间。
 
@@ -344,7 +344,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
    <td colname="col4"> <p>您不可以删除 DEL 标签，但可以将其更改为 DEL-DEVICE 或 DEL-PERSON，或者 DEL-DEVICE 和 DEL-PERSON。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>ClickMap 操作（旧版）、 </p> <p>ClickMap 上下文（旧版）、 </p> <p>页面、 </p> <p>页面 URL、 </p> <p>原始登录页面 URL、 </p> <p>反向链接, </p> <p>访问起始页 URL </p> </td> 
+   <td colname="col2"> <p>ClickMap 操作（旧版）、 </p> <p>ClickMap 上下文（旧版）、 </p> <p>页面、 </p> <p>页面 URL、 </p> <p>原始登录页面 URL、 </p> <p>反向链接、 </p> <p>访问起始页 URL </p> </td> 
    <td colname="col3"> <p>无 / I1 / I2 </p> <p>无 / DEL-DEVICE / DEL-PERSON </p> </td> 
    <td colname="col4"> <p>变量可包含 URL 参数，URL 参数又可能包含直接或间接可识别数据。如果您的实施不收集这些变量中的直接或间接可识别数据，则它们不需要身份或删除标签。 </p> <p>请注意，删除时会清除 URL 参数，但保留基本 URL。 </p> </td> 
   </tr> 
