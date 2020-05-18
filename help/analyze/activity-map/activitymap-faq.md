@@ -3,7 +3,7 @@ description: 有关在 Activity Map 中设置、配置和部署功能的常见�
 title: Activity Map 常见问题解答
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -25,7 +25,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 **问：能否通过 Dynamic Tag Management (DTM) 配置新的 AppMeasurement 代码？**
 
-答：可以，您可以[手动实现](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html)新的 AppMeasurement 代码。
+答：可以，您可以[手动实现](https://docs.adobe.com/content/help/zh-Hans/dtm/using/tools/analytics-dtm.html)新的 AppMeasurement 代码。
 
 **问：AppMeasurement v1.6 库有何重要变化？**
 
@@ -51,9 +51,9 @@ A:
 
 * When user interaction creates new content, any new elements that are found by AppMeasurement to be a link will be added to the **[!UICONTROL Links On Page]** table. Activity Map sends a new data request that includes these new links. The new links should appear in the **[!UICONTROL Links On Page]** table when the data request is handled by the UI.-->
 
-**问：活动地图是否提供“视图”数据？**
+**问：Activity Map 是否提供有关“查看次数”的数据？**
 
-答：否，Adobe不跟踪已查看的链接。
+答：否，Adobe 不跟踪已查看的链接。
 
 **问：如果我之前没有在网站上用过访客 ClickMap，我能否使用 Activity Map？**
 
@@ -61,7 +61,7 @@ A:
 
 **问：Activity Map 支持哪些浏览器和版本？**
 
-答：我们支持四个主要浏览器（Chrome、Firefox、Safari和IE）的最新版本。
+答：我们支持四种主要浏览器（Chrome、Firefox、Safari 和 IE）的最新版本。
 
 **问：默认的叠加图设置是什么？**
 
@@ -80,7 +80,7 @@ A:
 
 **问：为什么在 Activity Map 运行时无法收集链接点击数据？**
 
-答：使用 Activity Map 时，Analytics 标签无法收集链接点击数据。此行为遵循ClickMap插件的行为。
+答：使用 Activity Map 时，Analytics 标签无法收集链接点击数据。此行为与 ClickMap 插件的行为一致。
 
 **问：Activity Map“所有链接”报表与“Reports &amp; Analytics”Activity Map 报告有何区别？**
 
@@ -122,7 +122,7 @@ A:
 
 *网页包含不兼容的 Analytics 标签（AppMeasurement v1.5 或早期版本）*
 
-将显示一条警告消息，指示您需要将页面代码升级到v1.6或更高版本。
+出现警告消息，指示您需要将页面代码升级至 v1.6 或更高版本。
 
 *网页包含兼容的 Analytics 标签（AppMeasurement v1.6 或更高版本），但是管理工具中未启用 Activity Map 报告*
 
@@ -134,9 +134,9 @@ A:
 
 ## Activity Map 中的区段划分
 
-**问：区段是否与单个用户区段相关联？Are shared segments available in Activity Map?**
+**问：区段是否与单个用户区段相关联？Activity Map 中是否有共享区段？**
 
-答：活动图会从Analytics继承您的报告区段。
+答：Activity Map 会从 Analytics 继承您的报告区段。
 
 **问：实时模式下能否使用区段？**
 
