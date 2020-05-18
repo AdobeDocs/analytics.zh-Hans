@@ -4,7 +4,7 @@ keywords: eVar
 title: 转化变量 (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
@@ -84,7 +84,7 @@ eVar 最适合用于度量原因和影响，例如：
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 促销</span> </p> <p>（仅限 eVar） </p> </td> 
-   <td colname="col2"> <p>促销变量可遵循以下两种语法之一： </p> <p> <b>产品语法</b>：</span>将 eVar 值与产品关联。注意：如果选择“产品语法”，则“促销捆绑事件”区域会处于禁用状态，且无法选择该区域来进行编辑。对于此语法，“捆绑事件”不适用。 </p> </p> <p> <b>转化变量语法</b>：</span>仅在发生捆绑事件时才将 eVar 与产品关联。在此情况下，您可以选择充当捆绑事件的事件。 </p> <p>更改此设置时，如果不相应更新 JavaScript 代码，则会导致数据丢失。请参阅<a href="https://docs.adobe.com/content/help/en/analytics/components/variables/merchandising-variables/var-merchandising.html">促销变量</a>。 </p> </td> 
+   <td colname="col2"> <p>促销变量可遵循以下两种语法之一： </p> <p> <b>产品语法</b>：</span>将 eVar 值与产品关联。注意：如果选择“产品语法”，则“促销捆绑事件”区域会处于禁用状态，且无法选择该区域来进行编辑。对于此语法，“捆绑事件”不适用。 </p> </p> <p> <b>转化变量语法</b>：</span>仅在发生捆绑事件时才将 eVar 与产品关联。在此情况下，您可以选择充当捆绑事件的事件。 </p> <p>更改此设置时，如果不相应更新 JavaScript 代码，则会导致数据丢失。请参阅<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/components/variables/merchandising-variables/var-merchandising.html">促销变量</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 促销捆绑事件</span> </p> <p>（仅限 eVar） </p> </td> 
@@ -100,11 +100,11 @@ eVar 最适合用于度量原因和影响，例如：
 使 eVar 过期的方法有两种：
 
 * 您可以将 eVar 设置为在指定的时间段或事件后过期。
-* 您可以通过重置eVar来强制eVar过期，这在重新设定变量用途时很有用。
+* 您可以通过重置 eVar 强制使其过期，在重新利用变量时这非常有用。
 
-例如，如果将eVar的过期时间从30天更改为90天，则收集的eVar值在新的过期时间集（在此例中为90天）的持续时间内将继续保留。 系统只需查看当前过期设置和收集的eVar值的最后一组时间戳，即可确定过期时间。 只有该选 **[!UICONTROL Reset]** 项会使值过期，并立即过期。
+例如，如果将 eVar 的过期时间从 30 天更改为 90 天，则收集的 eVar 值将在设置的新过期期间（在此例中为 90 天）内继续保留。系统只查看所收集 eVar 值的当前过期设置以及最后设置时间戳来确定过期时间。只有&#x200B;**[!UICONTROL 重置]**&#x200B;选项可以使值立即过期。
 
-另一个示例：如果eVar在5月用于反映内部促销并在21天后过期，而在6月用于捕获内部搜索关键字，那么在6月1日，您应强制该变量过期或重置。 这样做有助于从 6 月的报表中排除内部促销值。
+另一示例：如果 eVar 在 5 月用于反映内部促销活动，并且在 21 天后过期，而在 6 月，又要使用它来捕获内部搜索关键词。在这种情况下，您应当在 6 月 1 日强制该变量过期，或重置该变量。这样做有助于从 6 月的报表中排除内部促销值。
 
 **区分大小写**
 
