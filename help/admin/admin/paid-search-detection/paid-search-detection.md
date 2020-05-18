@@ -3,7 +3,7 @@ description: 付费搜索检测可将搜索引擎和搜索关键词报表中的�
 title: 付费搜索检测
 topic: Admin tools
 uuid: 41aadf17-7b8b-49ce-84ca-dc3293660205
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
