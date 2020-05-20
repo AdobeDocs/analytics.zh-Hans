@@ -1,7 +1,7 @@
 ---
 title: tl
 description: 向 Adobe 发送链接跟踪调用。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -99,13 +99,13 @@ s.tl(true,"o","Example custom link",y);
 <a href="example.html" onClick="s.tl(true,'o','Example link');">Click here</a>
 ```
 
-使用JavaScript使用方法参数进行基本的链接跟踪调用：
+使用 JavaScript 通过方法参数进行基本链接跟踪调用：
 
 ```JavaScript
 s.tl(true,"o","Example link");
 ```
 
-使用JavaScript使用不同的变量进行相同的基本链接跟踪调用：
+使用 JavaScript 通过不同的变量进行相同的基本链接跟踪调用：
 
 ```js
 s.linkType = "o";
