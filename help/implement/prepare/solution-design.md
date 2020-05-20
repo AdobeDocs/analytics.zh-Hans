@@ -1,7 +1,7 @@
 ---
 title: 创建解决方案设计文档
 description: 了解解决方案设计文档是什么，以及如何在组织中使用它。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
@@ -46,4 +46,4 @@ source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 在解决方案设计文档中实施变量。
 
-[创建数据层](data-layer.md):将设计文档中的变量转换为站点上的JavaScript变量。
+[创建数据层](data-layer.md)：将设计文档中的变量转换为网站上的 JavaScript 变量。
