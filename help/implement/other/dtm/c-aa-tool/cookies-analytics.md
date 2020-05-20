@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;cookies;visitor id;visitor namespace;domain per
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Cookie
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -38,7 +38,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
   </tr> 
   <tr> 
    <td colname="col1"> FP 域名句点 </td> 
-   <td colname="col2"> <p>The<span class="term">fpCookieDomainPeriods</span> 变量适用于由 JavaScript 设置的内置第一方 Cookie（<code> s_sq</code>、<code> s_cc</code>、插件），即使您的实施使用的是第三方 <span class="filepath">2o7.net</span> 或 <span class="filepath">omtrdc.net</span> 域。 </p> <p>请参阅 <a href="/help/implement/vars/config-vars/fpcookiedomainperiods.md"  >s.fpCookieDomainPeriods</a>。 </p> </td> 
+   <td colname="col2"> <p><span class="term">fpCookieDomainPeriods</span> 变量适用于由 JavaScript 设置的内置第一方 Cookie（<code> s_sq</code>、<code> s_cc</code>、插件），即使您的实施使用的是第三方 <span class="filepath">2o7.net</span> 或 <span class="filepath">omtrdc.net</span> 域。 </p> <p>请参阅 <a href="/help/implement/vars/config-vars/fpcookiedomainperiods.md"  >s.fpCookieDomainPeriods</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 交易 ID </td> 
