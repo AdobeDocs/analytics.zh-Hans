@@ -1,7 +1,7 @@
 ---
 title: trackInlineStats
 description: 在您的实施中启用或禁用 Activity Map。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
 
 ---
