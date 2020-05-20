@@ -1,7 +1,7 @@
 ---
 title: transactionID
 description: 使用此变量将在线和离线数据链接在一起。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
