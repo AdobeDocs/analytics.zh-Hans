@@ -1,7 +1,7 @@
 ---
 title: t
 description: 向 Adobe 发送页面查看跟踪调用。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
