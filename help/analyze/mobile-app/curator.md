@@ -192,6 +192,7 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
    3. 安装 Testflight 应用程序后，从 Testflight 中找到并安装 Adobe Analytics 功能板，如下所示：
 
       ![Testflight 屏幕](assets/testflight2.png)
+
    **对于 Android 上的执行用户：**
 
    1. 在用户设备上点按以下 Play Store 链接（此链接也可在 Analytics 中的&#x200B;**工具** > **功能板**下找到）：
@@ -206,6 +207,7 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
       ![下载链接](assets/playnext.png)
 
    3. 下载并安装应用程序。下载并安装后，执行用户可以使用他们现有的 Adobe Analytics 凭据登录应用程序；我们同时支持 Adobe ID 和 Enterprise/Federated ID。
+
    ![应用程序欢迎屏幕](assets/welcome.png)
 
 2. 帮助他们访问您的记分卡。执行用户登录应用程序后，会显示&#x200B;**选择公司**&#x200B;屏幕。该屏幕列出了执行用户所属的登录公司。要帮助他们访问记分卡，请执行以下操作：
@@ -213,6 +215,7 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
    * 点按应用于您共享的记分卡的登录公司或 Experience Cloud 组织的名称。然后，记分卡列表会显示与该登录公司下的执行用户共享的所有记分卡。
    * 帮助他们按&#x200B;**最近修改**&#x200B;对此列表进行排序（如果适用）。
    * 点按记分卡的名称以查看记分卡。
+
    ![选择公司](assets/accesscard.png)
 
    注意：如果执行用户登录后看到一条消息，指出尚未共享任何内容，则：
@@ -221,6 +224,7 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
    * 可能尚未与执行用户共享记分卡
 
       ![未共享任何内容](assets/nothing.png)
+
    验证执行用户是否可以登录正确的 Analytics 实例，以及是否已共享记分卡。
 
 3. 向执行用户说明图块在您共享的记分卡中的显示方式。
@@ -256,6 +260,7 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
    1. 点按应用程序屏幕右上角的用户图标。
    2. 在&#x200B;**我的帐户**&#x200B;屏幕上，点按&#x200B;**反馈**&#x200B;选项。
    3. 点按以查看用于提供反馈的选项。
+
    ![提供反馈](assets/feedback.png)
    ![反馈选项](assets/feedback_option.png)
 
