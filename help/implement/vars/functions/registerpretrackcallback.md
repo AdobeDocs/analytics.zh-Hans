@@ -1,7 +1,7 @@
 ---
 title: registerPreTrackCallback
 description: 在将点击发送到 Adobe 之前创建回调函数。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `registerPreTrackCallback` 变量允许贵组织在编译图像请求 URL 后但在将其发送之前挂接 JavaScript 函数。您可以使用此变量将 AppMeasurement 收集的数据发送到合作伙伴或内部基础结构。
 
->[!IMPORTANT] 请勿调用任何跟踪调用，如变 [`t()`](t-method.md) 量 [`tl()`](tl-method.md) 或变量 [`registerPostTrackCallback`](registerposttrackcallback.md) 内。 此变量中的跟踪函数可能会导致图像请求无限循环！
+>[!IMPORTANT] 在 [`registerPostTrackCallback`](registerposttrackcallback.md) 变量内请勿调用任何跟踪函数，如 [`t()`](t-method.md) 或 [`tl()`](tl-method.md)。此变量中的跟踪函数可能会导致图像请求无限循环！
 
 每次调用 `registerPreTrackCallback` 变量时，您都会挂接该函数以在每次编译图像请求 URL 时运行。避免在同一页面加载过程中多次注册同一函数。
 
@@ -37,7 +37,7 @@ s.registerPreTrackCallback(function(requestUrl){
 });
 ```
 
-您可以在函数中包含其 `s.registerPreTrackCallback` 他参数，该参数可在嵌套函数中使用：
+您可以在 `s.registerPreTrackCallback` 函数中包含其他参数，这些参数可在嵌套函数中使用：
 
 ```js
 s.registerPreTrackCallback(function(requestUrl,a,b,c) {
