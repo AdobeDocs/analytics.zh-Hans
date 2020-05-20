@@ -1,7 +1,7 @@
 ---
 title: 创建数据层
 description: 了解 Analytics 实施中的数据层，以及如何在 Adobe Analytics 中使用它来映射变量。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
@@ -170,4 +170,4 @@ digitalData = {
 
 ## 后续步骤
 
-[将数据层对象映射到数据元素](../launch/layer-to-elements.md):在Adobe Experience Platform Launch中使用站点的数据层。
+[将数据层对象映射到数据元素](../launch/layer-to-elements.md)：在 Adobe Experience Platform Launch 中使用网站的数据层。
