@@ -1,52 +1,52 @@
 ---
-title: 将启动项数据元素映射到Analytics变量
-description: 将数据元素分配给Analytics变量，以便在分析工作区中将其用作维。
-translation-type: tm+mt
+title: 将 Launch 数据元素映射到 Analytics 变量
+description: 将数据元素分配给 Analytics 变量，以便在 Analysis Workspace 中可以将这些变量用作维度。
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# 将启动项数据元素映射到Analytics变量
+# 将 Launch 数据元素映射到 Analytics 变量
 
-在Adobe Experience Platform Launch中拥有数据元素存储库后，您可以将其分配到Analytics维。
+在 Adobe Experience Platform Launch 中拥有数据元素存储库后，即可将其分配给 Analytics 维度。
 
 ## 先决条件
 
-[将数据层对象映射到数据元素](layer-to-elements.md):确保您了解Launch中的数据元素，并且有几个要处理的元素。
+[将数据层对象映射到数据元素](layer-to-elements.md)：确保您了解 Launch 中的数据元素，并且拥有可使用的若干数据元素。
 
-[创建解决方案设计文档](../prepare/solution-design.md):解决方案设计文档对于保持有组织性至关重要。 遵循解决方案设计文档可简化数据元素到Analytics变量的分配。
+[创建解决方案设计文档](../prepare/solution-design.md)：解决方案设计文档是保持有条不紊的关键。遵循解决方案设计文档可简化将数据元素分配给 Analytics 变量的流程。
 
-## 为Analytics变量分配数据元素
+## 将数据元素分配给 Analytics 变量
 
-按照以下步骤在Launch中发布库后，您可以在分析工作区中使用自定义维。 您可以全局设置Analytics变量，也可以在单个规则中设置。
+按照这些步骤在 Launch 中发布资源库后，您可以在 Analysis Workspace 中使用自定义维度。您可以在全局范围内设置 Analytics 变量，也可以在单个规则中设置。
 
 ### 设置全局变量
 
-全局变量是理想情况，当您希望在数据元素所在的所有页面上设置变量值时。
+如果您希望在数据元素所在的所有页面上设置变量值，理想的做法是设置全局变量。
 
 1. 转到 [Adobe Experience Platform Launch](https://launch.adobe.com)，并在出现提示时登录。
-1. 单击所需的启动项属性。
-1. Click the [!UICONTROL Extensions tab], then click [!UICONTROL Configure] under the Adobe Analytics extension.
-1. 单击全 [!UICONTROL 局变量accordion] ，该面板显示用于分配全局变量的界面。
+1. 单击所需的 Launch 属性。
+1. 单击[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的[!UICONTROL 配置]。
+1. 单击[!UICONTROL 全局变量]折叠图标，这会显示用于分配全局变量的界面。
 
 ### 在规则中设置变量
 
-在不希望在每页设置变量的情况下，规则中设置的变量是理想的。 您可以在规则中定义条件。 See [Rules](https://docs.adobe.com/content/help/zh-Hans/launch/using/reference/manage-resources/rules.html) in the Adobe Experience Platform Launch user guide.
+如果您不希望在每个页面上设置变量，理想的做法是在规则中设置变量。在规则中定义条件。请参阅 Adobe Experience Platform Launch 用户指南中的[规则](https://docs.adobe.com/content/help/zh-Hans/launch/using/reference/manage-resources/rules.html)。
 
 1. 转到 [Adobe Experience Platform Launch](https://launch.adobe.com)，并在出现提示时登录。
-1. 单击所需的启动项属性。
-1. 单击“ [!UICONTROL 规则] ”选项卡，然后单击所需的规则（或创建一个规则）。
-1. 单击“操 [!UICONTROL 作] ”下的“添 [!UICONTROL 加”按钮]。
+1. 单击所需的 Launch 属性。
+1. 单击[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建一个规则）。
+1. 单击[!UICONTROL 操作]下的[!UICONTROL 添加]按钮。
 1. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为设置变量。
-1. 单击所 ![需Analytics变量右侧的](assets/data-element.png) “数据”元素图标。 贵组织的解决方案 [设计文档规定](../prepare/solution-design.md) ,Analytics变量应使用哪些内容。
-1. 在模态窗口中选择所需的数据元素。 单击 [!UICONTROL 选择]。
-1. 数据元素名称将添加到由符号环绕的文本字 `%` 段。 例如，如果将数据元素命名为“页面名称”，则在将数据元素分配到变 `%Page name%` 量时将看到该字符串。
+1. 单击所需 Analytics 变量右侧的![数据元素](assets/data-element.png)图标。贵组织的[解决方案设计文档](../prepare/solution-design.md)规定了要使用的 Analytics 变量。
+1. 在模式窗口中选择所需的数据元素。单击[!UICONTROL 选择]。
+1. 数据元素名称将添加到被 `%` 符号包围的文本字段中。例如，如果将数据元素命名为“页面名称”，则在将数据元素分配给变量时，会看到字符串 `%Page name%`。
 
->[!TIP] 您可以在同一变量中连接数据元素。 例如，如果您有“主机名”数据元素和“路径名”数据元素，则可以使用将这两个元素组合到单个变量中 `%Hostname%%Pathname%`。
+>[!TIP] 可以在同一变量中将数据元素连接在一起。例如，如果您有“Hostname”数据元素和“Pathname”数据元素，则可以使用 `%Hostname%%Pathname%` 将这两个元素组合到单个变量中。
 
 ## 后续步骤
 
-[页面变量](../vars/page-vars/page-variables.md):了解在实施中可以使用哪些页面级变量，以便在分析工作区中进一步挖掘维度。
+[页面变量](../vars/page-vars/page-variables.md)：了解在实施中可以使用哪些页面级变量，以便进一步挖掘 Analysis Workspace 中的维度价值。
 
-[配置变量](../vars/config-vars/configuration-variables.md):了解在实施中可以使用哪些配置变量来释放Adobe Analytics中的更多功能。
+[配置变量](../vars/config-vars/configuration-variables.md)：了解在实施中可以使用哪些配置变量来解锁 Adobe Analytics 中的更多功能。
