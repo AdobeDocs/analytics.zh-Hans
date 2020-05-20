@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 手动实施 Adobe Analytics（旧版）
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 创建 Adobe Analytics 工具以便使用 [!UICONTROL Dynamic Tag Management] 进行部署。此过程描述手动（旧版）实施方法。
 
-有关自动实施管理的信息，请参阅 [添加 Adobe Analytics 工具](/help/implement/other/dtm/c-aa-tool/analytics-dtm.md).
+有关自动实施管理的信息，请参阅[添加 Adobe Analytics 工具](/help/implement/other/dtm/c-aa-tool/analytics-dtm.md)。
 
 如果您要将手动配置更改为自动配置，请编辑工具并单击&#x200B;**[!UICONTROL 启用自动配置]**。
 
@@ -25,7 +25,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
    ![](assets/dtm-property.png)
 
-   在创建 Web 属性之后，便可以在“[!UICONTROL 功能板]”的“[!UICONTROL Web 属性]”选项卡中对其进行编辑。不需要激活 Web 属性。.
+   在创建 Web 属性之后，便可以在“[!UICONTROL 功能板]”的“[!UICONTROL Web 属性]”选项卡中对其进行编辑。不需要激活 Web 属性。
 
 1. 将 Analytics 工具添加到该属性：
    1. 在 **[!UICONTROL Web 属性]**&#x200B;选项卡中，单击该属性。
