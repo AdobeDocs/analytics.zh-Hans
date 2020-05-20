@@ -1,7 +1,7 @@
 ---
 title: trackOffline
 description: 启用或禁用离线跟踪，这会更改 AppMeasurement 收集数据的方式。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
