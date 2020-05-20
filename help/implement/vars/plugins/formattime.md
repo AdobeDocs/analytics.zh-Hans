@@ -1,7 +1,7 @@
 ---
 title: formatTime
 description: 将秒数转换为以分钟、小时等为单位的等效值。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
