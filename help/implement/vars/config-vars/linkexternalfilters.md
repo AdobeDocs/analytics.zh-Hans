@@ -1,7 +1,7 @@
 ---
 title: linkExternalFilters
 description: 使用 linkExternalFilters 变量有助于进行自动退出链接跟踪。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -9,9 +9,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # linkExternalFilters
 
-AppMeasurement 提供自动跟踪指向网站外部的链接的功能。If [`trackExternalLinks`](trackexternallinks.md) is enabled, an image request is sent to Adobe right as a visitor clicks a link to leave your site. `linkExternalFilters` 和 [`linkInternalFilters`](linkinternalfilters.md) 变量可确定哪些链接被视为内部/外部链接。
+AppMeasurement 提供自动跟踪指向网站外部的链接的功能。如果启用了 [`trackExternalLinks`](trackexternallinks.md)，则当访客单击链接以离开您的网站时，图像请求会发送到 Adobe。`linkExternalFilters` 和 [`linkInternalFilters`](linkinternalfilters.md) 变量可确定哪些链接被视为内部/外部链接。
 
-如果此变量包含值，则自动退出链接跟踪将以白名单的方式执行。如果链接点击与任何 `linkExternalFilters` 值都不匹配，则不会将其视为退出链接。系统将针对此变量检查整个 URL。If [`linkLeaveQueryString`](linkleavequerystring.md) is enabled, the query string is also examined.
+如果此变量包含值，则自动退出链接跟踪将以白名单的方式执行。如果链接点击与任何 `linkExternalFilters` 值都不匹配，则不会将其视为退出链接。系统将针对此变量检查整个 URL。如果启用了 [`linkLeaveQueryString`](linkleavequerystring.md)，则还会检查查询字符串。
 
 >[!TIP] 仅当您确切知道要将哪些域视为退出链接时，才使用此变量。许多组织发现使用 `linkInternalFilters` 足以满足其退出链接跟踪需求，因此没有使用 `linkExternalFilters`。
 
