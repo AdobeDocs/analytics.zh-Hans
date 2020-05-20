@@ -1,7 +1,7 @@
 ---
 title: 选择退出链接
 description: 了解如何为网站的访客创建实施选择退出链接。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
