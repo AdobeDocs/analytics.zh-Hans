@@ -1,7 +1,7 @@
 ---
 title: H 代码实施疑难解答
 description: 了解旧版 JavaScript 实施存在的一些常见问题。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
