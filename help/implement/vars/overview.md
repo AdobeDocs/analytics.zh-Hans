@@ -2,7 +2,7 @@
 title: 变量、函数、方法及插件概述
 description: 了解您可以在向 Adobe 发送的数据中包含哪些变量以改进报告。
 keywords: appmeasurement,variables,vars,configuration,page,implementation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
@@ -26,7 +26,7 @@ Adobe 提供了多种实施 Adobe Analytics 的方法。每个页面中都提供
 
 1. 如果您的网站使用数据层，请确保首先填充所有适用变量。有关更多信息，请参阅[数据层](../prepare/data-layer.md)。
 2. 使用数据层填充 Analytics 变量。如果使用 Launch，则可以通过使用数据元素并将相应数据元素分配到变量来轻松完成此任务。请参阅 Launch 用户指南中的[数据元素](https://docs.adobe.com/content/help/zh-Hans/launch/using/reference/manage-resources/data-elements.html)。
-3. 调用跟踪函数。Most AppMeasurement libraries use the `t()` method, however some mobile SDK&#39;s use `track()`. 调用跟踪函数时，在 Analytics 对象中定义的所有受支持变量都将以图像请求的形式发送到 Adobe。
+3. 调用跟踪函数。大多数 AppMeasurement 库都使用 `t()` 方法，但某些 Mobile SDK 使用 `track()`。调用跟踪函数时，在 Analytics 对象中定义的所有受支持变量都将以图像请求的形式发送到 Adobe。
 
 ## 非法字符
 
