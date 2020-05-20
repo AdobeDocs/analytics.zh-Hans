@@ -1,7 +1,7 @@
 ---
 title: dynamicAccountMatch
 description: dynamicAccountMatch 变量确定在动态帐户中要查看的值。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
