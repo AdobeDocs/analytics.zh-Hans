@@ -1,7 +1,7 @@
 ---
 title: trackDownloadLinks
 description: 对下载链接启用或禁用自动链接跟踪。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 # trackDownLoadLinks
 
-Adobe offers the ability to track download links without manually setting the [`tl()`](../functions/tl-method.md) method for each download link. 如果要对下载链接使用自动链接跟踪，则启用此变量。
+Adobe 提供跟踪下载链接的功能，无需为每个下载链接手动设置 [`tl()`](../functions/tl-method.md) 方法。如果要对下载链接使用自动链接跟踪，则启用此变量。
 
 启用此功能后，AppMeasurement 会将任何点击的链接 URL 与 [`linkDownloadFileTypes`](linkdownloadfiletypes.md) 中的值进行比较。如果存在匹配项，则会自动触发下载链接跟踪调用。
 
@@ -26,7 +26,7 @@ Adobe offers the ability to track download links without manually setting the [`
 
 ## AppMeasurement 和 Launch 自定义代码编辑器中的 s.trackDownloadLinks
 
-`s.trackDownloadLinks` 是一个布尔值，用于启用或禁用自动下载链接跟踪。If you do not want to track download links, or would prefer to manually call the `tl()` method to track downloads, set this variable to `false`.
+`s.trackDownloadLinks` 是一个布尔值，用于启用或禁用自动下载链接跟踪。如果您不想跟踪下载链接，或希望手动调用 `tl()` 方法以跟踪下载，则将此变量设置为 `false`。
 
 ```js
 s.trackDownloadLinks = true;
