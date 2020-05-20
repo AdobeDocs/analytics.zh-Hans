@@ -1,7 +1,7 @@
 ---
 title: offlineHitLimit
 description: 确定要置于离线跟踪队列的最大点击数。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 离线跟踪是在 Adobe Analytics 中收集数据的一种可选方式。如果访客断开与 Internet 的连接但继续浏览您的网站，则点击量会存储在离线队列中，直到设备重新连接到 Internet 为止。离线跟踪主要用于移动设备应用程序。
 
-`offlineHitLimit` 变量可对设备在本地存储的点击数设置上限。This variable only works if [`trackOffline`](trackoffline.md) is enabled.
+`offlineHitLimit` 变量可对设备在本地存储的点击数设置上限。仅在启用 [`trackOffline`](trackoffline.md) 时，此变量才有效。
 
 ## Adobe Experience Platform Launch 中的“离线点击限制”
 
