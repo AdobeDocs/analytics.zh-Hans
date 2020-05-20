@@ -4,7 +4,7 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: DTM 实施概述
 topic: Developer and implementation
 uuid: 2d40cb7a-5c69-4f41-81a7-c48373c2d720
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -14,9 +14,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 使用动态标签管理可管理标签和在各数字营销系统中收集和分发数据。动态标签管理可提供一个用于从多个数据源提取数据的单一数据层。此外，动态标签管理还支持以响应方式交付用户特定的内容。
 
-此帮助章节提供了有关如何使用动态标签管理实施 Adobe Analytics 的具体信息。有关动态标签管理的详细信息，请参阅[动态标签管理产品文档](https://docs.adobe.com/content/help/zh-Hans/dtm/using/dtm-home.translate.html)。有关在开始使用 DTM 时访问 DTM 和常见任务的信息，请参阅“动态标签管理产品文档”中的[快速入门](https://docs.adobe.com/content/help/en/dtm/using/getting-started/get-started.html)。
+此帮助章节提供了有关如何使用动态标签管理实施 Adobe Analytics 的具体信息。有关动态标签管理的详细信息，请参阅[动态标签管理产品文档](https://docs.adobe.com/content/help/zh-Hans/dtm/using/dtm-home.translate.html)。有关在开始使用 DTM 时访问 DTM 和常见任务的信息，请参阅“动态标签管理产品文档”中的[快速入门](https://docs.adobe.com/content/help/zh-Hans/dtm/using/getting-started/get-started.html)。
 
-有关动态标签管理实施步骤的详细摘要，请参阅“Adobe Analytics 快速入门”中的[使用动态标签管理实施 Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/implementation/other/dtm/dtm-implementation-overview.html)。
+有关动态标签管理实施步骤的详细摘要，请参阅“Adobe Analytics 快速入门”中的[使用动态标签管理实施 Adobe Analytics](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/other/dtm/dtm-implementation-overview.html)。
 
 ## 实施步骤概述 {#section_D0BBB82486F44699AC7FF5E76E27434C}
 
