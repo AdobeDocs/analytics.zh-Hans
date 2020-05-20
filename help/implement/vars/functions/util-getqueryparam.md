@@ -1,7 +1,7 @@
 ---
 title: Util.getQueryParam
 description: 返回查询字符串参数的值。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -50,4 +50,4 @@ var customString = "https://example.com?q1=value1;q2=value2;q3=value3";
 s.eVar1 = s.Util.getQueryParam("q2",customString,";");
 ```
 
->[!TIP] 还有一个名为的类似 [`s.getQueryParam`](../plugins/getqueryparam.md) 插件。 此插件包含更高级的功能，但也更复杂，默认情况下不包含在AppMeasurement中。
+>[!TIP] 可使用一个名为 [`s.getQueryParam`](../plugins/getqueryparam.md) 的类似插件。此插件包含更高级的功能，但同时也更复杂，而且默认情况下不包含在 AppMeasurement 中。
