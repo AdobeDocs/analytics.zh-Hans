@@ -1,7 +1,7 @@
 ---
 title: campaign
 description: 填充“跟踪代码”维度。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
 
 ---
