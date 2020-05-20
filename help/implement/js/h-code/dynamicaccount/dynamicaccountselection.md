@@ -1,7 +1,7 @@
 ---
 title: dynamicAccountSelection
 description: dynamicAccountSelection 变量可启用或禁用动态帐户选择。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
