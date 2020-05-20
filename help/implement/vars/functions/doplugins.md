@@ -1,7 +1,7 @@
 ---
 title: doPlugins
 description: 在编译点击并将其发送到 Adobe 之前配置逻辑。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # doPlugins
 
-`doPlugins` 变量会用作“最后一次调用”，以便在您的实施中设置值。If [`usePlugins`](../config-vars/useplugins.md) is enabled, it automatically runs just before any type of image request is compiled and sent to Adobe, including:
+`doPlugins` 变量会用作“最后一次调用”，以便在您的实施中设置值。如果启用了 [`usePlugins`](../config-vars/useplugins.md)，它将在编译任何类型的图像请求并将其发送到 Adobe 之前自动运行，包括：
 
 * 所有页面查看 ([`t()`](t-method.md)) 调用
 * 所有链接跟踪 ([`tl()`](tl-method.md)) 调用，包括自动下载链接和退出链接
