@@ -1,7 +1,7 @@
 ---
 title: zip
 description: 在报表包设置允许时手动填充“邮政编码”维度。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
