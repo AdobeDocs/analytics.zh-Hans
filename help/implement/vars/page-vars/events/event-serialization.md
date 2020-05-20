@@ -1,7 +1,7 @@
 ---
 title: 事件序列化
 description: 帮助删除网站上的重复量度。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
