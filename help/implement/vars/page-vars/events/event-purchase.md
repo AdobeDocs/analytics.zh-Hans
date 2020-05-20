@@ -1,7 +1,7 @@
 ---
 title: 购买事件
 description: 使用购买事件收集“订单数”、“件数”和“收入”量度的数据。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
