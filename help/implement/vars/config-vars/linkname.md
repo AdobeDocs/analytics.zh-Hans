@@ -1,7 +1,7 @@
 ---
 title: linkName
 description: 设置自定义链接点击的名称。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # linkName
 
-Use the `linkName` variable to determine the dimension value of custom links, download links, or exit links when running the next [`tl()`](../functions/tl-method.md) method.
+使用 `linkName` 变量可确定运行下一个 [`tl()`](../functions/tl-method.md) 方法时自定义链接、下载链接或退出链接的维度值。
 
 如果此变量为空，则 AppMeasurement 会还原为该 [`linkURL`](linkurl.md) 变量。
 
@@ -28,7 +28,7 @@ Use the `linkName` variable to determine the dimension value of custom links, do
 
 `s.linkName` 变量是用于确定自定义链接、下载链接或退出链接维度值（具体取决于 [`s.linkType`](linktype.md) 的内容）的字符串。它最多可包含 100 字节。
 
->[!TIP] 此变量是方法的第三个参 `tl()` 数，通常不需要设置为独立变量。 However, you can use the `linkName` variable if you do not want to set values as arguments in the `tl()` method.
+>[!TIP] 此变量是 `tl()` 方法的第三个参数，通常不需要设置为独立变量。但是，如果不想在 `linkName` 方法中将值设置为参数，则可以使用该 `tl()` 变量。
 
 ```js
 s.linkName = "Example custom link";
