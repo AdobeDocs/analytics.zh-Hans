@@ -4,7 +4,7 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: 常规
 topic: Developer and implementation
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -39,7 +39,7 @@ DTM 中用于部署 Adobe Analytics 的“常规”设置的字段描述。
      </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Character Set </p> </td> 
+   <td colname="col1"> <p>字符集 </p> </td> 
    <td colname="col2"> <p>显示可用的字符编码集。 </p> </td> 
   </tr> 
   <tr> 
@@ -47,12 +47,12 @@ DTM 中用于部署 Adobe Analytics 的“常规”设置的字段描述。
    <td colname="col2"> <p>显示可选择的受支持货币代码。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Tracking Server </p> </td> 
+   <td colname="col1"> <p>跟踪服务器 </p> </td> 
    <td colname="col2"> <p>在其中写入图像请求和 Cookie 的域。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>SSL Tracking Server </p> </td> 
-   <td colname="col2"> <p>在其中写入图像请求和 Cookie 的域。用于安全页面。如果未定义，SSL 数据将转至 <span class="term"> trackingServer </span>. </p> </td> 
+   <td colname="col1"> <p>SSL 跟踪服务器 </p> </td> 
+   <td colname="col2"> <p>在其中写入图像请求和 Cookie 的域。用于安全页面。如果未定义，SSL 数据将转至 <span class="term">trackingServer</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>数据中心 </p> </td> 
