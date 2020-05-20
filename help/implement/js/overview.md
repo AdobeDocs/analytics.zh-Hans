@@ -1,7 +1,7 @@
 ---
 title: AppMeasurement for JavaScript
 description: 了解如何在没有标签管理系统的情况下使用 JavaScript 实施 Adobe Analytics。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
@@ -37,7 +37,7 @@ AppMeasurement for JavaScript 一直以来都是实施 Adobe Analytics 的常用
    s.events = "event1";
    ```
 
-4. When all page-level variables are defined, send the data to Adobe using the `t()` method. 有关更多信息，请参阅 [t](../vars/functions/t-method.md)。
+4. 定义所有页面级变量后，使用 `t()` 方法将数据发送到 Adobe。有关更多信息，请参阅 [t](../vars/functions/t-method.md)。
 
    ```js
    s.t();
