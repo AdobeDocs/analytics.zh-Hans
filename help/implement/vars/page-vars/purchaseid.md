@@ -1,7 +1,7 @@
 ---
 title: purchaseID
 description: 根据唯一购买标识符删除重复点击。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
