@@ -1,7 +1,7 @@
 ---
 title: getValOnce
 description: 防止将一个 Analytics 变量连续两次设置为同一个值。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
