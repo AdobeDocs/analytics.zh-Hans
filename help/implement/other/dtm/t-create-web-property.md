@@ -4,7 +4,7 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: 创建 Web 属性
 topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -14,13 +14,13 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Web 属性可以是包含在一个嵌入代码中且具有规则库的一个或多个域和子域的任意组合。
 
->[!NOTE]只有具有管理员权限的用户才能创建属性。有关角色的详细信息，请参阅 Dynamic Tag Management 产品文档中的[在 DTM 中创建和管理组](https://docs.adobe.com/content/help/en/dtm/using/admin/groups.html)。
+>[!NOTE]只有具有管理员权限的用户才能创建属性。有关角色的详细信息，请参阅 Dynamic Tag Management 产品文档中的[在 DTM 中创建和管理组](https://docs.adobe.com/content/help/zh-Hans/dtm/using/admin/groups.html)。
 
 您可以使用 DTM 管理和跟踪这些资产。例如，假定您有多个基于一个模板的网站，并希望在所有这些网站中跟踪相同的资产。您可以将一个 Web 属性应用于多个域。
 
-有关 Web 属性和最佳实践的一般信息，请参阅[Dynamic Tag Management 产品文档](https://docs.adobe.com/content/help/en/dtm/using/admin/web-property.html)中的 Web 属性。
+有关 Web 属性和最佳实践的一般信息，请参阅 [Dynamic Tag Management 产品文档](https://docs.adobe.com/content/help/zh-Hans/dtm/using/admin/web-property.html)中的 Web 属性。
 
-1. Navigate to your company page, then click **[!UICONTROL Add Property]**.
+1. 导航到您的公司页面，然后单击&#x200B;**[!UICONTROL 添加属性]**。
 
    ![](assets/dtm-create-web-property.png)
 
@@ -49,7 +49,7 @@ Web 属性可以是包含在一个嵌入代码中且具有规则库的一个或�
     </tbody> 
     </table>
 
-1. （可选）配置 [!UICONTROL Advanced Settings]。
+1. （可选）配置[!UICONTROL 高级设置]。
 
    <table id="table_6E687FBE6ACC4301BCCD837F4DCBB9C9"> 
     <thead> 
@@ -82,4 +82,4 @@ Web 属性可以是包含在一个嵌入代码中且具有规则库的一个或�
     </tbody> 
     </table>
 
-1. 单击 **[!UICONTROL Create Property]**.
+1. 单击&#x200B;**[!UICONTROL 创建属性]**。
