@@ -1,7 +1,7 @@
 ---
 title: 使用 Facebook Instant Articles 实施
 description: 在 Facebook Instant Articles 页面上实施 Adobe Analytics。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
