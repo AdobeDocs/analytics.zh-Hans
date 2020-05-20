@@ -1,7 +1,7 @@
 ---
 title: clearVars
 description: 从实例对象中清除以下值。此函数会删除以下元素（将其设为“未定义”）。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
