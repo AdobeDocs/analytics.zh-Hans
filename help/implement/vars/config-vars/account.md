@@ -1,7 +1,7 @@
 ---
 title: account
 description: 使用 account 变量确定要将数据发送到的报表包。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
