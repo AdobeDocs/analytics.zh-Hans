@@ -1,7 +1,7 @@
 ---
 title: eVar
 description: 可在实施中使用的自定义变量。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # eVar
 
-*此帮助页介绍如何实施eVar。 有关eVar如何作为维度工作的信息，请参[阅组件用户指南](../../../components/c-variables/dimensionslist/reports-conversion.md)中的eVar。*
+*此帮助页面介绍了如何实施 eVar。有关 eVar 如何用作维度的信息，请参阅组件用户指南中的[eVar](../../../components/c-variables/dimensionslist/reports-conversion.md)。*
 
 eVar 是自定义变量，您可以根据需要随意使用。
 
@@ -56,7 +56,7 @@ s.eVar1 = "+12.49";
 
 如果小数超过两位，则 eVar 计数器舍入为两位小数。eVar 计数器不能包含负数。
 
->[!IMPORTANT] 必须首先在管理控制台中将eVar配置为“计数器”，然后才能使用计数器eVar。 请参阅管理员指南中的[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
+>[!IMPORTANT] 必须先在 Admin Console 中将 eVar 配置为“计数器”，然后才能使用计数器 eVar。请参阅管理员指南中的[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
 
 ## prop 或 eVar 的独特优势
 
@@ -65,4 +65,4 @@ s.eVar1 = "+12.49";
 * Prop 中的数据在几分钟内即可显示在报表中。eVar 则要经过 30 多分钟才能显示在报表中。
 * Prop 在报表中具有 100 字节的限制。而 eVar 具有 255 字节的限制。
 * Prop 能够成为列表属性，此类属性可在同一点击中接受多个值。列表变量是单独的变量，并且只有三个列表变量可用。
-* 默认情况下，Prop 不会在设置的点击之外存留。eVar 具有自定义过期时间，允许您确定 eVar 何时不再获得后续事件的点数。但是，如果您使用报 [告时间处理](../../../components/vrs/vrs-report-time-processing.md), prop和eVar都可以使用自定义归因模型。
+* 默认情况下，Prop 不会在设置的点击之外存留。eVar 具有自定义过期时间，允许您确定 eVar 何时不再获得后续事件的点数。但是，如果您使用[报表时间处理](../../../components/vrs/vrs-report-time-processing.md)，则 prop 和 eVar 均可使用自定义归因模型。
