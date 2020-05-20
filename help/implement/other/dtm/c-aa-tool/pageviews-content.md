@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;page views;content;page name;page url override;
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 页面查看次数和内容
 uuid: 6d019304-5892-475b-9887-00f86983f859
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 ---
@@ -34,11 +34,11 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
   </tr>
   <tr>
    <td colname="col1"> 渠道（网站区域） </td>
-   <td colname="col2"> <p>对网站中的区域进行标识。 </p> <p>请参阅 <a href="../../../vars/page-vars/channel.md">渠道</a>。 </p> </td>
+   <td colname="col2"> <p>对网站中的区域进行标识。 </p> <p>请参阅<a href="../../../vars/page-vars/channel.md">渠道</a>。 </p> </td>
   </tr>
   <tr>
    <td colname="col1"> 层级 </td>
-   <td colname="col2"> <p>确定页面在网站层级中的位置。 </p> <p>请参 <a href="../../../vars/page-vars/hier.md">阅hier</a>。 </p> </td>
+   <td colname="col2"> <p>确定页面在网站层级中的位置。 </p> <p>请参阅<a href="../../../vars/page-vars/hier.md">层级</a>。 </p> </td>
   </tr>
  </tbody>
 </table>
