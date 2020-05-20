@@ -1,7 +1,7 @@
 ---
 title: pt
 description: 对变量列表执行一个函数。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e2afe854a4141510fe2ecd85aa6df59f6751d0f5
 
 ---
