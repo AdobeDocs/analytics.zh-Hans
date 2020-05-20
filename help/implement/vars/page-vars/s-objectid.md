@@ -1,7 +1,7 @@
 ---
 title: s_objectID
 description: 帮助 Activity Map 识别您网站上的唯一链接。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
