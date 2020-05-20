@@ -1,7 +1,7 @@
 ---
 title: linkLeaveQueryString
 description: 允许在链接跟踪维度中保留查询字符串。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # linkLeaveQueryString
 
-默认情况下，AppMeasurement 会从链接跟踪 URL 中剥离查询字符串。Use the `linkLeaveQueryString` variable to preserve query strings in link tracking dimensions.
+默认情况下，AppMeasurement 会从链接跟踪 URL 中剥离查询字符串。使用 `linkLeaveQueryString` 变量可在链接跟踪维度中保留查询字符串。
 
 对于某些退出链接和下载链接，URL 的重要部分可以包含在查询字符串中。例如，下载链接（如 `https://example.com/download.asp?filename=myfile.exe`）在查询字符串中包含重要链接信息。
 
