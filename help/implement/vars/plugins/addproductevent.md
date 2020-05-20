@@ -1,7 +1,7 @@
 ---
 title: addProductEvent
 description: 将自定义事件添加到产品变量和事件变量。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -75,7 +75,7 @@ addProductEvent 插件不会创建或使用任何 Cookie
 
 ### 示例 1
 
-以下代码将变 `s.products` 量设置为 `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`。
+以下代码会将 `s.products` 变量设置为 `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`。
 
 ```js
 s.products=";product1;3;300,;product2;2;122,;product3;1;25"
@@ -83,22 +83,22 @@ s.events="purchase";
 s.addProductEvent("event35", "25");
 ```
 
-上述代码还将变 `s.events` 量设置为 `"purchase,event35"`
+上述代码还会将 `s.events` 变量设置为 `"purchase,event35"`
 
 ### 示例 2
 
-下面的代码将变 `s.products` 量设置为 `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
+以下代码会将 `s.products` 变量设置为 `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
 
 ```js
 s.products=";product1;3;300,;product2;2;122,;product3;1;25";
 s.addProductEvent("event35", 25, 1);
 ```
 
-当调用中的第三个参 `addProductEvent` 数为 `true` (或 `1`)时，每个产品条目都将调用中指定的事件添加到其值中。
+如果 `addProductEvent` 调用中的第三个参数是 `true`（或 `1`），则每个产品条目会将调用中指定的事件添加到其值中。
 
 ### 示例 3
 
-下面的代码将变 `s.products` 量设置为 `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
+以下代码会将 `s.products` 变量设置为 `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
 
 ```js
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25";
@@ -108,11 +108,11 @@ s.addProductEvent("event34", "10");
 s.addProductEvent("event35", "15");
 ```
 
-上述代码还将变 `s.events` 量设置为 `"purchase,event2,event33,event34,event35"`
+上述代码还会将 `s.events` 变量设置为 `"purchase,event2,event33,event34,event35"`
 
 ### 示例 4
 
-下面的代码将变 `s.products` 量设置为 `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
+以下代码会将 `s.products` 变量设置为 `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
 
 ```js
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
@@ -122,19 +122,19 @@ s.addProductEvent("event34", 10, 1);
 s.addProductEvent("event35", "15", 1);
 ```
 
-上述代码还将变 `s.events` 量设置为 `"purchase,event2,event33,event34,event35"`。
+上述代码还会将 `s.events` 变量设置为 `"purchase,event2,event33,event34,event35"`。
 
->[!NOTE] 调用中的第二个参数可以是整数 **** ，也可以是表示整数／数字的字符串
+>[!NOTE] 调用中的第二个参数可以是整数&#x200B;**或者**&#x200B;表示整数/数字的字符串
 
 ### 示例 5
 
-如 `s.products` 果尚未设置，以下代码将其设置为 `";;;;event35=25"`
+如果尚未设置 `s.products`，以下代码会将其设置为 `";;;;event35=25"`
 
 ```js
 s.addProductEvent("event35", "25");
 ```
 
-上述代码还附 `"event35"` 加到结 `s.events` 尾 **，如**&#x200B;果尚未设置， `s.events` 则上述代码将设 `s.events` 置为 `"event35"`
+上述代码还会将 `"event35"` 附加到 `s.events` 末尾，**或者**，如果尚未设置 `s.events`，上述代码会将 `s.events` 设置为 `"event35"`
 
 ## 版本历史记录
 
