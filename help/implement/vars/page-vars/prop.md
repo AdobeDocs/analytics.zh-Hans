@@ -1,7 +1,7 @@
 ---
 title: prop
 description: 可在实施中使用的自定义变量。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -57,4 +57,4 @@ s.prop1 = "value1,value2,value3";
 
 >[!IMPORTANT] 列表属性仍受最大长度为 100 字节的限制。列表属性更容易达到此限制并被截断，因为它们可能会包含多个值。如果可能会达到此 100 字节限制，请考虑使用缩写或将值缩短。
 
-如果在列表属性中多次设置相同的值，则会在报告中消除重复值。 分析工作区计算查看值的点击次数，而不是计算数据中存在值的次数。
+如果在列表属性中多次设置相同的值，则会在报表中删除重复值。Analysis Workspace 会计算出现某个值的点击次数，而不是计算某个值在数据中存在的次数。
