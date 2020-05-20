@@ -1,7 +1,7 @@
 ---
 title: referrer
 description: 覆盖点击的自动收集的反向链接。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
