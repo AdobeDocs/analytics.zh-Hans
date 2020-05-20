@@ -1,7 +1,7 @@
 ---
 title: JavaScript 实施疑难解答
 description: 了解 JavaScript 实施存在的常见问题以及疑难解答最佳实践。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8aa6932dcbb6dad88c27ba1cd4f5aad3bafcfc52
 
 ---
