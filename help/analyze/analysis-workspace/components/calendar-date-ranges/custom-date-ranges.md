@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 创建自定义日期范围
 topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,15 +20,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## “两个月之前”的日期范围{#section_C4109C57CB444BB2A79CC8082BD67294}
 
-下面的自定义日期范围显示了“两个月之前”的日期范围，其中，“概要更改”可视化信息显示了方向上的变化。
+下面的自定义日期范围显示了“两个月之前”的日期范围，其中，“概要更改”可视化图表显示了方向上的变化。
 
 ![](assets/date-range-two-months-ago.png)
 
-The custom date range is displayed at the top of the [!UICONTROL Date Range] component panel in your project:
+自定义日期范围显示在项目中 [!UICONTROL Date Range] 组件面板的顶部：
 
 ![](assets/date-range-panel-two-months-ago.png)
 
-您可以将这个自定义日期范围拖至使用“上个月”预设的自定义月连续日期范围旁边的列中，以便进行比较。添加一个“概要更改”可视化信息并从每个列中选择总量，可显示方向上的变化：
+您可以将这个自定义日期范围拖至使用“上个月”预设的自定义月连续日期范围旁边的列中，以便进行比较。添加一个“概要更改”可视化图表并从每个列中选择总量，可显示方向上的变化：
 
 ![](assets/date-range-two-months-table.png)
 
