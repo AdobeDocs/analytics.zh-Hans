@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Analysis Workspace 用例
 topic: Reports and analytics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 列举有关如何使用数据表、区段的示例，同时提供一些适合 Analysis Workspace 的用例建议。
 
-您可以直接研究数据以回答具体的问题，并且可以收集有关客户的交互内容以及受众的兴趣所在。在自由格式环境中，您可以在一个时间段内应用维度、量度和区段，进而直接检索目标数据。针对具体问题精心定制分析，然后将信息发布到各类报表和可视化结果中以进行共享，同时方便时间非常有限的一线业务用户理解。
+您可以直接研究数据以回答具体的问题，并且可以收集有关客户的交互内容以及受众的兴趣所在。在自由格式环境中，您可以在一个时间段内应用维度、量度和区段，进而直接检索目标数据。针对具体问题精心定制分析，然后将信息发布到各类报表和可视化图表中以进行共享，同时方便时间非常有限的一线业务用户理解。
 
 ![](assets/two-months-summary-project.png)
 
