@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 关于子分类
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -12,9 +12,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 # 关于子分类
 
-Adobe Analytics支持单级和多级分类模型。 使用分类层次结构可以将分类应用到分类。
+Adobe Analytics 支持单级别和多级别分类模型。使用分类层次结构可以将分类应用到分类。
 
->[!NOTE] 子分类是指创建分类的分类的功能。However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. 有关分类层次结构的详细信息，请参阅[分类层次结构](classification-hierarchies.md)。
+>[!NOTE] 子分类是指创建分类的分类的功能。但请注意，这与创建[!UICONTROL 层次]报表的[!UICONTROL 分类层次]不同。有关分类层次结构的详细信息，请参阅[分类层次结构](classification-hierarchies.md)。
 
 例如：
 
@@ -35,7 +35,7 @@ Adobe Analytics支持单级和多级分类模型。 使用分类层次结构可�
 
 **父项分类：**&#x200B;父项分类是指具有一个关联子项分类的任何分类。分类既可以为父项分类也可以为子项分类。最上层父项分类对应于单级别分类（请参阅[单级别分类](/help/components/c-classifications2/c-sub-classifications.md)）。
 
-**子项分类：**&#x200B;子项分类是以其他分类而非变量做为其父项的分类。子项分类提供其父项分类的附加信息。For example, a [!UICONTROL Campaigns] classification might have a Campaign Owner child classification. [!UICONTROL Numeric] 分类在分类报告中也起到指标的作用。
+**子项分类：**&#x200B;子项分类是以其他分类而非变量做为其父项的分类。子项分类提供其父项分类的附加信息。例如，[!UICONTROL 促销活动]分类可能有名为“促销活动所有者”的子项分类。[!UICONTROL 数值]分类也可当作分类报表中的量度。
 
 每个分类（父项分类或子项分类）都构成数据文件中的一个数据列。子项分类的列标题使用以下命名格式：
 
@@ -52,7 +52,7 @@ Adobe Analytics支持单级和多级分类模型。 使用分类层次结构可�
 
 虽然多级分类的文件模板较为复杂，但在多级分类中，单独的级别可以作为单独的文件上载。此方法可用于最大限度地减少需要定期（每天、每周等等）上载的数据量，方法是将数据分组为随时间变化的分类级别（而非不随时间变化的分类级别）。
 
->[!NOTE] 如果数 [!UICONTROL Key] 据文件中的列为空，Adobe会为每个数据行自动生成唯一的键。 To avoid possible file corruption when uploading a data file with second-level or higher-level classification data, populate each row of the [!UICONTROL Key] column with an asterisk (*).
+>[!NOTE] 如果数据文件中的“[!UICONTROL 键值]”列为空白，则 Adobe 会自动地为每个数据行生成唯一的键值。要避免在上载具有二级或更高级分类数据的数据文件时可能出现的文件损坏，请以星号 (*) 填充[!UICONTROL 键值]列的每一行。
 
 如需疑难解答帮助，请参阅[常见分类上载问题](https://helpx.adobe.com/cn/analytics/kb/common-saint-upload-issues.html)。
 
