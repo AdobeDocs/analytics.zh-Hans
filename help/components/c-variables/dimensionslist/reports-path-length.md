@@ -3,7 +3,7 @@ description: 按百分比和总次数显示每次访问网站的深度。换言�
 title: 路径长度
 topic: Reports
 uuid: f1c29e78-279a-46a5-b758-d4f0da629239
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
