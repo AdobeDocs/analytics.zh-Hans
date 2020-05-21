@@ -1,6 +1,9 @@
 ---
-source-git-commit: d8f2458e7bae596dbabc8dab33ea5d2881047566
+source-git-commit: 4ca2e15575e66107ec5947c9903a01565f74e264
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '650'
+ht-degree: 98%
 
 ---
 # 产品配置文件权限中列出的报表包工具
@@ -59,3 +62,4 @@ translation-type: tm+mt
 | 用户概要缩图报表 | 未使用。 |
 | Web 资源 | 未使用。 |
 | 社交 | 未使用。 |
+| 数据修复 API | 授予对数据修复API的访问权限（将来的版本） |
