@@ -3,7 +3,7 @@ description: 显示访客来自哪个时区。图表显示的是一张世界地�
 title: 时区
 topic: Reports
 uuid: 8cdc1bba-e6b9-4ff0-b529-91c427223ddc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
