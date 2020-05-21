@@ -4,7 +4,7 @@ subtopic: Marketing channels
 title: 管理营销渠道
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -32,7 +32,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    如果您选择多个报表包，则需要选择一个可将设置从模板复制到选定报表包的模板。
 
-   请参阅 [将模板报表包设置应用于多个报表包](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+   请参阅[将模板报表包设置应用于多个报表包](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
 1. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 营销渠道]** > **[!UICONTROL 营销渠道管理器]**。
 
@@ -56,7 +56,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | 启用 | 启用或禁用此营销渠道。 |
 | 渠道名称 | 营销渠道的易记名称。 |
 | 覆盖最近联系渠道 | 您可以选择是否用所选渠道覆盖现有持续的最近联系渠道。如果选中此复选框，任何渠道（包括直接和内部）都将会覆盖现有的最近联系渠道。结果会导致对不该取得信用的渠道进行转换。例如，如果用户此前已经通过免费搜索渠道取得信用，则此选项可以确保直接渠道不会接收用于转换的信用。 |
-| 渠道划分 | 允许您使用该值划分渠道。You can add possible channel breakdowns (subchannels) when creating [marketing channel classifications](/help/components/c-marketing-channels/classifictions-mchannel.md). |
+| 渠道划分 | 允许您使用该值划分渠道。创建[营销渠道分类时](/help/components/c-marketing-channels/classifictions-mchannel.md)，您可以添加可能的渠道划分（子渠道）。 |
 | 类型 | 指定用户访问您网站的途径。您可以选择在线或离线。对于通过搜索引擎或电子邮件促销活动来访的访客，使用“在线”渠道。“离线”渠道适用于通过报纸优惠券或杂志广告发现您网站的访客。离线渠道通常包括通过报表数据源导入的数据。请参阅[数据源](https://docs.adobe.com/content/help/zh-Hans/analytics/import/data-sources/datasrc-home.html)。请参阅[添加离线数据](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。 |
 | 颜色 | 与此营销渠道关联的颜色。此颜色代表营销渠道报表中的渠道。 |
 
@@ -84,9 +84,9 @@ Adobe 在[自动设置](/help/components/c-marketing-channels/c-getting-started-
 
    有关详细信息，请参阅 Analytics 帮助中的[一般帐户设置](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/general-acct-settings-admin.html)。
 
-* 设置对营销渠道维的访问权限。
+* 设置对营销渠道维度的访问权限。
 
-   See [Marketing Channels permissions](/help/components/c-marketing-channels/c-channel-report-access.md).
+   请参阅[营销渠道权限](/help/components/c-marketing-channels/c-channel-report-access.md)。
 
 * 确保您的帐户管理员已经为您的报表包启用 了&#x200B;**[!UICONTROL 渠道报表]**。
 
