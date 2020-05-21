@@ -1,7 +1,7 @@
 ---
 title: 营销渠道的处理规则
 description: 营销渠道处理规则决定访客点击是否符合分配到渠道的标准。这些规则处理访客在网站上的每次点击。当规则不符合渠道标准时，或者如果规则配置不正确，系统会将该点击分配到“未识别渠道”。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -22,8 +22,8 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## 先决条件
 
-* 查看营销渠道入 [门中的概念信息](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
-* 创建一个或更多渠道，以便您将规则分配给它们。See [Add marketing channels.](/help/components/c-marketing-channels/c-channels.md)
+* 查看[营销渠道快速入门](/help/components/c-marketing-channels/c-getting-started-mchannel.md)中的概念信息。
+* 创建一个或更多渠道，以便您将规则分配给它们。请参阅[添加营销渠道](/help/components/c-marketing-channels/c-channels.md)。
 
 ## 创建营销渠道处理规则
 
@@ -77,7 +77,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | AMO ID | Advertising Cloud 和 Advertising Analytics 集成使用的主要跟踪代码。如果启用其中一个集成，可以使用跟踪代码前缀来标识特定于 Advertising Cloud 的渠道。对于搜索，使用以“AL”开头的“AMO ID”；对于显示，使用以“AC”开头的“AMO ID”；对于社交，使用以“AO”开头的“AMO ID”。在营销渠道中使用 AMO ID 时，点击/成本/展示次数量度可归因于正确的渠道（未配置时，这些量度将转至“直接”或“无”）。 |
 | AMO ED ID | Advertising Cloud 使用的辅助跟踪代码。此跟踪代码的主要用途是用作将数据发送回 Ad Cloud 的键值。但是，如果您希望将显示点进次数和显示视图点进次数作为两个单独的营销渠道，还可以使用此代码来标识它们。可以通过为显示点进次数设置以“:d”结尾的“AMO EF ID”的营销渠道逻辑，或者为显示视图点进次数设置以“:i”结尾的“AMO EF ID”的营销渠道逻辑来实现此操作。如果您不希望将显示拆分为两个渠道，可以改为使用 AMO ID 维度。 |
 | 转化变量 | 由为本报表包启用的 eVar 组成，并且只在通过网页上的 Adobe 代码设置变量时才适用。请参阅实施指南。 |
-| 存在 | 可使用若干选项，包括：<ul><li>**不存在**：指定请求上不存在点击属性。例如在反向链接域中，如果用户键入一个 URL 或单击一个书签，则该反向链接域属性不存在。</li><li>**为空**：指定点击属性存在，通常为 eVar 或查询字符串参数，但没有任何与点击属性相关的值。</li><li>**不包含**：例如，您可以指定反向链接域不包含特定值（这与使用选项 &quot;包含&quot;.)</li></ul> |
+| 存在 | 可使用若干选项，包括：<ul><li>**不存在**：指定请求上不存在点击属性。例如在反向链接域中，如果用户键入一个 URL 或单击一个书签，则该反向链接域属性不存在。</li><li>**为空**：指定点击属性存在，通常为 eVar 或查询字符串参数，但没有任何与点击属性相关的值。</li><li>**不包含**：例如，您可以指定反向链接域不包含特定值（这与使用选项“包含”。）</li></ul> |
 | 将渠道识别为 | 将规则与您添加到“营销渠道管理器”页面上的营销渠道相关联。请参阅添加营销渠道。 |
 | 匹配付费搜索检测规则 | Adobe 检测的付费搜索。付费搜索是指公司向列出它们网站的搜索引擎支付费用。付费搜索通常出现在搜索结果顶部或右侧。 |
 | 匹配免费搜索检测规则 | Adobe 报表检测的免费搜索。 |
@@ -87,13 +87,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | 是访问第一页 | Adobe 报表检测到的访问第一页。 |
 | 页面 | 网站上使用 Adobe 网络信标标记的网页名称。该值等同于 s.pageName。示例包括 `Home Page` 和 `About Us`。 |
 | 页面域 | 访客所登陆页面的域，如 `products.example.co.uk`。 |
-| 页面域和路径 | The domain and path, such as `products.example.co.uk/mens/pants/overview.html` . |
+| 页面域和路径 | 域和路径，如 `products.example.co.uk/mens/pants/overview.html`。 |
 | 页面根目录域 (TLD+1) | 访客所登陆页面的根目录域，如 example.co.uk。 |
 | 页面 URL | 网站上网页的 URL。 |
 | 反向链接域 | 访客访问您的网站之前来自的域，例如反向链接来自 `abcsite.com` 和 `xyzsite.com`。 |
-| 查询字符串参数 | If a page URL on your site looks like `https://example.com/?page=12345&cat=1`, then page and cat are both query string parameters. (请参阅 `https://en.wikipedia.org/wiki/Query_string`.)  您只可为每个规则集指定一个查询字符串参数。To add additional query string parameters, use `ANY` as your operator, then add new query string parameters to the rule. |
+| 查询字符串参数 | 如果您网站上的页面 URL 类似于 `https://example.com/?page=12345&cat=1`，则 page 和 cat 都是查询字符串参数。（请参阅 `https://en.wikipedia.org/wiki/Query_string`。）您只可为每个规则集指定一个查询字符串参数。要添加额外的查询字符串参数，可使用 `ANY` 作为您的运算符，然后将新的查询字符串参数添加到规则中。 |
 | 反向链接 | 访客在访问您的网站前所在的网页位置（完整的 URL）。反向链接存在于所定义域的外部。 |
-| 引荐域和路径 | 引荐域和 URL 路径的组合。示例包括：   `www.example.com/products/id/12345` or `ad.example.com/foo` |
+| 引荐域和路径 | 引荐域和 URL 路径的组合。示例包括：    `www.example.com/products/id/12345` 或 `ad.example.com/foo` |
 | 引荐参数 | 反向链接 URL 上的查询字符串参数。例如，如果您的访客来自 `example.com/?page=12345&cat=1`，则 page 和 cat 为引荐参数。 |
 | 引荐根目录域 | 引荐的根目录域。反向链接存在于所定义域的外部。 |
 | 搜索引擎 | Google 或 Yahoo! 等引导访客进入您网站的搜索引擎。 |
