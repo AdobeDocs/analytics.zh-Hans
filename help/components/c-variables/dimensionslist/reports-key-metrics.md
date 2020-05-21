@@ -3,7 +3,7 @@ description: 使用“关键量度”报表可以比较各个量度以同时了�
 title: 关键量度
 topic: Reports
 uuid: 33e57c24-66e6-40a5-a1b0-dc6a66a74a1c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
