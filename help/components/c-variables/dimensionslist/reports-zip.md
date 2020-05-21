@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics 中的
 description: 显示客户所在地的 ZIP/邮政编码，这对成功量度具有极大影响。此报表的信息通常在购买过程中获得，您可以从中知道购买发生地的 ZIP/邮政编码。您可以使用此报表来确定针对特定城镇或城市的本地化广告促销活动是否成功。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
