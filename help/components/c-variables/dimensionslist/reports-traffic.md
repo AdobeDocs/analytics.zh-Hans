@@ -3,7 +3,7 @@ description: 通过使用流量报表，您可以对访客与网站之间的交�
 title: 流量
 topic: Reports
 uuid: c32af0c0-f0c2-47f7-a5f6-4a2df63e11fc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
