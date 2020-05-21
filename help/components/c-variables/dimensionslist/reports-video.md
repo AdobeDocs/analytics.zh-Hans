@@ -3,7 +3,7 @@ description: 显示有关在线媒体访问统计数据的信息。这些报表�
 title: 视频
 topic: Reports
 uuid: d14c4451-2543-414e-a582-001dce001f5f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
