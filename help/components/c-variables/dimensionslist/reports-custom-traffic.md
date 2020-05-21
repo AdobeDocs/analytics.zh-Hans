@@ -1,7 +1,7 @@
 ---
 title: 自定义流量
-description: 视图基于自定义流量变量的报告。
-translation-type: tm+mt
+description: 查看基于自定义流量变量的报表。
+translation-type: ht
 source-git-commit: de2f8c1270aa236b7ea5540a594963f4f6f97d8f
 
 ---
@@ -11,10 +11,10 @@ source-git-commit: de2f8c1270aa236b7ea5540a594963f4f6f97d8f
 
 每个组织可以利用自定义流量报表来报告默认情况下未实施的其他维度。自定义流量报表的使用方式有多种，最常见的是用来测量流量和路径。
 
-## 自定义流量报告的属性
+## 自定义流量报表的属性
 
 * 自定义流量报表完全基于 [prop](/help/implement/vars/page-vars/prop.md)（流量变量）。
-* 默认度量是实例。
+* 默认量度是实例。
 * 这些报表可通过趋势和排名两种格式查看。
 * 搜索过滤器可用于查找特定的行项目。
 * 分类可用于这些报表，允许您重命名并整合行项目。
