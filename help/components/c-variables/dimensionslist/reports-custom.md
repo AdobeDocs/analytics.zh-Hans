@@ -3,7 +3,7 @@ description: 管理员可以使用特定量度和特定日期范围配置报表�
 title: 自定义
 topic: Reports
 uuid: 04a2cf81-6f2a-49f3-a449-cb701a899aad
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -21,4 +21,4 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 此外，您还可以保存重要的报表。此类报表称为书签。您还可以将数个报表放在一个画布上，以快速查看最重要的报表。这些称为功能板，它们也用于特定用户。界面将在图表上方显示一栏，列出书签和功能板。
 
-See [Bookmarks Manager](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/bookmarks.html) and [Dashboards and Reportlets](https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/server-call-usage-dashboard.html) for more information.
+请参阅[书签管理器](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/reports-analytics/bookmarks.html)以及[功能板和缩图报表](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/server-call-usage/server-call-usage-dashboard.html)，了解更多信息。
