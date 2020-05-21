@@ -3,7 +3,7 @@ description: 如果报告的某个特定区段十分重要，那么您可以了�
 title: 划分
 topic: Reports
 uuid: 0f2c8c37-f46e-4d6c-9ac2-eace48e8708f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
