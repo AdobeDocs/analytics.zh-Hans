@@ -3,7 +3,7 @@ description: 测量您所有的产品在特定时段内产生的收入量。
 title: 收入
 topic: Reports
 uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 * 要使此报表能够成功收集数据，必须满足一定的要求。在同一个图像请求内必须发生以下情况：
 
-   * 事件 [!UICONTROL purchase] 必须在变量中 `s.events` 触发。
+   * 必须触发一个[!UICONTROL 购买]事件（在 `s.events` 变量中）。
 
    * 必须在价格字段内为 `products` 变量定义一个数字。
    * 例如，这将向收入报表中传递 $35.99。
@@ -38,7 +38,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
    >
    >在单个产品的数量增加的情况下，收入并不会按此倍数增加。例如，[!DNL s.products="Womens;Socks;5;4.50"] 不会向报表传递 $22.50，而是传递 $4.50。请确保您的实施传递了所列数量的总收入 ([!DNL s.products="Womens;Socks;5;22.50"])。
 
-* [!UICONTROL Revenue] 将某个时间段的总金额舍入到最接近的货币值。 它不会对每一个单独的产品或每一次点击进行四舍五入。
+* “[!UICONTROL 收入]”会将某时段的总收入量四舍五入至最接近的货币值。它不会对每一个单独的产品或每一次点击进行四舍五入。
 * 由于 Analytics 会将每日收入四舍五入至最接近的整数货币值，因此每日收入量之和与每月总收入量相比较，会有极微小的出入。这是因为每月总收入量并非是经过四舍五入的每日收入量之和，而是将绝对总和四舍五入到最接近的整数货币值。
 * 您可以使用[计算量度](https://docs.adobe.com/content/help/zh-Hans/analytics/components/calculated-metrics/cm-overview.html)创建一个报表，该报表不会将收入量四舍五入到最接近的整数货币值。
 * 除非使用 `purchaseID` 变量，否则用户在刷新页面时会使收入虚增，因为它会将此数据多次发送至 Adobe。
@@ -47,39 +47,39 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 * 可应用“小时”、“日”、“周”、“月”、“季”和“年”粒度。这些粒度的可用性取决于报表日期范围。
 * 此报表可通过以下报表划分（取决于组织和报表包设置）：
 
-   * [!UICONTROL Time Spent per Visit] 报表.
-   * [!UICONTROL Pages and Site Sections] 报表.
-   * [!UICONTROL Videos] 报表.
-   * [!UICONTROL Page Depth and Entry Pages] 报表.
-   * 大多 [!UICONTROL Traffic Sources]数报告， [!UICONTROL Search Keywords]包括 [!UICONTROL Search Engines]、和 [!UICONTROL Referring Domains] 报告。
+   * [!UICONTROL 每次访问逗留时间]报表。
+   * [!UICONTROL 页面和网站区域]报表。
+   * [!UICONTROL 视频]报表。
+   * [!UICONTROL 页面深度和登录页面]报表。
+   * 大部分[!UICONTROL 流量源]报表，包括[!UICONTROL 搜索关键词]、[!UICONTROL 搜索引擎]和[!UICONTROL 反向链接域名]报表。
 
-   * [!UICONTROL Tracking Code] 报告和所有关联的分类报告。
-   * [!UICONTROL Products variable] 报告和所有关联的分类报告。 还有 [!UICONTROL Categories] 报告。
+   * [!UICONTROL 跟踪代码]报表和所有关联的分类报表。
+   * [!UICONTROL 产品变量]报表和所有关联的分类报表。还有[!UICONTROL 类别]报表。
 
-   * 几乎所有 [!UICONTROL Visitor Profile] 报告，不包括 [!UICONTROL GeoSegmentation] 报告。
+   * 几乎所有[!UICONTROL 访客资料]报表，不包括[!UICONTROL 地域划分]报表。
 
-   * 所有变 [!UICONTROL Custom Conversion] 量报告均具有基本子关系。
+   * 所有具有基本子关系的[!UICONTROL 自定义转化]报表。
 
 * 未提供按小时的划分。
 
 ## 产品特定的属性 {#section_ED87FFD020634453AABE86B0248BE69B}
 
-* 可通过以下路径访问此报表： **[!UICONTROL Conversion]** > **[!UICONTROL Purchases]** > **[!UICONTROL Revenue]**.
+* 转至&#x200B;**[!UICONTROL 转化]** > **[!UICONTROL 购买]** > **[!UICONTROL 收入]**，可访问此报表。
 
-* [!UICONTROL Traffic Sources] “barklins”（划分）可在下 [!UICONTROL Finding Methods]找到。
+* “[!UICONTROL 流量源]”划分可在“[!UICONTROL 查找方法]”下方找到。
 
-* 可通过以下路径访问此报表： **[!UICONTROL Site Metrics]** > **[!UICONTROL Purchases]** > **[!UICONTROL Revenue]**.
+* 转至&#x200B;**[!UICONTROL 网站量度]** > **[!UICONTROL 购买]** > **[!UICONTROL 收入]**，可访问此报表。
 
-* 除了之前列出的所有细分之外， [!UICONTROL First and Last Touch Marketing Channel] 还提供了细分。
+* 除前面提到的所有划分外，还提供[!UICONTROL 首次联系和最近联系营销渠道]划分。
 
-* 也可以通过以下路径访问此报表： **[!UICONTROL Site Metrics]** > **[!UICONTROL Purchases]** > **[!UICONTROL Revenue]**.
+* 还可通过转至&#x200B;**[!UICONTROL 网站量度]** > **[!UICONTROL 购买]** > **[!UICONTROL 收入]**&#x200B;访问此报表。
 
-* In addition to the previously mentioned breakdowns, [!UICONTROL List]variables and the current [!UICONTROL Video] variables can be used.
+* 除了之前提到的划分之外，还可使用[!UICONTROL 列表]变量和当前[!UICONTROL 视频]变量。
 
 * 此报表可使用区段。
 
 * 您可按所有其他报表和变量划分此报表中的每个项目，因此可按您希望的任何粒度显示划分结果。
-* 您可以同时使用 [!UICONTROL conversion] 所有 [!UICONTROL traffic] 指标和指标 [!UICONTROL Revenue]。 You can use different allocation for all [!UICONTROL conversion] metrics.
+* 您可以随[!UICONTROL 收入]一起使用所有[!UICONTROL 转化]和[!UICONTROL 流量]量度。您可以对所有[!UICONTROL 转化]量度进行不同的分配。
 
 * 此报表可使用多个非常高级的区段。
 
