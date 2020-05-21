@@ -3,7 +3,7 @@ description: 显示有关客户忠诚度的信息。您可以查看访客再次�
 title: 访客维系
 topic: Reports
 uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
