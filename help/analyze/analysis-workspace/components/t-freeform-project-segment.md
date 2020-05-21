@@ -2,7 +2,7 @@
 description: 'null'
 title: 区段
 uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -37,7 +37,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 您可以选择按照以下步骤操作，将这些区段设为公用（全局）区段：
 
 1. 在拖放区域中将光标悬停区段上，然后单击“i”图标。
-1. In the information panel that displays, click **[!UICONTROL Make public]**.
+1. 在显示的信息面板中，单击 **[!UICONTROL Make public]**。
 
    ![](assets/segment-info.png)
 
