@@ -3,7 +3,7 @@ description: 通过跟踪和记录访客每次访问的反向链接网站，可�
 title: 反向链接类型
 topic: Reports
 uuid: 7f63d327-d223-4537-a722-4780aae05c2b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
