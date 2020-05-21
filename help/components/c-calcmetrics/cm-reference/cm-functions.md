@@ -2,7 +2,7 @@
 description: 计算量度生成器允许您将统计和数学函数应用于生成高级计算量度。
 title: 引用：基本函数
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
