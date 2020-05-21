@@ -3,7 +3,7 @@ description: “下一区域流量”与“下一页面流量”类似。它显�
 title: 下一区域流量
 topic: Reports
 uuid: cd476822-a3e2-496c-a27d-a13beac8cba2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
