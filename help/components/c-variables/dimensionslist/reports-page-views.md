@@ -3,7 +3,7 @@ description: “页面查看”报表是一个趋势报表，它显示选定时�
 title: 页面查看次数
 topic: Reports
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 707b61d853a8ec68b3f77a35a1aa5f0c7dd8a1fd
 
 ---
@@ -15,16 +15,16 @@ source-git-commit: 707b61d853a8ec68b3f77a35a1aa5f0c7dd8a1fd
 
 [页面查看](/help/components/c-variables/c-metrics/metrics-page-view.md)是对完整页面文档的请求，而不是页面的某个元素，如图像或视频。例如，如果一个访客在一次访问中查看 15 个页面，则将计为 15 次页面查看。如果一位访客在一次访问期间三次查看同一页面，将计为三次页面查看。
 
-## 报告属性
+## 报表属性
 
-* This report references the number of times the [`t()`](/help/implement/vars/functions/t-method.md) method is called on your site.
-* 使用此方法的链接跟 [`tl()`](/help/implement/vars/functions/tl-method.md) 踪调用不会计入此报告中。
+* 此报表引用了 [`t()`](/help/implement/vars/functions/t-method.md) 方法在您的网站上被调用的次数。
+* 使用 [`tl()`](/help/implement/vars/functions/tl-method.md) 方法的链接跟踪调用不计入此报表。
 * 由于图像请求会在用户刷新页面或单击返回按钮时发送，因此，此报表也包含这些操作。
 * 小时划分是基于报表包的时区。
 * 此报表不包含行项目。因此，仅能以趋势格式查看此报表。
 * 可应用“小时”、“日”、“周”、“月”、“季”和“年”粒度。该粒度的可用性取决于报表的日期范围。
 
-## 产品特定信息
+## 产品特定的信息
 
 <table id="table_61F964F47D1D43508B271999F495F7F9"> 
  <tbody> 
