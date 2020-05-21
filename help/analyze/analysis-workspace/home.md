@@ -4,15 +4,19 @@ title: Analysis Workspace 概述
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 9ea9beba2a608da66e1f942cc100ebde958a8a10
+source-git-commit: d8db32a76b93e9687b28125050224857b598d82d
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 33%
+source-wordcount: '275'
+ht-degree: 32%
 
 ---
 
 
 # Analysis Workspace 概述
+
+>[!IMPORTANT]
+>
+>此页面当前正在构建中。
 
 Analysis Workspace 去除了单一 Analytics 报表存在的所有典型限制。它提供了一个功能强大而灵活的画布，用于构建自定义分析项目。您可以向一个项目拖放任意数量的数据表、可视化图表和组件（维度、量度、区段和时间粒度）。可以即时创建划分和区段、创建用于分析的同类群组、创建警报、比较区段、进行流量和流失分析，并且组织和计划报表以与公司的其他人员共享。
 
