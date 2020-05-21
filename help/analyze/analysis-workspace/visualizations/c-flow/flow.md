@@ -2,7 +2,7 @@
 description: 'null'
 title: 流量概述
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -30,4 +30,4 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## 将流量图导出为项目 .CSV 文件的一部分 {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
-Flow diagrams are part of a project&#39;s .CSV file that you can create by going to **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**. 这可以让您分析 Microsoft Excel（以表格形式显示）或其他软件中的流量结果。
+流量图可以作为您能够创建的项目 .CSV 文件的一部分，方法是转到 **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**。这可以让您分析 Microsoft Excel（以表格形式显示）或其他软件中的流量结果。
