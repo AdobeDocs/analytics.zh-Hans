@@ -2,7 +2,7 @@
 description: Analysis Workspace 中的日期比较允许您采用包含日期范围的任何列来创建常见的日期比较，例如：年同比、季度同比、月同比，等等。
 title: 日期比较
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -35,7 +35,7 @@ Analysis Workspace 中的日期比较允许您采用包含日期范围的任何�
 
    >[!NOTE]
    >
-   >当您选择自定义天数(例如10月7日- 10月20日（14天范围）)时，您只能获得2个选项： **[!UICONTROL Prior 14 days before this date range]**&#x200B;和 **[!UICONTROL Select range]**。
+   >当您选择自定义天数时，例如 10 月 7 日至 10 月 20 日（14 天的范围），您将只获得 2 个选项：**[!UICONTROL Prior 14 days before this date range]** 和 **[!UICONTROL Select range]**。
 
 1. 得出的比较与下图类似：
 
@@ -43,17 +43,17 @@ Analysis Workspace 中的日期比较允许您采用包含日期范围的任何�
 
    “百分比变化”列中的行在具有负值时显示红色，在具有正值时显示绿色。
 
-1. （可选）与在任何其他工作区项目中一样，您也可以根据这些时间比较创建可视化。例如，以下是一个条形图：
+1. （可选）与在任何其他工作区项目中一样，您也可以根据这些时间比较创建可视化图表。例如，以下是一个条形图：
 
    ![](assets/compare-time-barchart.png)
 
-   Note that in order to show the percentage change in the bar chart, you have to have the [!UICONTROL Percentages] setting checked in the [!UICONTROL Visualization Settings].
+   请注意，为了在条形图中显示百分比变化，您必须在 [!UICONTROL Visualization Settings] 中选中 [!UICONTROL Percentages] 设置。
 
 ## 添加时间段列以进行比较 {#section_93CC2B4F48504125BEC104046A32EB93}
 
 现在，您可以向表中的每一列添加一个时间段，此操作允许您添加一个不用于日历设置的时间段。这是比较日期的另一种方法。
 
-1. 右键单击表中的列，然后选择 **[!UICONTROL Add Time Period Column]**![](assets/add-time-period-column.png)
+1. 右键单击表中的列，然后选择 **[!UICONTROL Add Time Period Column]** ![](assets/add-time-period-column.png)
 
 1. 根据您设置表格日期范围的具体方式，您可以使用以下选项进行比较：
 
@@ -65,7 +65,7 @@ Analysis Workspace 中的日期比较允许您采用包含日期范围的任何�
 
    >[!NOTE]
    >
-   >当您选择自定义天数(例如10月7日- 10月20日（14天范围）)时，您只能获得2个选项： **[!UICONTROL Prior 14 days before this date range]**&#x200B;和 **[!UICONTROL Select range]**。
+   >当您选择自定义天数时，例如 10 月 7 日至 10 月 20 日（14 天的范围），您将只获得 2 个选项：**[!UICONTROL Prior 14 days before this date range]** 和 **[!UICONTROL Select range]**。
 
 1. 时间段将被插入到选定列的顶部：
 
@@ -79,7 +79,7 @@ Analysis Workspace 中的日期比较允许您采用包含日期范围的任何�
 
 ## 将列日期调整为从同一行开始 {#section_5085E200082048CB899C3F355062A733}
 
-通过所有表的新设置，您可以使用 **[!UICONTROL Align Dates from each column to all start on the same row (applies to entire table)]**。 “适用于整个表”表示如果您要在表格中执行划分，并为划分更改此设置，那么它将更改整个表的设置。
+通过用于所有表的新设置，您可以 **[!UICONTROL Align Dates from each column to all start on the same row (applies to entire table)]**。“适用于整个表”表示如果您要在表格中执行划分，并为划分更改此设置，那么它将更改整个表的设置。
 
 ![](assets/date-comparison-setting.png)
 
