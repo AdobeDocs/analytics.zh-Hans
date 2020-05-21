@@ -3,7 +3,7 @@ description: 根据您的权限，可以与整个组织、组或个人用户共�
 title: 共享区段
 topic: Segments
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
