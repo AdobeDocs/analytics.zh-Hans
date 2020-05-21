@@ -2,10 +2,10 @@
 description: 有关使用功能板记分卡的说明。
 title: Adobe Analytics 功能板执行指南
 translation-type: tm+mt
-source-git-commit: d78bb56cb199585236b7193b5bd220818b806194
+source-git-commit: a388a66b431d9652a4bc436a9b923157e129b02c
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 98%
+source-wordcount: '1228'
+ht-degree: 80%
 
 ---
 
@@ -51,36 +51,21 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
 要下载并安装应用程序，请根据设备上的操作系统执行以下相应步骤。
 
-**对于 iOS 设备：**
+**对于 iOS 上的执行用户：**
 
-1. 单击以下公共链接（此链接也可在 Analytics 中的&#x200B;**工具** > **功能板**&#x200B;下找到）：
+* 单击以下链接(也可在“工具”>“ **仪表板******”下的Analytics中找到该链接)，然后按照提示下载、安装和打开应用程序：
 
-   [iOS 链接](https://testflight.apple.com/join/WtXMQxlI)：`https://testflight.apple.com/join/WtXMQxlI`
+   [iOS链接](https://apple.co/2zXq0aN)
 
-   单击该链接后，会显示以下 Testflight 屏幕：
+**对于 Android 上的执行用户：**
 
-   ![Testflight 屏幕](assets/testflight1.png)
+* 单击以下链接(也可在“工具”>“ **仪表板******”下的Analytics中找到该链接)，然后按照提示下载、安装和打开应用程序：
 
-2. 点按屏幕上的&#x200B;**在 App Store 中查看**&#x200B;链接，以下载 Testflight 应用程序。
+   [Android](https://bit.ly/2LM38Oo)
 
-3. 安装 Testflight 应用程序后，从 Testflight 中找到并安装 Adobe Analytics 功能板，如下所示：
+下载并安装后，执行用户可使用其现有Adobe Analytics凭据登录应用程序。
 
-   ![Testflight 屏幕](assets/testflight2.png)
-
-**对于 Android 设备：**
-
-1. 在用户设备上点按以下 Play Store 链接（此链接也可在 Analytics 中的&#x200B;**工具** > **功能板**&#x200B;下找到）：
-
-
-   [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp)：`https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
-
-   点按该链接后，再点按以下屏幕上的“成为测试人员”链接：
-
-   ![Play Store 屏幕](assets/play.png)
-
-2. 点按以下屏幕上的&#x200B;**在 Google Play 上下载**&#x200B;链接：
-
-   ![下载链接](assets/playnext.png)
+![应用程序欢迎屏幕](assets/welcome.png)
 
 ## 使用功能板
 
@@ -94,16 +79,15 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
 3. 然后，记分卡列表会显示与您共享的所有记分卡。点按要查看的记分卡。
 
-   ![选择公司](assets/accesscard.png)
+   ![选择公司](assets/nextseq.png)
 
-   *注意：如果您登录后看到一条消息，指出尚未共享任何内容，请与策划人确认以下事项：*
+   如果您登录并看到一条消息说没有共享内容，请向策展人验证以下信息：
 
-   * *您可以登录到正确的 Analytics 实例*
-   * *已与您共享记分卡*
+   您可以登录到正确的Analytics实例记分卡已与您共享
 
-      ![未共享任何内容](assets/nothing.png)
+   ![未共享任何内容](assets/nothing.png)
 
-4. 检查图块在记分卡中的显示方式。
+4. 检查磁贴在记分卡中的显示方式（此记分卡以深色模式显示）。
 
    ![说明图块](assets/newexplain.png)
 
@@ -125,21 +109,27 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
    ![更改日期](assets/changedate.png)
 
-   *注意：您也可以按相同方式更改上面显示的“划分”视图中的日期范围。*
+   您还可以采用相同方式更改上述细分视图中的日期范围。
 
    根据点按的时间间隔（**日**、**周**、**月**&#x200B;或&#x200B;**年**），您将看到两个日期范围选项，即当前时间范围或紧随其前的时间范围。点按这两个选项之一，以选择第一个范围。在&#x200B;**比较对象**&#x200B;列表下，点按其中显示的一个选项，以将此时间段的数据与您选择的第一个日期范围进行比较。点按屏幕右上角的&#x200B;**完成**。**日期范围**&#x200B;字段和记分卡图块会更新以显示您选择的新范围中的新比较数据。
 
-7. 获取记分卡更新。如果记分卡不包含您可能感兴趣的所有量度或划分，请联系您的 Analytics 团队来更新记分卡。更新后，您可以下拉屏幕上的记分卡进行刷新，并加载最近添加的数据。
+7. 要将区段过滤器应用到记分卡，请点按过滤器下拉列表，然后选择由策展人配置的区段。
 
+   ![段过滤器](assets/segment_filter.png)
 
+8. 获取记分卡更新。如果记分卡不包含您可能感兴趣的所有量度或划分，请联系您的 Analytics 团队来更新记分卡。更新后，您可以下拉屏幕上的记分卡进行刷新，并加载最近添加的数据。
 
-8. 提供反馈。要提供反馈，请执行以下操作：
+9. 要提供对应用程序的反馈，请执行以下操作：
 
-   1. 点按功能板屏幕右上角的用户图标。
-   2. 在&#x200B;**我的帐户**&#x200B;屏幕上，点按&#x200B;**反馈**&#x200B;选项。
+   1. 点按应用程序屏幕右上角的设置图标。
+   2. On the **Settings** screen, tap the **Feedback** option.
    3. 点按以查看用于提供反馈的选项。
-   ![提供反馈](assets/feedback.png)
-   ![反馈选项](assets/feedback_option.png)
+
+      ![设置屏幕](assets/settings.png)
+
+10. 要更改首选项，请点按 **上面** 显示的首选项。 在首选项中，您可以打开生物识别登录，也可以将应用程序设置为深色模式，如下所示：
+
+   ![深色模式](assets/darkmode.png)
 
 
 **要报告错误**，请执行以下操作：
