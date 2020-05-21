@@ -1,7 +1,7 @@
 ---
 description: 了解如何填充为营销渠道设置的不同规则的最佳实践和相关示例。
 title: 营销渠道常见问题解答和示例
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -72,7 +72,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/example_paid_search.png)
 
-有关详细信息，请参阅管理员中的[付费搜索检测](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)。
+有关详细信息，请参阅管理员中的[付费搜索检测](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)。
 
 ## 免费搜索 {#natural-search}
 
@@ -84,7 +84,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/example_natural_search.png)
 
-有关详细信息，请参阅管理员中的[付费搜索检测](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)。
+有关详细信息，请参阅管理员中的[付费搜索检测](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)。
 
 ## 附属活动 {#afilliates}
 
