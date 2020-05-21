@@ -2,7 +2,7 @@
 title: 区段比教面板概述
 description: 了解如何使用“区段比较”面板（Analysis Workspace 中区段 IQ 的一部分）。
 keywords: Analysis Workspace;Segment IQ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -27,11 +27,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    ![比较受众](assets/compare-audiences.png)
 
-   After you drag a segment into the panel, Analytics automatically creates an [!UICONTROL 'Everyone Else'] segment that includes everyone NOT in the segment you chose. 它是比较面板中常用的区段，但您也可以将其删除并比较所选的其他区段。
+   将区段拖入面板中后，Analytics 会自动创建一个 [!UICONTROL 'Everyone Else'] 区段，该区段包含未在所选区段中的所有项。它是比较面板中常用的区段，但您也可以将其删除并比较所选的其他区段。
 
    ![其他各项](assets/everyone-else.png)
 
-1. Once you have determined which two segments to compare, click [!UICONTROL Build].
+1. 确定要比较的两个区段后，单击 [!UICONTROL Build]。
 
    此操作将启动后端进程，该进程会查找选定的两个区段与所有维度、量度和其他区段之间的统计差异。面板顶部的进度栏指示完成所有量度和维度分析的剩余时间。最常用的量度、维度和区段按优先顺序排列，以便首先运行，从而及时返回最相关的结果。
 
@@ -39,12 +39,12 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 有时需要从区段比较中排除某些维度、量度或区段。例如，您要将区段“美国移动设备用户”与“德国移动设备用户”进行比较。包括地理相关维度是没有意义的，因为这些区段已经暗含了这些差异。
 
-1. After the desired two segments are in the panel, click [!UICONTROL 'Show Advanced Options'].
-1. Drag and drop components you want to exclude into the [!UICONTROL Excluded Components] panel.
+1. 在面板中出现所需的两个区段后，单击 [!UICONTROL 'Show Advanced Options']。
+1. 将您需要排除的组件拖放到 [!UICONTROL Excluded Components] 面板中。
 
    ![排除的组件](assets/excluded-components.png)
 
-Click [!UICONTROL 'Set as default'] to automatically exclude your current components in all future segment comparisons. 如果要编辑排除的组件，请单击“组件类型”，然后单击组件旁边的“X”以将其重新包含在您的分析中。单击“全部清除”会在区段比较中重新包含所有组件。
+单击 [!UICONTROL 'Set as default']，以在所有将来的区段比较中自动排除当前组件。如果要编辑排除的组件，请单击“组件类型”，然后单击组件旁边的“X”以将其重新包含在您的分析中。单击“全部清除”会在区段比较中重新包含所有组件。
 
 ![排除的维度](assets/excluded-dimensions.png)
 
@@ -58,13 +58,13 @@ Adobe 完成对两个所需区段的分析后，会通过若干可视化图表�
 
 ### 大小和重叠
 
-使用维恩图说明每个选定区段的比较大小以及它们彼此重叠的程度。您可以将光标悬停在该可视化上，查看每个重叠区域或非重叠区域有多少访客。此外，还可以右键单击重叠以创建全新的区段，以供将来分析之用。如果两个区段互斥，则两个圆之间不显示重叠（通常使用点击容器查看区段）。
+使用维恩图说明每个选定区段的比较大小以及它们彼此重叠的程度。您可以将光标悬停在该可视化图表上，查看每个重叠区域或非重叠区域有多少访客。此外，还可以右键单击重叠以创建全新的区段，以供将来分析之用。如果两个区段互斥，则两个圆之间不显示重叠（通常使用点击容器查看区段）。
 
 ![大小和重叠](assets/size-overlap.png)
 
 ### 人群概要
 
-在“大小”和“重叠”可视化的右侧，将显示每个区段和重叠的独特访客总数。
+在“大小”和“重叠”可视化图表的右侧，将显示每个区段和重叠的独特访客总数。
 
 ![人群概要](assets/population_summaries.png)
 
@@ -80,7 +80,7 @@ Adobe 完成对两个所需区段的分析后，会通过若干可视化图表�
 
 ### 基于区段的一段时间的量度
 
-量度表的右侧是关联的可视化。您可以单击左侧表格中的行项目，此可视化会更新以显示一段时间内的量度趋势。
+量度表的右侧是关联的可视化图表。您可以单击左侧表格中的行项目，此可视化图表会更新以显示一段时间内的量度趋势。
 
 ![热门量度行](assets/linked-viz.png)
 
@@ -96,7 +96,7 @@ Adobe 完成对两个所需区段的分析后，会通过若干可视化图表�
 
 ### 基于区段的维度项目
 
-维度表的右侧是关联的条形图可视化。该可视化图表将所有维度值都显示在条形图中。单击左侧表中的行项目将更新右侧的可视化。
+维度表的右侧是关联的条形图可视化图表。该可视化图表将所有维度值都显示在条形图中。单击左侧表中的行项目将更新右侧的可视化图表。
 
 ![热门维度条形图](assets/top-dimension-item.png)
 
@@ -112,6 +112,6 @@ Adobe 完成对两个所需区段的分析后，会通过若干可视化图表�
 
 ### 区段重叠
 
-区段表的右侧是关联的维恩图可视化。该可视化图表显示应用于您比较区段的最具统计意义的区段。例如，“区段 A”+“具有统计意义的区段”与“区段 B”+“具有统计意义的区段”。单击左侧表中的区段行项目可更新右侧的维恩图。
+区段表的右侧是关联的维恩图可视化图表。该可视化图表显示应用于您比较区段的最具统计意义的区段。例如，“区段 A”+“具有统计意义的区段”与“区段 B”+“具有统计意义的区段”。单击左侧表中的区段行项目可更新右侧的维恩图。
 
 ![热门区段维恩图](assets/segment-overlap.png)
