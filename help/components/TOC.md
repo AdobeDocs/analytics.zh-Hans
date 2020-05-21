@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 组件指南
 user-guide-url: /content/help/en/analytics/components/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
 
 ---
@@ -36,10 +36,10 @@ source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
       + [区段权限（按角色）](c-segmentation/seg-reference/seg-rights.md)
       + [故障诊断](c-segmentation/seg-reference/c-troubleshooting.md)
    + [常见问题解答](c-segmentation/seg-transition.md)
-   + [Analytics细分的新增功能](c-segmentation/whats-new-segmentation.md)
+   + [Analytics 分段的新增功能](c-segmentation/whats-new-segmentation.md)
    + [适用于 Ad Hoc Analysis 的过渡指南](c-segmentation/seg-transition-ad-hoc.md)
 + 计算量度 {#calculated-metrics}
-   + [计算和高级计算（派生）指标](c-calcmetrics/cm-overview.md)
+   + [计算量度和高级计算（派生）量度](c-calcmetrics/cm-overview.md)
    + 计算量度工作流程 {#calcmetric-workflow}
       + [计算量度工作流程](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [查找量度](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
@@ -77,10 +77,10 @@ source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
       + [创建虚拟报表包](vrs/c-workflow-vrs/vrs-create.md)
       + [管理虚拟报表包](vrs/c-workflow-vrs/vrs-manage.md)
       + [查看虚拟报表包信息](vrs/c-workflow-vrs/vrs-view.md)
-+ Cross-Device Analytics {#cda}
-   + [Cross-Device Analytics 概述](cda/cda-home.md)
-   + [设置 Cross-Device Analytics](cda/cda-setup.md)
-   + [Cross-Device Analytics 常见问题解答](cda/cda-faq.md)
++ 跨设备分析 {#cda}
+   + [跨设备分析概述](cda/cda-home.md)
+   + [设置跨设备分析](cda/cda-setup.md)
+   + [跨设备分析常见问题解答](cda/cda-faq.md)
 + 警报 {#alerts}
    + [智能警报](c-alerts/intellligent-alerts.md)
    + [警报生成器](c-alerts/alert-builder.md)
@@ -107,7 +107,7 @@ source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
       + [分类规则集](c-classifications2/crb/classification-rule-set.md)
       + [分类规则](c-classifications2/crb/classification-quickstart-rules.md)
       + [分类规则 - 定义](c-classifications2/crb/classification-rule-definitions.md)
-      + [子分类和规则构建器](c-classifications2/crb/sub-classification-rule-builder.md)
+      + [子分类和规则生成器](c-classifications2/crb/sub-classification-rule-builder.md)
    + 数值 2 分类 {#numeric2-classification}
       + [数值 2 分类概述](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
       + [创建数值 2 分类](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
@@ -328,7 +328,7 @@ source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
    + [配置实时报表](c-real-time-reporting/t-realtime-admin.md)
    + [受支持的实时量度和维度](c-real-time-reporting/realtime-metrics.md)
 + 营销渠道 {#marketing-channels}
-   + [营销渠道入门](c-marketing-channels/c-getting-started-mchannel.md)
+   + [营销渠道快速入门](c-marketing-channels/c-getting-started-mchannel.md)
    + [管理营销渠道](c-marketing-channels/c-channels.md)
    + [营销渠道的处理规则](c-marketing-channels/c-rules.md)
    + [营销渠道中的分类](c-marketing-channels/classifictions-mchannel.md)
