@@ -2,7 +2,7 @@
 description: 可通过以下方法访问这些函数：选中函数下拉列表中的显示高级。
 title: 引用：高级函数
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 # 引用：高级函数
 
-Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UICONTROL Functions]** drop-down list.
+可通过以下方法访问这些函数：选中&#x200B;**[!UICONTROL 函数]**&#x200B;下拉列表中的&#x200B;**[!UICONTROL 显示高级]**。
 
 ## table 函数与 row 函数 {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -65,7 +65,7 @@ Approximate Count Distinct (customer ID eVar) 是此函数的常见用例。
 
 ## 超出的独特数 {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Count()、RowCount() 和 Approximate Count Distinct() 会受到[“超出的独特数”限制](https://docs.adobe.com/content/help/en/analytics/technotes/low-traffic.html)的约束。如果维度在特定月份内达到“超出的独特数”限制，则该值将计数为 1 个维度项目。
+Count()、RowCount() 和 Approximate Count Distinct() 会受到[“超出的独特数”限制](https://docs.adobe.com/content/help/zh-Hans/analytics/technotes/low-traffic.html)的约束。如果维度在特定月份内达到“超出的独特数”限制，则该值将计数为 1 个维度项目。
 
 ## 比较计数函数 {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
