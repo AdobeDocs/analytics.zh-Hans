@@ -1,14 +1,14 @@
 ---
 description: 'null'
-title: 配置流失可视化
+title: 配置流失可视化图表
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
 
-# 配置流失可视化
+# 配置流失可视化图表
 
 您可以指定接触点以创建多维度流失序列。通常，接触点就是网站中的某个页面。但是，接触点并不仅限于页面。例如，您可以添加事件，如件数及独特访客和回访。也可以添加维度，如类别、浏览器类型或内部搜索词。
 
@@ -18,9 +18,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 您可以对 eVar 执行路径分析，包括促销 eVar 和 [listVar](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/page-vars/page-variables.html)（每个点击可以具有多个值的变量，如产品、listVar、促销 eVar 和列表属性）。例如，假设某个用户在一个页面上查看鞋和衬衫，而在另一个页面上查看衬衫和袜子。鞋的下一个产品流量报表将是衬衫和袜子，而不是衬衫。
 
-1. 将可 [!UICONTROL Fallout] 视化下拉菜单中的可视化拖入 [!UICONTROL Freeform Table]。
+1. 将 [!UICONTROL Fallout] 可视化图表从“可视化图表”下拉菜单拖入 [!UICONTROL Freeform Table]。
 
-1. Drag the Page dimension into the Freeform Table and from there, drag a page (in this case, Home - JJEsquire) into the **[!UICONTROL Add TouchPoint]** field as the first touchpoint.
+1. 将页面维度拖动到自由格式表中，然后从此处将某个页面（在本例中为 Home - JJEsquire）拖动到 **[!UICONTROL Add TouchPoint]** 字段中，作为第一个接触点。
 
    ![](assets/fallout1.png)
 
@@ -71,6 +71,6 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 | 显示接触点趋势 | 在预先生成了一些异常检测数据的折线图中查看接触点的趋势数据。 |
 | 显示接触点趋势 (%) | 显示总流失百分比趋势。 |
 | 显示所有接触点趋势 (%) | 在同一个图表中显示流失中的所有接触点百分比趋势（如果包括“所有访问”，则将其排除）。 |
-| 在此接触点划分落差 | 视图两个接触点（此接触点和下一个接触点）之间的访客行为（如果它们继续到下一个接触点）。 这会创建一个自由格式表来显示您的维度。您可以替换表的维度和其他元素。 |
-| 在此接触点细分流失 | 查看未通过漏斗的人员在选定步骤后立即做了些什么。 |
+| 划分此接触点的流过 | 查看访客在两个接触点（此触点和下一个触点）之间的行为（如果他们继续到下一个触点）。这会创建一个自由格式表来显示您的维度。您可以替换表的维度和其他元素。 |
+| 划分此接触点的流失 | 查看未通过漏斗的人员在选定步骤后立即做了些什么。 |
 | 从接触点创建区段 | 从选定的接触点创建新区段。 |
