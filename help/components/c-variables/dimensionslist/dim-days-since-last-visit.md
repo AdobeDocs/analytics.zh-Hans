@@ -2,7 +2,7 @@
 description: “上次访问间隔天数”是一个随 Analysis Workspace 一起提供的现成 Analytics 维度。
 title: 上次访问间隔天数
 uuid: d7726a7c-7c4b-45c2-ace9-444eb2d3a4d0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
