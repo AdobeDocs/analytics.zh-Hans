@@ -3,7 +3,7 @@ description: 您可以将特定服务器托管的页面分为一组。列出了�
 title: 服务器
 topic: Reports
 uuid: af4391de-8dfa-48fe-88af-81ce4ec8cf03
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
