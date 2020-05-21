@@ -3,7 +3,7 @@ description: 转化比率通常用于测量转化过程中的开始、结束和�
 title: 转换漏斗
 topic: Reports
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
