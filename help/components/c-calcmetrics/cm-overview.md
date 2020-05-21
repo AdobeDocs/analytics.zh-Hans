@@ -3,7 +3,7 @@ description: 计算量度和高级计算（或派生）量度是指您可以从�
 keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: 计算量度和高级计算（派生）量度
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -15,10 +15,10 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 >[!IMPORTANT]
 >
->2018 年 7 月，Adobe 引入了[归因 IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html)，这改进了计算量度中分配模型的计算方式。作为此更改的一部分，使用非默认分配模型的计算量度已迁移至改进的新归因模型。
+>2018 年 7 月，Adobe 引入了[归因 IQ](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/attribution/attribution.html)，这改进了计算量度中分配模型的计算方式。作为此更改的一部分，使用非默认分配模型的计算量度已迁移至改进的新归因模型。
 >
 >* “营销渠道最近联系”和“营销渠道首次联系”分配模型已分别迁移至新的“最近联系”和“首次联系”归因模型（注：“营销渠道”并没有被弃用 - 弃用的只有此处所述出现在计算量度中的这两个分配模型）。
->* 此外，我们还修正了线性分配的计算方式。对于通过“线性”分配模型使用计算量度的客户，报表可能会稍有变化，以反映修正后的新归因模型。This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 有关详细信息，请参阅[线性分配将如何工作（自 2018 年 7 月 19 日起）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)。
+>* 此外，我们还修正了线性分配的计算方式。对于通过“线性”分配模型使用计算量度的客户，报表可能会稍有变化，以反映修正后的新归因模型。计算量度的这一更改将反映在 [!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、报表 API、Report Builder 和 Ad Hoc Analysis 中。有关详细信息，请参阅[线性分配将如何工作（自 2018 年 7 月 19 日起）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)。
 
 
 我们的计算量度工具提供了一种高度灵活的方式，可用于生成、管理和组织量度。通过使用这些工具，营销人员、产品经理和分析人员不必更改 [!DNL Analytics] 实施，即可提出有关数据的问题。每个 [!DNL Analytics] 包中可用的自定义量度包括：
@@ -44,12 +44,12 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 您可以
 
-* 创建跨、 [!UICONTROL Analysis Workspace]、 [!UICONTROL Reports & Analytics]、、 [!UICONTROL Ad Hoc Analysis]和 [!UICONTROL Report Builder]等的指标 [!UICONTROL Anomaly Detection][!UICONTROL Contribution Analysis]。
+* 创建跨 [!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、[!UICONTROL Ad Hoc Analysis]、[!UICONTROL Report Builder]、[!UICONTROL 异常检测]和[!UICONTROL 贡献分析]的量度。
 * 创建在报表运行时派生的分段量度，而[不必更改实施](https://youtu.be/CuQTm9RaUpY)。这些量度可以在历史记录中查看，因为它们是基于区段的。
 * 在报表包之间共享量度。这表示所有新创建的量度都适用于同一登录公司中的所有报表包。
 * （仅限高级计算量度）量度上的区段。例如，您可以为“新访客”创建一个量度，其中包含首次进行会话的人员计数。
 * （仅限高级计算量度）包含统计函数，以帮助您更好地描述数据。例如，您可以对报表中的项目数量进行计数，或为每个项目加入标准偏差数。
-* Utilize metrics created in [!UICONTROL Ad Hoc Analysis] in the other [!DNL Analytics] tools and vice versa.
+* 将在 [!UICONTROL Ad Hoc Analysis] 中创建的量度用于其他 [!DNL Analytics] 工具，反之亦然。
 
    >[!NOTE]
    >
@@ -59,18 +59,18 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 某些 [!DNL Analytics] 功能让您可以使用事件，而不是计算量度：
 
-* [!UICONTROL Funnels] 此内容位于 [!UICONTROL Reports & Analytics]
-* [!UICONTROL Fallout] 此内容位于 [!UICONTROL Analysis Workspace]
-* [!UICONTROL Cohort Analysis] 在分析工作区中
+* Reports &amp; Analytics 中的漏斗
+* Analysis Workspace 中的流失
+* [!UICONTROL Analysis Workspace 中的队列分析]
 * [!UICONTROL Data Warehouse]
-* [!UICONTROL Segments]
-* [!UICONTROL Real-Time]报表 
-* [!UICONTROL Current Data]报表 
+* [!UICONTROL 区段]
+* [!UICONTROL 实时报表]
+* [!UICONTROL 当前数据报表]
 * [!DNL Analytics] for [!DNL Target]
 
 ## 工具 {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
+以下是[!UICONTROL 计算量度]工具的简短概述：
 
 <table id="table_520AFE97DB514958ABE23FD3C9CE0ABD"> 
  <thead> 
