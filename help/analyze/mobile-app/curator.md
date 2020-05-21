@@ -2,9 +2,9 @@
 description: 有关设置功能板记分卡的说明。
 title: Adobe Analytics 功能板策划人指南
 translation-type: tm+mt
-source-git-commit: 37fb41fac4cdbc0f1716d2ed94f607459436202c
+source-git-commit: c532cd26acd65da1eff488c6f10b3d7d9cec471a
 workflow-type: tm+mt
-source-wordcount: '2323'
+source-wordcount: '2328'
 ht-degree: 82%
 
 ---
@@ -113,6 +113,8 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
 4. 要将区段应用于单个图块，请将左侧面板中的某个区段直接拖放到图块的顶部。如果要将区段应用于记分卡中的所有图块，请将区段拖放到记分卡的顶部。或者，您也可以通过在日期范围下方的筛选器菜单中选择区段来应用区段。 您可 [以像在Adobe Analytics Workspace中一样](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) ，为记分卡配置和应用过滤器。
 
+   ![构建细分以进行筛选](assets/segment_ui.png)
+
 5. 同样，要删除应用于整个记分卡的组件，请单击记分卡上图块外的任意位置，然后单击将鼠标悬停在该组件上时显示的 **x** 来删除组件，如下面的&#x200B;**移动设备客户**&#x200B;区段所示：
 
    ![Remove_components](assets/new_remove.png)
@@ -174,14 +176,14 @@ If you update the Scorecard by adding new components, you may want to share the 
 
    **对于 iOS 上的执行用户：**
 
-   1. 单击以下链接(也可在“工具”>“ **仪表板******”下的Analytics中找到该链接)，然后按照提示下载、安装和打开应用程序：
+   * 单击以下链接(也可在“工具”>“ **仪表板******”下的Analytics中找到该链接)，然后按照提示下载、安装和打开应用程序：
 
       [iOS链接](https://apple.co/2zXq0aN)
    **对于 Android 上的执行用户：**
 
-   1. 单击以下链接(也可在“工具”>“ **仪表板******”下的Analytics中找到该链接)，然后按照提示下载、安装和打开应用程序：
+   * 单击以下链接(也可在“工具”>“ **仪表板******”下的Analytics中找到该链接)，然后按照提示下载、安装和打开应用程序：
 
-      [Android](https://bit.ly/2LM38Oo)
+      [Android链接](https://bit.ly/2LM38Oo)
    下载并安装后，执行用户可以使用他们现有的 Adobe Analytics 凭据登录应用程序；我们同时支持 Adobe ID 和 Enterprise/Federated ID。
 
    ![应用程序欢迎屏幕](assets/welcome.png)
