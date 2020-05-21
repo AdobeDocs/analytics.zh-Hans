@@ -1,7 +1,7 @@
 ---
 title: 变量
 description: Analytics 变量的登陆页面
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
