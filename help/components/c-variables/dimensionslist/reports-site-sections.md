@@ -3,7 +3,7 @@ description: 显示访客经常访问的网站区域。网站区域可以包括�
 title: 网站区域
 topic: Reports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -13,21 +13,21 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 显示访客经常访问的网站区域。网站区域可以包括定义的产品组，它与类别类似。例如，可以包括页面的“照相机”组、“计算机”组等。“转化网站区域”报表的数据会从“流量”组中的“网站区域”报表导入，后者从跟踪代码中的 channel 变量接收信息。您可以使用此报表确定不同网站区域中的项目对网站统计信息的最大影响。
 
-* 此报表直接引用来自贵网站上实施的 [s.channel](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/channel.html) 变量中的数据。
+* 此报表直接引用来自贵网站上实施的 [s.channel](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/page-vars/channel.html) 变量中的数据。
 * 此报表可通过趋势和排名两种格式查看。
 * 此报表可使用搜索过滤器来查找特定的行项目。
 * 分类可用于此报表，允许您重新命名并整合行项目。
 * 关联可通过管理工具创建，以与其他任何流量变量产生关联。
 * 此报表可使用以下量度：
 
-   * **页面查看**：[pageName](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/pagename.html) 变量或 URL 被定义的次数（设置为默认量度）
+   * **页面查看**：[pageName](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/page-vars/pagename.html) 变量或 URL 被定义的次数（设置为默认量度）
 
    * **所有路径量度**：访问量、平均页面深度、平均页面逗留时间、登录、退出、重新载入和单次存取
    * 根据贵组织和报表包设置：此报表可启用每日、每周、每月和每季独特访客。
    * **所有标准电子商务量度**：收入、订购、件数、购物车、购物车查看、结账、购物车加货、购物车减货。
    * **所有自定义事件**：事件 1-80、事件 81-100（使用 H22 代码或更高版本的代码时）。
 
-使用上次分配的所有 [!UICONTROL Site Sections Report] 转换事件。 您将看到转化被划分到实施中不包含成功事件的页面。这不同于[页面报表](/help/components/c-variables/dimensionslist/reports-pages.md)，后者使用的是线性分配。
+[!UICONTROL 网站区域报表]中的所有转化事件均使用最近分配。您将看到转化被划分到实施中不包含成功事件的页面。这不同于[页面报表](/help/components/c-variables/dimensionslist/reports-pages.md)，后者使用的是线性分配。
 
 **产品特定的信息**
 
