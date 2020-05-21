@@ -3,7 +3,7 @@ description: 显示来自不同国家/地区的客户对您的成功量度有何
 title: 顶级域名
 topic: Reports
 uuid: c40ba9bc-fbf2-4e50-9117-6c5947e6675b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
