@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 组织/共享概述
 topic: Reports and analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -18,24 +18,24 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 >[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&amp;index=79&amp;t=0s&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
 
-**[!UICONTROL Workspace]** > **[!UICONTROL Share]**> **[!UICONTROL Curate Project Data]**
+**[!UICONTROL Workspace]** > **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**
 
 ## 策划项目数据
 
 1. 指定创建和组织项目的权限。
 
-   Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/user-product-management/user-groups/groups.html) with the **[!UICONTROL Analysis Workspace Access]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]**).
+   创建或策划 Analysis Workspace 项目之前，管理员必须将您添加到已启用 **[!UICONTROL Analysis Workspace Access]** 权限的[组](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/user-product-management/user-groups/groups.html)，或添加到 **[!UICONTROL All Report Access]** 用户组（**[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]**）。
 
-1. [创建并保存项目](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) ，然后单击 **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**。
-1. Drag components you want to share from the draggable component stack on the left to the **[!UICONTROL Curated Components]** field.
+1. [创建并保存](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)项目，然后单击 **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**。
+1. 将您要从左侧可拖动组件堆叠中共享的组件拖到 **[!UICONTROL Curated Components]** 字段。
 
    ![](assets/curated-components.png)
 
    >[!IMPORTANT]
    >
-   >共享项目并非必须要求策划组件。您可以共享包含所有可用、默认组件的项目，或者共享包含选定组件的项目。To preserve all of the default components in a project, a best practice is to create a copy of a project for yourself (using **[!UICONTROL Save As]**) prior to curating components. 一旦您在项目中组织了组件，其他组件将不能继续用于该项目。
+   >共享项目并非必须要求策划组件。您可以共享包含所有可用、默认组件的项目，或者共享包含选定组件的项目。要在项目中保留所有默认的组件，最佳做法是在策划组件之前，自行创建一个项目副本（使用 **[!UICONTROL Save As]**）。一旦您在项目中策划了组件，其他组件将不能继续用于该项目。
 
-1. 单击 **[!UICONTROL Done]**.
+1. 单击 **[!UICONTROL Done]**。
 
 生成的项目与 Analysis Workspace 中的典型项目类似，不过，您只能从中选取特定的组件。
 
@@ -43,7 +43,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 共享可以使此项目供您的组织内的其他 Analysis Workspace 用户使用。当其他人使用此项目时，您完成的任何组织工作都会得到反映。
 
-1. After you curate the components of a report, click **[!UICONTROL Share]** > **[!UICONTROL Share Project]**.
+1. 在您组织报表中的组件后，单击 **[!UICONTROL Share]** > **[!UICONTROL Share Project]**。
 
    ![](assets/share_component.png)
 
@@ -60,7 +60,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
    >
    >此设置不具有持续性，在分享时，它是独立的操作。
 
-1. 单击 **[!UICONTROL Share]**.
+1. 单击 **[!UICONTROL Share]**。
 
 <!-- 
 
