@@ -2,7 +2,7 @@
 description: 新的智能警报系统允许对警报进行更多粒度控制，而且还将异常检测与警报系统集成在一起。
 title: 智能警报概述
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -25,13 +25,13 @@ Analysis Workspace 中新增的警报生成器和警报管理器取代了 Report
 
 可通过四种方式访问警报生成器：
 
-* 直接转到警报生成器： **[!UICONTROL Components]** > **[!UICONTROL Alerts]**
+* 直接转到警报生成器：**[!UICONTROL Components]** > **[!UICONTROL Alerts]**
 * 在工作区中使用键盘快捷键：`Ctrl + Shift + A` (Windows) 或 `Cmd + Shift + A` (Mac)
-* Selecting one or more freeform table line item/s, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**. 此时将打开警报生成器，并预填充从表中应用的相应量度和过滤器。您可以根据需要编辑警报。
+* 选择一个或多个自由格式表行项目，右键单击并选择 **[!UICONTROL Create Alert from Selection]**。此时将打开警报生成器，并预填充从表中应用的相应量度和过滤器。您可以根据需要编辑警报。
 
    ![从选定范围中创建警报](assets/create-alert-from-selection.png)
 
-* 从“报告与分析”报告中，转到 **[!UICONTROL More]** > **[!UICONTROL Add Alert]** 。 此时将打开警报生成器，并预填充从报表中应用的相应量度和过滤器。您可以根据需要编辑警报。
+* 从 Reports &amp; Analytics 报表中，转到 **[!UICONTROL More]** > **[!UICONTROL Add Alert]**。此时将打开警报生成器，并预填充从报表中应用的相应量度和过滤器。您可以根据需要编辑警报。
 
    ![添加警报](assets/add-alert.png)
 
