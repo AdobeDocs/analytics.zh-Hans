@@ -3,7 +3,7 @@ description: 这些报表显示有关访客使用的浏览器、操作系统、�
 title: 技术
 topic: Reports
 uuid: 8e2f88dc-e1b9-428e-b0d3-faf4c063bebc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
