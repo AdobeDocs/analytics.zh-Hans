@@ -3,7 +3,7 @@ description: 根据设备是启用、禁用 JavaScript 还是当作“未识别�
 title: JavaScript 支持
 topic: Reports
 uuid: 7b95001a-cd35-478a-8b24-54d30666110d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
