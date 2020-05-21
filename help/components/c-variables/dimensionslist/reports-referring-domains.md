@@ -3,7 +3,7 @@ description: 显示对网站成功量度影响最大的顾客所使用的反向�
 title: 反向链接域名
 topic: Reports
 uuid: ab310bb8-51b1-4428-a42e-2377d36ca986
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
