@@ -3,7 +3,7 @@ description: 文件下载有助于了解访客从您的网站下载文件的频�
 title: 文件下载
 topic: Reports
 uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 **导航**
 
-**[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Links]** > **[!UICONTROL File Downloads]**
+**[!UICONTROL 报表]** > **[!UICONTROL 网站内容]** > **[!UICONTROL 链接]** > **[!UICONTROL 文件下载]**
 
 如果该报表不在默认位置，请咨询您的管理员，他们可能已更改了默认菜单结构，以更好地满足您组织的独特需求。
 
@@ -37,4 +37,4 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 1. 找到 [s.linkDownloadFileTypes](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/config-vars/linkdownloadfiletypes.html) 变量。确保所需的所有文件扩展名都出现在列表中。如有必要，请添加缺少的扩展名，例如 [!DNL .zip]、[!DNL .pdf] 等。
 
-If these variables appear to be configured correctly, but the [!UICONTROL File Downloads Report] still is not receiving data, your organization&#39;s supported users should contact Customer Care.
+如果这些变量配置正确，但[!UICONTROL 文件下载报表]仍无法接收数据，则贵组织的受支持用户应与客户关怀团队联系。
