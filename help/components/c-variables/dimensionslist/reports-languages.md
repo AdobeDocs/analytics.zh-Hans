@@ -3,7 +3,7 @@ description: 捕获访客浏览器中的语言设置，可让您查看与语言�
 title: 语言
 topic: Reports
 uuid: 04f1fc86-2738-4063-8091-772ddc59f9cf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
