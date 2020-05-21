@@ -3,7 +3,7 @@ description: 区段管理器提供了许多种管理区段的方式，如共享�
 title: 管理区段
 topic: Segments
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
