@@ -1,17 +1,17 @@
 ---
-description: 您不能将分类规则构建器与子分类合并。
-title: 子分类和规则构建器
-translation-type: tm+mt
+description: 不能将分类规则生成器与子分类结合使用。
+title: 子分类和规则生成器
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
 
-# 子分类和规则构建器
+# 子分类和规则生成器
 
-如果确保每个子分类都有父级值，则可以将分类规则构建器与子分类合并。
+如果确保每个子分类都有父值，则可以将分类规则生成器与子分类结合使用。
 
-将分类规则构建器与子分类相结合可以简化分类管理并减少所需的规则数。 如果您的跟踪代码中包含需要单独分类的代码，您可能需要此功能。
+结合使用分类规则生成器和子分类可以简化分类管理和减少所需的规则数量。如果您的跟踪代码中包含需要单独分类的代码，您可能需要此功能。
 
 请参阅[子分类](/help/components/c-classifications2/c-sub-classifications.md)，了解子分类的概念信息。
 
@@ -37,7 +37,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 >
 >以下步骤描述如何完成[子分类和规则生成器](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)中所述的用例。
 
-1. 在[分类管理器](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html)中创建分类和子分类。
+1. 在[分类管理器](https://docs.adobe.com/content/help/zh-Hans/analytics/components/classifications/c-classifications.html)中创建分类和子分类。
 
    示例：
 
@@ -62,7 +62,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
    示例：
 
-   | 键 | Channel | 广泛促销活动代码 | 广泛促销活动代码&amp;Hat;促销活动类型 | 广泛促销活动代码&amp;Hat;促销活动主管 | ... |
+   | 键 | 渠道 | 广泛促销活动代码 | 广泛促销活动代码&amp;Hat;促销活动类型 | 广泛促销活动代码&amp;Hat;促销活动主管 | ... |
    |---|---|---|---|---|---|
    | * |  | 111 | 品牌 | Suzanne |  |
    | * |  | 222 | 品牌 | Frank |  |
