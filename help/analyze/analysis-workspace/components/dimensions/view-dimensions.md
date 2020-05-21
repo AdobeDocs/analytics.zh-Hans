@@ -2,7 +2,7 @@
 description: 'null'
 title: 预览维度
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b36505c9fd7bf1d2da4d076d6b49298f01ad1cfc
 
 ---
@@ -26,4 +26,4 @@ source-git-commit: b36505c9fd7bf1d2da4d076d6b49298f01ad1cfc
 
 当您将鼠标悬停在维度上并单击其旁边的灰色右箭头时，会显示其维度项目列表。任何维度项目列表通常会显示过去 30 天排名最前的项目。
 
-如果向下滚动到列表底部，您将看到一个 **[!UICONTROL Show Top Items From Last 6 Months]**。 单击此选项可查看过去 180 天排名最前的维度项目。
+如果向下滚动到列表底部，您将看到 **[!UICONTROL Show Top Items From Last 6 Months]**。单击此选项可查看过去 180 天排名最前的维度项目。
