@@ -3,7 +3,7 @@ description: 显示您网站的访客喜爱的链接。例如，您的网站主�
 title: 自定义链接
 topic: Reports
 uuid: 2e0d0175-d5e4-4919-b601-3f488ef3e090
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 显示您网站的访客喜爱的链接。例如，您的网站主页可能有多个显示同一页面的链接。可能有链接至同一页面的图形和文本链接。此报表显示使用图形链接与使用文本链接的访客百分比。
 
-您要跟踪的特定链接必须使用特殊标记进行修改，请参阅[链接跟踪](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html)。
+您要跟踪的特定链接必须使用特殊标记进行修改，请参阅[链接跟踪](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html)。
 
-您可以使用以 [!UICONTROL Custom Links Report] 下命令：
+[!UICONTROL 自定义链接报表]的用途包括：
 
 * 了解您的访客喜爱的链接类型，优化网站设计
 * 验证对单一页面采用多余链接的必要性
