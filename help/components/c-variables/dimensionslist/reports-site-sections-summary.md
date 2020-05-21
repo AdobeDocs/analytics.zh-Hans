@@ -3,7 +3,7 @@ description: 网站区域概要报表可显示上一页面的的登录点、下�
 title: 网站区域概要
 topic: Reports
 uuid: 5bee04ea-5414-4538-b0d1-120700982762
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
