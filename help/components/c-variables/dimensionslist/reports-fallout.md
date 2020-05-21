@@ -3,7 +3,7 @@ description: 显示访客离开（流失）并继续浏览（途经）一系列�
 title: 流失
 topic: Reports
 uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -25,10 +25,10 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 **Reports and Analytics**
 
-有关配置信息，请参阅帮助中的[运行流失报表](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/t-running-report-types.html)。
+有关配置信息，请参阅帮助中的[运行流失报表](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/reports-analytics/t-running-report-types.html)。
 
 **Ad Hoc Analysis**
 
 对访问或访客级别的流失数据进行分析。您也可以查看以图表形式显示的趋势路径，了解特定时段内的流失情况。您可以将一个页面或多组页面设置为报表检查点，也可以按任意组合或顺序添加任何维度或量度。在市场营销报告中配置的类别也可用作此报表中的检查点。
 
-有关配置信息，请参阅帮助中的[流失报表](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/c-reports-paths.html)。
+有关配置信息，请参阅帮助中的[流失报表](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/ad-hoc-analysis/c-reports-paths.html)。
