@@ -1,7 +1,7 @@
 ---
 title: 营销渠道中的分类
 description: 分类用于将值归到相关群组并在群组级别进行报告。例如，您可以将所有“付费搜索”促销活动归为类似“视频卡”的类别。然后，可在该类别相对于“实例”（或“点进次数”）等量度而成功时进行报告。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 您在此过程中添加的分类在“[!UICONTROL 营销渠道概述]”报表中显示为“[!UICONTROL 渠道值]”。渠道值在渠道详细信息中未进行分类。
 
->[!NOTE] 确保您熟悉在“分类”中创建 [分类](/help/components/c-classifications2/c-classifications.md)。
+>[!NOTE] 确保您可熟练地在[分类](/help/components/c-classifications2/c-classifications.md)中创建分类。
 
 >[!IMPORTANT]
 >
@@ -27,9 +27,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | 名称 | 分类的名称。您添加的分类在“营销渠道管理器”中显示为“渠道划分”选项。 |
 | 选项 | 分类的名称。您添加的分类在“营销渠道管理器”中显示为“渠道划分”选项。 |
 
-## Create Marketing Channels classifications {#create-mktg-channel-classifications}
+## 创建营销渠道分类 {#create-mktg-channel-classifications}
 
-创建营销 [!UICONTROL 渠道分类]。
+为[!UICONTROL 营销渠道]创建分类。
 
 1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
 1. 在[!UICONTROL “报表包管理器”]中，单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 营销渠道]** > **[!UICONTROL 营销渠道分类]**。
