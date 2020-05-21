@@ -2,7 +2,7 @@
 description: 将 Ad Hoc Analysis 术语和任务与 Analysis Workspace 进行比较。
 title: Analysis Workspace 与 Ad Hoc Analysis 的比较
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Analysis Workspace 将 Ad Hoc Analysis 的大多数功能都引入到了浏览器工作流程中。虽然有些术语和功能在这两种产品之间保持相同，但 Analysis Workspace 中也引入了一些新的分析术语和方法。
 
-有关这两种产品之间关键功能和系统要求的技术比较，请转到[此处](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/analytics-product-comparison.html)。
+有关这两种产品之间关键功能和系统要求的技术比较，请转到[此处](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-overview/analytics-product-comparison.html)。
 
 ## 关键术语的比较 {#section_6109406B83B043A18E46D38F130B1D2E}
 
@@ -25,9 +25,9 @@ Analysis Workspace 将 Ad Hoc Analysis 的大多数功能都引入到了浏览�
 | 报表 | 自由格式表 |
 | 图表/图形 | 可视化图表 |
 | 层次结构：项目 > 工作区 > 报表 | 层次结构：项目 > 面板 > 表格 |
-| 排名、趋势、总计报表模板 | 自由格式表可视化 |
-| 流量模板 | 流量可视化 |
-| 流失 | 流失可视化 |
+| 排名、趋势、总计报表模板 | 自由格式表可视化图表 |
+| 流量模板 | 流量可视化图表 |
+| 流失 | 流失可视化图表 |
 
 ## 关键任务比较 {#section_F31446F1DFA742D794A30D713E223440}
 
@@ -47,7 +47,7 @@ Analysis Workspace 将 Ad Hoc Analysis 的大多数功能都引入到了浏览�
    <td colname="col1"> <p>应用区段 </p> </td> 
    <td colname="col2"> <p>可以在“区段”组件菜单下使用区段，并且区段可应用于 Analysis Workspace 中的三个位置： </p> 
     <ol id="ol_800D81FE2C84459B94B085C51E140330"> 
-     <li id="li_F2E050902F9A4831BBA57F466E07DEAE">在<b>面板级别</b>，适用于面板中的许多可视化。这类似于将区段应用到 Ad Hoc Analysis 中的工作区。 </li> 
+     <li id="li_F2E050902F9A4831BBA57F466E07DEAE">在<b>面板级别</b>，适用于面板中的许多可视化图表。这类似于将区段应用到 Ad Hoc Analysis 中的工作区。 </li> 
      <li id="li_2D88E43E0161485C95B08DC3C593EFD9">作为<b>表格中的行</b>。这类似于在 Ad Hoc Analysis 中将区段添加到表格生成器“行/划分”部分。 </li> 
      <li id="li_102E1A1DAA9247C08FC46C5AB3D78113">作为<b>表格中的列</b>。这类似于在 Ad Hoc Analysis 中将区段添加到表格生成器“列”部分，或在 Ad Hoc Analysis 中将区段应用于报表级别。 </li> 
     </ol> <p><a href="https://www.youtube.com/watch?v=QlUCdQDnni4"  > 视频：在工作区中使用区段</a> </p> <p><a href="https://www.youtube.com/watch?v=YjaRlJoQqRA"  > 视频：将区段应用于面板</a> </p> </td> 
@@ -57,7 +57,7 @@ Analysis Workspace 将 Ad Hoc Analysis 的大多数功能都引入到了浏览�
    <td colname="col2"> <p>可以在“时间”组件菜单下使用日期范围和粒度，其使用方式有 3 种： </p> 
     <ol id="ol_8B57C8A840694A879B22B809C58E7482"> 
      <li id="li_58FAE6A87B494A5C9007CD35BB101608">日期范围可应用于列/行并覆盖选定的面板日期范围。这类似于“报表”级别日期范围。 </li> 
-     <li id="li_85BB89EFF9C8466A992815BB7804EA37">使用“应用”，可将日期范围应用于面板内的所有可视化。这类似于 Ad Hoc Analysis 中的“工作区”日期范围。 </li> 
+     <li id="li_85BB89EFF9C8466A992815BB7804EA37">使用“应用”，可将日期范围应用于面板内的所有可视化图表。这类似于 Ad Hoc Analysis 中的“工作区”日期范围。 </li> 
      <li id="li_BC18564A8FBB48F4A522BCAC60838759">使用“应用于所有面板”，可将日期范围应用于工作区项目内的所有面板。这类似于 Ad Hoc Analysis 中的“项目”日期范围。 </li> 
     </ol> <p><a href="https://www.youtube.com/watch?v=ybmv6EBmhn0"  > 视频：在 Analysis Workspace 中使用日期</a> </p> <p><a href="https://www.youtube.com/watch?v=L4FSrxr3SDA"  > 视频：自定义日期范围</a> </p> </td> 
   </tr> 
@@ -67,7 +67,7 @@ Analysis Workspace 将 Ad Hoc Analysis 的大多数功能都引入到了浏览�
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用流失和转化漏斗 </p> </td> 
-   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md"  >流失可视化</a>可在 Analysis Workspace 中的“可视化”组件菜单下使用。类似于 Ad Hoc Analysis： </p> 
+   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md"  >流失可视化图表</a>可在 Analysis Workspace 中的“可视化图表”组件菜单下使用。类似于 Ad Hoc Analysis： </p> 
     <ol id="ol_625FF45AED4E403DBEE1A906282E8531"> 
      <li id="li_7B6C5F2682774641B82D2021786AE5C4">流失可以跨访问或访客，并且还可以选择包含“所有访问”。通过右键单击菜单可快速趋势化流失。 </li> 
      <li id="li_CFBDDAB8E96A445DB0624640AEB25994">维度项目可由 OR 运算符（类似于组）连接，而事件可用在漏斗中。 </li> 
@@ -76,7 +76,7 @@ Analysis Workspace 将 Ad Hoc Analysis 的大多数功能都引入到了浏览�
   </tr> 
   <tr> 
    <td colname="col1"> <p>检查流量（路径） </p> </td> 
-   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  >流量可视化</a>可在 Analysis Workspace 中的“可视化”组件菜单下使用。类似于 Ad Hoc Analysis： </p> 
+   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  >流量可视化图表</a>可在 Analysis Workspace 中的“可视化图表”组件菜单下使用。类似于 Ad Hoc Analysis： </p> 
     <ul id="ul_42D259310823496499F7D1474E1639AF"> 
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">流量可跨访问或访客。 </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">关键统计数据以 % 路径查看的方式显示。 </li> 
@@ -84,7 +84,7 @@ Analysis Workspace 将 Ad Hoc Analysis 的大多数功能都引入到了浏览�
     <ul id="ul_2696A9DCB86E427DB5267BE2793693FF"> 
      <li id="li_384141A577BB4A94899C3E36714225EE">关闭重复的实例。 </li> 
      <li id="li_CC451BFB9FFC4C68AE28A7462B339460">允许用户选择成功事件。 </li> 
-    </ul> <p><a href="https://www.youtube.com/watch?v=3R1HTM7y_RM"  > 视频：流量可视化概述</a> </p> <p><a href="https://www.youtube.com/watch?v=m1Wa6inC1rQ"  > 视频：多维度流量</a> </p> <p><a href="https://www.youtube.com/watch?v=XrJoNQy6RaQ"  > 视频：从流量创建区段</a> </p> </td> 
+    </ul> <p><a href="https://www.youtube.com/watch?v=3R1HTM7y_RM"  > 视频：流量可视化图表概述</a> </p> <p><a href="https://www.youtube.com/watch?v=m1Wa6inC1rQ"  > 视频：多维度流量</a> </p> <p><a href="https://www.youtube.com/watch?v=XrJoNQy6RaQ"  > 视频：从流量创建区段</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>执行无限划分 </p> </td> 
@@ -92,7 +92,7 @@ Analysis Workspace 将 Ad Hoc Analysis 的大多数功能都引入到了浏览�
   </tr> 
   <tr> 
    <td colname="col1"> <p>快速显示数据趋势 </p> </td> 
-   <td colname="col2"> <p>通过单击报表行内的图形图标，可以快速可视化数据。此外，这些快速可视化还将链接到源表格，以便您能够从表格中的一个值单击到下一个值，并自动查看图形更新。 </p> <p><a href="https://www.youtube.com/watch?v=kzlPjsBVYFQ"  > 视频：维度-图形实时链接</a> </p> </td> 
+   <td colname="col2"> <p>通过单击报表行内的图形图标，可以快速可视化数据。此外，这些快速可视化图表还将链接到源表格，以便您能够从表格中的一个值单击到下一个值，并自动查看图形更新。 </p> <p><a href="https://www.youtube.com/watch?v=kzlPjsBVYFQ"  > 视频：维度-图形实时链接</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>选择报表包 </p> </td> 
