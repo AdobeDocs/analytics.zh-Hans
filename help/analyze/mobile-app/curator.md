@@ -2,10 +2,10 @@
 description: 有关设置功能板记分卡的说明。
 title: Adobe Analytics 功能板策划人指南
 translation-type: tm+mt
-source-git-commit: d78bb56cb199585236b7193b5bd220818b806194
+source-git-commit: 37fb41fac4cdbc0f1716d2ed94f607459436202c
 workflow-type: tm+mt
-source-wordcount: '2286'
-ht-degree: 98%
+source-wordcount: '2323'
+ht-degree: 82%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 # Adobe Analytics仪表板策展人指南
 
-以下信息将指导Adobe Analytics数据的策展人如何为管理用户配置和展示仪表板。
+以下信息将指导Adobe Analytics数据的策展人如何为管理用户配置和展示仪表板。 要观看演示此信息的视频，请参 [阅Adobe Analytics仪表板应用程序内体验](https://www.youtube.com/watch?v=QXqQ_PkArbA&amp;feature=youtu.be)。
 
 ## 简介
 
@@ -71,10 +71,6 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
 ![记分卡模板](assets/new_template.png)
 
-
-*注意：如果看不到“空移动记分卡”模板（如下所示），则表明尚未激活您的公司以使用测试版。请联系您的客户服务经理。*
-
-
 **添加项目**
 
 在&#x200B;**项目**&#x200B;屏幕的&#x200B;**组件**&#x200B;选项卡下，单击&#x200B;**添加**&#x200B;按钮并选择&#x200B;**移动记分卡**。
@@ -105,18 +101,17 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
    ![添加维度](assets/layer_dimensions.png)
 
-   *注意：您也可以通过将某个维度拖放到记分卡画布上，将其添加到所有图块。*
+   还可以通过将维拖放到记分卡画布上，将维添加到所有拼贴。
 
    单击记分卡生成器中的图块后，右侧边栏会显示与该图块关联的属性和特征。在此边栏中，您可以为图块提供一个新的&#x200B;**标题**，或者通过指定组件而不是从左侧边栏中拖放组件来配置图块。
-
 
    此外，如果单击图块，动态弹出窗口将会显示“划分”视图在应用程序中向执行用户显示的方式。如果未将任何维度应用于图块，则划分维度将为&#x200B;**小时**&#x200B;或&#x200B;**天**，具体取决于默认日期范围。
 
    ![Breakdown_view](assets/break_view.png)
 
-   *请注意添加到图块的每个维度将如何显示在应用程序详细视图的下拉列表中。之后，执行用户可以从下拉列表所列的选项中进行选择。*
+   添加到拼贴的每个维度都将显示在应用程序的详细视图的下拉列表中。 之后，执行用户可以从下拉列表所列的选项中进行选择。
 
-4. 要将区段应用于单个图块，请将左侧面板中的某个区段直接拖放到图块的顶部。如果要将区段应用于记分卡中的所有图块，请将区段拖放到记分卡的顶部。
+4. 要将区段应用于单个图块，请将左侧面板中的某个区段直接拖放到图块的顶部。如果要将区段应用于记分卡中的所有图块，请将区段拖放到记分卡的顶部。或者，您也可以通过在日期范围下方的筛选器菜单中选择区段来应用区段。 您可 [以像在Adobe Analytics Workspace中一样](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) ，为记分卡配置和应用过滤器。
 
 5. 同样，要删除应用于整个记分卡的组件，请单击记分卡上图块外的任意位置，然后单击将鼠标悬停在该组件上时显示的 **x** 来删除组件，如下面的&#x200B;**移动设备客户**&#x200B;区段所示：
 
@@ -155,7 +150,7 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
 共享记分卡后，收件人可在其 Analytics 功能板中访问该记分卡。如果您在记分卡生成器中对记分卡进行后续更改，则已共享的记分卡会自动更新以反映这些更改。然后，执行用户在其应用程序中刷新记分卡后，便可看到这些更改。
 
-*注意：如果通过添加新组件来更新记分卡，则您可能需要再次共享记分卡（并选中&#x200B;**自动与收件人共享嵌入的组件**选项），以确保执行用户有权访问这些更改。*
+If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Automatically Share embedded components with recipients** option) in order to make sure that your executive users have access to these changes.
 
 ## 使用应用程序设置执行用户
 
@@ -171,42 +166,23 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 * 执行用户有权访问 Analysis Workspace 以及记分卡所基于的报表包
 * 执行用户有权访问记分卡中包含的组件。注意：在共享记分卡时，您可以选择&#x200B;**自动与收件人共享嵌入的组件**&#x200B;选项。
 
-### 帮助执行用户使用应用程序
+### 帮助管理用户使用该应用程序
 
-在测试阶段，且应用程序尚未公开发布之前，您可以控制有权访问该应用程序的人员。
+为帮助执行用户：
 
-1. 帮助执行用户下载并安装应用程序。为此，请根据执行用户使用的是 iOS 还是 Android 设备，提供以下步骤来扩展他们的访问权限。
+1. 帮助他们下载并安装应用程序。 为此，请根据执行用户使用的是 iOS 还是 Android 设备，提供以下步骤来扩展他们的访问权限。
 
    **对于 iOS 上的执行用户：**
 
-   1. 单击以下公共链接（此链接也可在 Analytics 中的&#x200B;**工具** > **功能板**&#x200B;下找到）：
+   1. 单击以下链接(也可在“工具”>“ **仪表板******”下的Analytics中找到该链接)，然后按照提示下载、安装和打开应用程序：
 
-      [iOS 链接](https://testflight.apple.com/join/WtXMQxlI)：`https://testflight.apple.com/join/WtXMQxlI`
-
-      单击该链接后，会显示以下 Testflight 屏幕：
-
-      ![Testflight 屏幕](assets/testflight1.png)
-
-   2. 点按屏幕上的&#x200B;**在 App Store 中查看**&#x200B;链接，以下载 Testflight 应用程序。
-
-   3. 安装 Testflight 应用程序后，从 Testflight 中找到并安装 Adobe Analytics 功能板，如下所示：
-
-      ![Testflight 屏幕](assets/testflight2.png)
-
+      [iOS链接](https://apple.co/2zXq0aN)
    **对于 Android 上的执行用户：**
 
-   1. 在用户设备上点按以下 Play Store 链接（此链接也可在 Analytics 中的&#x200B;**工具** > **功能板**下找到）：
-      [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp)：`https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
+   1. 单击以下链接(也可在“工具”>“ **仪表板******”下的Analytics中找到该链接)，然后按照提示下载、安装和打开应用程序：
 
-      点按该链接后，再点按以下屏幕上的“成为测试人员”链接：
-
-      ![Play Store 屏幕](assets/play.png)
-
-   2. 点按以下屏幕上的&#x200B;**在 Google Play 上下载**&#x200B;链接：
-
-      ![下载链接](assets/playnext.png)
-
-   3. 下载并安装应用程序。下载并安装后，执行用户可以使用他们现有的 Adobe Analytics 凭据登录应用程序；我们同时支持 Adobe ID 和 Enterprise/Federated ID。
+      [Android](https://bit.ly/2LM38Oo)
+   下载并安装后，执行用户可以使用他们现有的 Adobe Analytics 凭据登录应用程序；我们同时支持 Adobe ID 和 Enterprise/Federated ID。
 
    ![应用程序欢迎屏幕](assets/welcome.png)
 
@@ -215,19 +191,15 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
    * 点按应用于您共享的记分卡的登录公司或 Experience Cloud 组织的名称。然后，记分卡列表会显示与该登录公司下的执行用户共享的所有记分卡。
    * 帮助他们按&#x200B;**最近修改**&#x200B;对此列表进行排序（如果适用）。
    * 点按记分卡的名称以查看记分卡。
-
    ![选择公司](assets/accesscard.png)
 
-   注意：如果执行用户登录后看到一条消息，指出尚未共享任何内容，则：
+   如果执行用户登录并看到一条消息，说明没有共享内容：
 
    * 执行用户可能选择了错误的 Analytics 实例
    * 可能尚未与执行用户共享记分卡
-
-      ![未共享任何内容](assets/nothing.png)
-
    验证执行用户是否可以登录正确的 Analytics 实例，以及是否已共享记分卡。
 
-3. 向执行用户说明图块在您共享的记分卡中的显示方式。
+3. 向执行用户说明拼贴在您共享的记分卡中的显示方式(下面的记分卡设置为深色模式，在“首 **选项** ”中设置，如后续步骤中所述):
 
    ![说明图块](assets/newexplain.png)
 
@@ -246,24 +218,30 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
    ![“划分”视图](assets/sparkline.png)
 
+   * 点按迷你图上的任意点，查看与该行上的该点关联的数据。
+
+   * 包括一个表以显示添加到拼贴的维的数据。 点按向下箭头以选择维。 如果未向拼贴添加维，则表将显示图表数据。
+
 
 5. 要更改记分卡的日期范围，请执行以下操作：
 
    ![更改日期](assets/changedate.png)
 
-   *注意：您也可以按相同方式更改上面显示的“划分”视图中的日期范围。*
+   您还可以采用相同方式更改上述细分视图中的日期范围。
 
    根据点按的时间间隔（**日**、**周**、**月**&#x200B;或&#x200B;**年**），您将看到两个日期范围选项，即当前时间范围或紧随其前的时间范围。点按这两个选项之一，以选择第一个范围。在&#x200B;**比较对象**&#x200B;列表下，点按其中显示的一个选项，以将此时间段的数据与您选择的第一个日期范围进行比较。点按屏幕右上角的&#x200B;**完成**。**日期范围**&#x200B;字段和记分卡图块会更新以显示您选择的新范围中的新比较数据。
 
 6. 要提供对应用程序的反馈，请执行以下操作：
 
-   1. 点按应用程序屏幕右上角的用户图标。
-   2. 在&#x200B;**我的帐户**&#x200B;屏幕上，点按&#x200B;**反馈**&#x200B;选项。
+   1. 点按应用程序屏幕右上角的设置图标。
+   2. On the **Settings** screen, tap the **Feedback** option.
    3. 点按以查看用于提供反馈的选项。
 
-   ![提供反馈](assets/feedback.png)
-   ![反馈选项](assets/feedback_option.png)
+      ![设置屏幕](assets/settings.png)
 
+7. 要更改首选项，请点按 **上面** 显示的首选项。 在首选项中，您可以打开生物识别登录，也可以将应用程序设置为深色模式，如下所示：
+
+   ![深色模式](assets/darkmode.png)
 
 **要报告错误**，请执行以下操作：
 
