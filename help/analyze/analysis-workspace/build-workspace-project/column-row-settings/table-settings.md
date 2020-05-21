@@ -2,7 +2,7 @@
 description: 行设置因您拖入到表格中的组件而异。
 title: 行设置
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5c2f2d098398927d8379f2eb9ea69ca9acbfd726
 
 ---
@@ -55,5 +55,5 @@ source-git-commit: 5c2f2d098398927d8379f2eb9ea69ca9acbfd726
 |--- |--- |
 | 日期比较 | 将每列的日期调整为全部从同一行开始。如果选择调整日期，例如在 2016 年 10 月和 9 月间的月同比比较中，左列将从 10 月 1 日开始，右列将从 9 月 1 日开始。<br>默认情况下处于禁用状态。 |
 | 百分数 | 按行计算百分比 强制自由格式表计算整行中的单元格百分比，而不是沿列向下计算。这对显示百分比趋势特别有用。<br>默认情况下，在使用“可视化”图标时启用。 |
-| 列总计 | 这些设置只显示[静态行](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.html)（在选择了有限项目集时），而不显示动态行（即，在显示所有项目的维度中拖放时）。<ul><li>**[!UICONTROL Show sum of current rows as the total]** -这显示表中各行的客户端总和，这意味着总和不会 **重复** (如访问或访客)。</li><li>**[!UICONTROL Show Grand Total]** -这显示服务器端总和，即访问量或访客等总计将减少重复量度。</li></ul> |
-| 划分 | **[!UICONTROL Breakdown by position]**: 您可以根据自由格式表中的固定位置执行细分。 例如，您可以指定始终对表的头七行进行划分。<br>（以前，划分中的值列表会被“锁定”。这会导致这样一种情况，例如，如果您按页面划分日期，则会得到您选定日期范围内的前 50 页的列表。如果您保存了该报表然后在一个月后运行它，则头 50 页很可能已发生更改。然而，Analysis Workspace 将使用来自原始划分的结果并返回相同页面，但将当前月份作为日期范围。）<br>要执行基于固定位置的划分，请执行以下操作：1. 划分表格中的一些行。2. 单击希望处于固定位置的表格行旁边的“设置”（齿轮）图标。3. 选中按位置划分旁边的复选框。4. 更改排序顺序或日期范围，并注意划分现在已绑定到行位置，而不是硬编码的行。<br>默认情况下处于禁用状态。 |
+| 列总计 | 这些设置只显示[静态行](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.html)（在选择了有限项目集时），而不显示动态行（即，在显示所有项目的维度中拖放时）。<ul><li>**[!UICONTROL Show sum of current rows as the total]** - 此设置将显示表行的客户端总和，这意味着总计&#x200B;**不会**&#x200B;删除重复的量度，如访问次数或访客数。</li><li>**[!UICONTROL Show Grand Total]** - 此设置将显示服务器端总和，这意味着总计将删除重复的量度，如访问次数或访客数。</li></ul> |
+| 划分 | **[!UICONTROL Breakdown by position]**：您可以基于自由格式表中的固定位置执行划分。例如，您可以指定始终对表的头七行进行划分。<br>（以前，划分中的值列表会被“锁定”。这会导致这样一种情况，例如，如果您按页面划分日期，则会得到您选定日期范围内的前 50 页的列表。如果您保存了该报表然后在一个月后运行它，则头 50 页很可能已发生更改。然而，Analysis Workspace 将使用来自原始划分的结果并返回相同页面，但将当前月份作为日期范围。）<br>要执行基于固定位置的划分，请执行以下操作：1. 划分表格中的一些行。2. 单击希望处于固定位置的表格行旁边的“设置”（齿轮）图标。3. 选中按位置划分旁边的复选框。4. 更改排序顺序或日期范围，并注意划分现在已绑定到行位置，而不是硬编码的行。<br>默认情况下处于禁用状态。 |
