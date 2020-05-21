@@ -3,7 +3,7 @@ description: 按照标记、所有者和其他过滤器（全部显示、我的�
 title: 过滤区段
 topic: Segments
 uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
