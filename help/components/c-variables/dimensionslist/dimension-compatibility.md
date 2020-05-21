@@ -1,7 +1,7 @@
 ---
 title: Analytics 维度兼容性
 description: Analytics 维度和报表的参考。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -37,11 +37,11 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 | 自定义链接 | customlink |
 | 首次购买间隔天数 | daysbeforefirstpurchase |
 | 上次购买间隔天数 | dayssincelastpurchase |
-| Domain | filtereddomain |
-| Download Link | downloadlink |
+| 域 | filtereddomain |
+| 下载链接 | downloadlink |
 | 登录页面 | entrypage |
 | 原始登录页面 | entrypageoriginal |
-| Exit Link | exitlink |
+| 退出链接 | exitlink |
 | 首个联系渠道 | firsttouchchannel |
 | 首个联系渠道详细信息 | firsttouchchanneldetail |
 | 已启用 Java | javaenabled |
