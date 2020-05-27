@@ -1,8 +1,11 @@
 ---
 title: 营销渠道详细信息 - 首次联系和最近联系
 description: 将成功量度和收入分配到各种渠道详细信息，而不考虑其所处的整体渠道。
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
+workflow-type: tm+mt
+source-wordcount: '365'
+ht-degree: 100%
 
 ---
 
@@ -32,4 +35,4 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
    * 所有标准电子商务量度：收入、订购、件数、购物车、购物车查看、结账、购物车加货、购物车减货。
    * 所有自定义事件：事件 1-80、事件 81-100（使用 H22 代码或更高版本的代码时）。
    * 访问和访客：其可用性取决于组织和报表包。请联系您的客户经理以了解详细信息。
-   请参阅[!UICONTROL 营销渠道]帮助中的[量度](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-channels-rules.html)。
+   请参阅[!UICONTROL 营销渠道]帮助中的[量度](/help/components/c-marketing-channels/c-rules.md)。
