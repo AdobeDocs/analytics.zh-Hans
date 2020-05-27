@@ -4,8 +4,11 @@ subtopic: Classifications
 title: 分类规则生成器工作流程
 topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
+workflow-type: tm+mt
+source-wordcount: '573'
+ht-degree: 99%
 
 ---
 
@@ -47,6 +50,6 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 **其他资源**
 
-**博客**：如需有关此功能的详细信息，请参阅数字营销博客：[基于规则的分类](https://blogs.adobe.com/digitalmarketing/analytics/rule-based-classifications-part-1-making-classifications-easier/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+AdobeDigitalMarketing+%28Adobe+Digital+Marketing+Blog%29)。
+**博客**：如需有关此功能的详细信息，请参阅数字营销博客：[基于规则的分类](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/)。
 
 **视频**：访问 [YouTube](https://www.youtube.com/watch?v=6laI5SBXY-I)，观看[!UICONTROL 分类概述]视频。
