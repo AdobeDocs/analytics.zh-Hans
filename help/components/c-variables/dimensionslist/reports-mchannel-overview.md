@@ -3,8 +3,11 @@ description: 营销渠道概述报表旨在提供概要性的分析，帮助您�
 title: 营销渠道概述
 topic: Reports
 uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
+workflow-type: tm+mt
+source-wordcount: '502'
+ht-degree: 100%
 
 ---
 
@@ -15,16 +18,16 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ## 常规属性 {#section_87F54048CE5445F7A6C795C7787C530A}
 
-* 此报表完全依赖于营销渠道[处理规则](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-channels-rules.html)。更改这些规则会更改报表中数据的计算方式。
+* 此报表完全依赖于营销渠道[处理规则](/help/components/c-marketing-channels/c-rules.md)。更改这些规则会更改报表中数据的计算方式。
 * 处理规则的顺序对于营销渠道的运行及作用十分重要。针对每次访问，都会先检查处理规则最上方的第一条标准，然后依次向下逐条过滤。
 * 此报表由两部分构成：渠道本身及渠道详细信息。单击每个渠道旁边的“+”按钮可显示其详细信息。
 * 每列只能添加四个量度。但对于您可以使用的列数并无限制。
 * 在最后一列的末尾处可看到一条小的趋势线。该趋势线可以在活动量度之间循环切换。
 * 除了按标准方法收集的多种渠道之外，您还可以使用离线数据源。
-* 可以使用[分类](https://docs.adobe.com/content/help/zh-Hans/analytics/components/classifications/c-classifications.html)来重命名和整合行项目。
+* 可以使用[分类](/help/components/c-classifications2/c-classifications.md)来重命名和整合行项目。
 * 可在此报表中使用以下量度（取决于组织和报表包设置）：
 
-   * **点进次数**：定义 *`s.campaign`* 变量的次数。
+   * ****&#x200B;点进次数：*`s.campaign`* 变量被定义的次数。
    * [新参与](https://docs.adobe.com/content/help/zh-Hans/analytics/components/variables/metrics/metrics-new-engagements.html)：接收到新的“首个联系渠道”的访客人数。
    * 所有标准电子商务量度：收入、订购、件数、购物车、购物车查看、结账、购物车加货、购物车减货。
    * 所有自定义事件：事件 1-80、事件 81-100（使用 H22 代码或更高版本的代码时）。
