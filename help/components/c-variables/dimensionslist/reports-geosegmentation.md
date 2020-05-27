@@ -3,8 +3,11 @@ description: 显示有关访客位置的数据。地域划分报表包括国家�
 title: 地域划分
 topic: Reports
 uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23
-translation-type: ht
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+translation-type: tm+mt
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
+workflow-type: tm+mt
+source-wordcount: '634'
+ht-degree: 99%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 显示有关访客位置的数据。地域划分报表包括国家、地区、城市、美国各州和美国 DMA（数字营销区域）。已为所有客户启用了地域划分报表。
 
-您在“Reports &amp; Analytics”中的其他位置可使用的所有量度会自动包含在“国家”、“地区”、“城市”、“美国各州”和“DMA”报表内：基于转化和访问的量度以及计算量度。有关详细信息，请参阅此 Adobe [博客](https://blogs.adobe.com/digitalmarketing/analytics/introducing-new-metrics-in-geosegmentation-and-more/)文章。
+您在“Reports &amp; Analytics”中的其他位置可使用的所有量度会自动包含在“国家”、“地区”、“城市”、“美国各州”和“DMA”报表内：基于转化和访问的量度以及计算量度。有关详细信息，请参阅此 Adobe [博客](https://theblog.adobe.com/introducing-new-metrics-in-geosegmentation-and-more/)文章。
 
 <table id="table_566CFFC82E1149D8BAFE6641627FCF1F"> 
  <thead> 
