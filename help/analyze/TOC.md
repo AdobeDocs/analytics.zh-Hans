@@ -4,7 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
+workflow-type: tm+mt
+source-wordcount: '1092'
+ht-degree: 98%
 
 ---
 
@@ -73,20 +76,21 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
       + [散点图](analysis-workspace/visualizations/scatterplot.md)
       + [概要数量和概要更改](analysis-workspace/visualizations/summary-number-change.md)
       + [文本](analysis-workspace/visualizations/text.md)
-      + [树图](analysis-workspace/visualizations/treemap.md)
+      + [树形图](analysis-workspace/visualizations/treemap.md)
    + 面板 {#panels}
       + [面板概述](analysis-workspace/c-panels/panels.md)
-      + [空白面板](analysis-workspace/c-panels/blank-panel.md)
-      + [快速洞察构建器](analysis-workspace/c-panels/quickinsight.md)
-      + 归因 {#attribution}
+      + [目标分析(A4T)面板](analysis-workspace/c-panels/a4t-panel.md)
+      + Attribution panel {#attribution}
          + [归因概述](analysis-workspace/c-panels/attribution/attribution.md)
          + [使用“归因”面板](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [归因常见问题解答](analysis-workspace/c-panels/attribution/attribution-faq.md)
-         + [算法归因](analysis-workspace/c-panels/attribution/algorithmic.md)
+         + [算法属性](analysis-workspace/c-panels/attribution/algorithmic.md)
+      + [空白面板](analysis-workspace/c-panels/blank-panel.md)
       + [自由格式面板](analysis-workspace/c-panels/freeform-panel.md)
-      + 区段比较 {#segment-comparison}
-         + [细分比较概述](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-         + [“区段比较”用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
+      + [“快速分析”面板](analysis-workspace/c-panels/quickinsight.md)
+      + Segment comparison panel {#segment-comparison}
+         + [区段比较概述](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+         + [区段比较用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [细分比较中使用的统计测试](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 组织或共享项目 {#curate-share}
       + [组织/共享概述](analysis-workspace/curate-share/curate.md)
@@ -327,10 +331,10 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
    + [时间](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
    + [Labs 概述](tech-previews/overview.md)
-+ Adobe Analytics仪表板 {#mobapp}
++ Adobe Analytics 功能板 {#mobapp}
    + [Adobe Analytics仪表板-概述](mobile-app/home.md)
-   + [策展人指南](mobile-app/curator.md)
-   + [执行用户快速开始指南](mobile-app/executive.md)
+   + [管理人指南](mobile-app/curator.md)
+   + [执行用户快速入门指南](mobile-app/executive.md)
 + 渐进式 Web 应用程序 {#pwa}
    + [渐进式 Web 应用程序](pwa/pwa.md)
 + Analytics 报表 API {#analytics-reporting-api}
