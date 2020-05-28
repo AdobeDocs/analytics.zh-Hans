@@ -1,16 +1,16 @@
 ---
-description: Quick Insights Builder是面向新Workspace用户的工具，可指导他们构建数据表和可视化
-title: 快速分析生成器
+description: Quick Insights是面向新Workspace用户的工具，可指导他们构建数据表和可视化
+title: “快速分析”面板
 translation-type: tm+mt
-source-git-commit: 446026850794e6fba3ccf04562221f2ca907a390
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 3%
+source-wordcount: '1046'
+ht-degree: 2%
 
 ---
 
 
-# 快速分析生成器
+# “快速分析”面板
 
 >[!IMPORTANT]
 >
@@ -97,7 +97,7 @@ Quick Insights Builder中将弹出其 [!UICONTROL 他有用提示]，其中一�
 
 ## 已知限制
 
-如果您尝试直接在表中进行编辑， [!UICONTROL 将导致] “快速分析”面板（填空工具）不同步。 单击面板右上方的“ [!UICONTROL 重新同步] Builder **** ”，可将其恢复为之前的“快速分析”设置。
+如果尝试直接在表中编辑，将导致“快 [!UICONTROL 速分析] ”面板不同步。 单击面板右上方的“ [!UICONTROL 重新同步] Builder **** ”，可将其恢复为之前的“快速分析”设置。
 
 ![](assets/qibuilder9.png)
 
