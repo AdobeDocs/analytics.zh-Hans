@@ -1,18 +1,20 @@
 ---
 description: 'null'
 title: 面板概述
-uuid: 480700e6-332e-44f2-a486-e3d1852cddbc
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
+workflow-type: tm+mt
+source-wordcount: '484'
+ht-degree: 87%
 
 ---
 
 
 # 面板概述
 
-面板是表格和可视化图表的集合。您可以通过工作区左上角的图标访问面板。当您需要根据时间段、业务单位、地理位置等来组织项目时，这些面板将会非常有帮助。Analysis Workspace 中提供了以下四种类型的面板：空白面板、归因、自由格式面板和区段比较。
+面板是表格和可视化图表的集合。您可以通过工作区左上角的图标访问面板。当您需要根据时间段、业务单位、地理位置等来组织项目时，这些面板将会非常有帮助。以下六种面板类型在分析工作区中可用： [空白面板](/help/analyze/analysis-workspace/c-panels/blank-panel.md)、 [快速分析面板](/help/analyze/analysis-workspace/c-panels/quickinsight.md) （即将推出）、Analytics目标 [面板](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) （即将推出）、Analytics面板、 [Freeform面板](/help/analyze/analysis-workspace/c-panels/attribution/attribution.md)[](/help/analyze/analysis-workspace/c-panels/freeform-panel.md)[](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)、、Proferm Panel组和区。
 
-空白面板和自由格式面板是开始进行分析的位置，而归因 IQ 和区段比较则适用于更高级的分析。我们还添加了一个“+”面板按钮，因此您可以随时添加空白面板。
+“快速洞察”、“空白”和“自由形式”面板是开始分析的绝佳场所，而“目标分析”、“归因IQ”和“细分比较”则适合进行更高级的分析。 我们还添加了一个“+”面板按钮，因此您可以随时添加空白面板。
 
 默认的开始面板是自由格式面板，但也可以将[空白面板](/help/analyze/analysis-workspace/c-panels/blank-panel.md)设置为默认的开始面板。
 
@@ -43,7 +45,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/dropdown.png)
 
-1. 从下拉列表中选择一个选项，以更改下面面板中的数据。（您还可以通过选择 **[!UICONTROL No filter]**，不对任何面板数据进行过滤。）
+1. 从下拉列表中选择一个选项，以更改下面面板中的数据。（您还可以通过选择&#x200B;**[!UICONTROL 无过滤器]**，不对任何面板数据进行过滤。）
 1. 例如，如果您还希望按营销渠道对数据进行切片，则可以添加另外一个名为“营销渠道”的下拉列表：
 
    ![](assets/mc_dropdown.png)
