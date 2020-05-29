@@ -5,12 +5,17 @@ title: 完全处理
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 374202983d4d75f785eb7062b88fd5fded2cbb7b
+workflow-type: tm+mt
+source-wordcount: '712'
+ht-degree: 93%
 
 ---
 
 
 # 完全处理
+
+>[!NOTE] Adobe建议客户使 [用批量数据插入API(BDIA](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) )而不是完全处理数据源。 将来将弃用完全处理数据源。
 
 数据源在处理作为标准服务器调用的数据时，支持以下变量（普通 > 完全处理）。
 
@@ -64,7 +69,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
-   <td colname="col3"> <p>事件字符串，使用与 <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a> 变量相同的语法进行格式设置。 </p> <p>例如： </p> 
+   <td colname="col3"> <p>事件字符串，使用与 <a href="https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a> 变量相同的语法进行格式设置。 </p> <p>例如： </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
