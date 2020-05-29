@@ -2,7 +2,7 @@
 description: Quick Insights是面向新Workspace用户的工具，可指导他们构建数据表和可视化
 title: “快速分析”面板
 translation-type: tm+mt
-source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
+source-git-commit: 04a91d3ba2778336a8f32c99604b32d440e41674
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Quick Insights目前]** 处于有限的测试阶段。 [了解更多...](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
+>**[!UICONTROL Quick Insights目前]** 处于有限的测试阶段。 [了解更多](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 [!UICONTROL Quick Insights] 为非分析师和分析工作区新用户提 [!UICONTROL 供指导] ，了解如何快速轻松地回答业务问题。 对于希望快速回答简单问题的高级用户来说，它也是一个不错的工具，无需自己构建表。
 
