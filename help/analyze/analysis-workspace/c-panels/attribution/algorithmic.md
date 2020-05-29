@@ -1,18 +1,20 @@
 ---
-title: 算法归因
+title: 算法属性
 description: 有关Adobe Analytics中算法归因模型的详细信息。
 translation-type: tm+mt
-source-git-commit: ae3fecc4b76badf82a5b161732e380a46bbba298
+source-git-commit: 5c5e442face936ccf1ff2a3d1580e362d42e0acb
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 0%
+source-wordcount: '277'
+ht-degree: 2%
 
 ---
 
 
-# 算法归因
+# 算法属性
 
->[!NOTE] 算法归因目前处于有限测试中。
+>[!IMPORTANT]
+>
+>**[!UICONTROL 算法归因]** 目前处于有限测试中。 [了解更多](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 分析工 [作区中的](attribution.md) Algorithmic attribution模型与其他模型不同之处在于它使用统计技术在报表或自由表格的维度值之间分配信用。 与分析工作区中的所有其他归因模型一样，该模型可用于任何维或度量，并支持无限细分和细分，并将100%的转换分发到表中的维（也称为“分数”归因）。
 
