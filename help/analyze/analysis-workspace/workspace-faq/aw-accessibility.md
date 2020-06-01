@@ -2,9 +2,9 @@
 description: 分析工作区中的辅助功能支持功能
 title: 分析工作区中的辅助功能
 translation-type: tm+mt
-source-git-commit: a1ba6e12eee2b7aae8b6fd977133518db128fa28
+source-git-commit: 67f05736882287231790c03df76e312e59b5afd3
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '521'
 ht-degree: 5%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 可访问性是指使产品可供有视觉、听觉、运动和其他残障人士使用。 软件产品的辅助功能示例包括屏幕阅读器支持、图形的对等文本、键盘快捷键、显示颜色更改为高对比度等。
 
-[!UICONTROL 分析工作区] (Workspace)提供一些使其易于使用的工具，以及帮助您创建辅助内容的工具。
+[!UICONTROL 分析工作区] (Workspace)提供了一些可供用户使用的工具，包括：
 
 ## 使用 [!UICONTROL 键盘] ，在Workspace中导航
 
@@ -60,7 +60,7 @@ ht-degree: 5%
 | Ctrl + Shift + D | 新日期范围 |
 | Ctrl + Shift + E | 新细分 |
 | Ctrl + Z | 撤消 |
-| 按住Shift键（在面板段拖放区中） | 创建下拉 [筛选器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)。 |
+| 按住Shift键（在面板段拖放区中） | 创建下拉 [筛选器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) |
 
 #### 民主化
 
