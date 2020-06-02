@@ -1,15 +1,16 @@
 ---
 title: 设置跨设备分析
 description: 了解在满足先决条件后，如何设置跨设备分析。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: d847fb9dc1427727a0162be993ddc4a73c52f192
+workflow-type: tm+mt
+source-wordcount: '827'
+ht-degree: 100%
 
 ---
 
 
 # 设置跨设备分析
-
->[!NOTE] 随着功能的进一步开发，跨设备分析文档可能会发生更改。请定期查看以获取最新信息。
 
 在满足所有先决条件后，请通过以下步骤启用跨设备分析。您必须是产品配置文件管理员组的一员，或者拥有 Adobe Analytics 管理员权限，才能执行这些步骤。
 
