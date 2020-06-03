@@ -2,9 +2,9 @@
 description: 分析工作区中的辅助功能支持功能
 title: 分析工作区中的辅助功能
 translation-type: tm+mt
-source-git-commit: 67f05736882287231790c03df76e312e59b5afd3
+source-git-commit: 4dd0710454a29faadb197d97e58394c753cec0ec
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '553'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 5%
 * 键在 `Tab` 各个元素之间移动。
 * 我们应用焦点指示器，以便视力正常的键盘用户能够清楚地指示当前具有焦点的UI元素。 指示器是选定元素周围的蓝色边框。
 
-   ![](assets/focus-indicator.png)
+   ![焦点指示器](assets/focus-indicator.png)
 
 ### 拖放交互的键盘导航
 
@@ -75,11 +75,11 @@ ht-degree: 5%
 
 ## 支持屏幕阅读器和屏幕放大器
 
-屏幕阅读器会收集显示在计算机屏幕上的文本。 它还读取非文本信息，如应用程序中的按钮标签或图像描述，这些信息在辅助工具标签或属性中提供。
+屏幕阅读器读取显示在计算机屏幕上的文本。 它还读取非文本信息，如应用程序中的按钮标签或图像描述，这些信息在辅助工具标签或属性中提供。
 
 ## 调色板和对比度
 
-[!UICONTROL 分析工作区] 致力于符合WCAG AA的颜色对比度。
+[!UICONTROL 分析Workspace] 致力于符合WCAG 2.1 AA，包括对颜色对比度的要求。
 
 此外，用户还可以在“项目”>“项目设置”>“项目”调色板下 **[!UICONTROL 为项目]****[!UICONTROL 设置自己]** 的首选 [调色板](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html)。
 
@@ -89,8 +89,8 @@ ht-degree: 5%
 
 完全验证组件后，按 `Save` 关闭生成器。
 
-![](assets/error-validation.png)
+![错误验证](assets/error-validation.png)
 
 ## 支持操作系统辅助功能
 
-分析工作区支持内置的MS Windows和macOS辅助功能，如高对比度模式和屏幕阅读器（MS Windows的Narrator和macOS的VoiceOver）。
+分析工作区支持内置的MS Windows和macOS辅助功能，如高对比度模式、粘性键和慢速键／滤镜键。 它还向操作系统提供有关用户界面的信息，以支持与辅助技术的交互，这些辅助技术包括适用于macOS的VoiceOver和Windows上的NVDA等屏幕阅读器。
