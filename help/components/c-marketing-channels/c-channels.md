@@ -4,8 +4,11 @@ subtopic: Marketing channels
 title: 管理营销渠道
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: 45c441a558168cb2af70855e848e1eaa26db8daa
+workflow-type: tm+mt
+source-wordcount: '789'
+ht-degree: 86%
 
 ---
 
@@ -14,12 +17,28 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 在营销渠道管理器中添加或启用营销渠道。对于没有营销渠道的报表包，自动设置让您可以创建多个渠道及渠道规则。您可以编辑预定义渠道以满足您的需求，或创建您自己的渠道（最多 25 个）。
 
+将渠道添加到[!UICONTROL “营销渠道”]页面与在[“营销渠道处理规则”](/help/components/c-marketing-channels/c-rules.md)页面上创建规则是两项不同的操作。创建规则时，您应将规则和渠道相关联。
+
 以下是创建渠道的一些指示：
 
 * 通过列出所有渠道进行预先计划，以便将所有访客点击划分到正确的渠道。
-* 始终包括[内部](/help/components/c-marketing-channels/c-faq.md)点击和[直接](/help/components/c-marketing-channels/c-faq.md)点击类别的渠道。
+* Include channels for the categories of [Internal](/help/components/c-marketing-channels/c-rules.md) hits and [Direct](/help/components/c-marketing-channels/c-rules.md) hits.
+* 包括一个全能型“其他活动”渠道，在付费渠道之后和有机渠道之前放置。
 
-将渠道添加到[!UICONTROL “营销渠道”]页面与在[“营销渠道处理规则”](/help/components/c-marketing-channels/c-rules.md)页面上创建规则是两项不同的操作。创建规则时，您应将规则和渠道相关联。
+
+## 先决条件 {#prereqs}
+
+如有必要，请联系客户支持来帮助您实现这些先决条件：
+
+* 在“管理控制台”（“一般帐户设置”）中，启用报表包的&#x200B;**[!UICONTROL 转化级别]**（电子商务）选项。
+
+   有关详细信息，请参阅 Analytics 帮助中的[一般帐户设置](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/general-acct-settings-admin.html)。
+
+* 设置对营销渠道维度的访问权限。
+
+   请参阅[营销渠道权限](/help/components/c-marketing-channels/c-channel-report-access.md)。
+
+* 确保您的帐户管理员已经为您的报表包启用 了&#x200B;**[!UICONTROL 渠道报表]**。
 
 ## 添加营销渠道 {#add-mktg-channels}
 
@@ -47,54 +66,34 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    请参阅[创建营销渠道处理规则](/help/components/c-marketing-channels/c-rules.md)。
 
-## 营销渠道管理器 - 界面定义 {#mktg-channel-mgr}
+## 应用渠道设置 {#mktg-channel-mgr}
 
-[!UICONTROL “营销渠道管理器”]页面的字段定义。
+有各种设置可应用于“营销渠道管理器”页面 [!UICONTROL 上的每个渠道] 。
 
 | 字段 | 定义 |
 |--- |--- |
-| 启用 | 启用或禁用此营销渠道。 |
+| 已启用 | 启用或禁用此营销渠道。 |
 | 渠道名称 | 营销渠道的易记名称。 |
 | 覆盖最近联系渠道 | 您可以选择是否用所选渠道覆盖现有持续的最近联系渠道。如果选中此复选框，任何渠道（包括直接和内部）都将会覆盖现有的最近联系渠道。结果会导致对不该取得信用的渠道进行转换。例如，如果用户此前已经通过免费搜索渠道取得信用，则此选项可以确保直接渠道不会接收用于转换的信用。 |
 | 渠道划分 | 允许您使用该值划分渠道。创建[营销渠道分类时](/help/components/c-marketing-channels/classifictions-mchannel.md)，您可以添加可能的渠道划分（子渠道）。 |
 | 类型 | 指定用户访问您网站的途径。您可以选择在线或离线。对于通过搜索引擎或电子邮件促销活动来访的访客，使用“在线”渠道。“离线”渠道适用于通过报纸优惠券或杂志广告发现您网站的访客。离线渠道通常包括通过报表数据源导入的数据。请参阅[数据源](https://docs.adobe.com/content/help/zh-Hans/analytics/import/data-sources/datasrc-home.html)。请参阅[添加离线数据](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。 |
-| 颜色 | 与此营销渠道关联的颜色。此颜色代表营销渠道报表中的渠道。 |
+| Color（颜色） | 仅限Reports &amp; Analytics: 与此营销渠道关联的颜色。 此颜色代表营销渠道报表中的渠道。 |
 
-## 定义渠道
+### 覆盖最佳实践
 
-先创建渠道和用于处理数据的基础规则，然后渠道和渠道数据才能显示在报表中。您还可以创建相关渠道的成本和预算金额，并指定您希望访客参与时间持续多久。在“管理工具”中执行报表配置任务。
+最好取消选中“直接”和“内部”渠道的覆盖最近联系选项，以便这些渠道不能从其他持久保留的最近联系渠道获得点数（或相互获得点数）。
 
-渠道可以看作是一个收集访问的容器。规则把访问分配到正确的容器中。
+![](assets/int-channel2.png)
 
-![](assets/buckets_2.png)
+## 定义渠道规则
 
-Adobe 在[自动设置](/help/components/c-marketing-channels/c-getting-started-mchannel.md)过程中提供了多个预定义渠道，您可以根据自己的需要对这些渠道进行编辑。
+先创建渠道和用于处理数据的基础规则，然后渠道和渠道数据才能显示在报表中。您还可以指定访客参与期 [限的持](/help/components/c-marketing-channels/visitor-engagement.md) 续时间。
+
+Adobe在自动设置过程中提供了多 [个预定义渠道](/help/components/c-marketing-channels/c-getting-started-mchannel.md) ，您可以根据自己的需要进行编辑。 此外，您可以修改此设置并在营销渠道处理规则 [中定义自定义规则](/help/components/c-marketing-channels/c-rules.md)。
 
 >[!NOTE]
 >
 >Adobe 建议您在可作为测试用模板的报表包中设置报表。您可以使用该模板将这些渠道和规则集全局应用到一个或多个生产报表包中。
 >
 >请参阅[将模板报表包设置应用于多个报表包](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
-
-### 先决条件 {#prereqs}
-
-如有必要，请联系客户支持来帮助您实现这些先决条件：
-
-* 在“管理控制台”（“一般帐户设置”）中，启用报表包的&#x200B;**[!UICONTROL 转化级别]**（电子商务）选项。
-
-   有关详细信息，请参阅 Analytics 帮助中的[一般帐户设置](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/general-acct-settings-admin.html)。
-
-* 设置对营销渠道维度的访问权限。
-
-   请参阅[营销渠道权限](/help/components/c-marketing-channels/c-channel-report-access.md)。
-
-* 确保您的帐户管理员已经为您的报表包启用 了&#x200B;**[!UICONTROL 渠道报表]**。
-
-### 重要的处理说明 {#important-proc-rules}
-
-* 系统会按您指定的顺序处理规则，当一个规则得到满足时，系统会停止处理剩余规则。
-* 规则可以访问已由 VISTA 设置的变量，但不能访问已被 VISTA 删除的数据。
-* 渠道只存储转化量度。流量量度不可用。
-* 两个营销渠道从不会接收相同事件的信用，如购买或点击次数。在这方面，营销渠道不同于 eVar（两个 eVar 可能会接收相同事件的信用）。
-* 该报表一次最多可处理 25 个渠道。
 
