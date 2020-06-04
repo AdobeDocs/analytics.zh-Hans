@@ -2,9 +2,9 @@
 description: 分析工作区中的辅助功能支持功能
 title: 分析工作区中的辅助功能
 translation-type: tm+mt
-source-git-commit: 4dd0710454a29faadb197d97e58394c753cec0ec
+source-git-commit: a8fa30ecd8f3f230dac98a6f69ff6334d996fb9c
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '554'
 ht-degree: 5%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 了解分析工作区(Adobe Analytics的 [!UICONTROL 首要分析工具])中的辅助功能支持。
 
-可访问性是指使产品可供有视觉、听觉、运动和其他残障人士使用。 软件产品的辅助功能示例包括屏幕阅读器支持、图形的对等文本、键盘快捷键、显示颜色更改为高对比度等。
+可访问性是指使产品可用于患有视觉、听觉、认知、运动和其他残疾的人。 软件产品的辅助功能示例包括屏幕阅读器支持、图形的对等文本、键盘快捷键、显示颜色更改为高对比度等。
 
 [!UICONTROL 分析工作区] (Workspace)提供了一些可供用户使用的工具，包括：
 
