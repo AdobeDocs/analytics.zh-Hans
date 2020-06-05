@@ -3,8 +3,11 @@ description: 区段生成器提供了一个画布以将量度维度、区段和�
 title: 生成区段
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: f50f33b456656200b4492e6fec2a441d4c29dfa3
+workflow-type: tm+mt
+source-wordcount: '2436'
+ht-degree: 100%
 
 ---
 
@@ -58,10 +61,11 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
    * **[!UICONTROL 重复]**（默认）：包含维度的实例和持久值。
    * **[!UICONTROL 实例]**：包含维度的实例。
    * **[!UICONTROL 非重复实例]**：包含维度的唯一实例（非重复）。
+
    ![](assets/attribution-models.jpg)
 
-1. **[!UICONTROL 维度]**：从维度列表中拖放的维度（橙色侧栏）。
 1. **[!UICONTROL 比较]**：您可以使用选定的运算符比较和约束值。
+1. **[!UICONTROL 维度]**：从维度列表中拖放的维度（橙色侧栏）。
 1. **[!UICONTROL 值]**：为维度、区段或量度输入或选择的值。
 1. **[!UICONTROL And/Or/Then]**：在容器或规则之间分配 [!UICONTROL AND/OR/THEN] 运算符。通过使用 THEN 运算符，您可以[定义顺序区段](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)。
 1. **[!UICONTROL 量度]**：（绿色侧栏）从量度列表中拖放的量度。
