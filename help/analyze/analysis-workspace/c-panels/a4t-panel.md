@@ -2,10 +2,10 @@
 description: 利用“目标分析(A4T)”面板，您可以分析Adobe目标活动和分析工作区中的体验。
 title: 目标分析(A4T)面板
 translation-type: tm+mt
-source-git-commit: 516557c04acbc7300925ed3d13ac3c087f3ed3de
+source-git-commit: 354bc118c869bd926a1cef0a75f5133d1a410cd5
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 14%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 目标面板分析]** 当前处于有限测试中。 [了解更多](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
+>**[!UICONTROL 目标(A4T)面板分析]** 当前处于有限测试中。 [了解更多](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 通过“目标分析(A4T)”面板，您可以分析Adobe目标活动和分析工作区中的体验。 它还使您能够看到3个成功指标的提升和信心。 要访问A4T面板，请导航到启用了A4T组件的报表包。 然后，单击最左侧的面板图标，将“目标分析”面板拖入分析工作区项目。
 
