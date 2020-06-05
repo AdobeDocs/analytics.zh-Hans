@@ -1,9 +1,11 @@
 ---
 description: 跟踪功能可确定您的 Adobe Analytics 实施如何对搜索引擎数据进行跟踪。这是向 Adobe Analytics 数据适当增加搜索引擎数据的必要步骤。
 title: 跟踪  手动模式和自动模式
-uuid: c6ce7901-7b65-48b6-b65f-f29cc47b7454
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: b92beee43756a3c5ec3902eee4ffaab0bcd43ce9
+workflow-type: tm+mt
+source-wordcount: '595'
+ht-degree: 90%
 
 ---
 
@@ -20,11 +22,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 因此，选择自动模式时需要选中确认复选框，然后才能保存帐户设置。
 
-
 请注意，要在“自动模式”下配置搜索引擎帐户，您需要执行以下操作：
 
-* 将“s_kwcid”参数和值添加到要添加帐户的帐户跟踪模板或登陆页面 URL 中。该参数和值将插入到 URL 的末尾。如果您的 Web 服务器要求在 URL 末尾使用特定的键值对，或者需要更新以支持 URL 中的任何新键值对，则可能需要执行其他操作。**您有责任确保添加的 URL 参数能够正确保持到最终登陆页面。**
-* 此外，可以将关键字作为“s_kwcid”值的一部分插入到登陆 URL 中。如果它们包含特殊字符或符号，请确认您的 Web 服务器可以支持这些字符。示例：常见的特殊字符是“+”，用于“修改广泛匹配”关键字。
+* The `s_kwcid` parameter and value will be added to the account tracking templates or landing page URLs in the account being added. 该参数和值将插入到 URL 的末尾。如果您的 Web 服务器要求在 URL 末尾使用特定的键值对，或者需要更新以支持 URL 中的任何新键值对，则可能需要执行其他操作。**您有责任确保添加的 URL 参数能够正确保持到最终登陆页面。**
+* In addition, keywords can be inserted into the landing URL as part of the `s_kwcid` value. 如果它们包含特殊字符或符号，请确认您的 Web 服务器可以支持这些字符。示例：常见的特殊字符是“+”，用于“修改广泛匹配”关键字。
+
+>[!IMPORTANT]
+>
+>进一步了解是否应将该参 `s_kwcid` 数添加到 [内容安全策略](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html)。
 
 ## 手动跟踪模式 {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
