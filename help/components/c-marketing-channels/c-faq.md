@@ -1,13 +1,16 @@
 ---
 description: 了解如何填充为营销渠道设置的不同规则的最佳实践和相关示例。
-title: 营销渠道常见问题解答和示例
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+title: 营销渠道常见问题解答
+translation-type: tm+mt
+source-git-commit: d26edeed2f8d2c78c6e8cddaf8973870372a8b3d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 营销渠道常见问题解答和示例
+# 营销渠道常见问题解答
 
 请参阅[创建营销渠道处理规则](/help/components/c-marketing-channels/c-rules.md)，以了解“[!UICONTROL 营销渠道处理规则]”页面中显示的字段定义。
 
@@ -54,7 +57,15 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 最后，创建一个捕捉剩余点击的&#x200B;*其他*&#x200B;渠道，如[未识别渠道](/help/components/c-marketing-channels/c-faq.md#no-channel-identified)中所述。
 
-## 未识别渠道 {#no-channel-identified}
+## 首次联系与最近联系之间的关系
+
+要了解旧版首次触摸维与上次触摸维之间的交互情况，并确认覆盖功能可以按预期方式工作，您可以拉取与上次触摸渠道报表相关的首次触摸渠道报表，其中添加了关键成功量度（请参阅下面的示例）。 该示例展示了首次联系与最近联系渠道之间的交互情况。
+
+![](assets/int-channel3.png)
+
+第一个等于最后一次触摸的交点是表的对角线。 直接和会话刷新仅在它们也是首次接触渠道时获得最近接触积分，因为它们不能从其他持续渠道（突出显示的行）获得积分。
+
+## 未识别渠道的原因 {#no-channel-identified}
 
 当您的规则没有捕获数据时，或者如果规则配置不正确，报表的[!UICONTROL “未识别渠道”]行中会显示数据。例如，您可以在处理顺序的结尾创建一个名为&#x200B;*其他*&#x200B;的规则集，以识别内部流量。
 
@@ -64,65 +75,31 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!NOTE] 仍可能会有一些渠道流量被列入“未识别渠道”类别。例如：访客访问该网站并将某个页面添加为书签，并且在同一次访问中通过书签返回到该页面。由于这不是访问的第一个页面，而且没有反向链接域，因此它既不会被列入“直接”渠道，也不会被列入“其他”渠道。
 
-## 付费搜索 {#paid-search}
+## 内部（会话刷新）的原因 {#internal}
 
-付费搜索是指您向搜索引擎支付一定费用，以让某个单词或短语出现在搜索结果中。为了匹配付费搜索检测规则，营销渠道使用[!UICONTROL “付费搜索检测”]页面上配置的设置。（**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 常规]** > **[!UICONTROL 付费搜索检测]**）。目标 URL 匹配该搜索引擎的现有付费搜索检测规则。
+仅当还是首次触摸时，才能进行上次触摸会话刷新——请参阅上面的“首次触摸与上次触摸之间的关系”。 以下场景说明了会话刷新如何成为首次接触渠道。
 
-对于营销渠道规则，[!UICONTROL “付费搜索”]设置如下：
+**场景 1：会话超时**
 
-![](assets/example_paid_search.png)
+访客访问网站，然后在浏览器中保持打开选项卡，以备日后使用。访客的参与期到期（或访客主动删除其 Cookie），他们使用打开的选项卡再次访问网站。由于反向链接 URL 是内部域，访问将被分类为“会话刷新”。
 
-有关详细信息，请参阅管理员中的[付费搜索检测](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)。
+**场景 2：并非所有网站页面都已标记**
 
-## 免费搜索 {#natural-search}
+访客登陆未标记的页面 A，然后移至已标记的页面 B。页面 A 将被视为内部反向链接，并且该访问将被分类为“会话刷新”。
 
-免费搜索是指，在您无需为您的网站排名向搜索引擎支付费用的情况下，访客就能通过网络搜索找到您的网站。您可以控制搜索引擎用于链接到网站的目标 URL。分析可使用此 URL 来确定搜索是否为免费搜索。
+**场景 3：重定向**
 
-分析没有免费搜索检测的功能。在设置了“付费搜索检测”之后，系统可以推断出如果一个搜索反向链接不是付费的，则它必然是免费搜索反向链接。对于免费搜索，目标 URL 与该搜索引擎的现有付费搜索检测规则不匹配。
+如果未将重定向设置为将反向链接数据传递到新登陆页面，则真正的登入反向链接数据将会丢失，并且此时重定向页面（可能是内部页面）将显示为反向链接域。该访问将被分类为“会话刷新”。
 
-对于营销渠道规则，“免费搜索”设置如下：
+**场景 4：跨域流量**
 
-![](assets/example_natural_search.png)
+访客从一个触发包 A 的域移动到另一个触发包 B 的域。如果在包 B 中，内部 URL 过滤器包括第一个域，则包 B 中的访问将被记录为内部访问，因为营销渠道将其视为第二个包中的新访问。该访问将被分类为“会话刷新”。
 
-有关详细信息，请参阅管理员中的[付费搜索检测](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)。
+**场景 5：登入页面加载时间较长**
 
-## 附属活动 {#afilliates}
+访客登陆具有大量内容的页面 A，且 Adobe Analytics 代码位于页面底部。在加载所有内容（包括 Adobe Analytics 图像请求）之前，访客单击了页面 B。页面 B 触发其 Adobe Analytics 图像请求。由于页面 A 的图像请求从未加载，因此在 Adobe Analytics 中，第二个页面将显示为访问的首次点击，而页面 A 将作为反向链接。该访问将被分类为“会话刷新”。
 
-附属活动规则识别来自一组指定反向链接域的访客。在规则中，您需要按如下所示列出要跟踪的附属活动域：
+**场景 6：在访问网站期间清除 Cookie**
 
-![](assets/example_affiliates.png)
-
-## 社交网站 {#social-networks}
-
-这项规则识别来自 Facebook* 等社交网络的访客。其设置如下所示：
-
-![](assets/example_social.png)
-
-## 显示 {#display}
-
-这项规则识别来自横幅广告的访客。它是由目标 URL 中的查询字符串参数标识的，在此例中为 *`Ad_01`*。
-
-![](assets/example_display.png)
-
-## 内部 {#internal}
-
-这项规则识别来自与报表包内部 URL 筛选器相匹配的反向链接的访客。
-
-![](assets/example_internal.png)
-
-## 电子邮件 {#email}
-
-要设置该规则，您要为您的电子邮件促销活动提供查询字符串参数。在此示例中，该参数为 *`eml`*：
-
-![](assets/example_email.png)
-
-如果规则中包含“跟踪代码”，请在每行输入一个值，如此处所示：
-
-![](assets/tracking_code.png)
-
-## 直接 {#direct}
-
-这项规则识别没有反向链接域的访客。这项规则包括直接进入您网站的访客，如从“收藏夹”链接进入或通过将链接粘贴到浏览器中进入的访客。
-
-![](assets/example_direct.png)
+访客访问网站，并在会话期间清除了其 Cookie。此时，首次联系和最近联系渠道都将重置，并且访问将被分类为“会话刷新”（因为反向链接将是内部链接）。
 
