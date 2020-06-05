@@ -2,7 +2,10 @@
 title: 设置广告帐户
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 0345a71bd2dd99410658cc858fe05ee2751d0013
+workflow-type: tm+mt
+source-wordcount: '851'
+ht-degree: 81%
 
 ---
 
@@ -15,14 +18,14 @@ Adobe Analytics 管理员可以创建新的广告帐户，并将多个帐户映�
 
 ![](assets/aa_accounts.png)
 
-1. 在Adobe Analytics中，导航到 **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]**。
+1. 在 Adobe Analytics 中，导航到&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 广告帐户]**。
 1. （仅限首次使用）接受最终用户许可协议的条款。
-1. 单击 **[!UICONTROL + Add]**.
-1. 此时 [!UICONTROL New Search Engine Account] 将显示对话框：
+1. 单击 **[!UICONTROL + 添加]**。
+1. 显示[!UICONTROL 新搜索引擎帐户]对话框：
 
    ![](assets/aa_new_se_account.png)
 
-1. 请填写以 **[!UICONTROL Search Engine Settings]** 下准则：
+1. 按照以下说明填写&#x200B;**[!UICONTROL 搜索引擎设置]**：
 
    <table id="table_B3BE66B7D4C54766B8FFD2C6DCD657AF"> 
     <thead> 
@@ -54,38 +57,19 @@ Adobe Analytics 管理员可以创建新的广告帐户，并将多个帐户映�
     </tbody> 
     </table>
 
-1. In the **[!UICONTROL Tracking]** section, you provide information on how the Search Engine data is tracked by your Adobe Analytics implementation. 这是向 Adobe Analytics 数据适当增加搜索引擎数据的必要步骤。请填写以 **[!UICONTROL Tracking Settings]** 下准则：
+1. 在&#x200B;**[!UICONTROL 跟踪]**&#x200B;部分中，您提供的是有关您的 Adobe Analytics 实施如何对搜索引擎数据进行跟踪的信息。这是向 Adobe Analytics 数据适当增加搜索引擎数据的必要步骤。按照以下说明填写&#x200B;**[!UICONTROL 跟踪设置]**：
 
-   <table id="table_1AB4E31456E84ABF8209B02058259C4D"> 
-    <thead> 
-      <tr> 
-      <th colname="col1" class="entry"> 设置 </th> 
-      <th colname="col2" class="entry"> 描述 </th> 
-      </tr>
-    </thead>
-    <tbody> 
-      <tr> 
-      <td colname="col1"> <p>类型 </p> </td> 
-      <td colname="col2"> 
-        <ul id="ul_1C5A0502A4984E57A08417A91CCD6FFE"> 
-        <li id="li_5736E38286FF494ABDDC6E85281D7F2A"> <span class="uicontrol">自动</span>：让 Advertising Cloud 引擎自行决定如何将跟踪参数附加到搜索引擎的跟踪模板/目标 URL。这种方法最简单，但可能不会生成最佳的集成数据集。 <p>重要信息：要在“自动模式”下配置搜索引擎帐户，您需要执行以下操作： 
-          <ul id="ul_4FF9D1E3CC4E452BA339E0A725D29FEE"> 
-            <li id="li_6F3A6D6259C0420CB7E6FD2C26A1B6E0">将“s_kwcid”参数和值添加到要添加帐户的帐户跟踪模板或登陆页面 URL 中。该参数和值将插入到 URL 的末尾。因此，如果您的 Web 服务器要求在 URL 末尾使用特定的键值对，或者需要更新以支持 URL 中的任何新键值对，则可能需要执行其他操作。 </li> 
-            <li id="li_A04D4AA31A934392808639E46C86573F">此外，可以将关键字作为“s_kwcid”值的一部分插入到登陆 URL 中，因此如果它们包含特殊字符或符号，请确认您的 Web 服务器可以支持这些字符（例如，常见特殊字符“+”，用于“修改广泛匹配”关键字）。 </li> 
-          </ul> </p> </li> 
-        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol">手动</span>：让您管理如何将跟踪参数添加到搜索引擎的跟踪模板/目标 URL。<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md"  >请参考每个搜索引擎的手动跟踪示例</a>。 </li> 
-        </ul> </td> 
-      </tr> 
-    </tbody> 
-    </table>
+   | 设置 | 描述 |
+   |--- |--- |
+   | 类型 | <ul><li>**自动：** 允许Advertising Cloud引擎决定如何将跟踪参数附加到搜索引擎的跟踪模板／目标URL。 这种方法最简单，但可能不会生成最佳的集成数据集。<br>**重要：**要在“自动模式”中配置搜索引擎帐户，您负责执行以下操作<br>:-“s_kwcid”参数和值将添加到要添加的帐户中的帐户跟踪模板或登陆页URL。 该参数和值将插入到 URL 的末尾。因此，如果您的 Web 服务器要求在 URL 末尾使用特定的键值对，或者需要更新以支持 URL 中的任何新键值对，则可能需要执行其他操作。**&#x200B;注意：**进一步了解是否应将此参数添加到“内容安[全策略”](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html)。<br>-此外，可将关键字作为“s_kwcid”值的一部分插入登录URL，因此，如果它们包含特殊字符或符号，请确认Web服务器可支持这些字符（常用特殊字符的示例为“广泛匹配已修改”关键字中使用的“+”）。</li><li>**手动：** 用于管理如何将跟踪参数添加到搜索引擎的跟踪模板／目标URL。 [请参考每个搜索引擎的手动跟踪示例](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md)。</li></ul> |
 
-1. In the **[!UICONTROL Mapping]** section, you choose which report suite(s) to link to this search engine account. 您必须先提供至少一个报表包，然后才能保存广告帐户。您可以将多个帐户映射到多个报表包（一对一、一对多、多对多）。请注意，AMO 从搜索引擎提取的数据只是简单地复制到所有映射的报表包中，因此不会出现拆分数据的情况。
+1. 在&#x200B;**[!UICONTROL 映射]**&#x200B;部分，您可以选择链接到此搜索引擎帐户的报表包。您必须先提供至少一个报表包，然后才能保存广告帐户。您可以将多个帐户映射到多个报表包（一对一、一对多、多对多）。请注意，AMO 从搜索引擎提取的数据只是简单地复制到所有映射的报表包中，因此不会出现拆分数据的情况。
 
    >[!IMPORTANT]
    >
    >只有已经[映射到 Experience Cloud 组织](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/about-core-services/report-suite-mapping.html)的报表包才可供选择。如果在列出的报表包中未看到您的报表包，请参阅 [Advertising Analytics 疑难解答](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)。
 
-   根据以 **[!UICONTROL Mapping Settings]** 下准则：
+   对于&#x200B;**[!UICONTROL 映射设置]**，请遵循以下说明：
 
    <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
     <thead> 
@@ -102,8 +86,8 @@ Adobe Analytics 管理员可以创建新的广告帐户，并将多个帐户映�
     </tbody> 
     </table>
 
-1. 单击 **[!UICONTROL Save]**.
-1. 保存之后，会显示免责声明列出一系列注意事项。您需要确认您已经阅读并理解这份协议。Click the checkbox, then click **[!UICONTROL OK]**.
+1. 单击&#x200B;**[!UICONTROL 保存]**。
+1. 保存之后，会显示免责声明列出一系列注意事项。您需要确认您已经阅读并理解这份协议。单击复选框，然后单击&#x200B;**[!UICONTROL 确定]**。
 
    现在，您会进入广告帐户[管理 UI](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)，您新创建的帐户应已列于此处。
 
