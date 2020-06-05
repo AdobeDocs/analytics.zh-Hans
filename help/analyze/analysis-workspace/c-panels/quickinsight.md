@@ -2,9 +2,9 @@
 description: Quick Insights是面向新Workspace用户的工具，可指导他们构建数据表和可视化
 title: “快速分析”面板
 translation-type: tm+mt
-source-git-commit: 04a91d3ba2778336a8f32c99604b32d440e41674
+source-git-commit: 354bc118c869bd926a1cef0a75f5133d1a410cd5
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1047'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Quick Insights目前]** 处于有限的测试阶段。 [了解更多](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
+>**[!UICONTROL “快速分析]** ”面板当前处于有限测试中。 [了解更多](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 [!UICONTROL Quick Insights] 为非分析师和分析工作区新用户提 [!UICONTROL 供指导] ，了解如何快速轻松地回答业务问题。 对于希望快速回答简单问题的高级用户来说，它也是一个不错的工具，无需自己构建表。
 
@@ -64,6 +64,7 @@ ht-degree: 2%
 1. 添加至少一个维和一个度量后，将为您创建以下内容：
 
    * 一个自由形式表，其顶部为垂直尺寸（此处为美国州）和水平度量（此处为访问量）。 请查看此表：
+
    ![](assets/qibuilder3.png)
 
    * 随附的可视化，本例为条 [形图](/help/analyze/analysis-workspace/visualizations/bar.md)。 生成的可视化基于您添加到表中的数据类型。 任何基于时间的数据( [!UICONTROL 如每] 天／月的访问量)均默认为 [!UICONTROL 折线图] 。 任何非基于时间的数据(如每 [!UICONTROL 台设][!UICONTROL 备的访]问 [!UICONTROL 次数] )均默认为条形图。 您可以通过单击可视化类型旁边的下拉箭头来更改可视化类型。
