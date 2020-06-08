@@ -3,7 +3,10 @@ description: 本帮助页面包含每个 Adobe Analytics 工具的推荐使用�
 title: 我应该使用哪种 Adobe Analytics 工具？
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: 8e8eb2c7787f97104c983cc4b0f11e5ed57de069
+workflow-type: tm+mt
+source-wordcount: '1093'
+ht-degree: 100%
 
 ---
 
@@ -21,22 +24,12 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 **[Reports &amp; Analytics](/help/analyze/reports-analytics/overview/report-overview.md)**的使用说明：
 
 * 适用于需要访问更易导航的预构建报表的初学用户。
-* 用于了解 Target 活动 (Analytics for Target/A4T) 的提升度和置信度。
 * 用于访问 UI 中的实时数据。
 * 用于设置日历事件。
 * 用于设置目标。
 * 用于查看机器人报表。
 * 用于访问独特的视频数据（包括并行查看者、视频时段和视频查看者退出率）的可视化图表。
 * 用于在计划报表中使用“发布列表”功能。
-
-**[Mobile Services UI](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html)**的使用说明：
-
-* 适用于需要只查看移动设备应用程序数据的情况。
-* 用于管理移动设备应用程序 SDK 的实施。
-* 用于设置移动设备广告，例如应用程序内消息、推送消息和位置定位。
-* 适用于应用程序数据 (Sunburst) 需要更多交互可视化的情况。
-* 用于可视化地图上的目标点。
-* 适用于存留期值量度。
 
 **[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)**的使用说明：
 
@@ -118,7 +111,7 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 * **经过完全处理**：适用于您需要功能丰富的数据（包括访问量、访客量和区段）的情况。这是典型的 Analytics UI 汇总数据，有效期约为 30-90 分钟。可以通过 Report Builder 使用。
 * **实时**：适用于要延迟几秒查看若干量度和维度的情况。这是经过部分处理的有限汇总数据，有效期约为 30 秒。其中包含最受欢迎、获胜方和失败方的独特算法。可以通过 Report Builder 使用。
-* **[!UICONTROL Live Stream]**: 当您希望在收集后数秒内获得经过部分处理的命中级别分析数据流时。 这是经过部分处理的数据，有效时间在大约 30 秒之内。仅适用于 Analytics Premium。要求通过某种方式显示数据，通常是通过参与工程技术服务。
+* **[!UICONTROL 实时流]**：适用于要在几秒内收集经过部分处理的点击级别的 Analytics 数据流。这是经过部分处理的数据，有效时间在大约 30 秒之内。仅适用于 Analytics Premium。要求通过某种方式显示数据，通常是通过参与工程技术服务。
 
 ## 自定义解决方案 {#section_4A212F26A15947599DFB0399A0440CB6}
 
@@ -131,4 +124,4 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 * 拥有多个数据源。
 * 您的数据 ETL（提取-转换-加载）要求十分复杂。
 * 希望自定义品牌。
-* You want to visualize [!UICONTROL Analytics Live Stream].
+* 希望可视化 [!UICONTROL Analytics 实时流]。
