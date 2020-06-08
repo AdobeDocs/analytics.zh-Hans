@@ -2,7 +2,7 @@
 title: 营销渠道的处理规则
 description: 营销渠道处理规则决定访客点击是否符合分配到渠道的标准。这些规则处理访客在网站上的每次点击。当规则不符合渠道标准时，或者如果规则配置不正确，系统会将该点击分配到“未识别渠道”。
 translation-type: tm+mt
-source-git-commit: acdaebf3c96d7cf1f0e5fed4a459968a83c89fbd
+source-git-commit: 8e8eb2c7787f97104c983cc4b0f11e5ed57de069
 workflow-type: tm+mt
 source-wordcount: '2048'
 ht-degree: 75%
@@ -150,6 +150,8 @@ ht-degree: 75%
 
 最佳实践是纳入“其他活动”渠道，遵守所有付费渠道规则。 此渠道充当未分类付费流量的“全包”。
 
+![](assets/other-campaigns.png)
+
 ### 社交网站 {#social-networks}
 
 这项规则识别来自 Facebook* 等社交网络的访客。该渠道通常更名为Organic Social。 其设置如下所示：
@@ -174,3 +176,4 @@ ht-degree: 75%
 
 引用域渠道标识具有引用域的访客。 内部域、直接域和引用域渠道共同充当所有尚未分类为渠道的其余点击的全部捕获。
 
+![](assets/referring-domains.png)
