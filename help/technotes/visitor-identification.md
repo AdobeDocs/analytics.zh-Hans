@@ -4,9 +4,11 @@ keywords: Analytics Implementation
 subtopic: Visitors
 title: 识别独特访客
 topic: Developer and implementation
-uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+workflow-type: tm+mt
+source-wordcount: '1916'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +21,7 @@ Adobe 使用 Cookie 来跟踪独特的浏览器/设备。
 
 Adobe Analytics 提供了多种识别访客的机制。下表列出了在 Analytics 中识别访客的不同方法（按照优先级排序）：
 
-| 使用顺序 | 查询参数（收集方法） | 显示时间 |
+| 使用顺序 | 查询参数（收集方法） | 前提条件 |
 |---|---|---|
 | 1 | vid (s.visitorID) | 已设置 s.visitorID |
 | 2 | aid (s_vi cookie) | 在您部署访客 ID 服务或配置访客 ID 宽限期之前，访客已拥有一个现有的 s_vi Cookie。 |
@@ -117,7 +119,7 @@ Adobe 已确立了一批可唯一识别大多数移动设备的 HTTP 订户 ID �
 
 通常而言，识别用户时使用订户 ID 方法比 Cookie 更为可靠，因为 Cookie 可能会被删除，也可能发生 Cookie 接受问题和网关 Cookie 管理问题。
 
-您可以加入到移动访客所使用的运营商的白名单中，从而改善识别访客过程中的变化。要获得运营商的访客 ID，请联系该运营商以便将您的域加入其白名单。如果您位于某个运营商的白名单中，则还可以获得在其他情况下可能无法获得的订户 ID 头。
+您可以通过将访客添加到您的移动访客使用的运营商的“允许”列表来改进标识的更改。 要访问运营商的访客ID，请与运营商联系，将您的域添加到其“允许”列表。 如果您处于运营商的允许列表，您还有权访问订阅者ID头，否则您可能无法访问这些头。
 
 下面的头列表用于识别无线设备。处理头的算法为
 
