@@ -3,8 +3,11 @@ description: 添加日历事件和管理共享事件的步骤。
 title: 日历事件
 topic: Reports and analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+workflow-type: tm+mt
+source-wordcount: '334'
+ht-degree: 100%
 
 ---
 
@@ -17,22 +20,23 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 对于特定时段的趋势报表，您可以用图形显示事件，并查看促销活动或其他事件是否对网站流量、收入或任何其他量度产生影响。设置日历事件过程包括命名事件、设置日期、添加注释并设置图标. 例如，如果使用 Social，可以创建日历事件，以显示网站流量的增加与使用 Twitter 的名人提及产品相关。
 
-1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Calendar Events]**。
-1. 单击 **[!UICONTROL Add New]**。
-   1. 在 **[!UICONTROL Title]** 下，命名日历事件。
-   1. 为活动指定 **[!UICONTROL Event Date]**。
-   1. 选择将应用于此事件的 **[!UICONTROL Report Suite]**。
-   1. （可选）为此事件添加任意 **[!UICONTROL Note Text]**。
+1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 日历事件]**。
+1. 单击&#x200B;**[!UICONTROL 新增]**。
+   1. 在&#x200B;**[!UICONTROL 标题]**&#x200B;下方，命名日历事件。
+   1. 指定&#x200B;**[!UICONTROL 事件日期]**。
+   1. 选择将应用此事件的&#x200B;**[!UICONTROL 报表包]**。
+   1. （可选）为此事件添加任何&#x200B;**[!UICONTROL 注释文本]**。
    1. 选择显示图标和颜色。
-   1. 单击 **[!UICONTROL Save]**。
-1. （可选）除非进行共享，否则日历事件是特定于用户的。要共享此事件，请选择 **[!UICONTROL Share]**。
+   1. 单击&#x200B;**[!UICONTROL 保存]**。
+1. （可选）除非进行共享，否则日历事件是特定于用户的。要共享此事件，请选择&#x200B;**[!UICONTROL 共享]**。
 1. （可选）将日历事件推送给用户。现在，标记为“共享”的日历事件增加了一个“推送”选项，可以将此类日历事件推送给其他用户。推送某个日历事件即表示，该事件将出现在收件人用户的趋势图和时间走势图上。
-   1. 单击 **[!UICONTROL Push To Users]**。
-   1. 单击 **[!UICONTROL Check All]** 或选中一个或多个用户名旁边的复选框。
-   1. 单击 **[!UICONTROL Save]**。
+   1. 单击&#x200B;**[!UICONTROL 提交至用户]**。
+   1. 单击&#x200B;**[!UICONTROL 全选]**&#x200B;或选中一个或多个用户名旁边的复选框。
+   1. 单击&#x200B;**[!UICONTROL 保存]**。
+
    这使日历事件更加实用。分析人员现在能够在其用户报表上添加一个覆盖图，以便提供更多上下文信息。
-1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Calendar Events]**。
-1. 在 **[!UICONTROL Shared Calendar Events]** 下，指定以下选项之一：
+1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 日历事件]**。
+1. 在&#x200B;**[!UICONTROL 共享的日历事件]**&#x200B;下方，指定以下选项之一：
 
        | **抄送我** | 使用与原来相同的名称，将一个副本添加到事件列表中。但是，您无法查看事件所有者执行的任何更新/更改。|
        |---|---|
