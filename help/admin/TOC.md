@@ -3,8 +3,11 @@ product: analytics
 audience: admin
 user-guide-title: Analytics 管理指南
 user-guide-url: /content/help/en/analytics/admin/home.html
-translation-type: ht
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+translation-type: tm+mt
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '694'
+ht-degree: 99%
 
 ---
 
@@ -41,8 +44,8 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
    + [日志](admin/logs.md)
    + [营销渠道](admin/marketing-channels-admin.md)
    + [菜单自定义](admin/customize-menus.md)
-   + [量度可见性](admin/metric-visibility.md)
-   + [移动设备管理](admin/mobile-management.md)
+   + [度量可见性](admin/metric-visibility.md)
+   + [应用程序管理](admin/mobile-management.md)
    + 付费搜索检测 {#paid-search-detection}
       + [付费搜索检测概述](admin/paid-search-detection/paid-search-detection.md)
       + [配置付费搜索检测](admin/paid-search-detection/t-paid-search-detection.md)
