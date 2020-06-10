@@ -1,8 +1,11 @@
 ---
 title: getValOnce
 description: 防止将一个 Analytics 变量连续两次设置为同一个值。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: 627a10830d73d21323f247fcaadfb462858637d3
+workflow-type: tm+mt
+source-wordcount: '722'
+ht-degree: 99%
 
 ---
 
@@ -46,8 +49,8 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用�
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getValOnce v2.0 */
-s.getValOnce=function(vtc,cn,et,ep){if(vtc&&(cn=cn||"s_gvo",et=et||0,ep="m"===ep?6E4:864E5,vtc!==this.c_r(cn))){var e=new Date;e.setTime(e.getTime()+et*ep);this.c_w(cn,vtc,0===et?0:ep);return vtc}return""};
+/* Adobe Consulting Plugin: getValOnce v2.01 */
+s.getValOnce=function(vtc,cn,et,ep){if(vtc&&(cn=cn||"s_gvo",et=et||0,ep="m"===ep?6E4:864E5,vtc!==this.c_r(cn))){var e=new Date;e.setTime(e.getTime()+et*ep);this.c_w(cn,vtc,0===et?0:e);return vtc}return""};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -85,6 +88,10 @@ s.eVar2=s.getValOnce(s.eVar2,"s_ev2",0,"m");
 此代码可防止在整个用户会话期间连续多次将同一个值传递到 s.eVar2。由于已将过期时间设置为等于 0，因此还会忽略 ep 参数中的“m”值（在调用结束时）。此代码还会将比较值存储到 s_ev2 Cookie 中。
 
 ## 版本历史记录
+
+### 2.01
+
+* 修复了编写cookies时的问题。
 
 ### 2.0
 
