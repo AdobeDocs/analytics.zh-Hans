@@ -1,66 +1,63 @@
 ---
-description: “组织”让您可在共享项目前限制组件。您可以将项目及其组件与业务中涉及的营销人员及其他非分析人员共享。在项目中批注并应用标记。
-keywords: Analysis Workspace
-title: 组织/共享概述
-topic: Reports and analytics
-uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
+description: 通过“特选”，您可以在共享项目之前限制组件。
+keywords: Analysis Workspace curation
+title: 特选工作区项目
 translation-type: tm+mt
-source-git-commit: 1e7d36e48f6ee3b9066e3933d831dd4d28f670c6
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 100%
+source-wordcount: '474'
+ht-degree: 39%
 
 ---
 
 
-# 组织/共享概述
+# 特选工作区项目
 
-“组织”让您可在共享项目前限制组件。您可以将项目及其组件与业务中涉及的营销人员及其他非分析人员共享。在项目中批注并应用标记。
+通过特选，您可以在共享项目之前限制组件（维度、量度、区段、日期范围）。 当收件人打开项目时，他们将看到您为其特选的有限组件集。 在共享项目之前，特选是一个可选的但建议的步骤。
 
-**视频概述**
+>[!NOTE]
+> 产品配置文件是控制用户可以查看哪些组件的主要机制。这些配置文件可通过 Admin Console 进行管理。“策划”是一个次级过滤器。
 
->[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&amp;index=79&amp;t=0s&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
+## 应用项目特选
 
-**[!UICONTROL 工作区]** > **[!UICONTROL 共享]** > **[!UICONTROL 组织项目数据]**
-
-## 策划项目数据
-
-1. 指定创建和组织项目的权限。
-
-   创建或策划 Analysis Workspace 项目之前，管理员必须将您添加到已启用 [Analysis Workspace 访问权限](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/user-product-management/user-groups/groups.html)**[!UICONTROL 组]**，或添加到&#x200B;**[!UICONTROL 所有报表访问权限]**&#x200B;用户组。（**[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 群组]**）。
-
-1. [创建并保存](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)一个项目，然后单击&#x200B;**[!UICONTROL 共享]** > **[!UICONTROL 组织项目数据]**。
-1. 将您要从左侧可拖动组件堆叠中共享的组件拖到&#x200B;**[!UICONTROL 策划的组件]**&#x200B;字段。
-
-   ![](assets/curated-components.png)
-
-   >[!IMPORTANT]
-   >
-   >共享项目并非必须要求策划组件。您可以共享包含所有可用、默认组件的项目，或者共享包含选定组件的项目。要在项目中保留所有默认的组件，最佳做法是在策划组件之前，自行创建一个项目副本（使用&#x200B;**[!UICONTROL 另存为]**）。一旦您在项目中组织了组件，其他组件将不能继续用于该项目。
-
+1. Click **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
+项目中使用的组件将自动添加。
+   **注意**: 如果一个项目有多个报表包，您将在项目中看到每个报表包的特选字段。
+1. （可选）要添加更多组件，请将要共享的组件从左边栏拖到“特 [!UICONTROL 选组件] ”字段。
 1. 单击&#x200B;**[!UICONTROL 完成]**。
 
-生成的项目与 Analysis Workspace 中的典型项目类似，不过，您只能从中选取特定的组件。
+![](assets/curation-field.png)
 
-## 共享组织后的项目
+当收件人打开特选项目时，他们将只看到您定义的特选组件集：
 
-共享可以使此项目供您的组织内的其他 Analysis Workspace 用户使用。当其他人使用此项目时，您完成的任何组织工作都会得到反映。
+![](assets/curate-project.png)
 
-1. 在您组织报表中的组件后，单击&#x200B;**[!UICONTROL 共享]** > **[!UICONTROL 共享项目]**。
+也可以通过单击“特选”和“共 [!UICONTROL 享”] ，从“共 **[!UICONTROL 享”菜单应用特选]**。 此选项会自动将项目归档到项目中使用的组件。 您可以按照上述步骤添加其他组件。
 
-   ![](assets/share_component.png)
+## 删除项目特选
 
-1. 添加接收人。
-1. （可选）您也可以将嵌入的项目组件（区段、计算量度和日期范围）与所有接收人共享。共享后，这些组件将显示在接收人工作区的组件下拉菜单中。
+要删除项目特选并恢复左边栏中的完整组件集，请执行以下操作：
+1. Click **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
+1. 单击“ **[!UICONTROL 删除特选]**”。
+1. 单击&#x200B;**[!UICONTROL 完成]**。
 
-   >[!IMPORTANT]
-   >
-   >此设置不具有持续性，在分享时，它是独立的操作。
+## 虚拟报告套件(VRS)特选
 
-1. 或者，您也可以将此页面设置为接收人的登录页面。
+要在报表包级别应用特选，以便同时将其应用于许多项目，您可 [以在虚拟报表包(VRS)中特选组件](https://docs.adobe.com/content/help/zh-Hans/analytics/components/virtual-report-suites/vrs-components.html)。
 
-   >[!IMPORTANT]
-   >
-   >此设置不具有持续性，在分享时，它是独立的操作。
+>[!NOTE]
+> 始终先应用 VRS 策划，再应用项目策划。这意味着即使您的策划项目包含某些组件，但是如果策划 VRS 不包含这些组件，系统也会将这些组件滤除。
 
-1. 单击&#x200B;**[!UICONTROL 共享]**。
+### 显示所有组件
+
+在精选的项目或VRS中，收件人将显示左边栏中 **[!UICONTROL 的“显示]** 所有组件”选项。 [!UICONTROL “显示全部] ”显示不同的组件集，具体取决于：
+
+* 用户的权限级别（管理员或非管理员）
+* 项目角色（所有者／编辑者或不是）
+* 应用的特选类型
+
+| 策划类型 | 管理员 | 非管理员项目所有者 | 非管理员 |
+|---|---|---|---|
+| 策划的 VRS | 所有非策划的 VRS 组件 | 此角色拥有或与其共享的非策划的 VRS 组件 | 此角色拥有或与其共享的非策划的 VRS 组件 |
+| 策划的项目 | 所有非策划的项目组件 | 所有非策划的项目组件 | 此角色拥有或与其共享的非策划的项目组件 |
+| 策划的 VRS 中的策划项目 | 所有非策划的项目，如下所示 **[!UICONTROL 非策划的项目组件]**&#x200B;与 **[!UICONTROL 非策划的 VRS 组件]** | 此角色拥有或与其共享的所有非策划项目组件以及非策划 VRS 组件 | 此角色拥有或与其共享的非策划的 VRS 和项目组件 |
