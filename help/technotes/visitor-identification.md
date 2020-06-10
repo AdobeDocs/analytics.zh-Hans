@@ -5,9 +5,9 @@ subtopic: Visitors
 title: 识别独特访客
 topic: Developer and implementation
 translation-type: tm+mt
-source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: '1913'
 ht-degree: 96%
 
 ---
@@ -119,7 +119,7 @@ Adobe 已确立了一批可唯一识别大多数移动设备的 HTTP 订户 ID �
 
 通常而言，识别用户时使用订户 ID 方法比 Cookie 更为可靠，因为 Cookie 可能会被删除，也可能发生 Cookie 接受问题和网关 Cookie 管理问题。
 
-您可以通过将访客添加到您的移动访客使用的运营商的“允许”列表来改进标识的更改。 要访问运营商的访客ID，请与运营商联系，将您的域添加到其“允许”列表。 如果您处于运营商的允许列表，您还有权访问订阅者ID头，否则您可能无法访问这些头。
+您可以通过将访客添加到移动访客使用的运营商的允许列表中来改进标识的更改。 要访问运营商的访客ID，请与运营商联系，将您的域添加到其允许列表。 如果您位于运营商的允许列表中，则您还有权访问订阅者ID头，否则您可能无法访问这些头。
 
 下面的头列表用于识别无线设备。处理头的算法为
 
