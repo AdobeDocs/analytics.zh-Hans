@@ -4,10 +4,10 @@ title: 生成区段
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: e1315ce842247e690c481bf5061c980b943cd5c1
+source-git-commit: aaf7123b1ed8ced67076affd108e337b10fe0f39
 workflow-type: tm+mt
-source-wordcount: '2139'
-ht-degree: 92%
+source-wordcount: '2037'
+ht-degree: 90%
 
 ---
 
@@ -45,6 +45,7 @@ ht-degree: 92%
    * **[!UICONTROL 重复]** （默认）: 包括维的实例和保留值。
    * **[!UICONTROL 实例]**：包含维度的实例。
    * **[!UICONTROL 非重复实例]**：包含维度的唯一实例（非重复）。这是排除重复实例时在“流”中应用的模型。
+
    ![](assets/attribution-models.jpg)
 
    **示例： 点击eVar1 = A的区段**
@@ -74,19 +75,7 @@ ht-degree: 92%
 
 嵌入了日期范围的区段会继续以不同的方式在 Analysis Workspace 与 [!UICONTROL Reports &amp; Analytics] 中运行：在“工作区”中，嵌入了日期范围的区段会覆盖面板日期范围。相反，[!UICONTROL Reports &amp; Analytics] 会显示报表日期范围和区段嵌入日期范围的交集。
 
-**[!UICONTROL 发布到 Experience Cloud（适用于`<report suite name>`）]**：（未在屏幕上显示）仅当[已为 Experience Cloud 启用](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)要保存此区段的报表包时，才会显示此选项。通过将区段发布到 Experience Cloud，可以将该区段用于“[!UICONTROL 受众库]”、[!DNL Target] 和 [!DNL Audience Manager] 中的营销活动。区段标题和描述为必填字段。
-
->[!NOTE]在 Analytics 中，您可以编辑或删除已经发布的区段。如果区段正在使用，会在您编辑区段时给出一条警告消息。您无法删除一个已发布但 Adobe [!DNL Target] 正在使用的区段。
-
-![](assets/segment_publish_to_mac_copy.png)
-
->[!IMPORTANT]
->
->您必须将从 Analytics 共享的受众数量限制为 20，以避免额外的处理延迟。从 Analytics 共享到 Experience Cloud 的受众数量不能超过 2000 万个独特成员。另外，由于缓存，在 Analytics 中删除报表包 12 小时后，该删除操作才能反映在 Experience Cloud 中。
-
->[!IMPORTANT]
->
->在访客有资格成为从 Analytics 共享的受众后，该信息需经过 24 - 48 小时的延迟，才能在 [!DNL Target]、[!DNL Advertising Cloud] 和 [!DNL Campaign] 中使用。
+**[!UICONTROL Experience Cloud发布]**: （未在屏幕上显示）仅当为Experience Cloud启用了要保存此区段的报表包时， [才会显示此选项](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)。 通过将区段发布到 Experience Cloud，可以将该区段用于“[!UICONTROL 受众库]”、[!DNL Target] 和 [!DNL Audience Manager] 中的营销活动。[进一步了解](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/segmentation-workflow/seg-publish.html) Experience Cloud发布。
 
 ## 生成区段 {#build-segments}
 
