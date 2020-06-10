@@ -1,8 +1,11 @@
 ---
 title: linkTrackVars
 description: 指定要包含在链接跟踪图像请求中的变量。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 某些实施不希望将所有变量包含在所有链接跟踪图像请求中。使用 `linkTrackVars` 和 [`linkTrackEvents`](linktrackevents.md) 变量可在 [`tl()`](../functions/tl-method.md) 调用中有选择地包含维度和量度。
 
-页面查看调用（`t()` 方法）不使用此变量。
+页面查看调用（[`t()`](../functions/t-method.md) 方法）不使用此变量。
 
 ## 使用 Adobe Experience Platform Launch 的链接跟踪调用中的变量
 
@@ -24,7 +27,7 @@ Launch 会根据界面中设置的变量自动在后端填充此变量，因此�
 `s.linkTrackVars` 变量是一个字符串，其中包含以逗号分隔的变量列表，您要将这些事件包含在链接跟踪图像请求（`tl()` 方法）中。必须满足以下两个条件才能在链接跟踪点击中包含维度：
 
 * 设置所需的变量值。例如：`s.eVar1 = "Example value";`。
-* 在 `linkTrackVars` 变量中设置所需变量。例如：`s.linkTrackEvents = "eVar1";`。
+* 在 `linkTrackVars` 变量中设置所需变量。例如：`s.linkTrackVars = "eVar1";`。
 
 ```js
 s.linkTrackVars = "eVar1,eVar2,events,channel,products";
