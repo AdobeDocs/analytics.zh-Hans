@@ -2,9 +2,9 @@
 title: linkExternalFilters
 description: 使用 linkExternalFilters 变量有助于进行自动退出链接跟踪。
 translation-type: tm+mt
-source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '306'
 ht-degree: 95%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 95%
 
 AppMeasurement 提供自动跟踪指向网站外部的链接的功能。如果启用了 [`trackExternalLinks`](trackexternallinks.md)，则当访客单击链接以离开您的网站时，图像请求会发送到 Adobe。`linkExternalFilters` 和 [`linkInternalFilters`](linkinternalfilters.md) 变量可确定哪些链接被视为内部/外部链接。
 
-如果此变量包含值，则自动退出链接跟踪的行为类似于“允许”列表。 如果链接点击与任何 `linkExternalFilters` 值都不匹配，则不会将其视为退出链接。系统将针对此变量检查整个 URL。如果启用了 [`linkLeaveQueryString`](linkleavequerystring.md)，则还会检查查询字符串。
+如果此变量包含值，则自动退出链接跟踪的行为与allowlist类似。 如果链接点击与任何 `linkExternalFilters` 值都不匹配，则不会将其视为退出链接。系统将针对此变量检查整个 URL。如果启用了 [`linkLeaveQueryString`](linkleavequerystring.md)，则还会检查查询字符串。
 
 >[!TIP] 仅当您确切知道要将哪些域视为退出链接时，才使用此变量。许多组织发现使用 `linkInternalFilters` 足以满足其退出链接跟踪需求，因此没有使用 `linkExternalFilters`。
 
@@ -50,6 +50,6 @@ s.linkExternalFilters = "example.com,example.net,example.org";
 <!-- The following link is NOT considered an exit link, even though the link is outside adobe.com -->
 <a href = "example.org">Example link 1</a>
 
-<!-- The following link is an exit link because it matches the linkExternalFilters "allowed" list -->
+<!-- The following link is an exit link because it matches the linkExternalFilters allowlist -->
 <a href = "example.com">Example link 2</a>
 ```
