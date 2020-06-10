@@ -3,7 +3,10 @@ description: Analysis Workspace 的新增功能
 keywords: Analysis Workspace
 title: Analysis Workspace 中的新增功能
 translation-type: tm+mt
-source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+workflow-type: tm+mt
+source-wordcount: '7261'
+ht-degree: 99%
 
 ---
 
@@ -12,31 +15,31 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
 
 ## 2020 年 4 月
 
-2020年4月16日发布的新增功能。
+2020 年 4 月 16 日发布的新功能。
 
 | 功能 | 描述 |
 |--- |--- |
-| 从空白状 [!UICONTROL Freeform Tables] 态自动构建 | 以前，不能将组件直接拖放到空白项目或空白面板，而是必须先添加一个自由格式表。现在，您可以将组件直接拖放到空白项目或面板中，并且系统将以推荐的格式自动为您构建自由格式表。Additionally, improvements were made to how mixed component types (e.g. dimensions &amp; metrics) are handled when dropped into a blank [!UICONTROL Freeform Table] together. |
+| Automatically build [!UICONTROL Freeform Tables] from a blank state | 以前，不能将组件直接拖放到空白项目或空白面板，而是必须先添加一个自由格式表。现在，您可以将组件直接拖放到空白项目或面板中，并且系统将以推荐的格式自动为您构建自由格式表。Additionally, improvements were made to how mixed component types (e.g. dimensions &amp; metrics) are handled when dropped into a blank [!UICONTROL Freeform Table] together. |
 
 ## 2020 年 3 月
 
-2020年3月12日发布的新增功能。
+2020 年 3 月 12 日发布的新功能。
 
 | 功能 | 描述 |
 |--- |--- |
-| 支持Workspace中的多个报表包 | 您现在可以将多个报表包中的数据并排引入单个项目中视图。 [了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
-| 培训教程模板 | 这个新的标准模板将引导您逐步了解在Workspace中构建第一个分析的常用术语和步骤。 该模板可用作新建项目模式中的标准模板，并替换当前存在的示例项目，供列表中没有其他项目的新用户使用。[了解更多...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
+| 支持 Workspace 中的多个报表包 | 您现在可以将多个报表包中的数据并入一个项目，以便并排查看。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
+| 培训教程模板 | 这个新的标准模板可指导您逐步了解在工作区中构建首个分析的常用术语和步骤。该模板可用作新建项目模式中的标准模板，并替换当前存在的示例项目，供列表中没有其他项目的新用户使用。[了解更多...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## 2020 年 2 月
 
-2020年2月20日发布的新增功能。
+2020 年 2 月 20 日发布的新功能。
 
 | 功能 | 描述 |
 |--- |--- |
-| 适用于使用跨设备分析的组织的新工作区模板 | 此模板显示CDA在拼接访问方面的有效性，并指导您了解CDA独有的维度和指标。 需要使用 CDA 的报表包。有关更多信息，请参阅[设置跨设备分析](https://docs.adobe.com/content/help/zh-Hans/analytics/components/cda/cda-setup.html)。 |
-| 工作区中的新热键 | <ul><li>折叠/展开所有面板：`alt + m`</li><li>折叠/展开活动面板：`alt + ctrl + m`</li><li>搜索左边栏：`ctrl + /`</li><li>移到下一个面板：`alt + Right Key`</li><li>移到上一个面板：`alt + Left Key`</li></ul>[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
-| 其他工作区增强功能 | <ul><li>将面板或可视化放入Workspace后，左边栏将自动切换到组件，实现更无缝的工作流程。</li><li>现在可以对模板组件进行操作（例如，标记、收藏、已批准）。</li><li>筛选的度量和区段列表优惠+按钮，添加新组件（如果您找不到所需组件）。</li></ul> |
-| 工作区调试器 | Workspace 调试器已添加到“帮助”菜单，可让您根据调试 Workspace 请求更加无缝地启用调试器。[了解更多...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
+| 适用于使用跨设备分析的组织的新 Workspace 模板 | 此模板显示 CDA 在拼合访问次数方面的有效性，并且还指导您了解 CDA 独有的维度和量度知识。需要使用 CDA 的报表包。有关更多信息，请参阅[设置跨设备分析](https://docs.adobe.com/content/help/zh-Hans/analytics/components/cda/cda-setup.html)。 |
+| Workspace 中的新热键 | <ul><li>折叠/展开所有面板：`alt + m`</li><li>折叠/展开活动面板：`alt + ctrl + m`</li><li>搜索左边栏：`ctrl + /`</li><li>移到下一个面板：`alt + Right Key`</li><li>移到上一个面板：`alt + Left Key`</li></ul>[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| 其他 Workspace 增强功能 | <ul><li>将面板或可视化图表放入 Workspace 后，左边栏会自动切换到组件，以实现更加无缝的工作流程。</li><li>现在可以对模板组件进行操作（例如，标记、标记为收藏、已批准）。</li><li>过滤的量度和区段列表提供了 + 按钮，可在找不到所需内容时添加新组件。</li></ul> |
+| Workspace 调试器 | Workspace 调试器已添加到“帮助”菜单，可让您根据调试 Workspace 请求更加无缝地启用调试器。[了解更多...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
 ## 2020 年 1 月
 
@@ -44,7 +47,7 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
 
 | 功能 | 描述 |
 |--- |--- |
-| [自由格式表生成器](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | 启用表生成器后，您可以通过拖放多个维度、细分、量度和区段来构建可解答更复杂业务问题的表。数据不会立即更新。Instead, updates occur after you click **[!UICONTROL Build]**, saving you time once you know what table you want to construct. 此外，此功能还提供：<ul><li>**预览**：您可以先预览表的格式，然后再花费时间渲染实际数据。</li><li>**灵活的行和划分设置**：您可以为每个维度行设置行级别和划分级别。以前，工作区施加了一些默认值，这些默认值在返回数据之前无法更改。</li><li>**按状态划分**：您可以将维度行设置为始终&#x200B;_按状态划分_&#x200B;而不是&#x200B;_按特定项目_（默认值）划分。</li><li>**手动静态行排序**：您可以手动对静态行进行排序，以使表行完全按照您的需要显示。以前，静态行只能按度量列或按字母顺序排序。</li></ul> |
+| [自由格式表生成器](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | 启用表生成器后，您可以通过拖放多个维度、细分、量度和区段来构建可解答更复杂业务问题的表。数据不会立即更新，相反，单击&#x200B;**[!UICONTROL 生成]**&#x200B;后才会进行更新，这样可在您知道自己要构建什么表的情况下节省您的时间。此外，此功能还提供：<ul><li>**预览**：您可以先预览表的格式，然后再花费时间渲染实际数据。</li><li>**灵活的行和划分设置**：您可以为每个维度行设置行级别和划分级别。以前，工作区施加了一些默认值，这些默认值在返回数据之前无法更改。</li><li>**按状态划分**：您可以将维度行设置为始终&#x200B;_按状态划分_&#x200B;而不是&#x200B;_按特定项目_（默认值）划分。</li><li>**手动静态行排序**：您可以手动对静态行进行排序，以使表行完全按照您的需要显示。以前，静态行只能按度量列或按字母顺序排序。</li></ul> |
 
 ## 2019 年 10 月
 
@@ -52,9 +55,9 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
 
 | 增强功能 | 描述 |
 |--- |--- |
-| 更新了自由格式表总计 | 自由形式表现在包含两个总计， **[!UICONTROL Table total]** a和a **[!UICONTROL Grand total]**。 表格总计行会将已应用的[报表过滤器](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)计入在内。以前，只有区段会影响总数的计算。[了](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>解更多 **[!UICONTROL Show Totals]** 信息 **[!UICONTROL Show Grand Total]** ，还添加了选项 **[!UICONTROL Column Settings]**。<br/>对自由形式总计进行此更改后，将更新相关可视化(例如 **[!UICONTROL Summary Number]** 链接可视化)以及导出的CSV和PDF数据。 |
+| 更新了自由格式表总计 | 现在，自由格式表包含两项总数统计：**[!UICONTROL 表格总计]**&#x200B;和&#x200B;**[!UICONTROL 全部总计]**。表格总计行会将已应用的[报表过滤器](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)计入在内。以前，只有区段会影响总数的计算。[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>，此外，**[!UICONTROL ￼显示总数]**&#x200B;和&#x200B;**[!UICONTROL 显示总计]**&#x200B;选项已添加到&#x200B;**[!UICONTROL 列设置]**&#x200B;中。<br/>鉴于自由格式表的这项变化，与之相关的可视化图表（例如关联的&#x200B;**[!UICONTROL 概要数字]**&#x200B;可视化图表）也将进行相应的更新，导出的 CSV 和 PDF 数据同样也会更新。 |
 | 用于删除“未指定/无”的选项 | 一个可以轻松删除“未指定（无）”的选项已经添加到报表过滤器。 |
-| 弃用紫色粒度组件 | 已弃用紫色的时间粒度组件（分钟、小时、日、周、月、季度、年）。紫色时间组件与对应的橙色维度组件的功能是一样的，因此这项更改将简化这方面的使用体验。即使之前使用了某个紫色时间组件，您也&#x200B;**无需执行任何操作**。<br/>通过此更改，紫色 **[!UICONTROL Time]** 部分也已更名为 **[!UICONTROL Date Ranges]**。 |
+| 弃用紫色粒度组件 | 已弃用紫色的时间粒度组件（分钟、小时、日、周、月、季度、年）。紫色时间组件与对应的橙色维度组件的功能是一样的，因此这项更改将简化这方面的使用体验。即使之前使用了某个紫色时间组件，您也&#x200B;**无需执行任何操作**。<br/>此外，根据这项变化，紫色的&#x200B;**[!UICONTROL 时间]**&#x200B;部分已重命名为&#x200B;**[!UICONTROL 日期范围]**。 |
 
 ## 2019 年 8 月
 
@@ -80,7 +83,7 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
 
 | 增强功能 | 描述 |
 |--- |--- |
-| 新增的开箱即用的过滤器 | 左边栏搜索新增了开箱即用的过滤器。除了您现在看到的这些过滤器（维度、量度、已批准等）之外，还新增了一些过滤器（例如计算指标、客户属性、eVar、Prop、视频等）以更便于查找所需的组件。 |
+| 新增的开箱即用的过滤器 | 左边栏搜索新增了开箱即用的过滤器。除了您现在看到的这些过滤器（维度、量度、已批准等）之外，还新增了一些过滤器（例如计算量度、客户属性、eVar、Prop、视频等）以更便于查找所需的组件。 |
 
 ## 2019 年 5 月
 
@@ -115,7 +118,7 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
 
 | 功能 | 描述 |
 |--- |--- |
-| [VRS 和项目策划 - 增强功能](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md) | 这些更改的实际引入时间为 2018 年 10 月。无论是管理员还是非管理员，都可以在策划的工作区项目和策划的虚拟报表包 (VRS) 中，查看发生更改的组件。<br>此前，单击显示所有组件按钮后，大家只能查看非策划的组件。策划体验经过更新后，在查看组件方面提供了更加精细化的控制。</br> |
+| [VRS 和项目策划 - 增强功能](/help/analyze/analysis-workspace/curate-share/curate.md) | 这些更改的实际引入时间为 2018 年 10 月。无论是管理员还是非管理员，都可以在策划的工作区项目和策划的虚拟报表包 (VRS) 中，查看发生更改的组件。<br>此前，单击显示所有组件按钮后，大家只能查看非策划的组件。策划体验经过更新后，在查看组件方面提供了更加精细化的控制。</br> |
 
 ## 2018 年 10 月
 
@@ -139,8 +142,8 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>面板和可视化工具提示中的链接</b> </p> </td> 
-   <td colname="col2"> <p>我们向面板和可视化工具提示中添加了指向相关视频和文档的链接。 </p> </td> 
+   <td colname="col1"> <p><b>面板和可视化图表工具提示中的链接</b> </p> </td> 
+   <td colname="col2"> <p>我们向面板和可视化图表工具提示中添加了指向相关视频和文档的链接。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -163,11 +166,11 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>调色板</b> </p> </td> 
-   <td colname="col2"> <p>现在，您可以通过选择不同的调色板或指定个性化调色板来更改工作区中使用的配色方案。这项功能会影响工作区中的许多内容，包括大多数可视化图表。它<b>不会</b>影响概要变化、自由格式表中的条件格式以及地图可视化。 </p> <p>注意：Internet Explorer 11 未启用调色板支持。 </p> </td> 
+   <td colname="col2"> <p>现在，您可以通过选择不同的调色板或指定个性化调色板来更改工作区中使用的配色方案。这项功能会影响工作区中的许多内容，包括大多数可视化图表。它<b>不会</b>影响概要变化、自由格式表中的条件格式以及地图可视化图表。 </p> <p>注意：Internet Explorer 11 未启用调色板支持。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>新模板：音频使用情况</b> </p> </td> 
-   <td colname="col2"> <p>请参阅 <a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-workspace-templates.html"  >Analytics 音频</a>。 </p> </td> 
+   <td colname="col2"> <p>请参阅 <a href="https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-reports/media-workspace-templates.html"  >Analytics 音频</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -185,7 +188,7 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>拖放区域指南</b> </p> </td> 
-   <td colname="col2"> <p>此指南可帮助您更轻松地了解每个拖放操作的功能。例如，当您将鼠标指针悬停在某列上时，其将会显示“添加”、“替换”、“过滤方式”和“划分”等内容。 </p> <p>我们还添加了黄色/红色指南，可在您执行不推荐或禁止的操作时提醒您，例如将两个指标堆叠在一起（会导致数据无效）。 </p> </td> 
+   <td colname="col2"> <p>此指南可帮助您更轻松地了解每个拖放操作的功能。例如，当您将鼠标指针悬停在某列上时，其将会显示“添加”、“替换”、“过滤方式”和“划分”等内容。 </p> <p>我们还添加了黄色/红色指南，可在您执行不推荐或禁止的操作时提醒您，例如将两个量度堆叠在一起（会导致数据无效）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>“添加空白面板”选项</b> </p> </td> 
@@ -312,8 +315,8 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
    <td colname="col2"> <p>新的<span class="uicontrol">按行计算百分比</span>设置强制自由格式表计算整行中的单元格百分比，而不是沿列向下计算。这对显示百分比趋势特别有用，例如显示一个维度值与其余维度值在一段时间内的对比趋势。在单击<span class="uicontrol">可视化</span>图标时，默认情况下会开启该设置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  >“100% 堆叠”可视化设置</a> </p> </td> 
-   <td colname="col2"> <p>堆叠的区域/堆叠的条形/堆叠的水平条形可视化的新可视化设置将图表变为“100% 堆叠”的可视化，因此您可以度量相对比例。 </p> <p><img placement="break"  src="visualizations/assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  >“100% 堆叠”可视化图表设置</a> </p> </td> 
+   <td colname="col2"> <p>堆叠的区域/堆叠的条形/堆叠的水平条形可视化图表的新可视化图表设置将图表变为“100% 堆叠”的可视化图表，因此您可以度量相对比例。 </p> <p><img placement="break"  src="visualizations/assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  > 异常检测和贡献分析</a>当前只能通过 Analysis Workspace 使用 </p> </td> 
@@ -343,10 +346,10 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
    <td colname="col2"> <p>为了更便于快速创建计算量度，<span class="uicontrol">从所选内容创建量度</span>已添加到自由格式表的右键单击菜单。在选定一个或多个标头列单元格时，会显示该选项。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > 地图可视化增强 </a> </p> </td> 
-   <td colname="col2"> <p>为了能在地图可视化中显示同期（例如，年度）比较信息，我们已添加了以下增强功能： </p> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > 地图可视化图表增强 </a> </p> </td> 
+   <td colname="col2"> <p>为了能在地图可视化图表中显示同期（例如，年度）比较信息，我们已添加了以下增强功能： </p> 
     <ul id="ul_F570E6AB174C45788620CF50E2742A08"> 
-     <li id="li_746E329037764644A9CCF79161C26350">地图可视化增强现在可以显示负数。例如，如果您绘制的是以年同比量度，地图会在纽约上方显示 -33%。 </li> 
+     <li id="li_746E329037764644A9CCF79161C26350">地图可视化图表增强现在可以显示负数。例如，如果您绘制的是以年同比量度，地图会在纽约上方显示 -33%。 </li> 
      <li id="li_E05F0380627044E6A4E8A60C98494BF7">对于“百分数”类型的量度，群集会计算所有百分比的平均值。 </li> 
      <li id="li_44C04306EA1B413E91B8256B340D5296">新颜色方案：正/负（绿色/红色） </li> 
     </ul> </td> 
@@ -438,8 +441,8 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_05B7914D4C9E443F97E2BFFDEC70240C"  > 在不同面板、不同项目之间复制和粘贴可视化/面板</a> </p> </td> 
-   <td colname="col2"> <p>现在，您可以右键单击并复制可视化或面板，然后将复制的可视化或面板粘贴（“插入”）到同一项目的其他位置或其他项目中。 </p> <p>您可以利用此项功能来创建一些能够复制到其他项目中的“构建基块”（预定义的可视化/面板），从而更加快速地运用特定于您公司的数据。 </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_05B7914D4C9E443F97E2BFFDEC70240C"  > 在不同面板、不同项目之间复制和粘贴可视化图表/面板</a> </p> </td> 
+   <td colname="col2"> <p>现在，您可以右键单击并复制可视化图表或面板，然后将复制的可视化图表或面板粘贴（“插入”）到同一项目的其他位置或其他项目中。 </p> <p>您可以利用此项功能来创建一些能够复制到其他项目中的“构建基块”（预定义的可视化图表/面板），从而更加快速地运用特定于您公司的数据。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  >新增了 Mobile “消息”模板和“位置”模板</a> </p> </td> 
@@ -458,8 +461,8 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
    <td colname="col2"> <p>现在，您可以在表格中显示 400 行（比之前增多了 200 行），从而可在表格中囊括 365 天的趋势。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > PDF 中的地图可视化支持</a> </p> </td> 
-   <td colname="col2"> <p>现在可以在 PDF 中对 2017 年 10 月推出的地图可视化进行渲染。 </p> </td> 
+   <td colname="col1"> <p> PDF 中的<a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  >地图可视化图表</a>支持 </p> </td> 
+   <td colname="col2"> <p>现在可以在 PDF 中对 2017 年 10 月推出的地图可视化图表进行渲染。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > 复制/另存为项目时使用相对内部链接</a> </p> </td> 
@@ -516,20 +519,20 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > 地图可视化 </a> </p> </td> 
-   <td colname="col2"> <p>通过新的地图可视化，您可以轻松查看客户在其位置上下文内的交互。从宏观（全球）视图到微观（城市）视图，您可以轻松地放大和缩小可视化中的各种层次结构等级，以了解跨区域的客户集群。 </p> <p>您可以通过 IP 地址对位置数据进行可视化（对于非移动数据集），或者可以在 Analysis Workspace 中将经纬度数据（对于使用 Mobile SDK 的客户）变得生动有趣。&amp;nbsp </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > 地图可视化图表 </a> </p> </td> 
+   <td colname="col2"> <p>通过新的地图可视化图表，您可以轻松查看客户在其位置上下文内的交互。从宏观（全球）视图到微观（城市）视图，您可以轻松地放大和缩小可视化图表中的各种层次结构等级，以了解跨区域的客户集群。 </p> <p>您可以通过 IP 地址对位置数据进行可视化（对于非移动数据集），或者可以在 Analysis Workspace 中将经纬度数据（对于使用 Mobile SDK 的客户）变得生动有趣。&amp;nbsp </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  > 趋势可视化的粒度选择器 </a> </p> </td> 
-   <td colname="col2"> <p>现在，当数据源中的维度为时间维度时，您可以轻松地在时间粒度之间切换。您可以从可视化设置的下拉列表中切换粒度。 </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  > 趋势可视化图表的粒度选择器 </a> </p> </td> 
+   <td colname="col2"> <p>现在，当数据源中的维度为时间维度时，您可以轻松地在时间粒度之间切换。您可以从可视化图表设置的下拉列表中切换粒度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 区段拖放区域中的完整维度和事件 </a> </p> </td> 
    <td colname="col2"> <p>以前，您只能将维度项目、日期范围或区段放入区段拖放区域。现在您可以将完整的维度或事件放入区段拖放区域。在这两种情况下，Analysis Workspace 将创建“存在”点击区段。 </p> <p>示例：“在 eVar1 存在的地方点击”或“在 event1 存在的地方点击”。 </p> <p>注意：您无法将计算量度放入区段区域。只有这些可为其构建区段的维度/量度才具有放入区段区域的资格。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md"  > 数据源设置中列出了已连接的可视化 </a> </p> </td> 
-   <td colname="col2"> <p>如果有可视化连接到自由格式或同类表，左上侧的点（数据源设置）即会列出连接的可视化。将鼠标悬停在其上方将突出显示链接的可视化，单击它即会转到该可视化。 </p> <p>此外，还有一个“显示/隐藏数据表”复选框可让您显示或隐藏数据表。 </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md"  > 数据源设置中列出了已连接的可视化图表 </a> </p> </td> 
+   <td colname="col2"> <p>如果有可视化图表连接到自由格式或同类表，左上侧的点（数据源设置）即会列出连接的可视化图表。将鼠标悬停在其上方将突出显示链接的可视化图表，单击它即会转到该可视化图表。 </p> <p>此外，还有一个“显示/隐藏数据表”复选框可让您显示或隐藏数据表。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  >向左边栏事件名称添加了 Event#</a> </p> </td> 
@@ -549,7 +552,7 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  >允许置信度间隔重新缩放图表的选项</a> </p> </td> 
-   <td colname="col2"> <p>异常检测置信度间隔不会自动缩放可视化的 y 轴以期让图表变得更加清晰易读。 </p> <p>您现在可以选择允许置信度间隔缩放图表。 </p> </td> 
+   <td colname="col2"> <p>异常检测置信度间隔不会自动缩放可视化图表的 y 轴以期让图表变得更加清晰易读。 </p> <p>您现在可以选择允许置信度间隔缩放图表。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/components/c-alerts/alert-manager.md"  > 警报：已添加<b>续订</b>选项 </a> </p> </td> 
@@ -559,8 +562,8 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
    <td colname="col1"> <p>UI 改进 </p> </td> 
    <td colname="col2"> 
     <ul id="ul_645B43AC6F554353B887DD58F0AA86E8"> 
-     <li id="li_05B16A84008E4DA3A5DE91AF3C942D55">空白面板：现在我们从一开始就突出显示了可添加到空白面板的所有可视化，例如地图、流失、流量、直方图、同类群组和维恩。您可以选择保存此面板作为您的默认项目开始状态。 </li> 
-     <li id="li_9F1ED138DB0E453DA6BD4B4A512492CC">新的左边栏样式使左边栏中的“面板”、“可视化”和“组件”变得更加清晰易用。 </li> 
+     <li id="li_05B16A84008E4DA3A5DE91AF3C942D55">空白面板：现在我们从一开始就突出显示了可添加到空白面板的所有可视化图表，例如地图、流失、流量、直方图、同类群组和维恩。您可以选择保存此面板作为您的默认项目开始状态。 </li> 
+     <li id="li_9F1ED138DB0E453DA6BD4B4A512492CC">新的左边栏样式使左边栏中的“面板”、“可视化图表”和“组件”变得更加清晰易用。 </li> 
      <li id="li_5DF6177F0EFD4D4D9D432768DEA3F37D">自由格式表：空白的自由格式表现在将显示一个动画 GIF，来展示 Analysis Workspace 的拖放范例。 </li> 
     </ul> </td> 
   </tr> 
@@ -649,8 +652,8 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
    <td colname="col2"> <p>已在“工作区”项目列表页面中添加了“<span class="wintitle">标记</span>”列。此列会显示每个项目的标记。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  > 将“流量”可视化导出为 .CSV 文件 </a> </p> </td> 
-   <td colname="col2"> <p>您可以下载 .csv 文件格式的“流量”可视化，它允许您在 Microsoft Excel（以表形式显示）或其他软件中分析“流量”结果。 </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  > 将“流量”可视化图表导出为 .CSV 文件 </a> </p> </td> 
+   <td colname="col2"> <p>您可以下载 .csv 文件格式的“流量”可视化图表，它允许您在 Microsoft Excel（以表形式显示）或其他软件中分析“流量”结果。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/components/c-alerts/intellligent-alerts.md"  > 智能警报：额外的置信区间 </a> </p> </td> 
@@ -677,19 +680,19 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/visualizations/text.md"  > 富文本编辑器 </a></b> </p> </td> 
-   <td colname="col2"> <p>允许您更改文本框可视化和面板/可视化描述中的字体设置（粗体、斜体等）和超链接。 </p> </td> 
+   <td colname="col2"> <p>允许您更改文本框可视化图表和面板/可视化图表描述中的字体设置（粗体、斜体等）和超链接。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/home.md#section_253EA04E067F4A29A8B54CE2B7631086"  >内部链接（使链接快速可视化）</a></b> </p> </td> 
-   <td colname="col2"> <p><b>内部链接</b>允许您从文本框向下链接到项目中的特定面板和可视化，如创建项目目录。您可以像共享项目链接一样共享这些链接，以将某个人定向到项目中的特定可视化或面板。新增了名为“获取面板链接”和“获取可视化图表链接”的右键单击选项。 </p> </td> 
+   <td colname="col2"> <p><b>内部链接</b>允许您从文本框向下链接到项目中的特定面板和可视化图表，如创建项目目录。您可以像共享项目链接一样共享这些链接，以将某个人定向到项目中的特定可视化图表或面板。新增了名为“获取面板链接”和“获取可视化图表链接”的右键单击选项。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_94F1988CB4B9434BA1D9C6034062C3DE"  > 图例标签编辑 </a></b> </p> </td> 
-   <td colname="col2"> <p>让您可以重命名可视化图例（流失、面积图、堆叠的面积图、条形图、堆叠的条形图、圆环图、直方图、水平条形图、堆叠的水平条形图、折线图、散点图和维恩图）中的系列名称，以帮助您使视觉对象更易于使用。 </p> <p>图例编辑<b>不</b>适用于以下内容：树形图、项目符号、概要变化或概要数字、文本、自由格式、直方图、同类群组或流量可视化。 </p> </td> 
+   <td colname="col2"> <p>让您可以重命名可视化图表图例（流失、面积图、堆叠的面积图、条形图、堆叠的条形图、圆环图、直方图、水平条形图、堆叠的水平条形图、折线图、散点图和维恩图）中的系列名称，以帮助您使视觉对象更易于使用。 </p> <p>图例编辑<b>不</b>适用于以下内容：树形图、项目符号、概要变化或概要数字、文本、自由格式、直方图、同类群组或流量可视化图表。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md"  >对“管理数据源”进行的更新</a></b> </p> </td> 
-   <td colname="col2"> <p>我们重新设计了数据源（为可视化图表提供支持）的管理方式。在将数据源锁定到表时，不再提供单独的隐藏表。 </p> <p>我们而是会将可视化绑定到用于创建该可视化的表。这还将解决实时链接表存在的以下错误：更改粒度后，下次加载项目时又恢复为旧粒度。 </p> </td> 
+   <td colname="col2"> <p>我们重新设计了数据源（为可视化图表提供支持）的管理方式。在将数据源锁定到表时，不再提供单独的隐藏表。 </p> <p>我们而是会将可视化图表绑定到用于创建该可视化图表的表。这还将解决实时链接表存在的以下错误：更改粒度后，下次加载项目时又恢复为旧粒度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md"  > 突出显示特定异常的功能 </a></b> </p> </td> 
@@ -733,7 +736,7 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
    <td colname="col1"> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  > <b>流量</b></a>增强功能 </td> 
    <td colname="col2"> 
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1"> 
-     <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">添加了新的可视化设置，称为<span class="wintitle">禁用标签截断</span>（默认值 = 取消选中）。 </li> 
+     <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">添加了新的可视化图表设置，称为<span class="wintitle">禁用标签截断</span>（默认值 = 取消选中）。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -780,7 +783,7 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
    <td colname="col2"> <p>添加了以下热键： </p> 
     <ul id="ul_5AE965D910DA4883BC2067CDFDBBA75A"> 
      <li id="li_6DBD6DFB9CA54F89B9A0627F3B1D5928">alt + shift + 1 = 转到“面板”窗格 </li> 
-     <li id="li_1B7E7C1115A84DB8A1BC07EA1C3AB15F">alt + shift + 2 = 转到“可视化”窗格 </li> 
+     <li id="li_1B7E7C1115A84DB8A1BC07EA1C3AB15F">alt + shift + 2 = 转到“可视化图表”窗格 </li> 
      <li id="li_1BDB09DDEEDC4E7DB0D1C08A4E02A613">alt + shift + 3 = 转到“组件”窗格 </li> 
     </ul> </td> 
   </tr> 
@@ -801,7 +804,7 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  >“人员”模板</a> </p> </td> 
-   <td colname="col2"> <p>注意：“人员”模板及其关联的“人员”量度只能在 <a href="https://docs.adobe.com/content/help/en/device-co-op/using/data/people.html"  >Adobe Experience Cloud 设备协作</a>中使用。 </p> <p>该模板基于“人员”量度，“人员”量度是删除了重复数据的独特访客量度版本。通过“人员”量度可测量客户使用多个设备与您的品牌进行交互的频率。 </p> </td> 
+   <td colname="col2"> <p>注意：“人员”模板及其关联的“人员”量度只能在 <a href="https://docs.adobe.com/content/help/zh-Hans/device-co-op/using/data/people.html"  >Adobe Experience Cloud 设备协作</a>中使用。 </p> <p>该模板基于“人员”量度，“人员”量度是删除了重复数据的独特访客量度版本。通过“人员”量度可测量客户使用多个设备与您的品牌进行交互的频率。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>“撤消/重做”选项的改进 </p> </td> 
@@ -850,12 +853,12 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
    <td colname="col2"> <p>现在，您可以选择与所有接收人自动共享项目组件（区段、计算量度和日期范围）。共享后，这些组件将显示在接收人工作区的组件下拉菜单中。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>CSV 格式的流失可视化 </p> </td> 
-   <td colname="col2"> <p>添加了对 CSV 格式的流失可视化的支持。 </p> </td> 
+   <td colname="col1"> <p>CSV 格式的流失可视化图表 </p> </td> 
+   <td colname="col2"> <p>添加了对 CSV 格式的流失可视化图表的支持。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 区段中的日期范围 </a> </p> </td> 
-   <td colname="col2"> <p>您可以将日期范围放置到区段拖放区域（例如，面板区段拖放区域、流失可视化区段拖放区域等）。日期范围会自动转换为区段。日期范围可以是自定义，也可以是非自定义的，但不是诸如“小时/日/周/月/季度/年”之类的粒度。 </p> </td> 
+   <td colname="col2"> <p>您可以将日期范围放置到区段拖放区域（例如，面板区段拖放区域、流失可视化图表区段拖放区域等）。日期范围会自动转换为区段。日期范围可以是自定义，也可以是非自定义的，但不是诸如“小时/日/周/月/季度/年”之类的粒度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > 向表中的每一列添加一个时间段 </a> </p> </td> 
@@ -897,7 +900,7 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
  <tbody> 
   <tr> 
    <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md"  > 流失分析 </a></b> </td> 
-   <td colname="col2"> <p>新的流失功能将向 Analysis Workspace 中引入营销漏斗功能。通过使用漏斗，您可以确定客户在与您的网站或跨渠道营销活动进行交互时，从哪个位置放弃了营销活动或偏离了定义的转化路径。流失分析允许您通过新可视化及 Analysis Workspace 提供的原有灵活性生成强大的漏斗，以便识别关键成功量度的转化。通过流失分析，您可以 </p> <p> </p> 
+   <td colname="col2"> <p>新的流失功能将向 Analysis Workspace 中引入营销漏斗功能。通过使用漏斗，您可以确定客户在与您的网站或跨渠道营销活动进行交互时，从哪个位置放弃了营销活动或偏离了定义的转化路径。流失分析允许您通过新可视化图表及 Analysis Workspace 提供的原有灵活性生成强大的漏斗，以便识别关键成功量度的转化。通过流失分析，您可以 </p> <p> </p> 
     <ul id="ul_E7C8255BA5D84F74ABBC6CC0E148DFB0"> 
      <li id="li_B7AC104F2A9348DCB2BCAA2FC9D3F3E6">拖放和重新排列漏斗步骤（接触点） </li> 
      <li id="li_CC85524BC64546CD84794CC02C24CF21">分析多维度流失（混合和匹配来自不同维度和量度的值） </li> 
@@ -905,8 +908,8 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
     </ul> <p><img placement="break"  src="assets/fallout2.png" width="500px" id="image_193B0E7870734DAFA063BBFA121A3E34" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  > 流量可视化 </a></b> </td> 
-   <td colname="col2"> <p>新的流量功能允许您通过 Analysis Workspace 中新增和更新的灵活可视化，查看网站/应用程序的客户流量/行程，以便发现客户在网站/应用程序中的移动方式和进展情况。流量允许您 </p> <p> </p> 
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  > 流量可视化图表 </a></b> </td> 
+   <td colname="col2"> <p>新的流量功能允许您通过 Analysis Workspace 中新增和更新的灵活可视化图表，查看网站/应用程序的客户流量/行程，以便发现客户在网站/应用程序中的移动方式和进展情况。流量允许您 </p> <p> </p> 
     <ul id="ul_F1D4A99743664CB3B17E9485CF5E72FC"> 
      <li id="li_0F7AF953EAB746DC95032FF9A533E560">可视化客户在资产中的行程 </li> 
      <li id="li_697A47BE06CF4284ACA3DBE4CA4012BF">分析“登入”、“退出”或客户行程中某个特定维度项目后立即执行的后续步骤 </li> 
@@ -940,7 +943,7 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
     </ul> <p><img placement="break"  src="assets/starter.png" width="500px" id="image_A62AFD39812E43DCBF30D5E072A7E892" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md">直方图可视化</a></b> </td> 
+   <td colname="col1"> <b><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md">直方图可视化图表</a></b> </td> 
    <td colname="col2"> <p>用户可以使用直方图查看任何成功事件中用户的分布情况。您可以自定义存储段和存储段大小，以适应任何分布情况和标识高值和低值用户。 </p> <p><img placement="break"  src="assets/histogram3.png" width="500px" id="image_E3277073B50140E0A3FD7C1601CF9661" /> </p> </td> 
   </tr> 
   <tr> 
@@ -957,9 +960,9 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
      <li id="li_81D5241EA3FD49CEA0E9F412837D87A8"> 
       <!--AN-128702: -->已将 Analysis Workspace 教程的 YouTube 链接更新为：<a href="https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS"  >https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS</a>。 </li> 
      <li id="li_D81DB98C49664D2884CCCC1DB0058CD8"> 
-      <!--AN-124004:-->对于可视化，我们在上下文菜单中添加了一个名为<span class="uicontrol">从头开始</span>的右键单击选项（将用于流程图、维恩图和直方图），通过此选项可删除当前可视化的配置，并打开一个允许您对该可视化进行重新配置的新面板。 </li> 
-     <li id="li_84632BFCE1794B49A31FF45067FA04B7">名为“图例可视”的新可视化设置允许您隐藏概要数字/概要变化可视化的过滤器详细信息文本。 </li> 
-     <li id="li_EE8C48642DD54A04B08F4222F9565BF6">概要变化可视化图表的新可视化设置允许您使用“显示差异”查看 2 个百分比之间的差异。对于非百分比值，如果您选择“显示差异”选项，它将显示一个数字。 </li> 
+      <!--AN-124004:-->对于可视化图表，我们在上下文菜单中添加了一个名为<span class="uicontrol">从头开始</span>的右键单击选项（将用于流程图、维恩图和直方图），通过此选项可删除当前可视化图表的配置，并打开一个允许您对该可视化图表进行重新配置的新面板。 </li> 
+     <li id="li_84632BFCE1794B49A31FF45067FA04B7">名为“图例可视”的新可视化图表设置允许您隐藏概要数字/概要变化可视化图表的过滤器详细信息文本。 </li> 
+     <li id="li_EE8C48642DD54A04B08F4222F9565BF6">概要变化可视化图表的新可视化图表设置允许您使用“显示差异”查看 2 个百分比之间的差异。对于非百分比值，如果您选择“显示差异”选项，它将显示一个数字。 </li> 
      <li id="li_17AAABCA7B3A477182FB70453CA2EEBB">已调整时间维度的行数。 </li> 
      <li id="li_35A91D50CD514CD0B939C24AEEC64BF4">已更新区段生成器和计算量度生成器中左侧导航边栏的外观，使其更加接近于 Analysis Workspace。 </li> 
     </ul> </td> 
@@ -971,20 +974,20 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
 
 2016 年 6 月 16 日发布的新功能：
 
-* [新的组权限](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/user-product-management/user-groups/groups.html) ，允许管理员允许或拒绝用户访问> **[!UICONTROL Analytics]** 选 **[!UICONTROL Workspace]** 项卡的权限。 自 2016 年 6 月 16 日开始，所有用户都将拥有访问此选项卡的权限。要拒绝访问，只需要从“Analysis Workspace 访问”组中删除用户即可。
+* [新的组权限](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/user-product-management/user-groups/groups.html)让管理员可以允许或拒绝用户访问 **[!UICONTROL Analytics]** > **[!UICONTROL 工作区]**&#x200B;选项卡。自 2016 年 6 月 16 日开始，所有用户都将拥有访问此选项卡的权限。要拒绝访问，只需要从“Analysis Workspace 访问”组中删除用户即可。
 * The[区段比较面板](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)通过自动分析您有权访问的每个量度和维度，可发现任意两个区段之间的最显著统计学差异。
-* [新的项目菜单结构](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)重新排列了顶部菜单，提高了其可扩展性。例如，创建&#x200B;**新同类群组面板**&#x200B;的过程现在包括创建一个空白面板和拖入一个同类群组表可视化。
-* [新的左边栏](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：面板、可视化、组件
-* 新的[维恩图可视化类型](/help/analyze/analysis-workspace/visualizations/venn.md)允许您最多拖入 3 个区段和一个量度以构建维恩图。
+* [新的项目菜单结构](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)重新排列了顶部菜单，提高了其可扩展性。例如，创建&#x200B;**新同类群组面板**&#x200B;的过程现在包括创建一个空白面板和拖入一个同类群组表可视化图表。
+* [新的左边栏](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：面板、可视化图表、组件
+* 新的[维恩图可视化图表类型](/help/analyze/analysis-workspace/visualizations/venn.md)允许您最多拖入 3 个区段和一个量度以构建维恩图。
 * 排名表格中的[趋势选择](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)（折线图）现在已经关联。
 * [“创建可视化”图标](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)：单击此图标可在执行下一步操作（条形图、维恩图...）时提供智能推测。
 * 扩展了[手动行](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)功能
 * [添加区段](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)拖放区域
 * 次要更新：
 
-   * 能够删除面板中的所有可视化和项目中的所有面板。（以前，必须保留至少一个可视化或面板。）
-   * 更改了[快捷键](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)（热键），更便于在 Analysis Workspace 中使用。
-   * 样式更改：缩小了可视化中的字体；各行都具有颜色色板；向下移动了各个面板上的日期选择器。
+   * 能够删除面板中的所有可视化图表和项目中的所有面板。（以前，必须保留至少一个可视化图表或面板。）
+   * Changes to the [shortcut keys](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) (hotkeys) that can facilitate work with Analysis Workspace.
+   * 样式更改：缩小了可视化图表中的字体；各行都具有颜色色板；向下移动了各个面板上的日期选择器。
 
 ## 2016 年 4 月
 
@@ -1015,7 +1018,7 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
 
 * [撤消操作](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_12890C393D5E4FC8A3CF050318BD8482)
 * [链接至此项目](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_453E70F7409F4501B8E976A0D18C9A46)
-* [项目符号图表、散点图和树图可视化](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_B19EA50EBF5546E99D3A142827153FD6)
+* [项目符号图表、散点图和树图可视化图表](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_B19EA50EBF5546E99D3A142827153FD6)
 * [针对区段、量度和日期的另存为功能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_04C8B10A0751453AAE5F1BC35938C6CE)
 * [“添加新区段”按钮](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_85CC88C02C79456EA2B41F2BFBB64FC4)
 * [条件格式](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_5775B505D83041408B8C3EAEC5D7C32B)
@@ -1030,7 +1033,7 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
 
 您现在可以撤消在 Analysis Workspace 中执行的大部分操作。
 
-To undo, click **[!UICONTROL Undo]** from the action menu.
+要撤消操作，请在操作菜单中单击&#x200B;**[!UICONTROL 撤消]**。
 
 ![](assets/undo.png)
 
@@ -1040,7 +1043,7 @@ To undo, click **[!UICONTROL Undo]** from the action menu.
 
 非&#x200B;*`not`*&#x200B;不可撤消的操作：
 
-* Changing the configuration of a [!UICONTROL Cohort Table] (such as dragging metrics, changing values). 但是，单击后 **[!UICONTROL Undo]** 可单击 **[!UICONTROL Run]**。
+* 更改[!UICONTROL 同类群组表]的配置（例如，拖放量度、更改值）。但是，在单击&#x200B;**[!UICONTROL 运行]**&#x200B;后，您还可以单击&#x200B;**[!UICONTROL 撤消]**。
 
 * 调整面板和子面板大小，或者移动它们。
 
@@ -1051,15 +1054,15 @@ To undo, click **[!UICONTROL Undo]** from the action menu.
 
 ## 链接至此项目 {#section_453E70F7409F4501B8E976A0D18C9A46}
 
-In a project, click **[!UICONTROL Link to This Project]** from the Actions menu to email a saved project&#39;s URL to other users. 具有管理权限的收件人可编辑和保存以这种方式共享的项目。否则，这些项目为只读状态。
+在项目中，从“操作”菜单中单击&#x200B;**[!UICONTROL 链接至此项目]**，即可通过电子邮件将已保存项目的 URL 发送给其他用户。具有管理权限的收件人可编辑和保存以这种方式共享的项目。否则，这些项目为只读状态。
 
 ![](assets/link-to-this-project.png)
 
 >[!NOTE] 如果您的公司使用单点登录（旧版单点登录和通过 Experience Cloud 登录），则共享报表链接不可用。
 
-## 项目符号图表、散点图和树图可视化 {#section_B19EA50EBF5546E99D3A142827153FD6}
+## 项目符号图表、散点图和树图可视化图表 {#section_B19EA50EBF5546E99D3A142827153FD6}
 
-以下新的可视化信息将在 2016 年 1 月发行的版本中提供。
+以下新的可视化图表将在 2016 年 1 月发行的版本中提供。
 
 **项目符号图表**
 
@@ -1067,7 +1070,7 @@ In a project, click **[!UICONTROL Link to This Project]** from the Actions menu 
 
 ![](assets/bullet-image.png)
 
-项目符号图表提供一个主要的衡量标准（例如，本年至今的收入），将该衡量标准与一个或更多其他衡量标准进行比较，以丰富其含义（例如，与目标收入比较），并在性能定性范围（例如，高、中和低）的上下文中显示它。You can specify goal ranges in [!UICONTROL Visualization Settings].
+项目符号图表提供一个主要的衡量标准（例如，本年至今的收入），将该衡量标准与一个或更多其他衡量标准进行比较，以丰富其含义（例如，与目标收入比较），并在性能定性范围（例如，高、中和低）的上下文中显示它。您可以在[!UICONTROL 可视化设置]中指定目标范围。
 
 **散点图**
 
@@ -1087,21 +1090,21 @@ In a project, click **[!UICONTROL Link to This Project]** from the Actions menu 
 
 ## 针对区段、量度和日期的另存为功能 {#section_04C8B10A0751453AAE5F1BC35938C6CE}
 
-When editing an existing (saved) segment the Analysis Workspace Segment Builder, click **[!UICONTROL Save As]** to make a copy.
+在 Analysis Workspace 区段生成器中编辑现有（已保存）的区段时，单击&#x200B;**[!UICONTROL 另存为]**&#x200B;可生成一个副本。
 
 ![](assets/segment-save-as.png)
 
-The new segment displays in the [!UICONTROL Segments] group in the [!UICONTROL Components] panel.
+新区段显示在[!UICONTROL 组件]面板的[!UICONTROL 区段]组内。
 
-*`Save As`* 和 [!UICONTROL Calculated Metric Builder] 中 [!UICONTROL Date Range Builder]。
+*`Save As`*&#x200B;还可用于[!UICONTROL 计算量度生成器]和[!UICONTROL 日期范围生成器]。
 
 ## “添加新区段”按钮{#section_85CC88C02C79456EA2B41F2BFBB64FC4}
 
-The **[!UICONTROL Add New Segment]** button has been added to the location where you drag-and-drop segments onto a project.
+**[!UICONTROL 添加新区段]**&#x200B;按钮已被添加到您将区段拖放到项目中的位置。
 
 ![](assets/add-new-segment.png)
 
-This enhancement is helpful if you prefer to directly create segments when working in a project, rather than using the [!UICONTROL Segment] panel to create segments.
+如果您要在项目中工作时直接创建区段，而不是使用[!UICONTROL 区段]面板来创建区段，则此增强会非常有用。
 
 ## 条件格式 {#section_5775B505D83041408B8C3EAEC5D7C32B}
 
@@ -1139,19 +1142,19 @@ This enhancement is helpful if you prefer to directly create segments when worki
 
 ## 维度预览 {#section_F519EBF889B244E8B25BB6BA2833325A}
 
-In the [!UICONTROL Dimensions] component panel, you can hover over the information icon next to a dimension and see a top-five preview.
+在“维度”组件面板中，您可以将光标悬停在维度旁边的信息图标上方，并查看前五个维度的预览。
 
 ![](assets/dimension-preview.png)
 
 ## 图例可见 {#section_28D10D86CAE343AB838808C1DD2E7983}
 
-在选 [!UICONTROL Visualization Settings] 项中 **[!UICONTROL Legend Visible]** 显示或隐藏可视化的图例。
+在[!UICONTROL 可视化设置]中，**[!UICONTROL 图例可见]**&#x200B;选项可显示或隐藏可视化的图例。
 
 ![](assets/legend-visible.png)
 
 ## 将 Y 轴定位为 0 {#section_83DF5DE79EF04F9F8DCB3154F5E799B3}
 
-根据折线图和面积图的数字，Y 轴的底部可能不为 0。实 **[!UICONTROL Anchor Y Axis at Zero]** 现 [!UICONTROL Visualization Settings] 强制Y轴为零，以更准确地视图趋势。 以下示例显示收入图表在启用和禁用此设置的情况下有何变化：
+根据折线图和面积图的数字，Y 轴的底部可能不为 0。在&#x200B;**[!UICONTROL 可视化图设置]**&#x200B;中启用“[!UICONTROL 将 Y 轴定位为 0]”，可强制将 Y 轴设为 0，以便更加准确地查看趋势。以下示例显示收入图表在启用和禁用此设置的情况下有何变化：
 
 **将 Y 轴定位为 0 已禁用**
 
@@ -1169,4 +1172,4 @@ In the [!UICONTROL Dimensions] component panel, you can hover over the informati
 
 管理员可以将 [!UICONTROL Analysis Workspace] 项目从一名用户转移到另一用户。
 
-导航到 **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Transfer]** 以转移项目。
+导航至&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 转移]**，以便转移项目。
