@@ -4,8 +4,11 @@ keywords: Virtual Report Suite,VRS
 title: 虚拟报表包和多包标记注意事项
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+workflow-type: tm+mt
+source-wordcount: '1735'
+ht-degree: 100%
 
 ---
 
@@ -52,7 +55,7 @@ Adobe 客户关怀团队可以为少量维度增加唯一值限制，从而完�
 
 确保唯一维度和量度的数量适合单个全局报表包。如果您发现唯一维度或量度的数量过多，请检查每个实施中的每个维度。可能存在对业务成功不重要的重叠情况和维度。此外，还请考虑使用](/help/components/c-classifications2/c-classifications.md)分类[。例如，根据“产品”维度创建“产品名称”分类，而不是在 eVar5 中捕获“产品名称”。源报表包中的分类可自动用于任何从属虚拟报表包。
 
->[!TIP] 通过引入[管理](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md)，您现在可以基于每个 VRS 更改给定维度或量度的名称。
+>[!TIP] 通过引入[管理](/help/analyze/analysis-workspace/curate-share/curate.md)，您现在可以基于每个 VRS 更改给定维度或量度的名称。
 
 ### 分段细微差别
 
