@@ -5,8 +5,11 @@ subtopic: data feeds
 title: 数据列引用
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '3650'
+ht-degree: 99%
 
 ---
 
@@ -256,8 +259,8 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | `videoshow` | 视频表演 | varchar(255) |
 | `videoshowtype` | 视频表演类型 | varchar(255) |
 | `videostreamtype` | 视频流类型 | varchar(255) |
-| `visid_high` | 与 visid_low 结合使用，用来唯一标识访问。 | bigint，无符号 |
-| `visid_low` | 与 visid_high 结合使用，用来唯一标识访问。 | bigint，无符号 |
+| `visid_high` | 与visid_low结合使用，以唯一标识访客。 | bigint，无符号 |
+| `visid_low` | 与visid_high结合使用，以唯一标识访客。 | bigint，无符号 |
 | `visid_new` | 用于表示点击是否包含新生成的访客 ID 的标记。 | char(1) |
 | `visid_timestamp` | 如果访客 ID 是新生成的，则会提供用于表示访客 ID 生成时间的时间戳（基于 Unix 时间）。 | int |
 | `visid_type` | 数字 ID，表示用于标识访客的方法。<br>0：自定义访客 ID <br>1：IP 和用户代理回退 <br>2：HTTP Mobile 订阅者标头 <br>3：旧版 Cookie 值 (s_vi) <br>4：回退 Cookie 值 (s_fid) <br>5：Identity 服务 | tinyint，无符号 |
