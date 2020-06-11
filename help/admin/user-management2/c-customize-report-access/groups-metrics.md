@@ -6,7 +6,10 @@ title: 自定义量度权限
 topic: Admin tools
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 100%
 
 ---
 
@@ -15,25 +18,25 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 >[!IMPORTANT]
 >
->用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在迁移完所有客户之后，将撤销 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员工具]** > **[!UICONTROL 用户管理]**&#x200B;中的帮助内容。
 
 启用流量量度、转化量度、自定义事件、解决方案事件和内容识别的权限。
 
-**[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Metrics]** > **[!UICONTROL Customize]**
+**[!UICONTROL 用户管理]** > **[!UICONTROL 群组]** > **[!UICONTROL 报表访问]** > **[!UICONTROL 量度]** > **[!UICONTROL 自定义]**
 
-The settings on the Customize Metrics page apply to the report suites selected on the [!UICONTROL Define User Groups] page.
+“自定义量度”页面上的设置适用于在[!UICONTROL 定义用户群组]页面上选择的报表包。
 
 ![](assets/customize-metrics.png)
 
 ## 解决方案事件
 
-除[自定义事件](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html)之外，此类别还包含 Analytics 解决方案事件，包括 Experience Manager (AEM)、Advertising Cloud (AMO)、Mobile、Video 和 Social。具有任何量度的每个自定义群组会将所有 Analytics 解决方案事件添加为新量度。
+除[自定义事件](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/page-vars/events/event-serialization.html)之外，此类别还包含 Analytics 解决方案事件，包括 Experience Manager (AEM)、Advertising Cloud (AMO)、Mobile、Video 和 Social。具有任何量度的每个自定义群组会将所有 Analytics 解决方案事件添加为新量度。
 
 您可以设置“自定义事件”和 Analytics 解决方案事件（AEM、AMO、Mobile、Video 和 Social）的权限。
 
 具有任何量度的每个自定义群组会将所有 Analytics 解决方案事件添加为新量度。
 
-有关 Analytics 中使用的量度的信息，请参阅[量度概述](/help/components/c-variables/c-metrics/metricslist.md)。
+有关 Analytics 中使用的量度的信息，请参阅[量度概述](/help/components/metrics/overview.md)。
 
 ## 内容识别
 
