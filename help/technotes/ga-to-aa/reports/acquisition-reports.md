@@ -2,7 +2,10 @@
 title: Adobe Analytics 中的客户获取报表
 description: 了解如何使用 Analysis Workspace 创建基于客户获取的报表。
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1578'
+ht-degree: 100%
 
 ---
 
@@ -53,9 +56,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 有关各个维度的细信息，请参阅组件用户指南中的以下页面：
 
-* [反向链接域](/help/components/c-variables/dimensionslist/reports-referring-domains.md)
-* [反向链接类型](/help/components/c-variables/dimensionslist/reports-ref-types.md)
-* [搜索关键词](/help/components/c-variables/dimensionslist/reports-search-keywords.md)
+* [反向链接域](/help/components/dimensions/referring-domain.md)
+* [反向链接类型](/help/components/dimensions/referrer-type.md)
+* [搜索关键词](/help/components/dimensions/search-keyword.md)
 
 ## 所有流量 - 转接链接
 
@@ -65,7 +68,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 1. 在“组件”菜单中，找到&#x200B;**反向链接域**&#x200B;或&#x200B;**登入页面**&#x200B;维度，并将其拖动到标有“在此处放置维度”的大型自由格式表区域。
 2. 将所需的量度拖动到工作区上自动创建的&#x200B;**发生次数**&#x200B;量度旁边。有关如何获取各个量度的详细信息，请参阅[量度翻译指南](common-metrics.md)。
 
-有关更多信息，请参阅组件用户指南中的[反向链接域](/help/components/c-variables/dimensionslist/reports-referring-domains.md)维度。
+有关更多信息，请参阅组件用户指南中的[反向链接域](/help/components/dimensions/referring-domain.md)维度。
 
 ## Google Ads 报表和搜索控制台报表
 
