@@ -3,9 +3,9 @@ description: Workspace中的仅视图项目
 keywords: View-only projects
 title: 仅限视图的Workspace项目
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 8efbe8c64f32a64da0422611e0170b7135ad39d0
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '248'
 ht-degree: 2%
 
 ---
@@ -23,12 +23,13 @@ ht-degree: 2%
 
 * 隐藏的左边栏
 * 报表包
-* 面板日历日期范围注： 如果要向收件人授予日历控制权，请添加包含日 [期范围的下拉筛选器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)。
+* 面板日历日期范围。 注意： 如果要向收件人授予日历控制权，请添加包含日 [期范围的下拉筛选器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)。
 * 自由过滤
 * 可见行的自由形式数
 * 自由形式行、列或可视化设置
 * 面板段
 * 编辑、插入和组件菜单
+* 工作区提示
 
 ## 启用交互
 
