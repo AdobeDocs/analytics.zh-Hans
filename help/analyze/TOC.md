@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 68bdfc581751f81e02725446bc98a84a22bdadd0
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1098'
 ht-degree: 96%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 96%
          + [区段比较用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [细分比较中使用的统计测试](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 组织或共享项目 {#curate-share}
-      + [创建Workspace项目](analysis-workspace/curate-share/curate.md)
+      + [特选工作区项目](analysis-workspace/curate-share/curate.md)
       + [共享Workspace项目](analysis-workspace/curate-share/share-projects.md)
       + [仅限视图的Workspace项目](analysis-workspace/curate-share/view-only-projects.md)
       + [下载 PDF 或 CSV 文件](analysis-workspace/curate-share/download-send.md)
