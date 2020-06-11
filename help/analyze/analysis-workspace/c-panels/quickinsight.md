@@ -2,10 +2,10 @@
 description: Quick Insights是面向新Workspace用户的工具，可指导他们构建数据表和可视化
 title: “快速分析”面板
 translation-type: tm+mt
-source-git-commit: 354bc118c869bd926a1cef0a75f5133d1a410cd5
+source-git-commit: fe2fc0a89f033d78f142ec338db2f160005b4a5b
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 2%
+source-wordcount: '1066'
+ht-degree: 5%
 
 ---
 
@@ -14,13 +14,15 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL “快速分析]** ”面板当前处于有限测试中。 [了解更多](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
+>**[!UICONTROL “快速分析]** ”面板当前处于有限测试中。 [了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html)
 
-[!UICONTROL Quick Insights] 为非分析师和分析工作区新用户提 [!UICONTROL 供指导] ，了解如何快速轻松地回答业务问题。 对于希望快速回答简单问题的高级用户来说，它也是一个不错的工具，无需自己构建表。
+[!UICONTROL Quick Insights] 可为 [!UICONTROL Analysis Workspace] 的非分析师和新用户了解如何快速轻松地回答业务问题提供指导。对于希望快速回答简单问题的高级用户来说，它也是一个不错的工具，无需自己构建表。
 
 首次使用此开始工 [!UICONTROL 作区时]，您可能会想知道哪些可视化最有用，哪些维度和指标可以促进洞察、在何处拖放项目、在何处创建区段等。
 
-为了帮助您，并根据公司在 [!UICONTROL 分析工作区中对数据组件的使用], [!UICONTROL Quick Insights] 利用一种算法来向您展示公司使用的最流行维度、指标、细分和日期范围。
+为了帮助您，并根据公司在 [!UICONTROL 分析工作区中对数据组件的使用], [!UICONTROL Quick Insights] 利用一种算法来向您展示公司使用的最流行维度、指标、细分和日期范围。 事实上，您将在下拉列表中看到标记为“ [!UICONTROL Popular] ”的维度、指标和细分，如下所示：
+
+![](assets/popular-tag.png)
 
 [!UICONTROL 快速洞察] ，助您一臂之力
 
