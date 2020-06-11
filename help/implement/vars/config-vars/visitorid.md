@@ -1,8 +1,11 @@
 ---
 title: visitorID
 description: 使用自定义访客 ID。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 71%
 
 ---
 
@@ -33,3 +36,5 @@ Adobe 使用多种不同的方法识别您网站上的访客。`visitorID` 变�
 ```js
 s.visitorID = "abc123";
 ```
+
+>[!CAUTION] 自定义访客ID的无效实施可能导致数据不正确和报告性能不佳。 如果此变量包含默认值(如 `"0"` 或 `"NULL"`),Adobe会将这些点击视为相同的访客。 这种情况导致数据不正确，访客数量低，访客级别段无法按预期工作。 未正确实现的自定义访客ID也给处理服务器带来沉重负载，增加 [延迟](/help/technotes/latency.md) ，降低报告性能。
