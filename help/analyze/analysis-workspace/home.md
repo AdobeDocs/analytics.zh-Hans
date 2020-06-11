@@ -4,7 +4,7 @@ title: Analysis Workspace 概述
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: d8db32a76b93e9687b28125050224857b598d82d
+source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 32%
@@ -20,7 +20,7 @@ ht-degree: 32%
 
 Analysis Workspace 去除了单一 Analytics 报表存在的所有典型限制。它提供了一个功能强大而灵活的画布，用于构建自定义分析项目。您可以向一个项目拖放任意数量的数据表、可视化图表和组件（维度、量度、区段和时间粒度）。可以即时创建划分和区段、创建用于分析的同类群组、创建警报、比较区段、进行流量和流失分析，并且组织和计划报表以与公司的其他人员共享。
 
-本页包含入门的基本说明。 掌握基础知识后，您可以转到Workspace的高级功能。 其中包括 [IQ](/help/analyze/analysis-workspace/attribution-iq.md)、异常 [检测、贡](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)献分析 [、](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)细分IQ [、、智](/help/analyze/analysis-workspace/segment-iq.md)[](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)能警报和。
+本页包含入门的基本说明。 掌握基础知识后，您可以转到Workspace的高级功能。 其中包括 [IQ](/help/analyze/analysis-workspace/attribution/overview.md)、异常 [检测、贡](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)献分析 [、](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)细分IQ [、、智](/help/analyze/analysis-workspace/segment-iq.md)[](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)能警报和。
 
 以下是Workspace的视频概述：
 
