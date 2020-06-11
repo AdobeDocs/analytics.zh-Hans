@@ -3,8 +3,11 @@ product: analytics
 audience: all
 user-guide-title: Analytics 技术说明
 user-guide-url: /content/help/en/analytics/technotes/home.html
-translation-type: ht
-source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
+translation-type: tm+mt
+source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 100%
 
 ---
 
@@ -48,5 +51,4 @@ source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
 + [登录疑难解答](troubleshoot-login.md)
 + [注销疑难解答](troubleshoot-sessions.md)
 + [未指定、其他和未知](unspecified.md)
-+ [访客识别](visitor-identification.md)
 + [访客迁移](visitor-migration.md)
