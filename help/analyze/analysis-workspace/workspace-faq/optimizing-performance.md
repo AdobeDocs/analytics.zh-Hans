@@ -2,8 +2,11 @@
 description: 'null'
 title: 优化 Analysis Workspace 性能
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
-translation-type: ht
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+translation-type: tm+mt
+source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
+workflow-type: tm+mt
+source-wordcount: '1263'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 * 运算符：“包含”、“包含任意”、“匹配”、“开始于”或“结束于”
 * 连续分段，尤其是使用维度限制（之内/之后）时的连续分段
 * 维度内区段中使用的唯一维度项目数（例如，在 Page = &#39;A&#39; 的情况下，页面具有 10 个唯一项目的查询速度将比页面具有 100,000 个唯一项目的查询速度更快）
-* 使用的不同维度的数量（例如，Page = &#39;Home&#39; 和 Page = &#39;Search results&#39; 的查询速度将比 eVar 1 =&#39;red&#39; 和 eVar 2 =&#39;blue&#39; 更快）
+* 使用的不同维度的数量（例如，Page = &#39;Home&#39; 和 Page = &#39;Search results&#39; 的查询速度将比 eVar 1 =&#39;red&#39; 和 eVar 2 =&#39;blue&#39; 更快）)
 * 许多“或”运算符（而不是“和”）
 * 嵌套容器的范围不同（例如，“访客”中“访问次数”内的“点击”）
 
@@ -103,5 +106,5 @@ source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 | `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | Adobe 遇到了一个需要解决的问题。我们建议您通过“客户关怀”请求提交错误代码。 |
 | `The request is too complex.` | 您的报表请求过大，无法执行。导致此错误的因素包括：因请求的大小、区段或搜索过滤器中的匹配项过多、包含的量度过多、维度与量度组合不兼容等原因而导致的各种超时。我们建议简化您的请求。 |
 | `One of the segments or the search in this visualization contains a text search that returned too many results.` | 我们建议缩小搜索文本标准并再次尝试请求。 |
-| `This dimension does not currently support non-default attribution models.` | 我们建议将表格中的维度替换为与[归因 IQ](/help/analyze/analysis-workspace/c-panels/attribution/attribution.md) 兼容的维度。 |
+| `This dimension does not currently support non-default attribution models.` | 我们建议将表格中的维度替换为与[归因 IQ](../attribution/overview.md) 兼容的维度。 |
 | `Your request failed as a result of too many columns or pre-configured rows.` | 我们建议移除一些列或行，或者考虑将它们拆分为单独的可视化图表。 |
