@@ -2,7 +2,10 @@
 title: Adobe Analytics 中的转化报表
 description: 了解如何在 Adobe Analytics 中使用转化报表。
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1049'
+ht-degree: 100%
 
 ---
 
@@ -39,7 +42,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 电子商务报表通常由销售产品或服务的网站用来衡量购买物品的订单数和收入。此功能在 Adobe Analytics 中可用，称为“产品”报表。
 
-Google Analytics 中的电子商务报表和 Adobe Analytics 中的产品报表都需要自定义实施更改才能使用。有关更多信息，请参阅组件用户指南中的[产品](/help/components/c-variables/dimensionslist/reports-products.md)维度。
+Google Analytics 中的电子商务报表和 Adobe Analytics 中的产品报表都需要自定义实施更改才能使用。有关更多信息，请参阅组件用户指南中的[产品](/help/components/dimensions/product.md)维度。
 
 ## 多渠道漏斗报表
 
