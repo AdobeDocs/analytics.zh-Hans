@@ -3,7 +3,10 @@ description: 列设置允许您配置列格式，其中一些可以是条件格�
 title: 列设置
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+workflow-type: tm+mt
+source-wordcount: '655'
+ht-degree: 96%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 列设置 {#section_C5A9C13553BF4BFDAD7FACE0139AECA3}
 
-To access [!UICONTROL Column Settings], drag a Freeform Table to the project, then click the gear icon in the column heading.
+要访问“[!UICONTROL 列设置]”，请将自由格式表拖到项目中，然后单击列标题中的齿轮图标。
 
 ![](assets/column_settings.png)
 
@@ -46,6 +49,19 @@ To access [!UICONTROL Column Settings], drag a Freeform Table to the project, th
 | 自动生成 | 自动生成条件格式的限制。上限为此列中的最大值。下限为最小值，中点为上限和下限的平均值。 |
 | 自定义 | 您可以为条件格式手动分配上限、中点和下限字段的值。这可以让您灵活地决定列值何时为好、中或差。 |
 | 表单元格预览 | 显示应用当前所选的格式选项时，每个单元格的预览效果。 |
+
+## 使用非默认的属性模型
+
+分析工作区支 [持几乎](../../attribution/overview.md) 任何指标的归因。
+
+1. 单击“自由格式表”列中的“设置”（齿轮）图标。
+
+   ![归因复选框](assets/attribution-checkbox.png)
+
+2. 在&#x200B;**[!UICONTROL 数据设置]**&#x200B;下，选中&#x200B;**[!UICONTROL 使用非默认归因模型]**。For more information on different attribution models, see [Attribution models](../../attribution/models.md).
+
+   ![选择归因模型](assets/attribution-select.png)
+
 
 >[!MORELIKETHIS]
 >
