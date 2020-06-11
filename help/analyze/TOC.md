@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 68bdfc581751f81e02725446bc98a84a22bdadd0
+source-git-commit: f87f0fc7de15371dcfac739611ea63c41328303c
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1101'
 ht-degree: 96%
 
 ---
@@ -80,11 +80,7 @@ ht-degree: 96%
    + 面板 {#panels}
       + [面板概述](analysis-workspace/c-panels/panels.md)
       + [目标分析(A4T)面板](analysis-workspace/c-panels/a4t-panel.md)
-      + Attribution panel {#attribution}
-         + [归因概述](analysis-workspace/c-panels/attribution/attribution.md)
-         + [使用“归因”面板](analysis-workspace/c-panels/attribution/use-attribution.md)
-         + [归因常见问题解答](analysis-workspace/c-panels/attribution/attribution-faq.md)
-         + [算法属性](analysis-workspace/c-panels/attribution/algorithmic.md)
+      + [归因面板](analysis-workspace/c-panels/attribution.md)
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
       + [自由格式面板](analysis-workspace/c-panels/freeform-panel.md)
       + [“快速分析”面板](analysis-workspace/c-panels/quickinsight.md)
@@ -100,7 +96,11 @@ ht-degree: 96%
       + [共享和计划项目文件](analysis-workspace/curate-share/send-schedule-files.md)
       + [发送文件 - 计划交付项目](analysis-workspace/curate-share/t-schedule-report.md)
       + [计划项目管理器](analysis-workspace/curate-share/schedule-projects.md)
-   + [归因 IQ](analysis-workspace/attribution-iq.md)
+   + 归因 IQ {#attribution}
+      + [归因概述](analysis-workspace/attribution/overview.md)
+      + [归因模型和回顾窗口](analysis-workspace/attribution/models.md)
+      + [算法属性](analysis-workspace/attribution/algorithmic.md)
+      + [常见问题解答](analysis-workspace/attribution/faq.md)
    + [区段 IQ](analysis-workspace/segment-iq.md)
    + 虚拟分析师 {#virtual-analyst}
       + [虚拟分析师概述](analysis-workspace/virtual-analyst/overview.md)
@@ -295,12 +295,14 @@ ht-degree: 96%
    + [功能板和缩图报表](reports-analytics/dashboard.md)
    + [功能板管理器](reports-analytics/dashboard-manage.md)
    + [数据提取](reports-analytics/data-extract.md)
+   + [漏斗报表](reports-analytics/funnels.md)
    + [量度](reports-analytics/metrics.md)
    + [目标](reports-analytics/targets.md)
    + [警报](reports-analytics/alerts.md)
    + [日历事件](reports-analytics/t-calendar-event.md)
    + [Data Warehouse 请求](reports-analytics/data-warehouse.md)
    + [常见问题解答](reports-analytics/frequently-asked-questions.md)
+   + [故障诊断](reports-analytics/report-troubleshooting.md)
 + Ad Hoc Analysis {#ad-hoc-analysis}
    + Ad Hoc Analysis 项目转换器 {#aha-project-converter}
       + [Ad Hoc Analysis 项目转换器概述](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
