@@ -3,17 +3,17 @@ description: Workspace中的项目共享和项目角色
 keywords: Analysis Workspace sharing
 title: 共享Workspace项目
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 529812c3e26744ce245ee12e24c58b7bee803084
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 8%
+source-wordcount: '658'
+ht-degree: 9%
 
 ---
 
 
 # 共享Workspace项目
 
-共享使项目可供您组织中的其他分析Workspace用户使用。 收件人打开项目时，您所做的任何特选都会反映出来。
+共享使项目可供您组织中的其他分析Workspace用户使用。 在收件人 [打开](curate.md) 项目时，您所应用的任何特选内容都会反映出来。
 
 ## 项目角色
 
@@ -28,15 +28,15 @@ ht-degree: 8%
 | 可以复制 | 收件人可以执行“另存为”操作，并且可以访问左边栏。交互不受限制。<br>如果您希望将项目共享给了解组织数据以及如何使用分析工作区的用户，但不希望更改保存的项目，则此角色非常有用。 |
 | 可以查看 | 收件人不能另存为，也无权访问左边栏。 交互也是有限的。<br>如果您希望将项目共享给不太熟悉您组织的分析结构、Adobe Workspace或Adobe Analytics的用户，则此角色非常有用。 但是，您仍希望他们在一个安全的环境中使用数据和洞察。<br>进一步了解 [Can视图项目体验](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)。 |
 
-**未分配角色**
+### 未分配角色
 
 如果收件人未分配角色，并收到指向项目的链接(“共[!UICONTROL 享] ”>“获 [!UICONTROL 取项目链接]”)，则默认情况下，他们将被置  于“能视图”角色中。
 
-**分配了多个角色**
+### 分配了多个角色
 
 如果收件人被置于多个角色中，他们将始终获得最高控制权。 如果将用户添加为个人和组的一部分，则可能会发生这种情况。 例如，如果用户1被赋予“Can edit”和“ [!UICONTROL Can视图] ”角色，则他们将 [!UICONTROL 对项目拥有] “Can edit”控制。
 
-**管理员和角色**
+### 管理员和角色
 
 处于“可重复 [!UICONTROL”或“] 可视图”角色的管理 [!UICONTROL 员在打开项目时] ，将收到这些有限的体验。 如果需要，管理员可以通过“组件”>“项 [!UICONTROL 目”随时将其角] 色增加为“ [!UICONTROL 可以编] 辑” [!UICONTROL 的角]色。
 
@@ -75,7 +75,3 @@ ht-degree: 8%
    * 项目A: 1, 2, 3, 4, 7
    * 项目B: 4, 5, 6, 7
    ![](assets/mult-proj-sharing.png)
-
-## 计划项目
-
-还可以从“共享”菜单 [!UICONTROL 将项目] 计划到“立 [!UICONTROL 即发送文件] ”或“ [!UICONTROL 计划发送文件”]。 交付文件的格式可以是PDF或CSV。 进一步了解 [项目计划](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html)。
