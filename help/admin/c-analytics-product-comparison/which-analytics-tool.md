@@ -3,9 +3,9 @@ description: 本帮助页面包含每个 Adobe Analytics 工具的推荐使用�
 title: 我应该使用哪种 Adobe Analytics 工具？
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 8e8eb2c7787f97104c983cc4b0f11e5ed57de069
+source-git-commit: c53580905e6bb22b9cdb2917734a189e1f83d72f
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1102'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 100%
 
 * 适用于需要将数据上载到 Adobe Analytics，但无法使用 Adobe AppMeasurement 或移动 SDK 代码的情况。
 
-**[客户属性](/help/components/c-variables/dimensionslist/reports-customer-attributes.md)**的使用说明：
+**[客户属性](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/customer-attributes/attributes.html)**的使用说明：
 
 * 适用于您在客户关系管理 (CRM) 数据库中捕获了企业客户数据，并希望将该数据上载到 Experience Cloud 的情况。
 * 适用于要在 Analytics 中使用 CRM 数据进行更深入的分析，或要在 Adobe Target 中将该数据作为定位条件的情况。
