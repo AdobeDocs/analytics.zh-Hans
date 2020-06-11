@@ -1,18 +1,21 @@
 ---
 description: 您可以立即或按计划共享并组织项目以及发送项目文件（PDF 或 CSV 格式）。
-title: 共享和计划项目文件
+title: 共享菜单
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: d1e3daa8b13b148191583e678cd58f415701d407
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 96%
 
 ---
 
 
-# 共享和计划项目文件
+# 共享菜单
 
 您可以立即或按计划共享并组织项目以及发送项目文件（PDF 或 CSV 格式）。
 
-**[!UICONTROL Workplace]** > **[!UICONTROL Share]**
+**[!UICONTROL Workplace]** > **[!UICONTROL 共享]**
 
 <table id="table_5104A6D817E94A268BBDD47C5C8BB26E"> 
  <thead> 
@@ -24,7 +27,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> 共享项目 </td> 
-   <td colname="col2"><a href="/help/analyze/analysis-workspace/curate-share/curate.md"  > 更多信息</a> </td> 
+   <td colname="col2"><a href="/help/analyze/analysis-workspace/curate-share/share-projects.md"  > 更多信息</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 获取项目链接 </td> 
