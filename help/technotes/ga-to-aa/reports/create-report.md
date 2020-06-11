@@ -2,7 +2,10 @@
 title: 在 Analysis Workspace 中创建基本报表
 description: 了解如何在 Analysis Workspace 中以某种格式创建基本报表，适用于熟悉 Google Analytics 等第三方工具的用户。
 translation-type: tm+mt
-source-git-commit: 099662d021c1919f0760e79154536cfd0e23e959
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '854'
+ht-degree: 100%
 
 ---
 
@@ -36,7 +39,7 @@ Analysis Workspace（Adobe Analytics 中的主要功能之一）为用户提供�
 1. 单击“新建项目”按钮。
 1. 在模态弹出窗口中，确保选择“空白项目”，然后单击“创建”。
 1. 在左侧，将显示维度、量度、区段和日期范围列表。找到“页面”维度（橙色），并将其拖动到标有“在此处放置维度”的画布上。
-1. 此时可以看到显示本月排名最前的页面的报表。Analysis Workspace 会自动使用[发生次数](/help/components/c-variables/c-metrics/metrics-occurrences.md)量度填充报表。
+1. 此时可以看到显示本月排名最前的页面的报表。Analysis Workspace 会自动使用[发生次数](/help/components/metrics/occurrences.md)量度填充报表。
 1. Google Analytics 中的表通常包含 7 - 8 个量度。找到“弹出率”量度（绿色），并将其拖动到“发生次数”量度标题旁边。如果将“弹出率”量度拖动到“发生次数”旁边，则这两个量度会并排显示。
 1. 通过将度量拖动到现有度量标题旁边，可以并排放置多个量度。有关如何获取 Google Analytics 中常用量度的信息，请参阅[常用量度](common-metrics.md)。
 
