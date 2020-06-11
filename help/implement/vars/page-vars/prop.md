@@ -1,19 +1,24 @@
 ---
 title: prop
 description: 可在实施中使用的自定义变量。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+workflow-type: tm+mt
+source-wordcount: '484'
+ht-degree: 81%
 
 ---
 
 
 # prop
 
-Prop 是自定义变量，您可以根据需要随意使用。
+*此帮助页介绍如何实施prop。 For information on how props work as a dimension, see[prop](/help/components/dimensions/prop.md)in the Components user guide.*
 
->[!TIP] Adobe 建议在大多数情况下使用 eVar。在 Adobe Analytics 的早期版本中，prop 和 eVar 各有利弊。但是，Adobe 已改进 eVar，现在几乎可以满足 prop 的所有用例。请参阅 [eVar](evar.md) 以了解这两种自定义变量类型之间的特性比较。
+Prop 是自定义变量，您可以根据需要随意使用。它们不会超越它们设定的冲击。
 
-如果贵组织使用 prop，请确保在[解决方案设计文档](../../prepare/solution-design.md)中记录其使用方式和逻辑。
+> [!TIP][ Adobe 建议在大多数情况下使用 eVar。](evar.md)在 Adobe Analytics 的早期版本中，prop 和 eVar 各有利弊。但是，Adobe 已改进 eVar，现在几乎可以满足 prop 的所有用例。
+
+如果您有解决 [方案设计文档](/help/implement/prepare/solution-design.md)，则可以将这些自定义维度分配给特定于您的组织的值。 可用Prop的数量取决于您与Adobe的合同。 如果您与Adobe的合同支持，则最多可获得75个Prop。
 
 ## Adobe Experience Platform Launch 中的 Prop
 
@@ -26,7 +31,7 @@ Prop 是自定义变量，您可以根据需要随意使用。
 5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
 6. 找到[!UICONTROL 属性]部分。
 
-您可以选择 prop 来设置值或数据元素。您还可以从其他 Analytics 变量复制值。
+您可以将prop设置为值或数据元素。 您还可以从其他 Analytics 变量复制值。
 
 ## AppMeasurement 和 Launch 自定义代码编辑器中的 s.prop1 - s.prop75
 
@@ -44,7 +49,7 @@ s.prop1 = "Example custom value";
 
 在报表包设置中启用列表属性。请参阅管理员用户指南中的[流量变量](/help/admin/admin/c-traffic-variables/traffic-var.md)。确保正确配置所需的分隔符。Adobe 不提供默认分隔符。
 
->[!TIP] 实施中使用的常见分隔符为逗号 (`,`)、冒号 (`:`)、分号 (`;`) 或管道字符 (`|`)。您可以使用最适合您的实施的任何分隔符。
+> [!TIP] 实施中使用的常见分隔符为逗号 (`,`)、冒号 (`:`)、分号 (`;`) 或管道字符 (`|`)。您可以使用最适合您的实施的任何分隔符。
 
 ### 设置列表属性
 
@@ -55,6 +60,6 @@ s.prop1 = "Example custom value";
 s.prop1 = "value1,value2,value3";
 ```
 
->[!IMPORTANT] 列表属性仍受最大长度为 100 字节的限制。列表属性更容易达到此限制并被截断，因为它们可能会包含多个值。如果可能会达到此 100 字节限制，请考虑使用缩写或将值缩短。
+> [!IMPORTANT] 列表属性仍受最大长度为 100 字节的限制。列表属性更容易达到此限制并被截断，因为它们可能会包含多个值。如果可能会达到此 100 字节限制，请考虑使用缩写或将值缩短。
 
 如果在列表属性中多次设置相同的值，则会在报表中删除重复值。Analysis Workspace 会计算出现某个值的点击次数，而不是计算某个值在数据中存在的次数。
