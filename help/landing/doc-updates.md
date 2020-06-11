@@ -3,7 +3,7 @@ title: Adobe Analytics 技术文档更新
 description: 对 Adobe Analytics 文档存储库的重要更新。
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 816a83a3911250460e26fac9469f604b7616560a
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 98%
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 | 页面 | 描述 |
 |---|---|
-| 2020 年 4 月 28 日 | 添加了有关[内容周转率](/help/components/c-variables/c-metrics/metrics-content-velocity.md)￼量度的文档。 |
+| 2020 年 4 月 28 日 | 添加了有关[内容周转率](/help/components/metrics/content-velocity.md)￼量度的文档。 |
 | 2020 年 3 月 12 日 | 添加了[将区段发布到 Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md) 的更新。 |
 | 2020 年 3 月 12 日 | 更新了 CDA 拼合延迟。 |
 | 2020 年 2 月 27 日 | 添加了有关 [Adobe Analytics Labs](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/tech-previews/overview.html) 的文档。 |
