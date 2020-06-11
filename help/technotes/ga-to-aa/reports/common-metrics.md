@@ -2,7 +2,10 @@
 title: 其他平台上常用的量度翻译指南
 description: 了解如何使用 Google Analytics 用户更熟悉的术语提取许多常见报表的量度数据。
 translation-type: tm+mt
-source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '503'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
 
 ## 客户获取量度
 
-**用户**&#x200B;大致相当于 Workspace 中的&#x200B;**独特访客**。有关更多详细信息，请参阅组件用户指南中的[独特访客](/help/components/c-variables/c-metrics/metrics-unique-visitors.md)。
+**用户**&#x200B;大致相当于 Workspace 中的&#x200B;**独特访客**。有关更多详细信息，请参阅组件用户指南中的[独特访客](/help/components/metrics/unique-visitors.md)。
 
 可通过以下方式获取&#x200B;**新用户**：
 
@@ -26,13 +29,13 @@ source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
 
    ![第一次访问](../assets/first_time_visits.png)
 
-**会话次数**&#x200B;大致相当于 Analysis Workspace 中的&#x200B;**访问次数**。有关更多详细信息，请参阅组件用户指南中的[访问次数](/help/components/c-variables/c-metrics/metrics-visit.md)量度。
+**会话次数**&#x200B;大致相当于 Analysis Workspace 中的&#x200B;**访问次数**。有关更多详细信息，请参阅组件用户指南中的[访问次数](/help/components/metrics/visits.md)量度。
 
 ![客户获取量度](../assets/acquisition_metrics.png)
 
 ## 行为量度
 
-**跳出率**&#x200B;可在 Analysis Workspace 中作为量度使用。有关更多信息，请参阅组件用户指南中的[跳出率](/help/components/c-variables/c-metrics/metrics-bounce-rate.md)量度。
+**跳出率**&#x200B;可在 Analysis Workspace 中作为量度使用。有关更多信息，请参阅组件用户指南中的[跳出率](/help/components/metrics/bounce-rate.md)量度。
 
 **页面/会话**&#x200B;是一个计算量度。可以通过以下方式获得：
 
@@ -48,9 +51,9 @@ source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
 7. 单击“保存”以返回工作区。
 8. 将新定义的计算量度拖动到工作区上。
 
-   您可在组件用户指南中了解有关[计算量度](/help/components/c-variables/c-metrics/calculated-metric.md)的更多信息。
+   您可在组件用户指南中了解有关[计算量度](/help/components/c-calcmetrics/cm-overview.md)的更多信息。
 
-**平均会话持续时间**&#x200B;大致相当于&#x200B;**每次访问逗留时间（秒）**。您可在组件用户指南中了解有关[逗留时间](/help/components/c-variables/c-metrics/metrics-time-spent.md)的更多信息。
+**平均会话持续时间**&#x200B;大致相当于&#x200B;**每次访问逗留时间（秒）**。Learn more about [Time spent per visit](/help/components/metrics/time-spent-per-visit.md) metrics in the Components user guide.
 
 ## 转化率量度
 
