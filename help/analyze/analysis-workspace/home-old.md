@@ -3,7 +3,10 @@ description: 如何开始使用 Adobe Analytics。
 keywords: Analysis Workspace
 title: 入门指南
 translation-type: tm+mt
-source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1337'
+ht-degree: 100%
 
 ---
 
@@ -26,9 +29,9 @@ Analysis Workspace 是 Adobe 的一款旗舰工具，可用于为您的组织制
 4. 单击“新建项目”按钮。
 5. 在模态弹出窗口中，确保选择“空白项目”，然后单击“创建”。
 6. 在左侧，您应该会看到维度、量度、区段和日期范围的列表。找到“页面”维度（橙色），并将其拖动到画布上，其中显示“将维度放置在此处”。
-7. 请注意，如果报表包包含数据，则可以看到显示当月热门页面的报表。Analysis Workspace 会自动使用[发生次数](/help/components/c-variables/c-metrics/metrics-occurrences.md)量度填充报表。
+7. 请注意，如果报表包包含数据，则可以看到显示当月热门页面的报表。Analysis Workspace 会自动使用[发生次数](/help/components/metrics/occurrences.md)量度填充报表。
 8. 找到“访问次数”量度（绿色），将其拖动到“发生次数”量度标头的&#x200B;**上面**&#x200B;或&#x200B;**旁边**（避免将“访问次数”量度置于“发生次数”的上方）。如果将“访问次数”量度拖动到“发生次数”的上方，则报表中的“发生次数”量度会被替换。如果将“访问次数”量度拖动到“发生次数”旁边，则这两个量度会并排显示。
-9. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
+9. 如果要保存项目，请单击左上角菜单中的&#x200B;*[!UICONTROL 项目]>[!UICONTROL 保存]*。
 
 ## 在工作区中提取基本的趋势报表
 
@@ -44,13 +47,13 @@ Analysis Workspace 是 Adobe 的一款旗舰工具，可用于为您的组织制
 8. 在左侧的日期范围组件列表中找到“周”日期范围（紫色）。单击日期范围标题可展开并查看所有日期范围组件，或使用搜索栏。
 9. 将“周”日期范围拖动到画布上的“日”日期范围标题上方可将其替换。
 10. 请注意，现在按“周”而不是按“日”来汇总您的趋势报表。
-11. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
+11. 如果要保存项目，请单击左上角菜单中的&#x200B;*[!UICONTROL 项目]>[!UICONTROL 保存]*。
 
 ## 试用该工具
 
 由于 Analysis Workspace 是一款报表工具，因此不会对数据收集产生任何影响。您可以不加选择地将组件拖到项目中来查看具体效果，这不会产生任何影响。将不同的维度和量度组合拖动到工作区项目中，可查看相应的效果。
 
-如果意外地将无效组件拖动到工作区项目，或者希望返回到上一个步骤，请按 Ctrl + Z (Windows) 或 cmd + Z (Mac) 以撤消上一个操作。You can also start with a clean slate by clicking *[!UICONTROL Project]>[!UICONTROL New]*in the upper left menu.
+如果意外地将无效组件拖动到工作区项目，或者希望返回到上一个步骤，请按 Ctrl + Z (Windows) 或 cmd + Z (Mac) 以撤消上一个操作。此外，您还可以通过单击左上角菜单中的&#x200B;*[!UICONTROL 项目]>[!UICONTROL 新建]*&#x200B;来重头开始创建。
 
 ## 故障诊断
 
@@ -71,7 +74,7 @@ Analysis Workspace 是 Adobe 的一款旗舰工具，可用于为您的组织制
 
 * [Analysis Workspace 发行说明](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)：仔细研读该工具中引入的最新功能。
 * [YouTube 上的 Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)：通过这个内容丰富的播放列表，了解如何使用 Analysis Workspace 中的大多数功能。
-* 产品内提示：Analysis Workspace 的右下角不时会显示“每日提示”和一些简短视频。If these tips are dismissed, they can be reached through *[!UICONTROL Help]>[!UICONTROL Tips]*at any time.
+* 产品内提示：Analysis Workspace 的右下角不时会显示“每日提示”和一些简短视频。如果取消这些提示，您可以随时通过&#x200B;*[!UICONTROL 帮助]>[!UICONTROL 提示]*&#x200B;来访问它们。
 * [Analysis Workspace 社区](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace)：与同事讨论 Analysis Workspace，并就您希望在工具中看到的功能进行投票。
 * 博客文章：
    * [使组织拥有更智能的分析功能](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/)
@@ -87,7 +90,7 @@ Analysis Workspace 是 Adobe 的一款旗舰工具，可用于为您的组织制
 ### 对于希望拓展有关如何使用 Analysis Workspace 相关知识的最终用户
 
 * [关于工作区 UI 的详细信息](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)：既然您已创建了基础报表，那么应该更加熟悉用户界面的其余部分。
-* [工作区中的可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)：自由格式表只是 Analysis Workspace 中可视化图表的一种类型。了解如何使用其他可视化图标，例如折线图、条形图和地理地图。
+* [工作区中的可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)：自由格式表只是 Analysis Workspace 中可视化图表的一种类型。了解如何使用其他可视化图表，例如折线图、条形图和地理地图。
 * [工作区中的维度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)：了解有关什么是维度及如何在排名报表等表格中使用维度的更多信息。
 * [工作区中的量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)：了解有关什么是量度及如何在自由形式表的其他部分中使用量度的更多信息。
 * [区段简介](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)：了解什么是区段，并使用区段提取基本报告。
@@ -95,7 +98,7 @@ Analysis Workspace 是 Adobe 的一款旗舰工具，可用于为您的组织制
 * 在工作区中共享项目：向您的同事展示您创建的精彩工作区项目。
 * [（高级）工作区中的面板](/help/analyze/analysis-workspace/c-panels/panels.md)：使用工作区中的高级功能，例如“归因”和“区段比较”。
 
-### 针对希望提高组织内Workspace质量的分析师和管理员
+### 对于希望提高组织中工作区质量的分析师和管理员
 
 * [Analysis Workspace 权限](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-getting-started.html)：通过 Adobe Admin Console 向用户分配工作区权限。
 * [工作区中的模板](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)：创建模板，让您的同事可以开始根据自己的需求定制项目空间。
