@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 实施指南
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 245aa818c39f34dab83f061359469c7f77346d3b
+source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 92%
+source-wordcount: '443'
+ht-degree: 98%
 
 ---
 
@@ -60,6 +60,7 @@ ht-degree: 92%
       + [contextData](vars/page-vars/contextdata.md)
       + [动态变量](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
+      + [eVar（销售）](vars/page-vars/evar-merchandising.md)
       + events {#events}
          + [事件概述](vars/page-vars/events/events-overview.md)
          + [购买事件](vars/page-vars/events/event-purchase.md)
@@ -154,7 +155,7 @@ ht-degree: 92%
    + [部署到开发环境](launch/deploy-dev.md)
    + [验证并发布到生产环境](launch/validate-publish-prod.md)
    + [将数据层对象映射到数据元素](launch/layer-to-elements.md)
-   + [将启动数据元素映射到Analytics变量](launch/elements-to-variable.md)
+   + [将 Launch 数据元素映射到 Analytics 变量](launch/elements-to-variable.md)
 + 在其他平台上实施 Analytics {#other}
    + [使用硬编码图像请求实施 Analytics](other/hardcoded.md)
    + 使用 DTM 实施 Analytics {#dtm}
@@ -200,6 +201,6 @@ ht-degree: 92%
    + [数据包监视工具](validate/packet-monitor.md)
    + [哈希冲突](validate/hash-collisions.md)
 + [常见问题解答](faq.md)
-+ 将XDM数据与Analytics结合使用 {#aep-edge}
-   + [使用AEP Web SDK](aep-edge/xdmoverview.md)
-   + [手动将XDM数据映射到分析](aep-edge/xdm-manual.md)
++ 在 Analytics 中使用 XDM 数据 {#aep-edge}
+   + [使用 AEP Web SDK](aep-edge/xdmoverview.md)
+   + [手动将XDM数据映射到Analytics](aep-edge/xdm-manual.md)
