@@ -3,30 +3,30 @@ description: Workspace中的项目共享和项目角色
 keywords: Analysis Workspace sharing
 title: 共享Workspace项目
 translation-type: tm+mt
-source-git-commit: 529812c3e26744ce245ee12e24c58b7bee803084
+source-git-commit: 2312330f9371922ee895b622230d7fa9c3632c12
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 9%
+source-wordcount: '708'
+ht-degree: 10%
 
 ---
 
 
 # 共享Workspace项目
 
-共享使项目可供您组织中的其他分析Workspace用户使用。 在收件人 [打开](curate.md) 项目时，您所应用的任何特选内容都会反映出来。
+共享使项目可供组织中的其他Analysis Workspace用户使用。 在收件人 [打开](curate.md) 项目时，您所应用的任何特选内容都会反映出来。
 
 ## 项目角色
 
-您可以向三个项目角色中的一个添加收件人。 项目角色与用户和特定项目ID关联。
-
->[!NOTE]
-> 项目角色独立于在Experience Cloud管理控制台中管理的用户权限。
+您可以向三个项目角色中的一个添加收件人。 项目角色与用户和特定项目ID关联。 项目角色独立于在Experience Cloud管理控制台中管 [理的用户权限](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-getting-started.html)。
 
 | 角色 | 项目控制 |
 |---|---|
 | 可以编辑 | 收件人可以对项目的变更执行“保存”操作，并且可以行使共有人的权力。<br>如果您希望与同事协作处理项目，此角色非常有用。 |
-| 可以复制 | 收件人可以执行“另存为”操作，并且可以访问左边栏。交互不受限制。<br>如果您希望将项目共享给了解组织数据以及如何使用分析工作区的用户，但不希望更改保存的项目，则此角色非常有用。 |
-| 可以查看 | 收件人不能另存为，也无权访问左边栏。 交互也是有限的。<br>如果您希望将项目共享给不太熟悉您组织的分析结构、Adobe Workspace或Adobe Analytics的用户，则此角色非常有用。 但是，您仍希望他们在一个安全的环境中使用数据和洞察。<br>进一步了解 [Can视图项目体验](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)。 |
+| 可以复制 | 收件人可以执行“另存为”操作，并且可以访问左边栏。交互不受限制。<br>如果您希望将项目共享给了解组织数据以及如何使用Analysis Workspace的用户，但不希望更改保存的项目，则此角色很有用。 |
+| 可以查看 | 收件人不能另存为，也无权访问左边栏。 交互也是有限的。<br>如果您希望将项目共享给不太熟悉您组织的数据结构、Analysis Workspace或AdobeAnalytics的用户，则此角色非常有用。 但是，您仍希望他们在一个安全的环境中使用数据和洞察。<br>进一步了解 [Can视图项目体验](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)。 |
+
+>[!IMPORTANT]
+> 在2020年6月18日之前添加的项目收件人已迁移到项目角色。 已迁移到“可以”角色的管理员用户和已迁移到“可以”视图角色的非管理员用户。 这些角色提供与以前相同的项目体验。
 
 ### 未分配角色
 
@@ -58,7 +58,7 @@ ht-degree: 9%
 
 ## 共享到收件人组
 
-所有用户都可以将项目共享到组，组是收件人的集合。 在Adobe Analytics中，组由Adobe Experience Cloud中的产品用户档案定义。
+所有用户都可以将项目共享到组，组是收件人的集合。 在AdobeAnalytics，组由Adobe Experience Cloud中的产品用户档案定义。
 
 * 管理员可以共享到任何组，包括“全部”。
 * 除“全部”外，非管理员可以共享给他们所属的组。
