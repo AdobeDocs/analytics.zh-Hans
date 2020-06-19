@@ -3,10 +3,10 @@ description: Workspace中的项目共享和项目角色
 keywords: Analysis Workspace sharing
 title: 共享Workspace项目
 translation-type: tm+mt
-source-git-commit: 2312330f9371922ee895b622230d7fa9c3632c12
+source-git-commit: 17c963fa6a0fc24d2e3ab45500922ea17ad42240
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 10%
+source-wordcount: '719'
+ht-degree: 9%
 
 ---
 
@@ -26,19 +26,19 @@ ht-degree: 10%
 | 可以查看 | 收件人不能另存为，也无权访问左边栏。 交互也是有限的。<br>如果您希望将项目共享给不太熟悉您组织的数据结构、Analysis Workspace或AdobeAnalytics的用户，则此角色非常有用。 但是，您仍希望他们在一个安全的环境中使用数据和洞察。<br>进一步了解 [Can视图项目体验](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)。 |
 
 >[!IMPORTANT]
-> 在2020年6月18日之前添加的项目收件人已迁移到项目角色。 已迁移到“可以”角色的管理员用户和已迁移到“可以”视图角色的非管理员用户。 这些角色提供与以前相同的项目体验。
+> 在2020年6月18日之前添加的项目收件人已迁移到项目角色。 已迁移至“可 **[!UICONTROL 编辑]** ”角色的管理员用户和已迁移至“可 **[!UICONTROL 重复”角色的非管理员用户]** 。 这些角色提供与以前相同的项目体验。 此外，所有组（包括“全部”）都已迁移到 **[!UICONTROL Can重复]** 角色。
 
 ### 未分配角色
 
-如果收件人未分配角色，并收到指向项目的链接(“共[!UICONTROL 享] ”>“获 [!UICONTROL 取项目链接]”)，则默认情况下，他们将被置  于“能视图”角色中。
+如果收件人未分配角色，并收到指向项目的链接(“共&#x200B;**[!UICONTROL 享]”>“获[!UICONTROL 取项目链接]**”)，则默认情况下，这些视图将被置于“ **** Can”角色中。
 
 ### 分配了多个角色
 
-如果收件人被置于多个角色中，他们将始终获得最高控制权。 如果将用户添加为个人和组的一部分，则可能会发生这种情况。 例如，如果用户1被赋予“Can edit”和“ [!UICONTROL Can视图] ”角色，则他们将 [!UICONTROL 对项目拥有] “Can edit”控制。
+如果收件人被置于多个角色中，他们将始终获得最高控制权。 如果将用户添加为个人和组的一部分，则可能会发生这种情况。 例如，如果用户1被赋予“可以编辑”和“ **[!UICONTROL 可以视图]** ”角色，则他们将 **[!UICONTROL 具有“可以编]** 辑”对项目的控制。
 
 ### 管理员和角色
 
-处于“可重复 [!UICONTROL”或“] 可视图”角色的管理 [!UICONTROL 员在打开项目时] ，将收到这些有限的体验。 如果需要，管理员可以通过“组件”>“项 [!UICONTROL 目”随时将其角] 色增加为“ [!UICONTROL 可以编] 辑” [!UICONTROL 的角]色。
+处于Can重复 **[!UICONTROL 或]** Can视图 **[!UICONTROL 角色的管理员在打开项目时]** ，将会收到这些有限的体验。 如果需要，管理员可以通过“组件”>“项 **[!UICONTROL 目”]** ，随时将 **[!UICONTROL 其角色增]加到Can[!UICONTROL edit]**（可编辑）。
 
 ## 向共享项目添加收件人
 
@@ -65,7 +65,7 @@ ht-degree: 10%
 
 ## 在项目经理中共享项目
 
-还可以从“组件”>“项 [!UICONTROL 目”] 共 [!UICONTROL 享项目]。 可以按照上述相同步骤共享单个项目。
+还可以从“组件”>“项 **[!UICONTROL 目”]共[!UICONTROL 享项目]**。 可以按照上述相同步骤共享单个项目。
 
 如果选择共享多个项目，则会将收件人添加到每个项目的现有收件人列表。 例如：
 
