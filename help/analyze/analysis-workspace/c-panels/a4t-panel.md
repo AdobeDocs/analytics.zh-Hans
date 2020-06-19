@@ -2,10 +2,10 @@
 description: AnalyticsTarget(A4T)面板让您能够分析Adobe Target活动和Analysis Workspace体验。
 title: AnalyticsTarget(A4T)小组
 translation-type: tm+mt
-source-git-commit: 9363888ec740b182bc523c6138f9623e1ab0ffda
+source-git-commit: fb9e644b4422d67d82fdecac8d876dcd49843ad4
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 16%
+source-wordcount: '855'
+ht-degree: 15%
 
 ---
 
@@ -61,8 +61,9 @@ ht-degree: 16%
 | 问题 | 回答 |
 |---|---|
 | A4T支持哪些活动类型？ | [进一步了解](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html) 支持哪些活动类型。 |
-| A4T报告中是否支持计算量度？ | 不可以。[进一步了解](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) 为什么不支持计算的度量。 |
+| 提升和置信度计算是否支持计算指标？ | 不可以。[进一步了解](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) “提升和信心”中为何不支持计算量度。 但是，在这些度量之外的A4T报告中可以使用计算的度量。 |
 | 为什么独特的访客会因Target和Analytics而异？ | [进一步了解](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) ，产品之间的独特访客差异。 |
 | 在我的分析中为特定Target活动应用点击区段时，为何会看到返回的不相关体验？ | A4T维是一个列表变量，这意味着它可以同时包含许多活动（和体验）。 [了解更多](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
+| 置信度指标是否适用于极端订单或对多个优惠应用Bonferroni校正？ | 不可以。[进一步了解](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) Analytics如何计算信心。 |
 
 有关AnalyticsTarget报告的更多信息，请 [访问A4T报告](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
