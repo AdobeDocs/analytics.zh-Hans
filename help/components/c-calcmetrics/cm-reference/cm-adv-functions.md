@@ -3,10 +3,10 @@ description: 可通过以下方法访问这些函数：选中函数下拉列表�
 title: 引用：高级函数
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: a5eeb8016f948c45973841c0ab574a0416fdfc3c
+source-git-commit: f1907abd7f30a46c0f560b3b72883d260c296f14
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2911'
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *维度* | 您想要的非重复近似项目计数的维度 |
 
-## 用例示例 {#section_424E3FC5092948F0A9D655F6CCBA0312}
+### 用例示例 {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 Approximate Count Distinct (customer ID eVar) 是此函数的常见用例。
 
@@ -66,11 +66,11 @@ Approximate Count Distinct (customer ID eVar) 是此函数的常见用例。
 
 ![](assets/approx-customers.png)
 
-## 超出的独特数 {#section_9C583858A9F94FF7BA054D1043194BAA}
+### 超出的独特数 {#section_9C583858A9F94FF7BA054D1043194BAA}
 
 Count()、RowCount() 和 Approximate Count Distinct() 会受到[“超出的独特数”限制](https://docs.adobe.com/content/help/zh-Hans/analytics/technotes/low-traffic.html)的约束。如果维度在特定月份内达到“超出的独特数”限制，则该值将计数为 1 个维度项目。
 
-## 比较计数函数 {#section_440FB8FB44374459B2C6AE2DA504FC0B}
+### 比较计数函数 {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 Approximate Count Distinct() 是对 Count() 和 RowCount() 函数所做出的改进，因为创建的量度可用于任何维度报表，以呈现单独维度项目的近似计数。例如，“移动设备类型”报表中使用的客户 ID 计数。
 
