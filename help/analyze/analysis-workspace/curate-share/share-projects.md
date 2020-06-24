@@ -3,10 +3,10 @@ description: Workspace中的项目共享和项目角色
 keywords: Analysis Workspace sharing
 title: 共享Workspace项目
 translation-type: tm+mt
-source-git-commit: 3592544843d6c5e64eb0d009a2526ae41689c575
+source-git-commit: 192951d794b5e45cbbce22122adff573cb853054
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 6%
+source-wordcount: '1073'
+ht-degree: 5%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 6%
 
 | 角色 | 项目控制 |
 |---|---|
-| 可以编辑 | 收件人可以对项目的变更执行“保存”操作，并且可以行使共有人的权力。如果您希望与其他同事共同编辑项目，此角色非常有用。<br>注意： Analysis Workspace当前不支持实时协作，因此建议在给定时间只有一个用户编辑项目。 如果同时保存项目，则保留最后一个版本。 |
-| 可以复制 | 收件人可以另存为并有权访问左边栏。 项目交互不限于此角色。 如果您希望将项目共享给了解组织数据以及如何使用Analysis Workspace的用户，但不希望更改项目，则此角色非常有用。 |
+| 可以编辑 | Recipients can **[!UICONTROL Save]** changes to a project and function as co-owners. 如果您希望与其他同事共同管理项目，则此角色很有用； 这包括编辑、删除和修改共享项目的收件人列表。 <br>注意： Analysis Workspace当前不支持实时协作，因此建议在给定时间只有一个用户编辑项目。 如果同时保存项目，则保留最后一个版本。 |
+| 可以复制 | 收件人 **[!UICONTROL 可以]** “另存为”并有权访问左边栏。 项目交互不限于此角色。 如果您希望将项目共享给了解组织数据以及如何使用Analysis Workspace的用户，但不希望更改项目，则此角色非常有用。 |
 | 可以查看 | 收件人不能另存为，也无权访问左边栏。 项目交互也很有限。 如果您希望将项目共享给不太熟悉您组织的数据结构、Analysis Workspace或AdobeAnalytics的用户，则此角色非常有用。 但是，您仍希望他们在一个安全的环境中使用数据和洞察。<br>进一步了解 [Can视图项目体验](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)。 |
 
 >[!IMPORTANT]
@@ -30,7 +30,7 @@ ht-degree: 6%
 
 ### 未分配角色(项目链接收件人)
 
-如果收件人未分配角色，并收到指向项目的链接(“共&#x200B;**[!UICONTROL 享]”>“获[!UICONTROL 取项目链接]**”)，则默认情况下，这些重复将被置于“ **** Can”角色中。
+如果收件人未分配角色，并收到指向项目的链接(“共&#x200B;**[!UICONTROL 享]”>“获[!UICONTROL 取项目链接]**”)，则默认情况下，他们将被置入角色。 管理员 **[!UICONTROL 接收]** Can编辑，非管理员接收 **[!UICONTROL Can重复]**。
 
 ### 分配了多个角色
 
@@ -65,9 +65,7 @@ ht-degree: 6%
 
 ## Share a project link {#Links}
 
-您可以在“共享”>“获取项目 **[!UICONTROL ”链接][!UICONTROL 下获取项目链接]**。 单击后，收件人将需要在登录项目前登录。 如果收件人尚未被置于项目角色中，则默认情况下，他们将收 **[!UICONTROL 到Can重复]** 项目体验。
-
-还可以从“组件”>“项 **[!UICONTROL 目”]共[!UICONTROL 享项目]**。 可以按照上述相同步骤共享单个项目
+您可以在“共享”>“获取项目 **[!UICONTROL ”链接][!UICONTROL 下获取项目链接]**。 单击后，收件人将需要在登录项目前登录。 如果收件人尚未被置入角色，他们将收到默认角色。 管理员 **[!UICONTROL 接收]** Can编辑，非管理员接收 **[!UICONTROL Can重复]**。
 
 ## 在项目经理中共享项目 {#Manager}
 
@@ -92,4 +90,4 @@ ht-degree: 6%
 | 如果两个编辑同时保存一个项目，会发生什么情况？ | 更改不会合并，并保留上次保存的项目版本。 Analysis Workspace当前不支持实时协作。 |
 | 作为管理员，我将看到哪些项目体验？ | 处于Can重复 **[!UICONTROL 或]** Can视图 **[!UICONTROL 角色的管理员在打开项目时]** ，将会收到这些有限的体验。 如果需要，管理员可以通过“组件”>“项 **[!UICONTROL 目”]** ，随时将 **[!UICONTROL 其角色增]加到Can[!UICONTROL edit]**（可编辑）。 |
 | 如果收件人作为个人而被置于一个角色中，而另一个角色作为组成员，会发生什么情况？ | 如果收件人被置于多个角色，他们将始终获得更高的体验。 例如，如果收件人以个人身份 **[!UICONTROL 获得]** “可以编辑”角色， **[!UICONTROL 以组成员身份获]** 得“可以视图 **[!UICONTROL ”角色，则他们将获得“可以]** 编辑”项目体验。 |
-| 如果收件人打开项目链接，他们会获得什么体验？ | 如果收件人未分配角色，并收到指向项目的链接(“共&#x200B;**[!UICONTROL 享]”>“获[!UICONTROL 取项目链接]**”)，则默认情况下，这些重复将被置于“ **** Can”角色中。 |
+| 如果收件人打开项目链接，他们会获得什么体验？ | 收件人将收到您在共享模式中放置他们的角色。 如果收件人未分配角色，并收到指向项目的链接(“共&#x200B;**[!UICONTROL 享]”>“获[!UICONTROL 取项目链接]**”)，则默认情况下，他们将被置入角色。 管理员 **[!UICONTROL 接收]** Can编辑，非管理员接收 **[!UICONTROL Can重复]**。 |
