@@ -1,8 +1,11 @@
 ---
 title: zip
 description: 在报表包设置允许时手动填充“邮政编码”维度。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 通过 `zip` 变量，您可以在报表包设置中的[!UICONTROL 邮政编码选项]允许时手动填充“邮政编码”维度。在 Adobe Analytics 的先前版本中，通常只有在零售网站上输入送货信息时才能手动设置此变。Adobe Analytics 的改进允许您能够使用地理位置数据自动设置此变量。此变量不会在设置的点击之外继续存在。
 
->[!IMPORTANT] 确保将报表包设置中的[!UICONTROL 邮政编码选项]设置为所需的值。如果始终使用[!UICONTROL 地区邮政编码]，则不能使用此变量。有关详细信息，请参阅管理员用户指南中的[一般帐户设置](/help/admin/admin/general-acct-settings-admin.md)。
+>[!IMPORTANT]
+>
+> 确保将报表包设置中的[!UICONTROL 邮政编码选项]设置为所需的值。如果始终使用[!UICONTROL 地区邮政编码]，则不能使用此变量。有关详细信息，请参阅管理员用户指南中的[一般帐户设置](/help/admin/admin/general-acct-settings-admin.md)。
 
 ## Adobe Experience Platform Launch 中的邮政编码
 
