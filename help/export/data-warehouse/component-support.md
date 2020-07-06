@@ -2,7 +2,10 @@
 title: Data Warehouse 中的组件支持
 description: 了解 Data Warehouse 中有哪些其他维度和量度可用，以及哪些维度和量度不受支持。
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '379'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +34,9 @@ Data Warehouse 的独特处理架构，可支持某些通常情况下在 Adobe A
 
 Data Warehouse 不支持某些维度和量度。
 
->[!NOTE]如果 Data Warehouse 不支持某个维度或量度，则也不支持使用这些维度或量度的区段。在创建或编辑区段时，请务必检查产品兼容性。
+>[!NOTE]
+>
+>如果 Data Warehouse 不支持某个维度或量度，则也不支持使用这些维度或量度的区段。在创建或编辑区段时，请务必检查产品兼容性。
 
 ### 不支持的维度
 
