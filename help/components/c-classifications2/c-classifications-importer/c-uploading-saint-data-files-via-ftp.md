@@ -4,8 +4,11 @@ subtopic: Classifications
 title: FTP 导入
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '697'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +36,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 如果您超出了当月的独立值，将无法在报表中看到超出独立值所对应的分类数据。您可以在 Data Warehouse 或 Ad Hoc Analysis 中查看这些分类。
 
->[!NOTE] 处理分类数据文件所需的时间因文件大小和 Adobe 服务器已在处理的当前文件数而异。处理数据文件的时间通常不超过 72 小时。
+>[!NOTE]
+>
+> 处理分类数据文件所需的时间因文件大小和 Adobe 服务器已在处理的当前文件数而异。处理数据文件的时间通常不超过 72 小时。
 
 在通过 FTP 上载数据之前，请先创建 FTP 帐户。有关详细信息，请参阅[创建 FTP 帐户](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)。
 
