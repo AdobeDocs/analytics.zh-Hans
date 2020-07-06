@@ -1,8 +1,11 @@
 ---
 description: 将跟踪数据从第三方应用程序导入到 Analytics 中。
 title: Analytics Data Connectors 快速入门
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '962'
+ht-degree: 100%
 
 ---
 
@@ -77,7 +80,9 @@ Adobe Analytics 会通过 Data Warehouse 将这些文件作为单独的每日文
    * 购买：`purchase` 事件
    * 产品查看：`prodView` 事件
 
->[!NOTE] 如果定义的产品没有关联事件，则会自动触发 prodView 事件。如果不满足以上要求，那么相应的再营销区段将无法正常报告。
+>[!NOTE]
+>
+> 如果定义的产品没有关联事件，则会自动触发 prodView 事件。如果不满足以上要求，那么相应的再营销区段将无法正常报告。
 
 [!UICONTROL 放弃购买]：用户将产品添加到购物车后触发：
 
@@ -103,4 +108,6 @@ s.events="purchase";
 | 未收到再营销区段文件。 | 如果没有收到您的文件，请让贵公司的某位受支持用户联系 ClientCare，以调查未成功收到报表的原因。 |
 
 
->[!IMPORTANT] 除了标准的 Data Connectors 集成再营销区段文件外，顾问通常还会设置 Data Warehouse 请求作为每日计划报表。该数据仓库请求将包含 Data Connectors 变量和非 Data Connectors 变量，且请求只能根据贵公司的特定请求进行计划。为避免在故障诊断时造成混淆，请明确相关文件是实际的再营销区段文件，还是包含非 Genesis 变量的数据仓库请求。
+>[!IMPORTANT]
+>
+> 除了标准的 Data Connectors 集成再营销区段文件外，顾问通常还会设置 Data Warehouse 请求作为每日计划报表。该数据仓库请求将包含 Data Connectors 变量和非 Data Connectors 变量，且请求只能根据贵公司的特定请求进行计划。为避免在故障诊断时造成混淆，请明确相关文件是实际的再营销区段文件，还是包含非 Genesis 变量的数据仓库请求。
