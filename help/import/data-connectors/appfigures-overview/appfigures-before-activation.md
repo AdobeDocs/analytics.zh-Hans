@@ -3,7 +3,10 @@ description: 在激活此集成之前，请针对您的 Adobe Analytics® 部署
 title: 在激活此集成之前
 uuid: fdc762bc-24e3-4c0a-904d-d4be2a4f3a20
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '699'
+ht-degree: 100%
 
 ---
 
@@ -56,7 +59,9 @@ appFigures 的 Data Connectors 集成使用 Analytics 变量来跟踪不同的 a
 
 ### 必需变量 {#section-3ca8dc46bab0436cba0c9ef827c8356a}
 
->[!NOTE] 此集成使用专用变量来获取应用商店数据，因此，您无需分配自定义商务变量和事件。
+>[!NOTE]
+>
+> 此集成使用专用变量来获取应用商店数据，因此，您无需分配自定义商务变量和事件。
 
 | 变量类型 | 名称 | 填充方法 | 描述 |
 |---|---|---|---|
