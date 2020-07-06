@@ -1,8 +1,11 @@
 ---
 title: registerPostTrackCallback
 description: 在向 Adobe 发送点击后创建回调函数。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: 0d7e7dcb2cc382d83e267e51b1abeff38da270d3
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +26,7 @@ Launch 中没有可使用此变量的专用字段。按照 AppMeasurement 语法
 
 ## AppMeasurement 和 Launch 自定义代码编辑器中的 s.registerPostTrackCallback
 
-`s.registerPostTrackCallback` 是一个函数，只接受函数作为参数。嵌套函数在发送图像请求之前运行。
+`s.registerPostTrackCallback` 是一个函数，只接受函数作为参数。嵌套函数在成功发送图像请求后立即运行。
 
 ```js
 s.registerPostTrackCallback(function(){/* Desired code */});
