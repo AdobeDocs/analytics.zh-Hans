@@ -3,7 +3,10 @@ description: 在日历中，您可以指定日期和日期范围，或者选择�
 title: 日期和日期范围
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/daterange.jpeg)
 
->[!NOTE]如果您在运行旧式报表时需要获得帮助，请联系您的客户经理。
+>[!NOTE]
+>
+>如果您在运行旧式报表时需要获得帮助，请联系您的客户经理。
 
 ## 旧式日期片段 {#concept_53AA34DB3CE647608CAF4B41D6EAF45E}
 
@@ -41,5 +46,7 @@ c_legacy_data.xml
 1. [创建或打开一个项目。](/help/analyze/ad-hoc-analysis/c-getting-started.md)
 1. 打开[日历](/help/analyze/ad-hoc-analysis/c-dates.md)，然后选择&#x200B;**[!UICONTROL 季度]**&#x200B;或&#x200B;**[!UICONTROL 年份]**。
 
->[!NOTE]历史日期片段的约束范围是季度和年份。您无法查看跨越旧式片段与新处理平台之间边界的数据。跨越这两个边界的日期范围会导致出现错误。此外，日期范围仅适用于阳历日历，而不适用于自定义日历。
+>[!NOTE]
+>
+>历史日期片段的约束范围是季度和年份。您无法查看跨越旧式片段与新处理平台之间边界的数据。跨越这两个边界的日期范围会导致出现错误。此外，日期范围仅适用于阳历日历，而不适用于自定义日历。
 
