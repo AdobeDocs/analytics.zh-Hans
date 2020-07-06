@@ -4,7 +4,10 @@ title: 计划数据请求
 topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1025'
+ht-degree: 100%
 
 ---
 
@@ -15,11 +18,15 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 例如，您可以安排工作簿立即提交或者按定期计划提交，还可以指定 [!DNL Advanced Delivery Options] 中的文件格式。上载工作簿时，文件大小不能超过 5 MB。
 
-Additionally, after you create a workbook schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**. （请参阅 Reports &amp; Analytics 帮助中的[报表计划和分发](/help/analyze/reports-analytics/scheduling.md)。）
+另外，在 Report Builder 中创建工作簿计划后，您可以在 **[!UICONTROL Analytics]** > **[!UICONTROL 报表]**&#x200B;中查看和编辑计划。（请参阅 Reports &amp; Analytics 帮助中的[报表计划和分发](/help/analyze/reports-analytics/scheduling.md)。）
 
->[!NOTE]您必须安装 Excel 2007 或兼容包才能计划工作簿。对于每个 Report Builder 许可证，您最多可以有 10 个计划工作簿。但是，您可以通过减少其他许可证中的数量来增加此数量。要执行此操作，请转至 **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Report Builder Reports]**。 已计划（或已上载到工作簿库）的工作簿以及超过 28 个月未使用（更新、替换）的工作簿将被删除。
+>[!NOTE]
+>
+>您必须安装 Excel 2007 或兼容包才能计划工作簿。对于每个 Report Builder 许可证，您最多可以有 10 个计划工作簿。但是，您可以通过减少其他许可证中的数量来增加此数量。要执行此操作，请转至&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 公司设置]** > **[!UICONTROL Report Builder 报表]**。已计划（或已上载到工作簿库）的工作簿以及超过 28 个月未使用（更新、替换）的工作簿将被删除。
 
->[!NOTE]用户输入的“提交时间”/“时间”指定了应开始处理工作簿的时间，而不是实际提交工作簿的时间。提交工作簿的实际时间主要取决于处理时间（处理复杂和大型工作簿比处理简单的工作簿耗时更长）。例如，如果需要 15 分钟才能处理工作簿，则实际提交时间将至少比最初指定的“提交时间”/“时间”晚 15 分钟。
+>[!NOTE]
+>
+>用户输入的“提交时间”/“时间”指定了应开始处理工作簿的时间，而不是实际提交工作簿的时间。提交工作簿的实际时间主要取决于处理时间（处理复杂和大型工作簿比处理简单的工作簿耗时更长）。例如，如果需要 15 分钟才能处理工作簿，则实际提交时间将至少比最初指定的“提交时间”/“时间”晚 15 分钟。
 >此外，在实际提交工作簿之前，还有许多其他因素可能会进一步增加延迟时间：
 >
 > * **同时运行同一类型的多个计划**&#x200B;可能会造成系统过载。计划系统仅允许同时运行少数几 (5-10) 个任一类型的工作簿，因此，当同时计划运行的工作簿数量超过 5-10 个时，有些工作簿需要排队等待其他工作簿完成后才能开始处理。通过错开安排一天或一小时中处理公司的工作簿的时间，而不是同时安排，可以缓解此问题。
@@ -31,15 +38,15 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 ## 计划工作簿
 
 1. 生成并保存工作簿。
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]**.
+1. 在 Report Builder 工具栏上，单击&#x200B;**[!UICONTROL 计划]**。
 
-   The [!UICONTROL Scheduled Reports] tab summarizes all the tasks you have created, as well as the number of remaining tasks.
-1. 在选项卡 **[!UICONTROL Scheduled Reports]** 上，单击 **[!UICONTROL New]**。
+   “[!UICONTROL 计划报表]”选项卡总结您已创建的所有任务，以及剩余任务的数目。
+1. 在&#x200B;**[!UICONTROL 计划报表]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL 新建]**。
 1. “基本计划向导”显示如下：
 
    ![](assets/simple-schedule-wizard.png)
 
-1. 在中， [!UICONTROL Basic Scheduling Wizard]配置以下选项：
+1. 在“[!UICONTROL 基本计划向导]”中，配置以下选项：
 
 | 字段 | 描述 |
 |--- |--- |
@@ -55,7 +62,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 
 ## 高级提交选项
 
-1. 单击 **[!UICONTROL Advanced Delivery Options]** 以配置文件和发布选项：
+1. 单击&#x200B;**[!UICONTROL 高级提交选项]**&#x200B;以配置文件和发布选项：
 
 | 字段 | 描述 |
 |--- |--- |
@@ -72,7 +79,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 | 发布到 Power BI | <ul><li>将工作簿发布到 Power BI</li><li>作为 Power BI 数据集表发布所有 Report Builder 请求</li><li>作为 Power BI 数据集表发布所有带格式的表</li></ul> |
 | 将此 Power BI 报表标记为 | 标记详细信息 |
 
-1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Exit]**.
+1. 单击&#x200B;**[!UICONTROL 确定]**，然后单击&#x200B;**[!UICONTROL 退出]**。
 
    Report Builder 在[计划任务管理器](/help/analyze/report-builder/r-arb-scheduled-reports.md)中显示计划工作簿。
 
