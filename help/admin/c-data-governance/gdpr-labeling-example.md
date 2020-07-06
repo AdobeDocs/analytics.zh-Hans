@@ -2,8 +2,11 @@
 description: 'null'
 title: 标签功能示例
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '802'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 | 标签 | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **变量名称**<br>**（命名空间）** | **MyProp1**<br>**（用户）** | **访客 ID**<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
+| **变量名称&#x200B;**<br>**（命名空间）** | **MyProp1 **<br>**（用户）** | **访客 ID **<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3 **<br>**(xyz)** |
 | 命中数据 | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
@@ -65,7 +68,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE]只有包含 AAID = 77 和 DEL-DEVICE 标签的行中的单元格会受到影响。
+>[!NOTE]
+>
+>只有包含 AAID = 77 和 DEL-DEVICE 标签的行中的单元格会受到影响。
 
 | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false |
 |--- |---|---|---|---|
@@ -79,7 +84,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE]只有包含 user=Mary 和 DEL-PERSON 标签的行中的单元格会受到影响。另外，实际上，包含 A_ID 的变量可能是 prop 或 eVar，其替换值是以“Privacy-”开头的字符串，后面跟有随机数 (GUID)，而不是用不同的随机数值来替换该数值。
+>[!NOTE]
+>
+>只有包含 user=Mary 和 DEL-PERSON 标签的行中的单元格会受到影响。另外，实际上，包含 A_ID 的变量可能是 prop 或 eVar，其替换值是以“Privacy-”开头的字符串，后面跟有随机数 (GUID)，而不是用不同的随机数值来替换该数值。
 
 | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true |
 |--- |---|---|---|---|
