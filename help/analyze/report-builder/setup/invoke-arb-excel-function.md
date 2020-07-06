@@ -4,7 +4,10 @@ title: 通过 Microsoft Excel 函数调用 Report Builder 功能
 topic: Report builder
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 99%
 
 ---
 
@@ -15,13 +18,15 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 例如，您可能希望自动刷新如下 Report Builder 请求：其输入过滤器基于 Excel 中从其他来源提取的数据。现在，您可以使用 RefreshRequestsInCellsRange(..) 字符串函数来实现此操作。所有调用均是异步的。它们会立即返回，而不等待调用完全执行。
 
->[!NOTE] 您必须安装 Report Builder 5.0（或更高版本），才能使用此功能。
+>[!NOTE]
+>
+> 您必须安装 Report Builder 5.0（或更高版本），才能使用此功能。
 
 下表列出了公开的函数：
 
 | 函数名称 | 描述 |
 |---|---|
-| string AsyncRefreshAll() | 刷新工作簿中存在的所有 Report Builder 请求。 |
+| 字符串 AsyncRefreshAll() | 刷新工作簿中存在的所有 Report Builder 请求。 |
 | string AsyncRefreshRange(string rangeAddressInA1Format) | 刷新指定单元格范围地址（一个以 A1 格式表示单元格范围的字符串表达式，例如“Sheet1!A2:A10”）中存在的所有 Report Builder 请求。 |
 | string AsyncRefreshRangeAltTextParam() | 刷新指定单元格范围（通过 Ms 表单控件的可选文字传递）中存在的所有 Report Builder 请求。 |
 | string AsyncRefreshActiveWorksheet() | 刷新活动工作表中存在的所有 Report Builder 请求。 |
@@ -29,7 +34,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | string AsyncRefreshWorksheetAltTextParam(); | 刷新特定工作表名称（通过 Ms 表单控件的可选文字传递）中存在的所有 Report Builder 请求。 |
 | string GetLastRunStatus() | 返回一个描述上次运行状态的字符串。 |
 
-要在报表生成器中访问这些功能，请转 [!UICONTROL Formulas] 到> [!UICONTROL Insert Function]。 在类别列表的底部，您会找到 Adobe.ReportBuilder.Bridge：
+要访问 Report Builder 中的这些函数，请转至[!UICONTROL 公式] > [!UICONTROL 插入函数]。在类别列表的底部，您会找到 Adobe.ReportBuilder.Bridge：
 
 ![](assets/arb_functions.png)
 
@@ -48,7 +53,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 现在，您可以将宏指定到创建的控件，该控件可以是用于刷新工作簿请求的函数。例如，函数 AsyncRefreshActiveWorksheet 将刷新工作表中的所有请求。不过，有时您可能希望仅刷新特定请求，而不是全部请求。
 
 1. 设置宏参数。
-1. 右键单击控件并选择 **[!UICONTROL Assign Macro]**。
+1. 右键单击控件，然后选择&#x200B;**[!UICONTROL 指定宏]**。
 1. 输入 Report Builder 函数名称（无参数或圆括号）。
 
 ![](assets/assign_macro.png)
@@ -60,16 +65,16 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * AsyncRefreshRange(string rangeAddressInA1Format)
 * AsyncRefreshWorksheet(string worksheetName)
 
-1. 右键单击控件并选择 **[!UICONTROL Format Control]**。
+1. 右键单击控件并选择&#x200B;**[!UICONTROL 设置控件格式]**。
 
    ![](assets/format_control.png)
 
-1. Click the [!UICONTROL Alt Text] tab.
+1. 单击[!UICONTROL 可选文字]选项卡。
 
    ![](assets/alt_text.png)
 
-1. Under [!UICONTROL Alternative text], enter the cell range that you want refreshed.
-1. 在 [!UICONTROL Formulas] > [!UICONTROL Insert Function]>下打开报表生成器参数的列表 [!UICONTROL Adobe.ReportBuilder.Bridge]。
+1. 在[!UICONTROL 可选文字]下面，输入要刷新的单元格范围。
+1. 在[!UICONTROL 公式] > [!UICONTROL 插入函数] > [!UICONTROL Adobe.ReportBuilder.Bridge] 下面打开 Report Builder 参数的列表。
 
-1. Pick one of the two functions that end with AltTextParam and click **[!UICONTROL OK]**.
+1. 选取以 AltTextParam 结尾的两个函数之一，然后单击&#x200B;**[!UICONTROL 确定]**。
 
