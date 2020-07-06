@@ -3,8 +3,11 @@ description: 当报表具有大量的唯一值时，Adobe 提供的功能可确�
 title: Adobe Analytics 中的低流量值
 topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '508'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +26,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    * 如果值已在报表中，则照常添加到该值。
    * 如果值尚未在报表中，请检查该值今天出现是否超过 100 次。如果超过 100 次，则将值添加到报表中。如果未超过 100 次，则保留在低流量下。
 
->[!NOTE]如果变量值接收到的流量足够离开低流量存储段，则收集的第一个值不会移到其相应的行项目。前 10-100 个实例仍保留在“低流量”下。
+>[!NOTE]
+>
+>如果变量值接收到的流量足够离开低流量存储段，则收集的第一个值不会移到其相应的行项目。前 10-100 个实例仍保留在“低流量”下。
 
 ## 更改唯一限制阈值
 
