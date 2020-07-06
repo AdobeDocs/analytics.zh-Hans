@@ -3,8 +3,11 @@ description: 运行不同的报表类型的步骤。
 title: 运行不同的报表类型
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2358'
+ht-degree: 100%
 
 ---
 
@@ -148,7 +151,9 @@ t_anomaly_view.xml
 
 **[!UICONTROL 报表]** > **[!UICONTROL 网站量度]** > **[!UICONTROL 异常检测]**。
 
->[!NOTE] 另外，您也可以在 Analysis Workspace 项目中运行异常检测。[更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
+>[!NOTE]
+>
+> 另外，您也可以在 Analysis Workspace 项目中运行异常检测。[更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
 有关设置异常检测的信息，请参阅《[参考指南](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection)》。
 
