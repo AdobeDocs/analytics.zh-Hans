@@ -2,8 +2,11 @@
 description: Analysis Workspace 中的组件包括量度、维度、区段和时间粒度，您可以将这些组件拖放到项目中。您创建的自定义组件会被添加到这些面板中，例如自定义日期范围。
 title: 组件概述
 uuid: 1a4e1c35-eac9-4eb4-be2e-ecb2c6728150
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Analysis Workspace 中的组件包括量度、维度、区段和时间粒度，您可以将这些组件拖放到项目中。您创建的自定义组件会被添加到这些面板中，例如自定义日期范围。
 
-要访问“组件”面板，请单击左边栏中的 **[!UICONTROL Components]** 图标。您可以使用左边栏图标或[热键](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)在面板（空白面板、[自由格式面板](/help/analyze/analysis-workspace/visualizations/freeform-table.md)、或[区段比较](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)面板）、[可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)和组件之间切换。
+要访问“组件”面板，请单击左边栏中的&#x200B;**[!UICONTROL 组件]**&#x200B;图标。您可以使用左边栏图标或[热键](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)在面板（空白面板、[自由格式面板](/help/analyze/analysis-workspace/visualizations/freeform-table.md)、或[区段比较](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)面板）、[可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)和组件之间切换。
 
 ![](assets/components.png)
 
@@ -20,9 +23,11 @@ Analysis Workspace 中的组件包括量度、维度、区段和时间粒度，�
 
 ## 组件操作 {#section_B7BB29B89AE04297874CDE2C52EAD516}
 
-您可以通过多种方式管理组件（逐个选择或通过选择多个组件）。右键单击组件，或单击组件列表顶部的 **[!UICONTROL Actions]**。
+您可以通过多种方式管理组件（逐个选择或通过选择多个组件）。右键单击组件，或单击组件列表顶部的&#x200B;**[!UICONTROL 操作]**。
 
->[!NOTE] 这些操作不适用于“时间”组件。
+>[!NOTE]
+>
+> 这些操作不适用于“时间”组件。
 
 | 组件操作 | 描述 |
 |--- |--- |
