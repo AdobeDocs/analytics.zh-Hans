@@ -1,15 +1,20 @@
 ---
 title: dc
 description: 允许您确定要使用哪个数据中心的变量，已停用。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 100%
 
 ---
 
 
 # dc
 
->[!IMPORTANT] 此变量已停用。请改用 [`trackingServer`](trackingserver.md)。
+>[!IMPORTANT]
+>
+> 此变量已停用。请改用 [`trackingServer`](trackingserver.md)。
 
 在早期版本的 Adobe Analytics 中，Adobe 要求您指定要将数据发送到哪个数据中心。将点击发送到错误的数据中心会导致数据丢失。
 
