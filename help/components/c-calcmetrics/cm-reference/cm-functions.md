@@ -2,8 +2,11 @@
 description: 计算量度生成器允许您将统计和数学函数应用于生成高级计算量度。
 title: 引用：基本函数
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1056'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 这里有一个按字母顺序排列的函数及其定义列表。
 
->[!NOTE] 当 [!DNL metric] 被标识为函数中的参数时，还允许使用其他量度表达式。例如，[!DNL MAXV(metrics)] 还允许使用 [!DNL MAXV(PageViews + Visits).]
+>[!NOTE]
+>
+> 当 [!DNL metric] 被标识为函数中的参数时，还允许使用其他量度表达式。例如，[!DNL MAXV(metrics)] 还允许使用 [!DNL MAXV(PageViews + Visits).]
 
 ## table 函数与 row 函数 {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -214,7 +219,7 @@ ROUND(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *number* | 您希望舍入的量度。 |
+| *数字* | 您希望舍入的量度。 |
 
 在没有位数参数的情况下四舍五入，与在位数参数为 0 的情况下四舍五入是相同的，都会四舍五入为最接近的整数。使用位数参数，可在小数点右侧返回多位数字。如果位数为负，则在小数点左侧返回 0。
 
@@ -251,7 +256,7 @@ SQRT(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *number* | 您希望求平方根的量度。 |
+| *数字* | 您希望求平方根的量度。 |
 
 ## 标准偏差 (Table) {#concept_A383A8BCC6FA42D7B73F7C83997D782A}
 
