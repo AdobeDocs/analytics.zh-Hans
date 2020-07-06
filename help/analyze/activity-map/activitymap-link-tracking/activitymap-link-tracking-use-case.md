@@ -3,8 +3,11 @@ description: 您可以通过以下方式区分链接：使用 s_objectID 变量�
 title: 区分引用相同链接 ID 和区域的多个链接
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 100%
 
 ---
 
@@ -87,7 +90,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 您可以通过确保各个“购买”链接都定义了自己的区域，来自定义区域。要完成此操作，请将“id”参数添加到各个“购买”锚标记的父项之一。
 
->[!NOTE] 您并非必须使用“id”参数作为区域标识符。您也可以使用 JavaScript 变量“s.ActivityMap.regionIDAttribute”来设置自己的标识符。
+>[!NOTE]
+>
+> 您并非必须使用“id”参数作为区域标识符。您也可以使用 JavaScript 变量“s.ActivityMap.regionIDAttribute”来设置自己的标识符。
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
