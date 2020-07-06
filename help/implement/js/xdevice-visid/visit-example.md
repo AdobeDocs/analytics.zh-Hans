@@ -5,15 +5,20 @@ subtopic: Visitors
 title: 跨设备访客识别示例
 topic: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 100%
 
 ---
 
 
 # 跨设备访客识别示例
 
->[!IMPORTANT]不再建议使用这种方法来识别跨设备访客。相关信息，请参阅组件用户指南中的[跨设备分析](/help/components/cda/cda-home.md)。
+>[!IMPORTANT]
+>
+>不再建议使用这种方法来识别跨设备访客。相关信息，请参阅组件用户指南中的[跨设备分析](/help/components/cda/cda-home.md)。
 
 以下示例通过使用在常见客户交互中发送的服务器调用范例来展示跨设备访客识别的工作原理。
 
