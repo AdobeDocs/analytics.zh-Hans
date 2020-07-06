@@ -2,8 +2,11 @@
 description: 为报表包数据设置标签即是向给定报表包中的每个变量分配身份、敏感性和数据管理标签。请确保您首先要熟悉标签及其定义。
 title: 为报表包数据设置标签
 uuid: a694851c-8933-496e-9118-113cc38cba8a
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '964'
+ht-degree: 100%
 
 ---
 
@@ -12,13 +15,15 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 为报表包数据设置标签即是向给定报表包中的每个变量分配身份、敏感性和数据管理标签。请确保您首先要熟悉标签及其定义。
 
->[!NOTE] 请记住，每次创建新报表包后或在现有报表包中启用新变量时，都需要对标签设置进行审核。当启用新的解决方案集成时，您可能也需要审核标签设置，因为这些集成将出现要求设置标签的新变量。重新实施您的移动应用程序或网站时，可能会改变现有变量的使用方式，这或许也需要更新标签。
+>[!NOTE]
+>
+>请记住，每次创建新报表包或在现有报表包中启用新变量时，都需要对标签设置进行审核。当启用新的解决方案集成时，您可能也需要审核标签设置，因为这些集成将出现要求设置标签的新变量。重新实施您的移动应用程序或网站时，可能会改变现有变量的使用方式，这或许也需要更新标签。
 
 ## 分配或编辑报表包标签 {#section_39F829F35A274EACA532E2F6FF392996}
 
 **示例**：作为数据控制者，您可以计划从数据主体收集电子邮件地址和 Cookie ID，以处理他们的数据隐私请求。这些 Cookie ID 存储在 Adobe Analytics 的报表包中。要为电子邮件地址和 Cookie ID 创建标签，您必须在 Analytics 中使用 Adobe Cloud Platform 的数据使用标签和执行 (DULE) 框架。
 
-1. 在 Analytics 中，导航到 **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]** > **[!UICONTROL (select report suite)]** ![](assets/privacy_rs_settings.png)
+1. 在 Analytics 中，导航至&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 数据管理]** > **[!UICONTROL （选择报表包）]** ![](assets/privacy_rs_settings.png)
 
 1. 选择要为哪个变量组设置标签。
 
@@ -37,7 +42,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    ![](assets/info.png)
 
-1. 单击一个或多个变量的复选框，然后选择 **[!UICONTROL Edit]** 图标（位于右侧）以编辑一个或多个变量。
+1. 单击一个或多个变量的复选框以将其选中，然后选择&#x200B;**[!UICONTROL 编辑]**&#x200B;图标（位于右侧）以编辑一个或多个变量。
 
    ![](assets/edit.png)
 
@@ -57,7 +62,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    ![](assets/privacy_labels.png)
 
-1. 完成所有标签设置后，请单击 **[!UICONTROL Apply]**。
+1. 完成所有标签设置后，请单击&#x200B;**[!UICONTROL 应用]**。
 
 ## 将标签复制到报表包 {#section_7C6FDAFF049F4126B84F6261F72668EE}
 
@@ -65,11 +70,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 1. 选择变量组（标准维度、转化维度等）包含要复制的变量。请注意，您一次只能复制一组变量的标签。
 1. 选择此变量组中的部分或所有变量。
-1. 单击“数据管理”对话框右上角的 **[!UICONTROL Copy Labels to Report Suite(s)]**。
+1. 单击“数据管理”对话框右上角的&#x200B;**[!UICONTROL 将标签复制到报表包]**。
 
    ![](assets/apply_as_template.png)
 
-1. 勾选 **[!UICONTROL Select All]** 以将所选变量的标签复制到所有报表包，或者选择您要将标签复制到其中的个别报表包。
+1. 勾选&#x200B;**[!UICONTROL 全选]**&#x200B;以将所选变量的标签复制到所有报表包，或者选择您要将标签复制到其中的个别报表包。
 
    >[!IMPORTANT]
    >
@@ -87,5 +92,5 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    >
    >您应该经常检查目标报表包，以确保正确复制标签。对于具有 ID 或 DEL 标签的变量来说，这一点尤为重要。
 
-1. 单击 **[!UICONTROL Apply]**。
+1. 单击&#x200B;**[!UICONTROL 应用]**。
 
