@@ -3,8 +3,11 @@ description: 您可以从报表中排除特定 IP 地址的数据，例如，内
 title: 按 IP 地址排除
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 按 IP 排除]**
 
->[!NOTE] 按 IP 地址排除的点击将作为[服务器调用](https://docs.adobe.com/content/help/zh-Hans/analytics/technotes/terms.html)计费。
+>[!NOTE]
+>
+> 按 IP 地址排除的点击将作为[服务器调用](https://docs.adobe.com/content/help/zh-Hans/analytics/technotes/terms.html)计费。
 
 ## 按 Cookie 排除 {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -27,7 +32,9 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 |--- |--- |
 | [!UICONTROL 添加 CNAME] | 生成一个禁用链接，可用于排除您的域。如需帮助，请与您公司的受支持用户联系。<br>只需访问您公司的禁用页面并选择将您的浏览器排除在测量范围之外，就不会在报表包中报告您的流量。<br>如果您的实施使用的是第三方 Cookie，请从[此处](https://democorp.112.2o7.net/optout.html?locale=en_US&amp;popup=true)获取您的禁用页面。 |
 
->[!NOTE] 只有符合以下条件时，按计算机排除数据才适适用：
+>[!NOTE]
+>
+> 只有符合以下条件时，按计算机排除数据才适适用：
 >
 > * 您从同一工作站进入网站。
 > * 您所使用的浏览器启用了 cookie。
