@@ -3,7 +3,10 @@ description: 将用户从旧版 Analytics 用户管理系统迁移到 Admin Cons
 title: 为 Adobe ID 迁移 Analytics 用户帐户
 uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '428'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 将用户从旧版 Analytics 用户管理系统迁移到 Admin Console。
 
->[!NOTE] 如果未通过 Experience Cloud 登录的管理员尝试访问用户 ID 迁移工具，他们将被重定向到 Experience Cloud 登录页面。
+>[!NOTE]
+>
+> 如果未通过 Experience Cloud 登录的管理员尝试访问用户 ID 迁移工具，他们将被重定向到 Experience Cloud 登录页面。
 
 **迁移 Analytics 用户**
 
@@ -60,7 +65,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    </thead>
    <tbody> 
    <tr> 
-      <td colname="col1"> <p>Domain </p> </td> 
+      <td colname="col1"> <p>域 </p> </td> 
       <td colname="col2"> <p>域特定于当前 Analytics 用户群的电子邮件 ID。域只能由一个组织的声明，并且只有系统管理员才能声明域。有关更多信息，请参阅<a href="https://helpx.adobe.com/cn/enterprise/help/request-access-to-claimed-domain.html">请求对声明域的访问权限</a>。 </p> </td> 
    </tr> 
    <tr> 
