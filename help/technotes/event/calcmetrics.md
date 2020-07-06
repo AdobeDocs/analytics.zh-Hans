@@ -2,7 +2,10 @@
 title: 派生受事件影响的数据
 description: 使用计算的指标来更正受事件影响的趋势数据。
 translation-type: tm+mt
-source-git-commit: 2fceca6ea77a43ea6099df7b9e354ef81a8f3df7
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 4%
 
 ---
 
@@ -11,17 +14,19 @@ source-git-commit: 2fceca6ea77a43ea6099df7b9e354ef81a8f3df7
 
 如果事件影 [响了](overview.md)，则可以使用计算量度来推导事件持续期间的趋势值。 例如，如果您的事件导致数据下降25%，则可以将其用作计算度量中的乘数。
 
->[!NOTE] 当您从细分和日期比较角度了解事件的影响时，这些步骤会发挥最佳作用。 确保在此页 [面之前，在事件中比较受影响的日期](compare-dates.md) , [并在分析中排除特定日期](segments.md) 。
+>[!NOTE]
+>
+>当您从细分和日期比较角度了解事件的影响时，这些步骤会发挥最佳作用。 确保在此页 [面之前，在事件中比较受影响的日期](compare-dates.md) , [并在分析中排除特定日期](segments.md) 。
 
 1. 如排除分析中的特定日期中所述，为“受影响的日期”和“排除受影响 [的日期”创建两个区段](segments.md)。
-2. 导航到 **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]**。
-3. 单击 **[!UICONTROL Add]**.
+2. 导航到 **[!UICONTROL 组件]** >计 **[!UICONTROL 算量度]**。
+3. 单击&#x200B;**[!UICONTROL 添加]**。
 4. 将以上两个区段拖动到定义画布。 将它们之间的运算符更 `+` 改为求和。
 5. 在两个区段内添加所需的量度。 例如，您可以使用“访问”量度。
 
    ![区段生成器](assets/event_segment_builder.png)
 
-6. 单 **[!UICONTROL Add]** 击“受影响的天数”容器右上角的，然后单击 **[!UICONTROL Static number]**。 将静态数字设置为要抵消数据的百分比，如将受事件影响 [的日期与先前范围进行比较中所述](compare-dates.md)。 在此示例中，偏移量为25%或1.25。
+6. 单 **[!UICONTROL 击]** “受影响的天数”容器右上角的“添加”，然后单击“ **[!UICONTROL 静态编号”]**。 将静态数字设置为要抵消数据的百分比，如将受事件影响 [的日期与先前范围进行比较中所述](compare-dates.md)。 在此示例中，偏移量为25%或1.25。
 
    ![静态数](assets/event_static_number.png)
 
