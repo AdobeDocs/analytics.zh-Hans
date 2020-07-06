@@ -2,7 +2,10 @@
 title: maxDelay
 description: 确定 AppMeasurement 在发送图像请求之前等待 DFA 响应的最长时间。
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 100%
 
 ---
 
@@ -31,4 +34,6 @@ s.maxDelay = 750;
 * 减少等待时间会降低 Analytics 点击数据丢失的风险，但这也会减少随点击数据发送的 DFA 数据量。
 * 如果在 `s.maxDelay` 时段没有为 DFA 主机提供足够的响应时间，则会丢失 DFA 集成数据。
 
->[!NOTE] Adobe 不会控制 DFA 的响应时间。如果将最大延迟时段增加到一个合理的时间范围后发现问题依然存在，请咨询贵组织的 DFA 帐户管理员。
+>[!NOTE]
+>
+>Adobe 不会控制 DFA 的响应时间。如果将最大延迟时段增加到一个合理的时间范围后发现问题依然存在，请咨询贵组织的 DFA 帐户管理员。
