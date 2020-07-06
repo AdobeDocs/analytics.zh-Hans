@@ -4,7 +4,10 @@ title: 帐单
 topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '503'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 使用“帐单”页可以访问帐单信息，包括每个报表包的流量详情。只有经授权的管理员才有权访问此页面。
 
->[!NOTE] 如果对贵公司禁用了“帐单”选项卡的访问权，请与您的客户经理联系。
+>[!NOTE]
+>
+> 如果对贵公司禁用了“帐单”选项卡的访问权，请与您的客户经理联系。
 
 使用帐单页面中的流量概要数据可将报表中的页面查看数据与您的发票上的计费服务器调用次数关联起来。使用“[!UICONTROL 帐单]”页面可执行以下操作：
 
@@ -39,7 +44,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | 自定义链接 | 每个报表包的自定义链接总数。可以在“网站内容”>“链接”>“自定义链接”中确认自定义链接值。 |
 | 退出链接 | 每个报表包的退出链接总数。可以在“网站内容”>“链接”>“退出链接”中确认退出链接值。 |
 
->[!NOTE] 要获取[!UICONTROL 每月发票]报表的工作副本，请将其复制到剪贴板，然后粘贴到电子表格程序，如 Microsoft Excel*。
+>[!NOTE]
+>
+> 要获取[!UICONTROL 每月发票]报表的工作副本，请将其复制到剪贴板，然后粘贴到电子表格程序，如 Microsoft Excel*。
 
 ## 报告日期与处理日期 {#section_51A48C2F223F4904BE1407C13333C457}
 
