@@ -3,8 +3,11 @@ description: 使用这些过滤器可以限制报表的内容，使其包括或�
 title: 过滤报表数据
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '676'
+ht-degree: 100%
 
 ---
 
@@ -45,7 +48,9 @@ help:Internal Search Term
 
 如果在行项目的任意位置找到了相关词语，则匹配成功。它的操作方式与简单过滤器相同。
 
->[!NOTE] 不能在过滤器中使用空格，因为空格是用作搜索内容中的分隔符
+>[!NOTE]
+>
+>不能在过滤器中使用空格，因为空格是用作搜索内容中的分隔符
 
 **不包含**
 
