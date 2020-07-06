@@ -2,7 +2,7 @@
 title: 归因常见问题解答
 description: 获取有关归因的常见问题解答。
 translation-type: tm+mt
-source-git-commit: 0dfab8e0b48b6a3be40bd1e2b39636b53b71113f
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 76%
@@ -87,4 +87,6 @@ Analytics 中的某些维度可能包含单个点击时的多个值。常见示�
 
 ![仅显示虚拟报表包](assets/vrs-aiq-example.png)
 
->[!NOTE] 如果区段禁止包含您的量度的点击，则这些量度实例不会归因到任何维度。但是，类似的报表过滤器只会隐藏一些维度值，而不会影响根据归因模型处理的量度。因此，区段返回的值可能比具有类似定义的过滤器低。
+>[!NOTE]
+>
+> 如果区段禁止包含您的量度的点击，则这些量度实例不会归因到任何维度。但是，类似的报表过滤器只会隐藏一些维度值，而不会影响根据归因模型处理的量度。因此，区段返回的值可能比具有类似定义的过滤器低。
