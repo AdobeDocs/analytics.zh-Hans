@@ -2,7 +2,7 @@
 title: visitorID
 description: 使用自定义访客 ID。
 translation-type: tm+mt
-source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 71%
@@ -14,7 +14,9 @@ ht-degree: 71%
 
 Adobe 使用多种不同的方法识别您网站上的访客。`visitorID` 变量将覆盖所有其他访客识别方法。
 
->[!IMPORTANT] Adobe 建议不要使用此变量。请改用 [Adobe Experience Cloud 身份服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)。
+>[!IMPORTANT]
+>
+> Adobe 建议不要使用此变量。请改用 [Adobe Experience Cloud 身份服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)。
 
 ## Adobe Experience Platform Launch 中的“访客 ID”
 
@@ -31,10 +33,14 @@ Adobe 使用多种不同的方法识别您网站上的访客。`visitorID` 变�
 
 `s.visitorID` 变量是一个字符串，其中包含访客的自定义唯一标识符。有效值包括最多 100 字节的字母数字字符。避免在此变量中使用虚线、空格、下划线或符号。
 
->[!WARNING] 如果在访问过程中设置 `visitorID` 变量，则数据将生成两个单独的独特访客。
+>[!WARNING]
+>
+> 如果在访问过程中设置 `visitorID` 变量，则数据将生成两个单独的独特访客。
 
 ```js
 s.visitorID = "abc123";
 ```
 
->[!CAUTION] 自定义访客ID的无效实施可能导致数据不正确和报告性能不佳。 如果此变量包含默认值(如 `"0"` 或 `"NULL"`),Adobe会将这些点击视为相同的访客。 这种情况导致数据不正确，访客数量低，访客级别段无法按预期工作。 未正确实现的自定义访客ID也给处理服务器带来沉重负载，增加 [延迟](/help/technotes/latency.md) ，降低报告性能。
+>[!CAUTION]
+>
+>自定义访客ID的无效实施可能导致数据不正确和报告性能不佳。 如果此变量包含默认值(如 `"0"` 或 `"NULL"`),Adobe会将这些点击视为相同的访客。 这种情况导致数据不正确，访客数量低，访客级别段无法按预期工作。 未正确实现的自定义访客ID也给处理服务器带来沉重负载，增加 [延迟](/help/technotes/latency.md) ，降低报告性能。
