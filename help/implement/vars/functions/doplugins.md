@@ -1,8 +1,11 @@
 ---
 title: doPlugins
 description: 在编译点击并将其发送到 Adobe 之前配置逻辑。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,9 @@ Launch 中没有可使用此变量的专用字段。按照 AppMeasurement 语法
 s.doPlugins = function() {/* Desired code */};
 ```
 
->[!NOTE] 在您的实施中仅一次将函数设置为 `doPlugins` 变量。如果多次设置 `doPlugins` 变量，则仅会使用最新的代码。
+>[!NOTE]
+>
+> 在您的实施中仅一次将函数设置为 `doPlugins` 变量。如果多次设置 `doPlugins` 变量，则仅会使用最新的代码。
 
 ## 示例
 
@@ -44,4 +49,6 @@ s.doPlugins = function() {
 }
 ```
 
->[!NOTE] AppMeasurement 的先前版本具有的 `doPlugins()` 代码略有不同。Adobe 建议将上述格式作为最佳实践。
+>[!NOTE]
+>
+> AppMeasurement 的先前版本具有的 `doPlugins()` 代码略有不同。Adobe 建议将上述格式作为最佳实践。
