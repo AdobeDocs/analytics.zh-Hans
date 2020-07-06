@@ -1,8 +1,11 @@
 ---
 title: registerPreTrackCallback
 description: 在将点击发送到 Adobe 之前创建回调函数。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '262'
+ht-degree: 100%
 
 ---
 
@@ -11,11 +14,15 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `registerPreTrackCallback` 变量允许贵组织在编译图像请求 URL 后但在将其发送之前挂接 JavaScript 函数。您可以使用此变量将 AppMeasurement 收集的数据发送到合作伙伴或内部基础结构。
 
->[!IMPORTANT] 在 [`registerPostTrackCallback`](registerposttrackcallback.md) 变量内请勿调用任何跟踪函数，如 [`t()`](t-method.md) 或 [`tl()`](tl-method.md)。此变量中的跟踪函数可能会导致图像请求无限循环！
+>[!IMPORTANT]
+>
+> 在 [`t()`](t-method.md) 变量内请勿调用任何跟踪函数，如 [`tl()`](tl-method.md) 或 [`registerPostTrackCallback`](registerposttrackcallback.md)。此变量中的跟踪函数可能会导致图像请求无限循环！
 
 每次调用 `registerPreTrackCallback` 变量时，您都会挂接该函数以在每次编译图像请求 URL 时运行。避免在同一页面加载过程中多次注册同一函数。
 
->[!NOTE] `registerPreTrackCallback` 和 `registerPostTrackCallback` 之间触发函数的时间和顺序无法得到保证。避免这两个函数之间存在依赖关系。
+>[!NOTE]
+>
+> `registerPreTrackCallback` 和 `registerPostTrackCallback` 之间触发函数的时间和顺序无法得到保证。避免这两个函数之间存在依赖关系。
 
 ## 在 Adobe Experience Platform Launch 中注册预跟踪回调
 
@@ -48,4 +55,6 @@ s.registerPreTrackCallback(function(requestUrl,a,b,c) {
 }, "param1", "param2", "param3");
 ```
 
->[!NOTE] 在此函数中设置页面变量或更改 `requestUrl` 字符串&#x200B;**不**&#x200B;会影响在此函数调用后不久发送的图像请求。请改用 [`doPlugins()`](doplugins.md) 变量。
+>[!NOTE]
+>
+> 在此函数中设置页面变量或更改 `requestUrl` 字符串&#x200B;**不**&#x200B;会影响在此函数调用后不久发送的图像请求。请改用 [`doPlugins()`](doplugins.md) 变量。
