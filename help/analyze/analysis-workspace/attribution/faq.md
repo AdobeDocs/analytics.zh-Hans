@@ -2,10 +2,10 @@
 title: 归因常见问题解答
 description: 获取有关归因的常见问题解答。
 translation-type: tm+mt
-source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+source-git-commit: 0dfab8e0b48b6a3be40bd1e2b39636b53b71113f
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 86%
+source-wordcount: '757'
+ht-degree: 76%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 86%
 
 **使用归因时，“无”行项目是什么？**
 
-“无”行项目是一个全包项，它表示在回顾窗口内发生的不含任何接触点的所有转化。请尝试在报告窗口中包含更长的时间范围。
+“无”行项目是一个全包项，它表示在回顾窗口内发生的不含任何接触点的所有转化。要减少归属于“无”行项目的转换次数，请尝试使用回顾期较长的“自定义回顾窗口”。
 
 **在使用归因模型时，为什么有时会看到超出报告窗口以外的日期？**
 
-这些额外的日期是由于访客报表回顾窗口造成的。有关更多信息，请参阅 Analytics KB 中的[出现报表窗口以外的数据](https://helpx.adobe.com/cn/analytics/kb/data-appearing-outside-reporting-window.html)。Adobe 计划在即将发布的版本中过滤掉这些额外的行。
+这些额外的日期是由于访客报表回顾窗口造成的。有关更多信息，请参阅 Analytics KB 中的[出现报表窗口以外的数据](https://helpx.adobe.com/cn/analytics/kb/data-appearing-outside-reporting-window.html)。
 
-**何时应使用访问归因回顾？何时应使用访客归因回顾？**
+**何时应使用访问、访客或自定义归因回顾？**
 
-归因回顾的选择取决于您的用例。如果转化通常比单次访问花费的时间长，则建议使用访客回顾。此外，还有一种可行的解决方案是，使用较长的访问定义来创建虚拟报表包。
+归因回顾的选择取决于您的用例。如果转换通常比单次访问耗时更长，则建议进行访客或自定义回顾。 对于较长的转换周期，自定义回顾窗口最适合，因为它们是从报告窗口之前提取数据的唯一类型
 
 **使用归因时，如何进行 prop 和 eVar 比较？**
 
