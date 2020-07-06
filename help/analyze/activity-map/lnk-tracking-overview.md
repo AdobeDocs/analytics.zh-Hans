@@ -3,8 +3,11 @@ description: 'Activity Map 利用更加可靠的算法来跟踪链接 '
 title: 可靠的链接跟踪
 topic: Activity map
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,9 @@ Activity Map 利用更加可靠的算法来跟踪链接:
 
 ## Activity Map 链接跟踪如何收集 PII 数据 {#section_AEE57510D17B4C21A7D49D32D21D67B9}
 
->[!CAUTION] 启用 Activity Map 跟踪后，您可能会收集个人身份识别信息 (PII) 数据。此类数据可用于（单独或与其他信息配合使用）识别、联系或查找个人，或者在上下文中识别个人。
+>[!CAUTION]
+>
+> 启用 Activity Map 跟踪后，您可能会收集个人身份识别信息 (PII) 数据。此类数据可用于（单独或与其他信息配合使用）识别、联系或查找个人，或者在上下文中识别个人。
 
 以下是使用 Activity Map 跟踪收集 PII 数据的一些已知案例：
 
