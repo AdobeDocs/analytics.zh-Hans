@@ -2,7 +2,7 @@
 title: 返回频率
 description: 当前访问与上次访问之间的时段时间。
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 4%
@@ -14,7 +14,9 @@ ht-degree: 4%
 
 “返回频率”维度显示来自返回访客的访问之间经过的时间长度。 当访客返回您的网站时，Adobe会查看上次访问的时间，并将点击记录在相应的维度值中。 此维度有助于评估网站在一段时间内对访客的吸引力和相关性。 它还有助于确定网站内容和促销活动对访客的影响。
 
->[!TIP] 此维度不包括首次访客。
+>[!TIP]
+>
+>此维度不包括首次访客。
 
 ## 用数据填充此维
 
