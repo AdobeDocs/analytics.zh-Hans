@@ -4,8 +4,11 @@ subtopic: Data sources
 title: 准备使用数据源
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 请参阅管理工具帮助中的[成功事件](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/success-events/success-event.html)。
 
->[!NOTE] Adobe 强烈建议结合使用新的空事件与数据源数据，但在极少数情况下也可以使用预先存在的事件。
+>[!NOTE]
+>
+> Adobe 强烈建议结合使用新的空事件与数据源数据，但在极少数情况下也可以使用预先存在的事件。
 
 ## 标识数据维度 {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
@@ -38,7 +43,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 您可以定义多个数据维度对应一个量度，但是每个量度必须为每个关联的数据维度提供一个相关的值，或多个值的组合。例如，如果您导入离线销售量度并将其与 *`Product`* 和 *`Partner`* 数据维度关联，则离线销售量度必须与产品和合作伙伴的每个组合相关（例如，总收入）。
 
->[!NOTE] 可能会导入无法按任何数据维度划分的总计量度。
+>[!NOTE]
+>
+> 可能会导入无法按任何数据维度划分的总计量度。
 
 在您定义要与数据源一起使用的数据维度之后，请通过将维度数据映射到变量，将其集成到市场营销报表中。可使用标准报表（例如，产品、跟踪代码、搜索关键词）或转化流量变量 (eVar)。
 
