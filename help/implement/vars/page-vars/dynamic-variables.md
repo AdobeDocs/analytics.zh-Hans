@@ -1,8 +1,11 @@
 ---
 title: 动态变量
 description: 在不增加图像请求长度的情况下复制变量。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 当 Adobe 识别动态变量前缀时，它会自动复制报表包中的查询字符串或 HTTP 标头值。此操作在任何其他处理（包括处理规则和 VISTA 规则）之前执行。
 
->[!TIP] 在复制变量时需要注意最大字符限制。例如，如果将 `eVar1` 复制到 `prop1`，`prop1` 的值可能会被截断，因为它的长度限制为 100 字节（而 `eVar1` 的长度限制为 255 字节）。
+>[!TIP]
+>
+> 在复制变量时需要注意最大字符限制。例如，如果将 `eVar1` 复制到 `prop1`，`prop1` 的值可能会被截断，因为它的长度限制为 100 字节（而 `eVar1` 的长度限制为 255 字节）。
 
 ## Adobe Experience Platform Launch 中的动态变量
 
@@ -48,4 +53,6 @@ s.eVar1 = "D=User-Agent";
 s.eVar1 = "D=g";
 ```
 
->[!NOTE] 在调试实施时，动态变量会显示为字符串。值由 Adobe 数据收集服务器在服务器端复制。
+>[!NOTE]
+>
+> 在调试实施时，动态变量会显示为字符串。值由 Adobe 数据收集服务器在服务器端复制。
