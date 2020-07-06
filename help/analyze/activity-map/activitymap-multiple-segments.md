@@ -4,7 +4,10 @@ title: 客户分段
 topic: Activity map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 允许您在 Activity Map 中应用多区段过滤器。
 
->[!NOTE] 区段控件仅在标准模式下可用，因为 Adobe Analytics 平台不支持对实时数据进行分段。
+>[!NOTE]
+>
+> 区段控件仅在标准模式下可用，因为 Adobe Analytics 平台不支持对实时数据进行分段。
 
 您可以从下面显示的&#x200B;**[!UICONTROL 区段]**&#x200B;下拉菜单中选择一个或多个区段。列出的区段与您所拥有的区段或者通过“Reports &amp; Analytics”与您共享的区段（用于选定的报表包）相同。
 
