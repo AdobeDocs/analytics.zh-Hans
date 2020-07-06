@@ -1,8 +1,11 @@
 ---
 title: t
 description: 向 Adobe 发送页面查看跟踪调用。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '269'
+ht-degree: 100%
 
 ---
 
@@ -60,4 +63,6 @@ y.eVar1 = "Override value";
 s.t(y);
 ```
 
->[!NOTE] AppMeasurement 的早期版本使用几行代码调用此函数。过去，其他代码可适应不同浏览器的解决方法。现代浏览器中的标准化和最佳实践不再需要此代码块。现在只需要方法调用 `s.t()`。
+>[!NOTE]
+>
+> AppMeasurement 的早期版本使用几行代码调用此函数。过去，其他代码可适应不同浏览器的解决方法。现代浏览器中的标准化和最佳实践不再需要此代码块。现在只需要方法调用 `s.t()`。
