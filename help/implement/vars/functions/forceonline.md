@@ -1,8 +1,11 @@
 ---
 title: forceOnline
 description: 手动设置 AppMeasurement 的在线状态。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '138'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `forceOnline()` 方法允许您覆盖自动检测到的 AppMeasurement 状态。
 
->[!IMPORTANT] 仅在启用 [`trackOffline`](../config-vars/trackoffline.md) 时才使用此方法。在离线跟踪之外使用此函数可能会导致数据丢失。
+>[!IMPORTANT]
+>
+> 仅在启用 [`trackOffline`](../config-vars/trackoffline.md) 时才使用此方法。在离线跟踪之外使用此函数可能会导致数据丢失。
 
 AppMeasurement 会自动检测设备的在线状态。您可以使用 `forceOnline()` 方法强制 AppMeasurement 处理点击，如同设备处于在线状态一样。此方法不接受任何参数，也不返回任何值。它的唯一用途是覆盖 AppMeasurement 中的在线状态。
 
