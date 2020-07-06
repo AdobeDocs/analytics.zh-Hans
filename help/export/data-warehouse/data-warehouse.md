@@ -3,8 +3,11 @@ description: Data Warehouse 是指用于存储的 Analytics 数据副本，以�
 title: Data Warehouse 概述
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 100%
 
 ---
 
@@ -19,11 +22,13 @@ Data Warehouse 会自动将任何大小超过 1 MB 的文件压缩为 zip 包。
 
 在针对各个计划报表和已下载报表的单个请求中，Data Warehouse 可处理无限数量的行。
 
->[!NOTE]Data Warehouse 会报告在报表时段遇到的第一个值。
+>[!NOTE]
+>
+>Data Warehouse 会报告在报表时段遇到的第一个值。
 
 >[!IMPORTANT]
 >
->在对分类的值进行分段时，Analysis Workspace 和 Data Warehouse 处理“未指定”值的方式有所不同。Workspace 中的“未指定”是指未分类的值，而 Data Warehouse 中的“未指定”是指您分类为“未指定”的值。
+>在对分类的值进行分段时，Analysis Workspace 和 Data Warehouse 处理“未指定”值的方式有所不同。工作区中的“未指定”是指未分类的值，而 Data Warehouse 中的“未指定”是指您分类为“未指定”的值。
 
 ## Data Warehouse 请求描述 {#section_F21C78ED36884C389C852E876AF5CDE8}
 
