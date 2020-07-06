@@ -2,7 +2,7 @@
 title: 每次访问逗留时间
 description: 访问的总时间。
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 11%
@@ -22,7 +22,9 @@ ht-degree: 11%
 
 当您想了解访客与您网站的整体交互时间时，这些维度非常有价值。
 
->[!TIP] 在一次访问中花费的时间至少需要点击两次才能衡量时间。 包含单次点击的访问不会显示在此维度中。
+>[!TIP]
+>
+>在一次访问中花费的时间至少需要点击两次才能衡量时间。 包含单次点击的访问不会显示在此维度中。
 
 此维度基于访问，这意味着该值适用于访问中的每次点击，并且不会更改。 可将此维度与[页面逗留时间](time-spent-on-page.md)进行比较，后者是一个基于点击的维度。
 
@@ -37,6 +39,6 @@ ht-degree: 11%
 存在多个维度，用于每次访问所花费的时间：
 
 * **每次访问所花费的时间——分时段**: 时间被计时。 维值范围 `"Less than 1 minute"` 从 `"More than 15 hours"`到。 访问时间一般不超过12小时； 但是，如果使用时间戳的点击或数据源，访问量可能超过12小时。
-* **每次访问所花费的时间——细粒度**: 每个秒数是唯一的维度值。 此维度在Reports &amp; Analytics或Data Warehouse中不可用。
+* **每次访问所花费的时间——细粒度**: 每个秒数是唯一的维度值。 此维度在报告和Analytics或Data warehouse中不可用。
 
 有关 [停留时间的更多](../metrics/time-spent.md) 、一般信息，请参阅停留时间概述。
