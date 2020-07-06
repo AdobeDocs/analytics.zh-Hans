@@ -4,8 +4,11 @@ subtopic: Classifications
 title: 关于子分类
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '677'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Adobe Analytics 支持单级别和多级别分类模型。使用分类层次结构可以将分类应用到分类。
 
->[!NOTE] 子分类是指创建分类的分类的功能。但请注意，这与创建[!UICONTROL 层次]报表的[!UICONTROL 分类层次]不同。有关分类层次结构的详细信息，请参阅[分类层次结构](classification-hierarchies.md)。
+>[!NOTE]
+>
+> 子分类是指创建分类的分类的功能。但请注意，这与创建[!UICONTROL 层次]报表的[!UICONTROL 分类层次]不同。有关分类层次结构的详细信息，请参阅[分类层次结构](classification-hierarchies.md)。
 
 例如：
 
@@ -52,7 +57,9 @@ Adobe Analytics 支持单级别和多级别分类模型。使用分类层次结�
 
 虽然多级分类的文件模板较为复杂，但在多级分类中，单独的级别可以作为单独的文件上载。此方法可用于最大限度地减少需要定期（每天、每周等等）上载的数据量，方法是将数据分组为随时间变化的分类级别（而非不随时间变化的分类级别）。
 
->[!NOTE] 如果数据文件中的“[!UICONTROL 键值]”列为空白，则 Adobe 会自动地为每个数据行生成唯一的键值。要避免在上载具有二级或更高级分类数据的数据文件时可能出现的文件损坏，请以星号 (*) 填充[!UICONTROL 键值]列的每一行。
+>[!NOTE]
+>
+> 如果数据文件中的“[!UICONTROL 键值]”列为空白，则 Adobe 会自动地为每个数据行生成唯一的键值。要避免在上载具有二级或更高级分类数据的数据文件时可能出现的文件损坏，请以星号 (*) 填充[!UICONTROL 键值]列的每一行。
 
 如需疑难解答帮助，请参阅[常见分类上载问题](https://helpx.adobe.com/cn/analytics/kb/common-saint-upload-issues.html)。
 
@@ -60,7 +67,8 @@ Adobe Analytics 支持单级别和多级别分类模型。使用分类层次结�
 
 ![](assets/sample-product-classifications.png)
 
->[!NOTE] 产品分类数据仅受与产品直接相关的数据属性的限制，而与产品在网站上的分类或销售方式无关。销售类别、网站浏览节点或销售项目等数据元素不是产品分类数据。这些元素是在报表转化变量中所捕获的。
+>[!NOTE]
+ 产品分类数据仅受与产品直接相关的数据属性的限制，而与产品在网站上的分类或销售方式无关。销售类别、网站浏览节点或销售项目等数据元素不是产品分类数据。这些元素是在报表转化变量中所捕获的。
 
 在上载此产品分类的数据文件时，您可以将分类数据作为单个或多个文件进行上载（请参阅下文）。将文件 1 中的颜色代码与文件 2 中的颜色名称分开后，仅在创建新颜色代码时才需要更新颜色名称数据（可能只有少数几行）。这会从更新较为频繁的文件 1 中消除颜色名称（代码&amp;Hat;颜色）字段，从而缩减在生成数据文件时的文件大小并降低复杂性。
 
