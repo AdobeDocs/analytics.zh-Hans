@@ -5,7 +5,10 @@ title: DFA 集成
 topic: Data connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2598'
+ht-degree: 100%
 
 ---
 
@@ -138,7 +141,9 @@ DFA 的 Data connectors 集成要求您在页面的域中设置 Cookie。
 
 DFA 的 Genesis 集成可利用 DFA Floodlight 配置 ID (dfa_SPOTID)，以提高 DFA 和 Adobe 数据收集系统之间的报表一致性。
 
->[!NOTE] 术语 Spotlight 已在最近发布的 Google DFA 中更改为 Floodlight。JavaScript 参数 `dfa_SPOTID` 基于 Spotlight 术语而命名，但它可同时用于两个版本。
+>[!NOTE]
+>
+> 术语 Spotlight 已在最近发布的 Google DFA 中更改为 Floodlight。JavaScript 参数 `dfa_SPOTID` 基于 Spotlight 术语而命名，但它可同时用于两个版本。
 
 要在您的网站上启用 DFA 集成，您必须通过添加以下内容来更新 JavaScript 数据收集代码：
 
