@@ -5,7 +5,7 @@ title: 转化变量 (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1579'
 ht-degree: 98%
@@ -27,7 +27,9 @@ eVar 最适合用于度量原因和影响，例如：
 
 如果需要进行流量测量或路径分析，则建议您使用流量变量。
 
->[!NOTE] 在图像请求中，一个 eVar 中只能存储一个值。如果一个 eVar 值中需要多个值，我们建议您实施[列表变量 (list vars)](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/page-vars/page-variables.html)。
+>[!NOTE]
+>
+>在图像请求中，一个 eVar 中只能存储一个值。如果一个 eVar 值中需要多个值，我们建议您实施[列表变量 (list vars)](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/page-vars/page-variables.html)。
 
 ## 转化变量 - 描述 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
