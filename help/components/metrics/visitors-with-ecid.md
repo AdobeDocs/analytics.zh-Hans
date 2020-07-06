@@ -2,7 +2,7 @@
 title: 具有 Experience Cloud ID 的访客
 description: 使用Adobe Experience Cloud ID服务的唯一访客数。
 translation-type: tm+mt
-source-git-commit: 0328de560185e716a3913080feda9cd078e0f206
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 19%
@@ -12,23 +12,25 @@ ht-degree: 19%
 
 # 具有 Experience Cloud ID 的访客
 
-“具有Experience Cloud ID的访客”量度显示Adobe使用Experience Cloud ID服务识别的唯 [一访客数](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)。 此维度有助于与“唯一 [访客](unique-visitors.md) ”量度进行比较，以确保站点的大多数访客都使用ID服务。 如果大部分访客不使用ID服务Cookie，则它可以指示您的实施中存在问题。
+“具有Experience CloudID的访客”度量显示Adobe使用Experience CloudID服务识别的唯一访客 [的数量](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)。 此维度有助于与“唯一 [访客](unique-visitors.md) ”量度进行比较，以确保站点的大多数访客都使用ID服务。 如果大部分访客不使用ID服务Cookie，则它可以指示您的实施中存在问题。
 
->[!NOTE] 如果您使用Adobe目标或Adobe受众管理器等多项Experience Cloud服务，则此指标对于调试尤为重要。 在Experience Cloud产品中共享的细分不包括没有Experience Cloud ID的访客。
+>[!NOTE]
+>
+>如果您使用多种Experience Cloud服务(如Adobe Target或Adobe Audience Manager)，则此度量对调试尤为重要。 跨Experience Cloud产品共享的访客不包括没有Experience CloudID的客户。
 
 ## 如何计算此度量
 
 此度量基于唯一 [访客](unique-visitors.md) ，但仅包括使用查询字符串(基于 `mid`[`s_ecid`](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/ec-cookies/cookies-analytics.html) cookie)标识的个人。
 
-## 调试Experience Cloud ID设置
+## 调试Experience CloudID设置
 
-“具有Experience Cloud ID的访客”量度可用于诊断Experience Cloud集成故障，或识别未部署ID服务的站点区域。
+“具有访客ID的Experience Cloud”量度可用于排除Experience Cloud集成故障或识别未部署ID服务的站点区域。
 
-将“具有Experience Cloud ID的访客”与“唯一访客”并排拖动，以进行比较：
+将“具有Experience CloudID的访客”与“唯一访客”并排拖动，以进行比较：
 
 ![独特访客比较](assets/metric-mcvid1.png)
 
-在此示例中，请注意，每个页面的“唯一访客”数与“具有Experience Cloud ID的访客”相同。 但是，独特访客的总数大于具有 Experience Cloud ID 的访客总数。您可以创建计 [算度量](../c-calcmetrics/cm-overview.md) ，以找出哪些页面未设置ID服务。 您可以使用以下定义：
+在此示例中，请注意，每个页面的“唯一访客”数与“具有Experience CloudID的访客”数相同。 但是，独特访客的总数大于具有 Experience Cloud ID 的访客总数。您可以创建计 [算度量](../c-calcmetrics/cm-overview.md) ，以找出哪些页面未设置ID服务。 您可以使用以下定义：
 
 ![计算度量定义](assets/metric-mcvid2.png)
 
