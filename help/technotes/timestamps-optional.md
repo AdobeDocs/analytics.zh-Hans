@@ -5,7 +5,10 @@ title: 使用可选时间戳
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '616'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 * 将加盖时间戳的数据从移动设备应用程序发送至全局报表包。
 * 升级应用程序以应用时间戳，而不必创建新的报表包。
 
->[!NOTE]“可选时间戳”是从模板生成的所有新报表包的默认设置。从现有报表包复制而来的新报表包将继承原始报表包的设置。
+>[!NOTE]
+>
+>“可选时间戳”是从模板生成的所有新报表包的默认设置。从现有报表包复制而来的新报表包将继承原始报表包的设置。
 
 请参阅[可选时间戳](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/timestamp-optional.html)，以了解更多设置信息。
 
@@ -52,7 +57,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 将数据整合到全局报表包中可通过多种方式完成，包括多包标记、VISTA 规则，以及从离线来源导入批量文件。
 
->[!IMPORTANT]请仔细规划每个组件数据集的设计，从而在全局报表包中实现整合。
+>[!IMPORTANT]
+>
+>请仔细规划每个组件数据集的设计，从而在全局报表包中实现整合。
 
 ## 应用时间戳时的最佳实践 {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
 
