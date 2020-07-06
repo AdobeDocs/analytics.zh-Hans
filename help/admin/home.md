@@ -1,8 +1,11 @@
 ---
 title: Analytics 管理帮助
 description: 适用于 Adobe Analytics 管理员的管理帮助，包括 Admin Console 中的用户和产品管理，以及设置报表包、变量、分类和数据收集。
-translation-type: ht
-source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
+translation-type: tm+mt
+source-git-commit: fb0833530a9ec67f01226b986d124ab1e441d7e4
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 95%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 Adobe Analytics 目前有两个管理员区域：
 
 * Adobe Admin Console：使用此区域可配置 Experience Cloud 工具并管理用户权限。它位于 [adminconsole.adobe.com](https://adminconsole.adobe.com)。
-* Analytics Admin Console：此区域用于报表包和变量管理。通过单击 Adobe Analytics 顶部标题中的“管理”，可以访问该区域。
+* Analytics Admin Console：此区域用于报表包和变量管理。It can be accessed by clicking [!UICONTROL Admin] in the top header of Adobe Analytics.
 
 本指南涵盖：
 
