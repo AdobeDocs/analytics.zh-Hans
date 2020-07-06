@@ -3,7 +3,10 @@ description: “Reports & Analytics”中的“报表”菜单概述。
 title: “报表”菜单
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '785'
+ht-degree: 98%
 
 ---
 
@@ -23,21 +26,23 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 “我的收藏夹”、“最常查看”和“报表历史记录”都是特定于报表包的。如果更改报表包，所有三个列表都将发生相应的更改。
 
-报表是采用分层列视图导航的。单 **[!UICONTROL View All Reports]**&#x200B;击，或按正斜杠键(/)，然后按向下箭头键(?)以使用箭头键快速显示和导航菜单。 按 Esc 键可在不更改当前报表的情况下关闭菜单，或按 Enter 可加载选定报表。
+报表是采用分层列视图导航的。单击&#x200B;**[!UICONTROL 查看所有报表]**，或按正斜杠键 (/)，然后按向下箭头键 (?)，可使用箭头键快速显示并导航菜单。按 Esc 键可在不更改当前报表的情况下关闭菜单，或按 Enter 可加载选定报表。
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-有关单个报表的详细信息，请参阅[报表描述](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html)。
+有关单个报表的详细信息，请参阅[报表描述](https://docs.adobe.com/content/help/zh-Hans/analytics/components/variables/c-variables.html)。
 
 ## 搜索报表 {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
-“报表”菜单提供了增强的搜索体验。Click **[!UICONTROL View All Reports]** , or press the Forward Slash key (/) , and then begin typing to quickly find a report. 报表搜索已扩展到包含 Analytics 左侧导航器菜单中的所有内容（管理员，组件等）。
+“报表”菜单提供了增强的搜索体验。单击&#x200B;**[!UICONTROL 查看所有报表]**，或按正斜杠键 (/)，然后开始键入内容可快速查找报表。报表搜索已扩展到包含 Analytics 左侧导航器菜单中的所有内容（管理员，组件等）。
 
 ![](assets/menu-search.png)
 
 按 Tab 键或向下箭头键 (?) 可在报表列表中导航。按 Esc 键可在不更改当前报表的情况下关闭搜索，或按 Enter 可加载选定报表。
 
->[!NOTE]您也可以按照 prop、eVar 和事件编号来搜索报表列表。在搜索栏中，输入 prop、eVar 或事件编号。
+>[!NOTE]
+>
+>您也可以按照 prop、eVar 和事件编号来搜索报表列表。在搜索栏中，输入 prop、eVar 或事件编号。
 
 ## 导航概述 {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -118,4 +123,4 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ## 自定义所有报表菜单 {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-管理员可以更改“报表”菜单中包含的报表。请参阅“管理参考”中的[菜单自定义](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html)。
+管理员可以更改“报表”菜单中包含的报表。请参阅“管理参考”中的[菜单自定义](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/customize-menus.html)。
