@@ -6,7 +6,10 @@ title: 用户和群组权限更改
 topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1562'
+ht-degree: 100%
 
 ---
 
@@ -15,13 +18,15 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 >[!IMPORTANT]
 >
->用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在迁移完所有客户之后，将撤销 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员工具]** > **[!UICONTROL 用户管理]**&#x200B;中的帮助内容。
 
 ## 更改了哪些内容？{#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
-**[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]**
+**[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 群组]**
 
->[!NOTE] 由于可用的可能权限组合太多，我们无法提供文档介绍可在每种权限组合中使用的所有 API 方法。通常，被授予 Web 服务访问权限的非管理员将只有 API 方法的读取权限。他们将没有这些方法的写入权限。
+>[!NOTE]
+>
+> 由于可用的可能权限组合太多，我们无法提供文档介绍可在每种权限组合中使用的所有 API 方法。通常，被授予 Web 服务访问权限的非管理员将只有 API 方法的读取权限。他们将没有这些方法的写入权限。
 
 由于 API 和界面使用相同的权限系统，因此无论管理员在界面（Adobe Admin Console）中为特定的非管理员授予怎样的权限，该用户在 API 中都将拥有相同的权限。
 
@@ -61,7 +66,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
    <td colname="col2"> <p>您可以对权限进行自定义，以便包含或排除对维度（和量度）的访问权限。 </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>自定义群组内的所有当前维度和量度均已自动迁移到新类别。如果现有的群组启用了量度，则默认情况下将为其提供所有新增的许可维度（eVar 和内容识别）和量度。 </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 分类导入器（前身为 SAINT）权限：分类的访问权限取决于对此分类所依据的<a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html">变量</a>的访问权限。 </li> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 分类导入器（前身为 SAINT）权限：分类的访问权限取决于对此分类所依据的<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/components/classifications/c-classifications.html">变量</a>的访问权限。 </li> 
     </ul> <p>请参阅<a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">自定义维度权限</a>。 </p> </td> 
   </tr> 
   <tr> 
@@ -123,7 +128,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 下表列出了相关任务以及执行这些任务的位置（具体取决于公司的状态）。
 
->[!NOTE] *`migrated user`* 和 *`Experience Cloud user`* 指已接受加入 Experience Cloud 的电子邮件邀请的用户。如果未接受电子邮件邀请，用户仍是 Analytics 用户，无法在 Admin Console 中对其进行管理。（迁移时使用了[企业或联合 ID](https://helpx.adobe.com/cn/enterprise/using/set-up-identity.html) 的情况除外。在这种情况下，当管理员逐个迁移用户时，将迁移此类用户。）
+>[!NOTE]
+>
+> *`migrated user`* 和 *`Experience Cloud user`* 指已接受加入 Experience Cloud 的电子邮件邀请的用户。如果未接受电子邮件邀请，用户仍是 Analytics 用户，无法在 Admin Console 中对其进行管理。（迁移时使用了[企业或联合 ID](https://helpx.adobe.com/cn/enterprise/using/set-up-identity.html) 的情况除外。在这种情况下，当管理员逐个迁移用户时，将迁移此类用户。）
 
 <table id="table_B68FD00FC5D24823A86BB69558C0327C"> 
  <thead> 
