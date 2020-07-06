@@ -2,7 +2,7 @@
 title: 独特访客
 description: 唯一个人（或设备）的数量。
 translation-type: tm+mt
-source-git-commit: 8cfd797e336e006bf4134a2c10a89ad1003c53dc
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 10%
@@ -34,7 +34,9 @@ Analysis Workspace根据报表的粒度处理唯一访客。 例如，如果您�
 | 4 | `fid` | 访客有现 [`s_fid`](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/ec-cookies/cookies-analytics.html) 有的cookie，或者 `aid` 由于 `mid` 任何原因无法设置和。 |
 | 5 | IP 地址、用户代理、网关 IP 地址 | 如果访客的浏览器不接受cookie，最后确定唯一访客。 |
 
->[!NOTE] 每个Analytics访客ID都与Adobe服务器上的用户档案关联。 这些访客用户档案在至少13个月不活动后被删除，而不管任何访客ID cookie过期。
+>[!NOTE]
+>
+>每个Analytics访客ID都与Adobe服务器上的用户档案关联。 这些访客用户档案在至少13个月不活动后被删除，而不管任何访客ID cookie过期。
 
 ## 影响唯一访客计数的行为
 
