@@ -4,7 +4,10 @@ title: 锁定/解锁工作簿
 topic: Report builder
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 100%
 
 ---
 
@@ -15,11 +18,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 作为分析人员，锁定工作簿可以保护工作簿请求不被组织内的其他用户篡改。与此同时，这些用户仍可以刷新工作簿中的请求。
 
-To protect a workbook against editing, click **[!UICONTROL Locked]** on the Report Builder toolbar ( ![](assets/locked_icon.png)
+要防止编辑工作簿，请单击 Report Builder 工具栏上的&#x200B;**[!UICONTROL 已锁定]** (![](assets/locked_icon.png)
 
 )。
 
-To unprotect a workbook, click **[!UICONTROL Unlocked]** ( ![](assets/unlocked_icon.png)
+要取消保护工作簿，请单击&#x200B;**[!UICONTROL 已解锁]** (![](assets/unlocked_icon.png)
 
 )。
 
@@ -28,7 +31,9 @@ To unprotect a workbook, click **[!UICONTROL Unlocked]** ( ![](assets/unlocked_i
 * 您是管理员，或者
 * 您是最初锁定工作簿的人员。在这种情况下，您不必是管理员。
 
->[!NOTE] 除非您具有解锁工作簿的权限，否则您无法向受保护的工作簿中添加请求。
+>[!NOTE]
+>
+> 除非您具有解锁工作簿的权限，否则您无法向受保护的工作簿中添加请求。
 
 当锁定工作簿以防止编辑请求时，
 
@@ -39,7 +44,7 @@ To unprotect a workbook, click **[!UICONTROL Unlocked]** ( ![](assets/unlocked_i
 * 用户可以单独或作为群组的一部分刷新请求。
 * 如果请求使用来自单元格（日期范围、区段、过滤器）的输入值，则用户可以在单元格中更改这些值，从而通过刷新请求间接对其进行编辑。
 
-If you try to edit a protected workbook (through the context menu, or **[!UICONTROL Request Manager]**, or **[!UICONTROL Edit Multiple Requests]**), you may or may not be allowed to do so:
+如果您尝试编辑受保护的工作簿（通过上下文菜单、**[!UICONTROL 请求管理器]**&#x200B;或&#x200B;**[!UICONTROL 编辑多个请求]**），则可能允许（也可能不允许）您这样做：
 
 * 如果您不具有解锁请求的权限，则会出现以下提示：
 
@@ -47,7 +52,7 @@ If you try to edit a protected workbook (through the context menu, or **[!UICONT
 
 * 如果您具有所需的权限，则不会出现任何提示，您可以顺利编辑请求。
 
-## 工作流 {#section_260D05FF632B41DB97DB43E2ADBE2E75}
+## 工作流程 {#section_260D05FF632B41DB97DB43E2ADBE2E75}
 
 我们假定工作簿 A 具有一个请求，该工作簿处于锁定状态，且由用户 A 创建。
 
