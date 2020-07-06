@@ -2,7 +2,7 @@
 title: 搜索关键字
 description: 访客用来访问您的站点的搜索关键字。
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -14,7 +14,9 @@ ht-degree: 0%
 
 “搜索关键字”维度报告访客用于访问您的站点的搜索关键字。
 
->[!IMPORTANT] 由于隐私惯例不断增加，大多数搜索引擎不再传递搜索关键字。 Adobe识别搜索引擎但在维度值下缺少关键字组的点击 `"Keyword unavailable"`。
+>[!IMPORTANT]
+>
+>由于隐私惯例不断增加，大多数搜索引擎不再传递搜索关键字。 Adobe识别搜索引擎但在维度值下缺少关键字组的点击 `"Keyword unavailable"`。
 
 推荐人必须满足以下两项才能分类为搜索关键字：
 
