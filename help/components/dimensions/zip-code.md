@@ -2,7 +2,7 @@
 title: 邮政编码
 description: 访客的邮政编码。
 translation-type: tm+mt
-source-git-commit: 05ea2778cd5cd324c660fd0f1d2ac02373829f0f
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -23,7 +23,9 @@ ht-degree: 0%
 
 “ [!UICONTROL 常规] ” [帐户设置下的Zip](/help/admin/admin/general-acct-settings-admin.md) 选项控制如何填充此维。
 
->[!IMPORTANT] 如果您希望完全控制填充此维的方式，报表包设置至关重要。
+>[!IMPORTANT]
+>
+>如果您希望完全控制填充此维的方式，报表包设置至关重要。
 
 ## 维值
 
