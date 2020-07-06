@@ -1,11 +1,11 @@
 ---
 title: 什么是同类群组分析？
-description: 了解分析工作区中的同期群分析
+description: 了解Analysis Workspace中的同期群分析
 translation-type: tm+mt
-source-git-commit: 79849c574909543d74e2935e493008927700585d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 45%
+ht-degree: 46%
 
 ---
 
@@ -24,13 +24,15 @@ Examples of what you can do with [!UICONTROL Cohort Analysis]:
 * 获取在一些领域（例如，定价、升级路径等）内进行 A/B 测试的建议。
 * View a [!UICONTROL Cohort Analysis] report within a Guided Analysis report.
 
-[!UICONTROL 同期群分析] 适用于有权访问分析工作区的所有Adobe Analytics [!UICONTROL 客户]。
+[!UICONTROL 群组分析] 适用于所有拥有Analysis Workspace访问权限的AdobeAnalytics [!UICONTROL 客户]。
 
 [YouTube 上的同类群组分析](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
 
 >[!IMPORTANT]
 >
->[!UICONTROL 同期群分析] 不支持非可细分指标（包括计算指标）、非整数指标（如收入）或发生次数。 只有可在区段中使用的指标才能用于
+>[!UICONTROL 同类群组分析]
+>
+>不支持非可细分指标（包括计算指标）、非整数指标（如收入）或“发生次数”。 只有可在区段中使用的指标才能用于
 >[!UICONTROL 同期群分析]，而且每次只能增加1。
 
 ## 同类群组分析功能
