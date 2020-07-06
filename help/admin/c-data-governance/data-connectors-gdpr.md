@@ -2,8 +2,11 @@
 description: 此页面列出了 Data Connectors（以前称为 Genesis）中的所有合作伙伴变量，这些变量可能包含数据主体的直接可识别数据或间接可识别数据。
 title: 数据隐私和 Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '436'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 如果您正在使用以下任意连接器的集成，那么可以简单地查看一下集成中的哪个合作伙伴变量/分类可能包含直接可识别数据或间接可识别数据。
 
->[!NOTE]此信息旨在帮助您识别必须[标记的](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)变量，但是您作为数据控制者，有责任应用适当的标签或执行其他操作，以便做好[数据隐私准备](/help/admin/c-data-governance/an-gdpr-overview.md)（更新分类等）。
+>[!NOTE]
+>
+>此信息旨在帮助您识别必须[标记的](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)变量，但是您作为数据控制者，有责任应用适当的标签或执行其他操作以便做好[数据隐私准备](/help/admin/c-data-governance/an-gdpr-overview.md)（更新分类等）。
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
