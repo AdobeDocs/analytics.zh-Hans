@@ -2,8 +2,11 @@
 description: 新的智能警报系统允许对警报进行更多粒度控制，而且还将异常检测与警报系统集成在一起。
 title: 智能警报概述
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 100%
 
 ---
 
@@ -25,19 +28,21 @@ Analysis Workspace 中新增的警报生成器和警报管理器取代了 Report
 
 可通过四种方式访问警报生成器：
 
-* 直接转到警报生成器：**[!UICONTROL Components]** > **[!UICONTROL Alerts]**
+* 直接转到警报生成器：**[!UICONTROL 组件]** > **[!UICONTROL 警报]**
 * 在工作区中使用键盘快捷键：`Ctrl + Shift + A` (Windows) 或 `Cmd + Shift + A` (Mac)
-* 选择一个或多个自由格式表行项目，右键单击并选择 **[!UICONTROL Create Alert from Selection]**。此时将打开警报生成器，并预填充从表中应用的相应量度和过滤器。您可以根据需要编辑警报。
+* 选择一个或多个自由格式表行项目，右键单击并选择&#x200B;**[!UICONTROL 从选定范围中创建警报]**。此时将打开警报生成器，并预填充从表中应用的相应量度和过滤器。您可以根据需要编辑警报。
 
    ![从选定范围中创建警报](assets/create-alert-from-selection.png)
 
-* 从 Reports &amp; Analytics 报表中，转到 **[!UICONTROL More]** > **[!UICONTROL Add Alert]**。此时将打开警报生成器，并预填充从报表中应用的相应量度和过滤器。您可以根据需要编辑警报。
+* 在 Reports &amp; Analytics 报表中，转到&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 添加警报]**。此时将打开警报生成器，并预填充从报表中应用的相应量度和过滤器。您可以根据需要编辑警报。
 
    ![添加警报](assets/add-alert.png)
 
 百分比阈值代表标准偏差。例如，95% 等于 2 个标准偏差，99% 等于 3 标准偏差。根据您选择的时间粒度，将使用[不同的模型](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)来计算每个数据点和标准值之间的间隔时间（标准偏差个数）。设定的阈值越低，异常会越多。例如，同 99.75% 的相比，90% 的阈值会产生更多的异常。
 
->[!IMPORTANT] 使用带时间戳的数据创建警报可能会导致警报无法正确触发。Adobe 建议对智能警报使用不带时间戳的数据。
+>[!IMPORTANT]
+>
+> 使用带时间戳的数据创建警报可能会导致警报无法正确触发。Adobe 建议对智能警报使用不带时间戳的数据。
 
 ## 警报的异常回顾
 
