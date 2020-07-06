@@ -4,7 +4,7 @@ title: 生成区段
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: aaf7123b1ed8ced67076affd108e337b10fe0f39
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '2037'
 ht-degree: 90%
@@ -75,7 +75,7 @@ ht-degree: 90%
 
 嵌入了日期范围的区段会继续以不同的方式在 Analysis Workspace 与 [!UICONTROL Reports &amp; Analytics] 中运行：在“工作区”中，嵌入了日期范围的区段会覆盖面板日期范围。相反，[!UICONTROL Reports &amp; Analytics] 会显示报表日期范围和区段嵌入日期范围的交集。
 
-**[!UICONTROL Experience Cloud发布]**: （未在屏幕上显示）仅当为Experience Cloud启用了要保存此区段的报表包时， [才会显示此选项](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)。 通过将区段发布到 Experience Cloud，可以将该区段用于“[!UICONTROL 受众库]”、[!DNL Target] 和 [!DNL Audience Manager] 中的营销活动。[进一步了解](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/segmentation-workflow/seg-publish.html) Experience Cloud发布。
+**[!UICONTROL Experience Cloud发布]**: （未在屏幕上显示）仅当为Experience Cloud启用了要保存此区段的报表包时，才 [会显示此选项](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)。 通过将区段发布到 Experience Cloud，可以将该区段用于“[!UICONTROL 受众库]”、[!DNL Target] 和 [!DNL Audience Manager] 中的营销活动。[了解有关Experience Cloud](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/segmentation-workflow/seg-publish.html) 发布的更多信息。
 
 ## 生成区段 {#build-segments}
 
@@ -141,7 +141,9 @@ ht-degree: 90%
 * 一个用于平板电脑用户的区段
 * 20 个用于不同国家/地区的区段
 
->[!NOTE] 堆叠两个区段时，默认使用 AND 语句联接。无法更改为 OR 语句。
+>[!NOTE]
+>
+> 堆叠两个区段时，默认使用 AND 语句联接。无法更改为 OR 语句。
 
 1. 转到区段生成器。
 1. 提供区段的标题和描述。
