@@ -1,8 +1,11 @@
 ---
 title: purchaseID
 description: 根据唯一购买标识符删除重复点击。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 100%
 
 ---
 
@@ -29,4 +32,6 @@ Launch 中没有可使用此变量的专用字段。按照 AppMeasurement 语法
 s.purchaseID = "ABC123";
 ```
 
->[!NOTE] 请勿使用随机化函数生成购买 ID。Adobe 建议使用[数据层](../../prepare/data-layer.md)存储给定的购买 ID。
+>[!NOTE]
+>
+> 请勿使用随机化函数生成购买 ID。Adobe 建议使用[数据层](../../prepare/data-layer.md)存储给定的购买 ID。
