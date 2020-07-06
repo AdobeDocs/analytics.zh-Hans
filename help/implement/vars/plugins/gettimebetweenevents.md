@@ -1,15 +1,20 @@
 ---
 title: getTimeBetweenEvents
 description: 测量两个事件之间的间隔时间。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1093'
+ht-degree: 100%
 
 ---
 
 
 # Adobe 插件：getTimeBetweenEvents
 
->[!IMPORTANT] 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
+>[!IMPORTANT]
+>
+> 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
 `getTimeBetweenEvents` 插件允许您跟踪任意两个 Analytics 事件（包括购物车事件和自定义事件）之间间隔的时长。此插件可用于跟踪完成结帐流程所需的时间，也可以用于跟踪您想要测量的任何其他流程所需的时间。如果您的任何转化流程都不需要测量所用的时间，则无需使用此插件。
 
