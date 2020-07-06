@@ -2,7 +2,7 @@
 title: 类别
 description: 点击的产品类别。
 translation-type: tm+mt
-source-git-commit: bddfc52d460e87a70e7cff149f197570f405037a
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 1%
@@ -22,4 +22,6 @@ ht-degree: 1%
 
 由于此变量基于实施中的自定义字符串，因此您的组织将确定维值的大小。 Adobe建议您使用“产品”和“类别”维度将各个产品分组为有意义的类别。
 
-> [!TIP] 在Adobe Analytics的早期版本中，“类别”维度由于其处理架构而受到一些限制。 这些限制现已删除，允许您使用任何指标和任何细分。
+>[!TIP]
+>
+>在AdobeAnalytics的先前版本中，“类别”维度由于其处理架构而受到一些限制。 这些限制现已删除，允许您使用任何指标和任何细分。
