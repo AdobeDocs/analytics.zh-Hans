@@ -2,10 +2,10 @@
 title: Prop
 description: 可在报告中使用的自定义维度。
 translation-type: tm+mt
-source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '337'
-ht-degree: 28%
+ht-degree: 26%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 28%
 
 Prop 是自定义变量，您可以根据需要随意使用。它们不会超越它们设定的冲击。
 
-> [!TIP][ Adobe 建议在大多数情况下使用 eVar。](evar.md)在 Adobe Analytics 的早期版本中，prop 和 eVar 各有利弊。但是，Adobe 已改进 eVar，现在几乎可以满足 prop 的所有用例。
+>[!TIP]
+>
+>Adobe recommends using [eVars](evar.md) in most cases. 在 Adobe Analytics 的早期版本中，prop 和 eVar 各有利弊。但是，Adobe 已改进 eVar，现在几乎可以满足 prop 的所有用例。
 
 如果您有解决 [方案设计文档](/help/implement/prepare/solution-design.md)，则可以将这些自定义维度分配给特定于您的组织的值。 可用Prop的数量取决于您与Adobe的合同。 如果您与Adobe的合同支持，则最多可获得75个Prop。
 
