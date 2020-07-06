@@ -4,7 +4,7 @@ title: 转换漏斗
 topic: Reports
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 100%
@@ -32,5 +32,7 @@ ht-degree: 100%
 
 报表显示了每次点进的平均销售额以及每次点进的平均售出件数。您可以将其他报表组的量度和自定义事件添加到这些报表中。这些漏斗有很多的相似之处，只是基于不同的变量和事件。您可以使用这些报表来查看用户引发指定的具体事件的百分比和整体趋势。您可以查看用户未执行哪里的事件，这有助于您了解转化过程中的特定点。
 
->[!NOTE] 在这些报表中，如果定义了 eVar 或事件，则实例数等于访问总次数。
+>[!NOTE]
+>
+> 在这些报表中，如果定义了 eVar 或事件，则实例数等于访问总次数。
 
