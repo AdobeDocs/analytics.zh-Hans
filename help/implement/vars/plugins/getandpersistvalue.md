@@ -1,15 +1,20 @@
 ---
 title: getAndPersistValue
 description: 存储稍后可随时检索的值。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '927'
+ht-degree: 100%
 
 ---
 
 
 # Adobe 插件：getAndPersistValue
 
->[!IMPORTANT] 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
+>[!IMPORTANT]
+>
+> 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
 `getAndPersistValue` 插件允许您在 Cookie 中存储稍后可在访问期间进行检索的值。其作用与 Adobe Experience Platform Launch 中的[!UICONTROL 存储持续时间]功能类似。如果要在设置变量后的后续点击中自动将 Analytics 变量保留为相同的值，Adobe 建议使用此插件。如果 Launch 的[!UICONTROL 存储持续时间]功能足以满足需求，或者您不需要在后续点击中设置变量并将其保留为相同值，则无需使用此插件。eVar 的内置持久性不需要使用此插件，因为这些变量会由 Adobe 保留在服务器端。
 
