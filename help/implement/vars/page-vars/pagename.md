@@ -1,8 +1,11 @@
 ---
 title: pageName
 description: 您的网站中页面的名称。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `pageName` 变量通常会存储给定页面的名称。确定哪些单个页面最受欢迎很有帮助。此变量会填充“页面名称”维度。
 
->[!NOTE] 将始终从链接跟踪调用中去除此维度。如果要查看跟踪链接的页面名称，请考虑将此变量复制到 eVar 中。
+>[!NOTE]
+>
+> 将始终从链接跟踪调用中去除此维度。如果要查看跟踪链接的页面名称，请考虑将此变量复制到 eVar 中。
 
 如果给定的页面跟踪调用中未定义此变量，则将改用 [`pageURL`](pageurl.md) 变量。
 
