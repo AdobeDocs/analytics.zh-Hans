@@ -1,15 +1,20 @@
 ---
 title: getTimeSinceLastVisit
 description: 测量两次访问之间的间隔时间。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '575'
+ht-degree: 100%
 
 ---
 
 
 # Adobe 插件：getTimeSinceLastVisit
 
->[!IMPORTANT] 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
+>[!IMPORTANT]
+>
+> 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
 `getTimeSinceLastVisit` 插件允许您跟踪访客在距上次访问后多久再次访问您的网站。
 
@@ -66,7 +71,9 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 * 若距上次访问的间隔时间大于 1 天，则会以“1 天”为基准将间隔时间四舍五入到最接近的值。例如 `"1 day"`、`"3 days"`、`"9 days"`、`"372 days"`
 * 如果访客之前未访问过，或间隔时间超过两年，则会将该值设为 `"New Visitor"`。
 
->[!NOTE] 此插件仅在访客在访问期间进行第一次点击时返回值。
+>[!NOTE]
+>
+> 此插件仅在访客在访问期间进行第一次点击时返回值。
 
 此插件会创建一个名为 `"s_tslv"` 的第一方 Cookie，并将其设置为当前时间的 Unix 时间戳。Cookie 将在处于非活动状态两年后过期。
 
