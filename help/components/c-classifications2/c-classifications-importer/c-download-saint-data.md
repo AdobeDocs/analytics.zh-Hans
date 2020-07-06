@@ -4,8 +4,11 @@ subtopic: Classifications
 title: 分类模板
 topic: Admin tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 模板包含特定数据集当前已定义的分类（列标题），但不包含与每个分类相关联的数据。
 
->[!NOTE] 模板方法将您的分类数据下载限制为单个报表包。
+>[!NOTE]
+>
+> 模板方法将您的分类数据下载限制为单个报表包。
 
 有关数据文件结构的详细信息，请参阅[关于分类数据文件](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)。
 
@@ -38,7 +43,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 该模板提供了分类必须遵循的文件格式。
 
->[!NOTE] 模板方法将您的数据下载限制为单个报表包。
+>[!NOTE]
+>
+> 模板方法将您的数据下载限制为单个报表包。
 
 1. 单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
 1. 在&#x200B;**[!UICONTROL 下载模板]**&#x200B;选项卡上，指定[数据模板配置](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md)。
