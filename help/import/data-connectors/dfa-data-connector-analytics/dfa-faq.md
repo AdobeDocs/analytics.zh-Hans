@@ -5,7 +5,10 @@ title: 常见问题解答
 topic: Data connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '879'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 例如，假设具有广告商 ID Z 的报表包 A 中有一个分配有 CSID 的集成。如果后来在具有广告商 Z 的报表包 B 中设置另一个集成，将不会为这个较新的集成重新分配 CSID。这将需要 Google 票证。另一方面，如果具有广告商 ID Z 的报表包 A 中有一个集成，后来在具有广告商 Z 的报表包 A 中设置另一个集成。则只有第一个集成将收到集成的数据；但是在这种情况下，第一个集成可以被停用，而数据将流向第二个集成。
 
->[!NOTE] CSID 未在版本 2.0 的集成中使用，因此 CSID 协商过程不适用。
+>[!NOTE]
+>
+> CSID 未在版本 2.0 的集成中使用，因此 CSID 协商过程不适用。
 
 ## 我使用的是 2.0 版本的集成，但是未对我的 DFA 广告显示成本量度。为什么会这样？ {#section-805748111bbe4bbf918d6dbbb2641fff}
 
