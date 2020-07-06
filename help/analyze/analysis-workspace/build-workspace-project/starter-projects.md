@@ -2,8 +2,11 @@
 description: 'null'
 title: 模板
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1383'
+ht-degree: 97%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 * **空白项目（默认）**：有关说明，请参阅[创建 Analysis Workspace 项目](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)。
 * **标准模板**：这些模板由 Adobe 创建，随产品一起提供。
-* **自定义模板**：这些模板可由具有管理员权限的用户或非管理员创建、共享或删除，前提是已在 Admin Console 中向他们授予了 [!UICONTROL Analysis Workspace: Save as Template] 权限。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-console/permissions/product-profile.html)
+* **自定义模板**: 这些模板可由具有管理员权限的用户或非管理员用户创建、共享或删除，前提是已授予 [!UICONTROL Analysis Workspace: 在Admin Console中] ,“另存为模板”权限。 [了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
 
@@ -23,7 +26,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 具有管理员权限的用户可以将他们创建的任何项目转换为自定义模板。以下是具体操作方法：
 
 1. 打开该项目。
-1. 转到 **[!UICONTROL Project]** > **[!UICONTROL Save As Template]**。
+1. 转到&#x200B;**[!UICONTROL 项目]** > **[!UICONTROL 另存为模板]**。
 
    ![](assets/save_project_template.png)
 
@@ -31,7 +34,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
    >[!NOTE]
    >
-   >默认情况下，项目模板对贵组织的每个人均可见。您可以通过应用标记来组织这些模板。（转到 **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]** 以编辑标记和描述。）
+   >默认情况下，项目模板对贵组织的每个人均可见。您可以通过应用标记来组织这些模板。（转到&#x200B;**[!UICONTROL 项目]** > **[!UICONTROL 项目信息和设置]**&#x200B;以编辑标记和描述。）
 
 ### 可对自定义模板执行的操作
 
@@ -39,7 +42,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 | 操作 | 描述 |
 |--- |--- |
-| 编辑模板 | 允许管理员通过更改模板的数据源、修改组件、可视化图表、日期范围等内容来编辑模板。要编辑自定义模板，请<ul><li>在 Analysis Workspace 中调出自定义模板列表，选择一个模板，然后单击编辑模板，或</li><li>在 Analytics 中，导航到组件 > 项目，然后对模板进行过滤。单击要编辑的模板的名称。</li></ul>**注意：**&#x200B;编辑模板之后，根据具体情况，您有两个选项可用：保存、另存为。以下是它们的不同之处：<ul><li>**保存：**&#x200B;更新所有用户的自定义模板。其他人从该自定义模板创建项目时会看到您做出的更改。</li><li>**另存为：**&#x200B;创建包含您所做更改的自定义模板副本。（如果共享 > 共享项目菜单项处于禁用状态，那么您可以据此判断您处于编辑模式当中。）</li></ul> |
+| 编辑 template | 允许管理员通过更改模板的数据源、修改组件、可视化图表、日期范围等内容来编辑模板。要编辑自定义模板，请<ul><li>在 Analysis Workspace 中调出自定义模板列表，选择一个模板，然后单击编辑模板，或</li><li>在 Analytics 中，导航到组件 > 项目，然后对模板进行过滤。单击要编辑的模板的名称。</li></ul>**注意：**&#x200B;编辑模板之后，根据具体情况，您有两个选项可用：保存、另存为。以下是它们的不同之处：<ul><li>**保存：**&#x200B;更新所有用户的自定义模板。其他人从该自定义模板创建项目时会看到您做出的更改。</li><li>**另存为：**&#x200B;创建包含您所做更改的自定义模板副本。（如果共享 > 共享项目菜单项处于禁用状态，那么您可以据此判断您处于编辑模式当中。）</li></ul> |
 | 搜索模板 | 在“自定义模板”对话框中，单击搜索模板。 |
 | 排序模板 | 您可以按字母顺序、相关性和创建日期对模板进行排序。在“自定义模板”对话框中，单击排序:。 |
 | 将标签应用到模板 | 打开模板，然后转到项目 > 项目信息和设置。单击添加标签。 |
@@ -110,7 +113,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ### 人员
 
->[!NOTE]“人员”模板及其关联的“人员”量度只能在 [Adobe Experience Cloud 设备协作](https://docs.adobe.com/content/help/zh-Hans/device-co-op/using/data/people.html)中使用。
+>[!NOTE]
+>
+>“人员”模板及其关联的“人员”量度只能在 [Adobe Experience Cloud 设备协作](https://docs.adobe.com/content/help/zh-Hans/device-co-op/using/data/people.html)中使用。
 
 该模板基于“人员”量度，“人员”量度是删除了重复数据的独特访客量度版本。通过“人员”量度可测量客户使用多个设备与您的品牌进行交互的频率。该模板允许您
 
@@ -130,13 +135,13 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 * **对协作图成员的特别说明**：显示报表包的哪些部分包含支持协作图的区域的访客，以及不支持协作图的区域的访客。
 * **用户标识**：显示使用基于跨设备分析的方法识别网站访客的频率。
-* **测量受众大小**：显示“独特设备”与“人员”的比较。这两个数字的比例称为“跨设备压缩”，该计算量度在此面板中可见。此压缩量度取决于多种因素：
+* **测量受众规模**：显示“独特设备”与“人员”的对比。这两个数字的比例称为“跨设备压缩”，该计算量度在此面板中可见。此压缩量度取决于多种因素：
    * **使用协作图或专用图：**&#x200B;一般而言，使用设备协作的组织往往比使用专用图的组织获得更好的压缩率。
    * **登录率**：登录您网站的用户越多，Adobe 跨设备识别和拼合的访客越多。登录率较低的网站，其压缩率也较低。
    * **Experience Cloud ID 覆盖**：只能拼合拥有 ECID 的访客。使用 ECID 访问您网站的访客百分比越低，则压缩率也越低。
    * **多种设备使用情况**：如果网站的访客不使用多种设备，则压缩率可能较低。
    * **报表粒度**：按日压缩通常比按月或按年压缩更小。单个用户在一天内使用多种设备的几率比整个月内使用多种设备的几率更小。分段、过滤或使用划分维度也可能会获得较低的压缩率。
-* **基于人员的区段**：包含区段下拉列表，允许您查看设备特定数据。此面板鼓励试验区段，以了解包括或排除设备类型对报表的影响。
-* **分析跨设备历程**：根据设备类型提供流量和流失报表。
-* **跨设备归因**：将历程 IQ 和归因 IQ 的功能结合在一起。
+* **基于人员的区段**：包含区段下拉列表，允许您查看设备特定数据。此面板鼓励对区段进行实验，以了解包括或排除设备类型对报表有何影响。
+* **分析跨设备历程**：根据设备类型提供流量和流失报告。
+* **跨设备归因**：将历程 IQ 和归因 IQ 的功能结合使用。
 * **其他提示与技巧**：可让您充分利用 CDA 的有用主题。
