@@ -4,7 +4,10 @@ title: 复制引用请求
 topic: Report builder
 uuid: b6f64630-868f-455b-8682-471ff9fc596e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '541'
+ht-degree: 100%
 
 ---
 
@@ -17,20 +20,22 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 您还可以创建这样的请求：其引用其他工作表（但不是其他工作簿）的请求中的输入过滤器。例如，工作表 2 中的请求可以使用工作表 1 的给定单元格中的报表包和工作表 2 中请求的某一单元格中的日期范围。新输出可放在上述任一工作表中或同一工作簿的新工作表中。粘贴相对请求时，如果输入过滤器与复制的请求输出位于不同的工作表中，则过滤器作为绝对过滤器进行粘贴。
 
->[!NOTE] 您无法在多个工作表中输出单个请求。此外，系统无法将某些复制的请求粘贴到新工作簿中，因为请求包含其他工作表中的输入过滤器。输入过滤器包括单元格中的报表包、单元格中的日期范围、单元格中的过滤器和其他相关参数。
+>[!NOTE]
+>
+> 您无法在多个工作表中输出单个请求。此外，系统无法将某些复制的请求粘贴到新工作簿中，因为请求包含其他工作表中的输入过滤器。输入过滤器包括单元格中的报表包、单元格中的日期范围、单元格中的过滤器和其他相关参数。
 
 **复制引用请求**
 
 1. 选择包含要复制的请求的单元格，包括输入单元格或引用单元格。
-1. Right-click within the highlighted cells and select **[!UICONTROL Copy Requests]** from the shortcut menu.
+1. 在突出显示的单元格中右键单击，并从快捷菜单中选择&#x200B;**[!UICONTROL 复制请求]**。
 
    选择请求和输入单元格所在的区域后，系统会突出显示具有这些元素的单元格。
 1. 选择一个单元格或一系列连续的单元格，以使用粘贴的请求填充。
 
    请确保选择的单元格或单元格范围未包含其他任何数据或请求。
-1. Right-click the single cell or the top left-most cell in the range of cells and select **[!UICONTROL Paste Requests]**.
+1. 右键单击单个单元格或单元格范围中左上角的单元格，然后选择&#x200B;**[!UICONTROL 粘贴请求]**。
 
-   When pasting requests that include an input cell, the options under [!UICONTROL Paste Requests] include:
+   粘贴包含输入单元格的请求时，“[!UICONTROL 粘贴请求]”下的选项包括：
 
    **使用绝对输入单元格：**&#x200B;将与所选单元格相关联的请求和格式的副本粘贴到您突出显示的粘贴区域。不粘贴输入单元格（一个原始请求中引用的单元格）。输入单元格保留在原位置。
 
