@@ -2,7 +2,7 @@
 title: 产品
 description: 发送有关所显示产品或购物车中产品的数据。
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 92%
@@ -14,7 +14,9 @@ ht-degree: 92%
 
 `products` 变量会跟踪与其关联的产品和属性。此变量通常在单个产品页面、购物车页面和购买确认页面上设置。它是一个多值变量，这意味着您可以在同一次点击中发送多个产品，Adobe 会将该值解析为单独的维度值。
 
-> [!NOTE] 如果此变量在点击中设置，而变量中没有购物车事件, [`events`](events/events-overview.md) 则产品视图 [量度](/help/components/metrics/product-views.md) 将递增1。 确保使用变量对每次点击设置适当的购物车事件 `products` 符。
+>[!NOTE]
+>
+>If this variable is set in a hit without a shopping cart event in the [`events`](events/events-overview.md) variable, the [Product Views](/help/components/metrics/product-views.md) metric increments by 1. 确保使用变量对每次点击设置适当的购物车事件 `products` 符。
 
 ## Adobe Experience Platform Launch 中的产品
 
@@ -50,7 +52,9 @@ s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eV
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
-> [!IMPORTANT] 从产品名称、类别和推销 eVar 值中去除所有分号、逗号和管道字符。如果产品名称包含逗号，则 AppMeasurement 会将其解析为新产品的开头。此错误解析会丢掉产品字符串的其余部分，导致维度和报表中的数据不正确。
+>[!IMPORTANT]
+>
+> 从产品名称、类别和推销 eVar 值中去除所有分号、逗号和管道字符。如果产品名称包含逗号，则 AppMeasurement 会将其解析为新产品的开头。此错误解析会丢掉产品字符串的其余部分，导致维度和报表中的数据不正确。
 
 ## 示例
 
