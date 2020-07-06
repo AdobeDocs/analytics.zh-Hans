@@ -1,8 +1,11 @@
 ---
 title: tl
 description: 向 Adobe 发送链接跟踪调用。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '584'
+ht-degree: 100%
 
 ---
 
@@ -44,7 +47,9 @@ s.tl([Link object],[Link type],[Link name],[Override variable]);
 
 链接对象参数可确定浏览器在离开页面之前是否需要等待长达 500 毫秒。如果发送图像请求的时间早于 500 毫秒，则页面会立即导航到点击的链接。
 
->[!NOTE] AppMeasurement 会自动为退出链接启用 [`useBeacon`](../config-vars/usebeacon.md) 变量，这使得现代浏览器不再需要此参数。此参数在 AppMeasurement 的早期版本中比较常用。
+>[!NOTE]
+>
+> AppMeasurement 会自动为退出链接启用 [`useBeacon`](../config-vars/usebeacon.md) 变量，这使得现代浏览器不再需要此参数。此参数在 AppMeasurement 的早期版本中比较常用。
 
 * `this`：最长等待 500 毫秒，以便给 AppMeasurement 一些时间来发送图像请求。默认值。
 * `true`：不等待。
