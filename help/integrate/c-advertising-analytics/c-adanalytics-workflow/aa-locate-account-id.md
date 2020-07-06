@@ -2,7 +2,7 @@
 description: 以下说明可帮助您找到您的 Google 帐户 ID 和 Bing 帐户 ID。
 title: 找到帐户 ID
 translation-type: tm+mt
-source-git-commit: fae9d036f33029b7b8553cb71441997fc4e83354
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 65%
@@ -18,7 +18,7 @@ ht-degree: 65%
 
 >[!IMPORTANT]
 >
->Google AdWords 使用两种类型的帐户：a) MCC（我的客户端中心）帐户和 b) 标准帐户。若要将 Google AdWords 与 Adobe Analytics 相集成，**您必须使用标准帐户登录，而不能使用 MCC 帐户登录**。其原因在于，MCC 帐户作为一个“伞形”帐户，单次登录后可访问多个 AdWords 帐户，而标准帐户每次登录后只能访问一个 AdWords 帐户。虽然Google支持链接一封电子邮件以管理5个帐户，但Advertising Analytics尚不支持此功能。 一封电子邮件只能与一个Adwords帐户链接。
+>Google AdWords 使用两种类型的帐户：a) MCC（我的客户端中心）帐户和 b) 标准帐户。若要将 Google AdWords 与 Adobe Analytics 相集成，**您必须使用标准帐户登录，而不能使用 MCC 帐户登录**。其原因在于，MCC 帐户作为一个“伞形”帐户，单次登录后可访问多个 AdWords 帐户，而标准帐户每次登录后只能访问一个 AdWords 帐户。Google支持链接一封电子邮件以管理5个帐户，而广告Analytics尚不支持此功能。 一封电子邮件只能与一个Adwords帐户链接。
 
 单击右上角的“帐户”图标可查看 AdWords 帐号（客户 ID）。
 
@@ -32,6 +32,8 @@ ht-degree: 65%
 
 需要同时输入帐户 ID 和客户 ID。它们均已在“帐户”选项卡上列出。
 
->[!NOTE] 帐号与帐户 ID 并不相同。
+>[!NOTE]
+>
+> 帐号与帐户 ID 并不相同。
 
 ![](assets/bing_id.png)
