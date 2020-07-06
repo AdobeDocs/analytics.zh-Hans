@@ -4,8 +4,11 @@ subtopic: Classifications
 title: 分类规则
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2018'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +36,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 | 选择规则类型 | 输入匹配条件 | 设置分类 | 至 |
 |---|---|---|---|
-| 开头 | em: | 渠道 | Email |
+| 开头 | em: | 渠道 | 电子邮件 |
 | 结束 | Sale | 类型 | Sale |
 | 包含 | 2013 | 年 | 2013 |
 
@@ -51,7 +54,9 @@ about_classification_rules.xml
 * [规则何时不会对键值进行分类？](/help/components/c-classifications2/crb/classification-rule-builder.md)
 * [关于规则优先级](/help/components/c-classifications2/crb/classification-quickstart-rules.md)
 
->[!NOTE] [!UICONTROL 规则生成器]不支持数值 2 分类。
+>[!NOTE]
+>
+> [!UICONTROL 规则生成器]不支持数值 2 分类。
 
 ## 有关规则的重要信息
 
@@ -105,11 +110,15 @@ regex_classification_rules.xml
 * [正则表达式 -“不包含”示例](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
 * [正则表达式 - 参考表](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
 
->[!NOTE] 作为最佳实践，正则表达式最适合使用分隔符的跟踪代码。
+>[!NOTE]
+>
+> 作为最佳实践，正则表达式最适合使用分隔符的跟踪代码。
 
 ## 正则表达式 - 跟踪代码示例 {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
->[!NOTE] 如果跟踪代码采用 URL 编码，它将&#x200B;**不会**&#x200B;由规则生成器分类。
+>[!NOTE]
+>
+> 如果跟踪代码采用 URL 编码，它将&#x200B;**不会**&#x200B;由规则生成器分类。
 
 在此示例中，假设您要对以下促销活动 ID 进行分类：
 
