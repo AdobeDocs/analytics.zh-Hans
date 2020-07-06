@@ -2,7 +2,7 @@
 title: eVar（销售）
 description: 与单个产品关联的自定义变量。
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 29%
@@ -18,7 +18,9 @@ ht-degree: 29%
 
 在实施中使用eVar之前，请确保在报表包设置中将eVar配置为所需的语法。 请参阅管理员指南中的[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
 
->[!IMPORTANT] 未正确配置推销eVar将导致变量出现意外值或数据丢失。 确保为您的实施正确配置了它。
+>[!IMPORTANT]
+>
+>未正确配置推销eVar将导致变量出现意外值或数据丢失。 确保为您的实施正确配置了它。
 
 ## 使用产品语法实现
 
