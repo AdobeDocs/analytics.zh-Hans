@@ -2,7 +2,7 @@
 title: 所用总秒数
 description: 在维值上花费的总秒数。
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 9%
@@ -26,6 +26,8 @@ ht-degree: 9%
 
 持久化变量(如 [eVar](../dimensions/evar.md))计数为所用总秒数。 流量变量(如 [prop](../dimensions/prop.md))包括后续链接跟踪调用所花费的秒数。
 
->[!TIP] 由于没有后续图像请求来测量已用时间，因此不会测量访问的上次点击所花费的时间。 此概念还适用于包含单次点击（弹回）的访问。
+>[!TIP]
+>
+>由于没有后续图像请求来测量已用时间，因此不会测量访问的上次点击所花费的时间。 此概念还适用于包含单次点击（弹回）的访问。
 
 有关 [停留时间的更多](time-spent.md) 、一般信息，请参阅停留时间概述。
