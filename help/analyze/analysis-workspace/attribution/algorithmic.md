@@ -2,7 +2,7 @@
 title: 算法属性
 description: 算法归因模型的详细信息。
 translation-type: tm+mt
-source-git-commit: d12ea12ffbf54e1af091ceff6ec671e6a09d0db3
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 1%
@@ -12,9 +12,11 @@ ht-degree: 1%
 
 # 算法属性
 
->[!NOTE] **[!UICONTROL 算法归因]** 目前处于有限测试中。 有关 [详细信息，请参阅](/help/landing/an-releases.md) Adobe Analytics功能版本。
+>[!NOTE]
+>
+>**[!UICONTROL 算法归因]** 目前处于有限测试中。 有关 [更多信息](/help/landing/an-releases.md) ，请参阅AdobeAnalytics功能版本。
 
-分析工 [作区中的](models.md) Algorithmic attribution模型与其他模型不同之处在于它使用统计技术在报表或自由表格的维度值之间分配信用。 与分析工作区中的所有其他归因模型一样，该模型可用于任何维或度量，并支持无限细分和细分，并将100%的转换分发到表中的维（也称为“分数”归因）。
+Analysis Workspace中 [的算法归因模型](models.md) (Algorithmic attribution model)与其他模型不同之处在于它使用统计技术在报表或自由表格的维度值之间分配信用。 与Analysis Workspace中的所有其他归因模型一样，它可用于任何维度或指标，并支持无限细分和细分，并将100%的转换分发到表中的维度（也称为“分数”归因）。
 
 基于合作博弈论的Harsanyi Danyis算法用于归因。 哈桑尼派息是沙普利价值解决方案（以诺贝尔经济学奖获得者劳埃德·沙普利命名）的概括，用来在对结果贡献不均的游戏中在玩家之间分配信用。
 
@@ -23,4 +25,6 @@ ht-degree: 1%
 * 沙普利，劳埃德·S。 (1953)。 N人游戏的价值。 *对博弈论的贡献，2(28)*,307-317。
 * 哈萨尼，约翰C. (1963)。 n人合作博弈的简化协商模型。 *《国际经济评论》* 4(2),194-220年。
 
->[!NOTE] 仅当给定回顾窗口中存在多个接触点时，算法归因的结果才与其他模型不同。 无论归因模型如何，单个接触点的转化率均可获得100%的回报。
+>[!NOTE]
+>
+>仅当给定回顾窗口中存在多个接触点时，算法归因的结果才与其他模型不同。 无论归因模型如何，单个接触点的转化率均可获得100%的回报。
