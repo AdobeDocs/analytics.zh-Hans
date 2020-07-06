@@ -1,15 +1,20 @@
 ---
 title: getPageName
 description: 从当前网站路径创建一个简单易读的 pageName。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '729'
+ht-degree: 100%
 
 ---
 
 
 # Adobe 插件：getPageName
 
->[!IMPORTANT] 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
+>[!IMPORTANT]
+>
+> 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
 `getPageName` 插件可为当前 URL 创建一个简单易读且格式友好的版本。如果您希望在报告中使用易于设置且便于理解的 [`pageName`](../page-vars/pagename.md) 值，Adobe 建议您使用此插件。如果已经有 `pageName` 变量的命名结构（如通过数据层命名），则无需使用此插件。当没有其他解决方案可用来设置 `pageName` 变量时，最好使用此插件。
 
