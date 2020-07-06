@@ -1,8 +1,11 @@
 ---
 title: transactionID
 description: 使用此变量将在线和离线数据链接在一起。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '394'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `transactionID` 变量可唯一地标识交易，以便将点击绑定到通过数据源上传的数据。如果您希望使用其他渠道的数据并将其链接到通过 AppMeasurement 收集的数据，则此变量很有用。
 
->[!NOTE] 在使用此变量之前，请确保在报表包中启用了[!UICONTROL 交易 ID 存储]。有关详细信息，请参阅管理员用户指南中的[一般帐户设置](/help/admin/admin/general-acct-settings-admin.md)。
+>[!NOTE]
+>
+> 在使用此变量之前，请确保在报表包中启用了[!UICONTROL 交易 ID 存储]。有关详细信息，请参阅管理员用户指南中的[一般帐户设置](/help/admin/admin/general-acct-settings-admin.md)。
 
 当您在点击上设置 `transactionID` 时，Adobe 会及时拍摄在该时间点设置或持久保留的所有 Analytics 变量的快照。通过数据源上传且具有匹配交易 ID 的数据将会永久绑定到这些变量值。
 
@@ -44,4 +49,6 @@ s.transactionID = "ABC123";
 s.transactionID = "ABC123,XYZ456";
 ```
 
->[!NOTE] 如果您使用此变量集成多个离线渠道，请确保各个渠道不会与交易 ID 重叠。例如，如果呼叫中心交易 ID 值为 `1234`，而潜在销售顾客交易 ID 值为 `1234`，则它们可能会发生冲突并导致意外结果。确保每个离线渠道的交易 ID 都包含唯一的格式，并在必要时加以区分。例如，在数据源和 AppMeasurement 中将呼叫中心交易 ID 设置为 `call_1234`，并将潜在销售顾客交易 ID 设置为 `lead_1234`。
+>[!NOTE]
+>
+> 如果您使用此变量集成多个离线渠道，请确保各个渠道不会与交易 ID 重叠。例如，如果呼叫中心交易 ID 值为 `1234`，而潜在销售顾客交易 ID 值为 `1234`，则它们可能会发生冲突并导致意外结果。确保每个离线渠道的交易 ID 都包含唯一的格式，并在必要时加以区分。例如，在数据源和 AppMeasurement 中将呼叫中心交易 ID 设置为 `call_1234`，并将潜在销售顾客交易 ID 设置为 `lead_1234`。
