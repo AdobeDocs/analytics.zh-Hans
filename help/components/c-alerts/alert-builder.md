@@ -3,7 +3,10 @@ description: 'null'
 title: 警报生成器
 uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '462'
+ht-degree: 100%
 
 ---
 
@@ -35,7 +38,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 指定要何时检查量度：每小时、每天、每周或每月。
 
->[!NOTE] 对于包含自定义日历的报表包，警报生成器不支持每月粒度。
+>[!NOTE]
+>
+> 对于包含自定义日历的报表包，警报生成器不支持每月粒度。
 
 **收件人**
 
