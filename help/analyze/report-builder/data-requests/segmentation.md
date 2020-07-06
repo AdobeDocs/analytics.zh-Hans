@@ -4,7 +4,10 @@ title: 管理区段
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '919'
+ht-degree: 98%
 
 ---
 
@@ -19,10 +22,12 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 
 ## 添加或编辑区段 {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
->[!NOTE] 添加或编辑区段时，Report Builder 区段界面会在 Microsoft Internet Explorer 窗口中启动 Analytics 区段生成器。您的 Report Builder 会话将保持活动状态。此操作不支持使用 Internet Explorer 以外的浏览器。
+>[!NOTE]
+>
+> 添加或编辑区段时，Report Builder 区段界面会在 Microsoft Internet Explorer 窗口中启动 Analytics 区段生成器。您的 Report Builder 会话将保持活动状态。此操作不支持使用 Internet Explorer 以外的浏览器。
 
-1. In the segment panel of Step 1 of the Request Wizard, click **[!UICONTROL Add]**.
-1. 将启动一个 Internet Explorer 窗口，其中可打开 Analytics 区段生成器界面。有关如何构建区段的信息，请参阅 [Analytics分段](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/seg-home.html)。
+1. 在“请求向导”第 1 步的区段面板中，单击&#x200B;**[!UICONTROL 添加]**。
+1. 将启动一个 Internet Explorer 窗口，其中可打开 Analytics 区段生成器界面。有关如何构建细分的信息，请参阅 [Analytics细分](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/seg-home.html)。
 1. 定义并保存区段后，返回至“请求向导”。
 1. 单击“刷新”图标以刷新区段列表。
 
@@ -35,7 +40,7 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 您可能希望将特定的报表维度组合转换为区段。您可以从 Report Builder 界面创建这些区段。例如，从页面请求输出中选择一些页面，然后基于这些值创建一个区段。
 
 1. 选择要转换为区段的报表输出项。
-1. Right-click to select **[!UICONTROL Create In-Context Segment in]** and specify the right container (Hits Container, Visits Container, Visitor Container).
+1. 单击鼠标右键以选择&#x200B;**[!UICONTROL 在此容器中创建关联区段]**，并指定适当的容器（点击次数容器、访问次数容器、访客数容器）。
 
    ![](assets/seg_in_context.png)
 
@@ -52,13 +57,15 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 
 您可以将一个或多个区段应用到任意给定请求。这包括连续区段。
 
-1. Go to the **[!UICONTROL Segment]** drop-down list and click the small down arrow in the **[!UICONTROL Choose Segment]** box to display all the segments.
+1. 转至&#x200B;**[!UICONTROL 区段]**&#x200B;下拉列表，然后单击&#x200B;**[!UICONTROL 选择区段]**&#x200B;框中的向下小箭头以显示所有区段。
 
    ![](assets/seg_list.png)
 
 1. 选中要应用的区段。
 
->[!NOTE] 不论您是否为管理员，在 Report Builder 中，您都只能查看那些您拥有的区段以及与您共享的区段。（在市场营销 Reports &amp; Analytics 用户界面中，管理员可以查看组织中的所有区段）。
+>[!NOTE]
+>
+> 不论您是否为管理员，在 Report Builder 中，您都只能查看那些您拥有的区段以及与您共享的区段。（在市场营销 Reports &amp; Analytics 用户界面中，管理员可以查看组织中的所有区段）。
 
 ## 过滤区段 {#section_376E986D3E684999A7CDB08E53854159}
 
@@ -84,14 +91,14 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 
    ![](assets/seg_control.png)
 
-1. Check all the segments that you want to appear in the segment control, or check **[!UICONTROL Select All]**.
-1. 注意此选 **[!UICONTROL Automatically refresh linked requests upon item selection]**&#x200B;项。
+1. 选中要在区段控件中显示的所有区段，或者选中&#x200B;**[!UICONTROL 全选]**。
+1. 请注意&#x200B;**[!UICONTROL 根据项目选择自动刷新链接的请求]**&#x200B;选项。
 
    * 如果选中，则会刷新使用此控件的所有请求。
    * 如果不选中，则会更新关联的请求参数，而不会刷新请求。
 
 1. 指定区段控件的左上角单元格位置。
-1. Click **[!UICONTROL OK]** and the segment control appears in the specified location.
+1. 单击&#x200B;**[!UICONTROL 确定]**，此时区段控件便会出现在指定的位置。
 
    ![](assets/seg_control2.png)
 
@@ -106,7 +113,7 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 Report Builder 5.4 允许您添加、删除和替换区段，以及替换多个请求内的所有区段：
 
 1. 在工作簿中选择多个请求。
-1. 右键单击并选择 **[!UICONTROL Edit Requests]** > **[!UICONTROL By Segment]**。
+1. 右键单击并选择&#x200B;**[!UICONTROL 编辑请求]** > **[!UICONTROL 按区段]**。
 
    ![](assets/edit_by_segment.png)
 
