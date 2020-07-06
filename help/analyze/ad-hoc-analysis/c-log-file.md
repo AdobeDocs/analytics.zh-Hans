@@ -4,7 +4,10 @@ title: 日志文件
 topic: Ad hoc analysis
 uuid: 1e5c0e70-928b-45de-9f5b-0c562909baed
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 100%
 
 ---
 
@@ -20,5 +23,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 1. 单击“Ad Hoc Analysis”****&#x200B;徽标。
 1. 单击“保存日志文件”****。
 
->[!NOTE]使用此过程保存的日志适用于当前会话。
+>[!NOTE]
+>
+>使用此过程保存的日志适用于当前会话。
 
