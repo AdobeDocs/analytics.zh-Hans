@@ -4,7 +4,10 @@ title: 流量增长必需的前置时间
 topic: Admin tools
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '333'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ Adobe 要求预先通知新帐户设置、流量尖峰和流量增长。硬件�
 
 硬件的分配是由通过 Reports &amp; Analytics 用户界面提交的警报所驱动的。
 
->[!IMPORTANT] Adobe 无法处理“占位符”流量更改请求。除非另有指示，否则尽可能地遵循建议的前置时间，这包括不要过早地发送警报。请参阅[计划流量尖峰](/help/admin/c-traffic-management/t-traffic-schedule-spike.md)或[指定永久性流量增长](/help/admin/c-traffic-management/t-traffic-permanent.md)。
+>[!IMPORTANT]
+>
+> Adobe 无法处理“占位符”流量更改请求。除非另有指示，否则尽可能地遵循建议的前置时间，这包括不要过早地发送警报。请参阅[计划流量尖峰](/help/admin/c-traffic-management/t-traffic-schedule-spike.md)或[指定永久性流量增长](/help/admin/c-traffic-management/t-traffic-permanent.md)。
 
 使用以下准则来确定您必须提前多久提交流量警报：
 
