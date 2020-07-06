@@ -4,15 +4,18 @@ keywords: Analysis Workspace
 title: 创建项目 - 概述
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '692'
+ht-degree: 100%
 
 ---
 
 
 # 创建项目 - 概述
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 工作区]**
 
 您可以基于可视化图表、报表组件和数据表的任意组合，创建功能强大的 Analytics 项目。它将 Ad Hoc Analysis 的许多表格生成器功能引入到 Analytics 中。
 
@@ -22,7 +25,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## 工作区项目列表页面 {#section_39AA007D7C384F4E869F842F1C7B11F8}
 
-当您首次访问 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** 时，该页面会列出您拥有或已获得访问权限的所有项目。通过单击 **[!UICONTROL Set as Landing Page]**，您可以将此页面设置为您的 Adobe Analytics 登录页面。（如果您未看到此选项，如下面的屏幕快照所示，则它已是您的登录页面。）
+当您首次访问 **[!UICONTROL Analytics]** > **[!UICONTROL 工作区]**&#x200B;时，该页面会列出您拥有或已获得访问权限的所有项目。通过单击&#x200B;**[!UICONTROL 设置为登录页面]**，您可以将此页面设置为您的 Adobe Analytics 登录页面。（如果您未看到此选项，如下面的屏幕快照所示，则它已是您的登录页面。）
 
 ![](assets/sample-project.png)
 
@@ -32,27 +35,27 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 |---|---|
 | 项目[模板](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | 您可以按原样使用这些预填充项目模板，或调整它们以符合您的需要（例如，添加或替换量度或可视化图表），然后取一个新名称将它们保存。 |
 | [新建项目](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | 单击此链接可重新启动一个新项目。 |
-| 管理项目 | 单击此链接将会转到项目组件管理器（**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**），其中列出了您的所有项目，并允许您标记、共享、删除、重命名、批准、复制项目以及将项目导出到 CSV。 |
+| 管理项目 | 单击此链接将会转到项目组件管理器（**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 项目]**），其中列出了您的所有项目，并允许您标记、共享、删除、重命名、批准、复制项目以及将项目导出到 CSV。 |
 | 查看教程 | 转到 [Analysis Workspace YouTube 视频](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)。 |
 | 名称 | 工作区项目名称。 |
 | 创建者 | 创建此项目的人员（您或与您共享项目的人员）。 |
-| 标记 | 应用于项目的标记（位于项目组件管理器中或 **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]** 下）。 |
+| 标记 | 项目组件管理器中或&#x200B;**[!UICONTROL 工作区]** > **[!UICONTROL 项目]** > **[!UICONTROL 项目信息和设置]**&#x200B;下应用于项目的标记。 |
 | 上次修改时间 | 项目上次修改的日期和时间。 |
 
 ## 项目信息和设置 {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
-**[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**
+**[!UICONTROL 工作区]** > **[!UICONTROL 项目]** > **[!UICONTROL 项目信息和设置]**
 
 ![](assets/projectinfo.png)
 
-**[!UICONTROL Project Info & Settings]** 提供有关当前活动项目的项目级信息。
+**[!UICONTROL 项目信息和设置]**&#x200B;提供有关当前活动项目的项目级信息。
 
 | 设置 | 描述 |
 |---|---|
 | 项目名称 | 给项目起的名称。您可以双击该名称以编辑它。 |
 | 创建者 | 项目所有者名称 |
 | 上次修改时间 | 项目上次修改日期。 |
-| 标记 | 列出应用于项目以方便分类的所有标记。您也可以在保存项目时标记项目。可在工作区登录页面上的 [!UICONTROL Tags] 列中查看项目的标记。 |
+| 标记 | 列出应用于项目以方便分类的所有标记。您也可以在保存项目时标记项目。可在工作区登录页面上“[!UICONTROL 标记]”列中查看项目的标记。 |
 | 描述 | 描述有助于明确项目的目的。您可以双击描述以编辑它。 |
 | 计算项目中的重复实例 | 指定是否将重复实例计入报表中。如果您针对相同的变量具有多个序列值，则可以将它们计为该变量的一个实例，也可以计为多个实例。 |
 | 可视化图表配色方案 | 您可以通过选择不同的调色板或指定个性化调色板来更改工作区中使用的配色方案。这项功能会影响工作区中的许多内容，包括大多数可视化图表。 |
@@ -66,7 +69,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 子菜单包含以下选项。
 
->[!NOTE] 标有星号 (*) 的选项仅在&#x200B;**已保存**&#x200B;项目中显示。
+>[!NOTE]
+>
+> 标有星号 (*) 的选项仅在&#x200B;**已保存**&#x200B;项目中显示。
 
 | 项目 | 编辑 | 插入 | 组件 | 共享 | 帮助 |
 |---|---|---|---|---|---|
@@ -86,4 +91,4 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/panels.png) ![](assets/visualizations.png) ![](assets/components.png)
 
-在可从左边栏访问的面板列表中添加了 **[!UICONTROL Blank Panel]**。要创建&#x200B;**新的同类群组面板**，请拖入一个空白面板，然后再拖入一个同类群组表可视化图表。
+在可从左边栏访问的面板列表中添加了&#x200B;**[!UICONTROL 空白面板]**。要创建&#x200B;**新的同类群组面板**，请拖入一个空白面板，然后再拖入一个同类群组表可视化。
