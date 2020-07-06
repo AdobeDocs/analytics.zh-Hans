@@ -1,8 +1,8 @@
 ---
 title: 报表
-description: Reports & Analytics用于每个报表的维度和指标。
+description: Reports & Analytics为每个报表使用的维度和指标。
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 1%
@@ -12,9 +12,11 @@ ht-degree: 1%
 
 # 报表
 
-Reports &amp; Analytics中的每个报表都使用专用维度和默认量度。 您可以更改每个报表中的度量，并根据需要添加细分。 以下列表提供了在每个报告中使用的维度。
+Reports &amp; Analytics的每份报告都使用专用维度和默认度量。 您可以更改每个报表中的度量，并根据需要添加细分。 以下列表提供了在每个报告中使用的维度。
 
-> [!NOTE] 根据您组织中的管理员进行的自定义，您的报告菜单可能会有所不同。 See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
+>[!NOTE]
+>
+>根据您组织中的管理员进行的自定义，您的报告菜单可能会有所不同。 See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
 
 ## 网站量度
 
@@ -35,7 +37,7 @@ Reports &amp; Analytics中的每个报表都使用专用维度和默认量度。
 * 每次访问所花费的时间： 使用每 [次访问所用的时间——分时段的](/help/components/dimensions/time-spent-per-visit.md) 维。
 * 事件前的时间： 使用事件 [维之前的时间](/help/components/dimensions/time-prior-to-event.md) 。
 * 购买： 包含有关基于购买的指标的报告。
-   * 购买转化漏斗： 访问报 [表](/help/components/metrics/visits.md)、购 [物车](/help/components/metrics/carts.md)、订 [单、收](/help/components/metrics/orders.md)入 [、](/help/components/metrics/revenue.md)和漏斗中 [](/help/components/metrics/units.md) 的单位报表。 在分析工作区中，使用流失可视化可实现类 [似的可视化](../analysis-workspace/visualizations/fallout/fallout-flow.md)。
+   * 购买转化漏斗： 访问报 [表](/help/components/metrics/visits.md)、购 [物车](/help/components/metrics/carts.md)、订 [单、收](/help/components/metrics/orders.md)入 [、](/help/components/metrics/revenue.md)和漏斗中 [](/help/components/metrics/units.md) 的单位报表。 在Analysis Workspace中，使用流失可视化可实现类 [似的可视化](../analysis-workspace/visualizations/fallout/fallout-flow.md)。
    * 收入： 随时间推移 [衡量](/help/components/metrics/revenue.md) “收入”的趋势。
    * 订单： 随时间推移 [量度](/help/components/metrics/orders.md) “订单”趋势。
    * 单位： 随时间推 [移](/help/components/metrics/units.md) ，度量单位。
@@ -86,13 +88,13 @@ Reports &amp; Analytics中的每个报表都使用专用维度和默认量度。
 
 包含允许您查看访客路径数据的报表。
 
-* 下一页流： 在顶部页面维度值上使用流报表。 路径视图与实例 [类似](/help/components/metrics/instances.md)。 可以更改报告的维值。 分析工作区中的类似报表可使用流 [可视化](../analysis-workspace/visualizations/c-flow/flow.md)。
+* 下一页流： 在顶部页面维度值上使用流报表。 路径视图与实例 [类似](/help/components/metrics/instances.md)。 可以更改报告的维值。 Analysis Workspace中的类似报表可使用流 [可视化](../analysis-workspace/visualizations/c-flow/flow.md)。
 * 下一页： 获取顶部页面维度值，并向您显示访客转到的下一页。
-* 上一页流： 使用顶部页面维度值上的流报表。分析工作区中的类似报表可使用流 [可视化](../analysis-workspace/visualizations/c-flow/flow.md)。
+* 上一页流： 使用顶部页面维度值上的流报表使用流可视化功能，可以获得Analysis Workspace中的类 [似报表](../analysis-workspace/visualizations/c-flow/flow.md)。
 * 上一页： 获取顶部页面维度值，并向您显示访客来自的上一页面。
-* 流失： 允许您按步骤选择页面维度值，并显示已执行和未执行该路径的人员比例。 分析工作区中的类似报告可使用流失可 [视化](../analysis-workspace/visualizations/fallout/fallout-flow.md)。
-* 完整路径： 将单个路径显示为维值。 在分析工作区退休； 请改 [用流](../analysis-workspace/visualizations/c-flow/flow.md) 。
-* PathFinder: 提供多种类型的报告，用于分析路径(在分析工作区中停用)。
+* 流失： 允许您按步骤选择页面维度值，并显示已执行和未执行该路径的人员比例。 Analysis Workspace中的类似报表可使用流失 [可视化](../analysis-workspace/visualizations/fallout/fallout-flow.md)。
+* 完整路径： 将单个路径显示为维值。 退休Analysis Workspace; 请改 [用流](../analysis-workspace/visualizations/c-flow/flow.md) 。
+* PathFinder: 提供多种类型的报告，用于分析路径(在Analysis Workspace中停用)。
 * 路径长度： 使用访 [问深度](/help/components/dimensions/visit-depth.md) 维。
 * 页面分析
    * 页面摘要： 获取顶部页面维度值并显示趋势视图。 还显示该顶页尺寸值的入口点、前一页、退出点和后一页。
@@ -105,7 +107,9 @@ Reports &amp; Analytics中的每个报表都使用专用维度和默认量度。
    * 单页访问： 在应 [用Adobe](/help/components/dimensions/page.md) 提供的“单页访问”区段时，使用页面维度。
    * 退出页面： 使用退 [出页面](/help/components/dimensions/exit-dimensions.md) 维。
 
-> [!NOTE] 其他报告可显示在此文件夹中。 它们是其他维度，如prop，您在报告包设置 [下启用](../../admin/admin/c-traffic-variables/traffic-var.md) 了路径功能。
+>[!NOTE]
+>
+>其他报告可显示在此文件夹中。 它们是其他维度，如prop，您在报告包设置 [下启用](../../admin/admin/c-traffic-variables/traffic-var.md) 了路径功能。
 
 ## 流量源
 
@@ -127,16 +131,16 @@ Reports &amp; Analytics中的每个报表都使用专用维度和默认量度。
 
 包含主要围绕跟踪代 [码维度的](/help/components/dimensions/tracking-code.md) 报表。
 
-* 活动转换漏斗： 漏斗报表中 [的点进](/help/components/metrics/checkouts.md)、结 [帐](/help/components/metrics/orders.md)、 [订单](/help/components/metrics/revenue.md) 和收入。 点进率度量与跟踪代码维 [度的](/help/components/metrics/instances.md) 上下文中的实例 [度量类似](/help/components/dimensions/tracking-code.md) 。 在分析工作区中，使用流失可视化可实现类 [似的可视化](../analysis-workspace/visualizations/fallout/fallout-flow.md)。
+* 活动转换漏斗： 漏斗报表中 [的点进](/help/components/metrics/checkouts.md)、结 [帐](/help/components/metrics/orders.md)、 [订单](/help/components/metrics/revenue.md) 和收入。 点进率度量与跟踪代码维 [度的](/help/components/metrics/instances.md) 上下文中的实例 [度量类似](/help/components/dimensions/tracking-code.md) 。 在Analysis Workspace中，使用流失可视化可实现类 [似的可视化](../analysis-workspace/visualizations/fallout/fallout-flow.md)。
 * 跟踪代码： 使用跟 [踪代码](/help/components/dimensions/tracking-code.md) 维。
 
 ## 产品
 
 包含主要围绕产品维 [度的](/help/components/dimensions/product.md) 报表。
 
-* 产品转换漏斗： 报 [告视图](/help/components/metrics/product-views.md)、购 [物车加货](/help/components/metrics/cart-additions.md)、 [核对、](/help/components/metrics/checkouts.md)、 [](/help/components/metrics/orders.md)[](/help/components/metrics/units.md)[](/help/components/metrics/revenue.md) 、、、单、和中的和漏斗中的收入报告。 在分析工作区中，使用流失可视化可实现类 [似的可视化](../analysis-workspace/visualizations/fallout/fallout-flow.md)。
+* 产品转换漏斗： 报 [告视图](/help/components/metrics/product-views.md)、购 [物车加货](/help/components/metrics/cart-additions.md)、 [核对、](/help/components/metrics/checkouts.md)、 [](/help/components/metrics/orders.md)[](/help/components/metrics/units.md)[](/help/components/metrics/revenue.md) 、、、单、和中的和漏斗中的收入报告。 在Analysis Workspace中，使用流失可视化可实现类 [似的可视化](../analysis-workspace/visualizations/fallout/fallout-flow.md)。
 * 产品： 使用 [产品](/help/components/dimensions/product.md) 维。
-* 交叉销售： 显示通常一起销售(在分析工作区中停用)的产品。
+* 交叉销售： 显示通常一起销售(在Analysis Workspace中报废)的产品。
 * 类别: 使用 [类别](/help/components/dimensions/category.md) 维。
 
 ## 访客维系
@@ -167,9 +171,9 @@ Reports &amp; Analytics中的每个报表都使用专用维度和默认量度。
    * 美国州： 使用 [美国](/help/components/dimensions/us-states.md) 。
    * 美国DMA: 使用 [美国DMA](/help/components/dimensions/us-dma.md) 维。
 * 语言： 使用“ [语言](/help/components/dimensions/language.md) ”维。
-* 时区： 使用时区维(在分析工作区中停用)。 维值是点击的GMT偏移。
+* 时区： 使用时区维(在Analysis Workspace中停用)。 维值是点击的GMT偏移。
 * 域： 使用 [域](/help/components/dimensions/domain.md) 维。
-* 顶级域： 使用顶级域维(在分析工作区中停用)。 它将域 [维分组](/help/components/dimensions/domain.md) 为更高级别的类别，通常按域的国家／地区。
+* 顶级域： 使用顶级域维(在Analysis Workspace中停用)。 它将域 [维分组](/help/components/dimensions/domain.md) 为更高级别的类别，通常按域的国家／地区。
 * 技术： 包含访客用于访问站点的报告的文件夹。
    * 浏览器： 使用浏 [览器](/help/components/dimensions/browser.md) 维。
    * 浏览器类型： 使用浏 [览器类型](/help/components/dimensions/browser-type.md) 维。
@@ -180,12 +184,12 @@ Reports &amp; Analytics中的每个报表都使用专用维度和默认量度。
    * 显示器颜色深度： 使用“颜 [色深度](/help/components/dimensions/color-depth.md) ”尺寸。
    * 显示器分辨率： 使用“监 [视器](/help/components/dimensions/monitor-resolution.md) ”分辨率。
    * Java: 使用启 [用Java](/help/components/dimensions/java-enabled.md) 的维。
-   * JavaScript: 使用启用JavaScript的维(在分析工作区中停用)。 维值为“已启用”、“已禁用”或“未知”，具体取决于浏览器是否启用了JavaScript。
-   * JavaScript版本： 使用JavaScript版本维(在分析工作区中停用)。 维度值显示浏览器使用的JavaScript版本。
+   * JavaScript: 使用启用JavaScript的维(在Analysis Workspace中停用)。 维值为“已启用”、“已禁用”或“未知”，具体取决于浏览器是否启用了JavaScript。
+   * JavaScript版本： 使用JavaScript版本维(在Analysis Workspace中停用)。 维度值显示浏览器使用的JavaScript版本。
    * Cookie: 使用Cookie [支持维](/help/components/dimensions/cookie-support.md) 。
    * 连接类型： 使用“ [连接类型](/help/components/dimensions/connection-type.md) ”维。
    * 移动运营商： 使用移 [动运营商](/help/components/dimensions/mobile-dimensions.md) 维度。
-* 访客状态： 使用状态维(在分析工作区中停用)。 维值源自变 [`state`](../../implement/vars/page-vars/state.md) 量。
+* 访客状态： 使用状态维(在Analysis Workspace中停用)。 维值源自变 [`state`](../../implement/vars/page-vars/state.md) 量。
 * 访客邮政编码： 使用 [邮政编码](/help/components/dimensions/zip-code.md) 。
 
 ## 自定义转换
@@ -218,4 +222,6 @@ Reports &amp; Analytics中的每个报表都使用专用维度和默认量度。
 
 包含您创建的目标。 See [Targets](targets.md) for more information.
 
-> [!NOTE] 如果在此帮助页面上找不到您的报告，则管理员可能会重命名或调整文件夹。 See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
+>[!NOTE]
+>
+>如果在此帮助页面上找不到您的报告，则管理员可能会重命名或调整文件夹。 See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
