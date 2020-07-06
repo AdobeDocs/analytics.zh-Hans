@@ -2,7 +2,7 @@
 title: 移动维度
 description: 基于设备的用户代理字符串的维度。
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 4%
@@ -12,17 +12,19 @@ ht-degree: 4%
 
 # 移动维度
 
-*本页引用访问您网站的移动设备的属性。 如果要跟踪移动应用程序上的设备，请参阅实[施用户指南中的](/help/implement/mobile-device-sdk.md)“为移动设备实施分析”。*
+*本页引用访问您网站的移动设备的属性。 如果要跟踪移动应用程序上的设备，请参阅[实施用户指南中的](/help/implement/mobile-device-sdk.md)“为移动设备实施Analytics”。*
 
 移动维度提供有关访问网站的移动设备属性的洞察。 您可以使用这些维度来帮助了解移动设备支持哪些功能。
 
 ## 用数据填充这些维
 
-这些维引用Adobe内部的查找规则。 查找值基于随点击 `User-Agent` 发送的HTTP头。 Adobe与DeviceAtlas [合作](https://deviceatlas.com/) ，维护用户代理和移动维度之间的查找。 如果您使用AppMeasurement库（如通过Adobe Experience Platform Launch），所有移动维度都将开箱即用。
+这些维引用Adobe内部的查找规则。 查找值基于随点击 `User-Agent` 发送的HTTP头。 Adobe与DeviceAtlas [合作](https://deviceatlas.com/) ，维护用户代理和移动维度之间的查找。 如果您使用AppMeasurement库(如通过Adobe Experience Platform启动)，所有移动维度都将开箱即用。
 
 ## 移动维度描述
 
->[!NOTE] 标记为非 `"None"` 移动设备的维度值。 如果您希望报告只包含移动设备，请将“移动设备”维度拖入Workspace画布的区段区域。
+>[!NOTE]
+>
+>标记为非 `"None"` 移动设备的维度值。 如果您希望报告只包含移动设备，请将“移动设备”维度拖入Workspace画布的区段区域。
 
 * **移动音频支持**: 确定设备可播放的文件格式。 示例值 `"MP3"`包括 `"AAC"`、和 `"MIDI Monophonic"`。 此维中的值不是互斥的； 一次点击可以归因于多个维度值。
 * **移动运营商**: 如果用户代理包含运营商专用设备，则运营商是维度值。 示例值 `"Reliance Jio"`包括 `"Airtel"`、 `"Vodafone"`、和 `"Verizon"`。
