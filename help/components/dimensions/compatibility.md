@@ -2,7 +2,7 @@
 title: Analytics 维度兼容性
 description: Analytics 维度和报表的参考。
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 92%
@@ -14,9 +14,13 @@ ht-degree: 92%
 
 本页列表了各自Analytics功能中支持的维度。
 
->[!NOTE] 此列表中忽略自定义变量名称、分类和访客属性。 这些维度值特定于单个报表包。
+>[!NOTE]
+>
+>此列表中忽略自定义变量名称、分类和访客属性。 这些维度值特定于单个报表包。
 
->[!NOTE] 对于类似维度，Analytics工具使用不同术语时会出现一些重叠。 例如，Reports &amp; Analytics在分析工 `browserwidth` 作区使用时使 `browserwidthbucketed`用。
+>[!NOTE]
+>
+>在Analytics工具对类似尺寸使用不同术语的地方存在一些重叠。 例如，Reports &amp; Jogan使用时 `browserwidth` Analysis Workspace使用 `browserwidthbucketed`。
 
 ## 在 Reports &amp; Analytics 和 Analysis Workspace 中均受支持的维度
 
