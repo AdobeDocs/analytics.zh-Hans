@@ -4,7 +4,10 @@ title: 允许发布列表覆盖
 topic: Report builder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 94%
 
 ---
 
@@ -17,11 +20,13 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 请参阅 Analytics 参考资料中的[发布列表管理器](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/publishing-list.html)。
 
-要启用此功能，请导航到该 [!UICONTROL Request Wizard: Step 1] 窗口。
+要启用此功能，请导航到“[!UICONTROL 请求向导: 第 1 步]”窗口。
 
-If you enable [!UICONTROL Allow Publishing List Override], the report suite assigned to each recipient in the publishing list replaces the report suite for this request. 此外，如果工作簿包含多个报表包，则使用与发布列表相关联的报表包 ID。
+如果启用“[!UICONTROL 允许发布列表覆盖]”，分配给发布列表中每个收件人的报表包将替换此请求的报表包。此外，如果工作簿包含多个报表包，则使用与发布列表相关联的报表包 ID。
 
 对于从单元格中选择的报表包，该选项不可用。
 
->[!NOTE]如果将计划报表发送给多个发布列表，则报表针对每个列表运行一次。可变报表包由分配给发布列表的报表包替换。
+>[!NOTE]
+>
+>如果将计划报表发送给多个发布列表，则报表针对每个列表运行一次。可变报表包由分配给发布列表的报表包替换。
 
