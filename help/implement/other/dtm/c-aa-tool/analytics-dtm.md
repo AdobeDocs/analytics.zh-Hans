@@ -4,8 +4,11 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: 添加 Adobe Analytics 工具
 topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '750'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 您可以通过创建 Adobe Analytics 工具并自动或手动配置页面代码，来使用 Dynamic Tag Management 部署 Adobe Analytics。对于大多数用户，建议使用自动方法。
 
->[!NOTE] 为了改进访客跟踪，我们强烈建议您启用 [Identity Service](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)。
+>[!NOTE]
+>
+> 为了改进访客跟踪，我们强烈建议您启用 [Identity Service](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)。
 
 ## 添加 Adobe Analytics 工具 {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
