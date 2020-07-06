@@ -3,7 +3,10 @@ title: AppMeasurement for JavaScript 发行说明
 description: AppMeasurement for JavaScript 的发行说明汇总。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2103'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 发行日期：**2020 年 3 月 5 日**
 
-* 通过更新Internet Explorer检测以抑制JSLint警告，修复了与安全相关的问题。
+* 通过更新Internet Explorer检测以禁止JSLint警告，修复了与安全相关的问题。
 
 ## 版本 2.19.0
 
@@ -32,7 +35,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 发行日期：**2020 年 2 月 13 日**
 
-* AppMeasurement现在可以通过设置变量强制cookies包含“安全”属 [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) 性。 对此变量的要求是整个客户端网站能够安全地提供(HTTPS)服务。 (AN-204604)
+* AppMeasurement现在可以通过设置变量强制cookies包含“安全” [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) 属性。 此变量的要求是整个客户端网站能够安全地服务(HTTPS)。 (AN-204604)
 
 ## 版本 2.17.0
 
@@ -102,7 +105,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 发行日期：**2018 年 5 月 24 日**
 
->[!NOTE]使用 [!DNL Experience Cloud] ID 服务的客户需要安装访客 API 3.0 或更高版本。Adobe 建议，每当更新关联的代码库（[!DNL at.js] 等）时，请升级至访客 API 的最新版本。[!DNL AppMeasurement.js]
+>[!NOTE]
+>
+>使用 [!DNL Experience Cloud] ID 服务的客户需要安装访客 API 3.0 或更高版本。Adobe 建议，每当更新关联的代码库（[!DNL at.js] 等）时，请升级至访客 API 的最新版本。[!DNL AppMeasurement.js]
 
 * 更新了 [!DNL AppMeasurement] 以使用更新的访客界面来获取请求 ID。(AN-151483)
 * 修复了在关闭链接跟踪后，链接跟踪 Cookie 仍继续写入的问题。(AN-156332)
@@ -216,7 +221,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * 更新了 [!DNL AppMeasurement] 以读写 AMCV cookie。(AN-127098)
 * 包括 Visitor API 1.7.0。
 
->[!NOTE]另请参阅下面的 [!DNL JavaScript] 版本 1.6.3 发行说明，其中包括 Marketing Cloud ID 服务的更新要求。
+>[!NOTE]
+>
+>另请参阅下面的 [!DNL JavaScript] 版本 1.6.3 发行说明，其中包括 Marketing Cloud ID 服务的更新要求。
 
 ## 版本 1.6.3
 
@@ -224,7 +231,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 * 修复了 [!DNL AppMeasurement] 过早终止请求连接的问题。(AN-126448)
 
->[!IMPORTANT]版本 1.6.0 的 [!DNL Experience Cloud] ID 服务&#x200B;*要求* [!DNL AppMeasurement] for [!DNL JavaScript] 版本 1.6.3 或更高版本。如果您要升级到版本 1.6.0 的 Experience Cloud ID 服务，请确保您使用的是 [!DNL AppMeasurement] 代码版本 1.6.3 或更高版本。
+>[!IMPORTANT]
+>
+>版本 1.6.0 的 [!DNL Experience Cloud] ID 服务&#x200B;*要求* [!DNL AppMeasurement] for [!DNL JavaScript] 版本 1.6.3 或更高版本。如果您要升级到版本 1.6.0 的 Experience Cloud ID 服务，请确保您使用的是 [!DNL AppMeasurement] 代码版本 1.6.3 或更高版本。
 
 ## 版本 1.6.2
 
@@ -293,7 +302,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * 包括 Visitor API 1.4。
 * 更新了 AudienceManagement 模块，以便使用 DIL 版本 6.0。
 
->[!NOTE] **已知问题**：在访客 API/[!DNL AppMeasurement] [!DNL Audience Manager] 模块集成中，将有两个在 IE6-9 中发出的目标发布 iFrame 请求：`//fast.<subdomain>.demdex.net/dest5.html` 和 `//fast.<subdomain>.demdex.net/dest4.html`。如在其他浏览器中所看到的，正确的行为是仅加载 `//fast.<subdomain>.demdex.net/dest5.html`.
+>[!NOTE]
+>
+>**已知问题**：在访客 API/[!DNL AppMeasurement] [!DNL Audience Manager] 模块集成中，将有两个在 IE6-9 中发出的目标发布 iFrame 请求：`//fast.<subdomain>.demdex.net/dest5.html` 和 `//fast.<subdomain>.demdex.net/dest4.html`。如在其他浏览器中所看到的，正确的行为是仅加载 `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## 版本 1.4.4
 
@@ -349,7 +360,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * 下载 zip 文件中添加了 **[!UICONTROL AudienceManagement]** 模块。
 * 添加了对其他 eVar (76-250) 和事件 (101-1000) 的支持。
 
->[!NOTE]H 代码不支持这些附加的 eVar 和事件。
+>[!NOTE]
+>
+>H 代码不支持这些附加的 eVar 和事件。
 
 ## 版本 1.3.2
 
