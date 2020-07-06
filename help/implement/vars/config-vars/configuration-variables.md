@@ -1,8 +1,11 @@
 ---
 title: 配置变量
 description: 使用配置变量可帮助确定数据收集的方式。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 100%
 
 ---
 
@@ -21,4 +24,6 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 2. 单击要编辑的属性。
 3. 单击[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的[!UICONTROL 配置]。
 
->[!IMPORTANT] 确保在调用跟踪方法（[`t()`](../functions/t-method.md) 或 [`tl()`](../functions/tl-method.md)）之前设置所有配置变量。避免在 [`doPlugins()`](../functions/doplugins.md) 函数中设置配置变量。
+>[!IMPORTANT]
+>
+> 确保在调用跟踪方法（[`t()`](../functions/t-method.md) 或 [`tl()`](../functions/tl-method.md)）之前设置所有配置变量。避免在 [`doPlugins()`](../functions/doplugins.md) 函数中设置配置变量。
