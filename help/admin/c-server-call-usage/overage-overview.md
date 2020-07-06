@@ -2,8 +2,11 @@
 description: 'null'
 title: “服务器调用使用情况”概述
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1038'
+ht-degree: 100%
 
 ---
 
@@ -61,7 +64,7 @@ Adobe Analytics“服务器调用使用情况”功能可根据您的请求为�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud 组织 </p> </td> 
-   <td colname="col2"> <p>组织是一个实体，它允许管理员配置群组和用户，并控制 Experience Cloud 中的单点登录。组织的作用类似于一个衔接所有 Experience Cloud 产品和解决方案的登录公司。 </p> <p>大多数情况下，组织即是您的公司名称。但是，公司可以具有多个组织。 </p> </td> 
+   <td colname="col2"> <p>组织是一个实体，它允许管理员配置群组和用户，并控制 Experience Cloud 中的单点登录。组织的作用类似于一个衔接所有 Experience Cloud 产品和解决方案的登录公司。 </p> <p>大多数情况下，组织是您的公司名称。但是，公司可以具有多个组织。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>服务器调用使用承诺 </p> </td> 
@@ -82,7 +85,9 @@ Adobe Analytics“服务器调用使用情况”功能可根据您的请求为�
 
 “服务器调用使用情况”权限会自动授予 Analytics 管理员。此权限允许用户访问该功能板和创建服务器调用警报。管理员可以选择向非管理员用户授予此权限。
 
->[!NOTE] 贵公司可以选择哪些登录公司有权访问“服务器调用使用情况”。
+>[!NOTE]
+>
+> 贵公司可以选择哪些登录公司有权访问“服务器调用使用情况”。
 
 <table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
  <thead> 
