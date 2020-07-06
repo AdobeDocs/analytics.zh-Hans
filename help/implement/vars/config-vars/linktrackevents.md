@@ -1,8 +1,11 @@
 ---
 title: linkTrackEvents
 description: 确定要包含在链接跟踪图像请求中的事件。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Launch 会自动检测界面中定义的事件，并将其包含在链接跟踪点击中。
 
->[!IMPORTANT] 如果使用自定义代码编辑器在 Launch 中设置事件，则还必须使用自定义代码在 `linkTrackEvents` 中包含该事件。
+>[!IMPORTANT]
+>
+> 如果使用自定义代码编辑器在 Launch 中设置事件，则还必须使用自定义代码在 `linkTrackEvents` 中包含该事件。
 
 ## AppMeasurement 和 Launch 自定义代码编辑器中的 s.linkTrackEvents
 
@@ -33,7 +38,9 @@ s.linkTrackEvents = "event1,event2,event3,purchase";
 
 此变量的默认值是空字符串。如果未定义此变量，则链接跟踪图像请求中将包括所有事件。请注意，Launch 会根据界面中设置的事件自动填充此变量，因此实施始终使用 Launch 来设置此变量。
 
->[!TIP] 在此变量中指定事件时，请避免使用 Analytics 对象标识符 (`s.`)。例如，`s.linkTrackEvents = "event1";` 是正确的，而 `s.linkTrackEvents = "s.event1";` 是错误的。
+>[!TIP]
+>
+> 在此变量中指定事件时，请避免使用 Analytics 对象标识符 (`s.`)。例如，`s.linkTrackEvents = "event1";` 是正确的，而 `s.linkTrackEvents = "s.event1";` 是错误的。
 
 ## 示例
 
