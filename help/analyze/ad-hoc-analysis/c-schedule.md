@@ -4,7 +4,10 @@ title: 计划管理器
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '970'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 您可以自定义报表的提交计划。可以在特定时间停止提交操作，或指定发送报表的次数。新计划使用在报表中定义的日期范围。例如，如果针对过去 90 天创建一个报表，并计划每天运行该报表，则会每天收到针对过去 90 天的报表。如果您从日历创建了一个固定日期范围的报表，则在每次发送此报表时您将看见相同的报表。
 
->[!NOTE]禁用某个用户帐户时，该用户创建的计划报表交付将会挂起。
+>[!NOTE]
+>
+>禁用某个用户帐户时，该用户创建的计划报表交付将会挂起。
 
 要确保划分中的行项目在保存报表和计划报表中持续不变，请使用[表生成器](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)中的&#x200B;**[!UICONTROL 编辑项目]**&#x200B;功能，以便在划分中创建固定的维度列表。
 
