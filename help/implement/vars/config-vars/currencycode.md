@@ -2,7 +2,7 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: fedece99d8d9fdaf4eb9ba5e997c7ee2f378df4c
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 90%
@@ -20,7 +20,9 @@ ht-degree: 90%
 
 如果 `currencyCode` 已定义并且与报表包中使用的货币不同，则 Adobe 会根据当天的汇率进行货币换算。Adobe 与 [XE](https://xe.com) 合作，共同开展每日的货币换算工作。数据收集服务器中存储的所有值最终都将以报表包中使用的货币进行存储。
 
->[!IMPORTANT] 如果 `currencyCode` 包含无效值，则整个点击都会被丢弃，从而导致数据丢失。如果要在实施中使用此变量，请确保正确定义此变量。
+>[!IMPORTANT]
+>
+> 如果 `currencyCode` 包含无效值，则整个点击都会被丢弃，从而导致数据丢失。如果要在实施中使用此变量，请确保正确定义此变量。
 
 此变量不会在点击之间保留。确保在涉及收入或货币事件的每个页面上定义此变量。
 
@@ -35,12 +37,12 @@ ht-degree: 90%
 
 您可以使用预设货币代码或自定义货币代码。如果使用自定义货币代码，请确保该代码有效。
 
-## Adobe Experience Platform Mobile SDK中的货币代码
+## Adobe Experience Platform移动SDK中的货币代码
 
-货币代码通过Adobe Analytics扩展中的上下文数据变量传递到Adobe Experience Platform Mobile SDK。
+货币代码通过AdobeAnalytics扩展中的上下文数据变量传递到Adobe Experience Platform移动SDK。
 
 1. 在或期间在上下文数据变量中设置货币 `trackState` 代码 `trackAction`。
-2. 在Adobe Analytics管理控制台中为报表包创建处理规则。 设置规则以覆盖货币代码变量。
+2. 在AdobeAnalytics管理控制台中为报表包创建处理规则。 设置规则以覆盖货币代码变量。
 3. 将货币代码传递 `products` 给调用或的变 `trackState` 量 `trackAction`。
 
 您可以使用预设货币代码或自定义货币代码。如果使用自定义货币代码，请确保该代码有效。
