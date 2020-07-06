@@ -1,8 +1,11 @@
 ---
 title: 事件序列化
 description: 帮助删除网站上的重复量度。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 事件序列化是实施措施以防止重复事件进入 Analytics 报告的过程。如果您不希望量度由于访客刷新页面而虚增，删除重复事件很重要。
 
->[!NOTE]数据源不支持事件序列化或删除重复事件。
+>[!NOTE]
+>
+>数据源不支持事件序列化或删除重复事件。
 
 ## 设置事件序列化
 
@@ -23,7 +28,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * 可在所有访客中进行重复数据删除。如果访客 A 发送 `event1:ABC`，然后访客 B 也发送 `event1:ABC`，则 Adobe 会忽略访客 B 的第二个实例。
 * 重复数据删除不会过期。如果访客发送 `event1:ABC`，然后 2 年后返回并再次发送 `event1:ABC`，则 Adobe 将忽略第二个实例。
 
->[!TIP] 如果要删除重复的 [`purchase`](event-purchase.md) 事件，请改用 [`purchaseID`](../purchaseid.md) 变量。
+>[!TIP]
+>
+> 如果要删除重复的 [`purchase`](event-purchase.md) 事件，请改用 [`purchaseID`](../purchaseid.md) 变量。
 
 ## 在 Adobe Experience Platform Launch 中使用事件 ID
 
