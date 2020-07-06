@@ -2,7 +2,7 @@
 title: 美国 DMA
 description: 受冲击的指定市场区域。
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 1%
@@ -18,7 +18,9 @@ ht-degree: 1%
 
 此维引用Adobe内部的查找规则。 查找值基于随点击发送的IP地址。 Adobe与Nielsen合作，维护IP地址与DMA之间的查找。 此维度适用于所有实施。
 
-> [!TIP] 如果您的组织遵循严格的隐 [私法规，而模糊](/help/admin/admin/general-acct-settings-admin.md) 化IP地址是不够的，您可以请求完全禁用地理位置数据。 使用报表包ID联系客户关怀，并请求关闭报表包的“地理位置”。
+>[!TIP]
+>
+>如果您的组织遵循严格的隐 [私法规，而模糊](/help/admin/admin/general-acct-settings-admin.md) 化IP地址是不够的，您可以请求完全禁用地理位置数据。 使用报表包ID联系客户关怀，并请求关闭报表包的“地理位置”。
 
 ## 维值
 
