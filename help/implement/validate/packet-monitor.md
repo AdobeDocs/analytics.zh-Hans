@@ -2,7 +2,10 @@
 title: 数据包分析程序
 description: 数据包分析程序允许您查看由实施发送至 Adobe 数据收集服务器的数据。
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '534'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Adobe 不提供正式的数据包监视工具，但是互联网上存在大量这种程序。以下是其他人发现有用的一些数据包监视工具。
 
->[!NOTE]这些列表并不完整，只提供了关于常用监视器的信息。如果您成功地使用了某数据包监视工具，并且发现它非常有用，请随时使用此窗口右侧的[!UICONTROL 反馈]按钮向我们提供反馈信息。
+>[!NOTE]
+>
+>这些列表并不完整，只提供了关于常用监视器的信息。如果您成功地使用了某数据包监视工具，并且发现它非常有用，请随时使用此窗口右侧的[!UICONTROL 反馈]按钮向我们提供反馈信息。
 
 | Firefox | Internet Explorer | Chrome | 独立程序 |
 |---|---|---|---|
@@ -32,7 +37,9 @@ Adobe 不提供正式的数据包监视工具，但是互联网上存在大量�
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
->[!NOTE]Adobe 不支持或解决您在使用这些数据包监视工具时可能遇到的任何问题。请咨询数据包监视工具的始发网站，以寻求帮助。
+>[!NOTE]
+>
+>Adobe 不支持或解决您在使用这些数据包监视工具时可能遇到的任何问题。请咨询数据包监视工具的始发网站，以寻求帮助。
 
 ## 响应代码中的 NS_BINDING_ABORTED
 
