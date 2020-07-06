@@ -4,7 +4,10 @@ title: 菜单自定义
 topic: Admin tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '265'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 菜单更改应用于访问报表包的所有用户。不过，用户在使用报表包时可以还原菜单的默认配置。
 
->[!NOTE] 对菜单结构所做的任何更改都不会影响 Report Builder 和 Ad Hoc Analysis。但重命名报表将会反映在这两个工具中。
+>[!NOTE]
+>
+> 对菜单结构所做的任何更改都不会影响 Report Builder 和 Ad Hoc Analysis。但重命名报表将会反映在这两个工具中。
 
 ## 菜单自定义描述 {#section_B0D224DACB914A378902A4E0E1234889}
 
