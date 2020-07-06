@@ -3,7 +3,10 @@ description: 'null'
 title: 警报生成器
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 100%
 
 ---
 
@@ -21,9 +24,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * 在 Analysis Workspace 中使用以下快捷键：
 
    `ctrl (or cmd) + shift + a`
-* 转到 **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**。
-* By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
-* 从“报告与分析”报告中，转到 **[!UICONTROL More]** > **[!UICONTROL Add Alert]**。
+* 转到&#x200B;**[!UICONTROL 工作区]** > **[!UICONTROL 组件]** > **[!UICONTROL 新警报]**。
+* 选择一个或多个自由格式表行项目，单击鼠标右键并选择&#x200B;**[!UICONTROL 从选定范围中创建警报]**。
+* 在 Reports &amp; Analytics 报表中，转到&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 添加警报]**。
 
 ## 构建警报
 
@@ -41,7 +44,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 指定要何时检查量度：每小时、每天、每周或每月。
 
->[!NOTE] 对于包含自定义日历的报表包，警报生成器不支持每月粒度。
+>[!NOTE]
+>
+> 对于包含自定义日历的报表包，警报生成器不支持每月粒度。
 
 **收件人**
 
@@ -75,6 +80,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    * 小于或等于
    * 更改百分比
    * 您可以将阈值设置为 90%、95%、99%、99.75% 或 99.9%。
+
    请注意，您还可以使用计算量度。
 
 *...使用以下过滤器*
