@@ -2,14 +2,19 @@
 title: 旧版 Adobe Experience Cloud 调试器
 description: 安装旧版 Adobe Experience Cloud 调试器。此调试器可检查 Analytics、Target、Advertising Cloud、Identity Service、DTM 和 Launch 的标签。
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '690'
+ht-degree: 100%
 
 ---
 
 
 # 旧版 Adobe Experience Cloud 调试器
 
->[!IMPORTANT] Adobe 将不再维护此调试工具。Adobe 建议改用 [Adobe Experience Cloud 调试器 Chrome 扩展](https://docs.adobe.com/content/help/zh-Hans/debugger/using/experience-cloud-debugger.html)。
+>[!IMPORTANT]
+>
+> Adobe 将不再维护此调试工具。Adobe 建议改用 [Adobe Experience Cloud 调试器 Chrome 扩展](https://docs.adobe.com/content/help/zh-Hans/debugger/using/experience-cloud-debugger.html)。
 
 [!UICONTROL 旧版调试器]可检查大多数 Adobe Experience Cloud 服务的标签。通过使用该调试器，您可以查看在网站上的任何给定页面向 Adobe 发送了哪些数据。您可以使用此信息对贵组织的实施进行故障诊断或验证。
 
@@ -68,7 +73,9 @@ Safari 无法手动创建小书签，但可以将书签 URL 编辑为小书签�
 
 导航到网站上的所需页面，然后单击小书签。此时将出现一个弹出窗口，其中显示了发送到 Adobe 的数据。
 
->[!NOTE] 某些广告拦截插件和弹出窗口阻止程序可能会妨碍调试器窗口的加载。请检查浏览器中遭到阻止的弹出窗口，并允许显示这些弹出窗口，以便调试器能够正常工作。
+>[!NOTE]
+>
+> 某些广告拦截插件和弹出窗口阻止程序可能会妨碍调试器窗口的加载。请检查浏览器中遭到阻止的弹出窗口，并允许显示这些弹出窗口，以便调试器能够正常工作。
 
 调试器具有多个可用选项，所有这些选项都可以自定义数据的显示方式。这些选项均不影响数据收集。
 
