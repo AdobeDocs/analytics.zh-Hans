@@ -4,9 +4,9 @@ title: Data Warehouse 区段兼容性
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: fb0833530a9ec67f01226b986d124ab1e441d7e4
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '349'
 ht-degree: 96%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 96%
   <tr> 
    <td> <b>区段堆叠</b> </td> 
    <td> 受支持 </td> 
-   <td> 不受支持 </td> 
+   <td> 受支持 </td> 
   </tr>
   <tr>
     <td><b>“等于任何”和“不等于任何”运算符</b></td>
