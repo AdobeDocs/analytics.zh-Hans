@@ -3,7 +3,10 @@ description: 'null'
 title: 限制和规范
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '617'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Power BI 发布限制 {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 
->[!NOTE] 这些限制仅适用于选项“作为 Power BI 数据集表发布 Report Builder 请求”。
+>[!NOTE]
+>
+> 这些限制仅适用于选项“作为 Power BI 数据集表发布 Report Builder 请求”。
 
 * 对于每个工作簿，最多可向 Power BI 导出 100 个 Report Builder 请求。
 * 在达到 101 个请求时，计划过程将停止导出请求。
@@ -20,7 +25,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## 在发布到 Power BI 之后编辑 Report Builder 请求 {#section_6989E74F68DD43F08D37C36B6777DB50}
 
->[!NOTE] 此规范适用于选项“作为 Power BI 数据集表发布所有 Report Builder 请求”和“作为 Power BI 数据集表发布工作簿中所有带格式的表”。
+>[!NOTE]
+>
+> 此规范适用于选项“作为 Power BI 数据集表发布所有 Report Builder 请求”和“作为 Power BI 数据集表发布工作簿中所有带格式的表”。
 
 在发布到 Power BI 之后编辑 Report Builder 请求，可能会引发问题。
 
@@ -38,6 +45,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
       1. 验证它覆盖了首次发布时创建的现有数据集。
       1. 验证 page_1 表已正确地更新了“页面”和“访问次数”列。
       1. 验证您的可视化已中断，因为它引用了 page_1 表中不再存在的“页面查看次数”列。
+
    **以下是一个有关如何不中断可视化的示例：**
 
    1. 在 Report Builder 中，使用“页面”维度和“页面查看次数”量度，创建具有一个请求的工作簿。
@@ -62,5 +70,5 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 * 标签不能是可被误认为行和列地址的字母和数字组合。例如，A100 不能用作标签，因为它是工作表中一个单元格的地址。
 * 以下字符不是有效的标签字符：“#”、“@”、“!”、“$”、“^”、“&amp;”、“*”、“`”、“~”、“ ”。它们将由一个下划线字符替代。
-* 如果您输入一个无效名称，将显示一则警告消息，并向您推荐一个自动生成的名称。If you click **[!UICONTROL Yes]**, this name will be used. If you click **[!UICONTROL No]**, the Advanced Wizard UI will let you enter the new name.
+* 如果您输入一个无效名称，将显示一则警告消息，并向您推荐一个自动生成的名称。如果单击&#x200B;**[!UICONTROL 是]**，将会使用此名称。如果单击&#x200B;**[!UICONTROL 否]**，高级向导 UI 将让您输入新名称。
 
