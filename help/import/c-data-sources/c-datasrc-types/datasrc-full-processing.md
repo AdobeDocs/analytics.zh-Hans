@@ -5,7 +5,7 @@ title: 完全处理
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 374202983d4d75f785eb7062b88fd5fded2cbb7b
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 93%
@@ -15,7 +15,9 @@ ht-degree: 93%
 
 # 完全处理
 
->[!NOTE] Adobe建议客户使 [用批量数据插入API(BDIA](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) )而不是完全处理数据源。 将来将弃用完全处理数据源。
+>[!NOTE]
+>
+>Adobe建议客户使 [用批量数据插入API(BDIA](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) )而不是完全处理数据源。 将来将弃用完全处理数据源。
 
 数据源在处理作为标准服务器调用的数据时，支持以下变量（普通 > 完全处理）。
 
