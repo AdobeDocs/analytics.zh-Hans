@@ -4,7 +4,10 @@ title: 计划报表队列
 topic: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '313'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 在&#x200B;**[!UICONTROL 报表列表]**&#x200B;选项卡中，除了个人计划的报表之外，您还可以在您的组织内&#x200B;**[!UICONTROL 显示所有计划报表]**。
 
->[!NOTE]**[!UICONTROL 报表名称]**&#x200B;列显示正在计划的报表名称，而&#x200B;**[!UICONTROL 文件名称]**&#x200B;列显示您在“高级提交选项”中设置的任何自定义文件名。因此，如果您计划具有相同报表类型的多个报表，并为每个报表指定自定义名称，则“计划报表管理器”会显示具有相同报表名称和不同文件名称的多个条目。这是因为正在计划的后端报表是相同的，因此报表名称列对于几乎完全自定义的文件名称显示相同的报表名称（如有设置）。
+>[!NOTE]
+>
+>**[!UICONTROL 报表名称]**&#x200B;列显示正在计划的报表名称，而&#x200B;**[!UICONTROL 文件名称]**&#x200B;列显示您在“高级提交选项”中设置的任何自定义文件名。因此，如果您计划具有相同报表类型的多个报表，并为每个报表指定自定义名称，则“计划报表管理器”会显示具有相同报表名称和不同文件名称的多个条目。这是因为正在计划的后端报表是相同的，因此报表名称列对于几乎完全自定义的文件名称显示相同的报表名称（如有设置）。
 
 ![](assets/show_all_scheduled_reports.png)
 
