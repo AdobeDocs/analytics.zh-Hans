@@ -1,15 +1,20 @@
 ---
 title: pt
 description: 对变量列表执行一个函数。
-translation-type: ht
-source-git-commit: e2afe854a4141510fe2ecd85aa6df59f6751d0f5
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '595'
+ht-degree: 100%
 
 ---
 
 
 # Adobe 插件：pt
 
->[!IMPORTANT] 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
+>[!IMPORTANT]
+>
+> 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
 `pt` 插件可对 Analytics 变量列表执行一个函数或方法。例如，您可以选择性地对多个变量运行 [`clearVars`](../functions/clearvars.md) 方法，而无需每次手动调用该方法。有一些其他插件需要此插件代码才能正常运行。如果您不需要同时对多个 Analytics 变量运行特定函数，或者您未使用任何依赖此插件的相关插件，则无需使用此插件。
 
