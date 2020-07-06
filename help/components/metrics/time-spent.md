@@ -2,7 +2,7 @@
 title: 逗留时间
 description: 维度和指标的总时间页。
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1577'
 ht-degree: 93%
@@ -39,7 +39,9 @@ ht-degree: 93%
 
 Adobe Analytics 使用显式值（包括链接事件和视频查看次数）来计算[!UICONTROL 逗留时间]。
 
->[!NOTE]如果没有“[!UICONTROL 视频查看]”或“[!UICONTROL 退出链接]”等链接事件，就无法得知访问的最后一次点击的逗留时间。此外，鉴于类似的原因，[!UICONTROL 跳出访问]（即只包含一次点击的访问）将没有相关的“逗留时间”。
+>[!NOTE]
+>
+>如果没有“[!UICONTROL 视频查看]”或“[!UICONTROL 退出链接]”等链接事件，就无法得知访问的最后一次点击的逗留时间。此外，鉴于类似的原因，[!UICONTROL 跳出访问]（即只包含一次点击的访问）将没有相关的“逗留时间”。
 
 在所有逗留时间的计算中，**分子**&#x200B;都是“所用总秒数”。
 
