@@ -3,8 +3,11 @@ description: 汇总报表包综合了多个子报表包的数据，并将其显�
 title: 汇总报表包和全局报表包
 topic: Admin tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '569'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +37,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **次级服务器调用**：除单个报表包所收集的内容外，汇总报表包不会导致发起任何其他服务器调用。如果您的组织使用多包标记，则会对图像请求中包含的每个其他报表包发出次级服务器调用。
 
->[!TIP] 如果仅将全局报表包与[虚拟报表包](../../components/vrs/vrs-considerations.md)一起使用，则不需要任何次级服务器调用。
+>[!TIP]
+>
+> 如果仅将全局报表包与[虚拟报表包](../../components/vrs/vrs-considerations.md)一起使用，则不需要任何次级服务器调用。
 
 **实施更改**：汇总报表包不需要进行任何实施更改，而全局报表包要求您在实施中包含全局报表包 ID。
 
