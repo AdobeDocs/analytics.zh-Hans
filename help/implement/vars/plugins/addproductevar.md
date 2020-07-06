@@ -1,19 +1,26 @@
 ---
 title: addProductEvar
 description: 将推销 eVar 添加到产品变量。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '538'
+ht-degree: 100%
 
 ---
 
 
 # Adobe 插件：addProductEvar
 
->[!IMPORTANT] 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
+>[!IMPORTANT]
+>
+> 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
 通过 `addProductEvar` 插件，您轻松地将使用产品语法的 Adobe Analytics 推销 eVar 添加到产品变量中，而不必担心产品变量的现有内容是否会被更改/移动/删除。如果您想轻松地将产品语法推销 eVar 添加到 [`products`](../page-vars/products.md) 变量中，则 Adobe 建议使用此插件。如果不将推销 eVar 与产品语法一起使用，则无需使用 `addProductEvar` 插件。
 
->[!NOTE] 此插件不会替换产品条目中已存在的 eVar。它仅会附加您使用此插件设置的值。附加该产品中已存在的 eVar 时请务必小心。
+>[!NOTE]
+>
+> 此插件不会替换产品条目中已存在的 eVar。它仅会附加您使用此插件设置的值。附加该产品中已存在的 eVar 时请务必小心。
 
 ## 使用 Adobe Experience Platform Launch 扩展安装此插件
 
