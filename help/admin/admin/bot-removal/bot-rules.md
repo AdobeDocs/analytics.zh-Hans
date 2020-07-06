@@ -4,8 +4,11 @@ subtopic: Bot rules
 title: 机器人规则概述
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1351'
+ht-degree: 100%
 
 ---
 
@@ -37,7 +40,9 @@ Adobe 无法向客户提供详细的 IAB 机器人程序列表，但是您可以
 
 ## 自定义机器人规则
 
->[!NOTE]用户界面允许手动定义 500 个规则。在达到此限制后，必须通过“导入文件”和“导出机器人规则”选项对规则进行批量管理。
+>[!NOTE]
+>
+>用户界面允许手动定义 500 个规则。在达到此限制后，必须通过“导入文件”和“导出机器人规则”选项对规则进行批量管理。
 
 使用自定义机器人规则，您可以根据定义的条件过滤流量。
 
@@ -121,7 +126,9 @@ VISTA 规则的应用在机器人规则之后（请参阅[处理顺序](/help/ad
 
 **高点击访问处理：**&#x200B;如果一次访问中出现 100 次以上的点击，则报表会确定访问时间（以秒为单位）是否小于或等于访问的点击次数。在这种情况下，由于长时间集中访问的处理成本原因，报表会重新开始一个新访问。高点击访问通常是由机器人攻击造成的，因此不视为正常的访客浏览。
 
->[!NOTE] 标记为 *`bots`* 的点击将计为[服务器调用。](/help/admin/c-server-call-usage/overage-overview.md)
+>[!NOTE]
+>
+> 标记为 *`bots`* 的点击将计为[服务器调用。](/help/admin/c-server-call-usage/overage-overview.md)
 
 ## IP 模糊处理对机器人过滤的影响 {#section_92E60B95BE8940D983F28C79E0CD6B12}
 
