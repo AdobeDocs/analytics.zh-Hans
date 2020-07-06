@@ -2,7 +2,7 @@
 title: 反向链接类型
 description: 推荐人类型，取决于访客的来源。
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -31,9 +31,11 @@ ht-degree: 0%
 
 ### 社交网络
 
-以下列表引用Adobe使用的“社交网络”查找表。 Adobe向Adobe Analytics客户提供此列表。 如果您希望建议Adobe向此列表添加域，请在您的组织中设置支持代表，与客户服务部门联系。
+以下列表引用Adobe使用的“社交网络”查找表。 Adobe向AdobeAnalytics客户提供此列表。 如果您希望建议Adobe向此列表添加域，请在您的组织中设置支持代表，与客户服务部门联系。
 
->[!NOTE] 此列表不同于营销渠道处理规则中社交网 [络的默认列表](../c-marketing-channels/c-rules.md)。
+>[!NOTE]
+>
+>此列表不同于营销渠道处理规则中社交网 [络的默认列表](../c-marketing-channels/c-rules.md)。
 
 * `12seconds.tv`
 * `t.163.com`
