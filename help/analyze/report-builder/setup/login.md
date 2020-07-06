@@ -3,8 +3,11 @@ description: 有关登录 Report Builder 的三种方法的信息。
 title: Report Builder 登录
 topic: Report builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 100%
 
 ---
 
@@ -47,5 +50,7 @@ Experience Cloud 登录允许您使用企业 ID（电子邮件和密码）登录
 
 ![](assets/adobe_id_login.png)
 
->[!NOTE] Experience Cloud 登录基于会话，且令牌在 30 天后到期。
+>[!NOTE]
+>
+> Experience Cloud 登录基于会话，且令牌在 30 天后到期。
 
