@@ -1,8 +1,11 @@
 ---
 title: 营销渠道中的分类
 description: 分类用于将值归到相关群组并在群组级别进行报告。例如，您可以将所有“付费搜索”促销活动归为类似“视频卡”的类别。然后，可在该类别相对于“实例”（或“点进次数”）等量度而成功时进行报告。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 您在此过程中添加的分类在“[!UICONTROL 营销渠道概述]”报表中显示为“[!UICONTROL 渠道值]”。渠道值在渠道详细信息中未进行分类。
 
->[!NOTE] 确保您可熟练地在[分类](/help/components/c-classifications2/c-classifications.md)中创建分类。
+>[!NOTE]
+>
+> 确保您可熟练地在[分类](/help/components/c-classifications2/c-classifications.md)中创建分类。
 
 >[!IMPORTANT]
 >
