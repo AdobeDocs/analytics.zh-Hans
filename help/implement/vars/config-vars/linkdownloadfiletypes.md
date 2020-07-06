@@ -1,8 +1,11 @@
 ---
 title: linkDownloadFileTypes
 description: 确定自动作为下载链接进行跟踪的文件扩展名。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '266'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 使用 `linkDownloadFileTypes` 可自定义要计为下载链接的文件扩展名。
 
->[!NOTE] 只自动跟踪实际点击量。不会自动跟踪以下类型的链接：
+>[!NOTE]
+>
+> 只自动跟踪实际点击量。不会自动跟踪以下类型的链接：
 >
 > * 加载页面时自动启动的文件下载
 > * 重定向后触发的下载
