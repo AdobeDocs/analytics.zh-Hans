@@ -2,8 +2,11 @@
 description: 'null'
 title: Advertising Analytics 概述
 uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1259'
+ht-degree: 100%
 
 ---
 
@@ -12,9 +15,11 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 通过 Advertising Analytics，您可以在 Adobe Analytics 中并排查看您在 Google 和 Bing 上的所有付费搜索数据。以前，您必须在 Adobe Advertising Cloud (AMO) 或 Google/Bing 中查看所有 Google AdWords/DFA 或 Microsoft Bing Ads 数据。现在，您可以在 Adobe Analytics 中直接从搜索引擎获取以下数据：展示次数、点击次数、成本、质量分数、平均位置以及 AMO ID 实例数（点击实例数）。
 
->[!NOTE] Microsoft Bing 已于 2019 年 3 月 31 日收购了 Yahoo Gemini。因此，现已不再提供 Yahoo Gemini 广告帐户选项。
+>[!NOTE]
+>
+> Microsoft Bing 已于 2019 年 3 月 31 日收购了 Yahoo Gemini。因此，现已不再提供 Yahoo Gemini 广告帐户选项。
 
-将这些来自搜索引擎的数据集中到 Adobe Analytics 之后，您即可使用 Analysis Workspace 的强大功能对同样的数据进行分析。Workspace 中新的[付费搜索性能](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md)模板可帮助进行此分析。
+将这些来自搜索引擎的数据集中到 Adobe Analytics 之后，您即可使用 Analysis Workspace 的强大功能对同样的数据进行分析。工作区中新的[付费搜索性能](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md)模板可帮助进行此分析。
 
 ![](assets/aa_aw.png)
 
@@ -30,7 +35,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 * 非 Advertising Cloud 和非 AMO 的客户都可以使用此功能。
 * 您必须是 Adobe Analytics 管理员才可以访问 Advertising Analytics。随后，您可以向非管理员[授予访问权限](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369)。
 * 如果您想在任意 Analytics 报表包中查看 Google/Bing 搜索数据，则必须将这些 Analytics 报表包[映射到您的 Experience Cloud 组织](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/about-core-services/report-suite-mapping.html)。
-* 对于您想要在其中查看 Google/Bing 搜索数据的任何报表包，必须[为 Advertising Analytics 启用这些报表包](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) (**[!UICONTROL Admin]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**)。
+* 对于您想要在其中查看 Google/Bing 搜索数据的任何报表包，必须[为 Advertising Analytics 启用这些报表包](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)（**[!UICONTROL 管理员]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL Advertising Analytics 配置]**）。
 
 * 您需要用户登录凭据（如 Google 帐户 ID 和密码），且该用户对您想要与 Adobe Analytics 集成的搜索帐户须拥有编辑权限。
 * 对于 Bing Ads，您还需要 Bing 客户 ID。
