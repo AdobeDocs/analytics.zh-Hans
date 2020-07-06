@@ -3,7 +3,10 @@ description: 'null'
 title: 使用集成
 uuid: b39c1334-ac0f-431b-a34f-27ff9b068e33
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '212'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 部署后，您可以开始使用此集成提供的其他功能。通过执行以下操作，可在 Adobe Analytics 中从此集成获益。
 
->[!NOTE] 在 Adobe Analytics 报表中，可能需要 24-48 小时才能开始看到 Kampyle 响应数据。
+>[!NOTE]
+>
+> 在 Adobe Analytics 报表中，可能需要 24-48 小时才能开始看到 Kampyle 响应数据。
 
 ## 混合反馈和现场行为数据{#mix-feedback-and-onsite-behavior-data}
 
