@@ -2,7 +2,7 @@
 title: 平均页面深度
 description: 维中平均存在的页数。
 translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -38,7 +38,9 @@ If 'Count repeat instances' is disabled:
 (1 + 4) / 2 = 2.5, rounded up to 3
 ```
 
->[!TIP] 如果要查看小数位的平均页面深度，请使用此度量作为公式中的唯一元素来创建计算度量。 将计算度量中的小数位数增加到所需的小数。
+>[!TIP]
+>
+>如果要查看小数位的平均页面深度，请使用此度量作为公式中的唯一元素来创建计算度量。 将计算度量中的小数位数增加到所需的小数。
 
 ## 百分比超过100%
 
