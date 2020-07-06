@@ -4,7 +4,10 @@ title: 异常检测
 topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '518'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * 视频缓冲事件剧增
 * 低视频比特率剧增
 
->[!NOTE] 仅当您选择“日”粒度时，才可使用“异常检测”。
+>[!NOTE]
+>
+> 仅当您选择“日”粒度时，才可使用“异常检测”。
 
 <p class="head"> <b>异常检测量度</b> </p>
 
