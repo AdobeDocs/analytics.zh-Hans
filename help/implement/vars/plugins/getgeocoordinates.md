@@ -1,15 +1,20 @@
 ---
 title: getGeoCoordinates
 description: 跟踪访客的地理位置。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '529'
+ht-degree: 100%
 
 ---
 
 
 # Adobe 插件：getGeoCoordinates
 
->[!IMPORTANT] 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
+>[!IMPORTANT]
+>
+> 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
 `getGeoCoordinates` 插件允许您捕获访客设备所在的纬度和经度。如果您想要在 Analytics 变量中捕获地理位置数据，Adobe 建议使用此插件。
 
@@ -59,7 +64,9 @@ s.getGeoCoordinates=function(){var d=this,b="",a=d.c_r("s_ggc").split("|"),e={ti
 * `"error retrieving geo coordinates"`：对于插件尝试检索设备位置时遇到任何错误的情况
 * `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"`：其中 [LATITUDE]/[LONGITUDE] 分别表示纬度和经度
 
->[!NOTE] 坐标值会四舍五入到最接近的小数点后四位。例如，值 `"40.438635333"` 会舍入到 `"40.4386"` 以限制要捕获的唯一值的数量。这些值足以能够将设备精确定位到 20 英尺内的确切位置。
+>[!NOTE]
+>
+> 坐标值会四舍五入到最接近的小数点后四位。例如，值 `"40.438635333"` 会舍入到 `"40.4386"` 以限制要捕获的唯一值的数量。这些值足以能够将设备精确定位到 20 英尺内的确切位置。
 
 如果需要，此插件会使用名为 `"s_ggc"` 的 Cookie 来存储点击之间的坐标。
 
