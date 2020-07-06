@@ -2,8 +2,11 @@
 description: 您希望能够搜索的每个 ID 均分配有一个命名空间；命名空间是一个自定义字符串，用于在所有报表包之间使用的任何变量中识别该 ID。
 title: 命名空间
 uuid: cab61844-3209-4980-b14c-6859de777606
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '903'
+ht-degree: 100%
 
 ---
 
@@ -64,7 +67,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 此外，也可以转而使用 `"namespaceId": 4` 作为 `"namespace": "ECID"` 的代替或补充，您可能会看到其他一些 Adobe 产品使用该表单。
 
->[!NOTE] Experience Cloud ID (ECID) 以前称为 Marketing Cloud ID (MCID)，在一些现有的文档中依然会采用这种旧称。
+>[!NOTE]
+>
+>Experience Cloud ID (ECID) 以前称为 Marketing Cloud ID (MCID)，在一些现有的文档中依然会采用这种旧称。
 >
 >这些 ID 是 Analytics 支持的唯一 ID，使用“type”值而不是“analytics”值。
 
@@ -104,8 +109,12 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 您还可以查看之前为其他变量或报表包定义的命名空间并重复使用其中之一，以便轻松地将相同的命名空间用于存储此类型 ID 的所有报表包。另外，还可以将相同的命名空间分配给一个报表包内的多个变量。例如，某些客户将 CRM ID 存储在流量变量和转化变量中（根据页面，有时存储在其中任一变量中，有时同时存储在这两个变量中），并且他们可以将命名空间“CRM ID”同时分配给这两个变量。
 
->[!TIP]在为数据隐私 API 指定命名空间时，请避免使用变量的友好名称（报表 UI 中显示的名称）或变量的编号（如 eVar12），除非该友好名称或变量编号也是您在应用 ID-DEVICE 或 ID-PERSON 标签时指定的命名空间。使用命名空间而不是友好名称可以使相同的用户标识块为多个报表包指定正确的变量：例如，当 ID 在某些报表包中位于不同的 eVar 中时，或者友好名称不匹配时（例如，友好名称已在特定的报表包中本地化）。
+>[!TIP]
+>
+>在为数据隐私 API 指定命名空间时，请避免使用变量的友好名称（报表 UI 中显示的名称）或变量的编号（如 eVar12），除非该友好名称或变量编号也是您在应用 ID-DEVICE 或 ID-PERSON 标签时指定的命名空间。使用命名空间而不是友好名称可以使相同的用户标识块为多个报表包指定正确的变量：例如，当 ID 在某些报表包中位于不同的 eVar 中时，或者友好名称不匹配时（例如，友好名称已在特定的报表包中本地化）。
 
->[!CAUTION]命名空间“visitorId”和“customVisitorId”是保留名称，用于识别 Analytics 旧版跟踪 Cookie 和 Analytics 客户的访客 ID。请勿将这些命名空间用于自定义流量或转换变量。
+>[!CAUTION]
+>
+>命名空间“visitorId”和“customVisitorId”是保留名称，用于识别 Analytics 旧版跟踪 Cookie 和 Analytics 客户的访客 ID。请勿将这些命名空间用于自定义流量或转换变量。
 
 有关更多信息，请参阅[为变量设置 ID-DEVICE 或 ID-PERSON 标签时提供命名空间。](/help/admin/c-data-governance/gdpr-labels.md)
