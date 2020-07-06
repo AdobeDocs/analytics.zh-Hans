@@ -5,7 +5,10 @@ title: 管理虚拟报表包
 topic: Reports and analytics
 uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +21,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/vrs-manage.png)
 
->[!NOTE]在虚拟报表包管理器中，您只能看到自己的虚拟报表包。您需要单击&#x200B;**[!UICONTROL 显示所有]**&#x200B;才能看到其他所有人的虚拟报表包。
+>[!NOTE]
+>
+>在虚拟报表包管理器中，您只能看到自己的虚拟报表包。您需要单击&#x200B;**[!UICONTROL 显示所有]**&#x200B;才能看到其他所有人的虚拟报表包。
 
 | 任务 | 描述 |
 |--- |--- |
