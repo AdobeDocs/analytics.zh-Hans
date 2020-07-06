@@ -2,8 +2,11 @@
 description: 本文档将介绍您需要在 Adobe Analytics 中执行什么操作来支持数据主体的 CCPA 访问和删除权限。
 title: Adobe Analytics 和 CCPA
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '641'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,9 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ## Adobe 概述
 
->[!IMPORTANT] 本文档的内容不是法律建议，也不会代替法律建议。请咨询贵公司的法律部门，以获取有关 CCPA 的建议。
+>[!IMPORTANT]
+>
+>本文档的内容不是法律建议，也不会代替法律建议。请咨询贵公司的法律部门，以获取有关 CCPA 的建议。
 
 《加州消费者隐私法案》(CCPA) 将于 2020 年 1 月 1 日正式生效。有关 Adobe 对此作何回应以及它对 Adobe 客户有何影响的更多信息，请参阅 [Adobe 的隐私中心](https://www.adobe.com/cn/privacy.html)。
 
