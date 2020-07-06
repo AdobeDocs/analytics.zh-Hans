@@ -1,15 +1,20 @@
 ---
 title: addProductEvent
 description: 将自定义事件添加到产品变量和事件变量。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 100%
 
 ---
 
 
 # Adobe 插件：addProductEvent
 
->[!IMPORTANT] 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
+>[!IMPORTANT]
+>
+> 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
 `addProductEvent` 插件会向 [`products`](../page-vars/products.md) 变量添加数值或货币事件。如果您希望向 `products` 变量添加数值或货币事件而无需担心产品字符串格式，Adobe 建议使用此插件。如果不在 `products` 变量中使用数值或货币事件，则无需使用此插件。
 
@@ -124,7 +129,9 @@ s.addProductEvent("event35", "15", 1);
 
 上述代码还会将 `s.events` 变量设置为 `"purchase,event2,event33,event34,event35"`。
 
->[!NOTE] 调用中的第二个参数可以是整数&#x200B;**或者**&#x200B;表示整数/数字的字符串
+>[!NOTE]
+>
+>调用中的第二个参数可以是整数&#x200B;**或者**&#x200B;表示整数/数字的字符串
 
 ### 示例 5
 
