@@ -1,8 +1,11 @@
 ---
 title: 集成模块
 description: 借助集成模块，Adobe 合作伙伴可以将其数据收集工作与您的组织集成在一起。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '878'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 借助集成模块，Adobe 合作伙伴可以将其数据收集工作与您的组织集成在一起。这种集成为双向数据连接提供了机会。通常情况下，集成模块的使用是由 Adobe 合作伙伴来驱动的。
 
->[!NOTE]在实施中请求合作伙伴数据可能会增加页面加载和发送到 Adobe 数据收集服务器的数据之间的延迟。如果访客在发送数据之前加载了新页面，则不会记录该页面。
+>[!NOTE]
+>
+>在实施中请求合作伙伴数据可能会增加页面加载和发送到 Adobe 数据收集服务器的数据之间的延迟。如果访客在发送数据之前加载了新页面，则不会记录该页面。
 
 ## 集成模块工作流程
 
