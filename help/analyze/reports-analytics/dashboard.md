@@ -4,8 +4,11 @@ subtopic: Dashboards
 title: 功能板和缩图报表
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1819'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +34,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * 实时报表
 * 其他功能板
 
->[!NOTE] **[!UICONTROL 网站概述]**&#x200B;功能板不再列于 Reports &amp; Analytics 中。但是，在某几种情况下，您仍然可以查看它的部分或全部缩图报表。
+>[!NOTE]
+>
+> **[!UICONTROL 网站概述]**&#x200B;功能板不再列于 Reports &amp; Analytics 中。但是，在某几种情况下，您仍然可以查看它的部分或全部缩图报表。
 
 * 假如您只有三个频繁查看的报表，则 Reports &amp; Analytics 将从“网站概述”功能板中选取两个报表来填充&#x200B;**[!UICONTROL 我的推荐报表]**&#x200B;功能板。
 * 全新报表包最初也仍然会包含“网站概述”缩图报表，直到它们被您频繁查看的报表替换为止。即便如此，功能板现在还是被称为&#x200B;**[!UICONTROL 我的推荐报表]**。
@@ -143,6 +148,7 @@ t_dashboard_content.xml
       您可以选择一个量度、图表类型、颜色范围和阈值。如果量度计数在大于阈值之上，量规将在缩图报表中使用大于字段上方的颜色指示此信息。如果量度计数在小于阈值之下，量规将在缩图报表中使用小于字段上方的颜色指示此信息。在这些字段中指定的值是量度的可计算值，如页面查看次数、金额、购物车查看次数等。（不要使用特殊字符。）
    * 报表包概要：显示选定的量度和报表包的总值、高值和低值。
    * 使用概述：显示您组织内的人员访问界面的数据。该缩图报表可以按用户名访问、报表访问或报表包访问显示数据。您可以通过提供 URL 来创建如下用户内容缩图报表。如果图像或其他资源 URL 不是以 https:// 开始，Internet Explorer 用户可能看到混合内容警告。您可以在浏览器的安全设置中禁用混合内容警告。
+
    *用户内容：*
 
    * 外部报表：允许添加 .xml 和 .csv 格式的外部报表。
@@ -150,6 +156,7 @@ t_dashboard_content.xml
    * 图像：从图像 URL 创建功能板。如果 URL 采用 HTTP 协议，Internet Explorer 将发出混合内容警告。使用带 HTTPS 的 URL 将移除警告。所有其他协议将发出 `Specified URL could not be retrieved` 错误。
    * RSS：允许添加 RSS Web 源。必须为 HTTP 或 HTTPS。否则，您会看到 `Specified URL could not be retrieved` 错误。
    * 文本：可让您使用 XHTML 代码创建自己的数据。对 URL 使用 HTTP 或 HTTPS。文本缩图报表内容中使用的图像如果是采用 HTTP 协议，将导致 IE 用户收到混合内容警告。使用其他协议的图像不显示在缩图报表中。
+
    **我的功能板**
 
    列出升级功能板，可将其中的内容移动到新功能板。
