@@ -3,7 +3,7 @@ description: 直方图是 Analysis Workspace 中一种新的可视化类型。
 title: 直方图
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 97%
@@ -25,7 +25,9 @@ ht-degree: 97%
 
 ![](assets/histogram.png)
 
->[!NOTE] 直方图仅支持标准量度，而不支持计算量度。
+>[!NOTE]
+>
+> 直方图仅支持标准量度，而不支持计算量度。
 
 这里我们使用的是对应每个独特访客的页面查看次数量度。第一个（左）存储段对应每个独特访客 1 次页面查看，第二个存储段对应 2 次页面查看，依次类推。
 
