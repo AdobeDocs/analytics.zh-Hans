@@ -4,7 +4,10 @@ title: 可选时间戳
 topic: Admin tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '319'
+ht-degree: 95%
 
 ---
 
@@ -19,9 +22,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * 将加盖时间戳的数据从移动设备应用程序发送至全局报表包。
 * 升级应用程序以使用离线跟踪功能，而不必创建新的报表包。
 
->[!IMPORTANT] 如果使用“可选时间戳”，则不要对已设 [置时间戳的数据设置s.visitorID](/help/implement/vars/config-vars/visitorid.md) 。 这可能会导致数据混乱，并且会对时间计算操作（例如，逗留时间值）、属性（eVar 持久性）、访问量/访问计数以及路径报表产生负面影响。
+>[!IMPORTANT]
+>
+>If you use Timestamps Optional, do not set [s.visitorID](/help/implement/vars/config-vars/visitorid.md) on data that is already timestamped. 这可能会导致数据混乱，并且会对时间计算操作（例如，逗留时间值）、属性（eVar 持久性）、访问量/访问计数以及路径报表产生负面影响。
 
->[!NOTE] 启用了时间戳的会话数据会保存长达 92 天。这意味着访问/会话将“保持打开”92 天，而任何离上次点击未满 30 分钟（点击时间）的额外点击仍可能包含在同一访问/会话中。意外收到的任何“旧”点击将产生“未知”结果，因为有许多因素（分段、分配、过期设置等）都会影响是否要将这些点击包含在报表中。
+>[!NOTE]
+>
+> 启用了时间戳的会话数据会保存长达 92 天。这意味着访问/会话将“保持打开”92 天，而任何离上次点击未满 30 分钟（点击时间）的额外点击仍可能包含在同一访问/会话中。意外收到的任何“旧”点击将产生“未知”结果，因为有许多因素（分段、分配、过期设置等）都会影响是否要将这些点击包含在报表中。
 
 ## 新建报表包 {#section_095A7CFBD280494593B9BEC1592B73A6}
 
@@ -41,5 +48,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    这会将您的报表包更改为“可选时间戳”。
 
->[!NOTE] 如果已将报表包设置为&#x200B;**可选时间戳**，则要将其更改为其他任何设置，请联系 Adobe 客户关怀团队。
+>[!NOTE]
+>
+> 如果已将报表包设置为&#x200B;**可选时间戳**，则要将其更改为其他任何设置，请联系 Adobe 客户关怀团队。
 
