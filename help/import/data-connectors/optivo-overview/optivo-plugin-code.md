@@ -3,7 +3,10 @@ description: 如果您选择了 JavaScript 插件数据收集方法，请复制�
 title: Adobe Analytics 插件代码
 uuid: e99999be-1800-4d63-a4cb-df68a1b53d0d
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 100%
 
 ---
 
@@ -50,5 +53,7 @@ s.eVar11="Post Click Product ID"; // e.g. "shoes"
 s.eVar12="Post Click Type of Action"; // e.g. "purchase"; 
 ```
 
->[!NOTE] 上述插件假定某些自定义商务变量 (eVar) 可用。如果上述插件中指定的变量在 Adobe Analytics 部署中不可用，只需将它们替换为可用的变量即可。
+>[!NOTE]
+>
+> 上述插件假定某些自定义商务变量 (eVar) 可用。如果上述插件中指定的变量在 Adobe Analytics 部署中不可用，只需将它们替换为可用的变量即可。
 
