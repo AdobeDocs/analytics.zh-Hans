@@ -2,7 +2,10 @@
 title: Adobe Analytics 中的会话疑难解答
 description: 了解如何解决与注销 Adobe Analytics 相关的问题。
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +28,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 要解决此问题，Adobe 建议与贵组织的 IT 团队合作，以允许授权标头通过贵组织的代理。
 
->[!NOTE] 尽管 Analytics 社区成员发现以下链接很有帮助，但这些链接并不归 Adobe 所有。查看其内容时，请注意这一点。
+>[!NOTE]
+>
+> 尽管 Analytics 社区成员发现以下链接很有帮助，但这些链接并不归 Adobe 所有。查看其内容时，请注意这一点。
 
 有关 Symantec 代理和身份验证标头的信息，请访问：
 
