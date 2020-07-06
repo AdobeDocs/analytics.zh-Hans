@@ -4,7 +4,10 @@ title: 导入加入书签的报表和功能板缩图报表
 topic: Report builder
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 100%
 
 ---
 
@@ -19,11 +22,15 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/import_dashboard_reportlet.png)
 
-单击或时， **[!UICONTROL Retrieve your Dashboards]** 将检 **[!UICONTROL Retrieve your Bookmarks]**&#x200B;索您的现有仪表板和／或书签数据并将其粘贴到工作表中。
+单击&#x200B;**[!UICONTROL 检索功能板]**&#x200B;或&#x200B;**[!UICONTROL 检索书签]**&#x200B;时，系统将检索现有功能板和/或书签数据并将其粘贴至工作表中。
 
->[!NOTE] 在 Report Builder 中，用户可用的功能板和书签列表是有限的，此外，应用于您在向导的第 1 步中选择的报表包的功能板和书签列表也是有限的。与此相反，在市场营销 Reports &amp; Analytics 中，您可以访问所有可用的书签和功能板，无论这些功能板和书签使用哪些报表包。
+>[!NOTE]
+>
+> 在 Report Builder 中，用户可用的功能板和书签列表是有限的，此外，应用于您在向导的第 1 步中选择的报表包的功能板和书签列表也是有限的。与此相反，在市场营销 Reports &amp; Analytics 中，您可以访问所有可用的书签和功能板，无论这些功能板和书签使用哪些报表包。
 
->[!NOTE] 只导入数据，因此，如果书签包含图表，或者如果功能板缩图报表仅由图表组成，则只会导入用于填充图表的数据。
+>[!NOTE]
+>
+> 只导入数据，因此，如果书签包含图表，或者如果功能板缩图报表仅由图表组成，则只会导入用于填充图表的数据。
 
 通过导入功能板缩图报表（或书签）创建请求后，该请求将会关联到缩图报表（或书签）的主要维度。因此，如果您编辑请求，树视图将不再选择功能板缩图报表树视图节点（或书签节点）：而是会选择其主要维度。
 
