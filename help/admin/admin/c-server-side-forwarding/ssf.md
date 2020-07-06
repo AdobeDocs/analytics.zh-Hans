@@ -3,8 +3,11 @@ description: 服务器端转发专为希望将 Analytics 中的数据实时共�
 solution: Audience Manager
 title: 服务器端转发概述
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '850'
+ht-degree: 100%
 
 ---
 
@@ -66,5 +69,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 * **禁用**：表示您没有开启新的服务器端转发。请阅读本页面上的内容，然后继续启用该功能。
 * **启用**：表示您已设置了新的服务器端转发。您还能够设置此 Audience Analytics 集成。
 
->[!NOTE] 在全部完成这 3 个步骤之后，数据才会显示在其他 Experience Cloud 解决方案中，例如 [Audience Manager](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/aam-home.html) 或 [Audiences](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/audiences/audience-library.html)。这些设置在启用后需要几个小时才会生效。
+>[!NOTE]
+>
+> 在全部完成这 3 个步骤之后，数据才会显示在其他 Experience Cloud 解决方案中，例如 [Audience Manager](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/aam-home.html) 或 [Audiences](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/audiences/audience-library.html)。这些设置在启用后需要几个小时才会生效。
 
