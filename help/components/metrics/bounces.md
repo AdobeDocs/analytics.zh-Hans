@@ -2,7 +2,7 @@
 title: 退回
 description: 一次点击的访问次数。
 translation-type: tm+mt
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 1%
@@ -18,4 +18,6 @@ ht-degree: 1%
 
 如果访问只包含一次点击，则点击被视为退回。
 
->[!NOTE] 如果访客同时触发页面视图和链接跟踪调用，则该访问不被视为退回。 请考虑改 [用单页访问](single-page-visits.md) 。
+>[!NOTE]
+>
+>如果访客同时触发页面视图和链接跟踪调用，则该访问不被视为退回。 请考虑改 [用单页访问](single-page-visits.md) 。
