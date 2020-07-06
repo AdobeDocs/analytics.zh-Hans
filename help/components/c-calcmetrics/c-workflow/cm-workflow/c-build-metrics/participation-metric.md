@@ -3,7 +3,10 @@ description: 借助计算量度生成器，任何人都可以创建参与量度�
 title: 参与量度
 uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 以下是一个简单的使用案例：假设您是一位内容所有者，您希望了解有哪些页面促成了（参与了）包含订购的访问。以下是具体操作方法：
 
->[!NOTE] 您以前必须通过“管理工具”来执行此操作。您仍然可以在“管理工具”中启用参与量度，但是仅限于自定义事件 1 - 100。
+>[!NOTE]
+>
+> 您以前必须通过“管理工具”来执行此操作。您仍然可以在“管理工具”中启用参与量度，但是仅限于自定义事件 1 - 100。
 
 以下是一个简单的使用案例：假设您是一位内容的所有者，您希望了解一下有哪些页面促成了（参与了）包含电子邮件注册的访问。以下是具体操作方法：
 
