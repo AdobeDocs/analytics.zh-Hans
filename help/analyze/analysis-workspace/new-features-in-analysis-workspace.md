@@ -3,7 +3,7 @@ description: Analysis Workspace 的新增功能
 keywords: Analysis Workspace
 title: Analysis Workspace 中的新增功能
 translation-type: tm+mt
-source-git-commit: 44112013e049e6e76554530ba438c71fee902841
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '7261'
 ht-degree: 99%
@@ -27,7 +27,7 @@ ht-degree: 99%
 
 | 功能 | 描述 |
 |--- |--- |
-| 支持 Workspace 中的多个报表包 | 您现在可以将多个报表包中的数据并入一个项目，以便并排查看。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
+| 支持工作区中的多个报表包 | 您现在可以将多个报表包中的数据并入一个项目，以便并排查看。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
 | 培训教程模板 | 这个新的标准模板可指导您逐步了解在工作区中构建首个分析的常用术语和步骤。该模板可用作新建项目模式中的标准模板，并替换当前存在的示例项目，供列表中没有其他项目的新用户使用。[了解更多...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## 2020 年 2 月
@@ -36,10 +36,10 @@ ht-degree: 99%
 
 | 功能 | 描述 |
 |--- |--- |
-| 适用于使用跨设备分析的组织的新 Workspace 模板 | 此模板显示 CDA 在拼合访问次数方面的有效性，并且还指导您了解 CDA 独有的维度和量度知识。需要使用 CDA 的报表包。有关更多信息，请参阅[设置跨设备分析](https://docs.adobe.com/content/help/zh-Hans/analytics/components/cda/cda-setup.html)。 |
-| Workspace 中的新热键 | <ul><li>折叠/展开所有面板：`alt + m`</li><li>折叠/展开活动面板：`alt + ctrl + m`</li><li>搜索左边栏：`ctrl + /`</li><li>移到下一个面板：`alt + Right Key`</li><li>移到上一个面板：`alt + Left Key`</li></ul>[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
-| 其他 Workspace 增强功能 | <ul><li>将面板或可视化图表放入 Workspace 后，左边栏会自动切换到组件，以实现更加无缝的工作流程。</li><li>现在可以对模板组件进行操作（例如，标记、标记为收藏、已批准）。</li><li>过滤的量度和区段列表提供了 + 按钮，可在找不到所需内容时添加新组件。</li></ul> |
-| Workspace 调试器 | Workspace 调试器已添加到“帮助”菜单，可让您根据调试 Workspace 请求更加无缝地启用调试器。[了解更多...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
+| 适用于使用跨设备分析的组织的新工作区模板 | 此模板显示 CDA 在拼合访问次数方面的有效性，并且还指导您了解 CDA 独有的维度和量度知识。需要使用 CDA 的报表包。有关更多信息，请参阅[设置跨设备分析](https://docs.adobe.com/content/help/zh-Hans/analytics/components/cda/cda-setup.html)。 |
+| 工作区中的新热键 | <ul><li>折叠/展开所有面板：`alt + m`</li><li>折叠/展开活动面板：`alt + ctrl + m`</li><li>搜索左边栏：`ctrl + /`</li><li>移到下一个面板：`alt + Right Key`</li><li>移到上一个面板：`alt + Left Key`</li></ul>[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| 其他工作区增强功能 | <ul><li>将面板或可视化图表放入工作区后，左边栏会自动切换到组件，以实现更加无缝的工作流程。</li><li>现在可以对模板组件进行操作（例如，标记、标记为收藏、已批准）。</li><li>过滤的量度和区段列表提供了 + 按钮，可在找不到所需内容时添加新组件。</li></ul> |
+| 工作区调试器 | 工作区调试器已添加到“帮助”菜单，可让您根据调试工作区请求更加无缝地启用调试器。[了解更多...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
 ## 2020 年 1 月
 
@@ -454,7 +454,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p>对列大小调整功能做出了改进 </p> </td> 
-   <td colname="col2"> <p>在调整最左侧列的大小时，Workspace 现在会保持其余列的宽度百分比（而不只是调整右侧的下一列宽度）。这种改变有助于更加快速地创建表格以进行分析和共享。 </p> </td> 
+   <td colname="col2"> <p>在调整最左侧列的大小时，工作区现在会保持其余列的宽度百分比（而不只是调整右侧的下一列宽度）。这种改变有助于更加快速地创建表格以进行分析和共享。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>可在表格中显示 <a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  >400 行</a>内容 </p> </td> 
@@ -1058,7 +1058,9 @@ ht-degree: 99%
 
 ![](assets/link-to-this-project.png)
 
->[!NOTE] 如果您的公司使用单点登录（旧版单点登录和通过 Experience Cloud 登录），则共享报表链接不可用。
+>[!NOTE]
+>
+> 如果您的公司使用单点登录（旧版单点登录和通过 Experience Cloud 登录），则共享报表链接不可用。
 
 ## 项目符号图表、散点图和树图可视化图表 {#section_B19EA50EBF5546E99D3A142827153FD6}
 
@@ -1078,7 +1080,9 @@ ht-degree: 99%
 
 显示所提供的展示次数以及有多少名独特用户已看到了这些展示。每个数据点的大小以可视化方式提示查看者见到某广告的平均次数。大小和数据依据您选择的维度、日期范围和过滤器而变化。
 
->[!NOTE] 与散点图图表关联的表需要至少两列。第一列定义 X 轴，第二列定义 Y 轴。如果存在第三列，那么散点图图表可使用它来决定点的半径。换言之，列 *1*、*2* 和 *3* 映射到 *X*、*Y* 和&#x200B;*点半径*。
+>[!NOTE]
+>
+> 与散点图图表关联的表需要至少两列。第一列定义 X 轴，第二列定义 Y 轴。如果存在第三列，那么散点图图表可使用它来决定点的半径。换言之，列 *1*、*2* 和 *3* 映射到 *X*、*Y* 和&#x200B;*点半径*。
 
 **树图**
 
