@@ -2,7 +2,7 @@
 title: registerPostTrackCallback
 description: 在向 Adobe 发送点击后创建回调函数。
 translation-type: tm+mt
-source-git-commit: 0d7e7dcb2cc382d83e267e51b1abeff38da270d3
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 95%
@@ -14,11 +14,15 @@ ht-degree: 95%
 
 `registerPostTrackCallback` 变量允许贵组织在成功将点击发送到 Adobe 后立即挂接 JavaScript 函数。如果跟踪调用失败，则此函数不会运行。您可以使用此变量将 AppMeasurement 收集的数据发送到合作伙伴或内部基础结构，或者清除单页应用程序中的变量值。
 
->[!IMPORTANT] 在 `registerPostTrackCallback` 变量内请勿调用任何跟踪函数，如 [`t()`](t-method.md) 或 [`tl()`](tl-method.md)。此变量中的跟踪函数可能会导致图像请求无限循环！
+>[!IMPORTANT]
+>
+> 在 [`t()`](t-method.md) 变量内请勿调用任何跟踪函数，如 [`tl()`](tl-method.md) 或 `registerPostTrackCallback`。此变量中的跟踪函数可能会导致图像请求无限循环！
 
 每次调用 `registerPostTrackCallback` 变量时，您都会挂接该函数以使其在成功发送图像请求后立即运行。避免在同一页面加载过程中多次注册同一函数。
 
->[!NOTE] [`registerPreTrackCallback`](registerpretrackcallback.md) 和 `registerPostTrackCallback` 之间触发函数的时间和顺序无法得到保证。避免这两个函数之间存在依赖关系。
+>[!NOTE]
+>
+> [`registerPreTrackCallback`](registerpretrackcallback.md) 和 `registerPostTrackCallback` 之间触发函数的时间和顺序无法得到保证。避免这两个函数之间存在依赖关系。
 
 ## 在 Adobe Experience Platform Launch 中注册后跟踪回调
 
