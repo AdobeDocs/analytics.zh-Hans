@@ -2,8 +2,11 @@
 description: 'null'
 title: Analytics 变量的数据隐私标签
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '3641'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,9 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 
 ## DULE 标签 {#section_B2E78130957647338495EF37DE21D6BC}
 
->[!NOTE] 数据使用标签和执行 (DULE) 框架旨在提供一个跨所有 Adobe 解决方案/服务/平台的统一方式，以便在整个 Adobe Experience Cloud 中捕获、传输和使用有关数据的元数据。元数据可帮助数据控制者指明哪些数据是个人信息，哪些数据是敏感数据，以及哪些合同限制与数据相关。在这个初始版本中，Analytics 只支持与数据隐私相关的 DULE 标签。随着 Adobe 的其他产品开始实施对 DULE 标签的支持，未来版本将会引入更多的敏感数据标签以及合同标签，这有助于确保产品之间共享的数据只在法律允许的范围内使用。
+>[!NOTE]
+>
+>数据使用标签和执行 (DULE) 框架旨在提供一个跨所有解决方案/服务/平台的统一方式，以便在整个 Adobe Experience Cloud 中捕获、传输和使用有关数据的元数据。元数据可帮助数据控制者指明哪些数据是个人信息，哪些数据是敏感数据，以及哪些合同限制与数据相关。在这个初始版本中，Analytics 只支持与数据隐私相关的 DULE 标签。随着 Adobe 的其他产品开始实施对 DULE 标签的支持，未来版本将会引入更多的敏感数据标签以及合同标签，这有助于确保产品之间共享的数据只在法律允许的范围内使用。
 
 ## 身份数据标签 (DULE) {#identity-data-labels}
 
@@ -208,8 +213,8 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 
 如果您已经为登录公司的任何报表包中的其他变量分配了一个 ID 标签，则可以选择其中一个现有的命名空间。如果此变量包含的 ID 类型与之前已使用此命名空间设置标签的其他变量包含的 ID 类型相同，并且您希望在提交请求时搜索所有这些变量，则应重复使用该命名空间。
 
-1. 单击 **[!UICONTROL Select Namespace]**，然后选择其中一个现有的命名空间。
-1. 单击 **[!UICONTROL Apply]**.
+1. 单击&#x200B;**[!UICONTROL 选择命名空间]**，然后选择其中一个现有的命名空间。
+1. 单击&#x200B;**[!UICONTROL 应用]**。
 
 ![](assets/namespace.png)
 
@@ -217,12 +222,12 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 
 您也可以定义一个新的命名空间。我们建议将命名空间字符串限制为字母数字字符，以及下划线、短划线和空格。这些字符串将全部转换为小写字母。
 
-1. 单击 **[!UICONTROL Select Namespace]**，然后键入命名空间标题。
+1. 单击&#x200B;**[!UICONTROL 选择命名空间]**&#x200B;并键入命名空间标题。
 
    ![](assets/namespace2.png)
 
 1. 按 **[!UICONTROL Enter]** 以添加此命名空间。只有现在才可以激活“应用”按钮。
-1. 单击 **[!UICONTROL Apply]**.
+1. 单击&#x200B;**[!UICONTROL 应用]**。
 
 指定为命名空间的字符串与您在通过数据隐私 API 提交请求时，作为“namespace”参数的值使用的字符串相同。随后，该请求将促使 Adobe Analytics 搜索报表包中的所有变量，这些变量与该请求指定的 ID 共享此命名空间。
 
@@ -240,7 +245,9 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 
 列举另一个示例，您可能拥有一个 CRM ID，并且有时会通过 eVar1 发送，有时通过 prop7 发送。然后您使用一个处理规则，将 eVar1 的值（如果存在）复制到 eVar3 中。否则，它会将 prop7 的值复制到 eVar3。在这种情况下，如果 CRM ID是已知的，eVar3 将始终包含该 CRM ID，因此只有 eVar3 需要 ID-PERSON 标签。
 
->[!CAUTION]命名空间“visitorId”和“customVisitorId”是保留名称，用于识别 Analytics 旧版跟踪 Cookie 和 Analytics 客户的访客 ID。请勿将这些命名空间用于自定义流量或转换变量。
+>[!CAUTION]
+>
+>命名空间“visitorId”和“customVisitorId”是保留名称，用于识别 Analytics 旧版跟踪 Cookie 和 Analytics 客户的访客 ID。请勿将这些命名空间用于自定义流量或转换变量。
 
 ## 变量类型及其支持的数据隐私/DULE 标签{#section_CE7C3EDE1344466A98BC45E394B40762}
 
@@ -400,7 +407,7 @@ Adobe Analytics 对数据隐私删除请求的支持旨在最大限度地减少�
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 变量 </th> 
-   <th colname="col2" class="entry"> 注释 </th> 
+   <th colname="col2" class="entry"> 评论 </th> 
   </tr>
  </thead>
  <tbody> 
