@@ -4,7 +4,10 @@ title: 自定义报表描述
 topic: Admin tools
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL *变量&#x200B;*]**
 
->[!NOTE] 大多数传统分类都能添加描述，但目前移动设备分类无法添加描述。
+>[!NOTE]
+>
+> 大多数传统分类都能添加描述，但目前移动设备分类无法添加描述。
 
 ![](assets/report_descriptions.png)
 
