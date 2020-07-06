@@ -2,7 +2,7 @@
 title: 设置广告帐户
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: 0345a71bd2dd99410658cc858fe05ee2751d0013
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 81%
@@ -91,5 +91,7 @@ Adobe Analytics 管理员可以创建新的广告帐户，并将多个帐户映�
 
    现在，您会进入广告帐户[管理 UI](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)，您新创建的帐户应已列于此处。
 
->[!NOTE] 您可能需要至少等待 24 小时，搜索引擎数据才会开始填充到您的 Analytics 报表中。
+>[!NOTE]
+>
+> 您可能需要至少等待 24 小时，搜索引擎数据才会开始填充到您的 Analytics 报表中。
 
