@@ -1,8 +1,11 @@
 ---
 title: H 代码实施疑难解答
 description: 了解旧版 JavaScript 实施存在的一些常见问题。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '244'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## 在 Head 标记中置入 Analytics 代码
 
->[!NOTE] 虽然 H 代码实施要求在 `<body>` 标记中引用代码，但其他实施（如使用 Adobe Experience Platform Launch 的实施）要求在 `<head>` 标记中引用代码。
+>[!NOTE]
+>
+> 虽然 H 代码实施要求在 `<body>` 标记中引用代码，但其他实施（如使用 Adobe Experience Platform Launch 的实施）要求在 `<head>` 标记中引用代码。
 
 Analytics 代码可创建不可见的 1x1 像素图像。过去，一种常用的实施做法是将 `s_code.js` 引用放置到 `<head>` 标记中。将代码放置到此处可防止图像以任何方式影响页面布局。此外，Analytics 代码还可以更快执行，从而允许您更有效地计算部分页面加载的页面查看次数。
 
@@ -21,4 +26,6 @@ Analytics 代码可创建不可见的 1x1 像素图像。过去，一种常用�
 
 对于格式正确的 HTML 页面，Analytics 代码可置于 `<body>` 标记中的任何位置。Adobe 建议尽量靠近 `<body>` 标记的顶部放置 Analytics 代码。确保在 `s_code.js` 文件加载后再设置任何页面变量。
 
->[!TIP] 如果您要将 Adobe Analytics 与 Adobe Target 集成，则 JavaScript 包含文件必须置于页面底部。
+>[!TIP]
+>
+> 如果您要将 Adobe Analytics 与 Adobe Target 集成，则 JavaScript 包含文件必须置于页面底部。
