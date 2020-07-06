@@ -3,8 +3,11 @@ description: 通过使用流量源报表，可以深入分析访客与您的网�
 title: 流量源报表
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1159'
+ht-degree: 100%
 
 ---
 
@@ -96,7 +99,9 @@ c_reports_referrers.xml
 
 有关详细信息，请参阅 [!DNL Admin Console] 帮助中的[内部 URL 过滤器](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/internal-url-filter-admin.html)。
 
->[!NOTE]当访客点击电子邮件中含有 [!DNL imap://] 或 [!DNL mail://] 协议的链接而进入您的网站时，Marketing Reports and Analytics 会将反向链接域记录为电子邮件。例如，由于协议为 [!DNL https://]，因此来自 [!DNL https://mail.yahoo.com] 的任何消息均不会计为电子邮件反向链接。Outlook 电子邮件会报告于“键入/书签式”行上，而任何采用 HTTP 协议（域为已知搜索引擎）的反向链接均报告于“搜索引擎”行上。
+>[!NOTE]
+>
+>当访客点击电子邮件中含有 [!DNL imap://] 或 [!DNL mail://] 协议的链接而进入您的网站时，Marketing Reports and Analytics 会将反向链接域记录为电子邮件。例如，由于协议为 [!DNL https://]，因此来自 [!DNL https://mail.yahoo.com] 的任何消息均不会计为电子邮件反向链接。Outlook 电子邮件会报告于“键入/书签式”行上，而任何采用 HTTP 协议（域为已知搜索引擎）的反向链接均报告于“搜索引擎”行上。
 
 ## 反向链接类型 {#concept_689E42D8F96C450DA41C7167C7388198}
 
@@ -129,5 +134,7 @@ c_reports_ref_types.xml
 
 **USENET（新闻组）**：这表示反向链接的 URL 以 `news://` 开头。因此，反向链接是被发布在 USENET 新闻组中，而不是网页上。
 
->[!NOTE]“反向链接类型”在逻辑上与其他流量源报表（例如[!UICONTROL 反向链接]和[!UICONTROL 反向链接域]）匹配。这会减少[!UICONTROL 反向链接类型]报表中出现“网站内部”和“无 JavaScript”行项目的次数，或者使其不再出现。
+>[!NOTE]
+>
+>“反向链接类型”在逻辑上与其他流量源报表（例如[!UICONTROL 反向链接]和[!UICONTROL 反向链接域]）匹配。这会减少[!UICONTROL 反向链接类型]报表中出现“网站内部”和“无 JavaScript”行项目的次数，或者使其不再出现。
 
