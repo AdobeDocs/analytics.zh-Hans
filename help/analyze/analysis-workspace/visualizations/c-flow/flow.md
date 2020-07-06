@@ -2,8 +2,11 @@
 description: 'null'
 title: 流量概述
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +21,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * 分析客户在指定检查点（例如登入、特定维度或退出）之前和之后的去向
 * 通过在选定路径中指定一个特定点来创建区段
 
->[!NOTE] 在 Analysis Workspace 中和 Reports &amp; Analytics/Ad Hoc Analysis 中对流量应用区段所获得的结果可能有所不同，要了解相关信息，请参阅[区段划分：流量和流失的一项基本功能](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)。
+>[!NOTE]
+>
+> 在 Analysis Workspace 中和 Reports &amp; Analytics/Ad Hoc Analysis 中对流量应用区段所获得的结果可能有所不同，要了解相关信息，请参阅[区段划分：流量和流失的一项基本功能](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)。
 
 [YouTube 上的流量可视化图表 ](https://www.youtube.com/watch?v=3R1HTM7y_RM&amp;index=55&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:56)
 
@@ -30,4 +35,4 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## 将流量图导出为项目 .CSV 文件的一部分 {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
-流量图可以作为您能够创建的项目 .CSV 文件的一部分，方法是转到 **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**。这可以让您分析 Microsoft Excel（以表格形式显示）或其他软件中的流量结果。
+流量图可以作为您能够创建的项目 .CSV 文件的一部分，方法是转到&#x200B;**[!UICONTROL 项目]** > **[!UICONTROL 下载 CSV]**。这可以让您分析 Microsoft Excel（以表格形式显示）或其他软件中的流量结果。
