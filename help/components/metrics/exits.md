@@ -2,7 +2,7 @@
 title: 退出
 description: 访问中最后一个值的实例。
 translation-type: tm+mt
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 1%
@@ -20,4 +20,6 @@ ht-degree: 1%
 
 访问结 [束](visits.md) 后，将最近的维值记录为退出。 每次访问每个维度只存在一个退出。 如果维度在以前的点击中设置，则它不一定是访问的最后一次点击。 它是一个基于访问的指标； 它逆向应用于访问中的所有点击。
 
->[!TIP] 如果您针对并非每次访问都设置的维视图此度量，则可以在分析工作区中隐藏“未指定”维值。 单击筛选器图标，然后取消选 [!UICONTROL 中“包括未指定（无）]”。
+>[!TIP]
+>
+>如果您针对并非每次访问都设置的维视图此度量，则可以在Analysis Workspace中隐藏“未指定”维值。 单击筛选器图标，然后取消选 [!UICONTROL 中“包括未指定（无）]”。
