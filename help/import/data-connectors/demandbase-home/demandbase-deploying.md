@@ -3,7 +3,10 @@ description: 部署此集成的流程非常简单，只需执行以下操作。
 title: 部署集成
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1310'
+ht-degree: 100%
 
 ---
 
@@ -71,7 +74,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 完成集成向导后，必须将集成代码部署到 Adobe Analytics 部署代码 (s_code)。
 
->[!NOTE] 如果您使用 Adobe TagManager 或 Dynamic Tag Management 来部署 Adobe Analytics，则可以使用任意一种工具轻松添加集成代码。
+>[!NOTE]
+>
+> 如果您使用 Adobe TagManager 或 Dynamic Tag Management 来部署 Adobe Analytics，则可以使用任意一种工具轻松添加集成代码。
 
 1. 转到&#x200B;**[!UICONTROL 支持]**&#x200B;选项卡，并从集成的“资源”区域下载并保存 `integration code v2_0_1` 资源。
 
@@ -199,7 +204,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 或者，您也可以导航到 Adobe Analytics 菜单结构中的 Demandbase 报表 - 请参阅以下屏幕快照。
 
->[!NOTE] 此数据应会在成功部署后的 24-48 小时内显示。
+>[!NOTE]
+>
+>此数据应会在成功部署后的 24-48 小时内显示。
 
 ![](assets/reporting1.png)
 
