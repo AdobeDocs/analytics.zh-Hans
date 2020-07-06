@@ -3,7 +3,10 @@ description: 'null'
 title: 查看当前的服务器调用使用情况
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '279'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 服务器调用使用情况]** > **[!UICONTROL 当前使用情况]**
 
->[!IMPORTANT] 您所看到的任何使用情况和承诺使用数值是所有登录公司和报表包的累计数值。
+>[!IMPORTANT]
+>
+> 您所看到的任何使用情况和承诺使用数值是所有登录公司和报表包的累计数值。
 
 “当前使用情况”功能板
 
