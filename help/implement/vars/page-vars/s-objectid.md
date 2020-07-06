@@ -1,8 +1,11 @@
 ---
 title: s_objectID
 description: 帮助 Activity Map 识别您网站上的唯一链接。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '401'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +30,9 @@ Launch 中没有可使用此变量的专用字段。按照 AppMeasurement 语法
 <a href="https://example.com" onClick="s_objectID='Example identifier';">Example link</a>
 ```
 
->[!NOTE] 将始终包含用于结束 JavaScript 语句的分号。Activity Map 需要分号才能正常工作。
+>[!NOTE]
+>
+> 将始终包含用于结束 JavaScript 语句的分号。Activity Map 需要分号才能正常工作。
 
 ## 用例
 
