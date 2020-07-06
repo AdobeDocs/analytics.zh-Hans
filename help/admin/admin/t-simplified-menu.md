@@ -4,7 +4,10 @@ title: 简化的报表菜单
 topic: Admin tools
 uuid: cc7023e4-9e28-477e-9266-6d06e5379559
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/simplified-menu.png)
 
->[!NOTE] 请注意，应用此简化菜单将删除您对默认菜单结构做出的所有自定义设置。它还会对组织中的所有市场 Marketing Reports &amp; Analytics 用户实施此简化菜单结构。在实施新菜单之前，请慎重考虑上述后果（例如，围绕现有菜单结构制定的培训），因为您无法还原现有菜单结构中的任何自定义设置。
+>[!NOTE]
+>
+> 请注意，应用此简化菜单将删除您对默认菜单结构做出的所有自定义设置。它还会对组织中的所有市场 Marketing Reports &amp; Analytics 用户实施此简化菜单结构。在实施新菜单之前，请慎重考虑上述后果（例如，围绕现有菜单结构制定的培训），因为您无法还原现有菜单结构中的任何自定义设置。
 
 1. 导航至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**，以打开报表包管理器。
 1. 选择您要对其实施简化菜单结构的报表包。
