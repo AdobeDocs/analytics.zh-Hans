@@ -2,19 +2,15 @@
 title: 算法属性
 description: 算法归因模型的详细信息。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 54063d26875aee57ced7825f3427c6051c4f8686
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '257'
 ht-degree: 1%
 
 ---
 
 
 # 算法属性
-
->[!NOTE]
->
->**[!UICONTROL 算法归因]** 目前处于有限测试中。 有关 [更多信息](/help/landing/an-releases.md) ，请参阅AdobeAnalytics功能版本。
 
 Analysis Workspace中 [的算法归因模型](models.md) (Algorithmic attribution model)与其他模型不同之处在于它使用统计技术在报表或自由表格的维度值之间分配信用。 与Analysis Workspace中的所有其他归因模型一样，它可用于任何维度或指标，并支持无限细分和细分，并将100%的转换分发到表中的维度（也称为“分数”归因）。
 
