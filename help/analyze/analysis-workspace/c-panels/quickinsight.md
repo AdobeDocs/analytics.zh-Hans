@@ -1,33 +1,29 @@
 ---
 description: Quick Insights是面向新Workspace用户的工具，可指导他们构建数据表和可视化
-title: “快速分析”面板
+title: 快速分析面板
 translation-type: tm+mt
-source-git-commit: fe2fc0a89f033d78f142ec338db2f160005b4a5b
+source-git-commit: 19e10ddd43d3a3317e6dadef789b3038e13fdb8f
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1048'
 ht-degree: 5%
 
 ---
 
 
-# “快速分析”面板
-
->[!IMPORTANT]
->
->**[!UICONTROL “快速分析]** ”面板当前处于有限测试中。 [了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html)
+# 快速分析面板
 
 [!UICONTROL Quick Insights] 可为 [!UICONTROL Analysis Workspace] 的非分析师和新用户了解如何快速轻松地回答业务问题提供指导。对于希望快速回答简单问题的高级用户来说，它也是一个不错的工具，无需自己构建表。
 
-首次使用此开始工 [!UICONTROL 作区时]，您可能会想知道哪些可视化最有用，哪些维度和指标可以促进洞察、在何处拖放项目、在何处创建区段等。
+当您首次使用此开始 [!UICONTROL 时]，您可能会想知道哪些可视化功能最有用，哪些维度和指标可以促进洞察，在何处拖放项目，在何处创建细分等。
 
-为了帮助您，并根据公司在 [!UICONTROL 分析工作区中对数据组件的使用], [!UICONTROL Quick Insights] 利用一种算法来向您展示公司使用的最流行维度、指标、细分和日期范围。 事实上，您将在下拉列表中看到标记为“ [!UICONTROL Popular] ”的维度、指标和细分，如下所示：
+为了帮助您，并根据公司对Analysis Workspace中数据组件 [!UICONTROL 的使用],Quick Insights  利用一种算法来向您展示公司使用的最流行维度、指标、细分和日期范围。 事实上，您将在下拉列表中看到标记为“ [!UICONTROL Popular] ”的维度、指标和细分，如下所示：
 
 ![](assets/popular-tag.png)
 
 [!UICONTROL 快速洞察] ，助您一臂之力
 
-* 在分析工作区中正确构建数据表和随附的 [!UICONTROL 可视化]。
-* 了解基本组件和分析工作区部分的术语 [!UICONTROL 和词汇]。
+* 正确构建数据表以及Analysis Workspace中随附的可 [!UICONTROL 视化]。
+* 学习基本组件和Analysis Workspace的术语和 [!UICONTROL 词汇]。
 * 在自由形式表中轻松进行维度的简单细分、添加多个指标或 [!UICONTROL 比较细分]。
 * 更改或尝试各种可视化类型，快速、直观地找到适合您的分析的查找工具。
 
@@ -46,7 +42,7 @@ ht-degree: 5%
 
 ## 快速洞察入门
 
-1. 使用您提供的凭据登录到Adobe Analytics。
+1. 使用您提供的凭据登录AdobeAnalytics。
 1. 转到Workspace  ，单击 **[!UICONTROL 创建新项目]** ，然后单击 **[!UICONTROL “快速分析]**”。 (您还可以从左边栏的“面板 **[!UICONTROL ”菜单]** 访问此面板。)
 
    ![](assets/qibuilder.png)
