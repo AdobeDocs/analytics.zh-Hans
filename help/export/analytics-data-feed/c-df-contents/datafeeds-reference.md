@@ -6,10 +6,10 @@ title: 数据列引用
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: e6bff325cdceb2048554b47944567d50d3c8133f
 workflow-type: tm+mt
-source-wordcount: '3650'
-ht-degree: 99%
+source-wordcount: '3664'
+ht-degree: 98%
 
 ---
 
@@ -267,7 +267,7 @@ ht-degree: 99%
 | `visid_low` | 与visid_high结合使用，以唯一标识访客。 | bigint，无符号 |
 | `visid_new` | 用于表示点击是否包含新生成的访客 ID 的标记。 | char(1) |
 | `visid_timestamp` | 如果访客 ID 是新生成的，则会提供用于表示访客 ID 生成时间的时间戳（基于 Unix 时间）。 | int |
-| `visid_type` | 数字 ID，表示用于标识访客的方法。<br>0：自定义访客 ID <br>1：IP 和用户代理回退 <br>2：HTTP Mobile 订阅者标头 <br>3：旧版 Cookie 值 (s_vi) <br>4：回退 Cookie 值 (s_fid) <br>5：Identity 服务 | tinyint，无符号 |
+| `visid_type` | 非外部用途； Adobe内部用于处理优化。 表示用于标识访客的方法的数字ID。<br>0: 自定义访客ID或未知／不适用<br>1: IP和用户代理回 <br>退2: HTTP移动订户标 <br>头3: 旧版cookie值(s_vi) <br>4: 回退cookie值(s_fid) <br>5: 身份服务 | tinyint，无符号 |
 | `visit_keywords` | 在“搜索关键字”维度中使用的变量。此列使用非标准字符限制来适应 Adobe 使用的后端逻辑。 | varchar(244) |
 | `visit_num` | 在“访问次数”维度中使用的变量。起始值为 1，随后每个访客每启动一次新访问，该值便会递增。 | int，无符号 |
 | `visit_page_num` | 在“点击深度”维度中使用的变量。用户每生成一次点击，该变量的值便会增加 1。每次访问后重置。 | int，无符号 |
