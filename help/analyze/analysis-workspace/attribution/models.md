@@ -2,10 +2,10 @@
 title: 归因模型和回顾时间范围
 description: 不同类型的归因如何划分维度值之间的归因。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: fdfc07702993510e53b28ccc172a48c5f079e23e
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 92%
+source-wordcount: '1483'
+ht-degree: 93%
 
 ---
 
@@ -42,10 +42,6 @@ AdobeAnalytics归因的概念需要两个组件：
 * **访客回顾窗口：**&#x200B;回顾到当前日期范围当月 1 日的所有访问。访客回顾窗口比较广泛，因为考虑范围包括多次访问。访客回顾会考虑报表日期范围月初的所有值。 例如，如果报表日期范围为 9 月 15 日到 9 月 30 日，则访客回顾日期范围将为 9 月 1 日到 9 月 30 日。
 
 * **自定义回顾窗口：** 允许您将归因窗口扩展到超出报告日期范围（最多90天）。 在报告期内的每次转换时，都会评估自定义回顾窗口。 例如，对于2月20日发生的转换，10天的回顾窗口将评估归因模型中2月10日到20日的所有维接触点。
-
->[!NOTE]
->
->**[!UICONTROL 自定义回顾窗口]** 当前处于受限测试中。 有关 [更多信息](/help/landing/an-releases.md) ，请参阅AdobeAnalytics功能版本。
 
 ## 示例
 
