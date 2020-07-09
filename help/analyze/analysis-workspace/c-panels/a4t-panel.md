@@ -2,7 +2,7 @@
 description: Analytics目标(A4T)面板让您能够分析Adobe Target活动和Analysis Workspace体验。
 title: Analytics目标(A4T)小组
 translation-type: tm+mt
-source-git-commit: f9190c15da2d94b3c9006f973fa4aef92162ff04
+source-git-commit: fe6202288cfc07575db437f7d0c055f1b40ddcf6
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 14%
@@ -26,7 +26,7 @@ ht-degree: 14%
 | 成功量度 | 从下拉菜单中选择最多3个标准（非计算）成功事件，或从左边栏中拖放度量。 每个度量在呈现的面板中都有一个专用表格和可视化。 |
 | 日历日期范围 | 这将根据活动日期范围自动填充Adobe Target。 如有必要，您可以更改它。 |
 
-![面板构建器](assets/a4t-panel-builder.png)
+![面板构建器](assets/a4t-panel-builder2.png)
 
 ## 面板输出 {#Output}
 
