@@ -2,26 +2,26 @@
 description: 有关设置功能板记分卡的说明。
 title: Adobe Analytics 功能板策划人指南
 translation-type: tm+mt
-source-git-commit: 3883abc6cc3e8e8e5511af353ad9d88186220acd
+source-git-commit: 2dfd5d78e66ba1569b285070a152c46922e37daa
 workflow-type: tm+mt
-source-wordcount: '2331'
+source-wordcount: '2307'
 ht-degree: 78%
 
 ---
 
 
 
-# Adobe Analytics仪表板策展人指南
+# AdobeAnalytics仪表板策展人指南
 
-以下信息将指导Adobe Analytics数据的策展人如何为管理用户配置和展示仪表板。 要查看演示此信息的视频，请 [参阅Adobe Analytics仪表板记分卡生成器](https://youtu.be/tnnl6hrcP94)。
+以下信息将指导AdobeAnalytics的策展人如何为管理用户配置和展示仪表板。 要观看演示此信息的视频，请参 [阅AdobeAnalytics仪表板记分卡生成器](https://youtu.be/tnnl6hrcP94)。
 
 ## 简介
 
-Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。该应用程序允许用户通过移动设备访问您从Adobe Analytics桌面UI创建和共享的直观记分卡。 记分卡是关键量度和其他组件的集合，这些组件以平铺布局显示，您可以点击它们以获取更详细的划分和趋势报表。您可以根据对您最重要的数据来定制记分卡。iOS 和 Android 操作系统均支持 Analytics 功能板。
+Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。该应用程序允许用户通过移动设备访问您通过AdobeAnalytics桌面UI创建和共享的直观记分卡。 记分卡是关键量度和其他组件的集合，这些组件以平铺布局显示，您可以点击它们以获取更详细的划分和趋势报表。您可以根据对您最重要的数据来定制记分卡。iOS 和 Android 操作系统均支持 Analytics 功能板。
 
 ## 有关本指南的更多信息
 
-本指南旨在帮助Adobe Analytics数据的策展人在仪表板上为其执行用户配置记分卡。 策划人可以是组织管理员，也可以是其他角色中负责设置应用程序记分卡的人员，该应用程序使执行用户能够在自己的移动设备上快速、轻松地查看广泛呈现的重要摘要数据。尽管执行用户是 Analytics 功能板的最终用户，但是本指南将帮助数据策划人为这些用户有效地设置应用程序。
+本指南旨在帮助AdobeAnalytics数据的策展人在仪表板上为其管理用户配置记分卡。 策划人可以是组织管理员，也可以是其他角色中负责设置应用程序记分卡的人员，该应用程序使执行用户能够在自己的移动设备上快速、轻松地查看广泛呈现的重要摘要数据。尽管执行用户是 Analytics 功能板的最终用户，但是本指南将帮助数据策划人为这些用户有效地设置应用程序。
 
 ## 术语表
 
@@ -110,7 +110,7 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
    添加到拼贴的每个维度都将显示在应用程序的详细视图的下拉列表中。 之后，执行用户可以从下拉列表所列的选项中进行选择。
 
-4. 要将区段应用于单个图块，请将左侧面板中的某个区段直接拖放到图块的顶部。如果要将区段应用于记分卡中的所有图块，请将区段拖放到记分卡的顶部。或者，您也可以通过在日期范围下方的筛选器菜单中选择区段来应用区段。 您可 [以像在Adobe Analytics Workspace中一样](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) ，为记分卡配置和应用过滤器。
+4. 要将区段应用于单个图块，请将左侧面板中的某个区段直接拖放到图块的顶部。如果要将区段应用于记分卡中的所有图块，请将区段拖放到记分卡的顶部。或者，您也可以通过在日期范围下方的筛选器菜单中选择区段来应用区段。 您可 [以像在Adobe Design Workspace中一样](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) ，为记分卡配置和应用过滤器。
 
    ![构建细分以进行筛选](assets/segment_ui.png)
 
@@ -142,12 +142,10 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
    * 提供记分卡的说明
    * 添加相关标记
    * 指定记分卡的收件人
-   * 选择&#x200B;**与收件人共享嵌入的组件**&#x200B;选项，以确保执行用户有权访问记分卡中的所有组件。
 
 3. 单击&#x200B;**共享**。
 
 ![Share_Scorecards](assets/new_share.png)
-
 
 共享记分卡后，收件人可在其 Analytics 功能板中访问该记分卡。如果您在记分卡生成器中对记分卡进行后续更改，则已共享的记分卡会自动更新以反映这些更改。然后，执行用户在其应用程序中刷新记分卡后，便可看到这些更改。
 
@@ -175,12 +173,12 @@ If you update the Scorecard by adding new components, you may want to share the 
 
    **对于 iOS 上的执行用户：**
 
-   * 单击以下链接(也可在“工具”>“ **仪表板******”下的Analytics中找到该链接)，然后按照提示下载、安装和打开应用程序：
+   * 单击以下链接(也可在Analytics的“工 **具** ”>“ **仪表板**”下找到)，然后按照提示下载、安装和打开应用程序：
 
       [iOS链接](https://apple.co/2zXq0aN)
    **对于 Android 上的执行用户：**
 
-   * 单击以下链接(也可在“工具”>“ **仪表板******”下的Analytics中找到该链接)，然后按照提示下载、安装和打开应用程序：
+   * 单击以下链接(也可在Analytics的“工 **具** ”>“ **仪表板**”下找到)，然后按照提示下载、安装和打开应用程序：
 
       [Android链接](https://bit.ly/2LM38Oo)
    下载并安装后，执行用户可以使用他们现有的 Adobe Analytics 凭据登录应用程序；我们同时支持 Adobe ID 和 Enterprise/Federated ID。
@@ -192,6 +190,7 @@ If you update the Scorecard by adding new components, you may want to share the 
    * 点按应用于您共享的记分卡的登录公司或 Experience Cloud 组织的名称。然后，记分卡列表会显示与该登录公司下的执行用户共享的所有记分卡。
    * 帮助他们按&#x200B;**最近修改**&#x200B;对此列表进行排序（如果适用）。
    * 点按记分卡的名称以查看记分卡。
+
    ![选择公司](assets/accesscard.png)
 
    如果执行用户登录并看到一条消息，说明没有共享内容：
