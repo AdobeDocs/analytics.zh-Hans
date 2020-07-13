@@ -4,12 +4,19 @@ keywords: AppFigures
 title: 适用于 Adobe Analytics 的 appFigures Data Connector
 uuid: b9bdb88c-2d7d-4fe4-aa05-da531224993f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 94%
 
 ---
 
 
 # 适用于 Adobe Analytics 的 appFigures Data Connector{#appfigures-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>我们将在2021年中后期终止Adobe Data Connector技术。 [了解更多...](/help/import/data-connectors/data-connectors-eol.md)
 
 此 Adobe Data Connectors 集成将 appFigures 的集成式移动应用商店分析功能与 Adobe Analytics 的直接应用程序跟踪功能整合在一起，为贵组织提供强大的分析和优化契机。
 
