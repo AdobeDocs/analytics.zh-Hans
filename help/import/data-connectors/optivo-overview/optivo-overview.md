@@ -3,12 +3,19 @@ description: 此集成将电子邮件营销软件的集成式反馈系统与 Ado
 title: 适用于 Adobe Analytics 的 optivo® broadmail Data Connector
 uuid: bd713080-9d1a-49ee-aad0-86dd5c37c34a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '1086'
+ht-degree: 98%
 
 ---
 
 
 # 适用于 Adobe Analytics 的 optivo® broadmail Data Connector{#optivo-broadmail-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>我们将在2021年中后期终止Adobe Data Connector技术。 [了解更多...](/help/import/data-connectors/data-connectors-eol.md)
 
 此集成将电子邮件营销软件的集成式反馈系统与 Adobe Analytics 的行为报表整合在一起，为贵组织提供强大的分析和优化契机。
 
