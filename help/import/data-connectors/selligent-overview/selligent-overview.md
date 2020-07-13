@@ -3,12 +3,19 @@ description: 'null'
 title: 适用于 Adobe Analytics 的 Selligent Data Connector
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '897'
+ht-degree: 98%
 
 ---
 
 
 # 适用于 Adobe Analytics 的 Selligent Data Connector{#selligent-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>我们将在2021年中后期终止Adobe Data Connector技术。 [了解更多...](/help/import/data-connectors/data-connectors-eol.md)
 
 此集成具有以下主要优势：
 
