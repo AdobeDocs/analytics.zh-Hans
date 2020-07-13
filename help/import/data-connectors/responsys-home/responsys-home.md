@@ -3,12 +3,19 @@ description: 'null'
 title: 适用于 Adobe Analytics 的 Responsys Data Connector
 uuid: 1181ae49-59c4-4c6a-a5cf-f7a0ec956850
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 95%
 
 ---
 
 
 # 适用于 Adobe Analytics 的 Responsys Data Connector{#responsys-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>我们将在2021年中后期终止Adobe Data Connector技术。 [了解更多...](/help/import/data-connectors/data-connectors-eol.md)
 
 Adobe Analytics 为使用 Responsys Interact 的电子邮件营销人员提供了大量新的定位契机。通过向 Adobe Analytics（以前称为 SiteCatalyst）识别的动态营销区段及时发送相关电子邮件，可以提高潜在客户和当前客户的转化率和产生的收入。
 
