@@ -2,10 +2,10 @@
 description: 了解Analytics数据连接器何时和为何会停产。
 title: Analytics数据连接器的生命周期结束前公告
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 7a6337efdbf08d31f2e2c632b57c781d0b566828
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 28%
+source-wordcount: '267'
+ht-degree: 26%
 
 ---
 
@@ -24,6 +24,6 @@ Data Connectors 可让您将第三方应用程序中的跟踪数据导入 Analyt
 
 ## 删除此功能对您有何影响？
 
-如果您是Adobe合作伙伴，您将有机会告诉我们您是迁移还是停止集成。
+如果您是Adobe合作伙伴，您将有机会告诉我们您是迁移还是停止集成。 有关将集成迁移到我们新的Adobe Exchange项目的详细信 [息](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360003867071-Adobe-Analytics-Integration-Tools) ，请参阅文档。
 
 如果您是Data Connector客户，并且希望请求迁移您使用的集成，则应将所有请求直接发送到集成合作伙伴。 通过客户关怀向Adobe发送请求不会产生相同的预期效果。
