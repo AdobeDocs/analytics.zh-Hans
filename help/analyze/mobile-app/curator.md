@@ -2,9 +2,9 @@
 description: 有关设置功能板记分卡的说明。
 title: Adobe Analytics 功能板策划人指南
 translation-type: tm+mt
-source-git-commit: 2dfd5d78e66ba1569b285070a152c46922e37daa
+source-git-commit: 8013f767027147b58118dd33c9f207c2b158ca7c
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2301'
 ht-degree: 78%
 
 ---
@@ -149,7 +149,7 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
 共享记分卡后，收件人可在其 Analytics 功能板中访问该记分卡。如果您在记分卡生成器中对记分卡进行后续更改，则已共享的记分卡会自动更新以反映这些更改。然后，执行用户在其应用程序中刷新记分卡后，便可看到这些更改。
 
-If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Automatically Share embedded components with recipients** option) in order to make sure that your executive users have access to these changes.
+If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Share embedded components** option) in order to make sure that your executive users have access to these changes.
 
 ## 使用应用程序设置执行用户
 
@@ -163,7 +163,7 @@ If you update the Scorecard by adding new components, you may want to share the 
 * 执行用户已有效登录 Adobe Analytics
 * 您为他们正确创建了移动业绩平衡卡，并已与他们共享这些业绩平衡卡
 * 执行用户有权访问 Analysis Workspace 以及记分卡所基于的报表包
-* 执行用户有权访问记分卡中包含的组件。Note that you can select an option when sharing your Scorecards to **Automatically Share embedded components with recipients**.
+* 执行用户有权访问记分卡中包含的组件。Note that you can select an option when sharing your Scorecards to **Share embedded components**.
 
 ### 帮助管理用户使用该应用程序
 
