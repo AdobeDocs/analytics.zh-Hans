@@ -2,10 +2,10 @@
 description: 将跟踪数据从第三方应用程序导入到 Analytics 中。
 title: Analytics Data Connectors 快速入门
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 100%
+source-wordcount: '977'
+ht-degree: 98%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 100%
 Adobe 为组织提供有关数字化策略和营销活动的可执行实时资讯。Data Connectors 可让您将第三方应用程序中的跟踪数据导入 Analytics，因此，您可以从一个中心位置收集和使用数据。如果您使用的是合作伙伴产品，则可以创建集成，将应用程序数据导入营销报表。一旦创建了该集成，您便可以生成包含应用程序中数据的报表。
 
 例如，电子邮件集成可能想要使用电子邮件合作伙伴来分发电子邮件促销活动。当访客访问您的网站时，您希望了解哪些人响应了您的电子邮件促销活动从而来访。Data Connectors 会将数据从您的电子邮件合作伙伴集成到营销报表，因此您可以使用此信息衡量电子邮件促销活动的成效。
+
+>[!IMPORTANT]
+>
+>我们将在2021年中后期终止Adobe Data Connector技术。 [了解更多...](/help/import/data-connectors/data-connectors-eol.md)
 
 **系统要求**
 
