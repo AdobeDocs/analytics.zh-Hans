@@ -3,12 +3,19 @@ description: 'null'
 title: 适用于 Adobe Analytics 的 Demandbase Data Connector
 uuid: 28fddb8f-06f6-4447-8257-4a59131bedbe
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 96%
 
 ---
 
 
 # 适用于 Adobe Analytics 的 Demandbase Data Connector{#demandbase-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>我们将在2021年中后期终止Adobe Data Connector技术。 [了解更多...](/help/import/data-connectors/data-connectors-eol.md)
 
 此 Adobe® Data Connectors 集成将 Demandbase 的实时 ID 服务与 Adobe Analytics 中的行为信息整合在一起，为 B2B 组织创造强大的分析、优化和内容个性化契机。
 
