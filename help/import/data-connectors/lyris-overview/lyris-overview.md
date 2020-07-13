@@ -3,14 +3,19 @@ description: 描述通过集成实现的营销效率。
 title: 适用于 Adobe Analytics 的 Lyris Data Connector
 uuid: db213865-1296-4a93-a0a2-781c026b2be5
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '1051'
+ht-degree: 98%
 
 ---
 
 
 # 适用于 Adobe Analytics 的 Lyris Data Connector{#lyris-data-connector-for-adobe-analytics}
 
-描述通过集成实现的营销效率。
+>[!IMPORTANT]
+>
+>我们将在2021年中后期终止Adobe Data Connector技术。 [了解更多...](/help/import/data-connectors/data-connectors-eol.md)
 
 Adobe® Data Connectors™ 电子邮件集成将 Adobe Analytics 中的行为信息与 Lyris 电子邮件营销整合在一起，通过更相关的消息传送来重新定义成功衡量指标和目标受众。
 
