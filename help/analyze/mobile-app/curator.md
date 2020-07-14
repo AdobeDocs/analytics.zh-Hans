@@ -2,7 +2,7 @@
 description: 有关设置功能板记分卡的说明。
 title: Adobe Analytics 功能板策划人指南
 translation-type: tm+mt
-source-git-commit: 8013f767027147b58118dd33c9f207c2b158ca7c
+source-git-commit: 810083aad3a096a3d352416480bf48ad8d7b3f2b
 workflow-type: tm+mt
 source-wordcount: '2301'
 ht-degree: 78%
@@ -145,7 +145,7 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
 3. 单击&#x200B;**共享**。
 
-![Share_Scorecards](assets/new_share.png)
+![Share_Scorecards](assets/new_share2.png)
 
 共享记分卡后，收件人可在其 Analytics 功能板中访问该记分卡。如果您在记分卡生成器中对记分卡进行后续更改，则已共享的记分卡会自动更新以反映这些更改。然后，执行用户在其应用程序中刷新记分卡后，便可看到这些更改。
 
