@@ -2,10 +2,10 @@
 title: 地区数据收集
 description: 关于区域数据收集的信息
 translation-type: tm+mt
-source-git-commit: 91867f379c9f3e0f4e7fdeed572a94ff798653ba
+source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 94%
+source-wordcount: '471'
+ht-degree: 86%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Experience Cloud 使用区域数据收集 (RDC)，这样，您的最终用
 
 >[!IMPORTANT]
 >
->China RDC（中国性能优化）附加软件包是Adobe Analytics的收费附加软件。 有关详细信息，请与Adobe销售代表联系。
+>China RDC（中国性能优化）附加软件包是Adobe Analytics的收费附加软件。 Adobe在中国大陆的性能优化使中国境内的客户能够直接将数据发送到中国边缘节点，而不是全球的其他位置。 与将数据发送到中国境外的节点相比，这提高了页面加载时间和数据准确性。 有关详细信息，请与Adobe销售代表联系。
 
 RDC 目前包括以下位置（可能发生变化）：
 
