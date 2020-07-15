@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: f87f0fc7de15371dcfac739611ea63c41328303c
+source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 96%
+source-wordcount: '1098'
+ht-degree: 98%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 96%
    + [Analysis Workspace 概述](analysis-workspace/home.md)
    + [Analysis Workspace 用例](analysis-workspace/freeform-analysis-examples-use-cases.md)
    + [Analysis Workspace 中的新增功能](analysis-workspace/new-features-in-analysis-workspace.md)
-   + 构建 Workspace 项目 {#build-workspace-project}
+   + 构建工作区项目 {#build-workspace-project}
       + [创建项目 - 概述](analysis-workspace/build-workspace-project/freeform-overview.md)
-      + [创建 Workspace 项目](analysis-workspace/build-workspace-project/t-freeform-project.md)
+      + [创建工作区项目](analysis-workspace/build-workspace-project/t-freeform-project.md)
       + [模板](analysis-workspace/build-workspace-project/starter-projects.md)
       + [工作区中的多个报表包](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + 列和行设置 {#column-row-settings}
@@ -79,26 +79,26 @@ ht-degree: 96%
       + [树形图](analysis-workspace/visualizations/treemap.md)
    + 面板 {#panels}
       + [面板概述](analysis-workspace/c-panels/panels.md)
-      + [目标分析(A4T)面板](analysis-workspace/c-panels/a4t-panel.md)
+      + [Analytics目标(A4T)小组](analysis-workspace/c-panels/a4t-panel.md)
       + [归因面板](analysis-workspace/c-panels/attribution.md)
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
       + [自由格式面板](analysis-workspace/c-panels/freeform-panel.md)
-      + [“快速分析”面板](analysis-workspace/c-panels/quickinsight.md)
+      + [快速分析面板](analysis-workspace/c-panels/quickinsight.md)
       + Segment comparison panel {#segment-comparison}
          + [区段比较概述](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [区段比较用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [细分比较中使用的统计测试](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 组织或共享项目 {#curate-share}
-      + [特选工作区项目](analysis-workspace/curate-share/curate.md)
-      + [共享Workspace项目](analysis-workspace/curate-share/share-projects.md)
-      + [仅限视图的Workspace项目](analysis-workspace/curate-share/view-only-projects.md)
+      + [策划工作区项目](analysis-workspace/curate-share/curate.md)
+      + [共享工作区项目](analysis-workspace/curate-share/share-projects.md)
+      + [仅查看工作区项目](analysis-workspace/curate-share/view-only-projects.md)
       + [下载 PDF 或 CSV 文件](analysis-workspace/curate-share/download-send.md)
       + [共享和计划项目文件](analysis-workspace/curate-share/send-schedule-files.md)
       + [发送文件 - 计划交付项目](analysis-workspace/curate-share/t-schedule-report.md)
       + [计划项目管理器](analysis-workspace/curate-share/schedule-projects.md)
    + 归因 IQ {#attribution}
       + [归因概述](analysis-workspace/attribution/overview.md)
-      + [归因模型和回顾窗口](analysis-workspace/attribution/models.md)
+      + [归因模型和回顾时间范围](analysis-workspace/attribution/models.md)
       + [算法属性](analysis-workspace/attribution/algorithmic.md)
       + [常见问题解答](analysis-workspace/attribution/faq.md)
    + [区段 IQ](analysis-workspace/segment-iq.md)
@@ -124,7 +124,7 @@ ht-degree: 96%
       + [Analysis Workspace 与 Ad Hoc Analysis 的比较](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
       + [Analysis Workspace 限制](analysis-workspace/workspace-faq/aw-limitations.md)
       + [管理要求](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
-      + [分析工作区中的辅助功能](analysis-workspace/workspace-faq/aw-accessibility.md)
+      + [Analysis Workspace 中的辅助功能](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Adobe Report Builder 帮助](report-builder/home.md)
    + [Report Builder 的新增功能](report-builder/whats-new-arb.md)
@@ -300,7 +300,6 @@ ht-degree: 96%
    + [目标](reports-analytics/targets.md)
    + [警报](reports-analytics/alerts.md)
    + [日历事件](reports-analytics/t-calendar-event.md)
-   + [Data Warehouse 请求](reports-analytics/data-warehouse.md)
    + [常见问题解答](reports-analytics/frequently-asked-questions.md)
    + [故障诊断](reports-analytics/report-troubleshooting.md)
 + Ad Hoc Analysis {#ad-hoc-analysis}
@@ -336,7 +335,7 @@ ht-degree: 96%
 + Labs {#tech-previews}
    + [Labs 概述](tech-previews/overview.md)
 + Adobe Analytics 功能板 {#mobapp}
-   + [Adobe Analytics仪表板-概述](mobile-app/home.md)
+   + [AdobeAnalytics仪表板-概述](mobile-app/home.md)
    + [管理人指南](mobile-app/curator.md)
    + [执行用户快速入门指南](mobile-app/executive.md)
 + 渐进式 Web 应用程序 {#pwa}
