@@ -4,10 +4,10 @@ title: 生成顺序区段
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 3b587a04ec2c0e358fde386ed5e1be4f9b77a881
 workflow-type: tm+mt
-source-wordcount: '3842'
-ht-degree: 100%
+source-wordcount: '3857'
+ht-degree: 98%
 
 ---
 
@@ -261,9 +261,9 @@ ht-degree: 100%
 如果要对顺序检查点进行分组，则“容器”为逻辑组容器。但是，如果这些顺序检查点必须出现在单个点击或访问范围内，则需要使用“点击”或“访问”容器。（当然，当一次点击可能只计入一个检查点时，“点击”对于一组顺序检查点没有意义）。
 
 **逻辑组是否可以简化顺序区段的生成过程？**
-是的，可以。假设您正在尝试回答以下问题：**访客是否在访问页面 A 后访问了页面 B、页面 C 或页面 D？**
+是的，可以。假设您试图识别此访客区段： **访客查看页面A，然后查看页面B、C和D的每页**
 
-您可以不使用逻辑组容器生成此区段，但是这样既费时又费力：
+您无需逻辑组容器即可构建此细分，但它既复杂又费力。 您必须指定访客可以视图的每个页面序列：
 * `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
 * `Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or`
 * `Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or`
