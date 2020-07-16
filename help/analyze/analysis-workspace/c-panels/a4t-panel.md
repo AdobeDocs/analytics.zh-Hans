@@ -2,10 +2,10 @@
 description: Analytics目标(A4T)面板让您能够分析Adobe Target活动和Analysis Workspace体验。
 title: Analytics目标(A4T)小组
 translation-type: tm+mt
-source-git-commit: fe6202288cfc07575db437f7d0c055f1b40ddcf6
+source-git-commit: efdab27f9449e1aabc9647b0663b02d8fe74cc29
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 14%
+source-wordcount: '912'
+ht-degree: 13%
 
 ---
 
@@ -61,5 +61,7 @@ ht-degree: 14%
 | 为什么独特的访客会因目标和Analytics而异？ | [进一步了解](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) ，产品之间的独特访客差异。 |
 | 在我的分析中为特定目标活动应用点击区段时，为何会看到返回的不相关体验？ | A4T维是一个列表变量，这意味着它可以同时包含许多活动（和体验）。 [了解更多](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
 | 置信度指标是否适用于极端订单或对多个优惠应用Bonferroni校正？ | 不可以。[进一步了解](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) Analytics如何计算信心。 |
+| 提升度和置信度指标能否用于其他维度或细分？ | 提升和信心是“目标体验”维度的“锁定指标”，因为它们需要一个控件和变量才能跨维度计算。 因此，不能将其分解或用于其他维。 |
+| 何时提升和信心重新计算？ | 无论面板何时运行（或重新运行）、面板日期范围何时更改，或将段应用于面板或表，提升和置信度都将重新计算。 |
 
 有关Analytics目标报告的更多信息，请 [访问A4T报告](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
