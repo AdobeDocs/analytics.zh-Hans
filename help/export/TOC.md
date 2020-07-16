@@ -3,8 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 导出指南
 user-guide-url: /content/help/en/analytics/export/home.html
-translation-type: ht
-source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
+translation-type: tm+mt
+source-git-commit: 769206cfc41c09b9e32fd2d1f317a8a6904fed00
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 94%
 
 ---
 
@@ -63,3 +66,6 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
       + [通过 SFTP 将 Adobe 数据发送到外部 FTP 帐户](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [将 Data Warehouse 请求发送到 SFTP 服务器](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [在无密码的情况下通过 SFTP 连接到 Adobe](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
++ [Analysis Workspace下载](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html)
++ [Adobe Analytics API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
++ [Report Builder](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/report-builder/home.html)
