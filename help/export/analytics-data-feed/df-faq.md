@@ -3,7 +3,10 @@ description: 有关数据馈送的常见问题解答
 keywords: Data Feed;job;pre column;post column;case sensitivity
 title: 数据馈送常见问题解答
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 966d1e8d47df03f6e4cedfedd62c1d3bc56a3606
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 86%
 
 ---
 
@@ -23,3 +26,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 在 Adobe Analytics 中，大多数变量在用于报告时都会被视为不区分大小写。例如，“snow”、“Snow”、“SNOW”和“sNow”全都会被视为相同的值。在数据馈送中会保留区分大小写。
 
 如果您在非后处理列和后处理列中看到同一个值的不同大小写（例如，前处理列中的“snow”与后处理列中的“Snow”），则您的实施将在整个网站中同时使用大写值和小写值。后处理列中的不同大小写是在之前传递的，并被存储在虚拟 Cookie 中，或者是在大致相同的时间针对该报表包处理的。
+
+## 数据馈送中是否包含按管理控制台机器规则过滤的机器人程序？
+
+数据馈送不包括按Admin Console机器规则筛 [选的机器人程序](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html)。
