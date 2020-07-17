@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 导出指南
 user-guide-url: /content/help/en/analytics/export/home.html
 translation-type: tm+mt
-source-git-commit: 769206cfc41c09b9e32fd2d1f317a8a6904fed00
+source-git-commit: 50ed50f951b6c7309359a19538323b1e12322a80
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '257'
 ht-degree: 94%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 94%
       + [数据馈送内容概述](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [计算量度](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [数据列引用](analytics-data-feed/c-df-contents/datafeeds-reference.md)
+      + [标题资源](analytics-data-feed/c-df-contents/headers.md)
       + [页面事件查找](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [特殊字符](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [迟到的点击量](analytics-data-feed/c-df-contents/late-arriving-hits.md)
