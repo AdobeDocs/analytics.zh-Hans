@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
+source-git-commit: 271cffdc32c6063da955ac3fbd7f774a15cac8d2
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 75%
+source-wordcount: '632'
+ht-degree: 73%
 
 ---
 
@@ -205,9 +205,13 @@ ht-degree: 75%
       + [管理虚拟报表包](vrs/c-workflow-vrs/vrs-manage.md)
       + [查看虚拟报表包信息](vrs/c-workflow-vrs/vrs-view.md)
 + 跨设备分析 {#cda}
-   + [跨设备分析概述](cda/cda-home.md)
-   + [设置跨设备分析](cda/cda-setup.md)
-   + [跨设备分析常见问题解答](cda/cda-faq.md)
+   + [跨设备分析概述](cda/overview.md)
+   + [基于场的拼接](cda/field-based-stitching.md)
+   + [设备图](cda/device-graph.md)
+   + [设置跨设备Analytics](cda/setup.md)
+   + [重放的工作方式](cda/replay.md)
+   + [CDA 工作区模板](cda/workspace-template.md)
+   + [跨设备分析常见问题解答](cda/faq.md)
 + 警报 {#alerts}
    + [智能警报](c-alerts/intellligent-alerts.md)
    + [警报生成器](c-alerts/alert-builder.md)
