@@ -2,7 +2,10 @@
 title: 历程 IQ
 description: 了解构成历程 IQ 的功能，历程 IQ 是 Adobe Analytics 的一组功能。
 translation-type: tm+mt
-source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
+source-git-commit: 4a987a16be74e3a990294664179778fd2e9fcea7
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 100%
 
 ---
 
@@ -19,4 +22,4 @@ source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
 * [上下文感知会话：](../../components/vrs/vrs-report-time-processing.md)更改访问的定义，包括访问超时以及阻止后台点击启动新访问。使用虚拟报表包中一项称为报表时间处理的功能。
 * [流量分析：](visualizations/c-flow/flow.md)了解用户下一步的去向以及他们的来源。
 * [流失分析：](visualizations/fallout/fallout-flow.md)捕获客户何时退出并了解他们的去向。
-* [跨设备分析：](../../components/cda/cda-home.md)无缝地合并来自多个设备的行为，以便更好地了解每个设备获得的接触点。
+* [跨设备分析：](../../components/cda/overview.md)无缝地合并来自多个设备的行为，以便更好地了解每个设备获得的接触点。
