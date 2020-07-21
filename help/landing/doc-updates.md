@@ -3,10 +3,10 @@ title: Adobe Analytics 技术文档更新
 description: 对 Adobe Analytics 文档存储库的重要更新。
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: de7783174d55c03ac73140e8ab05005284788459
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 98%
+source-wordcount: '480'
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 自 2019 年 1 月以来的 Adobe Analytics 文档集内容更新。
 
-* 有关客户旅 [!UICONTROL 程分析的信息]，请访 [问此处](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)。
+* 有关Customer Journey Analytics [!UICONTROL 的信]息，请 [单击此处](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)。
 * 有关 Adobe Analytics 新增功能、管理员通知和错误修复的完整列表，请参阅最新的 [Experience Cloud 发行说明](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html)。
 * 有关新增功能的详细信息，请参阅工具用户指南中的 [Analysis Workspace 中的新增功能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)。
 * 有关 Adobe Analytics for Audio and Video 的信息，请参阅[在 Analytics 中测量音频和视频](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-overview.html)。
@@ -24,6 +24,7 @@ ht-degree: 98%
 
 | 页面 | 描述 |
 |---|---|
+| 2020 年 7 月 21 日 | 跨设备Analytics的 [主要更新和修订](/help/components/cda/overview.md)。 添加 [了基于字段的缝合](/help/components/cda/field-based-stitching.md)。 |
 | 2020 年 4 月 28 日 | 添加了有关[内容周转率](/help/components/metrics/content-velocity.md)￼量度的文档。 |
 | 2020 年 3 月 12 日 | 添加了[将区段发布到 Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md) 的更新。 |
 | 2020 年 3 月 12 日 | 更新了 CDA 拼合延迟。 |
@@ -31,7 +32,7 @@ ht-degree: 98%
 | 2020 年 2 月 25 日 | 添加了 [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) 变量。 |
 | 2020 年 2 月 18 日 | 添加了 [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) 变量。 |
 | 2020 年 2 月 12 日 | 更新并重新整理了[营销渠道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)文档。 |
-| 2020 年 2 月 7 日 | 更新了[设置跨设备分析](../components/cda/cda-setup.md)和[常见问题解答](../components/cda/cda-faq.md)。 |
+| 2020 年 2 月 7 日 | 更新了[设置跨设备分析](../components/cda/setup.md)和[常见问题解答](../components/cda/faq.md)。 |
 | 2020 年 2 月 4 日 | 完全重写[实施用户指南](../implement/home.md)。 |
 | 2020 年 1 月 22 日 | 更新了“自由格式表”页面，现在包含有关新的[自由格式表生成器](/help/analyze/analysis-workspace/visualizations/freeform-table.md)的信息。 |
 | 2020 年 1 月 13 日 | 添加了 [Adobe Analytics 和浏览器 Cookie](../technotes/cookies.md)。 |
@@ -51,7 +52,7 @@ ht-degree: 98%
 | 2019 年 6 月 10 日 | 新增了有关[中国地区数据收集 (RDC)](https://docs.adobe.com/content/help/zh-Hans/analytics/technotes/rdc/rdc-china.html) 的文章 |
 | 2019 年 6 月 4 日 | 编写了题为[从第三方分析平台转换到 Adobe Analytics](/help/technotes/ga-to-aa/home.md) 的新指南。 |
 | 2019 年 5 月 30 日 | 全面修订了[数据馈送列参考](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)。 |
-| 2019 年 4 月 11 日 | 更新了[优化 Workspace 性能](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。 |
+| 2019 年 4 月 11 日 | 更新了[优化工作区性能](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。 |
 | 2019 年 3 月 14 日 | 对[地区数据收集](/help/technotes/rdc/regional-data-collection.md)进行了重大更新。 |
 | 2019 年 2 月 7 日 | 对[常规帐户设置](/help/admin/admin/general-acct-settings-admin.md)中的“将 IP 地址的最后一个八位字节替换为 0”设置和“IP 模糊处理”设置进行了小幅更新。 |
 | 2019 年 2 月 1 日 | 对 [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 实施插件进行了重大更新。 |
