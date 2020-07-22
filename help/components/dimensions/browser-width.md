@@ -2,7 +2,7 @@
 title: 浏览器宽度——分时段
 description: 浏览器窗口的宽度（以像素为单位）。
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
@@ -24,10 +24,10 @@ ht-degree: 0%
 
 ## 用数据填充此维
 
-此维从图像请求中的 [`bw` 查询字符串](/help/implement/validate/query-parameters.md) 检索数据。 AppMeasurement使用浏览器中的JavaScript变量 `window.innerWidth` 收集此数据。 如果您使用AppMeasurement库（如通过Adobe Experience Platform Launch），此维度将开箱即用。 如果您在AppMeasurement之外使用查询收集方法（如通过API），请确保在每次访问的第一次点击时包含 `bw` 字符串参数。
+此维从图像请求中的 [`bw` 查询字符串](/help/implement/validate/query-parameters.md) 检索数据。 AppMeasurement使用浏览器中的JavaScript变量 `window.innerWidth` 收集此数据。 如果您使用AppMeasurement库(如通过Adobe Experience Platform启动)，则此维度开箱即用。 如果您在AppMeasurement之外使用查询收集方法（如通过API），请确保在每次访问的第一次点击时包含 `bw` 字符串参数。
 
 Adobe会持续显示浏览器宽度进行访问。 如果在访问中调整了浏览器宽度，则不记录调整。
 
-## 维值
+## 维项
 
-尺寸值包括所有收集的浏览器宽度，它们被分为100像素的组。 例如，如果点击的浏览器宽度 `1280`为，则它将按维度值进行分组 `1200 to 1299`。
+尺寸项包括所有收集的浏览器宽度，分为100像素的组。 例如，如果点击的浏览器宽度 `1280`为，则它将在维度项中分组 `1200 to 1299`。
