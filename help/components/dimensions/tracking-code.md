@@ -2,7 +2,7 @@
 title: 跟踪代码
 description: 跟踪代码或活动的名称。
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 3%
@@ -18,6 +18,6 @@ ht-degree: 3%
 
 此维从图像请求中的 [`v0` 查询字符串](/help/implement/validate/query-parameters.md) 检索数据。 AppMeasurement使用变量收集此 [`campaign`](/help/implement/vars/page-vars/campaign.md) 数据。
 
-## 维值
+## 维项
 
-维值包括站点上跟踪代码的名称。 您的组织确定您要使用的特定维度值。
+维项目包括站点上跟踪代码的名称。 您的组织确定要使用哪些特定维项目。
