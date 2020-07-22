@@ -2,7 +2,7 @@
 title: 客户忠诚度
 description: 类别基于访客先前购买的次数。
 translation-type: tm+mt
-source-git-commit: a8dc233e962a49674a30ff3c9f0b5d0d45b09f24
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 Adobe会根据您实施中的事件自 [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) 动填充此维度。 如果您在站点 `purchase` 上实施事件，则此维始终有效。
 
-## 维值
+## 维项
 
-维值包括：
+维项包括：
 
 * **不是客户**: 在点击时，访客从未购买过产品。
 * **新客户**: 在点击时，访客以前只购买了一次。
 * **退货客户**: 在上市时，访客曾购买过两次。
 * **忠诚的客户**: 在点击时，访客以前购买了三次或更多。
 
-当访客进行购买(触发 `purchase` 事件)时，该点击和所有后续点击将移至下一个“时段”。 例如，如果访客首次从您的站点购买产品，则他们会从“不是客户”移动到“新客户”，订单归属于“新客户”。 维值“Not a customer”不能将订单归属于它。
+当访客进行购买(触发 `purchase` 事件)时，该点击和所有后续点击将移至下一个“时段”。 例如，如果访客首次从您的站点购买产品，则他们会从“不是客户”移动到“新客户”，订单归属于“新客户”。 维项目“非客户”不能将订单归属于它。
