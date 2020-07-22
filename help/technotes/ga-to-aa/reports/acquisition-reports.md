@@ -2,10 +2,10 @@
 title: Adobe Analytics 中的客户获取报表
 description: 了解如何使用 Analysis Workspace 创建基于客户获取的报表。
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1578'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -112,7 +112,7 @@ Adobe 使用 Analysis Workspace 中称为 Advertising Analytics 的功能从包�
 
 1. 单击左侧的“可视化”图标，然后将“流量”可视化拖到自由格式表上方的工作区
 2. 单击左侧的“组件”图标，然后将&#x200B;**从社交网站访问**&#x200B;区段拖动到“流量”可视化上方标有“在此处放置区段”的小区域。
-3. 找到&#x200B;**页面**&#x200B;维度，然后单击箭头图标以显示页面值。维度值的颜色为黄色。
+3. 找到&#x200B;**页面**&#x200B;维度，然后单击箭头图标以显示页面值。尺寸项呈黄色。
 4. 找到要开始使用的所需页面值，并将其拖动到中心标有“维度或项目”的位置
 5. 此流量报表是交互式的。单击任意值可将流量展开到后续或之前的页面。使用右键单击菜单可展开或折叠列。此外，还可以在同一流量报表中使用不同的维度。
 
