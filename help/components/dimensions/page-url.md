@@ -2,7 +2,7 @@
 title: 页面 URL
 description: 页面的URL。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 2%
@@ -28,6 +28,6 @@ Adobe建议将eVar设置为连接的字符串 `window.location.hostname + window
 
 如果希望eVar与Data warehouse中的“页面URL”维完全匹配，则可以使 [用动态变量](/help/implement/vars/page-vars/dynamic-variables.md) ，并在每次点 `D=g` 击时将eVar设置为。 请注意，此方法不适用于自定义链接点击，因为所有调用都会删除页面 [`tl()`](/help/implement/vars/functions/tl-method.md) URL。
 
-## 维值
+## 维项
 
-维值包括站点上页面的URL。
+维项目包括站点上页面的URL。
