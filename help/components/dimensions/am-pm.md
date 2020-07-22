@@ -2,7 +2,7 @@
 title: 上午/下午
 description: 确定在上午还是下午小时中是否发生了点击。
 translation-type: tm+mt
-source-git-commit: 05ea2778cd5cd324c660fd0f1d2ac02373829f0f
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 3%
@@ -18,6 +18,6 @@ ht-degree: 3%
 
 此尺寸不会变。 它没有任何要更改的设置。 它的唯一依赖关系是报表包的时区，它决定哪些小时是AM和哪些是PM。
 
-## 维值
+## 维项
 
-此维始终仅包含两个维值： `"AM"` 和 `"PM"`。 维值适 `"AM"` 用于从上午12:00到上午11:59的所有点击，而维值 `"PM"` 适用于下午12:00到下午11:59的所有点击。
+此维始终仅包含两个维项： `"AM"` 和 `"PM"`。 维项目适 `"AM"` 用于从上午12:00到上午11:59的所有点击，而维项目 `"PM"` 适用于下午12:00到下午11:59的所有点击。
