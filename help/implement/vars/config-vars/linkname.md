@@ -2,17 +2,17 @@
 title: linkName
 description: 设置自定义链接点击的名称。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '218'
-ht-degree: 100%
+ht-degree: 80%
 
 ---
 
 
 # linkName
 
-使用 `linkName` 变量可确定运行下一个 [`tl()`](../functions/tl-method.md) 方法时自定义链接、下载链接或退出链接的维度值。
+Use the `linkName` variable to determine the dimension item of custom links, download links, or exit links when running the next [`tl()`](../functions/tl-method.md) method.
 
 如果此变量为空，则 AppMeasurement 会还原为该 [`linkURL`](linkurl.md) 变量。
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 ## AppMeasurement 和 Launch 自定义代码编辑器中的 s.linkName
 
-`s.linkName` 变量是用于确定自定义链接、下载链接或退出链接维度值（具体取决于 [`s.linkType`](linktype.md) 的内容）的字符串。它最多可包含 100 字节。
+The `s.linkName` variable is a string that determines the dimension item for custom links, download links, or exit links (depending on what [`s.linkType`](linktype.md) is). 它最多可包含 100 字节。
 
 >[!TIP]
 >
