@@ -2,7 +2,7 @@
 title: 首次触摸渠道
 description: 访客参与到期内的第一个营销渠道。
 translation-type: tm+mt
-source-git-commit: 2c262e5345c39a71a6a54062c607273528294b24
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
@@ -22,12 +22,12 @@ ht-degree: 0%
 
 如果要将此维度设置为特定值，则需要执行以下步骤：
 
-* 在“报表包设置”下的“营销渠道管理器”中，将所需的维度值设置为渠道。
+* 在“报表包设置”下的“营销渠道管理器”中，将所需的维度项目设置为渠道。
 * 设置包含点击所需条件的营销渠道处理规则。
 * 访客对您网站的点击必须符合营销渠道处理规则中 _概述的_ 标准，并且必须是访客参与期内第一个要这样做的营销渠道值。
 
 如果后续点击与其他营销渠道下的条件匹配，则此维不会被新营销渠道覆盖。
 
-## 维值
+## 维项
 
-维值包括营销渠道管理器中的任何渠道名称。 默认情况下，值 `"Paid search"`包括 `"Natural search"`、、 `"Display"`、 `"Email"`、 `"Affiliate"`、、 `"Direct"`、 `"Internal"``"Social networks"``"Referring domains"`、和。 您可以在营销渠道管理器中添加或删除渠道，这会影响此维的值。
+维项目包括营销渠道管理器中的任何渠道名称。 默认情况下，值 `"Paid search"`包括 `"Natural search"`、、 `"Display"`、 `"Email"`、 `"Affiliate"`、、 `"Direct"`、 `"Internal"``"Social networks"``"Referring domains"`、和。 您可以在营销渠道管理器中添加或删除渠道，这会影响此维的值。
