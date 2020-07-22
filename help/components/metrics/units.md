@@ -2,7 +2,7 @@
 title: 件数
 description: 所有订单内购买的产品总数。
 translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # 件数
 
-“Units”量度显示所有订单内购买的产品总数。 此指标对于电子商务站点衡量转化率至关重要。 您可以将此指标与任何维度相结合，以查看哪些维度值对购买的产品数量做出了贡献。 例如，您可以看到贡献于所购买产品的顶 [级活动](../dimensions/tracking-code.md) （使用跟踪代码维）或顶级内部搜索 [词(使](../dimensions/evar.md)用eVar)。
+“Units”量度显示所有订单内购买的产品总数。 此指标对于电子商务站点衡量转化率至关重要。 您可以将此指标与任何维度相结合，以查看哪些维度项目对购买的产品数量做出了贡献。 例如，您可以看到贡献于所购买产品的顶 [级活动](../dimensions/tracking-code.md) （使用跟踪代码维）或顶级内部搜索 [词(使](../dimensions/evar.md)用eVar)。
 
 ## 如何计算此度量
 
