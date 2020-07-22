@@ -5,10 +5,10 @@ title: 划分维度
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 69%
+ht-degree: 63%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 69%
 
    ![步骤结果](assets/fa_data_table_actions.png)
 
-   您可以按照维度值或受众区段，在选定的时间期限内划分量度。此外，您还可以进一步深入到更精细的粒度级别。
+   您可以按维度项或受众段在选定时间段内细分指标。 此外，您还可以进一步深入到更精细的粒度级别。
 
    >[!NOTE]数据表可显示的划分数量最多为 200 个。在导出划分时，该限额会有所增加。
 
