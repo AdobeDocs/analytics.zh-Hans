@@ -2,7 +2,7 @@
 title: 城市
 description: 火灾发源地城市。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -22,9 +22,9 @@ ht-degree: 0%
 >
 >如果您的组织遵循严格的隐 [私法规，而模糊](/help/admin/admin/general-acct-settings-admin.md) 化IP地址是不够的，您可以请求完全禁用地理位置数据。 使用报表包ID联系客户关怀，并请求关闭报表包的“地理位置”。
 
-## 维值
+## 维项
 
-维度值包括世界各地的城市。 示例值 `"New York (New York, United States)"`包括 `"Bangalore (Karnataka, India)"`、或 `"London (London, United Kingdom)"`。
+维度项目包括世界各地的城市。 示例值 `"New York (New York, United States)"`包括 `"Bangalore (Karnataka, India)"`、或 `"London (London, United Kingdom)"`。
 
 ## 报告位置与实际位置之间的差异
 
