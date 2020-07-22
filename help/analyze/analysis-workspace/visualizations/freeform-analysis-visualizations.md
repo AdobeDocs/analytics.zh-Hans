@@ -2,15 +2,18 @@
 description: 了解 Analysis Workspace 中的可视化图表和可视化图表设置。
 keywords: Analysis Workspace
 title: 可视化图表概述
-translation-type: ht
-source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+translation-type: tm+mt
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '1069'
+ht-degree: 98%
 
 ---
 
 
 # 可视化图表概述
 
-Workspace 提供了许多可视化图表，使您能够生成数据的可视化表示形式，如条形图、圆环图、直方图、折线图、地图、散点图等。每个可视化图表都有其自身的设置，您可以管理这些设置。单击可视化图表的名称可了解更多详细信息。
+工作区提供了许多可视化图表，使您能够生成数据的可视化表示形式，如条形图、圆环图、直方图、折线图、地图、散点图等。每个可视化图表都有其自身的设置，您可以管理这些设置。单击可视化图表的名称可了解更多详细信息。
 
 YouTube 视频：[Analysis Workspace 中的可视化图表类型](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
 
@@ -28,7 +31,7 @@ YouTube 视频：[Analysis Workspace 中的可视化图表类型](https://www.yo
 | [水平条](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 显示一些水平条，这些水平条表示一个或多个量度中的各种值。 |
 | [折线图](/help/analyze/analysis-workspace/visualizations/line.md) | 使用线条来表示量度，以显示一段时间内值的变化情况。仅当使用时间作为维度时，才可以使用折线图。 |
 | [地图](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | 允许您构建任何量度（包括计算量度）的可视地图。 |
-| [散点图](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | 显示维度值与最多三个量度之间的关系。 |
+| [散点图](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | 显示维度项目与最多三个指标之间的关系。 |
 | [概要数字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 根据所选的单元格，此可视化图表显示总计和概要。 |
 | [概要变化](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 根据所选的单元格，此可视化图表会比较单元格。 |
 | [文本](/help/analyze/analysis-workspace/visualizations/text.md) | 允许您将用户定义的文本添加至您的工作区。 |
@@ -37,19 +40,19 @@ YouTube 视频：[Analysis Workspace 中的可视化图表类型](https://www.yo
 
 ## “可视化图表”面板 {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-要显示“可视化图表”面板，请单击侧面板中的 **[!UICONTROL Visualizations]**。
+要显示“可视化”面板，请单击侧边面板中的&#x200B;**[!UICONTROL 可视化]**。
 
 ![步骤结果](assets/visualizations.png)
 
 大部分可视化图表类型（例如面积图、条形图、圆环图和折线图）都是 Adobe Analytics 用户非常熟悉的。但是，Analysis Workspace 提供了可视化图表设置，以及许多全新或独特的具有交互功能的可视化图表类型。
 
-## “可视化图表”设置 {#section_D3BB5042A92245D8BF6BCF072C66624B}
+## “可视化”设置 {#section_D3BB5042A92245D8BF6BCF072C66624B}
 
-要访问 [!UICONTROL Visualization Settings]，请将可视化图表拖动到 [!UICONTROL Freeform Panel]，然后单击 [!UICONTROL Visualization Settings] 齿轮图标。
+要访问[!UICONTROL 可视化设置]，请将一个可视化拖到[!UICONTROL 自由格式面板]中，然后单击[!UICONTROL 可视化设置]齿轮图标。
 
 >[!IMPORTANT]
 >
->可视化图表决定了哪些可视化图表设置可见。并非所有设置都适用于所有可视化图表。此外，某些高级设置&#x200B;**仅**&#x200B;可对特定可视化图表显示，例如[直方图设置](/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477)。
+>可视化决定了哪些可视化设置可见。并非所有设置都适用于所有可视化图表。此外，某些高级设置&#x200B;**仅**&#x200B;可对特定可视化图表显示，例如[直方图设置](/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477)。
 
 ![](assets/visualization_settings.png)
 
@@ -66,7 +69,7 @@ YouTube 视频：[Analysis Workspace 中的可视化图表类型](https://www.yo
 
 ## “创建可视化”图标 {#section_9C11D9DEDC42413AA53E69A71A509DFC}
 
-如果不确定应选取哪个可视化图表，请单击任意表行中的 **[!UICONTROL Create Visual]** 图标。将光标悬停在表行上时，将显示此图标。单击此图标将提示 Analysis Workspace 针对哪种可视化图表最适合您的数据做出有根据的推测。例如，如果最多选择了 3 个区段，系统将创建维恩图。如果选择了 3 个以上的区段，系统将创建条形图。对于其他类型的数据，系统可能会创建折线图，等等。
+如果不确定应选取哪个可视化，请单击任意表行中的&#x200B;**[!UICONTROL 创建可视化]**&#x200B;图标。将光标悬停在表行上时，将显示此图标。单击此图标将提示 Analysis Workspace 针对哪种可视化图表最适合您的数据做出有根据的推测。例如，如果最多选择了 3 个区段，系统将创建维恩图。如果选择了 3 个以上的区段，系统将创建条形图。对于其他类型的数据，系统可能会创建折线图，等等。
 
 ![](assets/create-visual.png)
 
@@ -99,7 +102,7 @@ YouTube 视频：[Analysis Workspace 中的可视化图表类型](https://www.yo
 要编辑图例标签，例如在折线图中编辑图例标签，请执行以下操作：
 
 1. 右键单击某个图例标签。
-1. 单击 **[!UICONTROL Edit Label]**。
+1. 单击&#x200B;**[!UICONTROL 编辑标签]**。
 
    ![](assets/edit-label.png)
 
