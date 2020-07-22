@@ -3,10 +3,10 @@ description: 如何开始使用 Adobe Analytics。
 keywords: Analysis Workspace
 title: 入门指南
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1337'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ Analysis Workspace 是 Adobe 的一款旗舰工具，可用于为您的组织制
 
 ## 在工作区中提取基本的排名报表
 
-使用 Analysis Workspace 提取基本的排名报表。排名报表会显示每个维度值的聚合总视图，其中最先显示最大值。这些类型的报表有助于查看网站中的哪些组件最有效，例如，哪些页面的流量最大，或者哪些产品销量最高。
+使用 Analysis Workspace 提取基本的排名报表。排名报表显示每个维项目的汇总总视图，首先显示最大值。 这些类型的报表有助于查看网站中的哪些组件最有效，例如，哪些页面的流量最大，或者哪些产品销量最高。
 
 1. 使用您的 Adobe ID 凭据登录 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 2. 单击右上角的 9 个正方形图标，然后单击彩色的 Analytics 徽标。
