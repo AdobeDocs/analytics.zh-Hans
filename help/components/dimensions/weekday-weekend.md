@@ -2,7 +2,7 @@
 title: 工作日/周末
 description: 确定在工作日还是周末发生点击。
 translation-type: tm+mt
-source-git-commit: 05ea2778cd5cd324c660fd0f1d2ac02373829f0f
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 3%
@@ -18,6 +18,6 @@ ht-degree: 3%
 
 此维度适用于所有实施。 如果报表包包含数据，则此维有效。
 
-## 维值
+## 维项
 
-此维始终仅包含两个维值： `"Weekday"` 和 `"Weekend"`。 维值适用 `"Weekday"` 于星期一到星期五的所有点击，而维值适 `"Weekend"` 用于星期六和星期日的所有点击。
+此维始终仅包含两个维项： `"Weekday"` 和 `"Weekend"`。 维项目适 `"Weekday"` 用于周一到星期五的所有点击，而维项目适 `"Weekend"` 用于星期六和星期日的所有点击。
