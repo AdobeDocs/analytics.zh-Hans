@@ -3,10 +3,10 @@ description: 本帮助页面包含每个 Adobe Analytics 工具的推荐使用�
 title: 我应该使用哪种 Adobe Analytics 工具？
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: c53580905e6bb22b9cdb2917734a189e1f83d72f
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1102'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 100%
 * 用于访问比 UI 更细粒度的数据（非规范化的表视图）
 * 用于下载适用于数据透视表输入格式的数据
 * 适用于客户端要将 Adobe 数据输入第三方数据可视化工具的情况（稍微汇总，不是点击级别）
-* 用于在 Adobe Analytics 中遇到“低流量”的情况下访问所有独特维度值
+* 在AdobeAnalytics中遇到“流量不足”时访问所有唯一维度项
 
 应使用 **[Analytics 数据馈送](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)**：
 
