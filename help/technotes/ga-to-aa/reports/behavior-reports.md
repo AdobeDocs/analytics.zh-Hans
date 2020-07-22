@@ -2,7 +2,10 @@
 title: Adobe Analytics 中的行为报表
 description: 了解如何在 Adobe Analytics 中创建行为报表
 translation-type: tm+mt
-source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '803'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
 可以使用“流量”可视化重新创建行为流量报表。
 
 1. 单击左侧的“可视化”图标，然后将“流量”可视化拖到自由格式表上方的工作区
-2. 找到&#x200B;**页面**&#x200B;维度，然后单击箭头图标以显示页面值。维度值的颜色为黄色。
+2. 找到&#x200B;**页面**&#x200B;维度，然后单击箭头图标以显示页面值。尺寸项呈黄色。
 3. 找到要开始使用的所需页面值，并将其拖动到中心标有“维度或项目”的位置
 4. 此流量报表是交互式的。单击任意值可将流量展开到后续或之前的页面。使用右键单击菜单可展开或折叠列。此外，还可以在同一流量报表中使用不同的维度。
 
