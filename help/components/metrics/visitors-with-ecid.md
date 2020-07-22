@@ -2,7 +2,7 @@
 title: 具有 Experience Cloud ID 的访客
 description: 使用Adobe Experience Cloud ID服务的唯一访客数。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 19%
@@ -20,7 +20,7 @@ ht-degree: 19%
 
 ## 如何计算此度量
 
-此度量基于唯一 [访客](unique-visitors.md) ，但仅包括使用查询字符串(基于 `mid`[`s_ecid`](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/ec-cookies/cookies-analytics.html) cookie)标识的个人。
+此度量基于唯一 [访客](unique-visitors.md) ，但只包括使用查询字符串(基于 `mid`[`s_ecid`](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/ec-cookies/cookies-analytics.html) cookie)标识的个人。
 
 ## 调试Experience CloudID设置
 
@@ -38,4 +38,4 @@ ht-degree: 19%
 
 ![无ID服务的页面](assets/metric-mcvid3.png)
 
-请注意，“产品快速视图”维度值未通过Identity Service正确实现。 您可以与组织内的适当团队合作，以尽快更新这些页面。 您可以使用任何类型的维(如浏览器类型、 [站点区](../dimensions/browser-type.md)[域或任何eVar](../dimensions/site-section.md))构建类 [似报表](../dimensions/evar.md)。
+请注意，“产品快速视图”维度项未通过Identity Service正确实现。 您可以与组织内的适当团队合作，以尽快更新这些页面。 您可以使用任何类型的维(如浏览器类型、 [站点区](../dimensions/browser-type.md)[域或任何eVar](../dimensions/site-section.md))构建类 [似报表](../dimensions/evar.md)。
