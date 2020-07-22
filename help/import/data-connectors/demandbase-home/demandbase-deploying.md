@@ -3,10 +3,10 @@ description: 部署此集成的流程非常简单，只需执行以下操作。
 title: 部署集成
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1310'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -119,7 +119,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> _db._delim </td> 
-   <td colname="col2"> 在将 Demandbase 维度值发送到 Adobe Analytics 时用来分隔这些值的分隔符。更改此设置可能导致默认分类规则无法正常运行。 </td> 
+   <td colname="col2"> 用于在Demandbase维度项发送到AdobeAnalytics时分隔这些维度项的分隔符。 更改此设置可能导致默认分类规则无法正常运行。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> _db._setTnt </td> 
