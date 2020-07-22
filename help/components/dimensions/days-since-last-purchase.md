@@ -2,7 +2,7 @@
 title: 上次购买后的天数
 description: 当前点击与他们上次购买之间的天数。
 translation-type: tm+mt
-source-git-commit: c9e696201d0e9ec97dcdd6ff797ca72244dcf366
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 0%
@@ -20,6 +20,6 @@ ht-degree: 0%
 
 Adobe会根据您实施中的事件自 [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) 动填充此维度。 如果您在站点 `purchase` 上实施事件，则此维始终有效。
 
-## 维值
+## 维项
 
-维值包括访客最近购买与当前点击之间的天数。 每天数都是一个单独的维度值，“同一天”发生在访客最近购买和当前点击发生在同一天。
+维项目包括访客最近购买与当前点击之间的天数。 每个天数是单独的维度项目，“同一天”发生在访客最近购买和当前点击发生在同一天。
