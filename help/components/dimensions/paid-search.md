@@ -2,7 +2,7 @@
 title: 付费搜索
 description: 区分付费和自然搜索的指标。
 translation-type: tm+mt
-source-git-commit: d71edc74644907b47bfb6492e7a6c47c06d5984f
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -18,6 +18,6 @@ ht-degree: 0%
 
 此维度正常工作的唯一要求是在报表包设 [置中正确配置](/help/admin/admin/paid-search-detection/paid-search-detection.md) “付费搜索检测”。 如果付费搜索检测配置正确且报表包包含数据，则此维度始终有效。
 
-## 维值
+## 维项
 
-维值包括两个静态值： `"Natural"` 和 `"Paid"`。 如果访问与搜索引擎的条件匹配且与付费搜索检测也匹配，则它属于维 `"Paid"` 度值。 如果访问与搜索引擎的条件匹配且与付 *费搜* 索检测不匹配，则它属于 `"Natural"` 维值。
+维项包括两个静态值： `"Natural"` 和 `"Paid"`。 如果访问与搜索引擎的条件匹配且与付费搜索检测也匹配，则它属于维 `"Paid"` 度项。 如果访问与搜索引擎的条件匹配且与付 *费搜* 索检测不匹配，则它属于 `"Natural"` 维项。
