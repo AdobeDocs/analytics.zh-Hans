@@ -2,7 +2,7 @@
 title: eVar（销售）
 description: 与产品维关联的自定义变量。
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 25%
@@ -48,7 +48,7 @@ If merchandising is enabled for the eVar in the previous example, the search ter
 不建 [议](../metrics/instances.md) “实例”量度用于推销变量。
 
 * 对于使用产品语法的销售变量，实例根本不会增加。
-* 对于使用转换变量语法的推销变量，每次设置eVar时都会计算实例。 但是，它属于维值，除 `"None"` 非在同一次点击中发生以下所有情况：
+* 对于使用转换变量语法的推销变量，每次设置eVar时都会计算实例。 但是，它属于维项，除 `"None"` 非同一次点击发生以下所有情况：
    * 销售eVar设置有值。
    * 变 `products` 量用值定义。
    * 已设置捆绑事件。
