@@ -2,7 +2,7 @@
 title: 移动维度
 description: 基于设备的用户代理字符串的维度。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 4%
@@ -12,7 +12,7 @@ ht-degree: 4%
 
 # 移动维度
 
-*本页引用访问您网站的移动设备的属性。 如果要跟踪移动应用程序上的设备，请参阅[实施用户指南中的](/help/implement/mobile-device-sdk.md)“为移动设备实施Analytics”。*
+*本页引用访问您网站的移动设备的属性。 如果要跟踪移动应用程序上的设备，请参阅[实施用户指南中](/help/implement/mobile-device-sdk.md)的实施移动设备Analytics。*
 
 移动维度提供有关访问网站的移动设备属性的洞察。 您可以使用这些维度来帮助了解移动设备支持哪些功能。
 
@@ -24,17 +24,17 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->标记为非 `"None"` 移动设备的维度值。 如果您希望报告只包含移动设备，请将“移动设备”维度拖入Workspace画布的区段区域。
+>标记为非 `"None"` 移动设备的维度项目。 如果您希望报告只包含移动设备，请将“移动设备”维度拖入Workspace画布的区段区域。
 
-* **移动音频支持**: 确定设备可播放的文件格式。 示例值 `"MP3"`包括 `"AAC"`、和 `"MIDI Monophonic"`。 此维中的值不是互斥的； 一次点击可以归因于多个维度值。
-* **移动运营商**: 如果用户代理包含运营商专用设备，则运营商是维度值。 示例值 `"Reliance Jio"`包括 `"Airtel"`、 `"Vodafone"`、和 `"Verizon"`。
+* **移动音频支持**: 确定设备可播放的文件格式。 示例值 `"MP3"`包括 `"AAC"`、和 `"MIDI Monophonic"`。 此维中的值不是互斥的； 单次点击可归因于多个维度项。
+* **移动运营商**: 如果用户代理包含运营商专用设备，则运营商是维度项。 示例值 `"Reliance Jio"`包括 `"Airtel"`、 `"Vodafone"`、和 `"Verizon"`。
 * **移动颜色深度**: 移动设备的色深（以位为单位）。
-* **移动cookie支持**: 确定移动设备是否支持Cookie。 如果浏览器接受cookie，则此报告不声明。 维值 `"Supported"`包括 `"Not supported"`、和 `"Unknown"`。
+* **移动cookie支持**: 确定移动设备是否支持Cookie。 如果浏览器接受cookie，则此报告不声明。 维项目 `"Supported"`包括 `"Not supported"`、和 `"Unknown"`。
 * **移动设备**: 访客使用的移动设备。
-* **移动设备号**: 确定移动设备是否传输其号码。 维值 `"Supported"`包括 `"Not supported"`、和 `"Unknown"`。
+* **移动设备号**: 确定移动设备是否传输其号码。 维项目 `"Supported"`包括 `"Not supported"`、和 `"Unknown"`。
 * **移动设备类型**: 移动设备的类型。 示例值 `"Mobile phone"`包括 `"Tablet"`、 `"Media player"`、和 `"Gaming console"`。
 * **移动DRM**: 移动设备支持的DRM类型。 示例值 `"DRM OMA forward"`包括 `"DRM OMA combined delivery"`、和 `"DRM OMA separate delivery"`。
-* **移动图像支持**: 移动设备支持的图像类型。 示例值 `"PNG"`包括 `"JPEG"`、和 `"GIF 87"`。 此维中的值不是互斥的； 一次点击可以归因于多个维度值。
+* **移动图像支持**: 移动设备支持的图像类型。 示例值 `"PNG"`包括 `"JPEG"`、和 `"GIF 87"`。 此维中的值不是互斥的； 单次点击可归因于多个维度项。
 * **移动信息服务**: 设备支持的新闻服务类型。 近期设备通常不会报告此信息。
 * **移动Java VM**: 设备支持的Java版本。
 * **移动邮件装饰**: 确定设备是否支持反编译，该功能在日文设备上曾经很流行。
@@ -48,7 +48,7 @@ ht-degree: 4%
 * **移动屏幕高度**: 屏幕高度（以像素为单位）。 请注意，由于无法确 `"480"` 定iPhone设备版本，iPhone始终会报告。 请参阅下面有关确定iPhone设备版本的部分。
 * **移动屏幕大小**: 移动设备的完整尺寸（以像素为单位）。 报告的屏幕大小不指示设备的方向。无论采用何种屏幕方向，每个设备都在报表中有固定的屏幕分辨率。此大小基于用来确定哪种方向更为可能的研究。You can see sizes such as `"768x1024"` and `"1024x768"` in the same report with each size representing one or more different devices.
 * **移动屏幕宽度**: 屏幕的宽度（以像素为单位）。
-* **移动视频支持**: 移动设备支持的视频文件格式和编解码器。 MP4和3GPP文件的不同编解码器存在若干维值。 此维中的值不是互斥的； 一次点击可以归因于多个维度值。
+* **移动视频支持**: 移动设备支持的视频文件格式和编解码器。 MP4和3GPP文件的不同编解码器存在若干维项。 此维中的值不是互斥的； 单次点击可归因于多个维度项。
 
 ## 按型号或版本分离iPhone
 
