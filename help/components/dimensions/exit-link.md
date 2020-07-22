@@ -2,7 +2,7 @@
 title: 退出链接
 description: 退出链接的名称。
 translation-type: tm+mt
-source-git-commit: c9e696201d0e9ec97dcdd6ff797ca72244dcf366
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 2%
@@ -24,6 +24,6 @@ ht-degree: 2%
 * 将 [`linkType`](/help/implement/vars/config-vars/linktype.md) 变量设置为 `"e"`.
 * 发送图 [`tl()`](/help/implement/vars/functions/tl-method.md) 像请求。
 
-## 维值
+## 维项
 
-由于此变量基于实施中的自定义字符串，因此您的组织将确定维值的大小。 Adobe建议您根据类别需求将链接分组到有意义的报告中。
+由于此变量基于实施中的自定义字符串，因此您的组织将确定维项目。 Adobe建议您根据类别需求将链接分组到有意义的报告中。
