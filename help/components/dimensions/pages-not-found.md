@@ -2,7 +2,7 @@
 title: 页面未找到
 description: 在您的站点上返回错误的URL。
 translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 2%
@@ -23,6 +23,6 @@ ht-degree: 2%
 
 此维从图像请求中的数 [`pageType` 据和 `g` 查询字符串](/help/implement/validate/query-parameters.md) 中检索数据。 如果 `pageType` 查询字符串 `errorPage`等于，则 `g` 会记录查询字符串（页面URL）。 AppMeasurement使用变量收集此 [`pageType`](/help/implement/vars/page-vars/pagetype.md) 数据。 如果未 `pageType` 定义变量或将其设置为除 `errorPage`外的任何其他变量，则不会收集此维的数据。
 
-## 维值
+## 维项
 
-维度值包括站点上发生错误的页面的URL。
+维项目包括站点上发生错误的页面的URL。
