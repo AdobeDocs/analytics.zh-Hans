@@ -2,7 +2,7 @@
 title: 显示器分辨率
 description: 访客显示器的分辨率（以像素为单位）。
 translation-type: tm+mt
-source-git-commit: ad206649488a1a2dead717cdfe53f4c630ba3f3b
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 1%
@@ -24,8 +24,8 @@ ht-degree: 1%
 
 ## 用数据填充此维
 
-此维从图像请求中的 [`s` 查询字符串](/help/implement/validate/query-parameters.md) 检索数据。 AppMeasurement使用JavaScript变量在浏览器中 `screen.width` 收 `screen.height` 集此数据。 如果您使用AppMeasurement库（如通过Adobe Experience Platform Launch），此维度将开箱即用。 如果您在AppMeasurement之外使用查询收集方法（如通过API），请确保在图像请求中包含 `s` 字符串参数。
+此维从图像请求中的 [`s` 查询字符串](/help/implement/validate/query-parameters.md) 检索数据。 AppMeasurement使用JavaScript变量在浏览器中 `screen.width` 收 `screen.height` 集此数据。 如果您使用AppMeasurement库(如通过Adobe Experience Platform启动)，则此维度开箱即用。 如果您在AppMeasurement之外使用查询收集方法（如通过API），请确保在图像请求中包含 `s` 字符串参数。
 
-## 维值
+## 维项
 
-维度值包括所有收集的监视器分辨率。 示例值 `1920 x 1080`包括 `1366 x 768`、和 `1280 x 720`。
+维度项目包括所有收集的监视器分辨率。 示例值 `1920 x 1080`包括 `1366 x 768`、和 `1280 x 720`。
