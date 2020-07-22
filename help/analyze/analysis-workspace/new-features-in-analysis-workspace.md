@@ -3,10 +3,10 @@ description: Analysis Workspace 的新增功能
 keywords: Analysis Workspace
 title: Analysis Workspace 中的新增功能
 translation-type: tm+mt
-source-git-commit: 8ce13270a254af140e38b981e9edd9b5e122cdf9
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '7820'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 98%
 | 能够共同编辑工作区项目 | 添加到“可以编辑”角色的收件人可以保存已共享给他们的项目。这同时适用于管理员和非管理员用户。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 更新的空白面板 | 空白面板现在包括面板和可视化功能，为您提供了一种更无缝的方式来选择最适合您的分析工作流程。 |
 | “快速洞察”面板（2020年6月25日） | Quick Insights 可为 Analysis Workspace 的非分析师和新用户了解如何快速轻松地回答业务问题提供指导。[了解更多...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| Analytics工作区目标小组（2020年6月25日） | 借助“Analytics for Target”(A4T) 面板，您可以满怀信心地在 Analysis Workspace 中分析 Adobe Target 活动和体验。[了解更多...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| Workspace中目标面板的Analytics（2020年6月25日） | 借助“Analytics for Target”(A4T) 面板，您可以满怀信心地在 Analysis Workspace 中分析 Adobe Target 活动和体验。[了解更多...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
 | 关于 Workspace 页面 | 关于 Workspace 页面提供了有关您的 Analysis Workspace 环境、Adobe Analytics 管理员（如果您需要支持）的信息，以及提交产品反馈的方法。可按照以下路径找到该页面：Workspace > 帮助 > 关于 Workspace。 |
 
 ## 2020 年 5 月
@@ -345,7 +345,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > 新的行设置 </a> </p> </td> 
-   <td colname="col2"> <p>新的<span class="uicontrol">按行计算百分比</span>设置强制自由格式表计算整行中的单元格百分比，而不是沿列向下计算。这对显示百分比趋势特别有用，例如显示一个维度值与其余维度值在一段时间内的对比趋势。在单击<span class="uicontrol">可视化</span>图标时，默认情况下会开启该设置。 </p> </td> 
+   <td colname="col2"> <p>新的<span class="uicontrol">按行计算百分比</span>设置强制自由格式表计算整行中的单元格百分比，而不是沿列向下计算。这对于趋势百分比特别有用，例如趋势显示一个维度项目在一段时间内与其余项目的趋势。 在单击<span class="uicontrol">可视化</span>图标时，默认情况下会开启该设置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  >“100% 堆叠”可视化图表设置</a> </p> </td> 
@@ -515,7 +515,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p>对“无”/“未指定”进行了更改 </p> </td> 
-   <td colname="col2"> <p>对 Analysis Workspace 中“无”/“未指定”的工作方式进行了更改，从而使其与 Reports &amp; Analytics、区段生成器和 Analysis Workspace 中的维度值菜单保持一致。 </p> <p>这意味着在 Analysis Workspace 的大多数项目中，值将显示为“未指定”而非“无”。 </p> </td> 
+   <td colname="col2"> <p>更改了“无”/“未指定”在Analysis Workspace下的工作方式，以便与“报告和Analytics”、“区段生成器”和“Analysis Workspace”中的维项目菜单保持一致。 </p> <p>这意味着在 Analysis Workspace 的大多数项目中，值将显示为“未指定”而非“无”。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
