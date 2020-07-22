@@ -2,7 +2,7 @@
 title: 语言
 description: 浏览器中的首选语言设置。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 1%
@@ -22,6 +22,6 @@ ht-degree: 1%
 
 此维引用Adobe内部的查找表。 查找值基于图像请 `Accept-Language` 求中的HTTP头。 如果您使用AppMeasurement库(如通过Adobe Experience Platform启动)，则此维度开箱即用。
 
-## 维值
+## 维项
 
-维值包括首选访客语言的友好名称。 Examples include `"English (United States)"`, `"English (United Kingom)"`, `"Chinese (China)"`, and `"Spanish (Spain)"`. 如果图像请求在HTTP头中不包含有效语言，则维值为 `"None"`。
+维项目包括首选访客语言的友好名称。 Examples include `"English (United States)"`, `"English (United Kingom)"`, `"Chinese (China)"`, and `"Spanish (Spain)"`. 如果图像请求在HTTP头中不包含有效语言，则维项为 `"None"`。
