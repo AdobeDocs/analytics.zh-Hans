@@ -2,7 +2,7 @@
 title: 点击类型
 description: 确定点击是前景还是背景点击。
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 2%
@@ -16,8 +16,8 @@ ht-degree: 2%
 
 ## 用数据填充此维
 
-此维度适用于4.13.6或更高版本上的所有移动SDK实施。 如果您不使用移动SDK，则所有点击“前景”维值下的列表。 If &quot;Disable Legacy Reporting and Attribution for Background Hits&quot; is checked, then background hits will show up only in [Virtual report suites](../vrs/vrs-mobile-visit-processing.md).
+此维度适用于4.13.6或更高版本上的所有移动SDK实施。 如果您不使用移动SDK，则“前景”维项下的所有点击列表。 If &quot;Disable Legacy Reporting and Attribution for Background Hits&quot; is checked, then background hits will show up only in [Virtual report suites](../vrs/vrs-mobile-visit-processing.md).
 
-## 维值
+## 维项
 
-维值包括 `"Foreground"` 和 `"Background"`。 未在手机应用程序背景中发送的任何点击都属于 `"Foreground"` 维度值。 移动应用程序在后台发送的任何点击都属于 `"Background"` 维度值。
+维项包括 `"Foreground"` 和 `"Background"`。 未在手机应用程序背景中发送的任何点击都属于维 `"Foreground"` 度项。 移动应用程序在后台发送的任何点击都属于维 `"Background"` 度项。
