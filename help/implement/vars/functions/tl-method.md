@@ -2,10 +2,10 @@
 title: tl
 description: 向 Adobe 发送链接跟踪调用。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -79,7 +79,7 @@ s.tl(true,"e");
 
 ### 链接名称
 
-链接名称参数是一个可确定链接跟踪维度值的字符串。它的设置方式与设置 [`linkName`](../config-vars/linkname.md) 变量相同。
+链接名称参数是确定链接跟踪维项的字符串。 它的设置方式与设置 [`linkName`](../config-vars/linkname.md) 变量相同。
 
 ```js
 s.tl(true,"d","Example download link");
