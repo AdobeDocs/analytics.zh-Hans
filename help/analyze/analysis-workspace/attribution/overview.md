@@ -1,8 +1,8 @@
 ---
 title: 归因概述
-description: 将成功事件的信用归因到多维值的概念。
+description: 将成功事件的信用归因到多个维度项目的概念。
 translation-type: tm+mt
-source-git-commit: 53f5c4273a7621f3b447e36b19010a797e4ddffe
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 52%
@@ -12,12 +12,12 @@ ht-degree: 52%
 
 # 归因概述
 
-Attribution使分析师能够自定义维度值如何为成功事件赢得赞誉。 例如：
+Attribution使分析师能够自定义维度项目如何获得成功事件的认可。 例如：
 
 1. 网站访客单击指向您的某个产品页面的付费搜索链接。 将产品添加到购物车，但不购买。
 2. 第二天，查看其朋友的社交媒体帖子，单击链接，然后完成购买。
 
-在某些报表中，您可能希望订单归属于“付费”搜索。 在其他报表中，您可能希望订单归属于社交。 Attribution允许您控制报告的这一方面。 Adobe Analytics Ultimate、Prime、Select和Foundation上的所有组织均可使用它。 如果您不确定您与Adobe的合同类型，请与贵组织的客户经理联系。
+在某些报表中，您可能希望订单归属于“付费”搜索。 在其他报表中，您可能希望订单归属于社交。 Attribution允许您控制报告的这一方面。 它适用于AdobeAnalytics旗舰版、Prime、Select和Foundation上的所有组织。 如果您不确定您与Adobe的合同类型，请与贵组织的客户经理联系。
 
 ## 归因IQ的价值
 
