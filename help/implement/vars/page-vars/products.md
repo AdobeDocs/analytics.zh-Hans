@@ -2,17 +2,17 @@
 title: 产品
 description: 发送有关所显示产品或购物车中产品的数据。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 92%
+ht-degree: 87%
 
 ---
 
 
 # 产品
 
-`products` 变量会跟踪与其关联的产品和属性。此变量通常在单个产品页面、购物车页面和购买确认页面上设置。它是一个多值变量，这意味着您可以在同一次点击中发送多个产品，Adobe 会将该值解析为单独的维度值。
+`products` 变量会跟踪与其关联的产品和属性。此变量通常在单个产品页面、购物车页面和购买确认页面上设置。它是一个多值变量，这意味着您可以在同一次点击中发送多个产品，Adobe会将该值解析为单独的维度项目。
 
 >[!NOTE]
 >
