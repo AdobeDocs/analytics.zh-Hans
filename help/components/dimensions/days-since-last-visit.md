@@ -2,7 +2,7 @@
 title: 上次访问间隔天数
 description: 当前点击与上次访问之间的天数。
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 14%
@@ -24,6 +24,6 @@ ht-degree: 14%
 
 此维度适用于所有实施。 如果报表包包含数据，则此维有效。
 
-## 维值
+## 维项
 
-维值包括访客上次访问与当前点击之间的天数。 每个天数都是一个单独的维度值， `"Same day"` 访客的上次访问和当前点击发生在同一天。
+维项目包括访客上次访问与当前点击之间的天数。 每个天数是单独的维度项目， `"Same day"` 访客上次访问和当前点击发生在同一天。
