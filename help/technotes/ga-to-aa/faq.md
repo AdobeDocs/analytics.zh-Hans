@@ -2,17 +2,17 @@
 title: 常见问题解答
 description: 获取从第三方平台转到 Adobe 时的常见问题解答。
 translation-type: tm+mt
-source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 75%
+ht-degree: 66%
 
 ---
 
 
 # 常见问题解答
 
-**如何将历史数据从第三方平台迁移到Adobe Analytics?**
+**如何将历史数据从第三方平台迁移到AdobeAnalytics?**
 
 每个 Analytics 平台都有不同的数据收集、处理和存储方式。Adobe 建议建立明确的截止日期，以便开始在 Adobe Analytics 中收集和使用数据，而不是迁移历史数据。经常使用的截止日期是财政年度的开始、日历年的开始或日历月的开始。如果用户希望查看历史数据，则可登录第三方平台以获取任何特定的历史报告需求。
 
@@ -29,6 +29,6 @@ Dropdown filters are a flexible and robust feature in [!UICONTROL Analysis Works
 
 Users accessing this [!UICONTROL Workspace] project can now use this dropdown to apply segments or other components to the project. See [Panels Overview](/help/analyze/analysis-workspace/c-panels/panels.md) in the Adobe Analytics Tools guide for more information.
 
-**我习惯通过单击维度值来查看明细。如何在 Analysis Workspace 中重现这种轻松的工作流？**
+**我习惯单击维度项目以查看追溯。 如何在 Analysis Workspace 中重现这种轻松的工作流？**
 
-分析工作 [!UICONTROL 区中的维值] ，还具有简单的细分工作流。 使用右键（而非左键）访问它。 Right-click on a dimension value, click **[!UICONTROL Breakdown], then select the desired component. 按住 ctrl 并单击 (Windows) 或按住 cmd 并单击 (Mac) 每个值，可将同一个划分应用于多个维度值。
+Analysis Workspace中的 [!UICONTROL 维] 项目也具有简单的细分工作流。 使用右键（而非左键）访问它。 Right-click on a dimension item, click **[!UICONTROL Breakdown], then select the desired component. 对每个值使用ctrl+单击(Windows)或cmd+单击(Mac)，可将同一细分应用于多个维项目。
