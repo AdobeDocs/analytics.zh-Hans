@@ -2,10 +2,10 @@
 title: 动态变量
 description: 在不增加图像请求长度的情况下复制变量。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '359'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -26,14 +26,14 @@ ht-degree: 100%
 
 ## Adobe Experience Platform Launch 中的动态变量
 
-您可以在接受字符串的任何维度字段中使用动态变量。通常在配置 Analytics 扩展（全局变量）时或根据规则设置维度值。
+您可以在接受字符串的任何维度字段中使用动态变量。通常在配置Analytics扩展（全局变量）或规则下设置维项。
 
 1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 2. 单击所需的属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
 5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
-6. 找到所需的维度值。
+6. 找到所需的维度项。
 
 将动态变量前缀置于文本字段中，然后放置要引用的查询字符串参数或 HTTP 标头。默认情况下，动态变量前缀为 `D=`。
 
