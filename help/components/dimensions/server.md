@@ -2,7 +2,7 @@
 title: Server
 description: 服务器的名称。
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 1%
@@ -20,6 +20,6 @@ ht-degree: 1%
 
 此维从图像请求中的 [`server` 查询字符串](/help/implement/validate/query-parameters.md) 检索数据。 AppMeasurement使用变量收集此 [`server`](/help/implement/vars/page-vars/server.md) 数据。
 
-## 维值
+## 维项
 
-维度值包括站点上的服务器。 您的组织确定您要使用的特定维度值。 一些组织使 `window.location.hostname`用，而另一些组织使用自定义值。 无论您使用何种方法，都应确保其一致性，并将其记录在解决方案 [设计文档中](/help/implement/prepare/solution-design.md)。
+维项目包括站点上的服务器。 您的组织确定要使用哪些特定维项目。 一些组织使 `window.location.hostname`用，而另一些组织使用自定义值。 无论您使用何种方法，都应确保其一致性，并将其记录在解决方案 [设计文档中](/help/implement/prepare/solution-design.md)。
