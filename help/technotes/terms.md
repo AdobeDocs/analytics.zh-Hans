@@ -2,10 +2,10 @@
 title: Adobe Analytics 中使用的术语
 description: Adobe Analytics 词汇表，用于定义常用术语。
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '2458'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 96%
 * **渠道：**&#x200B;可以称为：
    * 渠道变量，用于填充“网站区域”维度。请参阅实施用户指南中的[页面变量](/help/implement/vars/page-vars/page-variables.md)。
    * 营销渠道，可以帮助了解用户如何到达您网站的组件。请参阅组件用户指南中的[营销渠道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
-* **分类：** Adobe Analytics 中允许对维度值进行分组的功能。请参阅组件用户指南中的[分类](/help/components/c-classifications2/c-classifications.md)。
+* **分类：** AdobeAnalytics中允许对维度项目进行分组的功能。 请参阅组件用户指南中的[分类](/help/components/c-classifications2/c-classifications.md)。
 * **Clickmap：**&#x200B;不再使用。一个旧版浏览器插件，用于显示您网站上哪些区域的点击率最高。此工具已停用，改为 Activity Map。
 * **点击流数据馈送：**&#x200B;请参阅“数据馈送”。
 * **同类群组：**&#x200B;一组在特定时间段内具有共同特征的人员。请参阅分析用户指南中的[什么是队列分析？](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) 分析用户指南。
@@ -75,7 +75,7 @@ ht-degree: 96%
 * **量度：**&#x200B;包含定量数据的组件类型。量度值通常包含数字，如页面查看次数、访问次数和收入。通常与维度相对应。
 * **多包标记：**&#x200B;向多个报表包发送相同点击的实践。随着虚拟报表包的推出，基本上不再需要这一实践。大多数多包标记工作可帮助满足全局报表包的需求。
 * **标准化：**&#x200B;一种组织可视化的方法，采用所有量度并强制按同等比例排列量度，从而更容易比较趋势。
-* **发生次数：**&#x200B;一种量度类型，用于显示设置或保留维度值的点击量。请参阅 [组件](/help/components/metrics/occurrences.md) 用户指南中的“发生次数”量度。
+* **发生次数：** 一种度量类型，它显示设置或保留的维项的点击量。 请参阅 [组件](/help/components/metrics/occurrences.md) 用户指南中的“发生次数”量度。
 * **Omniture：**&#x200B;不再用作术语。在 2009 年被 Adobe 收购之前拥有 Adobe Analytics 的组织。
 * **路径：**&#x200B;请参阅“流”。
 * **页面视图：**&#x200B;一种可增加页面查看次数的点击类型。请参阅 [组件用户指南](/help/components/metrics/page-views.md) 中的页面视图量度。 另请参阅“点击”。
