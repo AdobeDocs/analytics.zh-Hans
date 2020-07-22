@@ -1,8 +1,8 @@
 ---
 title: 归因模型和回顾时间范围
-description: 不同类型的归因如何划分维度值之间的归因。
+description: 不同类型的归因如何划分维度项目之间的积分。
 translation-type: tm+mt
-source-git-commit: fdfc07702993510e53b28ccc172a48c5f079e23e
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1483'
 ht-degree: 93%
@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # 归因模型和回顾时间范围
 
-AdobeAnalytics归因的概念需要两个组件：
+AdobeAnalytics中归因的概念需要两个组件：
 
 * **归因模型：**&#x200B;此模型描述某个群组中点击的转化分布。例如，首次接触或最后接触。
 * **归因回顾窗口：**&#x200B;回顾窗口描述针对每个模型考虑的点击分组。例如，访问或访客。
