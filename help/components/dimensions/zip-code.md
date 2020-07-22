@@ -2,7 +2,7 @@
 title: 邮政编码
 description: 访客的邮政编码。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -27,6 +27,6 @@ ht-degree: 0%
 >
 >如果您希望完全控制填充此维的方式，报表包设置至关重要。
 
-## 维值
+## 维项
 
-维值包括访客的邮政编码。
+维度项目包括访客的邮政编码。
