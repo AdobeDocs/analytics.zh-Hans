@@ -2,7 +2,7 @@
 title: 搜索引擎
 description: 访客用来访问您网站的搜索引擎。
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 1%
@@ -27,6 +27,6 @@ ht-degree: 1%
 
 此维引用Adobe内部的多个查找表。 每个值都基于点击 [的推荐人](referrer.md) ，这取决于 [内部URL过滤器](/help/admin/admin/internal-url-filter-admin.md)。 确保正确配置推荐人维和内部URL过滤器。
 
-## 维值
+## 维项
 
-维度值包括用于访问网站的搜索引擎。 示例值 `"Google"`包括 `"Microsoft Bing"`、和 `"DuckDuckGo"`。 维 `"Unspecified"` 度值是所有非搜索流量。
+维度项目包括用于访问您的站点的搜索引擎。 示例值 `"Google"`包括 `"Microsoft Bing"`、和 `"DuckDuckGo"`。 维 `"Unspecified"` 度项是所有非搜索流量。
