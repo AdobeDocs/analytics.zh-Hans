@@ -2,7 +2,7 @@
 title: 跨设备分析常见问题解答
 description: 跨设备分析常见问题解答
 translation-type: tm+mt
-source-git-commit: f8b70ada0a2003e43a841b6721aaa474aa9699f0
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 52%
@@ -43,7 +43,7 @@ Using a custom visitor ID is a legacy method to [connect users across devices](/
 
 ## 我是否可以从自定义访客 ID 升级到 CDA？
 
-已使用自定义访客ID的客户可以升级到CDA，而无需进行任何实施更改。 该 `visitorID` 变量仍用在源报表包中。 但是，如果用户进 `visitorID` 行身份验证，CDA将忽略虚拟报告套件中的变量。
+已使用自定义访客ID的客户可以升级到CDA，而无需进行任何实施更改。 该 `visitorID` 变量仍用于源报表包。 但是，如果用户进 `visitorID` 行身份验证，CDA将忽略虚拟报告套件中的变量。
 
 ## 设备图如何处理共享设备？
 
@@ -92,4 +92,4 @@ The [People](/help/components/metrics/people.md) metric is similar to the [Uniqu
 
 ## Adobe如何处理基于字段的拼接中使用的eVar的唯一限制？
 
-CDA会先提取eVar维值，然后再对其进行报告优化。 您不必为CDA的唯一限制而担心。 但是，如果您在Workspace项目中试用了该prop/eVar，您仍可以看 [到（低流量）维值](/help/technotes/low-traffic.md) 。
+CDA会在对eVar维项目进行报告优化之前提取它们。 您不必为CDA的唯一限制而担心。 但是，如果您在Workspace项目中尝试使用该prop/eVar，您仍可 [以看到（低流量）](/help/technotes/low-traffic.md) 维项目。
