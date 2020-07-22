@@ -2,7 +2,7 @@
 title: Prop
 description: 可在报告中使用的自定义维度。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 26%
@@ -28,9 +28,9 @@ Prop 是自定义变量，您可以根据需要随意使用。它们不会超越
 
 AppMeasurement将JavaScript变量编译为图像请求以进行数据收集，它使用这些变 `prop1` 量- `prop75`。 有关 [实施指南](/help/implement/vars/page-vars/prop.md) ，请参阅《实施用户指南》中的prop。
 
-## 维值
+## 维项
 
-由于prop在实施中包含自定义字符串，您的组织将决定每个prop的维值。 确保在解决方案设计文档中记录每个属性和典型维 [度值的用途](/help/implement/prepare/solution-design.md)。
+由于prop在实施中包含自定义字符串，您的组织将决定每个prop的维项目。 确保在解决方案设计文档中记录每个prop和典型维 [度项的用途](/help/implement/prepare/solution-design.md)。
 
 ## prop在eVar上的值
 
