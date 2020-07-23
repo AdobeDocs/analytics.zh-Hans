@@ -3,10 +3,10 @@ description: 将 Ad Hoc Analysis 术语和任务与 Analysis Workspace 进行比
 title: Analysis Workspace 与 Ad Hoc Analysis 的比较
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 translation-type: tm+mt
-source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+source-git-commit: a364d05fc18dbc47d4c9cf4ebd7fed1e284e6066
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 100%
+source-wordcount: '914'
+ht-degree: 87%
 
 ---
 
@@ -56,6 +56,10 @@ Analysis Workspace 将 Ad Hoc Analysis 的大多数功能都引入到了浏览�
     </ol> <p><a href="https://www.youtube.com/watch?v=QlUCdQDnni4"  > 视频：在工作区中使用区段</a> </p> <p><a href="https://www.youtube.com/watch?v=YjaRlJoQqRA"  > 视频：将区段应用于面板</a> </p> </td> 
   </tr> 
   <tr> 
+   <td colname="col1"> <p>创建临时（“临时”）区段 </p> </td> 
+   <td colname="col2"> <p>You can <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > create instant, temporary ("ad-hoc") segments</a> in Analysis Workspace by dragging dimension items into the segment drop zone at the top of the panel. 此外，还可在面板拖放区域中添加下拉过滤器，以同时创建许多临时段，从而实现受控项目交互。 </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > 视频：Analysis Workspace 中的 Ad Hoc 区段</a> </p> <p><a href="https://www.youtube.com/watch?v=vpJywtsFVPI"  > 视频： Analysis Workspace中的下拉过滤器</a> </p> </td> 
+  </tr> 
+  <tr> 
    <td colname="col1"> <p>选择日期范围和粒度 </p> </td> 
    <td colname="col2"> <p>可以在“时间”组件菜单下使用日期范围和粒度，其使用方式有 3 种： </p> 
     <ol id="ol_8B57C8A840694A879B22B809C58E7482"> 
@@ -63,10 +67,6 @@ Analysis Workspace 将 Ad Hoc Analysis 的大多数功能都引入到了浏览�
      <li id="li_85BB89EFF9C8466A992815BB7804EA37">使用“应用”，可将日期范围应用于面板内的所有可视化图表。这类似于 Ad Hoc Analysis 中的“工作区”日期范围。 </li> 
      <li id="li_BC18564A8FBB48F4A522BCAC60838759">使用“应用于所有面板”，可将日期范围应用于工作区项目内的所有面板。这类似于 Ad Hoc Analysis 中的“项目”日期范围。 </li> 
     </ol> <p><a href="https://www.youtube.com/watch?v=ybmv6EBmhn0"  > 视频：在 Analysis Workspace 中使用日期</a> </p> <p><a href="https://www.youtube.com/watch?v=L4FSrxr3SDA"  > 视频：自定义日期范围</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>创建内部（“临时”）区段 </p> </td> 
-   <td colname="col2"> <p>您可以在 Analysis Workspace 中<a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >创建即时的内部（“临时”）区段</a>，方法是将维度项目拖放到面板顶部的区段拖放区域。 </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > 视频：Analysis Workspace 中的 Ad Hoc 区段</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用流失和转化漏斗 </p> </td> 
@@ -83,10 +83,7 @@ Analysis Workspace 将 Ad Hoc Analysis 的大多数功能都引入到了浏览�
     <ul id="ul_42D259310823496499F7D1474E1639AF"> 
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">流量可跨访问或访客。 </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">关键统计数据以 % 路径查看的方式显示。 </li> 
-    </ul> <p>此外，流量允许使用<a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  >混合维度</a>以及右键单击和创建区段的功能，这是优于 Ad Hoc Analysis 的一项改进。 </p> <p>当前，Analysis Workspace 中的流量<b>无法</b>： </p> 
-    <ul id="ul_2696A9DCB86E427DB5267BE2793693FF"> 
-     <li id="li_384141A577BB4A94899C3E36714225EE">关闭重复的实例。 </li> 
-     <li id="li_CC451BFB9FFC4C68AE28A7462B339460">允许用户选择成功事件。 </li> 
+    </ul> <p>此外，流量允许使用<a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  >混合维度</a>以及右键单击和创建区段的功能，这是优于 Ad Hoc Analysis 的一项改进。 </p> <p>目前，Analysis Workspace流 <b>不能</b> 允许用户选择成功事件。 </li> 
     </ul> <p><a href="https://www.youtube.com/watch?v=3R1HTM7y_RM"  > 视频：流量可视化图表概述</a> </p> <p><a href="https://www.youtube.com/watch?v=m1Wa6inC1rQ"  > 视频：多维度流量</a> </p> <p><a href="https://www.youtube.com/watch?v=XrJoNQy6RaQ"  > 视频：从流量创建区段</a> </p> </td> 
   </tr> 
   <tr> 
@@ -99,20 +96,12 @@ Analysis Workspace 将 Ad Hoc Analysis 的大多数功能都引入到了浏览�
   </tr> 
   <tr> 
    <td colname="col1"> <p>选择报表包 </p> </td> 
-   <td colname="col2"> <p>与 Ad Hoc Analysis 类似，只能为工作区项目选择一个报表包。不过，已计划提供多报表包处理功能。 </p> </td> 
+   <td colname="col2"> <p>可以在Analysis Workspace中将多个报表包添加到单个项目。  </p> <p><a href="https://www.youtube.com/watch?v=kRPTBDNLJKk"  > 视频： 工作区中的多个报表包</a> </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>归因 IQ </p> </td> 
-   <td colname="col2"> <p>通过 Analysis Workspace 中的<a href="/help/analyze/analysis-workspace/attribution/overview.md"  >归因 IQ</a>，您可以将多个新类型的归因模型添加到自由格式表、可视化图表和计算量度。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>未包含 </p> </td> 
-   <td colname="col2"> <p>将日期范围添加到区段。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>未包含 </p> </td> 
-   <td colname="col2"> <p>使用区段中的“仅在序列前/仅在序列后”。 </p> </td> 
-  </tr> 
+   <td colname="col2"> <p>通过 Analysis Workspace 中的<a href="/help/analyze/analysis-workspace/attribution/overview.md"  >归因 IQ</a>，您可以将多个新类型的归因模型添加到自由格式表、可视化图表和计算量度。它包括10多个基于规则的模型和算法模型。 </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > 视频： 自由格式表中的归因IQ</a> </p> </td> 
+  </tr>  
  </tbody> 
 </table>
 
