@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
+source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1100'
 ht-degree: 98%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 98%
       + [树形图](analysis-workspace/visualizations/treemap.md)
    + 面板 {#panels}
       + [面板概述](analysis-workspace/c-panels/panels.md)
-      + [Analytics目标(A4T)小组](analysis-workspace/c-panels/a4t-panel.md)
+      + [Analytics目标(A4T)面板](analysis-workspace/c-panels/a4t-panel.md)
       + [归因面板](analysis-workspace/c-panels/attribution.md)
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
       + [自由格式面板](analysis-workspace/c-panels/freeform-panel.md)
@@ -101,6 +101,7 @@ ht-degree: 98%
       + [归因模型和回顾时间范围](analysis-workspace/attribution/models.md)
       + [算法属性](analysis-workspace/attribution/algorithmic.md)
       + [常见问题解答](analysis-workspace/attribution/faq.md)
+   + [历程 IQ](analysis-workspace/journey-iq.md)
    + [区段 IQ](analysis-workspace/segment-iq.md)
    + 虚拟分析师 {#virtual-analyst}
       + [虚拟分析师概述](analysis-workspace/virtual-analyst/overview.md)
