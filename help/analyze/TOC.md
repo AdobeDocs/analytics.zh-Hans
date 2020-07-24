@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
+source-git-commit: 0fff218b18c17a4a3ee3bf1c01c7036db8d09b77
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 98%
@@ -27,7 +27,7 @@ ht-degree: 98%
       + 列和行设置 {#column-row-settings}
          + [列设置](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [行设置](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-         + [手动行和动态行](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
+         + [动态与静态项](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
       + [“撤消”和“重做”设置](analysis-workspace/build-workspace-project/undo-redo.md)
       + [Analysis Workspace 中可用的热键](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [对表格进行分页、过滤和排序](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
