@@ -2,9 +2,9 @@
 title: 动态与静态维度项
 description: 如何与表中的动态和静态维度项目交互。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 1ec0e17e8ca5083ce658603bb623ebc1026ff699
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '480'
 ht-degree: 2%
 
 ---
@@ -46,6 +46,4 @@ ht-degree: 2%
 动态行和静态行在自由形式总行中的行为不同。 默认情况下：
 
 * 动态行是对服务器端和去重复度量(如访问或访客)进行汇总的
-* 静态行是在客户端求和的， **不会** 去重复度量。
-
-[了解有关动态行和静态行](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html) “工作区总选项”的更多信息。
+* 静态行是在客户端求和的， **不会** 去重复度量。 要计算服务器端的总行数，请将“行”设置更改为“显 **示总计”**。 [了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)
