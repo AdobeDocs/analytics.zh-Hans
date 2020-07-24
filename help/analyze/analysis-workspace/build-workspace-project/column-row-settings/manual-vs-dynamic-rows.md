@@ -1,10 +1,10 @@
 ---
-title: 动态与静态维度项
+title: 自由形式表中的动态与静态维度项
 description: 如何与表中的动态和静态维度项目交互。
 translation-type: tm+mt
-source-git-commit: 1ec0e17e8ca5083ce658603bb623ebc1026ff699
+source-git-commit: 0fff218b18c17a4a3ee3bf1c01c7036db8d09b77
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '483'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 2%
 
 动态维项目具有行筛选器选项， **并且** 不存在锁和X图标。
 
+![](assets/dynamic-items.png)
+
 ## 静态维项
 
 静态维度项不随时间而改变； 它们是自由形式表中始终返回的固定组件。 如果您希望始终分析同一项目(无论是特定活动还是一周中的特定天数)，则首选使用静态维度项目。
@@ -37,9 +39,13 @@ ht-degree: 2%
 
 静态维项 **没有** “行筛选器”选项。 相反，锁和X图标显示在每个项目上。 单击X图标以从表中删除该维项目。
 
+![](assets/static-items.png)
+
 ## 混合维度项
 
 可以将不同维的维项目添加到同一表。 在这些情况下，行标题将显示“混合维”。 这些维项是静态的。 例如，从浏览器类型维添加特定维项，从浏览器维添加其他维项。
+
+![](assets/mixed-dimensions.png)
 
 ## 自由形式总行数
 
