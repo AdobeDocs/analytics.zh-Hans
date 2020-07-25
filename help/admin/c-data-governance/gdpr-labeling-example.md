@@ -3,7 +3,7 @@ description: 'null'
 title: 标签功能示例
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: b3e8f77bfa7c48fc82e5ebd5bbe66511ea82c9f4
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 100%
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 | 标签 | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **变量名称**<br>**（命名空间）** | **MyProp1**<br>**（用户）** | **访客 ID**<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
+| **变量名称** <br> **(命名空间)** | **MyProp1** <br> **(用户)** | **访客 ID**<br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
 | 命中数据 | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
