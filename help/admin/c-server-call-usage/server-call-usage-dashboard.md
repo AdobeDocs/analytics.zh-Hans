@@ -3,7 +3,7 @@ description: 'null'
 title: 查看当前的服务器调用使用情况
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 100%
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 * 将当前时段的使用量（绿线）与去年的使用量（蓝色）进行比较。显而易见，仅当贵公司具有上一年的服务器调用使用情况数据时蓝线才会显示。
 
-   > [!NOTE] 如果要查看前一段时间的使用情况，则必须转到[报表包使用情况](/help/admin/c-server-call-usage/report-suite-usage.md)选项卡，并下载前一期间的使用情况数据。
+   >[!NOTE] 如果要查看前一段时间的使用情况，则必须转到[报表包使用情况](/help/admin/c-server-call-usage/report-suite-usage.md)选项卡，并下载前一期间的使用情况数据。
 
 * 列出了已使用的调用所占的百分比（使用百分数和原始数据）以及已使用的时段所占的百分比（使用百分数和原始数据）。
 * 默认情况下，此数据每日更新一次，但由于需要处理，因此会延迟 5 天。
