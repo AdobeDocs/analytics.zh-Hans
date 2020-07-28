@@ -1,8 +1,11 @@
 ---
 title: 列表变量
 description: 创建并配置列表变量以用于报告。
-translation-type: ht
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+translation-type: tm+mt
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+workflow-type: tm+mt
+source-wordcount: '496'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 * **名称**：每一个分隔值最多可包含 255 个字符（如果使用多字节字符，则会更少）。这是每个元素的最大长度。
 * **值分隔符**：用于在列表变量中分隔值的字符。通常有逗号、冒号、竖线或类似的字符。
 
-   > [!NOTE]列表变量不支持将多字节字符作为分隔符。分隔符必须为单字节。
+   >[!NOTE]列表变量不支持将多字节字符作为分隔符。分隔符必须为单字节。
 
 * **过期日期**：类似于 eVar 过期日期，此设置决定列表变量和转化事件之间可产生关联的时间量。
    * **在页面查看或访问级别**：超出页面查看或访问以外的成功事件不会链接回列表变量内的任何值。
