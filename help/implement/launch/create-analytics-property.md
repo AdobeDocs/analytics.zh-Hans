@@ -1,8 +1,11 @@
 ---
 title: 在 Launch 中创建 Analytics 属性
 description: 使用 Adobe Experience Platform Launch 创建一个空间以自定义收集数据的方式。
-translation-type: ht
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+translation-type: tm+mt
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+workflow-type: tm+mt
+source-wordcount: '550'
+ht-degree: 100%
 
 ---
 
@@ -40,7 +43,8 @@ Adobe Experience Platform Launch 是一个可用于在您的网站（包括 Anal
    * 扩展：核心
    * 数据元素类型：JavaScript 变量
    * 变量路径：`window.document.title`
-      > [!NOTE] 注意：这是一个帮助您入门的示例值。如果您的组织为页面名称定义了更好的值（例如数据层值），则可以在此处输入该值。
+
+      >[!NOTE] 注意：这是一个帮助您入门的示例值。如果您的组织为页面名称定义了更好的值（例如数据层值），则可以在此处输入该值。
    * 清理选中的文本
    * 持续时间：页面查看
 5. 单击“保存”。
