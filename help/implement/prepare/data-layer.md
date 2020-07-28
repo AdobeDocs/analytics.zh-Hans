@@ -1,8 +1,11 @@
 ---
 title: 创建数据层
 description: 了解 Analytics 实施中的数据层，以及如何在 Adobe Analytics 中使用它来映射变量。
-translation-type: ht
-source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
+translation-type: tm+mt
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 使用数据层实施 Adobe Analytics 时通常遵循以下步骤：
 
 1. **与网站开发团队合作实施数据层**：网站开发团队主要负责确保使用正确的值填充数据层对象。与您的网站开发团队一起检查此页面，以确保各团队的期望是一致的。
-   > [!NOTE] 是否遵循 Adobe 推荐的数据层规范是可选的。如果您已经有一个数据层，或者选择不遵循 Adobe 提供的规范，请确保贵组织与要遵循的规范保持一致。
+   >[!NOTE] 是否遵循 Adobe 推荐的数据层规范是可选的。如果您已经有一个数据层，或者选择不遵循 Adobe 提供的规范，请确保贵组织与要遵循的规范保持一致。
 2. **使用浏览器控制台验证数据层**：创建数据层后，您可以使用任意浏览器的开发人员控制台来验证数据层是否可正常使用。在大多数浏览器中，您都可以使用 `F12` 键打开开发人员控制台。`digitalData.page.pageInfo.pageID` 是一个示例变量值。
 3. **使用 Adobe Experience Platform Launch 将数据层对象映射到 Launch 数据元素**：在 Launch 中创建数据元素，并将其映射到在数据层中列出的 JavaScript 属性。
 4. **使用 Launch 中的 Adobe Analytics 扩展将数据元素映射到 Analytics 变量**：根据您的解决方案设计文档，将每个数据元素分配给相应的 Analytics 变量。
