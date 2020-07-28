@@ -2,42 +2,37 @@
 description: Analysis Workspace、Reports & Analytics、Ad Hoc Analysis、Report Builder、Data Warehouse 和 Data Workbench 的系统要求和比较。
 title: Analytics 产品比较和要求
 translation-type: tm+mt
-source-git-commit: 456459eab5ae26b49d16d9648a52e46a5818df44
+source-git-commit: 22d6e88f01868e38e6de4de2efa277d5d16954d5
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 83%
+source-wordcount: '662'
+ht-degree: 55%
 
 ---
 
 
 # Analytics 产品比较和要求
 
-系统要求，并比较Analysis Workspace、报告和Analytics、报告生成器、Data warehouse、Data Workbench、AnalyticsAPI 2.0、数据源和Customer Journey Analytics。
+本页包含各种Adobe Analytics产品的比较： Analysis Workspace、报告和Analytics、Report Builder、Data warehouse、Data Workbench、数据源和AnalyticsAPI 2.0。
 
 有关使用哪种 Adobe Analytics 产品的信息，请转至[此处](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)。
 
-| 产品名称和帮助链接 | [Analysis Workspace](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/home.html) | [Reports and Analytics](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/reports-analytics/getting-started.html) | [Report Builder](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/report-builder/home.html) | [Data Warehouse](https://docs.adobe.com/content/help/zh-Hans/analytics/export/data-warehouse/data-warehouse.html) | [Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) | AnalyticsAPI 2.0 | 数据馈送 |
+| 产品名称和帮助链接 | [Analysis Workspace](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/home.html) | [Reports and Analytics](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/reports-analytics/getting-started.html) | [Report Builder](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/report-builder/home.html) | [Data Warehouse](https://docs.adobe.com/content/help/zh-Hans/analytics/export/data-warehouse/data-warehouse.html) | [Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) | [数据馈送](https://docs.adobe.com/content/help/zh-Hans/analytics/export/analytics-data-feed/data-feed-overview.html) | [AnalyticsAPI 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|---|---|
-| **访问方法** | 用于构建强大的自定义分析项目和实现分析民主化的浏览器解决方案。 | 用于数字分析的浏览器解决方案。 | 用于生成 .csv 格式报表的浏览器解决方案。可生成表格格式的文件。 | 用于高级分析（如自定义属性建模、预测分析和全方位客户分析）的多渠道分析工具。 |  |  |  |
-| **报表划分** | 无限制 | 最多 2 项关联 | 最多 2 项关联 | 执行完全扩展的无限制划分，按区段划分。 | 无限制 |  |  |
-| **区段比较** | 无限制 | 最多 2 个区段 | 无限制 （数据请求堆叠） | 1 个区段. 支持多个（堆叠）区段。 | 无限制 |  |  |
-| **行输出限制** | 400 | 200 | 50,000 | 无限制 | 可自定义 |  |  |
-| ****&#x200B;唯一值限制（在 eVar/prop 报表内） | 500K-2MM | 500K-2MM | 500K-2MM | 无限制 | 可自定义 |  |  |
-| **漏斗/路径** | 是： [流失](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)/流[量](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/flow/flow.html) | [是](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/reports-analytics/reports.html) | 是 | 否 | 是 |  |  |
-| **高级客户历程分析** | Yes: [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) | 否 | 否 | 否 | 是 |  |  |
-| **同类群组分析** | [是](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.html) | 否 | 否 | 否 | 是 |  |  |
-| **高级属性** | 是： [归因IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution-iq.html) | 有限制 - 最初/最后/线性 | 有限制 - 最初/最后/线性 | 有限制 - 最初/最后/线性 | 是 |  |  |
-| **增强的可视化选项** | [是](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) | 否 | 是 | 否 | 是 |  |  |
-| **可自定义的布局** | [是](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/home.html) | 是 - [功能板](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/dashboard.html) | [是](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/report-builder/layout/configure-the-custom-layout.html) | 按划分或按量度对结果排序。 | 是 |  |  |
-| ****&#x200B;项目管理操作（针对非分析人员简化报表） | [是](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/curate.html) | 否 | 是 | 否 | 是 |  |  |
-| **项目共享** | [是： 所有用户](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/curate.html) | [是： 所有用户](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/reports-analytics/scheduling.html) | 是： 所有用户 | 否 | 是 |  |  |
-| **计划报告** 投放 | [是](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/schedule-projects.html) | [是](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/reports-analytics/scheduling.html) | [是](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/report-builder/t-schedule-a-data-request.html) | 是 | 是 |  |  |
-| **系统要求** | 浏<br>[览器更多……](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/sys-reqs.html) | 浏<br>[览器更多……](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/sys-reqs.html) | Windows、MS<br>[ExcelMore...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/report-builder/report-builder-setup/system-requirements.html) | 用于打开 .csv 文件的浏览器或程序，例如 MS Excel。可生成表格格式的文件。 | Windows 64 bit, good graphics adapter for OpenGL 3.2 [More...](https://docs.adobe.com/content/help/zh-Hans/data-workbench/using/install/c-data-workbench-client-install.html) |  |  |  |
-| **虚拟报告套件（报告时间处理）兼容性** | 是 | 是 | 是 | 否 | 是? |  |  |
-| **多报表包** | 是 | 否 | 否 | 否 | 是? |  |  |
-| **计算量度** | 是 | 是 | 是 | 是 | 是 |  |  |
-| **营销渠道兼容性** | 是 | 是 | 是 | ? | ? |  |  |
-| **粒度级别** |  |  |  |  |  |  |  |
-| **异常检测** | 是 | 否 |  |  |  |  |  |
-| **贡献分析** | 是 | 否 | 否 | 否 | 是 |  |  |
-| **区段类型** |  |  |  |  |  |  |  |
+| **访问方法** | [浏览器](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/sys-reqs.html) | [浏览器](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/sys-reqs.html) | [Windows版MS Excel](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/report-builder/report-builder-setup/system-requirements.html) | 通过浏览器进行设置。 支持的目标包括FTP。 联系客户关怀寻求更多目的地支持。 [了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/sys-reqs.html) | [Windows 64位](https://docs.adobe.com/content/help/zh-Hans/data-workbench/using/install/c-data-workbench-client-install.html) | 通过浏览器进行设置。 支持的目标包括FTP、SFTP、Azure Blob、S3。 [了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/export/analytics-data-feed/data-feed-overview.html) | REST风格的API工具。 使用AdobeI/O凭据登录。 [了解更多](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| **数据格式（粒度）** | 汇总 | 汇总 | 汇总 | ECID | 时间戳+ ECID | 时间戳+ ECID | 汇总 |
+| **处理级别** | 完全处理 | 完全处理，单独 [的实时报告](https://docs.adobe.com/content/help/en/analytics/components/real-time-reporting/realtime.html) | 完全处理，单独 [的实时报告](https://docs.adobe.com/content/help/en/analytics/components/real-time-reporting/realtime.html) | 完全处理 | 完全处理 | 完全处理 | 完全处理 |
+| **包含管理员机器过滤器数据**<br>[了解更多](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html) | 否 | 是——单独的机器人报告 | 是——单独的机器人报告 | 否 | 否 | 否 | 否 |
+| **出现流量不足（超出唯一值）** 了 <br>[解详情](https://docs.adobe.com/content/help/zh-Hans/analytics/technotes/low-traffic.html) | 是 | 是 | 是 | 否 | 否 | 否 | 是 |
+| **可见行限制（分页前）** | 400 | 200 | 50000 | 无限制 | 无限制 | 无限制 | 50000 |
+| **多个报表包** | [是](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) | 是，但有限制 | 是 | 否 | 是 | 否 | 是 |
+| **划分数** | 无限制 | 最高 2 | 最高 2 | 无限制 | 无限制 | 无限制 | 无限制，跨多个查询 |
+| “细&#x200B;**分**<br>[了解更多](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) | 是 | 是 | 是 | 是，但有限 [制](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-compatibility.html) | 是 | 否 | 是 |
+| **计算指标**<br>[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/components/calculated-metrics/cm-overview.html) | 是，带 [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) | 是 | 是 | 否 | 是 | 否 | 是，带 [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) |
+| **营销渠道**<br>[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/components/marketing-channels/c-getting-started-mchannel.html) | 是 | 是 | 是 | 是 | 是 | 是- va_finder, va_cler | 是 |
+| **群组分析** | [是](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.html) | 否 | 否 | 否 | 是 | 否 | 否 |
+| **归因** | 是，带 [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) | 有限 | 有限 | 否 | 是 | 否 | 是，带 [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) |
+| **虚拟分析师功能**<br>[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/virtual-analyst/overview.html) | 是 | 否 | 否 | 否 | 否 | 否 | 是 |
+| **特选** 了 <br>[解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/curate.html) | 是——项目和VRS | 否 | 否 | 否 | 否 | 否 | 是 -仅限VRS |
+| **项目共享**<br>[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | 是，具有项目角色 | 是 | 是 | 否 | 是 | 否 | 否 |
+| **计划交付** | 是 | 是 | 是 | 是 | 是 | 是 | 否 |
+| **VRS报告时间处理了**<br>[解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/components/virtual-report-suites/vrs-report-time-processing.html) | 是 | 否 | 否 | 否 | 否 | 否 | 是 |
