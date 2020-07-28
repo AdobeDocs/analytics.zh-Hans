@@ -3,7 +3,7 @@ title: AppMeasurement for JavaScript 发行说明
 description: AppMeasurement for JavaScript 的发行说明汇总。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: e7d1a690076d9fbb68797224d7ab53a6350f787d
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
 workflow-type: tm+mt
 source-wordcount: '2123'
 ht-degree: 97%
@@ -356,7 +356,7 @@ ht-degree: 97%
 * 修复了如果访客 API 尚未具有所需的值，从链接 onclick 函数调用 s.t 时导致双页面视图计数的问题。
 * HTTP POST 支持。
 
-   > [!IMPORTANT] 对于在 [!DNL AppMeasurement] 中使用 POST 方法而不是 GET 方法（一种用于解决 [IE 中的截断 URL](https://helpx.adobe.com/cn/analytics/kb/shortening-image-request-urls.html) 的方法）的 [!DNL Analytics] 调用，您必须对 Experience Cloud 使用最新的访客 ID 服务实施。
+   >[!IMPORTANT] 对于在 [!DNL AppMeasurement] 中使用 POST 方法而不是 GET 方法（一种用于解决 [IE 中的截断 URL](https://helpx.adobe.com/cn/analytics/kb/shortening-image-request-urls.html) 的方法）的 [!DNL Analytics] 调用，您必须对 Experience Cloud 使用最新的访客 ID 服务实施。
 
 ## 版本 1.4
 
