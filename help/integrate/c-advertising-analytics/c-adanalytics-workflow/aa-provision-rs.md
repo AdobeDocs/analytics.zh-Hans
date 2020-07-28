@@ -3,7 +3,10 @@ description: 'null'
 title: 为 Advertising Analytics 启用报表包
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 translation-type: tm+mt
-source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
 
    ![报表](assets/aa_reporting.png)
 
-   > [!IMPORTANT]AMO ID 指的是要将搜索数据插入其中的 Adobe Advertising Cloud 变量。
+   >[!IMPORTANT]AMO ID 指的是要将搜索数据插入其中的 Adobe Advertising Cloud 变量。
 
 1. 设置您想要 AMO ID 变量使用的变量分配和过期日期。转化变量 (eVar) 允许 Adobe Analytics 将成功事件归属于特定的变量值。有时候，在一个事件成功之前变量会遇到多个值。对于这类情况，分配将确定哪个变量值可获得该成功事件的信用。
 
