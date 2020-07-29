@@ -5,10 +5,10 @@ user-guide-title: Analytics 导出指南
 user-guide-description: Get data out of Adobe Analytics. Use Data Feeds to receive an hourly or daily export of raw data. Retrieve a spreadsheet output of data using Data Warehouse.
 user-guide-url: /content/help/en/analytics/export/home.html
 translation-type: tm+mt
-source-git-commit: 9758f88439ae550a68ba937ccb56425e2df127cc
+source-git-commit: a6eddfc9cd326bfe0b774bf4fcd03614a73490c4
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 92%
+source-wordcount: '261'
+ht-degree: 91%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 92%
    + [Data Warehouse 概述](data-warehouse/data-warehouse.md)
    + [添加 Data Warehouse 用户群组](data-warehouse/t-dw-group.md)
    + [创建 Data Warehouse 请求](data-warehouse/t-dw-create-request.md)
+   + [请求投放时间](data-warehouse/delivery-time.md)
    + [表格数据文件](data-warehouse/t-tableau.md)
    + [按量度排序](data-warehouse/sorting-by-metric.md)
    + [计划周期性请求](data-warehouse/dw-schedule-recurring.md)
