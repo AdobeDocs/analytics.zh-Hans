@@ -5,7 +5,7 @@ user-guide-title: Analytics 组件指南
 user-guide-description: Understand the features that help organize your data. Components include segments, calculated metrics, virtual report suites, alerts, and more. This guide also includes a variable reference, explaining all dimensions and metrics available.
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
+source-git-commit: a6eddfc9cd326bfe0b774bf4fcd03614a73490c4
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 73%
@@ -17,8 +17,8 @@ ht-degree: 73%
 
 + [Analytics 组件帮助](home.md)
 + 维度 {#dimensions}
-   + [Dimensions概述](dimensions/overview.md)
-   + [维兼容性](dimensions/compatibility.md)
+   + [Dimension概述](dimensions/overview.md)
+   + [Dimension兼容性](dimensions/compatibility.md)
    + [所有搜索页面排名](dimensions/all-search-page-rank.md)
    + [上午/下午](dimensions/am-pm.md)
    + [浏览器高度](dimensions/browser-height.md)
@@ -219,33 +219,33 @@ ht-degree: 73%
    + [警报管理器](c-alerts/alert-manager.md)
    + [智能警报 - 用例](c-alerts/alerts-use-cases.md)
 + 分类 {#classifications}
-   + [关于分类](c-classifications2/c-classifications.md)
-   + [关于子分类](c-classifications2/c-sub-classifications.md)
-   + [转化分类](c-classifications2/conversion-classifications.md)
-   + [流量分类](c-classifications2/traffic-classifications.md)
-   + [分类层次结构](c-classifications2/classification-hierarchies.md)
+   + [关于分类](classifications/c-classifications.md)
+   + [关于子分类](classifications/c-sub-classifications.md)
+   + [转化分类](classifications/conversion-classifications.md)
+   + [流量分类](classifications/traffic-classifications.md)
+   + [分类层次结构](classifications/classification-hierarchies.md)
    + 分类导入器（上载）{#classifications-importer}
-      + [分类导入器 - 概述](c-classifications2/c-classifications-importer/c-working-with-saint.md)
-      + [分类数据文件](c-classifications2/c-classifications-importer/c-saint-data-files.md)
-      + [删除分类数据](c-classifications2/c-classifications-importer/t-delete-classification-data.md)
-      + [转义分类数据](c-classifications2/c-classifications-importer/t-classifications-escape-data.md)
-      + [未分类键](c-classifications2/c-classifications-importer/nonclassified-keys.md)
-      + [分类模板](c-classifications2/c-classifications-importer/c-download-saint-data.md)
-      + [浏览器和 FTP 导入](c-classifications2/c-classifications-importer/import-file.md)
-      + [浏览器导入](c-classifications2/c-classifications-importer/browser-import.md)
-      + [FTP 导入](c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md)
+      + [分类导入器 - 概述](classifications/c-classifications-importer/c-working-with-saint.md)
+      + [分类数据文件](classifications/c-classifications-importer/c-saint-data-files.md)
+      + [删除分类数据](classifications/c-classifications-importer/t-delete-classification-data.md)
+      + [转义分类数据](classifications/c-classifications-importer/t-classifications-escape-data.md)
+      + [未分类键](classifications/c-classifications-importer/nonclassified-keys.md)
+      + [分类模板](classifications/c-classifications-importer/c-download-saint-data.md)
+      + [浏览器和 FTP 导入](classifications/c-classifications-importer/import-file.md)
+      + [浏览器导入](classifications/c-classifications-importer/browser-import.md)
+      + [FTP 导入](classifications/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md)
    + 分类规则生成器 {#classifications-rulebuilder}
-      + [分类规则生成器工作流程](c-classifications2/crb/classification-rule-builder.md)
-      + [分类规则集](c-classifications2/crb/classification-rule-set.md)
-      + [分类规则](c-classifications2/crb/classification-quickstart-rules.md)
-      + [分类规则 - 定义](c-classifications2/crb/classification-rule-definitions.md)
-      + [子分类和规则生成器](c-classifications2/crb/sub-classification-rule-builder.md)
+      + [分类规则生成器工作流程](classifications/crb/classification-rule-builder.md)
+      + [分类规则集](classifications/crb/classification-rule-set.md)
+      + [分类规则](classifications/crb/classification-quickstart-rules.md)
+      + [分类规则 - 定义](classifications/crb/classification-rule-definitions.md)
+      + [子分类和规则生成器](classifications/crb/sub-classification-rule-builder.md)
    + 数值 2 分类 {#numeric2-classification}
-      + [数值 2 分类概述](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
-      + [创建数值 2 分类](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
-      + [导入数值 2 分类](c-classifications2/c-numeric-2/c-import-numeric-2-classifications.md)
-      + [示例](c-classifications2/c-numeric-2/c-examples.md)
-   + [有关分类的疑难解答](c-classifications2/c-classifications-troubleshooting.md)
+      + [数值 2 分类概述](classifications/c-numeric-2/c-numeric-2-classifications.md)
+      + [创建数值 2 分类](classifications/c-numeric-2/t-create-numeric-2-classifications.md)
+      + [导入数值 2 分类](classifications/c-numeric-2/c-import-numeric-2-classifications.md)
+      + [示例](classifications/c-numeric-2/c-examples.md)
+   + [有关分类的疑难解答](classifications/c-classifications-troubleshooting.md)
 + [日历事件](t-calendar-event.md)
 + 实时报告 {#real-time-reporting}
    + [实时报告概述](c-real-time-reporting/realtime.md)
