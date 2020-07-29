@@ -3,7 +3,7 @@ description: 'null'
 title: 优化 Analysis Workspace 性能
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 100%
@@ -34,7 +34,7 @@ ht-degree: 100%
 * 对于运算符，“等于”比“包含”运算速度快，“等于任意”比“包含任意”运算速度快。
 * 对于许多标准，使用“和”运算符的速度将比使用一系列“或”运算符的速度更快。此外，寻找机会将许多 OR 语句简化为单个“等于任意”语句。
 
-此外，使用[分类](/help/components/c-classifications2/c-classifications.md)可帮助将众多值整合到简洁的组中，您随后可以从这些组创建区段。与含有许多 OR 语句或“包含”标准的区段相比，按分类组划分区段可提供更佳的性能。
+此外，使用[分类](/help/components/classifications/c-classifications.md)可帮助将众多值整合到简洁的组中，您随后可以从这些组创建区段。与含有许多 OR 语句或“包含”标准的区段相比，按分类组划分区段可提供更佳的性能。
 
 ## 请求的数据范围
 
