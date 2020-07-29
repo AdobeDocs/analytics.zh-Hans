@@ -2,7 +2,7 @@
 title: 营销渠道中的分类
 description: 分类用于将值归到相关群组并在群组级别进行报告。例如，您可以将所有“付费搜索”促销活动归为类似“视频卡”的类别。然后，可在该类别相对于“实例”（或“点进次数”）等量度而成功时进行报告。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 100%
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 确保您可熟练地在[分类](/help/components/c-classifications2/c-classifications.md)中创建分类。
+> 确保您可熟练地在[分类](/help/components/classifications/c-classifications.md)中创建分类。
 
 >[!IMPORTANT]
 >
