@@ -3,10 +3,10 @@ description: Analytics 报表 API 的比较表。提供了支持文档的链接�
 title: Analytics 报表 API 比较
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 49875f086be6fe47552f50b41d8111179039f7c4
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '282'
+ht-degree: 90%
 
 ---
 
@@ -53,8 +53,8 @@ Analytics 报表 API 的比较表。提供了支持文档的链接。
   </tr> 
   <tr> 
    <td colname="col1"> <a href="https://docs.adobe.com/content/help/zh-Hans/analytics/landing/home.html"  > 报表接口</a> </td> 
-   <td colname="col2"> Reports &amp; Analytics、Report Builder、API </td> 
-   <td colname="col3"> Reports &amp; Analytics 中的实时报表、Report Builder、API </td> 
+   <td colname="col2"> Analysis Workspace、报告和Analytics、Report Builder、API </td> 
+   <td colname="col3"> 报告和Analytics、Report Builder、1.4 API中的实时报告 </td> 
    <td colname="col4"> 仅限 API </td> 
    <td colname="col5"> Data Warehouse 与 API </td> 
   </tr> 
@@ -79,18 +79,11 @@ Analytics 报表 API 的比较表。提供了支持文档的链接。
    <td colname="col4"> 否 </td> 
    <td colname="col5"> 是（但仅限 Data Warehouse 兼容的区段） </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <b>Analytics SKU</b> </td> 
-   <td colname="col2"> 标准+ </td> 
-   <td colname="col3"> 标准+ </td> 
-   <td colname="col4"> Premium Complete 或 Predictive Intelligence </td> 
-   <td colname="col5"> 标准+ </td> 
-  </tr> 
-  <tr> 
+   <tr> 
    <td colname="col1"> <b>文档</b> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B"  > Web 服务</a> </p> </td> 
-   <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time"  > 实时报表</a> </p> </td> 
-   <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B"  > 实时流概述</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"  > Analytics API</a> </p> </td> 
+   <td colname="col3"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis"  > 实时报表</a> </p> </td> 
+   <td colname="col4"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md"  > 实时流概述</a> </p> </td> 
    <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/zh-Hans/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
