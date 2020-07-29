@@ -2,10 +2,10 @@
 title: eVar
 description: 可在报告中使用的自定义维度。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 72%
+source-wordcount: '788'
+ht-degree: 67%
 
 ---
 
@@ -18,15 +18,17 @@ eVar 是自定义变量，您可以根据需要随意使用。如果您有[解�
 
 可用eVar的数量取决于您与Adobe的合同。 如果您与Adobe的合同支持，则最多可使用250个eVar。
 
+eVar不区分大小写。 如果在不同情况下（例如，和）发送相同 `"DOG"` 的值， `"Dog"`Analysis Workspace会将它们组合到同一维度项目中。 使用在报告月开始时看到的第一个值的大小写。 Data warehouse显示请求期间遇到的第一个值。
+
 ## 用数据填充eVar
 
-每个eVar都从图像请求 [`v1` 中的 `v250` 查询字符串](/help/implement/validate/query-parameters.md) 收集数据。 例如，查询字 `v1` 符串参数收集eVar1的，而 `v222` 查询字符串参数收集eVar222的数据。
+每个eVar都从图像请 [`v1` 求中 `v250` 的查询](/help/implement/validate/query-parameters.md) 字符串收集数据。 例如，查询字 `v1` 符串参数收集eVar1的数据，而 `v222` 查询字符串参数收集eVar222的数据。
 
-AppMeasurement将JavaScript变量编译为图像请求以进行数据收集，它使用这些变 `eVar1` 量- `eVar250`。 有关 [实施指南](/help/implement/vars/page-vars/evar.md) ，请参阅《实施用户指南》中的eVar。
+AppMeasurement将JavaScript变量编译为图像请求以进行数据收集，它使用这些变 `eVar1` 量- `eVar250`。 有关 [实施](/help/implement/vars/page-vars/evar.md) 指南，请参阅《实施用户指南》中的eVar。
 
-## 维项
+## Dimension项
 
-由于eVar在您的实施中包含自定义字符串，您的组织将决定每个eVar的维项目。 确保在解决方案设计文档中记录每个eVar和典型维度项 [目的用途](/help/implement/prepare/solution-design.md)。
+由于eVar在您的实施中包含自定义字符串，您的组织将决定每个eVar的维项目。 确保在解决方案设计eVar中记录每个文档和典型维 [度项目的用途](/help/implement/prepare/solution-design.md)。
 
 ## eVar 的工作方式
 
@@ -90,6 +92,6 @@ Adobe建议在大多数情况下使用eVar，支持这些eVar:
 
 * eVar在报告中具有255字节的限制。 Prop有100字节的限制。
 * 默认情况下，Prop 不会在设置的点击之外存留。eVar 具有自定义过期时间，允许您确定 eVar 何时不再获得后续事件的点数。但是，如果您使用[报表时间处理](/help/components/vrs/vrs-report-time-processing.md)，则 prop 和 eVar 均可使用自定义归因模型。
-* Adobe最多支持250个eVar，仅支持75个prop。
+* Adobe最多支持250个eVar，并且仅支持75个prop。
 
 请参 [阅prop](prop.md) ，了解prop和eVar之间的更多比较。
