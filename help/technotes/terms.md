@@ -2,7 +2,7 @@
 title: Adobe Analytics 中使用的术语
 description: Adobe Analytics 词汇表，用于定义常用术语。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '2458'
 ht-degree: 95%
@@ -32,13 +32,13 @@ ht-degree: 95%
 * **渠道：**&#x200B;可以称为：
    * 渠道变量，用于填充“网站区域”维度。请参阅实施用户指南中的[页面变量](/help/implement/vars/page-vars/page-variables.md)。
    * 营销渠道，可以帮助了解用户如何到达您网站的组件。请参阅组件用户指南中的[营销渠道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
-* **分类：** AdobeAnalytics中允许对维度项目进行分组的功能。 请参阅组件用户指南中的[分类](/help/components/c-classifications2/c-classifications.md)。
+* **分类：** 在Adobe Analytics允许对维度项进行分组的功能。 请参阅组件用户指南中的[分类](/help/components/classifications/c-classifications.md)。
 * **Clickmap：**&#x200B;不再使用。一个旧版浏览器插件，用于显示您网站上哪些区域的点击率最高。此工具已停用，改为 Activity Map。
 * **点击流数据馈送：**&#x200B;请参阅“数据馈送”。
 * **同类群组：**&#x200B;一组在特定时间段内具有共同特征的人员。请参阅分析用户指南中的[什么是队列分析？](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) 分析用户指南。
 * **收集服务器：**&#x200B;请参阅“数据收集服务器”。
 * **上下文数据变量：**&#x200B;仅用于处理规则的临时变量。如果处理规则未将上下文数据变量值复制到转化或流量变量，则上下文数据变量值将永久丢失。请参阅实施用户指南中的[上下文数据变量](../implement/vars/page-vars/contextdata.md)。
-* **转换变量：** 也称为eVar。 存储自定义值，并保留变量值，直到其过期。请参阅 [组件](/help/components/dimensions/evar.md) 《用户指南》中的eVar维。
+* **转换变量：** 也称为eVar。 存储自定义值，并保留变量值，直到其过期。请参阅 [组件](/help/components/dimensions/evar.md) 用户指南中的eVar维。
 * **关联：**&#x200B;不再用作术语；替换为维度划分。在 Adobe Analytics 的早期版本中，通过关联可以划分流量变量。请参阅分析用户指南中的[划分维度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
 * **当前数据：**&#x200B;某些报表中的一个选项，允许包含最近收集的尚未完全处理的数据。请参阅分析用户指南中的[当前数据](/help/analyze/reports-analytics/current-data.md)。
 * **自定义链接：**&#x200B;包含非页面视图数据的点击类型。请参阅实施用户指南中的 [s.tl() 函数](../implement/vars/functions/tl-method.md)。另请参阅“点击”。
