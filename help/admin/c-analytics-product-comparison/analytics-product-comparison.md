@@ -2,9 +2,9 @@
 description: Analysis Workspace、Reports & Analytics、Ad Hoc Analysis、Report Builder、Data Warehouse 和 Data Workbench 的系统要求和比较。
 title: Analytics 产品比较和要求
 translation-type: tm+mt
-source-git-commit: 22d6e88f01868e38e6de4de2efa277d5d16954d5
+source-git-commit: 0885a42ccf79565d2ad55cf84e346926f2328f77
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '672'
 ht-degree: 55%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 55%
 | **可见行限制（分页前）** | 400 | 200 | 50000 | 无限制 | 无限制 | 无限制 | 50000 |
 | **多个报表包** | [是](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) | 是，但有限制 | 是 | 否 | 是 | 否 | 是 |
 | **划分数** | 无限制 | 最高 2 | 最高 2 | 无限制 | 无限制 | 无限制 | 无限制，跨多个查询 |
-| “细&#x200B;**分**<br>[了解更多](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) | 是 | 是 | 是 | 是，但有限 [制](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-compatibility.html) | 是 | 否 | 是 |
+| **细分** 了 <br>[解更多](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) | 是 | 是 | 是 | 是，但有限 [制](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-compatibility.html) | 是 | 否 | 是 |
 | **计算指标**<br>[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/components/calculated-metrics/cm-overview.html) | 是，带 [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) | 是 | 是 | 否 | 是 | 否 | 是，带 [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) |
-| **营销渠道**<br>[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/components/marketing-channels/c-getting-started-mchannel.html) | 是 | 是 | 是 | 是 | 是 | 是- va_finder, va_cler | 是 |
+| **营销渠道**<br>[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/components/marketing-channels/c-getting-started-mchannel.html) | 是 | 是 | 是 | 是 | 是 | 是- [va_finder、va_cler](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html) | 是 |
 | **群组分析** | [是](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.html) | 否 | 否 | 否 | 是 | 否 | 否 |
 | **归因** | 是，带 [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) | 有限 | 有限 | 否 | 是 | 否 | 是，带 [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) |
 | **虚拟分析师功能**<br>[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/virtual-analyst/overview.html) | 是 | 否 | 否 | 否 | 否 | 否 | 是 |
