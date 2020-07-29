@@ -5,10 +5,10 @@ user-guide-title: Analytics 技术说明
 user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
+source-git-commit: a6eddfc9cd326bfe0b774bf4fcd03614a73490c4
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 100%
+source-wordcount: '140'
+ht-degree: 96%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 100%
    + [处理平台之间的差异](ga-to-aa/processing-differences.md)
 + 分析受事件影响的数据 {#event}
    + [分析受事件影响的数据概述](event/overview.md)
+   + [解决数据高峰／下降问题](event/spikes-drops.md)
    + [在分析中排除特定日期](event/segments.md)
    + [将日期与先前的范围进行比较](event/compare-dates.md)
    + [派生受事件影响的数据](event/calcmetrics.md)
