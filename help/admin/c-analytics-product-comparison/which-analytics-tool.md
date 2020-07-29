@@ -3,7 +3,7 @@ description: 本帮助页面包含每个 Adobe Analytics 工具的推荐使用�
 title: 我应该使用哪种 Adobe Analytics 工具？
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 98%
@@ -48,7 +48,7 @@ ht-degree: 98%
 
 ## 将数据导入 Adobe Analytics {#section_B42B998D6E3E4357B024AEFA4EC69A23}
 
-**[分类](/help/components/c-classifications2/c-classifications.md)**的使用说明：
+**[分类](/help/components/classifications/c-classifications.md)**的使用说明：
 
 * 适用于要将元数据与收集值（eVar、prop、营销渠道）关联的情况
 * 选项:
@@ -99,7 +99,7 @@ ht-degree: 98%
 * 用于访问比 UI 更细粒度的数据（非规范化的表视图）
 * 用于下载适用于数据透视表输入格式的数据
 * 适用于客户端要将 Adobe 数据输入第三方数据可视化工具的情况（稍微汇总，不是点击级别）
-* 在AdobeAnalytics中遇到“流量不足”时访问所有唯一维度项
+* 访问所有唯一维度项目(如果您在Adobe Analytics遇到“流量不足”)
 
 应使用 **[Analytics 数据馈送](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)**：
 
