@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '7820'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -30,11 +30,11 @@ ht-degree: 97%
 | 归因 IQ：算法归因 | Analysis Workspace 中的“算法归因”模型使用统计技术动态确定所选量度的最佳点数分配方式。适用于 Adobe Analytics Ultimate 客户。[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
 | 归因 IQ：自定义回顾时间范围 | 现在，您可以将“归因 IQ”中的任意归因模型配置为最多包含在报告期开始前的 90 天内的接触点。通过计算在之前月份发生的交互，通常可以提高在报告期初期所发生事件的归因准确性。适用于 Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete 和 Ultimate 客户。[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
 | 共享工作区项目中的项目角色 | 现在，在共享工作区项目时，您可以根据希望收件人获得的项目体验为收件人分配以下三个项目角色中的一个角色：“编辑”、“复制”和“查看”。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 仅查看工作区项目 | 可以将工作区项目仅以“可以查看”的形式共享给用户。当具有“查看”角色的收件人打开共享项目时，他们将获得比较受限的项目体验，因为项目无左边栏而且可进行的交互也有限。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
+| 仅查看的工作区项目 | 可以将工作区项目仅以“可以查看”的形式共享给用户。当具有“查看”角色的收件人打开共享项目时，他们将获得比较受限的项目体验，因为项目无左边栏而且可进行的交互也有限。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
 | 能够共同编辑工作区项目 | 添加到“可以编辑”角色的收件人可以保存已共享给他们的项目。这同时适用于管理员和非管理员用户。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 更新的空白面板 | 空白面板现在包括面板和可视化功能，为您提供了一种更无缝的方式来选择最适合您的分析工作流程。 |
-| “快速洞察”面板（2020年6月25日） | Quick Insights 可为 Analysis Workspace 的非分析师和新用户了解如何快速轻松地回答业务问题提供指导。[了解更多...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| Workspace中目标面板的Analytics（2020年6月25日） | 借助“Analytics for Target”(A4T) 面板，您可以满怀信心地在 Analysis Workspace 中分析 Adobe Target 活动和体验。[了解更多...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| “快速洞察”面板（2020年6月25日） | 快速分析可为 Analysis Workspace 的非分析师和新用户了解如何快速轻松地回答业务问题提供指导。[了解更多...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
+| 工作区中的 Analytics for Target 面板 (2020 年 6 月 25 日) | 借助“Analytics for Target”(A4T) 面板，您可以满怀信心地在 Analysis Workspace 中分析 Adobe Target 活动和体验。[了解更多...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
 | 关于 Workspace 页面 | 关于 Workspace 页面提供了有关您的 Analysis Workspace 环境、Adobe Analytics 管理员（如果您需要支持）的信息，以及提交产品反馈的方法。可按照以下路径找到该页面：Workspace > 帮助 > 关于 Workspace。 |
 
 ## 2020 年 5 月
@@ -43,7 +43,7 @@ ht-degree: 97%
 
 | 功能 | 描述 |
 |--- |--- |
-| 自动从空白状态构建自由形式表 | 以前，不能将组件直接拖放到空白项目或空白面板，而是必须先添加一个自由格式表。现在，您可以将组件直接拖放到空白项目或空白面板中，并且系统将以推荐的格式自动为您构建自由格式表。此外，将混合组件类型（如维度与量度）一起拖放到空白自由格式表中时，对这些组件的处理方式也得到了改进。 |
+| 从空白状态自动构建自由格式表 | 以前，不能将组件直接拖放到空白项目或空白面板，而是必须先添加一个自由格式表。现在，您可以将组件直接拖放到空白项目或空白面板中，并且系统将以推荐的格式自动为您构建自由格式表。此外，将混合组件类型（如维度与量度）一起拖放到空白自由格式表中时，对这些组件的处理方式也得到了改进。 |
 | 辅助功能改进 | Adobe Analytics 团队对 Analysis Workspace 的辅助功能进行了多项改进，包括改进的键盘导航、颜色对比度和屏幕阅读器支持。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
 
 ## 2020 年 4 月
@@ -52,7 +52,7 @@ ht-degree: 97%
 
 | 功能 | 描述 |
 |--- |--- |
-| Automatically build [!UICONTROL Freeform Tables] from a blank state | 以前，不能将组件直接拖放到空白项目或空白面板，而是必须先添加一个自由格式表。现在，您可以将组件直接拖放到空白项目或面板中，并且系统将以推荐的格式自动为您构建自由格式表。Additionally, improvements were made to how mixed component types (e.g. dimensions &amp; metrics) are handled when dropped into a blank [!UICONTROL Freeform Table] together. |
+| 从空白状态自动构建[!UICONTROL 自由格式表] | 以前，不能将组件直接拖放到空白项目或空白面板，而是必须先添加一个自由格式表。现在，您可以将组件直接拖放到空白项目或面板中，并且系统将以推荐的格式自动为您构建自由格式表。此外，改进了将混合组件类型（如维度与量度）一起拖放到空白[!UICONTROL 自由格式表]中时，对这些组件的处理方式。 |
 
 ## 2020 年 3 月
 
@@ -70,7 +70,7 @@ ht-degree: 97%
 | 功能 | 描述 |
 |--- |--- |
 | 适用于使用跨设备分析的组织的新工作区模板 | 此模板显示 CDA 在拼合访问次数方面的有效性，并且还指导您了解 CDA 独有的维度和量度知识。需要使用 CDA 的报表包。有关更多信息，请参阅[设置跨设备分析](https://docs.adobe.com/content/help/zh-Hans/analytics/components/cda/cda-setup.html)。 |
-| 工作区中的新热键 | <ul><li>折叠/展开所有面板：`alt + m`</li><li>折叠/展开活动面板：`alt + ctrl + m`</li><li>搜索左边栏：`ctrl + /`</li><li>移到下一个面板：`alt + Right Key`</li><li>移到上一个面板：`alt + Left Key`</li></ul>[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| 工作区中的新热键 | <ul><li>折叠/展开所有面板：`alt + m`</li><li>折叠/展开活动面板：`alt + ctrl + m`</li><li>搜索左边栏: `ctrl + /`</li><li>移到下一个面板：`alt + Right Key`</li><li>移到上一个面板：`alt + Left Key`</li></ul>[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | 其他工作区增强功能 | <ul><li>将面板或可视化图表放入工作区后，左边栏会自动切换到组件，以实现更加无缝的工作流程。</li><li>现在可以对模板组件进行操作（例如，标记、标记为收藏、已批准）。</li><li>过滤的量度和区段列表提供了 + 按钮，可在找不到所需内容时添加新组件。</li></ul> |
 | 工作区调试器 | 工作区调试器已添加到“帮助”菜单，可让您根据调试工作区请求更加无缝地启用调试器。[了解更多...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
@@ -1019,7 +1019,7 @@ ht-degree: 97%
 * 次要更新：
 
    * 能够删除面板中的所有可视化图表和项目中的所有面板。（以前，必须保留至少一个可视化图表或面板。）
-   * Changes to the [shortcut keys](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) (hotkeys) that can facilitate work with Analysis Workspace.
+   * 更改了[快捷键](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)（热键），更便于在 Analysis Workspace 中使用。
    * 样式更改：缩小了可视化图表中的字体；各行都具有颜色色板；向下移动了各个面板上的日期选择器。
 
 ## 2016 年 4 月
@@ -1093,7 +1093,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
-> 如果您的公司使用单点登录（旧版单点登录和通过 Experience Cloud 登录），则共享报表链接不可用。
+>如果您的公司使用单点登录（旧版单点登录和通过 Experience Cloud 登录），则共享报表链接不可用。
 
 ## 项目符号图表、散点图和树图可视化图表 {#section_B19EA50EBF5546E99D3A142827153FD6}
 
@@ -1115,7 +1115,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
-> 与散点图图表关联的表需要至少两列。第一列定义 X 轴，第二列定义 Y 轴。如果存在第三列，那么散点图图表可使用它来决定点的半径。换言之，列 *1*、*2* 和 *3* 映射到 *X*、*Y* 和&#x200B;*点半径*。
+>与散点图图表关联的表需要至少两列。第一列定义 X 轴，第二列定义 Y 轴。如果存在第三列，那么散点图图表可使用它来决定点的半径。换言之，列 *1*、*2* 和 *3* 映射到 *X*、*Y* 和&#x200B;*点半径*。
 
 **树图**
 
@@ -1179,7 +1179,7 @@ ht-degree: 97%
 
 ## 维度预览 {#section_F519EBF889B244E8B25BB6BA2833325A}
 
-在“维度”组件面板中，您可以将光标悬停在维度旁边的信息图标上方，并查看前五个维度的预览。
+在[!UICONTROL 维度]组件面板中，您可以将光标悬停在维度旁边的信息图标上方，并查看前五个维度的预览。
 
 ![](assets/dimension-preview.png)
 
