@@ -1,11 +1,11 @@
 ---
 title: 创建报表包
 description: 在 Adobe Analytics 中创建用于数据收集的基本容器。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '452'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
-> 在 Adobe Analytics 中，还可以使用旧版管理界面创建报表包。Adobe 建议使用此处介绍的报表包设置向导。
+>在 Adobe Analytics 中，还可以使用旧版管理界面创建报表包。Adobe 建议使用此处介绍的报表包设置向导。
 
 1. 使用您的 Adobe ID 凭据登录 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 1. 单击右上角的 9 个正方形图标，然后单击彩色的 Analytics 徽标。
@@ -36,7 +36,7 @@ ht-degree: 96%
 使用相同的名称命名此报表包，但要在后面附加“- DEV”。由于此报表包将仅接收内部流量，因此预估的大小可以为最小值。
 1. 单击“下一步”，即可完成创建开发报表包。
 
-有关此模态窗口中的步骤的详细信息，请参 [阅《实施](/help/implement/prepare/implementation-modal.md) 》用户指南中的“实施模态”。
+有关该模式窗口中步骤的更多信息，请参阅《用户实施指南》中的[“实施”模式窗口](/help/implement/prepare/implementation-modal.md)。
 
 ## 故障诊断
 
