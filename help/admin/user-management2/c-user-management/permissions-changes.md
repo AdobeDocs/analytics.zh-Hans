@@ -5,9 +5,9 @@ subtopic: Users and groups
 title: 用户和群组权限更改
 topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1562'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 由于可用的可能权限组合太多，我们无法提供文档介绍可在每种权限组合中使用的所有 API 方法。通常，被授予 Web 服务访问权限的非管理员将只有 API 方法的读取权限。他们将没有这些方法的写入权限。
+>由于可用的可能权限组合太多，我们无法提供文档介绍可在每种权限组合中使用的所有 API 方法。通常，被授予 Web 服务访问权限的非管理员将只有 API 方法的读取权限。他们将没有这些方法的写入权限。
 
 由于 API 和界面使用相同的权限系统，因此无论管理员在界面（Adobe Admin Console）中为特定的非管理员授予怎样的权限，该用户在 API 中都将拥有相同的权限。
 
@@ -130,7 +130,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> *`migrated user`* 和 *`Experience Cloud user`* 指已接受加入 Experience Cloud 的电子邮件邀请的用户。如果未接受电子邮件邀请，用户仍是 Analytics 用户，无法在 Admin Console 中对其进行管理。（迁移时使用了[企业或联合 ID](https://helpx.adobe.com/cn/enterprise/using/set-up-identity.html) 的情况除外。在这种情况下，当管理员逐个迁移用户时，将迁移此类用户。）
+>*`migrated user`* 和 *`Experience Cloud user`* 指已接受加入 Experience Cloud 的电子邮件邀请的用户。如果未接受电子邮件邀请，用户仍是 Analytics 用户，无法在 Admin Console 中对其进行管理。（迁移时使用了[企业或联合 ID](https://helpx.adobe.com/cn/enterprise/using/set-up-identity.html) 的情况除外。在这种情况下，当管理员逐个迁移用户时，将迁移此类用户。）
 
 <table id="table_B68FD00FC5D24823A86BB69558C0327C"> 
  <thead> 
