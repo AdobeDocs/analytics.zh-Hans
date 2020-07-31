@@ -2,11 +2,11 @@
 description: 列设置允许您配置列格式，其中一些可以是条件格式。
 title: 列设置
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,13 +52,13 @@ ht-degree: 96%
 
 ## 使用非默认的属性模型
 
-分析工作区支 [持几乎](../../attribution/overview.md) 任何指标的归因。
+Analysis Workspace 支持对几乎所有量度进行[归因](../../attribution/overview.md)。
 
 1. 单击“自由格式表”列中的“设置”（齿轮）图标。
 
-   ![归因复选框](assets/attribution-checkbox.png)
+   ![“归因”复选框](assets/attribution-checkbox.png)
 
-2. 在&#x200B;**[!UICONTROL 数据设置]**&#x200B;下，选中&#x200B;**[!UICONTROL 使用非默认归因模型]**。For more information on different attribution models, see [Attribution models](../../attribution/models.md).
+2. 在&#x200B;**[!UICONTROL 数据设置]**&#x200B;下，选中&#x200B;**[!UICONTROL 使用非默认归因模型]**。有关不同归因模型的更多信息，请参阅[归因模型](../../attribution/models.md)。
 
    ![选择归因模型](assets/attribution-select.png)
 
