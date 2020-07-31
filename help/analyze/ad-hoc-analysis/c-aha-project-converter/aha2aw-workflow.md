@@ -2,8 +2,11 @@
 description: 'null'
 title: 在 Ad Hoc Analysis 中转换项目
 uuid: 20bd9974-209e-457c-9e52-d50f90078af6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: ht
+source-wordcount: '282'
+ht-degree: 100%
 
 ---
 
