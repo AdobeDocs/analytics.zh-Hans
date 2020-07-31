@@ -2,9 +2,9 @@
 description: Analysis Workspace 中的组件包括量度、维度、区段和时间粒度，您可以将这些组件拖放到项目中。您创建的自定义组件会被添加到这些面板中，例如自定义日期范围。
 title: 组件概述
 uuid: 1a4e1c35-eac9-4eb4-be2e-ecb2c6728150
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Analysis Workspace 中的组件包括量度、维度、区段和时间粒度，�
 
 >[!NOTE]
 >
-> 这些操作不适用于“时间”组件。
+>这些操作不适用于“时间”组件。
 
 | 组件操作 | 描述 |
 |--- |--- |
