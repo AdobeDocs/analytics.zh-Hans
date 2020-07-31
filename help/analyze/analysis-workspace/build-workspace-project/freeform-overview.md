@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 创建项目 - 概述
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '692'
 ht-degree: 100%
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 标有星号 (*) 的选项仅在&#x200B;**已保存**&#x200B;项目中显示。
+>标有星号 (*) 的选项仅在&#x200B;**已保存**&#x200B;项目中显示。
 
 | 项目 | 编辑 | 插入 | 组件 | 共享 | 帮助 |
 |---|---|---|---|---|---|
