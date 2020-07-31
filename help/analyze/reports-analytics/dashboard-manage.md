@@ -4,9 +4,9 @@ subtopic: Dashboards
 title: 功能板管理器
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '807'
 ht-degree: 100%
 
@@ -75,13 +75,13 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 接下来，请考虑使用 [Analysis Workspace 项目](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/home.html)及其将要下载和计划的功能。
+>接下来，请考虑使用 [Analysis Workspace 项目](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/home.html)及其将要下载和计划的功能。
 
 复制原有功能板时，系统将打开原有功能板以供您编辑，您可添加旧内容或新内容。当您复制原有功能板时，旧内容将保留在原有功能板列表中。
 
 >[!NOTE]
 >
-> 向功能板添加旧内容时，会基于最新的功能板功能创建一个功能板。不过，旧缩图报表可能包含以前数据平台的数据。
+>向功能板添加旧内容时，会基于最新的功能板功能创建一个功能板。不过，旧缩图报表可能包含以前数据平台的数据。
 
 **迁移版本 14.x 原有功能板**
 
@@ -90,7 +90,7 @@ ht-degree: 100%
 
    复制的功能板将在功能板布局编辑器中打开。
 
-   请参阅[编辑功能板和缩图报表数据](/help/analyze/reports-analytics/dashboard.md).
+   请参阅[编辑功能板和缩图报表数据](/help/analyze/reports-analytics/dashboard.md)。
 
 ## 共享功能板
 
