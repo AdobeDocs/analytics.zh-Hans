@@ -3,9 +3,9 @@ description: 您可以从报表中排除特定 IP 地址的数据，例如，内
 title: 按 IP 地址排除
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '554'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 按 IP 地址排除的点击将作为[服务器调用](https://docs.adobe.com/content/help/zh-Hans/analytics/technotes/terms.html)计费。
+>按 IP 地址排除的点击将作为[服务器调用](https://docs.adobe.com/content/help/zh-Hans/analytics/technotes/terms.html)计费。
 
 ## 按 Cookie 排除 {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 只有符合以下条件时，按计算机排除数据才适适用：
+>只有符合以下条件时，按计算机排除数据才适适用：
 >
 > * 您从同一工作站进入网站。
 > * 您所使用的浏览器启用了 cookie。
