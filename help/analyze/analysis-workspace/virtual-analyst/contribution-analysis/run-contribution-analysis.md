@@ -2,9 +2,9 @@
 description: 'null'
 title: 运行贡献分析
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 在“贡献分析”和与之关联的“智能警报”项目中，我们使用蓝色圆点突出显示正在分析的异常。这样可以更清楚地指示正在分析的异常。
+>在“贡献分析”和与之关联的“智能警报”项目中，我们使用蓝色圆点突出显示正在分析的异常。这样可以更清楚地指示正在分析的异常。
 
 ## 从贡献分析中排除维度 {#section_F6932F4BF74544B5872164E7B1E0C6FC}
 
