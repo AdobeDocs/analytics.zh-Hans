@@ -4,11 +4,11 @@ keywords: eVar
 title: 转化变量 (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1579'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ eVar 最适合用于度量原因和影响，例如：
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 分配 </span> </p> </td> 
-   <td colname="col2"> <p>确定变量在事件之前收到多个值时， Analytics 如何分配成功事件的信用。支持的值包括： </p> <p> <b>最近</b>：始终由最后一个 eVar 值接收成功事件的信用，直至该 eVar 过期。 </p> <p> <b>原始值</b>：始终由第一个 eVar 接收成功事件的信用，直至该 eVar 过期。 </p> <p> <b>线性</b>：对所有 eVar 值平均分配成功事件。由于线性分配实际仅能在一次访问内分配值，所以应将线性分配与 eVar 访问过期结合使用。 </p> <p>注意：将分配切换至线性或从线性切换分配可防止显示历史数据。在报表界面中混合多种分配类型可导致在报表中错报数据。例如，线性分配可能会在大量不同的 eVar 值间划分收入。更改回最近分配后，100% 的收入都与最近单个值关联。这种关联可能会导致用户得出不正确的结论。 </p> <p>为避免在报表中可能产生混淆，Analytics 在界面中不显示历史数据。虽然您不该只是为了访问历史数据而更改 eVar 分配设置，但如果您确定要将给定的 eVar 更改回初始分配设置，则可以查看历史数据。已记录的数据需要新的分配设置时，Adobe 建议使用新的 eVar，而非更改已积累大量历史数据的 eVar 的分配设置。 </p> </td> 
+   <td colname="col2"> <p>确定变量在事件之前收到多个值时，Analytics 如何分配成功事件的点数。支持的值包括： </p> <p> <b>最近</b>：始终由最后一个 eVar 值接收成功事件的信用，直至该 eVar 过期。 </p> <p> <b>原始值</b>：始终由第一个 eVar 接收成功事件的信用，直至该 eVar 过期。 </p> <p> <b>线性</b>：对所有 eVar 值平均分配成功事件。由于线性分配实际仅能在一次访问内分配值，所以应将线性分配与 eVar 访问过期结合使用。 </p> <p>注意：将分配切换至线性或从线性切换分配可防止显示历史数据。在报表界面中混合多种分配类型可导致在报表中错报数据。例如，线性分配可能会在大量不同的 eVar 值间划分收入。更改回最近分配后，100% 的收入都与最近单个值关联。这种关联可能会导致用户得出不正确的结论。 </p> <p>为避免在报表中可能产生混淆，Analytics 在界面中不显示历史数据。虽然您不该只是为了访问历史数据而更改 eVar 分配设置，但如果您确定要将给定的 eVar 更改回初始分配设置，则可以查看历史数据。已记录的数据需要新的分配设置时，Adobe 建议使用新的 eVar，而非更改已积累大量历史数据的 eVar 的分配设置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 过期时间</span> </p> </td> 
@@ -93,7 +93,7 @@ eVar 最适合用于度量原因和影响，例如：
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 促销捆绑事件</span> </p> <p>（仅限 eVar） </p> </td> 
-   <td colname="col2"> <p>如果将“促销”设置为<span class="uicontrol">转化变量语法</span>，则所选事件会将当前 eVar 值与产品进行捆绑。 </p> <p>要使用“捆绑事件”，请<span class="uicontrol">将“分配”设置为“最近”</span>。如果<span class="uicontrol">将“分配”设为“原始值”</span>，则第一个 eVar 产品捆绑将在 eVar 过期之前一直有效。Multiple events can be selected by holding down <code>ctrl</code> (Windows) or <code>cmd</code> (Mac) and clicking on multiple items in the list. 只有在选择了“转化变量语法”后才能选择事件。</p> </td> 
+   <td colname="col2"> <p>如果将“促销”设置为<span class="uicontrol">转化变量语法</span>，则所选事件会将当前 eVar 值与产品进行捆绑。 </p> <p>要使用“捆绑事件”，请<span class="uicontrol">将“分配”设置为“最近”</span>。如果<span class="uicontrol">将“分配”设为“原始值”</span>，则第一个 eVar 产品捆绑将在 eVar 过期之前一直有效。通过按住 <code>ctrl</code> (Windows) 或 <code>cmd</code> (Mac) 并单击列表中的多个项目，可选择多个事件。只有在选择了“转化变量语法”后才能选择事件。</p> </td> 
   </tr> 
  </tbody> 
 </table>
