@@ -2,9 +2,9 @@
 description: 'null'
 title: 发布到 Power BI - 概述
 uuid: ad688817-6e3c-45da-983d-48c123465309
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1058'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ Microsoft Power BI 是一组用来分析数据和共享分析的业务分析功�
 
 >[!NOTE]
 >
-> 如果工作簿包含宏，将禁用“作为 Power BI 数据集表发布工作簿中所有带格式的表”。
+>如果工作簿包含宏，将禁用“作为 Power BI 数据集表发布工作簿中所有带格式的表”。
 
 您无需导入整个工作簿，只用导入工作簿内所有带格式的表的内容。
 
