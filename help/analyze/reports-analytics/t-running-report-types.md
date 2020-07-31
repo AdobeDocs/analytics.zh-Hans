@@ -3,9 +3,9 @@ description: 运行不同的报表类型的步骤。
 title: 运行不同的报表类型
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2358'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ t_reports_conversion_funnel.xml
 
 要运行此报表，请选择一个报表，如页面报表（**[!UICONTROL 报表]** > **[!UICONTROL 促销活动]** > **[!UICONTROL 跟踪代码]** > **[!UICONTROL 促销活动转化漏斗]**）。
 
-有关描述，请参阅[转化报表](https://docs.adobe.com/content/help/zh-Hans/analytics/components/variables/dimensions-reports/reports-conversion.html)。
+有关描述，请参阅[转化报表](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion.html)。
 
 ## 运行流失报表 {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -97,7 +97,7 @@ t_reports_fallout.xml
 
 在 Analysis Workspace 中查看新的[流量可视化](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)！
 
-运行[路径](https://docs.adobe.com/content/help/zh-Hans/analytics/components/variables/dimensions-reports/reports-paths.html)报表。
+运行[路径](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-paths.html)报表。
 
 例如，单击&#x200B;**[!UICONTROL 报表]** > **[!UICONTROL 路径]** > **[!UICONTROL 页面]** > **[!UICONTROL 下一页面流量]**。
 
@@ -123,7 +123,7 @@ t_reports_funnel.xml
 
  -->
 
-1. 单击&#x200B;**[!UICONTROL 报表]** > **[!UICONTROL 产品]** > [产品转化漏斗](https://docs.adobe.com/content/help/zh-Hans/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html)。
+1. 单击&#x200B;**[!UICONTROL 报表]** > **[!UICONTROL 产品]** > [产品转化漏斗](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html)。
 
 ## 运行营销渠道报表 {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -153,7 +153,7 @@ t_anomaly_view.xml
 
 >[!NOTE]
 >
-> 另外，您也可以在 Analysis Workspace 项目中运行异常检测。[更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
+>另外，您也可以在 Analysis Workspace 项目中运行异常检测。[更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
 有关设置异常检测的信息，请参阅《[参考指南](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection)》。
 
