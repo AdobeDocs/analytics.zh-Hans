@@ -34,7 +34,7 @@ ht-degree: 98%
 **[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)**的使用说明：
 
 * 用于导出 50,000 行数据
-* 适用于需要以选项卡方式组织项目工作的情况.
+* 适用于需要以选项卡方式组织项目工作的情况。
 * 用于使用网站分析报表（3D 路径报表）。
 
 **[Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)**的使用说明：
