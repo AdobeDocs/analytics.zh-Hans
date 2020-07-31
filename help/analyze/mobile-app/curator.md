@@ -5,23 +5,23 @@ translation-type: tm+mt
 source-git-commit: 810083aad3a096a3d352416480bf48ad8d7b3f2b
 workflow-type: tm+mt
 source-wordcount: '2301'
-ht-degree: 78%
+ht-degree: 97%
 
 ---
 
 
 
-# AdobeAnalytics仪表板策展人指南
+# Adobe Analytics 功能板策划人指南
 
-以下信息将指导AdobeAnalytics的策展人如何为管理用户配置和展示仪表板。 要观看演示此信息的视频，请参 [阅AdobeAnalytics仪表板记分卡生成器](https://youtu.be/tnnl6hrcP94)。
+以下信息将指导 Adobe Analytics 数据策划人如何为执行用户配置和展示功能板。要观看相关演示视频，请访问 [Adobe Analytics 功能板记分卡生成器](https://youtu.be/tnnl6hrcP94)。
 
 ## 简介
 
-Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。该应用程序允许用户通过移动设备访问您通过AdobeAnalytics桌面UI创建和共享的直观记分卡。 记分卡是关键量度和其他组件的集合，这些组件以平铺布局显示，您可以点击它们以获取更详细的划分和趋势报表。您可以根据对您最重要的数据来定制记分卡。iOS 和 Android 操作系统均支持 Analytics 功能板。
+Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。该应用程序允许用户通过移动设备访问直观的记分卡，这些记分卡可从 Adobe Analytics 的桌面 UI 创建和共享。记分卡是关键量度和其他组件的集合，这些组件以平铺布局显示，您可以点击它们以获取更详细的划分和趋势报表。您可以根据对您最重要的数据来定制记分卡。iOS 和 Android 操作系统均支持 Analytics 功能板。
 
 ## 有关本指南的更多信息
 
-本指南旨在帮助AdobeAnalytics数据的策展人在仪表板上为其管理用户配置记分卡。 策划人可以是组织管理员，也可以是其他角色中负责设置应用程序记分卡的人员，该应用程序使执行用户能够在自己的移动设备上快速、轻松地查看广泛呈现的重要摘要数据。尽管执行用户是 Analytics 功能板的最终用户，但是本指南将帮助数据策划人为这些用户有效地设置应用程序。
+本指南旨在帮助 Adobe Analytics 数据策划人在功能板上为其执行用户配置记分卡。策划人可以是组织管理员，也可以是其他角色中负责设置应用程序记分卡的人员，该应用程序使执行用户能够在自己的移动设备上快速、轻松地查看广泛呈现的重要摘要数据。尽管执行用户是 Analytics 功能板的最终用户，但是本指南将帮助数据策划人为这些用户有效地设置应用程序。
 
 ## 术语表
 
@@ -100,7 +100,7 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
    ![添加维度](assets/layer_dimensions.png)
 
-   还可以通过将维拖放到记分卡画布上，将维添加到所有拼贴。
+   您也可以通过将某个维度拖放到记分卡画布上，将其添加到所有图块。
 
    单击记分卡生成器中的图块后，右侧边栏会显示与该图块关联的属性和特征。在此边栏中，您可以为图块提供一个新的&#x200B;**标题**，或者通过指定组件而不是从左侧边栏中拖放组件来配置图块。
 
@@ -108,11 +108,11 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
    ![Breakdown_view](assets/break_view.png)
 
-   添加到拼贴的每个维度都将显示在应用程序的详细视图的下拉列表中。 之后，执行用户可以从下拉列表所列的选项中进行选择。
+   添加到图块的每个维度将显示在应用程序详细视图的下拉列表中。之后，执行用户可以从下拉列表所列的选项中进行选择。
 
-4. 要将区段应用于单个图块，请将左侧面板中的某个区段直接拖放到图块的顶部。如果要将区段应用于记分卡中的所有图块，请将区段拖放到记分卡的顶部。或者，您也可以通过在日期范围下方的筛选器菜单中选择区段来应用区段。 您可 [以像在Adobe Design Workspace中一样](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) ，为记分卡配置和应用过滤器。
+4. 要将区段应用于单个图块，请将左侧面板中的某个区段直接拖放到图块的顶部。如果要将区段应用于记分卡中的所有图块，请将区段拖放到记分卡的顶部。或者，您也可以通过在日期范围下方的筛选器菜单中选择区段来应用区段。您可以像在 Adobe Analytics Workspace 中一样[为记分卡配置和应用过滤器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)。
 
-   ![构建细分以进行筛选](assets/segment_ui.png)
+   ![构建区段以进行过滤](assets/segment_ui.png)
 
 5. 同样，要删除应用于整个记分卡的组件，请单击记分卡上图块外的任意位置，然后单击将鼠标悬停在该组件上时显示的 **x** 来删除组件，如下面的&#x200B;**移动设备客户**&#x200B;区段所示：
 
@@ -161,26 +161,26 @@ If you update the Scorecard by adding new components, you may want to share the 
 
 * 执行用户设备上的移动操作系统满足以下最低要求：iOS 版本 10 或更高版本，或者 Android 版本 4.4 (KitKat) 或更高版本
 * 执行用户已有效登录 Adobe Analytics
-* 您为他们正确创建了移动业绩平衡卡，并已与他们共享这些业绩平衡卡
+* 您已为执行用户正确创建了移动记分卡，并与他们共享了这些记分卡
 * 执行用户有权访问 Analysis Workspace 以及记分卡所基于的报表包
 * 执行用户有权访问记分卡中包含的组件。Note that you can select an option when sharing your Scorecards to **Share embedded components**.
 
-### 帮助管理用户使用该应用程序
+### 帮助执行用户使用应用程序
 
-为帮助执行用户：
+为帮助执行用户，需要执行以下操作：
 
-1. 帮助他们下载并安装应用程序。 为此，请根据执行用户使用的是 iOS 还是 Android 设备，提供以下步骤来扩展他们的访问权限。
+1. 帮助执行用户下载并安装应用程序。为此，请根据执行用户使用的是 iOS 还是 Android 设备，提供以下步骤来扩展他们的访问权限。
 
    **对于 iOS 上的执行用户：**
 
-   * 单击以下链接(也可在Analytics的“工 **具** ”>“ **仪表板**”下找到)，然后按照提示下载、安装和打开应用程序：
+   * 单击以下链接（也可在 Analytics 的&#x200B;**工具** > **功能板**&#x200B;下找到该链接），然后按照提示下载、安装和打开应用程序：
 
-      [iOS链接](https://apple.co/2zXq0aN)
+      [iOS 链接](https://apple.co/2zXq0aN)
    **对于 Android 上的执行用户：**
 
-   * 单击以下链接(也可在Analytics的“工 **具** ”>“ **仪表板**”下找到)，然后按照提示下载、安装和打开应用程序：
+   * 单击以下链接（也可在 Analytics 的&#x200B;**工具** > **功能板**&#x200B;下找到该链接），然后按照相应提示下载、安装和打开应用程序：
 
-      [Android链接](https://bit.ly/2LM38Oo)
+      [Android 链接](https://bit.ly/2LM38Oo)
    下载并安装后，执行用户可以使用他们现有的 Adobe Analytics 凭据登录应用程序；我们同时支持 Adobe ID 和 Enterprise/Federated ID。
 
    ![应用程序欢迎屏幕](assets/welcome.png)
@@ -193,7 +193,7 @@ If you update the Scorecard by adding new components, you may want to share the 
 
    ![选择公司](assets/accesscard.png)
 
-   如果执行用户登录并看到一条消息，说明没有共享内容：
+   如果执行用户登录后看到一条消息，指出尚未共享任何内容，则：
 
    * 执行用户可能选择了错误的 Analytics 实例
 
@@ -205,7 +205,7 @@ If you update the Scorecard by adding new components, you may want to share the 
    * 验证执行用户是否可以登录正确的 Analytics 实例，以及是否已共享记分卡。
 
 
-3. 向执行用户说明拼贴在您共享的记分卡中的显示方式(以下第一个记分卡在深色模式下设置； 如果 **您认为** ，您的管理用户更喜欢此查看选项，请参阅以下首选项):
+3. 向执行用户说明图块在您共享的记分卡中的显示方式（下面的第一个记分卡是在深色模式下设置的；如果您认为您的执行用户更喜欢这个视图选项，请参阅&#x200B;**首选项**）：
 
    ![说明图块](assets/newexplain.png)
 
@@ -215,7 +215,7 @@ If you update the Scorecard by adding new components, you may want to share the 
 
    * 折线图的粒度取决于日期范围的长度：
       * 一天会显示每小时的趋势
-      * 一天多一年不到，每天都呈趋势
+      * 超过一天且不足一年会显示每日的趋势
       * 一年及以上会显示每周的趋势
    * 百分比值更改公式为：量度总计（当前日期范围）- 量度总计（比较日期范围）/ 量度总计（比较日期范围）。
    * 您可以通过下拉屏幕来刷新记分卡。
@@ -225,27 +225,27 @@ If you update the Scorecard by adding new components, you may want to share the 
 
    ![“划分”视图](assets/sparkline.png)
 
-   * 点按迷你图上的任意点，查看与该行上的该点关联的数据。
+   * 点按折线图上的任一点，可查看与线上的这个点相关联的数据。
 
-   * 包括一个表以显示添加到拼贴的维的数据。 点按向下箭头以选择维。 如果未向拼贴添加维，则表将显示图表数据。
+   * 将包含一个表以显示已添加到图块的各维度的数据。点按向下箭头以选择维度。如果未将维度添加到图块，则表将显示图表数据。
 
 5. 要更改记分卡的日期范围，请执行以下操作：
 
    ![更改日期](assets/changedate.png)
 
-   * 您还可以采用相同方式更改上述细分视图中的日期范围。
+   * 您也可以按相同方式更改上面显示的“划分”视图中的日期范围。
 
    * 根据点按的时间间隔（**日**、**周**、**月**&#x200B;或&#x200B;**年**），您将看到两个日期范围选项，即当前时间范围或紧随其前的时间范围。点按这两个选项之一，以选择第一个范围。在&#x200B;**比较对象**&#x200B;列表下，点按其中显示的一个选项，以将此时间段的数据与您选择的第一个日期范围进行比较。点按屏幕右上角的&#x200B;**完成**。**日期范围**&#x200B;字段和记分卡图块会更新以显示您选择的新范围中的新比较数据。
 
 6. 要提供对应用程序的反馈，请执行以下操作：
 
-   1. 点按应用程序屏幕右上角的设置图标。
-   2. On the **Settings** screen, tap the **Feedback** option.
+   1. 点按应用程序屏幕右上方的设置图标。
+   2. 在&#x200B;**设置**&#x200B;屏幕上，点按&#x200B;**反馈**&#x200B;选项。
    3. 点按以查看用于提供反馈的选项。
 
-      ![设置屏幕](assets/settings.png)
+      ![“设置”屏幕](assets/settings.png)
 
-7. 要更改首选项，请点按 **上面** 显示的首选项。 在首选项中，您可以打开生物识别登录，也可以将应用程序设置为深色模式，如下所示：
+7. 要更改首选项，请点按上面显示的&#x200B;**首选项**&#x200B;选项。在“首选项”中，您可以打开生物识别登录，也可以将应用程序设置为深色模式，如下所示：
 
    ![深色模式](assets/darkmode.png)
 
