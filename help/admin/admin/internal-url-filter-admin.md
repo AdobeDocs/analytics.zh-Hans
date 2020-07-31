@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 89%
 
 内部 URL 过滤器可识别您视为存在于网站内部的反向链接。它们可帮助流量源报表填充数据，并且有助于过滤内部流量。
 
-反向链接或反向链接页面通常指访客通过该链接或页面进入了您的网站。为避免影响数据准确性，您可过滤掉内部的反向链接。报表不包含从 [推荐人](/help/components/dimensions/referrer.md) 维、引 [用域维](/help/components/dimensions/referring-domain.md) 和其他流量源维。
+反向链接或反向链接页面通常指访客通过该链接或页面进入了您的网站。为避免影响数据准确性，您可过滤掉内部的反向链接。报表不包含从[反向链接](/help/components/dimensions/referrer.md)维度、[反向链接域](/help/components/dimensions/referring-domain.md)维度和其他流量源维度中过滤掉的反向链接。
 
 流量源报表不填充数据的最常见原因是未定义内部 URL 过滤器列表。要检查报表包上设置了哪些内部 URL 过滤器，请执行以下步骤。为了避免出现这种情况，请删除将句点 (.) 列为过滤器的规则，然后添加您自己的站点。
 
