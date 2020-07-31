@@ -3,11 +3,11 @@ description: 量度是报表的基础，可帮助您查看和了解数据关系�
 title: 量度
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '370'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 [计算量度](/help/components/c-calcmetrics/cm-overview.md)通过对量度进行组合来创建。
 
-有关完整的指标列表，请参 [阅组件](/help/components/metrics/overview.md) 用户指南中的指标概述。
+有关完整的量度列表，请参阅组件用户指南中的[量度概述](/help/components/metrics/overview.md)。
 
 ## 选择默认报表量度
 
