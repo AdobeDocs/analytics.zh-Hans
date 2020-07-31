@@ -4,9 +4,9 @@ subtopic: Dashboards
 title: 功能板和缩图报表
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1819'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> **[!UICONTROL 网站概述]**&#x200B;功能板不再列于 Reports &amp; Analytics 中。但是，在某几种情况下，您仍然可以查看它的部分或全部缩图报表。
+>**[!UICONTROL 网站概述]**&#x200B;功能板不再列于 Reports &amp; Analytics 中。但是，在某几种情况下，您仍然可以查看它的部分或全部缩图报表。
 
 * 假如您只有三个频繁查看的报表，则 Reports &amp; Analytics 将从“网站概述”功能板中选取两个报表来填充&#x200B;**[!UICONTROL 我的推荐报表]**&#x200B;功能板。
 * 全新报表包最初也仍然会包含“网站概述”缩图报表，直到它们被您频繁查看的报表替换为止。即便如此，功能板现在还是被称为&#x200B;**[!UICONTROL 我的推荐报表]**。
