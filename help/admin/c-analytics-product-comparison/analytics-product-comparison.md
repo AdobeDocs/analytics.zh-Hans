@@ -10,7 +10,7 @@ ht-degree: 54%
 ---
 
 
-# Analytics 产品比较和要求
+# Analytics产品比较和要求
 
 本页包含各种Adobe Analytics产品的比较： Analysis Workspace、报告和Analytics、Report Builder、Data warehouse、Data Workbench、数据源和AnalyticsAPI 2.0。
 
