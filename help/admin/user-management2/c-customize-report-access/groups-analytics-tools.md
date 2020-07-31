@@ -5,9 +5,9 @@ subtopic: Users and groups
 title: 自定义 Analytics 工具权限
 topic: Admin tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '673'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 2016 年秋季版本（10 月 20 日）对群组管理做出了一些更改。请参阅[管理方面的更改 - 2016 年秋季版](/help/admin/user-management2/c-user-management/permissions-changes.md)以了解更改摘要。
+>2016 年秋季版本（10 月 20 日）对群组管理做出了一些更改。请参阅[管理方面的更改 - 2016 年秋季版](/help/admin/user-management2/c-user-management/permissions-changes.md)以了解更改摘要。
 
 ## 报表访问 - Analytics 工具
 
