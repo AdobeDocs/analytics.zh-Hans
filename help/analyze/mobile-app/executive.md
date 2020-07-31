@@ -1,18 +1,18 @@
 ---
 description: 有关使用功能板记分卡的说明。
 title: Adobe Analytics 功能板执行指南
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a388a66b431d9652a4bc436a9b923157e129b02c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1287'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
 
 # Adobe Analytics 功能板：执行用户快速入门指南
 
-以下信息向执行用户提供有关使用和查看Adobe Analytics仪表板的最佳实践的信息。 要观看演示此信息的视频，请参 [阅Adobe Analytics仪表板应用程序内体验](https://youtu.be/QXqQ_PkArbA)。
+通过阅读以下信息，执行用户可以了解有关使用和查看 Adobe Analytics 功能板的最佳实践。要观看演示此信息的视频，请参阅 [Adobe Analytics 功能板应用程序内体验](https://youtu.be/QXqQ_PkArbA)。
 
 
 ## 简介
@@ -53,17 +53,17 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
 **对于 iOS 上的执行用户：**
 
-单击以下链接(也可在“工具”>“ **仪表板******”下的Analytics中找到该链接)，然后按照提示下载、安装和打开应用程序：
+单击以下链接（也可在 Analytics 的&#x200B;**工具** > **功能板**&#x200B;下找到该链接），然后按照提示下载、安装和打开应用程序：
 
-[iOS链接](https://apple.co/2zXq0aN)
+[iOS 链接](https://apple.co/2zXq0aN)
 
 **对于 Android 上的执行用户：**
 
-单击以下链接(也可在“工具”>“ **仪表板******”下的Analytics中找到该链接)，然后按照提示下载、安装和打开应用程序：
+单击以下链接（也可在 Analytics 的&#x200B;**工具** > **功能板**&#x200B;下找到该链接），然后按照相应提示下载、安装和打开应用程序：
 
-[Android链接](https://bit.ly/2LM38Oo)
+[Android 链接](https://bit.ly/2LM38Oo)
 
-下载并安装后，执行用户可使用其现有Adobe Analytics凭据登录应用程序。
+下载和安装后，执行用户可使用其现有的 Adobe Analytics 凭据登录应用程序。
 
 ![应用程序欢迎屏幕](assets/welcome.png)
 
@@ -81,13 +81,14 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
    ![选择公司](assets/nextseq.png)
 
-   如果您登录并看到一条消息说没有共享内容，请向策展人验证以下信息：
+   如果您登录后看到一条消息，指出尚未共享任何内容，请与策划人确认以下事项：
 
    * 您可以登录到正确的 Analytics 实例
    * 已与您共享记分卡
+
    ![未共享任何内容](assets/nothing.png)
 
-4. 检查平铺在记分卡中的显示方式(第一个记分卡以深色模式显示； 请参 **阅以下** “首选项”以了解更多信息)。
+4. 检查图块在记分卡中的显示方式（第一个记分卡以深色模式显示；有关更多信息，请参阅下面的&#x200B;**首选项**）。
 
    ![说明图块](assets/newexplain.png)
 
@@ -96,16 +97,17 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
    * 折线图的粒度取决于日期范围的长度：
 
       * 一天会显示每小时的趋势
-      * 一天多一年不到，每天都呈趋势
+      * 超过一天且不足一年会显示每日的趋势
       * 一年及以上会显示每周的趋势
    * 百分比值更改公式为：量度总计（当前日期范围）- 量度总计（比较日期范围）/ 量度总计（比较日期范围）。
 
    * 您可以通过下拉屏幕来刷新记分卡。
-   以下示例记分卡以正常模式显示：
+
+   以下是以正常模式显示的示例记分卡：
 
    ![示例记分卡](assets/intro_scorecard.png)
 
-5. 点按拼贴，查看拼贴的详细细分工作方式。
+5. 点按图块以查看图块的详细划分方式。
 
    ![“划分”视图](assets/sparkline.png)
 
@@ -114,25 +116,25 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
    ![更改日期](assets/changedate.png)
 
-   * 您还可以采用相同方式更改上述细分视图中的日期范围。
+   * 您也可以按相同方式更改上面显示的“划分”视图中的日期范围。
 
    * 根据点按的时间间隔（**日**、**周**、**月**&#x200B;或&#x200B;**年**），您将看到两个日期范围选项，即当前时间范围或紧随其前的时间范围。点按这两个选项之一，以选择第一个范围。在&#x200B;**比较对象**&#x200B;列表下，点按其中显示的一个选项，以将此时间段的数据与您选择的第一个日期范围进行比较。点按屏幕右上角的&#x200B;**完成**。**日期范围**&#x200B;字段和记分卡图块会更新以显示您选择的新范围中的新比较数据。
 
-7. 要将区段过滤器应用到记分卡，请点按过滤器下拉列表，然后选择由策展人配置的区段。 [过滤器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) 在应用程序中的功能与在Analytics Workspace中相同。
+7. 要将区段过滤器应用于记分卡，请点按过滤器下拉列表，然后选择由策划人配置的区段。应用程序中的[过滤器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)的工作方式与在 Analytics Workspace 中相同。
 
-   ![段过滤器](assets/segment_filter.png)
+   ![区段过滤器](assets/segment_filter.png)
 
 8. 获取记分卡更新。如果记分卡不包含您可能感兴趣的所有量度或划分，请联系您的 Analytics 团队来更新记分卡。更新后，您可以下拉屏幕上的记分卡进行刷新，并加载最近添加的数据。
 
 9. 要提供对应用程序的反馈，请执行以下操作：
 
-   1. 点按应用程序屏幕右上角的设置图标。
-   2. On the **Settings** screen, tap the **Feedback** option.
+   1. 点按应用程序屏幕右上方的设置图标。
+   2. 在&#x200B;**设置**&#x200B;屏幕上，点按&#x200B;**反馈**&#x200B;选项。
    3. 点按以查看用于提供反馈的选项。
 
-      ![设置屏幕](assets/settings.png)
+      ![“设置”屏幕](assets/settings.png)
 
-10. 要更改首选项，请点按 **上面** 显示的首选项。 在首选项中，您可以打开生物识别登录，也可以将应用程序设置为深色模式，如下所示：
+10. 要更改首选项，请点按上面显示的&#x200B;**首选项**&#x200B;选项。在“首选项”中，您可以打开生物识别登录，也可以将应用程序设置为深色模式，如下所示：
 
    ![深色模式](assets/darkmode.png)
 
