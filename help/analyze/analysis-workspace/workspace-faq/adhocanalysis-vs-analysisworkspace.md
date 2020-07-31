@@ -100,7 +100,7 @@ Analysis Workspace 将 Ad Hoc Analysis 的大多数功能都引入到了浏览�
   </tr> 
   <tr> 
    <td colname="col1"> <p>归因 IQ </p> </td> 
-   <td colname="col2"> <p>通过 Analysis Workspace 中的<a href="/help/analyze/analysis-workspace/attribution/overview.md"  >归因 IQ</a>，您可以将多个新类型的归因模型添加到自由格式表、可视化图表和计算量度。它包括10多个基于规则的模型和算法模型。 </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > 视频： 自由格式表中的归因IQ</a> </p> </td> 
+   <td colname="col2"> <p>通过 Analysis Workspace 中的<a href="/help/analyze/analysis-workspace/attribution/overview.md"  >归因 IQ</a>，您可以将多个新类型的归因模型添加到自由格式表、可视化图表和计算量度。它包括10多个基于规则的模型和算法模型。 </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > 视频： 自由形式表中的Attribution IQ</a> </p> </td> 
   </tr>  
  </tbody> 
 </table>
