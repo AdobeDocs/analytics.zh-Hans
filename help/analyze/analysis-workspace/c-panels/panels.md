@@ -1,29 +1,29 @@
 ---
 description: 'null'
 title: 面板概述
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 
 # 面板概述
 
-面板是表格和可视化图表的集合。您可以通过工作区左上角的图标访问面板。当您需要根据时间段、业务单位、地理位置等来组织项目时，这些面板将会非常有帮助。以下六种面板类型在分析工作区中可用：
+面板是表格和可视化图表的集合。您可以通过工作区左上角的图标访问面板。当您需要根据时间段、业务单位、地理位置等来组织项目时，这些面板将会非常有帮助。Analysis Workspace 提供了六种类型的面板：
 
 * [空白面板](blank-panel.md)
-* [“快速分析”面板](quickinsight.md)
-* [目标面板分析](a4t-panel.md) （即将推出）
+* [快速分析面板](quickinsight.md)
+* [Analytics for Target 面板](a4t-panel.md)（即将推出）
 * [归因面板](attribution.md)
 * [自由格式面板](freeform-panel.md)
-* [“区段比较”面板](c-segment-comparison/segment-comparison.md)
+* [区段比较面板](c-segment-comparison/segment-comparison.md)
 
-“快速洞察”、“空白”和“自由形式”面板是开始分析的绝佳场所，而“目标分析”、“归因IQ”和“细分比较”则适合进行更高级的分析。 项目 `"+"` 中有一个按钮，因此您可以随时添加空白面板。
+“快速分析”、“空白”和“自由格式”面板是开始分析的绝佳选择，而“Analytics for Target”、“归因 IQ”和“区段比较”面板则适合进行更高级的分析。项目中有一个 `"+"` 按钮，通过该按钮，您可以随时添加空白面板。
 
-The default starting panel is the Freeform panel, but you can make the [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) your default as well.
+默认的开始面板是自由格式面板，但也可以将[空白面板](/help/analyze/analysis-workspace/c-panels/blank-panel.md)设置为默认的开始面板。
 
 ## 面板中的下拉过滤器 {#section_D2828EEDD52944528E87F470EAB581CF}
 
