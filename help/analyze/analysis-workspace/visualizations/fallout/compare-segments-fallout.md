@@ -3,9 +3,9 @@ description: 您可以在 Analysis Workspace 中从接触点创建区段、添�
 keywords: fallout and segmentation;segments in fallout analysis;compare segments in fallout
 title: 在流失分析中应用区段
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> 用作流失中检查点的区段必须使用级别低于流失可视化图表整体上下文的容器。对于访客上下文流失，用作检查点的区段必须是基于访问或基于点击的区段。对于访问上下文流失，用作检查点的区段必须是基于点击的区段。如果您使用的组合无效，则流失率将为 100%。我们为流失可视化图表添加了警告，当您添加不兼容的区段作为接触点时，将显示该警告。某些无效的区段容器组合会导致无效的流失图表，例如：
+>用作流失中检查点的区段必须使用级别低于流失可视化图表整体上下文的容器。对于访客上下文流失，用作检查点的区段必须是基于访问或基于点击的区段。对于访问上下文流失，用作检查点的区段必须是基于点击的区段。如果您使用的组合无效，则流失率将为 100%。我们为流失可视化图表添加了警告，当您添加不兼容的区段作为接触点时，将显示该警告。某些无效的区段容器组合会导致无效的流失图表，例如：
 
 * 在访客上下文流失可视化图表中使用基于访客的区段作为接触点
 * 在访问上下文流失可视化图表中使用基于访客的区段作为接触点
