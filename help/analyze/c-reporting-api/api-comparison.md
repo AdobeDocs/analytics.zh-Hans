@@ -17,7 +17,7 @@ Analytics 报表 API 的比较表。提供了支持文档的链接。
 
 >[!NOTE]
 >
-> 针对延迟，Analytics for Target (A4T) 将整合有关同一点击的 Analytics 和 Target 数据以进行综合报告。由于 Analytics 和 Target 调用在不同的时间发生，因此在进行任何处理以从这两个解决方案收集数据之前，将会存储点击。此过程在所有检查点处增加了&#x200B;**额外 7-10 分钟**&#x200B;的延迟。
+>针对延迟，Analytics for Target (A4T) 将整合有关同一点击的 Analytics 和 Target 数据以进行综合报告。由于 Analytics 和 Target 调用在不同的时间发生，因此在进行任何处理以从这两个解决方案收集数据之前，将会存储点击。此过程在所有检查点处增加了&#x200B;**额外 7-10 分钟**&#x200B;的延迟。
 
 <table id="table_7AF4FD678D494063ADF459B3CBC3EF3F"> 
  <thead> 
