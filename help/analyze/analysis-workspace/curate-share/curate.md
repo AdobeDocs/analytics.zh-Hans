@@ -2,9 +2,9 @@
 description: “策划”让您可在共享项目前限制组件。
 keywords: Analysis Workspace curation
 title: 策划工作区项目
-translation-type: ht
-source-git-commit: 2b4cf53582b746f697c18cb63a1840dfee9b693f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 63a827b4cfa858e503431579755f1b4dba4b5bdf
+workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 100%
 
@@ -38,6 +38,7 @@ ht-degree: 100%
 ## 删除项目策划
 
 要删除项目策划并恢复左边栏中的完整组件集，请执行以下操作：
+
 1. 单击&#x200B;**[!UICONTROL 共享]** > **[!UICONTROL 策划项目数据]**。
 1. 单击&#x200B;**[!UICONTROL 删除策划]**。
 1. 单击&#x200B;**[!UICONTROL 完成]**。
