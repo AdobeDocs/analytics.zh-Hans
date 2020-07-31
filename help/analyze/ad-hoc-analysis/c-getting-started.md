@@ -92,7 +92,7 @@ c_sys_reqs.xml
 
 * 如果允许您在计算机上安装程序，请执行以下操作：
 
-   1. 转到 https://www.java.com。
+   1. 转到 https://www.java.com 。
    1. Click **[!UICONTROL Java Download]**.
    1. Click **[!UICONTROL Agree and Start Download]**.
    1. 安装特定于您的操作系统的最新 Java 版本。
