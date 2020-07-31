@@ -1,17 +1,17 @@
 ---
 description: 您可以立即或按计划共享并组织项目以及发送项目文件（PDF 或 CSV 格式）。
-title: 共享菜单
+title: “共享”菜单
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d1e3daa8b13b148191583e678cd58f415701d407
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '108'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# 共享菜单
+# “共享”菜单
 
 您可以立即或按计划共享并组织项目以及发送项目文件（PDF 或 CSV 格式）。
 
