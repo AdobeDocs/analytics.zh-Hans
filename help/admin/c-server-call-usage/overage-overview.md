@@ -2,9 +2,9 @@
 description: 'null'
 title: “服务器调用使用情况”概述
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1038'
 ht-degree: 100%
 
@@ -87,7 +87,7 @@ Adobe Analytics“服务器调用使用情况”功能可根据您的请求为�
 
 >[!NOTE]
 >
-> 贵公司可以选择哪些登录公司有权访问“服务器调用使用情况”。
+>贵公司可以选择哪些登录公司有权访问“服务器调用使用情况”。
 
 <table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
  <thead> 
