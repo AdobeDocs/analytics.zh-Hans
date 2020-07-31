@@ -2,9 +2,9 @@
 description: 新的智能警报系统允许对警报进行更多粒度控制，而且还将异常检测与警报系统集成在一起。
 title: 智能警报概述
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '359'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Analysis Workspace 中新增的警报生成器和警报管理器取代了 Report
 
 >[!IMPORTANT]
 >
-> 使用带时间戳的数据创建警报可能会导致警报无法正确触发。Adobe 建议对智能警报使用不带时间戳的数据。
+>使用带时间戳的数据创建警报可能会导致警报无法正确触发。Adobe 建议对智能警报使用不带时间戳的数据。
 
 ## 警报的异常回顾
 
