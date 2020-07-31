@@ -4,9 +4,9 @@ subtopic: Bot rules
 title: 机器人规则概述
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1351'
 ht-degree: 100%
 
@@ -128,7 +128,7 @@ VISTA 规则的应用在机器人规则之后（请参阅[处理顺序](/help/ad
 
 >[!NOTE]
 >
-> 标记为 *`bots`* 的点击将计为[服务器调用。](/help/admin/c-server-call-usage/overage-overview.md)
+>标记为 *`bots`* 的点击将计为[服务器调用。](/help/admin/c-server-call-usage/overage-overview.md)
 
 ## IP 模糊处理对机器人过滤的影响 {#section_92E60B95BE8940D983F28C79E0CD6B12}
 
