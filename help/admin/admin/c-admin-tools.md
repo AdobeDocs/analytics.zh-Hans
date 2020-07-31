@@ -2,9 +2,9 @@
 description: 'null'
 title: 管理工具
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '153'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> 请不要在同一个浏览器中打开多个“管理员”选项卡。这可能导致您无意中将设置保存到错误的报表包。例如，如果您需要比较规则集并将它们复制到新的报表包，我们建议您打开一个新的浏览器或抓取屏幕截图来比较规则集。
+>请不要在同一个浏览器中打开多个“管理员”选项卡。这可能导致您无意中将设置保存到错误的报表包。例如，如果您需要比较规则集并将它们复制到新的报表包，我们建议您打开一个新的浏览器或抓取屏幕截图来比较规则集。
 
 + [帐单](billing-admin.md)
 + [机器人规则概述](bot-removal/bot-rules.md)
