@@ -4,8 +4,11 @@ keywords: Analysis Workspace
 title: 创建工作区项目
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+workflow-type: ht
+source-wordcount: '765'
+ht-degree: 100%
 
 ---
 
@@ -20,9 +23,9 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 1. 指定创建和管理项目的用户权限。
 
-   Before creating or curating an Analysis Workspace project, administrators must add you to a group with the **[!UICONTROL Create / Curate Projects in Analysis Workspace]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [群组](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/user-product-management/user-groups/groups.html)).
+   创建或组织 Analysis Workspace 项目之前，管理员必须要将您添加到具有&#x200B;**[!UICONTROL 在 Analysis Workspace 中创建/组织项目]**&#x200B;权限的组，或者添加到&#x200B;**[!UICONTROL 全部报表访问]**&#x200B;用户组。（**[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]** > [群组](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/user-product-management/user-groups/groups.html)）。
 
-1. In the [!DNL Experience Cloud], click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
+1. 在 [!DNL Experience Cloud] 中，单击 **[!UICONTROL Analytics]** > **[!UICONTROL 工作区]**。
 
    ![](assets/analysis_workspace_menu.png)
 
@@ -30,7 +33,7 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
    ![](assets/analysis-app-search.png)
 
-1. 单击 **[!UICONTROL Create New Project]**.
+1. 单击&#x200B;**[!UICONTROL 新建项目]**。
 
    您可以选择从以下项创建项目：
 
@@ -40,11 +43,12 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
    ![](assets/start_modal.png)
 
-1. To create a project from a blank project, click **[!UICONTROL Blank Project]**.
+1. 要从空白项目创建项目，请单击&#x200B;**[!UICONTROL 空白项目]**。
 
-   * 然后，单 **[!UICONTROL Create]**&#x200B;击，或
-   * 只需单击 **[!UICONTROL Enter]**&#x200B;即可。
-   屏幕上会显示空白项目，其中包括一个自由格式面板和一个数据表可视化信息。
+   * 然后单击&#x200B;**[!UICONTROL 创建]**，或
+   * 只需按下 **[!UICONTROL Enter]** 键。
+
+   屏幕上会显示空白项目，其中包括一个自由格式面板和一个数据表可视化图表。
 
    ![](assets/fa_project_new.png)
 
@@ -75,19 +79,19 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
  </tbody> 
 </table>
 
-1. 保存项目。Name the project, provide a description (optional, but useful) and tag the project (optional), then click **[!UICONTROL Save Project]**.
+1. 保存项目。为项目命名，提供描述（可选但很有用）并标记项目（可选），然后单击&#x200B;**[!UICONTROL 保存项目]**。
 
    ![](assets/save_project.png)
 
-1. 现在，您可以右键单击并复制可视化或面板，然后将复制的可视化或面板粘贴（“插入”）到同一项目的其他位置或其他项目中。
+1. 现在，您可以右键单击并复制可视化图表或面板，然后将复制的可视化图表或面板粘贴（“插入”）到同一项目的其他位置或其他项目中。
 
-   您可以利用此项功能来创建一些能够复制到其他项目中的“构建基块”（预定义的可视化/面板），从而更加快速地运用特定于您公司的数据。
+   您可以利用此项功能来创建一些能够复制到其他项目中的“构建基块”（预定义的可视化图表/面板），从而更加快速地运用特定于您公司的数据。
 
    >[!NOTE]
    >
    >如今，当您执行“保存”或“另存为”操作后，内部链接都是一些相对于其所在项目的链接，并非相对于以往进行复制的原始项目。
 
-## 添加组件和可视化 {#task_CDAC9B3007BE4A3790AFAD3746D669B1}
+## 添加组件和可视化图表 {#task_CDAC9B3007BE4A3790AFAD3746D669B1}
 
 1. 通过将 *`components`* 和 *`visualizations`* 拖动到项目来构建项目。
 
@@ -124,7 +128,7 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 **[可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)**
 
-The [!UICONTROL Visualizations] panel provides standard Analytics graphs, charts, donuts, data tables, [cohort](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) tables, Venn diagrams, and so on. 您可以将多个可视化信息拖放到项目中。
+[!UICONTROL 可视化]面板提供标准的 Analytics 图形、图表、圆环图、数据表、[同类群组](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)表、维恩图等等。您可以将多个可视化信息拖放到项目中。
 
 ![步骤结果](assets/visualizations.png)
 
@@ -177,7 +181,7 @@ The [!UICONTROL Visualizations] panel provides standard Analytics graphs, charts
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > 可视化</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > 可视化图表</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
