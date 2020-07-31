@@ -3,9 +3,9 @@ description: Report Builder 提交的优化方式及有时可能出现的错误�
 title: Report Builder 疑难解答和最佳实践
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1371'
 ht-degree: 100%
 
@@ -109,7 +109,7 @@ Report Builder 使用端口 80 和 443。确保您所在组织的防火墙允许
 
 >[!NOTE]
 >
-> 这只是一部分错误消息，并不是详尽列表。要了解有关解决错误的更多信息，请与您的管理员联系。
+>这只是一部分错误消息，并不是详尽列表。要了解有关解决错误的更多信息，请与您的管理员联系。
 
 **此功能只能应用于打开的工作簿。**
 
