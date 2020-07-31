@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 9758f88439ae550a68ba937ccb56425e2df127cc
 workflow-type: tm+mt
 source-wordcount: '1100'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 98%
       + 列和行设置 {#column-row-settings}
          + [列设置](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [行设置](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-         + [动态与静态项](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
+         + [动态项和静态项](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
       + [“撤消”和“重做”设置](analysis-workspace/build-workspace-project/undo-redo.md)
       + [Analysis Workspace 中可用的热键](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [对表格进行分页、过滤和排序](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
@@ -80,12 +80,12 @@ ht-degree: 98%
       + [树形图](analysis-workspace/visualizations/treemap.md)
    + 面板 {#panels}
       + [面板概述](analysis-workspace/c-panels/panels.md)
-      + [Analytics目标(A4T)面板](analysis-workspace/c-panels/a4t-panel.md)
+      + [Analytics for Target (A4T) 面板](analysis-workspace/c-panels/a4t-panel.md)
       + [归因面板](analysis-workspace/c-panels/attribution.md)
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
       + [自由格式面板](analysis-workspace/c-panels/freeform-panel.md)
       + [快速分析面板](analysis-workspace/c-panels/quickinsight.md)
-      + Segment comparison panel {#segment-comparison}
+      + 区段比较面板 {#segment-comparison}
          + [区段比较概述](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [区段比较用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [细分比较中使用的统计测试](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
@@ -337,7 +337,7 @@ ht-degree: 98%
 + Labs {#tech-previews}
    + [Labs 概述](tech-previews/overview.md)
 + Adobe Analytics 功能板 {#mobapp}
-   + [AdobeAnalytics仪表板-概述](mobile-app/home.md)
+   + [Adobe Analytics 功能板 - 概述](mobile-app/home.md)
    + [管理人指南](mobile-app/curator.md)
    + [执行用户快速入门指南](mobile-app/executive.md)
 + 渐进式 Web 应用程序 {#pwa}
