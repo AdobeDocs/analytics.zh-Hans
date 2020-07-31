@@ -3,11 +3,11 @@ description: 如何在 Report Builder 中添加、编辑、应用和过滤 Adobe
 title: 管理区段
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '919'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,10 +24,10 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 
 >[!NOTE]
 >
-> 添加或编辑区段时，Report Builder 区段界面会在 Microsoft Internet Explorer 窗口中启动 Analytics 区段生成器。您的 Report Builder 会话将保持活动状态。此操作不支持使用 Internet Explorer 以外的浏览器。
+>添加或编辑区段时，Report Builder 区段界面会在 Microsoft Internet Explorer 窗口中启动 Analytics 区段生成器。您的 Report Builder 会话将保持活动状态。此操作不支持使用 Internet Explorer 以外的浏览器。
 
 1. 在“请求向导”第 1 步的区段面板中，单击&#x200B;**[!UICONTROL 添加]**。
-1. 将启动一个 Internet Explorer 窗口，其中可打开 Analytics 区段生成器界面。有关如何构建细分的信息，请参阅 [Analytics细分](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/seg-home.html)。
+1. 将启动一个 Internet Explorer 窗口，其中可打开 Analytics 区段生成器界面。有关如何构建区段的信息，请参阅 [Analytics 分段](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/seg-home.html)。
 1. 定义并保存区段后，返回至“请求向导”。
 1. 单击“刷新”图标以刷新区段列表。
 
@@ -65,7 +65,7 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 
 >[!NOTE]
 >
-> 不论您是否为管理员，在 Report Builder 中，您都只能查看那些您拥有的区段以及与您共享的区段。（在市场营销 Reports &amp; Analytics 用户界面中，管理员可以查看组织中的所有区段）。
+>不论您是否为管理员，在 Report Builder 中，您都只能查看那些您拥有的区段以及与您共享的区段。（在市场营销 Reports &amp; Analytics 用户界面中，管理员可以查看组织中的所有区段）。
 
 ## 过滤区段 {#section_376E986D3E684999A7CDB08E53854159}
 
