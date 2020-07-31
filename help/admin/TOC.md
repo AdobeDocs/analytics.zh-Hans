@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
 workflow-type: tm+mt
 source-wordcount: '694'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 99%
    + [日志](admin/logs.md)
    + [营销渠道](admin/marketing-channels-admin.md)
    + [菜单自定义](admin/customize-menus.md)
-   + [度量可见性](admin/metric-visibility.md)
+   + [量度可见性](admin/metric-visibility.md)
    + [应用程序管理](admin/mobile-management.md)
    + 付费搜索检测 {#paid-search-detection}
       + [付费搜索检测概述](admin/paid-search-detection/paid-search-detection.md)
