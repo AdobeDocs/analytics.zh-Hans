@@ -2,9 +2,9 @@
 description: 'null'
 title: 警报生成器
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '450'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 对于包含自定义日历的报表包，警报生成器不支持每月粒度。
+>对于包含自定义日历的报表包，警报生成器不支持每月粒度。
 
 **收件人**
 
