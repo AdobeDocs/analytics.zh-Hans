@@ -2,9 +2,9 @@
 description: 'null'
 title: 区段
 uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '367'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 通过这种方式创建的区段是项目的内部区段。
+>通过这种方式创建的区段是项目的内部区段。
 
 您可以选择按照以下步骤操作，将这些区段设为公用（全局）区段：
 
