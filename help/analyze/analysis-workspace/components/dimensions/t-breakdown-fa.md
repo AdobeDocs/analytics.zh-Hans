@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 63%
+ht-degree: 93%
 
 ---
 
@@ -34,6 +34,6 @@ ht-degree: 63%
 
 ## 将归因模型应用于划分
 
-表中的任何细分也可以应用任何归因模型。 此归因模型可以与父列相同或不同。 例如，您可以分析“营销渠道”维上的线性订单，但将U形订单应用于渠道内的特定跟踪代码。 To edit the attribution model applied to a breakdown, hover over the breakdown model and click **[!UICONTROL Edit]**:
+也可以对表中的任何划分应用归因模型。此归因模型可能与父列相同或不同。例如，您可以对“营销渠道”维度上的线性订单进行分析，但同时将 U 型订单应用于渠道中的特定跟踪代码。要编辑已应用于划分的归因模型，只需将鼠标悬停在划分模型上，然后单击&#x200B;**[!UICONTROL 编辑]**：
 
-![细分设置](assets/breakdown_settings.png)
+![划分设置](assets/breakdown_settings.png)
