@@ -6,7 +6,7 @@ title: 数据列引用
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 93545364fe8c99dd9049eeeac06f2c15367defc0
+source-git-commit: ca9b77ebf8104a1937d87aba5021e2deeccd6f8b
 workflow-type: tm+mt
 source-wordcount: '3674'
 ht-degree: 96%
@@ -84,7 +84,7 @@ ht-degree: 96%
 | `geo_region` | 点击来源的州/市/自治区或区域的名称（基于 IP）。Adobe 与 Digital Envoy 合作，以将 IP 地址匹配到州/市/自治区/区域。 | char(32) |
 | `geo_zip` | 点击来源的地区的邮政编码（基于 IP）。Adobe 与 Digital Envoy 合作，以将 IP 地址匹配到邮政编码。 | varchar(16) |
 | `hier1 - hier5` | 由层级变量使用。包含一个分隔的值列表。在“报表包设置”下方选择分隔符。 | varchar(255) |
-| `hit_source` | 表示点击的来源。Hit_sources 0、1、2和6计费。 <br>1: 无时间戳2的标准图像 <br>请求： 带有时间戳3的标准图 <br>像请求： 带时间戳4的实时数据源 <br>上传： 未使用 <br>5: 通用数据源上 <br>传6: 完全处理数据源上 <br>传7: 事务ID数据源上 <br>传8: 不再使用； Adobe Advertising Cloud数据源的先前 <br>版本9: 不再使用； Adobe Social总 <br>结指标10: Audience Manager服务器端转发已使用 | tinyint，无符号 |
+| `hit_source` | 表示点击的来源。点击源1、2和6将计费。 <br>1: 无时间戳2的标准图像 <br>请求： 带有时间戳3的标准图 <br>像请求： 带时间戳4的实时数据源 <br>上传： 未使用 <br>5: 通用数据源上 <br>传6: 完全处理数据源上 <br>传7: 事务ID数据源上 <br>传8: 不再使用； Adobe Advertising Cloud数据源的先前 <br>版本9: 不再使用； Adobe Social总 <br>结指标10: Audience Manager服务器端转发已使用 | tinyint，无符号 |
 | `hit_time_gmt` | Adobe 数据收集服务器收到点击的时间戳，基于 Unix 时间。 | int |
 | `hitid_high` | 与 hitid_low 结合使用，用来唯一标识点击。 | bigint，无符号 |
 | `hitid_low` | 与 hitid_high 结合使用，用来唯一标识点击。 | bigint，无符号 |
