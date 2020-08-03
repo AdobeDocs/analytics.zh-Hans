@@ -6,10 +6,10 @@ title: 数据列引用
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
+source-git-commit: 93545364fe8c99dd9049eeeac06f2c15367defc0
 workflow-type: tm+mt
-source-wordcount: '3669'
-ht-degree: 97%
+source-wordcount: '3674'
+ht-degree: 96%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 97%
 | `geo_region` | 点击来源的州/市/自治区或区域的名称（基于 IP）。Adobe 与 Digital Envoy 合作，以将 IP 地址匹配到州/市/自治区/区域。 | char(32) |
 | `geo_zip` | 点击来源的地区的邮政编码（基于 IP）。Adobe 与 Digital Envoy 合作，以将 IP 地址匹配到邮政编码。 | varchar(16) |
 | `hier1 - hier5` | 由层级变量使用。包含一个分隔的值列表。在“报表包设置”下方选择分隔符。 | varchar(255) |
-| `hit_source` | 表示点击的来源。<br>1：不带时间戳的标准图像请求<br>2：带有时间戳的标准图像请求<br>3：带有时间戳的实时数据源上传<br>4：未使用<br>5：通用数据源上传<br>6：完全处理数据源上传<br>7：TransactionID 数据源上传<br>8：不再使用；Adobe Advertising Cloud 数据源的以前版本<br>9：不再使用；Adobe Social 概要量度 <br>10: Audience Manager服务器端转发已使用 | tinyint，无符号 |
+| `hit_source` | 表示点击的来源。Hit_sources 0、1、2和6计费。 <br>1: 无时间戳2的标准图像 <br>请求： 带有时间戳3的标准图 <br>像请求： 带时间戳4的实时数据源 <br>上传： 未使用 <br>5: 通用数据源上 <br>传6: 完全处理数据源上 <br>传7: 事务ID数据源上 <br>传8: 不再使用； Adobe Advertising Cloud数据源的先前 <br>版本9: 不再使用； Adobe Social总 <br>结指标10: Audience Manager服务器端转发已使用 | tinyint，无符号 |
 | `hit_time_gmt` | Adobe 数据收集服务器收到点击的时间戳，基于 Unix 时间。 | int |
 | `hitid_high` | 与 hitid_low 结合使用，用来唯一标识点击。 | bigint，无符号 |
 | `hitid_low` | 与 hitid_high 结合使用，用来唯一标识点击。 | bigint，无符号 |
@@ -267,7 +267,7 @@ ht-degree: 97%
 | `visid_low` | 与visid_high结合使用，以唯一标识访客。 | bigint，无符号 |
 | `visid_new` | 用于表示点击是否包含新生成的访客 ID 的标记。 | char(1) |
 | `visid_timestamp` | 如果访客 ID 是新生成的，则会提供用于表示访客 ID 生成时间的时间戳（基于 Unix 时间）。 | int |
-| `visid_type` | 非外部用途； Adobe内部用于处理优化。 表示用于标识访客的方法的数字ID。<br>0: 自定义访客ID或未知／不适用<br>1: IP和用户代理回 <br>退2: HTTP移动订户标 <br>头3: 旧版cookie值(s_vi) <br>4: 回退cookie值(s_fid) <br>5: 身份服务 | tinyint，无符号 |
+| `visid_type` | 非外部用途； 由Adobe内部用于处理优化。 表示用于标识访客的方法的数字ID。<br>0: 自定义访客ID或未知／不适用<br>1: IP和用户代理回 <br>退2: HTTP移动订户标 <br>头3: 旧版cookie值(s_vi) <br>4: 回退cookie值(s_fid) <br>5: 身份服务 | tinyint，无符号 |
 | `visit_keywords` | 在“搜索关键字”维度中使用的变量。此列使用非标准字符限制来适应 Adobe 使用的后端逻辑。 | varchar(244) |
 | `visit_num` | 在“访问次数”维度中使用的变量。起始值为 1，随后每个访客每启动一次新访问，该值便会递增。 | int，无符号 |
 | `visit_page_num` | 在“点击深度”维度中使用的变量。用户每生成一次点击，该变量的值便会增加 1。每次访问后重置。 | int，无符号 |
