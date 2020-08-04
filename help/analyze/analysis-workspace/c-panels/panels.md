@@ -1,10 +1,10 @@
 ---
 description: 'null'
 title: 面板概述
-translation-type: ht
-source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
-workflow-type: ht
-source-wordcount: '481'
+translation-type: tm+mt
+source-git-commit: 68ff30395daf5cfb26d3e597ec4e6098a856fb51
+workflow-type: tm+mt
+source-wordcount: '479'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 * [空白面板](blank-panel.md)
 * [快速分析面板](quickinsight.md)
-* [Analytics for Target 面板](a4t-panel.md)（即将推出）
+* [“Analytics for Target”面板](a4t-panel.md)
 * [归因面板](attribution.md)
 * [自由格式面板](freeform-panel.md)
 * [区段比较面板](c-segment-comparison/segment-comparison.md)
