@@ -5,7 +5,7 @@ title: 划分维度
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 93%
@@ -26,7 +26,9 @@ ht-degree: 93%
 
    您可以按维度项或受众段在选定时间段内细分指标。 此外，您还可以进一步深入到更精细的粒度级别。
 
-   >[!NOTE]数据表可显示的划分数量最多为 200 个。在导出划分时，该限额会有所增加。
+   >[!NOTE]
+   >
+   >数据表可显示的划分数量最多为 200 个。在导出划分时，该限额会有所增加。
 
 [YouTube 上的 Analysis Workspace 中的维度](https://www.youtube.com/watch?v=P9W0hhIHhCs&amp;index=12&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:54)
 
