@@ -3,7 +3,7 @@ description: 数据隐私中的隐私报表的变量。
 title: 隐私报表变量
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 100%
@@ -44,7 +44,9 @@ ht-degree: 100%
 
 1. 单击&#x200B;**[!UICONTROL 启用数据隐私报表]**&#x200B;按钮。
 
-   >[!NOTE] 启用后，这些变量将无法关闭。
+   >[!NOTE]
+   >
+   > 启用后，这些变量将无法关闭。
 
    ![](assets/rsm-privacy-enable.png)
 
