@@ -3,9 +3,9 @@ description: 描述如何配置成功事件的步骤。
 title: 配置成功事件
 topic: Admin tools
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
-translation-type: ht
-source-git-commit: 0df5a32a0cb0e38692e973f26b39e7a846225b12
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 100%
 
@@ -25,7 +25,9 @@ ht-degree: 100%
 1. 在&#x200B;**[!UICONTROL 名称]**&#x200B;列中，选中每个项目旁边的复选框以启用编辑，然后指定所需的名称。
 1. 在&#x200B;**[!UICONTROL 类型]**&#x200B;列中，选中每个项目旁边的复选框以启用下拉列表，然后选择所需的类型。
 
-   >[!NOTE]在更改事件类型之前，请参阅[更改事件类型](/help/admin/admin/c-success-events/event-type.md)。
+   >[!NOTE]
+   >
+   >在更改事件类型之前，请参阅[更改事件类型](/help/admin/admin/c-success-events/event-type.md)。
 
    有关这些元素的信息，请参阅[成功事件页面 - 描述](/help/admin/admin/c-success-events/success-event.md)。
 
@@ -37,7 +39,9 @@ ht-degree: 100%
 1. 选择是否始终记录该事件。
 1. 启用或禁用参与率量度。
 
-   >[!NOTE] 您最多可以为 100 个自定义事件启用参与率。除此之外，您还可以在[计算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)生成器中创建参与率量度。
+   >[!NOTE]
+   >
+   >您最多可以为 100 个自定义事件启用参与率。除此之外，您还可以在[计算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)生成器中创建参与率量度。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
