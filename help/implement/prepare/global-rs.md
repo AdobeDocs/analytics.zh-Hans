@@ -2,7 +2,7 @@
 title: Adobe Analytics 中的全局报表包
 description: 了解使用全局报表包的优势和要求。
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 100%
@@ -35,12 +35,15 @@ ht-degree: 100%
 请阅读以下一般准则，以了解实施全局报表包的流程。
 
 1. 在 Adobe Analytics 中创建全局报表包。有关详细信息，请参阅管理员用户指南中的[创建报表包](../../admin/admin-console/create-report-suite.md)。
-2. 与组织中负责每个域的团队合作。许多团队都有特定于其业务领域的报告要求。
-3. 将所有这些要求记录并汇总到一个[解决方案设计文档](solution-design.md)中。如果各个团队具有类似的维度要求，则他们可以使用相同的自定义变量。例如，如果网站 A 和网站 B 都需要痕迹导航维度，则两个网站在实施过程中都可以通过 eVar1 发送该数据。
-   >[!IMPORTANT] 请确保所有给定的自定义变量在各个域中的使用方式均类似。请勿在不同网站上将同一 eVar 或事件用于不同目的。
-4. 请确保每个域都有一个数据层，以便能够简化数据收集流程。如果没有数据层，虽然仍然可以收集数据，但实施的可靠性会降低且使用时间会缩短，在对您的网站进行重新设计时尤其如此。
-5. 使用 Adobe Experience Platform Launch 实施 Analytics。不同的网站可能需要不同的数据元素。请使用特定于每个域的规则以确保正确填充每个数据元素，然后将这些数据元素分配给相应的 eVar 和事件。有关详细信息，请参阅 Adobe Experience Platform Launch 用户指南中的 [Launch 概述](https://docs.adobe.com/content/help/zh-Hans/launch/using/overview.translate.html)。
-6. 包含 [Adobe Experience Cloud ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)，并使用 [appendVisitorIDsTo](https://docs.adobe.com/content/help/zh-Hans/id-service/using/id-service-api/methods/appendvisitorid.html) 函数。当用户从一个域单击到另一个域时，此函数将合并访客数据。
+1. 与组织中负责每个域的团队合作。许多团队都有特定于其业务领域的报告要求。
+1. 将所有这些要求记录并汇总到一个[解决方案设计文档](solution-design.md)中。如果各个团队具有类似的维度要求，则他们可以使用相同的自定义变量。例如，如果网站 A 和网站 B 都需要痕迹导航维度，则两个网站在实施过程中都可以通过 eVar1 发送该数据。
+
+   >[!IMPORTANT]
+   >
+   > 请确保所有给定的自定义变量在各个域中的使用方式均类似。请勿在不同网站上将同一 eVar 或事件用于不同目的。
+1. 请确保每个域都有一个数据层，以便能够简化数据收集流程。如果没有数据层，虽然仍然可以收集数据，但实施的可靠性会降低且使用时间会缩短，在对您的网站进行重新设计时尤其如此。
+1. 使用 Adobe Experience Platform Launch 实施 Analytics。不同的网站可能需要不同的数据元素。请使用特定于每个域的规则以确保正确填充每个数据元素，然后将这些数据元素分配给相应的 eVar 和事件。有关详细信息，请参阅 Adobe Experience Platform Launch 用户指南中的 [Launch 概述](https://docs.adobe.com/content/help/zh-Hans/launch/using/overview.translate.html)。
+1. 包含 [Adobe Experience Cloud ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)，并使用 [appendVisitorIDsTo](https://docs.adobe.com/content/help/zh-Hans/id-service/using/id-service-api/methods/appendvisitorid.html) 函数。当用户从一个域单击到另一个域时，此函数将合并访客数据。
 
 ## 使用全局报表包修改现有的实施
 
