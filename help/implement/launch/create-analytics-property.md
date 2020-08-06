@@ -2,10 +2,10 @@
 title: 在 Launch 中创建 Analytics 属性
 description: 使用 Adobe Experience Platform Launch 创建一个空间以自定义收集数据的方式。
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 100%
+source-wordcount: '549'
+ht-degree: 98%
 
 ---
 
@@ -36,18 +36,21 @@ Adobe Experience Platform Launch 是一个可用于在您的网站（包括 Anal
 数据元素是对网站特定部分的引用，以便收集变量值。
 
 1. 转到 [launch.adobe.com](https://launch.adobe.com) 并在出现提示时登录。
-2. 单击要在网站上实施的 Launch 属性。
-3. 单击“数据元素”选项卡，然后单击“创建新数据元素”。
-4. 为数据元素指定以下设置：
+1. 单击要在网站上实施的 Launch 属性。
+1. 单击“数据元素”选项卡，然后单击“创建新数据元素”。
+1. 为数据元素指定以下设置：
+
    * 名称：页面名称
    * 扩展：核心
    * 数据元素类型：JavaScript 变量
    * 变量路径：`window.document.title`
 
-      >[!NOTE] 注意：这是一个帮助您入门的示例值。如果您的组织为页面名称定义了更好的值（例如数据层值），则可以在此处输入该值。
+      >[!NOTE]
+      >
+      >这是帮助开始的示例值。 如果您的组织为页面名称定义了更好的值（例如数据层值），则可以在此处输入该值。
    * 清理选中的文本
    * 持续时间：页面查看
-5. 单击“保存”。
+1. 单击“保存”。
 
 ## 为 Adobe Analytics 创建规则
 
