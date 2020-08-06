@@ -1,8 +1,8 @@
 ---
-title: 设置跨设备Analytics
+title: 设置跨设备分析
 description: 配置虚拟报告套件以启用CDA。
 translation-type: tm+mt
-source-git-commit: 2e7ec3b2e4401b02005b3099dae2bb34c64a6846
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 91%
@@ -10,11 +10,13 @@ ht-degree: 91%
 ---
 
 
-# 设置跨设备Analytics
+# 设置跨设备分析
 
 在满足所有先决条件后，请通过以下步骤启用跨设备分析。您必须是产品配置文件管理员组的一员，或者拥有 Adobe Analytics 管理员权限，才能执行这些步骤。
 
->[!IMPORTANT] 在执行这些步骤之前，必须满足所有先决条件。如果不满足所有先决条件，该功能将不可用或无法正常工作。有关先决条件 [和限制](overview.md) ，请参阅概述页[面和所需的缝合方法(](field-based-stitching.md) 分别基于字段的拼合 [或设](device-graph.md)备图)。
+>[!IMPORTANT]
+>
+> 在执行这些步骤之前，必须满足所有先决条件。如果不满足所有先决条件，该功能将不可用或无法正常工作。有关先决条件 [和限制](overview.md) ，请参阅概述页[面和所需的缝合方法(](field-based-stitching.md) 分别基于字段的拼合 [或设](device-graph.md)备图)。
 
 ## 选择要启用 CDA 的跨设备报表包
 
