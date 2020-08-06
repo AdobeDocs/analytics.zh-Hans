@@ -1,9 +1,9 @@
 ---
 title: 系统要求
 description: 为使用 Adobe Analytics 而需满足的系统要求。
-translation-type: ht
-source-git-commit: 07a9c983b0efa6e75765c1222cf056769417a341
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 100%
 
@@ -23,7 +23,9 @@ ht-degree: 100%
 * Mozilla Firefox
 * Apple Safari
 
->[!NOTE] Adobe 已于 2018 年 11 月 13 日停止在 Adobe Analytics 中支持 Microsoft Internet Explorer 11。
+>[!NOTE]
+>
+> Adobe 已于 2018 年 11 月 13 日停止在 Adobe Analytics 中支持 Microsoft Internet Explorer 11。
 
 ## 非浏览器解决方案的系统要求
 
