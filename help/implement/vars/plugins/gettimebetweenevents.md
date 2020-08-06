@@ -2,7 +2,7 @@
 title: getTimeBetweenEvents
 description: 测量两个事件之间的间隔时间。
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '1093'
 ht-degree: 100%
@@ -70,7 +70,10 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 * **`rt`**（必需，布尔）：“重新启动计时器”选项。如果希望每当 `events` 变量包含“启动计时器”事件时便重新启动计时器，则设置为 `true`。如果不希望在遇到“启动计时器”事件时重新启动计时器，则设置为 `false`。
 * **`stp`**（必需，字符串）：“停止计时器”事件。由 Analytics“停止计时器”事件构成的以逗号分隔的字符串。
 * **`res`**（必需，布尔）：“重置计时器”选项。如果要在计时器启动时开始记录时间，并在计时器停止后重置计时器，则设置为 `true`。如果要记录时间但不停止计时器，则设置为 `false`。如果设置为 `false`，则在 events 变量记录到停止事件后，计时器将继续运行。
-   >[!TIP] 如果将此参数设置为 `false`，则强烈建议您设置下面的 `rte` 参数。
+
+   >[!TIP]
+   >
+   > 如果将此参数设置为 `false`，则强烈建议您设置下面的 `rte` 参数。
 * **`cn`**（可选，字符串）：存储了首个事件的时间的 Cookie 名称。默认值为 `"s_tbe"`。
 * **`etd`**（可选，整数）：Cookie 的过期时间（以天为单位）。如果希望 Cookie 在浏览器会话结束时过期，则设置为 `0`。如果未设置任何值，则将使用默认值，即 1 天。
 * **`fmt`**（可选，字符串）：返回秒数时采用的时间格式（默认值为“无”）
