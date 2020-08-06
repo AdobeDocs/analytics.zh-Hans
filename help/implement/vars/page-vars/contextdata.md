@@ -2,7 +2,7 @@
 title: contextData
 description: 上下文数据变量允许您在处理规则可读取的每个页面上定义自定义变量。
 translation-type: tm+mt
-source-git-commit: 44ee19e468b9455c8c510421e507dd3f091fbc88
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 88%
@@ -35,7 +35,9 @@ s.contextData["example_variable"] = "Example value";
 
 ## 使用处理规则填充 Analytics 变量
 
->[!IMPORTANT] 运行处理规则后，上下文数据变量将被丢弃。如果没有可将值置于变量的处于活动状态的处理规则，则该数据会永久丢失！
+>[!IMPORTANT]
+>
+> 运行处理规则后，上下文数据变量将被丢弃。如果没有可将值置于变量的处于活动状态的处理规则，则该数据会永久丢失！
 
 1. 更新您的实施以设置上下文数据变量名称和值。
 2. 登录到 Adobe Analytics，然后转到“管理员”>“报表包”。
