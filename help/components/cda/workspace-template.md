@@ -1,8 +1,8 @@
 ---
 title: CDA 工作区模板
-description: 在Analysis Workspace中描述CDA模板中的每个字段。
+description: 在Analysis Workspace的CDA模板中描述每个字段。
 translation-type: tm+mt
-source-git-commit: 2e7ec3b2e4401b02005b3099dae2bb34c64a6846
+source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 97%
@@ -22,7 +22,7 @@ Adobe 提供一个模板以查看重要的跨设备性能数据。
 
 将创建一个包含多个面板的 Analysis Workspace 项目。在顶部显示了目录和简介，允许查看报表的上下文和导致到单个报表。单击目录中的链接或展开面板的折叠面板可查看这些报表。
 
-<!-->The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md<-->
+<!--The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md-->
 
 * **对协作图成员的特别说明**：显示报表包的哪些部分包含的访客位于支持协作图的地区以及哪些部分包含的访客位于不支持协作图的地区。
 * **用户标识**：显示使用基于跨设备分析的方法识别网站访客的频率。
