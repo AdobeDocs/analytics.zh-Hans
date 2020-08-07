@@ -2,10 +2,10 @@
 description: 您可以下载 PDF 和 CSV 格式的已保存和未保存项目。
 title: 下载 PDF 或 CSV 文件
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
-translation-type: ht
-source-git-commit: 422b69a9f671bbd3c4e8f033916296cbdf7f27d9
-workflow-type: ht
-source-wordcount: '363'
+translation-type: tm+mt
+source-git-commit: 3660806bc25b2a234c4f694cf5e661f4e23d5cac
+workflow-type: tm+mt
+source-wordcount: '362'
 ht-degree: 100%
 
 ---
@@ -37,6 +37,6 @@ PDF 或 CSV 文件的名称与项目的当前名称匹配。对于未保存的�
 * 如果数字无效，将显示空白单元格。
 * 不应用四舍五入（即使在计算量度中指定也不应用）- 显示原始值。
 
->[!N注意：]
+>[!NOTE]
 >
-> 使用逗号作为小数分隔符的数值将会继续在导出的 CSV 中引用。
+>使用逗号作为小数分隔符的数值将会继续在导出的 CSV 中引用。
