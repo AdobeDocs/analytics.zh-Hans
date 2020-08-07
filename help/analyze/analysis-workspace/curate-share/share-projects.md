@@ -2,11 +2,11 @@
 description: 工作区中的项目共享和项目角色
 keywords: Analysis Workspace sharing
 title: 共享工作区项目
-translation-type: ht
-source-git-commit: 192951d794b5e45cbbce22122adff573cb853054
-workflow-type: ht
-source-wordcount: '1073'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2189354bc296fa8b39dc646b2ad3aec28ded92cd
+workflow-type: tm+mt
+source-wordcount: '1102'
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 ### 未分配角色（项目链接）
 
-如果收件人未分配到角色，并收到指向项目的链接（**[!UICONTROL 共享]>[!UICONTROL 获取项目链接]**），则他们会获得默认角色。管理员将获得&#x200B;**[!UICONTROL 可以编辑]**&#x200B;角色，非管理员将获得&#x200B;**[!UICONTROL 可以复制]**&#x200B;角色。
+If a recipient is not assigned a role and receives a [link](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) to the project (**[!UICONTROL Share]>[!UICONTROL Get project link]**), they will be placed into a role by default. 管理员将获得&#x200B;**[!UICONTROL 可以编辑]**&#x200B;角色，非管理员将获得&#x200B;**[!UICONTROL 可以复制]**&#x200B;角色。
 
 ### 分配了多个角色
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 ## 共享报表链接 {#Links}
 
-您可以通过&#x200B;**[!UICONTROL 共享]>[!UICONTROL 获取项目链接]**&#x200B;来获取某个项目的链接。单击该链接后，收件人将需要先登录，然后才能进入项目。如果收件人未分配到角色，他们将获得默认角色。管理员将获得&#x200B;**[!UICONTROL 可以编辑]**&#x200B;角色，非管理员将获得&#x200B;**[!UICONTROL 可以复制]**&#x200B;角色。
+您可以通过&#x200B;**[!UICONTROL 共享]>[!UICONTROL 获取项目链接]**&#x200B;来获取某个项目的链接。单击该链接后，收件人将需要先登录，然后才能进入项目。如果收件人未分配到角色，他们将获得默认角色。管理员将获得&#x200B;**[!UICONTROL 可以编辑]**&#x200B;角色，非管理员将获得&#x200B;**[!UICONTROL 可以复制]**&#x200B;角色。[了解有关创建](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) Workspace项目的可共享链接的更多信息。
 
 ## 在项目管理器中共享项目 {#Manager}
 
