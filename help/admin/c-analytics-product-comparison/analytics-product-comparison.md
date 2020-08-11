@@ -2,7 +2,7 @@
 description: Analysis Workspace、Reports & Analytics、Ad Hoc Analysis、Report Builder、Data Warehouse 和 Data Workbench 的系统要求和比较。
 title: Analytics 产品比较和要求
 translation-type: tm+mt
-source-git-commit: f3fa1cfd718339e58764bf4b39b07ccf2eae12c3
+source-git-commit: 3a822c1c52a072f92a402810ec643a499c81b76d
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 54%
@@ -12,15 +12,15 @@ ht-degree: 54%
 
 # Analytics产品比较和要求
 
-本页包含各种Adobe Analytics产品的比较： Analysis Workspace、报告和Analytics、Report Builder、Data warehouse、Data Workbench、数据源和AnalyticsAPI 2.0。
+本页包含各种Adobe Analytics产品的比较：Analysis Workspace、Reports &amp; Analytics、Report Builder、Data warehouse、Data Workbench、数据源和Analytics API 2.0。
 
 有关使用哪种 Adobe Analytics 产品的信息，请转至[此处](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)。
 
-| 产品名称和帮助链接 | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Reports and Analytics](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) | [数据馈送](/help/export/analytics-data-feed/data-feed-overview.md) | [AnalyticsAPI 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| 产品名称和帮助链接 | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Reports and Analytics](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://docs.adobe.com/content/help/zh-Hans/data-workbench/using/home.html) | [数据馈送](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|---|---|
 | **访问方法** | [浏览器](/help/admin/sys-reqs.md) | [浏览器](/help/admin/sys-reqs.md) | [Windows版MS Excel](/help/analyze/report-builder/setup/system-requirements.md) | 通过浏览器进行设置。 [了解更多](/help/admin/sys-reqs.md) | [Windows 64位](https://docs.adobe.com/content/help/zh-Hans/data-workbench/using/install/c-data-workbench-client-install.html) | 通过浏览器进行设置。 [了解更多](/help/export/analytics-data-feed/data-feed-overview.md) | REST风格的API工具。 使用AdobeI/O凭据登录。 [了解更多](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 | **数据粒度** | 汇总 | 汇总 | 汇总 | 汇总 | 点击 | 点击 | 汇总 |
-| **可用的过期云ID(ECID)** | 否 | 否 | 否 | 是 | 是 | 是 | 否 |
+| **Experience CloudID(ECID)可用** | 否 | 否 | 否 | 是 | 是 | 是 | 否 |
 | **可用时间戳** | 否 | 否 | 否 | 否 | 是 | 是 | 否 |
 | **处理级别** | 完全处理 | 完全处理，单独 [的实时报告](/help/components/c-real-time-reporting/realtime.md) | 完全处理，单独 [的实时报告](/help/components/c-real-time-reporting/realtime.md) | 完全处理 | 完全处理 | 完全处理 | 完全处理 |
 | **包含管理员机器人过滤器数据** <br> [了解更多](/help/admin/admin/bot-removal/bot-removal.md) | 否 | 是——单独的机器人报告 | 是——单独的机器人报告 | 否 | 否 | 否 | 否 |
