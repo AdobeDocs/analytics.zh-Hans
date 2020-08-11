@@ -1,50 +1,24 @@
 ---
-description: 您可以立即或按计划共享并组织项目以及发送项目文件（PDF 或 CSV 格式）。
+description: 您可以对组织中的收件人进行PDF/CSV项目的创建、共享和计划。
 title: “共享”菜单
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
-translation-type: ht
-source-git-commit: d1e3daa8b13b148191583e678cd58f415701d407
-workflow-type: ht
-source-wordcount: '108'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 63efd2f046ac43640a9dd0fe2b3ee9fa3f182a8f
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 32%
 
 ---
 
 
 # “共享”菜单
 
-您可以立即或按计划共享并组织项目以及发送项目文件（PDF 或 CSV 格式）。
+您可以在“工作区共享”菜单中，对组织中的收件人进行PDF/CSV项目的管理、共享 **和计划**。
 
-**[!UICONTROL Workplace]** > **[!UICONTROL 共享]**
-
-<table id="table_5104A6D817E94A268BBDD47C5C8BB26E"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 选项 </th> 
-   <th colname="col2" class="entry"> 方法 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 共享项目 </td> 
-   <td colname="col2"><a href="/help/analyze/analysis-workspace/curate-share/share-projects.md"  > 更多信息</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 获取项目链接 </td> 
-   <td colname="col2"> <p>复制并共享链接，以将其他人直接导向此项目。需要用户登录。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 立即发送文件 </td> 
-   <td colname="col2"> <p>指定文件类型、描述和收件人。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 按计划发送文件 </td> 
-   <td colname="col2"> <p>指定开始日期、间隔和频率，以及结束日期。<a href="/help/analyze/analysis-workspace/curate-share/schedule-projects.md"  > 更多信息</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 策划项目数据 </td> 
-   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/curate-share/curate.md"  > 更多信息</a> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| 菜单选项 | 描述 |
+|---|---|
+| 共享项目 | 将项目提供给您组织中的其他Analysis Workspace用户。 [了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 获取项目链接 | 创建可共享链接以快速访问项目。 需要用户登录。[了解更多](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) |
+| 立即发送文件 | 以CSV或PDF格式将项目立即发送给指定收件人。 |
+| 按计划发送文件 | 在计划上将项目以CSV或PDF格式发送给指定收件人。 [了解更多](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html) |
+| 策划项目数据 | 限制项目中可用的组件（维度、量度、区段、日期范围）。 [了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/curate.html) |
