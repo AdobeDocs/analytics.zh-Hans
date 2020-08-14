@@ -5,9 +5,9 @@ user-guide-title: Analytics 工具指南
 user-guide-description: Provides access to Analysis Workspace , the premier analysis and visualization tool for Analytics. Also features all the analysis tools (Report Buidler, Reporting API, Data Workbench, and Activity Map) that you can use in Adobe Analytics.
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 07652c76120fae6b3e7b10bbe55b84a9cfe8b8c7
+source-git-commit: a70f2c6c8aecae9a8a4e22e460dd2b8e6b885db9
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1105'
 ht-degree: 99%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 99%
    + 构建工作区项目 {#build-workspace-project}
       + [创建项目 - 概述](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [创建工作区项目](analysis-workspace/build-workspace-project/t-freeform-project.md)
+      + [保存项目](analysis-workspace/build-workspace-project/save-projects.md)
       + [模板](analysis-workspace/build-workspace-project/starter-projects.md)
       + [工作区中的多个报表包](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + 列和行设置 {#column-row-settings}
