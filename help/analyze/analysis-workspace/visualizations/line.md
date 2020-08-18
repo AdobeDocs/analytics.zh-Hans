@@ -3,10 +3,10 @@ description: 使用线条可视化描述趋势（基于时间）数据集
 title: 折线图
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: 78ed02b7bb7a4dc042c837817d36fc8ce30dce79
+source-git-commit: 34db4e99589827fd41f642788e3409834b96d78a
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 17%
+source-wordcount: '446'
+ht-degree: 16%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
-> 某些线条可视化设置（如“添加趋势线”）当前处于有限测试中。 [了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html).
+> 某些线条可视化设置（如“显示趋势线”）当前处于有限测试中。 [了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html).
 
 单击线可视化右上角的齿轮图标可访问可 [**视化设**](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html#section_D3BB5042A92245D8BF6BCF072C66624B) 置。 设置分为：
 
@@ -29,11 +29,15 @@ ht-degree: 17%
 
 ### 更改粒度
 
-通过[可视化设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B)中的粒度下拉列表，可以将趋势可视化（例如折线图、条形图）从每日更改为每周、每月等。
+通过[可视化设置](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B)中的粒度下拉列表，可以将趋势可视化（例如折线图、条形图）从每日更改为每周、每月等。此粒度也会在数据源表中更新。
 
-### 添加趋势线叠加
+### 显示最小或最大
 
-在“ **可视化设置”>“叠加”>“添加趋势线**”下，您可以选择向行系列添加回归趋势线。 趋势线有助于在数据中描绘更清晰的图案。
+在“ **可视化设置”>“叠加”>“显示最小／最大**”下，您可以叠加一个最小和最大值标签以快速突出显示度量中的峰值和谷值。
+
+### 显示趋势线叠加
+
+在“ **可视化设置”>“叠加”>“显示趋势线**”下，您可以选择向行系列添加回归趋势线。 趋势线有助于在数据中描绘更清晰的图案。
 
 所有模型都采用普通最小二乘拟合：
 
