@@ -2,9 +2,9 @@
 description: “Reports & Analytics”中的“报表”菜单概述。
 title: “报表”菜单
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">区段 <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">可显示用于添加或管理区段的区段边栏。您还可以通过区段边栏访问<a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  >区段生成器</a>和<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >区段管理器</a>界面。 </td> 
+   <td colname="col2">可显示用于添加或管理区段的区段边栏。您还可以通过区段边栏访问<a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >区段生成器</a>和<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >区段管理器</a>界面。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">量度 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
