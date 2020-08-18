@@ -5,7 +5,7 @@ title: 分类规则
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '2018'
 ht-degree: 100%
@@ -56,7 +56,7 @@ about_classification_rules.xml
 
 >[!NOTE]
 >
-> [!UICONTROL 规则生成器]不支持数值 2 分类。
+>[!UICONTROL 规则生成器]不支持数值 2 分类。
 
 ## 有关规则的重要信息
 
@@ -66,7 +66,7 @@ about_classification_rules.xml
 
 * **报表包**：在至少选择一个报表包后，您才可以选取分类。在创建规则集并分配变量后，您才可以应用报表包。
 
-   在测试规则集时，使用报表中的键值（经过分类的变量）可查看规则集将如何影响键值。（[键值](/help/components/classifications/c-classifications-importer/c-saint-data-files.md)是经过分类的变量，或者是分类上载表中的第一列。）
+   在测试规则集时，使用报表中的键值（经过分类的变量）可查看规则集将如何影响键值。（[键值](/help/components/classifications/importer/c-saint-data-files.md)是经过分类的变量，或者是分类上载表中的第一列。）
 
 * **规则优先级**：如果一个键值匹配多条规则，这些规则设置了相同的分类（在“[!UICONTROL 设置分类]”列中），则将使用匹配分类的最后一条规则。请参阅[关于规则优先级](/help/components/classifications/crb/classification-quickstart-rules.md)。
 
@@ -79,7 +79,7 @@ about_classification_rules.xml
 
 ## 规则何时不会对键值进行分类？
 
-在激活规则时，您可以覆盖现有分类。对于以下情况，分类规则不会对[键值](/help/components/classifications/c-classifications-importer/c-saint-data-files.md)（变量）进行分类：
+在激活规则时，您可以覆盖现有分类。对于以下情况，分类规则不会对[键值](/help/components/classifications/importer/c-saint-data-files.md)（变量）进行分类：
 
 * 已对键值进行分类，并且您未选择[覆盖分类](/help/components/classifications/crb/classification-rule-definitions.md)。
 
@@ -112,13 +112,13 @@ regex_classification_rules.xml
 
 >[!NOTE]
 >
-> 作为最佳实践，正则表达式最适合使用分隔符的跟踪代码。
+>作为最佳实践，正则表达式最适合使用分隔符的跟踪代码。
 
 ## 正则表达式 - 跟踪代码示例 {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
 >[!NOTE]
 >
-> 如果跟踪代码采用 URL 编码，它将&#x200B;**不会**&#x200B;由规则生成器分类。
+>如果跟踪代码采用 URL 编码，它将&#x200B;**不会**&#x200B;由规则生成器分类。
 
 在此示例中，假设您要对以下促销活动 ID 进行分类：
 
