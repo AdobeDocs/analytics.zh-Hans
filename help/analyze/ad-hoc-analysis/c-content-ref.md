@@ -4,7 +4,10 @@ title: 生成区段
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '1209'
+ht-degree: 94%
 
 ---
 
@@ -13,11 +16,11 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Ad Hoc Analysis 集成了 Analytics 区段环境，允许您在各类 Adobe 产品中生成、共享、管理和应用访客区段。Ad Hoc Analysis 为其区段生成器和区段管理器提供了一种基于 Java 的用户界面，它等同于其他 Analytics 工具使用的基于 Web 的工具，可匹配服务器调用并且可通过基于 Java 的控制台提供相同的特性及功能。
 
-Ad Hoc Analysis 包含用于构建区段的类似功能，另有新功能升级，例如，用于设置区段管理[工作流程](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html)的[区段管理器](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html)。与往常一样，您可以在[区段生成器](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)中生成并保存区段，或通过 Ad Hoc Analysis 控制台[生成来自流失报表的区段](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)，然后将新区段或扩展区段保存到受众库，以用于常规访问和应用。 ![](assets/seg__overview_ad_hoc.png)
+Ad Hoc Analysis 包含用于构建区段的类似功能，另有新功能升级，例如，用于设置区段管理[工作流程](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html)的[区段管理器](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/segmentation-workflow/seg-manage.html)。与往常一样，您可以在[区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md)中生成并保存区段，或通过 Ad Hoc Analysis 控制台[生成来自流失报表的区段](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)，然后将新区段或扩展区段保存到受众库，以用于常规访问和应用。 ![](assets/seg__overview_ad_hoc.png)
 
 ## Ad Hoc Analysis 中的统一分段 {#section_5FA03A06DE054448AD519CE30C39E294}
 
-有关在统一分段环境中生成和管理区段的信息与说明（包括临时分析功能），请参阅[统一分段](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)文档。
+有关在统一分段环境中生成和管理区段的信息与说明（包括临时分析功能），请参阅[统一分段](/help/components/segmentation/segmentation-workflow/seg-build.md)文档。
 
 * [新增功能](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
 * [我的现有区段有什么变化？](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
@@ -33,8 +36,8 @@ Ad Hoc Analysis 包含用于构建区段的类似功能，另有新功能升级�
 ## 功能 {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
 * [区段对于所有报表包都是通用的。](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/seg-home.html)以前，区段是报表包特有的。
-* 您可以通过[区段管理器](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html)中的区段共享、标记、验证和批准功能，来设置[工作流程](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html)。
-* 经过更新的[区段生成器](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)可以简化区段的创建过程。
+* 您可以通过[区段管理器](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/segmentation-workflow/seg-manage.html)中的区段共享、标记、验证和批准功能，来设置[工作流程](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html)。
+* 经过更新的[区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md)可以简化区段的创建过程。
 * 您可以[标记区段](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-tag.html)，以便稍后进行组织和搜索，而无需使用文件夹。以前，使用文件夹（在 [!DNL ad hoc analysis] 中）来组织区段。
 * 您可以在 Ad Hoc Analysis 之外创建[连续区段](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html)。
 
@@ -66,7 +69,7 @@ Ad Hoc Analysis 包含用于构建区段的类似功能，另有新功能升级�
 
 所有用户均可以创建和编辑个人区段。这些区段可以直接与任何其他 Analytics 用户共享。
 
-管理员可以编辑任何区段，与群组[共享区段](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/t-seg-share.html)，并为组织[设置权限](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-rights.html)以访问区段。
+管理员可以编辑任何区段，与群组[共享区段](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/t-seg-share.html)，并为组织[设置权限](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/segment-reference/seg-rights.html)以访问区段。
 
 ## 我应该怎样处理具有相同名称，但可能有不同定义的重复区段？ {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
