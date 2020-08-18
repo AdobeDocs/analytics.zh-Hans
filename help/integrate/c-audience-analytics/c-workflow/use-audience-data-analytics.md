@@ -3,8 +3,11 @@ description: '您可以在整个 Analytics 中使用 AAM 受众维度。集成�
 solution: Experience Cloud
 title: 在 Analytics 中使用受众数据
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '642'
+ht-degree: 100%
 
 ---
 
@@ -69,7 +72,7 @@ AAM 区段数据依据逐次点击传递到 Analytics 中，表示访客在该�
 
 ## 区段生成器 {#section_2AA81852A1404AB894472CA8959461B6}
 
-您可以整合 Analytics [区段生成器](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)中的受众维度，以及 Analytics 收集到的行为信息。
+您可以整合 Analytics [区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md)中的受众维度，以及 Analytics 收集到的行为信息。
 
 1. 转至&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 区段]**。
 1. 单击&#x200B;**[!UICONTROL 添加]**&#x200B;以创建一个新区段。
