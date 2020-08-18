@@ -2,8 +2,11 @@
 description: 计算量度生成器提供了一个画布，用于拖放维度、量度、区段和函数，以基于容器层次结构逻辑、规则和运算符创建自定义量度。通过此集成式开发工具，您可以生成并保存简单的计算量度或复杂的高级计算量度。
 title: 生成量度
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '968'
+ht-degree: 100%
 
 ---
 
@@ -60,7 +63,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
       <li id="li_A8815F2D8D284874AD701A7B103D82A3">基于<b>团队名称</b>的标记，如社交营销、移动营销。 </li> 
       <li id="li_A51A4515A541488E9D90296A955E9F4F"><b>项目</b>标记（分析标记），如登录页面分析。 </li> 
       <li id="li_B4605470A7094026AC168420B64BBCC3"><b>类别</b>标记：男士；地理位置。 </li> 
-      <li id="li_B6EAB0F2A96C41209C4EC97B9E64390B"><b>工作流程</b>标记：待批准；策划（为特定的业务部门） </li> 
+      <li id="li_B6EAB0F2A96C41209C4EC97B9E64390B"><b>工作流程标记：待批准；策划（为特定的业务部门）</b> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -102,7 +105,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> + 新建 </span> </td> 
-   <td colname="col3"> <p>允许您创建新组件，例如新区段（可使您转到<a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  >区段生成器</a>）。 </p> </td> 
+   <td colname="col3"> <p>允许您创建新组件，例如新区段（可使您转到<a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >区段生成器</a>）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>搜索组件 </p> </td> 
