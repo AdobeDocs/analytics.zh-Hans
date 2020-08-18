@@ -5,7 +5,7 @@ title: 关于子分类
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 100%
@@ -19,7 +19,7 @@ Adobe Analytics 支持单级别和多级别分类模型。使用分类层次结�
 
 >[!NOTE]
 >
-> 子分类是指创建分类的分类的功能。但请注意，这与创建[!UICONTROL 层次]报表的[!UICONTROL 分类层次]不同。有关分类层次结构的详细信息，请参阅[分类层次结构](classification-hierarchies.md)。
+>子分类是指创建分类的分类的功能。但请注意，这与创建[!UICONTROL 层次]报表的[!UICONTROL 分类层次]不同。有关分类层次结构的详细信息，请参阅[分类层次结构](classification-hierarchies.md)。
 
 例如：
 
@@ -32,7 +32,7 @@ Adobe Analytics 支持单级别和多级别分类模型。使用分类层次结�
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-有关数据文件的更多信息，请参阅[分类数据文件](/help/components/classifications/c-classifications-importer/c-saint-data-files.md)。
+有关数据文件的更多信息，请参阅[分类数据文件](/help/components/classifications/importer/c-saint-data-files.md)。
 
 多级别分类由父项分类和子项分类组成。例如：
 
@@ -46,7 +46,7 @@ Adobe Analytics 支持单级别和多级别分类模型。使用分类层次结�
 
 `<parent_name>^<child_name>`
 
-有关数据文件格式的详细信息，请参阅[分类数据文件](/help/components/classifications/c-classifications-importer/c-saint-data-files.md)。
+有关数据文件格式的详细信息，请参阅[分类数据文件](/help/components/classifications/importer/c-saint-data-files.md)。
 
 例如：
 
@@ -59,7 +59,7 @@ Adobe Analytics 支持单级别和多级别分类模型。使用分类层次结�
 
 >[!NOTE]
 >
-> 如果数据文件中的“[!UICONTROL 键值]”列为空白，则 Adobe 会自动地为每个数据行生成唯一的键值。要避免在上载具有二级或更高级分类数据的数据文件时可能出现的文件损坏，请以星号 (*) 填充[!UICONTROL 键值]列的每一行。
+>如果数据文件中的[!UICONTROL 键值]列为空白，则 Adobe 会自动地为每个数据行生成唯一的键值。要避免在上载具有二级或更高级分类数据的数据文件时可能出现的文件损坏，请以星号 (*) 填充[!UICONTROL 键值]列的每一行。
 
 如需疑难解答帮助，请参阅[常见分类上载问题](https://helpx.adobe.com/cn/analytics/kb/common-saint-upload-issues.html)。
 
@@ -68,7 +68,7 @@ Adobe Analytics 支持单级别和多级别分类模型。使用分类层次结�
 ![](assets/sample-product-classifications.png)
 
 >[!NOTE]
- 产品分类数据仅受与产品直接相关的数据属性的限制，而与产品在网站上的分类或销售方式无关。销售类别、网站浏览节点或销售项目等数据元素不是产品分类数据。这些元素是在报表转化变量中所捕获的。
+产品分类数据仅受与产品直接相关的数据属性的限制，而与产品在网站上的分类或销售方式无关。销售类别、网站浏览节点或销售项目等数据元素不是产品分类数据。这些元素是在报表转化变量中所捕获的。
 
 在上载此产品分类的数据文件时，您可以将分类数据作为单个或多个文件进行上载（请参阅下文）。将文件 1 中的颜色代码与文件 2 中的颜色名称分开后，仅在创建新颜色代码时才需要更新颜色名称数据（可能只有少数几行）。这会从更新较为频繁的文件 1 中消除颜色名称（代码&amp;Hat;颜色）字段，从而缩减在生成数据文件时的文件大小并降低复杂性。
 
