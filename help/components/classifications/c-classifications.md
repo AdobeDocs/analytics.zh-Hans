@@ -5,7 +5,7 @@ title: 关于分类
 topic: Admin tools
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 100%
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 在 2018 年 5 月 10 日的 Analytics 维护版本中，Adobe 已开始限制启用日期的分类和数值分类的功能。这些分类类型已从管理员和分类导入器界面中删除。无法添加新的启用日期的分类和数值分类。现有的分类仍可以通过标准分类工作流程进行管理（上传、删除），并将继续在报表中可用。
+>在 2018 年 5 月 10 日的 Analytics 维护版本中，Adobe 已开始限制启用日期的分类和数值分类的功能。这些分类类型已从管理员和分类导入器界面中删除。无法添加新的启用日期的分类和数值分类。现有的分类仍可以通过标准分类工作流程进行管理（上传、删除），并将继续在报表中可用。
 
 在创建分类后，您可以在 Adobe Analytics 中使用新的数据属性。
 
@@ -45,7 +45,7 @@ Reports &amp; Analytics 包含针对跟踪代码变量的预定义分类，从�
 
 请参阅[流量分类](/help/admin/admin/c-traffic-variables/traffic-classifications.md)和[转化分类](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)。
 
-下表说明了各种可用的分类类型，以及支持这些分类的变量类型。请在上载数据文件之前，查看[通用文件结构](/help/components/classifications/c-classifications-importer/c-saint-data-files.md)中的相关信息。
+下表说明了各种可用的分类类型，以及支持这些分类的变量类型。请在上载数据文件之前，查看[通用文件结构](/help/components/classifications/importer/c-saint-data-files.md)中的相关信息。
 
 <table id="table_279728C28D9C40EE832ACC9F211B5F17"> 
  <thead> 
