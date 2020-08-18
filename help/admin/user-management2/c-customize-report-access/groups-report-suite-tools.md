@@ -6,7 +6,7 @@ title: 自定义报表包工具权限
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 89a5524ac0e96d63acd54c2ef3e22c17314f332d
 workflow-type: tm+mt
 source-wordcount: '1162'
 ht-degree: 93%
@@ -60,7 +60,7 @@ ht-degree: 93%
 | [转化分类](/help/admin/admin/conversion-var-admin/conversion-classifications.md) | 已合并到“分类”中（在“工具和报表”下）。 |
 | [页面查看次数](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/unique-visitor-variable/t-unique-visitor-variable.html) | 授予指定独特访客变量的权限。 |
 | [成功事件](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/success-events/success-event.html) | 可跟踪的操作，如产品查看、结账和购买。 |
-| [分类层次结构](/help/components/classifications/classification-hierarchies.md) | 已合并到“分类”中（在“工具和报表”下）。 |
+| [分类层次结构](/help/admin/admin/conversion-var-admin/classification-hierarchies.md) | 已合并到“分类”中（在“工具和报表”下）。 |
 | [列表变量](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/page-vars/page-variables.html) | 也称为 List Var（列表变量）。与“列表属性”的功能类似，“列表变量”允许在同一图像请求中包含多个值。 |
 | [默认量度](/help/admin/admin/default-metrics.md) | 除非用户选择一组自定义量度，否则“Reports &amp; Analytics”会在所有转化报表中显示一组默认的量度。所选量度向关联报表包的所有用户显示。 |
 | [处理规则](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/processing-rules/processing-rules.html) | 授予对处理规则的访问权限，这会简化数据收集并管理发送到报表的内容。 |
@@ -68,8 +68,8 @@ ht-degree: 93%
 | [异常检测](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) | 授予“异常检测”的权限，“异常检测”提供了一种统计方法来确定给定的量度相对于以前的数据发生了什么变化。 |
 | [渠道报表](/help/components/c-marketing-channels/analyze-mc.md) | 授予营销渠道报表的权限，此类报表可在报表 > 营销渠道报表中找到。 |
 | [实时报表](/help/admin/admin/realtime/t-realtime-admin.md) | 授予对实时报表的访问权限。 |
-| [机器人页面](/help/admin/admin/bot-removal/bot-rules.md) | **注意： “机器人页面”用于特定的“报告和Analytics”报表，而不用于管理机器人规则。 当前，没有允许编辑机器人规则的权限。**&#x200B;使用机器人规则，您可以从报表包中删除已知蜘蛛程序和机器人程序生成的流量。删除机器人程序流量可为您网站上的用户活动提供更准确的测量。 |
-| [机器人](/help/admin/admin/bot-removal/bot-rules.md) | **注意： 机器人程序适用于特定的报告和Analytics报告，而不适用于管理机器人规则。 当前，没有允许编辑机器人规则的权限。** 机器人程序可让您从报表包中删除由已知蜘蛛程序和机器人程序生成的流量。 删除机器人程序流量可为您网站上的用户活动提供更准确的测量。 |
+| [机器人页面](/help/admin/admin/bot-removal/bot-rules.md) | **注意：“机器人页面”用于特定的“报告和分析”报告，而不用于管理机器人规则。 当前，没有允许编辑机器人规则的权限。**&#x200B;使用机器人规则，您可以从报表包中删除已知蜘蛛程序和机器人程序生成的流量。删除机器人程序流量可为您网站上的用户活动提供更准确的测量。 |
+| [机器人](/help/admin/admin/bot-removal/bot-rules.md) | **注意：机器人程序适用于特定的Reports &amp; Analytics报告，而不适用于管理机器人规则。 当前，没有允许编辑机器人规则的权限。** 机器人程序可让您从报表包中删除由已知蜘蛛程序和机器人程序生成的流量。 删除机器人程序流量可为您网站上的用户活动提供更准确的测量。 |
 | [自定义 Data Warehouse 报表](/help/export/data-warehouse/data-warehouse.md) | Data Warehouse 是指用于存储的、未经处理的原始数据副本，以及可通过过滤这些数据而运行的自定义报表。您可让报表根据您的特定问题显示原始数据的高级数据关系。 |
 | 每日回访 | （旧版）此报表可显示在指定的日期内访问网站的次数超过一次的访客数量。一日定义为过去 24 小时。 |
 | [数据源管理器](/help/admin/admin/data-sources.md) | “数据源”功能允许您将数据从离线资源导入 Analytics。 |
