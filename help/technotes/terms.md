@@ -2,10 +2,10 @@
 title: Adobe Analytics 中使用的术语
 description: Adobe Analytics 词汇表，用于定义常用术语。
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '2458'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 95%
 * **AppMeasurement：**&#x200B;用于收集数据并将其发送到 Adobe 的代码库。请参阅实施用户指南中的[主页](/help/implement/home.md)。
 * **ASI 插槽：**&#x200B;不再存在。在 Adobe Analytics 的先前版本中，ASI 插槽提供了一个用于查看分段数据的临时报表包容器。在 Adobe Analytics 的当前版本中，区段可立即应用于任何报表。
 * **划分：**&#x200B;允许您在另一个维度的上下文中查看维度。请参阅分析用户指南中的[划分维度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
-* **跳出：**&#x200B;包含一次点击的访问。请参阅组件用户指南中的[跳出](/help/components/metrics/bounces.md)。另请参阅“单次访问”。
+* **跳出：**&#x200B;包含一次点击的访问。请参阅组件用户指南中的[跳出](/help/components/metrics/bounces.md)。另请参阅“单次存取”。
 * **计算量度：**&#x200B;允许将现有量度、统计函数和公式的组合用于报告。请参阅组件用户指南中的[计算量度](/help/components/c-calcmetrics/cm-overview.md)。
 * **促销活动：**&#x200B;可以称为：
    * 促销活动变量，用于填充“跟踪代码”维度。请参阅实施用户指南中的[促销活动](../implement/vars/page-vars/campaign.md)。
@@ -35,10 +35,10 @@ ht-degree: 95%
 * **分类：** 在Adobe Analytics允许对维度项进行分组的功能。 请参阅组件用户指南中的[分类](/help/components/classifications/c-classifications.md)。
 * **Clickmap：**&#x200B;不再使用。一个旧版浏览器插件，用于显示您网站上哪些区域的点击率最高。此工具已停用，改为 Activity Map。
 * **点击流数据馈送：**&#x200B;请参阅“数据馈送”。
-* **同类群组：**&#x200B;一组在特定时间段内具有共同特征的人员。请参阅分析用户指南中的[什么是队列分析？](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) 分析用户指南。
+* **同类群组：**&#x200B;一组在特定时间段内具有共同特征的人员。请参阅分析用户指南中的[什么是队列分析？](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)。
 * **收集服务器：**&#x200B;请参阅“数据收集服务器”。
 * **上下文数据变量：**&#x200B;仅用于处理规则的临时变量。如果处理规则未将上下文数据变量值复制到转化或流量变量，则上下文数据变量值将永久丢失。请参阅实施用户指南中的[上下文数据变量](../implement/vars/page-vars/contextdata.md)。
-* **转换变量：** 也称为eVar。 存储自定义值，并保留变量值，直到其过期。请参阅 [组件](/help/components/dimensions/evar.md) 用户指南中的eVar维。
+* **转化变量：**&#x200B;也称为 eVar。存储自定义值，并保留变量值，直到其过期。请参阅组件用户指南中的 [eVar](/help/components/dimensions/evar.md) 维度。
 * **关联：**&#x200B;不再用作术语；替换为维度划分。在 Adobe Analytics 的早期版本中，通过关联可以划分流量变量。请参阅分析用户指南中的[划分维度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
 * **当前数据：**&#x200B;某些报表中的一个选项，允许包含最近收集的尚未完全处理的数据。请参阅分析用户指南中的[当前数据](/help/analyze/reports-analytics/current-data.md)。
 * **自定义链接：**&#x200B;包含非页面视图数据的点击类型。请参阅实施用户指南中的 [s.tl() 函数](../implement/vars/functions/tl-method.md)。另请参阅“点击”。
@@ -75,10 +75,10 @@ ht-degree: 95%
 * **量度：**&#x200B;包含定量数据的组件类型。量度值通常包含数字，如页面查看次数、访问次数和收入。通常与维度相对应。
 * **多包标记：**&#x200B;向多个报表包发送相同点击的实践。随着虚拟报表包的推出，基本上不再需要这一实践。大多数多包标记工作可帮助满足全局报表包的需求。
 * **标准化：**&#x200B;一种组织可视化的方法，采用所有量度并强制按同等比例排列量度，从而更容易比较趋势。
-* **发生次数：** 一种度量类型，它显示设置或保留的维项的点击量。 请参阅 [组件](/help/components/metrics/occurrences.md) 用户指南中的“发生次数”量度。
+* **发生次数：** 一种度量类型，它显示设置或保留的维项的点击量。 请参阅组件用户指南中的[发生次数](/help/components/metrics/occurrences.md)量度。
 * **Omniture：**&#x200B;不再用作术语。在 2009 年被 Adobe 收购之前拥有 Adobe Analytics 的组织。
 * **路径：**&#x200B;请参阅“流”。
-* **页面视图：**&#x200B;一种可增加页面查看次数的点击类型。请参阅 [组件用户指南](/help/components/metrics/page-views.md) 中的页面视图量度。 另请参阅“点击”。
+* **页面视图：**&#x200B;一种可增加页面查看次数的点击类型。请参阅组件用户指南中的[页面查看](/help/components/metrics/page-views.md)量度。另请参阅“点击”。
 * **持久性：**&#x200B;转化变量的抽象概念，允许在变量值和在单独点击中发生的事件之间进行链接。另请参阅“到期”。
 * **主服务器调用：**&#x200B;图像请求或点击的替代名称，主要用于多包标记和帐单的上下文。当同一点击被发送到多个报表包时，第一个报表包是主服务器调用，而其余报表包是辅助服务器调用。此规则适用于所有点击类型，包括页面查看和链接跟踪。另请参阅“辅助服务器调用”。
 * **处理规则：**&#x200B;可以称为：
@@ -95,20 +95,20 @@ ht-degree: 95%
 * **s_code.js：**&#x200B;在 Adobe Analytics 的历史版本中使用的 JavaScript 文件的名称。使用的 JavaScript 文件的当前名称为 AppMeasurement.js。
 * **卫星：**&#x200B;不再用作术语。Dynamic Tag Management 之前的产品名称。
 * **辅助服务器调用：**&#x200B;图像请求或点击的替代名称，主要用于多包标记和帐单的上下文。当同一点击被发送到多个报表包时，列出的第一个报表包之后的所有报表包都是辅助服务器调用。另请参阅“主服务器调用”。
-* **区段：**&#x200B;允许您专注于数据的特定子集。请参阅组件用户指南中的[分段](/help/components/c-segmentation/seg-overview.md)。
-* **区段容器：**&#x200B;确定要引入多少数据的区段部分。容器可以基于页面查看、访问或访客。请参阅组件用户指南中的[分段](/help/components/c-segmentation/seg-overview.md)。
+* **区段：**&#x200B;允许您专注于数据的特定子集。请参阅组件用户指南中的[分段](/help/components/segmentation/seg-overview.md)。
+* **区段容器：**&#x200B;确定要引入多少数据的区段部分。容器可以基于页面查看、访问或访客。请参阅组件用户指南中的[分段](/help/components/segmentation/seg-overview.md)。
 * **序列化：**&#x200B;请参阅“事件序列化”。
 * **服务器调用：**&#x200B;图像请求或点击的替代名称，主要用于帐单上下文。
-* **单次存取：**&#x200B;维度只有一个唯一值的访问。只要没有多个唯一值，访问就可以有多个点击。请参阅 [组件用户指南](/help/components/metrics/single-access.md) 中的单次访问量度。 另请参阅“跳出”。
+* **单次存取：**&#x200B;维度只有一个唯一值的访问。只要没有多个唯一值，访问就可以有多个点击。请参阅组件用户指南中的[单次存取](/help/components/metrics/single-access.md)量度。另请参阅“跳出”。
 * **SiteCatalyst：**&#x200B;不再用作术语。Adobe Analytics 之前的产品名称。
 * **解决方案设计文档：**&#x200B;也称为解决方案设计参考或 SDR。由组织维护的内部文档，其中概述了自定义变量的使用方式以及用于填充这些变量的逻辑。请参阅实施用户指南中的[创建解决方案设计文档](/help/implement/prepare/solution-design.md)。
 * **子关系：**&#x200B;不再用作术语；替换为维度划分。在 Adobe Analytics 的早期版本中，通过子关系可以划分转化变量。请参阅分析用户指南中的[划分维度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
 * **成功事件：**&#x200B;用户执行的跟踪操作。贵组织确定要跟踪的事件以及要用于跟踪的成功事件变量。请参阅组件用户指南中的[自定义事件](/help/components/metrics/custom-events.md)。
 * **支持用户：**&#x200B;请参阅“客户支持代理”。
-* **流量变量：** 也称为prop。 存储单次点击的自定义值。Adobe Analytics 的早期版本会为属性提供唯一值，但平台经过改进后，在很大程度上降低了自定义流量变量的必要性。Adobe 建议在大多数情况下使用自定义转化变量 (eVar)。请参阅 [组件](/help/components/dimensions/prop.md) “用户指南”中的Prop维。
+* **流量变量：**&#x200B;也称为 prop。存储单次点击的自定义值。Adobe Analytics 的早期版本会为属性提供唯一值，但平台经过改进后，在很大程度上降低了自定义流量变量的必要性。Adobe 建议在大多数情况下使用自定义转化变量 (eVar)。请参阅组件用户指南中的 [Prop](/help/components/dimensions/prop.md) 维度。
 * **趋势报表：**&#x200B;一种报表格式，通常使用一个量度显示多个日期范围。此类报表允许您查看量度一段时间的执行情况。另请参阅“排名报表”。
-* **独特访客**：表示访问过您网站的独特个人的数量。一个独特访客可以具有多次访问。See the [Unique visitors](/help/components/metrics/unique-visitors.md) metric in the Components user guide.
+* **独特访客**：表示访问过您网站的独特个人的数量。一个独特访客可以具有多次访问。请参阅组件用户指南中的[独特访客](/help/components/metrics/unique-visitors.md)量度。
 * **虚拟报表包：**&#x200B;引用常规报表包并允许细化数据的虚拟数据容器。数据不会发送到虚拟报表包；相反，数据将发送到常规报表包，而虚拟报表包将基于所收集的数据构建。请参阅组件用户指南中的[虚拟报表包](/help/components/vrs/vrs-about.md)。
-* **访问：**&#x200B;表示在您的网站上发生的独特会话数。See the [Visits](/help/components/metrics/visits.md) metric in the Components user guide.
+* **访问：**&#x200B;表示在您的网站上发生的独特会话数。请参阅组件用户指南中的[访问次数](/help/components/metrics/visits.md)量度。
 * **VISTA 规则：** Adobe 应客户复制、解析或过滤服务器端数据的请求创建的自定义逻辑。VISTA 规则通常会产生额外成本。另请参阅“处理规则”。
 * **网络信标：**&#x200B;请参阅“图像请求”。
