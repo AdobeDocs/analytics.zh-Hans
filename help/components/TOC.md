@@ -5,10 +5,10 @@ user-guide-title: Analytics 组件指南
 user-guide-description: Understand the features that help organize your data. Components include segments, calculated metrics, virtual report suites, alerts, and more. This guide also includes a variable reference, explaining all dimensions and metrics available.
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 97%
+source-wordcount: '612'
+ht-degree: 96%
 
 ---
 
@@ -219,11 +219,7 @@ ht-degree: 97%
    + [警报管理器](c-alerts/alert-manager.md)
    + [智能警报 - 用例](c-alerts/alerts-use-cases.md)
 + 分类 {#classifications}
-   + [关于分类](classifications/c-classifications.md)
-   + [关于子分类](classifications/c-sub-classifications.md)
-   + [转化分类](classifications/conversion-classifications.md)
-   + [流量分类](classifications/traffic-classifications.md)
-   + [分类层次结构](classifications/classification-hierarchies.md)
+   + [分类概述](classifications/c-classifications.md)
    + Classifications importer {#classifications-importer}
       + [分类导入器 - 概述](classifications/importer/c-working-with-saint.md)
       + [分类数据文件](classifications/importer/c-saint-data-files.md)
@@ -242,6 +238,8 @@ ht-degree: 97%
       + [分类规则](classifications/crb/classification-quickstart-rules.md)
       + [分类规则 - 定义](classifications/crb/classification-rule-definitions.md)
       + [子分类和规则生成器](classifications/crb/sub-classification-rule-builder.md)
+   + [子分类](classifications/c-sub-classifications.md)
+   + [分类常见问题解答](classifications/faq.md)
 + [日历事件](t-calendar-event.md)
 + 实时报告 {#real-time-reporting}
    + [实时报告概述](c-real-time-reporting/realtime.md)
