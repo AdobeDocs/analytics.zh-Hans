@@ -5,7 +5,7 @@ title: 虚拟报表包和多包标记注意事项
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '1735'
 ht-degree: 100%
@@ -57,7 +57,7 @@ Adobe 客户关怀团队可以为少量维度增加唯一值限制，从而完�
 
 >[!TIP]
 >
-> 通过引入[管理](/help/analyze/analysis-workspace/curate-share/curate.md)，您现在可以基于每个 VRS 更改给定维度或量度的名称。
+>通过引入[管理](/help/analyze/analysis-workspace/curate-share/curate.md)，您现在可以基于每个 VRS 更改给定维度或量度的名称。
 
 ### 分段细微差别
 
@@ -89,7 +89,7 @@ Adobe Analytics 中的某些 Adobe 合作伙伴集成限制为每个报表包具
 
 >[!TIP]
 >
-> 完全处理数据源支持分段，并可用于虚拟报表包。
+>完全处理数据源支持分段，并可用于虚拟报表包。
 
 ## 您决定使用 VRS 时要遵循的步骤
 
@@ -97,7 +97,7 @@ Adobe Analytics 中的某些 Adobe 合作伙伴集成限制为每个报表包具
 
 1. 创建虚拟报表包以匹配子报表包中的数据。在自定义维度上进行分段，以区分您的各个网站。
    * 如果从现有的多包标记实施进行迁移，请将虚拟报表包的区段与现有子报表包进行比较。在将用户移至虚拟报表包之前，您需要确保数据是可比较的。
-   * 作为最佳实践，请考虑使用[区段堆叠](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)，以便在一个位置编辑区段并将其应用于所有从属虚拟报表包。
+   * 作为最佳实践，请考虑使用[区段堆叠](/help/components/segmentation/segmentation-workflow/seg-build.md)，以便在一个位置编辑区段并将其应用于所有从属虚拟报表包。
    * 如果要使虚拟报表包更加互斥，请使用点击容器。
 2. 确认虚拟报表包设置正确后，从实施中删除辅助报表包 ID。要删除辅助报表包，请执行以下操作：
    * 在 Adobe Experience Platform Launch 中，单击您不希望再使用的任何报表包旁边的“x”。
