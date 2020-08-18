@@ -1,39 +1,39 @@
 ---
 title: 反向链接
-description: 访客在点进到您的网站之前所在的URL。
+description: 访客在点击进入到您的网站之前所在的 URL。
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 5%
+source-wordcount: '438'
+ht-degree: 49%
 
 ---
 
 
 # 反向链接
 
-“推荐人”维度报告访客点击到达您的站点时所使用的URL。 此维度有助于了解哪些特定URL对您的站点的流量影响最大。 外部URL上必须存在链接，访客必须单击该链接才能显示维度项。
+“反向链接”维度会报告访客点击访问您的网站前所在的 URL。此维度有助于了解哪些特定 URL 给您的网站带来了最多的流量。外部URL上必须存在链接，访客必须单击该链接才能显示维度项。
 
 >[!IMPORTANT]
 >
->必须配置报表包的内 [部URL过滤器](/help/admin/admin/internal-url-filter-admin.md) ，才能使用此维。 未能配置内部URL过滤器可以包含内部URL或阻止显示外部URL。
+>必须配置报表包的[内部 URL 过滤器](/help/admin/admin/internal-url-filter-admin.md)，才能使用此维度。无法配置内部 URL 过滤器，可能会包含内部 URL 或阻止出现外部 URL。
 
-同一报告可显示不同Analysis Workspace和Data warehouse的结果。 Analysis Workspace报告每个页面的推荐人，但不包括与内部URL过滤器匹配的值。 Data warehouse仅报告访问的第一个推荐人，并忽略内部URL过滤器。
+同一份报告显示Analysis Workspace和Data warehouse的结果不同。 Analysis Workspace报告每个页面的推荐人，但不包括与内部URL过滤器匹配的值。 data warehouse仅报告访问的第一个推荐人，并忽略内部URL过滤器。
 
-## 用数据填充此维
+## 使用数据填充此维度
 
-此维需要在Analytics接口中配置，并在图像请求中配置数据。
+此维度需要在 Analytics 界面中进行配置，并获取图像请求中的数据。
 
-* 在您的实现中，此维从图像请求中的 [`r` 查询字符串](/help/implement/validate/query-parameters.md) 检索数据。 AppMeasurement使用浏览器中的JavaScript变量 `document.referrer` 收集此数据。 如果您使用AppMeasurement库(如通过Adobe Experience Platform Launch)，则此维度开箱即用。 如果您在AppMeasurement之外使用查询收集方法（如通过API），请确保在图像请求中包含 `r` 字符串参数。
-* 在Analytics界面中，必须配置报表包的内 [部URL过滤器](/help/admin/admin/internal-url-filter-admin.md)。 未能配置内部URL过滤器可以包含内部URL或阻止显示外部URL。
+* 在实施中，此维度从图像请求中的 [`r` 查询字符串](/help/implement/validate/query-parameters.md)检索数据。AppMeasurement 使用浏览器中的 JavaScript 变量 `document.referrer` 收集此数据。如果您使用 AppMeasurement 库（例如，通过 Adobe Experience Platform Launch），则此维度可开箱即用。如果您使用非 AppMeasurement 的数据收集方法（例如通过 API），请确保在图像请求中包含 `r` 查询字符串参数。
+* 在 Analytics 界面中，必须配置报表包的[内部 URL 过滤器](/help/admin/admin/internal-url-filter-admin.md)。无法配置内部 URL 过滤器，可能会包含内部 URL 或阻止出现外部 URL。
 
 ## Dimension项
 
-Dimension项包括访客点进您网站的URL。 如果点击没有任何推荐人数据，它将在维项下进行分组 `"Typed/Bookmarked"`。 此维度项表示没有推荐人值，例如访客将浏览器地址手动键入地址栏或单击书签。
+Dimension项包括访客点进您网站的URL。 If a hit does not have any referrer data, it groups under the dimension item `"Typed/Bookmarked"`. 此维度项表示没有推荐人值，例如访客将浏览器地址手动键入地址栏或单击书签。 对于 `"Typed/Bookmarked"` 不适合Analytics的重定向，也会显示维度项。 请参 [阅技术说明](/help/technotes/redirects.md) “用户指南”中的重定向和别名。
 
 ### Dimension项包含 `googleusercontent.com`
 
 用户可以查看域中的维项 `googleusercontent.com`目。
 
-* **缓存的页面**: 谷歌的蜘蛛会不断地爬网并存储网页副本，以防它们离线。 通过单击“缓存的”链接，这些缓存的页面在大多数搜索结果旁边可用。 当用户单击此链接并视图Google缓存的内容时， `webcache.googleusercontent.com` 这是典型的维度项。
+* **缓存的页面**:谷歌的蜘蛛会不断地爬网并存储网页副本，以防它们离线。 通过单击“缓存的”链接，这些缓存的页面在大多数搜索结果旁边可用。 当用户单击此链接并视图Google缓存的内容时， `webcache.googleusercontent.com` 这是典型的维度项。
 * **翻译页面**：Google 提供了一项强大而便捷的翻译服务。使用此服务查看站点时，服务源自 `translate.googleusercontent.com`。如果用户单击链接返回到原始内容，则显示此维度项。
