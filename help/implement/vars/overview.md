@@ -3,7 +3,7 @@ title: 变量、函数、方法及插件概述
 description: 了解您可以在向 Adobe 发送的数据中包含哪些变量以改进报告。
 keywords: appmeasurement,variables,vars,configuration,page,implementation
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 97%
@@ -40,4 +40,4 @@ Adobe 提供了多种实施 Adobe Analytics 的方法。每个页面中都提供
 * 换行符 (`0x0A`)
 * HTML 标记（例如 `<b></b>` 或 `&#153`）
 
-某些变量还有其他限制或语法要求。例如，`products` 变量保留分号和逗号，以分隔不同的产品和类别。
+某些变量还有其他限制或语法要求。例如，[`products`](page-vars/products.md) 变量保留分号和逗号，以分隔不同的产品和类别。
