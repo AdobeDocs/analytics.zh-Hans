@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 运行同类群组分析报表
 topic: Reports and analytics
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
-translation-type: ht
-source-git-commit: 79849c574909543d74e2935e493008927700585d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
    选择单元格（连续的或不连续的），然后右键单击鼠标并选择&#x200B;**[!UICONTROL 根据选定的内容创建区段]**。
 
-1. 在[区段生成器](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)中，进一步编辑该区段，然后单击&#x200B;**[!UICONTROL 保存]**。
+1. 在[区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md)中，进一步编辑该区段，然后单击&#x200B;**[!UICONTROL 保存]**。
 
    保存后的区段可用于 [!UICONTROL Analysis Workspace] 的[!UICONTROL 区段]面板中。
 1. 命名并保存同类群组项目。
