@@ -5,10 +5,10 @@ title: 分类规则生成器工作流程
 topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 99%
 | 步骤 4：[将分类规则添加到规则集](/help/components/classifications/crb/classification-quickstart-rules.md)。 | [!UICONTROL 分类规则生成器] > &lt;您的规则集> | 将条件与分类进行匹配，然后指定要为规则采取的操作。熟悉[如何处理规则](/help/components/classifications/crb/classification-quickstart-rules.md)中的相关信息。 |
 | 步骤 5：[测试分类规则集](/help/components/classifications/crb/classification-quickstart-rules.md)。 | [!DNL Testing Page] | 您将需要通过在草稿模式下编辑规则，来测试规则的有效性。在草稿模式下，规则无法运行。<br>使用[正则表达式](/help/components/classifications/crb/classification-quickstart-rules.md)时，此步骤很重要。 |
 | 步骤 6：[激活有效规则](/help/components/classifications/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | 在规则有效后，激活规则集。如有必要，您可以覆盖现有键值。请参阅[如何处理规则](/help/components/classifications/crb/classification-quickstart-rules.md)。 |
-| 步骤 7（可选）：[删除不需要的规则](/help/components/classifications/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | 从规则集中删除不需要的规则。<br>注意：删除规则时不会删除上载的分类数据。如果需要删除分类数据，请参阅[删除分类数据](/help/components/classifications/c-classifications-importer/t-delete-classification-data.md)。 |
+| 步骤 7（可选）：[删除不需要的规则](/help/components/classifications/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | 从规则集中删除不需要的规则。<br>注意：删除规则时不会删除上载的分类数据。如果需要删除分类数据，请参阅[删除分类数据](/help/components/classifications/importer/t-delete-classification-data.md)。 |
 
 >[!NOTE]
 >
