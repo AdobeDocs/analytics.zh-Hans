@@ -4,7 +4,7 @@ keywords: Troubleshooting Analytics
 title: 常见问题解答
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 94%
@@ -46,7 +46,7 @@ Apple 设备在用户代理字符串中报告其固件版本，而并非设备�
 
 **为什么在对值求和时，报表底部显示的总计与求和结果不一致？**
 
-维度项目通常可以应用于多个位置； 例如，跨午夜的访问或属于单个订单的多个产品。 维项目会在所有适用的行项目中报告，但会在报告的总计中消除重复项。 有关更多信息，请参阅 Analytics KB 中的[比较行项目总和与报表总计](https://helpx.adobe.com/cn/analytics/kb/sum-line-items-different-from-total.html)。
+Dimension项通常可以应用于多个位置；例如，跨午夜的访问或属于单个订单的多个产品。 维项目会在所有适用的行项目中报告，但会在报告的总计中消除重复项。 有关更多信息，请参阅 Analytics KB 中的[比较行项目总和与报表总计](https://helpx.adobe.com/cn/analytics/kb/sum-line-items-different-from-total.html)。
 
 **如何从我的报表包中排除特定 IP 地址的数据？**
 
@@ -58,8 +58,8 @@ Apple 设备在用户代理字符串中报告其固件版本，而并非设备�
 
 **使用分段时，应选用哪个容器？页面查看、访问还是访客？**
 
-您使用的区段容器取决于您打算捕获数据的范围。页面查看容器只计算与区段标准匹配的点击数，这对于过滤掉不相关的访问部分很有用。访问容器将计算访问的所有点击数，其中一个或多个点击与区段标准匹配，这对于查看常规会话很有用。访客容器计算所有访问次数，其中一个点击匹配区段标准，这对于查看人员很有用。作为分析师，您可以确定最适合选用的区段容器。有关更多信息，请参阅组件用户指南中的[分段概述](/help/components/c-segmentation/seg-overview.md)。
+您使用的区段容器取决于您打算捕获数据的范围。页面查看容器只计算与区段标准匹配的点击数，这对于过滤掉不相关的访问部分很有用。访问容器将计算访问的所有点击数，其中一个或多个点击与区段标准匹配，这对于查看常规会话很有用。访客容器计算所有访问次数，其中一个点击匹配区段标准，这对于查看人员很有用。作为分析师，您可以确定最适合选用的区段容器。有关更多信息，请参阅组件用户指南中的[分段概述](/help/components/segmentation/seg-overview.md)。
 
 **为什么我的区段没有显示在 Data Warehouse 中？**
 
-由于 Data Warehouse 独特的处理架构，该平台没有针对处理某些类型的数据（如路径）而进行优化。有关更多信息，请参阅组件用户指南中的 [Data Warehouse 区段兼容性](/help/components/c-segmentation/seg-reference/seg-compatibility.md)。
+由于 Data Warehouse 独特的处理架构，该平台没有针对处理某些类型的数据（如路径）而进行优化。有关更多信息，请参阅组件用户指南中的 [Data Warehouse 区段兼容性](/help/components/segmentation/seg-reference/seg-compatibility.md)。
