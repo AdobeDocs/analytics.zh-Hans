@@ -4,7 +4,10 @@ title: 自定义日历
 topic: Admin tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 97%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 不同于公历模式的日历选项。相关选项包括 4-4-5、4-5-4 与 5-4-4 日历模式，三者均是零售行业的标准模式。此外，报告还提供一个选项，您可自行设置完全自定义的日历。
 
-**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **[!UICONTROL [选择报表包]]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 常规]** > **[!UICONTROL 自定义日历]**
+**[!UICONTROL 管理员]** >报 **[!UICONTROL 表包]** >选择报表包> **[!UICONTROL 编辑设置]** >一般 **[!UICONTROL >自]** 定义日历 **[!UICONTROL >]**
 
 >[!CAUTION]
 >
