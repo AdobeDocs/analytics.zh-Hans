@@ -5,7 +5,7 @@ title: 转化分类
 topic: Admin tools
 uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 100%
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 转化分类可用于分类转化变量。分类后，任何可使用关键数据生成的报表也可通过关联的数据属性来生成。
 
-启用分类后，使用[分类导入器](/help/components/classifications/c-classifications-importer/c-working-with-saint.md)将特定的值指定给相应的分类。
+启用分类后，使用[分类导入器](/help/components/classifications/importer/c-working-with-saint.md)将特定的值指定给相应的分类。
 
 ## 转化分类描述 {#section_4A98DD5F5C314B9DAEE710AEE4EE51D4}
 
