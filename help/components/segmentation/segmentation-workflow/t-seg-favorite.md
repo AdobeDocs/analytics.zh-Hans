@@ -1,0 +1,23 @@
+---
+description: 将区段标记为收藏是另一种组织区段以便于使用的方式。
+title: 将区段标记为收藏
+topic: Segments
+uuid: 0bc1f19c-4ab1-47a2-8dd4-9aa0015846ed
+translation-type: tm+mt
+source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 100%
+
+---
+
+
+# 将区段标记为收藏
+
+将区段标记为收藏是另一种组织区段以便于使用的方式。
+
+1. 在区段管理器中，选中任意要标记为收藏的区段旁边的星标。星标现在应当显示为黄色：
+
+   ![](assets/favorites.png)
+
+1. 您也可以在“**[!UICONTROL 过滤器]**”>“**[!UICONTROL 其他过滤器]**”>“**[!UICONTROL 收藏]**”下对收藏进行过滤。
