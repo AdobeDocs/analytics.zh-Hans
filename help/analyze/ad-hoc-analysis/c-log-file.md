@@ -1,29 +1,39 @@
 ---
-description: 日志文件是一个文本文件，服务器使用该文件存储有关何时从网站检索文件的数据。收集的部分信息包括日期和时间、提供的 URL、IP 地址、请求的状态等。
 title: 日志文件
-topic: Ad hoc analysis
-uuid: 1e5c0e70-928b-45de-9f5b-0c562909baed
+description: 获取日志文件以进行故障排除。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 100%
+source-wordcount: '195'
+ht-degree: 3%
 
 ---
 
 
 # 日志文件
 
-日志文件是一个文本文件，服务器使用该文件存储有关何时从网站检索文件的数据。收集的部分信息包括日期和时间、提供的 URL、IP 地址、请求的状态等。
+对Ad Hoc Analysis的问题进行故障诊断时，有时需要获取其日志文件。 Adobe可以使用日志文件查找问题的根本原因并提供解决方案。 该文 `discover.log` 件包含所有会话中的所有用户交互、报告加载信息和Java错误消息。 它会散列任何受保护的信息，如用户的口令。 大日志文件以10 MB的增量进行拆分。 为日志文件提供Adobe时，请确保选择所有文件。
 
-保存和查看日志文件的快捷方法是：
+## Windows
 
-1. 单击“帮助”****>“关于 Ad Hoc Analysis”****
+获取 `discover.log` Windows文件：
 
-1. 单击“Ad Hoc Analysis”****&#x200B;徽标。
-1. 单击“保存日志文件”****。
+1. 单击开始菜单并选 **择**“运行”，或 `[Win]` 按+ `[R]`。
+2. 将以下内容粘贴到文本字段中，然后单击“确 **定”**:
 
->[!NOTE]
->
->使用此过程保存的日志适用于当前会话。
+   ```text
+   %appdata%/../Local/Adobe/Discover/log
+   ```
 
+3. 高亮显示文件夹中的所有文件，然后右键单击并选 **择“发送到”>“压缩（压缩）文件夹”**。
+4. 为Adobe代表提供。zip文件。
+
+## Mac
+
+要获取Mac `discover.log` OS的文件，请执行以下操作：
+
+1. 打开Finder并导航到 `/Users/your-user/.adobe/Discover/log`
+2. 高亮显示文件夹中的所有文件，然后右键单击并选择“压 **缩”**。
+3. 为Adobe代表提供。zip文件。
+
+如果压缩文件的总大小超过10 MB,Adobe代表可以提供临时FTP位置。
