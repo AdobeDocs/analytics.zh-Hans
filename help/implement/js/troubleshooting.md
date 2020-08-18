@@ -1,8 +1,11 @@
 ---
 title: JavaScript 实施疑难解答
 description: 了解 JavaScript 实施存在的常见问题以及疑难解答最佳实践。
-translation-type: ht
-source-git-commit: 8aa6932dcbb6dad88c27ba1cd4f5aad3bafcfc52
+translation-type: tm+mt
+source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
+workflow-type: tm+mt
+source-wordcount: '694'
+ht-degree: 73%
 
 ---
 
@@ -78,3 +81,29 @@ s.pageName = "        Home Page";
 ```
 
 在 Adobe Analytics 中，这两个变量值会被视为不同的值。但是，出于显示目的，系统会自动删除空格。因此，生成的报表中会显示两个看似相同的“Home Page”行项。确保变量值中所需值的前后都不包含空格。
+
+## 截断的图像请求
+
+用长值填充许多变量的实现有时会遇到截断的图像请求。 某些较旧的浏览器（如Internet Explorer）对图像请求URL施加2083个字符的限制。 如果您的组织面临很长的图像请求，请尝试以下操作：
+
+* **使用Experience CloudID服务**:AppMeasurement库1.4.1及更高版本会在图像请求过长时使用HTTPPOST自动发送这些请求。 使用此方法发送的数据不会被截断，而不管长度如何。 See [Adobe Experience Cloud ID service](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html) for more information.
+* **使用处理规则**: [处理规则](/help/admin/admin/c-processing-rules/processing-rules.md) 可以将值从一个变量复制到另一个变量。 此方法可避免在多个变量中设置相同的值。 例如：
+
+   始终执行：<br>用eVar1覆盖prop1的值<br>用eVar1覆盖eVar2的值<br>用eVar1覆盖prop2的值<br>
+
+   然后在您的实施中设置eVar1:
+
+   ```js
+   s.eVar1 = "The quick brown fox jumps over the lazy dog";
+   ```
+
+* **使用动态变量**:如果实现使用相同的值填充许多变量，则可 [以使用动态变](/help/implement/vars/page-vars/dynamic-variables.md) 量来缩短请求URL:
+
+   ```js
+   s.eVar1 = "The quick brown fox jumps over the lazy dog";
+   s.eVar2 = "D=v1";
+   s.prop1 = "D=v1";
+   s.prop2 = "D=v1";
+   ```
+
+* **使用分类**:如果产品或页面名称异常长，您可以使用标识值或代码，然后使用 [分类](/help/components/classifications/c-classifications.md) ，以显示更友好的名称。
