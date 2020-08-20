@@ -4,10 +4,10 @@ title: 将区段发布到 Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
+source-git-commit: 627a2b8b35db1bdf08b650de8708c04f2d5718d6
 workflow-type: tm+mt
 source-wordcount: '1345'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -132,6 +132,7 @@ ht-degree: 100%
 
 ## 在 [!DNL Adobe Target] 中查看区段
 
-在 Adobe Analytics 中创建区段的过程中显示的“[!UICONTROL 将此区段发布到 Experience Cloud]”复选框，可使该区段在 Adobe Target 的自定义受众库中提供。在 Analytics 或 Audience Manager 中创建的区段可用于 Target 中的活动。例如，您可以根据 Analytics 转化量度和 Analytics 中创建的受众区段，来创建营销活动。单击“[!UICONTROL 受众]”。
-1. 在“[!UICONTROL 受众]”页面上，找到来源于 [!DNL Experience Cloud] 的受众。这些受众可在 [!DNL Target] 活动中使用。
+在 Adobe Analytics 中创建区段的过程中显示的“[!UICONTROL 将此区段发布到 Experience Cloud]”复选框，可使该区段在 Adobe Target 的自定义受众库中提供。在 Analytics 或 Audience Manager 中创建的区段可用于 Target 中的活动。例如，您可以根据 Analytics 转化量度和 Analytics 中创建的受众区段，来创建营销活动。
 
+1. Click [!UICONTROL Audiences].
+1. 在“[!UICONTROL 受众]”页面上，找到来源于 [!DNL Experience Cloud] 的受众。这些受众可在 [!DNL Target] 活动中使用。
