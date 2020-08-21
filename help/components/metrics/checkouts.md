@@ -1,19 +1,19 @@
 ---
 title: 结账
-description: 访客开始结帐流程的点击数。
-translation-type: tm+mt
+description: 访客开始结帐过程的点击数。
+translation-type: ht
 source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '72'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 
 # 结账
 
-“结帐”度量显示访客启动结帐过程的次数。 当您想要了解客户拥有购物车产品并准备购买的转化漏斗的一部分时，此指标会很有帮助。
+“结帐”量度显示访客启动结帐流程的次数。当您想要了解转化漏斗中客户将产品添加到购物车并准备购买时，此量度非常有用。
 
-## 如何计算此度量
+## 如何计算此量度
 
-此度量计算变量中存 `scCheckout` 在的点击 [`events`](/help/implement/vars/page-vars/events/events-overview.md) 数。
+此量度计算 [`events`](/help/implement/vars/page-vars/events/events-overview.md) 变量中存在 `scCheckout` 的点击数。
