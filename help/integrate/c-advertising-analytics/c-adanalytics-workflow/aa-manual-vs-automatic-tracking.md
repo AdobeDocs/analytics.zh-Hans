@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 69db61bdfd9375df4d090add7d8ed08135d1f087
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 90%
 
 请注意，要在“自动模式”下配置搜索引擎帐户，您需要执行以下操作：
 
-* The `s_kwcid` parameter and value will be added to the account tracking templates or landing page URLs in the account being added. 该参数和值将插入到 URL 的末尾。如果您的 Web 服务器要求在 URL 末尾使用特定的键值对，或者需要更新以支持 URL 中的任何新键值对，则可能需要执行其他操作。**您有责任确保添加的 URL 参数能够正确保持到最终登陆页面。**
-* In addition, keywords can be inserted into the landing URL as part of the `s_kwcid` value. 如果它们包含特殊字符或符号，请确认您的 Web 服务器可以支持这些字符。示例：常见的特殊字符是“+”，用于“修改广泛匹配”关键字。
+* 将 `s_kwcid` 参数和值添加到要添加帐户的帐户跟踪模板或登陆页面 URL 中。该参数和值将插入到 URL 的末尾。如果您的 Web 服务器要求在 URL 末尾使用特定的键值对，或者需要更新以支持 URL 中的任何新键值对，则可能需要执行其他操作。**您有责任确保添加的 URL 参数能够正确保持到最终登陆页面。**
+* 此外，还可以将关键字作为 `s_kwcid` 值的一部分插入到登陆 URL 中。如果它们包含特殊字符或符号，请确认您的 Web 服务器可以支持这些字符。示例：常见的特殊字符是“+”，用于“修改广泛匹配”关键字。
 
 >[!IMPORTANT]
 >
->进一步了解是否应将该参 `s_kwcid` 数添加到 [内容安全策略](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html)。
+>了解关于是否应将该 `s_kwcid` 参数添加到您的[内容安全策略](https://docs.adobe.com/content/help/zh-Hans/id-service/using/reference/csp.html)的更多信息。
 
 ## 手动跟踪模式 {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -60,7 +60,7 @@ s_kwcid=AL!
 {lpurl}?s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword}
 ```
 
-**`{lpurl}`与其他 URL 参数&#x200B;**
+**`{lpurl}`与其他 URL 参数**
 
 ```
 {lpurl}?campaign=PPC&s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword}
@@ -104,7 +104,7 @@ s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId}
 {lpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
-**`{lpurl}`与其他 URL 参数&#x200B;**
+**`{lpurl}`与其他 URL 参数**
 
 ```
 {lpurl}?campaign=PPC&
