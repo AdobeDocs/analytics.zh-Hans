@@ -1,9 +1,9 @@
 ---
 title: 数据保留策略
 description: 数据保留策略确定 Adobe 将您的数据存储多长时间。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4dd0710454a29faadb197d97e58394c753cec0ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '591'
 ht-degree: 100%
 
