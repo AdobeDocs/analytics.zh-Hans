@@ -1,9 +1,9 @@
 ---
 title: (hier)
 description: 在 Adobe Analytics 中实施层级变量。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
-> 此变量在 Adobe Analytics 的先前版本中比较常见。Adobe 建议改用 [eVar](evar.md) 和分类。
+>此变量在 Adobe Analytics 的先前版本中比较常见。Adobe 建议改用 [eVar](evar.md) 和分类。
 
 此变量适用于网站结构超过三层的网站。例如，媒体网站的“体育”部分可以有 4 个级别：`Sports`、`Local Sports`、`Baseball` 以及 `Team name`。如果有人访问“棒球”页面，则“体育”、“地方体育”和“棒球”这几个级别都会反映此访问。
 
