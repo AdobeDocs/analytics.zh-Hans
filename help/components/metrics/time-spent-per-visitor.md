@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 6%
+ht-degree: 54%
 
 ---
 
@@ -14,14 +14,14 @@ ht-degree: 6%
 
 “每访客花费的时间（秒）”度量显示访客在访客整个生命周期中与给定维度项目交互的平均时间。
 
-此度量因处理架构不同而在Data warehouse中不可用。
+此量度因其处理架构不同而在 Data Warehouse 中不可用。
 
-## 如何计算此度量
+## 如何计算此量度
 
-此度量使用公式 [`Total seconds spent`](total-seconds-spent.md)`divided by`[`Unique visitors`](unique-visitors.md)。
+此量度使用公式 [`Total seconds spent`](total-seconds-spent.md) `divided by` [`Unique visitors`](unique-visitors.md)。
 
-## 百分比超过100%
+## 百分比高于 100%
 
-此指标通常包含100%以上的百分比。 分母是整个维的每个访客所花费的时间，分子是维项的每个访客所花费的时间。 如果整个维度的每个访客所用时间低于给定维度项的每个访客所用时间，您将看到100%以上的百分比。 按此指标对排名报告进行排序时，会显示每个访客值的异常花费时间，这通常不值钱。 Adobe建议在排名报告中按其他指标 [(如](visits.md)“访问”)排序。
+此量度通常包含高于 100% 的百分比。分母是整个维的每个访客所花费的时间，分子是维项的每个访客所花费的时间。 如果整个维度的每个访客所用时间低于给定维度项的每个访客所用时间，您将看到100%以上的百分比。 按此量度对排名报表进行排序，会显示网站平均深度的异常值，该值通常没什么价值。Adobe 建议在排名报表中按其他量度（例如[访问次数](visits.md)）来排序。
 
-有关 [停留时间的更多](time-spent.md) 、一般信息，请参阅停留时间概述。
+有关逗留时间的更多常规信息，请参阅[逗留时间概述](time-spent.md)。
