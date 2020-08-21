@@ -42,7 +42,7 @@ ht-degree: 99%
 + [数据插入 API](c-data-insertion-api/c-data-insertion-api.md)
 + Data Connectors {#dataconnectors}
    + [Analytics Data Connectors 快速入门](data-connectors/getting-started-data-connectors.md)
-   + [Analytics数据连接器寿命终止](data-connectors/data-connectors-eol.md)
+   + [Analytics Data Connectors的生命周期结束](data-connectors/data-connectors-eol.md)
    + 适用于 Adobe Analytics 的 appFigures Data Connector {#appfigures}
       + [appFigures 概述](data-connectors/appfigures-overview/appfigures-overview.md)
       + [在激活此集成之前](data-connectors/appfigures-overview/appfigures-before-activation.md)
