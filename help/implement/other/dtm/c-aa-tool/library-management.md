@@ -4,9 +4,9 @@ keywords: library management;page code;load library at;managed by adobe;custom;c
 solution: Experience Cloud,Dynamic Tag Management
 title: 库管理
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '420'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p> 自定义 </p> </td> 
-   <td colname="col2"> <p>您可以配置库代码。 </p> <p>如果选择此选项，则以下选项将变为可用： </p> <p> <b>使用下面的自定义代码设置报表包：</b>选中此框后，动态标签管理会在您的自定义代码中查找名为 <span class="varname"> s_account</span>. 此变量应当包含要向其发送数据的报表包列表（以逗号分隔）。 </p> <p> <b>托管代码：</b>选择用来托管 <span class="filepath">s_code</span> 的选项： </p> 
+   <td colname="col2"> <p>您可以配置库代码。 </p> <p>如果选择此选项，则以下选项将变为可用： </p> <p> <b>使用下面的自定义代码设置报表包：</b>选中此框后，动态标签管理会在您的自定义代码中查找名为 <span class="varname"> s_account</span>。此变量应当包含要向其发送数据的报表包列表（以逗号分隔）。 </p> <p> <b>托管代码：</b>选择用来托管 <span class="filepath">s_code</span> 的选项： </p> 
     <ul id="ul_FC395283365A4BBAA8A5FE5871D16EC6"> 
      <li id="li_36D733C533CE40F1868309130551D4DE"> <b>在 DTM 中</b>：您可以在动态标签管理中托管 <span class="filepath">s_code</span>。单击<span class="uicontrol">编辑代码</span>，直接将文件剪切并粘贴到编辑器中。 </li> 
      <li id="li_A64734C66D254079A5E16DC8DBEDA3F6"> <b>URL</b>：如果您拥有一个完好的 <span class="filepath">s_code</span> 文件并且愿意更新它，则可以在此处提供指向该文件的 URL。动态标签管理随后会使用此 <span class="filepath">s_code</span> 文件来实施 <span class="keyword">Adobe Analytics</span>。 </li> 
