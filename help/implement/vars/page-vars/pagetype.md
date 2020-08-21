@@ -1,9 +1,9 @@
 ---
 title: pageType
 description: 确定当前页面是否为 404 错误。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '135'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> 请勿在非错误页面上设置此变量。
+>请勿在非错误页面上设置此变量。
 
 ## Adobe Experience Platform Launch 中的页面类型
 
@@ -32,4 +32,4 @@ s.pageType = "errorPage";
 
 >[!TIP]
 >
-> 使用 eVar 收集错误代码，以便获取有关访客在您的网站上遇到的特定错误的更多信息。
+>使用 eVar 收集错误代码，以便获取有关访客在您的网站上遇到的特定错误的更多信息。
