@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '2123'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 97%
 
 发行日期：**2020 年 6 月 24 日**
 
-* 修复了Activity MaplinkExclusions过滤器并非始终应用于Firefox的问题。
+* 修复了 Activity Map linkExclusions 过滤器没有始终应用于 Firefox 的问题。
 
 ## 版本 2.20.0
 
 发行日期：**2020 年 3 月 5 日**
 
-* 通过更新Internet Explorer检测以禁止JSLint警告，修复了与安全相关的问题。
+* 通过更新 Internet Explorer 检测以禁止 JSLint 警告，修复了一个安全相关的问题。
 
 ## 版本 2.19.0
 
@@ -41,7 +41,7 @@ ht-degree: 97%
 
 发行日期：**2020 年 2 月 13 日**
 
-* AppMeasurement现在可以通过设置变量强制cookies包含“安全” [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) 属性。 此变量的要求是整个客户端网站能够安全地服务(HTTPS)。 (AN-204604)
+* 现在，AppMeasurement 可以通过设置 [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) 变量强制 Cookie 包含“安全”属性。此变量的要求是安全地服务于整个客户端网站 (HTTPS)。(AN-204604)
 
 ## 版本 2.17.0
 
