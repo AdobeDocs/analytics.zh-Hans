@@ -1,11 +1,11 @@
 ---
 title: 从第三方分析平台过渡到 Adobe Analytics
 description: 了解获取报表的关键概念，适用于熟悉其他平台（例如 Google Analytics）的用户。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Google Analytics 和 Adobe Analytics 都是功能强大的平台，都可为您�
 * **Reports &amp; Analytics** 是获取基本报表的历史方法。左侧菜单提供了一个预制报表列表，允许用户导航到所需报表并获取数据。区段和量度可提供额外的自定义。具有使用 Google Analytics 报表经验的用户可能发现这个布局非常熟悉。
 * **Analysis Workspace** 是当前提取大多报表的推荐方法。左侧菜单允许用户拖放组件以构建自己的报表。左侧菜单拥有非常高的自由度，可满足确切的报表需求。具有创建 Google Analytics 功能板和自定义报表经验的用户可能发现这个布局非常熟悉。
 
-Most reports can be created in both [!UICONTROL Reports &amp; Analytics] and [!UICONTROL Analysis Workspace]. 但是，某些报表只能使用其中一个平台进行提取。In most cases, Adobe recommends using [!UICONTROL Analysis Workspace], unless a specific feature is only available in [!UICONTROL Reports &amp; Analytics].
+大多数报表都可以在 [!UICONTROL Reports &amp; Analytics] 和 [!UICONTROL Analysis Workspace] 中创建。但是，某些报表只能使用其中一个平台进行提取。大多数情况下，Adobe 建议使用 [!UICONTROL Analysis Workspace]，除非特定功能仅在 [!UICONTROL Reports &amp; Analytics] 中可用。
 
 ## 推荐学习路径
 
@@ -29,7 +29,7 @@ Adobe 建议从获取报表数据的绝对基础知识开始：
 
 * [在 Analysis Workspace 中为 GA 用户创建基本报表](reports/create-report.md)
 
-Once you are familiar with components in [!UICONTROL Analysis Workspace], you can learn how to recreate most reports using the right components.
+熟悉 [!UICONTROL Analysis Workspace] 中的组件后，您可以了解如何使用正确的组件重新创建大多数报表。
 
 * [在 Adobe Analytics 中创建实时报表](reports/realtime-reports.md)
 * [在 Adobe Analytics 中创建受众报表](reports/audience-reports.md)
