@@ -1,30 +1,30 @@
 ---
 title: 逗留时间
-description: 维度和指标的总时间页。
-translation-type: tm+mt
+description: 逗留时间维度和量度的汇总页面。
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1577'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
-# 花费时间概述
+# 逗留时间概述
 
-在 Adobe Analytics 产品中提供了各种[!UICONTROL “逗留时间”]量度和维度。
+在 Adobe Analytics 产品中提供了各种[!UICONTROL 逗留时间]量度和维度。
 
 ## “逗留时间”量度
 
 | 量度 | 定义 | 适用的功能领域 |
 |---|---|---|
 | [!UICONTROL 所用总秒数] | 表示访客与特定维度项目交互所用的总时间。包括所有后续点击中的值和持久性的实例。对于 prop，也会在后续链接事件中统计逗留时间。 | Analysis Workspace、Reports &amp; Analytics、Report Builder（称为“总逗留时间”）、Data Warehouse、Ad Hoc Analysis |
-| [!UICONTROL 每次访问逗留时间]（秒） | *所用总秒数/（访问次数 - 跳出次数）*<br>表示访客在每次访问期间与特定维度项目交互所用的平均时间。 | Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis |
-| [!UICONTROL 每位访客逗留时间]（秒） | *所用总秒数/独特访客&#x200B;*<br>表示在访客的存留期（访客 Cookie 的时长）内，访客与特定维度项目交互所用的平均时间。 | Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis |
-| [!UICONTROL 网站平均逗留时间]（秒） | 表示访客与特定维度项目交互所用的总时间，其中每个序列包含一个维度项目。它并非像其名称所暗示的那样仅限于“网站”平均值。有关序列的详细信息，请参阅“‘逗留时间’的计算方式”部分。<br>**注意&#x200B;**：由于计算中所用的分母不同，因此，此量度很可能会与维度项目级别的“每次访问逗留时间”有所不同。 | Analysis Workspace、Reports &amp; Analytics（以分钟为单位显示）、Report Builder（以分钟为单位显示）、Ad Hoc Analysis |
+| [!UICONTROL 每次访问逗留时间]（秒） | *所用总秒数/（访问次数 - 跳出次数）*<br>&#x200B;表示访客在每次访问期间与特定维度项目交互所用的平均时间。 | Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis |
+| [!UICONTROL 每位访客逗留时间]（秒） | *所用总秒数/独特访客*<br>&#x200B;表示在访客的存留期（访客 Cookie 的时长）内，访客与特定维度项目交互所用的平均时间。 | Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis |
+| [!UICONTROL 网站平均逗留时间]（秒） | 表示访客与特定维度项目交互所用的总时间，其中每个序列包含一个维度项目。它并非像其名称所暗示的那样仅限于“网站”平均值。有关序列的详细信息，请参阅“‘逗留时间’的计算方式”部分。<br>**注意**：由于计算中所用的分母不同，因此，此量度很可能会与维度项目级别的“每次访问逗留时间”有所不同。 | Analysis Workspace、Reports &amp; Analytics（以分钟为单位显示）、Report Builder（以分钟为单位显示）、Ad Hoc Analysis |
 | [!UICONTROL 页面平均逗留时间] | 已弃用的量度。<br>如果需要维度项目的平均时间，我们建议您使用“网站平均逗留时间”。 | Report Builder（当请求中包含维度时） |
 | [!UICONTROL 会话总时长]，又称[!UICONTROL 前一会话时长] | 仅限移动设备应用程序 SDK。<br>对于前一会话，在下次启动应用程序时进行确定。以秒为单位进行计算，此量度只有在应用程序处于使用状态时才会统计，在应用程序处于后台时则不会统计。这是一个会话级别的量度。<br>例如：我们安装了应用程序 ABC 并将其启动，在使用了 2 分钟后关闭了该应用程序。在此会话时间内不会发送任何相关数据。下次启动该应用程序时，将会发送[!UICONTROL 前一会话时长]，其值为 120。 | Analysis Workspace、Reports &amp; Analytics、Report Builder、Mobile Services UI |
-| [!UICONTROL 平均会话时长]（移动设备） | *会话总时长/（启动次数 – 首次启动次数）*<br>仅限移动设备应用程序 SDK。这是一个会话级别的量度。 | Report Builder、Mobile Services UI、Ad Hoc Analysis |
+| [!UICONTROL 平均会话时长]（移动设备） | *会话总时长/（启动次数 – 首次启动次数）*<br>&#x200B;仅限移动设备应用程序 SDK。这是一个会话级别的量度。 | Report Builder、Mobile Services UI、Ad Hoc Analysis |
 
 ## “逗留时间”维度
 
@@ -87,9 +87,9 @@ Adobe Analytics 使用显式值（包括链接事件和视频查看次数）来�
 
 因此，这些量度可能会在访问级别产生相似的结果，但在点击级别则将产生不同的结果。
 
-**问题5: 为什么站点上的平均[!UICONTROL 停留时间与父行项]不匹配的细分合计？**
+**问题 5：为什么[!UICONTROL 网站平均逗留时间]的划分合计与父行项目不匹配？**
 
-答： 因 [!UICONTROL 为Average Time Spent on Site] （在站点上花费的平均时间）取决于维的未中断序列，而内部报表在计算这些运行时并不依赖于外部报表。
+答案：因为[!UICONTROL 网站平均逗留时间]取决于维度的未中断序列，而内部报表在计算这些运行时并不依赖于外部报表。
 
 例如，请考虑以下访问。
 
@@ -97,9 +97,9 @@ Adobe Analytics 使用显式值（包括链接事件和视频查看次数）来�
 |---|---|---|---|
 | **所用秒数** | 30 | 100 | 10 |
 | **页面名称** | 主页 | 产品 | 主页 |
-| **日期** | 1月1日 | 1月1日 | 1月1日 |
+| **日期** | 1 月 1 日 | 1 月 1 日 | 1 月 1 日 |
 
-在计算主页的时间时，它将为(30+10)/2=20，但按天划分时间将为(30+10)/1=40，因为该日的运行在1月1日是单次不间断的。
+在计算主页的逗留时间时，其结果为 (30+10)/2=20，但如果按天划分时间则为 (30+10)/1=40，因为 1 月 1 日当天是不间断运行。
 
 因此，这些量度可能会在访问级别产生相似的结果，但在点击级别则将产生不同的结果。
 
