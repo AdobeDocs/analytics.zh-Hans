@@ -1,29 +1,29 @@
 ---
 title: 上次访问间隔天数
-description: 当前点击与上次访问之间的天数。
+description: 当前点击与上次访问之间间隔的天数。
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '167'
-ht-degree: 14%
+ht-degree: 74%
 
 ---
 
 
 # 上次访问间隔天数
 
-“上次访问后的天数”维度测量访客的当前点击与其上次访问（如果有）之间所经过的时间。 此维度有助于您了解访客在访问您的网站后所做的行为。 示例包括：
+“上次访问间隔天数”维度会测量访客的当前点击与其上次访问（如果有）之间间隔的时间。此维度有助于您了解访客在访问您的网站后的行为。示例包括：
 
-* 用户重新访问网站的频率是多少？
+* 用户回访网站的频率是多久？
 * 回访频度与转化有何关联？重复购买者是否经常访问？
-* 点击活动的用户是否经常返回？
+* 点击促销活动的用户是否经常回访？
 
-首次访客未包含在此维中。
+此维度中不包含首次访客。
 
-## 用数据填充此维
+## 使用数据填充此维度
 
-此维度适用于所有实施。 如果报表包包含数据，则此维有效。
+此维度可开箱即用于所有实施。如果报表包包含数据，则此维度有效。
 
-## 维项
+## Dimension项
 
-维项目包括访客上次访问与当前点击之间的天数。 每个天数是单独的维度项目， `"Same day"` 访客上次访问和当前点击发生在同一天。
+Dimension项包括访客上次访问与当前点击之间的天数。 Each number of days is a separate dimension item, with `"Same day"` occurring where a visitor&#39;s last visit and the current hit happened on the same day.
