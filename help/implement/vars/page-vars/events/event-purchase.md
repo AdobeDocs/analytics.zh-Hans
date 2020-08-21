@@ -1,11 +1,11 @@
 ---
 title: 购买事件
 description: 使用购买事件收集“订单数”、“件数”和“收入”量度的数据。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->收入不是乘以数量字段。 For example, `s.products="Womens;Socks;5;4.50"` does not pass $22.50 into revenue; it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed. 例如：`s.products="Womens;Socks;5;22.50"`。
+>收入不是乘以数量字段。例如，`s.products="Womens;Socks;5;4.50"` 不会向收入传递 $22.50，而是传递 $4.50。请确保您的实施传递了所列数量的总收入。例如：`s.products="Womens;Socks;5;22.50"`。
 
 ## 在 Adobe Experience Platform Launch 中设置购买事件
 
