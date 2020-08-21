@@ -5,7 +5,10 @@ title: 处理顺序
 topic: Admin tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: 31506d4d3fa26a3012cce2c6a8fdeb7af52c2537
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 87%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 |--- |--- |
 | 动态变量查找 | 通过从 HTTP 标题或其他变量中提取信息，将动态填充变量。例如，`s.eVar5="D=c1"` 会将 prop1 的值置于 eVar5 中。 |
 | AppMeasurement | AppMeasurement中使用的函数和插件在浏览器或客户端应用程序中执行。 |
-| Dynamic Tag Management | Dynamic Tag Management 中定义的规则根据定义执行。 |
+| 标签管理 | 在Adobe启动或动态标签管理中定义的规则将按照定义执行。 |
 | 机器人规则 | [机器人规则](/help/admin/admin/bot-removal/bot-rules.md)允许您从报表包中删除已知蜘蛛程序和机器人程序生成的流量。 |
 
 ## 应用处理规则之后
@@ -40,6 +43,6 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ## 使用 VISTA 复制点击量时如何应用处理规则 {#section_576EE8C240A24CBA979BD614E8D5338D}
 
-如果您配置了 VISTA 规则来将点击量复制到其他报表包中，则点击量将通过在其他报表包中定义的任何处理规则发送。
+如果您已配置VISTA规则将点击复制到其他报表包，则点击将通过其他报表包中定义的任何处理规则发送。
 
 如果您在初始报表包中定义了处理规则，根据工程技术服务对 VISTA 规则的配置方式，可能会或者不会应用这些规则。若要确定是否应用了这些规则，您可以询问实施专家 VISTA 规则是将“pre”值还是“post”值复制到了其他报表包中。如果复制的是“pre”值，则不会应用初始报表包中定义的处理规则。如果复制的是“post”值，则会在复制点击量前应用处理规则。
