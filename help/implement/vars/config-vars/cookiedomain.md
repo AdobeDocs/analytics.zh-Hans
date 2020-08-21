@@ -1,9 +1,9 @@
 ---
 title: cookieDomain
 description: cookieDomain 变量可帮助确定要在其中设置 Cookie 的域。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> 此变量已停用。请改用 [`trackingServer`](trackingserver.md)。
+>此变量已停用。请改用 [`trackingServer`](trackingserver.md)。
 
 `cookieDomain` 变量可确定 AppMeasurement 将在哪个域中设置 Cookie。您可以使用此变量而不是 [`cookieDomainPeriods`](cookiedomainperiods.md) 变量来明确设置 Cookie 域。
 
