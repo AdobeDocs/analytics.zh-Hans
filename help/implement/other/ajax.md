@@ -1,9 +1,9 @@
 ---
 title: 使用 AJAX 实施
 description: 了解如何在使用 AJAX 的网站上实施 Adobe Analytics。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Adobe Analytics 通常需要通过重新加载页面来重置 Analytics 跟踪�
 
 >[!NOTE]
 >
-> 并非需要记录所有交互或点击。请仔细考虑哪些操作是非常重要因而需要跟踪的，并据此将相应数据发送到 Adobe。
+>并非需要记录所有交互或点击。请仔细考虑哪些操作是非常重要因而需要跟踪的，并据此将相应数据发送到 Adobe。
 
 ## 清除每个页面上的变量
 
@@ -37,7 +37,7 @@ Adobe Analytics 通常需要通过重新加载页面来重置 Analytics 跟踪�
 
 >[!TIP]
 >
-> `clearVars()` 函数在 H 代码中不可用。如果尚未升级到 AppMeasurement，请将每个 Analytics 变量值设置为空字符串。
+>`clearVars()` 函数在 H 代码中不可用。如果尚未升级到 AppMeasurement，请将每个 Analytics 变量值设置为空字符串。
 
 ## 示例
 
