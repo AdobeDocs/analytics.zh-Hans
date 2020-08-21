@@ -1,23 +1,23 @@
 ---
-title: 访问号码
-description: 访客的第n次访问。
+title: 访问量
+description: 访客的第 n 次访问。
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 0%
+ht-degree: 59%
 
 ---
 
 
-# 访问号码
+# 访问量
 
-访问访客当前所在的“访问次数”维度报告。 当新访问开始时，此维度项增加1。 当您想要了解访客在返回您的网站时的参与程度时，此维度会很有帮助。 它是基于访问的维，这意味着它包含的整个访问的值相同，并且无法更改。 它适用于访客的生命周期，而不管项目日期范围。
+“访问量”维度报告访客当前是第几次访问。当新访问开始时，此维度项增加1。 如果您想了解访客在返回您的网站时的参与程度，此维度很有用。它是一个基于访问的维度，这意味着它在整个访问期间包含的值是相同的，并且无法更改。它适用于访客的存留期，而不管项目日期范围如何。
 
-## 用数据填充此维
+## 使用数据填充此维度
 
-此维度适用于所有实施。 如果报表包包含数据，则此维有效。
+此维度可开箱即用于所有实施。如果报表包包含数据，则此维度有效。
 
-## 维项
+## Dimension项
 
-访客项包括字 `"Visit number"` 符串，后跟当前所在访问的数字表示形式。 例如，如果访客以前从未访问过您的站点，则其首次访问属于维项目 `"Visit number 1"`。 如果这是访客第13次访问您的站点，则它们属于维度项 `"Visit number 13"`。
+Dimension items include the string `"Visit number"` followed by the numeric representation of the visit the visitor is currently on. For example, if the visitor has never been to your site before, their first visit belongs to the dimension item `"Visit number 1"`. If this is the visitor&#39;s 13th visit to your site, they belong to the dimension item `"Visit number 13"`.
