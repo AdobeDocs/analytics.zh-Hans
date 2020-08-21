@@ -4,9 +4,9 @@ subtopic: Data sources
 title: 准备使用数据源
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> Adobe 强烈建议结合使用新的空事件与数据源数据，但在极少数情况下也可以使用预先存在的事件。
+>Adobe 强烈建议结合使用新的空事件与数据源数据，但在极少数情况下也可以使用预先存在的事件。
 
 ## 标识数据维度 {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 可能会导入无法按任何数据维度划分的总计量度。
+>可能会导入无法按任何数据维度划分的总计量度。
 
 在您定义要与数据源一起使用的数据维度之后，请通过将维度数据映射到变量，将其集成到市场营销报表中。可使用标准报表（例如，产品、跟踪代码、搜索关键词）或转化流量变量 (eVar)。
 
