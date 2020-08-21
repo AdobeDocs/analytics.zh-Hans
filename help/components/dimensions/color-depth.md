@@ -5,23 +5,23 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 0%
+ht-degree: 94%
 
 ---
 
 
 # 颜色深度
 
-“颜色深度”维度报告设备支持的颜色数。 此维度可用于确定来自不支持1600万颜色的设备的流量。 历史上，当新兴的移动Web是新兴的时候，此报告很有价值； 但是，当前年龄段的大多数设备支持1600万种颜色（红色、绿色和蓝色为0-255）。 <!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
+“颜色深度”维度报告设备支持的颜色数量。确定多少流量来自不支持 1600 万颜色的设备时，此维度非常有用。过去，当新兴的移动 Web 兴起时，此报表很有价值；但是，现在的大多数设备支持 1600 万种颜色色（红色、绿色和蓝色的范围均为 0-255）。<!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
 
-## 用数据填充此维
+## 使用数据填充此维度
 
-该维引用查找表，将位值转换为更易读的格式。 它从图像请求中 [`c` 的查询](/help/implement/validate/query-parameters.md) 字符串收集数据。 AppMeasurement使用变 `screen.colorDepth` 量填充图像请求查询字符串。 如果您使用AppMeasurement(例如通过Adobe Experience Platform启动)，此维度开箱即用。 如果您在AppMeasurement之外使用查询收集方法（如通过API），请确保在每次点击时都包含字符串参数，并具有有效位值。 `c`
+此维度引用查找表，将位值转换为更易于读取的格式。它会从图像请求中的 [`c` 查询字符串](/help/implement/validate/query-parameters.md)收集数据。AppMeasurement 会使用 `screen.colorDepth` 变量填充图像请求查询字符串。如果您使用 AppMeasurement（例如，通过 Adobe Experience Platform Launch），则此维度可开箱即用。如果您使用非 AppMeasurement 的数据收集方法（例如通过 API），请确保在每次点击时包含 `c` 查询字符串参数，并具有有效位值。
 
-## 维项
+## Dimension项
 
-维度项包括设备支持的颜色数。 示例值 `"16 million (24-bit)"`包括 `"16 million (32-bit)"`、和 `"65,536 (16-bit)"`。 如果AppMeasurement无法确定颜色深度，则显示为 `"None"`。
+Dimension项包括设备支持的颜色数。 示例值包括 `"16 million (24-bit)"`、`"16 million (32-bit)"` 和 `"65,536 (16-bit)"`。如果 AppMeasurement 无法确定颜色深度，则会显示为 `"None"`。
 
 >[!TIP]
 >
->24位和32位支持的区别在于32位支持alpha渠道(RGBA)，而24位不支持(RGB)。 请参 [阅Wikipedia上的](https://en.wikipedia.org/wiki/Color_depth) “颜色深度”，以了解有关此概念的更多信息。
+>24 位和 32 位支持的区别在于：32 位支持 Alpha 通道 (RGBA)，而 24 位则不支持 (RGB)。有关此概念的更多信息，请参阅 Wikipedia 上的[颜色深度](https://en.wikipedia.org/wiki/Color_depth)。
