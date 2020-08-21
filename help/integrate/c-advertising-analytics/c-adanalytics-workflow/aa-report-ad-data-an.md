@@ -2,9 +2,9 @@
 description: 与 Analysis Workspace 模板以及在 Reports & Analytics 和 Report Builder 中进行报告的相关详细信息。
 title: 在 Adobe Analytics 中报告广告数据
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '388'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 您可能需要至少等待 24 小时，搜索引擎数据才会开始填充到您的 Analytics 报表中。另请注意，Analytics 报表不会以每小时的时间粒度返回数据，因为 AMO 数据不支持每小时的时间粒度。
+>您可能需要至少等待 24 小时，搜索引擎数据才会开始填充到您的 Analytics 报表中。另请注意，Analytics 报表不会以每小时的时间粒度返回数据，因为 AMO 数据不支持每小时的时间粒度。
 
 ## Analysis Workspace：搜索引擎 {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
