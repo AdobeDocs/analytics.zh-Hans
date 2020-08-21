@@ -14,13 +14,13 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> 不再支持此版本的数据收集。升级到 [Adobe Experience Platform Launch](../../launch/overview.md) 或 [AppMeasurement for JavaScript](../overview.md)。
+>不再支持此版本的数据收集。升级到 [Adobe Experience Platform Launch](../../launch/overview.md) 或 [AppMeasurement for JavaScript](../overview.md)。
 
 您必须能够访问托管服务器，才能成功为页面实施用于收集数据的代码。以下步骤详细说明了如何进行基本的 Analytics H 代码实施。
 
 >[!NOTE]
 >
-> 在按以下说明操作之前，您必须已拥有 `s_code.js` 的副本。Adobe 将不再提供用于在代码管理器中下载 H 代码的选项。
+>在按以下说明操作之前，您必须已拥有 `s_code.js` 的副本。Adobe 将不再提供用于在代码管理器中下载 H 代码的选项。
 
 1. **更新核心 JS 文件变量**：编辑 `s_code.js` 文件，并确保已更新以下变量：
    * `s_account` 包含要将数据发送到的报表包 ID。请参阅
