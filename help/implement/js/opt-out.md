@@ -1,9 +1,9 @@
 ---
 title: 选择退出链接
 description: 了解如何为网站的访客创建实施选择退出链接。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '590'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> Adobe 建议使用选择加入服务，尤其是需要遵从 GDPR 法规的组织。请参阅 Experience Cloud Identity Service 用户指南中的[选择加入服务概述](https://docs.adobe.com/content/help/zh-Hans/id-service/using/implementation/opt-in-service/optin-overview.html)。
+>Adobe 建议使用选择加入服务，尤其是需要遵从 GDPR 法规的组织。请参阅 Experience Cloud Identity Service 用户指南中的[选择加入服务概述](https://docs.adobe.com/content/help/zh-Hans/id-service/using/implementation/opt-in-service/optin-overview.html)。
 
 某些访问您网站的访客不愿意将他们的浏览信息包含在您的数据集中。Adobe 让您能够向网站访客提供一种方案，禁止收集他们的信息。所有实施类型均适用；贵组织有责任遵守自己的隐私政策，同时也应遵守已签署的条款。
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
-> Adobe 还根据每个报表包提供了相应的隐私设置。请参阅管理员用户指南中的[隐私设置](../../admin/admin/privacy-settings.md)。
+>Adobe 还根据每个报表包提供了相应的隐私设置。请参阅管理员用户指南中的[隐私设置](../../admin/admin/privacy-settings.md)。
 
 ## 选择退出 URL
 
@@ -82,7 +82,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
-> `en_US` 查询字符串值不是必需的，因为默认情况下页面以英语加载。
+>`en_US` 查询字符串值不是必需的，因为默认情况下页面以英语加载。
 
 ### 弹出窗口
 
@@ -92,7 +92,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 以前，此查询字符串参数会强制作为弹出窗口。但是，大多数现代浏览器都会控制向最终用户显示弹出窗口。
+>以前，此查询字符串参数会强制作为弹出窗口。但是，大多数现代浏览器都会控制向最终用户显示弹出窗口。
 
 ### 单击选择退出
 
