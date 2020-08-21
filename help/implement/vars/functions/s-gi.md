@@ -1,9 +1,9 @@
 ---
 title: s_gi()
 description: 创建和跟踪 AppMeasurement 实例。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Analytics 扩展可为您实例化和管理跟踪对象。但是，在配置 Ado
 
 >[!TIP]
 >
-> Adobe 建议将该 `s` 变量用作跟踪对象。Adobe 在其文档、实施示例和插件中使用 `s`。但是，只要在网站中保持一致，可以使用任何变量。
+>Adobe 建议将 `s` 变量用作跟踪对象。Adobe 在其文档、实施示例和插件中使用 `s`。但是，只要在网站中保持一致，可以使用任何变量。
 
 ```js
 // Instantiate the tracking object with a single report suite
@@ -43,7 +43,7 @@ var s = s_gi("examplersid1,examplersid2");
 
 >[!CAUTION]
 >
-> 以下各部分和示例包含复杂的实施主题。完整测试您的实施并跟踪贵组织的](../../prepare/solution-design.md)解决方案设计文档[中的重要自定义项。
+>以下各部分和示例包含复杂的实施主题。完整测试您的实施并跟踪贵组织的](../../prepare/solution-design.md)解决方案设计文档[中的重要自定义项。
 
 ## 使用不同的跟踪对象管理多个实施
 
