@@ -1,28 +1,28 @@
 ---
 title: 分析营销渠道
-description: 了解如何在 Workspace 中使用营销渠道维度。
-translation-type: tm+mt
+description: 了解如何在工作区中使用营销渠道维度。
+translation-type: ht
 source-git-commit: 586dabe8454bb2e6fbd4f3fbdb18d13a18b0417d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
 
 # 分析营销渠道
 
-您可能希望了解哪些营销渠道以及与谁合作最有效，从而更好地集中您的精力，并从营销资金中获得更好的回报。在Adobe Analytics中，Workspace中的营销渠道维度和指标是帮助您跟踪不同渠道对订单、收入等的影响的工具之一。 并为您提供有用的渠道分析。以下是您可以使用的与营销渠道相关的维度和量度：
+您可能希望了解哪些营销渠道以及与谁合作最有效，从而更好地集中您的精力，并从营销资金中获得更好的回报。在 Adobe Analytics 中，工作区中的营销渠道维度和量度是帮助您跟踪不同渠道对订单、收入等的影响的工具之一。并为您提供有用的渠道分析。以下是您可以使用的与营销渠道相关的维度和量度：
 
 ![](assets/mc-dims.png)
 
 | 维度/量度 | 定义 |
 |---|---|
-| 营销渠道 | 这是建议使用的营销渠道维度。 可在运行时对其应用归因 IQ 模型。此维的行为与“上次触控”渠道维相同，但标记不同，以防止在与其他属性模型一起使用时产生混淆。 |
-| 最近联系渠道 | 旧维，具有预应用且不可更改的最后触控归因模型。 |
-| 首个联系渠道 | 传统维度，首次触摸归因模型预应用且不可更改。 |
-| 营销渠道实例 | 此度量衡量在图像请求中定义营销渠道的次数，包括标准页面视图和自定义链接调用。 不包括保留值。 |
-| 新参与 | 此度量与实例类似，但仅在图像请求中定义首次接触营销渠道时递增。 |
+| 营销渠道 | 这是建议使用的营销渠道维度。可在运行时对其应用归因 IQ 模型。此维度与“最近联系渠道”维度的行为相同，但采用不同的方式标记，以防止在与其他归因模型一起使用时产生混淆。 |
+| 最近联系渠道 | 旧版维度，带有预应用的最近联系归因模型且不可更改。 |
+| 首个联系渠道 | 旧版维度，带有预应用的首个联系归因模型且不可更改。 |
+| 营销渠道实例 | 此量度衡量在图像请求中定义营销渠道的次数，包括标准页面查看和自定义链接调用。不包括持续得到的值。 |
+| 新参与 | 此量度与实例类似，但仅在图像请求中定义首个联系营销渠道时递增。 |
 
 ## 基本分析
 
@@ -46,7 +46,7 @@ ht-degree: 67%
 
 ## 应用归因模型
 
-您可以使用[归因 IQ](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/attribution/use-attribution.html)，即时应用不同的归因模型：
+您可以使用[归因 IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/use-attribution.html)，即时应用不同的归因模型：
 
 ![](assets/mc-viz5.png)
 
