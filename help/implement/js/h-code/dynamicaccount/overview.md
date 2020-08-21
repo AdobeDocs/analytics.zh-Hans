@@ -1,9 +1,9 @@
 ---
 title: 动态帐户概述
 description: 了解关于如何使用 H 代码动态选择报表包的工作流。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
 ht-degree: 100%
 
@@ -14,13 +14,13 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> 仅当使用旧版 JavaScript 实施（H 代码）时，才支持动态帐户。当前的 AppMeasurement 库或 Adobe Experience Platform Launch 不支持这些变量。
+>仅当使用旧版 JavaScript 实施（H 代码）时，才支持动态帐户。当前的 AppMeasurement 库或 Adobe Experience Platform Launch 不支持这些变量。
 
 动态帐户是一项实施功能，允许您根据自己定义的条件确定要使用的报表包。如果贵组织需要多个报表包，但希望在各网站之间使用相同的实施，则动态帐户是一个很好的解决方案。
 
 >[!TIP]
 >
-> Adobe 建议先将数据发送到单个报表包，然后根据需要使用虚拟报表包来分离数据。有关更多信息，请参阅[全局报表包注意事项](../../../prepare/global-rs.md)。
+>Adobe 建议先将数据发送到单个报表包，然后根据需要使用虚拟报表包来分离数据。有关更多信息，请参阅[全局报表包注意事项](../../../prepare/global-rs.md)。
 
 可使用 3 个变量来动态选择报表包。
 
