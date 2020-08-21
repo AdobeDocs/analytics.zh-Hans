@@ -2,9 +2,9 @@
 description: 可通过以下方法访问这些函数：选中函数下拉列表中的显示高级。
 title: 引用：高级函数
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2911'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 0（零）表示 False，而任何其他值均表示 True。
+>0（零）表示 False，而任何其他值均表示 True。
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -211,7 +211,7 @@ CBRT(metric)
 
 >[!NOTE]
 >
-> 使用收入/访客之类的比率量度时，它可能不会按预期工作：它会计算比率的平均值，而不是总计最后 N 行的收入并总计最后 N 行的访客数，然后将二者相除。它使用的是
+>使用收入/访客之类的比率量度时，它可能不会按预期工作：它会计算比率的平均值，而不是总计最后 N 行的收入并总计最后 N 行的访客数，然后将二者相除。它使用的是
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -456,7 +456,7 @@ NOT(logical)
 
 >[!NOTE]
 >
-> 0（零）表示 False，而任何其他值均表示 True。
+>0（零）表示 False，而任何其他值均表示 True。
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -699,7 +699,7 @@ Z 分数的方程式为：
 
 >[!NOTE]
 >
->[!DNL μ]  (mu) 和 [!DNL σ] (sigma) 会使用该量度自动计算。
+>[!DNL μ] (mu) 和 [!DNL σ] (sigma) 会使用该量度自动计算。
 
 Z 分数（量度）
 
@@ -726,5 +726,5 @@ Z 分数（量度）
 
 >[!NOTE]
 >
-> 假定值为正态分布。
+>假定值为正态分布。
 
