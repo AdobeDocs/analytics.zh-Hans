@@ -1,9 +1,9 @@
 ---
 title: 创建或编辑数据馈送
 description: 了解如何创建或编辑数据馈送。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '802'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 不支持 cn-north-1 区域。
+>不支持 cn-north-1 区域。
 
 ### Azure Blob
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 您必须实施自己的流程来管理馈送目标上的磁盘空间。Adobe 不会从服务器中删除任何数据。
+>您必须实施自己的流程来管理馈送目标上的磁盘空间。Adobe 不会从服务器中删除任何数据。
 
 ## 数据列定义
 
