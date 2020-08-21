@@ -2,11 +2,11 @@
 description: '了解 '
 title: 量度类型和归因
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a5ab9f3c0a82a5a37a6507b697c641c66075b848
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '914'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -28,18 +28,19 @@ ht-degree: 82%
 
 >[!IMPORTANT]
 >
->2018 年 7 月，[!DNL Analytics] 引入了[归因 IQ](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/attribution/attribution.html)，这改进了计算量度中分配模型的计算方式。作为此更改的一部分，使用非默认分配模型的计算量度已迁移至改进的新归因模型。
+>2018 年 7 月，[!DNL Analytics] 引入了[归因 IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html)，这改进了计算量度中分配模型的计算方式。作为此更改的一部分，使用非默认分配模型的计算量度已迁移至改进的新归因模型。
 >
->* 有关支持的非默认归因模型和回顾窗口的完整列表，请参阅[归因 IQ](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) 文档。
+>* 有关支持的非默认归因模型和回顾窗口的完整列表，请参阅[归因 IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) 文档。
 >* “营销渠道最近联系”和“营销渠道首次联系”分配模型将分别迁移至新的“最近联系”和“首次联系”归因模型（注：“营销渠道”并不会被弃用 - 弃用的只有此处所述出现在计算量度中的这两个分配模型）。
->* 此外，我们还将修正线性分配的计算方式。对于通过“线性”分配模型使用计算量度的客户，报表可能会稍有变化，以反映修正后的新归因模型。计算量度的这一更改将反映在 Analysis Workspace、Reports &amp; Analytics、报表 API、Report Builder 和 Ad Hoc Analysis 中。For more information, see **How Linear Allocation works (as of July 19, 2018**, below.
+>* 此外，我们还将修正线性分配的计算方式。对于通过“线性”分配模型使用计算量度的客户，报表可能会稍有变化，以反映修正后的新归因模型。计算量度的这一更改将反映在 Analysis Workspace、Reports &amp; Analytics、报表 API、Report Builder 和 Ad Hoc Analysis 中。有关更多信息，请参阅下面的&#x200B;**线性分配工作原理（自 2018 年 7 月 19 日起）**。
+
 >
 
 
 
-## 线性分配如何工作（截至2018年7月19日）
+## 线性分配工作原理（自 2018 年 7 月 19 日起）
 
-2018 年 7 月，Adobe 更改了计算量度中线性分配的报告方式。这一更改将会影响 Analysis Workspace、Ad Hoc Analysis、Reports &amp; Analytics、Report Builder、Activity Map 和报表 API。此更改主要影响eVar和具有持久性的其他维。 请注意，这些更改仅适用于计算的指标，不会影响使用线性分配的其他报表（如Reports &amp; Analytics中的页面报表）。 其他使用线性分配的报表将继续使用现有的线性分配方式。
+2018 年 7 月，Adobe 更改了计算量度中线性分配的报告方式。这一更改将会影响 Analysis Workspace、Ad Hoc Analysis、Reports &amp; Analytics、Report Builder、Activity Map 和报表 API。此更改将主要影响具有持久性的 eVar 与其他维度。请注意，这些更改只会应用于计算量度，而不会对使用线性分配的其他报表产生影响（例如 Reports &amp; Analytics 中的“页面”报表）。其他使用线性分配的报表将继续使用现有的线性分配方式。
 
 下例说明了使用线性分配的计算量度将在报告时发生何种变化：
 
@@ -52,14 +53,14 @@ ht-degree: 82%
 
 此示例中，在第 7 次点击进行了价值 10 美元的购买之前，值 A、B、C 已发送到第 1、3、4、6 次点击上的变量之中。第二行显示出，在这一系列的点击中，这些值均一直持久出现在最近联系访问中。第三行则显示出首次联系访问的持久性。最后，最后一行显示的是某个不具有持久性的属性 (Prop) 其数据是如何记录的。
 
-## 在Reports &amp; Analytics与Workspace中线性分配工作方式的差异
+## Reports &amp; Analytics 与 Workspace 中线性分配工作方式的差异
 
 线性归因的工作方式在以下两种工具之间有一些差异：
 
-* 在Reports &amp; Analytics中，（已处理）线性归因始终基于访问，而在Workspace中，它可以基于访问或访客。
-* 在Reports &amp; Analytics中，如果访问的第一次点击没有传递任何值，则（初始）值将从上一次访问中持续。 在Workspace(Attribution IQ)中，情况并非如此。 如果访问的第一次点击没有传递任何值，则“无”是初始值。
+* 在 Reports &amp; Analytics 中,（已处理的）线性归因始终基于访问；而在 Workspace 中，它可能基于访问或访客。
+* 在 Reports &amp; Analytics 中，如果访问首次点击时没有传递值，则（初始）值将在上次访问后持续存在。在 Workspace（归因 IQ）中，情况并非如此。如果访问的第一次点击没有传递任何值，则初始值为“无”。
 
-## 线性分配在2018年7月之前是如何工作的
+## 2018 年 7 月之前的线性分配工作原理
 
 在 2018 年 7 月 19 日之前，线性分配是在首次联系持久性或最近联系持久性出现之后进行计算。即，对于上述示例中的最近联系 eVar，10 美元将以如下方式分配：A = 10 * (3/6) = $5，B = 10 * (2/6) = $3.33，C = 10 * (1/6) = $1.67。
 
