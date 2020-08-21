@@ -1,25 +1,25 @@
 ---
-title: Server
+title: 服务器
 description: 服务器的名称。
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 1%
+ht-degree: 85%
 
 ---
 
 
-# Server
+# 服务器
 
-“服务器”维通常列表站点的主机名。 对于组合多个域或子域的报表包，此维对于查看哪些域或子域的性能最佳非常有用。
+“服务器”维度通常列出站点的主机名。对于组合多个域或子域的报表包，当想要了解哪些域或子域的性能最佳时，此维度很有价值。
 
-此维与“页面”和“ [站点](page.md) ” [部分维相关](site-section.md) 。 页面粒度最细，服务器粒度最细，站点部分介于两者之间。
+此维度与[页面](page.md)维度和[网站区域](site-section.md)维度相关。页面粒度最大，服务器粒度最小，网站区域介于两者之间。
 
-## 用数据填充此维
+## 使用数据填充此维度
 
-此维从图像请求中的 [`server` 查询字符串](/help/implement/validate/query-parameters.md) 检索数据。 AppMeasurement使用变量收集此 [`server`](/help/implement/vars/page-vars/server.md) 数据。
+此维度从图像请求中的 [`server` 查询字符串](/help/implement/validate/query-parameters.md)检索数据。AppMeasurement 使用 [`server`](/help/implement/vars/page-vars/server.md) 变量收集此数据。
 
-## 维项
+## Dimension项
 
-维项目包括站点上的服务器。 您的组织确定要使用哪些特定维项目。 一些组织使 `window.location.hostname`用，而另一些组织使用自定义值。 无论您使用何种方法，都应确保其一致性，并将其记录在解决方案 [设计文档中](/help/implement/prepare/solution-design.md)。
+Dimension项包括站点上的服务器。 您的组织确定要使用哪些特定维项目。 有些组织使用 `window.location.hostname`，而另一些组织则制定自定义值。无论您使用哪种方法，都应确保其一致性，并记录在[解决方案设计文档](/help/implement/prepare/solution-design.md)中。
