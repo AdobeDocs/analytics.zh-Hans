@@ -1,9 +1,9 @@
 ---
 title: trackingServer
 description: 确定发送图像请求的位置。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ Adobe 通过接收访客生成的图像请求来收集您网站上的数据。`t
 
 >[!IMPORTANT]
 >
-> 更改此值会使 AppMeasurement 在其他位置查找 Cookie。当在新位置设置访客 Cookie 时，报表中的独特访客计数可能会暂时激增。
+>更改此值会使 AppMeasurement 在其他位置查找 Cookie。当在新位置设置访客 Cookie 时，报表中的独特访客计数可能会暂时激增。
 
 ## Adobe Experience Platform Launch 中的“跟踪服务器”
 
@@ -35,7 +35,7 @@ Adobe 通过接收访客生成的图像请求来收集您网站上的数据。`t
 
 >[!TIP]
 >
-> 某些实施将数据指向 `2o7.net`。虽然这是一个有效的数据收集域，但它不使用区域数据收集。对于使用 `2o7.net` 的实施，其图像请求的响应时间会略有延长。
+>某些实施将数据指向 `2o7.net`。虽然这是一个有效的数据收集域，但它不使用区域数据收集。对于使用 `2o7.net` 的实施，其图像请求的响应时间会略有延长。
 
 ## 确定 trackingServer 的值
 
@@ -69,4 +69,4 @@ s.trackingServer = "example.sc.omtrdc.net";
 
 >[!NOTE]
 >
-> 请勿使用比 `example.sc.omtrdc.net` 更深的子域。例如，`custom.example.sc.omtrdc.net` 不是有效的跟踪服务器。
+>请勿使用比 `example.sc.omtrdc.net` 更深的子域。例如，`custom.example.sc.omtrdc.net` 不是有效的跟踪服务器。
