@@ -4,9 +4,9 @@ subtopic: Data sources
 title: 数据源工作原理
 topic: Developer and implementation
 uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '179'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 在经由数据源提交之后，导入的数据便与使用其他方法（JavaScript 信标、ActionSource、数据插入 API 等）收集的报表数据没有区别。数据一经导入便无法删除。
+>在经由数据源提交之后，导入的数据便与使用其他方法（JavaScript 信标、ActionSource、数据插入 API 等）收集的报表数据没有区别。数据一经导入便无法删除。
 
 ![](assets/data_sources_overview.png)
 
