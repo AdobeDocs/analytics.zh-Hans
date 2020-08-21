@@ -4,11 +4,11 @@ subtopic: Data sources
 title: 导入文件引用
 topic: Developer and implementation
 uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 96%
 
 列标题可用于识别数据源文件每一列中的数据。列标题有三种类型：
 
-**日期**: （必需）文件中每个数据行的时间戳，格式为 `m/d/yyyy`。
+**日期**：（必需）对应文件中每个数据行的时间戳，格式为 `m/d/yyyy`。
 
 **变量**：映射到数据源数据维度的报告变量的名称。
 
