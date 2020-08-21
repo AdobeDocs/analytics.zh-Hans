@@ -5,22 +5,22 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
 
 # Analytics 维度兼容性
 
-本页列表各自Analytics功能中支持的维。
+本页列出了各自 Analytics 功能中支持的维度。
 
 >[!NOTE]
 >
->此列表中忽略自定义变量名称、分类和访客属性。 这些维项目特定于单个报表包。
+>此列表中删除了自定义变量名称、分类和访客属性。这些维项目特定于单个报表包。
 
 >[!NOTE]
 >
->Analytics工具对类似尺寸使用不同术语时，会出现一些重叠。 例如，报表和Analytics在使 `browserwidth` 用时使用Analysis Workspace `browserwidthbucketed`。
+>在 Analytics 工具对类似维度使用不同术语时存在一些重叠。例如，Reports &amp; Analytics 使用 `browserwidth`，而 Analysis Workspace 使用 `browserwidthbucketed`。
 
 ## 在 Reports &amp; Analytics 和 Analysis Workspace 中均受支持的维度
 
@@ -37,15 +37,15 @@ ht-degree: 92%
 | Cookie 支持 | `cookie` |
 | 国家/地区 | `geocountry` |
 | 客户忠诚度 | `customerloyalty` |
-| 自定义转化变量 | `evar1`, `evar2`, 等. |
-| 自定义分析变量 | `prop1`, `prop2`, 等. |
+| 自定义转化变量 | `evar1`、`evar2` 等。 |
+| 自定义分析变量 | `prop1`、`prop2` 等。 |
 | 自定义链接 | `customlink` |
 | 首次购买间隔天数 | `daysbeforefirstpurchase` |
 | 上次购买间隔天数 | `dayssincelastpurchase` |
 | 域 | `filtereddomain` |
 | 下载链接 | `downloadlink` |
 | 登录页面 | `entrypage` |
-| 原始登录页面 | `entrypageoriginal` |
+| 原始登入页面 | `entrypageoriginal` |
 | 退出链接 | `exitlink` |
 | 首个联系渠道 | `firsttouchchannel` |
 | 首个联系渠道详细信息 | `firsttouchchanneldetail` |
@@ -58,7 +58,7 @@ ht-degree: 92%
 | 移动设备音频支持 | `mobileaudiosupport` |
 | 移动设备运营商 | `mobilecarrier` |
 | 移动设备颜色深度 | `mobilecolordepth` |
-| 移动设备 cookie 支持 | `mobilecookiesupport` |
+| 移动设备 Cookie 支持 | `mobilecookiesupport` |
 | 移动设备 | `mobiledevicename` |
 | 移动设备类型 | `mobiledevicetype` |
 | 移动设备电子邮件最大长度 | `mobileemaillength` |
@@ -72,7 +72,7 @@ ht-degree: 92%
 | 移动设备视频支持 | `mobilevideosupport` |
 | 监视器分辨率 | `monitorresolution` |
 | 操作系统 | `operatingsystem` |
-| 原始反向链接域名 | `referringdomainoriginal` |
+| 原始反向链接域 | `referringdomainoriginal` |
 | 页面 | `page` |
 | 页面未找到 | `pagesnotfound` |
 | 产品 | `product` |
@@ -84,12 +84,12 @@ ht-degree: 92%
 | SC-TnT | `tntbase` |
 | 搜索引擎 | `searchengine` |
 | 搜索关键词 | `searchenginekeyword` |
-| 搜索引擎 -自然 | `searchenginenatural` |
+| 搜索引擎 - 免费 | `searchenginenatural` |
 | 搜索引擎 - 付费 | `searchenginepaid` |
 | 搜索关键词 - 免费 | `searchenginenaturalkeyword` |
 | 搜索关键词 - 付费 | `searchenginepaidkeyword` |
 | 所有搜索页面排名 | `searchenginepagerank` |
-| Server | `server` |
+| 服务器 | `server` |
 | 单页面访问量 | `singlepagevisits` |
 | 网站区域 | `sitesections` |
 | 每次访问逗留时间 - 粒度 | `sitetime` |
@@ -127,7 +127,7 @@ ht-degree: 92%
 | 点击深度 | `hitdepth` |
 | 点击类型 | `hittype` |
 | 小时 | `daterangehour` |
-| 每天时间 | `timeparthourofday` |
+| 小时 | `timeparthourofday` |
 | 营销渠道详细信息 | `marketingchanneldetail` |
 | 分钟 | `daterangeminute` |
 | 移动设备书签最大长度 | `mobilebookmarklength` |
@@ -310,7 +310,7 @@ ht-degree: 92%
 
 ### Nielsen 集成
 
-For more information on how to implement this integration, see the [Nielsen Extension](https://exchange.adobe.com/experiencecloud.details.101361.html).
+有关如何实施此集成的更多信息，请参阅 [Nielsen 扩展](https://exchange.adobe.com/experiencecloud.details.101361.html)。
 
 | 维度名称（在 Analytics UI 中可见） | 维度 ID（用于 API 请求） |
 |--- |--- |
