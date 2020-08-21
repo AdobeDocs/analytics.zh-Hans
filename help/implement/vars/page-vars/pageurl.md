@@ -1,9 +1,9 @@
 ---
 title: pageUrl
 description: 覆盖网站上自动收集的页面 URL。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '299'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ AppMeasurement 会在每次点击时自动收集页面 URL。如果要覆盖由 
 
 >[!NOTE]
 >
-> 此变量不是 Analysis Workspace 中的可用维度。它只能在 Data Warehouse 和数据馈送中使用。如果要在 Analysis Workspace 中将页面 URL 用作维度，请考虑在每次点击时将 `pageURL` 变量传递到 eVar 中。
+>此变量不是 Analysis Workspace 中的可用维度。它只能在 Data Warehouse 和数据馈送中使用。如果要在 Analysis Workspace 中将页面 URL 用作维度，请考虑在每次点击时将 `pageURL` 变量传递到 eVar 中。
 
 有时 URL 的长度会大于 255 字节。AppMeasurement 对图像请求中 URL 的前 255 字节使用 `g` 查询字符串参数。如果 URL 的长度大于 255 字节，则 URL 的其余部分会存储在 `-g` 查询字符串参数中。URL 中的协议和查询字符串均包含在此变量中。
 
