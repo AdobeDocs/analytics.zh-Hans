@@ -1,11 +1,11 @@
 ---
 title: eVar
 description: 可在实施中使用的自定义变量。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 86%
 
 *此帮助页面介绍了如何实施 eVar。有关 eVar 如何用作维度的信息，请参阅组件用户指南中的[eVar](/help/components/dimensions/evar.md)。*
 
-eVar 是自定义变量，您可以根据需要随意使用。如果您有[解决方案设计文档](/help/implement/prepare/solution-design.md)，则大多数特定于您的组织的维度最终都会成为 eVar。默认情况下，eVar 会在其设置的点击之外继续存在。You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
+eVar 是自定义变量，您可以根据需要随意使用。如果您有[解决方案设计文档](/help/implement/prepare/solution-design.md)，则大多数特定于您的组织的维度最终都会成为 eVar。默认情况下，eVar 会在其设置的点击之外继续存在。您可以在报表包设置的[转换变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)下自定义其到期和分配情况。
 
-可用eVar的数量取决于您与Adobe的合同。 如果您与Adobe的合同支持，则最多可使用250个eVar。
+可用 eVar 的数量取决于您与 Adobe 签署的合同。如果您与 Adobe 签署的合同支持，则至多有 250 个 eVar 可供使用。
 
 ## 在报表包设置中设置 eVar
 
@@ -33,7 +33,7 @@ eVar 是自定义变量，您可以根据需要随意使用。如果您有[解�
 5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
 6. 找到 [!UICONTROL eVar] 部分。
 
-可将eVar设置为值或数据元素。 您还可以从其他 Analytics 变量复制值。
+您可以将 eVar 设置为一个值或一个数据元素。您还可以从其他 Analytics 变量复制值。
 
 ## AppMeasurement 和 Launch 自定义代码编辑器中的 s.eVar1 - s.eVar250
 
@@ -59,4 +59,4 @@ s.eVar1 = "+12.49";
 
 >[!IMPORTANT]
 >
-> 必须先在 Admin Console 中将 eVar 配置为“计数器”，然后才能使用计数器 eVar。请参阅管理员指南中的[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
+>必须先在 Admin Console 中将 eVar 配置为“计数器”，然后才能使用计数器 eVar。请参阅管理员指南中的[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
