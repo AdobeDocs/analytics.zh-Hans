@@ -4,11 +4,11 @@ subtopic: Marketing channels
 title: 管理营销渠道
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '789'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 86%
 以下是创建渠道的一些指示：
 
 * 通过列出所有渠道进行预先计划，以便将所有访客点击划分到正确的渠道。
-* Include channels for the categories of [Internal](/help/components/c-marketing-channels/c-rules.md) hits and [Direct](/help/components/c-marketing-channels/c-rules.md) hits.
-* 包括一个全能型“其他活动”渠道，在付费渠道之后和有机渠道之前放置。
+* 包括[内部](/help/components/c-marketing-channels/c-rules.md)点击和[直接](/help/components/c-marketing-channels/c-rules.md)点击类别的渠道。
+* 包括一个全能型“其他营销活动”渠道，放在付费渠道之后且有机渠道之前。
 
 
 ## 先决条件 {#prereqs}
@@ -46,7 +46,7 @@ ht-degree: 86%
 
 >[!NOTE]
 >
-> 您无法删除渠道。如果您不想使用某个渠道，您可以禁用或重命名该渠道并将其保存以供日后使用。
+>您无法删除渠道。如果您不想使用某个渠道，您可以禁用或重命名该渠道并将其保存以供日后使用。
 
 1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
 1. 在“[!UICONTROL 报表包管理器]”页面上，选择一个报表包。
@@ -70,7 +70,7 @@ ht-degree: 86%
 
 ## 应用渠道设置 {#mktg-channel-mgr}
 
-有各种设置可应用于“营销渠道管理器”页面 [!UICONTROL 上的每个渠道] 。
+可以将各种设置应用于[!UICONTROL 营销渠道管理员]页面上的每个渠道。
 
 | 字段 | 定义 |
 |--- |--- |
@@ -79,7 +79,7 @@ ht-degree: 86%
 | 覆盖最近联系渠道 | 您可以选择是否用所选渠道覆盖现有持续的最近联系渠道。如果选中此复选框，任何渠道（包括直接和内部）都将会覆盖现有的最近联系渠道。结果会导致对不该取得信用的渠道进行转换。例如，如果用户此前已经通过免费搜索渠道取得信用，则此选项可以确保直接渠道不会接收用于转换的信用。 |
 | 渠道划分 | 允许您使用该值划分渠道。创建[营销渠道分类时](/help/components/c-marketing-channels/classifictions-mchannel.md)，您可以添加可能的渠道划分（子渠道）。 |
 | 类型 | 指定用户访问您网站的途径。您可以选择在线或离线。对于通过搜索引擎或电子邮件促销活动来访的访客，使用“在线”渠道。“离线”渠道适用于通过报纸优惠券或杂志广告发现您网站的访客。离线渠道通常包括通过报表数据源导入的数据。请参阅[数据源](https://docs.adobe.com/content/help/zh-Hans/analytics/import/data-sources/datasrc-home.html)。请参阅[添加离线数据](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。 |
-| Color（颜色） | 仅报告和Analytics: 与此营销渠道关联的颜色。 此颜色代表营销渠道报表中的渠道。 |
+| 颜色 | 仅限 Reports &amp; Analytics：与此营销渠道关联的颜色。此颜色代表营销渠道报表中的渠道。 |
 
 ### 覆盖最佳实践
 
@@ -89,9 +89,9 @@ ht-degree: 86%
 
 ## 定义渠道规则
 
-先创建渠道和用于处理数据的基础规则，然后渠道和渠道数据才能显示在报表中。您还可以指定访客参与期 [限的持](/help/components/c-marketing-channels/visitor-engagement.md) 续时间。
+先创建渠道和用于处理数据的基础规则，然后渠道和渠道数据才能显示在报表中。您还可以指定希望[访客参与期](/help/components/c-marketing-channels/visitor-engagement.md)的持续时间。
 
-Adobe在自动设置过程中提供了多 [个预定义渠道](/help/components/c-marketing-channels/c-getting-started-mchannel.md) ，您可以根据自己的需要进行编辑。 此外，您可以修改此设置并在营销渠道处理规则 [中定义自定义规则](/help/components/c-marketing-channels/c-rules.md)。
+Adobe 在[自动设置](/help/components/c-marketing-channels/c-getting-started-mchannel.md)过程中提供了多个预定义渠道，您可以根据自己的需要进行编辑。此外，您还可以修改此设置，并在[营销渠道处理规则](/help/components/c-marketing-channels/c-rules.md)中定义自定义规则。
 
 >[!NOTE]
 >
