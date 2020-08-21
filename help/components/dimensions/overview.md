@@ -1,20 +1,20 @@
 ---
-title: Dimensions概述
+title: 维度概述
 description: 包含字符串值的变量。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '108'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Dimensions概述
+# 维度概述
 
-维是Adobe Analytics中的变量，通常包含字符串值。 常见维 [包括](page.md)Page [、Referring](referring-domain.md)domain [或](evar.md)eVar。 相反， [度量](../metrics/overview.md) 包含与维度相关的数字值。 基本报告根据数字值列（度量）显示字符串值行（维）。
+维度是 Adobe Analytics 中的变量，它通常包含字符串值。常见维度包括[页面](page.md)、[反向链接域](referring-domain.md)或 [eVar](evar.md)。相反，[量度](../metrics/overview.md)包含与维度相关的数字值。基本报告根据数值列（量度）显示字符串值的行（维度）。
 
-例如，如果将“页面”维度与“访问”量度相结合，您将获得一个显示最常访问的页面的排名报告：
+例如，如果将“页面”维度与“访问量”量度相结合，您将获得一个显示最常访问的页面的排名报告：
 
 | `Page` | `Visits` |
 | --- | --- |
@@ -22,4 +22,4 @@ ht-degree: 0%
 | `Product page` | `500` |
 | `Purchase page` | `100` |
 
-每个维表示站点的不同部件或小平面。 您可以将其中一个维度与一个或多个度量组合在一起，以创建所需的报表。
+每个维度表示网站的不同部分或方面。您可以将其中一个或多个维度与一个或多个量度组合在一起，以创建所需的报表。
