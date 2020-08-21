@@ -1,9 +1,9 @@
 ---
 title: purchaseID
 description: 根据唯一购买标识符删除重复点击。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '261'
 ht-degree: 100%
 
@@ -34,4 +34,4 @@ s.purchaseID = "ABC123";
 
 >[!NOTE]
 >
-> 请勿使用随机化函数生成购买 ID。Adobe 建议使用[数据层](../../prepare/data-layer.md)存储给定的购买 ID。
+>请勿使用随机化函数生成购买 ID。Adobe 建议使用[数据层](../../prepare/data-layer.md)存储给定的购买 ID。
