@@ -1,26 +1,26 @@
 ---
 title: prop
 description: 可在实施中使用的自定义变量。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
 # prop
 
-*此帮助页介绍如何实施prop。 For information on how props work as a dimension, see[prop](/help/components/dimensions/prop.md)in the Components user guide.*
+*此帮助页面介绍了如何实施 props。有关 prop 如何用作维度的信息，请参阅组件用户指南中的[prop](/help/components/dimensions/prop.md)。*
 
-Prop 是自定义变量，您可以根据需要随意使用。它们不会超越它们设定的冲击。
+Prop 是自定义变量，您可以根据需要随意使用。它们不会在设置的点击之外继续存在。
 
 >[!TIP]
 >
->Adobe recommends using [eVars](evar.md) in most cases. 在 Adobe Analytics 的早期版本中，prop 和 eVar 各有利弊。但是，Adobe 已改进 eVar，现在几乎可以满足 prop 的所有用例。
+>Adobe 建议在大多数情况下使用 [eVar](evar.md)。在 Adobe Analytics 的早期版本中，prop 和 eVar 各有利弊。但是，Adobe 已改进 eVar，现在几乎可以满足 prop 的所有用例。
 
-如果您有解决 [方案设计文档](/help/implement/prepare/solution-design.md)，则可以将这些自定义维度分配给特定于您的组织的值。 可用Prop的数量取决于您与Adobe的合同。 如果您与Adobe的合同支持，则最多可获得75个Prop。
+如果您有[解决方案设计文档](/help/implement/prepare/solution-design.md)，则可以将这些自定义维度分配给特定于贵组织的值。可用 prop 的数量取决于您与 Adobe 签署的合同。如果您与 Adobe 签署的合同支持，则至多有 75 个 prop 可供使用。
 
 ## Adobe Experience Platform Launch 中的 Prop
 
@@ -33,7 +33,7 @@ Prop 是自定义变量，您可以根据需要随意使用。它们不会超越
 5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
 6. 找到[!UICONTROL 属性]部分。
 
-您可以将prop设置为值或数据元素。 您还可以从其他 Analytics 变量复制值。
+您可以将 prop 设置为值或数据元素。您还可以从其他 Analytics 变量复制值。
 
 ## AppMeasurement 和 Launch 自定义代码编辑器中的 s.prop1 - s.prop75
 
@@ -53,7 +53,7 @@ s.prop1 = "Example custom value";
 
 >[!TIP]
 >
-> 实施中使用的常见分隔符为逗号 (`,`)、冒号 (`:`)、分号 (`;`) 或管道字符 (`|`)。您可以使用最适合您的实施的任何分隔符。
+>实施中使用的常见分隔符为逗号 (`,`)、冒号 (`:`)、分号 (`;`) 或管道字符 (`|`)。您可以使用最适合您的实施的任何分隔符。
 
 ### 设置列表属性
 
@@ -66,6 +66,6 @@ s.prop1 = "value1,value2,value3";
 
 >[!IMPORTANT]
 >
-> 列表属性仍受最大长度为 100 字节的限制。列表属性更容易达到此限制并被截断，因为它们可能会包含多个值。如果可能会达到此 100 字节限制，请考虑使用缩写或将值缩短。
+>列表属性仍受最大长度为 100 字节的限制。列表属性更容易达到此限制并被截断，因为它们可能会包含多个值。如果可能会达到此 100 字节限制，请考虑使用缩写或将值缩短。
 
 如果在列表属性中多次设置相同的值，则会在报表中删除重复值。Analysis Workspace 会计算出现某个值的点击次数，而不是计算某个值在数据中存在的次数。
