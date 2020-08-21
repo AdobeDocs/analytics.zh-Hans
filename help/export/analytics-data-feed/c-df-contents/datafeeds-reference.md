@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: ca9b77ebf8104a1937d87aba5021e2deeccd6f8b
 workflow-type: tm+mt
 source-wordcount: '3674'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 96%
 | `geo_region` | 点击来源的州/市/自治区或区域的名称（基于 IP）。Adobe 与 Digital Envoy 合作，以将 IP 地址匹配到州/市/自治区/区域。 | char(32) |
 | `geo_zip` | 点击来源的地区的邮政编码（基于 IP）。Adobe 与 Digital Envoy 合作，以将 IP 地址匹配到邮政编码。 | varchar(16) |
 | `hier1 - hier5` | 由层级变量使用。包含一个分隔的值列表。在“报表包设置”下方选择分隔符。 | varchar(255) |
-| `hit_source` | 表示点击的来源。点击源1、2和6将计费。 <br>1: 无时间戳2的标准图像 <br>请求： 带有时间戳3的标准图 <br>像请求： 带时间戳4的实时数据源 <br>上传： 未使用 <br>5: 通用数据源上 <br>传6: 完全处理数据源上 <br>传7: 事务ID数据源上 <br>传8: 不再使用； Adobe Advertising Cloud数据源的先前 <br>版本9: 不再使用； Adobe Social总 <br>结指标10: Audience Manager服务器端转发已使用 | tinyint，无符号 |
+| `hit_source` | 表示点击的来源。点击源1、2和6将计费。 <br>1:无时间戳2的标准图像 <br>请求：带有时间戳3的标准图 <br>像请求：带时间戳4的实时数据源 <br>上传：未使用 <br>5:通用数据源上 <br>传6:完全处理数据源上 <br>传7:事务ID数据源上 <br>传8:不再使用；Adobe Advertising Cloud数据源的先前 <br>版本9:不再使用；Adobe Social总 <br>结指标10:Audience Manager服务器端转发已使用 | tinyint，无符号 |
 | `hit_time_gmt` | Adobe 数据收集服务器收到点击的时间戳，基于 Unix 时间。 | int |
 | `hitid_high` | 与 hitid_low 结合使用，用来唯一标识点击。 | bigint，无符号 |
 | `hitid_low` | 与 hitid_high 结合使用，用来唯一标识点击。 | bigint，无符号 |
@@ -263,11 +263,11 @@ ht-degree: 96%
 | `videoshow` | 视频表演 | varchar(255) |
 | `videoshowtype` | 视频表演类型 | varchar(255) |
 | `videostreamtype` | 视频流类型 | varchar(255) |
-| `visid_high` | 与visid_low结合使用，以唯一标识访客。 | bigint，无符号 |
-| `visid_low` | 与visid_high结合使用，以唯一标识访客。 | bigint，无符号 |
+| `visid_high` | 与 visid_low 结合使用，用来唯一标识访客。 | bigint，无符号 |
+| `visid_low` | 与 visid_high 结合使用，用来唯一标识访客。 | bigint，无符号 |
 | `visid_new` | 用于表示点击是否包含新生成的访客 ID 的标记。 | char(1) |
 | `visid_timestamp` | 如果访客 ID 是新生成的，则会提供用于表示访客 ID 生成时间的时间戳（基于 Unix 时间）。 | int |
-| `visid_type` | 非外部用途； 由Adobe内部用于处理优化。 表示用于标识访客的方法的数字ID。<br>0: 自定义访客ID或未知／不适用<br>1: IP和用户代理回 <br>退2: HTTP移动订户标 <br>头3: 旧版cookie值(s_vi) <br>4: 回退cookie值(s_fid) <br>5: 身份服务 | tinyint，无符号 |
+| `visid_type` | 不能用于外部用途；Adobe 内部用于处理优化。数字 ID，表示用于标识访客的方法。<br>0：自定义访客 ID 或未知/不适用 <br>1：IP 和用户代理回退 <br>2：HTTP Mobile 订阅者标头 <br>3：旧版 Cookie 值 (s_vi) <br>4：回退 Cookie 值 (s_fid) <br>5：Identity 服务 | tinyint，无符号 |
 | `visit_keywords` | 在“搜索关键字”维度中使用的变量。此列使用非标准字符限制来适应 Adobe 使用的后端逻辑。 | varchar(244) |
 | `visit_num` | 在“访问次数”维度中使用的变量。起始值为 1，随后每个访客每启动一次新访问，该值便会递增。 | int，无符号 |
 | `visit_page_num` | 在“点击深度”维度中使用的变量。用户每生成一次点击，该变量的值便会增加 1。每次访问后重置。 | int，无符号 |
