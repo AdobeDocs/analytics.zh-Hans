@@ -1,8 +1,11 @@
 ---
 title: Adobe Analytics 和浏览器 Cookie
 description: 了解 Adobe Analytics 处理如何浏览器 Cookie。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3566960f546d847ed4f6ca8ecbb9c759460f4fb0
+workflow-type: ht
+source-wordcount: '2286'
+ht-degree: 100%
 
 ---
 
@@ -138,7 +141,7 @@ Adobe 建议客户在对数据收集进行任何更改之前，首先在自己�
 
 ## 我的访客最常使用哪些浏览器？
 
-如果您有兴趣进一步了解访客使用的浏览器，可以使用 Analytics 的[浏览器维度](https://docs.adobe.com/content/help/zh-Hans/analytics/components/variables/dimensions-reports/reports-browsers.html)来确定哪些浏览器最常用于您的网站。您还可以使用 Analytics 维度按地理区域查看最常使用的浏览器。有关更多信息，请参阅[地域划分](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-geosegmentation.html)。
+如果您有兴趣进一步了解访客使用的浏览器，可以使用 Analytics 的[浏览器维度](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-browsers.html)来确定哪些浏览器最常用于您的网站。您还可以使用 Analytics 维度按地理区域查看最常使用的浏览器。有关更多信息，请参阅[地域划分](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-geosegmentation.html)。
 
 根据[统计数据](https://gs.statcounter.com/browser-market-share/all)显示，2019 年底各浏览器的全球市场份额如下：
 
