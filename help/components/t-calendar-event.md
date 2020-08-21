@@ -3,9 +3,9 @@ description: 添加日历事件和管理共享事件的步骤。
 title: 日历事件
 topic: Reports and analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
 ht-degree: 100%
 
@@ -35,6 +35,7 @@ ht-degree: 100%
    1. 单击&#x200B;**[!UICONTROL 提交至用户]**。
    1. 单击&#x200B;**[!UICONTROL 全选]**&#x200B;或选中一个或多个用户名旁边的复选框。
    1. 单击&#x200B;**[!UICONTROL 保存]**。
+
    这使日历事件更加实用。分析人员现在能够在其用户报表上添加一个覆盖图，以便提供更多上下文信息。
 1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 日历事件]**。
 1. 在&#x200B;**[!UICONTROL 共享的日历事件]**&#x200B;下方，指定以下选项之一：
