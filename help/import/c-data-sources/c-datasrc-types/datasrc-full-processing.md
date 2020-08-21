@@ -4,11 +4,11 @@ subtopic: Data sources
 title: 完全处理
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->Adobe建议客户使 [用批量数据插入API(BDIA](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) )而不是完全处理数据源。 将来将弃用完全处理数据源。
+>Adobe 建议客户使用[批量数据插入 API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)，而不是完全处理数据源。未来将弃用完全处理数据源。
 
 数据源在处理作为标准服务器调用的数据时，支持以下变量（普通 > 完全处理）。
 
@@ -174,7 +174,7 @@ ht-degree: 93%
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>您的网站所支持的字符集。例如，UTF-8、ISO-8859-1 等。 </p> <p>请参阅<a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >多字节字符集</a>（国际化）白皮书，以了解完整列表。 </p> </td> 
+   <td colname="col2"> <p>您的网站所支持的字符集。例如，UTF-8、ISO-8859-1 等。 </p> <p>请参阅<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >多字节字符集</a>（国际化）白皮书，以了解完整列表。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
