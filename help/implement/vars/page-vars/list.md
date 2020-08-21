@@ -1,9 +1,9 @@
 ---
 title: list
 description: 在同一点击中保留多个值的自定义变量。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 列表变量存储每个访客最近的 250 个值。如果给定访客的唯一值超过 250 个，则最早的值不会归属于量度。
+>列表变量存储每个访客最近的 250 个值。如果给定访客的唯一值超过 250 个，则最早的值不会归属于量度。
 
 ## 在报表包设置中设置列表变量
 
@@ -39,7 +39,7 @@ s.list1 = "Example value 1,Example value 2,Example value 3";
 
 >[!TIP]
 >
-> 如果在同一点击中设置重复值，Adobe 会删除这些值的所有重复实例。例如，如果设置 `s.list1 = "Example,Example";`，则报表中会计入一个实例。
+>如果在同一点击中设置重复值，Adobe 会删除这些值的所有重复实例。例如，如果设置 `s.list1 = "Example,Example";`，则报表中会计入一个实例。
 
 ## 比较列表属性与列表变量
 
