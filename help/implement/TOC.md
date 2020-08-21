@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 98%
       + [contextData](vars/page-vars/contextdata.md)
       + [动态变量](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
-      + [eVar（销售）](vars/page-vars/evar-merchandising.md)
+      + [eVar（推销）](vars/page-vars/evar-merchandising.md)
       + events {#events}
          + [事件概述](vars/page-vars/events/events-overview.md)
          + [购买事件](vars/page-vars/events/event-purchase.md)
@@ -204,4 +204,4 @@ ht-degree: 98%
 + [常见问题解答](faq.md)
 + 在 Analytics 中使用 XDM 数据 {#aep-edge}
    + [使用 AEP Web SDK](aep-edge/xdmoverview.md)
-   + [手动将XDM数据映射到Analytics](aep-edge/xdm-manual.md)
+   + [手动将 XDM 数据映射到 Analytics](aep-edge/xdm-manual.md)
