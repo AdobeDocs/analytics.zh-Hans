@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 2fd6e3b561d02bdbdd77b0be982614e765c870e2
 workflow-type: tm+mt
 source-wordcount: '676'
-ht-degree: 80%
+ht-degree: 87%
 
 ---
 
@@ -39,17 +39,17 @@ ht-degree: 80%
 `s.events` 变量是一个字符串，其中包含要包含在点击中的以逗号分隔的事件列表。此变量没有字节限制，因此不会被截断。有效的值包括：
 
 * `event1` - `event1000`：自定义事件，根据需要进行设置。在贵组织的[解决方案设计文档](../../../prepare/solution-design.md)中记录如何使用每个事件。可用事件的数量取决于贵组织的 Analytics 合同。大多数使用非传统合同的组织具有 1000 个可用的自定义事件。如果您不确定有多少自定义事件可供使用，请与贵组织的客户经理联系。
-* `purchase`: 将“订 [单”度量](/help/components/metrics/orders.md) 增加1，并采用变量中设置 `products` 的值来计 [算“单位](/help/components/metrics/units.md) ”和“收 [入”](/help/components/metrics/revenue.md)。 有关更多信息，请参阅[购买事件](event-purchase.md)。
-* `prodView`: 增加“ [产品视图](/help/components/metrics/product-views.md) ”量度。
-* `scOpen`: 增加“ [购物车”](/help/components/metrics/carts.md) 量度。
-* `scAdd`: 增加“ [购物车加货”](/help/components/metrics/cart-additions.md) 指标。
-* `scRemove`: 增加“ [购物车删除”](/help/components/metrics/cart-removals.md) 量度。
-* `scView`: 增加“ [购物车视图](/help/components/metrics/cart-views.md) ”量度。
-* `scCheckout`: 增加“ [结帐”](/help/components/metrics/checkouts.md) 量度。
+* `purchase`：将[“订单”](/help/components/metrics/orders.md)量度以 1 为单位递增，并采用 `products` 变量中设置的值来计算[“件数”](/help/components/metrics/units.md)和[“收入”](/help/components/metrics/revenue.md)。有关更多信息，请参阅[购买事件](event-purchase.md)。
+* `prodView`：增加[“产品查看次数”](/help/components/metrics/product-views.md)量度。
+* `scOpen`：增加[“购物车”](/help/components/metrics/carts.md)量度。
+* `scAdd`：增加[“购物车加货”](/help/components/metrics/cart-additions.md)量度。
+* `scRemove`：增加[“购物车减货”](/help/components/metrics/cart-removals.md)量度。
+* `scView`：增加[“购物车查看次数”](/help/components/metrics/cart-views.md)量度。
+* `scCheckout`：增加[“结帐”](/help/components/metrics/checkouts.md)量度。
 
 >[!NOTE]
 >
-> 此变量区分大小写。请避免错误地将事件值的首字母大写，以确保进行准确的数据收集。
+>此变量区分大小写。请避免错误地将事件值的首字母大写，以确保进行准确的数据收集。
 
 ```js
 // Set the events variable to a single value
@@ -73,7 +73,7 @@ s.events = "event1=2,event2";
 
 >[!NOTE]
 >
-> 计数器事件不支持货币或小数值。请将货币事件用于货币，或将数值事件用于小数值。
+>计数器事件不支持货币或小数值。请将货币事件用于货币，或将数值事件用于小数值。
 
 ### 使用货币事件
 
@@ -94,7 +94,7 @@ s.products = "Example category;Example product;1;0;event1=9.99";
 
 >[!NOTE]
 >
-> 如果同时在 `events` 变量和 `products` 变量中设置货币值，则会使用 `events` 中的货币值。避免同时在 `events` 变量和 `products` 变量中设置货币值。
+>如果同时在 `events` 变量和 `products` 变量中设置货币值，则会使用 `events` 中的货币值。避免同时在 `events` 变量和 `products` 变量中设置货币值。
 
 ### 使用数值事件
 
@@ -113,4 +113,4 @@ s.products = "Example category;Example product;1;0;event1=4.5";
 
 >[!NOTE]
 >
-> 如果同时在 `events` 变量和 `products` 变量中设置数值，则会使用 `events` 中的数值。避免同时在 `events` 变量和 `products` 变量中设置数值。
+>如果同时在 `events` 变量和 `products` 变量中设置数值，则会使用 `events` 中的数值。避免同时在 `events` 变量和 `products` 变量中设置数值。
