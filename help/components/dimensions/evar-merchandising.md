@@ -1,56 +1,56 @@
 ---
-title: eVar（销售）
-description: 与产品维关联的自定义变量。
+title: eVar（推销）
+description: 与产品维度关联的自定义变量。
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 25%
+ht-degree: 95%
 
 ---
 
 
-# eVar（销售）
+# eVar（推销）
 
-*本帮助页介绍销售eVar如何作为维度工作。 For information on how to implement merchandising eVars, see[eVars](/help/implement/vars/page-vars/evar.md)in the Implement user guide.*
+*此帮助页介绍推销 eVar 如何作为维度使用。有关如何实施推销 eVar 的信息，请参阅实施用户指南中的[eVar](/help/implement/vars/page-vars/evar.md)。*
 
 测量外部促销活动或外部搜索术语的成功程度时，通常需要一个单独的值来对发生的所有成功事件接收信用。例如，如果某个客户单击电子邮件促销活动中的链接访问您的网站，那么该客户因此进行的所有购买都将计入此促销活动中。
 
-当客户查找多个项目时，由内部搜索或类别浏览驱动的事件会如何？ For example, a customer searches your site for `"goggles"`, then adds a pair to their cart:
+当客户查找多个项时，因内部搜索或按类别浏览所促成的事件又该如何呢？例如，某个客户在您的站点中搜索 `"goggles"`，并将其加入购物车中：
 
 ![护目镜示例](assets/merch-example-goggles.png)
 
-Before checkout, the customer searches for `"winter coat"`, then adds a down jacket to the to their cart:
+在结帐之前，客户又搜索 `"winter coat"`，并将一件羽绒服加入购物车内：
 
 ![外套示例](assets/merch-example-coat.png)
 
-当访客完成此购买时，您将进行内部搜索 `"winter coat"` 以计入购买一对护目镜（假定eVar使用默认的“最近”分配）。 Good for `"winter coat"`, but bad for marketing decisions:
+当访客完成此次购买时，您将进行内部搜索 `"winter coat"`，以计入购买一对护目镜（假设 eVar 使用默认的“最新”分配）。虽然这样对 `"winter coat"` 关键字不错，但不利于做出营销决策：
 
 | 内部搜索词 | 收入 |
 |---|---|
 | 冬衣 | $157 |
 
-## 促销变量如何解决此问题
+## 推销变量如何解决此问题
 
-销售eVar允许您在成功事件发生时将eVar的当前值分配给产品。 此值将始终与该产品绑定，即使这个特定的 eVar 以后设置了一个或多个新的值也不例外。
+推销 eVar 允许您在成功事件发生时将 eVar 的当前值分配给某个产品。此值将始终与该产品绑定，即使这个特定的 eVar 以后设置了一个或多个新的值也不例外。
 
-If merchandising is enabled for the eVar in the previous example, the search term `"goggles"` is tied to the snow goggles, and the search term `"winter coat"` is tied to the down jacket. 销售电子变量按产品层分配收入，因此每个术语都会收到与术语关联的产品的收入金额的贷记：
+如果前一示例中 eVar 启用了推销，则搜索术语 `"goggles"` 将与“雪地护目镜”绑定，而搜索术语 `"winter coat"` 将与“羽绒服”绑定。推销 eVar 会在产品级别分配收入，所以每个术语都会收到与其关联产品的收入额信用：
 
 | 内部搜索词 | 收入 |
 |---|---|
 | 冬衣 | $119 |
 | 护目镜 | $38 |
 
-有关实 [施说明](/help/implement/vars/page-vars/evar-merchandising.md) ，请参阅销售eVar。
+有关实施说明，请参阅[推销 eVar](/help/implement/vars/page-vars/evar-merchandising.md)。
 
-## 有关促销变量的实例
+## 有关推销变量的实例
 
-不建 [议](../metrics/instances.md) “实例”量度用于推销变量。
+不建议将[实例](../metrics/instances.md)量度用于推销变量。
 
-* 对于使用产品语法的销售变量，实例根本不会增加。
-* 对于使用转换变量语法的推销变量，每次设置eVar时都会计算实例。 但是，它属于维项，除 `"None"` 非同一次点击发生以下所有情况：
-   * 销售eVar设置有值。
-   * 变 `products` 量用值定义。
+* 对于使用产品语法的推销变量，实例根本不会增加。
+* 对于使用转化变量语法的推销变量，每次设置 eVar 时都会计算实例。However, it attributes to the dimension item `"None"` unless all of the following happen on the same hit:
+   * 为推销 eVar 设置一个值。
+   * 使用一个值定义了 `products` 变量。
    * 已设置捆绑事件。
 
 ```js
@@ -62,4 +62,4 @@ s.eVar1 = "Tower defense";
 s.products = "Games;Wizard tower;;;;eVar2=Tower defense";
 ```
 
-由于转换变量语法的大多数用例要求eVar和products变量在不同的点击量上，因此使用“实例”量度是不现实的。
+由于转化变量语法的大多数用例需要不同点击上的 eVar 和产品变量，因此，使用“实例”量度是不现实的。
