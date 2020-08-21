@@ -3,11 +3,11 @@ description: 区段生成器中创建的所有区段并非都与 Data Warehouse 
 title: Data Warehouse 区段兼容性
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fb0833530a9ec67f01226b986d124ab1e441d7e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '349'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 96%
    <td> 受支持 </td> 
   </tr>
   <tr>
-    <td><b>“等于任何”和“不等于任何”运算符</b></td>
+    <td><b>“等于以下任意一项”运算符和“不等于任一项”运算符</b></td>
     <td>受支持</td>
     <td>不受支持</td>
   </tr>
