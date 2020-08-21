@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 确保您可熟练地在[分类](/help/components/classifications/c-classifications.md)中创建分类。
+>确保您可熟练地在[分类](/help/components/classifications/c-classifications.md)中创建分类。
 
 >[!IMPORTANT]
 >
