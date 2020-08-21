@@ -1,38 +1,38 @@
 ---
-description: 解释Adobe Analytics的全新连续功能发布战略
-title: Adobe Analytics功能版本
-translation-type: tm+mt
+description: 介绍 Adobe Analytics 的全新连续功能发布战略
+title: Adobe Analytics 功能发布
+translation-type: ht
 source-git-commit: dcca8559c9e730c9e04981d69068786878062561
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Analytics功能版本
+# Adobe Analytics 功能发布
 
-过去，Adobe Analytics功能的发布遵循固定的月度计划。 从2020年4月开始，Adobe Analytics转向一种连续的投放模型，该模型允许采用更具可扩展性、分阶段的功能部署方法。
+以前，Adobe Analytics 功能发布之后会有为期一个月的固定工作安排。从 2020 年 4 月开始，Adobe Analytics 采用连续交付模型，该模型允许采用更具扩展性的分阶段方法来部署功能。
 
 ## 发布策略
 
-[!UICONTROL 分析工作] 区使用功能标志（也称为“切换”）控制新功能的可见性，允许在完全发布之前进行受控缩放测试。 此发布策略包括以下阶段：
+[!UICONTROL Analysis Workspace] 使用功能标志（又称为“切换”）控制新功能的可见性，从而允许在完全发布之前进行受控规模测试。此发布策略包括以下阶段：
 
-* **发布到生产(RTP)**: 代码发布到生产环境，并在分析工作区中关闭功能可见性。 **注意**: 在RTP中，该功能可在2.0 Analytics API中使用。
+* **发布到生产 (RTP)**：将代码发布到生产，并在 Analysis Workspace 中关闭功能可见性。**注意**：在 RTP 阶段，可能在 2.0 Analytics API 中提供此功能。
 
-* **有限测试**: 分阶段发布从Adobe内部用户的测试开始。 然后，该版本在两个月内从0%扩展到100%的可用性。 分阶段转出在Experience Cloud组织级别进行，因此组织中的所有授权用户都可获得相同的体验。
+* **有限测试**：从 Adobe 内部用户测试开始的分阶段发布。然后，此发布在两个月内从可用性 0% 扩展到 100%。由于分阶段推出在 Experience Cloud 组织级别进行，因此组织中所有授权用户都可以获得相同的体验。
 
-* **一般可用性(GA)**: 该功能可供100%的授权Experience Cloud组织使用，且功能发布已完成。
+* **正式发布 (GA)**：此功能对 100% 授权的 Experience Cloud 组织可用，且功能发布已完成。
 
-在每个功能发布时，从RTP到GA的时间线可能会有所不同。 目标是缩短发行时间，这样在发行开始(RTP)的2个月内，功能将是GA。
+对于每个功能发布，从 RTP 到 GA 的时间表可能会有所不同。目标是缩短发布时间，以便能够在发布开始 (RTP) 后的 2 个月内，功能将达到 GA 阶段。
 
 ## 优点
 
-分阶段发布使Adobe能够更好地扩展软件部署流程，并确保功能在全面可用之前得到全面强化。 它还允许功能一经发布即可发布，而不是附在固定的月度发布窗口中。
+分阶段发布使 Adobe 能够更好地扩展软件部署过程，并确保功能在正式发布之前得到全面强化。它还允许功能一经可用即可发布，而不用遵循固定的月度发布时间期限。
 
 ## 常见问题解答
 
 | 问题 | 回答 |
 |---|---|
-| 我是否可以请求提前访问某个功能？ | 不可以。不会授予提前访问权限。<br>如果您想要测试早期的Analytics概念，我们建议您尝试 [使用Adobe Analytics](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/tech-previews/overview.html) Labs来提供有关我们行业领先创新的反馈。 |
-| 此发布策略是否会影响我访问功能？ | 不可以。一旦某项功能达到GA，您便有权访问该功能（如果该功能包含在您的Analytics包中）。<br>您可以在“管理员”>“视图设置”>“功 [!UICONTROL 能访问级] 别”下 [，以](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/feature-access-levels.html)便公司Analytics包的详细信息。 |
+| 我是否可以请求提前访问某个功能？ | 不会。不会授予提前访问权限。<br>如果您想要提前测试 Analytics 概念，我们建议您试用 [Adobe Analytics 实验室](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/tech-previews/overview.html)，就我们行业领先的创新技术提供反馈。 |
+| 此发布策略是否会影响我对功能的访问？ | 不会。一旦某个功能达到 GA 阶段，您将有权访问该功能，前提是它包含在您的 Analytics 程序包中。<br>您可以在[!UICONTROL 管理员] > [!UICONTROL 公司设置] > [功能访问级别](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/company-settings/feature-access-levels.html)下查看您的 Analytics 程序包的详细信息。 |
