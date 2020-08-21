@@ -5,14 +5,14 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 66%
+ht-degree: 85%
 
 ---
 
 
 # 常见问题解答
 
-**如何将历史数据从第三方平台迁移到AdobeAnalytics?**
+**如何将历史数据从第三方平台迁移到 Adobe Analytics？**
 
 每个 Analytics 平台都有不同的数据收集、处理和存储方式。Adobe 建议建立明确的截止日期，以便开始在 Adobe Analytics 中收集和使用数据，而不是迁移历史数据。经常使用的截止日期是财政年度的开始、日历年的开始或日历月的开始。如果用户希望查看历史数据，则可登录第三方平台以获取任何特定的历史报告需求。
 
@@ -20,15 +20,15 @@ ht-degree: 66%
 
 Adobe 不建议迁移历史数据，因为这是一个复杂的过程，而且对组织而方，成本过于高昂。访客身份识别也无法无缝地迁移到 Adobe，因为这两个平台中的访客信息以不同的格式存储在不同的 Cookie 中。
 
-**我习惯了使用许多报表中的分段下拉菜单。How can I recreate that in[!UICONTROL Analysis Workspace]?**
+**我习惯了使用许多报表中的分段下拉菜单。如何在[!UICONTROL Analysis Workspace]中重新创建分段下拉菜单？**
 
-Dropdown filters are a flexible and robust feature in [!UICONTROL Analysis Workspace] that allows a segmentation dropdown. 在工作区项目中时：
+[!UICONTROL Analysis Workspace] 中的下拉过滤器是一个灵活而强大的功能，可用来创建分段下拉菜单。在工作区项目中时：
 
 1. 按住 ctrl 并单击 (Windows) 或按住 cmd 并单击 (Mac) 要包含在下拉菜单中的组件。不仅仅限于区段；任何组件都可以包含在下拉过渡器中。
 2. 将组件组拖动到标有“在此处放置区段”的工作区区域。放手前，按住 Shift 键。
 
-Users accessing this [!UICONTROL Workspace] project can now use this dropdown to apply segments or other components to the project. See [Panels Overview](/help/analyze/analysis-workspace/c-panels/panels.md) in the Adobe Analytics Tools guide for more information.
+访问此[!UICONTROL 工作区]项目的用户现在可以使用此下拉菜单将区段或其他组件应用到该项目。有关更多信息，请参阅 Adobe Analytics 工具指南中的[面板概述](/help/analyze/analysis-workspace/c-panels/panels.md)。
 
 **我习惯单击维度项目以查看追溯。 如何在 Analysis Workspace 中重现这种轻松的工作流？**
 
-Analysis Workspace中的 [!UICONTROL 维] 项目也具有简单的细分工作流。 使用右键（而非左键）访问它。 Right-click on a dimension item, click **[!UICONTROL Breakdown], then select the desired component. 对每个值使用ctrl+单击(Windows)或cmd+单击(Mac)，可将同一细分应用于多个维项目。
+Dimension items in [!UICONTROL Analysis Workspace] also have an easy breakdown workflow. 使用右键单击（而不是左键单击）可访问该工作流。Right-click on a dimension item, click **[!UICONTROL Breakdown], then select the desired component. 对每个值使用ctrl+单击(Windows)或cmd+单击(Mac)，可将同一细分应用于多个维项目。
