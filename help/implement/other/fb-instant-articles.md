@@ -1,9 +1,9 @@
 ---
 title: 使用 Facebook Instant Articles 实施
 description: 在 Facebook Instant Articles 页面上实施 Adobe Analytics。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
 ht-degree: 100%
 
@@ -88,7 +88,7 @@ Adobe 建议将您的 `stats.html` 页面与最新版本的 `AppMeasurement.js`�
 
 >[!NOTE]
 >
-> 由于 iFrame 的性质，不会自动跟踪“反向链接”维度。如果要跟踪此维度，请确保将此维度包含到查询字符串中。
+>由于 iFrame 的性质，不会自动跟踪“反向链接”维度。如果要跟踪此维度，请确保将此维度包含到查询字符串中。
 
 ## Facebook Instant Articles 和隐私政策
 
