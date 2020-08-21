@@ -3,6 +3,9 @@ title: 实施 Adobe Analytics
 description: 在您的网站、属性或应用程序上实施 Adobe Analytics。
 translation-type: ht
 source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
+workflow-type: ht
+source-wordcount: '382'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +24,7 @@ Adobe 需要在您的网站或应用程序上实施相应代码，才能将数�
 5. Adobe 服务器将收集的数据存储到一个&#x200B;*报表包*&#x200B;中。
 6. 报表包数据会填充您可以在 Web 浏览器中访问的报表。
 
-   JavaScript 代码执行非常迅速，不会显著影响页面加载时间。通过这种方法，您可以统计访客点击 **[!UICONTROL Reload]** 或 **[!UICONTROL Back]** 以抵达某个页面时所显示的页面数量，因为即使页面是从缓存中获取，JavaScript 仍可以运行。
+   JavaScript 代码执行非常迅速，不会显著影响页面加载时间。通过这种方法，您可以统计访客点击&#x200B;**[!UICONTROL 重新加载]**&#x200B;或&#x200B;**[!UICONTROL 后退]**&#x200B;以抵达某个页面时所显示的页面数量，因为即使页面是从缓存中获取，JavaScript 仍可以运行。
 
 Adobe Analytics 需要在您的网站、移动应用程序或其他应用程序中实施相应代码，才能将数据发送到数据收集服务器。根据平台和贵组织的需求，可以通过多种方法来实施相应代码。
 
