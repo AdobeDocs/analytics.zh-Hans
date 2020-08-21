@@ -2,9 +2,9 @@
 description: 报表时间处理是一种虚拟报表包设置，它允许以一种非破坏性的追溯方式来处理数据。
 title: 报表时间处理
 uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1426'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 报表时间处理仅可用于 Analysis Workspace。
+>报表时间处理仅可用于 Analysis Workspace。
 
 报表时间处理仅影响虚拟报表包中的数据，而不会影响基础报表包中的任何数据或数据收集。通过下图可以最好地理解报表时间处理与传统 Analytics 处理之间的区别：
 
