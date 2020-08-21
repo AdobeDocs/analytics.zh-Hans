@@ -1,9 +1,9 @@
 ---
 title: 将 Launch 数据元素映射到 Analytics 变量
 description: 将数据元素分配给 Analytics 变量，以便在 Analysis Workspace 中可以将这些变量用作维度。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
-> 可以在同一变量中将数据元素连接在一起。例如，如果您有“Hostname”数据元素和“Pathname”数据元素，则可以使用 `%Hostname%%Pathname%` 将这两个元素组合到单个变量中。
+>可以在同一变量中将数据元素连接在一起。例如，如果您有“Hostname”数据元素和“Pathname”数据元素，则可以使用 `%Hostname%%Pathname%` 将这两个元素组合到单个变量中。
 
 ## 后续步骤
 
