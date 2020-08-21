@@ -1,9 +1,9 @@
 ---
 title: abort
 description: abort 变量是一个布尔值，用于阻止将点击发送到 Adobe 数据收集服务器。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '183'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ s.abort = true;
 
 >[!NOTE]
 >
-> `abort` 变量在每次跟踪调用后将重置为 `false`。如果需要中止同一页面上的后续跟踪调用，请再次将 `abort` 设置为 `true`。
+>`abort` 变量在每次跟踪调用后将重置为 `false`。如果需要中止同一页面上的后续跟踪调用，请再次将 `abort` 设置为 `true`。
 
 ## 示例
 
