@@ -1,9 +1,9 @@
 ---
 title: Data Warehouse 中的组件支持
 description: 了解 Data Warehouse 中有哪些其他维度和量度可用，以及哪些维度和量度不受支持。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
 ht-degree: 100%
 
@@ -63,7 +63,7 @@ Data Warehouse 不支持某些维度和量度。
 * 所有搜索页面排名
 * 层次结构变量
 * 点击类型
-* 找不到页面（可用作维度；不支持分段）
+* 页面未找到（可用作维度；不支持分段）
 * 付费搜索
 * 单页面访问量
 * 跟踪选择退出的原因
