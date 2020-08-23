@@ -2,10 +2,10 @@
 title: 每次访问的平均页面查看次数
 description: 给定维度项目在访问中的平均显示次数。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 53%
+source-wordcount: '212'
+ht-degree: 46%
 
 ---
 
@@ -14,7 +14,9 @@ ht-degree: 53%
 
 “每次访问的平均页面查看次数”维度显示针对所需维度平均查看页面的次数。对于基于时间的维度，您可以查看访问中一段时间内平均页面查看次数的趋势。当您想要了解访问中维度项目的显示频率时，此指标非常有用。
 
->[提示]：将此量度与其他量度（例如[访问次数](visits.md)）结合使用，可获得更优质的洞察信息。如果您单独使用此度量，则您会获得包含每次访问异常页面视图的维度项目，这通常不有价值。
+>[!TIP]
+>
+>Use this metric alongside another metric (such as [Visits](visits.md)) to obtain better insights. 如果您单独使用此度量，则您会获得包含每次访问异常页面视图的维度项目，这通常不有价值。
 
 ## 如何计算此量度
 
