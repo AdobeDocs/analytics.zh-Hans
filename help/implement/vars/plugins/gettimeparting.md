@@ -1,11 +1,11 @@
 ---
 title: getTimeParting
 description: 测量特定操作发生的时间。
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '822'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+workflow-type: tm+mt
+source-wordcount: '821'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,9 @@ ht-degree: 100%
 
 Analysis Workspace 提供了与此插件类似的开箱即用维度，只是维度的格式略有不同。有关更多信息，请参阅 Analytics 用户指南中的[时间划分维度](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md)。有些组织发现 Analysis Workspace 提供的开箱即用维度足以满足其需求。
 
->[重要信息] 此插件的 4.0 及更高版本与以往版本有显著差异。Adobe 强烈建议您“从头开始”实施此插件。引用了版本 4.0 之前插件的代码与此插件的当前版本不兼容。
+>[!IMPORTANT]
+>
+>此插件的4.0+版与先前版本有显着不同。 Adobe 强烈建议您“从头开始”实施此插件。引用了版本 4.0 之前插件的代码与此插件的当前版本不兼容。
 
 ## 使用 Adobe Experience Platform Launch 扩展安装此插件
 
