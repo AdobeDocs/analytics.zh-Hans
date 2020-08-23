@@ -2,10 +2,10 @@
 title: 平均页面深度
 description: 维度一般存在于多少个页面上。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 59%
+source-wordcount: '369'
+ht-degree: 55%
 
 ---
 
@@ -14,7 +14,9 @@ ht-degree: 59%
 
 “平均页面深度”度量显示维度项目在给定访问中的距离。 例如，您的主页通常显示的平均页面深度比购买确认页面浅，后者通常在访问时会更深。当您想要了解给定维度项目中平均有多少页时，此度量非常有用。 如果页面平均深度较浅，则可以使用此信息来优化特定页面，以吸引新访客。
 
->[提示]：将此量度与其他量度（例如[访问次数](visits.md)）结合使用，可获得更优质的洞察信息。如果您自己使用此度量，您会得到包含异常页面深度的维度项目，这通常不值钱。
+>[!TIP]
+>
+>Use this metric alongside another metric (such as [Visits](visits.md)) to obtain better insights. 如果您自己使用此度量，您会得到包含异常页面深度的维度项目，这通常不值钱。
 
 ## 如何计算此量度
 
