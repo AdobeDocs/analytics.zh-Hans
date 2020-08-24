@@ -3,9 +3,9 @@ description: 可对虚拟报表包进行管理以在 Analysis Workspace 中包�
 title: 虚拟报表包组件管理
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: 4c5dd32b51693d2c0eccd4365cae1ac5a29e6d34
+source-git-commit: 780d1d70c1bef907ef3dc1a942eaf399c9d3ba48
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '422'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->无论是管理员还是非管理员，都可以在策划的工作区项目和策划的虚拟报表包 (VRS) 中，查看发生更改的组件。以前，单击&#x200B;**[!UICONTROL 显示所有组件]**&#x200B;后，大家只能看到非策划的组件。[策划体验经过更新后](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html)，在查看组件方面提供了更加精细化的控制。
+>无论是管理员还是非管理员，都可以在策划的工作区项目和策划的虚拟报表包 (VRS) 中，查看发生更改的组件。以前，单击&#x200B;**[!UICONTROL 显示所有组件]**&#x200B;后，大家只能看到非策划的组件。[策划体验经过更新后](/help/analyze/analysis-workspace/curate-share/curate.md)，在查看组件方面提供了更加精细化的控制。
 
 要启用组件管理，请执行以下操作：
 
