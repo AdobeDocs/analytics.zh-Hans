@@ -2,10 +2,10 @@
 title: 登录Adobe Analytics疑难解答
 description: 无法登录Adobe Analytics时要采取的步骤。
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 3%
+source-wordcount: '609'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Analytics使用多种身份验证方法登录：
 
 使用Experience Cloud登录Adobe Analytics时的疑难解答。
 
-1. 导航 [到experience.adobe.com](https://experience.adobe.com)。 如果您无法访问此站点，则您的组织可能不允许通过防火墙访问此域。 与您组织的IT团队合作，实现这一目标。 请参 [阅Adobe Experience Cloud使用的IP](https://helpx.adobe.com/cn/analytics/kb/adobe-ip-addresses.html) 和域，获取可提供给您的IT团队的有用信息。
+1. 导航 [到experience.adobe.com](https://experience.adobe.com)。 如果您无法访问此站点，则您的组织可能不允许通过防火墙访问此域。 与您组织的IT团队合作，实现这一目标。 请参 [阅Adobe Experience Cloud使用的IP](https://helpx.adobe.com/cn/analytics/kb/adobe-ip-addresses.html) 和域，以获得可提供给您的IT团队的有用信息。
 
 2. 使用Adobe ID进行身份验证：单 **[!UICONTROL 击“使用Adobe ID登录”]**。 如果您无法登录，多次会检查您的电子邮件地址键入是否正确。 否则，单击 **[!UICONTROL 重置密码]** ，然后按照提示重置您的Adobe ID密码。
 
@@ -34,7 +34,7 @@ Adobe Analytics使用多种身份验证方法登录：
 
 ## 旧版分析ID
 
-您组织中的用户登录时偶尔会收到以下错误消息：
+您组织中的用户尝试登录时可能会收到以下错误：
 
 *为安全起见，由于登录尝试失败的次数过多，此帐户已被锁定。*
 
@@ -53,6 +53,14 @@ Adobe Analytics使用多种身份验证方法登录：
 ## 单点登录
 
 与组织中的管理员联系以解决单点登录问题。
+
+## 过期登录
+
+您组织中的用户尝试登录时可能会收到以下错误：
+
+*错误：此登录已过期。*
+
+此错误按预期工作。 Adobe Analytics为管理员提供设置用户帐户有效的日期范围的功能。 如果当前日期位于帐户的有效日期范围之外，则他们无法登录。 与组织中的Analytics管理员合作，以延长登录的有效日期范围。 Adobe客户关怀团队无权更改用户帐户的有效登录日期范围。
 
 ## 其他登录问题
 
