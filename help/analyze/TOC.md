@@ -5,10 +5,10 @@ user-guide-title: Analytics 工具指南
 user-guide-description: Provides access to Analysis Workspace , the premier analysis and visualization tool for Analytics. Also features all the analysis tools (Report Buidler, Reporting API, Data Workbench, and Activity Map) that you can use in Adobe Analytics.
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 8a48a5bd9e7ef38ffc90ecb9c640166bb3ac4405
+source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 99%
+source-wordcount: '1102'
+ht-degree: 98%
 
 ---
 
@@ -131,7 +131,6 @@ ht-degree: 99%
       + [Analysis Workspace 中的辅助功能](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Adobe Report Builder 帮助](report-builder/home.md)
-   + [Report Builder 的新增功能](report-builder/whats-new-arb.md)
    + Report Builder 安装 {#report-builder-setup}
       + [系统要求](report-builder/setup/system-requirements.md)
       + [安装 Report Builder](report-builder/setup/t-install-arb.md)
@@ -241,8 +240,9 @@ ht-degree: 99%
       + [最佳实践](report-builder/c-publish-power-bi/bi-best-practices.md)
       + [Power BI 集成疑难解答](report-builder/c-publish-power-bi/troubleshooting.md)
       + [适用于 Power BI 的 Adobe Analytics 内容包](report-builder/c-publish-power-bi/integration-power-bi.md)
-   + [Report Builder 疑难解答和最佳实践](report-builder/troubleshoot.md)
    + [Visual Basic宏](report-builder/vba.md)
+   + [Report Builder疑难解答](report-builder/troubleshoot.md)
+   + [Report Builder常见问题解答](report-builder/faq.md)
 + Activity Map {#activity-map}
    + [Activity Map 概述](activity-map/activity-map.md)
    + 快速入门 {#getting-started}
