@@ -5,10 +5,10 @@ user-guide-title: Analytics 技术说明
 user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 93%
+source-wordcount: '147'
+ht-degree: 91%
 
 ---
 
@@ -40,6 +40,7 @@ ht-degree: 93%
    + [向用户传达事件](event/communicate.md)
 + [浏览器 Cookie](cookies.md)
 + [数据保留](data-retention.md)
++ [排除数据](exclude-data.md)
 + [延迟](latency.md)
 + [低流量值](low-traffic.md)
 + [隐私概述](privacy-overview.md)
