@@ -2,10 +2,10 @@
 description: 'null'
 title: 发布到 Power BI - 概述
 uuid: ad688817-6e3c-45da-983d-48c123465309
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1058'
+translation-type: tm+mt
+source-git-commit: 0f362008f0041a6ac31437ce4da934064c3fa134
+workflow-type: tm+mt
+source-wordcount: '1020'
 ht-degree: 100%
 
 ---
@@ -20,12 +20,6 @@ Microsoft Power BI 是一组用来分析数据和共享分析的业务分析功�
 通过将 Report Builder 的报表生成功能与 Power BI 的可视化功能相结合，组织中的每个人都可以更加轻松地访问信息。通过 Power BI，您还可以将 Adobe Analytics 与其他数据源（如销售点、CRM）集成以发现独特的访客分析、关联和机会。
 
 ![](assets/aaplusbi.png)
-
-通过与 Adobe Report Builder 集成，您可以
-
-* [将计划的 Report Builder 工作簿发布到 Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
-* [作为 Power BI 数据集表发布工作簿中所有带格式的表。](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
-* [作为 Power BI 数据集表发布所有 Report Builder 请求](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
 
 ## 系统要求 {#section_0B71092D853446F38FA36447DAC0D32B}
 
