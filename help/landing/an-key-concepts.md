@@ -2,9 +2,9 @@
 description: 此部分包含 Adobe Analytics 的关键概念、有关这些概念的简要描述，以及提供有关该主题的更多详细信息的特定文档链接。
 title: Adobe Analytics - 关键概念
 translation-type: tm+mt
-source-git-commit: 68826433e028825fc43c948d32456416b9d2a13e
+source-git-commit: ed7b4de020c2258a4ba95370293ed1cf1dd9a1ed
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1863'
 ht-degree: 98%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 98%
 | 区段 | 能够生成、管理和共享强大而集中的受众区段，并将其应用于您的 Analytics 报表。区段在各 Analytics 产品间共享，还可在整个 Experience Cloud 中共享。 | [区段划分](/help/components/segmentation/seg-home.md) |
 | 时间（日期范围） | 能够将日期过滤到任何时间段并创建可在分析中重用的自定义日期范围。 | [日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) |
 | 可视化图表 | 丰富的视觉效果有助于使项目中的数据变得生动。 | [可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) |
-| 管理分析 | 能够限制可在项目或虚拟报表包中访问的组件。 | [VRS特选](/help/components/vrs/vrs-components.md) <br> [项目特选](/help/analyze/analysis-workspace/curate-share/curate.md) <br> [比较](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md) |
+| 管理分析 | 能够限制可在项目或虚拟报表包中访问的组件。 | [VRS特选](/help/components/vrs/vrs-components.md) <br> [项目特选](/help/analyze/analysis-workspace/curate-share/curate.md) |
 
 ## 关键报表
 
