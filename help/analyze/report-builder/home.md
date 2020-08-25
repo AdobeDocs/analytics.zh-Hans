@@ -1,31 +1,18 @@
 ---
-title: Adobe Report Builder 帮助
-topic: Report builder
-uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
-translation-type: ht
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
-workflow-type: ht
-source-wordcount: '218'
-ht-degree: 100%
+title: Report Builder概述
+description: 使用插件将Adobe Analytics数据直接导入Microsoft Excel。
+translation-type: tm+mt
+source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 68%
 
 ---
 
 
-# Adobe Report Builder 帮助 {#adobe-report-builder-help}
+# Report Builder概述
 
-[!DNL Adobe] Report Builder 是 Microsoft Excel 的加载项。Report Builder 允许您基于报告与分析数据构建自定义请求，您可以将自定义请求插入到 Excel 工作表中。请求可动态引用工作表中的单元格，您可以更新和自定义 Report Builder 显示数据的方式。
-
-<!-- >>[!IMPORTANT]
->
->Update your installation of Report Builder to the latest version. This update is a pre-requisite for running the Analytics user ID migration to the Admin Console, beginning in April 2018.
->
->See [Analytics User Migration to the Admin Console](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html) for migration information.
-
->[!IMPORTANT]
->
->Due to the end of support for TLS 1.0, we recommended that Adobe Report Builder (ARB) users download ARB v5.6.21 prior to September 13, 2018. After that date, prior versions of ARB will not be supported. -->
-
-<!-- Tutorial goes here -->
+ Report Builder 是 Microsoft Excel 的加载项。它允许您根据报告和分析数据构建自定义请求，并将其插入Excel工作表。 请求可动态引用工作表中的单元格，您可以更新和自定义 Report Builder 显示数据的方式。
 
 ## 热门帮助主题
 
@@ -39,21 +26,3 @@ ht-degree: 100%
 
 * [如何创建数据请求？](data-requests/t-create-a-data-request.md)
 * [Report Builder 疑难解答和最佳实践](troubleshoot.md)
-
-## Experience Cloud 资源
-
-* [Adobe Analytics 社区](https://helpx.adobe.com/cn/marketing-cloud/analytics.html)
-* [Experience Cloud 发行说明](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html)
-* [产品文档主页](https://docs.adobe.com/content/help/zh-Hans/experience-cloud/user-guides/home.html)
-* [开发人员](https://www.adobe.io/apis/experiencecloud.html)
-* [Idea Exchange](https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3)
-* [Adobe 培训和教程](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK)
-* [特色解决方案服务中心](https://www.omniture.com/en/products/online_business_optimization)
-
-<!--Meike Russ Replace the omniture links above?-->
-
-## Reports &amp; Analytics 帮助
-
-* [Analysis Workspace 帮助](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/home.html)
-* [Reports &amp; Analytics 帮助](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/reports-analytics/getting-started.html)
-* [Analytics 参考](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/home.html)有关管理工具、报表和量度的帮助。
