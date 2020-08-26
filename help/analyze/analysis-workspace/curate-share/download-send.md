@@ -3,7 +3,7 @@ description: 您可以通过复制数据或以PDF和CSV格式从Analysis Workspa
 title: 下载 PDF 或 CSV 文件
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: d432fd5386c89b3db82d39b0c21603d96bcf13b9
+source-git-commit: c06298eef53896fa542baf1061c4ae4658cbddd2
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 7%
@@ -55,7 +55,7 @@ ht-degree: 7%
 
 ## Download items as CSV {#download-items}
 
-如果要分析表中超过400行的可见数据，请右键单击表标题或任何行，然后选择 **下载项目为CSV(Dimension名)**。 此选项最多可导出所选维的50,000个维项（基于表排序），并应用过滤器和段。 如果从表顶部选择此选项，则将导出表中的第一个维。 尽管自由形式表中不强制实施任何限制，但建议在少于20列的表中使用“下载项目”选项以确保最佳性能。
+如果要分析表中超过400行的可见数据，请右键单击表标题或任何行，然后选择 **下载项目为CSV(Dimension名)**。 此选项最多可导出所选维的50,000个维项目（基于表排序），并应用过滤器和段。 如果从表顶部选择此选项，则将导出表中的第一个维。 尽管自由形式表中不强制实施任何限制，但建议在少于20列的表中使用“下载项目”选项以确保最佳性能。
 
 >[!TIP]
 >
