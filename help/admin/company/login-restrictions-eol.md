@@ -2,17 +2,17 @@
 title: “[!UICONTROL 强制 IP 登录限制]”终止使用
 description: 了解“[!UICONTROL 强制 IP 登录限制]”的终止使用时间和含义
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 649a33253f7520b4d8e210043ceedd6345a49be7
 workflow-type: tm+mt
 source-wordcount: '544'
-ht-degree: 85%
+ht-degree: 80%
 
 ---
 
 
 # “[!UICONTROL 强制 IP 登录限制]”终止使用
 
-The **[Enforce IP login restrictions](/help/admin/company/security-manager.md)**feature in Adobe Analytics lets you add specific IP addresses (that are deemed secure) to an allowlist, so as to allow successful logins and access to your Adobe Analytics environment. 在许多情况下，此功能用于将公司 IP 地址设置为用户可以从中登录的唯一安全 IP 地址。因此，要使用 Adobe Analytics，这要求用户位于公司办公室或通过 VPN 登录网络。
+The **[Enforce IP login restrictions](/help/admin/company/security-manager.md)** feature in Adobe Analytics lets you add specific IP addresses (that are deemed secure) to an allowlist, so as to allow successful logins and access to your Adobe Analytics environment. 在许多情况下，此功能用于将公司 IP 地址设置为用户可以从中登录的唯一安全 IP 地址。因此，要使用 Adobe Analytics，这要求用户位于公司办公室或通过 VPN 登录网络。
 
 我们计划在2021年1月停止此功能。
 
@@ -28,7 +28,7 @@ The **[Enforce IP login restrictions](/help/admin/company/security-manager.md)**
 
 For any customer who has **[!UICONTROL Enforce IP login restrictions]** set up, this feature will be removed in January, 2021. 届时，将不再强制执行任何已设置的 IP 登录限制。如果仍需要通过 IP 地址限制登录，则应查看并实施推荐的单点登录和 Federated ID 解决方案（下面提供了更多信息和资源）。
 
-此外，还将从 Analytics UI 的&#x200B;**[!UICONTROL 管理员 > 公司设置 > 安全管理器]**&#x200B;中删除&#x200B;**[!UICONTROLA强制 IP 登录限制]**&#x200B;设置（如下所示）。
+Additionally, the **[!UICONTROL Enforce IP login restrictions]** setting will be removed from the **[!UICONTROL Admin]>[!UICONTROL Company Settings]>[!UICONTROL Security Manager]** in the Analytics UI (as shown below).
 
 ![](assets/sec-manager2.png)
 
