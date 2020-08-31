@@ -5,10 +5,10 @@ user-guide-title: Analytics 技术说明
 user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+source-git-commit: 35952706f89bf70cd4fd5d33f83b4b2df5b8ffee
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 91%
+source-wordcount: '155'
+ht-degree: 87%
 
 ---
 
@@ -43,9 +43,10 @@ ht-degree: 91%
 + [排除数据](exclude-data.md)
 + [延迟](latency.md)
 + [低流量值](low-traffic.md)
++ [将Mobile Services处理规则迁移到Adobe Analytics](migrate-mobile.md)
++ [多货币支持](multicurrency.md)
 + [隐私概述](privacy-overview.md)
 + [重定向和别名](redirects.md)
-+ [多货币支持](multicurrency.md)
 + 地区数据收集 {#rdc}
    + [地区数据收集帮助](rdc/regional-data-collection.md)
    + [SSL 认证许可](rdc/ssl-cert-licensing.md)
