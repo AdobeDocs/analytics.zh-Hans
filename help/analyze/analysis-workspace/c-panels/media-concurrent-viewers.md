@@ -2,10 +2,10 @@
 title: “媒体并发查看器”面板
 description: 如何使用和解释Analysis Workspace的“媒体并发查看器”面板。
 translation-type: tm+mt
-source-git-commit: c9e60b97d97ddc13fb85c576d0f397bf8a10c6b3
+source-git-commit: 56300b13d30c628d6f2275e6b0aa060ca4549d44
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 9%
+source-wordcount: '1002'
+ht-degree: 10%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->此功能针对Media Analytics客户进行分阶段推出。
+>此功能包含在媒体分析客户的有限测试中。 [了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html)
 
 媒体分析客户可以分析并发查看器，了解高峰期并发发生的位置或中断发生的位置，从而对内容质量和查看器参与度提供宝贵的洞察，并帮助进行批量或规模故障排除或规划。
 
