@@ -3,7 +3,7 @@ description: 使用线条可视化描述趋势（基于时间）数据集
 title: 折线图
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: 5bb2fc217cb7da3696a7c55ef8d193a93c18c2d8
+source-git-commit: e3e67de7c6f3b82198aa8d823c066030f3c3111e
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 12%
@@ -48,7 +48,7 @@ ht-degree: 12%
 所有模型都采用普通最小二乘拟合：
 
 | 模型 | 描述 |
-|---|---|
+| --- | --- |
 | 线性 | 为简单的线性数据集创建最适合的直线，当数据以稳定速率增加或减少时，该直线很有用。 等式： `y = a + b * x` |
 | 对数 | 创建最适合的曲线，当数据更改率快速增加或减少，然后平铺时，该曲线很有用。 对数趋势线可使用负值和正值。 等式： `y = a + b * log(x)` |
 | 指数 | 创建一条曲线，当数据以不断增加的速度上升或下降时，它非常有用。 如果数据包含零值或负值，则不应使用此选项。 等式： `y = a + e^(b * x)` |
