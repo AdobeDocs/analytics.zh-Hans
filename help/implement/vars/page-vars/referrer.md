@@ -1,11 +1,11 @@
 ---
 title: referrer
 description: 覆盖点击的自动收集的反向链接。
-translation-type: ht
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
-workflow-type: ht
-source-wordcount: '247'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,15 @@ ht-degree: 100%
 s.referrer = "https://example.com";
 ```
 
-避免将此变量设置为非 URL 值。
+如果使用数 `digitalData` 据 [层](../../prepare/data-layer.md):
+
+```js
+s.referrer = digitalData.page.pageInfo.referringURL;
+```
+
+>[!CAUTION]
+>
+>避免将此变量设置为非 URL 值。
 
 ## 示例
 
