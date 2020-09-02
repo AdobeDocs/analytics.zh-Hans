@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: 可用于处理规则的维度
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '743'
+ht-degree: 86%
 
 ---
 
@@ -88,11 +91,11 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
   </tr> 
   <tr> 
    <td colname="col1"> <p>页面名称 </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>注意：对于所有发生的页面名称不为空的点击，会计一次页面查看。在跟踪链接时，数据收集服务器从点击中删除页面名称，这样就不会计算页面查看次数。如果您使用处理规则将页面名称重新插入这些调用，则会计为一次页面查看。我们建议通过检查以确保在您修改页面名称之前已经设置了该页面名称。 </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>注意： 链接跟踪调用在达到 <code>pageName</code> 处理规则之前会删除变量。 如果使用处理规则重新插入页面名称值，则点击被视为页面视图，而非链接跟踪调用。 Adobe建议在修改页面名称之前先进行检查，确保已设置该页面名称。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>页面 URL </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> 或未指定 <code> s.pageURL</code> 时的当前页面 URL。 </td> 
+   <td colname="col2"> <code> s.pageURL</code> 或未指定 <code> s.pageURL</code> 时的当前页面 URL。 <p>注意： 链接跟踪调用在达到 <code>pageURL</code> 处理规则之前会删除变量。 如果使用处理规则重新插入页面URL值，则点击被视为页面视图，而不是链接跟踪调用。 Adobe建议在修改页面URL之前先进行检查，确保已设置该页面URL。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>查询字符串参数 </p> </td> 
