@@ -1,6 +1,9 @@
 ---
-source-git-commit: d8f2458e7bae596dbabc8dab33ea5d2881047566
+source-git-commit: f20e0547c00f185659a2eabe0110f43c56c30114
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '514'
+ht-degree: 91%
 
 ---
 # Adobe Analytics 中的产品配置文件
@@ -13,10 +16,10 @@ translation-type: tm+mt
 
 产品配置文件管理员是一个可选组，可向相应产品配置文件添加用户或从中删除用户。请注意，产品配置文件管理员不同于产品管理员：
 
-* 产品配置文件管理员只负责管理某个产品配置文件的用户列表。
 * 产品配置文件管理员没有 Adobe Analytics 的完全访问权限。而产品管理员拥有 Adobe Analytics 的完全访问权限。
-* 产品配置文件管理员无法调整其产品配置文件中的权限项；而产品管理员必须对权限项进行调整。
-* 如果团队领导或经理只需要为团队授予和管理对 Adobe Analytics 的访问权限，那么产品配置文件管理员将是他们的不二之选。通过产品配置文件管理员，个人便无需麻烦系统管理员或产品管理员授予对 Adobe Analytics 的访问权限。
+* 产品用户档案管理员可以调整其产品用户档案中的权限项目。
+* 产品用户档案管理员可以向用户组分配或删除产品用户档案。
+* 产品用户档案管理员是团队领导或需要授予和管理团队对Adobe Analytics的访问权限的经理的理想之选。 通过产品配置文件管理员，个人便无需麻烦系统管理员或产品管理员授予对 Adobe Analytics 的访问权限。
 
 ## Adobe Analytics 权限项
 
