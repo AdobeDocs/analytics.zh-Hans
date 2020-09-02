@@ -1,8 +1,11 @@
 ---
 title: 将数据层对象映射到数据元素
 description: 将 Launch 配置为从数据层读取。
-translation-type: ht
-source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 100%
 
 ---
 
@@ -21,15 +24,15 @@ source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 1. 转到 [Adobe Experience Platform Launch](https://launch.adobe.com)，并在出现提示时登录。
 1. 单击所需的 Launch 属性。
-1. 单击[!UICONTROL 数据元素]选项卡，然后单击[!UICONTROL 添加新数据元素]。
+1. 单击&#x200B;**[!UICONTROL 数据元素]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 添加新数据元素]**。
 
    ![创建数据元素](assets/createelement.png)
 
 1. 输入数据元素的名称。它可以是一个简单标签，对应于要跟踪的数据层中的 JavaScript 变量。
-1. 在[!UICONTROL 扩展]下拉列表下，选择 [!UICONTROL Core]。
-1. 在[!UICONTROL 数据元素类型]下拉列表下，选择 [!UICONTROL JavaScript 变量]。右侧会显示一个文本字段，允许您输入要映射到此数据元素的 JavaScript 变量。
+1. 在&#x200B;**[!UICONTROL 扩展]**&#x200B;下拉列表下，选择 **[!UICONTROL Core]**。
+1. 在&#x200B;**[!UICONTROL 数据元素类型]**&#x200B;下拉列表下，选择 **[!UICONTROL JavaScript 变量]**。右侧会显示一个文本字段，允许您输入要映射到此数据元素的 JavaScript 变量。
 1. 通常情况下，在数据层中输入所需的 Javascript 变量。例如，如果贵组织的数据层比较符合 Adobe 的建议做法，则该值可能为 `digitalData.page.pageInfo.pageName`。您可以使用浏览器的控制台来验证 JavaScript 变量语法和值。
-1. 单击[!UICONTROL 保存]。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 后续步骤
 
