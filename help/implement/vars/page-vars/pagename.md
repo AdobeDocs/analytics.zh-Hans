@@ -1,24 +1,24 @@
 ---
 title: pageName
 description: 您的网站中页面的名称。
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '226'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '232'
+ht-degree: 81%
 
 ---
 
 
 # pageName
 
-`pageName` 变量通常会存储给定页面的名称。确定哪些个人页面最受欢迎时，此量度非常有用。此变量会填充“页面名称”维度。
+`pageName` 变量通常会存储给定页面的名称。确定哪些个人页面最受欢迎时，此量度非常有用。This variable populates the [Page](/help/components/dimensions/page.md) dimension.
+
+如果给定的页面跟踪调用中未定义此变量，则将改用 [`pageURL`](pageurl.md) 变量。
 
 >[!NOTE]
 >
->将始终从链接跟踪调用中去除此维度。如果要查看跟踪链接的页面名称，请考虑将此变量复制到 eVar 中。
-
-如果给定的页面跟踪调用中未定义此变量，则将改用 [`pageURL`](pageurl.md) 变量。
+>Adobe数据收集服务器从所有链接跟踪图 [像请求中](/help/implement/vars/functions/tl-method.md) 去除此维。 如果希望此维显示在链接跟踪点击中，请考虑将此维复制到 [eVar](evar.md)。
 
 ## Adobe Experience Platform Launch 中的页面名称
 
@@ -43,4 +43,10 @@ s.pageName = "Example page name";
 
 // Set page name to the page's title
 s.pageName = window.document.title;
+```
+
+如果使用数 `digitalData` 据 [层](../../prepare/data-layer.md):
+
+```js
+s.pageName = digitalData.page.pageInfo.pageName;
 ```
