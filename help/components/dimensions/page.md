@@ -2,10 +2,10 @@
 title: 页面
 description: 页面名称。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 88%
+source-wordcount: '212'
+ht-degree: 71%
 
 ---
 
@@ -18,7 +18,9 @@ ht-degree: 88%
 
 ## 使用数据填充此维度
 
-此维度从图像请求中的 [`pageName` 查询字符串](/help/implement/validate/query-parameters.md)检索数据。AppMeasurement 使用 `pageName` 变量收集此数据。如果未定义 `pageName` 变量，它会返回使用页面的 URL。
+此维从页面查询调 [`pageName` 用(](/help/implement/validate/query-parameters.md) ) [中的字符串检`t()`索视图](/help/implement/vars/functions/t-method.md)。 [链接跟踪调用`tl()`(](/help/implement/vars/functions/tl-method.md) )始终会删除此维，即使存 `pageName` 在查询字符串。
+
+AppMeasurement 使用 [`pageName`](/help/implement/vars/page-vars/pagename.md) 变量收集此数据。If the `pageName` variable is not defined, it falls back to using the [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variable.
 
 ## Dimension项
 
