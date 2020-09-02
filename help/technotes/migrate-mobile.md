@@ -2,9 +2,9 @@
 description: 了解如何将Mobile Services处理规则迁移到Adobe Analytics
 title: 将Mobile Services处理规则迁移到Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 67c8880e125ca31aa96ecea56a7ef0b85bc3abba
+source-git-commit: bdb6f9ba435513cd1dc3febf35eae0e821c756ca
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '680'
 ht-degree: 18%
 
 ---
@@ -47,6 +47,10 @@ ht-degree: 18%
 * 性能：应用程序性能如何、用户在哪些情况下遇到问题？
 * 维系率：谁是我的忠实用户，他们会怎么做？
 * 历程：我的应用程序最突出的使用模式是什么？
+
+以下是“移动应用程序使用情况”模板的摘录：
+
+![移动应用程序使用](assets/mobile-app-usage.png)
 
 要访问模板，请执行以下操作：
 
