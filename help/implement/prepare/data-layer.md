@@ -2,10 +2,10 @@
 title: 创建数据层
 description: 了解 Analytics 实施中的数据层，以及如何在 Adobe Analytics 中使用它来映射变量。
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 100%
+source-wordcount: '479'
+ht-degree: 91%
 
 ---
 
@@ -61,14 +61,14 @@ digitalData = {
         },
         category: {
             primaryCategory: "Example page category",
-            subCategory1: "Sub-category example"
+            subCategory: "Sub-category example"
         },
         attributes: {
             country: "US",
             language: "en-US"
         }
     },
-    product1: {
+    product: [{
         productInfo: {
             productID: "4859",
             productName: "Example product",
@@ -77,13 +77,14 @@ digitalData = {
             productImage: "https://example.com/product_image.png",
             productThumbnail: "https://example.com/product_thumbnail.png",
             manufacturer: "Example manufacturer",
+            quantity: 1,
             size: "Product size"
         },
         category: {
             primaryCategory: "Example product category",
             subCategory: "Example sub-category"
         }
-    },
+    }],
     cart: {
         cartID: "934856",
         price: {
@@ -124,13 +125,13 @@ digitalData = {
             }
         }
     },
-    event1: {
+    event: [{
         category: {
             primaryCategory: "Example event category",
             subCategory: "Example sub-category"
         }
-    },
-    component1: {
+    }],
+    component: [{
         componentInfo: {
             componentID: "4921",
             componentName: "Example component"
@@ -139,10 +140,10 @@ digitalData = {
             primaryCategory: "Example event category",
             subCategory: "Example sub-category"
         }
-    },
-    user1: {
+    }],
+    user: [{
         segment: "Premium membership",
-        profile1: {
+        profile: [{
             profileInfo: {
                 profileID: "exampleprofile",
                 userName: "exampleusername",
@@ -154,19 +155,19 @@ digitalData = {
                 facebook: "examplefacebookid",
                 twitter: "exampletwitterhandle"
             }
-        }
-    },
+        }]
+    }],
     privacy: {
-        accessCategories1: {
+        accessCategories: [{
             categoryName: "Default",
             domains: "adobedtm.com"
-        }
+        }]
     },
     version: "1.0"
 }
 ```
 
-有关每个对象和子对象的详细信息，请参阅 [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) 报表。并非全部网站都会使用所有对象；例如，如果您托管一个新闻网站，则不太可能使用 `digitalData.product` 对象。
+有关每个对象和子对象的详细信息，请参阅 [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) 报表。Not all sites use all objects; for example, if you host a news site, it is unlikely that you have use for the `digitalData.product` object array.
 
 数据层是可扩展的；如果贵组织有特定需求，则可以在数据层中包含相应对象以满足这些需求。
 
