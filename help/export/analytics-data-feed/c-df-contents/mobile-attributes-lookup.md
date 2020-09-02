@@ -2,23 +2,23 @@
 title: 移动属性查找
 description: 移动属性的查找文件。
 translation-type: tm+mt
-source-git-commit: b4405f4934ffca5561bb43216a6c3133fd59c0c7
+source-git-commit: 33fd282e6aefa3408574f43ccccbc8a1bb141c37
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 0%
+ht-degree: 84%
 
 ---
 
 
 # 移动属性查找
 
-移动属性显示点击中移动设备的属性。 此文件在以下情况下显示：
+移动设备属性显示点击中移动设备的属性。此文件在以下情况下显示：
 
-* 已启用动态查找。 您组织中的支持代表可以使用所需的源ID联系客户关怀以启用动态查找。
-* 包 `mobile_id` 含该列。
-* 列 `user_agent` 被排除。 由于与DeviceAtlas签订了许可协议，因此需要排除此漏洞。
+* 已启用动态查找。您组织中的支持代表可以使用所需的馈送 ID 联系客户关怀团队，以启用动态查找。
+* 包含 `mobile_id` 列。
+* 排除 `user_agent` 列。由于与 DeviceAtlas 签署了许可协议，因此需要排除此列。
 
-下 `mobile_attributes_headers.tsv`载或引用列表:
+下载 [`mobile_attributes_headers.tsv`](assets/mobile_attributes.tsv) 或引用以下列表：
 
 * `mobile_id`
 * `Manufacturer`
