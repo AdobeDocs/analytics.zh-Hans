@@ -4,8 +4,11 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: 添加页眉和页脚代码
 topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
-translation-type: ht
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+translation-type: tm+mt
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '474'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
    ![](assets/dtm-embed.png)
 
-   将代码放在靠近 [!DNL  的位置<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">] 标记的位置包含了完整的页眉代码。应当将此代码片段放在实时生产网站的每个页面中。
+   将代码放在靠近 `<head>` 的位置 标记的位置包含了完整的页眉代码。应当将此代码片段放在实时生产网站的每个页面中。
 
    >[!NOTE]
    >
