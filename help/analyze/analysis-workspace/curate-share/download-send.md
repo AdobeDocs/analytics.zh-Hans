@@ -3,10 +3,10 @@ description: 您可以通过复制数据或以PDF和CSV格式从Analysis Workspa
 title: 下载 PDF 或 CSV 文件
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: c06298eef53896fa542baf1061c4ae4658cbddd2
+source-git-commit: 1cad7c4338f346dddb12f52b49040d3606801646
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 7%
+source-wordcount: '1013'
+ht-degree: 8%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 7%
 
 通过右键单击选项“ **[!UICONTROL 复制到剪贴板]** ”，您可以快速从Workspace复制数据并将其粘贴到其他位置。
 
-* 如果要复制显示的表，请右键单击表标题，然后选择“将显 **示的数据复制到剪贴板**”。
+* 如果要复制显示的表，请右键单击表标题，然后选择“将数 **据复制到剪贴板**”。
 * 如果要复制数据的子集，请在表中进行选择，然后右键单击>将选 **择复制到剪贴板**。
 
 此外，热键还 `Ctrl+C` 会将您的选择复制到剪贴板。 复制后，您可以进入其他工具并粘贴信息(或点击 `Ctrl+V`)。
@@ -47,13 +47,12 @@ ht-degree: 7%
 
 右键单击选 **[!UICONTROL 项“以CSV形式下载数]** 据”允许您以CSV形式下载数据表或任何可视化的数据源。
 
-* 从任何表的标题中，右键单击“将显 **[!UICONTROL 示的数据下载为CSV]**”。 此操作会以CSV格式下载表格中显示的数据。
+* 从任何表或可视化的标题中，右键单击“以 **[!UICONTROL CSV形式下载数据”]**。 这将下载表格或基础数据源中显示的数据，以便以CSV形式显示可视化。 注意：地图可视化不支持此选项。
 * 如果在表中进行了选择，则选项将显示“将选 **[!UICONTROL 择内容下载为CSV]**”。 与显示的完整表格相比，只有使用此选项下载选择内容。
-* 从任何可视化的标题中，右键单击“以CSV **[!UICONTROL 形式下载数据”]**。 这将下载可视化的CSV数据源表。 注意：地图可视化不支持此选项。
 
 ![](assets/download-data-viz.png)
 
-## Download items as CSV {#download-items}
+## 以 CSV 格式下载项目 {#download-items}
 
 如果要分析表中超过400行的可见数据，请右键单击表标题或任何行，然后选择 **下载项目为CSV(Dimension名)**。 此选项最多可导出所选维的50,000个维项目（基于表排序），并应用过滤器和段。 如果从表顶部选择此选项，则将导出表中的第一个维。 尽管自由形式表中不强制实施任何限制，但建议在少于20列的表中使用“下载项目”选项以确保最佳性能。
 
