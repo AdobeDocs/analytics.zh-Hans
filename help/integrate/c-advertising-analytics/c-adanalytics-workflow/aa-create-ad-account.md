@@ -1,10 +1,10 @@
 ---
 title: 设置广告帐户
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '851'
+translation-type: tm+mt
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '850'
 ht-degree: 100%
 
 ---
@@ -45,14 +45,11 @@ Adobe Analytics 管理员可以创建新的广告帐户，并将多个帐户映�
       </tr> 
       <tr> 
       <td colname="col1"> <p>OAuth 令牌 </p> </td> 
-      <td colname="col2"> <p>注意：OAuth 是一种针对访问权限委派的开放标准，通常用于授予网站或应用程序访问其他网站上的信息的权限，且无需提供密码。 </p> <p>注意：您会注意到您将被路由到一个第三方 URL (efrontier.com)。Adobe 使用 efrontier 为所有三个搜索引擎启用 OAuth 身份验证过程。 </p> <p>注意：如果您使用的是 Internet Explorer 11（或更早版本），则无法为三个搜索引擎中的任何一个成功检索 Oauth 令牌。请改用其他 Web 浏览器。 </p> <p>单击<span class="uicontrol">检索令牌</span>可启动 OAuth2 身份验证过程。这意味着您将需要使用自己的凭据登录到 Google/Bing 搜索帐户。根据您选择的搜索引擎，过程会略有不同： </p> 
-        <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
-        <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google Adwords：提供 Google 帐户 ID。 </li> 
-        <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing：提供 Bing 帐户 ID 和 Bing 客户 ID。 </li> 
-        </ul> <p>请参考<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  >查找帐户 ID</a> 以获取有关这些 ID 的信息。 </p> <p>成功登录后，OAuth 令牌字段将会显示 
-        <systemoutput>
-          已检索
-        </systemoutput>。 </p> </td> 
+      <td colname="col2"> <p>注意：OAuth 是一种针对访问权限委派的开放标准，通常用于授予网站或应用程序访问其他网站上的信息的权限，且无需提供密码。 </p> <p>注意：您会注意到您将被路由到一个第三方 URL (efrontier.com)。Adobe 使用 efrontier 为所有三个搜索引擎启用 OAuth 身份验证过程。 </p> <p>注意：如果您使用的是 Internet Explorer 11（或更早版本），则无法为三个搜索引擎中的任何一个成功检索 Oauth 令牌。请改用其他 Web 浏览器。 </p> <p>单击<span class="uicontrol">检索令牌</span>可启动 OAuth2 身份验证过程。这意味着您将需要使用自己的凭据登录到 Google/Bing 搜索帐户。根据您选择的搜索引擎，过程会略有不同： </p>
+      <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
+       <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google Adwords：提供 Google 帐户 ID。 </li> 
+       <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing：提供 Bing 帐户 ID 和 Bing 客户 ID。 </li> 
+       </ul> <p>请参考<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  >查找帐户 ID</a> 以获取有关这些 ID 的信息。 </p> <p>成功登录后，OAuth 令牌字段将会显示<code>Retrieved</code>。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
