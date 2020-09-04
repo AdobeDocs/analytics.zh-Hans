@@ -4,7 +4,10 @@ title: Activity Map 报告
 topic: Reports
 uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 100%
 
 ---
 
@@ -13,12 +16,12 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 在 Analytics 中启用 Activity Map 报告功能的管理步骤。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **`<select report suite>`** > **[!UICONTROL 编辑设置]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map 报告]**
 
 允许 Analytics 收集 Activity Map（以前的 ClickMap）中提供的用户活动。此集成
 
 * 在 Analytics 中启用了报表功能。
-* 在 **[!UICONTROL View All Reports]** > **[!UICONTROL Activity Map:]**
+* 在&#x200B;**[!UICONTROL 查看所有报表]** > **[!UICONTROL Activity Map]** 下添加了新报表：
 
    | 报表 | 描述 |
    |---|---|
