@@ -5,7 +5,10 @@ title: 用户群组设置
 topic: Admin tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '611'
+ht-degree: 98%
 
 ---
 
@@ -14,11 +17,11 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 >[!IMPORTANT]
 >
->用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在迁移完所有客户之后，将撤销 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员工具]** > **[!UICONTROL 用户管理]**&#x200B;中的帮助内容。
 
 “定义用户群组”页面上的元素描述。
 
-**[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Add New User Group]**
+**[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 群组]** > **[!UICONTROL 添加新用户群组]**
 
 <table id="table_85E9EBF7984545C780631D6C2090BD99"> 
  <thead> 
@@ -57,7 +60,6 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   <tr> 
    <td colname="col1"> <p><b>报表访问</b> </p> </td> 
    <td colname="col2"> 
-    <draft-comment> 
      <p> 
       <ul id="ul_81ABB1701BEC44ECB548F98EB818F83B"> 
        <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>流量报表</b>：根据页面查看次数、访问次数和独特访客人数等流量，授予对所有报表的访问权限。 </li> 
@@ -76,7 +78,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
        <li id="li_DB56BEB8D31A4918B5CCD3CBBC1DF40A"><b>Social</b>（启用对基于 Adobe Social 数据生成的报表的访问权限。） </li> 
        <li id="li_3C2F4F91B92A4CD9BCDD69E6FCE85EEE"><b>Data Connectors </b>（允许用户创建、更新或删除数据连接器。） </li> 
       </ul> </p> 
-    </draft-comment> </td> 
+   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
