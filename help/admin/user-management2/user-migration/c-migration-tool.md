@@ -3,7 +3,10 @@ description: 在 Adobe Experience Cloud 中将 Analytics 用户 ID 迁移到 Adm
 title: 将 Analytics 用户迁移到 Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '3131'
+ht-degree: 98%
 
 ---
 
@@ -73,7 +76,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   </tr> 
   <tr> 
    <td colname="col1"> <p>更新 Report Builder </p> </td> 
-   <td colname="col2"> <p> <p>重要信息：将安装的 <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html">Report Builder</a> 更新至最新版本。 </p> </p> </td> 
+   <td colname="col2"> <p> <p>重要信息：将安装的 <a href="https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html">Report Builder</a> 更新至最新版本。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>何时开始迁移？ </p> </td> 
@@ -126,17 +129,12 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   </tr> 
   <tr> 
    <td colname="col1"> <p>我能推迟迁移开始日期吗？ </p> </td> 
-   <td colname="col2"> <p>能。联系 <a href="https://helpx.adobe.com/cn/marketing-cloud/contact-support.html">Adobe 客户关怀</a>。 </p> 
-    <draft-comment> 
-     <p>有关在开始日期对当前 Analytics 用户和权限管理所做的更改的说明，请参见下文。 </p> 
-    </draft-comment> </td> 
+   <td colname="col2"> <p>能。联系 <a href="https://helpx.adobe.com/cn/marketing-cloud/contact-support.html">Adobe 客户关怀</a>。 </p><p>有关在开始日期对当前 Analytics 用户和权限管理所做的更改的说明，请参见下文。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>我的公司当前正在迁移到 Admin Console，我在迁移开始日期之前应在何处创建新用户和权限组？ </p> </td> 
-   <td colname="col2"> <p>在迁移开始日期之前，您可以在 Admin Console 中或在“Analytics”&gt;“用户管理”中创建用户。 </p> <p>在迁移开始后，您只能在 Admin Console 中创建用户和权限组。 </p> 
-    <draft-comment> 
-     <p>请参阅下面的“迁移”部分，以了解有关迁移开始日期所发生情况的详细信息）。 </p> 
-    </draft-comment> </td> 
+   <td colname="col2"> <p>在迁移开始日期之前，您可以在 Admin Console 中或在“Analytics”&gt;“用户管理”中创建用户。 </p> <p>在迁移开始后，您只能在 Admin Console 中创建用户和权限组。 </p><p>有关迁移开始发生情况的更多详细信息，请参阅下面的迁移部分。 </p>
+   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 我什么时候可以使用联合 ID 实施单点登录？ </p> </td> 
@@ -167,10 +165,8 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   </tr> 
   <tr> 
    <td colname="col1"> <p>我可以更新未迁移用户的权限组成员资格吗？ </p> </td> 
-   <td colname="col2"> <p>可以。您可以从“Analytics 用户管理”部分中更改未迁移用户的组成员资格。 </p> 
-    <draft-comment> 
-     <p>等待 Ashok 提供的关于何处已完成迁移的说明。 </p> 
-    </draft-comment> </td> 
+   <td colname="col2"> <p>可以。您可以从“Analytics 用户管理”部分中更改未迁移用户的组成员资格。 </p><p>等待 Ashok 提供的关于何处已完成迁移的说明。 </p>
+   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>我可以在迁移开始后在 Analytics 中创建用户和权限组，然后使用迁移工具将它们移到 Admin Console 吗？ </p> </td> 
@@ -314,7 +310,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 您可能需要主动将此迁移计划传达给您的当前用户。以下是一个模板，您可以对其进行自定义，以发送给您的所有当前 Analytics 用户：
 
-要向所有用户发送电子邮件，请导航到 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** >电子邮 [件用户](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html)。
+要向所有用户发送电子邮件，请导航至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]** > [电子邮件用户](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html)。
 
 **主题：**&#x200B;即将推出 - 一种用于登录到 Adobe Analytics 和 Adobe Experience Cloud 的新方法。
 
