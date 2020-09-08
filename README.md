@@ -1,6 +1,9 @@
 ---
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 18d57362af9e0667d26fde67e37671cf6bb6bab6
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '435'
+ht-degree: 100%
 
 ---
 # 贡献文章
@@ -9,7 +12,8 @@ translation-type: tm+mt
 
 ## Adobe Open Source 行为准则
 
-该项目采用了 [Adobe Open Source 行为准则](code-of-conduct.md)或 [.NET Foundation 行为准则](https://dotnetfoundation.org/code-of-conduct)。有关更多信息，请参阅[参与](contributing.md)文章。
+
+本项目已采用 [Adobe 开源行为准则](code-of-conduct.md)或 [.NET Foundation 行为准则](https://dotnetfoundation.org/code-of-conduct)。有关更多信息，请参阅[贡献](contributing.md)文章。
 
 ## 关于您对 Adobe 内容的贡献
 
@@ -19,7 +23,7 @@ translation-type: tm+mt
 
 ### 次要更改
 
-如果您出于善意而想要对文章进行次要更新，请访问文章，并单击文章中的&#x200B;**编辑**&#x200B;链接以转到文章所对应的 GitHub 源。然后，只需使用 GitHub UI 即可进行更新。See the general [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) for more information.
+如果您出于善意而想要对文章进行次要更新，请访问文章，并单击文章中的&#x200B;**编辑**&#x200B;链接以转到文章所对应的 GitHub 源。然后，只需使用 GitHub UI 即可进行更新。有关更多信息，请参阅[《Adobe 文档贡献者指南》](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)。
 
 您对本存储库中文档和代码示例提交的细微更正或说明均受 Adobe 使用条款的约束。
 
@@ -33,7 +37,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Adobe 员工做出的主要更改
 
-If you are a technical writer, program manager, or developer from the product team for an Adobe Experience Cloud solution and it's your job to contribute to or author technical articles, you should use the private repository [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs). <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
+如果您是来自 Adobe Experience Cloud 解决方案产品团队的技术文档撰稿人、项目经理或开发人员，并且您的工作就是撰写或创作技术文章，那么您应当使用专用存储库 [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs)。<!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
 ## 工具和设置
 
@@ -46,7 +50,7 @@ If you are a technical writer, program manager, or developer from the product te
 此存储库中的所有文章都使用 GitHub Flavored Markdown。如果您不熟悉 Markdown，请参阅：
 
 * [Markdown 基础知识](https://help.github.com/articles/markdown-basics/)
-* [可打印 Markdown 速查表](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [可打印的 Markdown 速查表](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## 标签
 
