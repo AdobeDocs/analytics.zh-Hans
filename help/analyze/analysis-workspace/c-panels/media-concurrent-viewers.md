@@ -2,9 +2,9 @@
 title: “媒体并发查看器”面板
 description: 如何使用和解释Analysis Workspace的“媒体并发查看器”面板。
 translation-type: tm+mt
-source-git-commit: b55faba0298dffa9df9e45c13c2770fe7ffcdce4
+source-git-commit: d63c9b2e3b8241b8b40f4bb2e440cb1e96add69f
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1080'
 ht-degree: 11%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 11%
 | 能否运行异常检测？ | 否。异常检测不适用于此面板。 |
 | 为何使用唯一访客而不是活动会话？ | 使用独特的访客可以消除显示边界（会话同时结束和开始的位置）处不需要的尖峰。 |
 | 使并发查看器的粒度高于分钟意味着什么？ | 并发查看器粒度大于一分钟，是该时间范围内所有分钟内唯一并发查看器的总和。  例如，小时级粒度并发查看器是该小时内所有分钟的唯一并发查看器的总和。 |
-| 如果我希望以分钟级粒度查看超过1天，该怎么办？ | 要以分钟级粒度一次最多1个月访问数据，您可以使用Analytics 2.0 API。 有关详细信息， [请参阅Analytics 2.0 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)。 |
-| 工作区面板是否显示与并发查看器报告相同的信息？ | 否。在Analysis Workspace，并发查看器定义为在特定时间点查看媒体流的唯一访客数，而不管会话数。<br></br>这与“报告”部分中使用“并发活动会话”的“并发查看器报告”不同。  使用唯一访客可消除显示边界上不需要的尖峰——会话同时结束和开始的位置。 |
+| 如果我希望以分钟级粒度查看超过1天，该怎么办？ | 要以分钟级粒度一次最多1个月访问数据，您可以使用Analytics 2.0 API。 有关详细信息，请 [参阅使用Analytics 2.0 API获取并发查看器JSON报告数据](https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-default-reports/get-concurrent-json20.html)。 |
+| 工作区面板是否显示与并发查看器报告相同的信息？ | 否。在Analysis Workspace，并发查看器定义为在特定时间点查看媒体流的唯一访客数，而不管会话数。<br><br>这与“报告”部分中使用“并发活动会话”的“并发查看器报告”不同。  使用唯一访客可消除显示边界上不需要的尖峰——会话同时结束和开始的位置。 |
 
 <!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->
