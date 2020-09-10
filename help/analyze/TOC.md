@@ -5,9 +5,9 @@ user-guide-title: Analytics 工具指南
 user-guide-description: Provides access to Analysis Workspace, the premier analysis and visualization tool for Analytics. Also features all the analysis tools (Report Builder, Reporting API, Data Workbench, and Activity Map) that you can use in Adobe Analytics.
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: ad91f03a510f0d3d796502df77718c3bbd063f99
+source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1103'
 ht-degree: 98%
 
 ---
@@ -99,7 +99,6 @@ ht-degree: 98%
       + [下载 PDF 或 CSV 文件](analysis-workspace/curate-share/download-send.md)
       + [共享和计划项目文件](analysis-workspace/curate-share/send-schedule-files.md)
       + [发送文件 - 计划交付项目](analysis-workspace/curate-share/t-schedule-report.md)
-      + [计划项目管理器](analysis-workspace/curate-share/schedule-projects.md)
    + 归因 IQ {#attribution}
       + [归因概述](analysis-workspace/attribution/overview.md)
       + [归因模型和回顾时间范围](analysis-workspace/attribution/models.md)
