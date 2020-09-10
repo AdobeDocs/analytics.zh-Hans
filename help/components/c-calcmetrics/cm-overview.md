@@ -3,10 +3,10 @@ description: 计算量度和高级计算（或派生）量度是指您可以从�
 keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: 计算量度和高级计算（派生）量度
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
-workflow-type: ht
-source-wordcount: '783'
+translation-type: tm+mt
+source-git-commit: e659c6ee0a503c01f7603a0fecf99a093e876caa
+workflow-type: tm+mt
+source-wordcount: '629'
 ht-degree: 100%
 
 ---
@@ -15,14 +15,6 @@ ht-degree: 100%
 # 计算量度和高级计算（派生）量度
 
 计算量度和高级计算（或派生）量度是指您可以从现有量度创建的自定义量度。
-
->[!IMPORTANT]
->
->2018 年 7 月，Adobe 引入了[归因 IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html)，这改进了计算量度中分配模型的计算方式。作为此更改的一部分，使用非默认分配模型的计算量度已迁移至改进的新归因模型。
->
->* “营销渠道最近联系”和“营销渠道首次联系”分配模型已分别迁移至新的“最近联系”和“首次联系”归因模型（注：“营销渠道”并没有被弃用 - 弃用的只有此处所述出现在计算量度中的这两个分配模型）。
->* 此外，我们还修正了线性分配的计算方式。对于通过“线性”分配模型使用计算量度的客户，报表可能会稍有变化，以反映修正后的新归因模型。计算量度的这一更改将反映在 [!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、报表 API、Report Builder 和 Ad Hoc Analysis 中。有关详细信息，请参阅[线性分配将如何工作（自 2018 年 7 月 19 日起）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)。
-
 
 我们的计算量度工具提供了一种高度灵活的方式，可用于生成、管理和组织量度。通过使用这些工具，营销人员、产品经理和分析人员不必更改 [!DNL Analytics] 实施，即可提出有关数据的问题。每个 [!DNL Analytics] 包中可用的自定义量度包括：
 
