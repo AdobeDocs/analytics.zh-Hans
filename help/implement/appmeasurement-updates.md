@@ -3,10 +3,10 @@ title: AppMeasurement for JavaScript 发行说明
 description: AppMeasurement for JavaScript 的发行说明汇总。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 476f13e80141e67c6e5a416778314a1a41224c80
 workflow-type: tm+mt
-source-wordcount: '2123'
-ht-degree: 100%
+source-wordcount: '2142'
+ht-degree: 99%
 
 ---
 
@@ -18,6 +18,12 @@ ht-degree: 100%
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 您可以在[代码管理器](/help/admin/admin/code-manager-admin.md)中下载最新版本的 AppMeasurement。
+
+## 版本 2.22.0
+
+发行日期：**2020 年 8 月 4 日**
+
+* 修复由于用户的退出首选项而未发送首次点击时丢失推荐人的问题。
 
 ## 版本 2.21.0
 
