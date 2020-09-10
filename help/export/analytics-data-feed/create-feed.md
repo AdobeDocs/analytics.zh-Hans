@@ -1,11 +1,11 @@
 ---
 title: 创建或编辑数据馈送
 description: 了解如何创建或编辑数据馈送。
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '802'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8454f64604afaea03af8bb4d7cefc3cbab889ec6
+workflow-type: tm+mt
+source-wordcount: '807'
+ht-degree: 99%
 
 ---
 
@@ -48,8 +48,9 @@ ht-degree: 100%
 
 ![S3 信息](assets/dest-s3.jpg)
 
-以下 11 个标准 AWS 区域（在必要时使用适当的签名算法）受支持：
+以下 16 个标准 AWS 区域（在必要时使用适当的签名算法）受支持：
 
+* us-east-2
 * us-east-1
 * us-west-1
 * us-west-2
@@ -58,8 +59,12 @@ ht-degree: 100%
 * ap-southeast-1
 * ap-southeast-2
 * ap-northeast-1
+* ca-central-1
 * eu-central-1
 * eu-west-1
+* eu-west-2
+* eu-west-3
+* eu-north-1
 * sa-east-1
 
 >[!NOTE]
