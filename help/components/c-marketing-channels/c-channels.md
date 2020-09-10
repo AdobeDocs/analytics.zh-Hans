@@ -4,10 +4,10 @@ subtopic: Marketing channels
 title: 管理营销渠道
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '789'
+translation-type: tm+mt
+source-git-commit: f96be5fb0ba50b9b06aa65da7eff51c869e2a6f4
+workflow-type: tm+mt
+source-wordcount: '729'
 ht-degree: 100%
 
 ---
@@ -28,17 +28,9 @@ ht-degree: 100%
 
 ## 先决条件 {#prereqs}
 
-如有必要，请联系客户支持来帮助您实现这些先决条件：
-
-* 在“管理控制台”（“一般帐户设置”）中，启用报表包的&#x200B;**[!UICONTROL 转化级别]**（电子商务）选项。
-
-   有关详细信息，请参阅 Analytics 帮助中的[一般帐户设置](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/general-acct-settings-admin.html)。
-
 * 设置对营销渠道维度的访问权限。
 
    请参阅[营销渠道权限](/help/components/c-marketing-channels/c-channel-report-access.md)。
-
-* 确保您的帐户管理员已经为您的报表包启用 了&#x200B;**[!UICONTROL 渠道报表]**。
 
 ## 添加营销渠道 {#add-mktg-channels}
 
