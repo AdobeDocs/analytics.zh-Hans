@@ -3,7 +3,7 @@ description: Analysis Workspace 的新增功能
 keywords: Analysis Workspace
 title: Analysis Workspace 中的新增功能
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
 workflow-type: tm+mt
 source-wordcount: '7820'
 ht-degree: 98%
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 | 功能 | 描述 |
 |--- |--- |
-| 新日期范围预设 | 添加了4个新日期范围： ([!UICONTROL 本周／月/季度／年（不包括今天）])。 这允许您从不包含今天部分日期数据的日期范围中进行选择。 |
+| 新日期范围预设 | 新增了4个日期范围：([!UICONTROL 本周／月/季度／年（不包括今天）])。 这允许您从不包含今天部分日期数据的日期范围中进行选择。 |
 
 ## 2020 年 6 月
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 | 功能 | 描述 |
 |--- |--- |
-| 归因 IQ：算法归因 | Analysis Workspace 中的“算法归因”模型使用统计技术动态确定所选量度的最佳点数分配方式。适用于 Adobe Analytics Ultimate 客户。[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
+| 归因 IQ：算法归因 | Analysis Workspace 中的“算法归因”模型可使用统计技术动态确定所选量度的最佳点数分配方式。适用于 Adobe Analytics Ultimate 客户。[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
 | 归因 IQ：自定义回顾时间范围 | 现在，您可以将“归因 IQ”中的任意归因模型配置为最多包含在报告期开始前的 90 天内的接触点。通过计算在之前月份发生的交互，通常可以提高在报告期初期所发生事件的归因准确性。适用于 Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete 和 Ultimate 客户。[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
 | 共享工作区项目中的项目角色 | 现在，在共享工作区项目时，您可以根据希望收件人获得的项目体验为收件人分配以下三个项目角色中的一个角色：“编辑”、“复制”和“查看”。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 仅查看的工作区项目 | 可以将工作区项目仅以“可以查看”的形式共享给用户。当具有“查看”角色的收件人打开共享项目时，他们将获得比较受限的项目体验，因为项目无左边栏而且可进行的交互也有限。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
@@ -515,7 +515,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p>对“无”/“未指定”进行了更改 </p> </td> 
-   <td colname="col2"> <p>更改了“无”/“未指定”在Analysis Workspace下的工作方式，以便与“报告和Analytics”、“区段生成器”和“Analysis Workspace”中的维项目菜单保持一致。 </p> <p>这意味着在 Analysis Workspace 的大多数项目中，值将显示为“未指定”而非“无”。 </p> </td> 
+   <td colname="col2"> <p>更改了“无／未指定”在Analysis Workspace的工作方式，以便与Analysis Workspace的“报告和分析”、“区段生成器”和“维度项目”菜单保持一致。 </p> <p>这意味着在 Analysis Workspace 的大多数项目中，值将显示为“未指定”而非“无”。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -736,7 +736,7 @@ ht-degree: 98%
    <td colname="col2"> <p>之前，如果您使用 Experience Cloud 凭据登录并导航到 Analytics，则无法使用<span class="ignoretag"><span class="uicontrol">共享</span> &gt; <span class="uicontrol">获取项目链接</span></span>功能。我们已经修复此问题。但您仍必须先保存项目，然后此选项才会变得可单击。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/curate-share/schedule-projects.md"  >计划项目管理器中的“过期项目”</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  >计划项目管理器中的“过期项目”</a></b> </p> </td> 
    <td colname="col2"> <p>现在，您可以在计划项目管理器中过滤过期的项目。然后，决定是重新启动还是删除这些项目。 </p> </td> 
   </tr> 
  </tbody> 
