@@ -5,9 +5,9 @@ title: 计划项目
 topic: Reports and analytics
 uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
 translation-type: tm+mt
-source-git-commit: 04b5c7af0ac0052d059bea86cae13aa7fb05fff3
+source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '468'
 ht-degree: 8%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 8%
 1. 单击&#x200B;**立即发送**。
 1. （可选）单击“显 **示计划选项** ”以指定投放计划。
 
+![立即发送文件](assets/send-file-now.png)
+
 ## 按计划发送文件
 
 要通过电子邮件将循环计划上的文件发送给收件人，请执行以下操作：
@@ -40,11 +42,15 @@ ht-degree: 8%
 1. 指定投放频率。 每个频率允许不同的自定义。
 1. 单击 **“在计划时发送**”。
 
+![](assets/send-on-schedule.png)
+
 ## 计划项目管理器
 
 计划的Analysis Workspace项目可在“分析”>“ **组件”>“计划项目”下进行管理**。
 
 在计划项目管理器中，您可以编辑和删除重复的项目计划。 在搜索栏中或使用左边栏中的筛选器选项搜索计划。 您可以按标记、批准的计划、所有者等进行筛选。
+
+![](assets/scheduled-project-manager.png)
 
 以下是“计划项目”管理器中的常见操作：
 
