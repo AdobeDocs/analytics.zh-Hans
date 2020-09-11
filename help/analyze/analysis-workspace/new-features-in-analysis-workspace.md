@@ -3,9 +3,9 @@ description: Analysis Workspace 的新增功能
 keywords: Analysis Workspace
 title: Analysis Workspace 中的新增功能
 translation-type: tm+mt
-source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
+source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
 workflow-type: tm+mt
-source-wordcount: '7820'
+source-wordcount: '7821'
 ht-degree: 98%
 
 ---
@@ -1135,9 +1135,9 @@ ht-degree: 98%
 
 *`Save As`*&#x200B;还可用于[!UICONTROL 计算量度生成器]和[!UICONTROL 日期范围生成器]。
 
-## “添加新区段”按钮{#section_85CC88C02C79456EA2B41F2BFBB64FC4}
+## 添加新区段
 
-**[!UICONTROL 添加新区段]**&#x200B;按钮已被添加到您将区段拖放到项目中的位置。
+已 **[!UICONTROL 添加将区段拖放]** 到此处的拖放区域，因此您可以将区段拖放到项目上。
 
 ![](assets/add-new-segment.png)
 
