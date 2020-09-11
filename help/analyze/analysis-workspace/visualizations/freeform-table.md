@@ -1,8 +1,11 @@
 ---
 title: 自由格式表
 description: 了解自由格式表和自由格式表生成器
-translation-type: ht
-source-git-commit: ce06a5ca2caeb266c729947c76e93c611502e6d9
+translation-type: tm+mt
+source-git-commit: 677539632878655a6e573176321b59b531e1ab2c
+workflow-type: tm+mt
+source-wordcount: '551'
+ht-degree: 100%
 
 ---
 
@@ -25,14 +28,14 @@ source-git-commit: ce06a5ca2caeb266c729947c76e93c611502e6d9
 
 ## 自由格式表生成器
 
-如果您希望先向表中添加多个组件，然后再渲染数据，则可以启用自由格式表生成器。启用该生成器后，您可以通过拖放多个维度、划分、量度和区段来构建可解答更复杂业务问题的表格。数据不会即时更新，单击 **[!UICONTROL Build]** 后才会更新。
+如果您希望先向表中添加多个组件，然后再渲染数据，则可以启用自由格式表生成器。启用该生成器后，您可以通过拖放多个维度、划分、量度和区段来构建可解答更复杂业务问题的表格。数据不会即时更新，单击&#x200B;**[!UICONTROL 构建]**&#x200B;后，数据将会更新。
 
 如果您遇到复杂的数据问题，并且您想要构建表格来回答您的问题，则表生成器是一个省时的选项。表生成器的其他优势包括：
 
 * 以所需的确切格式排列表，无需渲染每个操作。
 * 可快速划分多达 4 个级别的数据。
 * 为每个表行和维度列定义行和划分设置。
-* 默认情况下，**[!UICONTROL Breakdown by Position]** 适用于每个级别的表（在传统的自由格式表中，默认为 **[!UICONTROL Breakdown by Item]**）。
+* 默认情况下，将针对表的每个级别&#x200B;**[!UICONTROL 按位置划分]**（在传统的自由格式表中，默认为&#x200B;**[!UICONTROL 按项目划分]**）。
 * 手动对表中的静态行排序。例如，希望量度行按特定顺序显示。
 * 在渲染真实数据之前预览表格式。
 
@@ -42,6 +45,6 @@ source-git-commit: ce06a5ca2caeb266c729947c76e93c611502e6d9
 
 可以通过以下几种方式，从 Analysis Workspace 中复制自由格式表中的数据：
 
-* 右键单击表标题并选择 **[!UICONTROL Copy to Clipboard]**。这将可以导出完整的（可见）表格。
-* 突出显示表中的特定单元格，右键单击并选择 **[!UICONTROL Copy to Clipboard]**，或使用 Ctrl + C 热键。
-* **[!UICONTROL Project > Download CSV]**。此操作可将项目中的所有可见表格导出为 CSV。
+* 右键单击表标题，然后选择&#x200B;**[!UICONTROL 复制到剪贴板]**。这将可以导出完整的（可见）表格。
+* 突出显示表中的特定单元格，右键单击并选择&#x200B;**[!UICONTROL 复制到剪贴板]**，或使用 Ctrl + C 热键。
+* **[!UICONTROL 项目 > 下载 CSV]**。此操作可将项目中的所有可见表格导出为 CSV。
