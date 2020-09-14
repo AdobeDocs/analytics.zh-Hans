@@ -1,40 +1,62 @@
 ---
-description: Analysis Workspace 中的组件包括量度、维度、区段和时间粒度，您可以将这些组件拖放到项目中。您创建的自定义组件会被添加到这些面板中，例如自定义日期范围。
+description: 'Analysis Workspace地区的组件由维度、指标、细分和日期范围组成，您可以将它们拖放到项目中。 '
 title: 组件概述
 uuid: 1a4e1c35-eac9-4eb4-be2e-ecb2c6728150
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '278'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 08d61f4e41bae8a9a0a4be6a950db4ef093c4b02
+workflow-type: tm+mt
+source-wordcount: '731'
+ht-degree: 13%
 
 ---
 
 
 # 组件概述
 
-Analysis Workspace 中的组件包括量度、维度、区段和时间粒度，您可以将这些组件拖放到项目中。您创建的自定义组件会被添加到这些面板中，例如自定义日期范围。
+Analysis Workspace地区的组件由维度、指标、细分和日期范围组成，您可以将它们拖放到项目中。
 
-要访问“组件”面板，请单击左边栏中的&#x200B;**[!UICONTROL 组件]**&#x200B;图标。您可以使用左边栏图标或[热键](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)在面板（空白面板、[自由格式面板](/help/analyze/analysis-workspace/visualizations/freeform-table.md)、或[区段比较](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)面板）、[可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)和组件之间切换。
+To access the Components menu, click the **Components** icon in the left rail. 您可以从左边栏 [图标](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html)，或通过使 [用热键](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)，在“面板”、“可视化”和“组件”之间 [切换](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)。
 
-![](assets/components.png)
+您还可以通过转到 [“项目”](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) >“项目信息和设置”>“视图密度” **，一次调整项目的视图密度设置，以在左边栏**&#x200B;中查看更多值。
 
-请参阅[创建一个自由格式分析项目](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)，以了解有关在项目中使用组件的信息。
+## 维度 {#dimensions}
 
-## 组件操作 {#section_B7BB29B89AE04297874CDE2C52EAD516}
+[**Dimension**](https://docs.adobe.com/content/help/en/analytics/components/dimensions/overview.html) 是描述访客行为的文本属性，可以在分析中查看、细分和比较。 它们可在左边的组件边栏（橙色部分）中找到，通常作为表的行应用。
 
-您可以通过多种方式管理组件（逐个选择或通过选择多个组件）。右键单击组件，或单击组件列表顶部的&#x200B;**[!UICONTROL 操作]**。
+维的示例包括页面名称、营销渠道、设备类型和产品。 Dimension由Adobe提供，并通过您的自定义实施(eVar、Prop、分类等)进行捕获。
 
->[!NOTE]
->
->这些操作不适用于“时间”组件。
+每个维中还 **包含维** 项。 Dimension项可在左侧组件边栏中单击任何维名称旁边的V形箭头（项目为黄色）。
+
+维项目的示例包括主页（在页面维中）、付费搜索(在营销渠道维中)、平板电脑（在移动设备类型维中）等。
+
+## 量度 {#metrics}
+
+[**指标**](https://docs.adobe.com/content/help/en/analytics/components/metrics/overview.html) 是关于访客行为的量化指标。 它们位于左侧的组件边栏（绿色部分）中，通常作为表的列应用。
+
+指标的示例包括页面视图、访问量、订单、平均花费时间和收入／订单。 量度由Adobe提供，通过自定义实施(成功事件)捕获，或使用“计算量度生成器” [创建](https://docs.adobe.com/content/help/zh-Hans/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)。
+
+## 区段 {#segments}
+
+[**区段**](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) 是应用于您的受众的过滤器。 它们可在左边的组件边栏（蓝色部分）中找到，通常应用于面板顶部或表格中的度量列上方。
+
+区段的示例包括移动设备访客、电子邮件访问和经身份验证的点击。 区段由Adobe提供，在面板拖放区 [域创建](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html)，或使用区段构 [建器创建](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/segmentation-workflow/seg-build.html)。
+
+## 日期范围 {#date-ranges}
+
+[**日期范围**](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) 是您进行分析的日期范围。 它们位于左侧的组件边栏（紫色部分）中，通常应用于每个面板的日历。
+
+日期范围的示例包括2019年7月、最近4周和本月。 日期范围由Adobe提供、应用于面 [板日历](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html)，或使用日期范 [围生成器创建](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html)。
+
+## 组件操作 {#actions}
+
+您可以直接在左边栏中管理组件（单独或通过选择多个组件）。 右键单击某个组件或单击组件列表顶部的操作点图标。
 
 | 组件操作 | 描述 |
 |--- |--- |
-| 标记 | 通过对组件应用标记来组织或管理组件。然后它会显示在相应的组件管理器中，如“Analytics”>“组件”>“区段”，或“Analytics”>“组件”>“项目” |
-| 收藏 | 将组件添加到您的收藏夹列表中。然后它会显示在相应的组件管理器中，如“Analytics”>“组件”>“区段”，或“Analytics”>“组件”>“项目”。 |
-| 批准 | 批准组件以使其成为规范。然后它会显示在相应的组件管理器中，如“Analytics”>“组件”>“区段”，或“Analytics”>“组件”>“项目” |
-| 共享 | 仅适用于区段。 |
-| 删除 | 仅适用于区段。 |
+| 标记 | 通过对组件应用标记来组织或管理组件。然后，您可以单击过滤器或键入#，按左边栏中的标记进行搜索。 标记还在组件管理器中充当过滤器。 |
+| 收藏 | 将组件添加到您的收藏夹列表中。与标记一样，您可以按左边栏中的收藏夹进行搜索，并在组件管理器中按它们进行筛选。 |
+| 批准 | 将组件标记为“已批准”，以向用户发出组织批准的信号。 与标记类似，您可以在左边栏中按“已批准”搜索，并在组件管理器中按它们进行筛选。 |
+| 共享 | 将组件共享给组织中的用户。 此选项仅对自定义组件可用，如区段或计算量度。 |
+| 删除 | 删除不再需要的组件。 此选项仅对自定义组件可用，如区段或计算量度。 |
 
-[YouTube 上的创建量度、区段和日期](https://www.youtube.com/watch?v=XXJuNAte8E8&amp;index=25&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:51)
+自定义组件还可以通过各自的组件管理器进行管理。
