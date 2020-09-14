@@ -1,11 +1,11 @@
 ---
 description: Adobe Analysis Workspace 及其相关组件中的已知限制列表
 title: Analysis Workspace 中的已知限制
-translation-type: ht
-source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
-workflow-type: ht
-source-wordcount: '390'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00f36d8583ec9224337404cfd7fa020502d89c2d
+workflow-type: tm+mt
+source-wordcount: '415'
+ht-degree: 87%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 ## “组件”>“区段”
 
 * 某些量度和维度不可分段，如[!UICONTROL 发生次数]、[!UICONTROL 唯一访客]，等等。
-* 如果从工作区中创建区段（而不是从[!UICONTROL 组件 > 区段]创建区段），则某些组件和运算符将不可用。例如，IP 地址。
+* 在面板拖放区中创 [建的临时区](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html) ，将不会显示在Workspace或区段组件管理器的左边栏中，除非将它们公开。 这可通过编辑区段并选择公 **[!UICONTROL 开此区段来完成]**。
 
 ## “组件”>“计算量度”
 
