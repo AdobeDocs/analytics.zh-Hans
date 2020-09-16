@@ -3,9 +3,9 @@ description: 您可以通过复制数据或以PDF和CSV格式从Analysis Workspa
 title: 下载 PDF 或 CSV 文件
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 1cad7c4338f346dddb12f52b49040d3606801646
+source-git-commit: c09923a3f946e43f8287d477eb6df928f001b32e
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '985'
 ht-degree: 8%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 8%
 # 下载 PDF 或 CSV 文件 从工作区
 
 您可以通过多种不同的方式从Analysis Workspace导出数据，具体取决于要在工具外分析的数据集以及哪些人需要接收信息。 导出的数据可以采用复制的数据、CSV或PDF文件的形式。 如果您希望将可视化包含在文件中，则通常首选PDF；而如果您只想要纯文本数据，则首选CSV（或复制的数据）。
-
->[!IMPORTANT]
->
-> 本页中提及的某些选项(如 **下载CSV项目**)当前处于有限测试中。 [了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html)
 
 ## 将项目下载为CSV或PDF {#download-project}
 
