@@ -2,9 +2,9 @@
 description: Ad Hoc Analysis 简介
 title: Ad Hoc Analysis 概述
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '152'
 ht-degree: 92%
 
 ---
@@ -16,7 +16,7 @@ Ad Hoc Analysis 提供无限制的实时访客信息，帮助您识别高价值�
 
 >[!IMPORTANT]
 >
->Adobe将于2021年3月1日将Ad Hoc Analysis改为停产。 [了解更多...](https://adobe.ly/discoverworkspace).
+>Adobe正在将Ad Hoc Analysis迁至2021年3月1日的生命周期。 [了解更多](https://adobe.ly/discoverworkspace)
 
 ## 新的热门主题
 
