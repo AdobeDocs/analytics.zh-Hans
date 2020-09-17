@@ -2,18 +2,22 @@
 description: 'null'
 title: 在 Ad Hoc Analysis 中转换项目
 uuid: 20bd9974-209e-457c-9e52-d50f90078af6
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
-workflow-type: ht
-source-wordcount: '282'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 95%
 
 ---
 
 
 # 在 Ad Hoc Analysis 中转换项目
 
-## 在 Ad Hoc Analysis 中转换项目 {#topic_5A55F73488704C5D8E42CDD04B5984DE}
+>[!IMPORTANT]
+>
+>Adobe将于2021年3月1日将Ad Hoc Analysis改为停产。 [了解更多...](https://adobe.ly/discoverworkspace).
+
+## 转换项目 {#topic_5A55F73488704C5D8E42CDD04B5984DE}
 
 在转换项目之前，请注意以下事项：
 
@@ -28,7 +32,7 @@ ht-degree: 100%
 * 从列表中选择要转换的项目。
 * 仅转换当前已打开的项目。
 
-**从列表中选择项目**
+### 从列表中选择项目
 
 1. 在 Ad Hoc Analysis 中，单击&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 将项目转换到 Analysis Workspace]**。
 
@@ -43,7 +47,7 @@ ht-degree: 100%
 
    ![](assets/export_summary.png)
 
-**转换当前项目**
+### 转换当前项目
 
 1. 在 Ad Hoc Analysis 中，打开要转换的项目。
 1. 单击&#x200B;**[!UICONTROL 将当前项目转换到 Analysis Workspace]**。 ![](assets/export_current.png)
