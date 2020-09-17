@@ -3,9 +3,9 @@ description: 可以使用表生成器创建具有任何量度、维度、区段�
 title: 表生成器
 uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '779'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->Adobe将于2021年3月1日将Ad Hoc Analysis改为停产。 [了解更多...](https://adobe.ly/discoverworkspace).
+>Adobe正在将Ad Hoc Analysis迁至2021年3月1日的生命周期。 [了解更多](https://adobe.ly/discoverworkspace)
 
 可以使用表生成器创建具有任何量度、维度、区段配置的报表。例如，您可以将多个量度添加到表生成器中，然后将区段同时应用于所有量度。您可以从工具窗格中将项目应用为行和划分，或者应用为列，然后轻松旋转表以获得不同的视图。在生成表后，您可以直接与结果数据表交互以进行进一步分析。请记住，从表生成器中生成数据表时会运行查询和创建新的数据表。
 
