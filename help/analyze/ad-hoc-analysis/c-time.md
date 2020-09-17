@@ -3,12 +3,19 @@ description: 时间是用于显示小时、日、周和日期范围趋势的报�
 title: 时间
 uuid: a6efbf80-342c-4aeb-80f3-91a3dbdbd33c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '395'
+ht-degree: 97%
 
 ---
 
 
 # 时间
+
+>[!IMPORTANT]
+>
+>Adobe将于2021年3月1日将Ad Hoc Analysis改为停产。 [了解更多...](https://adobe.ly/discoverworkspace).
 
 时间是用于显示小时、日、周和日期范围趋势的报表维度。例如，产品报表显示选定日期范围内产品所产生的收入。您可以添加日维度以查看报告期间每天的趋势。时间提供“小时”、“日”、“周”、“月”、“季度”和“年”粒度设置。日期范围预设包含今天、昨天和过去一周等设置。
 
