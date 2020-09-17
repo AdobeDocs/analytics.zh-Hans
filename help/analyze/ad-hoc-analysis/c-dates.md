@@ -3,15 +3,19 @@ description: 在日历中，您可以指定日期和日期范围，或者选择�
 title: 日期和日期范围
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 100%
+source-wordcount: '476'
+ht-degree: 97%
 
 ---
 
 
 # 日期和日期范围
+
+>[!IMPORTANT]
+>
+>Adobe将于2021年3月1日将Ad Hoc Analysis改为停产。 [了解更多...](https://adobe.ly/discoverworkspace).
 
 在日历中，您可以指定日期和日期范围，或者选择一个预设。您可以在项目、工作区和报表级别选择日历。项目的日期范围是默认日期。不过，工作区日期范围优先于项目日期范围。同样，报表的日期范围优先于工作区和项目的日期设置。您无法选择数据可用性范围以外的日期范围。
 
