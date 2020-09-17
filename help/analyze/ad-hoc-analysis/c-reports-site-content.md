@@ -3,9 +3,9 @@ description: 显示的信息包括网站上哪些页面和区域最为活跃及�
 title: 网站内容报表
 uuid: 70317d28-a52e-4660-9f8e-a8fce012836c
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '545'
 ht-degree: 97%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->Adobe将于2021年3月1日将Ad Hoc Analysis改为停产。 [了解更多...](https://adobe.ly/discoverworkspace).
+>Adobe正在将Ad Hoc Analysis迁至2021年3月1日的生命周期。 [了解更多](https://adobe.ly/discoverworkspace)
 
 显示的信息包括网站上哪些页面和区域最为活跃及哪些服务器使用率最高。
 
