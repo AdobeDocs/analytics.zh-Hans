@@ -4,9 +4,9 @@ title: Adobe Target
 topic: Ad hoc analysis
 uuid: 420da093-9d0d-454e-a193-e0595f36d3b1
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '158'
 ht-degree: 92%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->Adobe将于2021年3月1日将Ad Hoc Analysis改为停产。 [了解更多...](https://adobe.ly/discoverworkspace).
+>Adobe正在将Ad Hoc Analysis迁至2021年3月1日的生命周期。 [了解更多](https://adobe.ly/discoverworkspace)
 
 在 Analytics 报表中查看和划分 Adobe Target 流量数据。
 
