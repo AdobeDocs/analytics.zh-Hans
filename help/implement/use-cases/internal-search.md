@@ -2,7 +2,7 @@
 title: 捕获内部搜索词
 description: 使用自定义变量捕获内部搜索词。
 translation-type: tm+mt
-source-git-commit: 091e4b859addc1780d94d90c8b59748277890241
+source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 2%
@@ -42,7 +42,7 @@ Follow [Map Launch data elements to Analytics variables](../launch/elements-to-v
 
 Follow [Deploy an Analytics implementation to a development environment](../launch/deploy-dev.md). 一旦您确认它正在开发环境中工作，您就可以验 [证开发实施并发布到生产](../launch/validate-publish-prod.md)。
 
-## 报告。
+## 工作区中的报告
 
 给您的实施一些时间来收集数据，然后您可以使用Analysis Workspace的维度进行开始。
 
