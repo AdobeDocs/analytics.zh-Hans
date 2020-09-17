@@ -2,10 +2,10 @@
 description: 'null'
 title: 调色板
 uuid: 18252889-8dc0-48fa-820f-df534156c22f
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '198'
+translation-type: tm+mt
+source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
+workflow-type: tm+mt
+source-wordcount: '197'
 ht-degree: 100%
 
 ---
@@ -34,5 +34,5 @@ ht-degree: 100%
    ![](assets/custom_palette.png)
 
 1. 要指定自己的调色板，请选择预设选项下方的&#x200B;**[!UICONTROL 自定义调色板]**。
-1. 为要使用的颜色指定最多 16 个以逗号分隔的十六进制值（例如，#00a4e4）。例如，如果您只想使用 4 个值，那么将在包含更多颜色的可视化图表中重复使用这些颜色。
+1. 为要使用的颜色指定最多 16 个以逗号分隔的十六进制值（例如，#00a4e4）。例如，如果您只想使用 4 个值，那么系统将在包含更多颜色的可视化图表中自动重复使用这些颜色。
 
