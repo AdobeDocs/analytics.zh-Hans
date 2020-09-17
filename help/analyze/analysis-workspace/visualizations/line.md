@@ -3,10 +3,10 @@ description: 使用线条可视化描述趋势（基于时间）数据集
 title: 折线图
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: e3e67de7c6f3b82198aa8d823c066030f3c3111e
+source-git-commit: e9982ff662396fbdd2f5c9645d768fb373764968
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 12%
+source-wordcount: '455'
+ht-degree: 10%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 12%
 “行”可视化使用行表示度量，以显示值在一段时间内的变化情况。 仅当使用时间作为维度时，才可以使用折线图。
 
 ![线条可视化](assets/line-viz.png)
-
->[!IMPORTANT]
->
->某些线条可视化设置(如“显 [!UICONTROL 示趋势线]”)当前处于有限测试中。 [了解更多](/help/landing/an-releases.md)
 
 单击线可视化右上角的齿轮图标可访问可 [**视化设**](freeform-analysis-visualizations.md) 置。 设置分为：
 
@@ -42,6 +38,10 @@ ht-degree: 12%
 ## 显示趋势线叠加
 
 在“ **[!UICONTROL 可视化设]** 置”> **[!UICONTROL “叠加]** ”>“ **[!UICONTROL 显示趋势线]**”下，您可以选择向行系列添加回归趋势线。 趋势线有助于在数据中描绘更清晰的图案。
+
+>[!TIP]
+>
+>我们建议将趋势线应用于不包括今天（部分数据）或未来日期的数据，因为这些数据将扭曲趋势线。 但是，如果您需要包含未来日期，请从数据中删除零，以防这些日期出现偏斜。 为此，请转到可视化的数据源表并选择度量列。 然后转到“ [!UICONTROL 列设置] ”并选 **[!UICONTROL 中“将零解释为无值]**”。)
 
 ![线性趋势线](assets/show-linear-trendline.png)
 
