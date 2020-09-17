@@ -3,12 +3,19 @@ description: 配置整体行为设置。例如，您可以配置自动保存、�
 title: 设置
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '611'
+ht-degree: 98%
 
 ---
 
 
 # 设置
+
+>[!IMPORTANT]
+>
+>Adobe将于2021年3月1日将Ad Hoc Analysis改为停产。 [了解更多...](https://adobe.ly/discoverworkspace).
 
 配置整体行为设置。例如，您可以配置自动保存、图表和表设置，以及指定字体和区域设置。
 
@@ -16,7 +23,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 配置整体行为设置。例如，您可以配置自动保存、图表和表设置，以及指定字体和区域设置。
 
-单击 **[!UICONTROL Tools]** > **[!UICONTROL Settings]** 可访问 [!UICONTROL Global Settings]。
+单击&#x200B;****“工具”>“设置”****&#x200B;以访问“全局设置”。
 
 ## “常规设置”选项卡 - 定义{#reference_EADAF83466994F89BCC6B0F49A9A53DB}
 
