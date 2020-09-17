@@ -2,16 +2,20 @@
 description: 'null'
 title: Ad Hoc Analysis 项目转换器概述
 uuid: 7d78753d-d56c-4eea-b1dd-7c9ec225cce3
-translation-type: ht
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
-workflow-type: ht
-source-wordcount: '166'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 93%
 
 ---
 
 
 # Ad Hoc Analysis 项目转换器概述
+
+>[!IMPORTANT]
+>
+>Adobe将于2021年3月1日将Ad Hoc Analysis改为停产。 [了解更多...](https://adobe.ly/discoverworkspace).
 
 Ad Hoc Analysis 项目转换器可将您的所有 Ad Hoc 项目无缝地转换到 Analysis Workspace。
 
