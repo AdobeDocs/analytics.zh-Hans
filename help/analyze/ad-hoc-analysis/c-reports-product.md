@@ -4,10 +4,10 @@ title: 产品报表
 topic: Ad hoc analysis
 uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 95%
+source-wordcount: '234'
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->Adobe将于2021年3月1日将Ad Hoc Analysis改为停产。 [了解更多...](https://adobe.ly/discoverworkspace).
+>Adobe正在将Ad Hoc Analysis迁至2021年3月1日的生命周期。 [了解更多](https://adobe.ly/discoverworkspace)
 
 显示网站上销售、分销或显示产品的信息。您可以查看订购数据，或产品、应用程序及内容的下载数据。
 
