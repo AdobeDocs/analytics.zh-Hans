@@ -3,10 +3,10 @@ description: 有关数据馈送的常见问题解答
 keywords: Data Feed;job;pre column;post column;case sensitivity
 title: 数据馈送常见问题解答
 translation-type: tm+mt
-source-git-commit: 966d1e8d47df03f6e4cedfedd62c1d3bc56a3606
+source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 86%
+source-wordcount: '318'
+ht-degree: 66%
 
 ---
 
@@ -30,3 +30,9 @@ ht-degree: 86%
 ## 数据馈送中是否包含按管理控制台机器规则过滤的机器人程序？
 
 数据馈送不包括按Admin Console机器规则筛 [选的机器人程序](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html)。
+
+## 为什么在或数 `000` 据馈送列 `event_list` 中 `post_event_list` 看到多个值？
+
+某些电子表格编辑器，特别是Microsoft Excel自动舍入大数字。 该 `event_list` 列包含许多以逗号分隔的数字，有时会导致Excel将其视为大数字。 它将最后几个数字舍入为 `000`。
+
+Adobe建议不要在Microsoft `hit_data.tsv` Excel中自动打开文件。 请改用Excel的“导入数据”对话框，并确保所有字段均被视为文本。
