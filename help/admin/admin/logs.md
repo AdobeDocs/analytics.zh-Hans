@@ -2,9 +2,8 @@
 description: 日志文件有助于您了解用户登录的时间、用户使用情况、访问情况、报表包，以及管理员执行的更改。
 title: 日志
 topic: Admin tools
-uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: fff1fb97f9224b7e68f85b24ac440083503df54f
+source-git-commit: ebcd348dd952c24b5a5eaadb46ec3a521aba2e98
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 72%
