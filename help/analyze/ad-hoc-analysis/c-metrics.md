@@ -3,9 +3,9 @@ description: 量度是有关访客活动的量化信息，如查看次数、点�
 title: 量度
 uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '541'
 ht-degree: 97%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->Adobe将于2021年3月1日将Ad Hoc Analysis改为停产。 [了解更多...](https://adobe.ly/discoverworkspace).
+>Adobe正在将Ad Hoc Analysis迁至2021年3月1日的生命周期。 [了解更多](https://adobe.ly/discoverworkspace)
 
 量度是有关访客活动的量化信息，如查看次数、点进次数、重新加载次数、平均逗留时间、日期、件数、订购数、收入等。量度和关联的数据显示在报表的列中。
 
