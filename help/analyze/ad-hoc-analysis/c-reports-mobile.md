@@ -3,9 +3,9 @@ description: 显示从移动设备所访问的网站的相关信息。移动设�
 title: 移动设备报表
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1395'
 ht-degree: 97%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->Adobe将于2021年3月1日将Ad Hoc Analysis改为停产。 [了解更多...](https://adobe.ly/discoverworkspace).
+>Adobe正在将Ad Hoc Analysis迁至2021年3月1日的生命周期。 [了解更多](https://adobe.ly/discoverworkspace)
 
 显示从移动设备所访问的网站的相关信息。移动设备报表收集有关用于查看网站的移动设备的数据，从而改进访客识别。移动设备报表可以确定设备的制造商和功能，如屏幕大小、视频、音频，Cookie 支持及其他量度等。移动设备报表可用于所有报表包。
 
