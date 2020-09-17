@@ -4,12 +4,19 @@ title: 网站量度报表
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '1412'
+ht-degree: 99%
 
 ---
 
 
 # 网站量度报表
+
+>[!IMPORTANT]
+>
+>Adobe将于2021年3月1日将Ad Hoc Analysis改为停产。 [了解更多...](https://adobe.ly/discoverworkspace).
 
 显示有关网站的量化信息，如访客查看某个页面的次数、从特定页面进行的购买总数、访客进入网站的时间及其他类似的量化数据。其中每个报表都是一个量度，您可以将其放在其他基于项目的报表中。
 
@@ -19,7 +26,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 量度报表随时间的推移形成趋势。您可以向这些报表应用时间和每周日期粒度。或者，可分析网站逗留时间、购买数目、收入及类似量度。
 
-The following Site Metrics reports are available in the [!UICONTROL Site Metrics] menu.
+[!UICONTROL 网站量度]菜单中提供有以下网站量度报表。
 
 ## 页面查看次数报表 {#concept_5331AFB6948547F7B8DF367B49360E6B}
 
@@ -29,7 +36,7 @@ c_reports_pageviews.xml
 
  -->
 
-“页面查看”报表是一个趋势报表，它显示选定时段（小时、日、周、月、季或年）内网站页面的查看次数。A [!UICONTROL Page View] is a request for a full page document, rather than an element of a page, such as an image or video. 例如，如果单一访客在一次访问中查看 15 个页面，则计算 15 次页面查看。如果一位访客在一次访问期间查看三次同一页面，将计算三次页面查看。您可利用此报表来跟踪网站中每个页面的查看次数，以及整个网站的页面查看次数总和。
+“页面查看”报表是一个趋势报表，它显示选定时段（小时、日、周、月、季或年）内网站页面的查看次数。[!UICONTROL 页面查看]是对完整页面文档的请求，而不是页面的某个元素，如图像或视频。例如，如果单一访客在一次访问中查看 15 个页面，则计算 15 次页面查看。如果一位访客在一次访问期间查看三次同一页面，将计算三次页面查看。您可利用此报表来跟踪网站中每个页面的查看次数，以及整个网站的页面查看次数总和。
 
 ## 访问报表 {#concept_50CA55CF2A41430CBC754AEEEE6023A9}
 
@@ -41,7 +48,7 @@ c_reports_visits.xml
 
  -->
 
-In marketing reports and analytics, you can run a [!UICONTROL Visits Report] on a selected page. 在 Ad Hoc Analysis 中，您可以对数据分段以查看特定页面。
+在 Marketing Reports &amp; Analytics 中，您可以在选择的页面运行[!UICONTROL 访问报表]。在 Ad Hoc Analysis 中，您可以对数据分段以查看特定页面。
 
 ## 独特访客报表 {#concept_39097C54E46C496CBAD537329DB3C84A}
 
@@ -69,7 +76,7 @@ c_reports_visitors.xml
 
  -->
 
-表底部显示的总计值为指定时间段内总访问量，不一定表示独特访客人数。For example, if you run a [!UICONTROL Daily Unique Visitors Report] with a time frame of several days, the total can include repeat visitors, because the same visitor might return on the next day and be counted again. However, if you run a [!UICONTROL Monthly Unique Visitors Report], the value in the Totals column accurately reflects how many unique visitors came during the month.
+表底部显示的总计值为指定时间段内总访问量，不一定表示独特访客人数。例如，如果运行时间范围为多日的[!UICONTROL 每日独特访客报表]，则总值可包括重复访客人数：由于同一访客可能在第二天回访，因而会再次计数。但若运行[!UICONTROL 每月独特访客报表]，则“总计”列会准确地显示当月独特访客人数。
 
 ## 每次访问逗留时间报表 {#concept_5CDB759F9C9B4002A786A71F2BDBB292}
 
@@ -112,7 +119,7 @@ c_reports_shopping_cart.xml
 
  -->
 
-您可以使用以 [!UICONTROL Carts Report] 下命令：
+[!UICONTROL 购物车报表]的用途包括：
 
 * 确定网站上已打开购物车的模式或数量的高值或低值。
 * 详细检查特定时间段，以查找有关专门贡献于购物车打开的量度的详细信息。
@@ -127,7 +134,7 @@ c_reports_custom_events.xml
 
  -->
 
-由于每个分析报表包都不相同，因此对于不同的客户，此报表集的用途也不尽相同。A [!UICONTROL Custom Event] report can be used as a counter that shows the number of times an event occurs. For example, if **[!UICONTROL event1]** is set to count the number of times a document is downloaded, then the [!UICONTROL Custom Event] report for Event 1 shows the total number of times the event (or download) occurs. 你可使用多个自定义事件报表。
+由于每个分析报表包都不相同，因此对于不同的客户，此报表集的用途也不尽相同。[!UICONTROL 自定义事件]报表可用作显示事件发生次数的计数器。例如，如果将 **[!UICONTROL event1]** 设置为计算文档的下载次数，则事件 1 的自定义事件报表会显示该事件（或下载）发生的总次数。你可使用多个自定义事件报表。
 
 ## 转化报表 {#concept_BDD3DD8A46F043BB916C7E346E7C314F}
 
@@ -159,8 +166,8 @@ c_reports_marketing_channel.xml
 
  -->
 
-**[!UICONTROL First or Last Touch Channel Report]**:显示显示有关特定首次接触或最近接触渠道的数据的量度。 在这些报表中，您可以划分渠道，显示每个渠道的详细信息。如果您启用了 AdLens，则可以在 Marketing Reports &amp; Analytics 渠道报表中看到分类信息。
+**[!UICONTROL 首个或最近联系渠道报表]**：显示可显示有关特定首个或最近联系渠道的数据的量度。在这些报表中，您可以划分渠道，显示每个渠道的详细信息。如果您启用了 AdLens，则可以在 Marketing Reports &amp; Analytics 渠道报表中看到分类信息。
 
-**[!UICONTROL First or Last Touch Channel Detail Reports]**:显示页面名称和推荐人等详细信息，这些详细信息取自配置规则时在选项中设置 [!UICONTROL Set the channel's value to] 的渠道值。 通过渠道详细报表可以仔细检查概述报表的渠道明细值。
+**[!UICONTROL 首个或最近联系渠道明细报表]**：显示页面名称和反向链接等详细信息，这些信息来自配置规则时在“渠道值设置为”选项中设置的渠道值。通过渠道详细报表可以仔细检查概述报表的渠道明细值。
 
 有关在市场营销报告与分析中配置营销渠道的深度信息，请参阅[营销渠道帮助](/help/components/c-marketing-channels/analyze-mc.md)系统。
