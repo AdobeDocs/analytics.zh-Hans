@@ -2,10 +2,10 @@
 title: 周
 description: 量度出现的周。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 58%
+source-wordcount: '141'
+ht-degree: 42%
 
 ---
 
@@ -20,4 +20,6 @@ ht-degree: 58%
 
 ## Dimension项
 
-Dimension项包括一周中第一天的日期（月、日和年）。
+在Analysis Workspace，维度项目包括一周中第一天的日期（月、日和年）。
+
+在Data warehouse中，维度项目包含基于请求日期范围的编号周。 例如，第一个整周是 `"Week 1"`。 如果请求包含部分周，则数据将分组到维项目中 `"Week 0"`。
