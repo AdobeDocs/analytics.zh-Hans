@@ -3,15 +3,19 @@ description: 将 Ad Hoc Analysis 术语和任务与 Analysis Workspace 进行比
 title: Analysis Workspace 与 Ad Hoc Analysis 的比较
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 translation-type: tm+mt
-source-git-commit: a364d05fc18dbc47d4c9cf4ebd7fed1e284e6066
+source-git-commit: 0c934b0e1d6c1e862094737ad7ac504574c0c0d2
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 87%
+source-wordcount: '930'
+ht-degree: 86%
 
 ---
 
 
 # Analysis Workspace 与 Ad Hoc Analysis 的比较
+
+>[!IMPORTANT]
+>
+>Adobe将于2021年3月1日将Ad Hoc Analysis改为停产。 [了解更多...](https://adobe.ly/discoverworkspace).
 
 将 Ad Hoc Analysis 术语和任务与 Analysis Workspace 进行比较。
 
@@ -26,7 +30,7 @@ Analysis Workspace 将 Ad Hoc Analysis 的大多数功能都引入到了浏览�
 | 项目 | 工作区或项目 |
 | 工作区 | 面板 |
 | 报表 | 自由格式表 |
-| 图表/图形 | 可视化图表 |
+| 图表／图表 | 可视化图表 |
 | 层次结构：项目 > 工作区 > 报表 | 层次结构：项目 > 面板 > 表格 |
 | 排名、趋势、总计报表模板 | 自由格式表可视化图表 |
 | 流量模板 | 流量可视化图表 |
@@ -57,7 +61,7 @@ Analysis Workspace 将 Ad Hoc Analysis 的大多数功能都引入到了浏览�
   </tr> 
   <tr> 
    <td colname="col1"> <p>创建临时（“临时”）区段 </p> </td> 
-   <td colname="col2"> <p>You can <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > create instant, temporary ("ad-hoc") segments</a> in Analysis Workspace by dragging dimension items into the segment drop zone at the top of the panel. 此外，还可在面板拖放区域中添加下拉过滤器，以同时创建许多临时段，从而实现受控项目交互。 </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > 视频：Analysis Workspace 中的 Ad Hoc 区段</a> </p> <p><a href="https://www.youtube.com/watch?v=vpJywtsFVPI"  > 视频： Analysis Workspace中的下拉过滤器</a> </p> </td> 
+   <td colname="col2"> <p>You can <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > create instant, temporary ("ad-hoc") segments</a> in Analysis Workspace by dragging dimension items into the segment drop zone at the top of the panel. 此外，还可在面板拖放区域中添加下拉过滤器，以同时创建许多临时段，从而实现受控项目交互。 </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > 视频：Analysis Workspace 中的 Ad Hoc 区段</a> </p> <p><a href="https://www.youtube.com/watch?v=vpJywtsFVPI"  > 视频：下拉列表过滤器Analysis Workspace</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>选择日期范围和粒度 </p> </td> 
@@ -83,7 +87,7 @@ Analysis Workspace 将 Ad Hoc Analysis 的大多数功能都引入到了浏览�
     <ul id="ul_42D259310823496499F7D1474E1639AF"> 
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">流量可跨访问或访客。 </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">关键统计数据以 % 路径查看的方式显示。 </li> 
-    </ul> <p>此外，流量允许使用<a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  >混合维度</a>以及右键单击和创建区段的功能，这是优于 Ad Hoc Analysis 的一项改进。 </p> <p>目前，Analysis Workspace流 <b>不能</b> 允许用户选择成功事件。 </li> 
+    </ul> <p>此外，流量允许使用<a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  >混合维度</a>以及右键单击和创建区段的功能，这是优于 Ad Hoc Analysis 的一项改进。 </p> <p>目前，Analysis Workspace的 <b>Flow</b> （流）不能允许用户选择成功事件。 </li> 
     </ul> <p><a href="https://www.youtube.com/watch?v=3R1HTM7y_RM"  > 视频：流量可视化图表概述</a> </p> <p><a href="https://www.youtube.com/watch?v=m1Wa6inC1rQ"  > 视频：多维度流量</a> </p> <p><a href="https://www.youtube.com/watch?v=XrJoNQy6RaQ"  > 视频：从流量创建区段</a> </p> </td> 
   </tr> 
   <tr> 
@@ -96,11 +100,11 @@ Analysis Workspace 将 Ad Hoc Analysis 的大多数功能都引入到了浏览�
   </tr> 
   <tr> 
    <td colname="col1"> <p>选择报表包 </p> </td> 
-   <td colname="col2"> <p>可以在Analysis Workspace中将多个报表包添加到单个项目。  </p> <p><a href="https://www.youtube.com/watch?v=kRPTBDNLJKk"  > 视频： 工作区中的多个报表包</a> </p></td> 
+   <td colname="col2"> <p>可以将多个报表包添加到Analysis Workspace的单个项目。  </p> <p><a href="https://www.youtube.com/watch?v=kRPTBDNLJKk"  > 视频：工作区中的多个报表包</a> </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>归因 IQ </p> </td> 
-   <td colname="col2"> <p>通过 Analysis Workspace 中的<a href="/help/analyze/analysis-workspace/attribution/overview.md"  >归因 IQ</a>，您可以将多个新类型的归因模型添加到自由格式表、可视化图表和计算量度。它包括10多个基于规则的模型和算法模型。 </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > 视频： 自由形式表中的Attribution IQ</a> </p> </td> 
+   <td colname="col2"> <p>通过 Analysis Workspace 中的<a href="/help/analyze/analysis-workspace/attribution/overview.md"  >归因 IQ</a>，您可以将多个新类型的归因模型添加到自由格式表、可视化图表和计算量度。它包括10多个基于规则的模型和算法模型。 </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > 视频：自由形式表中的Attribution IQ</a> </p> </td> 
   </tr>  
  </tbody> 
 </table>
