@@ -4,9 +4,9 @@ title: 生成区段
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 42782779a9b9d5f4795b2663ec78678cd3aada02
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1226'
 ht-degree: 93%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->Adobe将于2021年3月1日将Ad Hoc Analysis改为停产。 [了解更多...](https://adobe.ly/discoverworkspace).
+>Adobe正在将Ad Hoc Analysis迁至2021年3月1日的生命周期。 [了解更多](https://adobe.ly/discoverworkspace)
 
 Ad Hoc Analysis 集成了 Analytics 区段环境，允许您在各类 Adobe 产品中生成、共享、管理和应用访客区段。Ad Hoc Analysis 为其区段生成器和区段管理器提供了一种基于 Java 的用户界面，它等同于其他 Analytics 工具使用的基于 Web 的工具，可匹配服务器调用并且可通过基于 Java 的控制台提供相同的特性及功能。
 
