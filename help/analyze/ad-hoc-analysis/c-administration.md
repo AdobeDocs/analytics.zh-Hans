@@ -3,12 +3,19 @@ description: 配置用户和了解数据取样。
 title: 管理
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '785'
+ht-degree: 98%
 
 ---
 
 
 # 管理
+
+>[!IMPORTANT]
+>
+>Adobe将于2021年3月1日将Ad Hoc Analysis改为停产。 [了解更多...](https://adobe.ly/discoverworkspace).
 
 配置用户和了解数据取样。
 
@@ -37,14 +44,14 @@ t_user_licenses.xml
  -->
 
 1. 登录到 [!DNL Experience Cloud]。
-1. 单击 **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
-1. 单击 **[!UICONTROL Edit Groups]**.
+1. 单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]**。
+1. 单击&#x200B;**[!UICONTROL 编辑群组]**。
 
-   如果您的公司已购买用户许可证，则 [!UICONTROL Ad Hoc Analysis License Users] 该用户组将显示在列 [!UICONTROL Group Name] 中。 同时还会显示可供用户登录用的可用许可证数量。
+   如果贵公司已经购买了用户许可，则[!UICONTROL “Ad Hoc Analysis 授权用户”]组将会出现在[!UICONTROL “群组名称”]列。同时还会显示可供用户登录用的可用许可证数量。
 
-1. 单击 **[!UICONTROL Edit]**.
-1. Under [!UICONTROL Assign User Logins], select the users you want to add to the group, then click **[!UICONTROL Add.]**
-1. 单击 **[!UICONTROL Save Group]**.
+1.  点击&#x200B;**[!UICONTROL 编辑]**。
+1. 在[!UICONTROL 指定用户登录]下，选择要添加到该组的用户，然后单击&#x200B;**[!UICONTROL 添加。]** 
+1. 单击&#x200B;**[!UICONTROL 保存群组]**。
 
    许可系统不会显示添加到组中的用户数量。对于购买的用户许可的数量，存在并用方面的限制。
 
@@ -58,10 +65,10 @@ t_managing_users.xml
 
  -->
 
-1. 单击 **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]**，然后单击 **[!UICONTROL Manage Users]**。
-1. Locate the user, then click **[!UICONTROL Terminate.]**
+1. 单击 **[!UICONTROL Adobe Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]**，然后单击&#x200B;**[!UICONTROL 管理用户]**。
+1. 找到用户，然后单击&#x200B;**[!UICONTROL 终止]**。
 
-   On the [!UICONTROL Active Ad Hoc Analysis Sessions] page, the user who has been idle the longest displays at the top of list.
+   在“[!UICONTROL 活动 Ad Hoc Analysis 会话]”页面中，空闲最久的用户显示在列表顶部。
 
 ## 权限 {#concept_A7F2A7600BFF47C38D7C980E08D395B8}
 
@@ -84,10 +91,10 @@ t_permissions.xml
  -->
 
 1. 登录到 **[!UICONTROL Experience Cloud]**。
-1. 单击 **[!UICONTROL Adobe Analytics > Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]**.
-1. 单击 **[!UICONTROL All Report Access]**.
-1. 在 [!UICONTROL Available Users]中，选择用户，然后单击 **[!UICONTROL Add.]**
-1. 单击 **[!UICONTROL Save Group]**.
+1. 单击 **[!UICONTROL Adobe Analytics > 管理员]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 编辑群组]**。
+1. 单击“所有报表访问”****。
+1. 在“现有用户”中，选择用户，然后单击&#x200B;****“添加”。
+1. 单击&#x200B;**[!UICONTROL 保存群组]**。
 
 ## 创建权限群组 {#task_65A4C2E58B13475B9B2606CEB93B7CBD}
 
@@ -100,10 +107,10 @@ t_permission_groups.xml
  -->
 
 1. 登录到 **[!UICONTROL Experience Cloud]**。
-1. 单击 **[!UICONTROL Adobe Analytics > Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]**.
+1. 单击 **[!UICONTROL Adobe Analytics > 管理员]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 编辑群组]**。
 1. 创建一个非管理员用户的权限组，在该组中纳入您允许用户访问的活动的 Ad Hoc Analysis 报表包。
 
-   The report suites available to the user are displayed in the [!UICONTROL Report Cloud] menu when you create a new project.
+   在您创建新项目时，用户可用的报表包会显示在“[!UICONTROL 报表云]”菜单中。
 
 ## 在 Java 中设置代理策略 {#task_3B03F58519544025B55CF54FACF8F4F5}
 
@@ -117,10 +124,10 @@ t_proxy_policies.xml
 
 Ad Hoc Analysis 通过 HTTP 与服务器进行通信。可以使用与其他 HTTP 流量相同的代理策略。
 
-1. 在中， [!DNL Windows Control Panel]启动 [!UICONTROL Java Control Panel]。
-1. 在选项卡 **[!UICONTROL General]** 上，单击 **[!UICONTROL Network Settings]**。
-1. 选择 **[!UICONTROL Use browser settings]**&#x200B;或手动配置代理设置。
-1. 单 **[!UICONTROL OK]**&#x200B;击，然后 **[!UICONTROL OK]** 单击 [!UICONTROL Java Control Panel]。
+1. 在 [!DNL Windows Control Panel] 中，启动 [!UICONTROL Java 控制面板]。
+1. 在“常规”****&#x200B;选项卡中，单击“网络设置”****。
+1. 选择“使用浏览器设置”****，或手动配置代理设置。
+1. 单击“确定”****，然后单击“Java 控制面板”****&#x200B;上的“确定”。
 
 ## 数据如何采样 {#concept_8433CFD38E0243849E92DF4F1E743AC3}
 
