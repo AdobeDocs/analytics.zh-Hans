@@ -3,10 +3,10 @@ description: 'null'
 title: 在 Ad Hoc Analysis 中转换项目
 uuid: 20bd9974-209e-457c-9e52-d50f90078af6
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 95%
+source-wordcount: '295'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->Adobe将于2021年3月1日将Ad Hoc Analysis改为停产。 [了解更多...](https://adobe.ly/discoverworkspace).
+>Adobe正在将Ad Hoc Analysis迁至2021年3月1日的生命周期。 [了解更多](https://adobe.ly/discoverworkspace)
 
 ## 转换项目 {#topic_5A55F73488704C5D8E42CDD04B5984DE}
 
