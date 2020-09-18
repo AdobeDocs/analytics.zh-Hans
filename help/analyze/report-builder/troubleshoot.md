@@ -4,10 +4,10 @@ title: Report Builder 疑难解答和最佳实践
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 71%
+source-wordcount: '1399'
+ht-degree: 67%
 
 ---
 
@@ -86,3 +86,4 @@ Report Builder 需要进行身份验证，才能从报表包创建数据请求�
    3. 删除 `calcChain.xml`.
    4. 重新压缩内容，并将文件扩展名更改回 `.xlsx`。
    5. 在Excel中打开工作簿，并刷新所有Report Builder请求。
+* **与输入过滤器或输出范围关联的Excel单元格可能已被删除**:Report Builder使用Excel名称将数据请求附加到单元格。 如果从“名称管理器”中删除Excel名称，则会出现此错误。 如果删除Excel名称，则无法恢复请求。 如果工作簿已计划，则可以从计划管理器下载一个副本，或打开以前交付的工作簿副本。
