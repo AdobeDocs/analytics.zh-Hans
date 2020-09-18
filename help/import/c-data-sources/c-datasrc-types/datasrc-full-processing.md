@@ -4,20 +4,20 @@ subtopic: Data sources
 title: 完全处理
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '712'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '722'
+ht-degree: 96%
 
 ---
 
 
 # 完全处理
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Adobe 建议客户使用[批量数据插入 API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)，而不是完全处理数据源。未来将弃用完全处理数据源。
+>Adobe 建议客户使用[批量数据插入 API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)，而不是完全处理数据源。Adobe计划在将来弃用完全处理的数据源。
 
 数据源在处理作为标准服务器调用的数据时，支持以下变量（普通 > 完全处理）。
 
@@ -60,7 +60,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>timestamp </p> </td> 
-   <td colname="col2"> <p>date </p> </td> 
+   <td colname="col2"> <p>日期 </p> </td> 
    <td colname="col3"> <p>使用 ISO 8601 日期格式 <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code>（例如，<code> 2013-09-01T12:00:00-07:00 </code>），或 Unix 时间格式（自 1970 年 1 月 1 日起经过的秒数）。 </p> </td> 
   </tr> 
   <tr> 
@@ -114,12 +114,12 @@ ht-degree: 100%
   <tr> 
    <td colname="col1"> <p>pageUrl </p> </td> 
    <td colname="col2"> <p>pageUrl </p> </td> 
-   <td colname="col3"> <p>页面 URL（例如 <code>https://www.mysite.com/index.html)</code>。 </p> </td> 
+   <td colname="col3"> <p>页面 URL（例如 <code>https://www.example.com/index.html)</code>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>产品列表（例如 <code> "Sports;Ball;1;5.95") </code>。 </p> </td> 
+   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95"</code>). 每行最大值可保存4096字节。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
