@@ -4,8 +4,11 @@ subtopic: Data sources
 title: 要求和上载限制
 topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 98%
 
 ---
 
@@ -57,15 +60,15 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>受支持。与数据源一起使用的报表包必须启用多字节字符支持。 </p> <p>请参阅帮助中的<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >新报表包</a>。 </p> </td> 
+   <td colname="col2"> <p>受支持. 与数据源一起使用的报表包必须启用多字节字符支持。 </p> <p>请参阅帮助中的<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >新报表包</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 带字节顺序标记的 UTF-8 (EF BB BF) </td> 
-   <td colname="col2"> <p>受支持。此格式为非标准格式，虽然许多 Windows 应用程序都以该格式保存。 </p> <p>例如，如果选择“UTF-8”，WordPad 即会以此格式保存。 </p> </td> 
+   <td colname="col2"> <p>受支持. 此格式为非标准格式，虽然许多 Windows 应用程序都以该格式保存。 </p> <p>例如，如果选择“UTF-8”，WordPad 即会以此格式保存。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ISO-8859-1（即 Latin-1 或 Windows-1252） </td> 
-   <td colname="col2"> 受支持。如果选择“制表符分隔”导出，Microsoft Excel 即以此格式保存。报表包必须使用 ISO-8859-1 区域设置。 </td> 
+   <td colname="col2"> 受支持. 如果选择“制表符分隔”导出，Microsoft Excel 即以此格式保存。报表包必须使用 ISO-8859-1 区域设置。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-16 Little-endian，带字节顺序标记 (FF FE) </td> 
@@ -92,8 +95,8 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 * 用于查看网络日志数据的最有用报表是流量报表，如页面查看。
 * 页面名称显示为整个 URL，其中包括查询字符串。
 * 每个文件请求都显示为一个单独的页面查看，其中包括样式表和图像文件。
-* 如果您在 URL 后附加信息，文件可能会被记录为单独的页面。例如，市场营销报表会将以下 URL 记录为两个单独的页面：
+* 如果您在 URL 后附加信息，文件可能会被记录为单独的页面。例如，Adobe将以下URL记录为两个单独的页面：
 
-[!DNL /jokes/misc/snail_joke.html?userid=12345]
+`/jokes/misc/snail_joke.html?userid=12345`
 
-[!DNL /jokes/misc/snail_joke.html?userid=98765]
+`/jokes/misc/snail_joke.html?userid=98765`
