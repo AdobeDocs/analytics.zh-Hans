@@ -6,10 +6,10 @@ title: 数据列引用
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: ca9b77ebf8104a1937d87aba5021e2deeccd6f8b
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '3674'
-ht-degree: 98%
+source-wordcount: '3667'
+ht-degree: 97%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 98%
 | `ef_id` | 在 Adobe Advertising Cloud 集成中使用的 ef_id。 | varchar(255) |
 | `evar1 - evar250` | 自定义变量 1-250。每个公司使用 eVar 的方式有所不同。要了解有关贵组织如何填充各个 eVar 的更多信息，您最好参阅专为贵组织设计的解决方案文档。 | varchar(255) |
 | `event_list` | 以逗号分隔的数字 ID 列表，其中各 ID 表示点击时所触发的各个事件。包含默认事件及自定义事件 1-1000。使用 event.tsv 查询表。 | text |
-| `exclude_hit` | 表示点击已从报表中排除的标记。对于已排除的点击，visit_num 列的值不会增加。<br>1：未使用。包含在已弃用的功能中。<br>2：未使用。包含在已弃用的功能中。<br>3：已不再使用。用户代理排除<br>4：基于 IP 地址排除<br>5：缺少重要的点击信息，例如 page_url、pagename、page_event 或 event_list<br>6：JavaScript 未正确处理点击<br>7：特定于帐户的排除，例如在 VISTA 规则中<br>8：未使用。替代特定于帐户的排除。<br>9：未使用。包含在已弃用的功能中。<br>10：无效的货币代码<br>11：仅时间戳报表包上缺少时间戳的点击，或非时间戳报表包上包含时间戳的点击<br>12：未使用。包含在已弃用的功能中。<br>13：未使用。包含在已弃用的功能中。<br>14：与 Analytics 点击不匹配的 Target 点击<br>15：当前未使用。<br>16：与 Analytics 点击不匹配的 Advertising Cloud 点击 | tinyint，无符号 |
+| `exclude_hit` | 表示点击已从报表中排除的标记。对于已排除的点击，visit_num 列的值不会增加。<br>1：未使用。包含在已弃用的功能中。<br>2：未使用。包含在已弃用的功能中。<br>3：已不再使用。User agent exclusion<br>4: Exclusion based on IP address<br>5: Vital hit info missing, such as `page_url`, `pagename`, `page_event`, or `event_list`<br>6: JavaScript did not correctly process hit<br>7: Account-specific exclusion, such as in a VISTA rules<br>8: Not used. 替代特定于帐户的排除。<br>9：未使用。包含在已弃用的功能中。<br>10：无效的货币代码<br>11：仅时间戳报表包上缺少时间戳的点击，或非时间戳报表包上包含时间戳的点击<br>12：未使用。包含在已弃用的功能中。<br>13：未使用。包含在已弃用的功能中。<br>14：与 Analytics 点击不匹配的 Target 点击<br>15：当前未使用。<br>16：与 Analytics 点击不匹配的 Advertising Cloud 点击 | tinyint，无符号 |
 | `first_hit_page_url` | 访客访问的第一个 URL。 | varchar(255) |
 | `first_hit_pagename` | 在“原始登录页面”维度中使用的变量。访客访问的原始登录页面名称。 | varchar(100) |
 | `first_hit_ref_domain` | 在“原始反向链接域名”维度中使用的变量。基于 first_hit_referrer。访客访问的第一个反向链接的域名。 | varchar(100) |
