@@ -2,10 +2,10 @@
 title: 实施常见问题解答
 description: 有关实施的常见问题，以及指向更多信息的链接。
 translation-type: tm+mt
-source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 67%
+source-wordcount: '499'
+ht-degree: 48%
 
 ---
 
@@ -49,3 +49,13 @@ var s = new Object();
 >* 完全删 `s_code.js` 除文件，除非同时删除每个页面上对文件的所有引用。
 >* 更改变 `trackingServer` 量以指向远离Adobe。 AppMeasurement仍会发送图像请求，这会返回404个错误。
 
+
+## 我通过代码分析器运行AppMeasurement，它将其用作潜在 `Math.random()` 的安全风险。 是否 `Math.random()` 可与任何敏感数据一起使用？
+
+不可以。使用的数 `Math.random()` 字不用于遮罩、发送或接收任何敏感数据。 发送到Adobe数据收集服务器的数据依赖于基础HTTPS连接的安全性。 <!-- AN-173590 -->
+
+AppMeasurement在三 `Math.random()` 个关键方面的使用：
+
+* **采样**:根据您的实施，只能为网站的一小部分访客收集一些信息。 `Math.random()` 用于确定给定访客是否应发送数据。 大多数实现都不使用采样。
+* **回退访客ID**:如果无法从Cookies检索访客ID，则会生成随机访客ID。 AppMeasurement的此部分使用两个调用 `Math.random()`。
+* **缓存破坏**:随机编号会添加到图像请求URL的末尾，以帮助防止浏览器缓存。
