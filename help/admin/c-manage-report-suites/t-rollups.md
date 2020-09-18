@@ -4,7 +4,10 @@ title: 创建汇总报表包
 topic: Admin tools
 uuid: d4bab32a-2a09-49a7-b280-29f8f33ee021
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 92%
 
 ---
 
@@ -23,3 +26,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    **[!UICONTROL 时区：]**&#x200B;报告数据时所使用的时区。
 1. 单击&#x200B;**[!UICONTROL 创建汇总]**。
+
+>[!NOTE]
+>
+>Analysis Workspace不支持合并。
