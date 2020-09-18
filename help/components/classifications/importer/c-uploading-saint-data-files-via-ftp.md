@@ -5,10 +5,10 @@ title: FTP 导入
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 100%
+source-wordcount: '726'
+ht-degree: 96%
 
 ---
 
@@ -95,3 +95,7 @@ t_create_an_ftp_account.xml
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 创建之后，您可以通过单击所需的 FTP 帐户旁边的相应链接来编辑或删除 FTP 帐户。
+
+>[!NOTE]
+>
+>如果导入未对分类做出任何更改，则不会发送通知。 仅当电子邮件成功并导致对分类进行更改时，才会发送该电子邮件。
