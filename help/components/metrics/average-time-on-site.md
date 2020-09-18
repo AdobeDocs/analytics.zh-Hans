@@ -2,10 +2,10 @@
 title: 网站平均逗留时间
 description: 给定维度项目在点击之间存在的平均时间。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 63%
+source-wordcount: '538'
+ht-degree: 60%
 
 ---
 
@@ -45,6 +45,10 @@ If you want average time on site for the dimension item `Product page A`, first 
 `Product page A` 的逗留总时间是 `00:03:10`。此访问中存在两个序列：第一个序列是针对两个连续值，第二个序列是在结账前。此访问的最后一个点击不是序列，因为它不包含结束时间戳。
 
 `Product page A` 的网站平均逗留时间是 `00:01:35`。
+
+>[!NOTE]
+>
+>此度量显示一个值， `"Invalid"` 如果维度项目仅包含上次访问的点击。 此度量需要后续点击来跟踪所花费的时间。
 
 ## 网站平均逗留时间（秒）
 
