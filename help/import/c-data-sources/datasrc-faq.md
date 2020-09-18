@@ -4,8 +4,11 @@ subtopic: Data sources
 title: 数据源常见问题解答
 topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '1496'
+ht-degree: 95%
 
 ---
 
@@ -132,3 +135,14 @@ Adobe 建议您选择新的未用变量，以使用数据源导入数据。如�
 ## 使用数据源上载的 eVar 是否持续保留到后续在线行为？ {#section_0B490CEAAB604826AFD3E8B2531C8F2D}
 
 不可以。通过交易 ID 数据源上载的 eVar 将只从存储的资料信息中读取，而不会更新资料。不可以。eVar 是存储于访客资料快照中的唯一变量。
+
+## 数字和货币事件如何处理数据源？
+
+完全处理仅支持旧事件列表格式，但不包括数字／货币／计数器（1个以上）事件值直接在事件列表中，即不 `"eventNN,eventKK"` 是 `"eventNN=#.##"`。 它意味着，它只支持计数器事件(如果它在数据源文件的事件列中传递，并且递增1)。
+
+如果需要数字、货币或计数器（1个以上）事件，请使用产品列表:
+
+```js
+s.products="Footwear;Running Shoes;1;99.99;event1=4.50";
+s.products="Footwear;Running Shoes;1;99.99;event1=4.50|event4=1.99";
+```
