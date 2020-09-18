@@ -4,10 +4,10 @@ title: 自定义日历
 topic: Admin tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 translation-type: tm+mt
-source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 97%
+source-wordcount: '477'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 >[!CAUTION]
 >
->更改日历会改变数据的处理方式（即每周和每月独特访客的定义）。当日历中周和月的定义发生更改时，历史数据不会改动。
+>更改日历会改变数据的处理方式（即每周和每月独特访客的定义）。当日历中周和月的定义发生更改时，历史数据不会改动。此设置还会影响基于日期范围的区段。
 
 您可以使用该日历定义周和年的第一天，或者使用其他零售日历样式。日历格式可用于多种用途，包括销售额比较和预测标准化、工资单费用分析或实际库存计数调节。例如，零售业使用 4-5-4 会计日历来支持零售业特有的销售季节。每种日历格式介绍如下。
 
