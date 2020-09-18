@@ -4,11 +4,11 @@ subtopic: Bot rules
 title: 机器人规则概述
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1351'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '1356'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ## 标准 IAB 机器人规则
 
-可以通过选中[!UICONTROL 启用 IAB 机器人过滤规则]复选框来打开标准 IAB 机器人规则。此选择将删除 IAB（国际广告局）的国际蜘蛛程序与机器人列表中的机器人，从而删除机器人流量。IAB 会每月更新此列表。
+可以通过选中[!UICONTROL 启用 IAB 机器人过滤规则]复选框来打开标准 IAB 机器人规则。此选择将删除 IAB（国际广告局）的国际蜘蛛程序与机器人列表中的机器人，从而删除机器人流量。Adobe每月从IAB更新此列表。
 
 ![](assets/bot-iab-checkbox.png)
 
