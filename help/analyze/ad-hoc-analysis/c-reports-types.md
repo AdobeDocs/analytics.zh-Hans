@@ -4,7 +4,7 @@ title: 报表类型
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: 10f93420cbc957bcce51394cd3f399bd51114af7
 workflow-type: tm+mt
 source-wordcount: '1731'
 ht-degree: 99%
@@ -125,7 +125,7 @@ c_reports_next_server_flow.xml
 
  -->
 
-例如，如果在不同的服务器上存储特定的数据，或在单独的服务器中存储镜像数据，该报表将显示用户点击的服务器之间的路径。这也适用于网站中的域。例如，您可以看到多少位用户从 `https://www.mysite.com` 跳转到 `https://info.mysite.com` 或 `https://sales.mysite.com`。
+例如，如果在不同的服务器上存储特定的数据，或在单独的服务器中存储镜像数据，该报表将显示用户点击的服务器之间的路径。这也适用于网站中的域。例如，您可以看到多少位用户从 `https://www.example.com` 跳转到 `https://info.example.com` 或 `https://sales.example.com`。
 
 ## 下一区域流量 {#concept_7C9C8567E7DF477DA186E47DD3FD47A4}
 
@@ -176,7 +176,7 @@ c_reports_previous_server_flow.xml
 
  -->
 
-例如，如果在不同的服务器上存储特定的数据，或在单独的服务器中存储镜像数据，该报表将显示用户点击的服务器之间的路径。这也适用于网站中的域。例如，您可以看到多少位用户从 `www.mysite.com` 跳转到 `info.mysite.com` 或 `sales.mysite.com`。
+例如，如果在不同的服务器上存储特定的数据，或在单独的服务器中存储镜像数据，该报表将显示用户点击的服务器之间的路径。这也适用于网站中的域。例如，您可以看到多少位用户从 `www.example.com` 跳转到 `info.example.com` 或 `sales.example.com`。
 
 ## 转化漏斗报表 {#concept_35A2EB61E84441CBB670C2E02CA26F81}
 
