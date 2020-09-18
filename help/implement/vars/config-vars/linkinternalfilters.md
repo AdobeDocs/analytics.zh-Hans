@@ -1,11 +1,11 @@
 ---
 title: linkInternalFilters
 description: 使用 linkInternalFilters 变量有助于进行自动退出链接跟踪。
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '314'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+workflow-type: tm+mt
+source-wordcount: '340'
+ht-degree: 92%
 
 ---
 
@@ -17,6 +17,8 @@ AppMeasurement 提供自动跟踪指向网站外部的链接的功能。如果�
 如果此变量包含值，则自动退出链接跟踪将以阻止列表的方式执行。如果链接点击与任何 `linkInternalFilters` 值都不匹配，则会将其视为退出链接。系统将针对此变量检查整个 URL。如果启用了 [`linkLeaveQueryString`](linkleavequerystring.md)，则还会检查查询字符串。
 
 如果同时使用 `linkInternalFilters` 和 `linkExternalFilters`，则点击的链接必须与 `linkExternalFilters` 匹配&#x200B;**且**&#x200B;与 `linkInternalFilters` 不匹配时才能被视为退出链接。如果点击的链接与退出链接和下载链接标准均匹配，则将优先使用下载链接类型。
+
+活动图使用此变量来帮助确定网站内部的链接。 Adobe建议为使用活动映射的实现设置此变量。
 
 >[!NOTE]
 >
@@ -38,7 +40,7 @@ AppMeasurement 提供自动跟踪指向网站外部的链接的功能。如果�
 `s.linkInternalFilters` 变量是包含您视为网站内部链接的过滤器（如域）的字符串。用逗号分隔多个过滤器，不带空格。
 
 ```js
-s.linkInternalFilters = "example.com,example.net,example.org";
+s.linkInternalFilters = "example.com,example.net";
 ```
 
 假定 `adobe.com` 上有以下实施示例：
@@ -50,5 +52,5 @@ s.linkInternalFilters = "example.com,example.net,example.org";
 </script>
 
 <!-- The following link is an exit link because it does not match the anything under linkInternalFilters -->
-<a href = "example.com">Example link 2</a>
+<a href = "example.org">Example link 2</a>
 ```
