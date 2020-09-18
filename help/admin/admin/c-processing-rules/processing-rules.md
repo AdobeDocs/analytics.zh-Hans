@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: 处理规则概述
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+workflow-type: tm+mt
+source-wordcount: '474'
+ht-degree: 87%
 
 ---
 
@@ -40,11 +43,11 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 >[!IMPORTANT]
 >
->由于处理规则会永久影响 Analytics 数据，我们强烈建议处理规则的管理员参加 Adobe Analytics 的认证培训，并熟悉报表包的所有数据源（标准网站、移动设备网站、移动设备应用程序、数据插入 API 等）。了解有关在各种平台内填充的上下文数据变量和标准变量的知识，将有助于防止数据被意外删除或更改。
+>由于处理规则会永久影响Analytics数据，因此Adobe强烈建议处理规则管理员在Adobe Analytics接受认证培训，并熟悉报表包的所有数据源（标准网站、移动站点、移动应用程序、数据插入API等）。 了解有关在各种平台内填充的上下文数据变量和标准变量的知识，将有助于防止数据被意外删除或更改。
 
 ## 使用上下文数据简化数据收集 {#section_09EEA03612D24C15839631AA9E9668D8}
 
-上下文数据变量是一种只可用于处理规则的新型变量。为了使用上下文数据变量，将通过您的实施发送键/值数据对，并且处理规则用于捕获标准 Analytics 变量中的这些值。这样编程人员就不必确切了解哪个 prop 和/或 eVar 应包含哪个值。
+上下文数据变量是一种变量类型，只能用于处理规则。 为了使用上下文数据变量，将通过您的实施发送键/值数据对，并且处理规则用于捕获标准 Analytics 变量中的这些值。这样编程人员就不必确切了解哪个 prop 和/或 eVar 应包含哪个值。
 
 ![](assets/evar-context-map.png)
 
