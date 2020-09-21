@@ -3,10 +3,10 @@ description: 'null'
 title: 项目转换器常见问题解答
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: 6a964f9ed9dcba6e4bf9eab8868ed325bc5e3560
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 98%
+source-wordcount: '933'
+ht-degree: 93%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 98%
      <li id="li_959499D20796459CA0F6BBC8F0A8D808"><b>散点图</b>：在 Analysis Workspace 中的导出项目内，会将 Y 轴设置为第一列，将 X 轴设置为第二列，将直径设置为第三列。 </li> 
      <li id="li_14E06D7A5106405A89A07B44FFD9A92D"><b>流失表格</b>：要显示流过或流失表格，请右键单击检查点，然后选择划分选项。 </li> 
      <li id="li_240F43C386F04111A7632A8FCA37832C"><b>流失报表级别的日期范围</b>：尚未对流失可视化图表应用自定义报表日期范围。 </li> 
-     <li id="li_1FF5B3FD9E424E7190AF03FD4DD9D654"><b>流量报表</b>：会将流量移动到单独的面板中以保留范围和分段。 </li> 
+     <li id="li_1FF5B3FD9E424E7190AF03FD4DD9D654"><b>流量报表</b>：会将流量移动到单独的面板中以保留范围和分段。“流”设置下可以包含或排除重复实例。 </li> 
      <li id="li_BE8F8F6EC2EA49E18EF52539BC1700E0"><b>转化漏斗</b>：将转换为自由格式表，因为 Analysis Workspace 中不支持转化漏斗。建议用流失可视化图表替换转化漏斗，但流失可视化图表的行为可能稍有不同。 </li> 
     </ul> </td> 
   </tr> 
@@ -74,14 +74,14 @@ ht-degree: 98%
      <li id="li_CF9C3D235A664B15B21D9F89DC5EF7D3">区段是转换项目的内部元素（非公用）。您可以选择将区段设置为公用元素，如下所示： <p><img placement="inline"  src="assets/internal_segment.png" id="image_5942392F18E845A5B41C3DED59374E89" width="300px" /> </p> </li> 
      <li id="li_AE61DAEC5C0047349DD192EFEEDB0BF9">在工作区中，会在项目/工作区级别应用 Ad Hoc Analysis 工作区级别的区段。 </li> 
      <li id="li_B1559E2C18724FE189AF87D0BEF16811">在工作区中，会在表列级别应用 Ad Hoc Analysis 报表级别的区段。 </li> 
-     <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">在工作区中，会在列级别应用 Ad Hoc Analysis 表区段。 </li> 
+     <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Ad Hoc Analysis表段在Workspace的表列级别应用。 </li> 
     </ul> <p>您可以在<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/seg-home.html"  >区段生成器</a>中编辑区段。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：日期范围如何转换？</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">Ad Hoc Analysis 中的“最近 X 天”日期范围<i>不包含</i>当天，然而在 Analysis Workspace 中，该日期范围<i>包含</i>当天。因此，像“最近 90 天”这样的日期范围在两个工具中得到的结果可能并不完全一致。可使用自定义日期范围在 Analysis Workspace 中检索相同的时间段。 </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">Ad Hoc Analysis 中的“最近 X 天”日期范围<i>不包含</i>当天，然而在 Analysis Workspace 中，该日期范围<i>包含</i>当天。因此，“过去90天”等日期范围可能与工具之间不完全匹配。 相反，在Analysis Workspace <b>应 </b> 用“Last X全天”范围。 </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">在工作区中，会在项目/工作区级别应用 Ad Hoc Analysis 工作区级别的日期范围。 </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">在工作区中，会在表列级别应用 Ad Hoc Analysis 报表级别的日期范围。 </li> 
     </ul> <p>您可以在 <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">组件</span> &gt; <span class="uicontrol">日期范围</span>下编辑自定义日期范围。 </p> </td> 
