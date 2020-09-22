@@ -1,11 +1,14 @@
 ---
 description: 如果使用 Akamai 托管，则从控制台测试未发布的规则。
 keywords: Dynamic Tag Management;rule;switcher plug-in;akamai;test akamai;unpublished rules;test unpublished rules;debug rule
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target
 title: 测试用于 Akamai 托管的尚未发布的规则
 uuid: 979e3d74-8d96-47d0-b581-cf5371248434
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
+source-wordcount: '132'
+ht-degree: 100%
 
 ---
 
