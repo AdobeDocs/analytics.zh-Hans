@@ -1,11 +1,14 @@
 ---
 description: 描述如何在动态标签管理中创建规则的步骤。
 keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;page load rule;direct call rule
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target
 title: 创建新规则
 uuid: 2ec14270-b023-4328-b43e-42a250bf92d4
-translation-type: ht
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+translation-type: tm+mt
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 100%
 
 ---
 
@@ -24,5 +27,6 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
    * ****&#x200B;基于事件的规则：[为基于事件的规则创建条件](/help/implement/other/dtm/c-rules/t-rules-event-conditions.md)
    * ****&#x200B;页面加载规则：[为页面加载规则创建条件](/help/implement/other/dtm/c-rules/t-rules-page-conditions.md)
    * ****&#x200B;直接调用规则：[为直接调用规则创建条件](/help/implement/other/dtm/c-rules/t-rules-direct-conditions.md)
+
    此类别字段仅可用于您自己的组织，并不是必填的。单击类别中的 x 图标可删除类别。
 1. [设置条件要触发的操作](/help/implement/other/dtm/c-rules/t-rules-actions.md)。
