@@ -2,9 +2,9 @@
 title: 常见机器人签名
 description: 识别机器人程序的通用标识符。
 translation-type: tm+mt
-source-git-commit: 8edfd278fdb4316c304301e5178dc07949127758
+source-git-commit: 2f4c54ec57eeddc03f0b0d12a0a7f391e36ab0fc
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ## 国家／地区+时区不匹配
 
-发起国和时区之间将存在不匹配。 例如，美国的一个位置，但有GMT时区。
+您会注意到发起国和时区之间不匹配。 例如，该位置可能是美国，但时区可能是我的GMT。
 
 ![](assets/bots-country-time-zone.png)
 
