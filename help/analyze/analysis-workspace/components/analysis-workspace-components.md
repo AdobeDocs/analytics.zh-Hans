@@ -2,9 +2,9 @@
 description: 'Analysis Workspace地区的组件由维度、指标、细分和日期范围组成，您可以将它们拖放到项目中。 '
 title: 组件概述
 translation-type: tm+mt
-source-git-commit: a290e5790591d73c397b2eb99f0c070e0ea71b10
+source-git-commit: 459d650b30355912f4c9195c05da6728610109e8
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '737'
 ht-degree: 13%
 
 ---
@@ -36,7 +36,7 @@ To access the Components menu, click the **[!UICONTROL Components]** icon in the
 
 [**指标**](https://docs.adobe.com/content/help/en/analytics/components/metrics/overview.html) 是关于访客行为的量化指标。 它们位于左侧的组件边栏（绿色部分）中，通常作为表的列应用。
 
-指标的示例包括[!UICONTROL页面视图 [!UICONTROL 、访问]、订 [!UICONTROL 单]、平 [!UICONTROL 均花费时间]，以 [!UICONTROL 及收入／订]单。 量度由Adobe提供，或通过自定义实施(成[!UICONTROL 功事件])捕获，或使用“计算量度 [生成器”创建](https://docs.adobe.com/content/help/zh-Hans/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)。
+指标的示例包括 [!UICONTROL 页面视图]、 [!UICONTROL 访问]、 [!UICONTROL 订单]、平 [!UICONTROL 均花费时间、]、收入／订单收入。 量度由Adobe提供，或通过自定义实施(成[!UICONTROL 功事件])捕获，或使用“计算量度 [生成器”创建](https://docs.adobe.com/content/help/zh-Hans/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)。
 
 ![](assets/metrics.png)
 
