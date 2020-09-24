@@ -1,11 +1,11 @@
 ---
 title: 在 Analytics 中使用 XDM 数据
 description: '在 Adobe Analytics 中使用源自 Experience Platform 的 XDM 数据概述 '
-translation-type: ht
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 0a570f52c3eb62ca517770fa12f2272f6ccc978d
+workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,7 @@ Analytics 通过两种方法收集 XDM 数据：
 
 ## 设置
 
-要设置 Analytics 接收 XDM 数据，请执行以下操作：
+要设置Analytics以接收XDM数据，请执行以下操作：
 
 1. 安装并[配置](https://docs.adobe.com/content/help/zh-Hans/experience-platform/edge/fundamentals/configuring-the-sdk.html) [Adobe Experience Platform Web SDK](https://docs.adobe.com/content/help/zh-Hans/experience-platform/edge/fundamentals/installing-the-sdk.html)。
 
