@@ -1,18 +1,18 @@
 ---
 description: 介绍 Adobe Analytics 的全新连续功能发布战略
 title: Adobe Analytics 功能发布
-translation-type: ht
-source-git-commit: dcca8559c9e730c9e04981d69068786878062561
-workflow-type: ht
-source-wordcount: '358'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: bbbe6dccfee81ae5111f295906aa3a23d68ad39e
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 79%
 
 ---
 
 
 # Adobe Analytics 功能发布
 
-以前，Adobe Analytics 功能发布之后会有为期一个月的固定工作安排。从 2020 年 4 月开始，Adobe Analytics 采用连续交付模型，该模型允许采用更具扩展性的分阶段方法来部署功能。
+以前，Adobe Analytics 功能发布之后会有为期一个月的固定工作安排。从2020年4月开始，Adobe Analytics开始采用连续投放模型，该模型允许采用更具扩展性、分阶段的功能部署方法。
 
 ## 发布策略
 
@@ -25,6 +25,12 @@ ht-degree: 100%
 * **正式发布 (GA)**：此功能对 100% 授权的 Experience Cloud 组织可用，且功能发布已完成。
 
 对于每个功能发布，从 RTP 到 GA 的时间表可能会有所不同。目标是缩短发布时间，以便能够在发布开始 (RTP) 后的 2 个月内，功能将达到 GA 阶段。
+
+## 功能标志
+
+功能标记用于控制发布过程中新功能的可见性。 Adobe建议在发布过程中将app.launchdarkly.com添加到防火 [墙的](https://docs.adobe.com/content/help/en/analytics/technotes/ip-addresses.html) 允许列表，以获得最佳体验。 到达GA后不久，将删除该标志。
+
+您可以随时在“帮助”>“关于工作区”>“ **活动功能标志”下视图活动功能标志**。
 
 ## 优点
 
