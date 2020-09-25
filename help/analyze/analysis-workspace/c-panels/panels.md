@@ -2,17 +2,17 @@
 description: 面板是表和可视化的集合
 title: 面板概述
 translation-type: tm+mt
-source-git-commit: 8cfd2106df3aed48136ec82bca7d2cb19a479d61
+source-git-commit: 0a29fa005c7b86a399ab39f0b499d22b6f86e373
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 19%
+source-wordcount: '760'
+ht-degree: 15%
 
 ---
 
 
 # 面板概述
 
-面板是表格和可视化图表的集合。您可以通过工作区左上角的图标访问面板。当您希望根据时段、报表包或分析用例组织项目时，面板会很有帮助。 Analysis Workspace提供以下面板类型：
+A [!UICONTROL panel] is a collection of tables and visualizations. 您可以通过工作区左上角的图标访问面板。当您希望根据时段、报表包或分析用例组织项目时，面板会很有帮助。 Analysis Workspace提供以下面板类型：
 
 | 面板名称 | 描述 |
 |---|---|
@@ -24,17 +24,25 @@ ht-degree: 19%
 | [“媒体并发查看器”面板](media-concurrent-viewers.md) | 分析一段时间内的并发查看者，了解有关并发峰值的详细信息，并且可以进行细分和比较。 |
 | [区段比较面板](c-segment-comparison/segment-comparison.md) | 快速比较所有数据点中的两个细分，自动找到相关差异。 |
 
-“快速洞察”、“空白”和“自由形式”面板是开始分析的绝佳场所，而针对目标、Attribution IQ、媒体并发查看器和细分比较的分析则适用于更高级的分析。 项目中有一个 `"+"` 按钮，通过该按钮，您可以随时添加空白面板。
+![](assets/panel-overview.png)
 
-默认的开始面板是自由格式面板，但也可以将[空白面板](/help/analyze/analysis-workspace/c-panels/blank-panel.md)设置为默认的开始面板。
+[!UICONTROL Quick Insights]、Blank [!UICONTROL 和Freeform] 面板是开始分析的绝佳场所，而Analytics for [!UICONTROL 目标、Analytics for] Attribution IQ、Aligns Viewers和Carposion可以更高级的分析方式自行进行。 项目中有一个 `"+"` 按钮，通过该按钮，您可以随时添加空白面板。
+
+The default starting panel is the [!UICONTROL Freeform] panel, but you can make the [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) your default as well.
 
 ## 面板报告套件 {#report-suite}
 
-面板中的表和可视化从面板右上角选定的报表包中导出数据。 报表包还确定左边栏中可用的组件。 在项目中，您可以使用一个或 [多个报表包](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) ，具体取决于分析用例。
+面板中的表和可视化从面板右 [!UICONTROL 上方选] 定的报表包中导出数据。 报表包还确定左边栏中可用的组件。 在项目中，您可以使用一个或 [多个报表包](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) ，具体取决于分析用例。
+
+![](assets/panel-report-suite.png)
 
 ## 面板日历 {#calendar}
 
-面板日历控制面板中表格和可视化的报告范围。 注意：如果在表、可视化或面板拖放区中使用（紫色）日期范围组件，它将覆盖面板日历。
+面板日历控制面板中表格和可视化的报告范围。
+
+注意：如果在表、可视化或面板拖放区中使用（紫色）日期范围组件，它将覆盖面板日历。
+
+![](assets/panel-calendar.png)
 
 ## 面板拖放区 {#dropzone}
 
@@ -44,11 +52,15 @@ ht-degree: 19%
 
 将左边栏中的任意段拖放到面板拖放区，开始筛选面板。
 
+![](assets/segment-filter.png)
+
 ### 临时细分过滤器
 
-非区段组件也可直接拖入拖放区以创建 **临时区段**，节省了转至区段生成器的时间和精力。 以这种方式创建的区段会自动定义为点击级别区段。 可以通过单击段旁的信息图标(i)，然后单击铅笔形编辑图标并在段生成器中编辑来修改此定义。
+非区段组件也可直接拖入拖放区以创 **建临时区段**，节省了转至区段生成器的时间和精力。 以这种方式创建的区段会自动定义为点击级别区段。 可以通过单击段旁的信息图标(i)，然后单击铅笔形编辑图标并在段生成器中编辑来修改此定义。
 
 临时区段是项目的本地区段，除非公开，否则不会显示在左边栏中。
+
+![](assets/adhoc-segment-filter.png)
 
 ### 下拉过滤器 {#dropdown-filter}
 
@@ -56,9 +68,13 @@ ht-degree: 19%
 
 下拉式过滤器还可用于将多个项目合并到一个项目中。 例如，如果应用了不同国家／地区段的同一项目的多个版本，您可以将所有版本合并到单个项目中并添加国家／地区下拉列表筛选器。
 
+![](assets/dropdown-filter-intro.png)
+
 **创建和使用下拉过滤器:**
 
-1. 要使用Dimension项(如营销渠道维中的值)创建下拉筛选器，请单击左边栏中您的维旁边的V形标记。 这将显示所有可用项。 从左边栏中选择一个或多个组件项，并在按住Shift键的同时将 **它们拖放到面板拖放区**。 这会将组件转换为下拉筛选器，而不是单个区段。
+![](assets/create-dropdown.png)
+
+1. 要使用Dimension项创建下拉 [!UICONTROL 筛选器](如营销 [!UICONTROL 渠道维中的值] )，请单击左边栏中您的维旁边的右箭头。 这将显示所有可用项。 从左边栏中选择一个或多个组件项，并在按住Shift键的同时将 **它们拖放到面板拖放区**。 这会将组件转换为下拉筛选器，而不是单个区段。
 1. 要使用度量、段或日期范围等其他组件创建下拉筛选器，请从左边栏中的一个组件类型中进行选择，并在按住Shift键的同 **时放入面板拖放区**。
 1. 从下拉列表中选择一个选项以更改面板中的数据。 You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.
 
