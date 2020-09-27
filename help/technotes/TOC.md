@@ -5,7 +5,7 @@ user-guide-title: Analytics 技术说明
 breadcrumb-title: Tech Notes
 user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
 translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 83%
@@ -13,9 +13,9 @@ ht-degree: 83%
 ---
 
 
-# Analytics 文档 {#technotes}
+# Analytics 技术说明 {#technotes}
 
-+ [Analytics 技术说明帮助](home.md)
++ [Analytics 技术说明](home.md)
 + 针对 Google Analytics 用户的 Adobe Analytics {#ga-to-aa}
    + [针对 Google Analytics 用户的 Adobe Analytics 帮助](ga-to-aa/home.md)
    + [帐户和报表包](ga-to-aa/accounts.md)
