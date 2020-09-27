@@ -1,11 +1,11 @@
 ---
-title: Analytics 导出帮助
-description: 'null'
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
-workflow-type: ht
-source-wordcount: '133'
-ht-degree: 100%
+title: Analytics 导出指南
+description: 本指南概述了使用数据馈送和Data warehouse从Adobe Analytics获取数据的方法。
+translation-type: tm+mt
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 88%
 
 ---
 
