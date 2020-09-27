@@ -1,9 +1,9 @@
 ---
-title: Analytics 管理帮助
+title: Analytics 管理指南
 description: 适用于 Adobe Analytics 管理员的管理帮助，包括 Admin Console 中的用户和产品管理，以及设置报表包、变量、分类和数据收集。
-translation-type: ht
-source-git-commit: fb0833530a9ec67f01226b986d124ab1e441d7e4
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 100%
 
