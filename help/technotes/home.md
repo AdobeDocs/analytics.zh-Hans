@@ -1,15 +1,16 @@
 ---
-title: 技术说明主页
-translation-type: ht
-source-git-commit: 444a2b93a39cad0d2f62a4bf8d889b71ba726092
-workflow-type: ht
-source-wordcount: '75'
+title: Analytics 技术说明
+description: 本指南提供关于不属于特定分析工具或组件的主题的有用信息。
+translation-type: tm+mt
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+workflow-type: tm+mt
+source-wordcount: '92'
 ht-degree: 100%
 
 ---
 
 
-# 技术说明主页
+# Analytics 技术说明
 
 本指南提供关于不属于特定分析工具或组件的主题的有用信息。
 
