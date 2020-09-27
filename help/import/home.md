@@ -1,11 +1,11 @@
 ---
-title: Analytics 导入帮助
-description: Analytics 导入帮助
-translation-type: ht
-source-git-commit: ebdf5ed1ca2b83b94284f1d8013a2b0c6b717714
-workflow-type: ht
-source-wordcount: '113'
-ht-degree: 100%
+title: Analytics 导入指南
+description: 本指南介绍如何使用数据源、数据插入API和数据连接器将数据导入Analytics。
+translation-type: tm+mt
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+workflow-type: tm+mt
+source-wordcount: '128'
+ht-degree: 85%
 
 ---
 
