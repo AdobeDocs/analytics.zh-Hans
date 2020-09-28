@@ -2,9 +2,9 @@
 description: 面板是表和可视化的集合
 title: 面板概述
 translation-type: tm+mt
-source-git-commit: 0a29fa005c7b86a399ab39f0b499d22b6f86e373
+source-git-commit: f772494e6e3f8b5ab186c5b0c891f4f5043470f9
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '761'
 ht-degree: 15%
 
 ---
@@ -74,7 +74,7 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 ![](assets/create-dropdown.png)
 
-1. 要使用Dimension项创建下拉 [!UICONTROL 筛选器](如营销 [!UICONTROL 渠道维中的值] )，请单击左边栏中您的维旁边的右箭头。 这将显示所有可用项。 从左边栏中选择一个或多个组件项，并在按住Shift键的同时将 **它们拖放到面板拖放区**。 这会将组件转换为下拉筛选器，而不是单个区段。
+1. 要使用Dimension项创建下拉 [!UICONTROL 筛选器](如营销 [!UICONTROL 渠道维中的值] )，请单击左边栏中维旁边的右箭头图标。 这将显示所有可用项。 从左边栏中选择一个或多个组件项，并在按住Shift键的同时将 **它们拖放到面板拖放区**。 这会将组件转换为下拉筛选器，而不是单个区段。
 1. 要使用度量、段或日期范围等其他组件创建下拉筛选器，请从左边栏中的一个组件类型中进行选择，并在按住Shift键的同 **时放入面板拖放区**。
 1. 从下拉列表中选择一个选项以更改面板中的数据。 You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.
 
