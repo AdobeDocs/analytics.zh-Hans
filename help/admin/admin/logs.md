@@ -3,10 +3,10 @@ description: 日志文件有助于您了解用户登录的时间、用户使用�
 title: 日志
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: ebcd348dd952c24b5a5eaadb46ec3a521aba2e98
+source-git-commit: 9b56730548975435c5607428e4c71efda1d6a8d0
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 72%
+source-wordcount: '597'
+ht-degree: 71%
 
 ---
 
@@ -68,11 +68,6 @@ ht-degree: 72%
 | 日期范围 | 创建／编辑日期范围。 |
 | 虚拟报表包 | 已创建／编辑虚拟报告套件。 |
 | 贡献分析 | 已运行贡献分析作业。 |
-| Excel 数据块请求 |  |
-| Excel 登录失败 |  |
-| Excel 登录成功 |  |
-| 移动设备登录失败 |  |
-| 移动设备登录成功 |  |
 | API 方法 | 已进行API调用。 |
 
 
