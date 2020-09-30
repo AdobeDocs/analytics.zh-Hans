@@ -2,10 +2,10 @@
 description: 面板是表和可视化的集合
 title: 面板概述
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 00c8e309a597a733e25c8a43dbffbad517f9a2da
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 15%
+source-wordcount: '803'
+ht-degree: 14%
 
 ---
 
@@ -33,6 +33,8 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 ## 面板报告套件 {#report-suite}
 
 面板中的表和可视化从面板右 [!UICONTROL 上方选] 定的报表包中导出数据。 报表包还确定左边栏中可用的组件。 在项目中，您可以使用一个或 [多个报表包](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) ，具体取决于分析用例。
+
+报表包的列表根据相关性进行排序，Adobe根据当前用户最近和频繁使用该套件以及该套件在组织中的使用频率定义该套件。
 
 ![](assets/panel-report-suite.png)
 
@@ -72,10 +74,11 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 **创建和使用下拉过滤器:**
 
-![](assets/create-dropdown.png)
-
 1. 要使用Dimension项创建下拉 [!UICONTROL 筛选器](如营销 [!UICONTROL 渠道维中的值] )，请单击左边栏中维旁边的右箭头图标。 这将显示所有可用项。 从左边栏中选择一个或多个组件项，并在按住Shift键的同时将 **它们拖放到面板拖放区**。 这会将组件转换为下拉筛选器，而不是单个区段。
 1. 要使用度量、段或日期范围等其他组件创建下拉筛选器，请从左边栏中的一个组件类型中进行选择，并在按住Shift键的同 **时放入面板拖放区**。
 1. 从下拉列表中选择一个选项以更改面板中的数据。 You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.
 
+![](assets/create-dropdown.png)
+
 [观看视频](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) ，进一步了解如何向项目添加下拉过滤器。
+
