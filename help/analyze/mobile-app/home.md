@@ -1,10 +1,10 @@
 ---
 title: Adobe Analytics 功能板 - 概述
 description: Adobe Analytics 功能板的产品文档和自助信息
-translation-type: ht
-source-git-commit: a905f74dc3d809bbe1542d7547c75ee64c710fb9
-workflow-type: ht
-source-wordcount: '224'
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '228'
 ht-degree: 100%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 100%
 
 * [策划人指南](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/mobapp/curator.html)：本指南旨在帮助数据策划人在[!UICONTROL 功能板]上为其执行用户配置记分卡。策划人可以是组织管理员，也可以是其他角色中负责设置记分卡的人员。
 
-   要观看本指南的视频概述，请参阅 [Adobe Analytics 功能板记分卡生成器](https://www.youtube.com/watch?v=tnnl6hrcP94&amp;feature=youtu.be)。
+   要观看本指南的视频概述，请参阅 [Adobe Analytics 功能板记分卡生成器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html)。
 
 
 * [执行用户快速入门指南](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/mobapp/executive.html)：本指南旨在帮助执行用户阅读并理解[!UICONTROL 功能板]上的记分卡。该应用程序允许执行用户在其自己的移动设备上快速、轻松地查看广泛呈现的重要摘要数据。
 
-   要观看重点介绍此信息的视频，请参阅 [Adobe Analytics 功能板应用程序内体验](https://www.youtube.com/watch?v=QXqQ_PkArbA&amp;feature=youtu.be)。
+   要观看重点介绍此信息的视频，请参阅 [Adobe Analytics 功能板应用程序内体验](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html)。
