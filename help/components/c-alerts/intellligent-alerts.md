@@ -3,7 +3,10 @@ description: 新的智能警报系统允许对警报进行更多粒度控制，�
 title: 智能警报
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '581'
+ht-degree: 95%
 
 ---
 
@@ -32,12 +35,12 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 * 在 Analysis Workspace 中使用以下快捷键：
 
    `ctrl (or cmd) + shift + a`
-* 直接转到警报生成器： **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]** 。
-* By selecting one or more freeform table line item/s, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**. 这将打开警报生成器，并在生成器中预填充表格中应用的相应量度和过滤器。然后，您可以根据需要编辑警报。
+* 直接转到警报生成器：**[!UICONTROL 工作区]** > **[!UICONTROL 组件]** > **[!UICONTROL 新警报]**。
+* 选择一个或多个自由格式表行项目，单击鼠标右键并选择&#x200B;**[!UICONTROL 从选定范围中创建警报]**。这将打开警报生成器，并在生成器中预填充表格中应用的相应量度和过滤器。然后，您可以根据需要编辑警报。
 
    ![](assets/create-alert-from-selection.png)
 
-* 从报告 [!UICONTROL Reports & Analytics] 中，转到 **[!UICONTROL More]** > **[!UICONTROL Add Alert]** 。 这将打开新的警报生成器，并在生成器中预填充报表中应用的相应量度和过滤器。然后，您可以根据需要编辑警报。
+* 从 [!UICONTROL Reports &amp; Analytics] 报表中，转到&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 添加警报]**。这将打开新的警报生成器，并在生成器中预填充报表中应用的相应量度和过滤器。然后，您可以根据需要编辑警报。
 
    ![](assets/add-alert.png)
 
@@ -73,7 +76,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问题：我可以获得用虚线制成的“预期值”表格吗？表格中会包含一些预期值的结果吗？</b> </p> </td> 
-   <td colname="col2"> <p>在工作区中无法实现，但是在 Report Builder 中可以（请观看视频：<a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  >Report Builder 中的异常检测</a>)。 </p> <p>请记住，Report Builder 使用的是略微简单的异常检测方法。与 <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/layout/t-anomaly.html"  ><span class="uicontrol"></span>Reports &amp; Analytics 异常检测</a>相似，它使用 30 天的固定培训期，和 95% 的固定间隔。 </p> </td> 
+   <td colname="col2"> <p>在工作区中无法实现，但是在 Report Builder 中可以（请观看视频：<a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  >Report Builder 中的异常检测</a>)。 </p> <p>请记住，Report Builder 使用的是略微简单的异常检测方法。它使用固定的30天培训期，固定的95%间隔。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
