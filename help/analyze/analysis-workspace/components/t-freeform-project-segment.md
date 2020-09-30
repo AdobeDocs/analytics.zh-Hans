@@ -2,11 +2,11 @@
 description: 'null'
 title: 区段
 uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '367'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ![](assets/segment_icons.png)
 
-[YouTube 上的使用 Analysis Workspace 中的区段](https://www.youtube.com/watch?v=QlUCdQDnni4) (6:46)
+[在 Analysis Workspace 中使用区段](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-in-analysis-workspace.html) (6:46)
 
 ## 创建区段 {#section_693CFADA668B4542B982446C2B4CF0F5}
 
@@ -55,4 +55,4 @@ ht-degree: 100%
 | 从选定范围中创建区段 | 创建内联区段。选择行，接着右键单击选定的内容，然后创建内联区段。该区段只适用于打开的项目并且不能另存为 Analytics 区段。1. 选择行。2. 右键单击选定的内容。3. 单击&#x200B;*从选定范围中创建区段*。 |
 | 组件 > 新建区段 | 屏幕上会显示“区段生成器”。有关区段划分的更多信息，请参阅[区段生成器](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/segmentation-workflow/seg-build.html)。 |
 | “共享”>“共享项目”或“共享”>“策划项目数据” | 在[组织并共享](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6)中，了解应用到项目中的区段如何用于为收件人提供的共享分析报表。 |
-| 使用区段作为维度 | 视频：[在 Analysis Workspace 中使用区段作为维度](https://www.youtube.com/watch?v=WmSdReKTWto&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=39) |
+| 使用区段作为维度 | 视频：[在 Analysis Workspace 中使用区段作为维度](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/using-segments-as-dimensions-in-analysis-workspace.html) |
