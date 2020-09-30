@@ -3,10 +3,10 @@ description: 将 Ad Hoc Analysis 术语和任务与 Analysis Workspace 进行比
 title: Analysis Workspace 与 Ad Hoc Analysis 的比较
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 85%
+source-wordcount: '1002'
+ht-degree: 70%
 
 ---
 
@@ -48,7 +48,7 @@ Analysis Workspace 将 Ad Hoc Analysis 的大多数功能都引入到了浏览�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>将维度和区段添加到量度列 </p> </td> 
-   <td colname="col2"> <p>您可以引入维度项目或区段作为列标题，以便轻松创建量度的比较视图。<a href="https://www.youtube.com/watch?v=P9W0hhIHhCs"  > 视频：使用维度</a> </p> </td> 
+   <td colname="col2"> <p>您可以引入维度项目或区段作为列标题，以便轻松创建量度的比较视图。<a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/metrics/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html"  > 视频：在Analysis Workspace为您的项目添加Dimension和指标</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>应用区段 </p> </td> 
@@ -57,11 +57,11 @@ Analysis Workspace 将 Ad Hoc Analysis 的大多数功能都引入到了浏览�
      <li id="li_F2E050902F9A4831BBA57F466E07DEAE">在<b>面板级别</b>，适用于面板中的许多可视化图表。这类似于将区段应用到 Ad Hoc Analysis 中的工作区。 </li> 
      <li id="li_2D88E43E0161485C95B08DC3C593EFD9">作为<b>表格中的行</b>。这类似于在 Ad Hoc Analysis 中将区段添加到表格生成器“行/划分”部分。 </li> 
      <li id="li_102E1A1DAA9247C08FC46C5AB3D78113">作为<b>表格中的列</b>。这类似于在 Ad Hoc Analysis 中将区段添加到表格生成器“列”部分，或在 Ad Hoc Analysis 中将区段应用于报表级别。 </li> 
-    </ol> <p><a href="https://www.youtube.com/watch?v=QlUCdQDnni4"  > 视频：在工作区中使用区段</a> </p> <p><a href="https://www.youtube.com/watch?v=YjaRlJoQqRA"  > 视频：将区段应用于面板</a> </p> </td> 
+    </ol> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/applying-segments/applying-segments-to-your-analysis-workspace-project.html"  > 视频：在工作区中使用区段</a> </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/panel-level-segments.html"  > 视频：将区段应用于面板</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>创建临时（“临时”）区段 </p> </td> 
-   <td colname="col2"> <p>You can <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > create instant, temporary ("ad-hoc") segments</a> in Analysis Workspace by dragging dimension items into the segment drop zone at the top of the panel. 此外，还可在面板拖放区域中添加下拉过滤器，以同时创建许多临时段，从而实现受控项目交互。 </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > 视频：Analysis Workspace 中的 Ad Hoc 区段</a> </p> <p><a href="https://www.youtube.com/watch?v=vpJywtsFVPI"  > 视频：下拉列表过滤器Analysis Workspace</a> </p> </td> 
+   <td colname="col2"> <p>You can <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > create instant, temporary ("ad-hoc") segments</a> in Analysis Workspace by dragging dimension items into the segment drop zone at the top of the panel. 此外，还可在面板拖放区域中添加下拉过滤器，以同时创建许多临时段，从而实现受控项目交互。 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/applying-segments/ad-hoc-temporary-segments.html"  > 视频：Analysis Workspace特设区</a> </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/applying-segments/using-drop-down-filters.html"  > 视频：下拉列表过滤器Analysis Workspace</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>选择日期范围和粒度 </p> </td> 
@@ -70,7 +70,7 @@ Analysis Workspace 将 Ad Hoc Analysis 的大多数功能都引入到了浏览�
      <li id="li_58FAE6A87B494A5C9007CD35BB101608">日期范围可应用于列/行并覆盖选定的面板日期范围。这类似于“报表”级别日期范围。 </li> 
      <li id="li_85BB89EFF9C8466A992815BB7804EA37">使用“应用”，可将日期范围应用于面板内的所有可视化图表。这类似于 Ad Hoc Analysis 中的“工作区”日期范围。 </li> 
      <li id="li_BC18564A8FBB48F4A522BCAC60838759">使用“应用于所有面板”，可将日期范围应用于工作区项目内的所有面板。这类似于 Ad Hoc Analysis 中的“项目”日期范围。 </li> 
-    </ol> <p><a href="https://www.youtube.com/watch?v=ybmv6EBmhn0"  > 视频：在 Analysis Workspace 中使用日期</a> </p> <p><a href="https://www.youtube.com/watch?v=L4FSrxr3SDA"  > 视频：自定义日期范围</a> </p> </td> 
+    </ol> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html"  > 视频：在 Analysis Workspace 中使用日期</a> </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/creating-custom-date-ranges-in-analysis-workspace.html"  > 视频：自定义日期范围</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用流失和转化漏斗 </p> </td> 
@@ -79,7 +79,7 @@ Analysis Workspace 将 Ad Hoc Analysis 的大多数功能都引入到了浏览�
      <li id="li_7B6C5F2682774641B82D2021786AE5C4">流失可以跨访问或访客，并且还可以选择包含“所有访问”。通过右键单击菜单可快速趋势化流失。 </li> 
      <li id="li_CFBDDAB8E96A445DB0624640AEB25994">维度项目可由 OR 运算符（类似于组）连接，而事件可用在漏斗中。 </li> 
      <li id="li_6638E6A62C744A27B2C066E5F9EC62C0">也可以通过右键单击菜单来呈现“流过”和“流失”后续步骤。 </li> 
-    </ol> <p>此外，Analysis Workspace 中的流失允许在步骤内使用<a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md"  >混合维度</a>，这是优于 Ad Hoc Analysis 的一项改进。步骤内的混合维度通过 AND 运算符进行处理。 </p> <p><a href="https://www.youtube.com/watch?v=VcrfHSyIoj8"  > 视频：流失和漏斗</a> </p> <p><a href="https://www.youtube.com/watch?v=EeLV366pQag"  > 视频：使用多个流失维度</a> </p> <p><a href="https://www.youtube.com/watch?v=H-oT3QZlyZQ"  > 视频：比较流失中的区段</a> </p> </td> 
+    </ol> <p>此外，Analysis Workspace 中的流失允许在步骤内使用<a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md"  >混合维度</a>，这是优于 Ad Hoc Analysis 的一项改进。步骤内的混合维度通过 AND 运算符进行处理。 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html"  > 视频：流失可视化</a> </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/multi-dimensional-fallout.html"  > 视频：使用多个流失维度</a> </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/comparing-segments-in-fallout.html"  > 视频：比较流失中的区段</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>检查流量（路径） </p> </td> 
@@ -88,23 +88,23 @@ Analysis Workspace 将 Ad Hoc Analysis 的大多数功能都引入到了浏览�
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">流量可跨访问或访客。 </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">关键统计数据以 % 路径查看的方式显示。 </li> 
     </ul> <p>此外，流量允许使用<a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  >混合维度</a>以及右键单击和创建区段的功能，这是优于 Ad Hoc Analysis 的一项改进。 </p> <p>目前，Analysis Workspace的 <b>Flow</b> （流）不能允许用户选择成功事件。 </li> 
-    </ul> <p><a href="https://www.youtube.com/watch?v=3R1HTM7y_RM"  > 视频：流量可视化图表概述</a> </p> <p><a href="https://www.youtube.com/watch?v=m1Wa6inC1rQ"  > 视频：多维度流量</a> </p> <p><a href="https://www.youtube.com/watch?v=XrJoNQy6RaQ"  > 视频：从流量创建区段</a> </p> </td> 
+    </ul> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html"  > 视频：流量可视化图表概述</a> </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/text-wrapping-and-multi-dimensional-flow.html"  > 视频：多维度流量</a> </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/expanding-on-flow-visualization.html"  > 视频：从流量创建区段</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>执行无限划分 </p> </td> 
-   <td colname="col2"> <p>Analysis Workspace 允许您向下钻取到浏览器内的无限级别。区段和维度可以混合。通过选择多个维度项目，然后将它们拖动划分维度，可一次划分多个项目 </p> <p><a href="https://www.youtube.com/watch?v=3mQ2HN7-lIc"  > 视频：改进的划分</a> </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace 允许您向下钻取到浏览器内的无限级别。区段和维度可以混合。通过选择多个维度项目，然后将它们拖动划分维度，可一次划分多个项目 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/dimension-breakdown-by-position.html"  > 视频：改进的划分</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>快速显示数据趋势 </p> </td> 
-   <td colname="col2"> <p>通过单击报表行内的图形图标，可以快速可视化数据。此外，这些快速可视化图表还将链接到源表格，以便您能够从表格中的一个值单击到下一个值，并自动查看图形更新。 </p> <p><a href="https://www.youtube.com/watch?v=kzlPjsBVYFQ"  > 视频：维度-图形实时链接</a> </p> </td> 
+   <td colname="col2"> <p>通过单击报表行内的图形图标，可以快速可视化数据。此外，这些快速可视化图表还将链接到源表格，以便您能够从表格中的一个值单击到下一个值，并自动查看图形更新。 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/dimension-graph-live-linking.html"  > 视频：维度-图形实时链接</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>选择报表包 </p> </td> 
-   <td colname="col2"> <p>可以将多个报表包添加到Analysis Workspace的单个项目。  </p> <p><a href="https://www.youtube.com/watch?v=kRPTBDNLJKk"  > 视频：工作区中的多个报表包</a> </p></td> 
+   <td colname="col2"> <p>可以将多个报表包添加到Analysis Workspace的单个项目。  </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/multiple-report-suites-in-analysis-workspace.html"  > 视频：工作区中的多个报表包</a> </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>归因 IQ </p> </td> 
-   <td colname="col2"> <p>通过 Analysis Workspace 中的<a href="/help/analyze/analysis-workspace/attribution/overview.md"  >归因 IQ</a>，您可以将多个新类型的归因模型添加到自由格式表、可视化图表和计算量度。它包括10多个基于规则的模型和算法模型。 </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > 视频：自由形式表中的Attribution IQ</a> </p> </td> 
+   <td colname="col2"> <p>通过 Analysis Workspace 中的<a href="/help/analyze/analysis-workspace/attribution/overview.md"  >归因 IQ</a>，您可以将多个新类型的归因模型添加到自由格式表、可视化图表和计算量度。它包括10多个基于规则的模型和算法模型。 </p>  <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-attribution-iq-in-freeform-tables.html"  > 视频：自由形式表中的Attribution IQ</a> </p> </td> 
   </tr>  
  </tbody> 
 </table>
