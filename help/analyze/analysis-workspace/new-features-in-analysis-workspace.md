@@ -3,9 +3,9 @@ description: Analysis Workspace 的新增功能
 keywords: Analysis Workspace
 title: Analysis Workspace 中的新增功能
 translation-type: tm+mt
-source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '7821'
+source-wordcount: '7790'
 ht-degree: 98%
 
 ---
@@ -989,9 +989,7 @@ ht-degree: 98%
      <li id="li_4D10DFE307344D06AA60792FABE5B57E"> 
       <!--AN-124168: -->在左导航边栏中添加了“操作”按钮，它们可执行以下操作：标记、收藏、批准、<b>共享（新增！）</b>、<b>删除（新增！）</b>。 </li> 
      <li id="li_946EC05568D4447193E9307546DF6F9B">向搜索栏添加了一个过滤器，它允许您对标记、收藏夹、批准的项目和组件进行过滤。 </li> 
-     <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">已向手动行添加一个预览图标（不是添加到列有维度项目的动态行），以便您预览区段、量度和日期范围。 </li> 
-     <li id="li_81D5241EA3FD49CEA0E9F412837D87A8"> 
-      <!--AN-128702: -->已将 Analysis Workspace 教程的 YouTube 链接更新为：<a href="https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS"  >https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS</a>。 </li> 
+     <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">已向手动行添加一个预览图标（不是添加到列有维度项目的动态行），以便您预览区段、量度和日期范围。 </li>  
      <li id="li_D81DB98C49664D2884CCCC1DB0058CD8"> 
       <!--AN-124004:-->对于可视化图表，我们在上下文菜单中添加了一个名为<span class="uicontrol">从头开始</span>的右键单击选项（将用于流程图、维恩图和直方图），通过此选项可删除当前可视化图表的配置，并打开一个允许您对该可视化图表进行重新配置的新面板。 </li> 
      <li id="li_84632BFCE1794B49A31FF45067FA04B7">名为“图例可视”的新可视化图表设置允许您隐藏概要数字/概要变化可视化图表的过滤器详细信息文本。 </li> 
