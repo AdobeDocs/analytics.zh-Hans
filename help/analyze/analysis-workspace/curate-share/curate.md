@@ -1,17 +1,17 @@
 ---
 description: “策划”让您可在共享项目前限制组件。
 keywords: Analysis Workspace curation
-title: 策划工作区项目
+title: 特选项目
 translation-type: tm+mt
-source-git-commit: 63a827b4cfa858e503431579755f1b4dba4b5bdf
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 100%
+source-wordcount: '489'
+ht-degree: 99%
 
 ---
 
 
-# 策划工作区项目
+# 特选项目
 
 “策划”让您可在共享项目前限制组件（维度、量度、区段、日期范围）。当收件人打开项目时，他们将看到您为其策划的有限组件。策划虽然是一个可选步骤，但建议在共享项目前执行此步骤。
 
