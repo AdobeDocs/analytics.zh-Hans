@@ -1,17 +1,17 @@
 ---
 description: 工作区中的项目共享和项目角色
 keywords: Analysis Workspace sharing
-title: 共享工作区项目
+title: 共享项目
 translation-type: tm+mt
-source-git-commit: 2189354bc296fa8b39dc646b2ad3aec28ded92cd
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 共享工作区项目
+# 共享项目
 
 共享可以使一个项目供您的组织内的其他 Analysis Workspace 用户使用。在收件人打开项目时，您应用的任何[策划](curate.md)都会反映出来。
 
