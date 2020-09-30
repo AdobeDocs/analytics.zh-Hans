@@ -3,16 +3,19 @@ description: 'null'
 title: 对表格进行分页、过滤和排序
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 81%
 
 ---
 
 
 # 对表格进行分页、过滤和排序
 
-要获取概览信息，请在 YouTube 中观看此视频：
+有关概述，请观看此视频教程：
 
-[在 Analysis Workspace 中对表格进行分页、过滤和排序](https://www.youtube.com/watch?v=2zxpRPCGspg)
+[在 Analysis Workspace 中对表格进行分页、过滤和排序](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/pagination-filtering-sorting-tables.html)
 
 ## 高级过滤选项 {#section_36E92E31442B4EBCB052073590C1F025}
 
