@@ -1,11 +1,13 @@
 ---
-description: 管理计划的 Analysis Workspace 项目。
+description: 管理计划的Analysis Workspace项目
 keywords: Analysis Workspace
 title: 计划项目管理器
-topic: Reports and analytics
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +16,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 管理计划的 Analysis Workspace 项目。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Scheduled Projects]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 计划项目]**。
 
 ![](assets/components-scheduled-projects.png)
 
