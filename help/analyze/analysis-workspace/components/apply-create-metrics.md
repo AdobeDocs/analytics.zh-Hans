@@ -3,10 +3,10 @@ description: 可通过两种方式在 Analysis Workspace 中使用量度。
 title: 量度
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
 translation-type: tm+mt
-source-git-commit: 79032645028af6e782a89867057fc9a1726ca27c
+source-git-commit: f6f638bcd6a9630d857996a44312dbb739a0c2a8
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 91%
+source-wordcount: '252'
+ht-degree: 85%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 91%
 
 ![](assets/calc_metrics.png)
 
-[YouTube 上的使用参与量度](https://www.youtube.com/watch?v=ngmJHcg65o8&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=32) (4:16)
+[计算指标：无实施指标](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
 
 ## 比较不同归因模型的量度
 
