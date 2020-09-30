@@ -1,17 +1,17 @@
 ---
 description: 工作区中的仅查看项目
 keywords: View-only projects
-title: 仅查看的工作区项目
-translation-type: ht
-source-git-commit: 8efbe8c64f32a64da0422611e0170b7135ad39d0
-workflow-type: ht
-source-wordcount: '248'
-ht-degree: 100%
+title: 仅视图项目
+translation-type: tm+mt
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 仅查看的工作区项目
+# 仅视图项目
 
 您可以通过[项目共享工作流程](/help/analyze/analysis-workspace/curate-share/share-projects.md)与收件人共享“仅查看”项目。处于“可以查看”角色的收件人将获得更有限的项目体验。如果您将项目共享给不太熟悉您组织的数据结构（通常情况下是 Analysis Workspace 或 Adobe Analytics）的用户，但仍希望他们在安全的环境中使用数据和洞察，则可能希望这样做。
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 仅查看项目中，一些更值得注意的已启用交互包括：
 
 | 面积图 | 启用的交互 |
-|---|---|
+| --- | --- |
 | 自由格式表 | <ul><li>分页和排序</li><li>悬停</li><li>更新链接可视化图表的单元格选择</li><li>右键单击 > 获取可视化图表链接</li><li>右键单击 > 复制到剪贴板</li></ul> |
 | 可视化图表 | <ul><li>单击以打开/关闭图例</li><li>悬停</li><li>右键单击 > 获取可视化图表链接</li><li>折叠/展开</li><li>流量 - 展开流量节点</li><li>地图 - 缩放</li></ul> |
 | 面板 | <ul><li>交互式下拉过滤器</li><li>右键单击 > 获取面板链接</li><li>折叠/展开</li></ul> |
