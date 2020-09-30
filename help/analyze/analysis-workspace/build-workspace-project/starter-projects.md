@@ -3,10 +3,10 @@ description: 'null'
 title: 模板
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '1383'
-ht-degree: 99%
+source-wordcount: '1389'
+ht-degree: 93%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 99%
 
 您可以按原样使用这些预填充模板，或修改它们以符合您的需要（例如，添加或替换量度或可视化图表），然后起一个新名称保存它们。
 
-[YouTube 上 Analysis Workspace 中的标准模板](https://www.youtube.com/watch?v=aRgYwPneVXg&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=6) (2:46)
+以下是有关Analysis Workspace标准 [模板的视频教程](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html) (2:46)
 
 以下是可用的模板和每个模板帮助回答的问题：
 
@@ -65,7 +65,7 @@ ht-degree: 99%
 
 * **培训教程 - 内部搜索分析**：“内部搜索”教程可帮助您了解访客在网站或应用程序上查找的内容（而非找到的内容）。分析此类数据可以发掘内容优化商机。
 
-* **培训教程 - 营销分析**：本教程向您展示如何为您的执行人员整合营销分析，包括指明重要的自定义维度和量度。
+* **培训教程——营销分析**:本教程向您展示如何为您的管理人员构建营销分析，包括哪些自定义维度和指标很重要。
 
 ### 广告
 
@@ -77,9 +77,9 @@ ht-degree: 99%
 
 ### 商务
 
-* **Magento：营销与商务**：此模板按营销渠道归因划分您的电子商务转化，并按搜索关键字、登录页面、地理位置等提供分析。有关视频概述，请参阅：
+* **Magento:营销和商务**:此模板按营销渠道归因划分您的电子商务转化，并提供按搜索关键字、登陆页、地理位置等进行分析。 有关视频概述，请参阅：
 
->[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+>[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
 
 ### 媒体
 
