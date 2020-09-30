@@ -2,10 +2,10 @@
 title: 在 Launch 中创建 Analytics 属性
 description: 使用 Adobe Experience Platform Launch 创建一个空间以自定义收集数据的方式。
 translation-type: tm+mt
-source-git-commit: dd506bf171c480c880863c03eee55be8fd9e15cb
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 84%
+source-wordcount: '543'
+ht-degree: 82%
 
 ---
 
@@ -83,7 +83,7 @@ Adobe Experience Platform Launch 是一个可用于在您的网站（包括 Anal
 
 * [Adobe Analytics 扩展文档](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension)：特定于 Adobe Experience Platform Launch 中 Adobe Analytics 扩展的完整文档。
 * [Launch 快速入门](https://docs.adobelaunch.com/getting-started)：有关 Launch 的完整文档，包括更详细的入门指南
-* [Adobe Experience Platform Launch YouTube 渠道](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&amp;shelf_id=0&amp;sort=dd)：通过视频了解如何使用 Launch
+* [Adobe Experience Platform Launch 渠道](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform)：通过视频了解如何使用 Launch
 
 ## 后续步骤
 
