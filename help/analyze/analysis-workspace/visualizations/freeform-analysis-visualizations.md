@@ -3,10 +3,10 @@ description: 了解 Analysis Workspace 中的可视化图表和可视化图表�
 keywords: Analysis Workspace
 title: 可视化图表概述
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 98%
+source-wordcount: '1058'
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 工作区提供了许多可视化图表，使您能够生成数据的可视化表示形式，如条形图、圆环图、直方图、折线图、地图、散点图等。每个可视化图表都有其自身的设置，您可以管理这些设置。单击可视化图表的名称可了解更多详细信息。
 
-YouTube 视频：[Analysis Workspace 中的可视化图表类型](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+Video tutorial: [Visualization Types in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/visualization-types.html) (2:57)
 
 | 可视化图表名称 | 描述 |
 |---|---|
@@ -109,4 +109,4 @@ YouTube 视频：[Analysis Workspace 中的可视化图表类型](https://www.yo
 1. 输入新的标签文本。
 1. 按 **[!UICONTROL Enter]** 键保存。
 
-下面是一个[指向该主题相关视频的链接](https://www.youtube.com/watch?v=mry3vDrTml0&amp;index=61&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)。
+下面是一个[指向该主题相关视频的链接](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html)。
