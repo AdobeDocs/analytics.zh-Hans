@@ -3,10 +3,10 @@ description: 通过电子邮件发送Analysis Workspace项目或将其计划以�
 keywords: Analysis Workspace
 title: 计划项目
 translation-type: tm+mt
-source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
