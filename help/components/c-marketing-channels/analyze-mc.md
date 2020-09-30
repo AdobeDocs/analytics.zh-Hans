@@ -1,11 +1,11 @@
 ---
 title: 分析营销渠道
 description: 了解如何在工作区中使用营销渠道维度。
-translation-type: ht
-source-git-commit: 586dabe8454bb2e6fbd4f3fbdb18d13a18b0417d
-workflow-type: ht
-source-wordcount: '407'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 94%
 
 ---
 
@@ -52,12 +52,10 @@ ht-degree: 100%
 
 请注意当您应用不同的归因模型时，同一量度（在线订单）是如何生成不同结果的。
 
-以下几个视频详细解释了归因 IQ：[归因 IQ 播放列表](https://www.youtube.com/playlist?list=PL2tCx83mn7GuDzYEZ8jQlaScruZr3tBTR)。
-
 ## 交叉表营销分析
 
 使用旧版“首个联系渠道”和“最近联系渠道”，您可以在渠道交互中获取有用的视图：
 
 ![](assets/mc-viz6.png)
 
-通过[此视频](https://www.youtube.com/watch?v=M3EOdONa-3E)进一步了解交叉表营销分析。
+通过此视频进一步了解跨标签营销分析: [使用跨标签分析探索Analysis Workspace的基本营销归因](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html)。
