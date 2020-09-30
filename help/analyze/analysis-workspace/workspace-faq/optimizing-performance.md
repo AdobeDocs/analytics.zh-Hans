@@ -3,10 +3,10 @@ description: 'null'
 title: 优化 Analysis Workspace 性能
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 3cf68f3ba50c7a27a86d37591477812537b8ae1a
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 85%
+source-wordcount: '1313'
+ht-degree: 84%
 
 ---
 
@@ -42,13 +42,13 @@ ht-degree: 85%
 
 **日期范围的最佳实践**
 
-请尽量不要获取超过需求的数据。将面板日历缩小为分析的相关日期，或在自由格式表中使用日期范围组件（紫色组件）。 表中使用的日期范围将覆盖面板日期范围。 例如，您可以向表列添加上月、上周和昨天，以请求这些特定的数据范围。 有关在 Analysis Workspace 中使用日期范围的更多信息，请观看[此视频](https://www.youtube.com/watch?v=MIkT6FZ5gKk)。
+请尽量不要获取超过需求的数据。将面板日历缩小为分析的相关日期，或在自由格式表中使用日期范围组件（紫色组件）。 表中使用的日期范围将覆盖面板日期范围。 例如，您可以向表列添加上月、上周和昨天，以请求这些特定的数据范围。 有关在 Analysis Workspace 中使用日期范围的更多信息，请观看[此视频](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/date-ranges-and-calendar-in-analysis-workspace.html)。
 
 最大限度地减少项目中使用的逐年比较次数。 当计算一年比较时，它会在感兴趣的月份之间查看整整13个月的数据。 这与将面板日期范围更改为最近13个月具有相同的影响。
 
 ## 可视化图表数量
 
-一个项目中包含的可视化数量将影响Analysis Workspace的总体响应性。 这是因为每个可视化，无论是表还是图，都有一个需要请求的数据源。
+一个项目包含的可视化数量将影响Analysis Workspace的总体响应能力。 这是因为每个可视化，无论是表还是图，都有一个需要请求的数据源。
 
 **可视化图表数量的最佳实践**
 
@@ -79,7 +79,7 @@ ht-degree: 85%
 
 请不要尝试将所有内容都添加到一个项目中，而是应创建用于特定目的或利益相关者组的不同项目。可使用标记将项目组织为关键主题，并与利益相关者组共享相关项目。
 
-如果需要组织更多项目，请记住，可以选择[直接关联](https://www.youtube.com/watch?v=6IOEewflG2U)到您的项目。可创建项目的内部索引，以便利益相关者能够更轻松地找到所需内容。
+如果需要组织更多项目，请记住，可以选择[直接关联](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/direct-link-to-a-project.html)到您的项目。可创建项目的内部索引，以便利益相关者能够更轻松地找到所需内容。
 
 如果一个项目中需要多个面板，请在保存和共享之前折叠面板。 加载项目时，Analysis Workspace 将只加载已展开面板的内容。折叠的面板只有等到用户展开它们后才会加载。此方法有以下两大好处：
 
@@ -88,7 +88,7 @@ ht-degree: 85%
 
 ## 报表包大小
 
-报表包的大小看起来像是一种驱动因素，但实际上，它因 Adobe 处理数据的方式，而只在项目性能中起到很小的作用. 本规则可能有例外情况； 请咨询您的实施团队或Adobe专家，确定是否可以改进实施以改善Adobe Analytics的整体体验。
+报表包的大小看起来像是一种驱动因素，但实际上，它因 Adobe 处理数据的方式，而只在项目性能中起到很小的作用. 本规则可能有例外情况；请咨询您的实施团队或Adobe专家，确定是否可以改进实施以改善Adobe Analytics的整体体验。
 
 ## 同时访问 Analysis Workspace 的人数
 
