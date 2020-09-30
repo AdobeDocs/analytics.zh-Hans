@@ -5,10 +5,10 @@ user-guide-title: Analytics 工具指南
 breadcrumb-title: Tools Guide
 user-guide-description: Provides how-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Report Builder and Activity Map.
 translation-type: tm+mt
-source-git-commit: a290e5790591d73c397b2eb99f0c070e0ea71b10
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -92,13 +92,13 @@ ht-degree: 97%
          + [区段比较用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [细分比较中使用的统计测试](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 组织或共享项目 {#curate-share}
-      + [策划工作区项目](analysis-workspace/curate-share/curate.md)
-      + [共享工作区项目](analysis-workspace/curate-share/share-projects.md)
+      + [“共享”菜单](analysis-workspace/curate-share/send-schedule-files.md)
+      + [特选项目](analysis-workspace/curate-share/curate.md)
+      + [共享项目](analysis-workspace/curate-share/share-projects.md)
       + [创建可共享链接](analysis-workspace/curate-share/shareable-links.md)
-      + [仅查看工作区项目](analysis-workspace/curate-share/view-only-projects.md)
+      + [仅视图项目](analysis-workspace/curate-share/view-only-projects.md)
       + [下载 PDF 或 CSV 文件](analysis-workspace/curate-share/download-send.md)
-      + [共享和计划项目文件](analysis-workspace/curate-share/send-schedule-files.md)
-      + [发送文件 - 计划交付项目](analysis-workspace/curate-share/t-schedule-report.md)
+      + [计划项目](analysis-workspace/curate-share/t-schedule-report.md)
    + 归因 IQ {#attribution}
       + [归因概述](analysis-workspace/attribution/overview.md)
       + [归因模型和回顾时间范围](analysis-workspace/attribution/models.md)
