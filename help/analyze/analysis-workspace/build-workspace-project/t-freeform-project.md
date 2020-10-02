@@ -4,11 +4,11 @@ keywords: Analysis Workspace
 title: 创建工作区项目
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-translation-type: ht
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
-workflow-type: ht
-source-wordcount: '765'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 创建一个项目并将组件（维度、量度、区段、日期范围）添加到自由格式面板。
 
-在本篇文章中，您可以熟悉 Analysis Workspace 的界面元素，并了解如何创建项目。有关特定用例，请参阅 [Analysis Workspace 的用例](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md)。
+在本篇文章中，您可以熟悉 Analysis Workspace 的界面元素，并了解如何创建项目。
 
 ## 创建项目
 
@@ -117,7 +117,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> 区段（蓝色） </td> 
-   <td colname="col2"> <p>只能在面板级别进行拖动，不过，您可以在数据表中创建内联区段。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>有关更多信息，请参阅 <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  >Analysis Workspace 的用例</a>。 </p> </td> 
+   <td colname="col2"> <p>只能在面板级别进行拖动，不过，您可以在数据表中创建内联区段。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>有关更 <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 多信 </a> 息，请参阅区段。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 日期范围和粒度（紫色） </td> 
