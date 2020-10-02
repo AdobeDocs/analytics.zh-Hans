@@ -5,10 +5,10 @@ title: 处理规则概述
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+source-git-commit: 4cacd06d268c501ade05487c594bc68aa22e9f4c
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 87%
+source-wordcount: '362'
+ht-degree: 80%
 
 ---
 
@@ -24,20 +24,11 @@ ht-degree: 87%
 * 清除拼写错误的网站区域
 * 将内部搜索词或促销活动 ID 从查询字符串提取到 eVar
 
->[!VIDEO](https://tv.adobe.com/embed/1181/16506/)
+>[!VIDEO](https://video.tv.adobe.com/v/26124/?quality=12&learn=on)
 
-*观看来自 Adobe 峰会的处理规则概述和培训，以了解为何要使用处理规则的理由。*
+## 处理规则权限 {#section_8A4846688050453784DAE4D89355169A}
 
-## 获得使用处理规则的授权 {#section_8A4846688050453784DAE4D89355169A}
-
-在 2017 年 4 月 20 日之前，所有用户（包括管理员）都必须通过测验，然后才能获得 Adobe 客户关怀赋予的使用处理规则的授权。
-
-当前，管理员&#x200B;**默认**&#x200B;拥有使用处理规则的权限。不再需要进行测验。管理员还可以通过管理工具界面将这些权限授予非管理员用户。以下是具体操作方法：
-
-1. 如果您还没有这么做，[请创建一个群组](/help/admin/user-management2/c-user-groups/groups.md)，其中只包含那些应当有权使用处理规则的非管理员。
-1. [将非管理员添加到该组](/help/admin/user-management2/c-user-management/t-add-user-to-group.md)。
-1. 然后转到 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 群组]** > **[!UICONTROL `group name`]** > **[!UICONTROL 编辑]** > **[!UICONTROL 报表访问]** > **[!UICONTROL 报表包工具]** > **[!UICONTROL 自定义]** > **[!UICONTROL 报告包管理]**。
-1. 选中[!UICONTROL 处理规则]旁边的框，然后单击&#x200B;**[!UICONTROL 确定]**。
+Administrators have rights to use processing rules **by default**. 管理员还可以通过管理工具界面将这些权限授予非管理员用户。有关说明，请参阅 []
 
 ![](assets/processing-rules.png)
 
