@@ -3,10 +3,10 @@ description: 'null'
 title: 优化 Analysis Workspace 性能
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 8ac408613d9aae1745cc6b876ef2a4c252f0665d
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 84%
+source-wordcount: '1381'
+ht-degree: 80%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 84%
 * 请求的数据范围，如上所述
 * 应用的区段数量；例如，用作自由格式表行的区段
 * 使用复杂区段
-* [自由格式表中的静态项目行或列](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.html)
+* [自由格式表中的静态项目行或列](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
 * 应用于自由格式表行的过滤器
 * 包含的量度数量，尤其是使用区段的计算量度
 
@@ -99,10 +99,10 @@ ht-degree: 84%
 在与 Analysis Workspace 交互时，可能会遇到错误。导致错误的原因有多种，下面列出了最常见的原因。
 
 | 错误消息 | 为什么出现此错误？ |
-|---|---|
-| `The report suite is experiencing unusually heavy reporting. Please try again later.` | 您的组织针对特定报表包尝试运行的并发请求过多。导致此错误的因素包括：API 请求、计划项目、计划报表、计划警报，以及提出报表请求的并发用户数量。我们建议您将报表包的请求和计划比较均匀地分散到一整天里。 |
-| `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | Adobe 遇到了一个需要解决的问题。我们建议您通过“客户关怀”请求提交错误代码。 |
-| `The request is too complex.` | 您的报表请求过大，无法执行。导致此错误的因素包括：因请求的大小、区段或搜索过滤器中的匹配项过多、包含的量度过多、维度与量度组合不兼容等原因而导致的各种超时。我们建议简化您的请求。 |
-| `One of the segments or the search in this visualization contains a text search that returned too many results.` | 我们建议缩小搜索文本标准并再次尝试请求。 |
-| `This dimension does not currently support non-default attribution models.` | 我们建议将表格中的维度替换为与[归因 IQ](../attribution/overview.md) 兼容的维度。 |
-| `Your request failed as a result of too many columns or pre-configured rows.` | 我们建议移除一些列或行，或者考虑将它们拆分为单独的可视化图表。 |
+| --- | --- |
+| [!UICONTROL 报表包的报告过于繁重。请稍后重试。] | 您的组织针对特定报表包尝试运行的并发请求过多。导致此错误的因素包括：API 请求、计划项目、计划报表、计划警报，以及提出报表请求的并发用户数量。我们建议您将报表包的请求和计划比较均匀地分散到一整天里。 |
+| [!UICONTROL 发生系统错误。 请在“帮助”>“提交支持票证”下记录客户关怀请求并包含您的错误代码。] | Adobe 遇到了一个需要解决的问题。我们建议您通过“客户关怀”请求提交错误代码。 |
+| [!UICONTROL 请求太复杂。] | 您的报表请求过大，无法执行。导致此错误的因素包括：因请求的大小、区段或搜索过滤器中的匹配项过多、包含的量度过多、维度与量度组合不兼容等原因而导致的各种超时。我们建议简化您的请求。 |
+| [!UICONTROL 此可视化中的一个区段或搜索包含返回过多结果的文本搜索。] | 我们建议缩小搜索文本标准并再次尝试请求。 |
+| [!UICONTROL 此维度当前不支持非默认归因模型。] | 我们建议将表格中的维度替换为与[归因 IQ](/help/analyze/analysis-workspace/attribution/overview.md) 兼容的维度。 |
+| [!UICONTROL 由于列或预配置行过多，您的请求失败。] | 我们建议移除一些列或行，或者考虑将它们拆分为单独的可视化图表。 |
