@@ -1,11 +1,11 @@
 ---
 title: 独特访客
-description: 独特个人（或设备）的数量。
+description: 唯一访客ID的数量。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 87%
+source-wordcount: '564'
+ht-degree: 84%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 87%
 
 “唯一访客”度量显示维度项的访客ID数。 它是确定流量时使用的最常见的指标之一，因为它提供了维度项目受欢迎程度的高级概述。 例如，访客可能在一个月内每天访问您的网站，但仍将其计为一个独特访客。
 
-如果您使用[跨设备分析](../cda/overview.md)，此量度将重命名为“独特设备”。
+如果您使 [用跨设备分析](../cda/overview.md)，此指标将替换为 [唯一设备](unique-devices.md) 。
 
 ## 每日、每周、每月、每季度和每年独特访客
 
