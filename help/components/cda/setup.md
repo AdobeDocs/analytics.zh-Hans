@@ -2,10 +2,10 @@
 title: 设置跨设备分析
 description: 配置虚拟报告套件以启用CDA。
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 91%
+ht-degree: 83%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
-> 在执行这些步骤之前，必须满足所有先决条件。如果不满足所有先决条件，该功能将不可用或无法正常工作。有关先决条件 [和限制](overview.md) ，请参阅概述页[面和所需的缝合方法(](field-based-stitching.md) 分别基于字段的拼合 [或设](device-graph.md)备图)。
+>在执行这些步骤之前，必须满足所有先决条件。如果不满足所有先决条件，该功能将不可用或无法正常工作。有关先决条件 [和限制](overview.md) ，请参阅概述页[面和所需的缝合方法(](field-based-stitching.md) 分别基于字段的拼合 [或设](device-graph.md)备图)。
 
 ## 选择要启用 CDA 的跨设备报表包
 
@@ -43,7 +43,7 @@ ht-degree: 91%
 在虚拟报表包中启用跨设备分析后，请注意以下更改：
 
 * 虚拟报表包名称旁边将显示一个新的跨设备图标。此图标仅适用于跨设备虚拟报表包。
-* 标记为“已识别状态”的新维度已可用。此维度确定当时设备图是否知晓该点击的 Experience Cloud ID。
-* 标记为“人员”和“独特设备”的新量度将可用。
-* “独特访客”量度将不可用，因为它已被替换为“人员”量度和“独特设备”量度。
+* A new dimension labeled [Identified state](../dimensions/identified-state.md) is available. 此维度确定当时设备图是否知晓该点击的 Experience Cloud ID。
+* New metrics labeled [People](../metrics/people.md) and [Unique Devices](../metrics/unique-devices.md) are available.
+* The metric [Unique Visitors](../metrics/unique-visitors.md) is not available, as it is replaced with &#39;People&#39; and &#39;Unique Devices&#39;.
 * 构建区段后，“访客”区段容器将被替换为“人员”容器。
