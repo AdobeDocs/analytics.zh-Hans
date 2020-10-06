@@ -2,7 +2,7 @@
 description: 有关设置功能板记分卡的说明。
 title: Adobe Analytics 功能板策划人指南
 translation-type: tm+mt
-source-git-commit: 3be37fd47de552e378033ade196538e6d84d31c5
+source-git-commit: 7ec56bb72638f157b6a501d73495b91ae52d7de9
 workflow-type: tm+mt
 source-wordcount: '2376'
 ht-degree: 92%
@@ -11,10 +11,6 @@ ht-degree: 92%
 
 
 # Adobe Analytics 功能板策划人指南
-
->[!IMPORTANT]
->
->从2020年10月开始，Adobe逐步推出一系列增强功能，以优化“Adobe Analytics仪表板”应用程序的性能。 这些增强功能主要用于缓存用于用日期填充记分卡的历史Analytics数据（不包括当天）。 此数据将在安全的Microsoft Azure公共云存储帐户中缓存24小时。 如果您希望使用这些性能增强功选择退出能，请联系客户服务经理。
 
 以下信息将指导 Adobe Analytics 数据策划人如何为执行用户配置和展示功能板。要观看演示此信息的视频，请参阅Adobe Analytics仪表板记分卡生成器视频：
 
@@ -263,3 +259,7 @@ If you update the Scorecard by adding new components, you may want to share the 
 **要咨询问题**，请执行以下操作：
 
 点按相应选项，然后在顶部字段中提供您的电子邮件地址，并在其下方的字段中提供问题说明。屏幕快照会自动附加到消息中，但如果需要，您可以通过点按附件图像中的 **X** 来删除该屏幕快照。您还可以选择进行屏幕录制、添加更多屏幕快照或附加文件。要发送问题，请点按表单右上角的纸飞机图标。
+
+>[!IMPORTANT]
+>
+>从2020年10月开始，Adobe逐步推出一系列增强功能，以优化“Adobe Analytics仪表板”应用程序的性能。 这些增强功能主要用于缓存用于用日期填充记分卡的历史Analytics数据（不包括当天）。 此数据将在安全的Microsoft Azure公共云存储帐户中缓存24小时。 如果您希望使用这些性能增强功选择退出能，请联系客户服务经理。
