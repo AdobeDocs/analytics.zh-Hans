@@ -4,10 +4,10 @@ title: Analysis Workspace 概述
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 4cacd06d268c501ade05487c594bc68aa22e9f4c
+source-git-commit: e70cd7056a88f58a905c5a3cb9a173b31a7b53be
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 13%
+source-wordcount: '525'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +18,7 @@ Analysis Workspace是一款灵活的浏览器工具，可让您快速构建分�
 
 如果您只有几分钟时间，请观看此简短的概述，了解可能的方法。
 
->[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
 ## Log in to Adobe Analytics {#login}
 
@@ -46,7 +46,7 @@ Analysis Workspace是一款灵活的浏览器工具，可让您快速构建分�
 
 ### 组件
 
-**组件** 是维度、量度、细分或日期范围，所有这些都可以组合到自由形式 **[!UICONTROL 表中]** ,开始回答您的业务问题。 在深入分析之前，请 [务必熟悉](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) 每种组件类型。 掌握组件术语后，您可以开始拖放以在自由形 [式表中构建](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html)**[!UICONTROL 分析]**。
+**组件** 是维度、量度、细分或日期范围，所有这些都可以组合到自由形式 **[!UICONTROL 表中]** ,开始回答您的业务问题。 在深入分析之前，请 [务必熟悉](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) 每种组件类型。 掌握组件术语后，您可以开始拖放以在自由形 [式表中构建](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html)**[!UICONTROL 分析]**。
 
 ![](assets/build-components.png)
 
