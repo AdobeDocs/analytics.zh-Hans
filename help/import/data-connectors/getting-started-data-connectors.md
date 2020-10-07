@@ -2,10 +2,10 @@
 description: 将跟踪数据从第三方应用程序导入到 Analytics 中。
 title: Analytics Data Connectors 快速入门
 translation-type: tm+mt
-source-git-commit: 6967ed62ced07cf817bdfd7137c5659831ae3520
+source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 98%
+source-wordcount: '975'
+ht-degree: 97%
 
 ---
 
@@ -86,7 +86,9 @@ Adobe Analytics 会通过 Data Warehouse 将这些文件作为单独的每日文
 
 >[!NOTE]
 >
->如果定义的产品没有关联事件，则会自动触发 prodView 事件。如果不满足以上要求，那么相应的再营销区段将无法正常报告。
+>If the product is defined without an associated event, the `prodView` event automatically fires.
+>
+>如果不满足以上要求，那么相应的再营销区段将无法正常报告。
 
 [!UICONTROL 放弃购买]：用户将产品添加到购物车后触发：
 
