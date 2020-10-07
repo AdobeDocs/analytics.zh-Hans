@@ -3,9 +3,9 @@ description: Analysis Workspace 的新增功能
 keywords: Analysis Workspace
 title: Analysis Workspace 中的新增功能
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
-source-wordcount: '7790'
+source-wordcount: '7786'
 ht-degree: 98%
 
 ---
@@ -414,8 +414,7 @@ ht-degree: 98%
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md#create-custom-template"  > 自定义工作区模板 </a> </p> </td> 
    <td colname="col2"> <p>您现在可以构建并保存自己的工作区模板，这样一来，公司中的其他用户便可以开始使用与自己相关的数据。 </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  >“新建项目”启动模式</a> </p> </td> 
+  <tr>  
    <td colname="col2"> <p>单击“新建项目”可启动一个新的屏幕，您可以从中选取新建项目的具体选项 </p> 
     <ul id="ul_FE90E6B9AF334A029D66A43901F8FA0B"> 
      <li id="li_F1DFD9AE140C4E5B849D4C522D5968DB">空白项目，或 </li> 
@@ -498,7 +497,7 @@ ht-degree: 98%
    <td colname="col2"> <p>现在可以在 PDF 中对 2017 年 10 月推出的地图可视化图表进行渲染。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > 复制/另存为项目时使用相对内部链接</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > 复制/另存为项目时使用相对内部链接</a> </p> </td> 
    <td colname="col2"> <p>以前，当您复制某个项目或执行“另存为”时，保存在该项目中的所有内部链接均指向原始项目，而不是复制后的项目。 </p> <p>现在，执行“复制”或“另存为”操作后，内部链接都是一些相对于其所在项目的链接。 </p> </td> 
   </tr> 
   <tr> 
@@ -568,7 +567,7 @@ ht-degree: 98%
    <td colname="col2"> <p>如果有可视化图表连接到自由格式或同类表，左上侧的点（数据源设置）即会列出连接的可视化图表。将鼠标悬停在其上方将突出显示链接的可视化图表，单击它即会转到该可视化图表。 </p> <p>此外，还有一个“显示/隐藏数据表”复选框可让您显示或隐藏数据表。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  >向左边栏事件名称添加了 Event#</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  >向左边栏事件名称添加了 Event#</a> </p> </td> 
    <td colname="col2"> <p>在 2017 年 10 月之前，evar# 和 prop# 均被附加到维度名称，您可以对这些数字编号进行搜索。相同的功能现在也可用于事件。 </p> <p>示例：“Subscriptions”当前在左边栏中显示为“Subscriptions (event1)”。 </p> <p>请记住： </p> 
     <ul id="ul_5DF85C65F7004539949DDC4F23922296"> 
      <li id="li_A685834B4914460D87568583BB39C474">表中不显示事件编号（为了使标题保持简短）。 </li> 
@@ -576,7 +575,7 @@ ht-degree: 98%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > 在默认情况下，现有的维度按逻辑顺序排序 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > 在默认情况下，现有的维度按逻辑顺序排序 </a> </p> </td> 
    <td colname="col2"> <p>某些现有维度的默认排序顺序在下列情况下已更新： </p> 
     <ul id="ul_B9C0C761F39E43A4977EC028F4D4525C"> 
      <li id="li_FE72ADDCD32A4FF7907462726D6E7758">当它们被拖到自由格式表中时。 </li> 
@@ -677,7 +676,7 @@ ht-degree: 98%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > 在保存过程中标记项目 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > 在保存过程中标记项目 </a> </p> </td> 
    <td colname="col2"> <p>您当前可在保存项目时为项目添加标记。 </p> </td> 
   </tr> 
   <tr> 
