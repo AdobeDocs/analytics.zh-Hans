@@ -5,7 +5,7 @@ title: 创建项目 - 概述
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 86%
@@ -33,7 +33,7 @@ ht-degree: 86%
 
 | 元素 | 描述 |
 |---|---|
-| [新建项目](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | 单击此链接可重新启动一个新项目。 |
+| [新建项目](/help/analyze/analysis-workspace/home.md) | 单击此链接可重新启动一个新项目。 |
 | 管理项目 | 单击此链接将会转到项目组件管理器（**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 项目]**），其中列出了您的所有项目，并允许您标记、共享、删除、重命名、批准、复制项目以及将项目导出到 CSV。 |
 | 设置为登录页面 | 将此页转换为工作区登陆页。 |
 | 查看教程 | Takes you to the [Analysis Workspace video tutorials](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html). |
