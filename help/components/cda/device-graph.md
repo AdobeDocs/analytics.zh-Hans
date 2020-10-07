@@ -2,7 +2,7 @@
 title: 设备图
 description: 使用设备图表了解拼接数据的先决条件和限制。
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 954927359420cfdb3d0e908758fc36464e15fee5
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 41%
@@ -18,8 +18,8 @@ ht-degree: 41%
 
 Adobe优惠两种类型的设备图形作为ID服务的一部分：
 
-* **合作图**: 任何客户都可以提供并引用的散列设备ID的存储库。 由于此类设备图是协作的，因此与专用图相比，它通常匹配更多设备。
-* **专用图**: 散列设备ID的存储库，仅供您的组织引用。
+* **合作图**:任何客户都可以提供并引用的散列设备ID的存储库。 由于此类设备图是协作的，因此与专用图相比，它通常匹配更多设备。
+* **专用图**:散列设备ID的存储库，仅供您的组织引用。
 
 ## 特定于设备图表的先决条件
 
@@ -27,7 +27,7 @@ Adobe优惠两种类型的设备图形作为ID服务的一部分：
 
 >[!IMPORTANT]
 >
-> 如果不满足所有先决条件，则可能会导致无法启用跨设备分析，或者导致拼合数据时的结果不佳。
+>如果不满足所有先决条件，则可能会导致无法启用跨设备分析，或者导致拼合数据时的结果不佳。
 
 * 概述页面上列出的所 [有先决条件](overview.md)。
 * 贵组织必须使用 Adobe Experience Platform Identity Service 协作图或专用图。请参阅《Device Co-op 用户指南》中的[主页](https://docs.adobe.com/content/help/zh-Hans/device-co-op/using/home.html)。
