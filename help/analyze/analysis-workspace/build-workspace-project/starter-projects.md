@@ -3,7 +3,7 @@ description: 'null'
 title: 模板
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
 source-wordcount: '1389'
 ht-degree: 93%
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 您可以选择从以下项创建项目：
 
-* **空白项目（默认）**：有关说明，请参阅[创建 Analysis Workspace 项目](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)。
+* **空白项目（默认）**：有关说明，请参阅[创建 Analysis Workspace 项目](/help/analyze/analysis-workspace/home.md)。
 * **标准模板**：这些模板由 Adobe 创建，随产品一起提供。
 * **自定义模板**：这些模板可由具有管理员权限的用户或非管理员创建、共享或删除，前提是已在 Admin Console 中向他们授予了 [!UICONTROL Analysis Workspace：另存为模板]权限。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-console/permissions/product-profile.html)
 
