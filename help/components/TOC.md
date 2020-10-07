@@ -5,10 +5,10 @@ user-guide-title: Analytics 组件指南
 breadcrumb-title: Components Guide
 user-guide-description: Help organize your data using components such as segments, calculated metrics, virtual report suites, and alerts.
 translation-type: tm+mt
-source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
+source-git-commit: c337f43e13849e5162c3447962f30cff822ad74d
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 96%
+source-wordcount: '622'
+ht-degree: 95%
 
 ---
 
@@ -214,6 +214,7 @@ ht-degree: 96%
    + [设置跨设备分析](cda/setup.md)
    + [重放的工作方式](cda/replay.md)
    + [CDA 工作区模板](cda/workspace-template.md)
+   + [将VRS限制为特定日期](cda/limit-vrs-date.md)
    + [跨设备分析常见问题解答](cda/faq.md)
 + 警报 {#alerts}
    + [智能警报](c-alerts/intellligent-alerts.md)
