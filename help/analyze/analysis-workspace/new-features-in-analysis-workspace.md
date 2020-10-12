@@ -3,22 +3,48 @@ description: Analysis Workspace 的新增功能
 keywords: Analysis Workspace
 title: Analysis Workspace 中的新增功能
 translation-type: tm+mt
-source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
+source-git-commit: 60bc50752c307aa83c11885380e0962243025373
 workflow-type: tm+mt
-source-wordcount: '7786'
-ht-degree: 98%
+source-wordcount: '8103'
+ht-degree: 96%
 
 ---
 
 
 # Analysis Workspace 中的新增功能
 
+要访问整个Adobe Experience Cloud发行说明，请访 [问](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html)。
+
+## 2020 年 10 月
+
+2020年10月发布的新增功能。
+
+| 功能 | 描述 |
+| --- | --- |
+| Line visualization: [Moving average trendline option](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/line.html) | **[!UICONTROL 移动平均值已添加到折线图可视化图表趋势线设置。]**&#x200B;移动平均值也称为滚动平均值，它使用特定数量的数据点（由&#x200B;**[!UICONTROL 周期]**&#x200B;选择确定)，对其求平均值，并将平均值用作折线中的点。 |
+| [性能帮助页面](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | Analysis Workspace 绩效帮助页面显示影响项目绩效的不同因素以及优化提示的链接。 |
+
+## 2020 年 9 月
+
+2020年9月发布的新增功能。
+
+| 功能 | 描述 |
+| --- | --- |
+| [下载单维50K项目](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | 现在，您可以在自由形式表中下载单个维的50,000个项目，并应用区段和过滤器。 这允许您访问 Analysis Workspace 以外 400 多行数据。 |
+| [线型可视化增强功能](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>可显示或隐藏任何折线图可视化图表的 X 轴和 Y 轴。如果想让折线图可视化图表显得更加紧凑，这项功能会特别有用。</li><li>您可以在任何折线图可视化图表上叠加最小值和最大值标签，以便快速突出显示量度中的高峰和低谷。</li><li>您可以在任何折线图可视化图表上叠加不同的回归趋势线，以便更轻松地查看数据趋势。相关选项包括[!UICONTROL 线性]、[!UICONTROL 对数]、[!UICONTROL 指数]、[!UICONTROL 幂]和[!UICONTROL 二次方程式]。</li></ul> |
+| 新日期范围 | 我们添加了5个新的日期范围，因此您可以从不包含今天部分日期数据的日期范围中进行选择：最近7整天，最近14整天，最近30整天，最近60整天，最近90整天 |
+
+
+## 2020 年 8 月
+
+2020年8月未发布新功能。
+
 ## 7 月 2020 日
 
 2020年7月16日发布的新增功能。
 
 | 功能 | 描述 |
-|--- |--- |
+| --- | --- |
 | 新日期范围预设 | 新增了4个日期范围：([!UICONTROL 本周／月/季度／年（不包括今天）])。 这允许您从不包含今天部分日期数据的日期范围中进行选择。 |
 
 ## 2020 年 6 月
@@ -115,7 +141,7 @@ ht-degree: 98%
 2019 年 6 月 13 日发布的增强功能。
 
 | 增强功能 | 描述 |
-|--- |--- |
+| --- |--- |
 | 新增的开箱即用的过滤器 | 左边栏搜索新增了开箱即用的过滤器。除了您现在看到的这些过滤器（维度、量度、已批准等）之外，还新增了一些过滤器（例如计算量度、客户属性、eVar、Prop、视频等）以更便于查找所需的组件。 |
 
 ## 2019 年 5 月
@@ -207,6 +233,7 @@ ht-degree: 98%
   </tr> 
  </tbody> 
 </table>
+
 ## 2018 年 8 月
 
 2018 年 8 月 9 日发行的新增功能和增强功能。
