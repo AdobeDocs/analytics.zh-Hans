@@ -325,7 +325,8 @@ t_classification_rule.xml
    此时会显示&#x200B;**[!UICONTROL 选择报表包]**&#x200B;页面。
 
    >[!NOTE]
-   *`only`*&#x200B;仅 () 当满足以下条件时，才会在此页面上显示报表包：>
+   >
+   >*`only`*&#x200B;仅 () 当满足以下条件时，才会在此页面上显示报表包：>
 
    * 报表包在[!UICONTROL 管理工具]中针对该变量至少定义了一个分类。
    （请参阅&#x200B;*`Variable`*&#x200B;分类规则集[中的 ](/help/components/classifications/crb/classification-rule-set.md)，了解关于此先决条件的说明。）
