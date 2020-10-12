@@ -5,10 +5,10 @@ title: 分类规则
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 4c3af6b91e264bd23e6765e99bf640dac284c75d
 workflow-type: tm+mt
 source-wordcount: '2018'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -326,11 +326,14 @@ t_classification_rule.xml
 
    >[!NOTE]
    >
-   >*`only`*&#x200B;仅 () 当满足以下条件时，才会在此页面上显示报表包：>
-
-   * 报表包在[!UICONTROL 管理工具]中针对该变量至少定义了一个分类。
-   （请参阅&#x200B;*`Variable`*&#x200B;分类规则集[中的 ](/help/components/classifications/crb/classification-rule-set.md)，了解关于此先决条件的说明。）
-
+   >Report suites display on this page *`only`* when the following conditions are met:
+   >
+   >* 报表包在[!UICONTROL 管理工具]中针对该变量至少定义了一个分类。
+      >
+      >   
+      （请参阅&#x200B;*`Variable`*&#x200B;分类规则集[中的 ](/help/components/classifications/crb/classification-rule-set.md)，了解关于此先决条件的说明。）
+      >
+      >
    * 您在单击&#x200B;**[!UICONTROL 添加规则集]**&#x200B;以创建规则集后显示的[可用报表包](/help/components/classifications/crb/classification-rule-set.md)页面上选择了报表包。
 
 
