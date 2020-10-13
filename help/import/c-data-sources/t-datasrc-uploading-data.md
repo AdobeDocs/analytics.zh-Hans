@@ -5,14 +5,15 @@ title: 上载数据源文件
 topic: Developer and implementation
 uuid: 5a9dde91-1297-47e5-9393-611b40413c17
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: fb2a63432275c4ab621df263035400051ff6bb32
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 87%
 
 ---
 
 
 # 上载数据源文件
-
-描述如何上载数据源文件的步骤。
 
 在准备好一个数据源数据文件之后，可将其提交到数据源进行处理。Adobe 设有多个可用于上载数据源文件的数据源 FTP 服务器。请记住有关数据源 FTP 服务器的以下注意事项：
 
@@ -31,6 +32,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    [!DNL .fin] 文件必须与数据源文件具有完全相同的名称，但文件扩展名除外。在上载 [!DNL .fin] 文件之前，Adobe 不会将数据源文件加入队列进行处理。
 
    请在所有数据源文件都上载完之后才上载该文件。否则，数据源可能尝试处理不完整的文件。
+1. 上传。fin文件后，您必须从数据源FTP站点注销。 其原因在于Analytics使用注销事件作为触发器，以指示文件已准备好进行处理。
 1. 请留意数据源文件处理期间出现的任何消息。
 
    数据源管理器会显示在文件处理期间发生的任何错误。
