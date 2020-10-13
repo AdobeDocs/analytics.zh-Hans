@@ -3,7 +3,7 @@ description: Analysis Workspace 的新增功能
 keywords: Analysis Workspace
 title: Analysis Workspace 中的新增功能
 translation-type: tm+mt
-source-git-commit: 60bc50752c307aa83c11885380e0962243025373
+source-git-commit: 19c5713e7ddedd943746534878200b1339f217a2
 workflow-type: tm+mt
 source-wordcount: '8103'
 ht-degree: 96%
@@ -33,7 +33,6 @@ ht-degree: 96%
 | [下载单维50K项目](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | 现在，您可以在自由形式表中下载单个维的50,000个项目，并应用区段和过滤器。 这允许您访问 Analysis Workspace 以外 400 多行数据。 |
 | [线型可视化增强功能](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>可显示或隐藏任何折线图可视化图表的 X 轴和 Y 轴。如果想让折线图可视化图表显得更加紧凑，这项功能会特别有用。</li><li>您可以在任何折线图可视化图表上叠加最小值和最大值标签，以便快速突出显示量度中的高峰和低谷。</li><li>您可以在任何折线图可视化图表上叠加不同的回归趋势线，以便更轻松地查看数据趋势。相关选项包括[!UICONTROL 线性]、[!UICONTROL 对数]、[!UICONTROL 指数]、[!UICONTROL 幂]和[!UICONTROL 二次方程式]。</li></ul> |
 | 新日期范围 | 我们添加了5个新的日期范围，因此您可以从不包含今天部分日期数据的日期范围中进行选择：最近7整天，最近14整天，最近30整天，最近60整天，最近90整天 |
-
 
 ## 2020 年 8 月
 
