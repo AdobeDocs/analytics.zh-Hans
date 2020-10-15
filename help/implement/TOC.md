@@ -2,12 +2,12 @@
 product: analytics
 audience: all
 user-guide-title: Analytics 实施指南
-breadcrumb-title: Implementation Guide
-user-guide-description: Customize what data is collected to get more out of Adobe Analytics.
+breadcrumb-title: 实施指南
+user-guide-description: '自定义收集哪些数据以进一步挖掘 Adobe Analytics。 '
 translation-type: tm+mt
 source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '461'
 ht-degree: 99%
 
 ---
