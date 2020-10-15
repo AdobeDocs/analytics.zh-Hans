@@ -5,7 +5,7 @@ title: 添加页眉和页脚代码
 topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 100%
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 1. 复制生产页脚代码，并将其置于网站 HTML 的 [!DNL BODY] 部分中。
 
-   将代码放在靠近 [!DNL  的位置</body>] 标记的位置包含了完整的页眉代码。
+   将代码放在靠近 `</body>` 的位置 标记的位置包含了完整的页眉代码。
 1. 复制暂存页眉和页脚代码，然后在您的暂存网站中重复以上步骤。
 
    >[!NOTE]
