@@ -2,12 +2,12 @@
 product: analytics
 audience: end-user
 user-guide-title: Analytics 导出指南
-breadcrumb-title: Export Guide
-user-guide-description: Use Data Feeds to receive an hourly or daily export of raw data. Use Data Warehouse to retrieve a spreadsheet output of data.
+breadcrumb-title: 导出指南
+user-guide-description: 使用数据馈送接收原始数据的每小时或每天的导出。使用 Data warehouse 检索数据的电子表格输出。
 translation-type: tm+mt
 source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '289'
 ht-degree: 94%
 
 ---
