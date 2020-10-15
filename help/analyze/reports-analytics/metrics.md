@@ -3,10 +3,10 @@ description: 量度是报表的基础，可帮助您查看和了解数据关系�
 title: 量度
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-translation-type: ht
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
-workflow-type: ht
-source-wordcount: '370'
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
+source-wordcount: '371'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 量度是报表的基础，可帮助您查看和了解数据关系并启用网站不同数据集的并排比较。量度是有关访客活动的量化信息，包括查看次数、点进次数、重新加载次数、平均逗留时间、件数、订购、收入等。
 
-## 量度
+## 量度概述
 
 量度是报表的基础，可帮助您查看和了解数据关系并启用网站不同数据集的并排比较。量度是有关访客活动的量化信息，包括查看次数、点进次数、重新加载次数、平均逗留时间、件数、订购、收入等。
 
