@@ -4,19 +4,15 @@ title: 分段工作流程概述
 topic: Segments
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 translation-type: tm+mt
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '248'
 ht-degree: 100%
 
 ---
 
 
 # 分段工作流程概述
-
-描述了使用区段生成器创建并通过区段管理器管理的区段的建议工作流程。
-
-## 分段工作流程概述
 
 描述了使用区段生成器创建并通过区段管理器管理的区段的建议工作流程。
 
