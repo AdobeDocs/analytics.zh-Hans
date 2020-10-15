@@ -3,7 +3,7 @@ description: 影响工作区性能和优化的因素
 title: Analysis Workspace绩效因素及优化
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 93eb4f4c8f2990c8a4485f75ef5c13a00a28f19d
+source-git-commit: 5d1046a4e24c21b33d804d1ec06c05e28e77a031
 workflow-type: tm+mt
 source-wordcount: '2130'
 ht-degree: 24%
@@ -11,7 +11,7 @@ ht-degree: 24%
 ---
 
 
-# 优化 Analysis Workspace 性能
+# Optimize [!UICONTROL Analysis Workspace performance]
 
 各种因素都会影响Analysis Workspace内某项目的绩效。 在您开始构建项目之前，必须了解这些参与者是什么，这样您才能以最佳方式规划和构建项目。 本页包括影响性能的一列表因素，您可以进行优化以确保在Analysis Workspace达到最佳性能。
 
@@ -19,9 +19,10 @@ ht-degree: 24%
 >
 >Analysis Workspace的“性能”页面为有限版本。 [了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html)
 
-## “帮助”>“在Analysis Workspace的表现”
+## [!UICONTROL “帮助] ”>“ [!UICONTROL 性能] ”在Analysis Workspace
 
-在“ **[!UICONTROL Analysis Workspace”>“帮助”>]**“性能”下，您可以看到影响项目性能的因素，包括网络、浏览器和项目因素。 为获得最准确的结果，请允许项目在打开“性能”页之前完全加载。
+在 **Analysis Workspace [!UICONTROL >帮助] > [!UICONTROL 性能下]**，您可以看到影响项目性能的因素，包括网络、浏览器和项目因素。 为获得最准确的结果，请允许项目在打开“性能”页之前完全加载。
+
 * “当前项目”列显示当前项目和用户环境的结果。
 * “指南”列显示每个因素的Adobe推荐阈值。
 
@@ -35,7 +36,7 @@ ht-degree: 24%
 
 ## 网络因素
 
-“帮助”>“性能网络因素”包括：
+[!UICONTROL “帮助] ”> [!UICONTROL “性能] ”网络因素包括：
 
 | 因子 | 定义 | 受 | 优化 |
 | --- | --- | --- | --- |
@@ -45,7 +46,7 @@ ht-degree: 24%
 
 ## 浏览器因素
 
-“帮助”>“性能浏览器”因素包括：
+[!UICONTROL “帮助] ”>“ [!UICONTROL 性能] ”浏览器因素包括：
 
 | 因子 | 定义 | 受 | 优化 |
 | --- | --- | --- | --- |
@@ -56,7 +57,7 @@ ht-degree: 24%
 
 ## 项目因素
 
-“帮助”>“绩效项目”因素包括：
+[!UICONTROL “帮助] ”>“ [!UICONTROL 性能] ”项目因素包括：
 
 | 因子 | 定义 | 优化 |
 | --- | --- | --- |
@@ -88,5 +89,5 @@ ht-degree: 24%
 | [!UICONTROL 发生系统错误。 请在“帮助”>“提交支持票证”下记录客户关怀请求并包含您的错误代码。] | Adobe 遇到了一个需要解决的问题。 | 将错误代码提交给客户关怀。 |
 | [!UICONTROL 请求太复杂。] | 您的报表请求过大，无法执行。导致此错误的因素包括：因请求的大小、区段或搜索过滤器中的匹配项过多、包含的量度过多、维度与量度组合不兼容等原因而导致的各种超时。 | 通过删除表中的某些列或行来简化请求，或考虑将表拆分为单独的请求。 |
 | [!UICONTROL 此可视化中的一个区段或搜索包含返回过多结果的文本搜索。] | 您的细分条件或报表筛选器过于宽泛。 | 缩小搜索文本条件并重试请求。 |
-| [!UICONTROL 此维度当前不支持非默认归因模型。] | 您所使用的维不支持非默认属性。 | Replace the dimension in your table with one that is compatible with [Attribution IQ](../attribution/overview.md). |
+| [!UICONTROL 此维度当前不支持非默认归因模型。] | 您所使用的维不支持非默认属性。 | Replace the dimension in your table with one that is compatible with [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md). |
 | [!UICONTROL 由于列或预配置行过多，您的请求失败。] | 表中的自由格式单元格太多（行*列）。 | 删除表中的列或行，或考虑将表拆分为单独的请求。 |
