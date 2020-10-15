@@ -4,17 +4,16 @@ subtopic: Get started
 title: Reports and Analytics 快速入门
 topic: Reports and analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
+source-wordcount: '702'
+ht-degree: 100%
 
 ---
 
 
 # Reports &amp; Analytics 快速入门
-
-在使用 Reports &amp; Analytics 之前，请了解这些基本登录和设置任务，以及如何访问帐户信息。
-
-## Reports &amp; Analytics 快速入门
 
 在使用 Reports &amp; Analytics 之前，请了解这些基本登录和设置任务，以及如何访问帐户信息。
 
