@@ -2,10 +2,10 @@
 title: 营销渠道的处理规则
 description: 营销渠道处理规则决定访客点击是否符合分配到渠道的标准。这些规则处理访客在网站上的每次点击。当规则不符合渠道标准时，或者如果规则配置不正确，系统会将该点击分配到“未识别渠道”。
 translation-type: tm+mt
-source-git-commit: 4b6107fe57787e639fb06ef957d6230d1bc45bd1
+source-git-commit: 91009f0c184987726e9e7e6714f14f56ae831576
 workflow-type: tm+mt
-source-wordcount: '2048'
-ht-degree: 99%
+source-wordcount: '2138'
+ht-degree: 90%
 
 ---
 
@@ -32,8 +32,6 @@ ht-degree: 99%
 
 创建营销渠道处理规则，这些规则决定访客点击是否符合分配到渠道的标准。
 
-此步骤使用电子邮件规则作为示例。该示例假定您已经将电子邮件渠道添加到“营销渠道管理器”页面上的渠道列表中。
-
 1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
 2. 选择报表包。
 
@@ -41,17 +39,15 @@ ht-degree: 99%
 
    请参阅[运行自动设置](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
 
-3. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 营销渠道]** > **[!UICONTROL 营销渠道处理规则]**。
+3. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 营销渠道]** > **[!UICONTROL 营销渠道处理规则]**。如果您运行了自动设置，将自动为您定义一组渠道和规则。
 
    ![步骤结果](assets/marketing_channel_rules.png)
 
-4. 从&#x200B;**[!UICONTROL 添加新的规则集]**&#x200B;菜单中，选择&#x200B;**[!UICONTROL 电子邮件]**。
-
-   这样做不是在选择渠道，而是选择使用几个必要参数填充规则的模板。您可以根据需要修改此模板。
+4. 如果要添加新规则，请从“添加新规 **[!UICONTROL 则集”菜单中选择]** 。 如果您选择渠道，则您将获得规则模板，如果您选择“自定义”，则您将从空白的石板中进行开始。 这两个选项都允许您根据需要修改规则集。
 
    ![步骤结果](assets/example_email.png)
 
-5. 要继续创建规则，请单击&#x200B;**[!UICONTROL 添加规则]**。
+5. To continue creating rules, click **[!UICONTROL Add New Rule SetRule]**.
 6. 要对规则优先排序，请将其拖放到所需位置。
 7. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -59,13 +55,17 @@ ht-degree: 99%
 
 ### 设置营销渠道值
 
-**[!UICONTROL 添加规则]****设置渠道的值** ，定义可用于该渠道的营销渠道详细信息维。 这使您可以细分营销渠道维度，并查看有关渠道的更多详细信息。
+**[!UICONTROL 设置渠道的值]** ，定义可用于该渠道的营销渠道详细信息维。 这使您可以细分营销渠道维度，并查看有关渠道的更多详细信息。
 
 建议将渠道值设置为与用于定义渠道本身相同的标准。例如，如果使用查询字符串参数定义渠道，还应将查询字符串参数设置为渠道值。
 
 ### 规则条件
 
 此参考数据表定义您可以用于定义“营销渠道处理规则”的字段、选项和点击属性。
+
+>[!NOTE]
+>
+>您定义的任何文本字段(如查询字符串参数或要匹配的列表值)都将计算为不 **区分大小写的** 值。 例如，如果有一个规则，查询字符串参数cmp = abc123，则“cmp”和“abc123”的所有版本都将匹配该规则。 您无需列表这些值的多个大小写版本。
 
 | 术语 | 定义 |
 |--- |--- |
@@ -88,7 +88,7 @@ ht-degree: 99%
 | 页面根目录域 (TLD+1) | 访客所登陆页面的根目录域，如 example.co.uk。 |
 | 页面 URL | 网站上网页的 URL。 |
 | 反向链接域 | 访客访问您的网站之前来自的域，例如反向链接来自 `abcsite.com` 和 `xyzsite.com`。 |
-| 查询字符串参数 | 如果您网站上的页面 URL 类似于 `https://example.com/?page=12345&cat=1`，则 page 和 cat 都是查询字符串参数。（请参阅 `https://en.wikipedia.org/wiki/Query_string`。）您只可为每个规则集指定一个查询字符串参数。要添加额外的查询字符串参数，可使用 `ANY` 作为您的运算符，然后将新的查询字符串参数添加到规则中。 |
+| 查询字符串参数 | If a page URL on your site looks like `https://example.com/?page=12345&cat=1`, then &#39;page&#39; and &#39;cat&#39; are both query string parameters. （请参阅 `https://en.wikipedia.org/wiki/Query_string`。）您只可为每个规则集指定一个查询字符串参数。要添加额外的查询字符串参数，可使用 `ANY` 作为您的运算符，然后将新的查询字符串参数添加到规则中。查询字符串参数被评估为不区分大小写；例如，“cat”和“CAT”将以相同的方式进行评估。 |
 | 反向链接 | 访客在访问您的网站前所在的网页位置（完整的 URL）。反向链接存在于所定义域的外部。 |
 | 引荐域和路径 | 引荐域和 URL 路径的组合。示例包括：    `www.example.com/products/id/12345` 或 `ad.example.com/foo` |
 | 引荐参数 | 反向链接 URL 上的查询字符串参数。例如，如果您的访客来自 `example.com/?page=12345&cat=1`，则 page 和 cat 为引荐参数。 |
@@ -130,7 +130,7 @@ ht-degree: 99%
 
 ### 显示 {#display}
 
-这项规则识别来自横幅广告的访客。它是由目标 URL 中的查询字符串参数标识的，在此例中为 *`Ad_01`*。
+这项规则识别来自横幅广告的访客。它是由目标 URL 中的查询字符串参数标识的，在此例中为 *`Ad_01`*。查询字符串参数及其查找的值将计算为不区分大小写的值。
 
 ![](assets/example_display.png)
 
@@ -154,7 +154,7 @@ ht-degree: 99%
 
 ### 社交网站 {#social-networks}
 
-这项规则识别来自 Facebook* 等社交网络的访客。此渠道通常重命名为“原始社交”。其设置如下所示：
+此规则识别源自社交网络的访客，如Facebook;。 此渠道通常重命名为“原始社交”。其设置如下所示：
 
 ![](assets/example_social.png)
 
@@ -164,7 +164,7 @@ ht-degree: 99%
 
 ![](assets/int-channel1.png)
 
-请参阅[内部原因（会话刷新）](https://docs.adobe.com/content/help/zh-Hans/analytics/components/marketing-channels/c-faq.html)，以了解发生此渠道的原因的更多信息。
+请参阅[内部原因（会话刷新）](https://docs.adobe.com/content/help/zh-Hans/analytics/components/marketing-channels/c-faq.html#internal)，以了解发生此渠道的原因的更多信息。
 
 ### 直接 {#direct}
 
