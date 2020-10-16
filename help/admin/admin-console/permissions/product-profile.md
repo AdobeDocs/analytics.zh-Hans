@@ -1,8 +1,8 @@
 ---
-source-git-commit: 78d9346ec82d802136cbaf2bfed31b6d25af207e
+source-git-commit: 81f351588ef25b0ee0376f471c947391387afb6e
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '643'
 ht-degree: 72%
 
 ---
@@ -56,4 +56,4 @@ Analytics 工具权限项用于授予对独立于报表包设置的功能的访�
 
 开发人员类似于用户，只不过开发人员有权在 Adobe I/O 上使用 Experience Cloud API。有关更多信息，请参阅“企业用户指南”中的[管理开发人员](https://helpx.adobe.com/cn/enterprise/using/manage-developers.html)。如果用户被授予对任何用户档案的开发人员访问权限，则他们可以访问开发控制台(console.adobe.io)并编辑Adobe Analytics集成。 为用户授权的Analytics API调用和响应将取决于该用户具有开发人员访问权限的所有用户档案的净权限。
 
-例如，对于Analysis Workspace访问、所有度量、所有维度和一个报告套件，该用户可以对该套件中任何报告成功地对/报告端点进行API调用。 添加异常检测后，报告可能包含更完整的响应，从而添加异常数据。 作为经验法则，如果用户档案授予对Adobe Analytics界面内某个场景的访问权，则同一用户档案上的开发人员访问将启用相应的API调用和响应。
+例如，用户档案权限包括所有指标、所有维和一个报表包，用户档案的开发人员访问成员可以发出与相关套件中的任何组件相关的API调用。 添加异常检测后，报告可能包含更完整的响应，从而添加异常数据。 作为经验法则，如果用户档案授予对Adobe Analytics界面中某个场景的访问权，则在类似定义的用户档案上的开发人员访问将启用相应的API调用和响应。
