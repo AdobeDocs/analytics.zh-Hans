@@ -2,9 +2,9 @@
 title: Adobe Analytics使用的IP和域
 description: 如果您的组织的防火墙阻止源自Adobe的IP地址，请使用此列表更新您的防火墙设置。
 translation-type: tm+mt
-source-git-commit: 436d0c2706f47a79cc70e4dcdbda6bd2c9a4d98c
+source-git-commit: a7955e7f6fd92fff7188711d8aef9526ebf3700f
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '389'
 ht-degree: 15%
 
 ---
@@ -144,3 +144,6 @@ Adobe Analytics使用AmazonWeb服务作为其数据收集流程的一部分。 �
 | 维吉尼亚 | `34.234.106.101` |
 | 维吉尼亚 | `52.22.231.198` |
 | 维吉尼亚 | `54.157.65.136` |
+| 维吉尼亚 | `3.213.168.181` |
+| 维吉尼亚 | `3.219.249.186` |
+| 维吉尼亚 | `34.227.41.189` |
