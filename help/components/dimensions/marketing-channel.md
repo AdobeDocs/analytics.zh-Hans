@@ -2,7 +2,7 @@
 title: 营销渠道
 description: 访客参与到期期间的最新营销渠道。
 translation-type: ht
-source-git-commit: 0328de560185e716a3913080feda9cd078e0f206
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
 workflow-type: ht
 source-wordcount: '112'
 ht-degree: 100%
