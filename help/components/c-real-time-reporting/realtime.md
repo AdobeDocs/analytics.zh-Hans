@@ -3,8 +3,11 @@ description: 实时显示 Web 页面流量和并对页面查看次数进行排�
 title: 实时报表概述
 topic: Reports
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '566'
+ht-degree: 100%
 
 ---
 
