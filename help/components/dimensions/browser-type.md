@@ -1,23 +1,23 @@
 ---
 title: 浏览器类型
-description: 制作浏览器的组织。
-translation-type: tm+mt
+description: 开发浏览器的组织。
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '133'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 
 # 浏览器类型
 
-“浏览器类型”维列表组织创建访客使用的浏览器。 当您想要了解访客使用的浏览器总体时，此维度很有用。 它提供了“浏览器”维的值，因为它不将同一浏览器的不同版本列表为单独的维项。
+“浏览器类型”维度列出开发访客所用浏览器的组织。如果您想要了解访客使用的主要浏览器，此维度非常有用。它提供了超过“浏览器”维度的价值，因为它不会将同一浏览器的不同版本列为单独的维度项目。
 
-## 用数据填充此维
+## 使用数据填充此维度
 
-此维引用Adobe内部的查找表。 查找值基于图像请 `User-Agent` 求中的HTTP头。 如果您使用AppMeasurement库(如通过Adobe Experience Platform启动)，则此维度开箱即用。
+此维度引用 Adobe 内部的一个查找表。查找值基于图像请求中的 `User-Agent` HTTP 标头。如果您使用 AppMeasurement 库（例如，通过 Adobe Experience Platform Launch），则此维度可开箱即用。
 
-## 维项
+## 维度项目
 
-维项目包括制作浏览器的组织。 常见维项 `"Google"` 包括(创 [!DNL Chrome]建者 `"Apple"` )、(创 [!DNL Safari]建者)、 `"Microsoft"` (创建者 [!DNL Edge]) `"Mozilla"`[!DNL Firefox]和（创建者）。
+维度项目包括开发浏览器的组织。常见的维度项目包括 `"Google"`（[!DNL Chrome] 的创建者）、`"Apple"`（[!DNL Safari] 的创建者）、`"Microsoft"`（[!DNL Edge] 的创建者）以及 `"Mozilla"`（[!DNL Firefox] 的创建者）。
