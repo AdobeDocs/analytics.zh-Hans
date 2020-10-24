@@ -1,11 +1,11 @@
 ---
 title: contextData
 description: 上下文数据变量允许您在处理规则可读取的每个页面上定义自定义变量。
-translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -57,12 +57,12 @@ s.linkTrackVars = "contextData.example_variable";
 s.tl(true,"o","Example context data link");
 ```
 
-## 使用上下文事件变量增量
+## 使用上下文数据变量递增事件
 
-创建处理规则时，您可以将上下文数据变量分配给事件。
+创建处理规则时，可以将上下文数据变量分配给事件。
 
-* 如果上下文数据变量包含任何类型的文本，事件将递增1。
-* 如果上下文事件变量包含整数，则该整数量将递增。
+* 如果上下文数据变量包含任何类型的文本，则事件将递增 1。
+* 如果上下文数据变量包含整数，则事件将按该整数量递增。
 
 ```js
 // Assigning this context data variable to an event increments it by one
