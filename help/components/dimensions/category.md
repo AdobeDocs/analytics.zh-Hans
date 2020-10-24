@@ -1,11 +1,11 @@
 ---
 title: 类别
 description: 点击的产品类别。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 85%
 
 该维度引用 [`products`](/help/implement/vars/page-vars/products.md) 变量中字符串的第一部分。第一个分号 (`;`) 之前的所有内容会填充此维度。
 
-## Dimension项
+## 维度项目
 
-由于此变量基于实施中的自定义字符串，因此您的组织将确定维项目。 Adobe 建议您使用“产品”和“类别”维度将各个产品分组为有意义的类别。
+由于此变量基于实施中的自定义字符串，因此，由您的组织来确定这些维度项目。Adobe 建议您使用“产品”和“类别”维度将各个产品分组为有意义的类别。
 
 >[!TIP]
 >
