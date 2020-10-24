@@ -1,11 +1,11 @@
 ---
 title: 浏览器宽度 - 分段统计
 description: 浏览器窗口的宽度（以像素为单位）。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -28,6 +28,6 @@ ht-degree: 88%
 
 Adobe 会保留访问的浏览器宽度。如果在访问过程中调整了浏览器宽度，则不会记录调整的情况。
 
-## Dimension项
+## 维度项目
 
-Dimension项包括所有收集的浏览器宽度，分为100像素的组。 For example, if the browser width of a hit is `1280`, then it is grouped in the dimension item `1200 to 1299`.
+维度项目包括所有收集的浏览器宽度，它们按 100 像素分组。例如，如果点击的浏览器宽度为 `1280`，则会将其分组到维度项目 `1200 to 1299`。
