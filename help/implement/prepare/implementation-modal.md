@@ -1,18 +1,18 @@
 ---
 title: “实施”模式窗口
 description: 了解客户首次实施 Adobe Analytics 的体验。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '30'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
 
 # “实施”模式窗口
 
-请参阅 [创建报表包](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/create-report-suite.html)。
+请参阅[创建报表包](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-console/create-report-suite.html)。
 
 <!-- https://activation.adobedtm.com/index.php?redirected=1 
 
