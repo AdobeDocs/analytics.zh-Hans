@@ -1,18 +1,18 @@
 ---
 title: eVar（推销）
 description: 与产品维度关联的自定义变量。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # eVar（推销）
 
-*此帮助页介绍推销 eVar 如何作为维度使用。有关如何实施推销 eVar 的信息，请参阅实施用户指南中的[eVar](/help/implement/vars/page-vars/evar.md)。*
+*此帮助页介绍推销 eVar 如何作为维度使用。有关如何实施推销 eVar 的信息，请参阅实施用户指南中的 [eVar](/help/implement/vars/page-vars/evar.md)。*
 
 测量外部促销活动或外部搜索术语的成功程度时，通常需要一个单独的值来对发生的所有成功事件接收信用。例如，如果某个客户单击电子邮件促销活动中的链接访问您的网站，那么该客户因此进行的所有购买都将计入此促销活动中。
 
@@ -48,7 +48,7 @@ ht-degree: 95%
 不建议将[实例](../metrics/instances.md)量度用于推销变量。
 
 * 对于使用产品语法的推销变量，实例根本不会增加。
-* 对于使用转化变量语法的推销变量，每次设置 eVar 时都会计算实例。However, it attributes to the dimension item `"None"` unless all of the following happen on the same hit:
+* 对于使用转化变量语法的推销变量，每次设置 eVar 时都会计算实例。但是，它归因于维度项目 `"None"`，除非在同一次点击中发生以下所有情况：
    * 为推销 eVar 设置一个值。
    * 使用一个值定义了 `products` 变量。
    * 已设置捆绑事件。
