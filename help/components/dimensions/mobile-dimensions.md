@@ -1,11 +1,11 @@
 ---
 title: 移动设备维度
 description: 基于设备的用户代理字符串的维度。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '892'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -24,17 +24,17 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->Dimension items labeled `"None"` are non-mobile devices. 如果您希望报表只包含移动设备，请将“移动设备”维度拖入 Workspace 画布的区段区域。
+>标有 `"None"` 的维度项目为非移动设备。如果您希望报表只包含移动设备，请将“移动设备”维度拖入 Workspace 画布的区段区域。
 
-* **移动设备音频支持**：确定设备可播放的文件格式。示例值包括 `"MP3"`、`"AAC"` 和 `"MIDI Monophonic"`。此维中的值不是互斥的；单次点击可归因于多个维度项。
-* **移动运营商**:如果用户代理包含运营商专用设备，则运营商是维度项。 示例值包括 `"Reliance Jio"`、`"Airtel"`、`"Vodafone"` 和 `"Verizon"`。
+* **移动设备音频支持**：确定设备可播放的文件格式。示例值包括 `"MP3"`、`"AAC"` 和 `"MIDI Monophonic"`。此维度中的值不是相互排斥的；单次点击可以归因于多个维度项目。
+* **移动设备运营商**：如果用户代理包含特定于运营商的设备，则运营商是维度项目。示例值包括 `"Reliance Jio"`、`"Airtel"`、`"Vodafone"` 和 `"Verizon"`。
 * **移动设备颜色深度**：移动设备的颜色深度（以位为单位）。
-* **移动 Cookie 支持**：确定移动设备是否支持 Cookie。报表未说明浏览器是否接受 Cookie。Dimension items include `"Supported"`, `"Not supported"`, and `"Unknown"`.
+* **移动 Cookie 支持**：确定移动设备是否支持 Cookie。报表未说明浏览器是否接受 Cookie。维度项目包括 `"Supported"`、`"Not supported"` 和 `"Unknown"`。
 * **移动设备**：访客使用的移动设备。
-* **移动设备号**：确定移动设备是否传输其号码。Dimension items include `"Supported"`, `"Not supported"`, and `"Unknown"`.
+* **移动设备号**：确定移动设备是否传输其号码。维度项目包括 `"Supported"`、`"Not supported"` 和 `"Unknown"`。
 * **移动设备类型**：移动设备的类型。示例值包括 `"Mobile phone"`、`"Tablet"`、`"Media player"` 和 `"Gaming console"`。
 * **移动设备 DRM**：移动设备支持的 DRM 类型。示例值包括 `"DRM OMA forward"`、`"DRM OMA combined delivery"` 和 `"DRM OMA separate delivery"`。
-* **移动设备图像支持**：移动设备支持的图像类型。示例值包括 `"PNG"`、`"JPEG"` 和 `"GIF 87"`。此维中的值不是互斥的；单次点击可归因于多个维度项。
+* **移动设备图像支持**：移动设备支持的图像类型。示例值包括 `"PNG"`、`"JPEG"` 和 `"GIF 87"`。此维度中的值不是相互排斥的；单次点击可以归因于多个维度项目。
 * **移动设备信息服务**：设备支持的新闻服务类型。最近的设备通常不会报告此信息。
 * **移动设备 Java 虚拟机**：设备支持的 Java 版本。
 * **移动设备电子邮件效果**：确定设备是否支持反编译，该功能在日文设备上曾经很流行。
@@ -48,7 +48,7 @@ ht-degree: 89%
 * **移动设备屏幕高度**：屏幕的高度（以像素为单位）。请注意，由于无法确定 iPhone 设备版本，iPhone 始终会报告 `"480"`。有关确定 iPhone 设备版本的信息，请参阅下面部分。
 * **移动设备屏幕大小**：移动设备的完整尺寸（以像素为单位）。报告的屏幕大小不指示设备的方向。无论采用何种屏幕方向，每个设备都在报表中有固定的屏幕分辨率。此大小基于用来确定哪种方向更为可能的研究。您可能会在同一报表中看到 `"768x1024"` 和 `"1024x768"` 等大小，每种大小代表一个或多个不同的设备。
 * **移动设备屏幕宽度**：屏幕的宽度（以像素为单位）。
-* **移动设备视频支持**：移动设备支持的视频文件格式和编解码器。MP4和3GPP文件的不同编解码器存在若干维项。 此维中的值不是互斥的；单次点击可归因于多个维度项。
+* **移动设备视频支持**：移动设备支持的视频文件格式和编解码器。MP4 和 3GPP 文件的不同编解码器存在多个维度项目。此维度中的值不是相互排斥的；单次点击可以归因于多个维度项目。
 
 ## 按型号或版本区分 iPhone
 
