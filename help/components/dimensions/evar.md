@@ -1,24 +1,24 @@
 ---
 title: eVar
 description: 可在报告中使用的自定义维度。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '788'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 
 # eVar
 
-*此帮助页介绍 eVar 如何作为维度使用。有关如何实施 eVar 的信息，请参阅实施用户指南中的[eVar](/help/implement/vars/page-vars/evar.md)。*
+*此帮助页介绍 eVar 如何作为维度使用。有关如何实施 eVar 的信息，请参阅实施用户指南中的 [eVar](/help/implement/vars/page-vars/evar.md)。*
 
 eVar 是自定义变量，您可以根据需要随意使用。如果您有[解决方案设计文档](/help/implement/prepare/solution-design.md)，则大多数特定于您的组织的维度最终都会成为 eVar。默认情况下，eVar 会在其设置的点击之外继续存在。您可以在报表包设置的[转换变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)下自定义其到期和分配情况。
 
 可用 eVar 的数量取决于您与 Adobe 签署的合同。如果您与 Adobe 签署的合同支持，则至多有 250 个 eVar 可供使用。
 
-eVar不区分大小写。 如果在不同情况下（例如，和）发送相同 `"DOG"` 的值 `"Dog"`,Analysis Workspace会将它们组合到同一维度项目中。 使用在报告月开始时看到的第一个值的大小写。 data warehouse显示请求期间遇到的第一个值。
+eVar 不区分大小写。如果您以不同的大小写发送同一个值（例如，`"DOG"` 和 `"Dog"`），Analysis Workspace 会将它们分组到同一维度项目中。它会使用在报表月份开始时看到的第一个值的大小写。Data Warehouse 将显示在请求期间遇到的第一个值。
 
 ## 使用数据填充 eVar
 
@@ -26,9 +26,9 @@ eVar不区分大小写。 如果在不同情况下（例如，和）发送相同
 
 AppMeasurement 将 JavaScript 变量编译到图像请求中以用于数据收集，它使用变量 `eVar1` - `eVar250`。请参阅实施用户指南中的 [eVar](/help/implement/vars/page-vars/evar.md)，以了解相关实施指南。
 
-## Dimension项
+## 维度项目
 
-由于eVar在您的实施中包含自定义字符串，您的组织将决定每个eVar的维项目。 Make sure you record the purpose of each eVar and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
+由于 eVar 在您的实施中包含自定义字符串，因此，由您的组织来确定每个 eVar 的维度项目。请确保在[解决方案设计文档](/help/implement/prepare/solution-design.md)中记录每个 eVar 的用途和典型维度项目。
 
 ## eVar 的工作方式
 
