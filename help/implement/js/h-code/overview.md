@@ -1,9 +1,9 @@
 ---
 title: H 代码 JavaScript 实施概述
 description: 了解在您的网站上实施 H 代码的工作流。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '388'
 ht-degree: 100%
 
@@ -25,8 +25,8 @@ ht-degree: 100%
 1. **更新核心 JS 文件变量**：编辑 `s_code.js` 文件，并确保已更新以下变量：
    * `s_account` 包含要将数据发送到的报表包 ID。请参阅
    * `s.trackingServer` 包含 Cookie 的存储位置。请参阅 [trackingServer](../../vars/config-vars/trackingserver.md)。
-1. **将`s_code.js`文件托管在您的网站上**：此文件通常与其他脚本一起驻留在您的 Web 服务器中。
-1. **在所有页面上引用`s_code.js`**：确保所有页面都调用核心 JavaScript 文件，并在 HTML `<body>` 标记（而非 `<head>` 标记）中调用该文件。
+1. **将 `s_code.js` 文件托管在您的网站上**：此文件通常与其他脚本一起驻留在您的 Web 服务器中。
+1. **在所有页面上引用 `s_code.js`**：确保所有页面都调用核心 JavaScript 文件，并在 HTML `<body>` 标记（而非 `<head>` 标记）中调用该文件。
 
    >[!TIP]
    >
