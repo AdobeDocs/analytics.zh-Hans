@@ -2,11 +2,11 @@
 title: 变量、函数、方法及插件概述
 description: 了解您可以在向 Adobe 发送的数据中包含哪些变量以改进报告。
 keywords: appmeasurement,variables,vars,configuration,page,implementation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '318'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 Analytics 提供了多个变量来收集 Analytics 数据。此部分中的变量可分为以下几类：
 
 * **页面变量**：通常在报告中直接使用的值。常用页面变量包括 `props`、`eVars` 和 `events`。
-* **配置变量**：可帮助确保将正确数据发送到 Adobe 的设置值。常用配置变量包括 `trackingServerSecure`、`charSet` 和 `linkTrackVars`。配置变量通常不填充维项目。
+* **配置变量**：可帮助确保将正确数据发送到 Adobe 的设置值。常用配置变量包括 `trackingServerSecure`、`charSet` 和 `linkTrackVars`。配置变量通常不会填充维度项目。
 * **函数和方法**：在被引用时可执行特定任务的代码段。常用函数包括 `t()`、`tl()` 和 `clearVars()`。
 
 ## 变量和实施方法
