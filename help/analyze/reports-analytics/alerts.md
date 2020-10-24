@@ -4,8 +4,11 @@ subtopic: Alerts
 title: 警报
 topic: Reports and analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '881'
+ht-degree: 100%
 
 ---
 
@@ -21,9 +24,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 * 通过含链接的电子邮件或短信将警报发送到自动生成的 Analysis Workspace 项目。
 * 创建可在一个警报中捕获了多个量度的“堆栈式”警报。
 
-You can access this new Alerts system from **[!UICONTROL More]** > **[!UICONTROL Alerts]** in any report in Reports &amp; Analytics.
+您可以通过 Reports &amp; Analytics 的任何报表中的&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 警报]**，访问此新的警报系统。
 
-有关更多信息，请转到 Analysis Workspace 文档中的[智能警报](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html)。
+有关更多信息，请转到 Analysis Workspace 文档中的[智能警报](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html)。
 
 ## 添加警报 {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
@@ -35,17 +38,17 @@ t_add_an_alert.xml
 
  -->
 
-Navigate to the new Alert Builder in the **[!UICONTROL Analytics]** > **[!UICONTROL Components]** menu. 但是，您仍然可以从 Reports &amp; Analytics 的报表内访问它：
+在 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]**&#x200B;菜单中，导航到新的警报生成器。但是，您仍然可以从 Reports &amp; Analytics 的报表内访问它：
 
 1. 在 Reports &amp; Analytics 中，打开要在其中设置警报的报表。
-1. 单击 **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
-1. 这会将您引导至[新的警报生成器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-builder.html)。
+1. 单击&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 添加警报]**。
+1. 这会将您引导至[新的警报生成器](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-builder.html)。
 
 ## 查看或编辑现有警报 {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
 任务上下文
 
-1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. 这会将您引导至新的[警报管理器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html)。
+1. 转至 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 警报]**。这会将您引导至新的[警报管理器](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html)。
 
 ## 旧警报迁移 {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 
@@ -110,7 +113,7 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>用于自定义日历报表包的每月警报 </p> </td> 
-   <td colname="col2"> <p>这仅会对满足以下条件的客户造成影响：针对具有<a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/date-ranges/custom-calendar.html"  >自定义月份开始日期</a>（美国零售联合会/NRF 和自定义日历类型）的报表包设置了警报。 </p> <p>它不影响“公历”或“已修改的公历”日历报表包中的警报。以前，这些警报是在公历月份的第一天发送的（例如，1 月 1 日，2 月 1 日等）。这与警报的新“异常检测”功能不相符，因为它在检测异常时会考虑之前月份的数据。以后，我们将增加对计划系统的自定义日历支持，这样警报和计划项目都可以通过计划在自定义日历月的第一天发送，而不只是在公历月的第一天发送。 </p> <p> </p> </td> 
+   <td colname="col2"> <p>这仅会对满足以下条件的客户造成影响：针对具有<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/report-builder/data-requests/date-ranges/custom-calendar.html"  >自定义月份开始日期</a>（美国零售联合会/NRF 和自定义日历类型）的报表包设置了警报。 </p> <p>它不影响“公历”或“已修改的公历”日历报表包中的警报。以前，这些警报是在公历月份的第一天发送的（例如，1 月 1 日，2 月 1 日等）。这与警报的新“异常检测”功能不相符，因为它在检测异常时会考虑之前月份的数据。以后，我们将增加对计划系统的自定义日历支持，这样警报和计划项目都可以通过计划在自定义日历月的第一天发送，而不只是在公历月的第一天发送。 </p> <p> </p> </td> 
    <td colname="col3"> <p>在新警报管理器中尚不可用。 </p> </td> 
   </tr> 
   <tr> 
