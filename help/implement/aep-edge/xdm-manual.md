@@ -2,7 +2,7 @@
 title: 手动将 XDM 数据映射到 Analytics
 description: '手动将 XDM 数据从 Experience Platform 映射到 Adobe Analytics '
 translation-type: ht
-source-git-commit: 717c3e23eb2c3fb2477bd77ea92a1dce744f02df
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
 workflow-type: ht
 source-wordcount: '371'
 ht-degree: 100%
