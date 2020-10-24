@@ -1,11 +1,11 @@
 ---
 title: 国家/地区
 description: 点击源自的国家/地区。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '307'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 96%
 >
 >如果您的组织遵循严格的隐私法规，但[模糊处理 IP 地址](/help/admin/admin/general-acct-settings-admin.md)力度不够，则可以请求完全禁用地理位置数据。使用报表包 ID 联系客户关怀，并请求关闭报表包的“地理位置”。
 
-## Dimension项
+## 维度项目
 
-Dimension项目包括世界各国。 示例值包括 `"United States"`、`"United Kingdom"` 或 `"India"`。
+维度项目包括全世界的各个国家/地区。示例值包括 `"United States"`、`"United Kingdom"` 或 `"India"`。
 
 ## 报告位置与实际位置之间的差异
 
