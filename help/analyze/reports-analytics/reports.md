@@ -1,11 +1,11 @@
 ---
 title: 报表
 description: Reports & Analytics 用于每个报表的维度和量度。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1863'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -88,19 +88,19 @@ Reports &amp; Analytics 的每个报表会使用专用维度和量度。您可�
 
 包含允许您查看访客路径数据的报表。
 
-* 下一页流： 在顶部页面维度项目上使用流报表。 路径视图与[实例](/help/components/metrics/instances.md)类似。可以更改报告的维项。 在 Analysis Workspace 中使用[流量可视化图表](../analysis-workspace/visualizations/c-flow/flow.md)可获得类似的可视化图表。
-* 下一页： 获取顶部页面维度项目，并向您显示访客转到的下一页。
-* Previous page flow: Uses a flow report on the top page dimension item A similar report in Analysis Workspace is available using a [Flow visualization](../analysis-workspace/visualizations/c-flow/flow.md).
-* 上一页： 获取顶部页面维度项目，并向您显示访客来自的上一页。
-* 流失： 允许您按步骤选择页面维度项目，并显示遵循和未遵循该路径的人员比例。 在 Analysis Workspace 中使用[流失可视化图表](../analysis-workspace/visualizations/fallout/fallout-flow.md)可获得类似的可视化图表。
-* 完整路径： 将单个路径显示为维项。 在 Analysis Workspace 中已停用，请改用[流量可视化图表](../analysis-workspace/visualizations/c-flow/flow.md)。
+* 下一页面流量：对热门页面维度项目使用流量报表。路径视图与[实例](/help/components/metrics/instances.md)类似。您可以更改报告的维度项目。在 Analysis Workspace 中使用[流量可视化图表](../analysis-workspace/visualizations/c-flow/flow.md)可获得类似的报表。
+* 下一页：采用热门页面维度项目，并显示访客转到的后续页面。
+* 上一页面流量：对热门页面维度项目使用流量报表。在 Analysis Workspace 中使用[流量可视化图表](../analysis-workspace/visualizations/c-flow/flow.md)可获得类似的报表。
+* 上一页：采用热门页面维度项目，并显示访客来自的先前页面。
+* 流失：允许您在步骤中选择页面维度项目，并显示遵循和未遵循该路径的人员比例。在 Analysis Workspace 中使用[流失可视化图表](../analysis-workspace/visualizations/fallout/fallout-flow.md)可获得类似的报表。
+* 完整路径：将单个路径显示为维度项目。在 Analysis Workspace 中已停用，请改用[流量可视化图表](../analysis-workspace/visualizations/c-flow/flow.md)。
 * PathFinder：提供多种类型的报表，用于分析路径（在 Analysis Workspace 中已停用）。
 * 路径长度：使用[访问深度](/help/components/dimensions/visit-depth.md)维度。
 * 页面分析
-   * 页面摘要： 获取顶部页面维度项目并显示趋势视图。 还显示该顶页维度项目的入口点、上一页、退出点和下一页。
+   * 页面概要：采用热门页面维度项目并显示趋势视图。此外，还显示该热门页面维度项目的登入点、上一页、退出点和下一页。
    * 重新加载：将[页面](/help/components/dimensions/page.md)维度与[重新加载](/help/components/metrics/reloads.md)量度一起使用。
    * 页面逗留时间：使用[页面逗留时间 - 分段统计](/help/components/dimensions/time-spent-on-page.md)维度。
-   * 点击页面： 获取顶部页面维度项目并显示在给定访问中访问该页面时点击次数。
+   * 页面点击次数：采用热门页面维度项目并显示在给定访问中经过多少次点击后才转到该页面。
 * 登录和退出
    * 进入页面：使用[登入页面](/help/components/dimensions/entry-dimensions.md)维度。
    * 原始登入页面：使用[原始登入页面](/help/components/dimensions/entry-dimensions.md)维度。
@@ -171,7 +171,7 @@ Reports &amp; Analytics 的每个报表会使用专用维度和量度。您可�
    * 美国州：使用[美国州](/help/components/dimensions/us-states.md)维度。
    * 美国 DMA：使用[美国 DMA](/help/components/dimensions/us-dma.md) 维度。
 * 语言：使用[语言](/help/components/dimensions/language.md)维度。
-* 时区：使用时区维度（在 Analysis Workspace 中已停用）。Dimension项是点击的GMT偏移量。
+* 时区：使用时区维度（在 Analysis Workspace 中已停用）。维度项目是点击的 GMT 偏移。
 * 域：使用[域](/help/components/dimensions/domain.md)维度。
 * 顶级域：使用顶级域维度（在 Analysis Workspace 中已停用）。它将[域](/help/components/dimensions/domain.md)维度分组为更高级别的类别，通常按域的国家/地区来分组。
 * 技术：包含访客用于访问网站的技术报表的文件夹。
@@ -184,12 +184,12 @@ Reports &amp; Analytics 的每个报表会使用专用维度和量度。您可�
    * 显示器颜色深度：使用[颜色深度深度](/help/components/dimensions/color-depth.md)维度。
    * 显示器分辨率：使用[显示器分辨率](/help/components/dimensions/monitor-resolution.md)维度。
    * Java：使用[启用 Java](/help/components/dimensions/java-enabled.md) 维度。
-   * JavaScript：使用“启用 JavaScript”维度（在 Analysis Workspace 中已停用）。Dimension项为“已启用”、“已禁用”或“未知”，具体取决于浏览器是否启用了JavaScript。
-   * JavaScript 版本：使用 JavaScript 版本维度（在 Analysis Workspace 中已停用）。Dimension项显示浏览器使用的JavaScript版本。
+   * JavaScript：使用“启用 JavaScript”维度（在 Analysis Workspace 中已停用）。维度项目为“已启用”、“已禁用”或“未知”，具体取决于浏览器是否启用了 JavaScript。
+   * JavaScript 版本：使用 JavaScript 版本维度（在 Analysis Workspace 中已停用）。维度项目显示浏览器使用的 JavaScript 版本。
    * Cookie：使用 [Cookie 支持](/help/components/dimensions/cookie-support.md)维度。
    * 连接类型：使用[连接类型](/help/components/dimensions/connection-type.md)维度。
    * 移动运营商：使用[移动运营商](/help/components/dimensions/mobile-dimensions.md)维度。
-* 访客状态：使用状态维度（在 Analysis Workspace 中已停用）。Dimension items originate from the [`state`](../../implement/vars/page-vars/state.md) variable.
+* 访客状态：使用状态维度（在 Analysis Workspace 中已停用）。维度项目源自 [`state`](../../implement/vars/page-vars/state.md) 变量。
 * 访客邮政编码：使用[邮政编码](/help/components/dimensions/zip-code.md)维度。
 
 ## 自定义转换
@@ -204,7 +204,7 @@ Reports &amp; Analytics 的每个报表会使用专用维度和量度。您可�
 
 包含涉及[营销渠道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)的报表。
 
-* 渠道概述报表：特定于 Reports &amp; Analytics 的自定义报表。将营销渠道用作维度项目，并使用第一次或最后一次触碰归因来衡量。
+* 渠道概述报表：特定于 Reports &amp; Analytics 的自定义报表。将营销渠道用作维度项目，量度使用首次联系或最近联系归因。
 * 首次接触渠道：使用[首次接触渠道](/help/components/dimensions/first-touch-channel.md)维度。
 * 首次接触渠道详细信息：使用[首次接触](/help/components/dimensions/first-touch-detail.md)维度。
 * 最后接触渠道：使用[最后接触渠道](/help/components/dimensions/last-touch-channel.md)维度。
