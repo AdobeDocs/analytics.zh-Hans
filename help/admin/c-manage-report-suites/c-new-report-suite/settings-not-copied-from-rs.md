@@ -3,9 +3,9 @@ description: 如果您从现有的报表包中复制了设置，则会有一条�
 title: 未从源报表包复制的设置
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
 ht-degree: 100%
 
