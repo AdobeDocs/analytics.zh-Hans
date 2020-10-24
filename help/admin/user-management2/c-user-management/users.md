@@ -4,8 +4,11 @@ subtopic: Users and groups
 title: 用户管理概述
 topic: Admin tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
+source-wordcount: '407'
+ht-degree: 100%
 
 ---
 
@@ -47,7 +50,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | [!UICONTROL 姓氏] | 用户的姓氏。 |
 | [!UICONTROL 标题] | （可选）用户的工作职位。 |
 | [!UICONTROL 电话号码] | （可选）用户的办公电话号码。 |
-| [!UICONTROL 电子邮件地址] | 用户的办公电子邮件地址。 |
+| [!UICONTROL Email Address] | 用户的办公电子邮件地址。 |
 
 **默认功能板**
 
