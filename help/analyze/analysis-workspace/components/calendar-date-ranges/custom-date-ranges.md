@@ -6,6 +6,9 @@ topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '246'
+ht-degree: 100%
 
 ---
 
@@ -14,17 +17,17 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 在 Analysis Workspace 中创建自定义日期范围，并将它们另存为“时间”组件。
 
-**[!UICONTROL Components]** > **[!UICONTROL New Date Range]**
+**[!UICONTROL 组件]** > **[!UICONTROL 新建日期范围]**
 
 日期范围应用于面板级别。要在项目中添加日期范围，请单击&#x200B;**面板** > *`<select panel>`*，然后指定一个新的日期范围。
 
 ## “两个月之前”的日期范围{#section_C4109C57CB444BB2A79CC8082BD67294}
 
-下面的自定义日期范围显示了“两个月之前”的日期范围，其中，“概要更改”可视化图表显示了方向上的变化。
+下面的自定义日期范围显示了“两个月之前”的日期范围，其中，“概要更改”可视化信息显示了方向上的变化。
 
 ![](assets/date-range-two-months-ago.png)
 
-自定义日期范围显示在项目中 [!UICONTROL Date Range] 组件面板的顶部：
+自定义日期范围显示在项目中“日期范围”组件面板的最上方：
 
 ![](assets/date-range-panel-two-months-ago.png)
 
