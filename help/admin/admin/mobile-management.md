@@ -3,7 +3,7 @@ description: 启用应用程序管理可激活移动设备解决方案变量，�
 title: 应用程序管理
 topic: Admin tools
 translation-type: ht
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
 workflow-type: ht
 source-wordcount: '623'
 ht-degree: 100%
