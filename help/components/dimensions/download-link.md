@@ -1,11 +1,11 @@
 ---
 title: 下载链接
 description: 下载链接的名称。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '180'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -28,6 +28,6 @@ ht-degree: 87%
 * 将 [`linkType`](/help/implement/vars/config-vars/linktype.md) 变量设置为 `"d"`。
 * 发送一个 [`tl()`](/help/implement/vars/functions/tl-method.md) 图像请求。
 
-## Dimension项
+## 维度项目
 
-由于此变量基于实施中的自定义字符串，因此您的组织将确定维项目。 Adobe 建议您根据报表需求将链接分组为有意义的类别。
+由于此变量基于实施中的自定义字符串，因此，由您的组织来确定这些维度项目。Adobe 建议您根据报表需求将链接分组为有意义的类别。
