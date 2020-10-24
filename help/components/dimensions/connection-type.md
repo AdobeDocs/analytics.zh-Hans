@@ -1,11 +1,11 @@
 ---
 title: 连接类型
-description: 访客如何连接到Internet。
-translation-type: tm+mt
+description: 访客如何连接到 Internet。
+translation-type: ht
 source-git-commit: 3fcaee113f2c15bfc5a1ce0a7cd31a456ba98929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '14'
-ht-degree: 21%
+ht-degree: 100%
 
 ---
 
