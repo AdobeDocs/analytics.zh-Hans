@@ -3,11 +3,11 @@ description: 解释为了启用 Activity Map 链接收集和用户下载，Analy
 title: 启用 Activity Map
 topic: Activity map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
-translation-type: tm+mt
-source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '403'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Activity Map 模块是 AppMeasurement.js 文件的一部分（位于文件顶部
 
 首先，您需要在报表包级别上启用 Activity Map 报表。
 
-1. Log in to Adobe Analytics and navigate to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Select report suite > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]** .
+1. 登录 Adobe Analytics，然后导航至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > 选择报表包 > **[!UICONTROL 编辑设置]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map 报告]**。
 1. Activity Map 会收集 Activity Map 报表中的链接数据。为了激活，您必须首先通过单击&#x200B;**[!UICONTROL 启用 Activity Map 报表]**&#x200B;来激活变量。
 
    该步骤会添加您收集数据所需的所有维度。
