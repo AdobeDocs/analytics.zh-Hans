@@ -4,8 +4,11 @@ subtopic: Data sources
 title: 数据类型和类别概述
 topic: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '907'
+ht-degree: 100%
 
 ---
 
