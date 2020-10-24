@@ -3,8 +3,11 @@ description: 用来定义所有报表显示方式的设置以及将默认菜单�
 title: 报表显示设置和导航
 topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '1468'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ## 报表显示设置和导航 {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Report Settings]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 报表设置]**
 
 | 元素 | 描述 |
 |--- |--- |
@@ -78,7 +81,7 @@ nav_menu.xml
 |  | 页面未找到 | 导航 > 页面未找到 |
 | **移动设备** |  |  |
 |  | 设备 | 受众 > 移动设备 > 设备 |
-|  | Device Type | 受众 > 移动设备 > 设备类型 |
+|  | 设备类型 | 受众 > 移动设备 > 设备类型 |
 |  | 制造商 | 受众 > 移动设备 > 制造商 |
 |  | 屏幕大小 | 受众 > 移动设备 > 屏幕大小 |
 |  | 屏幕高度 | 受众 > 移动设备 > 屏幕高度 |
