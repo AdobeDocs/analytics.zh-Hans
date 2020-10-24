@@ -4,11 +4,11 @@ keywords: DFA
 title: Adobe Analytics 的 DFA Data Connectors
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1731'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->我们将在2021年中后期终止Adobe Data Connector技术。 [了解更多...](/help/import/data-connectors/data-connectors-eol.md)
+>2021 年中后期，我们将终止 Adobe Data Connector 技术的生命周期。[了解更多...](/help/import/data-connectors/data-connectors-eol.md)
 
 在当今日益复杂且竞争加剧的在线市场中，在线广告商和代理机构必须不断提升他们对于在线市场营销环境及广告投入回报的理解。尽管广告商、代理机构和发布商都具有单独的工具来帮助实现这些目标，然而从千差万别的数据系统和流程手动汇总数据可能会严重削弱在线市场营销促销活动的效果，最终只能得到不太理想的促销活动效果、并造成数据差异和混乱。
 
