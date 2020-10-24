@@ -1,8 +1,11 @@
 ---
 title: 跨不同的实施类型跟踪
 description: 使用不同的实施类型并在不同实施类型之间无缝跟踪访客。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+workflow-type: ht
+source-wordcount: '102'
+ht-degree: 100%
 
 ---
 
