@@ -1,26 +1,26 @@
 ---
 title: 反向链接类型
 description: 反向链接类型，取决于访客的来源。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '423'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
 # 反向链接类型
 
-“反向链接类型”维度报告访客是经过哪些通用渠道点击进入您的网站。Adobe maintains the rules for each dimension item, unlike [Marketing channels](marketing-channel.md), where your organization maintains rules for each channel.
+“反向链接类型”维度报告访客是经过哪些通用渠道点击进入您的网站。Adobe 将维护每个维度项目的规则，它与[营销渠道](marketing-channel.md)不同，营销渠道是贵组织负责维护每个渠道的规则。
 
 ## 使用数据填充此维度
 
 此维度引用 Adobe 内部的多个查找表。每个值都基于点击的[反向链接](referrer.md)，具体取决于[内部 URL 过滤器](/help/admin/admin/internal-url-filter-admin.md)。确保正确配置反向链接维度和内部 URL 过滤器。
 
-## Dimension项
+## 维度项目
 
-Dimension项包括点击的推荐人类型。 具体值包括：
+维度项目包括点击的反向链接类型。具体值包括：
 
 * **已输入/添加书签**：点击不存在反向链接数据。
 * **搜索引擎**：反向链接来自于包括关键词查询字符串的可识别搜索引擎。
@@ -195,9 +195,9 @@ Dimension项包括点击的推荐人类型。 具体值包括：
 * `zooomr.com`
 * `zhihu.com`
 
-### “其他网站”维度项中的搜索引擎
+### “其他网站”维度项目中的搜索引擎
 
 在查看“反向链接类型”维度中的特定域时，您可能会发现自己预计会列在“搜索引擎”下的域，实际上列在“其他网站”下。例如，您可能会看到 `'google.com'` 列在“其他网站”下。
 
-* **“搜索引擎”维项中的搜索引擎域**:推荐人符合按Adobe分类为搜索引擎的所有条件。 反向链接域是有效的搜索引擎，*并且*&#x200B;反向链接 URL 包含关键词查询字符串参数。
-* **“其他网站”维项中的搜索引擎域**:引用URL未满足要分类为搜索引擎的所有条件。 常见示例包括专用于搜索之外的其他功能的子域。例如，`mail.google.com` 或 `autos.yahoo.com` 不是搜索引擎，但驻留在通常与搜索相关联的顶级域上。这些子域不包含关键词查询字符串，这正是它们被归入“其他网站”而不是“搜索引擎”下的原因。
+* **“搜索引擎”维度项目中的搜索引擎域**：反向链接符合 Adobe 分类为搜索引擎的所有条件。反向链接域是有效的搜索引擎，*并且*&#x200B;反向链接 URL 包含关键词查询字符串参数。
+* **“其他网站”维度项目中的搜索引擎域**：反向链接 URL 不符合分类为搜索引擎的所有条件。常见示例包括专用于搜索之外的其他功能的子域。例如，`mail.google.com` 或 `autos.yahoo.com` 不是搜索引擎，但驻留在通常与搜索相关联的顶级域上。这些子域不包含关键词查询字符串，这正是它们被归入“其他网站”而不是“搜索引擎”下的原因。
