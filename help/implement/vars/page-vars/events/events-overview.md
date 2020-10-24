@@ -1,20 +1,20 @@
 ---
 title: events
 description: 设置事件变量，该变量可控制网站上的大多数量度。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2fd6e3b561d02bdbdd77b0be982614e765c870e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '676'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
 # events
 
-维度和量度是报表的重要组成部分。`events` 变量负责收集您网站上许多量度的数据。事件通常会增 [加报表](/help/components/metrics/overview.md) 中的指标。
+维度和量度是报表的重要组成部分。`events` 变量负责收集您网站上许多量度的数据。事件通常会递增报表中的[量度](/help/components/metrics/overview.md)。
 
-在实施事件之前，请确保在“报表包”设置的“成 [功事件](/help/admin/admin/c-success-events/success-event.md) ”下创建和配置这些。 如果您计划在链接跟踪点击中使用自定义事件，请确保 [`linkTrackVars`](../../config-vars/linktrackvars.md) 正确 [`linkTrackEvents`](../../config-vars/linktrackevents.md) 设置和设置。
+在实施事件之前，请确保在报表包设置的[成功事件](/help/admin/admin/c-success-events/success-event.md)下创建和配置事件。如果您计划在链接跟踪点击中使用自定义事件，请确保正确设置 [`linkTrackVars`](../../config-vars/linktrackvars.md) 和 [`linkTrackEvents`](../../config-vars/linktrackevents.md)。
 
 ## Adobe Experience Platform Launch 中的事件
 
@@ -79,7 +79,7 @@ s.events = "event1=2,event2";
 
 您可以更改自定义事件以使用货币而不是整数。如果报表包货币与 `currencyCode` 变量不匹配，货币事件会自动转换为报表包的货币。它们有助于计算运费、折扣或退款。如果要将货币事件仅归因于该产品，则可以在 `products` 变量中设置该事件。
 
-在实施货币事件之前，请确保在“报表包”设置的“成功事件”下 [将所需事件设](/help/admin/admin/c-success-events/success-event.md) 置为“货币”。
+在实施货币事件之前，请确保在报表包设置的[成功事件](/help/admin/admin/c-success-events/success-event.md)下将所需事件设置为“货币”。
 
 ```js
 // Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in Report suite settings
@@ -100,7 +100,7 @@ s.products = "Example category;Example product;1;0;event1=9.99";
 
 您可以更改自定义事件以接受小数值而不是整数。数值事件的行为与货币事件类似，只是它们不使用货币换算。如果要将数值事件仅归因于该产品，您可以在 `products` 变量中设置该事件。
 
-在实施数字事件之前，请确保在“报表包”设置的“成功事件”下 [将所需事件设](/help/admin/admin/c-success-events/success-event.md) 置为“数字”。
+在实施数值事件之前，请确保在报表包设置的[成功事件](/help/admin/admin/c-success-events/success-event.md)下将所需事件设置为“数值”。
 
 ```js
 // Send 4.5 in event1 using the events variable. Make sure the event type for event1 is Numeric in Report suite settings
