@@ -5,6 +5,9 @@ topic: Admin tools
 uuid: 5d62b19e-9fea-4489-8a80-1ebb317f5a78
 translation-type: ht
 source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
+workflow-type: ht
+source-wordcount: '106'
+ht-degree: 100%
 
 ---
 
@@ -15,4 +18,4 @@ source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
 
 使用“[!UICONTROL 流量变量]”页面可以启用、禁用或重命名流量变量报表。一旦禁用了流量变量报表，它便不会显示在用户界面中。
 
-另请参阅实施用户指南中的[属性](../../../implement/vars/page-vars/prop.md)。
+请参阅参阅实施用户指南中的[属性](../../../implement/vars/page-vars/prop.md)。
