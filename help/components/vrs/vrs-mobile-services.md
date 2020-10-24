@@ -2,8 +2,11 @@
 description: Adobe Mobile Services UI 将Adobe Analytics 报表包中的数据与发送推送通知和生成应用程序内消息的功能结合了起来。
 title: Mobile Services 中的 VRS 支持
 uuid: 1b11279e-d0d8-48c5-a5b5-8020d5ed39da
-translation-type: tm+mt
-source-git-commit: 9193a520b13a0717a3383a32b39936f278c49d49
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
+source-wordcount: '221'
+ht-degree: 100%
 
 ---
 
