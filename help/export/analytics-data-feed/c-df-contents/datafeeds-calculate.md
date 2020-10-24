@@ -4,11 +4,11 @@ keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event
 title: 计算量度
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Adobe 用于识别独特访客的所有方法（自定义访客 ID、Experience 
 1. 拼接 `post_visid_high`、`post_visid_low`、`visit_num` 和 `visit_start_time_gmt`。
 2. 按此拼接值排序，然后按 `visit_page_num` 进行二级排序。
 3. 如果某个点击不是某次访问中的最后一个点击，则从后续点击的 `post_cust_hit_time` 值中减去 `post_cust_hit_time` 值。
-4. 此数字是该次点击的逗留时间（以秒为单位）。过滤器可应用于关注维度项目或事件。
+4. 此数字是该次点击的逗留时间（以秒为单位）。可应用过滤器来重点关注维度项目或事件。
 
 ## 订单数、件数和收入
 
