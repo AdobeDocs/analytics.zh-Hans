@@ -4,8 +4,11 @@ subtopic: Users and groups
 title: 转移用户帐户项目
 topic: Admin tools
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
-translation-type: tm+mt
-source-git-commit: 3997889ae72920d719203edbb159b55b983158e7
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
+source-wordcount: '233'
+ht-degree: 100%
 
 ---
 
@@ -20,8 +23,8 @@ source-git-commit: 3997889ae72920d719203edbb159b55b983158e7
 
 1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]**。
 1. 单击&#x200B;**[!UICONTROL 编辑用户]**。
-1. 查找要从中传输资产的用户，并选中此用户行旁边的复选框。
-1. 从顶 **[!UICONTROL 部的操作栏中]** ，选择转移资产。
+1. 查找要从中转移资产的用户，然后选中此用户行旁边的复选框。
+1. 从顶部的操作栏中选择&#x200B;**[!UICONTROL 转移资产]**。
 1. 在&#x200B;**[!UICONTROL 转移]**&#x200B;页面中，选择要接收此用户的帐户项目的用户帐户。
 1. 选择要转移的帐户项目，然后单击&#x200B;**[!UICONTROL 转移]**。
 1. 单击&#x200B;**[!UICONTROL 确定]**，确认您希望转移所选的帐户资源。
