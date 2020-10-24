@@ -3,6 +3,9 @@ title: 工作区中的多个报表包
 description: 了解如何在工作区中使用多个报表包来创建项目以及为什么创建项目
 translation-type: ht
 source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
+workflow-type: ht
+source-wordcount: '527'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
 
 ## 将报表包应用于所有面板
 
-通过右键单击任何面板标题并选择 **[!UICONTROL Apply Report Suite to All Panels]**，可以一次将报表包应用于所有面板。
+通过右键单击任何面板标题并选择&#x200B;**[!UICONTROL 将报表包应用于所有面板]**，可以将报表包一次应用于所有面板。
 
 ![](assets/apply-rs-all-panels.png)
 
