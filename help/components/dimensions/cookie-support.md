@@ -1,27 +1,27 @@
 ---
-title: Cookie支持
-description: 确定浏览器是否支持Cookie。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+title: Cookie 支持
+description: 确定浏览器是否支持 Cookie。
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '187'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
 # Cookie 支持
 
-“Cookie支持”维度报告浏览器是否支持给定点击的Cookie。 确定使用支持Cookie的浏览器的访客和有意禁用它们的浏览器的比例很有用。
+“Cookie 支持”维度报告给定点击的浏览器是否支持 Cookie。此维度对于确定使用支持 Cookie 的浏览器和有意禁用 Cookie 的访客比例非常有用。
 
-## 用数据填充此维
+## 使用数据填充此维度
 
-此维从图像请求中的 [`k` 查询字符串](/help/implement/validate/query-parameters.md) 收集数据。 AppMeasurement尝试设置名为的cookie, `s_cc`然后检测该cookie是否存在。 结果是查询字符串参数值( `Y` 如果浏览器支持并启用了cookie)或 `N` （如果浏览器禁用了cookie）。 如果您使用AppMeasurement(例如通过Adobe Experience Platform启动)，此维度开箱即用。 如果您在AppMeasurement之外使用查询收集方法（如通过API），请确保在每次点击时都包含字符串参数，并包含值 `k` 或 `Y``N`。
+此维度从图像请求中的[`k`查询字符串](/help/implement/validate/query-parameters.md)收集数据。AppMeasurement 尝试设置名为 `s_cc` 的 Cookie，然后检测该 Cookie 是否存在。结果会生成查询字符串参数值 `Y`（如果浏览器支持并启用了 Cookie）或 `N`（如果浏览器禁用了 Cookie）。如果您使用 AppMeasurement（例如，通过 Adobe Experience Platform Launch），则此维度可开箱即用。如果您使用 AppMeasurement 以外的数据收集方法（例如通过 API），请确保在每次点击时包含 `k` 查询字符串参数，并具有值 `Y` 或 `N`。
 
-## 维项
+## 维度项目
 
-维项目 `Enabled`包括 `Disabled`、和 `Unknown`。
+维度项目包括 `Enabled`、`Disabled` 和 `Unknown`。
 
-* **`Enabled`**: 浏览器支持cookie，并启用它们。
-* **`Disabled`**: 浏览器不支持cookie，或访客禁用了它们。
-* **`Unknown`**: AppMeasurement无法确定对cookie的支持。 图 `k` 像请求中不存在查询字符串。
+* **`Enabled`**：浏览器支持 Cookie 并已将其启用。
+* **`Disabled`**：浏览器不支持 Cookie，或者访客禁用了 Cookie。
+* **`Unknown`**：AppMeasurement 无法确定 Cookie 支持。图像请求中不存在 `k` 查询字符串。
