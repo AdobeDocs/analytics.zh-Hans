@@ -1,9 +1,9 @@
 ---
 title: 系统要求
 description: 为使用 Adobe Analytics 而需满足的系统要求。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '111'
 ht-degree: 100%
 
