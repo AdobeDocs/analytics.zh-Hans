@@ -2,11 +2,11 @@
 description: 'null'
 title: 数据请求 - 请求向导第 1 步
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '411'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -31,20 +31,20 @@ ht-degree: 72%
 
 1. **日期范围**：定义请求涵盖的时间跨度。系统提供了多种类型的请求时段，如预设、固定和滚动。最大时段数是 366。您还可以选择单元格指定的日期范围，并且将日期范围保存为模板，供以后使用。请参阅[配置报表日期](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)
 
-1. **应用粒度**：指定报表中包含的基于时间的详细信息级别。请参 [阅粒度](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md)。
+1. **应用粒度**：指定报表中包含的基于时间的详细信息级别。请参阅[粒度](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md)。
 
 ## 故障诊断
 
-有时请求向导会在屏幕外显示，尤其是对于在监视器设置之间移动的用户。 例如，您在工作时使用坞站，在家中使用笔记本电脑屏幕。 如果在请求向导已打开时再次单击“创建”，将出现以下错误：
+有时，请求向导会显示在屏幕外，尤其是对于在不同显示器设置之间切换的用户而言更是如此。例如，您在办公室使用扩展坞，但在家中使用的是笔记本电脑屏幕。如果在请求向导已打开的情况下再次单击“创建”，则将出现以下错误：
 
-“您首先需要完成请求向导过程，然后再启动新的请求向导过程。”
+“您需要先完成请求向导过程，然后再启动新过程。”
 
-将请求向导移回屏幕可解决此问题。
+将请求向导移回屏幕上即可解决此问题。
 
-1. 打开Microsoft Excel并登录到Report Builder。
-2. 单 [!UICONTROL 击创建]，此操作会在屏幕外打开请求向导。
-3. 按下 `[Alt]` + `[Space]`.
-4. 按下 `[M]`.
+1. 打开 Microsoft Excel 并登录到 Report Builder。
+2. 单击[!UICONTROL 创建]，此时会在屏幕外打开请求向导。
+3. 按 `[Alt]` + `[Space]`。
+4. 按 `[M]`。
 5. 按任意箭头键。
-6. 移动鼠标，将请求向导附加到光标
-7. 单击鼠标以在屏幕上释放请求向导。
+6. 移动鼠标，将请求向导附加到光标上。
+7. 单击鼠标，在屏幕上松开请求向导。
