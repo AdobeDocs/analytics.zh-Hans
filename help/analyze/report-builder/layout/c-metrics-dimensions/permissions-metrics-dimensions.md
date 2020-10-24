@@ -3,8 +3,11 @@ description: Adobe Report Builder 现在具有类似于 Analytics 管理工具�
 title: 维度和量度的用户访问权限
 topic: Report builder
 uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '204'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +26,7 @@ Adobe Report Builder 现在具有类似于 Analytics 管理工具中的权限设
 
 1. 打开工作簿。
 1. 刷新所有请求。
-1. If you get prompted with a User Access Permission error, click **[!UICONTROL Open CSV File]** to get access to the list of restricted permissions errors.
+1. 如果系统提示您用户访问权限错误，请单击&#x200B;**[!UICONTROL 打开 CSV 文件]**&#x200B;以获取权限受限错误的列表。
 1. 创建文件“AllRestrictedPermissionErrors.xlsx”，然后将权限受限错误的列表从 CSV 文件复制/粘贴到此文件中。
 1. 关闭 Report Builder 工作簿。
 
