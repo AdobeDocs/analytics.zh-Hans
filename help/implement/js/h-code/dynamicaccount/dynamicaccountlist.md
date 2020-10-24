@@ -2,7 +2,7 @@
 title: dynamicAccountList
 description: 构建有关实施如何确定其报表包的逻辑。
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
 workflow-type: ht
 source-wordcount: '258'
 ht-degree: 100%
