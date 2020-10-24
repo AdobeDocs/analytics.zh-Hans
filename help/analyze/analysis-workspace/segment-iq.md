@@ -2,8 +2,11 @@
 title: 区段 IQ 概述
 description: 了解 Adobe Analytics 区段 IQ 是什么，以及它如何为您的组织提供帮助。
 keywords: Analysis Workspace;Segment IQ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
+workflow-type: ht
+source-wordcount: '153'
+ht-degree: 100%
 
 ---
 
