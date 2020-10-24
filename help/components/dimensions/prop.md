@@ -1,18 +1,18 @@
 ---
 title: Prop
 description: 可在报告中使用的自定义维度。
-translation-type: tm+mt
-source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
 
 # Prop
 
-*此帮助页介绍 Prop 如何作为维度使用。有关如何实施 Prop 的信息，请参阅实施用户指南中的[Prop](/help/implement/vars/page-vars/prop.md)。*
+*此帮助页介绍 Prop 如何作为维度使用。有关如何实施 Prop 的信息，请参阅实施用户指南中的 [Prop](/help/implement/vars/page-vars/prop.md)。*
 
 Prop 是自定义变量，您可以根据需要随意使用。它们不会在设置的点击之外继续存在。
 
@@ -28,19 +28,19 @@ Prop 是自定义变量，您可以根据需要随意使用。它们不会在设
 
 AppMeasurement 将 JavaScript 变量编译到图像请求中以用于数据收集，它使用变量 `prop1` - `prop75`。请参阅实施用户指南中的 [Prop](/help/implement/vars/page-vars/prop.md)，以了解相关实施指南。
 
-## Dimension项
+## 维度项目
 
-由于prop在实施中包含自定义字符串，您的组织将决定每个prop的维项目。 Make sure you record the purpose of each prop and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
+由于 Prop 在您的实施中包含自定义字符串，因此，由您的组织来确定每个 Prop 的维度项目。请确保在[解决方案设计文档](/help/implement/prepare/solution-design.md)中记录每个 Prop 的用途和典型维度项目。
 
 ## 区分大小写
 
-Prop默认不区分大小写。 如果在不同情况下（例如，和）发送相同 `"DOG"` 的值 `"Dog"`,Analysis Workspace会将它们组合到同一维度项目中。 使用在报告月开始时看到的第一个值的大小写。 data warehouse显示请求期间遇到的第一个值。
+默认情况下，Prop 不区分大小写。如果您以不同的大小写发送同一个值（例如，`"DOG"` 和 `"Dog"`），Analysis Workspace 会将它们分组到同一维度项目中。它会使用在报表月份开始时看到的第一个值的大小写。Data Warehouse 将显示在请求期间遇到的第一个值。
 
-您可以区分任何prop大小写。 启用任何prop后，您还可以禁用其区分大小写功能。 联系Adobe客户关怀部门，使用报表包ID和所需的变量来切换区分大小写。
+您可以让任何 Prop 区分大小写。您还可以在启用 Prop 后，为任何 Prop 禁用区分大小写功能。请联系 Adobe 客户关怀团队，提供报表包 ID 和所需的变量以切换区分大小写设置。
 
 >[!IMPORTANT]
 >
->切换大小写敏感性可能会断开维度项目，导致区段出现意外结果，并导致过滤器问题。 Adobe强烈建议在两个主要时间段（如一个月或一年的开始）之间切换此设置。
+>切换区分大小写设置可能会影响维度项目，导致区段出现意外结果，以及导致过滤器出现问题。Adobe 强烈建议在两个主要时间段（如在每月或每年开始时）之间切换此设置。
 
 ## Prop 与 eVar 的 值比较
 
