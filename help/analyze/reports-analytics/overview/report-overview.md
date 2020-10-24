@@ -3,8 +3,11 @@ description: 有关报表功能（包括工具栏、日历和详细信息表）�
 title: 报表功能
 topic: Reports and analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '328'
+ht-degree: 100%
 
 ---
 
@@ -13,11 +16,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 有关报表功能（包括工具栏、日历和详细信息表）的介绍。
 
-This example shows a [!UICONTROL Pages Report]. The configuration options may vary, depending on the report that you run. For example, rather than selecting Trended or Ranked in a [!UICONTROL Site Content] report, you might specify the granularity and page name for a [!UICONTROL Site Metrics] report.
+此示例显示了[!UICONTROL 页面报表]。配置选项可能有所差异，具体取决于运行的报表。例如，您可以在[!UICONTROL 网站内容]报表中不选择趋势或排名，而为[!UICONTROL 网站量度]报表指定粒度和页面。
 
 ## 页面报表示例 {#section_288CC85536684C2DB184141358481EF0}
 
-页面报表的示例( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages Reports]** > **[!UICONTROL Pages]**)。
+页面报表示例（**[!UICONTROL 报表]** > **[!UICONTROL 网站内容]** > **[!UICONTROL 页面报表]** > **[!UICONTROL 页面]**）。
 
 ![](assets/pages_report.png){width=&quot;672px&quot;}
 
@@ -67,7 +70,7 @@ This example shows a [!UICONTROL Pages Report]. The configuration options may va
 
 ![](assets/metrics.png)
 
-请参阅 [指标。](/help/analyze/reports-analytics/metrics.md)
+请参阅[量度](/help/analyze/reports-analytics/metrics.md)。
 
 ## 详细信息表 {#section_449A5DC848744F65A10DA12E189B835D}
 
