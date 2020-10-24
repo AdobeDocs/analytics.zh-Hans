@@ -4,8 +4,11 @@ subtopic: Data sources
 title: 访客 ID
 topic: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '230'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 页面 | 使用以下日期格式：MM/DD/YYYY/hh/mm/ss（例如 07/14/2017/06/00/00） |
 | 跟踪代码 | 跟踪代码名称。 |
 | 类别 | 类别名称。如果指定一个类别，则必须还要选择一个产品。 |
-| Channel | 渠道名称。 |
+| 渠道 | 渠道名称。 |
 | eVarn | eVarn 名称。n 的有效值是 1 - 75 之间的整数。 |
 | 产品 | 产品名称。 |
 | 省/州 | 州名。 |
