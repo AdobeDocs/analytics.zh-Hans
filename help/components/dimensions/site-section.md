@@ -1,11 +1,11 @@
 ---
 title: 网站区域
 description: 网站区域的名称。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '137'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -20,6 +20,6 @@ ht-degree: 82%
 
 此维度从图像请求中的 [`ch` 查询字符串](/help/implement/validate/query-parameters.md)检索数据。AppMeasurement 使用 [`channel`](/help/implement/vars/page-vars/channel.md) 变量收集此数据。
 
-## Dimension项
+## 维度项目
 
-Dimension项包括站点上的站点部分的名称。 您的组织确定要使用哪些特定维项目。 无论您使用哪种方法，都应确保其一致性，并记录在[解决方案设计文档](/help/implement/prepare/solution-design.md)中。
+维度项目包括您网站上的网站区域的名称。贵组织会确定您要使用的具体维度项目。无论您使用哪种方法，都应确保其一致性，并记录在[解决方案设计文档](/help/implement/prepare/solution-design.md)中。
