@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # eVar
 
-*此帮助页面介绍了如何实施 eVar。有关 eVar 如何用作维度的信息，请参阅组件用户指南中的[eVar](/help/components/dimensions/evar.md)。*
+*此帮助页面介绍了如何实施 eVar。有关 eVar 如何用作维度的信息，请参阅组件用户指南中的 [eVar](/help/components/dimensions/evar.md)。*
 
 eVar 是自定义变量，您可以根据需要随意使用。如果您有[解决方案设计文档](/help/implement/prepare/solution-design.md)，则大多数特定于您的组织的维度最终都会成为 eVar。默认情况下，eVar 会在其设置的点击之外继续存在。您可以在报表包设置的[转换变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)下自定义其到期和分配情况。
 
