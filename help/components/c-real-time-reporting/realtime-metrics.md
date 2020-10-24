@@ -3,8 +3,11 @@ description: 列出实时报表所支持的量度和维度。还支持分类（�
 title: 受支持的实时量度和维度
 topic: Reports
 uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
+source-wordcount: '106'
+ht-degree: 100%
 
 ---
 
@@ -37,11 +40,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 地域划分城市
 * 地域划分美国 DMA
 * 产品
-* Server
+* 服务器
 * 网站区域
 * 跟踪代码
 * 自定义链接
 * 文件下载
-* Exit Link
+* 退出链接
 * 自定义分析变量 (prop) 1-75（如果在报表包中启用）
 
