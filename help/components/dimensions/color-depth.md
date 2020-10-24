@@ -1,11 +1,11 @@
 ---
 title: 颜色深度
 description: 设备的颜色深度。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '220'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 94%
 
 此维度引用查找表，将位值转换为更易于读取的格式。它会从图像请求中的 [`c` 查询字符串](/help/implement/validate/query-parameters.md)收集数据。AppMeasurement 会使用 `screen.colorDepth` 变量填充图像请求查询字符串。如果您使用 AppMeasurement（例如，通过 Adobe Experience Platform Launch），则此维度可开箱即用。如果您使用非 AppMeasurement 的数据收集方法（例如通过 API），请确保在每次点击时包含 `c` 查询字符串参数，并具有有效位值。
 
-## Dimension项
+## 维度项目
 
-Dimension项包括设备支持的颜色数。 示例值包括 `"16 million (24-bit)"`、`"16 million (32-bit)"` 和 `"65,536 (16-bit)"`。如果 AppMeasurement 无法确定颜色深度，则会显示为 `"None"`。
+维度项目包括设备支持的颜色数量。示例值包括 `"16 million (24-bit)"`、`"16 million (32-bit)"` 和 `"65,536 (16-bit)"`。如果 AppMeasurement 无法确定颜色深度，则会显示为 `"None"`。
 
 >[!TIP]
 >
