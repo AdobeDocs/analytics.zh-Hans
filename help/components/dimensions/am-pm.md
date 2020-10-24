@@ -1,11 +1,11 @@
 ---
 title: 上午/下午
 description: 确定点击是否发生在上午或下午时刻。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '117'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -18,6 +18,6 @@ ht-degree: 70%
 
 此维度可开箱即用。它没有任何要更改的设置。它的唯一依赖项是报表包中的时区，时区决定着哪些时刻是上午以及哪些时刻是下午。
 
-## Dimension项
+## 维度项目
 
-This dimension always contains exactly two dimension items: `"AM"` and `"PM"`. The dimension item `"AM"` applies to all hits from 12:00 AM to 11:59 AM, while the dimension item `"PM"` applies to all hits from 12:00 PM to 11:59 PM.
+此维度始终只包含两个维度项目：`"AM"` 和 `"PM"`。维度项目 `"AM"` 适用于从午夜 12:00 到上午 11:59 的所有点击，而维度项目 `"PM"` 则适用于从中午 12:00 到晚上 11:59 的所有点击。
