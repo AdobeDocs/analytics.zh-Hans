@@ -1,11 +1,11 @@
 ---
 title: 常见问题解答
 description: 获取从第三方平台转到 Adobe 时的常见问题解答。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '403'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 85%
 
 Adobe 不建议迁移历史数据，因为这是一个复杂的过程，而且对组织而方，成本过于高昂。访客身份识别也无法无缝地迁移到 Adobe，因为这两个平台中的访客信息以不同的格式存储在不同的 Cookie 中。
 
-**我习惯了使用许多报表中的分段下拉菜单。如何在[!UICONTROL Analysis Workspace]中重新创建分段下拉菜单？**
+**我习惯了使用许多报表中的分段下拉菜单。如何在 [!UICONTROL Analysis Workspace] 中重新创建分段下拉菜单？**
 
 [!UICONTROL Analysis Workspace] 中的下拉过滤器是一个灵活而强大的功能，可用来创建分段下拉菜单。在工作区项目中时：
 
@@ -29,6 +29,6 @@ Adobe 不建议迁移历史数据，因为这是一个复杂的过程，而且�
 
 访问此[!UICONTROL 工作区]项目的用户现在可以使用此下拉菜单将区段或其他组件应用到该项目。有关更多信息，请参阅 Adobe Analytics 工具指南中的[面板概述](/help/analyze/analysis-workspace/c-panels/panels.md)。
 
-**我习惯单击维度项目以查看追溯。 如何在 Analysis Workspace 中重现这种轻松的工作流？**
+**我习惯通过单击维度项目来查看深入信息。如何在 Analysis Workspace 中重现这种轻松的工作流？**
 
-Dimension items in [!UICONTROL Analysis Workspace] also have an easy breakdown workflow. 使用右键单击（而不是左键单击）可访问该工作流。Right-click on a dimension item, click **[!UICONTROL Breakdown], then select the desired component. 对每个值使用ctrl+单击(Windows)或cmd+单击(Mac)，可将同一细分应用于多个维项目。
+[!UICONTROL Analysis Workspace] 中的维度项目还具有一个轻松的划分工作流。使用右键单击（而不是左键单击）可访问该工作流。右键单击维度项目，单击 **“[!UICONTROL 划分]”，然后选择所需的组件。按住 Ctrl 并单击 (Windows) 或按住 Cmd 并单击 (Mac) 每个值，可将同一个划分应用于多个维度项目。
