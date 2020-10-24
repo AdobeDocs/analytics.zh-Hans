@@ -2,8 +2,11 @@
 description: 有关三个产品兼容性选项的说明。
 title: 量度兼容性
 uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: ht
+source-wordcount: '179'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
  <tbody> 
   <tr> 
    <td colname="col1"> 当前数据 </td> 
-   <td colname="col2"> <p>您可以通过 Analytics 中的“包括当前数据”选项查看最新的 Analytics 数据，通常是经过完全处理并完成前的数据。“<a href="https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/current-data.html"  >当前数据</a>”会在数分钟内显示大部分量度，为快速制定决策提供可用数据。 </p> <p>“当前数据”仅支持计算量度（包含加、减、乘、除）。“当前数据”不支持高级计算量度（包含区段或函数）。 </p> </td> 
+   <td colname="col2"> <p>您可以通过 Analytics 中的“包括当前数据”选项查看最新的 Analytics 数据，通常是经过完全处理并完成前的数据。“<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/reports-analytics/current-data.html"  >当前数据</a>”会在数分钟内显示大部分量度，为快速制定决策提供可用数据。 </p> <p>“当前数据”仅支持计算量度（包含加、减、乘、除）。“当前数据”不支持高级计算量度（包含区段或函数）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 完全处理数据 </td> 
