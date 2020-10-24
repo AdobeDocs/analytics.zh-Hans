@@ -1,11 +1,11 @@
 ---
 title: 浏览器高度 - 分段统计
 description: 以像素为单位的浏览器窗口的高度。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -28,6 +28,6 @@ ht-degree: 88%
 
 Adobe 会在访问期间保持浏览器高度。如果在访问中调整了浏览器高度，则不会记录此调整。
 
-## Dimension项
+## 维度项目
 
-Dimension项包括所有收集的浏览器高度，分为100像素的组。 For example, if the browser height of a hit is `720`, then it is grouped in the dimension item `700 to 799`.
+维度项目包括所有收集的浏览器高度，它们按 100 像素分组。例如，如果点击的浏览器高度为 `720`，则会将其分组到维度项目 `700 to 799`。
