@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # eVar（推销）
 
-*此帮助页面介绍了如何实施推销 eVar。有关推销 eVar 如何用作维度的信息，请参阅组件用户指南中的[eVar（推销）](/help/components/dimensions/evar-merchandising.md)。*
+*此帮助页面介绍了如何实施推销 eVar。有关推销 eVar 如何用作维度的信息，请参阅组件用户指南中的 [eVar（推销）](/help/components/dimensions/evar-merchandising.md)。*
 
 ## 在报表包设置中设置 eVar
 
