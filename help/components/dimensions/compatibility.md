@@ -1,11 +1,11 @@
 ---
 title: Analytics 维度兼容性
 description: Analytics 维度和报表的参考。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '985'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->此列表中删除了自定义变量名称、分类和访客属性。这些维项目特定于单个报表包。
+>此列表中删除了自定义变量名称、分类和访客属性。这些维度项目特定于单个报表包。
 
 >[!NOTE]
 >
