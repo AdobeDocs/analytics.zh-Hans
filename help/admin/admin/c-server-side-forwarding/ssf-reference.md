@@ -2,8 +2,11 @@
 description: 服务器端转发调用中的配置变量、HTTP 头和数据信号的综合列表及描述。
 title: 服务器端转发数据和代码引用
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+workflow-type: ht
+source-wordcount: '610'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ## 配置变量 {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-带有 `d_*` 前缀的参数用于标识由我们的[数据收集服务器](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS) 使用的系统级别特殊键值对。另请参阅 [DCS API 调用支持的属性](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)。
+带有 `d_*` 前缀的参数用于标识由我们的[数据收集服务器](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS) 使用的系统级别特殊键值对。另请参阅 [DCS API 调用支持的属性](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)。
 
 | 参数 | 描述 |
 |--- |--- |
@@ -29,7 +32,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 <!-- Meike, missing link in table below: "See Understanding Calls to the Demdex Domain" -->
 
-| HTTP 头 | 描述 |
+| HTTP 标头 | 描述 |
 |--- |--- |
 | 主机 | 设置为在 Analytics 主机配置文件中指定的客户端的特定数据收集主机名。它显示为 `host name .demdex.net`。请参阅了解 Demdex 域调用。 |
 | User-Agent | 设置为传递到 Analytics 的 User-Agent 头。 |
@@ -40,7 +43,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ## 客户定义的信号 {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-带有 `c_` 前缀的参数用于标识客户定义的变量。另请参阅 [DCS API 调用支持的属性](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)。
+带有 `c_` 前缀的参数用于标识客户定义的变量。另请参阅 [DCS API 调用支持的属性](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)。
 
 | 信号 | 描述 |
 |--- |--- |
