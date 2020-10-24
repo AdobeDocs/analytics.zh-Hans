@@ -1,11 +1,11 @@
 ---
 title: Adobe Analytics 管理入门指南
 description: 了解如何开始使用 Adobe Analytics、常规角色类型以及如何登录到用户界面。
-translation-type: tm+mt
-source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '943'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 90%
 如果贵组织已购买 Adobe Analytics，应考虑以下几个重要角色：
 
 * **Adobe Analytics 管理员**：此类用户拥有对 Adobe Analytics 中所有功能的完全访问权限，包括报表包设置和用户权限。根据贵组织的组成结构，可由不同的人员或团队分别负责 Analytics 管理所涉及的各方面工作。例如，一个人负责指定实施中使用的变量。而另一个人负责确保每个用户均具有正确权限，从而能够正常获取所需报表。至少确定一位负责 Analytics 报表包设置和用户权限的用户，该用户可以邀请其他 Analytics 管理员。
-* **Adobe Experience Platform Launch 管理员**：此类用户拥有对 Experience Platform Launch 中所有功能的完全访问权限，包括发布权限、创建容器和访问用户权限。此类用户不一定得是程序员，但若能掌握 HTML、CSS 和 JavaScript 的入门级或更高级别的知识，将有助于他们开展工作。为在您的网站上实施 Experience Platform Launch 代码，此类用户需要与贵组织的网站所有者合作。确定至少一个负责组织实施的用户，他们可以从那里邀请其他Experience Platform Launch管理员。
-* **支持代表**: 他们又称受支持用户，在Analytics界面中没有其他权限。 相反，在与Adobe客户服务部门通信时，他们会获得额外的特权。 这些用户几乎都是Analytics管理员，它有助于客户服务部解决与他们相关的问题。 确定至少一名Analytics管理员，负责促进最终用户与Adobe客户服务部门之间的交互。
+* **Adobe Experience Platform Launch 管理员**：此类用户拥有对 Experience Platform Launch 中所有功能的完全访问权限，包括发布权限、创建容器和访问用户权限。此类用户不一定得是程序员，但若能掌握 HTML、CSS 和 JavaScript 的入门级或更高级别的知识，将有助于他们开展工作。为在您的网站上实施 Experience Platform Launch 代码，此类用户需要与贵组织的网站所有者合作。请至少确定一位负责贵组织实施的用户，该用户可以邀请其他 Experience Platform Launch 管理员。
+* **支持代表**：也称为受支持用户，他们在 Analytics 界面中没有其他权限。他们而是会在与 Adobe 客户关怀团队通信时获得其他权限。这些用户几乎都是 Analytics 管理员，这有助于客户关怀团队对这些用户的问题进行故障诊断。请至少确定一位 Analytics 管理员，负责促进最终用户与 Adobe 客户关怀团队之间的交互。
 * **网站所有者**：网站所有者可以是个人或团队，负责网站的编码和开发工作。他们不需要具有 Experience Platform Launch 帐户，但需要与 Experience Platform Launch 管理员合作，以获取 Experience Platform Launch 代码并在您的网站上实施该代码。
 * **最终用户**：最终用户一般负责查看报表并寻找业务问题的答案。Analytics 管理员会向最终用户授予产品使用权限。
 
