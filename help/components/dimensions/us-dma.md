@@ -1,11 +1,11 @@
 ---
 title: 美国 DMA
 description: 点击的指定市场区域。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 91%
 >
 >如果您的组织遵循严格的隐私法规，但[模糊处理 IP 地址](/help/admin/admin/general-acct-settings-admin.md)力度不够，则可以请求完全禁用地理位置数据。使用报表包 ID 联系客户关怀，并请求关闭报表包的“地理位置”。
 
-## Dimension项
+## 维度项目
 
-Dimension项包括访客的DMA和DMA代码。 3 位数的代码不是邮政编码，而是 Nielsen 的 DMA 代码。示例值包括 `"Dallas-Ft. Worth (623)"`、`"New York (501)"` 或 `"Los Angeles (803)"`。The dimension item `"No Metro (0)"` includes all international traffic outside of the United States.
+维度项目包括访客的 DMA 和 DMA 代码。3 位数的代码不是邮政编码，而是 Nielsen 的 DMA 代码。示例值包括 `"Dallas-Ft. Worth (623)"`、`"New York (501)"` 或 `"Los Angeles (803)"`。维度项目 `"No Metro (0)"` 包括美国以外的所有国际流量。
 
 ## 报告位置与实际位置之间的差异
 
