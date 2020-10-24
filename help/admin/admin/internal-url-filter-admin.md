@@ -3,18 +3,18 @@ description: 内部 URL 过滤器可识别您视为存在于网站内部的反�
 title: 内部 URL 过滤器
 topic: Admin tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
 # 内部 URL 过滤器
 
-**[!UICONTROL “管理员”>“报表包”>“编辑设置”>“常规”>“内部URL过滤器”>“添加过滤器”]**
+**[!UICONTROL 管理员 > 报表包 > 编辑设置 > 常规 > 内部 URL 过滤器 > 添加过滤器]**
 
 内部 URL 过滤器可识别您视为存在于网站内部的反向链接。它们可帮助流量源报表填充数据，并且有助于过滤内部流量。
 
