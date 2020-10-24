@@ -3,8 +3,11 @@ description: 本节包含一些常见问题的相关信息。
 keywords: Data Feed;troubleshooting
 title: 数据馈送疑难解答
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '938'
+ht-degree: 100%
 
 ---
 
