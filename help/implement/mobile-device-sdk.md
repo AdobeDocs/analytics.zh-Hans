@@ -2,7 +2,7 @@
 title: 为移动设备实施 Analytics
 description: 确定要使用的移动 AppMeasurement 库。
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
 workflow-type: ht
 source-wordcount: '124'
 ht-degree: 100%
