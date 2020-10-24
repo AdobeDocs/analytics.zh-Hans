@@ -1,25 +1,25 @@
 ---
-title: 首次购买前几天
-description: 访客首次访问与首次购买之间的天数。
-translation-type: tm+mt
+title: 首次购买间隔天数
+description: 访客首次访问与首次购买之间的间隔天数。
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# 首次购买前几天
+# 首次购买间隔天数
 
-“首次购买前的天数”维度报告访客首次访问您的站点和进行购买之间的天数。 例如，如果访客在首次访问后的某一天购买产品，则任何后续访问或事件都属于“1天”维项目。
+“首次购买间隔天数”维度报告访客首次访问您的网站与购买商品之间的间隔天数。例如，如果访客在首次访问后间隔一天购买商品，则任何后续访问或事件都属于“1 天”维度项目。
 
-在访客首次购买后，在访客的cookie生命周期的剩余时间内，他们属于同一维度项目。
+访客首次购买后，在访客 Cookie 的剩余生命周期内，它们属于同一维度项目。
 
-## 用数据填充此维
+## 使用数据填充此维度
 
-Adobe会根据您实施中的事件自 [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) 动填充此维度。 如果您在站点 `purchase` 上实施事件，则此维始终有效。
+Adobe 会根据实施中的 [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) 事件，自动填充此维度。如果您在网站上实施了 `purchase` 事件，则此维度始终有效。
 
-## 维项
+## 维度项目
 
-维度项目包括访客首次访问您的站点与首次购买之间的天数。 每天数都是单独的维度项目，“当天”是访客第一次访问和第一次购买发生在同一天的时间。
+维度项目包括访客首次访问您的网站与首次购买之间的间隔天数。每一天都是一个单独的维度项目，出现“同一天”即表示访客的首次访问与首次购买发生在同一天。
