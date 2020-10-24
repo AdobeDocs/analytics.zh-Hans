@@ -1,18 +1,18 @@
 ---
 title: 归因概述
-description: 将成功事件的信用归因到多个维度项目的概念。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+description: 将成功事件的点数归因到多个维度项目的概念。
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '419'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # 归因概述
 
-Attribution使分析师能够自定义维度项目如何获得成功事件的认可。 例如：
+通过归因，分析师能够自定义维度项目获取成功事件点数的方式。例如：
 
 1. 网站访客单击指向您的某个产品页面的付费搜索链接。他们将产品添加到购物车，但不购买。
 2. 第二天，他们查看自己朋友的社交媒体帖子，单击链接，然后完成购买。
