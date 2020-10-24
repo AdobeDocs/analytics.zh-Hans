@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 报表最佳实践和疑难解答
 
-*此帮助页面将介绍 Reports &amp; Analytics 最佳实践。对于 Analysis Workspace，请参阅[优化 Analysis Workspace 性能](../analysis-workspace/workspace-faq/optimizing-performance.md)。对于 Data Warehouse，请参阅[Data Warehouse 最佳实践](/help/export/data-warehouse/data-warehouse-bp.md)。*
+*此帮助页面将介绍 Reports &amp; Analytics 最佳实践。对于 Analysis Workspace，请参阅[优化 Analysis Workspace 性能](../analysis-workspace/workspace-faq/optimizing-performance.md)。对于 Data Warehouse，请参阅 [Data Warehouse 最佳实践](/help/export/data-warehouse/data-warehouse-bp.md)。*
 
 Adobe Analytics 提供了一个灵活的报表界面，允许您生成各种复杂的报表。因为大多数报表的生成速度都非常快，所以您可能会遇到报表超时或无法成功生成的情况。本页将介绍可影响报表生成速度的因素。了解此信息可帮助您构建报表，以便提高成功生成报表的几率。
 
