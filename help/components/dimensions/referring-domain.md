@@ -1,24 +1,24 @@
 ---
 title: 反向链接域
 description: 访客在点击进入到您的网站之前所处的首要域。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
 
 # 反向链接域
 
-“反向链接域”维度报告访客通过点击哪些域才得以访问您的网站。此维度有助于了解哪些第三方网站给您的网站带来了最多的流量。外部站点上必须存在链接，访客必须单击该链接才能显示维项目。
+“反向链接域”维度报告访客通过点击哪些域才得以访问您的网站。此维度有助于了解哪些第三方网站给您的网站带来了最多的流量。链接必须存在于外部网站上，且访客必须单击该链接才能显示维度项目。
 
 >[!IMPORTANT]
 >
 >必须配置报表包的[内部 URL 过滤器](/help/admin/admin/internal-url-filter-admin.md)，才能使用此维度。无法配置内部 URL 过滤器，可能会包含内部域或阻止出现外部域。
 
-同一份报告显示Analysis Workspace和Data warehouse的结果不同。 Analysis Workspace报告每个页面的引用域，不包括与内部URL过滤器匹配的值。 data warehouse仅报告访问的第一个引用域，并忽略内部URL过滤器。
+同一报表在 Analysis Workspace 和 Data Warehouse 中可能会显示不同的结果。Analysis Workspace 会报告每个页面的反向链接域，但不包括与内部 URL 过滤器匹配的值。Data Warehouse 则仅报告访问的第一个反向链接域，并且会忽略内部 URL 过滤器。
 
 ## 使用数据填充此维度
 
@@ -29,13 +29,13 @@ ht-degree: 53%
 
 Adobe 继续提供访问的反向链接域。如果访客离开并在单次访问中点击不同域上的链接，则新值会更新并且在剩余的访问时间内持续存在。如果只想查看原始值，请参阅[原始反向链接域](original-referring-domain.md)。
 
-## Dimension项
+## 维度项目
 
-Dimension项包括访客点击到您的站点的域。 If a hit does not have any referrer data (either set or persisted), it groups under the dimension item `"Typed/Bookmarked"`. 此维度项表示没有推荐人值，例如访客将浏览器地址手动键入地址栏或单击书签。 对于 `"Typed/Bookmarked"` 不适合Analytics的重定向，也会显示维度项。 请参 [阅技术说明](/help/technotes/redirects.md) “用户指南”中的重定向和别名。
+维度项目包括访客点击进入您的网站的域。如果点击没有任何反向链接数据（设置或保留），则它会分组到维度项目 `"Typed/Bookmarked"` 下。此维度项目表示不存在反向链接值，例如，如果访客在地址栏中手动键入浏览器地址，或单击书签。对于不适用于 Analytics 的重定向，也会显示 `"Typed/Bookmarked"` 维度项目。请参阅技术说明用户指南中的[重定向和别名](/help/technotes/redirects.md)。
 
-### Dimension项包含 `googleusercontent.com`
+### 包含 `googleusercontent.com` 的维度项目
 
-用户可以查看域中的维项 `googleusercontent.com`目。
+用户可以查看包含域 `googleusercontent.com` 的维度项目。
 
-* **缓存的页面**:谷歌的蜘蛛会不断地爬网并存储网页副本，以防它们离线。 通过单击“缓存的”链接，这些缓存的页面在大多数搜索结果旁边可用。 当用户单击此链接并视图Google缓存的内容时， `googleusercontent.com` 这是维度项。
-* **翻译页面**：Google 提供了一项强大而便捷的翻译服务。使用此服务查看站点时，服务源自 `googleusercontent.com`。如果用户单击链接返回到原始内容，则显示此维度项。
+* **缓存的页面**：Google Spider 会不断地抓取网页并存储页面副本，以防它们离线。在大多数搜索结果旁边，通过单击“已缓存”链接，即可使用这些缓存的页面。当用户单击此链接并查看 Google 缓存的内容时，`googleusercontent.com` 是维度项目。
+* **翻译页面**：Google 提供了一项强大而便捷的翻译服务。使用此服务查看站点时，服务源自 `googleusercontent.com`。如果用户单击某个链接以返回到原始内容，则会显示此维度项目。
