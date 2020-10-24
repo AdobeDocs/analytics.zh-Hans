@@ -3,6 +3,9 @@ title: 跨设备访客识别常见问题解答
 description: 关于跨设备访客识别的常见问题解答
 translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+workflow-type: ht
+source-wordcount: '190'
+ht-degree: 100%
 
 ---
 
