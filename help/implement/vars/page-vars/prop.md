@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # prop
 
-*此帮助页面介绍了如何实施 props。有关 prop 如何用作维度的信息，请参阅组件用户指南中的[prop](/help/components/dimensions/prop.md)。*
+*此帮助页面介绍了如何实施 props。有关 prop 如何用作维度的信息，请参阅组件用户指南中的 [prop](/help/components/dimensions/prop.md)。*
 
 Prop 是自定义变量，您可以根据需要随意使用。它们不会在设置的点击之外继续存在。
 
