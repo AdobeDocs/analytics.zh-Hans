@@ -3,11 +3,11 @@ description: 为一些最常见的 Analytics 问题提供答案和故障诊断�
 keywords: Troubleshooting Analytics
 title: 常见问题解答
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '751'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Apple 设备在用户代理字符串中报告其固件版本，而并非设备�
 
 **为什么在对值求和时，报表底部显示的总计与求和结果不一致？**
 
-Dimension项通常可以应用于多个位置；例如，跨午夜的访问或属于单个订单的多个产品。 维项目会在所有适用的行项目中报告，但会在报告的总计中消除重复项。 有关更多信息，请参阅 Analytics KB 中的[比较行项目总和与报表总计](https://helpx.adobe.com/cn/analytics/kb/sum-line-items-different-from-total.html)。
+维度项目通常可以应用于多个位置；例如，跨午夜访问次数或属于单笔订单的多个产品。可以在所有适用的行项目中报告维度项目，但是，在报表总计中，维度项目会去除重复项。有关更多信息，请参阅 Analytics KB 中的[比较行项目总和与报表总计](https://helpx.adobe.com/cn/analytics/kb/sum-line-items-different-from-total.html)。
 
 **如何从我的报表包中排除特定 IP 地址的数据？**
 
