@@ -1,25 +1,25 @@
 ---
-title: 上次购买后的天数
-description: 当前点击与他们上次购买之间的天数。
-translation-type: tm+mt
+title: 上次购买间隔天数
+description: 当前点击与上次购买之间间隔的天数。
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# 上次购买后的天数
+# 上次购买间隔天数
 
-“上次购买后的天数”维度测量访客的当前点击与当时的最新购买之间的时间。 此维度有助于您了解访客在网站上购买商品后所做的行为。
+“上次购买间隔天数”维度测量访客的当前点击与他们最近购买之间间隔的时间。此维度有助于您了解访客在网站上购物后的行为。
 
-从未购买过某些内容的访客不包括在此维度中。 此外，访客首次购买前触发的点击也不包括。 仅包含访客首次购买后的点击。
+此维度中不包括从未购买过任何商品的访客。此外，也不包括在访客首次购买前触发的点击。仅包括访客首次购买后的点击。
 
-## 用数据填充此维
+## 使用数据填充此维度
 
-Adobe会根据您实施中的事件自 [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) 动填充此维度。 如果您在站点 `purchase` 上实施事件，则此维始终有效。
+Adobe 会根据实施中的 [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) 事件，自动填充此维度。如果您在网站上实施了 `purchase` 事件，则此维度始终有效。
 
-## 维项
+## 维度项目
 
-维项目包括访客最近购买与当前点击之间的天数。 每个天数是单独的维度项目，“同一天”发生在访客最近购买和当前点击发生在同一天。
+维度项目包括访客最近购买与当前点击之间间隔的天数。每一天都是一个单独的维度项目，出现“同一天”即表示访客的最近购买与当前点击发生在同一天。
