@@ -3,8 +3,11 @@ description: 有关市场营销报告中常用 Web 分析术语的介绍。
 title: 常用术语
 topic: Reports and analytics
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '722'
+ht-degree: 100%
 
 ---
 
@@ -62,7 +65,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td> <p>转化事件是网站上您想要访客执行的活动（关键绩效指标）。对于电子商务网站，转化事件可能是详细产品查看、结帐或购买。对于潜在客户开发网站，这可能是填写表单。将在网站上为这些转化事件计数，并生成可显示其发生次数的报表。这些事件也可以作为其他报表中的量度，可以显示转化事件的发生原因，或促使其发生的因素。 </p> <p>购买事件是一个事件成为一个量度规则的特例，它会产生三个量度：收入、订购数目和件数。 </p> <p>还有许多此处未定义的转化量度，而转化量度构成了网站分析的基础，从而得以创建其他量度和报表。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Channel </p> </td> 
+   <td> <p>渠道 </p> </td> 
    <td> <p> 网站上定义的区域或类别。包括两个主要类别（如<span class="term">天气</span>和<span class="term">新闻</span>）的网站具有两个渠道。您可以对网站任何渠道中发生的所有页面查看的统计数据进行分组。 </p> </td> 
   </tr> 
  </tbody> 
