@@ -1,9 +1,9 @@
 ---
 description: 跟踪功能可确定您的 Adobe Analytics 实施如何对搜索引擎数据进行跟踪。这是向 Adobe Analytics 数据适当增加搜索引擎数据的必要步骤。
 title: 跟踪  手动模式和自动模式
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69db61bdfd9375df4d090add7d8ed08135d1f087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '594'
 ht-degree: 100%
 
