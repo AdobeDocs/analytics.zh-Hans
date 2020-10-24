@@ -2,11 +2,11 @@
 description: Analytics 报表 API 的比较表。提供了支持文档的链接。
 title: Analytics 报表 API 比较
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 49875f086be6fe47552f50b41d8111179039f7c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ Analytics 报表 API 的比较表。提供了支持文档的链接。
    <td colname="col5"> 完全 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://docs.adobe.com/content/help/zh-Hans/analytics/landing/home.html"  > 报表接口</a> </td> 
-   <td colname="col2"> Analysis Workspace、报告和Analytics、Report Builder、API </td> 
-   <td colname="col3"> 报告和Analytics、Report Builder、1.4 API中的实时报告 </td> 
+   <td colname="col1"> <a href="https://docs.adobe.com/content/help/zh-Hans/analytics/landing/home.html"  > 报表界面</a> </td> 
+   <td colname="col2"> Analysis Workspace、Reports &amp; Analytics、Report Builder、API </td> 
+   <td colname="col3"> Reports &amp; Analytics、Report Builder、1.4 API 中的实时报表 </td> 
    <td colname="col4"> 仅限 API </td> 
    <td colname="col5"> Data Warehouse 与 API </td> 
   </tr> 
