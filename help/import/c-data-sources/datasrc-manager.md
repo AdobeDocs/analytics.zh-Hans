@@ -4,8 +4,11 @@ subtopic: Data sources
 title: 数据源管理器
 topic: Developer and implementation
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '471'
+ht-degree: 100%
 
 ---
 
