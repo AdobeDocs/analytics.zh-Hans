@@ -1,11 +1,11 @@
 ---
 title: 服务器
 description: 服务器的名称。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '136'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -20,6 +20,6 @@ ht-degree: 85%
 
 此维度从图像请求中的 [`server` 查询字符串](/help/implement/validate/query-parameters.md)检索数据。AppMeasurement 使用 [`server`](/help/implement/vars/page-vars/server.md) 变量收集此数据。
 
-## Dimension项
+## 维度项目
 
-Dimension项包括站点上的服务器。 您的组织确定要使用哪些特定维项目。 有些组织使用 `window.location.hostname`，而另一些组织则制定自定义值。无论您使用哪种方法，都应确保其一致性，并记录在[解决方案设计文档](/help/implement/prepare/solution-design.md)中。
+维度项目包括您网站上的服务器。贵组织会确定您要使用的具体维度项目。有些组织使用 `window.location.hostname`，而另一些组织则制定自定义值。无论您使用哪种方法，都应确保其一致性，并记录在[解决方案设计文档](/help/implement/prepare/solution-design.md)中。
