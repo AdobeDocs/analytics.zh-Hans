@@ -1,9 +1,9 @@
 ---
 description: 不能将分类规则生成器与子分类结合使用。
 title: 子分类和规则生成器
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
 ht-degree: 100%
 
