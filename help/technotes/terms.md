@@ -1,11 +1,11 @@
 ---
 title: Adobe Analytics 中使用的术语
 description: Adobe Analytics 词汇表，用于定义常用术语。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2458'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 98%
 * **渠道：**&#x200B;可以称为：
    * 渠道变量，用于填充“网站区域”维度。请参阅实施用户指南中的[页面变量](/help/implement/vars/page-vars/page-variables.md)。
    * 营销渠道，可以帮助了解用户如何到达您网站的组件。请参阅组件用户指南中的[营销渠道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
-* **分类：** 在Adobe Analytics允许对维度项进行分组的功能。 请参阅组件用户指南中的[分类](/help/components/classifications/c-classifications.md)。
+* **分类：** Adobe Analytics 中允许对维度项目进行分组的功能。请参阅组件用户指南中的[分类](/help/components/classifications/c-classifications.md)。
 * **Clickmap：**&#x200B;不再使用。一个旧版浏览器插件，用于显示您网站上哪些区域的点击率最高。此工具已停用，改为 Activity Map。
 * **点击流数据馈送：**&#x200B;请参阅“数据馈送”。
 * **同类群组：**&#x200B;一组在特定时间段内具有共同特征的人员。请参阅分析用户指南中的[什么是队列分析？](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)。
@@ -67,7 +67,7 @@ ht-degree: 98%
    * 自定义分析，自定义流量变量的历史名称。
 * **KPI：**&#x200B;关键绩效指标的缩写。有助于企业了解其网站表现的量度。每个组织分别使用不同的 KPI 来衡量业务的不同方面。请参阅实施用户指南中的[创建解决方案设计文档](/help/implement/prepare/solution-design.md)。
 * **延迟：**&#x200B;收集数据时和在报表中使用数据时之间的延迟。报表包中的典型延迟时间为 30 - 90 分钟。请参阅 Technotes 用户指南中的[延迟](/help/technotes/latency.md)。
-* **Launch：** Adobe Experience Platform Launch 的简称，Adobe 的当前实施解决方案。请参阅 Adobe Experience Platform 用户指南中的[概述](https://docs.adobe.com/content/help/zh-Hans/launch/using/overview.translate.html)。
+* **Launch：** Adobe Experience Platform Launch 的简称，Adobe 的当前实施解决方案。请参阅 Adobe Experience Platform Launch 用户指南中的[概述](https://docs.adobe.com/content/help/zh-Hans/launch/using/overview.translate.html)。
 * **列表属性：**&#x200B;一种设置，可转化典型流量变量以支持同一点击中的多个值。如果启用了该设置，则任何自定义流量变量都可以成为列表属性。请参阅实施用户指南中的[属性](../implement/vars/page-vars/prop.md)。
 * **列表变量：**&#x200B;与转化变量分开的不同变量。列表变量支持同一点击中的多个值，并且变量值会在访问中保留，与转化变量类似。组织只能使用三个列表变量。请参阅实施用户指南中的[列表](/help/implement/vars/page-vars/list.md)。
 * **登录公司：**&#x200B;由您的组织使用的报表包集合。某些组织具有多个适用于该组织不同部分的登录公司。
@@ -75,7 +75,7 @@ ht-degree: 98%
 * **量度：**&#x200B;包含定量数据的组件类型。量度值通常包含数字，如页面查看次数、访问次数和收入。通常与维度相对应。
 * **多包标记：**&#x200B;向多个报表包发送相同点击的实践。随着虚拟报表包的推出，基本上不再需要这一实践。大多数多包标记工作可帮助满足全局报表包的需求。
 * **标准化：**&#x200B;一种组织可视化的方法，采用所有量度并强制按同等比例排列量度，从而更容易比较趋势。
-* **发生次数：** 一种度量类型，它显示设置或保留的维项的点击量。 请参阅组件用户指南中的[发生次数](/help/components/metrics/occurrences.md)量度。
+* **发生次数：**&#x200B;一种量度类型，用于显示设置或保留维度项目的点击量。请参阅组件用户指南中的[发生次数](/help/components/metrics/occurrences.md)量度。
 * **Omniture：**&#x200B;不再用作术语。在 2009 年被 Adobe 收购之前拥有 Adobe Analytics 的组织。
 * **路径：**&#x200B;请参阅“流”。
 * **页面视图：**&#x200B;一种可增加页面查看次数的点击类型。请参阅组件用户指南中的[页面查看](/help/components/metrics/page-views.md)量度。另请参阅“点击”。
