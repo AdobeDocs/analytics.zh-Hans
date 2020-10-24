@@ -1,18 +1,18 @@
 ---
 title: 内容周转率
 description: 内容周转率会测量内容对下游内容的影响。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '57'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
 
 # 内容周转率
 
-“内容速度”是一个计算的度量模板，可帮助您衡量维度对下游内容的影响。 它使用公式 `Page views (Visit participation) divided by Visits`。
+“内容周转率”是一个计算量度模板，可帮助您衡量维度对下游内容的影响程度。它使用的公式是 `Page views (Visit participation) divided by Visits`。
 
 ![](assets/cont-velo-1.png)
 
