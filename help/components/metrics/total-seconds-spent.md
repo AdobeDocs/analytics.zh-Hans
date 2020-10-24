@@ -1,18 +1,18 @@
 ---
 title: 所用总秒数
-description: 在维项目上花费的总秒数。
-translation-type: tm+mt
+description: 在维度项目上花费的总时间（秒）。
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 
 # 所用总秒数
 
-“所用总秒数”度量显示访客在给定维度项目上所用的总秒数。 当您希望在给定维度项目上花费原始时间，而不是像其他花费时间指标优惠一样平均时，此指标很有用。
+“所用总秒数”量度显示访客在给定维度项目上所花费的总时间（秒）。当您希望了解在给定维度项目上所花费的原始时间，而不是像其他逗留时间量度提供的平均值时，此量度非常有用。
 
 在 Report Builder 中，此量度称为“总逗留时间”。
 
@@ -22,7 +22,7 @@ ht-degree: 64%
 
 1. 对于给定点击，请查看时间戳。
 2. 对比访问中此次点击与下一次点击的时间戳。页面查看和链接跟踪点击都非常重要。
-3. 两次点击之间经过的秒数对维度项的贡献。
+3. 两次点击之间经过的秒数，对维度项目有贡献。
 
 持久化变量（例如 [eVar](../dimensions/evar.md)）计入总逗留时间（秒）。流量变量（例如 [prop](../dimensions/prop.md)）包括后续链接跟踪调用所花费的秒数。
 
