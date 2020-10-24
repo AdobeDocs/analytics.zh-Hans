@@ -1,8 +1,11 @@
 ---
 title: 外部电子邮件跟踪
 description: 使用 Adobe Analytics 跟踪电子邮件内容。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+workflow-type: ht
+source-wordcount: '736'
+ht-degree: 100%
 
 ---
 
@@ -34,6 +37,7 @@ source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
    * sc_cid=A1123A321 >“A”用于标记合作促销活动
    * sc_cid=EM033007 >“EM”用于标记电子邮件促销活动
    * sc_cid=GG987123 >“GG”表示 Google，是付费搜索促销活动
+
    请联系 Adobe [!DNL Customer Care]，以获取有关设置和使用跟踪代码的详细信息。
 
 1. 向 HTML 电子邮件链接添加查询字符串参数。
