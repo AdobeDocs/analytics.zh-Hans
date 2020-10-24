@@ -4,8 +4,11 @@ keywords: Virtual Report Suite
 title: 创建虚拟报表包
 topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '360'
+ht-degree: 100%
 
 ---
 
@@ -18,8 +21,8 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 * 无法共享虚拟报表包。可通过群组/权限实现“共享”。
 * 在虚拟报表包管理器中，您只能看到自己的虚拟报表包。您需要单击“显示所有”才能看到其他所有人的虚拟报表包。
 
-1. 导航到 **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]**。
-1. 单击 **[!UICONTROL Add +]**.
+1. 导航至&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 虚拟报表包]**。
+1. 单击&#x200B;**[!UICONTROL 添加 +]**。
 
    ![](assets/new_vrs.png)
 
