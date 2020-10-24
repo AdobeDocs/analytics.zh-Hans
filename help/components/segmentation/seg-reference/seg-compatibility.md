@@ -3,9 +3,9 @@ description: 区段生成器中创建的所有区段并非都与 Data Warehouse 
 title: Data Warehouse 区段兼容性
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '349'
 ht-degree: 100%
 
@@ -101,4 +101,4 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-*注意：在使用`AND/OR`时，Data Warehouse 不支持使用`exclusion`或`without`容器的所有情况。在使用此类组合时，Data Warehouse 仅支持那些可以重写为`A AND NOT B`（或&#x200B;**包括此特征**和&#x200B;**排除此特征**）的区段。*
+*注意：在使用 `AND/OR` 时，Data Warehouse 不支持使用 `exclusion` 或 `without` 容器的所有情况。在使用此类组合时，Data Warehouse 仅支持那些可以重写为 `A AND NOT B`（或&#x200B;**包括此特征**和&#x200B;**排除此特征**）的区段。*
