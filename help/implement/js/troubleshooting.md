@@ -1,11 +1,11 @@
 ---
 title: JavaScript 实施疑难解答
 description: 了解 JavaScript 实施存在的常见问题以及疑难解答最佳实践。
-translation-type: tm+mt
-source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '694'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -84,20 +84,23 @@ s.pageName = "        Home Page";
 
 ## 截断的图像请求
 
-用长值填充许多变量的实现有时会遇到截断的图像请求。 某些较旧的浏览器（如Internet Explorer）对图像请求URL施加2083个字符的限制。 如果您的组织面临很长的图像请求，请尝试以下操作：
+用较长值填充多个变量的实施有时会遇到图像请求被截断的情况。某些较旧的浏览器（如 Internet Explorer）对图像请求 URL 施加了 2083 个字符的限制。如果贵组织遇到了过长的图像请求，请尝试以下操作：
 
-* **使用Experience CloudID服务**:AppMeasurement库1.4.1及更高版本会在图像请求过长时使用HTTPPOST自动发送这些请求。 使用此方法发送的数据不会被截断，而不管长度如何。 See [Adobe Experience Cloud ID service](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html) for more information.
-* **使用处理规则**: [处理规则](/help/admin/admin/c-processing-rules/processing-rules.md) 可以将值从一个变量复制到另一个变量。 此方法可避免在多个变量中设置相同的值。 例如：
+* **使用 Experience Cloud ID 服务**：AppMeasurement 库 1.4.1 及更高版本会在图像请求过长时自动使用 HTTP POST 发送该请求。无论长度如何，使用此方法发送的数据都不会被截断。有关更多信息，请参阅 [Adobe Experience Cloud ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)。
+* **使用处理规则**：[处理规则](/help/admin/admin/c-processing-rules/processing-rules.md)可以将值从一个变量复制到另一个变量。此方法可使您省去在多个变量中设置相同值的麻烦。例如：
 
-   始终执行：<br>用eVar1覆盖prop1的值<br>用eVar1覆盖eVar2的值<br>用eVar1覆盖prop2的值<br>
+   始终执行：<br>
+使用 eVar1 覆盖 prop1 的值<br>
+使用 eVar1 覆盖 eVar2 的值<br>
+使用 eVar1 覆盖 prop2 的值<br>
 
-   然后在您的实施中设置eVar1:
+   然后在实施中设置 eVar1：
 
    ```js
    s.eVar1 = "The quick brown fox jumps over the lazy dog";
    ```
 
-* **使用动态变量**:如果实现使用相同的值填充许多变量，则可 [以使用动态变](/help/implement/vars/page-vars/dynamic-variables.md) 量来缩短请求URL:
+* **使用动态变量**：如果实施使用同一个值填充多个变量，则可以使用[动态变量](/help/implement/vars/page-vars/dynamic-variables.md)来缩短请求 URL：
 
    ```js
    s.eVar1 = "The quick brown fox jumps over the lazy dog";
@@ -106,4 +109,4 @@ s.pageName = "        Home Page";
    s.prop2 = "D=v1";
    ```
 
-* **使用分类**:如果产品或页面名称异常长，您可以使用标识值或代码，然后使用 [分类](/help/components/classifications/c-classifications.md) ，以显示更友好的名称。
+* **使用分类**：如果产品或页面名称异常长，则可以使用标识值或代码，然后使用[分类](/help/components/classifications/c-classifications.md)来显示更友好的名称。
