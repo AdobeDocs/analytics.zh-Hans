@@ -2,9 +2,9 @@
 description: 'null'
 title: 标签功能示例
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-translation-type: tm+mt
-source-git-commit: b3e8f77bfa7c48fc82e5ebd5bbe66511ea82c9f4
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '802'
 ht-degree: 100%
 
@@ -24,14 +24,14 @@ ht-degree: 100%
 | 标签 | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
 | **变量名称** <br> **(命名空间)** | **MyProp1** <br> **(用户)** | **Visitor ID** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
-| 命中数据 | Mary | 77 | A | M | X |
+| 命中数据 | Mary | 77 | 同类群组 | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
 |  | John | 77 | D | P | W |
 |  | John | 88 | E | N | U |
 |  | John | 44 | F | Q | V |
 |  | John | 55 | G | R | X |
-|  | Alice | 66 | A | N | Z |
+|  | Alice | 66 | 同类群组 | N | Z |
 
 ## 访问请求示例
 
@@ -59,14 +59,14 @@ ht-degree: 100%
 | AAID=77 expandIDs 值<br>没有影响 | AAID=77 expandIDs 值<br>没有影响 | AAID=77 expandIDs 值<br>没有影响 | AAID=77 expandIDs 值<br>没有影响 | AAID=77 expandIDs 值<br>没有影响 |
 |---|---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| Mary | 42 | A | Privacy-7398 | Privacy-9152 |
+| Mary | 42 | 同类群组 | Privacy-7398 | Privacy-9152 |
 | Mary | 88 | B | N | Y |
 | Mary | 99 | C | O | Z |
 | John | 42 | D | Privacy-1866 | Privacy-8216 |
 | John | 88 | E | N | U |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
-| Alice | 66 | A | N | W |
+| Alice | 66 | 同类群组 | N | W |
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ ht-degree: 100%
 | John | 88 | E | N | U |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
-| Alice | 66 | A | N | W |
+| Alice | 66 | 同类群组 | N | W |
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ ht-degree: 100%
 | John | 16 | E | Privacy-2911 | Privacy-2930 |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
-| Alice | 66 | A | N | W |
+| Alice | 66 | 同类群组 | N | W |
 
 请注意以下事项：
 
