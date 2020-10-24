@@ -1,8 +1,11 @@
 ---
 title: 哈希冲突
 description: 描述什么是哈希冲突以及它是如何体现的。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+workflow-type: ht
+source-wordcount: '443'
+ht-degree: 100%
 
 ---
 
