@@ -1,11 +1,11 @@
 ---
 title: 页面未找到
 description: 在您的网站上返回错误的 URL。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,6 +23,6 @@ ht-degree: 92%
 
 此维度从图像请求中的 [`pageType` 和 `g` 查询字符串](/help/implement/validate/query-parameters.md) 中检索数据。如果 `pageType` 查询字符串等于 `errorPage`，则会记录 `g` 查询字符串（页面 URL）。AppMeasurement 使用 [`pageType`](/help/implement/vars/page-vars/pagetype.md) 变量收集此数据。如果未定义 `pageType` 变量或将其设置为 `errorPage` 之外的任何其他变量，则不会收集此维度的数据。
 
-## Dimension项
+## 维度项目
 
-Dimension项包括站点上发生错误的页面的URL。
+维度项目包括网站上发生错误的页面的 URL。
