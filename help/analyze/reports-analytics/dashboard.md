@@ -43,11 +43,11 @@ ht-degree: 100%
 
 除了您创建的功能板以外，还包含以下预封装的功能板可供每个用户使用：
 
-**[!UICONTROL 组件]>[!UICONTROL 功能板]>[!UICONTROL 共享功能板]>[!UICONTROL 本地网站]**
+**[!UICONTROL 组件] > [!UICONTROL 功能板] > [!UICONTROL 共享功能板] > [!UICONTROL 本地网站]**
 
 此可自定义的功能板可将缩图报表拖放到提供的模板中。
 
-**[!UICONTROL 组件]>[!UICONTROL 功能板]>[!UICONTROL 共享功能板]>[!UICONTROL 网站操作功能板]**
+**[!UICONTROL 组件] > [!UICONTROL 功能板] > [!UICONTROL 共享功能板] > [!UICONTROL 网站操作功能板]**
 
 该功能板概述了与网站操作相关的关键量度。该功能板的报表包括：
 
