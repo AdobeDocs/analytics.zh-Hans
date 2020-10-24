@@ -1,11 +1,11 @@
 ---
 title: 跨设备分析常见问题解答
 description: 跨设备分析常见问题解答
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1301'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -27,41 +27,41 @@ ht-degree: 52%
 
 ## CDA 可为访客拼合多久之前的数据？
 
-Adobe 会将设备拼合数据保留约 30 天。如果某个设备最初未被识别，但随后在30天内被识别，CDA将返回并重新声明该设备属于已识别人，最长30天。 如果某个用户的某些未识别行为在 30 天的回顾窗口之外，则不会拼合用户历程的这一部分。
+Adobe 会将设备拼合数据保留约 30 天。如果某个设备最初没有被识别，但在随后 30 天内被识别，则 CDA 会回溯并重新声明该设备属于在过去 30 天内已识别的用户。如果某个用户的某些未识别行为在 30 天的回顾窗口之外，则不会拼合用户历程的这一部分。
 
-* **如果使用设备图**,Adobe将设备映射保留在合作图和专用图中大约6个月。 超过 6 个月无活动的 ECID 将从图表中删除。已在CDA中拼接的数据不受影响，但该ECID的后续点击会被视为新人。
+* **如果使用设备图**，Adobe 会将协作图和专用图中的设备映射保留大约 6 个月。超过 6 个月无活动的 ECID 将从图表中删除。在 CDA 中已拼合的数据不会受到影响，但该 ECID 的后续点击会被视为新用户的点击。
 
 ## CDA 如何处理带有时间戳的点击？
 
-Adobe 将带有时间戳的点击视为在时间戳时间（而不是 Adobe 收到点击时）收到的点击。超过1个月的时间戳点击从未被拼接过，因为它们超出Adobe用于拼接的范围。
+Adobe 将带有时间戳的点击视为在时间戳时间（而不是 Adobe 收到点击时）收到的点击。绝不会拼合时间戳超过 1 个月的点击，因为它们超出了 Adobe 进行拼合的时间范围。
 
 ## CDA 与自定义访客 ID 有何异同？
 
-Using a custom visitor ID is a legacy method to [connect users across devices](/help/implement/js/xdevice-visid/xdevice-connecting.md). 对于自定义访客 ID，您可以使用 [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 变量明确设置用于访客逻辑的 ID。`visitorID` 变量会覆盖任何存在的基于 Cookie 的 ID。
+使用自定义访客 ID 是[跨设备连接用户](/help/implement/js/xdevice-visid/xdevice-connecting.md)的一种传统方法。对于自定义访客 ID，您可以使用 [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 变量明确设置用于访客逻辑的 ID。`visitorID` 变量会覆盖任何存在的基于 Cookie 的 ID。
 
-自定义访客 ID 具有多个 CDA 可以消除或最大程度降低的不良副作用。For example, the custom visitor ID methodology has no [replay](replay.md) capabilities. 如果用户在访问过程中进行身份验证，则访问的前面部分与访问的后面部分会关联不同的访客 ID。单独的访客 ID 会导致访问和访客数夸大。CDA会重述历史数据，因此未列出的点击属于正确的人。
+自定义访客 ID 具有多个 CDA 可以消除或最大程度降低的不良副作用。例如，自定义访客 ID 方法没有[重播](replay.md)功能。如果用户在访问过程中进行身份验证，则访问的前面部分与访问的后面部分会关联不同的访客 ID。单独的访客 ID 会导致访问和访客数夸大。CDA 会重新声明历史数据，这样未经身份验证的点击就会属于正确的用户。
 
 ## 我是否可以从自定义访客 ID 升级到 CDA？
 
-已使用自定义访客ID的客户可以升级到CDA，而无需进行任何实施更改。 该 `visitorID` 变量仍用于源报表包。 但是，如果用户进 `visitorID` 行身份验证，CDA将忽略虚拟报告套件中的变量。
+已使用自定义访客 ID 的客户可以升级到 CDA，无需进行任何实施更改。源报表包中仍使用 `visitorID` 变量。但是，如果用户进行身份验证，CDA 将忽略虚拟报表包中的 `visitorID` 变量。
 
 ## 设备图如何处理共享设备？
 
 在某些情况下，可能有多个用户从同一设备登录。例如，在家中使用共享设备，在图书馆中使用共享 PC，或在零售商店中使用自助终端。
 
-* **如果使用设备图**，则处理共享设备的能力受到限制。 设备图使用算法确定“群集”的所有权，并且每次发布群集时都可以更改。 共享设备的用户受其所属的群集的约束。
-* **如果使用基于字段的拼接**，则您选择帮助识别登录用户的prop或eVar将覆盖其他标识符。 共享设备被视为单独的人员，即使它们来自同一设备。
+* **如果使用设备图**，则处理共享设备的功能会受到限制。设备图使用算法来确定“集群”的所有权，并且每次发布集群时都可能发生更改。共享设备的用户受其所属的集群的约束。
+* **如果使用基于字段的拼合**，则您选择的用于帮助识别已登录用户的 prop 或 eVar 将会覆盖其他标识符。共享设备被视为单独的用户，即使它们源自同一设备。
 
-## CDA如何处理单人拥有MANY设备/ECID的情况？
+## CDA 如何处理单个用户拥有许多设备/ECID 的情况？
 
 在某些情况下，单个用户可能会与许多 ECID 相关联。如果单个用户使用多个浏览器或应用程序，则会出现这种情况；如果他们经常清除 Cookie，或者使用浏览器的无痕或匿名浏览模式，则关联的 ECID 数量会更多。
 
-* **如果使用设备图**，则CDA将绑定到给定用户ID的ECID数上限为50。 如果用户ID与太多ECID关联，则设备图会假定用户ID无效，并删除与该用户ID关联的群集。 随后，用户ID将添加到阻止列表中，以防止将来将其添加到任何群集。 结果是报告不会在设备间拼接用户ID。
-* **如果使用基于字段的拼接**，则设备数量与您选择的prop/eVar无关，您选择该prop/eVar可帮助识别登录用户。 单个用户可以属于任意数量的设备，而不会影响CDA跨设备拼接的能力。
+* **如果使用设备图**，CDA 会将与给定用户 ID 关联的 ECID 数量限制为 50。如果用户 ID 与太多 ECID 关联，则设备图会假定用户 ID 无效，并移除与该用户 ID 关联的集群。然后，该用户 ID 会被添加到阻止列表中，以防未来将其添加到任何集群中。对报表的影响是无法跨设备拼合该用户 ID。
+* **如果使用基于字段的拼合**，则设备数量与您选择的用于帮助识别已登录用户的 prop/eVar 无关。单个用户可以属于任意数量的设备，而不会影响 CDA 跨设备拼合的功能。
 
-## CDA中的人员指标与CDA之外的唯一访客指标之间有何差异？
+## CDA 中的“人员”量度与 CDA 外的“独特访客”量度有何区别？
 
-The [People](/help/components/metrics/people.md) metric is similar to the [Unique Visitors](/help/components/metrics/unique-visitors.md) metric in that it reports on the number of unique individuals. 但是，在使用跨设备分析时，如果独特访客在 CDA 之外被记录为两个单独的独特访客时，则它们会被合并。启用跨设备分析后，“人员”量度将取代“独特访客”量度。
+由于[人员](/help/components/metrics/people.md)量度报告的是独特个人的数量，因此它与[独特访客](/help/components/metrics/unique-visitors.md)量度类似。但是，在使用跨设备分析时，如果独特访客在 CDA 之外被记录为两个单独的独特访客时，则它们会被合并。启用跨设备分析后，“人员”量度将取代“独特访客”量度。
 
 ## CDA 中的“独特设备”量度与 CDA 外的“独特访客”量度有何区别？
 
@@ -71,7 +71,7 @@ The [People](/help/components/metrics/people.md) metric is similar to the [Uniqu
 
 是的。Analysis Workspace 使用 2.0 API 从 Adobe 服务器请求数据，您可以查看 Adobe 用来为您生成报告的 API 调用：
 
-1. 登录Analysis Workspace时，转到“帮助” [!UICONTROL >“] 启 [!UICONTROL 用调试器]”。
+1. 登录 Analysis Workspace 后，转到“[!UICONTROL 帮助]”>“[!UICONTROL 启用调试器]”。
 2. 单击所需面板中的调试图标，然后选择所需的可视化和请求时间。
 3. 找到 JSON 请求，您可以在对 Adobe 的 API 调用中使用该请求。
 
@@ -81,15 +81,15 @@ The [People](/help/components/metrics/people.md) metric is similar to the [Uniqu
 
 ## CDA 使用的最终访客 ID 是什么？能否将其从 Adobe Analytics 中导出？
 
-* **如果使用设备图**，则基于其群集的自定义ID是主标识符。
-* **如果使用基于字段的拼接**，则基于您选择的prop/eVar的自定义ID是主要标识符。
+* **如果使用设备图**，则基于集群的自定义 ID 是主要标识符。
+* **如果使用基于字段的拼合**，则基于您选择的 prop/eVar 的自定义 ID 是主要标识符。
 
-这两个标识符由Adobe在运行报告时计算，也称 [为报告时处理](../vrs/vrs-report-time-processing.md)。 报告时处理的性质意味着它与AdobeData warehouse的优惠、数据源或其他导出功能不兼容。
+这两个标识符都由 Adobe 在运行报表时计算，也称为[报告时处理](../vrs/vrs-report-time-processing.md)。报告时处理的性质意味着，它与 Adobe 提供的 Data Warehouse、数据馈送或其他导出功能不兼容。
 
-## 我如何从设备图形移动到基于字段的拼接，反之亦然？
+## 我如何在设备图与基于字段的拼合之间切换？
 
-如果要切换CDA标识方法，请与贵组织的客户经理交谈。 客户经理可以按照所需的方法配置报表包以识别人员。 *来自先前方法的历史拼接数据丢失。*
+如果要切换 CDA 标识方法，请联系贵组织的客户经理。客户经理可以根据所需的方法配置报表包以识别人员。*切换后，来自先前方法的历史拼合数据会丢失。*
 
-## Adobe如何处理基于字段的拼接中使用的eVar的唯一限制？
+## Adobe 如何处理在基于字段的拼合中使用的 eVar 的唯一性限制？
 
-CDA会在对eVar维项目进行报告优化之前提取它们。 您不必为CDA的唯一限制而担心。 但是，如果您在Workspace项目中尝试使用该prop/eVar，您仍可 [以看到（低流量）](/help/technotes/low-traffic.md) 维项目。
+CDA 会先提取 eVar 维度项目，然后再对其进行优化以用于报表。对于 CDA，您不必担心唯一性限制。但是，如果您尝试在工作区项目中使用该 prop/eVar，您仍然可以看到[（低流量）](/help/technotes/low-traffic.md)维度项目。
