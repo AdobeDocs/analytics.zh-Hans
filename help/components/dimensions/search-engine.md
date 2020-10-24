@@ -1,11 +1,11 @@
 ---
 title: 搜索引擎
 description: 访客用来访问您的网站的搜索引擎。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '224'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,6 +27,6 @@ ht-degree: 91%
 
 此维度引用 Adobe 内部的多个查找表。每个值都基于点击的[反向链接](referrer.md)，具体取决于[内部 URL 过滤器](/help/admin/admin/internal-url-filter-admin.md)。确保正确配置反向链接维度和内部 URL 过滤器。
 
-## Dimension项
+## 维度项目
 
-Dimension项包括用于访问您的站点的搜索引擎。 示例值包括 `"Google"`、`"Microsoft Bing"` 和 `"DuckDuckGo"`。The `"Unspecified"` dimension item is all non-search traffic.
+维度项目包括用于访问您的网站的搜索引擎。示例值包括 `"Google"`、`"Microsoft Bing"` 和 `"DuckDuckGo"`。`"Unspecified"` 维度项目是指所有非搜索流量。
