@@ -1,11 +1,11 @@
 ---
 title: 页面逗留时间
 description: 访客在页面上所花费的时间。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -32,11 +32,11 @@ ht-degree: 92%
 
 此维度可开箱即用于所有实施。如果报表包包含数据，则此维度有效。
 
-## Dimension项
+## 维度项目
 
 页面逗留时间存在多个维度：
 
-* **页面逗留时间 - 分段统计**：分段统计的时间数。Dimension items range from `"Less than 15 seconds"` to `"More than 30 minutes"`. 页面查看之间的间隔时间通常不超过 30 分钟；但是，如果使用包含时间戳的点击或数据源，则页面查看之间的时间间隔可能会超过 30 分钟。
-* **页面停留时间——细粒度**:每个秒数是唯一的维度项。
+* **页面逗留时间 - 分段统计**：分段统计时间。维度项目介于 `"Less than 15 seconds"` 到 `"More than 30 minutes"` 之间。页面查看之间的间隔时间通常不超过 30 分钟；但是，如果使用包含时间戳的点击或数据源，则页面查看之间的时间间隔可能会超过 30 分钟。
+* **页面逗留时间 - 粒度**：每个秒数都是一个唯一的维度项目。
 
 有关逗留时间的更多常规信息，请参阅[逗留时间概述](../metrics/time-spent.md)。
