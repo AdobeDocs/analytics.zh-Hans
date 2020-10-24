@@ -1,8 +1,11 @@
 ---
 title: 为数字助理实施 Analytics
 description: 在数字助理（如 Amazon Alexa 或 Google Home）上实施 Adobe Analytics。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '1266'
+ht-degree: 100%
 
 ---
 
