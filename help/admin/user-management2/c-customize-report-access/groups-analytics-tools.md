@@ -6,7 +6,7 @@ title: 自定义 Analytics 工具权限
 topic: Admin tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
 workflow-type: ht
 source-wordcount: '673'
 ht-degree: 100%
@@ -53,7 +53,7 @@ ht-degree: 100%
 | [安全性](/help/admin/company/security-manager.md) | 授予通过“安全管理器”页面控制报表数据访问权限的权限。相关选项包括强密码、密码过期时间、IP 登录限制及电子邮件域限制。 |
 | 支持信息 | 授予访问“公司设置”中的“支持信息”的权限。 |
 | [Web 服务](/help/admin/company/web-services-admin.md) | 允许访问“管理工具”界面中的“Web 服务”页面（[!UICONTROL 公司设置] > [!UICONTROL Web 服务]）。<br>Web 服务 API 提供了一种通过编程访问 Adobe Analytics 服务的方式，让您可以复制和扩展通过用户界面提供的功能。 |
-| 单点登录（旧版） | 授予对管理工具中的单点登录页面的访问权限。<br>**注意：**Adobe Experience Cloud 中的单点登录是通过 Experience Cloud 与各个解决方案之间的[帐户关联](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/organizations.html)实现的。 |
+| 单点登录（旧版） | 授予对管理工具中的单点登录页面的访问权限。<br>**注意：** Adobe Experience Cloud 中的单点登录是通过 Experience Cloud 与各个解决方案之间的[帐户关联](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/organizations.html)实现的。 |
 | [待定操作](/help/admin/company/pending-actions-admin.md) | 授予在[!UICONTROL 公司设置]中管理待定操作的权限。 |
 | [品牌联合](/help/admin/company/co-branding-admin.md) | 授予对 Analytics 进行品牌联合的权限。 |
 | [首选项](/help/admin/admin/preferences-manager.md) | 授予访问[!UICONTROL 首选项管理器]的权限。 |
