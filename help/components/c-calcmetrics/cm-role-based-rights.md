@@ -2,8 +2,11 @@
 description: 计算量度权限在管理员级别的用户和非管理员用户之间有所不同。
 title: 计算量度：基于角色的权限
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: ht
+source-wordcount: '260'
+ht-degree: 100%
 
 ---
 
