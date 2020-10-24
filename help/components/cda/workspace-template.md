@@ -1,11 +1,11 @@
 ---
 title: CDA 工作区模板
-description: 在Analysis Workspace的CDA模板中描述每个字段。
-translation-type: tm+mt
+description: 描述 Analysis Workspace 内 CDA 模板中的每个字段。
+translation-type: ht
 source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '441'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
