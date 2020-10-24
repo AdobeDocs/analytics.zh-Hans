@@ -1,11 +1,11 @@
 ---
 title: 城市
 description: 点击源自的城市。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fdc77997c8aea07cc7db1d06c5c0c2cd2f2abbd9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 80%
 >
 >如果您的组织遵循严格的隐私法规，但[模糊处理 IP 地址](/help/admin/admin/general-acct-settings-admin.md)力度不够，则可以请求完全禁用地理位置数据。使用报表包 ID 联系客户关怀，并请求关闭报表包的“地理位置”。
 
-## Dimension项
+## 维度项目
 
-Dimension项目包括世界各地的城市。 示例值包括 `"New York (New York, United States)"`、`"Bangalore (Karnataka, India)"` 或 `"London (London, United Kingdom)"`。
+维度项目包括全世界的城市。示例值包括 `"New York (New York, United States)"`、`"Bangalore (Karnataka, India)"` 或 `"London (London, United Kingdom)"`。
 
-某些维度项目可 `"AOL"`能包括拨号互联网服务提供商。 此服务的订阅者根据其帐户号建立的国家／地区分配一个接入点。 AOL用户使用此接入点的IP地址。 由于此维度基于IP地址，因此使用接入点的地理位置而不是访客的实际位置。
+某些维度项目可能包括 `"AOL"`，它是一个拨号上网服务提供商。此服务的订阅者会根据其建立帐号的国家/地区来分配一个接入点。AOL 用户将使用此接入点的 IP 地址。由于此维度基于 IP 地址，因此会使用接入点的地理位置，而不是访客的实际位置。
 
 ## 报告位置与实际位置之间的差异
 
