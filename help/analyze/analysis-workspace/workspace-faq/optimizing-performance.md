@@ -3,10 +3,10 @@ description: 影响工作区性能和优化的因素
 title: Analysis Workspace绩效因素及优化
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 5d1046a4e24c21b33d804d1ec06c05e28e77a031
+source-git-commit: 89036b44ed0e8d300e9bbadb5be2f64ae3c5d284
 workflow-type: tm+mt
 source-wordcount: '2130'
-ht-degree: 24%
+ht-degree: 27%
 
 ---
 
@@ -14,10 +14,6 @@ ht-degree: 24%
 # Optimize [!UICONTROL Analysis Workspace performance]
 
 各种因素都会影响Analysis Workspace内某项目的绩效。 在您开始构建项目之前，必须了解这些参与者是什么，这样您才能以最佳方式规划和构建项目。 本页包括影响性能的一列表因素，您可以进行优化以确保在Analysis Workspace达到最佳性能。
-
->[!IMPORTANT]
->
->Analysis Workspace的“性能”页面为有限版本。 [了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html)
 
 ## [!UICONTROL “帮助] ”>“ [!UICONTROL 性能] ”在Analysis Workspace
 
@@ -40,7 +36,7 @@ ht-degree: 24%
 
 | 因子 | 定义 | 受 | 优化 |
 | --- | --- | --- | --- |
-| 连接至 Adobe | Adobe在性能页打开时发送10个测试调用。 这表示成功调用Adobe的百分比。 | 本地网络问题或Adobe问题将影响此因素。 | 检查status.adobe.com以验证是否存在任何已知服务问题。 然后，验证您的本地网络连接。 |
+| 与 Adobe 的连接 | Adobe在性能页打开时发送10个测试调用。 这表示成功调用Adobe的百分比。 | 本地网络问题或Adobe问题将影响此因素。 | 检查status.adobe.com以验证是否存在任何已知服务问题。 然后，验证您的本地网络连接。 |
 | Internet 带宽 | 仅适用于Google Chrome。 您的浏览器对您所在位置的带宽的估计。 准则为2.0MB/s。 | 您的本地网络连接将影响这一因素。 | 验证本地网络连接。 |
 | Internet 延迟 | Adobe在性能页打开时发送10个测试调用。 这表示每个请求进入Adobe并返回的平均时间。 更简单地说，它是衡量互联网在您所在地和Adobe之间的速度的指标。 准则小于1秒。 | 本地网络问题、许多打开的浏览器选项卡或Adobe问题将影响这一因素。 | 检查status.adobe.com以验证是否存在任何已知服务问题。 然后，验证您的本地网络连接并关闭未使用的浏览器选项卡。 |
 
@@ -61,13 +57,13 @@ ht-degree: 24%
 
 | 因子 | 定义 | 优化 |
 | --- | --- | --- |
-| 查询数量 | 向Adobe发出的检索项目中显示的查询（请求）总数。 查询包括表的排名请求、异常检测、稀疏线、左边栏中显示的组件等。 不包括折叠面板和可视化。 指南是100。 | 将数据分成若干个项目，以满足特定目的或利益相关方的群体，尽可能简化您的项目。 使用标记将项目组织到主题中， [使用直接链](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) 接创建内部目录，使利益相关方能够更轻松地找到所需内容。 |
+| 查询数量 | 向Adobe发出的检索项目中显示的查询（请求）总数。 查询包括表的排名请求、异常检测、稀疏线、左边栏中显示的组件等。 不包括折叠面板和可视化。 指南是100。 | 将数据分成若干个项目，以满足特定目的或利益相关方的群体，尽可能简化您的项目。 使用标记将项目组织到主题中， [使用直接链](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) 接创建内部目录，使利益相关方能够更轻松地找到所需内容。 |
 | 扩展的面板（总面板中） | 项目中面板总数中扩展面板的数量。 指南是5。 | 采取步骤简化项目后，折叠项目中不需要在加载时查看的面板。 打开项目时，只会处理扩展的面板。 折叠的面板在用户展开之前不会进行处理。 |
 | 扩展的可视化（在全部可视化中） | 项目中总数（包括隐藏数据源）中展开的表和可视化的数量。 指南是15。 | 在采取步骤简化您的项目后，折叠项目中不需要在加载时查看的可视化效果。 将报表消费者最重要的视觉元素排定优先级，并根据需要将支持的视觉元素划分为单独、更详细的面板或项目。 |
 | 自由格式表的单元格数量 | 项目中自由形式表单元格的总数，按所有表的行*列计算。 不包括隐藏的数据源。 指标是4000。 | 将表中的列数减少为仅最相关的数据点。 通过调整显示的行数、应用表过滤器或应用段来减少表中的行数。 |
-| 可用组件 | 项目左边栏中检索到的项目中所有报表包的组件总数。 指标是2000年。 | 与您的产品管理员讨论如何创建一个精选的虚拟报告套件，它包含一组更为定制的组件。 |
+| 可用组件 | 项目左边栏中检索到的项目中所有报表包的组件总数。 这将影响左边栏加载的速度以及返回搜索结果的速度。 指标是2000年。 | 与您的产品管理员讨论如何创建一个精选的虚拟报告套件，它包含一组更为定制的组件。 |
 | 已用的组件 | 项目中使用的组件总数。 指南是100。 | 已使用组件的数量不直接影响性能。 但是，这些组件的复杂性将有助于提高项目的效果。 请参阅下面“其他因素”部分的优化。 |
-| 最长的日期范围 | 此系数显示使用项目的最长日期范围。 准则是1年。 | 请尽量不要获取超过需求的数据。将面板日历缩小为分析的相关日期，或在自由格式表中使用日期范围组件（紫色组件）。 表中使用的日期范围将覆盖面板日期范围。 例如，您可以向表列添加上月、上周和昨天，以请求这些特定的数据范围。 有关在 Analysis Workspace 中使用日期范围的更多信息，请观看[此视频](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/date-ranges-and-calendar-in-analysis-workspace.html)。<br><br>此外，还可最大限度地减少项目中使用的逐年比较次数。 当计算一年比较时，它会在感兴趣的月份之间查看整整13个月的数据。 这与将面板日期范围更改为最近13个月具有相同的影响。 |
+| 最长的日期范围 | 此系数显示使用项目的最长日期范围。 准则是1年。 | 请尽量不要获取超过需求的数据。将面板日历缩小为分析的相关日期，或在自由格式表中使用日期范围组件（紫色组件）。 表中使用的日期范围将覆盖面板日期范围。例如，您可以将上月、上周和昨天添加到表列中，以请求这些特定范围的数据。有关在 Analysis Workspace 中使用日期范围的更多信息，请观看[此视频](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/date-ranges-and-calendar-in-analysis-workspace.html)。<br><br>此外，还可最大限度地减少项目中使用的逐年比较次数。 在计算年度同期比较时，它会查看感兴趣的月份之间整整 13 个月的数据。这与将面板日期范围更改为过去 13 个月具有相同的效果。 |
 
 ## 其他因素
 
