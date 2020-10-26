@@ -1,11 +1,11 @@
 ---
 title: trackingServer
 description: 确定发送图像请求的位置。
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '415'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d9fa9fa6afb6b76ae37a92c86d9ca21a9c3fb22e
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 91%
 
 ---
 
@@ -51,22 +51,22 @@ Adobe 通过接收访客生成的图像请求来收集您网站上的数据。`t
 s.trackingServer = "data.example.com";
 ```
 
-通常，CNAME 记录会已设置并指向 `sc.omtrdc.net`。该域 `2o7.net` 也是有效的 CNAME 目标，主要在 Adobe Analytics 的早期版本中使用。
-
 ### 第三方 Cookie
 
 >[!TIP]
 >
 >现代浏览器中增加的隐私权惯例使第三方 Cookie 变得不那么可靠。Adobe 建议遵循第一方 Cookie 工作流程。
 
-如果您使用第三方 Cookie 实施，则 `trackingServer` 的值是 `sc.omtrdc.net` 的子域。例如：
+如果您使用第三方 Cookie 实施，则 `trackingServer` 的值是 `data.adobedc.net` 的子域。例如：
 
 ```js
-s.trackingServer = "example.sc.omtrdc.net";
+s.trackingServer = "example.data.adobedc.net";
 ```
 
-选择贵组织独有而使用 Adobe Analytics 的其他组织不太可能选择的子域。确保贵组织中的所有实施都使用相同的跟踪服务器。在[解决方案设计文档](../../prepare/solution-design.md)中维护此信息可能会有所帮助。
+选择贵组织独有而使用 Adobe Analytics 的其他组织不太可能选择的子域。建议将访客命名空间分配给您的组织。  确保贵组织中的所有实施都使用相同的跟踪服务器。在[解决方案设计文档](../../prepare/solution-design.md)中维护此信息可能会有所帮助。
+
+您的组织可能已在或域中使用第三方跟踪服 `sc.omtrdc.net` 务器 `2o7.net` 。  这些主要用于Adobe Analytics的先前版本，仍然有效。
 
 >[!NOTE]
 >
->请勿使用比 `example.sc.omtrdc.net` 更深的子域。例如，`custom.example.sc.omtrdc.net` 不是有效的跟踪服务器。
+>请勿使用比 `example.data.adobedc.net` 更深的子域。例如，`custom.example.data.adobedc.net` 不是有效的跟踪服务器。
