@@ -1,11 +1,11 @@
 ---
 title: 跨设备分析常见问题解答
 description: 跨设备分析常见问题解答
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a46b68c7e4ea82b31ed400bf3e6180a7358bb3b5
+workflow-type: tm+mt
 source-wordcount: '1301'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -75,7 +75,7 @@ Adobe 将带有时间戳的点击视为在时间戳时间（而不是 Adobe 收�
 2. 单击所需面板中的调试图标，然后选择所需的可视化和请求时间。
 3. 找到 JSON 请求，您可以在对 Adobe 的 API 调用中使用该请求。
 
-## 跨设备分析可以将独特访客拼合在一起。它能将访问拼合在一起吗？
+## 跨设备分析可以将独特访客拼合在一起。它能把访问整合在一起吗？
 
 是的。如果某个人在虚拟报表包的访问超时（默认为 30 分钟）时间内从两个单独的设备发送点击，则这些点击将被拼合到同一访问中。
 
