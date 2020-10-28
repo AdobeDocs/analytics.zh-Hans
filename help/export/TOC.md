@@ -5,10 +5,10 @@ user-guide-title: Analytics 导出指南
 breadcrumb-title: 导出指南
 user-guide-description: 使用数据馈送接收原始数据的每小时或每天的导出。使用 Data warehouse 检索数据的电子表格输出。
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 6ff39a73a6e0bcbfb38d2e7264e48191af97f12d
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 94%
+source-wordcount: '283'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 94%
       + [计算量度](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [数据列引用](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [页面事件查找](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
-      + [移动属性查找](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
+      + [移动设备属性查找](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
       + [特殊字符](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [迟到的点击量](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [数据馈送常见问题解答](analytics-data-feed/df-faq.md)
@@ -37,13 +37,12 @@ ht-degree: 94%
    + [Data Warehouse 概述](data-warehouse/data-warehouse.md)
    + [添加 Data Warehouse 用户群组](data-warehouse/t-dw-group.md)
    + [创建 Data Warehouse 请求](data-warehouse/t-dw-create-request.md)
-   + [请求投放时间](data-warehouse/delivery-time.md)
+   + [请求发送时间](data-warehouse/delivery-time.md)
    + [表格数据文件](data-warehouse/t-tableau.md)
    + [按量度排序](data-warehouse/sorting-by-metric.md)
    + [计划周期性请求](data-warehouse/dw-schedule-recurring.md)
    + [管理 Data Warehouse 请求](data-warehouse/data-warehouse-requests-manage.md)
    + [Data Warehouse 中支持的组件](data-warehouse/component-support.md)
-   + [维度与 Data Warehouse 区段不兼容](data-warehouse/dw-dimensions-incompatible-dwsegments.md)
    + [data warehouse常见问题解答](data-warehouse/faq.md)
    + [Data Warehouse 最佳实践](data-warehouse/data-warehouse-bp.md)
 + FTP 和 SFTP {#ftp-and-sftp}
@@ -70,6 +69,6 @@ ht-degree: 94%
       + [通过 SFTP 将 Adobe 数据发送到外部 FTP 帐户](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [将 Data Warehouse 请求发送到 SFTP 服务器](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [在无密码的情况下通过 SFTP 连接到 Adobe](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [Analysis Workspace下载](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/download-send.html)
++ [Analysis Workspace 下载](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/download-send.html)
 + [Adobe Analytics API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
 + [Report Builder](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/report-builder/home.html)
