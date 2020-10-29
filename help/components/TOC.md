@@ -5,10 +5,10 @@ user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算指标、虚拟报告套件和警报等组件帮助整理数据。
 translation-type: tm+mt
-source-git-commit: c337f43e13849e5162c3447962f30cff822ad74d
+source-git-commit: 7d102d7625e61de962836e866f0863168abcbaa6
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 95%
+source-wordcount: '643'
+ht-degree: 97%
 
 ---
 
@@ -60,6 +60,7 @@ ht-degree: 95%
    + [最近联系渠道](dimensions/last-touch-channel.md)
    + [最近联系渠道详细信息](dimensions/last-touch-detail.md)
    + [营销渠道](dimensions/marketing-channel.md)
+   + [营销渠道详细信息](dimensions/marketing-detail.md)
    + [分钟](dimensions/minute.md)
    + [移动设备维度](dimensions/mobile-dimensions.md)
    + [监视器分辨率](dimensions/monitor-resolution.md)
@@ -209,10 +210,10 @@ ht-degree: 95%
       + [查看虚拟报表包信息](vrs/c-workflow-vrs/vrs-view.md)
 + 跨设备分析 {#cda}
    + [跨设备分析概述](cda/overview.md)
-   + [基于场的拼接](cda/field-based-stitching.md)
+   + [基于字段的拼合](cda/field-based-stitching.md)
    + [设备图](cda/device-graph.md)
    + [设置跨设备分析](cda/setup.md)
-   + [重放的工作方式](cda/replay.md)
+   + [重播的工作原理](cda/replay.md)
    + [CDA 工作区模板](cda/workspace-template.md)
    + [将VRS限制为特定日期](cda/limit-vrs-date.md)
    + [跨设备分析常见问题解答](cda/faq.md)
@@ -223,7 +224,7 @@ ht-degree: 95%
    + [智能警报 - 用例](c-alerts/alerts-use-cases.md)
 + 分类 {#classifications}
    + [分类概述](classifications/c-classifications.md)
-   + Classifications importer {#classifications-importer}
+   + 分类导入器 {#classifications-importer}
       + [分类导入器 - 概述](classifications/importer/c-working-with-saint.md)
       + [分类数据文件](classifications/importer/c-saint-data-files.md)
       + [删除分类数据](classifications/importer/t-delete-classification-data.md)
