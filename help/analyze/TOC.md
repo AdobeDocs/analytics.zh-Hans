@@ -5,9 +5,9 @@ user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 为 Analysis Workspace（Analytics 的主要分析和可视化工具）以及 Report Builder 和 Activity Map 等工具提供操作说明。
 translation-type: tm+mt
-source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
+source-git-commit: 6b191170130018fd9c3555f4470962c702e52cd7
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1114'
 ht-degree: 97%
 
 ---
@@ -123,6 +123,7 @@ ht-degree: 97%
    + 工作区常见问题解答 {#workspace-faq}
       + [常见问题解答](analysis-workspace/workspace-faq/faq.md)
       + [优化 Analysis Workspace 性能](analysis-workspace/workspace-faq/optimizing-performance.md)
+      + [错误消息](analysis-workspace/workspace-faq/error-messages.md)
       + [Analysis Workspace 与 Ad Hoc Analysis 的比较](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
       + [Analysis Workspace 限制](analysis-workspace/workspace-faq/aw-limitations.md)
       + [管理要求](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
@@ -238,7 +239,7 @@ ht-degree: 97%
       + [最佳实践](report-builder/c-publish-power-bi/bi-best-practices.md)
       + [Power BI 集成疑难解答](report-builder/c-publish-power-bi/troubleshooting.md)
       + [适用于 Power BI 的 Adobe Analytics 内容包](report-builder/c-publish-power-bi/integration-power-bi.md)
-   + [Visual Basic宏](report-builder/vba.md)
+   + [Visual Basic 宏](report-builder/vba.md)
    + [Report Builder疑难解答](report-builder/troubleshoot.md)
    + [Report Builder常见问题解答](report-builder/faq.md)
 + Activity Map {#activity-map}
