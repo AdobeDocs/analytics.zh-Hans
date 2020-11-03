@@ -1,16 +1,16 @@
 ---
-title: 工作区中的多个报表包
+title: 多个报表包
 description: 了解如何在工作区中使用多个报表包来创建项目以及为什么创建项目
-translation-type: ht
-source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
-workflow-type: ht
-source-wordcount: '527'
+translation-type: tm+mt
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+workflow-type: tm+mt
+source-wordcount: '523'
 ht-degree: 100%
 
 ---
 
 
-# 工作区中的多个报表包
+# 多个报表包
 
 您现在可以在 Analysis Workspace 中使用多个报表包的数据创建项目。现在可以在面板级别选择报表包，因此您可以在同一工作区项目中为每个面板选择不同的报表包。
 
