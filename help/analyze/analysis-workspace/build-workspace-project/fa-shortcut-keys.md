@@ -1,21 +1,19 @@
 ---
 description: 在 Analysis Workspace 中，可使用键盘交互、快捷键以及点击行为。
 keywords: Analysis Workspace
-title: Analysis Workspace提供的热键（快捷键）
-topic: Reports and analytics
-uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
+title: 热键（快捷键）
 translation-type: tm+mt
-source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 54%
+source-wordcount: '282'
+ht-degree: 74%
 
 ---
 
 
-# Analysis Workspace提供的热键（快捷键）
+# 热键（快捷键）
 
-Analysis Workspace提供热键（键盘快捷键），实现无缝导航、分析和民主化。
+Analysis Workspace提供热键（键盘快捷键），实现无缝导航、分析、添加面板和可视化以及民主化（共享）。
 
 注释：
 * `Ctrl` = Windows和 `Command` = Mac
@@ -30,16 +28,16 @@ Analysis Workspace提供热键（键盘快捷键），实现无缝导航、分�
 | 转到“面板”窗格 | Alt + Shift + 1 |
 | 转到“可视化”窗格 | Alt + Shift + 2 |
 | 转到“组件”窗格 | Alt + Shift + 3 |
-| 折叠／展开所有面板 | alt + m |
-| 折叠／展开活动面板 | alt + ctrl + m |
-| 移到下一个面板 | alt +右键 |
-| 移到上一个面板 | alt +左键 |
+| 折叠/展开所有面板 | Alt + m |
+| 折叠/展开活动面板 | Alt + Ctrl + m |
+| 移到下一个面板 | Alt + 向右键 |
+| 移到上一个面板 | Alt + 向左键 |
 
 ## 分析操作
 
 | 操作 | 快捷键 |
 | --- | --- |
-| 搜索左边栏 | ctrl + / |
+| 搜索左边栏 | Ctrl + / |
 | 创建警报 | ctrl + shift + a |
 | 创建计算量度 | ctrl + shift + c |
 | 创建日期范围 | ctrl + shift + d |
@@ -52,22 +50,22 @@ Analysis Workspace提供热键（键盘快捷键），实现无缝导航、分�
 | 刷新项目 | Alt + r |
 | 设置为登录页面 | ctrl + shift + l |
 
-## 添加面板和可视化操作
+## 添加面板和可视化图表操作
 
 | 操作 | 快捷键 |
 | ---|---|
-| 针对目标面板的新分析 | alt + g |
+| 新建 Analytics for Target 面板 | Alt + g |
 | 新建归因面板 | Alt + e |
 | 新建空白面板 | Alt + b |
 | 新建自由格式面板 | Alt + a |
-| 新增的“媒体并发查看者”面板 | alt + h |
-| 新的快速洞察面板 | alt + f |
+| 新增的“媒体并发查看者”面板 | Alt + h |
+| 新建快速分析面板 | Alt + f |
 | 新建区段比较面板 | Alt + c |
 | 新建自由格式表 | Alt + 1 |
 | 新建折线图 | Alt + 2 |
 | 新建条形图 | Alt + 3 |
 
-## 民主化行动
+## 大众化操作
 
 | 操作 | 快捷键 |
 | --- | --- |
