@@ -3,10 +3,10 @@ description: Analysis Workspace 的新增功能
 keywords: Analysis Workspace
 title: Analysis Workspace 中的新增功能
 translation-type: tm+mt
-source-git-commit: 19c5713e7ddedd943746534878200b1339f217a2
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
-source-wordcount: '8103'
-ht-degree: 96%
+source-wordcount: '8106'
+ht-degree: 98%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 96%
 
 | 功能 | 描述 |
 | --- | --- |
-| Line visualization: [Moving average trendline option](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/line.html) | **[!UICONTROL 移动平均值已添加到折线图可视化图表趋势线设置。]**&#x200B;移动平均值也称为滚动平均值，它使用特定数量的数据点（由&#x200B;**[!UICONTROL 周期]**&#x200B;选择确定)，对其求平均值，并将平均值用作折线中的点。 |
-| [性能帮助页面](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | Analysis Workspace 绩效帮助页面显示影响项目绩效的不同因素以及优化提示的链接。 |
+| Line visualization: [Moving average trendline option](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/line.html) | ****&#x200B;移动平均值已添加到折线图可视化图表的趋势线设置。移动平均值也称为滚动平均值，它使用特定数量的数据点（由&#x200B;**[!UICONTROL 周期]**&#x200B;选择确定)，对其求平均值，并将平均值用作折线中的点。 |
+| [性能帮助页面](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | Analysis Workspace 性能帮助页面显示影响项目性能的不同因素，并提供有关性能优化提示的链接。 |
 
 ## 2020 年 9 月
 
@@ -38,13 +38,13 @@ ht-degree: 96%
 
 2020年8月未发布新功能。
 
-## 7 月 2020 日
+## 2020 年 7 月
 
-2020年7月16日发布的新增功能。
+2020 年 7 月 16 日发布的新功能。
 
 | 功能 | 描述 |
 | --- | --- |
-| 新日期范围预设 | 新增了4个日期范围：([!UICONTROL 本周／月/季度／年（不包括今天）])。 这允许您从不包含今天部分日期数据的日期范围中进行选择。 |
+| 新的日期范围预设 | 添加了 4 个新的日期范围：（[!UICONTROL 本周/月/季度/年（不包括今天）]）。这允许您从不包括今天的部分日期数据的日期范围中进行选择。 |
 
 ## 2020 年 6 月
 
@@ -53,18 +53,18 @@ ht-degree: 96%
 | 功能 | 描述 |
 |--- |--- |
 | 归因 IQ：算法归因 | Analysis Workspace 中的“算法归因”模型可使用统计技术动态确定所选量度的最佳点数分配方式。适用于 Adobe Analytics Ultimate 客户。[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
-| 归因 IQ：自定义回顾时间范围 | 现在，您可以将“归因 IQ”中的任意归因模型配置为最多包含在报告期开始前的 90 天内的接触点。通过计算在之前月份发生的交互，通常可以提高在报告期初期所发生事件的归因准确性。适用于 Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete 和 Ultimate 客户。[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
+| 归因 IQ：自定义回顾时间范围 | 现在，您可以将“归因 IQ”中的任意归因模型配置为最多包含在报告期开始前的 90 天内的接触点。通过计算在之前月份发生的交互，通常可以提高在报告期初期所发生事件的归因准确性。适用于 Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete 和 Ultimate 客户。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
 | 共享工作区项目中的项目角色 | 现在，在共享工作区项目时，您可以根据希望收件人获得的项目体验为收件人分配以下三个项目角色中的一个角色：“编辑”、“复制”和“查看”。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 仅查看的工作区项目 | 可以将工作区项目仅以“可以查看”的形式共享给用户。当具有“查看”角色的收件人打开共享项目时，他们将获得比较受限的项目体验，因为项目无左边栏而且可进行的交互也有限。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
 | 能够共同编辑工作区项目 | 添加到“可以编辑”角色的收件人可以保存已共享给他们的项目。这同时适用于管理员和非管理员用户。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 更新的空白面板 | 空白面板现在包括面板和可视化功能，为您提供了一种更无缝的方式来选择最适合您的分析工作流程。 |
-| “快速洞察”面板（2020年6月25日） | 快速分析可为 Analysis Workspace 的非分析师和新用户了解如何快速轻松地回答业务问题提供指导。[了解更多...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
+| 更新了空白面板 | 现在，空白面板中包含一些面板和可视化图表，使您能够更加顺畅地选择最适合自己的分析工作流程。 |
+| “快速分析”面板（2020 年 6 月 25 日） | 快速分析可为 Analysis Workspace 的非分析师和新用户了解如何快速轻松地回答业务问题提供指导。[了解更多...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | 工作区中的 Analytics for Target 面板 (2020 年 6 月 25 日) | 借助“Analytics for Target”(A4T) 面板，您可以满怀信心地在 Analysis Workspace 中分析 Adobe Target 活动和体验。[了解更多...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
 | 关于 Workspace 页面 | 关于 Workspace 页面提供了有关您的 Analysis Workspace 环境、Adobe Analytics 管理员（如果您需要支持）的信息，以及提交产品反馈的方法。可按照以下路径找到该页面：Workspace > 帮助 > 关于 Workspace。 |
 
 ## 2020 年 5 月
 
-2020年5月21日发布的新增功能。
+2020 年 5 月 21 日发布的新功能。
 
 | 功能 | 描述 |
 |--- |--- |
@@ -95,7 +95,7 @@ ht-degree: 96%
 | 功能 | 描述 |
 |--- |--- |
 | 适用于使用跨设备分析的组织的新工作区模板 | 此模板显示 CDA 在拼合访问次数方面的有效性，并且还指导您了解 CDA 独有的维度和量度知识。需要使用 CDA 的报表包。有关更多信息，请参阅[设置跨设备分析](https://docs.adobe.com/content/help/zh-Hans/analytics/components/cda/cda-setup.html)。 |
-| 工作区中的新热键 | <ul><li>折叠/展开所有面板：`alt + m`</li><li>折叠/展开活动面板：`alt + ctrl + m`</li><li>搜索左边栏: `ctrl + /`</li><li>移到下一个面板：`alt + Right Key`</li><li>移到上一个面板：`alt + Left Key`</li></ul>[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| 工作区中的新热键 | <ul><li>折叠/展开所有面板：`alt + m`</li><li>折叠/展开活动面板: `alt + ctrl + m`</li><li>搜索左边栏: `ctrl + /`</li><li>移到下一个面板: `alt + Right Key`</li><li>移到上一个面板: `alt + Left Key`</li></ul>[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | 其他工作区增强功能 | <ul><li>将面板或可视化图表放入工作区后，左边栏会自动切换到组件，以实现更加无缝的工作流程。</li><li>现在可以对模板组件进行操作（例如，标记、标记为收藏、已批准）。</li><li>过滤的量度和区段列表提供了 + 按钮，可在找不到所需内容时添加新组件。</li></ul> |
 | 工作区调试器 | 工作区调试器已添加到“帮助”菜单，可让您根据调试工作区请求更加无缝地启用调试器。[了解更多...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
@@ -105,7 +105,7 @@ ht-degree: 96%
 
 | 功能 | 描述 |
 |--- |--- |
-| [自由格式表生成器](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | 启用表生成器后，您可以通过拖放多个维度、细分、量度和区段来构建可解答更复杂业务问题的表。数据不会立即更新，相反，单击&#x200B;**[!UICONTROL 生成]**&#x200B;后才会进行更新，这样可在您知道自己要构建什么表的情况下节省您的时间。此外，此功能还提供：<ul><li>**预览**：您可以先预览表的格式，然后再花费时间渲染实际数据。</li><li>**灵活的行和划分设置**：您可以为每个维度行设置行级别和划分级别。以前，工作区施加了一些默认值，这些默认值在返回数据之前无法更改。</li><li>**按状态划分**：您可以将维度行设置为始终&#x200B;_按状态划分_&#x200B;而不是&#x200B;_按特定项目_（默认值）划分。</li><li>**手动静态行排序**：您可以手动对静态行进行排序，以使表行完全按照您的需要显示。以前，静态行只能按度量列或按字母顺序排序。</li></ul> |
+| [自由格式表生成器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) | 启用表生成器后，您可以通过拖放多个维度、细分、量度和区段来构建可解答更复杂业务问题的表。数据不会立即更新，相反，单击&#x200B;**[!UICONTROL 生成]**&#x200B;后才会进行更新，这样可在您知道自己要构建什么表的情况下节省您的时间。此外，此功能还提供：<ul><li>**预览**：您可以先预览表的格式，然后再花费时间渲染实际数据。</li><li>**灵活的行和划分设置**：您可以为每个维度行设置行级别和划分级别。以前，工作区施加了一些默认值，这些默认值在返回数据之前无法更改。</li><li>**按状态划分**：您可以将维度行设置为始终&#x200B;_按状态划分_&#x200B;而不是&#x200B;_按特定项目_（默认值）划分。</li><li>**手动静态行排序**：您可以手动对静态行进行排序，以使表行完全按照您的需要显示。以前，静态行只能按度量列或按字母顺序排序。</li></ul> |
 
 ## 2019 年 10 月
 
@@ -113,7 +113,7 @@ ht-degree: 96%
 
 | 增强功能 | 描述 |
 |--- |--- |
-| 更新了自由格式表总计 | 现在，自由格式表包含两项总数统计：**[!UICONTROL 表格总计]**&#x200B;和&#x200B;**[!UICONTROL 全部总计]**。表格总计行会将已应用的[报表过滤器](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)计入在内。以前，只有区段会影响总数的计算。[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>，此外，**[!UICONTROL ￼显示总数]**&#x200B;和&#x200B;**[!UICONTROL 显示总计]**&#x200B;选项已添加到&#x200B;**[!UICONTROL 列设置]**&#x200B;中。<br/>鉴于自由格式表的这项变化，与之相关的可视化图表（例如关联的&#x200B;**[!UICONTROL 概要数字]**&#x200B;可视化图表）也将进行相应的更新，导出的 CSV 和 PDF 数据同样也会更新。 |
+| 更新了自由格式表总计 | 现在，自由格式表包含两项总数统计：**[!UICONTROL 表格总计]**&#x200B;和&#x200B;**[!UICONTROL 全部总计]**。表格总计行会将已应用的[报表过滤器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html)计入在内。以前，只有区段会影响总数的计算。[了解更多](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)<br/>，此外，**[!UICONTROL ￼显示总数]**&#x200B;和&#x200B;**[!UICONTROL 显示总计]**&#x200B;选项已添加到&#x200B;**[!UICONTROL 列设置]**&#x200B;中。<br/>鉴于自由格式表的这项变化，与之相关的可视化图表（例如关联的&#x200B;**[!UICONTROL 概要数字]**&#x200B;可视化图表）也将进行相应的更新，导出的 CSV 和 PDF 数据同样也会更新。 |
 | 用于删除“未指定/无”的选项 | 一个可以轻松删除“未指定（无）”的选项已经添加到报表过滤器。 |
 | 弃用紫色粒度组件 | 已弃用紫色的时间粒度组件（分钟、小时、日、周、月、季度、年）。紫色时间组件与对应的橙色维度组件的功能是一样的，因此这项更改将简化这方面的使用体验。即使之前使用了某个紫色时间组件，您也&#x200B;**无需执行任何操作**。<br/>此外，根据这项变化，紫色的&#x200B;**[!UICONTROL 时间]**&#x200B;部分已重命名为&#x200B;**[!UICONTROL 日期范围]**。 |
 
@@ -366,12 +366,12 @@ ht-degree: 96%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  >默认启用“标题文本换行”</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  >默认启用“标题文本换行”</a> </p> </td> 
    <td colname="col2"> <p>默认情况下，将为自由格式表启用列设置<span class="uicontrol">标题文本换行</span>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > 新的行设置 </a> </p> </td> 
-   <td colname="col2"> <p>新的<span class="uicontrol">按行计算百分比</span>设置强制自由格式表计算整行中的单元格百分比，而不是沿列向下计算。这对于趋势百分比特别有用，例如趋势显示一个维度项目在一段时间内与其余项目的趋势。 在单击<span class="uicontrol">可视化</span>图标时，默认情况下会开启该设置。 </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md"  > 新的行设置 </a> </p> </td> 
+   <td colname="col2"> <p>新的<span class="uicontrol">按行计算百分比</span>设置强制自由格式表计算整行中的单元格百分比，而不是沿列向下计算。这对显示百分比趋势特别有用，例如显示一个维度项目与其余维度项目在一段时间内的对比趋势。在单击<span class="uicontrol">可视化</span>图标时，默认情况下会开启该设置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  >“100% 堆叠”可视化图表设置</a> </p> </td> 
@@ -397,7 +397,7 @@ ht-degree: 96%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > 标题文本换行 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > 标题文本换行 </a> </p> </td> 
    <td colname="col2"> <p>现在，您可以隐藏自由格式表中的标头文本，以使标头更加易读，表格更易共享。我们已在“列”设置中添加了一个名为“标题文本换行”的选项。这对 .pdf 渲染和名称较长的量度尤其有用。 </p> </td> 
   </tr> 
   <tr> 
@@ -453,11 +453,11 @@ ht-degree: 96%
    <td colname="col2"> <p>我们增加了一个右键单击“复制到剪贴板”选项，利用该选项可以持续复制单元格/表格。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  >对列中的百分比做出了改进</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  >对列中的百分比做出了改进</a> </p> </td> 
    <td colname="col2"> <p>以前，列中显示的“总数百分比”最多只能达到 100%，即使在某些情况下行中的数值（如平均数）占总数的百分比超过了 100% 也是如此。 </p> <p>现在，我们可以显示大于 100% 的百分比，准确度提高了。此外，我们还将上限调整为 1,000%，以确保允许列值有充足的变化范围。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > 在各种划分中启用了条件格式 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > 在各种划分中启用了条件格式 </a> </p> </td> 
    <td colname="col2"> <p>现在，除非选择了“自定义”限制，否则对于各种划分，将在自由格式表格中自动应用条件格式（颜色等）。 </p> </td> 
   </tr> 
   <tr> 
@@ -484,7 +484,7 @@ ht-degree: 96%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>自由格式表格中增加了更多的维度项目<a href="/help/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.md"  >过滤选项</a> </p> </td> 
+   <td colname="col1"> <p>自由格式表格中增加了更多的维度项目<a href="/help/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md"  >过滤选项</a> </p> </td> 
    <td colname="col2"> <p>已经为维度项目增加了以下（高级）过滤选项（除了现有的“包含”和“不包含”选项之外）： </p> 
     <ul id="ul_869B3E943E304C0282D56AD96BB79E18"> 
      <li id="li_81A49BA0CA3041C7AB892FAD2D129E5A">包含所有词语 </li> 
@@ -515,7 +515,7 @@ ht-degree: 96%
    <td colname="col2"> <p>在调整最左侧列的大小时，工作区现在会保持其余列的宽度百分比（而不只是调整右侧的下一列宽度）。这种改变有助于更加快速地创建表格以进行分析和共享。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>可在表格中显示 <a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  >400 行</a>内容 </p> </td> 
+   <td colname="col1"> <p>可在表格中显示 <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md"  >400 行</a>内容 </p> </td> 
    <td colname="col2"> <p>现在，您可以在表格中显示 400 行（比之前增多了 200 行），从而可在表格中囊括 365 天的趋势。 </p> </td> 
   </tr> 
   <tr> 
@@ -540,7 +540,7 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td colname="col1"> <p>对“无”/“未指定”进行了更改 </p> </td> 
-   <td colname="col2"> <p>更改了“无／未指定”在Analysis Workspace的工作方式，以便与Analysis Workspace的“报告和分析”、“区段生成器”和“维度项目”菜单保持一致。 </p> <p>这意味着在 Analysis Workspace 的大多数项目中，值将显示为“未指定”而非“无”。 </p> </td> 
+   <td colname="col2"> <p>对 Analysis Workspace 中“无”/“未指定”的工作方式进行了更改，使其与 Reports &amp; Analytics、区段生成器以及 Analysis Workspace 中的维度项目菜单保持一致。 </p> <p>这意味着在 Analysis Workspace 的大多数项目中，值将显示为“未指定”而非“无”。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -655,7 +655,7 @@ ht-degree: 96%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > 在自由格式表中一次管理多个列 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > 在自由格式表中一次管理多个列 </a> </p> </td> 
    <td colname="col2"> <p>您现在可一次更改多个列中的设置，只需选择多个列并单击其中任意一列的设置图标。您所做的任何更改将应用于有单元格被选中的所有列。 </p> </td> 
   </tr> 
   <tr> 
@@ -814,7 +814,7 @@ ht-degree: 96%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  >“使用百分比限制”复选框</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  >“使用百分比限制”复选框</a></b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_7B6B794EDF874A4D87770AB9BAB42F33"> 
      <li id="li_0B403D892320434FBAD9A7F7B808947C"> 添加了一个复选框来表示百分比截止值，尤其是面向基于百分比的量度（也适用于非百分比量度）。 </li> 
@@ -866,7 +866,7 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td colname="col1"> <p>“撤消/重做”选项的改进 </p> </td> 
-   <td colname="col2"> <p>这些列表显示了您可以和不能<a href="/help/analyze/analysis-workspace/build-workspace-project/undo-redo.md"  >在 Analysis Workspace 中撤消/重做</a>的事项。 </p> </td> 
+   <td colname="col2"> <p>这些列表显示了您可以和不能在 Analysis Workspace 中撤消/重做</a>的事项。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -884,7 +884,7 @@ ht-degree: 96%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > 按位置划分 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md"  > 按位置划分 </a> </p> </td> 
    <td colname="col2"> <p>允许按表位置划分。示例：“我始终希望划分自由格式表中的头 7 行。”在创建允许您启用“按位置划分”的自由格式表时，现在会提供一个复选框。此设置默认处于禁用状态。 </p> <p>以前，划分中的值列表会被“锁定”。这会导致这样一种情况，例如，如果您按<span class="wintitle">页面</span>划分<span class="wintitle">日期</span>，则会得到您选定日期范围内头 50 页的列表。 </p> <p>如果您保存了该报表然后在一个月后运行它，则头 50 页很可能已发生更改。然而，Analysis Workspace“信任”来自原始划分的结果并返回相同页面，但将当前月份作为日期范围。 </p> </td> 
   </tr> 
  </tbody> 
@@ -1037,7 +1037,7 @@ ht-degree: 96%
 * 新的[维恩图可视化图表类型](/help/analyze/analysis-workspace/visualizations/venn.md)允许您最多拖入 3 个区段和一个量度以构建维恩图。
 * 排名表格中的[趋势选择](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)（折线图）现在已经关联。
 * [“创建可视化”图标](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)：单击此图标可在执行下一步操作（条形图、维恩图...）时提供智能推测。
-* 扩展了[手动行](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)功能
+* 扩展了[手动行](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)功能
 * [添加区段](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)拖放区域
 * 次要更新：
 
