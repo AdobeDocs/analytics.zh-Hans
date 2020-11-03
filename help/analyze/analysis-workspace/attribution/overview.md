@@ -1,9 +1,9 @@
 ---
 title: 归因概述
 description: 将成功事件的点数归因到多个维度项目的概念。
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 100%
 
@@ -41,6 +41,6 @@ Adobe Analytics 通过让您能够执行以下操作来增强归因：
 归因 IQ 包括以下功能：
 
 * [归因面板](../c-panels/attribution.md)：获取任何维度和量度，并快速将其与不同的归因模型进行比较。
-* [将归因应用于度量](../build-workspace-project/column-row-settings/column-settings.md)：对项目中的任何量度使用非默认归因。
+* [将归因应用于度量](../visualizations/freeform-table/column-row-settings/column-settings.md)：对项目中的任何量度使用非默认归因。
 * [将归因应用于细分](../components/dimensions/t-breakdown-fa.md)：对细分使用非默认归因。
 * [比较归因模型](../components/apply-create-metrics.md)：快速了解任何量度的不同归因模型的异同。
