@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
 source-wordcount: '987'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 7%
 
 对于项目下载，请牢记：
 
-* 当您请求项目下载时，可以保存或保存项目。 但是，只能计划保存的 [项目](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html)。
+* 当您请求项目下载时，可以保存或保存项目。 但是，只能计划保存的 [项目](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html)。
 * 在浏览器中下载的PDF可能需要几分钟时间才能导出，因为项目在以PDF格式呈现之前在Adobe服务器上重新运行。 我们建议在浏览器中下载 PDF 之前不要离开项目。但是，在等待过程中，您仍可以继续对项目进行更改。如果PDF渲染时间超过5分钟，则会提示您通过电子邮件发送。
 * PDF下载以单个页面呈现，不应用分页。
 * 将项目渲染为PDF后，我们渲染页面上的内容。 如果项目具有自定义大小的可视化和面板，则需要将它们更改为自动调整大小（右上角的按钮），以便内容将不会被截断。
