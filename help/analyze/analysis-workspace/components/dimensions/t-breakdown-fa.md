@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 76%
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 76%
 
    ![步骤结果](assets/fa_data_table_actions.png)
 
-   您可以按维度项或受众段在选定时间段内细分指标。 此外，您还可以进一步深入到更精细的粒度级别。
+   您可以按维度项目或受众区段，在选定的时间期限内划分量度。此外，您还可以进一步深入到更精细的粒度级别。
 
    >[!NOTE]
    >
