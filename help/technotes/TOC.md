@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 85%
+ht-degree: 90%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 85%
    + [比较数据与第三方产品](ga-to-aa/compare-data.md)
 + 分析受事件影响的数据 {#event}
    + [分析受事件影响的数据概述](event/overview.md)
-   + [解决数据高峰／下降问题](event/spikes-drops.md)
+   + [数据激增/骤减故障诊断](event/spikes-drops.md)
    + [在分析中排除特定日期](event/segments.md)
    + [将日期与先前的范围进行比较](event/compare-dates.md)
    + [派生受事件影响的数据](event/calcmetrics.md)
