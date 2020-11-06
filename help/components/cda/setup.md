@@ -1,11 +1,11 @@
 ---
 title: 设置跨设备分析
-description: 配置虚拟报告套件以启用CDA。
+description: 配置虚拟报表包以启用 CDA。
 translation-type: tm+mt
 source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 83%
+ht-degree: 91%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 83%
 
 >[!IMPORTANT]
 >
->在执行这些步骤之前，必须满足所有先决条件。如果不满足所有先决条件，该功能将不可用或无法正常工作。有关先决条件 [和限制](overview.md) ，请参阅概述页[面和所需的缝合方法(](field-based-stitching.md) 分别基于字段的拼合 [或设](device-graph.md)备图)。
+>在执行这些步骤之前，必须满足所有先决条件。如果不满足所有先决条件，该功能将不可用或无法正常工作。请参阅[概述页面](overview.md)和所需的拼合方法（分别为[基于字段的拼合](field-based-stitching.md)或[设备图](device-graph.md)），了解先决条件和限制。
 
 ## 选择要启用 CDA 的跨设备报表包
 
