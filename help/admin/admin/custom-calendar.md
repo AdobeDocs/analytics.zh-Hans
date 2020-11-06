@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 不同于公历模式的日历选项。相关选项包括 4-4-5、4-5-4 与 5-4-4 日历模式，三者均是零售行业的标准模式。此外，报告还提供一个选项，您可自行设置完全自定义的日历。
 
-**[!UICONTROL 管理员]** >报 **[!UICONTROL 表包]** >选择报表包> **[!UICONTROL 编辑设置]** >一般 **[!UICONTROL >自]** 定义日历 **[!UICONTROL >]**
+**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > 选择报表包 > **[!UICONTROL 编辑设置]** > **[!UICONTROL 常规]** > **[!UICONTROL 自定义日历]**
 
 >[!CAUTION]
 >
