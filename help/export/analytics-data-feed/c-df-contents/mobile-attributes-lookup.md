@@ -1,16 +1,16 @@
 ---
-title: 移动属性查找
-description: 移动属性的查找文件。
+title: 移动设备属性查找
+description: 移动设备属性的查找文件。
 translation-type: tm+mt
 source-git-commit: 33fd282e6aefa3408574f43ccccbc8a1bb141c37
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
-# 移动属性查找
+# 移动设备属性查找
 
 移动设备属性显示点击中移动设备的属性。此文件在以下情况下显示：
 
