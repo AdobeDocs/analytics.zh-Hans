@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 885c0f379d7b7119ffdd953f55148f0178a15864
 workflow-type: tm+mt
 source-wordcount: '1112'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -102,7 +102,7 @@ ht-degree: 96%
 * 用于访问比 UI 更细粒度的数据（非规范化的表视图）
 * 用于下载适用于数据透视表输入格式的数据
 * 适用于客户端要将 Adobe 数据输入第三方数据可视化工具的情况（稍微汇总，不是点击级别）
-* 访问所有唯一维度项目(如果您在Adobe Analytics遇到“流量不足”)
+* 用于在 Adobe Analytics 中遇到“低流量”的情况下访问所有独特维度项目
 
 应使用 **[Analytics 数据馈送](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)**：
 
