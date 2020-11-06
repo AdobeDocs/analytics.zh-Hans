@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -116,7 +116,7 @@ ht-degree: 98%
      <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
       <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager（完全访问、自定义、无权访问） </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>具有活动 <span class="keyword">TagManager</span> 容器的客户支持这些权限。对于新用户则不可用。 </p> <p>Adobe 建议使用 <a href="https://docs.adobe.com/content/help/en/dtm/using/migration/atm-migration.html">Dynamic Tag Management</a> 进行部署。 </p> </td> 
+   <td colname="col2"> <p>具有活动 <span class="keyword">TagManager</span> 容器的客户支持这些权限。对于新用户则不可用。 </p> <p>Adobe 建议使用 <a href="https://docs.adobe.com/content/help/zh-Hans/dtm/using/migration/atm-migration.html">Dynamic Tag Management</a> 进行部署。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>指定用户登录</b> </td> 
