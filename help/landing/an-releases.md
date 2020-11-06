@@ -40,5 +40,5 @@ ht-degree: 79%
 
 | 问题 | 回答 |
 |---|---|
-| 我是否可以请求提前访问某个功能？ | 不会。不会授予提前访问权限。<br>如果您想要提前测试 Analytics 概念，我们建议您试用 [Adobe Analytics 实验室](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/tech-previews/overview.html)，就我们行业领先的创新技术提供反馈。 |
+| 我是否可以请求提前访问某个功能？ | 不会。不会授予提前访问权限。<br>如果您想要提前测试 Analytics 概念，我们建议您试用 [Adobe Analytics Labs](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/tech-previews/overview.html)，就我们行业领先的创新技术提供反馈。 |
 | 此发布策略是否会影响我对功能的访问？ | 不会。一旦某个功能达到 GA 阶段，您将有权访问该功能，前提是它包含在您的 Analytics 程序包中。<br>您可以在[!UICONTROL 管理员] > [!UICONTROL 公司设置] > [功能访问级别](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/company-settings/feature-access-levels.html)下查看您的 Analytics 程序包的详细信息。 |
