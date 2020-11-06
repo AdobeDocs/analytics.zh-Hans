@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
 source-wordcount: '543'
-ht-degree: 82%
+ht-degree: 84%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Experience Platform Launch 是一个可用于在您的网站（包括 Anal
 
       >[!NOTE]
       >
-      >这是帮助开始的示例值。 如果您的组织为页面名称定义了更好的值（例如数据层值），则可以在此处输入该值。
+      >这是一个帮助您入门的示例值。如果您的组织为页面名称定义了更好的值（例如数据层值），则可以在此处输入该值。
    * 清理选中的文本
    * 持续时间：页面查看
 1. 单击&#x200B;**[!UICONTROL 保存]**。
