@@ -5,20 +5,20 @@ translation-type: tm+mt
 source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 60%
+ht-degree: 94%
 
 ---
 
 
 # 网站平均逗留时间
 
-“站点平均时间”度量显示给定维度项目在点击之间传递的时间量。 当您要查看特定维度项目的平均花费时间时，此度量非常有用。 此外，您还可以跟踪此量度随时间的变化趋势，以了解总体逗留时间的变化情况。此量度以 `HH:MM:SS` 格式显示。
+“网站平均逗留时间”量度显示给定维度项目在点击之间存在的时间。当您想要查看特定维度项目的平均逗留时间时，此量度非常有用。此外，您还可以跟踪此量度随时间的变化趋势，以了解总体逗留时间的变化情况。此量度以 `HH:MM:SS` 格式显示。
 
 此量度与[每次访问逗留时间](../dimensions/time-spent-per-visit.md)维度相关。
 
 ## 如何计算此量度
 
-对于给定的维项目，在该维项目存在的地方获取每次点击的时间戳。 对比访问中此次点击与下一次点击的时间戳。如果点击没有后续点击，请勿将该点击纳入此量度。在维项目所花费的所有时间中，将其全部除以该维项目的“序列”数。 “序列”是维项目对于一个或多个连续点击是相同的。 此结果数字是报表中显示的量度。
+对于给定的维度项目，获取存在该维度项目的每次点击的时间戳。对比访问中此次点击与下一次点击的时间戳。如果点击没有后续点击，请勿将该点击纳入此量度。在维度项目的所有逗留时间中，将其全部除以该维度项目的“序列”数。“序列”是指一个或多个连续点击的维度项目相同的情况。此结果数字是报表中显示的量度。
 
 例如，请考虑以下访问：
 
@@ -35,7 +35,7 @@ ht-degree: 60%
 | `12:25:40` | `Product page A` |
 
 
-If you want average time on site for the dimension item `Product page A`, first take the amount of time lapsed between hits for that dimension:
+如果您想要了解维度项目 `Product page A` 的网站平均逗留时间，请首先获取该维度在点击之间经过的时间：
 
 * **12:04:20 - 12:05:30** - 1 分 10 秒
 * **12:05:30 - 12:07:00** - 1 分 30 秒
@@ -65,7 +65,7 @@ If you want average time on site for the dimension item `Product page A`, first 
 | `12:02:10` | `Home` | `Foxes` |
 | `12:02:20` | `(None; exit link click)` | `(None; exit link click)` |
 
-Calculating average time on site for the dimension item `Home` would use the following calculation:
+在计算维度项目 `Home` 的网站平均逗留时间时，将使用以下计算方法：
 
 ```text
 (30 + 10) / 2 = 20 seconds average time on site
@@ -81,6 +81,6 @@ Calculating average time on site for the dimension item `Home` would use the fol
 
 ## 百分比高于 100%
 
-此量度通常包含高于 100% 的百分比。分母是整个维的站点平均时间，分子是维项的站点平均时间。 如果整个维度的站点平均时间低于给定维度项目的站点平均时间，您将看到高于100%的百分比。 按此量度对排名报表进行排序，会显示网站平均逗留时间的异常值，该值通常没什么价值。Adobe 建议在排名报表中按其他量度（例如[访问次数](visits.md)）来排序。
+此量度通常包含高于 100% 的百分比。分母是整个维度的网站平均逗留时间，分子是维度项目的网站平均逗留时间。如果整个维度的网站平均逗留时间少于给定维度项目的网站平均逗留时间，您将看到高于 100% 的百分比。按此量度对排名报表进行排序，会显示网站平均逗留时间的异常值，该值通常没什么价值。Adobe 建议在排名报表中按其他量度（例如[访问次数](visits.md)）来排序。
 
 有关逗留时间的更多常规信息，请参阅[逗留时间概述](time-spent.md)。
