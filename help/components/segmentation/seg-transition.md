@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
 source-wordcount: '2179'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
 
    * 您可以[比较区段](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)。
    * 在比较中使用[区段作为维度](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/audiences/audience-library.html)。
-   * 在[流失分析](https://docs.adobe.com/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)中使用区段。
+   * 在[流失分析](https://docs.adobe.com/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)中使用区段。
 
 * 您可以[将多个区段应用于一个报表或项目](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
 * 区段对于所有报表包都是通用的。
