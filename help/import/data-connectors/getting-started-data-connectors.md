@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
 workflow-type: tm+mt
 source-wordcount: '975'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe 为组织提供有关数字化策略和营销活动的可执行实时资�
 
 >[!IMPORTANT]
 >
->2021年中后期，我们将终止Adobe数据连接器技术。 [了解更多...](/help/import/data-connectors/data-connectors-eol.md)
+>2021 年中后期，我们将终止 Adobe Data Connector 技术的生命周期。[了解更多...](/help/import/data-connectors/data-connectors-eol.md)
 
 **系统要求**
 
@@ -26,7 +26,7 @@ Data Connectors 应与最受欢迎的浏览器适当集成。但是，在符合�
 
 * 浏览器：Microsoft Internet Explorer V6 和更高版本
 * Cookie：必需
-* JavaScript：启用
+* JavaScript：已启用
 * 操作系统：基于 Windows
 * Macromedia Flash Player：版本 6 或更高版本
 * 显示器分辨率：1024x768（最低设置为 800x600）
