@@ -17,7 +17,7 @@ ht-degree: 100%
 
 动态标签管理“库管理”设置中各个字段和选项的描述。
 
-**[!UICONTROL *`Property`*]**>![](assets/settings_gear.png)**[!UICONTROL &#x200B;编辑工具&#x200B;]**>**[!UICONTROL &#x200B;库管理&#x200B;]**
+**[!UICONTROL *`Property`*]**> ![](assets/settings_gear.png)**[!UICONTROL &#x200B;编辑工具&#x200B;]**>**[!UICONTROL &#x200B;库管理&#x200B;]**
 
 >[!NOTE]
 >
