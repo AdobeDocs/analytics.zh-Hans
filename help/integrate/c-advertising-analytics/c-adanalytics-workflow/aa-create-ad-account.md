@@ -49,7 +49,7 @@ Adobe Analytics 管理员可以创建新的广告帐户，并将多个帐户映�
       <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
        <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google Adwords：提供 Google 帐户 ID。 </li> 
        <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing：提供 Bing 帐户 ID 和 Bing 客户 ID。 </li> 
-       </ul> <p>请参考<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  >查找帐户 ID</a> 以获取有关这些 ID 的信息。 </p> <p>成功登录后，OAuth 令牌字段将会显示<code>Retrieved</code>。 </p> </td> 
+       </ul> <p>请参考<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  >查找帐户 ID</a> 以获取有关这些 ID 的信息。 </p> <p>成功登录后，OAuth 令牌字段将会显示 <code>Retrieved</code>。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
