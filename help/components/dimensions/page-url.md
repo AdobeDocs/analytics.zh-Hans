@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 64%
+ht-degree: 69%
 
 ---
 
@@ -32,6 +32,6 @@ Adobe 建议将 eVar 设置为串联字符串 `window.location.hostname + window
 
 如果您希望 eVar 与 Data Warehouse 中的“页面 URL”维度完全匹配，则可以使用[动态变量](/help/implement/vars/page-vars/dynamic-variables.md)并在每次点击时将 eVar 设置为 `D=g`。
 
-## Dimension项
+## 维度项目
 
-Dimension项包括站点上页面的URL。
+维度项目包括网站上页面的 URL。
