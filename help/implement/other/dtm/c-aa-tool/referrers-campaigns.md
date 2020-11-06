@@ -17,7 +17,7 @@ ht-degree: 100%
 
 在 Adobe [!DNL Analytics] 中部署 [!UICONTROL Dynamic Tag Management] 时，[!UICONTROL Dynamic Tag Management] 中用于反向链接和促销活动选项的字段描述。
 
-**[!UICONTROL *`Property`*]**>![齿轮图标](assets/settings_gear.png)**[!UICONTROL &#x200B;编辑工具&#x200B;]**>**[!UICONTROL &#x200B;反向链接和促销活动&#x200B;]**
+**[!UICONTROL *`Property`*]**> ![齿轮图标](assets/settings_gear.png)**[!UICONTROL &#x200B;编辑工具&#x200B;]**>**[!UICONTROL &#x200B;反向链接和促销活动&#x200B;]**
 
 <table id="table_09AE3BFF0F12442F9C19CD96451F93E4">
  <thead>
