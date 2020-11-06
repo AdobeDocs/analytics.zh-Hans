@@ -17,7 +17,7 @@ ht-degree: 100%
 
 部署 Analytics 时，动态标签管理中用于页面查看次数和内容设置的字段描述。
 
-**[!UICONTROL *`Property`*]**>![齿轮图标](assets/settings_gear.png)**[!UICONTROL &#x200B;编辑工具&#x200B;]**>**[!UICONTROL &#x200B;页面查看次数和内容&#x200B;]**
+**[!UICONTROL *`Property`*]**> ![齿轮图标](assets/settings_gear.png)**[!UICONTROL &#x200B;编辑工具&#x200B;]**>**[!UICONTROL &#x200B;页面查看次数和内容&#x200B;]**
 
 <table id="table_654149A8A66B404BBF9BAF8EC67F5F8F">
  <thead>
