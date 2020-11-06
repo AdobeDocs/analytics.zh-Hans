@@ -20,8 +20,8 @@ ht-degree: 100%
 
 Adobe 创建了两种在使用 AMP 的页面上实施 Adobe Analytics 的方法。这两种方法都使用 `<amp-analytics>` HTML 标记。有关更多信息，请参阅 ampproject GitHub 上的 [amp-analytics 标记](https://github.com/ampproject/amphtml/tree/master/extensions/amp-analytics)。
 
-* **使用`"adobeanalytics"`跟踪模板**：直接在页面上构建 Analytics 请求
-* **使用`"analytics_nativeConfig"`跟踪模板**：使用包含您在普通网站上部署的相同 AppMeasurement 代码的 iframe
+* **使用 `"adobeanalytics"` 跟踪模板**：直接在页面上构建 Analytics 请求
+* **使用 `"analytics_nativeConfig"` 跟踪模板**：使用包含您在普通网站上部署的相同 AppMeasurement 代码的 iframe
 
 下表比较了这两种方法：
 
