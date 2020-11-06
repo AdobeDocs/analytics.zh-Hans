@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 71%
+ht-degree: 82%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 71%
 
 AppMeasurement 使用 [`pageName`](/help/implement/vars/page-vars/pagename.md) 变量收集此数据。If the `pageName` variable is not defined, it falls back to using the [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variable.
 
-## Dimension项
+## 维度项目
 
-Dimension项包括站点上的页面名称。 您的组织确定要使用哪些特定维项目。 有些组织直接使用 `document.title`，而另一些组织则制定自定义痕迹导航。无论您使用哪种方法，都应确保其一致性，并记录在[解决方案设计文档](/help/implement/prepare/solution-design.md)中。
+维度项目包括您的网站上的页面名称。贵组织会确定您要使用的具体维度项目。有些组织直接使用 `document.title`，而另一些组织则制定自定义痕迹导航。无论您使用哪种方法，都应确保其一致性，并记录在[解决方案设计文档](/help/implement/prepare/solution-design.md)中。
 
 >[!NOTE]
 >
