@@ -21,7 +21,7 @@ ht-degree: 100%
 
 ## 全局变量 - 字段描述 {#section_2917F62FCC8D43F982B2612A702DEF81}
 
-**[!UICONTROL *`Property`*]**>![](assets/settings_gear.png)**[!UICONTROL &#x200B;编辑工具&#x200B;]**>**[!UICONTROL &#x200B;全局变量&#x200B;]**
+**[!UICONTROL *`Property`*]**> ![](assets/settings_gear.png)**[!UICONTROL &#x200B;编辑工具&#x200B;]**>**[!UICONTROL &#x200B;全局变量&#x200B;]**
 
 | 元素 | 描述 |
 |--- |--- |
