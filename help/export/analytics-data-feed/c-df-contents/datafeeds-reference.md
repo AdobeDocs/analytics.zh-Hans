@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: f3b227e7d2f239076f7c38abd42af6e1a86b0069
 workflow-type: tm+mt
 source-wordcount: '3403'
-ht-degree: 80%
+ht-degree: 81%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 80%
 | `click_context_type` | 已不再使用。指示 click_context 是使用了页面名称，还是默认使用了页面 URL。<br>0：页面 URL<br>1：页面名称 | tinyint，无符号 |
 | `click_sourceid` | 已不再使用。页面上点击链接的位置所对应的数字 ID。包含在旧版 ClickMap 工具中。 | int，无符号 |
 | `click_tag` | 已不再使用。已点击的 HTML 元素的类型。 | char(10) |
-| `clickmaplink` | Activity Map 链接 | varchar(255) |
+| `clickmaplink` | Activity Map链接 | varchar(255) |
 | `clickmaplinkbyregion` | Activity Map 链接（按地区） | varchar(255) |
 | `clickmappage` | Activity Map 页面 | varchar(255) |
 | `clickmapregion` | Activity Map 地区 | varchar(255) |
@@ -84,7 +84,7 @@ ht-degree: 80%
 | `geo_region` | 点击来源的州/市/自治区或区域的名称（基于 IP）。Used in the [Regions](/help/components/dimensions/regions.md) dimension. | char(32) |
 | `geo_zip` | 点击来源的地区的邮政编码（基于 IP）。帮助填充 [邮政编码](/help/components/dimensions/zip-code.md) 维。 另请参阅 `zip`. | varchar(16) |
 | `hier1 - hier5` | 由层级变量使用。包含一个分隔的值列表。在“报表包设置”下方选择分隔符。 | varchar(255) |
-| `hit_source` | 表示点击的来源。点击源1、2和6将计费。 <br>1:无时间戳2的标准图像 <br>请求：带有时间戳3的标准图 <br>像请求：带时间戳4的实时数据源 <br>上传：未使用 <br>5:通用数据源上 <br>传6:完全处理数据源上 <br>传7:事务ID数据源上 <br>传8:不再使用；Adobe Advertising Cloud数据源的先前 <br>版本9:不再使用；Adobe Social总 <br>结指标10:Audience Manager服务器端转发已使用 | tinyint，无符号 |
+| `hit_source` | 表示点击的来源。点击源 1、2 和 6 将计费。<br>1：不带时间戳的标准图像请求<br>2：带有时间戳的标准图像请求<br>3：带有时间戳的实时数据源上载<br>4：未使用<br>5：通用数据源上载<br>6：完全处理数据源上载<br>7：TransactionID 数据源上载<br>8：不再使用；Adobe Advertising Cloud 数据源的以前版本<br>9：不再使用；Adobe Social 概要量度<br>10：使用了 Audience Manager 服务器端转发 | tinyint，无符号 |
 | `hit_time_gmt` | Adobe 数据收集服务器收到点击的时间戳，基于 Unix 时间。 | int |
 | `hitid_high` | Used in combination with `hitid_low` to uniquely identify a hit. | bigint，无符号 |
 | `hitid_low` | Used in combination with `hitid_high` to uniquely identify a hit. | bigint，无符号 |
@@ -114,11 +114,11 @@ ht-degree: 80%
 | `mobilebeaconminor` | Mobile Services 信标次要 | varchar(100) |
 | `mobilebeaconproximity` | Mobile Services 信标邻近性 | varchar(255) |
 | `mobilebeaconuuid` | Mobile Services 信标 UUID | varchar(100) |
-| `mobilecampaigncontent` | 显示链接的内容名称或内容 ID。由移动设备应用程序客户获取填充。 | varchar(255) |
-| `mobilecampaignmedium` | 营销媒介，如横幅或电子邮件。由移动设备应用程序客户获取填充。 | varchar(255) |
+| `mobilecampaigncontent` | 显示链接的内容名称或 ID。由移动设备应用程序客户获取填充。 | varchar(255) |
+| `mobilecampaignmedium` | 营销媒介，例如横幅或电子邮件。由移动设备应用程序客户获取填充。 | varchar(255) |
 | `mobilecampaignname` | 促销活动的名称，也存储在促销活动变量中。由移动设备应用程序客户获取填充。 | varchar(255) |
-| `mobilecampaignsource` | 原始反向链接，如新闻稿或社交媒体网络。由移动设备应用程序客户获取填充。 | varchar(255) |
-| `mobilecampaignterm` | 要通过此客户获取跟踪的付费关键词或其他搜索词。由移动设备应用程序客户获取填充。 | varchar(255) |
+| `mobilecampaignsource` | 原始反向链接，例如商务通讯或社交媒体网络。由移动设备应用程序客户获取填充。 | varchar(255) |
+| `mobilecampaignterm` | 要在此客户获取中跟踪的付费关键字或其他搜索词。由移动设备应用程序客户获取填充。 | varchar(255) |
 | `mobiledayofweek` | 应用程序启动的时间（星期几）。 | varchar(255) |
 | `mobiledayssincefirstuse` | 距应用程序首次运行的间隔天数。 | varchar(255) |
 | `mobiledayssincelastupgrade` | 从上下文数据变量 a.DaysSinceLastUpgrade 收集。自上一个会话以来经过的天数。 | varchar(255) |
