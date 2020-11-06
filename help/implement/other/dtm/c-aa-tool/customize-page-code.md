@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 部署 Analytics 时，动态标签管理中用于自定义页面代码的字段描述。
 
-**[!UICONTROL `Property`]** >“编 **[!UICONTROL 辑工具]**![](assets/settings_gear.png) ”>“ **[!UICONTROL 自定义页面代码”]**
+**[!UICONTROL `Property`]** > **[!UICONTROL 编辑工具]** ![](assets/settings_gear.png) > **[!UICONTROL 自定义页面代码]**
 
 <table id="table_A4676A5FEE814DF9A05DA0E56F8B4C6D"> 
  <thead> 
