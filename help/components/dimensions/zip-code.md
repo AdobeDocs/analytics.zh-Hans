@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 6e7464f07fd95dd1840a2d8baa8337b0d1867d73
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 71%
+ht-degree: 78%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 71%
 >
 >如果您希望完全控制填充此维度的方式，报表包设置至关重要。
 
-## Dimension项
+## 维度项目
 
-Dimension项包括访客的邮政编码。
+维度项目包括访客的邮政编码。
 
 ## 你可以在Adobe Analytics报道哪些国家的邮政编码？
 
