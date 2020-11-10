@@ -5,10 +5,10 @@ user-guide-title: Analytics 导入指南
 breadcrumb-title: 导入指南
 user-guide-description: '从外部来源批量或实时将数据导入 Analytics。 '
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: a6b12b7a343318186b5672dbabd8b7c56d09e653
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 100%
+source-wordcount: '525'
+ht-degree: 98%
 
 ---
 
@@ -128,3 +128,5 @@ ht-degree: 100%
       + [Analytics 集成变量](data-connectors/silverpop-overview/silverpop-variables.md)
       + [Silverpop 集成](data-connectors/silverpop-overview/silverpop-wizard.md)
       + [Analytics 插件代码](data-connectors/silverpop-overview/silverpop-analytics-code.md)
++ 导入用例 {#use-cases}
+   + [使用数据源导入付费搜索指标](use-cases/paid-search-metrics.md)
