@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 00f36d8583ec9224337404cfd7fa020502d89c2d
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 87%
 ## “组件”>“区段”
 
 * 某些量度和维度不可分段，如[!UICONTROL 发生次数]、[!UICONTROL 唯一访客]，等等。
-* 在面板拖放区中创 [建的临时区](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html) ，将不会显示在Workspace或区段组件管理器的左边栏中，除非将它们公开。 这可通过编辑区段并选择公 **[!UICONTROL 开此区段来完成]**。
+* 在[面板拖放区](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/panels.html)中创建的临时区段，将不会显示在工作区或区段组件管理器的左边栏中，除非将这些临时区段公开。可通过编辑区段并选中&#x200B;**[!UICONTROL 将此区段设为公用]**&#x200B;来完成这项操作。
 
 ## “组件”>“计算量度”
 
