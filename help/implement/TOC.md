@@ -5,10 +5,10 @@ user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
 user-guide-description: '自定义收集哪些数据以进一步挖掘 Adobe Analytics。 '
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 57cc9cdbec8a0ebd28d3087fc1b203e8044878d6
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 99%
+source-wordcount: '469'
+ht-degree: 97%
 
 ---
 
@@ -131,6 +131,7 @@ ht-degree: 99%
    + [全局报表包注意事项](prepare/global-rs.md)
    + [“实施”模式窗口](prepare/implementation-modal.md)
    + [创建解决方案设计文档](prepare/solution-design.md)
+   + [负责现有的Adobe Analytics执行](prepare/existing-implementation.md)
 + 使用 JavaScript 实施 Analytics {#js}
    + [JavaScript 概述](js/overview.md)
    + [实施选择退出链接](js/opt-out.md)
