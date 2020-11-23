@@ -1,11 +1,11 @@
 ---
 description: Analysis Workspace 中的无障碍支持功能
 title: Analysis Workspace 中的辅助功能
-translation-type: ht
-source-git-commit: a8fa30ecd8f3f230dac98a6f69ff6334d996fb9c
-workflow-type: ht
-source-wordcount: '554'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 97309a5be19912432ca75c7029999085c45ba353
+workflow-type: tm+mt
+source-wordcount: '661'
+ht-degree: 82%
 
 ---
 
@@ -22,11 +22,20 @@ ht-degree: 100%
 
 [!UICONTROL Analysis Workspace] 中的导航方式包括自上而下，以及从左至右。以下导航元素有助于促进无障碍功能：
 
-* `F6` 键会启用地标快捷键
-* `Tab` 键可在各个元素之间移动。
+* `Tab` 键会启用地标快捷键，在工作区中的较大部分之间移动。 在左边栏中，还 `Tab` 允许您从一个可拖动选项移动到下一个可拖动选项。
+* 突出 `left/right arrows` 显示后在各个元素 `Tab` 之间移动。
+* 导航 `F6` 到项目中的第一个面板，并在该面板中的可视化之间移动。 然后，它移到项目中的下一个面板并重复。
 * 我们应用焦点指示器，以便近视的键盘用户能够清楚地了解当前具有焦点的 UI 元素。指示器是指选定元素周围的蓝色边框。
 
    ![焦点指示器](assets/focus-indicator.png)
+
+### 菜单栏的键盘导航
+
+1. 选项卡，直到您到达菜单栏。
+1. 使用向左／向右箭头键导航到所需的菜单。
+1. 按 `Enter` 以选择菜单并显示其选项。
+1. 使用向上／向下箭头键导航到所需的菜单选项。
+1. 按 `Enter` 以选择选项。
 
 ### 键盘导航进行拖放交互操作
 
