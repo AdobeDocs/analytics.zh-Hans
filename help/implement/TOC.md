@@ -5,10 +5,10 @@ user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
 user-guide-description: '自定义收集哪些数据以进一步挖掘 Adobe Analytics。 '
 translation-type: tm+mt
-source-git-commit: 57cc9cdbec8a0ebd28d3087fc1b203e8044878d6
+source-git-commit: 145b31d01b7ec52ae3c65035774a5be54abbc51a
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 97%
+source-wordcount: '488'
+ht-degree: 93%
 
 ---
 
@@ -204,6 +204,10 @@ ht-degree: 97%
    + [数据包监视工具](validate/packet-monitor.md)
    + [哈希冲突](validate/hash-collisions.md)
 + [常见问题解答](faq.md)
++ 检查您的实施 {#review}
+   + [次要实施审查（在每个网站发布后）](review/minor-review.md)
+   + [主要实施审查（每6个月一次）](review/major-review.md)
+   + [定义您的五大KPI](review/define-kpis.md)
 + 在 Analytics 中使用 XDM 数据 {#aep-edge}
    + [使用 AEP Web SDK](aep-edge/xdmoverview.md)
    + [手动将 XDM 数据映射到 Analytics](aep-edge/xdm-manual.md)
