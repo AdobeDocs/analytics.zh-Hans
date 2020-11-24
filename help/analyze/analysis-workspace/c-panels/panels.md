@@ -2,7 +2,7 @@
 description: 面板是表和可视化的集合
 title: 面板概述
 translation-type: tm+mt
-source-git-commit: c9ceebef6afc60551304ed703050757269d8cb30
+source-git-commit: 6b9d3395e1c11f56452694229b9b8eb12b4ed8c0
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 11%
@@ -84,7 +84,11 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 ## 右键单击菜单 {#right-click}
 
-右击面板标题即可获得面板的其他功能。 可以使用以下设置：
+右击面板标题即可获得面板的其他功能。
+
+![](assets/right-click-menu.png)
+
+可以使用以下设置：
 
 | 设置 | 描述 |
 | --- | --- |
