@@ -3,9 +3,9 @@ description: 通过可视化以可视方式呈现您的数据。
 keywords: Analysis Workspace
 title: 可视化图表概述
 translation-type: tm+mt
-source-git-commit: 71cf46157917c77a815b8474bc635c01d6d13a25
+source-git-commit: 60aacc2d2d5f7f66c08d270a41d2f6c86ee34a6b
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1089'
 ht-degree: 42%
 
 ---
@@ -15,7 +15,11 @@ ht-degree: 42%
 
 工作区提供了许多可视化图表，使您能够生成数据的可视化表示形式，如条形图、圆环图、直方图、折线图、地图、散点图等。如果您使用Adobe Analytics，大多数可视化类型都会让您熟悉。 但是，Analysis Workspace 提供了可视化图表设置，以及许多全新或独特的具有交互功能的可视化图表类型。
 
-您可以从Workspace左上角的图标、空白面 [板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)，或通过工作流中的右键单击菜单访问可视化。 Analysis Workspace提供以下可视化类型：
+您可以从Workspace左上角的图标、空白面 [板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)，或通过工作流中的右键单击菜单访问可视化。
+
+![](assets/viz-rail.png)
+
+Analysis Workspace提供以下可视化类型：
 
 | 可视化图表名称 | 描述 |
 | --- | --- |
@@ -40,20 +44,22 @@ ht-degree: 42%
 
 ## 设置 {#settings}
 
-每个可视化图表都有其自身的设置，您可以管理这些设置。要访问“ [!UICONTROL 可视化设置]”，请单 [!UICONTROL 击“可视化设] 置”齿轮图标。 一些设置包括：
+每个可视化图表都有其自身的设置，您可以管理这些设置。要访问“ [!UICONTROL 可视化设置]”，请单 [!UICONTROL 击“可视化设] 置”齿轮图标。
+
+![](assets/settings.png)
 
 | 设置 | 描述 |
 | --- | --- |
 | 可视化类型 | 更改用于描述数据的可视类型。 |
-| 粒度 | 要获得趋势可视化，您可以更改时间粒度（天、周、月等） 从此下拉菜单中。 此更改也将应用于数据源表。 |
+| 粒度 | 对于趋势可视化，您可以更改时间粒度（天、周、月等） 从此下拉菜单中。 此更改也适用于数据源表。 |
 | 百分数 | 显示百分数值。 |
-| 100% 堆叠 | 对堆叠区域、堆叠条形图或堆叠水平条形图的此设置会将图表变为“100%堆叠”可视化。 示例：![](assets/stacked_100_percent.png) |
+| 100% 堆叠 | 对堆叠区域、堆叠条形图或堆叠水平条形图的此设置会将图表变为“100%堆叠”可视化。 示例： ![堆叠100%](assets/stacked_100_percent.png) |
 | 图例可见 | 用于隐藏“摘要编号／摘要更改”可视化的详细图例文本。 |
 | 限制最大项目数 | 允许您限制可视化图表显示的项目数量。 |
 | 将 Y 轴定位为 0 | 如果图表上绘制的所有值都远远大于零，则图表默认会将 y 轴底部设置为非零值。如果选中此框，y 轴将被强制设置为零（并将重新绘制图表）。 |
 | 标准化 | 要求所有量度按等比例计算。当绘制的度量大小非常不同时，这很有用。 |
 | 显示双轴 | 仅适用于具有两个量度的情况，可以在左（用于一个量度）、右（用于另一个量度）两边各有一个 y 轴。当绘制的度量大小非常不同时，这很有用。 |
-| 显示异常 | 通过显示异常决定增强线形图和自由形式表。 线可视化中的异常检测包括预期值（虚线）和预期范围（着色带）。 |
+| 显示异常 | 通过显示异常检测功能，增强线形图和自由形式表。 线可视化中的异常检测包括预期值（虚线）和预期范围（着色带）。 |
 
 ## 图例 {#legend}
 
@@ -77,7 +83,7 @@ ht-degree: 42%
 
 右击可视化标题即可获得可视化的其他功能。 设置因可视化而异。 一些可用设置包括：
 
-![](assets/right-click_menu.png)
+![](assets/right-click.png)
 
 | 设置 | 描述 |
 | --- | --- |
@@ -94,4 +100,4 @@ ht-degree: 42%
 
 If you are not sure which visualization to pick, click the **[!UICONTROL Create Visual]** icon in any table row (available on hover). 这是添加可视化的最快方法。 单击此图标将提示 Analysis Workspace 针对哪种可视化图表最适合您的数据做出有根据的推测。例如，如果选择了1行，则会创建趋势线图。 如果选择了3个段行，将创建一个活动图。
 
-![](assets/create-visual.png)
+![](assets/quick-viz.png)
