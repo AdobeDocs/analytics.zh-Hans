@@ -33,7 +33,6 @@ ht-degree: 100%
 >* 有关支持的非默认归因模型和回顾窗口的完整列表，请参阅[归因 IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) 文档。
 >* “营销渠道最近联系”和“营销渠道首次联系”分配模型将分别迁移至新的“最近联系”和“首次联系”归因模型（注：“营销渠道”并不会被弃用 - 弃用的只有此处所述出现在计算量度中的这两个分配模型）。
 >* 此外，我们还将修正线性分配的计算方式。对于通过“线性”分配模型使用计算量度的客户，报表可能会稍有变化，以反映修正后的新归因模型。计算量度的这一更改将反映在 Analysis Workspace、Reports &amp; Analytics、报表 API、Report Builder 和 Ad Hoc Analysis 中。有关更多信息，请参阅下面的&#x200B;**线性分配工作原理（自 2018 年 7 月 19 日起）**。
-
 >
 
 
