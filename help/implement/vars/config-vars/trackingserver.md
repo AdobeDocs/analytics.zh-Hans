@@ -2,7 +2,7 @@
 title: trackingServer
 description: 确定发送图像请求的位置。
 translation-type: tm+mt
-source-git-commit: d9fa9fa6afb6b76ae37a92c86d9ca21a9c3fb22e
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 91%
@@ -27,7 +27,7 @@ Adobe 通过接收访客生成的图像请求来收集您网站上的数据。`t
 3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的]配置[!UICONTROL 按钮。
 4. 展开[!UICONTROL 常规]折叠面板，这会显示[!UICONTROL 跟踪服务器]字段。
 
-如果此字段留空，则默认为 `[rsid].112.2o7.net`。
+如果此字段留空，则默认为 `[rsid]sc.adobedc.net`。
 
 ## AppMeasurement 和 Launch 自定义代码编辑器中的 s.trackingServer
 
@@ -65,7 +65,7 @@ s.trackingServer = "example.data.adobedc.net";
 
 选择贵组织独有而使用 Adobe Analytics 的其他组织不太可能选择的子域。建议将访客命名空间分配给您的组织。  确保贵组织中的所有实施都使用相同的跟踪服务器。在[解决方案设计文档](../../prepare/solution-design.md)中维护此信息可能会有所帮助。
 
-您的组织可能已在或域中使用第三方跟踪服 `sc.omtrdc.net` 务器 `2o7.net` 。  这些主要用于Adobe Analytics的先前版本，仍然有效。
+您的组织可能已在或域中使用第三方跟踪服 `sc.adobedc.net` 务器 `2o7.net` 。  这些主要用于Adobe Analytics的先前版本，仍然有效。
 
 >[!NOTE]
 >
