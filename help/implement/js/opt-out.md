@@ -1,9 +1,9 @@
 ---
 title: 选择退出链接
 description: 了解如何为网站的访客创建实施选择退出链接。
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 找到实施的 `trackingServer` 域后，将路径 `/optout.html` 附加到结尾处。例如：
 
-* 第三方 Cookie：`https://example.sc.omtrdc.net/optout.html`
+* 第三方 Cookie：`https://example.sc.adobedc.net/optout.html`
 * 第一方 Cookie: `https://stats.example.com/optout.html`
 
 ## 选择退出查询字符串参数
@@ -78,7 +78,7 @@ ht-degree: 100%
 * sk_SK（斯洛伐克语）
 * es_ES（西班牙语）
 
-例如，`https://example.sc.omtrdc.net/optout.html?locale=ko_KR` 以韩语加载选择退出页面。
+例如，`https://example.sc.adobedc.net/optout.html?locale=ko_KR` 以韩语加载选择退出页面。
 
 >[!TIP]
 >
@@ -88,7 +88,7 @@ ht-degree: 100%
 
 向页面添加“关闭窗口”按钮，从而使选择退出页面成为弹出窗口。使用 `popup` 查询字符串参数，并将其值设置为 `1`。
 
-例如，`https://example.sc.omtrdc.net/optout.html?popup=1` 会加载具有“关闭窗口”按钮的选择退出页面。
+例如，`https://example.sc.adobedc.net/optout.html?popup=1` 会加载具有“关闭窗口”按钮的选择退出页面。
 
 >[!NOTE]
 >
@@ -98,10 +98,10 @@ ht-degree: 100%
 
 允许用户立即选择退出跟踪。添加两个查询字符串参数 `opt_out` 和 `confirm_change`，为每个参数赋值 `1`。
 
-例如，`https://example.sc.omtrdc.net/optout.html?opt_out=1&confirm_change=1` 会立即在访客页面上安装选择退出 Cookie。
+例如，`https://example.sc.adobedc.net/optout.html?opt_out=1&confirm_change=1` 会立即在访客页面上安装选择退出 Cookie。
 
 ### 单击选择加入
 
 允许用户通过删除选择退出 Cookie 立即选择加入跟踪。添加两个查询字符串参数 `opt_in` 和 `confirm_change`，为每个参数赋值 `1`。
 
-例如，`https://example.sc.omtrdc.net/optout.html?opt_in=1&confirm_change=1` 会立即删除访客的选择退出 Cookie。
+例如，`https://example.sc.adobedc.net/optout.html?opt_in=1&confirm_change=1` 会立即删除访客的选择退出 Cookie。
