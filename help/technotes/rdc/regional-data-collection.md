@@ -2,10 +2,10 @@
 title: 地区数据收集
 description: 关于区域数据收集的信息
 translation-type: tm+mt
-source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
+source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 86%
+ht-degree: 82%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Experience Cloud 使用区域数据收集 (RDC)，这样，您的最终用
 
 >[!IMPORTANT]
 >
->China RDC（中国性能优化）附加软件包是Adobe Analytics的收费附加软件。 Adobe在中国大陆的性能优化使中国境内的客户能够直接将数据发送到中国边缘节点，而不是全球的其他位置。 与将数据发送到中国境外的节点相比，这提高了页面加载时间和数据准确性。 有关详细信息，请与Adobe销售代表联系。
+>中国RDC（中国性能优化）附加组件是Adobe Analytics的收费附加组件。 Adobe在中国大陆的业绩优化使中国境内的客户能够直接将数据发送到中国边缘节点，而不是全球其他地点。 与将数据发送到中国境外的节点相比，这提高了页面加载时间和数据准确性。 请联系您的Adobe销售代表以了解更多信息。
 
 RDC 目前包括以下位置（可能发生变化）：
 
@@ -26,7 +26,7 @@ RDC 目前包括以下位置（可能发生变化）：
 |---------------------|-------------------|
 | 默认 | 俄勒冈、弗吉尼亚、爱尔兰、巴黎、孟买、新加坡、东京、悉尼 |
 
-注意：如果您的 Analytics 图像请求发送到了 `2o7.net` 或 `omtdrc.net` 端点，则表明您使用的是第三方数据收集。如果您在请求的 URL 中看到了任一端点，则可以确定这一点。
+Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `omtrdc.net` endpoints, then you have third-party data collection. 如果您在请求的 URL 中看到了任一端点，则可以确定这一点。
 
 ## 第一方 HTTPS 数据收集
 
