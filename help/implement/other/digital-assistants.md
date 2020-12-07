@@ -1,9 +1,9 @@
 ---
 title: 为数字助理实施 Analytics
 description: 在数字助理（如 Amazon Alexa 或 Google Home）上实施 Adobe Analytics。
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+workflow-type: tm+mt
 source-wordcount: '1266'
 ht-degree: 100%
 
@@ -50,8 +50,8 @@ GET
 /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=2017-04-24&c.a.AppID=Spoofify1.0&c.OSType=Alexa&pageName=install
 HTTP/1.1
 Host:
-<xref href="https://sc.omtrdc.net">
-  sc.omtrdc.net
+<xref href="https://sc.adobedc.net">
+  sc.adobedc.net
  Cache-Control: no-cache
 </xref href="https:>
 ```
@@ -62,13 +62,13 @@ Host:
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.Launches=1&c.Product=AmazonEcho&c.OSType=Alexa&pageName=install  HTTP/1.1
-Host: example.sc.omtrdc.net
+Host: example.sc.adobedc.net
 Cache-Control: no-cache
 ```
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify2.0&c.a.Launches=1&c.Product=GoogleHome&c.OSType=Android&pageName=install  HTTP/1.1
-Host: example.sc.omtrdc.net
+Host: example.sc.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -80,7 +80,7 @@ Adobe Analytics 可使用 [Adobe Experience Cloud Identity Service](https://docs
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&pageName=[intent]  HTTP/1.1
-Host: example.sc.omtrdc.net
+Host: example.sc.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -103,7 +103,7 @@ Cache-Control: no-cache
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.LaunchEvent=1&c.Intent=[intent]&pageName=[intent]  HTTP/1.1
-Host: sc.omtrdc.net
+Host: sc.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -117,7 +117,7 @@ Cache-Control: no-cache
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
-Host: example.sc.omtrdc.net
+Host: example.sc.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -125,7 +125,7 @@ Cache-Control: no-cache
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=No_Intent_Specified&pageName=[intent]  HTTP/1.1
-Host: sc.omtrdc.net
+Host: sc.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -141,7 +141,7 @@ Cache-Control: no-cache
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0=1&c.a.LaunchEvent=1&c.Intent=SendPayment&c.Amount=20.00&c.Reason=Dinner&c.ReceivingPerson=John&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
-Host: example.sc.omtrdc.net
+Host: example.sc.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -153,7 +153,7 @@ Cache-Control: no-cache
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.Error=1&c.ErrorName=InvalidCurrency&pageName=[intent]  HTTP/1.1
-Host: example.sc.omtrdc.net
+Host: example.sc.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -172,10 +172,10 @@ Cache-Control: no-cache
 
 | 人员 | 设备响应 | 操作/意图 | GET 请求 |
 |---|---|---|---|
-| 安装 Spoofify | 无响应 | 安装 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| 播放 Spoofify | “好的，正在播放 Spoofify” | 播放 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| 更改歌曲 | “好的，您想要听哪首歌曲？” | 更改歌曲 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| 请播放“Baby Shark” | “好的，正在播放 PinkFong 的‘Baby Shark’” | 更改歌曲 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| 更改播放列表 | “好的，您想要使用哪个播放列表？” | 更改播放列表 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| 请播放我最喜爱的歌曲播放列表 | “好的，正在播放您最喜爱的歌曲播放列表” | 更改播放列表 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| 关闭音乐 | 无响应，音乐关闭 | 关 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
+| 安装 Spoofify | 无响应 | 安装 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
+| 播放 Spoofify | “好的，正在播放 Spoofify” | 播放 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
+| 更改歌曲 | “好的，您想要听哪首歌曲？” | 更改歌曲 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
+| 请播放“Baby Shark” | “好的，正在播放 PinkFong 的‘Baby Shark’” | 更改歌曲 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
+| 更改播放列表 | “好的，您想要使用哪个播放列表？” | 更改播放列表 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
+| 请播放我最喜爱的歌曲播放列表 | “好的，正在播放您最喜爱的歌曲播放列表” | 更改播放列表 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
+| 关闭音乐 | 无响应，音乐关闭 | 关 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
