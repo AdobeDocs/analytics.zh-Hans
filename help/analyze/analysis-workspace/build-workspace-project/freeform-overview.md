@@ -5,7 +5,7 @@ title: 项目概述
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 87cd6c3ceb404361be163845899015a43ec0fb14
+source-git-commit: f6d8c52845f6949954f5b961d75edfeeeef2e151
 workflow-type: tm+mt
 source-wordcount: '1358'
 ht-degree: 21%
@@ -44,6 +44,8 @@ When you first go to **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, th
 
 在项目中，该菜单提供了用于管理项目、添加组件、查找帮助等的选项。 您还可以通过键盘快捷键访问每个菜 [单选项](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html)。
 
+![](assets/menu.png)
+
 | 菜单项 | 描述 |
 |---|---|
 | 项目 | 包括用于项目管理的常见操作，包括“新建”、“打开”、“保存”、“另存为” [和“另存为”模板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)。 您还可以通过单击刷新项目来刷新整个项目以检索最新数据和定义。 [下载CSV和PDF选项](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) ，您可以从Workspace导出数据。 [“项目信息和设置](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?#info-settings) ”优惠了许多用于管理项目的选项。 |
@@ -81,6 +83,8 @@ Within a project, [panels](https://experienceleague.adobe.com/docs/analytics/ana
 
 左边栏中的组件(Dimension、指标、区段、日期范围)与活动面板报表包相关。 活动面板周围将有一个蓝色边框，活动报表包将列在组件边栏的顶部。
 
+![](assets/left-rail.png)
+
 ## 项目画布 {#canvas}
 
 在项目画布中，您可以将面板、表、可视化和组件组合在一起，以构建分析。 一个项目可以包含多个面板，每个面板都可以包含许多表和可视化。
@@ -89,11 +93,15 @@ Within a project, [panels](https://experienceleague.adobe.com/docs/analytics/ana
 
 根据您为项目选择的起点，画布中将 [显示自由格](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) 式 [表](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html) ，或显示空白面板。 开始分析的最快捷方式是选择一个或多个组件，然后将它们拖放到项目画布中。 将自动为您呈现数据表。 [进一步了](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) 解用于构建表的不同选项，或利用我们的培 [训教程](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?#training-tutorial) ，获取有关构建第一个项目的更多指导。
 
+![](assets/canvas.png)
+
 ## 项目经理 {#manager}
 
 Analysis Workspace projects can be managed under **Analytics > Components >  Projects**. 项目经理会显示特定用户已创建的项目。 项目所有权可以在“管理员”>“分析用户和资产”>“转移资产”下转移给新用户。
 
 在项目管理器中，您可以添加、标记、共享、重复/复制等。 在搜索栏中或使用左边栏中的筛选器选项搜索项目。 您可以按标记、所有者、项目类型等进行筛选。
+
+![](assets/project-manager.png)
 
 以下是项目管理器中的常见操作，可以一次对一个或多个项目执行这些操作：
 
