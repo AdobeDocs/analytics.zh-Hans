@@ -2,9 +2,9 @@
 title: 迁移到 AppMeasurement for JavaScript
 description: 确定从 H 代码迁移实施所需的内容。
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '289'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 100%
 * 现有的页面级别 H 代码与 AppMeasurement 兼容。
 * 该库提供了一些本地实用工具，用来获取查询参数、读取和写入 Cookie，以及执行高级链接跟踪。
 * 该库不支持动态帐户配置变量（包括 `dynamicAccountSelection`、`dynamicAccountMatch` 和 `dynamicAccountList`）。
-* 但不支持调查模块。
 
 以下步骤概述了典型的迁移工作流程。
 
@@ -62,7 +61,7 @@ s.doPlugins = s_doPlugins;
 /* WARNING: Changing any of the below variables will cause drastic
 changes to how your visitor data is collected.  Changes should only be
 made when instructed to do so by your account manager.*/
-s.trackingServer="example.sc.adobedc.net";
+s.trackingServer="example.data.adobedc.net";
 
 /************************** PLUGINS SECTION *************************/
 
