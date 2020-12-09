@@ -2,10 +2,10 @@
 title: 地区数据收集
 description: 关于区域数据收集的信息
 translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
+source-git-commit: 731209e28dab9f17e06948614149a4c99938fdae
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 77%
+source-wordcount: '475'
+ht-degree: 57%
 
 ---
 
@@ -24,9 +24,11 @@ RDC 目前包括以下位置（可能发生变化）：
 
 | RDC 类型 | 数据收集中心 |
 |---------------------|-------------------|
-| 默认 | 俄勒冈、弗吉尼亚、爱尔兰、巴黎、孟买、新加坡、东京、悉尼 |
+| 默认 | 俄勒冈、弗吉尼亚、爱尔兰、巴黎、孟买、新加坡、东京、悉尼, 中国* |
 
 Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `omtrdc.net` endpoints, then you have third-party data collection. 如果您在请求的 URL 中看到了任一端点，则可以确定这一点。
+
+*中国RDC要求提供中国附加服务。 请参阅上面的“重要”说明。
 
 ## 第一方 HTTPS 数据收集
 
@@ -36,8 +38,19 @@ Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `om
 | 仅限美洲 | 俄勒冈州、弗吉尼亚州 |
 | 仅限欧洲 | 爱尔兰、巴黎 |
 | 仅限亚太地区 | 孟买、新加坡、东京、悉尼 |
+| 仅限中国* | 北京 |
 
-注意：Experience Edge Global 可为最终用户提供最佳性能。如果您希望使用替代 RDC 类型，请联系 Adobe 客户服务以寻求帮助。
+*中国RDC要求提供中国附加服务。 请参阅上面的“重要”说明。
+
+注意：Experience Edge Global 可为最终用户提供最佳性能。如果您希望使用替代RDC类型，请与Adobe客户服务部门联系以获得帮助。
+
+## RDC 的好处
+
+| 好处 | 描述 |
+| --- | --- |
+| 性能 | 借助RDC，您的访客将连接到最接近的DCC。 这提供最快的响应时间，从而实现更准确的跟踪和更快的加载时间。 |
+| 冗余 | 如果与DCC的通信中断，数据收集将自动路由到最近的DCC，从而确保服务连续性。 |
+| 冗余 | 如果DCC与DPC之间的通信中断，Adobe的RDC基础架构将数据保存在本地，然后在通信恢复时将其转发到DPC。 |
 
 ## RDC 工作原理
 
