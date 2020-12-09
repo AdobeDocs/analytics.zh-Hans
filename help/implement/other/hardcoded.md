@@ -2,7 +2,7 @@
 title: 使用硬编码图像请求实施
 description: 使用 HTML 图像标记（硬编码图像请求）实施 Adobe Analytics。
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 100%
@@ -25,11 +25,11 @@ Adobe 提供的 AppMeasurement 库可编译页面上存在的变量，然后将�
 以下是使用 HTML 的示例硬编码图像请求：
 
 ```html
-<img src="https://example.sc.adobedc.net/b/ss/examplersid/1?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
+<img src="https://example.data.adobedc.net/b/ss/examplersid/1?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
 ```
 
 * `https://` 指定协议。将图像请求中使用的协议与网站其他部分使用的协议进行匹配。
-* `example.sc.adobedc.net` 是 [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) 变量中包含的值。
+* `example.data.adobedc.net` 是 [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) 变量中包含的值。
 * `/b/ss/` 包含在所有图像请求中。它是 Adobe 数据收集服务器上所存储图像的文件结构的一部分。
 * `examplersid` 是要将数据发送到的报表包 ID。
 * `/1/` 是点击源。请参阅导出用户指南中[数据列引用](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)下的 `hit_source`。控制 Cookie 和其他方法在识别访客时所采用的顺序。
