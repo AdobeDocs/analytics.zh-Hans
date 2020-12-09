@@ -2,10 +2,10 @@
 title: 地区数据收集
 description: 关于区域数据收集的信息
 translation-type: tm+mt
-source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 82%
+source-wordcount: '362'
+ht-degree: 77%
 
 ---
 
@@ -46,18 +46,3 @@ Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `om
 1. DNS 会自动将收集主机名解析为距访客最近的数据收集中心的 IP 地址。
 1. 访客将数据发送到该地址。
 1. 届时，数据会立即通过安全连接转发到数据处理中心进行处理，然后提供给 Adobe Experience Cloud 中的产品。
-
-## RDC 的好处
-
-| 好处 | 描述 |
-|---------|-----------|
-| 性能 | 通过 RDC，访客将连接至最近的 DCC。这意味着页面上的响应时间将缩短（越短越好），从而使跟踪更准确，加载速度更快。 |
-| 冗余 | 如果与 DCC 的通信中断，则数据收集会自动路由到下一个距离最近的 DCC，以此来确保服务得以持续进行。 |
-| 冗余 | 如果 DCC 与 DPC 间的通信中断，则 Adobe 的 RDC 基础设施会在本地保存数据，然后在通信恢复后将数据转发到 DPC。 |
-
-## 文档修订历史
-
-| 更新 | 描述 |
-|--------|---------|
-| 2020 年 2 月 4 日 | 更新 RDC 位置 |
-| 2019 年 2 月 20 日 | 完全重写。添加了 RDC 网络信息。 |
