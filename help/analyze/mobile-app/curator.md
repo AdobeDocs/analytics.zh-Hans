@@ -2,10 +2,10 @@
 description: 有关设置功能板记分卡的说明。
 title: Adobe Analytics 功能板策划人指南
 translation-type: tm+mt
-source-git-commit: 7ec56bb72638f157b6a501d73495b91ae52d7de9
+source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
 workflow-type: tm+mt
-source-wordcount: '2376'
-ht-degree: 94%
+source-wordcount: '2380'
+ht-degree: 83%
 
 ---
 
@@ -51,40 +51,40 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
 要创建记分卡，您需要执行以下操作：
 
-1. 访问“空移动记分卡”模板。
+1. Access the [!UICONTROL Blank Mobile Scorecard] template.
 2. 使用数据配置记分卡并保存。
 
-### 访问“空移动记分卡”模板
+### Access the [!UICONTROL Blank Mobile Scorecard] template
 
-您可以通过以下方式之一访问“空移动记分卡”模板：
+You can access the [!UICONTROL Blank Mobile Scorecard] template in one of the following ways:
 
 **创建新项目**
 
-1. 打开 Adobe Analytics，然后单击&#x200B;**工作区**&#x200B;选项卡。
-2. 单击&#x200B;**创建新项目**&#x200B;按钮，然后选择&#x200B;**空移动记分卡**&#x200B;项目模板。
-3. 单击&#x200B;**创建**&#x200B;按钮。
+1. 打开 Adobe Analytics，然后单击&#x200B;**[!UICONTROL 工作区]**&#x200B;选项卡。
+2. 单击&#x200B;**[!UICONTROL 创建新项目]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 空移动记分卡]**&#x200B;项目模板。
+3. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;按钮。
 
 ![记分卡模板](assets/new_template.png)
 
 **添加项目**
 
-在&#x200B;**项目**&#x200B;屏幕的&#x200B;**组件**&#x200B;选项卡下，单击&#x200B;**添加**&#x200B;按钮并选择&#x200B;**移动记分卡**。
+在&#x200B;**[!UICONTROL 项目]**&#x200B;屏幕的&#x200B;**[!UICONTROL 组件]**&#x200B;选项卡下，单击&#x200B;**[!UICONTROL 添加]**&#x200B;按钮并选择&#x200B;**[!UICONTROL 移动记分卡]**。
 
 ![添加项目](assets/add_project.png)
 
-**使用 Analytics 工具**
+**使用工 [!DNL Analytics] 具**
 
-在 Analytics 中，单击&#x200B;**工具**&#x200B;菜单，然后选择&#x200B;**功能板**。在后续显示的屏幕上，单击&#x200B;**创建记分卡**&#x200B;按钮。
+In [!DNL Analytics], click the **[!UICONTROL Tools]** menu and select **[!UICONTROL Analytics dashboards (Mobile App)]**. On the subsequent screen, click the **[!UICONTROL Create new scorecard]** button.
 
 ### 使用数据配置记分卡并保存
 
 要实施记分卡模板，请执行以下操作：
 
-1. 在&#x200B;**属性**（位于右侧边栏中）下，指定要从中使用数据的&#x200B;**项目报表包**。
+1. Under **[!UICONTROL Properties]** (in the right-hand rail), specify a **[!UICONTROL Project report suite]** from which you want to use data.
 
    ![报表包选择](assets/properties_save.png)
 
-2. 要向记分卡中添加新图块，请将左侧面板中的某个量度拖放到&#x200B;**在此处拖放量度**&#x200B;区域。您也可以使用类似的工作流程，在两个图块之间插入量度。
+2. To add a new tile to your Scorecard, drag a metric from the left panel and drop it into the **[!UICONTROL Drag and Drop Metrics Here]** zone. 您也可以使用类似的工作流程，在两个图块之间插入量度。
 
    ![添加图块](assets/build_list.png)
 
@@ -92,13 +92,13 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
    *从每个图块中，您可以访问一个详细视图，该视图显示有关量度的其他信息，例如，相关维度列表的排名最前的项目。*
 
 
-3. 要向量度中添加相关维度，请将左侧面板中的维度拖放到图块中。例如，您可以通过将维度拖放到图块中的方式，将相应维度（例如，本例中的 **DMA 区域**）添加到&#x200B;**独特访客数**&#x200B;量度；您添加的维度将显示在特定于图块的&#x200B;**属性**&#x200B;的划分部分下方。可向每个图块中添加多个维度。
+3. 要向量度中添加相关维度，请将左侧面板中的维度拖放到图块中。For example, you can add appropriate dimensions (like **[!DNL DMA Region]**, in this example) to the **[!UICONTROL Unique Visitors]** metric by dragging and dropping it onto the tile; dimensions you add will appear under the breakdown section of the tile-specific **[!UICONTROL Properties]**. 可向每个图块中添加多个维度。
 
    ![添加维度](assets/layer_dimensions.png)
 
    您也可以通过将某个维度拖放到记分卡画布上，将其添加到所有图块。
 
-   单击记分卡生成器中的图块后，右侧边栏会显示与该图块关联的属性和特征。在此边栏中，您可以为图块提供一个新的&#x200B;**标题**，或者通过指定组件而不是从左侧边栏中拖放组件来配置图块。
+   单击记分卡生成器中的图块后，右侧边栏会显示与该图块关联的属性和特征。在此边栏中，您可以为图块提供一个新的&#x200B;**[!UICONTROL 标题]**，或者通过指定组件而不是从左侧边栏中拖放组件来配置图块。
 
    此外，如果单击图块，动态弹出窗口将会显示“划分”视图在应用程序中向执行用户显示的方式。如果未将任何维度应用于图块，则划分维度将为&#x200B;**小时**&#x200B;或&#x200B;**天**，具体取决于默认日期范围。
 
@@ -106,21 +106,21 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
    添加到图块的每个维度将显示在应用程序详细视图的下拉列表中。之后，执行用户可以从下拉列表所列的选项中进行选择。
 
-4. 要将区段应用于单个图块，请将左侧面板中的某个区段直接拖放到图块的顶部。如果要将区段应用于记分卡中的所有图块，请将区段拖放到记分卡的顶部。或者，您也可以通过在日期范围下方的筛选器菜单中选择区段来应用区段。您可以像在 Adobe Analytics Workspace 中一样[为记分卡配置和应用过滤器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)。
+4. 要将区段应用于单个图块，请将左侧面板中的某个区段直接拖放到图块的顶部。如果要将区段应用于记分卡中的所有图块，请将区段拖放到记分卡的顶部。或者，您也可以通过在日期范围下方的筛选器菜单中选择区段来应用区段。您可以像在 Adobe Analytics Workspace 中一样[为记分卡配置和应用过滤器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)。
 
    ![构建区段以进行过滤](assets/segment_ui.png)
 
-5. 同样，要删除应用于整个记分卡的组件，请单击记分卡上图块外的任意位置，然后单击将鼠标悬停在该组件上时显示的 **x** 来删除组件，如下面的&#x200B;**移动设备客户**&#x200B;区段所示：
+5. Similarly, to remove a component that is applied to the entire Scorecard, click anywhere on the Scorecard outside of the tiles and then remove it by clicking the **x** that appears when you hover over the component, as shown below for the **[!DNL Mobile Customers]** segment:
 
    ![Remove_components](assets/new_remove.png)
 
-6. 在记分卡的&#x200B;**属性**&#x200B;下，您还可以选择指定以下内容：
+6. 在记分卡的&#x200B;**[!UICONTROL 属性]**&#x200B;下，您还可以选择指定以下内容：
 
-   * **默认日期范围**。此处指定的范围将与针对执行用户在其应用程序中首次访问记分卡所应用的范围相同。
+   * A **[!UICONTROL Default date range]**. 此处指定的范围将与针对执行用户在其应用程序中首次访问记分卡所应用的范围相同。
 
-   * **比较日期范围**
+   * A **[!UICONTROL Comparison date range]**
 
-   * 要应用到整个记分卡的任何&#x200B;**区段**
+   * 要应用到整个记分卡的任何&#x200B;**[!UICONTROL 区段]**
 
 7. 要命名记分卡，请单击屏幕左上角的命名空间，然后键入新名称。
 
@@ -130,22 +130,22 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
 要与执行用户共享记分卡，请执行以下操作：
 
-1. 单击&#x200B;**共享**&#x200B;菜单，然后选择&#x200B;**共享记分卡**。
+1. Click the **[!UICONTROL Share]** menu and select **[!UICONTROL Share scorecard]**.
 
-2. 在&#x200B;**共享**&#x200B;表单中，通过以下方式填写字段：
+2. In the **[!UICONTROL Share mobile scorecard]** form, complete the fields by:
 
    * 提供记分卡的名称
    * 提供记分卡的说明
    * 添加相关标记
    * 指定记分卡的收件人
 
-3. 单击&#x200B;**共享**。
+3. 单击&#x200B;**[!UICONTROL 共享]**。
 
 ![Share_Scorecards](assets/new_share.png)
 
 共享记分卡后，收件人可在其 Analytics 功能板中访问该记分卡。如果您在记分卡生成器中对记分卡进行后续更改，则已共享的记分卡会自动更新以反映这些更改。然后，执行用户在其应用程序中刷新记分卡后，便可看到这些更改。
 
-如果通过添加新组件来更新记分卡，则您可能需要再次共享记分卡（并选中&#x200B;**共享嵌入的组件**&#x200B;选项），以确保执行用户有权访问这些更改。
+如果通过添加新组件来更新记分卡，则您可能需要再次共享记分卡（并选中&#x200B;**[!UICONTROL 共享嵌入的组件]**&#x200B;选项），以确保执行用户有权访问这些更改。
 
 ## 使用应用程序设置管理用户
 
@@ -159,7 +159,7 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 * 执行用户已有效登录 Adobe Analytics
 * 您已为执行用户正确创建了移动记分卡，并与他们共享了这些记分卡
 * 执行用户有权访问 Analysis Workspace 以及记分卡所基于的报表包
-* 执行用户有权访问记分卡中包含的组件。请注意，在共享记分卡时，您可以选择&#x200B;**共享嵌入的组件**&#x200B;选项。
+* 执行用户有权访问记分卡中包含的组件。请注意，在共享记分卡时，您可以选择&#x200B;**[!UICONTROL 共享嵌入的组件]**&#x200B;选项。
 
 ### 帮助执行用户使用应用程序
 
@@ -169,22 +169,22 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
    **对于 iOS 上的执行用户：**
 
-   * 单击以下链接（也可在 Analytics 的&#x200B;**工具** > **功能板**&#x200B;下找到该链接），然后按照提示下载、安装和打开应用程序：
+   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
       [iOS 链接](https://apple.co/2zXq0aN)
    **对于 Android 上的执行用户：**
 
-   * 单击以下链接（也可在 Analytics 的&#x200B;**工具** > **功能板**&#x200B;下找到该链接），然后按照相应提示下载、安装和打开应用程序：
+   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
       [Android 链接](https://bit.ly/2LM38Oo)
    下载并安装后，执行用户可以使用他们现有的 Adobe Analytics 凭据登录应用程序；我们同时支持 Adobe ID 和 Enterprise/Federated ID。
 
    ![应用程序欢迎屏幕](assets/welcome.png)
 
-2. 帮助他们访问您的记分卡。执行用户登录应用程序后，会显示&#x200B;**选择公司**&#x200B;屏幕。该屏幕列出了执行用户所属的登录公司。要帮助他们访问记分卡，请执行以下操作：
+2. 帮助他们访问您的记分卡。执行用户登录应用程序后，会显示&#x200B;**[!UICONTROL 选择公司]**&#x200B;屏幕。该屏幕列出了执行用户所属的登录公司。要帮助他们访问记分卡，请执行以下操作：
 
    * 点按应用于您共享的记分卡的登录公司或 Experience Cloud 组织的名称。然后，记分卡列表会显示与该登录公司下的执行用户共享的所有记分卡。
-   * 帮助他们按&#x200B;**最近修改**&#x200B;对此列表进行排序（如果适用）。
+   * 帮助他们按&#x200B;**[!UICONTROL 最近修改]**&#x200B;对此列表进行排序（如果适用）。
    * 点按记分卡的名称以查看记分卡。
 
    ![选择公司](assets/accesscard.png)
@@ -201,7 +201,7 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
    * 验证执行用户是否可以登录正确的 Analytics 实例，以及是否已共享记分卡。
 
 
-3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **Preferences** below if you think your executive user prefers this viewing opt-on):
+3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **[!UICONTROL Preferences]** below if you think your executive user prefers this viewing opt-on):
 
    ![说明图块](assets/newexplain.png)
 
@@ -231,17 +231,17 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
    * 您也可以按相同方式更改上面显示的“划分”视图中的日期范围。
 
-   * 根据点按的时间间隔（**日**、**周**、**月**&#x200B;或&#x200B;**年**），您将看到两个日期范围选项，即当前时间范围或紧随其前的时间范围。点按这两个选项之一，以选择第一个范围。在&#x200B;**比较对象**&#x200B;列表下，点按其中显示的一个选项，以将此时间段的数据与您选择的第一个日期范围进行比较。点按屏幕右上角的&#x200B;**完成**。**日期范围**&#x200B;字段和记分卡图块会更新以显示您选择的新范围中的新比较数据。
+   * 根据点按的时间间隔（**日**、**周**、**月**&#x200B;或&#x200B;**年**），您将看到两个日期范围选项，即当前时间范围或紧随其前的时间范围。点按这两个选项之一，以选择第一个范围。在&#x200B;**[!UICONTROL 比较对象]**&#x200B;列表下，点按其中显示的一个选项，以将此时间段的数据与您选择的第一个日期范围进行比较。点按屏幕右上角的&#x200B;**[!UICONTROL 完成]**。**[!UICONTROL 日期范围]**&#x200B;字段和记分卡图块会更新以显示您选择的新范围中的新比较数据。
 
 6. 要提供对应用程序的反馈，请执行以下操作：
 
    1. 点按应用程序屏幕右上方的设置图标。
-   2. 在&#x200B;**设置**&#x200B;屏幕上，点按&#x200B;**反馈**&#x200B;选项。
+   2. 在&#x200B;**[!UICONTROL 设置]**&#x200B;屏幕上，点按&#x200B;**[!UICONTROL 反馈]**&#x200B;选项。
    3. 点按以查看用于提供反馈的选项。
 
       ![“设置”屏幕](assets/settings.png)
 
-7. 要更改首选项，请点按上面显示的&#x200B;**首选项**&#x200B;选项。在“首选项”中，您可以打开生物识别登录，也可以将应用程序设置为深色模式，如下所示：
+7. 要更改首选项，请点按上面显示的&#x200B;**[!UICONTROL 首选项]**&#x200B;选项。在“首选项”中，您可以打开生物识别登录，也可以将应用程序设置为深色模式，如下所示：
 
    ![深色模式](assets/darkmode.png)
 
