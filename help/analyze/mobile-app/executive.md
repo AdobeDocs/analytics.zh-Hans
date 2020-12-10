@@ -1,11 +1,11 @@
 ---
 description: 有关使用功能板记分卡的说明。
 title: Adobe Analytics 功能板执行指南
-translation-type: ht
-source-git-commit: a388a66b431d9652a4bc436a9b923157e129b02c
-workflow-type: ht
-source-wordcount: '1287'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
+workflow-type: tm+mt
+source-wordcount: '1293'
+ht-degree: 95%
 
 ---
 
@@ -53,13 +53,13 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
 **对于 iOS 上的执行用户：**
 
-单击以下链接（也可在 Analytics 的&#x200B;**工具** > **功能板**&#x200B;下找到该链接），然后按照提示下载、安装和打开应用程序：
+Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
 [iOS 链接](https://apple.co/2zXq0aN)
 
 **对于 Android 上的执行用户：**
 
-单击以下链接（也可在 Analytics 的&#x200B;**工具** > **功能板**&#x200B;下找到该链接），然后按照相应提示下载、安装和打开应用程序：
+Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
 [Android 链接](https://bit.ly/2LM38Oo)
 
@@ -75,7 +75,7 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
    ![登录序列](assets/signseq.png)
 
-2. 选择一个公司。登录功能板后，会显示&#x200B;**选择公司**&#x200B;屏幕。此屏幕会列出您所属的登录公司。点按与您共享的记分卡所关联的公司名称。
+2. 选择一个公司。登录功能板后，会显示&#x200B;**[!UICONTROL 选择公司]**&#x200B;屏幕。此屏幕会列出您所属的登录公司。点按与您共享的记分卡所关联的公司名称。
 
 3. 然后，记分卡列表会显示与您共享的所有记分卡。点按要查看的记分卡。
 
@@ -88,7 +88,7 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
    ![未共享任何内容](assets/nothing.png)
 
-4. 检查图块在记分卡中的显示方式（第一个记分卡以深色模式显示；有关更多信息，请参阅下面的&#x200B;**首选项**）。
+4. 检查图块在记分卡中的显示方式（第一个记分卡以深色模式显示；有关更多信息，请参阅下面的&#x200B;**[!UICONTROL 首选项]**）。
 
    ![说明图块](assets/newexplain.png)
 
@@ -118,7 +118,7 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
    * 您也可以按相同方式更改上面显示的“划分”视图中的日期范围。
 
-   * 根据点按的时间间隔（**日**、**周**、**月**&#x200B;或&#x200B;**年**），您将看到两个日期范围选项，即当前时间范围或紧随其前的时间范围。点按这两个选项之一，以选择第一个范围。在&#x200B;**比较对象**&#x200B;列表下，点按其中显示的一个选项，以将此时间段的数据与您选择的第一个日期范围进行比较。点按屏幕右上角的&#x200B;**完成**。**日期范围**&#x200B;字段和记分卡图块会更新以显示您选择的新范围中的新比较数据。
+   * 根据点按的时间间隔（**日**、**周**、**月**&#x200B;或&#x200B;**年**），您将看到两个日期范围选项，即当前时间范围或紧随其前的时间范围。点按这两个选项之一，以选择第一个范围。在&#x200B;**[!UICONTROL 比较对象]**&#x200B;列表下，点按其中显示的一个选项，以将此时间段的数据与您选择的第一个日期范围进行比较。点按屏幕右上角的&#x200B;**[!UICONTROL 完成]**。**[!UICONTROL 日期范围]**&#x200B;字段和记分卡图块会更新以显示您选择的新范围中的新比较数据。
 
 7. 要将区段过滤器应用于记分卡，请点按过滤器下拉列表，然后选择由策划人配置的区段。应用程序中的[过滤器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)的工作方式与在 Analytics Workspace 中相同。
 
@@ -129,12 +129,12 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 9. 要提供对应用程序的反馈，请执行以下操作：
 
    1. 点按应用程序屏幕右上方的设置图标。
-   2. 在&#x200B;**设置**&#x200B;屏幕上，点按&#x200B;**反馈**&#x200B;选项。
+   2. 在&#x200B;**[!UICONTROL 设置]**&#x200B;屏幕上，点按&#x200B;**[!UICONTROL 反馈]**&#x200B;选项。
    3. 点按以查看用于提供反馈的选项。
 
       ![“设置”屏幕](assets/settings.png)
 
-10. 要更改首选项，请点按上面显示的&#x200B;**首选项**&#x200B;选项。在“首选项”中，您可以打开生物识别登录，也可以将应用程序设置为深色模式，如下所示：
+10. 要更改首选项，请点按上面显示的&#x200B;**[!UICONTROL 首选项]**&#x200B;选项。在“首选项”中，您可以打开生物识别登录，也可以将应用程序设置为深色模式，如下所示：
 
    ![深色模式](assets/darkmode.png)
 
