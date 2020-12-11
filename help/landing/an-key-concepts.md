@@ -1,11 +1,11 @@
 ---
 description: 此部分包含 Adobe Analytics 的关键概念、有关这些概念的简要描述，以及提供有关该主题的更多详细信息的特定文档链接。
 title: Adobe Analytics - 关键概念
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1864'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 97%
 
 | 产品 | 描述 | 文档链接 |
 | --- | --- | --- |
-| Analysis Workspace | 用于构建强大的自定义分析项目和实现分析民主化的浏览器解决方案。优惠比Reports and Analytics报告更灵活 | [Analysis Workspace家](/help/analyze/analysis-workspace/home.md) |
-| Reports and Analytics(前SiteCatalyst) | 用于报告和分析的浏览器解决方案。Analytics 包中的初学者工具。 | [Reports and Analytics家](/help/analyze/reports-analytics/getting-started.md) |
+| Analysis Workspace | 用于构建强大的自定义分析项目和实现分析民主化的浏览器解决方案。具有比 Reports and Analytics 更大的报告灵活性 | [Analysis Workspace 主页](/help/analyze/analysis-workspace/home.md) |
+| Reports and Analytics（以前称为 SiteCatalyst） | 用于报告和分析的浏览器解决方案。Analytics 包中的初学者工具。 | [Reports and Analytics 主页](/help/analyze/reports-analytics/getting-started.md) |
 | Report Builder | 允许您通过 Adobe Analytics 数据构建自定义请求并使用 Microsoft Excel 实现可视化的 Excel 外接程序。 | [Report Builder 主页](/help/analyze/report-builder/home.md) |
 | Ad Hoc Analysis（以前称为 Discover） | 用于高级数字分析的基于 Java 的工具。 | [Ad Hoc Analysis 主页](/help/analyze/ad-hoc-analysis/adhoc-home.md) |
 | Data Workbench（以前称为 Insight） | 旨在收集、处理、分析与可视化来自多个渠道间在线和离线客户交互的数据。 | [Data Workbench 客户端](https://docs.adobe.com/content/help/zh-Hans/data-workbench/using/client/t-open-ins.html) |
@@ -35,8 +35,8 @@ ht-degree: 97%
 
 | 术语 | 描述 | 文档链接 |
 | --- | --- | --- |
-| Prop（自定义流量） | 用于逐页跟踪网站流量活动的维度。Prop 不会在页面之间持续保留。流量变量的关键应用： <ul> <li>简单计数以查找“最受欢迎”的特定值</li> <li>了解用户如何寻访您的网站。</li> </ul> <br> 流量变量的示例：页面名称、网站区域、浏览器 | [Prop](/help/admin/admin/c-traffic-variables/traffic-var.md) |
-| eVar（自定义转化） | 在您自定义的时间段内持续保留的维度。过期选项包括事件过期、访问过期、或 X 日过期，应由将对该变量执行的分析类型驱使。<br>eVar 和 prop 之间的主要区别： <ul> <li>prop 通常用于路径分析，因为持久性会被删除。</li> <li>eVar 通常用于转化分析。</li> </ul> <br> 转化变量的示例：内部搜索词、内部促销活动、外部促销活动 (s.campaign) | [eVar](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) |
+| Prop（自定义流量） | 用于逐页跟踪网站流量活动的维度。Prop 不会在页面之间持续保留。流量变量的关键应用： <ul> <li>简单计数以查找“最受欢迎”的特定值</li> <li>了解用户如何寻访您的网站。</li> </ul> <br>流量变量的示例：页面名称、网站区域、浏览器 | [Prop](/help/admin/admin/c-traffic-variables/traffic-var.md) |
+| eVar（自定义转化） | 在您自定义的时间段内持续保留的维度。过期选项包括事件过期、访问过期、或 X 日过期，应由将对该变量执行的分析类型驱使。<br>eVar 和 prop 之间的主要区别： <ul> <li>prop 通常用于路径分析，因为持久性会被删除。</li> <li>eVar 通常用于转化分析。</li> </ul> <br>转化变量的示例：内部搜索词、内部促销活动、外部促销活动 (s.campaign) | [eVar](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) |
 | 事件/量度 (s.events) | 用于测量我们希望访客在我们的网站上采取的关键行动的量度。事件有 3 种类型：计数器、数值和货币。事件在被添加到转化变量报表 (eVar) 时是最有用的。eVar 提供所发生情况的质量信息，事件则提供所发生情况的数量信息。<br>eVar 和事件之间的主要区别： <ul> <li>eVar 可告诉我们，什么人、什么事情或什么内容影响了转化</li> <li>事件可测量有多少转化发生</li> </ul> <br>转化事件的示例：订单数、应用程序启动数、潜在客户数、收入。 | [事件](/help/admin/admin/c-success-events/success-event.md) |
 | 组件 | 可以拖放到项目中的维度、量度、区段和时间粒度（日期范围）。 | [组件](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) |
 | 维度 | eVar、prop、分类和标准 Adobe 收集值的集合。 | [维度](/help/components/dimensions/overview.md) |
@@ -45,7 +45,7 @@ ht-degree: 97%
 | 区段 | 能够生成、管理和共享强大而集中的受众区段，并将其应用于您的 Analytics 报表。区段在各 Analytics 产品间共享，还可在整个 Experience Cloud 中共享。 | [区段划分](/help/components/segmentation/seg-home.md) |
 | 时间（日期范围） | 能够将日期过滤到任何时间段并创建可在分析中重用的自定义日期范围。 | [日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) |
 | 可视化图表 | 丰富的视觉效果有助于使项目中的数据变得生动。 | [可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) |
-| 管理分析 | 能够限制可在项目或虚拟报表包中访问的组件。 | [VRS特选](/help/components/vrs/vrs-components.md) <br> [项目特选](/help/analyze/analysis-workspace/curate-share/curate.md) |
+| 管理分析 | 能够限制可在项目或虚拟报表包中访问的组件。 | [VRS 策划](/help/components/vrs/vrs-components.md) <br> [项目策划](/help/analyze/analysis-workspace/curate-share/curate.md) |
 
 ## 关键报表
 
@@ -58,7 +58,7 @@ ht-degree: 97%
 | 异常检测 | 确定给定的量度相对于以前的数据发生了什么变化的一种统计方法。默认情况下，Analysis Workspace 中所有趋势可视化图表的异常检测处于打开状态。 | [异常检测](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) |
 | 贡献分析 | 通过对您有权访问的每个量度和维度运行自动分析，了解发生异常的“原因”。 | [贡献分析](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md) |
 | 同类群组分析 | 同类群组是指一组在特定期限内共享相同特性的人员。同类群组分析有助于分析用户的维系率和流失率。 | [同类群组分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) |
-| 客户历程报表 | 显示有关用户浏览您的网站或应用程序的路径的信息。可以在 Analysis Workspace 中使用 Prop、eVar 和事件进行此类分析。 | [Analysis Workspace](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Analysis Workspace流](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Reports and Analytics路径](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
+| 客户历程报表 | 显示有关用户浏览您的网站或应用程序的路径的信息。可以在 Analysis Workspace 中使用 Prop、eVar 和事件进行此类分析。 | [Analysis Workspace 流失](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Analysis Workspace 流量](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Reports and Analytics 路径](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
 | 营销渠道 | 一种报表，可帮助您了解哪些外部渠道驱使用户访问您的网站，以及哪些内容可最有效地促使转化。提供首次和最近联系属性视图。这是 Adobe Analytics 中的首选外部流量源报表（而非促销活动或流量源），因为通过它可以最全面地了解付费和免费渠道。 | [营销渠道](/help/components/c-marketing-channels/c-getting-started-mchannel.md) |
 | 移动设备 | 显示有关从移动设备或平板电脑访问的网站的信息。 | [移动设备报表](/help/components/dimensions/mobile-dimensions.md) |
 | 移动设备应用程序 | 显示与您的移动设备应用程序相关的基本使用信息。只要我们的 SDK 得以实施并且报表处于开启状态，这些报表即可供您使用。此外，Adobe Mobile Services 还创建了一个单独的移动设备应用程序界面，它提供更加全面的应用程序数据，从而允许您了解和改进应用程序的用户参与。在[此处](https://mobilemarketing.adobe.com)访问该界面。 | [Adobe Mobile Services](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html) |
@@ -113,5 +113,5 @@ ht-degree: 97%
 | DTM 和 Adobe Launch | 请参阅 Analytics 工具。 |  |
 | VISTA | 允许您在收集数据时应用服务器端逻辑来更改或划分数据。 | [VISTA 规则](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md) |
 | 处理规则 | 能够在 Analytics UI 中设置、修改和复制变量，以更改收集的数据。 | [处理规则](/help/admin/admin/c-processing-rules/processing-rules.md) |
-| 调试器选项 | 有几个调试器和数据包嗅探器可帮助验证您的实施，包括Adobe Experience Cloud调试器。 | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en) |
+| 调试器选项 | 有几个调试器和数据包探查器可用于帮助验证您的实施，包括 Adobe Experience Cloud 调试器。 | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en) |
 | 数据插入 API | 数据插入 API 提供了一种机制，可用于收集服务器端数据并将这些数据提交到 Experience Cloud 服务器。服务器端数据收集仅基于 Web 浏览器请求和 Web 服务器响应来收集数据，而不是在每个网页上使用 JavaScript 信标将访客数据传输到 Experience Cloud 服务器。 | [使用 POST 实施 Adobe Analytics 数据插入 API 的步骤](https://helpx.adobe.com/cn/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
