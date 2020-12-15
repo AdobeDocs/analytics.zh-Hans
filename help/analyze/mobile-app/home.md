@@ -1,18 +1,18 @@
 ---
 title: Adobe Analytics 功能板 - 概述
 description: Adobe Analytics 功能板的产品文档和自助信息
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3612800349243ed4ce7a137a6c2eaf12e5abb4a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Analytics [!UICONTROL dashboards] - Overview
+# Adobe Analytics [!UICONTROL 功能板] - 概述
 
-**[!UICONTROL Adobe Analytics 功能板]**&#x200B;可以随时随地从 Adobe Analytics 提供分析。该应用程序允许用户通过移动设备访问直观的记分卡。记分卡是关键量度和其他组件的集合，这些组件以平铺布局显示，您可以点击它们以获取更详细的划分和趋势报表。iOS 和 Android 操作系统均支持移动设备应用程序。
+**Adobe Analytics [!UICONTROL 功能板]**&#x200B;可以随时随地从 Adobe Analytics 提供分析。该应用程序允许用户通过移动设备访问直观的记分卡。记分卡是关键量度和其他组件的集合，这些组件以平铺布局显示，您可以点击它们以获取更详细的划分和趋势报表。iOS 和 Android 操作系统均支持移动设备应用程序。
 
 要进一步了解 Adobe Analytics [!UICONTROL 功能板]，请参阅以下资源：
 
