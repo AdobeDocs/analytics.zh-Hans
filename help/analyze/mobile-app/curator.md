@@ -1,20 +1,20 @@
 ---
 description: 有关设置功能板记分卡的说明。
 title: Adobe Analytics 功能板策划人指南
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2380'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 
 # Adobe Analytics 功能板策划人指南
 
-以下信息将指导 Adobe Analytics 数据策划人如何为执行用户配置和展示功能板。要观看演示此信息的视频，请参阅Adobe Analytics仪表板记分卡生成器视频：
+以下信息将指导 Adobe Analytics 数据策划人如何为执行用户配置和展示功能板。要观看相关演示视频，请访问以下“Adobe Analytics 功能板记分卡生成器”视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/34544)
+>[!VIDEO](https://video.tv.adobe.com/v/34544?captions=chi_hans)
 
 ## 简介
 
@@ -51,17 +51,17 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
 要创建记分卡，您需要执行以下操作：
 
-1. Access the [!UICONTROL Blank Mobile Scorecard] template.
+1. 访问[!UICONTROL 空白移动记分卡]模板。
 2. 使用数据配置记分卡并保存。
 
-### Access the [!UICONTROL Blank Mobile Scorecard] template
+### 访问[!UICONTROL 空白移动记分卡]模板
 
-You can access the [!UICONTROL Blank Mobile Scorecard] template in one of the following ways:
+您可以通过以下方式之一访问[!UICONTROL 空白移动记分卡]模板：
 
 **创建新项目**
 
 1. 打开 Adobe Analytics，然后单击&#x200B;**[!UICONTROL 工作区]**&#x200B;选项卡。
-2. 单击&#x200B;**[!UICONTROL 创建新项目]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 空移动记分卡]**&#x200B;项目模板。
+2. 单击&#x200B;**[!UICONTROL 创建新项目]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 空白移动记分卡]**&#x200B;项目模板。
 3. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;按钮。
 
 ![记分卡模板](assets/new_template.png)
@@ -72,19 +72,19 @@ You can access the [!UICONTROL Blank Mobile Scorecard] template in one of the fo
 
 ![添加项目](assets/add_project.png)
 
-**使用工 [!DNL Analytics] 具**
+**使用 [!DNL Analytics] 工具**
 
-In [!DNL Analytics], click the **[!UICONTROL Tools]** menu and select **[!UICONTROL Analytics dashboards (Mobile App)]**. On the subsequent screen, click the **[!UICONTROL Create new scorecard]** button.
+在 [!DNL Analytics] 中，单击&#x200B;**[!UICONTROL 工具]**&#x200B;菜单，然后选择 **[!UICONTROL Analytics 功能板（移动应用程序）]**。在后续显示的屏幕上，单击&#x200B;**[!UICONTROL 新建记分卡]**&#x200B;按钮。
 
 ### 使用数据配置记分卡并保存
 
 要实施记分卡模板，请执行以下操作：
 
-1. Under **[!UICONTROL Properties]** (in the right-hand rail), specify a **[!UICONTROL Project report suite]** from which you want to use data.
+1. 在&#x200B;**[!UICONTROL 属性]**（位于右侧边栏中）下，指定要从中使用数据的&#x200B;**[!UICONTROL 项目报表包]**。
 
    ![报表包选择](assets/properties_save.png)
 
-2. To add a new tile to your Scorecard, drag a metric from the left panel and drop it into the **[!UICONTROL Drag and Drop Metrics Here]** zone. 您也可以使用类似的工作流程，在两个图块之间插入量度。
+2. 要向记分卡中添加新图块，请将左侧面板中的某个量度拖放到&#x200B;**[!UICONTROL 在此处拖放量度]**&#x200B;区域。您也可以使用类似的工作流程，在两个图块之间插入量度。
 
    ![添加图块](assets/build_list.png)
 
@@ -92,7 +92,7 @@ In [!DNL Analytics], click the **[!UICONTROL Tools]** menu and select **[!UICONT
    *从每个图块中，您可以访问一个详细视图，该视图显示有关量度的其他信息，例如，相关维度列表的排名最前的项目。*
 
 
-3. 要向量度中添加相关维度，请将左侧面板中的维度拖放到图块中。For example, you can add appropriate dimensions (like **[!DNL DMA Region]**, in this example) to the **[!UICONTROL Unique Visitors]** metric by dragging and dropping it onto the tile; dimensions you add will appear under the breakdown section of the tile-specific **[!UICONTROL Properties]**. 可向每个图块中添加多个维度。
+3. 要向量度中添加相关维度，请将左侧面板中的维度拖放到图块中。例如，您可以通过将维度拖放到图块中的方式，将相应维度（例如，本例中的 **[!DNL DMA Region]**）添加到&#x200B;**[!UICONTROL 独特访客数]**&#x200B;量度；您添加的维度将显示在特定于图块的&#x200B;**[!UICONTROL 属性]**&#x200B;的划分部分下方。可向每个图块中添加多个维度。
 
    ![添加维度](assets/layer_dimensions.png)
 
@@ -110,15 +110,15 @@ In [!DNL Analytics], click the **[!UICONTROL Tools]** menu and select **[!UICONT
 
    ![构建区段以进行过滤](assets/segment_ui.png)
 
-5. Similarly, to remove a component that is applied to the entire Scorecard, click anywhere on the Scorecard outside of the tiles and then remove it by clicking the **x** that appears when you hover over the component, as shown below for the **[!DNL Mobile Customers]** segment:
+5. 同样，要删除应用于整个记分卡的组件，请单击记分卡上图块外的任意位置，然后单击将鼠标悬停在该组件上时显示的 **x** 来删除组件，如下面的 **[!DNL Mobile Customers]** 区段所示：
 
    ![Remove_components](assets/new_remove.png)
 
 6. 在记分卡的&#x200B;**[!UICONTROL 属性]**&#x200B;下，您还可以选择指定以下内容：
 
-   * A **[!UICONTROL Default date range]**. 此处指定的范围将与针对执行用户在其应用程序中首次访问记分卡所应用的范围相同。
+   * **[!UICONTROL 默认日期范围]**。此处指定的范围将与针对执行用户在其应用程序中首次访问记分卡所应用的范围相同。
 
-   * A **[!UICONTROL Comparison date range]**
+   * **[!UICONTROL 比较日期范围]**
 
    * 要应用到整个记分卡的任何&#x200B;**[!UICONTROL 区段]**
 
@@ -130,9 +130,9 @@ In [!DNL Analytics], click the **[!UICONTROL Tools]** menu and select **[!UICONT
 
 要与执行用户共享记分卡，请执行以下操作：
 
-1. Click the **[!UICONTROL Share]** menu and select **[!UICONTROL Share scorecard]**.
+1. 单击&#x200B;**[!UICONTROL 共享]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 共享记分卡]**。
 
-2. In the **[!UICONTROL Share mobile scorecard]** form, complete the fields by:
+2. 在&#x200B;**[!UICONTROL 共享移动记分卡]**&#x200B;表单中，通过以下方式填写字段：
 
    * 提供记分卡的名称
    * 提供记分卡的说明
@@ -147,7 +147,7 @@ In [!DNL Analytics], click the **[!UICONTROL Tools]** menu and select **[!UICONT
 
 如果通过添加新组件来更新记分卡，则您可能需要再次共享记分卡（并选中&#x200B;**[!UICONTROL 共享嵌入的组件]**&#x200B;选项），以确保执行用户有权访问这些更改。
 
-## 使用应用程序设置管理用户
+## 使用应用程序设置执行用户
 
 在某些情况下，执行用户可能需要一些其他帮助才能访问和使用应用程序。本节将介绍有助于您提供该帮助的信息。
 
@@ -169,12 +169,12 @@ In [!DNL Analytics], click the **[!UICONTROL Tools]** menu and select **[!UICONT
 
    **对于 iOS 上的执行用户：**
 
-   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
+   * 单击以下链接（也可在 Analytics 的&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL Analytics 功能板（移动应用程序）]**&#x200B;下找到该链接），然后按照相应提示下载、安装和打开应用程序：
 
       [iOS 链接](https://apple.co/2zXq0aN)
    **对于 Android 上的执行用户：**
 
-   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
+   * 单击以下链接（也可在 Analytics 的&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL Analytics 功能板（移动应用程序）]**&#x200B;下找到该链接），然后按照相应提示下载、安装和打开应用程序：
 
       [Android 链接](https://bit.ly/2LM38Oo)
    下载并安装后，执行用户可以使用他们现有的 Adobe Analytics 凭据登录应用程序；我们同时支持 Adobe ID 和 Enterprise/Federated ID。
@@ -201,7 +201,7 @@ In [!DNL Analytics], click the **[!UICONTROL Tools]** menu and select **[!UICONT
    * 验证执行用户是否可以登录正确的 Analytics 实例，以及是否已共享记分卡。
 
 
-3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **[!UICONTROL Preferences]** below if you think your executive user prefers this viewing opt-on):
+3. 向执行用户说明图块在您共享的记分卡中的显示方式（下面的第一个记分卡是在深色模式下设置的；如果您认为您的执行用户更喜欢这个视图选项，请参阅&#x200B;**[!UICONTROL 首选项]**）：
 
    ![说明图块](assets/newexplain.png)
 
@@ -262,4 +262,4 @@ In [!DNL Analytics], click the **[!UICONTROL Tools]** menu and select **[!UICONT
 
 >[!IMPORTANT]
 >
->从2020年10月开始，Adobe逐步推出一系列增强功能，以优化“Adobe Analytics仪表板”应用程序的性能。 这些增强功能主要用于缓存用于用日期填充记分卡的历史Analytics数据（不包括当天）。 此数据将在安全的Microsoft Azure公共云存储帐户中缓存24小时。 如果您希望使用这些性能增强功选择退出能，请联系客户服务经理。
+>从 2020 年 10 月开始，Adobe 逐步推出一系列增强功能，以优化“Adobe Analytics 功能板”应用程序的性能。这些增强功能的重心在于缓存用于填充特定日期（不包括当天）记分卡的历史 Analytics 数据。该数据将在安全的 Microsoft Azure 公共云存储帐户中缓存长达 24 小时。如果您想要选择退出这些性能增强功能，请联系您的客户成功经理。
