@@ -2,10 +2,10 @@
 title: 设置跨设备分析
 description: 配置虚拟报表包以启用 CDA。
 translation-type: tm+mt
-source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
+source-git-commit: da4f4d843e02865c006df2190d19a85306dbf2d0
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 91%
+source-wordcount: '477'
+ht-degree: 68%
 
 ---
 
@@ -18,9 +18,16 @@ ht-degree: 91%
 >
 >在执行这些步骤之前，必须满足所有先决条件。如果不满足所有先决条件，该功能将不可用或无法正常工作。请参阅[概述页面](overview.md)和所需的拼合方法（分别为[基于字段的拼合](field-based-stitching.md)或[设备图](device-graph.md)），了解先决条件和限制。
 
-## 选择要启用 CDA 的跨设备报表包
+## 联系您的客户成功经理，在跨设备报告套件中设置CDA
 
-在贵组织准备好使用 CDA 后，请选择要使用该功能的报表包。可通过 Adobe 客户经理来告知您选择的报表包。然后，Adobe 将为您选择的报表包启用 CDA 处理。
+CDA是通过Adobe工程在跨设备报表包中设置的。 请联系您的客户成功经理，获得以下信息：
+
+* 您的Adobe Experience Cloud组织ID（以@AdobeOrg结尾的字母数字字符串）
+* 要通过CDA启用的跨设备报表包的报表包ID
+* 要使用哪种CDA方法(基于字段的拼接、Adobe专用图或Adobe合作图)
+* 如果要使用基于字段的拼接，则包含用户ID的prop或eVar
+
+向客户服务经理提供此信息后，他们会与Adobe工程部门合作，以启用您选择的报表包进行CDA处理。
 
 ## 创建跨设备虚拟报表包以查看跨设备视图
 
@@ -43,7 +50,7 @@ ht-degree: 91%
 在虚拟报表包中启用跨设备分析后，请注意以下更改：
 
 * 虚拟报表包名称旁边将显示一个新的跨设备图标。此图标仅适用于跨设备虚拟报表包。
-* A new dimension labeled [Identified state](../dimensions/identified-state.md) is available. 此维度确定当时设备图是否知晓该点击的 Experience Cloud ID。
-* New metrics labeled [People](../metrics/people.md) and [Unique Devices](../metrics/unique-devices.md) are available.
-* The metric [Unique Visitors](../metrics/unique-visitors.md) is not available, as it is replaced with &#39;People&#39; and &#39;Unique Devices&#39;.
+* 标记为[已标识状态](../dimensions/identified-state.md)的新维可用。 此维度确定当时设备图是否知晓该点击的 Experience Cloud ID。
+* 标记为[People](../metrics/people.md)和[唯一设备](../metrics/unique-devices.md)的新指标可用。
+* 度量[唯一访客](../metrics/unique-visitors.md)不可用，因为它被替换为“人员”和“唯一设备”。
 * 构建区段后，“访客”区段容器将被替换为“人员”容器。
