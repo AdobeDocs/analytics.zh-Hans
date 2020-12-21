@@ -2,10 +2,10 @@
 title: getTimeParting
 description: 测量特定操作发生的时间。
 translation-type: tm+mt
-source-git-commit: c56891495b610ae14b0341e6a8e64edd115ae105
+source-git-commit: 01dce7813d60801f5c7826a903bb97d0db5d2617
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 82%
+source-wordcount: '814'
+ht-degree: 84%
 
 ---
 
@@ -23,10 +23,6 @@ Analysis Workspace 提供了与此插件类似的开箱即用维度，只是维�
 >[!IMPORTANT]
 >
 >此插件的4.0+版与先前版本有显着不同。 Adobe 强烈建议您“从头开始”实施此插件。引用了版本 4.0 之前插件的代码与此插件的当前版本不兼容。
-
->[!IMPORTANT]
->
->此插件的先前版本未能适应未来所有时间。 如果使用此插件的先前版本，Adobe强烈建议升级到最新版本，以避免JavaScript错误和数据丢失。 如果升级此插件不可行，请确保插件代码中的`s._tpdst`变量将来包含相应的年份。 此变量在最新版本的插件中不存在或不是必需的。
 
 ## 使用 Adobe Experience Platform Launch 扩展安装此插件
 
@@ -157,6 +153,10 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 * 修正版本（重新编译，代码更小）
 * 由于现在可自动检测到夏令时开始/结束日期，因此无需再使用 `tpDST` 参数。
+
+>[!CAUTION]
+>
+>此插件的先前版本未能适应未来所有时间。 如果使用此插件的先前版本，Adobe强烈建议升级到最新版本，以避免JavaScript错误和数据丢失。 如果升级此插件不可行，请确保插件代码中的`s._tpdst`变量将来包含相应的年份。
 
 ### 4.0（2016 年 8 月 22 日）
 
