@@ -2,10 +2,10 @@
 title: getTimeParting
 description: 测量特定操作发生的时间。
 translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+source-git-commit: c56891495b610ae14b0341e6a8e64edd115ae105
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 98%
+source-wordcount: '828'
+ht-degree: 82%
 
 ---
 
@@ -23,6 +23,10 @@ Analysis Workspace 提供了与此插件类似的开箱即用维度，只是维�
 >[!IMPORTANT]
 >
 >此插件的4.0+版与先前版本有显着不同。 Adobe 强烈建议您“从头开始”实施此插件。引用了版本 4.0 之前插件的代码与此插件的当前版本不兼容。
+
+>[!IMPORTANT]
+>
+>此插件的先前版本未能适应未来所有时间。 如果使用此插件的先前版本，Adobe强烈建议升级到最新版本，以避免JavaScript错误和数据丢失。 如果升级此插件不可行，请确保插件代码中的`s._tpdst`变量将来包含相应的年份。 此变量在最新版本的插件中不存在或不是必需的。
 
 ## 使用 Adobe Experience Platform Launch 扩展安装此插件
 
@@ -105,11 +109,11 @@ s.eVarX = getTimeParting("America/Los_Angeles");
 s.eVarX = getTimeParting();
 ```
 
-加纳处于 UTC/GMT 时区内。此示例说明，在这种情况下，无需使用任何插件参数。
+加纳处于 UTC/GMT 时区内。此示例说明UTC/GMT不需要插件参数。
 
 ### 考虑 Internet Explorer 浏览器
 
-如果要排除 Internet Explorer 访客的时间划分数据，请使用以下示例（原因是从 IE 浏览器返回的值只能使用访客所在地区的本地时间）
+如果要从Internet Explorer访客中排除分时段数据，请使用以下示例。 从IE浏览器返回的值仅在访客的本地时间。
 
 ```js
 if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
@@ -118,39 +122,21 @@ else s.eVarX = "Internet Explorer Visitors";
 
 ### 调用结果
 
-如果来自科罗拉多州丹佛的访客于 2020 年 8 月 31 日上午 9:15 访问某网站，
-
-运行以下代码...
+假设2020年8月31日美国丹佛科罗拉多州访客在上午9:15访问某网站。
 
 ```js
 s.eVar10 = getTimeParting("Europe/Athens");
+// Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 PM"
+
+s.eVar11 = getTimeParting("America/Nome");
+// Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 AM"
+
+s.eVar12 = getTimeParting("Asia/Calcutta");
+// Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=8:45 PM"
+
+s.eVar13 = getTimeParting("Australia/Sydney");
+// Returns the string value "year=2020 | month=September | date=1 | day=Saturday | time=1:15 AM"
 ```
-
-...会将 s.eVar10 设置为等于“year=2020 | month=August | date=31 | day=Friday | time=6:15 PM”
-
-而以下代码...
-
-```js
-s.eVar10 = getTimeParting("America/Nome");
-```
-
-...会将 s.eVar10 设置为等于“year=2020 | month=August | date=31 | day=Friday | time=6:15 AM”
-
-以下代码...
-
-```js
-s.eVar10 = getTimeParting("Asia/Calcutta");
-```
-
-...会将 s.eVar10 设置为等于“year=2020 | month=August | date=31 | day=Friday | time=8:45 PM”
-
-以下代码...
-
-```js
-s.eVar10 = getTimeParting("Australia/Sydney");
-```
-
-...会将 s.eVar10 设置为等于“year=2020 | month=September | date=1 | day=Saturday | time=1:15 AM”
 
 ## 版本历史记录
 
