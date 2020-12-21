@@ -2,11 +2,11 @@
 description: 计算量度生成器允许您将统计和数学函数应用于生成高级计算量度。
 title: 引用：基本函数
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1056'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f602d5599206b2615e8c31508731548ffb73814d
+workflow-type: tm+mt
+source-wordcount: '1047'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->当 [!DNL metric] 被标识为函数中的参数时，还允许使用其他量度表达式。例如，[!DNL MAXV(metrics)] 还允许使用 [!DNL MAXV(PageViews + Visits).]
+>当 [!DNL metric] 被标识为函数中的参数时，还允许使用其他量度表达式。例如，[!DNL MAXV(metrics)] 还允许使用 [!DNL MAXV(PageViews + Visits)].
 
 ## table 函数与 row 函数 {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -47,7 +47,7 @@ MAXV(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 您希望计算的量度。 |
+| *度量* | 您希望计算的量度。 |
 
 ## 列最小值 {#concept_5B1033F8ACE9485F9AD3CDC0D146391B}
 
@@ -59,7 +59,7 @@ MINV(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 您希望计算的量度。 |
+| *度量* | 您希望计算的量度。 |
 
 ## 列总和 {#concept_391F04FBC3CC43368CA0C5AACE74D4B1}
 
@@ -71,7 +71,7 @@ SUM(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 您希望求总值或总和的量度。 |
+| *度量* | 您希望求总值或总和的量度。 |
 
 ## 计数 (Table) {#concept_2C6ED2B88AB74481BD130969FB071A41}
 
@@ -83,7 +83,7 @@ COUNT(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 您希望计数的量度。 |
+| *度量* | 您希望计数的量度。 |
 
 ## 指数 (Row) {#concept_17554F9D234449FB8DDEE895816B3FF1}
 
@@ -95,15 +95,15 @@ EXP(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 应用于底数 *e* 的指数。 |
+| *度量* | 应用于底数 *e* 的指数。 |
 
 ## 求幂 {#concept_941578534F1E4583B1BEB067C8113A21}
 
 幂运算符
 
-<pre>
-pow(x,y) = x<sup>y</sup> = x*x*x*… (y 次)
-</pre>
+```
+pow(x,y) = x<sup>y</sup> = x*x*x*… (y times)
+```
 
 ## 平均值 (Table) {#concept_F4FF950580304D0B99DA7FBB5DB8730A}
 
@@ -115,7 +115,7 @@ MEAN(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 您希望求平均数的量度。 |
+| *度量* | 您希望求平均数的量度。 |
 
 ## 中间值 (Table) {#concept_183EC31208524EDB8463D986DE2E895F}
 
@@ -127,7 +127,7 @@ MEDIAN(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 您希望求中间值的量度。 |
+| *度量* | 您希望求中间值的量度。 |
 
 ## 取模 {#concept_DE0825D7A51643219CB01F59667EA352}
 
@@ -161,24 +161,10 @@ modulo(modulo(x,y)+y,y)
 PERCENTILE(metric,k)
 ```
 
-<table id="table_35CD840ACFB44CD9979881DB8823CC53"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 参数 </th> 
-   <th colname="col2" class="entry"> 描述 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <i>metric</i> </td> 
-   <td colname="col2"> 用于定义相对位置的量度列。 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>k </p> </td> 
-   <td colname="col2"> 介于 0 到 100 之间（包括 0 和 100）的百分位数值。 </td> 
-  </tr> 
- </tbody> 
-</table>
+| 参数 | 描述 |
+| --- | --- |
+| *度量* | 用于定义相对位置的量度列。 |
+| *k* | 介于 0 到 100 之间（包括 0 和 100）的百分位数值。 |
 
 ## 四分位数 (Table) {#concept_BFD37F0F23A24AD181407142233FA151}
 
@@ -188,24 +174,10 @@ PERCENTILE(metric,k)
 QUARTILE(metric,quart)
 ```
 
-<table id="table_64EA3DAAE77541439D59FAF0353F83A2"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 参数 </th> 
-   <th colname="col2" class="entry"> 描述 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <i>metric</i> </td> 
-   <td colname="col2"> 您希望求四分位数值的量度。 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>quart </p> </td> 
-   <td colname="col2"> 指示要返回哪个*值。 </td> 
-  </tr> 
- </tbody> 
-</table>
+| 参数 | 描述 |
+| --- | --- |
+| *度量* | 您希望求四分位数值的量度。 |
+| *quart* | 指示要返回哪个*值。 |
 
 *如果 *quart* = 0，则 QUARTILE 返回最小值。如果 *quart* = 1，则 QUARTILE 返回第一个四分位数（第 25 个百分位数）。如果 *quart* = 2，则 QUARTILE 返回第一个四分位数（第 50 个百分位数）。如果 *quart* = 3，则 QUARTILE 返回第一个四分位数（第 75 个百分位数）。如果 *quart* = 4，则 QUARTILE 返回最大值。
 
@@ -224,9 +196,9 @@ ROUND(metric)
 在没有位数参数的情况下四舍五入，与在位数参数为 0 的情况下四舍五入是相同的，都会四舍五入为最接近的整数。使用位数参数，可在小数点右侧返回多位数字。如果位数为负，则在小数点左侧返回 0。
 
 ```
-round( 314.15, 0) = 314 
-round( 314.15, 1) = 314.1 
-round( 314.15, -1) = 310 
+round( 314.15, 0) = 314
+round( 314.15, 1) = 314.1
+round( 314.15, -1) = 310
 round( 314.15, -2) = 300
 ```
 
@@ -255,7 +227,7 @@ SQRT(metric)
 ```
 
 | 参数 | 描述 |
-|---|---|
+| --- | --- |
 | *数字* | 您希望求平方根的量度。 |
 
 ## 标准偏差 (Table) {#concept_A383A8BCC6FA42D7B73F7C83997D782A}
@@ -266,24 +238,15 @@ STDEV 的方程式为：
 
 ![](assets/std_dev.png)
 
-其中，x 为抽样平均值 (*metric*)，*n* 为抽样大小。
+其中&#x200B;*x*&#x200B;是每个样本(*metric*)的值，*x̄*&#x200B;是人口平均值，*n*&#x200B;是人口大小。
 
 ```
 STDEV(metric)
 ```
 
-<table id="table_8BCF2E4B02434AABAAD026FB3C4E8B2F"> 
- <tbody> 
-  <tr> 
-   <td> <b> 参数</b> </td> 
-   <td> <b> 描述</b> </td> 
-  </tr> 
-  <tr> 
-   <td> <b> <i> metric</i> </b> </td> 
-   <td> <p> 您希望求标准偏差的量度。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 参数 | 描述 |
+| --- | --- |
+| *度量* | 您希望求标准偏差的量度。 |
 
 ## 变量 (Table) {#concept_269751EDC5A34E689112AE16E04A11B0}
 
@@ -293,23 +256,21 @@ VARIANCE 的方程式为：
 
 ![](assets/variance_eq.png)
 
-其中，x 为抽样平均值 MEAN(*metric*)，*n* 为抽样大小。
+其中&#x200B;*x*&#x200B;是每个样本(*metric*)的值，*x̄*&#x200B;是人口平均值，*n*&#x200B;是人口大小。
 
 ```
 VARIANCE(metric)
 ```
 
 | 参数 | 描述 |
-|---|---|
-| *metric* | 您希望求变量的量度。 |
+| --- | --- |
+| *度量* | 您希望求变量的量度。 |
 
 为了计算变量，需要查看整列数字。首先，从该数字列表计算平均值。得出平均值后，浏览每个条目，然后执行以下操作：
 
 1. 从数字中减去平均值。
-
-2. 将结果求平方。
-
-3. 再相加求和。
+1. 将结果求平方。
+1. 再相加求和。
 
 对整列进行迭代后，您将得到一个总数。然后，将该总数除以列中的项目数。得出的数值就是列变量。它是单个数字。但它会显示为一列数字。
 
@@ -321,10 +282,4 @@ VARIANCE(metric)
 
 3
 
-此列的平均值为 2。此列的变量将为 ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3。在 Ad Hoc Analysis 中，它将显示如下：
-
-1 2/3
-
-2 2/3
-
-3 2/3
+此列的平均值为 2。此列的变量将为 ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3。
