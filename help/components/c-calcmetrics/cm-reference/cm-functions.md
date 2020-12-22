@@ -2,11 +2,11 @@
 description: 计算量度生成器允许您将统计和数学函数应用于生成高级计算量度。
 title: 引用：基本函数
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f602d5599206b2615e8c31508731548ffb73814d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1047'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->当 [!DNL metric] 被标识为函数中的参数时，还允许使用其他量度表达式。例如，[!DNL MAXV(metrics)] 还允许使用 [!DNL MAXV(PageViews + Visits)].
+>当 [!DNL metric] 被标识为函数中的参数时，还允许使用其他量度表达式。例如，[!DNL MAXV(metrics)] 还允许使用 [!DNL MAXV(PageViews + Visits)]。
 
 ## table 函数与 row 函数 {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -47,7 +47,7 @@ MAXV(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *度量* | 您希望计算的量度。 |
+| *metric* | 您希望计算的量度。 |
 
 ## 列最小值 {#concept_5B1033F8ACE9485F9AD3CDC0D146391B}
 
@@ -59,7 +59,7 @@ MINV(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *度量* | 您希望计算的量度。 |
+| *metric* | 您希望计算的量度。 |
 
 ## 列总和 {#concept_391F04FBC3CC43368CA0C5AACE74D4B1}
 
@@ -71,7 +71,7 @@ SUM(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *度量* | 您希望求总值或总和的量度。 |
+| *metric* | 您希望求总值或总和的量度。 |
 
 ## 计数 (Table) {#concept_2C6ED2B88AB74481BD130969FB071A41}
 
@@ -83,7 +83,7 @@ COUNT(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *度量* | 您希望计数的量度。 |
+| *metric* | 您希望计数的量度。 |
 
 ## 指数 (Row) {#concept_17554F9D234449FB8DDEE895816B3FF1}
 
@@ -95,7 +95,7 @@ EXP(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *度量* | 应用于底数 *e* 的指数。 |
+| *metric* | 应用于底数 *e* 的指数。 |
 
 ## 求幂 {#concept_941578534F1E4583B1BEB067C8113A21}
 
@@ -115,7 +115,7 @@ MEAN(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *度量* | 您希望求平均数的量度。 |
+| *metric* | 您希望求平均数的量度。 |
 
 ## 中间值 (Table) {#concept_183EC31208524EDB8463D986DE2E895F}
 
@@ -127,7 +127,7 @@ MEDIAN(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *度量* | 您希望求中间值的量度。 |
+| *metric* | 您希望求中间值的量度。 |
 
 ## 取模 {#concept_DE0825D7A51643219CB01F59667EA352}
 
@@ -163,7 +163,7 @@ PERCENTILE(metric,k)
 
 | 参数 | 描述 |
 | --- | --- |
-| *度量* | 用于定义相对位置的量度列。 |
+| *metric* | 用于定义相对位置的量度列。 |
 | *k* | 介于 0 到 100 之间（包括 0 和 100）的百分位数值。 |
 
 ## 四分位数 (Table) {#concept_BFD37F0F23A24AD181407142233FA151}
@@ -176,7 +176,7 @@ QUARTILE(metric,quart)
 
 | 参数 | 描述 |
 | --- | --- |
-| *度量* | 您希望求四分位数值的量度。 |
+| *metric* | 您希望求四分位数值的量度。 |
 | *quart* | 指示要返回哪个*值。 |
 
 *如果 *quart* = 0，则 QUARTILE 返回最小值。如果 *quart* = 1，则 QUARTILE 返回第一个四分位数（第 25 个百分位数）。如果 *quart* = 2，则 QUARTILE 返回第一个四分位数（第 50 个百分位数）。如果 *quart* = 3，则 QUARTILE 返回第一个四分位数（第 75 个百分位数）。如果 *quart* = 4，则 QUARTILE 返回最大值。
@@ -238,7 +238,7 @@ STDEV 的方程式为：
 
 ![](assets/std_dev.png)
 
-其中&#x200B;*x*&#x200B;是每个样本(*metric*)的值，*x̄*&#x200B;是人口平均值，*n*&#x200B;是人口大小。
+其中 *x* 是每个抽样 (*metric*) 的值，*x̄* 是群体平均值，*n* 是群体大小。
 
 ```
 STDEV(metric)
@@ -246,7 +246,7 @@ STDEV(metric)
 
 | 参数 | 描述 |
 | --- | --- |
-| *度量* | 您希望求标准偏差的量度。 |
+| *metric* | 您希望求标准偏差的量度。 |
 
 ## 变量 (Table) {#concept_269751EDC5A34E689112AE16E04A11B0}
 
@@ -256,7 +256,7 @@ VARIANCE 的方程式为：
 
 ![](assets/variance_eq.png)
 
-其中&#x200B;*x*&#x200B;是每个样本(*metric*)的值，*x̄*&#x200B;是人口平均值，*n*&#x200B;是人口大小。
+其中 *x* 是每个抽样 (*metric*) 的值，*x̄* 是群体平均值，*n* 是群体大小。
 
 ```
 VARIANCE(metric)
@@ -264,7 +264,7 @@ VARIANCE(metric)
 
 | 参数 | 描述 |
 | --- | --- |
-| *度量* | 您希望求变量的量度。 |
+| *metric* | 您希望求变量的量度。 |
 
 为了计算变量，需要查看整列数字。首先，从该数字列表计算平均值。得出平均值后，浏览每个条目，然后执行以下操作：
 
