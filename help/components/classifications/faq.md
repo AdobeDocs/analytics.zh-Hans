@@ -1,11 +1,11 @@
 ---
 title: 分类常见问题解答
 description: 使用分类的常见问题解答。
-translation-type: ht
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
-source-wordcount: '344'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a63b8ae3948ffd9a37058696aa1b1d4c923709ba
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ## 如何对包含特殊字符的值进行分类？
 
-通常情况下，不建议在报表中使用逗号或双引号之类的特殊字符。但是，在某些情况下，有必要使用特殊字符。如果您选择进行分类的报表值包含此类字符，请执行以下步骤：
+通常不建议在报告中使用逗号或多次引号等特殊字符。 但是，在某些情况下，有必要使用特殊字符。如果您的报告值包含选择分类的字符，请执行以下步骤：
 
 1. 登录到 Adobe Analytics，然后导航到&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
 2. 单击&#x200B;**[!UICONTROL 浏览器导出]**&#x200B;选项卡。
@@ -46,4 +46,4 @@ ht-degree: 100%
 
 ## 什么是数值 2 分类？
 
-数值 2 分类允许您将维度项目分类为基于时间的量度。该分类已于 2019 年 7 月在 Analytics UI 中停用。
+数值 2 分类允许您将维度项目分类为基于时间的量度。彼等于2019年7月从Adobe Analytics用户界面退休。
