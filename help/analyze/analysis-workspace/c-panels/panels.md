@@ -2,9 +2,9 @@
 description: 面板是表和可视化的集合
 title: 面板概述
 translation-type: tm+mt
-source-git-commit: 6b9d3395e1c11f56452694229b9b8eb12b4ed8c0
+source-git-commit: 272c50040a009d2b69885924e7b1f402636e8889
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1004'
 ht-degree: 11%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 # 面板概述
 
-A [!UICONTROL panel] is a collection of tables and visualizations. 您可以从工作区的左上角图标或空白面板中访 [问面板](blank-panel.md)。 当您希望根据时段、报表包或分析用例组织项目时，面板会很有帮助。 Analysis Workspace提供以下面板类型：
+[!UICONTROL 面板]是表和可视化的集合。 您可以从Workspace中左上角的图标或[空白面板](blank-panel.md)访问面板。 当您希望根据时段、报表包或分析用例组织项目时，面板会很有帮助。 Analysis Workspace提供以下面板类型：
 
 | 面板名称 | 描述 |
 | --- | --- |
@@ -21,18 +21,18 @@ A [!UICONTROL panel] is a collection of tables and visualizations. 您可以从�
 | [“Analytics for Target”面板](a4t-panel.md) | 在 Analysis Workspace 中分析 Target 的活动和体验。 |
 | [归因面板](attribution.md) | 使用任何维度和转化量度快速比较和可视化任意数量的归因模型。 |
 | [自由格式面板](freeform-panel.md) | 执行无限制的比较和细分，然后添加可视化以讲述丰富的数据故事。 |
-| [“媒体并发查看器”面板](media-concurrent-viewers.md) | 分析一段时间内的并发查看者，了解有关并发峰值的详细信息，并且可以进行细分和比较。 |
+| [“媒体并行查看者”面板](media-concurrent-viewers.md) | 分析一段时间内的并发查看者，了解有关并发峰值的详细信息，并且可以进行细分和比较。 |
 | [区段比较面板](c-segment-comparison/segment-comparison.md) | 快速比较所有数据点中的两个细分，自动找到相关差异。 |
 
 ![](assets/panel-overview.png)
 
-[!UICONTROL Quick Insights]、Blank [!UICONTROL 和Freeform] 面板是开始分析的绝佳场所，而Analytics for [!UICONTROL 目标、Analytics for] Attribution IQ、Aligns Viewers和Carposion可以更高级的分析方式自行进行。 项目中有一个 `"+"` 按钮，通过该按钮，您可以随时添加空白面板。
+[!UICONTROL Quick Insights]、Blank  和Freeformpanels是开始您的  分析的绝佳 [!UICONTROL 场所，而Analytics for ]目标、 [!UICONTROL Attribution IQ]    、Ching Media Viewer和Ching细分相比较可以提供更高级的分析。项目中有一个 `"+"` 按钮，通过该按钮，您可以随时添加空白面板。
 
-The default starting panel is the [!UICONTROL Freeform] panel, but you can make the [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) your default as well.
+默认的起始面板是[!UICONTROL Freeform]面板，但您也可以将[空白面板](/help/analyze/analysis-workspace/c-panels/blank-panel.md)设置为默认面板。
 
 ## 报表包 {#report-suite}
 
-面板中的表和可视化从面板右 [!UICONTROL 上方选] 定的报表包中导出数据。 报表包还确定左边栏中可用的组件。 在项目中，您可以使用一个或 [多个报表包](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) ，具体取决于分析用例。 要将单个报表包应用于项目中的所有面板，请右 **键单击面板标题>将报表包应用于所有面板**。
+面板中的表和可视化从面板右上方选定的[!UICONTROL 报表包]中导出数据。 报表包还确定左边栏中可用的组件。 在项目中，可以根据分析用例使用一个或[多个报表包](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)。 要将单个报表包应用到项目中的所有面板，请&#x200B;**右键单击面板标题>将报表包应用到所有面板**。
 
 报表包的列表根据相关性进行排序，Adobe根据当前用户最近和频繁使用该套件以及该套件在组织中的使用频率定义该套件。
 
@@ -46,7 +46,7 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 ![](assets/panel-calendar.png)
 
-## Dropzone {#dropzone}
+## 拖放区{#dropzone}
 
 面板拖放区允许您将区段和下拉过滤器应用于面板中的所有表和可视化。 您可以对面板应用一个或多个过滤器。 可通过单击编辑铅笔来修改每个滤镜上方的标题，也可以右键单击以完全删除它。
 
@@ -64,7 +64,7 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 ![](assets/adhoc-segment-filter.png)
 
-### 下拉过滤器 {#dropdown-filter}
+### 下拉过滤器{#dropdown-filter}
 
 除细分过滤器外，下拉过滤器还允许您以受控方式与数据交互。 例如，您可以为移动设备类型添加下拉筛选器，以便按平板电脑、手机或桌面对面板进行分段。
 
@@ -74,15 +74,15 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 要创建下拉过滤器，请执行以下操作：
 
-1. 要使用Dimension项创建下拉 [!UICONTROL 筛选器](如营销 [!UICONTROL 渠道维中的值] )，请单击左边栏中维旁边的右箭头图标。 这将显示所有可用项。 从左边栏中选择一个或多个组件项，并在按住Shift键的同时将 **它们拖放到面板拖放区**。 这会将组件转换为下拉筛选器，而不是单个区段。
-1. 要使用度量、段或日期范围等其他组件创建下拉筛选器，请从左边栏中的一个组件类型中进行选择，并在按住Shift键的同 **时放入面板拖放区**。
-1. 从下拉列表中选择一个选项以更改面板中的数据。 You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.
+1. 要使用[!UICONTROL Dimension项]创建下拉筛选器，如[!UICONTROL 营销渠道]维中的值，请单击左边栏中您的维旁边的右箭头图标。 这将显示所有可用项。 从左边栏中选择一个或多个组件项，并将它们拖放到面板拖放区&#x200B;**中，同时按住Shift键**。 这会将组件转换为下拉筛选器，而不是单个区段。
+1. 要使用度量、段或日期范围等其他组件创建下拉筛选器，请从左边栏中的一个组件类型中进行选择，并在按住Shift键的同时放入面板拖放区&#x200B;**。**
+1. 从下拉列表中选择一个选项以更改面板中的数据。 您也可以选择&#x200B;**[!UICONTROL 无过滤器]**&#x200B;来选择不过滤任何面板数据。
 
 ![](assets/create-dropdown.png)
 
-[观看视频](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) ，进一步了解如何向项目添加下拉过滤器。
+[观看视](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) 频以进一步了解如何向项目添加下拉过滤器。
 
-## 右键单击菜单 {#right-click}
+## 右键单击菜单{#right-click}
 
 右击面板标题即可获得面板的其他功能。
 
@@ -97,6 +97,6 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 | 将报表包应用于所有面板 | 允许您将活动面板报告套件应用到项目中的所有面板。 |
 | 重复面板 | 精确重复当前面板，然后可以修改该面板。 |
 | 折叠／展开所有面板 | 折叠并展开所有项目面板。 |
-| 折叠／展开面板中的所有可视化 | 折叠和展开当前面板中的所有可视化。 |
+| 折叠／展开面板中的所有可视化 | 折叠并展开当前面板中的所有可视化。 |
 | 编辑描述 | 添加（或编辑）面板的文本描述。 |
 | 获取面板链接 | 此设置允许您将人员引导至项目中的特定面板。单击链接后，收件人需要先登录，然后才能被定向到链接的确切面板。 |
