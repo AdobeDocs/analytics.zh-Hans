@@ -3,25 +3,26 @@ description: 允许您将用户定义的文本添加至您的工作区。
 title: 文本
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: eac7c7ffed4007e3bebb65f1b6cf5bbb4c3a28a8
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 6%
 
 ---
 
 
 # 文本
 
-允许您将用户定义的文本添加至您的工作区。
+您可以使用文本可视化或面板／可视化描述（右键单击标题>编辑描述），将用户定义的文本添加到您的Workspace项目。 您还可以更改文本的格式、添加超链接和添加图像。
 
-您可以更改字体设置（粗体、斜体等）并在文本框可视化与面板/可视化描述中添加超链接。
+## 格式{#format}
 
-## 更改字体设置 {#section_32727EE03FD04A8EB1D1B387DCAF6537}
+编辑文本框或说明时，您可以调整所选文本的字体大小（标题级别）、颜色、样式（粗体、斜体、下划线）和对齐方式。 您还可以添加项目符号和编号列表。
 
-![](assets/rich-text1.png)
+## 超链接{#hyperlinks}
 
-在将文本可视化拖动到面板中并添加文本后，您可以通过添加标题级别、更改文本粗体/斜体/下划线、更改文本颜色等操作来设置文本的格式。
+要添加超链接，请高亮显示文本，然后单击菜单中的超链接图标。 可链接到外部网站、文档页面、[Workspace项目／面板／可视化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html)等的超链接可进一步帮助您的项目收件人。
 
-## 添加超链接 {#section_D55B857188A74A06B49006DF3511DC7C}
+## 图像 {#images}
 
-![](assets/rich-text2.png)
-
-突出显示文本，然后单击格式菜单中的超链接图标可添加超链接。
+要向项目添加图像，请单击菜单中的图像图标，然后插入公共图像URL。 图像URL必须以https开头且为。png、.jpeg、.jpg或。gif格式，才能公开访问。 支持静态和动画图像。
