@@ -3,10 +3,10 @@ description: “策划”让您可在共享项目前限制组件。
 keywords: Analysis Workspace curation
 title: 特选项目
 translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: 1c482bdd84b230731c4b72bf7cacf4a92f2f9fe3
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 99%
+source-wordcount: '542'
+ht-degree: 88%
 
 ---
 
@@ -57,8 +57,11 @@ ht-degree: 99%
 * 用户的权限级别（管理员或非管理员）
 * 项目角色（所有者/编辑者或非所有者/编辑者）
 * 应用的策划类型（VRS 或项目）
+* 用户拥有或共享的组件。 拥有／共享组件包括区段、计算指标和日期范围。 它们不包括已实现的组件，如eVar、prop和自定义事件。
 
-| 策划类型 | 管理员 | 非管理员项目所有者或编辑角色 | 非管理员复制或查看角色 |
+注意：非管理员视图角色无权访问项目中的左边栏，因此已从下表中忽略了它们。
+
+| 策划类型 | 管理员 | 非管理员项目所有者或编辑角色 | 非管理员重复角色 |
 |---|---|---|---|
 | 策划的 VRS | 所有非策划的 VRS 组件 | 此角色拥有或与其共享的非策划的 VRS 组件 | 此角色拥有或与其共享的非策划的 VRS 组件 |
 | 策划的项目 | 所有非策划的项目组件 | 所有非策划的项目组件 | 此角色拥有或与其共享的非策划的项目组件 |
