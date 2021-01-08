@@ -1,11 +1,11 @@
 ---
 title: Adobe Analytics 技术文档指南
 description: Analytics 用户指南和资源
-translation-type: ht
-source-git-commit: 13fefcf8f743d1890044e2ac6b5864846d2c8cb7
-workflow-type: ht
-source-wordcount: '447'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4fdab23700659e68d5c577369dd005b94eef56b2
+workflow-type: tm+mt
+source-wordcount: '467'
+ht-degree: 95%
 
 ---
 
@@ -28,15 +28,15 @@ ht-degree: 100%
 
 [![集成](assets/integrate_50px.png)](/help/integrate/home.md) [集成指南](/help/integrate/home.md) – 配置与其他 Adobe Experience Cloud 解决方案（例如 Audience Manager、Advertising Cloud 或 Target）的集成。
 
-[![Streaming Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-overview.html) [Streaming Media Analytics 指南](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-overview.html) – 实施 Adobe Analytics for Streaming Media。包括 Media SDK 和 Media Collection API。
+[![Streaming Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-overview.html) [Streaming Media Analytics 指南](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) – 实施 Adobe Analytics for Streaming Media。包括 Media SDK 和 Media Collection API。
 
-[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/zh-Hans/data-workbench/using/home.html) [Data Workbench 指南](https://docs.adobe.com/content/help/zh-Hans/data-workbench/using/home.html) – 了解 [!UICONTROL Data Workbench] 所具有的高度灵活且强大的多渠道功能。其中包括 [!UICONTROL Data Workbench 客户端]指南、安装指南、[!UICONTROL 数据集配置]指南，及其他指南。
+[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/zh-Hans/data-workbench/using/home.html) [Data Workbench 指南](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) – 了解 [!UICONTROL Data Workbench] 所具有的高度灵活且强大的多渠道功能。其中包括 [!UICONTROL Data Workbench 客户端]指南、安装指南、[!UICONTROL 数据集配置]指南，及其他指南。
 
 [![技术文档](assets/technotes_50px.png)](/help/technotes/home.md) [Analytics 技术文档](/help/technotes/home.md) – 一个知识库，其中包含并非适用于特定 Analytics 工具或组件的实用文章。
 
 | 新增项目和特色项目 | 重要 Analytics 资源 |
 | --- | --- |
-| <ul><li>[地区数据收集](/help/technotes/rdc/regional-data-collection.md)</li><li>[优化工作区性能](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)</li><li>[Analytics 产品比较](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[我应该使用哪种 Adobe Analytics 工具？](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br>另请参阅：[2019 年文档更新](doc-updates.md) | <ul><li> [发行说明](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html)</li><li> [Adobe Analytics 视频教程](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html)</li><li>[Analytics 社区论坛](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[面对面培训和虚拟课程](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[联系客户关怀团队](https://helpx.adobe.com/cn/support/analytics.html)</li></ul> |
+| <ul><li>[全面实施审查](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html)</li><li>[重点实施审查](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html)</li><li>[地区数据收集](/help/technotes/rdc/regional-data-collection.md)</li><li>[优化工作区性能](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)</li><li>[Analytics 产品比较](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[我应该使用哪种 Adobe Analytics 工具？](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br>另请参阅：[2019 年文档更新](doc-updates.md) | <ul><li> [发行说明](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html)</li><li> [Adobe Analytics 视频教程](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html)</li><li>[Analytics 社区论坛](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[面对面培训和虚拟课程](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[联系客户关怀团队](https://helpx.adobe.com/cn/support/analytics.html)</li></ul> |
 
 <!-- Keep around for now
 
