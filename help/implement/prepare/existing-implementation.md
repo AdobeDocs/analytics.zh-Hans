@@ -2,7 +2,7 @@
 title: 负责现有的Adobe Analytics执行
 description: 对现有Adobe Analytics实施不熟悉的管理员的说明。
 translation-type: tm+mt
-source-git-commit: d77bb01d96ab0df2465927afc08739a3ce8c5c5f
+source-git-commit: 159d40fc224c53d6295ad0f441e7c694f51d4961
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 1%
@@ -18,12 +18,12 @@ ht-degree: 1%
 
 ![Playbook](assets/inherited-impl-playbook.png)
 
-查看技术所有者Sarah Owen提供的这些提示。 Sarah是 [Adobe Analytics冠军](https://blog.adobe.com/en/publish/2020/10/27/adobe-analytics-champion-program.html#gs.ldf97p) ，她分享了如何使用继承的实施手册来负责现有实施的想法：
+查看技术所有者Sarah Owen提供的这些提示。 Sarah是[Adobe Analytics冠军](https://blog.adobe.com/en/publish/2020/10/27/adobe-analytics-champion-program.html#gs.ldf97p)，她分享了如何使用继承的实施手册来负责现有实施的想法：
 
 >[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
 
 另请参阅：
 
-* [每个网站发布后用于审核实施情况的“次要审查”清单](/help/implement/review/minor-review.md)
-* [每6个月检查一次实施的“主要审查”清单](/help/implement/review/major-review.md)
+* [在每个网站发布后检查实施情况的“重点审查”清单](/help/implement/review/focused-review.md)
+* [“完整审查”清单，每6个月检查一次实施](/help/implement/review/full-review.md)
 * [定义您的五大KPI](/help/implement/review/define-kpis.md)
