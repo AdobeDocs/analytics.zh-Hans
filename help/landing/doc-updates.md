@@ -2,11 +2,11 @@
 title: Adobe Analytics 技术文档更新
 description: 对 Adobe Analytics 文档存储库的重要更新。
 short-title: Analytics documentation updates
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4fdab23700659e68d5c577369dd005b94eef56b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '423'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 93%
 * 有关新增功能的详细信息，请参阅工具用户指南中的 [Analysis Workspace 中的新增功能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)。
 * 有关 Adobe Analytics for Audio and Video 的信息，请参阅[在 Analytics 中测量音频和视频](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-overview.html)。
 
-## 主要更新详细信息
+## 主要的更新详情
 
 | 日期 | 描述 |
 |---|---|
-| 2020年11月 | 新的实施审查文档: <ul><li>[全面实施审查](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html)</li><li>[重点实施审查](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html)</li></ul> |
+| 2020 年 11 月 | 新的实施审查文档： <ul><li>[全面实施审查](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html)</li><li>[集中实施审查](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html)</li></ul> |
 | 2020 年 7 月 21 日 | [跨设备分析](/help/components/cda/overview.md)的主要更新和修订。添加了[基于字段的拼合](/help/components/cda/field-based-stitching.md)。 |
 | 2020 年 4 月 28 日 | 添加了有关[内容周转率](/help/components/metrics/content-velocity.md)￼量度的文档。 |
 | 2020 年 3 月 12 日 | 添加了[将区段发布到 Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md) 的更新。 |
@@ -39,7 +39,7 @@ ht-degree: 93%
 | 2020 年 1 月 13 日 | 添加了 [Adobe Analytics 和浏览器 Cookie](/help/technotes/cookies.md)。 |
 | 2019 年 11 月 29 日 | 全面修订了[数据馈送文档](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 2019 年 11 月 25 日 | 新增了[“强制 IP 登录限制”终止使用](/help/admin/company/login-restrictions-eol.md)主题 |
-| 2019 年 11 月 21 日 | 新增了 [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) 文档集 |
+| 2019 年 11 月 21 日 | 新增了 [Customer Journey Analytics](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-landing.html) 文档集 |
 | 2019 年 9 月 28 日 | 新增了有关[用于 Javascript 实施的配置变量](/help/implement/vars/config-vars/configuration-variables.md)的文章 |
 | 2019 年 9 月 12 日 | 新增了[历程 IQ：跨设备分析](/help/components/cda/overview.md)文档 |
 | 2019 年 8 月 28 日 | 新增了有关[用于 Analytics 的渐进式 Web 应用程序 (PWA)](/help/analyze/pwa/pwa.md) 的文章 |
