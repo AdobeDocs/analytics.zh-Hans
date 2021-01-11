@@ -2,9 +2,9 @@
 title: 集中审阅（每个网站发布后）
 description: 按照以下步骤确保实施不出错并与KPI保持一致。
 translation-type: tm+mt
-source-git-commit: 769e29e08871d2da704aa4eabe22371148d486bf
+source-git-commit: ad7274dbed3b85ca24cd92bf3a0d36d1f2e3597b
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,9 @@ ht-degree: 0%
 
 请记住，随着时间的推移，代码更新可能会产生意想不到的后果。 您需要确保与[前5个KPI](/help/implement/review/define-kpis.md)关联的所有指标和维度仍然正常运行。 理想情况下，应在网站发布后立即执行此操作；如果您最近几个月没有这样做，请&#x200B;*now*。 为此，请执行以下操作：
 
-* 创建仪表板以查看这些关键指标和变量每小时的趋势视图（或为每个指标设置智能警报）。 然后监视一两天，确保您获得所需数据，且数据正确。\
-   寻找拐点。 准备立即纠正任何严重问题。 如果发现任何差异，请查看数据层、标签管理器规则和处理规则，找出原因。
+* 创建仪表板以查看这些关键指标和变量的每小时趋势视图（或为每个指标设置[智能警报](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace)）。 然后监视一两天，确保您获得所需数据，且数据正确。 寻找拐点。 准备立即纠正任何严重问题。 如果发现任何差异，请查看数据层、标签管理器规则和处理规则，找出原因。
 * 重新运行[分析运行状况仪表板](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252)，以监控KPI指标和变量的大趋势。
-
-*有关如何确保您的指标和变量正常工作的更多详细信息，请 [阅读Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) 冠军Sarah Owen的这些提示。*
+   *有关如何确保您的指标和变量正常工作的更多详细信息，请 [阅读Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) 冠军Sarah Owen的这些提示。*
 
 ## 3.彻底检查站点更新部分的数据。
 
@@ -41,8 +39,6 @@ ht-degree: 0%
 ## 5.立即解决您在数据质量方面发现的任何差距。
 
 评估情况并制定修正数据的计划。 然后进行所需的更改，更新文档，并告知利益相关者您所做的更改。
-
-
 
 *观看Adobe Analytics冠军Sarah Owen的这段2分钟视频，了解将实施评论融入繁忙计划的自然时刻：*
 
