@@ -2,9 +2,9 @@
 title: 完整评论
 description: 每6个月检查一次您的实施，确保与业务需求和KPI保持一致。
 translation-type: tm+mt
-source-git-commit: a7f1da79bd5a6f78ed1a706ccae01b03a2f5665c
+source-git-commit: 769e29e08871d2da704aa4eabe22371148d486bf
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 2.确保您的指标和变量仍能正常运行。
 
-根据对业务的重要性，简要检查所有指标和变量，确保正确收集数据。 开始最关键的指标和变量——与您的5大KPI相关的指标和变量。 为此，请执行以下操作：
+根据对业务的重要性，简要检查所有指标和变量，确保正确收集数据。 开始最关键的指标和变量——与[前5个KPI](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=en#review)关联的指标和变量。 为此，请执行以下操作：
 
 * 创建仪表板，查看指标和变量的月度趋势视图（或为每个指标设置智能提醒），确保您获得所需数据并且数据正确。 如果发现任何差异，请检查数据层、标签管理器规则和处理规则，找出原因。
 * 重新运行[分析运行状况仪表板](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252)，以监控指标和变量的大趋势。
