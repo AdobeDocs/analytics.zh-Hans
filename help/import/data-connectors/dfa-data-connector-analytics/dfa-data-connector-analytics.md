@@ -4,11 +4,11 @@ keywords: DFA
 title: Adobe Analytics 的 DFA Data Connectors
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
-translation-type: ht
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
-workflow-type: ht
-source-wordcount: '1731'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+workflow-type: tm+mt
+source-wordcount: '1729'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->2021 年中后期，我们将终止 Adobe Data Connector 技术的生命周期。[了解更多...](/help/import/data-connectors/data-connectors-eol.md)
+>我们将于2021年8月1日终止Adobe数据连接器技术。 [了解更多...](/help/import/data-connectors/data-connectors-eol.md)
 
 在当今日益复杂且竞争加剧的在线市场中，在线广告商和代理机构必须不断提升他们对于在线市场营销环境及广告投入回报的理解。尽管广告商、代理机构和发布商都具有单独的工具来帮助实现这些目标，然而从千差万别的数据系统和流程手动汇总数据可能会严重削弱在线市场营销促销活动的效果，最终只能得到不太理想的促销活动效果、并造成数据差异和混乱。
 
@@ -104,7 +104,7 @@ Adobe 集成的数据收集部分从访客到达登陆页面 (1) 开始进行。
 | 超时和错误跟踪 | 否 | 是 | 是 |
 | 无需使用协商的客户端 ID | 否 | 否 | 是 |
 
-### 关于版本 1.5 {#section-b5a3e967cfa141ea8f740612336181be}
+### 关于版本 1.5  {#section-b5a3e967cfa141ea8f740612336181be}
 
 版本 1.5 的集成为登陆页面 JavaScript 引入了集成模块。集成模块允许对 DFA 广告服务器 (ad.doubleclick.net) 发出固定大小的请求，它克服了之前集成的 2K 请求限制。它还引入了可配置的超时&#x200B;*`s.maxDelay`*，以便在网络发生中断时继续收集 Adobe 访客数据。还可将错误和超时捕获到 Analytics 变量中。
 
@@ -118,7 +118,7 @@ Adobe 集成的数据收集部分从访客到达登陆页面 (1) 开始进行。
 
 新增 JavaScript 代码的一项重要功能是在版本 1.5 和版本 2.0 之间不需要任何实施更改。
 
-### 关于版本 2.0 {#section-afd56de0c56c4489bb5ddc5798d6709a}
+### 关于版本 2.0  {#section-afd56de0c56c4489bb5ddc5798d6709a}
 
 最新版本的 DFA 集成将整个 Floodlight 配置的数据引入集成。在版本 2.0 之前，单独的集成会关联到单个的 DFA 广告商。通过此更改，整个 Floodlight 配置的点击量、展示次数和成本量度都将包含在集成的报表包中。如果这两个网站位于同一 Floodlight 配置中，还可以跟踪跨站点显示到达次数。
 
@@ -128,7 +128,7 @@ Adobe 集成的数据收集部分从访客到达登陆页面 (1) 开始进行。
 
 如果 Floodlight 配置是 DFA 中的一个共享配置，则从版本 1.5升级到 2.0 会导致 Floodlight 配置内的所有共享广告商都包含在报表包中。
 
-### 升级到版本 2.0 {#section-f0bf90b9a7a1434ab1540b6c0999f4c7}
+### 升级到版本 2.0  {#section-f0bf90b9a7a1434ab1540b6c0999f4c7}
 
 下表简要介绍了迁移至较新版本集成的所有者。
 
