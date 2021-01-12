@@ -2,10 +2,10 @@
 description: 将跟踪数据从第三方应用程序导入到 Analytics 中。
 title: Analytics Data Connectors 快速入门
 translation-type: tm+mt
-source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
+source-git-commit: 6e4c40c7d6c1713f624a9562da3e49a3ee5d67de
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 98%
+source-wordcount: '973'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe 为组织提供有关数字化策略和营销活动的可执行实时资�
 
 >[!IMPORTANT]
 >
->2021 年中后期，我们将终止 Adobe Data Connector 技术的生命周期。[了解更多...](/help/import/data-connectors/data-connectors-eol.md)
+>我们将于2021年8月1日终止Adobe数据连接器技术。 [了解更多...](/help/import/data-connectors/data-connectors-eol.md)
 
 **系统要求**
 
@@ -86,7 +86,7 @@ Adobe Analytics 会通过 Data Warehouse 将这些文件作为单独的每日文
 
 >[!NOTE]
 >
->If the product is defined without an associated event, the `prodView` event automatically fires.
+>如果定义的产品时没有关联的事件,`prodView`事件会自动触发。
 >
 >如果不满足以上要求，那么相应的再营销区段将无法正常报告。
 
