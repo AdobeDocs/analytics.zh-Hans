@@ -2,9 +2,9 @@
 description: 了解 Analytics Data Connectors 生命周期终止的时间和原因。
 title: Analytics Data Connectors 生命周期终止预告
 translation-type: tm+mt
-source-git-commit: 5eb3aba2032118036808edbdab5f411b5f327949
+source-git-commit: ab23222ffbfe2e98a4186f16db4942504d4d6fa4
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '595'
 ht-degree: 22%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 十多年来，Adobe Analytics一直致力于提供一流的网络和营销分析解决方案来满足客户的需求。 随着技术和业务需求的发展，我们努力不断提供并达到最高标准。  不幸的是，支持这一集成的API不再满足这些标准，在现代Adobe Analytics技术基础设施中也是站不住脚的。
 
-自2021年8月1日起，Adobe打算停止数据连接器集成。 寿命终止是任何技术产品的生命周期的一部分，Adobe希望为我们的客户和合作伙伴提供尽可能无缝的过渡。 这些集成中的许多可通过AdobeExchange获得，并可以继续利用。
+**自2021年8月1日起**,Adobe打算停止Data Connectors集成。寿命终止是任何技术产品的生命周期的一部分，Adobe旨在使客户和合作伙伴尽可能无缝地过渡。 这些集成中的许多可通过AdobeExchange获得，并可以继续利用。
 
 ## 为什么我们要终止使用此功能？
 
@@ -41,7 +41,7 @@ ht-degree: 22%
 | Appfigures | 迁移到AdobeExchange |
 | 应用程序 | 在AdobeExchange上提供 |
 | AppsFlyer | 迁移到AdobeExchange |
-| Aprimo企业营销参与 |
+| Aprimo企业营销参与 | 弃用 |
 | Apteligent | 在Exchange上提供 |
 | BlueHornet eMarketing Suite | 弃用 |
 | 分支 | 迁移到Exchange |
