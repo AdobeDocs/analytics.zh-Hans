@@ -5,10 +5,10 @@ title: 适用于 Adobe Analytics 的 Qualtrics Data Connector
 topic: Data connectors
 uuid: f1fa90b6-1b80-4da4-a39b-efb8bac1692a
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 95%
+source-wordcount: '303'
+ht-degree: 96%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->我们将在2021年中后期终止Adobe Data Connector技术。 [了解更多...](/help/import/data-connectors/data-connectors-eol.md)
+>我们将于2021年8月1日终止Adobe数据连接器技术。 [了解更多...](/help/import/data-connectors/data-connectors-eol.md)
 
 此集成将 Qualtrics Research Suite 的客户研究功能与您在 Adobe Analytics 中收集的丰富数据整合在一起，为贵组织提供强大的分析和优化契机。
 
