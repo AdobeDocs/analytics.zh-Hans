@@ -3,9 +3,9 @@ description: 此 Adobe® Data Connectors™ 电子邮件集成将 Analytics® �
 title: 适用于 Adobe Analytics 的 Emarsys Data Connector
 uuid: 6f2fbabc-dc6c-4975-887d-ec22eba42f9e
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '949'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->我们将在2021年中后期终止Adobe Data Connector技术。 [了解更多...](/help/import/data-connectors/data-connectors-eol.md)
+>我们将于2021年8月1日终止Adobe数据连接器技术。 [了解更多...](/help/import/data-connectors/data-connectors-eol.md)
 
 此 Adobe® Data Connectors™ 电子邮件集成将 Analytics® 中的行为信息与 emarsys 电子邮件营销整合在一起，创建出一款功能强大的工具，通过更相关的消息传送来重新定义成功衡量指标和目标受众。
 
