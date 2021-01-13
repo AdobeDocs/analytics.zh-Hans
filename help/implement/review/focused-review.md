@@ -2,7 +2,7 @@
 title: 集中审阅（每个网站发布后）
 description: 按照以下步骤确保实施不出错并与KPI保持一致。
 translation-type: tm+mt
-source-git-commit: ad7274dbed3b85ca24cd92bf3a0d36d1f2e3597b
+source-git-commit: 8c4ea92523f5e969b9ffe462ea6fb4c21c176141
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 0%
@@ -24,7 +24,8 @@ ht-degree: 0%
 
 * 创建仪表板以查看这些关键指标和变量的每小时趋势视图（或为每个指标设置[智能警报](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace)）。 然后监视一两天，确保您获得所需数据，且数据正确。 寻找拐点。 准备立即纠正任何严重问题。 如果发现任何差异，请查看数据层、标签管理器规则和处理规则，找出原因。
 * 重新运行[分析运行状况仪表板](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252)，以监控KPI指标和变量的大趋势。
-   *有关如何确保您的指标和变量正常工作的更多详细信息，请 [阅读Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) 冠军Sarah Owen的这些提示。*
+
+*有关如何确保您的指标和变量正常工作的更多详细信息，请 [阅读Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) 冠军Sarah Owen的这些提示。*
 
 ## 3.彻底检查站点更新部分的数据。
 
