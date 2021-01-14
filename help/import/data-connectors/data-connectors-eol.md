@@ -2,10 +2,10 @@
 description: 了解 Analytics Data Connectors 生命周期终止的时间和原因。
 title: Analytics Data Connectors 生命周期终止预告
 translation-type: tm+mt
-source-git-commit: ab23222ffbfe2e98a4186f16db4942504d4d6fa4
+source-git-commit: 58127bc9482ae4889a295e6c11112d3842510f4d
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 22%
+source-wordcount: '536'
+ht-degree: 25%
 
 ---
 
@@ -34,68 +34,68 @@ ht-degree: 22%
 
 | 合作伙伴 | 状态 |
 | --- | --- |
-| Acxiom | 在AdobeExchange上提供 |
-| Adform | 在AdobeExchange上提供 |
+| Acxiom | 弃用 |
+| Adform | 弃用 |
 | 调整 | 迁移到AdobeExchange |
 | Adobe Campaign | 迁移到AdobeExchange |
 | Appfigures | 迁移到AdobeExchange |
-| 应用程序 | 在AdobeExchange上提供 |
+| 应用程序 | 弃用 |
 | AppsFlyer | 迁移到AdobeExchange |
 | Aprimo企业营销参与 | 弃用 |
-| Apteligent | 在Exchange上提供 |
+| Apteligent | 弃用 |
 | BlueHornet eMarketing Suite | 弃用 |
 | 分支 | 迁移到Exchange |
-| BrightEdge 2.0 | 在Exchange上提供 |
+| BrightEdge 2.0 | 弃用 |
 | Bronto Software | 弃用 |
 | CheetahMail，由Experian提供 | 迁移到Exchange |
-| ClickTale | 在Exchange上提供 |
+| ClickTale | 弃用 |
 | Clicktale CA | 弃用 |
-| 导体2.0 | 在Exchange上提供 |
-| ContactLab 2.0(Contact Send Connector) | 在Exchange上提供 |
-| Coradiant TrueSight | 在Exchange上提供 |
-| D&amp;B访客智能 | 在Exchange上提供 |
+| 导体2.0 | 弃用 |
+| ContactLab 2.0(Contact Send Connector) | 弃用 |
+| Coradiant TrueSight | 弃用 |
+| D&amp;B访客智能 | 弃用 |
 | Datran Media | 弃用 |
-| Decibel Insight | 在Exchange上提供 |
-| 解密 | 在Exchange上提供 |
+| Decibel Insight | 弃用 |
+| 解密 | 弃用 |
 | Delivra | 弃用 |
-| Demandbase CA | 在Exchange上提供 |
+| Demandbase CA | 弃用 |
 | Demandbase v3 | 弃用 |
-| DialogTech | 在Exchange上提供 |
+| DialogTech | 弃用 |
 | 面向广告商的DoubleClick(DFA) | 弃用（此处&#x200B;**更多信息链接到DFA EOL页面**） |
 | DREAM | 弃用 |
 | DREAMmail 2.0 | 弃用 |
 | 动态信号（数字Vora） | 迁移到Exchange |
 | eDialog Precision Central | 弃用 |
 | eC-messenger | 弃用 |
-| Emailvision Campaign Commander | 在Exchange上提供 |
+| Emailvision Campaign Commander | 弃用 |
 | emarsys xpress | 弃用 |
 | Epsilon Harmony | 迁移到Exchange |
-| 人人社交适合Adobe Analytics | 在Exchange上提供 |
+| 人人社交适合Adobe Analytics | 弃用 |
 | 菲克苏 | 弃用 |
 | Foresee(v2.0) | 弃用 |
-| Foresee Feedback | 在Exchange上提供 |
-| 吉亚 | 在Exchange上提供 |
+| Foresee Feedback | 弃用 |
+| 吉亚 | 弃用 |
 | hybris | 弃用 |
 | Kampyle（现为Medallia）反馈分析(1.1) | 弃用 |
 | Listrak | 迁移到Exchange |
 | Lyris HQ | 弃用 |
-| MaritzCX(V 2.0) | 在Exchange上提供 |
-| 梅尔克尔 | 在Exchange上提供 |
+| MaritzCX(V 2.0) | 弃用 |
+| 梅尔克尔 | 弃用 |
 | 官方Oracle雄辩整合 | 弃用 |
 | optivo broadmail(Episerver) | 迁移到Exchange |
 | Qualtrics v2 | 迁移到Exchange |
 | Responsys 2.0 | 弃用 |
-| Selligent | 在Exchange上提供 |
-| seoClarity 2.0 | 在Exchange上提供 |
+| Selligent | 弃用 |
+| seoClarity 2.0 | 弃用 |
 | Silverpop Engage (v2.0) | 弃用 |
-| 西兹梅克 | 在Exchange上提供 |
-| 污点效果 | 在Exchange上提供 |
+| 西兹梅克 | 弃用 |
+| 污点效果 | 弃用 |
 | StrongMail Systems, Inc | 弃用 |
 | 合成！360 | 弃用 |
 | ThinData EMS | 弃用 |
-| 调 | 在Exchange上提供 |
+| 调 | 弃用 |
 | 城市飞艇 | 弃用 |
-| UserZoom调查工具 | 在Exchange上提供 |
-| WhatCounts Email | 在Exchange上提供 |
+| UserZoom调查工具 | 弃用 |
+| WhatCounts Email | 弃用 |
 | wywy | 弃用 |
-| Yesmail Enterprise | 在Exchange上提供 |
+| Yesmail Enterprise | 弃用 |
