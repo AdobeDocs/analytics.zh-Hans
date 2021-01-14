@@ -2,9 +2,9 @@
 description: 了解 Analytics Data Connectors 生命周期终止的时间和原因。
 title: Analytics Data Connectors 生命周期终止预告
 translation-type: tm+mt
-source-git-commit: 58127bc9482ae4889a295e6c11112d3842510f4d
+source-git-commit: 90ff77f548149333da34d19e3da672cc2dccf383
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '528'
 ht-degree: 25%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 25%
 | Demandbase CA | 弃用 |
 | Demandbase v3 | 弃用 |
 | DialogTech | 弃用 |
-| 面向广告商的DoubleClick(DFA) | 弃用（此处&#x200B;**更多信息链接到DFA EOL页面**） |
+| 面向广告商的DoubleClick(DFA) | 弃用 |
 | DREAM | 弃用 |
 | DREAMmail 2.0 | 弃用 |
 | 动态信号（数字Vora） | 迁移到Exchange |
