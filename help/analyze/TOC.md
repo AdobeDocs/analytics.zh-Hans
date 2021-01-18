@@ -4,11 +4,11 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 针对 Analysis Workspace（Analytics 主要的分析和可视化工具）以及 Report Builder 和 Activity Map 等工具，提供相关操作说明。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5b130de23d7826a266f34ed1830540c8c0865560
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1099'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -84,17 +84,17 @@ ht-degree: 97%
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
       + [自由格式面板](analysis-workspace/c-panels/freeform-panel.md)
       + [“媒体并行查看者”面板](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [快速分析面板](analysis-workspace/c-panels/quickinsight.md)
+      + [“快速分析”面板](analysis-workspace/c-panels/quickinsight.md)
       + 区段比较面板 {#segment-comparison}
          + [区段比较概述](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [区段比较用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [细分比较中使用的统计测试](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 组织或共享项目 {#curate-share}
       + [“共享”菜单](analysis-workspace/curate-share/send-schedule-files.md)
-      + [特选项目](analysis-workspace/curate-share/curate.md)
+      + [策划项目](analysis-workspace/curate-share/curate.md)
       + [共享项目](analysis-workspace/curate-share/share-projects.md)
       + [创建可共享链接](analysis-workspace/curate-share/shareable-links.md)
-      + [仅视图项目](analysis-workspace/curate-share/view-only-projects.md)
+      + [仅查看项目](analysis-workspace/curate-share/view-only-projects.md)
       + [下载 PDF 或 CSV 文件](analysis-workspace/curate-share/download-send.md)
       + [计划项目](analysis-workspace/curate-share/t-schedule-report.md)
    + 归因 IQ {#attribution}
@@ -239,8 +239,8 @@ ht-degree: 97%
       + [Power BI 集成疑难解答](report-builder/c-publish-power-bi/troubleshooting.md)
       + [适用于 Power BI 的 Adobe Analytics 内容包](report-builder/c-publish-power-bi/integration-power-bi.md)
    + [Visual Basic 宏](report-builder/vba.md)
-   + [Report Builder疑难解答](report-builder/troubleshoot.md)
-   + [Report Builder常见问题解答](report-builder/faq.md)
+   + [Report Builder 疑难解答](report-builder/troubleshoot.md)
+   + [Report Builder 常见问题解答](report-builder/faq.md)
 + Activity Map {#activity-map}
    + [Activity Map 概述](activity-map/activity-map.md)
    + 快速入门 {#getting-started}
