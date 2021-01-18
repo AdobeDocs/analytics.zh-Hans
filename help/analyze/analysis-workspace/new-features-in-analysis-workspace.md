@@ -2,11 +2,11 @@
 description: Analysis Workspace 的新增功能
 keywords: Analysis Workspace
 title: Analysis Workspace 中的新增功能
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6e4c40c7d6c1713f624a9562da3e49a3ee5d67de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8204'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 98%
 
 | 功能 | 目标日期 | 描述 |
 | --- | --- | --- |
-| 组件选择 | 2021 年 2 月 4 日 | 快速分析中的下拉／下拉区域组件将添加到工作区中的所有拖放区域。 此增强功能允许您从兼容组件的下拉列表中进行选择，或继续将空间用作拖放区域。 |
+| 组件选择 | 2021 年 2 月 4 日 | 在“快速分析”中发现的下拉/拖放区域组件，将会添加到工作区的所有拖放区域中。通过此增强功能，您可以从兼容组件的下拉列表中进行选择，或继续将空间用作拖放区域。 |
 
 
 ## 2021 月 1 日
 
 | 功能 | 目标日期 | 描述 |
 | --- | --- | --- |
-| 图像URL | 2021 年 1 月 14 日 | 您可以通过引用公共图像URL将图像添加到Workspace项目。 |
-| 用于可视化的组合源和设置管理器 | 2021 年 1 月 14 日 | 用于可视化的数据源管理器（点）和设置管理器（齿轮）已合并为一个跨窗格，因此您可以从同一位置轻松管理源和设置。 |
+| 图像 URL | 2021 年 1 月 14 日 | 您可以通过引用公共图像 URL，将图像添加到工作区项目。 |
+| 用于可视化的组合式源和设置管理器 | 2021 年 1 月 14 日 | 用于可视化的数据源管理器（点）和设置管理器（齿轮）已合并到一个弹出窗口，因此您可以轻松地从同一位置轻松管理源和设置。 |
 
 ## 2020 年 10 月
 
@@ -41,7 +41,7 @@ ht-degree: 98%
 | 功能 | 描述 |
 | --- | --- |
 | [下载适合单个维度的 50,000 个项目](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | 现在，您可以在自由格式表中下载适合单个维度的 50,000 个项目，并应用区段和过滤器。这允许您访问 Analysis Workspace 以外 400 多行数据。 |
-| [折线图可视化图表的增强功能](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>可显示或隐藏任何折线图可视化图表的 X 轴和 Y 轴。如果想让折线图可视化图表显得更加紧凑，这项功能会特别有用。</li><li>您可以在任何折线图可视化图表上叠加最小值和最大值标签，以便快速突出显示量度中的高峰和低谷。</li><li>您可以在任何折线图可视化图表上叠加不同的回归趋势线，以便更轻松地查看数据趋势。相关选项包括[!UICONTROL 线性]、[!UICONTROL 对数]、[!UICONTROL 指数]、[!UICONTROL 幂]和[!UICONTROL 二次方程式]。</li></ul> |
+| [折线图可视化图表的增强功能](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>可显示或隐藏任何折线图可视化图表的 X 轴和 Y 轴。如果想让折线图可视化图表显得更加紧凑，这项功能会特别有用。</li><li>您可以在任何折线图可视化图表上叠加最小值和最大值标签，以便快速突出显示量度中的高峰和低谷。</li><li>您可以在任何折线图可视化图表上叠加不同的回归趋势线，以便更轻松地查看数据趋势。相关选项包括[!UICONTROL 线性]、[!UICONTROL 对数]、[!UICONTROL 指数]、[!UICONTROL 幂]和[!UICONTROL 二次方程式]。</li></ul> |
 | 新增日期范围 | 我们新增了 5 个日期范围（最近 7 天整、最近 14 天整、最近 30 天整、最近 60 天整、最近 90 天整），这样从现在开始，您就可以选择不包含部分日期数据的日期范围 |
 
 ## 2020 年 8 月
@@ -66,7 +66,7 @@ ht-degree: 98%
 | 归因 IQ：自定义回顾时间范围 | 现在，您可以将“归因 IQ”中的任意归因模型配置为最多包含在报告期开始前的 90 天内的接触点。通过计算在之前月份发生的交互，通常可以提高在报告期初期所发生事件的归因准确性。适用于 Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete 和 Ultimate 客户。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
 | 共享工作区项目中的项目角色 | 现在，在共享工作区项目时，您可以根据希望收件人获得的项目体验为收件人分配以下三个项目角色中的一个角色：“编辑”、“复制”和“查看”。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 仅查看的工作区项目 | 可以将工作区项目仅以“可以查看”的形式共享给用户。当具有“查看”角色的收件人打开共享项目时，他们将获得比较受限的项目体验，因为项目无左边栏而且可进行的交互也有限。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| 能够共同编辑工作区项目 | 添加到“可以编辑”角色的收件人可以保存已共享给他们的项目。这同时适用于管理员和非管理员用户。[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 能够共同编辑工作区项目 | 添加到“可以编辑”角色的收件人可以保存已共享给他们的项目。这同时适用于管理员和非管理员用户。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 更新了空白面板 | 现在，空白面板中包含一些面板和可视化图表，使您能够更加顺畅地选择最适合自己的分析工作流程。 |
 | “快速分析”面板（2020 年 6 月 25 日） | 快速分析可为 Analysis Workspace 的非分析师和新用户了解如何快速轻松地回答业务问题提供指导。[了解更多...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | 工作区中的 Analytics for Target 面板 (2020 年 6 月 25 日) | 借助“Analytics for Target”(A4T) 面板，您可以满怀信心地在 Analysis Workspace 中分析 Adobe Target 活动和体验。[了解更多...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
@@ -538,7 +538,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p>贡献分析：<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  >令牌通知 </a> </p> </td> 
-   <td colname="col2"> <p>如果贵公司的贡献分析令牌数量有限，则您每次用掉一个令牌后 Analysis Workspace UI 中会显示相关通知。这可以让您知晓还剩下多少令牌。&amp;nbsp; </p> <p>（管理员用户：您可以通过编辑群组权限，对能够使用令牌的人员进行限制。此权限称为“异常检测和贡献分析”，位于 <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">编辑群组</span> &gt; <span class="uicontrol">编辑所有报表访问权限</span> &gt; <span class="uicontrol">自定义报表包工具</span> &gt; <span class="uicontrol">工具和报表</span>下。） </p> </td> 
+   <td colname="col2"> <p>如果贵公司的贡献分析令牌数量有限，则您每次用掉一个令牌后 Analysis Workspace UI 中会显示相关通知。这可以让您知晓还剩下多少令牌。 </p> <p>（管理员用户：您可以通过编辑群组权限，对能够使用令牌的人员进行限制。此权限称为“异常检测和贡献分析”，位于 <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">编辑群组</span> &gt; <span class="uicontrol">编辑所有报表访问权限</span> &gt; <span class="uicontrol">自定义报表包工具</span> &gt; <span class="uicontrol">工具和报表</span>下。） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CSV 文件可包含多字节字符 </p> </td> 
@@ -588,7 +588,7 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > 地图可视化图表 </a> </p> </td> 
-   <td colname="col2"> <p>通过新的地图可视化图表，您可以轻松查看客户在其位置上下文内的交互。从宏观（全球）视图到微观（城市）视图，您可以轻松地放大和缩小可视化图表中的各种层次结构等级，以了解跨区域的客户集群。 </p> <p>您可以通过 IP 地址对位置数据进行可视化（对于非移动数据集），或者可以在 Analysis Workspace 中将经纬度数据（对于使用 Mobile SDK 的客户）变得生动有趣。&amp;nbsp </p> </td> 
+   <td colname="col2"> <p>通过新的地图可视化图表，您可以轻松查看客户在其位置上下文内的交互。从宏观（全球）视图到微观（城市）视图，您可以轻松地放大和缩小可视化图表中的各种层次结构等级，以了解跨区域的客户集群。 </p> <p>您可以通过 IP 地址对位置数据进行可视化（对于非移动数据集），或者可以在 Analysis Workspace 中将经纬度数据（对于使用 Mobile SDK 的客户）变得生动有趣。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  > 趋势可视化图表的粒度选择器 </a> </p> </td> 
@@ -1041,7 +1041,7 @@ ht-degree: 98%
 2016 年 6 月 16 日发布的新功能：
 
 * [新的组权限](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/user-product-management/user-groups/groups.html)让管理员可以允许或拒绝用户访问 **[!UICONTROL Analytics]** > **[!UICONTROL 工作区]**&#x200B;选项卡。自 2016 年 6 月 16 日开始，所有用户都将拥有访问此选项卡的权限。要拒绝访问，只需要从“Analysis Workspace 访问”组中删除用户即可。
-* The[区段比较面板](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)通过自动分析您有权访问的每个量度和维度，可发现任意两个区段之间的最显著统计学差异。
+* [区段比较面板](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)通过自动分析您有权访问的每个量度和维度，可发现任意两个区段之间的最显著统计学差异。
 * [新的项目菜单结构](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)重新排列了顶部菜单，提高了其可扩展性。例如，创建&#x200B;**新同类群组面板**&#x200B;的过程现在包括创建一个空白面板和拖入一个同类群组表可视化图表。
 * [新的左边栏](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：面板、可视化图表、组件
 * 新的[维恩图可视化图表类型](/help/analyze/analysis-workspace/visualizations/venn.md)允许您最多拖入 3 个区段和一个量度以构建维恩图。
@@ -1158,7 +1158,7 @@ ht-degree: 98%
 
 当颜色和大小维度以某种方式与树结构关联时，用户通常可以轻松地查看平时很难以其他方式见到的模式，例如当有某个颜色特别重要时。树图的第二个优势在于，它们可以通过精心的构建有效地利用空间。
 
-## 针对区段、量度和日期的另存为功能  {#section_04C8B10A0751453AAE5F1BC35938C6CE}
+## 针对区段、量度和日期的另存为功能 {#section_04C8B10A0751453AAE5F1BC35938C6CE}
 
 在 Analysis Workspace 区段生成器中编辑现有（已保存）的区段时，单击&#x200B;**[!UICONTROL 另存为]**&#x200B;可生成一个副本。
 
@@ -1234,11 +1234,11 @@ ht-degree: 98%
 
 ![](assets/anchor_Y_axis.png)
 
-## 选项卡标题中的项目名称  {#section_497C61A030984BCCA2CEA553312C3226}
+## 选项卡标题中的项目名称 {#section_497C61A030984BCCA2CEA553312C3226}
 
 在保存项目时，浏览器选项卡中的标题将显示为“`<Project Name>` - Analysis Workspace”。如果您要在多个浏览器选项卡中打开多个项目，此增强会非常有用。
 
-## 转移项目所有权  {#section_989C2CCB80B5408EB85E6B12C8D943E3}
+## 转移项目所有权 {#section_989C2CCB80B5408EB85E6B12C8D943E3}
 
 管理员可以将 [!UICONTROL Analysis Workspace] 项目从一名用户转移到另一用户。
 
