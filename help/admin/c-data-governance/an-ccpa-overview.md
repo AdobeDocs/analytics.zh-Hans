@@ -2,9 +2,9 @@
 description: 本文档将介绍您需要在 Adobe Analytics 中执行什么操作来支持数据主体的 CCPA 访问和删除权限。
 title: Adobe Analytics 和 CCPA
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8315770adbe49474dcf8b74345a45d88b05d35ce
+workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Adobe Cloud Platform (ACP) 提供了一项集成的解决方案，它将您的�
 
 Adobe 认识到您最熟悉您的报表包中的自定义数据，因此我们将为您提供机会来定义数据管理设置和首选项。为此，Adobe Analytics 提供了“数据管理”用户界面，允许您作为数据控制者，对您的 Analytics 报表包以及这些报表包中的所有维度和量度设置[隐私权标签](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)。您可以标识数据集中包含直接可识别数据或间接可识别数据的列，以便能够提交访问和删除请求来处理这些数据。对于每个请求，在 Analytics“数据管理”用户界面中定义的标签将用于对应该请求的特定标识符。
 
-请参阅[为报表包数据设置标签](/help//admin/c-data-governance/gdpr-setup-reportsuite.md)，以了解有关如何设置标签的更多信息。
+请参阅[为报表包数据设置标签](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)，以了解有关如何设置标签的更多信息。
 
 ## 先决条件
 
