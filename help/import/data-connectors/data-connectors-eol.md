@@ -51,7 +51,7 @@ ht-degree: 100%
 | ClickTale | 弃用 |
 | Clicktale CA | 弃用 |
 | Conductor 2.0 | 弃用 |
-| ContactLab 2.0（联系 Send Connector） | 弃用 |
+| ContactLab 2.0 (Contact Send Connector) | 弃用 |
 | Coradiant TrueSight | 弃用 |
 | D&amp;B Visitor Intelligence | 弃用 |
 | Datran Media | 弃用 |
