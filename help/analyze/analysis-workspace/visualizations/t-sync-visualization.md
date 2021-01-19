@@ -3,7 +3,7 @@ description: 通过同步可视化图表，您可以控制与可视化图表对�
 keywords: Analysis Workspace;Synchronize visualization with data source
 title: 管理数据源
 translation-type: tm+mt
-source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
+source-git-commit: 8315770adbe49474dcf8b74345a45d88b05d35ce
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 管理数据源允许您显示数据源或锁定选择。这些设置决定了当有新数据输入时，可视化图表发生更改（或不发生更改）的方式。
 
-1. [创建项目](//help/analyze/analysis-workspace/home.md)，其中包含一个数据表和一个[可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)。
+1. [创建项目](/help/analyze/analysis-workspace/home.md)，其中包含一个数据表和一个[可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)。
 1. 在数据表中，选择要与可视化图表关联的单元格（数据源）。
 1. 在可视化中，单击标题旁边的圆点，打开&#x200B;**[!UICONTROL 数据源]**&#x200B;对话框。选择&#x200B;**[!UICONTROL 显示数据源]**&#x200B;或&#x200B;**[!UICONTROL 锁定选择]**。
 
