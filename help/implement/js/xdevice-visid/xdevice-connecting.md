@@ -5,11 +5,11 @@ subtopic: Visitors
 title: 跨设备连接用户
 topic: Developer and implementation
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->不再建议使用这种方法来识别跨设备访客。相关信息，请参阅组件用户指南中的[跨设备分析](/help/components/cda/overview.md)。
+>不再建议使用这种方法来识别跨设备访客。请参阅组件用户指南中的[跨设备分析](/help/components/cda/overview.md)。
 
 跨设备访客识别可帮助您连接跨多个设备的访客。跨设备访客识别使用 `visitorID` 变量来关联跨设备的用户。在识别独特访客时，`visitorID` 变量享有最高优先级别。
 
@@ -33,4 +33,4 @@ ht-degree: 100%
 通过使用您自己的自定义访客 ID，您可以更好地控制访客的识别方式，但这同时也存在限制。
 
 * **无法实现访客计数去重**：如果一位访客在首次访问您的网站后进行身份验证，则会计为两个独特访客。其中，会将自动生成的 Analytics ID 计为一个独特访客，并将登录时使用的自定义访客 ID 计为另一个独特访客。每次访客使用新设备或清除其 Cookie 时，都会按这种方式重复计算独特访客数。
-* **与 Experience Cloud ID 服务不兼容**：自从引入跨设备访客识别功能后，Adobe 推出了更强大、更可靠的跨设备访客跟踪方法。这些新的识别方法与自定义访客 ID 覆盖不兼容。如果您计划使用 ID 服务、跨设备分析 (CDA) 或设备协作，Adobe 强烈建议您不要使用 `visitorID` 变量。
+* **与 Experience Cloud ID 服务不兼容**：自从引入跨设备访客识别功能后，Adobe 推出了更强大、更可靠的跨设备访客跟踪方法。这些新的识别方法与自定义访客 ID 覆盖不兼容。如果您计划使用ID服务、跨设备分析(CDA)或设备合作计划，Adobe强烈建议不要使用`visitorID`变量。
