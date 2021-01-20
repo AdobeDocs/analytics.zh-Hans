@@ -1,15 +1,15 @@
 ---
-description: 'null'
+description: 旧版权限内容
 keywords: groups;permissions
 subtopic: Users and groups
 title: 用户和群组权限更改
 topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '1562'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '1564'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在迁移完所有客户之后，将撤销 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员工具]** > **[!UICONTROL 用户管理]**&#x200B;中的帮助内容。
+>用户和产品管理已移至[Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)。 Adobe 会通知您何时迁移用户。在迁移完所有客户之后，将撤销 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员工具]** > **[!UICONTROL 用户管理]**&#x200B;中的帮助内容。
 
 ## 更改了哪些内容？{#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
@@ -124,7 +124,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 授权快速参考 {#section_A3FDD8259F524B21A5489833533D1B28}
+## 授权快速参考  {#section_A3FDD8259F524B21A5489833533D1B28}
 
 下表列出了相关任务以及执行这些任务的位置（具体取决于公司的状态）。
 
@@ -169,8 +169,8 @@ ht-degree: 100%
   <tr> 
    <td colname="col1"> 创建群组 </td> 
    <td colname="col2"> <p>Admin Console - 在 Admin Console 中创建群组后，管理工具中将出现一个在 Analytics 中映射的群组，不过无法从管理工具中更改此映射群组的名称，也无法将其删除。 </p> <p>管理工具。 </p> </td> 
-   <td colname="col3"> <p>Admin Console（<a href="https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-getting-started.html">创建产品配置</a>） </p> </td> 
-   <td colname="col4"> <p>Admin Console（<a href="https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-getting-started.html">创建产品配置</a>） </p> </td> 
+   <td colname="col3"> <p>Admin Console（<a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html">创建产品配置</a>） </p> </td> 
+   <td colname="col4"> <p>Admin Console（<a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html">创建产品配置</a>） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 编辑群组中的用户 </td> 
