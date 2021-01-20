@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Ad Hoc Analysis项目转换器工作流
 title: 在 Ad Hoc Analysis 中转换项目
 uuid: 20bd9974-209e-457c-9e52-d50f90078af6
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 94%
+source-wordcount: '300'
+ht-degree: 97%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Adobe正在将Ad Hoc Analysis迁至2021年3月1日的生命周期。 [了解更多](https://adobe.ly/discoverworkspace)
+>Adobe 将于 2021 年 3 月 1 日终止 Ad Hoc Analysis 的生命周期。[了解更多](https://adobe.ly/discoverworkspace)
 
-## 转换项目 {#topic_5A55F73488704C5D8E42CDD04B5984DE}
+## 转换项目{#topic_5A55F73488704C5D8E42CDD04B5984DE}
 
 在转换项目之前，请注意以下事项：
 
@@ -50,6 +50,6 @@ ht-degree: 94%
 ### 转换当前项目
 
 1. 在 Ad Hoc Analysis 中，打开要转换的项目。
-1. 单击&#x200B;**[!UICONTROL 将当前项目转换到 Analysis Workspace]**。 ![](assets/export_current.png)
+1. 单击&#x200B;**[!UICONTROL 将当前项目转换到 Analysis Workspace]**。  ![](assets/export_current.png)
 
 1. 现在，[!UICONTROL 转换概要]会列出已转换的所有项目，还会显示状态列，指示转换成功或失败及错误代码。请联系 Adobe 客户关怀，以便针对“`Error-Id: <Error-Code>`”错误，获得进一步的诊断。
