@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: 了解Analytics数据中捕获的ID，并决定将哪些ID用于数据隐私请求。
 title: 标签设置最佳实践
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '2689'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '2706'
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 * 某些 ID 可能对应多个人员，而您不希望将某个人的相关信息冒险返回给具有同一 ID 的其他人员。例如，即使您可以确认某个人的姓名就是 John Smith，您也可能不希望返回系统中关于所有 John Smith 的所有数据。
 * 另一个示例是设备 ID，例如 Analytics Cookie ID。如果 ID 出现在手机应用程序中，您可以确定使用此 ID 的所有交互都应可用于该手机的所有者。但是，如果它出现在共享设备上，例如家用计算机或者图书馆或网吧中的计算机，您可以确定无法区分使用该设备的多名用户，而且将数据返回给其他用户的风险太大，因而不允许使用此类 ID。
 
-## Analytics 支持的 ID 最佳实践 {#section_B6481505FF1949498D4B4B35B780D050}
+## Analytics 支持的 ID 最佳实践  {#section_B6481505FF1949498D4B4B35B780D050}
 
 利用这个表格可以确定在向 Analytics 提交数据隐私请求时，您将使用的 ID 类型。当您清楚了这个信息后，就会比较容易确定应该为变量使用的其他标签了。
 
