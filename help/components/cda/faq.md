@@ -2,10 +2,10 @@
 title: 跨设备分析常见问题解答
 description: 跨设备分析常见问题解答
 translation-type: tm+mt
-source-git-commit: a46b68c7e4ea82b31ed400bf3e6180a7358bb3b5
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
 workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 99%
+source-wordcount: '1319'
+ht-degree: 97%
 
 ---
 
@@ -61,7 +61,7 @@ Adobe 将带有时间戳的点击视为在时间戳时间（而不是 Adobe 收�
 
 ## CDA 中的“人员”量度与 CDA 外的“独特访客”量度有何区别？
 
-由于[人员](/help/components/metrics/people.md)量度报告的是独特个人的数量，因此它与[独特访客](/help/components/metrics/unique-visitors.md)量度类似。但是，在使用跨设备分析时，如果独特访客在 CDA 之外被记录为两个单独的独特访客时，则它们会被合并。启用跨设备分析后，“人员”量度将取代“独特访客”量度。
+由于[人员](/help/components/metrics/people.md)量度报告的是独特个人的数量，因此它与[独特访客](/help/components/metrics/unique-visitors.md)量度类似。但是，在使用跨设备分析时，如果独特访客在 CDA 之外被记录为两个单独的独特访客时，则它们会被合并。启用“跨设备分析”时，“人员”指标将取代“唯一访客”指标。 新的度量[唯一设备](/help/components/metrics/unique-devices.md)可用，大约等于跨设备分析之外的唯一访客。
 
 ## CDA 中的“独特设备”量度与 CDA 外的“独特访客”量度有何区别？
 
