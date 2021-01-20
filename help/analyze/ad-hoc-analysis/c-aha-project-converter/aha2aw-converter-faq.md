@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Ad Hoc Analysis至Analysis Workspace项目转换器常见问题解答
 title: 项目转换器常见问题解答
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 6a964f9ed9dcba6e4bf9eab8868ed325bc5e3560
+source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 93%
+source-wordcount: '941'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->Adobe正在将Ad Hoc Analysis迁至2021年3月1日的生命周期。 [了解更多](https://adobe.ly/discoverworkspace)
+>Adobe 将于 2021 年 3 月 1 日终止 Ad Hoc Analysis 的生命周期。[了解更多](https://adobe.ly/discoverworkspace)
 
 ## 项目转换器常见问题解答 {#topic_8231595303AD403E9322645A63632D57}
 
@@ -81,7 +81,7 @@ ht-degree: 93%
    <td colname="col1"> <p><b>问：日期范围如何转换？</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">Ad Hoc Analysis 中的“最近 X 天”日期范围<i>不包含</i>当天，然而在 Analysis Workspace 中，该日期范围<i>包含</i>当天。因此，“过去90天”等日期范围可能与工具之间不完全匹配。 相反，在Analysis Workspace <b>应 </b> 用“Last X全天”范围。 </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">Ad Hoc Analysis 中的“最近 X 天”日期范围<i>不包含</i>当天，然而在 Analysis Workspace 中，该日期范围<i>包含</i>当天。因此，“过去90天”等日期范围可能与工具之间不完全匹配。 相反，在Analysis Workspace应用“Last X <b> full </b> days”范围。 </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">在工作区中，会在项目/工作区级别应用 Ad Hoc Analysis 工作区级别的日期范围。 </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">在工作区中，会在表列级别应用 Ad Hoc Analysis 报表级别的日期范围。 </li> 
     </ul> <p>您可以在 <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">组件</span> &gt; <span class="uicontrol">日期范围</span>下编辑自定义日期范围。 </p> </td> 
