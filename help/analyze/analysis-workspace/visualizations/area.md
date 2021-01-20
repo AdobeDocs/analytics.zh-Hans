@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: 此工作区可视化类似于线图，但线下有彩色区域。
 title: 面积图和堆叠的面积图
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 1835f9063809cc780350b04dd018eb8cb6800152
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 83%
 
 ---
 
