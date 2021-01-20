@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Adobe Analytics变量的数据隐私标签示例
 title: Analytics 变量的数据隐私标签
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '3641'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '3649'
+ht-degree: 99%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 >
 >数据使用标签和执行 (DULE) 框架旨在提供一个跨所有解决方案/服务/平台的统一方式，以便在整个 Adobe Experience Cloud 中捕获、传输和使用有关数据的元数据。元数据可帮助数据控制者指明哪些数据是个人信息，哪些数据是敏感数据，以及哪些合同限制与数据相关。在这个初始版本中，Analytics 只支持与数据隐私相关的 DULE 标签。随着 Adobe 的其他产品开始实施对 DULE 标签的支持，未来版本将会引入更多的敏感数据标签以及合同标签，这有助于确保产品之间共享的数据只在法律允许的范围内使用。
 
-## 身份数据标签 (DULE) {#identity-data-labels}
+## 身份数据标签 (DULE)  {#identity-data-labels}
 
 身份数据“I”标签用于对可识别或联系特定人员的数据进行分类。
 
@@ -63,7 +63,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
  </tbody> 
 </table>
 
-## 敏感数据标签 (DULE) {#sensitive-data-labels}
+## 敏感数据标签 (DULE)  {#sensitive-data-labels}
 
 敏感数据“S”标签用于对诸如地理数据之类的敏感数据进行分类。未来，会引入其他敏感数据标签，用于识别其他类型的敏感信息。
 
@@ -205,7 +205,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
  </tbody> 
 </table>
 
-## 在为变量设置 ID-DEVICE 或 ID-PERSON 标签时提供命名空间 {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
+## 在为变量设置 ID-DEVICE 或 ID-PERSON 标签时提供命名空间  {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
 
 在为变量设置 ID-DEVICE 或 ID-PERSON 标签时，系统会提示您提供一个命名空间。您可以使用先前已定义的命名空间或者定义一个新的命名空间。
 
@@ -295,7 +295,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
  </tbody> 
 </table>
 
-## 可为其分配除 ACC-ALL/ACC-PERSON 以外的标签的变量/已修改 {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+## 可为其分配除 ACC-ALL/ACC-PERSON 以外的标签的变量/已修改  {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -358,7 +358,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
  </tbody> 
 </table>
 
-## 删除处理 {#section_F3DEE591671A4B16A8E043F91C137ECB}
+## 删除处理  {#section_F3DEE591671A4B16A8E043F91C137ECB}
 
 Adobe Analytics 对数据隐私删除请求的支持旨在最大限度地减少对报表的影响。在大多数情况下，报表中显示的量度不应发生变化。在执行数据隐私删除之前运行的历史报表将与执行删除之后运行的同一报表相匹配。这是通过将已删除的数据与数据主体完全解除关联、同时又保留不可识别的数据来完成的，以便使报告的值保持一致。
 
@@ -446,7 +446,7 @@ Adobe Analytics 对数据隐私删除请求的支持旨在最大限度地减少�
  </tbody> 
 </table>
 
-## 访问请求的日期字段 {#section_6678FB4FF42B481C9B78E64F61782397}
+## 访问请求的日期字段  {#section_6678FB4FF42B481C9B78E64F61782397}
 
 有五个标准变量包含时间戳：
 
