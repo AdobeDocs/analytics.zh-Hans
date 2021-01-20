@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: 显示如何为点击数据标记数据、访问请求、删除请求的示例
 title: 标签功能示例
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '802'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '815'
+ht-degree: 98%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 100%
 
 | 标签 | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **变量名称** <br> **(命名空间)** | **MyProp1** <br> **(用户)** | **Visitor ID** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
+| **变量名称** <br> **(命名空间)** | **MyProp1** <br> **(用户)** | **Visitor ID** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**  <br> **(xyz)** |
 | 命中数据 | Mary | 77 | 同类群组 | M | X |
-|  | Mary | 88 | B | N | Y |
-|  | Mary | 99 | C | O | Z |
+|  | 玛丽 | 88 | B | N | Y |
+|  | 玛丽 | 99 | C | O | Z |
 |  | John | 77 | D | P | W |
-|  | John | 88 | E | N | U |
-|  | John | 44 | F | Q | V |
-|  | John | 55 | G | R | X |
+|  | 约翰 | 88 | E | N | U |
+|  | 约翰 | 44 | F | Q | V |
+|  | 约翰 | 55 | G | R | X |
 |  | Alice | 66 | 同类群组 | N | Z |
 
 ## 访问请求示例
@@ -42,13 +42,13 @@ ht-degree: 100%
 | **命名空间/ID** | **expandIDs** |  | **MyProp1** | **访客 ID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 |  AAID=77 | false | “设备” | 变量不存在 | 77 | 变量不存在 | M、P | X、W |
 |  AAID=77 | true | “设备” | 变量不存在 | 77 | 变量不存在 | M、P | X、W |
-| user=Mary | false | “人员” | Mary | 77、88、99 | A、B、C | M、N、O | X、Y、Z |
-| user=Mary | true | “人员” | Mary | 77、88、99 | A、B、C | M、N、O | X、Y、Z |
-| user=Mary | true | “设备” | 不存在 | 77、88 | 不存在 | N、P | U、W |
-| user=Mary AAID=66 | true | “人员” | Mary | 77、88、99 | A、B、C | M、N、O | X、Y、Z |
-| user=Mary AAID=66 | true | “设备” | 不存在 | 66、77、88 | 不存在 | N、P | U、W、Z |
-| xyz=X | false | “设备” | 不存在 | 55、77 | 不存在 | M、R | X |
-| xyz=X | true | “设备” | 不存在 | 55、77 | 不存在 | M、P、R | W、X |
+| user=Mary | 假 | “人员” | 玛丽 | 77、88、99 | A、B、C | M、N、O | X、Y、Z |
+| user=Mary | 真 | “人员” | 玛丽 | 77、88、99 | A、B、C | M、N、O | X、Y、Z |
+| user=Mary | 真 | “设备” | 不存在 | 77、88 | 不存在 | N、P | U、W |
+| user=Mary AAID=66 | 真 | “人员” | 玛丽 | 77、88、99 | A、B、C | M、N、O | X、Y、Z |
+| user=Mary AAID=66 | 真 | “设备” | 不存在 | 66、77、88 | 不存在 | N、P | U、W、Z |
+| xyz=X | 假 | “设备” | 不存在 | 55、77 | 不存在 | M、R | X |
+| xyz=X | 真 | “设备” | 不存在 | 55、77 | 不存在 | M、P、R | W、X |
 
 请注意，使用 Cookie ID 时，expandIDs 的设置对输出没有任何影响。
 
@@ -59,14 +59,14 @@ ht-degree: 100%
 | AAID=77 expandIDs 值<br>没有影响 | AAID=77 expandIDs 值<br>没有影响 | AAID=77 expandIDs 值<br>没有影响 | AAID=77 expandIDs 值<br>没有影响 | AAID=77 expandIDs 值<br>没有影响 |
 |---|---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| Mary | 42 | 同类群组 | Privacy-7398 | Privacy-9152 |
-| Mary | 88 | B | N | Y |
-| Mary | 99 | C | O | Z |
-| John | 42 | D | Privacy-1866 | Privacy-8216 |
-| John | 88 | E | N | U |
-| John | 44 | F | Q | V |
-| John | 55 | G | R | X |
-| Alice | 66 | 同类群组 | N | W |
+| 玛丽 | 42 | 同类群组 | Privacy-7398 | Privacy-9152 |
+| 玛丽 | 88 | B | N | Y |
+| 玛丽 | 99 | C | O | Z |
+| 约翰 | 42 | D | Privacy-1866 | Privacy-8216 |
+| 约翰 | 88 | E | N | U |
+| 约翰 | 44 | F | Q | V |
+| 约翰 | 55 | G | R | X |
+| 爱丽丝 | 66 | 同类群组 | N | W |
 
 >[!NOTE]
 >
@@ -75,14 +75,14 @@ ht-degree: 100%
 | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false |
 |--- |---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| Privacy-0523 | 77 | Privacy-1866 | Privacy-3681 | X |
-| Privacy-0523 | 88 | Privacy-2178 | Privacy-1975 | Y |
-| Privacy-0523 | 99 | Privacy-9045 | Privacy-2864 | Z |
-| John | 77 | D | P | W |
-| John | 88 | E | N | U |
-| John | 44 | F | Q | V |
-| John | 55 | G | R | X |
-| Alice | 66 | 同类群组 | N | W |
+| Privacy-0523 | 77 | 隐私-1866 | Privacy-3681 | X |
+| 隐私-0523 | 88 | Privacy-2178 | Privacy-1975 | Y |
+| 隐私-0523 | 99 | Privacy-9045 | Privacy-2864 | Z |
+| 约翰 | 77 | D | P | W |
+| 约翰 | 88 | E | N | U |
+| 约翰 | 44 | F | Q | V |
+| 约翰 | 55 | G | R | X |
+| 爱丽丝 | 66 | 同类群组 | N | W |
 
 >[!NOTE]
 >
@@ -91,14 +91,14 @@ ht-degree: 100%
 | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true |
 |--- |---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| Privacy-5782 | 09 | Privacy-0859 | Privacy-8183 | Privacy-9152 |
-| Privacy-5782 | 16 | Privacy-6104 | Privacy-2911 | Privacy-6821 |
-| Privacy-5782 | 83 | Privacy-2714 | Privacy-0219 | Privacy-4395 |
-| John | 09 | D | Privacy-8454 | Privacy-8216 |
-| John | 16 | E | Privacy-2911 | Privacy-2930 |
-| John | 44 | F | Q | V |
-| John | 55 | G | R | X |
-| Alice | 66 | 同类群组 | N | W |
+| Privacy-5782 | 09 | Privacy-0859 | Privacy-8183 | 隐私-9152 |
+| 隐私-5782 | 16 | Privacy-6104 | Privacy-2911 | Privacy-6821 |
+| 隐私-5782 | 83 | Privacy-2714 | Privacy-0219 | Privacy-4395 |
+| 约翰 | 09 | D | Privacy-8454 | 隐私-8216 |
+| 约翰 | 16 | E | 隐私-2911 | Privacy-2930 |
+| 约翰 | 44 | F | Q | V |
+| 约翰 | 55 | G | R | X |
+| 爱丽丝 | 66 | 同类群组 | N | W |
 
 请注意以下事项：
 
