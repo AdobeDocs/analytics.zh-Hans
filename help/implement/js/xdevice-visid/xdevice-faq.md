@@ -1,11 +1,11 @@
 ---
 title: 跨设备访客识别常见问题解答
 description: 关于跨设备访客识别的常见问题解答
-translation-type: ht
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 100%
 
 关于跨设备访客识别的常见问题解答。
 
-**跨设备访客识别与跨设备分析之间有何不同？**
+**跨设备访客识别和跨设备分析之间有何区别？**
 
 跨设备访客识别使用 `visitorID` 变量将设备绑定在一起，但存在一些主要限制。此识别方法的一个最大限制便是：除非已经识别了设备，否则会排除未经验证的点击。这些未经验证的点击可能会导致您的独特访客计数虚增。
 
-跨设备分析是 Adobe 最新的跨设备访客识别方法。该方法使用 Experience Cloud ID 服务和设备图以可追溯的方式将来自不同设备的访问拼接在一起。CDA 需要使用 `setCustomerIDs` 函数来确定同一访客使用了哪些设备。
+跨设备分析是Adobe最新的跨设备访客识别方法。 该方法使用 Experience Cloud ID 服务和设备图以可追溯的方式将来自不同设备的访问拼接在一起。CDA 需要使用 `setCustomerIDs` 函数来确定同一访客使用了哪些设备。
 
 **跨设备访客识别如何处理区段？**
 
