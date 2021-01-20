@@ -1,12 +1,11 @@
 ---
-description: 'null'
+description: 如何视图Analysis Workspace转制项目
 title: 在 Analysis Workspace 中查看已转换的项目
-uuid: 5f8b6d0a-1a2c-42da-b51d-ecb355f470af
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 88%
+source-wordcount: '107'
+ht-degree: 92%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->Adobe正在将Ad Hoc Analysis迁至2021年3月1日的生命周期。 [了解更多](https://adobe.ly/discoverworkspace)
+>Adobe 将于 2021 年 3 月 1 日终止 Ad Hoc Analysis 的生命周期。[了解更多](https://adobe.ly/discoverworkspace)
 
 在工作区中查看项目之前，请参阅[常见问题解答](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#topic_8231595303AD403E9322645A63632D57)和查看 Ad Hoc Analysis 与工作区之间的[术语差异](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#topic_8231595303AD403E9322645A63632D57)。
 
