@@ -1,17 +1,16 @@
 ---
-description: 'null'
-title: 调色板
-uuid: 18252889-8dc0-48fa-820f-df534156c22f
+description: 如何在Analysis Workspace使用可视化调色板
+title: 什么是可视化调色板？它们如何工作？
 translation-type: tm+mt
-source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
+source-git-commit: ff0608b809b6471fc59097370e9acbf0bb7dc94f
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 100%
+source-wordcount: '214'
+ht-degree: 89%
 
 ---
 
 
-# 可视化图表调色板
+# 可视化调色板
 
 现在，您可以通过选择不同的调色板或指定与公司品牌颜色相匹配的个性化调色板，来更改工作区中使用的可视化图表调色板。这项功能会影响工作区中的大多数可视化图表，但&#x200B;**不会**&#x200B;影响概要变化、自由格式表中的条件格式和地图可视化图表。
 
