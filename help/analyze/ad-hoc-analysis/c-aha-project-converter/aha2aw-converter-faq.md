@@ -1,12 +1,11 @@
 ---
-description: Analysis Workspace 到 Ad Hoc Analysis 的项目转换器常见问题解答
-title: 项目转换器常见问题解答
-uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
-translation-type: ht
-source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
-workflow-type: ht
-source-wordcount: '941'
-ht-degree: 100%
+description: 关于Ad Hoc Analysis至Analysis Workspace项目转换器的常见问题
+title: 关于Ad Hoc Analysis至Analysis Workspace项目转换器的常见问题解答
+translation-type: tm+mt
+source-git-commit: 59d89f7678310aea71191849735f9a61d77249a0
+workflow-type: tm+mt
+source-wordcount: '951'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +24,7 @@ ht-degree: 100%
 ## 已知的转换问题{#section_39C922A58B2E49C9877B363042801361}
 
 | 问题 | 描述 |
-|--- |--- |
+| --- | --- |
 | 分钟粒度应用了划分或位于列中 | 当分钟粒度应用了划分，或者当分钟粒度位于列中时，无法将项目转换到 Analysis Workspace。解决方法：移除分钟粒度上的划分，并且从列中移除该分钟粒度，然后转换项目。接下来，您可以在 Analysis Workspace 中对分钟粒度应用划分。 |
 | 内部的计算量度与列区段结合使用 | 如果正在将内部的计算量度与列区段结合使用，则无法将项目转换到 Analysis Workspace。要解决此问题，请在转换之前先从项目中移除内部的计算量度，然后在 Analysis Workspace 中重新添加这些量度。 |
 
