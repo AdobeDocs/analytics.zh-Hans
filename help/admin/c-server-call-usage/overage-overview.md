@@ -1,12 +1,12 @@
 ---
-description: Adobe Analytics服务器调用使用功能概述。
+description: Adobe Analytics“服务器调用使用情况”功能概述。
 title: “服务器调用使用情况”概述
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1045'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
