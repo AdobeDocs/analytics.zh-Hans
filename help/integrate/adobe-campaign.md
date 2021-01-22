@@ -1,12 +1,11 @@
 ---
-description: 'null'
-title: Adobe Campaign 报告
-uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
+description: 了解如何在Adobe Analytics启用Adobe Campaign报告
+title: 如何将Adobe Campaign报告集成到Adobe Analytics?
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '478'
+ht-degree: 95%
 
 ---
 
@@ -38,20 +37,9 @@ Adobe Analytics 与 Adobe Campaign 之间的此集成
 
 Adobe Campaign Standard 与 Adobe Analytics 之间的集成在 **[!UICONTROL Analytics]** > **[!UICONTROL 报表]**&#x200B;下添加了以下报表
 
-<table id="table_3627F40DC90646A7B5E217A88B6FD630"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 报表 </th> 
-   <th colname="col2" class="entry"> 定义 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Adobe Campaign 执行的提交 ID </p> </td> 
-   <td colname="col2"> <p>显示从 Adobe Campaign 导入的有关发送自 Adobe Campaign 的电子邮件的数据。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 报表 | 定义 |
+|--- |--- |
+| Adobe Campaign 执行的提交 ID | 显示从 Adobe Campaign 导入的有关发送自 Adobe Campaign 的电子邮件的数据。 |
 
 ## 步骤 3. 使用 Adobe Campaign 分类 {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
@@ -65,7 +53,7 @@ Adobe Campaign Standard 与 Adobe Analytics 之间的集成在 **[!UICONTROL Ana
 * 促销活动标签（Adobe Campaign 中的促销活动）
 * 执行的提交标签（执行的各个提交的列表）
 
-## Adobe Analytics 中可用的 Adobe Campaign 维度和量度 {#section_F33385C9660644AF84172EC39601469B}
+## Adobe Analytics 中可用的 Adobe Campaign 维度和量度  {#section_F33385C9660644AF84172EC39601469B}
 
 在 Adobe Analytics 报表包的 Campaign 中可以使用以下&#x200B;**量度**：
 
