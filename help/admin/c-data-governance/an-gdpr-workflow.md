@@ -1,12 +1,12 @@
 ---
-description: 概述使您的Adobe Analytics实施能够支持数据主体的数据隐私访问和删除权限的步骤。
+description: 概述您可以采取哪些步骤来启用 Adobe Analytics 实施，以便支持数据主体的数据隐私访问和删除权利。
 title: 隐私工作流程
 uuid: f24e8be3-8b5c-409b-ad6b-770198ae2549
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '399'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
