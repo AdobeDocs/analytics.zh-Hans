@@ -1,12 +1,12 @@
 ---
-description: 如何在Adobe Analytics提交数据访问和删除请求。
+description: 如何在 Adobe Analytics 中提交数据访问和删除请求。
 title: 提交访问和删除请求
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1312'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 99%
 
 您可能还需要确保您的移动设备应用程序和网站具有与数据主体权利相关的弹出通知和支持材料，内容涉及可直接或间接识别他们的数据以及您收集的其他数据。
 
-## 管理用户同意  {#section_3012015E7E8942519FB9279CF7057EAB}
+## 管理用户同意 {#section_3012015E7E8942519FB9279CF7057EAB}
 
 作为数据控制者，您有责任在收集与数据主体相关的数据（可能包括 Adobe Analytics 数据）之前获得他们的明确同意，并且有责任在您的网站上[实施退出机制](https://docs.adobe.com/content/help/zh-Hans/dtm/using/tools/opt-in.html)。该机制允许您的数据主体退出以后的 Adobe Experience Cloud 数据收集。
 
-## 验证用户及其数据  {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
+## 验证用户及其数据 {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
 作为数据控制者，您有责任验证自称是数据主体的用户的真实身份，并且他们有权访问所请求的数据。另外，您还有责任确保将正确的数据返回给数据主体，并且他们不会意外收到有关其他数据主体的数据。
 
@@ -40,7 +40,7 @@ ht-degree: 99%
 >
 >数据隐私 API 支持在一个请求中批量提交多个用户。当前支持的限制是：允许单个请求 JSON 文件中有 1000 个独立用户（每个用户可以有多个 ID）。
 
-## JSON 请求示例  {#sample-json-request}
+## JSON 请求示例 {#sample-json-request}
 
 以下是可能通过数据隐私 API 或用户界面提交的 JSON，请求为三位用户进行数据隐私处理。
 
