@@ -1,13 +1,12 @@
 ---
-description: AppMeasurement 库和 Activity Map 模块如何进行合并的示例
-title: 实现代码样例
+description: AppMeasurement库和Activity Map模块如何组合到Adobe Analytics实施代码中的示例
+title: 视图示例Activity Map实现代码
 topic: Activity map
-uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28
-translation-type: ht
-source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
-workflow-type: ht
-source-wordcount: '42'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 59d89f7678310aea71191849735f9a61d77249a0
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 50%
 
 ---
 
