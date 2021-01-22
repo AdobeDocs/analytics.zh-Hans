@@ -1,12 +1,12 @@
 ---
-description: Adobe Analytics服务器呼叫使用常见问题
+description: Adobe Analytics“服务器调用使用情况”常见问题解答
 title: “服务器调用使用情况”常见问题解答
 uuid: 43340481-2e49-446b-bec7-86fcadeb4233
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '720'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
