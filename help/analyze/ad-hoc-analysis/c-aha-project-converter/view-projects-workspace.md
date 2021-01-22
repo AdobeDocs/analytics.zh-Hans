@@ -1,11 +1,11 @@
 ---
-description: 如何视图Analysis Workspace转制项目
+description: 如何在 Analysis Workspace 中查看已转换的项目
 title: 在 Analysis Workspace 中查看已转换的项目
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '107'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
