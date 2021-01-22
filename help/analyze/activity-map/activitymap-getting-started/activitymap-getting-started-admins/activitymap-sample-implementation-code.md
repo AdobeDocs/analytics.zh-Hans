@@ -1,13 +1,13 @@
 ---
-description: AppMeasurement库和Activity Map模块组合方式示例
+description: AppMeasurement 库和 Activity Map 模块如何进行合并的示例
 title: 实现代码样例
 topic: Activity map
 uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '42'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
