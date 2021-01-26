@@ -5,9 +5,9 @@ user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 针对 Analysis Workspace（Analytics 主要的分析和可视化工具）以及 Report Builder 和 Activity Map 等工具，提供相关操作说明。
 translation-type: tm+mt
-source-git-commit: ff0608b809b6471fc59097370e9acbf0bb7dc94f
+source-git-commit: 9538934c409ab4f2b089d0df748d8cfc5295656b
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1099'
 ht-degree: 100%
 
 ---
@@ -91,10 +91,10 @@ ht-degree: 100%
          + [细分比较中使用的统计测试](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 组织或共享项目 {#curate-share}
       + [“共享”菜单](analysis-workspace/curate-share/send-schedule-files.md)
-      + [策划项目](analysis-workspace/curate-share/curate.md)
+      + [组织项目](analysis-workspace/curate-share/curate.md)
       + [共享项目](analysis-workspace/curate-share/share-projects.md)
       + [创建可共享链接](analysis-workspace/curate-share/shareable-links.md)
-      + [仅查看项目](analysis-workspace/curate-share/view-only-projects.md)
+      + [仅供查看的项目](analysis-workspace/curate-share/view-only-projects.md)
       + [下载 PDF 或 CSV 文件](analysis-workspace/curate-share/download-send.md)
       + [计划项目](analysis-workspace/curate-share/t-schedule-report.md)
    + 归因 IQ {#attribution}
@@ -135,7 +135,6 @@ ht-degree: 100%
       + [安装 Report Builder](report-builder/setup/t-install-arb.md)
       + [升级 Report Builder](report-builder/setup/upgrade-arb.md)
       + [Report Builder 登录](report-builder/setup/login.md)
-      + [登录 Report Builder](report-builder/setup/t-loggin-in-to-reportbuilder.md)
       + [卸载 Report Builder](report-builder/setup/t-uninstall-arb.md)
       + [通过 Microsoft Excel 函数调用 Report Builder 功能](report-builder/setup/invoke-arb-excel-function.md)
    + [Report Builder 工具栏](report-builder/reportbuilder-toolbar.md)
