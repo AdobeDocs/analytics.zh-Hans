@@ -1,11 +1,11 @@
 ---
 title: tl
 description: 向 Adobe 发送链接跟踪调用。
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '584'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5bdd07b147d1ea5ef80336a893c02057e7bf5785
+workflow-type: tm+mt
+source-wordcount: '606'
+ht-degree: 87%
 
 ---
 
@@ -34,16 +34,10 @@ Launch 有一个专用位置，可设置链接跟踪调用。
 当您要向 Adobe 发送跟踪调用时，请调用 `s.tl()` 方法。
 
 ```js
-s.tl();
-```
-
-此方法会选择性地接受多个参数：
-
-```js
 s.tl([Link object],[Link type],[Link name],[Override variable]);
 ```
 
-### 链接对象
+### 链接对象（必需）
 
 链接对象参数可确定浏览器在离开页面之前是否需要等待长达 500 毫秒。如果发送图像请求的时间早于 500 毫秒，则页面会立即导航到点击的链接。
 
@@ -55,37 +49,42 @@ s.tl([Link object],[Link type],[Link name],[Override variable]);
 * `true`：不等待。
 
 ```JavaScript
-// Include a 500ms delay
-s.tl(this);
+// Include a 500ms delay with an exit link
+s.tl(this,"e","Example exit link");
 
-// Do not include a 500ms delay
-s.tl(true);
+// Do not include a 500ms delay with an exit link
+s.tl(true,"e","Example exit link");
 ```
 
-### 链接类型
+### 链接类型 (必需)
 
-链接类型参数是一个单字母字符串，可确定链接跟踪调用的类型。它的设置方式与设置 [`linkType`](../config-vars/linktype.md) 变量相同。
+链接类型参数是一个单字符串，它决定链接跟踪调用的类型。 有三个有效值。
+
+* `o`:该链接是自定 [义链接](/help/components/dimensions/custom-link.md)。
+* `d`:该链接为“下 [载”链接](/help/components/dimensions/download-link.md)。
+* `e`:该链接为退 [出链接](/help/components/dimensions/exit-link.md)。
 
 ```js
 // Send a custom link
-s.tl(true,"o");
+s.tl(true,"o","Example custom link");
 
 // Send a download link
-s.tl(true,"d");
+s.tl(true,"d","Example download link");
 
 // Send an exit link
-s.tl(true,"e");
+s.tl(true,"e","Example exit link");
 ```
 
-### 链接名称
+### 链接名称（推荐）
 
-链接名称参数是一个可确定链接跟踪维度项目的字符串。它的设置方式与设置 [`linkName`](../config-vars/linkname.md) 变量相同。
+链接名称参数是一个可确定链接跟踪维度项目的字符串。在报告中使用[自定义链接](/help/components/dimensions/custom-link.md)、[下载链接](/help/components/dimensions/download-link.md)或[退出链接](/help/components/dimensions/exit-link.md)维时，此字符串包含维项。 如果未设置此参数，则使用[linkURL](../config-vars/linkurl.md)变量。
 
 ```js
-s.tl(true,"d","Example download link");
+// When using the Download link dimension, this method call increases the occurrences metric for "Sea turtle PDF report" by 1.
+s.tl(true,"d","Sea turtle PDF report");
 ```
 
-### 变量覆盖
+### 变量覆盖（可选）
 
 允许您更改单次调用的变量值。有关更多信息，请参阅[变量覆盖](../../js/overrides.md)。
 
@@ -108,14 +107,6 @@ s.tl(true,"o","Example custom link",y);
 
 ```JavaScript
 s.tl(true,"o","Example link");
-```
-
-使用 JavaScript 通过不同的变量进行相同的基本链接跟踪调用：
-
-```js
-s.linkType = "o";
-s.linkName = "Example link";
-s.tl();
 ```
 
 ### 在自定义函数中进行链接跟踪调用
