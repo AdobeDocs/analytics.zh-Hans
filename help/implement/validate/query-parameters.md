@@ -1,9 +1,9 @@
 ---
 title: 数据收集查询参数
 description: 列出了图像请求中使用的所有查询字符串参数。
-translation-type: ht
-source-git-commit: edf3ac3ebc99444b86bcd9239cef9ed84d797565
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 | `c` | 无 | 颜色质量（位）在[颜色深度](/help/components/dimensions/color-depth.md)维度中使用。 |
 | `c.` | [`contextData`](../vars/page-vars/contextdata.md) | 指示上下文数据变量的开头。从不包含值。 |
 | `.c` | [`contextData`](../vars/page-vars/contextdata.md) | 指示上下文数据变量的结尾。从不包含值。 |
-| `c1` - `c75` | [`prop1` - `prop75`](../vars/page-vars/prop.md) | [Prop](/help/components/dimensions/prop.md) 或自定义流量变量。 |
+| `c1` - `c75` | [`prop1` -  `prop75`](../vars/page-vars/prop.md) | [Prop](/help/components/dimensions/prop.md) 或自定义流量变量。 |
 | `cc` | [`currencyCode`](../vars/config-vars/currencycode.md) | 点击中使用的货币类型。 |
 | `cdp` | [`cookieDomainPeriods`](../vars/config-vars/cookiedomainperiods.md) | 域中的句点数。用于帮助正确存储 Cookie。 |
 | `ce` | [`charSet`](../vars/config-vars/charset.md) | 图像请求的字符编码。 |
@@ -41,11 +41,11 @@ ht-degree: 100%
 | `-g` | [`pageURL`](../../components/dimensions/page-url.md) | 长度超过 255 字节的 URL 将被拆分。前 255 个字节显示在 `g` 参数中，其余所有字节都显示在 `-g` 参数中。 |
 | `gn` | [`pageName`](../vars/page-vars/pagename.md) | `pageName` 查询字符串的简写形式。 |
 | `gt` | [`pageType`](../vars/page-vars/pagetype.md) | `pageType` 查询字符串的简写形式。 |
-| `h1` - `h5` | [`hier1` - `hier5`](../vars/page-vars/hier.md) | 层次结构维度。 |
+| `h1` -  `h5` | [`hier1` -  `hier5`](../vars/page-vars/hier.md) | 层次结构维度。 |
 | `hp` | 无 | 已不再使用。在早期版本的 Adobe Analytics 中，用于确定当前 URL 是否是浏览器的主页。 |
 | `j` | 无 | 浏览器中安装的 JavaScript 版本。 |
 | `k` | 无 | 在 [Cookie 支持](/help/components/dimensions/cookie-support.md)维度中使用。 |
-| `l1` - `l3` | [`list1` - `list3`](../vars/page-vars/list.md) | 列表变量。 |
+| `l1` -  `l3` | [`list1` -  `list3`](../vars/page-vars/list.md) | 列表变量。 |
 | `mid` | 无 | Experience Cloud 访客 ID。 |
 | `ndh` | 无 | 指示图像请求是否来自 AppMeasurement 的标记。 |
 | `ns` | [`visitorNameSpace`](../vars/config-vars/visitornamespace.md) | 帮助确定 Cookie 的设置位置。 |
@@ -55,9 +55,9 @@ ht-degree: 100%
 | `pageName` | [`pageName`](../vars/page-vars/pagename.md) | 在[页面](/help/components/dimensions/page.md)维度中使用。 |
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | 在[页面未找到](/help/components/dimensions/pages-not-found.md)维度中使用。 |
 | `pccr` | 无 | 仅为新访客设置，并始终设置为 `true`。帮助防止无限重定向。 |
-| `pe` | [`linkType`](../vars/config-vars/linktype.md) | 确定自定义链接的类型。[自定义链接](/help/components/dimensions/custom-link.md)、[下载链接](/help/components/dimensions/download-link.md)和[退出链接](/help/components/dimensions/exit-link.md)需要。 |
+| `pe` | [`tl()`](../vars/functions/tl-method.md) | 确定自定义链接的类型。[自定义链接](/help/components/dimensions/custom-link.md)、[下载链接](/help/components/dimensions/download-link.md)和[退出链接](/help/components/dimensions/exit-link.md)需要。 |
 | `pev1` | 无 | 自定义链接的 URL。 |
-| `pev2` | [`linkName`](../vars/config-vars/linkname.md) | 自定义链接友好名称。 |
+| `pev2` | [`tl()`](../vars/functions/tl-method.md) | 自定义链接友好名称。 |
 | `pev3` | 无 | 已不再使用。在早期版本的视频报告中，用于跟踪里程碑。 |
 | `pf` | 无 | 平台标志；仅供 Adobe 使用。请勿更改。 |
 | `pid` | 无 | 最后一页的页面标识符。在 Activity Map 早期版本中使用。 |
@@ -74,7 +74,7 @@ ht-degree: 100%
 | `ts` | [`timestamp`](../vars/page-vars/timestamp.md) | 为点击设置的自定义时间戳。通常用于离线跟踪。 |
 | `v` | 无 | 在[已启用 Java](/help/components/dimensions/java-enabled.md) 维度中使用。 |
 | `v0` | [`campaign`](../vars/page-vars/campaign.md) | [跟踪代码](/help/components/dimensions/tracking-code.md)维度。 |
-| `v1` - `v250` | [`evar1` - `eVar250`](../vars/page-vars/evar.md) | [eVar](/help/components/dimensions/evar.md) 或自定义转化维度。 |
+| `v1` -  `v250` | [`evar1` -  `eVar250`](../vars/page-vars/evar.md) | [eVar](/help/components/dimensions/evar.md) 或自定义转化维度。 |
 | `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | 访客 ID 变量。 |
 | `vmk` | `vmk` | 已不再使用。访客迁移密钥，帮助将实施从第三方迁移到第一方 Cookie。 |
 | `vvp` | `variableProvider` | 用于 Data Connectors。 |
