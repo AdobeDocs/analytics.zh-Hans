@@ -1,11 +1,11 @@
 ---
 title: 下载链接
 description: 下载链接的名称。
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '180'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 83%
 
 ---
 
@@ -22,11 +22,7 @@ ht-degree: 100%
 
 此维度从图像请求中的 [`pev2` 查询字符串](/help/implement/validate/query-parameters.md) 为还具有值为 `lnk_d` 的 `pe` 查询字符串的点击收集数据。如果 `pe` 查询字符串在点击中具有不同的值，则此维度不会收集数据。
 
-如果要使用 AppMeasurement 将数据发送到此维度，请执行以下操作：
-
-* 使用所需的值填充 [`linkName`](/help/implement/vars/config-vars/linkname.md) 变量。
-* 将 [`linkType`](/help/implement/vars/config-vars/linktype.md) 变量设置为 `"d"`。
-* 发送一个 [`tl()`](/help/implement/vars/functions/tl-method.md) 图像请求。
+如果要使用AppMeasurement将数据发送到此维，请发送一个[`tl()`](/help/implement/vars/functions/tl-method.md)图像请求，其链接类型参数为`"d"`。 用所需值填充链接名称参数。
 
 ## 维度项目
 
