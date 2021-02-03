@@ -1,10 +1,10 @@
 ---
 title: getPercentPageViewed
 description: 检索访客查看的页面内容所占的百分比。
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '798'
+translation-type: tm+mt
+source-git-commit: 69c1daa9dbf3bbf39072cc7104f2dd32fb95eb79
+workflow-type: tm+mt
+source-wordcount: '781'
 ht-degree: 100%
 
 ---
@@ -19,8 +19,6 @@ ht-degree: 100%
 `getPercentPageViewed` 插件可衡量访客的页面滚动活动，以了解访客在进入其他页面前查看了某个页面的多少内容。如果您的页面高度较小或者您不想要测量页面滚动活动，则无需使用此插件。
 
 ## 使用 Launch 自定义代码编辑器安装此插件
-
-如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
 1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 1. 单击所需的属性。
