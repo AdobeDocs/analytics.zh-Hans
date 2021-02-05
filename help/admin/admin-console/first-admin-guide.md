@@ -1,9 +1,9 @@
 ---
 title: Adobe Analytics 管理入门指南
 description: 了解如何开始使用 Adobe Analytics、常规角色类型以及如何登录到用户界面。
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
+workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 100%
 
@@ -58,6 +58,6 @@ Experience Platform Launch 产品管理员访问权限的授予方式几乎与 A
 
 ## 后续步骤
 
-[创建报表包](create-report-suite.md)：让您的 Analytics 管理员登录到该工具，并创建用于收集数据的报表包
+[创建报表包](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：让您的 Analytics 管理员登录到该工具，并创建用于收集数据的报表包
 
 [在 Experience Platform Launch 中创建资产](/help/implement/launch/create-analytics-property.md)：让您的 Experience Platform Launch 管理员登录到该工具，并创建要在您的站点上实施的资产
