@@ -2,7 +2,7 @@
 title: 在 Launch 中创建 Analytics 属性
 description: 使用 Adobe Experience Platform Launch 创建一个空间以自定义收集数据的方式。
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 84%
@@ -16,20 +16,20 @@ Adobe Experience Platform Launch 是一个可用于在您的网站（包括 Anal
 
 ## 先决条件
 
-[创建报表包](/help/admin/admin-console/create-report-suite.md)：为要收集的 Analytics 数据创建一个容器
+[创建报表包](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：为要收集的 Analytics 数据创建一个容器
 
 ## 创建属性并安装重要扩展
 
 属性是用于管理标记的主要容器。通过扩展，您可以安装和配置特定于产品的标记。
 
 1. 转到 [launch.adobe.com](https://launch.adobe.com) 并在出现提示时登录。
-1. Click **[!UICONTROL New Property]**.
+1. 单击&#x200B;**[!UICONTROL 新建属性]**。
 1. 为您的属性指定名称（如网站的标题），然后输入要在其中实施 Analytics 的域。单击&#x200B;**[!UICONTROL 保存]**。
 1. 单击新创建的属性以输入其设置。
-1. Click the **[!UICONTROL Extensions]** tab, then click **[!UICONTROL Catalog]**.
-1. Locate Identity Service, then click **[!UICONTROL Install]**.
+1. 单击&#x200B;**[!UICONTROL 扩展]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 目录]**。
+1. 找到Identity Service，然后单击&#x200B;**[!UICONTROL 安装]**。
 1. 所有设置（包括 Experience Cloud 组织 ID）均应已填充。单击&#x200B;**[!UICONTROL 保存]**。
-1. Back in the extensions catalog, locate Adobe Analytics and click **[!UICONTROL Install]**.
+1. 返回扩展目录，找到Adobe Analytics并单击&#x200B;**[!UICONTROL 安装]**。
 
 ## 为 Adobe Analytics 创建数据元素
 
@@ -37,7 +37,7 @@ Adobe Experience Platform Launch 是一个可用于在您的网站（包括 Anal
 
 1. 转到 [launch.adobe.com](https://launch.adobe.com) 并在出现提示时登录。
 1. 单击要在网站上实施的 Launch 属性。
-1. Click the **[!UICONTROL Data Elements]** tab, then click **[!UICONTROL Create New Data Element]**.
+1. 单击&#x200B;**[!UICONTROL 数据元素]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 创建新数据元素]**。
 1. 为数据元素指定以下设置：
 
    * 名称：页面名称
@@ -58,14 +58,14 @@ Adobe Experience Platform Launch 是一个可用于在您的网站（包括 Anal
 
 1. 转到 [launch.adobe.com](https://launch.adobe.com) 并在出现提示时登录。
 1. 单击要在网站上实施的 Launch 属性。
-1. Click **[!UICONTROL Create New Rule]** and name it `Global Rule`.
-1. Click **[!UICONTROL Add]** next to events, and enter the following settings:
+1. 单击&#x200B;**[!UICONTROL 创建新规则]**&#x200B;并将其命名为`Global Rule`。
+1. 单击事件旁的&#x200B;**[!UICONTROL 添加]**，然后输入以下设置：
    * 扩展：核心
    * 事件类型：已加载的库（页面顶部）
    * 名称：核心 - 已加载的库（页面顶部）
    * 订购：50
 1. 单击 **[!UICONTROL Keep Changes]**.
-1. Under **[!UICONTROL Actions]**, click **[!UICONTROL Add]**, and enter the following settings:
+1. 在“**[!UICONTROL 操作]**”下，单击“**[!UICONTROL 添加]**”，然后输入以下设置：
    * 扩展：Adobe Analytics
    * 操作类型：设置变量
    * 页面名称：单击容器图标，然后选择 `Page Name` 数据元素。
@@ -77,7 +77,7 @@ Adobe Experience Platform Launch 是一个可用于在您的网站（包括 Anal
    * 名称：Adobe Analytics - 发送信标
    * 跟踪：s.t()
 1. 单击 **[!UICONTROL Keep Changes]**.
-1. Verify that you have the event and two actions set, then click **[!UICONTROL Save]**.
+1. 验证是否已设置事件和两个操作，然后单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 文档和其他资源
 
