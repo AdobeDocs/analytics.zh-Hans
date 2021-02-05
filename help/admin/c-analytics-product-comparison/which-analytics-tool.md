@@ -3,10 +3,10 @@ description: 本帮助页面包含每个 Adobe Analytics 工具的推荐使用�
 title: 我应该使用哪种 Adobe Analytics 工具？
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 885c0f379d7b7119ffdd953f55148f0178a15864
+source-git-commit: 12d2391e2429f80648ca674540e65ecd224b1b02
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 97%
+source-wordcount: '1186'
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->Adobe正在将Ad Hoc Analysis迁至2021年3月1日的生命周期。 [了解更多](https://adobe.ly/discoverworkspace)
+>Adobe 将于 2021 年 3 月 1 日终止 Ad Hoc Analysis 的生命周期。[了解更多](https://adobe.ly/discoverworkspace)
 
 * 适用于需要以选项卡方式组织项目工作的情况.
 * 用于使用网站分析报表（3D 路径报表）。
@@ -49,7 +49,7 @@ ht-degree: 97%
 * 适用于延迟分析（事件前/后的时间）。
 * 用于识别和导出 Adobe Experience Cloud 中的复杂区段。
 
-## 将数据导入 Adobe Analytics {#section_B42B998D6E3E4357B024AEFA4EC69A23}
+## 将数据导入 Adobe Analytics  {#section_B42B998D6E3E4357B024AEFA4EC69A23}
 
 **[分类](/help/components/classifications/c-classifications.md)**&#x200B;的使用说明：
 
@@ -68,13 +68,17 @@ ht-degree: 97%
    * 交易 ID：数据上载将在线端点与离线数据连接起来，并将导入的数据与访客在线捕获的快照完全关联（例如，在线完成并离线返回的订单）
    * 完全处理：像处理 Adobe 服务器收集的点击一样处理带有时间戳的数据源。例如，直接将数据插入访客历程。
 
-**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)（以前称为 Genesis）**&#x200B;的使用说明：
+**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)** 的使用说明：:
 
 * 适用于跟已经与 Adobe Analytics 建立受支持连接的第三方提供商合作的情况。Data Connectors 通常会定期将摘要级别的数据自动地永久合并到 Adobe Analytics 中。
 
 **[数据插入 API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** 的使用说明：
 
 * 适用于需要将数据上载到 Adobe Analytics，但无法使用 Adobe AppMeasurement 或移动 SDK 代码的情况。
+
+**[批量数据插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
+
+* 数据插入API和批量数据插入API都是将服务器端收集数据提交到Adobe Analytics的方法。 数据插入API调用一次只进行一个事件。 批量数据插入API接受包含事件数据的CSV格式文件，每行一个事件。 如果您正在开发新的服务器端集合实现，我们建议使用批量数据插入API。
 
 **[客户属性](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/customer-attributes/attributes.html)**&#x200B;的使用说明：
 
@@ -86,12 +90,12 @@ ht-degree: 97%
 * 适用于要将诸如人口统计信息（如性别或收入水平）、心理统计信息（如兴趣和爱好）、CRM 数据或广告展示数据之类的 Adobe Audience Manager (AAM) 受众数据合并到任何 Analytics 工作流程中的情况。
 * 适用于希望上载的 CRM 数据基于时间（因为此集成会按点击将新信息发送给 Analytics）的情况。
 
-## 从 Adobe Analytics 导出数据 {#section_901C06ABF2014E92B2952906723DF235}
+## 从 Adobe Analytics 导出数据  {#section_901C06ABF2014E92B2952906723DF235}
 
 **[Report Builder](/help/analyze/report-builder/home.md)** 的使用说明：
 
 * 适用于工作区的自定义布局选项有限的情况（在 Excel 的限制范围内，Report Builder 可执行任何操作）。
-* 用于将用户输入的内容或离线数据源（展示次数、成本）松散绑定到 Adobe 数据。用于将数据关联起来的更为永久的解决方案是数据源（请参阅“将数据导入 Analytics”）.
+* 用于将用户输入的内容或离线数据源（展示次数、成本）松散绑定到 Adobe 数据。用于将数据关联起来的更为永久的解决方案是数据源（请参阅“将数据导入 Analytics”）。
 * 用于将不同维度报表中的数据合并起来（例如，将促销活动展示次数报表和促销活动点击对话报表合并起来）。
 * 用于进行跨报表包查看。
 * 适用于需要通过计划实现自动化的情况（XLSX、XLSM、CSV、PDF、TXT、XML、MHT）。
