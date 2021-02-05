@@ -2,7 +2,7 @@
 title: Adobe Analytics 中的全局报表包
 description: 了解使用全局报表包的优势和要求。
 translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 96%
@@ -34,7 +34,7 @@ ht-degree: 96%
 
 请阅读以下一般准则，以了解实施全局报表包的流程。
 
-1. 在 Adobe Analytics 中创建全局报表包。有关详细信息，请参阅管理员用户指南中的[创建报表包](../../admin/admin-console/create-report-suite.md)。
+1. 在 Adobe Analytics 中创建全局报表包。有关详细信息，请参阅管理员用户指南中的[创建报表包](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)。
 1. 与组织中负责每个域的团队合作。许多团队都有特定于其业务领域的报告要求。
 1. 将所有这些要求记录并汇总到一个[解决方案设计文档](solution-design.md)中。如果各个团队具有类似的维度要求，则他们可以使用相同的自定义变量。例如，如果网站 A 和网站 B 都需要痕迹导航维度，则两个网站在实施过程中都可以通过 eVar1 发送该数据。
 
