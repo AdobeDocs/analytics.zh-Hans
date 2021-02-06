@@ -5,10 +5,10 @@ user-guide-title: Analytics 管理指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解如何在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等。
 translation-type: tm+mt
-source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
+source-git-commit: 445cf81cd157bb311cbd4df6e9e2b0b052a64f96
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 99%
+source-wordcount: '726'
+ht-degree: 96%
 
 ---
 
@@ -108,12 +108,12 @@ ht-degree: 99%
       + [指定独特访客变量](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [用例 - 提取访客 ID](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [视频管理](admin/video-management.md)
-+ Experience Cloud Admin Console {#admin-console}
-   + [Experience Cloud Admin Console 帮助](admin-console/home.md)
++ Admin Console 中的 Adobe Analytics {#admin-console}
+   + [Admin Console 中的 Adobe Analytics](admin-console/home.md)
    + 权限 {#permissions}
-      + [产品配置文件帮助](admin-console/permissions/product-profile.md)
-      + [报表包工具权限项](admin-console/permissions/report-suite-tools.md)
-      + [Analytics 工具权限项](admin-console/permissions/analytics-tools.md)
+      + [Adobe Analytics产品用户档案](admin-console/permissions/product-profile.md)
+      + [报表包工具的产品用户档案权限](admin-console/permissions/report-suite-tools.md)
+      + [分析工具的产品用户档案权限](admin-console/permissions/analytics-tools.md)
    + [Adobe Analytics 管理入门指南](admin-console/first-admin-guide.md)
 + 公司设置 {#company-settings}
    + [公司设置概述](company/c-company-settings.md)
