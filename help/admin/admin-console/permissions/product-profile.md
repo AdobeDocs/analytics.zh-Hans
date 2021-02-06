@@ -1,14 +1,14 @@
 ---
-source-git-commit: 81f351588ef25b0ee0376f471c947391387afb6e
+source-git-commit: 03b1195225b97f3ea151eb5b4f39fbed746b3654
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '643'
-ht-degree: 72%
+source-wordcount: '646'
+ht-degree: 67%
 
 ---
-# Adobe Analytics 中的产品配置文件
+# Adobe Analytics产品用户档案
 
-产品配置文件是产品管理员可分配给组织内用户的权限预设。如果您创建产品配置文件并将其分配给 Experience Cloud 用户，用户将继承该产品配置文件中包含的权限项。
+产品用户档案是产品管理员可以将权限预设分配给组织内的用户。 如果您创建产品配置文件并将其分配给 Experience Cloud 用户，用户将继承该产品配置文件中包含的权限项。
 
 有关产品配置文件的一般信息，请参阅“企业用户指南”中的[管理产品和配置文件](https://helpx.adobe.com/cn/enterprise/using/manage-products-and-profiles.html)。
 
@@ -50,7 +50,7 @@ ht-degree: 72%
 
 ### Analytics 工具
 
-Analytics 工具权限项用于授予对独立于报表包设置的功能的访问权限。有关权限项及其说明的完整列表，请参阅 [Analytics 工具](analytics-tools.md)。
+Analytics 工具权限项用于授予对独立于报表包设置的功能的访问权限。有关权限项目和说明的完整列表，请参阅[分析工具的产品用户档案权限](analytics-tools.md)。
 
 ## 产品配置文件开发人员
 
