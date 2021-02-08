@@ -4,11 +4,11 @@ keywords: Analytics Implementation
 title: 属性和永久性
 topic: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '542'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->不再建议使用这种方法来识别跨设备访客。请参阅组件用户指南中的[跨设备分析](/help/components/cda/overview.md)。
+>不再建议使用这种方法来识别跨设备访客。相关信息，请参阅组件用户指南中的[跨设备分析](/help/components/cda/overview.md)。
 
 在访客资料与同一访客 ID 变量关联后进行合并时，历史数据集中的属性不会发生更改。
 
