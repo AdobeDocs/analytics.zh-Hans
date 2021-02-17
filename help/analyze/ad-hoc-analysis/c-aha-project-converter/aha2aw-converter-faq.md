@@ -1,11 +1,11 @@
 ---
-description: 关于Ad Hoc Analysis至Analysis Workspace项目转换器的常见问题
-title: 关于Ad Hoc Analysis至Analysis Workspace项目转换器的常见问题解答
-translation-type: tm+mt
+description: 关于 Ad Hoc Analysis - Analysis Workspace 项目转换器的常见问题
+title: 关于 Ad Hoc Analysis - Analysis Workspace 项目转换器的常见问题解答
+translation-type: ht
 source-git-commit: 59d89f7678310aea71191849735f9a61d77249a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '951'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
