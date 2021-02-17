@@ -4,11 +4,11 @@ audience: admin
 user-guide-title: Analytics 管理指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解如何在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 445cf81cd157bb311cbd4df6e9e2b0b052a64f96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '726'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 96%
    + 机器人移除 {#bot-removal}
       + [机器人移除](admin/bot-removal/bot-removal.md)
       + [机器人规则概述](admin/bot-removal/bot-rules.md)
-      + [常见机器人签名](admin/bot-removal/bot-signatures.md)
-      + [机器人排除方法](admin/bot-removal/bot-exclusion-methods.md)
+      + [常见的机器人签名](admin/bot-removal/bot-signatures.md)
+      + [机器人排除法](admin/bot-removal/bot-exclusion-methods.md)
    + [代码管理器](admin/code-manager-admin.md)
    + 转化变量 {#conversion-variables}
       + [转化变量 (eVar)](admin/conversion-var-admin/conversion-var-admin.md)
@@ -108,12 +108,12 @@ ht-degree: 96%
       + [指定独特访客变量](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [用例 - 提取访客 ID](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [视频管理](admin/video-management.md)
-+ Admin Console 中的 Adobe Analytics {#admin-console}
-   + [Admin Console 中的 Adobe Analytics](admin-console/home.md)
++ Adobe Admin Console 中的 Analytics {#admin-console}
+   + [Adobe Admin Console 中的 Analytics](admin-console/home.md)
    + 权限 {#permissions}
-      + [Adobe Analytics产品用户档案](admin-console/permissions/product-profile.md)
-      + [报表包工具的产品用户档案权限](admin-console/permissions/report-suite-tools.md)
-      + [分析工具的产品用户档案权限](admin-console/permissions/analytics-tools.md)
+      + [Adobe Analytics 的产品配置文件](admin-console/permissions/product-profile.md)
+      + [报表包工具的产品配置文件权限](admin-console/permissions/report-suite-tools.md)
+      + [Analytics 工具的产品配置文件权限](admin-console/permissions/analytics-tools.md)
    + [Adobe Analytics 管理入门指南](admin-console/first-admin-guide.md)
 + 公司设置 {#company-settings}
    + [公司设置概述](company/c-company-settings.md)
