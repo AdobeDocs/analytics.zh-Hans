@@ -1,19 +1,19 @@
 ---
-description: 关于实施专家在将Adobe Analytics与Adobe Campaign​集成时需要遵循的参考架构、指南、配置步骤和测试的信息。
-title: 如何将Analytics与Adobe Campaign
-translation-type: tm+mt
+description: 将 Adobe Analytics 与 Adobe Campaign 集成时，实施专家需要遵循的有关参考体系结构、指南、配置步骤和测试的信息。
+title: 如何将 Analytics 与 Adobe Campaign 集成
+translation-type: ht
 source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '68'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# 将Adobe Analytics与Campaign Classic整合
+# 将 Adobe Analytics 与 Campaign Classic 集成
 
-请转到此[活动分析](https://helpx.adobe.com/marketing-cloud/how-to/analytics-ac.html)文章，了解如何将Adobe Analytics数据集成到Campaign Classic:
+请转到这篇[将 Analytics 与 Campaign 相集成](https://helpx.adobe.com/cn/marketing-cloud/how-to/analytics-ac.html)的文章，了解如何将 Adobe Analytics 数据集成到 Campaign Classic：
 
-* 使用数据连接器
-* 使用Analytics数据源
-* 使用Data warehouse
+* 使用 Data Connector
+* 使用 Analytics 数据馈送
+* 使用 Data Warehouse
