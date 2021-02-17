@@ -2,11 +2,11 @@
 description: 本帮助页面包含每个 Adobe Analytics 工具的推荐使用案例。应该按照工具的列出顺序来考虑使用哪个工具。如果某个工具无法满足需求，请考虑切换到下一个工具。
 title: 我应该使用哪种 Adobe Analytics 工具？
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: ht
-source-git-commit: 12d2391e2429f80648ca674540e65ecd224b1b02
-workflow-type: ht
-source-wordcount: '1186'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f2db5f611952ee315c84f925d038c539da110e38
+workflow-type: tm+mt
+source-wordcount: '1162'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 有关 Adobe Analytics 产品比较的详细信息，请转至[此处](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)。
 
-## Adobe Analytics 报表用户界面 {#section_8265460EBB47405AB19A3B2B0729C8A4}
+## Adobe Analytics 报表用户界面 {#user-interfaces}
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** 应该是您的首选用户界面，可满足您所有的报告与分析需求。Adobe 会继续投入人力和物力坚持每月发布此产品的更新。如果有任务无法在 Analysis Workspace 中完成，您可以考虑使用下面列出的其他界面。**
 
@@ -31,15 +31,6 @@ ht-degree: 100%
 * 用于访问有关“视频时段”和“观看者流失率”的独特的视频可视化图表。
 * 用于在计划报表中使用“发布列表”功能。
 
-**[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)** 的使用说明：
-
->[!IMPORTANT]
->
->Adobe 将于 2021 年 3 月 1 日终止 Ad Hoc Analysis 的生命周期。[了解更多](https://adobe.ly/discoverworkspace)
-
-* 用于需要以选项卡方式组织项目工作的情况。
-* 用于使用网站分析报表（3D 路径报表）。
-
 **[Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)** 的使用说明：
 
 * 最灵活的 Analytics 工具选项（针对访客级别和点击级别分析）。
@@ -49,7 +40,7 @@ ht-degree: 100%
 * 适用于延迟分析（事件前/后的时间）。
 * 用于识别和导出 Adobe Experience Cloud 中的复杂区段。
 
-## 将数据导入 Adobe Analytics {#section_B42B998D6E3E4357B024AEFA4EC69A23}
+## 将数据导入 Adobe Analytics  {#import}
 
 **[分类](/help/components/classifications/c-classifications.md)**&#x200B;的使用说明：
 
@@ -90,14 +81,14 @@ ht-degree: 100%
 * 适用于要将诸如人口统计信息（如性别或收入水平）、心理统计信息（如兴趣和爱好）、CRM 数据或广告展示数据之类的 Adobe Audience Manager (AAM) 受众数据合并到任何 Analytics 工作流程中的情况。
 * 适用于希望上载的 CRM 数据基于时间（因为此集成会按点击将新信息发送给 Analytics）的情况。
 
-## 从 Adobe Analytics 导出数据{#section_901C06ABF2014E92B2952906723DF235}
+## 从 Adobe Analytics 导出数据  {#export}
 
 **[Report Builder](/help/analyze/report-builder/home.md)** 的使用说明：
 
 * 适用于工作区的自定义布局选项有限的情况（在 Excel 的限制范围内，Report Builder 可执行任何操作）。
-* 用于将用户输入的内容或离线数据源（展示次数、成本）松散绑定到 Adobe 数据。用于将数据关联起来的更为永久的解决方案是数据源（请参阅“将数据导入 Analytics”）
+* 用于将用户输入的内容或离线数据源（展示次数、成本）松散绑定到 Adobe 数据。用于将数据关联起来的更为永久的解决方案是数据源（请参阅“将数据导入 Analytics”）。
 * 用于将不同维度报表中的数据合并起来（例如，将促销活动展示次数报表和促销活动点击对话报表合并起来）。
-* 用于进行跨报表包查看。
+* 要合并来自不同报表包的数据，可以并排汇总或显示在同一表中。
 * 适用于需要通过计划实现自动化的情况（XLSX、XLSM、CSV、PDF、TXT、XML、MHT）。
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** 的使用说明：
@@ -120,7 +111,7 @@ ht-degree: 100%
 * **实时**：适用于要延迟几秒查看若干量度和维度的情况。这是经过部分处理的有限汇总数据，有效期约为 30 秒。其中包含最受欢迎、获胜方和失败方的独特算法。可以通过 Report Builder 使用。
 * **[!UICONTROL 实时流]**：适用于要在几秒内收集经过部分处理的点击级别的 Analytics 数据流。这是经过部分处理的数据，有效时间在大约 30 秒之内。仅适用于 Analytics Premium。要求通过某种方式显示数据，通常是通过参与工程技术服务。
 
-## 自定义解决方案 {#section_4A212F26A15947599DFB0399A0440CB6}
+## 自定义解决方案 {#custom-solutions}
 
 应在以下情况使用工程技术服务：
 
