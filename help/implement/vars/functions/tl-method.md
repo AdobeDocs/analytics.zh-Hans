@@ -1,11 +1,11 @@
 ---
 title: tl
 description: 向 Adobe 发送链接跟踪调用。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5bdd07b147d1ea5ef80336a893c02057e7bf5785
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '606'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -56,13 +56,13 @@ s.tl(this,"e","Example exit link");
 s.tl(true,"e","Example exit link");
 ```
 
-### 链接类型 (必需)
+### 链接类型（必需）
 
-链接类型参数是一个单字符串，它决定链接跟踪调用的类型。 有三个有效值。
+链接类型参数是一个单字母字符串，可确定链接跟踪调用的类型。具有三个有效值。
 
-* `o`:该链接是自定 [义链接](/help/components/dimensions/custom-link.md)。
-* `d`:该链接为“下 [载”链接](/help/components/dimensions/download-link.md)。
-* `e`:该链接为退 [出链接](/help/components/dimensions/exit-link.md)。
+* `o`：该链接是一个[自定义链接](/help/components/dimensions/custom-link.md)。
+* `d`：该链接是一个[下载链接](/help/components/dimensions/download-link.md)。
+* `e`：该链接是一个[退出链接](/help/components/dimensions/exit-link.md)。
 
 ```js
 // Send a custom link
@@ -77,7 +77,7 @@ s.tl(true,"e","Example exit link");
 
 ### 链接名称（推荐）
 
-链接名称参数是一个可确定链接跟踪维度项目的字符串。在报告中使用[自定义链接](/help/components/dimensions/custom-link.md)、[下载链接](/help/components/dimensions/download-link.md)或[退出链接](/help/components/dimensions/exit-link.md)维时，此字符串包含维项。 如果未设置此参数，则使用[linkURL](../config-vars/linkurl.md)变量。
+链接名称参数是一个可确定链接跟踪维度项目的字符串。当在报告中使用[自定义链接](/help/components/dimensions/custom-link.md)、[下载链接](/help/components/dimensions/download-link.md)或[退出链接](/help/components/dimensions/exit-link.md)维度时，此字符串中包含维度项目。如果未设置此参数，则使用 [linkURL](../config-vars/linkurl.md) 变量。
 
 ```js
 // When using the Download link dimension, this method call increases the occurrences metric for "Sea turtle PDF report" by 1.
