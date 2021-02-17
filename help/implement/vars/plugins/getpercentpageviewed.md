@@ -1,9 +1,9 @@
 ---
 title: getPercentPageViewed
 description: 检索访客查看的页面内容所占的百分比。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69c1daa9dbf3bbf39072cc7104f2dd32fb95eb79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '781'
 ht-degree: 100%
 
