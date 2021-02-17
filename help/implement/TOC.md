@@ -4,11 +4,11 @@ audience: all
 user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
 user-guide-description: '自定义收集哪些数据，以便让 Adobe Analytics 得到充分利用。 '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69c1daa9dbf3bbf39072cc7104f2dd32fb95eb79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 94%
       + [getVisitNum](vars/plugins/getvisitnum.md)
       + [inList](vars/plugins/inlist.md)
       + [manageVars](vars/plugins/managevars.md)
-      + [数字套件](vars/plugins/numberssuite.md)
+      + [Numbers Suite](vars/plugins/numberssuite.md)
       + [p_fo](vars/plugins/p-fo.md)
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
@@ -129,7 +129,7 @@ ht-degree: 94%
    + [全局报表包注意事项](prepare/global-rs.md)
    + [“实施”模式窗口](prepare/implementation-modal.md)
    + [创建解决方案设计文档](prepare/solution-design.md)
-   + [负责现有的Adobe Analytics执行](prepare/existing-implementation.md)
+   + [负责现有的 Adobe Analytics 实施](prepare/existing-implementation.md)
 + 使用 JavaScript 实施 Analytics {#js}
    + [JavaScript 概述](js/overview.md)
    + [实施选择退出链接](js/opt-out.md)
@@ -193,7 +193,7 @@ ht-degree: 94%
    + [在 Facebook Instant Articles 上实施 Analytics](other/fb-instant-articles.md)
 + [在移动设备上实施 Analytics](mobile-device-sdk.md)
 + 实施用例 {#use-cases}
-   + [将AppMeasurement与iFrames结合使用](use-cases/iframe.md)
+   + [将 AppMeasurement 与 iFrames 结合使用](use-cases/iframe.md)
    + [跨不同的实施类型跟踪](use-cases/cross-type-implementation.md)
    + [外部电子邮件跟踪](use-cases/email-external.md)
 + 验证实施 {#validate}
@@ -202,10 +202,10 @@ ht-degree: 94%
    + [数据包监视工具](validate/packet-monitor.md)
    + [哈希冲突](validate/hash-collisions.md)
 + [常见问题解答](faq.md)
-+ 检查您的实施{#review}
-   + [重点审查（每个网站发布后）](review/focused-review.md)
-   + [完整审查（每6个月）](review/full-review.md)
-   + [定义您的五大KPI](review/define-kpis.md)
++ 审核实施 {#review}
+   + [重点审核（每个网站发布后）](review/focused-review.md)
+   + [全面审核（每 6 个月）](review/full-review.md)
+   + [定义您的 5 大 KPI](review/define-kpis.md)
 + 在 Analytics 中使用 XDM 数据 {#aep-edge}
    + [使用 AEP Web SDK](aep-edge/xdmoverview.md)
    + [手动将 XDM 数据映射到 Analytics](aep-edge/xdm-manual.md)
