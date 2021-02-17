@@ -1,12 +1,12 @@
 ---
-description: AppMeasurement库和Activity Map模块如何组合到Adobe Analytics实施代码中的示例
-title: 视图示例Activity Map实现代码
+description: 在 Adobe Analytics 实施代码中，如何组合 AppMeasurement 库和 Activity Map 模块的示例
+title: 查看 Activity Map 实施代码样例
 topic: Activity map
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 59d89f7678310aea71191849735f9a61d77249a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '51'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
