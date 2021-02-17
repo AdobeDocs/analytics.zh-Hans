@@ -3,7 +3,7 @@ description: 可对虚拟报表包进行管理以在 Analysis Workspace 中包�
 title: 虚拟报表包组件管理
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: 780d1d70c1bef907ef3dc1a942eaf399c9d3ba48
+source-git-commit: 07aa9068e4500d11a80d1e340912b249156fd3b9
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 100%
@@ -31,13 +31,14 @@ ht-degree: 100%
    >[!NOTE]
    >
    >如果启用了组件自定，则虚拟报表包&#x200B;**只能在 Analysis Workspace 中**&#x200B;访问，而不能在以下位置访问：
+   >
+   >* [!UICONTROL Reports and Analytics]
+   >* [!UICONTROL Ad Hoc Analysis]
+   >* [!UICONTROL Data Warehouse]
+   >* [!UICONTROL Report Builder]
+   >* [!UICONTROL Activity Map]
+   >* Analytics Reporting API
 
-   * [!UICONTROL Reports and Analytics]
-   * [!UICONTROL Ad Hoc Analysis]
-   * [!UICONTROL Data Warehouse]
-   * [!UICONTROL Report Builder]
-   * [!UICONTROL Activity Map]
-   * Analytics Reporting API
 
    选中后，通过将适用组件从“排除的组件”列拖入“已包含的组件”列，可添加要包含在虚拟报表包中的组件。可包含和排除的组件包括：
 
@@ -64,12 +65,12 @@ ht-degree: 100%
 
 ![](assets/vrs-aw-renamed.png)
 
-## 组件组 {#section_483BEC76F49E46ADAAA03F0A12E48426}
+## 组件组  {#section_483BEC76F49E46ADAAA03F0A12E48426}
 
 使用组件组可向您的虚拟报表包中批量添加组件。例如，如果您要导入一组专门用于移动设备应用程序分析的默认组件，请选择移动设备应用程序组。对应的一组维度和量度（已重命名）会被自动添加到虚拟报表包的“已包括”列表中。
 
 ![](assets/vrs-comp-grp.png)
 
-## 工作区行为 {#section_6C32F8B642804C0097FCB14E21028D4A}
+## 工作区行为  {#section_6C32F8B642804C0097FCB14E21028D4A}
 
 有关 Analysis Workspace 中策化的更多信息，请参阅[策划和共享项目](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/curate.html)。
