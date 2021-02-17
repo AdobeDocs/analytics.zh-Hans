@@ -1,12 +1,12 @@
 ---
 source-git-commit: 45edc5eacde90dc5b5da140ad50561f0f32bb41d
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '649'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-# 报表包工具的产品用户档案权限
+# “报表包工具”的产品配置文件权限
 
 通过此页可了解“报表包工具”下的每个权限项。
 
