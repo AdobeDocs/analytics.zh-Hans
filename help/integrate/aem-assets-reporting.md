@@ -1,20 +1,20 @@
 ---
-description: 在 Analytics 中启用 AEM 资产报表功能的管理步骤。
-title: 如何报道AEM Assets在Adobe Analytics
-translation-type: tm+mt
+description: 在 Analytics 中启用 AEM Assets 报表功能的管理步骤。
+title: 如何在 Adobe Analytics 中启用 AEM Assets 报告功能
+translation-type: ht
 source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
 # AEM Assets 报告
 
-在 Analytics 中启用 AEM 资产报表功能的管理步骤。
+在 Analytics 中启用 AEM Assets 报表功能的管理步骤。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **`<select report suite>`** > **[!UICONTROL 编辑设置]** > **[!UICONTROL AEM]** > **[!UICONTROL AEM Assets 报告功能]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **`<select report suite>`** > **[!UICONTROL 编辑设置]** > **[!UICONTROL AEM]** > **[!UICONTROL AEM Assets 报表功能]**
 
 使 Analytics 能够从 AEM 资产分析收集投放资产的展示次数和点击次数。此集成
 
