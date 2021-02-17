@@ -1,12 +1,12 @@
 ---
 source-git-commit: 9f1b7f13a35a4c5c9fc82a2d71cbdb544396f82e
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '559'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-# 分析工具的产品用户档案权限
+# Analytics 工具的产品配置文件权限
 
 Analytics 工具权限项用于授予对 Adobe Analytics 中各项功能的访问权限。Analytics 工具权限项不适用于单个报表包，而适用于整个 Adobe Analytics。
 
@@ -39,7 +39,7 @@ Analytics 工具权限项用于授予对 Adobe Analytics 中各项功能的访�
 | Analysis Workspace 访问权限 | 授予对 Analysis Workspace 的访问权限。用户必须属于此组（首选）或“Reports &amp; Analytics 访问权限”组，才能使用 Adobe Analytics。 |
 | Reports &amp; Analytics 访问权限 | 授予对 Reports &amp; Analytics 的访问权限。用户必须属于此组或“Analysis Workspace 访问权限”组（首选），才能使用 Adobe Analytics。 |
 | Analysis Workspace：另存为模板 | 授予对 Analysis Workspace 中“项目”>“另存为模板”的访问权限。 |
-| Labs 访问 | 允许用户访问实验室和实验室中的原型。 |
+| Labs 访问 | 允许用户访问 Labs 和 Labs 中的原型。 |
 | 计算量度创建 | 允许在所有 Analytics 功能中创建计算量度。 |
 | 区段创建 | 允许在所有 Analytics 功能中创建区段并在功能之间共享区段。 |
 | Advertising Analytics 管理 | 未使用。 |
