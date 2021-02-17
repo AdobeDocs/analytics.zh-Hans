@@ -1,14 +1,14 @@
 ---
 source-git-commit: 03b1195225b97f3ea151eb5b4f39fbed746b3654
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '646'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
-# Adobe Analytics产品用户档案
+# Adobe Analytics 的产品配置文件
 
-产品用户档案是产品管理员可以将权限预设分配给组织内的用户。 如果您创建产品配置文件并将其分配给 Experience Cloud 用户，用户将继承该产品配置文件中包含的权限项。
+产品配置文件是产品管理员可分配给组织内用户的权限预设。如果您创建产品配置文件并将其分配给 Experience Cloud 用户，用户将继承该产品配置文件中包含的权限项。
 
 有关产品配置文件的一般信息，请参阅“企业用户指南”中的[管理产品和配置文件](https://helpx.adobe.com/cn/enterprise/using/manage-products-and-profiles.html)。
 
@@ -17,9 +17,9 @@ ht-degree: 67%
 产品配置文件管理员是一个可选组，可向相应产品配置文件添加用户或从中删除用户。请注意，产品配置文件管理员不同于产品管理员：
 
 * 产品配置文件管理员没有 Adobe Analytics 的完全访问权限。而产品管理员拥有 Adobe Analytics 的完全访问权限。
-* 产品用户档案管理员可以调整其产品用户档案中的权限项目。
-* 产品用户档案管理员可以向用户组分配或删除产品用户档案。
-* 产品用户档案管理员是团队领导或需要授予和管理团队对Adobe Analytics的访问权限的经理的理想之选。 通过产品配置文件管理员，个人便无需麻烦系统管理员或产品管理员授予对 Adobe Analytics 的访问权限。
+* 产品配置文件管理员可以调整其产品配置文件中的权限项。
+* 产品配置文件管理员可以向用户组分配或从中移除产品配置文件。
+* 如果团队领导或经理需要为团队授予并管理 Adobe Analytics 的访问权限，那么产品配置文件管理员将是他们的不二之选。通过产品配置文件管理员，个人便无需麻烦系统管理员或产品管理员授予对 Adobe Analytics 的访问权限。
 
 ## Adobe Analytics 权限项
 
@@ -50,10 +50,10 @@ ht-degree: 67%
 
 ### Analytics 工具
 
-Analytics 工具权限项用于授予对独立于报表包设置的功能的访问权限。有关权限项目和说明的完整列表，请参阅[分析工具的产品用户档案权限](analytics-tools.md)。
+Analytics 工具权限项用于授予对独立于报表包设置的功能的访问权限。有关权限项及其说明的完整列表，请参阅 [Analytics 工具的产品配置文件权限](analytics-tools.md)。
 
 ## 产品配置文件开发人员
 
-开发人员类似于用户，只不过开发人员有权在 Adobe I/O 上使用 Experience Cloud API。有关更多信息，请参阅“企业用户指南”中的[管理开发人员](https://helpx.adobe.com/cn/enterprise/using/manage-developers.html)。如果用户被授予对任何用户档案的开发人员访问权限，则他们可以访问开发控制台(console.adobe.io)并编辑Adobe Analytics集成。 为用户授权的Analytics API调用和响应将取决于该用户具有开发人员访问权限的所有用户档案的净权限。
+开发人员类似于用户，只不过开发人员有权在 Adobe I/O 上使用 Experience Cloud API。有关更多信息，请参阅“企业用户指南”中的[管理开发人员](https://helpx.adobe.com/cn/enterprise/using/manage-developers.html)。如果授予用户任何配置文件的开发人员访问权限，则他们将有权访问开发控制台 (console.adobe.io) 并编辑 Adobe Analytics 集成。在用户拥有开发人员访问权限的所有配置文件中，这些配置文件的净权限决定了为该用户授予的 Analytics API 调用和响应。
 
-例如，用户档案权限包括所有指标、所有维和一个报表包，用户档案的开发人员访问成员可以发出与相关套件中的任何组件相关的API调用。 添加异常检测后，报告可能包含更完整的响应，从而添加异常数据。 作为经验法则，如果用户档案授予对Adobe Analytics界面中某个场景的访问权，则在类似定义的用户档案上的开发人员访问将启用相应的API调用和响应。
+例如，根据配置文件权限（包含所有量度、所有维度和一个报表包），持有配置文件开发人员访问权限的成员可发出与关联套件中任何组件相关的 API 调用。随着“异常检测”的添加，报告可以包含更完整的响应，从而添加异常数据。根据经验，如果配置文件授予对 Adobe Analytics 界面中某个场景的访问权限，则对类似定义的配置文件的开发人员访问权限将启用相应的 API 调用和响应。
