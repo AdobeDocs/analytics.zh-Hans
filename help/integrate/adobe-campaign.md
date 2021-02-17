@@ -1,11 +1,11 @@
 ---
-description: 了解如何在Adobe Analytics启用Adobe Campaign报告
-title: 如何将Adobe Campaign报告集成到Adobe Analytics?
-translation-type: tm+mt
+description: 了解如何在 Adobe Analytics 中启用 Adobe Campaign 报告功能
+title: 如何将 Adobe Campaign 报告功能集成到 Adobe Analytics？
+translation-type: ht
 source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Adobe Campaign Standard 与 Adobe Analytics 之间的集成在 **[!UICONTROL Ana
 * 促销活动标签（Adobe Campaign 中的促销活动）
 * 执行的提交标签（执行的各个提交的列表）
 
-## Adobe Analytics 中可用的 Adobe Campaign 维度和量度  {#section_F33385C9660644AF84172EC39601469B}
+## Adobe Analytics 中可用的 Adobe Campaign 维度和量度 {#section_F33385C9660644AF84172EC39601469B}
 
 在 Adobe Analytics 报表包的 Campaign 中可以使用以下&#x200B;**量度**：
 
