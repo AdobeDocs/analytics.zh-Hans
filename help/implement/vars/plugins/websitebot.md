@@ -1,36 +1,36 @@
 ---
 title: websiteBot
-description: 使用鼠标移动动态识别机器人。
-translation-type: tm+mt
+description: 通过移动鼠标，动态识别机器人。
+translation-type: ht
 source-git-commit: 7c130a1b79c9ab1b60773f51f1679249bfa338be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '393'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
 
-# Adobe插件：websiteBot
+# Adobe 插件：websiteBot
 
 >[!IMPORTANT]
 >
 >此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
-`websiteBot`插件允许您动态识别桌面访客是否是机器人程序。 您可以使用此数据在所有类型的报告中提高准确性，从而更好地衡量合法网站流量。
+通过 `websiteBot` 插件，您可以动态识别桌面访客是否为机器人。您可以凭借此数据来提高所有报表类型的准确性，从而更好地衡量合法的网站流量。
 
-此插件执行两项检查：
+这个插件可执行两项检查：
 
-* 首先，它使用`navigator.UserAgent`变量确定设备是桌面设备还是移动设备。 忽略移动设备。
-* 如果它是桌面设备，则会添加一个用于鼠标移动的事件监听器。
+* 首先，它通过 `navigator.UserAgent` 变量来确定设备是桌面设备还是移动设备。移动设备将被忽略。
+* 如果是桌面设备，该插件将添加一个用于了解鼠标移动的事件侦听器。
 
-如果用户代理在桌面上并且未检测到鼠标移动，则插件会将`websiteBot`变量设置为`true`。 如果用户代理是移动设备，或者检测到鼠标移动，则插件会将`websiteBot`变量设置为`false`。
+如果用户代理使用的是桌面设备并且未检测出鼠标移动，该插件则会将 `websiteBot` 变量设置为 `true`。如果用户代理使用的是移动设备，或者检测出鼠标移动，该插件则会将 `websiteBot` 变量设置为 `false`。
 
 ## 先决条件
 
-Adobe建议在使用此插件之前进行以下操作：
+Adobe 建议在使用此插件之前执行以下操作：
 
-* **配置eVar设置**:在“报表包”设置中 [的“](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) 转换变量”下设置eVar。将过期时间设置为&#x200B;**&quot;访客&quot;**，并将分配设置为&#x200B;**&quot;原始值（第一个）&quot;**。
-* **在单独的变量中收集用户代理**:将用户代理字符串收集到一个单独的变量中，以监控此插件的效能。每次点击时将eVar设置为`navigator.UserAgent`以收集此数据。
+* **配置 eVar 设置**：在“报表包”设置中的[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)下设置 eVar。将到期设置为&#x200B;**“访客”**，并将分配设置为&#x200B;**“原始值（第一个）”**。
+* **在单独的变量中收集用户代理**：将用户代理字符串收集到一个单独的变量中，以监控此插件的功效。每次点击时，将 eVar 设置为 `navigator.UserAgent` 以收集此数据。
 
 ## 使用 Launch 自定义代码编辑器安装此插件
 
@@ -54,7 +54,7 @@ websiteBot=true;if(!/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|bla
 
 ## 使用此插件
 
-`websiteBot` 变量是一个布尔值。如果插件检测到机器人，则返回`true`;否则，返回`false`。
+`websiteBot` 变量是一个布尔值。如果此插件检测到机器人，则会返回 `true`；否则会返回 `false`。
 
 ## 示例
 
@@ -68,6 +68,6 @@ s.eVar1 = websiteBot ? "Bot detected" : "Not a bot";
 
 ## 版本历史记录
 
-### 0.1（2021年1月19日）
+### 0.1（2021 年 1 月 19 日）
 
 * 测试版。
