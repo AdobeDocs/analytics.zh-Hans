@@ -1,11 +1,11 @@
 ---
 description: Adobe Analysis Workspace 及其相关组件中的错误消息列表
 title: Analysis Workspace 中的常见错误消息
-translation-type: ht
-source-git-commit: 517b62a976cae1e202eccb4486fa5480b3dff08c
-workflow-type: ht
-source-wordcount: '394'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5514e98703442fa68c8f19edce07fb3f2c74b874
+workflow-type: tm+mt
+source-wordcount: '446'
+ht-degree: 90%
 
 ---
 
@@ -16,7 +16,8 @@ ht-degree: 100%
 
 | 错误消息 | 为什么出现此错误？ | 优化 |
 | --- | --- | --- |
-| [!UICONTROL 发生系统错误。请在&#x200B;**[!UICONTROL 帮助 > 提交支持票证]**&#x200B;下记录一条客户关怀团队请求，并将您的错误代码包含在内。] | Adobe 遇到了一个需要解决的问题。 | 将错误代码提交给客户关怀团队。 |
+| [!UICONTROL 发生系统错误。请在帮助 > 提交支持票证下记录一条客户关怀团队请求，并将您的错误代码包含在内。] | Adobe 遇到了一个需要解决的问题。 | 将错误代码提交给客户关怀团队。 |
+| [!UICONTROL 发生意外错误；再次尝试刷新您的项目。如果问题仍然存在，请将此错误ID提交给Adobe客户服务部门以进一步诊断。] | Adobe 遇到了一个需要解决的问题。 | 尝试刷新您的项目，如果问题仍然存在，请向客户服务部门提交错误代码。 |
 | [!UICONTROL 错误 500：无法加载页面] | 本地网络的问题（如公司[防火墙设置](https://docs.adobe.com/content/help/zh-Hans/analytics/technotes/ip-addresses.html)），是引发该错误的一个因素。此外，Adobe 可能遇到了需要解决的问题。 | 请在几分钟后再次尝试登录。如果问题仍然存在，请向客户关怀团队提交 EIM 实例 ID 代码。 |
 | [!UICONTROL 此可视化图表中的一个区段或搜索，包含返回了大量结果的文本搜索。] | 您设定的区段标准或报表过滤器过于宽泛。 | 应缩小搜索文本标准，然后重试请求。 |
 | [!UICONTROL 报表包的报告过于繁重。请稍后重试。] | 您的组织针对特定报表包尝试运行的并发请求过多。导致此错误的因素包括：API 请求、计划项目、计划报表、计划警报，以及提出报表请求的并发用户数量。 | 将报表包的请求和计划较为均匀地分布在一天当中。 |
