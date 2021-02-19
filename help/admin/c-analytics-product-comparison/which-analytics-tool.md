@@ -2,11 +2,11 @@
 description: 本帮助页面包含每个 Adobe Analytics 工具的推荐使用案例。应该按照工具的列出顺序来考虑使用哪个工具。如果某个工具无法满足需求，请考虑切换到下一个工具。
 title: 我应该使用哪种 Adobe Analytics 工具？
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2db5f611952ee315c84f925d038c539da110e38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1162'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 98%
 * 适用于延迟分析（事件前/后的时间）。
 * 用于识别和导出 Adobe Experience Cloud 中的复杂区段。
 
-## 将数据导入 Adobe Analytics  {#import}
+## 将数据导入 Adobe Analytics {#import}
 
 **[分类](/help/components/classifications/c-classifications.md)**&#x200B;的使用说明：
 
@@ -81,14 +81,14 @@ ht-degree: 98%
 * 适用于要将诸如人口统计信息（如性别或收入水平）、心理统计信息（如兴趣和爱好）、CRM 数据或广告展示数据之类的 Adobe Audience Manager (AAM) 受众数据合并到任何 Analytics 工作流程中的情况。
 * 适用于希望上载的 CRM 数据基于时间（因为此集成会按点击将新信息发送给 Analytics）的情况。
 
-## 从 Adobe Analytics 导出数据  {#export}
+## 从 Adobe Analytics 导出数据 {#export}
 
 **[Report Builder](/help/analyze/report-builder/home.md)** 的使用说明：
 
 * 适用于工作区的自定义布局选项有限的情况（在 Excel 的限制范围内，Report Builder 可执行任何操作）。
-* 用于将用户输入的内容或离线数据源（展示次数、成本）松散绑定到 Adobe 数据。用于将数据关联起来的更为永久的解决方案是数据源（请参阅“将数据导入 Analytics”）。
+* 用于将用户输入的内容或离线数据源（展示次数、成本）松散绑定到 Adobe 数据。用于将数据关联起来的更为永久的解决方案是数据源（请参阅“将数据导入 Analytics”） 
 * 用于将不同维度报表中的数据合并起来（例如，将促销活动展示次数报表和促销活动点击对话报表合并起来）。
-* 要合并来自不同报表包的数据，可以并排汇总或显示在同一表中。
+* 通过汇总或并排显示在同一表格中，将不同报告包的数据合并在一起。
 * 适用于需要通过计划实现自动化的情况（XLSX、XLSM、CSV、PDF、TXT、XML、MHT）。
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** 的使用说明：
