@@ -2,10 +2,10 @@
 description: 通过 Analytics for Target (A4T) 面板，可以在 Analysis Workspace 中分析 Adobe Target 活动和体验。
 title: Analytics for Target (A4T) 面板
 translation-type: tm+mt
-source-git-commit: c93520f7a3dacfbfb05c79809bf58c0cc0f34a9f
+source-git-commit: 284d8237091fbf7c341fc0f577c023cfe7e536d4
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 86%
+source-wordcount: '1072'
+ht-degree: 82%
 
 ---
 
@@ -45,12 +45,12 @@ Analytics for Target 面板可返回丰富的数据和可视化图表，进而�
 | 成功量度 | 在生成器中选择的量度 |
 | 转化率 | 成功量度/标准化量度 |
 | 提升度 | 将每个体验的转化率与控制体验的转化率进行比较。注意：提升度是目标体验的“锁定量度”；不能对其划分或将其与其他维度一起使用。 |
-| 提升（低） | 表示变型体验在95%的置信区间内对控制的最坏提升。<br>计算：(x/y ± 1.96 std_err(x,y))/(x_control/y_control ∓ 1.96 std_err(x_control,y_control))。 此处std_err(x,y)为sqrt(xx/y -(x/y)^2)，其中xx表示平方和。 |
+| 提升（低） | 在95%的置信区间内，表示变体体验可能控制的最坏提升。<br>计算：(x/y ± 1.96 std_err(x，y))/(x_control/y_control ∓ 1.96 std_err(x_control，y_control))。此处， std_err(x，y)为sqrt(xx/y -(x/y)^2)，其中xx表示平方和。 |
 | 提升（中） | 代表在 95% 的置信区间内，变量体验相对于控制体验所能达到的中等提升度。这是 Reports &amp; Analytics 中的“提升度”。<br>计算：(x/y)/(x_control/y_control)- 1 |
-| 提升（高） | 表示在95%的置信区间内，变体体验可以对控件进行的最佳提升。<br>计算：请参阅提升（下）。 |
-| 置信度 | t 检验（也称为 Student t 检验）将计算置信度级别，用于指示如果再次运行该检验，出现重复结果的可能性。已对量度应用了 75%/85%/95% 的固定条件格式化范围。如果需要，可以在“列”设置下自定义此格式化范围。￼注意：￼置信度是目标体验的“锁定量度”；不能对其划分或将其与其他维度一起使用。<br>计算：应用带y+y_control-2自由度的2尾t-test，无论x/y是否等于x_control/y_control，都可找到p值。 计算t得分，其中stderr为sqrt((xx/y-(x/y)^2)/y +(xx_control/y_control-(x_control/y_control)^2)/y_control)。 回报1-p，相信它们是不同的。 |
+| 提升（高） | 以95%的置信区间表示变体体验对控制的最佳提升。<br>计算：请参阅提升（下）。 |
+| 置信度 | t 检验（也称为 Student t 检验）将计算置信度级别，用于指示如果再次运行该检验，出现重复结果的可能性。已对量度应用了 75%/85%/95% 的固定条件格式化范围。如果需要，可以在“列”设置下自定义此格式化范围。￼注意：￼置信度是目标体验的“锁定量度”；不能对其划分或将其与其他维度一起使用。<br>计算：应用带y+y_control-2自由度的2尾t-test，以查找x/y是否等于x_control/y_control的p值。计算t得分，其中stderr为sqrt((xx/y-(x/y)^2)/y +(xx_control/y_control-(x_control/y_control)^2)/y_control)。 回报1-p，相信它们是不同的。 |
 
-与 Analysis Workspace 中的任何其他面板一样，您可以通过添加将帮助分析 Adobe Target 活动的其他表和[可视化图表](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)来继续进行分析。
+与 Analysis Workspace 中的任何其他面板一样，您可以通过添加将帮助分析 Adobe Target 活动的其他表和[可视化图表](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)来继续进行分析。您还可以在面板级别或自由格式表内应用段。 请注意，如果在自由格式表中添加它，则必须将它覆盖整个表以保留提升和置信度计算。 此时不支持列级段。
 
 ## 常见问题解答 {#FAQ}
 
@@ -59,8 +59,8 @@ Analytics for Target 面板可返回丰富的数据和可视化图表，进而�
 | A4T 支持哪些活动类型？ | [深入了解](https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html)支持的活动类型。 |
 | 提升度和置信度计算是否支持计算量度？ | 不支持。[深入了解](https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html)提升度和置信度量度为何不支持计算量度。但是，可以在 A4T 报表中使用这些量度以外的计算量度。 |
 | 为何 Target 和 Analytics 中的独特访客数会不一样？ | [深入了解](https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html)不同产品中独特访客数之间的差异。 |
-| 当我在分析中为特定 Target 活动应用点击区段时，为何会看到返回的不相关体验？ | A4T 维度是一个列表变量，这意味着它可以同时包含多项活动（和体验）。[了解更多](https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
-| 置信度量度是否会将极端订单计入在内或对多个优惠活动应用 Bonferroni 校正？ | 不会。[深入了解](https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) Analytics 如何计算置信度。 |
+| 当我在分析中为特定 Target 活动应用点击区段时，为何会看到返回的不相关体验？ | A4T 维度是一个列表变量，这意味着它可以同时包含多项活动（和体验）。[了解更多](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
+| 置信度量度是否会将极端订单计入在内或对多个优惠活动应用 Bonferroni 校正？ | 不会。[深入了解](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) Analytics 如何计算置信度。 |
 | 提升度和置信度量度能否与其他维度或划分一起使用？ | 提升度和置信度是“目标体验”维度的“锁定量度”，因为它们需要一个控件和变量才能计算。因此，不能对这两个量度划分或将这两个量度与其他维度一起使用。 |
 | 何时会重新计算提升度和置信度？ | 当运行（或重新运行）面板时、更改面板日期范围时，或将区段应用于面板或表时，都会重新计算提升度和置信度。 |
 
