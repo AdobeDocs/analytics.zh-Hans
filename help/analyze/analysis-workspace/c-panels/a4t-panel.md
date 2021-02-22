@@ -2,10 +2,10 @@
 description: 通过 Analytics for Target (A4T) 面板，可以在 Analysis Workspace 中分析 Adobe Target 活动和体验。
 title: Analytics for Target (A4T) 面板
 translation-type: tm+mt
-source-git-commit: 284d8237091fbf7c341fc0f577c023cfe7e536d4
+source-git-commit: 6f86a45ae745df86f1f6fc924d995437b9992484
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 82%
+source-wordcount: '1103'
+ht-degree: 78%
 
 ---
 
@@ -62,6 +62,6 @@ Analytics for Target 面板可返回丰富的数据和可视化图表，进而�
 | 当我在分析中为特定 Target 活动应用点击区段时，为何会看到返回的不相关体验？ | A4T 维度是一个列表变量，这意味着它可以同时包含多项活动（和体验）。[了解更多](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
 | 置信度量度是否会将极端订单计入在内或对多个优惠活动应用 Bonferroni 校正？ | 不会。[深入了解](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) Analytics 如何计算置信度。 |
 | 提升度和置信度量度能否与其他维度或划分一起使用？ | 提升度和置信度是“目标体验”维度的“锁定量度”，因为它们需要一个控件和变量才能计算。因此，不能对这两个量度划分或将这两个量度与其他维度一起使用。 |
-| 何时会重新计算提升度和置信度？ | 当运行（或重新运行）面板时、更改面板日期范围时，或将区段应用于面板或表时，都会重新计算提升度和置信度。 |
+| 何时会重新计算提升度和置信度？ | 无论面板何时运行（或重新运行）、面板日期范围何时更改，或将段应用于面板或表，都可提升并置信度重新计算。 将区段过滤器应用于自由形式表时，必须在所有列中应用该过滤器，否则提升和置信度将无法正确更新。 目前不支持列级段。 |
 
 有关 Analytics for Target 报表的更多信息，请参阅 [A4T 报表](https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/a4t/reporting.html)
