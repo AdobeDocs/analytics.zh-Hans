@@ -1,16 +1,16 @@
 ---
-title: 什么是同类群组分析？
-description: 了解 Analysis Workspace 中的同类群组分析
+title: 什么是同期群分析，它如何工作？
+description: 深入挖掘受众相关数据，利用同期群分析细分相关群组。 了解 Analysis Workspace 中的同类群组分析.
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: c588087b949093152435967f62e43758e9e86208
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 97%
+source-wordcount: '492'
+ht-degree: 90%
 
 ---
 
 
-# 什么是[!UICONTROL 同类群组分析]？
+# 了解Adobe Analytics中的[!UICONTROL 队列分析]
 
 *`cohort`* 是指一组在特定期限内共享相同特性的人员。例如，在您想了解如何让一个同类群组喜欢某个品牌时，[!UICONTROL 同类群组分析]就能派上用场。您可以轻松识别趋势中的变化，然后相应地采取回应。（网上提供了有关[!UICONTROL 同类群组分析]的解释说明，例如[同类群组分析基础](https://en.wikipedia.org/wiki/Cohort_analysis)。）
 
@@ -26,7 +26,7 @@ ht-degree: 97%
 
 [!UICONTROL 同类群组分析]适用于具有 [!UICONTROL Analysis Workspace] 访问权限的所有 Adobe Analytics 客户。
 
-[同期群分析视频教程](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
+[队列分析视频教程](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
 
 >[!IMPORTANT]
 >
