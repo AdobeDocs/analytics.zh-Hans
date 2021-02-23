@@ -1,17 +1,16 @@
 ---
-description: 'null'
-title: Advertising Analytics 概述
-uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1259'
-ht-degree: 100%
+description: 在此详细指南中发现您可以使用Advertising Analytics完成的一切，包括所需权限以及可用的维度和量度。
+title: Advertising Analytics指南
+translation-type: tm+mt
+source-git-commit: c588087b949093152435967f62e43758e9e86208
+workflow-type: tm+mt
+source-wordcount: '1282'
+ht-degree: 97%
 
 ---
 
 
-# Advertising Analytics 概述
+# Advertising Analytics指南
 
 通过 Advertising Analytics，您可以在 Adobe Analytics 中并排查看您在 Google 和 Bing 上的所有付费搜索数据。以前，您必须在 Adobe Advertising Cloud (AMO) 或 Google/Bing 中查看所有 Google AdWords/DFA 或 Microsoft Bing Ads 数据。现在，您可以在 Adobe Analytics 中直接从搜索引擎获取以下数据：展示次数、点击次数、成本、质量分数、平均位置以及 AMO ID 实例数（点击实例数）。
 
