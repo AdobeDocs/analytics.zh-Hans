@@ -2,9 +2,9 @@
 title: Adobe Analytics权限 — 摘要表
 description: 在Admin Console中总结可用Adobe Analytics权限的表。
 translation-type: tm+mt
-source-git-commit: 5c300548b9677c7ffe21fa66b4b7c9859179ff8e
+source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1255'
 ht-degree: 94%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 94%
 | 成本 | x |  |  |  | 授予对报表包管理器中“营销渠道”>“营销渠道成本”的访问权限。 |
 | 自定义日历 | x |  |  |  | 授予对报表包管理器中“常规”>“自定义日历”的访问权限。 |
 | 数据馈送管理器 | x |  |  |  | 授予对 Analytics 顶部导航栏中“管理员”>“数据馈送”的访问权限。 |
-| 数据修复 API | x |  |  |  | 新增功能（测试版） — 授予对数据修复API的访问权 |
+| 数据修复 API | x |  |  |  | 授予对数据修复API的访问权 |
 | 数据源管理器 | x |  |  |  | 授予对 Analytics 顶部导航栏中“管理员”>“数据源”的访问权限。需要使用权限项“报表包管理”。 |
 | 默认量度 | x |  |  |  | 授予对报表包管理器中“单个报表包设置”>“默认量度”的访问权限。 |
 | 按 IP 地址排除 | x |  |  |  | 授予对 Analytics 顶部导航栏中“管理员”>“按 IP 排除”的访问权限。 |
