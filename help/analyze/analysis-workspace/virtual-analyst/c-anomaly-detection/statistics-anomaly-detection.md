@@ -1,9 +1,11 @@
 ---
-description: Analysis Workspace 中的异常检测使用一系列高级统计技术来确定是否应将观测到的情况视为异常。
+description: 数据不一致可能导致大问题。 了解如何通过Adobe的异常检测技术来识别统计异常。 立即开始。
 title: 异常检测中使用的统计技术
-uuid: b6ef6a2e-0836-4c9a-bf7e-01910199bb92
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: c588087b949093152435967f62e43758e9e86208
+workflow-type: tm+mt
+source-wordcount: '792'
+ht-degree: 97%
 
 ---
 
