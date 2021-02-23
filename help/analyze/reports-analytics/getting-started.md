@@ -1,23 +1,20 @@
 ---
 description: 在使用 Reports & Analytics 之前，请了解这些基本登录和设置任务，以及如何访问帐户信息。
-subtopic: Get started
 title: Reports and Analytics 快速入门
-topic: Reports and analytics
-uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+source-git-commit: c588087b949093152435967f62e43758e9e86208
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 100%
+source-wordcount: '701'
+ht-degree: 97%
 
 ---
 
 
-# Reports &amp; Analytics 快速入门
+# Reports &amp; Analytics入门
 
 在使用 Reports &amp; Analytics 之前，请了解这些基本登录和设置任务，以及如何访问帐户信息。
 
-报告提供对基于 Web 的传统渠道，以及正在发展的渠道（如移动设备、视频和社交网络）的分析。市场营销报告的一些示例包括：
+报告提供对基于 Web 的传统渠道，以及正在发展的渠道（如移动设备、视频和社交网络）的分析。报告的一些示例包括：
 
 * 访问网站的人数
 * 其中多少访客是独特访客（只算一次）
@@ -91,39 +88,12 @@ ht-degree: 100%
 
 所有用户都可以访问[!UICONTROL 帐户信息]页面。可以查看或编辑以下信息：
 
-<table id="table_58F5D292485F45F9902B372E4E1E3103"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 信息类型 </th> 
-   <th colname="col2" class="entry"> 定义 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td> <p>联系方式 </p> </td> 
-   <td> <p>为您的帐户指定以下个人信息： </p> 
-    <ul id="ul_7925E35904EB47E3AC648FA80A09EF91"> 
-     <li id="li_CDD8D7B73A1D4C78A41FF02BD0E5E788">名字（必填） </li> 
-     <li id="li_7255F50ABFFA4EE8A0A9D04F92BE432D">姓氏（必填） </li> 
-     <li id="li_3DF6107291CC4D46AAA0E4A13D59128F">标题 </li> 
-     <li id="li_B5BE95E0FE594939A2D4C6680A6B8BDD">电子邮件地址（必填） </li> 
-     <li id="li_B764239241CE4F1CA74F77D796E7AB1D">电话号码 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> 登录 </p> </td> 
-   <td> <p>显示帐户用户名，可以更改帐户密码。 </p> <p>另请参阅：<a href="https://helpx.adobe.com/cn/analytics/kb/How-to-Reset-Report-and-analytics-password.html"  >如何重置 Reports &amp; Analytics 帐户密码</a>。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Web 服务 </p> </td> 
-   <td> <p>显示与此帐户关联的 Web 服务用户名和共享机密。在通过 Web 服务 API 访问 Experience Cloud 时使用这些凭据。有关更多信息，请参阅<a href="https://marketing.adobe.com/developer"  >开发人员连接</a>。 </p> <p> <p>注意：仅在帐户被授权为 Web 服务用户时才显示此信息。 </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> 排除此计算机 </p> </td> 
-   <td> <p>将一个 Cookie 应用于当前计算机，以将其从数据收集中排除。如果您不想让您的在线活动影响域中的页面查看和访客计数，这非常有用。 </p> <p> <p>注意：要使用此功能，您的浏览器必须启用 Cookie。如果删除计算机上的 Cookie，则必须重新设置排除 Cookie。 </p> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 信息类型 | 定义 |
+| --- | --- |
+| 联系方式 | 为您的帐户指定以下个人信息：<ul><li>名字（必填）</li><li>姓氏（必填）</li><li>标题</li><li>电子邮件地址（必填）</li><li>电话号码</li></ul> |
+| 登录 | 显示帐户用户名，可以更改帐户密码。另请参阅：[如何重置 Reports &amp; Analytics 帐户密码](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=en)。 |
+| Web 服务 | 显示与此帐户关联的 Web 服务用户名和共享机密。在通过 Web 服务 API 访问 Experience Cloud 时使用这些凭据。有关更多信息，请参阅开发人员连接。**注意：**&#x200B;仅在帐户被授权为 Web 服务用户时才显示此信息。 |
+| 排除此计算机 | 将一个 Cookie 应用于当前计算机，以将其从数据收集中排除。如果您不想让您的在线活动影响域中的页面查看和访客计数，这非常有用。**注意：**&#x200B;要使用此功能，您的浏览器必须启用 Cookie。如果删除计算机上的 Cookie，则必须重新设置排除 Cookie。 |
 
 ## 更改界面语言
 
