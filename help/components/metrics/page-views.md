@@ -1,16 +1,16 @@
 ---
-title: 页面查看次数
-description: 查看页面的次数。
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '153'
-ht-degree: 100%
+title: '页面视图量度说明 | Adobe Analytics '
+description: 了解Adobe Analytics中如何制定页面视图量度，并了解页面视图和访问量之间的差异。
+translation-type: tm+mt
+source-git-commit: c588087b949093152435967f62e43758e9e86208
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 80%
 
 ---
 
 
-# 页面查看次数
+# 了解使用Adobe Analytics的页面视图
 
 “页面查看次数”量度显示页面上设定或保留的给定维度项目的次数。它是报告中最常见的基本量度之一。
 
