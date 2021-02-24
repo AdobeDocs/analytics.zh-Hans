@@ -5,7 +5,7 @@ title: 处理规则概述
 topic: 管理工具
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: a42fdbf2938f08ab09f9be7e0e3e89bab4f50eae
+source-git-commit: 7f34aa3b5056c56516daea6144723a1751ef9051
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 68%
@@ -62,4 +62,4 @@ s.contextData['genre'] = "Youth";
 
 在您的实施中定义上下文数据变量后，必须将这些变量复制到 eVar 等变量中，才能在报表中使用。
 
-有关详细信息，请参阅[将上下文数据变量复制到eVar](processing-rules-examples/processing-rules-copy-context-data.md)和[使用上下文数据变量](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)设置事件。
+有关详细信息，请参阅[将上下文数据变量复制到eVar](processing-rules-examples/processing-rules-copy-context-data.md)和[使用上下文数据变量](processing-rules-examples/processing-rules-copy-context-data-event.md)设置事件。
