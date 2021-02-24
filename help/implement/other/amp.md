@@ -2,10 +2,10 @@
 title: 使用 AMP 实施
 description: 在 AMP 页面上实施 Adobe Analytics。
 translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
+source-git-commit: c3c581eab8a4677831968574c9fb8d6f6eadd7e9
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 100%
+source-wordcount: '1057'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## 确定在使用 AMP 的页面上实施 Adobe Analytics 的方法
 
-Adobe 创建了两种在使用 AMP 的页面上实施 Adobe Analytics 的方法。这两种方法都使用 `<amp-analytics>` HTML 标记。有关更多信息，请参阅 ampproject GitHub 上的 [amp-analytics 标记](https://github.com/ampproject/amphtml/tree/master/extensions/amp-analytics)。
+Adobe 创建了两种在使用 AMP 的页面上实施 Adobe Analytics 的方法。这两种方法都使用 `<amp-analytics>` HTML 标记。有关详细信息，请参阅AMP文档中的[amp-analytics标记](https://amp.dev/documentation/components/amp-analytics)。
 
 * **使用 `"adobeanalytics"` 跟踪模板**：直接在页面上构建 Analytics 请求
 * **使用 `"analytics_nativeConfig"` 跟踪模板**：使用包含您在普通网站上部署的相同 AppMeasurement 代码的 iframe
