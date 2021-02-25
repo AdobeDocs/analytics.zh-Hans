@@ -5,9 +5,9 @@ user-guide-title: Analytics 管理指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解如何在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等。
 translation-type: tm+mt
-source-git-commit: 35f0f3fb9a349b7fceb035be771ee462ec0799aa
+source-git-commit: 6dcdbf7d49000e4e04d590b83da47d49f8e53ebf
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '734'
 ht-degree: 98%
 
 ---
@@ -176,7 +176,7 @@ ht-degree: 98%
       + [自定义维度权限](user-management2/c-customize-report-access/groups-dimensions.md)
    + [电子邮件用户](user-management2/t-email-users.md)
 + 数据管理 {#data-governance}
-   + [Adobe Analytics和GDPR概述](c-data-governance/an-gdpr-overview.md)
+   + [Adobe Analytics 和 GDPR](c-data-governance/an-gdpr-overview.md)
    + [Adobe Analytics 和 CCPA](c-data-governance/an-ccpa-overview.md)
    + [CNIL同意豁免](c-data-governance/cnil-consent-exemption.md)
    + [常见问题解答](c-data-governance/gdpr-faq.md)
