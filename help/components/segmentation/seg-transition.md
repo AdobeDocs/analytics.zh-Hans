@@ -1,13 +1,13 @@
 ---
 description: 'null'
 title: 常见问题解答
-topic: Segments
+topic: 区段
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '2179'
-ht-degree: 100%
+source-wordcount: '2074'
+ht-degree: 97%
 
 ---
 
@@ -28,10 +28,8 @@ ht-degree: 100%
 * 区段对于所有报表包都是通用的。
 * [区段生成器](/help/components/segmentation/segmentation-workflow/seg-workflow.md)简化了区段的创建过程。
 * 您可以通过[区段管理器](/help/components/segmentation/segmentation-workflow/seg-workflow.md)中的区段共享、标记、验证和批准功能，来设置[工作流程](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
-
-* 您可以[标记区段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)，以便稍后进行组织和搜索，而无需使用文件夹。以前，使用文件夹（在 [!DNL Ad Hoc Analysis] 中）来组织区段。
-
-* 您可以在 Ad Hoc Analysis 之外创建[连续区段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)。
+* 您可以[标记区段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)，以便稍后进行组织和搜索，而无需使用文件夹。
+* 您可以创建[顺序区段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)。
 * 页面查看容器已重命名为“点击”容器，以表示该容器可分段所有类型的数据，而不仅仅是页面查看。例如，点击容器完全包含或排除链接跟踪调用和移动 SDK 中的 trackAction 调用。请注意，此容器的运行方式并没有发生任何更改，只是进行了重命名。
 
 请参阅 Digital Marketing Blog（数字营销博客）上的帖子“[Improving Segmentation in Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/)”（改善 Adobe Analytics 中的分段），了解更多详细信息。
@@ -88,11 +86,11 @@ Reports &amp; Analytics 中的区段下拉菜单已被功能更加丰富的[区�
 
 **我可以在区段管理器中管理所有 Analytics 区段吗？**
 
-可以，所有区段均可在 Analysis Workspace、Reports &amp; Analytics 以及 Ad Hoc Analysis 的区段管理器中进行管理。区段管理器显示对所有者（创建区段的用户）、共享用户和管理员用户可见的区段。区段选择器显示用户拥有的区段及与其共享的区段。
+是，所有区段都可以在区段管理器中进行管理。 区段管理器显示对所有者（创建区段的用户）、共享用户和管理员用户可见的区段。区段选择器显示用户拥有的区段及与其共享的区段。
 
 管理员可以在 Analysis Workspace 和 [!DNL Reports & Analytics] 用户界面中看到所有区段。
 
-Ad Hoc Analysis 和 Report Builder 只显示由您生成的区段或专门与您共享的区段。
+Report Builder仅显示由您构建的区段，或已专门与您共享的区段。
 
 **为什么无法删除此区段？**
 
@@ -125,10 +123,6 @@ Ad Hoc Analysis 和 Report Builder 只显示由您生成的区段或专门与您
 
 ![](assets/seg_templates.png)
 
-**我的现有区段文件夹有什么变化？**
-
-区段管理器不再使用（Ad Hoc Analysis）文件夹，而是使用标记之间置入 Analytics JavaScript 代码。您的文件夹名称会自动转换为标记，而且这些标记会应用于各自的区段。
-
 **已经应用区段的计划报表有什么变化？**
 
 计划报表会继续以您所定义的区段正常运行。
@@ -143,15 +137,9 @@ Ad Hoc Analysis 和 Report Builder 只显示由您生成的区段或专门与您
 
 **Data Warehouse 区段有何变化？**
 
-所有现有 Data Warehouse 区段仍可以在数据仓库中使用。大多数 Data Warehouse 区段也可以在其他组件中使用，如 Analysis Workspace、Ad Hoc Analysis 以及 Reports &amp; Analytics。
+所有现有 Data Warehouse 区段仍可以在数据仓库中使用。大多数Data warehouse细分也可在Analysis Workspace和Reports &amp; Analytics等其他组件中使用。
 
 您可以在区段生成器/管理器中创建或编辑新的 Data Warehouse 区段。区段生成器中的产品兼容性机制会自动确定区段是否与 Data Warehouse 兼容。
-
-**收藏区段（Ad Hoc Analysis）有何变化？**
-
-在 Adobe Analytics 中，这些 Ad Hoc Analysis 区段显示为常规区段。
-
-请不要将这些区段与区段管理器中可用于将区段标记为收藏的“收藏夹”功能混淆。
 
 **预配置区段有何变化？**
 
@@ -161,9 +149,7 @@ Ad Hoc Analysis 和 Report Builder 只显示由您生成的区段或专门与您
 * **来自付费搜索的访问量**
 * **使用访客 ID Cookie 的访问量**
 
-这些区段将作为区段模板迁移到区段生成器中。
-
-已应用这些区段的现有报表将仍可正常使用。
+这些区段将作为区段模板迁移到区段生成器中。已应用这些区段的现有报表将仍可正常使用。
 
 **Experience Cloud（包）区段有何变化：**
 
@@ -328,7 +314,7 @@ seg_definition.xml
  </tbody> 
 </table>
 
-## 对具有已知值的字符串维度的更改 {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
+## 对具有已知值的字符串维度的更改  {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
 
 具有已知值集的字符串维度已更改为枚举类型。在使用这些维度创建区段时，将使用所有已知值预填充该列表，而支持的运算符只有等于。这让您可以在使用限制较少的匹配条件时，快速分段查找的确切值，而不会选择非预期的值。
 
@@ -350,7 +336,7 @@ seg_definition.xml
 | 移动设备书签长度 | 启用 Java | 付费搜索 |
 | 移动设备 URL 长度 | 语言 |  |
 
-## 对具有已知值的整数维度的更改 {#section_84A8AAD0344148AD9F9211D3EB271903}
+## 对具有已知值的整数维度的更改  {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 具有已知值集的整数维度（如浏览器宽度）已被拆分为多个枚举范围，因此您可以快速定义特定范围的区段。这些枚举列表会在维度名称后附加“- 分段统计”。以下屏幕演示了如何使用以前的区段生成器界面和新区段生成器界面来分段这些维度：
 
