@@ -2,8 +2,11 @@
 description: 虚拟报表包可对您的 Adobe Analytics 数据进行分段，以便您能够控制每个区段的访问权限。
 title: 虚拟报表包概述
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '789'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 报表包名称
 * 权限群组（可将虚拟报表包分配给其自身的权限群组）
 
-## 虚拟报表包的好处 {#section_3420422FE6DF46EAB151FD9442AAFDC4}
+## 虚拟报表包的好处  {#section_3420422FE6DF46EAB151FD9442AAFDC4}
 
 客户需要为辅助服务器调用支付费用，因此减去这些调用可节省大量开支。虚拟报表包还是完全可追溯的。如果全局报表包已经包含数据，则相关数据会自动包含在一个新的虚拟报表包中。新的辅助报表包将仅在创建后才开始收集数据，因此它不会包含任何历史数据。在实施 Analytics 时，您只需将数据发送到一个报表包，而不必为全局报表包和每个辅助报表包都创建实施。
 
@@ -38,7 +41,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 单个客户数据视图（将来会提供）
 * 能够创建不限数量的虚拟报表包以细分数据
 
-## 虚拟报表包的限制 {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
+## 虚拟报表包的限制  {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
 
 虚拟报表包存在以下限制：
 
@@ -48,12 +51,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 实时报表
 * 设置和变量名称无法像在完整报表包中那样进行自定义
 
-## 虚拟报表包与多包标记 {#section_317E4D21CCD74BC38166D2F57D214F78}
+## 虚拟报表包与多包标记  {#section_317E4D21CCD74BC38166D2F57D214F78}
 
 | 功能 | 虚拟报表包 | 多包标记 |
 |--- |--- |--- |
 | 提供实时或“当前数据”报表 | 否 | 是 |
-| 可在所有 Analytics 工具（Analysis Workspace、Report Builder、Ad Hoc Analysis 等）中使用 | 能。注意：您只能在“Reports &amp; Analytics”中编辑和标识虚拟报表包。但是，在其他工具中，您可以从报表包下拉菜单中选择虚拟报表包。 | 是 |
+| 适用于所有分析工具(Analysis Workspace、Report Builder等) | 是的。**注意：**&#x200B;您只能在“Reports &amp; Analytics”中编辑和标识虚拟报表包。但是，在其他工具中，您可以从报表包下拉菜单中选择虚拟报表包。 | 是 |
 | 可向其上载数据（通过 分类、数据馈送等） | 否 | 是 |
 | 支持创建 DL 报表、书签、功能板、目标、警报、区段和计算量度... | 是 | 是 |
 | 可单独添加至权限群组 | 是 | 是 |
