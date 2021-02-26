@@ -1,10 +1,10 @@
 ---
 description: 此部分包含 Adobe Analytics 的关键概念、有关这些概念的简要描述，以及提供有关该主题的更多详细信息的特定文档链接。
 title: Adobe Analytics - 关键概念
-translation-type: ht
-source-git-commit: 12d2391e2429f80648ca674540e65ecd224b1b02
-workflow-type: ht
-source-wordcount: '1876'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '1858'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 100%
 | Analysis Workspace | 用于构建强大的自定义分析项目和实现分析民主化的浏览器解决方案。具有比 Reports and Analytics 更大的报告灵活性 | [Analysis Workspace 主页](/help/analyze/analysis-workspace/home.md) |
 | Reports and Analytics（以前称为 SiteCatalyst） | 用于报告和分析的浏览器解决方案。Analytics 包中的初学者工具。 | [Reports and Analytics 主页](/help/analyze/reports-analytics/getting-started.md) |
 | Report Builder | 允许您通过 Adobe Analytics 数据构建自定义请求并使用 Microsoft Excel 实现可视化的 Excel 外接程序。 | [Report Builder 主页](/help/analyze/report-builder/home.md) |
-| Ad Hoc Analysis（以前称为 Discover） | 用于高级数字分析且基于 Java 的工具。生命周期终止日期：2021 年 3 月 1 日。 | [Ad Hoc Analysis 主页](/help/analyze/ad-hoc-analysis/adhoc-home.md) |
 | Data Workbench（以前称为 Insight） | 旨在收集、处理、分析与可视化来自多个渠道间在线和离线客户交互的数据。 | [Data Workbench 客户端](https://docs.adobe.com/content/help/zh-Hans/data-workbench/using/client/t-open-ins.html) |
 | Data Warehouse | 用于存储和自定义报表的、未经处理的原始数据，您可通过过滤数据运行它。无点击级别。 | [Data Warehouse 主页](/help/export/data-warehouse/data-warehouse.md) |
 | Adobe Mobile Services | 可以在整个 Adobe Experience Cloud 范围内将移动设备应用程序的移动营销功能整合在一起，以便您了解和提高应用程序的用户参与度。 | [Mobile Services 主页](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html) |
@@ -61,7 +60,7 @@ ht-degree: 100%
 | 客户历程报表 | 显示有关用户浏览您的网站或应用程序的路径的信息。可以在 Analysis Workspace 中使用 Prop、eVar 和事件进行此类分析。 | [Analysis Workspace 流失](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Analysis Workspace 流量](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Reports and Analytics 路径](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
 | 营销渠道 | 一种报表，可帮助您了解哪些外部渠道驱使用户访问您的网站，以及哪些内容可最有效地促使转化。提供首次和最近联系属性视图。这是 Adobe Analytics 中的首选外部流量源报表（而非促销活动或流量源），因为通过它可以最全面地了解付费和免费渠道。 | [营销渠道](/help/components/c-marketing-channels/c-getting-started-mchannel.md) |
 | 移动设备 | 显示有关从移动设备或平板电脑访问的网站的信息。 | [移动设备报表](/help/components/dimensions/mobile-dimensions.md) |
-| 移动设备应用程序 | 显示与您的移动设备应用程序相关的基本使用信息。只要我们的 SDK 得以实施并且报表处于开启状态，这些报表即可供您使用。此外，Adobe Mobile Services 还创建了一个单独的移动设备应用程序界面，它提供更加全面的应用程序数据，从而允许您了解和改进应用程序的用户参与。在[此处](https://mobilemarketing.adobe.com)访问该界面。 | [Adobe Mobile Services](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html) |
+| 移动设备应用程序 | 显示与您的移动设备应用程序相关的基本使用信息。只要我们的 SDK 得以实施并且报表处于开启状态，这些报表即可供您使用。此外，Adobe Mobile Services 还创建了一个单独的移动设备应用程序界面，它提供更加全面的应用程序数据，从而允许您了解和改进应用程序的用户参与。在[此处](https://mobilemarketing.adobe.com)访问该界面。 | [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
 | 产品 | 识别单个产品和产品组（类别）对各项转化量度（如收入或结账）的贡献情况。 | [产品报表](/help/components/dimensions/product.md) |
 | 区段比较 | 通过自动分析您有权访问的每个量度和维度，发现各区段之间的最显著统计学差异。 | [区段比较](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) |
 | 网站内容报表 | 显示的信息包括网站上哪些页面和区域最为活跃及哪些服务器使用率最高。 | [网站内容报表](/help/components/dimensions/page.md) |
@@ -99,7 +98,7 @@ ht-degree: 100%
 | UI 下载和计划 | 从 Analysis Workspace 中以 CSV 或 PDF 格式导出数据 | [下载 PDF 或 CSV 文件](/help/analyze/analysis-workspace/curate-share/download-send.md) |
 | Report Builder | 请参阅 Analytics 工具。 |  |
 | Analytics API | 创建您自己的自定义 Analytics 数据查询。 | <ul><li>[API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)</li><li>[API 1.4](https://github.com/AdobeDocs/analytics-1.4-apis)</li></ul> |
-| Data Warehouse | 请参阅 Analytics 工具。 |  |
+| data warehouse | 请参阅 Analytics 工具。 |  |
 | Analytics 数据馈送 | 从 Analytics 获取数据的最精细方法。设置来自 Analytics 的点击级别馈送。 | [Analytics 数据馈送](/help/export/analytics-data-feed/data-feed-overview.md) |
 
 ## 数据收集和验证 {#concept_E07350D4CA5047DAA7D81F762F29606A}
