@@ -1,10 +1,13 @@
 ---
 description: Report Builder 使用 Analytics 的自定义日历。您可以使用该日历定义周和年的第一天，或者使用其他零售日历样式。日历格式可用于多种用途，包括销售额比较和预测标准化、工资单费用分析或实际库存计数调节。
 title: 自定义日历
-topic: Report builder
+topic: Report Builder
 uuid: 88d24bf9-de46-41e0-937e-b8a1fe36c55d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 91%
 
 ---
 
@@ -42,7 +45,7 @@ Report Builder 使用 Analytics 的自定义日历。您可以使用该日历定
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>：一月份拥有四周，二月份拥有五周，三月份拥有四周，以此类推。 </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>：一月份拥有四周，二月份拥有四周，三月份拥有五周，以此类推。 </li> 
      <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-5-4</b>：一月份拥有五周，二月份拥有五周，三月份拥有四周，以此类推。 </li> 
-    </ul> <p>注意：此日历选项受到所有 Adobe Analytics 工具支持（Analysis Workspace、Reports &amp; Analytics、Report Builder、Activity Map、Ad Hoc Analysis），只有 Data Warehouse 例外，因为它不支持自定义日历。 </p> </td> 
+    </ul> <p>注意： 所有Adobe Analytics工具(Analysis Workspace、Reports &amp; Analytics、Report Builder和Activity Map)都支持此日历选项。 data warehouse是例外，它不支持自定义日历。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
