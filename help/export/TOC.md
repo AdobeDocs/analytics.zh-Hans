@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 导出指南
 breadcrumb-title: 导出指南
-user-guide-description: 使用数据馈送接收原始数据的每小时或每天的导出。使用 Data warehouse 检索数据的电子表格输出。
+user-guide-description: 使用“数据馈送”接收每小时或每天导出的原始数据。使用 Data Warehouse 检索以电子表格输出的数据。
 translation-type: tm+mt
-source-git-commit: 6ff39a73a6e0bcbfb38d2e7264e48191af97f12d
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '278'
 ht-degree: 98%
 
 ---
@@ -53,7 +53,6 @@ ht-degree: 98%
       + [数据源](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
       + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
       + [数据馈送](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
-      + [Ad Hoc Analysis 传送的报表](ftp-and-sftp/c-set-up-ftp-accounts/ftp-discover-reports.md)
       + [Data Warehouse 传送的报表](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
       + [Report Builder 传送的报表](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
       + [通过 FTP 开展工程技术服务工作](ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)
