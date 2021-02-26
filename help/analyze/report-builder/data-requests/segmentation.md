@@ -1,12 +1,12 @@
 ---
 description: 如何在 Report Builder 中添加、编辑、应用和过滤 Adobe Analytics 区段。
 title: 管理区段
-topic: Report builder
+topic: Report Builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '919'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '918'
 ht-degree: 100%
 
 ---
@@ -44,16 +44,16 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 
    ![](assets/seg_in_context.png)
 
-   有关容器的详细信息，请参阅[分段指南](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/seg-home.html)。
+   有关容器的详细信息，请参阅[分段指南](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html)。
 
 1. 此时将在 Internet Explorer 中启动区段生成器用户界面。区段生成器用户界面将使用您指定的容器和过滤器进行初始化。
 1. 向区段添加名称和描述后，保存该区段。
 1. 返回至 Report Builder，并单击“刷新”图标以刷新区段列表。
 1. 现在，您可以应用此区段。
 
-## 搜索和应用区段 {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
+## 搜索和应用区段  {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-此区段列表中会显示在 Reports &amp; Analytics、Ad Hoc Analysis、Report Builder 或 Data Warehouse 中创建的所有区段。要刷新该列表，请单击“刷新”图标 (![](assets/refresh_icon.png))。
+此区段列表中会显示在 Reports &amp; Analytics、Report Builder 或 Data Warehouse 中创建的所有区段。要刷新该列表，请单击“刷新”图标 (![](assets/refresh_icon.png))。
 
 您可以将一个或多个区段应用到任意给定请求。这包括连续区段。
 
@@ -83,7 +83,7 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 | 其他过滤器 > 收藏夹 | 显示您标记为收藏项目的所有区段。 |
 | 其他过滤器 > 已批准 | 显示所有正式批准的区段。 |
 
-## 将区段控件添加到工作簿 {#section_E3E5149A8464441FA5445A98DBD520AC}
+## 将区段控件添加到工作簿  {#section_E3E5149A8464441FA5445A98DBD520AC}
 
 通过添加区段控件，您可以从工作簿中切换区段，而不必转至“请求向导”。
 
@@ -102,7 +102,7 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 
    ![](assets/seg_control2.png)
 
-## 刷新区段列表 {#section_22E4A86789444B4A998532396B476EFB}
+## 刷新区段列表  {#section_22E4A86789444B4A998532396B476EFB}
 
 无论您何时添加了新区段或编辑了现有区段，都应单击“刷新”图标 (![](assets/refresh_icon.png)) 以刷新缓存的区段列表。
 
