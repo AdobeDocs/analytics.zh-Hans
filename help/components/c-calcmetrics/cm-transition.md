@@ -2,11 +2,11 @@
 description: 对计算量度在 Analytics 中的工作方式所做的这些更改可能会影响到您。
 title: 常见问题解答
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '2148'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '2055'
+ht-degree: 98%
 
 ---
 
@@ -46,8 +46,6 @@ ht-degree: 100%
 [为什么我的计算量度没有显示在营销渠道报表中？](/help/components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
 
 [为什么某些计算量度显示的公式没有我添加的圆括号？](/help/components/c-calcmetrics/cm-transition.md#section_AC0D1E9714AD487F9A1C73359F518B5E)
-
-[（仅限 Ad Hoc Analysis）具有嵌套或内联区段定义的计算量度仍然受支持吗？](/help/components/c-calcmetrics/cm-transition.md#section_B25C924A282F49388AB604E3D826F44C)
 
 [（仅限 Report Builder）为什么计算量度从我的请求中消失了？](/help/components/c-calcmetrics/cm-transition.md#section_DA4792FE5D7945218CD5E6328DE08E82)
 
@@ -120,7 +118,7 @@ ht-degree: 100%
 
 现在，具有数值或数值 2 分类的计算量度将继续在 [!UICONTROL Reports &amp; Analytics]、[!UICONTROL Report Builder] 和 API 中可见。但是，任何应用了区段的报表将不支持这些量度。
 
-此外，以下组件将不支持具有数值或数值 2 分类的计算量度：[!UICONTROL Ad Hoc Analysis]、[!UICONTROL Analysis Workspace]、[!UICONTROL 实时]报表、[!UICONTROL 异常检测]和[!UICONTROL 贡献分析]。在您创建或编辑具有数值或数值 2 分类的计算量度时，您将看到一则兼容性警告，指出计算量度与产品的某些部分不兼容。
+此外，以下组件将不支持数值或数值2分类的计算量度：[!UICONTROL Analysis Workspace]、[!UICONTROL 实时]报告、[!UICONTROL 异常检测]和[!UICONTROL 贡献分析]。 在您创建或编辑具有数值或数值 2 分类的计算量度时，您将看到一则兼容性警告，指出计算量度与产品的某些部分不兼容。
 
 **您需要如何操作**
 
@@ -183,14 +181,6 @@ ht-degree: 100%
 ## 为什么某些计算量度显示的公式没有我添加的圆括号？{#section_AC0D1E9714AD487F9A1C73359F518B5E}
 
 在迁移过程中，Adobe 去除了某些公式中多余的圆括号。只有不影响量度计算方式的括号才会被去除。这不会更改数据，只是简化了公式。
-
-## （仅限 Ad Hoc Analysis）具有嵌套或内联区段定义的计算量度仍然受支持吗？{#section_B25C924A282F49388AB604E3D826F44C}
-
-以前，在 Ad Hoc Analysis 中创建的计算量度可包含内联区段定义。但今后将不再包含。
-
-**您需要如何操作**
-
-您需要明确地保存区段。具有内联区段定义的现有计算量度将继续正常运行，并且可以在 Ad Hoc Analysis 中查看，但是它们在没有显式保存区段的情况下无法被保存。
 
 ## （仅限 Report Builder）为什么计算量度从我的请求中消失了？{#section_DA4792FE5D7945218CD5E6328DE08E82}
 
