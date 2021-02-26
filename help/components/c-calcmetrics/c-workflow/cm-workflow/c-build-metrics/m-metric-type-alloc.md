@@ -2,11 +2,11 @@
 description: '了解 '
 title: 量度类型和归因
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '914'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '908'
+ht-degree: 97%
 
 ---
 
@@ -32,14 +32,15 @@ ht-degree: 100%
 >
 >* 有关支持的非默认归因模型和回顾窗口的完整列表，请参阅[归因 IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) 文档。
 >* “营销渠道最近联系”和“营销渠道首次联系”分配模型将分别迁移至新的“最近联系”和“首次联系”归因模型（注：“营销渠道”并不会被弃用 - 弃用的只有此处所述出现在计算量度中的这两个分配模型）。
->* 此外，我们还将修正线性分配的计算方式。对于通过“线性”分配模型使用计算量度的客户，报表可能会稍有变化，以反映修正后的新归因模型。计算量度的这一更改将反映在 Analysis Workspace、Reports &amp; Analytics、报表 API、Report Builder 和 Ad Hoc Analysis 中。有关更多信息，请参阅下面的&#x200B;**线性分配工作原理（自 2018 年 7 月 19 日起）**。
+>* 此外，我们还将修正线性分配的计算方式。对于通过“线性”分配模型使用计算量度的客户，报表可能会稍有变化，以反映修正后的新归因模型。对计算量度的此更改将反映在Analysis Workspace、Reports &amp; Analytics、报告 API和Report Builder中。 有关更多信息，请参阅下面的&#x200B;**线性分配工作原理（自 2018 年 7 月 19 日起）**。
+
 >
 
 
 
 ## 线性分配工作原理（自 2018 年 7 月 19 日起）
 
-2018 年 7 月，Adobe 更改了计算量度中线性分配的报告方式。这一更改将会影响 Analysis Workspace、Ad Hoc Analysis、Reports &amp; Analytics、Report Builder、Activity Map 和报表 API。此更改将主要影响具有持久性的 eVar 与其他维度。请注意，这些更改只会应用于计算量度，而不会对使用线性分配的其他报表产生影响（例如 Reports &amp; Analytics 中的“页面”报表）。其他使用线性分配的报表将继续使用现有的线性分配方式。
+2018 年 7 月，Adobe 更改了计算量度中线性分配的报告方式。这一更改将会影响 Analysis Workspace、Reports &amp; Analytics、Report Builder、Activity Map 和报表 API。此更改将主要影响具有持久性的 eVar 与其他维度。请注意，这些更改只会应用于计算量度，而不会对使用线性分配的其他报表产生影响（例如 Reports &amp; Analytics 中的“页面”报表）。其他使用线性分配的报表将继续使用现有的线性分配方式。
 
 下例说明了使用线性分配的计算量度将在报告时发生何种变化：
 
@@ -69,7 +70,7 @@ ht-degree: 100%
 |---|---|---|---|
 | 促销活动 A | $5.00 | $10.00 | $5.00 |
 | 促销活动 B | $3.33 | $0 | $2.50 |
-| 促销活动 C | $1.67 | $0 | $2.50 |
+| 促销活动 C | $1.67 | $0 | US$2.50 |
 | 合计 | $10.00 | $10.00 | $10.00 |
 
 **线性分配工作原理概要（自 2018 年 7 月 19 日起）**
@@ -79,7 +80,7 @@ ht-degree: 100%
 | 值 | 最近联系 eVar 新分配值 | 首次联系 eVar 新分配值 | Prop 新分配值 |
 |---|---|---|---|
 | 促销活动 A | $5.00 | $5.00 | $5.00 |
-| 促销活动 B | $2.50 | $2.50 | $2.50 |
-| 促销活动 C | $2.50 | $2.50 | $2.50 |
+| 促销活动 B | US$2.50 | US$2.50 | US$2.50 |
+| 促销活动 C | US$2.50 | US$2.50 | US$2.50 |
 | 合计 | $10.00 | $10.00 | $10.00 |
 
