@@ -1,13 +1,13 @@
 ---
 description: 此功能允许您自定义用户在“Reports & Analytics”中看到的报表菜单。您可以针对所有用户显示或隐藏报表，还可以在不同的文件夹中移动报表。如果您的组织仅使用特定报表，并且不希望让未使用的或者不相关的数据来填充您的左侧菜单，则此功能尤为适用。
 title: 菜单自定义
-topic: Admin tools
+topic: 管理工具
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 100%
+source-wordcount: '263'
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 对菜单结构所做的任何更改都不会影响 Report Builder 和 Ad Hoc Analysis。但重命名报表将会反映在这两个工具中。
+>菜单结构的任何更改均不影响Report Builder。 但是，重命名报告将反映在此工具中。
 
 ## 菜单自定义描述 {#section_B0D224DACB914A378902A4E0E1234889}
 
