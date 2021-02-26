@@ -1,13 +1,13 @@
 ---
 description: 区段生成器中创建的所有区段并非都与 Data Warehouse 兼容。此表列出了受支持的功能。
 title: Data Warehouse 区段兼容性
-topic: Segments
+topic: 区段
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '349'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '343'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
  <thead> 
   <tr> 
    <th> </th> 
-   <th> Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis </th> 
+   <th> Analysis Workspace、Reports &amp; Analytics </th> 
    <th> Data Warehouse </th> 
   </tr> 
  </thead>
@@ -47,7 +47,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> <b>维度</b> </td> 
-   <td>将维度拖动到区段生成器的“定义”<span class="uicontrol"></span>字段中，以便了解其产品兼容性的相关信息。例如，这些维度只在 Analysis Workspace、Reports &amp; Analytics 和 Ad Hoc Analysis 中受支持： 
+   <td>将维度拖动到区段生成器的“定义”<span class="uicontrol"></span>字段中，以便了解其产品兼容性的相关信息。例如，这些维度仅在Analysis Workspace、Reports &amp; Analytics中受支持： 
     <ul> 
      <li>登录服务器 </li> 
      <li>登录类别 </li> 
@@ -73,7 +73,7 @@ ht-degree: 100%
      <li>层次结构（以层次结构开头的所有维度） </li> 
      <li>点击深度 </li> 
      <li>点击类型 </li> 
-     <li>小时 </li> 
+     <li>小时 日 </li> 
      <li>月份 </li> 
      <li>页面未找到 </li> 
      <li>付费搜索 </li> 
