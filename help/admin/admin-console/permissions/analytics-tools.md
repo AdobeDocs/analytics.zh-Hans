@@ -1,9 +1,9 @@
 ---
-source-git-commit: 9f1b7f13a35a4c5c9fc82a2d71cbdb544396f82e
-workflow-type: ht
-translation-type: ht
-source-wordcount: '559'
-ht-degree: 100%
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '547'
+ht-degree: 98%
 
 ---
 # Analytics 工具的产品配置文件权限
@@ -32,7 +32,7 @@ Analytics 工具权限项用于授予对 Adobe Analytics 中各项功能的访�
 | Excel 授权用户 | 未使用。 |
 | Activity Map | 授予对“工具”>“Activity Map”的访问权限。允许用户使用 Activity Map 扩展。 |
 | 当前数据 | 启用此选项可在 Reports &amp; Analytics 报表中查看当前数据。 |
-| Ad Hoc Analysis 授权用户 | 启用“工具”>“Ad Hoc Analysis”下的“下载”按钮，并允许用户使用该工具进行身份验证。请参阅 [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace)。 |
+| Ad Hoc Analysis 授权用户 | Ad Hoc Analysis已经停业了。 请参阅 [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace)。 |
 | 移动应用程序管理员 | 未使用。 |
 | Web 服务访问 | 允许使用 API，包括使用 API 对第三方网站进行身份验证和发送 API 调用。 |
 | Report Builder | 启用“工具”>“Report Builder”下的“下载”按钮，并允许用户在 Microsoft Excel 中进行身份验证。 |
