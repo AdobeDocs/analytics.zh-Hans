@@ -2,13 +2,13 @@
 description: 数据源提供其他两种方式，用于将离线发生的事件集成到您的在线数据。
 subtopic: Data sources
 title: 交易和客户集成
-topic: Developer and implementation
+topic: 开发人员和实施
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
-translation-type: ht
-source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
-workflow-type: ht
-source-wordcount: '327'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 84%
 
 ---
 
@@ -64,8 +64,6 @@ ht-degree: 100%
 
 客户从在线转为离线时通常是匿名的。
 
-交易 ID 事件未包含在访问参与率量度中（这些量度显示在市场营销报表中），而是包含在访客参与率量度中（仅在临时分析中可用）。
+“访问参与”量度中不包括交易ID事件（这些量度显示在市场营销报告中）。 这是因为交易ID数据与访问无关联(因为脱机事件通常不是联机事件的一部分)，而是与访客关联。
 
-这是因为交易 ID 数据不与访问关联（因为离线事件通常不是在线事件的一部分），而是与访客关联。
-
-请参阅[交易 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)。
+请参阅[事务ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)。
