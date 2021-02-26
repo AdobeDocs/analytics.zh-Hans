@@ -1,13 +1,13 @@
 ---
 description: 不同于公历模式的日历选项。相关选项包括 4-4-5、4-5-4 与 5-4-4 日历模式，三者均是零售行业的标准模式。此外，报告还提供一个选项，您可自行设置完全自定义的日历。
 title: 自定义日历
-topic: Admin tools
+topic: 管理工具
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 98%
+source-wordcount: '476'
+ht-degree: 92%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 98%
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>：一月份拥有四周，二月份拥有五周，三月份拥有四周，以此类推。 </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>：一月份拥有四周，二月份拥有四周，三月份拥有五周，以此类推。 </li> 
      <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-4-4</b>：一月份拥有五周，二月份拥有四周，三月份拥有四周，以此类推。 </li> 
-    </ul> <p>注意：此日历选项受到所有 Adobe Analytics 工具支持（Analysis Workspace、Reports &amp; Analytics、Report Builder、Activity Map、Ad Hoc Analysis），只有 Data Warehouse 例外，因为它不支持自定义日历。 </p> </td> 
+    </ul> <p>注意： 除了不支持自定义日历的Data warehouse外，所有Adobe Analytics工具(Analysis Workspace、Reports &amp; Analytics、Report Builder、Activity Map)都支持此日历选项。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
