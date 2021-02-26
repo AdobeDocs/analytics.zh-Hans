@@ -1,12 +1,12 @@
 ---
 description: 列出了一些在删除区段前需注意的事项。
 title: 删除区段
-topic: Segments
+topic: 区段
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
-translation-type: ht
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
-source-wordcount: '259'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '204'
 ht-degree: 100%
 
 ---
@@ -24,9 +24,3 @@ ht-degree: 100%
    ![](assets/duplicate_seg_names.png)
 
    您的书签引用 mainprod 报表包的区段。然后，由于该区段是重复项，您删除该区段。书签将继续运行，仍引用已删除区段的定义。如果更改剩余区段的区段定义以包括卡特琳娜岛和墨西哥的提华纳，则应用于书签的区段将不会发生更改。仍将使用旧定义。要修复此问题，请更新书签以引用新定义。如果不确定书签、功能板或计划报表是否在使用删除的区段，可以更改剩余区段的名称，这样可以更加明确书签是否在使用剩余的区段。
-
-## 在 Ad Hoc Analysis 中编辑嵌入的已删除区段 {#section_976D601DBD2244E38B0A0222E31D2610}
-
-“Ad Hoc Analysis”功能现在允许您在[计算量度生成器](https://docs.adobe.com/content/help/zh-Hans/analytics/components/calculated-metrics/cm-overview.html)内编辑嵌入的已删除区段，并且允许您对此区段执行“另存为”操作。
-
-但是，引用这个已删除区段的其他所有已删除区段都将保持不变。
