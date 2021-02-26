@@ -1,10 +1,10 @@
 ---
 title: 系统要求
 description: 为使用 Adobe Analytics 而需满足的系统要求。
-translation-type: ht
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: ht
-source-wordcount: '111'
+translation-type: tm+mt
+source-git-commit: 564263be46b8c4fef996381819b4b13abb865b7a
+workflow-type: tm+mt
+source-wordcount: '108'
 ht-degree: 100%
 
 ---
@@ -32,5 +32,4 @@ ht-degree: 100%
 有关此类解决方案的系统要求，请参阅链接的解决方案页面。
 
 * [Report Builder](/help/analyze/report-builder/setup/system-requirements.md)
-* [Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/c-getting-started.md)
 * [Data Workbench](https://docs.adobe.com/content/help/zh-Hans/data-workbench/using/install/c-data-workbench-client-install.html)
