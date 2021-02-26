@@ -3,12 +3,12 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
-user-guide-description: 使用区段、计算指标、虚拟报告套件和警报等组件帮助整理数据。
+user-guide-description: 使用区段、计算量度、虚拟报表包、警报等组件帮助整理数据。
 translation-type: tm+mt
-source-git-commit: 7d102d7625e61de962836e866f0863168abcbaa6
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 97%
+source-wordcount: '637'
+ht-degree: 98%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 97%
    + [点击类型](dimensions/hit-type.md)
    + [小时](dimensions/hour-of-day.md)
    + [小时](dimensions/hour.md)
-   + [已识别状态](dimensions/identified-state.md)
+   + [识别的状态](dimensions/identified-state.md)
    + [已启用 Java](dimensions/java-enabled.md)
    + [语言](dimensions/language.md)
    + [最近联系渠道](dimensions/last-touch-channel.md)
@@ -138,7 +138,7 @@ ht-degree: 97%
    + [每位访客逗留时间](metrics/time-spent-per-visitor.md)
    + [逗留时间概述](metrics/time-spent.md)
    + [所用总秒数](metrics/total-seconds-spent.md)
-   + [独特的设备](metrics/unique-devices.md)
+   + [独特设备](metrics/unique-devices.md)
    + [独特访客](metrics/unique-visitors.md)
    + [件数](metrics/units.md)
    + [具有 Experience Cloud ID 的访客](metrics/visitors-with-ecid.md)
@@ -168,7 +168,6 @@ ht-degree: 97%
       + [故障诊断](segmentation/seg-reference/c-troubleshooting.md)
    + [常见问题解答](segmentation/seg-transition.md)
    + [最佳实践](segmentation/best-practices.md)
-   + [适用于 Ad Hoc Analysis 的过渡指南](segmentation/seg-transition-ad-hoc.md)
 + 计算量度 {#calculated-metrics}
    + [计算量度和高级计算（派生）量度](c-calcmetrics/cm-overview.md)
    + [常见问题解答](c-calcmetrics/cm-transition.md)
