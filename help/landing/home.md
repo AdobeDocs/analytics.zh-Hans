@@ -1,9 +1,9 @@
 ---
 title: Adobe Analytics 技术文档指南
 description: Analytics 用户指南和资源
-translation-type: ht
-source-git-commit: 4fdab23700659e68d5c577369dd005b94eef56b2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
 
@@ -28,9 +28,9 @@ ht-degree: 100%
 
 [![集成](assets/integrate_50px.png)](/help/integrate/home.md) [集成指南](/help/integrate/home.md) – 配置与其他 Adobe Experience Cloud 解决方案（例如 Audience Manager、Advertising Cloud 或 Target）的集成。
 
-[![Streaming Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-overview.html) [Streaming Media Analytics 指南](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-overview.html) – 实施 Adobe Analytics for Streaming Media。包括 Media SDK 和 Media Collection API。
+[![Streaming Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-overview.html) [Streaming Media Analytics 指南](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) – 实施 Adobe Analytics for Streaming Media。包括 Media SDK 和 Media Collection API。
 
-[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/zh-Hans/data-workbench/using/home.html) [Data Workbench 指南](https://docs.adobe.com/content/help/zh-Hans/data-workbench/using/home.html) – 了解 [!UICONTROL Data Workbench] 所具有的高度灵活且强大的多渠道功能。其中包括 [!UICONTROL Data Workbench 客户端]指南、安装指南、[!UICONTROL 数据集配置]指南，及其他指南。
+[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/zh-Hans/data-workbench/using/home.html) [Data Workbench 指南](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) – 了解 [!UICONTROL Data Workbench] 所具有的高度灵活且强大的多渠道功能。其中包括 [!UICONTROL Data Workbench 客户端]指南、安装指南、[!UICONTROL 数据集配置]指南，及其他指南。
 
 [![技术文档](assets/technotes_50px.png)](/help/technotes/home.md) [Analytics 技术文档](/help/technotes/home.md) – 一个知识库，其中包含并非适用于特定 Analytics 工具或组件的实用文章。
 
@@ -50,7 +50,6 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 * [Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * [Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)
 * [Reports & Analytics](/help/analyze/reports-analytics/getting-started.md)
-* [Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)
 
 ### Analytics feature list
 
