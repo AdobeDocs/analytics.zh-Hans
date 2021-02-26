@@ -5,10 +5,10 @@ user-guide-title: Analytics 管理指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解如何在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等。
 translation-type: tm+mt
-source-git-commit: 6dcdbf7d49000e4e04d590b83da47d49f8e53ebf
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 98%
+source-wordcount: '727'
+ht-degree: 99%
 
 ---
 
@@ -43,7 +43,6 @@ ht-degree: 98%
    + [按 IP 地址排除](admin/exclude-ip.md)
    + [查找方法](admin/finding-methods.md)
    + [一般帐户设置](admin/general-acct-settings-admin.md)
-   + [群组管理](admin/group.md)
    + [内部 URL 过滤器](admin/internal-url-filter-admin.md)
    + [日志](admin/logs.md)
    + [营销渠道](admin/marketing-channels-admin.md)
@@ -111,7 +110,7 @@ ht-degree: 98%
 + Adobe Admin Console 中的 Analytics {#admin-console}
    + [Adobe Admin Console 中的 Analytics](admin-console/home.md)
    + 权限 {#permissions}
-      + [Admin Console中的分析权限](admin-console/permissions/summary-tables.md)
+      + [Admin Console 中的 Analytics 权限](admin-console/permissions/summary-tables.md)
       + [Adobe Analytics 的产品配置文件](admin-console/permissions/product-profile.md)
       + [报表包工具的产品配置文件权限](admin-console/permissions/report-suite-tools.md)
       + [Analytics 工具的产品配置文件权限](admin-console/permissions/analytics-tools.md)
@@ -164,7 +163,6 @@ ht-degree: 98%
          + [为 Enterprise ID 和 Federated ID 迁移 Analytics 用户帐户](user-management2/user-migration/migrate-enterprise.md)
          + [禁用旧版登录](user-management2/user-migration/t-disable-legacy-login.md)
          + [受迁移影响的 API](user-management2/user-migration/developer.md)
-      + [管理 Ad Hoc Analysis 用户](user-management2/c-user-management/t-manage-dsc-users-admin.md)
    + 用户群组 {#user-groups}
       + [添加用户群组](user-management2/c-user-groups/t-user-group.md)
       + [用户群组设置](user-management2/c-user-groups/groups.md)
