@@ -1,13 +1,13 @@
 ---
 description: 区段管理器提供了许多种管理区段的方式，如共享、过滤、标记、批准、复制、删除和标记为收藏。
 title: 管理区段
-topic: Segments
+topic: 区段
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 98%
+source-wordcount: '428'
+ht-degree: 97%
 
 ---
 
@@ -45,15 +45,3 @@ Analytics 区段管理器显示了您拥有的所有区段以及共享给您的�
 | 12 | 共享图标 | 表示该区段由您或与您共享。 |
 | 13 | 批准图标 | 表示该区段已获管理员批准。 |
 | 14 | 过滤器 | 让您查看和选择“标记”、“报表包”、“所有者”和“其他”（“全部显示”、“我的”、“已与我共享”、“已批准”和“收藏”）下的过滤器。 |
-
-## Ad Hoc Analysis 中的区段管理器 {#section_CC8BDC968EBC4BC1919870869D8443A9}
-
-Ad Hoc Analysis 中的 Segment Organizer 显示您拥有的所有区段以及与您共享的所有区段。
-
-要在 [!DNL ad hoc analysis] 中访问 Segment Organizer，请执行以下操作：
-
-* 转到左侧面板中的“区段”****&#x200B;选项卡，然后单击扳手图标 ![](assets/wrench_icon.png)，接着从菜单中选择“组织区段”**[!UICONTROL 。]**
-
-![](assets/ad_hoc_organize_segments.png)
-
-与 Web 用户界面中的区段管理器类似，此控制台提供了多种功能，包括区段共享、过滤、标记、批准、复制、删除以及标记为收藏。
