@@ -2,10 +2,10 @@
 description: 报表时间处理是一种虚拟报表包设置，它允许以一种非破坏性的追溯方式来处理数据。
 title: 报表时间处理
 uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1426'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '1423'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 100%
 * **在每次应用程序启动后即开始一个新访问：**&#x200B;除了访问超时之外，您还可以不考虑非活动状态时限，只要 Mobile SDK 中记录了应用程序启动事件，就可以强制开始一次访问。此设置会影响访问量度和访问区段容器，以及 eVar 中的访问过期逻辑。
 * **通过事件开始新访问：**&#x200B;无论会话是否超时，均会在事件被触发时启动新会话。新创建的会话包含启动该会话的事件。此外，您可以使用多个事件启动会话，如果在数据中观察到这些事件中的任何一个，便会触发新会话。此设置将影响您的访问计数、访问分段容器以及 eVar 上的访问过期逻辑。
 
-报表时间处理不支持传统 Analytics 报表中提供的所有量度和维度。使用报表时间处理的虚拟报表包只能在 Analysis Workspace 中进行访问，而无法在 [!UICONTROL Reports &amp; Analytics]、Ad Hoc Analysis、Data Warehouse、Report Builder、“数据馈送”或报表 API 中进行访问。
+报表时间处理不支持传统 Analytics 报表中提供的所有量度和维度。使用报表时间处理的虚拟报表包只能在 Analysis Workspace 中进行访问，而无法在 [!UICONTROL Reports &amp; Analytics]、Data Warehouse、Report Builder、“数据馈送”或报表 API 中进行访问。
 
 另外，报表时间处理仅可处理报告日期范围（以下称为“日期时限”）内的数据。这意味着在报告日期范围之前为访客设置的“永不过期”的 eVar 值不会在报告时限内持续保留，并且也不会显示在报表中。这还意味着客户忠诚度测量完全基于报告日期范围内的数据，而不是报告日期范围之前的整个历史记录。
 
