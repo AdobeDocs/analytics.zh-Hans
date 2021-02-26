@@ -3,10 +3,10 @@ description: 'null'
 title: 流量概述
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 93%
+source-wordcount: '204'
+ht-degree: 84%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->在 Analysis Workspace 中和 Reports &amp; Analytics/Ad Hoc Analysis 中对流量应用区段所获得的结果可能有所不同，要了解相关信息，请参阅[区段划分：流量和流失的一项基本功能](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)。
+>有关将区段应用到流的结果在Analysis Workspace和Reports &amp; Analytics之间可能有何不同的信息，请参阅[作为流和流失基础的细分](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)。
 
-[流可视化视频教程](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html)(4:56)
+[流可视化视频教程](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html)(4:56)
 
 ## 维度间流量 {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
@@ -33,6 +33,6 @@ ht-degree: 93%
 
 每一列可显示一个不同的维度。在拖放区域中对维度进行拖放，以将该维度添加到图表。
 
-## 将流量图导出为项目 .CSV 文件的一部分 {#section_BACD2639A0FC4C49A75398F7D0363D9D}
+## 将流量图导出为项目 .CSV 文件的一部分  {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
 流量图可以作为您能够创建的项目 .CSV 文件的一部分，方法是转到&#x200B;**[!UICONTROL 项目]** > **[!UICONTROL 下载 CSV]**。这可以让您分析 Microsoft Excel（以表格形式显示）或其他软件中的流量结果。
