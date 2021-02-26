@@ -1,13 +1,13 @@
 ---
 description: 现在，管理员级别的用户和非管理员级别的用户能够使用的区段功能通常都不一样。
 title: 区段权限（按角色）
-topic: Segments
+topic: 区段
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '137'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 88%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
   <tr> 
    <td colname="col1"> <b>管理员级别的用户</b> </td> 
    <td colname="col2"> 可与整个公司、用户组和个人用户进行共享。 </td> 
-   <td colname="col3"> <span class="keyword">Analysis Workspace、Reports &amp; Analytics</span>：可以查看/编辑/删除自己和其他用户的区段，或执行其他操作。 <p> <span class="keyword">Ad Hoc Analysis</span> 和 <span class="keyword">Report Builder</span>：可以查看/编辑/删除/等等。自己的区段以及共享的区段，或执行其他操作。 </p> </td> 
+   <td colname="col3"> <span class="keyword">Analysis Workspace、Reports &amp; Analytics</span>：可以查看/编辑/删除自己和其他用户的区段，或执行其他操作。 <p> <span class="keyword"> Report Builder </span>:可以视图/编辑/删除/等它自己的细分以及与它分享的细分。 </p> </td> 
    <td colname="col4"> 可以将区段批准为规范区段。 </td> 
    <td colname="col5"> 可以在整个组织内应用任何区段。 </td> 
   </tr> 
