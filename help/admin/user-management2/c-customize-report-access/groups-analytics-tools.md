@@ -1,14 +1,14 @@
 ---
 description: 启用常规项目（帐单、日志等）、公司管理、工具、Web 服务访问、Report Builder 和 Data Connectors 集成的用户权限。
-keywords: groups;permissions
+keywords: 群组;权限
 subtopic: Users and groups
 title: 自定义 Analytics 工具权限
-topic: Admin tools
+topic: 管理工具
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '673'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '656'
 ht-degree: 100%
 
 ---
@@ -60,7 +60,6 @@ ht-degree: 100%
 | [隐藏报表包](/help/admin/company/c-hide-report-suites.md) | 授予在 Adobe Analytics 用户界面中隐藏报表包的权限。 |
 | **工具** | 以下设置授予对 Analytics 工具（界面和应用程序）及分段和计算量度等高级功能的访问权限。 |
 | [当前数据](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/reports-analytics/current-data.html) | 授予在报表中使用“当前数据”功能的权限。 |
-| [Ad Hoc Analysis 授权用户](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/ad-hoc-analysis/adhoc-home.html) | 授予访问 [!UICONTROL Ad Hoc Analysis] 的权限。 |
 | Web 服务访问 | 为非管理员用户启用 Web 服务访问权限。生成 Web 服务凭据。 |
 | [Report Builder](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html) | 授予该群组成员对 [!UICONTROL Report Builder] 许可证的访问权限。 |
 | [Analysis Workspace 访问权限](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/home.html) | 授予用户访问 Analysis Workspace（[!DNL Adobe Analytics] 的推荐报表界面）的权限。 |
