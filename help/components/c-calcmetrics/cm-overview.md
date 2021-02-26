@@ -1,13 +1,13 @@
 ---
 description: 计算量度和高级计算（或派生）量度是指您可以从现有量度创建的自定义量度。
-keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
+keywords: 计算量度;派生量度;高级计算量度
 title: 计算量度和高级计算（派生）量度
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: e659c6ee0a503c01f7603a0fecf99a093e876caa
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 100%
+source-wordcount: '595'
+ht-degree: 97%
 
 ---
 
@@ -39,16 +39,11 @@ ht-degree: 100%
 
 您可以
 
-* 创建跨 [!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、[!UICONTROL Ad Hoc Analysis]、[!UICONTROL Report Builder]、[!UICONTROL 异常检测]和[!UICONTROL 贡献分析]的量度。
+* 在[!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、[!UICONTROL Report Builder]、[!UICONTROL 异常检测]和[!UICONTROL 贡献分析]中创建量度。
 * 创建在报表运行时派生的分段量度，而[不必更改实施](https://youtu.be/CuQTm9RaUpY)。这些量度可以在历史记录中查看，因为它们是基于区段的。
 * 在报表包之间共享量度。这表示所有新创建的量度都适用于同一登录公司中的所有报表包。
 * （仅限高级计算量度）量度上的区段。例如，您可以为“新访客”创建一个量度，其中包含首次进行会话的人员计数。
 * （仅限高级计算量度）包含统计函数，以帮助您更好地描述数据。例如，您可以对报表中的项目数量进行计数，或为每个项目加入标准偏差数。
-* 将在 [!UICONTROL Ad Hoc Analysis] 中创建的量度用于其他 [!DNL Analytics] 工具，反之亦然。
-
-   >[!NOTE]
-   >
-   >您可以继续在 Ad Hoc Analysis 中创建量度。它的计算量度生成器用户界面现在类似于新量度生成器。
 
 ## 限制 {#section_CB878B02451541D68A68B508D4DBD19A}
 
