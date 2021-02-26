@@ -3,10 +3,10 @@ description: 'null'
 title: 流失概述
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 97%
+source-wordcount: '495'
+ht-degree: 84%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 97%
 * 一般、更宽范围的流量：显示在查看主页的访客中，有多少人继续进行搜索及有多少人最终查看特定项目。
 * 网站上事件之间的关联。显示查看隐私政策后继续购买产品的访客百分比。
 
-[流失可视化视频教程](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
+[流失可视化视频教程](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
 
 ## 区段划分：流量和流失的一项基本功能 {#section_654F37A398C24DDDB1552A543EE29AA9}
 
-应用到工作区中各个面板的区段在工作方式方面，与应用到 Reports &amp; Analytics 或 Ad Hoc Analysis 中流失报表和流量报表的区段略有不同。大多数时间，它们产生的结果完全一致。但 Reports &amp; Analytics 和 Ad Hoc Analysis 在序列中的每个步骤都会应用区段，这是主要区别所在。由于这一区别，产生的结果有时可能会略有不同。
+应用于Workspace面板的区段的工作方式与应用于Reports &amp; Analytics中流失和流量报表的区段略有不同。 大多数时间，它们产生的结果完全一致。主要区别在于Reports &amp; Analytics在序列的每个步骤中应用区段。 由于这一区别，产生的结果有时可能会略有不同。
 
 我们以两个步骤的流失分析为例：
 
@@ -47,13 +47,13 @@ ht-degree: 97%
 
 ![](assets/fallout_seg.png)
 
-相反，Reports &amp; Analytics 和 Ad Hoc Analysis 计算区段时，区段会按以下方式进行结合使用：
+相反，在Reports &amp; Analytics计算区段时，区段会按以下方式组合：
 
 ![](assets/fallout_segments3.png)
 
-Reports &amp; Analytics 和 Ad Hoc Analysis 在每个步骤都会结合使用区段。如果容器级别和流失级别（例如访问次数或访客数级别）相同，则结果会与访问次数或访客数相匹配。
+Reports &amp; Analytics将细分与每个步骤相结合。 如果容器级别和流失级别（例如访问次数或访客数级别）相同，则结果会与访问次数或访客数相匹配。
 
-但是，如果应用到面板的区段比流失级别（如点击次数级别）低，则区段会因为其在报表中结合使用的方式不同而显示出不同的结果。需要重申的一点是，在大多数情况下，Analysis Workspace 中的数值同 Reports &amp; Analytics 和 Ad Hoc Analysis 中的数值是相匹配的。仅当以下所有情况都符合时，它们之间才会存在&#x200B;**不**&#x200B;匹配的情形：
+但是，如果应用到面板的区段比流失级别（如点击次数级别）低，则区段会因为其在报表中结合使用的方式不同而显示出不同的结果。重申，在大多数情况下，Analysis Workspace中的数字与Reports &amp; Analytics中的数字相符。 仅当以下所有情况都符合时，它们之间才会存在&#x200B;**不**&#x200B;匹配的情形：
 
 * 区段和流失不在同一级别。
 * 区段存在变数，即一次访问可能有不同的访客数量，或一位访客可能有不同的访问次数。
