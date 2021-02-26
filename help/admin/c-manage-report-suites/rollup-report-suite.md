@@ -1,13 +1,13 @@
 ---
 description: 汇总报表包综合了多个子报表包的数据，并将其显示在汇总的数据集中。
 title: 汇总报表包和全局报表包
-topic: Admin tools
+topic: 管理工具
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '568'
+ht-degree: 98%
 
 ---
 
@@ -53,6 +53,6 @@ ht-degree: 100%
 
 **报表**：全局报表包提供有关所有维度的数据；汇总报表包仅提供有关高级别报表的汇总数据。
 
-**支持的产品**：汇总报表包只能用于 Reports &amp; Analytics。Analysis Workspace、Data Warehouse 或 Ad Hoc Analysis 中不支持这些功能。全局报表包可用于所有产品。
+**支持的产品**：汇总报表包只能用于 Reports &amp; Analytics。在Analysis Workspace或Data warehouse中不支持它们。 全局报表包可用于所有产品。
 
 **汇总报表包的数量**：汇总报表包最多仅支持 40 个子报表包。全局报表包可以在您拥有的任意数量的域或应用程序上实施。
