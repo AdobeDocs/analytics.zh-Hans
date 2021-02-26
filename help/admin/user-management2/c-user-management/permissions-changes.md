@@ -1,15 +1,15 @@
 ---
 description: 旧版权限内容
-keywords: groups;permissions
+keywords: 群组;权限
 subtopic: Users and groups
 title: 用户和群组权限更改
-topic: Admin tools
+topic: 管理工具
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '1564'
-ht-degree: 99%
+source-wordcount: '1565'
+ht-degree: 97%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p>更改了预定义群组 </p> </td> 
-   <td colname="col2"> <p> <b>管理员访问权限：</b>管理员不再需要预定义群组。管理员现在具有对所有项目（工具、量度、维度）以及 Web 服务访问、Report Builder、Activity Map 和 Ad Hoc Analysis 的访问权限。 </p> <p>从此以后，群组的用途是授予或限制非管理用户的访问权限。 </p> <p> <b>自定义群组：</b>自定义群组取代了预定义群组。现有预定义群组将迁移到自定义群组，所用的群组名称保持不变。您已创建的任何自定义群组（包括其设置）将被保留。但您会发现，设置的位置将发生移动。例如，“自定义 Admin Console”中的“公司设置”现在位于<a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">自定义 Analytics 工具</a>中。 </p> <p> 属于<span class="term">所有报表访问</span>的用户已迁移到具有以下访问权限的自定义群组： </p> 
+   <td colname="col2"> <p> <b>管理员访问权限：</b>管理员不再需要预定义群组。管理员现在可以访问所有项目（工具、量度、维度）以及Web服务访问、Report Builder和Activity Map。 </p> <p>从此以后，群组的用途是授予或限制非管理用户的访问权限。 </p> <p> <b>自定义群组：</b>自定义群组取代了预定义群组。现有预定义群组将迁移到自定义群组，所用的群组名称保持不变。您已创建的任何自定义群组（包括其设置）将被保留。但您会发现，设置的位置将发生移动。例如，“自定义 Admin Console”中的“公司设置”现在位于<a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">自定义 Analytics 工具</a>中。 </p> <p> 属于<span class="term">所有报表访问</span>的用户已迁移到具有以下访问权限的自定义群组： </p> 
     <ul id="ul_696A9243F5FD4AF187352C2F4B1CFDC2"> 
      <li id="li_683A0A3BB7214CFFBC61D5A4CD237F48">所有维度 </li> 
      <li id="li_D8FDBF6A32224731AB706315DEA0A03E">所有量度 </li> 
