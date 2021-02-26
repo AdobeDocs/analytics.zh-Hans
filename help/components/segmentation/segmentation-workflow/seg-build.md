@@ -1,12 +1,12 @@
 ---
 description: 区段生成器提供了一个画布以将量度维度、区段和事件拖放到其中，从而根据容器层次结构逻辑、规则和运算符划分访客。通过使用该集成开发工具，您可以生成和保存简单或复杂的区段，以确定跨访问和页面点击的访客属性和操作。
 title: 生成区段
-topic: Segments
+topic: 区段
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '2051'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '2040'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 100%
 * **Analytics 顶部导航**：单击 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 区段]**。
 * **[!UICONTROL Analysis Workspace]**：单击 **[!UICONTROL Analytics]** > **[!UICONTROL 工作区]**，打开一个项目，然后单击 **[!UICONTROL + 新建]** > **[!UICONTROL 创建区段]**。
 * **[!UICONTROL Reports &amp; Analytics]**：单击 **[!UICONTROL Analytics]** > **[!UICONTROL 报表]**，打开一个现有报表并单击左侧导航中的“区段”图标 ![](assets/segment_icon.png)，然后单击&#x200B;**[!UICONTROL 添加]**。
-* **[!UICONTROL Ad Hoc Analysis]**：[在 Ad Hoc Analysis 中生成区段](/help/components/segmentation/segmentation-workflow/seg-build.md#build-segments)。
 * **[!UICONTROL Report Builder]**：[在 Report Builder 中添加或编辑区段](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/report-builder/data-requests/segmentation.html)。
 
 ## 生成器条件 {#section_F61C4268A5974C788629399ADE1E6E7C}
@@ -71,7 +70,7 @@ ht-degree: 100%
 1. **[!UICONTROL 区段]**：单击标题可展开。
 1. **[!UICONTROL 报表包选择器]**：用于选择保存此区段的报表包。您仍可以在所有报表包中使用该区段。
 1. **[!UICONTROL 区段预览]**：用于预览关键量度，以确定是否具有有效的区段以及区段的广泛程度。表示应用此区段时预期的数据集划分。显示 3 个同心圆和一个列表，以显示针对数据集运行的区段的[!UICONTROL 点击]、[!UICONTROL 访问]和[!UICONTROL 访客]的匹配项数量和百分比。在创建区段定义或对区段定义做出更改之后，将立即更新此图表。
-1. **[!UICONTROL 产品兼容性]**：提供与您创建的区段兼容的 Adobe Analytics 产品（Analysis Workspace、[!UICONTROL Reports &amp; Analytics]、Ad Hoc Analysis、Data Warehouse）的列表。大多数区段与所有产品都兼容。但是，并非所有运算符和维度都与 Analytics 的所有产品兼容，特别是 [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md)。在对区段定义做出更改之后，将立即更新此图表。
+1. **[!UICONTROL 产品兼容性]**：提供与您创建的区段兼容的 Adobe Analytics 产品（Analysis Workspace、[!UICONTROL Reports &amp; Analytics]、Data Warehouse）的列表。大多数区段与所有产品都兼容。但是，并非所有运算符和维度都与 Analytics 的所有产品兼容，特别是 [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md)。在对区段定义做出更改之后，将立即更新此图表。
 1. **[!UICONTROL 保存]**&#x200B;或&#x200B;**[!UICONTROL 取消]**：保存或取消区段。单击&#x200B;**[!UICONTROL 保存]**&#x200B;之后，将转到区段管理器，您可以在此处管理区段。
 
 嵌入了日期范围的区段会继续以不同的方式在 Analysis Workspace 与 [!UICONTROL Reports &amp; Analytics] 中运行：在“工作区”中，嵌入了日期范围的区段会覆盖面板日期范围。相反，[!UICONTROL Reports &amp; Analytics] 会显示报表日期范围和区段嵌入日期范围的交集。
@@ -205,7 +204,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> 查看的产品未添加到购物车 </td> 
-   <td colname="col2">查看浏览了产品但未添加到购物车的访客的数据。在区段定义中，容器为访问。此顺序区段的规则为 <p>产品查看不为空 </p> <p>Then </p> <p> 购物车加货等于 0。 </p> </td> 
+   <td colname="col2">查看浏览了产品但未添加到购物车的访客的数据。在区段定义中，容器为访问。此顺序区段的规则为 <p>产品查看不为空 </p> <p>然后 </p> <p> 购物车加货等于 0。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 来自促销活动的访问量 </td> 
