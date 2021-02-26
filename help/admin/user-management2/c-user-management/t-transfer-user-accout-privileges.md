@@ -2,12 +2,12 @@
 description: 描述如何将一个用户帐户中的用户帐户项目（功能板、计算量度、日历事件、警报、书签、区段、Analysis Workspace 项目和计划项目）分配给另一个用户帐户的步骤。
 subtopic: Users and groups
 title: 转移用户帐户项目
-topic: Admin tools
+topic: 管理工具
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '233'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
@@ -30,8 +30,3 @@ ht-degree: 100%
 1. 单击&#x200B;**[!UICONTROL 确定]**，确认您希望转移所选的帐户资源。
 
    接收用户将会收到原始用户拥有的所选帐户资源的所有权限，但计划报表的权限除外。
-
-   >[!NOTE]
-   >
-   >无法转移 Ad Hoc Analysis 资源。如果您的组织使用多个登录公司，则无法在这些登录公司之间转移任何内容。
-
