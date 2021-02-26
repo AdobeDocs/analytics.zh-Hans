@@ -1,26 +1,26 @@
 ---
-title: Adobe Analytics权限 — 摘要表
-description: 在Admin Console中总结可用Adobe Analytics权限的表。
+title: Adobe Analytics 权限 - 汇总表
+description: 汇总 Admin Console 中可用的 Adobe Analytics 权限的表格。
 translation-type: tm+mt
-source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 94%
+source-wordcount: '1243'
+ht-degree: 98%
 
 ---
 
 
-# Adobe Analytics权限 — 摘要表
+# Adobe Analytics 权限 - 汇总表
 
-使用以下摘要表按逻辑分组标识Admin Console中的Adobe Analytics权限。
+使用以下汇总表，根据逻辑分组识别 Admin Console 中的 Adobe Analytics 权限。
 
 ## 报表包工具
 
-| 报表包工具 | 管理 | 访问控制 | 仅报告功能 | 已弃用 | 描述 |
+| 报表包工具 | 管理 | 访问控制 | 仅报表功能 | 已弃用 | 描述 |
 | --- | --- | --- | --- | --- | --- |
 | 帐户摘要 | x |  |  |  | 授予对报表包管理器中“常规”>“一般帐户设置”的访问权限。 |
 | 渠道 | x |  |  |  | 授予对报表包管理器中“营销渠道”（包括“营销渠道管理器”、“营销渠道处理规则”和“营销渠道到期”）的访问权限。 |
-| Classifications | x |  |  |  | 授予对报表包管理器中所有分类设置的访问权限。此权限项包括： |
+| 分类 | x |  |  |  | 授予对报表包管理器中所有分类设置的访问权限。此权限项包含： |
 | 转化变量 | x |  |  |  | 授予对报表包管理器中“转化”>“转化变量”的访问权限。 |
 | 成本 | x |  |  |  | 授予对报表包管理器中“营销渠道”>“营销渠道成本”的访问权限。 |
 | 自定义日历 | x |  |  |  | 授予对报表包管理器中“常规”>“自定义日历”的访问权限。 |
@@ -38,7 +38,7 @@ ht-degree: 94%
 | 报表包管理 | x |  |  |  | 授予对报表包管理器的访问权限，但不允许进行任何更改。 |
 | 成功事件 | x |  |  |  | 授予对报表包管理器中“转化”>“成功事件”的访问权限。 |
 | 流量变量 | x |  |  |  | 授予对报表包管理器中“流量”>“流量变量”的访问权限。 |
-| 页面查看次数 | x |  |  |  | 授予对“转化”>“独特访客变量”的访问权限。通常不用于新版实施。 |
+| 独特访客 | x |  |  |  | 授予对“转化”>“独特访客变量”的访问权限。通常不用于新版实施。 |
 | URL 过滤器 | x |  |  |  | 授予对报表包管理器中“常规”>“内部 URL 过滤器”的访问权限。 |
 | 异常检测 |  | x |  |  | 授予对 Analysis Workspace 中“异常检测”的访问权限。 |
 | 贡献分析 |  | x |  |  | 授予对 Analysis Workspace 中右键单击式菜单“运行贡献分析”的访问权限。 |
@@ -57,8 +57,8 @@ ht-degree: 94%
 | KPI/量规缩图报表 |  |  |  | x | 未使用。 |
 | 最近 100 位访客 |  |  |  | x | 未使用。 |
 | 旧版 ClickMap |  |  |  | x | 未使用。请改用“Analytics 工具”下的 Activity Map。 |
-| 旧版 Clickmap 安装 |  |  |  | x | 未使用。请改用“Analytics 工具”下的 Activity Map。 |
-| 移动设备应用程序概述报表 |  |  |  | x | 未使用。 |
+| 旧版 ClickMap 安装 |  |  |  | x | 未使用。请改用“Analytics 工具”下的 Activity Map。 |
+| 移动应用程序概述报表 |  |  |  | x | 未使用。 |
 | 报表包合计 |  |  |  | x | 未使用。 |
 | 报表包（读取） |  |  |  | x | 未使用。 |
 | 报表包（写入） |  |  |  | x | 未使用。 |
@@ -72,14 +72,14 @@ ht-degree: 94%
 
 ## Analytics 工具
 
-| Analytics 工具 | 管理 | 访问控制 | 仅报告功能 | 已弃用 | 描述 |
+| Analytics 工具 | 管理 | 访问控制 | 仅报表功能 | 已弃用 | 描述 |
 | --- | --- | --- | --- | --- | --- |
 | 代码管理器 | x |  |  |  | 用于管理旧版代码。授予对“管理员”>“代码管理器”的访问权限。在大多数情况下，请改用 Adobe Experience Platform Launch 中包含的库。 |
 | 代码管理器 - Web 服务 | x |  |  |  | 授予通过 1.4 API 访问代码管理器的权限。 |
 | 隐藏报表包 | x |  |  |  | 授予对“管理员”>“公司设置”>“隐藏报表包”的访问权限。允许隐藏组织内的任何报表包，而不考虑是否具有报表包的访问权限。 |
-| 集成（创建） | x |  |  |  | 授予对“管理员”>“Data Connectors”的访问权限，并允许用户创建 Data Connectors。 |
-| 集成（删除） | x |  |  |  | 授予对“管理员”>“Data Connectors”的访问权限，并允许用户删除数据连接器。 |
-| 集成（更新） | x |  |  |  | 授予对“管理员”>“Data Connectors”的访问权限，并允许用户修改现有的连接器配置。 |
+| 集成（创建） | x |  |  |  | 授予对“管理员”>“数据连接器”的访问权限，并允许用户创建数据连接器。 |
+| 集成（删除） | x |  |  |  | 授予对“管理员”>“数据连接器”的访问权限，并允许用户删除数据连接器。 |
+| 集成（更新） | x |  |  |  | 授予对“管理员”>“数据连接器”的访问权限，并允许用户修改现有的连接器配置。 |
 | 日志 | x |  |  |  | 授予对“管理员”>“日志”的访问权限。 |
 | 日志 - Web 服务 | x |  |  |  | 授予通过 1.4 API 提取日志的权限。 |
 | 待定操作 | x |  |  |  | 授予对“管理员”>“公司设置”>“待定操作”的访问权限。 |
@@ -89,21 +89,21 @@ ht-degree: 94%
 | 流量管理 | x |  |  |  | 授予对“管理员”>“流量管理”的访问权限。 |
 | Web 服务 | x |  |  |  | 授予对“管理员”>“公司设置”>“Web 服务”的访问权限。 |
 | Activity Map |  | x |  |  | 授予对“工具”>“Activity Map”的访问权限。允许用户使用 Activity Map 扩展。 |
-| Ad Hoc Analysis 授权用户 |  | x |  |  | 启用“工具”>“Ad Hoc Analysis”下的“下载”按钮，并允许用户使用该工具进行身份验证。[更多信息](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
+| Ad Hoc Analysis 许可用户 |  | x |  |  | Ad Hoc Analysis已经停业了。 [更多信息](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
 | Analysis Workspace 访问权限 |  | x |  |  | 授予对 Analysis Workspace 的访问权限。用户必须属于此组（首选）或“Reports &amp; Analytics 访问权限”组，才能使用 Adobe Analytics。 |
 | Analysis Workspace：另存为模板 |  | x |  |  | 授予对 Analysis Workspace 中“项目”>“另存为模板”的访问权限。 |
 | 计算量度创建 |  | x |  |  | 允许在所有 Analytics 功能中创建计算量度。 |
-| Labs 访问 |  | x |  |  | 授予对实验室的访问权限。 |
+| Labs 访问权限 |  | x |  |  | 授予对 Labs 的访问权限。 |
 | Report Builder |  | x |  |  | 启用“工具”>“Report Builder”下的“下载”按钮，并允许用户在 Microsoft Excel 中进行身份验证。 |
 | 区段创建 |  | x |  |  | 允许在所有 Analytics 功能中创建区段并在功能之间共享区段。 |
 | 区段发布 |  | x |  |  | 允许在创建或编辑区段时将区段设为 Experience Cloud 受众。 |
-| Web 服务访问 |  | x |  |  | 允许使用 API，包括使用 API 对第三方网站进行身份验证和发送 API 调用。 |
+| Web 服务访问 |  | x |  |  | 允许使用 API，包括使用 API 进行第三方网站身份验证和发送 API 调用。 |
 | 当前数据 |  |  | x |  | 启用此选项可在 Reports &amp; Analytics 报表中查看当前数据。 |
 | Reports &amp; Analytics 访问权限 |  |  | x |  | 授予对 Reports &amp; Analytics 的访问权限。用户必须属于此组或“Analysis Workspace 访问权限”组（首选），才能使用 Adobe Analytics。 |
 | Advertising Analytics 管理 |  |  |  | x | 未使用。 |
 | 品牌联合 |  |  |  | x | 已不再使用。授予对“管理员”>“公司设置”>“品牌联合”的访问权限。 |
-| Excel 授权用户 |  |  |  | x | 未使用。 |
-| 移动应用程序管理员 |  |  |  | x | 未使用。 |
+| Excel 许可用户 |  |  |  | x | 未使用。 |
+| 移动应用程序管理 |  |  |  | x | 未使用。 |
 | 权限管理 |  |  |  | x | 已不再使用。授予对“管理员”>“用户管理”下的旧版用户管理界面的访问权限。 |
 | 权限（读取）- Web 服务 |  |  |  | x | 已不再使用。允许用户使用管理员 API 查看旧版 Analytics 权限。请改为使用 Adobe Admin Console。 |
 | 权限（写入）- Web 服务 |  |  |  | x | 已不再使用。允许用户使用管理员 API 编辑旧版 Analytics 权限。请改为使用 Adobe Admin Console。 |
