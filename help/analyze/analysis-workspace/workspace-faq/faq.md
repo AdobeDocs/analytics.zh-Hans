@@ -1,10 +1,10 @@
 ---
 description: 工作区常见问题解答
 title: 工作区常见问题解答以及故障诊断
-translation-type: ht
-source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
-workflow-type: ht
-source-wordcount: '541'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '523'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 100%
 | Analysis Workspace 会更改 Adobe Analytics 中预配置的报表吗？ | 不会。由于这是一个单独的环境，因此不会对 Adobe Analytics 中的现有报表或任何预配置的报表进行更改。您仍然可以通过 Analysis Workspace 来使用标准的 Reports &amp; Analytics 和 Report Builder 报表。 |
 | 我可以将 Analysis Workspace 用于 Data Warehouse 吗？ | 不建议将 Analysis Workspace 用于批量数据导出。它是一个创建类似功能板分析项目的可视化图表工作区。 |
 | 如何优化 Analysis Workspace 的性能？ | 请参阅[优化性能](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。 |
-| Analysis Workspace 的功能与 Ad Hoc Analysis 相比有何异同？ | 请参阅 [Analysis Workspace 与 Ad Hoc Analysis 的比较](/help/analyze/analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)。 |
 
 ## 故障诊断
 
