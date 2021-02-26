@@ -1,13 +1,13 @@
 ---
 description: 您可以通过选择预定义的模板或者使用某个现有报表包作为模型，来创建新的报表包。
 title: 新报表包 - 设置
-topic: Admin tools
+topic: 管理工具
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 94%
+source-wordcount: '537'
+ht-degree: 93%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 默认页面</span> </td> 
-   <td colname="col2"> <p>（可选）将<span class="wintitle">默认页面</span>值的发生次数从它遇到的 URL 中剥离开来。如果<span class="wintitle">最受欢迎页面</span>报表包含 URL 而不是页面名称，则此设置可以防止同一网页有多个 URL。 </p> <p>For example, the URLs<span class="filepath"> https://example.com</span> and <span class="filepath"> https://example.com/index.html</span> are typically the same page. You can remove extraneous filenames so that both these URLs show up as <span class="filepath"> https://example.com</span> in your reports. </p> <p>如果不设置此值，Analytics 将从 URL 中自动删除以下文件名：<span class="filepath">index.htm</span>、<span class="filepath">index.html</span>、<span class="filepath">index.cgi</span>、<span class="filepath">index.asp</span>、<span class="filepath">default.htm</span>、<span class="filepath">default.html</span>、<span class="filepath">default.cgi</span>、<span class="filepath">default.asp</span>、<span class="filepath">home.htm</span>、<span class="filepath">home.html</span>、<span class="filepath">home.cgi</span> 和 <span class="filepath"> home.asp</span>。 </p> <p>要禁止剥离文件名，可以输入永远不会在您的 URL 中出现的默认页面值。 </p> </td> 
+   <td colname="col2"> <p>（可选）将<span class="wintitle">默认页面</span>值的发生次数从它遇到的 URL 中剥离开来。如果<span class="wintitle">最受欢迎页面</span>报表包含 URL 而不是页面名称，则此设置可以防止同一网页有多个 URL。 </p> <p>例如，URL<span class="filepath"> https://example.com</span>和<span class="filepath"> https://example.com/index.html</span>通常是同一页。 您可以删除无关的文件名，以便这两个URL在报表中都显示为<span class="filepath"> https://example.com</span>。 </p> <p>如果不设置此值，Analytics 将从 URL 中自动删除以下文件名：<span class="filepath">index.htm</span>、<span class="filepath">index.html</span>、<span class="filepath">index.cgi</span>、<span class="filepath">index.asp</span>、<span class="filepath">default.htm</span>、<span class="filepath">default.html</span>、<span class="filepath">default.cgi</span>、<span class="filepath">default.asp</span>、<span class="filepath">home.htm</span>、<span class="filepath">home.html</span>、<span class="filepath">home.cgi</span> 和 <span class="filepath"> home.asp</span>。 </p> <p>要禁止剥离文件名，可以输入永远不会在您的 URL 中出现的默认页面值。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>起始日期 </p> </td> 
@@ -65,11 +65,7 @@ ht-degree: 94%
   <tr> 
    <td colname="col1"> <span class="wintitle">禁用多字节字符支持</span> </td> 
    <td colname="col2"> <p>禁用对报表包的多字节字符支持。如果禁用多字节字符支持，则系统会假定数据为 ISO-8859-1 格式。网页必须在 <span class="varname">charSet</span> JavaScript 变量中指定其字符集。 </p> <p>多字节字符支持使用 UTF-8 将字符存储在报表包中。系统在接收数据之后会将其从您的网页字符集转换为 UTF-8 字符集，从而使您可以在市场营销报告中使用任何语言。 </p> <p>要将现有报表包更改为支持多字节字符，请联系您的客户经理或客户关怀。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> 激活此报表包的 Ad Hoc Analysis</span> </td> 
-   <td colname="col2"> 当您执行 Ad Hoc Analysis 时启用查看此报表包。 </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
