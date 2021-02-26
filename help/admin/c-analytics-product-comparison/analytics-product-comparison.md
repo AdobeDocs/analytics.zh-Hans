@@ -1,16 +1,16 @@
 ---
-description: Analysis Workspace、Reports & Analytics、Ad Hoc Analysis、Report Builder、Data Warehouse 和 Data Workbench 的系统要求和比较。
+description: Analysis Workspace、Reports & Analytics、Report Builder、Data Warehouse 和 Data Workbench 的系统要求和比较。
 title: Analytics 产品比较和要求
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '432'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '429'
 ht-degree: 100%
 
 ---
 
 
-# Analytics产品比较和要求
+# Analytics 产品比较和要求
 
 此页面包含各种 Adobe Analytics 产品的比较：Analysis Workspace、Reports &amp; Analytics、Report Builder、Data Warehouse、Data Workbench、数据馈送和 Analytics API 2.0。
 
