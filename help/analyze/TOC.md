@@ -5,9 +5,9 @@ user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 为Analysis Workspace(Analytics的首要分析和可视化工具)以及Adobe Analytics仪表板、Report Builder和Activity Map等工具提供操作说明。
 translation-type: tm+mt
-source-git-commit: a52f2f916db322ddb6226a5d3aa1f5585bf09539
+source-git-commit: 9964a512e05191b8baad631076adb6fe02a23134
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1010'
 ht-degree: 97%
 
 ---
@@ -124,7 +124,6 @@ ht-degree: 97%
       + [常见问题解答](analysis-workspace/workspace-faq/faq.md)
       + [优化 Analysis Workspace 性能](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [错误消息](analysis-workspace/workspace-faq/error-messages.md)
-      + [Analysis Workspace 与 Ad Hoc Analysis 的比较](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
       + [Analysis Workspace 限制](analysis-workspace/workspace-faq/aw-limitations.md)
       + [管理要求](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Analysis Workspace 中的辅助功能](analysis-workspace/workspace-faq/aw-accessibility.md)
