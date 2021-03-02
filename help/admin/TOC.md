@@ -110,7 +110,7 @@ ht-degree: 99%
 + Adobe Admin Console 中的 Analytics {#admin-console}
    + [Adobe Admin Console 中的 Analytics](admin-console/home.md)
    + 权限 {#permissions}
-      + [Admin Console 中的 Analytics 权限](admin-console/permissions/summary-tables.md)
+      + [Admin Console 中的 Analytics Permissions](admin-console/permissions/summary-tables.md)
       + [Adobe Analytics 的产品配置文件](admin-console/permissions/product-profile.md)
       + [报表包工具的产品配置文件权限](admin-console/permissions/report-suite-tools.md)
       + [Analytics 工具的产品配置文件权限](admin-console/permissions/analytics-tools.md)
