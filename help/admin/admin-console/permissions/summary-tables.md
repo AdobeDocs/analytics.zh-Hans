@@ -1,6 +1,6 @@
 ---
-title: Adobe Analytics 权限 - 汇总表
-description: 汇总 Admin Console 中可用的 Adobe Analytics 权限的表格。
+title: Adobe Analytics Permissions — 汇总表
+description: 汇总 Admin Console 中可用的 Adobe Analytics Permissions 的表格。
 translation-type: tm+mt
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
@@ -10,9 +10,9 @@ ht-degree: 98%
 ---
 
 
-# Adobe Analytics 权限 - 汇总表
+# Adobe Analytics Permissions — 汇总表
 
-使用以下汇总表，根据逻辑分组识别 Admin Console 中的 Adobe Analytics 权限。
+使用以下汇总表，根据逻辑分组识别 Admin Console 中的 Adobe Analytics Permissions。
 
 ## 报表包工具
 
@@ -99,13 +99,13 @@ ht-degree: 98%
 | 区段发布 |  | x |  |  | 允许在创建或编辑区段时将区段设为 Experience Cloud 受众。 |
 | Web 服务访问 |  | x |  |  | 允许使用 API，包括使用 API 进行第三方网站身份验证和发送 API 调用。 |
 | 当前数据 |  |  | x |  | 启用此选项可在 Reports &amp; Analytics 报表中查看当前数据。 |
-| Reports &amp; Analytics 访问权限 |  |  | x |  | 授予对 Reports &amp; Analytics 的访问权限。用户必须属于此组或“Analysis Workspace 访问权限”组（首选），才能使用 Adobe Analytics。 |
+| Reports &amp; Analytics 访问权限 |  |  | x |  | 授予对 Reports &amp; Analytics 的访问权限。用户必须属于此组或“Analysis Workspace 访问权限”（首选），才能使用 Adobe Analytics。 |
 | Advertising Analytics 管理 |  |  |  | x | 未使用。 |
 | 品牌联合 |  |  |  | x | 已不再使用。授予对“管理员”>“公司设置”>“品牌联合”的访问权限。 |
 | Excel 许可用户 |  |  |  | x | 未使用。 |
 | 移动应用程序管理 |  |  |  | x | 未使用。 |
 | 权限管理 |  |  |  | x | 已不再使用。授予对“管理员”>“用户管理”下的旧版用户管理界面的访问权限。 |
-| 权限（读取）- Web 服务 |  |  |  | x | 已不再使用。允许用户使用管理员 API 查看旧版 Analytics 权限。请改为使用 Adobe Admin Console。 |
-| 权限（写入）- Web 服务 |  |  |  | x | 已不再使用。允许用户使用管理员 API 编辑旧版 Analytics 权限。请改为使用 Adobe Admin Console。 |
+| 权限（读取）- Web 服务 |  |  |  | x | 已不再使用。允许用户使用管理员 API 查看旧版 Analytics Permissions。请改为使用 Adobe Admin Console。 |
+| 权限（写入）- Web 服务 |  |  |  | x | 已不再使用。允许用户使用管理员 API 编辑旧版 Analytics Permissions。请改为使用 Adobe Admin Console。 |
 | 首选项 |  |  |  | x | 未使用。 |
 | 单点登录 |  |  |  | x | 已不再使用。授予对已弃用的单点登录服务的访问权限。 |
