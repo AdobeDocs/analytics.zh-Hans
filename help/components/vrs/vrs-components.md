@@ -24,13 +24,13 @@ ht-degree: 100%
 1. 转到 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 虚拟报表包]** > **[!UICONTROL 新建虚拟报表包]**。
 1. 定义&#x200B;**[!UICONTROL 设置]**&#x200B;后，单击&#x200B;**[!UICONTROL 组件]**&#x200B;选项卡。
 
-1. 选中&#x200B;**[!UICONTROL 启用虚拟报表包组件自定]**&#x200B;复选框：
+1. 选中&#x200B;**[!UICONTROL 启用虚拟报表包组件自定义]**&#x200B;复选框：
 
    ![](assets/vrs-enable.png)
 
    >[!NOTE]
    >
-   >如果启用了组件自定，则虚拟报表包&#x200B;**只能在 Analysis Workspace 中**&#x200B;访问，而不能在以下位置访问：
+   >如果启用了组件自定，则虚拟报表包&#x200B;**“只能在 Analysis Workspace 中”**&#x200B;访问，而不能在以下位置访问：
    >
    >* [!UICONTROL Reports and Analytics]
    >* [!UICONTROL Data Warehouse]
