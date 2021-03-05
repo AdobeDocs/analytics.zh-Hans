@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: 在Report Builder中创建请求时的第一步。
 title: 数据请求 - 请求向导第 1 步
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
-translation-type: ht
-source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: ht
-source-wordcount: '411'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 97%
 
 ---
 
