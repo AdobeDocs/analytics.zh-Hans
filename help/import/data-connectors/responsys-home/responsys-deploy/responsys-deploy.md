@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: 部署Responsys数据连接器以在Adobe Analytics中使用。
 title: 部署集成
 uuid: 5abf6d49-b05b-4e0f-8d9b-bb02d8f1c84a
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '328'
+ht-degree: 96%
 
 ---
 
