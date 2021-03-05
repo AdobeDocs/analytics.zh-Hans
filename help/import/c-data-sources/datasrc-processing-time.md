@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Adobe处理数据源所需时间长度的信息。
 title: 数据源处理时间
 uuid: d7cd679a-f9e3-4740-87cf-6171f3fe5cd9
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '119'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 90%
 
 ---
 
