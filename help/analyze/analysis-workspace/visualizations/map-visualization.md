@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: 在Workspace项目中使用映射可视化。
 title: 地图
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +25,7 @@ Analysis Workspace 中的地图可视化
 
 ## 构建地图可视化 {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
-1. From the list of visualizations, drag **[!UICONTROL Map]** into a Freeform panel:
+1. 从可视化列表中，将&#x200B;**[!UICONTROL 地图]**&#x200B;拖到“自由格式”面板中：
 
    ![](assets/map-viz1.png)
 
@@ -42,7 +45,7 @@ Analysis Workspace 中的地图可视化
  </tbody> 
 </table>
 
-1. 单击 **[!UICONTROL Build]**.
+1. 单击&#x200B;**[!UICONTROL 生成]**。
 
    您看到的第一个视图将是一个具有气泡图的世界视图，它类似于下图。
 
@@ -57,7 +60,7 @@ Analysis Workspace 中的地图可视化
       * 显示负数：例如，如果您绘制的是年度同比量度，地图会在纽约上方显示 -33%。
       * 对于“百分数”类型的量度，群集会计算所有百分比的平均值。
       * 绿/红颜色方案：正/负
-   * 通过按住 **键并移动地图，**&#x200B;旋转[!UICONTROL Ctrl] 2D 或 3D 地图。
+   * 通过按住 [!UICONTROL Ctrl] 键并移动地图，**旋转** 2D 或 3D 地图。
 
    * 使用以下描述的[设置](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E)，**切换**&#x200B;到其他视图，如热图。请注意，气泡视图是默认设置。
 
