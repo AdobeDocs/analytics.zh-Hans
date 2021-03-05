@@ -1,11 +1,11 @@
 ---
-description: 'null'
+description: 在Workspace项目中使用圆环可视化。
 title: 圆环
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '36'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '43'
+ht-degree: 81%
 
 ---
 
