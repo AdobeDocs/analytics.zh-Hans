@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: 用例用于创建和管理智能警报。
 title: 智能警报 - 用例
 uuid: 2aa8e00f-4885-4861-a47f-40c8df1f8539
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 91%
 
 ---
 
@@ -30,7 +33,7 @@ Update screenshots for better readability.
 
 ![](assets/prepopulated_alert.png)
 
-## 合并（堆叠）警报，而不是创建多个警报 {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## 合并（堆叠）警报，而不是创建多个警报  {#section_B27B0856BA104B9FB6D0BBB317633F18}
 
 堆叠警报可确保警报得到合并，并且您不会收到大量单独的警报。
 
