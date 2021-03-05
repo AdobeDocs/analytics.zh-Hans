@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: 智能警报的使用案例。
 title: 智能警报 - 用例
 uuid: e848f004-c044-4c7e-a0ac-9f3ea2df9a05
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +25,7 @@ Update screenshots for better readability.
 
 ## 从表选定范围中创建警报 {#section_AE6D42E1255D498D908A2FA60370A419}
 
-In Freeform Tables, you can now create in-context alerts by right-clicking a table row and selecting **[!UICONTROL Create Alert from Selection]**.
+在自由格式表中，现在可以通过右键单击表格行并选择&#x200B;**[!UICONTROL 从选定范围中创建警报]**&#x200B;来创建上下文关联警报。
 
 ![](assets/alert_selection.png)
 
