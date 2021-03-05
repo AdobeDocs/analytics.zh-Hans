@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: 有关Advertising Analytics的常见问题解答。
 title: 常见问题解答
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '1411'
+ht-degree: 99%
 
 ---
 
@@ -47,7 +50,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## 使用 Advertising Analytics {#section_3A70C6C4D5A842B2981F0257A01F95FF}
+## 使用 Advertising Analytics  {#section_3A70C6C4D5A842B2981F0257A01F95FF}
 
 <table id="table_4EC69262B7AB4DF49E736CF3B0362302"> 
  <thead> 
@@ -126,7 +129,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## 自动跟踪与手动跟踪 {#section_7437C4698A6D482EB7ED94A948390119}
+## 自动跟踪与手动跟踪  {#section_7437C4698A6D482EB7ED94A948390119}
 
 <table id="table_9738FF8459574ED2937A860A665BE739"> 
  <thead> 
@@ -138,7 +141,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p>问：设置我的广告帐户时，它显示<b>自动跟踪</b>可能产生意想不到的后果。会产生什么样的后果？ </p> </td> 
-   <td colname="col2"> <p>答： 
+   <td colname="col2"> <p>同类群组: 
      <ul id="ul_59EFF4A2ECE947EBBDB6A9FF6D072FE0"> 
       <li id="li_8731E4B7D6ED4F0996B3630A35D5BAC4">自动模式将尝试以正确的格式将 URL 参数附加到跟踪模板/目标 URL 的末尾。<b>但是，您有责任确保添加的网址参数能够正确保持到最终登陆页面。</b> </li> 
       <li id="li_1202FE1FC88342378A60E8FE65E5426B">自动模式可以将关键字插入到登陆 URL 中，而您的 Web 服务器可能不支持包含特殊字符的关键字。 </li> 
