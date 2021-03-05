@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: 将Kampyle数据连接器与Adobe Analytics结合使用。
 title: 适用于 Adobe Analytics 的 Kampyle Data Connector
 uuid: f7733c81-93f5-4c50-b83a-721a6fbd4e8e
 translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 95%
+source-wordcount: '274'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->我们将于2021年8月1日终止Adobe数据连接器技术。 [了解更多...](/help/import/data-connectors/data-connectors-eol.md)
+>我们将于2021年8月1日终止Adobe Data Connector技术。 [了解更多...](/help/import/data-connectors/data-connectors-eol.md)
 
 适用于 Adobe Analytics 的 Kampyle Data Connector 将 Kampyle 的集成式反馈系统与 Adobe Analytics® 的行为报表整合在一起，为贵组织提供强大的分析和优化契机。
 
