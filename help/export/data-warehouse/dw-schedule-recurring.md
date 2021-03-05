@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: 计划请求在Data warehouse中重复运行。
 title: 计划周期性请求
 uuid: 8ebeb78c-23a0-4b39-a63e-51835e0677a8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 85%
 
 ---
 
@@ -14,14 +17,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 要计划每日/每月/每年的 Data Warehouse 请求，请确保已正确选择*预设*
 
-1. 在下 [!UICONTROL Reporting Date]面，选择 **[!UICONTROL Preset]**。
+1. 在“[!UICONTROL 报告日期]”下，选择&#x200B;**[!UICONTROL 预设]**。
 
-1. 在 [!UICONTROL Schedule Delivery] 下，单击 **[!UICONTROL Advanced Delivery Options]**。
+1. 在“[!UICONTROL 计划提交]”下，单击&#x200B;**[!UICONTROL 高级提交选项]**。
 
-1. 转到“计划选项”选项卡并选择 **[!UICONTROL Schedule for later]**。
-1. 为和选择所需 [!UICONTROL Delivery Frequency] 的设 [!UICONTROL End Delivery Options]置。
+1. 转到“计划选项”选项卡，然后选择&#x200B;**[!UICONTROL 安排以后执行]**。
+1. 为“[!UICONTROL 提交频率]”和“[!UICONTROL 结束提交选项]”选择所需的设置。
 
    ![](assets/dw_schedule.png)
 
-1. 单击 **[!UICONTROL Schedule]**.
+1. 单击&#x200B;**[!UICONTROL 计划]**。
 
