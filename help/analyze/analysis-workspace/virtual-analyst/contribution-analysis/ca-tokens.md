@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: 使用贡献分析来识别数据中的统计异常和关联。
 title: 贡献分析概述
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '1146'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '1156'
+ht-degree: 99%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 100%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Foundation </p> </td> 
+   <td colname="col1"> <p>基础 </p> </td> 
    <td colname="col2"> <p>仅每天粒度 </p> </td> 
    <td colname="col3" colsep="1"> <p>无令牌 </p> </td> 
   </tr> 
