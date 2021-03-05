@@ -1,10 +1,13 @@
 ---
-description: 'null'
+description: 使用数据源中的事务ID将线上和线下数据链接在一起。
 title: 交易 ID 和访客资料
-topic: Developer and implementation
+topic: 开发人员和实施
 uuid: 7a72779c-7f67-4872-ad5e-edf298d53cac
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '660'
+ht-degree: 98%
 
 ---
 
@@ -39,7 +42,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 与交易 ID 关联的访客资料“快照”适合在 90 天后删除，不过实际的删除计划可能有所不同。必要时，您可以联系 Adobe 客户关怀以延长过期时间范围。如果某行是在交易 ID 过期时限后上载的，则会记录该行中的数据，但是如果已删除访客资料，则访客资料“快照”中的数据均不会计入积分。
 
-## 使用交易 ID 的划分和分段 {#section_A4D39291200A42C496122FDB9EF6EF68}
+## 使用交易 ID 的划分和分段  {#section_A4D39291200A42C496122FDB9EF6EF68}
 
 使用数据源上载的 eVar 可用于划分访客资料“快照”中包含的 eVar。由于此数据与当前访客资料相分离，因此您无法按其他 eVar 进行划分，这些 eVar 可能是在设置交易 ID 前后设置，但它们不属于“快照”。
 
