@@ -1,13 +1,11 @@
 ---
-keywords: Analysis Workspace
-title: Analysis Workspace 概述
-topic: Reports and analytics
-uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
+title: 什么是Analysis Workspace，如何使用它？
+description: Analysis Workspace是Adobe Analytics的主要分析工具。 它允许您使用面板、表、可视化和其他组件为数据注入活力、管理数据集、共享和计划项目等功能。
 translation-type: tm+mt
-source-git-commit: e70cd7056a88f58a905c5a3cb9a173b31a7b53be
+source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 95%
+source-wordcount: '567'
+ht-degree: 89%
 
 ---
 
@@ -58,11 +56,11 @@ Analysis Workspace 是一款通过浏览器即可使用的灵活工具，可让�
 
 ### 面板
 
-**面板**&#x200B;可以包含许多表格和可视化图表，用于在项目中对分析进行组织和整理。Analysis Workspace 中提供的许多面板都可以基于一些用户输入来生成整套分析。在最左侧的边栏中，选择顶部的&#x200B;**[!UICONTROL 面板]**&#x200B;图标，以查看所有可用的[面板](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html)。
+**面板**&#x200B;可以包含许多表格和可视化图表，用于在项目中对分析进行组织和整理。Analysis Workspace 中提供的许多面板都可以基于一些用户输入来生成整套分析。在最左侧的边栏中，选择顶部的&#x200B;**[!UICONTROL 面板]**&#x200B;图标，以查看所有可用的[面板](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/panels.html)。
 
 ![](assets/build-panels.png)
 
 ## 其他资源 {#resources}
 
-* Adobe 提供了大量的 [Analytics 视频培训教程](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html)。
+* Adobe 提供了大量的 [Analytics 视频培训教程](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/overview.html)。
 * 请参阅 [Analysis Workspace 中的新增功能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)以获取新增功能的最新信息。
