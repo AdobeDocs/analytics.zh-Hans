@@ -1,11 +1,11 @@
 ---
-title: 设置广告帐户
-uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
+title: 如何在Advertising Analytics中设置广告帐户
+description: 允许您创建新广告帐户并将多个帐户映射到多个报表包。
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 100%
+source-wordcount: '869'
+ht-degree: 97%
 
 ---
 
@@ -78,7 +78,7 @@ Adobe Analytics 管理员可以创建新的广告帐户，并将多个帐户映�
     <tbody> 
       <tr> 
       <td colname="col1"> <p>报表包映射 </p> </td> 
-      <td colname="col2"> <p>报表包映射可确定链接到此搜索引擎帐户的报表包。换句话说，它可确定搜索引擎数据会发送到哪些报表包。 </p> <p>如果在列出的报表包中未看到您的报表包，则可使用此工具<a href="https://docs.adobe.com/content/help/zh-Hans/core-services/interface/about-core-services/report-suite-mapping.html"  >将您的报表包映射到 Experience Cloud 组织</a>。 </p> </td> 
+      <td colname="col2"> <p>报表包映射可确定链接到此搜索引擎帐户的报表包。换句话说，它可确定搜索引擎数据会发送到哪些报表包。 </p> <p>如果在列出的报表包中未看到您的报表包，则可使用此工具<a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html"  >将您的报表包映射到 Experience Cloud 组织</a>。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
