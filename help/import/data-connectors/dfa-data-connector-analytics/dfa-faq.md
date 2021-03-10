@@ -5,10 +5,10 @@ title: 常见问题解答
 topic: Data connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 6669f678c1327b6af4a5b67c8033a9b7d8c9dbcf
 workflow-type: tm+mt
 source-wordcount: '889'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -47,6 +47,6 @@ ht-degree: 99%
 
 然后，通过执行[确认 DFA 集成成功](../dfa-data-connector-analytics/dfa-integration.md)中的步骤，验证集成是否正常工作。如果您在登陆页面中看到包含 Adobe 点击的 DFA 跟踪代码，则应当在 DFA 促销活动报表中看到该点进。如果未看到该点进，请验证登陆页面的 *`s.account`* 变量与在 Reports &amp; Analytics 中查看的报表包是否匹配。如果它们匹配，请在显示到达 eVar 报表中检查跟踪代码，类似于 DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX。
 
-它们指示 DFA VISTA 规则未能分类来自 DFA 的原始数据。通过您的 Adobe 帐户代表打开一个支持票证，可修复此问题。
+它们指示 DFA VISTA 规则未能分类来自 DFA 的原始数据。可通过您的Adobe帐户代表打开支持票证来解决此问题。
 
-如果以上解决方案都无法解释此问题，请参阅[协调量度差异](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)以寻求其他的可能解决方法。
+如果以上所有解决方案都不能解释问题，请参阅[协调量度差异](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)以探索其他可能性。
