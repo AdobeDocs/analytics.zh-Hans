@@ -1,11 +1,11 @@
 ---
 title: 基于字段的拼合
 description: 了解使用基于字段的拼合来拼合数据的先决条件和限制。
-translation-type: ht
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
-source-wordcount: '226'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7b43c4ebbf9446507ab90a90e26c51635303dcc6
+workflow-type: tm+mt
+source-wordcount: '303'
+ht-degree: 68%
 
 ---
 
@@ -28,7 +28,8 @@ ht-degree: 100%
 ## 基于字段的拼合的特定限制
 
 * 基于字段的拼合最适合具有较高用户标识率的报表包。如果您的报表包的标识率或登录率较低，请考虑使用[协作图](device-graph.md)。
+* 虽然prop和eVar都有处理大写和小写字符以进行报告的规则，但基于字段的拼接不会以任何方式转换用于拼接的prop或eVar。 基于字段的拼接使用指定字段中的值，因为它存在VISTA后规则和后处理规则。 例如，如果prop/eVar中有时出现“Bob”一词，而有时出现“BOB”一词，则这些词将被视为两个单独的人。
 
 ## 后续步骤
 
-贵组织在满足所有要求并了解相关限制后，便可以开始[设置跨设备分析](setup.md)。
+组织满足所有要求并了解其限制后，您可以开始[设置跨设备分析](setup.md)。
