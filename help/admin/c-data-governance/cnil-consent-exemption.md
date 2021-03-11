@@ -1,39 +1,42 @@
 ---
-description: 了解有关用户同意在设备或浏览器上存储或阅读非必需cookie的准则和建议。
-title: 有关用户同意的CNIL准则和Cookie
+description: 了解关于用户准许在设备或浏览器上存储或读取非必要 Cookie 的准则和建议。
+title: 关于用户准许和 Cookie 的 CNIL 准则是什么
 translation-type: tm+mt
-source-git-commit: c5ebc92622e012699d64c27701b24a88429e9f4f
+source-git-commit: 36259e3a36cad221d7264e5caa0a09a757dc4fe8
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 1%
+source-wordcount: '598'
+ht-degree: 83%
 
 ---
 
 
-# CNIL同意豁免
+# CNIL 准许豁免
 
-2020年10月1日，法国数据保护局(“CNIL”)发布了修订版Cookie准则（“准则”）及其关于获取用户同意在用户设备或浏览器(“Recommendations”)上存储或读取非必需Cookie及类似技术的最终建议。
+2020 年 10 月 1 日，法国数据保护局（简称“CNIL”）发布了其 Cookie 规则的修订版（下称“准则”）及其关于征求用户准许在用户的设备或浏览器上存储或读取非必要 Cookie 和类似技术的最终建议（下称“建议”）。
 
-准则对同意要求提供有限豁免（“同意豁免”）。 “同意豁免”适用于分析Cookie，其用途仅限于代表Web发布者评估网站或应用程序的受众。 准则规定，要适用同意豁免，必须满足以下条件：
+准则提供对准许要求的有限豁免（下称“准许豁免”）。准许豁免适用于只是为了代表 Web 发布者度量网站或应用程序的受众的 Analytics Cookie。准则规定，要适用准许豁免，必须满足以下条件：
 
-* 最多25个月的数据保留期  您可以在“Analytics”>“Admin”>“Data Governance”下查看当前的数据保留设置。  [数据保留](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html)
-* 13个月Cookie限制。  您可以使用`cookieLifetime`变量覆盖分析Cookie过期。  [cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html)
-* 范围有限。 Cookie的范围必须限于单个站点或应用程序。 [浏览器Cookie](https://experienceleague.adobe.com/docs/analytics/technotes/cookies.html?lang=en&quot;\l&quot;third-party-cookie-implementations)
-* 匿名化. 匿名化IP地址的最后八位字节。 [一般帐户设置](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html)
-* 隐藏访客ID以免报告。  默认情况下，访客ID在Adobe Workspace和Adobe Reports and Analytics中不可见。  访客ID在数据馈送和Data warehouse中可用。  访问Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=en&quot;\l&quot;任务_040673FE3E3E429B9531FBCB8B6A4391)中的[访问权限可以限制对数据馈送和Data warehouse的访问
-* 地理位置参数。 地理位置不能比邮政编码级别更精确。 [Zip选](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/zip.html?lang=en&quot;\l&quot;zip-in-adobe-experience-platform-launch) 项和一 [般帐户设置](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=en&quot;\l&quot;admin-tools)
-* 设置选择加入选项。  通过选择加入服务，您可以设置访客协议，以确定您在访问站点时是否可以在用户设备或浏览器上设置Cookie。 [选择加入服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html)
-* 防止数据共享。  要阻止与Adobe Audience Manager共享数据，请使用[隐私报告](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=en&quot;\l&quot;变量)的`opt.dmp`上下文变量阻止共享点击。
-* 访问和删除功能。 利用访问和删除请求的Privacy Service。 [分析与Privacy Service](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/an-gdpr-overview.html)
+* 数据保留期最长为 25 个月。可在“Analytics”>“管理”>“数据治理”下查看当前的数据保留设置。[数据保留](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html)
+* 在ECID中禁用第三方Cookie。 [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=en#id-service-api)、 [disableThirdParty](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=en#id-service-api)Cookies和 [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=en#id-service-api)
+* 将13个月Cookie限制设置为静态日期，而不是滚动。  可使用 `cookieLifetime` 变量取代 Analytics Cookie 有效期。[cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html)
+* 范围有限。Cookie 的范围必须限制在单个网站或应用程序。[浏览器 Cookie](https://experienceleague.adobe.com/docs/analytics/technotes/cookies.html?lang=zh-Hans&quot;\l&quot;third-party-cookie-implementations)
+* 匿名化。将 IP 地址的最后一个八位字节数匿名化。[常规帐户设置](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html)
+* 从报表中隐藏访客 ID。默认情况下访客 ID 在 Adobe Workspace 和 Adobe Reports and Analytics 中不可见。可在数据馈送和 Data Warehouse 中找到访客 ID。[Admin Console 中的“访问权限”](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hans&quot;\l&quot;task_040673FE3E3E429B9531FBCB8B6A4391)可限制对数据馈送和 Data Warehouse 的访问
+* 地理位置参数。地理位置再精确，也达不到邮编级别。[邮编选项](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/zip.html?lang=zh-Hans&quot;\l&quot;zip-in-adobe-experience-platform-launch)和[常规帐户设置](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=zh-Hans&quot;\l&quot;admin-tools)
+* 设置选择加入选项。通过选择加入服务，可设置访客协议以确定在用户访问您的网站时您能否在用户的设备或浏览器上放置 Cookie。[选择加入服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html)
+* 阻止数据共享。要阻止将数据共享到 Adobe Audience Manager，请将 `opt.dmp` 上下文变量用于[隐私报表](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=zh-Hans&quot;\l&quot;variables)以阻止共享点击。
+* 访问和删除功能。将 Privacy Service 用于访问和删除请求。[Analytics 和 Privacy Service](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/an-gdpr-overview.html)
 
-## 数据收集的其他注意事项
+## 关于数据收集的其他注意事项
 
-还有以下其他注意事项：
+另外还涉及以下这些注意事项：
 
-* 未经事先同意，不得在网站或应用程序外进行测量，例如不得在网站外活动、电子邮件活动或iFrames。
-* 未经同意，不得收集变量中的个人信息。
-* 数据仅用于生成匿名统计数据，而不与其他数据结合。
-* 数据不用于交叉引用操作。
-* 未收集GPS地理定位数据。
+* 请考虑在Analytics变量中收集加入状态，以便将选择加入数据与选择退出数据分离，以进行细分、虚拟报表包或路由到单独的端点。
+* 未经事先许可，不得在网站或应用程序之外进行度量，例如不得进行站外营销活动、电子邮件营销活动或嵌入 iframe。
+* 未经许可，不允许收集变量中的个人信息。
+* 数据只能用于生成匿名的统计数据，而不得与其他数据一起使用。
+* 数据不得用于交叉引用操作。
+* 不得收集 GPS 地理位置数据。
+* 在获得最终用户同意后，可以修改上述设置并放宽限制。
 
-有关详细信息，请参阅[CNIL Cookie Exemption](https://www.cnil.fr/en/sheet-ndeg16-use-analytics-your-websites-and-applications)网站。
+有关详细信息，请参阅 [CNIL Cookie 豁免](https://www.cnil.fr/en/sheet-ndeg16-use-analytics-your-websites-and-applications)网站。
