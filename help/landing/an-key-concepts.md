@@ -1,9 +1,9 @@
 ---
 description: 此部分包含 Adobe Analytics 的关键概念、有关这些概念的简要描述，以及提供有关该主题的更多详细信息的特定文档链接。
 title: Adobe Analytics - 关键概念
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1858'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 | 客户历程报表 | 显示有关用户浏览您的网站或应用程序的路径的信息。可以在 Analysis Workspace 中使用 Prop、eVar 和事件进行此类分析。 | [Analysis Workspace 流失](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Analysis Workspace 流量](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Reports and Analytics 路径](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
 | 营销渠道 | 一种报表，可帮助您了解哪些外部渠道驱使用户访问您的网站，以及哪些内容可最有效地促使转化。提供首次和最近联系属性视图。这是 Adobe Analytics 中的首选外部流量源报表（而非促销活动或流量源），因为通过它可以最全面地了解付费和免费渠道。 | [营销渠道](/help/components/c-marketing-channels/c-getting-started-mchannel.md) |
 | 移动设备 | 显示有关从移动设备或平板电脑访问的网站的信息。 | [移动设备报表](/help/components/dimensions/mobile-dimensions.md) |
-| 移动设备应用程序 | 显示与您的移动设备应用程序相关的基本使用信息。只要我们的 SDK 得以实施并且报表处于开启状态，这些报表即可供您使用。此外，Adobe Mobile Services 还创建了一个单独的移动设备应用程序界面，它提供更加全面的应用程序数据，从而允许您了解和改进应用程序的用户参与。在[此处](https://mobilemarketing.adobe.com)访问该界面。 | [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
+| 移动设备应用程序 | 显示与您的移动设备应用程序相关的基本使用信息。只要我们的 SDK 得以实施并且报表处于开启状态，这些报表即可供您使用。此外，Adobe Mobile Services 还创建了一个单独的移动设备应用程序界面，它提供更加全面的应用程序数据，从而允许您了解和改进应用程序的用户参与。在[此处](https://mobilemarketing.adobe.com)访问该界面。 | [Adobe Mobile Services](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html) |
 | 产品 | 识别单个产品和产品组（类别）对各项转化量度（如收入或结账）的贡献情况。 | [产品报表](/help/components/dimensions/product.md) |
 | 区段比较 | 通过自动分析您有权访问的每个量度和维度，发现各区段之间的最显著统计学差异。 | [区段比较](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) |
 | 网站内容报表 | 显示的信息包括网站上哪些页面和区域最为活跃及哪些服务器使用率最高。 | [网站内容报表](/help/components/dimensions/page.md) |
@@ -98,7 +98,7 @@ ht-degree: 100%
 | UI 下载和计划 | 从 Analysis Workspace 中以 CSV 或 PDF 格式导出数据 | [下载 PDF 或 CSV 文件](/help/analyze/analysis-workspace/curate-share/download-send.md) |
 | Report Builder | 请参阅 Analytics 工具。 |  |
 | Analytics API | 创建您自己的自定义 Analytics 数据查询。 | <ul><li>[API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)</li><li>[API 1.4](https://github.com/AdobeDocs/analytics-1.4-apis)</li></ul> |
-| data warehouse | 请参阅 Analytics 工具。 |  |
+| Data Warehouse | 请参阅 Analytics 工具。 |  |
 | Analytics 数据馈送 | 从 Analytics 获取数据的最精细方法。设置来自 Analytics 的点击级别馈送。 | [Analytics 数据馈送](/help/export/analytics-data-feed/data-feed-overview.md) |
 
 ## 数据收集和验证 {#concept_E07350D4CA5047DAA7D81F762F29606A}
@@ -112,5 +112,5 @@ ht-degree: 100%
 | DTM 和 Adobe Launch | 请参阅 Analytics 工具。 |  |
 | VISTA | 允许您在收集数据时应用服务器端逻辑来更改或划分数据。 | [VISTA 规则](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md) |
 | 处理规则 | 能够在 Analytics UI 中设置、修改和复制变量，以更改收集的数据。 | [处理规则](/help/admin/admin/c-processing-rules/processing-rules.md) |
-| 调试器选项 | 有几个调试器和数据包探查器可用于帮助验证您的实施，包括 Adobe Experience Cloud 调试器。 | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en) |
-| 数据插入 API | 数据插入 API 提供了一种机制，可用于收集服务器端数据并将这些数据提交到 Experience Cloud 服务器。服务器端数据收集仅基于 Web 浏览器请求和 Web 服务器响应来收集数据，而不是在每个网页上使用 JavaScript 信标将访客数据传输到 Experience Cloud 服务器。 | [使用 POST 实施 Adobe Analytics 数据插入 API 的步骤](https://helpx.adobe.com/cn/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
+| 调试器选项 | 有几个调试器和数据包探查器可用于帮助验证您的实施，包括 Adobe Experience Cloud 调试器。 | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=zh-Hans) |
+| 数据插入 API | 数据插入 API 提供了一种机制，可用于收集服务器端数据并将这些数据提交到 Experience Cloud 服务器。服务器端数据收集仅基于 Web 浏览器请求和 Web 服务器响应来收集数据，而不是在每个网页上使用 JavaScript 信标将访客数据传输到 Experience Cloud 服务器。 | [使用 POST 实施 Adobe Analytics 数据插入 API 的步骤](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
