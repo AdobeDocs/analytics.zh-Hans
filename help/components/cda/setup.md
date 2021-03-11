@@ -1,10 +1,10 @@
 ---
 title: 设置跨设备分析
 description: 配置虚拟报表包以启用 CDA。
-translation-type: ht
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
-source-wordcount: '477'
+translation-type: tm+mt
+source-git-commit: 97e1c0ac5fbf7f932c3f772c33e7fa8880c653a6
+workflow-type: tm+mt
+source-wordcount: '507'
 ht-degree: 100%
 
 ---
@@ -26,6 +26,7 @@ CDA 是由 Adobe 工程团队在您的跨设备报表包中配置。请联系您
 * 希望通过 CDA 启用的跨设备报表包的报表包 ID
 * 希望使用的 CDA 方法（基于字段的拼合、Adobe 专用图或 Adobe 协作图）
 * 如果要使用基于字段的拼合，请提供包含用户 ID 的 prop 或 eVar
+* 您的重播频率和回顾时间范围首选项。选项包括每周重播一次（回顾时间范围为 7 天）或每天重播一次（回顾时间范围为 1 天）。
 
 向 CSM 提供这些信息后，他们会与 Adobe 工程团队合作，以便启用您选择的报表包来进行 CDA 处理。
 
