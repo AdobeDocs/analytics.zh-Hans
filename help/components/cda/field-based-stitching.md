@@ -2,10 +2,10 @@
 title: 基于字段的拼合
 description: 了解使用基于字段的拼合来拼合数据的先决条件和限制。
 translation-type: tm+mt
-source-git-commit: 7b43c4ebbf9446507ab90a90e26c51635303dcc6
+source-git-commit: beed7ffcc39b9b2628b1487b5e2eac42fa3a94d0
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 68%
+source-wordcount: '499'
+ht-degree: 35%
 
 ---
 
@@ -27,8 +27,14 @@ ht-degree: 68%
 
 ## 基于字段的拼合的特定限制
 
-* 基于字段的拼合最适合具有较高用户标识率的报表包。如果您的报表包的标识率或登录率较低，请考虑使用[协作图](device-graph.md)。
-* 虽然prop和eVar都有处理大写和小写字符以进行报告的规则，但基于字段的拼接不会以任何方式转换用于拼接的prop或eVar。 基于字段的拼接使用指定字段中的值，因为它存在VISTA后规则和后处理规则。 例如，如果prop/eVar中有时出现“Bob”一词，而有时出现“BOB”一词，则这些词将被视为两个单独的人。
+* 基于现场的拼接功能在用户识别/验证率较高的报表包中效果最佳。
+* 虽然prop和eVar都有处理大写和小写字符以进行报告的规则，但基于字段的拼接不会以任何方式转换用于拼接的prop或eVar。 基于字段的拼接使用指定字段中的值，因为它存在VISTA后规则和后处理规则。 拼接过程区分大小写。 例如，如果prop/eVar中有时出现“Bob”一词，而有时出现“BOB”一词，则拼接过程会将这些词视为两个单独的人。
+* 鉴于基于字段的拼接区分大小写，Adobe建议查看适用于用于基于字段的拼接的prop或eVar的任何VISTA规则或处理规则。 需要审查这些规则，以确保这些规则中没有一种引入同一ID的新形式。 例如，您应确保没有VISTA或处理规则将小写引入仅部分点击的prop或eVar。
+* 基于字段的拼接不支持使用多个prop或eVar进行拼接。 例如，如果eVar12包含登录ID，而eVar20包含电子邮件ID，则您必须选择其中一个。
+* 基于字段的拼接不会合并或连接字段(例如，eVar10 + prop5)。
+* prop或eVar应包含单一类型的ID。 例如，prop或eVar不应包含登录ID和电子邮件ID的组合。
+* 如果同一访客的时间戳相同，但拼合prop或eVar中的值不同，则CDA将根据字母顺序进行选择。 因此，如果访客A有两个具有相同时间戳的点击，其中一个点击指定Bob，另一个点击指定Ann，CDA将选择Ann。
+
 
 ## 后续步骤
 
