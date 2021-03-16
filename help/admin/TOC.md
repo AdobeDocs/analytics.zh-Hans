@@ -4,11 +4,11 @@ audience: admin
 user-guide-title: Analytics 管理指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解如何在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '727'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 99%
    + [自定义报表描述](admin/custom-desc-admin.md)
    + [自定义日历](admin/custom-calendar.md)
    + [数据源](admin/data-sources.md)
-   + [默认量度](admin/default-metrics.md)
+   + [默认指标](admin/default-metrics.md)
    + [按 IP 地址排除](admin/exclude-ip.md)
    + [查找方法](admin/finding-methods.md)
    + [一般帐户设置](admin/general-acct-settings-admin.md)
@@ -47,7 +47,7 @@ ht-degree: 99%
    + [日志](admin/logs.md)
    + [营销渠道](admin/marketing-channels-admin.md)
    + [菜单自定义](admin/customize-menus.md)
-   + [量度可见性](admin/metric-visibility.md)
+   + [指标可见性](admin/metric-visibility.md)
    + [应用程序管理](admin/mobile-management.md)
    + 付费搜索检测 {#paid-search-detection}
       + [付费搜索检测概述](admin/paid-search-detection/paid-search-detection.md)
@@ -83,7 +83,7 @@ ht-degree: 99%
    + 实时报表 {#real-time-reports}
       + [实时报表概述](admin/realtime/realtime.md)
       + [实时报表配置](admin/realtime/t-realtime-admin.md)
-      + [受支持的实时量度和维度](admin/realtime/realtime-metrics.md)
+      + [受支持的实时指标和维度](admin/realtime/realtime-metrics.md)
    + [计划报表队列](admin/scheduled-reports-admin.md)
    + 服务器端转发 {#server-side-forwarding}
       + [服务器端转发概述](admin/c-server-side-forwarding/ssf.md)
@@ -170,13 +170,13 @@ ht-degree: 99%
       + [自定义报表访问 - 概述](user-management2/c-customize-report-access/groups-customize-report-access.md)
       + [自定义 Analytics 工具权限](user-management2/c-customize-report-access/groups-analytics-tools.md)
       + [自定义报表包工具权限](user-management2/c-customize-report-access/groups-report-suite-tools.md)
-      + [自定义量度权限](user-management2/c-customize-report-access/groups-metrics.md)
+      + [自定义指标权限](user-management2/c-customize-report-access/groups-metrics.md)
       + [自定义维度权限](user-management2/c-customize-report-access/groups-dimensions.md)
    + [电子邮件用户](user-management2/t-email-users.md)
 + 数据管理 {#data-governance}
    + [Adobe Analytics 和 GDPR](c-data-governance/an-gdpr-overview.md)
    + [Adobe Analytics 和 CCPA](c-data-governance/an-ccpa-overview.md)
-   + [CNIL同意豁免](c-data-governance/cnil-consent-exemption.md)
+   + [CNIL 准许豁免](c-data-governance/cnil-consent-exemption.md)
    + [常见问题解答](c-data-governance/gdpr-faq.md)
    + [Adobe Analytics 数据隐私工作流程](c-data-governance/an-gdpr-workflow.md)
    + [查看/管理报表包的数据管理设置](c-data-governance/gdpr-view-settings.md)
