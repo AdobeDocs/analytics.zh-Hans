@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
 source-wordcount: '502'
-ht-degree: 83%
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 83%
 
 * 对同一个报表中的两个不同区段执行逐项比较。
 * 拖放和重新排列漏斗步骤（接触点）
-* 混合和匹配来自不同维度和量度的值
+* 混合和匹配来自不同维度和指标的值
 * 创建多维度流失报表
 * 识别客户在流失之后马上前往何处
 
@@ -33,11 +33,11 @@ ht-degree: 83%
 * 一般、更宽范围的流量：显示在查看主页的访客中，有多少人继续进行搜索及有多少人最终查看特定项目。
 * 网站上事件之间的关联。显示查看隐私政策后继续购买产品的访客百分比。
 
-[流失可视化视频教程](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
+[流失可视化视频教程](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html)（4 分 15 秒）
 
-## 区段划分：流量和流失的一项基本功能 {#section_654F37A398C24DDDB1552A543EE29AA9}
+## 分段作为流量和流失的基础{#section_654F37A398C24DDDB1552A543EE29AA9}
 
-应用于Workspace面板的区段的工作方式与应用于Reports &amp; Analytics中流失和流量报表的区段略有不同。 大多数时间，它们产生的结果完全一致。主要区别在于Reports &amp; Analytics在序列的每个步骤中应用区段。 由于这一区别，产生的结果有时可能会略有不同。
+应用于 Workspace 面板的区段与应用于 Reports &amp; Analytics 中流失和流量报表的区段在工作方式上略有不同。大多数时间，它们产生的结果完全一致。主要区别是 Reports &amp; Analytics 在序列的每一步应用区段。由于这一区别，产生的结果有时可能会略有不同。
 
 我们以两个步骤的流失分析为例：
 
@@ -47,13 +47,13 @@ ht-degree: 83%
 
 ![](assets/fallout_seg.png)
 
-相反，在Reports &amp; Analytics计算区段时，区段会按以下方式组合：
+相比之下，当 Reports &amp; Analytics 计算该区段时，按此方式合并该区段：
 
 ![](assets/fallout_segments3.png)
 
-Reports &amp; Analytics将细分与每个步骤相结合。 如果容器级别和流失级别（例如访问次数或访客数级别）相同，则结果会与访问次数或访客数相匹配。
+Reports &amp; Analytics 每一步都合并该区段。如果容器级别和流失级别（例如访问次数或访客数级别）相同，则结果会与访问次数或访客数相匹配。
 
-但是，如果应用到面板的区段比流失级别（如点击次数级别）低，则区段会因为其在报表中结合使用的方式不同而显示出不同的结果。重申，在大多数情况下，Analysis Workspace中的数字与Reports &amp; Analytics中的数字相符。 仅当以下所有情况都符合时，它们之间才会存在&#x200B;**不**&#x200B;匹配的情形：
+但是，如果应用到面板的区段比流失级别（如点击次数级别）低，则区段会因为其在报表中结合使用的方式不同而显示出不同的结果。为了重新迭代，大多数情况下 Analysis Workspace 中的数字都与 Reports &amp; Analytics 中的相同。只有以下情况全部属实，它们才&#x200B;**不**&#x200B;相同：
 
 * 区段和流失不在同一级别。
 * 区段存在变数，即一次访问可能有不同的访客数量，或一位访客可能有不同的访问次数。
