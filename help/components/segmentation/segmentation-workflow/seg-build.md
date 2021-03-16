@@ -1,20 +1,20 @@
 ---
-description: 区段生成器提供了一个画布以将量度维度、区段和事件拖放到其中，从而根据容器层次结构逻辑、规则和运算符划分访客。通过使用该集成开发工具，您可以生成和保存简单或复杂的区段，以确定跨访问和页面点击的访客属性和操作。
+description: 区段生成器提供了一个画布以将指标维度、区段和事件拖放到其中，从而根据容器层次结构逻辑、规则和运算符划分访客。通过使用该集成开发工具，您可以生成和保存简单或复杂的区段，以确定跨访问和页面点击的访客属性和操作。
 title: 生成区段
 topic: 区段
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2040'
 ht-degree: 100%
 
 ---
 
 
-# 区段生成器
+# Segment Builder
 
-通过使用[!UICONTROL 区段生成器]，您可以生成和保存简单或复杂的区段，以确定跨访问和页面点击的访客属性和操作。它提供了一个画布以将量度维度、事件或其他区段拖放到其中，从而根据层次结构逻辑、规则和运算符分段访客。
+通过使用[!UICONTROL 区段生成器]，您可以生成和保存简单或复杂的区段，以确定跨访问和页面点击的访客属性和操作。它提供了一个画布以将指标维度、事件或其他区段拖放到其中，从而根据层次结构逻辑、规则和运算符分段访客。
 
 访问区段生成器的方法有以下几种：
 
@@ -37,11 +37,11 @@ ht-degree: 100%
 1. **[!UICONTROL 选项]**：（齿轮）图标
 
    * **[!UICONTROL + 添加容器]**：用于向区段定义添加新容器（在顶级容器下）。
-   * **[!UICONTROL 排除]**：用于通过排除一个或多个维度、区段或量度来定义区段。
+   * **[!UICONTROL 排除]**：用于通过排除一个或多个维度、区段或指标来定义区段。
 
 1. **[!UICONTROL 维度]**：从维度列表中拖放的组件（橙色侧栏）。
 1. **[!UICONTROL 运算符]**：您可以使用选定的运算符比较和约束值。
-1. **[!UICONTROL 值]**：为维度、区段或量度输入或选择的值。
+1. **[!UICONTROL 值]**：为维度、区段或指标输入或选择的值。
 1. **[!UICONTROL 归因模型]**：这些模型仅可用于维度，它们确定要划分区段的维度值。维度模型在连续分段中特别有用。
 
    * **[!UICONTROL 重复]**（默认）：包含维度的实例和保留值。
@@ -58,26 +58,26 @@ ht-degree: 100%
    | 实例 | X | X | - | - | X | - |
    | 非重复实例 | X | - | - | - | X | - |
 1. **[!UICONTROL And/Or/Then]**：在容器或规则之间分配 [!UICONTROL AND/OR/THEN] 运算符。通过使用 THEN 运算符，您可以[定义顺序区段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)。
-1. **[!UICONTROL 量度]**：（绿色侧栏）从量度列表中拖放的量度。
+1. **[!UICONTROL 指标]**：（绿色侧栏）从指标列表中拖放的指标。
 1. **[!UICONTROL 比较]**&#x200B;运算符：您可以使用选定的运算符比较和约束值。
-1. **[!UICONTROL 值]**：为维度、区段或量度输入或选择的值。
+1. **[!UICONTROL 值]**：为维度、区段或指标输入或选择的值。
 1. **[!UICONTROL X]**：（删除）用于删除此部分区段定义。
-1. **[!UICONTROL Experience Cloud 发布]**：将 Adobe Analytics 区段发布到 Experience Cloud 后，您可以将该区段用于 [!DNL Audience Manager] 和其他活动渠道中的营销活动。[了解更多...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL 受众库]**：Adobe 的受众服务可管理访客数据到受众区段的转换。因此，创建和管理受众与创建和使用区段类似，只是前者增加了一项将受众区段共享到 Experience Cloud 的功能。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/audiences/audience-library.html)
-1. **[!UICONTROL 搜索]**：搜索维度、区段或量度列表。
+1. **[!UICONTROL Experience Cloud 发布]**：将 Adobe Analytics 区段发布到 Experience Cloud 后，您可以将该区段用于 [!DNL Audience Manager] 和其他活动渠道中的营销活动。[了解详情...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
+1. **[!UICONTROL 受众库]**：Adobe 的受众服务可管理访客数据到受众区段的转换。因此，创建和管理受众与创建和使用区段类似，只是前者增加了一项将受众区段共享到 Experience Cloud 的功能。[了解详情...](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/audiences/audience-library.html)
+1. **[!UICONTROL 搜索]**：搜索维度、区段或指标列表。
 1. **[!UICONTROL 维度]**：（列表）单击标题可展开。
-1. **[!UICONTROL 量度]**：单击标题可展开。
+1. **[!UICONTROL 指标]**：单击标题可展开。
 1. **[!UICONTROL 区段]**：单击标题可展开。
 1. **[!UICONTROL 报表包选择器]**：用于选择保存此区段的报表包。您仍可以在所有报表包中使用该区段。
-1. **[!UICONTROL 区段预览]**：用于预览关键量度，以确定是否具有有效的区段以及区段的广泛程度。表示应用此区段时预期的数据集划分。显示 3 个同心圆和一个列表，以显示针对数据集运行的区段的[!UICONTROL 点击]、[!UICONTROL 访问]和[!UICONTROL 访客]的匹配项数量和百分比。在创建区段定义或对区段定义做出更改之后，将立即更新此图表。
-1. **[!UICONTROL 产品兼容性]**：提供与您创建的区段兼容的 Adobe Analytics 产品（Analysis Workspace、[!UICONTROL Reports &amp; Analytics]、Data Warehouse）的列表。大多数区段与所有产品都兼容。但是，并非所有运算符和维度都与 Analytics 的所有产品兼容，特别是 [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md)。在对区段定义做出更改之后，将立即更新此图表。
+1. **[!UICONTROL 区段预览]**：用于预览关键指标，以确定是否具有有效的区段以及区段的广泛程度。表示应用此区段时预期的数据集划分。显示 3 个同心圆和一个列表，以显示针对数据集运行的区段的[!UICONTROL 点击]、[!UICONTROL 访问]和[!UICONTROL 访客]的匹配项数量和百分比。在创建区段定义或对区段定义做出更改之后，将立即更新此图表。
+1. **[!UICONTROL 产品兼容性]**：列出与您创建的区段兼容的 Adobe Analytics 产品（Analysis Workspace、[!UICONTROL Reports &amp; Analytics]、Data Warehouse）。大多数区段与所有产品都兼容。但是，并非所有运算符和维度都与 Analytics 的所有产品兼容，特别是 [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md)。在对区段定义做出更改之后，将立即更新此图表。
 1. **[!UICONTROL 保存]**&#x200B;或&#x200B;**[!UICONTROL 取消]**：保存或取消区段。单击&#x200B;**[!UICONTROL 保存]**&#x200B;之后，将转到区段管理器，您可以在此处管理区段。
 
 嵌入了日期范围的区段会继续以不同的方式在 Analysis Workspace 与 [!UICONTROL Reports &amp; Analytics] 中运行：在“工作区”中，嵌入了日期范围的区段会覆盖面板日期范围。相反，[!UICONTROL Reports &amp; Analytics] 会显示报表日期范围和区段嵌入日期范围的交集。
 
 ## 生成区段 {#build-segments}
 
-1. 只需将维度、区段或量度事件从左侧窗格拖动到[!UICONTROL 定义]字段。
+1. 只需将维度、区段或指标事件从左侧窗格拖动到[!UICONTROL 定义]字段。
 
    ![](assets/drag_n_drop_dimension.png)
 
@@ -118,7 +118,7 @@ ht-degree: 100%
 
 例如，您可以轻松生成一个区段，包含“过去 60 天中购买过产品的用户”。
 
-您可以创建一个访问容器，并在其中添加“[!UICONTROL 最近 60 天]”时间范围和量度“[!UICONTROL 订单大于或等于 1]”，以及一个 AND 运算符：
+您可以创建一个访问容器，并在其中添加“[!UICONTROL 最近 60 天]”时间范围和指标“[!UICONTROL 订单大于或等于 1]”，以及一个 AND 运算符：
 
 ![](assets/date-ranges.png)
 
@@ -204,7 +204,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> 查看的产品未添加到购物车 </td> 
-   <td colname="col2">查看浏览了产品但未添加到购物车的访客的数据。在区段定义中，容器为访问。此顺序区段的规则为 <p>产品查看不为空 </p> <p>然后 </p> <p> 购物车加货等于 0。 </p> </td> 
+   <td colname="col2">查看浏览了产品但未添加到购物车的访客的数据。在区段定义中，容器为访问。此顺序区段的规则为 <p>产品查看不为空 </p> <p>Then </p> <p> 购物车加货等于 0。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 来自促销活动的访问量 </td> 
