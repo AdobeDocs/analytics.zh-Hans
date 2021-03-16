@@ -3,11 +3,11 @@ description: 您可以使用区段根据特性或网站交互来确定访客子�
 title: 关于区段和容器
 topic: 区段
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3700'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 区段基于使用嵌套容器模型的[!UICONTROL 访客]、[!UICONTROL 访问]和[!UICONTROL 点击]级别层次结构。您可以使用嵌套容器根据各容器之间和容器内的规则定义访客属性和操作。可在 [!DNL Adobe Experience Cloud] 的多个产品和功能中生成、批准、共享、保存和运行 Analytics 区段。区段可通过报表生成、可内建于功能板报表中，或添加书签以便快速访问。
 
-您可以在区段生成器中构建和保存区段，或从流失报表(在 Analysis Workspace中)生成区段。 还可以根据嵌套容器之间的特定规则采用和扩展预先生成的区段，从而可以过滤结果并应用于报表。此外，区段还可以结合在一起作为[堆叠区段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)使用。
+可在 Segment Builder 中构建和保存区段，也可从流失报表（在  Analysis Workspace 中）生成区段。还可以根据嵌套容器之间的特定规则采用和扩展预先生成的区段，从而可以过滤结果并应用于报表。此外，区段还可以结合在一起作为[堆叠区段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)使用。
 
 ## 区段 {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
@@ -39,7 +39,7 @@ ht-degree: 98%
 
 此类型的区段根据使用 [!UICONTROL AND] 和 [!UICONTROL OR] 运算符联接的特性过滤数据集。
 
-## 顺序区段  {#section_EE5B14287FC44E0B96E77679A2438948}
+## 顺序区段 {#section_EE5B14287FC44E0B96E77679A2438948}
 
 通过使用顺序区段，您可以根据站点中的导航和页面查看识别访客，为定义的操作和交互提供了一个区段。顺序区段可帮助您识别访客喜欢和避开的内容。生成顺序区段时，使用 [!UICONTROL THEN] 运算符来定义和排序访客导航。
 
@@ -60,7 +60,7 @@ ht-degree: 98%
 
 ## 操作方法视频 {#section_89D6184890AF4086A8056BFBB0B68C29}
 
-此视频简要概述了哪些细分容器以及如何使用它们：[Adobe Analytics中的区段容器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-containers.html)
+这段视频简要概述了区段容器是什么及其使用方式：[Adobe Analytics 中的区段容器](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/components/segmentation/segment-containers.html)
 
 ## 关于容器 {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
@@ -89,8 +89,8 @@ ht-degree: 98%
 * 访问量
 * 登录页面
 * 回访频度
-* 参与量度
-* 线性分配的量度
+* 参与指标
+* 线性分配的指标
 
 **点击容器**
 
@@ -242,8 +242,8 @@ Country = United States + Order = True
 
 * **登录页面 =“产品”页面的点击容器**：每一页都与访问的登录页面关联，从而使其以访问为基础进行划分。使用此区段不仅将登录页面加为“产品”页面，还加入该访问中的所有点击。
 * **列表变量包含值 A 的点击容器**：如果同一点击上有多个值被定义为列表变量，那么所有变量值都将包含在区段中。无法将同一页面查看中的值分开，因为点击容器是划分点击的最小区段容器。
-* **页面 =“购买”的点击容器**：如果将页面查看用作量度，那么只显示“购买”页面（预期）。如果使用“收入参与”报表，那么首次访问中的所有页面都将收到 $100，因为参与量度是以访问为基础的。
-* **页面 =“冬季外套”的点击容器**：如果将页面查看用作量度，那么只显示“冬季外套”页面（预期）。如果使用“收入参与”报表，那么没有页面会收到信用，因为此维度需要一个保持不变的维度。实际执行购买（“购买”页面）的页面查看不会包含在点击容器内，所以不会对任何项目提供收入参与。但是，从访问容器运行报表将包含该访问内所有的页面查看，也将为会话内查看的所有页面分配收入参与 ($100)。
+* **页面 =“购买”的点击容器**：如果将页面查看用作指标，那么只显示“购买”页面（预期）。如果使用“收入参与”报表，那么首次访问中的所有页面都将收到 $100，因为参与指标是以访问为基础的。
+* **页面 =“冬季外套”的点击容器**：如果将页面查看用作指标，那么只显示“冬季外套”页面（预期）。如果使用“收入参与”报表，那么没有页面会收到信用，因为此维度需要一个保持不变的维度。实际执行购买（“购买”页面）的页面查看不会包含在点击容器内，所以不会对任何项目提供收入参与。但是，从访问容器运行报表将包含该访问内所有的页面查看，也将为会话内查看的所有页面分配收入参与 ($100)。
 
 ## 跨容器持续性 {#concept_E579D72B1C644AE9A4C4EAF6B47A4DCB}
 
