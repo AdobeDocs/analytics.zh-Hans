@@ -1,20 +1,20 @@
 ---
-title: 什么是同期群分析，它如何工作？
-description: 深入挖掘受众相关数据，利用同期群分析细分相关群组。 了解 Analysis Workspace 中的同类群组分析.
-translation-type: tm+mt
+title: 同类群组分析是什么及其如何工作？
+description: 用同类群组分析更深入地挖掘您受众周围的数据并细分为相关的各组。了解 Analysis Workspace 中的同类群组分析。
+translation-type: ht
 source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
-# 了解Adobe Analytics中的[!UICONTROL 队列分析]
+# 了解 Adobe Analytics 中的[!UICONTROL 同类群组分析]
 
-*`cohort`* 是指一组在特定期限内共享相同特性的人员。例如，在您想了解如何让一个同类群组喜欢某个品牌时，[!UICONTROL 同类群组分析]就能派上用场。您可以轻松识别趋势中的变化，然后相应地采取回应。（网上提供了有关[!UICONTROL 同类群组分析]的解释说明，例如[同类群组分析基础](https://en.wikipedia.org/wiki/Cohort_analysis)。）
+*`cohort`* 是指一组在特定期限内共享相同特性的人员。例如，在您想了解如何让一个同类群组喜欢某个品牌时，[!UICONTROL 同类群组分析]就能派上用场。您可以轻松识别趋势中的变化，然后相应地采取回应。（网上提供了有关[!UICONTROL 同类群组分析]的解释说明，例如[同类群组分析基础](https://zh.wikipedia.org/wiki/Cohort_analysis)。）
 
-创建队列报表后，您可以组织其组件（特定的维度、量度和区段），然后可以与其他任何人员共享这份队列报表。请参阅[策划与共享](/help/analyze/analysis-workspace/curate-share/curate.md)。
+创建队列报表后，您可以组织其组件（特定的维度、指标和区段），然后可以与其他任何人员共享这份队列报表。请参阅[策划与共享](/help/analyze/analysis-workspace/curate-share/curate.md)。
 
 使用[!UICONTROL 同类群组分析]可以实现的作用（示例）：
 
@@ -26,14 +26,14 @@ ht-degree: 90%
 
 [!UICONTROL 同类群组分析]适用于具有 [!UICONTROL Analysis Workspace] 访问权限的所有 Adobe Analytics 客户。
 
-[队列分析视频教程](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
+[同类群组分析视频教程](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html)（4 分 36 秒）
 
 >[!IMPORTANT]
 >
 >[!UICONTROL 同类群组分析]
 >
->不支持不可分段的量度（包括计算量度）、非整数量度（如收入）以及“发生次数”量度。只有可在区段中使用的量度才能用于
->[!UICONTROL 同类群组分析]，并且这些量度一次只能增加 1 个单位。
+>不支持不可分段的指标（包括计算指标）、非整数指标（如收入）以及“发生次数”指标。只有可在区段中使用的指标才能用于
+>[!UICONTROL 同类群组分析]，并且这些指标一次只能增加 1 个单位。
 
 ## 同类群组分析功能
 
@@ -41,13 +41,13 @@ ht-degree: 90%
 
 ### [!UICONTROL 维系率表]
 
-[!UICONTROL 维系]同类群组报表返回访客：每个数据单元格显示了同类群组中在该时间段内执行操作的访客原始数量和百分比。您最多可以包含 3 个量度和 10 个区段。
+[!UICONTROL 维系]同类群组报表返回访客：每个数据单元格显示了同类群组中在该时间段内执行操作的访客原始数量和百分比。您最多可以包含 3 个指标和 10 个区段。
 
 ![](assets/retention-report.png)
 
 ### [!UICONTROL 流失率表]
 
-[!UICONTROL 流失率]同类群组与维系率表完全相反，会显示随着时间的推移，您的同类群组中已流失或从不满足回访标准的访客。您最多可以包含 3 个量度和 10 个区段。
+[!UICONTROL 流失率]同类群组与维系率表完全相反，会显示随着时间的推移，您的同类群组中已流失或从不满足回访标准的访客。您最多可以包含 3 个指标和 10 个区段。
 
 ![](assets/churn-report.png)
 
