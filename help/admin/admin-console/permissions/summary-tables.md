@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
 source-wordcount: '1243'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 98%
 | 成本 | x |  |  |  | 授予对报表包管理器中“营销渠道”>“营销渠道成本”的访问权限。 |
 | 自定义日历 | x |  |  |  | 授予对报表包管理器中“常规”>“自定义日历”的访问权限。 |
 | 数据馈送管理器 | x |  |  |  | 授予对 Analytics 顶部导航栏中“管理员”>“数据馈送”的访问权限。 |
-| 数据修复 API | x |  |  |  | 授予对数据修复API的访问权 |
+| 数据修复 API | x |  |  |  | 授予对数据修复 API 的访问权 |
 | 数据源管理器 | x |  |  |  | 授予对 Analytics 顶部导航栏中“管理员”>“数据源”的访问权限。需要使用权限项“报表包管理”。 |
-| 默认量度 | x |  |  |  | 授予对报表包管理器中“单个报表包设置”>“默认量度”的访问权限。 |
+| 默认指标 | x |  |  |  | 授予对报表包管理器中“单个报表包设置”>“默认指标”的访问权限。 |
 | 按 IP 地址排除 | x |  |  |  | 授予对 Analytics 顶部导航栏中“管理员”>“按 IP 排除”的访问权限。 |
 | 查找方法 | x |  |  |  | 授予对报表包管理器中“转化”>“查找方法”的访问权限。 |
 | 列表变量 | x |  |  |  | 授予对报表包管理器中“转化”>“列表变量”的访问权限。 |
@@ -43,12 +43,12 @@ ht-degree: 98%
 | 异常检测 |  | x |  |  | 授予对 Analysis Workspace 中“异常检测”的访问权限。 |
 | 贡献分析 |  | x |  |  | 授予对 Analysis Workspace 中右键单击式菜单“运行贡献分析”的访问权限。 |
 | 自定义 Data Warehouse 报表 |  | x |  |  | 授予对 Analytics 顶部导航栏中“工具”>“Data Warehouse”的访问权限。 |
-| 机器人页面 |  |  | x |  | 授予对 Reports &amp; Analytics 中“网站量度”>“机器人”>“机器人页面报告”的访问权限。 |
-| 机器人 |  |  | x |  | 授予对 Reports &amp; Analytics 中“网站量度”>“机器人”>“机器人报告”的访问权限。 |
+| 机器人页面 |  |  | x |  | 授予对 Reports &amp; Analytics 中“网站指标”>“机器人”>“机器人页面报告”的访问权限。 |
+| 机器人 |  |  | x |  | 授予对 Reports &amp; Analytics 中“网站指标”>“机器人”>“机器人报告”的访问权限。 |
 | 渠道报表 |  |  | x |  | 授予对 Reports &amp; Analytics 中“营销渠道”>“渠道概述报告”的访问权限。 |
 | 每日回访 |  |  | x |  | 授予对 Reports &amp; Analytics 中“访客维系”>“每日回访”的访问权限。 |
-| 我的推荐报表 |  |  | x |  | 授予对 Reports &amp; Analytics 中“网站量度”>“我的推荐报表”的访问权限。 |
-| 实时报表 |  |  | x |  | 授予对 Reports &amp; Analytics 中“网站量度”>“实时报表”的访问权限。使用权限项“实时报表配置”授予对此报表的设置权限。 |
+| 我的推荐报表 |  |  | x |  | 授予对 Reports &amp; Analytics 中“网站指标”>“我的推荐报表”的访问权限。 |
+| 实时报表 |  |  | x |  | 授予对 Reports &amp; Analytics 中“网站指标”>“实时报表”的访问权限。使用权限项“实时报表配置”授予对此报表的设置权限。 |
 | 回访 |  |  | x |  | 授予对 Reports &amp; Analytics 中“访客维系”>“回访”的访问权限。 |
 | Advertising Analytics 配置 |  |  |  | x | 未使用。 |
 | 公司概要报表 |  |  |  | x | 未使用。 |
@@ -89,10 +89,10 @@ ht-degree: 98%
 | 流量管理 | x |  |  |  | 授予对“管理员”>“流量管理”的访问权限。 |
 | Web 服务 | x |  |  |  | 授予对“管理员”>“公司设置”>“Web 服务”的访问权限。 |
 | Activity Map |  | x |  |  | 授予对“工具”>“Activity Map”的访问权限。允许用户使用 Activity Map 扩展。 |
-| Ad Hoc Analysis 许可用户 |  | x |  |  | Ad Hoc Analysis已经停业了。 [更多信息](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
+| Ad Hoc Analysis 许可用户 |  | x |  |  | Ad Hoc Analysis 的产品寿命已结束。[更多信息](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
 | Analysis Workspace 访问权限 |  | x |  |  | 授予对 Analysis Workspace 的访问权限。用户必须属于此组（首选）或“Reports &amp; Analytics 访问权限”组，才能使用 Adobe Analytics。 |
 | Analysis Workspace：另存为模板 |  | x |  |  | 授予对 Analysis Workspace 中“项目”>“另存为模板”的访问权限。 |
-| 计算量度创建 |  | x |  |  | 允许在所有 Analytics 功能中创建计算量度。 |
+| 计算指标创建 |  | x |  |  | 允许在所有 Analytics 功能中创建计算指标。 |
 | Labs 访问权限 |  | x |  |  | 授予对 Labs 的访问权限。 |
 | Report Builder |  | x |  |  | 启用“工具”>“Report Builder”下的“下载”按钮，并允许用户在 Microsoft Excel 中进行身份验证。 |
 | 区段创建 |  | x |  |  | 允许在所有 Analytics 功能中创建区段并在功能之间共享区段。 |
