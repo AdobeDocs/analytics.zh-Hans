@@ -1,16 +1,16 @@
 ---
-description: 在此详细指南中发现您可以使用Advertising Analytics完成的一切，包括所需权限以及可用的维度和量度。
-title: Advertising Analytics指南
-translation-type: tm+mt
+description: 在这个详细的指南中探索可用 Advertising Analytics 做的一切事情，包括所需的权限以及可用的维度和指标。
+title: Advertising Analytics 指南
+translation-type: ht
 source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1282'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Advertising Analytics指南
+# Advertising Analytics 指南
 
 通过 Advertising Analytics，您可以在 Adobe Analytics 中并排查看您在 Google 和 Bing 上的所有付费搜索数据。以前，您必须在 Adobe Advertising Cloud (AMO) 或 Google/Bing 中查看所有 Google AdWords/DFA 或 Microsoft Bing Ads 数据。现在，您可以在 Adobe Analytics 中直接从搜索引擎获取以下数据：展示次数、点击次数、成本、质量分数、平均位置以及 AMO ID 实例数（点击实例数）。
 
@@ -69,17 +69,17 @@ Analytics 有两种权限，可自动授予给 Analytics 管理员。然后，�
  </tbody> 
 </table>
 
-## Advertising Analytics 维度和量度 {#section_C0DF4A08EA9E46ADABE9E465AFC11E32}
+## Advertising Analytics 维度和指标 {#section_C0DF4A08EA9E46ADABE9E465AFC11E32}
 
-Advertising Analytics 可将以下维度和量度添加到 Analysis Workspace、Reports &amp; Analytics、Report Builder 和 Analytics 报表 API。
+Advertising Analytics 可将以下维度和指标添加到 Analysis Workspace、Reports &amp; Analytics、Report Builder 和 Analytics Reporting API。
 
 **维度**
 
 >[!IMPORTANT]
 >
->这项集成可通过 AMO ID 变量的分类创建一组新维度。这些新的维度不会影响或修改您现有的营销渠道或促销活动跟踪变量维度。当访客通过付费搜索广告登陆网站时，AMO ID 会连接到访客配置文件。因此，AMO 维度不仅可用于划分由此集成提供的 AMO 量度，还可以划分由访客在下游捕获的任何数据（访问次数、访客数、页面查看次数、跳出率、订单数、收入、自定义事件数等等）。在报告其他本地量度时，它们也可以按照其他维度进行划分。
+>这项集成可通过 AMO ID 变量的分类创建一组新维度。这些新的维度不会影响或修改您现有的营销渠道或促销活动跟踪变量维度。当访客通过付费搜索广告登陆网站时，AMO ID 会连接到访客配置文件。因此，AMO 维度不仅可用于划分由此集成提供的 AMO 指标，还可以划分由访客在下游捕获的任何数据（访问次数、访客数、页面查看次数、跳出率、订单数、收入、自定义事件数等等）。在报告其他本地指标时，它们也可以按照其他维度进行划分。
 >
->这些量度的分类每天更新一次。因此，如果您在搜索引擎中更改元数据，那么您可能要在这些分类更新后的第二天才能看到这些更改。
+>这些指标的分类每天更新一次。因此，如果您在搜索引擎中更改元数据，那么您可能要在这些分类更新后的第二天才能看到这些更改。
 
 | 分类（维度）名称 | 定义 |
 |--- |--- |
@@ -102,20 +102,20 @@ Advertising Analytics 可将以下维度和量度添加到 Analysis Workspace、
 | 优化 (AMO ID) | Advertising Analytics 不使用此功能。此功能仅由 Advertising Cloud 客户使用。 |
 | 设备 (AMO ID) | 当前未使用。这是一个占位符，用于将来可能针对广告（非访客的实际设备）的指定目标设备类型（例如移动设备、桌面设备）实施的产品增强功能。 |
 
-**量度**
+**指标**
 
 >[!IMPORTANT]
 >
->Advertising Analytics 提供的量度（如下所列）是来自搜索引擎的概要级别的数据。它们未连接到 Analytics 访客配置文件。它们仅连接到 AMO ID 变量及其关联的分类维度。因此，不应根据 AMO ID 维度以外的任何维度/区段对这些量度进行报告。这样做会导致 Analytics 将这些数据都显示为零。您可以将它们与其他量度一起纳入计算量度中，但这些计算量度也只应按照 AMO ID 维度进行划分。
+>Advertising Analytics 提供的指标（如下所列）是来自搜索引擎的概要级别的数据。它们未连接到 Analytics 访客配置文件。它们仅连接到 AMO ID 变量及其关联的分类维度。因此，不应根据 AMO ID 维度以外的任何维度/区段对这些指标进行报告。这样做会导致 Analytics 将这些数据都显示为零。您可以将它们与其他指标一起纳入计算指标中，但这些计算指标也只应按照 AMO ID 维度进行划分。
 >
->这些量度是每日收集的数据，因此不会有当天的数据。也不应以低于每日的粒度对其进行报告。
+>这些指标是每日收集的数据，因此不会有当天的数据。也不应以低于每日的粒度对其进行报告。
 >
->登陆页面上设置 AMO ID 时，会设置一个 AMO ID 实例数量度（即点进次数）。此量度是在发生登陆页面点击时实时捕获的，可用来与其他也在登陆页面上设置的维度一起进行划分。
+>登陆页面上设置 AMO ID 时，会设置一个 AMO ID 实例数指标（即点进次数）。此指标是在发生登陆页面点击时实时捕获的，可用来与其他也在登陆页面上设置的维度一起进行划分。
 
-| 量度名称 | 定义 |
+| 指标名称 | 定义 |
 |--- |--- |
 | AMO 展示次数 | 搜索引擎所报告的广告展示次数。 |
 | AMO 点击次数 | 搜索引擎所报告的广告点击次数。 |
 | AMO 成本 | 搜索引擎所报告的每个关键字/广告的成本花费。 |
-| 平均位置 | 一个计算量度，可反映搜索引擎所报告的广告的平均位置。 |
-| 平均质量分数 | 一个计算量度，可反映搜索引擎所报告的平均质量分数。 |
+| 平均位置 | 一个计算指标，可反映搜索引擎所报告的广告的平均位置。 |
+| 平均质量分数 | 一个计算指标，可反映搜索引擎所报告的平均质量分数。 |
