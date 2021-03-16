@@ -3,11 +3,11 @@ description: 区段管理器提供了许多种管理区段的方式，如共享�
 title: 管理区段
 topic: 区段
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Analytics 区段管理器显示了您拥有的所有区段以及共享给您的�
 
 ## 操作方法视频 {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-这个 [Adobe Analytics 视频](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html)简要概述了区段管理器的使用方法。
+这段 [Adobe Analytics 视频](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html)简要概述了区段管理器的使用方法。
 
 ## 区段管理器用户界面 {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
