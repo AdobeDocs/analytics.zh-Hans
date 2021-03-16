@@ -3,9 +3,9 @@ description: 描述了使用区段生成器创建并通过区段管理器管理�
 title: 分段工作流程概述
 topic: 区段
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ seg_workflow.xml
 
 ![](assets/step3_icon.png)[ 标记区段](/help/components/segmentation/segmentation-workflow/seg-tag.md)
 
-标记区段以便于组织和共享。请参阅如何规划和分配标记以进行简单和高级搜索和组织。
+为区段加标签便于整理和共享。请参阅如何规划和分配标签以进行简单和高级搜索和整理。
 
 ![](assets/step4_icon.png)[ 批准区段](/help/components/segmentation/segmentation-workflow/seg-approve.md)
 
