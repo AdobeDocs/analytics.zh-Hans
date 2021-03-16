@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
 source-wordcount: '2078'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 97%
 * 区段对于所有报表包都是通用的。
 * [区段生成器](/help/components/segmentation/segmentation-workflow/seg-workflow.md)简化了区段的创建过程。
 * 您可以通过[区段管理器](/help/components/segmentation/segmentation-workflow/seg-workflow.md)中的区段共享、标记、验证和批准功能，来设置[工作流程](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
-* 您可以[标记区段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)，以便稍后进行组织和搜索，而无需使用文件夹。
-* 您可以创建[顺序区段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)。
+* 可[为区段加标签](/help/components/segmentation/segmentation-workflow/seg-workflow.md)代替使用文件夹以稍后整理和搜索。
+* 可创建[顺序区段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)。
 * 页面查看容器已重命名为“点击”容器，以表示该容器可分段所有类型的数据，而不仅仅是页面查看。例如，点击容器完全包含或排除链接跟踪调用和移动 SDK 中的 trackAction 调用。请注意，此容器的运行方式并没有发生任何更改，只是进行了重命名。
 
 请参阅 Digital Marketing Blog（数字营销博客）上的帖子“[Improving Segmentation in Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/)”（改善 Adobe Analytics 中的分段），了解更多详细信息。
@@ -86,11 +86,11 @@ Reports &amp; Analytics 中的区段下拉菜单已被功能更加丰富的[区�
 
 **我可以在区段管理器中管理所有 Analytics 区段吗？**
 
-是，所有区段都可以在区段管理器中进行管理。 区段管理器显示对所有者（创建区段的用户）、共享用户和管理员用户可见的区段。区段选择器显示用户拥有的区段及与其共享的区段。
+是的，可在 Segment Manager 中管理所有区段。区段管理器显示对所有者（创建区段的用户）、共享用户和管理员用户可见的区段。区段选择器显示用户拥有的区段及与其共享的区段。
 
 管理员可以在 Analysis Workspace 和 [!DNL Reports & Analytics] 用户界面中看到所有区段。
 
-Report Builder仅显示由您构建的区段，或已专门与您共享的区段。
+Report Builder 仅显示由您构建的区段或已特意与您共享的区段。
 
 **为什么无法删除此区段？**
 
@@ -137,7 +137,7 @@ Report Builder仅显示由您构建的区段，或已专门与您共享的区段
 
 **Data Warehouse 区段有何变化？**
 
-所有现有 Data Warehouse 区段仍可以在数据仓库中使用。大多数Data warehouse细分也可在Analysis Workspace和Reports &amp; Analytics等其他组件中使用。
+仍可在 Data Warehouse 中使用所有现有的 Data Warehouse 区段。大多数 Data Warehouse 区段在 Analysis Workspace 和 Reports &amp; Analytics 等其他组件中将也可正常使用。
 
 您可以在区段生成器/管理器中创建或编辑新的 Data Warehouse 区段。区段生成器中的产品兼容性机制会自动确定区段是否与 Data Warehouse 兼容。
 
@@ -149,7 +149,7 @@ Report Builder仅显示由您构建的区段，或已专门与您共享的区段
 * **来自付费搜索的访问量**
 * **使用访客 ID Cookie 的访问量**
 
-这些区段将作为区段模板迁移到区段生成器中。已应用这些区段的现有报表将仍可正常使用。
+这些区段将作为区段模板迁移到 Segment Builder 中。已应用这些区段的现有报表将仍可正常使用。
 
 **Experience Cloud（包）区段有何变化：**
 
@@ -342,4 +342,4 @@ seg_definition.xml
 
 ![](assets/seg_browser_dimension.png)
 
-小于、大于和类似运算符现在只与“Data Warehouse”区段兼容。如果区段要与所有报表界面兼容，应使用量度的“桶式”版本以及等于运算符。
+小于、大于和类似运算符现在只与“Data Warehouse”区段兼容。如果区段要与所有报表界面兼容，应使用指标的“桶式”版本以及等于运算符。
