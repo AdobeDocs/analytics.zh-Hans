@@ -2,9 +2,9 @@
 description: Adobe Analytics 中的管理工具索引。
 title: 管理工具
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78f67c6a58395fb9520384094c13514ef29669d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 + [自定义报表描述](custom-desc-admin.md)
 + [自定义日历](custom-calendar.md)
 + [数据源](data-sources.md)
-+ [默认量度](default-metrics.md)
++ [默认指标](default-metrics.md)
 + [按 IP 地址排除](exclude-ip.md)
 + [查找方法](finding-methods.md)
 + [一般帐户设置](general-acct-settings-admin.md)
@@ -35,7 +35,7 @@ ht-degree: 100%
 + [日志](logs.md)
 + [营销渠道](marketing-channels-admin.md)
 + [菜单自定义](customize-menus.md)
-+ [量度可见性](metric-visibility.md)
++ [指标可见性](metric-visibility.md)
 + [移动设备管理](mobile-management.md)
 + [付费搜索检测概述](paid-search-detection/paid-search-detection.md)
 + [发布列表](publishing-list.md)
