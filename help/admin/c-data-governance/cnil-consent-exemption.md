@@ -16,16 +16,16 @@ ht-degree: 83%
 
 准则提供对准许要求的有限豁免（下称“准许豁免”）。准许豁免适用于只是为了代表 Web 发布者度量网站或应用程序的受众的 Analytics Cookie。准则规定，要适用准许豁免，必须满足以下条件：
 
-* 数据保留期最长为 25 个月。可在“Analytics”>“管理”>“数据治理”下查看当前的数据保留设置。[数据保留](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html)
+* 数据保留期最长为 25 个月。可在“Analytics”>“管理”>“数据治理”下查看当前的数据保留设置。[数据保留](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=zh-Hans)
 * 在ECID中禁用第三方Cookie。 [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=en#id-service-api)、 [disableThirdParty](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=en#id-service-api)Cookies和 [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=en#id-service-api)
-* 将13个月Cookie限制设置为静态日期，而不是滚动。  可使用 `cookieLifetime` 变量取代 Analytics Cookie 有效期。[cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html)
+* 将13个月Cookie限制设置为静态日期，而不是滚动。  可使用 `cookieLifetime` 变量取代 Analytics Cookie 有效期。[cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=zh-Hans)
 * 范围有限。Cookie 的范围必须限制在单个网站或应用程序。[浏览器 Cookie](https://experienceleague.adobe.com/docs/analytics/technotes/cookies.html?lang=zh-Hans&quot;\l&quot;third-party-cookie-implementations)
-* 匿名化。将 IP 地址的最后一个八位字节数匿名化。[常规帐户设置](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html)
+* 匿名化。将 IP 地址的最后一个八位字节数匿名化。[常规帐户设置](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=zh-Hans)
 * 从报表中隐藏访客 ID。默认情况下访客 ID 在 Adobe Workspace 和 Adobe Reports and Analytics 中不可见。可在数据馈送和 Data Warehouse 中找到访客 ID。[Admin Console 中的“访问权限”](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hans&quot;\l&quot;task_040673FE3E3E429B9531FBCB8B6A4391)可限制对数据馈送和 Data Warehouse 的访问
 * 地理位置参数。地理位置再精确，也达不到邮编级别。[邮编选项](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/zip.html?lang=zh-Hans&quot;\l&quot;zip-in-adobe-experience-platform-launch)和[常规帐户设置](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=zh-Hans&quot;\l&quot;admin-tools)
-* 设置选择加入选项。通过选择加入服务，可设置访客协议以确定在用户访问您的网站时您能否在用户的设备或浏览器上放置 Cookie。[选择加入服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html)
+* 设置选择加入选项。通过选择加入服务，可设置访客协议以确定在用户访问您的网站时您能否在用户的设备或浏览器上放置 Cookie。[选择加入服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hans)
 * 阻止数据共享。要阻止将数据共享到 Adobe Audience Manager，请将 `opt.dmp` 上下文变量用于[隐私报表](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=zh-Hans&quot;\l&quot;variables)以阻止共享点击。
-* 访问和删除功能。将 Privacy Service 用于访问和删除请求。[Analytics 和 Privacy Service](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/an-gdpr-overview.html)
+* 访问和删除功能。将 Privacy Service 用于访问和删除请求。[Analytics 和 Privacy Service](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/an-gdpr-overview.html?lang=zh-Hans)
 
 ## 关于数据收集的其他注意事项
 
