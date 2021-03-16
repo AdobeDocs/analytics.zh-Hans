@@ -3,12 +3,12 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
-user-guide-description: 使用区段、计算量度、虚拟报表包、警报等组件帮助整理数据。
-translation-type: tm+mt
+user-guide-description: 使用区段、计算指标、虚拟报表包、警报等组件帮助整理数据。
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '637'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 98%
    + [点击类型](dimensions/hit-type.md)
    + [小时](dimensions/hour-of-day.md)
    + [小时](dimensions/hour.md)
-   + [识别的状态](dimensions/identified-state.md)
+   + [已识别状态](dimensions/identified-state.md)
    + [已启用 Java](dimensions/java-enabled.md)
    + [语言](dimensions/language.md)
    + [最近联系渠道](dimensions/last-touch-channel.md)
@@ -101,8 +101,8 @@ ht-degree: 98%
    + [工作日/周末](dimensions/weekday-weekend.md)
    + [年](dimensions/year.md)
    + [邮政编码](dimensions/zip-code.md)
-+ 量度 {#metrics}
-   + [量度概述](metrics/overview.md)
++ 指标 {#metrics}
+   + [指标概述](metrics/overview.md)
    + [平均页面深度](metrics/average-page-depth.md)
    + [每次访问的平均页面查看次数](metrics/average-page-views-per-visit.md)
    + [平均会话时长](metrics/average-session-length.md)
@@ -168,32 +168,32 @@ ht-degree: 98%
       + [故障诊断](segmentation/seg-reference/c-troubleshooting.md)
    + [常见问题解答](segmentation/seg-transition.md)
    + [最佳实践](segmentation/best-practices.md)
-+ 计算量度 {#calculated-metrics}
-   + [计算量度和高级计算（派生）量度](c-calcmetrics/cm-overview.md)
++ 计算指标 {#calculated-metrics}
+   + [计算指标和高级计算（派生）指标](c-calcmetrics/cm-overview.md)
    + [常见问题解答](c-calcmetrics/cm-transition.md)
    + [操作方法视频](c-calcmetrics/cm-videos.md)
-   + 计算量度工作流程 {#calcmetric-workflow}
-      + [计算量度工作流程](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
-      + [查找量度](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
-      + [生成量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [量度类型和归因](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-      + [构建简单的“每次访问的页面查看次数”量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [分段量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
+   + 计算指标工作流程 {#calcmetric-workflow}
+      + [计算指标工作流程](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
+      + [查找指标](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
+      + [生成指标](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+      + [指标类型和归因](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
+      + [构建简单的“每次访问的页面查看次数”指标](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [分段指标](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [堆叠和替换区段](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
-      + [过滤和加权量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
-      + [订购协助量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [过滤和加权指标](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
+      + [订购协助指标](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [使用函数](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
-      + [参与量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
-      + [标记计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
-      + [批准计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
-      + [共享计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
-      + [计算量度管理器](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
-   + 量度引用 {#calcmetrics-reference}
+      + [参与指标](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [标记计算指标](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
+      + [批准计算指标](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
+      + [共享计算指标](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
+      + [计算指标管理器](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
+   + 指标引用 {#calcmetrics-reference}
       + [引用：基本函数](c-calcmetrics/cm-reference/cm-functions.md)
       + [引用：高级函数](c-calcmetrics/cm-reference/cm-adv-functions.md)
-      + [量度兼容性](c-calcmetrics/cm-compatibility.md)
-      + [计算量度：基于角色的权限](c-calcmetrics/cm-role-based-rights.md)
-      + [计算量度总计](c-calcmetrics/cm-totals.md)
+      + [指标兼容性](c-calcmetrics/cm-compatibility.md)
+      + [计算指标：基于角色的权限](c-calcmetrics/cm-role-based-rights.md)
+      + [计算指标总计](c-calcmetrics/cm-totals.md)
 + 虚拟报表包 {#virtual-report-suites}
    + [虚拟报表包概述](vrs/vrs-about.md)
    + [虚拟报表包组件管理](vrs/vrs-components.md)
@@ -214,7 +214,7 @@ ht-degree: 98%
    + [设置跨设备分析](cda/setup.md)
    + [重播的工作原理](cda/replay.md)
    + [CDA 工作区模板](cda/workspace-template.md)
-   + [将VRS限制为特定日期](cda/limit-vrs-date.md)
+   + [将 VRS 限制在特定日期](cda/limit-vrs-date.md)
    + [跨设备分析常见问题解答](cda/faq.md)
 + 警报 {#alerts}
    + [智能警报](c-alerts/intellligent-alerts.md)
@@ -247,7 +247,7 @@ ht-degree: 98%
 + 实时报告 {#real-time-reporting}
    + [实时报告概述](c-real-time-reporting/realtime.md)
    + [配置实时报表](c-real-time-reporting/t-realtime-admin.md)
-   + [受支持的实时量度和维度](c-real-time-reporting/realtime-metrics.md)
+   + [受支持的实时指标和维度](c-real-time-reporting/realtime-metrics.md)
 + 营销渠道 {#marketing-channels}
    + [营销渠道快速入门](c-marketing-channels/c-getting-started-mchannel.md)
    + [管理营销渠道](c-marketing-channels/c-channels.md)
