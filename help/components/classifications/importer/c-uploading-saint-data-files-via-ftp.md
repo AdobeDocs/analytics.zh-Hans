@@ -4,11 +4,11 @@ subtopic: Classifications
 title: FTP 导入
 topic: 管理工具
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 94%
 
 您上载的每个新键值都会计入当月该变量的独立值。
 
-如果您超出了当月的独立值，将无法在报表中看到超出独立值所对应的分类数据。您可以在Data warehouse中查看这些分类。
+如果您超出了当月的独立值，将无法在报表中看到超出独立值所对应的分类数据。可在 Data Warehouse 中看到这些分类。
 
 >[!NOTE]
 >
@@ -98,4 +98,4 @@ t_create_an_ftp_account.xml
 
 >[!NOTE]
 >
->如果导入未对分类做出任何更改，则不发送通知。 仅当电子邮件成功并导致更改分类时，才会发送该电子邮件。
+>如果导入不引起某个分类发生变化，则不会发送通知。只有导入成功，并且引起某个分类发生变化，才会发送电子邮件。
