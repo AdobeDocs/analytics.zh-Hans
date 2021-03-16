@@ -33,7 +33,7 @@ ht-degree: 100%
          + [预览维度](analysis-workspace/components/dimensions/view-dimensions.md)
          + [划分维度](analysis-workspace/components/dimensions/t-breakdown-fa.md)
          + [时间划分维度](analysis-workspace/components/dimensions/time-parting-dimensions.md)
-      + [量度](analysis-workspace/components/apply-create-metrics.md)
+      + [指标](analysis-workspace/components/apply-create-metrics.md)
       + [区段](analysis-workspace/components/t-freeform-project-segment.md)
       + 日历和日期范围 {#calendar-date-ranges}
          + [日历和日期范围概述](analysis-workspace/components/calendar-date-ranges/calendar.md)
@@ -174,13 +174,13 @@ ht-degree: 100%
       + [交互控件](report-builder/data-requests/interactive-controls.md)
    + 布局 - 请求向导第 2 步 {#layout}
       + [布局概述](report-builder/layout/layout.md)
-      + 量度和维度 {#metrics-dimension}
-         + [量度和维度概述](report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
-         + [添加量度和维度](report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
-         + [计算量度](report-builder/layout/c-metrics-dimensions/calculated-metrics.md)
-         + [在同一请求中组合使用流量和商务量度](report-builder/layout/c-metrics-dimensions/grouped-metrics.md)
-         + [维度和量度的用户访问权限](report-builder/layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
-         + [修改量度 - 字段定义](report-builder/layout/c-metrics-dimensions/r-arb-modify-metrics.md)
+      + 指标和维度 {#metrics-dimension}
+         + [指标和维度概述](report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
+         + [添加指标和维度](report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
+         + [计算指标](report-builder/layout/c-metrics-dimensions/calculated-metrics.md)
+         + [在同一请求中组合使用流量和商务指标](report-builder/layout/c-metrics-dimensions/grouped-metrics.md)
+         + [维度和指标的用户访问权限](report-builder/layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
+         + [修改指标 - 字段定义](report-builder/layout/c-metrics-dimensions/r-arb-modify-metrics.md)
          + [客户属性](report-builder/layout/c-metrics-dimensions/c-ustomer-attributes.md)
       + [异常检测](report-builder/layout/anomaly-detection.md)
       + [配置异常检测请求](report-builder/layout/t-anomaly.md)
@@ -191,7 +191,7 @@ ht-degree: 100%
       + [为请求命名](report-builder/layout/name-a-request.md)
       + [在单元格中添加前置和后置文本](report-builder/layout/prepend-and-postpend-text-to-cells.md)
       + [配置自定义布局](report-builder/layout/configure-the-custom-layout.md)
-      + [将量度和维度映射到单元格](report-builder/layout/map-metrics-and-dimensions-to-cells.md)
+      + [将指标和维度映射到单元格](report-builder/layout/map-metrics-and-dimensions-to-cells.md)
       + [创建 Microchart](report-builder/layout/t-create-a-microchart.md)
       + 过滤器维度 {#filter-dimenson}
          + [过滤器维度概述](report-builder/layout/c-filter-dimensions/filter-dimensions.md)
@@ -204,7 +204,7 @@ ht-degree: 100%
       + [升序排序或降序排序](report-builder/manage-requests/sort-ascending-or-descending.md)
       + [受保护的工作表元素](report-builder/manage-requests/protected-worksheet-elements.md)
       + [编辑多个请求](report-builder/manage-requests/t-edit-multiple-requests.md)
-      + [编辑跨越多个请求的量度](report-builder/manage-requests/edit-multiple-metrics.md)
+      + [编辑跨越多个请求的指标](report-builder/manage-requests/edit-multiple-metrics.md)
       + [刷新请求](report-builder/manage-requests/t-refresh-a-request.md)
       + [刷新所有工作表的请求](report-builder/manage-requests/t-refresh-requests-for-all-sheets.md)
       + [添加从属请求](report-builder/manage-requests/add-dependent-requests.md)
@@ -259,7 +259,7 @@ ht-degree: 100%
    + [标准模式与实时模式的对比](activity-map/activitymap-standard-live.md)
    + [链接报表](activity-map/activitymap-links-report.md)
    + [详细信息页面](activity-map/activitymap-page-flow.md)
-   + [整套量度](activity-map/activitymap-complete-metrics.md)
+   + [整套指标](activity-map/activitymap-complete-metrics.md)
    + [实时页面分析（实时模式）](activity-map/activitymap-realtime.md)
    + [客户分段](activity-map/activitymap-multiple-segments.md)
    + [可自定义的叠加图](activity-map/activitymap-gainerslosers.md)
@@ -299,7 +299,7 @@ ht-degree: 100%
    + [功能板管理器](reports-analytics/dashboard-manage.md)
    + [数据提取](reports-analytics/data-extract.md)
    + [漏斗报表](reports-analytics/funnels.md)
-   + [量度](reports-analytics/metrics.md)
+   + [指标](reports-analytics/metrics.md)
    + [目标](reports-analytics/targets.md)
    + [警报](reports-analytics/alerts.md)
    + [日历事件](reports-analytics/t-calendar-event.md)
@@ -311,9 +311,9 @@ ht-degree: 100%
    + [执行用户快速入门指南](mobile-app/executive.md)
 + 渐进式 Web 应用程序 {#pwa}
    + [渐进式 Web 应用程序](pwa/pwa.md)
-+ Analytics 报表 API {#analytics-reporting-api}
-   + [Analytics 报表 API 概述](c-reporting-api/c-reporting-api.md)
-   + [Analytics 报表 API 比较](c-reporting-api/api-comparison.md)
++ Analytics Reporting API {#analytics-reporting-api}
+   + [Analytics Reporting API 概述](c-reporting-api/c-reporting-api.md)
+   + [Analytics Reporting API 比较](c-reporting-api/api-comparison.md)
    + [https://github.com/AdobeDocs/analytics-2.0-apis](https://github.com/AdobeDocs/analytics-2.0-apis)
 + Labs {#tech-previews}
    + [Labs 概述](tech-previews/overview.md)
