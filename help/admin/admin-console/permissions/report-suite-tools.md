@@ -1,9 +1,9 @@
 ---
 source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '647'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 # “报表包工具”的产品配置文件权限
@@ -33,15 +33,15 @@ ht-degree: 98%
 | 页面查看次数 | 授予对“转化”>“独特访客变量”的访问权限。通常不用于新版实施。 |
 | 成功事件 | 授予对报表包管理器中“转化”>“成功事件”的访问权限。 |
 | 列表变量 | 授予对报表包管理器中“转化”>“列表变量”的访问权限。 |
-| 默认量度 | 授予对报表包管理器中“单个报表包设置”>“默认量度”的访问权限。 |
+| 默认指标 | 授予对报表包管理器中“单个报表包设置”>“默认指标”的访问权限。 |
 | 处理规则 | 授予对报表包管理器中“常规”>“处理规则”和“常规”>“机器人规则”的访问权限。 |
 | Advertising Analytics 配置 | 未使用。 |
 | 异常检测 | 授予对 Analysis Workspace 中“异常检测”的访问权限。 |
 | 贡献分析 | 授予对 Analysis Workspace 中右键单击式菜单“运行贡献分析”的访问权限。 |
 | 渠道报表 | 授予对 Reports &amp; Analytics 中“营销渠道”>“渠道概述报告”的访问权限。 |
-| 实时报表 | 授予对 Reports &amp; Analytics 中“网站量度”>“实时报表”的访问权限。使用权限项“实时报表配置”授予对此报表的设置权限。 |
-| 机器人页面 | 授予对 Reports &amp; Analytics 中“网站量度”>“机器人”>“机器人页面报告”的访问权限。 |
-| 机器人 | 授予对 Reports &amp; Analytics 中“网站量度”>“机器人”>“机器人报告”的访问权限。 |
+| 实时报表 | 授予对 Reports &amp; Analytics 中“网站指标”>“实时报表”的访问权限。使用权限项“实时报表配置”授予对此报表的设置权限。 |
+| 机器人页面 | 授予对 Reports &amp; Analytics 中“网站指标”>“机器人”>“机器人页面报告”的访问权限。 |
+| 机器人 | 授予对 Reports &amp; Analytics 中“网站指标”>“机器人”>“机器人报告”的访问权限。 |
 | 数据馈送管理器 | 授予对 Analytics 顶部导航栏中“管理员”>“数据馈送”的访问权限。 |
 | 自定义 Data Warehouse 报表 | 授予对 Analytics 顶部导航栏中“工具”>“Data Warehouse”的访问权限。 |
 | 每日回访 | 授予对 Reports &amp; Analytics 中“访客维系”>“每日回访”的访问权限。 |
@@ -53,7 +53,7 @@ ht-degree: 98%
 | 回访 | 授予对 Reports &amp; Analytics 中“访客维系”>“回访”的访问权限。 |
 | 移动设备应用程序概述报表 | 未使用。 |
 | 分类 | 授予对报表包管理器中所有分类设置的访问权限。此权限项包含：<br>流量 > 流量分类<br>转化 > 转化分类<br>转化 > 分类层次结构<br>营销渠道 > 营销渠道分类<br>应用程序管理 > 应用程序分类<br>媒体管理 > 媒体分类<br>AEM > AEM Assets 分类<br>Adobe Campaign > Adobe 分类 |
-| 我的推荐报表 | 授予对 Reports &amp; Analytics 中“网站量度”>“我的推荐报表”的访问权限。 |
+| 我的推荐报表 | 授予对 Reports &amp; Analytics 中“网站指标”>“我的推荐报表”的访问权限。 |
 | 公司概要报表 | 未使用。 |
 | 图像 | 未使用。 |
 | KPI/量规缩图报表 | 未使用。 |
@@ -62,4 +62,4 @@ ht-degree: 98%
 | 用户概要缩图报表 | 未使用。 |
 | Web 资源 | 未使用。 |
 | 社交 | 未使用。 |
-| 数据修复 API | 授予对数据修复API的访问权 |
+| 数据修复 API | 授予对数据修复 API 的访问权 |
