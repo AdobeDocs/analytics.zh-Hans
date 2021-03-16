@@ -3,11 +3,11 @@ description: 现在，管理员级别的用户和非管理员级别的用户能�
 title: 区段权限（按角色）
 topic: 区段
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '134'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 88%
   <tr> 
    <td colname="col1"> <b>管理员级别的用户</b> </td> 
    <td colname="col2"> 可与整个公司、用户组和个人用户进行共享。 </td> 
-   <td colname="col3"> <span class="keyword">Analysis Workspace、Reports &amp; Analytics</span>：可以查看/编辑/删除自己和其他用户的区段，或执行其他操作。 <p> <span class="keyword"> Report Builder </span>:可以视图/编辑/删除/等它自己的细分以及与它分享的细分。 </p> </td> 
+   <td colname="col3"> <span class="keyword">Analysis Workspace、Reports &amp; Analytics</span>：可查看/编辑/删除/等等自身和其他用户的区段。 <p> <span class="keyword">Report Builder</span>：可查看/编辑/删除/等等自身的区段和与他共享的区段。 </p> </td> 
    <td colname="col4"> 可以将区段批准为规范区段。 </td> 
    <td colname="col5"> 可以在整个组织内应用任何区段。 </td> 
   </tr> 
