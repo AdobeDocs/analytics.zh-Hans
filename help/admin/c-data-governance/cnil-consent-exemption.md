@@ -2,10 +2,10 @@
 description: 了解关于用户准许在设备或浏览器上存储或读取非必要 Cookie 的准则和建议。
 title: 关于用户准许和 Cookie 的 CNIL 准则是什么
 translation-type: tm+mt
-source-git-commit: 36259e3a36cad221d7264e5caa0a09a757dc4fe8
+source-git-commit: fefc2433ef42bae232a9a9afc1040be8d04b2bbe
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 83%
+source-wordcount: '637'
+ht-degree: 79%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 83%
 * 将13个月Cookie限制设置为静态日期，而不是滚动。  可使用 `cookieLifetime` 变量取代 Analytics Cookie 有效期。[cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=zh-Hans)
 * 范围有限。Cookie 的范围必须限制在单个网站或应用程序。[浏览器 Cookie](https://experienceleague.adobe.com/docs/analytics/technotes/cookies.html?lang=zh-Hans&quot;\l&quot;third-party-cookie-implementations)
 * 匿名化。将 IP 地址的最后一个八位字节数匿名化。[常规帐户设置](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=zh-Hans)
-* 从报表中隐藏访客 ID。默认情况下访客 ID 在 Adobe Workspace 和 Adobe Reports and Analytics 中不可见。可在数据馈送和 Data Warehouse 中找到访客 ID。[Admin Console 中的“访问权限”](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hans&quot;\l&quot;task_040673FE3E3E429B9531FBCB8B6A4391)可限制对数据馈送和 Data Warehouse 的访问
+* 从报表中隐藏访客 ID。默认情况下访客 ID 在 Adobe Workspace 和 Adobe Reports and Analytics 中不可见。可在数据馈送和 Data Warehouse 中找到访客 ID。[Admin Console 中的“访问权限”](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hans&quot;\l&quot;task_040673FE3E3E429B9531FBCB8B6A4391)可限制对数据馈送和 Data Warehouse 的访问 和[数据馈送列引用](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=en#columns%2C-descriptions%2C-and-data-types)
 * 地理位置参数。地理位置再精确，也达不到邮编级别。[邮编选项](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/zip.html?lang=zh-Hans&quot;\l&quot;zip-in-adobe-experience-platform-launch)和[常规帐户设置](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=zh-Hans&quot;\l&quot;admin-tools)
 * 设置选择加入选项。通过选择加入服务，可设置访客协议以确定在用户访问您的网站时您能否在用户的设备或浏览器上放置 Cookie。[选择加入服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hans)
 * 阻止数据共享。要阻止将数据共享到 Adobe Audience Manager，请将 `opt.dmp` 上下文变量用于[隐私报表](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=zh-Hans&quot;\l&quot;variables)以阻止共享点击。
@@ -33,7 +33,7 @@ ht-degree: 83%
 
 * 请考虑在Analytics变量中收集加入状态，以便将选择加入数据与选择退出数据分离，以进行细分、虚拟报表包或路由到单独的端点。
 * 未经事先许可，不得在网站或应用程序之外进行度量，例如不得进行站外营销活动、电子邮件营销活动或嵌入 iframe。
-* 未经许可，不允许收集变量中的个人信息。
+* 未经许可，不允许收集变量中的个人信息。[在用户同意的基础上控制 Experience Cloud 活动](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en%22%20\l%20%22implementation#implementation)
 * 数据只能用于生成匿名的统计数据，而不得与其他数据一起使用。
 * 数据不得用于交叉引用操作。
 * 不得收集 GPS 地理位置数据。
