@@ -1,11 +1,11 @@
 ---
 title: 移动设备维度
-description: 基于设备的用户代理字符串的维度。
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '892'
-ht-degree: 100%
+description: Dimension基于设备的IP地址。
+translation-type: tm+mt
+source-git-commit: 5e196b34d4fc689d5fd36f669670f3d9b085f00d
+workflow-type: tm+mt
+source-wordcount: '882'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## 使用数据填充这些维度
 
-这些维度引用 Adobe 内部的查找规则。查找值基于随点击发送的 `User-Agent` HTTP 标头。Adobe 与 [DeviceAtlas](https://deviceatlas.com/) 合作，共同在用户代理与移动设备维度之间提供查找服务。如果您使用 AppMeasurement 库（例如，通过 Adobe Experience Platform Launch），则所有移动设备维度均可开箱即用。
+这些维度引用 Adobe 内部的查找规则。[!UICONTROL 移动] 车辆查找由IP地址决定，它使用我们从NetAcuity（一种数字元素产品）获得的数据。如果您使用 AppMeasurement 库（例如，通过 Adobe Experience Platform Launch），则所有移动设备维度均可开箱即用。
 
 ## 移动设备维度描述
 
