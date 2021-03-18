@@ -5,10 +5,10 @@ user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 提供 Analytics 的高级分析和可视化工具 Analysis Workspace 以及 Adobe Analytics Dashboards、Report Builder 和 Activity Map 等工具的操作说明。
 translation-type: tm+mt
-source-git-commit: 9964a512e05191b8baad631076adb6fe02a23134
+source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -120,6 +120,7 @@ ht-degree: 100%
          + [警报生成器](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [警报管理器](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [智能警报 - 用例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
+   + [用户首选项](analysis-workspace/user-preferences.md)
    + 工作区常见问题解答 {#workspace-faq}
       + [常见问题解答](analysis-workspace/workspace-faq/faq.md)
       + [优化 Analysis Workspace 性能](analysis-workspace/workspace-faq/optimizing-performance.md)
