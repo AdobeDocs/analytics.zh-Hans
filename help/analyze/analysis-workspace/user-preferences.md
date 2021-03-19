@@ -2,7 +2,7 @@
 title: 如何在Analysis Workspace中设置用户首选项
 description: null
 translation-type: tm+mt
-source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
+source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 17%
@@ -31,7 +31,7 @@ ht-degree: 17%
 
 ## 项目首选项
 
-项目首选项适用于在Analysis Workspace中创建的新项目和新面板。还可以在“工作区”>“项目”>“项目信息和设置”下按项目管理首选项。
+项目首选项适用于在Analysis Workspace中创建的新项目和新面板。也可以在[!UICONTROL Workspace] > [!UICONTROL  Project] > [!UICONTROL  Project Info &amp; Settings]下按项目管理首选项。
 
 | 区域 | 首选项 | 选项 |
 | --- | --- | --- |
