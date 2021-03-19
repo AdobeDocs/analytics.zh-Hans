@@ -1,14 +1,11 @@
 ---
 description: 数据源在处理作为标准服务器调用的数据时，支持以下变量（普通 > 完全处理）。
-subtopic: Data sources
-title: 完全处理
-topic: Developer and implementation
-uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
+title: 数据源的完全处理选项
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 96%
+source-wordcount: '728'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +14,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->Adobe 建议客户使用[批量数据插入 API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)，而不是完全处理数据源。Adobe计划在将来弃用完全处理的数据源。
+>Adobe 建议客户使用[批量数据插入 API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)，而不是完全处理数据源。Adobe 计划将将来弃用完全处理数据源。[了解详情](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 数据源在处理作为标准服务器调用的数据时，支持以下变量（普通 > 完全处理）。
 
@@ -45,12 +42,12 @@ ht-degree: 96%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>campaign </p> </td> 
-   <td colname="col2"> <p>campaign </p> </td> 
+   <td colname="col2"> <p>活动 </p> </td> 
    <td colname="col3"> <p>转化促销活动跟踪代码。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>channel </p> </td> 
-   <td colname="col2"> <p>channel </p> </td> 
+   <td colname="col2"> <p>渠道 </p> </td> 
    <td colname="col3"> <p>渠道字符串（例如体育区域）。 </p> </td> 
   </tr> 
   <tr> 
@@ -70,7 +67,7 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
-   <td colname="col2"> <p>events </p> </td> 
+   <td colname="col2"> <p>事件 </p> </td> 
    <td colname="col3"> <p>事件字符串，使用与 <a href="https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a> 变量相同的语法进行格式设置。 </p> <p>例如： </p> 
     <code>
       scAdd,event1,event7 
@@ -118,8 +115,8 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
-   <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95"</code>). 每行最大值可保存4096字节。</p> </td> 
+   <td colname="col2"> <p>产品 </p> </td> 
+   <td colname="col3"> <p>产品列表（例如<code> "Sports;Ball;1;5.95"</code>）。 每行最大值可以包含4096字节。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
@@ -138,12 +135,12 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td colname="col1"> <p>server </p> </td> 
-   <td colname="col2"> <p>server </p> </td> 
+   <td colname="col2"> <p>服务器 </p> </td> 
    <td colname="col3"> <p>服务器字符串。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>state </p> </td> 
-   <td colname="col2"> <p>state </p> </td> 
+   <td colname="col2"> <p>状态 </p> </td> 
    <td colname="col3"> <p>转化州字符串。 </p> </td> 
   </tr> 
   <tr> 
