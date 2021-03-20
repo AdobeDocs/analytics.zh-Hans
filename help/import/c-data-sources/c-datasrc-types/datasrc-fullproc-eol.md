@@ -1,10 +1,10 @@
 ---
-title: null
-description: null
+title: 完全处理数据源的生命周期结束
+description: 批量数据插入API与完全处理数据源之间链接和比较结束的原因。
 translation-type: tm+mt
-source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
+source-git-commit: 2e077db74b7719f49aec513fc99dad33a4d5b831
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '732'
 ht-degree: 9%
 
 ---
