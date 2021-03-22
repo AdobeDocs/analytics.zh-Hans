@@ -10,13 +10,14 @@ getting-started-url: https://helpx.adobe.com/cn/analytics/get-started.html
 tutorials-title: 教程
 tutorials-url: https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/analytics.zh-Hans
-type: Documentation
+type: 文档
 index: true
-translation-type: ht
-source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
-workflow-type: ht
-source-wordcount: '135'
-ht-degree: 100%
+description: 包括传递到回购协议中的用户指南TOC.md文件的回购级别元数据。
+translation-type: tm+mt
+source-git-commit: 97e60e4c3a593405f92f47e5aa79ece70e0b3d60
+workflow-type: tm+mt
+source-wordcount: '150'
+ht-degree: 90%
 
 ---
 
