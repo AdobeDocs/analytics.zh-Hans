@@ -2,10 +2,10 @@
 title: pt
 description: 对变量列表执行一个函数。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: fc7e6953e69cdff7b326705a906687be634d9b5f
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 100%
+source-wordcount: '602'
+ht-degree: 98%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
+>此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
 `pt` 插件可对 Analytics 变量列表执行一个函数或方法。例如，您可以选择性地对多个变量运行 [`clearVars`](../functions/clearvars.md) 方法，而无需每次手动调用该方法。有一些其他插件需要此插件代码才能正常运行。如果您不需要同时对多个 Analytics 变量运行特定函数，或者您未使用任何依赖此插件的相关插件，则无需使用此插件。
 
@@ -51,8 +51,8 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用�
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: pt v2.01 */
- s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var e,c=0;c<de;c++)if(e=this[cf](l[c],fa))return e}};
+/* Adobe Consulting Plugin: pt v3.0 */
+function pt(l,de,cf,fa){var b=l,d=de,f=cf,g=fa;if("-v"===b)return{plugin:"pt",version:"3.0"};a:{if("undefined"!==typeof window.s_c_il){var a=0;for(var c;a<window.s_c_il.length;a++)if(c=window.s_c_il[a],c._c&&"s_c"===c._c){a=c;break a}}a=void 0}if("undefined"!==typeof a&&(a.contextData.pt="3.0",b&&a[f])){b=b.split(d||",");d=b.length;for(var e=0;e<d;e++)if(c=a[f](b[e],g))return c}};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -74,7 +74,7 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用�
 以下代码是 getQueryParam 插件的一部分。该代码会针对 URL querystring (fullQueryString) 中包含的每个键值对运行 getParameterValue 帮助程序函数。为了提取每个键值对，必须使用与号“&amp;”拆分 fullQueryString。parameterKey 是指插件尝试从查询字符串中提取的特定查询字符串参数
 
 ```javascript
-returnValue = s.pt(fullQueryString, "&", "getParameterValue", parameterKey)
+returnValue = pt(fullQueryString, "&", "getParameterValue", parameterKey)
 ```
 
 以上代码行是运行如下所示代码的快捷方法：
@@ -91,6 +91,10 @@ for(var i = 0; i < parametersLength; i++)
 ```
 
 ## 版本历史记录
+
+### 3.0（2021年3月19日）
+
+* 已添加版本号作为上下文数据。
 
 ### 2.01（2019 年 9 月 24 日）
 
