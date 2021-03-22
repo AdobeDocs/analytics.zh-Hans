@@ -2,10 +2,10 @@
 title: 完全处理数据源的生命周期结束
 description: 批量数据插入API与完全处理数据源之间链接和比较结束的原因。
 translation-type: tm+mt
-source-git-commit: 2e077db74b7719f49aec513fc99dad33a4d5b831
+source-git-commit: 97e60e4c3a593405f92f47e5aa79ece70e0b3d60
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 9%
+source-wordcount: '1221'
+ht-degree: 29%
 
 ---
 
@@ -39,18 +39,59 @@ ht-degree: 9%
 
 ## BDIA和FPDS中可用字段值的比较
 
-| BDIA、FPDS和 | BDIA变量 | 完全处理列变量 | 描述 |
-| --- | --- | --- | --- |
-| BDIA | aamlh | 不受支持 | Adobe Audience Manager位置提示。 请参阅下面的AAM区域列表表中的有效ID值。 |
-| Both | browserHeight | browserHeight | 浏览器高度（以像素为单位）（例如，768） |
-| 两者 | browserWidth | browserWidth | 浏览器宽度（以像素为单位）（例如1024） |
-| 两者 | campaign | 活动 | 转换活动跟踪代码 |
-| 两者 | channel | 渠道 | 渠道字符串（例如，“体育节”） |
-| 两者 | colorDepth | colorDepth | 以位为单位的显示器颜色深度（例如，24） |
-| 两者 | connectionType | connectionType | 访客的连接类型（LAN或调制解调器） |
-| BDIA | contextData.key | 不受支持 | 键值对通过命名标题“contextData.product”或“contextData.color”来指定 |
-| 两者 | cookiesEnabled | cookieEnabled | `Y` 或 `N` 用于访客是否支持第一方会话Cookie |
-| 两者 | currencyCode | currencyCode | 收入货币代码（例如`USD`） |
-| BDIA | 客户ID。[customerIDType].authState | 不受支持 | 访客的已验证状态。 支持的值有：0、1、2、UNKNOWN、AUTHENTICATED、LOGGED_OUT或“（不区分大小写）。 两个连续的单引号(&quot;)导致从查询字符串中忽略该值，在进行点击时，该值转换为0。 请注意，支持的authState数值表示以下值： 0 = UNKNOWN， 1 = AUTHENTICATED， 2 = LOGGED_OUT。 customerIDType可以是任何字母数字字符串，但应视为区分大小写。 |
-| BDIA | 客户ID。[customerIDType].id | 不受支持 | 要使用的客户ID。 customerIDType可以是任何字母数字字符串，但应视为区分大小写。 |
-| BDIA | 客户ID。[customerIDType].isMCSeed | 不受支持 | 这是否是Marketing Cloud访客ID的种子。 支持的值为：0、1、TRUE、FALSE、“（不区分大小写）。 使用0、FALSE或两个连续的单引号(&quot;)会导致从查询字符串中忽略该值。 customerIDType可以是任何字母数字字符串，但应视为区分大小写。 |
+| BDIA变量 | 完全处理列变量 | 描述 |
+| --- | --- | --- |
+| aamlh | 不受支持 | Adobe Audience Manager位置提示。 |
+| browserHeight | browserHeight | 浏览器高度（以像素为单位）（例如，768） |
+| browserWidth | browserWidth | 浏览器宽度（以像素为单位）（例如1024） |
+| campaign | 活动 | 转换活动跟踪代码 |
+| channel | 渠道 | 渠道字符串（例如，“体育节”） |
+| colorDepth | colorDepth | 以位为单位的显示器颜色深度（例如，24） |
+| connectionType | connectionType | 访客的连接类型（LAN或调制解调器） |
+| contextData.key | 不受支持 | 键值对通过命名标题“contextData.product”或“contextData.color”来指定 |
+| cookiesEnabled | cookieEnabled | `Y` 或 `N` 用于访客是否支持第一方会话Cookie |
+| currencyCode | currencyCode | 收入货币代码（例如`USD`） |
+| 客户ID。[customerIDType].authState | 不受支持 | 访客的已验证状态。 支持的值有：0、1、2、UNKNOWN、AUTHENTICATED、LOGGED_OUT或“（不区分大小写）。 两个连续的单引号(&quot;)导致从查询字符串中忽略该值，在进行点击时，该值转换为0。 请注意，支持的authState数值表示以下值： 0 = UNKNOWN， 1 = AUTHENTICATED， 2 = LOGGED_OUT。 customerIDType可以是任何字母数字字符串，但应视为区分大小写。 |
+| 客户ID。[customerIDType].id | 不受支持 | 要使用的客户ID。 customerIDType可以是任何字母数字字符串，但应视为区分大小写。 |
+| 客户ID。[customerIDType].isMCSeed | 不受支持 | 这是否是Marketing Cloud访客ID的种子。 支持的值为：0、1、TRUE、FALSE、“（不区分大小写）。 使用0、FALSE或两个连续的单引号(&quot;)会导致从查询字符串中忽略该值。 customerIDType可以是任何字母数字字符串，但应视为区分大小写。 |
+| eVarN | eVarN，即`<eVar2>`...`<eVar>` | 转化 eVar 名称。您最多可有 75 个 eVar ( eVar1 - eVar75)可以指定eVar名称(eVar12)或友好名称(广告活动3)。 |
+| events | 事件 | [事件字符串](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=en#vars)，格式采用与s.事件变量相同的语法。例如：scAdd，事件1,事件7 |
+| hierN | hierN，即`<hier2>`..`</hier2>` | 层级名称。您最多可有 5 个层级 ( hier1 - hier5)。 您可以指定默认层次结构名称`hier2`或友好名称（洋基队）。 |
+| homePage | homePage | Y 或 N - 当前页面是否为访客的主页。 |
+| ipaddress | 不受支持 | 访客的IP地址。 |
+| javaEnabled | javaEnabled | Y 或 N - 访客是否已启用 Java。 |
+| javaScriptVersion | javaScriptVersion | JavaScript 版本（例如 1.3）。 |
+| language | 不受支持 | 浏览器支持的语言。 例如：`en-us`。 |
+| linkName | linkName | 链接名称。 |
+| linkType | linkType | 链接类型。支持的值包括：  `d: Download link`,  `e: Exit link`,  `o: Custom link` |
+| linkURL | linkURL | 链接的 HREF。 |
+| 列表例如，列表2。 | 不受支持 | 一个分隔的值列表，这些值会传入一个变量，然后报告为单独的行项目以便制作报表。 |
+| marketingCloudVisitorID | 不受支持 | Marketing Cloud ID. 请参阅[访客标识](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api)和Marketing Cloud访客ID服务。 |
+| 不受支持 | charSet | 网站支持的字符集。 例如，UTF-8、ISO-8859-1 等。 |
+| 不受支持 | clickAction | 访客点击图的对象标识符 (oid) |
+| 不受支持 | clickActionType | 访客点击图的对象标识符类型 (oidt) |
+| 不受支持 | clickContext | 访客点击图的页面标识符 (pid) |
+| 不受支持 | clickContextType | 访客点击图的页面标识符类型 (pidt) |
+| 不受支持 | clickSourceID | 访客点击图的源索引 (oi) |
+| 不受支持 | clickTag | 访客点击图的对象标记名称 (ot) |
+| 不受支持 | scXmlVer | 市场营销报表 XML 请求版本号（例如 1.0）。 |
+| 不受支持 | timezone | 访客所在时区与格林威治时间的小时差（例如 -8）。 |
+| pageName | pageName | 页面的名称。 |
+| pageType | pageType | 页面的类型（例如“错误页面”）。 |
+| pageUrl | pageUrl | 页面URL(例如，https://www.example.com/index.html)。 |
+| plugins | 插件 | 以分号分隔的浏览器插件名称列表。 |
+| products | 产品 | 列表页面上的所有产品。 用逗号分隔产品。 例如：运动；球；1;5.95，玩具；顶部；1:1.99。 |
+| prop1 - prop75 | propN，即`<prop2>`..`</prop2>` | 属性#字符串（例如，“体育节”）。 |
+| propN | propN | 属性的属性值。 |
+| purchaseID | purchaseID | 购买 ID 号码。 |
+| referrer | 推荐人 | 页面反向链接的 URL。 |
+| reportSuiteID | s_account | 指定要提交数据的报表包。您应用逗号分隔多个报表包ID。 |
+| resolution | 分辨率 | 显示器分辨率（例如 1024x768）。 |
+| server | 服务器 | 服务器字符串。 |
+| state | 状态 | 转化州字符串。 |
+| timestamp | 日期 | 使用YYYY-MM-DDTh:mm:ss±UTC_offset(例如2021-09-01T12:00:00-07:00)的ISO 8601日期格式或Unix时间格式（自1970年1月1日起已用的秒数）。 |
+| trackingServer | 不受支持 | 只能通过列标题提供。 |
+| transactionID | 不受支持 | 用于将多渠道用户活动绑定在一起作报告之用的公用值。有关详细信息，请参阅[Data Sources用户指南](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=en#data-sources)。 |
+| userAgent | 不受支持 | 用户代理字符串 |
+| visitorID | visitorID | 访客的分析ID。 请参阅[访客标识](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)。 |
+| zip | zip | 转化邮政编码。 |
