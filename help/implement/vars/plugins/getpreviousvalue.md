@@ -1,11 +1,11 @@
 ---
 title: getPreviousValue
 description: 获取传递到变量的上一个值。
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '888'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a58e57438fdbac6f2e84c5f85388dff3a43dbd3b
+workflow-type: tm+mt
+source-wordcount: '895'
+ht-degree: 99%
 
 ---
 
@@ -50,9 +50,8 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用�
 在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
 
 ```js
-/******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getPreviousValue v2.0 */
-s.getPreviousValue=function(v,c){var s=this,d;c=c||"s_gpv";var b=new Date;b.setTime(b.getTime()+18E5);s.c_r(c)&&(d=s.c_r(c)); v?s.c_w(c,v,b):s.c_w(c,d,b);return d};
+/* Adobe Consulting Plugin: getPreviousValue v3.0 */
+function getPreviousValue(v,c){var k=v,d=c;if("-v"===k)return{plugin:"getPreviousValue",version:"3.0"};var a=function(){if("undefined"!==typeof window.s_c_il)for(var c=0,b;c<window.s_c_il.length;c++)if(b=window.s_c_il[c],b._c&&"s_c"===b._c)return b}();"undefined"!==typeof a&&(a.contextData.getPreviousValue="3.0");window.cookieWrite=window.cookieWrite||function(c,b,f){if("string"===typeof c){var h=window.location.hostname,a=window.location.hostname.split(".").length-1;if(h&&!/^[0-9.]+$/.test(h)){a=2<a?a:2;var e=h.lastIndexOf(".");if(0<=e){for(;0<=e&&1<a;)e=h.lastIndexOf(".",e-1),a--;e=0<e?h.substring(e):h}}g=e;b="undefined"!==typeof b?""+b:"";if(f||""===b)if(""===b&&(f=-60),"number"===typeof f){var d=new Date;d.setTime(d.getTime()+6E4*f)}else d=f;return c&&(document.cookie=encodeURIComponent(c)+"="+encodeURIComponent(b)+"; path=/;"+(f?" expires="+d.toUTCString()+";":"")+(g?" domain="+g+";":""),"undefined"!==typeof cookieRead)?cookieRead(c)===b:!1}};window.cookieRead=window.cookieRead||function(c){if("string"===typeof c)c=encodeURIComponent(c);else return"";var b=" "+document.cookie,a=b.indexOf(" "+c+"="),d=0>a?a:b.indexOf(";",a);return(c=0>a?"":decodeURIComponent(b.substring(a+2+c.length,0>d?b.length:d)))?c:""};var l;d=d||"s_gpv";a=new Date;a.setTime(a.getTime()+18E5);window.cookieRead(d)&&(l=window.cookieRead(d));k?window.cookieWrite(d,k,a):window.cookieWrite(d,l,a);return l};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -134,6 +133,10 @@ s.t();
 运行 s.t() 调用函数时，将创建一个图像请求，其中 s.pageName=&quot;page 2&quot; 和 s.prop7 等于“happy value”，该值是上次调用 getPreviousValue 时 s.pageName 的值。虽然 s.prop7 的值“home”是传递到 s.pageName 的第一个值，但“home”从未包含在任何实际图像请求中。
 
 ## 版本历史记录
+
+### 3.0（2021年3月19日）
+
+* 已添加版本号作为上下文数据。
 
 ### v2.0（2019 年 10 月 7 日）
 
