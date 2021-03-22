@@ -2,10 +2,10 @@
 title: getTimeParting
 description: 测量特定操作发生的时间。
 translation-type: tm+mt
-source-git-commit: 01dce7813d60801f5c7826a903bb97d0db5d2617
+source-git-commit: 97778ee83cd44eaf2d14dd3e6891612eb99744a9
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 84%
+source-wordcount: '821'
+ht-degree: 83%
 
 ---
 
@@ -22,7 +22,7 @@ Analysis Workspace 提供了与此插件类似的开箱即用维度，只是维�
 
 >[!IMPORTANT]
 >
->此插件的4.0+版与先前版本有显着不同。 Adobe 强烈建议您“从头开始”实施此插件。引用了版本 4.0 之前插件的代码与此插件的当前版本不兼容。
+>此插件的4.0+版本与先前版本有显着不同。 Adobe 强烈建议您“从头开始”实施此插件。引用了版本 4.0 之前插件的代码与此插件的当前版本不兼容。
 
 ## 使用 Adobe Experience Platform Launch 扩展安装此插件
 
@@ -57,8 +57,8 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用�
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getTimeParting v6.2 */
-var getTimeParting=function(a){a=document.documentMode?void 0:a||"Etc/GMT";a=(new Date).toLocaleDateString("en-US",{timeZone:a, minute:"numeric",hour:"numeric",weekday:"long",day:"numeric",year:"numeric",month:"long"});a=/([a-zA-Z]+).*?([a-zA-Z]+).*?([0-9]+).*?([0-9]+)(.*?)([0-9])(.*)/.exec(a);return"year="+a[4]+" | month="+a[2]+" | date="+a[3]+" | day="+a[1]+" | time="+(a[6]+a[7])};
+/* Adobe Consulting Plugin: getTimeParting v6.3 (No Prerequisites Needed) */
+function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",version:"6.3"};a:{if("undefined"!==typeof window.s_c_il){var a=0;for(var b;a<window.s_c_il.length;a++)if(b=window.s_c_il[a],b._c&&"s_c"===b._c){a=b;break a}}a=void 0}"undefined"!==typeof a&&(a.contextData.getTimeParting="6.3");c=document.documentMode?void 0:c||"Etc/GMT";a=(new Date).toLocaleDateString("en-US",{timeZone:c,minute:"numeric",hour:"numeric",weekday:"long",day:"numeric",year:"numeric",month:"long"});a=/([a-zA-Z]+).*?([a-zA-Z]+).*?([0-9]+).*?([0-9]+)(.*?)([0-9])(.*)/.exec(a);return"year="+a[4]+" | month="+a[2]+" | date="+a[3]+" | day="+a[1]+" | time="+(a[6]+a[7])};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -118,7 +118,7 @@ else s.eVarX = "Internet Explorer Visitors";
 
 ### 调用结果
 
-假设2020年8月31日美国丹佛科罗拉多州访客在上午9:15访问某网站。
+假设2020年8月31日上午9:15，来自丹佛科罗拉多州的访客访问某网站。
 
 ```js
 s.eVar10 = getTimeParting("Europe/Athens");
@@ -135,6 +135,10 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 ```
 
 ## 版本历史记录
+
+### 6.3（2021年3月19日）
+
+* 已添加版本号作为上下文数据。
 
 ### 6.2（2019 年 11 月 5 日）
 
@@ -156,7 +160,7 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 >[!CAUTION]
 >
->此插件的先前版本未能适应未来所有时间。 如果使用此插件的先前版本，Adobe强烈建议升级到最新版本，以避免JavaScript错误和数据丢失。 如果升级此插件不可行，请确保插件代码中的`s._tpdst`变量将来包含相应的年份。
+>此插件的先前版本未来不适合所有年份。 如果您使用此插件的以前版本，Adobe强烈建议升级到最新版本以避免JavaScript错误和数据丢失。 如果升级此插件不可行，请确保插件代码中的`s._tpdst`变量在将来包含适当的年份。
 
 ### 4.0（2016 年 8 月 22 日）
 
