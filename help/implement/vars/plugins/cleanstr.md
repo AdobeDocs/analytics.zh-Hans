@@ -2,10 +2,10 @@
 title: cleanStr
 description: 删除或替换字符串中所有不必要的字符。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: c1a19f79eba3e992747a14146ca93306f84b355b
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 100%
+source-wordcount: '529'
+ht-degree: 98%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> 此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
+>此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
 `cleanStr` 插件可删除或替换字符串中所有不必要的字符，包括 HTML 标记字符、额外的空格、制表符和换行符/回车符。它还会将左/右单引号（`‘` 和 `’`）替换为直单引号 (`'`)。如果您想要从变量值中删除不必要的字符，并且 Launch 中的“清理文本”功能无法满足您的实施需求，则 Adobe 建议您使用此插件。如果收集的数据不包含不必要的字符，或者 Launch 中的“清理文本”功能满足您的实施需求，则无需使用此插件。
 
@@ -51,8 +51,8 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用�
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: cleanStr v1.0 */
-function cleanStr(str){if("string"===typeof str){str=str.replace(/<\/?[^>]+(>|$)/g,"");str=str.trim(); str=str.replace(/[\u2018\u2019\u201A]/g,"'");str=str.replace(/\t+/g,"");for(str=str.replace(/[\n\r]/g," ");-1<str.indexOf("  ");)str=str.replace(/\s\s/g," ");return str}return""};
+/* Adobe Consulting Plugin: cleanStr v2.0 (No Prerequisites Required) */
+function cleanStr(str){var a=str;if("-v"===a)return{plugin:"cleanStr",version:"2.0"};a:{if("undefined"!==typeof window.s_c_il){var b=0;for(var c;b<window.s_c_il.length;b++)if(c=window.s_c_il[b],c._c&&"s_c"===c._c){b=c;break a}}b=void 0}"undefined"!==typeof b&&(b.contextData.cleanStr="2.0");if("string"===typeof a){a=a.replace(/<\/?[^>]+(>|$)/g,"");a=a.trim();a=a.replace(/[\u2018\u2019\u201A]/g,"'");a=a.replace(/\t+/g,"");for(a=a.replace(/[\n\r]/g," ");-1<a.indexOf("  ");)a=a.replace(/\s\s/g," ");return a}return""}
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -105,6 +105,10 @@ cleanStr(s.eVar1)
 单独运行此插件（不将返回值指定给变量）实际上不会“重置”通过 str 参数传入的变量。
 
 ## 版本历史记录
+
+### 2.0（2021年3月19日）
+
+* 已添加版本号作为上下文数据。
 
 ### 1.0（2018 年 4 月 15 日）
 
