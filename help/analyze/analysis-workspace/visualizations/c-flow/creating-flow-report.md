@@ -1,12 +1,12 @@
 ---
-description: 在Workspace项目中使用流可视化。
+description: 在 Workspace 项目中使用流可视化。
 title: 配置流量可视化图表
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
