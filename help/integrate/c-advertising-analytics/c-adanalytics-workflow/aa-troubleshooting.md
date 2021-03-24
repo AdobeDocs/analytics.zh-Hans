@@ -1,19 +1,19 @@
 ---
-description: 解决和修复与Advertising Analytics相关的问题。
+description: 排除和修复与 Advertising Analytics 相关的问题。
 title: Advertising Analytics 疑难解答
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # Advertising Analytics 疑难解答
 
-* [我在“映射”部分中没有看到我的报表包](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
+* [我在“映射”部分中看不到我的报表包](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
 * [我在对 Google AdWords 帐户进行身份验证时遇到错误...](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
 
 ## 我在“映射”部分中没有看到我的报表包 {#section_9CAACDE6445C492DBAE542BA74DE6316}
