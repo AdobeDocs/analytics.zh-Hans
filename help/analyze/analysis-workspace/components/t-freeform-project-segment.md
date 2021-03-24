@@ -1,12 +1,12 @@
 ---
-description: 在Analysis Workspace中使用细分。
+description: 在 Analysis Workspace 中使用区段。
 title: 区段
 uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '370'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 93%
 
 ![](assets/segment_icons.png)
 
-[在 Analysis Workspace 中使用区段](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-in-analysis-workspace.html) (6:46)
+[在 Analysis Workspace 中使用区段](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-in-analysis-workspace.html)（6 分 46 秒）
 
 ## 创建区段 {#section_693CFADA668B4542B982446C2B4CF0F5}
 
@@ -30,7 +30,7 @@ ht-degree: 93%
 请记住以下事项：
 
 * 您&#x200B;**不能**&#x200B;将以下组件类型放入区段区域：不能从中生成区段的量度和维度/量度。
-* 对于完整的维度和事件，Analysis Workspace 将创建“存在”点击区段。示例：“在 eVar1 存在的地方点击”或“在 event1 存在的地方点击”。
+* 对于完整的维度和事件，Analysis Workspace 将创建“存在”点击区段。示例：“点击存在 eVar1 的地方”或“点击存在 event1 的地方”。
 * 如果将“未指定”或“无”放入区段下拉区域中，它们将自动转换为“不存在”区段，以便在分段时正确进行处理。
 
 ![](assets/segment-dropzone.png)
@@ -55,4 +55,4 @@ ht-degree: 93%
 | 从选定范围中创建区段 | 创建内联区段。选择行，接着右键单击选定的内容，然后创建内联区段。该区段只适用于打开的项目并且不能另存为 Analytics 区段。1. 选择行。2. 右键单击选定的内容。3. 单击&#x200B;*从选定范围中创建区段*。 |
 | 组件 > 新建区段 | 屏幕上会显示“区段生成器”。有关区段划分的更多信息，请参阅[区段生成器](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/segmentation-workflow/seg-build.html)。 |
 | “共享”>“共享项目”或“共享”>“策划项目数据” | 在[组织并共享](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6)中，了解应用到项目中的区段如何用于为收件人提供的共享分析报表。 |
-| 使用区段作为维度 | 视频：[在 Analysis Workspace 中使用区段作为维度](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/using-segments-as-dimensions-in-analysis-workspace.html) |
+| 使用区段作为维度 | 视频：[在 Analysis Workspace 中使用区段作为维度](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/components/segmentation/using-segments-as-dimensions-in-analysis-workspace.html) |
