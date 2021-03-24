@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: fefc2433ef42bae232a9a9afc1040be8d04b2bbe
 workflow-type: tm+mt
 source-wordcount: '637'
-ht-degree: 79%
+ht-degree: 95%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 79%
 准则提供对准许要求的有限豁免（下称“准许豁免”）。准许豁免适用于只是为了代表 Web 发布者度量网站或应用程序的受众的 Analytics Cookie。准则规定，要适用准许豁免，必须满足以下条件：
 
 * 数据保留期最长为 25 个月。可在“Analytics”>“管理”>“数据治理”下查看当前的数据保留设置。[数据保留](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=zh-Hans)
-* 在ECID中禁用第三方Cookie。 [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=en#id-service-api)、 [disableThirdParty](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=en#id-service-api)Cookies和 [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=en#id-service-api)
-* 将13个月Cookie限制设置为静态日期，而不是滚动。  可使用 `cookieLifetime` 变量取代 Analytics Cookie 有效期。[cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=zh-Hans)
+* 在 ECID 中禁用第三方 Cookie。[disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=zh-Hans#id-service-api)、[disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=zh-Hans#id-service-api) 和 [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=zh-Hans#id-service-api)
+* 将 13 个月的 Cookie 限制设置为静态日期，不滚动。可使用 `cookieLifetime` 变量取代 Analytics Cookie 有效期。[cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=zh-Hans)
 * 范围有限。Cookie 的范围必须限制在单个网站或应用程序。[浏览器 Cookie](https://experienceleague.adobe.com/docs/analytics/technotes/cookies.html?lang=zh-Hans&quot;\l&quot;third-party-cookie-implementations)
 * 匿名化。将 IP 地址的最后一个八位字节数匿名化。[常规帐户设置](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=zh-Hans)
 * 从报表中隐藏访客 ID。默认情况下访客 ID 在 Adobe Workspace 和 Adobe Reports and Analytics 中不可见。可在数据馈送和 Data Warehouse 中找到访客 ID。[Admin Console 中的“访问权限”](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hans&quot;\l&quot;task_040673FE3E3E429B9531FBCB8B6A4391)可限制对数据馈送和 Data Warehouse 的访问 和[数据馈送列引用](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=en#columns%2C-descriptions%2C-and-data-types)
@@ -31,12 +31,12 @@ ht-degree: 79%
 
 另外还涉及以下这些注意事项：
 
-* 请考虑在Analytics变量中收集加入状态，以便将选择加入数据与选择退出数据分离，以进行细分、虚拟报表包或路由到单独的端点。
+* 请考虑在 Analytics 变量中收集选择加入状态，以便将选择加入数据与选择退出数据分离，以供分段、虚拟报表包或路由到单独的端点。
 * 未经事先许可，不得在网站或应用程序之外进行度量，例如不得进行站外营销活动、电子邮件营销活动或嵌入 iframe。
 * 未经许可，不允许收集变量中的个人信息。[在用户同意的基础上控制 Experience Cloud 活动](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en%22%20\l%20%22implementation#implementation)
 * 数据只能用于生成匿名的统计数据，而不得与其他数据一起使用。
 * 数据不得用于交叉引用操作。
 * 不得收集 GPS 地理位置数据。
-* 在获得最终用户同意后，可以修改上述设置并放宽限制。
+* 当最终用户同意后，可修改上述设置并放松限制。
 
 有关详细信息，请参阅 [CNIL Cookie 豁免](https://www.cnil.fr/en/sheet-ndeg16-use-analytics-your-websites-and-applications)网站。
