@@ -1,12 +1,12 @@
 ---
-description: 在Workspace项目中使用流失可视化。
+description: 在 Workspace 项目中使用流失可视化。
 title: 流失概述
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 translation-type: tm+mt
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 98%
 
 ![](assets/fallout_segments1.png)
 
-如果您在工作区面板级别应用区段，区段会按以下方式与流失结合使用：
+如果您在 Workspace 面板级别应用区段，区段会按以下方式与流失结合使用：
 
 ![](assets/fallout_seg.png)
 
@@ -58,4 +58,4 @@ Reports &amp; Analytics 每一步都合并该区段。如果容器级别和流�
 * 区段和流失不在同一级别。
 * 区段存在变数，即一次访问可能有不同的访客数量，或一位访客可能有不同的访问次数。
 
-在极少数情况下，您可能需要使 Analysis Workspace 与 Reports &amp; Analytics 将区段应用到流失/流量的方式保持一致，为此只需将区段拖放到工作区中的每个流失步骤，即可得到相同的结果。
+在极少数情况下，您可能需要使 Analysis Workspace 与 Reports &amp; Analytics 将区段应用到流失/流量的方式保持一致，为此只需将区段拖放到 Workspace 中的每个流失步骤，即可得到相同的结果。
