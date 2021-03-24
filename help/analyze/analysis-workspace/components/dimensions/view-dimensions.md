@@ -1,12 +1,12 @@
 ---
-description: 在项目中使用视图之前，先将其值设置为顶值。
+description: 在项目中使用维度之前查看该维度的上限值。
 title: 预览维度
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '192'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
