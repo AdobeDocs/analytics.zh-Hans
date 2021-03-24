@@ -1,17 +1,17 @@
 ---
-description: 智能警报的使用案例。
-title: 智能警报 - 用例
+description: 智能警报的用例。
+title: 智能警报 — 用例
 uuid: e848f004-c044-4c7e-a0ac-9f3ea2df9a05
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '89'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# 智能警报 - 用例
+# 智能警报 — 用例
 
 ## 创建按两个区段过滤的简单警报 {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
 
