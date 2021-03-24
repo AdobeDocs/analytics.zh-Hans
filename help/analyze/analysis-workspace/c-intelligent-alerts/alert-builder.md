@@ -1,12 +1,12 @@
 ---
-description: 当项目组件达到特定阈值时获得警报。
+description: 当项目组件达到一定的阈值时获取警报。
 title: 警报生成器
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 * 在 Analysis Workspace 中使用以下快捷键：
 
    `ctrl (or cmd) + shift + a`
-* 转到&#x200B;**[!UICONTROL 工作区]** > **[!UICONTROL 组件]** > **[!UICONTROL 新警报]**。
+* 转到&#x200B;**[!UICONTROL Workspace]** > **[!UICONTROL 组件]** > **[!UICONTROL 新警报]**。
 * 选择一个或多个自由格式表行项目，单击鼠标右键并选择&#x200B;**[!UICONTROL 从选定范围中创建警报]**。
 * 在 Reports &amp; Analytics 报表中，转到&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 添加警报]**。
 
