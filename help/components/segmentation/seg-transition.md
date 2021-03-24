@@ -1,13 +1,13 @@
 ---
-description: 有关细分的常见问题解答。
+description: 围绕区段的常见问题。
 title: 常见问题解答
 topic: 区段
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2078'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -149,7 +149,7 @@ Report Builder 仅显示由您构建的区段或已特意与您共享的区段�
 * **来自付费搜索的访问量**
 * **使用访客 ID Cookie 的访问量**
 
-这些区段将作为区段模板迁移到 Segment Builder 中。已应用这些区段的现有报表将仍可正常使用。
+这些区段将作为区段模板迁移到 Segment Builder 中。应用了这些区段的现有报表将继续正常工作。
 
 **Experience Cloud（包）区段有何变化：**
 
@@ -163,7 +163,7 @@ Report Builder 仅显示由您构建的区段或已特意与您共享的区段�
 
 这些区段中的大部分（带有星号 * 标记的区段除外）都将作为区段模板迁移到区段生成器中。此外，还添加了多个新区段模板。
 
-已应用这些区段的现有报表将仍可正常使用。
+应用了这些区段的现有报表将继续正常工作。
 
 **管理员区段（又称为“全局”区段）有何变化？**
 
@@ -212,24 +212,24 @@ seg_definition.xml
    <td colname="col3"> 在 2015 年春季版中添加。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 浏览器宽度 - 分段统计 </td> 
+   <td colname="col1"> 浏览器宽度 — 分段统计 </td> 
    <td colname="col2"> 浏览器宽度 </td> 
    <td colname="col3"> 该维度与所有界面兼容，根据范围划分成枚举列表，而不是具体的整数值。如果需要分段具体的值，请在 Data Warehouse 区段中使用此维度的粒度版本。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 浏览器高度 - 分段统计 </td> 
+   <td colname="col1"> 浏览器高度 — 分段统计 </td> 
    <td colname="col2"> 浏览器高度 </td> 
    <td colname="col3"> 该维度与所有界面兼容，根据范围划分成枚举列表，而不是具体的整数值。如果需要分段具体的值，请在 Data Warehouse 区段中使用此维度的粒度版本。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 浏览器宽度 - 粒度 </td> 
+   <td colname="col1"> 浏览器宽度 — 粒度 </td> 
    <td colname="col2"> 浏览器宽度 </td> 
-   <td colname="col3"> <p>该维度已重命名，现在仅与 Data Warehouse 兼容。在定义与所有界面兼容的区段时，使用枚举类型“浏览器宽度 - 分段统计”。 </p> </td> 
+   <td colname="col3"> <p>该维度已重命名，现在仅与 Data Warehouse 兼容。在定义与所有界面兼容的区段时，使用枚举类型“浏览器宽度 — 分段统计”。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 浏览器高度 - 粒度 </td> 
+   <td colname="col1"> 浏览器高度 — 粒度 </td> 
    <td colname="col2"> 浏览器高度 </td> 
-   <td colname="col3"> <p>该维度已重命名，现在仅与 Data Warehouse 兼容。在定义与所有界面兼容的区段时，使用枚举类型“浏览器高度 - 分段统计”。 </p> </td> 
+   <td colname="col3"> <p>该维度已重命名，现在仅与 Data Warehouse 兼容。在定义与所有界面兼容的区段时，使用枚举类型“浏览器高度 — 分段统计”。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cookie 支持 </td> 
@@ -243,7 +243,7 @@ seg_definition.xml
   </tr> 
   <tr> 
    <td colname="col1"> - </td> 
-   <td colname="col2"> "应用程序 - *" </td> 
+   <td colname="col2"> "应用程序 — *" </td> 
    <td colname="col3"> 许多维度类型的“应用程序 -”前缀已经删除。由于移动应用程序数据通常是在不包含 Web 数据的报表包中捕获的，因此没有必要保留这些前缀。 </td> 
   </tr> 
   <tr> 
@@ -314,7 +314,7 @@ seg_definition.xml
  </tbody> 
 </table>
 
-## 对具有已知值的字符串维度的更改  {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
+## 对具有已知值的字符串维度的更改 {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
 
 具有已知值集的字符串维度已更改为枚举类型。在使用这些维度创建区段时，将使用所有已知值预填充该列表，而支持的运算符只有等于。这让您可以在使用限制较少的匹配条件时，快速分段查找的确切值，而不会选择非预期的值。
 
@@ -327,7 +327,7 @@ seg_definition.xml
 | 移动设备 Cookie 支持 | 移动设备邮件修饰 | 操作系统 |
 | 移动设备图像支持 | 移动设备信息服务 | 反向链接类型 |
 | 移动设备颜色深度 | 移动设备类型 | 搜索引擎 |
-| 移动设备音频支持 | 浏览器类型 | state |
+| 移动设备音频支持 | 浏览器类型 | 状态 |
 | 移动设备视频支持 | 浏览器 | 地域（国家/地区） |
 | 移动设备 DRM | 连接类型 | 地理区域 |
 | 移动设备网络协议 | 移动设备运营商 | 地域（市） |
@@ -336,7 +336,7 @@ seg_definition.xml
 | 移动设备书签长度 | 启用 Java | 付费搜索 |
 | 移动设备 URL 长度 | 语言 |  |
 
-## 对具有已知值的整数维度的更改  {#section_84A8AAD0344148AD9F9211D3EB271903}
+## 对具有已知值的整数维度的更改 {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 具有已知值集的整数维度（如浏览器宽度）已被拆分为多个枚举范围，因此您可以快速定义特定范围的区段。这些枚举列表会在维度名称后附加“- 分段统计”。以下屏幕演示了如何使用以前的区段生成器界面和新区段生成器界面来分段这些维度：
 
