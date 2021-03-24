@@ -1,12 +1,12 @@
 ---
-description: 在Workspace项目中使用流可视化。
+description: 在 Workspace 项目中使用流可视化。
 title: 流量设置
 uuid: 99822765-1d4f-4c23-a787-b089089cb8d7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '242'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 | 设置 | 描述 |
 |--- |--- |
-| 流量容器 | <ul><li>访问</li><li>Visitor</li></ul> 用于在“访问”和“访客”之间切换以分析访客路径。这些设置可帮助您在访客级别（跨访问）了解访客参与程度，或将分析限定于单次访问。 |
+| 流量容器 | <ul><li>访问</li><li>访客</li></ul> 用于在“访问”和“访客”之间切换以分析访客路径。这些设置可帮助您在访客级别（跨访问）了解访客参与程度，或将分析限定于单次访问。 |
 | 流量选项 | <ul><li>标签自动换行</li></ul> 通常情况下，流量元素上的标签会被截断以节约屏幕资源，但您可以通过选中此框使整个标签可见。默认值 = 取消选中。<ul><li>包含重复实例</li></ul> 流量可视化图表基于某个维度的实例。此设置使您可以选择包含还是排除重复实例，例如页面重新载入。但是，不能从包含多值维度（例如 listVar、listProp、s.product、推销 eVar 等）的流量可视化图表中删除重复项。 |
 
 ## 右键单击选项
