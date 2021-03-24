@@ -1,12 +1,12 @@
 ---
-description: 使用贡献分析来识别数据中的统计异常和关联。
+description: 使用贡献分析识别数据中的统计异常和关联。
 title: 贡献分析概述
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1156'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 99%
 
 在全面分析了异常之后，将为排名最前的项目生成贡献摘要，并按总出现次数和项目的贡献值百分比进行排序。通过标准化的贡献得分，您可以轻松与其他重要维度项目进行比较、对照和关联。
 
-## 贡献分析令牌 - 概述 {#section_3EF8D2BBCE6E4C309D753BCF04A453D0}
+## 贡献分析令牌 — 概述 {#section_3EF8D2BBCE6E4C309D753BCF04A453D0}
 
 >[!IMPORTANT]
 >
@@ -63,7 +63,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>令牌是否适用于 Reports &amp; Analytics 中的贡献分析？</b> </p> </td> 
-   <td colname="col2"> <p>不会。从 2018 年 4 月份版本起，Reports &amp; Analytics 中不再提供贡献分析。 </p> </td> 
+   <td colname="col2"> <p>不适用。从 2018 年 4 月份版本起，Reports &amp; Analytics 中不再提供贡献分析。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>如果我的公司用完了令牌，但是想要运行额外的贡献分析，我们该怎么做？</b> </p> </td> 
@@ -71,11 +71,11 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>我如何限制对贡献分析的访问？</b> </p> </td> 
-   <td colname="col2"> <p>默认情况下，只有管理员才有权运行贡献分析，但管理员可以通过在 <a href="https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-getting-started.html"  >Admin Console</a> 中创建权限组来授予其他用户访问权限。您应仅授权具有正当理由使用贡献分析，且您相信他们不会滥用其访问权限的用户来使用贡献分析。 </p> <p>此权限称为“贡献分析”，位于 <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">编辑群组</span> &gt; <span class="uicontrol">编辑所有报表访问权限</span> &gt; <span class="uicontrol">自定义报表包工具</span> &gt; <span class="uicontrol">工具和报表</span></span>下。 </p> </td> 
+   <td colname="col2"> <p>默认情况下，只有管理员才有权运行贡献分析，但管理员可以通过在 <a href="https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-getting-started.html"  >Admin Console</a> 中创建权限组来授予其他用户访问权限。您应仅授权具有正当理由使用贡献分析，且您相信他们不会滥用其访问权限的用户来使用贡献分析。 </p> <p>此权限称为“贡献分析”，位于 <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">“管理员”</span>&gt;<span class="uicontrol">“用户管理”</span>&gt;<span class="uicontrol">“编辑群组”</span>&gt;<span class="uicontrol">“编辑所有报表访问权限”</span>&gt;<span class="uicontrol">“自定义报表包工具”</span>&gt;<span class="uicontrol">“工具和报表”</span></span>下。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>如何知道我的公司每月有权使用多少个令牌，以及我们在当月使用了多少个令牌？</b> </p> </td> 
-   <td colname="col2"> <p>请转到<span class="ignoretag"><span class="uicontrol">管理员</span> &gt; <span class="uicontrol">公司设置</span> &gt; <span class="uicontrol">查看功能访问级别</span></span>。此页面中有 2 个新项目： </p> <p><img placement="break"  src="assets/ca_access_level.png" id="image_16012FE1162C485EA768D175F43D7563" width="500px" /> </p> </td> 
+   <td colname="col2"> <p>请转到<span class="ignoretag"><span class="uicontrol">“管理员”</span>&gt;<span class="uicontrol">“公司设置”</span>&gt;<span class="uicontrol">“查看功能访问级别”</span></span>。此页面中有 2 个新项目： </p> <p><img placement="break"  src="assets/ca_access_level.png" id="image_16012FE1162C485EA768D175F43D7563" width="500px" /> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,7 +87,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->异常检测和贡献分析已从 Reports &amp; Analytics 功能集中删除，现在只能通过 Analysis Workspace 使用。请注意，Adobe Analytics Select 和 Adobe Analytics Foundation 客户只能访问工作区中的“每日粒度”异常检测。
+>异常检测和贡献分析已从 Reports &amp; Analytics 功能集中删除，现在只能通过 Analysis Workspace 使用。请注意，Adobe Analytics Select 和 Adobe Analytics Foundation 客户只能访问 Workspace 中的“每日粒度”异常检测。
 
 <table id="table_5C9B7E4AE82640B5A913519E576889B5"> 
  <thead> 
