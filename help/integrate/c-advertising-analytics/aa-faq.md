@@ -1,12 +1,12 @@
 ---
-description: 有关Advertising Analytics的常见问题解答。
+description: 围绕 Advertising Analytics 的常见问题。
 title: 常见问题解答
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1411'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 99%
  </tbody> 
 </table>
 
-## 使用 Advertising Analytics  {#section_3A70C6C4D5A842B2981F0257A01F95FF}
+## 使用 Advertising Analytics {#section_3A70C6C4D5A842B2981F0257A01F95FF}
 
 <table id="table_4EC69262B7AB4DF49E736CF3B0362302"> 
  <thead> 
@@ -92,14 +92,14 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p>问：我正在尝试<b>将我的 Advertising Analytics 帐户映射到特定报表包</b>，但它在“报表包”模式中不可用。为什么？ </p> </td> 
-   <td colname="col2"> <p>答：在将报表包分配到 Advertising Analytics 帐户之前，<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >需要为 Advertising Analytics 报表</a>配置所需的报表包。 </p> <p>此操作可通过单独的管理员页面完成，访问方式如下：<span class="ignoretag"><span class="uicontrol">管理员</span> &gt; <span class="uicontrol">报表包</span> &gt; <span class="uicontrol">[选择启用了 Experience Cloud 的报表包]</span> &gt; <span class="uicontrol">编辑设置</span> &gt; <span class="uicontrol">Advertising Analytics 配置</span></span>。 </p> </td> 
+   <td colname="col2"> <p>答：在将报表包分配到 Advertising Analytics 帐户之前，<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >需要为 Advertising Analytics 报表</a>配置所需的报表包。 </p> <p>此操作可通过单独的管理员页面完成，访问方式如下：<span class="ignoretag"><span class="uicontrol">“管理员”</span> &gt; <span class="uicontrol">“报表包”</span>&gt;<span class="uicontrol">[选择启用了 Experience Cloud 的报表包]</span>&gt;<span class="uicontrol">“编辑设置”</span>&gt;<span class="uicontrol">“Advertising Analytics 配置”</span></span>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>问：是否可以将<b>虚拟报表包</b> (VRS) 分配到 Advertising Analytics 帐户？ </p> </td> 
+   <td colname="col1"> <p>问：是否可以将<b>“虚拟报表包”</b> (VRS) 分配到 Advertising Analytics 帐户？ </p> </td> 
    <td colname="col2"> <p>答：虚拟报表包不收集数据，因此您不能直接将 Advertising Analytics 帐户映射到虚拟报表包。 </p> <p>但是，您可以将 Advertising Analytics 帐户映射到您想要查看其数据的虚拟报表包的父报表包。 </p> <p>除非您根据 AMO ID（或其分类）在区段逻辑中包含“或”条件，否则搜索引擎量度（点击次数/成本/展示次数）可能不会显示在 VRS 中。示例：添加“存在 AMO ID 的所有点击”将包括该区段中的搜索引擎量度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>问：Advertising Analytics 量度是否可以在<b>营销渠道</b>报表中进行报告？ </p> </td> 
+   <td colname="col1"> <p>问：Advertising Analytics 量度是否可以在<b>“营销渠道”</b>报表中进行报告？ </p> </td> 
    <td colname="col2"> <p>答：不可以，营销渠道报表中不包含这些量度。 </p> </td> 
   </tr> 
   <tr> 
@@ -129,7 +129,7 @@ ht-degree: 99%
  </tbody> 
 </table>
 
-## 自动跟踪与手动跟踪  {#section_7437C4698A6D482EB7ED94A948390119}
+## 自动跟踪与手动跟踪 {#section_7437C4698A6D482EB7ED94A948390119}
 
 <table id="table_9738FF8459574ED2937A860A665BE739"> 
  <thead> 
@@ -141,7 +141,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>问：设置我的广告帐户时，它显示<b>自动跟踪</b>可能产生意想不到的后果。会产生什么样的后果？ </p> </td> 
-   <td colname="col2"> <p>同类群组: 
+   <td colname="col2"> <p>答： 
      <ul id="ul_59EFF4A2ECE947EBBDB6A9FF6D072FE0"> 
       <li id="li_8731E4B7D6ED4F0996B3630A35D5BAC4">自动模式将尝试以正确的格式将 URL 参数附加到跟踪模板/目标 URL 的末尾。<b>但是，您有责任确保添加的网址参数能够正确保持到最终登陆页面。</b> </li> 
       <li id="li_1202FE1FC88342378A60E8FE65E5426B">自动模式可以将关键字插入到登陆 URL 中，而您的 Web 服务器可能不支持包含特殊字符的关键字。 </li> 
