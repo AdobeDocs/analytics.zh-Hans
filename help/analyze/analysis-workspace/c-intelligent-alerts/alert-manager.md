@@ -2,11 +2,11 @@
 description: 创建、编辑或删除警报。
 title: 警报管理器
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '159'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 96%
 * 批准警报。
 * 复制警报。
 * 启用/禁用警报。
-* **续订**&#x200B;警报过期日期。选择一个或多个警报后，单击&#x200B;**续订**&#x200B;可续订它们。这会将它们的过期日期延长一年的时间（从单击“续订”之日算起，而不考虑它们的原始过期日期）。
+* **续订**&#x200B;警报过期日期。选择一个或多个警报后，单击&#x200B;**“续订”**&#x200B;可续订它们。这会将它们的过期日期延长一年的时间（从单击“续订”之日算起，而不考虑它们的原始过期日期）。
 * 将警报导出为 .CSV 文件。
 * 双击警报标题以编辑警报。
 * 搜索警报。
