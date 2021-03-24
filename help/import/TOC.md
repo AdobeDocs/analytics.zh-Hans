@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
 workflow-type: tm+mt
 source-wordcount: '535'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 96%
       + [Demandbase 标准维度](data-connectors/demandbase-home/demandbase-standard-dimensions.md)
       + [Demandbase 自定义维度](data-connectors/demandbase-home/demandbase-custom-dimensions.md)
    + Adobe Analytics 的 DFA Data Connectors {#dfa}
-      + [DFA集成生命周期终止信息](data-connectors/dfa-data-connector-analytics/dfa-eol.md)
+      + [DFA 集成产品寿命结束信息](data-connectors/dfa-data-connector-analytics/dfa-eol.md)
       + [Adobe Analytics 的 DFA Data Connectors](data-connectors/dfa-data-connector-analytics/dfa-data-connector-analytics.md)
       + [先决条件](data-connectors/dfa-data-connector-analytics/dfa-prerequisites.md)
       + [集成功能](data-connectors/dfa-data-connector-analytics/dfa-integration-features.md)
@@ -131,4 +131,4 @@ ht-degree: 96%
       + [Silverpop 集成](data-connectors/silverpop-overview/silverpop-wizard.md)
       + [Analytics 插件代码](data-connectors/silverpop-overview/silverpop-analytics-code.md)
 + 导入用例{#use-cases}
-   + [使用数据源导入付费搜索量度](use-cases/paid-search-metrics.md)
+   + [使用数据源导入付费搜索指标](use-cases/paid-search-metrics.md)
