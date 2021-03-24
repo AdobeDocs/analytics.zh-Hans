@@ -1,12 +1,12 @@
 ---
-description: 解决和修复与区段相关的问题。
+description: 排除和修复与区段相关的问题。
 title: 分段疑难解答
 uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '227'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,15 +20,15 @@ ht-degree: 96%
 * 将该区段保存在其他文件夹
 * 删除或更改该区段中的不兼容部分。
 
-## 为何我的区段根本不返回任何数据？  {#section_999749CBBE984142AEA49A6E68E6730A}
+## 为何我的区段根本不返回任何数据？ {#section_999749CBBE984142AEA49A6E68E6730A}
 
 可能的原因：
 
-* 反向嵌套 - 例如，在访问容器下嵌套访客容器。
+* 反向嵌套 — 例如，在访问容器下嵌套访客容器。
 * 报表不支持分段。
 * 没有与此分段标准匹配的数据。
 
-## 为何我看不到在“区段管理器”中创建的区段？  {#section_BE0A0930A2694A23BB32DA71696D52CE}
+## 为何我看不到在“区段管理器”中创建的区段？ {#section_BE0A0930A2694A23BB32DA71696D52CE}
 
 可能的原因：
 
@@ -40,7 +40,7 @@ ht-degree: 96%
 * 未保存区段。
 * 用户端可能阻止了 IP 地址。
 
-## 为何在应用了区段后显示的“页面数据”看似不正确？  {#section_B226AF69FE06463A8BC5337FDA8D4949}
+## 为何在应用了区段后显示的“页面数据”看似不正确？ {#section_B226AF69FE06463A8BC5337FDA8D4949}
 
 可能的原因：
 
