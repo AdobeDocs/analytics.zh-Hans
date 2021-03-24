@@ -1,12 +1,12 @@
 ---
-description: 在Advertising Analytics中管理帐户。
+description: 在 Advertising Analytics 中管理帐户。
 title: 管理广告帐户
 uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 96%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>过滤器</b> </p> </td> 
+   <td colname="col1"> <p><b>筛选器</b> </p> </td> 
    <td colname="col2"> <p>（左侧）您可以通过报表包、类型和状态来过滤广告帐户。 </p> </td> 
   </tr> 
  </tbody> 
