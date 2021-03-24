@@ -1,12 +1,12 @@
 ---
-description: 在Workspace项目中使用映射可视化。
+description: 在 Workspace 项目中使用地图可视化。
 title: 地图
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '625'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Analysis Workspace 中的地图可视化
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>移动设备经纬度</b> </p> </td> 
-   <td colname="col2"> <p>此选项表示移动设备应用程序数据。 </p> <p>只有在通过 <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">管理员</span> &gt; <span class="uicontrol">报表包</span> &gt; <span class="uicontrol">&lt;选择报表包&gt;</span> &gt; <span class="uicontrol">编辑设置</span> &gt; <span class="uicontrol">移动设备管理</span> &gt; <span class="uicontrol">启用位置跟踪</span></span>为报表包启用该设置时，才会看到此选项。 </p> <p>这是默认设置（如果已启用位置跟踪）。 </p> </td> 
+   <td colname="col2"> <p>此选项表示移动设备应用程序数据。 </p> <p>只有在通过 <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">“管理员”</span>&gt;<span class="uicontrol">“报表包”</span>&gt; <span class="uicontrol">&lt;选择报表包&gt;</span> &gt;<span class="uicontrol">“编辑设置”</span>&gt;<span class="uicontrol">“移动设备管理”</span>&gt;<span class="uicontrol">“启用位置跟踪”</span></span>为报表包启用该设置时，才会看到此选项。 </p> <p>这是默认设置（如果已启用位置跟踪）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>地理维度</b> </p> </td> 
@@ -87,4 +87,4 @@ Analysis Workspace 中的地图可视化
 | 样式：颜色主题 | 显示热图和气泡的颜色方案。您可以选择珊瑚色、红色、绿色或蓝色。默认为珊瑚色。 |
 | 样式：地图样式 | 您可以选择基本、街道、明亮、浅色、深色和卫星。 |
 | 集群半径 | 将像素数量在指定范围之内的数据点组合在一起。默认值为 50。 |
-| 自定义最大值 | 允许您更改地图最大值的阈值 - 调整该值即会调整气泡/热图值（颜色和大小）相对于自定义最大值设置的缩放比例。 |
+| 自定义最大值 | 允许您更改地图最大值的阈值 — 调整该值即会调整气泡/热图值（颜色和大小）相对于自定义最大值设置的缩放比例。 |
