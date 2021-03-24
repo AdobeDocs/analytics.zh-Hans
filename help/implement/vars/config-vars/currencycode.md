@@ -1,11 +1,11 @@
 ---
-title: currencyCode变量是什么，如何使用它？
-description: 对于电子商务站点，设置页面交易的币种。
-translation-type: tm+mt
+title: currencyCode 变量是什么以及怎样使用它？
+description: 对于电子商务网站，设置页面交易的货币。
+translation-type: ht
 source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '830'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
