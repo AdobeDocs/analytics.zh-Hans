@@ -1,12 +1,12 @@
 ---
-description: 配置Experience Cloud映射报表包，以在Advertising Analytics中使用。
+description: 配置 Experience Cloud 映射的报表包以供在 Advertising Analytics 中使用。
 title: 为 Advertising Analytics 启用报表包
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 95%
 1. [将报表包映射到组织](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/about-core-services/report-suite-mapping.html)。
 1. 导航至&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
 
-1. 选择已映射到您的 Experience Cloud 组织的报表包。
-1. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL Advertising Analytics 配置]**。
+1. 选择映射到您的 Experience Cloud 组织的报表包。
+1. 单击 **[!UICONTROL 编辑设置]**>**[!UICONTROL Advertising Analytics 配置]**。
 
    ![报表](assets/aa_reporting.png)
 
