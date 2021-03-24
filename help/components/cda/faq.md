@@ -1,11 +1,11 @@
 ---
-title: 跨设备分析常见问题解答
-description: 跨设备分析常见问题解答
-translation-type: tm+mt
+title: Cross-Device Analytics 常见问题解答
+description: Cross-Device Analytics 常见问题解答
+translation-type: ht
 source-git-commit: 087ea279f55d4828d68b1ec16a5505855b34055d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1377'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 您可以使用包含“移动设备类型”维度的流量可视化图表。
 
-1. 登录到 Adobe Analytics，并创建一个新的空白工作区项目。
+1. 登录到 Adobe Analytics，并创建一个新的空白 Workspace 项目。
 2. 单击左侧的“可视化图表”选项卡，然后将流量可视化图表拖到右侧的画布上。
 3. 单击左侧的“组件”选项卡，然后将“移动设备类型”维度拖到标记为“维度或项目”的中心位置。
 4. 此流量报表是交互式的。单击任意值可将流量展开到后续或之前的页面。使用右键单击菜单可展开或折叠列。此外，还可以在同一流量报表中使用不同的维度。
@@ -27,11 +27,11 @@ ht-degree: 91%
 
 ## CDA 可为访客拼合多久之前的数据？
 
-CDA的跨设备拼接发生在两个并发进程中。
+CDA 的跨设备拼接发生在两个同时进行的过程中。
 
-* 第一个过程称为“实时拼接”，它在数据流进入Adobe Analytics时发生。 在实时拼接期间，CDA会尽力在个人级别重新陈述数据。 但是，如果在实时缝合时该人物为未知人物，则CDA会返回访客ID以表示该人物。
+* 第一个过程称为“实时拼接”，随着数据流入 Adobe Analytics 发生此过程。在实时拼接期间，CDA 尽力重申个人层面的数据。但是，如果在实时拼接时不认识这个人，则 CDA 回退到访客 ID 以表示这个人。
 
-* 第二个过程称为“重播”。 在重放期间，CDA在时间上向后，并在指定的回顾窗口中尽可能重新声明历史数据。 此回顾窗口为1天或7天，具体取决于您请求配置CDA的方式。 在重放期间，CDA尝试重新声明之前未知的人的点击。
+* 第二个过程称为“重放”。在重放期间，CDA 回溯过去，如有可能，还重申指定回看时段内的历史数据。回看时段为 1 天或 7 天，具体取决于您要求配置 CDA 的方式。在重放期间，CDA 尝试重申以前认识这个人之处的点击。
 
 * **如果使用设备图**，Adobe 会将协作图和专用图中的设备映射保留大约 6 个月。超过 6 个月无活动的 ECID 将从图表中删除。在 CDA 中已拼合的数据不会受到影响，但该 ECID 的后续点击会被视为新用户的点击。
 
@@ -65,7 +65,7 @@ Adobe 将带有时间戳的点击视为在时间戳时间（而不是 Adobe 收�
 
 ## CDA 中的“人员”量度与 CDA 外的“独特访客”量度有何区别？
 
-由于[人员](/help/components/metrics/people.md)量度报告的是独特个人的数量，因此它与[独特访客](/help/components/metrics/unique-visitors.md)量度类似。但是，在使用跨设备分析时，如果独特访客在 CDA 之外被记录为两个单独的独特访客时，则它们会被合并。启用跨设备分析后，“人员”量度将取代“独特访客”量度。提供了一个新的[独特设备](/help/components/metrics/unique-devices.md)量度，大约等价于跨设备分析之外的“独特访客”量度。
+由于[人员](/help/components/metrics/people.md)量度报告的是独特个人的数量，因此它与[独特访客](/help/components/metrics/unique-visitors.md)量度类似。但是，在使用 Cross-Device Analytics 时，如果独特访客在 CDA 之外被记录为两个单独的独特访客时，则它们会被合并。启用 Cross-Device Analytics 后，“人员”量度将取代“独特访客”量度。提供了一个新的[独特设备](/help/components/metrics/unique-devices.md)量度，大约等价于 Cross-Device Analytics 之外的“独特访客”量度。
 
 ## CDA 中的“独特设备”量度与 CDA 外的“独特访客”量度有何区别？
 
@@ -79,7 +79,7 @@ Adobe 将带有时间戳的点击视为在时间戳时间（而不是 Adobe 收�
 2. 单击所需面板中的调试图标，然后选择所需的可视化和请求时间。
 3. 找到 JSON 请求，您可以在对 Adobe 的 API 调用中使用该请求。
 
-## 跨设备分析可以将独特访客拼合在一起。它能将访问拼合在一起吗？
+## Cross-Device Analytics 可以将独特访客拼合在一起。它能将访问拼合在一起吗？
 
 是的。如果某个人在虚拟报表包的访问超时（默认为 30 分钟）时间内从两个单独的设备发送点击，则这些点击将被拼合到同一访问中。
 
@@ -96,4 +96,4 @@ Adobe 将带有时间戳的点击视为在时间戳时间（而不是 Adobe 收�
 
 ## Adobe 如何处理在基于字段的拼合中使用的 eVar 的唯一性限制？
 
-CDA 会先提取 eVar 维度项目，然后再对其进行优化以用于报表。对于 CDA，您不必担心唯一性限制。但是，如果您尝试在工作区项目中使用该 prop/eVar，您仍然可以看到[（低流量）](/help/technotes/low-traffic.md)维度项目。
+CDA 会先提取 eVar 维度项目，然后再对其进行优化以用于报表。对于 CDA，您不必担心唯一性限制。但是，如果您尝试在 Workspace 项目中使用该 prop/eVar，您仍然可以看到[（低流量）](/help/technotes/low-traffic.md)维度项目。
