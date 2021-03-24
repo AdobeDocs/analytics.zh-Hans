@@ -1,11 +1,11 @@
 ---
-description: 创建一个空白面板作为任何可视化的起点。
+description: 创建空面板作为任何可视化的起点。
 title: 空白面板
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '57'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
