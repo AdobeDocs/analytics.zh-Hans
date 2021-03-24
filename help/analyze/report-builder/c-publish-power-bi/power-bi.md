@@ -1,17 +1,17 @@
 ---
-description: 将Report Builder与MicrosoftPower BI结合使用。
-title: 发布到 Power BI - 概述
+description: 将 Report Builder 用于 Microsoft Power BI。
+title: 发布到 Power BI — 概述
 uuid: ad688817-6e3c-45da-983d-48c123465309
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1026'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# 发布到 Power BI - 概述
+# 发布到 Power BI — 概述
 
 Microsoft Power BI 是一组用来分析数据和共享分析的业务分析功能板。Adobe Analytics 与 Power BI 的集成允许您在 Microsoft Power BI 内可视化 Report Builder Analytics 数据，并在组织范围内轻松共享。
 
@@ -52,7 +52,7 @@ Microsoft Power BI 是一组用来分析数据和共享分析的业务分析功�
 
    ![](assets/workbooks-power-bi.png)
 
-1. 现在您可以查看工作簿功能板数据。   ![](assets/view-data-pbi.png)
+1. 现在您可以查看工作簿功能板数据。  ![](assets/view-data-pbi.png)
 
 1. 您随后可以固定此工作簿的一个区域，以便将其包含在您的任意 Power BI 功能板中。
 
@@ -74,7 +74,7 @@ Microsoft Power BI 是一组用来分析数据和共享分析的业务分析功�
 1. 在 Report Builder 工具栏上，单击&#x200B;**[!UICONTROL 计划]** > **[!UICONTROL 新建]**。
 
 1. 在“基本计划向导”中，单击&#x200B;**[!UICONTROL 高级计划选项]**。
-1. 在[!UICONTROL 计划向导 - 高级]内的&#x200B;**[!UICONTROL 发布选项]**&#x200B;选项卡中，选中&#x200B;**[!UICONTROL 作为 Power BI 数据集表发布所有带格式的表]**&#x200B;旁边的复选框。
+1. 在[!UICONTROL 计划向导 — 高级]内的&#x200B;**[!UICONTROL 发布选项]**&#x200B;选项卡中，选中&#x200B;**[!UICONTROL 作为 Power BI 数据集表发布所有带格式的表]**&#x200B;旁边的复选框。
 
    ![](assets/advanced-schedule-wizard2.png)
 
@@ -82,7 +82,7 @@ Microsoft Power BI 是一组用来分析数据和共享分析的业务分析功�
 
 **在 Power BI 中查看表数据**
 
-1. 在 Power BI 中，转到&#x200B;**[!UICONTROL 工作区]** > **[!UICONTROL 数据集]**&#x200B;菜单。
+1. 在 Power BI 中，转到&#x200B;**[!UICONTROL Workspace]** > **[!UICONTROL 数据集]**&#x200B;菜单。
 
    ![](assets/datasets-menu.png)
 
@@ -112,7 +112,7 @@ Microsoft Power BI 是一组用来分析数据和共享分析的业务分析功�
 1. 在 Report Builder 工具栏上，单击&#x200B;**[!UICONTROL 计划]** > **[!UICONTROL 新建]**。
 
 1. 在“基本计划向导”中，单击&#x200B;**[!UICONTROL 高级计划选项]**。
-1. 在“[!UICONTROL 计划向导 - 高级]”内的&#x200B;**[!UICONTROL 发布选项]**&#x200B;选项卡中，选中&#x200B;**[!UICONTROL 作为 Power BI 数据集表发布所有 Report Builder 请求]**。![](assets/advanced-schedule-wizard2.png)
+1. 在“[!UICONTROL 计划向导 — 高级]”内的&#x200B;**[!UICONTROL 发布选项]**&#x200B;选项卡中，选中&#x200B;**[!UICONTROL 作为 Power BI 数据集表发布所有 Report Builder 请求]**。![](assets/advanced-schedule-wizard2.png)
 
 1. 单击&#x200B;**[!UICONTROL 确定]**。
 
@@ -120,7 +120,7 @@ Microsoft Power BI 是一组用来分析数据和共享分析的业务分析功�
 
 每个计划的 Report Builder 请求都将作为数据集中的表发布。每个请求表均按照请求中的主要维度命名，并具有“[!UICONTROL 报表包]”和“[!UICONTROL 区段]”列。
 
-1. 在 Power BI 中，转到&#x200B;**[!UICONTROL 工作区]** > **[!UICONTROL 数据集]**&#x200B;菜单。
+1. 在 Power BI 中，转到&#x200B;**[!UICONTROL Workspace]** > **[!UICONTROL 数据集]**&#x200B;菜单。
 
 1. 选择已发布的请求并单击它旁边的“[!UICONTROL 创建报表]”图标。
 
