@@ -1,11 +1,11 @@
 ---
 title: clearVars
-description: 从实例对象中清除以下值。此函数会删除以下元素（将其设为“未定义”）。
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '168'
-ht-degree: 100%
+description: 从跟踪对象中清除变量值。
+translation-type: tm+mt
+source-git-commit: f19be69832b0a2b723d825472e0eec1e44f89440
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 100%
 此方法不接受任何参数，也不返回任何值。它的唯一用途是从实例对象中清除变量值。此方法可将以下元素设置为 `undefined`：
 
 * `prop1` - `prop75`
-* `eVar` - `eVar250`
-* `hier1` - `hier5`
-* `list1` - `list3`
+* `eVar` -  `eVar250`
+* `hier1` -  `hier5`
+* `list1` -  `list3`
 * `events`
 * `products`
 * `channel`
