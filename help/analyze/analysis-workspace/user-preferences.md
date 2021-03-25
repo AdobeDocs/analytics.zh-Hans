@@ -2,9 +2,9 @@
 title: 如何在Analysis Workspace中设置用户首选项
 description: 您可以在一个中心位置设置登陆页和项目引用。
 translation-type: tm+mt
-source-git-commit: cbfe63bcb620bbd089d8d6a795662f50643a0109
+source-git-commit: e4ab66f078588ce594cebd9109924a7efadffc14
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '224'
 ht-degree: 27%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 27%
 
 # 用户首选项
 
-通过[!UICONTROL 组件] > [!UICONTROL 用户首选项]页面，您可以为用户管理Analysis Workspace设置及其相关组件。 用户首选项适用于所有&#x200B;*新*&#x200B;项目或面板。
+通过[!UICONTROL 组件] > [!UICONTROL 用户首选项]页面，您可以在用户级别管理Analysis Workspace及其相关组件的设置。 用户首选项适用于所有&#x200B;*新*&#x200B;项目或面板。
 
 ![用户首选项](assets/user-preferences.png)
 
