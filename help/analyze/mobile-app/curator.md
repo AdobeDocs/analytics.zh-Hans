@@ -1,11 +1,11 @@
 ---
 description: 有关设置功能板记分卡的说明。
 title: Adobe Analytics 功能板策划人指南
-translation-type: ht
-source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
-workflow-type: ht
-source-wordcount: '2380'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ea1915fa48a2da55684b7aa9f81fbe0c7d91171b
+workflow-type: tm+mt
+source-wordcount: '2399'
+ht-degree: 87%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 以下信息将指导 Adobe Analytics 数据策划人如何为执行用户配置和展示功能板。要观看相关演示视频，请访问以下“Adobe Analytics 功能板记分卡生成器”视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/34544?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/34544)
 
 ## 简介
 
@@ -72,9 +72,9 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
 ![添加项目](assets/add_project.png)
 
-**使用 [!DNL Analytics] 工具**
+**或**
 
-在 [!DNL Analytics] 中，单击&#x200B;**[!UICONTROL 工具]**&#x200B;菜单，然后选择 **[!UICONTROL Analytics 功能板（移动应用程序）]**。在后续显示的屏幕上，单击&#x200B;**[!UICONTROL 新建记分卡]**&#x200B;按钮。
+从&#x200B;**[!UICONTROL 工具]**&#x200B;菜单中，选择&#x200B;**[!UICONTROL 分析仪表板（移动应用程序）]**。 在后续显示的屏幕上，单击&#x200B;**[!UICONTROL 新建记分卡]**&#x200B;按钮。
 
 ### 使用数据配置记分卡并保存
 
@@ -96,9 +96,9 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
    ![添加维度](assets/layer_dimensions.png)
 
-   您也可以通过将某个维度拖放到记分卡画布上，将其添加到所有图块。
-
    单击记分卡生成器中的图块后，右侧边栏会显示与该图块关联的属性和特征。在此边栏中，您可以为图块提供一个新的&#x200B;**[!UICONTROL 标题]**，或者通过指定组件而不是从左侧边栏中拖放组件来配置图块。
+
+   ![属性拼贴](assets/properties_tile.png)
 
    此外，如果单击图块，动态弹出窗口将会显示“划分”视图在应用程序中向执行用户显示的方式。如果未将任何维度应用于图块，则划分维度将为&#x200B;**小时**&#x200B;或&#x200B;**天**，具体取决于默认日期范围。
 
@@ -110,19 +110,31 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
    ![构建区段以进行过滤](assets/segment_ui.png)
 
-5. 同样，要删除应用于整个记分卡的组件，请单击记分卡上图块外的任意位置，然后单击将鼠标悬停在该组件上时显示的 **x** 来删除组件，如下面的 **[!DNL Mobile Customers]** 区段所示：
+5. 同样，要删除应用于整个记分卡的组件，请单击拼贴外部记分卡上的任意位置，然后单击将鼠标悬停在组件上时显示的&#x200B;**x**&#x200B;将其删除，如&#x200B;**首次访问**&#x200B;区段所示：
 
    ![Remove_components](assets/new_remove.png)
 
-6. 在记分卡的&#x200B;**[!UICONTROL 属性]**&#x200B;下，您还可以选择指定以下内容：
+6. 通过选择日期范围下拉列表，添加和删除可在记分卡中选择的日期范围组合。
 
-   * **[!UICONTROL 默认日期范围]**。此处指定的范围将与针对执行用户在其应用程序中首次访问记分卡所应用的范围相同。
+   ![新得分卡](assets/new_score_card.png)
 
-   * **[!UICONTROL 比较日期范围]**
+   每个新记分卡开始具有6个日期范围组合，侧重于从今天到昨天的数据。 单击x可删除不必要的日期范围，也可以单击铅笔编辑每个日期范围组合。
 
-   * 要应用到整个记分卡的任何&#x200B;**[!UICONTROL 区段]**
+   ![新得分卡2](assets/new_score_card2.png)
 
-7. 要命名记分卡，请单击屏幕左上角的命名空间，然后键入新名称。
+   要创建或更改主日期，请使用下拉框从可用日期范围中进行选择，或将日期组件从右边栏拖放到拖放区中。
+
+   ![新得分卡3](assets/new_score_card3.png)
+
+   要创建比较日期，您可以从下拉菜单中为常见时间比较选择方便的预设。 您还可以从右边栏中拖放日期组件。
+
+   ![新配乐卡4](assets/new_score_card4.png)
+
+   如果尚未创建您想要的日期范围，则可以单击日历图标创建新日期范围。
+
+   ![新配乐卡4](assets/new_score_card5.png)
+
+7. 此操作将带您进入日期范围生成器，您可以在其中创建并保存新的日期范围组件。 要命名记分卡，请单击屏幕左上角的命名空间，然后键入新名称。
 
    ![Naming_Scorecards](assets/new_name.png)
 
@@ -201,7 +213,7 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
    * 验证执行用户是否可以登录正确的 Analytics 实例，以及是否已共享记分卡。
 
 
-3. 向执行用户说明图块在您共享的记分卡中的显示方式（下面的第一个记分卡是在深色模式下设置的；如果您认为您的执行用户更喜欢这个视图选项，请参阅&#x200B;**[!UICONTROL 首选项]**）：
+3. 向执行用户说明拼贴在您共享的记分卡中的显示方式(下面的第一个记分卡在深色模式下设置；如果您认为您的执行用户喜欢此查看选项，请参阅下面的&#x200B;**[!UICONTROL 首选项]**:
 
    ![说明图块](assets/newexplain.png)
 
@@ -225,13 +237,9 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
    * 将包含一个表以显示已添加到图块的各维度的数据。点按向下箭头以选择维度。如果未将维度添加到图块，则表将显示图表数据。
 
-5. 要更改记分卡的日期范围，请执行以下操作：
+5. 要更改记分卡的日期范围，请点按日期标题，然后选择要视图的主要和比较日期范围组合。
 
    ![更改日期](assets/changedate.png)
-
-   * 您也可以按相同方式更改上面显示的“划分”视图中的日期范围。
-
-   * 根据点按的时间间隔（**日**、**周**、**月**&#x200B;或&#x200B;**年**），您将看到两个日期范围选项，即当前时间范围或紧随其前的时间范围。点按这两个选项之一，以选择第一个范围。在&#x200B;**[!UICONTROL 比较对象]**&#x200B;列表下，点按其中显示的一个选项，以将此时间段的数据与您选择的第一个日期范围进行比较。点按屏幕右上角的&#x200B;**[!UICONTROL 完成]**。**[!UICONTROL 日期范围]**&#x200B;字段和记分卡图块会更新以显示您选择的新范围中的新比较数据。
 
 6. 要提供对应用程序的反馈，请执行以下操作：
 
