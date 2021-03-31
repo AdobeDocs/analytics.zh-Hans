@@ -1,13 +1,14 @@
 ---
 description: 这部分内容主要面向 Adobe Analytics 管理员。关注的重点是新的链接跟踪参数，以及这些参数如何确保链接在各种浏览器和设备上的唯一性和一致性，以及如何更好地处理链接在页面上的位置变换。
 title: 链接跟踪方法
-topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '1000'
-ht-degree: 100%
+feature: Activity Map
+role: 业务从业者，管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1005'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +26,7 @@ Activity Map 根据以下两个 ID 进行链接跟踪：
 * 主 ID：这是链接的可识别参数。
 * 链接区域：这是次要参数，允许用户指定一个代表页面内或区域内整个链接区域的的字符串。如果用户没有提供此参数，此参数则会自动生成。
 
-## 主 ID {#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
+## 主 ID  {#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
 
 如果 HTML 拥有 s_objectid，则默认情况下，主 ID 就是 s_objectid。否则，以下参数将作为主 ID（按照下面的优先顺序）：
 
@@ -35,7 +36,7 @@ Activity Map 根据以下两个 ID 进行链接跟踪：
 * Src
 * Action
 
-## 使用 InnerText 与使用链接操作 (URL) 的对比 {#section_70C3573E22274522A8CC035BF18EC468}
+## 使用 InnerText 与使用链接操作 (URL) 的对比  {#section_70C3573E22274522A8CC035BF18EC468}
 
 链接操作是指单击链接时网页所采取的操作 - 通常是指单击链接后访问的 URL。使用链接操作时，可能会遇到以下一些问题：
 
