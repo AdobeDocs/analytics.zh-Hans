@@ -1,10 +1,12 @@
 ---
 title: 多个报表包
 description: 了解如何在工作区中使用多个报表包来创建项目以及为什么创建项目
+feature: Workspace 基础
+role: 业务员, 管理员
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '528'
 ht-degree: 100%
 
 ---
