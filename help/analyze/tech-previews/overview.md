@@ -1,10 +1,12 @@
 ---
 title: Labs 用户指南
 description: 预览 Adobe Analytics 的原型项目
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '434'
+feature: Labs
+role: 管理员
+translation-type: tm+mt
+source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+workflow-type: tm+mt
+source-wordcount: '436'
 ht-degree: 100%
 
 ---
