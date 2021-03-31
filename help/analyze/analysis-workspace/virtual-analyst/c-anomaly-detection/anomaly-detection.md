@@ -2,11 +2,13 @@
 description: 您可以在 Analysis Workspace 中根据上下文查看和分析数据异常。
 title: 异常检测概述
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
+feature: AI工具
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 90%
+source-wordcount: '291'
+ht-degree: 89%
 
 ---
 
