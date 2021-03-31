@@ -2,11 +2,13 @@
 description: Power BI最佳实践。
 title: 最佳实践
 uuid: 6d55a9aa-030e-4e4d-963c-ec9cc38e1731
+feature: Report Builder
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 97%
+source-wordcount: '143'
+ht-degree: 95%
 
 ---
 
