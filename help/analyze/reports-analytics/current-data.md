@@ -2,13 +2,14 @@
 description: Reports & Analytics 中的“包括当前数据”选项通常可让您在数据经过完全处理并完成前，查看最新的 Analytics 数据。“当前数据”会在数分钟内显示大部分量度，为快速制定决策提供可用数据。
 subtopic: Current Data
 title: 当前数据
-topic: Reports
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
+feature: 报告和分析基础
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: 03b1195225b97f3ea151eb5b4f39fbed746b3654
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 97%
+source-wordcount: '572'
+ht-degree: 96%
 
 ---
 
@@ -25,7 +26,7 @@ Reports &amp; Analytics 中的“包括当前数据”选项通常可让您在�
 
 * 使用 Analysis Workspace，该工具用的是完全处理的数据。
 * 单击当前数据报表设置中的“否”，以便仅使用完全处理的数据。
-* 从 Admin Console 中的产品配置文件中删除“当前数据”权限项，以防止非管理员用户看到此选项。有关详细信息，请参阅《管理员用户指南》中的[分析工具的产品用户档案权限](/help/admin/admin-console/permissions/analytics-tools.md)。
+* 从 Admin Console 中的产品配置文件中删除“当前数据”权限项，以防止非管理员用户看到此选项。有关详细信息，请参阅《管理员用户指南》中的[Analytics Tools](/help/admin/admin-console/permissions/analytics-tools.md)的产品用户档案权限。
 
 由于对数据可用性进行优先级排序，当前数据不能与区段、分类、划分、路径和某些量度一起使用。如果使用了这些功能的其中一项，则报表中的当前数据将被强制设置为“否”，并显示一则黄色通知，解释当前数据不可用的原因。
 
