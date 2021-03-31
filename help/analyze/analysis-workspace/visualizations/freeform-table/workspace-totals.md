@@ -1,11 +1,13 @@
 ---
 description: 工作区总计的计算方式。
 title: 工作区总计
+feature: 自由格式表
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 97%
+source-wordcount: '519'
+ht-degree: 99%
 
 ---
 
@@ -19,15 +21,15 @@ ht-degree: 97%
 
 ![](assets/total-row.png)
 
-## 显示总计设置 {#display-total}
+## 显示总计设置  {#display-total}
 
 在&#x200B;**[!UICONTROL 列设置]**&#x200B;下，有&#x200B;**[!UICONTROL 显示总数]**&#x200B;和&#x200B;**[!UICONTROL 显示总计]**&#x200B;选项。如果未选中这些设置，则将从表中删除总计。当总计不合理（例如，在某些[计算量度](https://docs.adobe.com/content/help/zh-Hans/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html)场景中）时，可能需要此操作。
 
 ![](assets/column-settings-total.png)
 
-## 静态行总计设置 {#static-row-total}
+## 静态行总计设置  {#static-row-total}
 
-[静态行](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html)总计的行为方式不尽想同，可采用&#x200B;**[!UICONTROL 行设置]**&#x200B;来进行控制。
+[静态行](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html)总计的行为方式不尽想同，可采用&#x200B;**[!UICONTROL 行设置]**&#x200B;来进行控制。
 
 * **[!UICONTROL 将当前行的总和显示为总计]** - 此设置将显示表中行的客户端总和，这意味着总计将&#x200B;**不会**&#x200B;消除重复的量度，如访问次数或访客。
 * **[!UICONTROL 显示总计]** - 此设置将显示服务器端总和，这意味着总计将消除重复的量度，如访问次数或访客。
