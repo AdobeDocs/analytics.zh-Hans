@@ -2,11 +2,13 @@
 description: 列设置允许您配置列格式，其中一些可以是条件格式。
 title: 列设置
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
+feature: 自由格式表
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: f2c6cda9743094cf198b4449b9163e3004d9e151
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 94%
+source-wordcount: '725'
+ht-degree: 93%
 
 ---
 
@@ -26,8 +28,8 @@ ht-degree: 94%
 | 元素 | 描述 |
 | --- | --- |
 | **总单元格数** |  |
-| 显示总数 | This total is typically equal to or a subset of the [!UICONTROL Grand Total]. 它反映自由格式表内应用的任何表过滤器，包括[!UICONTROL 不包含任何内容]选项。 |
-| 显示全部总计 | 此总数表示已收集的所有点击，有时称为“报表包总数”。 当在面板级别或自由格式表中应用区段时，此总计会进行相应的调整以反映符合区段标准的所有点击。Grand total is not supported for tables or breakdowns with [static rows](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md). |
+| 显示总数 | 此总数通常等于或[!UICONTROL Grand Total]的子集。 它反映自由格式表内应用的任何表过滤器，包括[!UICONTROL 不包含任何内容]选项。 |
+| 显示全部总计 | 此总数表示已收集的所有点击，有时称为“报表包总数”。 当在面板级别或自由格式表中应用区段时，此总计会进行相应的调整以反映符合区段标准的所有点击。对于[静态行](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)的表或划分，不支持总计。 |
 | **表单元格** |  |
 | 数值 | 确定单元格是否显示/隐藏量度的数值。例如，如果量度是“页面查看次数”，则数值是行项目的页面查看次数。 |
 | 百分比 | 确定单元格是否显示/隐藏量度的百分比值。例如，如果量度是“页面查看次数”，则百分比值等于行项目的页面查看次数除以该列的页面查看总数。注意：我们可以显示大于 100% 的百分比，准确度提高了。此外，我们还将上限调整为 1,000%，以确保允许列值有充足的变化范围。 |
