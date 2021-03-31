@@ -1,10 +1,12 @@
 ---
 description: Adobe Analysis Workspace 及其相关组件中的已知限制列表
 title: Analysis Workspace 中的已知限制
+feature: Workspace 基础
+role: 业务员, 管理员
 translation-type: tm+mt
-source-git-commit: 00f36d8583ec9224337404cfd7fa020502d89c2d
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '420'
 ht-degree: 100%
 
 ---
