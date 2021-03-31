@@ -2,8 +2,13 @@
 description: 如果您要通过 Power BI 手动导入 Analytics 数据，请按照以下说明执行操作。
 title: 将数据手动导入 Power BI
 uuid: c84f7a90-7b40-4065-9fe7-5eb19e5e2473
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+feature: Report Builder
+role: 业务从业者，管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 96%
 
 ---
 
