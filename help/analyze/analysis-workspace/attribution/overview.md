@@ -1,11 +1,13 @@
 ---
 title: 归因概述
 description: 将成功事件的点数归因到多个维度项目的概念。
+feature: 归因
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 100%
+source-wordcount: '423'
+ht-degree: 99%
 
 ---
 
