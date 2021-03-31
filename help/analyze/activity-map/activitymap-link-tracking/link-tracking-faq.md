@@ -1,13 +1,14 @@
 ---
 description: 有关 Activity Map 中链接跟踪的常见问题解答。
 title: 链接跟踪常见问题解答
-topic: Activity map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '522'
-ht-degree: 100%
+feature: Activity Map
+role: 业务从业者，管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '527'
+ht-degree: 99%
 
 ---
 
@@ -88,7 +89,7 @@ ht-degree: 100%
    <td colname="col1"> <b>问：能否提供一些不被跟踪的链接示例？</b> </td> 
    <td colname="col2"> 
     <ol id="ol_CDFDB572F76B4F68A64B66A6B0237547"> 
-     <li id="li_99372060646B43EF94C13A9C682CE693">原因：锚标记不具备有效的 href 
+     <li id="li_99372060646B43EF94C13A9C682CE693">原因：锚标记不具备有效的 href  
       <code>
         &lt;a&amp;nbsp;name="innerAnchor"&gt;Section&amp;nbsp;header&lt;/a&gt; 
       </code> </li> 
