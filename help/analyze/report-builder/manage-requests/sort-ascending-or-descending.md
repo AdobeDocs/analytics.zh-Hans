@@ -1,10 +1,14 @@
 ---
 description: 您可以按升序或降序排列请求管理器中列出的请求。
 title: 升序排序或降序排序
-topic: Report builder
 uuid: 81199890-c183-4e42-a343-dc33a9e9ed46
+feature: Report Builder
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '102'
+ht-degree: 97%
 
 ---
 
