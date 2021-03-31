@@ -1,13 +1,14 @@
 ---
 description: 计划报表时，您可以选择要用于分发的发布列表。
 title: 允许发布列表覆盖
-topic: Report builder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
+feature: Report Builder
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 94%
+source-wordcount: '169'
+ht-degree: 92%
 
 ---
 
