@@ -1,13 +1,14 @@
 ---
 description: 在 Activity Map 或旧版 ClickMap 中，停止链接跟踪的步骤。
 title: 停止链接跟踪
-topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
-source-wordcount: '74'
-ht-degree: 100%
+feature: Activity Map
+role: 业务从业者，管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +27,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> Activity Map </td> 
-   <td colname="col2"> 从 Appmeasurement.js 文件删除以下内容： 
+   <td colname="col2"> 从 Appmeasurement.js 文件删除以下内容：  
     <code>
      /*
      &nbsp;START&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;The&nbsp;following&nbsp;module&nbsp;enables&nbsp;Activity&nbsp;Map&nbsp;tracking&nbsp;in&nbsp;Adobe&nbsp;Analytics.&nbsp;Activity&nbsp;Map
