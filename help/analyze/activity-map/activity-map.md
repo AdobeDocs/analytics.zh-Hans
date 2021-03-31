@@ -1,13 +1,14 @@
 ---
 description: Activity Map 是一款 Adobe Analytics 应用程序，专门用于通过可视化叠加图为链接活动排名，并且可以提供实时分析功能板，以监控受众在您网页上的参与度。
 title: Activity Map 概述
-topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
-source-wordcount: '282'
-ht-degree: 100%
+feature: Activity Map
+role: 业务从业者，管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '287'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +41,7 @@ Activity Map 允许您设置不同的视图，以此来直观地标识客户活�
 * [标准模式与实时模式的对比](activitymap-standard-live.md)
 * [链接报表](activitymap-links-report.md)
 * [详细信息页面](activitymap-page-flow.md)
-* [整套量度](activitymap-complete-metrics.md)
+* [整套指标](activitymap-complete-metrics.md)
 * [实时页面分析（实时模式）](activitymap-realtime.md)
 * [客户分段](activitymap-multiple-segments.md)
 * [可自定义的叠加图](activitymap-gainerslosers.md)
