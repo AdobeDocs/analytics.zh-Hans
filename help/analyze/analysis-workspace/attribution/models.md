@@ -1,11 +1,13 @@
 ---
 title: 归因模型和回顾时间范围
 description: 不同类型的归因如何在维度项目之间划分点数。
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '1484'
-ht-degree: 100%
+feature: 归因
+role: 业务从业者，管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1488'
+ht-degree: 99%
 
 ---
 
