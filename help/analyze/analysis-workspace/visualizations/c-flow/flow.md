@@ -2,11 +2,13 @@
 description: 在 Workspace 项目中使用流可视化。
 title: 流量概述
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '211'
-ht-degree: 100%
+feature: 可视化图表
+role: 业务从业者，管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '215'
+ht-degree: 98%
 
 ---
 
@@ -33,6 +35,6 @@ ht-degree: 100%
 
 每一列可显示一个不同的维度。在拖放区域中对维度进行拖放，以将该维度添加到图表。
 
-## 将流量图导出为项目 .CSV 文件的一部分 {#section_BACD2639A0FC4C49A75398F7D0363D9D}
+## 将流量图导出为项目 .CSV 文件的一部分  {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
 流量图可以作为您能够创建的项目 .CSV 文件的一部分，方法是转到&#x200B;**[!UICONTROL 项目]** > **[!UICONTROL 下载 CSV]**。这可以让您分析 Microsoft Excel（以表格形式显示）或其他软件中的流量结果。
