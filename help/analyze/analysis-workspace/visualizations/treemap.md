@@ -2,8 +2,13 @@
 description: 将分层（树结构）数据显示为一组嵌套的矩形。
 title: 树状图
 uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
+feature: 可视化图表
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 96%
 
 ---
 
