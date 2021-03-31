@@ -2,11 +2,13 @@
 description: 创建、编辑或删除警报。
 title: 警报管理器
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '159'
-ht-degree: 100%
+feature: AI工具
+role: 业务从业者，管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 96%
 
 ---
 
