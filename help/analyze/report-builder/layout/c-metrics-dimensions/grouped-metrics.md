@@ -1,13 +1,14 @@
 ---
 description: 现在您可以在同一请求中组合使用这两种量度类型，而不必分别创建不同的请求。
 title: 在同一请求中组合使用流量和商务量度
-topic: Report builder
 uuid: 2813d594-f4ec-4f6a-8539-ec7d954a392f
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '98'
-ht-degree: 100%
+feature: Report Builder
+role: 业务从业者，管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 97%
 
 ---
 
