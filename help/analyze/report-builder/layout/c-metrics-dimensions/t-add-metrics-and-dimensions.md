@@ -1,13 +1,14 @@
 ---
 description: 向请求添加量度和维度的步骤。
 title: 添加量度和维度
-topic: Report builder
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '515'
-ht-degree: 100%
+feature: Report Builder
+role: 业务从业者，管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '520'
+ht-degree: 99%
 
 ---
 
