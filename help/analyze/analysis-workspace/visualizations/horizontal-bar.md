@@ -2,11 +2,13 @@
 description: 在 Workspace 项目中使用水平条形图可视化。
 title: 水平条形图和堆叠的水平条形图
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '70'
-ht-degree: 100%
+feature: 可视化图表
+role: 业务从业者，管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +21,7 @@ ht-degree: 100%
 
 ![](assets/horizontal_bar.png)
 
-## 堆叠的水平条形图 {#section_50C08E9E20A94024A6553BC352ADB597}
+## 堆叠的水平条形图  {#section_50C08E9E20A94024A6553BC352ADB597}
 
 此可视化与[!UICONTROL 水平条形图]类似，只是系列条以堆叠方式显示。
 
