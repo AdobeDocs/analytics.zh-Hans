@@ -1,13 +1,14 @@
 ---
 description: 分类划分用于将分析报表数据映射到相关属性。分类的用途广泛，但最常用于对促销活动跟踪代码（内部和外部）和产品 ID 进行分类。
 title: 分类
-topic: Report builder
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
+feature: Report Builder
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 100%
+source-wordcount: '184'
+ht-degree: 98%
 
 ---
 
