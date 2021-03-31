@@ -2,11 +2,13 @@
 description: 使用Report Builder和MicrosoftPower BI时的限制。
 title: 限制和规范
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
+feature: Report Builder
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 97%
+source-wordcount: '629'
+ht-degree: 96%
 
 ---
 
