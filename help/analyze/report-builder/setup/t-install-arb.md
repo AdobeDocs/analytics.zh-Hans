@@ -1,10 +1,14 @@
 ---
 description: 说明如何安装 Report Builder 的步骤。
 title: 安装 Report Builder
-topic: Report builder
 uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
-translation-type: ht
-source-git-commit: 67864f04effbc5cb41c14b9651da9144312148d9
+feature: Report Builder
+role: 业务从业者，管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 97%
 
 ---
 
