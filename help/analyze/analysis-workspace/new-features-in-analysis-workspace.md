@@ -2,11 +2,13 @@
 description: Analysis Workspace 的新增功能
 keywords: Analysis Workspace
 title: Analysis Workspace 中的新增功能
+feature: Workspace 基础
+role: 业务员, 管理员
 translation-type: tm+mt
-source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '8211'
+ht-degree: 99%
 
 ---
 
