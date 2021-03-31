@@ -2,10 +2,12 @@
 description: 根据标准或自定义模板创建 Workspace 项目。
 title: 模板
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '1397'
+feature: Workspace 基础
+role: 业务员, 管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1402'
 ht-degree: 100%
 
 ---
