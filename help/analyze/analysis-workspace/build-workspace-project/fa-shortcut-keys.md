@@ -2,18 +2,20 @@
 description: 在 Analysis Workspace 中，可使用键盘交互、快捷键以及点击行为。
 keywords: Analysis Workspace
 title: 热键（快捷键）
+feature: Workspace 基础
+role: 业务员, 管理员
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 74%
+source-wordcount: '289'
+ht-degree: 75%
 
 ---
 
 
 # 热键（快捷键）
 
-Analysis Workspace提供热键（键盘快捷键），实现无缝导航、分析、添加面板和可视化以及民主化（共享）。
+Analysis Workspace中提供热键（键盘快捷键），可实现无缝导航、分析、添加面板和可视化以及民主化（共享）。
 
 注释：
 * `Ctrl` = Windows和 `Command` = Mac
