@@ -1,10 +1,14 @@
 ---
 description: 如果您通过锁定单元格保护工作表，则无法创建、编辑或刷新请求。在使用请求管理器之前，请取消工作表中的所有保护。
 title: 受保护的工作表元素
-topic: Report builder
 uuid: 4b632862-4943-4567-a458-46a6548952fa
+feature: Report Builder
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 97%
 
 ---
 
