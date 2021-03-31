@@ -2,10 +2,12 @@
 description: 允许您将用户定义的文本添加至您的工作区。
 title: 文本
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
+feature: 可视化图表
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: 19cdf2b854dabf8c21ccdacc3de0aff05b31af9c
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '172'
 ht-degree: 7%
 
 ---
@@ -13,7 +15,7 @@ ht-degree: 7%
 
 # 文本
 
-您可以使用文本可视化或面板／可视化描述（右键单击标题> **[!UICONTROL 编辑描述]**），将用户定义的文本添加到您的Workspace项目。 您还可以更改文本的格式、添加超链接和添加图像。
+您可以使用文本可视化或面板/可视化描述（右键单击标题> **[!UICONTROL 编辑描述]**），将用户定义的文本添加到您的Workspace项目。 您还可以更改文本的格式、添加超链接和添加图像。
 
 ## 调整格式{#format}
 
@@ -23,12 +25,12 @@ ht-degree: 7%
 
 ## 添加超链接 {#hyperlinks}
 
-要添加超链接，请高亮显示文本，然后单击菜单中的超链接图标。 超链接可链接到外部网站、文档页、[Workspace项目／面板／可视化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html)等，以进一步帮助您的项目收件人。
+要添加超链接，请高亮显示文本，然后单击菜单中的超链接图标。 超链接可链接到外部网站、文档页、[Workspace项目/面板/可视化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html)等，以进一步帮助您的项目收件人。
 
 ![](assets/hyperlink.png)
 
 ## 添加图像{#images}
 
-要向项目添加图像，请单击菜单中的图像图标，然后插入公共图像URL。 图像URL必须以`https`开头且格式为`.png`、`.jpeg`、`.jpg`或`.gif`。 支持静态和动画图像。
+要向项目中添加图像，请单击菜单中的图像图标，然后插入公共图像URL。 图像URL必须以`https`开头，并且格式为`.png`、`.jpeg`、`.jpg`或`.gif`。 支持静态和动画图像。
 
 ![](assets/image.png)
