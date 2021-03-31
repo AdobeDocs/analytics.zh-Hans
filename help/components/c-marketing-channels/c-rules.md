@@ -2,7 +2,7 @@
 title: 营销渠道的处理规则
 description: 营销渠道处理规则决定访客点击是否符合分配到渠道的标准。这些规则处理访客在网站上的每次点击。当规则不符合渠道标准时，或者如果规则配置不正确，系统会将该点击分配到“未识别渠道”。
 translation-type: tm+mt
-source-git-commit: 91009f0c184987726e9e7e6714f14f56ae831576
+source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt
 source-wordcount: '2138'
 ht-degree: 90%
@@ -39,15 +39,15 @@ ht-degree: 90%
 
    请参阅[运行自动设置](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
 
-3. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 营销渠道]** > **[!UICONTROL 营销渠道处理规则]**。如果您运行了自动设置，将自动为您定义一组渠道和规则。
+3. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 营销渠道]** > **[!UICONTROL 营销渠道处理规则]**。如果您运行了自动设置，系统会自动为您定义一组渠道和规则。
 
    ![步骤结果](assets/marketing_channel_rules.png)
 
-4. 如果要添加新规则，请从“添加新规 **[!UICONTROL 则集”菜单中选择]** 。 如果您选择渠道，则您将获得规则模板，如果您选择“自定义”，则您将从空白的石板中进行开始。 这两个选项都允许您根据需要修改规则集。
+4. 如果要添加新规则，请从&#x200B;**[!UICONTROL 添加新规则集]**&#x200B;菜单中选择。 如果您选择了渠道，则会为您提供一个规则模板，如果您选择了“自定义”，则会从空白的石板中开始。 这两个选项都允许您根据需要修改规则集。
 
    ![步骤结果](assets/example_email.png)
 
-5. To continue creating rules, click **[!UICONTROL Add New Rule SetRule]**.
+5. 要继续创建规则，请单击&#x200B;**[!UICONTROL 添加新规则集规则]**。
 6. 要对规则优先排序，请将其拖放到所需位置。
 7. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -55,7 +55,7 @@ ht-degree: 90%
 
 ### 设置营销渠道值
 
-**[!UICONTROL 设置渠道的值]** ，定义可用于该渠道的营销渠道详细信息维。 这使您可以细分营销渠道维度，并查看有关渠道的更多详细信息。
+**[!UICONTROL 设置渠道的]** 值可定义可用于该渠道的营销渠道详细信息维度。这使您可以细分营销渠道维度，并查看有关渠道的更多详细信息。
 
 建议将渠道值设置为与用于定义渠道本身相同的标准。例如，如果使用查询字符串参数定义渠道，还应将查询字符串参数设置为渠道值。
 
@@ -65,7 +65,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->您定义的任何文本字段(如查询字符串参数或要匹配的列表值)都将计算为不 **区分大小写的** 值。 例如，如果有一个规则，查询字符串参数cmp = abc123，则“cmp”和“abc123”的所有版本都将匹配该规则。 您无需列表这些值的多个大小写版本。
+>您定义的任何文本字段(如查询字符串参数或要匹配的列表值)都将计算为&#x200B;**不区分大小写**&#x200B;值。 例如，如果您有一个规则，其中查询字符串参数cmp = abc123，则所有版本的“cmp”和“abc123”都将匹配该规则。 您无需列表这些值的多个大小写版本。
 
 | 术语 | 定义 |
 |--- |--- |
@@ -88,7 +88,7 @@ ht-degree: 90%
 | 页面根目录域 (TLD+1) | 访客所登陆页面的根目录域，如 example.co.uk。 |
 | 页面 URL | 网站上网页的 URL。 |
 | 反向链接域 | 访客访问您的网站之前来自的域，例如反向链接来自 `abcsite.com` 和 `xyzsite.com`。 |
-| 查询字符串参数 | If a page URL on your site looks like `https://example.com/?page=12345&cat=1`, then &#39;page&#39; and &#39;cat&#39; are both query string parameters. （请参阅 `https://en.wikipedia.org/wiki/Query_string`。）您只可为每个规则集指定一个查询字符串参数。要添加额外的查询字符串参数，可使用 `ANY` 作为您的运算符，然后将新的查询字符串参数添加到规则中。查询字符串参数被评估为不区分大小写；例如，“cat”和“CAT”将以相同的方式进行评估。 |
+| 查询字符串参数 | 如果您网站上的页面URL看起来像`https://example.com/?page=12345&cat=1`，则“page”和“cat”都是查询字符串参数。 （请参阅 `https://en.wikipedia.org/wiki/Query_string`。）您只可为每个规则集指定一个查询字符串参数。要添加额外的查询字符串参数，可使用 `ANY` 作为您的运算符，然后将新的查询字符串参数添加到规则中。查询字符串参数被评估为不区分大小写；例如，&quot;cat&quot;和&quot;CAT&quot;将以相同的方式进行计算。 |
 | 反向链接 | 访客在访问您的网站前所在的网页位置（完整的 URL）。反向链接存在于所定义域的外部。 |
 | 引荐域和路径 | 引荐域和 URL 路径的组合。示例包括：    `www.example.com/products/id/12345` 或 `ad.example.com/foo` |
 | 引荐参数 | 反向链接 URL 上的查询字符串参数。例如，如果您的访客来自 `example.com/?page=12345&cat=1`，则 page 和 cat 为引荐参数。 |
@@ -122,7 +122,7 @@ ht-degree: 90%
 
 免费搜索是指，在您无需为您的网站排名向搜索引擎支付费用的情况下，访客就能通过网络搜索找到您的网站。
 
-分析没有免费搜索检测的功能。在设置了“付费搜索检测”之后，系统可以推断出如果一个搜索反向链接不是付费的，则它必然是免费搜索反向链接。有关详细信息，请参阅管理员中的[付费搜索检测](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)。
+分析没有免费搜索检测的功能。在设置了“付费搜索检测”之后，系统可以推断出如果一个搜索反向链接不是付费的，则它必然是免费搜索反向链接。有关详细信息，请参阅管理员中的[付费搜索检测](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)。
 
 对于营销渠道规则，“免费搜索”设置如下：
 
@@ -130,7 +130,7 @@ ht-degree: 90%
 
 ### 显示 {#display}
 
-这项规则识别来自横幅广告的访客。它是由目标 URL 中的查询字符串参数标识的，在此例中为 *`Ad_01`*。查询字符串参数及其查找的值将计算为不区分大小写的值。
+这项规则识别来自横幅广告的访客。它是由目标 URL 中的查询字符串参数标识的，在此例中为 *`Ad_01`*。查询字符串参数和它查找的值将计算为不区分大小写的值。
 
 ![](assets/example_display.png)
 
@@ -154,7 +154,7 @@ ht-degree: 90%
 
 ### 社交网站 {#social-networks}
 
-此规则识别源自社交网络的访客，如Facebook;。 此渠道通常重命名为“原始社交”。其设置如下所示：
+此规则可识别源自社交网络的访客，如Facebook;。 此渠道通常重命名为“原始社交”。其设置如下所示：
 
 ![](assets/example_social.png)
 
