@@ -1,13 +1,14 @@
 ---
 description: 运行不同的报表类型的步骤。
 title: 运行不同的报表类型
-topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '2358'
-ht-degree: 100%
+feature: 报告和分析基础
+role: 业务从业者，管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '2364'
+ht-degree: 99%
 
 ---
 
@@ -95,7 +96,7 @@ t_reports_fallout.xml
 
 页面流量报表显示访客访问页面和导航网站的顺序。此报表有助于解答相关问题。
 
-在 Analysis Workspace 中查看新的[流量可视化](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)！
+在 Analysis Workspace 中查看新的[流量可视化](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)！
 
 运行[路径](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-paths.html)报表。
 
@@ -153,7 +154,7 @@ t_anomaly_view.xml
 
 >[!NOTE]
 >
->另外，您也可以在 Analysis Workspace 项目中运行异常检测。[更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
+>另外，您也可以在 Analysis Workspace 项目中运行异常检测。[更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
 有关设置异常检测的信息，请参阅《[参考指南](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection)》。
 
@@ -182,7 +183,7 @@ t_anomaly_view.xml
         <li id="li_4090357A0D214BC7B1C3DE0615875554">如果下限与期望值相同，则偏差百分比为 -100%。 </li> 
         <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">否则，偏差百分比为：((下限值 – 实际值) / (期望值 – 下限值)) * -100 </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">单击<span class="uicontrol">显示区段</span>可显示区段边栏，以允许您将区段应用到异常检测报表。请参阅有关分段的<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/seg-home.html"  >更多信息</a>。 </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C">单击<span class="uicontrol">显示区段</span>可显示区段边栏，以允许您将区段应用到异常检测报表。请参阅有关分段的<a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html"  >更多信息</a>。 </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">单击<span class="uicontrol">编辑量度</span>可让您选择和取消选择要为其检测异常的量度。 </li> 
      </ul> </p> </td> 
   </tr> 
