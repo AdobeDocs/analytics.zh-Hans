@@ -2,13 +2,14 @@
 description: 有关计划、下载和分发报表的信息。
 subtopic: Schedule
 title: 报表计划和分发
-topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1661'
-ht-degree: 100%
+feature: 报表, Reports and Analytics
+role: 业务从业者，管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1668'
+ht-degree: 99%
 
 ---
 
