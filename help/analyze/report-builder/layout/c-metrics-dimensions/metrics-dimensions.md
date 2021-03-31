@@ -1,13 +1,14 @@
 ---
 description: 您可以在“请求向导：第 2 步”中添加量度和维度，以定义请求中数据的 Analytics 布局。Report Builder 中的量度和维度列表遵循 Reports and Analytics 中显示的菜单布局。
 title: 量度和维度概述
-topic: Report builder
 uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '237'
-ht-degree: 100%
+feature: Report Builder
+role: 业务从业者，管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 98%
 
 ---
 
