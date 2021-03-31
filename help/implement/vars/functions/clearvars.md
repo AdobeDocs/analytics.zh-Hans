@@ -1,11 +1,11 @@
 ---
 title: clearVars
-description: 从跟踪对象中清除变量值。
+description: 从实例对象中清除以下值。此函数会删除以下元素（将其设为“未定义”）。
 translation-type: tm+mt
-source-git-commit: f19be69832b0a2b723d825472e0eec1e44f89440
+source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '168'
+ht-degree: 100%
 
 ---
 
