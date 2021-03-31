@@ -1,10 +1,14 @@
 ---
 description: 您可以过滤添加到“行标签”网格中的维度。过滤器可减少请求返回的数据，并且可以从引导布局或自定义布局中进行应用。通过引导布局配置维度过滤时，您还可以指定单元格中的条目数。
 title: 过滤器维度概述
-topic: Report builder
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
+feature: Report Builder
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +21,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 定义过滤器 - 值和特殊字符 {#section_15840216A4044C40974945FAA435AD93}
 
-有关“ **[!UICONTROL Most Popular Filter]** >”面板中过滤器 **[!UICONTROL Define Filter]** 的信息。
+**[!UICONTROL 最受欢迎的过滤器]** > **[!UICONTROL 定义过滤器]**&#x200B;面板中提供了有关过滤器的信息。
 
 ![](assets/define_filter.png)
 
@@ -54,7 +58,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   <tr> 
    <td colname="col1"> <p>不包含任何词语 </p> </td> 
    <td colname="col02"> <p>返回所有不包含输入值的结果。 </p> </td> 
-   <td colname="col2"> <p>a b c </p> </td> 
+   <td colname="col2"> <p>b c </p> </td> 
    <td colname="col3"> <p>匹配 <span class="term">d e f</span>，但不匹配 <span class="term">c d e f</span>。 </p> </td> 
   </tr> 
   <tr> 
@@ -85,7 +89,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td colname="col1"> <p>结束于 </p> </td> 
    <td colname="col02"> <p>返回以特定值结尾的结果。 </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
-   <td colname="col3"> <p>Matches <span class="term"> wxyz</span> but not <span class="term"> wxyz0</span> </p> </td> 
+   <td colname="col3"> <p>匹配<span class="term"> wxyz</span>但不匹配<span class="term"> wxyz0</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>高级（特殊字符） </p> </td> 
@@ -114,7 +118,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> " " </td> 
+   <td colname="col1"> " </td> 
    <td colname="col2"> 等于 </td> 
    <td colname="col3"> <p>不会转义，除非引号未配对使用。例如，<span class="term">17" 显示器</span>不是一个短语。 </p> </td> 
   </tr> 
