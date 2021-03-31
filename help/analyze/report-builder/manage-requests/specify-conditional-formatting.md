@@ -1,13 +1,14 @@
 ---
 description: 创建具有嵌入请求的报表后，您可以对工作簿的单元格应用条件格式。
 title: 指定条件格式
-topic: Report builder
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
+feature: Report Builder
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 100%
+source-wordcount: '189'
+ht-degree: 98%
 
 ---
 
