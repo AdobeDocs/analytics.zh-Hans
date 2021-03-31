@@ -2,11 +2,13 @@
 description: 智能警报的用例。
 title: 智能警报 — 用例
 uuid: e848f004-c044-4c7e-a0ac-9f3ea2df9a05
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '89'
-ht-degree: 100%
+feature: AI工具
+role: 业务从业者，管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 94%
 
 ---
 
