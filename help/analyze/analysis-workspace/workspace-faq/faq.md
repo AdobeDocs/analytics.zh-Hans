@@ -1,10 +1,12 @@
 ---
 description: 工作区常见问题解答
 title: 工作区常见问题解答以及故障诊断
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-source-wordcount: '523'
+feature: Workspace 基础
+role: 业务员, 管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '528'
 ht-degree: 100%
 
 ---
