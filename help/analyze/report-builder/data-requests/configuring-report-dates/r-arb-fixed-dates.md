@@ -1,10 +1,14 @@
 ---
 description: Report Builder 中固定日期的定义。
 title: 请求向导定义 - 固定日期
-topic: Report builder
 uuid: bd65a312-bab6-46d7-ba30-570777344cc9
+feature: Report Builder
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 97%
 
 ---
 
