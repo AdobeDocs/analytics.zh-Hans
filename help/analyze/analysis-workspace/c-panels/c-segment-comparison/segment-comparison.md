@@ -1,12 +1,14 @@
 ---
 title: 区段比较面板概述
 description: 了解如何使用“区段比较”面板（Analysis Workspace 中区段 IQ 的一部分）。
-keywords: Analysis Workspace;Segment IQ
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '1137'
-ht-degree: 100%
+keywords: Analysis Workspace;区段 IQ
+feature: 面板
+role: 业务从业者，管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1145'
+ht-degree: 99%
 
 ---
 
