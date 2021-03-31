@@ -2,13 +2,14 @@
 description: 在 Analysis Workspace 中划分维度和维度项目。
 keywords: Analysis Workspace
 title: 划分维度
-topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
+feature: Workspace 基础
+role: 业务员, 管理员
 translation-type: tm+mt
-source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 88%
+source-wordcount: '233'
+ht-degree: 92%
 
 ---
 
@@ -30,7 +31,7 @@ ht-degree: 88%
    >
    >数据表可显示的划分数量最多为 200 个。在导出划分时，该限额会有所增加。
 
-[在Analysis Workspace为您的项目添加Dimension和指标](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/metrics/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html) (11:39)
+[在Analysis Workspace中将Dimension和量度添加到您的项目](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/analysis-workspace/metrics/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html) (11:39)
 
 [在自由形式表中使用Dimension](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html) (15:35)
 
