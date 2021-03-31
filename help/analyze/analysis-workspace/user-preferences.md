@@ -1,11 +1,12 @@
 ---
 title: 如何在Analysis Workspace中设置用户首选项
-description: 您可以在一个中心位置设置登陆页和项目引用。
+feature: Workspace 基础
+role: 业务员, 管理员
 translation-type: tm+mt
-source-git-commit: e4ab66f078588ce594cebd9109924a7efadffc14
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 27%
+source-wordcount: '217'
+ht-degree: 30%
 
 ---
 
