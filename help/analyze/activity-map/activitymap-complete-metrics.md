@@ -1,10 +1,14 @@
 ---
 description: 允许您在 Activity Map 工具栏中，访问 Adobe Analytics 的整套量度。
 title: 整套量度
-topic: Activity map
 uuid: e8d73671-4e96-49e7-9b47-711cfe186821
+feature: Activity Map
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 通过了解链接点击次数对下游用户行为的影响，您可以更有效地优化网站内容和布局，以此来改善客户访问您网站的体验。哪些链接参与了转化？作为一名零售商，您或许希望将收入或订单归因于特定的链接点击次数。作为一名出版商，您或许希望将网站逗留时间归因于特定的链接点击次数。
 
-Activity Map 的早期版本在为工具添加其他量度方面，能力略显不足。该版本则支持 Adobe Analytics 中的所有量度。有关 Analytics 标准量度的更多信息，请转至[此处](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metricslist.html)。
+Activity Map 的早期版本在为工具添加其他量度方面，能力略显不足。该版本则支持 Adobe Analytics 中的所有量度。有关 Analytics 标准量度的更多信息，请转至[此处](https://docs.adobe.com/content/help/zh-Hans/analytics/components/variables/metrics/metricslist.html)。
 
 您可以通过工具栏中的下拉菜单，访问 Adobe Analytics 中的 eVar 支持的整套量度。
 
