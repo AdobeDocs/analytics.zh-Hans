@@ -1,13 +1,14 @@
 ---
 description: 异常检测使用统计建模，自动查找数据中的意外趋势。该模型可分析量度并确定值的下限、上限和预期范围。如果发生意外的尖峰或低谷，系统会在报表中进行警报。
 title: 异常检测
-topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '518'
-ht-degree: 100%
+feature: Report Builder
+role: 业务从业者，管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '523'
+ht-degree: 99%
 
 ---
 
