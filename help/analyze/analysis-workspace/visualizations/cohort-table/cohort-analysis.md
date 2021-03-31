@@ -1,11 +1,13 @@
 ---
 title: 同类群组分析是什么及其如何工作？
 description: 用同类群组分析更深入地挖掘您受众周围的数据并细分为相关的各组。了解 Analysis Workspace 中的同类群组分析。
-translation-type: ht
-source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: ht
-source-wordcount: '492'
-ht-degree: 100%
+feature: 可视化图表
+role: 业务从业者，管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '496'
+ht-degree: 98%
 
 ---
 
@@ -14,7 +16,7 @@ ht-degree: 100%
 
 *`cohort`* 是指一组在特定期限内共享相同特性的人员。例如，在您想了解如何让一个同类群组喜欢某个品牌时，[!UICONTROL 同类群组分析]就能派上用场。您可以轻松识别趋势中的变化，然后相应地采取回应。（网上提供了有关[!UICONTROL 同类群组分析]的解释说明，例如[同类群组分析基础](https://zh.wikipedia.org/wiki/Cohort_analysis)。）
 
-创建队列报表后，您可以组织其组件（特定的维度、指标和区段），然后可以与其他任何人员共享这份队列报表。请参阅[策划与共享](/help/analyze/analysis-workspace/curate-share/curate.md)。
+创建队列报表后，您可以组织其组件（特定的维度、指标和区段），然后可以与其他任何人员共享这份队列报表。请参阅[Curate and Share](/help/analyze/analysis-workspace/curate-share/curate.md)。
 
 使用[!UICONTROL 同类群组分析]可以实现的作用（示例）：
 
