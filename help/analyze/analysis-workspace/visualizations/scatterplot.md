@@ -1,11 +1,13 @@
 ---
 title: 散点图
 description: 显示与最多三个量度之间的关系的可视化图表。
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '111'
-ht-degree: 100%
+feature: 可视化图表
+role: 业务从业者，管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '115'
+ht-degree: 97%
 
 ---
 
