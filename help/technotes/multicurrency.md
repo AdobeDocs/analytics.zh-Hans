@@ -1,10 +1,12 @@
 ---
 description: 介绍如何定义目标货币代码以使多货币支持正常工作。
 title: 多货币支持
-topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 63a6ca92ae5fe103648c74bd16bcdf90858c71f3
+source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+workflow-type: tm+mt
+source-wordcount: '1383'
+ht-degree: 100%
 
 ---
 
