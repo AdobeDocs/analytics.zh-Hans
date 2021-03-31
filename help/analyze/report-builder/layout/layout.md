@@ -1,10 +1,14 @@
 ---
 description: 通过“请求向导：第 2 步”窗口，您可以配置输出的报表布局、标题格式和维度过滤。您可以使用引导布局配置请求，这与创建 Excel 数据透视表类似。
 title: 布局 - 请求向导第 2 步
-topic: Report builder
 uuid: 92409e22-8b21-4827-af2f-bfef8368e0f7
+feature: Report Builder
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 97%
 
 ---
 
