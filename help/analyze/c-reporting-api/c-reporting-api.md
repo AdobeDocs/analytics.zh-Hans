@@ -2,10 +2,12 @@
 description: Reporting API 的资源和链接。
 title: Analytics 报表 API
 uuid: 68ec3490-6e47-4606-860d-dd5e89c574a1
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '34'
+feature: API
+role: 开发人员
+translation-type: tm+mt
+source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+workflow-type: tm+mt
+source-wordcount: '36'
 ht-degree: 100%
 
 ---
