@@ -2,12 +2,13 @@
 description: 在Reports & Analytics中使用警报。
 subtopic: Alerts
 title: 警报
-topic: Reports and Analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
+feature: 警报
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '889'
 ht-degree: 99%
 
 ---
