@@ -2,11 +2,13 @@
 description: 在 Workspace 项目中运行贡献分析报表。
 title: 运行贡献分析
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '601'
-ht-degree: 100%
+feature: AI工具
+role: 业务从业者，管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '606'
+ht-degree: 99%
 
 ---
 
