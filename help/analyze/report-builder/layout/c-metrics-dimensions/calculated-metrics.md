@@ -2,11 +2,12 @@
 description: Report Builder 5.2 支持 Adobe Analytics 统一的计算量度。作为诸多创新中的一种，目前所有计算量度都拥有一个全局 ID - 不再局限于单一的报表包之中。
 title: 计算量度
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '362'
-ht-degree: 100%
+role: 业务从业者，管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '365'
+ht-degree: 99%
 
 ---
 
@@ -27,7 +28,7 @@ Report Builder 5.2 支持 Adobe Analytics 统一的计算量度。作为诸多�
 
 单击“过滤器”图标 ![](assets/segment_filter.png) 可以&#x200B;**过滤**&#x200B;计算量度。
 
-“高级过滤器”对话框同时包含标准量度和计算量度。
+。“高级过滤器”对话框同时包含标准量度和计算量度。
 
 可用的过滤器包括：
 
@@ -43,7 +44,7 @@ Report Builder 5.2 支持 Adobe Analytics 统一的计算量度。作为诸多�
 | 其他过滤器 > 我的 | 显示您拥有的所有量度。 |
 | 其他过滤器 > 与我共享 | 显示他人与您共享的所有量度。 |
 
-## 应用计算量度 {#section_DF5CF349460A45FDA4B6E6BB8B52F18E}
+## 应用计算量度  {#section_DF5CF349460A45FDA4B6E6BB8B52F18E}
 
 选定过滤器后，单击&#x200B;**[!UICONTROL 应用]**，可将过滤器应用到您的请求。此时，选定的量度会被添加到报表布局中。
 
