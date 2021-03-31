@@ -1,13 +1,14 @@
 ---
 description: 您可以通过以下方式区分链接：使用 s_objectID 变量来自定义链接 ID；自定义区域；以及自定义 AppMeasurement ActivityMap 模块文件。
 title: 区分引用相同链接 ID 和区域的多个链接
-topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
+feature: Activity Map
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: 370d81bafc523b00a38b0064ad4ca3e6bb655d9f
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 100%
+source-wordcount: '378'
+ht-degree: 99%
 
 ---
 
@@ -49,7 +50,7 @@ ht-degree: 100%
 
 如何自定义网页和标签，以区分这些链接的值？您有三种选项：您可以自定义链接 ID、自定义区域，或自定义 AppMeasurement ActivityMap 模块文件。
 
-## 使用 s_objectID 来自定义链接 ID {#section_01B0D463397B4837B2D46F087A6E5937}
+## 使用 s_objectID 来自定义链接 ID  {#section_01B0D463397B4837B2D46F087A6E5937}
 
 通过为链接或页面上的链接位置创建唯一对象 ID，您可以改善 Activity Map 跟踪功能，或使用 Activity Map（而非链接 URL）来报告链接的类型或位置。单击[此处](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/page-vars/page-variables.html)，以了解有关 s_objectID 变量的更多信息。
 
@@ -86,7 +87,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 自定义区域 {#section_6B1EF302573B445DBAF44176D0A12DB9}
+## 自定义区域  {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
 您可以通过确保各个“购买”链接都定义了自己的区域，来自定义区域。要完成此操作，请将“id”参数添加到各个“购买”锚标记的父项之一。
 
@@ -123,7 +124,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 自定义 AppMeasurement ActivityMap 模块文件 {#section_B933BB9F944E4D5389002908A5A881F8}
+## 自定义 AppMeasurement ActivityMap 模块文件  {#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
 >
