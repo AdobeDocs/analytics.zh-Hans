@@ -1,10 +1,12 @@
 ---
 description: 有关设置功能板记分卡的说明。
 title: Adobe Analytics 功能板策划人指南
+feature: 分析仪表板
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: ea1915fa48a2da55684b7aa9f81fbe0c7d91171b
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2404'
 ht-degree: 87%
 
 ---
