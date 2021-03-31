@@ -2,11 +2,13 @@
 description: 在日历中，您可以指定日期和日期范围，或者选择一个预设。
 title: 日历和日期范围概述
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
+feature: Workspace 基础
+role: 业务员, 管理员
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 97%
+source-wordcount: '380'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +25,7 @@ ht-degree: 97%
 
 您还可以将日期（和时间维度）拖放到工作区项目中。您可以选择特定的日期、周、月、年或滚动日期。
 
-[在 Analysis Workspace 中使用日期范围和日历](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html) (4:07)
+[在 Analysis Workspace 中使用日期范围和日历](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html) (4:07)
 
 | 设置 | 描述 |
 |--- |--- |
