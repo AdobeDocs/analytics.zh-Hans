@@ -1,11 +1,12 @@
 ---
 title: 将tl()方法与Activity Map
 description: 可以使用tl()方法跟踪自定义元素并为动态内容配置叠加渲染。
-topic: Activity Map
+feature: Activity Map
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: 65cb0a49ef74156f0b8adf4a11c6fec6394d306f
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '486'
 ht-degree: 43%
 
 ---
