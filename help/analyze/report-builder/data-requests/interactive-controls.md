@@ -1,10 +1,14 @@
 ---
 description: 交互控件允许您直接从工作表编辑一个或多个请求的区段和日期范围。这使您可以更加灵活地更新 Report Builder 请求。
 title: 交互控件
-topic: Report builder
 uuid: 5f324b61-e032-455e-9947-5037f013e0fa
+feature: Report Builder
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '546'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +27,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 >必须安装 Report Builder v5.0 才能使用交互控件。>
 >* 如果您在 Windows 上运行 Microsoft Excel，但是运行较低版本的 Report Builder，或者如果您未安装 Report Builder：您可以更改交互控件中的值，但这不会刷新关联的请求，也不会更新请求的关联参数。
 >* 如果您在 Mac 上运行 Excel，则更改控件中的值将会导致显示以下消息：“找不到宏‘Adobe.ReportBuilder.Bridge.FormControlClick.Event’。”
+
 >
 
 
@@ -33,8 +38,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 实施交互日期范围控件 {#section_39B228F2D2C44985863D31424C953280}
 
-1. In Step 1 of the Request Wizard select, for example, the **[!UICONTROL Page]** report.
-1. 单击下拉 **[!UICONTROL Commonly Used Dates]** 框旁边的图 **[!UICONTROL Control Settings]** 标：
+1. 在“请求向导”的第 1 步中，例如，选择&#x200B;**[!UICONTROL 页面]**&#x200B;报表。
+1. 在&#x200B;**[!UICONTROL 常用日期]**&#x200B;下拉列表的旁边，单击&#x200B;**[!UICONTROL 控件设置]**&#x200B;图标：
 
    ![](assets/date_range_control.png)
 
@@ -47,16 +52,16 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    * 如果选中，则会刷新使用此控件的所有请求。
    * 如果不选中，则会更新关联的请求参数，而不会刷新请求。
 
-1. 单击 **[!UICONTROL OK]**. 控件出现在您指定的单元格位置：
+1. 单击&#x200B;**[!UICONTROL 确定]**。控件出现在您指定的单元格位置：
 
    ![](assets/date_range_control_interactive.png)
 
 1. 现在，您可以更改日期范围，请求将根据此日期范围进行刷新。
 1. 您还可以复制请求，然后单击鼠标右键以使用两个“粘贴请求”选项之一：
 
-   * **[!UICONTROL Paste Request]** > **[!UICONTROL Use Absolute Input Cell]**. 这意味着复制的请求将指向与原始请求相同的交互日期范围控件。
+   * **[!UICONTROL 粘贴请求]** > **[!UICONTROL 使用绝对输入单元格]**。这意味着复制的请求将指向与原始请求相同的交互日期范围控件。
 
-   * **[!UICONTROL Paste Request]**> **[!UICONTROL Use Relative input Cell]**. 这意味着复制的请求将指向其自身的控件。
+   * **[!UICONTROL 粘贴请求]** > **[!UICONTROL 使用相对输入单元格]**。这意味着复制的请求将指向其自身的控件。
 
       >[!NOTE]
       >
@@ -66,7 +71,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 实施交互区段控件与实施日期范围控件类似。
 
-1. In Step 1 of the Request Wizard, next to the **[!UICONTROL Segment]** drop-down list, select the Segment Control Settings icon:
+1. 在“请求向导”的第 1 步中，在&#x200B;**[!UICONTROL 区段]**&#x200B;下拉列表旁边选择“区段控件设置”图标：
 
    ![](assets/segment_interactive_1.png)
 
