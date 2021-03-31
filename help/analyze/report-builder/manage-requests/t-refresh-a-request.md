@@ -1,10 +1,14 @@
 ---
 description: 通过编辑、应用过滤器更新请求后，或者需要查看更新的数据时，您需要刷新请求。您可以选择一个工作表中的多个请求，然后一次刷新所有这些请求。
 title: 刷新请求
-topic: Report builder
 uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
+feature: Report Builder
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 98%
 
 ---
 
@@ -16,13 +20,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 如果增加请求的日期范围，然后刷新该请求，则 Report Builder 会添加单元格，以适应添加的时段数。
 
 1. 创建并运行请求。
-1. After you have changed the request, right-click the request, then choose **[!UICONTROL Refresh Request]** from the shortcut menu. (Alternatively, click in the request, then click **[!UICONTROL Refresh]** in the toolbar.)
+1. 更改请求后，右键单击请求，然后从快捷菜单中选择&#x200B;**[!UICONTROL 刷新请求]**。（或者，单击请求，然后单击工具栏中的&#x200B;**[!UICONTROL 刷新]**。）
 
-   The system displays the [!UICONTROL Refresh Requests] form:
+   系统将显示“[!UICONTROL 刷新请求]”窗体：
 
-   **“现在”日期：**&#x200B;您希望运行刷新的日期。也称为日 [!UICONTROL As Of] 期。
+   **“现在”日期：**&#x200B;您希望运行刷新的日期。也称为“[!UICONTROL 截止]”日期。
 
-   **设置为将来刷新操作的当前日期：** 启用此选项会通知报表生成器始终使用当前日期作为 [!UICONTROL Now] (或 [!UICONTROL As Of])日期。 You can revert this setting by clicking [!UICONTROL Options] in the toolbar.
-1. 单击 **[!UICONTROL OK]**.
+   **在以后的刷新操作中设置为当前日期：**&#x200B;如果启用此选项，将告知 Report Builder 始终使用当前日期作为“[!UICONTROL 现在]”（或“[!UICONTROL 截止]”）日期。您可以通过单击工具栏中的“[!UICONTROL 选项]”还原此设置。
+1. 单击&#x200B;**[!UICONTROL 确定]**。
 
-   When a refresh is successful, the system reports this with a green icon on the [!UICONTROL Request Manager].
+   成功刷新后，系统将通过在[!UICONTROL 请求管理器]中显示一个绿色图标来报告这一情况。
