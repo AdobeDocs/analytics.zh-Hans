@@ -2,18 +2,20 @@
 description: 使用“概要数字”和“概要变化”可视化图表来显示项目中的重要数据点。
 title: 概要数字和概要变化
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
+feature: 可视化图表
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: f3f1fdda35552d23767cc9bd64d47c4b99a5900b
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '466'
+ht-degree: 99%
 
 ---
 
 
 # 概要数字和概要变化
 
-## “概要数字”可视化图表 {#summary-number}
+## “概要数字”可视化图表  {#summary-number}
 
 使用“概要数字”可视化图表来突出显示项目中的大型重要数字。此可视化图表的行为方式如下：
 
