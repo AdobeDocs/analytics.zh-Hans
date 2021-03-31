@@ -2,11 +2,13 @@
 description: 通过电子邮件发送 Analysis Workspace 项目，或者计划发送项目的时间。
 keywords: Analysis Workspace
 title: 计划项目
+feature: 策划和共享
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 99%
+source-wordcount: '476'
+ht-degree: 98%
 
 ---
 
