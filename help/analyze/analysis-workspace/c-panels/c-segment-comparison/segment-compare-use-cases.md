@@ -1,9 +1,14 @@
 ---
 title: “区段比较”用例
 description: 了解有关如何使用“区段比较”面板深入了解营销策略的实际用例。
-keywords: Segment IQ
+keywords: 区段 IQ
+feature: 面板
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 99%
 
 ---
 
