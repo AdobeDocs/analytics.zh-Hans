@@ -1,13 +1,14 @@
 ---
 description: 假设您已经安装了正确的浏览器插件，那么就可以直接通过网页启动 Activity Map。
 title: 启动 Activity Map
-topic: Activity map
 uuid: f617fbc3-a577-4bd2-a316-578959219874
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '75'
-ht-degree: 100%
+feature: Activity Map
+role: 业务从业者，管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '80'
+ht-degree: 96%
 
 ---
 
