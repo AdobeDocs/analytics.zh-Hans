@@ -2,11 +2,13 @@
 description: 将 Report Builder 用于 Microsoft Power BI。
 title: 发布到 Power BI — 概述
 uuid: ad688817-6e3c-45da-983d-48c123465309
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '1026'
-ht-degree: 100%
+feature: Report Builder
+role: 业务从业者，管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1031'
+ht-degree: 99%
 
 ---
 
@@ -52,7 +54,7 @@ Microsoft Power BI 是一组用来分析数据和共享分析的业务分析功�
 
    ![](assets/workbooks-power-bi.png)
 
-1. 现在您可以查看工作簿功能板数据。  ![](assets/view-data-pbi.png)
+1. 现在您可以查看工作簿功能板数据。   ![](assets/view-data-pbi.png)
 
 1. 您随后可以固定此工作簿的一个区域，以便将其包含在您的任意 Power BI 功能板中。
 
