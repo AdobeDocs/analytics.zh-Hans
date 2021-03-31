@@ -1,10 +1,14 @@
 ---
 description: 复制简单请求，而不是引用请求。简单请求是指不引用另一请求或单元格内容的请求。
 title: 复制简单请求
-topic: Report builder
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
+feature: Report Builder
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '543'
+ht-degree: 99%
 
 ---
 
@@ -18,11 +22,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 1. 右键单击请求映射到的单元格之一，或者选择包含请求的单元格区域。
 
    从请求涉及的单元格组中选择要作为复制起始位置的单元格时要保持一致。首选方法是选择请求涉及的单元格组中左上角的单元格，并按从左到右的顺序工作。这是因为 Excel 电子表格包含可向右和向下扩展的数百列和数千行。如果您决定从与请求关联的单元格组中的最右侧或底部单元格开始复制请求，那么，如果要粘贴的单元格将超出电子表格的左边界或上边界，系统将不允许您粘贴请求。
-1. 选择 **[!UICONTROL Copy Request]**。
+1. 选择&#x200B;**[!UICONTROL 复制请求]**。
 1. 在电子表格的另一区域，右键单击一个空白单元格（不包含请求的单元格）。
 
-   为了防止丢失或损坏已创建的请求，您无法将包含请求的单元格粘贴到当前已与请求建立映射关系的单元格中。If you copy or cut cells containing requests, the shortcut menu does not make the [!UICONTROL Paste Requests] option available when right clicking on cells (or the set of cells) containing requests. 必须选择其他单元格作为粘贴操作的目标位置，以便请求不会重叠。无论选择包含要粘贴的请求的单个单元格还是包含请求的单元格区域，都会出现这种情况。
-1. 单击 **[!UICONTROL Paste Request]**.
+   为了防止丢失或损坏已创建的请求，您无法将包含请求的单元格粘贴到当前已与请求建立映射关系的单元格中。如果复制或剪切包含请求的单元格，在右键单击包含请求的单元格（或单元格组）时，快捷菜单中的“[!UICONTROL 粘贴请求]”选项不可用。必须选择其他单元格作为粘贴操作的目标位置，以便请求不会重叠。无论选择包含要粘贴的请求的单个单元格还是包含请求的单元格区域，都会出现这种情况。
+1. 单击&#x200B;**[!UICONTROL 粘贴请求]**。
 
    系统会根据原始请求的布置将原始请求的副本放置在一个或多个位置的单元格中。
 
