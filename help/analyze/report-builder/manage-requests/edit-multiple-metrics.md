@@ -2,8 +2,12 @@
 description: 通过“编辑跨越多个请求的量度”功能，您可以在一个预先存在的请求中或一组请求间轻松地添加、删除或替换量度。
 title: 编辑跨越多个请求的量度
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '570'
+ht-degree: 99%
 
 ---
 
@@ -17,14 +21,14 @@ source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 请记住以下事项
 
 * 只能将量度添加到引导布局请求中。如果某些选定的请求为自定义布局，则无法添加量度。其原因在于，由于布局进行了自定义，Report Builder 不知道将新量度放置到电子表格中的哪个地方。
-* Accordingly, if you have selected only Custom Layout requests, the **[!UICONTROL Add Metric/s]** option is not available.
+* 因此，如果您只选择自定义布局请求，则&#x200B;**[!UICONTROL 添加量度]**&#x200B;选项不可用。
 * 添加量度将增加请求的大小，并且可能会导致与其他请求重叠。请确保您的请求周围有足够的空间以允许添加量度。
 * 如果添加的量度已存在于某一个选定的请求中，则不会将其添加到该请求。
 
 要添加一个或多个量度，请执行以下操作：
 
-1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (或者，单击 **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > `<choose metric>`**[!UICONTROL Edit Group]** >以选择要修改的请求组。)
-1. 选择**[!UICONTROL Add Metric(s)]**并选择要添加的度量。
+1. 在 Excel 中选择一个或多个请求，并右键单击选择&#x200B;**[!UICONTROL 编辑量度]**。（或者，单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 编辑多个]** > `<choose metric>` > **[!UICONTROL 编辑群组]**，以选择要修改的一组请求）。
+1. 选择 **[!UICONTROL 添加量度]** 并选择要添加的量度。
 
    ![](assets/add_metric.png)
 
@@ -45,9 +49,9 @@ source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 替换量度
 
-1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (或者，单击 **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > **`<choose metric>`****[!UICONTROL Edit Group]** >以选择要修改的请求组。)
+1. 在 Excel 中选择一个或多个请求，并右键单击选择&#x200B;**[!UICONTROL 编辑量度]**。（或者，单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 编辑多个]** > **`<choose metric>`** > **[!UICONTROL 编辑群组]**，以选择要修改的一组请求）。
 
-1. 选择 **[!UICONTROL Replace Metric]**。
+1. 选择&#x200B;**[!UICONTROL 替换量度]**。
 
    ![](assets/replace_metric.png)
 
@@ -65,9 +69,9 @@ source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 要删除量度，请执行以下步骤：
 
-1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (或者，单击 **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > **`<choose metric>`****[!UICONTROL Edit Group]** >以选择要修改的请求组。)
+1. 在 Excel 中选择一个或多个请求，并右键单击选择&#x200B;**[!UICONTROL 编辑量度]**。（或者，单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 编辑多个]** > **`<choose metric>`** > **[!UICONTROL 编辑群组]**，以选择要修改的一组请求）。
 
-1. 选择 **[!UICONTROL Remove Metric(s)]**。
+1. 选择&#x200B;**[!UICONTROL 删除量度]**。
 
    ![](assets/remove_metric.png)
 
