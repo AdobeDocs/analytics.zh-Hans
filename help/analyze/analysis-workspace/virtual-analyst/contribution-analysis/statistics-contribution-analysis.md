@@ -2,8 +2,13 @@
 description: 贡献分析是一个密集型计算机学习过程，专为揭示导致 Adobe Analytics 中所发现异常的因素而设计。它旨在帮助用户以远快于其他方式的速度找到执行进一步分析的焦点领域或时机。
 title: 贡献分析中使用的统计技术
 uuid: f77eb4e4-4fd6-4397-b8a8-a063f199b676
+feature: AI工具
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '335'
+ht-degree: 98%
 
 ---
 
