@@ -1,11 +1,13 @@
 ---
 title: Adobe Analytics 功能板 - 概述
 description: Adobe Analytics 功能板的产品文档和自助信息
-translation-type: ht
-source-git-commit: 3612800349243ed4ce7a137a6c2eaf12e5abb4a2
-workflow-type: ht
-source-wordcount: '206'
-ht-degree: 100%
+feature: 分析仪表板
+role: 业务从业者，管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 97%
 
 ---
 
