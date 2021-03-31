@@ -1,11 +1,13 @@
 ---
 title: 报表
 description: Reports & Analytics 用于每个报表的维度和量度。
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '1863'
-ht-degree: 100%
+feature: 报表 & Analytics 基础
+role: 业务从业者，管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1869'
+ht-degree: 99%
 
 ---
 
