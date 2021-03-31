@@ -1,17 +1,19 @@
 ---
 description: 工作区中的仅查看项目
-keywords: View-only projects
-title: 仅视图项目
+keywords: 仅供查看的项目
+title: 仅供查看的项目
+feature: 策划和共享
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 98%
+source-wordcount: '254'
+ht-degree: 97%
 
 ---
 
 
-# 仅视图项目
+# 仅供查看的项目
 
 您可以通过[项目共享工作流程](/help/analyze/analysis-workspace/curate-share/share-projects.md)与收件人共享“仅查看”项目。处于“可以查看”角色的收件人将获得更有限的项目体验。如果您将项目共享给不太熟悉您组织的数据结构（通常情况下是 Analysis Workspace 或 Adobe Analytics）的用户，但仍希望他们在安全的环境中使用数据和洞察，则可能希望这样做。
 
