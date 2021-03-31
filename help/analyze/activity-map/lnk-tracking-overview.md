@@ -1,13 +1,14 @@
 ---
 description: 'Activity Map 利用更加可靠的算法来跟踪链接 '
 title: 可靠的链接跟踪
-topic: Activity map
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
+feature: Activity Map
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 100%
+source-wordcount: '244'
+ht-degree: 98%
 
 ---
 
