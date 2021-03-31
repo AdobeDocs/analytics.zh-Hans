@@ -1,10 +1,14 @@
 ---
 description: 描述如何创建带有预定义过滤器的路径报表。
 title: 通过添加从属请求过滤路径报表
-topic: Report builder
 uuid: dd1294f8-a26b-4254-a9f6-1365b2912adf
+feature: Report Builder
+role: 业务从业者，管理员
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '200'
+ht-degree: 98%
 
 ---
 
@@ -13,9 +17,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 描述如何创建带有预定义过滤器的路径报表。
 
-Marketing Reports &amp; Analytics优惠了几份独立报告，这些报告是主要路径报告与预定义过滤器, [!UICONTROL Next] 如 [!UICONTROL Previous Site Section] 和报告、条目 [!UICONTROL Exit Site Section] 和报告以及 [!UICONTROL Single Site Section] 报告。
+市场营销 Reports &amp; Analytics 提供了一些独立的报表，这些报表为带有预定义过滤器的顶级路径报表，例如[!UICONTROL “下一个网站区域”]和[!UICONTROL “上一个网站区域”]报表、“登入网站区域”和[!UICONTROL “退出网站区域”]报表以及[!UICONTROL “单个网站区域”]报表。
 
-Report Builder does not offer these as standalone reports, but you can create them through the **[!UICONTROL Add dependent request]** > **[!UICONTROL Path]** context menus. 下面提供了可创建的报表：
+Report Builder 并没有提供这些作为独立报表，但是您可以通过&#x200B;**[!UICONTROL 添加从属请求]** > **[!UICONTROL 路径]**&#x200B;上下文菜单进行创建。下面提供了可创建的报表：
 
 * “路径”>“页面流失”
 * “路径”>“登入路径”
@@ -27,12 +31,12 @@ Report Builder does not offer these as standalone reports, but you can create th
 * “路径”>“登入路径”>“作为登入页”
 * “路径”>“退出路径”>“作为退出页”
 
-1. 从现有请求中选择多行，然后右键单击 **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Path]**。
+1. 从现有请求中选择多行，然后右键单击&#x200B;**[!UICONTROL 添加从属请求]** > **[!UICONTROL 路径]**。
 
-   (Note that you have to select at least 3 rows if you want to see the **[!UICONTROL Page Fallout]** menu item.)
+   （请注意，如果您希望看到&#x200B;**[!UICONTROL 页面流失]**&#x200B;菜单项，则必须至少选择 3 行。）
 
    ![](assets/dependen_request.png)
 
-1. Select the predefined filter, for example **[!UICONTROL Previous Page]**.
+1. 选择预定义过滤器，例如&#x200B;**[!UICONTROL 上一页]**。
 
    此时会出现“请求向导”，其中已选定“上一页”量度。1. 继续在“请求向导”中优化并生成您的请求。
