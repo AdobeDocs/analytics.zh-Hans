@@ -2,11 +2,13 @@
 description: 通过维度间流量可以跨不同维度查看用户路径。
 title: 维度间流量
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
-translation-type: ht
-source-git-commit: 87bfd1124e7f467e741f13deddd5770296f23827
-workflow-type: ht
-source-wordcount: '305'
-ht-degree: 100%
+feature: 可视化图表
+role: 业务从业者，管理员
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '309'
+ht-degree: 99%
 
 ---
 
