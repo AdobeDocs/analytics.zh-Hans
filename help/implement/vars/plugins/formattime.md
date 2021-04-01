@@ -1,11 +1,11 @@
 ---
 title: formatTime
 description: 将秒数转换为以分钟、小时等为单位的等效值。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 56b21b6acb948c478d7b2a29c3e8375a8fe77ce2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '824'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -155,9 +155,9 @@ s.eVar1 = s.formatTime(145, "m", .4);
 
 ## 版本历史记录
 
-### 2.0（2021年3月19日）
+### 2.0（2021 年 3 月 19 日）
 
-* 已添加版本号作为上下文数据。
+* 以上下文数据形式添加了版本号。
 
 ### 1.1（2018 年 5 月 21 日）
 
