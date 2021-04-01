@@ -1,11 +1,11 @@
 ---
 title: 移动设备维度
-description: Dimension基于设备的IP地址。
-translation-type: tm+mt
+description: 基于设备的 IP 地址的维度。
+translation-type: ht
 source-git-commit: 76605232c180fb6a3d4c181614f43b75e1d06cd5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '891'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 93%
 
 ## 使用数据填充这些维度
 
-这些维引用Adobe内部的查找规则。 [!UICONTROL 移动] 运营商查找由IP地址决定，它使用我们从NetAcuity（一种数字元素产品）获得的数据。如果您使用 AppMeasurement 库（例如，通过 Adobe Experience Platform Launch），则所有移动设备维度均可开箱即用。
+这些维度引用 Adobe 内部的查找规则。[!UICONTROL 移动运营商]查找是用从 NetAcuity（Digital Elements 产品）获得的数据根据 IP 地址确定的。如果您使用 AppMeasurement 库（例如，通过 Adobe Experience Platform Launch），则所有移动设备维度均可开箱即用。
 
 ## 移动设备维度描述
 
@@ -27,7 +27,7 @@ ht-degree: 93%
 >标有 `"None"` 的维度项目为非移动设备。如果您希望报表只包含移动设备，请将“移动设备”维度拖入 Workspace 画布的区段区域。
 
 * **移动设备音频支持**：确定设备可播放的文件格式。示例值包括 `"MP3"`、`"AAC"` 和 `"MIDI Monophonic"`。此维度中的值不是相互排斥的；单次点击可以归因于多个维度项目。
-* **移动运营商**:通过根据Analytics捕获的IP地址查找第三方(Digital Elements)数据来填充此维度的值。示例值包括 `"Reliance Jio"`、`"Airtel"`、`"Vodafone"` 和 `"Verizon"`。
+* **移动运营商**：根据 Analytics 捕获的 IP 地址查找第三方（Digital Elements）数据以填充此维度的值。示例值包括 `"Reliance Jio"`、`"Airtel"`、`"Vodafone"` 和 `"Verizon"`。
 * **移动设备颜色深度**：移动设备的颜色深度（以位为单位）。
 * **移动 Cookie 支持**：确定移动设备是否支持 Cookie。报表未说明浏览器是否接受 Cookie。维度项目包括 `"Supported"`、`"Not supported"` 和 `"Unknown"`。
 * **移动设备**：访客使用的移动设备。
