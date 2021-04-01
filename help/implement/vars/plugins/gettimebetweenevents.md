@@ -1,11 +1,11 @@
 ---
 title: getTimeBetweenEvents
 description: 测量两个事件之间的间隔时间。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e8c6f4bbc72f7edfd966d698b8e4678e5eaa739e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1100'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 
    >[!TIP]
    >
-   > 如果将此参数设置为 `false`，则强烈建议您设置下面的 `rte` 参数。
+   >如果将此参数设置为 `false`，则强烈建议您设置下面的 `rte` 参数。
 * **`cn`**（可选，字符串）：存储了首个事件的时间的 Cookie 名称。默认值为 `"s_tbe"`。
 * **`etd`**（可选，整数）：Cookie 的过期时间（以天为单位）。如果希望 Cookie 在浏览器会话结束时过期，则设置为 `0`。如果未设置任何值，则将使用默认值，即 1 天。
 * **`fmt`**（可选，字符串）：返回秒数时采用的时间格式（默认值为“无”）
@@ -133,9 +133,9 @@ s.eVar1 = getTimeBetweenEvents("event1", true, "event2", true);
 
 ## 版本历史记录
 
-### 3.0（2021年3月19日）
+### 3.0（2021 年 3 月 19 日）
 
-* 已添加版本号作为上下文数据。
+* 以上下文数据形式添加了版本号。
 
 ### 2.1（2018 年 5 月 26 日）
 
