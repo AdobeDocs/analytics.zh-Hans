@@ -1,11 +1,11 @@
 ---
 title: addProductEvent
 description: 将自定义事件添加到产品变量和事件变量。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3359ed8e7ef7979be57ca5ec9ca1803fc52afe88
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '632'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -139,9 +139,9 @@ s.addProductEvent("event35", "25");
 
 ## 版本历史记录
 
-### 2.0（2021年3月19日）
+### 2.0（2021 年 3 月 19 日）
 
-* 已添加版本号作为上下文数据。
+* 以上下文数据形式添加了版本号。
 
 ### 1.0（2019 年 10 月 7 日）
 
