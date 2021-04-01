@@ -1,11 +1,11 @@
 ---
 title: getPercentPageViewed
 description: 检索访客查看的页面内容所占的百分比。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f11ad012756b5d42b1b53483c8688e30b4b79c83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '892'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用�
    * 事件：核心 - 已加载的库（页面顶部）
 1. 使用以下配置向上述规则添加操作：
    * 扩展：常用 Analytics 插件
-   * 操作类型：初始化getPercentPageViewed
+   * 操作类型：初始化 getPercentPageViewed
 1. 保存并发布对上述规则所做的更改。
 
 ## 使用 Launch 自定义代码编辑器安装此插件
@@ -114,9 +114,9 @@ if(s._ppvPreviousPage)
 
 ## 版本历史记录
 
-### 5.0（2021年3月19日）
+### 5.0（2021 年 3 月 19 日）
 
-* 已添加版本号作为上下文数据。
+* 以上下文数据形式添加了版本号。
 
 ### v4.0（2019 年 10 月 7 日）
 
