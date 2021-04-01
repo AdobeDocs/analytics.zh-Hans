@@ -1,11 +1,11 @@
 ---
 title: getPageName
 description: 从当前网站路径创建一个简单易读的 pageName。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 063da38c105072944a46ec0ab31930623b7974c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '736'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -200,9 +200,9 @@ s.pageName = getPageName();
 
 ## 版本历史记录
 
-### 4.2（2021年3月19日）
+### 4.2（2021 年 3 月 19 日）
 
-* 已添加版本号作为上下文数据。
+* 以上下文数据形式添加了版本号。
 
 ### 4.1（2019 年 9 月 17 日）
 
