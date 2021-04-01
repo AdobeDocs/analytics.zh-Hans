@@ -1,11 +1,11 @@
 ---
 title: getResponsiveLayout
 description: 确定当前正在查看网站的哪个布局。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16d2bc13a71dfe0b9106dea03da5eaa9da4d704c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -106,9 +106,9 @@ s.eVar10 = getResponsiveLayout(500, 500, 1100);
 
 ## 版本历史记录
 
-### 1.1（2021年3月19日）
+### 1.1（2021 年 3 月 19 日）
 
-* 已添加版本号作为上下文数据。
+* 以上下文数据形式添加了版本号。
 
 ### 1.0（2018 年 5 月 2 日）
 
