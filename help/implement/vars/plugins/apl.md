@@ -1,11 +1,11 @@
 ---
 title: apl (appendToList)
 description: 将值附加到支持多个值的变量。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d84d53dd237f5bba729c902c8c4980c0288dbbb0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1036'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -300,9 +300,9 @@ s.list2 = "casesensitivevalue-casesensitiveValue-CasESensiTiveValuE"
 
 ## 版本历史记录
 
-### 4.0（2021年3月19日）
+### 4.0（2021 年 3 月 19 日）
 
-* 已添加版本号作为上下文数据。
+* 以上下文数据形式添加了版本号。
 
 ### 3.2（2019 年 9 月 25 日）
 
