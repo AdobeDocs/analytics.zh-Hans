@@ -1,11 +1,11 @@
 ---
 title: getNewRepeat
 description: 跟踪新访客与回访访客的活动。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d44226202cd690d069f9c0c85c8af2ef8fd0106
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '826'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -110,9 +110,9 @@ s.eVar1=s.getNewRepeat(365);
 
 ## 版本历史记录
 
-### 3.0（2021年3月19日）
+### 3.0（2021 年 3 月 19 日）
 
-* 已添加版本号作为上下文数据。
+* 以上下文数据形式添加了版本号。
 
 ### 2.1（2019 年 9 月 30 日）
 
