@@ -1,11 +1,11 @@
 ---
 title: p_fo（仅限第一页）
 description: 确保某些例程在每页上仅触发一次。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3c9e656d2f5bb9393826f31803d7b6f11a26ce0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '628'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -83,9 +83,9 @@ if(s.p_fo("myobject"))
 
 ## 版本历史记录
 
-### 3.0（2021年3月19日）
+### 3.0（2021 年 3 月 19 日）
 
-* 已添加版本号作为上下文数据。
+* 以上下文数据形式添加了版本号。
 
 ### 2.0
 
