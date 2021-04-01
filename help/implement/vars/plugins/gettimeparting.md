@@ -1,11 +1,11 @@
 ---
 title: getTimeParting
 description: 测量特定操作发生的时间。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 97778ee83cd44eaf2d14dd3e6891612eb99744a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Analysis Workspace 提供了与此插件类似的开箱即用维度，只是维�
 
 >[!IMPORTANT]
 >
->此插件的4.0+版本与先前版本有显着不同。 Adobe 强烈建议您“从头开始”实施此插件。引用了版本 4.0 之前插件的代码与此插件的当前版本不兼容。
+>此插件的 4.0+ 版本与以往版本有显著差异。Adobe 强烈建议您“从头开始”实施此插件。引用了版本 4.0 之前插件的代码与此插件的当前版本不兼容。
 
 ## 使用 Adobe Experience Platform Launch 扩展安装此插件
 
@@ -105,11 +105,11 @@ s.eVarX = getTimeParting("America/Los_Angeles");
 s.eVarX = getTimeParting();
 ```
 
-加纳处于 UTC/GMT 时区内。此示例说明UTC/GMT不需要插件参数。
+加纳处于 UTC/GMT 时区内。此示例表明 UTC/GMT 不需要插件参数。
 
 ### 考虑 Internet Explorer 浏览器
 
-如果要从Internet Explorer访客中排除分时段数据，请使用以下示例。 从IE浏览器返回的值仅在访客的本地时间。
+如果要从 Internet Explorer 访客中排除时分数据，请使用以下示例。从 IE 浏览器返回的值仅采用访客的本地时间。
 
 ```js
 if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
@@ -118,7 +118,7 @@ else s.eVarX = "Internet Explorer Visitors";
 
 ### 调用结果
 
-假设2020年8月31日上午9:15，来自丹佛科罗拉多州的访客访问某网站。
+考虑一个场景，其中来自科罗拉多州丹佛的访客于 2020 年 8 月 31 日上午 9:15 访问某网站。
 
 ```js
 s.eVar10 = getTimeParting("Europe/Athens");
@@ -136,9 +136,9 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 ## 版本历史记录
 
-### 6.3（2021年3月19日）
+### 6.3（2021 年 3 月 19 日）
 
-* 已添加版本号作为上下文数据。
+* 以上下文数据形式添加了版本号。
 
 ### 6.2（2019 年 11 月 5 日）
 
@@ -160,7 +160,7 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 >[!CAUTION]
 >
->此插件的先前版本未来不适合所有年份。 如果您使用此插件的以前版本，Adobe强烈建议升级到最新版本以避免JavaScript错误和数据丢失。 如果升级此插件不可行，请确保插件代码中的`s._tpdst`变量在将来包含适当的年份。
+>此插件的早期版本无法在将来的所有年份中使用。如果您使用此插件的早期版本，Adobe 强烈建议升级到最新版本，以避免 JavaScript 错误和数据丢失。如果无法升级此插件，请确保插件代码中的 `s._tpdst` 变量包含适当的将来年份。
 
 ### 4.0（2016 年 8 月 22 日）
 
