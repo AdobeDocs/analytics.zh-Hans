@@ -1,11 +1,11 @@
 ---
 title: getGeoCoordinates
 description: 跟踪访客的地理位置。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0947b075923956a4a48e09f8eeffc38e7fc0672
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ function getGeoCoordinates(){if(arguments&&"-v"===arguments[0])return{plugin:"ge
 
 >[!NOTE]
 >
-> 坐标值会四舍五入到最接近的小数点后四位。例如，值 `"40.438635333"` 会舍入到 `"40.4386"` 以限制要捕获的唯一值的数量。这些值足以能够将设备精确定位到 20 英尺内的确切位置。
+>坐标值会四舍五入到最接近的小数点后四位。例如，值 `"40.438635333"` 会舍入到 `"40.4386"` 以限制要捕获的唯一值的数量。这些值足以能够将设备精确定位到 20 英尺内的确切位置。
 
 如果需要，此插件会使用名为 `"s_ggc"` 的 Cookie 来存储点击之间的坐标。
 
@@ -106,9 +106,9 @@ else
 
 ## 版本历史记录
 
-### 2.0（2021年3月19日）
+### 2.0（2021 年 3 月 19 日）
 
-* 已添加版本号作为上下文数据。
+* 以上下文数据形式添加了版本号。
 
 ### 1.0（2015 年 5 月 25 日）
 
