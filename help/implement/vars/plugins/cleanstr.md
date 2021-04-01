@@ -1,11 +1,11 @@
 ---
 title: cleanStr
 description: 删除或替换字符串中所有不必要的字符。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1a19f79eba3e992747a14146ca93306f84b355b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '529'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -106,9 +106,9 @@ cleanStr(s.eVar1)
 
 ## 版本历史记录
 
-### 2.0（2021年3月19日）
+### 2.0（2021 年 3 月 19 日）
 
-* 已添加版本号作为上下文数据。
+* 以上下文数据形式添加了版本号。
 
 ### 1.0（2018 年 4 月 15 日）
 
