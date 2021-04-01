@@ -1,11 +1,11 @@
 ---
 title: getTimeToComplete
 description: 测量完成一项任务所需的时间。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 37a3a44053260d9cdb2a3797e07f6d34592abc1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '762'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -106,9 +106,9 @@ if(s.inList(s.events, "event2")) s.prop2 = s.getTimeToComplete("stop", "gttcregi
 
 ## 版本历史记录
 
-### 4.0（2021年3月19日）
+### 4.0（2021 年 3 月 19 日）
 
-* 已添加版本号作为上下文数据。
+* 以上下文数据形式添加了版本号。
 
 ### 3.1（2019 年 9 月 30 日）
 
