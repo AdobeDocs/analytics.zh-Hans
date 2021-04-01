@@ -1,11 +1,11 @@
 ---
 title: addProductEvar
 description: 将推销 eVar 添加到产品变量。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: abed7197898d6c27448069350c9f2217d58293c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
-> 此插件不会替换产品条目中已存在的 eVar。它仅会附加您使用此插件设置的值。附加该产品中已存在的 eVar 时请务必小心。
+>此插件不会替换产品条目中已存在的 eVar。它仅会附加您使用此插件设置的值。附加该产品中已存在的 eVar 时请务必小心。
 
 ## 使用 Adobe Experience Platform Launch 扩展安装此插件
 
@@ -99,9 +99,9 @@ s.addProductEvar("eVar1", "blue");
 
 ## 版本历史记录
 
-### 2.0（2021年3月19日）
+### 2.0（2021 年 3 月 19 日）
 
-* 已添加版本号作为上下文数据。
+* 以上下文数据形式添加了版本号。
 
 ### 1.0（2019 年 10 月 7 日）
 
