@@ -1,11 +1,11 @@
 ---
 title: pt
 description: 对变量列表执行一个函数。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fc7e6953e69cdff7b326705a906687be634d9b5f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '602'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -92,9 +92,9 @@ for(var i = 0; i < parametersLength; i++)
 
 ## 版本历史记录
 
-### 3.0（2021年3月19日）
+### 3.0（2021 年 3 月 19 日）
 
-* 已添加版本号作为上下文数据。
+* 以上下文数据形式添加了版本号。
 
 ### 2.01（2019 年 9 月 24 日）
 
