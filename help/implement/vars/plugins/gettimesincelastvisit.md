@@ -1,11 +1,11 @@
 ---
 title: getTimeSinceLastVisit
 description: 测量两次访问之间的间隔时间。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 15e7ebe21413d6a56dac2c95dbdaf73efde3991e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '582'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ function getTimeSinceLastVisit(){if(arguments&&"-v"===arguments[0])return{plugin
 
 >[!NOTE]
 >
-> 此插件仅在访客在访问期间进行第一次点击时返回值。
+>此插件仅在访客在访问期间进行第一次点击时返回值。
 
 此插件会创建一个名为 `"s_tslv"` 的第一方 Cookie，并将其设置为当前时间的 Unix 时间戳。Cookie 将在处于非活动状态两年后过期。
 
@@ -90,9 +90,9 @@ s.linkTrackVars = s.apl(s.linkTrackVars, "prop1") //ensures that prop1 will be i
 
 ## 版本历史记录
 
-### 2.0（2021年3月19日）
+### 2.0（2021 年 3 月 19 日）
 
-* 已添加版本号作为上下文数据。
+* 以上下文数据形式添加了版本号。
 
 ### 1.0（2018 年 4 月 16 日）
 
