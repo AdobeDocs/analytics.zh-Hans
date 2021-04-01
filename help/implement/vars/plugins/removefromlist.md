@@ -1,11 +1,11 @@
 ---
 title: rfl
 description: 从字符分隔的字符串中删除特定值。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4c23f3cf764834636c1cdcefb2903efc9c90be7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1054'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -404,9 +404,9 @@ s.events = "event22,event23,event24";
 
 ## 版本历史记录
 
-### 2.1（2021年3月19日）
+### 2.1（2021 年 3 月 19 日）
 
-* 已添加版本号作为上下文数据。
+* 以上下文数据形式添加了版本号。
 
 ### 2.01（2019 年 9 月 17 日）
 
