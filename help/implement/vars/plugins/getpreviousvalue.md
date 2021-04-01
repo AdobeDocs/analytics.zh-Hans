@@ -1,11 +1,11 @@
 ---
 title: getPreviousValue
 description: 获取传递到变量的上一个值。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a58e57438fdbac6f2e84c5f85388dff3a43dbd3b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '895'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -134,9 +134,9 @@ s.t();
 
 ## 版本历史记录
 
-### 3.0（2021年3月19日）
+### 3.0（2021 年 3 月 19 日）
 
-* 已添加版本号作为上下文数据。
+* 以上下文数据形式添加了版本号。
 
 ### v2.0（2019 年 10 月 7 日）
 
