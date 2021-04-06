@@ -4,24 +4,32 @@ keywords: Analysis Workspace
 title: Analysis Workspace 中的新增功能
 feature: Workspace 基础
 role: 业务员, 管理员
+exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 896e5a868f42c3bd76c3a2c3c92e7b9bd54f40ac
 workflow-type: tm+mt
-source-wordcount: '8211'
+source-wordcount: '8326'
 ht-degree: 99%
 
 ---
-
 
 # Analysis Workspace 中的新增功能
 
 要从整体上访问 Adobe Experience Cloud 发行说明，请转至[此处](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html)。
 
+## 2021 年 3 月
+
+| 功能 | 目标日期 | 描述 |
+| --- | --- | --- |
+| [!UICONTROL 组件] >用 [!UICONTROL 户首选项] | 2021 年 3 月 25 日 | 通过[!UICONTROL “组件”]>[!UICONTROL “用户首选项”]页面可为用户管理 [!UICONTROL Analysis Workspace] 设置及其相关的组件。[!UICONTROL “用户首选项”]适用于所有新的项目和面板。<br>**注意：**&#x200B;以下设置已移至[!UICONTROL “用户首选项”]页面：<ul><li>报表设置：千位分隔符（现在称为&#x200B;_“数字格式”_）</li><li>报表设置：CSV 分隔符</li><li>Workspace 项目：“帮助”>“启用提示”</li><li>Workspace 项目：空白面板的&#x200B;_“用此面板开始新项目”_&#x200B;选项</li></ul> |
+| [!UICONTROL 直方图智能桶预测] | 2021 年 3 月 25 日 | [!UICONTROL “直方图智能存储桶预测”]帮助高势指标直方图为您的数据分布自动识别存储桶的合适宽度和数量。对于低势指标，可视化的表现与以前相同。 |
+
+
 ## 2021 年 2 月
 
 | 功能 | 目标日期 | 描述 |
 | --- | --- | --- |
-| 组件选择 | 2021 年 2 月 4 日 | 在[!UICONTROL Quick Insights]中找到的下拉/下拉区域组件将添加到[!UICONTROL Workspace]中的所有下拉区域。 通过此增强功能，您可以从兼容组件的下拉列表中进行选择，或继续将空间用作拖放区域。 |
+| 组件选择 | 2021 年 2 月 4 日 | 在[!UICONTROL “快速分析”]中发现的下拉/拖放区域组件将会添加到[!UICONTROL 工作区]内的所有拖放区域中。 通过此增强功能，您可以从兼容组件的下拉列表中进行选择，或继续将空间用作拖放区域。 |
 
 
 ## 2021 月 1 日
@@ -29,13 +37,13 @@ ht-degree: 99%
 | 功能 | 目标日期 | 描述 |
 | --- | --- | --- |
 | 图像 URL | 2021 年 1 月 14 日 | 您可以通过引用公共图像 URL，将图像添加到工作区项目。 |
-| 用于可视化的组合式源和设置管理器 | 2021 年 1 月 14 日 | 用于可视化的[!UICONTROL 数据源]管理器（点）和设置管理器（齿轮）已合并到单个跨窗中，因此您可以从同一位置轻松管理源和设置。 |
+| 用于可视化的组合式源和设置管理器 | 2021 年 1 月 14 日 | 用于可视化的[!UICONTROL 数据源]管理器（点）和设置管理器（齿轮）已合并到一个弹出窗口，因此您可以轻松地从同一位置管理源和设置。 |
 
 ## 2020 年 10 月
 
 | 功能 | 描述 |
 | --- | --- |
-| 折线图可视化图表：[移动平均趋势线选项](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/line.html) | ****[!UICONTROL 移动平均值已添加到折线图可视化图表的趋势线设置。]移动平均值也称为滚动平均值，它使用特定数量的数据点（由&#x200B;**[!UICONTROL 周期]**&#x200B;选择确定)，对其求平均值，并将平均值用作折线中的点。 |
+| 折线图可视化图表：[移动平均趋势线选项](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/line.html) | **[!UICONTROL 移动平均值]**&#x200B;已添加到[!UICONTROL 折线图]可视化图表的趋势线设置。移动平均值也称为滚动平均值，它使用特定数量的数据点（由&#x200B;**[!UICONTROL 周期]**&#x200B;选择确定)，对其求平均值，并将平均值用作折线中的点。 |
 | [性能帮助页面](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | Analysis Workspace 性能帮助页面显示影响项目性能的不同因素，并提供有关性能优化提示的链接。 |
 
 ## 2020 年 9 月
@@ -64,7 +72,7 @@ ht-degree: 99%
 
 | 功能 | 描述 |
 |--- |--- |
-| 归因 IQ：算法归因 | Analysis Workspace 中的“算法归因”模型可使用统计技术动态确定所选量度的最佳点数分配方式。适用于 Adobe Analytics Ultimate 客户。[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
+| 归因 IQ：算法归因 | Analysis Workspace 中的“算法归因”模型可使用统计技术动态确定所选量度的最佳点数分配方式。适用于 Adobe Analytics Ultimate 客户。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
 | 归因 IQ：自定义回顾时间范围 | 现在，您可以将“归因 IQ”中的任意归因模型配置为最多包含在报告期开始前的 90 天内的接触点。通过计算在之前月份发生的交互，通常可以提高在报告期初期所发生事件的归因准确性。适用于 Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete 和 Ultimate 客户。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
 | 共享工作区项目中的项目角色 | 现在，在共享工作区项目时，您可以根据希望收件人获得的项目体验为收件人分配以下三个项目角色中的一个角色：“编辑”、“复制”和“查看”。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 仅查看的工作区项目 | 可以将工作区项目仅以“可以查看”的形式共享给用户。当具有“查看”角色的收件人打开共享项目时，他们将获得比较受限的项目体验，因为项目无左边栏而且可进行的交互也有限。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
