@@ -3,21 +3,21 @@ description: 了解如何使用您的Report Builder登录帐户登录到Experien
 title: 如何登录到Report Builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
+exl-id: d607ef04-d546-4ebb-9f27-51349235c703
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 29eb20e5af815779aa3af5b7205e410b7165818b
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 48%
+source-wordcount: '211'
+ht-degree: 49%
 
 ---
-
 
 # Report Builder 登录
 
 >[!IMPORTANT]
 >
->Report Builder 5.6.47及更高版本仅支持Experience Cloud登录，不支持旧版登录，如Site Catalyst单点登录或标准登录。 到2021年4月30日，所有Report Builder用户必须将Report Builder Add-in更新到版本5.6.47或更高版本，其中包括对登录过程的关键更新。
+>Report Builder 5.6.47及更高版本仅支持Experience Cloud登录，不支持旧版登录，如Site Catalyst单点登录或标准登录。 **到2021年7月22日，所有Report Builder用户必须将Report Builder Add-in更新到版本5.6.47或更高版本，其中包括对登录过程的关键更新。**
 
 要登录Report Builder，请使用您的Experience Cloud登录帐户。
 
@@ -38,9 +38,8 @@ Experience Cloud 登录允许您使用企业 ID（电子邮件和密码）登录
 1. 在 Excel 中，单击&#x200B;**[!UICONTROL 外接程序]**。
 1. 单击&#x200B;**[!UICONTROL 登录]**。可让您登录的其他操作包括：
 
-   * 单击&#x200B;**[!UICONTROL 创建]**。
+   * 单击&#x200B;**[!UICONTROL “创建”]**。
    * [在“请求管理器”中选择一个请求](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md)，然后单击“添 **** 加或 **[!UICONTROL 管理]**”。
    * 多次在Excel中单击请求。
 
 1. 填写“[!UICONTROL 登录]”页上的字段，然后单击&#x200B;**[!UICONTROL 确定]**。
-
