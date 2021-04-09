@@ -1,18 +1,18 @@
 ---
 description: 在这个详细的指南中探索可用 Advertising Analytics 做的一切事情，包括所需的权限以及可用的维度和指标。
 title: Advertising Analytics 指南
-translation-type: ht
-source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: ht
-source-wordcount: '1282'
-ht-degree: 100%
+exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
+translation-type: tm+mt
+source-git-commit: 797dd2c700cd6e11db91e3b5e6bf4b7bfbefdabe
+workflow-type: tm+mt
+source-wordcount: '1259'
+ht-degree: 96%
 
 ---
 
-
 # Advertising Analytics 指南
 
-通过 Advertising Analytics，您可以在 Adobe Analytics 中并排查看您在 Google 和 Bing 上的所有付费搜索数据。以前，您必须在 Adobe Advertising Cloud (AMO) 或 Google/Bing 中查看所有 Google AdWords/DFA 或 Microsoft Bing Ads 数据。现在，您可以在 Adobe Analytics 中直接从搜索引擎获取以下数据：展示次数、点击次数、成本、质量分数、平均位置以及 AMO ID 实例数（点击实例数）。
+通过 Advertising Analytics，您可以在 Adobe Analytics 中并排查看您在 Google 和 Bing 上的所有付费搜索数据。以前，您必须在 Adobe Advertising Cloud (AMO) 或 Google/Bing 中查看所有 Google AdWords/DFA 或 Microsoft Bing Ads 数据。您现在将在Adobe Analytics中获得以下数据：展示次数、点击次数、直接从搜索引擎和AMO ID实例（点击实例）中计算数据费用。 Google在2019年9月已详细说明了这些指标，因此将不再收集质量分数和平均职位。
 
 >[!NOTE]
 >
@@ -117,5 +117,3 @@ Advertising Analytics 可将以下维度和指标添加到 Analysis Workspace、
 | AMO 展示次数 | 搜索引擎所报告的广告展示次数。 |
 | AMO 点击次数 | 搜索引擎所报告的广告点击次数。 |
 | AMO 成本 | 搜索引擎所报告的每个关键字/广告的成本花费。 |
-| 平均位置 | 一个计算指标，可反映搜索引擎所报告的广告的平均位置。 |
-| 平均质量分数 | 一个计算指标，可反映搜索引擎所报告的平均质量分数。 |
