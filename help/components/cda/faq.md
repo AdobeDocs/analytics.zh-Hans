@@ -1,14 +1,14 @@
 ---
 title: Cross-Device Analytics 常见问题解答
 description: Cross-Device Analytics 常见问题解答
-translation-type: ht
-source-git-commit: 087ea279f55d4828d68b1ec16a5505855b34055d
-workflow-type: ht
-source-wordcount: '1377'
-ht-degree: 100%
+exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
+translation-type: tm+mt
+source-git-commit: 510fe26c51391c040527e646ea0a8f131daa6f2d
+workflow-type: tm+mt
+source-wordcount: '1480'
+ht-degree: 93%
 
 ---
-
 
 # 常见问题解答
 
@@ -97,3 +97,11 @@ Adobe 将带有时间戳的点击视为在时间戳时间（而不是 Adobe 收�
 ## Adobe 如何处理在基于字段的拼合中使用的 eVar 的唯一性限制？
 
 CDA 会先提取 eVar 维度项目，然后再对其进行优化以用于报表。对于 CDA，您不必担心唯一性限制。但是，如果您尝试在 Workspace 项目中使用该 prop/eVar，您仍然可以看到[（低流量）](/help/technotes/low-traffic.md)维度项目。
+
+## 我的公司可以为CDA启用多少个报表包？
+
+可以启用多个报表包，但是，如果同时请求多个报表包，则每个额外的报表包都会增加总体设置时间。 CDA不会合并报表包。 为CDA启用的每个报表包都必须是跨设备的(包含来自多个表面（如桌面Web、移动Web、移动应用程序等）的数据
+
+## 如果我的Experience Cloud组织（又称IMS组织）在不同地区有多个公司，我是否可以为所有这些区域启用CDA?
+
+不适用。对于同一组织，只有一个区域可以启用CDA。
