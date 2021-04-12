@@ -2,20 +2,20 @@
 description: 数据源在处理作为标准服务器调用的数据时，支持以下变量（普通 > 完全处理）。
 title: 完全处理
 topic: 开发人员和实施
+exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+source-git-commit: 4e8a79648b0573e68d9059c518f6ec8fb3d9a694
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 98%
+source-wordcount: '726'
+ht-degree: 96%
 
 ---
-
 
 # 完全处理
 
 >[!IMPORTANT]
 >
->Adobe 建议客户使用[批量数据插入 API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)，而不是完全处理数据源。Adobe 计划将将来弃用完全处理数据源。[了解详情](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>Adobe 建议客户使用[批量数据插入 API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)，而不是完全处理数据源。Adobe计划于2021年7月31日弃用完全处理数据源。 [了解详情](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 数据源在处理作为标准服务器调用的数据时，支持以下变量（普通 > 完全处理）。
 
@@ -256,4 +256,3 @@ ht-degree: 98%
   </tr> 
  </tbody> 
 </table>
-
