@@ -3,10 +3,10 @@ title: 完全处理数据源的生命周期结束
 description: 批量数据插入API与完全处理数据源之间链接和比较结束的原因。
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
 translation-type: tm+mt
-source-git-commit: 03a2b346dc6940bc7471de454f73c58f5462a0bb
+source-git-commit: 53b15f9c5895e856ff627fbc520d4743fbc57eba
 workflow-type: tm+mt
 source-wordcount: '1208'
-ht-degree: 29%
+ht-degree: 27%
 
 ---
 
@@ -65,8 +65,8 @@ ht-degree: 29%
 | linkName | linkName | 链接名称。 |
 | linkType | linkType | 链接类型。支持的值包括：  `d: Download link`,  `e: Exit link`,  `o: Custom link` |
 | linkURL | linkURL | 链接的 HREF。 |
-| 列表例如，列表2。 | 不受支持 | 一个分隔的值列表，这些值会传入一个变量，然后报告为单独的行项目以便制作报表。 |
-| marketingCloudVisitorID | 不受支持 | Marketing Cloud ID. 请参阅[访客标识](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api)和Marketing Cloud访客ID服务。 |
+| 列表例如，列表2。 | 不受支持 | 传递到变量中，然后作为单独行项目报告以进行报告的值的分隔列表 |
+| marketingCloudVisitorID | 不受支持 | Marketing Cloud ID. 请参阅[访客标识](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api)和Marketing Cloud访客ID服务 |
 | 不受支持 | charSet | 网站支持的字符集。 例如，UTF-8、ISO-8859-1 等。 |
 | 不受支持 | clickAction | 访客点击图的对象标识符 (oid) |
 | 不受支持 | clickActionType | 访客点击图的对象标识符类型 (oidt) |
@@ -76,7 +76,7 @@ ht-degree: 29%
 | 不受支持 | clickTag | 访客点击图的对象标记名称 (ot) |
 | 不受支持 | scXmlVer | 市场营销报表 XML 请求版本号（例如 1.0）。 |
 | 不受支持 | timezone | 访客所在时区与格林威治时间的小时差（例如 -8）。 |
-| pageName | pageName | 页面的名称。 |
+| pageName | pageName | 页面名称 |
 | pageType | pageType | 页面的类型（例如“错误页面”）。 |
 | pageUrl | pageUrl | 页面URL(例如，https://www.example.com/index.html)。 |
 | plugins | 插件 | 以分号分隔的浏览器插件名称列表。 |
