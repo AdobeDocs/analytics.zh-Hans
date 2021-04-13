@@ -1,14 +1,14 @@
 ---
 description: 了解 Analytics Data Connectors 生命周期终止的时间和原因。
 title: Analytics Data Connectors 生命周期终止预告
-translation-type: ht
-source-git-commit: 5a9f3d32964dddd9df2728449d2d388a155e64a9
-workflow-type: ht
-source-wordcount: '531'
+exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
+translation-type: tm+mt
+source-git-commit: b1d4425a81fe4b3ee3ff7516ca7505698fe2ea3a
+workflow-type: tm+mt
+source-wordcount: '533'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Data Connectors 生命周期终止
 
@@ -81,7 +81,7 @@ ht-degree: 100%
 | Lyris HQ | 弃用 |
 | MaritzCX (V 2.0) | 弃用 |
 | Merkle | 弃用 |
-| Official Oracle Eloqua Integration | 弃用 |
+| Official Oracle Eloqua Integration | 迁移至 Exchange |
 | optivo broadmail (Episerver) | 迁移至 Exchange |
 | Qualtrics v2 | 迁移至 Exchange |
 | Responsys 2.0 | 弃用 |
