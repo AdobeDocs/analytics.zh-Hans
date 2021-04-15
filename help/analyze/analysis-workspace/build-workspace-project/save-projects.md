@@ -1,20 +1,20 @@
 ---
-description: 了解不同的保存选项，包括自动保存、另存为以及另存为模板。
+description: 了解不同的保存选项，包括自动保存、另存为、另存为模板以及打开以前的版本。
 title: 保存项目
 feature: Workspace 基础
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
-source-git-commit: b199eb9b5eea1a6a0f336dbc0898114102f58348
+source-git-commit: e4bfa3c523efc10d8ae7a32dc59861894ef0e1bf
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 69%
+ht-degree: 54%
 
 ---
 
 # 保存项目
 
-要保存对项目所做的更改，请转到工作区的&#x200B;**[!UICONTROL 项目]**&#x200B;菜单。此外，在某些情况下，Adobe 会自动保存项目。
+要保存对项目所做的更改，请转到工作区的&#x200B;**[!UICONTROL 项目]**&#x200B;菜单。Workspace还在某些情况下自动保存项目。
 
 ## 保存项目选项 {#Save}
 
@@ -22,8 +22,8 @@ ht-degree: 69%
 
 | 操作 | 描述 |
 |---|---| 
-| **[!UICONTROL 保存]** | 将更改保存到项目。如果项目已共享，项目的收件人也会看到所做的更改。首次保存项目时，系统会提示您提供项目的名称、（可选）描述以及（可选）添加标记。 |
-| **[!UICONTROL 同时保存注释]** | 在保存项目之前，添加有关项目中发生更改的注释。 注释将随项目版本一起存储，并可供“项目”>“打开先前版本”下的所有编辑器使用。 |
+| **[!UICONTROL 保存]** | 将更改保存到项目。如果项目已共享，项目的收件人也会看到所做的更改。首次保存项目时，系统会提示您为项目指定名称、（可选）描述和添加（可选）标记。 |
+| **[!UICONTROL 同时保存注释]** | 在保存项目之前，添加有关项目中发生更改的注释。 注释随项目版本一起存储，并可供[!UICONTROL Project] > [!UICONTROL 打开以前版本]下的所有编辑器使用。 |
 | **[!UICONTROL 另存为]** | 创建项目副本。原始项目不受影响。 |
 | **[!UICONTROL 另存为模板]** | 将您的项目另存为[自定义模板](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)，贵组织可在&#x200B;**[!UICONTROL 项目 > 新建]**&#x200B;下使用该模板 |
 
@@ -49,7 +49,7 @@ Adobe 提供了在离开页面之前进行保存的选项。离开现有项目�
 
 ### 浏览器崩溃或会话超时
 
-对于&#x200B;**现有**&#x200B;项目，在返回工作区时，用户将会看到&#x200B;**项目恢复**&#x200B;模式。选择“是”将从自动保存的本地副本中恢复项目。选择“否”将删除自动保存的本地副本并打开用户保存的最近项目版本。
+对于&#x200B;**现有**&#x200B;项目，返回Workspace后，您将看到&#x200B;**项目恢复**&#x200B;模式。 选择“是”将从自动保存的本地副本恢复项目。 选择“否”将删除自动保存的本地副本并打开用户保存的最近项目版本。
 
 ![](assets/project-recovery.png)
 
