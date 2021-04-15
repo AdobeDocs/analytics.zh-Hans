@@ -1,14 +1,14 @@
 ---
 title: 分类常见问题解答
 description: 使用分类的常见问题解答。
-translation-type: ht
-source-git-commit: a63b8ae3948ffd9a37058696aa1b1d4c923709ba
-workflow-type: ht
-source-wordcount: '345'
-ht-degree: 100%
+exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
+translation-type: tm+mt
+source-git-commit: ecef181e0d2ab06c68a5af2b50f14f4c7dd7c285
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 92%
 
 ---
-
 
 # 分类常见问题解答
 
@@ -34,6 +34,8 @@ ht-degree: 100%
 * 使用分类规则生成器不会对不存在的项目进行分类，因此不会产生任何额外成本。
 
 ## 如何对包含特殊字符的值进行分类？
+
+不支持在分类数据和点击数据中使用前导和尾部空格，因为Adobe Analytics将截断这些数据中的空白字符。
 
 通常情况下，不建议在报表中使用逗号或双引号之类的特殊字符。但是，在某些情况下，有必要使用特殊字符。如果您选择进行分类的报表值包含此类字符，请执行以下步骤：
 
