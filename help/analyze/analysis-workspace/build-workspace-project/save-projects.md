@@ -2,12 +2,13 @@
 description: 了解不同的保存选项，包括自动保存、另存为以及另存为模板。
 title: 保存项目
 feature: Workspace 基础
-role: 业务员, 管理员
+role: Business Practitioner, Administrator
+exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: b6bf9e97c2eada3b9510d50c4c9196d7b09b5a65
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 100%
+source-wordcount: '457'
+ht-degree: 70%
 
 ---
 
@@ -22,6 +23,7 @@ ht-degree: 100%
 | 操作 | 描述 |
 |---|---| 
 | **[!UICONTROL 保存]** | 将更改保存到项目。如果项目已共享，项目的收件人也会看到所做的更改。首次保存项目时，系统会提示您提供项目的名称、（可选）描述以及（可选）添加标记。 |
+| **[!UICONTROL 同时保存注释]** | 在保存项目之前，添加有关项目中发生更改的注释。 注释将随项目版本一起存储，并可供“项目”>“打开先前版本”下的所有编辑器使用。 |
 | **[!UICONTROL 另存为]** | 创建项目副本。原始项目不受影响。 |
 | **[!UICONTROL 另存为模板]** | 将您的项目另存为[自定义模板](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)，贵组织可在&#x200B;**[!UICONTROL 项目 > 新建]**&#x200B;下使用该模板 |
 
@@ -52,3 +54,12 @@ Adobe 提供了在离开页面之前进行保存的选项。离开现有项目�
 ![](assets/project-recovery.png)
 
 对于从未保存的&#x200B;**新**&#x200B;项目，未保存的更改将无法恢复。
+
+## 打开以前的版本 {#previous-version}
+
+要打开项目的先前版本，请执行以下操作：
+
+1. 转到“项目”>“打开先前版本”
+1. 查看先前版本的列表。 除了附注之外，还提供了时间戳和编辑器，如果在保存编辑器时添加了这些附注。 没有备注的版本存储90天；包含注释的版本存储1年。
+1. 选择先前版本，然后单击“加载”。
+1. 之前的版本将随通知一起加载。 单击“保存”后，之前的版本将不会成为项目的当前保存版本。 如果您从加载的版本导航离开，当您返回时，您将看到项目的上次保存版本。
