@@ -5,10 +5,10 @@ feature: Workspace 基础
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
-source-git-commit: b6bf9e97c2eada3b9510d50c4c9196d7b09b5a65
+source-git-commit: b199eb9b5eea1a6a0f336dbc0898114102f58348
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 70%
+source-wordcount: '465'
+ht-degree: 69%
 
 ---
 
@@ -57,9 +57,14 @@ Adobe 提供了在离开页面之前进行保存的选项。离开现有项目�
 
 ## 打开以前的版本 {#previous-version}
 
+>[!NOTE]
+>
+>以前的项目版本当前为有限版本。
+
 要打开项目的先前版本，请执行以下操作：
 
-1. 转到“项目”>“打开先前版本”
-1. 查看先前版本的列表。 除了附注之外，还提供了时间戳和编辑器，如果在保存编辑器时添加了这些附注。 没有备注的版本存储90天；包含注释的版本存储1年。
-1. 选择先前版本，然后单击“加载”。
-1. 之前的版本将随通知一起加载。 单击“保存”后，之前的版本将不会成为项目的当前保存版本。 如果您从加载的版本导航离开，当您返回时，您将看到项目的上次保存版本。
+1. 转至&#x200B;**[!UICONTROL Project]** > **[!UICONTROL 打开以前版本]**
+1. 查看先前版本的列表。
+   [!UICONTROL 显示] 了“时  间戳”和“编辑器”(Editor)，并  且添加了“注释”(  Note)。没有备注的版本存储90天；包含注释的版本存储1年。
+1. 选择以前的版本，然后单击&#x200B;**[!UICONTROL 加载]**。
+之前的版本随后随通知一起加载。 单击**[!UICONTROL 保存]**&#x200B;后，之前的版本才会成为项目的当前保存版本。 如果您从加载的版本导航离开，当您返回时，您将看到项目的上次保存版本。
