@@ -1,16 +1,16 @@
 ---
 description: 描述如何配置付费搜索检测的步骤。
 title: 配置付费搜索检测
-topic: Admin tools
+feature: 管理工具
 uuid: adfce60d-a762-46bd-8314-f876baf02a25
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '78'
+exl-id: a602a84c-f12f-4c98-a477-f59ea993e662
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '80'
 ht-degree: 100%
 
 ---
-
 
 # 配置付费搜索检测
 
@@ -23,4 +23,3 @@ ht-degree: 100%
 1. 单击&#x200B;**[!UICONTROL 添加]**。
 
 [!UICONTROL 当前付费搜索检测规则]列表显示了当前付费搜索检测规则。
-
