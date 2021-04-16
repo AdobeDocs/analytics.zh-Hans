@@ -1,16 +1,16 @@
 ---
 description: 使用“帐单”页可以访问帐单信息，包括每个报表包的流量详情。只有经授权的管理员才有权访问此页面。
 title: 帐单
-topic: Admin tools
+feature: 管理工具
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '503'
+exl-id: cea802e4-99c4-491e-99c2-8476870001f7
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '505'
 ht-degree: 100%
 
 ---
-
 
 # 帐单
 
