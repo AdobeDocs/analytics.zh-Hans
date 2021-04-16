@@ -1,22 +1,22 @@
 ---
 description: 本节包含一些常见问题的相关信息。
-keywords: Data Feed;troubleshooting
+keywords: 数据馈送；疑难解答
 title: 数据馈送疑难解答
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '938'
-ht-degree: 100%
+exl-id: 58531afe-5e0e-49b6-9c9f-9c857be8dc75
+translation-type: tm+mt
+source-git-commit: c6d4095fdf86be52c7921aed84b9229ac3b27f82
+workflow-type: tm+mt
+source-wordcount: '1026'
+ht-degree: 91%
 
 ---
-
 
 # 数据馈送疑难解答
 
 本节包含一些常见问题的相关信息。
 
-## 保存馈送时出错 {#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
+## 保存馈送时出错  {#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
 
 数据馈送文件名由报表包 ID 和日期组成。为同一个 RSID 和日期配置的任意两个馈送具有相同的文件名。如果将这些馈送提交到同一位置，则一个文件会覆盖另一个文件。为了防止文件覆盖，你不能在同一位置创建有可能覆盖现有馈送的馈送。
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 * 更改日期（如有可能）
 * 更改报表包（如有可能）
 
-## Amazon S3 数据馈送的 BucketOwnerFullControl 设置 {#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D}
+## Amazon S3 数据馈送的 BucketOwnerFullControl 设置  {#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D}
 
 Amazon S3 的常见使用案例是 Amazon Web Services (AWS) 帐户所有者创建一个存储桶，接着创建一个有权限在该存储桶中创建对象的用户，然后为该用户提供凭据。在这种情况下，用户的对象属于同一个帐户，这就意味着帐户所有者能够完全控制对象（读取、删除，等等）。这与 FTP 的提交方法类似。
 
@@ -54,7 +54,7 @@ Amazon S3 的常见使用案例是 Amazon Web Services (AWS) 帐户所有者创�
 
 当由 DST 时间转换为 STD 时间（调慢一个小时）时，客户将收到 24 个文件。但是，发生转换的那个小时将实际包含 2 个小时的有效数据。例如，如果转换在凌晨 2 点发生，则 1 点的文件将会延迟一个小时，而将包含两个小时的数据。该文件将包含从 DST 的 1 点到 STD 的 2 点（即 DST 的 3 点）的数据。下一个文件将在 STD 的 2 点开始。
 
-## 某个时间段内没有数据 {#section_72510794694D42A9A75C966B812AEB0F}
+## 某个时间段内没有数据  {#section_72510794694D42A9A75C966B812AEB0F}
 
 您可以选择将数据馈送配置为，当特定时间段没有收集数据时提交清单文件。如果启用此选项，您将收到如下所示的清单文件：
 
@@ -65,10 +65,16 @@ Datafeed-Manifest-Version: 1.0
  Total-Records: 0
 ```
 
-## 域报告中没有域信息 {#section_B7508D65370442C7A314EAED711A2C75}
+## 域报告中没有域信息  {#section_B7508D65370442C7A314EAED711A2C75}
 
 某些移动运营商（例如 T-Mobile 和 O1）不再提供用于反向 DNS 对照的域信息。因此，此数据不可用于域报告。
 
 ## 数据处理概述 {#section_6346328F8D8848A7B81474229481D404}
 
 在处理每小时或每日数据之前，数据馈送会等待直到该时间范围（天或小时）内进入数据收集的所有点击已经写出到 Data Warehouse。之后，数据馈送会收集时间戳位于该时间范围之内的数据，对其进行压缩并通过 FTP 发送。对于每小时馈送，文件通常会在该小时之后的 15 至 30 分钟内写出到 Data Warehouse，但是没有设置具体的时间段。如果没有时间戳位于该时间范围之内的数据，则流程会在下个时间范围内再次尝试。当前数据馈送流程使用 `date_time` 字段来确定哪些点击属于该小时。此字段基于报表包的时区。
+
+## “每小时”与“每日”数据馈送格式
+
+对于超过7天的数据，将一天的“每小时”文件合并为一个“每日”文件。
+
+示例：将在2021年3月9日创建新的数据馈送，2021年1月1日至3月9日的数据将以“每小时”的形式提供。 但是，2021年3月2日之前的“每小时”文件将合并为一个“每日”文件。 您只能从创建日期后不到7天的数据中提取“每小时”文件。 在这种情况下，从3月2日到3月9日。
