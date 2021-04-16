@@ -1,16 +1,16 @@
 ---
 description: Data Warehouse 是指用于存储的 Analytics 数据副本，以及可通过过滤这些数据来运行的自定义报表。您可让报表根据您的特定问题显示原始数据的高级数据关系。Data Warehouse 报表通过电子邮件或 FTP 发送，过程可能需要长达 72 小时。处理时间取决于查询的复杂程度和请求的数据量。
 title: Data Warehouse 概述
-topic: Data warehouse
+feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '723'
+exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '725'
 ht-degree: 100%
 
 ---
-
 
 # Data Warehouse 概述
 
@@ -77,4 +77,3 @@ Data Warehouse 会自动将任何大小超过 1 MB 的文件压缩为 zip 包。
   </tr> 
  </tbody> 
 </table>
-
