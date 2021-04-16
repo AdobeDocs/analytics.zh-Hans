@@ -1,16 +1,16 @@
 ---
 description: 描述管理员如何为用户群组启用 Data Warehouse 报表访问权限的步骤。
 title: 添加 Data Warehouse 用户群组
-topic: Data warehouse
+feature: Data Warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '205'
+exl-id: 8737ab60-2ad1-4795-808b-d0200078a333
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '207'
 ht-degree: 100%
 
 ---
-
 
 # 添加 Data Warehouse 用户群组
 
