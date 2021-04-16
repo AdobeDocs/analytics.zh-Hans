@@ -2,16 +2,16 @@
 description: 在营销渠道管理器中添加或启用营销渠道。对于没有营销渠道的报表包，自动设置让您可以创建多个渠道及渠道规则。您可以编辑预定义渠道以满足您的需求，或创建您自己的渠道（最多 25 个）。
 subtopic: Marketing channels
 title: 管理营销渠道
-topic: Reports and analytics
+feature: 报告和分析基础
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
+exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 translation-type: tm+mt
-source-git-commit: f96be5fb0ba50b9b06aa65da7eff51c869e2a6f4
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 100%
+source-wordcount: '732'
+ht-degree: 99%
 
 ---
-
 
 # 管理营销渠道
 
@@ -90,4 +90,3 @@ Adobe 在[自动设置](/help/components/c-marketing-channels/c-getting-started-
 >Adobe 建议您在可作为测试用模板的报表包中设置报表。您可以使用该模板将这些渠道和规则集全局应用到一个或多个生产报表包中。
 >
 >请参阅[将模板报表包设置应用于多个报表包](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
-
