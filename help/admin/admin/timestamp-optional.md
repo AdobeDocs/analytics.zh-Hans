@@ -1,16 +1,16 @@
 ---
 description: 可以将加盖时间戳和未加盖时间戳的数据合并到单个报表包中。
 title: 可选时间戳
-topic: Admin tools
+feature: 管理工具
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '319'
+exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '321'
 ht-degree: 100%
 
 ---
-
 
 # 可选时间戳
 
@@ -41,7 +41,7 @@ ht-degree: 100%
    * **必须提供时间戳**（不支持设置 s.visitorID）
    * **可选时间戳**（支持设置 s.visitorID，但不适用于带有时间戳的点击）
 
-## 将现有报表包更改为“可选时间戳” {#section_40BCD3B4639241DEA716F7640ED33E72}
+## 将现有报表包更改为“可选时间戳”  {#section_40BCD3B4639241DEA716F7640ED33E72}
 
 1. 转到&#x200B;**管理员 > 报表包 > 编辑设置 > 常规 > 时间戳配置**。
 1. 选中&#x200B;**将选定的报表包转换为可选时间戳**&#x200B;框。
@@ -51,4 +51,3 @@ ht-degree: 100%
 >[!NOTE]
 >
 >如果已将报表包设置为&#x200B;**可选时间戳**，则要将其更改为其他任何设置，请联系 Adobe 客户关怀团队。
-
