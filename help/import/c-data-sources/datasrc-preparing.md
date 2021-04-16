@@ -2,16 +2,16 @@
 description: 为使用数据源而采取的准备步骤。
 subtopic: Data sources
 title: 准备使用数据源
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
+exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 100%
 
 ---
-
 
 # 准备使用数据源
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 * [交易 ID](/help/import/c-data-sources/datasrc-preparing.md#section_D9513C1204B7496C9B738C5B12CCCFC7)
 * [识别数据源数据的有效日期范围](/help/import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
 
-## 量度的识别和命名 {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
+## 量度的识别和命名  {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
 
 了解数据源中包含的量度或度量很重要，例如 *`Off-line Sales Revenue by Product`*、*`Returns by Product`* 或 *`Ad Impressions by Campaign`*。这些名称可以与报表量度（事件、prop 和 eVar）关联。
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 在使用 eVar 时，您可以将现有 eVar 或新 eVar 用作数据维度。在选择了用于从数据源接收数据维度的 eVar 之后，请确保将其正确命名。
 
-请参阅 Analytics 帮助中的[成功事件](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/success-events/success-event.html)。
+请参阅 Analytics 帮助中的[成功事件](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html)。
 
 ## 促销活动跟踪代码 {#section_468222796FF449ABAA90D88EB3264CB1}
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 
 交易 ID 用于将在线事件连接到离线事件。
 
-## 识别数据源数据的有效日期范围 {#section_03AAB1291BDC4403BDC50905A78FDB71}
+## 识别数据源数据的有效日期范围  {#section_03AAB1291BDC4403BDC50905A78FDB71}
 
 在定义数据源量度（自定义事件）和数据维度 (eVar) 之后，即可查看需要导入的数据源数据的日期范围。您无法导入现有报表数据范围以外的数据源。
 
