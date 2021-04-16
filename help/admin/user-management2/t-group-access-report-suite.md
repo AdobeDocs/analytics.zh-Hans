@@ -2,16 +2,16 @@
 description: 描述如何向报表包分配用户群组的步骤。
 subtopic: Users and groups
 title: 将用户群组分配给报表包
-topic: Admin tools
+feature: 管理工具
 uuid: 67173113-2fca-483e-9038-8423e6d4de6e
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '198'
+exl-id: 8e2a36b8-4693-4bb2-9993-8887fd7c906d
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '200'
 ht-degree: 100%
 
 ---
-
 
 # 将用户群组分配给报表包
 
