@@ -2,16 +2,16 @@
 description: 有关数据源模板的信息，该模板提供了一个数据框架，可用于将一组特定的外部数据提交到数据源。
 subtopic: Data sources
 title: 数据源模板概述
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
+exl-id: d3122582-d392-4bd9-af2a-fb3d1292ba66
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 100%
 
 ---
-
 
 # 数据源模板概述
 
