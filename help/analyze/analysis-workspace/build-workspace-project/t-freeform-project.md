@@ -2,12 +2,12 @@
 description: 创建一个项目并将组件（维度、量度、区段、日期范围）添加到自由格式面板。
 keywords: Analysis Workspace
 title: 创建工作区项目
-topic: Reports and analytics
+feature: 报告和分析基础
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '756'
 ht-degree: 99%
 
 ---
@@ -117,7 +117,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> 区段（蓝色） </td> 
-   <td colname="col2"> <p>只能在面板级别进行拖动，不过，您可以在数据表中创建内联区段。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>有关更 <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 多信 </a> 息，请参阅区段。 </p> </td> 
+   <td colname="col2"> <p>只能在面板级别进行拖动，不过，您可以在数据表中创建内联区段。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>有关更多信息，请参阅<a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >区段</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 日期范围和粒度（紫色） </td> 
@@ -174,7 +174,7 @@ ht-degree: 99%
    <td colname="col1"><a href="/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md"  > 划分</a> 
     <ul id="ul_18C83B8514AD4C1C86C071AA8402CB5C"> 
      <li id="li_6CA84ED293EA4940A7495DA9D9121264">维度 </li> 
-     <li id="li_EA16EE017B2E4A6998918706938A21BF">量度 </li> 
+     <li id="li_EA16EE017B2E4A6998918706938A21BF">指标 </li> 
      <li id="li_0405D339CD01405DB508A7D8D1A976B4">区段 </li> 
      <li id="li_819CE81C552F49BB9C1B83ED3B42C5F7">时间 </li> 
     </ul> </td> 
