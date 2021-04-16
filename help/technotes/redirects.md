@@ -1,15 +1,18 @@
 ---
 description: 重定向无需用户交互即可将浏览器指向新的位置。重定向可以在 Web 浏览器（客户端重定向）或 Web 服务器（服务器端重定向）上执行。
-keywords: Analytics Implementation
+keywords: Analytics 实施
 subtopic: Redirects
 title: 重定向和别名
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
+exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '1125'
+ht-degree: 100%
 
 ---
-
 
 # 重定向和别名
 
@@ -31,18 +34,18 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 考虑下列假设的情景，其中用户不会遇到重定向：
 
-1. User points his or her browser to `www.google.com`, and types, &quot;discount airline tickets&quot; into the search field, and then clicks the **[!UICONTROL Search]** button.
+1. 用户将其浏览器指向 `www.google.com`，然后在搜索字段输入“discount airline tickets”并单击&#x200B;**[!UICONTROL 搜索]**&#x200B;按钮。
 1. 浏览器显示搜索结果，其中包括到您网站的链接 [!DNL https://www.example.com/] 。显示搜索结果之后，浏览器的地址栏显示用户在搜索字段输入的搜索词 (`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`)。请注意，搜索词包括在 `https://www.google.com/search?` ? 后面的 URL 查询字符串参数中。
 1. 用户可单击到您的假设网站的链接[!DNL https://www.example.com/] 。当用户单击此链接，并且登陆 [!DNL example.com] 网站后，[!DNL Analytics] 使用 JavaScript 来收集反向链接 URL (`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`) 以及当前 URL (`https://www.example.com/`)。
-1. [!DNL Analytics] 在各种报告（如、和）中报告在此交互过程中收 [!UICONTROL Referring Domains]集的 [!UICONTROL Search Engines]信息 [!DNL Search Keywords]。
+1. [!DNL Analytics] 会以多个报表报告在此交互过程中收集的信息，例如[!UICONTROL 反向链接域名]、[!UICONTROL 搜索引擎]和[!DNL Search Keywords]。
 
 ## 示例：使用重定向浏览 {#section_921DDD32932847848C4A901ACEF06248}
 
 重定向可能会导致浏览器清除真正的反向链接 URL。请考虑下列情景︰
 
-1. User points his or her browser to `https://www.google.com`, and types, *discount airline tickets* into the search field, and then clicks the **[!UICONTROL Search]** button.
+1. 用户将其浏览器指向 `https://www.google.com`，然后在搜索字段输入 *discount airline tickets* 并单击&#x200B;**[!UICONTROL 搜索]**&#x200B;按钮。
 1. 浏览器窗口的地址栏显示用户在搜索字段输入的搜索词 `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`。请注意，搜索词包括在 `https://www.google.com/search?` ? 后面的 URL 查询字符串参数中。浏览器还会显示包含搜索结果的页面，其中包括到您的一个域名的链接：[!DNL https://www.flytohawaiiforfree.com/] 。此&#x200B;*虚构的*&#x200B;域已配置为将用户重定向到`https://www.example.com/` 。
-1. 用户单击链接 `https://www.flytohawaiiforfree.com/`，即被服务器重定向到您的主网站 `https://www.example.com`。在发生重定向后，由于浏览器清除了反向链接 URL，因此对 [!DNL Analytics] 数据收集极其重要的数据将丢失。因此，报告中使用的原始搜 [!DNL Analytics] 索信息(例如， [!UICONTROL Referring Domains][!UICONTROL Search Engines], [!UICONTROL Search Keywords])会丢失。
+1. 用户单击链接 `https://www.flytohawaiiforfree.com/`，即被服务器重定向到您的主网站 `https://www.example.com`。在发生重定向后，由于浏览器清除了反向链接 URL，因此对 [!DNL Analytics] 数据收集极其重要的数据将丢失。所以，在 [!DNL Analytics] 报表中使用的原始搜索信息（例如[!UICONTROL 反向链接域名]、[!UICONTROL 搜索引擎]、[!UICONTROL 搜索关键词]）将丢失。
 
 ## 实施重定向 {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
 
