@@ -1,13 +1,16 @@
 ---
 description: 描述如何生成 Excel 电子表格以包含选定报表包所有设置的步骤。
 title: 下载报表包设置
-topic: Admin tools
+feature: 管理工具
 uuid: f0aa19a5-eb5d-4ad4-b463-9400abb07038
+exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 100%
 
 ---
-
 
 # 下载报表包设置
 
