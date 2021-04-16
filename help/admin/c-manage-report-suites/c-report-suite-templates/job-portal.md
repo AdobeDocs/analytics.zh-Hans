@@ -1,13 +1,16 @@
 ---
 description: 为求职或招聘网站定义通用设置。
 title: 求职门户
-topic: Admin tools
+feature: 管理工具
 uuid: c33a8e30-eea6-45f5-9568-d64c6753855e
+exl-id: d2a03139-7a5d-47bd-a287-fbe83f4a99fd
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 100%
 
 ---
-
 
 # 求职门户
 
@@ -43,4 +46,3 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 页面查看次数 | 计数器（无子关系） | 不适用 |
 | 每日独特访客 | 计数器（无子关系） | 不适用 |
 | 独特访客 | 计数器（无子关系） | 不适用 |
-
