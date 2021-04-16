@@ -1,13 +1,16 @@
 ---
 description: 为聚合内容的新闻门户等网站定义通用设置。
 title: 内容聚合门户
-topic: Admin tools
+feature: 管理工具
 uuid: d227c209-4d88-4eff-b126-994b2a179c51
+exl-id: 48f57f27-289c-4e26-9fb2-e34d48c1f2e6
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 100%
 
 ---
-
 
 # 内容聚合门户
 
@@ -46,4 +49,3 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 页面查看次数 | 计数器（无子关系） | 不适用 |
 | 每日独特访客 | 计数器（无子关系） | 不适用 |
 | 独特访客 | 计数器（无子关系） | 不适用 |
-
