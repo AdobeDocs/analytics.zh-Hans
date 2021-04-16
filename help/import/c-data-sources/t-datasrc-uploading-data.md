@@ -2,16 +2,16 @@
 description: 描述如何上载数据源文件的步骤。
 subtopic: Data sources
 title: 上载数据源文件
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 5a9dde91-1297-47e5-9393-611b40413c17
+exl-id: 8b7fa32c-01f2-452b-bf8e-8a81da266926
 translation-type: tm+mt
-source-git-commit: fb2a63432275c4ab621df263035400051ff6bb32
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 87%
 
 ---
-
 
 # 上载数据源文件
 
@@ -32,8 +32,7 @@ ht-degree: 87%
    [!DNL .fin] 文件必须与数据源文件具有完全相同的名称，但文件扩展名除外。在上载 [!DNL .fin] 文件之前，Adobe 不会将数据源文件加入队列进行处理。
 
    请在所有数据源文件都上载完之后才上载该文件。否则，数据源可能尝试处理不完整的文件。
-1. 上传。fin文件后，您必须从数据源FTP站点注销。 其原因在于Analytics使用注销事件作为触发器，以指示文件已准备好进行处理。
+1. 上载.fin文件后，请务必注销Data Sources FTP站点。 原因是Analytics使用注销事件作为触发器，指示文件已准备好进行处理。
 1. 请留意数据源文件处理期间出现的任何消息。
 
    数据源管理器会显示在文件处理期间发生的任何错误。
-
