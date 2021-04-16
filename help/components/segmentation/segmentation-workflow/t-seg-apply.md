@@ -1,16 +1,16 @@
 ---
 description: 如何从区段边栏将一个或多个区段应用于报表。
 title: 选择和应用区段
-topic: Segments
+feature: 区段
 uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
-translation-type: ht
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
-source-wordcount: '206'
+exl-id: 870026e2-a3a3-4d87-a6c2-6189098d3676
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '207'
 ht-degree: 100%
 
 ---
-
 
 # 选择和应用区段
 
