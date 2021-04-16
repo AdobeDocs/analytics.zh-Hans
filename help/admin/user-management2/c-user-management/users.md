@@ -2,16 +2,16 @@
 description: 使用“用户管理”页面的“管理报表用户和群组”可管理用户和群组，以及控制对报表、工具和报表包的访问。
 subtopic: Users and groups
 title: 用户管理概述
-topic: Admin tools
+feature: 管理工具
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '407'
+exl-id: 0c722098-4888-4827-b3b1-2eb45c7d43f3
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '409'
 ht-degree: 100%
 
 ---
-
 
 # 用户管理概述
 
@@ -95,4 +95,3 @@ ht-degree: 100%
 | [!UICONTROL 自定义消息] | 将附加内容添加到欢迎消息中。自定义消息字段支持 HTML，但不能包括附件。 |
 | [!UICONTROL 预览电子邮件] | 在单独的浏览器窗口中显示欢迎电子邮件。 |
 | [!UICONTROL 设置为默认欢迎消息] | 修改默认的欢迎消息，使其包括“自定义消息”窗格中指定的自定义内容。 |
-
