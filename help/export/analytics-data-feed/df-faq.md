@@ -1,15 +1,15 @@
 ---
 description: 有关数据馈送的常见问题解答
-keywords: Data Feed;job;pre column;post column;case sensitivity
+keywords: 数据馈送；作业；预列；后列；区分大小写
 title: 数据馈送常见问题解答
+exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 translation-type: tm+mt
-source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
+source-git-commit: c6d4095fdf86be52c7921aed84b9229ac3b27f82
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 77%
+source-wordcount: '420'
+ht-degree: 58%
 
 ---
-
 
 # 数据馈送常见问题解答
 
@@ -31,8 +31,14 @@ ht-degree: 77%
 
 数据馈送中不包含按 [Admin Console 机器人规则](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/bot-removal/bot-removal.html)过滤的机器人。
 
-## 为什么在或数 `000` 据馈送列 `event_list` 中 `post_event_list` 看到多个值？
+## 为什么在`event_list`或`post_event_list`数据馈送列中看到多个`000`值？
 
-某些电子表格编辑器，特别是Microsoft Excel自动舍入大数字。 该 `event_list` 列包含许多以逗号分隔的数字，有时会导致Excel将其视为大数字。 它将最后几个数字舍入为 `000`。
+某些电子表格编辑器（尤其是Microsoft Excel）会自动舍入大数字。 `event_list`列包含许多逗号分隔的数字，有时会导致Excel将其视为大数字。 它将最后几位数字舍入为`000`。
 
-Adobe建议不要在Microsoft `hit_data.tsv` Excel中自动打开文件。 请改用Excel的“导入数据”对话框，并确保所有字段均被视为文本。
+Adobe建议不要在Microsoft Excel中自动打开`hit_data.tsv`文件。 请改用Excel的“导入数据”对话框，并确保所有字段都被视为文本。
+
+## 为什么无法从超过7天的数据中提取“每小时”文件？
+
+对于超过7天的数据，将一天的“每小时”文件合并为一个“每日”文件。
+
+示例：将在2021年3月9日创建新的数据馈送，2021年1月1日至3月9日的数据将以“每小时”的形式提供。 但是，2021年3月2日之前的“每小时”文件将合并为一个“每日”文件。 您只能从创建日期后不到7天的数据中提取“每小时”文件。 在这种情况下，从3月2日到3月9日。
