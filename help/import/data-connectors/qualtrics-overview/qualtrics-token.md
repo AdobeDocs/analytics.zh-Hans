@@ -2,13 +2,16 @@
 description: 需要令牌才能完成集成向导。要查找此 ID，请完成以下操作。
 subtopic: Qualtrics
 title: 生成 Qualtrics Adobe Analytics 令牌
-topic: Data connectors
+feature: Data Connectors
 uuid: 6038279e-c399-4e10-9afc-9c4305dc36d5
+exl-id: 66bafeef-d0cd-4cce-ba18-df22d3d14995
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '102'
+ht-degree: 100%
 
 ---
-
 
 # 生成 Qualtrics Adobe Analytics 令牌{#generating-your-qualtrics-adobe-analytics-token}
 
@@ -30,4 +33,3 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    >[!NOTE]
    >
    >如果看不到用于生成 Adobe Analytics 令牌的选项，请联系您的 Qualtrics 帐户管理员为您的帐户启用相应权限。
-
