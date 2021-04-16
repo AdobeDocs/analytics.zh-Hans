@@ -1,13 +1,16 @@
 ---
 description: 为提供有关服务和产品（往往需要通过进一步参与来销售）信息的网站定义通用设置。
 title: 商机拓展
-topic: Admin tools
+feature: 管理工具
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
+exl-id: 4a629908-2bb4-4d61-a934-42906edff9df
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 100%
 
 ---
-
 
 # 商机拓展
 
@@ -43,4 +46,3 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 页面查看次数 | 计数器（无子关系） | 不适用 |
 | 每日独特访客 | 计数器（无子关系） | 不适用 |
 | 独特访客 | 计数器（无子关系） | 不适用 |
-
