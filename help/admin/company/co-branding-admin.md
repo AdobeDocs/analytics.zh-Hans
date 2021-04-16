@@ -1,13 +1,16 @@
 ---
 description: “管理联合品牌图像”页面可以在下载的报表中显示自己公司的徽标。
 title: 品牌联合
-topic: Admin tools
+feature: 管理工具
 uuid: 918db633-44bb-4502-bd04-98a6337a166c
+exl-id: 0297086d-4bff-44ab-9ad2-4f036215a2f9
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 100%
 
 ---
-
 
 # 品牌联合
 
