@@ -1,16 +1,16 @@
 ---
 description: 报表包可以针对选定的网站、网站集合或网页的子集，定义完整、独立的报表。通常情况下，一个报表包是一个网站，但也可以是为了得到总量而综合了若干网站数据的一个全局区段。在登录到任何 Adobe Analytics 解决方案时，您需要选择一个要使用的报表包（除非您使用的是合并各报表包的统计报表包）。另外，报表包也可能比网站小（如果您要对网站的一部分运行报表）。Analytics 解决方案会收集并报告这些数据存储。使用管理员“报表包管理器”可定义一些规则来管理报表包中数据的处理方式。
 title: 报表包管理器
-topic: Admin tools
+feature: 管理工具
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '539'
+exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '541'
 ht-degree: 100%
 
 ---
-
 
 # 报表包管理器
 
@@ -84,4 +84,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
