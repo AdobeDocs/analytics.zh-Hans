@@ -1,18 +1,18 @@
 ---
 description: 本节介绍数据馈送提交中包含的文件。
-keywords: Data Feed;job;contents;manifest;file;lookup;hit data;delivery contents
+keywords: 数据馈送；作业；内容；清单；文件；查找；点击数据；投放内容
 subtopic: data feeds
 title: 数据馈送内容 - 概述
-topic: Reports and analytics
+feature: 报告和分析基础
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '732'
-ht-degree: 100%
+exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '746'
+ht-degree: 98%
 
 ---
-
 
 # 数据馈送内容 - 概述
 
