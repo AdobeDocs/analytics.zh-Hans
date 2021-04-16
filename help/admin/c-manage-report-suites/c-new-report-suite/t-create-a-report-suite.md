@@ -1,25 +1,25 @@
 ---
-description: 在Adobe Analytics为数据收集创建基本容器
+description: 在Adobe Analytics中为数据收集创建基本容器
 title: 创建报表包
-topic: Admin tools
+feature: 管理工具
+exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
 translation-type: tm+mt
-source-git-commit: 8ddd49ad894547d888efc513983e615d138ed13c
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '377'
 ht-degree: 75%
 
 ---
 
-
 # 创建报表包
 
-报表包是一种数据存储库，Adobe Analytics 使用报表包提取单个报表。一个组织可以有多个报表包，每个报表包中包含不同的数据集。过去，有必要设置多个独立报表包，但现在单个报表包的优势变得日益凸显。[虚拟报告套件](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites)和报告时间处理的引入使管理员能够创建您自己的数据子集，从而能够灵活地获取全局数据和站点特定数据。
+报表包是一种数据存储库，Adobe Analytics 使用报表包提取单个报表。一个组织可以有多个报表包，每个报表包中包含不同的数据集。过去，有必要设置多个独立报表包，但现在单个报表包的优势变得日益凸显。[虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites)和报表时间处理的引入使管理员能够创建您自己的数据子集，从而灵活地获取全局数据和站点特定数据。
 
 本文旨在帮助系统级别管理员或 Analytics 管理员做好数据收集前的准备工作。
 
 ## 先决条件
 
-[Adobe Analytics第一管理指南](/help/admin/admin-console/first-admin-guide.md):确保系统级管理员已授予您通过Experience CloudAdmin Console访问Adobe Analytics的权限。
+[Adobe Analytics第一份管理指南](/help/admin/admin-console/first-admin-guide.md):确保系统级管理员已授予您通过Experience CloudAdmin Console访问Adobe Analytics的权限。
 
 ## 创建报表包 {#create-report-suite}
 
