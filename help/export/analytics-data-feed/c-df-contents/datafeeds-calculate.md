@@ -1,17 +1,17 @@
 ---
 description: 介绍如何使用数据馈送计算常见量度。
-keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event string;common;formulas
+keywords: 数据馈送；作业；量度；预列；帖子列；bots；日期过滤；事件字符串；常用；公式
 title: 计算量度
-topic: Reports and analytics
+feature: 报告和分析基础
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '442'
-ht-degree: 100%
+exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 96%
 
 ---
-
 
 # 使用数据馈送计算常用量度
 
