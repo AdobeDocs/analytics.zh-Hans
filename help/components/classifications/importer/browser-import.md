@@ -2,16 +2,16 @@
 description: 您可以使用浏览器导入（上载）分类数据。此方法仅限将分类数据上载到单个报表包。
 subtopic: Classifications
 title: 浏览器导入
-topic: Admin tools
+feature: 管理工具
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
-translation-type: ht
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
-source-wordcount: '305'
+exl-id: 5bef1f6d-9b27-464d-8343-472f300a7437
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '307'
 ht-degree: 100%
 
 ---
-
 
 # 浏览器导入
 
@@ -71,4 +71,3 @@ t_upload_a_saint_data_file_via_web_browser.xml
 1. 查看状态窗口以了解处理消息。
 1. （视情况而定）如果您选择了&#x200B;**[!UICONTROL 上载完成后自动下载分类文件]**，请指定希望在处理完成时用于存储所生成文件的位置。
 >成功的导入操作会立即在导出操作中显示相应的更改。但是，使用浏览器导入时，报表中的数据更改至多需要 4 个小时完成，而使用 FTP 导入时，则需要长达 24 小时才能完成。
-
