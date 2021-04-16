@@ -2,13 +2,16 @@
 description: 少数情况下，在比较 Adobe Analytics 量度和 DFA 量度时，某些量度可能不在可接受的差别范围内。以下是量度定义和可能导致差别的原因列表。
 keywords: DFA
 title: 协调量度差异
-topic: Data connectors
+feature: Data Connectors
 uuid: aa3ca006-d3cf-410e-a000-781ab17fb9e3
+exl-id: bfe0f9cb-1bbc-40f9-b996-0002d5143889
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '1270'
+ht-degree: 100%
 
 ---
-
 
 # 协调量度差异{#reconciling-metric-discrepancies}
 
@@ -32,7 +35,7 @@ Adobe 使用以下术语谈论与 DFA 集成相关的量度：
 
 列出了 Adobe Analytics 和 DFA 报表之间为何存在数据差异的一些原因。
 
-### Safari 浏览器和其他阻止第三方 Cookie 的浏览器的用户 {#section-4b0dc429a54a4744a33976b0bb2d1b2a}
+### Safari 浏览器和其他阻止第三方 Cookie 的浏览器的用户  {#section-4b0dc429a54a4744a33976b0bb2d1b2a}
 
 是否接受第三方 Cookie 通常是导致 Adobe Analytics 和 DFA 之间出现差异的最大因素。Safari 和某些其他默认阻止第三方 Cookie 的浏览器。这意味着在默认情况下，Safari 接受大部分 Analytics 实施使用的第一方 Cookie，但拒绝 DFA 使用的第三方 Cookie。
 
@@ -40,7 +43,7 @@ Adobe 使用以下术语谈论与 DFA 集成相关的量度：
 
 这种差异可导致 Analytics 和 DFA 收集的数据间出现较大差别。
 
-### 为何 DFA 中报告的展示次数可能高于 Adobe Analytics 中报告的展示次数？ {#section-db0ad070a65a4985bcc589b2d0d30b90}
+### 为何 DFA 中报告的展示次数可能高于 Adobe Analytics 中报告的展示次数？  {#section-db0ad070a65a4985bcc589b2d0d30b90}
 
 * DFA 将数据在夜间批量发送到 Adobe 数据收集服务器，因此 Analytics 中的展示数据最长可能滞后于 DFA 报表 2 天。
 * Adobe 使用 SAINT 分类将导入的 DFA 跟踪代码分类为不同级别的汇总（促销活动名称、版面名称、广告名称等）。如果在运行分类报表时出现差异，请执行一个简单的测试以了解分类是否还未赶上导入的量度：
@@ -50,7 +53,7 @@ Adobe 使用以下术语谈论与 DFA 集成相关的量度：
    * 在此报表中，请注意任何格式为 `DFA:XXXXX:XXXXX` 的未分类 DFA 跟踪代码。
    * 如果这其中的许多跟踪代码确实存在，请调查夜间 SAINT 分类过程。
 
-### 为何 DFA 点击量可能高于 Adobe Analytics 点进次数？ {#section-2fce4608ed044bdc9cf812cb719d5d35}
+### 为何 DFA 点击量可能高于 Adobe Analytics 点进次数？  {#section-2fce4608ed044bdc9cf812cb719d5d35}
 
 * DFA 在访客登陆客户网站之前即记录一次点击。Analytics 在登陆页面加载后记录点进次数，并执行 Adobe JavaScript 信标。通常，差异的出现是因为访客在 DFA 跟踪到一次点击后没有到达登陆页面，或是 `s.maxDelay` 计时器被点击。
 * 请确保 Floodlight 配置中的所有版面和创作均在登陆页面 URL 中加入了 clickThroughParam（例如“`?CID=1`”）。未能设置此参数将导致 Adobe Analytics JavaScript 丢失在访问的首次点击后发生的任何点进。
@@ -62,12 +65,12 @@ Adobe 使用以下术语谈论与 DFA 集成相关的量度：
 * Analytics 会尝试标识并删除重复的点进，这样在每次访问时每个促销活动只会计数一次点进。DFA 将单击“返回”和经历多次广告重定向的访客数计为额外的 ACM 点击量，而 Analytics 不会将它们计为多次点进。
 * DFA Floodlight 标记不依赖启用的 JavaScript，而 Analytics 却依赖它们。因此，在某些情况下可能会出现 DFA 记录了一次点击，而 Analytics 没有记录。要辨明这是否是个问题，请使用“访客配置文件”菜单中的 Analytics JavaScript 报表。
 
-### 为何 DFA 后展示活动数可能高于 Adobe Analytics 显示到达次数？ {#section-5daa91039c404df48b6a3447c20406f7}
+### 为何 DFA 后展示活动数可能高于 Adobe Analytics 显示到达次数？  {#section-5daa91039c404df48b6a3447c20406f7}
 
 * Analytics 会尝试标识并删除重复的点进，这样在每次访问时每个促销活动只会计数一次点进。DFA 将单击“返回”和经历多次广告重定向的访客数计为额外的 ACM 点击量，而 Analytics 不会将它们计为多次点进。
 * DFA Floodlight 标记不依赖禁用的 JavaScript，而 Analytics 却依赖它们。因此，可能会出现以下这类情况，即 DFA 记录了一次点击，而 Analytics 没有记录。
 * DFA 在使用 Floodlight 标记时（它们可能置于客户端网站上）可对后展示活动进行计数。Analytics 在 JavaScript 信标（图像请求）执行后对显示到达进行计数。网页上的代码布局可决定将一个终止的页面加载计为一次后展示活动还是一次显示到达。
 
-### 如果差异远远超过可接受的范围并且以上可能的原因都不适用，该怎么办？ {#section-ca50eb75dd5d4d0396f4668b44d7547c}
+### 如果差异远远超过可接受的范围并且以上可能的原因都不适用，该怎么办？  {#section-ca50eb75dd5d4d0396f4668b44d7547c}
 
 请咨询您的集成顾问或 Adobe 客户关怀，以记录差异并将它们报告给 Data connectors 工程团队。为加快请求速度，请使用 2 到 3 天的数据对涉及的量度进行比较（在促销活动代码级别）。在您的请求中，请标识您为协调差异所执行的所有操作。
