@@ -1,13 +1,16 @@
 ---
 description: 为提供在线服务的银行或其他机构定义通用设置。
 title: 金融服务
-topic: Admin tools
+feature: 管理工具
 uuid: a321b409-24a4-4d9f-9aac-65761261e991
+exl-id: 2ab435e2-3fc7-46f9-aee9-961f6730f3e8
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 100%
 
 ---
-
 
 # 金融服务
 
@@ -43,4 +46,3 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 页面查看次数 | 计数器（无子关系） | 不适用 |
 | 每日独特访客 | 计数器（无子关系） | 不适用 |
 | 独特访客 | 计数器（无子关系） | 不适用 |
-
