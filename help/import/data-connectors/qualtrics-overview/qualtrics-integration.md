@@ -2,16 +2,16 @@
 description: 部署完成后，您可以开始使用此集成提供的其他功能。
 subtopic: Qualtrics
 title: 使用集成
-topic: Data connectors
+feature: Data Connectors
 uuid: a1d5045b-4c38-4984-8c71-27e86ebe8b23
+exl-id: 11fc6382-da83-4320-9f2f-bf6ca096f0ae
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '163'
 ht-degree: 100%
 
 ---
-
 
 # 使用集成{#using-the-integration}
 
@@ -31,4 +31,3 @@ ht-degree: 100%
 下面显示了分析人员如何使用调查响应数据定义 Adobe Analytics 区段。本示例假定了一个调查问题，比如“您对今天访问的满意程度如何？”利用此问题，我们可以创建一个区段来识别“不满意”的访客。此类区段可用于深入查看任何 Adobe Analytics 报表，例如下面所示的“购买转化漏斗”。
 
 ![](assets/using-1.png) ![](assets/using-2.png)
-
