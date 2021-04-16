@@ -1,17 +1,17 @@
 ---
 description: Web 属性可以是包含在一个嵌入代码中且具有规则库的一个或多个域和子域的任意组合。
-keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;web property;property
+keywords: Analytics 实施;实施方法;dynamic tag management;DTM;Web 属性;属性
 title: 创建 Web 属性
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '466'
+exl-id: f89381d0-bdf7-4e01-96a3-2ea160da2b44
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '477'
 ht-degree: 100%
 
 ---
-
 
 # 创建 Web 属性
 
