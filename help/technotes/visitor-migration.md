@@ -1,17 +1,17 @@
 ---
 description: 访客迁移是访客 ID Cookie 从一个域迁移到另一个域的过程。
-keywords: Analytics Implementation
+keywords: Analytics 实施
 title: 访客迁移
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
+exl-id: d44628c8-902f-4e60-b819-41d5537407d8
 translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '445'
 ht-degree: 78%
 
 ---
-
 
 # 访客迁移
 
@@ -19,17 +19,17 @@ ht-degree: 78%
 
 通过访客迁移可以在更改数据收集域时保留访客识别 Cookie。数据收集域可能由于以下原因发生更改：
 
-* 从移动 `2o7.net` 到 `adobedc.net`。
+* 从`2o7.net`移动到`adobedc.net`。
 
-* You are implementing the [Experience Cloud Visitor ID Service](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html) and are moving from a CNAME/first-party data collection domain to `adobedc.net`, `2o7.net` or `omtrdc.net`
+* 您正在实施[Experience Cloud访客ID服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)，并且正在从CNAME/第一方数据收集域移动到`adobedc.net`、`2o7.net`或`omtrdc.net`
 
-* Moving to a cname/first-party data collection ( [First-Party Cookies)](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/ec-cookies/cookies-first-party.html).
+* 正在移至cname/第一方数据收集（[第一方Cookie）](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/ec-cookies/cookies-first-party.html)。
 
 * 在 CNAME 之间转移（更改域）。
 
 配置完访客迁移后，当用户访问没有访客 ID Cookie 的新域时，服务器会重定向到前一个数据收集主机名，检索任何可用的访客 ID Cookie，并再次重定向到新域。如果前一个主机名上找不到访客 ID，则会生成一个新的 ID。这对每个访客只会出现一次。
 
-## 访客迁移过程 {#section_FF0C5C5CAEF343FFA1892B29311F7160}
+## 访客迁移过程  {#section_FF0C5C5CAEF343FFA1892B29311F7160}
 
 下表列出了访客迁移所需的任务：
 
@@ -51,11 +51,11 @@ ht-degree: 78%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>在完成配置更改的 6 小时后</b>：更新您的 Analytics JavaScript 代码中的 <code> s.trackingServer</code> 和 <code> s.trackingServerSecure</code> 变量，从而使用新的数据收集服务器。 </p> </td> 
-   <td colname="col3"> <p>After you make this change, use the <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en"> Experience Cloud debugger</a> to verify that the Analytics image request is going to the updated data collection server. </p> </td> 
+   <td colname="col3"> <p>进行此更改后，请使用<a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en">Experience Cloud调试器</a>验证Analytics映像请求是否将转到更新的数据收集服务器。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>更新 Analytics 代码之后立即执行</b>：测试网站，验证是否会重定向到之前的数据收集域。 </p> </td> 
-   <td colname="col3"> <p>使用 <a href="../implement/validate/packet-monitor.md"> packet monitor</a> to verify that when you access your site for the first time, or after clearing cookies, you see two 302 (redirect) HTTP status codes before the 200 (OK) HTTP status code. 如果这些重定向中有任何一个出现失败，请立即联系客户关怀，确保迁移配置正确。 </p> </td> 
+   <td colname="col3"> <p>使用  <a href="../implement/validate/packet-monitor.md"> 包监</a> 视器，以验证在您首次访问您的站点时或清除cookie后，您在200(OK)HTTP状态代码之前看到两个302（重定向）HTTP状态代码。如果这些重定向中有任何一个出现失败，请立即联系客户关怀，确保迁移配置正确。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>整个迁移期间</b>：保持前一个主机名的 DNS 记录的活动状态。 </p> </td> 
