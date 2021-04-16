@@ -1,17 +1,17 @@
 ---
 description: 在虚拟报表包管理器中，管理员可以编辑、添加、标记、删除、重命名、批准、复制、导出和过滤虚拟报表包。虚拟报表包管理器对非管理员用户不可见。
-keywords: Virtual Report Suite
+keywords: 虚拟报表包
 title: 管理虚拟报表包
-topic: Reports and analytics
+feature: 报告和分析基础
 uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+exl-id: b6d58456-bd07-4d97-aff8-216e8440fdc0
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '463'
+ht-degree: 99%
 
 ---
-
 
 # 管理虚拟报表包
 
