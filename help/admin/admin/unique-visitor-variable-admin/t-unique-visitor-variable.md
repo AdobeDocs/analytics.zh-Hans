@@ -1,13 +1,16 @@
 ---
 description: 描述如何指定哪个 eVar 包含您的访客标识符的步骤。
 title: 指定独特访客变量
-topic: Admin tools
+feature: 管理工具
 uuid: 88ac962c-a13b-4f93-81b5-f5eda8b463e2
+exl-id: 20d5cd43-9ab2-4e36-8faf-607176378f8b
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 100%
 
 ---
-
 
 # 指定独特访客变量
 
