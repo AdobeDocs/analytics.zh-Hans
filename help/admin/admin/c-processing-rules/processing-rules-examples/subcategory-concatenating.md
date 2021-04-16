@@ -2,16 +2,16 @@
 description: 您可以使用关联选项通过组合其他值来填充值。
 subtopic: Processing rules
 title: 通过连接类别和页面名称添加子类别
-topic: Admin tools
+feature: 管理工具
 uuid: 45e5b004-690f-4d66-98f1-29baf9a954d0
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '66'
+exl-id: 463280e0-e5d4-4cf9-9c30-fd699a378848
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '68'
 ht-degree: 100%
 
 ---
-
 
 # 通过连接类别和页面名称添加子类别
 
@@ -39,4 +39,3 @@ ht-degree: 100%
 例如：
 
 ![](assets/add-subcategory-using-concat.png)
-
