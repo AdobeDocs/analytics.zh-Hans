@@ -2,16 +2,16 @@
 description: 分类规则生成器中的页面上界面元素的定义。
 subtopic: Classifications
 title: 分类规则 - 定义
-topic: Admin tools
+feature: 管理工具
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '878'
+exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '880'
 ht-degree: 100%
 
 ---
-
 
 # 分类规则 - 定义
 
@@ -144,4 +144,3 @@ ht-degree: 100%
 |---|---|
 | 运行测试 | 在测试规则集时，使用报表中的键值来查看规则集将如何影响键值。 |
 | 过滤器 | 过滤“[!UICONTROL 结果]”面板中的值。 |
-
