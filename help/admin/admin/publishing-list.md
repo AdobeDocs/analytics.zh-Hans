@@ -1,16 +1,16 @@
 ---
 description: 发布列表提供了一种简单的方法，可发送特定于您组织不同群组的各种报表，而无需创建多个单独的计划报表。如果您拥有多个位置特定的报表包并且希望为各自的部门提供特定功能板的副本，则发布列表对您十分有用。或者，如果您使用的是一个报表包，则可以利用发布列表向多人发送数据，无需分别键入他们的电子邮件地址。
 title: 发布列表
-topic: Admin tools
+feature: 管理工具
 uuid: 07dad661-c302-4981-80d1-3169ad1fe90e
+exl-id: 5c9a0ae7-742b-4247-bcbc-2e979af6160c
 translation-type: tm+mt
-source-git-commit: 4b6107fe57787e639fb06ef957d6230d1bc45bd1
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '312'
 ht-degree: 100%
 
 ---
-
 
 # 发布列表
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 计划报表时可指定多个发布列表。
 
-## 发布列表管理器描述 {#section_099DF8AC5691495F9B22C71266DD6004}
+## 发布列表管理器描述  {#section_099DF8AC5691495F9B22C71266DD6004}
 
 | 元素 | 描述 |
 |--- |--- |
