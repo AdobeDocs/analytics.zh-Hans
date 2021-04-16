@@ -1,15 +1,15 @@
 ---
 description: 启用应用程序管理可激活移动设备解决方案变量，以便从移动设备应用程序中捕获生命周期和其他量度。
 title: 应用程序管理
-topic: Admin tools
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '623'
+feature: 管理工具
+exl-id: ec19695a-2961-45e4-bf44-434f0ff9e3c9
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '625'
 ht-degree: 100%
 
 ---
-
 
 # 应用程序管理
 
@@ -60,9 +60,9 @@ Adobe Analytics 与 Mobile Services 之间的此集成：
 | 启动次数 | 应用程序启动或移出后台的次数。 |
 | 首次使用后间隔天数 | 自首次运行以来经过的天数。 |
 | 上次使用后间隔天数 | 上次使用后间隔的天数。 |
-| 每天时间 | 测量应用程序启动的小时，采用 24 小时制数字格式。用于时间分片以确定峰值使用时间。 |
+| 每天时间 | 测量应用程序启动的时间，采用 24 小时数字格式。用于时间分片以确定峰值使用时间。 |
 | 每周时间 | 应用程序星期几启动。 |
-| 设备名称 | 存储设备名称。以逗号分隔的两位数字字符串，用于标识 设备。第一个数字通常代表第几代设备，第二个数字通常注释设备系列的不同成员。 |
+| 设备名称 | 存储设备名称。以逗号分隔的两位数字字符串，用于标识 设备。第一个数字通常代表第几代设备，第二个数字通常代表设备系列的不同成员。 |
 | 操作系统版本 | 操作系统版本。 |
 | 分辨率 | 宽 x 高（以实际像素为单位）。 |
 | 存留期价值 (eVar) | 由 trackLifetimeValue 方法填充。 |
@@ -80,4 +80,3 @@ Adobe Analytics 与 Mobile Services 之间的此集成：
 | 应用程序内消息在线 |  |
 | 允许推送 |  |
 | 负载 ID |  |
-
