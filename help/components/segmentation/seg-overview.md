@@ -1,16 +1,16 @@
 ---
 description: 您可以使用区段根据特性或网站交互来确定访客子集。区段是作为可编码的受众分析而设计的，您可以针对特定的需求生成区段，然后验证、编辑和与其他团队成员共享或在其他 Adobe 产品和 Analytics 功能中使用。
 title: 关于区段和容器
-topic: 区段
+feature: 区段
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
+exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '3700'
 ht-degree: 100%
 
 ---
-
 
 # 关于区段和容器
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 此类型的区段根据使用 [!UICONTROL AND] 和 [!UICONTROL OR] 运算符联接的特性过滤数据集。
 
-## 顺序区段 {#section_EE5B14287FC44E0B96E77679A2438948}
+## 顺序区段  {#section_EE5B14287FC44E0B96E77679A2438948}
 
 通过使用顺序区段，您可以根据站点中的导航和页面查看识别访客，为定义的操作和交互提供了一个区段。顺序区段可帮助您识别访客喜欢和避开的内容。生成顺序区段时，使用 [!UICONTROL THEN] 运算符来定义和排序访客导航。
 
@@ -297,4 +297,3 @@ Country = United States + Order = True
 
 * 只要一次访问至少有一个页面满足条件，访问容器会返回该访问查看的所有页面。所以，如果某个页面只在第 1 天的第 1 次访问时查看，那么整个访问期间查看的所有页面都会包含在该数据内。
 * 当您分段的条件是针对 eVar 或其他类型的持续变量时，请谨慎小心。例如，您可能使用条件“促销活动包含电子邮件”，该条件在 7 天后过期。因此，如果此促销活动在首次访问时设置，那么将再持续 7 天时间。即使促销活动只在首次访问中设置，也会将每个访问包含进来。其他访问也将包含进来（只要在报表的日期范围内）。如果您希望将持续值排除出去，请使用事件“实例”，或者使用等效的 Prop 变量（可用时）。
-
