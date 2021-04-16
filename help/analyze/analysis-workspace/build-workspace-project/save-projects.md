@@ -5,7 +5,7 @@ feature: Workspace 基础
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
-source-git-commit: e4bfa3c523efc10d8ae7a32dc59861894ef0e1bf
+source-git-commit: cfeb681805108c9d9422d88b6d7146d0eb186204
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 54%
@@ -64,6 +64,9 @@ Adobe 提供了在离开页面之前进行保存的选项。离开现有项目�
 要打开项目的先前版本，请执行以下操作：
 
 1. 转至&#x200B;**[!UICONTROL Project]** > **[!UICONTROL 打开以前版本]**
+
+   ![](assets/previous-versions.png)
+
 1. 查看先前版本的列表。
    [!UICONTROL 显示] 了“时  间戳”和“编辑器”(Editor)，并  且添加了“注释”(  Note)。没有备注的版本存储90天；包含注释的版本存储1年。
 1. 选择以前的版本，然后单击&#x200B;**[!UICONTROL 加载]**。
