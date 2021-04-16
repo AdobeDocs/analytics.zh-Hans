@@ -1,12 +1,12 @@
 ---
 description: 数据源在处理作为标准服务器调用的数据时，支持以下变量（普通 > 完全处理）。
 title: 完全处理
-topic: 开发人员和实施
+topic-fix: Developer and implementation
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 translation-type: tm+mt
-source-git-commit: 4e8a79648b0573e68d9059c518f6ec8fb3d9a694
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '723'
 ht-degree: 96%
 
 ---
