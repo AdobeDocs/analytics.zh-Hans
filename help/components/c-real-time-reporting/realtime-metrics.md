@@ -1,16 +1,16 @@
 ---
 description: 列出实时报表所支持的量度和维度。还支持分类（如果已定义）。
 title: 受支持的实时量度和维度
-topic: Reports
+topic-fix: Reports
 uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
+exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 100%
 
 ---
-
 
 # 受支持的实时量度和维度
 
@@ -47,4 +47,3 @@ ht-degree: 100%
 * 文件下载
 * 退出链接
 * 自定义分析变量 (prop) 1-75（如果在报表包中启用）
-
