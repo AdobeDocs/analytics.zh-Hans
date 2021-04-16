@@ -2,16 +2,16 @@
 description: 若要高效地使用处理规则，了解在数据收集期间何时应用处理规则非常重要。
 subtopic: Processing rules
 title: 处理顺序
-topic: Admin tools
+feature: 管理工具
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
+exl-id: c7143527-017c-4550-b55e-09ea437d7c85
 translation-type: tm+mt
-source-git-commit: 31506d4d3fa26a3012cce2c6a8fdeb7af52c2537
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '507'
 ht-degree: 91%
 
 ---
-
 
 # 处理顺序
 
@@ -41,8 +41,8 @@ ht-degree: 91%
 | 地域查找 | 这包括“访客所在州”和“访客 ZIP/邮政编码”值。 |
 | eVars 持久性 | 在规则处理过程中，上次点击中包含的 eVar 不会持久用于每个点击。只有在当前正在处理的点击上设置的 eVar 可用。 |
 
-## 使用 VISTA 复制点击量时如何应用处理规则 {#section_576EE8C240A24CBA979BD614E8D5338D}
+## 使用 VISTA 复制点击量时如何应用处理规则  {#section_576EE8C240A24CBA979BD614E8D5338D}
 
-如果您已配置VISTA规则将点击复制到其他报表包，则点击将通过其他报表包中定义的任何处理规则发送。
+如果您已配置VISTA规则，将点击复制到其他报表包，则点击将通过其他报表包中定义的任何处理规则发送。
 
 如果您在初始报表包中定义了处理规则，根据工程技术服务对 VISTA 规则的配置方式，可能会或者不会应用这些规则。若要确定是否应用了这些规则，您可以询问实施专家 VISTA 规则是将“pre”值还是“post”值复制到了其他报表包中。如果复制的是“pre”值，则不会应用初始报表包中定义的处理规则。如果复制的是“post”值，则会在复制点击量前应用处理规则。
