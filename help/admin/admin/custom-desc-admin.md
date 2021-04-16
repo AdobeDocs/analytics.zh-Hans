@@ -1,16 +1,16 @@
 ---
 description: 您可以为 eVar、prop、分类和事件提供自定义报表描述。这些描述对所有最终用户都是可见的。
 title: 自定义报表描述
-topic: Admin tools
+feature: 管理工具
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
+exl-id: f9bcd01c-acca-47a4-b9b5-751b3068a5ad
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '115'
 ht-degree: 100%
 
 ---
-
 
 # 自定义报表描述
 
@@ -36,4 +36,3 @@ ht-degree: 100%
 * 当您将鼠标悬停在左侧导航内的报表上时，它会作为工具提示出现：
 
    ![](assets/report_description_3.png)
-
