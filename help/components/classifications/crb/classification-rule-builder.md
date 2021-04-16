@@ -2,16 +2,16 @@
 description: 您无需在每次跟踪代码变更时维护并上载分类，您可以创建自动、基于规则的分类并将这些分类应用在多个报表包中。根据分类相关的流量数目，定期处理规则。
 subtopic: Classifications
 title: 分类规则生成器工作流程
-topic: Admin tools
+feature: 管理工具
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
+exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '576'
 ht-degree: 97%
 
 ---
-
 
 # 分类规则生成器工作流程
 
@@ -52,4 +52,4 @@ ht-degree: 97%
 
 **博客**：如需有关此功能的详细信息，请参阅数字营销博客：[基于规则的分类](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/)。
 
-**视频**:视图“ [分类概述](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) ”视频。
+**视频**:视图分 [类](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) 概述视频。
