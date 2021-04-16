@@ -1,16 +1,16 @@
 ---
 description: Data Warehouse 能够以表格数据提取 (TDE) 文件格式提交报表，通过该格式不仅可以查看 Adobe Analytics 外部的数据，还可以查看数据和层。您可以通过电子邮件发送此信息，也可以将此信息通过 FTP 发送到 FTP 站点。
 title: 表格数据文件
-topic: Data warehouse
+feature: Data Warehouse
 uuid: 84566ba8-87d8-4c5e-8c31-f659a577848c
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '177'
+exl-id: c9973eb6-9ca2-4a8d-94b0-4c7c9c70ab26
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '179'
 ht-degree: 100%
 
 ---
-
 
 # 表格数据文件
 
