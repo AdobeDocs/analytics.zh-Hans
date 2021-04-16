@@ -1,17 +1,17 @@
 ---
 description: 动态标签管理中用于部署 Adobe Analytics 的“常规”设置的字段描述。
-keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;general settings;eu compliance;character set;currency code;tracking server;ssl tracking server
+keywords: Analytics 实施;实施方法;dynamic tag management;DTM;常规设置;EU 合规性;字符集;货币代码;跟踪服务器;SSL 跟踪服务器
 title: 常规
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
+exl-id: f63e83bf-be87-4ea2-ba04-5c152e5d16d3
 translation-type: tm+mt
-source-git-commit: 0d699a50a764d9ea76771118c7cc083fb46cefe9
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '308'
 ht-degree: 100%
 
 ---
-
 
 # 常规
 
@@ -63,4 +63,3 @@ DTM 中用于部署 Adobe Analytics 的“常规”设置的字段描述。
   </tr> 
  </tbody> 
 </table>
-
