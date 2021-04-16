@@ -2,16 +2,16 @@
 description: 创建、管理和查看报表包中数据源的使用情况。
 subtopic: Data sources
 title: 数据源管理器
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+exl-id: a63137b8-deeb-4865-9be9-322416b00186
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 100%
 
 ---
-
 
 # 数据源管理器
 
@@ -77,6 +77,6 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## “文件日志”选项卡 {#section_B7AC7EE8CAD740A59DD53CF1919373F0}
+## “文件日志”选项卡  {#section_B7AC7EE8CAD740A59DD53CF1919373F0}
 
 文件日志包含搜索功能，它允许您通过数据源名称、数据源类型、文件名、接收日期或状态来搜索相关信息。
