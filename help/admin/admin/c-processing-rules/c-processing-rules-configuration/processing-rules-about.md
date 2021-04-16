@@ -2,16 +2,16 @@
 description: 使用处理规则可以基于定义的条件对数据进行更改。当属性或值匹配定义的条件时，可以设置和删除值，并可以设置事件。
 subtopic: Processing rules
 title: 处理规则的工作原理
-topic: Admin tools
+feature: 管理工具
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '690'
+exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '692'
 ht-degree: 100%
 
 ---
-
 
 # 处理规则的工作原理
 
@@ -94,7 +94,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 处理规则条件 {#section_387390EEE9BA4DA98698522A84326DB4}
+## 处理规则条件  {#section_387390EEE9BA4DA98698522A84326DB4}
 
 “条件”将检查页面变量是否有匹配值或者是否存在值。可以添加多个条件并且可以选择是否必须匹配所有条件。
 
@@ -102,7 +102,7 @@ ht-degree: 100%
 
 在发生操作之前不会自动检查变量的值。例如，Prop1 包含一个值“something”，eVar1 为空。如果将 Prop1 设置为等于 eVar1，则两个值都将为空。如果需要避免此情况，可添加一个条件来检查是否存在值。
 
-## 处理规则操作 {#section_E2285C9D008442C7BF136E52A9A4CC06}
+## 处理规则操作  {#section_E2285C9D008442C7BF136E52A9A4CC06}
 
 “操作”设置页面变量、删除页面变量或触发事件。操作还可以关联值使其显示在报表中。
 
