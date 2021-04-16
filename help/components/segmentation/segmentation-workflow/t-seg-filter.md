@@ -1,16 +1,16 @@
 ---
 description: 按照标记、所有者和其他过滤器（全部显示、我的、已与我共享、收藏和已批准）进行过滤。
 title: 过滤区段
-topic: Segments
+feature: 区段
 uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
-translation-type: ht
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
-source-wordcount: '154'
+exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '155'
 ht-degree: 100%
 
 ---
-
 
 # 过滤区段
 
@@ -34,4 +34,3 @@ ht-degree: 100%
    | “其他过滤器”>“收藏” | 显示标记为[收藏次数](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md)。 |
    | “其他过滤器”>“已批准” | 显示所有正式[批准](/help/components/segmentation/segmentation-workflow/seg-approve.md)的区段。 |
    | 搜索区段 | 用于按名称搜索区段。 |
-
