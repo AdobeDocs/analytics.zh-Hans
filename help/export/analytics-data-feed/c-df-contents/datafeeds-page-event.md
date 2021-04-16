@@ -1,23 +1,23 @@
 ---
 description: 用于根据 page_event 值确定点击类型的对照表。
-keywords: Data Feed;page;event;page_event;post_page_event
+keywords: 数据馈送；页面；事件;page_事件;post_page_事件
 title: 页面事件对照
-topic: Reports and analytics
+feature: 报告和分析基础
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '197'
-ht-degree: 100%
+exl-id: ef0467df-b94b-4cec-b312-96d8f42c23b0
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '209'
+ht-degree: 94%
 
 ---
-
 
 # 页面事件对照
 
 用于根据 page_event 值确定点击类型的对照表。
 
-| 点击类型 | `page_event` value | `post_page_event` value |
+| 点击类型 | `page_event` value | `post_page_event` 值 |
 | --- | --- | --- |
 | 页面查看 | 0：来自 Mobile SDK 的所有页面查看调用和 `trackState` 调用 | 与 `post_page_event` 的值相同 |
 | 链接跟踪 | 10：Mobile SDK 中的自定义链接和 `trackAction` 调用<br>11：下载链接<br>12：退出链接 | 100：Mobile SDK 中的自定义链接和 `trackAction` 调用<br>101：下载链接<br>102：退出链接 |
