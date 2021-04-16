@@ -1,17 +1,17 @@
 ---
 description: 针对虚拟报表包新用户的提示和最佳实践。
-keywords: Virtual Report Suite
+keywords: 虚拟报表包
 title: VRS 常见问题解答
-topic: Reports and analytics
+feature: 报告和分析基础
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
-translation-type: ht
-source-git-commit: 444a2b93a39cad0d2f62a4bf8d889b71ba726092
-workflow-type: ht
-source-wordcount: '898'
-ht-degree: 100%
+exl-id: ab961bec-5719-4b90-bc10-c929b63dc923
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '904'
+ht-degree: 99%
 
 ---
-
 
 # VRS 常见问题解答
 
@@ -75,4 +75,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
