@@ -1,13 +1,16 @@
 ---
 description: 管理分配到 Report Builder 用户的许可证。
 title: Report Builder 报表
-topic: Admin tools
+feature: 管理工具
 uuid: 41f98b99-9a78-430a-8a42-101eddd3d2ef
+exl-id: 1ac574a1-ea64-4fee-8ede-87260f512623
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '102'
+ht-degree: 98%
 
 ---
-
 
 # Report Builder 报表
 
@@ -19,4 +22,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 [!UICONTROL 计划任务分配状况]信息表显示具有 Report Builder 访问权限的所有用户。
 
-请参 [阅组](/help/admin/user-management2/c-user-groups/groups.md)。
+请参阅[组](/help/admin/user-management2/c-user-groups/groups.md)。
