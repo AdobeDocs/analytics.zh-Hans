@@ -2,16 +2,16 @@
 description: “自定义分析转化变量”（或 eVar）置于您网站所选网页的 Adobe 代码中。其主要目的是在自定义市场营销报告中划分转化成功量度区段。eVar 可以是基于访问的，其功能与 Cookie 类似。在预先设定的一段时间内，传递到 eVar 变量的值将始终“跟随”着用户。
 keywords: eVar
 title: 转化变量 (eVar)
-topic: Admin tools
+feature: 管理工具
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '1579'
-ht-degree: 100%
+exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '1582'
+ht-degree: 98%
 
 ---
-
 
 # 转化变量 (eVar)
 
@@ -76,7 +76,7 @@ eVar 最适合用于度量原因和影响，例如：
        <li id="li_82DB2D7F53304623A5E1241D75C7DF94">一个月过期：eVar 在自本星期一起 31 天后的上午 7:15 过期。 </li> 
       </ul> </li> 
      <li id="li_C132C5C5A5344B91BDF5EB6A1C717C37"><b>特定转化事件。</b>在指定的特定事件之后触发的任何其他转化事件与 eVar 相关联。 </li> 
-     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>从不。</b> 只要<span class="varname">visitorID</span> Cookie 是完整的，eVar 和事件之间可间隔任意长的时间。 </li> 
+     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>从不.</b> 只要visitorIDcookie <span class="varname"> </span> 保持不变，任何时间都可以在eVar和事件之间传递。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
