@@ -1,17 +1,17 @@
 ---
 description: Data Warehouse 为运行自定义报表提供了灵活的界面。遵循这些指导进行操作有助于缩短检索数据所用的时间。
-keywords: best practices;failure;timeout;troubleshooting
+keywords: 最佳实践；失败；超时；疑难解答
 title: Data Warehouse 最佳实践
-topic: Data warehouse
+feature: Data Warehouse
 uuid: d71c9138-22d9-4f92-885e-593f83f2bb59
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '285'
-ht-degree: 100%
+exl-id: 7e21534b-a7ec-4231-89f1-0ad5013e70cf
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '292'
+ht-degree: 98%
 
 ---
-
 
 # Data Warehouse 最佳实践
 
