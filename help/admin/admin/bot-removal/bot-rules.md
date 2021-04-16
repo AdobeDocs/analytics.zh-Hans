@@ -2,16 +2,16 @@
 description: 使用机器人规则，您可以从报表包中删除已知蜘蛛程序和机器人程序生成的流量。删除机器人程序流量可为您网站上的用户活动提供更准确的测量。
 subtopic: Bot rules
 title: 机器人规则概述
-topic: Admin tools
+feature: 管理工具
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
+exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1358'
 ht-degree: 99%
 
 ---
-
 
 # 机器人规则概述
 
