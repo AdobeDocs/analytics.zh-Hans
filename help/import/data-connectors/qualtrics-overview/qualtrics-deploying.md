@@ -2,13 +2,16 @@
 description: 部署此集成的流程非常简单，只需执行以下操作。
 subtopic: Qualtrics
 title: 部署集成
-topic: Data connectors
+feature: Data Connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
+exl-id: 8637f13d-a07e-412e-9ad7-8a0836301dd6
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '589'
+ht-degree: 98%
 
 ---
-
 
 # 部署集成{#deploying-the-integration}
 
@@ -33,7 +36,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | Qualtrics 响应列表 | 从报表包中选择一个可用的列表变量。（您可能需要在报表包管理器中启用新的 listVar。）|
 |---|---|
 | Qualtrics 响应 ID | 从报表包中选择一个可用的 eVar 或 prop。（您可能需要在报表包管理器中启用新的 listVar。）|
-| 跟踪服务器 | 提供用于跟踪 Adobe Analytics 数据的跟踪服务器（域）设置。如果跟踪服务器与标准跟踪服务器设置不同，请使用 `trackingServerSecure` 跟踪服务器。|
+| 跟踪服务器 | 提供用于跟踪 Adobe Analytics 数据的跟踪服务器（域）设置。使用 
+`trackingServerSecure` 跟踪服务器（如果它与标准跟踪服务器设置不同）。|
 | Qualtrics 调查提交 | 从报表包中选择一个可用的事件（您可能需要在报表包管理器中启用新事件）。|
 
 1. **向导步骤 3**：无需执行操作，仅显示相应信息。
@@ -61,6 +65,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 1. 选择 Adobe Analytics 配置，然后单击&#x200B;**[!UICONTROL 保存]**。如果没有可用的配置，则您可能尚未完成 Adobe 集成向导。
    1. **[!UICONTROL 包括部分响应]**&#x200B;复选框可用于指示您希望在部分完成每个调查屏幕后将数据捕获到 Adobe Analytics 中。如果未选中此项，则只为完全完成的调查传输数据。
    1. 仅当与配置为接收带时间戳的数据（不常见）的报表包集成时，才应使用&#x200B;**[!UICONTROL 发送带有信标的时间戳]**&#x200B;复选框。
+
    ![](assets/integration_config.png)
 
 ## 验证集成{#verifying-the-integration}
@@ -82,5 +87,3 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    >如果集成调查主动接收响应，则这些数据应会在成功部署后的 24-48 小时内显示。
 
    ![](assets/verify-2.png) ![](assets/verify-3.png)
-
-
