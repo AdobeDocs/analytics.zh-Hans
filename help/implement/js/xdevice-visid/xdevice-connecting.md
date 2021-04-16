@@ -1,18 +1,18 @@
 ---
 description: 跨设备访客识别可帮助您连接跨多个设备的访客。跨设备访客识别使用访客 ID 变量 s.visitorID 来关联跨设备的用户。
-keywords: Analytics Implementation
+keywords: Analytics 实施
 subtopic: Visitors
 title: 跨设备连接用户
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
-translation-type: ht
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
-source-wordcount: '399'
+exl-id: dfe278db-01de-4bba-b07a-66d52de1dbe2
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '401'
 ht-degree: 100%
 
 ---
-
 
 # 跨设备连接用户
 
