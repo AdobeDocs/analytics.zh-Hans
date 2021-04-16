@@ -1,17 +1,17 @@
 ---
 description: 您可以使用一个或多个可用托管选项来部署动态标签管理。
-keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;hosting;hosting options;akamai;self hosting;self-hosting;ftp delivery;ftp hosting;library download
+keywords: Analytics 实施;实施方法;dynamic tag management;DTM;托管;托管选项;Akamai;自托管;FTP 交付;FTP 托管;库下载
 title: 配置托管选项
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 04268f2d-e76f-4fe4-8fcc-f0db3a016502
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
-source-wordcount: '515'
+exl-id: cef5205e-bb21-4d8d-862b-33dc800e1118
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '536'
 ht-degree: 100%
 
 ---
-
 
 # 配置托管选项
 
