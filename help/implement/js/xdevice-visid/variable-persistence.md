@@ -1,17 +1,17 @@
 ---
 description: 在访客资料与同一访客 ID 变量关联后进行合并时，历史数据集中的属性不会发生更改。
-keywords: Analytics Implementation
+keywords: Analytics 实施
 title: 属性和永久性
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
-translation-type: ht
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
-source-wordcount: '542'
+exl-id: 7a6305f6-c8ec-4f26-8373-45ce586bc69d
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '544'
 ht-degree: 100%
 
 ---
-
 
 # 属性和永久性
 
