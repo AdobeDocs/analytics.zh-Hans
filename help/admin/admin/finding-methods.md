@@ -1,16 +1,16 @@
 ---
 description: “查找方法”页面可识别各种查找方法报表在网站上接收转化成功事件信用的方式。例如，如果某个搜索引擎引荐一个访客到您的网站购物，“查找方法”可指定该搜索引擎如何接收反向链接的信用。
 title: 查找方法
-topic: Admin tools
+feature: 管理工具
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
+exl-id: 58c4510c-2343-4b0a-9c09-5583f6d4250f
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '319'
 ht-degree: 100%
 
 ---
-
 
 # 查找方法
 
@@ -58,4 +58,3 @@ ht-degree: 100%
 >[!NOTE]
 >
 > 访问结束时，所有“查找方法”都会过期。如果您选择在不同事件（例如，购物车结账）后过期，则“查找方法”会在访问期间购物车结账时过期。如果访问期间没有购物车结账，则“查找方法”仍会在访问结束后过期。
-
