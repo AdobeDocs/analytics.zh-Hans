@@ -1,23 +1,23 @@
 ---
 description: 单击报表包名称旁边的 i（信息）图标可获取有关该报表包的信息。
-keywords: Virtual Report Suite
+keywords: 虚拟报表包
 title: 查看虚拟报表包信息
-topic: Reports and analytics
+feature: 报告和分析基础
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '95'
-ht-degree: 100%
+exl-id: 92e89d40-db94-4b0c-881e-e57ca4bb6999
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 97%
 
 ---
-
 
 # 查看虚拟报表包信息
 
 单击报表包名称旁边的 i（信息）图标可获取有关该报表包的信息。
 
-## 在报表包选择器中 {#section_74E43B60C1CA4180B5ACA57574C1FA0F}
+## 在报表包选择器中  {#section_74E43B60C1CA4180B5ACA57574C1FA0F}
 
 在报表包选择器中，单击虚拟报表包旁边的“信息”图标会提供以下信息：
 
@@ -27,4 +27,3 @@ ht-degree: 100%
 * 唯一访客总数。
 
 ![](assets/vrs-info.png)
-
