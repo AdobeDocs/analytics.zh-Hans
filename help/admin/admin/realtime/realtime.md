@@ -1,16 +1,16 @@
 ---
 description: 实时显示 Web 页面流量和并对页面查看次数进行排名。提供制定业务决策所需的可操作数据。
 title: 实时报表
-topic: Reports
+topic-fix: Reports
 uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
+exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 100%
 
 ---
-
 
 # 实时报表
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 仅管理员或“全部报表访问”和“高级报表”权限组中的所有用户有权设置和查看实时报表。而且，实时报表确实遵守权限设置。例如，如果您没有查看收入的权限，也便无法查看其中包含收入数据的实时报表。
 
-## 由 A4T 配置导致的数据滞后 {#section_806CE36354FC4C539A0DED9266A5C704}
+## 由 A4T 配置导致的数据滞后  {#section_806CE36354FC4C539A0DED9266A5C704}
 
 在 Adobe Target 中启用 A4T 集成后，您在 Adobe Analytics 中会额外经历 5 至 10 分钟的滞后。这额外增加的滞后允许您将 Analytics 和 Target 中的数据存储到同一个点击上，从而允许您按页面和网站部分来细分测试。
 
