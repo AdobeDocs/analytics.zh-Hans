@@ -2,16 +2,16 @@
 description: 处理规则简化了数据收集，并在数据被发送到报表时对内容进行管理。
 subtopic: Processing rules
 title: 处理规则概述
-topic: 管理工具
+feature: 管理工具
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
+exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 translation-type: tm+mt
-source-git-commit: 7f34aa3b5056c56516daea6144723a1751ef9051
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 68%
 
 ---
-
 
 # 处理规则概述
 
