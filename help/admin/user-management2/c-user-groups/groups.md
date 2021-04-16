@@ -2,16 +2,16 @@
 description: “定义用户群组”页面上的元素描述。
 subtopic: Users and groups
 title: 用户群组设置
-topic: Admin tools
+feature: 管理工具
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
+exl-id: f5cb40e6-bfcc-4071-bc6b-f3575f998edc
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '613'
 ht-degree: 100%
 
 ---
-
 
 # 用户群组设置（旧版）
 
@@ -138,4 +138,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
