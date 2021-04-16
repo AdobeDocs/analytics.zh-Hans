@@ -1,13 +1,16 @@
 ---
 description: Web 服务 API 可通过编程方式访问市场营销报告及其他“包”服务，从而让您以其他方式使用通过 Analytics 界面提供的功能，以及实现更多功能。
 title: Web 服务
-topic: Admin tools
+feature: 管理工具
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 100%
 
 ---
-
 
 # Web 服务
 
