@@ -2,16 +2,16 @@
 description: '配置 DFA 集成的过程涉及以下任务 '
 keywords: DFA
 title: DFA 集成
-topic: Data connectors
+feature: Data Connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
+exl-id: 27eb7789-30a5-4f4a-8b23-06e3625996ec
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2601'
 ht-degree: 100%
 
 ---
-
 
 # DFA 集成{#dfa-integration}
 
@@ -49,7 +49,7 @@ ht-degree: 100%
    <td colname="col3"> Genesis 在报表包的活动集成列表中显示的集成名称。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 1 </td> 
+   <td colname="col1"> 3 </td> 
    <td colname="col2"> 集成电子邮件地址 </td> 
    <td colname="col3"> 接收与此集成相关的所有通知的电子邮件地址。 </td> 
   </tr> 
