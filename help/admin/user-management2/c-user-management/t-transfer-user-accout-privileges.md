@@ -2,16 +2,16 @@
 description: 描述如何将一个用户帐户中的用户帐户项目（功能板、计算量度、日历事件、警报、书签、区段、Analysis Workspace 项目和计划项目）分配给另一个用户帐户的步骤。
 subtopic: Users and groups
 title: 转移用户帐户项目
-topic: 管理工具
+feature: 管理工具
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
+exl-id: 13e2e412-14ea-4a9a-8f68-c914125d551e
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 100%
 
 ---
-
 
 # 转移用户帐户项目
 
