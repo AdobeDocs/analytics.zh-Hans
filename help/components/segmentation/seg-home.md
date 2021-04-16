@@ -1,17 +1,17 @@
 ---
 description: Adobe Analytics 允许您使用各种 Analytics 功能、Adobe Experience Cloud、Adobe Target 和其他集成的 Adobe 产品生成、管理和共享强大而集中的受众区段并将它们应用到您的报表中。
-keywords: segmentation;segments
+keywords: 分段;区段
 title: Analytics 分段
-topic: Segments
+feature: 区段
 uuid: 845c1743-1264-4090-bccc-78830477f52e
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '171'
+exl-id: e8adafc2-1d25-47ba-80e8-5b5c8d54567d
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '174'
 ht-degree: 100%
 
 ---
-
 
 # Analytics 分段
 
