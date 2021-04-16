@@ -1,16 +1,16 @@
 ---
 description: 添加日历事件和管理共享事件的步骤。
 title: 日历事件
-topic: Reports and analytics
+feature: 报告和分析基础
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '334'
-ht-degree: 100%
+exl-id: 5765b377-bdad-41a7-8277-b9fd521c12bd
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '337'
+ht-degree: 99%
 
 ---
-
 
 # 日历事件
 
@@ -44,4 +44,3 @@ ht-degree: 100%
    |---|---|
    | **置于报表** | 允许您查看事件所有者执行的更改/更新。 |
    | **不共享** | 从共享事件的列表中删除此事件。 |
-
