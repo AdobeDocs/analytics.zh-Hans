@@ -1,16 +1,16 @@
 ---
 description: 您可以通过选择预定义的模板或者使用某个现有报表包作为模型，来创建新的报表包。
 title: 新报表包 - 设置
-topic: 管理工具
+feature: 管理工具
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
+exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 93%
 
 ---
-
 
 # 新报表包 - 设置
 
@@ -68,4 +68,3 @@ ht-degree: 93%
   </tr>  
  </tbody> 
 </table>
-
