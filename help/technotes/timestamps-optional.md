@@ -1,17 +1,17 @@
 ---
 description: 了解有关使用可选时间戳设置的好处和限制。
-keywords: Analytics Implementation
+keywords: Analytics 实施
 title: 使用可选时间戳
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
+exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '618'
 ht-degree: 100%
 
 ---
-
 
 # 使用可选时间戳
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 * 要求时间戳（不支持设置 visitorID）
 * 可选时间戳（支持设置 visitorID，但不支持加盖时间戳的点击量）
 
-## 关于可选时间戳功能 {#section_63B2FA9A2AB24B3993E84D2C2B4BF2CE}
+## 关于可选时间戳功能  {#section_63B2FA9A2AB24B3993E84D2C2B4BF2CE}
 
 可选时间戳允许您跨越多个报表包集成和报告，而无论这些报表包中是否包含客户端时间戳。通过可选时间戳，您可以更新您的应用程序以应用时间戳，同时仍可使用之前应用程序中未加盖时间戳的数据。
 
