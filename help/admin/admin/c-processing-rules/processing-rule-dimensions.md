@@ -2,22 +2,22 @@
 description: 使用处理规则时，您可以读取和写入的维度（另有说明的除外）。
 subtopic: Processing rules
 title: 可用于处理规则的维度
-topic: Admin tools
+feature: 管理工具
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
+exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '745'
 ht-degree: 86%
 
 ---
-
 
 # 可用于处理规则的维度
 
 使用处理规则时，您可以读取和写入的维度（另有说明的除外）。
 
-## 自定义值和上下文数据 {#section_7A5E1810CAC34B0BBC69F8F5F7C75AA5}
+## 自定义值和上下文数据  {#section_7A5E1810CAC34B0BBC69F8F5F7C75AA5}
 
 <table id="table_5011C501D5DC489E87A42FFC51DEB40D"> 
  <thead> 
@@ -91,11 +91,11 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p>页面名称 </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>注意： 链接跟踪调用在达到 <code>pageName</code> 处理规则之前会删除变量。 如果使用处理规则重新插入页面名称值，则点击被视为页面视图，而非链接跟踪调用。 Adobe建议在修改页面名称之前先进行检查，确保已设置该页面名称。 </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>注意： 链接跟踪调用在达到处理规则之前会删除<code>pageName</code>变量。 如果使用处理规则重新插入页面名称值，则点击被视为页面视图，而不是链接跟踪调用。 Adobe建议在修改页面名称之前进行检查，以确保已设置该页面名称。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>页面 URL </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> 或未指定 <code> s.pageURL</code> 时的当前页面 URL。 <p>注意： 链接跟踪调用在达到 <code>pageURL</code> 处理规则之前会删除变量。 如果使用处理规则重新插入页面URL值，则点击被视为页面视图，而不是链接跟踪调用。 Adobe建议在修改页面URL之前先进行检查，确保已设置该页面URL。 </p></td> 
+   <td colname="col2"> <code> s.pageURL</code> 或未指定 <code> s.pageURL</code> 时的当前页面 URL。 <p>注意： 链接跟踪调用在达到处理规则之前会删除<code>pageURL</code>变量。 如果使用处理规则重新插入页面URL值，则点击被视为页面视图，而不是链接跟踪调用。 Adobe建议在修改页面URL之前先进行检查，确保已设置该页面URL。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>查询字符串参数 </p> </td> 
@@ -176,7 +176,7 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p>列表变量 1-3 </p> </td> 
-   <td colname="col2"> <p> <code> s.list1</code> - <code> s.list3</code> </p> </td> 
+   <td colname="col2"> <p> <code> s.list1</code> -  <code> s.list3</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>购买 ID </p> </td> 
@@ -210,8 +210,8 @@ ht-degree: 86%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Event 1-1000 </p> <p>（对于 SiteCatalyst 15 客户，事件 1-100。） </p> </td> 
-   <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
+   <td colname="col1"> <p>事件 1-1000 </p> <p>（对于 SiteCatalyst 15 客户，事件 1-100。） </p> </td> 
+   <td colname="col2"> <p> <code> event1</code> -  <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchase、scView、scAdd 和其他购物车事件 </p> </td> 
@@ -219,4 +219,3 @@ ht-degree: 86%
   </tr> 
  </tbody> 
 </table>
-
