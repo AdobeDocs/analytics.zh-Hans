@@ -1,13 +1,16 @@
 ---
 description: 使用“永久性流量”部分可以更改预期流量级别，以便 Adobe 可以重新分配资源来处理新的流量级别。
 title: 指定永久性流量增长
-topic: Admin tools
+feature: 管理工具
 uuid: 53acbe97-7f63-4608-b2f3-bd885eae7e6d
+exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '172'
+ht-degree: 100%
 
 ---
-
 
 # 指定永久性流量增长
 
@@ -26,4 +29,3 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    >[!NOTE]
    >
    >要计划永久性流量增长，请将电话号码包括在您的用户联系信息中，以便 Adobe 在需要时可以与您沟通有关问题。
-
