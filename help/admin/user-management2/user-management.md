@@ -2,16 +2,16 @@
 description: 在 Admin Console 中管理 Analytics 用户、群组和产品。
 subtopic: Users and groups
 title: 用户和产品管理
-topic: Admin tools
+feature: 管理工具
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '562'
+exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '564'
 ht-degree: 100%
 
 ---
-
 
 # 用户和产品管理
 
@@ -33,7 +33,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>将 Analytics 用户 ID 迁移至 Admin Console </p> </td> 
-   <td colname="col2"> <p> Adobe 正协助 Analytics 管理员将用户 ID 迁移至 Adobe Admin Console。这项工作将分批进行。当轮到您迁移用户时，Adobe 将通过电子邮件告知 Analytics 管理员有关迁移的说明。届时，可使用 Analytics 用户管理中提供的<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">迁移工具</a>来简化此任务。 </p> <p>重要提示：在您迁移用户的当日，您以前的权限群组将被自动复制到 Admin Console。您将无法在 Analytics 管理工具中邀请新用户或创建新群组。请查看<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">将 Analytics 用户迁移到 Admin Console</a> 中的常见问题解答和帮助，以了解有关如何准备迁移以及有关受影响的管理功能的信息。 </p> </td> 
+   <td colname="col2"> <p> Adobe 正协助 Analytics 管理员将用户 ID 迁移至 Adobe Admin Console。这项工作将分批进行。当轮到您迁移用户时，Adobe 将通过电子邮件告知 Analytics 管理员有关迁移的说明。届时，可使用 Analytics 用户管理中提供的<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">迁移工具</a>来简化此任务。 </p> <p>重要提示：在您迁移用户的当日，您以前的权限群组将被自动复制到 Admin Console。您将无法在 Analytics 管理工具中邀请新用户或创建新群组。请查看<a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">将 Analytics 用户迁移到 Admin Console</a> 中的常见问题解答和帮助，以了解有关如何准备迁移以及有关受影响的管理功能的信息。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>启动 Admin Console </p> </td> 
@@ -128,4 +128,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
