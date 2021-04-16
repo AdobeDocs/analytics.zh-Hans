@@ -1,13 +1,16 @@
 ---
 description: 为典型网站配置多个常见变量和成功事件。
 title: 默认模板
-topic: Admin tools
+feature: 管理工具
 uuid: edcf1b97-4ff2-4e98-b84c-199af2181d68
+exl-id: 36aaded4-5c46-41af-a5c6-216bd2fcadb2
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '204'
+ht-degree: 100%
 
 ---
-
 
 # 默认模板
 
@@ -50,4 +53,3 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 页面查看次数 | 计数器（无子关系） | 不适用 |
 | 每日独特访客 | 计数器（无子关系） | 不适用 |
 | 独特访客 | 计数器（无子关系） | 不适用 |
-
