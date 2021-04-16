@@ -2,16 +2,16 @@
 description: '激活后，Data Connectors DFA 集成为您的 Adobe Analytics 报表提供以下量度 '
 keywords: DFA
 title: 集成功能
-topic: Data connectors
+feature: Data Connectors
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
+exl-id: a0eb2196-5f6a-4dbb-98b0-c96c30601bc5
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '517'
 ht-degree: 100%
 
 ---
-
 
 # 集成功能{#integration-features}
 
@@ -45,7 +45,7 @@ Data connectors DFA 集成可通过 DFA 返回的数据自动构建 DFA 跟踪�
 
 对于任何 DFA 促销活动而言，其他两个分类，即交付工具 (DoubleClick for Advertisers) 和渠道（横幅广告），都具有相同的值，并可帮助区分 DFA 导入数据。
 
-## SearchCenter 重复数据删除 {#section-f809b3bb5e5142aa8ff89bcd5f0d0e49}
+## SearchCenter 重复数据删除  {#section-f809b3bb5e5142aa8ff89bcd5f0d0e49}
 
 DFA 集成现在支持 Adobe SearchCenter 感知。通过 Data Connectors 向导启用 SearchCenter 重复数据删除，搜索驱动型访客将不会导致数据从 DFA 的 Floodlight 服务器中提取，并且 DFA 不会填充 *`s.campaign`*，从而允许 SearchCenter 对其进行填充。此外，DFA 和 SearchCenter 现在会将删除了重复数据的值填入每个产品的变量。
 
@@ -63,4 +63,3 @@ DFA 集成现在支持 Adobe SearchCenter 感知。通过 Data Connectors 向导
 >[!NOTE]
 >
 > 如果启用“SearchCenter”>“DFA 重复数据删除”，并设置了 SearchCenter 查询字符串参数，则访问将不考虑进行 DFA 处理。这意味着 SearchCenter 查询字符串参数应当不同于 DFA 点进参数，并且没有任何显示广告应设置 SearchCenter 查询字符串参数。
-
