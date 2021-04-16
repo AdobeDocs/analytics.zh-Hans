@@ -1,16 +1,16 @@
 ---
 description: 不同于公历模式的日历选项。相关选项包括 4-4-5、4-5-4 与 5-4-4 日历模式，三者均是零售行业的标准模式。此外，报告还提供一个选项，您可自行设置完全自定义的日历。
 title: 自定义日历
-topic: 管理工具
+feature: 管理工具
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
+exl-id: 2196c7b7-7183-43a8-bb91-5a1e479819d4
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 92%
 
 ---
-
 
 # 自定义日历
 
@@ -57,4 +57,3 @@ ht-degree: 92%
   </tr> 
  </tbody> 
 </table>
-
