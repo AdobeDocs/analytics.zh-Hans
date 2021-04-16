@@ -1,16 +1,16 @@
 ---
 description: 介绍了可在规划区段时遵循的步骤和最佳实践。
 title: 计划区段
-topic: Segments
+feature: 区段
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
-translation-type: ht
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
-source-wordcount: '208'
+exl-id: ad4c6078-6f77-428e-b1f1-168f80d02668
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '209'
 ht-degree: 100%
 
 ---
-
 
 # 计划区段
 
@@ -29,4 +29,3 @@ ht-degree: 100%
 
 1. 考虑您希望如何进行&#x200B;**批准过程**。区段是由一个人进行审查和批准，还是由委员会做出决定？
 1. 定义区段时考虑构建&#x200B;**区段库**，使企业用户能够通过模块化方式堆叠和重复使用区段或组件。[](/help/components/segmentation/segmentation-workflow/seg-build.md)需要定义哪些“模块”才能实现此库？
-
