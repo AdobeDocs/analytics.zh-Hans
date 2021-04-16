@@ -1,16 +1,16 @@
 ---
 description: 通过区段生成器，您可以使用选定的运算符比较和约束值。
 title: 区段的比较运算符
-topic: Segments
+feature: 区段
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '1021'
+exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '1022'
 ht-degree: 100%
 
 ---
-
 
 # 区段的比较运算符
 
@@ -55,4 +55,3 @@ ht-degree: 100%
 | 小于 | 返回独特计数小于输入值的维度项目。 |
 | 大于或等于 | 返回独特计数大于或等于输入值的维度项目。 |
 | 小于或等于 | 返回独特计数小于或等于输入值的维度项目。 |
-
