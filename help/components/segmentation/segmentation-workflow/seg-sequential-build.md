@@ -1,16 +1,16 @@
 ---
 description: 顺序区段使用 THEN 运算符（而非 AND 或 OR）创建。THEN 意味着出现一个区段标准后，接着出现另一个区段标准。默认情况下，顺序区段会识别所有匹配数据，并显示过滤器“包含每个人”。可以使用“仅在序列前”和“仅在序列后”选项将顺序区段进一步过滤为匹配点击的子集。
 title: 生成顺序区段
-topic: Segments
+feature: 区段
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
-translation-type: ht
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
-source-wordcount: '3857'
+exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '3858'
 ht-degree: 100%
 
 ---
-
 
 # 生成顺序区段
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 | 匹配 | A -> B<br>A ->（在不同的访问中）B<br>A -> D -> B |
 | 不匹配 | B -> A |
 
-## “仅在序列前”和“仅在序列后” {#section_736E255C8CFF43C2A2CAAA6D312ED574}
+## “仅在序列前”和“仅在序列后”  {#section_736E255C8CFF43C2A2CAAA6D312ED574}
 
 **[!UICONTROL 仅在序列前]**&#x200B;和&#x200B;**[!UICONTROL 仅在序列后]**&#x200B;选项可将区段过滤为指定序列之前或之后的数据子集。
 
@@ -355,7 +355,7 @@ ht-degree: 100%
 
 您可以使用 [!UICONTROL Within] 和 [!UICONTROL After] 容器并指定粒度和计数，以将匹配限制为指定的持续时间。[!UICONTROL Within] 运算符用于指定两个检查点之间的时间长度的最大限制。[!UICONTROL After] 运算符用于指定两个检查点之间的时间长度的最小限制。
 
-### After 和 Within 运算符 {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
+### After 和 Within 运算符  {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
 持续时间是由表示粒度的单个大写字母以及后面表示粒度重复次数的数字指定的。
 
