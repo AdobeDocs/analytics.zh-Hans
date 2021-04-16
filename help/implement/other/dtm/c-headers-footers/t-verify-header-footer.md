@@ -1,17 +1,17 @@
 ---
 description: 验证您的网站是否正确加载了动态标签管理库。
-keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;code;page code;header code;footer code;embed code;verify code;verify header code;verify footer code;embed tab;embed
+keywords: Analytics 实施;实施方法;dynamic tag management;DTM;代码;页面代码;页眉代码;页脚代码;嵌入代码;验证代码;验证页眉代码;验证页脚代码;嵌入选项卡;嵌入
 title: 验证页眉和页脚代码
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: d395a417-0c61-41a6-a124-d2f400f4626f
+exl-id: bed44ba7-8e0e-49e2-bedc-fb1ba66e5b18
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '162'
 ht-degree: 100%
 
 ---
-
 
 # 验证页眉和页脚代码
 
@@ -31,4 +31,3 @@ ht-degree: 100%
 
 * 您在每个网站页面 [!DNL HEAD] 部分中尽可能靠近 `<head>`  标记的位置包含了完整的页眉代码。
 * 您的代码片段中没有出现意外字符，当从某个格式化的文档中进行复制和粘贴时，可能会导致出现意外字符。
-
