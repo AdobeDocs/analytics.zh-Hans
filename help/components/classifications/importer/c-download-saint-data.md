@@ -2,12 +2,12 @@
 description: （可选）在将分类导入市场营销报告之前，您可以下载模板来帮助您创建分类数据文件。数据文件会将您所需的分类用作列标题，然后在相应的分类标题下组织报表数据集。
 subtopic: Classifications
 title: 分类模板
-topic: Admin tools
+feature: 管理工具
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '318'
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '320'
 ht-degree: 100%
 
 ---
