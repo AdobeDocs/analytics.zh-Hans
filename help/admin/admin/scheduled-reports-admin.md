@@ -1,16 +1,16 @@
 ---
 description: 让管理员级别的用户能够跨组织查看和管理计划报表。
 title: 计划报表队列
-topic: Reports
+topic-fix: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
+exl-id: 7287e6c7-e354-48a0-9343-35dccfc46e63
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 100%
 
 ---
-
 
 # 计划报表队列
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 * 新的[报表队列](/help/admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B)选项卡，列出已排入队列并准备在报表服务器上执行的所有报表。
 * 在报表队列界面上公布[计划 ID.](/help/admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1)
 
-## 显示所有计划报表 {#section_3F167CAAEEC24140B476CF95B7402690}
+## 显示所有计划报表  {#section_3F167CAAEEC24140B476CF95B7402690}
 
 在&#x200B;**[!UICONTROL 报表列表]**&#x200B;选项卡中，除了个人计划的报表之外，您还可以在您的组织内&#x200B;**[!UICONTROL 显示所有计划报表]**。
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ![](assets/show_all_scheduled_reports.png)
 
-## 高级过滤功能 {#section_206A52A85DE84947AAB3AD082FBF6275}
+## 高级过滤功能  {#section_206A52A85DE84947AAB3AD082FBF6275}
 
 例如，如果您需要筛选出每小时计划一次的所有报表，那么可以在&#x200B;**[!UICONTROL 高级]**&#x200B;过滤器中指定&#x200B;**[!UICONTROL 频率等于每小时]**，然后单击&#x200B;**[!UICONTROL 应用]**：
 
