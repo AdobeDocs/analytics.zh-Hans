@@ -2,16 +2,16 @@
 description: 此部分包含测试处理规则的指南和要避免的常见错误列表。
 subtopic: Processing rules
 title: 处理规则的提示和技巧
-topic: Admin tools
+feature: 管理工具
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '490'
+exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '492'
 ht-degree: 100%
 
 ---
-
 
 # 处理规则的提示和技巧
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 我们建议您在开发报表包中配置处理规则，以确保它们正常工作。如有可能，我们建议您在广泛部署前先将规则复制到小型生产报表包中。
 
-## 检查空值 {#section_EE84A5525E26415787930723B0CAAE0F}
+## 检查空值  {#section_EE84A5525E26415787930723B0CAAE0F}
 
 创建规则时，请考虑出现空值的情况。如果您未添加检查空值的条件，则可能会无意中使用空值覆盖变量。
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
-## 避免覆盖值 {#section_49FCCA31E31A433EA2EF5EAF91443DAF}
+## 避免覆盖值  {#section_49FCCA31E31A433EA2EF5EAF91443DAF}
 
 在以下示例中，网站上使用两个上下文数据变量捕获搜索词：search_keyword 和 search_term。但是，根据配置，即使 search_term 为空，search_keyword 值也总是被覆盖。
 
@@ -51,13 +51,13 @@ ht-degree: 100%
 
 ![](assets/tips-search-keyword.png)
 
-## 将搜索词编码为 UTF-8 或 Unicode {#section_3BBBE1FB8FEA48589362452DE51DB575}
+## 将搜索词编码为 UTF-8 或 Unicode  {#section_3BBBE1FB8FEA48589362452DE51DB575}
 
 从查询字符串提取的搜索词必须使用正确的编码格式，否则将无法按处理规则匹配这些搜索词。
 
 ![](assets/tips-multibyte.png)
 
-## 开头、包含和结尾 {#section_80CE853244FC435B844A09EA51868D8D}
+## 开头、包含和结尾  {#section_80CE853244FC435B844A09EA51868D8D}
 
 选择正确的匹配条件以查找正确匹配的最严格条件。您可以在创建规则前在报表中搜索值，以确保不会出现意外匹配。例如，在启用此规则前，应搜索 Prop2 报表以查找匹配此条件的所有位置。
 
