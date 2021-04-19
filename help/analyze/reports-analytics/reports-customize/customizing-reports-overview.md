@@ -2,16 +2,16 @@
 description: 运行报表后，您可以自定义报表，以根据需要查看和分析数据。您可以过滤报表数据，以图形方式更改数据的呈现方式，更改日期粒度等。
 title: 自定义报表概述
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
-feature: 报告和分析基础
-role: 业务从业者，管理员
+feature: 报告与分析基础与分析基础
+role: Business Practitioner, Administrator
+exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '932'
 ht-degree: 99%
 
 ---
-
 
 # 自定义报表概述
 
