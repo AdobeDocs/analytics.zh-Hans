@@ -1,11 +1,11 @@
 ---
 description: 顺序区段使用 THEN 运算符（而非 AND 或 OR）创建。THEN 意味着出现一个区段标准后，接着出现另一个区段标准。默认情况下，顺序区段会识别所有匹配数据，并显示过滤器“包含每个人”。可以使用“仅在序列前”和“仅在序列后”选项将顺序区段进一步过滤为匹配点击的子集。
 title: 生成顺序区段
-feature: 区段
+feature: 区段划分
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '3858'
 ht-degree: 100%
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 **示例 1：B -> D 出现一次**
 
-| 示例 | 同类群组 | B | C | D | E | F |
+| 示例 | A | B | C | D | E | F |
 |---|---|---|---|---|---|---|
 | 包含每个人 | 同类群组 | B | C | D | E | F |
 | 仅在序列前 | 同类群组 | B |  |  |  |  |
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 **示例 2：B -> D 出现多次**
 
-| 示例 | 同类群组 | B | C | D | B | C | D | E |
+| 示例 | A | B | C | D | B | C | D | E |
 |---|---|---|---|---|---|---|---|---|
 | 包含每个人 | 同类群组 | B | C | D | B | C | D | E |
 | 仅在序列前 | 同类群组 | B | C | D | B |  |  |  |
