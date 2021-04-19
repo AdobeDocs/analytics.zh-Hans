@@ -1,11 +1,11 @@
 ---
 description: 您可以在区段管理器内设置一个工作流程，其中包含各种级别的申请和特定部门或组的批准区段，并与报表策略相一致。
 title: 批准区段
-feature: 区段
+feature: 区段划分
 uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 100%
