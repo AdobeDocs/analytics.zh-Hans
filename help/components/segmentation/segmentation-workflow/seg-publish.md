@@ -1,11 +1,11 @@
 ---
 description: 允许您将区段用于“受众库”、Target 和 Audience Manager 中的营销活动。
 title: 将区段发布到 Experience Cloud
-feature: 区段
+feature: 区段划分
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '1346'
 ht-degree: 100%
