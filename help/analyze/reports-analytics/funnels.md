@@ -2,16 +2,16 @@
 description: 转化比率通常用于测量转化过程中的开始、结束和里程碑事件或关键点之间的转化。在您将成功事件编码到您的网站上时，报表会生成这些不同成功事件的比率，并会在转化漏斗报表中显示这些比率。
 title: 转换漏斗
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
-feature: 报告和分析基础
-role: 业务从业者，管理员
+feature: 报告与分析基础与分析基础
+role: Business Practitioner, Administrator
+exl-id: 8c1c1bc1-0e45-43d7-9581-bd070e2b687e
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '325'
 ht-degree: 98%
 
 ---
-
 
 # 转换漏斗
 
@@ -36,4 +36,3 @@ ht-degree: 98%
 >[!NOTE]
 >
 > 在这些报表中，如果定义了 eVar 或事件，则实例数等于访问总次数。
-
