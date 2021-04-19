@@ -2,16 +2,16 @@
 description: 完全子关系会在所有转化报表中启用，因此任意一个 eVar 都可以由另一 eVar 划分。报表表格中的“划分依据”菜单与标准 Analytics 报告菜单匹配，从而保持选择的一致性。
 title: 子关系
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
-feature: 报告和分析基础
-role: 业务从业者，管理员
+feature: 报告与分析基础与分析基础
+role: Business Practitioner, Administrator
+exl-id: 615ed00e-91cd-45de-ae1f-e0d09ff01d26
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '400'
 ht-degree: 98%
 
 ---
-
 
 # 子关系
 
@@ -56,4 +56,3 @@ ht-degree: 98%
 * 将包含您正在报表中查看的成功事件的图像请求隔离。
 * 从子关系中使用的各个转化变量返回持续保留的值。
 * 根据子关系的顺序组织值。如果某个变量没有持续保留的值（例如，如果某个 eVar 从未被定义或从未过期），则会被存储在“无”的下面。
-
