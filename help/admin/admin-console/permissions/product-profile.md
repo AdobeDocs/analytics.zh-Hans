@@ -1,11 +1,15 @@
 ---
-source-git-commit: 03b1195225b97f3ea151eb5b4f39fbed746b3654
-workflow-type: ht
-translation-type: ht
-source-wordcount: '646'
-ht-degree: 100%
+title: Adobe Analytics 的产品配置文件
+description: 了解如何将产品用户档案用作产品管理员可分配给组织内用户的权限预设。
+exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
+translation-type: tm+mt
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+workflow-type: tm+mt
+source-wordcount: '671'
+ht-degree: 97%
 
 ---
+
 # Adobe Analytics 的产品配置文件
 
 产品配置文件是产品管理员可分配给组织内用户的权限预设。如果您创建产品配置文件并将其分配给 Experience Cloud 用户，用户将继承该产品配置文件中包含的权限项。
