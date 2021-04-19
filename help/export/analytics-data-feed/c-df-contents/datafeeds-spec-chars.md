@@ -3,14 +3,14 @@ description: 有关数据馈送中使用的特殊字符的信息。
 keywords: 数据馈送；作业；特殊字符；hit_data；多值变量；事件_列表;products_列表;mvvars
 subtopic: data feeds
 title: 数据馈送中的特殊字符
-feature: 报告和分析基础
+feature: 报告与分析基础与分析基础
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 95%
+source-wordcount: '346'
+ht-degree: 94%
 
 ---
 
