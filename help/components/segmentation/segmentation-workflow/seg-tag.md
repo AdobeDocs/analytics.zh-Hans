@@ -1,11 +1,11 @@
 ---
 description: 在“区段管理器”中，您可以通过标记区段来组织区段。
 title: 标记区段
-feature: 区段
+feature: 区段划分
 uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
 exl-id: 2c838bb1-3fab-467a-9a1d-54c7c5a3b49e
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 100%
