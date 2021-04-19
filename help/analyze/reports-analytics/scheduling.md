@@ -3,16 +3,16 @@ description: 有关计划、下载和分发报表的信息。
 subtopic: Schedule
 title: 报表计划和分发
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-feature: 报表, Reports and Analytics
-role: 业务从业者，管理员
+feature: 报告与分析基础知识、报告和分析
+role: Business Practitioner, Administrator
+exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '1668'
+source-wordcount: '1667'
 ht-degree: 99%
 
 ---
-
 
 # 报表计划和分发
 
