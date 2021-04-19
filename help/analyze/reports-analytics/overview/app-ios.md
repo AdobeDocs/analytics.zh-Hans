@@ -2,16 +2,16 @@
 description: 有关 iPad 应用程序的介绍。
 title: 适用于 iOS 的 Adobe Analytics
 uuid: 45f91f5a-8ff1-44f0-8880-4c52f03a7b42
-feature: 报告和分析基础
-role: 业务从业者，管理员
+feature: 报告与分析基础与分析基础
+role: Business Practitioner, Administrator
+exl-id: 04643de2-793f-403b-ba2f-807453efc2fe
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 94%
+source-wordcount: '112'
+ht-degree: 95%
 
 ---
-
 
 # 适用于 iOS 的 Adobe Analytics{#adobe-analytics-for-ios}
 
