@@ -2,16 +2,16 @@
 description: 描述如何自定义图表以供预定受众充分使用的步骤。
 title: 更改报表图表
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
-feature: 报告和分析基础
-role: 业务从业者，管理员
+feature: 报告与分析基础与分析基础
+role: Business Practitioner, Administrator
+exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 98%
+source-wordcount: '597'
+ht-degree: 99%
 
 ---
-
 
 # 更改报表图表
 
@@ -68,4 +68,3 @@ ht-degree: 98%
    **[!UICONTROL 气泡图]**：气泡图用气泡显示您所选量度之间的关系。气泡的位置显示横轴和纵轴上的量度关系，气泡大小体现主要的报表量度。气泡图以二维呈现数据，从而辨别哪些项目是异常值。
 
    ![](assets/graph_bubble.png)
-
