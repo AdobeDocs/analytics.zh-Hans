@@ -2,16 +2,16 @@
 description: 通过数据提取，可选择要在报表的 X 和 Y 轴上显示的参数以及过滤报表所依据的项目。
 subtopic: Schedule
 title: 数据提取
-feature: 报告和分析基础
-role: 业务从业者，管理员
+feature: 报告与分析基础与分析基础
+role: Business Practitioner, Administrator
+exl-id: fac6049d-3996-41df-adca-399b0ffcc5e2
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 95%
+source-wordcount: '141'
+ht-degree: 96%
 
 ---
-
 
 # 数据提取
 
