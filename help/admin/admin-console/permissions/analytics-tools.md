@@ -1,11 +1,15 @@
 ---
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-translation-type: ht
-source-wordcount: '547'
-ht-degree: 100%
+title: Analytics 工具的产品配置文件权限
+description: 使用Analytics工具权限项目授予对Adobe Analytics中功能的访问权限。
+exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
+translation-type: tm+mt
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+workflow-type: tm+mt
+source-wordcount: '566'
+ht-degree: 97%
 
 ---
+
 # Analytics 工具的产品配置文件权限
 
 Analytics 工具权限项用于授予对 Adobe Analytics 中各项功能的访问权限。Analytics 工具权限项不适用于单个报表包，而适用于整个 Adobe Analytics。
