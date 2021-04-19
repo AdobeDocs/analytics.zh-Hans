@@ -1,16 +1,16 @@
 ---
 description: 在使用 Reports & Analytics 之前，请了解这些基本登录和设置任务，以及如何访问帐户信息。
 title: Reports and Analytics 快速入门
-feature: 报告和分析基础
-role: 业务从业者，管理员
+feature: 报告与分析基础与分析基础
+role: Business Practitioner, Administrator
+exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '706'
 ht-degree: 99%
 
 ---
-
 
 # Reports &amp; Analytics 快速入门
 
