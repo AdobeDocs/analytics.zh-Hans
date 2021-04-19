@@ -1,11 +1,11 @@
 ---
 description: 如何从区段边栏将一个或多个区段应用于报表。
 title: 选择和应用区段
-feature: 区段
+feature: 区段划分
 uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
 exl-id: 870026e2-a3a3-4d87-a6c2-6189098d3676
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 100%
