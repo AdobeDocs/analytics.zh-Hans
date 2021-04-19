@@ -2,16 +2,16 @@
 description: 利用目标可以评测网站的绩效，跟踪目标进度。例如，您可能想增加来自某一地理区域的访客数量、每次定购收入、或特定反向链接的点击量。
 title: 目标
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
-feature: 报告和分析基础
-role: 业务从业者，管理员
+feature: 报告与分析基础与分析基础
+role: Business Practitioner, Administrator
+exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '607'
 ht-degree: 99%
 
 ---
-
 
 # 目标
 
@@ -52,7 +52,7 @@ ht-degree: 99%
    <td colname="col2"> <p>显示选定属性或 eVar 的选择形式，对相关项目执行高级搜索。例如，如果选择 eVar <span class="uicontrol">国家/地区</span>，则可在项目列表中指定具体的国家/地区。如果选择 eVar <span class="uicontrol">产品</span>，则可在项目列表中指定具体的产品。菜单中也列出自定义分析变量。若自定义分析变量设置为测量访客年龄范围，则项目列表将显示年龄范围，如 18-24、25-35 等。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 指标 </td> 
+   <td colname="col1"> 量度 </td> 
    <td colname="col2">对某个量度应用目标。该菜单只显示对给定 eVar 应用的量度。例如，如果选择<span class="uicontrol">产品</span>作为 eVar，则不会向其应用<span class="uicontrol">页面退出</span>等量度。<span class="uicontrol">页面退出</span>量度可以应用到网页 eVar。 </td> 
   </tr> 
   <tr> 
