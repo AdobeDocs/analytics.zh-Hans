@@ -3,7 +3,7 @@ description: 有关使用以自定义表达式表示的日期范围的示例、�
 title: 使用自定义表达式的日期范围示例
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

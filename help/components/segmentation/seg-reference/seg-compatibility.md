@@ -1,7 +1,7 @@
 ---
 description: 区段生成器中创建的所有区段并非都与 Data Warehouse 兼容。此表列出支持的功能。
 title: Data Warehouse 区段兼容性
-feature: 区段划分
+feature: Segmentation
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
 translation-type: tm+mt

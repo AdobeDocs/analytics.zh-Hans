@@ -2,7 +2,7 @@
 description: 在虚拟报表包管理器中，管理员可以编辑、添加、标记、删除、重命名、批准、复制、导出和过滤虚拟报表包。虚拟报表包管理器对非管理员用户不可见。
 keywords: 虚拟报表包
 title: 管理虚拟报表包
-feature: 报告与分析基础与分析基础
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
 exl-id: b6d58456-bd07-4d97-aff8-216e8440fdc0
 translation-type: tm+mt

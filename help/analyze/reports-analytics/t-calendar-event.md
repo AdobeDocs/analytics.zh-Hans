@@ -2,8 +2,8 @@
 description: 添加日历事件和管理共享事件的步骤。
 title: 日历事件
 uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
-feature: 日历
-role: 业务从业者，管理员
+feature: Calendar
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 讨论分页、筛选和排序的视频。
 title: 对表格进行分页、过滤和排序
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
-feature: 自由格式表
-role: 业务从业者，管理员
+feature: Freeform Tables
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

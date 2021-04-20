@@ -2,7 +2,7 @@
 description: 描述如何添加、编辑或删除 Ad Hoc Analysis 用户的步骤。
 subtopic: Users and groups
 title: 管理 Ad Hoc Analysis 用户
-feature: 管理工具
+feature: Admin Tools
 uuid: 9018e90c-e808-4ef3-a0d6-529d931632a5
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

@@ -2,7 +2,7 @@
 title: Report Builder 中的 Visual Basic 宏
 description: 使用 VBA 扩展 Excel 工作簿和 Report Builder 的功能。
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

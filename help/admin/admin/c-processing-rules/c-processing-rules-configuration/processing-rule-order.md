@@ -2,7 +2,7 @@
 description: 若要高效地使用处理规则，了解在数据收集期间何时应用处理规则非常重要。
 subtopic: Processing rules
 title: 处理顺序
-feature: 管理工具
+feature: Admin Tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
 translation-type: tm+mt

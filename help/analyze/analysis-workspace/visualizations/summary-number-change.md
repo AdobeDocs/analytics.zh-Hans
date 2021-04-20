@@ -2,8 +2,8 @@
 description: 使用“概要数字”和“概要变化”可视化图表来显示项目中的重要数据点。
 title: 概要数字和概要变化
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
-feature: 可视化图表
-role: 业务从业者，管理员
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

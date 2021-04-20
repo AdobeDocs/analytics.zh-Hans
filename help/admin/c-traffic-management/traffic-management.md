@@ -1,7 +1,7 @@
 ---
 description: 使用“流量管理”页面可以指定预期流量的变更。这些设置可让 Adobe 分配适当的资源，确保能够及时跟踪和处理您的流量。
 title: 管理流量
-feature: 管理工具
+feature: Admin Tools
 uuid: c1be90d3-f8f8-40a5-a93f-9af312a34828
 exl-id: 7a7a36f2-3241-47f5-9c0f-0d62e51104e1
 translation-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: 为聚合内容的新闻门户等网站定义通用设置。
 title: 内容聚合门户
-feature: 管理工具
+feature: Admin Tools
 uuid: d227c209-4d88-4eff-b126-994b2a179c51
 exl-id: 48f57f27-289c-4e26-9fb2-e34d48c1f2e6
 translation-type: tm+mt

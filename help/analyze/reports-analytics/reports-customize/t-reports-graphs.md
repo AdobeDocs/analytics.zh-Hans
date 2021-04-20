@@ -2,7 +2,7 @@
 description: 描述如何自定义图表以供预定受众充分使用的步骤。
 title: 更改报表图表
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
-feature: 报告与分析基础与分析基础
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
 translation-type: tm+mt

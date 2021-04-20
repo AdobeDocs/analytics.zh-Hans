@@ -3,7 +3,7 @@ description: 在 Activity Map 或旧版 ClickMap 中，停止链接跟踪的步�
 title: 停止链接跟踪
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 feature: Activity Map
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: 描述如何添加和启用流量变量报表的步骤。
 title: 启用流量变量报表
-feature: 管理工具
+feature: Admin Tools
 uuid: c4109da1-4d46-407c-9ca7-cb22edaa68ba
 exl-id: 6c28c1ed-76ec-4df8-a583-3b7ac923569a
 translation-type: tm+mt

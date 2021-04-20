@@ -2,8 +2,8 @@
 description: 在 Workspace 项目中使用水平条形图可视化。
 title: 水平条形图和堆叠的水平条形图
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
-feature: 可视化图表
-role: 业务从业者，管理员
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

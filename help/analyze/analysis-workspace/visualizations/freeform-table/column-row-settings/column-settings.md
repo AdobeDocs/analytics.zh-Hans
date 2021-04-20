@@ -2,8 +2,8 @@
 description: 列设置允许您配置列格式，其中一些可以是条件格式。
 title: 列设置
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-feature: 自由格式表
-role: 业务从业者，管理员
+feature: Freeform Tables
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

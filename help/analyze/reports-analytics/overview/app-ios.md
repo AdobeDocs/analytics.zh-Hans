@@ -2,7 +2,7 @@
 description: 有关 iPad 应用程序的介绍。
 title: 适用于 iOS 的 Adobe Analytics
 uuid: 45f91f5a-8ff1-44f0-8880-4c52f03a7b42
-feature: 报告与分析基础与分析基础
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 04643de2-793f-403b-ba2f-807453efc2fe
 translation-type: tm+mt

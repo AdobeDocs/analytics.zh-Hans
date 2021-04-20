@@ -3,7 +3,7 @@ description: 预设日期允许您选择常用的日期或保存的日期。在�
 title: 请求向导定义 - 预设日期
 uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

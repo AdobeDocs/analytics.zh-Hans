@@ -1,7 +1,7 @@
 ---
 description: 如何从区段边栏将一个或多个区段应用于报表。
 title: 选择和应用区段
-feature: 区段划分
+feature: Segmentation
 uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
 exl-id: 870026e2-a3a3-4d87-a6c2-6189098d3676
 translation-type: tm+mt

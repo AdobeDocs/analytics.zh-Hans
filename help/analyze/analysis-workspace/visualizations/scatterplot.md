@@ -1,8 +1,8 @@
 ---
 title: 散点图
 description: 显示与最多三个量度之间的关系的可视化图表。
-feature: 可视化图表
-role: 业务从业者，管理员
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

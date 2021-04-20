@@ -2,7 +2,7 @@
 description: 用于根据 page_event 值确定点击类型的对照表。
 keywords: 数据馈送；页面；事件;page_事件;post_page_事件
 title: 页面事件对照
-feature: 报告与分析基础与分析基础
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 exl-id: ef0467df-b94b-4cec-b312-96d8f42c23b0
 translation-type: tm+mt

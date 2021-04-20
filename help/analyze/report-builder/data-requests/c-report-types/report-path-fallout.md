@@ -3,7 +3,7 @@ description: 描述 Report Builder 如何支持路径报表和流失报表，以
 title: Report Builder 中的路径报表和路径流失报表
 uuid: 9ca6cb97-8f31-46f6-977a-e81a89a176d1
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 此工作区可视化图表与折线图类似，只是线条下方显示了彩色区域。
 title: 面积图和堆叠的面积图
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
-feature: 可视化图表
-role: 业务从业者，管理员
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

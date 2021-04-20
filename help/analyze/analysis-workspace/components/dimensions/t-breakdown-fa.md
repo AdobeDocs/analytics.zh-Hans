@@ -3,8 +3,8 @@ description: 在 Analysis Workspace 中划分维度和维度项目。
 keywords: Analysis Workspace
 title: 划分维度
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-feature: Workspace 基础
-role: 业务员, 管理员
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

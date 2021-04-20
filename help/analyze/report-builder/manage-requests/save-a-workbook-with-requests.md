@@ -3,7 +3,7 @@ description: 创建具有嵌入请求的报表后，您可以通过在 Excel 中
 title: 保存具有请求的工作簿
 uuid: 31611031-0982-4124-9fc7-7888124aa603
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

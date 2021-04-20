@@ -1,7 +1,7 @@
 ---
 description: 发布用小组件是一个容器，它可以在网页上嵌入市场营销报告（书签和功能板）。这样，贵组织中无权访问市场营销报告的人员便可以查看相关数据。
 title: 发布用小组件
-feature: 管理工具
+feature: Admin Tools
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
 exl-id: 97ec07d8-29ad-4ef3-9227-bfdc14a59b97
 translation-type: tm+mt

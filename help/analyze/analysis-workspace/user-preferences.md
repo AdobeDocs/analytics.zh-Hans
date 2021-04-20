@@ -1,7 +1,7 @@
 ---
 title: 如何在 Analysis Workspace 中设置用户首选项
 description: 可设置用户的常规和项目首选项。
-feature: Workspace 基础
+feature: Workspace Basics
 role: Business Practitioner, Administrator
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 translation-type: tm+mt

@@ -2,8 +2,8 @@
 description: 影响工作区性能的因素以及您可以采取的优化措施
 title: 影响 Analysis Workspace 性能的因素及优化措施
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
-feature: Workspace 基础
-role: 业务员, 管理员
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

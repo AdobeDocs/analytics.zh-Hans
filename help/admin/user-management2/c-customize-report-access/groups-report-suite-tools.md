@@ -3,7 +3,7 @@ description: 启用 API 访问、报表包管理、工具和报表及功能板�
 keywords: 群组;权限
 subtopic: Users and groups
 title: 自定义报表包工具权限
-feature: 管理工具
+feature: Admin Tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 exl-id: 8b776055-66a5-4ada-8d92-391c50a1d4f1
 translation-type: tm+mt

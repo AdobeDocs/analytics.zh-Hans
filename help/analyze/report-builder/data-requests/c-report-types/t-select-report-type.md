@@ -3,7 +3,7 @@ description: 为数据请求选择基本报表类型的步骤。
 title: 选择报表类型
 uuid: ebb682b8-590e-4484-9c29-5c4db2f5edd1
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

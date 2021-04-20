@@ -3,7 +3,7 @@ description: 有关在 Activity Map 中设置、配置和部署功能的常见�
 title: Activity Map 常见问题解答
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 feature: Activity Map
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

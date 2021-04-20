@@ -2,7 +2,7 @@
 description: 您可以将 eVar 的值复制到一个属性来启用路径分析。
 subtopic: Processing rules
 title: 通过将 eVar 值复制到 prop 来确定路径
-feature: 管理工具
+feature: Admin Tools
 uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
 exl-id: 23c978b9-a159-4364-9214-561a255d23e4
 translation-type: tm+mt

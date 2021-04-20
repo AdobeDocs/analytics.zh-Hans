@@ -2,8 +2,8 @@
 description: Analysis Workspace 中的日期比较允许您采用包含日期范围的任何列来创建常见的日期比较，例如：年同比、季度同比、月同比，等等。
 title: 日期比较
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
-feature: Workspace 基础
-role: 业务员, 管理员
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

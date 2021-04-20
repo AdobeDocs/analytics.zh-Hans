@@ -2,7 +2,7 @@
 description: 如果使用常用变量（如 q）填充搜索词，则可以使用处理规则向内部搜索词 eVar 填充这些值。
 subtopic: Processing rules
 title: 使用查询字符串参数填充内部搜索词
-feature: 管理工具
+feature: Admin Tools
 uuid: 05ae2b0a-8797-468c-8f59-643beac614c5
 exl-id: bc7cc712-0f2a-4260-a82c-ad0e48149e73
 translation-type: tm+mt

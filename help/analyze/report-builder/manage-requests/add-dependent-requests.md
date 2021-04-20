@@ -3,7 +3,7 @@ description: 从属请求是从属于现有请求的请求。
 title: 添加从属请求
 uuid: 243619db-81b4-40cc-88c4-e93a14f6993b
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

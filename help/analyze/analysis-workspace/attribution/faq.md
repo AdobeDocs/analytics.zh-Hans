@@ -1,8 +1,8 @@
 ---
 title: 归因常见问题解答
 description: 获取有关归因的常见问题解答。
-feature: 归因
-role: 业务从业者，管理员
+feature: Attribution
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

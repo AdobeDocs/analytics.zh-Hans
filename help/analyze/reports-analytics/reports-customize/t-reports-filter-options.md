@@ -2,7 +2,7 @@
 description: 使用这些过滤器可以限制报表的内容，使其包括或排除与过滤器匹配的行项目。
 title: 过滤报表数据
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-feature: 报告与分析基础与分析基础
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
 translation-type: tm+mt

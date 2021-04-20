@@ -1,8 +1,8 @@
 ---
 title: 同类群组分析是什么及其如何工作？
 description: 用同类群组分析更深入地挖掘您受众周围的数据并细分为相关的各组。了解 Analysis Workspace 中的同类群组分析。
-feature: 可视化图表
-role: 业务从业者，管理员
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

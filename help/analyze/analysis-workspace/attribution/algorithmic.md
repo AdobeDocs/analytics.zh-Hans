@@ -1,8 +1,8 @@
 ---
 title: 算法归因
 description: 有关算法归因模型的详细信息。
-feature: 归因
-role: 业务从业者，管理员
+feature: Attribution
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

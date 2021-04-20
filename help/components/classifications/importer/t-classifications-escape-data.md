@@ -2,7 +2,7 @@
 description: 描述如何转义分类文件中的分类数据的步骤。
 subtopic: Classifications
 title: 转义分类数据
-feature: 管理工具
+feature: Admin Tools
 uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
 exl-id: 0d3a0e91-5537-43ee-bd28-9907ee6eb331
 translation-type: tm+mt

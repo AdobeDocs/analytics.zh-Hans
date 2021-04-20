@@ -3,7 +3,7 @@ description: 书签可让您访问最常用的报表。创建的书签会添加�
 subtopic: Bookmarks
 title: 书签管理器
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
-feature: 报告与分析基础与分析基础
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 8b923484-0988-4271-8186-317bb33f2210
 translation-type: tm+mt

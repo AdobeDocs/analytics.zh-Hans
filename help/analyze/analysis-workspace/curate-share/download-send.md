@@ -2,8 +2,8 @@
 description: 您可以通过复制Analysis Workspace或PDF和CSV格式从Adobe下载数据。
 title: 下载 PDF 或 CSV 文件
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
-feature: 策划和共享
-role: 业务从业者，管理员
+feature: Curate and Share
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

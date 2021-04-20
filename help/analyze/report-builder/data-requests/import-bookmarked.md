@@ -3,7 +3,7 @@ description: 现在，所有标为书签的报表和功能板报表都作为维�
 title: 导入加入书签的报表和功能板缩图报表
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

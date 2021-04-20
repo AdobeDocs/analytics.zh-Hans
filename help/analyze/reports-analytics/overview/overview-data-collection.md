@@ -3,7 +3,7 @@ description: 了解如何为 Adobe Analytics 收集数据。
 subtopic: Get started
 title: 关于数据收集
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
-feature: 报告与分析基础与分析基础
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 34a7be55-519a-4e04-95a3-99b0f6e04b3e
 translation-type: tm+mt

@@ -2,7 +2,7 @@
 description: 通过数据提取，可选择要在报表的 X 和 Y 轴上显示的参数以及过滤报表所依据的项目。
 subtopic: Schedule
 title: 数据提取
-feature: 报告与分析基础与分析基础
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: fac6049d-3996-41df-adca-399b0ffcc5e2
 translation-type: tm+mt

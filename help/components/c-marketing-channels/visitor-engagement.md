@@ -2,7 +2,7 @@
 description: 了解如何在营销渠道中指定访客参与到期。
 subtopic: Marketing channels
 title: 营销渠道到期
-feature: 报告与分析基础与分析基础
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 translation-type: tm+mt

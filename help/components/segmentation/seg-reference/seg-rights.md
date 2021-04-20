@@ -1,7 +1,7 @@
 ---
 description: 现在，管理员级别的用户和非管理员级别的用户能够使用的区段功能通常都不一样。
 title: 区段权限（按角色）
-feature: 区段划分
+feature: Segmentation
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
 exl-id: 54e35663-8a8d-4064-a44c-2385e24e6e10
 translation-type: tm+mt

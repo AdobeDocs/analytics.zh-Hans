@@ -2,7 +2,7 @@
 description: 如果您习惯于在 Ad Hoc Analysis 中使用区段生成器，那么此常见问题解答解释了现有区段和文件夹的情况以及需要采取哪些操作。
 keywords: 分段;区段
 title: 适用于 Ad Hoc Analysis 的过渡指南
-feature: 区段划分
+feature: Segmentation
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48

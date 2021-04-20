@@ -3,7 +3,7 @@ description: 与复制并粘贴请求一样，您还可以通过从快捷菜单�
 title: 复制相邻请求
 uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

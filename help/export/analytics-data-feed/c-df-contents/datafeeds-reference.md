@@ -3,7 +3,7 @@ description: 描述数据馈送中各列的表数据。
 keywords: 数据馈送；列
 subtopic: data feeds
 title: 数据列引用
-feature: 报告与分析基础与分析基础
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 translation-type: tm+mt

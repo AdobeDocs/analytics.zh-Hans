@@ -3,7 +3,7 @@ description: Analytics 报表 API 的比较表。提供了支持文档的链接�
 title: Analytics 报表 API 比较
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 feature: API
-role: 开发人员
+role: Developer
 translation-type: tm+mt
 source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt

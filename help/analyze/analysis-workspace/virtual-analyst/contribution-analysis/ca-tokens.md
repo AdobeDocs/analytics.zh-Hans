@@ -2,8 +2,8 @@
 description: 使用贡献分析识别数据中的统计异常和关联。
 title: 贡献分析概述
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-feature: AI工具
-role: 业务从业者，管理员
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

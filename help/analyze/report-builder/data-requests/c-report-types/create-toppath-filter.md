@@ -3,7 +3,7 @@ description: 描述如何创建带有预定义过滤器的路径报表。
 title: 通过添加从属请求过滤路径报表
 uuid: dd1294f8-a26b-4254-a9f6-1365b2912adf
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

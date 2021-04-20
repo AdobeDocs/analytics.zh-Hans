@@ -3,7 +3,7 @@ description: 您可以在 Report Builder 中保存过滤器或其他参数，然
 title: 保存的过滤器
 uuid: 78702a7e-7b52-4390-a35e-fd332e52c31c
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

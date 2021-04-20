@@ -1,7 +1,7 @@
 ---
 description: 为提供有关服务和产品（往往需要通过进一步参与来销售）信息的网站定义通用设置。
 title: 商机拓展
-feature: 管理工具
+feature: Admin Tools
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
 exl-id: 4a629908-2bb4-4d61-a934-42906edff9df
 translation-type: tm+mt

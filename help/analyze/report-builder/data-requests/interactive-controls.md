@@ -3,7 +3,7 @@ description: 交互控件允许您直接从工作表编辑一个或多个请求�
 title: 交互控件
 uuid: 5f324b61-e032-455e-9947-5037f013e0fa
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

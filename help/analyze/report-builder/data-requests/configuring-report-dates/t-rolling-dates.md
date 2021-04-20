@@ -3,7 +3,7 @@ description: 说明如何为请求自定义滚动日期的步骤。
 title: 滚动日期
 uuid: 28319f02-2a4a-408d-a7d1-545247ad6178
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

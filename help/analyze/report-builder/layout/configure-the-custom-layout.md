@@ -3,7 +3,7 @@ description: 自定义布局提供引导布局的大多数功能，但是允许�
 title: 配置自定义布局
 uuid: 4c1404b1-f20e-4343-be97-0b4c03500d52
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

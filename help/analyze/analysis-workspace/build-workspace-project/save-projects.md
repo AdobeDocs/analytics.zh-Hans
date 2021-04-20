@@ -1,7 +1,7 @@
 ---
 description: 了解不同的保存选项，包括自动保存、另存为、另存为模板以及打开以前的版本。
 title: 保存项目
-feature: Workspace 基础
+feature: Workspace Basics
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt

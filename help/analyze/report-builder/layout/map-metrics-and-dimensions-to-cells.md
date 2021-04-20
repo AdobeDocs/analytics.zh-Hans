@@ -3,7 +3,7 @@ description: 在开始将项目映射到电子表格之前，请确保电子表�
 title: 将量度和维度映射到单元格
 uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

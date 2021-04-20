@@ -1,8 +1,8 @@
 ---
 description: 'Analysis Workspace中的组件包括可拖放到项目上的维度、量度、区段和日期范围。 '
 title: 组件概述
-feature: Workspace 基础
-role: 业务员, 管理员
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

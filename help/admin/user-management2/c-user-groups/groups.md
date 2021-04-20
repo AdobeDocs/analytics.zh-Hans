@@ -2,7 +2,7 @@
 description: “定义用户群组”页面上的元素描述。
 subtopic: Users and groups
 title: 用户群组设置
-feature: 管理工具
+feature: Admin Tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 exl-id: f5cb40e6-bfcc-4071-bc6b-f3575f998edc
 translation-type: tm+mt

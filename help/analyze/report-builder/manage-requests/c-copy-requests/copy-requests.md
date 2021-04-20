@@ -3,7 +3,7 @@ description: 您可以复制映射到多个请求的单元格并将内容粘贴�
 title: 复制请求概述
 uuid: 1e0274a3-2038-45c7-87c8-bd949538d4e1
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

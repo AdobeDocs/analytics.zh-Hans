@@ -3,7 +3,7 @@ description: 您可以通过构建自定义表达式指定复杂的日期范围�
 title: 自定义的日期表达式 - 概述
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

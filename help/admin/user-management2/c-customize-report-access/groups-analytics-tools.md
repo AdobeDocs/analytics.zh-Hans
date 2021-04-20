@@ -3,7 +3,7 @@ description: 启用常规项目（帐单、日志等）、公司管理、工具�
 keywords: 群组;权限
 subtopic: Users and groups
 title: 自定义 Analytics 工具权限
-feature: 管理工具
+feature: Admin Tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 exl-id: fe3a9f65-f121-438f-91d0-45cfaea94416
 translation-type: tm+mt

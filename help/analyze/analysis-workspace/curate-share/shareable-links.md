@@ -2,8 +2,8 @@
 description: 了解如何创建指向项目或可视化图表的可共享链接
 keywords: Analysis Workspace共享
 title: 创建可共享链接
-feature: 策划和共享
-role: 业务从业者，管理员
+feature: Curate and Share
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

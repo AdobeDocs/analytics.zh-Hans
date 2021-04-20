@@ -2,8 +2,8 @@
 title: 区段比较面板概述
 description: 了解如何使用“区段比较”面板（Analysis Workspace 中区段 IQ 的一部分）。
 keywords: Analysis Workspace;区段 IQ
-feature: 面板
-role: 业务从业者，管理员
+feature: Panels
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

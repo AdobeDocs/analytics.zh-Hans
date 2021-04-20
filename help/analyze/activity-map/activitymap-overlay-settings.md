@@ -3,7 +3,7 @@ description: 您可以通过“Activity Map 设置”面板，为所有类型的
 title: 配置 Activity Map 设置
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 feature: Activity Map
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

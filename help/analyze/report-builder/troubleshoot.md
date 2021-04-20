@@ -3,7 +3,7 @@ description: Report Builder 提交的优化方式及有时可能出现的错误�
 title: Report Builder 疑难解答和最佳实践
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

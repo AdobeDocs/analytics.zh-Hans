@@ -3,7 +3,7 @@ description: 链接报表可以针对在当前页面上找到的链接进行报�
 title: 链接报表
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
 feature: Activity Map
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

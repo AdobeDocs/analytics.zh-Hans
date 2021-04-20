@@ -1,7 +1,7 @@
 ---
 description: 列出了一些在删除区段前需注意的事项。
 title: 删除区段
-feature: 区段划分
+feature: Segmentation
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
 exl-id: 434b6fec-1dfa-4375-a9de-d47fad2c64bc
 translation-type: tm+mt

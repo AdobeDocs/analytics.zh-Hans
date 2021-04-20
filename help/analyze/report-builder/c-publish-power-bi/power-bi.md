@@ -3,7 +3,7 @@ description: 将 Report Builder 用于 Microsoft Power BI。
 title: 发布到 Power BI — 概述
 uuid: ad688817-6e3c-45da-983d-48c123465309
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -1,8 +1,8 @@
 ---
 description: 如何在 Analysis Workspace 中使用可视化图表调色板
 title: 什么是可视化图表调色板？其工作原理是怎样的？
-feature: Workspace 基础
-role: 业务员, 管理员
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

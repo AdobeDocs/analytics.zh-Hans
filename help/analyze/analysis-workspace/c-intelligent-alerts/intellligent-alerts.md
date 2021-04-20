@@ -2,8 +2,8 @@
 description: 新的智能警报系统允许对警报进行更多粒度控制，而且还将异常检测与警报系统集成在一起。
 title: 智能警报概述
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
-feature: AI工具
-role: 业务从业者，管理员
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

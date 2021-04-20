@@ -3,7 +3,7 @@ description: 诊断消息在您刷新请求时提供有关请求状态的信息�
 title: 诊断消息
 uuid: 8ba783b7-5c81-4d60-b830-ff10313a3b01
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

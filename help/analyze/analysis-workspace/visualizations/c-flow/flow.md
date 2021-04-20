@@ -2,8 +2,8 @@
 description: 在 Workspace 项目中使用流可视化。
 title: 流量概述
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-feature: 可视化图表
-role: 业务从业者，管理员
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

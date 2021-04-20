@@ -1,7 +1,7 @@
 ---
 description: 报表包模板为多种类型的报表包配置了最常见的设置。
 title: 报表包模板概述
-feature: 管理工具
+feature: Admin Tools
 uuid: 5717863f-208d-44b5-8bc5-c286beccf8ff
 exl-id: c329f73f-af91-4f0a-9e9e-ae17fcf2899f
 translation-type: tm+mt

@@ -2,7 +2,7 @@
 description: 您可以使用查询字符串参数填充变量。
 subtopic: Processing rules
 title: 通过查询字符串参数填充促销活动 ID
-feature: 管理工具
+feature: Admin Tools
 uuid: 2bc61f9f-d8d2-41b7-bd39-4a9df30ff013
 exl-id: 526d2727-b7f6-4b41-be86-e5f5bc5e6c2b
 translation-type: tm+mt

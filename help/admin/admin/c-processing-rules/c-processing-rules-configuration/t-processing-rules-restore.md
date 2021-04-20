@@ -2,7 +2,7 @@
 description: 可从历史记录中还原处理规则。
 subtopic: Processing rules
 title: 还原处理规则
-feature: 管理工具
+feature: Admin Tools
 uuid: 4ee8afca-8bcc-42b9-8f20-31db11c71c81
 exl-id: e1c220a7-1c4a-4c55-9eeb-c0e3bed8a3c6
 translation-type: tm+mt

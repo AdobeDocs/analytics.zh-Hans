@@ -2,7 +2,7 @@
 description: 创建一个项目并将组件（维度、量度、区段、日期范围）添加到自由格式面板。
 keywords: Analysis Workspace
 title: 创建工作区项目
-feature: 报告与分析基础与分析基础
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48

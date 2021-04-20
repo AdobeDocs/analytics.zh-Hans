@@ -3,7 +3,7 @@ description: 在“引导布局”和“自定义布局”请求中，对于数�
 title: 在单元格中添加前置和后置文本
 uuid: d31af8a7-67fb-435f-80d1-dee7acb3411e
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

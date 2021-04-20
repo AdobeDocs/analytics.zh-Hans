@@ -3,8 +3,8 @@ description: 在Reports & Analytics中使用警报。
 subtopic: Alerts
 title: 警报
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
-feature: 警报
-role: 业务从业者，管理员
+feature: Alerts
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

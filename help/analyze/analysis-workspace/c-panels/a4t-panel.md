@@ -1,8 +1,8 @@
 ---
 description: 通过 Analytics for Target (A4T) 面板，可以在 Analysis Workspace 中分析 Adobe Target 活动和体验。
 title: Analytics for Target (A4T) 面板
-feature: 面板
-role: 业务从业者，管理员
+feature: Panels
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

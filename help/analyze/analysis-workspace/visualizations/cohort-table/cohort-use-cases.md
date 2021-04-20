@@ -3,8 +3,8 @@ description: 同类群组分析的用例示例。
 keywords: Analysis Workspace
 title: 同类群组分析用例
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
-feature: 可视化图表
-role: 业务从业者，管理员
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

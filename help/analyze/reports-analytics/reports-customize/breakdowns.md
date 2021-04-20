@@ -2,7 +2,7 @@
 description: 当您想要详细了解报表项目或区段如何与其他报表关联时，可使用划分。这通常称为按其他报表“划分”报表。
 title: 划分
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
-feature: 报告与分析基础与分析基础
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: bc695b30-c5ac-4bb4-90f4-db6dd83c2f30
 translation-type: tm+mt

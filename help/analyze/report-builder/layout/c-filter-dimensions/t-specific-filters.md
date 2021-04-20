@@ -3,7 +3,7 @@ description: 应用特定维度词的过滤器。
 title: 特定过滤器
 uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

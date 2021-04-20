@@ -2,7 +2,7 @@
 description: 通过“编辑跨越多个请求的量度”功能，您可以在一个预先存在的请求中或一组请求间轻松地添加、删除或替换量度。
 title: 编辑跨越多个请求的量度
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: 添加日历事件和管理共享事件的步骤。
 title: 日历事件
-feature: 报告与分析基础与分析基础
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 exl-id: 5765b377-bdad-41a7-8277-b9fd521c12bd
 translation-type: tm+mt

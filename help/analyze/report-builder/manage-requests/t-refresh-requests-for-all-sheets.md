@@ -3,7 +3,7 @@ description: 您可以刷新所有工作表的请求或多个请求。
 title: 刷新所有工作表的请求
 uuid: 7aa3a206-6b14-40c1-8e18-51998f02649e
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: 向请求添加量度和维度的步骤。
 title: 添加量度和维度
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

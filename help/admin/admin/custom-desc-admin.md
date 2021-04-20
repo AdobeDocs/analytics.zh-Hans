@@ -1,7 +1,7 @@
 ---
 description: 您可以为 eVar、prop、分类和事件提供自定义报表描述。这些描述对所有最终用户都是可见的。
 title: 自定义报表描述
-feature: 管理工具
+feature: Admin Tools
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
 exl-id: f9bcd01c-acca-47a4-b9b5-751b3068a5ad
 translation-type: tm+mt

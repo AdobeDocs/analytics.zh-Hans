@@ -2,7 +2,7 @@
 description: 使用处理规则时，您可以读取和写入的维度（另有说明的除外）。
 subtopic: Processing rules
 title: 可用于处理规则的维度
-feature: 管理工具
+feature: Admin Tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 translation-type: tm+mt

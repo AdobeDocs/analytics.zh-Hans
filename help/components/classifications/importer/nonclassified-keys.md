@@ -2,7 +2,7 @@
 description: 未分类键值在分类报表中分在一起，作为标记为“无”的一行项目。可用于将“无”重命名为更具描述性的某些项目。
 subtopic: Classifications
 title: 未分类键值
-feature: 管理工具
+feature: Admin Tools
 uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
 exl-id: 37288c2d-f6f6-4343-87a1-3c3a7b56fe32
 translation-type: tm+mt

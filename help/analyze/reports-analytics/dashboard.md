@@ -3,7 +3,7 @@ description: 功能板是由一组以缩略图方式显示的报表（称为“�
 subtopic: Dashboards
 title: 功能板和缩图报表
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

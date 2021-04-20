@@ -2,7 +2,7 @@
 description: 单击报表包名称旁边的 i（信息）图标可获取有关该报表包的信息。
 keywords: 虚拟报表包
 title: 查看虚拟报表包信息
-feature: 报告与分析基础与分析基础
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
 exl-id: 92e89d40-db94-4b0c-881e-e57ca4bb6999
 translation-type: tm+mt

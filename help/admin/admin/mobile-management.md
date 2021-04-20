@@ -1,7 +1,7 @@
 ---
 description: 启用应用程序管理可激活移动设备解决方案变量，以便从移动设备应用程序中捕获生命周期和其他量度。
 title: 应用程序管理
-feature: 管理工具
+feature: Admin Tools
 exl-id: ec19695a-2961-45e4-bf44-434f0ff9e3c9
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

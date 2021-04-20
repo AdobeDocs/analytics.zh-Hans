@@ -2,8 +2,8 @@
 description: 工作区中的项目共享和项目角色
 keywords: Analysis Workspace共享
 title: 共享项目
-feature: 策划和共享
-role: 业务从业者，管理员
+feature: Curate and Share
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

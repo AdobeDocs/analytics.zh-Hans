@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics 功能板 - 概述
 description: Adobe Analytics 功能板的产品文档和自助信息
-feature: 分析仪表板
-role: 业务从业者，管理员
+feature: Analytics Dashboards
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -1,8 +1,8 @@
 ---
 title: 自由格式表
 description: 自由格式表是在 Analysis Workspace 中进行数据分析的基础
-feature: 自由格式表
-role: 业务从业者，管理员
+feature: Freeform Tables
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

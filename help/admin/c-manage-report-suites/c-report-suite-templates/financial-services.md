@@ -1,7 +1,7 @@
 ---
 description: 为提供在线服务的银行或其他机构定义通用设置。
 title: 金融服务
-feature: 管理工具
+feature: Admin Tools
 uuid: a321b409-24a4-4d9f-9aac-65761261e991
 exl-id: 2ab435e2-3fc7-46f9-aee9-961f6730f3e8
 translation-type: tm+mt

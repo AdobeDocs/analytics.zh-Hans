@@ -2,7 +2,7 @@
 description: 有关报表功能（包括工具栏、日历和详细信息表）的介绍。
 title: 报表功能
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
-feature: 报告与分析基础与分析基础
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
 translation-type: tm+mt

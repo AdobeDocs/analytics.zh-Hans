@@ -2,8 +2,8 @@
 description: 配置流失可视化。
 title: 配置流失可视化
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-feature: 可视化图表
-role: 业务从业者，管理员
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

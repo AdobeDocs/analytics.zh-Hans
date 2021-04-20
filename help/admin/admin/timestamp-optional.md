@@ -1,7 +1,7 @@
 ---
 description: 可以将加盖时间戳和未加盖时间戳的数据合并到单个报表包中。
 title: 可选时间戳
-feature: 管理工具
+feature: Admin Tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
 translation-type: tm+mt

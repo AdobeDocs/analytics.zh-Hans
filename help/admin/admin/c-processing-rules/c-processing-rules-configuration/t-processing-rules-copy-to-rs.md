@@ -2,7 +2,7 @@
 description: 描述如何从一个报表包复制处理规则以及如何将这些规则替换或附加到其他报表包的步骤。
 subtopic: Processing rules
 title: 将处理规则复制到其他报表包
-feature: 管理工具
+feature: Admin Tools
 uuid: e6aa50b9-a46b-4332-b4e1-6df0f828077d
 exl-id: 6b3cb570-780a-4d18-8aba-4cb674f5b16c
 translation-type: tm+mt

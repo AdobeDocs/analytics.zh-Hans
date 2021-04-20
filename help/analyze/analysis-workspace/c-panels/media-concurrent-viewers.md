@@ -1,8 +1,8 @@
 ---
 title: “媒体并行查看者”面板
 description: 如何使用和解释Analysis Workspace中的“媒体并发查看器”面板。
-feature: 面板
-role: 业务从业者，管理员
+feature: Panels
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 description: 介绍如何使用数据馈送计算常见量度。
 keywords: 数据馈送；作业；量度；预列；帖子列；bots；日期过滤；事件字符串；常用；公式
 title: 计算量度
-feature: 报告与分析基础与分析基础
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
 translation-type: tm+mt

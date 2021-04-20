@@ -1,7 +1,7 @@
 ---
 description: 在Adobe Analytics中为数据收集创建基本容器
 title: 创建报表包
-feature: 管理工具
+feature: Admin Tools
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

@@ -1,7 +1,7 @@
 ---
 description: 描述收集数据之后更改事件类型的后果。
 title: 关于更改事件类型
-feature: 管理工具
+feature: Admin Tools
 uuid: c184dd8e-7818-42ff-a960-dd91215383d8
 exl-id: 6972431a-bb42-4b7f-b02b-ceef0ff56271
 translation-type: tm+mt

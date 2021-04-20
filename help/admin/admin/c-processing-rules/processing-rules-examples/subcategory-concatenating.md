@@ -2,7 +2,7 @@
 description: 您可以使用关联选项通过组合其他值来填充值。
 subtopic: Processing rules
 title: 通过连接类别和页面名称添加子类别
-feature: 管理工具
+feature: Admin Tools
 uuid: 45e5b004-690f-4d66-98f1-29baf9a954d0
 exl-id: 463280e0-e5d4-4cf9-9c30-fd699a378848
 translation-type: tm+mt

@@ -3,7 +3,7 @@ description: 在粒度级别自定义用户访问权限，包括 eVar、流量�
 keywords: 群组;权限
 subtopic: Users and groups
 title: 自定义维度权限
-feature: 管理工具
+feature: Admin Tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 exl-id: 51c4193a-426e-46a0-8494-163b58588157
 translation-type: tm+mt

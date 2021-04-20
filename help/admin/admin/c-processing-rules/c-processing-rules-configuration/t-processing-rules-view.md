@@ -2,7 +2,7 @@
 description: 在“管理员”中可以查看活动处理规则。
 subtopic: Processing rules
 title: 查看活动处理规则
-feature: 管理工具
+feature: Admin Tools
 uuid: be85c0a8-574e-448f-9bcc-7e9b81de5e4a
 exl-id: 04a845b4-939c-4d62-9dc5-855d4fe38370
 translation-type: tm+mt

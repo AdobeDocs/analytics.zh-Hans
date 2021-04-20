@@ -3,7 +3,7 @@ description: 实时显示网页流量并对页面查看次数进行排名，以�
 title: 实时报表
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

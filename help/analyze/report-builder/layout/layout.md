@@ -3,7 +3,7 @@ description: 通过“请求向导：第 2 步”窗口，您可以配置输出�
 title: 布局 - 请求向导第 2 步
 uuid: 92409e22-8b21-4827-af2f-bfef8368e0f7
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

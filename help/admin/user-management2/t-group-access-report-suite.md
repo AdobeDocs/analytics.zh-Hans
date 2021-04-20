@@ -2,7 +2,7 @@
 description: 描述如何向报表包分配用户群组的步骤。
 subtopic: Users and groups
 title: 将用户群组分配给报表包
-feature: 管理工具
+feature: Admin Tools
 uuid: 67173113-2fca-483e-9038-8423e6d4de6e
 exl-id: 8e2a36b8-4693-4bb2-9993-8887fd7c906d
 translation-type: tm+mt

@@ -3,7 +3,7 @@ description: 您可以过滤添加到“行标签”网格中的维度。过滤�
 title: 过滤器维度概述
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

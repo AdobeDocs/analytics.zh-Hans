@@ -3,7 +3,7 @@ description: 为一些最常见的 Analytics 问题提供答案和故障诊断�
 keywords: 诊断 Analytics 故障
 title: 常见问题解答
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

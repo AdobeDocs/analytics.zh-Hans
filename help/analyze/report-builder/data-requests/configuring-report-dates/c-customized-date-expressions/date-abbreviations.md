@@ -3,7 +3,7 @@ description: 时间缩写是指某一时段具体的开始日期，而不是天�
 title: 日期缩写
 uuid: 829d613e-5900-4586-a9fc-239988492d8b
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

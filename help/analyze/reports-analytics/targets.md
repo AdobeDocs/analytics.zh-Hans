@@ -2,7 +2,7 @@
 description: 利用目标可以评测网站的绩效，跟踪目标进度。例如，您可能想增加来自某一地理区域的访客数量、每次定购收入、或特定反向链接的点击量。
 title: 目标
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
-feature: 报告与分析基础与分析基础
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
 translation-type: tm+mt

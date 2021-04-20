@@ -3,7 +3,7 @@ description: 列出与 Activity Map 的使用不兼容的浏览器参数。您�
 title: 浏览器扩展疑难解答
 uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
 feature: Activity Map
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

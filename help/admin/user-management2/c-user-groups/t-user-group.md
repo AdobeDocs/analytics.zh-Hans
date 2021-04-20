@@ -2,7 +2,7 @@
 description: 描述如何添加用户群组的步骤。
 subtopic: Users and groups
 title: 添加用户群组
-feature: 管理工具
+feature: Admin Tools
 uuid: 01b662df-040d-48e6-a5c1-6ce65341bf79
 exl-id: a954c88a-7e68-4a2a-a231-c957257ae433
 translation-type: tm+mt

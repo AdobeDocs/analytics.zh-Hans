@@ -2,7 +2,7 @@
 description: 转化比率通常用于测量转化过程中的开始、结束和里程碑事件或关键点之间的转化。在您将成功事件编码到您的网站上时，报表会生成这些不同成功事件的比率，并会在转化漏斗报表中显示这些比率。
 title: 转换漏斗
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
-feature: 报告与分析基础与分析基础
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 8c1c1bc1-0e45-43d7-9581-bd070e2b687e
 translation-type: tm+mt

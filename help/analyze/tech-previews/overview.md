@@ -2,7 +2,7 @@
 title: Labs 用户指南
 description: 预览 Adobe Analytics 的原型项目
 feature: Labs
-role: 管理员
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 description: 针对虚拟报表包新用户的提示和最佳实践。
 keywords: 虚拟报表包
 title: VRS 常见问题解答
-feature: 报告与分析基础与分析基础
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
 exl-id: ab961bec-5719-4b90-bc10-c929b63dc923
 translation-type: tm+mt

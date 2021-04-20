@@ -1,7 +1,7 @@
 ---
 description: 描述如何指定哪个 eVar 包含您的访客标识符的步骤。
 title: 指定独特访客变量
-feature: 管理工具
+feature: Admin Tools
 uuid: 88ac962c-a13b-4f93-81b5-f5eda8b463e2
 exl-id: 20d5cd43-9ab2-4e36-8faf-607176378f8b
 translation-type: tm+mt

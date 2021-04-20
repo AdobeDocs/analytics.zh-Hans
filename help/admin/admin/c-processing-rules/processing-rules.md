@@ -2,7 +2,7 @@
 description: 处理规则简化了数据收集，并在数据被发送到报表时对内容进行管理。
 subtopic: Processing rules
 title: 处理规则概述
-feature: 管理工具
+feature: Admin Tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 translation-type: tm+mt

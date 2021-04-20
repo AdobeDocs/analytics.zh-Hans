@@ -2,8 +2,8 @@
 description: 通过维恩图可视化，最多可拖入 3 个区段（从“组件”中）和一个量度来构建维恩图。
 title: 维恩图
 uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
-feature: 可视化图表
-role: 业务从业者，管理员
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 description: 描述如何向公司中所有用户发送电子邮件消息的步骤。
 subtopic: Users and groups
 title: 电子邮件用户
-feature: 管理工具
+feature: Admin Tools
 uuid: c44a1398-dba4-4edc-9b90-b0ceb9da395c
 exl-id: 4f3abfa1-d652-4cda-b68f-a21fff4f62c4
 translation-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: 按照标记、所有者和其他过滤器（全部显示、我的、已与我共享、收藏和已批准）进行过滤。
 title: 过滤区段
-feature: 区段划分
+feature: Segmentation
 uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
 translation-type: tm+mt

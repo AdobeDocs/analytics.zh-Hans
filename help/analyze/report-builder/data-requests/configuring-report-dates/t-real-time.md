@@ -3,7 +3,7 @@ description: 用于描述如何配置实时请求日期的步骤。
 title: 配置实时请求
 uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

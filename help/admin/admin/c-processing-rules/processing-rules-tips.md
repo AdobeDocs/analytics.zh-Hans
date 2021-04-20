@@ -2,7 +2,7 @@
 description: 此部分包含测试处理规则的指南和要避免的常见错误列表。
 subtopic: Processing rules
 title: 处理规则的提示和技巧
-feature: 管理工具
+feature: Admin Tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
 translation-type: tm+mt

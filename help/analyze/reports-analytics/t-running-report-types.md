@@ -2,7 +2,7 @@
 description: 运行不同的报表类型的步骤。
 title: 运行不同的报表类型
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-feature: 报告与分析基础与分析基础
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
 translation-type: tm+mt

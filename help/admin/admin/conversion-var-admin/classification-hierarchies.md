@@ -2,7 +2,7 @@
 description: “分类层次结构”页面可让您定义分类层次结构，将其用于创建具有相同名称的“层次结构”报表。
 subtopic: Classifications
 title: 分类层次结构
-feature: 管理工具
+feature: Admin Tools
 uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
 exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
 translation-type: tm+mt

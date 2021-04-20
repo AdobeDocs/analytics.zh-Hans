@@ -2,7 +2,7 @@
 description: 虚拟报表包和多包标记具有不同的优势。了解哪种方式最适合您的组织。
 keywords: 虚拟报表包，VRS
 title: 虚拟报表包和多包标记注意事项
-feature: 报表包设置
+feature: Report Suite Settings
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
 translation-type: tm+mt

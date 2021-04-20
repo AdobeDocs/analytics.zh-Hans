@@ -2,8 +2,8 @@
 description: 您可以对贵组织中的收件人策划、共享和计划 PDF/CSV 项目。
 title: “共享”菜单
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
-feature: 策划和共享
-role: 业务从业者，管理员
+feature: Curate and Share
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

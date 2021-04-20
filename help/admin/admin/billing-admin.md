@@ -1,7 +1,7 @@
 ---
 description: 使用“帐单”页可以访问帐单信息，包括每个报表包的流量详情。只有经授权的管理员才有权访问此页面。
 title: 帐单
-feature: 管理工具
+feature: Admin Tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 exl-id: cea802e4-99c4-491e-99c2-8476870001f7
 translation-type: tm+mt

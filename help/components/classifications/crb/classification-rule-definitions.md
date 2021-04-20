@@ -2,7 +2,7 @@
 description: 分类规则生成器中的页面上界面元素的定义。
 subtopic: Classifications
 title: 分类规则 - 定义
-feature: 管理工具
+feature: Admin Tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 translation-type: tm+mt

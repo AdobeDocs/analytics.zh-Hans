@@ -3,7 +3,7 @@ description: 本节介绍数据馈送提交中包含的文件。
 keywords: 数据馈送；作业；内容；清单；文件；查找；点击数据；投放内容
 subtopic: data feeds
 title: 数据馈送内容 - 概述
-feature: 报告与分析基础与分析基础
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 translation-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: Adobe 要求预先通知新帐户设置、流量尖峰和流量增长。硬件必须预先进行分配，以最大程度减小延迟以及对整体系统可能造成的负面影响。
 title: 流量增长必需的前置时间
-feature: 管理工具
+feature: Admin Tools
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 translation-type: tm+mt

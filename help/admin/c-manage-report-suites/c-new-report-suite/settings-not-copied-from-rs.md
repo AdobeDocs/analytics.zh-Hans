@@ -1,7 +1,7 @@
 ---
 description: 如果您从现有的报表包中复制了设置，则会有一条系统消息来标识所有未复制到新报表包中的设置。
 title: 未从源报表包复制的设置
-feature: 管理工具
+feature: Admin Tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
 translation-type: tm+mt

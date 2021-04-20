@@ -1,7 +1,7 @@
 ---
 description: 您可以通过选择预定义的模板或者使用某个现有报表包作为模型，来创建新的报表包。
 title: 新报表包 - 设置
-feature: 管理工具
+feature: Admin Tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
 translation-type: tm+mt

@@ -3,7 +3,7 @@ description: Adobe Report Builder 现在具有类似于 Analytics 管理工具�
 title: 维度和量度的用户访问权限
 uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

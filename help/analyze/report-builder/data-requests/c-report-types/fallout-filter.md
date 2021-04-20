@@ -3,7 +3,7 @@ description: 描述如何将过滤器应用到流失报表的步骤。
 title: 使用请求向导过滤流失报表
 uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

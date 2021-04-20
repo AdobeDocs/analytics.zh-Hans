@@ -3,7 +3,7 @@ description: 将源工作簿中的整个电子表格复制为一个或多个目�
 title: 在工作簿之间复制请求和工作表
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

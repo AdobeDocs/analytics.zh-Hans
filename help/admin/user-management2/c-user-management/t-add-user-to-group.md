@@ -2,7 +2,7 @@
 description: 描述如何将用户添加到群组的步骤。
 subtopic: Users and groups
 title: 将用户添加到群组
-feature: 管理工具
+feature: Admin Tools
 uuid: 032245b3-848d-4727-9b7d-6c5956c5f06a
 exl-id: f15696a9-3475-4ef6-8d23-3e4e12732b31
 translation-type: tm+mt

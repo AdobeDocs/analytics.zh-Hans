@@ -3,7 +3,7 @@ description: 现在您可以在同一请求中组合使用这两种量度类型�
 title: 在同一请求中组合使用流量和商务量度
 uuid: 2813d594-f4ec-4f6a-8539-ec7d954a392f
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -1,8 +1,8 @@
 ---
 title: Report Builder 用于 Adobe Analytics
 description: 使用 Report Builder 可将 Adobe Analytics 数据直接带入 Microsoft Excel。了解安装和使用 Report Builder 可怎样推动您的业务增长。
-feature: Workspace 基础
-role: 业务员, 管理员
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

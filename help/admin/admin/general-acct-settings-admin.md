@@ -1,7 +1,7 @@
 ---
 description: 对“管理员”中报表包“一般帐户设置”的字段描述。
 title: 一般帐户设置
-feature: 管理工具
+feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
 translation-type: tm+mt

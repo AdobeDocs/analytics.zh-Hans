@@ -1,7 +1,7 @@
 ---
 description: 通过区段生成器，您可以使用选定的运算符比较和约束值。
 title: 区段的比较运算符
-feature: 区段划分
+feature: Segmentation
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 translation-type: tm+mt

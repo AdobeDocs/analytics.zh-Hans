@@ -2,8 +2,8 @@
 description: “策划”让您可在共享项目前限制组件。
 keywords: Analysis Workspace特选
 title: 组织项目
-feature: 策划和共享
-role: 业务从业者，管理员
+feature: Curate and Share
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

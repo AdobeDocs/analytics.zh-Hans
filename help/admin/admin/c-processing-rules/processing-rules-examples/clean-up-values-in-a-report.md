@@ -2,7 +2,7 @@
 description: 您可以根据常见的错误拼写形式匹配值并更新这些值，以便它们能在报表中正确显示。
 subtopic: Processing rules
 title: 清理报告中的值
-feature: 管理工具
+feature: Admin Tools
 uuid: fcd72afc-3a3c-47a9-a5e4-53389dba7d83
 exl-id: 109005a3-2ea4-4b61-a733-d1019218ec56
 translation-type: tm+mt

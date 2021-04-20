@@ -2,7 +2,7 @@
 description: 可以基于页面值或变量中的特定值设置事件。
 subtopic: Processing rules
 title: 在产品概述页面中设置产品视图事件
-feature: 管理工具
+feature: Admin Tools
 uuid: caa7a077-dd47-460e-b14d-fe10c4e61f97
 exl-id: 63e139e1-d325-4650-9d2a-19ab3f91818e
 translation-type: tm+mt

@@ -2,8 +2,8 @@
 description: 工作区中的仅查看项目
 keywords: 仅供查看的项目
 title: 仅供查看的项目
-feature: 策划和共享
-role: 业务从业者，管理员
+feature: Curate and Share
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

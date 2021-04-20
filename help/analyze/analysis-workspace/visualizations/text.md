@@ -2,8 +2,8 @@
 description: 允许您将用户定义的文本添加至您的工作区。
 title: 文本
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
-feature: 可视化图表
-role: 业务从业者，管理员
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 通过同步可视化信息，您可以控制与可视化对应的数据表或数据源。
 keywords: Analysis Workspace;将可视化与数据源同步
 title: 管理数据源
-feature: 可视化图表
-role: 业务从业者，管理员
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

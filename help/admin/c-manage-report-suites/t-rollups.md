@@ -1,7 +1,7 @@
 ---
 description: 描述如何创建汇总报表包的步骤。
 title: 创建汇总报表包
-feature: 管理工具
+feature: Admin Tools
 uuid: d4bab32a-2a09-49a7-b280-29f8f33ee021
 exl-id: 0aac9063-d915-4484-92c0-c84a75704ac2
 translation-type: tm+mt

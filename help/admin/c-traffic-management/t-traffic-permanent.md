@@ -1,7 +1,7 @@
 ---
 description: 使用“永久性流量”部分可以更改预期流量级别，以便 Adobe 可以重新分配资源来处理新的流量级别。
 title: 指定永久性流量增长
-feature: 管理工具
+feature: Admin Tools
 uuid: 53acbe97-7f63-4608-b2f3-bd885eae7e6d
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
 translation-type: tm+mt

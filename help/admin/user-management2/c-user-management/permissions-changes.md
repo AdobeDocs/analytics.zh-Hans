@@ -3,7 +3,7 @@ description: 旧版权限内容
 keywords: 群组;权限
 subtopic: Users and groups
 title: 用户和群组权限更改
-feature: 管理工具
+feature: Admin Tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

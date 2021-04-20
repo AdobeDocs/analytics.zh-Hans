@@ -1,7 +1,7 @@
 ---
 description: 此功能允许您自定义用户在“Reports & Analytics”中看到的报表菜单。您可以针对所有用户显示或隐藏报表，还可以在不同的文件夹中移动报表。如果您的组织仅使用特定报表，并且不希望让未使用的或者不相关的数据来填充您的左侧菜单，则此功能尤为适用。
 title: 菜单自定义
-feature: 管理工具
+feature: Admin Tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 exl-id: 0cba7569-81e9-44be-8633-79da83ec8bd3
 translation-type: tm+mt

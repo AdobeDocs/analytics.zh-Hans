@@ -2,8 +2,8 @@
 description: 让您可以查看您感兴趣的值与其他性能范围（目标）进行比较或衡量的结果。
 title: 项目符号图表
 uuid: 2f133189-2a50-45af-b225-7d2b433fbef5
-feature: 可视化图表
-role: 业务从业者，管理员
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

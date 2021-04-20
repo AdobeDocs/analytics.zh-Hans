@@ -2,8 +2,8 @@
 description: 在 Workspace 项目中使用条形图可视化。
 title: 条形图和堆叠的条形图
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
-feature: 可视化图表
-role: 业务从业者，管理员
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

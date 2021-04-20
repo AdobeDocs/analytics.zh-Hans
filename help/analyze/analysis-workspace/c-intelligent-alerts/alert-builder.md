@@ -2,8 +2,8 @@
 description: 当项目组件达到一定的阈值时获取警报。
 title: 警报生成器
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-feature: AI工具
-role: 业务从业者，管理员
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

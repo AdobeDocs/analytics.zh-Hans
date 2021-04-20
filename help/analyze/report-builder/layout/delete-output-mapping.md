@@ -3,7 +3,7 @@ description: 如果您正在编辑工作簿，并且希望为新请求腾出空�
 title: 删除输出映射
 uuid: a6805800-4cb9-4ccc-aada-198a15def643
 feature: Report Builder
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
