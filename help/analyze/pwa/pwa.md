@@ -1,15 +1,15 @@
 ---
 title: 适用于 Analytics 的 PWA
 description: 适用于 Adobe Analytics 的渐进式 Web 应用程序
-role: 业务从业者，管理员
+role: Business Practitioner, Administrator
+exl-id: f28e0bfc-0e3e-4f28-9533-6788a36d37fe
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 960274fde798287568ada9e6d8ec96783449dd99
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 99%
+source-wordcount: '291'
+ht-degree: 88%
 
 ---
-
 
 # 适用于 Adobe Analytics 的 PWA
 
@@ -27,7 +27,7 @@ Adobe Analytics 可以像与传统网站结合使用一样，无缝地与 PWA �
 
 ## 添加离线跟踪以提高 PWA 有效性
 
-您可以将 Adobe Analytics [离线跟踪功能](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html)与 PWA 结合使用，以提高其有效性。默认情况下，此功能处于关闭状态，但您可以将以下属性添加到 AppMeasurement.js 文件中以打开此功能：`s.trackOffline=true;`。
+您可以将 Adobe Analytics [离线跟踪功能](/help/implement/vars/config-vars/trackoffline.md)与 PWA 结合使用，以提高其有效性。默认情况下，此功能处于关闭状态，但您可以将以下属性添加到 AppMeasurement.js 文件中以打开此功能：`s.trackOffline=true;`。
 
 例如，在以下 AppMeasurement.js 文件中，将该属性添加到 `CONFIG SECTION` 的末尾：
 
@@ -47,8 +47,8 @@ s.trackOffline=true
 *** 
 ```
 
-有关编辑 AppMeasurement.js 文件的更多信息，请参阅[将代码插入 AppMeasurement.js 文件](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html)。
+有关编辑AppMeasurement.js文件的详细信息，请参阅[插入核心AppMeasurement代码](/help/implement/other/dtm/c-aa-tool/t-appmeasurement-code.md)。
 
-有关 AppMeasurement.js 文件中的配置示例，请参阅[配置 AppMeasurement.js 文件](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7)。
+有关配置AppMeasurement.js文件的详细信息，请参阅[配置变量概述](/help/implement/vars/config-vars/configuration-variables.md)以及同一子章中各个特定于变量的页面。
 
-有关 AppMeasurement.js 文件特征的更多信息，请参阅 [Javascript 实施概述](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)。
+有关 AppMeasurement.js 文件特征的更多信息，请参阅 [Javascript 实施概述](/help/implement/js/overview.md)。
