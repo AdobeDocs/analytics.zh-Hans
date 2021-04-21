@@ -3,14 +3,14 @@ description: Reports & Analytics 中的“包括当前数据”选项通常可�
 subtopic: Current Data
 title: 当前数据
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports & Analytics 基础知识
 role: Business Practitioner, Administrator
 exl-id: 4e90f5ad-ba12-4282-a0d9-55765d88104b
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 96%
+source-wordcount: '569'
+ht-degree: 97%
 
 ---
 
