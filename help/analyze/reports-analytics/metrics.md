@@ -2,14 +2,14 @@
 description: 量度是报表的基础，可帮助您查看和了解数据关系并启用网站不同数据集的并排比较。量度是有关访客活动的量化信息，包括查看次数、点进次数、重新加载次数、平均逗留时间、件数、订购、收入等。
 title: 量度
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports & Analytics 基础知识
 role: Business Practitioner, Administrator
 exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 98%
+source-wordcount: '374'
+ht-degree: 100%
 
 ---
 
