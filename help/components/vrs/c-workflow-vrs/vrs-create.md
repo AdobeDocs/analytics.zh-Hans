@@ -2,14 +2,14 @@
 description: 在您开始创建虚拟报表包之前，请注意下面一些事项。
 keywords: 虚拟报表包
 title: 创建虚拟报表包
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports & Analytics 基础知识
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 98%
+source-wordcount: '366'
+ht-degree: 100%
 
 ---
 
