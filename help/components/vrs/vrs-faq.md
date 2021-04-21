@@ -2,14 +2,14 @@
 description: 针对虚拟报表包新用户的提示和最佳实践。
 keywords: 虚拟报表包
 title: VRS 常见问题解答
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports & Analytics 基础知识
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
 exl-id: ab961bec-5719-4b90-bc10-c929b63dc923
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 99%
+source-wordcount: '904'
+ht-degree: 100%
 
 ---
 
