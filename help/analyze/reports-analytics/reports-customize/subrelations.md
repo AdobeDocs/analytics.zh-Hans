@@ -2,14 +2,14 @@
 description: 完全子关系会在所有转化报表中启用，因此任意一个 eVar 都可以由另一 eVar 划分。报表表格中的“划分依据”菜单与标准 Analytics 报告菜单匹配，从而保持选择的一致性。
 title: 子关系
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports & Analytics 基础知识
 role: Business Practitioner, Administrator
 exl-id: 615ed00e-91cd-45de-ae1f-e0d09ff01d26
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 98%
+source-wordcount: '398'
+ht-degree: 100%
 
 ---
 
