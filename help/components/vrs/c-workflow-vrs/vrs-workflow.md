@@ -2,14 +2,14 @@
 description: 规划虚拟报表包的实施时需要完成的步骤概述。
 keywords: 虚拟报表包
 title: 虚拟报表包工作流程
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports & Analytics 基础知识
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 98%
+source-wordcount: '266'
+ht-degree: 100%
 
 ---
 
