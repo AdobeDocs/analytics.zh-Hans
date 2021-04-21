@@ -2,14 +2,14 @@
 description: 使用这些过滤器可以限制报表的内容，使其包括或排除与过滤器匹配的行项目。
 title: 过滤报表数据
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports & Analytics 基础知识
 role: Business Practitioner, Administrator
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 99%
+source-wordcount: '679'
+ht-degree: 100%
 
 ---
 
