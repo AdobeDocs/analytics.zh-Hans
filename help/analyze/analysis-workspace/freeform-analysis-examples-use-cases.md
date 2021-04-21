@@ -2,13 +2,13 @@
 description: 列举有关如何使用数据表、区段的示例，同时提供一些适合 Analysis Workspace 的用例建议。
 keywords: Analysis Workspace
 title: Analysis Workspace 用例
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports & Analytics 基础知识
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 99%
+source-wordcount: '521'
+ht-degree: 100%
 
 ---
 
