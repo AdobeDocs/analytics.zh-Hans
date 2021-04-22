@@ -2,16 +2,16 @@
 description: 在 Workspace 项目中使用条形图可视化。
 title: 条形图和堆叠的条形图
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
-feature: Visualizations
+feature: 可视化图表
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 96%
+exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '89'
+ht-degree: 100%
 
 ---
-
 
 # 条形图和堆叠的条形图
 
@@ -32,4 +32,3 @@ ht-degree: 96%
 堆叠的条形可视化的新可视化设置将图表变为“100% 堆叠”可视化：
 
 ![](assets/stacked_100_percent.png)
-
