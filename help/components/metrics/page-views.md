@@ -1,20 +1,20 @@
 ---
 title: '页面浏览次数指标解释 | Adobe Analytics '
 description: 了解如何在 Adobe Analytics 中得出页面浏览次数指标并了解页面浏览次数与访问次数之间的区别。
+exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
 translation-type: ht
-source-git-commit: c588087b949093152435967f62e43758e9e86208
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '176'
 ht-degree: 100%
 
 ---
 
-
 # 了解页面浏览次数与 Adobe Analytics
 
 “页面查看次数”指标显示页面上设定或保留的给定维度项目的次数。它是报告中最常见的基本指标之一。
 
-## 如何计算此指标
+## 如何计算此量度
 
 此指标计数报表包中所有页面视图的跟踪调用 ([`t()`](/help/implement/vars/functions/t-method.md))。对于维度，它包括定义或保留维度项目的点击。它不包括链接跟踪调用 ([`tl()`](/help/implement/vars/functions/tl-method.md))。
 
