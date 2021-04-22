@@ -1,14 +1,14 @@
 ---
 title: 每次访问逗留时间
 description: 维度项目的每次访问逗留时间。
+exl-id: 0f951196-66a2-4733-bb62-4555a9331efb
 translation-type: ht
-source-git-commit: dc5c51f68ab22bd4f1368aa0656c66ee53d99103
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '259'
 ht-degree: 100%
 
 ---
-
 
 # 每次访问逗留时间（秒）
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 此指标因其处理架构不同而在 Data Warehouse 中不可用。
 
-## 如何计算此指标
+## 如何计算此量度
 
 此指标使用公式 [`[Total seconds spent]`](total-seconds-spent.md) `divided by (`[`[Visits]`](visits.md) `minus` [`[Bounces]`](bounces.md)`)`。
 
