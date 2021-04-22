@@ -2,16 +2,16 @@
 description: 贡献分析是一个密集型计算机学习过程，专为揭示导致 Adobe Analytics 中所发现异常的因素而设计。它旨在帮助用户以远快于其他方式的速度找到执行进一步分析的焦点领域或时机。
 title: 贡献分析中使用的统计技术
 uuid: f77eb4e4-4fd6-4397-b8a8-a063f199b676
-feature: AI Tools
+feature: AI 工具
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 98%
+exl-id: 1e19b154-c6d2-48fe-9baf-db4e47789321
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '332'
+ht-degree: 100%
 
 ---
-
 
 # 贡献分析中使用的统计技术
 
@@ -40,4 +40,3 @@ ht-degree: 98%
    （可获取用于时间段 1 的类似公式。）
 
    对于最后结果，每个维度项目的分数将由克莱姆 V 系数测量算得，并重新调整为一个介于 0 和 1 之间的数字，以便提供其贡献得分。
-
