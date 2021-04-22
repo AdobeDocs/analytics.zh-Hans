@@ -2,14 +2,14 @@
 description: 本文档介绍您需要在 Adobe Analytics 中执行什么操作来支持数据主体的 GDPR 访问和删除权利。
 title: Adobe Analytics 和 GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
+exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
 translation-type: ht
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '629'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics 和 GDPR
 
