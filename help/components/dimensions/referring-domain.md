@@ -1,14 +1,14 @@
 ---
 title: 反向链接域
 description: 访客在点击进入到您的网站之前所处的首要域。
+exl-id: 9e04cb62-6526-4d84-aff7-c962c0ce42b5
 translation-type: ht
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '492'
 ht-degree: 100%
 
 ---
-
 
 # 反向链接域
 
