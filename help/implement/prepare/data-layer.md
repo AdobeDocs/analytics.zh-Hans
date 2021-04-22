@@ -1,14 +1,14 @@
 ---
 title: 创建数据层
 description: 了解 Analytics 实施中的数据层，以及如何在 Adobe Analytics 中使用它来映射变量。
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '479'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
-
 
 # 创建数据层
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 ## 先决条件
 
-[创建解决方案设计文档](solution-design.md) - 贵组织务必要根据跟踪要求进行调整，这一点很重要。在与组织内的开发团队接洽之前，请确保您已准备好解决方案设计文档。
+[创建解决方案设计文档](solution-design.md) - 贵组织务必要根据跟踪要求进行调整，这一点很重要。在联系组织中的开发团队之前，确保您已准备了解决方案设计文档。
 
 ## 工作流
 
@@ -167,7 +167,7 @@ digitalData = {
 }
 ```
 
-有关每个对象和子对象的详细信息，请参阅 [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) 报表。Not all sites use all objects; for example, if you host a news site, it is unlikely that you have use for the `digitalData.product` object array.
+有关每个对象和子对象的详细信息，请参阅 [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) 报表。并非所有网站都会使用所有对象，例如，如果您托管新的网站，那么就不太可能使用 `digitalData.product` 对象数组。
 
 数据层是可扩展的；如果贵组织有特定需求，则可以在数据层中包含相应对象以满足这些需求。
 
