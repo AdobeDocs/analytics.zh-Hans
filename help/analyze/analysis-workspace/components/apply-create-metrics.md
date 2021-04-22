@@ -2,16 +2,16 @@
 description: 可通过两种方式在 Analysis Workspace 中使用量度。
 title: 量度
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
-feature: Workspace Basics
+feature: Workspace 基础知识
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 85%
+exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '254'
+ht-degree: 100%
 
 ---
-
 
 # 量度
 
@@ -31,11 +31,11 @@ ht-degree: 85%
 
 ![](assets/calc_metrics.png)
 
-[计算量度：无实施量度](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
+[计算量度：无实施量度](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
 
 ## 比较不同归因模型的量度
 
-如果您希望快速轻松地将一个归因模型与另一个归因模型进行比较，请右键单击一个量度并选择&#x200B;**[!UICONTROL 比较归因模型]**:
+如果您希望轻松快速地将一个归因模型与另一个进行比较，请右键单击某个量度并选择&#x200B;**[!UICONTROL 比较归因模型]**：
 
 ![比较归因模型](assets/compare-attribution.png)
 
