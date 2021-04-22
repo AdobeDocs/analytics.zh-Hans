@@ -1,14 +1,14 @@
 ---
 title: 迁移到 AppMeasurement for JavaScript
 description: 确定从 H 代码迁移实施所需的内容。
-translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
-workflow-type: tm+mt
+exl-id: ed606ab4-bd7d-4871-baa1-77e30fdd419e
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '289'
 ht-degree: 100%
 
 ---
-
 
 # 迁移到 AppMeasurement for JavaScript
 
