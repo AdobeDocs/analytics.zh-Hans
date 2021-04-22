@@ -2,16 +2,16 @@
 description: 在日历中，您可以指定日期和日期范围，或者选择一个预设。
 title: 日历和日期范围概述
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
-feature: Workspace Basics
+feature: Workspace 基础知识
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '380'
+exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '377'
 ht-degree: 100%
 
 ---
-
 
 # 日历和日期范围概述
 
