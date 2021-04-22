@@ -1,14 +1,14 @@
 ---
 title: 回访频度
 description: 当前访问与上次访问之间存储的时间。
+exl-id: 8ec31e17-a57d-416f-b471-c2c37a98d134
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '252'
 ht-degree: 100%
 
 ---
-
 
 # 回访频度
 
