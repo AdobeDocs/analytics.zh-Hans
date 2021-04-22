@@ -1,14 +1,14 @@
 ---
 title: 分析营销渠道
 description: 了解如何在工作区中使用营销渠道维度。
-translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
-workflow-type: tm+mt
+exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
-
 
 # 分析营销渠道
 
@@ -46,7 +46,7 @@ ht-degree: 94%
 
 ## 应用归因模型
 
-您可以使用[归因 IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/use-attribution.html)，即时应用不同的归因模型：
+您可以使用[归因 IQ](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/attribution/use-attribution.html)，即时应用不同的归因模型：
 
 ![](assets/mc-viz5.png)
 
@@ -58,4 +58,4 @@ ht-degree: 94%
 
 ![](assets/mc-viz6.png)
 
-通过此视频进一步了解跨标签营销分析: [使用跨标签分析探索Analysis Workspace的基本营销归因](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html)。
+通过本视频了解交叉表营销分析的详情：[在 Analysis Workspace 中使用交叉表分析来了解基本营销归因](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html)。
