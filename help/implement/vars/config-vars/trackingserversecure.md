@@ -1,14 +1,14 @@
 ---
 title: trackingServerSecure
 description: 确定在 HTTPS 页面上发送图像请求的位置。
-translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
-workflow-type: tm+mt
+exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
-
 
 # trackingServerSecure
 
@@ -41,4 +41,4 @@ Adobe 通过接收访客生成的图像请求来收集您网站上的数据。`t
 s.trackingServerSecure = "data.example.com";
 ```
 
-CNAME records usually point to a subdomain on `data.adobedc.net`, `sc.adobedc.net` or `2o7.net`.
+CNAME 记录通常指向 `data.adobedc.net`、`sc.adobedc.net` 或 `2o7.net` 上的子域。
