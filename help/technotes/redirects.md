@@ -150,7 +150,7 @@ redirects_verify_referrer.xml
 
 运行测试以验证是否正在捕获反向链接、原始 URL (*`s_server`*) 和促销活动变量。
 
-这些变量将在 [Experience Cloud 调试器](https://docs.adobe.com/content/help/zh-Hans/debugger/using/experience-cloud-debugger.html)中表示为以下参数。
+这些变量将在 [Experience Cloud 调试器](https://docs.adobe.com/content/help/zh_CN/debugger/using/experience-cloud-debugger.html)中表示为以下参数。
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
