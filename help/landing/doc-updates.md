@@ -2,14 +2,14 @@
 title: Adobe Analytics 技术文档更新
 description: 对 Adobe Analytics 文档存储库的重要更新。
 short-title: Analytics documentation updates
+exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 translation-type: ht
-source-git-commit: 4fdab23700659e68d5c577369dd005b94eef56b2
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '423'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics 技术文档更新
 
