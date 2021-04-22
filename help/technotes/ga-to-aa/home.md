@@ -1,14 +1,14 @@
 ---
 title: 从第三方分析平台过渡到 Adobe Analytics
 description: 了解获取报表的关键概念，适用于熟悉其他平台（例如 Google Analytics）的用户。
+exl-id: e71b12ad-11b7-48a0-8586-f8eb63975479
 translation-type: ht
-source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '438'
 ht-degree: 100%
 
 ---
-
 
 # 从第三方分析平台过渡到 Adobe Analytics
 
