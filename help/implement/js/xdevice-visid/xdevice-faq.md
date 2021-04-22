@@ -1,14 +1,14 @@
 ---
 title: 跨设备访客识别常见问题解答
 description: 关于跨设备访客识别的常见问题解答
+exl-id: da972fee-fe6e-45b2-af01-50674989c375
 translation-type: ht
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '190'
 ht-degree: 100%
 
 ---
-
 
 # 跨设备访客识别的常见问题解答
 
