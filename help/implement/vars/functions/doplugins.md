@@ -1,14 +1,14 @@
 ---
 title: doPlugins
 description: 在编译点击并将其发送到 Adobe 之前配置逻辑。
+exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '182'
 ht-degree: 100%
 
 ---
-
 
 # doPlugins
 
