@@ -1,14 +1,14 @@
 ---
 title: H 代码 JavaScript 实施概述
 description: 了解在您的网站上实施 H 代码的工作流。
+exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
 translation-type: ht
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '388'
 ht-degree: 100%
 
 ---
-
 
 # H 代码 JavaScript 实施概述
 
