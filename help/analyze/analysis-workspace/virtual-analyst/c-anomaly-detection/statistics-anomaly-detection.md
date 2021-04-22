@@ -1,16 +1,16 @@
 ---
 description: 数据不一致可能会造成大问题。了解如何用 Adobe 提供的异常检测技术发现统计异常。立即开始使用。
 title: 异常检测中使用的统计技术
-feature: AI Tools
+feature: AI 工具
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 99%
+exl-id: e9868296-e453-45ec-b874-b2aa1b37a1bf
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '794'
+ht-degree: 100%
 
 ---
-
 
 # 异常检测中使用的统计技术
 
