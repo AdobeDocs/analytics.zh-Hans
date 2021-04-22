@@ -3,14 +3,14 @@ description: 有关通过 Adobe FTP 服务器设置安全传输的说明。
 keywords: ftp;sftp
 title: 通过 SFTP 连接到 Adobe FTP 帐户
 uuid: 4faf27b8-7276-4c68-87cb-35802b809e27
+exl-id: 727d4f7a-d7d1-40cf-bdcd-c783ca47f51c
 translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
-source-wordcount: '132'
+source-wordcount: '134'
 ht-degree: 100%
 
 ---
-
 
 # 通过 SFTP 连接到 Adobe FTP 帐户
 
