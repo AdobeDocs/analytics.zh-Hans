@@ -1,17 +1,17 @@
 ---
 description: 在 Adobe Analytics 中部署动态标签管理时，动态标签管理中用于反向链接和促销活动选项的字段描述。
-keywords: Dynamic Tag Management;referrers;campaigns;referrer override;campaign variable;query param
+keywords: Dynamic Tag Management;反向链接;促销活动;反向链接覆盖;促销活动变量;查询参数
 solution: Experience Cloud,Analytics
 title: 反向链接和促销活动
 uuid: 56580206-a382-4993-9bba-a488da65cf89
-translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
-workflow-type: tm+mt
-source-wordcount: '155'
+exl-id: cced5e00-ba8e-4bf4-b475-ed8ab08ab427
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '166'
 ht-degree: 100%
 
 ---
-
 
 # 反向链接和促销活动
 
