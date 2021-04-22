@@ -1,6 +1,6 @@
 ---
 description: 以下信息可帮助解决 Analytics 数据中的报表包滞后问题。
-keywords: 缺少数据；慢
+keywords: 缺少数据;缓慢
 subtopic: Current data
 title: 数据可用性和滞后
 topic-fix: Reports
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '806'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
