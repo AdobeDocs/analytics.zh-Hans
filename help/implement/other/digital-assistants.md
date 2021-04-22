@@ -1,14 +1,14 @@
 ---
 title: 为数字助理实施 Analytics
 description: 在数字助理（如 Amazon Alexa 或 Google Home）上实施 Adobe Analytics。
-translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
-workflow-type: tm+mt
+exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '1266'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # 为数字助理实施 Analytics
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 ## 数字体验架构概述
 
-![Digital Assistant工作流程](assets/Digital-Assitants.png)
+![数字助理工作流程](assets/Digital-Assitants.png)
 
 现如今的数字助理大多采用了类似的高层架构：
 
@@ -113,7 +113,7 @@ Cache-Control: no-cache
 
 例如，如果用户表示“Siri，从我的银行应用中向 John 支付昨晚的晚餐费 20 美元”，意图有可能是类似于 *sendMoney*。
 
-通过将其中每个请求作为 eVar 发送，您将能够对会话应用程序的每个意图运行路径报表。此外，请确保您的应用程序可以处理无意图的请求。Adobe建议将“未指定用途”传递给目的上下文数据变量，而不是忽略该变量。
+通过将其中每个请求作为 eVar 发送，您将能够对会话应用程序的每个意图运行路径报表。此外，请确保您的应用程序可以处理无意图的请求。Adobe 建议将“未指定意图”传入给意图上下文数据变量，而不是忽略变量。
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
