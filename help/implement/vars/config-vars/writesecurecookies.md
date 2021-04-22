@@ -1,14 +1,14 @@
 ---
 title: writeSecureCookies
 description: 允许 AppMeasurement 使用“安全”属性设置 Cookie。
-translation-type: tm+mt
-source-git-commit: defb701d01747685a421b89a553f47efe40f1432
-workflow-type: tm+mt
+exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '200'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
-
 
 # writeSecureCookies
 
@@ -16,16 +16,16 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
-> 如果启用 `writeSecureCookies` 变量，请确保网站上的所有内容都通过 HTTPS 协议来安全地提供。如果启用了此变量，并且您的页面上有不安全的内容，则 AppMeasurement 将不起作用。
+>如果启用 `writeSecureCookies` 变量，请确保网站上的所有内容都通过 HTTPS 协议来安全地提供。如果启用了此变量，并且您的页面上有不安全的内容，则 AppMeasurement 将不起作用。
 
 ## 在 Adobe Experience Platform Launch 中编写安全 Cookie
 
-[!UICONTROL 配置Adobe Analytics扩展] 时，“Cookie”折叠 [!UICONTROL 面板下] ,“编写安全Cookie”是一个复选框。
+在配置 Adobe Analytics 扩展时，[!UICONTROL 编写安全 Cookie]是 [!UICONTROL Cookie] 折叠面板下的复选框。
 
 1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
 2. 单击所需的属性。
 3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的[!UICONTROL 配置]按钮。
-4. 展开Cookies [!UICONTROL 折叠面板] ，该面板显示“写入安 [!UICONTROL 全cookies”复] 选框。
+4. 展开 [!UICONTROL Cookie] 折叠面板，这会显示[!UICONTROL 编写安全 Cookie] 复选框。
 
 ## AppMeasurement 和 Launch 自定义代码编辑器中的 s.writeSecureCookies
 
