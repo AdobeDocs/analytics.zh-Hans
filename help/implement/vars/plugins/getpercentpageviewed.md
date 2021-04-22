@@ -1,14 +1,14 @@
 ---
 title: getPercentPageViewed
 description: 检索访客查看的页面内容所占的百分比。
+exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 translation-type: ht
-source-git-commit: f11ad012756b5d42b1b53483c8688e30b4b79c83
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '892'
 ht-degree: 100%
 
 ---
-
 
 # Adobe 插件：getPercentPageViewed
 
