@@ -2,14 +2,14 @@
 description: 新的智能警报系统允许对警报进行更多粒度控制，而且还将异常检测与警报系统集成在一起。
 title: 智能警报
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
-translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
-workflow-type: tm+mt
+exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '581'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
-
 
 # 智能警报
 
@@ -76,8 +76,7 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问题：我可以获得用虚线制成的“预期值”表格吗？表格中会包含一些预期值的结果吗？</b> </p> </td> 
-   <td colname="col2"> <p>在工作区中无法实现，但是在 Report Builder 中可以（请观看视频：<a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  >Report Builder 中的异常检测</a>)。 </p> <p>请记住，Report Builder 使用的是略微简单的异常检测方法。它使用固定的30天培训期，固定的95%间隔。 </p> </td> 
+   <td colname="col2"> <p>在 Workspace 中无法实现，但是在 Report Builder 中可以（请观看视频：<a href="https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  >Report Builder 中的异常检测</a>)。 </p> <p>请记住，Report Builder 使用的是略微简单的异常检测方法。它使用固定的 30 天训练周期，固定的 95% 间隔。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
