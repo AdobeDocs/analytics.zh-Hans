@@ -1,14 +1,14 @@
 ---
 title: Analytics 导入指南
-description: 本指南介绍如何使用数据源、数据插入API和数据连接器将数据导入Analytics。
-translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
-workflow-type: tm+mt
+description: 本指南说明如何使用数据源、Data Sources 和 Data Connectors 将数据导入 Analytics。
+exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '128'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
-
 
 # Analytics 导入指南
 
