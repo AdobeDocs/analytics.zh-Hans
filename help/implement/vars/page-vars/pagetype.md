@@ -1,14 +1,14 @@
 ---
 title: pageType
 description: 确定当前页面是否为 404 错误。
+exl-id: e61ef82d-b583-4230-b904-5ea3584910be
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '135'
 ht-degree: 100%
 
 ---
-
 
 # pageType
 
