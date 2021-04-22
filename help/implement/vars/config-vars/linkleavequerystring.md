@@ -1,14 +1,14 @@
 ---
 title: linkLeaveQueryString
 description: 允许在链接跟踪维度中保留查询字符串。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '289'
 ht-degree: 100%
 
 ---
-
 
 # linkLeaveQueryString
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
-> 此变量不影响链接跟踪外部的维度。它仅影响自定义链接、退出链接和下载链接。
+>此变量不影响链接跟踪外部的维度。它仅影响自定义链接、退出链接和下载链接。
 
 ## Adobe Experience Platform Launch 中的“保留 URL 参数”
 
