@@ -1,14 +1,14 @@
 ---
 title: 系统要求
 description: 为使用 Adobe Analytics 而需满足的系统要求。
+exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
 translation-type: ht
-source-git-commit: 564263be46b8c4fef996381819b4b13abb865b7a
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '108'
 ht-degree: 100%
 
 ---
-
 
 # 系统要求
 
