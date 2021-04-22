@@ -1,14 +1,14 @@
 ---
 title: 重点审查（每个网站发布后）
 description: 按照以下步骤操作以确保您的实施无误并与 KPI 保持一致。
-translation-type: tm+mt
-source-git-commit: 912e5077889a02c3bf0dea9b079d213bb20f9424
-workflow-type: tm+mt
+exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '514'
 ht-degree: 100%
 
 ---
-
 
 # 重点审查（每个网站发布后）
 
