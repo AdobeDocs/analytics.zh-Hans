@@ -1,14 +1,14 @@
 ---
 title: 计算量度总计
 description: 了解计算量度总计在不同 Analytics 工具中的差异
-translation-type: tm+mt
-source-git-commit: bbe2b96960fd5aa6df331a77fdf5b04a769b6e84
-workflow-type: tm+mt
+exl-id: 3e4429de-3e0c-49a5-b32c-3a4d24a29816
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '429'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
-
 
 # 计算量度总计
 
@@ -41,5 +41,4 @@ ht-degree: 94%
 * 当自由格式表中使用了[静态行](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)，并且选择了&#x200B;**[!UICONTROL 显示为当前行的总和]**￼选项（默认）时。
 * 在[圆环可视化图表](/help/analyze/analysis-workspace/visualizations/donut.md)中，这是为了使数字相加总和等于 100%。
 
-有关Analysis Workspace总数的更多信息，请访 [问Workspace总数](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=en#static-row-total)。
-
+有关 Analysis Workspace 中总计的更多信息，请访问 [Workspace 总计](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=zh-Hans#static-row-total)。
