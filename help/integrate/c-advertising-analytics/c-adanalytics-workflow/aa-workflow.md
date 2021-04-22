@@ -1,24 +1,24 @@
 ---
-description: 广告分析工作流程概述。
+description: Advertising Analytics 工作流程概述。
 title: 工作流程概述
-translation-type: tm+mt
-source-git-commit: b92beee43756a3c5ec3902eee4ffaab0bcd43ce9
-workflow-type: tm+mt
+exl-id: 00993c19-1e74-4a97-b16a-967feab13b32
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '164'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
-
 # 工作流程概述
 
-![](assets/step1_icon.png) 将您要将Google/Bing搜索数据视图到您的Experience Cloud组织的任何Adobe Analytics报表包映射到该报表包。
+![](assets/step1_icon.png) 将您要查看 Google/Bing 搜索数据的任意 Adobe Analytics 报表包映射到 Experience Cloud 组织。
 
 请参阅[将报表包映射到组织](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/about-core-services/report-suite-mapping.html)。
 
 ![](assets/step2_icon.png) [为每个报表包启用 Advertising Analytics 报告功能](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 
-Enables [!UICONTROL Advertising Analytics] reporting for Experience-Cloud-enabled report suites.
+为启用了 Experience Cloud 的报表包启用 [!UICONTROL Advertising Analytics] 报告。
 
 ![](assets/step3_icon.png) [设置 Advertising Analytics 帐户](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)
 
@@ -30,7 +30,7 @@ Enables [!UICONTROL Advertising Analytics] reporting for Experience-Cloud-enable
 
 报告功能在以下项目中提供：
 
-* Analysis Workspace: [!UICONTROL Paid Search Performance] template
+* Analysis Workspace：[!UICONTROL 付费搜索性能]模板
 * Reports &amp; Analytics
 * Report Builder
 * Analytics 报表 API
