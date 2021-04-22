@@ -1,14 +1,14 @@
 ---
 title: eVar（推销）
 description: 与单个产品关联的自定义变量。
+exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '355'
 ht-degree: 100%
 
 ---
-
 
 # eVar（推销）
 
