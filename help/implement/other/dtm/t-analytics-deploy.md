@@ -1,17 +1,17 @@
 ---
 description: 创建 Adobe Analytics 工具以便使用 Dynamic Tag Management 进行部署。此过程描述手动（旧版）实施。
-keywords: Dynamic Tag Management
+keywords: 动态标记管理
 solution: Experience Cloud,Analytics,Target
 title: 手动实施 Adobe Analytics（旧版）
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
-translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
-workflow-type: tm+mt
-source-wordcount: '423'
+exl-id: 7a9b3a67-64c1-42c9-94d4-ab86b9dfd038
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '426'
 ht-degree: 100%
 
 ---
-
 
 # 手动实施 Adobe Analytics（旧版）
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 1. 将 Analytics 工具添加到该属性：
    1. 在 **[!UICONTROL Web 属性]**&#x200B;选项卡中，单击该属性。
    1. 在&#x200B;**[!UICONTROL 概述]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 添加工具]**。
-   1. 从&#x200B;**[!UICONTROL 工具类型]**&#x200B;菜单中，选择 **[!UICONTROL Adobe Analytics]**。
+   1. 从 **[!UICONTROL 工具类型]** 菜单中，选择 **[!UICONTROL Adobe Analytics]**。
 
       ![](assets/dtm-add-analytics-tool.png)
 
@@ -66,4 +66,3 @@ ht-degree: 100%
    >[!NOTE]
    >
    >[!UICONTROL Adobe Analytics] 页面中的设置（“常规”、“Cookie”等）会覆盖 `s_code` 中的设置。如果这些设置存在于您的 `s_code` 中，则无需在此重复设置它们。
-
