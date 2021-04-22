@@ -1,14 +1,14 @@
 ---
 title: 购物车加货
 description: 访客将产品添加到购物车的点击次数。
+exl-id: 0617b4c4-6425-4425-b6f7-efadbd6f58b2
 translation-type: ht
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '79'
 ht-degree: 100%
 
 ---
-
 
 # 购物车加货
 
