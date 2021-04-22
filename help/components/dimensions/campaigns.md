@@ -1,14 +1,14 @@
 ---
 title: 促销活动
 description: 消除歧义页面。
+exl-id: 554c6f08-fcc4-4af9-8fef-325fd17f6997
 translation-type: ht
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '37'
 ht-degree: 100%
 
 ---
-
 
 # 促销活动
 
