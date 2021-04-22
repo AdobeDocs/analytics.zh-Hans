@@ -1,14 +1,14 @@
 ---
 title: 将 Launch 数据元素映射到 Analytics 变量
 description: 将数据元素分配给 Analytics 变量，以便在 Analysis Workspace 中可以将这些变量用作维度。
+exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '448'
 ht-degree: 100%
 
 ---
-
 
 # 将 Launch 数据元素映射到 Analytics 变量
 
