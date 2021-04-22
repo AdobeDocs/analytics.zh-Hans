@@ -1,17 +1,17 @@
 ---
 description: 用于在 Adobe Analytics 中部署动态标签管理的“Cookie”全局设置的字段描述。
-keywords: Dynamic Tag Management;cookies;visitor id;visitor namespace;domain periods;fp domain periods;transaction id;cookie lifetime
+keywords: Dynamic Tag Management;Cookie;访客 ID;访客命名空间;域名句点;FP 域名句点;交易 ID;Cookie 生命周期
 solution: Experience Cloud,Analytics
 title: Cookie
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
-translation-type: tm+mt
-source-git-commit: 1ff9c892670e7b120bf727e556ff70f76c6751be
-workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 80%
+exl-id: 37e707b0-c42e-4226-82b1-0b63cbff46fb
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '189'
+ht-degree: 100%
 
 ---
-
 
 # Cookie
 
@@ -41,7 +41,7 @@ ht-degree: 80%
   </tr> 
   <tr> 
    <td colname="col1"> FP 域名句点 </td> 
-   <td colname="col2"> <p>The <span class="term"> fpCookieDomainPeriods</span> variable is for cookies set by JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party <span class="filepath"> adobedc.net</span> domain, or the legacy (but still valid) <span class="filepath"> 2o7.net</span> or <span class="filepath"> omtrdc.net</span> domains. </p> <p>请参阅 <a href="/help/implement/vars/config-vars/fpcookiedomainperiods.md"  >s.fpCookieDomainPeriods</a>。 </p> </td> 
+   <td colname="col2"> <p> <span class="term"> fpCookieDomainPeriods</span> 变量是 JavaScript 设置的 Cookie（<code> s_sq</code>、<code> s_cc</code>、插件），它本身是第一方 Cookie，即使您的实施使用第三方 <span class="filepath">adobedc.net</span> 域或者旧版（但仍有效）<span class="filepath">2o7.net</span> 或 <span class="filepath">omtrdc.net</span> 域。 </p> <p>请参阅 <a href="/help/implement/vars/config-vars/fpcookiedomainperiods.md"  >s.fpCookieDomainPeriods</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 交易 ID </td> 
@@ -53,4 +53,3 @@ ht-degree: 80%
   </tr> 
  </tbody> 
 </table>
-
