@@ -1,14 +1,14 @@
 ---
 title: 单次存取
 description: 维度项目在访问中未更改的次数。
+exl-id: 973ce835-9d6f-4ead-90c9-0b80aac82cc0
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '339'
 ht-degree: 100%
 
 ---
-
 
 # 单次存取
 
