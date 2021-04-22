@@ -1,14 +1,14 @@
 ---
 title: 在 Analysis Workspace 中创建基本报表
 description: 了解如何在 Analysis Workspace 中以某种格式创建基本报表，适用于熟悉 Google Analytics 等第三方工具的用户。
-translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
-workflow-type: tm+mt
+exl-id: 513da3f1-ad24-4d5b-bc35-dbcd3694cbdf
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '854'
 ht-degree: 100%
 
 ---
-
 
 # 在 Analysis Workspace 中为 Google Analytics 用户创建基本报表
 
@@ -19,7 +19,7 @@ Analysis Workspace（Adobe Analytics 中的主要功能之一）为用户提供�
 
 由于 Analysis Workspace 的工作方式比预制报表更像画布，因此从 Google Analytics 重新创建报表只需使用正确的可视化和组件即可。
 
-## Workspace 中使用的关键术语
+## 工作区中使用的关键术语
 
 * **面板**&#x200B;是工作区的拱形构件块。几乎所有情况下，都会使用“自由格式”面板。
 * **可视化**&#x200B;构成了所有自由格式面板。其目的是以不同格式表示数据。大多数情况下，该格式是表格，但有些时候可能是圆环图或折线图等。Google Analytics 中的许多报表由两个与可视化相当的功能构成：折线图和自由格式表。
@@ -29,7 +29,7 @@ Analysis Workspace（Adobe Analytics 中的主要功能之一）为用户提供�
    * **区段**&#x200B;是数据的子集，其行为与 Google Analytics 中的区段类似。允许您制作自定义过滤器，使您能够专注于数据的特定部分。
    * **日期范围**&#x200B;允许您按事件发生时间组织数据。日期范围是长期观察趋势的支柱，通常与量度结合使用。
 
-## 在 Workspace 中创建基本报表
+## 在工作区中创建基本报表
 
 通过将正确的组件拖动到工作区画布上，创建“所有页面”报表（与 Google Analytics 中的报表类似）。
 
@@ -45,7 +45,7 @@ Analysis Workspace（Adobe Analytics 中的主要功能之一）为用户提供�
 
    ![新建量度](/help/technotes/ga-to-aa/assets/new_metric.png)
 
-## 以 Workspace 中的预建报表模板开始
+## 以工作区中的预建报表模板开始
 
 通过访问项目模板创建“内容使用情况”模板（与 Google Analytics 中的“所有页面”报表类似）。
 
@@ -59,7 +59,7 @@ Analysis Workspace（Adobe Analytics 中的主要功能之一）为用户提供�
 
 由于 Analysis Workspace 是一款报表工具，因此不会对数据收集产生任何影响。您可以不加选择地将组件拖到项目中来查看具体效果，这不会产生任何影响。将不同的维度和量度组合拖动到工作区项目中，可查看相应的效果。
 
-如果意外地将无效组件拖动到工作区项目，或者希望返回到上一个步骤，请按 Ctrl + Z (Windows) 或 cmd + Z (Mac) 以撤消上一个操作。此外，您还可以通过单击左上角菜单中的&#x200B;*[!UICONTROL 项目]>[!UICONTROL 新建]*&#x200B;来重头开始创建。
+如果意外地将无效组件拖动到工作区项目，或者希望返回到上一个步骤，请按 Ctrl + Z (Windows) 或 cmd + Z (Mac) 以撤消上一个操作。此外，您还可以通过单击左上角菜单中的&#x200B;*[!UICONTROL 项目] > [!UICONTROL 新建]*&#x200B;来重头开始创建。
 
 Adobe 在 Analysis Workspace 的右键单击上下文菜单中提供了许多功能。大多数可视化和组件都可以通过右键单击来获取更详细的分析和交互。您可以在工作区中右键单击组件以查看可用选项。
 
