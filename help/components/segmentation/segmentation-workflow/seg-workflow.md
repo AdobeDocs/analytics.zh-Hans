@@ -1,7 +1,7 @@
 ---
 description: 描述了使用区段生成器创建并通过区段管理器管理的区段的建议工作流程。
 title: 分段工作流程概述
-feature: Segmentation
+feature: 区段划分
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
 translation-type: tm+mt
