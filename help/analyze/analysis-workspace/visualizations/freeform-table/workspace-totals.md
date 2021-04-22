@@ -1,16 +1,16 @@
 ---
 description: 工作区总计的计算方式。
 title: 工作区总计
-feature: Freeform Tables
+feature: 自由格式表
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 99%
+exl-id: 883c3e44-4139-46a1-a261-e11841312465
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '516'
+ht-degree: 100%
 
 ---
-
 
 # 工作区总计
 
@@ -21,13 +21,13 @@ ht-degree: 99%
 
 ![](assets/total-row.png)
 
-## 显示总计设置  {#display-total}
+## 显示总计设置 {#display-total}
 
 在&#x200B;**[!UICONTROL 列设置]**&#x200B;下，有&#x200B;**[!UICONTROL 显示总数]**&#x200B;和&#x200B;**[!UICONTROL 显示总计]**&#x200B;选项。如果未选中这些设置，则将从表中删除总计。当总计不合理（例如，在某些[计算量度](https://docs.adobe.com/content/help/zh-Hans/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html)场景中）时，可能需要此操作。
 
 ![](assets/column-settings-total.png)
 
-## 静态行总计设置  {#static-row-total}
+## 静态行总计设置 {#static-row-total}
 
 [静态行](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html)总计的行为方式不尽想同，可采用&#x200B;**[!UICONTROL 行设置]**&#x200B;来进行控制。
 
@@ -45,4 +45,3 @@ ht-degree: 99%
 | 将自定义表过滤器应用于自由格式表后，我的所有计算量度和条件格式是否都将过滤器考虑在内？ | 当前不是。将计入&#x200B;**[!UICONTROL 包括未指定（无）]**，但自定义表过滤器不会影响以下内容：<ul><li>条件格式使用的列最大/最小范围将分析所有数据。</li><li>利用&#x200B;**[!UICONTROL 总计]**&#x200B;量度类型的计算量度。</li><li>使用函数计算自由格式表中各行的计算度量 - 即，列总和、列最大值、列最小值、计数、平均值、中间值、百分位数、四分位数、行计数、标准偏差、方差、累积、累积平均值、回归变量、T 分数、T 检验、Z 分数、Z 检验。</li></ul> |
 | 在“计算量度”中，**[!UICONTROL 总计]**&#x200B;量度类型反映什么？ | **[!UICONTROL 总计]**&#x200B;仍就是指&#x200B;**[!UICONTROL 总计]**，并未反映应用于表或&#x200B;**[!UICONTROL 表总计]**&#x200B;的过滤器。 |
 | 从自由格式表复制和粘贴数据或通过 CSV 下载数据时，显示的总计是多少？ | 总行将仅反映&#x200B;**[!UICONTROL 表总计]**，并遵循列&#x200B;**[!UICONTROL 显示总计]**&#x200B;设置。 |
-
