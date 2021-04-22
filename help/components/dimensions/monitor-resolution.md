@@ -1,14 +1,14 @@
 ---
 title: 监视器分辨率
 description: 访客的监视器分辨率（以像素为单位）。
+exl-id: 6bae65eb-4546-4d07-877d-6e257fbe6cfa
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '239'
 ht-degree: 100%
 
 ---
-
 
 # 监视器分辨率
 
