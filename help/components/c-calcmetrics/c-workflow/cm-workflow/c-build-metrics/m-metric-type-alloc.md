@@ -2,14 +2,14 @@
 description: '了解 '
 title: 指标类型和归因
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
+exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '908'
 ht-degree: 100%
 
 ---
-
 
 # 指标类型和归因
 
@@ -33,6 +33,7 @@ ht-degree: 100%
 >* 有关支持的非默认归因模型和回顾窗口的完整列表，请参阅[归因 IQ](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) 文档。
 >* “营销渠道最近联系”和“营销渠道首次联系”分配模型将分别迁移至新的“最近联系”和“首次联系”归因模型（注：“营销渠道”并不会被弃用 - 弃用的只有此处所述出现在计算指标中的这两个分配模型）。
 >* 此外，我们还将修正线性分配的计算方式。对于通过“线性”分配模型使用计算指标的客户，报表可能会稍有变化，以反映修正后的新归因模型。对计算指标的此更改将反映在 Analysis Workspace、Reports &amp; Analytics、Reporting API 和 Report Builder 中。有关更多信息，请参阅下面的&#x200B;**线性分配工作原理（自 2018 年 7 月 19 日起）**。
+
 >
 
 
@@ -82,4 +83,3 @@ ht-degree: 100%
 | 促销活动 B | $2.50 | $2.50 | $2.50 |
 | 促销活动 C | $2.50 | $2.50 | $2.50 |
 | 合计 | $10.00 | $10.00 | $10.00 |
-
