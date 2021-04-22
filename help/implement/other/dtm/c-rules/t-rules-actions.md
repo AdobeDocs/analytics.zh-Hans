@@ -1,17 +1,17 @@
 ---
 description: 设置希望条件要触发的操作。
-keywords: Dynamic Tag Management;rule;create rule;new rule;javascript/third party tags;set up actions for condition;add new script;non-sequential javascript;sequential javascript;non-sequential html
+keywords: Dynamic Tag Management;规则;创建规则;新规则;Javascript/第三方标记;设置条件对应的操作;添加新脚本;非连续 Javascript;连续 Javascript;非连续 HTML
 solution: Experience Cloud,Analytics,Target
 title: 设置条件要触发的操作
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
-translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
-workflow-type: tm+mt
-source-wordcount: '231'
+exl-id: e88cf3a7-3de3-45e7-b3af-44795864f36a
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '257'
 ht-degree: 100%
 
 ---
-
 
 # 设置条件要触发的操作
 
@@ -41,4 +41,3 @@ ht-degree: 100%
 1. 指定您希望脚本如何触发，并将所需的内容粘贴到文本区域中。![](assets/scripts-actions3.png)
 
 1. 单击&#x200B;**[!UICONTROL 保存代码]**，脚本随即将会添加到规则的队列中。![](assets/scripts-actions4.png)
-
