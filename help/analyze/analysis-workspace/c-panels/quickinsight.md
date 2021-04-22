@@ -1,16 +1,16 @@
 ---
 description: 快速分析是一款面向新工作区用户的工具，可指导用户构建数据表和可视化图表
 title: 快速分析面板
-feature: Panels
+feature: 面板
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '1052'
-ht-degree: 99%
+exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '1049'
+ht-degree: 100%
 
 ---
-
 
 # 快速分析面板
 
@@ -107,4 +107,3 @@ ht-degree: 99%
 ![](assets/qibuilder8.png)
 
 否则，直接构建会导致此表如传统的自由格式表那样，不含适用于新用户的有用功能。
-
