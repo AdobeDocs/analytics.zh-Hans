@@ -1,14 +1,14 @@
 ---
 title: 旧版 Adobe Experience Cloud 调试器
 description: 安装旧版 Adobe Experience Cloud 调试器。此调试器可检查 Analytics、Target、Advertising Cloud、Identity Service、DTM 和 Launch 的标签。
+exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '690'
 ht-degree: 100%
 
 ---
-
 
 # 旧版 Adobe Experience Cloud 调试器
 
