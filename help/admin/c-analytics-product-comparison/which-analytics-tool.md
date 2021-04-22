@@ -2,14 +2,14 @@
 description: 本帮助页面包含每个 Adobe Analytics 工具的推荐使用案例。应该按照工具的列出顺序来考虑使用哪个工具。如果某个工具无法满足需求，请考虑切换到下一个工具。
 title: 我应该使用哪种 Adobe Analytics 工具？
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
+exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 translation-type: ht
-source-git-commit: f2db5f611952ee315c84f925d038c539da110e38
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1162'
 ht-degree: 100%
 
 ---
-
 
 # 我应该使用哪种 Adobe Analytics 工具？
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 * 用于访问有关“视频时段”和“观看者流失率”的独特的视频可视化图表。
 * 用于在计划报表中使用“发布列表”功能。
 
-**[Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)** 的使用说明：
+**[Data Workbench](https://docs.adobe.com/content/help/zh-Hans/data-workbench/using/home.html)** 的使用说明：
 
 * 最灵活的 Analytics 工具选项（针对访客级别和点击级别分析）。
 * 用于创建从 CRM 到 POS 和 Web 的在线和离线交互的多渠道数据集。
