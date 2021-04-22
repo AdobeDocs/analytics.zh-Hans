@@ -1,13 +1,13 @@
 ---
 description: 有关数据馈送的常见问题解答
-keywords: 数据馈送；作业；预列；后列；区分大小写
+keywords: 数据馈送;作业;前处理列;后处理列;区分大小写
 title: 数据馈送常见问题解答
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 translation-type: tm+mt
 source-git-commit: c6d4095fdf86be52c7921aed84b9229ac3b27f82
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 58%
+ht-degree: 77%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 58%
 
 数据馈送中不包含按 [Admin Console 机器人规则](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/bot-removal/bot-removal.html)过滤的机器人。
 
-## 为什么在`event_list`或`post_event_list`数据馈送列中看到多个`000`值？
+## 为什么在 `event_list` 或 `post_event_list` 数据馈送列中看到了多个 `000` 值？
 
-某些电子表格编辑器（尤其是Microsoft Excel）会自动舍入大数字。 `event_list`列包含许多逗号分隔的数字，有时会导致Excel将其视为大数字。 它将最后几位数字舍入为`000`。
+一些电子表格编辑器，特别是 Microsoft Excel，会自动舍入非常大的数字。`event_list` 列包含许多逗号分隔的数字，有时候会导致 Excel 将其视为非常大的数字。它会将后几位舍入为 `000`。
 
-Adobe建议不要在Microsoft Excel中自动打开`hit_data.tsv`文件。 请改用Excel的“导入数据”对话框，并确保所有字段都被视为文本。
+Adobe 建议不要自动在 Microsoft Excel 中打开 `hit_data.tsv` 文件。而是使用 Excel 的“导入数据”对话框并确保将所有字段作为文本来处理。
 
 ## 为什么无法从超过7天的数据中提取“每小时”文件？
 
