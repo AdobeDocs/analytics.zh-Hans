@@ -1,14 +1,14 @@
 ---
 title: Adobe Analytics 中的行为报表
 description: 了解如何在 Adobe Analytics 中创建行为报表
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: ea441afa-e595-4ffa-b446-d67e87f8a7c9
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '803'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # 行为报表
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 可以使用“流量”可视化重新创建行为流量报表。
 
 1. 单击左侧的“可视化”图标，然后将“流量”可视化拖到自由格式表上方的工作区
-2. 找到&#x200B;**页面**&#x200B;维度，然后单击箭头图标以显示页面值。尺寸项呈黄色。
+2. 找到&#x200B;**页面**&#x200B;维度，然后单击箭头图标以显示页面值。维度项为黄色。
 3. 找到要开始使用的所需页面值，并将其拖动到中心标有“维度或项目”的位置
 4. 此流量报表是交互式的。单击任意值可将流量展开到后续或之前的页面。使用右键单击菜单可展开或折叠列。此外，还可以在同一流量报表中使用不同的维度。
 
@@ -36,7 +36,7 @@ ht-degree: 99%
 
 作为替代方法，Adobe 提供了若干个名为模板的预创建工作区。“内容使用情况 (Web)”模板可向所有页面报表提供类似的值。
 
-1. 单击&#x200B;*[!UICONTROL 项目]>[!UICONTROL 新建]*，此时将打开一个包含项目选项的模式窗口。
+1. 单击&#x200B;*[!UICONTROL 项目] > [!UICONTROL 新建]*，此时将打开一个包含项目选项的模式窗口。
 2. 单击“内容使用情况 (Web)”模板，然后单击“创建”。
 
 ## 网站内容 - 内容明细
