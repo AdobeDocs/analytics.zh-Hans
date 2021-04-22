@@ -2,14 +2,14 @@
 description: 计算指标权限在管理员级别的用户和非管理员用户之间有所不同。
 title: 计算指标：基于角色的权限
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
+exl-id: 018d9ef5-5a6f-4ebc-a241-c1291ba6b561
 translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '256'
 ht-degree: 100%
 
 ---
-
 
 # 计算指标：基于角色的权限
 
@@ -31,7 +31,7 @@ ht-degree: 100%
    <td colname="col1"> <b>管理员级别的用户</b> </td> 
    <td colname="col02"> 管理员可以创建计算指标，也可以通过创建<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/admin/user-product-management/user-groups/groups.html"  >组</a>来限制用户创建计算指标的权限。 </td> 
    <td colname="col2"> 可与整个公司、用户组和个人用户进行共享。 </td> 
-   <td colname="col3"> <span class="keyword">Reports &amp; Analytics</span>：可查看/编辑/删除/等等自身和其他用户的计算指标。 <p> <span class="keyword">Report Builder</span>：可查看/编辑/删除/等等自身的计算指标和与他共享的计算指标。 </p> </td> 
+   <td colname="col3"> <span class="keyword">Reports &amp; Analytics</span>：可以对他们自己以及其他用户的计算量度执行查看/编辑/删除等操作。 <p> <span class="keyword">Report Builder</span>：可查看/编辑/删除/等等自身的计算指标和与他共享的计算指标。 </p> </td> 
    <td colname="col4"> 可以批准计算指标作为规范。 </td> 
    <td colname="col5"> 可以在整个组织内应用任何计算指标。 </td> 
   </tr> 
@@ -45,4 +45,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
