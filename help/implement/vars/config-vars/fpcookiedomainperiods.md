@@ -1,14 +1,14 @@
 ---
 title: cookieDomainPeriods
 description: 帮助 AppMeasurement 了解当您的域的后缀中有句点时，应使用哪个域来存储 Cookie。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: e994a188-1dab-4bf0-912b-cd2f6a1032e0
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '262'
 ht-degree: 100%
 
 ---
-
 
 # fpCookieDomainPeriods
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> 此变量不考虑子域。例如，不要在示例 URL `store.toys.example.com` 上设置 `fpCookieDomainPeriods`。默认情况下，AppMeasurement 允许将 Cookie 存储在 `example.com` 上，甚至存储在具有许多子域的 URL 上。
+>此变量不考虑子域。例如，不要在示例 URL `store.toys.example.com` 上设置 `fpCookieDomainPeriods`。默认情况下，AppMeasurement 允许将 Cookie 存储在 `example.com` 上，甚至存储在具有许多子域的 URL 上。
 
 ## Adobe Experience Platform Launch 中的“第一方域名段”
 
