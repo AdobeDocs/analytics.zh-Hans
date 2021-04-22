@@ -1,16 +1,16 @@
 ---
 description: 有关 Adobe Analytics 所收集数据和其他隐私注意事项的概述。
-keywords: privacy
+keywords: 隐私
 title: 隐私概述
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
+exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
 translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
-source-wordcount: '843'
+source-wordcount: '844'
 ht-degree: 100%
 
 ---
-
 
 # 隐私概述
 
