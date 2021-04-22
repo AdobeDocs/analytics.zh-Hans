@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 78%
 
 通过访客迁移可以在更改数据收集域时保留访客识别 Cookie。数据收集域可能由于以下原因发生更改：
 
-* 从`2o7.net`移动到`adobedc.net`。
+* 从 `2o7.net` 迁移到 `adobedc.net`。
 
-* 您正在实施[Experience Cloud访客ID服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)，并且正在从CNAME/第一方数据收集域移动到`adobedc.net`、`2o7.net`或`omtrdc.net`
+* 您在实施 [Experience Cloud 访客 ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html) 并从 CNAME/第一方数据收集域迁移到 `adobedc.net`、`2o7.net` 或 `omtrdc.net`
 
-* 正在移至cname/第一方数据收集（[第一方Cookie）](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/ec-cookies/cookies-first-party.html)。
+* 从 cname/第一方数据收集迁移（[第一方 Cookie）](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/ec-cookies/cookies-first-party.html)。
 
 * 在 CNAME 之间转移（更改域）。
 
@@ -51,11 +51,11 @@ ht-degree: 78%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>在完成配置更改的 6 小时后</b>：更新您的 Analytics JavaScript 代码中的 <code> s.trackingServer</code> 和 <code> s.trackingServerSecure</code> 变量，从而使用新的数据收集服务器。 </p> </td> 
-   <td colname="col3"> <p>进行此更改后，请使用<a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en">Experience Cloud调试器</a>验证Analytics映像请求是否将转到更新的数据收集服务器。 </p> </td> 
+   <td colname="col3"> <p>进行此更改后，使用 <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans">Experience Cloud Debugger</a> 验证 Analytics 图像请求传送到了更新后的数据收集服务器。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>更新 Analytics 代码之后立即执行</b>：测试网站，验证是否会重定向到之前的数据收集域。 </p> </td> 
-   <td colname="col3"> <p>使用  <a href="../implement/validate/packet-monitor.md"> 包监</a> 视器，以验证在您首次访问您的站点时或清除cookie后，您在200(OK)HTTP状态代码之前看到两个302（重定向）HTTP状态代码。如果这些重定向中有任何一个出现失败，请立即联系客户关怀，确保迁移配置正确。 </p> </td> 
+   <td colname="col3"> <p>使用<a href="../implement/validate/packet-monitor.md">数据包监视器</a> 验证在您首次或者清除 Cookie 之后访问网站时，在 200 (OK) HTTP 状态代码之前看到了两个 302（重定向）HTTP 状态代码。如果这些重定向中有任何一个出现失败，请立即联系客户关怀，确保迁移配置正确。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>整个迁移期间</b>：保持前一个主机名的 DNS 记录的活动状态。 </p> </td> 
