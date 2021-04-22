@@ -1,14 +1,14 @@
 ---
 title: 最近联系渠道详细信息
 description: 访客参与到期时间内最近的那个营销渠道的详细信息。
+exl-id: def03267-f3e5-4772-a707-5678c45eba6d
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '313'
 ht-degree: 100%
 
 ---
-
 
 # 最近联系渠道详细信息
 
