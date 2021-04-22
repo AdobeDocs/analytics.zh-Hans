@@ -1,14 +1,14 @@
 ---
 title: pageUrl
 description: 覆盖网站上自动收集的页面 URL。
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '272'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
-
 
 # pageUrl
 
@@ -16,7 +16,7 @@ AppMeasurement 会在每次点击时自动收集页面 URL。如果要覆盖由 
 
 >[!NOTE]
 >
->此变量不是 Analysis Workspace 中的可用维度。它只能在 Data Warehouse 和数据馈送中使用。此外，Adobe数据收集服务器会从所有链接跟踪图 [像请求中](/help/implement/vars/functions/tl-method.md) 去除此维。 如果要将页面URL用作Analysis Workspace的维，或希望在链接跟踪点击中使用此维，请考虑在每次点击 `pageURL` 时将变 [量传](evar.md) 递到eVar。
+>此变量不是 Analysis Workspace 中的可用维度。它只能在 Data Warehouse 和数据馈送中使用。此外，Adobe 数据收集服务器从所有[链接跟踪](/help/implement/vars/functions/tl-method.md)图像请求中剥离此维度。如果您要在 Analysis Workspace 中使用页面 URL 作为维度，或者希望在链接跟踪点击中使用此维度，请考虑在每次点击中将 `pageURL` 变量传递到 [eVar](evar.md)。
 
 ## Adobe Experience Platform Launch 中的页面 URL
 
@@ -46,7 +46,7 @@ s.pageURL = "https://example.com";
 s.eVar1 = window.location.hostname + window.location.pathname;
 ```
 
-如果使用数 `digitalData` 据 [层](../../prepare/data-layer.md):
+如果使用`digitalData` [数据层](../../prepare/data-layer.md)：
 
 ```js
 s.pageURL = digitalData.page.pageInfo.destinationURL;
