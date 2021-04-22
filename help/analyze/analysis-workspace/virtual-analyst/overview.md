@@ -1,22 +1,22 @@
 ---
 title: Virtual Analyst
 description: 了解 Adobe Analytics 中的哪些功能有助于发挥 Virtual Analyst 的作用。
-feature: AI Tools
+feature: AI 工具
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 95%
+exl-id: ae4c79a4-d2eb-4383-92d3-fa5591135c73
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '117'
+ht-degree: 100%
 
 ---
 
-
-# 虚拟分析师
+# Virtual Analyst
 
 Virtual Analyst 是 Adobe Analytics 中的一组功能集，它通过运用预测算法和机器学习技术可洞察影响业务的异常情况。它使您能够自动执行最常见、最昂贵的数据科学工作流程，以识别导致数据异常行为的原因。
 
-## 功能  {#features}
+## 功能 {#features}
 
 Virtual Analyst 具有以下功能：
 
