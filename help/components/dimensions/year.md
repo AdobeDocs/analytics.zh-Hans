@@ -1,14 +1,14 @@
 ---
 title: 年
 description: 量度出现的年份。
+exl-id: 872fb659-fb19-40ac-b371-e89c5a5d0274
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '84'
 ht-degree: 100%
 
 ---
-
 
 # 年
 
