@@ -1,36 +1,36 @@
 ---
-description: 允许您将用户定义的文本添加至您的工作区。
+description: 允许您将用户定义的文本添加至您的 Workspace。
 title: 文本
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
-feature: Visualizations
+feature: 可视化图表
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 7%
+exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '169'
+ht-degree: 100%
 
 ---
 
-
 # 文本
 
-您可以使用文本可视化或面板/可视化描述（右键单击标题> **[!UICONTROL 编辑描述]**），将用户定义的文本添加到您的Workspace项目。 您还可以更改文本的格式、添加超链接和添加图像。
+您可使用文本可视化图表或面板/可视化图表描述（右键单击标题 > **[!UICONTROL 编辑描述]**），将用户定义的文本添加至 Workspace 项目。您还可以更改文本的格式、添加超链接以及添加图像。
 
-## 调整格式{#format}
+## 调整格式 {#format}
 
-编辑文本框或说明时，您可以调整所选文本的字体大小（标题级别）、颜色、样式（粗体、斜体、下划线）和对齐方式。 您还可以添加项目符号和编号列表。
+编辑文本框或描述时，您可以调整字体大小（标题级别）、样式（粗体、斜体、下划线）以及对齐所选文本。还可以添加项目符号和编号列表。
 
 ![](assets/format.png)
 
 ## 添加超链接 {#hyperlinks}
 
-要添加超链接，请高亮显示文本，然后单击菜单中的超链接图标。 超链接可链接到外部网站、文档页、[Workspace项目/面板/可视化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html)等，以进一步帮助您的项目收件人。
+要添加超链接，请突出显示文本并在菜单中单击超链接图标。超链接可以链接到外部网站、文档页面、[Workspace 项目/面板/可视化图表](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) 等等，以进一步协助您项目的收件人。
 
 ![](assets/hyperlink.png)
 
-## 添加图像{#images}
+## 添加图像 {#images}
 
-要向项目中添加图像，请单击菜单中的图像图标，然后插入公共图像URL。 图像URL必须以`https`开头，并且格式为`.png`、`.jpeg`、`.jpg`或`.gif`。 支持静态和动画图像。
+要将图像添加到项目，请在菜单中单击图像图标，然后插入公共图像 URL。该图像 URL 必须可公开访问、以 `https` 开头并且格式为 `.png`、`.jpeg`、`.jpg` 或 `.gif`。支持静态图像和动画图像。
 
 ![](assets/image.png)
