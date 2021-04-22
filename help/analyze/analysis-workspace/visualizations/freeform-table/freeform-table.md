@@ -1,16 +1,16 @@
 ---
 title: 自由格式表
 description: 自由格式表是在 Analysis Workspace 中进行数据分析的基础
-feature: Freeform Tables
+feature: 自由格式表
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 99%
+exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '533'
+ht-degree: 100%
 
 ---
-
 
 # 自由格式表
 
@@ -43,7 +43,7 @@ ht-degree: 99%
 * **列**
    * 可以将组件堆放在列中，以创建分段量度、跨标签分析等。
    * 可以在[列设置](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)下调整每列的视图。
-   * 可通过[右键单击菜单](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-right-click-menu.html)执行多个操作。根据您单击表标题、行或列的情况，菜单可提供不同的操作。
+   * 可通过[右键单击菜单](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-right-click-menu.html)执行多个操作。根据您单击表标题、行或列的情况，菜单可提供不同的操作。
 
 ## 导出自由格式表数据
 
