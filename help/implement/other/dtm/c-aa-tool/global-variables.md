@@ -1,17 +1,17 @@
 ---
 description: 使用动态标签管理部署 Adobe Analytics 时的字段描述和变量相关信息。
-keywords: Dynamic Tag Management;global variables;server variable;evar;props;dynamic variable prefix;dynamic variable
+keywords: Dynamic Tag Management;全局变量;服务器变量;eVar;prop;动态变量前缀;动态变量
 solution: Experience Cloud,Analytics
 title: 全局变量
 uuid: d759320a-96ee-4073-b5fd-5257b7033003
-translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
-workflow-type: tm+mt
-source-wordcount: '136'
+exl-id: e78e9ff4-bfce-4fa0-8d53-fd33ed3052fd
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '150'
 ht-degree: 100%
 
 ---
-
 
 # 全局变量
 
