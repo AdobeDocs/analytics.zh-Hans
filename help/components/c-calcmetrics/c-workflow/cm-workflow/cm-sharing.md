@@ -2,11 +2,14 @@
 description: 根据您的权限，您可以与整个组织、群组或个人用户共享量度。
 title: 共享计算量度
 uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '275'
+ht-degree: 100%
 
 ---
-
 
 # 共享计算量度
 
@@ -38,4 +41,3 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    “共享”图标显示在量度旁边：![](assets/share_icon.png)
 
 1. 您可以过滤与您共享的量度，方法是转到&#x200B;**[!UICONTROL 过滤器]** > **[!UICONTROL 其他过滤器]** > **[!UICONTROL 与我共享]**。
-
