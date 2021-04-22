@@ -2,7 +2,7 @@
 description: 您可以使用浏览器导入（上载）分类数据。此方法仅限将分类数据上载到单个报表包。
 subtopic: Classifications
 title: 浏览器导入
-feature: Admin Tools
+feature: 管理工具
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
 exl-id: 5bef1f6d-9b27-464d-8343-472f300a7437
 translation-type: tm+mt
