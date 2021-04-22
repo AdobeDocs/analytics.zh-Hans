@@ -1,14 +1,14 @@
 ---
 description: 分类用于对值进行分组归类，并按照分组级别进行报告。例如，您可将所有“付费搜索”促销活动归为一个类似于流行音乐术语的类别，并且相对于“实例”（点进次数）等量度，报告该类别的成功以及有关成功事件的转化。
 title: 转化分类
-translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
-workflow-type: tm+mt
+exl-id: b4855000-adf3-4e3b-af36-f4803383126d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '551'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
-
 
 # 转化分类
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 
 >[!WARNING]
 >
->重命名分类可能会导致在分类规则构建器中创建的现 [有规则出现问题](/help/components/classifications/crb/classification-rule-builder.md)。 如果重命名具有分类规则的分类，请确保更正每个规则，使其指向重命名的分类。
+>重命名分类可能会导致在[分类规则生成器](/help/components/classifications/crb/classification-rule-builder.md)中创建的现有规则出现问题。如果您重命名具有分类规则的分类，请确保您更正了每个规则，使其指向重命名后的分类。
 
 ## 转化分类描述
 
