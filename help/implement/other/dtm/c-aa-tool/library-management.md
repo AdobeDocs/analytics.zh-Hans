@@ -1,17 +1,17 @@
 ---
 description: 动态标签管理“库管理”设置中各个字段和选项的描述。
-keywords: library management;page code;load library at;managed by adobe;custom;code hosted;s_code hosted
+keywords: 库管理;页面代码;库加载位置;由 Adobe 管理;自定义;托管代码;托管 s_code
 solution: Experience Cloud
 title: 库管理
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
-translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
-workflow-type: tm+mt
-source-wordcount: '420'
+exl-id: ea662014-0b25-48cc-ac0e-6695514e00fa
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '436'
 ht-degree: 100%
 
 ---
-
 
 # 库管理
 
@@ -53,4 +53,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
