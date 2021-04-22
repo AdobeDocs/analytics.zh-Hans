@@ -2,16 +2,16 @@
 description: 您可以在表格或折线图中查看异常。
 title: 在 Analysis Workspace 中查看异常
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
-feature: AI Tools
+feature: AI 工具
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 98%
+exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '249'
+ht-degree: 100%
 
 ---
-
 
 # 在 Analysis Workspace 中查看异常
 
@@ -45,4 +45,3 @@ ht-degree: 98%
 您可以选择允许置信度间隔缩放图表。只需单击“设置”（齿轮）图标，并选中&#x200B;**[!UICONTROL 允许异常检测来缩放 Y 轴]**。
 
 ![](assets/scale-y-axis.png)
-
