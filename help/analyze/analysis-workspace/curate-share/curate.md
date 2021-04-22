@@ -1,19 +1,19 @@
 ---
 description: “策划”让您可在共享项目前限制组件。
-keywords: Analysis Workspace特选
-title: 组织项目
-feature: Curate and Share
+keywords: Analysis Workspace 策划
+title: 策划项目
+feature: 策划和共享
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 87%
+exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '548'
+ht-degree: 100%
 
 ---
 
-
-# 组织项目
+# 策划项目
 
 “策划”让您可在共享项目前限制组件（维度、量度、区段、日期范围）。当收件人打开项目时，他们将看到您为其策划的有限组件。策划虽然是一个可选步骤，但建议在共享项目前执行此步骤。
 
@@ -59,9 +59,9 @@ ht-degree: 87%
 * 用户的权限级别（管理员或非管理员）
 * 项目角色（所有者/编辑者或非所有者/编辑者）
 * 应用的策划类型（VRS 或项目）
-* 由用户拥有或共享给用户的组件。 拥有/共享组件包括区段、计算量度和日期范围。 它们不包括已实现的组件，如eVar、prop和自定义事件。
+* 由用户拥有或者共享给用户的组件。拥有/共享的组件包括区段、计算量度和日期范围。它们不包括已实施的组件，例如 eVar、prop 和自定义事件。
 
-注意：非管理员视图角色无权访问项目中的左边栏，因此已从下表中忽略它们。
+注意：非管理员视图角色没有对项目中左边栏的访问权限，因此在下表中已忽略。
 
 | 策划类型 | 管理员 | 非管理员项目所有者或编辑角色 | 非管理员重复角色 |
 |---|---|---|---|
