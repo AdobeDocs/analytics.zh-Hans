@@ -1,14 +1,14 @@
 ---
 title: 访问深度
 description: 报告访问深度的基于访问的维度。
+exl-id: 3e9aca08-2255-46ca-9949-77334ee7120e
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '166'
 ht-degree: 100%
 
 ---
-
 
 # 访问深度
 
