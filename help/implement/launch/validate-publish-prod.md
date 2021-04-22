@@ -1,14 +1,14 @@
 ---
 title: 验证开发实施并发布到生产环境
-description: 了解如何使用Adobe Experience Platform Launch将Adobe Analytics部署到您的生产环境。
-translation-type: tm+mt
-source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
-workflow-type: tm+mt
+description: 了解如何使用 Adobe Experience Platform Launch 将 Adobe Analytics 部署到生产环境。
+exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '645'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
-
 
 # 验证开发实施并发布到生产环境
 
@@ -64,7 +64,7 @@ Experience Cloud 调试器是一个 Chrome 插件，可显示页面上存在的�
 
 ## 后续步骤
 
-现在，基本实施已经设置完毕，您在组织中的角色将影响您想要了解的关于哪些途径的更多信息：
+现在，基本实施已设置，您在组织中的角色会影响您所要了解详情的路径：
 
 * [创建解决方案设计文档](../prepare/solution-design.md)：制定有关如何使用自定义变量的计划，然后将其包含在实施中
 * [开始使用 Analysis Workspace](/help/analyze/analysis-workspace/home.md)：通过使用该工具的主要功能，深入研究 Adobe Analytics。
