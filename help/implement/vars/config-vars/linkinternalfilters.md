@@ -1,14 +1,14 @@
 ---
 title: linkInternalFilters
 description: 使用 linkInternalFilters 变量有助于进行自动退出链接跟踪。
-translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
-workflow-type: tm+mt
+exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '340'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
-
 
 # linkInternalFilters
 
@@ -18,7 +18,7 @@ AppMeasurement 提供自动跟踪指向网站外部的链接的功能。如果�
 
 如果同时使用 `linkInternalFilters` 和 `linkExternalFilters`，则点击的链接必须与 `linkExternalFilters` 匹配&#x200B;**且**&#x200B;与 `linkInternalFilters` 不匹配时才能被视为退出链接。如果点击的链接与退出链接和下载链接标准均匹配，则将优先使用下载链接类型。
 
-活动图使用此变量来帮助确定网站内部的链接。 Adobe建议为使用活动映射的实现设置此变量。
+Activity Map 使用此变量帮助确定哪些链接是您网站的内部链接。Adobe 建议为使用 Activity Map 的实施设置此变量。
 
 >[!NOTE]
 >
