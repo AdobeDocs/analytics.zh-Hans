@@ -1,26 +1,26 @@
 ---
 title: visitorNameSpace
 description: 已停用的变量，用于确定 Cookie 域。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '213'
 ht-degree: 100%
 
 ---
 
-
 # visitorNamespace
 
 >[!IMPORTANT]
 >
-> 此变量已停用。请改用 [`trackingServer`](trackingserver.md)。
+>此变量已停用。请改用 [`trackingServer`](trackingserver.md)。
 
 在 Adobe Analytics 的早期版本中，AppMeasurement 使用 `visitorNameSpace` 变量帮助确定访客 Cookie 存储在 `2o7.net` 的哪个子域中。现代浏览器中增加的隐私权惯例使第三方 Cookie 变得不那么可靠。随着 `trackingServer` 和 [`trackingServerSecure`](trackingserversecure.md) 变量的引入，不再需要使用 `visitorNameSpace`。
 
 >[!TIP]
 >
-> Adobe 建议在您的网站上使用第一方 Cookie。第一方 Cookie 不使用此变量。
+>Adobe 建议在您的网站上使用第一方 Cookie。第一方 Cookie 不使用此变量。
 
 ## Adobe Experience Platform Launch 中的“访客命名空间”
 
