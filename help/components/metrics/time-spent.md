@@ -1,14 +1,14 @@
 ---
 title: 在 Adobe Analytics 中如何计算逗留时间
 description: 逗留时间维度和指标的汇总页面。
+exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
 translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1557'
 ht-degree: 100%
 
 ---
-
 
 # 逗留时间概述
 
