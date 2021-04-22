@@ -1,14 +1,14 @@
 ---
 title: 如何在 Advertising Analytics 中设置广告帐户
 description: 让您创建新的广告帐户并将多个帐户映射到多个报表包。
+exl-id: f593c714-e85f-4000-85b2-6294cad81e25
 translation-type: ht
-source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '869'
 ht-degree: 100%
 
 ---
-
 
 # 设置广告帐户
 
@@ -91,4 +91,3 @@ Adobe Analytics 管理员可以创建新的广告帐户，并将多个帐户映�
 >[!NOTE]
 >
 >您可能需要至少等待 24 小时，搜索引擎数据才会开始填充到您的 Analytics 报表中。
-
