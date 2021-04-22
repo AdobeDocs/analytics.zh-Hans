@@ -1,14 +1,14 @@
 ---
 description: 将跟踪数据从第三方应用程序导入到 Analytics 中。
 title: Analytics Data Connectors 快速入门
+exl-id: 2ad117ba-1ef1-4808-a546-de9833dfa49d
 translation-type: ht
-source-git-commit: 6e4c40c7d6c1713f624a9562da3e49a3ee5d67de
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '973'
 ht-degree: 100%
 
 ---
-
 
 # Data Connectors 概述
 
