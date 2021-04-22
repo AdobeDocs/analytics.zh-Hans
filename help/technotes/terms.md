@@ -1,14 +1,14 @@
 ---
 title: Adobe Analytics 中使用的术语
 description: Adobe Analytics 词汇表，用于定义常用术语。
+exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '2458'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics 中使用的术语
 
