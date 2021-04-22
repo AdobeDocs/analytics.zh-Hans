@@ -1,14 +1,14 @@
 ---
 title: 地区
 description: 访客的地理区域。
+exl-id: 95ab4c7e-71e8-490f-88a4-25201331d848
 translation-type: ht
-source-git-commit: fdc77997c8aea07cc7db1d06c5c0c2cd2f2abbd9
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '381'
 ht-degree: 100%
 
 ---
-
 
 # 地区
 
