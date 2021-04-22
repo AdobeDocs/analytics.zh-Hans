@@ -2,16 +2,16 @@
 description: 工作区中的仅查看项目
 keywords: 仅供查看的项目
 title: 仅供查看的项目
-feature: Curate and Share
+feature: 策划和共享
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 97%
+exl-id: 53372247-6902-4c7f-9132-38a1d453186c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '251'
+ht-degree: 100%
 
 ---
-
 
 # 仅供查看的项目
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 * 隐藏的左边栏
 * 报表包
-* 面板日历日期范围。注意：如果要向收件人授予日历控制权，请添加[包含日期范围的下拉过滤器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)。
+* 面板日历日期范围。注意：如果要向收件人授予日历控制权，请添加[包含日期范围的下拉过滤器](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)。
 * 自由格式过滤
 * 自由格式的可见行数
 * 自由格式的行、列或可视化图表设置
