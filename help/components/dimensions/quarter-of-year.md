@@ -1,14 +1,14 @@
 ---
 title: 季度
 description: 季度的数字，不管是哪个年份。
+exl-id: 0de5f916-9cc1-4594-9dfc-68ef831dcc0a
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '130'
 ht-degree: 100%
 
 ---
-
 
 # 季度
 
