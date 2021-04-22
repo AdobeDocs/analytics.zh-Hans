@@ -1,14 +1,14 @@
 ---
 description: 了解如何在 Adobe Analytics 中启用 Adobe Campaign 报告功能
 title: 如何将 Adobe Campaign 报告功能集成到 Adobe Analytics？
+exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 translation-type: ht
-source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '478'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Campaign 报告
 
