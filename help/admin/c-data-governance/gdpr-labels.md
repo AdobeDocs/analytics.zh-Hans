@@ -2,14 +2,14 @@
 description: Adobe Analytics 变量的数据隐私标签示例
 title: Analytics 变量的数据隐私标签
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
+exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
 translation-type: ht
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '3649'
 ht-degree: 100%
 
 ---
-
 
 # Analytics 变量的数据隐私标签
 
@@ -314,7 +314,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
      <li id="li_41CB61F927CB4402AAB4A62E219CD153">自定义流量维度 </li> 
     </ul> </td> 
    <td colname="col2"> <p>所有（分类除外） </p> </td> 
-   <td colname="col3"> <p>所有 </p> </td> 
+   <td colname="col3"> <p>全部 </p> </td> 
    <td colname="col4"> </td> 
   </tr> 
   <tr> 
@@ -324,7 +324,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
   </tr> 
   <tr> 
    <td colname="col1"> <p>转化事件 </p> </td> 
-   <td colname="col2"> <p>所有 </p> </td> 
+   <td colname="col2"> <p>全部 </p> </td> 
    <td colname="col3"> <p>无 / S1 / S2 </p> </td> 
    <td colname="col4"> </td> 
   </tr> 
