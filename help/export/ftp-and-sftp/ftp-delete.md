@@ -3,11 +3,14 @@ description: Adobe FTP 政策会自动禁用连续 90 天保持闲置状态的 F
 keywords: ftp;sftp
 title: 删除 FTP 数据和 FTP 帐户
 uuid: 1cbd3add-3561-492a-9ed4-aedbd3d5b257
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+exl-id: accf2f8d-c22c-4684-ba85-73a286325d0c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '218'
+ht-degree: 100%
 
 ---
-
 
 # 删除 FTP 数据和 FTP 帐户
 
@@ -25,4 +28,3 @@ Adobe 还会永久删除活动帐户中连续 90 天都未被访问的旧数据�
 
 * 在出站数据已被成功传输到您的内部环境之后，从 FTP 系统中删除此数据。Adobe 会识别并删除在 90 天后仍留存在系统中的任何文件。
 * 当不再需要 FTP 帐户时通知 Adobe，以停用并删除它们。
-
