@@ -1,14 +1,14 @@
 ---
 title: 使用 Facebook Instant Articles 实施
 description: 在 Facebook Instant Articles 页面上实施 Adobe Analytics。
-translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
-workflow-type: tm+mt
+exl-id: 2189f70d-32f0-4137-9d53-7acab0f15e6c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '466'
 ht-degree: 100%
 
 ---
-
 
 # 使用 Facebook Instant Articles 实施
 
