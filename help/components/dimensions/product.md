@@ -1,14 +1,14 @@
 ---
 title: 产品
 description: 产品的名称。
+exl-id: 2649c200-4b0a-49a9-8592-9b9af72b91cf
 translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '142'
 ht-degree: 100%
 
 ---
-
 
 # 产品
 
