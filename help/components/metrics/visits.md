@@ -1,14 +1,14 @@
 ---
 title: 访问次数
 description: 表示一系列的页面查看操作。
-translation-type: tm+mt
-source-git-commit: ee9868b53b93c1ffabdd48e83e38d3cafc9a4c2a
-workflow-type: tm+mt
+exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '656'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
-
 
 # 访问次数
 
@@ -56,6 +56,6 @@ ht-degree: 89%
 
 维度上下文中的访问次数（例如，[营销渠道](../dimensions/marketing-channel.md)）显示了在任何时候包含特定维度项目的访问的次数。在同一次访问中，多个维度项目经常存在于不同的点击中。尝试对报告维度项目的访问次数进行求和通常没有意义。
 
-## 访问Data warehouse中的所有访客
+## Data Warehouse 中的“访问数 - 所有访客”
 
-除了“访问”量度之外，还提供Data warehouse中的“访问——所有访客”。 “访问——所有访客”量度与其他Analytics工具中的“访问”量度类似。 data warehouse中的“访问”量度不包括没有永久cookie的访客。 Adobe建议在希望将访问作为指标的Data warehouse请求中使用“访问——所有访客”。
+在 Data Warehouse 中，除了“访问数”量度之外，还有“访问数 - 所有访客”量度。“访问数 - 所有访客”量度相当于其他 Analytics 工具中的“访问数”量度。Data Warehouse 中的 “访问数”量度不包括没有永久性 Cookie 的访客。在需要访问数作为量度的情况下，Adobe 推荐在 Data Warehouse 请求中使用“访问数 - 所有访客”。
