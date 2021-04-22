@@ -1,17 +1,17 @@
 ---
 description: 在动态标签管理中创建数据元素。
-keywords: Dynamic Tag Management;data element;create new data element;name;type;default value;force lowercase value;remember this value for
+keywords: Dynamic Tag Management;数据元素;创建新数据元素;名称;类型;默认值;强制使用小写值;记住此值多久
 solution: Experience Cloud,Analytics,Target
 title: 创建数据元素
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
-translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
-workflow-type: tm+mt
-source-wordcount: '331'
+exl-id: 6831c2a3-226c-4dd1-93c2-221983c07694
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '351'
 ht-degree: 100%
 
 ---
-
 
 # 创建数据元素
 
