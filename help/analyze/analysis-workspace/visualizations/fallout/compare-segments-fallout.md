@@ -3,16 +3,16 @@ description: 您可以在 Analysis Workspace 中从接触点创建区段、添�
 keywords: 流失和分段;流失分析中的区段;比较流失中的区段
 title: 在流失分析中应用区段
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-feature: Visualizations
+feature: 可视化图表
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 99%
+exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '406'
+ht-degree: 100%
 
 ---
-
 
 # 在流失分析中应用区段
 
