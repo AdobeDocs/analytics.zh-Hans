@@ -1,14 +1,14 @@
 ---
 title: 在 Analytics 中使用 XDM 数据
-description: '在 Adobe Analytics 中使用源自 Experience Platform 的 XDM 数据概述 '
-translation-type: tm+mt
-source-git-commit: 01e9a456dece2a7c3f96bb2c6c9625f654a05059
-workflow-type: tm+mt
+description: 在 Adobe Analytics 中使用源自 Experience Platform 的 XDM 数据概述
+exl-id: 6f1282fb-8d4a-4d88-9be0-1c939c22cb92
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
-
 
 # 在 Analytics 中使用 Adobe Experience Platform Edge 数据
 
@@ -25,11 +25,11 @@ Analytics 通过两种方法收集 XDM 数据：
 
 ## 手动映射
 
-[](xdm-manual.md)将 XDM 数据手动映射到 Analytics 依赖于 [Analytics 上下文数据](../vars/page-vars/contextdata.md)变量。这些变量将被放入与适用的架构相对应的 JSON 对象中。通常情况下，开发团队会在实施时添加上下文数据，然后管理员设置[处理规则](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)，将上下文数据应用到指定的报表包。
+[将 XDM 数据手动映射到 Analytics](xdm-manual.md) 依赖于 [Analytics 上下文数据](../vars/page-vars/contextdata.md)变量。这些变量将被放入与适用的架构相对应的 JSON 对象中。通常情况下，开发团队会在实施时添加上下文数据，然后管理员设置[处理规则](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)，将上下文数据应用到指定的报表包。
 
 ## 设置
 
-要设置Analytics以接收XDM数据，请执行以下操作：
+要设置 Analytics 以接收 XDM 数据，请执行以下操作：
 
 1. 安装并[配置](https://docs.adobe.com/content/help/zh-Hans/experience-platform/edge/fundamentals/configuring-the-sdk.html) [Adobe Experience Platform Web SDK](https://docs.adobe.com/content/help/zh-Hans/experience-platform/edge/fundamentals/installing-the-sdk.html)。
 
