@@ -2,14 +2,14 @@
 description: 借助计算量度生成器，任何人都可以创建参与量度。
 title: 参与量度
 uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
+exl-id: bef185d6-72c0-4068-80f8-57261369573f
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '163'
 ht-degree: 100%
 
 ---
-
 
 # 参与量度
 
@@ -33,4 +33,3 @@ ht-degree: 100%
    ![](assets/participation-pages.png)
 
 1. （可选）与组织中的其他用户共享该量度。
-
