@@ -3,14 +3,14 @@ description: 实施 Audience Analytics 时可能遇到的问题的解答。
 solution: Experience Cloud
 title: 常见问题解答
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
+exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1098'
 ht-degree: 100%
 
 ---
-
 
 # 常见问题解答
 
@@ -155,4 +155,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
