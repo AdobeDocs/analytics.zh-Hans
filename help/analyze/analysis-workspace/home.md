@@ -1,16 +1,16 @@
 ---
 title: Analysis Workspace 是什么以及怎样使用它？
 description: Analysis Workspace 是 Adobe Analytics 的首要分析工具。从中可使用面板、表格、可视化和其他组件使数据形象化、策划数据集、共享和安排项目等功能。
-feature: Workspace Basics
+feature: Workspace 基础知识
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '572'
+exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '569'
 ht-degree: 100%
 
 ---
-
 
 # Analysis Workspace 概述
 
@@ -34,7 +34,7 @@ Analysis Workspace 是一款通过浏览器即可使用的灵活工具，可让�
 
 ## 创建新项目 {#new-project}
 
-完成教程后，您就可以开始构建您的第一个项目。**“新项目模式”**&#x200B;提供了多种不同选项来开始您的分析。您可以选择从空白项目或[空白移动记分卡](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/mobapp/curator.html)开始，具体取决于您计划从浏览器还是从 Adobe Analytics 仪表板移动应用程序共享您的分析。
+完成教程后，您就可以开始构建您的第一个项目。**“新项目模式”**&#x200B;提供了多种不同选项来开始您的分析。您可以选择从空白项目或[空白移动记分卡](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/mobapp/curator.html)开始，具体取决于您计划从浏览器还是从 Adobe Analytics 功能板移动应用程序共享您的分析。
 
 ![](assets/create-new-project.png)
 
