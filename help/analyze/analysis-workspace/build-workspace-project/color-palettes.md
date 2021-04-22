@@ -1,16 +1,16 @@
 ---
 description: 如何在 Analysis Workspace 中使用可视化图表调色板
 title: 什么是可视化图表调色板？其工作原理是怎样的？
-feature: Workspace Basics
+feature: Workspace 基础知识
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '219'
+exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '216'
 ht-degree: 100%
 
 ---
-
 
 # 可视化图表调色板
 
@@ -36,4 +36,3 @@ ht-degree: 100%
 
 1. 要指定自己的调色板，请选择预设选项下方的&#x200B;**[!UICONTROL 自定义调色板]**。
 1. 为要使用的颜色指定最多 16 个以逗号分隔的十六进制值（例如，#00a4e4）。例如，如果您只想使用 4 个值，那么系统将在包含更多颜色的可视化图表中自动重复使用这些颜色。
-
