@@ -1,16 +1,16 @@
 ---
 description: 有关使用功能板记分卡的说明。
 title: Adobe Analytics 功能板执行指南
-feature: Analytics Dashboards
+feature: Analytics 功能板
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 99%
+exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '1295'
+ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics 功能板：执行用户快速入门指南
 
@@ -122,7 +122,7 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 
    * 根据点按的时间间隔（**日**、**周**、**月**&#x200B;或&#x200B;**年**），您将看到两个日期范围选项，即当前时间范围或紧随其前的时间范围。点按这两个选项之一，以选择第一个范围。在&#x200B;**[!UICONTROL 比较对象]**&#x200B;列表下，点按其中显示的一个选项，以将此时间段的数据与您选择的第一个日期范围进行比较。点按屏幕右上角的&#x200B;**[!UICONTROL 完成]**。**[!UICONTROL 日期范围]**&#x200B;字段和记分卡图块会更新以显示您选择的新范围中的新比较数据。
 
-7. 要将区段过滤器应用于记分卡，请点按过滤器下拉列表，然后选择由策划人配置的区段。应用程序中的[过滤器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)的工作方式与在 Analytics Workspace 中相同。
+7. 要将区段过滤器应用于记分卡，请点按过滤器下拉列表，然后选择由策划人配置的区段。应用程序中的[过滤器](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)的工作方式与在 Analytics Workspace 中相同。
 
    ![区段过滤器](assets/segment_filter.png)
 
