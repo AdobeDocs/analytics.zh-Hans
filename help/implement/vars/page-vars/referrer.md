@@ -1,14 +1,14 @@
 ---
 title: referrer
 description: 覆盖点击的自动收集的反向链接。
-translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
-workflow-type: tm+mt
+exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '258'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-
 
 # referrer
 
@@ -35,7 +35,7 @@ ht-degree: 95%
 s.referrer = "https://example.com";
 ```
 
-如果使用数 `digitalData` 据 [层](../../prepare/data-layer.md):
+如果使用`digitalData` [数据层](../../prepare/data-layer.md)：
 
 ```js
 s.referrer = digitalData.page.pageInfo.referringURL;
@@ -43,7 +43,7 @@ s.referrer = digitalData.page.pageInfo.referringURL;
 
 >[!CAUTION]
 >
->避免将此变量设置为非 URL 值。请勿删除URL的协议。
+>避免将此变量设置为非 URL 值。请勿剥离 URL 的协议。
 
 ## 示例
 
