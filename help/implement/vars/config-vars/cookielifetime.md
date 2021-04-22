@@ -1,14 +1,14 @@
 ---
 title: cookieLifetime
 description: 覆盖由 AppMeasurement 创建的 Cookie 的到期时间。
-translation-type: tm+mt
-source-git-commit: 7c0d363cc3d0f504d638479b02bf4435491b22fd
-workflow-type: tm+mt
+exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '229'
 ht-degree: 100%
 
 ---
-
 
 # cookieLifetime
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 此变量可影响独特访客计数和归因。设置此变量时请务必小心。
+>此变量可影响独特访客计数和归因。设置此变量时请务必小心。
 
 ## Adobe Experience Platform Launch 中的“Cookie 生命周期”
 
