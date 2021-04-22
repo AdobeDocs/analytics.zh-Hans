@@ -1,14 +1,14 @@
 ---
 title: Adobe Analytics 管理入门指南
 description: 了解如何开始使用 Adobe Analytics、常规角色类型以及如何登录到用户界面。
+exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
 translation-type: ht
-source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '943'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics 管理入门指南
 
