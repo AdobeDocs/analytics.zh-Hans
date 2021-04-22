@@ -1,14 +1,14 @@
 ---
 title: purchaseID
 description: 根据唯一购买标识符删除重复点击。
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # purchaseID
 
@@ -32,7 +32,7 @@ Launch 中没有可使用此变量的专用字段。按照 AppMeasurement 语法
 s.purchaseID = "ABC123";
 ```
 
-如果使用数 `digitalData` 据 [层](../../prepare/data-layer.md):
+如果使用`digitalData` [数据层](../../prepare/data-layer.md)：
 
 ```js
 s.purchaseID = digitalData.transaction.transactionID;
