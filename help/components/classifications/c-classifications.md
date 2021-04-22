@@ -1,20 +1,20 @@
 ---
 title: 分类概述
 description: 自定义维度项目的分组。
+exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
 translation-type: ht
-source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '605'
 ht-degree: 100%
 
 ---
 
-
 # 分类概述
 
 分类是在生成报表时对 Analytics 变量数据进行分类，然后以不同的方式显示数据的方法。
 
-有关 [Analytics 分类](https://video.tv.adobe.com/v/16853/?captions=chi_hans)的视频概述。
+有关 [Analytics 分类](https://video.tv.adobe.com/v/16853/)的视频概述。
 
 **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **[!UICONTROL 编辑设置]** > *`<Traffic or Conversion>`*
 
@@ -63,4 +63,3 @@ Reports &amp; Analytics 包含针对跟踪代码变量的预定义分类，从�
   </tr> 
  </tbody> 
 </table>
-
