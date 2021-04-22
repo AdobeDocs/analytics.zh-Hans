@@ -1,14 +1,14 @@
 ---
 title: Adobe Analytics 中的转化报表
 description: 了解如何在 Adobe Analytics 中使用转化报表。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 315b7dc0-1cd9-4beb-8203-88e205375f84
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '1049'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # 转化报表
 
@@ -30,7 +30,7 @@ ht-degree: 99%
 
 1. 单击左侧的“可视化”图标，然后将“流失”可视化拖到自由格式表上方的工作区
 2. 单击左侧的组件图标，然后找到&#x200B;**页面**&#x200B;维度。
-3. 单击“页面”维旁边的箭头图标以显示页面值。尺寸项呈黄色。
+3. 单击“页面”维旁边的箭头图标以显示页面值。维度项为黄色。
 4. 找到要作为第一个接触点的所需页面，并将其拖动到可视化中标有“添加接触点”的位置。
 5. 通过将页面值拖动到可视化上，继续添加所需接触点。
 
