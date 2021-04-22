@@ -1,14 +1,14 @@
 ---
 title: 外部电子邮件跟踪
 description: 使用 Adobe Analytics 跟踪电子邮件内容。
+exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
 translation-type: ht
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '736'
 ht-degree: 100%
 
 ---
-
 
 # 外部电子邮件跟踪
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 [!DNL Analytics] 可报告以下几个关键量度的电子邮件促销活动分析数据：
 
-| 量度 | 描述 |
+| 指标 | 描述 |
 |---|---|
 | 点进次数 | 显示跟踪到的从电子邮件访问登陆页面的点进次数。 |
 | 购买和/或成功 | 显示由电子邮件带来的购买数。 |
@@ -102,4 +102,3 @@ ht-degree: 100%
       ```
 
       在启用了[!UICONTROL 自定义分析]变量的路径功能之后，您可以使用[!UICONTROL 路径]报表（如[!UICONTROL 下一页面流量]或[!UICONTROL 流失]）来查看访客从登陆页面开始的导航情况。
-
