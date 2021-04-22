@@ -1,14 +1,14 @@
 ---
 title: 比较 Adobe Analytics 数据与第三方产品
 description: 了解直接将 Adobe Analytics 中的数据与其他 Analytics 解决方案收集的数据进行比较的选项。
+exl-id: b4f85088-7ffd-45dc-bdd1-c0fc8dc3b332
 translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '252'
 ht-degree: 100%
 
 ---
-
 
 # 比较 Adobe Analytics 数据与第三方产品
 
