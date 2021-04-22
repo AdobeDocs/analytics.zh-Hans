@@ -1,15 +1,15 @@
 ---
 title: 登入维度
 description: 列出登入维度及其使用情况。
-keywords: entry page, entry site section, entry server, entry custom insight
+keywords: 登入页面，登入网站区域，登入服务器，登入自定义见解
+exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
-source-wordcount: '234'
+source-wordcount: '244'
 ht-degree: 100%
 
 ---
-
 
 # 登入维度
 
