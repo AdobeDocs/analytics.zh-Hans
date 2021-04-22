@@ -1,14 +1,14 @@
 ---
 title: 基于字段的拼合
 description: 了解使用基于字段的拼合来拼合数据的先决条件和限制。
+exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 translation-type: ht
-source-git-commit: beed7ffcc39b9b2628b1487b5e2eac42fa3a94d0
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '499'
 ht-degree: 100%
 
 ---
-
 
 # 基于字段的拼合
 
