@@ -1,16 +1,16 @@
 ---
 title: Analytics 工具指南
 description: Analysis Workspace、Adobe Analytics 功能板、Activity Map、Report Builder、Reporting API 和 Reports & Analytics 的产品文档和自助服务。
-feature: Workspace Basics
+feature: Workspace 基础知识
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '240'
+exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
-
 
 # Analytics 工具指南
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 本指南提供以下 Adobe Analytics 报告和分析工具的产品文档和自助信息：
 
 * **[!UICONTROL Analysis Workspace]：** Adobe Analytics 中最重要的功能。工作区提供了一个画布，您可以在其中拖动组件以满足报表需求。
-* **[!UICONTROL Adobe Analytics 功能版]：**&#x200B;通过此移动应用程序，用户可用移动设备访问带有关键指标、直观的记分卡，并可制作更详细的细分和趋势报表。
+* **[!UICONTROL Adobe Analytics 功能板]：**&#x200B;通过此移动应用程序，用户可用移动设备访问带有关键指标、直观的记分卡，并可制作更详细的细分和趋势报表。
 * **[!UICONTROL Activity Map]：**&#x200B;它是一个浏览器插件，在您的网站上显示一个覆盖层，其中标出哪个元素被点击的次数最多。
 * **[!UICONTROL Report Builder]：**&#x200B;它是一个 Excel 加载项，通过它，可检索 Analytics 数据并将其直接放入工作簿。
 * **[!UICONTROL Reporting API]：**&#x200B;直接向 Adobe 的服务器发出报表查询，并获得响应以供在您自己的客户报表工具中使用。
