@@ -4,14 +4,14 @@ title: 发布到 Power BI — 概述
 uuid: ad688817-6e3c-45da-983d-48c123465309
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 99%
+exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '1028'
+ht-degree: 100%
 
 ---
-
 
 # 发布到 Power BI — 概述
 
@@ -54,7 +54,7 @@ Microsoft Power BI 是一组用来分析数据和共享分析的业务分析功�
 
    ![](assets/workbooks-power-bi.png)
 
-1. 现在您可以查看工作簿功能板数据。   ![](assets/view-data-pbi.png)
+1. 现在您可以查看工作簿功能板数据。  ![](assets/view-data-pbi.png)
 
 1. 您随后可以固定此工作簿的一个区域，以便将其包含在您的任意 Power BI 功能板中。
 
@@ -137,4 +137,3 @@ Microsoft Power BI 是一组用来分析数据和共享分析的业务分析功�
 1. 另请注意，还有一个称为&#x200B;**[!UICONTROL 图例]**&#x200B;的表。如果有请求不属于 Report Builder 环境，则很难记住它代表的含义。图例表的目的包括，例如：显示每个请求在表 ID 下的名称。您还可以添加其他“图例”列，以全面了解请求。
 
    ![](assets/legend-table.png)
-
