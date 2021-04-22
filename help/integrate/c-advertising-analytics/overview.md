@@ -71,7 +71,7 @@ Analytics 有两种权限，可自动授予给 Analytics 管理员。然后，�
 
 ## Advertising Analytics 维度和指标 {#section_C0DF4A08EA9E46ADABE9E465AFC11E32}
 
-Advertising Analytics 可将以下维度和指标添加到 Analysis Workspace、Reports &amp; Analytics、Report Builder 和 Analytics Reporting API。
+Advertising Analytics 可将以下维度和指标添加到 Analysis Workspace、Reports &amp; Analytics、Report Builder 和 Analytics 报表 API。
 
 **维度**
 
@@ -102,7 +102,7 @@ Advertising Analytics 可将以下维度和指标添加到 Analysis Workspace、
 | 优化 (AMO ID) | Advertising Analytics 不使用此功能。此功能仅由 Advertising Cloud 客户使用。 |
 | 设备 (AMO ID) | 当前未使用。这是一个占位符，用于将来可能针对广告（非访客的实际设备）的指定目标设备类型（例如移动设备、桌面设备）实施的产品增强功能。 |
 
-**指标**
+**量度**
 
 >[!IMPORTANT]
 >
