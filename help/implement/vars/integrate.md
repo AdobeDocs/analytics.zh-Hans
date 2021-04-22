@@ -1,14 +1,14 @@
 ---
 title: 集成模块
 description: 借助集成模块，Adobe 合作伙伴可以将其数据收集工作与您的组织集成在一起。
+exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '878'
 ht-degree: 100%
 
 ---
-
 
 # 集成模块
 
