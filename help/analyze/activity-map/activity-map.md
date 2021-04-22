@@ -4,14 +4,14 @@ title: Activity Map 概述
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 98%
+exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '284'
+ht-degree: 100%
 
 ---
-
 
 # Activity Map 概述
 
@@ -55,4 +55,3 @@ Activity Map 允许您设置不同的视图，以此来直观地标识客户活�
 * [Analytics 中的 Activity Map 报告](activitymap-reporting-analytics.md)
 * [浏览器扩展疑难解答](troubleshooting-browser-extensions.md)
 * [知识资源](activitymap-info-resources.md)
-
