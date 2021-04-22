@@ -3,14 +3,14 @@ description: 所有 Adobe FTP 帐户都具有 2GB（或 63 个文件）的数据
 keywords: ftp;sftp
 title: FTP 限制和数据保留
 uuid: deb807c9-e988-4587-b518-881857cad1cf
+exl-id: ffd6bdcb-ebca-4ad3-b467-5ab2b984ca72
 translation-type: ht
-source-git-commit: 19de1233201bfeba88014209f5d288db67787f83
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
-source-wordcount: '80'
+source-wordcount: '82'
 ht-degree: 100%
 
 ---
-
 
 # FTP 限制和数据保留
 
