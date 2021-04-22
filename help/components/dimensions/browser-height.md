@@ -1,14 +1,14 @@
 ---
 title: 浏览器高度 - 分段统计
 description: 以像素为单位的浏览器窗口的高度。
+exl-id: bdfd2ef5-c200-4d6e-b478-3917fca66227
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '273'
 ht-degree: 100%
 
 ---
-
 
 # 浏览器高度
 
