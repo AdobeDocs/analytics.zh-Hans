@@ -3,14 +3,14 @@ description: 在 Adobe Analytics 实施代码中，如何组合 AppMeasurement �
 title: 查看 Activity Map 实施代码样例
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 94%
+exl-id: d7ca35df-8fbe-4e87-b1e9-e1a77d5f420f
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '53'
+ht-degree: 100%
 
 ---
-
 
 # 实现代码样例 {#sample-implementation-code}
 
@@ -78,4 +78,3 @@ More info available at https://www.adobe.com/marketing-cloud.html
 function AppMeasurement(){var a=this;a.version= 
 ...
 ```
-
