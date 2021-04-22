@@ -1,17 +1,17 @@
 ---
-description: 在 Workspace 项目中使用流可视化。
+description: 在 Workspace 项目中使用流量可视化。
 title: 流量设置
 uuid: 99822765-1d4f-4c23-a787-b089089cb8d7
-feature: Visualizations
+feature: 可视化图表
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 98%
+exl-id: 12a358b4-4f8e-4201-9f97-5c07c91f301e
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '243'
+ht-degree: 100%
 
 ---
-
 
 # 流量设置
 
