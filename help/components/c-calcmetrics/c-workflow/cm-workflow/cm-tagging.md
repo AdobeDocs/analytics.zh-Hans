@@ -2,11 +2,14 @@
 description: 在计算量度管理器中，您可以通过标记区段来组织区段。
 title: 标记计算量度
 uuid: f90ddbed-adc4-407d-b4b0-469eda61c704
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '200'
+ht-degree: 100%
 
 ---
-
 
 # 标记计算量度
 
@@ -17,7 +20,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 基于&#x200B;**团队名称**&#x200B;的标记，如社交营销、移动营销。
 * **项目**&#x200B;标记（分析标记），如登录页面分析。
 * **类别**&#x200B;标记：男士；地理位置。
-* **工作流程**&#x200B;标记：待批准；策划（为特定的业务部门）
+* **工作流程标记：待批准；策划（为特定的业务部门）**
 
 1. 在计算量度管理器中，选中要进行标记的量度旁边的复选框。此时会出现管理工具栏：
 1. 单击&#x200B;**[!UICONTROL 标记]**&#x200B;并执行以下操作之一
