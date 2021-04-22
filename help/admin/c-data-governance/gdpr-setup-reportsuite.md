@@ -2,14 +2,14 @@
 description: 为报表包数据设置标签即是向给定报表包中的每个变量分配身份、敏感性和数据管理标签。请确保您首先要熟悉标签及其定义。
 title: 为报表包数据设置标签
 uuid: a694851c-8933-496e-9118-113cc38cba8a
+exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '964'
 ht-degree: 100%
 
 ---
-
 
 # 为报表包数据设置标签
 
@@ -93,4 +93,3 @@ ht-degree: 100%
    >您应该经常检查目标报表包，以确保正确复制标签。对于具有 ID 或 DEL 标签的变量来说，这一点尤为重要。
 
 1. 单击&#x200B;**[!UICONTROL 应用]**。
-
