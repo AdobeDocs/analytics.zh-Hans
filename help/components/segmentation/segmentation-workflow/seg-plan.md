@@ -1,7 +1,7 @@
 ---
 description: 介绍了可在规划区段时遵循的步骤和最佳实践。
 title: 计划区段
-feature: Segmentation
+feature: 区段划分
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
 exl-id: ad4c6078-6f77-428e-b1f1-168f80d02668
 translation-type: tm+mt
