@@ -1,14 +1,14 @@
 ---
 title: trackingServer
 description: 确定发送图像请求的位置。
-translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
-workflow-type: tm+mt
+exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
-
 
 # trackingServer
 
@@ -59,9 +59,9 @@ s.trackingServer = "data.example.com";
 s.trackingServer = "example.data.adobedc.net";
 ```
 
-选择贵组织独有而使用 Adobe Analytics 的其他组织不太可能选择的子域。建议将访客命名空间分配给您的组织。  确保贵组织中的所有实施都使用相同的跟踪服务器。在[解决方案设计文档](../../prepare/solution-design.md)中维护此信息可能会有所帮助。
+选择贵组织独有而使用 Adobe Analytics 的其他组织不太可能选择的子域。建议使用分配给您组织的访客命名空间。确保贵组织中的所有实施都使用相同的跟踪服务器。在[解决方案设计文档](../../prepare/solution-design.md)中维护此信息可能会有所帮助。
 
-您的组织可能已在或域中使用第三方跟踪服 `sc.omtrdc.net` 务器 `2o7.net` 。  这些主要用于Adobe Analytics的先前版本，仍然有效。
+您的组织可能已经在 `sc.omtrdc.net` 或 `2o7.net` 域中使用第三方跟踪服务器。这些服务器主要用于 Adobe Analytics 以前的版本并且仍有效。
 
 >[!NOTE]
 >
