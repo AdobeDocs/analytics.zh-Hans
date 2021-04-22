@@ -2,14 +2,14 @@
 title: AppMeasurement for JavaScript 发行说明
 description: AppMeasurement for JavaScript 的发行说明汇总。
 subtopic: Release notes
-translation-type: tm+mt
-source-git-commit: 31ccee8681f2a5b51f1d773d80aa89b70e4d3b65
-workflow-type: tm+mt
+exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '2142'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # AppMeasurement for JavaScript 发行说明
 
@@ -23,7 +23,7 @@ ht-degree: 99%
 
 发行日期：**2020 年 8 月 4 日**
 
-* 修复由于用户的退出首选项而未发送首次点击时丢失推荐人的问题。
+* 修复了由于用户选择退出偏好设置而未发送首次点击时缺少的反向链接。
 
 ## 版本 2.21.0
 
