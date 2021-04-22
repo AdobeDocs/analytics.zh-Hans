@@ -2,14 +2,14 @@
 description: 可对虚拟报表包进行管理以在 Analysis Workspace 中包含和排除组件。
 title: 虚拟报表包组件管理
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
-translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '419'
 ht-degree: 100%
 
 ---
-
 
 # 虚拟报表包组件管理
 
@@ -36,13 +36,13 @@ ht-degree: 100%
    >* [!UICONTROL Data Warehouse]
    >* [!UICONTROL Report Builder]
    >* [!UICONTROL Activity Map]
-   >* Analytics Reporting API
+   >* Analytics 报表 API
 
 
    选中后，通过将适用组件从“排除的组件”列拖入“已包含的组件”列，可添加要包含在虚拟报表包中的组件。可包含和排除的组件包括：
 
    * 维度
-   * 指标
+   * 量度
    * 区段
    * 日期范围
 
@@ -64,12 +64,12 @@ ht-degree: 100%
 
 ![](assets/vrs-aw-renamed.png)
 
-## 组件组  {#section_483BEC76F49E46ADAAA03F0A12E48426}
+## 组件组 {#section_483BEC76F49E46ADAAA03F0A12E48426}
 
 使用组件组可向您的虚拟报表包中批量添加组件。例如，如果您要导入一组专门用于移动设备应用程序分析的默认组件，请选择移动设备应用程序组。对应的一组维度和量度（已重命名）会被自动添加到虚拟报表包的“已包括”列表中。
 
 ![](assets/vrs-comp-grp.png)
 
-## 工作区行为  {#section_6C32F8B642804C0097FCB14E21028D4A}
+## 工作区行为 {#section_6C32F8B642804C0097FCB14E21028D4A}
 
 有关 Analysis Workspace 中策化的更多信息，请参阅[策划和共享项目](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/curate.html)。
