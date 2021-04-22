@@ -2,14 +2,14 @@
 description: “管理工具”中的“数据管理”对话框概述了哪些报表包已配置数据管理，是否已将这些报表包映射到 Experience Cloud 组织，以及是否已为这些报表包设置数据保留策略。
 title: 查看/管理报表包的数据管理设置
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
+exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '555'
 ht-degree: 100%
 
 ---
-
 
 # 查看/管理报表包的数据管理设置
 
@@ -65,4 +65,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
