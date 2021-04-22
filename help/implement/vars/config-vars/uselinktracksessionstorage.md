@@ -1,14 +1,14 @@
 ---
 title: useLinkTrackSessionStorage
 description: 将链接跟踪数据存储在会话中，而不是 Cookie 中。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '261'
 ht-degree: 100%
 
 ---
-
 
 # useLinkTrackSessionStorage
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
-> 使用会话存储进行链接跟踪的最可靠实施，是在单个子域上通过 HTTPS 协议提供所有内容。
+>使用会话存储进行链接跟踪的最可靠实施，是在单个子域上通过 HTTPS 协议提供所有内容。
 
 在向 Adobe 发送点击后，AppMeasurement 会删除会话存储链接跟踪数据。当浏览器选项卡关闭时，它也会自动过期。
 
