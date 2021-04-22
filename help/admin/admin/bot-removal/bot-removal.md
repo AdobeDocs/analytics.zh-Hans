@@ -1,14 +1,14 @@
 ---
 title: 在 Adobe Analytics 中删除机器人
 description: 在 Adobe Analytics 中删除机器人的 3 种方法
+exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
 translation-type: ht
-source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '708'
 ht-degree: 100%
 
 ---
-
 
 # 在 Adobe Analytics 中删除机器人
 
