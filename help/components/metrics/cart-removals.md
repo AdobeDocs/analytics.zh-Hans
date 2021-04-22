@@ -1,14 +1,14 @@
 ---
 title: 购物车减货
 description: 访客从购物车中删除产品的点击次数。
+exl-id: 74b9677e-89c7-4409-8bd3-99707436def0
 translation-type: ht
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '74'
 ht-degree: 100%
 
 ---
-
 
 # 购物车减货
 
