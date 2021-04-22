@@ -1,14 +1,14 @@
 ---
 title: Adobe Analytics Permissions — 汇总表
 description: 汇总 Admin Console 中可用的 Adobe Analytics Permissions 的表格。
-translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '1243'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics Permissions — 汇总表
 
