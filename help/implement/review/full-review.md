@@ -1,14 +1,14 @@
 ---
 title: 全面审查
 description: 每 6 个月对您的实施进行一次审查，以确保实施与业务需求和 KPI 始终保持一致。
-translation-type: tm+mt
-source-git-commit: ad7274dbed3b85ca24cd92bf3a0d36d1f2e3597b
-workflow-type: tm+mt
+exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '407'
 ht-degree: 100%
 
 ---
-
 
 # 全面审查（用于每年两次审查实施）
 
