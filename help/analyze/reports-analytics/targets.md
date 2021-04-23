@@ -6,10 +6,10 @@ feature: Reports & Analytics 基础知识
 role: Business Practitioner, Administrator
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
 translation-type: tm+mt
-source-git-commit: 3926f1e451c8d100387745a125bb82b2e850de01
+source-git-commit: 274348296f2215389377ec94ff4d39b1769e81cc
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 92%
+ht-degree: 90%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 92%
 | [!UICONTROL 选择项目] | 显示选定属性或 eVar 的选择形式，对相关项目执行[!UICONTROL 高级搜索。]例如，如果选择 eVar [!UICONTROL 国家/地区]，则可在项目列表中指定具体的国家/地区。如果选择 eVar [!UICONTROL 产品]，则可在项目列表中指定具体的产品。菜单中也列出自定义分析变量。若自定义分析变量设置为测量访客年龄范围，则项目列表将显示年龄范围，如 18-24、25-35 等。 |
 | [!UICONTROL 量度] | 对某个量度应用目标。该菜单只显示对给定 eVar 应用的量度。例如，如果选择[!UICONTROL 产品]作为 eVar，则不会向其应用[!UICONTROL 页面退出]等量度。[!UICONTROL 页面退出]量度可以应用到网页 eVar。 |
 | [!UICONTROL 句点] | 它允许您定义目标的[!UICONTROL 日期范围]和[!UICONTROL 粒度]设置。视日期范围的规格而定，某些粒度选项不适用。键入量度值时，请键入每一粒度设置的值。例如，若日期范围为二月份，粒度选择为每周，则请键入二月份每周的值。[!UICONTROL 目标报表显示每一粒度设置。] |
-| [!UICONTROL 值] | 指定时段和选定量度的目标值。该值为您要实现的目标数值。例如，如果目标基于收入，您的目标是在某个月达到 1 万美元收入，应在该月的值字段中输入 10000。 |
+| [!UICONTROL 值] | 指定时段和选定量度的目标值。这些值是您尝试访问的目标号。 例如，如果目标基于收入，您的目标是在某个月达到 1 万美元收入，应在该月的值字段中输入 10000。 |
 
 ## 添加[!UICONTROL 目标] {#task_94915391E26E4F808F2538AA92BC7E71}
 
