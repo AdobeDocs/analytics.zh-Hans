@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算指标、虚拟报表包、警报等组件帮助整理数据。
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-source-wordcount: '637'
+translation-type: tm+mt
+source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
+workflow-type: tm+mt
+source-wordcount: '634'
 ht-degree: 100%
 
 ---
@@ -170,7 +170,6 @@ ht-degree: 100%
    + [最佳实践](segmentation/best-practices.md)
 + 计算指标 {#calculated-metrics}
    + [计算指标和高级计算（派生）指标](c-calcmetrics/cm-overview.md)
-   + [常见问题解答](c-calcmetrics/cm-transition.md)
    + [操作方法视频](c-calcmetrics/cm-videos.md)
    + 计算指标工作流程 {#calcmetric-workflow}
       + [计算指标工作流程](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
