@@ -3,10 +3,10 @@ title: Cross-Device Analytics
 description: 通过将设备数据拼合在一起，将您的数据从以设备为中心更改为以人员为中心。
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 translation-type: tm+mt
-source-git-commit: 20ba12a4af4c73bfc981692ab630d9a5f648dc84
+source-git-commit: 99fea634dafc5d0992898f8f9f89471b51191fc6
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 86%
+source-wordcount: '751'
+ht-degree: 85%
 
 ---
 
@@ -51,3 +51,4 @@ Cross-Device Analytics 是一项具有突破性的强大功能，但其使用方
 * 不支持 1.4 API。Power BI 连接器和 Report Builder 都依赖于 1.4 API，因此与 CDA 不兼容。
 * 虚拟报表包中的历史数据会因 Adobe 识别和拼合的设备而发生变化。源报表包中的数据不会更改。
 * 按Adobe对CDA拼接流程的活动监控仅限于生产报表包。
+* CDA当前与Adobe Analytics [数据修复API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md)不兼容
