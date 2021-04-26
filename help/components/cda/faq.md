@@ -3,10 +3,10 @@ title: Cross-Device Analytics 常见问题解答
 description: Cross-Device Analytics 常见问题解答
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 translation-type: tm+mt
-source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
+source-git-commit: 60856c2c410d7b45ba54d1ae7bdd659d181965ff
 workflow-type: tm+mt
-source-wordcount: '1605'
-ht-degree: 85%
+source-wordcount: '1672'
+ht-degree: 81%
 
 ---
 
@@ -111,3 +111,7 @@ CDA 会先提取 eVar 维度项目，然后再对其进行优化以用于报表�
 7天重播回顾窗口的优势在于，CDA能够及时返回，以尝试将以前匿名的事件与稍后在7天内登录的某人关联。 7天回顾窗口的缺点是： 1)每周只重播一次，2)最近7天可能会发生变化。
 
 使用1天重播回顾窗口的优势是：1)每天运行重放，2)仅昨天可能发生更改。 1天回顾窗口的缺点是CDA只能返回1天，以尝试将以前匿名的事件与昨天登录的人关联。
+
+## 如果我的公司决定从Analytics Ultimate降级，那么我的CDA虚拟报告套件中的拼接数据会如何？
+
+如果客户从Ultimate降级，他们将无法再访问拼接数据。 将删除之前拼接的所有数据。 这意味着CDA虚拟报表包现在不会反映跨设备拼接。 数据将与原始未拼接报表包类似。
