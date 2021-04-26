@@ -3,10 +3,10 @@ title: Cross-Device Analytics 常见问题解答
 description: Cross-Device Analytics 常见问题解答
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 translation-type: tm+mt
-source-git-commit: 510fe26c51391c040527e646ea0a8f131daa6f2d
+source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
 workflow-type: tm+mt
-source-wordcount: '1480'
-ht-degree: 93%
+source-wordcount: '1605'
+ht-degree: 85%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 93%
 
 ## 如何使用 CDA 了解用户如何从一种设备类型转移到另一种设备类型？
 
-您可以使用包含“移动设备类型”维度的流量可视化图表。
+可以将[!UICONTROL Flow]可视化用于移动设备类型维度。
 
 1. 登录到 Adobe Analytics，并创建一个新的空白 Workspace 项目。
 2. 单击左侧的“可视化图表”选项卡，然后将流量可视化图表拖到右侧的画布上。
@@ -105,3 +105,9 @@ CDA 会先提取 eVar 维度项目，然后再对其进行优化以用于报表�
 ## 如果我的Experience Cloud组织（又称IMS组织）在不同地区有多个公司，我是否可以为所有这些区域启用CDA?
 
 不适用。对于同一组织，只有一个区域可以启用CDA。
+
+## 与1天重播相比，7天重播有哪些优缺点？
+
+7天重播回顾窗口的优势在于，CDA能够及时返回，以尝试将以前匿名的事件与稍后在7天内登录的某人关联。 7天回顾窗口的缺点是： 1)每周只重播一次，2)最近7天可能会发生变化。
+
+使用1天重播回顾窗口的优势是：1)每天运行重放，2)仅昨天可能发生更改。 1天回顾窗口的缺点是CDA只能返回1天，以尝试将以前匿名的事件与昨天登录的人关联。
