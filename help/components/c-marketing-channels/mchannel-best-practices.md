@@ -2,10 +2,10 @@
 title: 实施Adobe Analytics Marketing渠道的最佳实践
 description: 更新了将营销渠道与Attribution IQ和Customer Journey Analytics结合使用的最佳实践
 translation-type: tm+mt
-source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
+source-git-commit: 402546c3110e78240e9379ea28957b070f22e697
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 4%
+source-wordcount: '633'
+ht-degree: 3%
 
 ---
 
@@ -24,19 +24,31 @@ ht-degree: 4%
 
 我们建议使用[Attribution IQ](https://experienceleague.corp.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace)代替现有的营销渠道归因来优化您的营销渠道分析。 遵循其他最佳做法，确保使用Attribution IQ对您的分析进行一致、可靠的控制。
 
+![](assets/attribution.png)
+
+* 营销渠道和营销渠道详细信息的维配置会根据每个营销渠道实例建立要评估的接触点。
+* 对于量度分析，您的组织应根据一个或多个归因模型对齐。使用此模型保存自定义量度以便重复使用。
+* 默认情况下，数据会使用“上次联系”和“访客参与期”的设置进行分配。 Attribution IQ量度模型优惠对回顾窗口的更大控制，以及更多种类，包括[ algorithmic attribution](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=en#analysis-workspace)。
+
 ## 最佳实践#2:没有直接和会话刷新渠道定义
 
 不建议使用直接和内部/会话刷新渠道与自定义归因模型(Attribution IQ)一起使用。
 
 如果您的组织已配置了“直接”和“会话刷新”，该怎么办？ 在这种情况下，我们建议您为营销渠道创建分类，并将这两个渠道保留为未分类。 分类的维度将产生与从未配置这些渠道相同的Attribution IQ结果。
 
+![](assets/direct-session-refresh.png)
+
 ## 最佳实践#3:为所有渠道启用“覆盖最近联系渠道”
 
 启用此设置后，与Workspace中的“营销渠道”维度一起使用的自定义归因模型效果最佳。 启用此设置会导致在遇到新渠道/详细信息时计数营销渠道实例。 您应为除“直接”或“内部/会话刷新”(我们不再建议与自定义归因模型(Attribution IQ)一起使用)之外的所有渠道启用此选项。
 
+![](assets/override.png)
+
 ## 最佳实践#4:最大限度地缩短访客参与时间
 
 将“访客参与期”设置为“1天”最小值会最小化持续值的可能性。 由于自定义归因模型(AIQ)允许灵活的回顾窗口，因此我们建议设置最小值以最大限度地减少此设置的影响。
+
+![](assets/expiration.png)
 
 ## 最佳实践#5:营销渠道处理规则应仅对启用的渠道存在
 
