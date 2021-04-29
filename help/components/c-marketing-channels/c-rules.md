@@ -1,14 +1,14 @@
 ---
 title: 营销渠道的处理规则
 description: 营销渠道处理规则决定访客点击是否符合分配到渠道的标准。这些规则处理访客在网站上的每次点击。当规则不符合渠道标准时，或者如果规则配置不正确，系统会将该点击分配到“未识别渠道”。
+exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
 workflow-type: tm+mt
-source-wordcount: '2138'
-ht-degree: 90%
+source-wordcount: '2149'
+ht-degree: 88%
 
 ---
-
 
 # 营销渠道的处理规则
 
@@ -17,7 +17,8 @@ ht-degree: 90%
 ![](assets/buckets_2.png)
 
 有关处理规则的附加说明：
-* 通过这些规则收集的数据全部为永久性数据，数据收集后再更改的规则不具有可回溯性。强烈建议您首先仔细查看和考虑各种情况，然后再保存[!UICONTROL 营销渠道处理规则]来迁移错误渠道中收集的数据。
+
+* 通过这些规则收集的数据全部为永久性数据，数据收集后再更改的规则不具有可回溯性。我们强烈建议您在保存[!UICONTROL 营销渠道处理规则]以减轻在错误渠道中收集的数据之前，先查看并考虑所有情况。
 * 该报表一次最多可处理 25 个渠道。
 * 规则可以访问已由 VISTA 设置的变量，但不能访问已被 VISTA 删除的数据。
 * 两个营销渠道从不会接收相同事件的信用，如购买或点击次数。在这方面，营销渠道不同于 eVar（两个 eVar 可能会接收相同事件的信用）。
@@ -27,6 +28,7 @@ ht-degree: 90%
 
 * 查看[营销渠道快速入门](/help/components/c-marketing-channels/c-getting-started-mchannel.md)中的概念信息。
 * 创建一个或更多渠道，以便您将规则分配给它们。请参阅[添加营销渠道](/help/components/c-marketing-channels/c-channels.md)。
+* 查看将[!UICONTROL 营销渠道]与[!UICONTROL Attribution IQ]一起使用的最佳实践。
 
 ## 创建营销渠道处理规则
 
@@ -154,7 +156,7 @@ ht-degree: 90%
 
 ### 社交网站 {#social-networks}
 
-此规则可识别源自社交网络的访客，如Facebook;。 此渠道通常重命名为“原始社交”。其设置如下所示：
+此规则识别源自社交网络的访客，如Facebook;。 此渠道通常重命名为“原始社交”。其设置如下所示：
 
 ![](assets/example_social.png)
 
