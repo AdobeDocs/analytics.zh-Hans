@@ -1,16 +1,20 @@
 ---
 title: 营销渠道快速入门
 description: 了解营销渠道工作流程、自动设置以及如何将模板报表包设置应用到多个报表包。
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '794'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
+workflow-type: tm+mt
+source-wordcount: '814'
+ht-degree: 97%
 
 ---
 
 
 # 营销渠道快速入门
+
+>[!NOTE]
+>
+>为最大限度地提高Attribution IQ和Customer Journey Analytics营销渠道的效率，我们发布了一些[修订的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 
 营销渠道通常用于提供有关访客如何到达您网站的分析。您可以基于要跟踪的渠道以及跟踪方式，自定义营销渠道处理规则。
 
