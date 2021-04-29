@@ -3,7 +3,7 @@ description: 了解 Analytics Data Connectors 生命周期终止的时间和原�
 title: Analytics Data Connectors 生命周期终止预告
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 translation-type: tm+mt
-source-git-commit: 9c8c201d4bb57f3594ca907c20e5985746b423f0
+source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 82%
@@ -30,12 +30,6 @@ ht-degree: 82%
 
 如果还有其他问题或需要获取相关支持，请联系 Adobe 客户关怀团队。
 
-## 异常：Adobe Campaign Classic
-
-2021年8月1日的一个例外是Adobe Campaign Classic整合。 此集成将于2022年3月1日正式弃用。
-
-2021年8月1日，Adobe Campaign Classic将与所有其他集成一起从Data Connectors UI中删除；但是，现有的活动集成将在2022年3月1日之前继续收集数据并将数据传递到Adobe Analytics。 2022年3月1日，整合将停止收集数据并将数据传递给Adobe Analytics。 Adobe Campaign正在构建一个新的Adobe交换集成，以取代当前的数据连接器集成。 Adobe Campaign预计将及时完成此新集成，以便客户在2022年3月弃用日期之前迁移到新集成。
-
 ## Data Connector 合作伙伴状态
 
 | 合作伙伴 | 状态 |
@@ -43,7 +37,7 @@ ht-degree: 82%
 | Acxiom | 弃用 |
 | Adform | 弃用 |
 | Adjust | 迁移至 Adobe Exchange |
-| Adobe Campaign | 迁移至 Adobe Exchange （见上文附注） |
+| Adobe Campaign | 迁移至 Adobe Exchange （见下文附注） |
 | Appfigures | 迁移至 Adobe Exchange |
 | Appsee | 弃用 |
 | AppsFlyer | 迁移至 Adobe Exchange |
@@ -105,3 +99,9 @@ ht-degree: 82%
 | WhatCounts Email | 弃用 |
 | wywy | 弃用 |
 | Yesmail Enterprise | 弃用 |
+
+## 异常：Adobe Campaign Classic
+
+2021年8月1日的一个例外是Adobe Campaign Classic整合。 此集成将于2022年3月1日正式弃用。
+
+2021年8月1日，Adobe Campaign Classic将与所有其他集成一起从Data Connectors UI中删除；但是，现有的活动集成将在2022年3月1日之前继续收集数据并将数据传递到Adobe Analytics。 2022年3月1日，整合将停止收集数据并将数据传递给Adobe Analytics。 Adobe Campaign正在构建一个新的Adobe交换集成，以取代当前的数据连接器集成。 Adobe Campaign预计将及时完成此新集成，以便客户在2022年3月弃用日期之前迁移到新集成。
