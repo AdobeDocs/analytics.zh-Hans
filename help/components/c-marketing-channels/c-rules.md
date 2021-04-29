@@ -3,14 +3,18 @@ title: 营销渠道的处理规则
 description: 营销渠道处理规则决定访客点击是否符合分配到渠道的标准。这些规则处理访客在网站上的每次点击。当规则不符合渠道标准时，或者如果规则配置不正确，系统会将该点击分配到“未识别渠道”。
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 translation-type: tm+mt
-source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
+source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
-source-wordcount: '2149'
-ht-degree: 88%
+source-wordcount: '2169'
+ht-degree: 87%
 
 ---
 
 # 营销渠道的处理规则
+
+>[!NOTE]
+>
+>为最大限度地提高Attribution IQ和Customer Journey Analytics营销渠道的效率，我们发布了一些[修订的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 
 营销渠道处理规则通过处理访客在您的网站上进行的每次点击，确定访客点击是否满足分配给渠道的条件。系统会按您指定的顺序处理规则，当一个规则得到满足时，系统会停止处理剩余规则。
 
