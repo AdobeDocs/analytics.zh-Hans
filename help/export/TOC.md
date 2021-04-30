@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 导出指南
 breadcrumb-title: 导出指南
 user-guide-description: 使用“数据馈送”接收每小时或每天导出的原始数据。使用 Data Warehouse 检索以电子表格输出的数据。
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-source-wordcount: '278'
+translation-type: tm+mt
+source-git-commit: e9969fbcc2adb58fba8d2bd293580181a05d1bac
+workflow-type: tm+mt
+source-wordcount: '275'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,6 @@ ht-degree: 100%
       + [迟到的点击量](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [数据馈送常见问题解答](analytics-data-feed/df-faq.md)
    + [数据馈送最佳实践](analytics-data-feed/data-feeds-best-practices.md)
-   + [数据馈送疑难解答](analytics-data-feed/feed-troubleshooting.md)
    + [作业疑难解答](analytics-data-feed/jobs-troubleshooting.md)
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse 概述](data-warehouse/data-warehouse.md)
