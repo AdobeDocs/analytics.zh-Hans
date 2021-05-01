@@ -5,11 +5,11 @@ uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '505'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a283ba5d5678498cde9d0065a4f9f6b8a98558dd
+workflow-type: tm+mt
+source-wordcount: '655'
+ht-degree: 77%
 
 ---
 
@@ -20,6 +20,15 @@ ht-degree: 100%
 ## 是否所有 Analytics 客户都可以访问管理工具的“ActivityMap 启用”页面？
 
 具有 Adobe Analytics Standard、Premium 和 Ultimate 合同的组织可以访问 Activity Map。
+
+## Activity Map如何支持单页应用程序(SPA)?
+
+每隔几秒，Activity Map就会扫描网页，查找对该页面所做的更改。 ActivityMap在页面上查找新内容而无需加载新页面，但此新内容始终归因于加载页面时找到的第一个pageName。
+
+* Activity Map检查其所知链接的可见性是否已更改。 如果发现可见性的更改，则该链接的“页面上的链接”表的“存在”列将用[!UICONTROL Displayed]或[!UICONTROL Hidden]进行更新。
+
+* 当用户交互创建新内容时，AppMeasurement发现的任何新元素都将作为链接添加到[!UICONTROL 页面上的链接]表中。 Activity Map发送包含这些新链接的新数据请求。 当UI处理数据请求时，新链接应显示在[!UICONTROL 页面上的链接]表中。
+
 
 ## Activity Map 是否提供有关“查看数”的数据？
 
