@@ -5,9 +5,9 @@ user-guide-title: Analytics 技术说明
 breadcrumb-title: 技术说明
 user-guide-description: 包含不属于特定分析工具或组件的有用文章的知识库。
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 07c76cea1f6fd64957fd4fd20bc5187976f3c14c
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '190'
 ht-degree: 90%
 
 ---
@@ -38,13 +38,15 @@ ht-degree: 90%
    + [将日期与先前的范围进行比较](event/compare-dates.md)
    + [派生受事件影响的数据](event/calcmetrics.md)
    + [向用户传达事件](event/communicate.md)
-+ [浏览器 Cookie](cookies.md)
++ [Cookie] {#cookies}
+   + [浏览器 Cookie](cookies/cookies.md)
+   + [减轻浏览器Cookie限制影响的选项](cookies/cookieless.md)
 + [数据保留](data-retention.md)
 + [排除数据](exclude-data.md)
 + [Adobe Analytics使用的IP和域](ip-addresses.md)
 + [延迟](latency.md)
 + [低流量值](low-traffic.md)
-+ [将Mobile Services处理规则迁移到Adobe Analytics](migrate-mobile.md)
++ [将 Mobile Services 处理规则迁移到 Adobe Analytics](migrate-mobile.md)
 + [多货币支持](multicurrency.md)
 + [隐私概述](privacy-overview.md)
 + [重定向和别名](redirects.md)
