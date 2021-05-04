@@ -3,10 +3,10 @@ title: Cross-Device Analytics 常见问题解答
 description: Cross-Device Analytics 常见问题解答
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 translation-type: tm+mt
-source-git-commit: 60856c2c410d7b45ba54d1ae7bdd659d181965ff
+source-git-commit: 50ffeac17a07478e98e8d83bd3a87db0d9a1145d
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 81%
+source-wordcount: '1674'
+ht-degree: 85%
 
 ---
 
@@ -92,19 +92,19 @@ Adobe 将带有时间戳的点击视为在时间戳时间（而不是 Adobe 收�
 
 ## 我如何在设备图与基于字段的拼合之间切换？
 
-如果要切换 CDA 标识方法，请联系贵组织的客户经理。客户经理可以根据所需的方法配置报表包以识别人员。*切换后，来自先前方法的历史拼合数据会丢失。*
+客户关怀可要求从设备图表切换为基于现场的拼接，反之亦然。 但是，这样的交换机可能需要几周或更长时间才能完成，并丢失来自先前方法的&#x200B;*历史拼接数据。*
 
 ## Adobe 如何处理在基于字段的拼合中使用的 eVar 的唯一性限制？
 
 CDA 会先提取 eVar 维度项目，然后再对其进行优化以用于报表。对于 CDA，您不必担心唯一性限制。但是，如果您尝试在 Workspace 项目中使用该 prop/eVar，您仍然可以看到[（低流量）](/help/technotes/low-traffic.md)维度项目。
 
-## 我的公司可以为CDA启用多少个报表包？
+## 可以为 CDA 启用多少个公司报表包？
 
-可以启用多个报表包，但是，如果同时请求多个报表包，则每个额外的报表包都会增加总体设置时间。 CDA不会合并报表包。 为CDA启用的每个报表包都必须是跨设备的(包含来自多个表面（如桌面Web、移动Web、移动应用程序等）的数据
+可以启用多个报表包，但是如果同时请求多个报表包，则每个其他报表包都会增加总体配置时间。CDA 不会合并报表包。本质上，为 CDA 启用的每个报表包都必须是跨设备报表包（包含来自多个表面的数据，例如桌面 Web、移动 Web、移动应用程序等）
 
-## 如果我的Experience Cloud组织（又称IMS组织）在不同地区有多个公司，我是否可以为所有这些区域启用CDA?
+## 如果我的 Experience Cloud 组织（也称为 IMS 组织）在不同地区有多家公司，我可以为所有公司启用 CDA 吗？
 
-不适用。对于同一组织，只有一个区域可以启用CDA。
+不可以。对于同一组织，只有一个区域可以启用 CDA。
 
 ## 与1天重播相比，7天重播有哪些优缺点？
 
