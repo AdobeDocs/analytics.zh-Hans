@@ -332,8 +332,7 @@ t_classification_rule.xml
    >
    > （请参阅&#x200B;*`Variable`*&#x200B;分类规则集[中的 ](/help/components/classifications/crb/classification-rule-set.md)，了解关于此先决条件的说明。）
    >
-   >
-   * 您在单击&#x200B;**[!UICONTROL 添加规则集]**&#x200B;以创建规则集后显示的[可用报表包](/help/components/classifications/crb/classification-rule-set.md)页面上选择了报表包。
+   >* 您在单击&#x200B;**[!UICONTROL 添加规则集]**&#x200B;以创建规则集后显示的[可用报表包](/help/components/classifications/crb/classification-rule-set.md)页面上选择了报表包。
 
 
 1. 指定是否覆盖现有的值：
