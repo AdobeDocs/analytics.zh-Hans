@@ -329,11 +329,10 @@ t_classification_rule.xml
    >满足以下条件时，报表包将显示在此页面&#x200B;*`only`*&#x200B;中：
    >
    >* 报表包在[!UICONTROL 管理工具]中针对该变量至少定义了一个分类。
-      >
-      >   
-      （请参阅&#x200B;*`Variable`*&#x200B;分类规则集[中的 ](/help/components/classifications/crb/classification-rule-set.md)，了解关于此先决条件的说明。）
-      >
-      >
+   >
+   > （请参阅&#x200B;*`Variable`*&#x200B;分类规则集[中的 ](/help/components/classifications/crb/classification-rule-set.md)，了解关于此先决条件的说明。）
+   >
+   >
    * 您在单击&#x200B;**[!UICONTROL 添加规则集]**&#x200B;以创建规则集后显示的[可用报表包](/help/components/classifications/crb/classification-rule-set.md)页面上选择了报表包。
 
 
