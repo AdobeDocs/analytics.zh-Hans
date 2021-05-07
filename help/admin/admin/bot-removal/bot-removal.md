@@ -2,11 +2,11 @@
 title: 在 Adobe Analytics 中删除机器人
 description: 在 Adobe Analytics 中删除机器人的 3 种方法
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '708'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b78e8303277b08a4c693283e45416f2e104268b7
+workflow-type: tm+mt
+source-wordcount: '809'
+ht-degree: 93%
 
 ---
 
@@ -25,6 +25,17 @@ ht-degree: 100%
 
 有关详细信息，请参阅[机器人规则概述](/help/admin/admin/bot-removal/bot-rules.md)。
 
+## 使用[!UICONTROL websiteBot]插件识别机器人程序
+
+websiteBot插件允许您动态识别桌面访客是否是机器人。 您可以凭借此数据来提高所有报表类型的准确性，从而更好地衡量合法的网站流量。
+
+这个插件可执行两项检查：
+
+* 首先，它使用navigator.UserAgent变量确定设备是桌面设备还是移动设备。 移动设备将被忽略。
+* 如果是桌面设备，该插件将添加一个用于了解鼠标移动的事件侦听器。
+
+有关详细信息，请参阅[《Adobe Analytics实施指南》](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/websitebot.html)。
+
 ## 使用 Adobe 工具组合
 
 此外，由于机器人发展较快，因此 Adobe 提供了其他几个强大的功能，如果定期将这些功能合理组合在一起，将有助于提高其数据质量。这些功能包括：Experience Cloud ID 服务、分段、Data Warehouse、客户属性和虚拟报表包。以下对如何利用这些工具的概述。
@@ -39,7 +50,7 @@ ht-degree: 100%
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-设置此数据元素后，请按照[以下说明](https://docs.adobe.com/content/help/zh-Hans/launch/using/implement/solutions/idservice-save.html)将声明的 ID 传递到 Launch 中的 ECID 工具。
+设置此数据元素后，请按照[以下说明](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html)将声明的 ID 传递到 Launch 中的 ECID 工具。
 
 ### 步骤 2：使用分段识别机器人
 
