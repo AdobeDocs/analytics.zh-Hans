@@ -2,16 +2,16 @@
 description: 使用贡献分析识别数据中的统计异常和关联。
 title: 贡献分析概述
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-feature: AI Tools
+feature: AI 工具
 role: Business Practitioner, Administrator
+exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 6588896cd47e15127b1b1d0a2d229e0ed2dbaaaa
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 99%
+source-wordcount: '1164'
+ht-degree: 91%
 
 ---
-
 
 # 贡献分析概述
 
@@ -47,41 +47,14 @@ ht-degree: 99%
 
 ## 常见问题解答 {#section_11D0431AD2014B96AB9561CA66A367CE}
 
-<table id="table_357775E5058644099E26B15A6790E8AF"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 问题 </th> 
-   <th colname="col2" class="entry"> 回答 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Adobe 为何要引入令牌？</b> </p> </td> 
-   <td colname="col2"> <p>“贡献分析”一直是 Adobe Analytics 中最为强大的一项功能。通过允许您每月运行少量“完整”贡献分析（对于某些 Analytics 产品不仅仅是运行 3 个维度），您可以更好地了解不限数量的完整贡献分析对您有哪些益处。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>令牌如何在贡献分析中起作用？是在加载具有现有贡献分析的项目时需要令牌，还是只有在运行全新的贡献分析时才需要令牌？</b> </p> </td> 
-   <td colname="col2"> <p>每个登录公司（而非每个用户）每月可获得一定数量的令牌，以便能够在 Analysis Workspace 中运行“完整”贡献分析。 </p> <p>每次生成新的贡献分析时，都需要支付一个令牌。加载具有预运行贡献分析的项目时不需要支付令牌。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>令牌是否适用于 Reports &amp; Analytics 中的贡献分析？</b> </p> </td> 
-   <td colname="col2"> <p>不适用。从 2018 年 4 月份版本起，Reports &amp; Analytics 中不再提供贡献分析。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>如果我的公司用完了令牌，但是想要运行额外的贡献分析，我们该怎么做？</b> </p> </td> 
-   <td colname="col2"> <p>您可以升级到其他 Adobe Analytics 产品，例如从 Standard（每月 2 个令牌）升级到 Ultimate（每月 20 个令牌）。您不能只购买更多令牌，您必须在现有的包装框架内进行升级。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>我如何限制对贡献分析的访问？</b> </p> </td> 
-   <td colname="col2"> <p>默认情况下，只有管理员才有权运行贡献分析，但管理员可以通过在 <a href="https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-getting-started.html"  >Admin Console</a> 中创建权限组来授予其他用户访问权限。您应仅授权具有正当理由使用贡献分析，且您相信他们不会滥用其访问权限的用户来使用贡献分析。 </p> <p>此权限称为“贡献分析”，位于 <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">“管理员”</span>&gt;<span class="uicontrol">“用户管理”</span>&gt;<span class="uicontrol">“编辑群组”</span>&gt;<span class="uicontrol">“编辑所有报表访问权限”</span>&gt;<span class="uicontrol">“自定义报表包工具”</span>&gt;<span class="uicontrol">“工具和报表”</span></span>下。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>如何知道我的公司每月有权使用多少个令牌，以及我们在当月使用了多少个令牌？</b> </p> </td> 
-   <td colname="col2"> <p>请转到<span class="ignoretag"><span class="uicontrol">“管理员”</span>&gt;<span class="uicontrol">“公司设置”</span>&gt;<span class="uicontrol">“查看功能访问级别”</span></span>。此页面中有 2 个新项目： </p> <p><img placement="break"  src="assets/ca_access_level.png" id="image_16012FE1162C485EA768D175F43D7563" width="500px" /> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| 问题 | 回答 |
+| --- | --- |
+| Adobe 为何要引入令牌？ | “贡献分析”一直是 Adobe Analytics 中最为强大的一项功能。通过允许您每月运行少量“完整”贡献分析（对于某些 Analytics 产品不仅仅是运行 3 个维度），您可以更好地了解不限数量的完整贡献分析对您有哪些益处。 |
+| 令牌如何在贡献分析中起作用？是在加载具有现有贡献分析的项目时需要令牌，还是只有在运行全新的贡献分析时才需要令牌？ | 每个登录公司（而非每个用户）每月可获得一定数量的令牌，以便能够在 Analysis Workspace 中运行“完整”贡献分析。每次生成新的贡献分析时，都需要支付一个令牌。加载具有预运行贡献分析的项目时不需要支付令牌。 |
+| 令牌是否适用于 Reports &amp; Analytics 中的贡献分析？ | 不可以。自2018年4月起，“报告与分析”中不再提供贡献分析。 |
+| 如果我的公司用完了令牌，但是想要运行额外的贡献分析，我们该怎么做？ | 您可以升级到其他 Adobe Analytics 产品，例如从 Standard（每月 2 个令牌）升级到 Ultimate（每月 20 个令牌）。您不能只购买更多令牌，您必须在现有的包装框架内进行升级。 |
+| 我如何限制对贡献分析的访问？ | 默认情况下，只有管理员有权运行贡献分析。 但是，管理员可以通过在[Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)中创建权限组来授予其他用户访问权限。 您应仅授权具有正当理由使用贡献分析，且您相信他们不会滥用其访问权限的用户来使用贡献分析。该权限在[!UICONTROL 报表包工具]下称为[!UICONTROL 贡献分析]。 [了解详情](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html) |
+| 如何知道我的公司每月有权使用多少个令牌，以及我们在当月使用了多少个令牌？ | 转至[!UICONTROL Admin] > [!UICONTROL 所有Admin] >[!UICONTROL 公司设置主页] >[!UICONTROL 视图功能访问级别]。 查看下方<ul><li>贡献分析：每月的使用令牌数量</li><li>贡献分析：本月所用的使用令牌数量</li></ul> |
 
 ## 异常检测和贡献分析授权 {#section_9278D58F21A840AA9B1ED1BD07A1EF0A}
 
@@ -89,7 +62,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->异常检测和贡献分析已从 Reports &amp; Analytics 功能集中删除，现在只能通过 Analysis Workspace 使用。请注意，Adobe Analytics Select 和 Adobe Analytics Foundation 客户只能访问 Workspace 中的“每日粒度”异常检测。
+>异常检测和贡献分析已从“报告与分析”功能集中删除，现在仅通过Analysis Workspace提供。 请注意，Adobe Analytics Select 和 Adobe Analytics Foundation 客户只能访问 Workspace 中的“每日粒度”异常检测。
 
 <table id="table_5C9B7E4AE82640B5A913519E576889B5"> 
  <thead> 
