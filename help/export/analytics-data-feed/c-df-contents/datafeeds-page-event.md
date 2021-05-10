@@ -5,9 +5,9 @@ title: 页面事件对照
 feature: Reports & Analytics 基础知识
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 exl-id: ef0467df-b94b-4cec-b312-96d8f42c23b0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '209'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 用于根据 page_event 值确定点击类型的对照表。
 
-| 点击类型 | `page_event` value | `post_page_event` 值 |
+| 点击类型 | `page_event` value | `post_page_event` value |
 | --- | --- | --- |
 | 页面查看 | 0：来自 Mobile SDK 的所有页面查看调用和 `trackState` 调用 | 与 `post_page_event` 的值相同 |
 | 链接跟踪 | 10：Mobile SDK 中的自定义链接和 `trackAction` 调用<br>11：下载链接<br>12：退出链接 | 100：Mobile SDK 中的自定义链接和 `trackAction` 调用<br>101：下载链接<br>102：退出链接 |
