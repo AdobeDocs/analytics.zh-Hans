@@ -5,9 +5,9 @@ title: 访客迁移
 topic-fix: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '445'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 配置完访客迁移后，当用户访问没有访客 ID Cookie 的新域时，服务器会重定向到前一个数据收集主机名，检索任何可用的访客 ID Cookie，并再次重定向到新域。如果前一个主机名上找不到访客 ID，则会生成一个新的 ID。这对每个访客只会出现一次。
 
-## 访客迁移过程  {#section_FF0C5C5CAEF343FFA1892B29311F7160}
+## 访客迁移过程 {#section_FF0C5C5CAEF343FFA1892B29311F7160}
 
 下表列出了访客迁移所需的任务：
 
