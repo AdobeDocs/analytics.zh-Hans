@@ -2,17 +2,17 @@
 description: 在这个详细的指南中探索可用 Advertising Analytics 做的一切事情，包括所需的权限以及可用的维度和指标。
 title: Advertising Analytics 指南
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 797dd2c700cd6e11db91e3b5e6bf4b7bfbefdabe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1259'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Advertising Analytics 指南
 
-通过 Advertising Analytics，您可以在 Adobe Analytics 中并排查看您在 Google 和 Bing 上的所有付费搜索数据。以前，您必须在 Adobe Advertising Cloud (AMO) 或 Google/Bing 中查看所有 Google AdWords/DFA 或 Microsoft Bing Ads 数据。您现在将在Adobe Analytics中获得以下数据：展示次数、点击次数、直接从搜索引擎和AMO ID实例（点击实例）中计算数据费用。 Google在2019年9月已详细说明了这些指标，因此将不再收集质量分数和平均职位。
+通过 Advertising Analytics，您可以在 Adobe Analytics 中并排查看您在 Google 和 Bing 上的所有付费搜索数据。以前，您必须在 Adobe Advertising Cloud (AMO) 或 Google/Bing 中查看所有 Google AdWords/DFA 或 Microsoft Bing Ads 数据。现在，您将在 Adobe Analytics 中直接从搜索引擎获取以下数据：展示次数、点击次数、成本数据以及 AMO ID 实例数（点击实例数）。由于 Google 已于 2019 年 9 月弃用了这些指标，因此将不再收集质量分数和平均排名。
 
 >[!NOTE]
 >
@@ -89,7 +89,7 @@ Advertising Analytics 可将以下维度和指标添加到 Analysis Workspace、
 | 促销活动 (AMO ID) | 搜索引擎帐户中的促销活动名称。 |
 | 广告组 (AMO ID) | 搜索引擎促销活动中的广告组名称。 |
 | 广告 (AMO ID) | 广告中使用的广告标题 + 广告描述。 |
-| 关键字 (AMO ID) | 您的搜索引擎帐户的“关键字”值 |
+| 关键字 (AMO ID) | 您的搜索引擎帐户的“关键字”值。 |
 | 匹配类型 (AMO ID) | 分配给关键字的关键字匹配类型。这些值通常为广泛、短语、精确；或者如果广告类型没有匹配类型，则没有值。 |
 | 广告类型 (AMO ID) | 投放的广告类型，通常为&quot;文字广告&quot;。 |
 | 广告标题 (AMO ID) | 广告中使用的“标题”对象。 |
