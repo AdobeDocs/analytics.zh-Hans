@@ -2,11 +2,11 @@
 description: 了解关于用户准许在设备或浏览器上存储或读取非必要 Cookie 的准则和建议。
 title: 关于用户准许和 Cookie 的 CNIL 准则是什么
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0e09f6ee34560ca7f036e8f3fb743c822d5fcfc4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '694'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 90%
 
 * 数据保留期最长为 25 个月。可在“Analytics”>“管理”>“数据治理”下查看当前的数据保留设置。[数据保留](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=zh-Hans)
 * 在 ECID 中禁用第三方 Cookie。[disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=zh-Hans#id-service-api)、[disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=zh-Hans#id-service-api) 和 [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=zh-Hans#id-service-api)
-* Cookie 有效期最长为 13 个月。可使用 `cookieLifetime` 变量取代 Analytics Cookie 有效期。Experience CloudCookie（包括Analytics和ECID）会在每次访问时延长Cookie过期日期。  要设置静态、非滚动Cookie过期，您可以：(1)编写自定义代码以设置删除Cookie的日期，或(2)使用您的CMP控制Cookie重置的日期。   [](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=zh-Hans) cookie生命周 [期和Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=en#ec-cookies)
+* Cookie 有效期最长为 13 个月。可使用 `cookieLifetime` 变量取代 Analytics Cookie 有效期。Experience Cloud Cookie（包括 Analytics 和 ECID）会随着每次访问而延长 Cookie 过期日期。要设置静态的非滚动 Cookie 到期时间，您可以：(1) 编写自定义代码以设置删除 Cookie 的日期，或者 (2) 使用 CMP 来控制 Cookie 的重置日期。[cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=zh-Hans) 和 [Experience Cloud Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=zh-Hans#ec-cookies)
 * 范围有限。Cookie 的范围必须限制在单个网站或应用程序。[浏览器 Cookie](https://experienceleague.adobe.com/docs/analytics/technotes/cookies.html?lang=zh-Hans&quot;\l&quot;third-party-cookie-implementations)
 * 匿名化。将 IP 地址的最后一个八位字节数匿名化。[常规帐户设置](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=zh-Hans)
 * 从报表中隐藏访客 ID。默认情况下访客 ID 在 Adobe Workspace 和 Adobe Reports and Analytics 中不可见。可在数据馈送和 Data Warehouse 中找到访客 ID。[Admin Console 中的“访问权限”](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hans&quot;\l&quot;task_040673FE3E3E429B9531FBCB8B6A4391)可限制对数据馈送和 Data Warehouse 的访问 和[数据馈送列参考](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=zh-Hans#columns%2C-descriptions%2C-and-data-types)
