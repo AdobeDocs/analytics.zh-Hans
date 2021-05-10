@@ -5,9 +5,9 @@ user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
 user-guide-description: '自定义收集哪些数据，以便让 Adobe Analytics 得到充分利用。 '
 translation-type: tm+mt
-source-git-commit: 69c1daa9dbf3bbf39072cc7104f2dd32fb95eb79
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '376'
 ht-degree: 100%
 
 ---
@@ -158,35 +158,7 @@ ht-degree: 100%
    + [将 Launch 数据元素映射到 Analytics 变量](launch/elements-to-variable.md)
 + 在其他平台上实施 Analytics {#other}
    + [使用硬编码图像请求实施 Analytics](other/hardcoded.md)
-   + 使用 DTM 实施 Analytics {#dtm}
-      + [Dynamic Tag Management 实施概述](other/dtm/dtm-implementation-overview.md)
-      + [创建 Web 属性](other/dtm/t-create-web-property.md)
-      + [配置托管选项](other/dtm/t-configure-hosting.md)
-      + 页眉和页脚 {#headers-footers}
-         + [添加页眉和页脚代码](other/dtm/c-headers-footers/t-header-footer-code.md)
-         + [验证页眉和页脚代码](other/dtm/c-headers-footers/t-verify-header-footer.md)
-      + Adobe Analytics 工具 {#analytics-tool}
-         + [添加 Adobe Analytics 工具](other/dtm/c-aa-tool/analytics-dtm.md)
-         + [常规](other/dtm/c-aa-tool/general-settings-analytics.md)
-         + [库管理](other/dtm/c-aa-tool/library-management.md)
-         + [插入核心 AppMeasurement 代码](other/dtm/c-aa-tool/t-appmeasurement-code.md)
-         + [全局变量](other/dtm/c-aa-tool/global-variables.md)
-         + [页面查看次数和内容](other/dtm/c-aa-tool/pageviews-content.md)
-         + [链接跟踪](other/dtm/c-aa-tool/link-tracking.md)
-         + [反向链接和促销活动](other/dtm/c-aa-tool/referrers-campaigns.md)
-         + [Cookie](other/dtm/c-aa-tool/cookies-analytics.md)
-         + [自定义页面代码](other/dtm/c-aa-tool/customize-page-code.md)
-         + [关于 Adobe Analytics 工具的常见问题解答](other/dtm/c-aa-tool/dtm-faq.md)
-      + [创建数据元素](other/dtm/t-data-element.md)
-      + [手动实施 Adobe Analytics（旧版）](other/dtm/t-analytics-deploy.md)
-      + 规则 {#rules}
-         + [创建新规则](other/dtm/c-rules/t-rules-create.md)
-         + [为基于事件的规则创建条件](other/dtm/c-rules/t-rules-event-conditions.md)
-         + [为页面加载规则创建条件](other/dtm/c-rules/t-rules-page-conditions.md)
-         + [为直接调用规则创建条件](other/dtm/c-rules/t-rules-direct-conditions.md)
-         + [设置条件要触发的操作](other/dtm/c-rules/t-rules-actions.md)
-         + [测试用于 Akamai 托管的尚未发布的规则](other/dtm/c-rules/t-test-rules-akamai.md)
-         + [测试库下载或 FTP 的规则](other/dtm/c-rules/t-test-rules-ftp.md)
+   + [使用 DTM 实施 Analytics](other/dtm-implementation-overview.md)
    + [在 Ajax 上实施 Analytics](other/ajax.md)
    + [在 AMP 上实施 Analytics](other/amp.md)
    + [在数字助理中实施 Analytics](other/digital-assistants.md)
