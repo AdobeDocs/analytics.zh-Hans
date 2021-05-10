@@ -5,10 +5,10 @@ title: 虚拟报表包和多包标记注意事项
 feature: 报表包设置
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-translation-type: ht
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '1742'
+translation-type: tm+mt
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+workflow-type: tm+mt
+source-wordcount: '1712'
 ht-degree: 100%
 
 ---
@@ -101,7 +101,6 @@ Adobe Analytics 中的某些 Adobe 合作伙伴集成限制为每个报表包具
    * 如果要使虚拟报表包更加互斥，请使用点击容器。
 2. 确认虚拟报表包设置正确后，从实施中删除辅助报表包 ID。要删除辅助报表包，请执行以下操作：
    * 在 Adobe Experience Platform Launch 中，单击您不希望再使用的任何报表包旁边的“x”。
-   * 在 DTM 中，找到相应资产和 Analytics 工具。在“生产帐户 ID”和“暂存帐户 ID”字段中，删除您不希望再使用的任何报表包 ID。
    * 在旧版 JavaScript 实施中，找到 `s.account` 变量并删除您不希望再使用的任何报表包 ID。
    * 在所有情况下，仅保留全局/父报表包 ID 以收集网站和应用程序的数据。
    * 导航到“管理员”>“报表包”并隐藏任何不再使用的辅助报表包。
