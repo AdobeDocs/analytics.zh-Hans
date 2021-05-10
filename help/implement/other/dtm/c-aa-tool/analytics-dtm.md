@@ -58,7 +58,7 @@ ht-degree: 100%
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
      <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>生产帐户 ID：</b>（必需）用于数据收集的生产帐户。对于 Analytics，这是您的报表包 ID。Dynamic Tag Management 会自动在生产和测试环境中安装正确的帐户。 </p> </li> 
      <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>暂存帐户 ID：</b>（必需）用于您的开发或测试环境。对于 Analytics，这是您的报表包 ID。测试帐户可将测试数据与生产数据分开。 </p> </li> 
-     <li id="li_69E6C6A41F5240E1ABE8ABE0B9D151FC"> <p><b> 跟踪服务器：</b>指定关于 跟踪服务器的信息。 </p> <p><span class="wintitle">跟踪服务器</span>和 <span class="wintitle">SSL 跟踪服务器</span>变量用于第一方 cookie 实施，以指定在其中写入图像请求和 cookie 的域。有关更多信息，请参阅<a href="https://helpx.adobe.com/cn/analytics/kb/determining-data-center.html">正确填充 trackingServer 和 trackingServerSecure 变量</a>一文。 </p> </li> 
+     <li id="li_69E6C6A41F5240E1ABE8ABE0B9D151FC"> <p><b>跟踪服务器：</b>指定关于跟踪服务器的信息。 </p> <p><span class="wintitle">跟踪服务器</span>和 <span class="wintitle">SSL 跟踪服务器</span>变量用于第一方 cookie 实施，以指定在其中写入图像请求和 cookie 的域。有关更多信息，请参阅<a href="https://helpx.adobe.com/cn/analytics/kb/determining-data-center.html">正确填充 trackingServer 和 trackingServerSecure 变量</a>一文。 </p> </li> 
      <li id="li_1A7271C68205428F8CA5548A96CACBEC"> <p><b>SSL 跟踪服务器：</b>指定关于 SSL 跟踪服务器的信息。 </p> </li> 
     </ul> </td> 
   </tr> 
