@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 创建工作区项目
 feature: Reports & Analytics 基础知识
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '756'
 ht-degree: 100%
 
