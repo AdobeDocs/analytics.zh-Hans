@@ -6,11 +6,11 @@ title: 数据列引用
 feature: Reports & Analytics 基础知识
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3405'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 99%
 | `duplicated_from` | 仅在包含点击复制 VISTA 规则的报表包中使用。指示点击是从哪个报表包中复制的。 | varchar(40) |
 | `ef_id` | 在 Adobe Advertising Cloud 集成中使用的 `ef_id`。 | varchar(255) |
 | `evar1 - evar250` | 自定义变量 1 至 250。在 [eVar](/help/components/dimensions/evar.md) 维度中用到。每个公司使用 eVar 的方式有所不同。要了解有关贵组织如何填充各个 eVar 的更多信息，您最好参阅专为贵组织设计的解决方案文档。 | varchar(255) |
-| `event_list` | 以逗号分隔的数字 ID 列表，其中各 ID 表示点击时所触发的各个事件。包含默认事件及自定义事件 1-1000。使用 `event.tsv` 查找。 | 文本 |
+| `event_list` | 以逗号分隔的数字 ID 列表，其中各 ID 表示点击时所触发的各个事件。包含默认事件及自定义事件 1-1000。使用 `event.tsv` 查找。 | text |
 | `exclude_hit` | 指示是否从报表中排除点击的标志。对于被排除的点击，`visit_num` 列不递增。<br>1：未使用。属于某个已弃用的功能。<br>2：未使用。属于某个已弃用的功能。<br>3：已不再使用。用户代理排除<br>4：根据 IP 地址排除<br>5：缺少重要的点击信息，如 `page_url`、`pagename`、`page_event` 或 `event_list`<br>6：JavaScript 未正确处理点击<br>7：帐户特有的排除，如 VISTA 规则中的排除<br>8: 未使用。替代特定于帐户的排除。<br>9：未使用。属于某个已弃用的功能。<br>10：无效的货币代码<br>11：仅时间戳报表包上缺少时间戳的点击，或非时间戳报表包上包含时间戳的点击<br>12：未使用。属于某个已弃用的功能。<br>13：未使用。属于某个已弃用的功能。<br>14：与 Analytics 点击不匹配的 Target 点击<br>15：当前未使用。<br>16：与 Analytics 点击不匹配的 Advertising Cloud 点击 | 无符号 tinyint |
 | `first_hit_page_url` | 访客访问的第一个 URL。 | varchar(255) |
 | `first_hit_pagename` | 在[原始登入页面](/help/components/dimensions/entry-dimensions.md)维度中使用的变量。访客访问的原始登录页面名称。 | varchar(100) |
@@ -102,11 +102,11 @@ ht-degree: 99%
 | `latlon1` | 位置（精确到 10 千米） | varchar(255) |
 | `latlon23` | 位置（精确到 100 米） | varchar(255) |
 | `latlon45` | 位置（精确到 1 米） | varchar(255) |
-| `mc_audiences` | 列出访客所属的 Audience Manager 区段 ID。 | 文本 |
+| `mc_audiences` | 列出访客所属的 Audience Manager 区段 ID。 | text |
 | `mcvisid` | Experience Cloud 访客 ID. 一个 128 位的数字（由两个 64 位的数字拼接而成），共占据了 19 位数。 | varchar(255) |
 | `mobile_id` | 如果用户使用了移动设备，则为移动设备的数字 ID。 | int |
 | `mobileaction` | 移动设备操作。在 Mobile Services 中调用 `trackAction` 时自动收集此项。应用程序支持自动的操作路径。 | varchar(100) |
-| `mobileappid` | 移动设备应用程序 ID。采用以下格式存储应用程序名称和版本：  `[AppName] [BundleVersion]` | varchar(255) |
+| `mobileappid` | 移动设备应用程序 ID。采用以下格式存储应用程序名称和版本： `[AppName] [BundleVersion]` | varchar(255) |
 | `mobileappperformanceappid` | 用于 Apteligent Data Connector。Apteligent 中使用的应用程序 ID。 | varchar(255) |
 | `mobileappperformancecrashid` | 用于 Apteligent Data Connector。Apteligent 中使用的崩溃 ID。 | varchar(255) |
 | `mobileappstoreobjectid` | 用于 Appfigures Data Connector。应用商店对象 ID。 | varchar(255) |
@@ -147,17 +147,17 @@ ht-degree: 99%
 | `mobilerelaunchcampaigntrackingcode` | 从上下文数据变量 `a.launch.campaign.trackingcode` 收集。在客户获取中用作启动促销活动的跟踪代码。 | varchar(255) |
 | `mobileresolution` | 移动设备的分辨率。`[Width] x [Height]` 以像素为单位。 | varchar(255) |
 | `monthly_visitor` | 表示访客属于当月的独特访客的标记。 | 无符号 tinyint |
-| `mvvar1` - `mvvar3` | 列出变量值。包含分隔的自定义值列表（取决于实施）。 | 文本 |
+| `mvvar1` - `mvvar3` | 列出变量值。包含分隔的自定义值列表（取决于实施）。 | text |
 | `namespace` | 未使用。属于某个已弃用的功能。 | varchar(50) |
 | `new_visit` | 确定当前点击是否为新访问的标记。在访问处于不活动状态 30 分钟后，由 Adobe 服务器设置。 | 无符号 tinyint |
 | `os` | 表示访客的操作系统的数值 ID。基于 `user_agent` 列。使用 `os` 查找。 | 无符号 int |
-| `p_plugins` | 已不再使用。可用于浏览器的插件列表。使用了 JavaScript 函数 `navigator.plugins()`。 | 文本 |
+| `p_plugins` | 已不再使用。可用于浏览器的插件列表。使用了 JavaScript 函数 `navigator.plugins()`。 | text |
 | `page_event` | 在图像请求中发送的点击类型（标准点击、下载链接、自定义链接、退出链接）。请参阅[页面事件查找](datafeeds-page-event.md)。 | 无符号 tinyint |
-| `page_event_var1` | 仅用于链接跟踪图像请求。单击的下载链接、退出链接或自定义链接的 URL。 | 文本 |
+| `page_event_var1` | 仅用于链接跟踪图像请求。单击的下载链接、退出链接或自定义链接的 URL。 | text |
 | `page_event_var2` | 仅用于链接跟踪图像请求。链接的自定义名称（如果已指定）。 | varchar(100) |
-| `page_event_var3` | 已不再使用。包含调查和媒体模块数据。用于填充 Adobe Analytics 早期版本中的旧版视频报表。 | 文本 |
+| `page_event_var3` | 已不再使用。包含调查和媒体模块数据。用于填充 Adobe Analytics 早期版本中的旧版视频报表。 | text |
 | `page_type` | 用于填充[未找到页面](/help/components/dimensions/pages-not-found.md)维度。仅用于 404 页面。此变量应为空或包含 `ErrorPage` 值。 | char(20) |
-| `page_url` | 点击的 URL。在其后变量(post_page_url)中，会为链接跟踪图像请求去除该值。 | varchar(255) |
+| `page_url` | 点击的 URL。在其后变体 (post_page_url) 中，该值会被去除以用于链接跟踪图像请求。 | varchar(255) |
 | `pagename` | 用于填充[页面](/help/components/dimensions/page.md)维度。如果 [`pagename`](/help/implement/vars/page-vars/pagename.md) 变量为空，则 Analytics 改用 `page_url`。 | varchar(100) |
 | `paid_search` | 设置点击是否与付费搜索检测匹配的标记。 | 无符号 tinyint |
 | `partner_plugins` | 未使用。属于某个已弃用的功能。 | varchar(255) |
@@ -167,9 +167,9 @@ ht-degree: 99%
 | `pointofinterestdistance` | Mobile Services 与目标点中心的距离 | varchar(255) |
 | `post_` 列 | 包含报表中最终使用的值。每个 post 列会在服务器端逻辑、处理规则和 VISTA 规则后填充。大多数情况下，Adobe 建议使用 post_ 列。 | 请参阅相应的非 post 列 |
 | `prev_page` | 未使用。上一页的 Adobe 专有标识符。 | 无符号 int |
-| `product_list` | 产品列表，通过 [`products`](/help/implement/vars/page-vars/products.md) 变量传入。各产品用逗号分隔，而各个产品属性则用分号分隔。 | 文本 |
-| `product_merchandising` | 未使用。请改用 `product_list`。 | 文本 |
-| `prop1` -  `prop75` | 自定义流量变量 1 至 75。在 [Prop](/help/components/dimensions/prop.md) 维度中用到。 | varchar(100) |
+| `product_list` | 产品列表，通过 [`products`](/help/implement/vars/page-vars/products.md) 变量传入。各产品用逗号分隔，而各个产品属性则用分号分隔。 | text |
+| `product_merchandising` | 未使用。请改用 `product_list`。 | text |
+| `prop1` - `prop75` | 自定义流量变量 1 至 75。在 [Prop](/help/components/dimensions/prop.md) 维度中用到。 | varchar(100) |
 | `purchaseid` | 某次购买的唯一标识符，使用 [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) 变量设置它。供 `duplicate_purchase` 列使用。 | char(20) |
 | `quarterly_visitor` | 确定点击是否为新的每季访客的标记。 | 无符号 tinyint |
 | `ref_domain` | 基于反向链接列。点击的反向链接域。在[反向链接域](/help/components/dimensions/referring-domain.md)维度中用到。 | varchar(100) |
@@ -200,15 +200,15 @@ ht-degree: 99%
 | `state` | 状态变量。 | varchar(50) |
 | `stats_server` | 没有用处。处理点击的 Adobe 内部服务器。 | char(30) |
 | `t_time_info` | 访客的当地时间。格式为：`M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
-| `tnt` | 在 Adobe Target 集成中使用。 | 文本 |
-| `tnt_action` | 在 Adobe Target 集成中使用。 | 文本 |
-| `tnt_post_vista` | 已不再使用。请改用 `post_tnt`。 | 文本 |
-| `transactionid` | 其中稍后可通过数据源上载各种数据点的唯一标识符。使用 [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 变量收集而得。 | 文本 |
+| `tnt` | 在 Adobe Target 集成中使用。 | text |
+| `tnt_action` | 在 Adobe Target 集成中使用。 | text |
+| `tnt_post_vista` | 已不再使用。请改用 `post_tnt`。 | text |
+| `transactionid` | 其中稍后可通过数据源上载各种数据点的唯一标识符。使用 [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 变量收集而得。 | text |
 | `truncated_hit` | 表示图像请求已被截断的标记。表示收到了不完整的点击。<br>Y：点击被截断；收到部分点击<br>N：点击未被截断；收到完整点击 | char(1) |
 | `ua_color` | 已不再使用。之前用作颜色深度的备选项。 | char(20) |
 | `ua_os` | 已不再使用。之前用作操作系统的备选项。 | char(80) |
 | `ua_pixels` | 已不再使用。之前用作浏览器高度和宽度的备选项。 | char(20) |
-| `user_agent` | 在图像请求的 HTTP 标头中发送的用户代理字符串。 | 文本 |
+| `user_agent` | 在图像请求的 HTTP 标头中发送的用户代理字符串。 | text |
 | `user_hash` | 没有用处。有关报表包 ID 的散列。请改用 `username`。 | 无符号 int |
 | `user_server` | 在[服务器](/help/components/dimensions/server.md)维度中用到。 | varchar(100) |
 | `userid` | 没有用处。表示报表包 ID 的数字 ID。请改用 `username`。 | 无符号 int |
@@ -241,7 +241,7 @@ ht-degree: 99%
 | `videodaypart` | 视频播放时段 | varchar(255) |
 | `videoepisode` | 视频剧集 | varchar(255) |
 | `videofeedtype` | 视频馈送类型 | varchar(255) |
-| `videogenre` | 视频流派 | 文本 |
+| `videogenre` | 视频流派 | text |
 | `videolength` | 视频长度 | varchar(255) |
 | `videomvpd` | 视频 MVPD | varchar(255) |
 | `videoname` | 视频名称 | varchar(255) |
@@ -254,8 +254,8 @@ ht-degree: 99%
 | `videoqoebuffertimeevar` | 视频品质：缓冲时间 | varchar(255) |
 | `videoqoedroppedframecountevar` | 视频品质：丢帧计数 | varchar(255) |
 | `videoqoeerrorcountevar` | 视频品质：错误计数 | varchar(255) |
-| `videoqoeextneralerrors` | 视频品质：外部错误 | 文本 |
-| `videoqoeplayersdkerrors` | 视频品质：SDK 错误 | 文本 |
+| `videoqoeextneralerrors` | 视频品质：外部错误 | text |
+| `videoqoeplayersdkerrors` | 视频品质：SDK 错误 | text |
 | `videoqoetimetostartevar` | 视频品质：启动时间 | varchar(255) |
 | `videoseason` | 视频季 | varchar(255) |
 | `videosegment` | 视频区段 | varchar(255) |
