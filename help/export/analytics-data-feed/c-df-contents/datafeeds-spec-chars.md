@@ -6,9 +6,9 @@ title: 数据馈送中的特殊字符
 feature: Reports & Analytics 基础知识
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Adobe 使用转义逻辑确保发送到数据收集服务器的值不会损坏�
 |--- |--- |
 | `\t` | 表示制表符。标记列或数据字段的结尾。 |
 | `\n` | 表示换行符。标记行或点击的结尾。 |
-| `\` | 反斜线. 作为数据收集的一部分发送时的转义字符。 |
+| `\` | 反斜线。作为数据收集的一部分发送时的转义字符。 |
 
 当这些保留值前面有反斜线时，将作为数据收集的一部分发送它们。
 
