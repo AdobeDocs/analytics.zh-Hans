@@ -1,12 +1,12 @@
 ---
 title: “报表包工具”的产品配置文件权限
-description: 了解“报表包工具”下的每个权限项目。
+description: 了解“报表包工具”下面的每个权限项。
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '662'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
