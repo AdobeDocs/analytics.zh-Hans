@@ -5,9 +5,9 @@ title: VRS 常见问题解答
 feature: Reports & Analytics 基础知识
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
 exl-id: ab961bec-5719-4b90-bc10-c929b63dc923
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '904'
 ht-degree: 100%
 
