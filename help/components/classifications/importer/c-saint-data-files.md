@@ -2,11 +2,11 @@
 description: 导入器允许您将文件中的分类数据批量上载至分析报表。导入要求使用特定文件格式，才能成功上载数据。
 subtopic: Classifications
 title: 分类数据文件
-feature: Admin Tools
+feature: 管理工具
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1773'
 ht-degree: 100%
 
@@ -204,5 +204,5 @@ ht-degree: 100%
 
 ## 有关分类的疑难解答
 
-* [常见 上载问题](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)：知识库文章，描述由于文件格式以及文件内容不正确导致的问题。
+* [常见 上载问题](https://helpx.adobe.com/cn/analytics/kb/common-saint-upload-issues.html)：知识库文章，描述由于文件格式以及文件内容不正确导致的问题。
 
