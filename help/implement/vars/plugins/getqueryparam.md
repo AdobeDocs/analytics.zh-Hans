@@ -2,11 +2,11 @@
 title: getQueryParam
 description: 提取 URL 查询字符串参数的值。
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a087087c8f54650173391bd7766bfdfd12ccb7e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '918'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -185,14 +185,14 @@ s.eVar2=s.getQueryParam('ecid,cid,location,pos','|',s.testURL);
 
 ## 版本历史记录
 
-### 4.0.1（2021年3月26日）
+### 4.0.1（2021 年 3 月 26 日）
 
-* 更新了如果查询字符串中不存在查询参数，则返回未定义项而不是“”的问题。
+* 更新了查询字符串中不存在查询参数时返回“未定义”而非 &quot;&quot; 的问题。
 
 ### 4.0（2021 年 3 月 19 日）
 
 * 以上下文数据形式添加了版本号。
-* 删除了对pt plugin的依赖关系。
+* 删除了 pt 插件的依赖项。
 
 ### 3.3（2019 年 9 月 24 日）
 
