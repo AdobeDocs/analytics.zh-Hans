@@ -1,12 +1,12 @@
 ---
 description: 通过区段生成器，您可以使用选定的运算符比较和约束值。
 title: 区段的比较运算符
-feature: Segmentation
+feature: 分段
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1022'
 ht-degree: 100%
 
