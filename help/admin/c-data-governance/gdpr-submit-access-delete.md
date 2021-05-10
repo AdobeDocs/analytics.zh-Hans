@@ -3,28 +3,25 @@ description: 如何在 Adobe Analytics 中提交数据访问和删除请求。
 title: 提交访问和删除请求
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1312'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+workflow-type: tm+mt
+source-wordcount: '1307'
+ht-degree: 97%
 
 ---
 
 # 提交访问和删除请求
 
-
-## 概述 {#section_BD70882995894C1CA19C205C49FEC23C}
-
 如果您的客户（用户/数据主体）希望知道您保留了哪些与他们有关的数据或决定要从您的 Analytics 属性中删除这些数据，您作为数据控制者有责任回应这些请求。数据控制者确定您的组织与数据主体交互的方式（例如，通过数据主体用户门户），并负责管理与数据主体的交互。数据控制者还负责在请求得到满足后，关闭数据主体的循环。换句话说，Adobe Experience Cloud 作为数据处理者，将不会直接从数据主体接收请求或将数据直接返回给他们。Adobe 将从您（作为数据控制者）那里接收请求，并将数据只返回给您。
 
 您可能还需要确保您的移动设备应用程序和网站具有与数据主体权利相关的弹出通知和支持材料，内容涉及可直接或间接识别他们的数据以及您收集的其他数据。
 
-## 管理用户同意 {#section_3012015E7E8942519FB9279CF7057EAB}
+## 管理用户同意  {#section_3012015E7E8942519FB9279CF7057EAB}
 
-作为数据控制者，您有责任在收集与数据主体相关的数据（可能包括 Adobe Analytics 数据）之前获得他们的明确同意，并且有责任在您的网站上[实施退出机制](https://docs.adobe.com/content/help/zh-Hans/dtm/using/tools/opt-in.html)。该机制允许您的数据主体退出以后的 Adobe Experience Cloud 数据收集。
+作为数据管理者，您有责任在收集数据主体的相关数据(可能包括Adobe Analytics数据)之前获得数据主体的明确同意，并负责在您的网站上实施[退出机制](https://www.adobe.com/cn/privacy/opt-out.html#customeruse)。 该机制允许您的数据主体退出以后的 Adobe Experience Cloud 数据收集。
 
-## 验证用户及其数据 {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
+## 验证用户及其数据  {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
 作为数据控制者，您有责任验证自称是数据主体的用户的真实身份，并且他们有权访问所请求的数据。另外，您还有责任确保将正确的数据返回给数据主体，并且他们不会意外收到有关其他数据主体的数据。
 
@@ -40,7 +37,7 @@ ht-degree: 100%
 >
 >数据隐私 API 支持在一个请求中批量提交多个用户。当前支持的限制是：允许单个请求 JSON 文件中有 1000 个独立用户（每个用户可以有多个 ID）。
 
-## JSON 请求示例 {#sample-json-request}
+## JSON 请求示例  {#sample-json-request}
 
 以下是可能通过数据隐私 API 或用户界面提交的 JSON，请求为三位用户进行数据隐私处理。
 
