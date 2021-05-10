@@ -2,13 +2,13 @@
 description: 分类规则会定期查找未分类的术语。如果找到匹配规则的术语，规则会自动将其添加到分类数据表。您还可以使用分类规则覆盖现有键值。
 subtopic: Classifications
 title: 分类规则
-feature: Admin Tools
+feature: 管理工具
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2020'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 99%
 | 选择规则类型 | 输入匹配条件 | 设置分类 | 至 |
 |---|---|---|---|
 | 开头 | em: | 渠道 | 电子邮件 |
-| 结束 | Sale | 类型 | 销售 |
+| 结束 | Sale | 类型 | Sale |
 | 包含 | 2013 | 年 | 2013 |
 
 ## 如何处理规则 {#how-rules-are-processed}
@@ -159,7 +159,7 @@ regex_classification_rules.xml
 
 有关正则表达式中字符含义的信息，请参阅[正则表达式 - 参考表](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)。
 
-## 正则表达式 - 对特定字符进行分类  {#section_5D300C03FA484BADACBFCA983E738ACF}
+## 正则表达式 - 对特定字符进行分类 {#section_5D300C03FA484BADACBFCA983E738ACF}
 
 使用正则表达式的一种方式是对一串字符中的特定字符进行分类。例如，假设以下跟踪代码包含两个重要字符：
 
@@ -285,7 +285,7 @@ rule_priority.xml
 | 规则编号 | 规则类型 | 匹配 | 设置分类 | 至 |
 |---|---|---|---|---|
 | 1 | 包含 | Cowboys | 搜索类型 | Team |
-| 2 | 包含 | Fantasy | 搜索类型 | 幻想 |
+| 2 | 包含 | Fantasy | 搜索类型 | Fantasy |
 | 3 | 包含 | Romo | 搜索类型 | Player |
 
 如果用户搜索 *`Cowboys fantasy Tony Romo`*，会对术语 *`Player`* 进行分类，因为它与“设置分类”列中显示的最后一个给定分类相匹配。
@@ -294,7 +294,7 @@ rule_priority.xml
 
 | 规则编号 | 规则类型 | 匹配 | 设置分类 | 至 |
 |---|---|---|---|---|
-| 3 | 包含 | 牛仔队 | 城市 | Dallas |
+| 1 | 包含 | Cowboys | 城市 | Dallas |
 | 2 | 包含 | Broncos | 城市 | Denver |
 
 用户搜索 *`Cowboys vs. Broncos`*。如果规则生成器发现规则匹配存在冲突，则第二条规则的分类 (Denver) 将应用到此搜索。
@@ -326,13 +326,15 @@ t_classification_rule.xml
 
    >[!NOTE]
    >
-   >满足以下条件时，报表包将显示在此页面&#x200B;*`only`*&#x200B;中：
+   >*`only`*&#x200B;当满足以下条件时，才会在此页面上显示报表包：
    >
    >* 报表包在[!UICONTROL 管理工具]中针对该变量至少定义了一个分类。
-   >
-   > （请参阅&#x200B;*`Variable`*&#x200B;分类规则集[中的 ](/help/components/classifications/crb/classification-rule-set.md)，了解关于此先决条件的说明。）
-   >
-   >* 您在单击&#x200B;**[!UICONTROL 添加规则集]**&#x200B;以创建规则集后显示的[可用报表包](/help/components/classifications/crb/classification-rule-set.md)页面上选择了报表包。
+      >
+      >   
+      （请参阅&#x200B;*`Variable`*&#x200B;分类规则集[中的 ](/help/components/classifications/crb/classification-rule-set.md)，了解关于此先决条件的说明。）
+      >
+      >
+   * 您在单击&#x200B;**[!UICONTROL 添加规则集]**&#x200B;以创建规则集后显示的[可用报表包](/help/components/classifications/crb/classification-rule-set.md)页面上选择了报表包。
 
 
 1. 指定是否覆盖现有的值：
