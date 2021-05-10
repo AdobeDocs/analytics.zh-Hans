@@ -2,12 +2,12 @@
 description: 分类规则生成器中的页面上界面元素的定义。
 subtopic: Classifications
 title: 分类规则 - 定义
-feature: Admin Tools
+feature: 管理工具
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '880'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>规则会覆盖任何现有的值 </p> </td> 
-   <td colname="col2"> <p> （默认设置）始终覆盖现有的分类键值，包括通过导入器上载的分类 (SAINT)。 </p> </td> 
+   <td colname="col2"> <p> （默认设置）始终覆盖现有的分类键值，包括通过导入器 (SAINT) 上载的分类。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>规则仅会覆盖未设置的值 </p> </td> 
@@ -108,7 +108,7 @@ ht-degree: 100%
    <td colname="col2"> 满足匹配条件时要设置的分类列。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> 至</span> </td> 
+   <td colname="col1"> <span class="wintitle"> 目标值</span> </td> 
    <td colname="col2"> 满足匹配条件时要为选定的分类列指定的值。 </td> 
   </tr> 
   <tr> 
