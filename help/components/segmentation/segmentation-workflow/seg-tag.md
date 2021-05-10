@@ -1,7 +1,7 @@
 ---
 description: 在“区段管理器”中，您可以通过标记区段来组织区段。
 title: 标记区段
-feature: 区段划分
+feature: 分段
 uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
 exl-id: 2c838bb1-3fab-467a-9a1d-54c7c5a3b49e
 translation-type: tm+mt
