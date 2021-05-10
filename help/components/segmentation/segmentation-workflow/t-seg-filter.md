@@ -1,12 +1,12 @@
 ---
 description: 按照标记、所有者和其他过滤器（全部显示、我的、已与我共享、收藏和已批准）进行过滤。
 title: 过滤区段
-feature: 区段划分
+feature: 分段
 uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
 ht-degree: 100%
 
