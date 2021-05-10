@@ -2,10 +2,10 @@
 title: Adobe Analytics 中使用的术语
 description: Adobe Analytics 词汇表，用于定义常用术语。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '2458'
+translation-type: tm+mt
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+workflow-type: tm+mt
+source-wordcount: '2433'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,6 @@ ht-degree: 100%
 * **数据源：**&#x200B;允许用户将数据从文件上载到 Adobe Analytics。文件通常从 FTP 站点中提取。请参阅导入用户指南中的[数据源](/help/import/c-data-sources/datasrc-home.md)。
 * **Data Warehouse：** Adobe Analytics 中的一项功能，允许您请求更大的报表。请参阅导出用户指南中的 [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)。
 * **维度：**&#x200B;一种包含变量值（如文本）的组件类型。示例包括页面名称、跟踪代码或反向链接域名。通常与量度相对应。
-* **Dynamic Tag Management：** Adobe 以前的标签管理解决方案。请参阅实施用户指南中的 [DTM 实施概述](/help/implement/other/dtm/dtm-implementation-overview.md)。Adobe 建议改用 Adobe Experience Platform Launch。
 * **事件序列化：**&#x200B;执行各种措施以防止收集重复事件的过程。请参阅实施用户指南中的[事件序列化](../implement/vars/page-vars/events/event-serialization.md)。
 * **eVar：**&#x200B;请参阅“转化变量”。
 * **事件：**&#x200B;请参阅“成功事件”。
