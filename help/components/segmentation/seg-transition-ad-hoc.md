@@ -2,11 +2,11 @@
 description: 如果您习惯于在 Ad Hoc Analysis 中使用区段生成器，那么此常见问题解答解释了现有区段和文件夹的情况以及需要采取哪些操作。
 keywords: 分段;区段
 title: 适用于 Ad Hoc Analysis 的过渡指南
-feature: Segmentation
+feature: 分段
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '832'
 ht-degree: 100%
 
@@ -31,44 +31,44 @@ ht-degree: 100%
 
 在区段生成器中，区段模板使用特殊的图标进行标记。
 
-## 我的现有区段文件夹有什么变化？  {#section_FB04DCF775694E69B761DCA53F301C30}
+## 我的现有区段文件夹有什么变化？ {#section_FB04DCF775694E69B761DCA53F301C30}
 
 区段管理器不再使用 Ad Hoc Analysis 文件夹，而是使用标签。您的文件夹名称会自动转换为标记，而且这些标记会应用于各自的区段。
 
-## 已应用区段的计划报表有什么变化？  {#section_81D1B215533C46E99E17BAE7A3376FDF}
+## 已应用区段的计划报表有什么变化？ {#section_81D1B215533C46E99E17BAE7A3376FDF}
 
 计划报表会继续以您所定义的区段正常运行。
 
 删除区段后，应用该区段的计划报表和功能板可继续正常使用，即区段或功能板继续使用删除的区段。
 
-## 什么是“点击”容器？与页面查看容器是否有什么不同？  {#section_65BBE60A836C4001938830DDA15DC256}
+## 什么是“点击”容器？与页面查看容器是否有什么不同？ {#section_65BBE60A836C4001938830DDA15DC256}
 
 页面查看容器已重命名为“点击”容器，以表示该容器可分段所有类型的数据，而不仅仅是页面查看。例如，点击容器完全包含或排除链接跟踪调用和移动 SDK 中的 trackAction 调用。
 
 请注意，此容器的运行方式并没有发生任何更改，只是进行了重命名。
 
-## 需要哪些权限才能使用、创建和管理区段？  {#section_648DFA3A882146C485A84ED014EEC707}
+## 需要哪些权限才能使用、创建和管理区段？ {#section_648DFA3A882146C485A84ED014EEC707}
 
 所有用户均可以创建和编辑个人区段。这些区段可以直接与任何其他 Analytics 用户共享。“Ad Hoc Analysis”用户可以查看每个人创建的区段，以及直接与该用户共享的那些区段。
 
 在“统一的分段”Web 控制台中，管理员可以编辑任意区段，并且与群组以及组织中的每个人共享区段。
 
-## 我可以看到公司的所有区段吗？  {#section_AC2D328C7410419E80C7C17971CD95B3}
+## 我可以看到公司的所有区段吗？ {#section_AC2D328C7410419E80C7C17971CD95B3}
 
 会显示您拥有的所有 Ad Hoc Analysis 区段，以及明确与您共享的区段。
 
-## 我可以在区段管理器中管理所有 Analytics 区段吗？  {#section_AF5EDD72C74A4739BD40C4AF125CE489}
+## 我可以在区段管理器中管理所有 Analytics 区段吗？ {#section_AF5EDD72C74A4739BD40C4AF125CE489}
 
 Ad Hoc Analysis 仅显示由您生成的区段或明确与您共享的区段。仅对于 Ad Hoc Analysis 而言，您可以使用区段管理器（组织区段）来管理 Ad Hoc Analysis 区段。可以使用“统一的分段”中的区段管理器来管理所有的 Analytics 区段。
 
-## 我应该怎样处理具有相同名称，但可能有不同定义的重复区段？  {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
+## 我应该怎样处理具有相同名称，但可能有不同定义的重复区段？ {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
 由于区段在多个报表包中使用，您可能会发现有多个区段具有相同的名称。我们建议您
 
 * 重命名名称相同但定义不同的区段，或者
 * 删除不再需要的区段。
 
-## Adobe 建议我应该怎样清除区段？  {#section_3AC2D265F9084557A24C6FB39DC6EE49}
+## Adobe 建议我应该怎样清除区段？ {#section_3AC2D265F9084557A24C6FB39DC6EE49}
 
 * 使用原有标记对所有区段添加标记。
 * 审查您拥有的区段。
@@ -79,7 +79,7 @@ Ad Hoc Analysis 仅显示由您生成的区段或明确与您共享的区段。�
 
 如果区段已发布到 Experience Cloud，则无法删除或编辑该区段。但是，您可以复制该区段，然后编辑其复制版本。
 
-## 关于现有区段所发生改变的更多信息  {#section_83ACAB256F394DCD8B424D8920BDD853}
+## 关于现有区段所发生改变的更多信息 {#section_83ACAB256F394DCD8B424D8920BDD853}
 
 <table id="table_0AE814A64D2A48ABB28402C4303F420E"> 
  <thead> 
