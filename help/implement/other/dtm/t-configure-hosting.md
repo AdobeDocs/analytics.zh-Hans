@@ -54,7 +54,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> 自托管：库下载 </td> 
-   <td colname="col2"> <p>一种<span class="term">提取</span>方法，应用程序可使用此方法导出自定义 JavaScript 库。<!-- to Amazon S3-->这样，这些库就可以由托管的服务器端进程进行访问。 </p> <p>另外，这些库可通过 Web 下载直接从动态标签管理界面获取。 </p> <p>此解决方案要求手动检索并发布动态标签管理库，或者创建一个可将库从 Akamai 提取到 Web 内容服务器的自动化进程。 </p> <p>此方法在设置上最耗时，但也是最安全灵活的选项。 </p> <p>要检查引用的是否是库文件的最新版本，请使用相应命令 </p> <p>有关更多详细信息，请参阅“动态标签管理产品文档”中的<a href="https://docs.adobe.com/content/help/zh-Hans/dtm/using/client-side/deployment.html#task_B7A42F3B1D3E4B71B0BADD17C181F22A">库下载</a>。 </p> </td> 
+   <td colname="col2"> <p>一种<span class="term">提取</span>方法，应用程序可使用此方法导出自定义 JavaScript 库。<!-- to Amazon S3-->这样，这些库就可以由托管的服务器端进程进行访问。 </p> <p>另外，这些库可通过 Web 下载直接从动态标签管理界面获取。 </p> <p>此解决方案要求手动检索并发布动态标签管理库，或者创建一个可将库从 Akamai 提取到 Web 内容服务器的自动化进程。 </p> <p>此方法在设置上最耗时，但也是最安全灵活的选项。 </p> <p>要检查引用的是否是库文件的最新版本，请使用相应命令。 </p> <p>有关更多详细信息，请参阅“动态标签管理产品文档”中的<a href="https://docs.adobe.com/content/help/zh-Hans/dtm/using/client-side/deployment.html#task_B7A42F3B1D3E4B71B0BADD17C181F22A">库下载</a>。 </p> </td> 
    <td colname="col3"> 
     <ol id="ol_F40B721306FE473496BD657262DFD585"> 
      <li id="li_4EA4D6B555CE4E9CA476C7550C18C061">动态标签管理生成自定义 JavaScript 库。 </li> 
