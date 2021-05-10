@@ -1,12 +1,12 @@
 ---
 description: 介绍了可在规划区段时遵循的步骤和最佳实践。
 title: 计划区段
-feature: 区段划分
+feature: 分段
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
 exl-id: ad4c6078-6f77-428e-b1f1-168f80d02668
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '209'
 ht-degree: 100%
 
