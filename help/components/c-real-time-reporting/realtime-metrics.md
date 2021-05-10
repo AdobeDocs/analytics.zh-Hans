@@ -4,9 +4,9 @@ title: 受支持的实时量度和维度
 topic-fix: Reports
 uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
 exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '106'
 ht-degree: 100%
 
