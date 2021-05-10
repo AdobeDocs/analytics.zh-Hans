@@ -1,12 +1,12 @@
 ---
 description: 允许您将区段用于“受众库”、Target 和 Audience Manager 中的营销活动。
 title: 将区段发布到 Experience Cloud
-feature: Segmentation
+feature: 分段
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1346'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 | 元素 | 描述 |
 |---|---|
-| **[!UICONTROL 将此区段发布到 Experience Cloud（对于 *`<report suite>`*)]** | 启用此选项后，区段标题和定义（即，广告平台中经常使用的 Shell 受众）会立即与 Experience Cloud 共享，而区段会员资格则每 4 小时进行一次评估和共享。<br>例如，当该受众与 [!DNL Target] 中的某个活动关联时，[!DNL Analytics] 将开始发送具有 Experience Cloud 和 [!DNL Target] 受众资格的访客的 ID。此时，受众名称和相应的数据开始显示在“Experience Cloud 受众”页面中。</br> |
+| **[!UICONTROL 将此区段发布到 Experience Cloud（对于 *`<report suite>`*）]** | 启用此选项后，区段标题和定义（即，广告平台中经常使用的 Shell 受众）会立即与 Experience Cloud 共享，而区段会员资格则每 4 小时进行一次评估和共享。<br>例如，当该受众与 [!DNL Target] 中的某个活动关联时，[!DNL Analytics] 将开始发送具有 Experience Cloud 和 [!DNL Target] 受众资格的访客的 ID。此时，受众名称和相应的数据开始显示在“Experience Cloud 受众”页面中。</br> |
 | **[!UICONTROL 受众创建窗口]** | 您选择用于在滚动日历基础上创建受众的时间范围。例如，“最近 30 天”（默认）包括从当天日期（不是最初创建区段的日期）起，最近 30 天中符合受众条件的访客。 |
 | **[!UICONTROL 在受众库中创建]** | 您创建和发布的区段可在 Experience Cloud 受众库中立即提供。它们不依赖于 Analytics 更新。这些区段不会计入 75 个已发布区段的限制。 |
 | **[!UICONTROL 已发布 x 个（限制为 75 个）]** | 显示您已发布到 Experience Cloud 的区段数。单击该链接可查看已发布的区段，及其关联的报表包和所有者的列表。 |
@@ -97,7 +97,7 @@ ht-degree: 100%
 
 **方法 1：使用 Adobe Experience Cloud 调试器**
 
-1. 从 Chrome 网上应用店中，下载并安装 [Adobe Experience Cloud 调试器](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html)。
+1. 从 Chrome 网上应用店中，下载并安装 [Adobe Experience Cloud 调试器](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/testing-and-validation/debugger.html)。
 1. 加载页面时启动该调试器。
 1. 滚动到 Audience Manager 部分，然后找到在当前浏览器页面上设置的 AAM UUID
 （以下示例中为 `50814298273775797762943354787774730612`）
