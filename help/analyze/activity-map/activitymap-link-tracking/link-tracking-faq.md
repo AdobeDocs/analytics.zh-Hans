@@ -6,9 +6,9 @@ feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
 translation-type: tm+mt
-source-git-commit: 56d272b72d3274057668d3b45c416cb7487d56a2
+source-git-commit: af3e4fc64085e94ec5616b8b6851a823e4954b36
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '513'
 ht-degree: 44%
 
 ---
@@ -42,10 +42,15 @@ Activity Map链接和区域标识在用户单击页面时发生。
 * 这是`INPUT`标记，类型为`IMAGE`和`src`属性吗？
 * 这是`BUTTON`吗？
 
-如果以上任一问题的回答为是，则该元素将被视为链接，需要对其进行跟踪。 
-重要说明： AppMeasurement不将属性为type=&quot;button&quot;的Button标签视为链接。 请考虑在按钮标签上删除type=&quot;button&quot;，并改为添加role=&quot;button&quot;或submit=&quot;button&quot;。
- 
-重要说明：带有“href”的锚记标签(“#”的开始被AppMeasurement视为内部目标位置，而不是链接（因为您不要离开页面）。 默认情况下，Activity Map 不跟踪这些内部目标位置，而是仅跟踪将用户导航到新页面的链接。
+如果以上任一问题的回答为是，则该元素将被视为链接，需要对其进行跟踪。
+
+>[!IMPORTANT]
+>
+>AppMeasurement不将属性为type=&quot;button&quot;的Button标签视为链接。 请考虑在按钮标签上删除type=&quot;button&quot;，并改为添加role=&quot;button&quot;或submit=&quot;button&quot;。
+
+>[!IMPORTANT]
+>
+>带有“href”的锚点标签，其中带有“#”的开始被AppMeasurement视为内部目标位置，而不是链接（因为您不要离开页面）。 默认情况下，Activity Map 不跟踪这些内部目标位置，而是仅跟踪将用户导航到新页面的链接。
 
 ## Activity Map如何跟踪其他可视HTML元素？
 
@@ -54,7 +59,6 @@ a.通过`s.tl()`函数。
 如果通过`s.tl()`调用进行了单击，则Activity Map还将收到此单击事件，并确定是否找到`linkName`字符串变量。 在执行`s.tl()`期间，该linkName将设置为Activity Map链接ID。 发起`s.tl()`调用的已点击元素将用于确定区域。 示例：
 
 ```
-    
 <img onclick="s.tl(true,'o','abc')" src="someimageurl.png"/>
 ```
 
@@ -69,7 +73,9 @@ b.通过`s_objectID`变量。 示例：
     
     本&quot;&#39;
 
-重要说明： 请注意，在Activity Map中使用`s_objectID`时，需要尾随分号(;)。
+>[!IMPORTANT]
+>
+>在Activity Map中使用`s_objectID`时，需要尾随分号(;)。
 
 ## 能否提供一些将被跟踪的链接示例？
 
