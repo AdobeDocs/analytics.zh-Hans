@@ -1,11 +1,11 @@
 ---
 description: 数据隐私中的隐私报表的变量。
 title: 隐私报表变量
-feature: Admin Tools
+feature: 管理工具
 exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '435'
 ht-degree: 100%
 
