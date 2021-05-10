@@ -2,14 +2,14 @@
 description: 使用机器人规则，您可以从报表包中删除已知蜘蛛程序和机器人程序生成的流量。删除机器人程序流量可为您网站上的用户活动提供更准确的测量。
 subtopic: Bot rules
 title: 机器人规则概述
-feature: Admin Tools
+feature: 管理工具
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1358'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 99%
 
 ## 标准 IAB 机器人规则
 
-可以通过选中[!UICONTROL 启用 IAB 机器人过滤规则]复选框来打开标准 IAB 机器人规则。此选择将删除 IAB（国际广告局）的国际蜘蛛程序与机器人列表中的机器人，从而删除机器人流量。Adobe每月从IAB更新此列表。
+可以通过选中[!UICONTROL 启用 IAB 机器人过滤规则]复选框来打开标准 IAB 机器人规则。此选择将删除 IAB（国际广告局）的国际蜘蛛程序与机器人列表中的机器人，从而删除机器人流量。Adobe 每月从 IAB 更新此列表。
 
 ![](assets/bot-iab-checkbox.png)
 
@@ -136,4 +136,4 @@ IAB 机器人列表完全基于用户代理，因此基于该列表的过滤不�
 
 如果启用了 IP 模糊处理，则在 IP 地址被模糊处理之前会发生 IP 排除，这样客户就无需在启用 IP 模糊处理时更改任何内容。
 
-如果删除了最后八位字节，则该操作是在 IP 过滤之前完成的。这样，最后八位字节将被替换为 0，并且应当更新 IP 排除规则以匹配末尾为 0 的 IP 地址。匹配 * 应当匹配 0。
+如果删除了最后八位字节，则该操作是在 IP 过滤之前完成的。这样，最后八位字节将被替换为 0，并且应当更新 IP 排除规则以匹配末尾为 0 的 IP 地址。* 应当匹配 0。
