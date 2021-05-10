@@ -2,13 +2,13 @@
 description: “定义用户群组”页面上的元素描述。
 subtopic: Users and groups
 title: 用户群组设置
-feature: Admin Tools
+feature: 管理工具
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 exl-id: f5cb40e6-bfcc-4071-bc6b-f3575f998edc
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '576'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在迁移完所有客户之后，将撤销 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员工具]** > **[!UICONTROL 用户管理]**&#x200B;中的帮助内容。
+>用户和产品管理已移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在迁移完所有客户之后，将撤销 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员工具]** > **[!UICONTROL 用户管理]**&#x200B;中的帮助内容。
 
 “定义用户群组”页面上的元素描述。
 
@@ -110,14 +110,7 @@ ht-degree: 100%
   <tr> 
    <td colname="col1"><b>所有报表包</b> </td> 
    <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 
-     <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
-      <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager（完全访问、自定义、无权访问） </li> 
-     </ul> </p> </td> 
-   <td colname="col2"> <p>具有活动 <span class="keyword">TagManager</span> 容器的客户支持这些权限。对于新用户则不可用。 </p> <p>Adobe 建议使用 <a href="https://docs.adobe.com/content/help/zh-Hans/dtm/using/migration/atm-migration.html">Dynamic Tag Management</a> 进行部署。 </p> </td> 
-  </tr> 
+  </tr>  
   <tr> 
    <td colname="col1"><b>指定用户登录</b> </td> 
    <td colname="col2"> </td> 
