@@ -4,11 +4,11 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 提供 Analytics 的高级分析和可视化工具 Analysis Workspace 以及 Adobe Analytics Dashboards、Report Builder 和 Activity Map 等工具的操作说明。
-translation-type: ht
-source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 20e57f1bef787329d7b871edd9e337b57feeb4e9
+workflow-type: tm+mt
 source-wordcount: '1012'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -246,7 +246,7 @@ ht-degree: 100%
    + 快速入门 {#getting-started}
       + 管理员快速入门 {#get-started-admins}
          + [启用 Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-         + [实现代码样例](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
+         + [实施Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
       + 用户快速入门 {#get-started-users}
          + [安装 Activity Map 浏览器插件](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
          + [启动 Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
