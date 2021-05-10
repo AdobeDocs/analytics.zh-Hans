@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Analysis Workspace 用例
 feature: Reports & Analytics 基础知识
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '521'
 ht-degree: 100%
 
