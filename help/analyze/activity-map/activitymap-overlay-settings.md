@@ -6,10 +6,10 @@ feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 65c9c690-81e0-4f0f-989d-586d247ed380
 translation-type: tm+mt
-source-git-commit: d4296a721e01e37c57a8fb44b67599a3cc9e4758
+source-git-commit: 700d3b21a238af23719b291fe60df207e916bb87
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 60%
+source-wordcount: '652'
+ht-degree: 50%
 
 ---
 
@@ -43,8 +43,8 @@ ht-degree: 60%
 
 | 设置 | 描述 |
 | --- | --- |
-| **[!UICONTROL 动态数据过滤]** |  |
-| **[!UICONTROL 隐藏未收到点击的链接的叠加]**。 | 此复选框允许您隐藏未获得任何点击量的链接所对应的叠加图，以减少界面上的混乱。 |
+| **[!UICONTROL 动态数据过滤]** | 此下拉列表允许您显示<ul><li>（默认）页面上的所有链接</li><li>页面上排名链接的顶部（最高）或底部（最低）#，其中#可以是1、10、50或100的选项。</li></ul> |
+| **[!UICONTROL 隐藏未收到点击的链接的叠加]**。 | 一个复选框，用于切换没有数据的链接的叠加的可见性。<ul><li>（默认）如果选中此复选框，则当链接没有ActivityMap链接数据时，不显示叠加。</li><li>如果未选中此复选框，则如果链接没有ActivityMap链接数据，则显示叠加并且其标签为“ — ”，即表示“N/A”（不适用）。 |
 
 ## 实时设置{#section_D30F6E62FB5D404090B588F396A460AF}
 
