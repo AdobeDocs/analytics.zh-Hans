@@ -2,12 +2,12 @@
 description: 描述如何通过 FTP 上载数据文件的步骤。
 subtopic: Classifications
 title: FTP 导入
-feature: Admin Tools
+feature: 管理工具
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
 ht-degree: 100%
 
