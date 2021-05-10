@@ -1,12 +1,12 @@
 ---
 title: Adobe Analytics 的产品配置文件
-description: 了解如何将产品用户档案用作产品管理员可分配给组织内用户的权限预设。
+description: 了解产品配置文件如何用作产品管理员可以分配给组织内的用户的权限预设。
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '671'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
