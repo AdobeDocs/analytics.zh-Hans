@@ -3,10 +3,10 @@ description: 了解 Analytics Data Connectors 生命周期终止的时间和原�
 title: Analytics Data Connectors 生命周期终止预告
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 translation-type: tm+mt
-source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
+source-git-commit: 06baca24c0cba70fd8c413fae7fe2763fe791359
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 82%
+source-wordcount: '648'
+ht-degree: 81%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 82%
 | MaritzCX (V 2.0) | 弃用 |
 | Merkle | 弃用 |
 | Official Oracle Eloqua Integration | 迁移至 Exchange |
-| optivo broadmail (Episerver) | 迁移至 Exchange |
+| optivo broadmail (Episerver) | 弃用 |
 | Qualtrics v2 | 迁移至 Exchange |
 | Responsys 2.0 | 弃用 |
 | Selligent | 弃用 |
