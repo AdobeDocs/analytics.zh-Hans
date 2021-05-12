@@ -2,11 +2,10 @@
 description: Analysis Workspace 的新增功能
 keywords: Analysis Workspace
 title: Analysis Workspace 中的新增功能
-feature: Workspace Basics
+feature: Workspace 基础知识
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-translation-type: tm+mt
-source-git-commit: 896e5a868f42c3bd76c3a2c3c92e7b9bd54f40ac
+source-git-commit: 9f15dccf3fb994898f51cbccdc5ee37e35870575
 workflow-type: tm+mt
 source-wordcount: '8323'
 ht-degree: 99%
@@ -24,13 +23,11 @@ ht-degree: 99%
 | [!UICONTROL 组件] >用 [!UICONTROL 户首选项] | 2021 年 3 月 25 日 | 通过[!UICONTROL “组件”]>[!UICONTROL “用户首选项”]页面可为用户管理 [!UICONTROL Analysis Workspace] 设置及其相关的组件。[!UICONTROL “用户首选项”]适用于所有新的项目和面板。<br>**注意：**&#x200B;以下设置已移至[!UICONTROL “用户首选项”]页面：<ul><li>报表设置：千位分隔符（现在称为&#x200B;_“数字格式”_）</li><li>报表设置：CSV 分隔符</li><li>Workspace 项目：“帮助”>“启用提示”</li><li>Workspace 项目：空白面板的&#x200B;_“用此面板开始新项目”_&#x200B;选项</li></ul> |
 | [!UICONTROL 直方图智能桶预测] | 2021 年 3 月 25 日 | [!UICONTROL “直方图智能存储桶预测”]帮助高势指标直方图为您的数据分布自动识别存储桶的合适宽度和数量。对于低势指标，可视化的表现与以前相同。 |
 
-
 ## 2021 年 2 月
 
 | 功能 | 目标日期 | 描述 |
 | --- | --- | --- |
 | 组件选择 | 2021 年 2 月 4 日 | 在[!UICONTROL “快速分析”]中发现的下拉/拖放区域组件将会添加到[!UICONTROL 工作区]内的所有拖放区域中。 通过此增强功能，您可以从兼容组件的下拉列表中进行选择，或继续将空间用作拖放区域。 |
-
 
 ## 2021 月 1 日
 
@@ -1168,7 +1165,7 @@ ht-degree: 99%
 
 当颜色和大小维度以某种方式与树结构关联时，用户通常可以轻松地查看平时很难以其他方式见到的模式，例如当有某个颜色特别重要时。树图的第二个优势在于，它们可以通过精心的构建有效地利用空间。
 
-## 针对区段、量度和日期的另存为功能  {#section_04C8B10A0751453AAE5F1BC35938C6CE}
+## 针对区段、量度和日期的另存为功能 {#section_04C8B10A0751453AAE5F1BC35938C6CE}
 
 在 Analysis Workspace 区段生成器中编辑现有（已保存）的区段时，单击&#x200B;**[!UICONTROL 另存为]**&#x200B;可生成一个副本。
 
@@ -1244,11 +1241,11 @@ ht-degree: 99%
 
 ![](assets/anchor_Y_axis.png)
 
-## 选项卡标题中的项目名称  {#section_497C61A030984BCCA2CEA553312C3226}
+## 选项卡标题中的项目名称 {#section_497C61A030984BCCA2CEA553312C3226}
 
 在保存项目时，浏览器选项卡中的标题将显示为“`<Project Name>` - Analysis Workspace”。如果您要在多个浏览器选项卡中打开多个项目，此增强会非常有用。
 
-## 转移项目所有权  {#section_989C2CCB80B5408EB85E6B12C8D943E3}
+## 转移项目所有权 {#section_989C2CCB80B5408EB85E6B12C8D943E3}
 
 管理员可以将 [!UICONTROL Analysis Workspace] 项目从一名用户转移到另一用户。
 
