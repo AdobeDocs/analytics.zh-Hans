@@ -3,11 +3,10 @@ description: 有关数据馈送的常见问题
 keywords: 数据馈送;作业;前处理列;后处理列;区分大小写
 title: 数据馈送常见问题解答
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-translation-type: tm+mt
-source-git-commit: e9969fbcc2adb58fba8d2bd293580181a05d1bac
+source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 62%
+source-wordcount: '1324'
+ht-degree: 61%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 62%
 
 有关数据馈送的常见问题解答。
 
-## 源名称必须唯一？{#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
+## 源名称是否必须唯一？{#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
 
 数据馈送文件名由报表包 ID 和日期组成。为同一个 RSID 和日期配置的任意两个馈送具有相同的文件名。如果将这些馈送提交到同一位置，则一个文件会覆盖另一个文件。为了防止文件覆盖，你不能在同一位置创建有可能覆盖现有馈送的馈送。
 
@@ -27,7 +26,7 @@ ht-degree: 62%
 * 更改日期（如有可能）
 * 更改报表包（如有可能）
 
-## 何时处理数据？{#section_6346328F8D8848A7B81474229481D404}
+## 何时处理数据？ {#section_6346328F8D8848A7B81474229481D404}
 
 在处理每小时或每日数据之前，数据馈送会等待直到该时间范围（天或小时）内进入数据收集的所有点击已经写出到 Data Warehouse。之后，数据馈送会收集时间戳位于该时间范围之内的数据，对其进行压缩并通过 FTP 发送。对于每小时馈送，文件通常会在该小时之后的 15 至 30 分钟内写出到 Data Warehouse，但是没有设置具体的时间段。如果没有时间戳位于该时间范围之内的数据，则流程会在下个时间范围内再次尝试。当前数据馈送流程使用 `date_time` 字段来确定哪些点击属于该小时。此字段基于报表包的时区。
 
@@ -53,7 +52,7 @@ ht-degree: 62%
 
 Adobe 建议不要自动在 Microsoft Excel 中打开 `hit_data.tsv` 文件。而是使用 Excel 的“导入数据”对话框并确保将所有字段作为文本来处理。
 
-## 为什么某些运营商的域列中缺少信息？{#section_B7508D65370442C7A314EAED711A2C75}
+## 为什么某些运营商的域列中缺少信息？ {#section_B7508D65370442C7A314EAED711A2C75}
 
 某些移动运营商（例如 T-Mobile 和 O1）不再提供用于反向 DNS 对照的域信息。因此，此数据不可用于域报告。
 
@@ -63,7 +62,7 @@ Adobe 建议不要自动在 Microsoft Excel 中打开 `hit_data.tsv` 文件。�
 
 示例: 2021 年 3 月 9 日创建了一个新的数据馈送，并以“小时”形式交付了 2021 年 1 月 1 日至 3 月 9 日的数据。但是，2021 年 3 月 2 日之前的“小时”文件会合并为一个“每日”文件。您只能从自创建日期起不到 7 天的数据中提取“小时”文件。在本例中，是指从 3 月 2 日到 3 月 9 日。
 
-## 夏令时对每小时数据馈送有何影响？{#section_70E867D942054DD09048E027A9474FFD}
+## 夏令时对每小时数据馈送有何影响？ {#section_70E867D942054DD09048E027A9474FFD}
 
 对于某些时区，由于夏令时(DST)定义，时间每年更改两次。 数据馈送遵循报表包所配置的时区。如果报表包的时区不使用DST，则文件投放通常会像其他任何日期一样继续。 如果报表包的时区确实使用DST，则文件投放会根据发生时间更改的小时（通常是凌晨2:00）进行更改。
 
@@ -71,18 +70,7 @@ Adobe 建议不要自动在 Microsoft Excel 中打开 `hit_data.tsv` 文件。�
 
 进行DST -> STD过渡时（“回退”），客户将获得24个文件。 但是，过渡时实际上包含了两小时的数据。 例如，如果过渡发生在凌晨2:00，则1:00的文件将延迟一小时，但它包含两个小时的数据。 它包含从夏令时1:00到2:00 STD的数据（该数据应该是夏令时3:00）。 下一个文件在2:00 STD开始。
 
-## 在未收集任何数据时，我是否会收到清单文件？{#section_72510794694D42A9A75C966B812AEB0F}
-
-您可以选择将数据馈送配置为，当特定时间段没有收集数据时提交清单文件。如果启用此选项，您将收到如下所示的清单文件：
-
-```text
-Datafeed-Manifest-Version: 1.0
- Lookup-Files: 0
- Data-Files: 0
- Total-Records: 0
-```
-
-## Analytics如何处理FTP传输失败？{#section_4BD44E9167F0494FB2B379D2BA132AD8}
+## Analytics如何处理FTP传输失败？ {#section_4BD44E9167F0494FB2B379D2BA132AD8}
 
 在FTP传输失败（登录被拒绝、连接丢失、配额不足等）事件,Adobe会尝试自动连接并发送数据最多三次。 如果仍然失败，则系统会将馈送标记为失败，并发送电子邮件通知。
 
@@ -90,11 +78,11 @@ Datafeed-Manifest-Version: 1.0
 
 如果在获取要在FTP站点上显示的数据源时遇到问题，请参阅[作业疑难解答](jobs-troubleshooting.md)。
 
-## 如何重新发送作业？{#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
+## 如何重新发送作业？ {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
 验证/更正了交付问题后，请重新运行作业以获取文件。
 
-## Amazon S3数据馈送的BucketOwnerFullControl设置是什么？{#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D}
+## Amazon S3数据馈送的BucketOwnerFullControl设置是什么？ {#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D}
 
 Amazon S3 的常见使用案例是 Amazon Web Services (AWS) 帐户所有者创建一个存储桶，接着创建一个有权限在该存储桶中创建对象的用户，然后为该用户提供凭据。在这种情况下，用户的对象属于同一帐户，而帐户所有者隐式地对该对象拥有完全控制（读取、删除等）。 此过程与FTP投放的工作方式类似。
 
