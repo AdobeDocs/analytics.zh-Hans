@@ -2,11 +2,10 @@
 title: 创建或编辑数据馈送
 description: 了解如何创建或编辑数据馈送。
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-translation-type: tm+mt
-source-git-commit: 769f8cf2dc726df5b71b453f5bbcfb9f0e78e6d7
+source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 95%
+source-wordcount: '874'
+ht-degree: 91%
 
 ---
 
@@ -88,6 +87,15 @@ ht-degree: 95%
 * **删除转义字符**：在收集数据时，某些字符（如换行符）可能会导致问题。如果您希望从馈送文件中删除这些字符，请选中此框。
 * **压缩格式**：使用的压缩类型。Gzip 以 `.tar.gz` 格式输出文件。Zip 以 `.zip` 格式输出文件。
 * **包装类型**：如果选择单个文件，则可能会以单个大型文件的形式输出 `hit_data.tsv` 文件。如果选择多个文件，则会将您的数据分为多个 2 GB 的区块（未压缩）。如果选择了多个文件，而报告时间范围的未压缩数据小于 2 GB，则会发送一个文件。Adobe 建议对大多数的数据馈送使用多个文件。
+* **清单**:当在馈送间隔内未收集数 [据](c-df-contents/datafeeds-contents.md#feed-manifest) 时，Adobe是否应将清单文件传送到目标。如果选择“清单文件”，则在未收集任何数据时，您将收到与以下内容类似的清单文件：
+
+```text
+   Datafeed-Manifest-Version: 1.0
+    Lookup-Files: 0
+    Data-Files: 0
+    Total-Records: 0
+```
+
 * **列模板**：创建多个数据馈送时，Adobe 建议创建列模板。选择列模板会自动包含模板中指定的列。默认情况下，Adobe 也提供了多个模板。
 * **可用列**：Adobe Analytics 中的所有可用数据列。单击“[!UICONTROL 全部添加]”可在数据馈送中包含所有列。
 * **包含的列**：要包含在数据馈送中的列。单击“[!UICONTROL 全部移除]”可从数据馈送中移除所有列。
