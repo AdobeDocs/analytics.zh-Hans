@@ -2,16 +2,15 @@
 description: 添加日历事件和管理共享事件的步骤。
 title: 日历事件
 uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
-feature: Calendar
+feature: 日历
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: e89be5ce-3ec0-4b2d-8574-7bd2041ed18a
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 99%
+source-wordcount: '339'
+ht-degree: 95%
 
 ---
-
 
 # 日历事件
 
@@ -23,7 +22,7 @@ ht-degree: 99%
 
 对于特定时段的趋势报表，您可以用图形显示事件，并查看促销活动或其他事件是否对网站流量、收入或任何其他量度产生影响。设置日历事件过程包括命名事件、设置日期、添加注释并设置图标. 例如，如果使用 Social，可以创建日历事件，以显示网站流量的增加与使用 Twitter 的名人提及产品相关。
 
-1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 日历事件]**。
+1. 单击&#x200B;**[!UICONTROL 分析]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 日历事件]**。
 1. 单击&#x200B;**[!UICONTROL 新增]**。
    1. 在&#x200B;**[!UICONTROL 标题]**&#x200B;下方，命名日历事件。
    1. 指定&#x200B;**[!UICONTROL 事件日期]**。
@@ -38,7 +37,7 @@ ht-degree: 99%
    1. 单击&#x200B;**[!UICONTROL 保存]**。
 
    这使日历事件更加实用。分析人员现在能够在其用户报表上添加一个覆盖图，以便提供更多上下文信息。
-1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 日历事件]**。
+1. 单击&#x200B;**[!UICONTROL 分析]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 日历事件]**。
 1. 在共享的日历事件下方，指定以下选项之一：
 
        | **抄送我** | 使用与原来相同的名称，将一个副本添加到事件列表中。但是，您无法查看事件所有者执行的任何更新/更改。|
