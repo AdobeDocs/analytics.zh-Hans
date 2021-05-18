@@ -5,11 +5,10 @@ title: 数据源管理器
 topic-fix: Developer and implementation
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
 exl-id: a63137b8-deeb-4865-9be9-322416b00186
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 100%
+source-wordcount: '473'
+ht-degree: 98%
 
 ---
 
@@ -17,15 +16,15 @@ ht-degree: 100%
 
 创建、管理和查看报表包中数据源的使用情况。
 
-**[!UICONTROL 分析]**>**[!UICONTROL 管理]**>**[!UICONTROL 数据源]**。
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > All  **[!UICONTROL admin]** > **[!UICONTROL Data sources]**。
 
-## “创建”选项卡{#section_74603FDA3D8842E49F1A51624A06DE20}
+## “创建”选项卡 {#section_74603FDA3D8842E49F1A51624A06DE20}
 
 “[!UICONTROL 创建]”选项卡允许您为当前选中的报表包配置新的数据源。在激活数据源后，“[!UICONTROL 数据源向导]”会引导您完成创建数据源模板的过程，然后为上载数据创建一个 FTP 位置。
 
 您在“创建”选项卡中所做的选择决定了所创建模板中的初始字段。请参阅[生成导入文件模板](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md)。
 
-## “管理”选项卡{#section_DD559A6701CA45F1A85E56F840F48DBE}
+## “管理”选项卡 {#section_DD559A6701CA45F1A85E56F840F48DBE}
 
 <table id="table_F74696EC855441328CFE0BF49C20D9B0"> 
  <thead> 
@@ -77,6 +76,6 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## “文件日志”选项卡  {#section_B7AC7EE8CAD740A59DD53CF1919373F0}
+## “文件日志”选项卡 {#section_B7AC7EE8CAD740A59DD53CF1919373F0}
 
 文件日志包含搜索功能，它允许您通过数据源名称、数据源类型、文件名、接收日期或状态来搜索相关信息。
