@@ -1,14 +1,13 @@
 ---
 description: 介绍 Adobe Analytics 的全新连续功能发布战略
 title: Adobe Analytics 功能发布
-translation-type: ht
-source-git-commit: bbbe6dccfee81ae5111f295906aa3a23d68ad39e
-workflow-type: ht
-source-wordcount: '422'
-ht-degree: 100%
+exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 95%
 
 ---
-
 
 # Adobe Analytics 功能发布
 
@@ -41,4 +40,4 @@ ht-degree: 100%
 | 问题 | 回答 |
 |---|---|
 | 我是否可以请求提前访问某个功能？ | 不会。不会授予提前访问权限。<br>如果您想要提前测试 Analytics 概念，我们建议您试用 [Adobe Analytics Labs](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/tech-previews/overview.html)，就我们行业领先的创新技术提供反馈。 |
-| 此发布策略是否会影响我对功能的访问？ | 不会。一旦某个功能达到 GA 阶段，您将有权访问该功能，前提是它包含在您的 Analytics 程序包中。<br>您可以在[!UICONTROL 管理员] > [!UICONTROL 公司设置] > [功能访问级别](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/company-settings/feature-access-levels.html)下查看您的 Analytics 程序包的详细信息。 |
+| 此发布策略是否会影响我对功能的访问？ | 不会。一旦某个功能达到 GA 阶段，您将有权访问该功能，前提是它包含在您的 Analytics 程序包中。<br>您可以在“Admin”>“All admin”>“All admin”>“ [!UICONTROL 公司设置”>“Feature Access Levels”下] 视图您 [!UICONTROL 的Analytics包的详细信]    [](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/company-settings/feature-access-levels.html)息。 |
