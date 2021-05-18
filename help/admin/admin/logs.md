@@ -1,13 +1,12 @@
 ---
 description: 日志文件有助于您了解用户登录的时间、用户使用情况、访问情况、报表包，以及管理员执行的更改。
 title: 日志
-feature: Admin Tools
+feature: 管理工具
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 72%
+source-wordcount: '601'
+ht-degree: 71%
 
 ---
 
@@ -15,13 +14,13 @@ ht-degree: 72%
 
 日志文件有助于您了解用户登录的时间、用户使用情况、访问情况、报表包，以及管理员执行的更改。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 日志]**
+**[!UICONTROL Analytics]** >管 **[!UICONTROL 理]** >全 **[!UICONTROL 部管理]** >日 **[!UICONTROL 志]**
 
 ## 管理日志 {#section_8ADE8A7204A8401C968ABC20AECA381D}
 
 管理日志报告管理员在管理工具中执行的所有更改。此日志提供了一个由上述三个日志中的任意一个日志通往用户定义报表的途径。您可以在指定的日期范围内搜索与选定标准匹配的事件。
 
-## 使用与访问日志  {#section_6FBAF92D9EA244809C45A78A2F0A7232}
+## 使用与访问日志 {#section_6FBAF92D9EA244809C45A78A2F0A7232}
 
 “[!UICONTROL 使用与访问日志]”用于评估报表在用户帐户级别的使用情况。例如，它可以对 Analysis Workspace 中的打开、创建、更新、取消共享和删除操作进行跟踪。这样可以更好地体现使用工作区的用户以及使用频率。
 
