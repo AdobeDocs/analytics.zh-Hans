@@ -2,14 +2,13 @@
 description: 在Adobe Analytics中部署Kampyle数据连接器。
 title: 部署集成
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+exl-id: ac8e1f30-cefe-448a-bec6-cda58ee51025
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '450'
 ht-degree: 46%
 
 ---
-
 
 # 部署集成{#deploying-the-integration}
 
@@ -20,7 +19,7 @@ ht-degree: 46%
 要激活集成，请在数据连接器界面中完成配置向导。
 
 1. 登录 Adobe Experience Cloud。
-1. 导航到&#x200B;**[!UICONTROL 数据连接器]**。
+1. 单击&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL Data connectors]**。
 1. 启动 Kampyle 集成向导。
 1. 选择所需的报表包并提供集成的名称。
 1. 配置以下项目：
@@ -60,7 +59,7 @@ ht-degree: 46%
 
 ## 验证集成{#verify-the-integration}
 
-通过完成两次检查验证集成是否成功传输数据。
+通过完成两项检查验证集成是否成功传输数据。
 
 ### 集成活动日志 {#section-0472df9180db4f218db5f6040cab07af}
 
