@@ -1,16 +1,15 @@
 ---
 description: Adobe Analysis Workspace 及其相关组件中的已知限制列表
 title: Analysis Workspace 中的已知限制
-feature: Workspace Basics
+feature: Workspace 基础知识
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 100%
+source-wordcount: '419'
+ht-degree: 98%
 
 ---
-
 
 # Analysis Workspace 中的已知限制
 
@@ -53,7 +52,7 @@ ht-degree: 100%
 
 * 启用报表时间处理后，某些组件将不受支持。有关完整列表，请参阅[报表时间处理](/help/components/vrs/vrs-report-time-processing.md)。
 
-## “组件”>“报表设置”
+## “组件”>“所有组件”>“报表设置”
 
 * [!UICONTROL 报表设置]页面上的某些设置不适用。Analysis Workspace 只使用底部的[!UICONTROL 语言/货币/编码]设置：[!UICONTROL 千位分隔符]、[!UICONTROL 计划报表编码]和 [!UICONTROL CSV 分隔符]。
 
