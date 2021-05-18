@@ -6,11 +6,10 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics 基础知识，Reports and Analytics
 role: Business Practitioner, Administrator
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 100%
+source-wordcount: '1669'
+ht-degree: 99%
 
 ---
 
@@ -109,7 +108,7 @@ ht-degree: 100%
 
 [!UICONTROL 计划报表管理器]显示特定用户创建的项目。若应用程序中禁用此用户帐户，则会停止所有计划的提交。
 
-1. 要访问管理器，请单击 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 计划报表]**。
+1. 要访问管理器，请单击&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 计划报表]**。
 
 ## 共享报表链接 {#task_9711DDE9E140451B8C914EC5513E21EC}
 
