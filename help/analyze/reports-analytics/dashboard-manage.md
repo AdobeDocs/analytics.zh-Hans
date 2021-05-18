@@ -3,14 +3,13 @@ description: 使用功能板管理器可以复制、共享、存档和计划功�
 subtopic: Dashboards
 title: 功能板管理器
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-feature: Reports & Analytics Basics
+feature: Reports & Analytics 基础知识
 role: Business Practitioner, Administrator
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 99%
+source-wordcount: '799'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 99%
 >
 >使用功能板管理器时的最佳做法是：任何一个用户最多拥有 300 个功能板。另外请注意，管理器会加载下面所有共享的功能板，因此，共享功能板时要谨慎。
 
-单击 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 功能板]**。
+单击&#x200B;**[!UICONTROL 分析]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 仪表板]**。
 
 | 元素 | 描述 |
 |--- |--- |
@@ -36,7 +35,7 @@ ht-degree: 99%
 
 描述如何使用共享功能板管理选项的步骤。
 
-1. 转至 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 功能板]**。
+1. 转至&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 仪表板]**。
 1. 在“[!UICONTROL 共享功能板]”下方，找到您要管理的共享功能板（或原有功能板），然后选取下面一个或多个选项：
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
