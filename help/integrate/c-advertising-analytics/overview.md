@@ -2,11 +2,10 @@
 description: 在这个详细的指南中探索可用 Advertising Analytics 做的一切事情，包括所需的权限以及可用的维度和指标。
 title: Advertising Analytics 指南
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-translation-type: ht
-source-git-commit: 797dd2c700cd6e11db91e3b5e6bf4b7bfbefdabe
-workflow-type: ht
-source-wordcount: '1259'
-ht-degree: 100%
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '1263'
+ht-degree: 97%
 
 ---
 
@@ -57,13 +56,13 @@ Analytics 有两种权限，可自动授予给 Analytics 管理员。然后，�
   <tr> 
    <td colname="col1"> <p>Advertising Analytics 管理 </p> </td> 
    <td colname="col2"> <p>允许用户设置/编辑/查看广告搜索帐户。 </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> 管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">群组</span> &gt; <span class="uicontrol">编辑全部报表访问</span> &gt; <span class="uicontrol">自定义 Analytics 工具</span> &gt; <span class="uicontrol">Advertising Analytics 管理</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> 管理</span> &gt;所 <span class="uicontrol"> 有管 </span>  理&gt;用 <span class="uicontrol"> 户管理</span> &gt; Groups <span class="uicontrol"> &gt;编辑所有报表访问</span>  <span class="uicontrol"> </span>  <span class="uicontrol"> </span>  <span class="uicontrol"> &gt;  Adobe工具自定义分析&gt; Advertising Analytics管理</span></span> </td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol"> 登录到 adminconsole.adobe.com</span> &gt; <span class="uicontrol">产品</span> &gt; <span class="uicontrol">产品配置文件</span> &gt; <span class="uicontrol">权限选项卡</span> &gt; <span class="uicontrol">Analytics 工具</span> &gt; <span class="uicontrol">Advertising Analytics 管理</span></span> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Advertising Analytics 配置 </p> </td> 
    <td colname="col2"> <p>允许用户将报表包配置为可以使用 Advertising Analytics。 </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> 管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">群组</span> &gt; <span class="uicontrol">编辑全部报表访问</span> &gt; <span class="uicontrol">自定义报表包工具</span> &gt; <span class="uicontrol">Advertising Analytics 配置</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> 管理</span> &gt;所 <span class="uicontrol"> 有管 </span>  理&gt;用 <span class="uicontrol"> 户管理</span> &gt;组 <span class="uicontrol"> &gt;编辑所有报表访问</span>  <span class="uicontrol"> </span>  <span class="uicontrol"> </span>  <span class="uicontrol"> &gt;自定义报表包&gt;  Adobe配置</span></span> </td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol"> 登录到 adminconsole.adobe.com</span> &gt; <span class="uicontrol">产品</span> &gt; <span class="uicontrol">产品配置文件</span> &gt; <span class="uicontrol">权限选项卡</span> &gt; <span class="uicontrol">报表包工具</span> &gt; <span class="uicontrol">Advertising Analytics 配置</span></span> </td> 
   </tr> 
  </tbody> 
