@@ -2,11 +2,13 @@
 description: Data Connectors 集成向导会引导您逐步完成 Data Connectors 集成流程。
 title: 配置集成
 uuid: 7d82d343-ce68-4048-b21e-449c30118672
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: 5036e577-611e-4fa1-9a80-dde9753aea53
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 90%
 
 ---
-
 
 # 配置集成{#configure-the-integration}
 
@@ -15,7 +17,7 @@ Data Connectors 集成向导会引导您逐步完成 Data Connectors 集成流�
 要配置集成，请执行以下操作：
 
 1. 从 appFigures 中[生成](https://appfigures.com/support/faq/523/connecting-to-adobes-marketing-cloud)集成帐户密钥。
-1. 以管理员用户身份转到 **[!UICONTROL Analytics]** > **[!UICONTROL Data Connectors]**，然后单击 **[!UICONTROL + 新增]**&#x200B;以添加新集成。
+1. 转至&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL Data connectors]**&#x200B;作为管理员用户，然后单击&#x200B;**[!UICONTROL +添加新]**&#x200B;以添加新集成。
 1. 在&#x200B;**[!UICONTROL 显示]**&#x200B;列表中，选择“按名称”，然后将 **appFigures** 集成拖至空插件插槽。
 1. 在 appFigures 集成简介页面上，查看文本，选中相应复选框以接受与集成相关的费用，然后单击&#x200B;**下一步**。
 1. 选择要用于此集成的报表包。
