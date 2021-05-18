@@ -2,11 +2,10 @@
 title: 排除 Adobe Analytics 登录故障
 description: 无法登录 Adobe Analytics 时应采取的步骤。
 exl-id: e670a043-c55b-4717-9b60-613ea4d04382
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '609'
-ht-degree: 100%
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '611'
+ht-degree: 98%
 
 ---
 
@@ -45,7 +44,7 @@ Adobe Analytics 使用多种身份验证方法来登录：
 >以下重置用户密码的步骤仅适用于旧版 Analytics ID，而不适用于 Adobe ID。如果您的组织使用 Adobe ID，则可以在 [adminconsole.adobe.com](https://adminconsole.adobe.com) 管理用户帐户。
 
 1. 使用具有管理权限的帐户登录 Adobe Analytics。
-2. 导航到&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]**。
+2. 导航到&#x200B;**[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 用户管理]**。
 3. 单击&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡，然后单击所需用户旁的&#x200B;**[!UICONTROL 编辑]**。
 4. 将密码更改为任意值，然后选中&#x200B;**[!UICONTROL 下次登录时要求用户更改密码]**&#x200B;复选框。
 5. 告知用户新密码。
