@@ -4,14 +4,13 @@ title: 计划数据请求
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 99%
+source-wordcount: '1029'
+ht-degree: 98%
 
 ---
-
 
 # 计划工作簿
 
@@ -23,7 +22,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->您必须安装 Excel 2007 或兼容包才能计划工作簿。对于每个 Report Builder 许可证，您最多可以有 10 个计划工作簿。但是，您可以通过减少其他许可证中的数量来增加此数量。要执行此操作，请转至&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 公司设置]** > **[!UICONTROL Report Builder 报表]**。已计划（或已上载到工作簿库）的工作簿以及超过 28 个月未使用（更新、替换）的工作簿将被删除。
+>您必须安装 Excel 2007 或兼容包才能计划工作簿。对于每个 Report Builder 许可证，您最多可以有 10 个计划工作簿。但是，您可以通过减少其他许可证中的数量来增加此数量。要执行此操作，请转到&#x200B;**[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 公司设置]** > **[!UICONTROL Report Builder报表]**。 已计划（或已上载到工作簿库）的工作簿以及超过 28 个月未使用（更新、替换）的工作簿将被删除。
 
 >[!NOTE]
 >
@@ -83,4 +82,3 @@ ht-degree: 99%
 1. 单击&#x200B;**[!UICONTROL 确定]**，然后单击&#x200B;**[!UICONTROL 退出]**。
 
    Report Builder 在[计划任务管理器](/help/analyze/report-builder/r-arb-scheduled-reports.md)中显示计划工作簿。
-
