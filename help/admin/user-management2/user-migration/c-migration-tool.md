@@ -2,11 +2,10 @@
 description: 在 Adobe Experience Cloud 中将 Analytics 用户 ID 迁移到 Admin Console 的应知事项。
 title: 将 Analytics 用户迁移到 Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
-translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '3131'
-ht-degree: 98%
+source-wordcount: '3133'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +18,7 @@ ht-degree: 98%
 
 迁移后，您可以在 Admin Console 中[管理 Experience Cloud 用户和产品](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-getting-started.html)。
 
-## 什么是 Analytics 用户 ID 迁移？ {#section-adbe49aba10c4e62afa836a97894107c}
+## 什么是 Analytics 用户 ID 迁移？  {#section-adbe49aba10c4e62afa836a97894107c}
 
 通过 Analytics 用户 ID 迁移，管理员可以轻松地将 Analytics“用户管理”中的用户帐户迁移到 Adobe Admin Console。在您的用户被迁移后，他们将能够访问 Experience Cloud 中可用的解决方案与核心服务。Adobe 正在分阶段向客户推出这项迁移功能。
 
@@ -98,7 +97,7 @@ ht-degree: 98%
      <li id="li_418476105FE341229CE146E730AAB33D">您在 Analytics 中的现有权限组将作为产品配置文件自动复制到 Admin Console 中，其中包括它们的描述以及报表包、量度、维度、Analytics 与报表包工具之间的粒度权限。 </li> 
      <li id="li_412F88C454B0455A8F3BC8016226855C">如果您有任何当前 Analytics 用户是在 Admin Console 中创建的（这表示他们具有链接的 Adobe ID 或企业 ID），他们将被添加到 Admin Console 中相应的产品配置文件内。 </li> 
      <li id="li_8A05137EC05C4FD5910E73FE58300DCB">Analytics 中“管理员”选项卡下方的“用户管理”部分将被设置为“<span class="term">只读</span>”。您将无法在此处创建新用户或权限组，并将需要在 Admin Console 中执行这两个功能。有关更多信息，请参阅 <a href="/help/admin/user-management2/user-migration/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56">Admin Console 中不支持的 Analytics 功能</a>。 </li> 
-     <li id="li_2742DE69E9B547198A58E1F33E908361">As an administrator, you will be granted access to the <a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/t-migrate-users.html">User ID Migration tool</a>. 此外，还会显示一则产品内通知，其中包含迁移的结束日期（通常是未来 60 天）以及帮助内容和常见问题解答的链接。 </li> 
+     <li id="li_2742DE69E9B547198A58E1F33E908361">管理员将授予您对<a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/t-migrate-users.html">用户ID迁移工具</a>的访问权限。 此外，还会显示一则产品内通知，其中包含迁移的结束日期（通常是未来 60 天）以及帮助内容和常见问题解答的链接。 </li> 
      <li id="li_095D42E3A3544FC59A60A8C8F94C971B">您将在 Admin Console 中获得“权限”选项卡的访问权限，以便您可以使用 Analytics 中所有熟悉的粒度选项创建产品配置文件。 </li> 
     </ul> </td> 
   </tr> 
@@ -121,15 +120,15 @@ ht-degree: 98%
      <li id="li_8CFFF72877E8456DAC3241143AD648AD">确认您是 Admin Console 中的 Analytics 产品管理员。 </li> 
      <li id="li_25DAA8D1EEDA45A0B5B59472BD8896C4">与您的用户群沟通，告知他们的登录体验在迁移开始后将发生改变。 </li> 
      <li id="li_5B50F942F6A8483FAFA500AFF428702C">审核您的当前用户和权限，并执行清理活动。 </li> 
-    </ul> <p>要加快迁移进度，请在 <a href="https://helpx.adobe.com/cn/marketing-cloud/contact-support.html">Adobe 客户关怀</a>联系您的客户成功经理，并提交开始日期提前的请求。 </p> </td> 
+    </ul> <p>要加快迁移进度，请在 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Adobe 客户关怀</a>联系您的客户成功经理，并提交开始日期提前的请求。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 我是 Analytics 管理员但没有 Admin Console 访问权限。谁能帮助我获取 Admin Console 的访问权限？ </p> </td> 
-   <td colname="col2"> <p>任何有权访问贵组织 Admin Console 的系统或产品管理员都可以为您提供访问权限。如果您不确定您的组织内有谁具有控制台中的管理员权限，请联系 <a href="https://helpx.adobe.com/cn/marketing-cloud/contact-support.html">Adobe 客户关怀</a>。 </p> </td> 
+   <td colname="col2"> <p>任何有权访问贵组织 Admin Console 的系统或产品管理员都可以为您提供访问权限。如果您不确定您的组织内有谁具有控制台中的管理员权限，请联系 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Adobe 客户关怀</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>我能推迟迁移开始日期吗？ </p> </td> 
-   <td colname="col2"> <p>能。联系 <a href="https://helpx.adobe.com/cn/marketing-cloud/contact-support.html">Adobe 客户关怀</a>。 </p><p>有关在开始日期对当前 Analytics 用户和权限管理所做的更改的说明，请参见下文。 </p> </td> 
+   <td colname="col2"> <p>能。联系 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Adobe 客户关怀</a>。 </p><p>有关在开始日期对当前 Analytics 用户和权限管理所做的更改的说明，请参见下文。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>我的公司当前正在迁移到 Admin Console，我在迁移开始日期之前应在何处创建新用户和权限组？ </p> </td> 
@@ -143,7 +142,7 @@ ht-degree: 98%
  </tbody> 
 </table>
 
-## 迁移期间的应知事项（常见问题解答） {#section-d394524aa6d046d79025bbd7499792bc}
+## 迁移期间的应知事项（常见问题解答）  {#section-d394524aa6d046d79025bbd7499792bc}
 
 关于迁移过程及它对当前用户管理的影响的重要信息。
 
@@ -232,7 +231,7 @@ ht-degree: 98%
  </tbody> 
 </table>
 
-## 迁移后的应知事项（常见问题解答） {#section-9681baa01b8c41cdb9659b73b70b50ff}
+## 迁移后的应知事项（常见问题解答）  {#section-9681baa01b8c41cdb9659b73b70b50ff}
 
 <table id="table_F48CC9DFE3424AC9AD76A16882701C8F"> 
  <thead> 
@@ -289,7 +288,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p>单点登录 </p> </td> 
-   <td colname="col2"> <p> 在完成迁移时，将删除 Analytics 单点登录配置。这些配置将在迁移期间保持活动状态。使用 Analytics 单点登录的客户应当升级到 <a href="https://helpx.adobe.com/cn/enterprise/help/identity.html">Adobe 联合 ID</a>。 </p> <p>Analytics 建议您先将用户作为 Adobe ID 迁移，以便轻松创建 Experience Cloud 帐户，然后再将这些帐户转换为联合单点登录用户。 </p> </td> 
+   <td colname="col2"> <p> 在完成迁移时，将删除 Analytics 单点登录配置。这些配置将在迁移期间保持活动状态。使用 Analytics 单点登录的客户应当升级到 <a href="https://helpx.adobe.com/enterprise/help/identity.html">Adobe 联合 ID</a>。 </p> <p>Analytics 建议您先将用户作为 Adobe ID 迁移，以便轻松创建 Experience Cloud 帐户，然后再将这些帐户转换为联合单点登录用户。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>下载权限组 </p> </td> 
@@ -310,7 +309,7 @@ ht-degree: 98%
 
 您可能需要主动将此迁移计划传达给您的当前用户。以下是一个模板，您可以对其进行自定义，以发送给您的所有当前 Analytics 用户：
 
-要向所有用户发送电子邮件，请导航至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]** > [电子邮件用户](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html)。
+要向所有用户发送电子邮件，请导航至&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 用户管理]** > [向用户](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html)发送电子邮件。
 
 **主题：**&#x200B;即将推出 - 一种用于登录到 Adobe Analytics 和 Adobe Experience Cloud 的新方法。
 
@@ -322,7 +321,7 @@ ht-degree: 98%
 
 **有用的资源：**
 
-[登录并管理配置文件设置](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/getting-started-experience-cloud.html).
+[登录并管理配置文件设置](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/getting-started-experience-cloud.html)。
 
 如果您有任何问题或疑问，请联系您的 Analytics 管理员。
 
