@@ -3,9 +3,9 @@ description: Data Connectors 集成向导会引导您逐步完成 Data Connector
 title: 运行 Data Connectors 集成向导
 uuid: 25480e0d-e3ca-458c-8f18-65789c273a33
 exl-id: 9ba013cd-e0a5-4dbd-aad9-b6004f4a9e56
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 4078d0be92c8ccd639e408e7372a5636938cad00
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '174'
 ht-degree: 86%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 86%
 
 Data Connectors 集成向导会引导您逐步完成 Data Connectors 集成流程。
 
-1. 登录到 [!DNL Adobe Experience Cloud]。
+1. 登录 [!DNL Adobe Experience Cloud].
 1. 单击&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 报表包访问]**&#x200B;并使所需的报表包处于活动状态。
 1. 单击&#x200B;**[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 数据连接器]**。
 
