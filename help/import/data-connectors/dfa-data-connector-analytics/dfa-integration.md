@@ -5,11 +5,10 @@ title: DFA 集成
 feature: Data Connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 exl-id: 27eb7789-30a5-4f4a-8b23-06e3625996ec
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '2601'
-ht-degree: 100%
+source-wordcount: '2602'
+ht-degree: 99%
 
 ---
 
@@ -23,8 +22,8 @@ ht-degree: 100%
 
 配置页面提供有关集成的概述以及可获取更多信息的有用链接。Adobe 和 DoubleClick 费用均与此集成相关。请联系这两个组织相应的销售代表，并确保您了解费用结构。
 
-1. 登录到 [!DNL Adobe Analytics]。
-1. 单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL Data connectors]**。
+1. 登录 [!DNL Adobe Analytics].
+1. 单击&#x200B;**[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 数据连接器]**。
 
    ![](assets/data_connectors.png)
 
@@ -49,7 +48,7 @@ ht-degree: 100%
    <td colname="col3"> Genesis 在报表包的活动集成列表中显示的集成名称。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 3 </td> 
+   <td colname="col1"> 1 </td> 
    <td colname="col2"> 集成电子邮件地址 </td> 
    <td colname="col3"> 接收与此集成相关的所有通知的电子邮件地址。 </td> 
   </tr> 
