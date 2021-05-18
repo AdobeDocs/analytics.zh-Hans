@@ -4,14 +4,13 @@ title: Analytics 中的 Activity Map 报告
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 98%
+source-wordcount: '269'
+ht-degree: 95%
 
 ---
-
 
 # Analytics 中的 Activity Map 报告
 
@@ -22,7 +21,7 @@ ht-degree: 98%
 要使用户可以报告 Activity Map 维度，管理员需要执行以下操作：
 
 * [将用户添加至 Activity Map 访问群组](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)。
-* 向此群组添加您希望可访问的报表包。导航至&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 群组]** > **[!UICONTROL Activity Map 访问]** > **[!UICONTROL 编辑]**。
+* 向此群组添加您希望可访问的报表包。导航到&#x200B;**[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 组]** > **[!UICONTROL Activity Map访问]** > **[!UICONTROL 编辑]**。
 * 自定义用户对维度的访问权限。请参阅以下部分。
 
 ## Analytics Activity Map 维度 {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}
@@ -41,4 +40,3 @@ ht-degree: 98%
 * 在 Reports &amp; Analytics 中，导航至&#x200B;**[!UICONTROL 查看所有报表]** > **[!UICONTROL Activity Map]**。
 
 * 要查看特定页面的链接和区域，您只需在 Activity Map 链接和区域中创建一个相应 Activity Map 页面的划分即可。
-
