@@ -2,11 +2,10 @@
 title: “报表包工具”的产品配置文件权限
 description: 了解“报表包工具”下面的每个权限项。
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
-translation-type: ht
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
-source-wordcount: '662'
-ht-degree: 100%
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '664'
+ht-degree: 98%
 
 ---
 
@@ -49,7 +48,7 @@ ht-degree: 100%
 | 数据馈送管理器 | 授予对 Analytics 顶部导航栏中“管理员”>“数据馈送”的访问权限。 |
 | 自定义 Data Warehouse 报表 | 授予对 Analytics 顶部导航栏中“工具”>“Data Warehouse”的访问权限。 |
 | 每日回访 | 授予对 Reports &amp; Analytics 中“访客维系”>“每日回访”的访问权限。 |
-| 数据源管理器 | 授予对 Analytics 顶部导航栏中“管理员”>“数据源”的访问权限。需要使用权限项“报表包管理”。 |
+| 数据源管理器 | 授予对Analytics顶部导航中的“管理员”>“所有管理员”>“数据源”的访问权限。 需要使用权限项“报表包管理”。 |
 | 按 IP 地址排除 | 授予对 Analytics 顶部导航栏中“管理员”>“按 IP 排除”的访问权限。 |
 | 最近 100 位访客 | 未使用。 |
 | 旧版 ClickMap | 未使用。请改用“Analytics 工具”下的 Activity Map。 |
