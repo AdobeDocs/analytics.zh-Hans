@@ -5,9 +5,9 @@ title: Analysis Workspace 中的新增功能
 feature: Workspace 基础知识
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 9f15dccf3fb994898f51cbccdc5ee37e35870575
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '8323'
+source-wordcount: '8329'
 ht-degree: 99%
 
 ---
@@ -435,7 +435,7 @@ ht-degree: 99%
    <td colname="col2"> <p>对于最近发布的自定义模版，我们已 </p> 
     <ul id="ul_787F48253F454163B99F6DD50F199FE2"> 
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">在项目的顶部（标题附近）添加了模板图标，以帮助将编辑模板模式与使用模板作为项目起始点区分开来。 </li> 
-     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">允许非管理员创建（另存为）并编辑工作区项目模板，前提是他们获得了在 Analysis Workspace 中创建/策划项目的权限。（<span class="ignoretag"><span class="uicontrol">管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">群组</span> &gt; <span class="uicontrol">编辑所有报表访问权限</span> &gt; <span class="uicontrol">自定义 Analytics 工具</span> &gt; <span class="uicontrol">在 Analysis Workspace 中创建/策划项目</span></span>）。 </li> 
+     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">允许非管理员创建（另存为）并编辑工作区项目模板，前提是他们获得了在 Analysis Workspace 中创建/策划项目的权限。(<span class="ignoretag"> <span class="uicontrol">管理员</span> &gt; <span class="uicontrol">所有管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">组</span> &gt; <span class="uicontrol">编辑所有报告访问</span> &gt; <span class="uicontrol">自定义分析工具</span> &gt; <span class="uicontrol">在Analysis Workspace中创建/管理项目</span> </span>)。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -545,7 +545,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p>贡献分析：<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  >令牌通知 </a> </p> </td> 
-   <td colname="col2"> <p>如果贵公司的贡献分析令牌数量有限，则您每次用掉一个令牌后 Analysis Workspace UI 中会显示相关通知。这可以让您知晓还剩下多少令牌。&amp;nbsp; </p> <p>（管理员用户：您可以通过编辑群组权限，对能够使用令牌的人员进行限制。此权限称为“异常检测和贡献分析”，位于 <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">编辑群组</span> &gt; <span class="uicontrol">编辑所有报表访问权限</span> &gt; <span class="uicontrol">自定义报表包工具</span> &gt; <span class="uicontrol">工具和报表</span>下。） </p> </td> 
+   <td colname="col2"> <p>如果贵公司的贡献分析令牌数量有限，则您每次用掉一个令牌后 Analysis Workspace UI 中会显示相关通知。这可以让您知晓还剩下多少令牌。&amp;nbsp; </p> <p>（管理员用户：您可以通过编辑群组权限，对能够使用令牌的人员进行限制。该权限在<span class="uicontrol">分析</span> &gt; <span class="uicontrol">管理员</span> &gt; <span class="uicontrol">所有管理员</span> &gt; <span class="uicontrol">用户管理</span>&gt; <span class="uicontrol">编辑组</span> &gt; <span class="uicontrol">编辑所有报告下称为“异常检测和贡献分析”访问</span> &gt; <span class="uicontrol">自定义报表包工具</span> &gt; <span class="uicontrol">工具和报表</span>。)  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CSV 文件可包含多字节字符 </p> </td> 
@@ -1249,4 +1249,4 @@ ht-degree: 99%
 
 管理员可以将 [!UICONTROL Analysis Workspace] 项目从一名用户转移到另一用户。
 
-导航至&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 转移]**，以便转移项目。
+导航到&#x200B;**[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 传输]**&#x200B;以传输项目。
