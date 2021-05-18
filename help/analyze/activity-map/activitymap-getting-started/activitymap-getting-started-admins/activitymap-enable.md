@@ -4,26 +4,25 @@ title: 启用 Activity Map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 99%
+source-wordcount: '407'
+ht-degree: 95%
 
 ---
-
 
 # 启用 Activity Map{#enable-activity-map}
 
 解释为了启用 Activity Map 链接收集和用户下载，Analytics 管理员需要完成的步骤。
 
-## 步骤 1. 将您的 AppMeasurement (Javascript) 代码更新至 v1.6（或更高版本）{#section_5D1586289DF2489289B1B6C1C80C300D}
+## 步骤 1. 将您的 AppMeasurement (Javascript) 代码更新至 v1.6（或更高版本） {#section_5D1586289DF2489289B1B6C1C80C300D}
 
 Activity Map 模块是 AppMeasurement.js 文件的一部分（位于文件顶部）。AppMeasurement 库在实例化时，将加载 Activity Map 模块。
 
 除非您更新至 AppMeasurement 的这个版本（或更高版本），否则无法收集 Activity Map 数据。
 
-1. 通过转至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 代码管理器]**&#x200B;下载最新的 AppMeasurement 代码 (AppMeasurement_Javascript-1.6.zip) 并[实现它](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/js/overview.html)。
+1. 通过转至&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 代码管理器]**&#x200B;和[实施它，下载最新的AppMeasurement代码(AppMeasurement_Javascript-1.6.zip)。](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/js/overview.html)
 
    我们已经提供了一些[实现代码样例](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)，以帮助您直观地了解在添加 Activity Map 模块后代码产生的变化。
 
