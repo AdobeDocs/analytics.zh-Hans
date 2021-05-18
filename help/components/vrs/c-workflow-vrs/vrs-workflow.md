@@ -5,10 +5,9 @@ title: 虚拟报表包工作流程
 feature: Reports & Analytics 基础知识
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
-translation-type: ht
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: ht
-source-wordcount: '266'
+source-git-commit: cfdab79225f1025805652b2dee074fa49318bfc0
+workflow-type: tm+mt
+source-wordcount: '207'
 ht-degree: 100%
 
 ---
@@ -29,17 +28,8 @@ ht-degree: 100%
 
 单击报表包名称旁边的“信息”按钮可[查看有关该报表包的信息](/help/components/vrs/c-workflow-vrs/vrs-view.md)。
 
-![](assets/step3_icon.png)为其设置[群组权限](/help/components/vrs/c-workflow-vrs/vrs-create.md)。
+![](assets/step3_icon.png) 打开一个项目或报表，然后选择一个虚拟报表包，以提供数据的分段视图。
 
-您可以在创建虚拟报表包的过程中添加群组权限。
-
-您可以通过两种方式编辑群组权限：
-
-* 在虚拟报表包管理器中编辑虚拟报表包。
-* 转到管理员 > 用户管理 > 群组，选择具有虚拟报表包权限的群组，然后单击编辑。
-
-![](assets/step4_icon.png) 打开一个项目或报表，然后选择一个虚拟报表包，以提供数据的分段视图。
-
-![](assets/step5_icon.png)[管理](/help/components/vrs/c-workflow-vrs/vrs-manage.md)虚拟报表包。
+![](assets/step4_icon.png)[管理](/help/components/vrs/c-workflow-vrs/vrs-manage.md)虚拟报表包。
 
 在虚拟报表包管理器中，您可以编辑、添加、标记、删除、重命名、批准、复制、导出和过滤虚拟报表包。虚拟报表包管理器对非管理员用户不可见。
