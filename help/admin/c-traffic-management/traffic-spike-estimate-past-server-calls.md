@@ -2,17 +2,19 @@
 description: 比如说，您可以了解去年特定时间范围内的每日服务器调用平均值，以及服务器调用量在今年的预期增加量。您随后可计划基于此乘数因子的流量峰值。
 title: 评估过去的服务器调用并计划流量尖峰
 uuid: 38deb1df-afb0-437d-b541-69295f0dc8dc
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+exl-id: 1076ffbf-95a7-478c-a597-04bb3890e4a0
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '212'
+ht-degree: 92%
 
 ---
-
 
 # 评估过去的服务器调用并计划流量尖峰
 
 比如说，您可以了解去年特定时间范围内的每日服务器调用平均值，以及服务器调用量在今年的预期增加量。您随后可计划基于此乘数因子的流量峰值。
 
-1. 以管理员身份登录 Analytics，然后转到&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 流量管理]**。
+1. 以管理员身份登录到Analytics，然后转至&#x200B;**[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 流量管理]**。
 
 1. 单击&#x200B;**[!UICONTROL 展开]**&#x200B;以展开报表包列表，然后单击&#x200B;**[!UICONTROL 选择报表包]**&#x200B;以选择多个报表包。
 
@@ -30,4 +32,3 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    现在已为每个选定的报表包计划了尖峰。
 
 ![](assets/past_server_calls.png)
-
