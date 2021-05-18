@@ -3,14 +3,13 @@ description: 用来定义所有报表显示方式的设置以及将默认菜单�
 title: 报表显示设置和导航
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1470'
 ht-degree: 99%
 
 ---
-
 
 # 报表显示设置和导航
 
@@ -18,7 +17,7 @@ ht-degree: 99%
 
 ## 报表显示设置和导航 {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 报表设置]**
+**[!UICONTROL Analytics]** >组 **[!UICONTROL 件]** >所 **[!UICONTROL 有组件]** >报 **[!UICONTROL 表设置]**
 
 | 元素 | 描述 |
 |--- |--- |
@@ -149,4 +148,3 @@ nav_menu.xml
 | **自定义报表** |  |  |
 |  | 只有在您设置后才显示自定义报表。 | 自定义报表 |
 |  |  |  |
-
