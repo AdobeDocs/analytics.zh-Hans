@@ -5,10 +5,9 @@ title: Adobe Analytics 的 DFA Data Connectors
 feature: Data Connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 exl-id: 35854556-c02f-410a-8e4d-2125404a6db4
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1740'
+source-wordcount: '1742'
 ht-degree: 98%
 
 ---
@@ -23,7 +22,7 @@ ht-degree: 98%
 
 DoubleClick for Advertisers (DFA) 集成使用 Adobe® Data connectors™ 以允许 DoubleClick DFA 将数据自动传递到报告与分析，从而解决了此问题。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL Data connectors]**
+**[!UICONTROL Analytics]** >管 **[!UICONTROL 理]** >全 **[!UICONTROL 部管理]** >数 **[!UICONTROL 据连接器]**
 
 ![](assets/data-connectors-home.png)
 
