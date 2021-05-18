@@ -2,14 +2,13 @@
 description: 使用“用户管理”页面的“管理报表用户和群组”可管理用户和群组，以及控制对报表、工具和报表包的访问。
 subtopic: Users and groups
 title: 用户管理概述
-feature: Admin Tools
+feature: 管理工具
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 exl-id: 0c722098-4888-4827-b3b1-2eb45c7d43f3
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 100%
+source-wordcount: '412'
+ht-degree: 93%
 
 ---
 
@@ -17,11 +16,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在迁移完所有客户之后，将撤销 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员工具]** > **[!UICONTROL 用户管理]**&#x200B;中的帮助内容。
+>用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在所有客户都已迁移后，**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 用户管理]**&#x200B;的帮助内容将停用。
 
 使用“用户管理”页面的“管理报表用户和群组”可管理用户和群组，以及控制对报表、工具和报表包的访问。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 编辑用户]**
+**[!UICONTROL Analytics]** >管 **[!UICONTROL 理]** >全 **[!UICONTROL 部管理]** >  **[!UICONTROL User管]** 理 **[!UICONTROL >编辑用户]**
 
 ## 用户帐户描述 {#section_14A7E169514A42A88E06387CC7C2E9AD}
 
