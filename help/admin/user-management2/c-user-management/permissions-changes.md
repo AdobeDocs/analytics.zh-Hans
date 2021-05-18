@@ -3,13 +3,12 @@ description: 旧版权限内容
 keywords: 群组;权限
 subtopic: Users and groups
 title: 用户和群组权限更改
-feature: Admin Tools
+feature: 管理工具
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 97%
+source-wordcount: '1566'
+ht-degree: 96%
 
 ---
 
@@ -18,9 +17,9 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->用户和产品管理已移至[Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)。 Adobe 会通知您何时迁移用户。在迁移完所有客户之后，将撤销 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员工具]** > **[!UICONTROL 用户管理]**&#x200B;中的帮助内容。
+>用户和产品管理已移至[Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)。 Adobe 会通知您何时迁移用户。在所有客户都已迁移后，**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 用户管理]**&#x200B;的帮助内容将停用。
 
-## 更改了哪些内容？{#section_2C205DE94155441B9E9D3E4C46CCF2EE}
+## 更改了哪些内容？ {#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
 **[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 群组]**
 
@@ -124,7 +123,7 @@ ht-degree: 97%
  </tbody> 
 </table>
 
-## 授权快速参考  {#section_A3FDD8259F524B21A5489833533D1B28}
+## 授权快速参考 {#section_A3FDD8259F524B21A5489833533D1B28}
 
 下表列出了相关任务以及执行这些任务的位置（具体取决于公司的状态）。
 
