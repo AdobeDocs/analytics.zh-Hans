@@ -5,11 +5,10 @@ title: 创建虚拟报表包
 feature: Reports & Analytics 基础知识
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-translation-type: ht
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: ht
-source-wordcount: '366'
-ht-degree: 100%
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '368'
+ht-degree: 96%
 
 ---
 
@@ -50,7 +49,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> 群组  </td> 
-   <td colname="col2"> <p>选择您希望对此 VRS 拥有访问权限的权限群组。（您也可以从<span class="ignoretag"><span class="uicontrol">管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">群组</span></span>中管理群组权限。） </p> </td> 
+   <td colname="col2"> <p>选择您希望对此 VRS 拥有访问权限的权限群组。（您还可以从<span class="ignoretag"><span class="uicontrol"> Admin</span> &gt; <span class="uicontrol">所有管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">组</span></span>管理组权限。） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 父报表包 </td> 
