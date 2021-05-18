@@ -2,11 +2,10 @@
 description: 将跟踪数据从第三方应用程序导入到 Analytics 中。
 title: Analytics Data Connectors 快速入门
 exl-id: 2ad117ba-1ef1-4808-a546-de9833dfa49d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '973'
-ht-degree: 100%
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '975'
+ht-degree: 99%
 
 ---
 
@@ -48,7 +47,7 @@ Data Connectors 应与最受欢迎的浏览器适当集成。但是，在符合�
 您必须拥有有效帐户才能访问 [!UICONTROL Data Connectors] 登陆页面（控制台）。另外，建议您熟悉 Adobe Analytics。
 
 1. 登录 Adobe Experience Cloud。
-1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL Data Connectors]**。
+1. 单击&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL Data connectors]**。
 1. 单击&#x200B;**[!UICONTROL 新增]**。
 1. 逐步完成&#x200B;**[!UICONTROL 添加集成]**&#x200B;界面。
 
