@@ -3,14 +3,13 @@ description: 启用常规项目（帐单、日志等）、公司管理、工具�
 keywords: 群组;权限
 subtopic: Users and groups
 title: 自定义 Analytics 工具权限
-feature: Admin Tools
+feature: 管理工具
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 exl-id: fe3a9f65-f121-438f-91d0-45cfaea94416
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 100%
+source-wordcount: '658'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +17,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->用户和产品管理已移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在迁移完所有客户后，将撤销 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]**&#x200B;中的帮助内容。
+>用户和产品管理已移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在所有客户都已迁移后，**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 用户管理]**&#x200B;的帮助内容将停用。
 
 启用常规项目（帐单、日志等）、公司管理、工具、Web 服务访问、Report Builder 和 Data Connectors 集成的用户权限。
 
