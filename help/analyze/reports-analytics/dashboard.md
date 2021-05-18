@@ -4,14 +4,13 @@ subtopic: Dashboards
 title: 功能板和缩图报表
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1822'
-ht-degree: 99%
+source-wordcount: '1827'
+ht-degree: 98%
 
 ---
-
 
 # 功能板和缩图报表
 
@@ -43,11 +42,11 @@ ht-degree: 99%
 
 除了您创建的功能板以外，还包含以下预封装的功能板可供每个用户使用：
 
-**[!UICONTROL 组件] > [!UICONTROL 功能板] > [!UICONTROL 共享功能板] > [!UICONTROL 本地网站]**
+**[!UICONTROL 组件] > [!UICONTROL 所有组件] >  [!UICONTROL 仪表板] > [!UICONTROL 共] 享仪表板 [!UICONTROL >本地站点]**
 
 此可自定义的功能板可将缩图报表拖放到提供的模板中。
 
-**[!UICONTROL 组件] > [!UICONTROL 功能板] > [!UICONTROL 共享功能板] > [!UICONTROL 网站操作功能板]**
+**[!UICONTROL 组件] > [!UICONTROL 所有组件] >  [!UICONTROL 仪表板] > [!UICONTROL 共] 享仪表板 [!UICONTROL >站点操作仪表板]**
 
 该功能板概述了与网站操作相关的关键量度。该功能板的报表包括：
 
@@ -187,7 +186,7 @@ t_dashboard_edit.xml
 
 **编辑功能板和缩图报表数据**
 
-1. 单击&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 功能板]** > *功能板名称*，以打开功能板。
+1. 单击&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 仪表板]** > *仪表板名称*&#x200B;以打开仪表板。
 1. 单击&#x200B;**[!UICONTROL 布局]**。
 
 | 至 | 执行此操作 |
@@ -215,7 +214,7 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 公司设置]**。
+1. **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > All  **[!UICONTROL admin]** >  ****&#x200B;公司设置。
 1. 在[!UICONTROL 公司设置]页面上，单击&#x200B;**[!UICONTROL 品牌联合 Adobe Experience Cloud]**。
 1. 单击&#x200B;**[!UICONTROL 启用“联合品牌”]**。
 1. 浏览以上载图像，然后单击&#x200B;**[!UICONTROL 保存]**。
