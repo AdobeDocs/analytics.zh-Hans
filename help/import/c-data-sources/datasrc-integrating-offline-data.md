@@ -5,11 +5,10 @@ title: 交易和客户集成
 topic-fix: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 exl-id: d4e4388b-6449-4fef-a94d-01b3a52c2190
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 84%
+source-wordcount: '315'
+ht-degree: 79%
 
 ---
 
@@ -39,7 +38,7 @@ ht-degree: 84%
 
  -->
 
-要查看是否启用了“交易 ID 记录”，请导航至&#x200B;**[!UICONTROL 分析]**>**[!UICONTROL 管理]**>**[!UICONTROL 数据源]**。
+要查看是否启用了“事务ID记录”，请导航至&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 数据源]**。
 
 ![](assets/transaction-ID-recording-active.png)
 
