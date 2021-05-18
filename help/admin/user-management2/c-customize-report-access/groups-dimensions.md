@@ -3,14 +3,13 @@ description: 在粒度级别自定义用户访问权限，包括 eVar、流量�
 keywords: 群组;权限
 subtopic: Users and groups
 title: 自定义维度权限
-feature: Admin Tools
+feature: 管理工具
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 exl-id: 51c4193a-426e-46a0-8494-163b58588157
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 98%
+source-wordcount: '517'
+ht-degree: 94%
 
 ---
 
@@ -18,7 +17,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在迁移完所有客户之后，将撤销 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员工具]** > **[!UICONTROL 用户管理]**&#x200B;中的帮助内容。
+>用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在所有客户都已迁移后，**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 用户管理]**&#x200B;的帮助内容将停用。
 
 在粒度级别自定义用户访问权限，包括 eVar、流量报表、解决方案报表和路径报表。
 
