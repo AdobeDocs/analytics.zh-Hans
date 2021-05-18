@@ -3,14 +3,13 @@ description: 自定义 Analytics 工具、报表包工具、量度和维度的�
 keywords: 群组;权限
 subtopic: Users and groups
 title: 自定义报表访问 - 概述
-feature: Admin Tools
+feature: 管理工具
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 exl-id: f70b53b5-1399-4b9b-ad09-df8425baeca4
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 96%
+source-wordcount: '591'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +17,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->用户和产品管理已移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。在迁移完所有客户之后，将撤销 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员工具]** > **[!UICONTROL 用户管理]**&#x200B;中的帮助内容。
+>用户和产品管理已移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。在所有客户都已迁移后，**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 用户管理]**&#x200B;的帮助内容将停用。
 
 自定义 Analytics 工具、报表包工具、量度和维度的群组权限。
 
