@@ -2,14 +2,13 @@
 description: 描述如何将一个用户帐户中的用户帐户项目（功能板、计算量度、日历事件、警报、书签、区段、Analysis Workspace 项目和计划项目）分配给另一个用户帐户的步骤。
 subtopic: Users and groups
 title: 转移用户帐户项目
-feature: Admin Tools
+feature: 管理工具
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
 exl-id: 13e2e412-14ea-4a9a-8f68-c914125d551e
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 100%
+source-wordcount: '217'
+ht-degree: 88%
 
 ---
 
@@ -17,11 +16,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在迁移完所有客户之后，将撤销 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员工具]** > **[!UICONTROL 用户管理]**&#x200B;中的帮助内容。
+>用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在所有客户都已迁移后，**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 用户管理]**&#x200B;的帮助内容将停用。
 
 描述如何将一个用户帐户中的用户帐户项目（功能板、计算量度、日历事件、警报、书签、区段、Analysis Workspace 项目和计划项目）分配给另一个用户帐户的步骤。
 
-1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 用户管理]**。
+1. 单击&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 用户管理]**。
 1. 单击&#x200B;**[!UICONTROL 编辑用户]**。
 1. 查找要从中转移资产的用户，然后选中此用户行旁边的复选框。
 1. 从顶部的操作栏中选择&#x200B;**[!UICONTROL 转移资产]**。
