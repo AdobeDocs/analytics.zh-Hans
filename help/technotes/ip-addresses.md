@@ -1,16 +1,15 @@
 ---
-title: Adobe Analytics使用的IP和域
+title: Adobe Analytics 使用的 IP 和域
 description: 如果贵组织的防火墙阻止源自 Adobe 的 IP 地址，请使用此列表更新您的防火墙设置。
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-translation-type: tm+mt
-source-git-commit: 8986b30ca08224e2b992e8ed238e74e40e9a7b41
+source-git-commit: 9e013f484c9f417a1e2ac2c2a59d2e918cedf787
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
-# Adobe Analytics使用的IP和域
+# Adobe Analytics 使用的 IP 和域
 
 一些防火墙配置会阻止源自 Adobe 数据收集服务器或负责访问数据的服务器的 IP 地址。您可以使用此范围列表来更改贵组织的防火墙设置，以允许从组织内访问和发送数据。
 
@@ -24,7 +23,7 @@ Adobe Analytics 使用以下主机来改进性能和产品体验。Adobe 建议�
 
 | 技术 | 域 |
 | --- | --- |
-| Adobe Analytics域 | `adobe.com`、`adobe.net`、`adobe.io` |
+| Adobe Analytics 域 | `adobe.com`、`adobe.net`、`adobe.io` |
 | Adobe Analytics 旧域 | `omniture.com` |
 | Amazon AWS | `aaui-879784980514.s3.us-east-2.amazonaws.com` |
 | Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
@@ -33,9 +32,9 @@ Adobe Analytics 使用以下主机来改进性能和产品体验。Adobe 建议�
 | Microsoft Azure Blob 存储 | `awaascicdprodva7.blob.core.windows.net` |
 | Microsoft Azure CDN | `aauicdnva7.azureedge.net` |
 
-## 所有Adobe Analytics数据收集IP地址块
+## 所有 Adobe Analytics 数据收集 IP 地址块
 
-下表涵盖Adobe Analytics的所有标准数据收集服务器和区域数据收集服务器。 它们不包括单个 AWS 主机。
+下表介绍了 Adobe Analytics 的所有标准数据收集服务器以及区域数据收集服务器。它们不包括单个 AWS 主机。
 
 | IP 块（CIDR 表示法） |
 | --- |
@@ -113,13 +112,13 @@ Adobe Analytics 使用以下主机来改进性能和产品体验。Adobe 建议�
 
 ## AWS 主机
 
-Adobe Analytics使用Amazon Web服务作为其数据收集过程的一部分。 下表包含为 Adobe 预留的 AWS 主机。上面汇总的块范围中&#x200B;**不**&#x200B;包含这些主机。
+Adobe Analytics 使用 Amazon Web Services 作为其数据收集流程的一部分。下表包含为 Adobe 预留的 AWS 主机。上面汇总的块范围中&#x200B;**不**&#x200B;包含这些主机。
 
 | 位置 | 主机 |
 | --- | --- |
-| 澳大利亚 | `13.238.77.77` |
-| 澳大利亚 | `52.62.21.192` |
-| 澳大利亚 | `54.66.152.159` |
+| 澳大利亚 | `13.54.219.183` |
+| 澳大利亚 | `52.62.137.88` |
+| 澳大利亚 | `54.79.162.112` |
 | 中国 | `52.81.111.133` |
 | 中国 | `140.179.22.22` |
 | 法国 | `15.237.76.117` |
