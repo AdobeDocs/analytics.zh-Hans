@@ -2,16 +2,15 @@
 description: 配置流失可视化。
 title: 配置流失可视化
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-feature: Visualizations
+feature: 可视化图表
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
+source-git-commit: d2edb8921afa2aeb7ce4b932f1e1320acac7de70
 workflow-type: tm+mt
 source-wordcount: '686'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
-
 
 # 配置流失可视化
 
@@ -53,7 +52,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>最终路径 </p> <p>(默认) </p> </td> 
-   <td colname="col2"> <p>对“最终”在路径中登陆下一页，但不一定具有下一次点击的访客进行计数。 </p> </td> 
+   <td colname="col2"> <p>访客将被计为“最终”登陆该会话路径中的下一页，但不一定是下一次点击。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>下一次点击 </p> </td> 
