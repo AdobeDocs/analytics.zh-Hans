@@ -4,11 +4,10 @@ audience: end-user
 user-guide-title: Analytics 导出指南
 breadcrumb-title: 导出指南
 user-guide-description: 使用“数据馈送”接收每小时或每天导出的原始数据。使用 Data Warehouse 检索以电子表格输出的数据。
-translation-type: tm+mt
-source-git-commit: e9969fbcc2adb58fba8d2bd293580181a05d1bac
+source-git-commit: dd2ac690e4c5ed4337ab29302500079f72bed448
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 97%
 
 ---
 
@@ -23,10 +22,11 @@ ht-degree: 100%
    + [管理数据馈送作业](analytics-data-feed/df-manage-jobs.md)
    + 数据馈送内容 {#data-feed-contents}
       + [数据馈送内容概述](analytics-data-feed/c-df-contents/datafeeds-contents.md)
-      + [计算指标](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
+      + [计算量度](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [数据列引用](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [页面事件查找](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [移动设备属性查找](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
+      + [post_product_list中的促销eVar实例查找](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [特殊字符](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [迟到的点击量](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [数据馈送常见问题解答](analytics-data-feed/df-faq.md)
@@ -38,7 +38,7 @@ ht-degree: 100%
    + [创建 Data Warehouse 请求](data-warehouse/t-dw-create-request.md)
    + [请求发送时间](data-warehouse/delivery-time.md)
    + [表格数据文件](data-warehouse/t-tableau.md)
-   + [按指标排序](data-warehouse/sorting-by-metric.md)
+   + [按量度排序](data-warehouse/sorting-by-metric.md)
    + [计划周期性请求](data-warehouse/dw-schedule-recurring.md)
    + [管理 Data Warehouse 请求](data-warehouse/data-warehouse-requests-manage.md)
    + [Data Warehouse 中支持的组件](data-warehouse/component-support.md)
