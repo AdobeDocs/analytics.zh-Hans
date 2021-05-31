@@ -2,11 +2,10 @@
 description: 了解 Analytics Data Connectors 生命周期终止的时间和原因。
 title: Analytics Data Connectors 生命周期终止预告
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-translation-type: tm+mt
 source-git-commit: 06baca24c0cba70fd8c413fae7fe2763fe791359
 workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +36,7 @@ ht-degree: 81%
 | Acxiom | 弃用 |
 | Adform | 弃用 |
 | Adjust | 迁移至 Adobe Exchange |
-| Adobe Campaign | 迁移至 Adobe Exchange （见下文附注） |
+| Adobe Campaign | 迁移至 Adobe Exchange（参见以下“注意”） |
 | Appfigures | 迁移至 Adobe Exchange |
 | Appsee | 弃用 |
 | AppsFlyer | 迁移至 Adobe Exchange |
@@ -100,8 +99,8 @@ ht-degree: 81%
 | wywy | 弃用 |
 | Yesmail Enterprise | 弃用 |
 
-## 异常：Adobe Campaign Classic
+## 例外：Adobe Campaign Classic
 
-2021年8月1日的一个例外是Adobe Campaign Classic整合。 此集成将于2022年3月1日正式弃用。
+到 2021 年 8 月 1 日这一天唯一的例外是 Adobe Campaign Classic 集成。该集成将于 2022 年 3 月 1 日正式弃用。
 
-2021年8月1日，Adobe Campaign Classic将与所有其他集成一起从Data Connectors UI中删除；但是，现有的活动集成将在2022年3月1日之前继续收集数据并将数据传递到Adobe Analytics。 2022年3月1日，整合将停止收集数据并将数据传递给Adobe Analytics。 Adobe Campaign正在构建一个新的Adobe交换集成，以取代当前的数据连接器集成。 Adobe Campaign预计将及时完成此新集成，以便客户在2022年3月弃用日期之前迁移到新集成。
+2021 年 8 月 1 日，Adobe Campaign Classic 将与所有其他集成一起从数据连接器 UI 中删除，但是，在 2022 年 3 月 1 日之前，现有 Campaign 集成将继续收集数据并传递到 Adobe Analytics。在 2022 年 3 月 1 日，集成将停止收集和传递数据到 Adobe Analytics。Adobe Campaign 在构建 Adobe Exchange 上的新集成以取代现有的数据连接器集成。Adobe Campaign 预计将按时完成此新集成，以便让客户在 2022 年 3 月的弃用日期之前迁移到新的集成。
