@@ -2,11 +2,11 @@
 title: 营销渠道中的分类
 description: 分类用于将值归到相关群组并在群组级别进行报告。例如，您可以将所有“付费搜索”促销活动归为类似“视频卡”的类别。然后，可在该类别相对于“实例”（或“点进次数”）等量度而成功时进行报告。
 exl-id: eaae9d60-21f8-42ff-b574-cb1710c68cdf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '298'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->为最大限度地提高Attribution IQ和Customer Journey Analytics营销渠道的效率，我们发布了一些[修订的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
+>为了最大化归因 IQ 和 Customer Journey Analytics 的营销渠道效率，我们发布了一些[修订后的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 
 分类用于将值归到相关群组并在群组级别进行报告。例如，您可以将所有“付费搜索”促销活动归为类似“视频卡”的类别。然后，可在该类别相对于“实例”（或“点进次数”）等量度而成功时进行报告。
 
