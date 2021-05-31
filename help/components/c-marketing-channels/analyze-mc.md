@@ -2,11 +2,11 @@
 title: 分析营销渠道
 description: 了解如何在工作区中使用营销渠道维度。
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '414'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 86%
 
 >[!NOTE]
 >
->为最大限度地提高Attribution IQ和Customer Journey Analytics营销渠道的效率，我们发布了一些[修订的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
+>为了最大化归因 IQ 和 Customer Journey Analytics 的营销渠道效率，我们发布了一些[修订后的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 
 您可能希望了解哪些营销渠道以及与谁合作最有效，从而更好地集中您的精力，并从营销资金中获得更好的回报。在 Adobe Analytics 中，工作区中的营销渠道维度和量度是帮助您跟踪不同渠道对订单、收入等的影响的工具之一。并为您提供有用的渠道分析。以下是您可以使用的与营销渠道相关的维度和量度：
 
@@ -26,7 +26,7 @@ ht-degree: 86%
 | 最近联系渠道 | 旧版维度，带有预应用的最近联系归因模型且不可更改。 |
 | 首个联系渠道 | 旧版维度，带有预应用的首个联系归因模型且不可更改。 |
 | 营销渠道实例 | 此量度衡量在图像请求中定义营销渠道的次数，包括标准页面查看和自定义链接调用。不包括持续得到的值。 |
-| 新参与 | 此量度与实例类似，但仅当在图像请求中定义了首次联系营销渠道时，此量度才递增。 |
+| 新参与 | 此量度类似于实例，但只有在图像请求中定义了首个联系营销渠道时才会递增。 |
 
 ## 基本分析
 
@@ -58,7 +58,7 @@ ht-degree: 86%
 
 ## 交叉表营销分析
 
-使用传统的“首次触摸”渠道和“最后触摸”渠道，您可以在渠道交互中获得有用的视图:
+使用旧版的首个联系渠道和最近联系渠道，您可以获得有助于了解渠道交互的见解：
 
 ![](assets/mc-viz6.png)
 
