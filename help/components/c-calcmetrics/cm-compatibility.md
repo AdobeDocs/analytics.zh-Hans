@@ -3,11 +3,11 @@ description: 有关三个产品兼容性选项的说明。
 title: 量度兼容性
 uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
 exl-id: 936d8139-7bbc-4de4-9e30-60ef5e12be08
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -19,6 +19,6 @@ ht-degree: 60%
 
 | 兼容 | 描述 |
 | --- | --- |
-| [当前数据](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html) | 通过Adobe Analytics中的[!UICONTROL 包含当前数据]选项，您可以视图最新的Analytics数据，通常是在数据完全处理和完成之前。 [!UICONTROL 当前数] 据可在几分钟内播放大多数量度，为快速决策提供可操作的数据。[!UICONTROL “当前数据”仅支持计算量度（包含加、减、乘、除）。][!UICONTROL “当前数据”不支持高级计算量度（包含区段或函数）。] |
-| 完全处理数据 | 经过完全处理且包含区段和分类的数据。如果您希望在数据完全处理后视图所有量度，可以通过从“当前数据用户”组中删除用户来禁用[!UICONTROL 当前数据]。 |
+| [当前数据](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=zh-Hans) | Adobe Analytics 中的[!UICONTROL 包括当前数据]选项让您可以查看最新的 Analytics 数据，通常在完全处理和完成某个数据时。[!UICONTROL 当前数据]显示几分钟内的大多数量度，提供可操作的数据用于快速决策。[!UICONTROL 当前数据]仅支持计算量度（包含加、减、乘、除）。[!UICONTROL 当前数据]不支持高级计算量度（包含区段或函数）。 |
+| 完全处理数据 | 经过完全处理且包含区段和分类的数据。如果您要在完全处理数据之后查看所有量度，您可以通过从当前数据用户组中删除用户来禁用[!UICONTROL 当前数据]。 |
 | 营销渠道报表 | 具有首次联系分配的量度仅与“营销渠道报表”兼容。 |
