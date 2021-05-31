@@ -5,11 +5,11 @@ uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a283ba5d5678498cde9d0065a4f9f6b8a98558dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 77%
 
 具有 Adobe Analytics Standard、Premium 和 Ultimate 合同的组织可以访问 Activity Map。
 
-## Activity Map如何支持单页应用程序(SPA)?
+## Activity Map 如何支持单页面应用程序 (SPA)？
 
-每隔几秒，Activity Map就会扫描网页，查找对该页面所做的更改。 ActivityMap在页面上查找新内容而无需加载新页面，但此新内容始终归因于加载页面时找到的第一个pageName。
+每隔几秒，Activity Map 扫描网页，查看对页面的更改。ActivityMap 查找页面上的新内容而无需加载新页面，但此新内容始终归因于在加载页面时找到的第一个 pageName。
 
-* Activity Map检查其所知链接的可见性是否已更改。 如果发现可见性的更改，则该链接的“页面上的链接”表的“存在”列将用[!UICONTROL Displayed]或[!UICONTROL Hidden]进行更新。
+* Activity Map 检查以确定它知道的链接的可见性是否发生了更改。如果发现了可见性的更改，则“页面上的链接”表上该链接的“现在”列将使用[!UICONTROL 已显示]或[!UICONTROL 已隐藏]更新。
 
-* 当用户交互创建新内容时，AppMeasurement发现的任何新元素都将作为链接添加到[!UICONTROL 页面上的链接]表中。 Activity Map发送包含这些新链接的新数据请求。 当UI处理数据请求时，新链接应显示在[!UICONTROL 页面上的链接]表中。
+* 当用户的交互创建新内容时，AppMeasurement 发现的任何作为链接的新元素将添加到[!UICONTROL 页面上的链接]表中。Activity Map 发送包括这些新链接的新数据请求。当 UI 处理数据请求时，新链接应显示在[!UICONTROL 页面上的链接]表中。
 
 
 ## Activity Map 是否提供有关“查看数”的数据？
