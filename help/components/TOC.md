@@ -4,11 +4,11 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算指标、虚拟报表包、警报等组件帮助整理数据。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fab253cb7c9aad0f0b1e82fee48a69822305099
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '639'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -249,7 +249,7 @@ ht-degree: 99%
    + [受支持的实时指标和维度](c-real-time-reporting/realtime-metrics.md)
 + 营销渠道 {#marketing-channels}
    + [营销渠道快速入门](c-marketing-channels/c-getting-started-mchannel.md)
-   + [Attribution IQ与营销渠道](c-marketing-channels/mchannel-best-practices.md)
+   + [归因 IQ 和营销渠道](c-marketing-channels/mchannel-best-practices.md)
    + [管理营销渠道](c-marketing-channels/c-channels.md)
    + [营销渠道的处理规则](c-marketing-channels/c-rules.md)
    + [营销渠道中的分类](c-marketing-channels/classifictions-mchannel.md)
