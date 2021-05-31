@@ -1,11 +1,11 @@
 ---
 title: 营销渠道常见问题解答
 description: 有关营销渠道的常见问题解答。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1485'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->为最大限度地提高Attribution IQ和Customer Journey Analytics营销渠道的效率，我们发布了一些[修订的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
+>为了最大化归因 IQ 和 Customer Journey Analytics 的营销渠道效率，我们发布了一些[修订后的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 
 有关营销渠道的常见问题解答。
 
 ## 我的跟踪代码不遵循某种模式，我必须为我的“附属活动”渠道指定数千个代码。
 
-* 使用排除法。如果您的“电子邮件”和“附属活动”渠道使用相同的查询字符串参数，但您只有少数的电子邮件跟踪代码，则您可以在一个定义电子邮件的规则集中指定电子邮件跟踪代码。然后，分类其他所有跟踪代码时使用  *`affiliates.`*
+* 使用排除法。如果您的“电子邮件”和“附属活动”渠道使用相同的查询字符串参数，但您只有少数的电子邮件跟踪代码，则您可以在一个定义电子邮件的规则集中指定电子邮件跟踪代码。然后，分类其他所有跟踪代码时使用 *`affiliates.`*
 * 在您的电子邮件系统中，为所有登陆页面 URL 添加一个查询字符串参数，例如 *`&ch=eml`*。创建一个规则集，用于检测 ch 查询参数是否等于 *`eml`*。如果该规则集中不包含 *`eml`*，则它是一个附属活动。
 
 ## 反向链接域包含的数据比我预期的多。
