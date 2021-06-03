@@ -5,10 +5,10 @@ uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 95%
+source-wordcount: '267'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 95%
 
 ## Analytics Activity Map 维度 {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}
 
-您可以在粒度级别[自定义用户对维度的访问权限](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html)。以下是 Analytics 中可用的 Activity Map 维度：
+您可以在粒度级别[自定义用户对维度的访问权限](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html)。以下是 Analytics 中可用的 Activity Map 维度：
 
 | 维度 | 描述 |
 |---|---|
