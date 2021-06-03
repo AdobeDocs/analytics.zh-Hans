@@ -3,16 +3,15 @@ description: 学习在 Workspace 项目中工作的基础知识。
 keywords: Analysis Workspace
 title: 项目概述
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-feature: Workspace Basics
+feature: Workspace 基础知识
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 75c551de-297e-4c45-95e6-77472be6628a
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1373'
-ht-degree: 100%
+source-wordcount: '1366'
+ht-degree: 98%
 
 ---
-
 
 # 项目概述
 
@@ -31,10 +30,10 @@ Workspace 项目列表页面包含了以下信息：
 | [创建新项目](/help/analyze/analysis-workspace/home.md) | 单击此链接可从头开始新项目或从为您创建的[模板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hans#analysis-workspace)开始新项目。 |
 | 管理项目 | 单击此链接将会转到项目组件管理器（**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 项目]**），其中列出了您的所有项目，并允许您标记、共享、删除、重命名、批准、复制项目以及将项目导出到 CSV。 |
 | 设置为登陆页面 | 将此页面变为您的 Workspace 登陆页面。 |
-| [查看教程](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html) | 带您查看 Analysis Workspace 视频教程。 |
+| [查看教程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html) | 带您查看 Analysis Workspace 视频教程。 |
 | 名称 | Workspace 项目名称。 |
 | 所有者 | 创建此项目的人员（您或与您共享此项目的人员）。 |
-| 类型 | 指示这是 Workspace 项目还是[移动记分卡](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/mobapp/home.html)。 |
+| 类型 | 指示这是 Workspace 项目还是[移动记分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html)。 |
 | [项目角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans) | 指示您在项目中的角色 — 所有者、编辑、复制、查看。 |
 | 标记 | 应用于项目的标记。 |
 | 上次修改时间 | 项目上次修改的日期和时间。 |
