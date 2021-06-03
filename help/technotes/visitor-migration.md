@@ -5,11 +5,10 @@ title: 访客迁移
 topic-fix: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-translation-type: ht
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '445'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '441'
+ht-degree: 98%
 
 ---
 
@@ -21,9 +20,9 @@ ht-degree: 100%
 
 * 从 `2o7.net` 迁移到 `adobedc.net`。
 
-* 您在实施 [Experience Cloud 访客 ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html) 并从 CNAME/第一方数据收集域迁移到 `adobedc.net`、`2o7.net` 或 `omtrdc.net`
+* 您在实施 [Experience Cloud 访客 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html) 并从 CNAME/第一方数据收集域迁移到 `adobedc.net`、`2o7.net` 或 `omtrdc.net`
 
-* 从 cname/第一方数据收集迁移（[第一方 Cookie）](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/ec-cookies/cookies-first-party.html)。
+* 从 cname/第一方数据收集迁移（[第一方 Cookie）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=zh-Hans)。
 
 * 在 CNAME 之间转移（更改域）。
 
