@@ -2,17 +2,19 @@
 description: Silverpop 的 Data Connectors 集成使用 Analytics 变量来跟踪不同的 Silverpop 量度。
 title: Analytics 集成变量
 uuid: 3aef3caf-e24e-4fe7-b4d7-50ca0f6703b5
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: 0b8b31f5-65a8-41e0-97d1-d75fb1b91f62
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 98%
 
 ---
-
 
 # Analytics 集成变量{#analytics-integration-variables}
 
 Silverpop 的 Data Connectors 集成使用 Analytics 变量来跟踪不同的 Silverpop 量度。
 
-在确定要与 Silverpop 集成一起使用的事件和 eVar 后，使用 Adobe Analytics Admin Console 启用它们（请参阅[报表包](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/manage-report-suites/report-suites-admin.html)）。
+在确定要与 Silverpop 集成一起使用的事件和 eVar 后，使用 Adobe Analytics Admin Console 启用它们（请参阅[报表包](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html)）。
 
 下表描述了 Silverpop 集成所需的 Analytics 变量。
 
@@ -38,4 +40,3 @@ Silverpop 的 Data Connectors 集成使用 Analytics 变量来跟踪不同的 Si
 | eVar | 电子邮件地址 | 通过 Analytics 标记手动收集。 | “电子邮件地址”用于在注册、登录或收集电子邮件地址的其他页面上手动收集电子邮件地址。此变量用于向已选择接收电子邮件，但过去可能尚未通过电子邮件点击的用户进行再营销。 |
 | eVar | 下载的文件 | 通过 Analytics 标记手动收集。 | “下载的文件”用于标识访客下载的文件。 |
 | eVar | 表单名称 | 通过 Analytics 标记手动收集。 | “表单名称”用于标识访客放弃的表单。 |
-
