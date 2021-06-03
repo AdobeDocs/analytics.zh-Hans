@@ -5,11 +5,10 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace 基础知识
 role: Business Practitioner, Administrator
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1399'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1389'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +18,7 @@ ht-degree: 100%
 
 * **空白项目（默认）**：有关说明，请参阅[创建 Analysis Workspace 项目](/help/analyze/analysis-workspace/home.md)。
 * **标准模板**：这些模板由 Adobe 创建，随产品一起提供。
-* **自定义模板**：这些模板可由具有管理员权限的用户或非管理员创建、共享或删除，前提是已在 Admin Console 中向他们授予了 [!UICONTROL Analysis Workspace：另存为模板]权限。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-console/permissions/product-profile.html)
+* **自定义模板**：这些模板可由具有管理员权限的用户或非管理员创建、共享或删除，前提是已在 Admin Console 中向他们授予了 [!UICONTROL Analysis Workspace：另存为模板]权限。[了解更多...](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
 
@@ -57,7 +56,7 @@ ht-degree: 100%
 
 您可以按原样使用这些预填充模板，或修改它们以符合您的需要（例如，添加或替换量度或可视化图表），然后起一个新名称保存它们。
 
-这里有一段关于 [Analysis Workspace 中的标准模板](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html)的视频教程（2 分 46 秒）
+这里有一段关于 [Analysis Workspace 中的标准模板](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html)的视频教程（2 分 46 秒）
 
 以下是可用的模板和每个模板帮助回答的问题：
 
@@ -81,7 +80,7 @@ ht-degree: 100%
 
 * **Magento：营销与商务**：此模板通过营销渠道归因细分您的电子商务转化，并按搜索关键字、登陆页面、地理位置等提供见解。有关视频概述，请观看：
 
->[!VIDEO](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
+>[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
 
 ### 媒体
 
@@ -119,7 +118,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->“人员”模板及其关联的“人员”量度只能在 [Adobe Experience Cloud 设备协作](https://docs.adobe.com/content/help/zh-Hans/device-co-op/using/data/people.html)中使用。
+>“人员”模板及其关联的“人员”量度只能在 [Adobe Experience Cloud 设备协作](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html)中使用。
 
 该模板基于“人员”量度，“人员”量度是删除了重复数据的独特访客量度版本。通过“人员”量度可测量客户使用多个设备与您的品牌进行交互的频率。该模板允许您
 
@@ -135,7 +134,7 @@ ht-degree: 100%
 
 <!--This content is mirrored in the CDA doc.-->
 
-此模板可让您查看重要的跨设备性能数据。它仅适用于有权访问[Cross-Device Analytics](https://docs.adobe.com/content/help/zh-Hans/analytics/components/cda/cda-home.html) (CDA) 的客户。
+此模板可让您查看重要的跨设备性能数据。它仅适用于有权访问[Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-home.html) (CDA) 的客户。
 
 * **对协作图成员的特别说明**：显示报表包的哪些部分包含支持协作图的区域的访客，以及不支持协作图的区域的访客。
 * **用户标识**：显示使用基于 Cross-Device Analytics 的方法识别网站访客的频率。
