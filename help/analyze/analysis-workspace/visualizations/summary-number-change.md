@@ -5,17 +5,16 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: 可视化图表
 role: Business Practitioner, Administrator
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '463'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 96%
 
 ---
 
 # 概要数字和概要变化
 
-## “概要数字”可视化图表 {#summary-number}
+## “概要数字”可视化图表  {#summary-number}
 
 使用“概要数字”可视化图表来突出显示项目中的大型重要数字。此可视化图表的行为方式如下：
 
@@ -46,7 +45,7 @@ ht-degree: 100%
 
 ## “概要变化”可视化图表 {#summary-change}
 
-使用“概要变化”可视化图表来显示两个数字之间的增量（变化）。可通过[自定义事件极性](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/success-events/success-event.html)或计算量度的[将上升趋势显示为](https://docs.adobe.com/content/help/zh-Hans/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)选项来控制“概要变化”的绿色和红色。
+使用“概要变化”可视化图表来显示两个数字之间的增量（变化）。可通过[自定义事件极性](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html)或计算量度的[将上升趋势显示为](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)选项来控制“概要变化”的绿色和红色。
 
 此可视化图表的行为方式如下：
 
