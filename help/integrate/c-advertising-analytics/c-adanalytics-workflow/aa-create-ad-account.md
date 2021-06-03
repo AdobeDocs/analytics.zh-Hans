@@ -2,11 +2,10 @@
 title: 如何在 Advertising Analytics 中设置广告帐户
 description: 让您创建新的广告帐户并将多个帐户映射到多个报表包。
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '869'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '863'
+ht-degree: 97%
 
 ---
 
@@ -58,13 +57,13 @@ Adobe Analytics 管理员可以创建新的广告帐户，并将多个帐户映�
 
    | 设置 | 描述 |
    |--- |--- |
-   | 类型 | <ul><li>**自动**：让 Advertising Cloud 引擎自行决定如何将跟踪参数附加到搜索引擎的跟踪模板/目标 URL。这种方法最简单，但可能不会生成最佳的集成数据集。<br>**重要信息：**&#x200B;要在“自动模式”中配置搜索引擎帐户，您需要负责执行以下操作：<br>将“s_kwcid”参数和值添加到要添加的帐户中的帐户跟踪模板或登陆页 URL。该参数和值将插入到 URL 的末尾。因此，如果您的 Web 服务器要求在 URL 末尾使用特定的键值对，或者需要更新以支持 URL 中的任何新键值对，则可能需要执行其他操作。**注意：**&#x200B;了解关于是否应将该参数添加到您的[内容安全策略](https://docs.adobe.com/content/help/zh-Hans/id-service/using/reference/csp.html)的更多信息。<br>此外，还可以将关键字作为“s_kwcid”值的一部分插入到登陆 URL 中，所以，如果它们包含特殊字符或符号，请确认您的 Web 服务器可以支持这些字符（例如，常见特殊字符“+”，用于“修改广泛匹配”关键字）。</li><li>**手动**：让您管理如何将跟踪参数添加到搜索引擎的跟踪模板/目标 URL。[请参考每个搜索引擎的手动跟踪示例](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md)。</li></ul> |
+   | 类型 | <ul><li>**自动**：让 Advertising Cloud 引擎自行决定如何将跟踪参数附加到搜索引擎的跟踪模板/目标 URL。这种方法最简单，但可能不会生成最佳的集成数据集。<br>**重要信息：**&#x200B;要在“自动模式”中配置搜索引擎帐户，您需要负责执行以下操作：<br>将“s_kwcid”参数和值添加到要添加的帐户中的帐户跟踪模板或登陆页 URL。该参数和值将插入到 URL 的末尾。因此，如果您的 Web 服务器要求在 URL 末尾使用特定的键值对，或者需要更新以支持 URL 中的任何新键值对，则可能需要执行其他操作。**注意：**&#x200B;了解关于是否应将该参数添加到您的[内容安全策略](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html)的更多信息。<br>此外，还可以将关键字作为“s_kwcid”值的一部分插入到登陆 URL 中，所以，如果它们包含特殊字符或符号，请确认您的 Web 服务器可以支持这些字符（例如，常见特殊字符“+”，用于“修改广泛匹配”关键字）。</li><li>**手动**：让您管理如何将跟踪参数添加到搜索引擎的跟踪模板/目标 URL。[请参考每个搜索引擎的手动跟踪示例](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md)。</li></ul> |
 
 1. 在&#x200B;**[!UICONTROL 映射]**&#x200B;部分，您可以选择链接到此搜索引擎帐户的报表包。您必须先提供至少一个报表包，然后才能保存广告帐户。您可以将多个帐户映射到多个报表包（一对一、一对多、多对多）。请注意，AMO 从搜索引擎提取的数据只是简单地复制到所有映射的报表包中，因此不会出现拆分数据的情况。
 
    >[!IMPORTANT]
    >
-   >只有已经[映射到 Experience Cloud 组织](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/about-core-services/report-suite-mapping.html)的报表包才可供选择。如果在列出的报表包中未看到您的报表包，请参阅 [Advertising Analytics 疑难解答](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)。
+   >只有已经[映射到 Experience Cloud 组织](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)的报表包才可供选择。如果在列出的报表包中未看到您的报表包，请参阅 [Advertising Analytics 疑难解答](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)。
 
    对于&#x200B;**[!UICONTROL 映射设置]**，请遵循以下说明：
 
@@ -78,7 +77,7 @@ Adobe Analytics 管理员可以创建新的广告帐户，并将多个帐户映�
     <tbody> 
       <tr> 
       <td colname="col1"> <p>报表包映射 </p> </td> 
-      <td colname="col2"> <p>报表包映射可确定链接到此搜索引擎帐户的报表包。换句话说，它可确定搜索引擎数据会发送到哪些报表包。 </p> <p>如果在列出的报表包中未看到您的报表包，则可使用此工具<a href="https://docs.adobe.com/content/help/zh-Hans/core-services/interface/about-core-services/report-suite-mapping.html"  >将您的报表包映射到 Experience Cloud 组织</a>。 </p> </td> 
+      <td colname="col2"> <p>报表包映射可确定链接到此搜索引擎帐户的报表包。换句话说，它可确定搜索引擎数据会发送到哪些报表包。 </p> <p>如果在列出的报表包中未看到您的报表包，则可使用此工具<a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html"  >将您的报表包映射到 Experience Cloud 组织</a>。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
