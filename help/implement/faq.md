@@ -1,14 +1,13 @@
 ---
 title: 有关实施的常见问题解答
 description: 有关实施的常见问题，以及指向更多信息的链接。
-translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '497'
 ht-degree: 71%
 
 ---
-
 
 # 有关 Analytics 实施的常见问题解答
 
@@ -20,7 +19,7 @@ Identity Service 可分配一个唯一的永久标识符，该标识符可以在
 
 ## 我该如何实施心率视频跟踪？
 
-请参阅[在 Adobe Analytics 中测量音频和视频](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-overview.html)。
+请参阅[在 Adobe Analytics 中测量音频和视频](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)。
 
 ## Adobe 的服务中断会影响库性能吗？
 
@@ -50,12 +49,12 @@ var s = new Object();
 >* 更改 `trackingServer` 变量使其指向 Adobe 之外的服务器。AppMeasurement 仍会发送图像请求，这会返回 404 错误。
 
 
-## 我通过代码分析器运行AppMeasurement，它将其用作潜在 `Math.random()` 的安全风险。 是否 `Math.random()` 可与任何敏感数据一起使用？
+## 我通过代码分析器运行AppMeasurement，并将其`Math.random()`的用法标记为潜在的安全风险。 是否将`Math.random()`用于任何敏感数据？
 
-不可以。使用的数 `Math.random()` 字不用于遮罩、发送或接收任何敏感数据。 发送到Adobe数据收集服务器的数据依赖于基础HTTPS连接的安全性。 <!-- AN-173590 -->
+否。使用`Math.random()`的数字不用于掩盖、发送或接收任何敏感数据。 发送到Adobe数据收集服务器的数据依赖于基础HTTPS连接的安全性。<!-- AN-173590 -->
 
-AppMeasurement在三 `Math.random()` 个关键方面的使用：
+AppMeasurement在以下三个关键方面使用`Math.random()` :
 
-* **采样**:根据您的实施，只能为网站的一小部分访客收集一些信息。 `Math.random()` 用于确定给定访客是否应发送数据。 大多数实现都不使用采样。
-* **回退访客ID**:如果无法从Cookies检索访客ID，则会生成随机访客ID。 AppMeasurement的此部分使用两个调用 `Math.random()`。
-* **缓存破坏**:随机编号会添加到图像请求URL的末尾，以帮助防止浏览器缓存。
+* **采样**:根据您的实施，可能只会为网站的一小部分访客收集一些信息。`Math.random()` 用于确定给定访客是否应发送数据。大多数实施都不使用采样。
+* **回退访客ID**:如果无法从Cookie检索访客ID，则会生成一个随机的访客ID。AppMeasurement的这一部分对`Math.random()`使用两个调用。
+* **缓存嵌套**:图像请求URL的末尾会添加一个随机数，以帮助防止浏览器缓存。
