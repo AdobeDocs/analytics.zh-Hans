@@ -4,11 +4,10 @@ title: 常见问题解答
 feature: 分段
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2078'
-ht-degree: 100%
+source-wordcount: '2072'
+ht-degree: 99%
 
 ---
 
@@ -20,8 +19,8 @@ ht-degree: 100%
 
 * Analysis Workspace 中的分段：
 
-   * 您可以[比较区段](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)。
-   * 在比较中使用[区段作为维度](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/audiences/audience-library.html)。
+   * 您可以[比较区段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)。
+   * 在比较中使用[区段作为维度](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)。
    * 在[流失分析](https://docs.adobe.com/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)中使用区段。
 
 * 您可以[将多个区段应用于一个报表或项目](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
@@ -74,7 +73,7 @@ Reports &amp; Analytics 中的区段下拉菜单已被功能更加丰富的[区�
 
 **需要哪些权限才能使用、创建和管理区段？**
 
-默认情况下，所有用户都可以创建和编辑个人区段。但是，管理员可以决定哪些用户应拥有[创建区段的权限](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/user-product-management/user-groups/groups.html)，然后将这些用户分配到特定的组。这些区段可以直接与任何其他 Analytics 用户共享。
+默认情况下，所有用户都可以创建和编辑个人区段。但是，管理员可以决定哪些用户应拥有[创建区段的权限](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)，然后将这些用户分配到特定的组。这些区段可以直接与任何其他 Analytics 用户共享。
 
 管理员可以编辑任何区段，并且可以与组织中的组和每个人共享区段。[更多...](/help/components/segmentation/seg-reference/seg-rights.md)
 
@@ -314,7 +313,7 @@ seg_definition.xml
  </tbody> 
 </table>
 
-## 对具有已知值的字符串维度的更改  {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
+## 对具有已知值的字符串维度的更改 {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
 
 具有已知值集的字符串维度已更改为枚举类型。在使用这些维度创建区段时，将使用所有已知值预填充该列表，而支持的运算符只有等于。这让您可以在使用限制较少的匹配条件时，快速分段查找的确切值，而不会选择非预期的值。
 
@@ -336,7 +335,7 @@ seg_definition.xml
 | 移动设备书签长度 | 启用 Java | 付费搜索 |
 | 移动设备 URL 长度 | 语言 |  |
 
-## 对具有已知值的整数维度的更改  {#section_84A8AAD0344148AD9F9211D3EB271903}
+## 对具有已知值的整数维度的更改 {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 具有已知值集的整数维度（如浏览器宽度）已被拆分为多个枚举范围，因此您可以快速定义特定范围的区段。这些枚举列表会在维度名称后附加“- 分段统计”。以下屏幕演示了如何使用以前的区段生成器界面和新区段生成器界面来分段这些维度：
 
