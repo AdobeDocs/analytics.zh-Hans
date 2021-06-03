@@ -3,10 +3,9 @@ description: 显示如何生成简单的“每次访问页面查看次数”量�
 title: 构建简单的“每次访问的页面查看次数”量度
 uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
 exl-id: 2d1c4677-b07c-4eca-97b7-e5e4594daee1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '251'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '249'
 ht-degree: 100%
 
 ---
@@ -29,7 +28,7 @@ ht-degree: 100%
 1. 对于此量度，首先将“页面查看次数”拖到画布中，然后再将“访问次数”拖到下方（等到出现蓝线时再放下它）。
 1. 选择“除以”运算符。（“除以”是默认的运算符。）
 1. 现在，当您生成量度时，即可在右上角看到该量度的&#x200B;**[!UICONTROL 预览]**。
-1. 产品兼容性显示该量度是与“[当前数据](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/reports-analytics/current-data.html)”兼容，还是仅与“完全处理数据”兼容。
+1. 产品兼容性显示该量度是与“[当前数据](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=zh-Hans)”兼容，还是仅与“完全处理数据”兼容。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 1. 请注意，无论您何时对量度定义进行更改，**[!UICONTROL 概要]**&#x200B;公式都会随之发生更新。
 1. 此时您会自动转到[计算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)，它类似于区段管理器。它允许您共享、批准、（重新）标记、重命名或删除量度。
