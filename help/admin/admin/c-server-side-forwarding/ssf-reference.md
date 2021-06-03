@@ -2,14 +2,13 @@
 description: 服务器端转发调用中的配置变量、HTTP 头和数据信号的综合列表及描述。
 title: 服务器端转发数据和代码引用
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
-workflow-type: ht
-source-wordcount: '610'
-ht-degree: 100%
+exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '604'
+ht-degree: 95%
 
 ---
-
 
 # 服务器端转发数据和代码引用
 
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 ## 配置变量 {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-带有 `d_*` 前缀的参数用于标识由我们的[数据收集服务器](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS) 使用的系统级别特殊键值对。另请参阅 [DCS API 调用支持的属性](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)。
+带有 `d_*` 前缀的参数用于标识由我们的[数据收集服务器](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS) 使用的系统级别特殊键值对。另请参阅 [DCS API 调用支持的属性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)。
 
 | 参数 | 描述 |
 |--- |--- |
@@ -43,7 +42,7 @@ ht-degree: 100%
 
 ## 客户定义的信号 {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-带有 `c_` 前缀的参数用于标识客户定义的变量。另请参阅 [DCS API 调用支持的属性](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)。
+带有 `c_` 前缀的参数用于标识客户定义的变量。另请参阅 [DCS API 调用支持的属性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)。
 
 | 信号 | 描述 |
 |--- |--- |
