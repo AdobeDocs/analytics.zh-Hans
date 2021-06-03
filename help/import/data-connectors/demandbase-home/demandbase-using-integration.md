@@ -2,14 +2,13 @@
 description: 部署集成后，您可以开始使用此集成提供的其他功能。
 title: 使用集成
 uuid: 5e861274-4d81-4ee0-b84e-ab83bc1c1331
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: 7c568f78-6cec-47ad-acf8-60138cd4aca7
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 100%
+source-wordcount: '212'
+ht-degree: 96%
 
 ---
-
 
 # 使用集成{#using-the-integration}
 
@@ -37,6 +36,6 @@ ht-degree: 100%
 
 受众等于 SMB。
 
-有关如何构建区段的更多信息，请参阅 [Analytics 分段指南](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/seg-home.html)。
+有关如何构建区段的更多信息，请参阅 [Analytics 分段指南](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)。
 
 然后，可将此区段应用于几乎任何报表 - 例如，此处显示的“每次访问逗留时间”报表：![](assets/segment_applied_report.png)
