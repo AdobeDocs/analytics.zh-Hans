@@ -2,10 +2,9 @@
 title: 选择退出链接
 description: 了解如何为网站的访客创建实施选择退出链接。
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '590'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '586'
 ht-degree: 100%
 
 ---
@@ -14,7 +13,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Adobe 建议使用选择加入服务，尤其是需要遵从 GDPR 法规的组织。请参阅 Experience Cloud Identity Service 用户指南中的[选择加入服务概述](https://docs.adobe.com/content/help/zh-Hans/id-service/using/implementation/opt-in-service/optin-overview.html)。
+>Adobe 建议使用选择加入服务，尤其是需要遵从 GDPR 法规的组织。请参阅 Experience Cloud Identity Service 用户指南中的[选择加入服务概述](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hans)。
 
 某些访问您网站的访客不愿意将他们的浏览信息包含在您的数据集中。Adobe 让您能够向网站访客提供一种方案，禁止收集他们的信息。所有实施类型均适用；贵组织有责任遵守自己的隐私政策，同时也应遵守已签署的条款。
 
@@ -37,7 +36,7 @@ ht-degree: 100%
    1. 在 Web 服务器上，在代码编辑器或文本编辑器中打开您网站上使用的 AppMeasurement.js 文件。
    2. 记下 `trackingServer` 变量值。
 
-* 使用 [Adobe Experience Cloud 调试器](https://docs.adobe.com/content/help/zh-Hans/debugger/using/experience-cloud-debugger.html)：
+* 使用 [Adobe Experience Cloud 调试器](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)：
    1. 使用 Chrome 浏览器导航到您的网站。
    2. 打开 Experience Cloud 调试器，然后转到[!UICONTROL 网络]选项卡。
    3. 记下[!UICONTROL 请求 URL - 主机名]值。
