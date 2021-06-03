@@ -6,10 +6,10 @@ title: 自定义报表访问 - 概述
 feature: 管理工具
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 exl-id: f70b53b5-1399-4b9b-ad09-df8425baeca4
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 93%
+source-wordcount: '585'
+ht-degree: 89%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->用户和产品管理已移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。在所有客户都已迁移后，**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 用户管理]**&#x200B;的帮助内容将停用。
+>用户和产品管理已移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。在迁移完所有客户后，将撤销&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 用户管理]**&#x200B;的帮助内容。
 
 自定义 Analytics 工具、报表包工具、量度和维度的群组权限。
 
@@ -41,7 +41,7 @@ ht-degree: 93%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>管理员访问权限/预定义群组 </p> </td> 
-   <td colname="col2"> <p> 管理员不再需要预定义群组。管理员现在可以访问所有项目（工具、量度、维度）以及Web服务访问、Report Builder和Activity Map。 </p> <p>群组的用途是授予或限制非管理用户的访问权限。 </p> </td> 
+   <td colname="col2"> <p> 管理员不再需要预定义群组。管理员现在可以访问所有项目（工具、量度、维度），以及Web服务访问、Report Builder和Activity Map。 </p> <p>群组的用途是授予或限制非管理用户的访问权限。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>自定义群组 </p> </td> 
@@ -61,12 +61,12 @@ ht-degree: 93%
    <td colname="col2"> <p>您可以对权限进行自定义，以便包含或排除对维度（和量度）的访问权限。 </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>自定义群组内的所有当前维度和量度均已自动迁移到新类别。如果现有的群组启用了量度，则默认情况下将为其提供所有新增的许可维度（eVar 和内容识别）和量度。 </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 分类导入器（前身为 SAINT）权限：分类的访问权限取决于对此分类所依据的<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/components/classifications/c-classifications.html">变量</a>的访问权限。 </li> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 分类导入器（前身为 SAINT）权限：分类的访问权限取决于对此分类所依据的<a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html">变量</a>的访问权限。 </li> 
     </ul> <p>请参阅<a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">自定义维度权限</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html"> Adobe Admin Console</a> </p> </td> 
-   <td colname="col2"> <p>仅建议新客户或<a href="https://docs.adobe.com/content/help/zh-Hans/core-services/interface/about-core-services/core-services.html">已在 Experience Cloud 中设置了</a>公司的客户使用。现有 <span class="keyword">Analytics</span> 客户向 <span class="keyword">Experience Cloud</span> 身份管理系统的迁移已经提上计划日程。 </p> <p>有关更多信息，请参阅<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">将 Analytics 用户迁移到 Admin Console</a>。 </p> </td> 
+   <td colname="col2"> <p>仅建议新客户或<a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html">已在 Experience Cloud 中设置了</a>公司的客户使用。现有 <span class="keyword">Analytics</span> 客户向 <span class="keyword">Experience Cloud</span> 身份管理系统的迁移已经提上计划日程。 </p> <p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">将 Analytics 用户迁移到 Admin Console</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>内容识别 </p> </td> 
