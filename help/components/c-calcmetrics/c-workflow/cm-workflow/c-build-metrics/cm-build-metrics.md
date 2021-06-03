@@ -2,14 +2,13 @@
 description: 计算量度生成器提供了一个画布，用于拖放维度、量度、区段和函数，以基于容器层次结构逻辑、规则和运算符创建自定义量度。通过此集成式开发工具，您可以生成并保存简单的计算量度或复杂的高级计算量度。
 title: 生成量度
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '968'
-ht-degree: 100%
+exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '964'
+ht-degree: 99%
 
 ---
-
 
 # 生成量度
 
@@ -88,7 +87,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 产品兼容性 </span> </td> 
-   <td colname="col3"> <p>“产品兼容性”显示量度是与“<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/reports-analytics/current-data.html"  >当前数据</a>”、“完全处理数据”兼容，还是只与“营销渠道报表”（首次联系分配）兼容。 <p>注意：“当前数据”并不支持所有量度。包含区段或函数的量度与“当前数据”不兼容。<a href="/help/components/c-calcmetrics/cm-compatibility.md"  > 更多... </a> </p> </p> </td> 
+   <td colname="col3"> <p>“产品兼容性”显示量度是与“<a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=zh-Hans"  >当前数据</a>”、“完全处理数据”兼容，还是只与“营销渠道报表”（首次联系分配）兼容。 <p>注意：“当前数据”并不支持所有量度。包含区段或函数的量度与“当前数据”不兼容。<a href="/help/components/c-calcmetrics/cm-compatibility.md"  > 更多... </a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 添加 </span> </td> 
@@ -131,7 +130,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col2"> <p>区段列表 </p> </td> 
-   <td colname="col3"> <p>（仅限高级计算量度）如果您是管理员，此列表会显示在您的登录公司中创建的所有区段。如果您不是管理员，此列表会显示您拥有的区段以及与您共享的区段。<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/segment-reference/seg-rights.html"  > 更多... </a> </p> </td> 
+   <td colname="col3"> <p>（仅限高级计算量度）如果您是管理员，此列表会显示在您的登录公司中创建的所有区段。如果您不是管理员，此列表会显示您拥有的区段以及与您共享的区段。<a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html"  > 更多... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>函数列表 </p> </td> 
@@ -143,4 +142,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
