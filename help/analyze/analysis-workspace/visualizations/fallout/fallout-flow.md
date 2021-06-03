@@ -5,11 +5,10 @@ uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 feature: 可视化图表
 role: Business Practitioner, Administrator
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '503'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '501'
+ht-degree: 98%
 
 ---
 
@@ -35,9 +34,9 @@ ht-degree: 100%
 * 一般、更宽范围的流量：显示在查看主页的访客中，有多少人继续进行搜索及有多少人最终查看特定项目。
 * 网站上事件之间的关联。显示查看隐私政策后继续购买产品的访客百分比。
 
-[流失可视化视频教程](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html)（4 分 15 秒）
+[流失可视化视频教程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html)（4 分 15 秒）
 
-## 分段作为流量和流失的基础{#section_654F37A398C24DDDB1552A543EE29AA9}
+## 分段作为流量和流失的基础 {#section_654F37A398C24DDDB1552A543EE29AA9}
 
 应用于 Workspace 面板的区段与应用于 Reports &amp; Analytics 中流失和流量报表的区段在工作方式上略有不同。大多数时间，它们产生的结果完全一致。主要区别是 Reports &amp; Analytics 在序列的每一步应用区段。由于这一区别，产生的结果有时可能会略有不同。
 
