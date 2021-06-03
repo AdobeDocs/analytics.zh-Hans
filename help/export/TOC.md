@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 导出指南
 breadcrumb-title: 导出指南
 user-guide-description: 使用“数据馈送”接收每小时或每天导出的原始数据。使用 Data Warehouse 检索以电子表格输出的数据。
-source-git-commit: 61f0327c8f443ffb2bc8845c0145c9c574e4e777
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 98%
+source-wordcount: '274'
+ht-degree: 96%
 
 ---
 
@@ -67,6 +67,6 @@ ht-degree: 98%
       + [通过 SFTP 将 Adobe 数据发送到外部 FTP 帐户](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [将 Data Warehouse 请求发送到 SFTP 服务器](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [在无密码的情况下通过 SFTP 连接到 Adobe](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [Analysis Workspace 下载](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/download-send.html)
++ [Analysis Workspace 下载](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hans)
 + [Adobe Analytics API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
-+ [Report Builder](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/report-builder/home.html)
++ [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html)
