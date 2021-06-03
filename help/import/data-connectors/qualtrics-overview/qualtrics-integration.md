@@ -5,11 +5,10 @@ title: 使用集成
 feature: Data Connectors
 uuid: a1d5045b-4c38-4984-8c71-27e86ebe8b23
 exl-id: 11fc6382-da83-4320-9f2f-bf6ca096f0ae
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 100%
+source-wordcount: '161'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 100%
 
 通过执行以下操作，可在 Adobe Analytics 中从此集成获益。
 
-1. 使用调查响应数据创建区段（请参阅[创建区段](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/seg-home.html)）。
+1. 使用调查响应数据创建区段（请参阅[创建区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)）。
 1. 将区段应用到关键报表。
 
 ## 示例 {#section-07051d0d60a44408a4e108034586c42f}
