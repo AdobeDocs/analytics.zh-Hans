@@ -2,10 +2,10 @@
 title: Adobe Analytics 中使用的术语
 description: Adobe Analytics 词汇表，用于定义常用术语。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
-workflow-type: ht
-source-wordcount: '2433'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '2429'
+ht-degree: 99%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 * **关联：**&#x200B;不再用作术语；替换为维度划分。在 Adobe Analytics 的早期版本中，通过关联可以划分流量变量。请参阅分析用户指南中的[划分维度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
 * **当前数据：**&#x200B;某些报表中的一个选项，允许包含最近收集的尚未完全处理的数据。请参阅分析用户指南中的[当前数据](/help/analyze/reports-analytics/current-data.md)。
 * **自定义链接：**&#x200B;包含非页面视图数据的点击类型。请参阅实施用户指南中的 [s.tl() 函数](../implement/vars/functions/tl-method.md)。另请参阅“点击”。
-* **客户属性：** Experience Cloud 的一项功能，允许上载属性数据。请参阅核心服务用户指南中的[客户属性](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/customer-attributes/attributes.html)。
+* **客户属性：** Experience Cloud 的一项功能，允许上载属性数据。请参阅核心服务用户指南中的[客户属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)。
 * **客户支持代理：**&#x200B;已授权直接与 Adobe 客户关怀交互的指定用户。请参阅 Experience Cloud 知识库中的[客户支持代理](https://helpx.adobe.com/cn/experience-cloud/supported-users.html)。
 * **数据收集服务器：**&#x200B;接收和处理数据的 Adobe 自有服务器。图像请求将发送到 Adobe 的数据收集服务器以用于报告。
 * **Data Connectors：**&#x200B;一个完整的开发解决方案，允许第三方自动将数据上载到 Adobe Analytics。该第三方的客户可以使用数据连接器在 Adobe Analytics 中丰富其数据。大多数数据连接器使用在数据源中使用的类似工作流。请参阅导入用户指南中的“Data Connectors”。
@@ -65,7 +65,7 @@ ht-degree: 100%
    * 自定义分析，自定义流量变量的历史名称。
 * **KPI：**&#x200B;关键绩效指标的缩写。有助于企业了解其网站表现的量度。每个组织分别使用不同的 KPI 来衡量业务的不同方面。请参阅实施用户指南中的[创建解决方案设计文档](/help/implement/prepare/solution-design.md)。
 * **延迟：**&#x200B;收集数据时和在报表中使用数据时之间的延迟。报表包中的典型延迟时间为 30 - 90 分钟。请参阅 Technotes 用户指南中的[延迟](/help/technotes/latency.md)。
-* **Launch：** Adobe Experience Platform Launch 的简称，Adobe 的当前实施解决方案。请参阅 Adobe Experience Platform Launch 用户指南中的[概述](https://docs.adobe.com/content/help/zh-Hans/launch/using/overview.translate.html)。
+* **Launch：** Adobe Experience Platform Launch 的简称，Adobe 的当前实施解决方案。请参阅 Adobe Experience Platform Launch 用户指南中的[概述](https://experienceleague.adobe.com/docs/launch/using/overview.html)。
 * **列表属性：**&#x200B;一种设置，可转化典型流量变量以支持同一点击中的多个值。如果启用了该设置，则任何自定义流量变量都可以成为列表属性。请参阅实施用户指南中的[属性](../implement/vars/page-vars/prop.md)。
 * **列表变量：**&#x200B;与转化变量分开的不同变量。列表变量支持同一点击中的多个值，并且变量值会在访问中保留，与转化变量类似。组织只能使用三个列表变量。请参阅实施用户指南中的[列表](/help/implement/vars/page-vars/list.md)。
 * **登录公司：**&#x200B;由您的组织使用的报表包集合。某些组织具有多个适用于该组织不同部分的登录公司。
