@@ -2,14 +2,13 @@
 description: “报表包使用情况”选项卡提供与您的账单公司关联的所有登录公司所具有的各个报表包在当前使用时段内的服务器调用使用情况数据。
 title: 查看报表包使用情况
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '441'
-ht-degree: 100%
+exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 98%
 
 ---
-
 
 # 查看报表包使用情况
 
@@ -19,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->如果报表包未[关联到 Experience Cloud 组织](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/about-core-services/report-suite-mapping.html)，则“报表包使用情况”功能板中将不会反映此报表包的使用情况数据。此外，一个账单 ID 可同时与多个 Experience Cloud 绑定；组织和账单 ID 之间并不总是一一对应的关。
+>如果报表包未[关联到 Experience Cloud 组织](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)，则“报表包使用情况”功能板中将不会反映此报表包的使用情况数据。此外，一个账单 ID 可同时与多个 Experience Cloud 绑定；组织和账单 ID 之间并不总是一一对应的关。
 
 “报表包使用情况”功能板
 
@@ -33,7 +32,7 @@ ht-degree: 100%
 
 | 栏目 | 定义 |
 |--- |--- |
-| 报表包 名称 | 报表包的友好名称 |
+| 报表包名称 | 报表包的友好名称 |
 | 所有调用（占总数的 %） | 当前使用时段内的所有服务器调用。 |
 | 主调用 (%) | 当前使用时段内发起的所有主服务器调用（及其占总数的百分比）。 |
 | 次级调用 (%) | 当前使用时段内发起的所有次级服务器调用（及其占总数的百分比）。 |
