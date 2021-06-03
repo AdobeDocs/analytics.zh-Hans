@@ -3,10 +3,10 @@ description: 介绍如何定义目标货币代码以使多货币支持正常工�
 title: 多货币支持
 uuid: null
 exl-id: b67f459c-0636-4eac-af52-51846bb583b5
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
-workflow-type: ht
-source-wordcount: '1358'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1354'
+ht-degree: 98%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 100%
 
 ## 页面级别
 
-您可以在页面级别为目标货币设置 JavaScript 变量。网站所有者使用三字母 ISO 4217 货币代码（如本文档下面所列）来设置此变量。如果未在此级别设置 [currencyCode](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/config-vars/currencycode.html) 变量，则默认货币将与报表包中指定的货币相同。如果页面级别的变量与报表包中指定的变量冲突，则将优先使用报表包中的变量。
+您可以在页面级别为目标货币设置 JavaScript 变量。网站所有者使用三字母 ISO 4217 货币代码（如本文档下面所列）来设置此变量。如果未在此级别设置 [currencyCode](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html) 变量，则默认货币将与报表包中指定的货币相同。如果页面级别的变量与报表包中指定的变量冲突，则将优先使用报表包中的变量。
 
 
 ## 报表包级别
 
-[创建报表包](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html)时将指定&#x200B;**基本货币**。这是货币的默认设置，优先于在页面级别设置的货币代码。因此，如果某报表包内有接受美元、欧元和英镑的订单，且报表包的默认货币代码设置为“美元”，则报告后端数据库会将所有交易额都折算为美元。
+[创建报表包](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html)时将指定&#x200B;**基本货币**。这是货币的默认设置，优先于在页面级别设置的货币代码。因此，如果某报表包内有接受美元、欧元和英镑的订单，且报表包的默认货币代码设置为“美元”，则报告后端数据库会将所有交易额都折算为美元。
 
 市场营销报告使用以图像请求发出的汇率将页面级别的货币值折算为默认的报表包货币值。报表包将使用“美元”作为默认货币。
 
