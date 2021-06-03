@@ -5,10 +5,10 @@ uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 95%
+source-wordcount: '403'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ Activity Map 模块是 AppMeasurement.js 文件的一部分（位于文件顶部
 
 除非您更新至 AppMeasurement 的这个版本（或更高版本），否则无法收集 Activity Map 数据。
 
-1. 通过转至&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 代码管理器]**&#x200B;和[实施它，下载最新的AppMeasurement代码(AppMeasurement_Javascript-1.6.zip)。](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/js/overview.html)
+1. 通过转到&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 代码管理器]**&#x200B;和[实施它，下载最新的AppMeasurement代码(AppMeasurement_Javascript-1.6.zip)。](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html)
 
    我们已经提供了一些[实现代码样例](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)，以帮助您直观地了解在添加 Activity Map 模块后代码产生的变化。
 
@@ -54,7 +54,7 @@ Activity Map 模块是 AppMeasurement.js 文件的一部分（位于文件顶部
 
    这会把您带入“管理控制台”中的群组管理页面。
 
-1. [将用户添加至组](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/user-product-management/user-groups/groups.html)并&#x200B;**[!UICONTROL 保存群组]**。
+1. [将用户添加至组](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)并&#x200B;**[!UICONTROL 保存群组]**。
 
 1. 这可以允许您的管理员用户从 **[!UICONTROL Adobe Analytics]** > **[!UICONTROL 工具]** > **[!UICONTROL Activity Map]** 下载 Activity Map。
 
