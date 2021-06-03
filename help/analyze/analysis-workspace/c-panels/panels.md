@@ -4,11 +4,10 @@ title: 面板概述
 feature: 面板
 role: Business Practitioner, Administrator
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1005'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1001'
+ht-degree: 98%
 
 ---
 
@@ -34,7 +33,7 @@ ht-degree: 100%
 
 ## 报表包 {#report-suite}
 
-面板中的表格和可视化图表从在面板的右上角选中的[!UICONTROL 报表包]中派生数据。报表包还确定在左边栏中有哪些组件可用。在项目中，您可以根据分析用例，使用一个或[多个报表包](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)。要将一个报表包应用到项目中的所有面板，请&#x200B;**右键单击面板标题 > 将报表包应用于所有面板**。
+面板中的表格和可视化图表从在面板的右上角选中的[!UICONTROL 报表包]中派生数据。报表包还确定在左边栏中有哪些组件可用。在项目中，您可以根据分析用例，使用一个或[多个报表包](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)。要将一个报表包应用到项目中的所有面板，请&#x200B;**右键单击面板标题 > 将报表包应用于所有面板**。
 
 报表包的列表按照相关性排序，Adobe 根据当前用户在近期使用该包的频率以及该包在组织中的使用频率来定义相关性。
 
@@ -82,7 +81,7 @@ ht-degree: 100%
 
 ![](assets/create-dropdown.png)
 
-[观看视频](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html)以详细了解如何将下拉过滤器添加到项目中。
+[观看视频](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html)以详细了解如何将下拉过滤器添加到项目中。
 
 ## 右键单击菜单 {#right-click}
 
