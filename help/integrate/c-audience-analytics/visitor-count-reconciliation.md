@@ -2,11 +2,13 @@
 description: Adobe Analytics 和 Adobe Audience Manager 中有一些访客量度具有相似的定义，但由于各种原因并不是完全一致。
 title: 访客计数差异
 uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '288'
+ht-degree: 94%
 
 ---
-
 
 # 访客计数差异
 
@@ -23,11 +25,11 @@ Adobe Analytics 和 Adobe Audience Manager 中有一些访客量度具有相似�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM：总区段人口</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM：总区段人口</a> </p> </td> 
    <td colname="col3"> <p>在回顾期间作为区段成员的设备 (Experience Cloud ID) 计数。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM：实时区段人口</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM：实时区段人口</a> </p> </td> 
    <td colname="col3"> <p>在回顾期间作为区段成员或访问过您的属性的设备 (Experience Cloud ID) 计数。 </p> </td> 
   </tr> 
   <tr> 
@@ -46,7 +48,7 @@ AAM 实时区段人口和 Audience Analytics 报表内使用的具有 Experience
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 因子 </th> 
+   <th colname="col1" class="entry"> 因素 </th> 
    <th colname="col2" class="entry"> AAM：实时区段人口 </th> 
    <th colname="col3" class="entry"> Analytics：具有 Experience Cloud ID 的访客 </th> 
   </tr>
