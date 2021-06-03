@@ -1,14 +1,13 @@
 ---
 description: 跟踪功能可确定您的 Adobe Analytics 实施如何对搜索引擎数据进行跟踪。这是向 Adobe Analytics 数据适当增加搜索引擎数据的必要步骤。
 title: 跟踪  手动模式和自动模式
-translation-type: ht
-source-git-commit: 69db61bdfd9375df4d090add7d8ed08135d1f087
-workflow-type: ht
-source-wordcount: '594'
-ht-degree: 100%
+exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 98%
 
 ---
-
 
 # 跟踪：手动模式和自动模式
 
@@ -29,7 +28,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->了解关于是否应将该 `s_kwcid` 参数添加到您的[内容安全策略](https://docs.adobe.com/content/help/zh-Hans/id-service/using/reference/csp.html)的更多信息。
+>了解关于是否应将该 `s_kwcid` 参数添加到您的[内容安全策略](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html)的更多信息。
 
 ## 手动跟踪模式 {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
