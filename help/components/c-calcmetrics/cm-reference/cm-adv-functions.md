@@ -2,14 +2,13 @@
 description: 可通过以下方法访问这些函数：选中函数下拉列表中的显示高级。
 title: 引用：高级函数
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '2911'
-ht-degree: 100%
+exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '2909'
+ht-degree: 99%
 
 ---
-
 
 # 引用：高级函数
 
@@ -27,7 +26,7 @@ ht-degree: 100%
 
 另一方面，如果您有两个感兴趣的量度，则因为其中一个量度的某些行是零而说该量度具有更高的平均值或最小值，这是不合理的，因此，在这种情况下，您不需要检查参数是否包含零。
 
-## 和 {#concept_E14513FE464F4491AD0D4130D4EE621C}
+## AND {#concept_E14513FE464F4491AD0D4130D4EE621C}
 
 返回其参数的值。使用 NOT 确保值不等于某一特定值。
 
@@ -44,7 +43,7 @@ AND(logical_test1,[logical_test2],...)
 | *logical_test1* | 必需. 任何可被计算为 TRUE 或 FALSE 的值或表达式。 |
 | *logical_test2* | 可选。您希望计算为 TRUE 或 FALSE 的其他条件 |
 
-## 非重复近似计数（维度）{#concept_000776E4FA66461EBA79910B7558D5D7}
+## 非重复近似计数（维度） {#concept_000776E4FA66461EBA79910B7558D5D7}
 
 返回适用于所选维度的维度项目的非重复近似计数。该函数使用非重复近似计数的 HyperLogLog (HLL) 方法。该函数已配置为保证该值在 95% 的实际值的 5% 以内。
 
@@ -64,13 +63,13 @@ Approximate Count Distinct (customer ID eVar) 是此函数的常见用例。
 
 ![](assets/approx-count-distinct.png)
 
-以下表示在报告中使用“近似客户”度量的方式：
+以下表示在报告中使用“近似客户”量度的方式：
 
 ![](assets/approx-customers.png)
 
 ### 超出的独特数 {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Count()、RowCount() 和 Approximate Count Distinct() 会受到[“超出的独特数”限制](https://docs.adobe.com/content/help/zh-Hans/analytics/technotes/low-traffic.html)的约束。如果维度在特定月份内达到“超出的独特数”限制，则该值将计数为 1 个维度项目。
+Count()、RowCount() 和 Approximate Count Distinct() 会受到[“超出的独特数”限制](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html)的约束。如果维度在特定月份内达到“超出的独特数”限制，则该值将计数为 1 个维度项目。
 
 ### 比较计数函数 {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
@@ -100,7 +99,7 @@ ASIN(metric)
 
 | 参数 |  |
 |---|---|
-| *metric* | 所需角的余弦，其范围介于 -1 到 1 之间。 |
+| *量度* | 所需角的余弦，其范围介于 -1 到 1 之间。 |
 
 ## 反正切 (Row) {#concept_3408520673774A10998E9BD8B909E90C}
 
@@ -112,7 +111,7 @@ ATAN(metric)
 
 | 参数 |  |
 |---|---|
-| *metric* | 所需角的余弦，其范围介于 -1 到 1 之间。 |
+| *量度* | 所需角的余弦，其范围介于 -1 到 1 之间。 |
 
 ## 指数回归：预测的 Y (Row) {#concept_25615693312B4A7AB09A2921083502AD}
 
@@ -162,7 +161,7 @@ CEILING(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 要舍入的量度。 |
+| *量度* | 要舍入的量度。 |
 
 ## 余弦 (Row) {#concept_DD07AA1FB08145DC89B69D704545FD0A}
 
@@ -174,7 +173,7 @@ COS(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 您希望求余弦的弧度角。 |
+| *量度* | 您希望求余弦的弧度角。 |
 
 ## 立方根 {#concept_BD93EFA45DF7447A8F839E1CA5B5F795}
 
@@ -186,7 +185,7 @@ CBRT(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 您希望求立方根的量度。 |
+| *量度* | 您希望求立方根的量度。 |
 
 ## 累积 {#concept_3D3347797B6344CE88B394C3E39318ED}
 
@@ -270,7 +269,7 @@ FLOOR(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 您希望舍入的量度。 |
+| *量度* | 您希望舍入的量度。 |
 
 ## 大于 {#concept_A83734A0C0C14646B76D2CC5E677C644}
 
@@ -290,7 +289,7 @@ COSH(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 您希望求双曲余弦的弧度角。 |
+| *量度* | 您希望求双曲余弦的弧度角。 |
 
 ## 双曲正弦 (Row) {#concept_96230731600C45E3A4E823FE155ABA85}
 
@@ -302,7 +301,7 @@ SINH(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 您希望求双曲正弦的弧度角。 |
+| *量度* | 您希望求双曲正弦的弧度角。 |
 
 ## 双曲正切 (Row) {#concept_BD249013732F462B9863629D142BCA6A}
 
@@ -314,7 +313,7 @@ TANH(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 您希望求得其双曲正切的角弧度。 |
+| *量度* | 您希望求得其双曲正切的角弧度。 |
 
 ## IF (Row) {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
 
@@ -364,7 +363,7 @@ LOG10(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 您希望求以 10 为底数的对数的正实数。 |
+| *量度* | 您希望求以 10 为底数的对数的正实数。 |
 
 ## 对数回归：相关系数 (Table) {#concept_F3EB35016B754E74BE41766E46FDC246}
 
@@ -392,7 +391,7 @@ INTERCEPT.LOG(metric_X, metric_Y)
 | *metric_X* | 要指定为自变数的量度。 |
 | *metric_Y* | 要指定为因变数的量度。 |
 
-## 对数回归：预测的 Y（行）{#concept_5F3A9263BBB84E6098160A4DFB9E3607}
+## 对数回归：预测的 Y（行） {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
 
 计算预测的 [!DNL y] 值 (metric_Y)，假定已知的 [!DNL x] 值 (metric_X) 使用“最小二乘法”计算基于 [!DNL Y = a ln(X) + b] 的最佳拟合直线。该值使用 ESTIMATE 方程式进行计算。
 
@@ -430,7 +429,7 @@ LN(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 您希望求自然对数的正实数。 |
+| *量度* | 您希望求自然对数的正实数。 |
 
 ## NOT {#concept_BD954C455A8148A3904A301EC4DC821E}
 
@@ -643,7 +642,7 @@ SIN(metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 您希望求正弦的弧度角。 |
+| *量度* | 您希望求正弦的弧度角。 |
 
 ## T 分数 {#concept_80D2B4CED3D0426896B2412B4FC73BF7}
 
@@ -685,7 +684,7 @@ TAN (metric)
 
 | 参数 | 描述 |
 |---|---|
-| *metric* | 您希望求正切的弧度角。 |
+| *量度* | 您希望求正切的弧度角。 |
 
 ## Z 分数 (Row) {#concept_96BEAC79476C49B899DB7E193A5E7ADD}
 
@@ -712,7 +711,7 @@ Z 分数（量度）
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <i>metric</i> </td> 
+   <td colname="col1"> <i>量度</i> </td> 
    <td colname="col2"> <p> 返回其首个非零参数的值。 </p> </td> 
   </tr> 
  </tbody> 
@@ -727,4 +726,3 @@ Z 分数（量度）
 >[!NOTE]
 >
 >假定值为正态分布。
-
