@@ -4,11 +4,10 @@ description: 如何在 Analysis Workspace 中使用和解释“媒体并行查�
 feature: 面板
 role: Business Practitioner, Administrator
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1061'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1059'
+ht-degree: 99%
 
 ---
 
@@ -75,7 +74,7 @@ Media Analytics 客户可以分析并发查看者，用于了解在哪里出现�
 | 能否运行异常检测？ | 否。异常检测对此面板不可用。 |
 | 为什么使用独特访客而不是活动会话？ | 使用独特访客可以消除在节目边界处（即同时结束和开始会话时）不需要的“峰值”。 |
 | 比分钟更高的粒度下的并行查看者是什么意思？ | 使用比分钟更高的粒度，并行查看者是该时间范围内所有分钟下的独特并行查看者的总和。例如，在小时级别的粒度上，并行查看者是该小时内所有分钟下的独特并行查看者的总和。 |
-| 如果我在分钟级别的粒度下查看超过 1 天的数据，应该怎么办？ | 要在分钟级别的粒度上一次性查看最多 1 个月的数据，您可以使用 Analytics 2.0 API。有关更多信息，请参阅[使用 Analytics 2.0 API 获取并行查看者 JSON 报表数据](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-reports/media-default-reports/get-concurrent-json20.html)。 |
+| 如果我在分钟级别的粒度下查看超过 1 天的数据，应该怎么办？ | 要在分钟级别的粒度上一次性查看最多 1 个月的数据，您可以使用 Analytics 2.0 API。有关更多信息，请参阅[使用 Analytics 2.0 API 获取并行查看者 JSON 报表数据](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-default-reports/get-concurrent-json20.html)。 |
 | Workspace 面板是否会显示与并行查看者报表相同的信息？ | 否。在 Analysis Workspace 中，“并行查看者数量”定义为在特定的时间点查看您的媒体流的独特访客数，它与会话数量无关。<br><br>这不同于“报表”部分中的并行查看者报告，该报告使用的是“并行活动会话”。使用独特访客帐户以消除在节目边界处（即同时结束和开始会话时）不需要的“峰值”。 |
 
 <!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->
