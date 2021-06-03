@@ -4,9 +4,9 @@ title: Analysis Workspace 中的已知限制
 feature: Workspace 基础知识
 role: Business Practitioner, Administrator
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '417'
 ht-degree: 98%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 98%
 ## “组件”>“区段”
 
 * 某些量度和维度不可分段，如[!UICONTROL 发生次数]、[!UICONTROL 唯一访客]，等等。
-* 在[面板拖放区](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/panels.html)中创建的临时区段，将不会显示在工作区或区段组件管理器的左边栏中，除非将这些临时区段公开。可通过编辑区段并选中&#x200B;**[!UICONTROL 将此区段设为公用]**&#x200B;来完成这项操作。
+* 在[面板拖放区](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hans)中创建的临时区段，将不会显示在工作区或区段组件管理器的左边栏中，除非将这些临时区段公开。可通过编辑区段并选中&#x200B;**[!UICONTROL 将此区段设为公用]**&#x200B;来完成这项操作。
 
 ## “组件”>“计算量度”
 
@@ -52,7 +52,7 @@ ht-degree: 98%
 
 * 启用报表时间处理后，某些组件将不受支持。有关完整列表，请参阅[报表时间处理](/help/components/vrs/vrs-report-time-processing.md)。
 
-## “组件”>“所有组件”>“报表设置”
+## 组件>所有组件>报表设置
 
 * [!UICONTROL 报表设置]页面上的某些设置不适用。Analysis Workspace 只使用底部的[!UICONTROL 语言/货币/编码]设置：[!UICONTROL 千位分隔符]、[!UICONTROL 计划报表编码]和 [!UICONTROL CSV 分隔符]。
 
