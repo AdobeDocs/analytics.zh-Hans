@@ -4,14 +4,13 @@ title: 创建数据请求
 uuid: 5d0151f1-e23d-43eb-84a4-96ae06c3a564
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 95%
+source-wordcount: '303'
+ht-degree: 94%
 
 ---
-
 
 # 创建 Report Builder 数据请求
 
@@ -21,7 +20,7 @@ ht-degree: 95%
 1. 在[!UICONTROL 请求向导：第 1 步]窗口中，选择一个[报表包](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)。
 1. （可选）选择一个要应用到请求的区段。选择一个或多个区段后，它们将会移动到列表顶部。
 
-   Report Builder 使用区段的方式与 Adobe Analytics 使用区段的方式相同。请参阅 [Analytics 分段指南](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/seg-home.html)。1. （可选）选择要用于分配的[发布列表](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md)。
+   Report Builder 使用区段的方式与 Adobe Analytics 使用区段的方式相同。请参阅 [Analytics 分段指南](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)。1. （可选）选择要用于分配的[发布列表](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md)。
 1. 选择[报表类型](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md)。
 1. 指定[日期范围](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)和报表[粒度](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md)。
 1. 单击&#x200B;**[!UICONTROL 下一步]**。
@@ -35,6 +34,6 @@ ht-degree: 95%
 1. 在[!UICONTROL 量度]选项卡上，双击（或拖动）树中的量度，以将其添加到“[!UICONTROL 量度]”网格中。
 1. 在[!UICONTROL 维度]选项卡上，双击（或拖动）维度，以将其添加到“[!UICONTROL 行标签]”网格中。
 
-   在第 2 步中提供的[维度](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/layout/filter-dimenson/filter-dimensions.html)取决于您在第 1 步中选择的基本报表和报表包的配置。维度是具有关联、子关系的项目，或者是在“[!UICONTROL 请求向导: 第 1 步]”窗口中选择的原始报表类型量度的分类。通过在第 2 步中添加多个维度，可在数据请求中创建划分。
+   在第 2 步中提供的[维度](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/layout/filter-dimenson/filter-dimensions.html)取决于您在第 1 步中选择的基本报表和报表包的配置。维度是具有关联、子关系的项目，或者是在“[!UICONTROL 请求向导: 第 1 步]”窗口中选择的原始报表类型量度的分类。通过在第 2 步中添加多个维度，可在数据请求中创建划分。
 
    请参阅[添加量度和维度](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)，以了解更多信息。
