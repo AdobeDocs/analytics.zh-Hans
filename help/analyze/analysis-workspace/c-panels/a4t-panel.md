@@ -4,11 +4,10 @@ title: Analytics for Target (A4T) 面板
 feature: 面板
 role: Business Practitioner, Administrator
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1104'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1090'
+ht-degree: 93%
 
 ---
 
@@ -52,18 +51,18 @@ Analytics for Target 面板可返回丰富的数据和可视化图表，进而�
 | 提升（上限） | 表示在置信区间为 95% 的情况下变异体验比对照组可能提升的最佳程度。<br>计算过程：请见“提升（下限）”。 |
 | 置信度 | t 检验（也称为 Student t 检验）将计算置信度级别，用于指示如果再次运行该检验，出现重复结果的可能性。已对指标应用了 75%/85%/95% 的固定条件格式化范围。如果需要，可以在“列”设置下自定义此格式化范围。注意：置信度是 Target 体验的“固定指标”；无法细分它或将它与其他维度一起使用。<br>计算过程：应用自由度为 y+y_control-2 的双尾 t 检验以求出表示 x/y 是否等于 x_control/y_control 的 p 值。计算 t 分数，其中 stderr 为 sqrt( (xx/y-(x/y)^2)/y + (xx_control/y_control-(x_control/y_control)^2)/y_control)。返回 1-p 表示确信二者不同。 |
 
-与 Analysis Workspace 中的任何其他面板一样，通过添加其他将帮助您分析 Adobe Target 活动的表和[可视化效果](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)即可继续进行分析。还可在面板级别或自由格式表内应用区段。请注意，如果在自由格式表内添加它，则必须让它横跨整个表以保留提升和置信度计算结果。目前不支持列级区段。
+与 Analysis Workspace 中的任何其他面板一样，通过添加其他将帮助您分析 Adobe Target 活动的表和[可视化效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hans)即可继续进行分析。还可在面板级别或自由格式表内应用区段。请注意，如果在自由格式表内添加它，则必须让它横跨整个表以保留提升和置信度计算结果。目前不支持列级区段。
 
 ## 常见问题解答 {#FAQ}
 
 | 问题 | 回答 |
 |---|---|
-| A4T 支持哪些活动类型？ | [深入了解](https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html)支持的活动类型。 |
-| 提升度和置信度计算是否支持计算指标？ | 不支持。[深入了解](https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html)提升度和置信度指标为何不支持计算指标。但是，可以在 A4T 报表中使用这些指标以外的计算指标。 |
-| 为何 Target 和 Analytics 中的独特访客数会不一样？ | [深入了解](https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html)不同产品中独特访客数之间的差异。 |
-| 当我在分析中为特定 Target 活动应用点击区段时，为何会看到返回的不相关体验？ | A4T 维度是一个列表变量，这意味着它可以同时包含多项活动（和体验）。[了解详情](https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
-| 置信度指标是否会将极端订单计入在内或对多个优惠活动应用 Bonferroni 校正？ | 不会。[深入了解](https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) Analytics 如何计算置信度。 |
+| A4T 支持哪些活动类型？ | [深入了解](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html)支持的活动类型。 |
+| 提升度和置信度计算是否支持计算指标？ | 不支持。[深入了解](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html)提升度和置信度指标为何不支持计算指标。但是，可以在 A4T 报表中使用这些指标以外的计算指标。 |
+| 为何 Target 和 Analytics 中的独特访客数会不一样？ | [深入了解](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html)不同产品中独特访客数之间的差异。 |
+| 当我在分析中为特定 Target 活动应用点击区段时，为何会看到返回的不相关体验？ | A4T 维度是一个列表变量，这意味着它可以同时包含多项活动（和体验）。[了解详情](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
+| 置信度指标是否会将极端订单计入在内或对多个优惠活动应用 Bonferroni 校正？ | 不会。[深入了解](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) Analytics 如何计算置信度。 |
 | 提升度和置信度指标能否与其他维度或划分一起使用？ | 提升度和置信度是“目标体验”维度的“锁定指标”，因为它们需要一个控件和变量才能计算。因此，不能对这两个指标划分或将这两个指标与其他维度一起使用。 |
 | 何时会重新计算提升度和置信度？ | 只要运行（或重新运行）面板、面板日期范围发生变化或将区段应用于面板或表，即重新计算提升和置信度。将区段过滤器应用于自由格式表时，必须横跨所有列应用它，否则无法正确地更新提升和置信度。目前不支持列级区段。 |
 
-有关 Analytics for Target 报表的详细信息，请参阅 [A4T 报表](https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/a4t/reporting.html)
+有关 Analytics for Target 报表的详细信息，请参阅 [A4T 报表](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/reporting.html)
