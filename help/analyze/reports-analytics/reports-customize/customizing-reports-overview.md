@@ -5,11 +5,10 @@ uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 feature: Reports & Analytics 基础知识
 role: Business Practitioner, Administrator
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 100%
+source-wordcount: '924'
+ht-degree: 98%
 
 ---
 
@@ -39,7 +38,7 @@ t_reports_custom.xml
 
 >[!MORELIKETHIS]
 >
->* [菜单自定义](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/customize-menus.html)
+>* [菜单自定义](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html)
 
 
 ## 选择日期或日期范围 {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -87,7 +86,7 @@ t_reports_comparing_dates.xml
 
 >[!NOTE]
 >
-> 如果您想对功能板中的关键量度执行日期比较，则可以使用两个不同的请求，将数据提取到 [Report Builder](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/report-builder/home.html) 中。然后，可以在 Excel 中使用自定义公式来分析二者的差异。
+> 如果您想对功能板中的关键量度执行日期比较，则可以使用两个不同的请求，将数据提取到 [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) 中。然后，可以在 Excel 中使用自定义公式来分析二者的差异。
 
 要比较“Reports &amp; Analytics”中排名报表之间的日期，请执行以下操作：
 
@@ -210,7 +209,7 @@ t_reports_day_of_week.xml
 1.  在指定日期范围内运行趋势报表。
 1. 单击&#x200B;**[!UICONTROL 星期]**&#x200B;链接，然后单击某一天。
 
-## “在工作区尝试”按钮{#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
+## “在工作区尝试”按钮 {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
 
 在 Analysis Workspace 中，单击报表顶部的&#x200B;**[!UICONTROL 在工作区尝试]**&#x200B;按钮将会加载相同的报表。
 
@@ -224,4 +223,4 @@ try_in_workspace.xml
 
 目前，仅当您的用户名拥有 Analysis Workspace 的完整访问权限时，该按钮才可用。
 
-有关可以自定义报表的所有方法的更多信息，请参阅 [Analysis Workspace](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/home.html) 指南。
+有关可以自定义报表的所有方法的更多信息，请参阅 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans) 指南。
