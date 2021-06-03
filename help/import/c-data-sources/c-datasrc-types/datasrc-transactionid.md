@@ -1,14 +1,13 @@
 ---
 title: 交易 ID 数据源
 description: 了解使用交易 ID 数据源的一般工作流程。
-translation-type: ht
-source-git-commit: c6f84f470dcf97f49ce7dc9d2c5dd8c65cc6cf67
-workflow-type: ht
+exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
+source-git-commit: 1ee6a1e69a277f0d3c0ffd1defca0d4cb098cc6c
+workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
-
 
 # 交易 ID 数据源
 
@@ -21,7 +20,7 @@ ht-degree: 100%
 通过以下通用工作流程来开始使用交易 ID 数据源：
 
 1. 创建数据源（“通用”类别和“通用数据源（交易 ID）”类型）。
-1. 按照数据源设置向导获取 FTP 位置，从而上载数据并下载数据源模板文件。
+1. 按照数据源设置向导获取FTP位置，以上载数据并下载数据源模板文件。
 1. 更新您的实施以包含该 `transactionID` 变量。
 1. 将数据源文件上载到包含 `.fin` 文件的 FTP 站点。
 
