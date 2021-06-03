@@ -4,11 +4,10 @@ solution: Experience Cloud
 title: 常见问题解答
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1098'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1094'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +24,7 @@ ht-degree: 100%
    <td colname="col2"> 
     <ul id="ul_71E0ECD5981D4B65BCDA065BE07A43AA"> 
      <li id="li_F8FF61A4D7B54BA39DAA6F28DB51D749">如果 prop 或 eVar 中包含电子邮件、地址等信息，则应考虑在数据收集期间对数据执行哈希处理。 </li> 
-     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">如果您所在的国家/地区将 IP 地址视为 PII，则应<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/exclude-ip.html"  >开启 IP 模糊处理</a>。 </li> 
+     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">如果您所在的国家/地区将 IP 地址视为 PII，则应<a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html"  >开启 IP 模糊处理</a>。 </li> 
      <li id="li_C7AA02B831AE47A59E783623126A7789">咨询您的 Analytics 管理员，以了解您所收集的信息。 </li> 
      <li id="li_F6AAE868141E486AB8CAB291BD8EDB71">咨询您的法务部门，以了解他们将什么信息视为 PII。 </li> 
     </ul> </td> 
@@ -48,7 +47,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>问：我如何在 Audience Manager 中创建 Analytics 目标？</b> </p> </td> 
-   <td colname="col2"> 请参阅<a href="https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  >在 AAM 中配置 Analytics 目标</a>。 </td> 
+   <td colname="col2"> 请参阅<a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  >在 AAM 中配置 Analytics 目标</a>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：在创建并保存了 Analytics 目标之后，需要多久才会在我选择的报表包中显示数据？</b> </p> </td> 
