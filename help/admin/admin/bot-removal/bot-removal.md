@@ -2,11 +2,10 @@
 title: 在 Adobe Analytics 中删除机器人
 description: 如何删除 Adobe Analytics 中的机器人
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-translation-type: ht
-source-git-commit: bb8ccbf782a1431e5278a95923a42c9e9e9e862b
-workflow-type: ht
-source-wordcount: '790'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '788'
+ht-degree: 98%
 
 ---
 
@@ -50,11 +49,11 @@ ht-degree: 100%
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-设置了数据元素之后，请按照[这些说明](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=zh-Hans)将声明的 ID 传递到 Adobe Launch 的 ECID 工具中。
+设置了数据元素之后，请按照[这些说明](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html)将声明的 ID 传递到 Adobe Launch 的 ECID 工具中。
 
 ### 步骤 2：使用分段识别机器人
 
-现在，您已将访客的 ECID 传递到已声明的 ID 中，下面可以使用 [Analysis Workspace 中的分段](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html)来识别行为类似于机器人的访客。机器人通常通过其行为进行定义：单次访问、异常用户代理、未知的设备/浏览器信息、无反向链接、新访客、异常登录页面等。使用工作区深化和分段的强大功能，识别已避开 IAB 过滤和您的报表包机器人规则的机器人。例如，以下是您可以使用的区段的屏幕截图：
+现在，您已将访客的 ECID 传递到已声明的 ID 中，下面可以使用 [Analysis Workspace 中的分段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html)来识别行为类似于机器人的访客。机器人通常通过其行为进行定义：单次访问、异常用户代理、未知的设备/浏览器信息、无反向链接、新访客、异常登录页面等。使用工作区深化和分段的强大功能，识别已避开 IAB 过滤和您的报表包机器人规则的机器人。例如，以下是您可以使用的区段的屏幕截图：
 
 ![](assets/bot-filter-seg1.png)
 
