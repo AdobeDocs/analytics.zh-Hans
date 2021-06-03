@@ -5,10 +5,10 @@ uuid: fc117745-baf3-46fb-873d-9307092cc337
 feature: 可视化图表
 role: Business Practitioner, Administrator
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: 2d30969652991564379c37801b353803e73e5f8c
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 95%
+source-wordcount: '689'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 
 对于可添加的步骤数量或可使用的维度数量，没有任何限制。
 
-您可以对 eVar 执行路径分析，包括促销 eVar 和 [listVar](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/page-vars/page-variables.html)（每个点击可以具有多个值的变量，如产品、listVar、促销 eVar 和列表属性）。例如，假设某个用户在一个页面上查看鞋和衬衫，而在另一个页面上查看衬衫和袜子。鞋的下一个产品流量报表将是衬衫和袜子，而不是衬衫。
+您可以对 eVar 执行路径分析，包括促销 eVar 和 [listVar](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html)（每个点击可以具有多个值的变量，如产品、listVar、促销 eVar 和列表属性）。例如，假设某个用户在一个页面上查看鞋和衬衫，而在另一个页面上查看衬衫和袜子。鞋的下一个产品流量报表将是衬衫和袜子，而不是衬衫。
 
 1. 将“[!UICONTROL 流失]”可视化从“可视化”下拉菜单中拖动到“[!UICONTROL 自由格式表]”中。
 
