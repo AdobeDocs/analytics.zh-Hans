@@ -5,11 +5,10 @@ title: 分类规则生成器工作流程
 feature: 管理工具
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-translation-type: ht
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '576'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '572'
+ht-degree: 97%
 
 ---
 
@@ -36,7 +35,7 @@ ht-degree: 100%
 
 | 步骤 | 执行位置 | 描述 |
 |--- |--- |--- |
-| 步骤 1（先决条件）：[设置分类架构](https://docs.adobe.com/content/help/zh-Hans/analytics/components/classifications/c-classifications.html)。 | [!UICONTROL 管理员] > [!UICONTROL 报表包] > [!UICONTROL 编辑设置] > &lt;流量分类或转化分类> | 选择一个变量并定义要用于该变量的分类。<br>变量必须至少创建了一个分类列，才可在规则中使用。<br>在启用分类后，可以使用导入器和规则生成器来分类特定值。 |
+| 步骤 1（先决条件）：[设置分类架构](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)。 | [!UICONTROL 管理员] > [!UICONTROL 报表包] > [!UICONTROL 编辑设置] > &lt;流量分类或转化分类> | 选择一个变量并定义要用于该变量的分类。<br>变量必须至少创建了一个分类列，才可在规则中使用。<br>在启用分类后，可以使用导入器和规则生成器来分类特定值。 |
 | 步骤 2：[创建规则集](/help/components/classifications/crb/classification-rule-set.md)。 | [!UICONTROL 管理员] > [!UICONTROL 分类规则生成器] > [!UICONTROL 添加规则集] | 规则集是特定变量的一组分类规则。 |
 | 步骤 3：配置报表包和变量。 | [!UICONTROL 分类规则生成器] > &lt;您的规则集> | 将规则集应用于报表包和变量。 |
 | 步骤 4：[将分类规则添加到规则集](/help/components/classifications/crb/classification-quickstart-rules.md)。 | [!UICONTROL 分类规则生成器] > &lt;您的规则集> | 将条件与分类进行匹配，然后指定要为规则采取的操作。熟悉[如何处理规则](/help/components/classifications/crb/classification-quickstart-rules.md)中的相关信息。 |
@@ -52,4 +51,4 @@ ht-degree: 100%
 
 **博客**：如需有关此功能的详细信息，请参阅数字营销博客：[基于规则的分类](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/)。
 
-**视频**: 观看[分类概述](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/components/classifications/overview-of-classifications.html)视频。
+**视频**: 观看[分类概述](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html)视频。
