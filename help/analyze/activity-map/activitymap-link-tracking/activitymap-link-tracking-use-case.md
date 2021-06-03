@@ -4,14 +4,13 @@ title: 区分引用相同链接 ID 和区域的多个链接
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
+exl-id: 43fe4eb9-08fe-4e20-bc02-3f712c3dec1d
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 61%
+source-wordcount: '364'
+ht-degree: 59%
 
 ---
-
 
 # 区分引用相同链接 ID 和区域的多个链接
 
@@ -61,7 +60,7 @@ ht-degree: 61%
     推荐面板<br/>
      <br/>
      <br/>
-    recommendation panel<br/>
+    推荐面板<br/>
      <br/>
      <br/>
     推荐面板<br/>
@@ -74,13 +73,13 @@ ht-degree: 61%
 
 如何自定义网页和标签，以区分这些链接的值？您有三种选项：您可以自定义链接 ID、自定义区域，或自定义 AppMeasurement ActivityMap 模块文件。
 
-## 使用 s_objectID 来自定义链接 ID  {#section_01B0D463397B4837B2D46F087A6E5937}
+## 使用 s_objectID 来自定义链接 ID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-通过为页面上的链接或链接位置创建唯一的对象ID `s_objectID`，您可以改进Activity Map跟踪或使用Activity Map报告链接类型或位置，而不是链接URL。 单击[此处](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/page-vars/page-variables.html)，以了解有关 变量的更多信息。`s_objectID`
+通过为页面上的链接或链接位置创建唯一对象ID `s_objectID`，您可以改进Activity Map跟踪或使用Activity Map（而非链接URL）来报告链接类型或位置。 单击[此处](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html)，以了解有关 变量的更多信息。`s_objectID`
 
 >[!IMPORTANT]
 >
->请注意，在Activity Map中使用`s_objectID`时，需要尾随分号(`;`)。
+>请注意，在Activity Map中使用`s_objectID`时，需要以分号(`;`)结尾。
 <table id="table_9439A5F320304E439A19842CF3EBA456">
  <thead>
   <tr>
@@ -123,7 +122,7 @@ ht-degree: 61%
     推荐面板<br/>
      <br/>
      <br/>
-    recommendation panel<br/>
+    推荐面板<br/>
      <br/>
      <br/>
     推荐面板<br/>
@@ -136,10 +135,10 @@ ht-degree: 61%
 
 ## 自定义区域 {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
-您可以通过确保每个“购买”链接都定义了自己的区域来自定义区域。 为此，请向每个“Buy”锚记的父项之一添加一个`"id"`参数。
+您可以通过确保每个“购买”链接都定义了自己的区域，来自定义区域。 为此，请向每个“Buy”锚点标记的父标记之一添加`"id"`参数。
 
 >[!NOTE]
->您并不严格限于作为区域标识符的`"id"`参数。 您还可以使用JavaScript变量`"s.ActivityMap.regionIDAttribute"`设置自己的标识符。
+>您并非必须使用`"id"`参数作为区域标识符。 您还可以使用JavaScript变量`"s.ActivityMap.regionIDAttribute"`设置自己的标识符。
 >
 >
 ><table id="table_250DB52A869C466B942517BABA1C287B">
