@@ -5,11 +5,10 @@ uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 feature: Reports & Analytics 基础知识
 role: Business Practitioner, Administrator
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 100%
+source-wordcount: '677'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 使用这些过滤器可以限制报表的内容，使其包括或排除与过滤器匹配的行项目。
 
-## 简单过滤器  {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
+## 简单过滤器 {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
 
 ![](assets/filter.png)
 
@@ -55,7 +54,7 @@ help:Internal Search Term
 
 **不包含**
 
-如果在行项目的所有位置都找不到相关词语，则匹配成功。使用“不包含”，您可以从报表中过滤出“未指定”、“无”、“关键词不可用”以及其他[特殊值](https://docs.adobe.com/content/help/zh-Hans/analytics/technotes/unspecified.html)。
+如果在行项目的所有位置都找不到相关词语，则匹配成功。使用“不包含”，您可以从报表中过滤出“未指定”、“无”、“关键词不可用”以及其他[特殊值](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html)。
 
 不包含: `none`
 
@@ -125,7 +124,7 @@ Bling Belt High Waist Jean
 Ocean Blue Jean
 ```
 
-## 高级（特殊字符）{#section_83DA3B6C23EB4C119DB6D74062DB501D}
+## 高级（特殊字符） {#section_83DA3B6C23EB4C119DB6D74062DB501D}
 
 使用“高级”可以执行通配符和其他复杂的搜索。
 
