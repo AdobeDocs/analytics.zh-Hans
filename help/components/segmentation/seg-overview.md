@@ -4,11 +4,10 @@ title: 关于区段和容器
 feature: 分段
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '3700'
-ht-degree: 100%
+source-wordcount: '3698'
+ht-degree: 99%
 
 ---
 
@@ -39,7 +38,7 @@ ht-degree: 100%
 
 此类型的区段根据使用 [!UICONTROL AND] 和 [!UICONTROL OR] 运算符联接的特性过滤数据集。
 
-## 顺序区段  {#section_EE5B14287FC44E0B96E77679A2438948}
+## 顺序区段 {#section_EE5B14287FC44E0B96E77679A2438948}
 
 通过使用顺序区段，您可以根据站点中的导航和页面查看识别访客，为定义的操作和交互提供了一个区段。顺序区段可帮助您识别访客喜欢和避开的内容。生成顺序区段时，使用 [!UICONTROL THEN] 运算符来定义和排序访客导航。
 
@@ -60,7 +59,7 @@ ht-degree: 100%
 
 ## 操作方法视频 {#section_89D6184890AF4086A8056BFBB0B68C29}
 
-这段视频简要概述了区段容器是什么及其使用方式：[Adobe Analytics 中的区段容器](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/components/segmentation/segment-containers.html)
+这段视频简要概述了区段容器是什么及其使用方式：[Adobe Analytics 中的区段容器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html)
 
 ## 关于容器 {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
