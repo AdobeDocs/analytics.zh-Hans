@@ -2,14 +2,13 @@
 description: 成功事件是指可跟踪的活动。什么是成功事件完全由您来决定。例如，如果访客购买一件产品，则该购买事件可视为成功事件。。
 keywords: event
 title: 成功事件概述
-feature: Admin Tools
+feature: 管理工具
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 100%
+source-wordcount: '716'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +34,7 @@ ht-degree: 100%
 * **高科技**：下载白皮书、RFP、填写表单、请求支持
 * **汽车**：提交商机、申请报价、下载手册
 
-成功事件是由 [s.events](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/page-vars/events/event-serialization.html) 变量来定义。
+成功事件是由 [s.events](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html) 变量来定义。
 
 ## 成功事件页面 - 描述 {#section_681ECEC981694CABBDBF00E18165B447}
 
