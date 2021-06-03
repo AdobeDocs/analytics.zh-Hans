@@ -6,9 +6,9 @@ uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 feature: Reports & Analytics 基础知识
 role: Business Practitioner, Administrator
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '797'
 ht-degree: 98%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 98%
 >
 >使用功能板管理器时的最佳做法是：任何一个用户最多拥有 300 个功能板。另外请注意，管理器会加载下面所有共享的功能板，因此，共享功能板时要谨慎。
 
-单击&#x200B;**[!UICONTROL 分析]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 仪表板]**。
+单击&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 功能板]**。
 
 | 元素 | 描述 |
 |--- |--- |
@@ -35,7 +35,7 @@ ht-degree: 98%
 
 描述如何使用共享功能板管理选项的步骤。
 
-1. 转至&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 仪表板]**。
+1. 转到&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 功能板]**。
 1. 在“[!UICONTROL 共享功能板]”下方，找到您要管理的共享功能板（或原有功能板），然后选取下面一个或多个选项：
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
@@ -71,7 +71,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->接下来，请考虑使用 [Analysis Workspace 项目](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/home.html)及其将要下载和计划的功能。
+>接下来，请考虑使用 [Analysis Workspace 项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans)及其将要下载和计划的功能。
 
 复制原有功能板时，系统将打开原有功能板以供您编辑，您可添加旧内容或新内容。当您复制原有功能板时，旧内容将保留在原有功能板列表中。
 
