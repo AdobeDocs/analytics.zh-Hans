@@ -4,10 +4,9 @@ title: 保存项目
 feature: Workspace 基础知识
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-translation-type: ht
-source-git-commit: cfeb681805108c9d9422d88b6d7146d0eb186204
-workflow-type: ht
-source-wordcount: '465'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '463'
 ht-degree: 100%
 
 ---
@@ -25,7 +24,7 @@ ht-degree: 100%
 | **[!UICONTROL 保存]** | 将更改保存到项目。如果项目已共享，项目的收件人也会看到所做的更改。首次保存项目时，系统会提示您提供项目的名称和（可选）描述并添加（可选）标记。 |
 | **[!UICONTROL 保存并添加注释]** | 在保存项目之前，添加有关项目中进行了哪些更改的注释。注释与项目版本一起存储，并且在[!UICONTROL 项目] > [!UICONTROL 打开以前的版本]下面可供所有编辑者使用。 |
 | **[!UICONTROL 另存为]** | 创建项目副本。原始项目不受影响。 |
-| **[!UICONTROL 另存为模板]** | 将您的项目另存为[自定义模板](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)，贵组织可在&#x200B;**[!UICONTROL 项目 > 新建]**&#x200B;下使用该模板 |
+| **[!UICONTROL 另存为模板]** | 将您的项目另存为[自定义模板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hans)，贵组织可在&#x200B;**[!UICONTROL 项目 > 新建]**&#x200B;下使用该模板 |
 
 ![](assets/save-project.png)
 
