@@ -2,16 +2,15 @@
 description: 在 Analysis Workspace 中使用区段。
 title: 区段
 uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
-feature: Workspace Basics
+feature: Workspace 基础知识
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 100%
+source-wordcount: '364'
+ht-degree: 91%
 
 ---
-
 
 # 区段 {#topic_DC2917A2E8FD4B62816572F3F6EDA58A}
 
@@ -21,7 +20,7 @@ ht-degree: 100%
 
 ![](assets/segment_icons.png)
 
-[在 Analysis Workspace 中使用区段](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-in-analysis-workspace.html)（6 分 46 秒）
+[在 Analysis Workspace 中使用区段](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-in-analysis-workspace.html?lang=zh-Hans)（6 分 46 秒）
 
 ## 创建区段 {#section_693CFADA668B4542B982446C2B4CF0F5}
 
@@ -55,6 +54,6 @@ ht-degree: 100%
 | 操作 | 描述 |
 |--- |--- |
 | 从选定范围中创建区段 | 创建内联区段。选择行，接着右键单击选定的内容，然后创建内联区段。该区段只适用于打开的项目并且不能另存为 Analytics 区段。1. 选择行。2. 右键单击选定的内容。3. 单击&#x200B;*从选定范围中创建区段*。 |
-| 组件 > 新建区段 | 屏幕上会显示“区段生成器”。有关区段划分的更多信息，请参阅[区段生成器](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/segmentation-workflow/seg-build.html)。 |
-| “共享”>“共享项目”或“共享”>“策划项目数据” | 在[组织并共享](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6)中，了解应用到项目中的区段如何用于为收件人提供的共享分析报表。 |
-| 使用区段作为维度 | 视频：[在 Analysis Workspace 中使用区段作为维度](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/components/segmentation/using-segments-as-dimensions-in-analysis-workspace.html) |
+| 组件 > 新建区段 | 屏幕上会显示“区段生成器”。有关区段划分的更多信息，请参阅[区段生成器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html)。 |
+| “共享”>“共享项目”或“共享”>“策划项目数据” | 在[组织并共享](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6)中，了解应用到项目中的区段如何用于为收件人提供的共享分析报表。 |
+| 使用区段作为维度 | 视频：[在 Analysis Workspace 中使用区段作为维度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/using-segments-as-dimensions-in-analysis-workspace.html) |
