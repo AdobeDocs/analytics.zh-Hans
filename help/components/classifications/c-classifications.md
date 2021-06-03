@@ -2,11 +2,10 @@
 title: 分类概述
 description: 自定义维度项目的分组。
 exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '605'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +31,7 @@ ht-degree: 100%
 
 Reports &amp; Analytics 包含针对跟踪代码变量的预定义分类，从而提供以分类为基础的报表（名为“创作元素”和“促销活动”）。您必须针对其他所有转化和流量变量手动配置分类。
 
-请参阅[流量分类](/help/admin/admin/c-traffic-variables/traffic-classifications.md)和[转化分类](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)。
+请参阅[流量分类](/help/admin/admin/c-traffic-variables/traffic-classifications.md)和[转化分类](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)。
 
 下表说明了各种可用的分类类型，以及支持这些分类的变量类型。请在上载数据文件之前，查看[通用文件结构](/help/components/classifications/importer/c-saint-data-files.md)中的相关信息。
 
