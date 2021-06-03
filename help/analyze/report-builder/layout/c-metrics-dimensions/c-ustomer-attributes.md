@@ -3,20 +3,19 @@ description: 客户属性将存储在名为 VisAttr 的全新元素类型中，�
 title: 客户属性
 uuid: a8340b83-d7ba-46fe-bb20-b546cdf375b8
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: b5855ce0-6d17-4690-a2c2-366b66ab8e83
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 97%
+source-wordcount: '122'
+ht-degree: 94%
 
 ---
-
 
 # 客户属性
 
 客户属性将存储在名为 VisAttr 的全新元素类型中，可将其配置为维度或量度。
 
-有关如何上载客户属性的详细信息，请参阅 [Experience Cloud 帮助](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/customer-attributes/attributes.html)。
+有关如何上载客户属性的详细信息，请参阅 [Experience Cloud 帮助](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)。
 
 * 如果将 VisAttr 配置为量度，那么它可同时作为“维度”和量度显示。
 
@@ -26,4 +25,3 @@ ht-degree: 97%
 * VisAttr 支持所有 eVar 量度。
 * 作为量度，VisAttr 支持“桶分组”（与网站逗留时间统计相类似：0 到 30、31 到 60…）
 * VisAttr 可用于分段维度。
-
