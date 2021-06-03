@@ -1,14 +1,13 @@
 ---
 description: 如果您从现有的报表包中复制了设置，则会有一条系统消息来标识所有未复制到新报表包中的设置。
 title: 未从源报表包复制的设置
-feature: Admin Tools
+feature: 管理工具
 uuid: 5176c561-a278-43e4-837f-a17759985d52
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 100%
+source-wordcount: '205'
+ht-degree: 91%
 
 ---
 
@@ -28,7 +27,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>分类数据（复制分类结构） </p> </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/zh-Hans/analytics/components/classifications/classifications-importer/c-working-with-saint.html"> 分类导入器（上载）文档</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html"> 分类导入器（上载）文档</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>启用交易 ID 记录 </p> </td> 
@@ -62,7 +61,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>访客 ClickMap 管理器 </p> </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> 升级到 Activity Map</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> 升级到 Activity Map</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA 规则 </p> </td> 
