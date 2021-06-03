@@ -2,20 +2,19 @@
 description: 此集成将电子邮件营销软件的集成式反馈系统与 Adobe Analytics 的行为报表整合在一起，为贵组织提供强大的分析和优化契机。
 title: 适用于 Adobe Analytics 的 optivo® broadmail Data Connector
 uuid: bd713080-9d1a-49ee-aad0-86dd5c37c34a
-translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+exl-id: fff63047-afa6-420d-9188-ec8ebe407a46
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1082'
 ht-degree: 98%
 
 ---
-
 
 # 适用于 Adobe Analytics 的 optivo® broadmail Data Connector{#optivo-broadmail-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]
 >
->我们将于2021年8月1日终止Adobe数据连接器技术。 [了解更多...](/help/import/data-connectors/data-connectors-eol.md)
+>我们将于2021年8月1日终止AdobeData Connector技术的生命周期。 [了解详情...](/help/import/data-connectors/data-connectors-eol.md)
 
 此集成将电子邮件营销软件的集成式反馈系统与 Adobe Analytics 的行为报表整合在一起，为贵组织提供强大的分析和优化契机。
 
@@ -90,4 +89,4 @@ Adobe Analytics 解决方案的当前客户使用此 Data Connectors 集成无�
 
 此集成需要 Adobe Analytics 变量才能跟踪量度。
 
-在确定要与此集成一起使用的事件和 eVar 后，必须在 Analytics Admin Console 中启用它们（有关说明，请参阅[报表包](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/manage-report-suites/report-suites-admin.html)）。
+在确定要与此集成一起使用的事件和 eVar 后，必须在 Analytics Admin Console 中启用它们（有关说明，请参阅[报表包](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html)）。
