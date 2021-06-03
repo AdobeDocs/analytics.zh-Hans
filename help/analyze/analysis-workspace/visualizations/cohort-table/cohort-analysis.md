@@ -1,22 +1,21 @@
 ---
 title: 同类群组分析是什么及其如何工作？
 description: 用同类群组分析更深入地挖掘您受众周围的数据并细分为相关的各组。了解 Analysis Workspace 中的同类群组分析。
-feature: Visualizations
+feature: 可视化图表
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 98%
+source-wordcount: '491'
+ht-degree: 97%
 
 ---
-
 
 # 了解 Adobe Analytics 中的[!UICONTROL 同类群组分析]
 
 *`cohort`* 是指一组在特定期限内共享相同特性的人员。例如，在您想了解如何让一个同类群组喜欢某个品牌时，[!UICONTROL 同类群组分析]就能派上用场。您可以轻松识别趋势中的变化，然后相应地采取回应。（网上提供了有关[!UICONTROL 同类群组分析]的解释说明，例如[同类群组分析基础](https://zh.wikipedia.org/wiki/Cohort_analysis)。）
 
-创建队列报表后，您可以组织其组件（特定的维度、指标和区段），然后可以与其他任何人员共享这份队列报表。请参阅[Curate and Share](/help/analyze/analysis-workspace/curate-share/curate.md)。
+创建队列报表后，您可以组织其组件（特定的维度、指标和区段），然后可以与其他任何人员共享这份队列报表。请参阅[策划和共享](/help/analyze/analysis-workspace/curate-share/curate.md)。
 
 使用[!UICONTROL 同类群组分析]可以实现的作用（示例）：
 
@@ -28,7 +27,7 @@ ht-degree: 98%
 
 [!UICONTROL 同类群组分析]适用于具有 [!UICONTROL Analysis Workspace] 访问权限的所有 Adobe Analytics 客户。
 
-[同类群组分析视频教程](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html)（4 分 36 秒）
+[同类群组分析视频教程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html)（4 分 36 秒）
 
 >[!IMPORTANT]
 >
@@ -72,4 +71,3 @@ ht-degree: 98%
 ![](assets/cohort-customizable-cohort-row.png)
 
 有关如何设置和运行同类群组报表的说明，请转至[配置同类群组分析报表](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。
-
