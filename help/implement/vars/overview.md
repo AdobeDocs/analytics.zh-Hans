@@ -1,15 +1,14 @@
 ---
 title: 变量、函数、方法及插件概述
 description: 了解您可以在向 Adobe 发送的数据中包含哪些变量以改进报告。
-keywords: appmeasurement,variables,vars,configuration,page,implementation
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '318'
-ht-degree: 100%
+keywords: appmeasurement，变量，var，配置，页面，实施
+exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 95%
 
 ---
-
 
 # 变量、函数、方法及插件概述
 
@@ -28,7 +27,7 @@ Adobe 提供了多种实施 Adobe Analytics 的方法。每个页面中都提供
 在向 Adobe 发送数据时，由 Adobe Analytics 发布的 AppMeasurement 库将按特定顺序依次执行。如果您不按顺序执行任务，则数据可能不完整。
 
 1. 如果您的网站使用数据层，请确保首先填充所有适用变量。有关更多信息，请参阅[数据层](../prepare/data-layer.md)。
-2. 使用数据层填充 Analytics 变量。如果使用 Launch，则可以通过使用数据元素并将相应数据元素分配到变量来轻松完成此任务。请参阅 Launch 用户指南中的[数据元素](https://docs.adobe.com/content/help/zh-Hans/launch/using/reference/manage-resources/data-elements.html)。
+2. 使用数据层填充 Analytics 变量。如果使用 Launch，则可以通过使用数据元素并将相应数据元素分配到变量来轻松完成此任务。请参阅 Launch 用户指南中的[数据元素](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/data-elements.html)。
 3. 调用跟踪函数。大多数 AppMeasurement 库都使用 `t()` 方法，但某些 Mobile SDK 使用 `track()`。调用跟踪函数时，在 Analytics 对象中定义的所有受支持变量都将以图像请求的形式发送到 Adobe。
 
 ## 非法字符
