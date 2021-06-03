@@ -3,11 +3,10 @@ description: 围绕 Advertising Analytics 的用例。
 title: Audience Analytics 用例
 uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
 exl-id: 5e03e78f-225b-4634-8a4c-f89d17603182
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '218'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 100%
 
 ## 相似建模 {#section_E2E2DD1495BC4FE9A3E26541962BFF3F}
 
-作为一家多媒体发布商，您可以使用[区段 IQ](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) 来比较您的第三方受众，以了解关键的差异化特征。这可帮助您构建高价值的第一方区段，以便随后在定位中使用。
+作为一家多媒体发布商，您可以使用[区段 IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) 来比较您的第三方受众，以了解关键的差异化特征。这可帮助您构建高价值的第一方区段，以便随后在定位中使用。
 
 ## 前景分析 {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
@@ -31,4 +30,4 @@ ht-degree: 100%
 
 ## 人口统计定位 {#section_F034DB721A06419283DBD29D4A1B444B}
 
-作为一家目的地度假酒店，您可以使用 [Analysis Workspace 中的直方图](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/histogram.html)来了解各个年龄段的购买情况。这有助于您确定每个度假区设施的合适受众。
+作为一家目的地度假酒店，您可以使用 [Analysis Workspace 中的直方图](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/histogram.html)来了解各个年龄段的购买情况。这有助于您确定每个度假区设施的合适受众。
