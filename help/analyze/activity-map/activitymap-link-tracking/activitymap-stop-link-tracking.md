@@ -4,14 +4,13 @@ title: 停止链接跟踪
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: cdbec360-bff9-452c-9564-6b481e7175d3
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 96%
+source-wordcount: '74'
+ht-degree: 89%
 
 ---
-
 
 # 停止链接跟踪
 
@@ -35,7 +34,7 @@ ht-degree: 96%
      &nbsp;users&nbsp;engage&nbsp;with&nbsp;your&nbsp;web&nbsp;site.&nbsp;If&nbsp;you&nbsp;do&nbsp;not&nbsp;intend&nbsp;to&nbsp;use&nbsp;Activity&nbsp;Map,&nbsp;you
      &nbsp;can&nbsp;remove&nbsp;the&nbsp;following&nbsp;block&nbsp;of&nbsp;code&nbsp;from&nbsp;your&nbsp;AppMeasurement.js&nbsp;file.
      &nbsp;Additional&nbsp;documentation&nbsp;on&nbsp;how&nbsp;to&nbsp;configure&nbsp;Activity&nbsp;Map&nbsp;is&nbsp;available&nbsp;at:
-     &nbsp;https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html
+     &nbsp;https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html
      */
      function&nbsp;AppMeasurement_Module_Activity&nbsp;Map(g){func
      ...
@@ -44,11 +43,10 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap（旧称访客 ClickMap） </td> 
-   <td colname="col2"> <p>将 <a href="https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/config-vars/configuration-variables.html"  >trackInlineStats</a> 变量设置为 false（这是默认设置）。语法如下所示：
+   <td colname="col2"> <p>将 <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html"  >trackInlineStats</a> 变量设置为 false（这是默认设置）。语法如下所示：
      <code>
        s.trackInlineStats=false
      </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
