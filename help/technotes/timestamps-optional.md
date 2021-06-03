@@ -5,11 +5,10 @@ title: 使用可选时间戳
 topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 100%
+source-wordcount: '614'
+ht-degree: 97%
 
 ---
 
@@ -27,7 +26,7 @@ ht-degree: 100%
 >
 >“可选时间戳”是从模板生成的所有新报表包的默认设置。从现有报表包复制而来的新报表包将继承原始报表包的设置。
 
-请参阅[可选时间戳](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/timestamp-optional.html)，以了解更多设置信息。
+请参阅[可选时间戳](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html)，以了解更多设置信息。
 
 ## 可选时间戳：集成加盖时间戳和未加盖时间戳的数据 {#section_BF17CB593044462B993FD0D28EA56518}
 
@@ -43,7 +42,7 @@ ht-degree: 100%
 * 要求时间戳（不支持设置 visitorID）
 * 可选时间戳（支持设置 visitorID，但不支持加盖时间戳的点击量）
 
-## 关于可选时间戳功能  {#section_63B2FA9A2AB24B3993E84D2C2B4BF2CE}
+## 关于可选时间戳功能 {#section_63B2FA9A2AB24B3993E84D2C2B4BF2CE}
 
 可选时间戳允许您跨越多个报表包集成和报告，而无论这些报表包中是否包含客户端时间戳。通过可选时间戳，您可以更新您的应用程序以应用时间戳，同时仍可使用之前应用程序中未加盖时间戳的数据。
 
@@ -69,7 +68,7 @@ ht-degree: 100%
 
    无序数据可能包含从离线数据收集延迟抵达的数据和延迟抵达的点击量，或离线移动设备上不同步的时钟。无序数据可能对时间计算（如逗留时间值）、属性（eVar 持续性）、访问量/访问计数和路径报表造成负面影响。
 
-* 不建议在设置 [s.visitorID](https://docs.adobe.com/content/help/zh-Hans/analytics/technotes/visitor-identification.html) 时使用时间戳。这可能会导致数据顺序混乱。
+* 不建议在设置 [s.visitorID](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-identification.html) 时使用时间戳。这可能会导致数据顺序混乱。
 
 * 混合应用程序若包含可打开 Web 浏览器（未加盖时间戳的实时数据）的应用程序（加盖时间戳的离线数据），则不应使用时间戳。它会导致会话报告不准确。
 
