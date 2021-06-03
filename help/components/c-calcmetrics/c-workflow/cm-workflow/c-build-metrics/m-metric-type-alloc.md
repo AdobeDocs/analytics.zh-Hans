@@ -3,11 +3,10 @@ description: '了解 '
 title: 指标类型和归因
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '908'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '904'
+ht-degree: 98%
 
 ---
 
@@ -28,11 +27,12 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->2018 年 7 月，[!DNL Analytics] 引入了[归因 IQ](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/attribution/attribution.html)，这改进了计算指标中分配模型的计算方式。作为此更改的一部分，使用非默认分配模型的计算指标已迁移至改进的新归因模型。
+>2018 年 7 月，[!DNL Analytics] 引入了[归因 IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html)，这改进了计算指标中分配模型的计算方式。作为此更改的一部分，使用非默认分配模型的计算指标已迁移至改进的新归因模型。
 >
->* 有关支持的非默认归因模型和回顾窗口的完整列表，请参阅[归因 IQ](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) 文档。
+>* 有关支持的非默认归因模型和回顾窗口的完整列表，请参阅[归因 IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) 文档。
 >* “营销渠道最近联系”和“营销渠道首次联系”分配模型将分别迁移至新的“最近联系”和“首次联系”归因模型（注：“营销渠道”并不会被弃用 - 弃用的只有此处所述出现在计算指标中的这两个分配模型）。
 >* 此外，我们还将修正线性分配的计算方式。对于通过“线性”分配模型使用计算指标的客户，报表可能会稍有变化，以反映修正后的新归因模型。对计算指标的此更改将反映在 Analysis Workspace、Reports &amp; Analytics、Reporting API 和 Report Builder 中。有关更多信息，请参阅下面的&#x200B;**线性分配工作原理（自 2018 年 7 月 19 日起）**。
+
 >
 
 
@@ -46,9 +46,9 @@ ht-degree: 100%
 |  | 第 1 次点击 | 第 2 次点击 | 第 3 次点击 | 第 4 次点击 | 第 5 次点击 | 第 6 次点击 | 第 7 次点击 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | 发送的数据 | 促销活动 A | - | 促销活动 A | 促销活动 B | - | 促销活动 C | $10 |
-| 最近联系 eVar | 促销活动 A | 促销活动 A | 促销活动 A | 促销活动 B | 促销活动 B | 促销活动 C | $10 |
-| 首次联系 eVar | 促销活动 A | 促销活动 A | 促销活动 A | 促销活动 A | 促销活动 A | 促销活动 A | $10 |
-| 示例 Prop | 促销活动 A | - | 促销活动 A | 促销活动 B | - | 促销活动 C | $10 |
+| 最近联系 eVar | 促销活动 A | 促销活动 A | 促销活动 A | 促销活动 B | 促销活动 B | 促销活动 C | 10美元 |
+| 首次联系 eVar | 促销活动 A | 促销活动 A | 促销活动 A | 促销活动 A | 促销活动 A | 促销活动 A | 10美元 |
+| 示例 Prop | 促销活动 A | - | 促销活动 A | 促销活动 B | - | 促销活动 C | 10美元 |
 
 此示例中，在第 7 次点击进行了价值 10 美元的购买之前，值 A、B、C 已发送到第 1、3、4、6 次点击上的变量之中。第二行显示出，在这一系列的点击中，这些值均一直持久出现在最近联系访问中。第三行则显示出首次联系访问的持久性。最后，最后一行显示的是某个不具有持久性的属性 (Prop) 其数据是如何记录的。
 
@@ -69,8 +69,8 @@ ht-degree: 100%
 |---|---|---|---|
 | 促销活动 A | $5.00 | $10.00 | $5.00 |
 | 促销活动 B | $3.33 | $0 | $2.50 |
-| 促销活动 C | $1.67 | $0 | $2.50 |
-| 合计 | $10.00 | $10.00 | $10.00 |
+| 促销活动 C | $1.67 | $0 | US$2.50 |
+| 合计 | US$10.00 | US$10.00 | US$10.00 |
 
 **线性分配工作原理概要（自 2018 年 7 月 19 日起）**
 
@@ -79,6 +79,6 @@ ht-degree: 100%
 | 值 | 最近联系 eVar 新分配值 | 首次联系 eVar 新分配值 | Prop 新分配值 |
 |---|---|---|---|
 | 促销活动 A | $5.00 | $5.00 | $5.00 |
-| 促销活动 B | $2.50 | $2.50 | $2.50 |
-| 促销活动 C | $2.50 | $2.50 | $2.50 |
-| 合计 | $10.00 | $10.00 | $10.00 |
+| 促销活动 B | US$2.50 | US$2.50 | US$2.50 |
+| 促销活动 C | US$2.50 | US$2.50 | US$2.50 |
+| 合计 | US$10.00 | US$10.00 | US$10.00 |
