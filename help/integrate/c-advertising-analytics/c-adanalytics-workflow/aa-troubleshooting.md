@@ -3,11 +3,10 @@ description: 排除和修复与 Advertising Analytics 相关的问题。
 title: Advertising Analytics 疑难解答
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '178'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 96%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 100%
 * [我在“映射”部分中看不到我的报表包](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
 * [我在对 Google AdWords 帐户进行身份验证时遇到错误...](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
 
-## 我在“映射”部分中没有看到我的报表包 {#section_9CAACDE6445C492DBAE542BA74DE6316}
+## 我在“映射”部分中看不到我的报表包 {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
 您正在尝试[设置一个新的广告帐户](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)，并且在&#x200B;**[!UICONTROL 选择报表包]**&#x200B;下拉列表中列出的报表包中，没有看到您的报表包。出现此问题的原因可能有两个：
 
@@ -30,7 +29,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. 未将报表包映射到登录用户的 Experience Cloud 组织 ID。 </p> </td> 
-   <td colname="col2"> <p>有关说明，请参阅<a href="https://docs.adobe.com/content/help/zh-Hans/core-services/interface/about-core-services/report-suite-mapping.html"  >将报表包映射到组织</a>。 </p> </td> 
+   <td colname="col2"> <p>有关说明，请参阅<a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html"  >将报表包映射到组织</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. 报表包没有配置为可以使用 Advertising Analytics 报告功能。 </p> </td> 
