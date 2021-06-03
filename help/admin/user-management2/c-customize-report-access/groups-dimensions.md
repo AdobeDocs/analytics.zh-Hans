@@ -6,10 +6,10 @@ title: 自定义维度权限
 feature: 管理工具
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 exl-id: 51c4193a-426e-46a0-8494-163b58588157
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 94%
+source-wordcount: '499'
+ht-degree: 83%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在所有客户都已迁移后，**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 用户管理]**&#x200B;的帮助内容将停用。
+>用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在迁移完所有客户后，将撤销&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 用户管理]**&#x200B;的帮助内容。
 
 在粒度级别自定义用户访问权限，包括 eVar、流量报表、解决方案报表和路径报表。
 
@@ -40,9 +40,9 @@ ht-degree: 94%
 * 视频和移动设备报表属于维度类别，其他 Analytics 解决方案报表（Experience Manager、Advertising Cloud、Social 等）也属于维度类别。
 * 如果用户拥有父维度的访问权限，则路径报表将可用。
 * 自定义群组内的所有当前维度和量度均已自动迁移到新类别。如果现有的群组启用了量度，则默认情况下将为其提供所有新增的许可维度（eVar 和内容识别）和量度。
-* 分类导入器（前身为 SAINT）权限：分类的访问权限取决于对此分类所依据的[变量](https://docs.adobe.com/content/help/zh-Hans/analytics/components/classifications/c-classifications.html)的访问权限。
+* 分类导入器（前身为 SAINT）权限：分类的访问权限取决于对此分类所依据的[变量](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)的访问权限。
 
-有关详细信息，请参阅[用户和组权限更改](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/user-product-management/user-management/permissions-changes.html)。
+有关更多信息，请参阅[用户和组权限更改](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/permissions-changes.html)。
 
 **自定义维度**
 
@@ -61,15 +61,15 @@ ht-degree: 94%
    <td colname="col2"> <p>eVar 1 至 250 是单独授权的。eVar 是自定义转化变量，可用来对自定义报表中的转化成功量度进行分段。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/page-vars/evar.html"> Prop </a> </p> </td> 
-   <td colname="col2"> <p>Prop 是自定义流量变量。 </p> <p>请参阅 Analytics 实施中的<a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/evar.html">流量 prop 和转化 eVar</a>。 </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html"> Prop </a> </p> </td> 
+   <td colname="col2"> <p>Prop 是自定义流量变量。 </p> <p>请参阅 Analytics 实施中的<a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html">流量 prop 和转化 eVar</a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/page-vars/page-variables.html"> 层级 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html"> 层级 </a> </p> </td> 
    <td colname="col2"> <p> 层级 (hierN) 变量确定页面在网站层级或页面结构中的位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html"> Listvar </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html"> Listvar </a> </p> </td> 
    <td colname="col2"> <p> 与“列表属性”的功能类似，“列表变量”允许在同一图像请求中包含多个值。 </p> </td> 
   </tr> 
   <tr> 
@@ -85,11 +85,11 @@ ht-degree: 94%
    <td colname="col2"> <p>Adobe Advertising Cloud </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/activity-map/activity-map.html"> Activity Map </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html"> Activity Map </a> </p> </td> 
    <td colname="col2"> <p> Activity Map 报表维度：Activity Map 页面；Activity Map 链接；Activity Map 地区；按地区划分的 Activity Map 链接；Activity Map XY </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-overview.html"> 移动设备 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html"> 移动设备 </a> </p> </td> 
    <td colname="col2"> <p>Adobe Mobile Services </p> </td> 
   </tr> 
   <tr> 
@@ -97,7 +97,7 @@ ht-degree: 94%
    <td colname="col2"> <p>此合作伙伴集成已经失效。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html"> Nielsen </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html"> Nielsen </a> </p> </td> 
    <td colname="col2"> <p>此合作伙伴集成已经失效。 </p> </td> 
   </tr> 
   <tr> 
