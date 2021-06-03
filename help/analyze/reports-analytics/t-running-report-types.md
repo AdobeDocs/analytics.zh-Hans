@@ -5,11 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Reports & Analytics 基础知识
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2361'
-ht-degree: 100%
+source-wordcount: '2335'
+ht-degree: 95%
 
 ---
 
@@ -63,7 +62,7 @@ t_reports_conversion_funnel.xml
 
 要运行此报表，请选择一个报表，如页面报表（**[!UICONTROL 报表]** > **[!UICONTROL 促销活动]** > **[!UICONTROL 跟踪代码]** > **[!UICONTROL 促销活动转化漏斗]**）。
 
-有关描述，请参阅[转化报表](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion.html)。
+有关描述，请参阅[转化报表](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion.html)。
 
 ## 运行流失报表 {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -75,7 +74,7 @@ t_reports_fallout.xml
 
  -->
 
-在 Analysis Workspace 中查看新的[流失分析](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)面板！
+在 Analysis Workspace 中查看新的[流失分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)面板！
 
 1. 在 [!UICONTROL Adobe Analytics] 中，单击&#x200B;**[!UICONTROL 报表]** > **[!UICONTROL 路径]** > **[!UICONTROL 页面]** > **[!UICONTROL 流失]**。
 1.  在[!UICONTROL 流失报表]页面上，单击&#x200B;**[!UICONTROL 启动流失 Report Builder]**。
@@ -89,16 +88,16 @@ t_reports_fallout.xml
 
 >[!MORELIKETHIS]
 >
->* [流失报表描述](https://docs.adobe.com/content/help/zh-Hans/analytics/components/variables/dimensions-reports/reports-fallout.html)
+>* [流失报表描述](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-fallout.html)
 
 
 ## 运行页面流量报表 {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
 页面流量报表显示访客访问页面和导航网站的顺序。此报表有助于解答相关问题。
 
-在 Analysis Workspace 中查看新的[流量可视化](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)！
+在 Analysis Workspace 中查看新的[流量可视化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)！
 
-运行[路径](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-paths.html)报表。
+运行[路径](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-paths.html)报表。
 
 例如，单击&#x200B;**[!UICONTROL 报表]** > **[!UICONTROL 路径]** > **[!UICONTROL 页面]** > **[!UICONTROL 下一页面流量]**。
 
@@ -124,7 +123,7 @@ t_reports_funnel.xml
 
  -->
 
-1. 单击&#x200B;**[!UICONTROL 报表]** > **[!UICONTROL 产品]** > [产品转化漏斗](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html)。
+1. 单击&#x200B;**[!UICONTROL 报表]** > **[!UICONTROL 产品]** > [产品转化漏斗](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html)。
 
 ## 运行营销渠道报表 {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -148,15 +147,15 @@ t_anomaly_view.xml
 
  -->
 
-在 Analysis Workspace 中查看新的[异常检测和贡献分析](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)功能！
+在 Analysis Workspace 中查看新的[异常检测和贡献分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)功能！
 
 **[!UICONTROL 报表]** > **[!UICONTROL 网站量度]** > **[!UICONTROL 异常检测]**。
 
 >[!NOTE]
 >
->另外，您也可以在 Analysis Workspace 项目中运行异常检测。[更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
+>另外，您也可以在 Analysis Workspace 项目中运行异常检测。[更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
-有关设置异常检测的信息，请参阅《[参考指南](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection)》。
+有关设置异常检测的信息，请参阅《[参考指南](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection)》。
 
 异常检测显示了两种类型的图表：概要图表和单个量度图表。仅当至少检测到量度的一个异常时，才显示单个量度图表。
 
@@ -183,7 +182,7 @@ t_anomaly_view.xml
         <li id="li_4090357A0D214BC7B1C3DE0615875554">如果下限与期望值相同，则偏差百分比为 -100%。 </li> 
         <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">否则，偏差百分比为：((下限值 – 实际值) / (期望值 – 下限值)) * -100 </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">单击<span class="uicontrol">显示区段</span>可显示区段边栏，以允许您将区段应用到异常检测报表。请参阅有关分段的<a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html"  >更多信息</a>。 </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C">单击<span class="uicontrol">显示区段</span>可显示区段边栏，以允许您将区段应用到异常检测报表。请参阅有关分段的<a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html"  >更多信息</a>。 </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">单击<span class="uicontrol">编辑量度</span>可让您选择和取消选择要为其检测异常的量度。 </li> 
      </ul> </p> </td> 
   </tr> 
@@ -236,7 +235,7 @@ t_anomaly_config.xml
 
    ![](assets/ad_top_menu.png)
 
-   有关创建和管理区段的详细信息，请参阅《[Analytics 分段指南](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/seg-home.html)》。1. （可选）将报表加入收藏夹或为其添加书签。
+   有关创建和管理区段的详细信息，请参阅《[Analytics 分段指南](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)》。1. （可选）将报表加入收藏夹或为其添加书签。
 1. （可选）更改查看时段的结束日期。默认日期为昨天。
 1. 您现在可以开始解读报表了。[查看异常检测图表](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)。
 
@@ -254,7 +253,7 @@ reports_realtime.xml
 
 实时报表提供了两个主要的报表 - 概述报表和详细信息报表。每个报表都包含许多缩图报表。
 
-有关配置实时报表的信息，请参阅《[Analytics 参考指南](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/home.html#RealTime_Reports_Configuration)》。
+有关配置实时报表的信息，请参阅《[Analytics 参考指南](https://experienceleague.adobe.com/docs/analytics/landing/home.html#RealTime_Reports_Configuration)》。
 
 1. 了解&#x200B;**[!UICONTROL 概述]**&#x200B;报表及其组件：![](assets/rtr_overview_report.png)
 
@@ -265,7 +264,7 @@ reports_realtime.xml
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>选择报表包</strong></td> 
-   <td class="chdesc stentry"> 显示此实时报表涵盖的报表包。要更改报表包，请参阅<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >实时报表配置</a>。 </td> 
+   <td class="chdesc stentry"> 显示此实时报表涵盖的报表包。要更改报表包，请参阅<a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >实时报表配置</a>。 </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>切换报表</strong></td> 
