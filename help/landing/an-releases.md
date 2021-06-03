@@ -2,10 +2,10 @@
 description: 介绍 Adobe Analytics 的全新连续功能发布战略
 title: Adobe Analytics 功能发布
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 95%
+source-wordcount: '418'
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 95%
 
 ## 功能标记
 
-功能标记用于在发布过程中控制新功能的可见性。Adobe 建议将 app.launchdarkly.com 添加到防火墙的[允许列表](https://docs.adobe.com/content/help/zh-Hans/analytics/technotes/ip-addresses.html)，以在发布过程中获得最佳体验。到达 GA 后不久，将删除该标记。
+功能标记用于在发布过程中控制新功能的可见性。Adobe 建议将 app.launchdarkly.com 添加到防火墙的[允许列表](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=zh-Hans)，以在发布过程中获得最佳体验。到达 GA 后不久，将删除该标记。
 
 您可以随时在&#x200B;**帮助 > 关于 Workspace > 活动功能标记**&#x200B;下查看活动功能标记。
 
@@ -39,5 +39,5 @@ ht-degree: 95%
 
 | 问题 | 回答 |
 |---|---|
-| 我是否可以请求提前访问某个功能？ | 不会。不会授予提前访问权限。<br>如果您想要提前测试 Analytics 概念，我们建议您试用 [Adobe Analytics Labs](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/tech-previews/overview.html)，就我们行业领先的创新技术提供反馈。 |
-| 此发布策略是否会影响我对功能的访问？ | 不会。一旦某个功能达到 GA 阶段，您将有权访问该功能，前提是它包含在您的 Analytics 程序包中。<br>您可以在“Admin”>“All admin”>“All admin”>“ [!UICONTROL 公司设置”>“Feature Access Levels”下] 视图您 [!UICONTROL 的Analytics包的详细信]    [](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/company-settings/feature-access-levels.html)息。 |
+| 我是否可以请求提前访问某个功能？ | 不会。不会授予提前访问权限。<br>如果您想要提前测试 Analytics 概念，我们建议您试用 [Adobe Analytics Labs](https://experienceleague.adobe.com/docs/analytics/analyze/tech-previews/overview.html)，就我们行业领先的创新技术提供反馈。 |
+| 此发布策略是否会影响我对功能的访问？ | 不会。一旦某个功能达到 GA 阶段，您将有权访问该功能，前提是它包含在您的 Analytics 程序包中。<br>您可以在管理员 [!UICONTROL  > ] 所有管理员 [!UICONTROL  > ] 公司设置 [!UICONTROL  > ] 功能访问级别 [](https://experienceleague.adobe.com/docs/analytics/admin/company-settings/feature-access-levels.html)下查看您的Analytics包的详细信息。 |
