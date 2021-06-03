@@ -2,18 +2,20 @@
 description: 使用 Adobe Data Connectors 配置向导来设置集成。
 title: 激活集成
 uuid: 3b2acdb8-9a1f-4f17-92f2-6a3780a8f626
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+exl-id: 18fb2f55-f1fb-4d97-bd1e-8c5e74dbde69
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '729'
+ht-degree: 98%
 
 ---
-
 
 # 激活集成{#activate-the-integration}
 
 使用 Adobe Data Connectors 配置向导来设置集成。
 
-1. Start [Data Connectors](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html) and click **[!UICONTROL + Add New]** to [add a new integration](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html).
-1. In the **[!UICONTROL Show]** list, select **[!UICONTROL By Name]** and drag the [!DNL ~Partner~] integration to an empty plug-in slot.
+1. 启动 [Data Connectors](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html)，然后单击 **[!UICONTROL + 新增]**&#x200B;以[添加新集成](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html)。
+1. 在&#x200B;**[!UICONTROL 显示]**&#x200B;列表中，选择&#x200B;**[!UICONTROL 按名称]**，然后将 [!DNL ~Partner~] 集成拖至空插件插槽。
 1. 使用下表中的信息完成集成向导：
 
 | 字段 | 描述 |
