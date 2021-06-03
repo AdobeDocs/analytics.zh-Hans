@@ -2,11 +2,10 @@
 title: 将 AppMeasurement 与 iframe 一起使用
 description: 访问 iframe 中的 Adobe Analytics 变量或者在 iframe 中时访问父页面
 exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
-translation-type: ht
-source-git-commit: 40bf2bbb522a94a678d0da1a645d83a5121c93d0
-workflow-type: ht
-source-wordcount: '327'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '323'
+ht-degree: 97%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 100%
 
 您可从子和父 iframe 引用 AppMeasurement 变量。必须在与 AppMeasurement 库所在的相同位置定义所有变量。以下示例说明了如何在 iframe 内部和外部设置基本 AppMeasurement 变量和方法。
 
-如果您使用 Adobe Experience Platform Launch，请确保跟踪器对象可全局访问。请参阅 Launch 用户指南中的 [Adobe Analytics 扩展概述](https://docs.adobe.com/content/help/zh-Hans/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html)。
+如果您使用 Adobe Experience Platform Launch，请确保跟踪器对象可全局访问。请参阅 Launch 用户指南中的 [Adobe Analytics 扩展概述](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html)。
 
 >[!CAUTION]
 >
@@ -66,5 +65,5 @@ window.top.postMessage("Example page view call","https://example.com");
 
 * 与其他 JavaScript 代码一样，iframe 只能在域和协议匹配时通信。如果 iframe 内容位于与父页面不同的域，这些示例无法使用。
 * 如果 AppMeasurement 位于 iframe 中，则 [`referrer`](../vars/page-vars/referrer.md) 变量设置为父 URL，而不是实际的引用 URL。您可以手动设置 `referrer` 变量来解决此问题。
-* [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/zh-Hans/debugger/using/experience-cloud-debugger.html) 不会识别在 iframe 中触发的图像请求。
+* [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) 不会识别在 iframe 中触发的图像请求。
 * Activity Map 不显示在 iframe 中单击的链接的热图。而是改为突出显示整个 iframe。
