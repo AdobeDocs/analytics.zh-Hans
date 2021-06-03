@@ -2,20 +2,19 @@
 description: 配置 Experience Cloud 映射的报表包以供在 Advertising Analytics 中使用。
 title: 为 Advertising Analytics 启用报表包
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '283'
-ht-degree: 100%
+exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '281'
+ht-degree: 97%
 
 ---
-
 
 # 为 Advertising Analytics 启用报表包
 
 要在 Analytics 中查看任何 Advertising Analytics 搜索数据，您需要配置每个 Experience Cloud 映射的报表包，以便进行 Advertising Analytics 报告。
 
-1. [将报表包映射到组织](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/about-core-services/report-suite-mapping.html)。
+1. [将报表包映射到组织](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)。
 1. 导航至&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
 
 1. 选择映射到您的 Experience Cloud 组织的报表包。
@@ -36,4 +35,3 @@ ht-degree: 100%
    | 过期时间 | 让您可以指定一个时段或事件，eVar 值将在此时段或事件之后过期（即，不再接收成功事件的点数）。如果在 eVar 过期之后发生成功事件，则由“无”值接收该事件的信用（不激活任何 eVar）。 |
 
 1. 单击&#x200B;**[!UICONTROL 启用 Advertising Analytics 报表]**（第一次）或&#x200B;**[!UICONTROL 更新 Advertising Analytics 报表]**（第一次之后）。您的报表包现已准备好接收 Advertising Analytics 搜索数据。现在，您可以[创建广告帐户](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)。
-
