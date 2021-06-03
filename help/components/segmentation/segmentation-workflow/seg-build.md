@@ -4,11 +4,10 @@ title: 生成区段
 feature: 分段
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-translation-type: ht
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
-source-wordcount: '2040'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '2036'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +20,7 @@ ht-degree: 100%
 * **Analytics 顶部导航**：单击 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 区段]**。
 * **[!UICONTROL Analysis Workspace]**：单击 **[!UICONTROL Analytics]** > **[!UICONTROL 工作区]**，打开一个项目，然后单击 **[!UICONTROL + 新建]** > **[!UICONTROL 创建区段]**。
 * **[!UICONTROL Reports &amp; Analytics]**：单击 **[!UICONTROL Analytics]** > **[!UICONTROL 报表]**，打开一个现有报表并单击左侧导航中的“区段”图标 ![](assets/segment_icon.png)，然后单击&#x200B;**[!UICONTROL 添加]**。
-* **[!UICONTROL Report Builder]**：[在 Report Builder 中添加或编辑区段](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/report-builder/data-requests/segmentation.html)。
+* **[!UICONTROL Report Builder]**：[在 Report Builder 中添加或编辑区段](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html)。
 
 ## 生成器条件 {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -63,7 +62,7 @@ ht-degree: 100%
 1. **[!UICONTROL 值]**：为维度、区段或指标输入或选择的值。
 1. **[!UICONTROL X]**：（删除）用于删除此部分区段定义。
 1. **[!UICONTROL Experience Cloud 发布]**：将 Adobe Analytics 区段发布到 Experience Cloud 后，您可以将该区段用于 [!DNL Audience Manager] 和其他活动渠道中的营销活动。[了解详情...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL 受众库]**：Adobe 的受众服务可管理访客数据到受众区段的转换。因此，创建和管理受众与创建和使用区段类似，只是前者增加了一项将受众区段共享到 Experience Cloud 的功能。[了解详情...](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/audiences/audience-library.html)
+1. **[!UICONTROL 受众库]**：Adobe 的受众服务可管理访客数据到受众区段的转换。因此，创建和管理受众与创建和使用区段类似，只是前者增加了一项将受众区段共享到 Experience Cloud 的功能。[了解详情...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)
 1. **[!UICONTROL 搜索]**：搜索维度、区段或指标列表。
 1. **[!UICONTROL 维度]**：（列表）单击标题可展开。
 1. **[!UICONTROL 指标]**：单击标题可展开。
@@ -204,7 +203,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> 查看的产品未添加到购物车 </td> 
-   <td colname="col2">查看浏览了产品但未添加到购物车的访客的数据。在区段定义中，容器为访问。此顺序区段的规则为 <p>产品查看不为空 </p> <p>Then </p> <p> 购物车加货等于 0。 </p> </td> 
+   <td colname="col2">查看浏览了产品但未添加到购物车的访客的数据。在区段定义中，容器为访问。此顺序区段的规则为 <p>产品查看不为空 </p> <p>然后 </p> <p> 购物车加货等于 0。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 来自促销活动的访问量 </td> 
