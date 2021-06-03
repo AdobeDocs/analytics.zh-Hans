@@ -5,11 +5,10 @@ title: 策划项目
 feature: 策划和共享
 role: Business Practitioner, Administrator
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '548'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '546'
+ht-degree: 98%
 
 ---
 
@@ -47,7 +46,7 @@ ht-degree: 100%
 
 ## 虚拟报表包 (VRS) 策划
 
-要在报表包级别应用策划，以便同时将策划应用于多个项目，您可以[在虚拟报表包 (VRS) 中进行组件策划](https://docs.adobe.com/content/help/zh-Hans/analytics/components/virtual-report-suites/vrs-components.html)。
+要在报表包级别应用策划，以便同时将策划应用于多个项目，您可以[在虚拟报表包 (VRS) 中进行组件策划](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html)。
 
 >[!NOTE]
 > 始终先应用 VRS 策划，再应用项目策划。这意味着即使您的策划项目包含某些组件，但是如果策划 VRS 不包含这些组件，系统也会将这些组件滤除。
