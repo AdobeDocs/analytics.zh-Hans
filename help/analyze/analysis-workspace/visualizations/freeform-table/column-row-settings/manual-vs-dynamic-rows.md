@@ -4,11 +4,10 @@ description: 如何与表中的动态维度项目和静态维度项目交互。
 feature: 自由格式表
 role: Business Practitioner, Administrator
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '486'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '484'
+ht-degree: 98%
 
 ---
 
@@ -54,4 +53,4 @@ ht-degree: 100%
 动态行和静态行在自由格式表总计行中的行为方式有所不同。默认情况下：
 
 * 动态行是服务器端总和，并且去除了重复量度，例如访问次数和访客
-* 静态行是客户端总和，并且&#x200B;**不会**&#x200B;去除重复量度。要计算服务器端总计行，请将“行”设置更改为&#x200B;**显示总计**。[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
+* 静态行是客户端总和，并且&#x200B;**不会**&#x200B;去除重复量度。要计算服务器端总计行，请将“行”设置更改为&#x200B;**“显示总计”**。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
