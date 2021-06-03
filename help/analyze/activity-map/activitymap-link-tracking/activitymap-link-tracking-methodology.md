@@ -4,14 +4,13 @@ title: 链接跟踪方法
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
+exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1000'
 ht-degree: 96%
 
 ---
-
 
 # 链接跟踪方法
 
@@ -19,14 +18,14 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->其文本（非 href）可能包含 PII（个人身份识别信息）的任何链接，均应使用 [s_objectID](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/page-vars/page-variables.html) 或通过以 [s.ActivityMap.linkExclusions 或 s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars) 排除 ActivityMap 链接收集的方式进行显式实施。有关 Activity Map 如何收集 PII 数据的更多信息，请转至[此处](/help/analyze/activity-map/lnk-tracking-overview.md)。
+>其文本（非 href）可能包含 PII（个人身份识别信息）的任何链接，均应使用 [s_objectID](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) 或通过以 [s.ActivityMap.linkExclusions 或 s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars) 排除 ActivityMap 链接收集的方式进行显式实施。有关 Activity Map 如何收集 PII 数据的更多信息，请转至[此处](/help/analyze/activity-map/lnk-tracking-overview.md)。
 
 Activity Map 根据以下两个 ID 进行链接跟踪：
 
 * 主 ID：这是链接的可识别参数。
 * 链接区域：这是次要参数，允许用户指定一个代表页面内或区域内整个链接区域的的字符串。如果用户没有提供此参数，此参数则会自动生成。
 
-## 主 ID  {#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
+## 主 ID {#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
 
 如果 HTML 拥有 s_objectid，则默认情况下，主 ID 就是 s_objectid。否则，以下参数将作为主 ID（按照下面的优先顺序）：
 
@@ -34,9 +33,9 @@ Activity Map 根据以下两个 ID 进行链接跟踪：
 * Alttext
 * 标题
 * Src
-* Action
+* 操作
 
-## 使用 InnerText 与使用链接操作 (URL) 的对比  {#section_70C3573E22274522A8CC035BF18EC468}
+## 使用 InnerText 与使用链接操作 (URL) 的对比 {#section_70C3573E22274522A8CC035BF18EC468}
 
 链接操作是指单击链接时网页所采取的操作 - 通常是指单击链接后访问的 URL。使用链接操作时，可能会遇到以下一些问题：
 
@@ -144,7 +143,7 @@ s.ActivityMap.regionIDAttribute = "lpos";
     <code>}</code> </td>
    <td colname="col3"> 函数，可以收到被单击的 HTMLElement，且应该返回代表<b>被单击的链接</b>的字符串值。<br/>
       <br/>
-     如果返回值为false（null、undefined、空字符串、0），则不跟踪任何链接。 </td>
+     如果返回值为false（null、未定义、空字符串、0），则不会跟踪任何链接。 </td>
   </tr>
   <tr>
    <td colname="col1"> s.ActivityMap.region </td> 
@@ -161,7 +160,7 @@ s.ActivityMap.regionIDAttribute = "lpos";
     <code>}</code> </td> 
    <td colname="col3"> 函数，可以被单击的 HTMLElement，且应该返回代表<b>链接被单击时所在的区域</b>的字符串值。<br/>
       <br/>
-     如果返回值为false（null、undefined、空字符串、0），则不跟踪任何链接。 </td>
+     如果返回值为false（null、未定义、空字符串、0），则不会跟踪任何链接。 </td>
   </tr>
   <tr>
    <td colname="col1"> s.ActivityMap.linkExclusions </td> 
