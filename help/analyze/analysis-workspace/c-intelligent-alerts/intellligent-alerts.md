@@ -2,22 +2,21 @@
 description: 新的智能警报系统允许对警报进行更多粒度控制，而且还将异常检测与警报系统集成在一起。
 title: 智能警报概述
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
-feature: AI Tools
+feature: AI 工具
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 49d47896-bf93-4960-b647-2765c935eb25
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 94%
+source-wordcount: '365'
+ht-degree: 95%
 
 ---
-
 
 # 智能警报概述
 
 智能警报允许对警报进行更多粒度控制，而且还将异常检测与警报系统集成在一起。
 
-以下是有关[智能警报](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/intelligent-alerts.html)(5:34)的视频教程
+以下是关于[智能警报](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)的视频教程
 
 ## 概述
 
