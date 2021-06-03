@@ -5,10 +5,10 @@ subtopic: Users and groups
 title: 用户和群组权限更改
 feature: 管理工具
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 96%
+source-wordcount: '1556'
+ht-degree: 94%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->用户和产品管理已移至[Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)。 Adobe 会通知您何时迁移用户。在所有客户都已迁移后，**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 用户管理]**&#x200B;的帮助内容将停用。
+>用户和产品管理已移至[Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)。 Adobe 会通知您何时迁移用户。在迁移完所有客户后，将撤销&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 用户管理]**&#x200B;的帮助内容。
 
 ## 更改了哪些内容？ {#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
@@ -49,7 +49,7 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td colname="col1"> <p>更改了预定义群组 </p> </td> 
-   <td colname="col2"> <p> <b>管理员访问权限：</b>管理员不再需要预定义群组。管理员现在可以访问所有项目（工具、量度、维度）以及Web服务访问、Report Builder和Activity Map。 </p> <p>从此以后，群组的用途是授予或限制非管理用户的访问权限。 </p> <p> <b>自定义群组：</b>自定义群组取代了预定义群组。现有预定义群组将迁移到自定义群组，所用的群组名称保持不变。您已创建的任何自定义群组（包括其设置）将被保留。但您会发现，设置的位置将发生移动。例如，“自定义 Admin Console”中的“公司设置”现在位于<a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">自定义 Analytics 工具</a>中。 </p> <p> 属于<span class="term">所有报表访问</span>的用户已迁移到具有以下访问权限的自定义群组： </p> 
+   <td colname="col2"> <p> <b>管理员访问权限：</b>管理员不再需要预定义群组。管理员现在可以访问所有项目（工具、量度、维度），以及Web服务访问、Report Builder和Activity Map。 </p> <p>从此以后，群组的用途是授予或限制非管理用户的访问权限。 </p> <p> <b>自定义群组：</b>自定义群组取代了预定义群组。现有预定义群组将迁移到自定义群组，所用的群组名称保持不变。您已创建的任何自定义群组（包括其设置）将被保留。但您会发现，设置的位置将发生移动。例如，“自定义 Admin Console”中的“公司设置”现在位于<a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">自定义 Analytics 工具</a>中。 </p> <p> 属于<span class="term">所有报表访问</span>的用户已迁移到具有以下访问权限的自定义群组： </p> 
     <ul id="ul_696A9243F5FD4AF187352C2F4B1CFDC2"> 
      <li id="li_683A0A3BB7214CFFBC61D5A4CD237F48">所有维度 </li> 
      <li id="li_D8FDBF6A32224731AB706315DEA0A03E">所有量度 </li> 
@@ -65,12 +65,12 @@ ht-degree: 96%
    <td colname="col2"> <p>您可以对权限进行自定义，以便包含或排除对维度（和量度）的访问权限。 </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>自定义群组内的所有当前维度和量度均已自动迁移到新类别。如果现有的群组启用了量度，则默认情况下将为其提供所有新增的许可维度（eVar 和内容识别）和量度。 </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 分类导入器（前身为 SAINT）权限：分类的访问权限取决于对此分类所依据的<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/components/classifications/c-classifications.html">变量</a>的访问权限。 </li> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 分类导入器（前身为 SAINT）权限：分类的访问权限取决于对此分类所依据的<a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html">变量</a>的访问权限。 </li> 
     </ul> <p>请参阅<a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">自定义维度权限</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Admin Console </p> </td> 
-   <td colname="col2"> <p>仅建议新客户或<a href="https://docs.adobe.com/content/help/zh-Hans/core-services/interface/about-core-services/core-services.html">已在 Experience Cloud 中设置了</a>公司的客户使用。现有 <span class="keyword">Analytics</span> 客户向 <span class="keyword">Experience Cloud</span> 身份管理系统的迁移已经提上计划日程。 </p> <p>有关更多信息，请参阅<a href="https://helpx.adobe.com/cn/enterprise/using/manage-permissions-and-roles.html">在 Admin Console 中管理产品权限</a>。 </p> </td> 
+   <td colname="col2"> <p>仅建议新客户或<a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html">已在 Experience Cloud 中设置了</a>公司的客户使用。现有 <span class="keyword">Analytics</span> 客户向 <span class="keyword">Experience Cloud</span> 身份管理系统的迁移已经提上计划日程。 </p> <p>有关更多信息，请参阅<a href="https://helpx.adobe.com/cn/enterprise/using/manage-permissions-and-roles.html">在 Admin Console 中管理产品权限</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -143,7 +143,7 @@ ht-degree: 96%
  <tbody> 
   <tr> 
    <td colname="col1"> 创建用户 </td> 
-   <td colname="col2"> <p>Admin Console（创建用户并将其添加到 Analytics <a href="https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-getting-started.html">产品配置</a>的同时也会在 Analytics 中创建用户帐户）。 </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> 管理工具</a> </p> </td> 
+   <td colname="col2"> <p>Admin Console（创建用户并将其添加到 Analytics <a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html">产品配置</a>的同时也会在 Analytics 中创建用户帐户）。 </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> 管理工具</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> </td> 
   </tr> 
@@ -168,8 +168,8 @@ ht-degree: 96%
   <tr> 
    <td colname="col1"> 创建群组 </td> 
    <td colname="col2"> <p>Admin Console - 在 Admin Console 中创建群组后，管理工具中将出现一个在 Analytics 中映射的群组，不过无法从管理工具中更改此映射群组的名称，也无法将其删除。 </p> <p>管理工具。 </p> </td> 
-   <td colname="col3"> <p>Admin Console（<a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html">创建产品配置</a>） </p> </td> 
-   <td colname="col4"> <p>Admin Console（<a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html">创建产品配置</a>） </p> </td> 
+   <td colname="col3"> <p>Admin Console（<a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html">创建产品配置</a>） </p> </td> 
+   <td colname="col4"> <p>Admin Console（<a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html">创建产品配置</a>） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 编辑群组中的用户 </td> 
