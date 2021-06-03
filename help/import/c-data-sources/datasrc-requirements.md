@@ -5,11 +5,10 @@ title: 要求和上载限制
 topic-fix: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 98%
+source-wordcount: '634'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +28,7 @@ ht-degree: 98%
 
 * 每个 FTP 帐户上所有文件的数据总量不得超过 50 MB。如果数据总量超过 50 MB，处理便会暂停，并且直到数据总量低于 50 MB 时才会恢复。
 
-## 日期  {#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2}
+## 日期 {#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2}
 
 * 每一个日历天可上载 90 个唯一日期的数据。如果超过此限制，上载则会失败，并出现错误消息，提示您超过了唯一天数的上限。
 * 只能导入具有当前或过去日期的数据。请勿尝试在数据源数据中使用未来日期。
@@ -60,7 +59,7 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>受支持. 与数据源一起使用的报表包必须启用多字节字符支持。 </p> <p>请参阅帮助中的<a href="https://docs.adobe.com/content/help/zh-Hans/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >新报表包</a>。 </p> </td> 
+   <td colname="col2"> <p>受支持. 与数据源一起使用的报表包必须启用多字节字符支持。 </p> <p>请参阅帮助中的<a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >新报表包</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 带字节顺序标记的 UTF-8 (EF BB BF) </td> 
@@ -90,12 +89,12 @@ ht-degree: 98%
 * 转化期间检测到错误，此时您会收到一则类似如下内容的消息：“从 UTF-8 到 ISO-8859-1 转化期间，在位置 18 的文件中发现坏字符”。
 * 文件处理过程中未出现错误，但是报表中存在混乱的数据。
 
-## 上载网络日志文件  {#section_DD736FC971FE45C89AB310BEDC1FE707}
+## 上载网络日志文件 {#section_DD736FC971FE45C89AB310BEDC1FE707}
 
 * 用于查看网络日志数据的最有用报表是流量报表，如页面查看。
 * 页面名称显示为整个 URL，其中包括查询字符串。
 * 每个文件请求都显示为一个单独的页面查看，其中包括样式表和图像文件。
-* 如果您在 URL 后附加信息，文件可能会被记录为单独的页面。例如，Adobe将以下URL记录为两个单独的页面：
+* 如果您在 URL 后附加信息，文件可能会被记录为单独的页面。例如，Adobe将以下URL记录为两个不同的页面：
 
 `/jokes/misc/snail_joke.html?userid=12345`
 
