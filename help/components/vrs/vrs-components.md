@@ -3,11 +3,10 @@ description: 可对虚拟报表包进行管理以在 Analysis Workspace 中包�
 title: 虚拟报表包组件管理
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '419'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '417'
+ht-degree: 98%
 
 ---
 
@@ -66,10 +65,10 @@ ht-degree: 100%
 
 ## 组件组 {#section_483BEC76F49E46ADAAA03F0A12E48426}
 
-使用组件组可向您的虚拟报表包中批量添加组件。例如，如果您要导入一组专门用于移动设备应用程序分析的默认组件，请选择移动设备应用程序组。对应的一组维度和量度（已重命名）会被自动添加到虚拟报表包的“已包括”列表中。
+使用组件组可向您的虚拟报表包中批量添加组件。例如，如果您要导入一组专门用于移动设备应用程序分析的默认组件，请选择移动设备应用程序组。对应的一组维度和指标（已重命名）会被自动添加到虚拟报表包的“已包括”列表中。
 
 ![](assets/vrs-comp-grp.png)
 
 ## 工作区行为 {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-有关 Analysis Workspace 中策化的更多信息，请参阅[策划和共享项目](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/curate.html)。
+有关 Analysis Workspace 中策化的更多信息，请参阅[策划和共享项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html)。
