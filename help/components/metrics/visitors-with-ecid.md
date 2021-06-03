@@ -2,17 +2,16 @@
 title: 具有 Experience Cloud ID 的访客
 description: 使用 Adobe Experience Cloud ID 服务的独特访客数。
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '376'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 98%
 
 ---
 
 # 具有 Experience Cloud ID 的访客
 
-“具有 Experience Cloud ID 的访客”量度显示 Adobe 识别的使用 [Experience Cloud ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)的独特访客数量。当与[独特访客](unique-visitors.md)量度进行比较时，此维度非常有用，可确保网站的大多数访客都使用 ID 服务。如果大部分访客不使用 ID 服务 Cookie，则它可能会提示您的实施中存在问题。
+“具有 Experience Cloud ID 的访客”量度显示 Adobe 识别的使用 [Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)的独特访客数量。当与[独特访客](unique-visitors.md)量度进行比较时，此维度非常有用，可确保网站的大多数访客都使用 ID 服务。如果大部分访客不使用 ID 服务 Cookie，则它可能会提示您的实施中存在问题。
 
 >[!NOTE]
 >
@@ -20,7 +19,7 @@ ht-degree: 100%
 
 ## 如何计算此量度
 
-此量度基于[独特访客](unique-visitors.md)，只是它仅包含使用 `mid` 查询字符串（基于 [`s_ecid`](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/ec-cookies/cookies-analytics.html) Cookie）标识的个人。
+此量度基于[独特访客](unique-visitors.md)，只是它仅包含使用 `mid` 查询字符串（基于 [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hans) Cookie）标识的个人。
 
 ## 调试您的 Experience Cloud ID 设置
 
