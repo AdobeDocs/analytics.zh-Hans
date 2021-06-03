@@ -4,14 +4,13 @@ title: Analytics 报表 API 比较
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 feature: API
 role: Developer
-translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+exl-id: 924f591d-b6ed-4dae-aa69-72d72217e7bd
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 100%
+source-wordcount: '277'
+ht-degree: 93%
 
 ---
-
 
 # Analytics 报表 API 比较
 
@@ -40,7 +39,7 @@ Analytics 报表 API 的比较表。提供了支持文档的链接。
    <td colname="col5"> 用于提取大型数据导出的完全处理的完成数据。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/zh-Hans/analytics/technotes/latency.html"  > 延迟</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://experienceleague.adobe.com/docs/analytics/technotes/latency.html"  > 延迟</a> </p> </td> 
    <td colname="col2"> 30-90 分钟 </td> 
    <td colname="col3"> * 数秒 - 10 分钟 </td> 
    <td colname="col4"> 数秒 - 10 分钟 </td> 
@@ -54,7 +53,7 @@ Analytics 报表 API 的比较表。提供了支持文档的链接。
    <td colname="col5"> 完全 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://docs.adobe.com/content/help/zh-Hans/analytics/landing/home.html"  > 报表界面</a> </td> 
+   <td colname="col1"> <a href="https://experienceleague.adobe.com/docs/analytics/landing/home.html"  > 报表界面</a> </td> 
    <td colname="col2"> Analysis Workspace、Reports &amp; Analytics、Report Builder、API </td> 
    <td colname="col3"> Reports &amp; Analytics、Report Builder、1.4 API 中的实时报表 </td> 
    <td colname="col4"> 仅限 API </td> 
@@ -86,7 +85,7 @@ Analytics 报表 API 的比较表。提供了支持文档的链接。
    <td colname="col2"> <p> <a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"  > Analytics API</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis"  > 实时报表</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md"  > 实时流概述</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/zh-Hans/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,4 +94,3 @@ Analytics 报表 API 的比较表。提供了支持文档的链接。
 
 * [Adobe/IO](https://www.adobe.io/) - 将 Adobe 技术集成到应用程序所需的技术文档和工具的综合性源。
 * [Data Workbench 查询 API](https://marketing.adobe.com/developer/documentation/data-workbench-query-api/c-ins-qry-api)
-
