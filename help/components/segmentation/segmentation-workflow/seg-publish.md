@@ -4,11 +4,10 @@ title: 将区段发布到 Experience Cloud
 feature: 分段
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-translation-type: ht
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
-source-wordcount: '1346'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1332'
+ht-degree: 96%
 
 ---
 
@@ -25,10 +24,10 @@ ht-degree: 100%
 
 ## 先决条件
 
-* 确保[已为 Experience Cloud 启用](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/audiences/t-publish-audience-segment.html)要保存此区段的报表包。否则，您无法将其发布到 Experience Cloud。
-* 确保您使用的报表包[已映射到 Experience Cloud 组织](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/about-core-services/report-suite-mapping.html)。
+* 确保[已为 Experience Cloud 启用](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)要保存此区段的报表包。否则，您无法将其发布到 Experience Cloud。
+* 确保您使用的报表包[已映射到 Experience Cloud 组织](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)。
 * 确保您的组织使用的是 Experience Cloud ID。
-* 在发布区段之前，您的管理员需要先在[管理控制台](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-getting-started.html)中向产品配置文件分配“[!UICONTROL 区段发布]”权限，并将您添加到产品配置文件中。
+* 在发布区段之前，您的管理员需要先在[管理控制台](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)中向产品配置文件分配“[!UICONTROL 区段发布]”权限，并将您添加到产品配置文件中。
 
 
 ## 注意事项
@@ -36,7 +35,7 @@ ht-degree: 100%
 * **报表包限制**：每个报表包最多可发布 75 个区段。此限制是强制实施的。如果已发布 75 个区段，则只有在取消发布足够数量的区段，使区段数量低于 75 个区段的阈值后，才能发布任何其他区段。
 * **会员资格限制**：从 Adobe Analytics 共享到 [!DNL Experience Cloud] 的受众数量不能超过 2000 万个独特会员。
 * **数据隐私**：受众并非基于访客的身份验证状态进行过滤。如果访客可在未验证或已验证的状态下浏览您的站点，则访客在处于未验证状态时执行的操作仍会导致访客被包含在受众中。请查看 [Adobe Experience Cloud 隐私](https://www.adobe.com/cn/privacy/experience-cloud.html)，了解受众共享对隐私的全面影响。
-* 有关&#x200B;**[!DNL Adobe Analytics] 和[!DNL Audience Manager]** 中的区段之间的差异的讨论，请转到[此处](https://docs.adobe.com/content/help/zh-Hans/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)。
+* 有关&#x200B;**[!DNL Adobe Analytics] 和[!DNL Audience Manager]** 中的区段之间的差异的讨论，请转到[此处](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)。
 
 ## 区段发布时间轴
 
@@ -97,7 +96,7 @@ ht-degree: 100%
 
 **方法 1：使用 Adobe Experience Cloud 调试器**
 
-1. 从 Chrome 网上应用店中，下载并安装 [Adobe Experience Cloud 调试器](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/testing-and-validation/debugger.html)。
+1. 从 Chrome 网上应用店中，下载并安装 [Adobe Experience Cloud 调试器](https://experienceleague.adobe.com/docs/analytics/implementation/testing-and-validation/debugger.html)。
 1. 加载页面时启动该调试器。
 1. 滚动到 Audience Manager 部分，然后找到在当前浏览器页面上设置的 AAM UUID
 （以下示例中为 `50814298273775797762943354787774730612`）
@@ -107,13 +106,13 @@ ht-degree: 100%
 **方法 2：使用 Chrome 开发人员工具（或其他浏览器开发人员工具）**
 
 1. 在加载页面之前启动 Chrome 开发人员工具
-1. 加载页面，并选中“应用程序”>“Cookie”。AAM UUID 应在第三方 Demdex Cookie 中进行设置（以下示例中为 [adobe.demdex.net](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/reference/demdex-calls.html)）。字段“demdex”即为在浏览器中设置的 AAM UUID（以下示例中为 `50814298273775797762943354787774730612`）。
+1. 加载页面，并选中“应用程序”>“Cookie”。AAM UUID 应在第三方 Demdex Cookie 中进行设置（以下示例中为 [adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hans)）。字段“demdex”即为在浏览器中设置的 AAM UUID（以下示例中为 `50814298273775797762943354787774730612`）。
 
 ![Chrome 开发人员工具](assets/ggogle-uuid.png)
 
 ## 使用 Audience Manager [!UICONTROL 访客资料查看器]
 
-默认情况下，在加载[!UICONTROL 访客资料查看器]时，将使用浏览器中的 AAM UUID。如果验证其他用户的特性实现，请在“UUID”字段中输入 UUID，然后单击“[!UICONTROL 刷新]”。请参阅[访客资料查看器](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/features/visitor-profile-viewer.html)，以了解详细信息。
+默认情况下，在加载[!UICONTROL 访客资料查看器]时，将使用浏览器中的 AAM UUID。如果验证其他用户的特性实现，请在“UUID”字段中输入 UUID，然后单击“[!UICONTROL 刷新]”。请参阅[访客资料查看器](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html)，以了解详细信息。
 
 ![](assets/aam-vpv.png)
 
