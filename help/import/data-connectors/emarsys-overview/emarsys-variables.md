@@ -2,17 +2,19 @@
 description: emarsys 的 Data Connectors 集成使用 Analytics 变量来跟踪不同的 emarsys 量度。
 title: Analytics 变量
 uuid: 4d5e087c-f495-4aab-9ad1-9b901d34a254
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: a59216f2-047b-429b-8714-a2bdaa271911
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 97%
 
 ---
-
 
 # Analytics 变量{#analytics-variables}
 
 emarsys 的 Data Connectors 集成使用 Analytics 变量来跟踪不同的 emarsys 量度。
 
-在确定要与 emarsys 集成一起使用的事件和 eVar 后，在 [Admin Console](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/c-admin-tools.html) 中启用它们。
+在确定要与 emarsys 集成一起使用的事件和 eVar 后，在 [Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/c-admin-tools.html) 中启用它们。
 
 **必需变量**
 
@@ -70,4 +72,3 @@ emarsys 的 Data Connectors 集成使用 Analytics 变量来跟踪不同的 emar
   </tr> 
  </tbody> 
 </table>
-
