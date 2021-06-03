@@ -2,11 +2,10 @@
 description: 添加或管理“服务器调用使用情况”警报。设置警报后，该警报将应用于账单公司旗下的所有登录公司所具有的全部报表包。
 title: “服务器调用使用情况”警报
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
-workflow-type: ht
-source-wordcount: '526'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '524'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 ## 概述
 
-现有的&#x200B;**[!UICONTROL 警报管理]**&#x200B;用户界面中将新增一个警报类别，即[服务器调用使用情况警报](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html)。
+现有的&#x200B;**[!UICONTROL 警报管理]**&#x200B;用户界面中将新增一个警报类别，即[服务器调用使用情况警报](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html)。
 
 该界面中已预填充了 **1 个默认警报**，该默认警报将显示在有权访问“服务器调用使用情况”功能的任何登录公司中。如果满足了以下任一条件，此警报将触发一条发送给所有登录公司管理员的通知消息：
 
