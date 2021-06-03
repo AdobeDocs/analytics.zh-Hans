@@ -1,14 +1,13 @@
 ---
 title: Adobe Analytics 中的全局报表包
 description: 了解使用全局报表包的优势和要求。
-translation-type: tm+mt
-source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
+exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 100%
+source-wordcount: '872'
+ht-degree: 98%
 
 ---
-
 
 # 全局报表包注意事项
 
@@ -42,8 +41,8 @@ ht-degree: 100%
    >
    > 请确保所有给定的自定义变量在各个域中的使用方式均类似。请勿在不同网站上将同一 eVar 或事件用于不同目的。
 1. 请确保每个域都有一个数据层，以便能够简化数据收集流程。如果没有数据层，虽然仍然可以收集数据，但实施的可靠性会降低且使用时间会缩短，在对您的网站进行重新设计时尤其如此。
-1. 使用 Adobe Experience Platform Launch 实施 Analytics。不同的网站可能需要不同的数据元素。请使用特定于每个域的规则以确保正确填充每个数据元素，然后将这些数据元素分配给相应的 eVar 和事件。有关详细信息，请参阅 Adobe Experience Platform Launch 用户指南中的 [Launch 概述](https://docs.adobe.com/content/help/zh-Hans/launch/using/overview.translate.html)。
-1. 包含 [Adobe Experience Cloud ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)，并使用 [appendVisitorIDsTo](https://docs.adobe.com/content/help/zh-Hans/id-service/using/id-service-api/methods/appendvisitorid.html) 函数。当用户从一个域单击到另一个域时，此函数将合并访客数据。
+1. 使用 Adobe Experience Platform Launch 实施 Analytics。不同的网站可能需要不同的数据元素。请使用特定于每个域的规则以确保正确填充每个数据元素，然后将这些数据元素分配给相应的 eVar 和事件。有关详细信息，请参阅 Adobe Experience Platform Launch 用户指南中的 [Launch 概述](https://experienceleague.adobe.com/docs/launch/using/overview.html)。
+1. 包含 [Adobe Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)，并使用 [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html) 函数。当用户从一个域单击到另一个域时，此函数将合并访客数据。
 
 ## 使用全局报表包修改现有的实施
 
