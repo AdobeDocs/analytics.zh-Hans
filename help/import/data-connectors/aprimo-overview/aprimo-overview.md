@@ -2,20 +2,19 @@
 description: 此 Adobe® Data Connectors™ 电子邮件集成将 Adobe Analytics® 中的行为信息与电子邮件营销整合在一起，创建出一款功能强大的工具，通过更相关的消息传送来重新定义成功衡量指标和目标受众。
 title: 适用于 Adobe Analytics 的 Aprimo Data Connector
 uuid: 590ded4b-b250-43b4-9cec-68508b853e00
-translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+exl-id: cd5191c9-68fb-42ad-98f6-23d5a72878da
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 98%
+source-wordcount: '825'
+ht-degree: 97%
 
 ---
-
 
 # 适用于 Adobe Analytics 的 Aprimo Data Connector{#aprimo-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]
 >
->我们将于2021年8月1日终止Adobe数据连接器技术。 [了解更多...](/help/import/data-connectors/data-connectors-eol.md)
+>我们将于2021年8月1日终止AdobeData Connector技术的生命周期。 [了解详情...](/help/import/data-connectors/data-connectors-eol.md)
 
 此 Adobe® Data Connectors™ 电子邮件集成将 Adobe Analytics® 中的行为信息与电子邮件营销整合在一起，创建出一款功能强大的工具，通过更相关的消息传送来重新定义成功衡量指标和目标受众。
 
@@ -72,4 +71,4 @@ ht-degree: 98%
 
 此集成需要 Adobe Analytics 变量才能跟踪量度。
 
-在确定要与此集成一起使用的事件和 eVar 后，必须在 Adobe Analytics Admin Console 中启用它们（有关说明，请参阅[报表包](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/manage-report-suites/report-suites-admin.html)）。
+在确定要与此集成一起使用的事件和 eVar 后，必须在 Adobe Analytics Admin Console 中启用它们（有关说明，请参阅[报表包](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html)）。
