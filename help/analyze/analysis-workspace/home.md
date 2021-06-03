@@ -4,11 +4,10 @@ description: Analysis Workspace 是 Adobe Analytics 的首要分析工具。从�
 feature: Workspace 基础知识
 role: Business Practitioner, Administrator
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '569'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '557'
+ht-degree: 97%
 
 ---
 
@@ -34,11 +33,11 @@ Analysis Workspace 是一款通过浏览器即可使用的灵活工具，可让�
 
 ## 创建新项目 {#new-project}
 
-完成教程后，您就可以开始构建您的第一个项目。**“新项目模式”**&#x200B;提供了多种不同选项来开始您的分析。您可以选择从空白项目或[空白移动记分卡](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/mobapp/curator.html)开始，具体取决于您计划从浏览器还是从 Adobe Analytics 功能板移动应用程序共享您的分析。
+完成教程后，您就可以开始构建您的第一个项目。**“新项目模式”**&#x200B;提供了多种不同选项来开始您的分析。您可以选择从空白项目或[空白移动记分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html)开始，具体取决于您计划从浏览器还是从 Adobe Analytics 功能板移动应用程序共享您的分析。
 
 ![](assets/create-new-project.png)
 
-您还可以从预建&#x200B;**“模板”**&#x200B;开始分析，这些模板可以是 Adobe 提供的标准模板，也可以是您的组织创建的自定义模板。根据您所考虑的分析或用例，有多个不同的模板可用。[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)关于可用的不同模板选项。
+您还可以从预建&#x200B;**“模板”**&#x200B;开始分析，这些模板可以是 Adobe 提供的标准模板，也可以是您的组织创建的自定义模板。根据您所考虑的分析或用例，有多个不同的模板可用。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hans)关于可用的不同模板选项。
 
 ## 构建分析 {#analysis}
 
@@ -46,23 +45,23 @@ Analysis Workspace 是一款通过浏览器即可使用的灵活工具，可让�
 
 ### 组件
 
-**“组件”**&#x200B;包含维度、量度、区段或日期范围，所有这些组件都可以合并到一个&#x200B;**[!UICONTROL 自由格式表]**&#x200B;中，以便开始回答您的业务问题。请务必先熟悉每个[组件类型](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)，然后再开始投入分析。掌握组件术语后，即可开始拖放至&#x200B;**[!UICONTROL 自由格式表]**&#x200B;以[构建分析](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html)。
+**“组件”**&#x200B;包含维度、量度、区段或日期范围，所有这些组件都可以合并到一个&#x200B;**[!UICONTROL 自由格式表]**&#x200B;中，以便开始回答您的业务问题。请务必先熟悉每个[组件类型](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)，然后再开始投入分析。掌握组件术语后，即可开始拖放至&#x200B;**[!UICONTROL 自由格式表]**&#x200B;以[构建分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html)。
 
 ![](assets/build-components.png)
 
 ### 可视化图表
 
-接下来，将&#x200B;**“可视化图表”**（例如条形图或折线图）添加到数据的顶部，以便更加直观地将数据呈现出来。在最左侧的边栏中，选择中间的&#x200B;**[!UICONTROL 可视化]**&#x200B;图标，以查看所有可用的[可视化图表](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)。
+接下来，将&#x200B;**“可视化图表”**（例如条形图或折线图）添加到数据的顶部，以便更加直观地将数据呈现出来。在最左侧的边栏中，选择中间的&#x200B;**[!UICONTROL 可视化]**&#x200B;图标，以查看所有可用的[可视化图表](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hans)。
 
 ![](assets/build-visualizations.png)
 
 ### 面板
 
-**“面板”**&#x200B;可以包含许多表格和可视化图表，用于在项目中对分析进行组织和整理。Analysis Workspace 中提供的许多面板都可以基于一些用户输入来生成整套分析。在最左侧的边栏中，选择顶部的&#x200B;**[!UICONTROL 面板]**&#x200B;图标，以查看所有可用的[面板](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/panels.html)。
+**“面板”**&#x200B;可以包含许多表格和可视化图表，用于在项目中对分析进行组织和整理。Analysis Workspace 中提供的许多面板都可以基于一些用户输入来生成整套分析。在最左侧的边栏中，选择顶部的&#x200B;**[!UICONTROL 面板]**&#x200B;图标，以查看所有可用的[面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hans)。
 
 ![](assets/build-panels.png)
 
 ## 其他资源 {#resources}
 
-* Adobe 提供了大量的 [Analytics 视频培训教程](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/overview.html)。
+* Adobe 提供了大量的 [Analytics 视频培训教程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html)。
 * 请参阅 [Analysis Workspace 中的新增功能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)以获取新增功能的最新信息。
