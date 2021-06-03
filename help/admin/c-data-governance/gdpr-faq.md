@@ -3,11 +3,10 @@ description: Adobe Analytics 数据管理常见问题解答
 title: 常见问题解答
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1806'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1804'
+ht-degree: 99%
 
 ---
 
@@ -53,7 +52,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>当涉及到数据隐私时，数据控制者应该如何考虑数据保留？</b> </p> </td> 
-   <td colname="col2"> <p>通常，数据隐私法规定个人数据的保留时间不应超过为实现收集目的所需的时间。 </p> <p>正如 Adobe 在 2 月份客户沟通会上详细阐明的那样，除非已对客户履行了其他安排（根据客户的通知和授权），否则我们将为大多数客户实施 25 个月的数据保留计划。客户需要先设置其数据保留策略，然后 Adobe 才可以处理数据隐私请求。 </p> <p>Adobe Analytics 要求客户设置其数据保留策略以处理其数据隐私请求。每个报表包的当前数据保留策略都显示在新的数据管理管理员 UI 中。如果客户需要调整其数据保留策略，则应联系其 Adobe 代表。请参阅 <a href="https://docs.adobe.com/content/help/zh-Hans/analytics/technotes/latency.html">Adobe Analytics 数据保留常见问题解答</a>。 </p> </td> 
+   <td colname="col2"> <p>通常，数据隐私法规定个人数据的保留时间不应超过为实现收集目的所需的时间。 </p> <p>正如 Adobe 在 2 月份客户沟通会上详细阐明的那样，除非已对客户履行了其他安排（根据客户的通知和授权），否则我们将为大多数客户实施 25 个月的数据保留计划。客户需要先设置其数据保留策略，然后 Adobe 才可以处理数据隐私请求。 </p> <p>Adobe Analytics 要求客户设置其数据保留策略以处理其数据隐私请求。每个报表包的当前数据保留策略都显示在新的数据管理管理员 UI 中。如果客户需要调整其数据保留策略，则应联系其 Adobe 代表。请参阅 <a href="https://experienceleague.adobe.com/docs/analytics/technotes/latency.html">Adobe Analytics 数据保留常见问题解答</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>客户能否缩短或延长默认的数据保留期限？</b> </p> </td> 
