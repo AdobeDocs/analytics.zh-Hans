@@ -4,10 +4,10 @@ title: 常见问题解答
 feature: 分段
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
 workflow-type: tm+mt
-source-wordcount: '2072'
-ht-degree: 99%
+source-wordcount: '2071'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 
    * 您可以[比较区段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)。
    * 在比较中使用[区段作为维度](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)。
-   * 在[流失分析](https://docs.adobe.com/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)中使用区段。
+   * 在[流失分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)中使用区段。
 
 * 您可以[将多个区段应用于一个报表或项目](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
 * 区段对于所有报表包都是通用的。
