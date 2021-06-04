@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 集成指南
 breadcrumb-title: 集成指南
 user-guide-description: 配置与其他 Adobe Experience Cloud 解决方案（如 Audience Manager、Advertising Cloud 和 Target）的集成。
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 93%
+source-wordcount: '159'
+ht-degree: 88%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 93%
    + [Audience Analytics 概述](c-audience-analytics/mc-audiences-aam.md)
    + Audience Analytics 工作流程 {#audience-analytics-workflow}
       + [工作流程概述](c-audience-analytics/c-workflow/audiences-workflow.md)
-      + [创建 Analytics 目标 - AAM 指南](https://docs.adobe.com/help/zh-Hans/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.translate.html)
+      + [创建 Analytics 目标 - AAM 指南](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
       + [在 Analytics 中使用受众数据](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Audience Analytics 用例](c-audience-analytics/aam-audience-use-cases.md)
       + [常见问题解答](c-audience-analytics/mc-audiences-faqs.md)
