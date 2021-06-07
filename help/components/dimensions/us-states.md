@@ -2,11 +2,10 @@
 title: 美国各州
 description: 访客所在的美国州。
 exl-id: d4506e59-c1ff-4348-912d-c1ad73278f56
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '368'
-ht-degree: 100%
+source-git-commit: 9770f8e04089ff339d912d1787679257c87c7caa
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,10 +16,6 @@ ht-degree: 100%
 ## 使用数据填充此维度
 
 此维度引用 Adobe 内部的查找规则。查找值基于随点击发送的 IP 地址。Adobe 与 [Digital Element](https://www.digitalelement.com/) 合作，共同维护 IP 地址与国家/地区之间的查找服务。此维度可开箱即用于所有实施。
-
->[!TIP]
->
->如果您的组织遵循严格的隐私法规，但[模糊处理 IP 地址](/help/admin/admin/general-acct-settings-admin.md)力度不够，则可以请求完全禁用地理位置数据。使用报表包 ID 联系客户关怀，并请求关闭报表包的“地理位置”。
 
 ## 维度项目
 
