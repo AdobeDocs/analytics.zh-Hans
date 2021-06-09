@@ -5,9 +5,9 @@ title: 转化变量 (eVar)
 feature: 管理工具
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 2501d0a7b9e11569dc9feb3da378d445f72bef3d
+source-git-commit: 212f9c66e2916e629693bf4bf61e767af164900a
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1587'
 ht-degree: 84%
 
 ---
@@ -62,7 +62,7 @@ eVar 最适合用于度量原因和影响，例如：
 
 **区分大小写**
 
-报表中使用的大小写大小写基于后端系统注册的第一个值。 此值可能是第一次出现，也可能在某个时段（例如每月）发生变化，具体取决于与报表包关联的数据的种类和数量。
+eVar不区分大小写。 报表中使用的大小写大小写基于后端系统注册的第一个值。 此值可能是第一次出现，也可能在某个时段（例如每月）发生变化，具体取决于与报表包关联的数据的种类和数量。
 
 **计数器**
 
