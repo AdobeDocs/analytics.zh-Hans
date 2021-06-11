@@ -4,11 +4,10 @@ audience: all
 user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
 user-guide-description: '自定义收集哪些数据，以便让 Adobe Analytics 得到充分利用。 '
-translation-type: tm+mt
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 100%
+source-wordcount: '379'
+ht-degree: 99%
 
 ---
 
@@ -53,29 +52,29 @@ ht-degree: 100%
       + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
    + 页面变量 {page-vars}
       + [页面变量概述](vars/page-vars/page-variables.md)
-      + [campaign](vars/page-vars/campaign.md)
-      + [channel](vars/page-vars/channel.md)
+      + [营销活动](vars/page-vars/campaign.md)
+      + [渠道](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
       + [动态变量](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
-      + [eVar（推销）](vars/page-vars/evar-merchandising.md)
-      + events {#events}
+      + [eVar（促销）](vars/page-vars/evar-merchandising.md)
+      + 事件 {#events}
          + [事件概述](vars/page-vars/events/events-overview.md)
          + [购买事件](vars/page-vars/events/event-purchase.md)
          + [事件序列化](vars/page-vars/events/event-serialization.md)
-      + [(hier)](vars/page-vars/hier.md)
+      + [hier](vars/page-vars/hier.md)
       + [list](vars/page-vars/list.md)
       + [pageName](vars/page-vars/pagename.md)
       + [pageType](vars/page-vars/pagetype.md)
-      + [pageUrl](vars/page-vars/pageurl.md)
-      + [products](vars/page-vars/products.md)
+      + [pageURL](vars/page-vars/pageurl.md)
+      + [产品](vars/page-vars/products.md)
       + [prop](vars/page-vars/prop.md)
       + [purchaseID](vars/page-vars/purchaseid.md)
       + [referrer](vars/page-vars/referrer.md)
       + [s_objectID](vars/page-vars/s-objectid.md)
       + [server](vars/page-vars/server.md)
-      + [state](vars/page-vars/state.md)
-      + [timestamp](vars/page-vars/timestamp.md)
+      + [状态](vars/page-vars/state.md)
+      + [时间戳](vars/page-vars/timestamp.md)
       + [transactionID](vars/page-vars/transactionid.md)
       + [zip](vars/page-vars/zip.md)
    + 函数和方法 {#functions}
@@ -127,22 +126,23 @@ ht-degree: 100%
 + 准备实施 Adobe Analytics {#prepare}
    + [创建数据层](prepare/data-layer.md)
    + [全局报表包注意事项](prepare/global-rs.md)
-   + [“实施”模式窗口](prepare/implementation-modal.md)
+   + [实施多包标记](prepare/multi-suite-tagging.md)
+   + [“实施”模式](prepare/implementation-modal.md)
    + [创建解决方案设计文档](prepare/solution-design.md)
    + [负责现有的 Adobe Analytics 实施](prepare/existing-implementation.md)
 + 使用 JavaScript 实施 Analytics {#js}
    + [JavaScript 概述](js/overview.md)
    + [实施选择退出链接](js/opt-out.md)
    + [变量覆盖](js/overrides.md)
-   + [从 H 代码迁移](js/migrate-from-hcode.md)
-   + H 代码 {#h-code}
-      + [H 代码概述](js/h-code/overview.md)
+   + [从 H 码迁移](js/migrate-from-hcode.md)
+   + H 码 {#h-code}
+      + [H 码概述](js/h-code/overview.md)
       + 动态帐户 {#dynamicaccount}
          + [动态帐户概述](js/h-code/dynamicaccount/overview.md)
          + [dynamicAccountList](js/h-code/dynamicaccount/dynamicaccountlist.md)
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
          + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
-      + [H 代码疑难解答](js/h-code/troubleshooting.md)
+      + [H 码疑难解答](js/h-code/troubleshooting.md)
    + 旧版跨设备识别功能 {#xdevice-visid}
       + [“跨设备连接用户”概述](js/xdevice-visid/xdevice-connecting.md)
       + [变量持久性](js/xdevice-visid/variable-persistence.md)
@@ -169,14 +169,14 @@ ht-degree: 100%
    + [跨不同的实施类型跟踪](use-cases/cross-type-implementation.md)
    + [外部电子邮件跟踪](use-cases/email-external.md)
 + 验证实施 {#validate}
-   + [旧版 Adobe Experience Cloud 调试器](validate/debugger.md)
+   + [旧版 Adobe Experience Cloud Debugger](validate/debugger.md)
    + [数据收集查询参数](validate/query-parameters.md)
-   + [数据包监视工具](validate/packet-monitor.md)
+   + [数据包监视器](validate/packet-monitor.md)
    + [哈希冲突](validate/hash-collisions.md)
 + [常见问题解答](faq.md)
-+ 审核实施 {#review}
-   + [重点审核（每个网站发布后）](review/focused-review.md)
-   + [全面审核（每 6 个月）](review/full-review.md)
++ 审查实施 {#review}
+   + [重点审查（每个网站发布后）](review/focused-review.md)
+   + [全面审查（每 6 个月）](review/full-review.md)
    + [定义您的 5 大 KPI](review/define-kpis.md)
 + 在 Analytics 中使用 XDM 数据 {#aep-edge}
    + [使用 AEP Web SDK](aep-edge/xdmoverview.md)
