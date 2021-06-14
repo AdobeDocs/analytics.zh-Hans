@@ -1,19 +1,19 @@
 ---
-title: post_product_list中的促销eVar实例查找
-description: 在数据馈送的post_product_list列中查找每个查找值的促销eVar实例。
+title: post_product_list 中的促销 eVar 实例查找
+description: 为数据馈送的 post_product_list 列中的每个查找值查找促销 eVar 实例。
 exl-id: null
 source-git-commit: dd2ac690e4c5ed4337ab29302500079f72bed448
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '579'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
-# post_product_list中的促销eVar实例查找
+# post_product_list 中的促销 eVar 实例查找
 
-在数据馈送中，[post_product_list](datafeeds-reference.md)列可能包含促销eVar实例。 每个eVar都由一个数字表示。
+在数据馈送中，[post_product_list](datafeeds-reference.md) 列可能包含促销 eVar 实例。每个 eVar 都由一个数字表示。
 
-post_product_list的促销eVar实例查找与数据馈送中的event_list查找列不同。
+post_product_list 的促销 eVar 实例查找与数据馈送中的 event_list 查找列不同。
 
 | 查找值 | 促销实例 |
 |--- |--- |
@@ -49,7 +49,7 @@ post_product_list的促销eVar实例查找与数据馈送中的event_list查找�
 | 130 | eVar30 |
 | 131 | eVar31 |
 | 132 | eVar32 |
-| 133 | eVar13 |
+| 133 | eVar33 |
 | 134 | eVar34 |
 | 135 | eVar35 |
 | 136 | eVar36 |
@@ -89,7 +89,7 @@ post_product_list的促销eVar实例查找与数据馈送中的event_list查找�
 | 170 | eVar70 |
 | 171 | eVar71 |
 | 172 | eVar72 |
-| 173 | eVar53 |
+| 173 | eVar73 |
 | 174 | eVar74 |
 | 175 | eVar75 |
 | 275 | eVar76 |
