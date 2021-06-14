@@ -2,7 +2,7 @@
 title: 为数字助理实施 Analytics
 description: 在数字助理（如 Amazon Alexa 或 Google Home）上实施 Adobe Analytics。
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 99%
@@ -46,7 +46,7 @@ ht-degree: 99%
 
 ```text
 GET
-/b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=2017-04-24&c.a.AppID=Spoofify1.0&c.OSType=Alexa&pageName=install
+/b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=2017-04-24&c.a.AppID=Spoofify1.0&c.OSType=Alexa&pageName=install
 HTTP/1.1
 Host:
 <xref href="https://example.data.adobedc.net">
@@ -60,13 +60,13 @@ Host:
 贵组织可能希望使用适用于多个平台的应用程序。最佳实践是在每个请求中各包含一个应用程序 ID。此变量可以在 `a.AppID` 上下文数据变量中进行设置。格式应遵循 `[AppName] [BundleVersion]`，例如 BigMac for Alexa 1.2：
 
 ```text
-GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.Launches=1&c.Product=AmazonEcho&c.OSType=Alexa&pageName=install  HTTP/1.1
+GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.Launches=1&c.Product=AmazonEcho&c.OSType=Alexa&pageName=install  HTTP/1.1
 Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
 ```text
-GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify2.0&c.a.Launches=1&c.Product=GoogleHome&c.OSType=Android&pageName=install  HTTP/1.1
+GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify2.0&c.a.Launches=1&c.Product=GoogleHome&c.OSType=Android&pageName=install  HTTP/1.1
 Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
@@ -78,7 +78,7 @@ Adobe Analytics 可使用 [Adobe Experience Cloud Identity Service](https://expe
 当您跨不同设备（例如从 Web 到数字助理）映射 ECID 时，使用 ID 服务能发挥最大作用。如果您的应用程序是移动设备应用程序，请按原样使用 Experience Platform SDK，然后使用 `setCustomerID` 方法发送用户 ID。但是，如果您的应用程序是一项服务，请使用该服务提供的用户 ID 作为 ECID，并在 `setCustomerID` 中对其进行设置。
 
 ```text
-GET /b/ss/examplersid/1?vid=[UserID]&pageName=[intent]  HTTP/1.1
+GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&pageName=[intent]  HTTP/1.1
 Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
@@ -101,7 +101,7 @@ Cache-Control: no-cache
 2. **发送新会话或启动事件**：将首个响应发送至 Analytics 时，包括启动事件。通常，可以通过设置 `a.LaunchEvent=1` 上下文数据来发送此响应。
 
 ```text
-GET /b/ss/examplersid/1?vid=[UserID]&c.a.LaunchEvent=1&c.Intent=[intent]&pageName=[intent]  HTTP/1.1
+GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.LaunchEvent=1&c.Intent=[intent]&pageName=[intent]  HTTP/1.1
 Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
@@ -115,7 +115,7 @@ Cache-Control: no-cache
 通过将其中每个请求作为 eVar 发送，您将能够对会话应用程序的每个意图运行路径报表。此外，请确保您的应用程序可以处理无意图的请求。Adobe 建议将“未指定意图”传入给意图上下文数据变量，而不是忽略变量。
 
 ```text
-GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
+GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
 Host: example.sc.adobedc.net
 Cache-Control: no-cache
 ```
@@ -123,7 +123,7 @@ Cache-Control: no-cache
 或
 
 ```text
-GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=No_Intent_Specified&pageName=[intent]  HTTP/1.1
+GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=No_Intent_Specified&pageName=[intent]  HTTP/1.1
 Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
@@ -139,7 +139,7 @@ Cache-Control: no-cache
 通常情况下，应用程序中的这些值的数量有限。要在 Analytics 中跟踪这些值，可将这些值发送到上下文数据变量，然后将每个参数分别映射到一个 eVar。
 
 ```text
-GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0=1&c.a.LaunchEvent=1&c.Intent=SendPayment&c.Amount=20.00&c.Reason=Dinner&c.ReceivingPerson=John&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
+GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0=1&c.a.LaunchEvent=1&c.Intent=SendPayment&c.Amount=20.00&c.Reason=Dinner&c.ReceivingPerson=John&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
 Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
@@ -151,7 +151,7 @@ Cache-Control: no-cache
 若出现这种情况，请让应用程序请求数字助理做出澄清说明。此外，还要向 Adobe 发送相应数据以指示应用程序出现错误状态，并同时发送用于指定所发生错误类型的 eVar。请务必包括输入内容不正确和应用程序遇到问题等错误。
 
 ```text
-GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.Error=1&c.ErrorName=InvalidCurrency&pageName=[intent]  HTTP/1.1
+GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.Error=1&c.ErrorName=InvalidCurrency&pageName=[intent]  HTTP/1.1
 Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
@@ -171,10 +171,10 @@ Cache-Control: no-cache
 
 | 人员 | 设备响应 | 操作/意图 | GET 请求 |
 |---|---|---|---|
-| 安装 Spoofify | 无响应 | 安装 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| 播放 Spoofify | “好的，正在播放 Spoofify” | 播放 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| 更改歌曲 | “好的，您想要听哪首歌曲？” | 更改歌曲 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| 请播放“Baby Shark” | “好的，正在播放 PinkFong 的‘Baby Shark’” | 更改歌曲 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| 更改播放列表 | “好的，您想要使用哪个播放列表？” | 更改播放列表 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| 请播放我最喜爱的歌曲播放列表 | “好的，正在播放您最喜爱的歌曲播放列表” | 更改播放列表 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| 关闭音乐 | 无响应，音乐关闭 | 关 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| 安装 Spoofify | 无响应 | 安装 | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| 播放 Spoofify | “好的，正在播放 Spoofify” | 播放 | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| 更改歌曲 | “好的，您想要听哪首歌曲？” | 更改歌曲 | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| 请播放“Baby Shark” | “好的，正在播放 PinkFong 的‘Baby Shark’” | 更改歌曲 | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| 更改播放列表 | “好的，您想要使用哪个播放列表？” | 更改播放列表 | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| 请播放我最喜爱的歌曲播放列表 | “好的，正在播放您最喜爱的歌曲播放列表” | 更改播放列表 | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| 关闭音乐 | 无响应，音乐关闭 | 关 | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
