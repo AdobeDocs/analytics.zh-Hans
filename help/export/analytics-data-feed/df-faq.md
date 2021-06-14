@@ -82,7 +82,7 @@ Adobe 建议不要自动在 Microsoft Excel 中打开 `hit_data.tsv` 文件。�
 
 验证/更正了交付问题后，请重新运行作业以获取文件。
 
-## 什么是 Amazon S3 数据馈送的 BucketOwnerFullControl？ {#BucketOwnerFullControl}
+## 什么是 Amazon S3 数据馈送的 BucketOwnerFullControl 设置？ {#BucketOwnerFullControl}
 
 **BucketOwnerFullControl** 可以提供在其他存储桶中创建对象的跨帐户权限。
 
