@@ -3,9 +3,9 @@ title: “报表包工具”的产品配置文件权限
 description: 了解“报表包工具”下面的每个权限项。
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -42,15 +42,15 @@ ht-degree: 87%
 | 数据馈送管理器 | 授予对 Analytics 顶部导航栏中“管理员”>“数据馈送”的访问权限。 |
 | 自定义 Data Warehouse 报表 | 授予对 Analytics 顶部导航栏中“工具”>“Data Warehouse”的访问权限。 |
 | 每日回访 | 授予对 Reports &amp; Analytics 中“访客维系”>“每日回访”的访问权限。 |
-| 数据源管理器 | 授予对Analytics顶部导航栏中“管理员”>“所有管理员”>“数据源”的访问权限。 需要使用权限项“报表包管理”。 |
+| 数据源管理器 | 授予对 Analytics 顶部导航栏中“管理员”>“所有管理员”>“数据源”的访问权限。需要使用权限项“报表包管理”。 |
 | 按 IP 地址排除 | 授予对 Analytics 顶部导航栏中“管理员”>“按 IP 排除”的访问权限。 |
 | 回访 | 授予对 Reports &amp; Analytics 中“访客维系”>“回访”的访问权限。 |
 | 分类 | 授予对报表包管理器中所有分类设置的访问权限。此权限项包含：<br>流量 > 流量分类<br>转化 > 转化分类<br>转化 > 分类层次结构<br>营销渠道 > 营销渠道分类<br>应用程序管理 > 应用程序分类<br>媒体管理 > 媒体分类<br>AEM > AEM Assets 分类<br>Adobe Campaign > Adobe 分类 |
 | 我的推荐报表 | 授予对 Reports &amp; Analytics 中“网站指标”>“我的推荐报表”的访问权限。 |
-| Reports &amp; Analytics功能板图像缩图报表 | 授予对功能板缩图报表的访问权限。 |
-| Reports &amp; Analytics功能板量规缩图报表 | 授予对功能板缩图报表的访问权限。 |
-| Reports &amp; Analytics功能板报表包摘要缩图报表 | 授予对功能板缩图报表的访问权限。 |
-| Reports &amp; Analytics功能板文本缩图报表 | 授予对功能板缩图报表的访问权限。 |
-| Reports &amp; Analytics功能板报表包摘要缩图报表 | 授予对功能板缩图报表的访问权限。 |
-| Reports &amp; Analytics功能板外部缩图报表 | 授予对功能板缩图报表的访问权限。 |
+| Reports &amp; Analytics 功能板图像小型报表 | 授予对功能板小型报表的访问权限。 |
+| Reports &amp; Analytics 功能板量规报表 | 授予对功能板小型报表的访问权限。 |
+| Reports &amp; Analytics 功能板报表包摘要小型报表 | 授予对功能板小型报表的访问权限。 |
+| Reports &amp; Analytics 功能板文本小型报表 | 授予对功能板小型报表的访问权限。 |
+| Reports &amp; Analytics 功能板报表包摘要小型报表 | 授予对功能板小型报表的访问权限。 |
+| Reports &amp; Analytics 功能板外部小型报表 | 授予对功能板小型报表的访问权限。 |
 | 数据修复 API | 授予对数据修复 API 的访问权 |
