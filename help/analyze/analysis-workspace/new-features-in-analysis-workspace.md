@@ -8,7 +8,7 @@ exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '8283'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 97%
 
 | 功能 | 目标日期 | 描述 |
 | --- | --- | --- |
-| [!UICONTROL 组件] >用户 [!UICONTROL 首选项] | 2021 年 3 月 25 日 | 通过[!UICONTROL “组件”]>[!UICONTROL “用户首选项”]页面可为用户管理 [!UICONTROL Analysis Workspace] 设置及其相关的组件。[!UICONTROL “用户首选项”]适用于所有新的项目和面板。<br>**注意：**&#x200B;以下设置已移至[!UICONTROL “用户首选项”]页面：<ul><li>报表设置：千位分隔符（现在称为&#x200B;_“数字格式”_）</li><li>报表设置：CSV 分隔符</li><li>Workspace 项目：“帮助”>“启用提示”</li><li>Workspace 项目：空白面板的&#x200B;_“用此面板开始新项目”_&#x200B;选项</li></ul> |
-| [!UICONTROL 直方图智能存储段预测] | 2021 年 3 月 25 日 | [!UICONTROL “直方图智能存储桶预测”]帮助高势指标直方图为您的数据分布自动识别存储桶的合适宽度和数量。对于低势指标，可视化的表现与以前相同。 |
+| [!UICONTROL 组件] > [!UICONTROL 用户首选项] | 2021 年 3 月 25 日 | 通过[!UICONTROL “组件”]>[!UICONTROL “用户首选项”]页面可为用户管理 [!UICONTROL Analysis Workspace] 设置及其相关的组件。[!UICONTROL “用户首选项”]适用于所有新的项目和面板。<br>**注意：**&#x200B;以下设置已移至[!UICONTROL “用户首选项”]页面：<ul><li>报表设置：千位分隔符（现在称为&#x200B;_“数字格式”_）</li><li>报表设置：CSV 分隔符</li><li>Workspace 项目：“帮助”>“启用提示”</li><li>Workspace 项目：空白面板的&#x200B;_“用此面板开始新项目”_&#x200B;选项</li></ul> |
+| [!UICONTROL 直方图智能存储桶预测] | 2021 年 3 月 25 日 | [!UICONTROL “直方图智能存储桶预测”]帮助高势指标直方图为您的数据分布自动识别存储桶的合适宽度和数量。对于低势指标，可视化的表现与以前相同。 |
 
 ## 2021 年 2 月
 
 | 功能 | 目标日期 | 描述 |
 | --- | --- | --- |
-| 组件选择 | 2021 年 2 月 4 日 | 在[!UICONTROL “快速分析”]中发现的下拉/拖放区域组件将会添加到[!UICONTROL 工作区]内的所有拖放区域中。 通过此增强功能，您可以从兼容组件的下拉列表中进行选择，或继续将空间用作拖放区域。 |
+| 组件选择 | 2021 年 2 月 4 日 | 在[!UICONTROL “快速分析”]中发现的下拉/拖放区域组件将会添加到[!UICONTROL 工作区]内的所有拖放区域中。通过此增强功能，您可以从兼容组件的下拉列表中进行选择，或继续将空间用作拖放区域。 |
 
 ## 2021 月 1 日
 
@@ -435,7 +435,7 @@ ht-degree: 97%
    <td colname="col2"> <p>对于最近发布的自定义模版，我们已 </p> 
     <ul id="ul_787F48253F454163B99F6DD50F199FE2"> 
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">在项目的顶部（标题附近）添加了模板图标，以帮助将编辑模板模式与使用模板作为项目起始点区分开来。 </li> 
-     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">允许非管理员创建（另存为）并编辑工作区项目模板，前提是他们获得了在 Analysis Workspace 中创建/策划项目的权限。(<span class="ignoretag"> <span class="uicontrol">管理员</span> &gt; <span class="uicontrol">所有管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">组</span> &gt; <span class="uicontrol">编辑所有报表访问</span> &gt; <span class="uicontrol">自定义Analytics工具</span> &gt; <span class="uicontrol">在Analysis Workspace中创建/策划项目</span> </span>)。 </li> 
+     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">允许非管理员创建（另存为）并编辑工作区项目模板，前提是他们获得了在 Analysis Workspace 中创建/策划项目的权限。（<span class="ignoretag"> <span class="uicontrol">管理员</span> &gt; <span class="uicontrol">所有管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">群组</span> &gt; <span class="uicontrol">编辑所有报表访问权限</span> &gt; <span class="uicontrol">自定义 Analytics 工具</span> &gt; <span class="uicontrol">在 Analysis Workspace 中创建/策划项目</span></span>）。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -545,7 +545,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> <p>贡献分析：<a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  >令牌通知 </a> </p> </td> 
-   <td colname="col2"> <p>如果贵公司的贡献分析令牌数量有限，则您每次用掉一个令牌后 Analysis Workspace UI 中会显示相关通知。这可以让您知晓还剩下多少令牌。&amp;nbsp; </p> <p>（管理员用户：您可以通过编辑群组权限，对能够使用令牌的人员进行限制。此权限称为“异常检测和贡献分析”，位于<span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol">管理员</span> &gt; <span class="uicontrol">所有管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">编辑群组</span> &gt; <span class="uicontrol">编辑所有报表访问权限</span> &gt; <span class="uicontrol">自定义报表包工具</span> &gt; <span class="uicontrol">和工具</span>.)  </p> </td> 
+   <td colname="col2"> <p>如果贵公司的贡献分析令牌数量有限，则您每次用掉一个令牌后 Analysis Workspace UI 中会显示相关通知。这可以让您知晓还剩下多少令牌。&amp;nbsp; </p> <p>（管理员用户：您可以通过编辑群组权限，对能够使用令牌的人员进行限制。此权限称为“异常检测和贡献分析”，位于<span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol">管理员</span> &gt; <span class="uicontrol">所有管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">编辑群组</span> &gt; <span class="uicontrol">编辑所有报表访问权限</span> &gt; <span class="uicontrol">自定义报表包工具</span> &gt; <span class="uicontrol">工具和报表</span>下。）  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CSV 文件可包含多字节字符 </p> </td> 
@@ -1091,7 +1091,7 @@ ht-degree: 97%
 
 * [撤消操作](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_12890C393D5E4FC8A3CF050318BD8482)
 * [链接至此项目](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_453E70F7409F4501B8E976A0D18C9A46)
-* [项目符号图表、散点图和树图可视化图表](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_B19EA50EBF5546E99D3A142827153FD6)
+* [项目符号图表、散点图和树形图可视化图表](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_B19EA50EBF5546E99D3A142827153FD6)
 * [针对区段、量度和日期的另存为功能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_04C8B10A0751453AAE5F1BC35938C6CE)
 * [“添加新区段”按钮](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_85CC88C02C79456EA2B41F2BFBB64FC4)
 * [条件格式](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_5775B505D83041408B8C3EAEC5D7C32B)
@@ -1135,7 +1135,7 @@ ht-degree: 97%
 >
 >如果您的公司使用单点登录（旧版单点登录和通过 Experience Cloud 登录），则共享报表链接不可用。
 
-## 项目符号图表、散点图和树图可视化图表 {#section_B19EA50EBF5546E99D3A142827153FD6}
+## 项目符号图表、散点图和树形图可视化图表 {#section_B19EA50EBF5546E99D3A142827153FD6}
 
 以下新的可视化图表将在 2016 年 1 月发行的版本中提供。
 
@@ -1157,13 +1157,13 @@ ht-degree: 97%
 >
 >与散点图图表关联的表需要至少两列。第一列定义 X 轴，第二列定义 Y 轴。如果存在第三列，那么散点图图表可使用它来决定点的半径。换言之，列 *1*、*2* 和 *3* 映射到 *X*、*Y* 和&#x200B;*点半径*。
 
-**树图**
+**树形图**
 
 将分层（树结构）数据显示为一组嵌套的矩形。树上的每个分支都被给予一个矩形，然后为其贴上代表子分支的更小矩形。
 
 ![](assets/treemap.png)
 
-当颜色和大小维度以某种方式与树结构关联时，用户通常可以轻松地查看平时很难以其他方式见到的模式，例如当有某个颜色特别重要时。树图的第二个优势在于，它们可以通过精心的构建有效地利用空间。
+当颜色和大小维度以某种方式与树结构关联时，用户通常可以轻松地查看平时很难以其他方式见到的模式，例如当有某个颜色特别重要时。树形图的第二个优势在于，它们可以通过精心的构建有效地利用空间。
 
 ## 针对区段、量度和日期的另存为功能 {#section_04C8B10A0751453AAE5F1BC35938C6CE}
 
@@ -1249,4 +1249,4 @@ ht-degree: 97%
 
 管理员可以将 [!UICONTROL Analysis Workspace] 项目从一名用户转移到另一用户。
 
-导航到&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 转移]**&#x200B;以转移项目。
+导航到&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 转移]**，以转移项目。
