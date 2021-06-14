@@ -1,19 +1,19 @@
 ---
-title: 旧版 Adobe Experience Cloud 调试器
-description: 安装旧版 Adobe Experience Cloud 调试器。此调试器会检查Analytics、Target、Advertising Cloud、Identity Service和Launch的标记。
+title: 旧版 Adobe Experience Cloud Debugger
+description: 安装旧版 Adobe Experience Cloud Debugger。此调试器可检查 Analytics、Target、Advertising Cloud、Identity Service 和 Launch 的标签。
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '684'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 旧版 Adobe Experience Cloud 调试器
+# 旧版 Adobe Experience Cloud Debugger
 
 >[!IMPORTANT]
 >
-> Adobe 将不再维护此调试工具。Adobe 建议改用 [Adobe Experience Cloud 调试器 Chrome 扩展](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)。
+> Adobe 将不再维护此调试工具。Adobe 建议改用 [Adobe Experience Cloud Debugger Chrome 扩展](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)。
 
 [!UICONTROL 旧版调试器]可检查大多数 Adobe Experience Cloud 服务的标签。通过使用该调试器，您可以查看在网站上的任何给定页面向 Adobe 发送了哪些数据。您可以使用此信息对贵组织的实施进行故障诊断或验证。
 
@@ -39,14 +39,14 @@ javascript:void(window.open("","stats_debugger","width=800,height=800,location=0
 
 1. 单击右上方的三个圆点，然后转到“书签”>“书签管理器”。此外，您还可以按 `Ctrl` + `Shift` + `O` (Windows) 或 `Cmd` + `Shift` + `O` (Mac)。
 2. 在书签管理器的右上方，单击三个圆点，然后单击“添加新书签”。
-3. 在“名称”字段中，将其标记为“Adobe Experience Cloud 调试器”，然后将相应的代码段粘贴到“URL”字段中。
+3. 在“名称”字段中，将其标记为“Adobe Experience Cloud Debugger”，然后将相应的代码段粘贴到“URL”字段中。
 4. 使用书签管理器将新建的小书签放在所需位置。
 
 #### Firefox
 
 1. 单击右上方的三条横线，然后转到“库”>“书签”>“显示所有书签”。此外，您还可以按 `Ctrl` + `Shift` + `B` (Windows) 或 `Cmd` + `Shift` + `B` (Mac)。
 2. 单击“组织”>“新建书签”。
-3. 在“名称”字段中，将其标记为“Adobe Experience Cloud 调试器”，然后将相应的代码段粘贴到“位置”字段中。“标签”和“关键字”字段不是必填字段。
+3. 在“名称”字段中，将其标记为“Adobe Experience Cloud Debugger”，然后将相应的代码段粘贴到“位置”字段中。“标签”和“关键字”字段不是必填字段。
 4. 使用库窗口将新建的小书签放在所需位置。
 
 #### Edge
@@ -54,7 +54,7 @@ javascript:void(window.open("","stats_debugger","width=800,height=800,location=0
 Edge 无法手动创建小书签，但可以将书签 URL 编辑为小书签。
 
 1. 单击“URL”字段右侧的星形图标，以将当前页面加入书签。
-2. 将书签命名为“Adobe Experience Cloud 调试器”，并将其保存到所需位置。
+2. 将书签命名为“Adobe Experience Cloud Debugger”，并将其保存到所需位置。
 3. 单击带有线条的星形图标以打开“收藏夹”栏。
 4. 右键单击新创建的书签，选择“编辑 URL”。
 5. 将相应的代码段粘贴到文本字段中，然后按 Enter。
@@ -64,7 +64,7 @@ Edge 无法手动创建小书签，但可以将书签 URL 编辑为小书签。
 Safari 无法手动创建小书签，但可以将书签 URL 编辑为小书签。
 
 1. 单击右上方的“共享”图标，以打开书签模式窗口。
-2. 将书签命名为“Adobe Experience Cloud 调试器”，并将其保存到所需位置。
+2. 将书签命名为“Adobe Experience Cloud Debugger”，并将其保存到所需位置。
 3. 单击“书签”>“编辑书签”，然后找到新创建的书签。
 4. 右键单击并选择“编辑地址”，然后将相应的代码段粘贴到文本字段中。
 
