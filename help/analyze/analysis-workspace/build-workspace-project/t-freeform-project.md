@@ -22,13 +22,13 @@ ht-degree: 98%
 
 1. 指定创建和管理项目的用户权限。
 
-   创建或组织 Analysis Workspace 项目之前，管理员必须要将您添加到具有&#x200B;**[!UICONTROL 在 Analysis Workspace 中创建/组织项目]**&#x200B;权限的组，或者添加到&#x200B;**[!UICONTROL 全部报表访问]**&#x200B;用户组。（**[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 用户管理]** > [组](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)）。
+   创建或组织 Analysis Workspace 项目之前，管理员必须要将您添加到具有&#x200B;**[!UICONTROL 在 Analysis Workspace 中创建/组织项目]**&#x200B;权限的组，或者添加到&#x200B;**[!UICONTROL 全部报表访问]**&#x200B;用户组。（**[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 用户管理]** > [群组](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)）。
 
 1. 在 [!DNL Experience Cloud] 中，单击 **[!UICONTROL Analytics]** > **[!UICONTROL 工作区]**。
 
    ![](assets/analysis_workspace_menu.png)
 
-   或者，输入正斜杠 (/) 以打开报表搜索栏，然后键入“分析工作区 *`workspace`*。
+   或者，输入正斜杠 (/) 以打开报表搜索栏，然后键入 *`workspace`*。
 
    ![](assets/analysis-app-search.png)
 
