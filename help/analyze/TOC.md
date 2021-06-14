@@ -4,11 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 提供 Analytics 的高级分析和可视化工具 Analysis Workspace 以及 Adobe Analytics Dashboards、Report Builder 和 Activity Map 等工具的操作说明。
-translation-type: tm+mt
 source-git-commit: 20e57f1bef787329d7b871edd9e337b57feeb4e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1012'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,23 +23,23 @@ ht-degree: 99%
       + [保存项目](analysis-workspace/build-workspace-project/save-projects.md)
       + [模板](analysis-workspace/build-workspace-project/starter-projects.md)
       + [多个报表包](analysis-workspace/build-workspace-project/multiple-report-suites.md)
-      + [热键（快捷键）](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+      + [热键（快捷方式）](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [调色板](analysis-workspace/build-workspace-project/color-palettes.md)
       + [视图密度](analysis-workspace/build-workspace-project/view-density.md)
    + 组件 {#components}
       + [组件概述](analysis-workspace/components/analysis-workspace-components.md)
-      + 维度 {#dimensions}
+      + 维度{#dimensions}
          + [预览维度](analysis-workspace/components/dimensions/view-dimensions.md)
          + [划分维度](analysis-workspace/components/dimensions/t-breakdown-fa.md)
          + [时间划分维度](analysis-workspace/components/dimensions/time-parting-dimensions.md)
-      + [指标](analysis-workspace/components/apply-create-metrics.md)
+      + [量度](analysis-workspace/components/apply-create-metrics.md)
       + [区段](analysis-workspace/components/t-freeform-project-segment.md)
       + 日历和日期范围 {#calendar-date-ranges}
          + [日历和日期范围概述](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [创建自定义日期范围](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [日期比较](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
-   + 可视化 {#visualizations}
-      + [可视化概述](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
+   + 可视化图表 {#visualizations}
+      + [可视化图表概述](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [管理数据源](analysis-workspace/visualizations/t-sync-visualization.md)
       + 自由格式表 {#freeform-table}
          + [自由格式表](analysis-workspace/visualizations/freeform-table/freeform-table.md)
@@ -48,7 +47,7 @@ ht-degree: 99%
             + [列设置](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [行设置](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [动态项和静态项](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [对表格进行分页、过滤和排序](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
+         + [对表格进行分页、筛选和排序](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
          + [工作区总计](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 同类群组表 {#cohort-table}
          + [什么是同类群组分析？](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
@@ -56,12 +55,12 @@ ht-degree: 99%
          + [同类群组分析用例](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + 流失 {#fallout}
          + [流失概述](analysis-workspace/visualizations/fallout/fallout-flow.md)
-         + [配置流失可视化](analysis-workspace/visualizations/fallout/configuring-fallout.md)
+         + [配置流失可视化图表](analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [维度间流失](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [在流失分析中应用区段](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + 流量 {#flow}
          + [流量概述](analysis-workspace/visualizations/c-flow/flow.md)
-         + [配置流量可视化](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
+         + [配置流量可视化图表](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
          + [流量设置](analysis-workspace/visualizations/c-flow/flow-settings.md)
          + [维度间流量](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [直方图](analysis-workspace/visualizations/histogram.md)
@@ -70,11 +69,11 @@ ht-degree: 99%
       + [面积图和堆叠的面积图](analysis-workspace/visualizations/area.md)
       + [条形图和堆叠的条形图](analysis-workspace/visualizations/bar.md)
       + [项目符号图表](analysis-workspace/visualizations/bullet-graph.md)
-      + [圆环](analysis-workspace/visualizations/donut.md)
+      + [环形图](analysis-workspace/visualizations/donut.md)
       + [水平条形图和堆叠的水平条形图](analysis-workspace/visualizations/horizontal-bar.md)
       + [折线图](analysis-workspace/visualizations/line.md)
       + [散点图](analysis-workspace/visualizations/scatterplot.md)
-      + [概要数量和概要更改](analysis-workspace/visualizations/summary-number-change.md)
+      + [概要数字和概要变化](analysis-workspace/visualizations/summary-number-change.md)
       + [文本](analysis-workspace/visualizations/text.md)
       + [树形图](analysis-workspace/visualizations/treemap.md)
    + 面板 {#panels}
@@ -85,22 +84,22 @@ ht-degree: 99%
       + [自由格式面板](analysis-workspace/c-panels/freeform-panel.md)
       + [“媒体并行查看者”面板](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + [“快速分析”面板](analysis-workspace/c-panels/quickinsight.md)
-      + 区段比较面板 {#segment-comparison}
+      + “区段比较”面板 {#segment-comparison}
          + [区段比较概述](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-         + [区段比较用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
-         + [细分比较中使用的统计测试](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
+         + [“区段比较”用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
+         + [区段比较中使用的统计测试](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 组织或共享项目 {#curate-share}
       + [“共享”菜单](analysis-workspace/curate-share/send-schedule-files.md)
-      + [组织项目](analysis-workspace/curate-share/curate.md)
+      + [策划项目](analysis-workspace/curate-share/curate.md)
       + [共享项目](analysis-workspace/curate-share/share-projects.md)
       + [创建可共享链接](analysis-workspace/curate-share/shareable-links.md)
       + [仅供查看的项目](analysis-workspace/curate-share/view-only-projects.md)
       + [下载 PDF 或 CSV 文件](analysis-workspace/curate-share/download-send.md)
       + [计划项目](analysis-workspace/curate-share/t-schedule-report.md)
-   + 归因 IQ {#attribution}
+   + Attribution IQ{#attribution}
       + [归因概述](analysis-workspace/attribution/overview.md)
       + [归因模型和回顾时间范围](analysis-workspace/attribution/models.md)
-      + [算法属性](analysis-workspace/attribution/algorithmic.md)
+      + [算法归因](analysis-workspace/attribution/algorithmic.md)
       + [常见问题解答](analysis-workspace/attribution/faq.md)
    + [历程 IQ](analysis-workspace/journey-iq.md)
    + [区段 IQ](analysis-workspace/segment-iq.md)
@@ -119,7 +118,7 @@ ht-degree: 99%
          + [智能警报概述](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
          + [警报生成器](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [警报管理器](analysis-workspace/c-intelligent-alerts/alert-manager.md)
-         + [智能警报 - 用例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
+         + [智能警报 — 用例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [用户首选项](analysis-workspace/user-preferences.md)
    + 工作区常见问题解答 {#workspace-faq}
       + [常见问题解答](analysis-workspace/workspace-faq/faq.md)
@@ -142,19 +141,19 @@ ht-degree: 99%
       + [数据请求 - 请求向导第 1 步](report-builder/data-requests/data-requests.md)
       + [创建数据请求](report-builder/data-requests/t-create-a-data-request.md)
       + 报表包 {#report-suites}
-         + [选择报表包](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
-         + [在 Excel 中通过现有请求选择报表包](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
+         + [选择一个报表包](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
+         + [选择一个报表包从 Excel 中的现有请求](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [使用 Excel 查找报表包 ID](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [管理区段](report-builder/data-requests/segmentation.md)
       + [允许发布列表覆盖](report-builder/data-requests/allow-publishing-list-overrides.md)
       + 报表类型 {#report-types}
          + [报表类型概述](report-builder/data-requests/c-report-types/select-report-types.md)
          + [Report Builder 中的路径报表和路径流失报表](report-builder/data-requests/c-report-types/report-path-fallout.md)
-         + [使用请求向导过滤路径报表](report-builder/data-requests/c-report-types/path-filter.md)
-         + [使用请求向导过滤流失报表](report-builder/data-requests/c-report-types/fallout-filter.md)
-         + [通过添加从属请求过滤路径报表](report-builder/data-requests/c-report-types/create-toppath-filter.md)
+         + [使用请求向导筛选路径报表](report-builder/data-requests/c-report-types/path-filter.md)
+         + [使用请求向导筛选流失报表](report-builder/data-requests/c-report-types/fallout-filter.md)
+         + [通过添加从属请求筛选路径报表](report-builder/data-requests/c-report-types/create-toppath-filter.md)
          + [选择报表类型](report-builder/data-requests/c-report-types/t-select-report-type.md)
-      + [导入加入书签的报表和功能板缩图报表](report-builder/data-requests/import-bookmarked.md)
+      + [导入加入书签的报表和功能板小型报表](report-builder/data-requests/import-bookmarked.md)
       + 日期范围 {#date-ranges}
          + [请求向导定义 - 预设日期](report-builder/data-requests/configuring-report-dates/r-arb-preset-dates.md)
          + [固定日期和保存的日期范围](report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md)
@@ -172,16 +171,16 @@ ht-degree: 99%
          + [单元格中的日期](report-builder/data-requests/configuring-report-dates/t-dates-from-a-cell.md)
          + [粒度](report-builder/data-requests/configuring-report-dates/granularity.md)
          + [自定义日历](report-builder/data-requests/configuring-report-dates/custom-calendar.md)
-      + [交互控件](report-builder/data-requests/interactive-controls.md)
-   + 布局 - 请求向导第 2 步 {#layout}
-      + [布局概述](report-builder/layout/layout.md)
-      + 指标和维度 {#metrics-dimension}
-         + [指标和维度概述](report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
-         + [添加指标和维度](report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
-         + [计算指标](report-builder/layout/c-metrics-dimensions/calculated-metrics.md)
-         + [在同一请求中组合使用流量和商务指标](report-builder/layout/c-metrics-dimensions/grouped-metrics.md)
-         + [维度和指标的用户访问权限](report-builder/layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
-         + [修改指标 - 字段定义](report-builder/layout/c-metrics-dimensions/r-arb-modify-metrics.md)
+      + [交互式控件](report-builder/data-requests/interactive-controls.md)
+   + 版面 - 请求向导第 2 步 {#layout}
+      + [版面概述](report-builder/layout/layout.md)
+      + 量度和维度 {#metrics-dimension}
+         + [量度和维度概述](report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
+         + [添加量度和维度](report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
+         + [计算量度](report-builder/layout/c-metrics-dimensions/calculated-metrics.md)
+         + [在同一请求中组合使用流量和商务量度](report-builder/layout/c-metrics-dimensions/grouped-metrics.md)
+         + [维度和量度的用户访问权限](report-builder/layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
+         + [修改量度 - 字段定义](report-builder/layout/c-metrics-dimensions/r-arb-modify-metrics.md)
          + [客户属性](report-builder/layout/c-metrics-dimensions/c-ustomer-attributes.md)
       + [异常检测](report-builder/layout/anomaly-detection.md)
       + [配置异常检测请求](report-builder/layout/t-anomaly.md)
@@ -191,21 +190,21 @@ ht-degree: 99%
       + [删除输出映射](report-builder/layout/delete-output-mapping.md)
       + [为请求命名](report-builder/layout/name-a-request.md)
       + [在单元格中添加前置和后置文本](report-builder/layout/prepend-and-postpend-text-to-cells.md)
-      + [配置自定义布局](report-builder/layout/configure-the-custom-layout.md)
-      + [将指标和维度映射到单元格](report-builder/layout/map-metrics-and-dimensions-to-cells.md)
+      + [配置自定义版面](report-builder/layout/configure-the-custom-layout.md)
+      + [将量度和维度映射到单元格](report-builder/layout/map-metrics-and-dimensions-to-cells.md)
       + [创建 Microchart](report-builder/layout/t-create-a-microchart.md)
-      + 过滤器维度 {#filter-dimenson}
-         + [过滤器维度概述](report-builder/layout/c-filter-dimensions/filter-dimensions.md)
-         + [最受欢迎的过滤设置](report-builder/layout/c-filter-dimensions/t-most-popular-filtering.md)
-         + [特定过滤器](report-builder/layout/c-filter-dimensions/t-specific-filters.md)
-         + [保存的过滤器](report-builder/layout/c-filter-dimensions/saved-filters.md)
+      + 筛选条件维度 {#filter-dimenson}
+         + [筛选条件维度概述](report-builder/layout/c-filter-dimensions/filter-dimensions.md)
+         + [最受欢迎的筛选设置](report-builder/layout/c-filter-dimensions/t-most-popular-filtering.md)
+         + [特定筛选条件](report-builder/layout/c-filter-dimensions/t-specific-filters.md)
+         + [保存的筛选条件](report-builder/layout/c-filter-dimensions/saved-filters.md)
    + 管理请求 {#manage-requests}
       + [管理请求 - 定义](report-builder/manage-requests/r-arb-manage-requests.md)
       + [诊断消息](report-builder/manage-requests/diagnostic-messages.md)
       + [升序排序或降序排序](report-builder/manage-requests/sort-ascending-or-descending.md)
       + [受保护的工作表元素](report-builder/manage-requests/protected-worksheet-elements.md)
       + [编辑多个请求](report-builder/manage-requests/t-edit-multiple-requests.md)
-      + [编辑跨越多个请求的指标](report-builder/manage-requests/edit-multiple-metrics.md)
+      + [编辑跨越多个请求的量度](report-builder/manage-requests/edit-multiple-metrics.md)
       + [刷新请求](report-builder/manage-requests/t-refresh-a-request.md)
       + [刷新所有工作表的请求](report-builder/manage-requests/t-refresh-requests-for-all-sheets.md)
       + [添加从属请求](report-builder/manage-requests/add-dependent-requests.md)
@@ -226,7 +225,7 @@ ht-degree: 99%
    + [计划工作簿](report-builder/t-schedule-a-data-request.md)
    + [计划任务管理器](report-builder/r-arb-scheduled-reports.md)
    + 工作簿库 {#workbook-library}
-      + [上载工作簿](report-builder/workbook-library/t-upload-a-workbook.md)
+      + [上传工作簿](report-builder/workbook-library/t-upload-a-workbook.md)
       + [下载工作簿](report-builder/workbook-library/t-download-a-workbook.md)
       + [锁定/解锁工作簿](report-builder/workbook-library/protect-wb.md)
       + [计划启用宏的工作簿](report-builder/workbook-library/schedule-macro-wb.md)
@@ -241,12 +240,12 @@ ht-degree: 99%
    + [Visual Basic 宏](report-builder/vba.md)
    + [Report Builder 疑难解答](report-builder/troubleshoot.md)
    + [Report Builder 常见问题解答](report-builder/faq.md)
-+ Activity Map {#activity-map}
++ Activity Map{#activity-map}
    + [Activity Map 概述](activity-map/activity-map.md)
    + 快速入门 {#getting-started}
       + 管理员快速入门 {#get-started-admins}
          + [启用 Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-         + [实施Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
+         + [实施 Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
       + 用户快速入门 {#get-started-users}
          + [安装 Activity Map 浏览器插件](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
          + [启动 Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
@@ -259,9 +258,9 @@ ht-degree: 99%
       + [使用 s.tl() 函数](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
    + [标准模式与实时模式的对比](activity-map/activitymap-standard-live.md)
    + [链接报表](activity-map/activitymap-links-report.md)
-   + [详细信息页面](activity-map/activitymap-page-flow.md)
-   + [整套指标](activity-map/activitymap-complete-metrics.md)
-   + [实时页面分析（实时模式）](activity-map/activitymap-realtime.md)
+   + [页面详细信息](activity-map/activitymap-page-flow.md)
+   + [整套量度](activity-map/activitymap-complete-metrics.md)
+   + [实时页面分析](activity-map/activitymap-realtime.md)
    + [客户分段](activity-map/activitymap-multiple-segments.md)
    + [可自定义的叠加图](activity-map/activitymap-gainerslosers.md)
    + [叠加图的详细信息](activity-map/activitymap-overlay-details.md)
@@ -290,31 +289,31 @@ ht-degree: 99%
    + 自定义报表 {#customize-reports}
       + [自定义报表概述](reports-analytics/reports-customize/customizing-reports-overview.md)
       + [更改报表图表](reports-analytics/reports-customize/t-reports-graphs.md)
-      + [划分](reports-analytics/reports-customize/breakdowns.md)
+      + [细分](reports-analytics/reports-customize/breakdowns.md)
       + [子关系](reports-analytics/reports-customize/subrelations.md)
-      + [过滤报表数据](reports-analytics/reports-customize/t-reports-filter-options.md)
-   + [分析区段](reports-analytics/segmentation.md)
+      + [筛选报表数据](reports-analytics/reports-customize/t-reports-filter-options.md)
+   + [分析分段](reports-analytics/segmentation.md)
    + [书签管理器](reports-analytics/bookmarks.md)
    + [当前数据](reports-analytics/current-data.md)
-   + [功能板和缩图报表](reports-analytics/dashboard.md)
+   + [功能板和小型报表](reports-analytics/dashboard.md)
    + [功能板管理器](reports-analytics/dashboard-manage.md)
    + [数据提取](reports-analytics/data-extract.md)
    + [漏斗报表](reports-analytics/funnels.md)
-   + [指标](reports-analytics/metrics.md)
+   + [量度](reports-analytics/metrics.md)
    + [目标](reports-analytics/targets.md)
    + [警报](reports-analytics/alerts.md)
    + [日历事件](reports-analytics/t-calendar-event.md)
    + [常见问题解答](reports-analytics/frequently-asked-questions.md)
-   + [故障诊断](reports-analytics/report-troubleshooting.md)
+   + [疑难解答](reports-analytics/report-troubleshooting.md)
 + Adobe Analytics 功能板 {#mobapp}
    + [Adobe Analytics 功能板 - 概述](mobile-app/home.md)
-   + [管理人指南](mobile-app/curator.md)
+   + [策划人指南](mobile-app/curator.md)
    + [执行用户快速入门指南](mobile-app/executive.md)
 + 渐进式 Web 应用程序 {#pwa}
    + [渐进式 Web 应用程序](pwa/pwa.md)
-+ Analytics Reporting API {#analytics-reporting-api}
-   + [Analytics Reporting API 概述](c-reporting-api/c-reporting-api.md)
-   + [Analytics Reporting API 比较](c-reporting-api/api-comparison.md)
++ Analytics 报表 API {#analytics-reporting-api}
+   + [Analytics 报表 API 概述](c-reporting-api/c-reporting-api.md)
+   + [Analytics 报表 API 比较](c-reporting-api/api-comparison.md)
    + [https://github.com/AdobeDocs/analytics-2.0-apis](https://github.com/AdobeDocs/analytics-2.0-apis)
 + Labs {#tech-previews}
    + [Labs 概述](tech-previews/overview.md)
