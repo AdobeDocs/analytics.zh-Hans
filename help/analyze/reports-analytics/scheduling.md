@@ -7,9 +7,9 @@ feature: Reports & Analytics 基础知识，Reports and Analytics
 role: Business Practitioner, Administrator
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1669'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 99%
    | 主题 | 电子邮件的主题。 |
    | 日程安排 | 选择立即发送报表或者在不同的间隔发送。 |
 
-1.  单击&#x200B;**[!UICONTROL 高级提交选项]**&#x200B;以指定提交计划。 
+1.  单击&#x200B;**[!UICONTROL 高级提交选项]**&#x200B;以指定提交计划。
 
 | 选项 | 描述 |
 |--- |--- |
@@ -108,7 +108,7 @@ ht-degree: 99%
 
 [!UICONTROL 计划报表管理器]显示特定用户创建的项目。若应用程序中禁用此用户帐户，则会停止所有计划的提交。
 
-1. 要访问管理器，请单击&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 计划报表]**。
+1. 要访问管理器，请单击 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 计划报表]**。
 
 ## 共享报表链接 {#task_9711DDE9E140451B8C914EC5513E21EC}
 
