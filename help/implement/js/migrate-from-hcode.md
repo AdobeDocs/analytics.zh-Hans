@@ -1,30 +1,30 @@
 ---
 title: 迁移到 AppMeasurement for JavaScript
-description: 确定从 H 代码迁移实施所需的内容。
+description: 确定从 H 码迁移实施所需的内容。
 exl-id: ed606ab4-bd7d-4871-baa1-77e30fdd419e
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # 迁移到 AppMeasurement for JavaScript
 
-如果您的实施仍使用 H 代码，Adobe 强烈建议迁移到最新版 AppMeasurement。建议通过 [Adobe Experience Platform Launch](../launch/overview.md) 实施 Analytics，但也可以使用更新的 JavaScript 实施。
+如果您的实施仍使用 H 码，Adobe 强烈建议迁移到最新版 AppMeasurement。建议通过 [Adobe Experience Platform Launch](../launch/overview.md) 实施 Analytics，但也可以使用更新的 JavaScript 实施。
 
-与 H 代码相比，AppMeasurement 中存在以下显著更改：
+与 H 码相比，AppMeasurement 中存在以下显著更改：
 
-* 比 H 代码快 3 至 7 倍。
-* 比 H 代码更轻 - 21kb（未压缩）相对于 H 代码的 33kb（未压缩）。
+* 比 H 码快 3 至 7 倍。
+* 比 H 码更轻 - 21kb（未压缩）相对于 H 码的 33kb（未压缩）。
 * 库和页面代码可以部署在 `<head>` 标记中。
-* 现有的页面级别 H 代码与 AppMeasurement 兼容。
+* 现有的页面级别 H 码与 AppMeasurement 兼容。
 * 该库提供了一些本地实用工具，用来获取查询参数、读取和写入 Cookie，以及执行高级链接跟踪。
 * 该库不支持动态帐户配置变量（包括 `dynamicAccountSelection`、`dynamicAccountMatch` 和 `dynamicAccountList`）。
 
 以下步骤概述了典型的迁移工作流程。
 
-1. **下载新的AppMeasurement文件**:登录Adobe Analytics，然后导航到“管理员”>“所有管理员”>“代码管理器”，即可访问新文件。下载的压缩文件包含一个缩小的 `AppMeasurement.js` 文件，以及媒体和集成模块。
+1. **下载新的 AppMeasurement 文件**：登录到 Adobe Analytics，然后导航到“管理员”>“所有管理员”>“代码管理器”以访问新文件。下载的压缩文件包含一个缩小的 `AppMeasurement.js` 文件，以及媒体和集成模块。
 1. **将 `s_code.js` 自定义项复制到`AppMeasurement.js`**：将 `s_code.js` 中 `DO NOT ALTER ANYTHING BELOW THIS LINE` 部分之前的所有代码移到 `AppMeasurement.js` 的开头。
 1. **更新所有插件**：确保您使用的是 `s_code.js` 文件中列出的每个插件的最新版本。这包括媒体和集成模块。
 1. **部署 AppMeasurement.js 文件**：将 `AppMeasurement.js` 文件上传到 Web 服务器。
