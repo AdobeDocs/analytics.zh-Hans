@@ -7,7 +7,7 @@ user-guide-description: 使用“数据馈送”接收每小时或每天导出�
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 96%
       + [数据列引用](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [页面事件查找](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [移动设备属性查找](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
-      + [促销eVar查找](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
+      + [促销 eVar 查找](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [特殊字符](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [迟到的点击量](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [数据馈送常见问题解答](analytics-data-feed/df-faq.md)
@@ -34,7 +34,7 @@ ht-degree: 96%
    + [作业疑难解答](analytics-data-feed/jobs-troubleshooting.md)
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse 概述](data-warehouse/data-warehouse.md)
-   + [添加 Data Warehouse 用户群组](data-warehouse/t-dw-group.md)
+   + [添加 Data Warehouse 用户组](data-warehouse/t-dw-group.md)
    + [创建 Data Warehouse 请求](data-warehouse/t-dw-create-request.md)
    + [请求发送时间](data-warehouse/delivery-time.md)
    + [表格数据文件](data-warehouse/t-tableau.md)
@@ -50,7 +50,7 @@ ht-degree: 96%
       + [设置 FTP 帐户 - 概述](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
       + [分类](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
       + [数据源](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
-      + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
+      + [Data Connector](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
       + [数据馈送](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
       + [Data Warehouse 传送的报表](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
       + [Report Builder 传送的报表](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
