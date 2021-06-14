@@ -7,7 +7,7 @@ exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 | 我可以将 Analysis Workspace 用于 Data Warehouse 吗？ | 不建议将 Analysis Workspace 用于批量数据导出。它是一个创建类似功能板分析项目的可视化图表工作区。 |
 | 如何优化 Analysis Workspace 的性能？ | 请参阅[优化性能](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。 |
 
-## 故障诊断
+## 疑难解答
 
 **当我将指标拖动到上面时，显示“数据无效”。**
 
