@@ -4,9 +4,9 @@ title: “服务器调用使用情况”概述
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1047'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ Adobe Analytics“服务器调用使用情况”功能可根据您的请求为�
    <td colname="col3"> 
     <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
      <li id="li_ACDA518C7D184084AC1DFA7B38C67314">通过 sc.omniture.com 登录到 Analytics。 </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">导航到<span class="ignoretag"> <span class="uicontrol">管理</span> &gt; <span class="uicontrol">所有管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">组</span> &gt; <span class="uicontrol">编辑所有报告访问</span> &gt; <span class="uicontrol">分析工具</span> &gt; <span class="uicontrol">自定义</span> &gt; <span class="uicontrol">服务器调用使用</span> </span> </li> 
+     <li id="li_066D90AB071941C3869EDAFCE981707A">导航到<span class="ignoretag"> <span class="uicontrol">管理员</span> &gt; <span class="uicontrol">所有管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">群组</span> &gt; <span class="uicontrol">编辑所有报表访问权限</span> &gt; <span class="uicontrol">Analytics 工具</span> &gt; <span class="uicontrol">自定义</span> &gt; <span class="uicontrol">服务器调用使用情况</span> </span> </li> 
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
