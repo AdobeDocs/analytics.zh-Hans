@@ -6,9 +6,9 @@ feature: AI 工具
 role: Business Practitioner, Administrator
 exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1164'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 98%
 
 在全面分析了异常之后，将为排名最前的项目生成贡献摘要，并按总出现次数和项目的贡献值百分比进行排序。通过标准化的贡献得分，您可以轻松与其他重要维度项目进行比较、对照和关联。
 
-## 贡献分析令牌 — 概述 {#section_3EF8D2BBCE6E4C309D753BCF04A453D0}
+## 贡献分析令牌 - 概述 {#section_3EF8D2BBCE6E4C309D753BCF04A453D0}
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ ht-degree: 98%
 | 令牌是否适用于 Reports &amp; Analytics 中的贡献分析？ | 否。从 2018 年 4 月开始，Reports &amp; Analytics 中不再提供贡献分析。 |
 | 如果我的公司用完了令牌，但是想要运行额外的贡献分析，我们该怎么做？ | 您可以升级到其他 Adobe Analytics 产品，例如从 Standard（每月 2 个令牌）升级到 Ultimate（每月 20 个令牌）。您不能只购买更多令牌，您必须在现有的套餐框架内进行升级。 |
 | 我如何限制对贡献分析的访问？ | 默认情况下，只有管理员可以运行贡献分析。但是，管理员可以通过在 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hans) 中创建权限组，向其他用户授予访问权限。您应仅授权具有正当理由使用贡献分析，且您相信他们不会滥用其访问权限的用户来使用贡献分析。该权限称为[!UICONTROL 贡献分析]，位于[!UICONTROL 报表包工具]下。[了解详情](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html?lang=zh-Hans) |
-| 如何知道我的公司每月有权使用多少个令牌，以及我们在当月使用了多少个令牌？ | 转到[!UICONTROL 管理员] > [!UICONTROL 所有管理员] >[!UICONTROL 公司设置主页] >[!UICONTROL 查看功能访问级别]。 查看<ul><li>贡献分析：每月的使用令牌数量</li><li>贡献分析：本月所用的使用令牌数量</li></ul> |
+| 如何知道我的公司每月有权使用多少个令牌，以及我们在当月使用了多少个令牌？ | 转到[!UICONTROL 管理员] > [!UICONTROL 所有管理员] >[!UICONTROL “公司设置”主页] >[!UICONTROL 查看功能访问级别]。查看<ul><li>贡献分析：每月的使用令牌数量</li><li>贡献分析：本月所用的使用令牌数量</li></ul> |
 
 ## 异常检测和贡献分析授权 {#section_9278D58F21A840AA9B1ED1BD07A1EF0A}
 
