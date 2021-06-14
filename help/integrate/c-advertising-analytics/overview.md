@@ -5,7 +5,7 @@ exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '1261'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -56,19 +56,19 @@ Analytics 有两种权限，可自动授予给 Analytics 管理员。然后，�
   <tr> 
    <td colname="col1"> <p>Advertising Analytics 管理 </p> </td> 
    <td colname="col2"> <p>允许用户设置/编辑/查看广告搜索帐户。 </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> 管理员</span>  &gt;  <span class="uicontrol"> 所有管 </span>  理员&gt;  <span class="uicontrol"> 用户管理</span>  &gt;  <span class="uicontrol"> 群组</span>  &gt;  <span class="uicontrol"> 编辑所有报表访问权限</span>  &gt;  <span class="uicontrol"> 自定义Analytics工具</span>  &gt;  <span class="uicontrol"> Advertising Analytics管理</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol">管理员</span> &gt; <span class="uicontrol">所有管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">群组</span> &gt; <span class="uicontrol">编辑所有报表访问权限</span> &gt; <span class="uicontrol">自定义 Analytics 工具</span> &gt; <span class="uicontrol">Advertising Analytics 管理</span></span> </td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol"> 登录到 adminconsole.adobe.com</span> &gt; <span class="uicontrol">产品</span> &gt; <span class="uicontrol">产品配置文件</span> &gt; <span class="uicontrol">权限选项卡</span> &gt; <span class="uicontrol">Analytics 工具</span> &gt; <span class="uicontrol">Advertising Analytics 管理</span></span> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Advertising Analytics 配置 </p> </td> 
    <td colname="col2"> <p>允许用户将报表包配置为可以使用 Advertising Analytics。 </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> 管理员</span>  &gt;  <span class="uicontrol"> 所有管 </span>  理员&gt;  <span class="uicontrol"> 用户管理</span>  &gt;  <span class="uicontrol"> 群组</span>  &gt;  <span class="uicontrol"> 编辑所有报表访问权限</span>  &gt;  <span class="uicontrol"> 自定义报表包工具</span>  &gt;  <span class="uicontrol"> Advertising Analytics配置</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol">管理员</span> &gt; <span class="uicontrol">所有管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">群组</span> &gt; <span class="uicontrol">编辑所有报表访问权限</span> &gt; <span class="uicontrol">自定义报表包工具</span> &gt; <span class="uicontrol">Advertising Analytics 配置</span></span> </td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol"> 登录到 adminconsole.adobe.com</span> &gt; <span class="uicontrol">产品</span> &gt; <span class="uicontrol">产品配置文件</span> &gt; <span class="uicontrol">权限选项卡</span> &gt; <span class="uicontrol">报表包工具</span> &gt; <span class="uicontrol">Advertising Analytics 配置</span></span> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Advertising Analytics 维度和指标 {#section_C0DF4A08EA9E46ADABE9E465AFC11E32}
+## Advertising Analytics 维度和量度 {#section_C0DF4A08EA9E46ADABE9E465AFC11E32}
 
 Advertising Analytics 可将以下维度和指标添加到 Analysis Workspace、Reports &amp; Analytics、Report Builder 和 Analytics 报表 API。
 
@@ -105,7 +105,7 @@ Advertising Analytics 可将以下维度和指标添加到 Analysis Workspace、
 
 >[!IMPORTANT]
 >
->Advertising Analytics 提供的指标（如下所列）是来自搜索引擎的概要级别的数据。它们未连接到 Analytics 访客配置文件。它们仅连接到 AMO ID 变量及其关联的分类维度。因此，不应根据 AMO ID 维度以外的任何维度/区段对这些指标进行报告。这样做会导致 Analytics 将这些数据都显示为零。您可以将它们与其他指标一起纳入计算指标中，但这些计算指标也只应按照 AMO ID 维度进行划分。
+>Advertising Analytics 提供的指标（如下所列）是来自搜索引擎的概要级别的数据。它们未连接到 Analytics 访客配置文件。它们仅连接到 AMO ID 变量及其关联的分类维度。因此，不应根据 AMO ID 维度以外的任何维度/区段对这些指标进行报告。这样做会导致 Analytics 将这些数据都显示为零。您可以将它们与其他指标一起纳入计算量度中，但这些计算量度也只应按照 AMO ID 维度进行划分。
 >
 >这些指标是每日收集的数据，因此不会有当天的数据。也不应以低于每日的粒度对其进行报告。
 >
