@@ -2,9 +2,9 @@
 title: Adobe Analytics 和浏览器 Cookie
 description: 了解跟踪预防措施如何影响 Adobe Analytics 设置的第三方和第一方 Cookie。
 source-git-commit: b2f606e74aa0d2ab0f01ab7cbfc795bfd7cda461
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1985'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 72%
 ## 浏览器如何限制 Cookie 的使用？
 
 >[!NOTE]
->[跨设备分析](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=en#cda)和[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en#comparing-cja-to-traditional-adobe-analytics)可以使用人员ID（如经过哈希处理的登录ID）跨Cookie进行拼合（如果可用）。
+>[Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=zh-Hans#cda) 和 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hans#comparing-cja-to-traditional-adobe-analytics) 可以使用个人 ID（例如哈希登录 ID，如果有）跨 Cookie 合并。
 
 ### 第三方 Cookie 限制
 
@@ -26,42 +26,42 @@ ht-degree: 72%
 
 #### 哪些 Adobe 第三方 Cookie 受影响？
 
-访客ID服务使用“[demdex.net](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hans)”Cookie为跨不同客户域的访客提供永久标识符。 旧版Analytics ID服务“s_vi”Cookie会设置为第三方Cookie，适用于未使用自定义CNAME收集域的实施。
+访客 ID 服务使用 &quot;[demdex.net](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hans)&quot; Cookie 为访客在不同的客户域中提供永久性标识符。旧版 Analytics ID 服务 &quot;s_vi&quot; Cookie 被设置为第三方 Cookie，用于不使用自定义 CNAME 收集域的实施。
 
 在阻止第三方 Cookie 的浏览器上，跨域跟踪不可用。
 
 ### 第一方 Cookie 限制{#limitations-first-party-cookies}
 
-仅在所有主流浏览器上允许第一方 Cookie。但是，Apple 通过 Intelligent Tracking Program (ITP)，限制 Adobe 设置的第一方 Cookie 的生命周期。这会影响Safari以及iOS和iPadOS上的所有浏览器。
+仅在所有主流浏览器上允许第一方 Cookie。但是，Apple 通过 Intelligent Tracking Program (ITP)，限制 Adobe 设置的第一方 Cookie 的生命周期。这将影响 Safari 以及 iOS 和 iPadOS 上的所有浏览器。
 
-Adobe的第一方Cookie限制为7天到期，或者，对于Apple确定来自跟踪器的点进，则限制为24小时到期。 如果用户在7天内访问您的网站并在7天内返回，则Cookie的过期日期会再延长7天。 但是，如果用户访问您的网站并在八天后返回，则在第二次访问时，会将他们视为新用户。
+Adobe 的第一方 Cookie 限制为 7 天过期，对于 Apple 认定来自跟踪器的点进为 24 小时过期。在 7 天过期的情况下，如果用户访问您的网站，然后在这七天内回访，则该 Cookie 的失效日期另外延长 7 天。但是，如果某个用户访问您的网站并在第 8 天回访，则会将其第二次访问视为新用户。
 
 目前，ITP 策略仅适用于 Adobe 设置的所有第三方 Cookie，不论您使用的是访客 ID 服务还是旧版 Analytics ID (&quot;s_vi&quot; cookie)。过去，这些策略仅适用于客户端设置的 Cookie，而不是通过 CNAME 实施在服务器端设置的 Cookie。但是，在 2020 年 11 月，ITP 进行了更新，同样应用到 CNAME 实施。
 
-#### 对 ITP 策略重大更改的时间表  {#ITP-timeline}
+#### 对 ITP 策略重大更改的时间表 {#ITP-timeline}
 
 * 2019 年 2 月的 [ITP 2.1](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/)：客户端 Cookie 限制为 7 天过期
 * 2019 年 4 月的 [ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/)：对于广告点击，当引用域满足以下条件时，客户端 Cookie 限制为 24 小时过期：a) 涉及到跨站点跟踪，以及 b) 最终 URL 包含了查询字符串和/或片段标识符。
 * 2020 年 11 月的 [CNAME 遮蔽和跳出跟踪防御](https://webkit.org/blog/11338/cname-cloaking-and-bounce-tracking-defense/)：ITP 限制扩大到了 CNAME 实施。
 
-ITP 策略经常发生改变。有关最新策略，请参阅Apple的[Webkit中的跟踪预防](https://webkit.org/tracking-prevention)。
+ITP 策略经常发生改变。有关最新策略，请查看 Apple 的 [Webkit 中的跟踪预防](https://webkit.org/tracking-prevention)。
 
 #### 哪些 Adobe 第一方 Cookie 受影响？
 
 Adobe 设置的所有第一方 Cookie 以及相关的 JavaScript 库均受 ITP 策略影响：
 
-* [由Adobe Experience Cloud访](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html) 客ID(ECID)服务库设置的“AMCV”Cookie
-* 使用CNAME为Analytics旧版[&quot;s_vi&quot; Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hans)配置第一方数据收集时
-* Analytics旧版[&quot;s_fid&quot; Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html)，该Cookie是无法设置“s_vi”时使用的回退Cookie
+* Adobe Experience Cloud 访客 ID (ECID) 服务库设置的[“AMCV”Cookie](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hans)
+* 使用 CNAME 配置了第一方数据收集时的 Analytics 旧版 [&quot;s_vi&quot; Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hans)
+* Analytics 旧版 [&quot;s_fid&quot; Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hans)，这是在无法设置 &quot;s_vi&quot; 时使用的后备 Cookie
 
 #### ITP 对 Safari for Analytics 有什么影响？
 
-ITP限制的影响可能会因用户行为而有显着差异。 只有使用受ITP影响的浏览器（例如Safari）并在七天不在后回访的访客才会受到影响。 如果访客不使用 ITP 浏览器或者在 7 天之内回访，则不受影响。非常重要的是，您需要在 Analytics 中查看自己的数据来了解此限制影响的程度。有关如何衡量对您网站影响的提示，请参阅“[如何确定 Safari 更改是否影响我的业务？](#measure-itp-effect)”
+ITP 限制的影响根据用户的行为差别非常大。只有使用受 ITP 影响的浏览器（例如 Safari）并在 7 天之后才回访的访客受影响。如果访客不使用 ITP 浏览器或者在 7 天之内回访，则不受影响。非常重要的是，您需要在 Analytics 中查看自己的数据来了解此限制影响的程度。有关如何衡量对您网站影响的提示，请参阅“[如何确定 Safari 更改是否影响我的业务？](#measure-itp-effect)”
 
 如果这些限制确实会影响您的数据，您将看到：
 
 1. 访客计数增加，回访访客由于 Cookie 过期被视为新访客。基于“访客”量度的任何量度（例如“每位访客的销售额”）也会受影响。
-2. 对归因的更改。归因依赖于将转化事件与同一访客之前的活动相关联。 Cookie过期后，后续事件将与新访客关联。 新访客的活动不能与前一个访客的活动绑定。
+2. 对归因的更改。归因依赖于将转化事件与同一访问者之前的活动相关联。Cookie 过期后，后续事件将与新访客相关联。新访客的活动不能与前一访客的活动相关联。
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ ITP限制的影响可能会因用户行为而有显着差异。 只有使用受I
 
 第三方 Cookie 并非由用户访问的网站创建。
 
-虽然浏览器当前对所有第三方Cookie的处理方式相同并进行存储，但第三方Cookie的行为方式却有所不同。 对于客户的 Analytics 第三方 Cookie 实施，浏览器存储 Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hans) ID 作为第三方 Cookie，但客户端仅对 Adobe 发出调用，而不会向未知的或可疑的第三方域发出调用。此 Cookie 提供跨域的持久性标识符并允许安全 (HTTPS) 内容。有关更多信息，请参阅 [Cookie 和 Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)。
+虽然浏览器目前以同样方式处理所有第三方 Cookie 并进行存储，但第三方 Cookie 可能会有不同的行为方式。对于客户的 Analytics 第三方 Cookie 实施，浏览器存储 Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hans) ID 作为第三方 Cookie，但客户端仅对 Adobe 发出调用，而不会向未知的或可疑的第三方域发出调用。此 Cookie 提供跨域的持久性标识符并允许安全 (HTTPS) 内容。有关更多信息，请参阅 [Cookie 和 Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hans)。
 
 在 Analytics 实施中，第三方 Cookie 用于跨域跟踪以及用于广告用例，包括重新定位广告。您可使用第三方 Cookie 在访客访问您拥有的不同域时标识访客，或者在并非您拥有的网站上向其显示广告时进行标识。<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
@@ -89,7 +89,7 @@ ITP限制的影响可能会因用户行为而有显着差异。 只有使用受I
 
 ## 什么是 SameSite Cookie 属性以及它如何影响 Analytics？{#samesite-effect}
 
-随着2020年2月发布的Chrome 80浏览器（以及Firefox和Edge浏览器的后续版本），SameSite Cookie属性强制对三个不同值进行规范，这些值控制Cookie是否可以在第三方上下文中使用：
+随着 2020 年 2 月 Chrome 80 浏览器的发布（以及后续版本的 Firefox 和 Edge 浏览器），SameSite Cookie 属性强制执行三个不同值的规范，这些值控制 Cookie 是否可以在第三方上下文中使用：
 
 * `None`：此设置允许跨站点访问，并允许在第三方上下文中传递 Cookie。要指定此属性，您还必须指定 `Secure`，并且所有浏览器请求都必须遵循 HTTPS。例如，在设置 Cookie 时，需要按如下方式配对属性的值：`Set-Cookie: example_session=test12; SameSite=None; Secure`。如果未正确标记，则 Cookie 对较新的浏览器不可用，因此被拒绝。
 
@@ -101,13 +101,13 @@ ITP限制的影响可能会因用户行为而有显着差异。 只有使用受I
 
 ### Analytics 如何管理 SameSite Cookie 属性？
 
-对于使用访客ID服务的客户，Cookie默认设置了属性`SameSite=None`和`secure`，这允许这些Cookie支持第三方用例。
+对于使用访客 ID 服务的客户，默认情况下，设置了 Cookie 的 `SameSite=None` 和 `secure` 属性，这两个属性允许这些 Cookie 支持第三方用例。
 
-对于使用Analytics旧版标识符（“s_vi”和“s_fid”Cookie）的客户，还会设置Cookie以启用标准集合域的第三方用例：adobedc.net、2o7.net和omtrdc.net。 对于使用CNAME实施的客户，Analytics会设置`SameSite=Lax`。
+对于使用 Analytics 旧版标识符（&quot;s_vi&quot; 和 &quot;s_fid&quot; Cookie）的客户，Cookie 还被设置为启用具有以下标准收集域的第三方用例：adobedc.net、2o7.net 和 omtrdc.net。对于使用 CNAME 实施的客户，Analytics 设置 `SameSite=Lax`。
 
 >[!NOTE]
 >
->如果您拥有多个域，并且在所有域中使用相同的CNAME进行数据收集，则在其他域中，该Cookie将被视为第三方Cookie。 如果您使用的是旧版Analytics标识符，则可能需要将设置更新为`SameSite=None`，以便这些Cookie可以在您的网站之间共享。 有关更多信息，请参阅下一节中的“[当您对多个域](#samesite-one-cname)使用一个CNAME时更改SameSite值”。
+>如果您拥有多个域并使用相同的 CNAME 在所有域中进行数据收集，则在这些其他域中将 Cookie 视为第三方 Cookie。如果您使用的是旧版 Analytics 标识符，则可能需要将设置更新为 `SameSite=None`，以便这些 Cookie 可以在您的站点之间共享。有关详细信息，请参阅下一节中的[为多个域使用一个 CNAME 时更改 SameSite 值](#samesite-one-cname)。
 
 对于 Google 在 `SameSite` 设置为 `None` 时标识为错误处理 Cookie 的浏览器，`SameSite` 将保留为不设置。
 
@@ -143,11 +143,11 @@ Adobe 建议在更改数据收集之前，在自己的公司内部衡量更改�
 
       >[!NOTE]
       >
-      >受ITP影响的特定浏览器取决于您是否在使用CNAME实施。 有关更多详细信息，请参阅“[ITP策略重大更改的时间表](#ITP-timeline)”。
+      >受 ITP 影响的特定浏览器取决于您是否使用 CNAME 实施。有关更多详细信息，请参阅“[对 ITP 策略重大更改的时间表](#ITP-timeline)”。
 
       ![ITP 访客的区段](/help/technotes/assets/itp-visitor-segment.png)
 
-   2. 将区段应用到访客的数量以了解您的用户群中 Safari 的相对使用量。这样，您就可以创建如下表格：
+   2. 将区段应用到访客的数量以了解您的用户群中 Safari 的相对使用量。这让您可创建类似于下面的表：
 
       ![按 ITP 访客统计的访客百分比](/help/technotes/assets/visits-vs-safari-visits.png)
 
@@ -157,7 +157,7 @@ Adobe 建议在更改数据收集之前，在自己的公司内部衡量更改�
 
       ![7 天后回访访客的区段](/help/technotes/assets/visits-after-seven-days.png)
 
-   2. 将区段应用到访客的数量以了解您的用户群中 Safari 的相对使用量。这样，您就可以创建如下表格：
+   2. 将区段应用到访客的数量以了解您的用户群中 Safari 的相对使用量。这让您可创建类似于下面的表：
 
       ![7 天后回访访客的百分比](/help/technotes/assets/percent-visits-after-seven-days.png)
 
