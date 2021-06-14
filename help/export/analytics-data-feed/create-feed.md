@@ -5,7 +5,7 @@ exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
 workflow-type: tm+mt
 source-wordcount: '948'
-ht-degree: 86%
+ht-degree: 90%
 
 ---
 
@@ -97,7 +97,7 @@ ht-degree: 86%
 * **删除转义字符**：在收集数据时，某些字符（如换行符）可能会导致问题。如果您希望从馈送文件中删除这些字符，请选中此框。
 * **压缩格式**：使用的压缩类型。Gzip 以 `.tar.gz` 格式输出文件。Zip 以 `.zip` 格式输出文件。
 * **包装类型**：如果选择单个文件，则可能会以单个大型文件的形式输出 `hit_data.tsv` 文件。如果选择多个文件，则会将您的数据分为多个 2 GB 的区块（未压缩）。如果选择了多个文件，而报告时间范围的未压缩数据小于 2 GB，则会发送一个文件。Adobe 建议对大多数的数据馈送使用多个文件。
-* **清单**:在馈送间隔内未收集任何 [数](c-df-contents/datafeeds-contents.md#feed-manifest) 据时，Adobe是否应将清单文件交付到目标。如果选择清单文件，则在未收集任何数据时，您将收到与以下类似的清单文件：
+* **清单**：在一个馈送间隔内未收集到数据时，Adobe 是否应将[清单文件](c-df-contents/datafeeds-contents.md#feed-manifest)提交到目标位置。如果选择“清单文件”，则在未收集到数据时，您将收到类似于以下内容的清单文件：
 
 ```text
    Datafeed-Manifest-Version: 1.0
