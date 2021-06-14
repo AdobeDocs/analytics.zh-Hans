@@ -1,6 +1,6 @@
 ---
-description: 指定触点以创建多维度流失序列。
-title: 配置流失可视化
+description: 指定接触点以创建多维度流失序列。
+title: 配置流失可视化图表
 uuid: fc117745-baf3-46fb-873d-9307092cc337
 feature: 可视化图表
 role: Business Practitioner, Administrator
@@ -8,11 +8,11 @@ exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '689'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
-# 配置流失可视化
+# 配置流失可视化图表
 
 您可以指定接触点以创建多维度流失序列。通常，接触点就是网站中的某个页面。但是，接触点并不仅限于页面。例如，您可以添加事件，如件数及独特访客和回访。也可以添加维度，如类别、浏览器类型或内部搜索词。
 
@@ -52,7 +52,7 @@ ht-degree: 94%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>最终路径 </p> <p>(默认) </p> </td> 
-   <td colname="col2"> <p>访客将被计为“最终”登陆该会话路径中的下一页，但不一定是下一次点击。 </p> </td> 
+   <td colname="col2"> <p>对不一定通过下一次点击“最终”在该会话的路径中登陆下一页的访客进行计数。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>下一次点击 </p> </td> 
