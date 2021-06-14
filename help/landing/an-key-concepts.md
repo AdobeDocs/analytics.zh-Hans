@@ -23,8 +23,8 @@ ht-degree: 97%
 | Data Workbench（以前称为 Insight） | 旨在收集、处理、分析与可视化来自多个渠道间在线和离线客户交互的数据。 | [Data Workbench 客户端](https://experienceleague.adobe.com/docs/data-workbench/using/client/t-open-ins.html) |
 | Data Warehouse | 用于存储和自定义报表的、未经处理的原始数据，您可通过过滤数据运行它。无点击级别。 | [Data Warehouse 主页](/help/export/data-warehouse/data-warehouse.md) |
 | Adobe Mobile Services | 可以在整个 Adobe Experience Cloud 范围内将移动设备应用程序的移动营销功能整合在一起，以便您了解和提高应用程序的用户参与度。 | [Mobile Services 主页](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) |
-| Adobe Exchange Data Connectors（以前称为 Genesis） | 可将来自第三方应用程序的跟踪数据导入 Analytics，从而在一个中心位置提供端到端的性能可见性。Adobe 决定自 2021 年 8 月 1 日起，中断 Data Connector 集成。 | [Data Connectors 主页](/help/import/data-connectors/data-connectors-eol.md) |
-| Adobe Experience Platform Launch | Adobe 推出的新一代网站标记和移动 SDK 管理功能。 | [Adobe Experience Platform Launch主页](https://experienceleague.adobe.com/docs/launch/using/home.html) |
+| Adobe Exchange Data Connectors（以前称为 Genesis） | 可将来自第三方应用程序的跟踪数据导入 Analytics，从而在一个中心位置提供端到端的性能可见性。Adobe 决定自 2021 年 8 月 1 日起，中断 Data Connector 集成。 | [Data Connector 主页](/help/import/data-connectors/data-connectors-eol.md) |
+| Adobe Experience Platform Launch | Adobe 推出的新一代网站标记和移动 SDK 管理功能。 | [Adobe Experience Platform Launch 主页](https://experienceleague.adobe.com/docs/launch/using/home.html) |
 
 ## 关键术语 {#concept_E473ACBB8E4A42B4AC005538AC12F154}
 
@@ -37,8 +37,8 @@ ht-degree: 97%
 | 事件/指标 (s.events) | 用于测量我们希望访客在我们的网站上采取的关键行动的指标。事件有 3 种类型：计数器、数值和货币。事件在被添加到转化变量报表 (eVar) 时是最有用的。eVar 提供所发生情况的质量信息，事件则提供所发生情况的数量信息。<br>eVar 和事件之间的主要区别： <ul> <li>eVar 可告诉我们，什么人、什么事情或什么内容影响了转化</li> <li>事件可测量有多少转化发生</li> </ul> <br>转化事件的示例：订单数、应用程序启动数、潜在客户数、收入。 | [事件](/help/admin/admin/c-success-events/success-event.md) |
 | 组件 | 可以拖放到项目中的维度、指标、区段和时间粒度（日期范围）。 | [组件](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) |
 | 维度 | eVar、prop、分类和标准 Adobe 收集值的集合。 | [维度](/help/components/dimensions/overview.md) |
-| 量度 | 已实施事件和计算指标的集合。 | [指标](/help/analyze/analysis-workspace/components/apply-create-metrics.md) |
-| 计算指标 | 能够从通过实施捕获的现有指标中派生自定义指标。 | [计算指标](/help/components/c-calcmetrics/cm-overview.md) |
+| 量度 | 已实施事件和计算量度的集合。 | [指标](/help/analyze/analysis-workspace/components/apply-create-metrics.md) |
+| 计算量度 | 能够从通过实施捕获的现有指标中派生自定义指标。 | [计算量度](/help/components/c-calcmetrics/cm-overview.md) |
 | 区段 | 能够生成、管理和共享强大而集中的受众区段，并将其应用于您的 Analytics 报表。区段在各 Analytics 产品间共享，还可在整个 Experience Cloud 中共享。 | [区段划分](/help/components/segmentation/seg-home.md) |
 | 时间（日期范围） | 能够将日期过滤到任何时间段并创建可在分析中重用的自定义日期范围。 | [日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) |
 | 可视化图表 | 丰富的视觉效果有助于使项目中的数据变得生动。 | [可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) |
@@ -67,7 +67,7 @@ ht-degree: 97%
 | 访客维系 | 显示有关客户忠诚度的信息，例如访客回访您的网站的次数和频率。 | [访客维系](/help/components/dimensions/customer-loyalty.md) |
 | 项目链接、共享和计划 | 在 Analytics 界面中保存和/或与其他人共享您工作的方法。 | [发送和计划文件](/help/analyze/analysis-workspace/curate-share/send-schedule-files.md) |
 
-## 关键指标 {#concept_392819DC275C48688E2CE4ABD4C5EE43}
+## 关键量度 {#concept_392819DC275C48688E2CE4ABD4C5EE43}
 
 | 指标名称 | 定义 | 文档链接 |
 | --- | --- | --- |
@@ -110,5 +110,5 @@ ht-degree: 97%
 | Adobe Experience Platform Launch | 请参阅 Analytics 工具。 |  |
 | VISTA | 允许您在收集数据时应用服务器端逻辑来更改或划分数据。 | [VISTA 规则](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md) |
 | 处理规则 | 能够在 Analytics UI 中设置、修改和复制变量，以更改收集的数据。 | [处理规则](/help/admin/admin/c-processing-rules/processing-rules.md) |
-| 调试器选项 | 有几个调试器和数据包探查器可用于帮助验证您的实施，包括 Adobe Experience Cloud 调试器。 | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=zh-Hans) |
+| 调试器选项 | 有几个调试器和数据包探查器可用于帮助验证您的实施，包括 Adobe Experience Cloud Debugger。 | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=zh-Hans) |
 | 数据插入 API | 数据插入 API 提供了一种机制，可用于收集服务器端数据并将这些数据提交到 Experience Cloud 服务器。服务器端数据收集仅基于 Web 浏览器请求和 Web 服务器响应来收集数据，而不是在每个网页上使用 JavaScript 信标将访客数据传输到 Experience Cloud 服务器。 | [使用 POST 实施 Adobe Analytics 数据插入 API 的步骤](https://helpx.adobe.com/cn/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
