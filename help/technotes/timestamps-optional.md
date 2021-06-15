@@ -5,10 +5,10 @@ title: 使用可选时间戳
 topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 97%
+source-wordcount: '608'
+ht-degree: 98%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 97%
 
    无序数据可能包含从离线数据收集延迟抵达的数据和延迟抵达的点击量，或离线移动设备上不同步的时钟。无序数据可能对时间计算（如逗留时间值）、属性（eVar 持续性）、访问量/访问计数和路径报表造成负面影响。
 
-* 不建议在设置 [s.visitorID](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-identification.html) 时使用时间戳。这可能会导致数据顺序混乱。
+* 不建议在设置 [s.visitorID](/help/implement/vars/config-vars/visitorid.md) 时使用时间戳。这可能会导致数据顺序混乱。
 
 * 混合应用程序若包含可打开 Web 浏览器（未加盖时间戳的实时数据）的应用程序（加盖时间戳的离线数据），则不应使用时间戳。它会导致会话报告不准确。
 
