@@ -1,10 +1,10 @@
 ---
 title: 实施 Adobe Analytics 营销渠道的最佳实践
 description: 将营销渠道用于归因 IQ 和 Customer Journey Analytics 的更新后最佳实践
-source-git-commit: 9e274e54b7ce494dc5a21961a842e4365cb2a084
-workflow-type: ht
-source-wordcount: '633'
-ht-degree: 100%
+source-git-commit: 35bdd513bee7b01fae1916a0dc1496749752ce62
+workflow-type: tm+mt
+source-wordcount: '645'
+ht-degree: 91%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 100%
 
 ## 最佳实践 1：利用归因 IQ 进行可控分析
 
-我们推荐使用 [归因 IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=zh-Hans#analysis-workspace) 而不是现有的营销渠道归因以调整您的营销渠道分析。按照其他最佳实践操作，以确保使用归因 IQ 进行分析时一致且可靠的控制。
+我们推荐使用 [归因 IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) 而不是现有的营销渠道归因以调整您的营销渠道分析。按照其他最佳实践操作，以确保使用归因 IQ 进行分析时一致且可靠的控制。
 
 ![](assets/attribution.png)
 
-* 维度“营销渠道”和“营销渠道详细信息”的配置确定了要评估的接触点，与各个营销渠道实例对应。
+* 营销渠道和营销渠道详细信息维度的配置建立了要评估的接触点，对应于每个营销渠道实例。
 * 对于量度分析，您的组织应该与一个或多个归因模型保持一致。将自定义量度与此模型一起保存以便重用。
 * 默认情况下，使用“最后接触”和“访客参与期”的设置进行分配。归因 IQ 量度模型提供了对回溯窗口更好的控制并且更多样化，包括[算法归因](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=zh-Hans#analysis-workspace)。
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 不建议将直接和内部/会话刷新渠道用于自定义归因模型 (归因 IQ)。
 
-如果组织已经配置了直接和会话刷新会怎么样？在这种情况下，我们建议您为营销渠道创建分类，然后将这两个渠道保留不分类。如果永远不配置这些渠道，则分类的维度会得到相同的归因 IQ 结果。
+如果组织已经配置了直接和会话刷新会怎么样？在这种情况下，我们建议您[为“首次联系/最近联系”创建一个分类](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/classifictions-mchannel.html?lang=en)，并保持“直接”和“会话刷新”渠道未分类。 如果永远不配置这些渠道，则分类的维度会得到相同的归因 IQ 结果。
 
 ![](assets/direct-session-refresh.png)
 
