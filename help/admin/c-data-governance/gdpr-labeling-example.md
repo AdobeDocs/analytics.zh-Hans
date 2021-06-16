@@ -1,16 +1,16 @@
 ---
 description: 显示如何标记命中数据、访问请求、删除请求的数据的示例
-title: 标签功能示例
+title: 标签设置示例
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
+source-git-commit: fe277bea867dc67e8693673a547adecccf169332
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 87%
+source-wordcount: '770'
+ht-degree: 69%
 
 ---
 
-# 标签功能示例
+# 标签设置示例
 
 ## 命中数据示例
 
@@ -289,7 +289,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->只有包含 user=Mary 和 DEL-PERSON 标签的行中的单元格会受到影响。另外，实际上，包含 A_ID 的变量可能是 prop 或 eVar，其替换值是以“Privacy-”开头的字符串，后面跟有随机数 (GUID)，而不是用不同的随机数值来替换该数值。
+>只有包含 user=Mary 和 DEL-PERSON 标签的行中的单元格会受到影响。此外，实际上，包含A_ID的变量可能是prop或eVar。 其替换值是以“Privacy — ”开头的字符串，后跟随机数(GUID)，而不是将数值替换为其他随机数值。
 
 <table>
   <tr>
@@ -364,6 +364,6 @@ ht-degree: 87%
 
 * 包含`user=Mary`和`DEL-DEVICE`或`DEL-PERSON`标签的行中的单元格以及包含`DEL-DEVICE`标签的单元格会受到影响，这些单元格位于包含`user=Mary`的行中，包含任何访客ID(AAID)。
 * 当`user=Mary`时，expandIDs设置不会扩展到调用中，以包含MyEvar3中存在的值，MyEvar3具有ID-DEVICE标签。 ExpandIDs仅会扩展，以在`user=Mary`的行中包含访客ID（本例中为AAID，但也包括ECID）。
-* 第四行和第五行中的 `MyEvar2` 将会更新，因为这些行包含与第一行和第二行相同的访客 ID 值，因此 ID 扩展会把它们包含在设备级别的删除中。
-* 第二行和第五行的 `MyEvar2` 值在删除前后都匹配，但是在执行删除请求后，它们将不再与最后一行中出现的值 N 匹配，因为该行并不作为删除请求的一部分进行更新。
-* `MyEvar3` 的行为与不使用 ID 扩展时它的行为非常不同，因为没有 ID 扩展，就没有 `ID-DEVICES` 匹配。现在，前五行中的 `AAID` 匹配了。
+* `MyEvar2` 第四行和第五行中的访客ID值会更新，因为这些行包含与第一行和第二行相同的访客ID值。因此，ID扩展会将它们包含在设备级别的删除中。
+* 第2行和第5行中的`MyEvar2`值在删除前后都匹配。 但是，在删除后，它们不再与最后一行中出现的值N匹配，因为该行未作为删除请求的一部分进行更新。
+* `MyEvar3` 的行为与不使用 ID 扩展时它的行为非常不同，因为没有 ID 扩展，就没有 `ID-DEVICES` 匹配。现在，前五行中的`AAID`匹配。
