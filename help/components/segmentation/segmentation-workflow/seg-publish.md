@@ -4,10 +4,10 @@ title: 将区段发布到 Experience Cloud
 feature: 分段
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: f9a5b1ae08209260b4e4694b743932627a0c2019
 workflow-type: tm+mt
-source-wordcount: '1332'
-ht-degree: 96%
+source-wordcount: '1325'
+ht-degree: 97%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 96%
 
 **方法 1：使用 Adobe Experience Cloud 调试器**
 
-1. 从 Chrome 网上应用店中，下载并安装 [Adobe Experience Cloud 调试器](https://experienceleague.adobe.com/docs/analytics/implementation/testing-and-validation/debugger.html)。
+1. 从 Chrome 网上应用店中，下载并安装 [Adobe Experience Cloud 调试器](/help/implement/validate/debugger.md)。
 1. 加载页面时启动该调试器。
 1. 滚动到 Audience Manager 部分，然后找到在当前浏览器页面上设置的 AAM UUID
 （以下示例中为 `50814298273775797762943354787774730612`）
