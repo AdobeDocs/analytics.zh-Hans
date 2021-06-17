@@ -3,10 +3,10 @@ description: 数据隐私中的隐私报表的变量。
 title: 隐私报表变量
 feature: 管理工具
 exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
-source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
+source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 96%
+source-wordcount: '435'
+ht-degree: 95%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 96%
 
 * 上下文数据：`contextData.['cm.ssf']`
 * 接受的值：
-   * 1 - 发送值“1”时，这表示服务器端转发处于选择退出状态。与此变量配对的值“1”将阻止与 Adobe Audience Manager 共享此命中。请参阅 [AAM ePrivacy 合规性](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)。
+   * 1 - 发送值“1”时，这表示服务器端转发处于选择退出状态。与此变量配对的值“1”将阻止与 Adobe Audience Manager 共享此命中。请参阅 [AAM ePrivacy 合规性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html?lang=en)。
    * 0 - 可选。对于同意进行定向市场营销的客户，请使用值“0”。如果不设置该变量，也会产生相同的结果。
 
 ### DMP
