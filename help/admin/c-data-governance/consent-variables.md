@@ -3,10 +3,10 @@ description: 数据隐私中的隐私报表的变量。
 title: 隐私报表变量
 feature: 管理工具
 exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
-source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 95%
+source-wordcount: '427'
+ht-degree: 97%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 95%
 
 已预定义了三个上下文数据变量，以与隐私报表管理保留变量一起使用。需要由每位实施工程师来决定如何管理和保留这些变量的设置。
 
-有关实施上下文数据变量的常规指导，请参阅[上下文数据变量](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html)。
+有关实施上下文数据变量的常规指导，请参阅[上下文数据变量](/help/implement/vars/page-vars/contextdata.md)。
 
 ### SSF
 
