@@ -5,10 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Reports & Analytics 基础知识
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
 workflow-type: tm+mt
-source-wordcount: '2335'
-ht-degree: 95%
+source-wordcount: '2188'
+ht-degree: 96%
 
 ---
 
@@ -16,16 +16,9 @@ ht-degree: 95%
 
 运行不同的报表类型的步骤。
 
-
 ## 运行排名报表 {#task_C570BA4A213F4F2EB7B30E012934BE7D}
 
 在排名报表中，表格会根据数量或百分比，显示与量度相关的报表页面排名。排名报表可以在一份报表中显示多个量度。
-
-<!-- 
-
-t_reports_ranked.xml
-
- -->
 
 1. 生成报表，如[!UICONTROL 页面报表]（**[!UICONTROL 报表]** > **[!UICONTROL 网站内容]** > **[!UICONTROL 页面]**）。
 1.  在报表标题中，单击&#x200B;**[!UICONTROL 排名]**。
@@ -37,12 +30,6 @@ t_reports_ranked.xml
 
 趋势报表显示特定时段的量度。要查看某个区段从特定时段到下一时段的表现，可使用该报表类型。
 
-<!-- 
-
-t_reports_trended.xml
-
- -->
-
 多数转换和流量报表可使用趋势视图。使用[!UICONTROL 日历]，您可显示任何时段划分的改进，包括一个月中的某些天、一年中的某些周、一个季度中的某些周、一年中的某些月等等。趋势报表显示单个量度（如收入、订购、点击次数等）的趋势，最多可显示五个项目（如产品、类别、网页等）。
 
 **运行趋势报表**
@@ -50,29 +37,9 @@ t_reports_trended.xml
 1. 运行转化或流量报表，如&#x200B;**[!UICONTROL 报表]** > **[!UICONTROL 网站内容]** > **[!UICONTROL 页面]**。
 1. 在&#x200B;**[!UICONTROL 报表类型]**&#x200B;下方，单击&#x200B;**[!UICONTROL 趋势]**。
 
-## 运行转化漏斗报表 {#task_B926A74AA6A641138C2986C1635120CB}
-
-转化漏斗报表显示经过一系列事件以执行您期望的操作的访客百分比。例如，您可能需要查看有多少访客从访问网页前进到添加商品至购物车，然后购买商品。这也显示整个过程中流失的用户人数。
-
-<!-- 
-
-t_reports_conversion_funnel.xml
-
- -->
-
-要运行此报表，请选择一个报表，如页面报表（**[!UICONTROL 报表]** > **[!UICONTROL 促销活动]** > **[!UICONTROL 跟踪代码]** > **[!UICONTROL 促销活动转化漏斗]**）。
-
-有关描述，请参阅[转化报表](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion.html)。
-
 ## 运行流失报表 {#task_8FD97C8260464F9DA731A93DB8F80184}
 
 [!UICONTROL 流失报表]显示访问预先指定的页面顺序的访客数。它还显示每个步骤之间的转化和流失百分比。
-
-<!-- 
-
-t_reports_fallout.xml
-
- -->
 
 在 Analysis Workspace 中查看新的[流失分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)面板！
 
@@ -85,11 +52,6 @@ t_reports_fallout.xml
 1. 单击&#x200B;**[!UICONTROL 运行报告]**。
 
    ![步骤结果](assets/fallout_report.png)
-
->[!MORELIKETHIS]
->
->* [流失报表描述](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-fallout.html)
-
 
 ## 运行页面流量报表 {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
@@ -113,39 +75,15 @@ t_reports_fallout.xml
 
 线条的相对宽度显示其相对百分比。默认情况下，此报表显示 5 个 2 级分支和 5 个 3 级分支。您可以将要查看的分支数量增加到 10 个 2 级分支和 5 个 3 级分支。这会增加报表的高度，而且很可能需要滚动才能查看整个图表。
 
-## 运行漏斗报表 {#task_2BBF6FACD48F479E8B2EE458919941CB}
-
-您可以选择成功事件并将它们添加到[!UICONTROL 购买转化漏斗]报表或[!UICONTROL 产品转化漏斗]报表。
-
-<!-- 
-
-t_reports_funnel.xml
-
- -->
-
-1. 单击&#x200B;**[!UICONTROL 报表]** > **[!UICONTROL 产品]** > [产品转化漏斗](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html)。
-
 ## 运行营销渠道报表 {#task_64ADED5CC75248319E06E3E029B47F78}
 
 营销渠道报表提供第一个和最后一个渠道分配的概要报表，并显示标准的报表量度，如收入、订购和成本等。使用这些报表可以分析每个渠道产生的收入量。
-
-<!-- 
-
-t_reports_marketing_channel.xml
-
- -->
 
 有关更多信息，请参阅[营销渠道](/help/components/c-marketing-channels/analyze-mc.md)帮助系统。
 
 ## 运行异常检测报表 {#task_4808C96327354D789C075823F5C3A049}
 
 描述如何解读异常检测中的概要图表和各个量度图表。
-
-<!-- 
-
-t_anomaly_view.xml
-
- -->
 
 在 Analysis Workspace 中查看新的[异常检测和贡献分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)功能！
 
