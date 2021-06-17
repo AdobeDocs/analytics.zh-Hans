@@ -2,7 +2,7 @@
 description: 在 Adobe Experience Cloud 中将 Analytics 用户 ID 迁移到 Admin Console 的应知事项。
 title: 将 Analytics 用户迁移到 Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
-source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '3122'
 ht-degree: 97%
@@ -321,7 +321,7 @@ ht-degree: 97%
 
 **有用的资源：**
 
-[登录并管理配置文件设置](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/getting-started-experience-cloud.html)。
+[登录并管理配置文件设置](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)。
 
 如果您有任何问题或疑问，请联系您的 Analytics 管理员。
 
