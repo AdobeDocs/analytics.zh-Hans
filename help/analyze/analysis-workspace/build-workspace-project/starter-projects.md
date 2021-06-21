@@ -5,9 +5,9 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace 基础知识
 role: Business Practitioner, Administrator
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '1389'
+source-wordcount: '1391'
 ht-degree: 97%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 97%
 
 <!--This content is mirrored in the CDA doc.-->
 
-此模板可让您查看重要的跨设备性能数据。它仅适用于有权访问[Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-home.html) (CDA) 的客户。
+此模板可让您查看重要的跨设备性能数据。它仅适用于有权访问[Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=en) (CDA) 的客户。
 
 * **对协作图成员的特别说明**：显示报表包的哪些部分包含支持协作图的区域的访客，以及不支持协作图的区域的访客。
 * **用户标识**：显示使用基于 Cross-Device Analytics 的方法识别网站访客的频率。
