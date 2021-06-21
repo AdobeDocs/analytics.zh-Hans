@@ -5,10 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Reports & Analytics 基础知识
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '2188'
-ht-degree: 96%
+source-wordcount: '1299'
+ht-degree: 95%
 
 ---
 
@@ -57,23 +57,9 @@ ht-degree: 96%
 
 页面流量报表显示访客访问页面和导航网站的顺序。此报表有助于解答相关问题。
 
-在 Analysis Workspace 中查看新的[流量可视化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)！
-
-运行[路径](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-paths.html)报表。
+在Analysis Workspace中查看[流量可视化图表](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)!
 
 例如，单击&#x200B;**[!UICONTROL 报表]** > **[!UICONTROL 路径]** > **[!UICONTROL 页面]** > **[!UICONTROL 下一页面流量]**。
-
-![](assets/page_flow.png)
-
-从所选页面开始，从左到右读取该报表。在选定页面之后查看的页面以图形显示为向右侧扩展的分支。
-
-页面名称旁将显示各后续页面的查看百分比。与下级各个页面关联的线条宽度即描述此相对百分比。
-
-**[!UICONTROL 路径查看]**：用于指示以显示的路径查看某个页面的次数。
-
-例如，“隐私策略”页面的总查看次数可能为 10,000，而只有 500 次与紧随主页后查看的页面关联。因而，会使用路径查看次数一词。
-
-线条的相对宽度显示其相对百分比。默认情况下，此报表显示 5 个 2 级分支和 5 个 3 级分支。您可以将要查看的分支数量增加到 10 个 2 级分支和 5 个 3 级分支。这会增加报表的高度，而且很可能需要滚动才能查看整个图表。
 
 ## 运行营销渠道报表 {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -83,109 +69,11 @@ ht-degree: 96%
 
 ## 运行异常检测报表 {#task_4808C96327354D789C075823F5C3A049}
 
-描述如何解读异常检测中的概要图表和各个量度图表。
-
-在 Analysis Workspace 中查看新的[异常检测和贡献分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)功能！
-
-**[!UICONTROL 报表]** > **[!UICONTROL 网站量度]** > **[!UICONTROL 异常检测]**。
-
->[!NOTE]
->
->另外，您也可以在 Analysis Workspace 项目中运行异常检测。[更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
-
-有关设置异常检测的信息，请参阅《[参考指南](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection)》。
-
-异常检测显示了两种类型的图表：概要图表和单个量度图表。仅当至少检测到量度的一个异常时，才显示单个量度图表。
-
-<table id="table_88163CD8FC164342855D90D01F9C581A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>图表类型 </p> </th> 
-   <th colname="col2" class="entry"> <p>作用 </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>概要图表 </p> <p><img placement="break"  src="assets/ad_summary_chart.png" width="570px" id="image_1CD4C4770BAA43C4AD7CBB824AD41338" /> </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_D26DA3024CD7468291369F549557B28A"> 
-      <li id="li_1C22B6E02FFB479FB71EFAD89EB37A4E">每个框代表一个异常，每天跟踪一次，它对应于下面的量度。 </li> 
-      <li id="li_8FC587D3FF4E452D83263CC7A10B6675">绿色表示异常数高于趋势线，蓝色表示异常数低于趋势线。 </li> 
-      <li id="li_25135AB691BF443599AF2A3A60E2E71A">指示异常的强度：异常越强，数据点的颜色越深，距离趋势线越远。 </li> 
-      <li id="li_0C42AFA8897D420D8AB1A5D0F65B3B3A">单击单个异常，可将该异常的单个量度图表（位于概要图表下方）置于顶部。 </li> 
-      <li id="li_85C0F426952547B5A75D6BD31DE19CA5">偏差百分比值（位于图表左侧）是按照下面的方法计算的： 
-       <ul id="ul_BEC0A88BFFAC4CF78BC9885FEB749694"> 
-        <li id="li_1BAB2F50482745B69937DFAF1E09982E">如果上限与期望值相同，则偏差百分比为 100%。 </li> 
-        <li id="li_CA48064F5788448C8646CCE196161237">否则，偏差百分比为：((实际值 – 上限值) / (上限值 – 期望值)) * 100 </li> 
-        <li id="li_4090357A0D214BC7B1C3DE0615875554">如果下限与期望值相同，则偏差百分比为 -100%。 </li> 
-        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">否则，偏差百分比为：((下限值 – 实际值) / (期望值 – 下限值)) * -100 </li> 
-       </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">单击<span class="uicontrol">显示区段</span>可显示区段边栏，以允许您将区段应用到异常检测报表。请参阅有关分段的<a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html"  >更多信息</a>。 </li> 
-      <li id="li_1B41CABF13D1407886C68EE3BC201E60">单击<span class="uicontrol">编辑量度</span>可让您选择和取消选择要为其检测异常的量度。 </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>单个量度图表 </p> <p><img placement="break"  src="assets/metric_report.png" width="570px" id="image_5BBECFD91CF14478AA4761E6256BBCB9" /> </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_739C5687013743A29B63089FDA763F45"> 
-      <li id="li_456A0BDA4D4E46CE9CC1C3DBAA1E2220">以点的形式显示单个趋势量度（包括计算量度）的异常数据点。 </li> 
-      <li id="li_89FD847C65F04F48BCA7CD38D0EC51CD">在最前面显示最近的异常，其次按照异常的数量进行排列。 </li> 
-      <li id="li_98B97A9706DE4455B8D8850904CBDE03">显示一条实线以指示当前收集的实际数据。它是相对于预测和误差范围，以推断是否存在异常的数据点。 </li> 
-      <li id="li_0EEA38DDDC344BF3879430E67D74EB72">显示一条虚线以表示基于历史数据（即，培训时段）的预测。 </li> 
-      <li id="li_035BD2725D004AEDB630BF8DFF4DA4F3">以灰色阴影显示上限和下限 95% 的置信区间。 </li> 
-      <li id="li_021A3D1F2EDB4319B9B39620EF1C038A">单击量度名称旁边的双向上箭头或双向下箭头，可以折叠和展开单个报表。 </li> 
-      <li id="li_722E4B9FC21047AC96D7B143197E293D">通过向下钻取概述报表并做出相应操作，可以更改量度图表的显示顺序（参见上文） </li> 
-      <li id="li_A2441169B185475AA68A64F81E6E40B8">通过使用搜索词（例如，对所有与页面相关的量度使用“页面”搜索词），可以过滤图表。 </li> 
-      <li id="li_F1BBBFCA8E2A43C29658E4FCAA36C904">可以显示您定义的所有量度，或者仅显示存在异常的量度。 </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## 设置异常检测 {#task_AF347B34F56E44A6AE70E019B6EB2F08}
-
-选择报表包、量度和培训/查看时段以便进行异常检测的步骤。
-
-<!-- 
-
-t_anomaly_config.xml
-
- -->
-
-可以为每个报表包设置单独的异常检测。
-
-1. 导航至 **[!UICONTROL Analytics > 报表 > 网站量度 > 异常检测]**。
-1. 选择要跟踪每日异常检测情况的报表包。要显示报表包列表，请单击“报表包”选择器下拉菜单。
-1. 要选择量度和/或定义过滤量度，请单击屏幕右上方的&#x200B;**[!UICONTROL 编辑量度]**：![](assets/metrics_icon.png)。
-
-   您可以从以下位置选取量度：所有量度的列表（包括计算量度）或跟踪量度的列表。您还可以依据特定词语进行过滤，以缩小列表范围。1. 在生成报表后，定义用于异常检测的&#x200B;**[!UICONTROL 培训时段]**&#x200B;和&#x200B;**[!UICONTROL 查看时段]**。（将培训时段看作是算法的“学习时段”。）
-
-   ![](assets/view_training_periods.png)
-
-   请记住以下事项：
-
-* 培训时段正好截止于查看时段开始之前。
-* 两个时段的默认期限均为 30 天，您可以将其延长至 60 或 90 天。
-* 如果延长培训时段，则会将您的数据放入一个更大的上下文中，而且可能会缩小异常的大小。
-
-   每当您更改参数时，异常检测量度报表就会随之刷新。
-1. （可选）单击&#x200B;**[!UICONTROL 显示区段]**&#x200B;并选择一个或多个现有区段，或创建一个新区段并应用它，以将区段应用于报表。
-
-   ![](assets/ad_top_menu.png)
-
-   有关创建和管理区段的详细信息，请参阅《[Analytics 分段指南](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)》。1. （可选）将报表加入收藏夹或为其添加书签。
-1. （可选）更改查看时段的结束日期。默认日期为昨天。
-1. 您现在可以开始解读报表了。[查看异常检测图表](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)。
+您只能在Analysis Workspace中运行[异常检测和贡献分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)。
 
 ## 运行实时报表 {#task_5D25929C918E40B18965222FA94176B0}
 
 描述如何查看和解读实时报表。
-
-<!-- 
-
-reports_realtime.xml
-
- -->
 
 **[!UICONTROL 报表 > 网站量度 > 实时]**。
 
