@@ -4,9 +4,9 @@ title: 查看/管理报表包的数据管理设置
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '553'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 98%
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
      <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>已映射</b>：已将此报表包映射到与您已登录的 Analytics 登录公司相同的 Experience Cloud 组织。只可以对具有此设置的报表包设置标签。 </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>映射报表包</b>：单击此链接可将<a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html">报表包映射</a>到 Experience Cloud 组织。 <p>这意味着，您将会被重定向到“Experience Cloud 组织 – 报表包映射管理员”页面，您必须在该页面中找到报表包，并将其分配给相应的组织。完成后，立即导航回到此数据管理 UI。 </p> </li> 
+     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>映射报表包</b>：单击此链接可将<a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html?lang=zh-Hans">报表包映射</a>到 Experience Cloud 组织。 <p>这意味着，您将会被重定向到“Experience Cloud 组织 – 报表包映射管理员”页面，您必须在该页面中找到报表包，并将其分配给相应的组织。完成后，立即导航回到此数据管理 UI。 </p> </li> 
      <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>已映射到另一个组织</b>：另一个 Experience Cloud 组织已将此报表包映射到其组织。 </li> 
     </ul> </td> 
   </tr> 
