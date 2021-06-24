@@ -3,9 +3,9 @@ description: 在这个详细的指南中探索可用 Advertising Analytics 做�
 title: Advertising Analytics 指南
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1261'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 99%
 
 * 非 Advertising Cloud 和非 AMO 的客户都可以使用此功能。
 * 您必须是 Adobe Analytics 管理员才可以访问 Advertising Analytics。随后，您可以向非管理员[授予访问权限](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369)。
-* 如果您想在任意 Analytics 报表包中查看 Google/Bing 搜索数据，则必须将这些 Analytics 报表包[映射到您的 Experience Cloud 组织](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)。
+* 如果您想在任意 Analytics 报表包中查看 Google/Bing 搜索数据，则必须将这些 Analytics 报表包[映射到您的 Experience Cloud 组织](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html?lang=zh-Hans)。
 * 对于您想要在其中查看 Google/Bing 搜索数据的任何报表包，必须[为 Advertising Analytics 启用这些报表包](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)（**[!UICONTROL 管理员]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL Advertising Analytics 配置]**）。
 
 * 您需要用户登录凭据（如 Google 帐户 ID 和密码），且该用户对您想要与 Adobe Analytics 集成的搜索帐户须拥有编辑权限。
