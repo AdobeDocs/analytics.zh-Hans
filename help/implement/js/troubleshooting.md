@@ -3,9 +3,9 @@ title: JavaScript 实施疑难解答
 description: 了解 JavaScript 实施存在的常见问题以及疑难解答最佳实践。
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '692'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ s.pageName = "        Home Page";
 
 用较长值填充多个变量的实施有时会遇到图像请求被截断的情况。某些较旧的浏览器（如 Internet Explorer）对图像请求 URL 施加了 2083 个字符的限制。如果贵组织遇到了过长的图像请求，请尝试以下操作：
 
-* **使用 Experience Cloud ID 服务**：AppMeasurement 库 1.4.1 及更高版本会在图像请求过长时自动使用 HTTP POST 发送该请求。无论长度如何，使用此方法发送的数据都不会被截断。有关更多信息，请参阅 [Adobe Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
+* **使用 Experience Cloud ID 服务**：AppMeasurement 库 1.4.1 及更高版本会在图像请求过长时自动使用 HTTP POST 发送该请求。无论长度如何，使用此方法发送的数据都不会被截断。有关更多信息，请参阅 [Adobe Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
 * **使用处理规则**：[处理规则](/help/admin/admin/c-processing-rules/processing-rules.md)可以将值从一个变量复制到另一个变量。此方法可使您省去在多个变量中设置相同值的麻烦。例如：
 
    始终执行：<br>
