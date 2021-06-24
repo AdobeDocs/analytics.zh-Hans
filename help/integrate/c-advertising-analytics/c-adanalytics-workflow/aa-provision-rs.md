@@ -4,9 +4,9 @@ title: 为 Advertising Analytics 启用报表包
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '281'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 97%
 
 要在 Analytics 中查看任何 Advertising Analytics 搜索数据，您需要配置每个 Experience Cloud 映射的报表包，以便进行 Advertising Analytics 报告。
 
-1. [将报表包映射到组织](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)。
+1. [将报表包映射到组织](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html?lang=zh-Hans)。
 1. 导航至&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
 
 1. 选择映射到您的 Experience Cloud 组织的报表包。
