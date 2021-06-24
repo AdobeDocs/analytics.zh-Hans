@@ -4,14 +4,13 @@ title: 限制和规范
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
+source-git-commit: c420a9468dc39922bd02047160bb07623503eee4
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 96%
+source-wordcount: '626'
+ht-degree: 94%
 
 ---
-
 
 # 限制和规范
 
@@ -38,7 +37,7 @@ ht-degree: 96%
    **以下是一个有关可视化将如何中断的示例：**
 
    1. 在 Report Builder 中，使用“页面”维度和“页面查看次数”量度，创建具有一个请求的工作簿。
-   2. 计划此请求要发布到Power BI。
+   2. 计划将此请求发布到Power BI。
    3. 在 Power BI 中，为页面和页面查看次数创建可视化。
    4. 现在，通过从请求中删除页面查看次数，编辑工作簿。
    5. 编辑涉及更新工作簿的计划，并将请求重新发布到 Power BI。
@@ -71,6 +70,5 @@ ht-degree: 96%
 请记住以下事项
 
 * 标签不能是可被误认为行和列地址的字母和数字组合。例如，A100 不能用作标签，因为它是工作表中一个单元格的地址。
-* 以下字符不是有效的标签字符：“#”、“@”、“!”、“$”、“^”、“&amp;”、“*”、“`”、“~”、“ ”。它们将由一个下划线字符替代。
+* 以下字符不是有效的标签字符：`'#', '@', '!', '$', '^', '&', '&#42;', '`&#39;和`'~', ' '`。 它们将被替换为下划线字符。
 * 如果您输入一个无效名称，将显示一则警告消息，并向您推荐一个自动生成的名称。如果单击&#x200B;**[!UICONTROL 是]**，将会使用此名称。如果单击&#x200B;**[!UICONTROL 否]**，高级向导 UI 将让您输入新名称。
-
