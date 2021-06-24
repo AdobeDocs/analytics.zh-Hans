@@ -3,9 +3,9 @@ title: visitorID
 description: 使用自定义访客 ID。
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Adobe 使用多种不同的方法识别您网站上的访客。`visitorID` 变�
 
 >[!IMPORTANT]
 >
->Adobe 建议不要使用此变量。请改用 [Adobe Experience Cloud 身份服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
+>Adobe 建议不要使用此变量。请改用 [Adobe Experience Cloud 身份服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
 
 ## Adobe Experience Platform Launch 中的“访客 ID”
 
