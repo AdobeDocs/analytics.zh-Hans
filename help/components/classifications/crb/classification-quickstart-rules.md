@@ -5,9 +5,9 @@ title: 分类规则
 feature: 管理工具
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2028'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 99%
 | 选择规则类型 | 输入匹配条件 | 设置分类 | 至 |
 |---|---|---|---|
 | 开头 | em: | 渠道 | 电子邮件 |
-| 结束 | Sale | 类型 | 销售 |
-| 包含 | 2013 | 年 | 2013年 |
+| 结束 | Sale | 类型 | Sale |
+| 包含 | 2013 | 年 | 2013 |
 
 ## 如何处理规则 {#how-rules-are-processed}
 
@@ -59,7 +59,7 @@ about_classification_rules.xml
 
 ## 有关规则的重要信息
 
-* 在“管理工具”中指定分类的[群组权限](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)。
+* 在“管理工具”中指定分类的[群组权限](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=zh-Hans)。
 
 * **正则表达式**：[分类规则中的正则表达式](/help/components/classifications/crb/classification-quickstart-rules.md)下提供了相关帮助。
 
