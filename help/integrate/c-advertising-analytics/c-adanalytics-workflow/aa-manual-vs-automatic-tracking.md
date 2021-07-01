@@ -3,9 +3,9 @@ description: 跟踪功能可确定您的 Adobe Analytics 实施如何对搜索�
 title: 跟踪  手动模式和自动模式
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '592'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->了解关于是否应将该 `s_kwcid` 参数添加到您的[内容安全策略](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html)的更多信息。
+>了解关于是否应将该 `s_kwcid` 参数添加到您的[内容安全策略](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html?lang=zh-Hans)的更多信息。
 
 ## 手动跟踪模式 {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
