@@ -6,9 +6,9 @@ feature: AI 工具
 role: Business Practitioner, Administrator
 exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 89%
 
 ![](assets/alert-manager.png)
 
-警报管理器（**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 警报]**）的结构与[区段管理器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html)和[计算量度管理器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html)非常类似，允许您
+警报管理器（**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 警报]**）的结构与[区段管理器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=zh-Hans)和[计算量度管理器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=zh-Hans)非常类似，允许您
 
 ![](assets/alert-manager-tasks.png)
 
