@@ -4,9 +4,9 @@ title: 智能警报
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 97%
 * 通过含链接的电子邮件或短信将警报发送到自动生成的 Analysis Workspace 项目。
 * 创建可在一个警报中捕获了多个量度的“堆栈式”警报。
 
-新警报系统的组件包括：警报生成器、警报管理器、警报预览以及更便于创建警报的上下文关联访问。旧的警报系统用户界面将不再可用，但警报将进行迁移。部分旧版警报功能[将不再可用](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html)。
+新警报系统的组件包括：警报生成器、警报管理器、警报预览以及更便于创建警报的上下文关联访问。旧的警报系统用户界面将不再可用，但警报将进行迁移。部分旧版警报功能[将不再可用](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=zh-Hans)。
 
 可通过四种方式访问警报生成器：
 
@@ -75,7 +75,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问题：我可以获得用虚线制成的“预期值”表格吗？表格中会包含一些预期值的结果吗？</b> </p> </td> 
-   <td colname="col2"> <p>在 Workspace 中无法实现，但是在 Report Builder 中可以（请观看视频：<a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  >Report Builder 中的异常检测</a>)。 </p> <p>请记住，Report Builder 使用的是略微简单的异常检测方法。它使用固定的 30 天训练周期，固定的 95% 间隔。 </p> </td> 
+   <td colname="col2"> <p>在 Workspace 中无法实现，但是在 Report Builder 中可以（请观看视频：<a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html?lang=zh-Hans"  >Report Builder 中的异常检测</a>)。 </p> <p>请记住，Report Builder 使用的是略微简单的异常检测方法。它使用固定的 30 天训练周期，固定的 95% 间隔。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
