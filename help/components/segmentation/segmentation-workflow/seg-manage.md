@@ -5,9 +5,9 @@ feature: 分段
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '426'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Analytics 区段管理器显示了您拥有的所有区段以及共享给您的�
 
 ## 操作方法视频 {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-这段 [Adobe Analytics 视频](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html)简要概述了区段管理器的使用方法。
+这段 [Adobe Analytics 视频](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=zh-Hans)简要概述了区段管理器的使用方法。
 
 ## 区段管理器用户界面 {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
