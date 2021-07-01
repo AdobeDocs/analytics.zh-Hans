@@ -5,9 +5,9 @@ feature: 分段
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3698'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 99%
 
 ## 操作方法视频 {#section_89D6184890AF4086A8056BFBB0B68C29}
 
-这段视频简要概述了区段容器是什么及其使用方式：[Adobe Analytics 中的区段容器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html)
+这段视频简要概述了区段容器是什么及其使用方式：[Adobe Analytics 中的区段容器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=zh-Hans)
 
 ## 关于容器 {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
