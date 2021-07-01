@@ -5,9 +5,9 @@ feature: Activity Map
 uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 exl-id: e1d3f894-b769-4294-b550-f46869b812be
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -29,4 +29,4 @@ ht-degree: 95%
    | Activity Map 链接 | 列出在整个网站中收集的所有链接。 |
    | Activity Map 链接和区域 | 列出在整个网站中收集的所有链接及其区域。 |
 
-要填充数据，请参阅 [Activity Map 文档](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html)，以了解完整的实施说明。
+要填充数据，请参阅 [Activity Map 文档](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=zh-Hans)，以了解完整的实施说明。
