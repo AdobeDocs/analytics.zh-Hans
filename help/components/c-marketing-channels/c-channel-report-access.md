@@ -3,9 +3,9 @@ description: 介绍如何运行营销渠道报表、授予有限管理员用户�
 title: 营销渠道权限
 exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '218'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,4 +22,4 @@ ht-degree: 96%
 | Analytics 工具 | Analysis Workspace 访问权限 | 授予对 Analysis Workspace 的访问权限。用户必须属于此组（首选）或“Reports &amp; Analytics 访问”，才能在工作区中使用营销渠道维度。 |
 | Analytics 工具 | Reports and Analytics 访问 | 授予对 Reports and Analytics 的访问权限。用户必须属于此组或“Analysis Workspace 访问权限”组（首选），才能使用 Adobe Analytics。 |
 
-有关 Admin Console 中的产品配置文件和 Adobe Analytics 权限的更多信息，请访问[此处](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)。
+有关 Admin Console 中的产品配置文件和 Adobe Analytics 权限的更多信息，请访问[此处](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=zh-Hans)。
