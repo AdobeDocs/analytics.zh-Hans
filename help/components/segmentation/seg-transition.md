@@ -5,9 +5,9 @@ feature: 分段
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2071'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 98%
 
 * Analysis Workspace 中的分段：
 
-   * 您可以[比较区段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)。
+   * 您可以[比较区段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=zh-Hans)。
    * 在比较中使用[区段作为维度](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)。
-   * 在[流失分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)中使用区段。
+   * 在[流失分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html?lang=zh-Hans)中使用区段。
 
 * 您可以[将多个区段应用于一个报表或项目](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
 * 区段对于所有报表包都是通用的。
@@ -73,7 +73,7 @@ Reports &amp; Analytics 中的区段下拉菜单已被功能更加丰富的[区�
 
 **需要哪些权限才能使用、创建和管理区段？**
 
-默认情况下，所有用户都可以创建和编辑个人区段。但是，管理员可以决定哪些用户应拥有[创建区段的权限](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)，然后将这些用户分配到特定的组。这些区段可以直接与任何其他 Analytics 用户共享。
+默认情况下，所有用户都可以创建和编辑个人区段。但是，管理员可以决定哪些用户应拥有[创建区段的权限](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=zh-Hans)，然后将这些用户分配到特定的组。这些区段可以直接与任何其他 Analytics 用户共享。
 
 管理员可以编辑任何区段，并且可以与组织中的组和每个人共享区段。[更多...](/help/components/segmentation/seg-reference/seg-rights.md)
 
