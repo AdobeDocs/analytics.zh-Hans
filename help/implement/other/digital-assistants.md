@@ -5,7 +5,7 @@ exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
 source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
 workflow-type: tm+mt
 source-wordcount: '1264'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Cache-Control: no-cache
 
 ## 用户/访客识别
 
-Adobe Analytics 可使用 [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) 将不同时间的互动与同一人关联起来。大多数的数字助理将返回 `userID`，可使用该值保留不同用户的活动。在大多数情况下，可以将该值作为唯一标识符进行传递。有些平台返回的标识符长于允许的 100 个字符。在这些情况下，Adobe 建议使用标准哈希算法（如 MD5 或 Sha1）对唯一标识符进行哈希处理，使其变为固定长度值。
+Adobe Analytics 可使用 [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans) 将不同时间的互动与同一人关联起来。大多数的数字助理将返回 `userID`，可使用该值保留不同用户的活动。在大多数情况下，可以将该值作为唯一标识符进行传递。有些平台返回的标识符长于允许的 100 个字符。在这些情况下，Adobe 建议使用标准哈希算法（如 MD5 或 Sha1）对唯一标识符进行哈希处理，使其变为固定长度值。
 
 当您跨不同设备（例如从 Web 到数字助理）映射 ECID 时，使用 ID 服务能发挥最大作用。如果您的应用程序是移动设备应用程序，请按原样使用 Experience Platform SDK，然后使用 `setCustomerID` 方法发送用户 ID。但是，如果您的应用程序是一项服务，请使用该服务提供的用户 ID 作为 ECID，并在 `setCustomerID` 中对其进行设置。
 
