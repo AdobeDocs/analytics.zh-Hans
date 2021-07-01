@@ -5,9 +5,9 @@ feature: Workspace 基础知识
 role: Business Practitioner, Administrator
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '557'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Analysis Workspace 是一款通过浏览器即可使用的灵活工具，可让�
 
 ## 创建新项目 {#new-project}
 
-完成教程后，您就可以开始构建您的第一个项目。**“新项目模式”**&#x200B;提供了多种不同选项来开始您的分析。您可以选择从空白项目或[空白移动记分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html)开始，具体取决于您计划从浏览器还是从 Adobe Analytics 功能板移动应用程序共享您的分析。
+完成教程后，您就可以开始构建您的第一个项目。**“新项目模式”**&#x200B;提供了多种不同选项来开始您的分析。您可以选择从空白项目或[空白移动记分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=zh-Hans)开始，具体取决于您计划从浏览器还是从 Adobe Analytics 功能板移动应用程序共享您的分析。
 
 ![](assets/create-new-project.png)
 
@@ -45,7 +45,7 @@ Analysis Workspace 是一款通过浏览器即可使用的灵活工具，可让�
 
 ### 组件
 
-**“组件”**&#x200B;包含维度、量度、区段或日期范围，所有这些组件都可以合并到一个&#x200B;**[!UICONTROL 自由格式表]**&#x200B;中，以便开始回答您的业务问题。请务必先熟悉每个[组件类型](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)，然后再开始投入分析。掌握组件术语后，即可开始拖放至&#x200B;**[!UICONTROL 自由格式表]**&#x200B;以[构建分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html)。
+**“组件”**&#x200B;包含维度、量度、区段或日期范围，所有这些组件都可以合并到一个&#x200B;**[!UICONTROL 自由格式表]**&#x200B;中，以便开始回答您的业务问题。请务必先熟悉每个[组件类型](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)，然后再开始投入分析。掌握组件术语后，即可开始拖放至&#x200B;**[!UICONTROL 自由格式表]**&#x200B;以[构建分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html?lang=zh-Hans)。
 
 ![](assets/build-components.png)
 
@@ -63,5 +63,5 @@ Analysis Workspace 是一款通过浏览器即可使用的灵活工具，可让�
 
 ## 其他资源 {#resources}
 
-* Adobe 提供了大量的 [Analytics 视频培训教程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html)。
+* Adobe 提供了大量的 [Analytics 视频培训教程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=zh-Hans)。
 * 请参阅 [Analysis Workspace 中的新增功能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)以获取新增功能的最新信息。
