@@ -7,7 +7,7 @@ topic-fix: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1123'
 ht-degree: 100%
 
@@ -82,7 +82,7 @@ s.pageURL=""
 
 >[!IMPORTANT]
 >
->在页面上只设置一次 *`s.referrer`*。如果在跟踪的每个跟踪调用或每个链接单击中设置一次以上，则会导致重复计算反向链接或相关维度，例如搜索引擎和关键词。
+>在页面上只设置一次 *`s.referrer`*。如果在跟踪的每个跟踪调用或每个链接点击中设置一次以上，则会导致重复计算反向链接和相关维度，例如搜索引擎和关键词。
 
 ## 使用 getQueryParam 重定向 {#section_EE924E399F7A431C8FC8E8A2BEF84DEC}
 
@@ -149,7 +149,7 @@ redirects_verify_referrer.xml
 
 运行测试以验证是否正在捕获反向链接、原始 URL (*`s_server`*) 和促销活动变量。
 
-这些变量将在 [Experience Cloud 调试器](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)中表示为以下参数。
+这些变量将在 [Experience Cloud 调试器](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans)中表示为以下参数。
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
