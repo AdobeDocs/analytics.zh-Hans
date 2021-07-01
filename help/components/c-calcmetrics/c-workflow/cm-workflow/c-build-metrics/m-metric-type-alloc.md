@@ -6,7 +6,7 @@ exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '888'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->[归因](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) IQ修改了计算量度中分配模型的计算方式。作为此更改的一部分，使用非默认分配模型的计算指标已迁移至改进的新归因模型。
+>[归因](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html?lang=zh-Hans) IQ修改了计算量度中分配模型的计算方式。作为此更改的一部分，使用非默认分配模型的计算指标已迁移至改进的新归因模型。
 >
 >* 有关支持的非默认归因模型和回顾窗口的完整列表，请参阅[归因 IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) 文档。
 >* “营销渠道最近联系”和“营销渠道首次联系”分配模型将分别迁移至新的“最近联系”和“首次联系”归因模型（注：“营销渠道”并不会被弃用 - 弃用的只有此处所述出现在计算指标中的这两个分配模型）。
