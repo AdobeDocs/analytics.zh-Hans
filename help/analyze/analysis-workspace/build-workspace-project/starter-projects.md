@@ -8,7 +8,7 @@ exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
 source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '1391'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 
 * **空白项目（默认）**：有关说明，请参阅[创建 Analysis Workspace 项目](/help/analyze/analysis-workspace/home.md)。
 * **标准模板**：这些模板由 Adobe 创建，随产品一起提供。
-* **自定义模板**：这些模板可由具有管理员权限的用户或非管理员创建、共享或删除，前提是已在 Admin Console 中向他们授予了 [!UICONTROL Analysis Workspace：另存为模板]权限。[了解更多...](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)
+* **自定义模板**：这些模板可由具有管理员权限的用户或非管理员创建、共享或删除，前提是已在 Admin Console 中向他们授予了 [!UICONTROL Analysis Workspace：另存为模板]权限。[了解更多...](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=zh-Hans)
 
 ![](assets/start_modal.png)
 
@@ -56,7 +56,7 @@ ht-degree: 97%
 
 您可以按原样使用这些预填充模板，或修改它们以符合您的需要（例如，添加或替换量度或可视化图表），然后起一个新名称保存它们。
 
-这里有一段关于 [Analysis Workspace 中的标准模板](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html)的视频教程（2 分 46 秒）
+这里有一段关于 [Analysis Workspace 中的标准模板](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html?lang=zh-Hans)的视频教程（2 分 46 秒）
 
 以下是可用的模板和每个模板帮助回答的问题：
 
@@ -80,7 +80,7 @@ ht-degree: 97%
 
 * **Magento：营销与商务**：此模板通过营销渠道归因细分您的电子商务转化，并按搜索关键字、登陆页面、地理位置等提供见解。有关视频概述，请观看：
 
->[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
+>[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=zh-Hans)
 
 ### 媒体
 
@@ -118,7 +118,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->“人员”模板及其关联的“人员”量度只能在 [Adobe Experience Cloud 设备协作](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html)中使用。
+>“人员”模板及其关联的“人员”量度只能在 [Adobe Experience Cloud 设备协作](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html?lang=zh-Hans)中使用。
 
 该模板基于“人员”量度，“人员”量度是删除了重复数据的独特访客量度版本。通过“人员”量度可测量客户使用多个设备与您的品牌进行交互的频率。该模板允许您
 
