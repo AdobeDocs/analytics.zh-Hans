@@ -4,9 +4,9 @@ title: 了解 Analytics 和 Audience Manager 中的区段
 uuid: 13f7d1d7-6a3f-42f1-822e-8d3523999efa
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '735'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Audience Manager 区段成员资格不是固定不变。用户可以进入或退
 
 Audience Manager 区段在 Analytics 中以受众的形式表示。
 
-有关详细信息，请参阅[区段生成器中的特征和区段人口数据](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html)和[信号、特征和区段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html)。
+有关详细信息，请参阅[区段生成器中的特征和区段人口数据](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=zh-Hans)和[信号、特征和区段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=zh-Hans)。
 
 ## Analytics 区段 {#section_62EC584BB7134E10923BCBA7F9BD89A8}
 
@@ -44,4 +44,4 @@ Analytics 区段是一种对报表数据进行过滤的机制。不同于在 Aud
 
    相反，在 Analytics 中，将根据报告的日期范围在区段中包含或排除访客。例如有一名访客在上月进行了一次购买。在 AAM 中，这名访客将包含在“购买者”区段中，而不考虑日期范围。在 Analytics 中，基于本月的报表将不会在区段中包含该访客。而基于本月和上月的报表将在区段中包含该访客。
 
-有关详细信息，请参阅 [Analytics 分段指南。](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)
+有关详细信息，请参阅 [Analytics 分段指南。](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hans)
