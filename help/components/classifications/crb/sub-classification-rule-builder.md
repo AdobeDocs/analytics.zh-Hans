@@ -2,9 +2,9 @@
 description: 不能将分类规则生成器与子分类结合使用。
 title: 子分类和规则生成器
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '413'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 98%
 >
 >以下步骤描述如何完成[子分类和规则生成器](/help/components/classifications/crb/sub-classification-rule-builder.md)中所述的用例。
 
-1. 在[分类管理器](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)中创建分类和子分类。
+1. 在[分类管理器](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hans)中创建分类和子分类。
 
    示例：
 
