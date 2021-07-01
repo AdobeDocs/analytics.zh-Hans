@@ -1,11 +1,11 @@
 ---
 title: 独特访客
-description: 独特访客ID的数量。
+description: 独特访客 ID 的数量。
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '556'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 95%
 
 “独特访客”量度显示维度项目的访客 ID 数量。它是确定流量时最常用的量度之一，因为它提供了对维度项目常用程度的简要概述。例如，访客可能在一个月内每天访问您的网站，但仍将其计为一个独特访客。
 
-如果您使用[跨设备分析](../cda/overview.md)，则此量度将被替换为[独特设备](unique-devices.md)量度。
+如果您使用[跨设备分析](../cda/overview.md)，则此量度会被替换为[独特设备](unique-devices.md)量度。
 
 ## 每日、每周、每月、每季度和每年独特访客
 
@@ -29,8 +29,8 @@ Analysis Workspace 根据报表的粒度处理独特访客。例如，如果您�
 | --- | --- | --- |
 | 1 | `vid` | 已设置 [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 变量。 |
 | 2 | `aid` | 访客现有 [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hans) Cookie。在不实施访客 ID 服务或在实施该服务之前进行设置。 |
-| 3 | `mid` | 访客现有 [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) Cookie。在使用 [Adobe Experience Cloud Identity 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)实施时设置。 |
-| 4 | `fid` | 访客现有 [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) Cookie，或者如果由于任何原因无法设置 `aid` 和 `mid`。 |
+| 3 | `mid` | 访客现有 [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hans) Cookie。在使用 [Adobe Experience Cloud Identity 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)实施时设置。 |
+| 4 | `fid` | 访客现有 [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hans) Cookie，或者如果由于任何原因无法设置 `aid` 和 `mid`。 |
 | 5 | IP 地址、用户代理、网关 IP 地址 | 如果访客的浏览器不接受 Cookie，最后诉诸于确定独特访客。 |
 
 >[!NOTE]
