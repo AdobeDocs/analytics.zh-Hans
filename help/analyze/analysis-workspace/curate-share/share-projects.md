@@ -6,9 +6,9 @@ feature: 策划和共享
 role: Business Practitioner, Administrator
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1096'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 
 ## 项目角色 {#Roles}
 
-您可以为收件人添加三个项目角色中的一个角色。项目角色与用户和特定项目 ID 关联。项目角色与 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) 中管理的用户权限无关。
+您可以为收件人添加三个项目角色中的一个角色。项目角色与用户和特定项目 ID 关联。项目角色与 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hans) 中管理的用户权限无关。
 
 | 角色 | 项目控制 |
 |---|---|
@@ -31,7 +31,7 @@ ht-degree: 97%
 
 ### 未分配角色（项目链接）
 
-如果收件人未分配角色，并收到指向项目的[链接](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html)（**[!UICONTROL 共享] > [!UICONTROL 获取项目链接]**），则他们会获得默认角色。管理员将获得&#x200B;**[!UICONTROL 可以编辑]**&#x200B;角色，非管理员将获得&#x200B;**[!UICONTROL 可以复制]**&#x200B;角色。
+如果收件人未分配角色，并收到指向项目的[链接](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=zh-Hans)（**[!UICONTROL 共享] > [!UICONTROL 获取项目链接]**），则他们会获得默认角色。管理员将获得&#x200B;**[!UICONTROL 可以编辑]**&#x200B;角色，非管理员将获得&#x200B;**[!UICONTROL 可以复制]**&#x200B;角色。
 
 ### 分配了多个角色
 
@@ -52,20 +52,20 @@ ht-degree: 97%
 1. （可选）将嵌入的项目组件（区段、计算量度和日期范围）与所有接收人共享。共享后，这些组件将显示在接收人工作区的“组件”下拉菜单中。请注意，此设置不具有持续性，在分享时，它是独立的操作。
 1. （可选）将此页设置为收件人的登陆页面。
 此设置不具有持续性，在分享时，它是独立的操作。
-1. 单击共享。您还可以单击&#x200B;**[!UICONTROL 策划和共享]**&#x200B;以自动应用项目策划。如果某个项目已共享，则将显示&#x200B;**[!UICONTROL 更新]**&#x200B;和&#x200B;**[!UICONTROL 策划和更新]**&#x200B;按钮。了解有关[项目策划](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html)的更多信息。
+1. 单击共享。您还可以单击&#x200B;**[!UICONTROL 策划和共享]**&#x200B;以自动应用项目策划。如果某个项目已共享，则将显示&#x200B;**[!UICONTROL 更新]**&#x200B;和&#x200B;**[!UICONTROL 策划和更新]**&#x200B;按钮。了解有关[项目策划](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hans)的更多信息。
 
 ![](assets/share-proj-modal.png)
 
 ## 共享到收件人组 {#Groups}
 
-所有用户都可以将项目共享到由多位收集人组成的组。在 Adobe Analytics 中，组由 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) 中的产品配置文件定义。
+所有用户都可以将项目共享到由多位收集人组成的组。在 Adobe Analytics 中，组由 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hans) 中的产品配置文件定义。
 
 * 管理员可以共享到任何组，包括“全部”组。
 * 除“全部”组外，非管理员可以共享到其所属的组。
 
-## 共享报表链接 {#Links}
+## 共享项目链接 {#Links}
 
-您可以通过&#x200B;**[!UICONTROL 共享] > [!UICONTROL 获取项目链接]**&#x200B;来获取某个项目的链接。单击该链接后，收件人将需要先登录，然后才能进入项目。如果收件人未分配到角色，他们将获得默认角色。管理员将获得&#x200B;**[!UICONTROL 可以编辑]**&#x200B;角色，非管理员将获得&#x200B;**[!UICONTROL 可以复制]**&#x200B;角色。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html)有关创建指向工作区项目的可共享链接的信息。
+您可以通过&#x200B;**[!UICONTROL 共享] > [!UICONTROL 获取项目链接]**&#x200B;来获取某个项目的链接。单击该链接后，收件人将需要先登录，然后才能进入项目。如果收件人未分配到角色，他们将获得默认角色。管理员将获得&#x200B;**[!UICONTROL 可以编辑]**&#x200B;角色，非管理员将获得&#x200B;**[!UICONTROL 可以复制]**&#x200B;角色。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=zh-Hans)有关创建指向工作区项目的可共享链接的信息。
 
 ## 在项目管理器中共享项目 {#Manager}
 
