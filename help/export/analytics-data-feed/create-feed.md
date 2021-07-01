@@ -5,7 +5,7 @@ exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
 workflow-type: tm+mt
 source-wordcount: '948'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -43,11 +43,11 @@ ht-degree: 90%
 
 ### S3
 
-您可以直接将馈送发送到 Amazon S3 存储段。此目标类型需要存储段名称、访问密钥ID和密钥。 有关详细信息，请参阅 Amazon S3 文档中的 [Amazon S3 存储段命名要求](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)。
+您可以直接将馈送发送到 Amazon S3 存储段。此目标类型需要存储段名称、访问密钥 ID 和密钥。有关详细信息，请参阅 Amazon S3 文档中的 [Amazon S3 存储段命名要求](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)。
 
 ![S3 信息](assets/dest-s3.jpg)
 
-您为上传数据馈送提供的用户必须具有以下[权限](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
+您为上传数据馈送提供的用户必须具有以下[权限](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html)：
 
 * s3:GetObject
 * s3:PutObject
@@ -55,7 +55,7 @@ ht-degree: 90%
 
    >[!NOTE]
    >
-   >对于每次上传到Amazon S3存储段时， [!DNL Analytics]会将存储段所有者添加到BucketOwnerFullControl ACL，无论该存储段是否具有需要该存储段的策略。 有关更多信息，请参阅“[Amazon S3数据馈送的BucketOwnerFullControl设置是什么？](df-faq.md#BucketOwnerFullControl)”
+   >每次上传到 Amazon S3 存储桶时，无论存储桶是否有需要它的策略，[!DNL Analytics] 都会将存储桶所有者添加到 BucketOwnerFullControl ACL。有关详细信息，请参阅“[什么是 Amazon S3 数据馈送的 BucketOwnerFullControl 设置？](df-faq.md#BucketOwnerFullControl)”
 
 以下 16 个标准 AWS 区域（在必要时使用适当的签名算法）受支持：
 
