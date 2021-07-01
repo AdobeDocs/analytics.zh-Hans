@@ -3,9 +3,9 @@ title: 将数据层对象映射到数据元素
 description: 将 Launch 配置为从数据层读取。
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 ## 使用 Adobe Experience Platform Launch 创建数据元素
 
-[数据元素](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/data-elements.html#create-a-data-element)是 Launch 中的组件，您可以在整个工具中使用这些组件。您可以使用数据元素在 Adobe Analytics 扩展中分配变量值。
+[数据元素](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/data-elements.html?lang=zh-Hans#create-a-data-element)是 Launch 中的组件，您可以在整个工具中使用这些组件。您可以使用数据元素在 Adobe Analytics 扩展中分配变量值。
 
 1. 转到 [Adobe Experience Platform Launch](https://launch.adobe.com)，并在出现提示时登录。
 1. 单击所需的 Launch 属性。
