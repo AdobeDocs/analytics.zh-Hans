@@ -5,9 +5,9 @@ title: 安全文件传输协议 - 概述
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
 exl-id: ea0448f9-1685-4a8f-b2f9-49d315c6ab71
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ SFTP 是一种用于传输数据的安全协议，它可确保除你之外，没
 
 这表示 Adobe 的服务器将文件“推送”到您的服务器。我们实质上是将它传送到您的端点。
 
-[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) 和 [Analytics 数据馈送](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html)可通过 SFTP 推送数据。
+[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) 和 [Analytics 数据馈送](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=zh-Hans)可通过 SFTP 推送数据。
 
 以下 Analytics 工具&#x200B;**不能**&#x200B;通过 SFTP 推送数据。
 
