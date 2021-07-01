@@ -3,7 +3,7 @@ title: trackingServer
 description: 确定发送图像请求的位置。
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '396'
 ht-degree: 100%
 
