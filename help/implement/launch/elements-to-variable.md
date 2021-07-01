@@ -3,9 +3,9 @@ title: 将 Launch 数据元素映射到 Analytics 变量
 description: 将数据元素分配给 Analytics 变量，以便在 Analysis Workspace 中可以将这些变量用作维度。
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 98%
 
 ### 在规则中设置变量
 
-如果您不希望在每个页面上设置变量，理想的做法是在规则中设置变量。在规则中定义条件。请参阅 Adobe Experience Platform Launch 用户指南中的[规则](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html)。
+如果您不希望在每个页面上设置变量，理想的做法是在规则中设置变量。在规则中定义条件。请参阅 Adobe Experience Platform Launch 用户指南中的[规则](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html?lang=zh-Hans)。
 
 1. 转到 [Adobe Experience Platform Launch](https://launch.adobe.com)，并在出现提示时登录。
 1. 单击所需的 Launch 属性。
