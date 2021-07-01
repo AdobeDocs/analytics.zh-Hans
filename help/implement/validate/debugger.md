@@ -3,7 +3,7 @@ title: 旧版 Adobe Experience Cloud Debugger
 description: 安装旧版 Adobe Experience Cloud Debugger。此调试器可检查 Analytics、Target、Advertising Cloud、Identity Service 和 Launch 的标签。
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '684'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> Adobe 将不再维护此调试工具。Adobe 建议改用 [Adobe Experience Cloud Debugger Chrome 扩展](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)。
+> Adobe 将不再维护此调试工具。Adobe 建议改用 [Adobe Experience Cloud Debugger Chrome 扩展](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans)。
 
 [!UICONTROL 旧版调试器]可检查大多数 Adobe Experience Cloud 服务的标签。通过使用该调试器，您可以查看在网站上的任何给定页面向 Adobe 发送了哪些数据。您可以使用此信息对贵组织的实施进行故障诊断或验证。
 
@@ -35,7 +35,7 @@ javascript:void(window.open("","stats_debugger","width=800,height=800,location=0
 
 #### Chrome
 
-如果您坚持不使用 [Chrome 扩展](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)，则可以改用旧版调试器小书签。
+如果您坚持不使用 [Chrome 扩展](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans)，则可以改用旧版调试器小书签。
 
 1. 单击右上方的三个圆点，然后转到“书签”>“书签管理器”。此外，您还可以按 `Ctrl` + `Shift` + `O` (Windows) 或 `Cmd` + `Shift` + `O` (Mac)。
 2. 在书签管理器的右上方，单击三个圆点，然后单击“添加新书签”。
