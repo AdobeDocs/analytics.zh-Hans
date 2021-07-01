@@ -5,13 +5,13 @@ feature: 分段
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2036'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Segment Builder
+# 区段生成器
 
 通过使用[!UICONTROL 区段生成器]，您可以生成和保存简单或复杂的区段，以确定跨访问和页面点击的访客属性和操作。它提供了一个画布以将指标维度、事件或其他区段拖放到其中，从而根据层次结构逻辑、规则和运算符分段访客。
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 * **Analytics 顶部导航**：单击 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 区段]**。
 * **[!UICONTROL Analysis Workspace]**：单击 **[!UICONTROL Analytics]** > **[!UICONTROL 工作区]**，打开一个项目，然后单击 **[!UICONTROL + 新建]** > **[!UICONTROL 创建区段]**。
 * **[!UICONTROL Reports &amp; Analytics]**：单击 **[!UICONTROL Analytics]** > **[!UICONTROL 报表]**，打开一个现有报表并单击左侧导航中的“区段”图标 ![](assets/segment_icon.png)，然后单击&#x200B;**[!UICONTROL 添加]**。
-* **[!UICONTROL Report Builder]**：[在 Report Builder 中添加或编辑区段](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html)。
+* **[!UICONTROL Report Builder]**：[在 Report Builder 中添加或编辑区段](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html?lang=zh-Hans)。
 
 ## 生成器条件 {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -203,7 +203,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> 查看的产品未添加到购物车 </td> 
-   <td colname="col2">查看浏览了产品但未添加到购物车的访客的数据。在区段定义中，容器为访问。此顺序区段的规则为 <p>产品查看不为空 </p> <p>然后 </p> <p> 购物车加货等于 0。 </p> </td> 
+   <td colname="col2">查看浏览了产品但未添加到购物车的访客的数据。在区段定义中，容器为访问。此顺序区段的规则为 <p>产品查看不为空 </p> <p>Then </p> <p> 购物车加货等于 0。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 来自促销活动的访问量 </td> 
