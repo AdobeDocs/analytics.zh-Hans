@@ -4,9 +4,9 @@ title: 虚拟报表包组件管理
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -71,4 +71,4 @@ ht-degree: 98%
 
 ## 工作区行为 {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-有关 Analysis Workspace 中策化的更多信息，请参阅[策划和共享项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html)。
+有关 Analysis Workspace 中策化的更多信息，请参阅[策划和共享项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hans)。
