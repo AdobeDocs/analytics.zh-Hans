@@ -5,7 +5,7 @@ exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
 source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 80%
+ht-degree: 93%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 80%
 
 Adobe Experience Platform (AEP) Web SDK 包括有助于您在 Platform 与 Analytics 之间手动映射数据的辅助工具。
 
-对于未自动映射到 Analytics 的 XDM 数据，您可以添加[上下文数据](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html)以匹配您的[架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html)。然后，Analytics [处理规则](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html)会使用这些数据来填充 Analytics 变量。
+对于未自动映射到 Analytics 的 XDM 数据，您可以添加[上下文数据](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html?lang=zh-Hans)以匹配您的[架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans)。然后，Analytics [处理规则](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html?lang=zh-Hans)会使用这些数据来填充 Analytics 变量。
 
 此外，您还可以使用一组默认的操作和产品列表，通过[AEP Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)发送或检索数据。
 
@@ -57,7 +57,7 @@ Adobe Experience Platform (AEP) Web SDK 包括有助于您在 Platform 与 Analy
 
 Experience Platform 会使用架构，以便以可重用的一致方式描述数据结构。通过在整个系统中以一致的方式定义数据，更容易保留含义并因此从数据中获取价值。Analytics 上下文数据与架构定义的结构可搭配使用。
 
-以下示例显示如何将 [`event` 命令](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html)与 `xdm` 选项一起使用，以通过 AEP Web SDK 来发送和检索数据。在此示例中，`event` 命令与 [ExperienceEvent 商务详细信息架构](https://github.com/adobe/xdm/blob/1c22180490558e3c13352fe3e0540cb7e93c69ca/docs/reference/context/experienceevent-commerce.schema.md)匹配，因此可以跟踪 productListItems `name` 和 `SKU` 值：
+以下示例显示如何将 [`event` 命令](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hans)与 `xdm` 选项一起使用，以通过 AEP Web SDK 来发送和检索数据。在此示例中，`event` 命令与 [ExperienceEvent 商务详细信息架构](https://github.com/adobe/xdm/blob/1c22180490558e3c13352fe3e0540cb7e93c69ca/docs/reference/context/experienceevent-commerce.schema.md)匹配，因此可以跟踪 productListItems `name` 和 `SKU` 值：
 
 
 ```
