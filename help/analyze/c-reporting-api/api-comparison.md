@@ -6,9 +6,9 @@ feature: API
 role: Developer
 exl-id: 924f591d-b6ed-4dae-aa69-72d72217e7bd
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Analytics 报表 API 的比较表。提供了支持文档的链接。
    <td colname="col5"> 用于提取大型数据导出的完全处理的完成数据。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://experienceleague.adobe.com/docs/analytics/technotes/latency.html"  > 延迟</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://experienceleague.adobe.com/docs/analytics/technotes/latency.html?lang=zh-Hans"  > 延迟</a> </p> </td> 
    <td colname="col2"> 30-90 分钟 </td> 
    <td colname="col3"> * 数秒 - 10 分钟 </td> 
    <td colname="col4"> 数秒 - 10 分钟 </td> 
@@ -53,7 +53,7 @@ Analytics 报表 API 的比较表。提供了支持文档的链接。
    <td colname="col5"> 完全 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://experienceleague.adobe.com/docs/analytics/landing/home.html"  > 报表界面</a> </td> 
+   <td colname="col1"> <a href="https://experienceleague.adobe.com/docs/analytics/landing/home.html?lang=zh-Hans"  > 报表界面</a> </td> 
    <td colname="col2"> Analysis Workspace、Reports &amp; Analytics、Report Builder、API </td> 
    <td colname="col3"> Reports &amp; Analytics、Report Builder、1.4 API 中的实时报表 </td> 
    <td colname="col4"> 仅限 API </td> 
@@ -85,7 +85,7 @@ Analytics 报表 API 的比较表。提供了支持文档的链接。
    <td colname="col2"> <p> <a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"  > Analytics API</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis"  > 实时报表</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md"  > 实时流概述</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=zh-Hans"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
