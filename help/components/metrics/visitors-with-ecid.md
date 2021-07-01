@@ -3,15 +3,15 @@ title: 具有 Experience Cloud ID 的访客
 description: 使用 Adobe Experience Cloud ID 服务的独特访客数。
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # 具有 Experience Cloud ID 的访客
 
-“具有 Experience Cloud ID 的访客”量度显示 Adobe 识别的使用 [Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)的独特访客数量。当与[独特访客](unique-visitors.md)量度进行比较时，此维度非常有用，可确保网站的大多数访客都使用 ID 服务。如果大部分访客不使用 ID 服务 Cookie，则它可能会提示您的实施中存在问题。
+“具有 Experience Cloud ID 的访客”量度显示 Adobe 识别的使用 [Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)的独特访客数量。当与[独特访客](unique-visitors.md)量度进行比较时，此维度非常有用，可确保网站的大多数访客都使用 ID 服务。如果大部分访客不使用 ID 服务 Cookie，则它可能会提示您的实施中存在问题。
 
 >[!NOTE]
 >
@@ -37,4 +37,4 @@ ht-degree: 98%
 
 ![无 ID 服务的页面](assets/metric-mcvid3.png)
 
-请注意，“产品快速视图”维度项目未使用 Identity Service 正确实施。您可以与组织内的相应团队合作，以尽快更新这些页面。您可以使用任何类型的维度（例如[浏览器类型](../dimensions/browser-type.md)、[网站区域](../dimensions/site-section.md)或任何 [eVar](../dimensions/evar.md) 构建类似报表。
+请注意，“产品快速视图”维度项目未使用 Identity Service 正确实施。您可以与组织内的相应团队合作，以尽快更新这些页面。您可以使用任何类型的维度（例如[浏览器类型](../dimensions/browser-type.md)、[网站区域](../dimensions/site-section.md)或任何 [eVar](../dimensions/evar.md)）构建类似报表。
