@@ -4,9 +4,9 @@ title: 我应该使用哪种 Adobe Analytics 工具？
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1158'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 * 用于访问有关“视频时段”和“观看者流失率”的独特的视频可视化图表。
 * 用于在计划报表中使用“发布列表”功能。
 
-**[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html)** 的使用说明：
+**[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=zh-Hans)** 的使用说明：
 
 * 最灵活的 Analytics 工具选项（针对访客级别和点击级别分析）。
 * 用于创建从 CRM 到 POS 和 Web 的在线和离线交互的多渠道数据集。
@@ -70,7 +70,7 @@ ht-degree: 98%
 
 * “数据插入 API”和“批量数据插入 API”都可以把从服务器端收集的数据提交到 Adobe Analytics。每次生成事件时都将调用“数据插入 API”。“批量数据插入 API”接受包含事件数据在内的 CSV 格式的文件，其中每行有一个事件。如果您正在实施新的服务器端收集，我们建议您使用“批量数据插入 API”。
 
-**[客户属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)**&#x200B;的使用说明：
+**[客户属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hans)**&#x200B;的使用说明：
 
 * 适用于您在客户关系管理 (CRM) 数据库中捕获了企业客户数据，并希望将该数据上载到 Experience Cloud 的情况。
 * 适用于要在 Analytics 中使用 CRM 数据进行更深入的分析，或要在 Adobe Target 中将该数据作为定位条件的情况。
