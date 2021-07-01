@@ -4,9 +4,9 @@ title: 生成量度
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '964'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -130,7 +130,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col2"> <p>区段列表 </p> </td> 
-   <td colname="col3"> <p>（仅限高级计算量度）如果您是管理员，此列表会显示在您的登录公司中创建的所有区段。如果您不是管理员，此列表会显示您拥有的区段以及与您共享的区段。<a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html"  > 更多... </a> </p> </td> 
+   <td colname="col3"> <p>（仅限高级计算量度）如果您是管理员，此列表会显示在您的登录公司中创建的所有区段。如果您不是管理员，此列表会显示您拥有的区段以及与您共享的区段。<a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html?lang=zh-Hans"  > 更多... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>函数列表 </p> </td> 
