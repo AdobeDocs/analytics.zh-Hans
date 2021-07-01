@@ -5,9 +5,9 @@ feature: Workspace 基础知识
 role: Business Practitioner, Administrator
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '715'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Analysis Workspace 中的组件包括维度、量度、区段和日期范围，�
 
 ## 维度 {#dimensions}
 
-[**维度**](https://experienceleague.adobe.com/docs/analytics/components/dimensions/overview.html)是描述访客行为的文本属性，可以在分析中查看、细分和比较。它们可以在左侧的“组件”边栏（橙色部分）中找到，通常作为表中的行。
+[**维度**](https://experienceleague.adobe.com/docs/analytics/components/dimensions/overview.html?lang=zh-Hans)是描述访客行为的文本属性，可以在分析中查看、细分和比较。它们可以在左侧的“组件”边栏（橙色部分）中找到，通常作为表中的行。
 
 维度的示例包括[!UICONTROL 页面名称]、[!UICONTROL 营销渠道]、[!UICONTROL 设备类型]和[!UICONTROL 产品]。维度由 Adobe 提供，通过自定义实施来捕获（eVar、Prop、分类等）。
 
@@ -35,25 +35,25 @@ Analysis Workspace 中的组件包括维度、量度、区段和日期范围，�
 
 ## 量度 {#metrics}
 
-[**量度**](https://experienceleague.adobe.com/docs/analytics/components/metrics/overview.html)是有关访客行为的量化指标。它们可以在左侧的“组件”边栏（绿色部分）中找到，通常作为表中的列。
+[**量度**](https://experienceleague.adobe.com/docs/analytics/components/metrics/overview.html?lang=zh-Hans)是有关访客行为的量化指标。它们可以在左侧的“组件”边栏（绿色部分）中找到，通常作为表中的列。
 
-量度的示例包括[!UICONTROL 页面查看数]、[!UICONTROL 访问]、[!UICONTROL 订单]、[!UICONTROL 平均用时]和[!UICONTROL 收入/订单]。量度由 Adobe 提供、通过自定义实施来捕获（[!UICONTROL 成功事件]）或者使用[计算量度生成器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)创建。
+量度的示例包括[!UICONTROL 页面查看数]、[!UICONTROL 访问]、[!UICONTROL 订单]、[!UICONTROL 平均用时]和[!UICONTROL 收入/订单]。量度由 Adobe 提供、通过自定义实施来捕获（[!UICONTROL 成功事件]）或者使用[计算量度生成器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=zh-Hans)创建。
 
 ![](assets/metrics.png)
 
 ## 区段 {#segments}
 
-[**区段**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html)是应用到分析的受众过滤器。它们可以在左侧的“组件”边栏（蓝色部分）中找到，通常位于面板的顶部或者在表中量度列的上方。
+[**区段**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html?lang=zh-Hans)是应用到分析的受众过滤器。它们可以在左侧的“组件”边栏（蓝色部分）中找到，通常位于面板的顶部或者在表中量度列的上方。
 
-区段的示例包括[!UICONTROL 移动设备访客]、[!UICONTROL 来自电子邮件的访问]和[!UICONTROL 经验证的点击]。区段由 Adobe 提供、在[面板拖放区域](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html)中创建或者使用[区段生成器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html)创建。
+区段的示例包括[!UICONTROL 移动设备访客]、[!UICONTROL 来自电子邮件的访问]和[!UICONTROL 经验证的点击]。区段由 Adobe 提供、在[面板拖放区域](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hans)中创建或者使用[区段生成器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hans)创建。
 
 ![](assets/segments.png)
 
 ## 日期范围 {#date-ranges}
 
-[**日期范围**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html)是您进行分析时使用的日期的范围。它们可以在左侧的“组件”边栏（紫色部分）中找到，通常用于各个面板的日历中。
+[**日期范围**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html?lang=zh-Hans)是您进行分析时使用的日期的范围。它们可以在左侧的“组件”边栏（紫色部分）中找到，通常用于各个面板的日历中。
 
-日期范围的示例包括 2019 年 7 月、[!UICONTROL 过去 4 周]和[!UICONTROL 本月]。日期范围由 Adobe 提供、在[面板日历](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html)中应用或者使用[日期范围生成器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html)创建。
+日期范围的示例包括 2019 年 7 月、[!UICONTROL 过去 4 周]和[!UICONTROL 本月]。日期范围由 Adobe 提供、在[面板日历](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hans)中应用或者使用[日期范围生成器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=zh-Hans)创建。
 
 ![](assets/date-ranges.png)
 
