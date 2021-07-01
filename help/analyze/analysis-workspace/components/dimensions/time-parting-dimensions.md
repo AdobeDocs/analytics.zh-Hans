@@ -6,9 +6,9 @@ feature: Workspace 基础知识
 role: Business Practitioner, Administrator
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->时间划分维度仅在 Analysis Workspace 中可用。要在其他 Analytics 解决方案中使用时间划分维度，您可以实施 [getTimeParting 插件](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/gettimeparting.html)。
+>时间划分维度仅在 Analysis Workspace 中可用。要在其他 Analytics 解决方案中使用时间划分维度，您可以实施 [getTimeParting 插件](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/gettimeparting.html?lang=zh-Hans)。
 
 Analysis Workspace 中的时间划分维度包括：
 
