@@ -4,9 +4,9 @@ description: AppMeasurement for JavaScript 的发行说明汇总。
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2132'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ ht-degree: 98%
 
 * 已将受众管理模块更新至 DIL 9.1。(AN-175255)
 * GTM 安全策略不允许使用 Activity Map 模块。(AN-174679)
-* 改进了 AppMeasurement，支持未在“选择加入”中 Identity Service 时选择退出。(AN-175259)
+* 改进了 AppMeasurement，支持当 Identity Service 未在“选择加入”中获得批准时选择退出。(AN-175259)
 
 ## 版本 2.11.0
 
@@ -308,8 +308,8 @@ ht-degree: 98%
 
 发行日期：**2015 年 5 月 21 日**
 
-* 从 iOS SDK 4.5 版开始，新增的 iOS 扩展允许您从 Apple Watch 应用程序、“今天”小组件、照片编辑小组件和所有其他 iOS 扩展应用程序中收集使用情况数据。请参阅 Mobile Services 用户指南中的 [iOS 扩展实施](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html)。
-* 从 Android SDK 版本 4.5 开始，新增的 Android 扩展允许您从 Android 可穿戴应用程序中收集数据。请参阅 Mobile Services 用户指南中的 [Android 可穿戴应用程序](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html)。
+* 从 iOS SDK 4.5 版开始，新增的 iOS 扩展允许您从 Apple Watch 应用程序、“今天”小组件、照片编辑小组件和所有其他 iOS 扩展应用程序中收集使用情况数据。请参阅 Mobile Services 用户指南中的 [iOS 扩展实施](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html?lang=zh-Hans)。
+* 从 Android SDK 版本 4.5 开始，新增的 Android 扩展允许您从 Android 可穿戴应用程序中收集数据。请参阅 Mobile Services 用户指南中的 [Android 可穿戴应用程序](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html?lang=zh-Hans)。
 * 包括 Visitor API 1.4。
 * 更新了 AudienceManagement 模块，以便使用 DIL 版本 6.0。
 
@@ -394,7 +394,7 @@ ht-degree: 98%
 
 发行日期：**2014 年 4 月 17 日**
 
-* 支持 [Experience Cloud 访客 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
+* 支持 [Experience Cloud 访客 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
 
 ## 版本 1.2.4
 
@@ -424,8 +424,8 @@ ht-degree: 98%
 
 发行日期：**2013 年 11 月 14 日**
 
-* 添加了对[心率视频测量](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)的支持。
-* `VisitorAPI.js`添加了 ，以便支持[访客 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
+* 添加了对[心率视频测量](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans)的支持。
+* `VisitorAPI.js`添加了 ，以便支持[访客 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
 
 ## 版本 1.1.1
 
