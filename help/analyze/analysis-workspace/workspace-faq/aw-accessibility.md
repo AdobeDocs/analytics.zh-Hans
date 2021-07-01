@@ -5,9 +5,9 @@ feature: Workspace 基础知识
 role: Business Practitioner, Administrator
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '657'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -23,20 +23,20 @@ ht-degree: 82%
 
 [!UICONTROL Analysis Workspace] 中的导航方式包括自上而下，以及从左至右。以下导航元素有助于促进无障碍功能：
 
-* `Tab` 键会启用地标快捷键，在工作区中的较大区域之间移动。 在左边栏中，`Tab`还允许您从一个可拖动选项移动到下一个可拖动选项。
-* `left/right arrows`在突出显示`Tab`后在各个元素之间移动。
-* `F6`导航到项目中的第一个面板，并在该面板中的可视化之间移动。 然后，它会移到项目中的下一个面板并重复。
+* `Tab` 键会启用地标快捷键，并在 Workspace 内的较大部分之间移动。在左侧边栏中，`Tab` 还允许您从一个可拖动选项移到下一个可拖动选项。
+* `Tab` 突出显示单个元素后，`left/right arrows` 可在单个元素之间移动。
+* `F6` 会导航到项目中的第一个面板，并在该面板内的可视化图表之间移动。然后，它将移到项目中的下一个面板并重复上述操作。
 * 我们应用焦点指示器，以便近视的键盘用户能够清楚地了解当前具有焦点的 UI 元素。指示器是指选定元素周围的蓝色边框。
 
    ![焦点指示器](assets/focus-indicator.png)
 
 ### 菜单栏的键盘导航
 
-1. 选项卡，直到您到达菜单栏。
-1. 使用左/右箭头键导航到所需的菜单。
-1. 按`Enter`选择菜单并显示其选项。
-1. 使用向上/向下箭头键导航到所需的菜单选项。
-1. 按`Enter`选择选项。
+1. 按 Tab 键，直到到达菜单栏。
+1. 使用向左/向右箭头键导航到您想要的菜单。
+1. 按 `Enter` 以选择此菜单并显示其选项。
+1. 使用向上/向下箭头键导航到您想要的选项。
+1. 按 `Enter` 以选择此选项。
 
 ### 键盘导航进行拖放交互操作
 
