@@ -3,7 +3,7 @@ title: trackingServerSecure
 description: 确定在 HTTPS 页面上发送图像请求的位置。
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
 ht-degree: 100%
 
