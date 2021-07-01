@@ -6,9 +6,9 @@ feature: 可视化图表
 role: Business Practitioner, Administrator
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1090'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Analysis Workspace 中提供了以下可视化图表类型：
 1. 输入新的标签文本。
 1. 按 **[!UICONTROL Enter]** 键保存。
 
-下面是一个[指向该主题相关视频的链接](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html)。
+下面是一个[指向该主题相关视频的链接](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html?lang=zh-Hans)。
 
 ## 右键单击菜单 {#right-click}
 
@@ -90,8 +90,8 @@ Analysis Workspace 中提供了以下可视化图表类型：
 | --- | --- |
 | 插入复制的面板/可视化图表 | 此设置允许您将复制的面板或可视化图表粘贴（“插入”）到项目中的其他位置或完全不同的项目中。 |
 | 复制可视化图表 | 此设置允许您右键单击并复制可视化图表，以便将其插入到项目中的其他位置或完全不同的项目中。 |
-| [以 CSV 格式下载项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-items) | 以 CSV 格式下载所选维度，最多下载 50,000 个维度项。 |
-| [将数据下载为 CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-data) | 以 CSV 格式下载可视化图表数据源。 |
+| [以 CSV 格式下载项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hans?#download-items) | 以 CSV 格式下载所选维度，最多下载 50,000 个维度项。 |
+| [将数据下载为 CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hans?#download-data) | 以 CSV 格式下载可视化图表数据源。 |
 | 复制可视化 | 生成一个与当前可视化图表完全相同的副本，然后可对其进行修改。 |
 | 编辑描述 | 添加（或编辑）可视化图表的文本描述。 |
 | 获取可视化图表链接 | 此设置允许您将用户引导至项目中的可视化图表。单击该链接时，收件人需要先登录，然后才能转至所链接到的确切可视化图表。 |
