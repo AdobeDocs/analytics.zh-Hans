@@ -5,9 +5,9 @@ user-guide-title: Analytics 集成指南
 breadcrumb-title: 集成指南
 user-guide-description: 配置与其他 Adobe Experience Cloud 解决方案（如 Audience Manager、Advertising Cloud 和 Target）的集成。
 source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '159'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 88%
    + [Audience Analytics 概述](c-audience-analytics/mc-audiences-aam.md)
    + Audience Analytics 工作流程 {#audience-analytics-workflow}
       + [工作流程概述](c-audience-analytics/c-workflow/audiences-workflow.md)
-      + [创建 Analytics 目标 - AAM 指南](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
+      + [创建 Analytics 目标 - AAM 指南](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=zh-Hans)
       + [在 Analytics 中使用受众数据](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Audience Analytics 用例](c-audience-analytics/aam-audience-use-cases.md)
       + [常见问题解答](c-audience-analytics/mc-audiences-faqs.md)
@@ -37,7 +37,7 @@ ht-degree: 88%
       + [管理广告帐户](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Advertising Analytics 疑难解答](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [常见问题解答](c-advertising-analytics/aa-faq.md)
-+ [Analytics for Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)
++ [Analytics for Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)
 + [Analytics 中的 Adobe Campaign 报告功能](adobe-campaign.md)
 + [将 Analytics 数据与 Campaign Classic 集成](analytics-to-campaign-classic.md)
 + [AEM Assets 报告](aem-assets-reporting.md)
