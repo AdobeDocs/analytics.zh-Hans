@@ -3,9 +3,9 @@ title: websiteBot
 description: 通过移动鼠标，动态识别机器人。
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
 source-git-commit: e76cf660bb14b8a69e44d300afcc4e712147de5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '429'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -19,25 +19,25 @@ ht-degree: 52%
 
 这个插件可执行两项检查：
 
-* 首先，对于桌面设备，它会添加用于鼠标移动的事件侦听器。
-* 接下来，它使用`navigator.UserAgent`变量确定设备是桌面设备还是移动设备。 移动设备将被忽略。
+* 首先，对于桌面设备，它会为鼠标移动添加一个事件侦听器。
+* 然后，它使用 `navigator.UserAgent` 变量来确定设备是桌面设备还是移动设备。移动设备将被忽略。
 
-如果用户代理在桌面上，并且未检测到鼠标移动，则插件可
+如果用户代理使用的是桌面设备并且未检测出鼠标移动，则该插件可以
 
-* 进行[!UICONTROL 直接调用]规则调用(对于Adobe Experience Platform Launch)，或者
-* 进行`s.tl`调用以指示访客不是机器人。
+* 进行[!UICONTROL 直接调用]规则调用（适用于 Adobe Experience Platform Launch），或者
+* 进行 `s.tl` 调用以表明访客不是机器人。
 
 ## 先决条件
 
 Adobe 建议在使用此插件之前执行以下操作：
 
-* **配置 eVar 设置**：在“报表包”设置中的[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)下设置 eVar。将过期时间设置为&#x200B;**Never**&#x200B;或&#x200B;**Visit** ，并分配到&#x200B;**&quot;Original Value(First)&quot;**。 应在以下两种情况下设置此eVar:触发[!UICONTROL 直接调用]规则或`s.tl`调用时。
+* **配置 eVar 设置**：在“报表包”设置中的[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)下设置 eVar。将到期设置为&#x200B;**从不**&#x200B;或&#x200B;**访问**，并将分配设置为&#x200B;**“原始值（第一个）”**。 在以下两种情况下都应设置此 eVar：当触发[!UICONTROL 直接调用]规则或 `s.tl` 调用时。
 * **在单独的变量中收集用户代理**：将用户代理字符串收集到一个单独的变量中，以监控此插件的功效。每次点击时，将 eVar 设置为 `navigator.UserAgent` 以收集此数据。
 
 ## 使用 Launch 自定义代码编辑器安装此插件
 
-1. 添加新的`websiteBot`规则。
-1. 将&#x200B;**鼠标移动监听器**&#x200B;事件添加到`websiteBot`规则中，并使用以下自定义代码：
+1. 添加新 `websiteBot` 规则。
+1. 使用以下自定义代码将&#x200B;**鼠标移动侦听器**&#x200B;事件添加到 `websiteBot` 规则：
 
    ```
    trigger(document.addEventListener('mousemove', function detectMouseMove() {   
@@ -72,13 +72,13 @@ Adobe 建议在使用此插件之前执行以下操作：
       }))
    ```
 
-1. 添加[!UICONTROL 直接调用]规则，以使用`websiteBot`作为标识符触发Analytics信标。 在此示例中，它使用`s.tl`调用：
+1. 添加[!UICONTROL 直接调用]规则，以使用 `websiteBot` 作为标识符来触发 Analytics 信标。在本示例中，它使用 `s.tl` 调用：
 
-   ![websiteBot标识符](assets/websitebot.png)
+   ![websiteBot 标识符](assets/websitebot.png)
 
-1. 在[!UICONTROL Direct Call]规则中触发Adobe Analytics - Set Variables &amp; Adobe Analytics - Send Beacon操作。  下面的示例中显示了一种执行此操作的方法：
+1. 在[!UICONTROL 直接调用]规则中触发“Adobe Analytics – 设置变量”和“Adobe Analytics – 发送信标”操作。以下示例显示了执行此操作的一种方法：
 
-   ![Send Beacon操作](assets/websitebot2.png)
+   ![“发送信标”操作](assets/websitebot2.png)
 
 
 ## 使用 AppMeasurement 安装此插件
@@ -94,7 +94,7 @@ Adobe 建议在使用此插件之前执行以下操作：
 
 ## 使用此插件
 
-如果检测到非机器人流量，则`websiteBot`插件会触发`s.tl`调用。
+如果检测到非机器人流量，则 `websiteBot` 插件会触发 `s.tl` 调用。
 
 ## 示例
 
@@ -110,10 +110,10 @@ s.eVar1 = websiteBot ? "Bot detected" : "Not a bot";
 
 ### 0.1（2021 年 1 月 19 日）
 
-* 测试版
+* Beta 版
 
-### 0.11（2021年6月3日）
+### 0.11（2021 年 6 月 3 日）
 
-* 更新了AppMeasurement插件代码
-* 更新了Launch部分，添加了扩展的说明。
-* 更新了“使用插件”章节。
+* 更新了 AppMeasurement 插件代码
+* 使用扩展说明更新了“发布”部分。
+* 更新了“使用插件”部分。
