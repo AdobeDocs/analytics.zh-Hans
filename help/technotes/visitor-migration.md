@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '441'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 * 从 `2o7.net` 迁移到 `adobedc.net`。
 
-* 您在实施 [Experience Cloud 访客 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html) 并从 CNAME/第一方数据收集域迁移到 `adobedc.net`、`2o7.net` 或 `omtrdc.net`
+* 您在实施 [Experience Cloud 访客 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans) 并从 CNAME/第一方数据收集域迁移到 `adobedc.net`、`2o7.net` 或 `omtrdc.net`
 
 * 从 cname/第一方数据收集迁移（[第一方 Cookie）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=zh-Hans)。
 
