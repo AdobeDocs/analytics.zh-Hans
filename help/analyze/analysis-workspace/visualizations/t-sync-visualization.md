@@ -3,11 +3,10 @@ description: 通过同步可视化信息，您可以控制与可视化对应的�
 keywords: Analysis Workspace;将可视化与数据源同步
 title: 管理数据源
 feature: 可视化图表
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 100%
 
