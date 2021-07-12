@@ -3,15 +3,14 @@ description: 脱机模式会返回占位符数据，从而加快创建和编辑�
 title: 用于创建和编辑请求的脱机模式
 uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: f18859e3-19e4-48af-963f-0bb4d1b46380
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 98%
+source-wordcount: '197'
+ht-degree: 100%
 
 ---
-
 
 # 用于创建和编辑请求的脱机模式
 
@@ -36,4 +35,3 @@ ht-degree: 98%
    >[!IMPORTANT]
    >
    >请确保禁用了“脱机模式”后，再使用实际数据运行请求。要执行此操作，只需返回至&#x200B;**[!UICONTROL 选项]**，然后移除复选标记。
-
