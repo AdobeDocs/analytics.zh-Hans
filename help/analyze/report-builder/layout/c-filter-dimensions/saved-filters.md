@@ -3,15 +3,14 @@ description: 您可以在 Report Builder 中保存过滤器或其他参数，然
 title: 保存的过滤器
 uuid: 78702a7e-7b52-4390-a35e-fd332e52c31c
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 0986b6e3-8708-4513-af8d-523fe7e616a3
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 97%
+source-wordcount: '104'
+ht-degree: 100%
 
 ---
-
 
 # 保存的过滤器
 
@@ -20,4 +19,3 @@ ht-degree: 97%
 您可以在创建过滤器时通过“[!UICONTROL 选择页面]”窗体保存过滤器。有关此过程的示例，请参阅[特定过滤器](/help/analyze/report-builder/layout/c-filter-dimensions/t-specific-filters.md)。
 
 ![](assets/choose_page_saved.png)
-
