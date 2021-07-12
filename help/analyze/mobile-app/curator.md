@@ -2,11 +2,10 @@
 description: 有关设置功能板记分卡的说明。
 title: Adobe Analytics 功能板策划人指南
 feature: Analytics 功能板
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 3538361d-68bf-4d67-ae14-55691909db6f
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '2401'
 ht-degree: 100%
 
@@ -34,9 +33,9 @@ Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。�
 |--- |--- |
 | 用户 | 在移动设备上查看 Analytics 中的关键量度和分析的执行人员 |
 | 策划人 | 精通数据的人员，可从 Analytics 中查找和发布分析数据，并配置供用户查看的记分卡 |
-| 策划 | 创建或编辑移动记分卡的操作，记分卡中包含用户的相关量度、维度和其他组件 |
+| 策划 | 创建或编辑移动记分卡的操作，记分卡中包含使用者的相关量度、维度和其他组件 |
 | 记分卡 | 包含一个或多个图块的功能板视图 |
-| 图块 | 记分卡视图中量度的呈现方式 |
+| 图块 | “记分卡视图”中量度的呈现方式 |
 | 划分 | 一种辅助视图，点按记分卡中的图块可访问这种辅助视图。此视图将展开图块上显示的量度，并（可选）报告其他划分维度。 |
 | 日期范围 | 功能板报告的主要日期范围 |
 | 比较日期范围 | 与主要日期范围进行比较的日期范围 |
