@@ -2,9 +2,9 @@
 description: Report Builder 5.2 支持 Adobe Analytics 统一的计算量度。作为诸多创新中的一种，目前所有计算量度都拥有一个全局 ID - 不再局限于单一的报表包之中。
 title: 计算量度
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 98%
