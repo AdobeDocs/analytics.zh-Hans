@@ -3,15 +3,14 @@ description: 可帮助您了解 Report Builder 工具栏上各个按钮功能的
 title: Report Builder 工具栏
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 6dbf94f1-f70e-40d3-a76f-fef298be19f5
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 91%
+source-wordcount: '303'
+ht-degree: 92%
 
 ---
-
 
 # Report Builder 工具栏
 
@@ -21,7 +20,7 @@ ht-degree: 91%
 
 ![](assets/report_builder_toolbar.png)
 
-**登录：显** 示日  志通知，以便您可以使用凭据或以其他用户身份登录。在登录后，还将显示您的公司名称。请参阅 [Report Builder 登录](/help/analyze/report-builder/setup/login.md).
+**登录：** 显示日志通  知，以便您可以使用您的凭据或以其他用户身份登录。在登录后，还将显示您的公司名称。请参阅 [Report Builder 登录](/help/analyze/report-builder/setup/login.md).
 
 **创建：**&#x200B;启动[!UICONTROL 请求向导]。如果您未登录，则会提示您登录。请参阅[数据请求](/help/analyze/report-builder/data-requests/data-requests.md)。
 
