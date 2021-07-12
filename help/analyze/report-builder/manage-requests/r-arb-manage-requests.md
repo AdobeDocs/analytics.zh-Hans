@@ -3,15 +3,14 @@ description: Report Builder 中“管理请求”的字段说明。
 title: 管理请求 - 定义
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 99%
+source-wordcount: '547'
+ht-degree: 100%
 
 ---
-
 
 # 管理请求 - 定义
 
@@ -38,7 +37,7 @@ Report Builder 中“管理请求”的字段说明。
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>全部 工作表 </p> </td> 
+   <td colname="col1"> <p>所有工作表 </p> </td> 
    <td colname="col2"> <p>显示活动工作簿的所有工作表中的请求。要查看特定工作表中的请求，请禁用此选项。如果禁用此选项，必须单击 Excel 报表底部的工作表标签，以在<span class="wintitle">请求管理器</span>中显示与该工作表相关联的请求。复选框旁边的标签指示工作簿中的哪个工作表当前获得了焦点。 </p> </td> 
   </tr> 
   <tr> 
@@ -91,4 +90,3 @@ Report Builder 中“管理请求”的字段说明。
   </tr> 
  </tbody> 
 </table>
-
