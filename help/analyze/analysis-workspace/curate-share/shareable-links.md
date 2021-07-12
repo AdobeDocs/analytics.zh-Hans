@@ -3,10 +3,10 @@ description: 了解如何创建指向项目或可视化图表的可共享链接
 keywords: Analysis Workspace 共享
 title: 创建可共享链接
 feature: 策划和共享
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 100%
 
