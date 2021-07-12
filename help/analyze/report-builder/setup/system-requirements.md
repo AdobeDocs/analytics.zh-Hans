@@ -3,15 +3,14 @@ description: 系统建议和先决条件。
 title: 系统要求
 uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: ef11dde4-084d-45b6-a6a3-ca7d3a1f0ff6
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 95%
+source-wordcount: '67'
+ht-degree: 100%
 
 ---
-
 
 # 系统要求
 
@@ -26,4 +25,3 @@ ht-degree: 95%
 * 您组织的合同包含适用于 Excel 的 Report Builder。
 * 您的用户名包含在预定义的 Report Builder 用户组中。对于 [!DNL Analytics] 管理员，也同样有此要求。
 * 用户运行的必须是 Windows，并以管理员的身份登录。
-
