@@ -3,15 +3,14 @@ description: 您可以过滤添加到“行标签”网格中的维度。过滤�
 title: 过滤器维度概述
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '436'
 ht-degree: 98%
 
 ---
-
 
 # 过滤器维度概述
 
@@ -58,7 +57,7 @@ ht-degree: 98%
   <tr> 
    <td colname="col1"> <p>不包含任何词语 </p> </td> 
    <td colname="col02"> <p>返回所有不包含输入值的结果。 </p> </td> 
-   <td colname="col2"> <p>b c </p> </td> 
+   <td colname="col2"> <p>a b c </p> </td> 
    <td colname="col3"> <p>匹配 <span class="term">d e f</span>，但不匹配 <span class="term">c d e f</span>。 </p> </td> 
   </tr> 
   <tr> 
@@ -89,7 +88,7 @@ ht-degree: 98%
    <td colname="col1"> <p>结束于 </p> </td> 
    <td colname="col02"> <p>返回以特定值结尾的结果。 </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
-   <td colname="col3"> <p>匹配<span class="term"> wxyz</span>但不匹配<span class="term"> wxyz0</span> </p> </td> 
+   <td colname="col3"> <p>匹配<span class="term"> wxyz</span>，但不匹配<span class="term"> wxyz0</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>高级（特殊字符） </p> </td> 
@@ -118,7 +117,7 @@ ht-degree: 98%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> " </td> 
+   <td colname="col1"> " " </td> 
    <td colname="col2"> 等于 </td> 
    <td colname="col3"> <p>不会转义，除非引号未配对使用。例如，<span class="term">17" 显示器</span>不是一个短语。 </p> </td> 
   </tr> 
