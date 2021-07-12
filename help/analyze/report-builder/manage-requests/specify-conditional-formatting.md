@@ -3,15 +3,14 @@ description: 创建具有嵌入请求的报表后，您可以对工作簿的单�
 title: 指定条件格式
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 5a5f2415-8269-4c8a-9193-784537b29edf
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 98%
+source-wordcount: '186'
+ht-degree: 100%
 
 ---
-
 
 # 指定条件格式
 
@@ -26,4 +25,3 @@ ht-degree: 98%
 >[!NOTE]
 >
 > 条件格式是 Excel 的一项功能。有关创建格式规则的信息，请参阅 Excel 文档。
-
