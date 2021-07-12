@@ -2,9 +2,9 @@
 title: Activity Map数据收集疑难解答
 description: 确定在图像请求中看不到Activity Map数据的原因
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 7f9e06ba-4040-483b-b18b-cdfe85bca486
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 3%
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 首先，确保AppMeasurement正确收集Activity Map数据。
 
-1. 下载并安装[Adobe Experience Cloud Debugger Chrome扩展](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)。
+1. 下载并安装[Adobe Experience Cloud Debugger Chrome扩展](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans)。
 2. 导航到您的网页，然后单击链接。
 3. 加载后续页面时，打开调试器。 验证您是否看到夹在`activitymap.`和`.activitymap`之间的Activity Map上下文数据变量：
 
