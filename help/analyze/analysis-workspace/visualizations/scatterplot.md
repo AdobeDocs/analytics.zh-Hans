@@ -1,16 +1,15 @@
 ---
 title: 散点图
 description: 显示与最多三个量度之间的关系的可视化图表。
-feature: Visualizations
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: 可视化图表
+role: User, Admin
+exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 97%
+source-wordcount: '112'
+ht-degree: 100%
 
 ---
-
 
 # 散点图
 
