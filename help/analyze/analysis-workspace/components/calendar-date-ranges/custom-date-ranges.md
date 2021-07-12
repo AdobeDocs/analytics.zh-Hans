@@ -4,11 +4,10 @@ keywords: Analysis Workspace
 title: 创建自定义日期范围
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 feature: Workspace 基础知识
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 
@@ -22,7 +21,7 @@ ht-degree: 100%
 
 日期范围应用于面板级别。要在项目中添加日期范围，请单击&#x200B;**面板** > *`<select panel>`*，然后指定一个新的日期范围。
 
-## “两个月之前”的日期范围{#section_C4109C57CB444BB2A79CC8082BD67294}
+## “两个月之前”的日期范围 {#section_C4109C57CB444BB2A79CC8082BD67294}
 
 下面的自定义日期范围显示了“两个月之前”的日期范围，其中，“概要更改”可视化信息显示了方向上的变化。
 
