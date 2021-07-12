@@ -1,31 +1,31 @@
 ---
 description: 介绍 Adobe Analytics 的全新连续功能发布战略
-title: 新的Adobe Analytics登陆页面
+title: 全新 Adobe Analytics 登陆页面
 hide-in-toc: true
-source-git-commit: e81ffc2ae03dd3d45a0286d37d7851a4302ad3aa
+source-git-commit: ce3f795b71f1fba6385c9a5005f1ffaac5c2fe6e
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 4%
+ht-degree: 93%
 
 ---
 
-# 新的Adobe Analytics登陆页面
+# 全新 Adobe Analytics 登陆页面
 
-Adobe分析的新登陆页面将Analysis Workspace和Reports &amp; Analytics整合到了工作区伞下的单个界面和接入点中。 它具有新的项目管理器主页、更新的报表菜单和现代化的报表，以及可帮助您更有效地入门的新学习部分。
+Adobe Analytics 的全新登陆页面将 Analysis Workspace 与 Reports &amp; Analytics 融于一个界面中，提供 Workspace 伞形结构下的访问点。它配有新的项目管理器主页、更新的报表菜单和现代化报表，还有新的学习部分，帮助您更高效地入门。
 
-新页面可改进发现功能，并可引导Reports &amp; Analytics用户在工作区中获得更好的报表体验。
+新页面可改进可发现性，并可引导Reports &amp; Analytics用户在工作区中获得更好的报表体验。
 
 >[!NOTE]
 >
->此登陆页面当前处于公共测试阶段 — 它是一个可选的起点。 如果您愿意，可以使用现有登陆页面，无论该页面是工作区还是报表。 如果您决定选择加入测试版程序，请访问该页面，然后单击屏幕顶部的&#x200B;**[!UICONTROL 提供反馈]** ，以记录您的反馈以及您可能遇到的任何错误。
+>此登陆页面当前为公开测试版，是一个可选的起点。不论是 Workspace 还是 Reports，您都可以按自己的偏好使用现有登陆页面。如果您决定选择使用测试版程序，在访问登陆页面时，单击屏幕顶部的&#x200B;**[!UICONTROL 提供反馈]**&#x200B;可提交您的反馈以及您可能遇到的任何错误。
 
 ## 访问新登陆页面
 
-登录Adobe Experience Cloud和Analytics后，请启用左下角的[!UICONTROL New landing page - Beta]切换按钮。 请注意，对切换按钮的访问权限是特定于用户的，而不是特定于公司的。
+登录 Adobe Experience Cloud 和 Analytics 之后，在左下角启用[!UICONTROL 新登陆页面 - 测试版]切换按钮。请注意，能否使用切换按钮取决于用户而非公司。
 
 屏幕快照
 
-## 导航新页面
+## 在新页面中导航
 
 
 
@@ -33,6 +33,6 @@ Adobe分析的新登陆页面将Analysis Workspace和Reports &amp; Analytics整�
 
 | 问题 | 回答 |
 | --- | --- |
-| Reports &amp; Analytics中当前存在的所有报表是否仍然可用？ | 否，根据总体使用数据，以下报表已逐步停用： <ul><li>报告1</li><li>报告2</li><li>报告3 </li></ul> |
-| 我习惯在工作区中看到的模板位于何处？ | 这些模板分组在“报表”选项卡下。 |
-| 还有什么？ | 当然。 |
+| 目前存在于 Reports &amp; Analytics 中的所有报表是否仍可用？ | 不是，根据总体使用情况数据，以下报表已逐步淘汰： <ul><li>报表 1</li><li>报表 2</li><li>报表 3 </li></ul> |
+| 以前在 Workspace 中经常可以找到的模板在哪里？ | 这些模板在“报表”选项卡下分组。 |
+| 其他的模板呢？ | 不知道。 |
