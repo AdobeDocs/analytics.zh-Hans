@@ -3,10 +3,9 @@ description: 描述如何自定义图表以供预定受众充分使用的步骤�
 title: 更改报表图表
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
 feature: Reports & Analytics 基础知识
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 100%
