@@ -2,12 +2,12 @@
 description: 在Report Builder中创建请求时的第一步。
 title: 数据请求 - 请求向导第 1 步
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 
 1. **范围选择器：**&#x200B;允许您从 Excel 的单元格中选择报表包 ID。请参阅[选择报表包](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)。
 
-1. **区段**：区段是数据的自定义子集，或者是按您创建的规则所过滤的数据。区段基于点击数、访问次数和访客数。请参阅 [Analytics 分段指南](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)，以了解有关区段的更多信息。
+1. **区段**：区段是数据的自定义子集，或者是按您创建的规则所过滤的数据。区段基于点击数、访问次数和访客数。请参阅 [Analytics 分段指南](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hans)，以了解有关区段的更多信息。
 
    例如，您可以运行“[!UICONTROL 页面报表]”，然后应用“首次访问”区段。
 
