@@ -5,9 +5,9 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: 可视化图表
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 5027c17f1b0efc2fe22915e39aca901ee2beb34a
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '396'
 ht-degree: 100%
 
 ---
@@ -31,17 +31,6 @@ ht-degree: 100%
 | 图例可见 | 显示有关所显示的量度的信息。 |
 | 缩写值 | 选择缩写值，最多显示 3 个小数位。 |
 | 值汇总方式 | 选择显示所选数据的最大值、最小值、平均值、中间值或总和。 |
-
-
-单击右上方的&#x200B;**可视化设置**&#x200B;齿轮，可配置“概要数字”设置：
-
-| 设置 | 定义 |
-|--- |--- |
-| 百分比 | 显示百分比，而不是原始数字。 |
-| 图例可见 | 显示有关所显示的量度的信息。 |
-| 缩写值 | 选择缩写值，最多显示 3 个小数位。 |
-| 值汇总方式 | 选择显示所选数据的最大值、最小值、平均值、中间值或总和。 |
-
 
 ## 概要更改可视化 {#summary-change}
 
