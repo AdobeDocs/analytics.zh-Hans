@@ -2,10 +2,10 @@
 title: getPercentPageViewed
 description: 检索访客查看的页面内容所占的百分比。
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
-source-git-commit: 633ba0b9a3fe40bfd1b36820949810c631597397
+source-git-commit: 77192bdec509fed0b2a7c49112b7b430ff677a3c
 workflow-type: tm+mt
 source-wordcount: '906'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ if(s.pageName) s.getPercentPageViewed();
 if(s._ppvPreviousPage)
 {
   s.prop1 = s._ppvPreviousPage;
-  s.prop2 = "highestPercentViewed=" + s._ppvHighestPercentViewed + " | initialPercentViewed=" + s._ppvInitialPercentViewed + " + | foldsSeen=" + s._ppvFoldsSeen + " | foldsAvailable=" + s._ppvFoldsAvailable;
+  s.prop2 = "highestPercentViewed=" + s._ppvHighestPercentViewed + " | initialPercentViewed=" + s._ppvInitialPercentViewed + " | foldsSeen=" + s._ppvFoldsSeen + " | foldsAvailable=" + s._ppvFoldsAvailable;
 }
 ```
 
@@ -113,9 +113,9 @@ if(s._ppvPreviousPage)
 
 ## 版本历史记录
 
-### 5.0.1（2021年6月22日）
+### 5.0.1（2021 年 6 月 22 日）
 
-* 修复了某些特殊字符会导致插件中断的问题
+* 修复了某些特殊字符会导致插件崩溃的问题
 
 ### 5.0（2021 年 3 月 19 日）
 
