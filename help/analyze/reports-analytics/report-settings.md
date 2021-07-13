@@ -2,9 +2,9 @@
 description: 用来定义所有报表显示方式的设置以及将默认菜单选项映射到简化菜单中相应位置的信息。
 title: 报表显示设置和导航
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 99%
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 ## 报表显示设置和导航 {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]** >组 **[!UICONTROL 件]** >所 **[!UICONTROL 有组件]** >报 **[!UICONTROL 表设置]**
+**[!UICONTROL Analytics]**  >  **[!UICONTROL 组件]**  >  **[!UICONTROL 所有组件]**  >  **[!UICONTROL 报表设置]**
 
 | 元素 | 描述 |
 |--- |--- |
