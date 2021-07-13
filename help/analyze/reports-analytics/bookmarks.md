@@ -4,9 +4,9 @@ subtopic: Bookmarks
 title: 书签管理器
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
 feature: Reports & Analytics 基础知识
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 8b923484-0988-4271-8186-317bb33f2210
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 98%
@@ -45,7 +45,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > All components **[!UICONTROL > Bookmarks]**  ****。
+**[!UICONTROL Analytics]**  >  **[!UICONTROL 组件]**  >  **[!UICONTROL 所有组件]**  >  **[!UICONTROL 书签]**。
 
 **我的书签**
 
