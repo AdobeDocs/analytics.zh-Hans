@@ -3,12 +3,12 @@ description: “Reports & Analytics”中的“报表”菜单概述。
 title: “报表”菜单
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Reports & Analytics 基础知识
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">区段 <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">可显示用于添加或管理区段的区段边栏。您还可以通过区段边栏访问<a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >区段生成器</a>和<a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >区段管理器</a>界面。 </td> 
+   <td colname="col2">可显示用于添加或管理区段的区段边栏。您还可以通过区段边栏访问<a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >区段生成器</a>和<a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=zh-Hans"  >区段管理器</a>界面。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">量度 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -113,7 +113,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td colname="col1">报表包选择器 <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">允许您选择<a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html"  >基本报表包</a>或<a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  >虚拟报表包</a>。 </td> 
+   <td colname="col2">允许您选择<a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=zh-Hans"  >基本报表包</a>或<a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  >虚拟报表包</a>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1">日历 <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
