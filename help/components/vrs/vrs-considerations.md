@@ -5,10 +5,10 @@ title: 虚拟报表包和多包标记注意事项
 feature: 报表包设置
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
-workflow-type: ht
-source-wordcount: '1712'
-ht-degree: 100%
+source-git-commit: 1cd14244b81fbf8d1e4c6f0642f181fd4b60705d
+workflow-type: tm+mt
+source-wordcount: '1752'
+ht-degree: 95%
 
 ---
 
@@ -84,7 +84,9 @@ Adobe Analytics 中的某些 Adobe 合作伙伴集成限制为每个报表包具
 
 ### 概要数据源
 
-通过概要数据源，您可以在报表包级别将汇总量度导入 Adobe Analytics。由于概要数据源上载包含汇总量度，因此无法对其进行分段。由于 VRS 使用分段进行操作，因此使用概要数据源导入的所有数据在虚拟报表包中不可用。概要数据源仅在源报表包中可见。
+通过概要数据源，您可以在报表包级别将汇总量度导入 Adobe Analytics。由于概要数据源上载包含汇总量度&#x200B;*且访客ID*&#x200B;不为访客，因此无法在[!UICONTROL 访问]和[!UICONTROL 访客]容器中对其进行分段。 由于VRS使用分段进行操作，因此如果使用访问或访客容器构建区段，则使用概要数据源导入的数据在虚拟报表包中将不可用。
+
+如果使用点击容器并且该点击容器具有条件以包含数据源信息的规则，则会在虚拟报表包中显示概要数据源。
 
 >[!TIP]
 >
