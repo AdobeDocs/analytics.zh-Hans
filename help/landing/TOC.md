@@ -2,9 +2,9 @@
 product: analytics
 audience: all
 user-guide-title: Adobe Analytics 文档
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '118'
+source-git-commit: 4868278e88807e0f34f78f5063643f3a0b4de3df
+workflow-type: tm+mt
+source-wordcount: '122'
 ht-degree: 100%
 
 ---
@@ -13,6 +13,7 @@ ht-degree: 100%
 # Adobe Analytics 文档 {#landing}
 
 * [主页](home.md)
+* [全新 Analytics 登陆页面](an-landing.md)
 * [Adobe Analytics 关键概念](an-key-concepts.md)
 * [工具指南](https://experienceleague.adobe.com/docs/analytics/analyze/home.html?lang=zh-Hans)
 * [管理指南](https://experienceleague.adobe.com/docs/analytics/admin/home.html?lang=zh-Hans)
