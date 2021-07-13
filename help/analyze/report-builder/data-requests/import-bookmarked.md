@@ -3,15 +3,14 @@ description: 现在，所有标为书签的报表和功能板报表都作为维�
 title: 导入加入书签的报表和功能板缩图报表
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 19813950-2495-4a75-aacb-587b59bf2484
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 99%
+source-wordcount: '343'
+ht-degree: 100%
 
 ---
-
 
 # 导入加入书签的报表和功能板缩图报表
 
@@ -40,4 +39,3 @@ ht-degree: 99%
 >[!IMPORTANT]
 >
 >日期范围将会设置为相同的日期范围，但是会作为静态日期范围 - 即使此日期范围在 Reports &amp; Analytics 书签中为滚动日期范围也是如此。
-
