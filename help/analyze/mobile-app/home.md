@@ -1,16 +1,15 @@
 ---
 title: Adobe Analytics 功能板 - 概述
 description: Adobe Analytics 功能板的产品文档和自助信息
-feature: Analytics Dashboards
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: Analytics 功能板
+role: User, Admin
+exl-id: 7c5fa374-fa39-4bbc-9bd7-0ef17914d593
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 97%
+source-wordcount: '208'
+ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics [!UICONTROL 功能板] - 概述
 
@@ -20,7 +19,7 @@ ht-degree: 97%
 
 * [策划人指南](/help/analyze/mobile-app/curator.md)：本指南旨在帮助数据策划人在[!UICONTROL 功能板]上为其执行用户配置记分卡。策划人可以是组织管理员，也可以是其他角色中负责设置记分卡的人员。
 
-   要观看本指南的视频概述，请参阅 [Adobe Analytics 功能板记分卡生成器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html)。
+   要观看本指南的视频概述，请参阅 [Adobe Analytics 功能板记分卡生成器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html?lang=zh-Hans)。
 
 
 * [执行用户快速入门指南](/help/analyze/mobile-app/executive.md)：本指南旨在帮助执行用户阅读并理解[!UICONTROL 功能板]上的记分卡。该应用程序允许执行用户在其自己的移动设备上快速、轻松地查看广泛呈现的重要摘要数据。
