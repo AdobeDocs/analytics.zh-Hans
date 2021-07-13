@@ -3,15 +3,14 @@ description: 创建具有嵌入请求的报表后，您可以通过在 Excel 中
 title: 保存具有请求的工作簿
 uuid: 31611031-0982-4124-9fc7-7888124aa603
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 99%
+source-wordcount: '316'
+ht-degree: 100%
 
 ---
-
 
 # 保存具有请求的工作簿
 
@@ -27,7 +26,7 @@ ht-degree: 99%
 
 使用的任何文件名所包含的字符数不能超过 255 个。此外，文件名不能包含以下字符：
 
-\ ? | > &lt;:/ * &quot;
+\ ? | > &lt; :/ * ` &quot;
 
 最后，不能使用除扩展 ASCII 字符集之外的 Unicode 字符。
 
