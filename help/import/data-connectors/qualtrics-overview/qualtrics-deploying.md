@@ -2,14 +2,13 @@
 description: 部署此集成的流程非常简单，只需执行以下操作。
 subtopic: Qualtrics
 title: 部署集成
-feature: Data Connectors
+feature: Data Connector
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 exl-id: 8637f13d-a07e-412e-9ad7-8a0836301dd6
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 85d199e71fb65e9026156b146201da2e5be37111
 workflow-type: tm+mt
 source-wordcount: '589'
-ht-degree: 98%
+ht-degree: 88%
 
 ---
 
@@ -32,12 +31,13 @@ ht-degree: 98%
    | Qualtrics 组织 ID | [查找 Qualtrics 组织 ID](../qualtrics-overview/qualtrics-org-id.md) |
    | Adobe SiteCatalyst 令牌 | [生成 Qualtrics Adobe Analytics 令牌](../qualtrics-overview/qualtrics-token.md) |
 
-1. **向导步骤 2 - 变量映射**
-   | Qualtrics 响应列表 | 从报表包中选择一个可用的列表变量。（您可能需要在报表包管理器中启用新的 listVar。）|
+1. **向导步骤2 — 变量映射**
+
+   | Qualtrics响应列表 | 从报表包中选择一个可用的列表变量。 （您可能需要在报表包管理器中启用新的 listVar。） |
    |---|---|
-   | Qualtrics 响应 ID | 从报表包中选择一个可用的 eVar 或 prop。（您可能需要在报表包管理器中启用新的 listVar。）|
-   | 跟踪服务器 | 提供用于跟踪 Adobe Analytics 数据的跟踪服务器（域）设置。使用 `trackingServerSecure` 跟踪服务器（如果它与标准跟踪服务器设置不同）。|
-   | Qualtrics 调查提交 | 从报表包中选择一个可用的事件（您可能需要在报表包管理器中启用新事件）。|
+   | Qualtrics响应ID | 从报表包中选择可用eVar或prop。 （您可能需要在报表包管理器中启用新的 listVar。） |
+   | 跟踪服务器 | 提供用于跟踪Adobe Analytics数据的跟踪服务器（域）设置。 如果跟踪服务器与标准跟踪服务器设置不同，请使用 `trackingServerSecure` 跟踪服务器。 |
+   | Qualtrics调查提交 | 从报表包中选择一个可用事件（您可能需要在报表包管理器中启用新事件）。 |
 
 1. **向导步骤 3**：无需执行操作，仅显示相应信息。
 
