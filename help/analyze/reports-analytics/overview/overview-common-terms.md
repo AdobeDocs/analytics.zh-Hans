@@ -2,12 +2,12 @@
 description: 有关Reports & Analytics中常用营销分析术语的介绍。
 title: 常用术语
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
-feature: Reports & Analytics 基础知识，Reports and Analytics
+feature: Reports & Analytics 基础知识
 role: User, Admin
 exl-id: 78ad3e11-2bfa-49bd-b17a-c586701b56ad
-source-git-commit: 5027c17f1b0efc2fe22915e39aca901ee2beb34a
+source-git-commit: a589e2dffd52749ec3e243815451fe3ed2396509
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '725'
 ht-degree: 93%
 
 ---
