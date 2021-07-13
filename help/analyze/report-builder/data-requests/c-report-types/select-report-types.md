@@ -3,15 +3,14 @@ description: 您可以为数据请求选择基本报表类型，如“网站量�
 title: 报表类型概述
 uuid: 63e656d0-f22e-4846-9e24-7ef3299dde5a
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: f92a7597-6c53-4886-bab2-8d3f811dcc18
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 97%
+source-wordcount: '117'
+ht-degree: 100%
 
 ---
-
 
 # 报表类型概述
 
@@ -22,4 +21,3 @@ ht-degree: 97%
 您可以使用自动完成搜索栏搜索报表。一旦从这个控件中选择了报表，树视图将自动选择匹配的节点。
 
 ![](assets/search_reports.png)
-
