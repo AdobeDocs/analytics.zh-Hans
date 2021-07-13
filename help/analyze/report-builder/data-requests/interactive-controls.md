@@ -26,7 +26,6 @@ ht-degree: 100%
 >必须安装 Report Builder v5.0 才能使用交互控件。>
 >* 如果您在 Windows 上运行 Microsoft Excel，但是运行较低版本的 Report Builder，或者如果您未安装 Report Builder：您可以更改交互控件中的值，但这不会刷新关联的请求，也不会更新请求的关联参数。
 >* 如果您在 Mac 上运行 Excel，则更改控件中的值将会导致显示以下消息：“找不到宏‘Adobe.ReportBuilder.Bridge.FormControlClick.Event’。”
-
 >
 
 
