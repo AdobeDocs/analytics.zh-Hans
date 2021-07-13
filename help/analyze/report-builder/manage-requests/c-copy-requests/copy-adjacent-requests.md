@@ -3,15 +3,14 @@ description: 与复制并粘贴请求一样，您还可以通过从快捷菜单�
 title: 复制相邻请求
 uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 99476ec5-f1f0-49f5-a2d8-354cec63c6b1
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 98%
+source-wordcount: '292'
+ht-degree: 100%
 
 ---
-
 
 # 复制相邻请求
 
