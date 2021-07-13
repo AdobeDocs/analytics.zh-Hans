@@ -3,10 +3,10 @@ description: 直方图是 Analysis Workspace 中一种新的可视化类型。
 title: 直方图
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 feature: 可视化图表
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 100%
 
