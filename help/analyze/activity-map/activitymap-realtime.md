@@ -2,12 +2,12 @@
 description: 实时页面分析（实时模式）允许您实时获取带有分钟粒度的结果。
 title: 实时页面分析（实时模式）
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 29ccd89e-d82b-41d4-a940-addc6656b5ec
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 67%
+ht-degree: 72%
 
 ---
 
@@ -35,13 +35,13 @@ Describe what you can do with the feature: - what is the data shown? why do I se
 
 ## 由 A4T 配置导致的数据滞后
 
-在Adobe Target中启用[A4T集成](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)后，Adobe Analytics中会额外经历5到10分钟的滞后。 这额外增加的滞后允许您将 Analytics 和 Target 中的数据存储到同一个点击上，从而允许您按页面和网站部分来细分测试。
+在Adobe Target中启用[A4T集成](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)后，Adobe Analytics中会额外经历5到10分钟的滞后。 这额外增加的滞后允许您将 Analytics 和 Target 中的数据存储到同一个点击上，从而允许您按页面和网站部分来细分测试。
 
 增加的滞后在所有的 Adobe Analytics 服务和工具（包括实时流和实时报表）中都有所体现，且适用于以下情况：
 
 * 对于实时流、实时报表和 API 请求，以及流量变量的当前数据，仅包含额外数据 ID 的点击会发生延迟。
 * 对于转化量度的当前数据、最终数据和数据馈送，所有的点击都会额外延迟 5 至 7 分钟的时间。
 
-请注意，实施 [Identity 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)之后，即使您还未完全实施 A4T 集成，滞后的时间也会开始增加。
+请注意，实施 [Identity 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)之后，即使您还未完全实施 A4T 集成，滞后的时间也会开始增加。
 
 更多信息[此处](/help/analyze/activity-map/activitymap-standard-live.md)。
