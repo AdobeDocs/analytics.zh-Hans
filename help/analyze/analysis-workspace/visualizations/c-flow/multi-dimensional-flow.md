@@ -3,11 +3,10 @@ description: 通过维度间流量可以跨不同维度查看用户路径。
 title: 维度间流量
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: 可视化图表
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 100%
 
@@ -23,7 +22,7 @@ ht-degree: 100%
 
 我们将讨论 2 个用例：应用程序用例和 Web 用例。
 
-## 用例一：应用程序{#section_3D31D37B9C9F4134AE46C96291E41294}
+## 用例一：应用程序 {#section_3D31D37B9C9F4134AE46C96291E41294}
 
 [!UICONTROL 操作名称]维度已被添加到流量，顶部的返回项目为 [!UICONTROL ItemAdded]：
 
@@ -53,7 +52,7 @@ ht-degree: 100%
 
 这将允许进行一些深入的分析，并对您分析的应用程序进行可能的更改。
 
-## 用例二：Web{#section_8D55983FA0C84926995270052AE01CD8}
+## 用例二：Web {#section_8D55983FA0C84926995270052AE01CD8}
 
 此用例显示如何分析哪些促销活动为网站带来最多登入。
 
