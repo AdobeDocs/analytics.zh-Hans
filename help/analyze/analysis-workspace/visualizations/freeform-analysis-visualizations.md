@@ -3,10 +3,10 @@ description: 通过可视化图表，直观地展示您的数据。
 keywords: Analysis Workspace
 title: 可视化图表概述
 feature: 可视化图表
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 100%
 
@@ -97,7 +97,7 @@ Analysis Workspace 中提供了以下可视化图表类型：
 | 获取可视化图表链接 | 此设置允许您将用户引导至项目中的可视化图表。单击该链接时，收件人需要先登录，然后才能转至所链接到的确切可视化图表。 |
 | 从头开始 | （适用于流、维恩图、直方图）删除当前可视化图表的设置，以便您从头开始重新配置。 |
 
-## “创建可视化”图标 {#quick-viz}
+## “创建可视化”图标  {#quick-viz}
 
 如果您不确定所要创建的可视化图表，请单击任意表行中的&#x200B;**[!UICONTROL 创建可视化]**&#x200B;图标（将光标悬停于上方即可显示）。这是添加可视化图表最快的方法。单击此图标将提示 Analysis Workspace 针对哪种可视化图表最适合您的数据做出有根据的推测。例如，如果您选择了 1 行，则会创建趋势线形图。如果您选择了 3 个区段行，则会创建维恩图。
 
