@@ -3,15 +3,14 @@ description: 叠加图为您提供了多种配置数据可视化的方法，让�
 title: 可自定义的叠加图
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 1e83d470-36e4-47bb-a262-ac12472b21c3
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 99%
+source-wordcount: '356'
+ht-degree: 100%
 
 ---
-
 
 # 可自定义的叠加图
 
@@ -31,7 +30,7 @@ Activity Map 提供三类叠加图：
 
 将鼠标悬停在叠加图上方时，可显示其[详细信息](/help/analyze/activity-map/activitymap-overlay-details.md)。
 
-## 渐变叠加图（热图）{#section_06AF13DE05A1454D960176CD0DA921A6}
+## 渐变叠加图（热图） {#section_06AF13DE05A1454D960176CD0DA921A6}
 
 使用渐变叠加图时，颜色浓度是根据链接的受欢迎程度而定。此颜色浓度可以被标准化为受欢迎程度的前 30 排名，或者行使绝对量度值的作用。
 
@@ -64,4 +63,3 @@ Activity Map 提供三类叠加图：
 这种实时叠加图根据上一时段到当前时段所产生的量度值的变化，对点击情况进行排名。
 
 ![](assets/gainers_losers.png)
-
