@@ -3,10 +3,9 @@ description: 有关 Activity Map 中链接跟踪的常见问题解答。
 title: 链接跟踪常见问题解答
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
-translation-type: tm+mt
-source-git-commit: 7ba73d75dde80571125c83efb3265441b8d3278a
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 44%
@@ -32,31 +31,31 @@ ht-degree: 44%
 
 Activity Map链接和区域标识在用户单击页面时发生。
 
-## 默认情况下跟踪哪些内容？
+## 默认情况下会跟踪哪些内容？
 
-如果某个元素出现单击事件，该元素必须通过一些检查来确定AppMeasurement是否将其视为链接。 检查内容如下：
+如果某个元素发生点击事件，该元素必须通过一些检查来确定AppMeasurement是否将其视为链接。 检查内容如下：
 
-* 这是带有`href`属性的`A`或`AREA`标签吗？
-* 是否存在设置`s_objectID`变量的`onclick`属性？
-* 这是带有值或子文本的`INPUT`标记还是`SUBMIT`按钮？
-* 这是`INPUT`标记，类型为`IMAGE`和`src`属性吗？
+* 这是`A`还是`AREA`标记，具有`href`属性？
+* 是否有`onclick`属性可设置`s_objectID`变量？
+* 这是带值或子文本的`INPUT`标记还是`SUBMIT`按钮？
+* 这是否是`INPUT`标记，其类型为`IMAGE`和`src`属性？
 * 这是`BUTTON`吗？
 
 如果以上任一问题的回答为是，则该元素将被视为链接，需要对其进行跟踪。
 
 >[!IMPORTANT]
 >
->AppMeasurement不将属性为type=&quot;button&quot;的Button标签视为链接。 请考虑在按钮标签上删除type=&quot;button&quot;，并改为添加role=&quot;button&quot;或submit=&quot;button&quot;。
+>AppMeasurement不会将具有属性type=&quot;button&quot;的Button标记视为链接。 请考虑删除按钮标记上的type=&quot;button&quot;，并改为添加role=&quot;button&quot;或submit=&quot;button&quot;。
 
 >[!IMPORTANT]
 >
->带有“href”的锚点标签，其中带有“#”的开始被AppMeasurement视为内部目标位置，而不是链接（因为您不要离开页面）。 默认情况下，Activity Map 不跟踪这些内部目标位置，而是仅跟踪将用户导航到新页面的链接。
+>AppMeasurement会将具有以“#”开头的“href”的锚点标记视为内部目标位置，而不是链接（因为您没有离开页面）。 默认情况下，Activity Map 不跟踪这些内部目标位置，而是仅跟踪将用户导航到新页面的链接。
 
-## Activity Map如何跟踪其他可视HTML元素？
+## Activity Map如何跟踪其他可视化HTML元素？
 
 a.通过`s.tl()`函数。
 
-如果通过`s.tl()`调用进行了单击，则Activity Map还将收到此单击事件，并确定是否找到`linkName`字符串变量。 在执行`s.tl()`期间，该linkName将设置为Activity Map链接ID。 发起`s.tl()`调用的已点击元素将用于确定区域。 示例：
+如果点击是通过`s.tl()`调用发生的，则Activity Map还将收到此点击事件，并确定是否找到`linkName`字符串变量。 在`s.tl()`执行期间，该linkName将被设置为Activity Map链接ID。 发起`s.tl()`调用的已单击元素将用于确定区域。 示例：
 
 ```
 <img onclick="s.tl(true,'o','abc')" src="someimageurl.png"/>
@@ -64,18 +63,18 @@ a.通过`s.tl()`函数。
 
 b.通过`s_objectID`变量。 示例：
 
-    &quot;&#39;
+    &quot;&#39;在
     
     &lt;a>&lt;img>&lt;/a>
     
-    &lt;a>在此处链接文&lt;/a>
+    &lt;a>此处链接文&lt;/a>本
     
     
-    本&quot;&#39;
+    &quot;&#39;
 
 >[!IMPORTANT]
 >
->在Activity Map中使用`s_objectID`时，需要尾随分号(;)。
+>在Activity Map中使用`s_objectID`时，需要以分号(;)结尾。
 
 ## 能否提供一些将被跟踪的链接示例？
 
@@ -115,7 +114,7 @@ b.通过`s_objectID`变量。 示例：
     </div>
 ```
 
-## 能否提供一些不会跟踪的链接示例？
+## 能否提供一些不会被跟踪的链接示例？
 
 1. 原因：锚标记不具备有效的 `href`:
    `<a name="innerAnchor">Section header</a>`
