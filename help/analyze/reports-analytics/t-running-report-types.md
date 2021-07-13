@@ -3,12 +3,12 @@ description: 运行不同的报表类型的步骤。
 title: 运行不同的报表类型
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Reports & Analytics 基础知识
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '1299'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 95%
 
 [!UICONTROL 流失报表]显示访问预先指定的页面顺序的访客数。它还显示每个步骤之间的转化和流失百分比。
 
-在 Analysis Workspace 中查看新的[流失分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)面板！
+在 Analysis Workspace 中查看新的[流失分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=zh-Hans)面板！
 
 1. 在 [!UICONTROL Adobe Analytics] 中，单击&#x200B;**[!UICONTROL 报表]** > **[!UICONTROL 路径]** > **[!UICONTROL 页面]** > **[!UICONTROL 流失]**。
 1.  在[!UICONTROL 流失报表]页面上，单击&#x200B;**[!UICONTROL 启动流失 Report Builder]**。
@@ -69,7 +69,7 @@ ht-degree: 95%
 
 ## 运行异常检测报表 {#task_4808C96327354D789C075823F5C3A049}
 
-您只能在Analysis Workspace中运行[异常检测和贡献分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)。
+您只能在Analysis Workspace中运行[异常检测和贡献分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=zh-Hans)。
 
 ## 运行实时报表 {#task_5D25929C918E40B18965222FA94176B0}
 
