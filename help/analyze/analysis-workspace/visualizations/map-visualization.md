@@ -3,11 +3,10 @@ description: 在 Workspace 项目中使用地图可视化。
 title: 地图
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: 可视化图表
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 100%
 
