@@ -2,10 +2,10 @@
 description: 了解 Analytics Data Connectors 生命周期终止的时间和原因。
 title: Analytics Data Connectors 生命周期终止预告
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: ce3f795b71f1fba6385c9a5005f1ffaac5c2fe6e
+source-git-commit: 5238ea3393deb6bc1089460b44b46a8e5cd7ffd0
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 95%
+source-wordcount: '662'
+ht-degree: 91%
 
 ---
 
@@ -44,12 +44,12 @@ ht-degree: 95%
 | Apteligent | 弃用 |
 | BlueHornet eMarketing Suite | 弃用 |
 | Branch | 迁移至 Exchange |
-| BrightEdge 2.0 | 弃用 |
+| BrightEdge 2.0, BrightEdge， BrightEdge Express | 弃用 |
 | Bronto Software | 弃用 |
 | Experian CheetahMail | 迁移至 Exchange |
 | ClickTale | 弃用 |
 | Clicktale CA | 弃用 |
-| Conductor 2.0 | 弃用 |
+| Conductor 2.0, Conductor， Conductor Organic Metrics | 弃用 |
 | ContactLab 2.0 (Contact Send Connector) | 弃用 |
 | Coradiant TrueSight | 弃用 |
 | D&amp;B Visitor Intelligence | 弃用 |
@@ -62,7 +62,7 @@ ht-degree: 95%
 | DialogTech | 适用于 Adobe Exchange |
 | [DoubleClick for Advertisers (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | 弃用 |
 | DREAM | 弃用 |
-| DREAMmail 2.0 | 弃用 |
+| DREAMmail 1.0、DREAMmail 2.0 | 弃用 |
 | Dynamic Signal (Nital Vora) | 迁移至 Exchange |
 | eDialog Precision Central | 弃用 |
 | eC-messenger | 弃用 |
@@ -70,10 +70,11 @@ ht-degree: 95%
 | emarsys xpress | 弃用 |
 | Epsilon Harmony | 迁移至 Exchange |
 | 适用于 Adobe Analytics 的 EveryoneSocial | 弃用 |
+| ExactTarget、ExactTarget 2.0 | 弃用 |
 | Fiksu | 弃用 |
-| Foresee (v2.0) | 弃用 |
-| Foresee Feedback | 弃用 |
+| Foresee (v2.0), Foresee Feedback， Foresee Results | 弃用 |
 | Gigya | 弃用 |
+| 保泰 | 弃用 |
 | hybris | 弃用 |
 | Kampyle（现称为 Medallia）Feedback Analytics (1.1) | 弃用 |
 | Listrak | 迁移至 Exchange |
@@ -83,11 +84,13 @@ ht-degree: 95%
 | Official Oracle Eloqua Integration | 迁移至 Exchange |
 | optivo broadmail (Episerver) | 弃用 |
 | Qualtrics v2 | 迁移至 Exchange |
-| Responsys 2.0 | 弃用 |
+| Responsys 1.0、Responsys 2.0 | 弃用 |
+| Salesforce.com | 弃用 |
 | Selligent | 弃用 |
-| seoClarity 2.0 | 弃用 |
+| seoClarity，seoClarity 2.0 | 弃用 |
 | Silverpop Engage (v2.0) | 弃用 |
 | Sizmek | 弃用 |
+| SmartFOCUS Digital | 弃用 |
 | SpotEffects | 弃用 |
 | StrongMail Systems, Inc | 弃用 |
 | Syngergy！360 | 弃用 |
@@ -98,6 +101,7 @@ ht-degree: 95%
 | WhatCounts Email | 弃用 |
 | wywy | 弃用 |
 | Yesmail Enterprise | 弃用 |
+| 泽塔互动 | 弃用 |
 
 ## 例外：Adobe Campaign Classic
 
