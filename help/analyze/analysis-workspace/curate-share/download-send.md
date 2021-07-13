@@ -3,10 +3,10 @@ description: 您可以通过复制数据或以 PDF 和 CSV 格式从 Analysis Wo
 title: 下载 PDF 或 CSV 文件
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 feature: 策划和共享
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 您可以通过多种不同的方式从 Analysis Workspace 导出数据，具体取决于您要在工具之外分析的具体数据集以及需要接收信息的具体人员。导出的数据可以是复制的数据、CSV 或 PDF 文件的形式。如果您希望文件中包含可视化图表，则 PDF 通常为首选，而如果您只需要纯文本数据，则 CSV（或复制的数据）为首选。
 
-## 以 CSV 或 PDF 格式下载项目{#download-project}
+## 以 CSV 或 PDF 格式下载项目 {#download-project}
 
 您可以通过转至&#x200B;**[!UICONTROL 项目 > 以 PDF（或 CSV）格式下载]**&#x200B;来下载完整项目。下载的文件包含项目中所有显示（可见）的表格和可视化图表。如果您希望文件中包含可视化图表，则 PDF 通常为首选，而如果您只需要纯文本数据，则 CSV 为首选。
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 * PDF 下载内容呈现为单个页面，未应用分页。
 * 当项目呈现为 PDF 时，我们会呈现页面上的内容。如果项目具有自定义大小的可视化和面板，则需要将它们更改为自动调整大小（右上角的按钮），以便内容将不会被截断。
 
-## 将数据复制到剪贴板（热键：Ctrl+C）{#copy-data}
+## 将数据复制到剪贴板（热键：Ctrl+C） {#copy-data}
 
 利用右键单击选项&#x200B;**[!UICONTROL 复制到剪贴板]**，您可以从 Workspace 中快速复制数据并将其粘贴到其他位置。
 
