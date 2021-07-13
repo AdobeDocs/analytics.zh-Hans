@@ -6,10 +6,10 @@ uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 feature: Workspace 基础知识
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 5027c17f1b0efc2fe22915e39aca901ee2beb34a
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 100%
+source-wordcount: '1405'
+ht-degree: 96%
 
 ---
 
@@ -71,7 +71,7 @@ Workspace 项目列表页面包含了以下信息：
 | 上次修改时间 | 项目上次修改日期。 |
 | 标记 | 列出应用于项目以方便分类的所有标记。 |
 | 描述 | 描述有助于明确项目的目的。您可以双击描述以编辑它。 |
-| 计算项目中的重复实例 | 指定是否将重复实例计入报表中。注意：此设置不适用于“流”或“流失”可视化。 |
+| 计算项目中的重复实例 | 指定是否将重复实例计入报表中。例如，此设置（激活时）会将同一页面的多个连续页面查看视为多个页面查看。 关闭后，它们将计为一次单页面查看（这仅会影响某些量度，如单页面访问量）。 **注意**:此设置不适用于流量或流失可视化图表。 |
 | [项目调色板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=zh-Hans) | 通过从已为色盲优化过的现成调色板中进行选择或通过指定您的自定义调色板，可更改在 Workspace 中使用的类别调色板。此功能影响 Workspace 中的许多内容，包括大多数可视化。 |
 | [视图密度](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=zh-Hans) | 通过减小左侧边栏、自由格式表和同类群组表的垂直边距，让您可在屏幕上看到更多数据。 |
 
