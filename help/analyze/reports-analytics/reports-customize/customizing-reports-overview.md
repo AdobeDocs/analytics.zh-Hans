@@ -3,12 +3,12 @@ description: 运行报表后，您可以自定义报表，以根据需要查看�
 title: 自定义报表概述
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 feature: Reports & Analytics 基础知识
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '924'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -86,7 +86,7 @@ t_reports_comparing_dates.xml
 
 >[!NOTE]
 >
-> 如果您想对功能板中的关键量度执行日期比较，则可以使用两个不同的请求，将数据提取到 [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) 中。然后，可以在 Excel 中使用自定义公式来分析二者的差异。
+> 如果您想对功能板中的关键量度执行日期比较，则可以使用两个不同的请求，将数据提取到 [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=zh-Hans) 中。然后，可以在 Excel 中使用自定义公式来分析二者的差异。
 
 要比较“Reports &amp; Analytics”中排名报表之间的日期，请执行以下操作：
 
