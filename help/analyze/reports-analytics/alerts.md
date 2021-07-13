@@ -4,12 +4,12 @@ subtopic: Alerts
 title: 警报
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 feature: 警报
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '838'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 95%
 
 您可以通过 Reports &amp; Analytics 的任何报表中的&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 警报]**，访问此新的警报系统。
 
-有关更多信息，请转到 Analysis Workspace 文档中的[智能警报](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html)。
+有关更多信息，请转到 Analysis Workspace 文档中的[智能警报](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=zh-Hans)。
 
 ## 添加警报 {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
