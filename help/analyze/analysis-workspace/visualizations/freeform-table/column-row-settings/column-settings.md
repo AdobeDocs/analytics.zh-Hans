@@ -3,11 +3,10 @@ description: 列设置允许您配置列格式，其中一些可以是条件格�
 title: 列设置
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: 自由格式表
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 100%
 
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 [!UICONTROL 列设置]允许您配置列格式，其中一些可以是条件格式。
 
-## 编辑[!UICONTROL 列设置]{#edit-column-settings}
+## 编辑[!UICONTROL 列设置] {#edit-column-settings}
 
 要访问“[!UICONTROL 列设置]”，请将自由格式表拖到项目中，然后单击列标题中的齿轮图标。
 
