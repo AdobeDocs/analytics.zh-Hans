@@ -3,15 +3,14 @@ description: 帮助您从现有请求选择报表包的步骤。
 title: 在 Excel 中通过现有请求选择报表包
 uuid: 92fe4823-6b8a-4178-9c94-fb4f5e03e4a5
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: e53f96d2-57e3-4d32-bc08-8e941250297b
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 96%
+source-wordcount: '78'
+ht-degree: 100%
 
 ---
-
 
 # 在 Excel 中通过现有请求选择报表包
 
