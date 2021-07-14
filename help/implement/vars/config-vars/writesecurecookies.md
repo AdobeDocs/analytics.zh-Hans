@@ -3,9 +3,9 @@ title: writeSecureCookies
 description: 允许 AppMeasurement 使用“安全”属性设置 Cookie。
 exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
 source-git-commit: b93cd06c2a8867f4848dc317e426b73dcfbb5dfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '238'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 84%
 
 `writeSecureCookies` 变量允许 AppMeasurement 为 Analytics 设置[安全 Cookie](https://en.wikipedia.org/wiki/Secure_cookie)。此设置适用于由 AppMeasurement 设置的访客 ID Cookie，以及您使用 `Util.CookieWrite()` 方法设置的 Cookie。它需要 AppMeasurement 2.18.0 或更高版本。
 
-`writeSecureCookies` 仅适用于由AppMeasurement JavaScript设置的Cookie(`s_fid` `s_cc` 和 `s_sq`)。通过联系Adobe客户关怀团队，可以将由`https`响应（`s_vi`和`s_ecid`）设置的Cookie设置为“安全”。
+`writeSecureCookies` 仅适用于 AppMeasurement JavaScript 设置的 Cookie（`s_fid`、`s_cc` 和 `s_sq`）。通过联系 Adobe 客户关怀部门，可以将 `https` 响应所设置的 Cookie（`s_vi` 和 `s_ecid`）设置为“安全”。
 
-在](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html)此处了解有关Analytics Cookie的更多信息。[
+在[此处](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html)了解有关 Analytics Cookie 的详细信息。
 
 >[!IMPORTANT]
 >
