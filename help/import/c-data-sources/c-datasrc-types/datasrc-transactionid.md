@@ -2,10 +2,10 @@
 title: 交易 ID 数据源
 description: 了解使用交易 ID 数据源的一般工作流程。
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
-source-git-commit: 1ee6a1e69a277f0d3c0ffd1defca0d4cb098cc6c
+source-git-commit: 4497ca252c4ee05175141e58d784ca2df215cb94
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 92%
+source-wordcount: '531'
+ht-degree: 45%
 
 ---
 
@@ -13,7 +13,19 @@ ht-degree: 92%
 
 通过交易 ID 数据源，您不仅可以并排查看在线和离线数据，还可以将数据绑定在一起。它需要在您的 Analytics 实施中使用 [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 变量。
 
-当您发送包含 `transactionID` 值的在线点击时，Adobe 会为当时设置或保留的所有变量生成“快照”。如果找到通过数据源上载的匹配交易 ID，则会将在线和离线数据绑定在一起。先看到哪个数据源并不重要。
+当您发送包含 `transactionID` 值的在线点击时，Adobe 会为当时设置或保留的所有变量生成“快照”。如果找到通过数据源上载的匹配交易 ID，则会将在线和离线数据绑定在一起。
+
+对于使用交易，必须先发送并处理具有交易ID的在线点击，然后再发送具有该交易ID的任何交易数据源数据。 在线点击包含随交易ID信息保存的在线点击中的变量（eVar等），但不包含事件。
+
+在发送交易数据源点击时，数据源交易点击的交易ID会查找var等。 与原始在线点击与该交易ID关联的（非事件）。 如果数据源交易点击中传递的变量没有值，则它会在数据源交易点击中使用这些变量。
+
+## 示例
+
+如果传入具有交易ID 1256的在线点击并在其上设置`evar1=blue`、`evar2=water`和`event1`，则交易ID 1256的交易数据将与`evar1=blue`、`evar2=water`一起保存。 事务信息中不保存任何事件值。
+
+现在，假设数据源事务点击随后通过系统传递，并设置事务ID为1256和`evar1=yellow`、`evar3=mountain`和`event2`。 系统找到保存的事务数据，并在数据源事务点击集`evar2=water`中（因为这是在原始点击中设置的数据）。 它未设置`evar1=blue`（与在原始点击时一样），因为数据源事务点击中已设置`evar1`（黄色）的值。  因此，数据源事务点击会导致`evar1=yellow`、`evar2=water`（来自原始在线点击）和`evar3=mountain`。 这3个eVar值已设置`event2` — 数据源事务点击中的事件。
+
+在处理数据源事务点击时，不会设置来自数据源事务点击的值`event1`。
 
 ## 交易 ID 数据源的整个工作流程
 
