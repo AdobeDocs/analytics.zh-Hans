@@ -3,9 +3,9 @@ title: 使用硬编码图像请求实施
 description: 使用 HTML 图像标记（硬编码图像请求）实施 Adobe Analytics。
 exl-id: 84247daf-c94b-456c-9824-6d4a0b3e6065
 source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '672'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe 提供的 AppMeasurement 库可编译页面上存在的变量，然后将�
 * `https://` 指定协议。将图像请求中使用的协议与网站其他部分使用的协议进行匹配。
 * `example.data.adobedc.net` 是 [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) 变量中包含的值。
 * `/b/ss/` 包含在所有图像请求中。它是 Adobe 数据收集服务器上所存储图像的文件结构的一部分。
-* `examplersid` 是要将数据发送到的报表包 ID。对于多个报表包，请使用逗号分隔ID，并且不留空格（例如`examplersid1,examplersid2`等）。
+* `examplersid` 是要将数据发送到的报表包 ID。对于多个报表包，请使用逗号分隔 ID，并且不要使用空格（例如 `examplersid1,examplersid2` 等）。
 * `/1/` 是点击源。请参阅导出用户指南中[数据列引用](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)下的 `hit_source`。控制 Cookie 和其他方法在识别访客时所采用的顺序。
 * 查询字符串分隔符 (`?`) 之后的所有内容都是要包含到报表中的数据。有关可包含到图像请求中的完整参数列表，请参阅[数据收集查询参数](../validate/query-parameters.md)。
 
