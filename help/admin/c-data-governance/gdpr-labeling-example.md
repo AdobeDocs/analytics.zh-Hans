@@ -1,16 +1,16 @@
 ---
-description: 显示如何标记命中数据、访问请求、删除请求的数据的示例
-title: 标签设置示例
+description: 显示一些示例来说明如何标记命中数据、访问请求、删除请求的数据
+title: 标记示例
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 source-git-commit: fe277bea867dc67e8693673a547adecccf169332
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
-# 标签设置示例
+# 标记示例
 
 ## 命中数据示例
 
@@ -22,19 +22,19 @@ ht-degree: 69%
 
 | 标签 | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **变量名称** <br> **(命名空间)** | **MyProp1** <br> **(用户)** | **Visitor ID** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**  <br> **(xyz)** |
-| 命中数据 | Mary | 77 | 同类群组 | M | X |
-|  | 玛丽 | 88 | B | N | Y |
-|  | 玛丽 | 99 | C | O | Z |
+| **变量名称** <br> **(命名空间)** | **MyProp1** <br> **(用户)** | **访客 ID** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
+| 命中数据 | Mary | 77 | A | M | X |
+|  | Mary | 88 | B | N | Y |
+|  | Mary | 99 | C | O | Z |
 |  | John | 77 | D | P | W |
-|  | 约翰 | 88 | E | N | U |
-|  | 约翰 | 44 | F | Q | V |
-|  | 约翰 | 55 | G | R | X |
-|  | Alice | 66 | 同类群组 | N | Z |
+|  | John | 88 | E | N | U |
+|  | John | 44 | F | Q | V |
+|  | John | 55 | G | R | X |
+|  | Alice | 66 | A | N | Z |
 
 ## 访问请求示例
 
-如果我提交访问请求，则摘要文件包含下表所示的值。 一个请求只返回一个设备文件、一个人员文件，或各一个文件。只有在使用人员 ID 并且 expandIds 为 true 时，会返回两个摘要文件。
+如果我提交了访问请求，则摘要文件将包含下表中指示的值。一个请求只返回一个设备文件、一个人员文件，或各一个文件。只有在使用人员 ID 并且 expandIds 为 true 时，会返回两个摘要文件。
 
 <table>
   <tr>
@@ -75,7 +75,7 @@ ht-degree: 69%
     <td>user=Mary</td>
     <td>false</td>
     <td>“人员”</td>
-    <td>玛丽</td>
+    <td>Mary</td>
     <td>77、88、99</td>
     <td>A、B、C</td>
     <td>M、N、O</td>
@@ -85,7 +85,7 @@ ht-degree: 69%
     <td rowspan="2">user=Mary</td>
     <td rowspan="2">true</td>
     <td>“人员”</td>
-    <td>玛丽</td>
+    <td>Mary</td>
     <td>77、88、99</td>
     <td>A、B、C</td>
     <td>M、N、O</td>
@@ -100,10 +100,10 @@ ht-degree: 69%
     <td>U、W</td>
   </tr>
   <tr>
-    <td rowspan="2">user=Mary<br> AAID=66</td>
+    <td rowspan="2">user=Mary<br>AAID=66</td>
     <td rowspan="2">true</td>
     <td>“人员”</td>
-    <td>玛丽</td>
+    <td>Mary</td>
     <td>77、88、99</td>
     <td>A、B、C</td>
     <td>M、N、O</td>
@@ -141,13 +141,13 @@ ht-degree: 69%
 
 请注意，使用 Cookie ID 时，expandIDs 的设置对输出没有任何影响。
 
-## 删除请求示例
+## 示例删除请求
 
 通过使用表格第一行中的 API 值来提出删除请求，命中表格将会发生更新。具体情况如下所示：
 
 <table>
   <tr>
-    <th colspan="5" style="text-align:center">AAID=77 <br>（expandIDs值无关紧要）</th>
+    <th colspan="5" style="text-align:center">AAID=77 <br>（expandIDs 值无关紧要）</th>
   </tr>
   <tr>
     <th>MyProp1</th>
@@ -157,58 +157,58 @@ ht-degree: 69%
     <th>MyEvar3</th>
   </tr>
   <tr>
-    <td>玛丽</td>
+    <td>Mary</td>
     <td>42</td>
-    <td>同类群组</td>
+    <td>A</td>
     <td>Privacy-7398</td>
     <td>Privacy-9152</td>
   </tr>
   <tr>
-    <td>玛丽</td>
+    <td>Mary</td>
     <td>88</td>
     <td>B</td>
     <td>N</td>
     <td>Y</td>
   </tr>
   <tr>
-    <td>玛丽</td>
+    <td>Mary</td>
     <td>99</td>
     <td>C</td>
     <td>O</td>
     <td>Z</td>
   </tr>
   <tr>
-    <td>约翰</td>
+    <td>John</td>
     <td>42</td>
     <td>D</td>
     <td>Privacy-1866</td>
     <td>Privacy-8216</td>
   </tr>
   <tr>
-    <td>约翰</td>
+    <td>John</td>
     <td>88</td>
     <td>E</td>
     <td>N</td>
     <td>U</td>
   </tr>
   <tr>
-    <td>约翰</td>
+    <td>John</td>
     <td>44</td>
     <td>F</td>
     <td>Q</td>
     <td>V</td>
   </tr>
   <tr>
-    <td>约翰</td>
+    <td>John</td>
     <td>55</td>
     <td>G</td>
     <td>R</td>
     <td>X</td>
   </tr>
   <tr>
-    <td>爱丽丝</td>
+    <td>Alice</td>
     <td>66</td>
-    <td>同类群组</td>
+    <td>A</td>
     <td>N</td>
     <td>Z</td>
   </tr>
@@ -251,37 +251,37 @@ ht-degree: 69%
     <td>Z</td>
   </tr>
   <tr>
-    <td>约翰</td>
+    <td>John</td>
     <td>77</td>
     <td>D</td>
     <td>P</td>
     <td>W</td>
   </tr>
   <tr>
-    <td>约翰</td>
+    <td>John</td>
     <td>88</td>
     <td>E</td>
     <td>N</td>
     <td>U</td>
   </tr>
   <tr>
-    <td>约翰</td>
+    <td>John</td>
     <td>44</td>
     <td>F</td>
     <td>Q</td>
     <td>V</td>
   </tr>
   <tr>
-    <td>约翰</td>
+    <td>John</td>
     <td>55</td>
     <td>G</td>
     <td>R</td>
     <td>X</td>
   </tr>
   <tr>
-    <td>爱丽丝</td>
+    <td>Alice</td>
     <td>66</td>
-    <td>同类群组</td>
+    <td>A</td>
     <td>N</td>
     <td>Z</td>
   </tr>
@@ -289,7 +289,7 @@ ht-degree: 69%
 
 >[!NOTE]
 >
->只有包含 user=Mary 和 DEL-PERSON 标签的行中的单元格会受到影响。此外，实际上，包含A_ID的变量可能是prop或eVar。 其替换值是以“Privacy — ”开头的字符串，后跟随机数(GUID)，而不是将数值替换为其他随机数值。
+>只有包含 user=Mary 和 DEL-PERSON 标签的行中的单元格会受到影响。此外，在实际情况中，包含 A_ID 的变量可能是 prop 或 eVar。其替换值是以“Privacy-”开头的字符串，后跟一个随机数 (GUID)，而不是使用其他的随机数值替换该数值。
 
 <table>
   <tr>
@@ -324,37 +324,37 @@ ht-degree: 69%
     <td>Privacy-4395</td>
   </tr>
   <tr>
-    <td>约翰</td>
+    <td>John</td>
     <td>09</td>
     <td>D</td>
     <td>Privacy-8454</td>
     <td>Privacy-8216</td>
   </tr>
   <tr>
-    <td>约翰</td>
+    <td>John</td>
     <td>16</td>
     <td>E</td>
     <td>Privacy-2911</td>
     <td>Privacy-2930</td>
   </tr>
   <tr>
-    <td>约翰</td>
+    <td>John</td>
     <td>44</td>
     <td>F</td>
     <td>Q</td>
     <td>V</td>
   </tr>
   <tr>
-    <td>约翰</td>
+    <td>John</td>
     <td>55</td>
     <td>G</td>
     <td>R</td>
     <td>X</td>
   </tr>
   <tr>
-    <td>爱丽丝</td>
+    <td>Alice</td>
     <td>66</td>
-    <td>同类群组</td>
+    <td>A</td>
     <td>N</td>
     <td>Z</td>
   </tr>
@@ -362,8 +362,8 @@ ht-degree: 69%
 
 请注意以下事项：
 
-* 包含`user=Mary`和`DEL-DEVICE`或`DEL-PERSON`标签的行中的单元格以及包含`DEL-DEVICE`标签的单元格会受到影响，这些单元格位于包含`user=Mary`的行中，包含任何访客ID(AAID)。
-* 当`user=Mary`时，expandIDs设置不会扩展到调用中，以包含MyEvar3中存在的值，MyEvar3具有ID-DEVICE标签。 ExpandIDs仅会扩展，以在`user=Mary`的行中包含访客ID（本例中为AAID，但也包括ECID）。
-* `MyEvar2` 第四行和第五行中的访客ID值会更新，因为这些行包含与第一行和第二行相同的访客ID值。因此，ID扩展会将它们包含在设备级别的删除中。
-* 第2行和第5行中的`MyEvar2`值在删除前后都匹配。 但是，在删除后，它们不再与最后一行中出现的值N匹配，因为该行未作为删除请求的一部分进行更新。
-* `MyEvar3` 的行为与不使用 ID 扩展时它的行为非常不同，因为没有 ID 扩展，就没有 `ID-DEVICES` 匹配。现在，前五行中的`AAID`匹配。
+* 包含 `user=Mary` 和 `DEL-DEVICE` 或 `DEL-PERSON` 标签的行中的单元格将受到影响，另外，包含任意访客 ID (AAID) 的行上带有 `DEL-DEVICE` 标签的单元格出现在包含 `user=Mary` 的行上时，也会受到影响。
+* expandIDs 设置不会展开到调用以包含 MyEvar3 中存在的值，后者在 `user=Mary` 时具有 ID-DEVICE 标签。ExpandIDs 仅展开以包含 `user=Mary` 的行上的访客 ID（在本例中为 AAID，但还包括 ECID）。
+* 在第四行和第五行中的 `MyEvar2` 将更新，因为这两行包含的访客 ID 值与第一行和第二行上的值相同。因此，ID 扩展包括它们以用于设备级别的删除。
+* 第二行和第五行中 `MyEvar2` 的值在删除前后均匹配。但是，在删除之后，它们不再匹配最后一行中出现的值 N，因为该行没有在删除请求期间更新。
+* `MyEvar3` 的行为与不使用 ID 扩展时它的行为非常不同，因为没有 ID 扩展，就没有 `ID-DEVICES` 匹配。现在，`AAID` 在前五行上匹配。
