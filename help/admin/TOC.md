@@ -4,11 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解如何在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等。
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-source-wordcount: '727'
-ht-degree: 100%
+source-git-commit: 746c2cfd3236df7ec7498749015ddf75c1e558f5
+workflow-type: tm+mt
+source-wordcount: '729'
+ht-degree: 99%
 
 ---
 
@@ -35,6 +34,7 @@ ht-degree: 100%
       + [转化分类](admin/conversion-var-admin/conversion-classifications.md)
       + [分类层次结构](admin/conversion-var-admin/classification-hierarchies.md)
       + [列表变量](admin/conversion-var-admin/list-var-admin.md)
+      + [促销 eVar](admin/conversion-var-admin/merchandising-evars.md)
    + [货币代码](admin/currency.md)
    + [自定义报表描述](admin/custom-desc-admin.md)
    + [自定义日历](admin/custom-calendar.md)
@@ -53,7 +53,7 @@ ht-degree: 100%
       + [付费搜索检测概述](admin/paid-search-detection/paid-search-detection.md)
       + [配置付费搜索检测](admin/paid-search-detection/t-paid-search-detection.md)
    + [发布列表](admin/publishing-list.md)
-   + [发布小组件](admin/publishing-widgets-admin.md)
+   + [发布用小组件](admin/publishing-widgets-admin.md)
    + [首选项管理器](admin/preferences-manager.md)
    + [隐私设置](admin/privacy-settings.md)
    + [隐私设置](admin/privacy-reporting.md)
@@ -83,7 +83,7 @@ ht-degree: 100%
    + 实时报表 {#real-time-reports}
       + [实时报表概述](admin/realtime/realtime.md)
       + [实时报表配置](admin/realtime/t-realtime-admin.md)
-      + [受支持的实时指标和维度](admin/realtime/realtime-metrics.md)
+      + [受支持的实时量度和维度](admin/realtime/realtime-metrics.md)
    + [计划报表队列](admin/scheduled-reports-admin.md)
    + 服务器端转发 {#server-side-forwarding}
       + [服务器端转发概述](admin/c-server-side-forwarding/ssf.md)
@@ -107,12 +107,12 @@ ht-degree: 100%
       + [指定独特访客变量](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [用例 - 提取访客 ID](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [视频管理](admin/video-management.md)
-+ Adobe Admin Console 中的 Analytics {#admin-console}
++ AnalyticsAdobe Admin Console 中的 {#admin-console}
    + [Adobe Admin Console 中的 Analytics](admin-console/home.md)
    + 权限 {#permissions}
       + [Admin Console 中的 Analytics Permissions](admin-console/permissions/summary-tables.md)
       + [Adobe Analytics 的产品配置文件](admin-console/permissions/product-profile.md)
-      + [报表包工具的产品配置文件权限](admin-console/permissions/report-suite-tools.md)
+      + [“报表包工具”的产品配置文件权限](admin-console/permissions/report-suite-tools.md)
       + [Analytics 工具的产品配置文件权限](admin-console/permissions/analytics-tools.md)
    + [Adobe Analytics 管理入门指南](admin-console/first-admin-guide.md)
 + 公司设置 {#company-settings}
@@ -122,7 +122,7 @@ ht-degree: 100%
    + [Report Builder 报表](company/report-builder-reports-admin.md)
    + [单点登录](company/single-signon-admin.md)
    + [待定操作](company/pending-actions-admin.md)
-   + [联合品牌](company/co-branding-admin.md)
+   + [品牌联合](company/co-branding-admin.md)
    + [隐藏报表包](company/c-hide-report-suites.md)
    + [安全管理器](company/security-manager.md)
    + [“强制 IP 登录限制”终止使用](company/login-restrictions-eol.md)
@@ -170,7 +170,7 @@ ht-degree: 100%
       + [自定义报表访问 - 概述](user-management2/c-customize-report-access/groups-customize-report-access.md)
       + [自定义 Analytics 工具权限](user-management2/c-customize-report-access/groups-analytics-tools.md)
       + [自定义报表包工具权限](user-management2/c-customize-report-access/groups-report-suite-tools.md)
-      + [自定义指标权限](user-management2/c-customize-report-access/groups-metrics.md)
+      + [自定义量度权限](user-management2/c-customize-report-access/groups-metrics.md)
       + [自定义维度权限](user-management2/c-customize-report-access/groups-dimensions.md)
    + [电子邮件用户](user-management2/t-email-users.md)
 + 数据管理 {#data-governance}
@@ -196,7 +196,7 @@ ht-degree: 100%
    + [查看报表包使用情况](c-server-call-usage/report-suite-usage.md)
    + [服务器调用使用情况警报](c-server-call-usage/scu-alerts.md)
    + [服务器调用使用情况常见问题解答](c-server-call-usage/overage-faq.md)
-+ 流量管理 {#traffic-management}
++ 流量管理{#traffic-management}
    + [管理流量](c-traffic-management/traffic-management.md)
    + [计划流量尖峰](c-traffic-management/t-traffic-schedule-spike.md)
    + [评估过去的服务器调用并计划流量尖峰](c-traffic-management/traffic-spike-estimate-past-server-calls.md)
