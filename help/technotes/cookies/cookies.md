@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics 和浏览器 Cookie
 description: 了解跟踪预防措施如何影响 Adobe Analytics 设置的第三方和第一方 Cookie。
-source-git-commit: b2f606e74aa0d2ab0f01ab7cbfc795bfd7cda461
-workflow-type: ht
+source-git-commit: 2a0cc52664bbeaae66d6160d74fad4840bf692b8
+workflow-type: tm+mt
 source-wordcount: '1985'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ### 第三方 Cookie 限制
 
-在第三方上下文中使用的 Cookie 已经广泛弃用。Firefox 和 Safari 分别在 2019 和 2020 年开始默认阻止第三方 Cookie。Chrome 宣布了计划，将在 2022 年的某个时候停止支持第三方 Cookie。在这样做的时候，第三方 Cookie 将直接不可用。
+在第三方上下文中使用的 Cookie 已经广泛弃用。Firefox 和 Safari 分别在 2019 和 2020 年开始默认阻止第三方 Cookie。Chrome 宣布了计划，将在 2023 年的某个时候停止支持第三方 Cookie。在这样做的时候，第三方 Cookie 将直接不可用。
 
 此外，Chrome 目前仅允许当第三方上下文中将“SameSite”属性设置为“None”并且已标记为安全时，才允许 Cookie 发挥作用，这意味着它们只能用在 HTTPS 上。更多信息在“[什么是 SameSite Cookie 属性以及它如何影响 Analytics？](#samesite-effect)”部分中提供
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 在阻止第三方 Cookie 的浏览器上，跨域跟踪不可用。
 
-### 第一方 Cookie 限制{#limitations-first-party-cookies}
+### 第一方 Cookie 限制 {#limitations-first-party-cookies}
 
 仅在所有主流浏览器上允许第一方 Cookie。但是，Apple 通过 Intelligent Tracking Program (ITP)，限制 Adobe 设置的第一方 Cookie 的生命周期。这将影响 Safari 以及 iOS 和 iPadOS 上的所有浏览器。
 
@@ -50,9 +50,9 @@ ITP 策略经常发生改变。有关最新策略，请查看 Apple 的 [Webkit 
 
 Adobe 设置的所有第一方 Cookie 以及相关的 JavaScript 库均受 ITP 策略影响：
 
-* Adobe Experience Cloud 访客 ID (ECID) 服务库设置的[“AMCV”Cookie](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hans)
+* Adobe Experience Cloud 访客 ID (ECID) 服务库设置的[“AMCV”Cookie](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)
 * 使用 CNAME 配置了第一方数据收集时的 Analytics 旧版 [&quot;s_vi&quot; Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hans)
-* Analytics 旧版 [&quot;s_fid&quot; Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hans)，这是在无法设置 &quot;s_vi&quot; 时使用的后备 Cookie
+* Analytics 旧版 [&quot;s_fid&quot; Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html)，这是在无法设置 &quot;s_vi&quot; 时使用的后备 Cookie
 
 #### ITP 对 Safari for Analytics 有什么影响？
 
@@ -73,7 +73,7 @@ ITP 限制的影响根据用户的行为差别非常大。只有使用受 ITP �
 
 第三方 Cookie 并非由用户访问的网站创建。
 
-虽然浏览器目前以同样方式处理所有第三方 Cookie 并进行存储，但第三方 Cookie 可能会有不同的行为方式。对于客户的 Analytics 第三方 Cookie 实施，浏览器存储 Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hans) ID 作为第三方 Cookie，但客户端仅对 Adobe 发出调用，而不会向未知的或可疑的第三方域发出调用。此 Cookie 提供跨域的持久性标识符并允许安全 (HTTPS) 内容。有关更多信息，请参阅 [Cookie 和 Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hans)。
+虽然浏览器目前以同样方式处理所有第三方 Cookie 并进行存储，但第三方 Cookie 可能会有不同的行为方式。对于客户的 Analytics 第三方 Cookie 实施，浏览器存储 Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hans) ID 作为第三方 Cookie，但客户端仅对 Adobe 发出调用，而不会向未知的或可疑的第三方域发出调用。此 Cookie 提供跨域的持久性标识符并允许安全 (HTTPS) 内容。有关更多信息，请参阅 [Cookie 和 Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)。
 
 在 Analytics 实施中，第三方 Cookie 用于跨域跟踪以及用于广告用例，包括重新定位广告。您可使用第三方 Cookie 在访客访问您拥有的不同域时标识访客，或者在并非您拥有的网站上向其显示广告时进行标识。<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
@@ -87,7 +87,7 @@ ITP 限制的影响根据用户的行为差别非常大。只有使用受 ITP �
 
 ![Cookie 比较](/help/technotes/assets/cookies2.png)
 
-## 什么是 SameSite Cookie 属性以及它如何影响 Analytics？{#samesite-effect}
+## 什么是 SameSite Cookie 属性以及它如何影响 Analytics？ {#samesite-effect}
 
 随着 2020 年 2 月 Chrome 80 浏览器的发布（以及后续版本的 Firefox 和 Edge 浏览器），SameSite Cookie 属性强制执行三个不同值的规范，这些值控制 Cookie 是否可以在第三方上下文中使用：
 
@@ -123,7 +123,7 @@ ITP 限制的影响根据用户的行为差别非常大。只有使用受 ITP �
 
 如果您的网站使用 Experience Cloud 访客 ID 服务，则服务将第三方 HTTP 调用重定向到其 HTTPS 端点，这会增加延迟，但意味着您无需更改配置。
 
-#### 为多个域使用一个 CNAME 时更改 SameSite 值{#samesite-one-cname}
+#### 为多个域使用一个 CNAME 时更改 SameSite 值 {#samesite-one-cname}
 
 >[!NOTE]
 >
@@ -133,7 +133,7 @@ ITP 限制的影响根据用户的行为差别非常大。只有使用受 ITP �
 
 但是，如果您拥有多个域并使用相同的 CNAME 在所有域中进行数据收集，则在这些其他域中将 Cookie 视为第三方 Cookie。对于 Chrome 80 和更高版本，它在这些其他域中不再可见。为了让行为在多个浏览器之间更为相似，Analytics 明确将此 Cookie 的 `SameSite` 值设置为 `Lax`。如果您在友好的第三方上下文中使用此 Cookie，则必须使用 `SameSite=None` 值设置 Cookie，这还意味着您必须始终使用 HTTPS。如果您尚未这么做，则联系 Adobe 客户关怀部门为您更改安全 CNAME 的 SameSite 值。
 
-## 如何确定 Safari 更改是否影响我的业务？{#measure-itp-effect}
+## 如何确定 Safari 更改是否影响我的业务？ {#measure-itp-effect}
 
 Adobe 建议在更改数据收集之前，在自己的公司内部衡量更改的影响。您可以使用 Analysis Workspace 衡量 ITP 跟踪预防对您单独业务的影响：
 
