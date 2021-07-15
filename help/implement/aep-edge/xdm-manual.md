@@ -5,7 +5,7 @@ exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
 source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Adobe Experience Platform (AEP) Web SDK 包括有助于您在 Platform 与 Analy
 
 对于未自动映射到 Analytics 的 XDM 数据，您可以添加[上下文数据](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html?lang=zh-Hans)以匹配您的[架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans)。然后，Analytics [处理规则](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html?lang=zh-Hans)会使用这些数据来填充 Analytics 变量。
 
-此外，您还可以使用一组默认的操作和产品列表，通过[AEP Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)发送或检索数据。
+此外，您可以使用默认操作集和产品列表，通过 [AEP Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) 发送或检索数据。
 
 ## 上下文数据
 
