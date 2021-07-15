@@ -1,11 +1,10 @@
 ---
 description: 此功能允许您自定义用户在“Reports & Analytics”中看到的报表菜单。您可以针对所有用户显示或隐藏报表，还可以在不同的文件夹中移动报表。如果您的组织仅使用特定报表，并且不希望让未使用的或者不相关的数据来填充您的左侧菜单，则此功能尤为适用。
 title: 菜单自定义
-feature: Admin Tools
+feature: 管理工具
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 exl-id: 0cba7569-81e9-44be-8633-79da83ec8bd3
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 92%
@@ -20,41 +19,15 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->菜单结构的任何更改均不影响Report Builder。 但是，重命名报告将反映在此工具中。
+>对菜单结构所做的任何更改都不会影响Report Builder。 但是，重命名报表将反映在此工具中。
 
 ## 菜单自定义描述 {#section_B0D224DACB914A378902A4E0E1234889}
 
-<table id="table_E609632569EB499184E56618C2CEF742"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 日历 </th> 
-   <th colname="col2" class="entry"> 描述 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> 新建文件夹</span> </td> 
-   <td colname="col2"> <p> 在当前选定项目的上方添加新文件夹。请注意，您必须添加至少一份报表到文件夹中，文件夹才能可见。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> 重命名</span> </td> 
-   <td colname="col2"> <p> 您可更改当前选定项目的名称。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> 默认名称</span> </td> 
-   <td colname="col2"> <p> 还原当前选定项目的默认名称。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> 切换可见性</span> </td> 
-   <td colname="col2"> <p> 隐藏（显示）当前选定项目。隐藏的项目在“菜单自定义”页面显示为灰线模式。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> 删除</span> </td> 
-   <td colname="col2"> <p> 从菜单中删除当前选定的项目。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> 还原默认值</span> </td> 
-   <td colname="col2"> <p> 将菜单还原为其初始状态。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 日历 | 描述 |
+|--- |--- |
+| 新建文件夹 | 在当前选定项目的上方添加新文件夹。请注意，您必须添加至少一份报表到文件夹中，文件夹才能可见。 |
+| 重命名 | 您可更改当前选定项目的名称。 |
+| 默认名称 | 还原当前选定项目的默认名称。 |
+| 切换可见性 | 隐藏（显示）当前选定项目。隐藏的项目在“菜单自定义”页面显示为灰线模式。 |
+| 删除 | 从菜单中删除当前选定的项目。 |
+| 还原默认值 | 将菜单还原为其初始状态。 |
