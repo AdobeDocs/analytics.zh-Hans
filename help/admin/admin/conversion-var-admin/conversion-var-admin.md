@@ -28,7 +28,7 @@ eVar 最适合用于度量原因和影响，例如：
 
 >[!NOTE]
 >
->在图像请求中，一个 eVar 中只能存储一个值。如果一个 eVar 值中需要多个值，我们建议您实施[列表变量 (list vars)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=zh-Hans)。
+>在图像请求中，一个 eVar 中只能存储一个值。如果一个 eVar 值中需要多个值，我们建议您实施[列表变量 (list vars)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html)。
 
 ## 转化变量 - 描述 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
