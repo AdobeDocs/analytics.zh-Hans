@@ -5,9 +5,9 @@ uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 feature: API
 role: Developer
 exl-id: 924f591d-b6ed-4dae-aa69-72d72217e7bd
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '277'
+source-git-commit: 3867573780a791ec4cf2b2ceda33707d972f3f5c
+workflow-type: tm+mt
+source-wordcount: '267'
 ht-degree: 100%
 
 ---
@@ -93,4 +93,3 @@ Analytics 报表 API 的比较表。提供了支持文档的链接。
 **相关帮助**
 
 * [Adobe/IO](https://www.adobe.io/) - 将 Adobe 技术集成到应用程序所需的技术文档和工具的综合性源。
-* [Data Workbench 查询 API](https://marketing.adobe.com/developer/documentation/data-workbench-query-api/c-ins-qry-api)
