@@ -3,11 +3,10 @@ description: 报表时间处理是一种虚拟报表包设置，它允许以一�
 title: 报表时间处理
 uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1423'
-ht-degree: 100%
+source-git-commit: 3867573780a791ec4cf2b2ceda33707d972f3f5c
+workflow-type: tm+mt
+source-wordcount: '1421'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +30,7 @@ ht-degree: 100%
 
 这种处理架构提供了更为灵活的报表选项。例如，您可以将访问超时时段以非破坏性的方式更改为任何所需时长，这些更改将以追溯方式反映在您的 eVar 持久性和区段容器中，就如同您在收集数据之前应用了这些设置一样。此外，您还可以创建任意数量的虚拟报表包，每个虚拟报表包均具有不同的报表时间处理选项，这些选项基于相同的基础报表包，而无需更改基础报表包中的任何数据。
 
-通过报表时间处理，Analytics 还可以避免将后台点击计算为新的访问，并且 [Mobile SDK](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) 也可以让报表在每次触发应用程序启动事件时才开始一次新访问。
+通过报表时间处理，Analytics 还可以避免将后台点击计算为新的访问，并且 [Mobile SDK](https://www.adobe.io/apis/cloudplatform/mobile.html) 也可以让报表在每次触发应用程序启动事件时才开始一次新访问。
 
 以下配置选项当前可用于启用了报表时间处理的虚拟报表包：
 
@@ -41,7 +40,7 @@ ht-degree: 100%
 * **在每次应用程序启动后即开始一个新访问：**&#x200B;除了访问超时之外，您还可以不考虑非活动状态时限，只要 Mobile SDK 中记录了应用程序启动事件，就可以强制开始一次访问。此设置会影响访问指标和访问区段容器，以及 eVar 中的访问过期逻辑。
 * **通过事件开始新访问：**&#x200B;无论会话是否超时，均会在事件被触发时启动新会话。新创建的会话包含启动该会话的事件。此外，您可以使用多个事件启动会话，如果在数据中观察到这些事件中的任何一个，便会触发新会话。此设置将影响您的访问计数、访问分段容器以及 eVar 上的访问过期逻辑。
 
-报表时间处理不支持传统 Analytics 报表中提供的所有指标和维度。只能在 Analysis Workspace 中访问使用报表时间处理的虚拟报表包，而在 [!UICONTROL Reports &amp; Analytics]、Data Warehouse、Report Builder、数据馈送或 Reporting API 中无法访问。
+报表时间处理不支持传统 Analytics 报表中提供的所有指标和维度。使用报表时间处理的虚拟报表包只能在Analysis Workspace中访问，而无法在[!UICONTROL Reports &amp; Analytics]、Data warehouse、Report Builder、数据馈送或报表API中访问。
 
 另外，报表时间处理仅可处理报告日期范围（以下称为“日期时限”）内的数据。这意味着在报告日期范围之前为访客设置的“永不过期”的 eVar 值不会在报告时限内持续保留，并且也不会显示在报表中。这还意味着客户忠诚度测量完全基于报告日期范围内的数据，而不是报告日期范围之前的整个历史记录。
 
