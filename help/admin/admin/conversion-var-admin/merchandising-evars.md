@@ -1,7 +1,7 @@
 ---
 title: 促销eVar和产品查找方法
 description: 深入了解推销eVar背后的概念，以及它们如何处理和分配数据。
-source-git-commit: cbc3fe2be4f2bca604a218cfd5dfbb121e6a7a5c
+source-git-commit: 9c71c9e94177c9510ca6af050c9de6fb54c8dc6f
 workflow-type: tm+mt
 source-wordcount: '5337'
 ht-degree: 0%
@@ -383,6 +383,6 @@ post_products列中包含的值可能您很熟悉。 在本文档中向上滚动
 
 总之，如果没有其他配置，促销eVar的现成实例量度便没有那么有用。 幸运的是，Adobe释放了[Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en)。 它允许您对Adobe Analytics收集的任何自定义量度应用多个归因模型。 应用这些归因模型的量度不会使用post_evar列中包含的值或绑定到任何特定产品的值。 相反，这些量度仅使用通过图像请求本身传递的值(或通过Adobe Analytics处理规则捕获的值)。 您可以使用Attribution IQ中的功能为使用转化变量语法的所有促销eVar获取准确的归因实例量度。
 
-![](assets/merch-evars3.png)
+![](assets/attribution-select.png)
 
 将促销eVar的实例量度添加到报表时，正确的Attribution IQ模型将为“最近联系”模型。 在这种情况下，模型的“回顾窗口”设置无关紧要。 原因在于，“强制”的最近联系归因模型始终会将实例点数分配给通过请求传入的每个单独值。 无论eVar的实际归因/绑定设置是否设置为等于“最近（最后）”还是“原始值（第一个）”。
