@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
 user-guide-description: '自定义收集哪些数据，以便让 Adobe Analytics 得到充分利用。 '
-source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
-workflow-type: ht
-source-wordcount: '379'
-ht-degree: 100%
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 94%
 
 ---
 
@@ -149,13 +149,13 @@ ht-degree: 100%
       + [访问示例](js/xdevice-visid/visit-example.md)
       + [旧版跨设备识别功能常见问题解答](js/xdevice-visid/xdevice-faq.md)
    + [AppMeasurement 疑难解答](js/troubleshooting.md)
-+ 使用 Adobe Experience Platform Launch 实施 Analytics {#launch}
-   + [Launch 概述](launch/overview.md)
-   + [创建 Analytics 属性](launch/create-analytics-property.md)
++ 在Adobe Experience Platform中使用标记{#launch}实施Analytics
+   + [标记概述](launch/overview.md)
+   + [创建Analytics标记属性](launch/create-analytics-property.md)
    + [部署到开发环境](launch/deploy-dev.md)
    + [验证并发布到生产环境](launch/validate-publish-prod.md)
    + [将数据层对象映射到数据元素](launch/layer-to-elements.md)
-   + [将 Launch 数据元素映射到 Analytics 变量](launch/elements-to-variable.md)
+   + [将标记数据元素映射到Analytics变量](launch/elements-to-variable.md)
 + 在其他平台上实施 Analytics {#other}
    + [使用硬编码图像请求实施 Analytics](other/hardcoded.md)
    + [使用 DTM 实施 Analytics](other/dtm-implementation-overview.md)
