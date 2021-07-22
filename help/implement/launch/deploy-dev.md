@@ -1,28 +1,31 @@
 ---
 title: 将 Adobe Analytics 部署到开发环境
-description: 了解如何使用 Adobe Experience Platform Launch 将 Adobe Analytics 部署到开发环境。
+description: 了解如何使用标记将Adobe Analytics部署到开发环境。
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '544'
-ht-degree: 100%
+source-git-commit: 9b9a338e3652c85ae0f8ce79b98a2babf427ab4c
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 63%
 
 ---
 
 # 将 Analytics 实施部署到开发环境
 
-在 Launch 中创建并配置属性后，即可在您的网站上部署库并实施代码。
+创建并配置标记属性后，即可在您的网站上部署库并实施代码。
+
+>[!NOTE]
+>Adobe Experience Platform Launch已在Experience Platform中被重新命名为一套数据收集技术。 因此，在产品文档中推出了一些术语更改。 有关术语更改的统一参考，请参阅以下[文档](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en)。
 
 ## 先决条件
 
-[在 Launch 中为 Adobe Analytics 创建和配置属性](create-analytics-property.md)：访问该工具并为 Analytics 实施创建空间。
+[为Adobe Analytics创建和配置标记属性](create-analytics-property.md):访问该工具并为Analytics实施创建一个空间。
 
 ## 创建适配器和环境
 
-Launch 在部署代码方面提供了许多组织工作流程。请按照以下步骤为 Analytics 实施创建所需的最少组件。作为 Launch 管理员，您可以在组织内部建立用于部署 Adobe 解决方案的合适工作流程。
+标记包含许多部署代码的组织工作流程。 请按照以下步骤为 Analytics 实施创建所需的最少组件。作为标签管理员，您可以在组织内工作，以建立用于部署Adobe解决方案的正确工作流。
 
 1. 转到 [Adobe Experience Platform Launch](https://launch.adobe.com)，并在出现提示时登录。
-2. 单击要在网站上实施的 Launch 属性。
+2. 单击要在网站上实施的标记属性。
 3. 单击“适配器”选项卡，然后单击“添加适配器”。
 4. 将其命名为“Akamai”，然后在类型下拉列表中选择“Akamai”。单击“保存”。
 5. 转到“环境”选项卡，然后单击“创建新环境”。
@@ -35,16 +38,16 @@ Launch 在部署代码方面提供了许多组织工作流程。请按照以下�
 尽管到目前为止您已进行所有更改和配置，但实际上尚未发布任何代码。创建一个库（大致意思为更改集合）以在您的网站上用于发布代码。
 
 1. 转到 [Adobe Experience Platform Launch](https://launch.adobe.com)，并在出现提示时登录。
-2. 单击要在网站上实施的 Launch 属性。
+2. 单击要在网站上实施的标记属性。
 3. 单击“发布”选项卡，然后单击“添加新库”。
 4. 将该库命名为“初始更改”，然后选择开发环境。
 5. 单击“添加所有更改的资源”，此时将自动列出 Adobe Analytics、Identity Service 和核心。
 6. 单击“保存”。
 7. 返回发布工作流程屏幕，单击新库旁边的下拉菜单，然后单击“为开发构建”。几秒钟后，如果库上的黄点变为绿色，则表示已成功生成该内部版本。
 8. 转到“环境”选项卡，然后单击开发环境。
-9. 在“安装 Launch”下，复制代码块并将其提供给贵组织的网站所有者。
+9. 在“安装标记”下，复制代码块并将其提供给贵组织的网站所有者。
 
-## 在网站的开发环境中安装 Launch
+## 在网站的开发环境中安装标记
 
 如果您控制网站的代码，请在网站每个页面上的相应位置（在 `<head>` 标记内和靠近 `</body>` 标记的正上方）实施这两个代码块。此代码通常放置在网站的主要模板中。仅包含实施代码的空白页面如下所示：
 
@@ -71,8 +74,8 @@ Launch 在部署代码方面提供了许多组织工作流程。请按照以下�
 
 ## 文档和其他资源
 
-- [Launch 快速入门](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html?lang=zh-Hans)：了解 Launch 的基本工作流程
-- [Launch 发布](https://experienceleague.adobe.com/docs/launch/using/reference/publish/overview.html?lang=zh-Hans)：了解有关发布和环境的更多信息
+- [快速入门指南](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en):了解标签实施的基本工作流程
+- [发布概述](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=en):了解有关发布和环境的更多信息
 
 ## 后续步骤
 
