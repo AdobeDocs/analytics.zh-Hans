@@ -5,9 +5,9 @@ title: 处理顺序
 feature: 管理工具
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '503'
 ht-degree: 90%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 90%
 |--- |--- |
 | 动态变量查找 | 通过从 HTTP 标题或其他变量中提取信息，将动态填充变量。例如，`s.eVar5="D=c1"` 会将 prop1 的值置于 eVar5 中。 |
 | AppMeasurement | AppMeasurement 中使用的功能和插件将在浏览器或客户端应用程序中执行。 |
-| 标签管理 | 在AdobeLaunch或动态标签管理中定义的规则将按照定义的方式执行。 |
+| 标签管理 | 数据收集UI中定义的规则将按照定义的方式执行。 |
 | 机器人规则 | [机器人规则](/help/admin/admin/bot-removal/bot-rules.md)允许您从报表包中删除已知蜘蛛程序和机器人程序生成的流量。 |
 
 ## 应用处理规则之后
