@@ -2,10 +2,10 @@
 title: 在 Adobe Analytics 中删除机器人
 description: 如何删除 Adobe Analytics 中的机器人
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '788'
-ht-degree: 100%
+source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
+workflow-type: tm+mt
+source-wordcount: '796'
+ht-degree: 91%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 ### 步骤 1：将访客的 Experience Cloud ID 传递到新声明的 ID
 
-要开始，请在 [People Core Service](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans) 中创建新声明的 ID。将您的访客 Experience Cloud ID 传递到此新声明的 ID 中，这可以使用 [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=zh-Hans) 快速轻松地完成。我们使用名称“ECID”作为声明的 ID。
+要开始，请在 [People Core Service](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans) 中创建新声明的 ID。将访客的Experience CloudID传递到此新声明的ID中，您可以通过Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en)中的[标记快速轻松地完成此操作。 我们使用名称“ECID”作为声明的 ID。
 
 ![](assets/bot-cust-attr-setup.png)
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-设置了数据元素之后，请按照[这些说明](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=zh-Hans)将声明的 ID 传递到 Adobe Launch 的 ECID 工具中。
+设置此数据元素后，请按照[这些说明](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en)，使用Adobe Experience Platform中的标记将声明的ID传递到ECID工具中。
 
 ### 步骤 2：使用分段识别机器人
 
