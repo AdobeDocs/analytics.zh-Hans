@@ -1,23 +1,22 @@
 ---
-description: 解释了欧盟Cookie合规性法规所提示的对服务器端转发的增强。
+description: 说明根据欧盟Cookie合规条例的规定对服务器端转发进行了增强。
 title: GDPR/ePrivacy 合规和服务器端转发
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-translation-type: tm+mt
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 90%
+source-wordcount: '541'
+ht-degree: 80%
 
 ---
 
 # GDPR/ePrivacy 合规和服务器端转发
 
-本节介绍了2017年9月30日生效的[EU cookie合规性规定](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm)所提示的对服务器端转发的增强。
+本节介绍根据2017年9月30日生效的[EU Cookie合规条例](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm)的规定，对服务器端转发的增强功能。
 
 服务器端转发用于实时将数据从 Adobe Analytics 共享到其他 [!DNL Experience Cloud Solutions]，例如 Audience Manager。启用服务器端转发后，在数据收集过程中该功能还允许 Analytics 将数据推送到其他 Experience Cloud 解决方案，而对于这些解决方案，则将数据推送到 Analytics。
 
-以前，服务器端转发无法在同意和预先同意的事件/点击之间进行区分。 从 2018 年 11 月 1 日起，数据控制方（Adobe Analytics 客户）可以选择将预先同意的数据限制在 Adobe Analytics 中，并阻止将其转发到 AAM。新的实施环境变量可以让您标记出在未获得同意的情况下的点击量。设置了该变量后，它可以阻止将这些点击量发送到 AAM，直至获得同意为止。
+以前，服务器端转发无法在同意事件/点击和预先同意事件/点击之间进行区分。 从 2018 年 11 月 1 日起，数据控制方（Adobe Analytics 客户）可以选择将预先同意的数据限制在 Adobe Analytics 中，并阻止将其转发到 AAM。新的实施环境变量可以让您标记出在未获得同意的情况下的点击量。设置了该变量后，它可以阻止将这些点击量发送到 AAM，直至获得同意为止。
 
 当点击存在新上下文变量 `cm.ssf=1` 时，此点击会进行标记，因此不会被服务器端转发到 AAM。相反，如果未对点击设置此字符串，则点击会被转发到 AAM。
 
@@ -29,10 +28,10 @@ ht-degree: 90%
 
 | 实施方法 | 步骤 |
 |--- |--- |
-| Adobe Experience Platform Launch | 如果您已安装 Adobe Analytics 扩展，请在规则的“操作”配置中将以下上下文数据变量定义添加到自定义代码编辑器：<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注意：如果客户不同意进行目标营销，请定义上下文数据变量并将其设置为 1。如果客户同意进行目标营销，则将 `contextdata` 变量设置为 *0*。 |
+| Adobe Experience Platform中的标记 | 假定您已安装Adobe Analytics扩展，请在规则的Action配置中将以下上下文数据变量定义添加到自定义代码编辑器：<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>注意： 定义contextdata变量，并在客户不同意进行目标营销时将其设置为1。 如果客户同意进行目标营销，则将 `contextdata` 变量设置为 *0*。 |
 | AppMeasurement | 将上下文数据变量定义添加到 AppMeasurement.js 文件：<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注意：定义 contextdata 变量时，如果客户不同意进行目标营销，则将其设置为 1。如果客户同意进行目标营销，则将 contextdata 变量设置为 0。 |
 
-## 报表（可选）{#section_6AD4028EC11C4DABA2A34469DDC99E89}
+## 报表（可选） {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
 您可以使用 Adobe Analytics 报告有多少流量基于同意并经由服务器端转发，以及有多少流量非基于同意且尚未转发到 AAM。
 
