@@ -1,34 +1,37 @@
 ---
-title: 将 Launch 数据元素映射到 Analytics 变量
+title: 将标记数据元素映射到Analytics变量
 description: 将数据元素分配给 Analytics 变量，以便在 Analysis Workspace 中可以将这些变量用作维度。
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '446'
-ht-degree: 100%
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 73%
 
 ---
 
-# 将 Launch 数据元素映射到 Analytics 变量
+# 将标记数据元素映射到Analytics变量
 
-在 Adobe Experience Platform Launch 中拥有数据元素存储库后，即可将其分配给 Analytics 维度。
+拥有标记数据元素存储库后，您可以将其分配给Analytics维度。
+
+>[!NOTE]
+>Adobe Experience Platform Launch已在Experience Platform中被重新命名为一套数据收集技术。 因此，在产品文档中推出了一些术语更改。 有关术语更改的统一参考，请参阅以下[文档](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en)。
 
 ## 先决条件
 
-[将数据层对象映射到数据元素](layer-to-elements.md)：确保您了解 Launch 中的数据元素，并且拥有可使用的若干数据元素。
+[将数据层对象映射到数据元素](layer-to-elements.md):确保您了解标记数据元素，并且有多个要处理的元素。
 
 [创建解决方案设计文档](../prepare/solution-design.md)：解决方案设计文档是保持有条不紊的关键。遵循解决方案设计文档可简化将数据元素分配给 Analytics 变量的流程。
 
 ## 将数据元素分配给 Analytics 变量
 
-按照这些步骤在 Launch 中发布资源库后，您可以在 Analysis Workspace 中使用自定义维度。您可以在全局范围内设置 Analytics 变量，也可以在单个规则中设置。
+按照以下步骤操作后发布标记库，以便在Analysis Workspace中使用自定义维度。 您可以在全局范围内设置 Analytics 变量，也可以在单个规则中设置。
 
 ### 设置全局变量
 
 如果您希望在数据元素所在的所有页面上设置变量值，理想的做法是设置全局变量。
 
 1. 转到 [Adobe Experience Platform Launch](https://launch.adobe.com)，并在出现提示时登录。
-1. 单击所需的 Launch 属性。
+1. 单击所需的标记属性。
 1. 单击[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的[!UICONTROL 配置]。
 1. 单击[!UICONTROL 全局变量]折叠图标，这会显示用于分配全局变量的界面。
 
@@ -37,7 +40,7 @@ ht-degree: 100%
 如果您不希望在每个页面上设置变量，理想的做法是在规则中设置变量。在规则中定义条件。请参阅 Adobe Experience Platform Launch 用户指南中的[规则](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html?lang=zh-Hans)。
 
 1. 转到 [Adobe Experience Platform Launch](https://launch.adobe.com)，并在出现提示时登录。
-1. 单击所需的 Launch 属性。
+1. 单击所需的标记属性。
 1. 单击[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建一个规则）。
 1. 单击[!UICONTROL 操作]下的[!UICONTROL 添加]按钮。
 1. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为设置变量。
