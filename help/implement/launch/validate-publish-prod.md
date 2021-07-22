@@ -1,18 +1,20 @@
 ---
 title: 验证开发实施并发布到生产环境
-description: 了解如何使用 Adobe Experience Platform Launch 将 Adobe Analytics 部署到生产环境。
+description: 了解如何使用Adobe Experience Platform标记将Adobe Analytics部署到生产环境。
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '645'
-ht-degree: 100%
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+workflow-type: tm+mt
+source-wordcount: '701'
+ht-degree: 62%
 
 ---
 
 # 验证开发实施并发布到生产环境
 
-将 Adobe Experience Platform Launch 库推送到生产环境后，您的组织可以开始使用 Adobe Analytics 提取基本报表。
+将标记库推送到生产环境后，您的组织可以开始使用Adobe Analytics提取基本报表。
+
+>[!NOTE]
+>Adobe Experience Platform Launch已在Experience Platform中被重新命名为一套数据收集技术。 因此，在产品文档中推出了一些术语更改。 有关术语更改的统一参考，请参阅以下[文档](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en)。
 
 ## 先决条件
 
@@ -23,9 +25,9 @@ ht-degree: 100%
 Experience Cloud 调试器是一个 Chrome 插件，可显示页面上存在的所有 Experience Cloud 标记。
 
 1. 打开 [Chrome Web 浏览器](https://www.google.com/chrome/)，然后转到 Chrome 网上应用店中的 [Adobe Experience Cloud 调试器](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)以安装该扩展。
-2. 导航到已实施 Launch 的开发网站。
+2. 导航到已在上实施标记的开发网站。
 3. 单击 Chrome 右上角的 Adobe Experience Cloud 调试器图标
-4. 如果一切都已正确实施，则应会在 Adobe Analytics、Adobe Experience Platform Launch 和 Adobe Experience Cloud 访客 ID 服务中看到以下内容：
+4. 如果一切都已正确实施，您应会在Adobe Analytics、标记和Adobe Experience Cloud访客ID服务中看到以下内容：
 
 ![调试器][assets/debugger.png]
 
@@ -33,22 +35,24 @@ Experience Cloud 调试器是一个 Chrome 插件，可显示页面上存在的�
 
 验证数据后，即可将实施推送到网站的在线版本。
 
-1. 转到 [Adobe Experience Platform Launch](https://launch.adobe.com)，并在出现提示时登录。
-2. 单击要在网站上实施的 Launch 属性。
-3. 单击“发布”选项卡，并在开发列中找到您的库。
-4. 单击库上的下拉列表，然后选择“提交以供审批”。在模态窗口中单击“提交”。
-5. 再次单击库的下拉菜单（现在位于“已提交”列中），然后选择“为开发构建”。
-6. 片刻后，库上的黄色指示灯变为绿色，表示已成功构建。
-7. 再次单击库的下拉列表，然后选择“批准以供发布”。
-8. 再次单击库的下拉列表（现在位于“已批准”列中），然后选择“构建并发布到生产环境”。
-9. 转到“环境”选项卡，单击“生产环境”。
-10. 复制生产页眉和页脚代码，并将其提供给您的网站所有者。请求他们在网站的生产环境中实施此代码。
+1. 转到[experience.adobe.com](https://experience.adobe.com) ，并在出现提示时登录。
+1. 选择&#x200B;**[!UICONTROL 启动/数据收集]**。
+1. 单击&#x200B;**[!UICONTROL 转到Launch /数据收集]**，然后选择&#x200B;**[!UICONTROL 标记]**。
+1. 单击要在网站上实施的标记属性。
+1. 单击&#x200B;**[!UICONTROL Publishing]**&#x200B;选项卡，并在开发列中找到您的库。
+1. 单击库上的下拉列表，然后选择&#x200B;**[!UICONTROL Submit for Approval]**。 在模式窗口中单击&#x200B;**[!UICONTROL Submit]** 。
+1. 再次单击库的下拉列表（现在位于“已提交”列中），然后选择&#x200B;**[!UICONTROL Build for Staging]**。
+1. 片刻后，库上的黄色指示灯变为绿色，表示已成功构建。
+1. 再次单击库的下拉列表，然后选择&#x200B;**[!UICONTROL Approve for Publishing]**。
+1. 再次单击库的下拉列表（现在位于[!UICONTROL Approved]列中），然后选择&#x200B;**[!UICONTROL Build &amp; Publish to Production]**。
+1. 转到“环境”选项卡，单击&#x200B;**[!UICONTROL 生产环境]**。
+1. 复制生产页眉和页脚代码，并将其提供给您的网站所有者。请求他们在网站的生产环境中实施此代码。
 
 ## 验证您的生产实施
 
 确认您会在网站的在线版本上看到数据，然后开始正式收集 Adobe Analytics 的数据。
 
-1. 向网站所有者确认他们已将 Launch 代码推送到生产环境后，请在 Chrome 中导航到您网站的主页并打开 Adobe Experience Cloud 调试器。
+1. 向网站所有者确认他们已将标记代码推送到生产环境后，请在Chrome中导航到您网站的主页，然后打开[!UICONTROL Adobe Experience Cloud调试器]。
 2. 如果一切运行正常，您应会在开发环境中看到与测试类似的数据。此时，您将可收集网站上的数据，并且可以立即开始使用 Adobe Analytics 进行报告。
 
 ## 故障诊断
