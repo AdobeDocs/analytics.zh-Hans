@@ -2,11 +2,10 @@
 title: 动态帐户概述
 description: 了解关于如何使用 H 代码动态选择报表包的工作流。
 exl-id: 6f35dd71-29ad-4923-b1f7-9c7d6ca45bd8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->仅当使用旧版 JavaScript 实施（H 代码）时，才支持动态帐户。当前的 AppMeasurement 库或 Adobe Experience Platform Launch 不支持这些变量。
+>仅当使用旧版 JavaScript 实施（H 代码）时，才支持动态帐户。当前Adobe Experience Platform中的AppMeasurement库或标记不支持这些变量。
 
 动态帐户是一项实施功能，允许您根据自己定义的条件确定要使用的报表包。如果贵组织需要多个报表包，但希望在各网站之间使用相同的实施，则动态帐户是一个很好的解决方案。
 
