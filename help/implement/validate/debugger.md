@@ -1,11 +1,11 @@
 ---
 title: 旧版 Adobe Experience Cloud Debugger
-description: 安装旧版 Adobe Experience Cloud Debugger。此调试器可检查 Analytics、Target、Advertising Cloud、Identity Service 和 Launch 的标签。
+description: 安装旧版 Adobe Experience Cloud Debugger。此调试器会检查Analytics、Target、Advertising Cloud、Identity Service和数据收集标记的标记。
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '684'
-ht-degree: 100%
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
+source-wordcount: '686'
+ht-degree: 97%
 
 ---
 
@@ -35,7 +35,7 @@ javascript:void(window.open("","stats_debugger","width=800,height=800,location=0
 
 #### Chrome
 
-如果您坚持不使用 [Chrome 扩展](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans)，则可以改用旧版调试器小书签。
+如果您坚持不使用 [Chrome 扩展](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)，则可以改用旧版调试器小书签。
 
 1. 单击右上方的三个圆点，然后转到“书签”>“书签管理器”。此外，您还可以按 `Ctrl` + `Shift` + `O` (Windows) 或 `Cmd` + `Shift` + `O` (Mac)。
 2. 在书签管理器的右上方，单击三个圆点，然后单击“添加新书签”。
