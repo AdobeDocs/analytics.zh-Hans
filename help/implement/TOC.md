@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
 user-guide-description: '自定义收集哪些数据，以便让 Adobe Analytics 得到充分利用。 '
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -151,7 +151,7 @@ ht-degree: 94%
    + [AppMeasurement 疑难解答](js/troubleshooting.md)
 + 在Adobe Experience Platform中使用标记{#launch}实施Analytics
    + [标记概述](launch/overview.md)
-   + [创建Analytics标记属性](launch/create-analytics-property.md)
+   + [创建Adobe Analytics标记属性](launch/create-analytics-property.md)
    + [部署到开发环境](launch/deploy-dev.md)
    + [验证并发布到生产环境](launch/validate-publish-prod.md)
    + [将数据层对象映射到数据元素](launch/layer-to-elements.md)
