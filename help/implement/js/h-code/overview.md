@@ -2,11 +2,10 @@
 title: H 代码 JavaScript 实施概述
 description: 了解在您的网站上实施 H 代码的工作流。
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '388'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->不再支持此版本的数据收集。升级到 [Adobe Experience Platform Launch](../../launch/overview.md) 或 [AppMeasurement for JavaScript](../overview.md)。
+>不再支持此版本的数据收集。升级到Adobe Experience Platform](../../launch/overview.md)或[AppMeasurement for JavaScript](../overview.md)中的[标记。
 
 您必须能够访问托管服务器，才能成功为页面实施用于收集数据的代码。以下步骤详细说明了如何进行基本的 Analytics H 代码实施。
 
