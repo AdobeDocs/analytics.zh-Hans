@@ -3,10 +3,10 @@ description: 在Adobe Analytics中创建用于数据收集的基本容器
 title: 创建报表包
 feature: 管理工具
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: b7d71e89c427f1f8ffe68beb1e83646c54e92825
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 62%
+source-wordcount: '376'
+ht-degree: 63%
 
 ---
 
@@ -47,4 +47,4 @@ ht-degree: 62%
 
 ## 后续步骤
 
-[在Adobe Experience Platform Launch中为Adobe Analytics创建和配置资产](/help/implement/launch/create-analytics-property.md):创建用于管理Analytics实施的区域
+[创建Adobe Analytics标记属性 ](/help/implement/launch/create-analytics-property.md):创建用于管理Analytics实施的区域
