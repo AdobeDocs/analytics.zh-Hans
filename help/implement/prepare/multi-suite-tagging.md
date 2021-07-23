@@ -2,10 +2,10 @@
 description: 了解如何实施多包标记以将图像请求发送到多个报表包。
 title: 实施多包标记
 exl-id: null
-source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
-workflow-type: ht
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 要实施多包标记，您必须在网页和应用程序的跟踪代码中包含全局报表包的报表包 ID (RSID)，还要包括适用子报表包的 RSID。
 
-* 对于 Adobe Experience Platform Launch 实施，请为[[!DNL Analytics] 扩展](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=zh-Hans)指定每个报表包。
+* 对于Adobe Experience Platform标记实施，请为[[!DNL Analytics] 扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html)指定每个报表包。
 
 * 对于旧版 JavaScript 和移动 SDK 实施，请用逗号分隔 RSID，并且不要使用空格（`rsid1,rsid2,rsid3` 等）。
 
