@@ -2,11 +2,10 @@
 title: 移动设备维度
 description: 基于设备的 IP 地址的维度。
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '891'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '892'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +17,7 @@ ht-degree: 100%
 
 ## 使用数据填充这些维度
 
-这些维度引用 Adobe 内部的查找规则。[!UICONTROL 移动运营商]查找是用从 NetAcuity（Digital Elements 产品）获得的数据根据 IP 地址确定的。如果您使用 AppMeasurement 库（例如，通过 Adobe Experience Platform Launch），则所有移动设备维度均可开箱即用。
+这些维度引用 Adobe 内部的查找规则。[!UICONTROL 移动运营商]查找是用从 NetAcuity（Digital Elements 产品）获得的数据根据 IP 地址确定的。如果您使用AppMeasurement库(例如，通过Adobe Experience Platform中的标记)，则所有移动设备维度均可开箱即用。
 
 ## 移动设备维度描述
 
