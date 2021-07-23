@@ -4,10 +4,10 @@ keywords: 点击流;数据馈送;数据馈送;数据馈送
 title: Analytics 数据馈送概述
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '575'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 在使用数据馈送之前，请确保您满足以下所有要求。
 
 * 有可用的 FTP 网站和凭据。数据馈送只能发送到服务器目标。您的组织通常会提供 FTP 凭据。Adobe 可以根据您的请求为 FTP 位置提供少量存储空间。联系客户关怀团队以请求获取数据馈送的 FTP 目标。
-* 将数据发送到 Adobe 数据收集服务器的有效实施。请参阅实施用户指南中的[在 Launch 中验证和发布实施](/help/implement/launch/validate-publish-prod.md)。
+* 将数据发送到 Adobe 数据收集服务器的有效实施。请参阅实施用户指南中的[验证和发布实施](/help/implement/launch/validate-publish-prod.md) 。
 * 您的帐户是 Analytics 产品管理员，或者属于有权访问数据馈送的产品配置文件。
 
 ## 入门步骤
