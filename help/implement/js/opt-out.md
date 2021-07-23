@@ -2,10 +2,10 @@
 title: 选择退出链接
 description: 了解如何为网站的访客创建实施选择退出链接。
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '586'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,19 +27,22 @@ ht-degree: 100%
 
 贵组织的选择退出页面取决于实施中的 [`trackingServer`](../vars/config-vars/trackingserver.md) 变量值。
 
-* 在 Adobe Experience Platform Launch 中：
-   1. 登录到 [launch.adobe.com](https://launch.adobe.com)，然后单击所需的属性。
-   2. 单击[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的[!UICONTROL 配置]。
-   3. 单击[!UICONTROL 常规]折叠面板，并记下[!UICONTROL 跟踪服务器]值。
+* 在Adobe Experience Platform数据收集UI中：
+   1. 转到`experience.adobe.com`并在出现提示时登录。
+   1. 选择[!UICONTROL 启动/数据收集]。
+   1. 单击[!UICONTROL 转到Launch /数据收集]，然后选择[!UICONTROL 标记]。
+   1. 单击所需的属性。
+   1. 单击[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的[!UICONTROL 配置]。
+   1. 单击[!UICONTROL 常规]折叠面板，并记下[!UICONTROL 跟踪服务器]值。
 
 * 在 JavaScript 实施中：
    1. 在 Web 服务器上，在代码编辑器或文本编辑器中打开您网站上使用的 AppMeasurement.js 文件。
-   2. 记下 `trackingServer` 变量值。
+   1. 记下 `trackingServer` 变量值。
 
 * 使用 [Adobe Experience Cloud 调试器](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans)：
    1. 使用 Chrome 浏览器导航到您的网站。
-   2. 打开 Experience Cloud 调试器，然后转到[!UICONTROL 网络]选项卡。
-   3. 记下[!UICONTROL 请求 URL - 主机名]值。
+   1. 打开 Experience Cloud 调试器，然后转到[!UICONTROL 网络]选项卡。
+   1. 记下[!UICONTROL 请求 URL - 主机名]值。
 
 找到实施的 `trackingServer` 域后，将路径 `/optout.html` 附加到结尾处。例如：
 
