@@ -2,11 +2,10 @@
 title: 反向链接
 description: 访客在点击进入到您的网站之前所在的 URL。
 exl-id: 146f0327-c73c-40f5-8cc1-584e31d163a2
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '448'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +23,7 @@ ht-degree: 100%
 
 此维度需要在 Analytics 界面中进行配置，并获取图像请求中的数据。
 
-* 在实施中，此维度从图像请求中的 [`r` 查询字符串](/help/implement/validate/query-parameters.md)检索数据。AppMeasurement 使用浏览器中的 JavaScript 变量 `document.referrer` 收集此数据。您可以使用 [`referrer`](/help/implement/vars/page-vars/referrer.md) 变量覆盖来手动进行设置。如果您使用 AppMeasurement 库（例如，通过 Adobe Experience Platform Launch），则此维度可开箱即用。如果您使用非 AppMeasurement 的数据收集方法（例如通过 API），请确保在图像请求中包含 `r` 查询字符串参数。
+* 在实施中，此维度从图像请求中的 [`r` 查询字符串](/help/implement/validate/query-parameters.md)检索数据。AppMeasurement 使用浏览器中的 JavaScript 变量 `document.referrer` 收集此数据。您可以使用 [`referrer`](/help/implement/vars/page-vars/referrer.md) 变量覆盖来手动进行设置。如果您使用AppMeasurement库(例如，通过Adobe Experience Platform中的标记)，则此维度可开箱即用。 如果您使用非 AppMeasurement 的数据收集方法（例如通过 API），请确保在图像请求中包含 `r` 查询字符串参数。
 * 在 Analytics 界面中，必须配置报表包的[内部 URL 过滤器](/help/admin/admin/internal-url-filter-admin.md)。无法配置内部 URL 过滤器，可能会包含内部 URL 或阻止出现外部 URL。
 
 ## 维度项目
