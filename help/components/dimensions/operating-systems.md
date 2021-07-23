@@ -1,14 +1,13 @@
 ---
 title: 操作系统
 description: 访客的操作系统。
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '104'
-ht-degree: 100%
+exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 80%
 
 ---
-
 
 # 操作系统
 
@@ -16,7 +15,7 @@ ht-degree: 100%
 
 ## 使用数据填充此维度
 
-此维度引用 Adobe 内部的一个查找表。查找值基于图像请求中的 `User-Agent` HTTP 标头。如果您使用 AppMeasurement 库（例如，通过 Adobe Experience Platform Launch），则此维度可开箱即用。
+此维度引用 Adobe 内部的一个查找表。查找值基于图像请求中的 `User-Agent` HTTP 标头。如果您使用AppMeasurement库(例如，通过Adobe Experience Platform中的标记)，则此维度可开箱即用。
 
 ## 维度项目
 
