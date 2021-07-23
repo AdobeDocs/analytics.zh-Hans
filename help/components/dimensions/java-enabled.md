@@ -2,11 +2,10 @@
 title: 已启用 Java
 description: 确定浏览器中是否已启用 Java。
 exl-id: 2d4b4ea2-65ba-4d39-a040-f989b5eddc6e
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '216'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '217'
+ht-degree: 90%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 100%
 
 ## 使用数据填充此维度
 
-此维度从图像请求中的 [`v` 查询字符串](/help/implement/validate/query-parameters.md)检索数据。AppMeasurement 通过检测浏览器中是否已启用 Java 来收集此数据。如果您使用 AppMeasurement 库（例如，通过 Adobe Experience Platform Launch），则此维度可开箱即用。如果您使用 AppMeasurement 之外的数据收集方法（例如，通过 API），请确保包括 `v` 查询字符串参数，其中包含“Y”或“N”值（如果您希望使用此维度的话）。
+此维度从图像请求中的 [`v` 查询字符串](/help/implement/validate/query-parameters.md)检索数据。AppMeasurement 通过检测浏览器中是否已启用 Java 来收集此数据。如果您使用AppMeasurement库(例如，通过Adobe Experience Platform中的标记)，则此维度可开箱即用。 如果您使用 AppMeasurement 之外的数据收集方法（例如，通过 API），请确保包括 `v` 查询字符串参数，其中包含“Y”或“N”值（如果您希望使用此维度的话）。
 
 ## 维度项目
 
