@@ -2,10 +2,10 @@
 title: 将 AppMeasurement 与 iframe 一起使用
 description: 访问 iframe 中的 Adobe Analytics 变量或者在 iframe 中时访问父页面
 exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '323'
-ht-degree: 100%
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
+source-wordcount: '319'
+ht-degree: 90%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 您可从子和父 iframe 引用 AppMeasurement 变量。必须在与 AppMeasurement 库所在的相同位置定义所有变量。以下示例说明了如何在 iframe 内部和外部设置基本 AppMeasurement 变量和方法。
 
-如果您使用 Adobe Experience Platform Launch，请确保跟踪器对象可全局访问。请参阅 Launch 用户指南中的 [Adobe Analytics 扩展概述](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=zh-Hans)。
+如果在Adobe Experience Platform中使用标记，请确保跟踪器对象可全局访问。 请参阅[Adobe Analytics扩展概述](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html)。
 
 >[!CAUTION]
 >
