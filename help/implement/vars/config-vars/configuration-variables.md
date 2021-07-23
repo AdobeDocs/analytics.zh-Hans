@@ -2,11 +2,10 @@
 title: 配置变量
 description: 使用配置变量可帮助确定数据收集的方式。
 exl-id: 3f017a94-b71d-47da-8ab4-daf32475ed34
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '123'
-ht-degree: 100%
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 64%
 
 ---
 
@@ -18,11 +17,13 @@ ht-degree: 100%
 
 在使用 `AppMeasurement.js` 的 JavaScript 实施中，通常会在 JS 文件的顶部设置配置变量。
 
-在使用 Adobe Experience Platform Launch 的实施中，通常通过配置 Adobe Analytics 扩展来查找配置变量：
+在使用Adobe Experience Platform标记的实施中，通常通过配置Adobe Analytics扩展来找到配置变量：
 
-1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
-2. 单击要编辑的属性。
-3. 单击[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的[!UICONTROL 配置]。
+1. 转到`experience.adobe.com`并在出现提示时登录。
+1. 选择[!UICONTROL 启动/数据收集]。
+1. 单击[!UICONTROL 转到Launch /数据收集]，然后选择[!UICONTROL 标记]。
+1. 单击要编辑的属性。
+1. 单击[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的[!UICONTROL 配置]。
 
 >[!IMPORTANT]
 >
