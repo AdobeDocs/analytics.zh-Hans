@@ -2,11 +2,10 @@
 title: 浏览器
 description: 使用的浏览器的名称和版本。
 exl-id: 2bdf2a5a-3482-43fa-b2e1-fbea892918fb
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '177'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '178'
+ht-degree: 88%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 100%
 
 ## 使用数据填充此维度
 
-此维度引用 Adobe 内部的一个查找表。查找值基于图像请求中的 `User-Agent` HTTP 标头。如果您使用 AppMeasurement 库（例如，通过 Adobe Experience Platform Launch），则此维度可开箱即用。
+此维度引用 Adobe 内部的一个查找表。查找值基于图像请求中的 `User-Agent` HTTP 标头。如果您使用AppMeasurement库(例如，通过Adobe Experience Platform中的标记)，则此维度可开箱即用。
 
 ## 维度项目
 
