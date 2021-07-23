@@ -2,11 +2,10 @@
 title: currencyCode 变量是什么以及怎样使用它？
 description: 对于电子商务网站，设置页面交易的货币。
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '830'
-ht-degree: 100%
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
+source-wordcount: '841'
+ht-degree: 95%
 
 ---
 
@@ -26,14 +25,16 @@ ht-degree: 100%
 
 此变量不会在点击之间保留。确保在涉及收入或货币事件的每个页面上定义此变量。
 
-## Adobe Experience Platform Launch 中的“货币代码”
+## Adobe Experience Platform标记中的货币代码
 
 “货币代码”是在配置 Adobe Analytics 扩展时显示在[!UICONTROL 常规]折叠面板中的一个字段。
 
-1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
-2. 单击所需的属性。
-3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的[!UICONTROL 配置]按钮。
-4. 展开[!UICONTROL 常规]折叠面板，这会显示[!UICONTROL 货币代码]字段。
+1. 转到`experience.adobe.com`并在出现提示时登录。
+1. 选择[!UICONTROL 启动/数据收集]。
+1. 单击[!UICONTROL 转到Launch /数据收集]，然后选择[!UICONTROL 标记]。
+1. 单击所需的属性。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的[!UICONTROL 配置]按钮。
+1. 展开[!UICONTROL 常规]折叠面板，这会显示[!UICONTROL 货币代码]字段。
 
 您可以使用预设货币代码或自定义货币代码。如果使用自定义货币代码，请确保该代码有效。
 
@@ -42,12 +43,12 @@ ht-degree: 100%
 货币代码通过 Adobe Analytics 扩展中的上下文数据变量传递到 Adobe Experience Platform Mobile SDK。
 
 1. 在 `trackState` 或 `trackAction` 期间在上下文数据变量中设置货币代码。
-2. 在 Adobe Analytics 管理控制台中为报表包创建处理规则。设置规则以覆盖货币代码变量。
-3. 将货币代码传递给 `trackState` 或 `trackAction` 调用中的 `products` 变量。
+1. 在 Adobe Analytics 管理控制台中为报表包创建处理规则。设置规则以覆盖货币代码变量。
+1. 将货币代码传递给 `trackState` 或 `trackAction` 调用中的 `products` 变量。
 
 您可以使用预设货币代码或自定义货币代码。如果使用自定义货币代码，请确保该代码有效。
 
-## AppMeasurement 和 Launch 自定义代码编辑器中的 s.currencyCode
+## AppMeasurement和数据收集自定义代码编辑器中的s.currencyCode
 
 `s.currencyCode` 变量是一个字符串，其中包含由 3 个大写字母构成的表示页面上所用货币的代码。
 
