@@ -4,10 +4,10 @@ title: 工作区常见问题解答以及故障诊断
 feature: Workspace 基础知识
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '519'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '520'
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 | 问题 | 回答 |
 |--- |--- |
-| 使用 Analysis Workspace 的先决条件是什么？ | [使用 Adobe Experience Platform Launch 将数据发送到 Adobe Analytics](/help/implement/launch/validate-publish-prod.md)：使用 Analysis Workspace 需要有效的实施。在使用这款工具之前，请确保您的组织正在向 Adobe 发送数据。其他实施（如旧版手动实施）也可以正常工作。 |
+| 使用 Analysis Workspace 的先决条件是什么？ | [使用Adobe Experience Platform中的标记将数据发送到Adobe Analytics](/help/implement/launch/validate-publish-prod.md):使用Analysis Workspace需要有效的实施。在使用这款工具之前，请确保您的组织正在向 Adobe 发送数据。其他实施（如旧版手动实施）也可以正常工作。 |
 | Analysis Workspace 的管理和访问要求有哪些？ | 请参阅[管理要求](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)。 |
 | 使用 Analysis Workspace 是否会影响数据收集？ | 由于 Analysis Workspace 是一款报表工具，因此不会对数据收集产生任何影响。您可以不加选择地将组件拖到项目中来查看具体效果，这不会产生任何影响。将不同的维度和指标组合拖动到工作区项目中，可查看相应的效果。如果意外地将无效组件拖动到工作区项目，或者希望返回到上一个步骤，请按 Ctrl + Z (Windows) 或 cmd + Z (Mac) 以撤消上一个操作。此外，您还可以通过单击左上角菜单中的&#x200B;*[!UICONTROL 项目] > [!UICONTROL 新建]*&#x200B;来重头开始创建。 |
 | 一个 Analysis Workspace 项目可以显示多少个报表包？ | 您现在可以在 Analysis Workspace 中使用[多个报表包](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=zh-Hans)的数据创建项目。 |
