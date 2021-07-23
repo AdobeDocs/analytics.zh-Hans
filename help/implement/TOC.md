@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
 user-guide-description: '自定义收集哪些数据，以便让 Adobe Analytics 得到充分利用。 '
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+source-git-commit: 9e1ed13b73a4e31baf788a9c8090af8b7c7bcd7d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '381'
+ht-degree: 91%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 0%
       + [visitorID](vars/config-vars/visitorid.md)
       + [visitorNamespace](vars/config-vars/visitornamespace.md)
       + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
-   + 页面变量 {page-vars}
+   + 页面变量 {#page-vars}
       + [页面变量概述](vars/page-vars/page-variables.md)
       + [营销活动](vars/page-vars/campaign.md)
       + [渠道](vars/page-vars/channel.md)
