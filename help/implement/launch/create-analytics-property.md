@@ -2,14 +2,14 @@
 title: 在标记中创建Analytics属性
 description: 使用标记创建一个空间以自定义收集数据的方式。
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '635'
 ht-degree: 56%
 
 ---
 
-# 创建Analytics标记属性
+# 创建Adobe Analytics标记属性
 
 通过Adobe Experience Platform中的标记，您可以在网站（包括Analytics）上集成Experience Cloud解决方案。 本页专门概述了标签管理员如何正确配置基本的Adobe Analytics实施。
 
