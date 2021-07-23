@@ -2,10 +2,10 @@
 title: 将标记数据元素映射到Analytics变量
 description: 将数据元素分配给 Analytics 变量，以便在 Analysis Workspace 中可以将这些变量用作维度。
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 73%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,16 +30,20 @@ ht-degree: 73%
 
 如果您希望在数据元素所在的所有页面上设置变量值，理想的做法是设置全局变量。
 
-1. 转到 [Adobe Experience Platform Launch](https://launch.adobe.com)，并在出现提示时登录。
+1. 转到`experience.adobe.com`并在出现提示时登录。
+1. 选择[!UICONTROL 启动/数据收集]。
+1. 单击[!UICONTROL 转到Launch /数据收集]，然后选择[!UICONTROL 标记]。
 1. 单击所需的标记属性。
 1. 单击[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的[!UICONTROL 配置]。
 1. 单击[!UICONTROL 全局变量]折叠图标，这会显示用于分配全局变量的界面。
 
 ### 在规则中设置变量
 
-如果您不希望在每个页面上设置变量，理想的做法是在规则中设置变量。在规则中定义条件。请参阅 Adobe Experience Platform Launch 用户指南中的[规则](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html?lang=zh-Hans)。
+如果您不希望在每个页面上设置变量，理想的做法是在规则中设置变量。在规则中定义条件。请参阅Adobe Experience Platform数据收集文档中的[Rules](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html) 。
 
-1. 转到 [Adobe Experience Platform Launch](https://launch.adobe.com)，并在出现提示时登录。
+1. 转到`experience.adobe.com`并在出现提示时登录。
+1. 选择[!UICONTROL 启动/数据收集]。
+1. 单击[!UICONTROL 转到Launch /数据收集]，然后选择[!UICONTROL 标记]。
 1. 单击所需的标记属性。
 1. 单击[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建一个规则）。
 1. 单击[!UICONTROL 操作]下的[!UICONTROL 添加]按钮。
