@@ -2,10 +2,10 @@
 title: Adobe Analytics 管理入门指南
 description: 了解如何开始使用 Adobe Analytics、常规角色类型以及如何登录到用户界面。
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
-source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 91%
+source-wordcount: '949'
+ht-degree: 78%
 
 ---
 
@@ -40,23 +40,23 @@ ht-degree: 91%
 1. 输入要向其授予 Analytics 完全访问权限的电子邮件地址，并为其分配新创建的具有完全管理员访问权限的配置文件。单击“保存”。
 1. 此时，用户将拥有对 Adobe Analytics 的完全访问权限。
 
-## 授予Experience Platform（以前称为Launch）中数据收集的产品管理员访问权限
+## 授予产品管理员在中收集数据的访问权限Experience Platform
 
-Experience Platform中标记的产品管理员访问权限与授予Analytics的产品管理员访问权限几乎相同。
+在Experience Platform中为数据收集授予产品管理员访问权限几乎与为Analytics授予产品管理员访问权限几乎相同。
 
 1. 使用您的 Adobe ID 凭据登录到 Admin Console。
-1. 单击顶部的“产品”选项卡。贵组织购买的所有产品都位于左侧。单击“Experience Platform Launch by Adobe”，然后单击“新建配置文件”按钮。
-1. 将此配置文件命名为“Experience Platform Launch 完全管理员访问权限”，然后单击“完成”。
-1. 返回至“产品配置文件”页面，单击新建的配置文件，然后单击“权限”选项卡。
-1. 单击任一权限行项。如果“自动包含”可用，请启用该项。如果“自动包含”不可用，请单击“全部添加”项。这两个选项都会将权限项移到右列。
-1. 单击“保存”。对所有权限类别重复上述步骤。
-1. 为配置文件授予所有类别的权限后，单击顶部的“概述”，以返回至“概述”页面。
-1. 在“Experience Platform Launch by Adobe”图标下，单击“指定用户”。
-1. 输入要向其授予 Analytics 完全访问权限的电子邮件地址，并为其分配新创建的具有完全管理员访问权限的配置文件。单击“保存”。
-1. 此时，用户将拥有对 Experience Platform Launch 的完全访问权限。
+1. 单击顶部的&#x200B;**[!UICONTROL Products]**&#x200B;选项卡。 贵组织购买的所有产品都位于左侧。单击&#x200B;**[!UICONTROL 按AdobeExperience Platform Launch]**，然后单击&#x200B;**[!UICONTROL 新建配置文件]**。
+1. 将此配置文件命名为“Experience Platform Launch完全管理员访问权限”，然后单击&#x200B;**[!UICONTROL Done]**。
+1. 返回至&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;页面，单击新创建的配置文件，然后单击&#x200B;**[!UICONTROL 权限]**&#x200B;选项卡。
+1. 单击任一权限行项。如果&#x200B;**[!UICONTROL 自动包含]**&#x200B;可用，请启用它。 如果“自动包含”不可用，请单击&#x200B;**[!UICONTROL Add all]**。 这两个选项都会将权限项移到右列。
+1. 单击&#x200B;**[!UICONTROL 保存]**。对所有权限类别重复上述步骤。
+1. 向配置文件授予所有权限类别后，单击顶部的&#x200B;**[!UICONTROL Overview]**，返回至“概述”页面。
+1. 在[!UICONTROL 按AdobeExperience Platform Launch]拼贴下，单击&#x200B;**[!UICONTROL 分配用户]**。
+1. 输入要向其授予 Analytics 完全访问权限的电子邮件地址，并为其分配新创建的具有完全管理员访问权限的配置文件。单击&#x200B;**[!UICONTROL 保存]**。
+1. 用户现在拥有Experience Platform数据收集的完全访问权限。
 
 ## 后续步骤
 
 [创建报表包](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：让您的 Analytics 管理员登录到该工具，并创建用于收集数据的报表包
 
-[在 Experience Platform Launch 中创建资产](/help/implement/launch/create-analytics-property.md)：让您的 Experience Platform Launch 管理员登录到该工具，并创建要在您的站点上实施的资产
+[创建Analytics标记属性](/help/implement/launch/create-analytics-property.md):让您的数据收集管理员登录到该工具，并创建要在您的网站上实施的资产
