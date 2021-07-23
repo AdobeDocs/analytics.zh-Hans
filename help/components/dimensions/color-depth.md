@@ -2,11 +2,10 @@
 title: 颜色深度
 description: 设备的颜色深度。
 exl-id: 0bde895d-6832-4110-b575-62ee5ddc1783
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '220'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '221'
+ht-degree: 91%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 100%
 
 ## 使用数据填充此维度
 
-此维度引用查找表，将位值转换为更易于读取的格式。它会从图像请求中的 [`c` 查询字符串](/help/implement/validate/query-parameters.md)收集数据。AppMeasurement 会使用 `screen.colorDepth` 变量填充图像请求查询字符串。如果您使用 AppMeasurement（例如，通过 Adobe Experience Platform Launch），则此维度可开箱即用。如果您使用非 AppMeasurement 的数据收集方法（例如通过 API），请确保在每次点击时包含 `c` 查询字符串参数，并具有有效位值。
+此维度引用查找表，将位值转换为更易于读取的格式。它会从图像请求中的 [`c` 查询字符串](/help/implement/validate/query-parameters.md)收集数据。AppMeasurement 会使用 `screen.colorDepth` 变量填充图像请求查询字符串。如果您使用AppMeasurement(例如，通过Adobe Experience Platform中的标记)，则此维度可开箱即用。 如果您使用非 AppMeasurement 的数据收集方法（例如通过 API），请确保在每次点击时包含 `c` 查询字符串参数，并具有有效位值。
 
 ## 维度项目
 
