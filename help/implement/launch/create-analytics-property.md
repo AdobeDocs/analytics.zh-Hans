@@ -2,10 +2,10 @@
 title: 在标记中创建Analytics属性
 description: 使用标记创建一个空间以自定义收集数据的方式。
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 56%
+source-wordcount: '608'
+ht-degree: 58%
 
 ---
 
@@ -24,9 +24,7 @@ ht-degree: 56%
 
 属性是用于管理标记的主要容器。通过扩展，您可以安装和配置特定于产品的标记。
 
-1. 转到[experience.adobe.com](https://experience.adobe.com) ，并在出现提示时登录。
-1. 选择&#x200B;**[!UICONTROL 启动/数据收集]**。
-1. 单击&#x200B;**[!UICONTROL 转到Launch /数据收集]**，然后选择&#x200B;**[!UICONTROL 标记]**。
+1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
 1. 单击&#x200B;**[!UICONTROL 新建属性]**。
 1. 为您的属性指定名称（如网站的标题），然后输入要在其中实施 Analytics 的域。单击&#x200B;**[!UICONTROL 保存]**。
 1. 单击新创建的标记属性以输入其设置。
@@ -39,9 +37,7 @@ ht-degree: 56%
 
 数据元素是对网站特定部分的引用，以便收集变量值。
 
-1. 转到[experience.adobe.com](https://experience.adobe.com) ，并在出现提示时登录。
-1. 选择&#x200B;**[!UICONTROL 启动/数据收集]**。
-1. 单击&#x200B;**[!UICONTROL 转到Launch /数据收集]**，然后选择&#x200B;**[!UICONTROL 标记]**。
+1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
 1. 单击要在网站上实施的标记属性。
 1. 单击&#x200B;**[!UICONTROL 数据元素]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 创建新数据元素]**。
 1. 为数据元素指定以下设置：
@@ -62,9 +58,7 @@ ht-degree: 56%
 
 规则会将数据元素映射到 Analytics 变量值，并确定何时将这些值发送到 Adobe 的服务器。
 
-1. 转到[experience.adobe.com](https://experience.adobe.com) ，并在出现提示时登录。
-1. 选择&#x200B;**[!UICONTROL 启动/数据收集]**。
-1. 单击&#x200B;**[!UICONTROL 转到Launch /数据收集]**，然后选择&#x200B;**[!UICONTROL 标记]**。
+1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
 1. 单击要在网站上实施的标记属性。
 1. 单击&#x200B;**[!UICONTROL 创建新规则]**&#x200B;并将其命名为 `Global Rule`。
 1. 单击事件旁边的&#x200B;**[!UICONTROL 添加]**，然后输入以下设置：
