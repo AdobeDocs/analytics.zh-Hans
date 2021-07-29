@@ -1,14 +1,13 @@
 ---
 title: timestamp
 description: 手动设置点击的时间戳。
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '243'
-ht-degree: 100%
+exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 91%
 
 ---
-
 
 # timestamp
 
@@ -18,11 +17,11 @@ ht-degree: 100%
 >
 >如果您的报表包未明确配置为接受带有时间戳的点击，请勿使用此变量。AppMeasurement 会为不支持带有时间戳的点击的报表包自动设置点击时间。如果使用此变量将点击发送到不支持时间戳的报表包，则该数据将永久丢失。
 
-## Adobe Experience Platform Launch 中的时间戳
+## 在Adobe Experience Platform中使用标记的时间戳
 
-Launch 中没有可使用此变量的专用字段。按照 AppMeasurement 语法使用自定义代码编辑器。
+数据收集UI中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
 
-## AppMeasurement 和 Launch 自定义代码编辑器中的 s.timestamp
+## AppMeasurement 和 自定义代码编辑器中的 s.timestamp
 
 `s.timestamp` 变量是一个包含点击日期和时间的字符串。有效的时间戳格式包括 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 和 [Unix 时间](https://en.wikipedia.org/wiki/Unix_time)。
 
