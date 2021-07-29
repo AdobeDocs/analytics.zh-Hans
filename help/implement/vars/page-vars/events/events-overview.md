@@ -1,26 +1,25 @@
 ---
 title: events
 description: 设置事件变量，该变量可控制网站上的大多数量度。
-translation-type: ht
-source-git-commit: 2fd6e3b561d02bdbdd77b0be982614e765c870e2
-workflow-type: ht
-source-wordcount: '676'
-ht-degree: 100%
+exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '680'
+ht-degree: 96%
 
 ---
 
-
-# events
+# 事件
 
 维度和量度是报表的重要组成部分。`events` 变量负责收集您网站上许多量度的数据。事件通常会递增报表中的[量度](/help/components/metrics/overview.md)。
 
 在实施事件之前，请确保在报表包设置的[成功事件](/help/admin/admin/c-success-events/success-event.md)下创建和配置事件。如果您计划在链接跟踪点击中使用自定义事件，请确保正确设置 [`linkTrackVars`](../../config-vars/linktrackvars.md) 和 [`linkTrackEvents`](../../config-vars/linktrackevents.md)。
 
-## Adobe Experience Platform Launch 中的事件
+## 在Adobe Experience Platform中使用标记的事件
 
 您可以在配置 Analytics 扩展时（全局变量）或根据规则设置事件。
 
-1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
 2. 单击所需的属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
@@ -34,7 +33,7 @@ ht-degree: 100%
 * 用于事件值的可选文本字段。您可以包含货币（货币事件）或整数（非货币事件）以使其多次递增。例如，在下拉列表下选择 `event1` 并在此字段中包含 `10`，报表中的 `event1` 将以 10 为单位进行递增。
 * 用于添加其他事件的按钮。对于可包含在点击中的事件数，没有相应的限制。
 
-## AppMeasurement 和 Launch 自定义代码编辑器中的 s.events
+## AppMeasurement 和 自定义代码编辑器中的 s.events
 
 `s.events` 变量是一个字符串，其中包含要包含在点击中的以逗号分隔的事件列表。此变量没有字节限制，因此不会被截断。有效的值包括：
 
