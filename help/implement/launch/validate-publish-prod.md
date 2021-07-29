@@ -2,9 +2,9 @@
 title: 验证开发实施并发布到生产环境
 description: 了解如何使用Adobe Experience Platform标记将Adobe Analytics部署到生产环境。
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '692'
 ht-degree: 62%
 
 ---
@@ -35,9 +35,7 @@ Experience Cloud 调试器是一个 Chrome 插件，可显示页面上存在的�
 
 验证数据后，即可将实施推送到网站的在线版本。
 
-1. 转到[experience.adobe.com](https://experience.adobe.com) ，并在出现提示时登录。
-1. 选择&#x200B;**[!UICONTROL 启动/数据收集]**。
-1. 单击&#x200B;**[!UICONTROL 转到Launch /数据收集]**，然后选择&#x200B;**[!UICONTROL 标记]**。
+1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
 1. 单击要在网站上实施的标记属性。
 1. 单击&#x200B;**[!UICONTROL Publishing]**&#x200B;选项卡，并在开发列中找到您的库。
 1. 单击库上的下拉列表，然后选择&#x200B;**[!UICONTROL Submit for Approval]**。 在模式窗口中单击&#x200B;**[!UICONTROL Submit]** 。
