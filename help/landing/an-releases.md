@@ -2,10 +2,10 @@
 description: 介绍 Adobe Analytics 的全新连续功能发布战略
 title: Adobe Analytics 功能发布
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: f120c189228892e57e38e4d0e106eb3190326ff1
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 100%
+source-wordcount: '417'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ## 功能标记
 
-功能标记用于在发布过程中控制新功能的可见性。Adobe 建议将 app.launchdarkly.com 添加到防火墙的[允许列表](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=zh-Hans)，以在发布过程中获得最佳体验。到达 GA 后不久，将删除该标记。
+功能标记用于在发布过程中控制新功能的可见性。Adobe建议将`app.launchdarkly.com`添加到防火墙的[允许列表](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=zh-Hans)，以在发布过程中获得最佳体验。 到达 GA 后不久，将删除该标记。
 
 您可以随时在&#x200B;**帮助 > 关于 Workspace > 活动功能标记**&#x200B;下查看活动功能标记。
 
