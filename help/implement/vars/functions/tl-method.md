@@ -2,11 +2,10 @@
 title: tl
 description: 向 Adobe 发送链接跟踪调用。
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '606'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '616'
+ht-degree: 92%
 
 ---
 
@@ -16,20 +15,20 @@ ht-degree: 100%
 
 如果已启用 [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) 或 [`trackExternalLinks`](../config-vars/trackexternallinks.md)，AppMeasurement 会自动调用 `tl()` 方法来发送下载链接和退出链接跟踪数据。如果贵组织希望对要跟踪的链接及其行为增强控制，则可以手动调用 `tl()` 方法。只能手动跟踪自定义链接。
 
-## Adobe Experience Platform Launch 中的“链接跟踪调用”
+## 在Adobe Experience Platform中使用标记的链接跟踪调用
 
-Launch 有一个专用位置，可设置链接跟踪调用。
+数据收集UI有一个专用位置，用于设置链接跟踪调用。
 
-1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 1. 在[!UICONTROL 操作]下，单击“+”图标
 1. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为“发送信标”。
 1. 单击 `s.tl()` 单选按钮。
 
-不能在 Launch 中设置任何可选参数。
+无法在数据收集UI中设置任何可选参数。
 
-## AppMeasurement 和 Launch 自定义代码编辑器中的 s.tl() 方法
+## AppMeasurement 和 自定义代码编辑器中的 s.tl() 方法
 
 当您要向 Adobe 发送跟踪调用时，请调用 `s.tl()` 方法。
 
