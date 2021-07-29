@@ -1,14 +1,13 @@
 ---
 title: forceOnline
 description: 手动设置 AppMeasurement 的在线状态。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: 318408bf-bec6-49aa-a762-9d2eebab233e
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 100%
+source-wordcount: '141'
+ht-degree: 83%
 
 ---
-
 
 # forceOnline
 
@@ -20,11 +19,11 @@ ht-degree: 100%
 
 AppMeasurement 会自动检测设备的在线状态。您可以使用 `forceOnline()` 方法强制 AppMeasurement 处理点击，如同设备处于在线状态一样。此方法不接受任何参数，也不返回任何值。它的唯一用途是覆盖 AppMeasurement 中的在线状态。
 
-## Adobe Experience Platform Launch 中的“强制在线”
+## 在Adobe Experience Platform中使用标记强制联机
 
-Launch 中没有可使用此变量的专用字段。按照 AppMeasurement 语法使用自定义代码编辑器。
+数据收集UI中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
 
-## AppMeasurement 和 Launch 自定义代码编辑器中的 s.forceOnline()
+## AppMeasurement 和 自定义代码编辑器中的 s.forceOnline()
 
 在实例化 Analytics 对象后，您可以在实施中的任意位置调用 `s.forceOnline()` 方法。
 
