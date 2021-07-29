@@ -1,14 +1,13 @@
 ---
 title: formatTime
 description: 将秒数转换为以分钟、小时等为单位的等效值。
-translation-type: ht
-source-git-commit: 56b21b6acb948c478d7b2a29c3e8375a8fe77ce2
-workflow-type: ht
-source-wordcount: '824'
-ht-degree: 100%
+exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 95%
 
 ---
-
 
 # Adobe 插件：formatTime
 
@@ -18,11 +17,11 @@ ht-degree: 100%
 
 `formatTime` 插件允许您获取任意秒数，并在四舍五入到所需的基准值后以存储段格式提供它们。如果您希望以秒为单位捕获时间值并将其转换为存储段格式（如分钟、天或周），Adobe 建议使用此插件。如果您不想将基于秒的值存储为时间舍入格式，则不需要使用此插件。
 
-## 使用 Adobe Experience Platform Launch 扩展安装此插件
+## 在Adobe Experience Platform中使用标记安装插件
 
 Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
 
-1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
 1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
@@ -34,11 +33,11 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用�
    * 操作类型：初始化 formatTime
 1. 保存并发布对上述规则所做的更改。
 
-## 使用 Launch 自定义代码编辑器安装此插件
+## 使用 自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的[!UICONTROL 配置]按钮。
 1. 展开[!UICONTROL 使用自定义代码配置跟踪]折叠面板，这会显示[!UICONTROL 打开编辑器]按钮。
