@@ -2,10 +2,10 @@
 title: cookieLifetime
 description: 覆盖由 AppMeasurement 创建的 Cookie 的到期时间。
 exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 85%
+source-wordcount: '233'
+ht-degree: 90%
 
 ---
 
@@ -17,13 +17,11 @@ ht-degree: 85%
 >
 >此变量可影响独特访客计数和归因。设置此变量时请务必小心。
 
-## Adobe Experience Platform标记中的Cookie生命周期
+## 在Adobe Experience Platform中使用标记的Cookie生命周期
 
 “Cookie 生命周期”是在配置 Adobe Analytics 扩展时显示在 [!UICONTROL Cookie] 折叠面板中的一个下拉列表。
 
-1. 转到`experience.adobe.com`并在出现提示时登录。
-1. 选择[!UICONTROL 启动/数据收集]。
-1. 单击[!UICONTROL 转到Launch /数据收集]，然后选择[!UICONTROL 标记]。
+1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的[!UICONTROL 配置]按钮。
 1. 展开 [!UICONTROL Cookie] 折叠面板，这会显示 [!UICONTROL Cookie 生命周期]下拉字段。
@@ -35,7 +33,7 @@ ht-degree: 85%
 * **会话**：Cookie 在访客会话结束时过期。
 * **秒**：Cookie 在指定的秒数后过期。例如，如果将此下拉字段设置为[!UICONTROL 秒]，并将 `86400` 放入此自定义字段，则会强制 Cookie 在 24 小时后过期。
 
-## AppMeasurement和数据收集自定义代码编辑器中的s.cookieLifetime
+## AppMeasurement 和 自定义代码编辑器中的 s.cookieLifetime
 
 `s.cookieLifetime` 变量是一个字符串，可确定由 AppMeasurement 设置的 Cookie 的到期日期。
 
