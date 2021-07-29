@@ -1,14 +1,13 @@
 ---
 title: useBeacon
 description: 通过 useBeacon，您可以强制 AppMeasurement 使用浏览器 sendBeacon API
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 100%
+source-wordcount: '232'
+ht-degree: 90%
 
 ---
-
 
 # useBeacon
 
@@ -22,11 +21,11 @@ ht-degree: 100%
 
 当访客使用的浏览器不支持 `useBeacon` 时，将忽略 `navigator.sendBeacon()` 变量。使用此变量需要 AppMeasurement 2.16.0 或更高版本。
 
-## Adobe Experience Platform Launch 中的“使用信标”
+## 在Adobe Experience Platform中使用信标
 
-Launch 中没有可使用此变量的专用字段。按照 AppMeasurement 语法使用自定义代码编辑器。
+数据收集UI中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
 
-## AppMeasurement 和 Launch 自定义代码编辑器中的 s.useBeacon
+## AppMeasurement 和 自定义代码编辑器中的 s.useBeacon
 
 `s.useBeacon` 变量是一个布尔值，用于确定 AppMeasurement 是否使用浏览器的 `navigator.sendBeacon()` 方法。其默认值为 `false`。如果要使用 `navigator.sendBeacon()` 的异步特性，请在调用跟踪函数之前将此变量设置为 `true`。
 
