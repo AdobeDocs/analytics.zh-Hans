@@ -2,10 +2,10 @@
 title: Adobe Analytics 中使用的术语
 description: Adobe Analytics 词汇表，用于定义常用术语。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '2429'
-ht-degree: 100%
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+workflow-type: tm+mt
+source-wordcount: '2439'
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 100%
    * 自定义分析，自定义流量变量的历史名称。
 * **KPI：**&#x200B;关键绩效指标的缩写。有助于企业了解其网站表现的量度。每个组织分别使用不同的 KPI 来衡量业务的不同方面。请参阅实施用户指南中的[创建解决方案设计文档](/help/implement/prepare/solution-design.md)。
 * **延迟：**&#x200B;收集数据时和在报表中使用数据时之间的延迟。报表包中的典型延迟时间为 30 - 90 分钟。请参阅 Technotes 用户指南中的[延迟](/help/technotes/latency.md)。
-* **Launch：** Adobe Experience Platform Launch 的简称，Adobe 的当前实施解决方案。请参阅 Adobe Experience Platform Launch 用户指南中的[概述](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=zh-Hans)。
+* **Launch:** 不再用作术语。Adobe Experience Platform(Adobe的当前实施解决方案)中标记的以前名称缩短。 请参阅Adobe Experience Platform用户指南中的[标记概述](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) 。
 * **列表属性：**&#x200B;一种设置，可转化典型流量变量以支持同一点击中的多个值。如果启用了该设置，则任何自定义流量变量都可以成为列表属性。请参阅实施用户指南中的[属性](../implement/vars/page-vars/prop.md)。
 * **列表变量：**&#x200B;与转化变量分开的不同变量。列表变量支持同一点击中的多个值，并且变量值会在访问中保留，与转化变量类似。组织只能使用三个列表变量。请参阅实施用户指南中的[列表](/help/implement/vars/page-vars/list.md)。
 * **登录公司：**&#x200B;由您的组织使用的报表包集合。某些组织具有多个适用于该组织不同部分的登录公司。
