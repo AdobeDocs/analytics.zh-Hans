@@ -2,11 +2,10 @@
 title: eVar
 description: 可在实施中使用的自定义变量。
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '373'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '377'
+ht-degree: 94%
 
 ---
 
@@ -22,11 +21,11 @@ eVar 是自定义变量，您可以根据需要随意使用。如果您有[解�
 
 在实施中使用 eVar 之前，请确保在报表包设置中配置每个 eVar。请参阅管理员指南中的[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
 
-## Adobe Experience Platform Launch 中的 eVar
+## 在Adobe Experience Platform中使用标记的eVar
 
 您可以在配置 Analytics 扩展时（全局变量）或根据规则设置 eVar。
 
-1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
 2. 单击所需的属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
@@ -35,7 +34,7 @@ eVar 是自定义变量，您可以根据需要随意使用。如果您有[解�
 
 您可以将 eVar 设置为一个值或一个数据元素。您还可以从其他 Analytics 变量复制值。
 
-## AppMeasurement 和 Launch 自定义代码编辑器中的 s.eVar1 - s.eVar250
+## AppMeasurement 和 自定义代码编辑器中的 s.eVar1 - s.eVar250
 
 每个 eVar 都是一个字符串，其中包含特定于贵组织的自定义值。这些值的最大长度为 255 字节；超过 255 字节的值在发送到 Adobe 时会自动被截断。
 
