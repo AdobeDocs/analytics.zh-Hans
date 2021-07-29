@@ -2,10 +2,10 @@
 title: Adobe Analytics 技术文档指南
 description: Analytics 用户指南和资源
 exl-id: f7a06f92-2144-4178-9080-7cb2f3e0e8e1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '455'
-ht-degree: 100%
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 97%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 100%
 
 [![管理员](assets/admin_50px.png)](/help/admin/home.md) [管理员指南](/help/admin/home.md) – 了解如何在 Experience Cloud Admin Console 中管理用户和产品，如何配置报表包、公司设置、数据管理、服务器调用使用情况、流量管理，及其他更多项目。
 
-[![实施](assets/implement_50px.png)](/help/implement/home.md)[ 实施指南](/help/implement/home.md) – 自定义要收集哪些数据，以便更加充分地利用 Adobe Analytics。其中包含关于 [!UICONTROL Adobe Experience Platform Launch] 和 JavaScript 实施的内容。
+[![实施](assets/implement_50px.png)](/help/implement/home.md) [实施指南](/help/implement/home.md) – 自定义要收集哪些数据，以便更加充分地利用 Adobe Analytics。包括在Adobe Experience Platform和JavaScript实施中使用标记。
 
-[![组件](assets/components_50px.png)](/help/components/home.md)[ 组件指南](/help/components/home.md) – 了解有助于您管理和组织数据的功能。组件包括区段、计算度量、虚拟报表包和警报等。该指南还包含变量参考，对所有可用的维度和指标进行了阐述。
+[![组件](assets/components_50px.png)](/help/components/home.md) [组件指南](/help/components/home.md) – 了解有助于您管理和组织数据的功能。组件包括区段、计算度量、虚拟报表包和警报等。该指南还包含变量参考，对所有可用的维度和指标进行了阐述。
 
 [![导出](assets/export_50px.png)](/help/export/home.md) [导出指南](/help/export/home.md) – 从 Adobe Analytics 导出数据：使用[!UICONTROL 数据馈送]接收导出的原始数据，接收频率为每小时或每天一次。使用 [!UICONTROL Data Warehouse] 检索生成的数据电子表格。
 
@@ -27,9 +27,9 @@ ht-degree: 100%
 
 [![集成](assets/integrate_50px.png)](/help/integrate/home.md) [集成指南](/help/integrate/home.md) – 配置与其他 Adobe Experience Cloud 解决方案（例如 Audience Manager、Advertising Cloud 或 Target）的集成。
 
-[![Streaming Media Analytics](assets/media_50px.png)](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans) [Streaming Media Analytics 指南](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans) – 实施 Adobe Analytics for Streaming Media。包括 Media SDK 和 Media Collection API。
+[![Streaming Media Analytics](assets/media_50px.png)](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans) [Streaming Media Analytics 指南](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html) – 实施 Adobe Analytics for Streaming Media。包括 Media SDK 和 Media Collection API。
 
-[![DWB](assets/workbench_50px.png)](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=zh-Hans) [Data Workbench 指南](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=zh-Hans) – 了解 [!UICONTROL Data Workbench] 所具有的高度灵活且强大的多渠道功能。其中包括 [!UICONTROL Data Workbench 客户端]指南、安装指南、[!UICONTROL 数据集配置]指南，及其他指南。
+[![DWB](assets/workbench_50px.png)](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=zh-Hans) [Data Workbench 指南](https://experienceleague.adobe.com/docs/data-workbench/using/home.html) – 了解 [!UICONTROL Data Workbench] 所具有的高度灵活且强大的多渠道功能。其中包括 [!UICONTROL Data Workbench 客户端]指南、安装指南、[!UICONTROL 数据集配置]指南，及其他指南。
 
 [![技术文档](assets/technotes_50px.png)](/help/technotes/home.md) [Analytics 技术文档](/help/technotes/home.md) – 一个知识库，其中包含并非适用于特定 Analytics 工具或组件的实用文章。
 
