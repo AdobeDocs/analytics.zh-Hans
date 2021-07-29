@@ -1,14 +1,13 @@
 ---
 title: getTimeToComplete
 description: 测量完成一项任务所需的时间。
-translation-type: ht
-source-git-commit: 37a3a44053260d9cdb2a3797e07f6d34592abc1f
-workflow-type: ht
-source-wordcount: '762'
-ht-degree: 100%
+exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '768'
+ht-degree: 95%
 
 ---
-
 
 # Adobe 插件：getTimeToComplete
 
@@ -18,11 +17,11 @@ ht-degree: 100%
 
 `getTimeToComplete` 插件可跟踪用户在网站上完成某个流程所需的时间。“时钟”在调用 `start` 操作时开始，并在调用 `stop` 操作时结束。如果网站上的某个工作流程需要花一些时间才能完成，并且您希望了解访客完成该工作流程所用的时间，Adobe 建议使用此插件。如果网站上的工作流程需要很短时间（少于 3 秒）即可完成，则无需使用此插件，因为可测量的最小时间粒度为 1 秒。
 
-## 使用 Adobe Experience Platform Launch 扩展安装此插件
+## 在Adobe Experience Platform中使用标记安装插件
 
 Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
 
-1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
 1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
@@ -34,11 +33,11 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用�
    * 操作类型：初始化 getTimeToComplete
 1. 保存并发布对上述规则所做的更改。
 
-## 使用 Launch 自定义代码编辑器安装此插件
+## 使用 自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的[!UICONTROL 配置]按钮。
 1. 展开[!UICONTROL 使用自定义代码配置跟踪]折叠面板，这会显示[!UICONTROL 打开编辑器]按钮。
