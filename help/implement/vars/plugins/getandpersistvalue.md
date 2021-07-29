@@ -2,11 +2,10 @@
 title: getAndPersistValue
 description: 存储稍后可随时检索的值。
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '934'
-ht-degree: 100%
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+workflow-type: tm+mt
+source-wordcount: '953'
+ht-degree: 90%
 
 ---
 
@@ -16,13 +15,13 @@ ht-degree: 100%
 >
 >此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
-`getAndPersistValue` 插件允许您在 Cookie 中存储稍后可在访问期间进行检索的值。其作用与 Adobe Experience Platform Launch 中的[!UICONTROL 存储持续时间]功能类似。如果要在设置变量后的后续点击中自动将 Analytics 变量保留为相同的值，Adobe 建议使用此插件。如果 Launch 的[!UICONTROL 存储持续时间]功能足以满足需求，或者您不需要在后续点击中设置变量并将其保留为相同值，则无需使用此插件。eVar 的内置持久性不需要使用此插件，因为这些变量会由 Adobe 保留在服务器端。
+`getAndPersistValue` 插件允许您在 Cookie 中存储稍后可在访问期间进行检索的值。它的作用与在Adobe Experience Platform中使用标记的[!UICONTROL 存储持续时间]功能类似。 如果要在设置变量后的后续点击中自动将 Analytics 变量保留为相同的值，Adobe 建议使用此插件。如果Adobe Experience Platform中的[!UICONTROL 存储持续时间]功能足够，则无需使用此插件。 如果您不需要在后续点击中设置变量并将其保留为相同的值，则也无需使用此插件。 eVar 的内置持久性不需要使用此插件，因为这些变量会由 Adobe 保留在服务器端。
 
-## 使用 Adobe Experience Platform Launch 扩展安装此插件
+## 在Adobe Experience Platform中使用标记安装插件
 
 Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
 
-1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
 1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
@@ -34,11 +33,11 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用�
    * 操作类型：初始化 getAndPersistValue
 1. 保存并发布对上述规则所做的更改。
 
-## 使用 Launch 自定义代码编辑器安装此插件
+## 使用 自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的[!UICONTROL 配置]按钮。
 1. 展开[!UICONTROL 使用自定义代码配置跟踪]折叠面板，这会显示[!UICONTROL 打开编辑器]按钮。
