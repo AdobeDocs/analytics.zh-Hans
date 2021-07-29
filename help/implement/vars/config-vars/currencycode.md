@@ -2,10 +2,10 @@
 title: currencyCode 变量是什么以及怎样使用它？
 description: 对于电子商务网站，设置页面交易的货币。
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 95%
+source-wordcount: '834'
+ht-degree: 97%
 
 ---
 
@@ -25,13 +25,11 @@ ht-degree: 95%
 
 此变量不会在点击之间保留。确保在涉及收入或货币事件的每个页面上定义此变量。
 
-## Adobe Experience Platform标记中的货币代码
+## 使用Adobe Experience Platform中标记的货币代码
 
 “货币代码”是在配置 Adobe Analytics 扩展时显示在[!UICONTROL 常规]折叠面板中的一个字段。
 
-1. 转到`experience.adobe.com`并在出现提示时登录。
-1. 选择[!UICONTROL 启动/数据收集]。
-1. 单击[!UICONTROL 转到Launch /数据收集]，然后选择[!UICONTROL 标记]。
+1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的[!UICONTROL 配置]按钮。
 1. 展开[!UICONTROL 常规]折叠面板，这会显示[!UICONTROL 货币代码]字段。
@@ -48,7 +46,7 @@ ht-degree: 95%
 
 您可以使用预设货币代码或自定义货币代码。如果使用自定义货币代码，请确保该代码有效。
 
-## AppMeasurement和数据收集自定义代码编辑器中的s.currencyCode
+## AppMeasurement 和 自定义代码编辑器中的 s.currencyCode
 
 `s.currencyCode` 变量是一个字符串，其中包含由 3 个大写字母构成的表示页面上所用货币的代码。
 
