@@ -2,10 +2,10 @@
 title: 将 Adobe Analytics 部署到开发环境
 description: 了解如何使用标记将Adobe Analytics部署到开发环境。
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: 9b9a338e3652c85ae0f8ce79b98a2babf427ab4c
+source-git-commit: ea6812c8e596773abb8a05bbdb37bc641967c9b8
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 63%
+source-wordcount: '594'
+ht-degree: 59%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 63%
 
 标记包含许多部署代码的组织工作流程。 请按照以下步骤为 Analytics 实施创建所需的最少组件。作为标签管理员，您可以在组织内工作，以建立用于部署Adobe解决方案的正确工作流。
 
-1. 转到 [Adobe Experience Platform Launch](https://launch.adobe.com)，并在出现提示时登录。
+1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
 2. 单击要在网站上实施的标记属性。
 3. 单击“适配器”选项卡，然后单击“添加适配器”。
 4. 将其命名为“Akamai”，然后在类型下拉列表中选择“Akamai”。单击“保存”。
@@ -37,7 +37,7 @@ ht-degree: 63%
 
 尽管到目前为止您已进行所有更改和配置，但实际上尚未发布任何代码。创建一个库（大致意思为更改集合）以在您的网站上用于发布代码。
 
-1. 转到 [Adobe Experience Platform Launch](https://launch.adobe.com)，并在出现提示时登录。
+1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
 2. 单击要在网站上实施的标记属性。
 3. 单击“发布”选项卡，然后单击“添加新库”。
 4. 将该库命名为“初始更改”，然后选择开发环境。
