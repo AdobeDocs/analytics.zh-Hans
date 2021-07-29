@@ -1,24 +1,23 @@
 ---
 title: channel
 description: 填充“网站区域”维度。
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 97%
+source-wordcount: '173'
+ht-degree: 87%
 
 ---
 
-
-# channel
+# 频道
 
 `channel` 变量通常存储给定页面所在的网站区域。确定最受欢迎的网站组对您很有帮助。此变量可填充“网站区域”维度。
 
-## Adobe Experience Platform Launch 中的“渠道”
+## 在Adobe Experience Platform中使用标记的渠道
 
 您可以在配置 Analytics 扩展时（全局变量）或根据规则设置渠道。
 
-1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
 2. 单击所需的属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
@@ -27,7 +26,7 @@ ht-degree: 97%
 
 可以将渠道设置为任何字符串值或数据元素。
 
-## AppMeasurement 和 Launch 自定义代码编辑器中的 s.channel
+## AppMeasurement 和 自定义代码编辑器中的 s.channel
 
 `s.channel` 变量是一个字符串，通常包含页面的网站区域。其值的最大长度为 100 字节；超出此长度的值会被截断。
 
@@ -35,7 +34,7 @@ ht-degree: 97%
 s.channel = "Example site section";
 ```
 
-如果使用数 `digitalData` 据 [层](../../prepare/data-layer.md):
+如果使用`digitalData` [数据层](../../prepare/data-layer.md)：
 
 ```js
 s.channel = digitalData.page.category.primaryCategory;
