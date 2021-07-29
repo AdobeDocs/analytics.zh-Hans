@@ -1,14 +1,13 @@
 ---
 title: 产品
 description: 发送有关所显示产品或购物车中产品的数据。
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 97%
+source-wordcount: '512'
+ht-degree: 89%
 
 ---
-
 
 # 产品
 
@@ -18,18 +17,18 @@ ht-degree: 97%
 >
 >如果在点击中设置此变量，而 [`events`](events/events-overview.md) 变量中没有购物车事件，则[产品查看次数](/help/components/metrics/product-views.md)量度将递增 1。确保使用 `products` 变量对每次点击设置适当的购物车事件。
 
-## Adobe Experience Platform Launch 中的产品
+## 在Adobe Experience Platform中使用标记的产品
 
-Launch 中没有专门用于设置此变量的字段；但是，存在多个第三方扩展可帮助进行此设置。
+数据收集UI中没有用于设置此变量的专用字段；但是，存在多个第三方扩展可提供帮助。
 
-1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
 2. 单击所需的属性。
 3. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]以查看所有可用的扩展。
 4. 搜索术语“product”，结果会显示若干可用于设置此变量的扩展。
 
 您可以使用其中一个扩展，也可以按照下面的 AppMeasurement 语法使用自定义代码编辑器。
 
-## AppMeasurement 和 Launch 自定义代码编辑器中的 s.products
+## AppMeasurement 和 自定义代码编辑器中的 s.products
 
 `s.products` 变量是一个字符串，其中包含每个产品的多个分隔字段。每个产品在所有字段中最多可包含 100 字节。在字符串中使用分号 (`;`) 分隔每个字段。
 
@@ -97,7 +96,7 @@ s.events = "event1,event2,event3,event4,purchase";
 s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
 ```
 
-如果使用数 `digitalData` 据 [层](../../prepare/data-layer.md)，则可以对对象数 `digitalData.product` 组进行迭代：
+如果使用`digitalData` [数据层](../../prepare/data-layer.md)，则可以遍历`digitalData.product`对象数组：
 
 ```js
 for(var i=0; i<digitalData.product.length; i++) {
