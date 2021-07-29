@@ -2,11 +2,10 @@
 title: prop
 description: 可在实施中使用的自定义变量。
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '484'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '488'
+ht-degree: 95%
 
 ---
 
@@ -22,11 +21,11 @@ Prop 是自定义变量，您可以根据需要随意使用。它们不会在设
 
 如果您有[解决方案设计文档](/help/implement/prepare/solution-design.md)，则可以将这些自定义维度分配给特定于贵组织的值。可用 prop 的数量取决于您与 Adobe 签署的合同。如果您与 Adobe 签署的合同支持，则至多有 75 个 prop 可供使用。
 
-## Adobe Experience Platform Launch 中的 Prop
+## Prop在Adobe Experience Platform中使用标记
 
 您可以在配置 Analytics 扩展时（全局变量）或根据规则设置 prop。
 
-1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
 2. 单击所需的属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
@@ -35,7 +34,7 @@ Prop 是自定义变量，您可以根据需要随意使用。它们不会在设
 
 您可以将 prop 设置为值或数据元素。您还可以从其他 Analytics 变量复制值。
 
-## AppMeasurement 和 Launch 自定义代码编辑器中的 s.prop1 - s.prop75
+## AppMeasurement 和 自定义代码编辑器中的 s.prop1 - s.prop75
 
 每个 prop 变量都是一个字符串，其中包含特定于贵组织的自定义值。其值的最大长度为 100 字节；超过 100 字节的值在发送到 Adobe 时会自动被截断。
 
