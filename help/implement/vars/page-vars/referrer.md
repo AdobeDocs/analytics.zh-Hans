@@ -2,23 +2,22 @@
 title: referrer
 description: 覆盖点击的自动收集的反向链接。
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '258'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '262'
+ht-degree: 91%
 
 ---
 
-# referrer
+# 反向链接
 
 `referrer` 变量将覆盖报表中自动收集的反向链接。当反向链接可能丢失时，例如重定向访客或将访客临时转发给支付处理器时，此变量很有帮助。此变量有助于填充“反向链接”和“反向链接域”维度。
 
-## Adobe Experience Platform Launch 中的反向链接
+## 在Adobe Experience Platform中使用标记的反向链接
 
 您可以在配置 Analytics 扩展时（全局变量）或根据规则设置反向链接。
 
-1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
 2. 单击所需的属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
@@ -27,7 +26,7 @@ ht-degree: 100%
 
 您可以将反向链接设置为任何字符串值，包括数据元素。
 
-## AppMeasurement 和 Launch 自定义代码编辑器中的 s.referrer
+## AppMeasurement 和 自定义代码编辑器中的 s.referrer
 
 `s.referrer` 变量是一个包含上一页 URL 的字符串。此变量最多可存储 255 字节；大于 255 字节的值会被截断。AppMeasurement 会自动将此变量设置为 `document.referrer`；除非要覆盖自动收集的值，否则无需设置此变量。
 
