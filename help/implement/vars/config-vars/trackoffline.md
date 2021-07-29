@@ -2,11 +2,10 @@
 title: trackOffline
 description: 启用或禁用离线跟踪，这会更改 AppMeasurement 收集数据的方式。
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '264'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '267'
+ht-degree: 91%
 
 ---
 
@@ -28,11 +27,11 @@ ht-degree: 100%
    * 如果无法访问 Adobe 数据收集服务器，则会将点击添加到设备上的队列中。
    * 如果可以访问 Adobe 数据收集服务器，则会发送设备处于离线状态时的点击和点击队列。
 
-## Adobe Experience Platform Launch 中的“离线跟踪”
+## 在Adobe Experience Platform中使用标记跟踪离线
 
-Launch 中没有可使用此变量的专用字段。按照 AppMeasurement 语法使用自定义代码编辑器。
+数据收集UI中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
 
-## AppMeasurement 和 Launch 自定义代码编辑器中的 s.trackOffline
+## AppMeasurement 和 自定义代码编辑器中的 s.trackOffline
 
 `s.trackOffline` 变量是一个布尔值，用于启用或禁用离线跟踪。其默认值为 `false`。如果要启用离线跟踪，则将此值设置为 `true`。
 
