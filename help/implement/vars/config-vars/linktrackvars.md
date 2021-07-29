@@ -2,11 +2,10 @@
 title: linkTrackVars
 description: 指定要包含在链接跟踪图像请求中的变量。
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '271'
-ht-degree: 100%
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 77%
 
 ---
 
@@ -16,15 +15,15 @@ ht-degree: 100%
 
 页面查看调用（[`t()`](../functions/t-method.md) 方法）不使用此变量。
 
-## 使用 Adobe Experience Platform Launch 的链接跟踪调用中的变量
+## 链接跟踪调用中使用标记的变量位于Adobe Experience Platform中
 
-Launch 会根据界面中设置的变量自动在后端填充此变量，因此实施始终使用 Launch 来设置此变量。
+Adobe Experience Platform会根据界面中设置的变量，在后端自动填充此变量，因此实施中始终使用Adobe Experience Platform中的标记来设置此变量。
 
 >[!IMPORTANT]
 >
->如果使用自定义代码编辑器在 Launch 中设置事件，则还必须使用自定义代码在 `linkTrackVars` 中包含该变量。
+>如果使用自定义代码编辑器设置变量，则还必须使用自定义代码在`linkTrackVars`中包含该变量。
 
-## AppMeasurement 和 Launch 自定义代码编辑器中的 s.linkTrackVars
+## AppMeasurement 和 自定义代码编辑器中的 s.linkTrackVars
 
 `s.linkTrackVars` 变量是一个字符串，其中包含以逗号分隔的变量列表，您要将这些事件包含在链接跟踪图像请求（`tl()` 方法）中。必须满足以下两个条件才能在链接跟踪点击中包含维度：
 
