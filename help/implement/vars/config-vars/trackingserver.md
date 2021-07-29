@@ -2,10 +2,10 @@
 title: trackingServer
 description: 确定发送图像请求的位置。
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '396'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 94%
 
 ---
 
@@ -17,18 +17,18 @@ Adobe 通过接收访客生成的图像请求来收集您网站上的数据。`t
 >
 >更改此值会使 AppMeasurement 在其他位置查找 Cookie。当在新位置设置访客 Cookie 时，报表中的独特访客计数可能会暂时激增。
 
-## Adobe Experience Platform Launch 中的“跟踪服务器”
+## 在Adobe Experience Platform中使用标记跟踪服务器
 
 “跟踪服务器”是配置 Adobe Analytics 扩展时位于[!UICONTROL 常规]折叠面板下的字段。
 
-1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
 2. 单击所需的属性。
 3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的]配置[!UICONTROL 按钮。
 4. 展开[!UICONTROL 常规]折叠面板，这会显示[!UICONTROL 跟踪服务器]字段。
 
 如果此字段留空，则默认为 `[rsid].data.adobedc.net`。
 
-## AppMeasurement 和 Launch 自定义代码编辑器中的 s.trackingServer
+## AppMeasurement 和 自定义代码编辑器中的 s.trackingServer
 
 `s.trackingServer` 变量是一个字符串，其中包含要发送数据的位置。
 
