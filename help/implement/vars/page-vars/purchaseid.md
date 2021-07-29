@@ -2,11 +2,10 @@
 title: purchaseID
 description: 根据唯一购买标识符删除重复点击。
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '254'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 91%
 
 ---
 
@@ -18,11 +17,11 @@ ht-degree: 100%
 
 购买 ID 适用于所有访客，且不会过期。如果一个访客设置了给定的购买 ID，然后另一个访客在一年后设置了相同的购买 ID，则将会对第二次购买进行重复数据删除。
 
-## Adobe Experience Platform Launch 中的购买 ID
+## 在Adobe Experience Platform中使用标记的购买ID
 
-Launch 中没有可使用此变量的专用字段。按照 AppMeasurement 语法使用自定义代码编辑器。
+数据收集UI中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
 
-## AppMeasurement 和 Launch 自定义代码编辑器中的 s.purchaseID
+## AppMeasurement 和 自定义代码编辑器中的 s.purchaseID
 
 `s.purchaseID` 变量是一个字符串，其中包含购买的唯一标识符。它在相同的点击中被设置为购买事件。仅使用字母数字字符填充此变量。
 
