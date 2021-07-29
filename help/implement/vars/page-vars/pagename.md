@@ -2,11 +2,10 @@
 title: pageName
 description: 您的网站中页面的名称。
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 90%
 
 ---
 
@@ -20,11 +19,11 @@ ht-degree: 100%
 >
 >Adobe 数据收集服务器从所有[链接跟踪](/help/implement/vars/functions/tl-method.md)图像请求中剥离此维度。如果您要在链接跟踪点击中显示此维度，请考虑将此维度复制到 [eVar](evar.md) 中。
 
-## Adobe Experience Platform Launch 中的页面名称
+## 使用Adobe Experience Platform中标记的页面名称
 
 您可以在配置 Analytics 扩展时（全局变量）或根据规则设置页面名称。
 
-1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
 2. 单击所需的属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
@@ -33,7 +32,7 @@ ht-degree: 100%
 
 您可以将页面名称设置为任何字符串值，包括数据元素。
 
-## AppMeasurement 和 Launch 自定义代码编辑器中的 s.pageName
+## AppMeasurement 和 自定义代码编辑器中的 s.pageName
 
 `s.pageName` 变量是一个字符串，通常包含页面名称。其值的最大长度为 100 字节；超出此长度的值会被截断。如果此变量为空，则此截断会包含返回 `pageURL` 的实例。
 
