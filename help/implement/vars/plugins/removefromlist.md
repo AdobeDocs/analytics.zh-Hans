@@ -2,11 +2,10 @@
 title: rfl
 description: 从字符分隔的字符串中删除特定值。
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1054'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '1060'
+ht-degree: 96%
 
 ---
 
@@ -23,11 +22,11 @@ ht-degree: 100%
 * 如果要删除的值存在，则插件会保留变量中除要删除的值之外的所有其他内容。
 * 如果要删除的值不存在，则插件会按原样保留原始字符串。
 
-## 使用 Adobe Experience Platform Launch 扩展安装此插件
+## 在Adobe Experience Platform中使用标记安装插件
 
 Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
 
-1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
 1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
@@ -39,11 +38,11 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用�
    * 操作类型：初始化 RFP（从列表中删除）
 1. 保存并发布对上述规则所做的更改。
 
-## 使用 Launch 自定义代码编辑器安装此插件
+## 使用 自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. 使用您的 Adobe ID 凭据登录 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的[!UICONTROL 配置]按钮。
 1. 展开[!UICONTROL 使用自定义代码配置跟踪]折叠面板，这会显示[!UICONTROL 打开编辑器]按钮。
