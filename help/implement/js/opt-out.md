@@ -2,10 +2,10 @@
 title: 选择退出链接
 description: 了解如何为网站的访客创建实施选择退出链接。
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '593'
+ht-degree: 96%
 
 ---
 
@@ -27,10 +27,8 @@ ht-degree: 0%
 
 贵组织的选择退出页面取决于实施中的 [`trackingServer`](../vars/config-vars/trackingserver.md) 变量值。
 
-* 在Adobe Experience Platform数据收集UI中：
-   1. 转到`experience.adobe.com`并在出现提示时登录。
-   1. 选择[!UICONTROL 启动/数据收集]。
-   1. 单击[!UICONTROL 转到Launch /数据收集]，然后选择[!UICONTROL 标记]。
+* 在数据收集UI中：
+   1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
    1. 单击所需的属性。
    1. 单击[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的[!UICONTROL 配置]。
    1. 单击[!UICONTROL 常规]折叠面板，并记下[!UICONTROL 跟踪服务器]值。
