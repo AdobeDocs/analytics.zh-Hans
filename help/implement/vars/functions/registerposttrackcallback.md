@@ -1,14 +1,13 @@
 ---
 title: registerPostTrackCallback
 description: 在向 Adobe 发送点击后创建回调函数。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 95%
+source-wordcount: '297'
+ht-degree: 87%
 
 ---
-
 
 # registerPostTrackCallback
 
@@ -24,11 +23,11 @@ ht-degree: 95%
 >
 > [`registerPreTrackCallback`](registerpretrackcallback.md) 和 `registerPostTrackCallback` 之间触发函数的时间和顺序无法得到保证。避免这两个函数之间存在依赖关系。
 
-## 在 Adobe Experience Platform Launch 中注册后跟踪回调
+## 在Adobe Experience Platform中使用标记注册后跟踪回调
 
-Launch 中没有可使用此变量的专用字段。按照 AppMeasurement 语法使用自定义代码编辑器。
+数据收集UI中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
 
-## AppMeasurement 和 Launch 自定义代码编辑器中的 s.registerPostTrackCallback
+## AppMeasurement 和 自定义代码编辑器中的 s.registerPostTrackCallback
 
 `s.registerPostTrackCallback` 是一个函数，只接受函数作为参数。嵌套函数在成功发送图像请求后立即运行。
 
