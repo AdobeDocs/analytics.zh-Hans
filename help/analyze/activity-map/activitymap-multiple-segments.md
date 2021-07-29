@@ -5,10 +5,10 @@ uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 feature: Activity Map
 role: User, Admin
 exl-id: afe2326d-3ea9-4977-aa8f-2c5e1a79e4c7
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 100%
+source-wordcount: '183'
+ht-degree: 83%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ![](assets/segments.png)
 
-更改区段选择后，以及关闭区段选择器后，会为应用程序中显示的所有量度启动新的 Analytics 数据检索进程。当从一个页面导航至另一个页面时，所选择的区段会被记录下来。
+当区段选择发生更改，并关闭区段选择器后，将针对应用程序中显示的所有量度启动新的Analytics数据检索流程。 当从一个页面导航至另一个页面时，所选择的区段会被记录下来。
 
 当选择多个区段时，区段选择标签（处于折叠状态）将显示“多个”。当您点击控件时，将显示完整的选定区段列表。
 
