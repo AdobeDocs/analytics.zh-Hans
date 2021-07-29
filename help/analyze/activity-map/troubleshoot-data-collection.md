@@ -4,7 +4,7 @@ description: 确定在图像请求中看不到Activity Map数据的原因
 feature: Activity Map
 role: User, Admin
 exl-id: 7f9e06ba-4040-483b-b18b-cdfe85bca486
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 3%
@@ -30,7 +30,7 @@ ht-degree: 3%
 检查以下每个组件，确保Activity Map组件存在：
 
 * **AppMeasurement版本**:v1.6及更高版本支持Activity Map。当您升级到最新稳定版本的AppMeasurement时，会解决许多边缘案例问题。
-* **Activity Map模块**:检查文 `AppMeasurement_Module_Activity_Map` 件中是否存在模 `AppMeasurement.js` 块。如果您的实施使用Adobe Experience Platform数据收集(Launch)，请确保在&#x200B;**[!UICONTROL 链接跟踪]**&#x200B;下配置Analytics扩展时选中&#x200B;**[!UICONTROL 启用ClickMap]**。
+* **Activity Map模块**:检查文 `AppMeasurement_Module_Activity_Map` 件中是否存在模 `AppMeasurement.js` 块。如果您的实施使用Adobe Experience Platform来收集数据，请确保在&#x200B;**[!UICONTROL 链接跟踪]**&#x200B;下配置Analytics扩展时选中&#x200B;**[!UICONTROL 启用ClickMap]**。
 * **`s_sq` Cookie**:Activity Map取决于 `s_sq` 数据收集Cookie。
    * 确保正确设置了`cookieDomainPeriods`变量，特别是对于区域域（如`*.co.uk`或`*.co.jp`）。
    * 确保将`linkInternalFilters`变量设置为所需值。 如果点击的链接与内部过滤器不匹配，则Activity Map会将其视为退出链接，并且不收集数据。
