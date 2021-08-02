@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 管理指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解如何在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等。
-source-git-commit: 746c2cfd3236df7ec7498749015ddf75c1e558f5
+source-git-commit: 120b0ff4ed2ebd3870e56ca9fabd3364b7745a7c
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 99%
@@ -15,20 +15,20 @@ ht-degree: 99%
 # Analytics 管理指南 {#admin}
 
 + [Analytics 管理指南](home.md)
-+ Analytics 管理概述 {#admin-overview}
++ Analytics 管理概述{#admin-overview}
    + [我应该使用哪种 Adobe Analytics 工具？](c-analytics-product-comparison/which-analytics-tool.md)
    + [Analytics 产品比较和要求](c-analytics-product-comparison/analytics-product-comparison.md)
 + [系统要求](sys-reqs.md)
-+ 管理工具 {#admin-tools}
++ 管理工具{#admin-tools}
    + [管理工具](admin/c-admin-tools.md)
    + [帐单](admin/billing-admin.md)
-   + 机器人移除 {#bot-removal}
+   + 机器人移除{#bot-removal}
       + [机器人移除](admin/bot-removal/bot-removal.md)
       + [机器人规则概述](admin/bot-removal/bot-rules.md)
       + [常见的机器人签名](admin/bot-removal/bot-signatures.md)
       + [机器人排除法](admin/bot-removal/bot-exclusion-methods.md)
    + [代码管理器](admin/code-manager-admin.md)
-   + 转化变量 {#conversion-variables}
+   + 转化变量{#conversion-variables}
       + [转化变量 (eVar)](admin/conversion-var-admin/conversion-var-admin.md)
       + [编辑转化变量](admin/conversion-var-admin/t-conversion-variables-admin.md)
       + [转化分类](admin/conversion-var-admin/conversion-classifications.md)
@@ -39,7 +39,7 @@ ht-degree: 99%
    + [自定义报表描述](admin/custom-desc-admin.md)
    + [自定义日历](admin/custom-calendar.md)
    + [数据源](admin/data-sources.md)
-   + [默认指标](admin/default-metrics.md)
+   + [默认量度](admin/default-metrics.md)
    + [按 IP 地址排除](admin/exclude-ip.md)
    + [查找方法](admin/finding-methods.md)
    + [一般帐户设置](admin/general-acct-settings-admin.md)
@@ -47,19 +47,19 @@ ht-degree: 99%
    + [日志](admin/logs.md)
    + [营销渠道](admin/marketing-channels-admin.md)
    + [菜单自定义](admin/customize-menus.md)
-   + [指标可见性](admin/metric-visibility.md)
+   + [量度可见性](admin/metric-visibility.md)
    + [应用程序管理](admin/mobile-management.md)
-   + 付费搜索检测 {#paid-search-detection}
+   + 付费搜索检测{#paid-search-detection}
       + [付费搜索检测概述](admin/paid-search-detection/paid-search-detection.md)
       + [配置付费搜索检测](admin/paid-search-detection/t-paid-search-detection.md)
    + [发布列表](admin/publishing-list.md)
-   + [发布用小组件](admin/publishing-widgets-admin.md)
-   + [首选项管理器](admin/preferences-manager.md)
+   + [发布用构件](admin/publishing-widgets-admin.md)
+   + [偏好设置管理器](admin/preferences-manager.md)
    + [隐私设置](admin/privacy-settings.md)
-   + [隐私设置](admin/privacy-reporting.md)
-   + 处理规则 {#processing-rules}
+   + [隐私报告](admin/privacy-reporting.md)
+   + 处理规则{#processing-rules}
       + [处理规则概述](admin/c-processing-rules/processing-rules.md)
-      + 处理规则配置 {#processing-rules-configuration}
+      + 处理规则配置{#processing-rules-configuration}
          + [处理规则的工作原理](admin/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
          + [处理顺序](admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
          + [创建处理规则](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
@@ -68,7 +68,7 @@ ht-degree: 99%
          + [还原处理规则](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
          + [将处理规则复制到其他报表包](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
       + [可用于处理规则的维度](admin/c-processing-rules/processing-rule-dimensions.md)
-      + 处理规则示例 {#processing-rules-examples}
+      + 处理规则示例{#processing-rules-examples}
          + [处理规则的示例](admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
          + [通过查询字符串参数填充促销活动 ID](admin/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
          + [在产品概述页面中设置产品视图事件](admin/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
@@ -138,7 +138,7 @@ ht-degree: 99%
       + [默认模板](c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
       + [金融服务](c-manage-report-suites/c-report-suite-templates/financial-services.md)
       + [求职门户](c-manage-report-suites/c-report-suite-templates/job-portal.md)
-      + [商机拓展](c-manage-report-suites/c-report-suite-templates/lead-generation.md)
+      + [商机开发](c-manage-report-suites/c-report-suite-templates/lead-generation.md)
       + [支持媒体](c-manage-report-suites/c-report-suite-templates/support-media.md)
    + [保存报表包搜索](c-manage-report-suites/t-report-suite-saved-search.md)
    + [单个报表包设置](c-manage-report-suites/individual-rs-settings.md)
@@ -187,7 +187,7 @@ ht-degree: 99%
    + [ID 扩展](c-data-governance/gdpr-id-expansion.md)
    + [标签设置最佳实践](c-data-governance/gdpr-analytics-ids.md)
    + [标签设置示例](c-data-governance/gdpr-labeling-example.md)
-   + [数据隐私和 Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
+   + [数据隐私和数据连接器 (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [数据隐私术语](c-data-governance/gdpr-terminology.md)
    + [隐私报表变量](c-data-governance/consent-variables.md)
 + 服务器调用使用情况 {#server-call-usage}
