@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 提供 Analytics 的高级分析和可视化工具 Analysis Workspace 以及 Adobe Analytics Dashboards、Report Builder 和 Activity Map 等工具的操作说明。
-source-git-commit: 20e57f1bef787329d7b871edd9e337b57feeb4e9
-workflow-type: ht
-source-wordcount: '1012'
-ht-degree: 100%
+source-git-commit: 064674c3fa19f485850c4af6298c134d640d17bd
+workflow-type: tm+mt
+source-wordcount: '1013'
+ht-degree: 99%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 100%
          + [区段比较概述](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [“区段比较”用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [区段比较中使用的统计测试](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + 组织或共享项目 {#curate-share}
+   + 策划、共享和计划项目{#curate-share}
       + [“共享”菜单](analysis-workspace/curate-share/send-schedule-files.md)
       + [策划项目](analysis-workspace/curate-share/curate.md)
       + [共享项目](analysis-workspace/curate-share/share-projects.md)
