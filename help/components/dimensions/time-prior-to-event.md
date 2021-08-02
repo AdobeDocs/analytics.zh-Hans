@@ -2,11 +2,10 @@
 title: 发生事件之前逗留的时间
 description: 量度与访问的首次点击之间的间隔时间。
 exl-id: 2586673f-d908-4b69-901a-5fafe635d0d5
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '149'
-ht-degree: 100%
+source-git-commit: 2c363dce63768101356a6f43ea1e45ae8dd7b139
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 94%
 
 ---
 
@@ -20,4 +19,4 @@ ht-degree: 100%
 
 ## 维度项目
 
-维度项目包括基于时间的时段，介于 `"Less than 1 minute"` 到 `"More than 15 hours"` 之间。例如，如果访客从第一次点击到购买用了 23 分钟，则它属于 `"10 to 30 minutes"` 维度项目下。
+维度项目包括基于时间的时段，介于 `"Less than 1 minute"` 到 `"More than 15 hours"` 之间。例如，如果访客从第一次点击到购买用了 23 分钟，则它属于 `"10 to 30 minutes"` 维度项目下。无法为此量度自定义存储段。
