@@ -2,10 +2,10 @@
 title: 产品
 description: 发送有关所显示产品或购物车中产品的数据。
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: f8f81f034cf29151a705a0238d0055c72e7bc7b8
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 89%
+source-wordcount: '505'
+ht-degree: 82%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->如果在点击中设置此变量，而 [`events`](events/events-overview.md) 变量中没有购物车事件，则[产品查看次数](/help/components/metrics/product-views.md)量度将递增 1。确保使用 `products` 变量对每次点击设置适当的购物车事件。
+>如果在点击中设置此变量，但没有[`events`](events/events-overview.md)变量，则[产品查看次数](/help/components/metrics/product-views.md)量度将递增1。 确保使用`products`变量在每次点击时设置相应的事件。
 
 ## 在Adobe Experience Platform中使用标记的产品
 
