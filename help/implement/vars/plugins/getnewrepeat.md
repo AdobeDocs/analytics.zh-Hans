@@ -2,10 +2,10 @@
 title: getNewRepeat
 description: 跟踪新访客与回访访客的活动。
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: 13060d08c8ffff01d8dae379e090c53e61fa6476
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 95%
+source-wordcount: '788'
+ht-degree: 66%
 
 ---
 
@@ -69,42 +69,42 @@ function getNewRepeat(d){var a=d;if("-v"===a)return{plugin:"getNewRepeat",versio
 
 ### 示例 1
 
-以下代码会将新访客的 s.eVar1 的值设置为等于“New”，并在访客访问网站的剩余时间内继续将 s.eVar1 的值设置为等于“New”（通过每次新调用）。
+以下代码会将新访客的`eVar1`值设置为`"New"`，并在访客访问网站的剩余时间中继续将`eVar1`值设置为`"New"`（通过每次新调用）。
 
 ```js
-s.eVar1=s.getNewRepeat();
+s.eVar1 = getNewRepeat();
 ```
 
 ### 示例 2
 
-如果访客自上次调用 s.getNewRepeat() 以来在 31 分钟到 30 天内的任何时间返回网站，则以下代码会将 s.eVar1 的值设置为等于“Repeat”，并在访客访问网站的剩余时间中继续将 s.eVar1 的值设置为等于“Repeat”（通过每次新调用）。
+如果访客自上次调用`getNewRepeat()`以来在31分钟到30天内的任意时间返回网站，则以下代码会将`eVar1`值设置为`"Repeat"`，并在访客访问网站的剩余时间中继续将`eVar1`值设置为`"Repeat"`（通过每次新调用）。
 
 ```js
-s.eVar1=s.getNewRepeat();
+s.eVar1 = getNewRepeat();
 ```
 
 ### 示例 3
 
-如果访客自上次调用 s.getNewRepeat() 以来至少有 30 天未返回网站，则以下代码会将 s.eVar1 的值设置为“New”，并在访客访问网站的剩余时间中继续将 s.eVar1 的值设置为等于“New”（通过每次新调用）。
+如果访客自上次调用`getNewRepeat()`以来至少有30天未访问过网站，则以下代码会将`eVar1`的值设置为`"New"`，并在访客访问网站的剩余时间中继续将`eVar1`的值设置为`"New"`（通过每次新调用）。
 
 ```js
-s.eVar1=s.getNewRepeat();
+s.eVar1 = getNewRepeat();
 ```
 
 ### 示例 4
 
-如果访客自上次调用 s.getNewRepeat() 以来在 31 分钟到 365 天（即 1 年）内的任何时间返回网站，则以下代码将 s.eVar1 的值设置为等于“Repeat”，并在访客访问网站的剩余时间中继续将 s.eVar1 的值设置为等于“Repeat”（通过每次新调用）。
+如果访客自上次调用`getNewRepeat()`以来在31分钟到365天（即1年）内的任何时间返回网站，则以下代码会将`eVar1`的值设置为`"Repeat"`，并在访客访问网站的剩余时间中继续将`eVar1`的值设置为`"Repeat"`（通过每次新调用）。
 
 ```js
-s.eVar1=s.getNewRepeat(365);
+s.eVar1 = getNewRepeat(365);
 ```
 
 ### 示例 5
 
-如果访客自上次调用 s.getNewRepeat() 以来至少有 365 天（即 1 年）未返回网站，则以下代码会将 s.eVar1 的值设置为等于“New”，并在访客访问网站的剩余时间中继续将 s.eVar1 的值设置为等于“New”（通过每次新调用）。
+如果访客自上次调用`getNewRepeat()`以来至少有365天（即1年）未访问网站，则以下代码会将`eVar1`的值设置为`"New"`，并在访客访问网站的剩余时间中继续将`eVar1`的值设置为`"New"`（通过每次新调用）。
 
 ```js
-s.eVar1=s.getNewRepeat(365);
+s.eVar1 = getNewRepeat(365);
 ```
 
 ## 版本历史记录
