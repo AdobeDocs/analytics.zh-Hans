@@ -2,11 +2,10 @@
 title: 基于字段的拼合
 description: 了解使用基于字段的拼合来拼合数据的先决条件和限制。
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 831d86317633466b5b6ceb9bfc49e36caaf62855
+workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 100%
 >如果不满足所有先决条件，则可能会导致无法启用 Cross-Device Analytics，或者导致拼合数据时的结果不佳。
 
 * [概述页面](overview.md)中列出了所有先决条件。
-* 您的实施必须设置一个 prop 或 eVar，以便在可能的情况下（例如用户登录或打开电子邮件时）唯一标识个人。这项要求适用于所有平台，包括使用的移动设备应用程序。为基于字段的拼合配置所需的标识变量后，请将这些变量告知您的客户经理。
+* 您的实施必须设置一个prop或eVar，以便在可能的情况下（例如用户登录或打开电子邮件时）唯一标识个人。 这项要求适用于所有平台，包括使用的移动设备应用程序。为基于字段的拼合配置所需的标识变量后，请将这些变量告知您的客户经理。
 
 ## 基于字段的拼合的特定限制
 
