@@ -4,19 +4,18 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算指标、虚拟报表包、警报等组件帮助整理数据。
-translation-type: ht
-source-git-commit: 3fab253cb7c9aad0f0b1e82fee48a69822305099
-workflow-type: ht
-source-wordcount: '639'
-ht-degree: 100%
+source-git-commit: 98463103e6e2ba19d11629d40dacc0c02f5b33c9
+workflow-type: tm+mt
+source-wordcount: '642'
+ht-degree: 99%
 
 ---
 
 
 # [!DNL Analytics] 组件指南 {#components}
 
-+ [Analytics 组件指南](home.md)
-+ 维度 {#dimensions}
++ [Analytics Components 指南](home.md)
++ 维度{#dimensions}
    + [维度概述](dimensions/overview.md)
    + [维度兼容性](dimensions/compatibility.md)
    + [所有搜索页面排名](dimensions/all-search-page-rank.md)
@@ -45,7 +44,7 @@ ht-degree: 100%
    + [下载链接](dimensions/download-link.md)
    + [登入维度](dimensions/entry-dimensions.md)
    + [eVar](dimensions/evar.md)
-   + [eVar（推销）](dimensions/evar-merchandising.md)
+   + [eVar（促销）](dimensions/evar-merchandising.md)
    + [退出维度](dimensions/exit-dimensions.md)
    + [退出链接](dimensions/exit-link.md)
    + [首个联系渠道](dimensions/first-touch-channel.md)
@@ -53,8 +52,8 @@ ht-degree: 100%
    + [点击深度](dimensions/hit-depth.md)
    + [点击类型](dimensions/hit-type.md)
    + [小时](dimensions/hour-of-day.md)
-   + [小时](dimensions/hour.md)
-   + [已识别状态](dimensions/identified-state.md)
+   + [几](dimensions/hour.md)
+   + [识别的状态](dimensions/identified-state.md)
    + [已启用 Java](dimensions/java-enabled.md)
    + [语言](dimensions/language.md)
    + [最近联系渠道](dimensions/last-touch-channel.md)
@@ -85,7 +84,7 @@ ht-degree: 100%
    + [回访频度](dimensions/return-frequency.md)
    + [搜索引擎](dimensions/search-engine.md)
    + [搜索关键词](dimensions/search-keyword.md)
-   + [服务器](dimensions/server.md)
+   + [Server](dimensions/server.md)
    + [单页面访问量](dimensions/single-page-visits.md)
    + [网站区域](dimensions/site-section.md)
    + [发生事件之前逗留的时间](dimensions/time-prior-to-event.md)
@@ -101,8 +100,9 @@ ht-degree: 100%
    + [工作日/周末](dimensions/weekday-weekend.md)
    + [年](dimensions/year.md)
    + [邮政编码](dimensions/zip-code.md)
-+ 指标 {#metrics}
-   + [指标概述](metrics/overview.md)
++ 量度 {#metrics}
+   + [量度概述](metrics/overview.md)
+   + [计数重复实例](metrics/count-repeat-instances.md)
    + [平均页面深度](metrics/average-page-depth.md)
    + [每次访问的平均页面查看次数](metrics/average-page-views-per-visit.md)
    + [平均会话时长](metrics/average-session-length.md)
@@ -143,7 +143,7 @@ ht-degree: 100%
    + [件数](metrics/units.md)
    + [具有 Experience Cloud ID 的访客](metrics/visitors-with-ecid.md)
    + [访问次数](metrics/visits.md)
-+ 区段划分 {#segmentation}
++ 分段{#segmentation}
    + [Analytics 分段](segmentation/seg-home.md)
    + [关于区段和容器](segmentation/seg-overview.md)
    + [Analysis Workspace 中的分段功能](segmentation/segmentation-in-analysis-workspace.md)
@@ -165,35 +165,35 @@ ht-degree: 100%
       + [区段的比较运算符](segmentation/seg-reference/seg-operators.md)
       + [Data Warehouse 区段兼容性](segmentation/seg-reference/seg-compatibility.md)
       + [区段权限（按角色）](segmentation/seg-reference/seg-rights.md)
-      + [故障诊断](segmentation/seg-reference/c-troubleshooting.md)
+      + [疑难解答](segmentation/seg-reference/c-troubleshooting.md)
    + [常见问题解答](segmentation/seg-transition.md)
    + [最佳实践](segmentation/best-practices.md)
-+ 计算指标 {#calculated-metrics}
++ 计算量度 {#calculated-metrics}
    + [计算指标和高级计算（派生）指标](c-calcmetrics/cm-overview.md)
    + [操作方法视频](c-calcmetrics/cm-videos.md)
    + 计算指标工作流程 {#calcmetric-workflow}
-      + [计算指标工作流程](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
-      + [查找指标](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
-      + [生成指标](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+      + [计算量度工作流程](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
+      + [查找量度](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
+      + [生成量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
       + [指标类型和归因](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-      + [构建简单的“每次访问的页面查看次数”指标](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [分段指标](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
+      + [构建简单的“每次访问的页面查看次数”量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [分段量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [堆叠和替换区段](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
-      + [过滤和加权指标](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
-      + [订购协助指标](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [过滤和加权量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
+      + [订购协助量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [使用函数](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
-      + [参与指标](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
-      + [标记计算指标](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
-      + [批准计算指标](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
-      + [共享计算指标](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
-      + [计算指标管理器](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
+      + [参与量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [标记计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
+      + [批准计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
+      + [共享计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
+      + [计算量度管理器](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
    + 指标引用 {#calcmetrics-reference}
       + [引用：基本函数](c-calcmetrics/cm-reference/cm-functions.md)
       + [引用：高级函数](c-calcmetrics/cm-reference/cm-adv-functions.md)
-      + [指标兼容性](c-calcmetrics/cm-compatibility.md)
+      + [量度兼容性](c-calcmetrics/cm-compatibility.md)
       + [计算指标：基于角色的权限](c-calcmetrics/cm-role-based-rights.md)
-      + [计算指标总计](c-calcmetrics/cm-totals.md)
-+ 虚拟报表包 {#virtual-report-suites}
+      + [计算量度总计](c-calcmetrics/cm-totals.md)
++ 虚拟报告包{#virtual-report-suites}
    + [虚拟报表包概述](vrs/vrs-about.md)
    + [虚拟报表包组件管理](vrs/vrs-components.md)
    + [Mobile Services 中的 VRS 支持](vrs/vrs-mobile-services.md)
@@ -210,43 +210,43 @@ ht-degree: 100%
    + [跨设备分析概述](cda/overview.md)
    + [基于字段的拼合](cda/field-based-stitching.md)
    + [设备图](cda/device-graph.md)
-   + [设置跨设备分析](cda/setup.md)
+   + [设置 Cross-Device Analytics](cda/setup.md)
    + [重播的工作原理](cda/replay.md)
    + [CDA 工作区模板](cda/workspace-template.md)
    + [将 VRS 限制在特定日期](cda/limit-vrs-date.md)
-   + [跨设备分析常见问题解答](cda/faq.md)
+   + [Cross-Device Analytics 常见问题解答](cda/faq.md)
 + 警报 {#alerts}
    + [智能警报](c-alerts/intellligent-alerts.md)
    + [警报生成器](c-alerts/alert-builder.md)
    + [警报管理器](c-alerts/alert-manager.md)
-   + [智能警报 - 用例](c-alerts/alerts-use-cases.md)
-+ 分类 {#classifications}
+   + [智能警报 — 用例](c-alerts/alerts-use-cases.md)
++ 分类{#classifications}
    + [分类概述](classifications/c-classifications.md)
    + 分类导入器 {#classifications-importer}
       + [分类导入器 - 概述](classifications/importer/c-working-with-saint.md)
       + [分类数据文件](classifications/importer/c-saint-data-files.md)
       + [删除分类数据](classifications/importer/t-delete-classification-data.md)
       + [转义分类数据](classifications/importer/t-classifications-escape-data.md)
-      + [未分类键](classifications/importer/nonclassified-keys.md)
+      + [未分类键值](classifications/importer/nonclassified-keys.md)
       + [分类模板](classifications/importer/c-download-saint-data.md)
       + [浏览器和 FTP 导入](classifications/importer/import-file.md)
       + [浏览器导入](classifications/importer/browser-import.md)
       + [FTP 导入](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [处理时间](classifications/importer/processing-time.md)
-      + [故障诊断](classifications/importer/troubleshooting.md)
+      + [疑难解答](classifications/importer/troubleshooting.md)
    + 分类规则生成器 {#classifications-rulebuilder}
       + [分类规则生成器工作流程](classifications/crb/classification-rule-builder.md)
       + [分类规则集](classifications/crb/classification-rule-set.md)
       + [分类规则](classifications/crb/classification-quickstart-rules.md)
-      + [分类规则 - 定义](classifications/crb/classification-rule-definitions.md)
+      + [分类规则  — 定义](classifications/crb/classification-rule-definitions.md)
       + [子分类和规则生成器](classifications/crb/sub-classification-rule-builder.md)
    + [子分类](classifications/c-sub-classifications.md)
    + [分类常见问题解答](classifications/faq.md)
 + [日历事件](t-calendar-event.md)
 + 实时报告 {#real-time-reporting}
-   + [实时报告概述](c-real-time-reporting/realtime.md)
+   + [实时报表概述](c-real-time-reporting/realtime.md)
    + [配置实时报表](c-real-time-reporting/t-realtime-admin.md)
-   + [受支持的实时指标和维度](c-real-time-reporting/realtime-metrics.md)
+   + [受支持的实时量度和维度](c-real-time-reporting/realtime-metrics.md)
 + 营销渠道 {#marketing-channels}
    + [营销渠道快速入门](c-marketing-channels/c-getting-started-mchannel.md)
    + [归因 IQ 和营销渠道](c-marketing-channels/mchannel-best-practices.md)
