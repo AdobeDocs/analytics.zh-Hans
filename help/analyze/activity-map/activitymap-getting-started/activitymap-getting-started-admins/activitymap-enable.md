@@ -6,7 +6,7 @@ feature: Activity Map
 role: User, Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Activity Map 模块是 AppMeasurement.js 文件的一部分（位于文件顶部
 
 除非您更新至 AppMeasurement 的这个版本（或更高版本），否则无法收集 Activity Map 数据。
 
-1. 通过转至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 代码管理器]**&#x200B;下载最新的 AppMeasurement 代码 (AppMeasurement_Javascript-1.6.zip)，并 [实施它](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=zh-Hans)。
+1. 通过转至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 代码管理器]**&#x200B;下载最新的 AppMeasurement 代码 (AppMeasurement_Javascript-1.6.zip)，并[实施它](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=zh-Hans)。
 
    我们已经提供了一些[实现代码样例](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)，以帮助您直观地了解在添加 Activity Map 模块后代码产生的变化。
 
