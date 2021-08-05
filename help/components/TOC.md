@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算指标、虚拟报表包、警报等组件帮助整理数据。
-source-git-commit: 98463103e6e2ba19d11629d40dacc0c02f5b33c9
+source-git-commit: 17973777196ef101320f3d91e5b8e416a69721a6
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '644'
 ht-degree: 99%
 
 ---
@@ -231,6 +231,7 @@ ht-degree: 99%
       + [分类模板](classifications/importer/c-download-saint-data.md)
       + [浏览器和 FTP 导入](classifications/importer/import-file.md)
       + [浏览器导入](classifications/importer/browser-import.md)
+      + [浏览器导出](classifications/importer/browser-export.md)
       + [FTP 导入](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [处理时间](classifications/importer/processing-time.md)
       + [疑难解答](classifications/importer/troubleshooting.md)
