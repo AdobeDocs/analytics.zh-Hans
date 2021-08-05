@@ -7,7 +7,7 @@ feature: Reports & Analytics 基础知识
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
 source-git-commit: a589e2dffd52749ec3e243815451fe3ed2396509
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1666'
 ht-degree: 100%
 
