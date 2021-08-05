@@ -6,7 +6,7 @@ feature: Report Builder
 role: User, Admin
 exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1028'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Microsoft Power BI 是一组用来分析数据和共享分析的业务分析功�
 
    ![](assets/workbooks-power-bi.png)
 
-1. 现在您可以查看工作簿功能板数据。   ![](assets/view-data-pbi.png)
+1. 现在您可以查看工作簿功能板数据。  ![](assets/view-data-pbi.png)
 
 1. 您随后可以固定此工作簿的一个区域，以便将其包含在您的任意 Power BI 功能板中。
 
@@ -65,7 +65,7 @@ Microsoft Power BI 是一组用来分析数据和共享分析的业务分析功�
 
 您无需导入整个工作簿，只用导入工作簿内所有带格式的表的内容。
 
-**用例：**&#x200B;您可以让一个 Excel 工作簿提取多个 Report Builder 请求中的数据并通过许多公式创建一个摘要表。您只需将此摘要表导入 Power BI 并为其创建一个可视化。
+**用例：**&#x200B;您可以让一个 Excel 工作簿提取多个 Report Builder 请求中的数据并通过许多公式创建一个摘要表。您只需将此摘要表导入 Power BI 并为其创建一个可视化图表。
 
 **发布 Report Builder 中带格式的表**
 
