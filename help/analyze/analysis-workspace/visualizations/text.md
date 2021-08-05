@@ -6,7 +6,7 @@ feature: 可视化图表
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ## 添加超链接 {#hyperlinks}
 
-要添加超链接，请突出显示文本并在菜单中单击超链接图标。超链接可以链接到外部网站、文档页面、[Workspace 项目/面板/可视化图表](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) 等等，以进一步协助您项目的收件人。
+要添加超链接，请突出显示文本并在菜单中单击超链接图标。超链接可以链接到外部网站、文档页面、[Workspace 项目/面板/可视化图表](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=zh-Hans) 等等，以进一步协助您项目的收件人。
 
 ![](assets/hyperlink.png)
 
