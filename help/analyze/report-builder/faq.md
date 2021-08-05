@@ -1,34 +1,34 @@
 ---
 title: Report Builder 常见问题解答
-description: 有关Report Builder的常见问题解答。
+description: Report Builder 常见问题解答。
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '423'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 # Report Builder 常见问题解答
 
-有关Report Builder的常见问题解答。
+与 Report Builder 有关的常见问题解答。
 
-## 我能否在工作簿中使用`TODAY()`或`DATERANGE()`函数？
+## 我可以在工作簿中使用 `TODAY()` 或 `DATERANGE()` 函数吗？
 
-Excel中的[`TODAY()`函数](https://support.microsoft.com/en-us/office/today-function-5eb3078d-a82c-4736-8930-2f51a028fdd9)返回当天。 [`DATEVALUE()`函数](https://support.microsoft.com/en-us/office/datevalue-function-df8b07d4-7761-4a93-bc33-b7471bbff252)将日期字符串转换为序列值。 虽然Adobe在Excel中具有许多功能，但强烈建议不要将这些函数用作Report Builder计划请求的一部分。 Adobe客户关怀团队不支持使用其中任一功能对请求进行故障诊断。
+Excel 中的 [`TODAY()` 函数](https://support.microsoft.com/zh-cn/office/today-function-5eb3078d-a82c-4736-8930-2f51a028fdd9)会返回当前日期。[`DATEVALUE()` 函数](https://support.microsoft.com/zh-cn/office/datevalue-function-df8b07d4-7761-4a93-bc33-b7471bbff252)会将日期字符串转换为序列值。虽然这些函数对 Excel 中的许多功能很有帮助，但 Adobe 强烈建议不要将这些函数用作 Report Builder 计划请求的一部分。Adobe 客户关怀不支持使用其中任一函数对请求进行疑难解答。
 
-计划报表在可能与报表包不共享时区的服务器上进行处理。 用户期望的`TODAY()`和处理服务器使用的`TODAY()`通常可能不同。 此外，使用日期还基于处理开始时间。 如果同时运行多个报表，则请求日期与由于延迟而开始处理日期之间的日期可能会发生更改。 如果计划时间接近午夜，则会出现此问题。
+计划报表在可能不与报表包具有相同时区的服务器上进行处理。用户预期的 `TODAY()` 与处理服务器使用的 `TODAY()` 往往不同。另外，使用的日期基于处理开始日期。如果同时运行许多报告，则日期可能会因请求时间和由于延迟而开始处理的时间而异。如果计划时间接近午夜，则会出现此问题。
 
-计划报表也会在可能不共享日期语法的服务器上进行处理。 例如，`7/1/YYYY`可以指7月1日或1月7日，具体取决于您所在的国家/地区。 在此日期使用`DATEVALUE()`函数会根据执行该函数的计算机而产生不同的序列值。
+计划报表还在可能不采用相同日期语法的服务器上进行处理。例如，`7/1/YYYY` 可能指 7 月 1 日或 1 月 7 日，具体取决于您所在国家或地区。使用此日期的 `DATEVALUE()` 函数将会导致序列值有所不同，具体取决于执行此函数的计算机。
 
-作为使用这些Excel函数的替代方法，Adobe强烈建议在Report Builder请求中使用日期范围。 在请求向导的第一页，在下拉菜单中选择&#x200B;**[!UICONTROL 预设日期]**，然后在常用日期下，选择&#x200B;**[!UICONTROL 今天]**&#x200B;或其他所需的日期范围。 此设置占用报表包运行时的时间，而不是服务器处理请求的时间。
+作为使用这些 Excel 函数的替代方法，Adobe 强烈建议在 Report Builder 请求中使用日期范围。在请求向导的第一页上，选择下拉菜单中的&#x200B;**[!UICONTROL 预设日期]**，然后在“常用日期”下方选择&#x200B;**[!UICONTROL 今天]**&#x200B;或其他所需日期范围。此设置会采用报表包运行时的时间，而不是服务器处理请求的时间。
 
-## 我可以创建多大和复杂的工作簿？
+## 我的工作簿的大小和复杂程度如何？
 
-Report Builder支持的工作簿最多可达以下限制：
+Report Builder 支持具有以下限制的工作簿：
 
-* **1000个请求**:一个工作簿在单个工作簿中最多可包含1000个数据请求。如果您的报表或项目需要1000个以上的请求，则Adobe建议将它们分隔为多个工作簿。
-* **每公司每小时2万个请求**:Report Builder使用Analytics报表API来检索数据。每个请求在创建或刷新时都使用API调用。 如果贵组织在给定小时内累积了超过20,000个API调用，则必须等到下一小时才能再次检索数据。
-* **4小时处理时间**:计划报表在处理过去4小时后超时。如果您的工作簿包含许多使用大数据集的复杂请求，则计划报表可能会失败。
+* **1000 个请求**：单个工作簿中最多可以包含 1000 个数据请求。如果您有需要超过 1000 个请求的报告或项目，Adobe 建议将它们分成多个工作簿。
+* **每个公司每小时 2 万个请求**：Report Builder 使用 Analytics 报表 API 检索数据。每个请求每当在创建或刷新完毕后即使用 API 调用。如果贵组织在给定小时内累积超过 20,000 次 API 调用，您必须等到下一小时才能再次检索数据。
+* **4 小时处理时间**：计划报告在处理过去 4 小时后超时。如果您的工作簿包含许多使用大型数据集的复杂请求，则计划报告可能会失败。
