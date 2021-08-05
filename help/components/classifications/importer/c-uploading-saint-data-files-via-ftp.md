@@ -5,8 +5,8 @@ title: FTP 导入
 feature: 管理工具
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 17973777196ef101320f3d91e5b8e416a69721a6
+workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 100%
 
@@ -43,12 +43,6 @@ ht-degree: 100%
 
 ## 通过 FTP 导入分类 {#task_132C36830B69418B8C929E39838EF01D}
 
-<!-- 
-
-t_upload_a_saint_data_file_via_ftp.xml
-
- -->
-
 描述如何使用 FTP 帐户将分类导入 Adobe Analytics 的步骤。
 
 有关创建 FTP 帐户的更多信息，请参阅[创建 FTP 帐户](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)。
@@ -67,12 +61,6 @@ Adobe 会定期检索已上载的具有关联 FIN 文件的数据文件。然后
 ## 创建 FTP 帐户 {#task_C019268E6C934C7C95F4326F42A22CCF}
 
 在通过 FTP 上载数据之前，请先创建 FTP 帐户。>
-
-<!-- 
-
-t_create_an_ftp_account.xml
-
- -->
 
 有关 Adobe FTP 服务器的其他详细信息，请参阅 [FTP 和 sFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html?lang=zh-Hans)。
 
