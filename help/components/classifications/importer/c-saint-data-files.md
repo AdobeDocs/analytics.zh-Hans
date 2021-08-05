@@ -4,10 +4,10 @@ subtopic: Classifications
 title: 分类数据文件
 feature: 管理工具
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '1771'
-ht-degree: 100%
+source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
+workflow-type: tm+mt
+source-wordcount: '1785'
+ht-degree: 99%
 
 ---
 
@@ -179,6 +179,9 @@ ht-degree: 100%
 
 根据日期范围分类促销活动：
 
+>[!IMPORTANT]
+>此选项不适用于为新分类架构启用的报表包。
+
 1. 登录 [!DNL Analytics]，然后转到“管理员”>“分类”。
 1. 单击&#x200B;**[!UICONTROL 浏览器导出]**&#x200B;选项卡，确保启用日期的分类的设置均正确，然后单击“导出文件”。
 1. 在 Microsoft Excel 或您熟悉的其他电子表格编辑器中打开此文件。
@@ -203,5 +206,5 @@ ht-degree: 100%
 
 ## 有关分类的疑难解答
 
-* [常见 上载问题](https://helpx.adobe.com/cn/analytics/kb/common-saint-upload-issues.html)：知识库文章，描述由于文件格式以及文件内容不正确导致的问题。
+* [常见 上载问题](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)：知识库文章，描述由于文件格式以及文件内容不正确导致的问题。
 
