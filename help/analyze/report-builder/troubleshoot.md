@@ -6,9 +6,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1401'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 Report Builder 提交的优化方式及有时可能出现的错误消息的列表。
 
-## Report Builder 5.0 用户和打开 5.1 工作簿 {#section_C29898775999453FABB5FB0E098415C8}
+## Report Builder 5.0 用户和打开的 5.1 工作簿 {#section_C29898775999453FABB5FB0E098415C8}
 
 Adobe 将维度与分类之间的分隔符从下划线字符 (_) 改为 ||。此项更改旨在解决有分类请求的 Report Builder 5.0 用户在打开 Report Builder 5.1 版工作簿时的兼容性问题。每次从 v5.1 之前的版本打开工作簿时，所有序列化的分类请求都将转换为此格式。
 
@@ -47,7 +47,7 @@ Report Builder 需要进行身份验证，才能从报表包创建数据请求�
 * **可能降低工作簿运行时速度的因素**：显著增加了分类，或者减少了一段时间内请求的日期范围。
 * **导致工作簿传递失败的原因**：工作簿中复杂的 Excel 公式，特别是设计日期和时间的公式。
 * **单元格返回 0（没有值）**：Excel 工作表中的撇号或者单引号会导致 Report Builder 不返回值。（这是由于 Microsoft Excel 自身存在的限制所致。）
-* **单个请求性能**:处理速度可能会受以下设置的影响：
+* **单个请求性能**：处理速度可能会受以下设置影响：
 
    | 设置 | 性能提高 | 性能降低 |
    |--- |--- |--- |
