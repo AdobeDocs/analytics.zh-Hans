@@ -4,18 +4,17 @@ subtopic: Classifications
 title: 分类模板
 feature: 管理工具
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-translation-type: ht
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '320'
-ht-degree: 100%
+source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
+workflow-type: tm+mt
+source-wordcount: '353'
+ht-degree: 85%
 
 ---
 
 
 # 分类模板
 
-（可选）在将分类导入市场营销报告之前，您可以下载模板来帮助您创建分类数据文件。数据文件会将您所需的分类用作列标题，然后在相应的分类标题下组织报表数据集。
+（可选）在将分类导入报表和项目之前，您可以下载有助于创建分类数据文件的模板。 数据文件会将您所需的分类用作列标题，然后在相应的分类标题下组织报表数据集。
 
 ## 分类模板 {#concept_0F06847AD8D042F5BA818AE3C37E2417}
 
@@ -24,10 +23,11 @@ ht-degree: 100%
 **[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
 
 | 元素 | 描述 |
-|---|---|
+| --- | ---|
 | 选择报表包 | 选择要在模板中使用的报表包。报表包与数据集必须匹配。 |
 | 要分类的数据集 | 选择数据文件的数据类型。该菜单包含报表包中针对分类配置的所有报表。 |
-| 编码 | 为数据文件选择字符编码。默认编码格式为 UTF-8。 |
+| 导出数值 2 | **重要信息**:此选项不适用于为新分类架构启用的报表包。 |
+| 编码 | 为数据文件选择字符编码。默认编码格式为 UTF-8。<br>**重要信息**:此选项不适用于为新分类架构启用的报表包。 |
 | 下载 | 下载模板文件。 |
 
 模板包含特定数据集当前已定义的分类（列标题），但不包含与每个分类相关联的数据。
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 有关数据文件结构的详细信息，请参阅[关于分类数据文件](/help/components/classifications/importer/c-saint-data-files.md)。
 
-## 下载分类数据模板（可选）{#task_8DFCF309B6FD43ABB1D6FEE9AFAEC596}
+## 下载分类数据模板（可选） {#task_8DFCF309B6FD43ABB1D6FEE9AFAEC596}
 
 该模板提供了分类必须遵循的文件格式。
 
