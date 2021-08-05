@@ -5,7 +5,7 @@ feature: Analytics 功能板
 role: User, Admin
 exl-id: 7c5fa374-fa39-4bbc-9bd7-0ef17914d593
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
 ht-degree: 100%
 
@@ -24,4 +24,4 @@ ht-degree: 100%
 
 * [执行用户快速入门指南](/help/analyze/mobile-app/executive.md)：本指南旨在帮助执行用户阅读并理解[!UICONTROL 功能板]上的记分卡。该应用程序允许执行用户在其自己的移动设备上快速、轻松地查看广泛呈现的重要摘要数据。
 
-   要观看重点介绍此信息的视频，请参阅 [Adobe Analytics 功能板应用程序内体验](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html)。
+   要观看重点介绍此信息的视频，请参阅 [Adobe Analytics 功能板应用程序内体验](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html?lang=zh-Hans)。
