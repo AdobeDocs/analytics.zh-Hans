@@ -4,10 +4,10 @@ subtopic: Marketing channels
 title: 管理营销渠道
 feature: Reports & Analytics 基础知识
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 2a63ff1072964df823edd09d844630e99c0afd8b
+workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
