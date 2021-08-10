@@ -5,14 +5,17 @@ title: Analysis Workspace 中的新增功能
 feature: Workspace 基础知识
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 27b04baf5fff026261468678f4b1c49756b4636c
 workflow-type: tm+mt
-source-wordcount: '8276'
-ht-degree: 100%
+source-wordcount: '8290'
+ht-degree: 99%
 
 ---
 
 # Analysis Workspace 中的新增功能
+
+>[!IMPORTANT]
+>进一步的Analysis Workspace更新已转入[Adobe Analytics文档更新](/help/landing/doc-updates.md)页面。
 
 要从整体上访问 Adobe Experience Cloud 发行说明，请转至[此处](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)。
 
