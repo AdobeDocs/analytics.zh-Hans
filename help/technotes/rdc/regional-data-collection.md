@@ -1,14 +1,13 @@
 ---
 title: 地区数据收集
 description: 关于区域数据收集的信息
-translation-type: tm+mt
-source-git-commit: 731209e28dab9f17e06948614149a4c99938fdae
+exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
+source-git-commit: f3622023c6c86dd340dc5ce81f81f628da9fbe38
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 57%
+source-wordcount: '451'
+ht-degree: 60%
 
 ---
-
 
 # 地区数据收集
 
@@ -16,7 +15,7 @@ Adobe Experience Cloud 使用区域数据收集 (RDC)，这样，您的最终用
 
 >[!IMPORTANT]
 >
->中国RDC（中国性能优化）附加组件是Adobe Analytics的收费附加组件。 Adobe在中国大陆的业绩优化使中国境内的客户能够直接将数据发送到中国边缘节点，而不是全球其他地点。 与将数据发送到中国境外的节点相比，这提高了页面加载时间和数据准确性。 请联系您的Adobe销售代表以了解更多信息。
+>China RDC(China Performance Optimization)附加组件包是Adobe Analytics的收费附加组件。 Adobe在中国大陆的性能优化使中国境内的客户能够将数据直接发送到中国边缘节点，而不是全球的其他位置。 与将数据发送到中国以外的节点相比，这可以缩短页面加载时间并提高数据准确性。 有关更多信息，请联系您的Adobe销售代表。
 
 RDC 目前包括以下位置（可能发生变化）：
 
@@ -26,9 +25,9 @@ RDC 目前包括以下位置（可能发生变化）：
 |---------------------|-------------------|
 | 默认 | 俄勒冈、弗吉尼亚、爱尔兰、巴黎、孟买、新加坡、东京、悉尼, 中国* |
 
-Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `omtrdc.net` endpoints, then you have third-party data collection. 如果您在请求的 URL 中看到了任一端点，则可以确定这一点。
+注意：如果您的Analytics图像请求被发送到`adobedc`、`2o7.net`或`omtrdc.net`端点，则表明您使用的是第三方数据收集。 如果您在请求的 URL 中看到了任一端点，则可以确定这一点。
 
-*中国RDC要求提供中国附加服务。 请参阅上面的“重要”说明。
+*China RDC要求使用中国附加组件包。 请参阅上面的“重要”说明。
 
 ## 第一方 HTTPS 数据收集
 
@@ -40,17 +39,16 @@ Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `om
 | 仅限亚太地区 | 孟买、新加坡、东京、悉尼 |
 | 仅限中国* | 北京 |
 
-*中国RDC要求提供中国附加服务。 请参阅上面的“重要”说明。
+*China RDC要求使用中国附加组件包。 请参阅上面的“重要”说明。
 
-注意：Experience Edge Global 可为最终用户提供最佳性能。如果您希望使用替代RDC类型，请与Adobe客户服务部门联系以获得帮助。
+注意：Experience Edge Global 可为最终用户提供最佳性能。如果您希望使用替代RDC类型，请联系Adobe客户关怀团队以寻求帮助。
 
 ## RDC 的好处
 
 | 好处 | 描述 |
 | --- | --- |
-| 性能 | 借助RDC，您的访客将连接到最接近的DCC。 这提供最快的响应时间，从而实现更准确的跟踪和更快的加载时间。 |
-| 冗余 | 如果与DCC的通信中断，数据收集将自动路由到最近的DCC，从而确保服务连续性。 |
-| 冗余 | 如果DCC与DPC之间的通信中断，Adobe的RDC基础架构将数据保存在本地，然后在通信恢复时将其转发到DPC。 |
+| 性能 | 通过RDC，您的访客将连接到最近的DCC。 这样可以提供最快的响应时间，从而实现更准确的跟踪和更快的加载时间。 |
+| 冗余 | 如果DCC与DPC之间的通信中断，Adobe的RDC基础架构会将数据保存在本地，然后在通信恢复时将其转发到DPC。 |
 
 ## RDC 工作原理
 
