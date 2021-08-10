@@ -3,10 +3,10 @@ title: Adobe Analytics 技术文档更新
 description: 对 Adobe Analytics 文档存储库的重要更新。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 27b04baf5fff026261468678f4b1c49756b4636c
+source-git-commit: 784a2ab3bf825473c9ced7a1d79f2cc7bfc8f8e7
 workflow-type: tm+mt
-source-wordcount: '2705'
-ht-degree: 71%
+source-wordcount: '2859'
+ht-degree: 69%
 
 ---
 
@@ -47,8 +47,15 @@ ht-degree: 71%
 | 2021 年 1 月 14 日 | 添加了Analytics功能板语言选择选项。 |
 | 2021 年 1 月 14 日 | 有关如何通过引用公共图像URL将图像添加到工作区项目的文档。 |
 | 2021 年 1 月 14 日 | 工作区可视化的组合式源和设置管理器：用于可视化的[!UICONTROL 数据源]管理器（点）和设置管理器（齿轮）已合并到一个弹出窗口中，因此您可以轻松地从同一位置管理源和设置。 |
+| **2020年12月** |  |
+| 2020 年 12 月 7 日 | 已修订所有相关页面，以包含或替换“adobedc.net”端点。 |
+| 2020 年 12 月 8 日 | 在工作区中更新了[新建项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=zh-Hans)页面。 |
 | **2020 年 11 月** |  |
-| 2020 年 11 月 | 新的实施审查文档： <ul><li>[全面实施审查](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=zh-Hans)</li><li>[集中实施审查](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=zh-Hans)</li></ul> |
+| 2020 年 11 月 24 日 | 工作区中[面板概述](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hans)页面的更新。 |
+| 2020 年 11 月 24 日 | 新的实施审查文档： <ul><li>[全面实施审查](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=zh-Hans)</li><li>[集中实施审查](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=zh-Hans)</li></ul> |
+| 2020 年 11 月 24 日 | 更新了Analysis Workspace [可视化概述](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hans)页面。 |
+| 2020 年 11 月 12 日 | [继承的Adobe Analytics实施](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/existing-implementation.html?lang=en)中的新页面。 |
+| 2020 年 11 月 2 日 | 更新了[FTP上分类](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=en)的文档。 |
 | **2020 年 10 月** |  |
 | 2020 年 10 月 23 日 | 工作区折线图可视化图表：[移动平均趋势线选项](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=zh-Hans):此设置已添加到[!UICONTROL Line]可视化趋势线设置中。 移动平均值也称为滚动平均值，它使用特定数量的数据点（由&#x200B;**[!UICONTROL 周期]**&#x200B;选择确定)，对其求平均值，并将平均值用作折线中的点。 |
 | 2020 年 10 月 23 日 | 工作区[性能帮助页面](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html?lang=zh-Hans)显示影响项目性能的不同因素，并提供有关性能优化提示的链接。 |
@@ -94,12 +101,15 @@ ht-degree: 71%
 | 2020 年 2 月 20 日 | 工作区调试器已添加到“帮助”菜单，可让您根据调试工作区请求更加无缝地启用调试器。 [了解详情...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 | 2020 年 2 月 18 日 | 添加了 [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) 变量。 |
 | 2020 年 2 月 12 日 | 更新并重新整理了[营销渠道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)文档。 |
+| 2020 年 2 月 12 日 | 向[此工作区页面](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html)添加了新热键 |
 | 2020 年 2 月 7 日 | 更新了[设置跨设备分析](/help/components/cda/setup.md)和[常见问题解答](/help/components/cda/faq.md)。 |
 | 2020 年 2 月 4 日 | 完全重写[实施用户指南](/help/implement/home.md)。 |
 | 2020 年 1 月 22 日 | 更新了“自由格式表”页面，现在包含有关新的[自由格式表生成器](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)的信息。 |
 | **2020 年 1 月** |  |
+| 2020 年 1 月 24 日 | 工作区中[行设置](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html#cja-workspace?lang=en)页面的更新。 |
 | 2020 年 1 月 16 日 | 在[自由格式表生成器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=zh-Hans)上新增了文档。 启用表生成器后，您可以通过拖放多个维度、细分、量度和区段来构建可解答更复杂业务问题的表。数据不会立即更新，相反，单击&#x200B;**[!UICONTROL 生成]**&#x200B;后才会进行更新，这样可在您知道自己要构建什么表的情况下节省您的时间。此外，此功能还提供：<ul><li>**预览**：您可以先预览表的格式，然后再花费时间渲染实际数据。</li><li>**灵活的行和划分设置**：您可以为每个维度行设置行级别和划分级别。以前，工作区施加了一些默认值，这些默认值在返回数据之前无法更改。</li><li>**按状态划分**：您可以将维度行设置为始终&#x200B;_按状态划分_&#x200B;而不是&#x200B;_按特定项目_（默认值）划分。</li><li>**手动静态行排序**：您可以手动对静态行进行排序，以使表行完全按照您的需要显示。以前，静态行只能按度量列或按字母顺序排序。</li></ul> |
 | 2020 年 1 月 13 日 | 添加了 [Adobe Analytics 和浏览器 Cookie](/help/technotes/cookies/cookies.md)。 |
+| 2020 年 1 月 13 日 | 已修改[我应使用哪个工具](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-overview/which-analytics-tool.html)页面。 |
 | **2019年** |  |
 | 2019 年 11 月 29 日 | 全面修订了[数据馈送文档](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 2019 年 11 月 25 日 | 新增了[“强制 IP 登录限制”终止使用](/help/admin/company/login-restrictions-eol.md)主题 |
