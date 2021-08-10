@@ -3,7 +3,7 @@ title: Adobe Analytics 技术文档更新
 description: 对 Adobe Analytics 文档存储库的重要更新。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 22f82125b5a0bb14c4446cb89b43889a3e4d8b5a
+source-git-commit: 185ea7f120d918db52233a321dfa629c6bc1c8ee
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 71%
@@ -22,7 +22,7 @@ ht-degree: 71%
 ## 有关主要文档更新的详细信息
 
 | 日期 | 描述 |
-|---|---|
+| --- | --- |
 | 2021 年 8 月 5 日 | 新增了[计数重复实例](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html)主题 |
 | 2021 年 7 月 23 日 | [促销eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)的深入讨论 |
 | 2021 年 7 月 15 日 | 添加了有关[Adobe Analytics登录页面](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html?lang=zh-Hans)的新文档 |
