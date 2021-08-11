@@ -3,10 +3,10 @@ title: Adobe Analytics 技术文档更新
 description: 对 Adobe Analytics 文档存储库的重要更新。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 5d10cf7728d63f7d772061b2e917ba6332bacf3c
+source-git-commit: 925435a475be13103c5b26255bb7910d259ff7e7
 workflow-type: tm+mt
-source-wordcount: '2845'
-ht-degree: 68%
+source-wordcount: '2930'
+ht-degree: 65%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 68%
 | --- | --- |
 | **2021 年 8 月** |  |
 | 2021 年 8 月 5 日 | 新增了[计数重复实例](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html)主题 |
-| 2021 年 8 月 5 日 | 更新了[模板](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en)、[浏览器导入](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en)和[浏览器导出](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en)的分类文档，以指示没有针对新分类架构启用的报表包提供的选项。 |
+| 2021 年 8 月 5 日 | 更新了[模板](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en)、[浏览器导入](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en)和[浏览器导出](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en)的分类文档，以指明无法使用的适用于新分类架构的报表包的选项。 |
 | 2021 年 8 月 2 日 | 更新了多个页面以反映[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en)的重新品牌化 |
 | **2021 年 7 月** |  |
 | 2021 年 7 月 23 日 | [促销eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)的深入讨论 |
@@ -41,10 +41,10 @@ ht-degree: 68%
 | 2021 年 3 月 25 日 | [数据修](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) 复API更新（过滤URL、查询字符串、符号等） |
 | 2021 年 3 月 25 日 | 新的[使用日志API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md)文档 |
 | **2021 年 2 月** |  |
-| 2021 年 2 月 4 日 | 组件选择：在[!UICONTROL Quick Insights]中找到的下拉/拖放区域组件将添加到[!UICONTROL Workspace]中的所有拖放区域。 通过此增强功能，您可以从兼容组件的下拉列表中进行选择，或继续将空间用作拖放区域。 |
+| 2021 年 2 月 4 日 | 组件选择：在[!UICONTROL Quick Insights]中找到的下拉/拖放区域组件已添加到[!UICONTROL Workspace]中的所有拖放区域。 此增强功能允许您从兼容组件的下拉列表中进行选择，或继续将空间用作拖放区域。 |
 | **2021 月 1 日** |  |
-| 2021 年 1 月 14 日 | 添加了Analytics功能板语言选择选项。 |
-| 2021 年 1 月 14 日 | 有关如何通过引用公共图像URL将图像添加到工作区项目的文档。 |
+| 2021 年 1 月 14 日 | 向Analytics功能板文档添加了语言选择选项。 |
+| 2021 年 1 月 14 日 | 添加了有关如何通过引用公共图像URL向工作区项目添加图像的文档。 |
 | 2021 年 1 月 14 日 | 工作区可视化的组合式源和设置管理器：用于可视化的[!UICONTROL 数据源]管理器（点）和设置管理器（齿轮）已合并到一个弹出窗口中，因此您可以轻松地从同一位置管理源和设置。 |
 | **2020年12月** |  |
 | 2020 年 12 月 7 日 | 已修订所有相关页面，以包含或替换“adobedc.net”端点。 |
@@ -106,18 +106,24 @@ ht-degree: 68%
 | 2020 年 1 月 22 日 | 更新了“自由格式表”页面，现在包含有关新的[自由格式表生成器](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)的信息。 |
 | **2020 年 1 月** |  |
 | 2020 年 1 月 24 日 | 工作区中[行设置](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html#cja-workspace?lang=en)页面的更新。 |
-| 2020 年 1 月 16 日 | 在[自由格式表生成器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=zh-Hans)上新增了文档。 启用表生成器后，您可以通过拖放多个维度、细分、量度和区段来构建可解答更复杂业务问题的表。数据不会立即更新，相反，单击&#x200B;**[!UICONTROL 生成]**&#x200B;后才会进行更新，这样可在您知道自己要构建什么表的情况下节省您的时间。此外，此功能还提供：<ul><li>**预览**：您可以先预览表的格式，然后再花费时间渲染实际数据。</li><li>**灵活的行和划分设置**：您可以为每个维度行设置行级别和划分级别。以前，工作区施加了一些默认值，这些默认值在返回数据之前无法更改。</li><li>**按状态划分**：您可以将维度行设置为始终&#x200B;_按状态划分_&#x200B;而不是&#x200B;_按特定项目_（默认值）划分。</li><li>**手动静态行排序**：您可以手动对静态行进行排序，以使表行完全按照您的需要显示。以前，静态行只能按度量列或按字母顺序排序。</li></ul> |
+| 2020 年 1 月 16 日 | 有关[自由格式表生成器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=zh-Hans)的新文档。 启用表生成器后，您可以通过拖放多个维度、细分、量度和区段来构建可解答更复杂业务问题的表。数据不会立即更新，相反，单击&#x200B;**[!UICONTROL 生成]**&#x200B;后才会进行更新，这样可在您知道自己要构建什么表的情况下节省您的时间。此外，此功能还提供：<ul><li>**预览**：您可以先预览表的格式，然后再花费时间渲染实际数据。</li><li>**灵活的行和划分设置**：您可以为每个维度行设置行级别和划分级别。以前，工作区施加了一些默认值，这些默认值在返回数据之前无法更改。</li><li>**按状态划分**：您可以将维度行设置为始终&#x200B;_按状态划分_&#x200B;而不是&#x200B;_按特定项目_（默认值）划分。</li><li>**手动静态行排序**：您可以手动对静态行进行排序，以使表行完全按照您的需要显示。以前，静态行只能按度量列或按字母顺序排序。</li></ul> |
 | 2020 年 1 月 13 日 | 添加了 [Adobe Analytics 和浏览器 Cookie](/help/technotes/cookies/cookies.md)。 |
 | 2020 年 1 月 13 日 | 已修改[我应使用哪个Adobe Analytics工具](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=en)页面。 |
 | **2019年** |  |
+| 2020 年 12 月 19 日 | 已将默认的[FTP数据存储限制](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=en)更改为10 GB。 |
 | 2019 年 11 月 29 日 | 全面修订了[数据馈送文档](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 2019 年 11 月 25 日 | 新增了[“强制 IP 登录限制”终止使用](/help/admin/company/login-restrictions-eol.md)主题 |
 | 2019 年 11 月 21 日 | 新增了 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html) 文档集 |
+| 2019 年 11 月 21 日 | 更新了[Audience Analytics工作流常见问题解答](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=en)以指示LiveStream中的可用性。 |
+| 2019 年 10 月 25 日 | 更新了[Adobe Analytics关键概念](https://experienceleague.adobe.com/docs/analytics/landing/an-key-concepts.html?lang=en)页面。 |
 | 2019 年 10 月 10 日 | 更新了自由格式表的总数统计：现在，它们包括两项总计：**[!UICONTROL 表总计]**&#x200B;和&#x200B;**[!UICONTROL 总计]**。 表格总计行会将已应用的[报表过滤器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=zh-Hans)计入在内。以前，只有区段会影响总数的计算。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=zh-Hans)<br/>，此外，**[!UICONTROL ￼显示总数]**&#x200B;和&#x200B;**[!UICONTROL 显示总计]**&#x200B;选项已添加到&#x200B;**[!UICONTROL 列设置]**&#x200B;中。<br/>鉴于自由格式表的这项变化，与之相关的可视化图表（例如关联的&#x200B;**[!UICONTROL 概要数字]**&#x200B;可视化图表）也将进行相应的更新，导出的 CSV 和 PDF 数据同样也会更新。 |
-| 10,2019 年 10 月 | 在工作区中，已添加轻松删除“未指定（无）”的功能作为报表过滤器的选项。 |
-| 10,2019 年 10 月 | 在工作区中，已弃用紫色粒度组件（分钟、小时、日、周、月、季度、年）。 紫色时间组件与对应的橙色维度组件的功能是一样的，因此这项更改将简化这方面的使用体验。即使之前使用了某个紫色时间组件，您也&#x200B;**无需执行任何操作**。<br/>此外，根据这项变化，紫色的&#x200B;**[!UICONTROL 时间]**&#x200B;部分已重命名为&#x200B;**[!UICONTROL 日期范围]**。 |
+| 10,2019 年 10 月 | 在工作区中，添加了轻松删除“未指定（无）”的功能作为报表过滤器的选项。 |
+| 10,2019 年 10 月 | 在工作区中，紫色粒度组件（分钟、小时、日、周、月、季度、年）已被弃用。 即使之前使用了某个紫色时间组件，您也&#x200B;**无需执行任何操作**。<br/>此外，根据这项变化，紫色的&#x200B;**[!UICONTROL 时间]**&#x200B;部分已重命名为&#x200B;**[!UICONTROL 日期范围]**。 |
+| 2019 年 10 月 1 日 | 有关[工作区总计](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html#cja-workspace?lang=en)的新文章。 |
 | 2019 年 9 月 28 日 | 新增了有关[用于 Javascript 实施的配置变量](/help/implement/vars/config-vars/configuration-variables.md)的文章 |
+| 2019 年 9 月 19 日 | 修订了分段文档，以说明[逻辑组容器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html?lang=en#logic-group-containers)。 |
 | 2019 年 9 月 12 日 | 新增了[历程 IQ：跨设备分析](/help/components/cda/overview.md)文档 |
+| 2019 年 9 月 12 日 | 更新[计算量度总计](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=en)文档。 |
 | 2019 年 8 月 28 日 | 新增了有关[用于 Analytics 的渐进式 Web 应用程序 (PWA)](/help/analyze/pwa/pwa.md) 的文章 |
 | 2019 年 8 月 8 日 | 有关[计算量度合计](/help/components/c-calcmetrics/cm-totals.md)的新文章 |
 | 2019 年 8 月 8 日 | 关于[已启用时间戳的会话数据](/help/admin/admin/timestamp-optional.md)的说明 | 2019 年 8 月 8 日 | 在工作区中，Adobe将可放置在下拉过滤器中的项目限制从50增加到了200。 此增强功能适用于各种用例，例如将所有国家/地区 (195) 添加到筛选器，或将所有美国州和省 (52) 添加到筛选器。 |
