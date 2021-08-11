@@ -1,12 +1,12 @@
 ---
 title: Adobe Analytics 技术文档更新
-description: 对 Adobe Analytics 文档存储库的重要更新。
+description: 对Adobe Analytics文档集的显着更新。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 925435a475be13103c5b26255bb7910d259ff7e7
+source-git-commit: 75f83491c448df2e2f6b2083fcb533d86c1f215d
 workflow-type: tm+mt
-source-wordcount: '2930'
-ht-degree: 65%
+source-wordcount: '2886'
+ht-degree: 63%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 65%
 | 2021 年 8 月 5 日 | 更新了[模板](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en)、[浏览器导入](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en)和[浏览器导出](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en)的分类文档，以指明无法使用的适用于新分类架构的报表包的选项。 |
 | 2021 年 8 月 2 日 | 更新了多个页面以反映[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en)的重新品牌化 |
 | **2021 年 7 月** |  |
-| 2021 年 7 月 23 日 | [促销eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)的深入讨论 |
+| 2021 年 7 月 23 日 | [促销eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)的新深入讨论 |
 | 2021 年 7 月 15 日 | 添加了有关新[Adobe Analytics登录页面](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html?lang=zh-Hans)的新文档 |
 | **2021 年 6 月** |  |
 | 2021 年 6 月 15 日 | 更新了[营销渠道最佳实践](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) |
@@ -70,19 +70,18 @@ ht-degree: 65%
 | 2020 年 7 月 21 日 | [跨设备分析](/help/components/cda/overview.md)的主要更新和修订。添加了[基于字段的拼合](/help/components/cda/field-based-stitching.md)。 |
 | 2020 年 7 月 16 日 | 工作区中新增了日期范围预设。 添加了 4 个新的日期范围：（[!UICONTROL 本周/月/季度/年（不包括今天）]）。这允许您从不包括今天的部分日期数据的日期范围中进行选择。 |
 | **2020 年 6 月** |  |
-| 2020 年 6 月 25 日 | 工作区中的“快速分析”面板为Analysis Workspace的非分析师和新用户了解如何快速轻松地回答业务问题提供了指导。 [了解详情...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| 2020 年 6 月 25 日 | 通过工作区中的“Analytics for Target”面板，您可以满怀信心地分析Adobe Target活动和体验。 [了解详情...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| 2020 年 6 月 25 日 | 新增了有关工作区中[快速分析面板](/help/analyze/analysis-workspace/c-panels/quickinsight.md)的文档。 它为Analysis Workspace的非分析师和新用户了解如何快速轻松地回答业务问题提供了指导。 |
+| 2020 年 6 月 25 日 | 新增了有关工作区中[Analytics for Target面板](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)的文档。 它让您能够满怀信心地分析Adobe Target活动和体验。 |
 | 2020 年 6 月 18 日 | 有关[Attribution IQ的新文档：算法归因](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=zh-Hans) |
 | 2020 年 6 月 18 日 | 有关[Attribution IQ的新文档：自定义回顾窗口](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=en#lookback-windows) |
-| 2020 年 6 月 18 日 | 共享工作区项目中的项目角色. 现在，在共享工作区项目时，您可以根据希望收件人获得的项目体验为收件人分配以下三个项目角色中的一个角色：“编辑”、“复制”和“查看”。[了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans) |
-| 2020 年 6 月 18 日 | 有关如何仅以“可以查看”的形式将工作区项目共享给用户的文档。 当具有“查看”角色的收件人打开共享项目时，他们将获得比较受限的项目体验，因为项目无左边栏而且可进行的交互也有限。[了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=zh-Hans) |
-| 2020 年 6 月 18 日 | 新增了有关共享工作区项目的项目角色的文档。 现在，在共享工作区项目时，您可以根据希望收件人获得的项目体验为收件人分配以下三个项目角色中的一个角色：“编辑”、“复制”和“查看”。[了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 2020 年 6 月 18 日 | 仅查看工作区项目：可以将工作区项目仅以“可以查看”的形式共享给用户。 当具有“查看”角色的收件人打开共享项目时，他们将获得比较受限的项目体验，因为项目无左边栏而且可进行的交互也有限。[了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| 2020 年 6 月 18 日 | 能够共同编辑工作区项目. 添加到“可以编辑”角色的收件人可以保存已共享给他们的项目。这同时适用于管理员和非管理员用户。[了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 2020 年 6 月 18 日 | 新增了有关共享工作区项目的[项目角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans)的文档。 现在，在共享工作区项目时，您可以根据希望收件人获得的项目体验为收件人分配以下三个项目角色中的一个角色：“编辑”、“复制”和“查看”。 |
+| 2020 年 6 月 18 日 | 有关[“仅查看”工作区项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=zh-Hans)的新文档。 项目可仅以“可以查看”的形式共享给用户。 当具有查看角色的收件人打开共享项目时，他们将会获得较为受限的项目体验，即，无左边栏而且只能进行有限的交互。 |
+| 2020 年 6 月 18 日 | 新增了关于共享工作区项目[项目角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)的文档。 现在，在共享工作区项目时，您可以根据希望收件人获得的项目体验为收件人分配以下三个项目角色中的一个角色：“编辑”、“复制”和“查看”。 |
+| 2020 年 6 月 18 日 | 有关[联合编辑工作区项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)的新文档。 添加到“可以编辑”角色的收件人可以保存已共享给他们的项目。这同时适用于管理员和非管理员用户。 |
 | **2020 年 5 月** |  |
 | 2020 年 5 月 31 日 | 有关[批量数据插入API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)的新文档 |
 | 2020 年 5 月 21 日 | [Adobe Analytics功能板](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html)的新文档 |
-| 2020 年 5 月 21 日 | 有关Analysis Workspace辅助功能改进的文档，包括改进的键盘导航、颜色对比度和屏幕阅读器支持。 [了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html?lang=zh-Hans) |
+| 2020 年 5 月 21 日 | 新增了关于[Analysis Workspace辅助功能改进](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html?lang=zh-Hans)的文档，包括改进的键盘导航、颜色对比度和屏幕阅读器支持。 |
 | **2020 年 4 月** |  |
 | 2020 年 4 月 28 日 | 添加了有关[内容周转率](/help/components/metrics/content-velocity.md)￼量度的文档。 |
 | 2020 年 4 月 16 日 | 有关如何从空白状态自动构建[!UICONTROL 自由格式表]的文档。 以前，不能将组件直接拖放到空白项目或空白面板，而是必须先添加一个自由格式表。现在，您可以将组件直接拖放到空白项目或面板中，并且系统将以推荐的格式自动为您构建自由格式表。此外，改进了将混合组件类型（如维度与量度）一起拖放到空白[!UICONTROL 自由格式表]中时，对这些组件的处理方式。 |
