@@ -2,22 +2,24 @@
 description: 介绍全新登陆页面如何将 Analysis Workspace 与 Reports & Analytics 融于一个界面中，提供 Workspace 伞形结构下的访问点。
 title: 全新 Adobe Analytics 登陆页面
 role: User, Admin
-source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
+source-git-commit: ebf11e981da25ab154968acda49456862f38874f
 workflow-type: tm+mt
 source-wordcount: '3046'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
 # 全新 Adobe Analytics 登陆页面
 
-Adobe Analytics的新登陆页面将Analysis Workspace和Reports &amp; Analytics整合到工作区伞下的单个界面和接入点中。 它配有新的项目管理器主页、更新的报表菜单、现代化报表，以及新的学习部分，帮助您更高效地入门。
+Adobe Analytics 的全新登陆页面将 Analysis Workspace 与 Reports &amp; Analytics 融于一个界面中，提供 Workspace 伞形结构下的访问点。它配有新的项目管理器主页、更新的报表菜单、现代化报表，以及新的学习部分，帮助您更高效地入门。
 
 新页面改进了可搜索性，引导 Reports &amp; Analytics 用户在 Workspace 中获得更好的报告体验。
 
 >[!IMPORTANT]
 >
 >从2021年7月21日开始，此登陆页面将处于公开测试阶段。 它是一个可选的起点。不论是 Workspace 还是 Reports，您都可以按自己的偏好使用现有登陆页面。如果您确实决定加入 Beta 计划，在访问登陆页面时，单击屏幕顶部的&#x200B;**[!UICONTROL 提供反馈]**&#x200B;可提交您的反馈以及您可能遇到的任何 Bug。您可以随时选择退出并重新加入 Beta 计划。在 Beta 版用户界面中所做的任何工作都会转移到现有/当前 Workspace 体验中。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
 ## 访问新登陆页面 {#access-landing}
 
