@@ -6,9 +6,9 @@ title: 数据列引用
 feature: Reports & Analytics 基础知识
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: f7cdf0f407c5299072784336c252f6c466e3099b
+source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
 workflow-type: tm+mt
-source-wordcount: '3409'
+source-wordcount: '3407'
 ht-degree: 99%
 
 ---
@@ -85,8 +85,8 @@ ht-degree: 99%
 | `hier1 - hier5` | 由层级变量使用。包含一个分隔的值列表。在“报表包设置”下方选择分隔符。 | varchar(255) |
 | `hit_source` | 表示点击的来源。点击源 1、2 和 6 将计费。<br>1：不带时间戳的标准图像请求<br>2：带有时间戳的标准图像请求<br>3：带有时间戳的实时数据源上载<br>4：未使用<br>5：通用数据源上载<br>6：完全处理数据源上载<br>7：TransactionID 数据源上载<br>8：不再使用；Adobe Advertising Cloud 数据源的以前版本<br>9：不再使用；Adobe Social 概要指标<br>10：使用了 Audience Manager 服务器端转发 | 无符号 tinyint |
 | `hit_time_gmt` | Adobe 数据收集服务器收到点击的时间戳，基于 Unix 时间。 | int |
-| `hitid_high` | 与 `hitid_low` 配合使用以唯一地标识某次点击。 | 无符号 bigint |
-| `hitid_low` | 与 `hitid_high` 配合使用以唯一地标识某次点击。 | 无符号 bigint |
+| `hitid_high` | 与`hitid_low`结合使用，用于标识点击。 | 无符号 bigint |
+| `hitid_low` | 与`hitid_high`结合使用，用于标识点击。 | 无符号 bigint |
 | `homepage` | 已不再使用。指示当前的 URL 是否是浏览器的主页。 | char(1) |
 | `hourly_visitor` | 确定点击是否为新的每小时访客的标记。 | 无符号 tinyint |
 | `ip` | IP 地址，基于图像请求的 HTTP 标头。 | char(20) |
