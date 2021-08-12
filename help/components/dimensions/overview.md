@@ -2,11 +2,10 @@
 title: 维度概述
 description: 包含字符串值的变量。
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '108'
-ht-degree: 100%
+source-git-commit: 482817636e82a40c274d549c4190d0b11d27c183
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 85%
 
 ---
 
@@ -23,3 +22,9 @@ ht-degree: 100%
 | `Purchase page` | `100` |
 
 每个维度表示网站的不同部分或方面。您可以将其中一个或多个维度与一个或多个量度组合在一起，以创建所需的报表。
+
+## 添加维度描述
+
+以下视频介绍如何在Adobe Analytics中添加维度（和量度）描述：
+
+>[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
