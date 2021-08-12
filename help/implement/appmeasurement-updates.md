@@ -3,10 +3,10 @@ title: AppMeasurement for JavaScript 发行说明
 description: AppMeasurement for JavaScript 的发行说明汇总。
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '2132'
-ht-degree: 100%
+source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
+workflow-type: tm+mt
+source-wordcount: '2171'
+ht-degree: 98%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 100%
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 您可以在[代码管理器](/help/admin/admin/code-manager-admin.md)中下载最新版本的 AppMeasurement。
+
+## 版本 2.22.1
+
+发行日期：**2021 年 8 月 12 日**
+
+* 使用选择退出的客户可能已经看到跟踪链接时不接受服务器端转发选择退出参数。 此版本中的修复导致在跟踪链接时存在选择退出标记时发送这些标记。
 
 ## 版本 2.22.0
 
@@ -425,7 +431,7 @@ ht-degree: 100%
 发行日期：**2013 年 11 月 14 日**
 
 * 添加了对[心率视频测量](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans)的支持。
-* `VisitorAPI.js`添加了 ，以便支持[访客 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
+* `VisitorAPI.js`添加了 ，以便支持[访客 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
 
 ## 版本 1.1.1
 
