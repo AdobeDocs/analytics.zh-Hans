@@ -4,8 +4,8 @@ description: 有关算法归因模型的详细信息。
 feature: 归因
 role: User, Admin
 exl-id: dd2b2a5b-9c36-4534-999f-f96604f29eab
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
+source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
+workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 100%
 
@@ -14,6 +14,8 @@ ht-degree: 100%
 # 算法归因
 
 Analysis Workspace 中的算法[归因模型](models.md)与其他模型有所不同，因为该模型会使用统计技术为报表或自由格式表中的各维度项目分配点数。与 Analysis Workspace 中的所有其他归因模型一样，该模型也可以用于任何维度或量度，支持无限分段和划分，并为表中的维度分配 100% 的转化率（因而也称为“分数”归因）。
+
+>[!VIDEO](https://video.tv.adobe.com/v/36205/?quality=12)
 
 归因算法基于合作博弈理论中的 Harsanyi Dividend 算法。Harsanyi Dividend 算法是对“沙普利值”解决方案（以诺贝尔经济学奖获得者罗伊德·沙普利 (Lloyd Shapley) 命名）的推广形式，用于为对结果具有不同贡献的各参与者分配功能值（点数）。
 
