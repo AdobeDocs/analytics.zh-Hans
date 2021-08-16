@@ -2,16 +2,16 @@
 title: 在 Analytics 中使用 XDM 数据
 description: 在 Adobe Analytics 中使用源自 Experience Platform 的 XDM 数据概述
 exl-id: 6f1282fb-8d4a-4d88-9be0-1c939c22cb92
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '249'
-ht-degree: 100%
+source-git-commit: 501b64c7704c234b21a5ccb428883bc6fcaf166a
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 在 Analytics 中使用 Adobe Experience Platform Edge 数据
 
-您可以使用 [Adobe Experience Platform (AEP) Web SDK](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=zh-Hans) 将数据发送到 Adobe Analytics。实现方式是将[体验数据模型 (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans) 转换为 Analytics 使用的某种格式。
+您可以使用 [Adobe Experience Platform (AEP) Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html) 将数据发送到 Adobe Analytics。实现方式是将[体验数据模型 (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans) 转换为 Analytics 使用的某种格式。
 
 Analytics 通过两种方法收集 XDM 数据：
 
