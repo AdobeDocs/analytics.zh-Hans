@@ -2,8 +2,8 @@
 title: Adobe Analytics 使用的 IP 和域
 description: 如果贵组织的防火墙阻止源自 Adobe 的 IP 地址，请使用此列表更新您的防火墙设置。
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: f93ad7ec87c045956a3764c9a558bc193fa999d7
-workflow-type: ht
+source-git-commit: d941e4308352d6228e73bc7f7443a36ffd374b0c
+workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Adobe Analytics 使用以下主机来改进性能和产品体验。Adobe 建议�
 | Adobe Analytics 旧域 | `omniture.com` |
 | Amazon AWS | `aaui-879784980514.s3.us-east-2.amazonaws.com` |
 | Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
-| Gainsight | `esp.aptrinsic.com` |
+| Gainsight | `esp.aptrinsic.com`、`esp-m.aptrinsic.com` |
 | LaunchDarkly | `app.launchdarkly.com` |
 | Microsoft Azure Blob 存储 | `awaascicdprodva7.blob.core.windows.net` |
 | Microsoft Azure CDN | `aauicdnva7.azureedge.net` |
