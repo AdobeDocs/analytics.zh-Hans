@@ -4,10 +4,10 @@ title: 快速分析面板
 feature: 面板
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1049'
-ht-degree: 100%
+source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
+workflow-type: tm+mt
+source-wordcount: '1059'
+ht-degree: 99%
 
 ---
 
@@ -27,6 +27,10 @@ ht-degree: 100%
 * 了解 [!UICONTROL Analysis Workspace] 中基本组件和要素的术语和词汇。
 * 在[!UICONTROL 自由格式表]中轻松进行维度的简单划分、添加多个量度或比较区段。
 * 更改或尝试各种可视化图表类型，快速直观地找到用于分析的查找工具。
+
+以下是[!UICONTROL 快速分析]面板的视频概述：
+
+>[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
 
 ## 基本关键术语
 
