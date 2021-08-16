@@ -5,20 +5,20 @@ uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 feature: 可视化图表
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '512'
-ht-degree: 100%
+source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
+workflow-type: tm+mt
+source-wordcount: '522'
+ht-degree: 88%
 
 ---
 
 # 折线图
 
-此折线图可视化图表使用线条来表示量度，以显示一段时间内值的变化情况。仅当使用时间作为维度时，才可以使用折线图。
+[!UICONTROL 折线图]可视化图表使用线条来表示量度，以显示一段时间内值的变化情况。 [!UICONTROL Line]图表仅在将时间用作维度时才可用。
 
 ![折线图可视化图表](assets/line-viz.png)
 
-单击折线图可视化图表右上角的齿轮图标，可访问&#x200B;[**可视化设置**](freeform-analysis-visualizations.md)。设置分为以下几类：
+单击[!UICONTROL 折线图]可视化图表右上角的齿轮图标，可访问&#x200B;[**可视化设置**](freeform-analysis-visualizations.md)。 设置分为以下几类：
 
 * **常规**：各种可视化图表类型中通用的设置
 * **轴**：影响折线图可视化图表的 x 轴或 y 轴的设置
@@ -39,6 +39,10 @@ ht-degree: 100%
 ## 显示趋势线叠加图
 
 在&#x200B;**[!UICONTROL 可视化图表设置]** > **[!UICONTROL 叠加]** > **[!UICONTROL 显示趋势线]**&#x200B;下，您可以选择添加回归或移动平均趋势线到线形图系列。趋势线有助于在数据中描绘更清晰的图案。
+
+以下是有关向折线图可视化图表添加趋势线的视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/330176/?quality=12)
 
 >[!TIP]
 >
