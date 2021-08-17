@@ -3,7 +3,7 @@ title: AppMeasurement for JavaScript 发行说明
 description: AppMeasurement for JavaScript 的发行说明汇总。
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
+source-git-commit: 376b577211f927be5a896c2a20c8a2fc55437b85
 workflow-type: tm+mt
 source-wordcount: '2171'
 ht-degree: 98%
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 ## 版本 2.22.1
 
-发行日期：**2021 年 8 月 12 日**
+发行日期：**2021 年 8 月 17 日**
 
 * 使用选择退出的客户可能已经看到跟踪链接时不接受服务器端转发选择退出参数。 此版本中的修复导致在跟踪链接时存在选择退出标记时发送这些标记。
 
