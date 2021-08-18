@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算指标、虚拟报表包、警报等组件帮助整理数据。
-source-git-commit: 32196fc76b2743679516a00f86c4912fac0bb3cf
+source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 99%
+source-wordcount: '649'
+ht-degree: 97%
 
 ---
 
@@ -195,10 +195,11 @@ ht-degree: 99%
       + [计算量度总计](c-calcmetrics/cm-totals.md)
 + 虚拟报告包{#virtual-report-suites}
    + [虚拟报表包概述](vrs/vrs-about.md)
-   + [虚拟报表包组件管理](vrs/vrs-components.md)
+   + [虚拟报表包 — 组件管理](vrs/vrs-components.md)
    + [Mobile Services 中的 VRS 支持](vrs/vrs-mobile-services.md)
    + [上下文感知会话](vrs/vrs-mobile-visit-processing.md)
    + [报表时间处理](vrs/vrs-report-time-processing.md)
+   + [A4T注意事项](vrs/vrs-a4t.md)
    + [VRS 常见问题解答](vrs/vrs-faq.md)
    + [VRS 和全局/多包标记注意事项](vrs/vrs-considerations.md)
    + VRS 工作流程 {#vrs-workflow}
