@@ -3,9 +3,9 @@ title: Adobe Analytics 技术文档更新
 description: 对Adobe Analytics文档集的显着更新。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 75f83491c448df2e2f6b2083fcb533d86c1f215d
+source-git-commit: 3da800f4f1a2f30032cd7b1554c082526f8cf9e0
 workflow-type: tm+mt
-source-wordcount: '2886'
+source-wordcount: '2903'
 ht-degree: 63%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 63%
 | 日期 | 描述 |
 | --- | --- |
 | **2021 年 8 月** |  |
+| 2021 年 8 月 18 日 | 新增了[A4T和虚拟报表包](/help/components/vrs/vrs-a4t.md)主题 |
+| 2021 年 8 月 18 日 | 新增了[归因最佳实践](/help/analyze/analysis-workspace/attribution/best-practices.md)主题 |
 | 2021 年 8 月 5 日 | 新增了[计数重复实例](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html)主题 |
 | 2021 年 8 月 5 日 | 更新了[模板](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en)、[浏览器导入](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en)和[浏览器导出](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en)的分类文档，以指明无法使用的适用于新分类架构的报表包的选项。 |
 | 2021 年 8 月 2 日 | 更新了多个页面以反映[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en)的重新品牌化 |
