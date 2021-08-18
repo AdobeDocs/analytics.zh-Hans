@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 提供 Analytics 的高级分析和可视化工具 Analysis Workspace 以及 Adobe Analytics Dashboards、Report Builder 和 Activity Map 等工具的操作说明。
-source-git-commit: 064674c3fa19f485850c4af6298c134d640d17bd
+source-git-commit: fcecd58f75425f31d7807f38cf9cbf0f3f276f5e
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1016'
 ht-degree: 99%
 
 ---
@@ -100,6 +100,7 @@ ht-degree: 99%
       + [归因概述](analysis-workspace/attribution/overview.md)
       + [归因模型和回顾时间范围](analysis-workspace/attribution/models.md)
       + [算法归因](analysis-workspace/attribution/algorithmic.md)
+      + [归因最佳实践](analysis-workspace/attribution/best-practices.md)
       + [常见问题解答](analysis-workspace/attribution/faq.md)
    + [历程 IQ](analysis-workspace/journey-iq.md)
    + [区段 IQ](analysis-workspace/segment-iq.md)
