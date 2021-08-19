@@ -1,14 +1,13 @@
 ---
 title: Analytics 管理指南
 description: 适用于 Adobe Analytics 管理员的管理帮助，包括 Admin Console 中的用户和产品管理，以及设置报表包、变量、分类和数据收集。
-translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '320'
 ht-degree: 100%
 
 ---
-
 
 # Analytics 管理指南
 
@@ -35,7 +34,7 @@ Adobe Analytics 目前有两个管理员区域：
 
 ## 更多 Analytics 用户指南
 
-[Analytics 用户指南](/help/landing/home.md)
+[Analytics 用户指南](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hans)
 
 ## 重要 Analytics 资源
 
