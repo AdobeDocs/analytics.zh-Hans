@@ -2,10 +2,10 @@
 title: Adobe Analytics 中使用的术语
 description: Adobe Analytics 词汇表，用于定义常用术语。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
-source-wordcount: '2439'
-ht-degree: 98%
+source-wordcount: '2554'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,7 @@ ht-degree: 98%
    * 旧版管理工具，用于管理 Adobe Analytics 中的报表包设置。在 Adobe Analytics 的先前版本中，用户权限也是在这里进行管理。请参阅管理用户指南中的[管理工具](/help/admin/admin/c-admin-tools.md)。
    * Adobe Admin Console，可用于配置产品访问权限和管理用户权限。请参阅管理用户指南中的 [Admin Console](/help/admin/admin-console/home.md)。
 * **分配：**&#x200B;如果转化变量在访问期间遇到多个值，则该变量的分配设置将决定保留哪个值。请参阅管理用户指南中的[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
+* **Analysis Workspace:** 用于构建强大的自定义分析项目和实现分析民主化的浏览器解决方案。具有比 Reports and Analytics 更大的报告灵活性.
 * **异常：**&#x200B;通过使用统计建模自动查找数据中的意外趋势，可检测异常。该模型可分析量度并确定值的下限、上限和预期范围。请参阅分析用户指南中的[异常检测](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)。
 * **AppMeasurement：**&#x200B;用于收集数据并将其发送到 Adobe 的代码库。请参阅实施用户指南中的[主页](/help/implement/home.md)。
 * **ASI 插槽：**&#x200B;不再存在。在 Adobe Analytics 的先前版本中，ASI 插槽提供了一个用于查看分段数据的临时报表包容器。在 Adobe Analytics 的当前版本中，区段可立即应用于任何报表。
@@ -44,10 +45,11 @@ ht-degree: 98%
 * **客户属性：** Experience Cloud 的一项功能，允许上载属性数据。请参阅核心服务用户指南中的[客户属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hans)。
 * **客户支持代理：**&#x200B;已授权直接与 Adobe 客户关怀交互的指定用户。请参阅 Experience Cloud 知识库中的[客户支持代理](https://helpx.adobe.com/cn/experience-cloud/supported-users.html)。
 * **数据收集服务器：**&#x200B;接收和处理数据的 Adobe 自有服务器。图像请求将发送到 Adobe 的数据收集服务器以用于报告。
-* **Data Connectors：**&#x200B;一个完整的开发解决方案，允许第三方自动将数据上载到 Adobe Analytics。该第三方的客户可以使用数据连接器在 Adobe Analytics 中丰富其数据。大多数数据连接器使用在数据源中使用的类似工作流。请参阅导入用户指南中的“Data Connectors”。
+* **Data Connectors：**&#x200B;一个完整的开发解决方案，允许第三方自动将数据上载到 Adobe Analytics。该第三方的客户可以使用数据连接器在 Adobe Analytics 中丰富其数据。大多数数据连接器使用在数据源中使用的类似工作流。请参阅导入用户指南中的[Data Connectors](/help/import/data-connectors/data-connectors-eol.md)。
 * **数据馈送：**&#x200B;将每次点击列为行，将变量列为单独的列的原始数据导出。最常用于将 Adobe Analytics 数据导出到第三方数据库。请参阅导出用户指南中的[数据馈送](/help/export/analytics-data-feed/data-feed-overview.md)。
 * **数据源：**&#x200B;允许用户将数据从文件上载到 Adobe Analytics。文件通常从 FTP 站点中提取。请参阅导入用户指南中的[数据源](/help/import/c-data-sources/datasrc-home.md)。
 * **Data Warehouse：** Adobe Analytics 中的一项功能，允许您请求更大的报表。请参阅导出用户指南中的 [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)。
+* **Data Workbench:** 以前称为Insight。旨在收集、处理、分析与可视化来自多个渠道间在线和离线客户交互的数据。
 * **维度：**&#x200B;一种包含变量值（如文本）的组件类型。示例包括页面名称、跟踪代码或反向链接域名。通常与量度相对应。
 * **事件序列化：**&#x200B;执行各种措施以防止收集重复事件的过程。请参阅实施用户指南中的[事件序列化](../implement/vars/page-vars/events/event-serialization.md)。
 * **eVar：**&#x200B;请参阅“转化变量”。
@@ -71,6 +73,7 @@ ht-degree: 98%
 * **登录公司：**&#x200B;由您的组织使用的报表包集合。某些组织具有多个适用于该组织不同部分的登录公司。
 * **营销渠道：** Adobe Analytics 中的一项功能，可按访客到达网站的方式对点击量进行分类。可使用营销渠道处理规则自定义用于分类点击的逻辑。请参阅组件用户指南中的[营销渠道快速入门](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
 * **量度：**&#x200B;包含定量数据的组件类型。量度值通常包含数字，如页面查看次数、访问次数和收入。通常与维度相对应。
+* **Mobile Services:** 在整个Adobe Experience Cloud范围内将移动设备应用程序的移动营销功能整合在一起，以便您了解和提高应用程序的用户参与度。请参阅[Mobile Services概述](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=zh-Hans)。
 * **多包标记：**&#x200B;向多个报表包发送相同点击的实践。随着虚拟报表包的推出，基本上不再需要这一实践。大多数多包标记工作可帮助满足全局报表包的需求。
 * **标准化：**&#x200B;一种组织可视化的方法，采用所有量度并强制按同等比例排列量度，从而更容易比较趋势。
 * **发生次数：**&#x200B;一种量度类型，用于显示设置或保留维度项目的点击量。请参阅组件用户指南中的[发生次数](/help/components/metrics/occurrences.md)量度。
@@ -85,7 +88,9 @@ ht-degree: 98%
 * **属性：**&#x200B;请参阅“流量变量”。
 * **排名报表：**&#x200B;一种报表格式，通常遵循带有量度的维度。此类报表允许您查看排名最前的项目，如网站上查看次数最多的页面。另请参阅“趋势报表”。
 * **实时：**&#x200B;在收集配置的变量后立即显示该变量，延迟时间很少甚至没有。请参阅管理用户指南中的[实时报表](/help/admin/admin/realtime/realtime.md)。
+* **Report Builder:** 一种Microsoft Excel加载项，可让您根据Adobe Analytics数据构建自定义请求。
 * **报表包**：将数据发送到的首要容器。Adobe Analytics 中的所有报表都引用了一个报表包。
+* **Reports &amp; Analytics:** 以前称为SiteCatalyst。用于报告和分析的浏览器解决方案。Analytics 包中的初学者工具。
 * **滚动日期范围：**&#x200B;随时间变化而更改的相对日期范围类型。例如，显示最近 7 天的报表可视为滚动日期范围。另请参阅“静态日期范围”。
 * **RSID：**&#x200B;报表包 ID 的缩写。报表包同时具有易记名称和报表包 ID。
 * **s.t()：** AppMeasurement 库中发送页面查看图像请求的函数的名称。有些 AppMeasurement 库使用 `s.track()`。请参阅实施用户指南中的 [t](../implement/vars/functions/t-method.md)。
@@ -98,7 +103,7 @@ ht-degree: 98%
 * **序列化：**&#x200B;请参阅“事件序列化”。
 * **服务器调用：**&#x200B;图像请求或点击的替代名称，主要用于帐单上下文。
 * **单次存取：**&#x200B;维度只有一个唯一值的访问。只要没有多个唯一值，访问就可以有多个点击。请参阅组件用户指南中的[单次存取](/help/components/metrics/single-access.md)量度。另请参阅“跳出”。
-* **SiteCatalyst：**&#x200B;不再用作术语。Adobe Analytics 之前的产品名称。
+* **SiteCatalyst：**&#x200B;不再用作术语。以前的Adobe Analytics产品名称。
 * **解决方案设计文档：**&#x200B;也称为解决方案设计参考或 SDR。由组织维护的内部文档，其中概述了自定义变量的使用方式以及用于填充这些变量的逻辑。请参阅实施用户指南中的[创建解决方案设计文档](/help/implement/prepare/solution-design.md)。
 * **子关系：**&#x200B;不再用作术语；替换为维度划分。在 Adobe Analytics 的早期版本中，通过子关系可以划分转化变量。请参阅分析用户指南中的[划分维度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
 * **成功事件：**&#x200B;用户执行的跟踪操作。贵组织确定要跟踪的事件以及要用于跟踪的成功事件变量。请参阅组件用户指南中的[自定义事件](/help/components/metrics/custom-events.md)。
