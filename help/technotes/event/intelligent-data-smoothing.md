@@ -3,7 +3,7 @@ title: 智能数据平滑
 description: 了解智能数据平滑功能如何分析历史趋势以预测受影响时间段内任何量度的值。
 feature: AI 工具
 role: User, Admin
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 5%
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 在极少数情况下，某些因素可能会影响数据质量。 机器人流量、实施更改或服务中断都可能影响所收集数据的完整性。 它们还会使有关事件可能如何影响数据完整性的分析变得复杂。
 
-智能数据平滑功能是[Analytics Labs](/help/analyze/tech-previews/overview.md)中的一个原型，可通过分析历史趋势来预测受影响时间段内任何量度的值，从而帮助完成此视图。 该原型应用高级机器学习算法来绘制正在分析的时间段内量度的预期值。
+智能数据平滑功能是[Analytics Labs](/help/analyze/labs.md)中的一个原型，可通过分析历史趋势来预测受影响时间段内任何量度的值，从而帮助完成此视图。 该原型应用高级机器学习算法来绘制正在分析的时间段内量度的预期值。
 
 ## 运行智能数据平滑功能
 
