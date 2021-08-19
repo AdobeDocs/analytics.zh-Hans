@@ -1,14 +1,13 @@
 ---
 title: Analytics 技术说明
 description: 本指南提供关于不属于特定分析工具或组件的主题的有用信息。
-translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '96'
 ht-degree: 100%
 
 ---
-
 
 # Analytics 技术说明
 
@@ -21,7 +20,7 @@ ht-degree: 100%
 
 ## 更多 Analytics 用户指南
 
-[Analytics 用户指南](/help/landing/home.md)
+[《Analytics 用户指南》](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hans)
 
 ## 其他 Analytics 资源
 
