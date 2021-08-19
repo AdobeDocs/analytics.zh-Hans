@@ -6,10 +6,10 @@ title: 自定义 Analytics 工具权限
 feature: 管理工具
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 exl-id: fe3a9f65-f121-438f-91d0-45cfaea94416
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 91%
+source-wordcount: '638'
+ht-degree: 94%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 91%
 | [安全性](/help/admin/company/security-manager.md) | 授予通过“安全管理器”页面控制报表数据访问权限的权限。相关选项包括强密码、密码过期时间、IP 登录限制及电子邮件域限制。 |
 | 支持信息 | 授予访问“公司设置”中的“支持信息”的权限。 |
 | [Web 服务](/help/admin/company/web-services-admin.md) | 允许访问“管理工具”界面中的“Web 服务”页面（[!UICONTROL 公司设置] > [!UICONTROL Web 服务]）。<br>Web 服务 API 提供了一种通过编程访问 Adobe Analytics 服务的方式，让您可以复制和扩展通过用户界面提供的功能。 |
-| 单点登录（旧版） | 授予对管理工具中的单点登录页面的访问权限。<br>**注意：** Adobe Experience Cloud 中的单点登录是通过 Experience Cloud 与各个解决方案之间的[帐户关联](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)实现的。 |
+| 单点登录（旧版） | 授予对管理工具中的单点登录页面的访问权限。<br>**注意：** Adobe Experience Cloud 中的单点登录是通过 Experience Cloud 与各个解决方案之间的[帐户关联](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=zh-Hans)实现的。 |
 | [待定操作](/help/admin/company/pending-actions-admin.md) | 授予在[!UICONTROL 公司设置]中管理待定操作的权限。 |
 | [品牌联合](/help/admin/company/co-branding-admin.md) | 授予对 Analytics 进行品牌联合的权限。 |
 | [首选项](/help/admin/admin/preferences-manager.md) | 授予访问[!UICONTROL 首选项管理器]的权限。 |
@@ -62,8 +62,8 @@ ht-degree: 91%
 | Web 服务访问 | 为非管理员用户启用 Web 服务访问权限。生成 Web 服务凭据。 |
 | [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html) | 授予该群组成员对 [!UICONTROL Report Builder] 许可证的访问权限。 |
 | [Analysis Workspace 访问权限](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans) | 授予用户访问 Analysis Workspace（[!DNL Adobe Analytics] 的推荐报表界面）的权限。 |
-| [Reports and Analytics](https://experienceleague.adobe.com/docs/analytics/landing/an-key-concepts.html) | 授予用户访问 Reports &amp; Analytics 的权限。 |
+| [Reports and Analytics](/help/analyze/reports-analytics/getting-started.md) | 授予用户访问 Reports &amp; Analytics 的权限。 |
 | [计算量度创建](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html) | 授予用户创建计算量度的权限。 |
-| [区段创建](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) | 授予用户创建区段的权限。 |
+| [区段创建](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hans) | 授予用户创建区段的权限。 |
 | **Data Connectors** |  |
 | 集成（创建、更新或删除） | 授予创建、更新和删除 Data Connector 集成的权限。 |
