@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 提供 Analytics 的高级分析和可视化工具 Analysis Workspace 以及 Adobe Analytics Dashboards、Report Builder 和 Activity Map 等工具的操作说明。
-source-git-commit: fcecd58f75425f31d7807f38cf9cbf0f3f276f5e
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '985'
 ht-degree: 99%
 
 ---
@@ -15,6 +15,7 @@ ht-degree: 99%
 # Analytics 工具指南 {#analyze}
 
 + [Analytics 工具指南](home.md)
++ [登陆页面](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Analysis Workspace 概述](analysis-workspace/home.md)
    + [Analysis Workspace 中的新增功能](analysis-workspace/new-features-in-analysis-workspace.md)
@@ -273,10 +274,8 @@ ht-degree: 99%
    + [Analytics 中的 Activity Map 报告](activity-map/activitymap-reporting-analytics.md)
    + [浏览器扩展疑难解答](activity-map/troubleshooting-browser-extensions.md)
    + [数据收集疑难解答](activity-map/troubleshoot-data-collection.md)
-   + [知识资源](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
    + [Reports and Analytics 快速入门](reports-analytics/getting-started.md)
-   + [Adobe Analytics - 关键概念](reports-analytics/key-concepts.md)
    + 报告界面概述 {#reporting-interface}
       + [关于数据收集](reports-analytics/overview/overview-data-collection.md)
       + [“报表”菜单](reports-analytics/overview/reports-menu.md)
@@ -310,11 +309,5 @@ ht-degree: 99%
    + [Adobe Analytics 功能板 - 概述](mobile-app/home.md)
    + [策划人指南](mobile-app/curator.md)
    + [执行用户快速入门指南](mobile-app/executive.md)
-+ 渐进式 Web 应用程序 {#pwa}
-   + [渐进式 Web 应用程序](pwa/pwa.md)
-+ Analytics 报表 API {#analytics-reporting-api}
-   + [Analytics 报表 API 概述](c-reporting-api/c-reporting-api.md)
-   + [Analytics 报表 API 比较](c-reporting-api/api-comparison.md)
-   + [https://github.com/AdobeDocs/analytics-2.0-apis](https://github.com/AdobeDocs/analytics-2.0-apis)
-+ Labs {#tech-previews}
-   + [Labs 概述](tech-previews/overview.md)
++ [报表 API](reporting-api.md)
++ [Labs](labs.md)
