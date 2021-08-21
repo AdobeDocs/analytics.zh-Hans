@@ -2,10 +2,10 @@
 title: Numbers Suite
 description: 生成和处理数字以供在其他 JavaScript 变量中使用。
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
 source-wordcount: '644'
-ht-degree: 94%
+ht-degree: 85%
 
 ---
 
@@ -21,11 +21,11 @@ Numbers Suite 包含一系列 JavaScript 函数。具体包含以下插件：
 * **`randomNumber`**：生成具有特定位数的随机数。如果您部署第三方标签并希望获取用于搜索缓存的随机数，此插件非常有用。
 * **`twoDecimals`**：将数字四舍五入到其最接近的百分位值。此插件可用于处理货币，允许您将数字四舍五入为有效货币值。
 
-## 在Adobe Experience Platform中使用标记安装插件
+## 使用 Adobe Experience Platform 中的标记安装插件
 
-Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
+Adobe 提供了一个扩展，通过该扩展，您可以使用一些常用插件。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
 1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
@@ -37,11 +37,11 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用�
    * 操作类型：初始化 Numbers Suite
 1. 保存并发布对上述规则所做的更改。
 
-## 使用 自定义代码编辑器安装此插件
+## 使用自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的[!UICONTROL 配置]按钮。
 1. 展开[!UICONTROL 使用自定义代码配置跟踪]折叠面板，这会显示[!UICONTROL 打开编辑器]按钮。
@@ -67,24 +67,24 @@ function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Num
 
 ## 使用插件
 
-`zeroPad` 方法使用以下参数：
+`zeroPad`函数使用以下参数：
 
-* **num**（必需，整数）：要填充的数字。如果此参数的值含小数，则此方法会对该值进行四舍五入。
+* **num**（必需，整数）：要填充的数字。如果此参数的值包含小数，则函数会对其进行四舍五入。
 * **nod**（必需，整数）：最终返回值的位数。如果要填充的数字的位数少于要填充的位数，则此插件会在 `num` 参数的开头处添加相应数量的零。
 
-`randomNumber` 方法使用以下参数：
+`randomNumber`函数使用以下参数：
 
 * **nod**（可选，整数）：要生成的随机数的位数。最大值为 17 位。默认值为 10 位。
 
-`twoDecimals` 方法使用以下参数：
+`twoDecimals`函数使用以下参数：
 
 * **val**（必需，数字）：要将其四舍五入到最接近的百分位值的数字（由字符串或数字对象表示）。
 
 ## 返回结果
 
-* **zeroPad** 方法会返回一个等于 `num` 参数的字符串，但会在其值的开头处添加特定数量的零，以确保返回值具有正确位数。
-* **randomNumber** 方法会返回一个等于具有所需位数的随机数的字符串。
-* **twoDecimals** 方法会返回一个已四舍五入到最接近的百分位值的数字对象。
+* **zeroPad**&#x200B;函数会返回一个等于`num`参数的字符串，但会在其值的开头处添加特定数量的零，以确保返回值具有正确的位数。
+* **randomNumber**&#x200B;函数返回一个等于具有所需位数的随机数的字符串。
+* **twoDecimals**&#x200B;函数会返回一个已四舍五入到最接近的百分位值的数字对象。
 
 ## 示例调用
 
