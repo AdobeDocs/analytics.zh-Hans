@@ -2,10 +2,10 @@
 title: getPageLoadTime
 description: 跟踪页面加载所用的时间。
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 93%
+source-wordcount: '478'
+ht-degree: 96%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 93%
 
 `getPageLoadTime` 插件使用 JavaScript 性能对象来让您可以测量页面完全加载所需的时间。如果您想要测量页面加载所需的时间，Adobe 建议您使用此插件。
 
-## 在Adobe Experience Platform中使用标记安装插件
+## 使用 Adobe Experience Platform 中的标记安装插件
 
-Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
+Adobe 提供了一个扩展，通过该扩展，您可以使用一些常用插件。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
 1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
@@ -33,11 +33,11 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用�
    * 操作类型：初始化 getPageLoadTime
 1. 保存并发布对上述规则所做的更改。
 
-## 使用 自定义代码编辑器安装此插件
+## 使用自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的[!UICONTROL 配置]按钮。
 1. 展开[!UICONTROL 使用自定义代码配置跟踪]折叠面板，这会显示[!UICONTROL 打开编辑器]按钮。
@@ -57,7 +57,7 @@ function getPageLoadTime(){function l(){var a=performance.timing;if(0<a.loadEven
 
 ## 使用此插件
 
-`getPageLoadTime` 方法不使用任何参数。调用此方法时，不会返回任何内容。相反，会设置以下变量：
+`getPageLoadTime`函数不使用任何参数。 调用此函数时，不会返回任何内容。 相反，会设置以下变量：
 
 * `s._pltPreviousPage`：上一页，以便您可以将加载时间与上一页关联
 * `s._pltLoadTime`：加载上一页所用的时间（以秒为单位）
@@ -67,29 +67,22 @@ getPageLoadTime 插件会创建两个第一方 Cookie：
 * `s_plt`：加载上一页所用的时间（以秒为单位）。将在浏览器会话结束时过期。
 * `s_pltp`：在上一个 Adobe Analytics 图像请求中记录的 `s.pageName` 变量的值。将在浏览器会话结束时过期。
 
-## 示例调用
-
-### 示例 1
-
-运行以下代码...
+## 示例
 
 ```js
+// 1. Run the getPageLoadTime function if the pageName variable is set
+// 2. Set prop10 to the load time of the previous page
+// 3. Set eVar10 to the name of the previous page
+// 4. Set event100 to the load time (in seconds) of the previous page. A numeric event is required to capture this value.
+// You can then use event100 in calculated metrics to obtain the average page load time per page.
 if(s.pageName) s.getPageLoadTime();
 if(s._pltPreviousPage)
 {
   s.prop10 = s._pltLoadTime;
-  s.prop11 = s._pltPreviousPage
-  s.eVar10 = prop11;
+  s.eVar10 = s._pltPreviousPage
   s.events = "event100=" + s._pltLoadTime;
 }
 ```
-
-...将执行以下操作：
-
-* 设置 s.pageName 后运行 getPageLoadTime 插件
-* 将 s.prop10 设置为等于上一页的加载时间
-* 将 s.prop11 和 s.eVar10 设置为等于上一页的名称（s.pageName 中记录的上一页的名称）
-* 将 event100（自定义数值类事件）设置为等于上一页的加载时间。在这种情况下，通过使用自定义事件，可以获得上一页每次加载（来自每位访客/每次访问）累计相加的总时间，从而可以使用计算量度计算出每页面的平均页面加载时间
 
 ## 版本历史记录
 
