@@ -2,10 +2,10 @@
 title: getPercentPageViewed
 description: 检索访客查看的页面内容所占的百分比。
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 95%
+source-wordcount: '689'
+ht-degree: 89%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 95%
 
 `getPercentPageViewed` 插件可衡量访客的页面滚动活动，以了解访客在进入其他页面前查看了某个页面的多少内容。如果您的页面高度较小或者您不想要测量页面滚动活动，则无需使用此插件。
 
-## 在Adobe Experience Platform中使用标记安装插件
+## 使用 Adobe Experience Platform 中的标记安装插件
 
-Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
+Adobe 提供了一个扩展，通过该扩展，您可以使用一些常用插件。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
 1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
@@ -33,9 +33,9 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用�
    * 操作类型：初始化 getPercentPageViewed
 1. 保存并发布对上述规则所做的更改。
 
-## 使用 自定义代码编辑器安装此插件
+## 使用自定义代码编辑器安装此插件
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的[!UICONTROL 配置]按钮。
 1. 展开[!UICONTROL 使用自定义代码配置跟踪]折叠面板，这会显示[!UICONTROL 打开编辑器]按钮。
@@ -55,59 +55,46 @@ function getPercentPageViewed(pid,ch){var n=pid,r=ch;function p(){if(window.ppvI
 
 ## 使用此插件
 
-`getPercentPageViewed` 方法使用以下参数：
+`getPercentPageViewed`函数使用以下参数：
 
 * **`pid`**（可选，字符串）：基于页面的标识符，可将其与此插件测量出的百分比值相关联。默认值为 `pageName` 变量。
 * **`ch`**（可选，布尔）：如果您不希望此插件考虑在页面初次加载后对页面大小所做的任何更改，请将该参数设置为 `false`（或 `0`）。如果忽略，则该参数将默认为 `true`。在大多数情况下，Adobe 建议忽略该参数。
 
-调用此方法时，不会返回任何内容；但是，会设置以下变量：
+调用此函数时，不会返回任何内容；而是设置以下变量：
 
 * `s._ppvPreviousPage`：查看的上一个页面的名称。直到新页面加载完成后，才能获得当前页面的最终滚动测量结果。
-* `s._ppvHighestPercentViewed`：访客查看的上一页面内容所占的最高百分比（以高度衡量）。访客在上一页面上向下滚动到的最远点。
-* `s._ppvInitialPercentViewed`：上一页面首次加载时查看内容所占的百分比。
+* `s._ppvHighestPercentViewed`：访客查看的上一页面内容所占的最高百分比（以高度衡量）。访客在上一页面上向下滚动到的最远点。如果整个页面在首次加载时可见，则此值为`100`。
+* `s._ppvInitialPercentViewed`：上一页面首次加载时查看内容所占的百分比。如果整个页面在首次加载时可见，则此值为`100`。
 * `s._ppvHighestPixelsSeen`：访客在上一页面上向下滚动时，所看到的总像素的最大值（以高度衡量）。
-* `s._ppvFoldsSeen`：访客在上一页面上向下滚动时，所达到的“页面折叠”的最大值。此变量包括“页面顶部”折叠。
-* `s._ppvFoldsAvailable`：在上一页面上向下滚动时，可达到的“页面折叠”总量。
+* `s._ppvFoldsSeen`：访客在上一页面上向下滚动时，所达到的“页面折叠”的最大值。此变量包括“页面顶部”折叠。如果整个页面在首次加载时可见，则此值为`1`。
+* `s._ppvFoldsAvailable`：在上一页面上向下滚动时，可达到的“页面折叠”总量。如果整个页面在首次加载时可见，则此值为`1`。
 
 将上述一个或多个变量分配给 eVar，以便在报告中查看维度数据。
 
 此插件会创建一个名为 `s_ppv` 且包含上述值的第一方 Cookie。该 Cookie 将在浏览器会话结束时过期。
 
-## 示例调用
-
-### 示例 1
-
-以下代码...
+## 示例
 
 ```js
-if(s.pageName) s.getPercentPageViewed();
-if(s._ppvPreviousPage)
+// 1. Runs the getPercentPageViewed function if the page variable is set
+// 2. Sets prop1 to the previous value of the page variable
+// 3. Sets prop2 to the highest percent viewed, the intial percent, the number of folds viewed, and total number of folds of the previous page
+if(s.pageName) getPercentPageViewed();
+if(_ppvPreviousPage)
 {
-  s.prop1 = s._ppvPreviousPage;
-  s.prop2 = "highestPercentViewed=" + s._ppvHighestPercentViewed + " | initialPercentViewed=" + s._ppvInitialPercentViewed + " | foldsSeen=" + s._ppvFoldsSeen + " | foldsAvailable=" + s._ppvFoldsAvailable;
+  s.prop1 = _ppvPreviousPage;
+  s.prop2 = "highestPercentViewed=" + _ppvHighestPercentViewed + " | initialPercentViewed=" + _ppvInitialPercentViewed + " | foldsSeen=" + _ppvFoldsSeen + " | foldsAvailable=" + _ppvFoldsAvailable;
 }
-```
 
-* 确定是否设置了 s.pageName，如果已设置，则代码将运行 getPercentPageViewed 函数
-* 当 getPercentPageViewed 函数运行时，它将创建上面“Returns”部分中描述的变量
-* 如果成功设置了“Returns”变量：
-   * 该代码会将 s.prop1 设置为等于 s._ppvPreviousPage 的值（即先前的 s.pageName 值或上一页面）
-   * 该代码还会将 s.prop2 设置等于上一页面“查看内容所占的最高百分比”以及上一页面“查看内容所占的初始百分比”，以及访客达到的页面折叠量和可用的页面折叠量。
-
-**注意**：如果在首次加载时整个页面都可见，则“查看内容所占的最高百分比”和“查看内容所占的初始百分比”都等于 100，而“查看的页面折叠量”和“可用的页面折叠量”均等于 1。如果整个页面在首次加载时不可见，但是访客在继续浏览下一页之前从未向下滚动页面，则“查看内容所占的最高百分比”和“查看内容所占的初始百分比”维度的值将相同。
-
-### 示例 2
-
-假设已将 s.prop5 设置为捕获汇总的“页面类型”，而不是整个页面名称。
-
-以下代码可确定是否已设置 s.prop5，如果已设置，则将其值存储为“上一页”，以与“查看内容所占的最高百分比”和“查看内容所占的初始百分比”维度相关联。尽管该值仍会存储在 s._ppvPreviousPage 变量中，但可以将其视为上一个页面类型而不是上一个页面名称。
-
-```js
-if(s.prop5) s.getPercentPageViewed(s.prop5);
-if(s._ppvPreviousPage)
+// Given prop5 operates as a page type variable:
+// 1. Runs the getPercentPageViewed function if prop5 has a value
+// 2. Sets prop1 to the previous value of the page variable
+// 3. Sets prop2 to the highest percent viewed and the initial percent viewed.
+if(s.prop5) getPercentPageViewed(s.prop5);
+if(_ppvPreviousPage)
 {
-  s.prop1 = s._ppvPreviousPage;
-  s.prop2 = "highestPercentViewed = " + s._ppvHighestPercentViewed + " | initialPercentViewed=" + s._ppvInitialPercentViewed;
+  s.prop1 = _ppvPreviousPage;
+  s.prop2 = "highestPercentViewed = " + _ppvHighestPercentViewed + " | initialPercentViewed=" + _ppvInitialPercentViewed;
 }
 ```
 
