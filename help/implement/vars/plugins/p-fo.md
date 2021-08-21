@@ -2,10 +2,10 @@
 title: p_fo（仅限第一页）
 description: 确保某些例程在每页上仅触发一次。
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 94%
+source-wordcount: '635'
+ht-degree: 88%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 94%
 
 `p_fo` 插件是用于检查特定 JavaScript 对象是否存在的实用工具。如果特定对象不存在，则此插件将创建该对象并返回 `true`。如果页面上已存在特定 JavaScript 对象，则将返回 `false`。此插件可用于确保代码仅在页面上运行一次。有一些其他插件需要此插件代码才能正常运行。如果您不担心代码在某个页面上运行的次数，或者您未使用任何依赖此插件的相关插件，则无需使用此插件。
 
-## 在Adobe Experience Platform中使用标记安装插件
+## 使用 Adobe Experience Platform 中的标记安装插件
 
-Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
+Adobe 提供了一个扩展，通过该扩展，您可以使用一些常用插件。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
 1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
@@ -33,11 +33,11 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用�
    * 操作类型：初始化 p_fo
 1. 保存并发布对上述规则所做的更改。
 
-## 使用 自定义代码编辑器安装此插件
+## 使用自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的[!UICONTROL 配置]按钮。
 1. 展开[!UICONTROL 使用自定义代码配置跟踪]折叠面板，这会显示[!UICONTROL 打开编辑器]按钮。
@@ -57,11 +57,11 @@ function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefine
 
 ## 使用此插件
 
-`p_fo` 方法使用以下参数：
+`p_fo`函数使用以下参数：
 
 * **on**（必需，字符串）：插件将创建的 JavaScript 对象的名称，前提是页面上不存在该对象。
 
-如果对象尚不存在，则此方法将返回 `true` 并创建该对象。如果对象已存在，则此方法将返回 `false`。
+如果对象尚不存在，则此函数将返回`true`并创建该对象。 如果对象已存在，则此函数将返回`false`。
 
 ## 示例调用
 
@@ -71,14 +71,14 @@ function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefine
 
 另一方面，如果在 p_fo 调用发生时“myobject”对象已存在，则 p_fo 函数将返回值“false”，条件语句将因此被视为 false。在这种情况下，将不运行条件语句中的代码。
 
-```javascript
-if(s.p_fo("myobject"))
+```js
+if(p_fo("myobject"))
 {
   console.log("hello");
 }
 ```
 
-**注意：**&#x200B;每当加载新页面对象/DOM（或重新加载当前页面）时，on 参数中指定的对象将不复存在，因此 p_fo 插件将在页面完成加载后首次运行时再次返回 true。
+**注意：** 每次加载新页面对象/DOM（或重新加载当前页面）时，on参数中指定的对象将不再存在，因此p_fo插件将在页面完成加载后首次运行时再次返回true。
 
 ## 版本历史记录
 
