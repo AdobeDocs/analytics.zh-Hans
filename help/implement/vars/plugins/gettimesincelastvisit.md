@@ -2,10 +2,10 @@
 title: getTimeSinceLastVisit
 description: 测量两次访问之间的间隔时间。
 exl-id: c5cef219-8a8a-4e57-a372-f2e063325a67
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 93%
+source-wordcount: '508'
+ht-degree: 98%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 93%
 
 `getTimeSinceLastVisit` 插件允许您跟踪访客在距上次访问后多久再次访问您的网站。
 
-## 在Adobe Experience Platform中使用标记安装插件
+## 使用 Adobe Experience Platform 中的标记安装插件
 
-Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
+Adobe 提供了一个扩展，通过该扩展，您可以使用一些常用插件。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
 1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
@@ -33,11 +33,11 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用�
    * 操作类型：初始化 getTimeSinceLastVisit
 1. 保存并发布对上述规则所做的更改。
 
-## 使用 自定义代码编辑器安装此插件
+## 使用自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的[!UICONTROL 配置]按钮。
 1. 展开[!UICONTROL 使用自定义代码配置跟踪]折叠面板，这会显示[!UICONTROL 打开编辑器]按钮。
@@ -57,7 +57,7 @@ function getTimeSinceLastVisit(){if(arguments&&"-v"===arguments[0])return{plugin
 
 ## 使用此插件
 
-`getTimeSinceLastVisit` 方法不使用任何参数。此方法将返回距访客上次访问网站的间隔时间，并按以下列格式存储该时间：
+`getTimeSinceLastVisit`函数不使用任何参数。 此方法将返回距访客上次访问网站的间隔时间，并按以下列格式存储该时间：
 
 * 若距上次访问的间隔时间介于 30 分钟和 1 小时之间，则会以“0.5 分钟”为基准将间隔时间四舍五入到最接近的值。例如 `"30.5 minutes"`、`"53 minutes"`
 * 若距上次访问的间隔时间介于 1 小时和 1 天之间，则会以“0.25 小时”为基准将间隔时间四舍五入到最接近的值。例如 `"2.25 hours"`、`"7.5 hours"`
@@ -70,22 +70,21 @@ function getTimeSinceLastVisit(){if(arguments&&"-v"===arguments[0])return{plugin
 
 此插件会创建一个名为 `"s_tslv"` 的第一方 Cookie，并将其设置为当前时间的 Unix 时间戳。Cookie 将在处于非活动状态两年后过期。
 
-## 示例调用
+## 示例
 
-### 示例 1
+```js
+// Given a visitor's first visit to the site
+// Sets prop1 to "New Visitor"
+s.prop1 = getTimeSinceLastVisit();
 
-如果一位全新访客访问网站，且在访问的第一个页面上运行以下代码...
+// 35 minutes later, the same visitor returns
+// Sets prop1 to "35 minutes"
+s.prop1 = getTimeSinceLastVisit();
 
-```javascript
-s.prop1 = s.getTimeSinceLastVisit();
-s.linkTrackVars = s.apl(s.linkTrackVars, "prop1") //ensures that prop1 will be included on the first hit of the visit
+// 4 days later, the same visitor returns
+// Sets prop1 to "4 days"
+s.prop1 = getTimeSinceLastVisit();
 ```
-
-...会将 s.prop1 的值设置为等于“新访客”。
-
-如果在处于非活动状态 35 分钟后在同一域上运行相同的代码，则会将 s.prop1 的值将设置为等于“35 分钟”。
-
-如果在处于非活动状态 4 天后在同一域上运行相同的代码，则会将 s.prop1 的值将设置为等于“4 天”。
 
 ## 版本历史记录
 
