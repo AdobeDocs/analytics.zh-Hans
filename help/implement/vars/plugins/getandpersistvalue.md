@@ -2,10 +2,10 @@
 title: getAndPersistValue
 description: 存储稍后可随时检索的值。
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 90%
+source-wordcount: '583'
+ht-degree: 92%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 90%
 >
 >此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
-`getAndPersistValue` 插件允许您在 Cookie 中存储稍后可在访问期间进行检索的值。它的作用与在Adobe Experience Platform中使用标记的[!UICONTROL 存储持续时间]功能类似。 如果要在设置变量后的后续点击中自动将 Analytics 变量保留为相同的值，Adobe 建议使用此插件。如果Adobe Experience Platform中的[!UICONTROL 存储持续时间]功能足够，则无需使用此插件。 如果您不需要在后续点击中设置变量并将其保留为相同的值，则也无需使用此插件。 eVar 的内置持久性不需要使用此插件，因为这些变量会由 Adobe 保留在服务器端。
+`getAndPersistValue` 插件允许您在 Cookie 中存储稍后可在访问期间进行检索的值。其作用与使用 Adobe Experience Platform 中的标记的[!UICONTROL 存储持续时间]功能类似。如果要在设置变量后的后续点击中自动将 Analytics 变量保留为相同的值，Adobe 建议使用此插件。如果数据收集UI中的[!UICONTROL 存储持续时间]功能足够，则无需使用此插件。 如果您不需要设置变量并在后续点击中将变量保留为相同的值，那么也没必要使用此插件。eVar的内置持久性不需要使用此插件，因为eVar会按Adobe在服务器端保留。
 
-## 在Adobe Experience Platform中使用标记安装插件
+## 使用 Adobe Experience Platform 中的标记安装插件
 
-Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
+Adobe 提供了一个扩展，通过该扩展，您可以使用一些常用插件。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
 1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
@@ -33,11 +33,11 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用�
    * 操作类型：初始化 getAndPersistValue
 1. 保存并发布对上述规则所做的更改。
 
-## 使用 自定义代码编辑器安装此插件
+## 使用自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的[!UICONTROL 配置]按钮。
 1. 展开[!UICONTROL 使用自定义代码配置跟踪]折叠面板，这会显示[!UICONTROL 打开编辑器]按钮。
@@ -57,7 +57,7 @@ function getAndPersistValue(vtp,cn,ex){var d=vtp,k=cn,l=ex;if("undefined"!==type
 
 ## 使用此插件
 
-`getAndPersist` 方法使用以下参数：
+`getAndPersist`函数使用以下参数：
 
 * **`vtp`**（必需）：要在页面之间保留的值
 * **`cn`**（可选）：用于存储值的 Cookie 的名称。如果未设置此参数，则将 Cookie 命名为 `"s_gapv"`
@@ -67,64 +67,27 @@ function getAndPersistValue(vtp,cn,ex){var d=vtp,k=cn,l=ex;if("undefined"!==type
 
 ## 示例
 
-### 示例 1
-
-以下代码将 eVar21 的值设置为等于“hello”。然后，该代码将 ev21gapv Cookie（28 天后过期）设置为等于 eVar21 的值（即“hello”）。然后，代码将 eVar21（重新）设置为等于 ev21gapv Cookie 的值。
-
 ```js
-s.eVar21 = "hello";
-s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
-```
+// Sets eVar21 to "raccoon", and sets the ev21gapv cookie to "raccoon" (which expires in 28 days).
+s.eVar21 = "raccoon";
+s.eVar21 = getAndPersistValue(s.eVar21,"ev21gapv",28);
 
-### 示例 2
+// Checks the "ev21gapv" cookie for a value and assigns it to eVar21. It does not set a cookie value or reset an existing cookie's expiration since the value is not set on the page.
+// If there is a cookie, assigns eVar21 to that value. Otherwise, eVar21 is blank.
+s.eVar21 = getAndPersistValue(s.eVar21,"ev21gapv",28);
 
-假设尚未在当前页面上设置 eVar21，但在过去 28 天内在上一页将其值设置为等于“hello”。以下代码会仅将 eVar21 设置为等于 ev21gapv Cookie 的值（即“hello”）。它不会重置 ev21gapv Cookie，因为在调用函数之前未在当前页面上设置 eVar21。
+// Checks the "ev21gapv" cookie for a value and assigns it to prop35. It does not set a cookie value or reset an existing cookie's expiration since eVar21 is not set on the page.
+s.prop35 = getAndPersistValue(s.eVar21,"ev21gapv",28);
 
-```js
-s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
-```
+// Sets eVar21 to "panda", and sets the ev21gapv cookie to "panda" (which expires in 14 days). It then sets prop35 to the value contained in the ev21gapv cookie.
+// Ultimately both eVar21 and prop35 contain the value "panda".
+s.eVar21 = "panda";
+s.prop35 = getAndPersistValue(s.eVar21,"ev21gapv",14);
 
-### 示例 3
-
-假设尚未在当前页面上设置 eVar21，但在过去 28 天内在上一页将其值设置为等于“hello”。以下代码仅会将 prop35 设置为等于 ev21gapv Cookie 的值（即“hello”）。它不会设置 eVar21。
-
-```js
-s.prop35 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
-```
-
-### 示例 4
-
-以下代码将 eVar21 的值设置为等于“howdy”。然后，该代码将 ev21gapv Cookie（28 天后过期）设置（或重置）为等于 eVar21 的值（即“howdy”）。该代码会将 prop35 的值设置为等于 ev21gapv Cookie 的值（即“howdy”）。
-
-```js
-s.eVar21 = "howdy";
-s.prop35 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
-```
-
-### 示例 5
-
-假定在过去 28 天内，尚未在任何页面上设置 s.eVar21。以下代码将 s.eVar21 设置为无，因为 ev21gapv Cookie 将在上次设置后的 28 天后过期。
-
-```js
-s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
-```
-
-### 示例 6
-
-以下代码将 eVar30 的值设置为等于“shopping”。然后，它将 s_gapv Cookie（将在浏览器会话结束时过期）设置为等于 s.eVar30 的值（即，“shopping”）。然后，它将 s.eVar30 设置为等于 s_gapv Cookie 的值（即 getAndPersistValue 调用返回 s_gapv Cookie 的值，在本例中为“shopping”）。
-
-```js
+// Sets eVar30 to "shopping", and sets the s_gapv cookie to "shopping" (which expires at the end of the browser session).
 s.eVar30 = "shopping";
-s.eVar30 = s.getAndPersistValue(s.eVar30);
+s.eVar30 = getAndPersistValue(s.eVar30);
 ```
-
-如果未将 s.eVar30 设置为会话期间看到的任何其他页面上的显式值，但通过以下代码进行设置（在 doPlugins 中）...
-
-```js
-s.eVar30 = s.getAndPersistValue(s.eVar30);
-```
-
-...将 s.eVar30 设置为等于“shopping”（即 s_gapv Cookie 持续得到的值）
 
 ## 版本历史记录
 
