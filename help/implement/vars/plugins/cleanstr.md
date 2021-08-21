@@ -2,10 +2,10 @@
 title: cleanStr
 description: 删除或替换字符串中所有不必要的字符。
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 82%
+source-wordcount: '459'
+ht-degree: 95%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 82%
 >
 >此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
-`cleanStr` 插件可删除或替换字符串中所有不必要的字符，包括 HTML 标记字符、额外的空格、制表符和换行符/回车符。它还会将左/右单引号（`‘` 和 `’`）替换为直单引号 (`'`)。如果您要从变量值中删除不必要的字符，并且Adobe Experience Platform中的“清理文本”功能无法满足您的实施需求，则Adobe建议使用此插件。 如果收集的数据不包含不必要的字符，或者数据收集UI中的“清理文本”功能足够，则无需使用此插件。
+`cleanStr` 插件可删除或替换字符串中所有不必要的字符，包括 HTML 标记字符、额外的空格、制表符和换行符/回车符。它还会将左/右单引号（`‘` 和 `’`）替换为直单引号 (`'`)。如果您想要从变量值中删除不必要的字符，并且 Adobe Experience Platform 中的“清理文本”功能无法满足您的实施需求，则 Adobe 建议您使用此插件。如果收集的数据不包含不必要的字符，或者数据收集 UI 中的“清理文本”功能满足您的实施需求，则无需使用此插件。
 
-## 在Adobe Experience Platform中使用标记安装插件
+## 使用 Adobe Experience Platform 中的标记安装插件
 
-Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
+Adobe 提供了一个扩展，通过该扩展，您可以使用一些常用插件。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
 1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
@@ -33,11 +33,11 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用�
    * 操作类型：初始化 cleanStr
 1. 保存并发布对上述规则所做的更改。
 
-## 使用 自定义代码编辑器安装此插件
+## 使用自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的[!UICONTROL 配置]按钮。
 1. 展开[!UICONTROL 使用自定义代码配置跟踪]折叠面板，这会显示[!UICONTROL 打开编辑器]按钮。
@@ -57,51 +57,24 @@ function cleanStr(str){var a=str;if("-v"===a)return{plugin:"cleanStr",version:"2
 
 ## 使用此插件
 
-`cleanStr` 方法使用以下参数：
+`cleanStr`函数使用以下参数：
 
 * **`str`**（必需，字符串）：用于清理 HTML 编码、额外空格、制表符或其他不必要字符的值。
 
-该方法会返回 `str` 参数的值，并删除所有不必要的字符。
+该函数返回`str`参数的值，并删除所有不必要的字符。
 
 ## 示例
 
-### 示例 1
-
-假设以下字符串（其中点代表空格，而箭头代表制表符）
-
 ```js
-s.eVar1 = "»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
-```
-
-运行以下代码时...
-
-```js
+// Returns the value "this is a messystring". Note that both tabs and extra spaces are present in the original string.
+// Multiple spaces are reduced to one, while tabs are omitted entirely.
+s.eVar1 = "  this  is a      messy  string    ";
 s.eVar1 = cleanStr(s.eVar1)
+
+// This function call does not do anything because the code does not assign the returned value to a variable.
+s.eVar1 = "  this  is a      messy  string    ";
+cleanStr(s.eVar1);
 ```
-
-...eVar1 将被设置为等于“this is a messystring”（删除了所有额外空格和所有制表符）
-
-### 示例 2
-
-如果...
-
-```js
-s.eVar1 = "»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
-```
-
-...并运行以下代码...
-
-```js
-cleanStr(s.eVar1)
-```
-
-...s.eVar1 的最终值仍将为：
-
-```js
-"»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
-```
-
-单独运行此插件（不将返回值指定给变量）实际上不会“重置”通过 str 参数传入的变量。
 
 ## 版本历史记录
 
