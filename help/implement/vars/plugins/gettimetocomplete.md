@@ -2,10 +2,10 @@
 title: getTimeToComplete
 description: 测量完成一项任务所需的时间。
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 95%
+source-wordcount: '571'
+ht-degree: 94%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 95%
 
 `getTimeToComplete` 插件可跟踪用户在网站上完成某个流程所需的时间。“时钟”在调用 `start` 操作时开始，并在调用 `stop` 操作时结束。如果网站上的某个工作流程需要花一些时间才能完成，并且您希望了解访客完成该工作流程所用的时间，Adobe 建议使用此插件。如果网站上的工作流程需要很短时间（少于 3 秒）即可完成，则无需使用此插件，因为可测量的最小时间粒度为 1 秒。
 
-## 在Adobe Experience Platform中使用标记安装插件
+## 使用 Adobe Experience Platform 中的标记安装插件
 
-Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
+Adobe 提供了一个扩展，通过该扩展，您可以使用一些常用插件。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
 1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
@@ -33,11 +33,11 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用�
    * 操作类型：初始化 getTimeToComplete
 1. 保存并发布对上述规则所做的更改。
 
-## 使用 自定义代码编辑器安装此插件
+## 使用自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的[!UICONTROL 配置]按钮。
 1. 展开[!UICONTROL 使用自定义代码配置跟踪]折叠面板，这会显示[!UICONTROL 打开编辑器]按钮。
@@ -57,51 +57,31 @@ function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)
 
 ## 使用此插件
 
-`getTimeToComplete` 方法使用以下参数：
+`getTimeToComplete`函数使用以下参数：
 
 * **`sos`**（可选，字符串）：要启动计时器时设置为 `"start"`。要停止计时器时设置为 `"stop"`。默认为 `"start"`。
 * **`cn`**（可选，字符串）：用于存储开始时间的 Cookie 的名称。默认为 `"s_gttc"`。
 * **`exp`**（可选，整数）：Cookie（和计时器）的过期时间（以天为单位）。默认值为 `0`，表示将在浏览器会话结束时过期。
 
-调用此方法将返回一个字符串，其中包含从 `"start"` 操作到 `"stop"` 操作所用的时间（天数、小时数、分钟数和/或秒数）。
+调用此函数将返回一个字符串，其中包含从`"start"`操作到`"stop"`操作所用的时间（天、小时、分钟和/或秒）。
 
-## 示例调用
-
-### 示例 1
-
-使用此类调用可确定从访客开始进入结帐流程到完成购买所用的时间。
-
-访客开始结帐时启动计时器：
+## 示例
 
 ```js
-if(s.events.indexOf("scCheckout") > -1) s.getTimeToComplete("start");
+// Start the timer when the visitor starts the checkout
+if(s.events.indexOf("scCheckout") > -1) getTimeToComplete("start");
+
+// Stop the timer when the visitor makes the purchase and set prop1 to the time difference between stop and start
+// Sets prop1 to the amount of time it took to complete the purchase process
+if(s.events.indexOf("purchase") > -1) s.prop1 = getTimeToComplete("stop");
+
+// Simultaneously track the time it takes to complete a purchase and to fill out a registration form
+// Stores each timer in their own respective cookies so they run independently
+if(inList(s.events, "scCheckout")) getTimeToComplete("start", "gttcpurchase");
+if(inList(s.events, "purchase")) s.prop1 = getTimeToComplete("start", "gttcpurchase");
+if(inList(s.events, "event1")) getTimeToComplete("start", "gttcregister", 7);
+if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister", 7);
 ```
-
-当访客完成购买时停止计时器，并将 prop1 设置为停止时间与开始时间之间的时间差：
-
-```js
-if(s.events.indexOf("purchase") > -1) s.prop1 = s.getTimeToComplete("stop");
-```
-
-s.prop1 将捕获完成购买流程所需的时间
-
-### 示例 2
-
-如果要同时运行多个定时器（以测量不同的进程），您需要手动设置 cn Cookie 参数。例如，如果要测量完成购买所需的时间，您应设置以下代码...
-
-```javascript
-if(s.inList(s.events, "scCheckout")) s.getTimeToComplete("start", "gttcpurchase");
-if(s.inList(s.events, "purchase")) s.prop1 = s.getTimeToComplete("start", "gttcpurchase");
-```
-
-...但是，如果您还想同时测量填写注册表单所需的时间，您还应运行以下代码：
-
-```js
-if(s.inList(s.events, "event1")) s.getTimeToComplete("start", "gttcregister", 7);
-if(s.inList(s.events, "event2")) s.prop2 = s.getTimeToComplete("stop", "gttcregister", 7);
-```
-
-在第二个示例中，event1 用于捕获注册流程（由于某些原因，可能需要长达 7 天时间才能完成）的开始，event2 用于捕获注册流程的结束。s.prop2 将捕获完成注册流程所需的时间
 
 ## 版本历史记录
 
