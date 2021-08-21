@@ -2,10 +2,10 @@
 title: getValOnce
 description: 防止将一个 Analytics 变量连续两次设置为同一个值。
 exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 94%
+source-wordcount: '577'
+ht-degree: 93%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 94%
 
 `getValOnce` 插件可防止将一个变量多次设置为等于同一个值。如果您希望在发生访客刷新页面或多次访问给定页面的情况下进行去重处理，Adobe 建议您使用此插件。如果您不担心 Analysis Workspace 中的“发生次数”量度，则无需使用此插件。
 
-## 在Adobe Experience Platform中使用标记安装插件
+## 使用 Adobe Experience Platform 中的标记安装插件
 
-Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
+Adobe 提供了一个扩展，通过该扩展，您可以使用一些常用插件。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
 1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
@@ -33,11 +33,11 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用�
    * 操作类型：初始化 getValOnce
 1. 保存并发布对上述规则所做的更改。
 
-## 使用 自定义代码编辑器安装此插件
+## 使用自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的[!UICONTROL 配置]按钮。
 1. 展开[!UICONTROL 使用自定义代码配置跟踪]折叠面板，这会显示[!UICONTROL 打开编辑器]按钮。
@@ -59,36 +59,27 @@ typeof b)b=encodeURIComponent(b);else return"";var a=" "+document.cookie,d=a.ind
 
 ## 使用此插件
 
-`getValOnce` 方法使用以下参数：
+`getValOnce`函数使用以下参数：
 
 * **`vtc`**（必需，字符串）：要检查并确定之前是否已设置为相同值的变量
 * **`cn`**（可选，字符串）：包含要检查的值的 Cookie 的名称。默认为 `"s_gvo"`
 * **`et`**（可选，整数）：Cookie 的过期时间（以天或分钟为单位，具体取决于 `ep` 参数）。默认值为 `0`，该值表示将在浏览器会话结束时过期
 * **`ep`**（可选，字符串）：仅当还同时设置了 `et` 参数时才会设置此参数。如果希望 `et` 的过期时间以分钟而不是以天为单位，请将此参数设置为 `"m"`。默认值为 `"d"`，该值会以天为单位设置 `et` 参数。
 
-如果 `vtc` 参数与 Cookie 值相匹配，此方法将返回空字符串。如果 `vtc` 参数与 Cookie 值不匹配，此方法会将 `vtc` 参数作为字符串返回。
+如果`vtc`参数与Cookie值匹配，则此函数返回空字符串。 如果`vtc`参数与Cookie值不匹配，则函数会将`vtc`参数作为字符串返回。
 
-## 示例调用
-
-### 示例 1
-
-使用此调用可防止在接下来的 30 天内连续多次将同一个值传递到 s.campaign：
+## 示例
 
 ```js
-s.campaign=s.getValOnce(s.campaign,"s_campaign",30);
+// Prevent the same value from being passed in to the campaign variable more than once in a row for next 30 days
+s.campaign = getValOnce(s.campaign,"s_campaign",30);
+
+// Prevent the same value from being passed in to eVar2 more than once in a row for the browser session
+s.eVar2 = getValOnce(s.eVar2,"s_ev2");
+
+// Prevent the same value from being passed in to eVar8 more than once in a row for 10 minutes
+s.eVar8 = getValOnce(s.eVar8,"s_ev8",10,"m");
 ```
-
-在上述调用中，插件会先比较 s_campaign Cookie 中已包含的值与来自当前 s.campaign 变量的值。如果这两个值不匹配，插件会将 s_campaign Cookie 设置为等于来自 s.campaign 的新值，然后返回该新值。这种比较将在接下来的 30 天内持续进行
-
-### 示例 2
-
-使用此调用可防止在整个会话期间设置相同的值：
-
-```js
-s.eVar2=s.getValOnce(s.eVar2,"s_ev2",0,"m");
-```
-
-此代码可防止在整个用户会话期间连续多次将同一个值传递到 s.eVar2。由于已将过期时间设置为等于 0，因此还会忽略 ep 参数中的“m”值（在调用结束时）。此代码还会将比较值存储到 s_ev2 Cookie 中。
 
 ## 版本历史记录
 
