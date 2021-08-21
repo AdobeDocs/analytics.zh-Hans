@@ -2,10 +2,10 @@
 title: manageVars
 description: 一次更改多个 Analytics 变量的值。
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
 source-wordcount: '703'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 94%
 
 `manageVars` 插件允许您同时处理多个 Analytics 变量的值。您还可以将值设置为小写，或一次性从多个变量值中删除不必要的字符。如果要一次清除多个变量的值，Adobe 建议您使用此插件。
 
-## 在Adobe Experience Platform中使用标记安装插件
+## 使用 Adobe Experience Platform 中的标记安装插件
 
-Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
+Adobe 提供了一个扩展，通过该扩展，您可以使用一些常用插件。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
 1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
@@ -33,11 +33,11 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用�
    * 操作类型：初始化 manageVar
 1. 保存并发布对上述规则所做的更改。
 
-## 使用 自定义代码编辑器安装此插件
+## 使用自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的[!UICONTROL 配置]按钮。
 1. 展开[!UICONTROL 使用自定义代码配置跟踪]折叠面板，这会显示[!UICONTROL 打开编辑器]按钮。
@@ -57,7 +57,7 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 
 ## 使用此插件
 
-`manageVars` 方法使用以下参数：
+`manageVars`函数使用以下参数：
 
 * **`cb`**（必需，字符串）：插件用来处理 Analytics 变量的回调函数的名称。您可以使用 Adobe 函数（如 `cleanStr`）或者您自己自定义的函数。
 * **`l`**（可选，字符串）：包含要处理的 Analytics 变量的逗号分隔列表。如果未设置，则将默认包含所有 Adobe Analytics 变量，包括：
@@ -79,7 +79,7 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
    * 所有上下文数据变量
 * **`Il`**（可选，布尔）：如果要&#x200B;**“排除”`l` 参数中声明的变量列表，而不是要包含这些变量，则将此参数设置为 `false`。默认为 `true`。
 
-调用此方法将不会返回任何内容。相反，此方法会根据所需的回调函数更改 Analytics 变量的值。
+调用此函数时，不会返回任何内容。 相反，此方法会根据所需的回调函数更改 Analytics 变量的值。
 
 ## 示例调用
 
@@ -88,7 +88,7 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 以下代码...
 
 ```js
-s.manageVars("lowerCaseVars");
+manageVars("lowerCaseVars");
 ```
 
 ...会将上述所有变量的值更改为小写版本。但唯有 events 变量例外，因为某些 events 变量（如 scAdd、scCheckout 等）要区分大小写，因此不应将其更改为小写
@@ -98,7 +98,7 @@ s.manageVars("lowerCaseVars");
 以下代码...
 
 ```js
-s.manageVars("lowerCaseVars", "events", false);
+manageVars("lowerCaseVars", "events", false);
 ```
 
 ...产生的结果与第一个示例基本相同，因为 events 变量默认不用小写。
@@ -108,7 +108,7 @@ s.manageVars("lowerCaseVars", "events", false);
 以下代码...
 
 ```js
-s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
+manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
 ```
 
 ...将仅更改（例如更改为小写）eVar1、eVar2、eVar3 和 list2 的值
@@ -118,7 +118,7 @@ s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
 以下代码...
 
 ```js
-s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
+manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 ```
 
 ...将更改（例如更改为小写）除 eVar1、eVar2、eVar3 和 list2 之外上述所有其他变量的值
@@ -128,7 +128,7 @@ s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 以下代码...
 
 ```js
-s.manageVars("cleanStr");
+manageVars("cleanStr");
 ```
 
 ...将更改上述所有变量的值，包括 events 变量。具体而言，cleanStr 回调函数将对每个变量的值进行如下处理：
