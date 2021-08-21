@@ -2,10 +2,10 @@
 title: getPageName
 description: 从当前网站路径创建一个简单易读的 pageName。
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 95%
+source-wordcount: '596'
+ht-degree: 89%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 95%
 
 `getPageName` 插件可为当前 URL 创建一个简单易读且格式友好的版本。如果您希望在报告中使用易于设置且便于理解的 [`pageName`](../page-vars/pagename.md) 值，Adobe 建议您使用此插件。如果已经有 `pageName` 变量的命名结构（如通过数据层命名），则无需使用此插件。当没有其他解决方案可用来设置 `pageName` 变量时，最好使用此插件。
 
-## 在Adobe Experience Platform中使用标记安装插件
+## 使用 Adobe Experience Platform 中的标记安装插件
 
-Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
+Adobe 提供了一个扩展，通过该扩展，您可以使用一些常用插件。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
 1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
@@ -33,11 +33,11 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用�
    * 操作类型：初始化 getPageName
 1. 保存并发布对上述规则所做的更改。
 
-## 使用 自定义代码编辑器安装此插件
+## 使用自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的[!UICONTROL 配置]按钮。
 1. 展开[!UICONTROL 使用自定义代码配置跟踪]折叠面板，这会显示[!UICONTROL 打开编辑器]按钮。
@@ -57,145 +57,43 @@ var getPageName=function(si,qv,hv,de){var a=si,b=qv,f=hv,e=de;if("-v"===a)return
 
 ## 使用此插件
 
-`getPageName` 方法使用以下参数：
+`getPageName`函数使用以下参数：
 
 * **`si`**（可选，字符串）：插入到字符串开头的 ID，表示网站的 ID。此值可以是数字 ID 或友好名称。如果未设置此值，则将默认使用当前域。
 * **`qv`**（可选，字符串）：以逗号分隔的查询字符串参数列表，其中包含在 URL 中找到的已添加到字符串的参数（如果可找到）
 * **`hv`**（可选，字符串）：以逗号分隔的参数列表，其中包含在 URL 散列中找到的已添加到字符串的参数（如果可找到）
 * **`de`**（可选，字符串）：用于拆分字符串各个部分的分隔符。默认使用管道分隔符 (`|`)。
 
-此方法将返回一个包含当前 URL 的友好格式版本的字符串。此字符串通常会被分配给 `pageName` 变量，但也可以用于其他变量。
+函数会返回一个包含URL的友好格式版本的字符串。 此字符串通常会被分配给 `pageName` 变量，但也可以用于其他变量。
 
-## 示例调用
-
-### 示例 1
-
-如果当前 URL 为...
+## 示例
 
 ```js
-https://mail.google.com/mail/u/0/#inbox
-```
+// Given the URL https://mail.example.com/mail/u/0/#inbox, sets the page variable to "mail.example.com|mail|u|0".
+s.pageName = getPageName();
 
-...并运行以下代码...
+// Given the URL https://mail.example.com/mail/u/0/#inbox, sets the page variable to "example|mail|u|0".
+s.pageName = getPageName("example");
 
-```js
-s.pageName = getPageName()
-```
+// Given the URL https://www.example.com/, sets the page variable to "www.example.com|home".
+// When the code runs on a URL that does not contain a path, it always adds the value of "home" to the end of the return value.
+s.pageName = getPageName();
 
-...s.pageName 的最终值将为：
+// Given the URL https://www.example.com/, sets the page variable to "example|home".
+s.pageName = getPageName("example","","","|");
 
-```js
-s.pageName = "mail.google.com|mail|u|0";
-```
+// Given the URL https://www.example.com/en/booking/room-booking.html?cid=1235#/step2&arrive=05-26&depart=05-27&numGuests=2
+// Sets the page variable to "www.example.com|en|booking|room-booking.html".
+s.pageName = getPageName();
 
-### 示例 2
-
-如果当前 URL 为...
-
-```js
-https://mail.google.com/mail/u/0/#inbox
-```
-
-...并运行以下代码...
-
-```js
-s.pageName = getPageName("gmail")
-```
-
-...s.pageName 的最终值将为：
-
-```js
-s.pageName = "gmail|mail|u|0";
-```
-
-### 示例 3
-
-如果当前 URL 为...
-
-```js
-https://www.google.com/
-```
-
-...并运行以下代码...
-
-```js
-s.pageName = getPageName()
-```
-
-...s.pageName 的最终值将为：
-
-```js
-s.pageName = "www.google.com|home"
-```
-
-**注意**：当代码在不包含路径的 URL 上运行时，代码会始终在返回值的末尾处添加“home”值
-
-### 示例 4
-
-如果当前 URL 为...
-
-```js
-https://www.google.com/
-```
-
-...并运行以下代码...
-
-```js
-s.pageName = getPageName("google","","","|")
-```
-
-...s.pageName 的最终值将为：
-
-```js
-s.pageName = "google|home"
-```
-
-### 示例 5
-
-如果当前 URL 为...
-
-```js
-https://www.hotelrooms.com/en/booking/room-booking.html?cid=1235#/step2&arrive=2018-05-26&depart=2018-05-27&numGuests=2
-```
-
-...并运行以下代码...
-
-```js
-s.pageName = getPageName()
-```
-
-...s.pageName 的最终值将为：
-
-```js
-s.pageName = "www.hotelrooms.com|en|booking|room-booking.html"
-```
-
-但是，如果运行以下代码...
-
-```js
-s.pageName = getPageName("hotelrooms","cid","arrive,numGuests",": ")
-```
-
-...s.pageName 的最终值将为：
-
-```js
-s.pageName = "hotelrooms: en: booking: room-booking.html: cid=1235: arrive=2018-05-26: numGuests=2"
+// Given the URL https://www.example.com/en/booking/room-booking.html?cid=1235#/step2&arrive=05-26&depart=05-27&numGuests=2
+// Sets the page variable to "example: en: booking: room-booking.html: cid=1235: arrive=05-26: numGuests=2"
+s.pageName = getPageName("example","cid","arrive,numGuests",": ");
 ```
 
 ## 从先前的版本升级
 
-不论是否存在 Adobe Analytics 的 AppMeasurement 对象（即“s”对象），4.0 及更高版本的 getPageName 插件都可以正常运行。如果选择升级到此版本，请务必从调用中删除所有“s”对象的实例，以更改用于调用此插件的代码。
-例如，将以下代码：
-
-```js
-s.pageName = s.getPageName();
-```
-
-...更改为下列代码：
-
-```js
-s.pageName = getPageName();
-```
+`getPageName`插件的4.0+版本不取决于Adobe Analytics的AppMeasurement对象（即`s`对象）是否存在。 如果升级到此版本，请通过从调用中删除`s`对象的任何实例来更改用于调用插件的代码。 例如，将`s.getPageName();`更改为`getPageName();`。
 
 ## 版本历史记录
 
