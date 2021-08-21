@@ -2,10 +2,10 @@
 title: apl (appendToList)
 description: 将值附加到支持多个值的变量。
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 96%
+source-wordcount: '695'
+ht-degree: 95%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 96%
 
 如果要向现有变量添加新值，并且现有变量包含由分隔值构成的字符串，Adobe 建议使用此插件。如果您要为包含分隔值的变量连接字符串，则不需要使用此插件。
 
-## 在Adobe Experience Platform中使用标记安装插件
+## 使用 Adobe Experience Platform 中的标记安装插件
 
-Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
+Adobe 提供了一个扩展，通过该扩展，您可以使用一些常用插件。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
 1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
@@ -39,11 +39,11 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用�
    * 操作类型：初始化 APL（附加到列表）
 1. 保存并发布对上述规则所做的更改。
 
-## 使用 自定义代码编辑器安装此插件
+## 使用自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的[!UICONTROL 配置]按钮。
 1. 展开[!UICONTROL 使用自定义代码配置跟踪]折叠面板，这会显示[!UICONTROL 打开编辑器]按钮。
@@ -63,7 +63,7 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 
 ## 使用此插件
 
-`apl` 方法使用以下参数：
+`apl`函数使用以下参数：
 
 * **`lv`**（必需，字符串）：包含要向其添加新值的已分隔列表的变量
 * **`vta`**（必需，字符串）：要添加到 `lv` 参数值的以逗号分隔的新值列表。
@@ -71,231 +71,59 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 * **`d2`**（可选，字符串）：输出分隔符。如果未设置，则默认值与 `d1` 的值相同。
 * **`cc`**（可选，布尔值）：指示是否使用区分大小写检查的标志。如果为 `true`，则重复检查区分大小写。如果为 `false` 或未设置，则重复检查不区分大小写。默认为 `false`。
 
-`apl` 方法会返回 `lv` 参数的值以及 `vta` 参数中任何非重复值。
+`apl`函数返回`lv`参数的值以及`vta`参数中任何非重复值。
 
-## 示例调用
-
-### 示例 1
-
-如果...
+## 示例
 
 ```js
+// Set the events variable to "event22,event24,event23".
 s.events = "event22,event24";
-```
+s.events = apl(s.events,"event23");
 
-...并运行以下代码...
-
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-...s.events 的最终值将为：
-
-```js
-s.events = "event22,event24,event23";
-```
-
-### 示例 2
-
-如果...
-
-```js
+// The events variable remains unchanged because the apl function does not add duplicate values
 s.events = "event22,event23";
-```
+s.events = apl(s.events,"event23");
 
-...并运行以下代码...
+// Set the events variable to "event23" if the events variable is blank
+s.events = "";
+s.events = apl(s.events,"event23");
 
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-...s.events 的最终值仍将为：
-
-```js
-s.events = "event22,event23";
-```
-
-在此示例中，apl 调用未对 s.events 进行任何更改，因为 s.events 已包含“event23”
-
-### 示例 3
-
-如果...
-
-```js
-s.events = ""; //blank value
-```
-
-...并运行以下代码...
-
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-...s.events 的最终值将为...
-
-```js
-s.events = "event23";
-```
-
-### 示例 4
-
-如果...
-
-```js
+// Append a value to eVar5. The value of prop4 remains unchanged.
+// The value of eVar5 is "hello|people|today".
 s.prop4 = "hello|people";
-```
+s.eVar5 = apl(s.prop4, "today", "|");
 
-...并运行以下代码...
-
-```js
-s.eVar5 = s.apl(s.prop4, "today", "|");
-```
-
-...s.prop4 的最终值仍将为...
-
-```js
+// Sets prop4 to "hello|people,today". Be mindful of correct delimiters!
 s.prop4 = "hello|people";
-```
+s.prop4 = apl(s.prop4, "today");
 
-...但 s.eVar5 的最终值将为
-
-```js
-s.eVar5 = "hello|people|today";
-```
-
-请记住，该插件只返回一个值；它不一定会“重置”通过 lv 参数传入的变量。
-
-### 示例 5
-
-如果...
-
-```js
-s.prop4 = "hello|people";
-```
-
-...并运行以下代码...
-
-```js
-s.prop4 = s.apl(s.prop4, "today");
-```
-
-...s.prop4 的最终值将为...
-
-```js
-s.prop4 = "hello|people,today";
-```
-
-请确保在 lv 参数值与 d1/d2 参数值之间保持分隔符一致
-
-### 示例 6
-
-如果...
-
-```js
+// Sets the events variable to "event22,event23,EVentT23". Be mindful of capitalization when using the cc argument!
 s.events = "event22,event23";
-```
+s.events = apl(s.events,"EVenT23", ",", ",", true);
 
-...并运行以下代码...
-
-```js
-s.events = s.apl(s.events,"EVenT23", ",", ",", true);
-```
-
-...s.events 的最终值将为：
-
-```js
-s.events = "event22,event23,EVentT23";
-```
-
-尽管此示例不太符合实际，但它可以表明在使用区分大小写的标志时需要谨慎。
-
-### 示例 7
-
-如果...
-
-```js
+// Sets the events variable to "event22,event23,event24,event25".
 s.events = "event22,event23";
-```
+s.events = apl(s.events, "event23,event24,event25");
 
-...并运行以下代码...
-
-```js
-s.events = s.apl(s.events, "event23,event24,event25");
-```
-
-...s.events 的最终值将为：
-
-```js
-s.events = "event22,event23,event24,event25");
-```
-
-该插件不会将“event23”添加到 s.events 中，因为它已存在于 s.events 中。但是，它会将 event24 和 event25 添加到 s.events 中，因为这两者之前均未包含在 s.events 中。
-
-### 示例 8
-
-如果...
-
-```js
+// Sets linkTrackVars to "events,eVar1,campaign".
+// The last three arguments at the end of this apl call are not necessary because they match the default argument values.
 s.linkTrackVars = "events,eVar1";
-```
+s.linkTrackVars = apl(s.linkTrackVars, "campaign", ",", ",", false);
 
-...并运行以下代码...
-
-```js
-s.linkTrackVars = s.apl(s.linkTrackVars, "campaign", ",", ",", false);
-```
-
-...s.linkTrackVars 的最终值将为：
-
-```js
-s.linkTrackVars = "events,eVar1,campaign";
-```
-
-此 apl 调用末尾的最后三个参数（即 &quot;,&quot;,&quot;,&quot;, false）不是必需的，但是由于它们与默认参数值匹配，因此即使设置它们也不会“造成任何不利影响”。
-
-### 示例 9
-
-如果...
-
-```js
+// This apl call does not do anything because the code does not assign the returned value to a variable.
 s.events = "event22,event24";
+apl(s.events, "event23");
+
+// Sets the list2 variable to "apple-APPLE-Apple".
+// Since the two delimiter arguments are different, the value passed in is delimited by "|", then joined together by "-".
+s.list2 = "apple|APPLE";
+s.list2 = apl(s.list2, "Apple", "|", "-", true);
+
+// Sets the list3 variable to "value1,value1,value1" (unchanged).
+// Only new values are deduplicated. Existing duplicate values remain.
+s.list3 = "value1,value1,value1";
+s.list3 = apl(s.list3,"value1");
 ```
-
-...并运行以下代码...
-
-```js
-s.apl(s.events, "event23");
-```
-
-...s.events 的最终值仍将为：
-
-```js
-s.events = "event22,event24";
-```
-
-单独运行此插件（不将返回值指定给变量）实际上不会“重置”通过 lv 参数传入的变量。
-
-### 示例 10
-
-如果...
-
-```js
-s.list2 = "casesensitivevalue|casesensitiveValue"
-```
-
-...并运行以下代码...
-
-```js
-s.list2 = s.apl(s.list2, "CasESensiTiveValuE", "|", "-", true);
-```
-
-...s.list2 的最终值将为：
-
-```js
-s.list2 = "casesensitivevalue-casesensitiveValue-CasESensiTiveValuE"
-```
-
-由于两个分隔符参数不同，传入的值将由第一个分隔符参数（“|”）分隔，然后由第二个分隔符参数（“-”）连接在一起
 
 ## 版本历史记录
 
@@ -323,7 +151,7 @@ s.list2 = "casesensitivevalue-casesensitiveValue-CasESensiTiveValuE"
 
 ### 2.5（2016 年 2 月 18 日）
 
-* 现在使用 `inList` 方法进行比较处理
+* 现在使用`inList`函数进行比较处理
 
 ### 2.0（2016 年 1 月 26 日）
 
