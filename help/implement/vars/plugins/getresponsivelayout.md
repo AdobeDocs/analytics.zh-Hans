@@ -2,10 +2,10 @@
 title: getResponsiveLayout
 description: 确定当前正在查看网站的哪个布局。
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 94%
+source-wordcount: '528'
+ht-degree: 87%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 94%
 
 `getResponsiveLayout` 插件允许您跟踪访客当前正在查看基于响应式设计的网站的哪个版本。如果您的网站使用响应式设计且您希望跟踪访客查看的网站版本，则 Adobe 建议您使用此插件。如果您的网站未使用响应式设计，则无需使用此插件。
 
-## 在Adobe Experience Platform中使用标记安装插件
+## 使用 Adobe Experience Platform 中的标记安装插件
 
-Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用的插件。
+Adobe 提供了一个扩展，通过该扩展，您可以使用一些常用插件。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
 1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
@@ -33,11 +33,11 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些最常用�
    * 操作类型：初始化 getResponsiveLayout
 1. 保存并发布对上述规则所做的更改。
 
-## 使用 自定义代码编辑器安装此插件
+## 使用自定义代码编辑器安装此插件
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的[!UICONTROL 配置]按钮。
 1. 展开[!UICONTROL 使用自定义代码配置跟踪]折叠面板，这会显示[!UICONTROL 打开编辑器]按钮。
@@ -57,13 +57,13 @@ var getResponsiveLayout=function(ppw,plw,tw){var c=ppw,b=plw,e=tw;if("-v"===c)re
 
 ## 使用此插件
 
-`getResponsiveLayout` 方法使用以下参数：
+`getResponsiveLayout`函数使用以下参数：
 
 * **`ppw`**（必需，整数）：在页面从手机竖屏布局切换到手机横屏布局之前，浏览器窗口可以具有的最大宽度（以像素为单位）
 * **`plw`**（必需，整数）：在页面从手机横屏布局切换到基于平板电脑布局之前，浏览器窗口可以具有的最大宽度（以像素为单位）
-* **`tw`**（必需，布尔）：在页面从平板电脑布局切换到基于桌面的布局之前，浏览器窗口可以具有的最大宽度（以像素为单位）
+* **`tw`** （必需，整数）：在页面从平板电脑布局切换到基于桌面的布局之前，浏览器窗口可以具有的最大宽度（以像素为单位）
 
-调用此方法将返回一个由两部分构成的字符串。根据浏览器的宽度和上述参数，第一个部分将使用以下值：
+调用此函数将返回一个字符串，其中包含两个以冒号(`:`)分隔的部分。 根据浏览器的宽度和上述参数，字符串的第一部分包含以下值之一：
 
 * `"phone portrait layout"`
 * `"phone landscape layout"`
@@ -73,34 +73,22 @@ var getResponsiveLayout=function(ppw,plw,tw){var c=ppw,b=plw,e=tw;if("-v"===c)re
 
 返回字符串的第二个部分是浏览器的宽度和高度尺寸。例如：`"desktop layout:1243x700"`。
 
-## 示例调用
-
-### 示例 1
-
-如果...
-
-* 当浏览器宽度大于 500 像素时，网站将从手机竖屏模式切换到手机横屏模式
-* 当浏览器宽度大于 700 像素时，网站将从手机横屏模式切换到平板电脑模式
-* 当浏览器宽度大于 1000 像素时，网站将从平板电脑模式切换到桌面模式
-
-...以下代码会将 eVar10 设置为等于访客当前体验到的响应式设计布局以及浏览器的宽度和高度尺寸
+## 示例
 
 ```js
+// A visitor accesses your site on their laptop. The browser window is maximized.
+// * Your site switches from phone portrait mode to phone landscape mode when the browser width is greater than 500 pixels
+// * Your site switches from phone landscape mode to tablet mode when the browser width is greater than 700 pixels
+// * Your site switches from tablet mode to desktop mode when the browser width is greater than 1000 pixels
+// Sets eVar10 to "desktop layout:1920x937".
 s.eVar10 = getResponsiveLayout(500, 700, 1000);
-```
 
-### 示例 2
-
-如果...
-
-* 您的网站只有手机模式、平板电脑模式和桌面模式
-* 当浏览器宽度大于 500 像素时，网站将从手机模式切换到平板电脑模式
-* 当浏览器宽度大于 1,100 像素时，网站将从平板电脑模式切换到桌面模式
-
-...以下代码会将 eVar10 设置为等于访客当前体验到的响应式设计布局以及浏览器的宽度和高度尺寸
-
-```js
-s.eVar10 = getResponsiveLayout(500, 500, 1100);
+// A visitor accesses your site on their phone.
+// * Your site has only a phone mode, a tablet mode, and a desktop mode
+// * Your site switches from phone mode to tablet mode when the browser width is greater than 800 pixels
+// * Your site switches from tablet mode to desktop mode when the browser width is greater than 1,100 pixels
+// Sets eVar10 to "phone portrait layout:720x1280"
+s.eVar10 = getResponsiveLayout(800, 800, 1100);
 ```
 
 ## 版本历史记录
