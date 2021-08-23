@@ -2,17 +2,16 @@
 title: 回访频度
 description: 当前访问与上次访问之间存储的时间。
 exl-id: 8ec31e17-a57d-416f-b471-c2c37a98d134
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: d49a1eac29b949af04e6cefece9f1433fddf19cc
+workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # 回访频度
 
-“回访频度”维度显示回访访客两次访问之间经过的时间长度。当访客回访您的网站时，Adobe 会查看上次访问的时间，并将点击记录在相应的维度项目中。此维度有助于评估网站在一段时间内对访客的吸引力和相关性。它还有助于确定网站内容和促销活动对访客的影响。
+“回访频度”维度显示回访访客两次访问之间经过的时间长度。 当访客回访您的网站时，Adobe 会查看上次访问的时间，并将点击记录在相应的维度项目中。此维度有助于评估网站在一段时间内对访客的吸引力和相关性。它还有助于确定网站内容和促销活动对访客的影响。
 
 >[!TIP]
 >
