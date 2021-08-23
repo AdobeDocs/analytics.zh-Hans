@@ -6,9 +6,9 @@ title: 数据列引用
 feature: Reports & Analytics 基础知识
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
+source-git-commit: b50982f17d226c8efaec6ff4ae4e6ff9140d8299
 workflow-type: tm+mt
-source-wordcount: '3407'
+source-wordcount: '3422'
 ht-degree: 99%
 
 ---
@@ -199,8 +199,8 @@ ht-degree: 99%
 | `state` | 状态变量。 | varchar(50) |
 | `stats_server` | 没有用处。处理点击的 Adobe 内部服务器。 | char(30) |
 | `t_time_info` | 访客的当地时间。格式为：`M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
-| `tnt` | 在 Adobe Target 集成中使用。 | 文本 |
-| `tnt_action` | 在 Adobe Target 集成中使用。 | 文本 |
+| `tnt` | 在 Adobe Target 集成中使用。表示当前符合条件的所有测试。 格式为：`TargetCampaignID:TargetRecipeID:TargetType|Event/Action`。 | 文本 |
+| `tnt_action` | 在 Adobe Target 集成中使用。表示点击符合条件的所有测试。 | 文本 |
 | `tnt_post_vista` | 已不再使用。请改用 `post_tnt`。 | 文本 |
 | `transactionid` | 其中稍后可通过数据源上载各种数据点的唯一标识符。使用 [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 变量收集而得。 | 文本 |
 | `truncated_hit` | 表示图像请求已被截断的标记。表示收到了不完整的点击。<br>Y：点击被截断；收到部分点击<br>N：点击未被截断；收到完整点击 | char(1) |
@@ -274,7 +274,7 @@ ht-degree: 99%
 | `visit_referrer` | 访问中的第一个反向链接。 | varchar(255) |
 | `visit_search_engine` | 表示访问中使用的第一个搜索引擎的数值 ID。使用 `search_engines.tsv` 查找。 | 无符号 smallint |
 | `visit_start_page_url` | 访问中的第一个 URL。 | varchar(255) |
-| `visit_start_pagename` | 访问中首次点击中的页面名称值。 | varchar(100) |
+| `visit_start_pagename` | 访问中首次点击的“页面名称”值。 | varchar(100) |
 | `visit_start_time_gmt` | 访问中首次点击的时间戳（基于 Unix 时间）。 | int |
 | `weekly_visitor` | 确定点击是否为新的每周访客的标记。 | 无符号 tinyint |
 | `yearly_visitor` | 确定点击是否为新的每年访客的标记。 | 无符号 tinyint |
