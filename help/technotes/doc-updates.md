@@ -3,9 +3,9 @@ title: Adobe Analytics 技术文档更新
 description: 对Adobe Analytics文档集的显着更新。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 9bbbba053946d2d4c2a0e45dc4c70fe398e3fa3b
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '2905'
+source-wordcount: '2899'
 ht-degree: 63%
 
 ---
@@ -30,8 +30,8 @@ ht-degree: 63%
 | 2021 年 8 月 5 日 | 更新了[模板](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en)、[浏览器导入](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en)和[浏览器导出](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en)的分类文档，以指明无法使用的适用于新分类架构的报表包的选项。 |
 | 2021 年 8 月 2 日 | 更新了多个页面以反映[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en)的重新品牌化 |
 | **2021 年 7 月** |  |
-| 2021 年 7 月 23 日 | [促销eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)的新深入讨论 |
-| 2021 年 7 月 15 日 | 添加了有关新[Adobe Analytics登录页面](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html?lang=zh-Hans)的新文档 |
+| 2021 年 7 月 23 日 | [促销eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=zh-Hans)的新深入讨论 |
+| 2021 年 7 月 15 日 | 添加了有关新[Adobe Analytics登录页面](/help/analyze/landing.md)的新文档 |
 | **2021 年 6 月** |  |
 | 2021 年 6 月 15 日 | 更新了[营销渠道最佳实践](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) |
 | 2021年6月3日 | 更新了文档以更好地说明[数据馈送实施](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=en)，请参阅[此处](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#BucketOwnerFullControl)。 |
@@ -114,7 +114,7 @@ ht-degree: 63%
 | **2019年** |  |
 | 2020 年 12 月 19 日 | 已将默认的[FTP数据存储限制](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=en)更改为10 GB。 |
 | 2019 年 11 月 29 日 | 全面修订了[数据馈送文档](/help/export/analytics-data-feed/data-feed-overview.md) |
-| 2019 年 11 月 25 日 | 新增了[“强制 IP 登录限制”终止使用](/help/admin/company/login-restrictions-eol.md)主题 |
+| 2019 年 11 月 25 日 | 新增了“强制 IP 登录限制”终止使用主题. |
 | 2019 年 11 月 21 日 | 新增了 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html) 文档集 |
 | 2019 年 11 月 21 日 | 更新了[Audience Analytics工作流常见问题解答](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=en)以指示LiveStream中的可用性。 |
 | 2019 年 10 月 25 日 | 更新了[Adobe Analytics关键概念](/help/technotes/terms.md)页面。 |

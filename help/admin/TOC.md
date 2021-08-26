@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解如何在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等。
-source-git-commit: 120b0ff4ed2ebd3870e56ca9fabd3364b7745a7c
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 99%
+source-wordcount: '723'
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 99%
    + [发布用构件](admin/publishing-widgets-admin.md)
    + [偏好设置管理器](admin/preferences-manager.md)
    + [隐私设置](admin/privacy-settings.md)
-   + [隐私报告](admin/privacy-reporting.md)
+   + [隐私报表](admin/privacy-reporting.md)
    + 处理规则{#processing-rules}
       + [处理规则概述](admin/c-processing-rules/processing-rules.md)
       + 处理规则配置{#processing-rules-configuration}
@@ -125,7 +125,6 @@ ht-degree: 99%
    + [品牌联合](company/co-branding-admin.md)
    + [隐藏报表包](company/c-hide-report-suites.md)
    + [安全管理器](company/security-manager.md)
-   + [“强制 IP 登录限制”终止使用](company/login-restrictions-eol.md)
 + 管理报表包 {#manage-report-suites}
    + [报表包管理器](c-manage-report-suites/report-suites-admin.md)
    + [汇总报表包和全局报表包](c-manage-report-suites/rollup-report-suite.md)

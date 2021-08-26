@@ -3,7 +3,7 @@ description: 说明根据欧盟Cookie合规条例的规定对服务器端转发�
 title: GDPR/ePrivacy 合规和服务器端转发
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 80%
@@ -12,7 +12,7 @@ ht-degree: 80%
 
 # GDPR/ePrivacy 合规和服务器端转发
 
-本节介绍根据2017年9月30日生效的[EU Cookie合规条例](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm)的规定，对服务器端转发的增强功能。
+本节介绍根据2017年9月30日生效的[EU Cookie合规条例](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookie+和+similar+技术)的规定，对服务器端转发的增强功能。
 
 服务器端转发用于实时将数据从 Adobe Analytics 共享到其他 [!DNL Experience Cloud Solutions]，例如 Audience Manager。启用服务器端转发后，在数据收集过程中该功能还允许 Analytics 将数据推送到其他 Experience Cloud 解决方案，而对于这些解决方案，则将数据推送到 Analytics。
 
@@ -28,7 +28,7 @@ ht-degree: 80%
 
 | 实施方法 | 步骤 |
 |--- |--- |
-| Adobe Experience Platform中的标记 | 假定您已安装Adobe Analytics扩展，请在规则的Action配置中将以下上下文数据变量定义添加到自定义代码编辑器：<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>注意： 定义contextdata变量，并在客户不同意进行目标营销时将其设置为1。 如果客户同意进行目标营销，则将 `contextdata` 变量设置为 *0*。 |
+| Adobe Experience Platform 中的标记 | 假定您已安装Adobe Analytics扩展，请在规则的Action配置中将以下上下文数据变量定义添加到自定义代码编辑器：<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>注意： 定义contextdata变量，并在客户不同意进行目标营销时将其设置为1。 如果客户同意进行目标营销，则将 `contextdata` 变量设置为 *0*。 |
 | AppMeasurement | 将上下文数据变量定义添加到 AppMeasurement.js 文件：<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注意：定义 contextdata 变量时，如果客户不同意进行目标营销，则将其设置为 1。如果客户同意进行目标营销，则将 contextdata 变量设置为 0。 |
 
 ## 报表（可选） {#section_6AD4028EC11C4DABA2A34469DDC99E89}

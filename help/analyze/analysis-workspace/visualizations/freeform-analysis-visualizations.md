@@ -2,12 +2,12 @@
 description: 通过可视化图表，直观地展示您的数据。
 keywords: Analysis Workspace
 title: 可视化图表概述
-feature: 可视化图表
+feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1090'
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '1071'
 ht-degree: 100%
 
 ---
@@ -77,8 +77,6 @@ Analysis Workspace 中提供了以下可视化图表类型：
 
 1. 输入新的标签文本。
 1. 按 **[!UICONTROL Enter]** 键保存。
-
-下面是一个[指向该主题相关视频的链接](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html?lang=zh-Hans)。
 
 ## 右键单击菜单 {#right-click}
 

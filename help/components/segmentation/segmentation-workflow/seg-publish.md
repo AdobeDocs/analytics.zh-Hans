@@ -1,12 +1,12 @@
 ---
 description: 允许您将区段用于“受众库”、Target 和 Audience Manager 中的营销活动。
 title: 将区段发布到 Experience Cloud
-feature: 分段
+feature: Segmentation
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 190c05f7c0bf8c8ae0524a5635ff468a053abedd
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1300'
 ht-degree: 100%
 
 ---
@@ -25,10 +25,8 @@ ht-degree: 100%
 ## 先决条件
 
 * 确保[已为 Experience Cloud 启用](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=zh-Hans)要保存此区段的报表包。否则，您无法将其发布到 Experience Cloud。
-* 确保您使用的报表包[已映射到 Experience Cloud 组织](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html?lang=zh-Hans)。
 * 确保您的组织使用的是 Experience Cloud ID。
 * 在发布区段之前，您的管理员需要先在[管理控制台](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hans)中向产品配置文件分配“[!UICONTROL 区段发布]”权限，并将您添加到产品配置文件中。
-
 
 ## 注意事项
 

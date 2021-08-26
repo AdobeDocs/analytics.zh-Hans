@@ -2,10 +2,10 @@
 title: 如何在 Advertising Analytics 中设置广告帐户
 description: 让您创建新的广告帐户并将多个帐户映射到多个报表包。
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '863'
-ht-degree: 100%
+source-git-commit: 98c04c6553f6f18bb69a29ac2af0f622928b0b31
+workflow-type: tm+mt
+source-wordcount: '824'
+ht-degree: 98%
 
 ---
 
@@ -63,24 +63,24 @@ Adobe Analytics 管理员可以创建新的广告帐户，并将多个帐户映�
 
    >[!IMPORTANT]
    >
-   >只有已经[映射到 Experience Cloud 组织](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html?lang=zh-Hans)的报表包才可供选择。如果在列出的报表包中未看到您的报表包，请参阅 [Advertising Analytics 疑难解答](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)。
+   >只有映射到Experience Cloud组织的报表包才可供选择。 如果在列出的报表包中未看到您的报表包，请参阅 [Advertising Analytics 疑难解答](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)。
 
    对于&#x200B;**[!UICONTROL 映射设置]**，请遵循以下说明：
 
    <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
-    <thead> 
-      <tr> 
-      <th colname="col1" class="entry"> 设置 </th> 
-      <th colname="col2" class="entry"> 描述 </th> 
-      </tr>
-    </thead>
-    <tbody> 
-      <tr> 
-      <td colname="col1"> <p>报表包映射 </p> </td> 
-      <td colname="col2"> <p>报表包映射可确定链接到此搜索引擎帐户的报表包。换句话说，它可确定搜索引擎数据会发送到哪些报表包。 </p> <p>如果在列出的报表包中未看到您的报表包，则可使用此工具<a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html?lang=zh-Hans"  >将您的报表包映射到 Experience Cloud 组织</a>。 </p> </td> 
-      </tr> 
-    </tbody> 
-    </table>
+   <thead> 
+   <tr> 
+   <th colname="col1" class="entry"> 设置 </th> 
+   <th colname="col2" class="entry"> 描述 </th> 
+   </tr>
+   </thead>
+   <tbody> 
+   <tr> 
+   <td colname="col1"> <p>报表包映射 </p> </td> 
+   <td colname="col2"> <p>报表包映射可确定链接到此搜索引擎帐户的报表包。换句话说，它可确定搜索引擎数据会发送到哪些报表包。 </p> </td>
+   </tr> 
+   </tbody> 
+   </table>
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 1. 保存之后，会显示免责声明列出一系列注意事项。您需要确认您已经阅读并理解这份协议。单击复选框，然后单击&#x200B;**[!UICONTROL 确定]**。

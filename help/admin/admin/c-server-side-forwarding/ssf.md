@@ -4,10 +4,10 @@ solution: Audience Manager
 title: 服务器端转发概述
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 95%
+source-wordcount: '821'
+ht-degree: 93%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 95%
 
    * **具有 DIL 的 AAM 客户**：调整以下 2 个项目以使其紧密配合工作：
 
-      1. 删除 DIL 代码并安装[受众管理模块](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)页面代码。
+      1. 删除 DIL 代码并安装[受众管理模块](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=zh-Hans)页面代码。
       1. 按照步骤 3 中所述，在 Analytics 管理员用户界面中启用服务器端转发。如果在删除 DIL 代码之前启用该设置，则将复制数据并创建对 Audience Manager 的额外计费服务器调用。
    * **新 AAM 客户** - 安装[受众管理模块](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)页面代码并继续执行步骤 3。在步骤 3 中开启了服务器端转发之后，才会将数据发送到 Audience Manager。
 
@@ -64,10 +64,10 @@ ht-degree: 95%
 
 转至 **Analytics** > **管理员** > **报表包** >（选择&#x200B;**报表包**）> **编辑设置** > **常规** > **服务器端转发**。如果复选框为：
 
-* **不活动**（您无法进行选择或菜单不存在）：表示您没有将选定的报表包映射到 IMS 组织。请确保使用[报表包映射 UI](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)，将适用的报表包映射到相应的 Experience Cloud 组织。
+* **不活动** （您无法进行选择或菜单不存在）：您没有将选定的报表包映射到IMS组织。请联系客户关怀团队，以确保正确映射报表包。
 * **禁用**：表示您没有开启新的服务器端转发。请阅读本页面上的内容，然后继续启用该功能。
 * **启用**：表示您已设置了新的服务器端转发。您还能够设置此 Audience Analytics 集成。
 
 >[!NOTE]
 >
->在全部完成这 3 个步骤之后，数据才会显示在其他 Experience Cloud 解决方案中，例如 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html) 或 [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)。这些设置在启用后需要几个小时才会生效。
+>在全部完成这 3 个步骤之后，数据才会显示在其他 Experience Cloud 解决方案中，例如 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=zh-Hans) 或 [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)。这些设置在启用后需要几个小时才会生效。

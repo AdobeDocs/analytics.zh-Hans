@@ -1,13 +1,13 @@
 ---
 description: 围绕区段的常见问题。
 title: 常见问题解答
-feature: 分段
+feature: Segmentation
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
-workflow-type: ht
-source-wordcount: '2071'
-ht-degree: 100%
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '2080'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 * 可创建[顺序区段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)。
 * 页面查看容器已重命名为“点击”容器，以表示该容器可分段所有类型的数据，而不仅仅是页面查看。例如，点击容器完全包含或排除链接跟踪调用和移动 SDK 中的 trackAction 调用。请注意，此容器的运行方式并没有发生任何更改，只是进行了重命名。
 
-请参阅 Digital Marketing Blog（数字营销博客）上的帖子“[Improving Segmentation in Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/)”（改善 Adobe Analytics 中的分段），了解更多详细信息。
+有关更多详细信息，请参阅Adobe博客上的[改进Adobe Analytics中的分段](https://blog.adobe.com/en/publish/2014/05/20/improving-segmentation-adobe-analytics.html)帖子。
 
 ## 访问分段工具 {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
@@ -39,9 +39,9 @@ ht-degree: 100%
 
 您可以通过以下方法访问区段生成器：
 
-* 显示一个现有报表，然后单击左侧导航中的“区段”图标 ![](assets/segment_icon.png)。在显示的区段边栏中，单击&#x200B;**[!UICONTROL 添加]**，或者
+* 显示一个现有报表，然后单击左侧导航中的“区段”图标![区段图标](assets/segment_icon.png)。 在显示的区段边栏中，单击&#x200B;**[!UICONTROL 添加]**，或者
 
-* 单击区段管理器顶部的 **[!UICONTROL + 添加]**。![](assets/add_button.png)
+* 单击区段管理器顶部的 **[!UICONTROL + 添加]**。![“添加”按钮](assets/add_button.png)
 
    或
 
@@ -53,13 +53,13 @@ ht-degree: 100%
 
 * 在顶部导航中，转到 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]**。然后，单击&#x200B;**[!UICONTROL 区段]**，或者
 
-* 显示一个现有报表，然后单击左侧导航中的“区段”图标 ![](assets/segment_icon.png)。接下来，单击&#x200B;**[!UICONTROL 管理]**，或者
+* 显示一个现有报表，然后单击左侧导航中的“区段”图标![区段图标](assets/segment_icon.png)。 接下来，单击&#x200B;**[!UICONTROL 管理]**，或者
 
 * 在界面的任意位置按斜杠键“/”，并搜索区段管理器。
 
 **原有的区段下拉菜单转到了何处？**
 
-Reports &amp; Analytics 中的区段下拉菜单已被功能更加丰富的[区段生成器](/help/components/segmentation/segmentation-workflow/seg-workflow.md)界面取代，通过使用该界面，您可以创建在报表包中和 Adobe Analytics 解决方案中“通用”的区段。要查看现有区段的列表，请在左侧导航中单击“区段”图标 ![](assets/segment_icon.png)，
+Reports &amp; Analytics 中的区段下拉菜单已被功能更加丰富的[区段生成器](/help/components/segmentation/segmentation-workflow/seg-workflow.md)界面取代，通过使用该界面，您可以创建在报表包中和 Adobe Analytics 解决方案中“通用”的区段。要查看现有区段的列表，请在左侧导航中单击“区段”图标 ![，区段图标](assets/segment_icon.png)
 
 此时将显示区段边栏。
 
@@ -67,7 +67,7 @@ Reports &amp; Analytics 中的区段下拉菜单已被功能更加丰富的[区�
 
 报表包下拉菜单已移动到每个报表或功能板右上角的日期选择器旁。
 
-![](assets/report_suite_selector.png)
+![报表包选择器](assets/report_suite_selector.png)
 
 ## 权限 {#section_648DFA3A882146C485A84ED014EEC707}
 

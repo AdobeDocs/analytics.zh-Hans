@@ -3,10 +3,10 @@ description: 列出受用户迁移影响的API
 title: 受用户迁移影响的API
 uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
 exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 88%
+source-wordcount: '244'
+ht-degree: 86%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe 正在将所有 Analytics 登录公司从 [!DNL my.omniture.com] 是迁移
 * Permissions.SaveLogin
 * Permissions.GetLoginSegment
 
-## 可以执行的操作  {#section-8b0b89a862614f729ebdbe092ce99027}
+## 可以执行的操作 {#section-8b0b89a862614f729ebdbe092ce99027}
 
 如果贵公司当前正在使用这些方法，请查找自 2018 年 3 月 31 日开始发送的预迁移通知。此通知将在贵公司开始迁移到 Experience Cloud 身份验证之前至少 30 天发送，届时将不再支持使用这些方法。
 
@@ -43,5 +43,5 @@ Adobe 正在将所有 Analytics 登录公司从 [!DNL my.omniture.com] 是迁移
 
 * [一般用户管理信息](https://helpx.adobe.com/cn/enterprise/help/users.html)
 * [通过 adobe.io 的用户管理 API](https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html)
-* [用户管理 API 论坛](https://forums.adobe.com/community/umapi/overview)
+* [用户管理 API 论坛](https://community.adobe.com/t5/enterprise-teams/bd-p/enterprise-and-teams)
 * [将 Analytics 用户访问和管理迁移到 Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)

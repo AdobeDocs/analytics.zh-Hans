@@ -1,15 +1,14 @@
 ---
 title: 数据包分析程序
 description: 数据包分析程序允许您查看由实施发送至 Adobe 数据收集服务器的数据。
-keywords: packet sniffer, http status, 200, 302, charles
-translation-type: tm+mt
-source-git-commit: b359582fe8ab6ee04bb478825d9989d850390f96
+keywords: 数据包探查器， http状态， 200, 302, charles
+exl-id: db077293-f72c-4933-8a30-f1e1963f332e
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 98%
+source-wordcount: '665'
+ht-degree: 96%
 
 ---
-
 
 # 数据包分析程序
 
@@ -34,7 +33,7 @@ Adobe 不提供正式的数据包监视工具，但是互联网上存在大量�
 |---|---|---|---|
 | [观察点](https://www.observepoint.com/product#plugin)（标记查看器） | [HttpWatch](https://www.httpwatch.com/) | [观察点](https://www.observepoint.com/product#plugin)（标记查看器） | [Charles](https://www.charlesproxy.com/) |
 | [HttpFox](https://addons.thunderbird.net/en-us/firefox/addon/httpfox/) |  | [Chrome 开发人员工具](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
-| [Tamper Data](https://addons.mozilla.org/en-US/firefox/addon/tamper-data-for-ff-quantum/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
+| [Tamper Data](https://addons.mozilla.org/en-US/firefox/addon/tamper-data-for-ff-quantum/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/firebug-lite-for-google-c/ehemiojjcpldeipjhjkepfdaohajpbdo) | [Wireshark](https://www.wireshark.org/) |
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 

@@ -2,9 +2,9 @@
 description: 在 Adobe Experience Cloud 中将 Analytics 用户 ID 迁移到 Admin Console 的应知事项。
 title: 将 Analytics 用户迁移到 Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '3122'
+source-wordcount: '3119'
 ht-degree: 97%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 97%
 
 要获取有关 Admin Console 主题的常规帮助（与 Analytics 迁移无关），请参阅 [Admin Console 用户指南](https://helpx.adobe.com/cn/enterprise/administering/user-guide.html)。
 
-迁移后，您可以在 Admin Console 中[管理 Experience Cloud 用户和产品](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)。
+迁移后，您可以在 Admin Console 中[管理 Experience Cloud 用户和产品](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hans)。
 
-## 什么是 Analytics 用户 ID 迁移？  {#section-adbe49aba10c4e62afa836a97894107c}
+## 什么是 Analytics 用户 ID 迁移？ {#section-adbe49aba10c4e62afa836a97894107c}
 
 通过 Analytics 用户 ID 迁移，管理员可以轻松地将 Analytics“用户管理”中的用户帐户迁移到 Adobe Admin Console。在您的用户被迁移后，他们将能够访问 Experience Cloud 中可用的解决方案与核心服务。Adobe 正在分阶段向客户推出这项迁移功能。
 
@@ -38,7 +38,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> <p>管理用户身份和权限 </p> </td> 
-   <td colname="col2"> <p>Analytics 管理员可以在 <a href="http://adminconsole.adobe.com/enterprise/">Admin Console</a> (http://adminconsole.adobe.com/enterprise/) 中专门管理用户和权限。 </p> </td> 
+   <td colname="col2"> <p>Analytics管理员可以在<a href="https://adminconsole.adobe.com/enterprise/">Admin Console</a>中专门管理用户和权限。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>管理产品和核心服务 </p> </td> 
@@ -53,7 +53,7 @@ ht-degree: 97%
  </tbody> 
 </table>
 
-## 迁移用户 ID 前应知事项（和应做事项）（常见问题解答）{#section-b0fc7f0bbd4b488e95b0c8e77ff077a9}
+## 迁移用户 ID 前应知事项（和应做事项）（常见问题解答） {#section-b0fc7f0bbd4b488e95b0c8e77ff077a9}
 
 针对迁移之前可能存在问题的解答。
 
@@ -142,7 +142,7 @@ ht-degree: 97%
  </tbody> 
 </table>
 
-## 迁移期间的应知事项（常见问题解答）  {#section-d394524aa6d046d79025bbd7499792bc}
+## 迁移期间的应知事项（常见问题解答） {#section-d394524aa6d046d79025bbd7499792bc}
 
 关于迁移过程及它对当前用户管理的影响的重要信息。
 
@@ -231,7 +231,7 @@ ht-degree: 97%
  </tbody> 
 </table>
 
-## 迁移后的应知事项（常见问题解答）  {#section-9681baa01b8c41cdb9659b73b70b50ff}
+## 迁移后的应知事项（常见问题解答） {#section-9681baa01b8c41cdb9659b73b70b50ff}
 
 <table id="table_F48CC9DFE3424AC9AD76A16882701C8F"> 
  <thead> 
@@ -315,7 +315,7 @@ ht-degree: 97%
 
 **正文：** Adobe Analytics 用户，您好！
 
-我们公司即将开始把所有 Adobe Analytics 帐户从 [!DNL https://my.omniture.com/login/] 迁移到 Adobe Experience Cloud ([experiencecloud.adobe.com](http://experiencecloud.adobe.com/))。在此次迁移中，将升级您的 Adobe Analytics 帐户以允许通过 Adobe Experience Cloud 访问 Analytics。虽然访问 Analytics 的方法将发生变化，但您对报表包和工具的所有现有权限都将保留下来。
+我们公司即将开始把所有 Adobe Analytics 帐户从 [!DNL https://my.omniture.com/login/] 迁移到 Adobe Experience Cloud ([experiencecloud.adobe.com](https://experiencecloud.adobe.com/))。在此次迁移中，将升级您的 Adobe Analytics 帐户以允许通过 Adobe Experience Cloud 访问 Analytics。虽然访问 Analytics 的方法将发生变化，但您对报表包和工具的所有现有权限都将保留下来。
 
 **后续步骤：**&#x200B;我们将从以下日期开始迁移用户：**插入日期**。请查看发送到您 Analytics 帐户下方列出的电子邮件 ID 的欢迎邮件，其中包含您的新登录信息。如果您没有设置链接到电子邮件地址的 [Adobe ID](https://helpx.adobe.com/cn/x-productkb/global/adobe-id-account-change.html)，系统将要求您设置一个帐户。
 

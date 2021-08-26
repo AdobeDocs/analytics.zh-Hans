@@ -2,20 +2,19 @@
 description: 将Selligent数据连接器与Adobe Analytics结合使用。
 title: 适用于 Adobe Analytics 的 Selligent Data Connector
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+exl-id: baeabd9c-10bc-4733-8779-abfa81807c54
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 97%
 
 ---
 
-
 # 适用于 Adobe Analytics 的 Selligent Data Connector{#selligent-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]
 >
->我们将于2021年8月1日终止Adobe Data Connector技术。 [了解更多...](/help/import/data-connectors/data-connectors-eol.md)
+>我们将于2021年8月1日终止AdobeData Connector技术的生命周期。 [了解详情...](/help/import/data-connectors/data-connectors-eol.md)
 
 此集成具有以下主要优势：
 
@@ -131,7 +130,7 @@ ht-degree: 97%
 
    该 URL 可以从用于登录到 Selligent 营销解决方案的 URL 派生。将 URL 的“/simweb/login.aspx”部分替换为“/automation/omniture.asmx”
 
-   例如：`http://<client-specific install url>/automation/omniture.asmx`
+   例如：`https://<client-specific install url>/automation/omniture.asmx`
 
 * **查询字符串参数：**&#x200B;消息 ID 和收件人 ID（访客 ID）的这些参数会附加到登陆页面 URL 中。对于消息 ID 和收件人 ID，这些参数始终分别为 MID 和 RID。
 

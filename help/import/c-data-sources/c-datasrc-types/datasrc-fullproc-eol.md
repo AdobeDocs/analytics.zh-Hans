@@ -2,7 +2,7 @@
 title: 完全处理数据源的生命周期终止
 description: 批量数据插入API与完全处理数据源之间终止链接和比较的原因。
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
-source-git-commit: f120c189228892e57e38e4d0e106eb3190326ff1
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 27%
@@ -13,7 +13,7 @@ ht-degree: 27%
 
 多年来，完全处理数据源允许您向Adobe Analytics提交点击级别的数据。 此数据的处理方式与通过我们的JavaScript库和移动应用程序SDK收集的数据相同。 2020年，Adobe发布了[批量数据插入API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)，该API的功能与完全处理数据源相同，但具有其他功能。 本主题提供了有关批量数据插入API提供的其他功能的详细信息，并概述了文件格式的差异。
 
-自2021年3月25日起，Adobe将阻止创建新的完全处理数据源连接。 在2021年7月31日完全弃用服务之前，将继续支持现有连接。 除了标准文档之外，我们还提供了通过批量数据插入API](http://adobe.ly/aabdia)提交数据所需的[步骤的演练。
+自2021年3月25日起，Adobe将阻止创建新的完全处理数据源连接。 在2021年7月31日完全弃用服务之前，将继续支持现有连接。 除了标准文档之外，我们还提供了通过批量数据插入API](https://adobe.ly/aabdia)提交数据所需的[步骤的演练。
 
 ## 为什么我们要终止使用此功能？
 

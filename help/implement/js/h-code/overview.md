@@ -2,10 +2,10 @@
 title: H 代码 JavaScript 实施概述
 description: 了解在您的网站上实施 H 代码的工作流。
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '389'
+ht-degree: 98%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->不再支持此版本的数据收集。升级到Adobe Experience Platform](../../launch/overview.md)或[AppMeasurement for JavaScript](../overview.md)中的[标记。
+>不再支持此版本的数据收集。升级到 [Adobe Experience Platform 中的标记](../../launch/overview.md)或 [AppMeasurement for JavaScript](../overview.md)。
 
 您必须能够访问托管服务器，才能成功为页面实施用于收集数据的代码。以下步骤详细说明了如何进行基本的 Analytics H 代码实施。
 
@@ -39,4 +39,4 @@ JavaScript 文件首次加载后会缓存在访客的浏览器中，通常情况
 
 ## H 代码压缩
 
-如果您担心下载的 `s_code.js` 文件过大，Adobe 建议使用 GZIP 压缩 `s_code.js` 文件。所有主要浏览器都支持 GZIP，与 JavaScript 压缩相比，其压缩的效果更好。请参阅 Apache 文档中的 [Apache 模块 mod_deflate](http://httpd.apache.org/docs/current/mod/mod_deflate.html)。
+如果您担心下载的 `s_code.js` 文件过大，Adobe 建议使用 GZIP 压缩 `s_code.js` 文件。所有主要浏览器都支持 GZIP，与 JavaScript 压缩相比，其压缩的效果更好。请参阅 Apache 文档中的 [Apache 模块 mod_deflate](https://httpd.apache.org/docs/current/mod/mod_deflate.html)。

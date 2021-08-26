@@ -5,9 +5,9 @@ title: DFA 集成
 feature: Data Connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 exl-id: 27eb7789-30a5-4f4a-8b23-06e3625996ec
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2600'
 ht-degree: 99%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 99%
 配置页面提供有关集成的概述以及可获取更多信息的有用链接。Adobe 和 DoubleClick 费用均与此集成相关。请联系这两个组织相应的销售代表，并确保您了解费用结构。
 
 1. 登录 [!DNL Adobe Analytics].
-1. 单击&#x200B;**[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 数据连接器]**。
+1. 单击&#x200B;**[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL Data connectors]**。
 
    ![](assets/data_connectors.png)
 
@@ -176,7 +176,7 @@ var dfaConfig = {
    tEvar:             "eVar17", 
    errorEvar:         "eVar59", 
    timeoutEvent:      "event76", 
-   requestURL:         "http://fls.doubleclick.net/ 
+   requestURL:         "https://fls.doubleclick.net/ 
 json?spot=[SPOTID]&src=[CSID]&var=[VAR]&host=integrate.112.2o7.net%2 
 Fdfa_echo%3Fvar%3D[VAR]%26AQE%3D1%26A2S%3D1&ord=[RAND]", 
  

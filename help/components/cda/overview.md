@@ -2,15 +2,14 @@
 title: Cross-Device Analytics
 description: 通过将设备数据拼合在一起，将您的数据从以设备为中心更改为以人员为中心。
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-translation-type: ht
-source-git-commit: 99fea634dafc5d0992898f8f9f89471b51191fc6
-workflow-type: ht
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
 source-wordcount: '751'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# Cross-Device Analytics
+# 跨设备分析
 
 Cross-Device Analytics 是一项功能，可将 Analytics 从以设备为中心的视图转变为以人员为中心的视图。因此，分析师可以了解跨浏览器、设备或应用程序的用户行为。Adobe 支持使用两个主要工作流程，将设备数据链接在一起：
 
@@ -29,7 +28,7 @@ Cross-Device Analytics 是一项功能，可将 Analytics 从以设备为中心�
 
 本着合作精神和透明精神，我们希望客户了解我们与 Cross-Device Analytics 相结合使用的 Microsoft Azure。Adobe 使用 Azure 存储设备图数据并执行跨设备拼合。因此，Adobe Analytics 数据在 Adobe 的数据处理中心和 Adobe 的 Microsoft Azure 预置实例之间来回传递。
 
-请参阅[历程 IQ：Cross-Device Analytics Spark 页面](http://adobe.ly/aacda)，了解关于 Cross-Device Analytics 功能和特征的详细信息。
+请参阅[历程 IQ：Cross-Device Analytics Spark 页面](https://adobe.ly/aacda)，了解关于 Cross-Device Analytics 功能和特征的详细信息。
 
 ## 先决条件
 
