@@ -2,11 +2,10 @@
 title: 设置 Cross-Device Analytics
 description: 配置虚拟报表包以启用 CDA。
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
-translation-type: ht
-source-git-commit: 005cb590f4f7d31d3de801437a0ba6fa25b2ea64
-workflow-type: ht
-source-wordcount: '515'
-ht-degree: 100%
+source-git-commit: 040805039c04f4ae8d9d13b764f9f72355eb36e7
+workflow-type: tm+mt
+source-wordcount: '533'
+ht-degree: 91%
 
 ---
 
@@ -26,7 +25,7 @@ CDA 由 Adobe 工程团队在您的跨设备报表包上预配。要开始此过
 * 希望通过 CDA 启用的跨设备报表包的报表包 ID
 * 希望使用的 CDA 方法（基于字段的拼合、Adobe 专用图或 Adobe 协作图）
 * 如果要使用基于字段的拼合，请提供包含用户 ID 的 prop 或 eVar
-* 您对于重放频率和回看时长的首选项。选项包括每周重放一次且回看时段为 7 天或每天重放一次且回看时段为 1 天。
+* 您对于重放频率和回看时长的首选项。选项包括每周重放一次且回看时段为 7 天或每天重放一次且回看时段为 1 天。默认为每周重播，回顾时间范围为7天。 在这种情况下，上周内的数据可能会发生更改（因为数据会逐步拼合和更新）。
 
 向客户关怀部门提供此信息后，他们将与 Adobe 工程团队合作，为您选择的报表包启用 CDA 处理。
 
@@ -51,7 +50,7 @@ CDA 由 Adobe 工程团队在您的跨设备报表包上预配。要开始此过
 在虚拟报表包中启用 Cross-Device Analytics 后，请注意以下更改：
 
 * 虚拟报表包名称旁边将显示一个新的跨设备图标。此图标仅适用于跨设备虚拟报表包。
-* 标记为[识别的状态](../dimensions/identified-state.md)的新维度是可用的。此维度可以确定当时设备图是否知晓该点击的 Experience Cloud ID。
-* 标记为[人员](../metrics/people.md)和[独特设备](../metrics/unique-devices.md)的新量度是可用的。
+* 标记为[识别的状态](../dimensions/identified-state.md)的新维度是可用的。
+* 标有[人员](../metrics/people.md)、[独特设备](../metrics/unique-devices.md)、已识别人员、未识别人员和具有Experience CloudID的人员的新量度均可用。
 * [独特访客](../metrics/unique-visitors.md)量度将不可用，因为它已被替换为“人员”量度和“独特设备”量度。
 * 构建区段后，“访客”区段容器将被替换为“人员”容器。

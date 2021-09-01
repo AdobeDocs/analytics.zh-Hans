@@ -1,14 +1,13 @@
 ---
 title: 重播的工作原理
 description: 了解 Cross-Device Analytics 中的“重播”概念
-translation-type: ht
-source-git-commit: f3f5f82a236d376eda07d4d39e7effa60e929499
-workflow-type: ht
-source-wordcount: '589'
-ht-degree: 100%
+exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
+source-git-commit: d4a70859027508cdd64affbb506fc64a3c4806cb
+workflow-type: tm+mt
+source-wordcount: '619'
+ht-degree: 95%
 
 ---
-
 
 # 重播的工作原理
 
@@ -48,6 +47,10 @@ Cross-Device Analytics 在虚拟报表包中对数据进行两次传递：
 * **如果使用基于字段的拼合**，则会从该时间点开始对已识别设备上未经身份验证的点击进行实时拼合。
 
    识别的自定义变量与设备关联后，就会立即开始归因。在以上示例中，除点击 1 和 3 之外的所有点击都将进行实时拼合（它们都使用 `Bob` 标识符）。重播拼合后，归因可适用于点击 1 和 3。
+
+>[!NOTE]
+>
+>在实时流程中，超过12小时的带有时间戳的点击将不会拼合。 但是，只要这些点击位于重播回顾窗口中，“重播拼合”中就会包含这些点击。
 
 ### 重播拼合
 

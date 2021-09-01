@@ -1,14 +1,13 @@
 ---
 title: CDA 工作区模板
 description: 描述 Analysis Workspace 内 CDA 模板中的每个字段。
-translation-type: ht
-source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
-workflow-type: ht
-source-wordcount: '441'
-ht-degree: 100%
+exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
+source-git-commit: 48c026d3d5314b20b52edb9b3f04497dc180df37
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 98%
 
 ---
-
 
 # CDA 工作区模板
 
@@ -17,7 +16,7 @@ Adobe 提供一个模板以查看重要的跨设备性能数据。
 1. 导航到 [experiencecloud.adobe.com](https://experiencecloud.adobe.com) 并使用 Adobe ID 凭据登录。
 1. 单击顶部的 9 宫格图标，然后单击“Analytics”。
 1. 单击顶部的[!UICONTROL 工作区]，然后单击[!UICONTROL 新建项目]。
-1. 找到“历程 IQ：跨设备分析”模板，然后单击[!UICONTROL 创建]。
+1. 找到“跨设备分析”模板，然后单击[!UICONTROL 创建]。
 1. 如果出现提示，请将报表包更改为支持 CDA 的报表包。
 
 将创建一个包含多个面板的 Analysis Workspace 项目。在顶部显示了目录和简介，允许查看报表的上下文和导致到单个报表。单击目录中的链接或展开面板的折叠面板可查看这些报表。
@@ -25,7 +24,7 @@ Adobe 提供一个模板以查看重要的跨设备性能数据。
 <!--The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md-->
 
 * **对协作图成员的特别说明**：显示报表包的哪些部分包含的访客位于支持协作图的地区以及哪些部分包含的访客位于不支持协作图的地区。
-* **用户标识**：显示使用基于跨设备分析的方法识别网站访客的频率。
+* **用户标识**：显示使用基于 Cross-Device Analytics 的方法识别网站访客的频率。
 * **测量受众规模**：显示“独特设备”与“人员”的对比。这两个数字的比例称为“跨设备压缩”，该计算量度在此面板中可见。此压缩量度取决于多种因素：
    * 使用协作图或专用图：一般而言，使用设备协作的组织往往比使用专用图的组织获得更好的压缩率。
    * 登录率：登录您网站的用户越多，Adobe 跨设备识别和拼合的访客越多。登录率较低的网站，其压缩率也较低。

@@ -2,11 +2,10 @@
 title: Cross-Device Analytics 常见问题解答
 description: Cross-Device Analytics 常见问题解答
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-translation-type: ht
-source-git-commit: 50ffeac17a07478e98e8d83bd3a87db0d9a1145d
-workflow-type: ht
-source-wordcount: '1674'
-ht-degree: 100%
+source-git-commit: 966e013cb6119696cbd058368c90f2bbef0bc9ae
+workflow-type: tm+mt
+source-wordcount: '1780'
+ht-degree: 94%
 
 ---
 
@@ -115,3 +114,11 @@ CDA 会先提取 eVar 维度项目，然后再对其进行优化以用于报表�
 ## 如果我的公司决定从 Analytics Ultimate 降级，我的 CDA 虚拟报表包中的拼合数据会出现什么情况？
 
 如果客户从 Ultimate 降级，则无法再访问拼合数据。所有以前拼合的数据将删除。这意味着 CDA 虚拟报表包现在不会反映跨设备拼合。数据看上去类似于原始的未拼合报表包。
+
+## 为何源报表包与CDA虚拟报表包之间的点击总数有所不同？
+
+CDA使用包含多个相关组件的复杂并行处理管道。 原始报表包与CDA虚拟报表包之间的点击总数不匹配的数据大约为1%。 它对跨设备功能的影响最小。
+
+## 为什么“已识别人员”量度被夸大？
+
+如果计数略高于预期值，则eVar值可能属于多个已识别的人员，因为存在[哈希冲突](/help/implement/validate/hash-collisions.md)。 如果计数远高于预期值，请联系客户关怀团队以获取其他疑难解答步骤。

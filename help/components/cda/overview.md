@@ -2,10 +2,10 @@
 title: Cross-Device Analytics
 description: 通过将设备数据拼合在一起，将您的数据从以设备为中心更改为以人员为中心。
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 844df9d632f9e9cceb6c882f81360a83891e2143
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 99%
+source-wordcount: '771'
+ht-degree: 95%
 
 ---
 
@@ -15,6 +15,10 @@ Cross-Device Analytics 是一项功能，可将 Analytics 从以设备为中心�
 
 * [**基于字段的拼合**](field-based-stitching.md)：允许您选择一个 Analytics 变量作为在虚拟报表包中跨设备拼合的基础。使用确定性匹配将设备链接在一起。Adobe 建议对大多数确定性匹配用例使用基于字段的拼合。
 * [**设备图**](device-graph.md)：CDA 与设备图进行通信，以便将设备拼合在一起。协作图使用确定性匹配和概率性匹配。
+
+>[!NOTE]
+>
+>有关[设备协作生命周期终止](https://experienceleague.adobe.com/docs/device-co-op/using/about/device-co-op-eol.html)的更多信息。
 
 通过使用 CDA，您可以回答类似下面的问题：
 
@@ -44,10 +48,11 @@ Cross-Device Analytics 是一项具有突破性的强大功能，但其使用方
 * CDA 仅通过 Analysis Workspace 提供。
 * Cross-Device Analytics 不适用于多个报表包，也无法合并多个报表包的数据。
 * Adobe Analytics 报表包无法映射到多个 IMS 组织。由于 CDA 拼合给定报表包内的设备，因此 CDA 无法用于拼合多个 IMS 组织之间的数据。
-* 专用图形利用 Experience Cloud 和 Adobe Analytics 中的[客户属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hans#customer-attributes)功能所使用的相同 ID 同步。但是，CDA 虚拟报表包（无论是基于专用图形还是基于字段的拼接）与其余的“客户属性”功能不兼容。也就是说，基于客户属性的维度在 CDA 虚拟报表包中不可用。
+* 专用图形利用 Experience Cloud 和 Adobe Analytics 中的[客户属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#customer-attributes)功能所使用的相同 ID 同步。但是，CDA 虚拟报表包（无论是基于专用图形还是基于字段的拼接）与其余的“客户属性”功能不兼容。也就是说，基于客户属性的维度在 CDA 虚拟报表包中不可用。
 * CDA 当前与 A4T 不兼容。
 * Cross-Device Analytics 使用虚拟报表包和报表时间处理，二者各有其自身的限制。有关具体限制的详细信息，请参阅[虚拟报表包](../vrs/vrs-about.md)和[报表时间处理](../vrs/vrs-report-time-processing.md)。
 * 不支持 1.4 API。Power BI 连接器和 Report Builder 都依赖于 1.4 API，因此与 CDA 不兼容。
-* 虚拟报表包中的历史数据会因 Adobe 识别和拼合的设备而发生变化。源报表包中的数据不会更改。
 * Adobe 对于 CDA 拼接过程的主动监视仅适用于生产报告包。
 * CDA 当前与 Adobe Analytics [数据修复 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md) 不兼容
+* 虚拟报表包中的历史数据会因 Adobe 识别和拼合的设备而发生变化。源报表包中的数据不会更改。
+* 拼合数据需要等待8到12小时。
