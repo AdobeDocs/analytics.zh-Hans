@@ -3,9 +3,9 @@ title: 在 Adobe Analytics 中删除机器人
 description: 如何删除 Adobe Analytics 中的机器人
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
 source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '796'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 91%
 * 首先，它使用 navigator.UserAgent 变量确定设备是桌面还是移动设备。移动设备将被忽略。
 * 如果是桌面设备，该插件将添加一个用于了解鼠标移动的事件侦听器。
 
-有关详细信息，请参阅 [Adobe Analytics 实施指南](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/websitebot.html?lang=zh-Hans)。
+有关详细信息，请参阅[《Adobe Analytics 实施指南》](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/websitebot.html?lang=zh-Hans)。
 
 ## 使用 Adobe 工具组合
 
@@ -41,7 +41,7 @@ ht-degree: 91%
 
 ### 步骤 1：将访客的 Experience Cloud ID 传递到新声明的 ID
 
-要开始，请在 [People Core Service](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans) 中创建新声明的 ID。将访客的Experience CloudID传递到此新声明的ID中，您可以通过Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en)中的[标记快速轻松地完成此操作。 我们使用名称“ECID”作为声明的 ID。
+要开始，请在 [People Core Service](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans) 中创建新声明的 ID。将您的访客 Experience Cloud ID 传递到此新声明的 ID 中，这可以使用 [Adobe Experience Platform 中的标记](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh-Hans)快速轻松地完成。我们使用名称“ECID”作为声明的 ID。
 
 ![](assets/bot-cust-attr-setup.png)
 
@@ -49,7 +49,7 @@ ht-degree: 91%
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-设置此数据元素后，请按照[这些说明](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en)，使用Adobe Experience Platform中的标记将声明的ID传递到ECID工具中。
+设置了数据元素之后，请按照[这些说明](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh-Hans)将声明的 ID 传递到使用 Adobe Experience Platform 中的标记的 ECID 工具中。
 
 ### 步骤 2：使用分段识别机器人
 
@@ -72,7 +72,7 @@ Data Warehouse 报表到达之后，您就有了必须从历史数据中筛选�
 * **ECID**：确保此列标题与您为以上新声明的 ID 提供的名称相匹配。
 * **机器人标记**：添加“机器人标记”作为客户属性架构维度。
 
-将此 .CSV 文件用作“客户属性”导入文件，然后按照此[博客文章](https://theblog.adobe.com/link-digital-behavior-customers)中的说明，将报表包订阅给“客户属性”。
+将此 .CSV 文件用作“客户属性”导入文件，然后按照此[博客帖子](https://theblog.adobe.com/link-digital-behavior-customers)中的说明，将报表包订阅给“客户属性”。
 
 ![](assets/bot-csv-4.png)
 
