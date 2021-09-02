@@ -3,9 +3,9 @@ title: 动态变量
 description: 在不增加图像请求长度的情况下复制变量。
 exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 93%
 >
 >在复制变量时需要注意最大字符限制。例如，如果将 `eVar1` 复制到 `prop1`，`prop1` 的值可能会被截断，因为它的长度限制为 100 字节（而 `eVar1` 的长度限制为 255 字节）。
 
-## 在Adobe Experience Platform中使用标记的动态变量
+## 使用 Adobe Experience Platform 中的标记的动态变量
 
 您可以在接受字符串的任何维度字段中使用动态变量。通常会在配置 Analytics 扩展（全局变量）时或根据规则设置维度项目。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 2. 单击所需的属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
@@ -36,7 +36,7 @@ ht-degree: 93%
 
 将动态变量前缀置于文本字段中，然后放置要引用的查询字符串参数或 HTTP 标头。默认情况下，动态变量前缀为 `D=`。
 
-## AppMeasurement 和 自定义代码编辑器中的动态变量
+## AppMeasurement 和自定义代码编辑器中的动态变量
 
 动态变量是分配给其他变量的文本字符串。默认的动态变量前缀为 `D=`。动态变量区分大小写。
 
