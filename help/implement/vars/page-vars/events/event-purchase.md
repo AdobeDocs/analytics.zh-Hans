@@ -3,9 +3,9 @@ title: 购买事件
 description: 使用购买事件收集“订单数”、“件数”和“收入”量度的数据。
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -23,18 +23,18 @@ ht-degree: 90%
 >
 >收入不是乘以数量字段。例如，`s.products="Womens;Socks;5;4.50"` 不会向收入传递 $22.50，而是传递 $4.50。请确保您的实施传递了所列数量的总收入。例如：`s.products="Womens;Socks;5;22.50"`。
 
-## 在Adobe Experience Platform中使用标记设置购买事件
+## 使用 Adobe Experience Platform 中的标记的“设置购买事件”
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 2. 单击所需的属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
 5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
 6. 找到[!UICONTROL 事件]部分，然后将事件下拉列表设置为[!UICONTROL 购买]。
 
-其他因变量（如`products`和`purchaseID`）在数据收集UI中没有专用字段。 对这些变量使用遵循 AppMeasurement 语法的自定义代码编辑器。
+其他因变量（如 `products` 和 `purchaseID`）在数据收集 UI 中没有专门的字段。对这些变量使用遵循 AppMeasurement 语法的自定义代码编辑器。
 
-## 在 AppMeasurement 和 自定义代码编辑器中设置购买事件
+## 在 AppMeasurement 和自定义代码编辑器中设置购买事件
 
 购买事件是设置为 event 变量一部分的字符串。
 
