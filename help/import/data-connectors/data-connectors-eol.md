@@ -3,9 +3,9 @@ description: 了解 Analytics 数据连接器生命周期终止的时间和原�
 title: Analytics 数据连接器生命周期终止预告
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 source-git-commit: 831d86317633466b5b6ceb9bfc49e36caaf62855
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '667'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 十多年来，Adobe Analytics 始终致力于提供一流的网络和营销分析解决方案来满足客户的需求。随着技术和业务需求的发展，我们努力地持续践行这一目标并实现最高标准。遗憾的是，支持这一集成的 API 已不再满足这些标准，并且也无法应用于现代 Adobe Analytics 技术基础设施中。
 
-**自2021年8月19日起**,Adobe将中断Data Connectors集成。生命周期终止是任何技术产品生命周期的一部分，Adobe 旨在尽可能地让客户和合作伙伴实现无缝过渡。这些集成中的许多资源可通过 Adobe Exchange 获得，并可以继续加以利用。
+**自 2021 年 8 月 19 日起**，Adobe 将中断数据连接器集成。生命周期终止是任何技术产品生命周期的一部分，Adobe 旨在尽可能地让客户和合作伙伴实现无缝过渡。这些集成中的许多资源可通过 Adobe Exchange 获得，并可以继续加以利用。
 
 ## 为什么我们要终止使用此功能？
 
@@ -31,7 +31,7 @@ ht-degree: 98%
 
 ## 数据连接器合作伙伴状态
 
-*最新更新：2021年8月2日（《豪特套房》）*
+*最新更新：2021 年 8 月 2 日 (Hootsuite)*
 
 | 合作伙伴 | 状态 |
 | --- | --- |
@@ -51,7 +51,7 @@ ht-degree: 98%
 | Experian CheetahMail | 迁移至 Exchange |
 | ClickTale | 弃用 |
 | Clicktale CA | 弃用 |
-| Conductor 2.0、Conductor、Conductor Organic 量度 | 弃用 |
+| Conductor 2.0、Conductor、Conductor Organic Metrics | 弃用 |
 | ContactLab 2.0 (Contact Send Connector) | 弃用 |
 | Coradiant TrueSight | 弃用 |
 | D&amp;B Visitor Intelligence | 弃用 |
@@ -74,7 +74,7 @@ ht-degree: 98%
 | 适用于 Adobe Analytics 的 EveryoneSocial | 弃用 |
 | ExactTarget、ExactTarget 2.0 | 弃用 |
 | Fiksu | 弃用 |
-| Foresee (v2.0)、Foresee 反馈、Foresee 结果 | 弃用 |
+| Foresee (v2.0)、Foresee Feedback、Foresee Results | 弃用 |
 | Gigya | 弃用 |
 | Hootsuite | 迁移至 Exchange |
 | hybris | 弃用 |
@@ -103,7 +103,7 @@ ht-degree: 98%
 | WhatCounts Email | 弃用 |
 | wywy | 弃用 |
 | Yesmail Enterprise | 弃用 |
-| Zeta 交互式 | 弃用 |
+| Zeta Interactive | 弃用 |
 
 ## 例外：Adobe Campaign Classic
 
