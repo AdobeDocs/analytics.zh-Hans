@@ -3,13 +3,13 @@ title: list
 description: 在同一点击中保留多个值的自定义变量。
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '366'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# 列表
+# list
 
 列表变量是自定义变量，您可以根据需要随意使用。它们的工作方式与 eVar 类似，只是它们可以在同一点击中包含多个值。列表变量没有字符限制。
 
@@ -21,13 +21,13 @@ ht-degree: 93%
 
 ## 在报表包设置中设置列表变量
 
-确保先在报表包设置中配置每个列表变量，然后再在实施中使用它们。请参阅管理员指南中的[转化变量](/help/admin/admin/conversion-var-admin/list-var-admin.md)。
+确保先在报表包设置中配置每个列表变量，然后再在实施中使用它们。请参阅《管理员指南》中的[转化变量](/help/admin/admin/conversion-var-admin/list-var-admin.md)。
 
-## 在Adobe Experience Platform中使用标记列出变量
+## 使用 Adobe Experience Platform 中的标记的列表变量
 
-数据收集UI中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
+数据收集 UI 中没有专门的字段来使用此变量。按照 AppMeasurement 语法使用自定义代码编辑器。
 
-## AppMeasurement 和 自定义代码编辑器中的 s.list1 - s.list3
+## AppMeasurement 和自定义代码编辑器中的 s.list1 - s.list3
 
 每个列表变量都是一个字符串，其中包含特定于贵组织的自定义值。它们没有字节数上限；但是，单个值的最大长度为 255 字节。在报表包设置中设置变量时，将会确定使用的分隔符。在分隔多个项目时不要使用空格。
 
