@@ -3,9 +3,9 @@ title: t
 description: 向 Adobe 发送页面查看跟踪调用。
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '276'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -35,18 +35,18 @@ https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 
 Adobe 会接收图像请求，然后解析请求标头、URL 和查询字符串参数。然后，数据收集服务器会返回透明的 1x1 像素图像，该图像会隐式显示在您的网站上。
 
-## 在Adobe Experience Platform中使用标记的页面查看跟踪调用
+## 使用 Adobe Experience Platform 中的标记的页面查看跟踪调用
 
-数据收集UI具有一个专用位置，用于设置页面查看跟踪调用。
+数据收集 UI 中有一个专门用来设置页面查看跟踪调用的位置。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 2. 单击所需的属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击“+”图标
 5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为“发送信标”。
 6. 单击 `s.t()` 单选按钮。
 
-## AppMeasurement 和 自定义代码编辑器中的 s.t() 方法
+## AppMeasurement 和自定义代码编辑器中的 s.t() 方法
 
 当您要向 Adobe 发送跟踪调用时，请调用 `s.t()` 方法。
 
