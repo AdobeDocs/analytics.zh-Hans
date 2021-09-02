@@ -3,9 +3,9 @@ title: 集成模块
 description: 借助集成模块，Adobe 合作伙伴可以将其数据收集工作与您的组织集成在一起。
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '888'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 93%
 
 1. 站点的访客将加载一个页面，该页面会向合作伙伴发起 `get` 请求。
 2. Adobe 合作伙伴接收 `get` 请求，并将相应的变量打包到 JSON 对象中。返回 JSON 对象。
-3. 站点将接收 JSON 对象，并调用 `setVars` 以将 JSON 对象中包含的信息分配给 Adobe Analytics 变量
+3. 站点将接收 JSON 对象，并调用 `setVars` 以将 JSON 对象中包含的信息分配给 Adobe Analytics 变量。
 4. 图像请求被发送到 Adobe 数据收集服务器。
 
 ## 集成模块实施
@@ -30,7 +30,7 @@ ht-degree: 93%
 
 ### 获取集成模块代码
 
-获取模块代码要求用户具有产品管理员访问权限或属于某个具有代码管理器访问权限的产品配置文件。对于包括Adobe Experience Platform中的标记在内的所有实施方法，获取模块代码的方法都是相同的。
+获取模块代码要求用户具有产品管理员访问权限或属于某个具有代码管理器访问权限的产品配置文件。对于包括 Adobe Experience Platform 中的标记在内的所有实施方法，获取模块代码的方法都是相同的。
 
 1. 使用您的 Adobe ID 凭据登录 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 1. 单击右上角的 9 个正方形图标，然后单击彩色的 Analytics 徽标。
@@ -40,9 +40,9 @@ ht-degree: 93%
 
 ### 将集成模块放入实施中
 
-在您的网站上实施集成模块时，需要访问Adobe Experience Platform中的数据收集UI。 如果使用旧版 JavaScript 实施，则需要具有访问贵组织网站源代码的权限。
+在您的网站上实施集成模块需要访问 Adobe Experience Platform 中的数据收集 UI。如果使用旧版 JavaScript 实施，则需要具有访问贵组织网站源代码的权限。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击要编辑的标记属性。
 1. 单击“扩展”选项卡，然后单击 Adobe Analytics 下的“配置”。
 1. 打开“使用自定义代码配置跟踪器”折叠面板，然后单击“&lt;/> 打开编辑器”。
