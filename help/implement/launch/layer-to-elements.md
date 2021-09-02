@@ -1,30 +1,30 @@
 ---
 title: 将数据层对象映射到数据元素
-description: 配置要从数据层读取的标记。
+description: 将标记配置为从数据层读取。
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '357'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
 # 将数据层对象映射到数据元素
 
-贵组织在网站上建立并实施数据层后，即可将数据层对象映射到标记中的数据元素。
+您的组织在网站上建立并实施数据层后，您可以将数据层对象映射到标记内的数据元素。
 
 >[!NOTE]
->Adobe Experience Platform Launch已在Experience Platform中被重新命名为一套数据收集技术。 因此，在产品文档中推出了一些术语更改。 有关术语更改的统一参考，请参阅以下[文档](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en)。
+>Adobe Experience Platform Launch 已更名为 Experience Platform 中的一套数据收集技术。因此，产品文档中的术语有一些改动。有关术语更改的综合参考，请参阅以下[文档](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=zh-Hans)。
 
 ## 先决条件
 
-[创建数据层](../prepare/data-layer.md)：确保网站上存在数据层。虽然从技术上讲，您可以直接从页面映射任何 JavaScript 对象或抓取 CSS 元素，但是 Adobe 建议只有在万不得已时才使用此做法。如果网站布局发生更改，则标记中使用的CSS选择器将停止工作，从而导致数据丢失。
+[创建数据层](../prepare/data-layer.md)：确保网站上存在数据层。虽然从技术上讲，您可以直接从页面映射任何 JavaScript 对象或抓取 CSS 元素，但是 Adobe 建议只有在万不得已时才使用此做法。如果网站版面发生更改，则标记中使用的 CSS 选择器会停止工作，进而导致数据丢失。
 
 ## 使用标记创建数据元素
 
-[数据](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en) 元素是数据收集UI中的组件，您可以在整个工具中使用这些组件。您可以使用数据元素在 Adobe Analytics 扩展中分配变量值。
+[数据元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=zh-Hans)是数据收集 UI 中的组件，您可以在整个工具中使用这些组件。您可以使用数据元素在 Adobe Analytics 扩展中分配变量值。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
 1. 单击&#x200B;**[!UICONTROL 数据元素]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 添加新数据元素]**。
 
