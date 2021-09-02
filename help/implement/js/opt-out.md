@@ -3,9 +3,9 @@ title: 选择退出链接
 description: 了解如何为网站的访客创建实施选择退出链接。
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->Adobe 建议使用选择加入服务，尤其是需要遵从 GDPR 法规的组织。请参阅 Experience Cloud Identity Service 用户指南中的[选择加入服务概述](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hans)。
+>Adobe 建议使用选择加入服务，尤其是需要遵从 GDPR 法规的组织。请参阅《Experience Cloud Identity Service 用户指南》中的[选择加入服务概述](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hans)。
 
 某些访问您网站的访客不愿意将他们的浏览信息包含在您的数据集中。Adobe 让您能够向网站访客提供一种方案，禁止收集他们的信息。所有实施类型均适用；贵组织有责任遵守自己的隐私政策，同时也应遵守已签署的条款。
 
@@ -21,14 +21,14 @@ ht-degree: 96%
 
 >[!TIP]
 >
->Adobe 还根据每个报表包提供了相应的隐私设置。请参阅管理员用户指南中的[隐私设置](../../admin/admin/privacy-settings.md)。
+>Adobe 还根据每个报表包提供了相应的隐私设置。请参阅《管理员用户指南》中的[隐私设置](../../admin/admin/privacy-settings.md)。
 
 ## 选择退出 URL
 
 贵组织的选择退出页面取决于实施中的 [`trackingServer`](../vars/config-vars/trackingserver.md) 变量值。
 
-* 在数据收集UI中：
-   1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+* 在数据收集 UI 中：
+   1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
    1. 单击所需的属性。
    1. 单击[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的[!UICONTROL 配置]。
    1. 单击[!UICONTROL 常规]折叠面板，并记下[!UICONTROL 跟踪服务器]值。
@@ -37,9 +37,9 @@ ht-degree: 96%
    1. 在 Web 服务器上，在代码编辑器或文本编辑器中打开您网站上使用的 AppMeasurement.js 文件。
    1. 记下 `trackingServer` 变量值。
 
-* 使用 [Adobe Experience Cloud 调试器](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans)：
+* 使用 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans)：
    1. 使用 Chrome 浏览器导航到您的网站。
-   1. 打开 Experience Cloud 调试器，然后转到[!UICONTROL 网络]选项卡。
+   1. 打开 Experience Cloud Debugger，然后转到[!UICONTROL 网络]选项卡。
    1. 记下[!UICONTROL 请求 URL - 主机名]值。
 
 找到实施的 `trackingServer` 域后，将路径 `/optout.html` 附加到结尾处。例如：
