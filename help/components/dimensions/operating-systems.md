@@ -3,9 +3,9 @@ title: 操作系统
 description: 访客的操作系统。
 exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '105'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 80%
 
 ## 使用数据填充此维度
 
-此维度引用 Adobe 内部的一个查找表。查找值基于图像请求中的 `User-Agent` HTTP 标头。如果您使用AppMeasurement库(例如，通过Adobe Experience Platform中的标记)，则此维度可开箱即用。
+此维度引用 Adobe 内部的一个查找表。查找值基于图像请求中的 `User-Agent` HTTP 标头。如果您使用 AppMeasurement 库（例如，通过 Adobe Experience Platform 中的标记），则此维度可开箱即用。
 
 ## 维度项目
 
