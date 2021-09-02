@@ -3,9 +3,9 @@ title: currencyCode 变量是什么以及怎样使用它？
 description: 对于电子商务网站，设置页面交易的货币。
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 97%
 
 对于商业网站，收入和货币是 Analytics 的重要组成部分。很多网站（尤其是跨多个国家/地区的网站）都会使用多种不同的货币。使用 `currencyCode` 变量可确保按正确的币种计算收入。
 
-如果未定义 `currencyCode` 但定义了货币值，则会将 [`products`](../page-vars/products.md) 变量和货币事件视为与报表包中使用的货币相同。要了解报表包中使用的货币，请参阅管理员用户指南中的[常规帐户设置](/help/admin/admin/general-acct-settings-admin.md)。
+如果未定义 `currencyCode` 但定义了货币值，则会将 [`products`](../page-vars/products.md) 变量和货币事件视为与报表包中使用的货币相同。要了解报表包中使用的货币，请参阅《管理员用户指南》中的[常规帐户设置](/help/admin/admin/general-acct-settings-admin.md)。
 
 如果 `currencyCode` 已定义并且与报表包中使用的货币相一致，则无需进行货币换算。
 
@@ -25,11 +25,11 @@ ht-degree: 97%
 
 此变量不会在点击之间保留。确保在涉及收入或货币事件的每个页面上定义此变量。
 
-## 使用Adobe Experience Platform中标记的货币代码
+## 使用 Adobe Experience Platform 中的标记的“货币代码”
 
 “货币代码”是在配置 Adobe Analytics 扩展时显示在[!UICONTROL 常规]折叠面板中的一个字段。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的[!UICONTROL 配置]按钮。
 1. 展开[!UICONTROL 常规]折叠面板，这会显示[!UICONTROL 货币代码]字段。
@@ -46,7 +46,7 @@ ht-degree: 97%
 
 您可以使用预设货币代码或自定义货币代码。如果使用自定义货币代码，请确保该代码有效。
 
-## AppMeasurement 和 自定义代码编辑器中的 s.currencyCode
+## AppMeasurement 和自定义代码编辑器中的 s.currencyCode
 
 `s.currencyCode` 变量是一个字符串，其中包含由 3 个大写字母构成的表示页面上所用货币的代码。
 
