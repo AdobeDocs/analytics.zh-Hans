@@ -3,9 +3,9 @@ title: registerPostTrackCallback
 description: 在向 Adobe 发送点击后创建回调函数。
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 87%
 >
 > [`registerPreTrackCallback`](registerpretrackcallback.md) 和 `registerPostTrackCallback` 之间触发函数的时间和顺序无法得到保证。避免这两个函数之间存在依赖关系。
 
-## 在Adobe Experience Platform中使用标记注册后跟踪回调
+## 使用 Adobe Experience Platform 中的标记的“注册后跟踪回调”
 
-数据收集UI中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
+数据收集 UI 中没有专门的字段来使用此变量。按照 AppMeasurement 语法使用自定义代码编辑器。
 
-## AppMeasurement 和 自定义代码编辑器中的 s.registerPostTrackCallback
+## AppMeasurement 和自定义代码编辑器中的 s.registerPostTrackCallback
 
-`s.registerPostTrackCallback` 是一个函数，只接受函数作为参数。嵌套函数在成功发送图像请求后立即运行。
+`s.registerPostTrackCallback` 是一个函数，只接受函数作为参数。嵌套函数在成功发送图像请求之后立即运行。
 
 ```js
 s.registerPostTrackCallback(function(){/* Desired code */});
