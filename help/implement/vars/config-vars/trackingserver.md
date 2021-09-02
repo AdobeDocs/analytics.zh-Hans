@@ -3,9 +3,9 @@ title: trackingServer
 description: 确定发送图像请求的位置。
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,18 +17,18 @@ Adobe 通过接收访客生成的图像请求来收集您网站上的数据。`t
 >
 >更改此值会使 AppMeasurement 在其他位置查找 Cookie。当在新位置设置访客 Cookie 时，报表中的独特访客计数可能会暂时激增。
 
-## 在Adobe Experience Platform中使用标记跟踪服务器
+## 使用 Adobe Experience Platform 中的标记的“跟踪服务器”
 
 “跟踪服务器”是配置 Adobe Analytics 扩展时位于[!UICONTROL 常规]折叠面板下的字段。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 2. 单击所需的属性。
 3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的]配置[!UICONTROL 按钮。
 4. 展开[!UICONTROL 常规]折叠面板，这会显示[!UICONTROL 跟踪服务器]字段。
 
 如果此字段留空，则默认为 `[rsid].data.adobedc.net`。
 
-## AppMeasurement 和 自定义代码编辑器中的 s.trackingServer
+## AppMeasurement 和自定义代码编辑器中的 s.trackingServer
 
 `s.trackingServer` 变量是一个字符串，其中包含要发送数据的位置。
 
@@ -38,7 +38,7 @@ Adobe 通过接收访客生成的图像请求来收集您网站上的数据。`t
 
 ### 第一方 Cookie
 
-如果您使用第一方 Cookie 实施，则表示贵组织中的某人可能已经完成了第一方 Cookie 流程。有关第一方 Cookie 流程的更多信息，请参阅核心服务用户指南中的 [Experience Cloud 中的第一方 Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=zh-Hans)。
+如果您使用第一方 Cookie 实施，则表示贵组织中的某人可能已经完成了第一方 Cookie 流程。有关第一方 Cookie 流程的更多信息，请参阅《核心服务用户指南》中的 [Experience Cloud 中的第一方 Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=zh-Hans)。
 
 最初配置第一方 Cookie 实施的人员还会定义所使用的域和子域。例如：
 
