@@ -3,9 +3,9 @@ title: dynamicAccountSelection
 description: dynamicAccountSelection 变量可启用或禁用动态帐户选择。
 exl-id: ccb530f9-b128-4d2d-9b5d-9b305272f0a4
 source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '85'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 83%
 
 >[!IMPORTANT]
 >
->仅当使用旧版 JavaScript 实施（H 代码）时，才支持动态帐户。当前的AppMeasurement库或数据收集UI不支持这些变量。
+>仅当使用旧版 JavaScript 实施（H 代码）时，才支持动态帐户。当前的 AppMeasurement 库或数据收集 UI 不支持这些变量。
 
 `dynamicAccountSelection` 变量是一个布尔值，可确定是否使用动态帐户选择。
 
