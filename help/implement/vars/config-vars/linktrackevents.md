@@ -3,9 +3,9 @@ title: linkTrackEvents
 description: 确定要包含在链接跟踪图像请求中的事件。
 exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
 source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 67%
 
 页面查看调用（[`t()`](../functions/t-method.md) 方法）不使用此变量。
 
-## 链接跟踪调用中使用标记的事件在Adobe Experience Platform中
+## 使用 Adobe Experience Platform 标记的链接跟踪调用中的事件
 
-如果您不使用自定义代码，Adobe Experience Platform会在链接跟踪点击中自动包含定义的事件。
+如果您不使用自定义代码，Adobe Experience Platform 会自动将定义的事件包含在链接跟踪点击中。
 
 >[!IMPORTANT]
 >
->如果使用自定义代码编辑器在数据收集UI中设置事件，则还必须使用自定义代码在`linkTrackEvents`中包含该事件。
+>如果使用自定义代码编辑器在数据收集 UI 中设置事件，则还必须使用自定义代码在 `linkTrackEvents` 中包含该事件。
 
-## AppMeasurement 和 自定义代码编辑器中的 s.linkTrackEvents
+## AppMeasurement 和自定义代码编辑器中的 s.linkTrackEvents
 
 `s.linkTrackEvents` 变量是一个字符串，其中包含以逗号分隔的事件列表，您要将这些事件包含在链接跟踪图像请求（`tl()` 方法）中。必须满足以下三个条件才能在链接跟踪点击中包含量度：
 
@@ -35,7 +35,7 @@ ht-degree: 67%
 s.linkTrackEvents = "event1,event2,event3,purchase";
 ```
 
-此变量的默认值是空字符串。如果未定义此变量，则链接跟踪图像请求中将包括所有事件。请注意，数据收集会根据界面中设置的事件自动填充此变量，因此，对于在Adobe Experience Platform中使用标记的实施，始终会设置此变量。
+此变量的默认值是空字符串。如果未定义此变量，则链接跟踪图像请求中将包括所有事件。请注意，数据收集会根据界面中设置的事件自动填充此变量，因此始终为使用 Adobe Experience Platform 中的标记的实施设置此变量。
 
 >[!TIP]
 >
