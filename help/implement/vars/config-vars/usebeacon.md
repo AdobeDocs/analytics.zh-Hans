@@ -3,9 +3,9 @@ title: useBeacon
 description: 通过 useBeacon，您可以强制 AppMeasurement 使用浏览器 sendBeacon API
 exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 90%
 
 当访客使用的浏览器不支持 `useBeacon` 时，将忽略 `navigator.sendBeacon()` 变量。使用此变量需要 AppMeasurement 2.16.0 或更高版本。
 
-## 在Adobe Experience Platform中使用信标
+## 使用 Adobe Experience Platform 中的标记的“使用信标”
 
-数据收集UI中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
+数据收集 UI 中没有专门的字段来使用此变量。按照 AppMeasurement 语法使用自定义代码编辑器。
 
-## AppMeasurement 和 自定义代码编辑器中的 s.useBeacon
+## AppMeasurement 和自定义代码编辑器中的 s.useBeacon
 
 `s.useBeacon` 变量是一个布尔值，用于确定 AppMeasurement 是否使用浏览器的 `navigator.sendBeacon()` 方法。其默认值为 `false`。如果要使用 `navigator.sendBeacon()` 的异步特性，请在调用跟踪函数之前将此变量设置为 `true`。
 
@@ -35,4 +35,4 @@ s.useBeacon = true;
 
 >[!NOTE]
 >
-> 运行跟踪调用后，此变量将被重置为 `false`。如果您多个图像的实施在同一页面加载（例如单页应用程序）中发送了请求，请在每次跟踪调用之前将此变量设置为 `true`。
+>运行跟踪调用后，此变量将被重置为 `false`。如果您多个图像的实施在同一页面加载（例如单页应用程序）中发送了请求，请在每次跟踪调用之前将此变量设置为 `true`。
