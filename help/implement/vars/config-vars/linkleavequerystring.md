@@ -3,9 +3,9 @@ title: linkLeaveQueryString
 description: 允许在链接跟踪维度中保留查询字符串。
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,18 +23,18 @@ ht-degree: 92%
 >
 >此变量不影响链接跟踪外部的维度。它仅影响自定义链接、退出链接和下载链接。
 
-## 在Adobe Experience Platform中使用标记保留URL参数
+## 使用 Adobe Experience Platform 中的标记的“保留 URL 参数”
 
 [!UICONTROL 保留 URL 参数]是配置 Adobe Analytics 扩展时位于[!UICONTROL 链接跟踪]折叠面板下方的复选框。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 2. 单击所需的属性。
 3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的]配置[!UICONTROL 按钮。
 4. 展开[!UICONTROL 链接跟踪]折叠面板，这会显示[!UICONTROL 保留 URL 参数]复选框。
 
 如果要在链接跟踪维度中包含查询字符串，请选中此框。
 
-## AppMeasurement 和 自定义代码编辑器中的 s.linkLeaveQueryString
+## AppMeasurement 和自定义代码编辑器中的 s.linkLeaveQueryString
 
 `s.linkLeaveQueryString` 变量是一个布尔值。其默认值为 `false`。
 
