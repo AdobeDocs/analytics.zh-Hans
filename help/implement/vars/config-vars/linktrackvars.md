@@ -3,9 +3,9 @@ title: linkTrackVars
 description: 指定要包含在链接跟踪图像请求中的变量。
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
 source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '275'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 77%
 
 页面查看调用（[`t()`](../functions/t-method.md) 方法）不使用此变量。
 
-## 链接跟踪调用中使用标记的变量位于Adobe Experience Platform中
+## 使用 Adobe Experience Platform 标记的链接跟踪调用中的变量
 
-Adobe Experience Platform会根据界面中设置的变量，在后端自动填充此变量，因此实施中始终使用Adobe Experience Platform中的标记来设置此变量。
+Adobe Experience Platform 会根据界面中设置的变量自动填充后端上的此变量，因此始终为使用 Adobe Experience Platform 中的标记的实施设置此变量。
 
 >[!IMPORTANT]
 >
->如果使用自定义代码编辑器设置变量，则还必须使用自定义代码在`linkTrackVars`中包含该变量。
+>如果使用自定义代码编辑器设置变量，则还必须使用自定义代码在 `linkTrackVars` 中包含该变量。
 
-## AppMeasurement 和 自定义代码编辑器中的 s.linkTrackVars
+## AppMeasurement 和自定义代码编辑器中的 s.linkTrackVars
 
 `s.linkTrackVars` 变量是一个字符串，其中包含以逗号分隔的变量列表，您要将这些事件包含在链接跟踪图像请求（`tl()` 方法）中。必须满足以下两个条件才能在链接跟踪点击中包含维度：
 
@@ -36,7 +36,7 @@ s.linkTrackVars = "eVar1,eVar2,events,channel,products";
 
 此变量的默认值是空字符串。但是，Adobe 在代码管理器中提供了 AppMeasurement 代码，其中该变量被设置为 `"None"`。有效值是用于填充维度的任何页面级变量。
 
-* 如果未定义此变量或将其设置为空字符串，则&#x200B;*所有*&#x200B;变量都将包含在链接跟踪图像请求中。
+* 如果未定义此变量或将其设置为空字符串，则&#x200B;*所有* 变量都将包含在链接跟踪图像请求中。
 * 如果此变量被设置为 `"None"`,则链接跟踪图像请求中&#x200B;*不*&#x200B;包含任何变量。
 
 >[!TIP]
