@@ -3,9 +3,9 @@ title: H 代码实施疑难解答
 description: 了解旧版 JavaScript 实施存在的一些常见问题。
 exl-id: 51d6e286-7008-4736-a196-bd8ac4e3e9cb
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '245'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->虽然H代码实施要求在`<body>`标记中引用代码，但其他实施(如在Adobe Experience Platform中使用标记)要求在`<head>`标记中引用代码。
+>虽然 H 码实施要求在 `<body>` 标记中引用代码，但其他实施（如使用 Adobe Experience Platform 中的标记的实施）要求在 `<head>` 标记中引用代码。
 
 Analytics 代码可创建不可见的 1x1 像素图像。过去，一种常用的实施做法是将 `s_code.js` 引用放置到 `<head>` 标记中。将代码放置到此处可防止图像以任何方式影响页面布局。此外，Analytics 代码还可以更快执行，从而允许您更有效地计算部分页面加载的页面查看次数。
 
