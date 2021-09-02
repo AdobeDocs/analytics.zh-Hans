@@ -3,23 +3,23 @@ title: events
 description: 设置事件变量，该变量可控制网站上的大多数量度。
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# 事件
+# events
 
 维度和量度是报表的重要组成部分。`events` 变量负责收集您网站上许多量度的数据。事件通常会递增报表中的[量度](/help/components/metrics/overview.md)。
 
 在实施事件之前，请确保在报表包设置的[成功事件](/help/admin/admin/c-success-events/success-event.md)下创建和配置事件。如果您计划在链接跟踪点击中使用自定义事件，请确保正确设置 [`linkTrackVars`](../../config-vars/linktrackvars.md) 和 [`linkTrackEvents`](../../config-vars/linktrackevents.md)。
 
-## 在Adobe Experience Platform中使用标记的事件
+## 使用 Adobe Experience Platform 中的标记的“事件”
 
 您可以在配置 Analytics 扩展时（全局变量）或根据规则设置事件。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 2. 单击所需的属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
@@ -33,11 +33,11 @@ ht-degree: 96%
 * 用于事件值的可选文本字段。您可以包含货币（货币事件）或整数（非货币事件）以使其多次递增。例如，在下拉列表下选择 `event1` 并在此字段中包含 `10`，报表中的 `event1` 将以 10 为单位进行递增。
 * 用于添加其他事件的按钮。对于可包含在点击中的事件数，没有相应的限制。
 
-## AppMeasurement 和 自定义代码编辑器中的 s.events
+## AppMeasurement 和自定义代码编辑器中的 s.events
 
 `s.events` 变量是一个字符串，其中包含要包含在点击中的以逗号分隔的事件列表。此变量没有字节限制，因此不会被截断。有效的值包括：
 
-* `event1` - `event1000`：自定义事件，根据需要进行设置。在贵组织的[解决方案设计文档](../../../prepare/solution-design.md)中记录如何使用每个事件。可用事件的数量取决于贵组织的 Analytics 合同。大多数使用非传统合同的组织具有 1000 个可用的自定义事件。如果您不确定有多少自定义事件可供使用，请与贵组织的客户经理联系。
+* `event1` - `event1000`：自定义事件，根据需要进行设置。在贵组织的[解决方案设计文档](../../../prepare/solution-design.md)中记录如何使用每个事件。可用事件的数量取决于贵组织的 Analytics 合同。大多数使用非传统合同的组织具有 1,000 个可用的自定义事件。如果您不确定有多少自定义事件可供使用，请与贵组织的客户经理联系。
 * `purchase`：将[“订单”](/help/components/metrics/orders.md)量度以 1 为单位递增，并采用 `products` 变量中设置的值来计算[“件数”](/help/components/metrics/units.md)和[“收入”](/help/components/metrics/revenue.md)。有关更多信息，请参阅[购买事件](event-purchase.md)。
 * `prodView`：增加[“产品查看次数”](/help/components/metrics/product-views.md)量度。
 * `scOpen`：增加[“购物车”](/help/components/metrics/carts.md)量度。
