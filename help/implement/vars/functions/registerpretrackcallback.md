@@ -3,9 +3,9 @@ title: registerPreTrackCallback
 description: 在将点击发送到 Adobe 之前创建回调函数。
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '265'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -15,19 +15,19 @@ ht-degree: 90%
 
 >[!IMPORTANT]
 >
-> 在 [`t()`](t-method.md) 变量内请勿调用任何跟踪函数，如 [`tl()`](tl-method.md) 或 [`registerPostTrackCallback`](registerposttrackcallback.md)。此变量中的跟踪函数可能会导致图像请求无限循环！
+>在 [`registerPostTrackCallback`](registerposttrackcallback.md) 变量内请勿调用任何跟踪调用，如 [`t()`](t-method.md) 或 [`tl()`](tl-method.md)。此变量中的跟踪函数可能会导致图像请求无限循环！
 
 每次调用 `registerPreTrackCallback` 变量时，您都会挂接该函数以在每次编译图像请求 URL 时运行。避免在同一页面加载过程中多次注册同一函数。
 
 >[!NOTE]
 >
-> `registerPreTrackCallback` 和 `registerPostTrackCallback` 之间触发函数的时间和顺序无法得到保证。避免这两个函数之间存在依赖关系。
+>`registerPreTrackCallback` 和 `registerPostTrackCallback` 之间触发函数的时间和顺序无法得到保证。避免这两个函数之间存在依赖关系。
 
-## 在Adobe Experience Platform中使用标记注册预跟踪回调
+## 使用 Adobe Experience Platform 中的标记的“注册预跟踪回调”
 
-数据收集UI中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
+数据收集 UI 中没有专门的字段来使用此变量。按照 AppMeasurement 语法使用自定义代码编辑器。
 
-## AppMeasurement 和 自定义代码编辑器中的 s.registerPreTrackCallback
+## AppMeasurement 和自定义代码编辑器中的 s.registerPreTrackCallback
 
 `s.registerPreTrackCallback` 是一个函数，只接受函数作为参数。嵌套函数在发送图像请求之前运行。
 
@@ -56,4 +56,4 @@ s.registerPreTrackCallback(function(requestUrl,a,b,c) {
 
 >[!NOTE]
 >
-> 在此函数中设置页面变量或更改 `requestUrl` 字符串&#x200B;**不**&#x200B;会影响在此函数调用后不久发送的图像请求。请改用 [`doPlugins()`](doplugins.md) 变量。
+>设置页面变量或更改此函数中的 `requestUrl` 字符串&#x200B;**不会**&#x200B;影响在此函数调用后不久发送的图像请求。请改用 [`doPlugins()`](doplugins.md) 变量。
