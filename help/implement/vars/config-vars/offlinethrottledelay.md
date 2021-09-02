@@ -3,9 +3,9 @@ title: offlineThrottleDelay
 description: 确定设备恢复为在线状态时的点击频率。
 exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 86%
 
 当设备恢复为在线状态时，存储在设备上的所有点击都将被发送到 Adobe 数据收集服务器。如果已排队点击的数量过大，可能会潜在地影响旧设备的性能。使用 `offlineThrottleDelay` 变量可确定将已排队的点击发送到 Adobe 的频率。
 
-## 在Adobe Experience Platform中使用标记的离线限制延迟
+## 使用 Adobe Experience Platform 中的标记的“离线节流延迟”
 
-数据收集UI中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
+数据收集 UI 中没有专门的字段来使用此变量。按照 AppMeasurement 语法使用自定义代码编辑器。
 
-## AppMeasurement 和 自定义代码编辑器中的 s.offlineThrottleDelay
+## AppMeasurement 和自定义代码编辑器中的 s.offlineThrottleDelay
 
 `s.offlineThrottleDelay` 变量是一个整数，它表示 AppMeasurement 在发送已排队两个点击之间等待的毫秒数。其默认值是 `0`，这意味着会同时发送所有已排队的点击。如果 `trackOffline` 为 `false`，则此变量不执行任何操作。
 
