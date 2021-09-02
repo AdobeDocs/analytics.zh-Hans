@@ -3,15 +3,15 @@ title: 迁移到 AppMeasurement for JavaScript
 description: 确定从 H 码迁移实施所需的内容。
 exl-id: ed606ab4-bd7d-4871-baa1-77e30fdd419e
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '292'
+ht-degree: 100%
 
 ---
 
 # 迁移到 AppMeasurement for JavaScript
 
-如果您的实施仍使用 H 码，Adobe 强烈建议迁移到最新版 AppMeasurement。建议在Adobe Experience Platform](../launch/overview.md)中通过[标记实施Analytics，但可以使用更新的JavaScript实施。
+如果您的实施仍使用 H 码，Adobe 强烈建议迁移到最新版 AppMeasurement。建议通过 [Adobe Experience Platform 中的标记](../launch/overview.md) 实施 Analytics，但也可以使用更新的 JavaScript 实施。
 
 与 H 码相比，AppMeasurement 中存在以下显著更改：
 
