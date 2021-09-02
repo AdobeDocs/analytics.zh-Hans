@@ -3,9 +3,9 @@ title: Analytics 工具的产品配置文件权限
 description: Analytics 工具权限项用于授予对 Adobe Analytics 中各项功能的访问权限。
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Analytics 工具权限项用于授予对 Adobe Analytics 中各项功能的访�
 | Analytics 工具权限项 | 描述 |
 |----|----|
 | [!UICONTROL 服务器调用使用情况] | 授予对“管理员”>“服务器调用使用情况”的访问权限。 |
-| [!UICONTROL 代码管理器] | 用于管理旧版代码。授予对“管理员”>“所有管理员”>“代码管理器”的访问权限。在大多数情况下，请改用数据收集UI中包含的库。 |
+| [!UICONTROL 代码管理器] | 用于管理旧版代码。授予对“管理员”>“所有管理员”>“代码管理器”的访问权限。大多数情况下，请改用数据收集 UI 中包含的库。 |
 | [!UICONTROL 代码管理器 - Web 服务] | 授予通过 1.4 API 访问代码管理器的权限。 |
 | [!UICONTROL 日志] | 授予对“管理员”>“所有管理员”>“日志”的访问权限。 |
 | [!UICONTROL 日志 - Web 服务] | 授予通过 1.4 API 提取日志的权限。 |
