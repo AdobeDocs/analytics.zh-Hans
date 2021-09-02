@@ -3,9 +3,9 @@ title: 浏览器高度 - 分段统计
 description: 以像素为单位的浏览器窗口的高度。
 exl-id: bdfd2ef5-c200-4d6e-b478-3917fca66227
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '274'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 92%
 
 ## 使用数据填充此维度
 
-此维度从图像请求中的 [`bh` 查询字符串](/help/implement/validate/query-parameters.md)检索数据。AppMeasurement 使用浏览器中的 JavaScript 变量 `window.innerHeight` 收集此数据。如果您使用AppMeasurement库(例如，通过Adobe Experience Platform中的标记)，则此维度可开箱即用。 如果您使用非 AppMeasurement 的数据收集方法（例如通过 API），请确保在每个访问的首次点击时包含 `bh` 查询字符串参数。
+此维度从图像请求中的 [`bh` 查询字符串](/help/implement/validate/query-parameters.md)检索数据。AppMeasurement 使用浏览器中的 JavaScript 变量 `window.innerHeight` 收集此数据。如果您使用 AppMeasurement 库（例如，通过 Adobe Experience Platform 中的标记），则此维度可开箱即用。如果您使用非 AppMeasurement 的数据收集方法（例如通过 API），请确保在每个访问的首次点击时包含 `bh` 查询字符串参数。
 
 Adobe 会在访问期间保持浏览器高度。如果在访问中调整了浏览器高度，则不会记录此调整。
 
