@@ -3,9 +3,9 @@ title: linkInternalFilters
 description: 使用 linkInternalFilters 变量有助于进行自动退出链接跟踪。
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,18 +23,18 @@ Activity Map 使用此变量帮助确定哪些链接是您网站的内部链接�
 >
 >`linkInternalFilters` 和[内部 URL 过滤器](/help/admin/admin/internal-url-filter-admin.md)是两个不同功能，可以实现不同的目的。`linkInternalFilters` 变量专门用于退出链接跟踪。内部 URL 过滤器是一个管理员设置，可帮助处理流量源维度，如反向链接域名。
 
-## 出站链接 — 从不使用Adobe Experience Platform中的标记进行跟踪
+## 使用 Adobe Experience Platform 中的标记的“出站链接 - 从不跟踪”
 
 “从不跟踪”字段是配置 Adobe Analytics 扩展时[!UICONTROL 链接跟踪]折叠面板下以逗号分隔的过滤器（通常是域）列表。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 2. 单击所需的属性。
 3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的]配置[!UICONTROL 按钮。
 4. 展开[!UICONTROL 链接跟踪]折叠面板，这会显示[!UICONTROL 出站链接 - 从不跟踪]字段。
 
 在此字段中放置您永远不希望作为退出链接进行跟踪的过滤器。用逗号分隔多个域，不带空格。
 
-## AppMeasurement 和 自定义代码编辑器中的 s.linkInternalFilters
+## AppMeasurement 和自定义代码编辑器中的 s.linkInternalFilters
 
 `s.linkInternalFilters` 变量是包含您视为网站内部链接的过滤器（如域）的字符串。用逗号分隔多个过滤器，不带空格。
 
