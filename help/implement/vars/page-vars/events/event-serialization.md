@@ -3,9 +3,9 @@ title: 事件序列化
 description: 帮助删除网站上的重复量度。
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 93%
 
 ## 设置事件序列化
 
-您必须先在报表包设置中将事件的[!UICONTROL 独特事件记录]设置为[!UICONTROL 使用事件 ID]。请参阅管理员用户指南中的[成功事件](/help/admin/admin/c-success-events/success-event.md)。
+您必须先在报表包设置中将事件的[!UICONTROL 独特事件记录]设置为[!UICONTROL 使用事件 ID]。请参阅《管理员用户指南》中的[成功事件](/help/admin/admin/c-success-events/success-event.md)。
 
 使用事件 ID 时，会在以下级别进行重复数据删除：
 
@@ -31,11 +31,11 @@ ht-degree: 93%
 >
 >如果要删除重复的 [`purchase`](event-purchase.md) 事件，请改用 [`purchaseID`](../purchaseid.md) 变量。
 
-## 在Adobe Experience Platform中使用标记的事件ID
+## 使用 Adobe Experience Platform 中的标记的“使用事件 ID”
 
 您可以在配置 Analytics 扩展时（全局变量）设置事件 ID 字段，也可以根据规则执行此操作。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 2. 单击所需的属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
@@ -44,7 +44,7 @@ ht-degree: 93%
 
 有效值是长度不超过 20 字节的字母数字字符。如果输入的值超过 20 个字节，系统会将其截断为前 20 个字节。
 
-## 在 AppMeasurement 和 自定义代码编辑器中使用事件 ID
+## 在 AppMeasurement 和自定义代码编辑器中使用事件 ID
 
 事件序列化是 `s.events` 变量的一部分。在字符串中使用冒号为每个事件分配一个 ID。
 
