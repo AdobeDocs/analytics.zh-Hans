@@ -1,30 +1,30 @@
 ---
-title: 在标记中创建Analytics属性
-description: 使用标记创建一个空间以自定义收集数据的方式。
+title: 在标记中创建 Analytics 属性
+description: 使用标记创建一个空间，以自定义数据的收集方式。
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
-# 创建Adobe Analytics标记属性
+# 创建 Adobe Analytics 标记属性
 
-通过Adobe Experience Platform中的标记，您可以在网站（包括Analytics）上集成Experience Cloud解决方案。 本页专门概述了标签管理员如何正确配置基本的Adobe Analytics实施。
+使用 Adobe Experience Platform 中的标记，您可以在网站上集成 Experience Cloud 解决方案（包括 Analytics）。此页面专门概述了标记管理员如何正确配置基本的 Adobe Analytics 实施。
 
 >[!NOTE]
->Adobe Experience Platform Launch已在Experience Platform中被重新命名为一套数据收集技术。 因此，在产品文档中推出了一些术语更改。 有关术语更改的统一参考，请参阅以下[文档](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en)。
+>Adobe Experience Platform Launch 已更名为 Experience Platform 中的一套数据收集技术。因此，产品文档中的术语有一些改动。有关术语更改的综合参考，请参阅以下[文档](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=zh-Hans)。
 
 ## 先决条件
 
-[创建报表包](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：为要收集的 Analytics 数据创建一个容器.
+[创建报表包](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：为要收集的 Analytics 数据创建一个容器。
 
-## 创建标记资产并安装重要扩展
+## 创建标记属性并安装重要扩展
 
 属性是用于管理标记的主要容器。通过扩展，您可以安装和配置特定于产品的标记。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击&#x200B;**[!UICONTROL 新建属性]**。
 1. 为您的属性指定名称（如网站的标题），然后输入要在其中实施 Analytics 的域。单击&#x200B;**[!UICONTROL 保存]**。
 1. 单击新创建的标记属性以输入其设置。
@@ -37,7 +37,7 @@ ht-degree: 58%
 
 数据元素是对网站特定部分的引用，以便收集变量值。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击要在网站上实施的标记属性。
 1. 单击&#x200B;**[!UICONTROL 数据元素]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 创建新数据元素]**。
 1. 为数据元素指定以下设置：
@@ -58,7 +58,7 @@ ht-degree: 58%
 
 规则会将数据元素映射到 Analytics 变量值，并确定何时将这些值发送到 Adobe 的服务器。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击要在网站上实施的标记属性。
 1. 单击&#x200B;**[!UICONTROL 创建新规则]**&#x200B;并将其命名为 `Global Rule`。
 1. 单击事件旁边的&#x200B;**[!UICONTROL 添加]**，然后输入以下设置：
@@ -83,9 +83,9 @@ ht-degree: 58%
 
 ## 文档和其他资源
 
-* [Adobe Analytics扩展文档](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en):标记中特定于Adobe Analytics扩展的完整文档。
-* [标记快速入门](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en):有关标记的完整文档，包括更详细的入门指南
-* [Adobe Experience Platform Launch渠道](https://experienceleague.adobe.com/?lang=zh-Hans?tag=Launch#recommended/solutions/experience-platform):通过视频了解如何使用标记
+* [Adobe Analytics 扩展文档](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hans)：特定于标记中 Adobe Analytics 扩展的完整文档。
+* [标记快速入门](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=zh-Hans)：有关标记的完整文档，包括更详细的入门指南
+* [Adobe Experience Platform Launch 渠道](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform)：通过视频了解如何使用标记
 
 ## 后续步骤
 
