@@ -3,9 +3,9 @@ title: s_gi()
 description: 创建和跟踪 AppMeasurement 实例。
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '345'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -13,18 +13,18 @@ ht-degree: 93%
 
 `s_gi()` 函数按报表包 ID 实例化或查找 AppMeasurement 的实例。AppMeasurement 会保持跟踪每个创建的实例，`s_gi()` 会为报表包返回现有实例（如果存在）。如果实例不存在，则会创建一个新实例。
 
-## s_gi(在Adobe Experience Platform中使用标记)
+## 使用 Adobe Experience Platform 中的标记的 s_gi()
 
 Analytics 扩展可为您实例化和管理跟踪对象。但是，在配置 Adobe Analytics 扩展时，您还可以在[!UICONTROL 库管理]折叠面板中设置全局跟踪对象。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 2. 单击所需的属性。
 3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的[!UICONTROL 配置]按钮。
 4. 展开[!UICONTROL 库管理]折叠面板，然后选择除[!UICONTROL 为我管理库]之外的任何单选按钮。
 
 全局变量文本字段允许您设置自定义跟踪对象。其默认值为 `s`。
 
-## AppMeasurement 和 自定义代码编辑器中的 s_gi()
+## AppMeasurement 和自定义代码编辑器中的 s_gi()
 
 调用 `s_gi()` 函数以实例化跟踪对象。其唯一参数包含以逗号分隔的报表包 ID 字符串。报表包 ID 参数为必需参数。
 
