@@ -3,9 +3,9 @@ title: zip
 description: 在报表包设置允许时手动填充“邮政编码”维度。
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->确保将报表包设置中的[!UICONTROL 邮政编码选项]设置为所需的值。如果始终使用[!UICONTROL 地区邮政编码]，则不能使用此变量。有关详细信息，请参阅管理员用户指南中的[一般帐户设置](/help/admin/admin/general-acct-settings-admin.md)。
+>确保将报表包设置中的[!UICONTROL 邮政编码选项]设置为所需的值。如果始终使用[!UICONTROL 地区邮政编码]，则不能使用此变量。有关详细信息，请参阅《管理员用户指南》中的[一般帐户设置](/help/admin/admin/general-acct-settings-admin.md)。
 
-## 在Adobe Experience Platform中使用标记进行Zip压缩
+## 使用 Adobe Experience Platform 中的标记的“邮政编码”
 
 您可以在配置 Analytics 扩展时（全局变量）或根据规则设置邮政编码。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 2. 单击所需的属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
@@ -30,7 +30,7 @@ ht-degree: 91%
 
 您可以将“邮政编码”设置为任何字符串值，包括数据元素。
 
-## AppMeasurement 和 自定义代码编辑器中的 s.zip
+## AppMeasurement 和自定义代码编辑器中的 s.zip
 
 `s.zip` 变量是一个通常包含邮政编码的字符串，但可以包含长度不超过 50 字节的任何所需值。
 
