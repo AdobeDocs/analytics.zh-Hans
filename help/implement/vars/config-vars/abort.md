@@ -3,9 +3,9 @@ title: abort
 description: abort 变量是一个布尔值，用于阻止将点击发送到 Adobe 数据收集服务器。
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
 source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -13,11 +13,11 @@ ht-degree: 79%
 
 `abort` 变量是一个布尔值，用于阻止将下一个跟踪调用发送到 Adobe。
 
-## 在Adobe Experience Platform中使用数据收集UI中的中止变量
+## 使用 Adobe Experience Platform 的数据收集 UI 中的 abort 变量
 
-数据收集UI中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
+数据收集 UI 中没有专门的字段来使用此变量。按照 AppMeasurement 语法使用自定义代码编辑器。
 
-## 数据收集UI中的AppMeasurement语法和自定义代码编辑器
+## 数据收集 UI 中的 AppMeasurement 语法和自定义代码编辑器
 
 `abort` 变量是一个布尔值。其默认值为 `false`。
 
