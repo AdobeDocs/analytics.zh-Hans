@@ -5,9 +5,9 @@ user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
 user-guide-description: '自定义收集哪些数据，以便让 Adobe Analytics 得到充分利用。 '
 source-git-commit: 9e1ed13b73a4e31baf788a9c8090af8b7c7bcd7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -52,13 +52,13 @@ ht-degree: 91%
       + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
    + 页面变量 {#page-vars}
       + [页面变量概述](vars/page-vars/page-variables.md)
-      + [营销活动](vars/page-vars/campaign.md)
-      + [渠道](vars/page-vars/channel.md)
+      + [campaign](vars/page-vars/campaign.md)
+      + [channel](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
-      + [动态变量](vars/page-vars/dynamic-variables.md)
+      + [Dynamic variables](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
-      + [eVar（促销）](vars/page-vars/evar-merchandising.md)
-      + 事件 {#events}
+      + [eVar (Merchandising)](vars/page-vars/evar-merchandising.md)
+      + events {#events}
          + [事件概述](vars/page-vars/events/events-overview.md)
          + [购买事件](vars/page-vars/events/event-purchase.md)
          + [事件序列化](vars/page-vars/events/event-serialization.md)
@@ -67,14 +67,14 @@ ht-degree: 91%
       + [pageName](vars/page-vars/pagename.md)
       + [pageType](vars/page-vars/pagetype.md)
       + [pageURL](vars/page-vars/pageurl.md)
-      + [产品](vars/page-vars/products.md)
+      + [products](vars/page-vars/products.md)
       + [prop](vars/page-vars/prop.md)
       + [purchaseID](vars/page-vars/purchaseid.md)
       + [referrer](vars/page-vars/referrer.md)
       + [s_objectID](vars/page-vars/s-objectid.md)
       + [server](vars/page-vars/server.md)
-      + [状态](vars/page-vars/state.md)
-      + [时间戳](vars/page-vars/timestamp.md)
+      + [state](vars/page-vars/state.md)
+      + [timestamp](vars/page-vars/timestamp.md)
       + [transactionID](vars/page-vars/transactionid.md)
       + [zip](vars/page-vars/zip.md)
    + 函数和方法 {#functions}
@@ -149,13 +149,13 @@ ht-degree: 91%
       + [访问示例](js/xdevice-visid/visit-example.md)
       + [旧版跨设备识别功能常见问题解答](js/xdevice-visid/xdevice-faq.md)
    + [AppMeasurement 疑难解答](js/troubleshooting.md)
-+ 在Adobe Experience Platform中使用标记{#launch}实施Analytics
++ 使用 Adobe Experience Platform 中的标记实施 Analytics {#launch}
    + [标记概述](launch/overview.md)
-   + [创建Adobe Analytics标记属性](launch/create-analytics-property.md)
+   + [创建 Adobe Analytics 标记属性](launch/create-analytics-property.md)
    + [部署到开发环境](launch/deploy-dev.md)
    + [验证并发布到生产环境](launch/validate-publish-prod.md)
    + [将数据层对象映射到数据元素](launch/layer-to-elements.md)
-   + [将标记数据元素映射到Analytics变量](launch/elements-to-variable.md)
+   + [将标记数据元素映射到 Analytics 变量](launch/elements-to-variable.md)
 + 在其他平台上实施 Analytics {#other}
    + [使用硬编码图像请求实施 Analytics](other/hardcoded.md)
    + [使用 DTM 实施 Analytics](other/dtm-implementation-overview.md)
