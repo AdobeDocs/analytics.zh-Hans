@@ -3,9 +3,9 @@ title: 有关实施的常见问题解答
 description: 有关实施的常见问题，以及指向更多信息的链接。
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '502'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Identity Service 可分配一个唯一的永久标识符，该标识符可以在
 
 ## Adobe 的服务中断会影响库性能吗？
 
-不会。由于 JavaScript 文件并非是在 Adobe 服务器上托管，因此 Adobe 的故障将不会影响 AppMeasurement 库。如果您在Adobe Experience Platform中使用标记，则JavaScript文件将由Akamai托管，或托管在由您的组织确定的服务器位置上。
+不会。由于 JavaScript 文件并非是在 Adobe 服务器上托管，因此 Adobe 的故障将不会影响 AppMeasurement 库。如果您使用 Adobe Experience Platform 中的标记，则 JavaScript 文件由 Akamai 托管，或者托管在由贵组织确定的服务器位置上。
 
 ## 将来自浏览器的数据发送至 Adobe 服务会降低性能吗？
 
@@ -33,7 +33,7 @@ AppMeasurement 会在 HTML 页面内创建一个图像对象，浏览器随后�
 
 有时，组织会因合同到期而想要移除实施，或想要减少服务器调用的数量。
 
-* **在Adobe Experience Platform中使用标记的实施**:在“扩展”选项卡中禁用或卸载Adobe Analytics  扩展，然后发布。
+* **使用 Adobe Experience Platform 中的标记的实施**：在[!UICONTROL 扩展]选项卡中禁用或卸载 Adobe Analytics 扩展，然后发布。
 * **旧版 AppMeasurement 实施**：使用以下代码行替换 `s_code.js` 文件的全部内容：
 
 ```js
