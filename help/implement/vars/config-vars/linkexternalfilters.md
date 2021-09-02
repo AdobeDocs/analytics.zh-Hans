@@ -3,9 +3,9 @@ title: linkExternalFilters
 description: 使用 linkExternalFilters 变量有助于进行自动退出链接跟踪。
 exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '310'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -21,18 +21,18 @@ AppMeasurement 提供自动跟踪指向网站外部的链接的功能。如果�
 
 如果同时使用 `linkInternalFilters` 和 `linkExternalFilters`，则点击的链接必须与 `linkExternalFilters` 匹配&#x200B;**且**&#x200B;与 `linkInternalFilters` 不匹配时才能被视为退出链接。如果点击的链接与退出链接和下载链接标准均匹配，则将优先使用下载链接类型。
 
-## 出站链接 — 使用Adobe Experience Platform中的标记进行跟踪
+## 使用 Adobe Experience Platform 中的标记的“出站链接 - 跟踪”
 
 “跟踪”字段是在配置 Adobe Analytics 扩展时[!UICONTROL 链接跟踪]折叠面板下以逗号分隔的过滤器（通常是域）列表。
 
-1. 使用您的Adobe ID凭据登录到[数据收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 2. 单击所需的属性。
 3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的]配置[!UICONTROL 按钮。
 4. 展开[!UICONTROL 链接跟踪]折叠面板，这会显示[!UICONTROL 出站链接 - 跟踪]字段。
 
 在此字段中放置要始终视为外部链接的过滤器。用逗号分隔多个域，不带空格。
 
-## AppMeasurement 和 自定义代码编辑器中的 s.linkExternalFilters
+## AppMeasurement 和自定义代码编辑器中的 s.linkExternalFilters
 
 `s.linkExternalFilters` 变量是包含被视为退出链接的过滤器（如域）的字符串。用逗号分隔多个域，不带空格。
 
