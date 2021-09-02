@@ -6,7 +6,7 @@ feature: 管理工具
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
 source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1579'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ eVar 最适合用于度量原因和影响，例如：
 
 >[!NOTE]
 >
->在图像请求中，一个 eVar 中只能存储一个值。如果一个 eVar 值中需要多个值，我们建议您实施[列表变量 (list vars)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html)。
+>在图像请求中，一个 eVar 中只能存储一个值。如果一个 eVar 值中需要多个值，我们建议您实施[列表变量 (list vars)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=zh-Hans)。
 
 ## 转化变量 - 描述 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
