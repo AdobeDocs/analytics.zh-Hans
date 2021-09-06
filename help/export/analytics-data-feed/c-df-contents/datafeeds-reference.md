@@ -3,12 +3,12 @@ description: 描述数据馈送中各列的表数据。
 keywords: 数据馈送；列
 subtopic: data feeds
 title: 数据列引用
-feature: Reports & Analytics 基础知识
+feature: Reports & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: b50982f17d226c8efaec6ff4ae4e6ff9140d8299
 workflow-type: tm+mt
-source-wordcount: '3422'
+source-wordcount: '3419'
 ht-degree: 99%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 99%
 | `duplicated_from` | 仅在包含点击复制 VISTA 规则的报表包中使用。指示点击是从哪个报表包中复制的。 | varchar(40) |
 | `ef_id` | 在 Adobe Advertising Cloud 集成中使用的 `ef_id`。 | varchar(255) |
 | `evar1 - evar250` | 自定义变量 1 至 250。在 [eVar](/help/components/dimensions/evar.md) 维度中用到。每个公司使用 eVar 的方式有所不同。要了解有关贵组织如何填充各个 eVar 的更多信息，您最好参阅专为贵组织设计的解决方案文档。 | varchar(255) |
-| `event_list` | 以逗号分隔的数字 ID 列表，其中各 ID 表示点击时所触发的各个事件。包含默认事件及自定义事件 1-1000。使用 `event.tsv` 查找。 | 文本 |
+| `event_list` | 以逗号分隔的数字 ID 列表，其中各 ID 表示点击时所触发的各个事件。包含默认事件及自定义事件 1-1,000。使用 `event.tsv` 查找。 | 文本 |
 | `exclude_hit` | 指示是否从报表中排除点击的标志。对于被排除的点击，`visit_num` 列不递增。<br>1：未使用。属于某个已弃用的功能。<br>2：未使用。属于某个已弃用的功能。<br>3：已不再使用。用户代理排除<br>4：根据 IP 地址排除<br>5：缺少重要的点击信息，如 `page_url`、`pagename`、`page_event` 或 `event_list`<br>6：JavaScript 未正确处理点击<br>7：帐户特有的排除，如 VISTA 规则中的排除<br>8: 未使用。替代特定于帐户的排除。<br>9：未使用。属于某个已弃用的功能。<br>10：无效的货币代码<br>11：仅时间戳报表包上缺少时间戳的点击，或非时间戳报表包上包含时间戳的点击<br>12：未使用。属于某个已弃用的功能。<br>13：未使用。属于某个已弃用的功能。<br>14：与 Analytics 点击不匹配的 Target 点击<br>15：当前未使用。<br>16：与 Analytics 点击不匹配的 Advertising Cloud 点击 | 无符号 tinyint |
 | `first_hit_page_url` | 访客访问的第一个 URL。 | varchar(255) |
 | `first_hit_pagename` | 在[原始登入页面](/help/components/dimensions/entry-dimensions.md)维度中使用的变量。访客访问的原始登录页面名称。 | varchar(100) |

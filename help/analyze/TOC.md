@@ -89,7 +89,7 @@ ht-degree: 99%
          + [区段比较概述](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [“区段比较”用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [区段比较中使用的统计测试](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + 策划、共享和计划项目{#curate-share}
+   + 策划、共享和安排项目 {#curate-share}
       + [“共享”菜单](analysis-workspace/curate-share/send-schedule-files.md)
       + [策划项目](analysis-workspace/curate-share/curate.md)
       + [共享项目](analysis-workspace/curate-share/share-projects.md)
@@ -236,7 +236,7 @@ ht-degree: 99%
       + [限制和规范](report-builder/c-publish-power-bi/specifications-limits.md)
       + [将数据手动导入 Power BI](report-builder/c-publish-power-bi/bi-manually-import-data.md)
       + [将已发布的资产提取到 Power BI Desktop](report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
-      + [最佳实践](report-builder/c-publish-power-bi/bi-best-practices.md)
+      + [优秀实践](report-builder/c-publish-power-bi/bi-best-practices.md)
       + [Power BI 集成疑难解答](report-builder/c-publish-power-bi/troubleshooting.md)
       + [适用于 Power BI 的 Adobe Analytics 内容包](report-builder/c-publish-power-bi/integration-power-bi.md)
    + [Visual Basic 宏](report-builder/vba.md)
@@ -279,7 +279,7 @@ ht-degree: 99%
    + 报告界面概述 {#reporting-interface}
       + [关于数据收集](reports-analytics/overview/overview-data-collection.md)
       + [“报表”菜单](reports-analytics/overview/reports-menu.md)
-      + [报表功能](reports-analytics/overview/report-overview.md)
+      + [“报表”功能](reports-analytics/overview/report-overview.md)
       + [常用术语](reports-analytics/overview/overview-common-terms.md)
       + [适用于 iOS 的 Adobe Analytics](reports-analytics/overview/app-ios.md)
    + [报表显示设置和导航](reports-analytics/report-settings.md)
@@ -292,7 +292,7 @@ ht-degree: 99%
       + [细分](reports-analytics/reports-customize/breakdowns.md)
       + [子关系](reports-analytics/reports-customize/subrelations.md)
       + [筛选报表数据](reports-analytics/reports-customize/t-reports-filter-options.md)
-   + [分析分段](reports-analytics/segmentation.md)
+   + [Analytics 分段](reports-analytics/segmentation.md)
    + [书签管理器](reports-analytics/bookmarks.md)
    + [当前数据](reports-analytics/current-data.md)
    + [功能板和小型报表](reports-analytics/dashboard.md)

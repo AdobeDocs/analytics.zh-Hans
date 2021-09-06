@@ -31,7 +31,7 @@ ht-degree: 98%
    >
    > H 代码要求在 `s_code.js` 标记中调用 `<body>` 脚本。这与其他实施方法有所不同，因为大多数实施方法要求在 `<head>` 标记中引用脚本。
 1. **在每个页面上定义特定于页面的变量**：应在每个页面上定义各个变量，如页面名称或 eVar。在每个页面上通常使用内联 `<script>` 标记来定义各个变量。
-1. **使用调试器验证数据收集**：下载并安装 [Experience Cloud 调试器](../../validate/debugger.md)，以确保将数据发送到 Adobe，且已正确定义页面变量。
+1. **使用调试器验证数据收集**：下载并安装 [Experience Cloud Debugger](../../validate/debugger.md)，以确保将数据发送到 Adobe，且已正确定义页面变量。
 
 ## 缓存
 

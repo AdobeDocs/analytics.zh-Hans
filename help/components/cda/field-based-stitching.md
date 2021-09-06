@@ -11,7 +11,7 @@ ht-degree: 98%
 
 # 基于字段的拼合
 
-“Cross-Device Analytics”提供了两种截然不同的方法来拼合数据。此方法依赖于 Analytics 变量（如 [prop](/help/implement/vars/page-vars/prop.md) 或 [eVar](/help/implement/vars/page-vars/evar.md)）来包含人员标识符。它使用该变量作为将设备链接在一起的基础。
+Cross-Device Analytics 提供了两种截然不同的方法来拼合数据。此方法依赖于 Analytics 变量（如 [prop](/help/implement/vars/page-vars/prop.md) 或 [eVar](/help/implement/vars/page-vars/evar.md)）来包含人员标识符。它使用该变量作为将设备链接在一起的基础。
 
 ## 基于字段的拼合的特定先决条件
 
