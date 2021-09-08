@@ -3,10 +3,10 @@ title: AppMeasurement for JavaScript 发行说明
 description: AppMeasurement for JavaScript 的发行说明汇总。
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 376b577211f927be5a896c2a20c8a2fc55437b85
+source-git-commit: 6624105e45f02a803fd39fcbd63d5560c9a12968
 workflow-type: tm+mt
-source-wordcount: '2171'
-ht-degree: 98%
+source-wordcount: '2201'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 98%
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 您可以在[代码管理器](/help/admin/admin/code-manager-admin.md)中下载最新版本的 AppMeasurement。
+
+## 版本 2.22.2
+
+发行日期：**2021 年 9 月 7 日**
+
+* 此更新会导致跟踪链接时始终包含`opt.dmp`和`opt.sell`。 以下是同意变量](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html)的完整列表。[
 
 ## 版本 2.22.1
 
