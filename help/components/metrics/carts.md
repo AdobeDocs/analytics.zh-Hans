@@ -1,18 +1,17 @@
 ---
 title: 购物车
 description: 访客将第一个产品添加到购物车的点击数。
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '157'
-ht-degree: 100%
+exl-id: 890bbaba-0140-4995-bbd2-c69aedc801e5
+source-git-commit: e804907aa6655b4cfac146a34fb6a3774631818e
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 86%
 
 ---
 
-
 # 购物车
 
-“购物车减货”量度显示访客从购物车中删除商品的次数。当您想要了解转化漏斗中客户对产品不再感兴趣的部分时，此量度会很有帮助。
+“购物车”量度显示访客将其第一个产品添加到购物车的点击次数。
 
 ## 如何计算此量度
 
