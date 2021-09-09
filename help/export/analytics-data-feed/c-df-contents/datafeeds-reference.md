@@ -6,10 +6,10 @@ title: 数据列引用
 feature: Reports & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: b50982f17d226c8efaec6ff4ae4e6ff9140d8299
+source-git-commit: 220d92f8826b8d25e2da975db728e30a1051c4b5
 workflow-type: tm+mt
-source-wordcount: '3419'
-ht-degree: 99%
+source-wordcount: '3420'
+ht-degree: 98%
 
 ---
 
@@ -156,7 +156,7 @@ ht-degree: 99%
 | `page_event_var2` | 仅用于链接跟踪图像请求。链接的自定义名称（如果已指定）。 | varchar(100) |
 | `page_event_var3` | 已不再使用。包含调查和媒体模块数据。用于填充 Adobe Analytics 早期版本中的旧版视频报表。 | 文本 |
 | `page_type` | 用于填充[未找到页面](/help/components/dimensions/pages-not-found.md)维度。仅用于 404 页面。此变量应为空或包含 `ErrorPage` 值。 | char(20) |
-| `page_url` | 点击的 URL。在其后变体 (post_page_url) 中，该值会被去除以用于链接跟踪图像请求。 | varchar(255) |
+| `page_url` | 点击的 URL。请注意，已为链接跟踪图像请求剥除`post_page_url`，且使用数据类型varchar(255)。 | 文本 |
 | `pagename` | 用于填充[页面](/help/components/dimensions/page.md)维度。如果 [`pagename`](/help/implement/vars/page-vars/pagename.md) 变量为空，则 Analytics 改用 `page_url`。 | varchar(100) |
 | `paid_search` | 设置点击是否与付费搜索检测匹配的标记。 | 无符号 tinyint |
 | `partner_plugins` | 未使用。属于某个已弃用的功能。 | varchar(255) |
