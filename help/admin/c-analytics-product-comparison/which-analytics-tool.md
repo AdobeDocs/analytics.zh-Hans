@@ -3,10 +3,10 @@ description: 本帮助页面包含每个 Adobe Analytics 工具的推荐使用�
 title: 我应该使用哪种 Adobe Analytics 工具？
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '1158'
-ht-degree: 100%
+source-git-commit: 76072b45114a15d9b366657ea81872035965e5b6
+workflow-type: tm+mt
+source-wordcount: '1168'
+ht-degree: 99%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 100%
 本帮助页面包含每个 Adobe Analytics 工具的推荐使用案例。应该按照工具的列出顺序来考虑使用哪个工具。如果某个工具无法满足需求，请考虑切换到下一个工具。
 
 有关 Adobe Analytics 产品比较的详细信息，请转至[此处](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)。
+
+以下视频比较了各种Adobe Analytics工具：
+
+>[!VIDEO](https://video.tv.adobe.com/v/27220/?quality=12)
 
 ## Adobe Analytics 报表用户界面 {#user-interfaces}
 

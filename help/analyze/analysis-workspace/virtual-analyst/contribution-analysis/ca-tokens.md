@@ -2,12 +2,12 @@
 description: 使用贡献分析识别数据中的统计异常和关联。
 title: 贡献分析概述
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-feature: AI 工具
+feature: AI Tools
 role: User, Admin
 exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1164'
+source-git-commit: 76072b45114a15d9b366657ea81872035965e5b6
+workflow-type: tm+mt
+source-wordcount: '1162'
 ht-degree: 100%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 100%
 # 贡献分析概述
 
 “贡献分析”可揭示数据中隐藏的模式以解释统计数据的异常，并可以跨各受众区段，确定意外客户操作、出界值以及选定量度的突增或突减背后存在的关联。
+
+>[!VIDEO](https://video.tv.adobe.com/v/25443/?quality=12)
 
 发生了异常情况。为什么？您的异常检测报表显示订购次数存在不寻常的上升，您想知道为什么出现这种情况。发生了什么不寻常的情况？谁响应了哪个促销活动或转接链接？这一情况是否会传播开来？导致本异常的具体因素是什么？或许最重要的是，如何捕获有关客户的重要信息以及如何重现这一情况？（或者，如果量度下降或负量度上升，将来如何避免这种情况发生？）
 
