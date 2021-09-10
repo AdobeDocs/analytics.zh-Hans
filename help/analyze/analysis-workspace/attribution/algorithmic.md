@@ -1,12 +1,12 @@
 ---
 title: 算法归因
 description: 有关算法归因模型的详细信息。
-feature: 归因
+feature: Attribution
 role: User, Admin
 exl-id: dd2b2a5b-9c36-4534-999f-f96604f29eab
 source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
-workflow-type: tm+mt
-source-wordcount: '258'
+workflow-type: ht
+source-wordcount: '257'
 ht-degree: 100%
 
 ---
