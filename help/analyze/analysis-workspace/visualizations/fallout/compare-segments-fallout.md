@@ -3,13 +3,13 @@ description: 您可以在 Analysis Workspace 中从接触点创建区段、添�
 keywords: 流失和分段;流失分析中的区段;比较流失中的区段
 title: 在流失分析中应用区段
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-feature: 可视化图表
+feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '406'
-ht-degree: 100%
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 97%
 
 ---
 
@@ -50,6 +50,10 @@ ht-degree: 100%
 ## 在流失中比较区段 {#section_E0B761A69B1545908B52E05379277B56}
 
 您可以在“流失”可视化图表中比较任意区段数量。
+
+以下是有关比较流失中的区段的视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/24046/?quality=12)
 
 1. 从左侧的[!UICONTROL 区段]边栏中选择要比较的区段。在我们的示例中，我们已选择了 2 个区段：美国用户和非美国用户。
 1. 将它们拖到顶部的区段拖放区域中。

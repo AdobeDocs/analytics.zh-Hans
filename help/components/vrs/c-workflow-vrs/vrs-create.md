@@ -2,13 +2,13 @@
 description: 在您开始创建虚拟报表包之前，请注意下面一些事项。
 keywords: 虚拟报表包
 title: 创建虚拟报表包
-feature: Reports & Analytics 基础知识
+feature: Reports & Analytics Basics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 20bd38fc38fb14d724603b492bf093d313acbb7d
-workflow-type: ht
-source-wordcount: '663'
-ht-degree: 100%
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
+workflow-type: tm+mt
+source-wordcount: '676'
+ht-degree: 97%
 
 ---
 
@@ -43,6 +43,10 @@ ht-degree: 100%
 在[!UICONTROL 访问定义]选项卡上，定义这些设置，然后单击&#x200B;**[!UICONTROL 继续]**。
 
 ![](assets/visit-definition.png)
+
+以下视频介绍了如何在虚拟报表包中调整访问定义：
+
+>[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
 
 | 元素 | 描述 |
 | --- |--- |
