@@ -5,10 +5,10 @@ title: 可视化图表概述
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 100%
+source-wordcount: '1082'
+ht-degree: 98%
 
 ---
 
@@ -100,3 +100,9 @@ Analysis Workspace 中提供了以下可视化图表类型：
 如果您不确定所要创建的可视化图表，请单击任意表行中的&#x200B;**[!UICONTROL 创建可视化]**&#x200B;图标（将光标悬停于上方即可显示）。这是添加可视化图表最快的方法。单击此图标将提示 Analysis Workspace 针对哪种可视化图表最适合您的数据做出有根据的推测。例如，如果您选择了 1 行，则会创建趋势线形图。如果您选择了 3 个区段行，则会创建维恩图。
 
 ![](assets/quick-viz.png)
+
+## 更改可视化图表上的缩放轴
+
+以下是视频概述：
+
+>[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)

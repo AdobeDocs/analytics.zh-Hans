@@ -1,13 +1,13 @@
 ---
 title: 同类群组分析是什么及其如何工作？
 description: 用同类群组分析更深入地挖掘您受众周围的数据并细分为相关的各组。了解 Analysis Workspace 中的同类群组分析。
-feature: 可视化图表
+feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '491'
-ht-degree: 100%
+source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
+workflow-type: tm+mt
+source-wordcount: '498'
+ht-degree: 98%
 
 ---
 
@@ -45,6 +45,10 @@ ht-degree: 100%
 [!UICONTROL 维系]同类群组报表返回访客：每个数据单元格显示了同类群组中在该时间段内执行操作的访客原始数量和百分比。您最多可以包含 3 个指标和 10 个区段。
 
 ![](assets/retention-report.png)
+
+以下是有关计算滚动维系率的视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/25962/?quality=12)
 
 ### [!UICONTROL 流失率表]
 
