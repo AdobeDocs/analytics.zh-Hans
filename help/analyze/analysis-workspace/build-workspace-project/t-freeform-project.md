@@ -1,20 +1,22 @@
 ---
 description: 创建一个项目并将组件（维度、量度、区段、日期范围）添加到自由格式面板。
 keywords: Analysis Workspace
-title: 创建工作区项目
-feature: Reports & Analytics 基础知识
+title: 创建 Workspace 项目
+feature: Reports & Analytics Basics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '753'
 ht-degree: 100%
 
 ---
 
 
-# 创建工作区项目
+# 创建 Workspace 项目
 
 创建一个项目并将组件（维度、量度、区段、日期范围）添加到自由格式面板。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334076/?quality=12)
 
 在本篇文章中，您可以熟悉 Analysis Workspace 的界面元素，并了解如何创建项目。
 
@@ -72,13 +74,13 @@ ht-degree: 100%
    <td colname="col2"> <p>这些项目可拖至界面上的面板或项目区域中。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md"  > 自由格式面板 </a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md"  > “自由格式”面板 </a> </td> 
    <td colname="col2"> <p>用于在 Analysis Workspace 中进行交互的画布或工作区。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-1. 保存项目。为项目命名，提供描述（可选但很有用）并标记项目（可选），然后单击&#x200B;**[!UICONTROL 保存项目]**。
+1. 保存项目。为项目命名，提供描述（可选但很有用）并标记项目（可选），然后单击&#x200B;**[!UICONTROL “保存项目”]**。
 
    ![](assets/save_project.png)
 
@@ -127,7 +129,7 @@ ht-degree: 100%
 
 **[可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)**
 
-[!UICONTROL 可视化]面板提供标准的 Analytics 图形、图表、圆环图、数据表、[同类群组](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)表、维恩图等等。您可以将多个可视化信息拖放到项目中。
+[!UICONTROL “可视化图表”]面板提供标准的 Analytics 图形、图表、圆环图、数据表、[同类群组](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)表、维恩图等等。您可以将多个可视化信息拖放到项目中。
 
 ![步骤结果](assets/visualizations.png)
 

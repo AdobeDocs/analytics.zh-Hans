@@ -2,13 +2,13 @@
 description: 在 Workspace 项目中使用地图可视化。
 title: 地图
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-feature: 可视化图表
+feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '626'
-ht-degree: 100%
+source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 98%
 
 ---
 
@@ -89,3 +89,9 @@ Analysis Workspace 中的地图可视化
 | 样式：地图样式 | 您可以选择基本、街道、明亮、浅色、深色和卫星。 |
 | 集群半径 | 将像素数量在指定范围之内的数据点组合在一起。默认值为 50。 |
 | 自定义最大值 | 允许您更改地图最大值的阈值 — 调整该值即会调整气泡/热图值（颜色和大小）相对于自定义最大值设置的缩放比例。 |
+
+## 构建时间划分热图
+
+以下是有关此主题的视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
