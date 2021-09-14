@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报表包、警报等组件帮助整理数据。
-source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
+source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 98%
+source-wordcount: '658'
+ht-degree: 97%
 
 ---
 
@@ -118,6 +118,7 @@ ht-degree: 98%
    + [自定义事件](metrics/custom-events.md)
    + [登录](metrics/entries.md)
    + [退出](metrics/exits.md)
+   + [已识别人员](metrics/identified-people.md)
    + [实例](metrics/instances.md)
    + [移动设备查看次数](metrics/mobile-views.md)
    + [新参与](metrics/new-engagements.md)
@@ -127,6 +128,7 @@ ht-degree: 98%
    + [页面事件](metrics/page-events.md)
    + [页面查看次数](metrics/page-views.md)
    + [页面未找到](metrics/pages-not-found.md)
+   + [人员 具有Experience CloudID](metrics/people-with-exp-cloud-id.md)
    + [人员](metrics/people.md)
    + [产品查看次数](metrics/product-views.md)
    + [重新载入](metrics/reloads.md)
@@ -138,6 +140,7 @@ ht-degree: 98%
    + [每位访客逗留时间](metrics/time-spent-per-visitor.md)
    + [逗留时间概述](metrics/time-spent.md)
    + [所用总秒数](metrics/total-seconds-spent.md)
+   + [未标识人员](metrics/unidentified-people.md)
    + [独特设备](metrics/unique-devices.md)
    + [独特访客](metrics/unique-visitors.md)
    + [件数](metrics/units.md)

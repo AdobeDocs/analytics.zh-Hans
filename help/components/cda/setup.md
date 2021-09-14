@@ -2,7 +2,7 @@
 title: 设置 Cross-Device Analytics
 description: 配置虚拟报表包以启用 CDA。
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
-source-git-commit: 040805039c04f4ae8d9d13b764f9f72355eb36e7
+source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 91%
@@ -51,6 +51,6 @@ CDA 由 Adobe 工程团队在您的跨设备报表包上预配。要开始此过
 
 * 虚拟报表包名称旁边将显示一个新的跨设备图标。此图标仅适用于跨设备虚拟报表包。
 * 标记为[识别的状态](../dimensions/identified-state.md)的新维度是可用的。
-* 标有[人员](../metrics/people.md)、[独特设备](../metrics/unique-devices.md)、已识别人员、未识别人员和具有Experience CloudID的人员的新量度均可用。
+* 标有[人员](../metrics/people.md)、[独特设备](../metrics/unique-devices.md)、[已识别人员](../metrics/identified-people.md)、[未识别人员](../metrics/unidentified-people.md)和[具有Experience CloudID的人员](../metrics/people-with-exp-cloud-id.md)的新量度可用。
 * [独特访客](../metrics/unique-visitors.md)量度将不可用，因为它已被替换为“人员”量度和“独特设备”量度。
 * 构建区段后，“访客”区段容器将被替换为“人员”容器。
