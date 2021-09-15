@@ -2,10 +2,10 @@
 title: linkDownloadFileTypes
 description: 确定自动作为下载链接进行跟踪的文件扩展名。
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
-source-wordcount: '270'
-ht-degree: 100%
+source-git-commit: 49bf0a459a096e011ff60724aa5bee4fb7721a21
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,12 +19,13 @@ ht-degree: 100%
 >
 >只自动跟踪实际点击量。不会自动跟踪以下类型的链接：
 >
-> * 加载页面时自动启动的文件下载
-> * 重定向后触发的下载
-> * 右键单击并选择“将目标另存为...”
-> * 使用 JavaScript 的链接，例如 `javascript:openLink()`
+>* 加载页面时自动启动的文件下载
+>* 重定向后触发的下载
+>* 右键单击并选择“将目标另存为...”
+>* 使用 JavaScript 的链接，例如 `javascript:openLink()`
+
 >
-> 对于这些下载类型，您可以手动调用 [`tl()`](../functions/tl-method.md) 方法。
+>对于这些下载类型，您可以手动调用 [`tl()`](../functions/tl-method.md) 方法。
 
 如果点击的链接与退出链接和下载链接标准均匹配，则将优先使用下载链接类型。
 
