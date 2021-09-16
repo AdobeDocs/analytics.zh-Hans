@@ -2,12 +2,12 @@
 description: 运行不同的报表类型的步骤。
 title: 运行不同的报表类型
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-feature: Reports & Analytics 基础知识
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d6430845f30a5b14c29c3c4111bf9c60a69eeea4
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1283'
 ht-degree: 97%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 97%
 
 实时报表提供了两个主要的报表 - 概述报表和详细信息报表。每个报表都包含许多缩图报表。
 
-有关配置实时报表的信息，请参阅《[Analytics 参考指南](https://experienceleague.adobe.com/docs/analytics/landing/home.html#RealTime_Reports_Configuration)》。
+有关更多信息，请参阅[实时报表概述](/help/components/c-real-time-reporting/realtime.md)。
 
 1. 了解&#x200B;**[!UICONTROL 概述]**&#x200B;报表及其组件：![](assets/rtr_overview_report.png)
 
@@ -145,7 +145,7 @@ ht-degree: 97%
    </tr> 
    </table>
 
-1. 单击主要缩图报表中的列表项，以便为该列表项启动&#x200B;**[!UICONTROL 详细信息]**&#x200B;视图：![](assets/rtr_detail_report.png)
+2. 单击主要缩图报表中的列表项，以便为该列表项启动&#x200B;**[!UICONTROL 详细信息]**&#x200B;视图：![](assets/rtr_detail_report.png)
 
    | **项目趋势缩图报表** | 显示概述报表中选定的项目在最近 N 分钟内的趋势线。可以通过时间范围选择器对 N 进行配置。 |
    |---|---|
