@@ -2,16 +2,16 @@
 title: 基于字段的拼合
 description: 了解使用基于字段的拼合来拼合数据的先决条件和限制。
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: 71148b13e3fb72dfe09f5f25f11d5e12f30e0bc0
+source-git-commit: 5cd38f698370d31aaf954e24cdee4cea3ecd171c
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 98%
+source-wordcount: '522'
+ht-degree: 95%
 
 ---
 
 # 基于字段的拼合
 
-Cross-Device Analytics 提供了两种截然不同的方法来拼合数据。此方法依赖于 Analytics 变量（如 [prop](/help/implement/vars/page-vars/prop.md) 或 [eVar](/help/implement/vars/page-vars/evar.md)）来包含人员标识符。它使用该变量作为将设备链接在一起的基础。
+Cross-Device Analytics 提供了两种截然不同的方法来拼合数据。此方法依赖于 Analytics 变量（如 [prop](/help/implement/vars/page-vars/prop.md) 或 [eVar](/help/implement/vars/page-vars/evar.md)）来包含人员标识符。它使用该变量作为将设备链接在一起的基础。Adobe建议使用此拼合选项，以提高访客跟踪的透明度和可预测性。
 
 ## 基于字段的拼合的特定先决条件
 

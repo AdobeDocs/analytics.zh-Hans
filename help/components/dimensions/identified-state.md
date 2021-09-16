@@ -1,18 +1,17 @@
 ---
 title: 识别的状态
 description: 一种用来确定是否被设备图识别的标志。
-translation-type: ht
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
-source-wordcount: '120'
-ht-degree: 100%
+exl-id: 8c6e9003-96f8-460f-a490-203f67be6337
+source-git-commit: 1a58c3e87f5918c91b891faa6027f5ad8b6024b9
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 61%
 
 ---
 
-
 # 识别的状态
 
-“识别的状态”维度是[跨设备分析](../cda/overview.md)虚拟报表包特有的维度。它可以报告在运行报表时，Experience Cloud ID 是否被设备图所识别。此维度有助于了解 CDA 拼合或“压缩”数据的效果。
+“识别的状态”维度是[跨设备分析](../cda/overview.md)虚拟报表包特有的维度。它会报告在运行报表时系统是否识别（拼合）点击。 此维度有助于了解 CDA 拼合或“压缩”数据的效果。
 
 ## 使用数据填充此维度
 
@@ -22,5 +21,5 @@ ht-degree: 100%
 
 维度项目包括 `"Identified"` 和 `"Unidentified"`。
 
-* **`"Identified"`**：设备图识别了与该点击关联的 Experience Cloud ID。
-* **`"Unidentified"`**：设备图未识别 Experience Cloud ID，或者，该点击不包含 Experience Cloud ID。
+* **`"Identified"`**:点击已映射到人员。
+* **`"Unidentified"`**:点击未映射到人员，且无法通过任何归因方法进行映射。
