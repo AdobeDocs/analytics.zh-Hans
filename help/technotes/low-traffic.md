@@ -1,14 +1,13 @@
 ---
 description: 当报表具有大量的唯一值时，Adobe 提供的功能可确保最重要的值显示在您的报表中。
 title: Adobe Analytics 中的低流量值
-feature: 量度
+feature: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-translation-type: ht
-source-git-commit: 65190776da25437e854e0226cd349e3ba13fc8c9
-workflow-type: ht
-source-wordcount: '641'
-ht-degree: 100%
+source-git-commit: 7036c6d3bc15c2cb7bd62af79229052cd772f8f8
+workflow-type: tm+mt
+source-wordcount: '682'
+ht-degree: 93%
 
 ---
 
@@ -27,6 +26,9 @@ ht-degree: 100%
    * 如果报表中尚未出现某个值，则该值会显示在[!UICONTROL 低流量]行项目下。如果已包括在[!UICONTROL 低流量]行项目下的某个值在短时间内大量出现，则会开始将该值识别为具有自己的行项目的值。要想看到某个项，该项所需大量出现的次数依赖于许多因素，例如处理服务器的数量以及为该特定报表包处理数据的守护程序数量。
 
 为什么 Adobe 将某个项从[!UICONTROL 低流量]行项目移动到该项自己的行项目？例如，在该月晚些时候添加了某个热门的新页面或新项（超过了唯一值之后）并且得到了大量的点击数/查看数，就会出现这种移动。这种移动并非用于捕获每天或每个月获得了特定点击数/查看数的所有信息。
+
+>[!NOTE]
+>页面查找计数不仅包含[!UICONTROL pagename]/[!UICONTROL page_url]的值。 页面查找表包含多个列/字段，如[!UICONTROL pagename]、[!UICONTROL first_hit_pagename]/[!UICONTROL page_url]、[!UICONTROL visit_pagename]/[!UICONTROL page_url]和点击上下文（旧的Clickmap数据）。
 
 ## 更改唯一限制阈值
 
