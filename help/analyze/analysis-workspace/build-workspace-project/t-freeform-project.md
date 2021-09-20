@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 创建 Workspace 项目
 feature: Reports & Analytics Basics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
+source-git-commit: 28e8ad7a71cbd8f034fa5fc8ec39a6db537da6f3
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
@@ -118,7 +118,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> 区段（蓝色） </td> 
-   <td colname="col2"> <p>只能在面板级别进行拖动，不过，您可以在数据表中创建内联区段。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>有关更多信息，请参阅<a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >区段</a>。 </p> </td> 
+   <td colname="col2"> <p>只能在面板级别进行拖动，不过，您可以在数据表中创建内联区段。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>有关更多信息，请参阅<a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  >区段</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 日期范围和粒度（紫色） </td> 
@@ -194,7 +194,7 @@ ht-degree: 100%
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 从选定范围中创建区段</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > 从选定范围中创建区段</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 

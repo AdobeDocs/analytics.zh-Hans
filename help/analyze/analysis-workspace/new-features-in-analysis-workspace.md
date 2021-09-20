@@ -2,12 +2,12 @@
 description: Analysis Workspace 的新增功能
 keywords: Analysis Workspace
 title: Analysis Workspace 中的新增功能
-feature: Workspace 基础知识
+feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
+source-git-commit: 174e81cc94fb67f391cbf6bff4c1b071527b5ce2
 workflow-type: tm+mt
-source-wordcount: '8288'
+source-wordcount: '8286'
 ht-degree: 99%
 
 ---
@@ -359,7 +359,7 @@ ht-degree: 99%
    <td colname="col2"> <p>我们将在界面右下角提供“每日提示”（以及相应的短视频）。这些提示旨在帮助您熟悉 Analysis Workspace 的众多炫酷功能。您可以选择取消这些提示，或者随时通过<span class="uicontrol">帮助</span> &gt; <span class="uicontrol">提示</span>来访问这些提示。 </p> <p><img  src="assets/tip_of_day.png" width="300px" id="image_44A2AA712E4242EC92A180380E66AD7D" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >区段模板</a>和<a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  >计算量度模板</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  >区段模板</a>和<a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  >计算量度模板</a></b> </p> </td> 
    <td colname="col2"> <p>现在，左边栏会显示区段模板和计算量度模板。 </p> </td> 
   </tr> 
   <tr> 
@@ -605,7 +605,7 @@ ht-degree: 99%
    <td colname="col2"> <p>现在，当数据源中的维度为时间维度时，您可以轻松地在时间粒度之间切换。您可以从可视化图表设置的下拉列表中切换粒度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 区段拖放区域中的完整维度和事件 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > 区段拖放区域中的完整维度和事件 </a> </p> </td> 
    <td colname="col2"> <p>以前，您只能将维度项目、日期范围或区段放入区段拖放区域。现在您可以将完整的维度或事件放入区段拖放区域。在这两种情况下，Analysis Workspace 将创建“存在”点击区段。 </p> <p>示例：“在 eVar1 存在的地方点击”或“在 event1 存在的地方点击”。 </p> <p>注意：您无法将计算量度放入区段区域。只有这些可为其构建区段的维度/量度才具有放入区段区域的资格。 </p> </td> 
   </tr> 
   <tr> 
@@ -935,7 +935,7 @@ ht-degree: 99%
    <td colname="col2"> <p>添加了对 CSV 格式的流失可视化图表的支持。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 区段中的日期范围 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > 区段中的日期范围 </a> </p> </td> 
    <td colname="col2"> <p>您可以将日期范围放置到区段拖放区域（例如，面板区段拖放区域、流失可视化图表区段拖放区域等）。日期范围会自动转换为区段。日期范围可以是自定义，也可以是非自定义的，但不是诸如“小时/日/周/月/季度/年”之类的粒度。 </p> </td> 
   </tr> 
   <tr> 
@@ -1058,7 +1058,7 @@ ht-degree: 99%
 * 排名表格中的[趋势选择](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)（折线图）现在已经关联。
 * [“创建可视化”图标](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)：单击此图标可在执行下一步操作（条形图、维恩图...）时提供智能推测。
 * 扩展了[手动行](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)功能
-* [添加区段](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)拖放区域
+* [添加区段](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)拖放区域
 * 次要更新：
 
    * 能够删除面板中的所有可视化图表和项目中的所有面板。（以前，必须保留至少一个可视化图表或面板。）

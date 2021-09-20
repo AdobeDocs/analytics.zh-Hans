@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 提供 Analytics 的高级分析和可视化工具 Analysis Workspace 以及 Adobe Analytics Dashboards、Report Builder 和 Activity Map 等工具的操作说明。
-source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
+source-git-commit: 28e8ad7a71cbd8f034fa5fc8ec39a6db537da6f3
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '989'
 ht-degree: 99%
 
 ---
@@ -34,7 +34,9 @@ ht-degree: 99%
          + [划分维度](analysis-workspace/components/dimensions/t-breakdown-fa.md)
          + [时间划分维度](analysis-workspace/components/dimensions/time-parting-dimensions.md)
       + [量度](analysis-workspace/components/apply-create-metrics.md)
-      + [区段](analysis-workspace/components/t-freeform-project-segment.md)
+      + 区段 {#segments}
+         + [创建区段](analysis-workspace/components/segments/t-freeform-project-segment.md)
+         + [快速区段](analysis-workspace/components/segments/quick-segments.md)
       + 日历和日期范围 {#calendar-date-ranges}
          + [日历和日期范围概述](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [创建自定义日期范围](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
