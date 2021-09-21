@@ -3,10 +3,10 @@ description: 在Analysis Workspace中使用快速区段。
 title: 快速区段
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 713b6b892e420dbae4ce4c41fd6400e199ed0633
+source-git-commit: 9622131ebd4a856cb7756e6844d7d7979029e70e
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 0%
+source-wordcount: '327'
+ht-degree: 5%
 
 ---
 
@@ -42,8 +42,22 @@ ht-degree: 0%
    ![](assets/quick-seg2.png)
 
 1. 单击&#x200B;**[!UICONTROL Apply]**以将此区段应用到面板。
-区段显示在顶部。 请注意其灰色条，而不是左侧组件级别区段的蓝色条。
+区段显示在顶部。 请注意其灰色侧栏，而不是左侧组件级别区段的蓝色条。
 
    ![](assets/quick-seg3.png)
 
-1. 在快速区段中
+## 将快速区段设为公用
+
+您可以选择按照以下步骤操作，将这些区段设为公用（全局）区段：
+
+1. 将鼠标悬停在快速区段上，然后单击“i”图标。
+1. 单击&#x200B;**[!UICONTROL 打开生成器]**。
+这会在区段生成器中打开该区段。
+   >[!NOTE]
+   >在区段生成器中应用或保存区段后，便无法再在快速区段生成器中对其进行编辑。
+1. 单击&#x200B;**[!UICONTROL 确定]**。
+1. 在区段生成器中，单击&#x200B;**[!UICONTROL 应用]**。
+1. 返回到工作区，并注意区段现在如何显示蓝色侧栏，指示它是组件库的一部分。
+
+   ![](assets/quick-seg4.png)
+
