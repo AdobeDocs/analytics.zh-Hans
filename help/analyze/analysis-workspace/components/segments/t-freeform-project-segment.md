@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 9622131ebd4a856cb7756e6844d7d7979029e70e
+source-git-commit: 65c955e25714591b8c4b2359969717d13626b322
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 51%
+source-wordcount: '437'
+ht-degree: 57%
 
 ---
 
@@ -56,4 +56,9 @@ ht-degree: 51%
 | “共享”>“共享项目”或“共享”>“策划项目数据” | 在[组织并共享](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hans#concept_4A9726927E7C44AFA260E2BB2721AFC6)中，了解应用到项目中的区段如何用于为收件人提供的共享分析报表。 |
 | 使用区段作为维度 | 视频：[在 Analysis Workspace 中使用区段作为维度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html?lang=en) |
 
+## 区段 IQ
 
+区段 IQ 包含以下功能：
+
+* [区段比较面板：](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)区段 IQ 的核心功能。将两个区段拖入面板中，并查看一份全面的报告，其中从统计角度显示了两个受众之间存在的显著差异和重叠。
+* [在流失表中比较区段：](/help/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md)通过流失可视化图表，了解不同受众之间的对比情况。

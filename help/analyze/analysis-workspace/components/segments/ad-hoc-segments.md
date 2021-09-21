@@ -3,10 +3,10 @@ description: 在Analysis Workspace中使用临时区段。
 title: 临时区段
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 9622131ebd4a856cb7756e6844d7d7979029e70e
+source-git-commit: 27c9a3f8f8faeda934827eac6797dd39ba7dd2ca
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 45%
+source-wordcount: '278'
+ht-degree: 41%
 
 ---
 
@@ -25,7 +25,8 @@ ht-degree: 45%
 
    您的面板会自动应用此区段，您便可以立即看到结果。
 
-1. 至
+1. 一个面板最多可添加3个临时区段。
+1. 如果您决定要保存此区段，请参阅“将临时区段设为公用”一节。
 
 请记住：
 
@@ -45,3 +46,4 @@ ht-degree: 45%
 1. 在显示的信息面板中，单击&#x200B;**[!UICONTROL 设为公用]**。
 
    ![](assets/segment-info.png)
+
