@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 0aee84be83b2e5916ecf6ffdd4171ed4ef612b5b
+source-git-commit: 713b6b892e420dbae4ce4c41fd6400e199ed0633
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 75%
+source-wordcount: '496'
+ht-degree: 76%
 
 ---
 
@@ -16,15 +16,15 @@ ht-degree: 75%
 
 您可以创建不同类型的区段，具体取决于区段的复杂程度、区段是否应仅应用于此项目等。 以下是区段类型的摘要：
 
-| 区段类型 | 创建位置？ | 适用位置？ | 多个容器？ | UI颜色 |
-| --- | --- | --- | --- |
-| 组件列表区段 | [区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md) | 从左边栏到所有项目 | 是 | 蓝色 |
-| 快速区段 | [快速区段生成器](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | 仅限项目级别 | 否 | 灰色? |
-| 临时区段： | 请参阅下文 | 仅限项目级别 | 否 | ? |
-| - Ad hoc Workspace项目区段 | 拖放到区段中？ 在新项目中 |  |  |  |
-|  — 基于计算量度的区段 | 计算量度生成器 |  |  |  |
-|  — 基于VRS的区段 | 虚拟报表包生成器 |  |  |  |
-|  — 区段生成器“应用” | 区段生成器 |  |  |  |
+| 区段类型 | 创建位置？ | 适用位置？ | 多个容器？ |
+| --- | --- | --- | 
+| 组件列表区段 | [区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md) | 所有项目，在左边栏中 | 是 | 蓝色 |
+| 快速区段 | [快速区段生成器](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | 仅限项目级别 | 否 |
+| 临时区段： | 请参阅下文 | 仅限项目级别 | 否 |
+| - Ad hoc Workspace项目区段 | 拖放到区段中？ 在新项目中 |  |  |
+|  — 基于计算量度的区段 | 计算量度生成器 |  |  |
+|  — 基于VRS的区段 | 虚拟报表包生成器 |  |  |
+|  — 区段生成器“应用” | 区段生成器 |  |  |
 
 有关Adobe Analytics中分段的深入讨论，请前往[此处](/help/components/segmentation/seg-overview.md)。
 
