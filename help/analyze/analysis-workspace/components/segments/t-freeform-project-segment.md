@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 31507092e659fa08a50e00f91bd36411e354cb21
+source-git-commit: f3185f1ee341348fb7bdbaab8b68d421e7c79076
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 42%
+source-wordcount: '499'
+ht-degree: 43%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 42%
 | 区段类型 | 创建位置？ | 适用位置？ | 使用时间 |
 | --- | --- | --- | --- |
 | 组件列表区段 | 单击+，此时将转到[区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md) | 所有工作区项目 | 对于更复杂的区段，顺序区段 |
-| 快速区段 | [快速区段生成器](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | 项目级别，但可以保存并添加到区段列表。 | 灵活地添加/编辑一个或多个规则 |
+| 快速区段 | [快速区段生成器](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | 仅限项目，但可以保存并添加到区段列表。 | 灵活地添加/编辑一个或多个规则 |
 | 临时区段： |  |  |  |
-|  — 临时工作区项目区段 | [将拖放到项目中的区段拖放区域](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | 项目级别，但可以保存并添加到区段列表。 | 默认情况下，单规则区段（无限制） |
+|  — 临时工作区项目区段 | [将拖放到项目中的区段拖放区域](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | 仅限项目，但可以保存并添加到区段列表。 | 默认情况下，单规则区段（无限制） |
 |  — 基于计算量度的区段 | [计算量度生成器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | 到单个计算量度 | 在量度定义中应用区段 |
 |  — 基于VRS的区段 | [虚拟报表包生成器](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | 到单个虚拟报表包 | 在VRS定义中应用区段 |
 
