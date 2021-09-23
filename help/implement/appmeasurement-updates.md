@@ -4,9 +4,9 @@ description: AppMeasurement for JavaScript 的发行说明汇总。
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 6624105e45f02a803fd39fcbd63d5560c9a12968
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2201'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 97%
 
 发行日期：**2021 年 9 月 7 日**
 
-* 此更新会导致跟踪链接时始终包含`opt.dmp`和`opt.sell`。 以下是同意变量](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html)的完整列表。[
+* 此更新促使在跟踪链接时始终包含 `opt.dmp` 和 `opt.sell`。下面是[同意变量的完整列表](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html)。
 
 ## 版本 2.22.1
 
 发行日期：**2021 年 8 月 17 日**
 
-* 使用选择退出的客户可能已经看到跟踪链接时不接受服务器端转发选择退出参数。 此版本中的修复导致在跟踪链接时存在选择退出标记时发送这些标记。
+* 使用选择退出的客户可能已发现在跟踪链接时未遵循服务器端转发选择退出参数。此版本中的修复会导致在跟踪链接时发送选择退出标志（如果有）。
 
 ## 版本 2.22.0
 
@@ -437,7 +437,7 @@ ht-degree: 97%
 发行日期：**2013 年 11 月 14 日**
 
 * 添加了对[心率视频测量](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans)的支持。
-* `VisitorAPI.js`添加了 ，以便支持[访客 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
+* `VisitorAPI.js`添加了 ，以便支持[访客 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
 
 ## 版本 1.1.1
 
