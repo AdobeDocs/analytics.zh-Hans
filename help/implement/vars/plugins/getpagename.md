@@ -3,9 +3,9 @@ title: getPageName
 description: 从当前网站路径创建一个简单易读的 pageName。
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -57,14 +57,14 @@ var getPageName=function(si,qv,hv,de){var a=si,b=qv,f=hv,e=de;if("-v"===a)return
 
 ## 使用此插件
 
-`getPageName`函数使用以下参数：
+`getPageName` 函数使用以下参数：
 
 * **`si`**（可选，字符串）：插入到字符串开头的 ID，表示网站的 ID。此值可以是数字 ID 或友好名称。如果未设置此值，则将默认使用当前域。
 * **`qv`**（可选，字符串）：以逗号分隔的查询字符串参数列表，其中包含在 URL 中找到的已添加到字符串的参数（如果可找到）
 * **`hv`**（可选，字符串）：以逗号分隔的参数列表，其中包含在 URL 散列中找到的已添加到字符串的参数（如果可找到）
 * **`de`**（可选，字符串）：用于拆分字符串各个部分的分隔符。默认使用管道分隔符 (`|`)。
 
-函数会返回一个包含URL的友好格式版本的字符串。 此字符串通常会被分配给 `pageName` 变量，但也可以用于其他变量。
+此函数将返回一个包含 URL 的友好格式版本的字符串。此字符串通常会被分配给 `pageName` 变量，但也可以用于其他变量。
 
 ## 示例
 
@@ -93,7 +93,7 @@ s.pageName = getPageName("example","cid","arrive,numGuests",": ");
 
 ## 从先前的版本升级
 
-`getPageName`插件的4.0+版本不取决于Adobe Analytics的AppMeasurement对象（即`s`对象）是否存在。 如果升级到此版本，请通过从调用中删除`s`对象的任何实例来更改用于调用插件的代码。 例如，将`s.getPageName();`更改为`getPageName();`。
+不论是否存在 Adobe Analytics 的 AppMeasurement 对象（即 `s` 对象），4.0 版以上的 `getPageName` 插件都可以正常运行。如果升级到此版本，则可从调用中删除 `s` 对象的所有实例来更改用于调用此插件的代码。例如，将 `s.getPageName();` 更改为 `getPageName();`。
 
 ## 版本历史记录
 
