@@ -3,9 +3,9 @@ description: 在Analysis Workspace中使用快速区段。
 title: 快速区段
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: ef232d1227430bb2430ca1da09756f5dd5106b1f
+source-git-commit: 5ac3b11c559b03df2c08efc5a1a64c76ee1cf28e
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '931'
 ht-degree: 1%
 
 ---
@@ -13,10 +13,21 @@ ht-degree: 1%
 
 # 快速区段
 
-您可以在项目中创建快速区段，以绕过完整[区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md)的复杂性。 要比较快速区段可以执行的操作与完整的组件列表区段，请前往[此处](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)。 快速区段最多允许3个规则，且不适用于嵌套容器或顺序区段。
+您可以在项目中创建快速区段，以绕过完整[区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md)的复杂性。 快速区段
+
+* 仅应用于特定项目（您可以更改此项）。
+* 最多允许3个规则
+* 不要包含嵌套容器或顺序规则。
+* 在包含多个报表包的面板中可以工作
+
+要比较快速区段可以执行的操作与完整的组件列表区段，请前往[此处](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)。
 
 >[!IMPORTANT]
 > 快速区段当前处于有限测试中，通常还不可用。
+
+## 先决条件
+
+用户需要[Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools)中的[!UICONTROL 区段创建]权限，才能创建快速区段。
 
 ## 创建快速区段
 
@@ -26,24 +37,24 @@ ht-degree: 1%
 
 | 设置 | 描述 |
 | --- | --- |
-| 名称 | 区段的默认名称是区段中规则的组合。 您可以重命名区段。 |
+| 名称 | 区段的默认名称是区段中规则名称的组合。 您可以重命名区段。 |
 | 包含/排除 | 您可以在区段定义中包含或排除组件，但不能同时包含和排除组件。 |
 | 点击/访问/访客容器 | 快速区段仅包含一个[区段容器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=en#section_AF2A28BE92474DB386AE85743C71B2D6)，它允许您在区段中（或从中排除）包含维度/量度/日期范围。  访客包含所有访问和页面查看中特定于该访客的一切数据。通过[!UICONTROL 访问]容器可设置规则来根据访问对访客的数据进行划分，通过[!UICONTROL 点击]容器可根据各个页面查看对访客信息进行划分。 默认容器为[!UICONTROL Hit]。 |
-| 组件(Dimension/量度/日期范围) | 通过添加组件维度和/或量度和/或日期范围，最多定义3个规则。 有3种方法可找到正确的组件：<ul><li>开始键入内容，[!UICONTROL 快速区段]生成器会自动找到相应的组件。</li><li>使用下拉列表查找组件。</li><li>从左边栏拖放组件。</li></ul> |
-| 运算符 | 使用下拉菜单查找标准运算符，如`contains`和[!UICONTROL Distinct Count]运算符。 |
+| 组件(Dimension/量度/日期范围) | 通过添加组件维度和/或量度和/或日期范围及其值，最多定义3个规则。 有3种方法可找到正确的组件：<ul><li>开始键入内容，[!UICONTROL 快速区段]生成器会自动找到相应的组件。</li><li>使用下拉列表查找组件。</li><li>从左边栏拖放组件。</li></ul> |
+| 运算符 | 使用下拉菜单查找标准运算符和[!UICONTROL Distinct Count]运算符。 [了解详情](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=en) |
 | 加号(+) | 添加其他规则 |
 | 和/或限定符 | 您可以在规则中添加“AND”或“OR”限定符，但不能在单个区段定义中混合使用“AND”和“OR”。 |
-| 应用 | 将此区段应用到面板。 |
-| 打开生成器 | 打开区段生成器。 |
+| 应用 | 将此区段应用到面板。 如果区段不包含数据，则系统将询问您是否要继续。 |
+| 打开生成器 | 打开区段生成器。 在区段生成器中保存该区段后，该区段不再被视为“快速区段”。 它将成为组件列表区段库的一部分。 |
 | 取消 | 取消此快速区段 — 请勿应用该区段。 |
 | 日期范围 | 验证器使用面板日期范围进行数据查找。 但是，在快速区段中应用的任何日期范围都会覆盖面板顶部的面板日期范围。 |
-| 预览（右上方） | 用于查看您是否拥有有效的区段以及区段的广泛程度。 表示在应用此区段时，您预计会看到的数据集的划分。 |
+| 预览（右上方） | 用于查看您是否拥有有效的区段以及区段的广泛程度。 表示在应用此区段时，您预计会看到的数据集的划分。 您可能会收到一条通知，指示此区段没有数据。 您可以继续或更改区段定义。 |
 
 以下是将维度和量度组合在一起的区段示例：
 
 ![](assets/quick-seg2.png)
 
-区段显示在顶部。 请注意其灰色侧栏，而不是左侧区段库中组件级别区段的蓝色侧栏。
+区段显示在顶部。 请注意其蓝色条纹边栏，而不是左侧区段库中组件级别区段的蓝色边栏。
 
 ![](assets/quick-seg3.png)
 
@@ -54,10 +65,21 @@ ht-degree: 1%
 
 ## 保存快速区段
 
-您可以选择在快速区段生成器中保存快速区段，也可以通过执行这些步骤来保存快速区段。
+您可以选择在快速区段生成器或区段生成器中保存快速区段。
 
 >[!IMPORTANT]
 >保存或应用区段后，您便无法再在快速区段生成器中编辑该区段，只能在常规的区段生成器中进行编辑。
+
+### 在快速区段生成器中保存
+
+1. 应用快速区段后，将鼠标悬停在该区段上，然后选择信息(“i”)图标。
+1. 单击&#x200B;**[!UICONTROL 使所有项目都可用并添加到组件列表]**。
+1. （可选）重命名区段。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
+
+请注意区段的侧栏如何从蓝色条带变为蓝色。 现在，它会显示在左边栏的组件列表中。
+
+### 在区段生成器中保存
 
 1. 将鼠标悬停在快速区段上，然后选择信息(“i”)图标。
 1. 选择&#x200B;**[!UICONTROL 保存区段]**
@@ -85,4 +107,4 @@ ht-degree: 1%
 
 ## 什么是仅限项目的区段？
 
-仅项目区段是快速区段或临时工作区项目区段。 在区段生成器中编辑/打开区段时，将显示“仅限项目”框。 如果在生成器中应用快速区段，但未选中“可用”框，则它仍是仅限项目的区段，但无法再在QS生成器中打开。 如果选中框并执行保存，则该区段现在为组件列表区段。
+仅项目区段是快速区段或临时工作区项目区段。 在区段生成器中编辑/打开区段时，将显示仅限项目框。 如果您在生成器中应用快速区段，但未选中“可用”框，则该区段仍为仅限项目的区段，但无法再在快速区段生成器中打开。 如果勾选方框并执行SAVE，则它现在是组件列表区段。
