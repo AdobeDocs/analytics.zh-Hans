@@ -4,9 +4,9 @@ title: 查看报表包使用情况
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->如果报表包未链接到Experience Cloud组织，则其使用情况数据不会反映在此功能板中。 此外，一个账单 ID 可同时与多个 Experience Cloud 绑定；组织和账单 ID 之间并不总是一一对应的关。
+>如果报表包未关联到 Experience Cloud 组织，则该功能板中将不会反映此报表包的使用情况数据。此外，一个账单 ID 可同时与多个 Experience Cloud 绑定；组织和账单 ID 之间并不总是一一对应的关。
 
 “报表包使用情况”功能板
 
