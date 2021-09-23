@@ -3,9 +3,9 @@ title: getVisitNum
 description: 跟踪访客的当前访问数量。
 exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '684'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function getVisitNum(rp,erp){var a=rp,l=erp;function m(c){return isNaN(c)?!1:(pa
 
 ## 使用此插件
 
-`getVisitNum`函数使用以下参数：
+`getVisitNum` 函数使用以下参数：
 
 * **`rp`**（可选，整数或字符串）：访问量计数器重置前的天数。如果未设置此参数，则将默认使用 `365`。
    * 如果将此参数设置为 `"w"`，则计数器将在周末（本周六晚上 11:59）重置
@@ -65,7 +65,7 @@ function getVisitNum(rp,erp){var a=rp,l=erp;function m(c){return isNaN(c)?!1:(pa
    * 如果将此参数设置为 `"y"`，则计数器将在年末（12 月 31 日）重置
 * **`erp`**（可选，布尔）：如果 `rp` 参数是数字，则此参数可确定是否应延长访问量过期时间。如果设置为 `true`，则对您网站的后续点击将重置访问数量计数器。如果设置为 `false`，则当访问数量计数器重置时，对您网站的后续点击将不会延期。默认为 `true`。如果 `rp` 参数为字符串，此参数将无效。
 
-每当访客在处于非活动状态 30 分钟后返回到您的网站时，访问数量便会增加。调用此函数将返回一个表示访客当前访问次数的整数。
+每当访客在处于非活动状态 30 分钟后返回到您的网站时，访问数量便会增加。调用此函数将返回一个表示访客当前访问数量的整数。
 
 此插件将设置一个名为 `"s_vnc[LENGTH]"` 的第一方 Cookie，其中 `[LENGTH]` 为传递到 `rp` 参数的值。例如，`"s_vncw"`、`"s_vncm"` 或 `"s_vnc365"`。该 Cookie 的值包含一个 Unix 时间戳，该时间戳表示访问数量计数器重置的时间，例如周末、月末或处于非活动状态 365 天后。此外，该值还包含当前访问数量。此插件还会设置一个名为 `"s_ivc"` 的 Cookie，该 Cookie 已设为 `true`，且将在处于非活动状态 30 分钟后过期。
 
