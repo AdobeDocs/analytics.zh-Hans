@@ -2,7 +2,7 @@
 title: 营销渠道常见问题解答
 description: 有关营销渠道的常见问题解答。
 source-git-commit: 925435a475be13103c5b26255bb7910d259ff7e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1485'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## 我的跟踪代码不遵循某种模式，我必须为我的“附属活动”渠道指定数千个代码。
 
-* 使用排除法。如果您的“电子邮件”和“附属活动”渠道使用相同的查询字符串参数，但您只有少数的电子邮件跟踪代码，则您可以在一个定义电子邮件的规则集中指定电子邮件跟踪代码。然后，分类其他所有跟踪代码时使用  *`affiliates.`*
+* 使用排除法。如果您的“电子邮件”和“附属活动”渠道使用相同的查询字符串参数，但您只有少数的电子邮件跟踪代码，则您可以在一个定义电子邮件的规则集中指定电子邮件跟踪代码。然后，分类其他所有跟踪代码时使用 *`affiliates.`*
 * 在您的电子邮件系统中，为所有登陆页面 URL 添加一个查询字符串参数，例如 *`&ch=eml`*。创建一个规则集，用于检测 ch 查询参数是否等于 *`eml`*。如果该规则集中不包含 *`eml`*，则它是一个附属活动。
 
 ## 反向链接域包含的数据比我预期的多。
@@ -50,9 +50,9 @@ ht-degree: 100%
 
 1. **[!UICONTROL 反向链接]**&#x200B;和&#x200B;**[!UICONTROL 不存在]**&#x200B;和&#x200B;**[!UICONTROL 是访问第一页]**。（请参阅[直接](/help/components/c-marketing-channels/c-faq.md)。）
 
-2. **[!UICONTROL 引用网站与内部 URL 筛选器匹配]**&#x200B;和&#x200B;**[!UICONTROL 是访问第一页]**。（请参阅[内部](/help/components/c-marketing-channels/c-faq.md)。）
+2. **[!UICONTROL 引用网站与内部 URL 过滤器匹配]**&#x200B;和&#x200B;**[!UICONTROL 是访问第一页]**。（请参阅[内部](/help/components/c-marketing-channels/c-faq.md)。）
 
-3. **[!UICONTROL 反向链接]**&#x200B;和&#x200B;**[!UICONTROL 存在]**&#x200B;和&#x200B;**[!UICONTROL 引用网站与内部 URL 筛选器不匹配]**。
+3. **[!UICONTROL 反向链接]**&#x200B;和&#x200B;**[!UICONTROL 存在]**&#x200B;和&#x200B;**[!UICONTROL 引用网站与内部 URL 过滤器不匹配]**。
 
 最后，创建一个捕捉剩余点击的&#x200B;*其他*&#x200B;渠道，如[未识别渠道](/help/components/c-marketing-channels/c-faq.md#no-channel-identified)中所述。
 
