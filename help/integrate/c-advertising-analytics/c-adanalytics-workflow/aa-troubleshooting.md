@@ -4,9 +4,9 @@ title: Advertising Analytics 疑难解答
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 92%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. 未将报表包映射到登录用户的 Experience Cloud 组织 ID。 </p> </td> 
-   <td colname="col2"> <p>请联系客户关怀团队，将报表包映射到IMS组织。</p> </td> 
+   <td colname="col2"> <p>联系客户关怀部门以将报表包映射到 IMS 组织。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. 报表包没有配置为可以使用 Advertising Analytics 报告功能。 </p> </td> 
