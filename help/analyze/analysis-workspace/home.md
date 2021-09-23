@@ -5,7 +5,7 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '555'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ Analysis Workspace 是一款通过浏览器即可使用的灵活工具，可让�
 
 ### 可视化图表
 
-接下来，将&#x200B;**“可视化图表”**（例如条形图或折线图）添加到数据的顶部，以便更加直观地将数据呈现出来。在最左侧的边栏中，选择中间的&#x200B;**[!UICONTROL 可视化]**&#x200B;图标，以查看所有可用的[可视化图表](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hans)。
+接下来，将&#x200B;**“可视化图表”**（例如条形图或折线图）添加到数据的顶部，以便更加直观地将数据呈现出来。在最左侧的边栏中，选择中间的&#x200B;**[!UICONTROL 可视化图表]**&#x200B;图标，以查看所有可用的[可视化图表](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hans)。
 
 ![](assets/build-visualizations.png)
 
