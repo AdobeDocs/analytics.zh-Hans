@@ -3,9 +3,9 @@ title: getResponsiveLayout
 description: 确定当前正在查看网站的哪个布局。
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -57,13 +57,13 @@ var getResponsiveLayout=function(ppw,plw,tw){var c=ppw,b=plw,e=tw;if("-v"===c)re
 
 ## 使用此插件
 
-`getResponsiveLayout`函数使用以下参数：
+`getResponsiveLayout` 函数使用以下参数：
 
 * **`ppw`**（必需，整数）：在页面从手机竖屏布局切换到手机横屏布局之前，浏览器窗口可以具有的最大宽度（以像素为单位）
 * **`plw`**（必需，整数）：在页面从手机横屏布局切换到基于平板电脑布局之前，浏览器窗口可以具有的最大宽度（以像素为单位）
-* **`tw`** （必需，整数）：在页面从平板电脑布局切换到基于桌面的布局之前，浏览器窗口可以具有的最大宽度（以像素为单位）
+* **`tw`**（必需，布尔）：在页面从平板电脑布局切换到基于桌面的布局之前，浏览器窗口可以具有的最大宽度（以像素为单位）
 
-调用此函数将返回一个字符串，其中包含两个以冒号(`:`)分隔的部分。 根据浏览器的宽度和上述参数，字符串的第一部分包含以下值之一：
+调用此函数将返回一个字符串，其中包含以冒号 (`:`) 分隔的两个部分。根据浏览器的宽度和上述参数，该字符串的第一个部分包含下列值之一：
 
 * `"phone portrait layout"`
 * `"phone landscape layout"`
