@@ -3,9 +3,9 @@ title: 如何在 Advertising Analytics 中设置广告帐户
 description: 让您创建新的广告帐户并将多个帐户映射到多个报表包。
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
 source-git-commit: 98c04c6553f6f18bb69a29ac2af0f622928b0b31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '824'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Adobe Analytics 管理员可以创建新的广告帐户，并将多个帐户映�
 
    >[!IMPORTANT]
    >
-   >只有映射到Experience Cloud组织的报表包才可供选择。 如果在列出的报表包中未看到您的报表包，请参阅 [Advertising Analytics 疑难解答](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)。
+   >只有已映射到 Experience Cloud 组织的报表包才可供选择。如果在列出的报表包中未看到您的报表包，请参阅 [Advertising Analytics 疑难解答](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)。
 
    对于&#x200B;**[!UICONTROL 映射设置]**，请遵循以下说明：
 
