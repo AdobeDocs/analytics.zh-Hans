@@ -2,13 +2,13 @@
 description: 此工作区可视化图表与折线图类似，只是线条下方显示了彩色区域。
 title: 面积图和堆叠的面积图
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
-feature: 可视化图表
+feature: Visualizations
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
 source-git-commit: 5c235ecbf348af86e8f195f99f8e721dd97946b8
-workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 93%
+workflow-type: ht
+source-wordcount: '106'
+ht-degree: 100%
 
 ---
 
@@ -30,6 +30,6 @@ ht-degree: 93%
 
 ![](assets/areastacked100.png)
 
-以下是有关“100%堆叠的可视化”的视频：
+下面是有关“100% 堆叠可视化”的视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23131/?quality=12)
