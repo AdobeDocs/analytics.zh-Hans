@@ -3,7 +3,7 @@ title: Analytics 技术说明
 description: 本指南提供关于不属于特定分析工具或组件的主题的有用信息。
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '96'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## 更多 Analytics 用户指南
 
-[《Analytics 用户指南》](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hans)
+[《Analytics 用户指南》](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## 其他 Analytics 资源
 
