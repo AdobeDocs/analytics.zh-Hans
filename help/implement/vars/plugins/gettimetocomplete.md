@@ -3,9 +3,9 @@ title: getTimeToComplete
 description: 测量完成一项任务所需的时间。
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -57,13 +57,13 @@ function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)
 
 ## 使用此插件
 
-`getTimeToComplete`函数使用以下参数：
+`getTimeToComplete` 函数使用以下参数：
 
 * **`sos`**（可选，字符串）：要启动计时器时设置为 `"start"`。要停止计时器时设置为 `"stop"`。默认为 `"start"`。
 * **`cn`**（可选，字符串）：用于存储开始时间的 Cookie 的名称。默认为 `"s_gttc"`。
 * **`exp`**（可选，整数）：Cookie（和计时器）的过期时间（以天为单位）。默认值为 `0`，表示将在浏览器会话结束时过期。
 
-调用此函数将返回一个字符串，其中包含从`"start"`操作到`"stop"`操作所用的时间（天、小时、分钟和/或秒）。
+调用此函数将返回一个字符串，其中包含从 `"start"` 到 `"stop"` 操作所用的时间（天数、小时数、分钟数和/或秒数）。
 
 ## 示例
 
