@@ -3,9 +3,9 @@ title: getNewRepeat
 description: 跟踪新访客与回访访客的活动。
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '552'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -57,11 +57,11 @@ function getNewRepeat(d){var a=d;if("-v"===a)return{plugin:"getNewRepeat",versio
 
 ## 使用此插件
 
-`getNewRepeat`函数使用以下参数：
+`getNewRepeat` 函数使用以下参数：
 
 * **`d`**（整数，可选）：将访客重置回 `"New"` 的两次访问之间所需的最小天数。如果未设置此参数，则默认为 30 天。
 
-如果插件设置的Cookie不存在或已过期，则此函数将返回值`"New"`。 如果插件设置的 Cookie 存在，并且自当前点击以来的时间以及 Cookie 中设置的时间大于 30 分钟，则它将返回值 `"Repeat"`。此函数在整个访问中返回相同的值。
+如果插件设置的 Cookie 不存在或已过期，则此函数将返回值 `"New"`。如果插件设置的 Cookie 存在，并且自当前点击以来的时间以及 Cookie 中设置的时间大于 30 分钟，则它将返回值 `"Repeat"`。在整个访问期间，此函数将返回相同的值。
 
 该插件使用名为 `"s_nr[LENGTH]"` 的 Cookie，其中 `[LENGTH]` 等于 `d` 参数。Cookie 包含一个 Unix 时间戳，该时间戳表示访客的当前时间和当前状态（`"New"` 或 `"Repeat"`）。
 
