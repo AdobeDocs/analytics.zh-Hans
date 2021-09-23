@@ -3,9 +3,9 @@ title: cleanStr
 description: 删除或替换字符串中所有不必要的字符。
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -57,11 +57,11 @@ function cleanStr(str){var a=str;if("-v"===a)return{plugin:"cleanStr",version:"2
 
 ## 使用此插件
 
-`cleanStr`函数使用以下参数：
+`cleanStr` 函数使用以下参数：
 
 * **`str`**（必需，字符串）：用于清理 HTML 编码、额外空格、制表符或其他不必要字符的值。
 
-该函数返回`str`参数的值，并删除所有不必要的字符。
+该函数会返回 `str` 参数的值，并删除所有不必要的字符。
 
 ## 示例
 
