@@ -3,9 +3,9 @@ title: 维度概述
 description: 包含字符串值的变量。
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
 source-git-commit: 482817636e82a40c274d549c4190d0b11d27c183
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -25,6 +25,6 @@ ht-degree: 85%
 
 ## 添加维度描述
 
-以下视频介绍如何在Adobe Analytics中添加维度（和量度）描述：
+以下视频介绍了如何在 Adobe Analytics 中添加维度（和量度）描述：
 
 >[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
