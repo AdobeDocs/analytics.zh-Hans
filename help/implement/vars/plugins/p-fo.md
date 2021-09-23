@@ -3,9 +3,9 @@ title: p_fo（仅限第一页）
 description: 确保某些例程在每页上仅触发一次。
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '635'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -57,11 +57,11 @@ function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefine
 
 ## 使用此插件
 
-`p_fo`函数使用以下参数：
+`p_fo` 函数使用以下参数：
 
 * **on**（必需，字符串）：插件将创建的 JavaScript 对象的名称，前提是页面上不存在该对象。
 
-如果对象尚不存在，则此函数将返回`true`并创建该对象。 如果对象已存在，则此函数将返回`false`。
+如果对象尚不存在，则此函数将返回 `true` 并创建该对象。如果对象尚已存在，则此函数将返回 `false`。
 
 ## 示例调用
 
@@ -78,7 +78,7 @@ if(p_fo("myobject"))
 }
 ```
 
-**注意：** 每次加载新页面对象/DOM（或重新加载当前页面）时，on参数中指定的对象将不再存在，因此p_fo插件将在页面完成加载后首次运行时再次返回true。
+**注意：**&#x200B;每当加载新页面对象/DOM（或重新加载当前页面）时，on 参数中指定的对象将不复存在，因此 p_fo 插件将在页面完成加载后首次运行时再次返回 true。
 
 ## 版本历史记录
 
