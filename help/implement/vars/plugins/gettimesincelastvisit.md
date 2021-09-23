@@ -3,9 +3,9 @@ title: getTimeSinceLastVisit
 description: 测量两次访问之间的间隔时间。
 exl-id: c5cef219-8a8a-4e57-a372-f2e063325a67
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function getTimeSinceLastVisit(){if(arguments&&"-v"===arguments[0])return{plugin
 
 ## 使用此插件
 
-`getTimeSinceLastVisit`函数不使用任何参数。 此方法将返回距访客上次访问网站的间隔时间，并按以下列格式存储该时间：
+`getTimeSinceLastVisit` 函数不使用任何参数。此方法将返回距访客上次访问网站的间隔时间，并按以下列格式存储该时间：
 
 * 若距上次访问的间隔时间介于 30 分钟和 1 小时之间，则会以“0.5 分钟”为基准将间隔时间四舍五入到最接近的值。例如 `"30.5 minutes"`、`"53 minutes"`
 * 若距上次访问的间隔时间介于 1 小时和 1 天之间，则会以“0.25 小时”为基准将间隔时间四舍五入到最接近的值。例如 `"2.25 hours"`、`"7.5 hours"`
