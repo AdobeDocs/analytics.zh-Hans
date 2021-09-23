@@ -3,9 +3,9 @@ title: pt
 description: 对变量列表执行一个函数。
 exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 >
 >此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
-`pt` 插件可对 Analytics 变量列表执行一个函数或方法。例如，您可以选择性地对多个变量运行[`clearVars`](../functions/clearvars.md)函数，而无需每次手动调用该函数。 有一些其他插件需要此插件代码才能正常运行。如果您不需要同时对多个 Analytics 变量运行特定函数，或者您未使用任何依赖此插件的相关插件，则无需使用此插件。
+`pt` 插件可对 Analytics 变量列表执行一个函数或方法。例如，您可以选择性地对多个变量运行 [`clearVars`](../functions/clearvars.md) 函数，而无需每次手动调用该函数。有一些其他插件需要此插件代码才能正常运行。如果您不需要同时对多个 Analytics 变量运行特定函数，或者您未使用任何依赖此插件的相关插件，则无需使用此插件。
 
 ## 使用 Adobe Experience Platform 中的标记安装插件
 
@@ -57,14 +57,14 @@ function pt(l,de,cf,fa){var b=l,d=de,f=cf,g=fa;if("-v"===b)return{plugin:"pt",ve
 
 ## 使用此插件
 
-`pt`函数使用以下参数：
+`pt` 函数使用以下参数：
 
 * **`l`**（必需，字符串）：可对其执行 `cf` 参数中包含的函数的变量列表。
 * **`de`**（可选，字符串）：用于分隔 `l` 参数中变量列表的分隔符。默认使用逗号 (`,`)。
 * **`cf`**（必需，字符串）：包含在 AppMeasurement 对象中且要针对 `l` 参数中所含每个变量而调用的回调函数的名称。
 * **`fa`**（可选，字符串）：如果 `cf` 参数中的函数在运行时需要使用其他参数，请在此处包含这些参数。默认为 `undefined`。
 
-如果回调函数（在`cf`参数中）返回一个值，则调用此函数会返回一个值。
+如果回调函数（在 `cf` 参数中）返回一个值，则调用此函数也将返回一个值。
 
 ## 示例调用
 
