@@ -3,9 +3,9 @@ title: 产品
 description: 发送有关所显示产品或购物车中产品的数据。
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 source-git-commit: e7d8c716547cdedabf095bb8d6712d0f8b5ad647
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 95%
 
 `s.products` 变量是一个字符串，其中包含每个产品的多个分隔字段。在字符串中使用分号 (`;`) 分隔每个字段。
 
-* **类别**（可选）：总体产品类别。贵组织可决定如何划分产品类别。此字段的最大长度为100字节。
-* **产品名称**（必需）：产品的名称。此字段的最大长度为100字节。
+* **类别**（可选）：总体产品类别。您的组织可决定如何划分产品类别。此字段的最大长度为 100 个字节。
+* **产品名称**（必需）：产品的名称。此字段的最大长度为 100 个字节。
 * **数量**（可选）：购物车中此产品的数量。此字段仅适用于具有购买事件的点击。
 * **价格**（可选）：以小数表示的产品总价格。如果数量大于 1，则将价格设置为总价，而不是产品单价。调整此值的货币以与 [`currencyCode`](../config-vars/currencycode.md) 变量匹配。请勿在此字段中包含货币符号。此字段仅适用于具有购买事件的点击。
 * **事件**（可选）：与产品绑定的事件。使用管道字符 (`|`) 分隔多个事件。有关更多信息，请参阅[事件](events/events-overview.md)。
@@ -44,7 +44,7 @@ ht-degree: 95%
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-此变量在同一点击中支持多个产品。它对于购物车和包含多种产品的购买非常有用。整个`products`字符串的最大长度为64 K。 在字符串中使用逗号 (`,`) 分隔每个产品。
+此变量在同一点击中支持多个产品。它对于购物车和包含多种产品的购买非常有用。整个 `products` 字符串的最大长度为 64K。在字符串中使用逗号 (`,`) 分隔每个产品。
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
