@@ -1,14 +1,14 @@
 ---
-description: 如何通过FTP上传数据文件。
+description: 如何通过 FTP 上传数据文件。
 subtopic: Classifications
 title: FTP 导入
-feature: 管理工具
+feature: Admin Tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 source-git-commit: 32196fc76b2743679516a00f86c4912fac0bb3cf
-workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '716'
+ht-degree: 100%
 
 ---
 
