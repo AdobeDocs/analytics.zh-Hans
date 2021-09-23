@@ -3,9 +3,9 @@ description: 了解 Analytics 数据连接器生命周期终止的时间和原�
 title: Analytics 数据连接器生命周期终止预告
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 source-git-commit: f034baca23980ae70d83bc6488e13fc610a43ab1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '685'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -13,17 +13,17 @@ ht-degree: 82%
 
 十多年来，Adobe Analytics 始终致力于提供一流的网络和营销分析解决方案来满足客户的需求。随着技术和业务需求的发展，我们努力地持续践行这一目标并实现最高标准。遗憾的是，支持这一集成的 API 已不再满足这些标准，并且也无法应用于现代 Adobe Analytics 技术基础设施中。
 
-**自2021年8月19日起**,Adobe已停止Data Connectors集成。生命周期终止是任何技术产品生命周期的一部分，Adobe 旨在尽可能地让客户和合作伙伴实现无缝过渡。这些集成中的许多资源可通过 Adobe Exchange 获得，并可以继续加以利用。
+**自 2021 年 8 月 19 日起**，Adobe 已中断数据连接器集成。生命周期终止是任何技术产品生命周期的一部分，Adobe 旨在尽可能地让客户和合作伙伴实现无缝过渡。这些集成中的许多资源可通过 Adobe Exchange 获得，并可以继续加以利用。
 
 ## 为什么我们要终止使用此功能？
 
-此功能由不再可实现或受支持的传统技术提供支持。[AdobeExchange Marketplace](https://partners.adobe.com/exchangeprogram/experiencecloud)现在是查找Adobe解决方案当前集成的位置。
+此功能由不再可实现或受支持的传统技术提供支持。[Adobe Exchange Marketplace](https://partners.adobe.com/exchangeprogram/experiencecloud) 现在是查找 Adobe 解决方案的当前集成的位置。
 
 ## 删除此功能对您有何影响？
 
 如果您是 Adobe 合作伙伴，若要了解有关将集成迁移到新的 Adobe Exchange 项目的详细信息，请参阅我们[此处](https://adobeexchangeec.zendesk.com/hc/zh-cn/articles/360003867071-Adobe-Analytics-Integration-Tools)的文档。
 
-如果您是数据连接器客户，并且希望申请迁移您使用的集成，则应当&#x200B;*将所有请求直接发送到集成合作伙伴*。合作伙伴需要承诺迁移到新API。 遗憾的是，Adobe客户关怀团队无法迫使合作伙伴转到新的API。
+如果您是数据连接器客户，并且希望申请迁移您使用的集成，则应当&#x200B;*将所有请求直接发送到集成合作伙伴*。合作伙伴需要充分迁移至新的 API。不幸的是，Adobe 客户关怀部门不能强制合作伙伴迁移至新的 API。
 
 每个提供集成的公司都可以选择将其集成迁移至 Adobe Exchange 或中断其集成。以下是当前各项集成及其随附决策的摘要。
 
@@ -37,18 +37,18 @@ ht-degree: 82%
 | --- | --- |
 | Acxiom | 弃用 |
 | Adform | 弃用 |
-| Adjust | 迁移到最新API |
-| Adobe Campaign | 迁移到最新的API（请参阅下面的注意事项） |
-| Appfigures | 迁移到最新API |
+| Adjust | 迁移到最新 API |
+| Adobe Campaign | 迁移到最新 API（参阅下面的说明） |
+| Appfigures | 迁移到最新 API |
 | Appsee | 弃用 |
-| AppsFlyer | 迁移到最新API |
+| AppsFlyer | 迁移到最新 API |
 | Aprimo Enterprise Marketing Engagement | 弃用 |
 | Apteligent | 弃用 |
 | BlueHornet eMarketing Suite | 弃用 |
-| Branch | 迁移到最新API |
+| Branch | 迁移到最新 API |
 | BrightEdge 2.0、BrightEdge、BrightEdge Express | 弃用 |
 | Bronto Software | 弃用 |
-| Experian CheetahMail | 迁移到最新API |
+| Experian CheetahMail | 迁移到最新 API |
 | ClickTale | 弃用 |
 | Clicktale CA | 弃用 |
 | Conductor 2.0、Conductor、Conductor Organic Metrics | 弃用 |
@@ -61,31 +61,31 @@ ht-degree: 82%
 | Delivra | 弃用 |
 | Demandbase CA | 弃用 |
 | Demandbase v3 | 弃用 |
-| DialogTech | 迁移到最新API |
+| DialogTech | 迁移到最新 API |
 | [DoubleClick for Advertisers (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | 弃用 |
 | DREAM | 弃用 |
 | DREAMmail 1.0、DREAMmail 2.0 | 弃用 |
-| Dynamic Signal (Nital Vora) | 迁移到最新API |
+| Dynamic Signal (Nital Vora) | 迁移到最新 API |
 | eDialog Precision Central | 弃用 |
 | eC-messenger | 弃用 |
 | Emailvision Campaign Commander | 弃用 |
 | emarsys xpress | 弃用 |
-| Epsilon Harmony | 迁移到最新API |
+| Epsilon Harmony | 迁移到最新 API |
 | 适用于 Adobe Analytics 的 EveryoneSocial | 弃用 |
 | ExactTarget、ExactTarget 2.0 | 弃用 |
 | Fiksu | 弃用 |
 | Foresee (v2.0)、Foresee Feedback、Foresee Results | 弃用 |
 | Gigya | 弃用 |
-| Hootsuite | 迁移到最新API |
+| Hootsuite | 迁移到最新 API |
 | hybris | 弃用 |
 | Kampyle（现称为 Medallia）Feedback Analytics (1.1) | 弃用 |
-| Listrak | 迁移到最新API |
+| Listrak | 迁移到最新 API |
 | Lyris HQ | 弃用 |
 | MaritzCX (V 2.0) | 弃用 |
 | Merkle | 弃用 |
-| Official Oracle Eloqua Integration | 迁移到最新API |
+| Official Oracle Eloqua Integration | 迁移到最新 API |
 | optivo broadmail (Episerver) | 弃用 |
-| Qualtrics v2 | 迁移到最新API |
+| Qualtrics v2 | 迁移到最新 API |
 | Responsys 1.0、Responsys 2.0 | 弃用 |
 | Salesforce.com | 弃用 |
 | Selligent | 弃用 |
