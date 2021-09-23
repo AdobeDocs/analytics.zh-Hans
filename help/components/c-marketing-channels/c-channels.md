@@ -2,12 +2,12 @@
 description: 在营销渠道管理器中添加或启用营销渠道。对于没有营销渠道的报表包，自动设置让您可以创建多个渠道及渠道规则。您可以编辑预定义渠道以满足您的需求，或创建您自己的渠道（最多 25 个）。
 subtopic: Marketing channels
 title: 管理营销渠道
-feature: Reports & Analytics 基础知识
+feature: Reports & Analytics Basics
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 source-git-commit: 2a63ff1072964df823edd09d844630e99c0afd8b
-workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '747'
+ht-degree: 100%
 
 ---
 
