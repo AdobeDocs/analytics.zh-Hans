@@ -3,9 +3,9 @@ title: getTimeParting
 description: 测量特定操作发生的时间。
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '718'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",ve
 
 ## 使用此插件
 
-`getTimeParting`函数使用以下参数：
+`getTimeParting` 函数使用以下参数：
 
 **`t`**（可选但建议使用的字符串）：要将访客的本地时间转换到的时区的名称。默认为 UTC/GMT 时间。请参阅维基百科上的 [TZ 时区数据库所含时区列表](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)，以获取有效值的完整列表。
 
@@ -74,7 +74,7 @@ function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",ve
 * `"America/Denver"`（表示山地时间）
 * `"America/Los_Angeles"`（表示太平洋时间）
 
-调用此函数将返回一个字符串，其中包含以管道(`|`)分隔的以下项：
+调用此函数将返回一个字符串，其中包含以竖线 (`|`) 分隔的以下项：
 
 * 当前年份
 * 当前月份
