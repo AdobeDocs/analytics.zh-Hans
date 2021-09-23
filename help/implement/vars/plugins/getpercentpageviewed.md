@@ -3,9 +3,9 @@ title: getPercentPageViewed
 description: 检索访客查看的页面内容所占的百分比。
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '689'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -55,19 +55,19 @@ function getPercentPageViewed(pid,ch){var n=pid,r=ch;function p(){if(window.ppvI
 
 ## 使用此插件
 
-`getPercentPageViewed`函数使用以下参数：
+`getPercentPageViewed` 函数使用以下参数：
 
 * **`pid`**（可选，字符串）：基于页面的标识符，可将其与此插件测量出的百分比值相关联。默认值为 `pageName` 变量。
 * **`ch`**（可选，布尔）：如果您不希望此插件考虑在页面初次加载后对页面大小所做的任何更改，请将该参数设置为 `false`（或 `0`）。如果忽略，则该参数将默认为 `true`。在大多数情况下，Adobe 建议忽略该参数。
 
-调用此函数时，不会返回任何内容；而是设置以下变量：
+调用此函数时，不会返回任何内容；但是，会设置以下变量：
 
 * `s._ppvPreviousPage`：查看的上一个页面的名称。直到新页面加载完成后，才能获得当前页面的最终滚动测量结果。
-* `s._ppvHighestPercentViewed`：访客查看的上一页面内容所占的最高百分比（以高度衡量）。访客在上一页面上向下滚动到的最远点。如果整个页面在首次加载时可见，则此值为`100`。
-* `s._ppvInitialPercentViewed`：上一页面首次加载时查看内容所占的百分比。如果整个页面在首次加载时可见，则此值为`100`。
+* `s._ppvHighestPercentViewed`：访客查看的上一页面内容所占的最高百分比（以高度衡量）。访客在上一页面上向下滚动到的最远点。如果整个页面在首次加载时可见，则此值为 `100`。
+* `s._ppvInitialPercentViewed`：上一页面首次加载时查看内容所占的百分比。如果整个页面在首次加载时可见，则此值为 `100`。
 * `s._ppvHighestPixelsSeen`：访客在上一页面上向下滚动时，所看到的总像素的最大值（以高度衡量）。
-* `s._ppvFoldsSeen`：访客在上一页面上向下滚动时，所达到的“页面折叠”的最大值。此变量包括“页面顶部”折叠。如果整个页面在首次加载时可见，则此值为`1`。
-* `s._ppvFoldsAvailable`：在上一页面上向下滚动时，可达到的“页面折叠”总量。如果整个页面在首次加载时可见，则此值为`1`。
+* `s._ppvFoldsSeen`：访客在上一页面上向下滚动时，所达到的“页面折叠”的最大值。此变量包括“页面顶部”折叠。如果整个页面在首次加载时可见，则此值为 `1`。
+* `s._ppvFoldsAvailable`：在上一页面上向下滚动时，可达到的“页面折叠”总量。如果整个页面在首次加载时可见，则此值为 `1`。
 
 将上述一个或多个变量分配给 eVar，以便在报告中查看维度数据。
 
