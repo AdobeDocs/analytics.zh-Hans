@@ -3,9 +3,9 @@ description: 跟踪功能可确定您的 Adobe Analytics 实施如何对搜索�
 title: 跟踪  手动模式和自动模式
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
 source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '606'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 97%
 
 跟踪功能可确定您的 Adobe Analytics 实施如何对搜索引擎数据进行跟踪。这是向 Adobe Analytics 数据适当增加搜索引擎数据的必要步骤。
 
-以下是有关如何实施Advertising Analytics跟踪模板的视频概述：
+下面是有关如何实施 Advertising Analytics 跟踪模板的视频概述：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
 
