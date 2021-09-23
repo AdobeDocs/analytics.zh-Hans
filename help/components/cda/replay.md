@@ -3,9 +3,9 @@ title: 重播的工作原理
 description: 了解 Cross-Device Analytics 中的“重播”概念
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 source-git-commit: d4a70859027508cdd64affbb506fc64a3c4806cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '619'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Cross-Device Analytics 在虚拟报表包中对数据进行两次传递：
 
 >[!NOTE]
 >
->在实时流程中，超过12小时的带有时间戳的点击将不会拼合。 但是，只要这些点击位于重播回顾窗口中，“重播拼合”中就会包含这些点击。
+>超过 12 小时的时间戳点击不会在实时流中拼合。不过，只要这些点击位于重播回看时段中，它们就会包含在重播拼合中。
 
 ### 重播拼合
 
