@@ -5,7 +5,7 @@ exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 source-git-commit: 13428ba0d149482a099fbdaa74890b59dd0891eb
 workflow-type: tm+mt
 source-wordcount: '808'
-ht-degree: 86%
+ht-degree: 90%
 
 ---
 
@@ -18,7 +18,7 @@ Cross-Device Analytics 是一项功能，可将 Analytics 从以设备为中心�
 
 >[!NOTE]
 >
->有关[设备协作生命周期终止](https://experienceleague.adobe.com/docs/device-co-op/using/about/device-co-op-eol.html)的更多信息。
+>详细了解[设备协作生命周期结束](https://experienceleague.adobe.com/docs/device-co-op/using/about/device-co-op-eol.html)。
 
 通过使用 CDA，您可以回答类似下面的问题：
 
@@ -52,9 +52,9 @@ Cross-Device Analytics 是一项具有突破性的强大功能，但其使用方
 * CDA 当前与 A4T 不兼容。
 * Cross-Device Analytics 使用虚拟报表包和报表时间处理，二者各有其自身的限制。有关具体限制的详细信息，请参阅[虚拟报表包](../vrs/vrs-about.md)和[报表时间处理](../vrs/vrs-report-time-processing.md)。
 * 不支持 1.4 API。Power BI 连接器和 Report Builder 都依赖于 1.4 API，因此与 CDA 不兼容。
-* Adobe 对于 CDA 拼接过程的主动监视仅适用于生产报告包。
+* Adobe 对于 CDA 拼合过程的主动监视仅适用于生产报表包。
 * CDA 当前与 Adobe Analytics [数据修复 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md) 不兼容
 * 虚拟报表包中的历史数据会因 Adobe 识别和拼合的设备而发生变化。源报表包中的数据不会更改。
-* 拼合数据需要等待8到12小时。
+* 拼合的数据遵循 8 到 12 小时的延迟。
 * 给定设备的映射历史数据最多可存储1年。
 * 如果设备在一年内达到非常多的映射历史记录条目，则映射历史记录会被截断。 具体限制取决于使用的拼合选项。

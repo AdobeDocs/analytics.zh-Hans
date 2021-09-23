@@ -51,7 +51,7 @@ ht-degree: 99%
             + [列设置](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [行设置](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [动态项和静态项](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [对表格进行分页、筛选和排序](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
+         + [对表格进行分页、过滤和排序](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
          + [工作区总计](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 同类群组表 {#cohort-table}
          + [什么是同类群组分析？](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
@@ -154,9 +154,9 @@ ht-degree: 99%
       + 报表类型 {#report-types}
          + [报表类型概述](report-builder/data-requests/c-report-types/select-report-types.md)
          + [Report Builder 中的路径报表和路径流失报表](report-builder/data-requests/c-report-types/report-path-fallout.md)
-         + [使用请求向导筛选路径报表](report-builder/data-requests/c-report-types/path-filter.md)
-         + [使用请求向导筛选流失报表](report-builder/data-requests/c-report-types/fallout-filter.md)
-         + [通过添加从属请求筛选路径报表](report-builder/data-requests/c-report-types/create-toppath-filter.md)
+         + [使用请求向导过滤路径报表](report-builder/data-requests/c-report-types/path-filter.md)
+         + [使用请求向导过滤流失报表](report-builder/data-requests/c-report-types/fallout-filter.md)
+         + [通过添加从属请求过滤路径报表](report-builder/data-requests/c-report-types/create-toppath-filter.md)
          + [选择报表类型](report-builder/data-requests/c-report-types/t-select-report-type.md)
       + [导入加入书签的报表和功能板小型报表](report-builder/data-requests/import-bookmarked.md)
       + 日期范围 {#date-ranges}
@@ -198,11 +198,11 @@ ht-degree: 99%
       + [配置自定义版面](report-builder/layout/configure-the-custom-layout.md)
       + [将量度和维度映射到单元格](report-builder/layout/map-metrics-and-dimensions-to-cells.md)
       + [创建 Microchart](report-builder/layout/t-create-a-microchart.md)
-      + 筛选条件维度 {#filter-dimenson}
-         + [筛选条件维度概述](report-builder/layout/c-filter-dimensions/filter-dimensions.md)
-         + [最受欢迎的筛选设置](report-builder/layout/c-filter-dimensions/t-most-popular-filtering.md)
-         + [特定筛选条件](report-builder/layout/c-filter-dimensions/t-specific-filters.md)
-         + [保存的筛选条件](report-builder/layout/c-filter-dimensions/saved-filters.md)
+      + 过滤条件维度 {#filter-dimenson}
+         + [过滤条件维度概述](report-builder/layout/c-filter-dimensions/filter-dimensions.md)
+         + [最受欢迎的过滤设置](report-builder/layout/c-filter-dimensions/t-most-popular-filtering.md)
+         + [特定过滤条件](report-builder/layout/c-filter-dimensions/t-specific-filters.md)
+         + [保存的过滤条件](report-builder/layout/c-filter-dimensions/saved-filters.md)
    + 管理请求 {#manage-requests}
       + [管理请求 - 定义](report-builder/manage-requests/r-arb-manage-requests.md)
       + [诊断消息](report-builder/manage-requests/diagnostic-messages.md)
@@ -294,7 +294,7 @@ ht-degree: 99%
       + [更改报表图表](reports-analytics/reports-customize/t-reports-graphs.md)
       + [细分](reports-analytics/reports-customize/breakdowns.md)
       + [子关系](reports-analytics/reports-customize/subrelations.md)
-      + [筛选报表数据](reports-analytics/reports-customize/t-reports-filter-options.md)
+      + [过滤报表数据](reports-analytics/reports-customize/t-reports-filter-options.md)
    + [Analytics 分段](reports-analytics/segmentation.md)
    + [书签管理器](reports-analytics/bookmarks.md)
    + [当前数据](reports-analytics/current-data.md)
@@ -312,5 +312,5 @@ ht-degree: 99%
    + [Adobe Analytics 功能板 - 概述](mobile-app/home.md)
    + [策划人指南](mobile-app/curator.md)
    + [执行用户快速入门指南](mobile-app/executive.md)
-+ [报表 API](reporting-api.md)
++ [报告 API](reporting-api.md)
 + [Labs](labs.md)

@@ -5,7 +5,7 @@ exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 source-git-commit: 5cd38f698370d31aaf954e24cdee4cea3ecd171c
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ Cross-Device Analytics 提供了两种截然不同的方法来拼合数据。此
 >如果不满足所有先决条件，则可能会导致无法启用 Cross-Device Analytics，或者导致拼合数据时的结果不佳。
 
 * [概述页面](overview.md)中列出了所有先决条件。
-* 您的实施必须设置一个 prop 或 eVar，以便在可能的情况下（例如用户登录或打开电子邮件时）唯一标识个人。这项要求适用于所有平台，包括使用的移动设备应用程序。避免为prop或eVar分配默认值。
+* 您的实施必须设置一个 prop 或 eVar，以便在可能的情况下（例如用户登录或打开电子邮件时）唯一标识个人。这项要求适用于所有平台，包括使用的移动设备应用程序。避免为 prop 或 eVar 分配默认值。
 * 为基于字段的拼合配置所需的标识变量后，请将这些变量告知您的客户经理。
 
 ## 基于字段的拼合的特定限制

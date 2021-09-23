@@ -9,7 +9,7 @@ exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 220d92f8826b8d25e2da975db728e30a1051c4b5
 workflow-type: tm+mt
 source-wordcount: '3420'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -85,8 +85,8 @@ ht-degree: 98%
 | `hier1 - hier5` | 由层级变量使用。包含一个分隔的值列表。在“报表包设置”下方选择分隔符。 | varchar(255) |
 | `hit_source` | 表示点击的来源。点击源 1、2 和 6 将计费。<br>1：不带时间戳的标准图像请求<br>2：带有时间戳的标准图像请求<br>3：带有时间戳的实时数据源上载<br>4：未使用<br>5：通用数据源上载<br>6：完全处理数据源上载<br>7：TransactionID 数据源上载<br>8：不再使用；Adobe Advertising Cloud 数据源的以前版本<br>9：不再使用；Adobe Social 概要指标<br>10：使用了 Audience Manager 服务器端转发 | 无符号 tinyint |
 | `hit_time_gmt` | Adobe 数据收集服务器收到点击的时间戳，基于 Unix 时间。 | int |
-| `hitid_high` | 与`hitid_low`结合使用，用于标识点击。 | 无符号 bigint |
-| `hitid_low` | 与`hitid_high`结合使用，用于标识点击。 | 无符号 bigint |
+| `hitid_high` | 与 `hitid_low` 配合使用可标识某次点击。 | 无符号 bigint |
+| `hitid_low` | 与 `hitid_high` 配合使用可标识某次点击。 | 无符号 bigint |
 | `homepage` | 已不再使用。指示当前的 URL 是否是浏览器的主页。 | char(1) |
 | `hourly_visitor` | 确定点击是否为新的每小时访客的标记。 | 无符号 tinyint |
 | `ip` | IP 地址，基于图像请求的 HTTP 标头。 | char(20) |
@@ -199,7 +199,7 @@ ht-degree: 98%
 | `state` | 状态变量。 | varchar(50) |
 | `stats_server` | 没有用处。处理点击的 Adobe 内部服务器。 | char(30) |
 | `t_time_info` | 访客的当地时间。格式为：`M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
-| `tnt` | 在 Adobe Target 集成中使用。表示当前符合条件的所有测试。 格式为：`TargetCampaignID:TargetRecipeID:TargetType|Event/Action`。 | 文本 |
+| `tnt` | 在 Adobe Target 集成中使用。表示所有当前符合条件的测试。格式为：`TargetCampaignID:TargetRecipeID:TargetType|Event/Action`。 | 文本 |
 | `tnt_action` | 在 Adobe Target 集成中使用。表示点击符合条件的所有测试。 | 文本 |
 | `tnt_post_vista` | 已不再使用。请改用 `post_tnt`。 | 文本 |
 | `transactionid` | 其中稍后可通过数据源上载各种数据点的唯一标识符。使用 [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 变量收集而得。 | 文本 |

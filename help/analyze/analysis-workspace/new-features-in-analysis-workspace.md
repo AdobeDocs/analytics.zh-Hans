@@ -8,16 +8,16 @@ exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: 174e81cc94fb67f391cbf6bff4c1b071527b5ce2
 workflow-type: tm+mt
 source-wordcount: '8286'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Analysis Workspace 中的新增功能
 
 >[!IMPORTANT]
->进一步的Analysis Workspace更新已转入[Adobe Analytics文档更新](/help/technotes/doc-updates.md)页面。
+>[Adobe Analytics 文档更新](/help/technotes/doc-updates.md)页面上已发布后续 Analysis Workspace 更新。
 
-有关总体产品的更新，请参阅[Adobe Experience Cloud发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)。
+请参阅 [Adobe Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)，了解对总体产品的更新。
 
 ## 2021 年 3 月
 
@@ -43,14 +43,14 @@ ht-degree: 99%
 
 | 功能 | 描述 |
 | --- | --- |
-| 折线图可视化图表：[移动平均趋势线选项](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=zh-Hans) | **[!UICONTROL 移动平均值]**&#x200B;已添加到[!UICONTROL 折线图]可视化图表的趋势线设置。移动平均值也称为滚动平均值，它使用特定数量的数据点（由&#x200B;**[!UICONTROL 周期]**&#x200B;选择确定)，对其求平均值，并将平均值用作折线中的点。 |
+| 折线图可视化图表：[移动平均趋势线选项](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=zh-Hans) | **[!UICONTROL 均线]**&#x200B;已添加到[!UICONTROL 折线图]可视化图表的趋势线设置。均线也称为滚动平均值，它使用特定数量的数据点（由&#x200B;**[!UICONTROL 周期]**&#x200B;选择确定），对其求平均值，并将平均值用作折线中的点。 |
 | [性能帮助页面](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html?lang=zh-Hans) | Analysis Workspace 性能帮助页面显示影响项目性能的不同因素，并提供有关性能优化提示的链接。 |
 
 ## 2020 年 9 月
 
 | 功能 | 描述 |
 | --- | --- |
-| [下载适合单个维度的 50,000 个项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hans#download-items) | 现在，您可以在自由格式表中下载适合单个维度的 50,000 个项目，并应用区段和过滤器。这允许您访问 Analysis Workspace 以外 400 多行数据。 |
+| [下载适合单个维度的 50,000 个项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hans#download-items) | 现在，您可以在自由格式表中下载适合单个维度的 50,000 个项目，并应用区段和过滤器。这允许您访问 Analysis Workspace 以外的 400 多行数据。 |
 | [折线图可视化图表的增强功能](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>可显示或隐藏任何[!UICONTROL 折线图]可视化图表的 X 轴和 Y 轴。如果想让[!UICONTROL 折线图]可视化图表显得更加紧凑，这项功能会特别有用。</li><li>您可以在任何折线图可视化图表上叠加最小值和最大值标签，以便快速突出显示量度中的高峰和低谷。</li><li>您可以在任何折线图可视化图表上叠加不同的回归趋势线，以便更轻松地查看数据趋势。相关选项包括[!UICONTROL 线性]、[!UICONTROL 对数]、[!UICONTROL 指数]、[!UICONTROL 幂]和[!UICONTROL 二次方程式]。</li></ul> |
 | 新增日期范围 | 我们新增了 5 个日期范围（最近 7 天整、最近 14 天整、最近 30 天整、最近 60 天整、最近 90 天整），这样从现在开始，您就可以选择不包含部分日期数据的日期范围 |
 
@@ -72,14 +72,14 @@ ht-degree: 99%
 
 | 功能 | 描述 |
 |--- |--- |
-| 归因 IQ：算法归因 | Analysis Workspace 中的“算法归因”模型可使用统计技术动态确定所选量度的最佳点数分配方式。适用于 Adobe Analytics Ultimate 客户。[了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=zh-Hans) |
-| 归因 IQ：自定义回顾时间范围 | 现在，您可以将“归因 IQ”中的任意归因模型配置为最多包含在报告期开始前的 90 天内的接触点。通过计算在之前月份发生的交互，通常可以提高在报告期初期所发生事件的归因准确性。适用于 Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete 和 Ultimate 客户。[了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=zh-Hans#lookback-windows) |
-| 共享工作区项目中的项目角色 | 现在，在共享工作区项目时，您可以根据希望收件人获得的项目体验为收件人分配以下三个项目角色中的一个角色：“编辑”、“复制”和“查看”。[了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans) |
-| 仅查看的工作区项目 | 可以将工作区项目仅以“可以查看”的形式共享给用户。当具有“查看”角色的收件人打开共享项目时，他们将获得比较受限的项目体验，因为项目无左边栏而且可进行的交互也有限。[了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=zh-Hans) |
-| 能够共同编辑工作区项目 | 添加到“可以编辑”角色的收件人可以保存已共享给他们的项目。这同时适用于管理员和非管理员用户。[了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 归因 IQ：算法归因 | Analysis Workspace 中的“算法归因”模型可使用统计技术动态确定所选量度的最佳点数分配方式。适用于 Adobe Analytics Ultimate 客户。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=zh-Hans) |
+| 归因 IQ：自定义回顾时间范围 | 现在，您可以将“归因 IQ”中的任意归因模型配置为最多包含在报告期开始前的 90 天内的接触点。通过计算在之前月份发生的交互，通常可以提高在报告期初期所发生事件的归因准确性。适用于 Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete 和 Ultimate 客户。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=zh-Hans#lookback-windows) |
+| 共享工作区项目中的项目角色 | 现在，在共享工作区项目时，您可以根据希望收件人获得的项目体验为收件人分配以下三个项目角色中的一个角色：“编辑”、“复制”和“查看”。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans) |
+| 仅查看的工作区项目 | 可以将工作区项目仅以“可以查看”的形式共享给用户。当具有查看角色的收件人打开共享项目时，他们将会获得较为受限的项目体验，即，无左边栏而且只能进行有限的交互。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=zh-Hans) |
+| 能够共同编辑工作区项目 | 添加到“可以编辑”角色的收件人可以保存已共享给他们的项目。这同时适用于管理员和非管理员用户。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 更新了空白面板 | 现在，空白面板中包含一些面板和可视化图表，使您能够更加顺畅地选择最适合自己的分析工作流程。 |
 | “快速分析”面板（2020 年 6 月 25 日） | 快速分析可为 Analysis Workspace 的非分析师和新用户了解如何快速轻松地回答业务问题提供指导。[了解更多...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| 工作区中的 Analytics for Target 面板（2020 年 6 月 25 日） | 借助“Analytics for Target”(A4T) 面板，您可以满怀信心地在 Analysis Workspace 中分析 Adobe Target 活动和体验。[了解更多...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| 工作区中的 Analytics for Target 面板（2020 年 6 月 25 日） | 借助“Analytics for Target”(A4T) 面板，您可以满怀信心地在 Analysis Workspace 中分析 Adobe Target 活动和体验。[了解详情...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
 | 关于 Workspace 页面 | 关于 Workspace 页面提供了有关您的 Analysis Workspace 环境、Adobe Analytics 管理员（如果您需要支持）的信息，以及提交产品反馈的方法。可按照以下路径找到该页面：Workspace > 帮助 > 关于 Workspace。 |
 
 ## 2020 年 5 月
@@ -89,7 +89,7 @@ ht-degree: 99%
 | 功能 | 描述 |
 |--- |--- |
 | 从空白状态自动构建自由格式表 | 以前，不能将组件直接拖放到空白项目或空白面板，而是必须先添加一个自由格式表。现在，您可以将组件直接拖放到空白项目或空白面板中，并且系统将以推荐的格式自动为您构建自由格式表。此外，将混合组件类型（如维度与量度）一起拖放到空白自由格式表中时，对这些组件的处理方式也得到了改进。 |
-| 辅助功能改进 | Adobe Analytics 团队对 Analysis Workspace 的辅助功能进行了多项改进，包括改进的键盘导航、颜色对比度和屏幕阅读器支持。[了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html?lang=zh-Hans) |
+| 辅助功能改进 | Adobe Analytics 团队对 Analysis Workspace 的辅助功能进行了多项改进，包括改进的键盘导航、颜色对比度和屏幕阅读器支持。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html?lang=zh-Hans) |
 
 ## 2020 年 4 月
 
@@ -105,8 +105,8 @@ ht-degree: 99%
 
 | 功能 | 描述 |
 |--- |--- |
-| 支持工作区中的多个报表包 | 您现在可以将多个报表包中的数据并入一个项目，以便并排查看。[了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=zh-Hans) |
-| 培训教程模板 | 这个新的标准模板可指导您逐步了解在工作区中构建首个分析的常用术语和步骤。该模板可用作新建项目模式中的标准模板，并替换当前存在的示例项目，供列表中没有其他项目的新用户使用。[了解更多...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
+| 支持工作区中的多个报表包 | 您现在可以将多个报表包中的数据并入一个项目，以便并排查看。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=zh-Hans) |
+| 培训教程模板 | 这个新的标准模板可指导您逐步了解在工作区中构建首个分析的常用术语和步骤。该模板可用作新建项目模式中的标准模板，并替换当前存在的示例项目，供列表中没有其他项目的新用户使用。[了解详情...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## 2020 年 2 月
 
@@ -114,10 +114,10 @@ ht-degree: 99%
 
 | 功能 | 描述 |
 |--- |--- |
-| 适用于使用跨设备分析的组织的新工作区模板 | 此模板显示 CDA 在拼合访问次数方面的有效性，并且还指导您了解 CDA 独有的维度和量度知识。需要使用 CDA 的报表包。有关更多信息，请参阅[设置 Cross-Device Analytics](/help/components/cda/setup.md)。 |
-| 工作区中的新热键 | <ul><li>折叠/展开所有面板：`alt + m`</li><li>折叠/展开活动面板: `alt + ctrl + m`</li><li>搜索左边栏: `ctrl + /`</li><li>移到下一个面板: `alt + Right Key`</li><li>移到上一个面板: `alt + Left Key`</li></ul>[了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=zh-Hans) |
+| 适用于使用 Cross-Device Analytics 的组织的新工作区模板 | 此模板显示 CDA 在拼合访问次数方面的有效性，并且还指导您了解 CDA 独有的维度和量度知识。需要使用 CDA 的报表包。有关更多信息，请参阅[设置 Cross-Device Analytics](/help/components/cda/setup.md)。 |
+| 工作区中的新热键 | <ul><li>折叠/展开所有面板：`alt + m`</li><li>折叠/展开活动面板: `alt + ctrl + m`</li><li>搜索左边栏: `ctrl + /`</li><li>移到下一个面板: `alt + Right Key`</li><li>移到上一个面板: `alt + Left Key`</li></ul>[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=zh-Hans) |
 | 其他工作区增强功能 | <ul><li>将面板或可视化图表放入工作区后，左边栏会自动切换到组件，以实现更加无缝的工作流程。</li><li>现在可以对模板组件进行操作（例如，标记、标记为收藏、已批准）。</li><li>过滤的量度和区段列表提供了 + 按钮，可在找不到所需内容时添加新组件。</li></ul> |
-| 工作区调试器 | 工作区调试器已添加到“帮助”菜单，可让您根据调试工作区请求更加无缝地启用调试器。[了解更多...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
+| 工作区调试器 | 工作区调试器已添加到“帮助”菜单，可让您根据调试工作区请求更加无缝地启用调试器。[了解详情...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
 ## 2020 年 1 月
 
@@ -133,7 +133,7 @@ ht-degree: 99%
 
 | 增强功能 | 描述 |
 |--- |--- |
-| 更新了自由格式表总计 | 现在，自由格式表包含两项总数统计：**[!UICONTROL 表格总计]**&#x200B;和&#x200B;**[!UICONTROL 全部总计]**。表格总计行会将已应用的[报表过滤器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=zh-Hans)计入在内。以前，只有区段会影响总数的计算。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=zh-Hans)<br/>，此外，**[!UICONTROL ￼显示总数]**&#x200B;和&#x200B;**[!UICONTROL 显示总计]**&#x200B;选项已添加到&#x200B;**[!UICONTROL 列设置]**&#x200B;中。<br/>鉴于自由格式表的这项变化，与之相关的可视化图表（例如关联的&#x200B;**[!UICONTROL 概要数字]**&#x200B;可视化图表）也将进行相应的更新，导出的 CSV 和 PDF 数据同样也会更新。 |
+| 更新了自由格式表总计 | 现在，自由格式表包含两项总数统计：**[!UICONTROL 表格总计]**&#x200B;和&#x200B;**[!UICONTROL 全部总计]**。表格总计行会将已应用的[报表过滤器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=zh-Hans)计入在内。以前，只有区段会影响总数的计算。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=zh-Hans)<br/>，此外，**[!UICONTROL ￼显示总数]**&#x200B;和&#x200B;**[!UICONTROL 显示总计]**&#x200B;选项已添加到&#x200B;**[!UICONTROL 列设置]**&#x200B;中。<br/>鉴于自由格式表的这项变化，与之相关的可视化图表（例如关联的&#x200B;**[!UICONTROL 概要数字]**&#x200B;可视化图表）也将进行相应的更新，导出的 CSV 和 PDF 数据同样也会更新。 |
 | 用于删除“未指定/无”的选项 | 一个可以轻松删除“未指定（无）”的选项已经添加到报表过滤器。 |
 | 弃用紫色粒度组件 | 已弃用紫色的时间粒度组件（分钟、小时、日、周、月、季度、年）。紫色时间组件与对应的橙色维度组件的功能是一样的，因此这项更改将简化这方面的使用体验。即使之前使用了某个紫色时间组件，您也&#x200B;**无需执行任何操作**。<br/>此外，根据这项变化，紫色的&#x200B;**[!UICONTROL 时间]**&#x200B;部分已重命名为&#x200B;**[!UICONTROL 日期范围]**。 |
 
@@ -143,7 +143,7 @@ ht-degree: 99%
 
 | 增强功能 | 描述 |
 |--- |--- |
-| 将下拉筛选器的项目限制从 50 提高至 200 | 我们将可放置在下拉筛选器中的项目限制从 50 提高到了 200。此增强功能适用于各种用例，例如将所有国家/地区 (195) 添加到筛选器，或将所有美国州和省 (52) 添加到筛选器。 |
+| 将下拉过滤器的项目限制从 50 提高至 200 | 我们将可放置在下拉过滤器中的项目限制从 50 提高到了 200。此增强功能适用于各种用例，例如将所有国家/地区 (195) 添加到过滤器，或将所有美国州和省 (52) 添加到过滤器。 |
 
 ## 2019 年 7 月
 
