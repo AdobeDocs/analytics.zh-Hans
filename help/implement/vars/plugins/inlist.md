@@ -3,9 +3,9 @@ title: inList
 description: 检查某个值是否包含在另一个字符分隔的值中。
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '557'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -57,14 +57,14 @@ function inList(lv,vtc,d,cc){var b=lv,e=vtc,c=d,f=cc;if("-v"===b)return{plugin:"
 
 ## 使用此插件
 
-`inList`函数根据其输入返回布尔值。 它使用以下参数：
+`inList` 函数会根据其输入返回一个布尔值。它使用以下参数：
 
 * **`lv`**（必需，字符串或数组）：要搜索的值分隔列表或 JavaScript 数组对象
 * **`vtc`**（必需，字符串）：要搜索的值
 * **`d`**（可选，字符串）：用于分隔 `lv` 参数中各个值的分隔符。如果未设置，则将默认使用逗号 (`,`)。
-* **`cc`** （可选，布尔）：如果设置为 `true` 或，则 `1`会进行区分大小写的检查。如果设置为 `false` 或忽略，则会在检查不会区分大小写。默认为 `false`。
+* **`cc`**（可选，布尔）：如果设置为 `true` 或 `1`，则在检查时会区分大小写。如果设置为 `false` 或忽略，则会在检查不会区分大小写。默认为 `false`。
 
-调用此函数时，如果找到匹配项，则返回`true`；如果找不到匹配项，则返回`false`。
+调用此函数时，如果找到匹配项，则将返回 `true`；如果找不到匹配项，则将返回 `false`。
 
 ## 示例
 
