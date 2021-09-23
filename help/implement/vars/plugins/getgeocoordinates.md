@@ -3,9 +3,9 @@ title: getGeoCoordinates
 description: 跟踪访客的地理位置。
 exl-id: 8620d083-7fa6-432b-891c-e24907e7c466
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function getGeoCoordinates(){if(arguments&&"-v"===arguments[0])return{plugin:"ge
 
 ## 使用此插件
 
-`getGeoCoordinates`函数不使用任何参数。 它会返回以下任一值：
+`getGeoCoordinates` 函数不使用任何参数。它会返回以下任一值：
 
 * `"geo coordinates not available"`：对于在插件运行时没有可用地理位置数据的设备。此值在首次访问点击时很常见，特别是在访客需要首先准许跟踪其位置时。
 * `"error retrieving geo coordinates"`：对于插件尝试检索设备位置时遇到任何错误的情况
