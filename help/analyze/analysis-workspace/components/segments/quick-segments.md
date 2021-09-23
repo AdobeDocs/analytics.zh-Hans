@@ -3,48 +3,49 @@ description: 在Analysis Workspace中使用快速区段。
 title: 快速区段
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: f3185f1ee341348fb7bdbaab8b68d421e7c79076
+source-git-commit: ef232d1227430bb2430ca1da09756f5dd5106b1f
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 0%
+source-wordcount: '742'
+ht-degree: 1%
 
 ---
 
 
 # 快速区段
 
-您可以在项目中创建快速区段，以绕过完整[区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md)的复杂性。 要比较快速区段可以执行的操作与完整的组件列表区段，请前往[此处](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)。
+您可以在项目中创建快速区段，以绕过完整[区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md)的复杂性。 要比较快速区段可以执行的操作与完整的组件列表区段，请前往[此处](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)。 快速区段最多允许3个规则，且不适用于嵌套容器或顺序区段。
 
 >[!IMPORTANT]
 > 快速区段当前处于有限测试中，通常还不可用。
 
 ## 创建快速区段
 
-1. 在自由格式表中，单击面板标题中的过滤器+图标：
+在自由格式表中，单击面板标题中的过滤器+图标：
 
-   ![](assets/quick-seg1.png)
+![](assets/quick-seg1.png)
 
-   请注意:
+| 设置 | 描述 |
+| --- | --- |
+| 名称 | 区段的默认名称是区段中规则的组合。 您可以重命名区段。 |
+| 包含/排除 | 您可以在区段定义中包含或排除组件，但不能同时包含和排除组件。 |
+| 点击/访问/访客容器 | 快速区段仅包含一个[区段容器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=en#section_AF2A28BE92474DB386AE85743C71B2D6)，它允许您在区段中（或从中排除）包含维度/量度/日期范围。  访客包含所有访问和页面查看中特定于该访客的一切数据。通过[!UICONTROL 访问]容器可设置规则来根据访问对访客的数据进行划分，通过[!UICONTROL 点击]容器可根据各个页面查看对访客信息进行划分。 默认容器为[!UICONTROL Hit]。 |
+| 组件(Dimension/量度/日期范围) | 通过添加组件维度和/或量度和/或日期范围，最多定义3个规则。 有3种方法可找到正确的组件：<ul><li>开始键入内容，[!UICONTROL 快速区段]生成器会自动找到相应的组件。</li><li>使用下拉列表查找组件。</li><li>从左边栏拖放组件。</li></ul> |
+| 运算符 | 使用下拉菜单查找标准运算符，如`contains`和[!UICONTROL Distinct Count]运算符。 |
+| 加号(+) | 添加其他规则 |
+| 和/或限定符 | 您可以在规则中添加“AND”或“OR”限定符，但不能在单个区段定义中混合使用“AND”和“OR”。 |
+| 应用 | 将此区段应用到面板。 |
+| 打开生成器 | 打开区段生成器。 |
+| 取消 | 取消此快速区段 — 请勿应用该区段。 |
+| 日期范围 | 验证器使用面板日期范围进行数据查找。 但是，在快速区段中应用的任何日期范围都会覆盖面板顶部的面板日期范围。 |
+| 预览（右上方） | 用于查看您是否拥有有效的区段以及区段的广泛程度。 表示在应用此区段时，您预计会看到的数据集的划分。 |
 
-   - 只有一个区段容器允许您在区段中包含维度/量度/日期范围（或将其从区段中排除）。
-   - 您可以将容器设置为“点击”、“访问”或“访客”级别。 默认为“点击”。
+以下是将维度和量度组合在一起的区段示例：
 
-1. 通过以下三种方式之一添加维度/量度/日期范围：
+![](assets/quick-seg2.png)
 
-   - 开始键入内容，[!UICONTROL 快速区段生成器]会自动找到相应的组件。
-   - 使用下拉列表查找组件。
-   - 从左边栏拖放组件。
-
-1. 指定第一个规则，如`Page equals workspace`。 一个区段定义中最多可以有三个规则。 只需单击“+”符号即可添加其他规则。 您可以在规则中添加“AND”或“OR”限定符，但不能在单个区段定义中混合使用“AND”和“OR”。
-
-   以下是将维度和量度组合在一起的区段示例：
-
-   ![](assets/quick-seg2.png)
-
-1. 单击&#x200B;**[!UICONTROL Apply]**以将此区段应用到面板。
 区段显示在顶部。 请注意其灰色侧栏，而不是左侧区段库中组件级别区段的蓝色侧栏。
 
-   ![](assets/quick-seg3.png)
+![](assets/quick-seg3.png)
 
 ## 编辑快速区段
 
@@ -53,7 +54,7 @@ ht-degree: 0%
 
 ## 保存快速区段
 
-您可以选择按照以下步骤来保存快速区段。
+您可以选择在快速区段生成器中保存快速区段，也可以通过执行这些步骤来保存快速区段。
 
 >[!IMPORTANT]
 >保存或应用区段后，您便无法再在快速区段生成器中编辑该区段，只能在常规的区段生成器中进行编辑。
