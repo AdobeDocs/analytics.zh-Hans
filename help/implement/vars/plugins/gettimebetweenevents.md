@@ -3,9 +3,9 @@ title: getTimeBetweenEvents
 description: 测量两个事件之间的间隔时间。
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '800'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 
 ## 使用此插件
 
-`getTimeBetweenEvents`函数使用以下参数：
+`getTimeBetweenEvents` 函数使用以下参数：
 
 * **`ste`**（必需，字符串）：“启动计时器”事件。由 Analytics“启动计时器”事件构成的以逗号分隔的字符串。
 * **`rt`**（必需，布尔）：“重新启动计时器”选项。如果希望每当 `events` 变量包含“启动计时器”事件时便重新启动计时器，则设置为 `true`。如果不希望在遇到“启动计时器”事件时重新启动计时器，则设置为 `false`。
@@ -81,7 +81,7 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 * **`bml`**（可选，数字）：根据 `fmt` 参数的格式，作为四舍五入基准的时长。例如，如果 `fmt` 参数为 `"s"` 且此参数为 `2`，则返回值将以“2 秒”为基准四舍五入到最接近的值。如果 `fmt` 参数为 `"m"` 且此参数为 `0.5`，则返回值将以“0.5 分钟”为基准四舍五入到最接近的值。
 * **`rte`**（可选，字符串）：由 Analytics“删除计时器”事件构成的以逗号分隔的字符串。默认值为“无”。
 
-调用此函数将返回一个整数，该整数表示以所需格式表示“启动计时器”事件与“停止计时器”事件之间间隔的时间。
+调用此函数将返回一个整数，该整数代表以相应格式表示的“启动计时器”事件与“停止计时器”事件之间间隔的时长。
 
 ## 示例调用
 
