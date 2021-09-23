@@ -3,9 +3,9 @@ title: getValOnce
 description: 防止将一个 Analytics 变量连续两次设置为同一个值。
 exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -59,14 +59,14 @@ typeof b)b=encodeURIComponent(b);else return"";var a=" "+document.cookie,d=a.ind
 
 ## 使用此插件
 
-`getValOnce`函数使用以下参数：
+`getValOnce` 函数使用以下参数：
 
 * **`vtc`**（必需，字符串）：要检查并确定之前是否已设置为相同值的变量
 * **`cn`**（可选，字符串）：包含要检查的值的 Cookie 的名称。默认为 `"s_gvo"`
 * **`et`**（可选，整数）：Cookie 的过期时间（以天或分钟为单位，具体取决于 `ep` 参数）。默认值为 `0`，该值表示将在浏览器会话结束时过期
 * **`ep`**（可选，字符串）：仅当还同时设置了 `et` 参数时才会设置此参数。如果希望 `et` 的过期时间以分钟而不是以天为单位，请将此参数设置为 `"m"`。默认值为 `"d"`，该值会以天为单位设置 `et` 参数。
 
-如果`vtc`参数与Cookie值匹配，则此函数返回空字符串。 如果`vtc`参数与Cookie值不匹配，则函数会将`vtc`参数作为字符串返回。
+如果 `vtc` 参数与 Cookie 值相匹配，此函数将返回空字符串。如果 `vtc` 参数与 Cookie 值不匹配，此函数会将 `vtc` 参数作为字符串返回。
 
 ## 示例
 
