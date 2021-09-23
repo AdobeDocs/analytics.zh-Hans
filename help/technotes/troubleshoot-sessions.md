@@ -3,9 +3,9 @@ title: Adobe Analytics 中的会话疑难解答
 description: 了解如何解决与注销 Adobe Analytics 相关的问题。
 exl-id: 191250ef-8313-47be-9717-046cce870998
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '347'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 88%
 
 ## 代理问题
 
-向 Adobe 发出请求时 Adobe 使用授权标头。某些代理(如Edge Secure Web Gateway（以前称为Bluecoat）)会删除Adobe Analytics使用的关键授权标头信息。 当 Adobe 看不到授权标头时，会话将过期。
+向 Adobe 发出请求时 Adobe 使用授权标头。某些代理，例如 Edge Secure Web Gateway（以前称为 Bluecoat），会剥离 Adobe Analytics 所使用的关键授权标头信息。当 Adobe 看不到授权标头时，会话将过期。
 
 要解决此问题，Adobe 建议与贵组织的 IT 团队合作，以允许授权标头通过贵组织的代理。
 
 >[!NOTE]
 >
-> 尽管 Analytics 社区成员发现以下链接很有帮助，但这些链接并不归 Adobe 所有。查看其内容时，请注意这一点。
+>尽管 Analytics 社区成员发现以下链接很有帮助，但这些链接并不归 Adobe 所有。查看其内容时，请注意这一点。
 
-有关 代理和身份验证标头的信息，请访问：
+可以在此处查找有关代理和身份验证标头的信息：
 
 * [在 ProxySG 或 ASG 设备上的代理链部署中配置上游代理身份验证](https://knowledge.broadcom.com/external/article/169255/configure-upstream-proxy-authentication.html)
-* [如何将用户凭据转发到ProxySG设备后面的服务器](https://knowledge.broadcom.com/external/article/165859/how-to-forward-user-credentials-to-a-ser.html)
+* [如何将用户凭据转发到 ProxySG 设备后面的服务器](https://knowledge.broadcom.com/external/article/165859/how-to-forward-user-credentials-to-a-ser.html)
