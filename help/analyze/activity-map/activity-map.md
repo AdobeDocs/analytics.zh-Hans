@@ -6,9 +6,9 @@ feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
 source-git-commit: 0de07d1822b28c7ad3b784a4d53dff098aeb55c6
-workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '288'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Activity Map 是一款 Adobe Analytics 应用程序，专门用于通过可视�
 
 Activity Map 允许您设置不同的视图，以此来直观地标识客户活动的增速、量化营销举措，并根据受众的需求和行为采取相应的措施。
 
-以下是Activity Map概述视频：
+下面是 Activity Map 的视频概述：
 
 >[!VIDEO](https://video.tv.adobe.com/v/25451/?quality=12)
 
