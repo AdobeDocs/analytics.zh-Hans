@@ -3,9 +3,9 @@ title: Numbers Suite
 description: 生成和处理数字以供在其他 JavaScript 变量中使用。
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '644'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -67,24 +67,24 @@ function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Num
 
 ## 使用插件
 
-`zeroPad`函数使用以下参数：
+`zeroPad` 函数使用以下参数：
 
-* **num**（必需，整数）：要填充的数字。如果此参数的值包含小数，则函数会对其进行四舍五入。
+* **num**（必需，整数）：要填充的数字。如果此参数的值含小数，则此函数会对该值进行四舍五入。
 * **nod**（必需，整数）：最终返回值的位数。如果要填充的数字的位数少于要填充的位数，则此插件会在 `num` 参数的开头处添加相应数量的零。
 
-`randomNumber`函数使用以下参数：
+`randomNumber` 函数使用以下参数：
 
 * **nod**（可选，整数）：要生成的随机数的位数。最大值为 17 位。默认值为 10 位。
 
-`twoDecimals`函数使用以下参数：
+`twoDecimals` 函数使用以下参数：
 
 * **val**（必需，数字）：要将其四舍五入到最接近的百分位值的数字（由字符串或数字对象表示）。
 
 ## 返回结果
 
-* **zeroPad**&#x200B;函数会返回一个等于`num`参数的字符串，但会在其值的开头处添加特定数量的零，以确保返回值具有正确的位数。
-* **randomNumber**&#x200B;函数返回一个等于具有所需位数的随机数的字符串。
-* **twoDecimals**&#x200B;函数会返回一个已四舍五入到最接近的百分位值的数字对象。
+* **zeroPad** 函数会返回一个等于 `num` 参数的字符串，但会在其值的开头处添加特定数量的零，以确保返回值具有正确位数。
+* **randomNumber** 函数会返回一个等于具有所需位数的随机数的字符串。
+* **twoDecimals** 函数会返回一个已四舍五入到最接近的百分位值的数字对象。
 
 ## 示例调用
 
