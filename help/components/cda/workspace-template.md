@@ -3,9 +3,9 @@ title: CDA 工作区模板
 description: 描述 Analysis Workspace 内 CDA 模板中的每个字段。
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
 source-git-commit: 48c026d3d5314b20b52edb9b3f04497dc180df37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe 提供一个模板以查看重要的跨设备性能数据。
 1. 导航到 [experiencecloud.adobe.com](https://experiencecloud.adobe.com) 并使用 Adobe ID 凭据登录。
 1. 单击顶部的 9 宫格图标，然后单击“Analytics”。
 1. 单击顶部的[!UICONTROL 工作区]，然后单击[!UICONTROL 新建项目]。
-1. 找到“跨设备分析”模板，然后单击[!UICONTROL 创建]。
+1. 找到“跨设备分析”模板&quot;，然后单击[!UICONTROL 创建]。
 1. 如果出现提示，请将报表包更改为支持 CDA 的报表包。
 
 将创建一个包含多个面板的 Analysis Workspace 项目。在顶部显示了目录和简介，允许查看报表的上下文和导致到单个报表。单击目录中的链接或展开面板的折叠面板可查看这些报表。
