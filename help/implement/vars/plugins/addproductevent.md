@@ -3,9 +3,9 @@ title: addProductEvent
 description: 将自定义事件添加到产品变量和事件变量。
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -57,17 +57,17 @@ function addProductEvent(en,ev,ap){var f=en,g=ev,c=ap;if("-v"===f)return{plugin:
 
 ## 使用此插件
 
-`addProductEvent`函数使用以下参数：
+`addProductEvent` 函数使用以下参数：
 
 * **`en`**（必需，字符串）：要添加到 `products` 变量中最后一个条目的事件。如果 `products` 变量为空，则会创建一个“空白”产品条目，并附加事件（及其值）。
-* **`ev`**（必需，字符串）：分配给 `en` 参数中的数值或货币事件的值。如果未设置，则默认为 `1`。未用字符串引号括起来的数字也有效。
+* **`ev`**（必需，字符串）：分配给 `en` 参数中的数值或货币事件的值。如果未设置，则默认为 `1`。未包含在字符串引号中的数字也是有效的。
 * **`ap`**（可选，布尔值）：如果产品变量当前包含多个产品条目，则值为 `true`（或 `1`）会将事件添加到所有产品条目。如果未设置，则默认为 `false`。
 
 `addProductEvent` 不会返回任何结果。而是将事件及其值添加到 `products` 变量。该插件还会自动将事件添加到 [`events`](../page-vars/events/events-overview.md) 变量中，因为此变量也需要该事件。
 
 ## Cookie
 
-`addProductEvent`函数不创建或使用任何Cookie。
+`addProductEvent` 函数不会创建或使用任何 Cookie。
 
 ## 示例
 
