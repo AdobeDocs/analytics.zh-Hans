@@ -3,9 +3,9 @@ title: rfl
 description: 从字符分隔的字符串中删除特定值。
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1043'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ function rfl(lv,vr,d1,d2,df){var b=lv,f=vr,e=d1,h=d2,g=df;if("-v"===b)return{plu
 
 ## 使用此插件
 
-`rfl`函数使用以下参数：
+`rfl` 函数使用以下参数：
 
 * **`lv`**（必需，字符串）：包含分隔值列表的变量（或字符串）
 * **`vr`**（必需，字符串）：要从 `lv` 参数中删除的值。Adobe 建议不要在一次 `rfl` 调用期间删除多个值。
@@ -70,7 +70,7 @@ function rfl(lv,vr,d1,d2,df){var b=lv,f=vr,e=d1,h=d2,g=df;if("-v"===b)return{plu
 * **`d2`**（可选，字符串）：您希望返回字符串使用的分隔符。默认为与 `d1` 参数的相同值。
 * **`df`**（可选，布尔）：如果为 `true`，则仅从 `lv` 参数中强制删除重复的 `vr` 参数实例，而不是所有实例。如果未设置，则默认为 `false`。
 
-调用此函数将返回一个修改后的字符串，该字符串包含`lv`参数，但不包含`vr`参数中指定值的任何实例（或重复实例）。
+调用此函数将返回一个修改后的字符串，该字符串将包含 `lv` 参数，但不包含 `vr` 参数中指定的值的任何实例（或重复实例）。
 
 ## 示例调用
 
@@ -136,7 +136,7 @@ s.events = rfl(s.events);
 s.events = "";
 ```
 
-如果`lv`参数或`vr`参数在`rfl`调用中为空，则此插件不会返回任何内容。
+如果在 `rfl` 调用中 `lv` 参数或 `vr` 参数为空，则插件将不返回任何内容。
 
 ### 示例 4
 
@@ -164,7 +164,7 @@ s.prop4 = "hello|people|today";
 s.eVar5 = "hello|today";
 ```
 
-请记住，此插件仅返回一个值；实际上，它不会“重置”通过`lv`参数传入的变量。
+请记住，此插件仅返回一个值；实际上，此插件不会“重置”通过 `lv` 参数传入的变量。
 
 ### 示例 5
 
@@ -186,7 +186,7 @@ s.prop4 = rfl(s.prop4,"people");
 s.prop4 = "hello|people|today";
 ```
 
-如果`lv`参数值包含的分隔符不同于默认分隔符（即逗号），请务必设置`d1`参数。
+如果 `lv` 参数值包含的分隔符不同于默认分隔符（即逗号），请务必设置 `d1` 参数。
 
 ### 示例 6
 
@@ -250,7 +250,7 @@ s.events = rfl(s.events,"event23:12345");
 s.events = "event22,event23:12345,event25";
 ```
 
-当您需要删除使用序列化和/或数值/货币语法的事件时，应在`rfl`调用中仅指定事件本身（即不指定序列化/数值/货币值）。
+当需要删除使用序列化和/或数值/货币语法的事件时，您应仅在 `rfl` 调用中指定事件本身（即不指定序列化/数值/货币值）。
 
 ### 示例 9
 
@@ -332,7 +332,7 @@ s.events = rfl(s.events,"event23,event24");
 s.events = "event22,event23,event24,event25";
 ```
 
-不支持在`vr`参数中设置多个值。 上例中的`rfl`逻辑将首先拆分`lv`参数（即s.events）中的值，然后尝试将每个分隔值与完整的`vr`参数值(即`"event23,event24"`)。
+不支持在 `vr` 参数中设置多个值。上例中的 `rfl` 逻辑将先拆分 `lv` 参数（即 s.events）中的各个值，然后再尝试将每个分隔的值与完整的 `vr` 参数值（即 `"event23,event24"`）进行匹配。
 
 ### 示例 13
 
@@ -355,7 +355,7 @@ s.events = rfl(s.events,"event24");
 s.events = "event22,event25");
 ```
 
-要从列表中删除的每个值都应包含在其自己的`rfl`调用中。
+要从列表中删除的每个值都应包含在其自己的 `rfl` 调用中。
 
 ### 示例 14
 
@@ -377,7 +377,7 @@ s.linkTrackVars = rfl(s.linkTrackVars,"eVar2", ",", ",", false);
 s.linkTrackVars = "events,eVar1,eVar3";
 ```
 
-最后三个参数(即此`rfl`调用末尾的“，”，“，”，false)不是必需的，但由于它们与默认设置匹配，因此即使存在也不会“造成任何影响”。
+此 `rfl` 调用末尾的最后三个参数（即 &quot;,&quot;,&quot;,&quot;,false）不是必需的，但是由于它们与默认设置匹配，因此即使它们存在也不会“造成任何不利影响”。
 
 ### 示例 15
 
@@ -399,7 +399,7 @@ rfl(s.events,"event23");
 s.events = "event22,event23,event24";
 ```
 
-同样，请记住，此插件仅返回一个值；实际上，它不会“重置”通过`lv`参数传入的变量。
+同样地，此插件仅返回一个值；实际上，此插件不会“重置”通过 `lv` 参数传入的变量。
 
 ## 版本历史记录
 
