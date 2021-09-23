@@ -3,9 +3,9 @@ title: getVisitDuration
 description: 跟踪访客在网站上停留的时间。
 exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function getVisitDuration(){if(arguments&&"-v"===arguments[0])return{plugin:"get
 
 ## 使用此插件
 
-`getVisitDuration`函数不使用任何参数。 它会返回以下任一值：
+`getVisitDuration` 函数不使用任何参数。它会返回以下任一值：
 
 * `"first hit of visit"`
 * `"less than a minute"`
