@@ -3,9 +3,9 @@ title: formatTime
 description: 将秒数转换为以分钟、小时等为单位的等效值。
 exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '600'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function formatTime(ns,tf,bml){var f=ns,d=tf,e=bml;function h(b,d,c,e){if("strin
 
 ## 使用此插件
 
-`formatTime`函数使用以下参数：
+`formatTime` 函数使用以下参数：
 
 * **`ns`**（必需，整数）：要转换或格式化的秒数
 * **`tf`**（可选，字符串）：要返回秒的格式类型；默认为秒
@@ -67,7 +67,7 @@ function formatTime(ns,tf,bml){var f=ns,d=tf,e=bml;function h(b,d,c,e){if("strin
    * 如果您希望以秒为单位显示时间，则可将其设置为 `"s"`（默认情况下，舍入到以 5 秒为基准所得出的最近值）
 * **`bml`**（可选，数字）：舍入基准的长度。默认为 `tf` 参数中列出的基准值
 
-函数会返回使用`tf`参数中指定的单位进行格式化的秒数。 如果未设置 `tf` 参数：
+此函数将返回使用 `tf` 参数中指定的单位进行格式化的秒数。如果未设置 `tf` 参数：
 
 * 若返回值小于 1 分钟，则将以“5 秒”为基准四舍五入到最接近的值
 * 若返回值介于 1 分钟和 1 小时之间，则将以“0.5 分钟”为基准四舍五入到最接近的值
