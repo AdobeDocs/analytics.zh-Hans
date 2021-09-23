@@ -3,9 +3,9 @@ title: manageVars
 description: 一次更改多个 Analytics 变量的值。
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '703'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 
 ## 使用此插件
 
-`manageVars`函数使用以下参数：
+`manageVars` 函数使用以下参数：
 
 * **`cb`**（必需，字符串）：插件用来处理 Analytics 变量的回调函数的名称。您可以使用 Adobe 函数（如 `cleanStr`）或者您自己自定义的函数。
 * **`l`**（可选，字符串）：包含要处理的 Analytics 变量的逗号分隔列表。如果未设置，则将默认包含所有 Adobe Analytics 变量，包括：
@@ -79,7 +79,7 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
    * 所有上下文数据变量
 * **`Il`**（可选，布尔）：如果要&#x200B;**“排除”`l` 参数中声明的变量列表，而不是要包含这些变量，则将此参数设置为 `false`。默认为 `true`。
 
-调用此函数时，不会返回任何内容。 相反，此方法会根据所需的回调函数更改 Analytics 变量的值。
+调用此函数将不会返回任何内容。相反，此方法会根据所需的回调函数更改 Analytics 变量的值。
 
 ## 示例调用
 
