@@ -3,9 +3,9 @@ title: 在 Analytics 中使用 XDM 数据
 description: 在 Adobe Analytics 中使用源自 Experience Platform 的 XDM 数据概述
 exl-id: 6f1282fb-8d4a-4d88-9be0-1c939c22cb92
 source-git-commit: 3def20b348713b580429e342ad3319963cae6549
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '270'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Analytics 通过两种方法收集 XDM 数据：
 
 ## 自动映射
 
-自动映射依赖于 XDM 中的一种默认[架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans)，该架构可自动填充典型 Analytics 数据收集中包含的 JSON 对象。从 XDM 自动映射到您配置的报表包的 Analytics 变量不需要任何开发人员支持就可以合并。请参阅《Platform Web SDK用户指南》中的[变量在Analytics中自动映射](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/adobe-analytics/automatically-mapped-vars.html) 。
+自动映射依赖于 XDM 中的一种默认[架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans)，该架构可自动填充典型 Analytics 数据收集中包含的 JSON 对象。从 XDM 自动映射到您配置的报表包的 Analytics 变量不需要任何开发人员支持就可以合并。请参阅 Platform Web SDK 用户指南中的 [Analytics 中自动映射的变量](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/adobe-analytics/automatically-mapped-vars.html)。
 
 ## 手动映射
 
