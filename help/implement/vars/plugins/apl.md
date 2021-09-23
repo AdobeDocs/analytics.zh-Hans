@@ -3,9 +3,9 @@ title: apl (appendToList)
 description: 将值附加到支持多个值的变量。
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '695'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 
 ## 使用此插件
 
-`apl`函数使用以下参数：
+`apl` 函数使用以下参数：
 
 * **`lv`**（必需，字符串）：包含要向其添加新值的已分隔列表的变量
 * **`vta`**（必需，字符串）：要添加到 `lv` 参数值的以逗号分隔的新值列表。
@@ -71,7 +71,7 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 * **`d2`**（可选，字符串）：输出分隔符。如果未设置，则默认值与 `d1` 的值相同。
 * **`cc`**（可选，布尔值）：指示是否使用区分大小写检查的标志。如果为 `true`，则重复检查区分大小写。如果为 `false` 或未设置，则重复检查不区分大小写。默认为 `false`。
 
-`apl`函数返回`lv`参数的值以及`vta`参数中任何非重复值。
+`apl` 函数会返回 `lv` 参数的值以及 `vta` 参数中的任何非重复值。
 
 ## 示例
 
@@ -151,7 +151,7 @@ s.list3 = apl(s.list3,"value1");
 
 ### 2.5（2016 年 2 月 18 日）
 
-* 现在使用`inList`函数进行比较处理
+* 现在使用 `inList` 函数进行比较处理
 
 ### 2.0（2016 年 1 月 26 日）
 
