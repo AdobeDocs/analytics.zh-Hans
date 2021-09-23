@@ -1,12 +1,12 @@
 ---
 title: 数据包分析程序
 description: 数据包分析程序允许您查看由实施发送至 Adobe 数据收集服务器的数据。
-keywords: 数据包探查器， http状态， 200, 302, charles
+keywords: 数据包嗅探器、http 状态、200、302、charles
 exl-id: db077293-f72c-4933-8a30-f1e1963f332e
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '665'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
