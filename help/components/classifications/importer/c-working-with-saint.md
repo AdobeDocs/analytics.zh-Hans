@@ -2,13 +2,13 @@
 description: 使用导入器将分类上载到 Adobe Analytics。您也可以在导入前导出要更新的数据。
 subtopic: Classifications
 title: 分类导入器 - 概述
-feature: 管理工具
+feature: Admin Tools
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
 exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
 source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
-workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 88%
+workflow-type: ht
+source-wordcount: '137'
+ht-degree: 100%
 
 ---
 
@@ -24,4 +24,4 @@ ht-degree: 88%
 >
 >Adobe 建议您将导入和导出列的数量限制为 30。
 
-请参阅[分类导入器疑难解答](/help/components/classifications/importer/troubleshooting.md)。 本主题介绍由于文件格式和文件内容不正确导致的问题。
+请参阅[分类导入器故障排除](/help/components/classifications/importer/troubleshooting.md)。本主题介绍因文件格式和文件内容错误引发的问题。
