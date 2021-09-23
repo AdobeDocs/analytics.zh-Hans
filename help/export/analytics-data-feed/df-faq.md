@@ -4,9 +4,9 @@ keywords: 数据馈送;作业;前处理列;后处理列;区分大小写
 title: 数据馈送常见问题解答
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1440'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ ht-degree: 95%
 
 Adobe 建议不要自动在 Microsoft Excel 中打开 `hit_data.tsv` 文件。而是使用 Excel 的“导入数据”对话框并确保将所有字段作为文本来处理。
 
-## 像`hitid_high`、`hitid_low`、`visid_high`和`visid_low`这样的列是否保证对点击或访问是唯一的？
+## 是否能确保像 `hitid_high`、`hitid_low`、`visid_high` 和 `visid_low` 这样的列对于点击或访问是唯一的？
 
-在几乎所有情况下，`hitid_high`和`hitid_low`的串联都唯一标识点击。 对于访问，同样的概念也适用于`visid_high`和`visid_low`的串联。 但是，处理异常极少会导致两次点击共享相同的点击ID。 Adobe建议不要创建不灵活依赖每次点击均唯一的数据馈送工作流。
+在几乎所有情况下，`hitid_high` 和 `hitid_low` 列的连接将唯一标识点击。同一概念适用于针对访问的 `visid_high` 和 `visid_low` 的连接。不过，处理异常很少会导致两个点击共享同一个点击 ID。Adobe 建议不要创建硬性要求每次点击均唯一的数据馈送工作流程。
 
 ## 为什么有些运营商的域列中缺少信息？ {#section_B7508D65370442C7A314EAED711A2C75}
 
