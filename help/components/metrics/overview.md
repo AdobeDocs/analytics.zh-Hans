@@ -3,9 +3,9 @@ title: 量度概述
 description: 查看维度项目的数量或数据随时间变化的情况。
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 source-git-commit: 482817636e82a40c274d549c4190d0b11d27c183
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '168'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -28,6 +28,6 @@ ht-degree: 88%
 
 ## 添加量度描述
 
-以下视频介绍如何在Adobe Analytics中添加量度（和维度）描述：
+以下视频介绍了如何在 Adobe Analytics 中添加量度（和维度）描述：
 
 >[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
