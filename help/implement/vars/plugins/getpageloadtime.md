@@ -3,9 +3,9 @@ title: getPageLoadTime
 description: 跟踪页面加载所用的时间。
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function getPageLoadTime(){function l(){var a=performance.timing;if(0<a.loadEven
 
 ## 使用此插件
 
-`getPageLoadTime`函数不使用任何参数。 调用此函数时，不会返回任何内容。 相反，会设置以下变量：
+`getPageLoadTime` 函数不使用任何参数。调用此函数时，不会返回任何内容。相反，会设置以下变量：
 
 * `s._pltPreviousPage`：上一页，以便您可以将加载时间与上一页关联
 * `s._pltLoadTime`：加载上一页所用的时间（以秒为单位）
