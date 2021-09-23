@@ -3,9 +3,9 @@ title: getPreviousValue
 description: 获取传递到变量的上一个值。
 exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '664'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -56,12 +56,12 @@ function getPreviousValue(v,c){var k=v,d=c;if("-v"===k)return{plugin:"getPreviou
 
 ## 使用此插件
 
-`getPreviousValue`函数使用以下参数：
+`getPreviousValue` 函数使用以下参数：
 
 * **`v`**（字符串，必需）：具有要传递给下一个图像请求的值的变量。用于检索上一页值的常用变量为 `s.pageName`。
 * **`c`**（字符串，可选）：用于存储值的 Cookie 的名称。如果未设置此参数，则将默认使用 `"s_gpv"`。
 
-调用此函数时，将返回Cookie中包含的字符串值。 然后，此插件会重置 Cookie 过期时间，并为其分配 `v` 参数中的变量值。该 Cookie 将在处于非活动状态 30 分钟后过期。
+调用此函数时，将返回 Cookie 中包含的字符串值。然后，此插件会重置 Cookie 过期时间，并为其分配 `v` 参数中的变量值。该 Cookie 将在处于非活动状态 30 分钟后过期。
 
 ## 示例
 
@@ -83,7 +83,7 @@ s.eVar10 = getPreviousValue(s.eVar1);
 
 ## 罕见情况
 
-如果与`v`参数关联的变量设置为新值，且`getPreviousValue`插件运行，但未同时发送Analytics服务器调用，则新的`v`参数值在下次插件运行时仍会被视为“上一个值”。
+如果将与 `v` 参数关联的变量设为新值且运行 `getPreviousValue` 插件，但未同时发送 Analytics 服务器调用，则在下次运行插件时，仍会将 `v` 参数的新值视为“上一个值”。
 例如，假定以下代码在访问的第一个页面上运行：
 
 ```js
@@ -92,14 +92,14 @@ s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-此代码会生成一个服务器调用，其中`pageName`为“Home”且未设置prop7。  但是，对`getPreviousValue`的调用将`pageName`的值存储在`gpv_Page` Cookie中。 假设紧接着在同一页面上运行以下代码：
+此代码会生成一个服务器调用，其中 `pageName` 为“Home”，并且未设置 prop7。不过，对 `getPreviousValue` 的调用会将 `pageName` 的值存储在 `gpv_Page` Cookie 中。假定以下代码紧接着在同一页面上运行：
 
 ```js
 s.pageName = "New value";
 s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 ```
 
-由于`t()`函数未在此代码块中运行，因此不会发送另一个图像请求。  但是，当此时运行`getPreviousValue`函数代码时，将`prop7`设置为`pageName`的上一个值(&quot;Home&quot;)，然后将`pageName`的新值(&quot;New value&quot;)存储在`gpv_Page` Cookie中。 接下来，假设访客导航到其他页面，并且以下代码在此页面上运行：
+由于此代码块中未运行 `t()` 函数，因此不会发送其他图像请求。然而，如果此时运行 `getPreviousValue` 函数代码，则 `prop7` 将设置为 `pageName` 的上一个值（“Home”），然后将 `pageName` 的新值（“New value”）存储在 `gpv_Page` Cookie 中。接下来，假定访客导航到其他页面，并且以下代码在该页面上运行：
 
 ```js
 s.pageName = "Page 2";
@@ -107,7 +107,7 @@ s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-运行`t()`函数时，它会创建一个图像请求，其中`pageName`为“Page 2”，`prop7`为“New value”，该值是上次调用`getPreviousValue`时的`pageName`值。 `prop7`的`"Home"`值从未包含在图像请求中，即使“Home”是传递到`pageName`的第一个值。
+当 `t()` 函数运行时，会创建一个图像请求，其中 `pageName` 为“Page 2”且 `prop7` 为“New value”，它是上次调用 `getPreviousValue` 时 `pageName` 的值。虽然 `prop7` 的值 `"Home"` 是传递到 `pageName` 的第一个值，但“Home”从未包含在任何实际图像请求中。
 
 ## 版本历史记录
 
