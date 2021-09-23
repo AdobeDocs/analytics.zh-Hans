@@ -3,9 +3,9 @@ title: Adobe Analytics 使用的 IP 和域
 description: 如果贵组织的防火墙阻止源自 Adobe 的 IP 地址，请使用此列表更新您的防火墙设置。
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
 source-git-commit: 881d78ef8f6ca5422e286f8cc472ea03a52b1068
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Analytics 使用以下主机来改进性能和产品体验。Adobe 建议�
 
 ## 数据收集和 FTP IP 地址块
 
-如果贵组织希望允许特定 IP 地址范围，您可以使用下表。此部分中的所有范围也包含在上表中。data warehouse和数据馈送的FTP连接仅源于伦敦、俄勒冈和新加坡的位置。
+如果贵组织希望允许特定 IP 地址范围，您可以使用下表。此部分中的所有范围也包含在上表中。Data Warehouse 和数据馈送的 FTP 连接仅源自伦敦、俄勒冈和新加坡位置。
 
 | 位置 | IP 范围（CIDR 表示法） |
 | --- | --- |
