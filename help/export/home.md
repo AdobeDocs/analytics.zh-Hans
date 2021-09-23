@@ -3,7 +3,7 @@ title: Analytics 导出指南
 description: 本指南概述了如何使用数据馈送和 Data Warehouse 将数据导出 Adobe Analytics。
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '153'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 ## 更多 Analytics 用户指南
 
-[Analytics 用户指南](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hans)
+[Analytics 用户指南](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## 重要 Analytics 资源
 
