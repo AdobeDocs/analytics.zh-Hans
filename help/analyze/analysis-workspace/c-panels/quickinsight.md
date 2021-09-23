@@ -1,13 +1,13 @@
 ---
 description: 快速分析是一款面向新工作区用户的工具，可指导用户构建数据表和可视化图表
 title: 快速分析面板
-feature: 面板
+feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
 source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
-workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '1058'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 99%
 * 在[!UICONTROL 自由格式表]中轻松进行维度的简单划分、添加多个量度或比较区段。
 * 更改或尝试各种可视化图表类型，快速直观地找到用于分析的查找工具。
 
-以下是[!UICONTROL 快速分析]面板的视频概述：
+下面是[!UICONTROL 快速见解]面板的视频概述：
 
 >[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
 
