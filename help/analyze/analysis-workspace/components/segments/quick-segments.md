@@ -3,7 +3,7 @@ description: 在Analysis Workspace中使用快速区段。
 title: 快速区段
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 1cfdb29dcc49c57b23189bf07f55b85e4166fb8d
+source-git-commit: 313b4288774163b681f37da44fe2f3cc99abe28d
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 1%
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 ## 保存快速区段
 
-您可以选择在快速区段生成器或区段生成器中保存快速区段。
+您可以选择在[!UICONTROL 快速区段生成器]或在[!UICONTROL 区段生成器]中保存快速区段。
 
 >[!IMPORTANT]
 >保存或应用区段后，您便无法再在快速区段生成器中编辑该区段，只能在常规的区段生成器中进行编辑。
