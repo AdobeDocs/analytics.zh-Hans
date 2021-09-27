@@ -3,9 +3,9 @@ description: 在Analysis Workspace中使用快速区段。
 title: 快速区段
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 5ac3b11c559b03df2c08efc5a1a64c76ee1cf28e
+source-git-commit: 1cfdb29dcc49c57b23189bf07f55b85e4166fb8d
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '932'
 ht-degree: 1%
 
 ---
@@ -107,4 +107,4 @@ ht-degree: 1%
 
 ## 什么是仅限项目的区段？
 
-仅项目区段是快速区段或临时工作区项目区段。 在区段生成器中编辑/打开区段时，将显示仅限项目框。 如果您在生成器中应用快速区段，但未选中“可用”框，则该区段仍为仅限项目的区段，但无法再在快速区段生成器中打开。 如果勾选方框并执行SAVE，则它现在是组件列表区段。
+仅项目区段是快速区段或临时工作区项目区段。 在[!UICONTROL 区段生成器]中编辑/打开区段时，将显示仅项目框。 如果在生成器中应用快速区段，但未选中“可用”框，则该区段仍为仅限项目的区段，但无法再在[!UICONTROL 快速区段生成器]中打开。 如果选中该框并单击&#x200B;**[!UICONTROL SAVE]**，则它现在是组件列表区段。
