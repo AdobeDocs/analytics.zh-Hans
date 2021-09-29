@@ -2,11 +2,10 @@
 title: 邮政编码
 description: 访客的邮政编码。
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: b8ef31f3fbc51746c8f6b2ee35742a493c3df2b5
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +30,7 @@ ht-degree: 100%
 
 维度项目包括访客的邮政编码。
 
-## 您在 Adobe Analytics 中可以报告哪些国家/地区的邮政编码？
+## 受支持的邮政编码国家/地区
 
 * 奥兰群岛
 * 阿尔巴尼亚

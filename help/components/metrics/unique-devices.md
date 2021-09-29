@@ -2,10 +2,10 @@
 title: 独特设备
 description: 独特设备的数量。
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
-source-git-commit: 407111f6016fe8595f1d5c3464e36dfd4d314630
+source-git-commit: db88bd439c036e97cca641f31f4fc3101a368636
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 6%
+source-wordcount: '252'
+ht-degree: 5%
 
 ---
 
@@ -29,8 +29,7 @@ ht-degree: 6%
 
 ![独特设备计数](/help/components/metrics/assets/Unique_Devices_Count.png)
 
-在[Replay](/help/components/cda/replay.md)之前在CDA虚拟报表包中查看此数据将显示：
+在[Replay](/help/components/cda/replay.md)可能拼合未经身份验证的点击之前，在CDA虚拟报表包中查看此数据将显示：
 
 * **5个独特设备**:对于未经身份验证的Bob + 2，对于Alice + 1，对于Charles，为1
 * **4 [人](people.md)**:1个 [未识别的人](unidentified-people.md) + 3 [个已识别的人](identified-people.md)。
-

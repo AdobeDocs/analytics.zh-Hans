@@ -3,9 +3,9 @@ description: 在Analysis Workspace中使用快速区段。
 title: 快速区段
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 313b4288774163b681f37da44fe2f3cc99abe28d
+source-git-commit: 7e95e1a51dac7771e32ab378209935d2806d752e
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '936'
 ht-degree: 1%
 
 ---
@@ -15,10 +15,10 @@ ht-degree: 1%
 
 您可以在项目中创建快速区段，以绕过完整[区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md)的复杂性。 快速区段
 
-* 仅应用于特定项目（您可以更改此项）。
-* 最多允许3个规则
+* 仅应用于创建了这些项目的项目（您可以更改此设置）。
+* 最多允许3个规则。
 * 不要包含嵌套容器或顺序规则。
-* 在包含多个报表包的面板中可以工作
+* 在包含多个报表包的项目中工作。
 
 要比较快速区段可以执行的操作与完整的组件列表区段，请前往[此处](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)。
 

@@ -2,9 +2,9 @@
 title: Cross-Device Analytics 常见问题解答
 description: Cross-Device Analytics 常见问题解答
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 080c5e35e7ffd253ac07e1158fb7c4bede238199
+source-git-commit: 639897682c9a28df7dc642dd7c68ad992fde40a9
 workflow-type: tm+mt
-source-wordcount: '1961'
+source-wordcount: '1949'
 ht-degree: 76%
 
 ---
@@ -128,8 +128,8 @@ CDA 使用复杂的并行处理管道，并具有多个依赖组件。预计源�
 
 如果标识符prop/eVar值发生[哈希冲突](/help/implement/validate/hash-collisions.md)，则“已识别人员”量度的数量可能会略高一些。
 
-如果标识符prop/eVar区分大小写，则“已识别人员”量度的数量可能会显着增加。 例如，`bob`和`Bob`应为同一人，但区分大小写功能会强制这两个值保持不同。
+对于基于字段的拼合，标识符自定义变量区分大小写。 如果标识符值与大小写不匹配，“已识别人员”量度的数量可能会高得多。 例如，如果发送了`bob`和`Bob`，且预期是同一个人，则CDA会将这两个值解释为不同的值。
 
-## 为什么在查看具有“未识别人员”量度的标识符prop/eVar时，我会看到值？
+## 查看标识符prop/eVar时，为什么我看到“未识别人员”量度的值不是零？
 
-当访客在报告窗口中生成经过身份验证的点击和未经身份验证的点击，并且[Replay](replay.md)尚未运行时，通常会发生这种情况。 在重播之前，访客既属于[已识别状态](/help/components/dimensions/identified-state.md)维度中的“未识别”，又属于“已识别”，这会导致某些访客将未识别的点击归因于标识符。 在重播运行之前，访客将一直处于此状态（每日或每周，具体取决于您的组织如何设置CDA）。 仅对重播后数据运行报告可缓解这种情况。
+当访客在报表窗口中生成经过身份验证的点击和未经身份验证的点击时，通常会发生这种情况。 访客既属于[已识别状态](/help/components/dimensions/identified-state.md)维度中的“未识别”，又属于“已识别”，这会导致对标识符的未识别点击归因。 运行[重播](replay.md)后，此方案可能会发生更改，具体取决于重播频率和成功率。
