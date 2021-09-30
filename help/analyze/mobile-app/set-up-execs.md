@@ -3,10 +3,10 @@ description: 如何创建Analytics功能板记分卡
 title: 创建记分卡
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 012bbfa54d97ffcaf4cd0de380c196df06a03bfe
+source-git-commit: 38bb36db0e7f2fc032f0531fa40cfec29b7e926e
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 81%
+source-wordcount: '1037'
+ht-degree: 74%
 
 ---
 
@@ -15,15 +15,20 @@ ht-degree: 81%
 
 在某些情况下，执行用户可能需要一些其他帮助才能访问和使用应用程序。本节将介绍有助于您提供该帮助的信息。
 
-## 执行用户的系统先决条件
+## 确保应用程序用户拥有 Adobe Analytics 访问权限
+
+1. 在[Experience CloudAdmin Console](/help/admin/admin-console/permissions/product-profile.md)中设置新用户。
+
+1. 要共享记分卡，您必须向应用程序用户授予访问记分卡组件的权限，这些组件包括Analysis Workspace、记分卡所基于的报表包以及区段、量度和维度。
+
+## 应用程序用户的系统先决条件
 
 要确保执行用户有权访问应用程序上的记分卡，请确保：
 
 * 执行用户设备上的移动操作系统满足以下最低要求：iOS 版本 10 或更高版本，或者 Android 版本 4.4 (KitKat) 或更高版本
-* 执行用户已有效登录 Adobe Analytics
-* 您已为执行用户正确创建了移动记分卡，并与他们共享了这些记分卡
-* 执行用户有权访问 Analysis Workspace 以及记分卡所基于的报表包
-* 执行用户有权访问记分卡中包含的组件。请注意，在共享记分卡时，您可以选择&#x200B;**[!UICONTROL 共享嵌入的组件]**&#x200B;选项。
+* 执行用户已有效登录 Adobe Analytics。
+* 您已为他们正确创建了移动记分卡，并与他们共享了这些记分卡。
+* 他们有权访问记分卡中包含的组件。 请注意，在将记分卡共享到&#x200B;**[!UICONTROL 共享嵌入的组件]**&#x200B;时，您可以选择一个选项。
 
 ## 帮助执行人员下载和安装应用程序
 
