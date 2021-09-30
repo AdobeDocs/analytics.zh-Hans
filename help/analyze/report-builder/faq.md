@@ -4,10 +4,10 @@ description: Report Builder 常见问题解答。
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '423'
-ht-degree: 100%
+source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 94%
 
 ---
 
@@ -29,6 +29,6 @@ Excel 中的 [`TODAY()` 函数](https://support.microsoft.com/zh-cn/office/today
 
 Report Builder 支持具有以下限制的工作簿：
 
-* **1000 个请求**：单个工作簿中最多可以包含 1000 个数据请求。如果您有需要超过 1000 个请求的报告或项目，Adobe 建议将它们分成多个工作簿。
+* **1000个请求**:单个工作簿最多可包含1000个数据请求。如果您有需要超过 1000 个请求的报告或项目，Adobe 建议将它们分成多个工作簿。
 * **每个公司每小时 2 万个请求**：Report Builder 使用 Analytics 报表 API 检索数据。每个请求每当在创建或刷新完毕后即使用 API 调用。如果贵组织在给定小时内累积超过 20,000 次 API 调用，您必须等到下一小时才能再次检索数据。
-* **4 小时处理时间**：计划报告在处理过去 4 小时后超时。如果您的工作簿包含许多使用大型数据集的复杂请求，则计划报告可能会失败。
+* **4小时处理时间**:计划报表在处理后超时超过4小时。如果您的工作簿包含许多使用大型数据集的复杂请求，则计划报告可能会失败。

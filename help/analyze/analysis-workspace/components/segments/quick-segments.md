@@ -3,9 +3,9 @@ description: 在Analysis Workspace中使用快速区段。
 title: 快速区段
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 7e95e1a51dac7771e32ab378209935d2806d752e
+source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '886'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 ## 先决条件
 
-用户需要[Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools)中的[!UICONTROL 区段创建]权限，才能创建快速区段。
+任何人都可以创建[!UICONTROL 快速区段]。 但是，您需要[!UICONTROL 区段创建]权限(位于[Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools)中)才能保存快速区段，或在[!UICONTROL 区段生成器]中将其打开。
 
 ## 创建快速区段
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 
 区段显示在顶部。 请注意其蓝色条纹边栏，而不是左侧区段库中组件级别区段的蓝色边栏。
 
-![](assets/quick-seg3.png)
+![](assets/quick-seg5.png)
 
 ## 编辑快速区段
 
@@ -73,24 +73,15 @@ ht-degree: 1%
 ### 在快速区段生成器中保存
 
 1. 应用快速区段后，将鼠标悬停在该区段上，然后选择信息(“i”)图标。
+
+   ![](assets/quick-seg6.png)
+
 1. 单击&#x200B;**[!UICONTROL 使所有项目都可用并添加到组件列表]**。
 1. （可选）重命名区段。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 请注意区段的侧栏如何从蓝色条带变为蓝色。 现在，它会显示在左边栏的组件列表中。
 
-### 在区段生成器中保存
-
-1. 将鼠标悬停在快速区段上，然后选择信息(“i”)图标。
-1. 选择&#x200B;**[!UICONTROL 保存区段]**
-
-   ![](assets/save-quick-seg.png)
-
-1. 保留名称为原样，或重命名区段。
-
-   返回到工作区，并注意区段现在如何显示蓝色侧栏。 这表示无法在快速区段生成器中编辑/打开该区段。 通过保存，它将成为组件列表的一部分。
-
-   ![](assets/quick-seg4.png)
 
 应用区段后，您可以选择将其添加到区段组件列表，并使其可用于所有项目。
 
