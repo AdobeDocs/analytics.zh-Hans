@@ -23,7 +23,6 @@ ht-degree: 100%
 >* 重定向后触发的下载
 >* 右键单击并选择“将目标另存为...”
 >* 使用 JavaScript 的链接，例如 `javascript:openLink()`
-
 >
 >对于这些下载类型，您可以手动调用 [`tl()`](../functions/tl-method.md) 方法。
 
