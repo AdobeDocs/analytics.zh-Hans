@@ -1,13 +1,13 @@
 ---
 description: 有关使用功能板记分卡的说明。
 title: Adobe Analytics 功能板执行指南
-feature: Analytics 功能板
+feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1293'
-ht-degree: 100%
+source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,14 +15,11 @@ ht-degree: 100%
 
 通过阅读以下信息，执行用户可以了解有关使用和查看 Adobe Analytics 功能板的最佳实践。要观看演示此信息的视频，请参阅 [Adobe Analytics 功能板应用程序内体验](https://youtu.be/QXqQ_PkArbA)。
 
-
 ## 简介
 
 Adobe Analytics 功能板可以随时随地从 Adobe Analytics 提供分析。该应用程序允许用户通过移动设备访问直观的记分卡。记分卡是关键量度和其他组件的集合，这些组件以平铺布局显示，您可以点击它们以获取更详细的划分和趋势报表。iOS 和 Android 操作系统均支持功能板。
 
-## 有关本指南的更多信息
-
-本指南旨在帮助执行用户阅读并理解 Analytics 功能板上的记分卡。该应用程序使执行用户能够在自己的移动设备上快速、轻松地查看广泛呈现的重要摘要数据。
+本指南旨在帮助执行用户阅读并理解Analytics功能板上的记分卡。 该应用程序使执行用户能够在自己的移动设备上快速、轻松地查看广泛呈现的重要摘要数据。
 
 ## 术语表
 
