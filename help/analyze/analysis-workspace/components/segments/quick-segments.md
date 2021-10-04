@@ -3,9 +3,9 @@ description: 在Analysis Workspace中使用快速区段。
 title: 快速区段
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 34824daca188119bfe366fea101053f2547a2f6d
+source-git-commit: 3964f7e1595ccad7ee066018c2e76604e0f6d4c7
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '775'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 要比较快速区段可以执行的操作与完整的组件列表区段，请前往[此处](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)。
 
 >[!IMPORTANT]
-> 快速区段当前处于有限测试中，通常还不可用。
+> 快速区段目前处于有限测试阶段，通常于2021年10月21日提供。
 
 ## 先决条件
 
