@@ -3,9 +3,9 @@ description: 如何创建Adobe Analytics功能板记分卡
 title: 创建记分卡
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 3964f7e1595ccad7ee066018c2e76604e0f6d4c7
+source-git-commit: e6109809afc73aa1f9a8e645e3777ef6aca9bbf9
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1195'
 ht-degree: 60%
 
 ---
@@ -104,7 +104,7 @@ Adobe Analytics评分卡以平铺布局为执行用户显示关键数据可视�
 
 ### 应用可视化
 
-Analytics功能板现在提供了四种可视化图表，可让您对维度项目有更深入的分析。 通过更改图块属性的[!UICONTROL 图表类型]来应用其他可视化：
+Analytics功能板提供了四种可视化图表，可让您对维度项目和量度有更深入的了解。 通过更改图块属性的[!UICONTROL 图表类型]，更改为其他可视化：
 
 ![图块属性](assets/properties.png)
 
@@ -117,6 +117,8 @@ Analytics功能板现在提供了四种可视化图表，可让您对维度项�
 **折线图可视化图表**
 
 此折线图可视化图表使用线条来表示量度，以显示一段时间内值的变化情况。仅当使用时间作为维度时，才可以使用折线图。
+
+
 
 **[!UICONTROL 水平条形] 图**
 
