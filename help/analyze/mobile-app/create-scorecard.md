@@ -1,19 +1,19 @@
 ---
 description: 如何创建Adobe Analytics功能板记分卡
-title: 创建记分卡
+title: 创建移动记分卡
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 7136b601c3e912ef66209c79adfb04fd11297b50
+source-git-commit: fca73532a83756062583d750b1727b5f2558718f
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 54%
+source-wordcount: '1349'
+ht-degree: 53%
 
 ---
 
 
-# 创建记分卡
+# 创建移动记分卡
 
-以下信息指示 Adobe Analytics 数据的策划人如何为执行用户配置和展示功能板。要开始使用，您可以查看Adobe Analytics功能板记分卡生成器视频：
+以下信息将指导Adobe Analytics数据策划人如何为执行用户配置和显示移动记分卡。 要开始使用，您可以查看Adobe Analytics功能板记分卡生成器视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
 
@@ -103,6 +103,10 @@ Adobe Analytics评分卡以平铺布局为执行用户显示关键数据可视�
 这会将您带到日期范围生成器，您可以在其中创建和保存新的日期范围组件。
 
 ## 应用可视化
+
+观看有关移动记分卡的可视化的视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/337570/?quality=12&learn=on)
 
 Analytics功能板提供了四种可视化图表，可让您对维度项目和量度有更深入的了解。 通过更改图块[!UICONTROL 属性]的[!UICONTROL 图表类型]，更改为其他可视化。 只需选择正确的图块，然后更改图表类型即可。
 

@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 提供 Analytics 的高级分析和可视化工具 Analysis Workspace 以及 Adobe Analytics Dashboards、Report Builder 和 Activity Map 等工具的操作说明。
-source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
+source-git-commit: fca73532a83756062583d750b1727b5f2558718f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1006'
+ht-degree: 97%
 
 ---
 
@@ -312,8 +312,8 @@ ht-degree: 0%
 + Adobe Analytics 功能板 {#mobapp}
    + [Adobe Analytics 功能板 - 概述](mobile-app/home.md)
    + [策划人简介](mobile-app/curator.md)
-   + [创建记分卡](mobile-app/create-scorecard.md)
-   + [设置执行人员以使用记分卡](mobile-app/set-up-execs.md)
+   + [创建移动记分卡](mobile-app/create-scorecard.md)
+   + [设置管理人员以使用功能板](mobile-app/set-up-execs.md)
    + [执行用户快速入门指南](mobile-app/executive.md)
 + [报告 API](reporting-api.md)
 + [Labs](labs.md)
