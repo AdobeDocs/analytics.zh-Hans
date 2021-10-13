@@ -3,9 +3,9 @@ description: 介绍登陆页面如何将 Analysis Workspace 与 Reports & Analyt
 title: Adobe Analytics 登陆页面
 role: User, Admin
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 59b4099efaf477e9cdffeeebc0068b33f9de62c7
+source-git-commit: 99e8c0ca05a319a5dd196293a6538b7cba4a5896
 workflow-type: tm+mt
-source-wordcount: '3235'
+source-wordcount: '3236'
 ht-degree: 92%
 
 ---
@@ -162,7 +162,7 @@ Adobe Analytics 的登陆页面将 Analysis Workspace 与 Reports &amp; Analytic
 
 1. 将所有所需字段添加到该模式并保存。
 
-   该报表会添加到公司报表列表，可供公司中的人员使用。
+   该报表会添加到公司报表列表，并可供登录公司中的人员使用。
 
 更多学习选项：
 
