@@ -3,10 +3,10 @@ title: AppMeasurement for JavaScript 发行说明
 description: AppMeasurement for JavaScript 的发行说明汇总。
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 6624105e45f02a803fd39fcbd63d5560c9a12968
-workflow-type: ht
-source-wordcount: '2201'
-ht-degree: 100%
+source-git-commit: 7f27e92b1fc378516423bc971b05e34880897ec9
+workflow-type: tm+mt
+source-wordcount: '2218'
+ht-degree: 99%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 100%
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 您可以在[代码管理器](/help/admin/admin/code-manager-admin.md)中下载最新版本的 AppMeasurement。
+
+## 版本 2.22.3
+
+发行日期：**2021 年 10 月 11 日**
+
+* 更新了引用帮助文档的文件以指向当前的帮助位置。
 
 ## 版本 2.22.2
 
@@ -437,7 +443,7 @@ ht-degree: 100%
 发行日期：**2013 年 11 月 14 日**
 
 * 添加了对[心率视频测量](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans)的支持。
-* `VisitorAPI.js`添加了 ，以便支持[访客 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
+* `VisitorAPI.js`添加了 ，以便支持[访客 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
 
 ## 版本 1.1.1
 
