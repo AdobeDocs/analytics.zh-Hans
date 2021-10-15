@@ -1,17 +1,17 @@
 ---
-title: 未标识人员
-description: 跨设备分析无法识别的访客数。
+title: 未识别的人员
+description: Cross-Device Analytics 未识别的访客的数量。
 source-git-commit: 0e3ebcb7a28623c12876391e2204afa43e341d9c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '68'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
-# 未标识人员
+# 未识别的人员
 
-“未识别的人员”量度是一个[跨设备分析](../cda/overview.md)量度，用于计算CDA无法识别的访客数量。
+“未识别的人员”指标是一个 [Cross-Device analytics](../cda/overview.md) 指标，它统计 CDA 未能识别的访客的数量。
 
-## 如何计算此量度
+## 如何计算此指标
 
-如果访客对拼合服务仍然不知情（有来自设备的点击无法归因于特定人员），则此量度会增加。
+如果访客对于拼接服务仍属未知（有来自设备的点击未能归因于特定人员），则该指标增大。
