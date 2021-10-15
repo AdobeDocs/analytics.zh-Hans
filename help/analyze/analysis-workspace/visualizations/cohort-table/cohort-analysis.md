@@ -5,15 +5,15 @@ feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '505'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # 了解 Adobe Analytics 中的[!UICONTROL 同类群组分析]
 
-*`cohort`* 是指一组在特定期限内共享相同特性的人员。例如，在您想了解如何让一个同类群组喜欢某个品牌时，[!UICONTROL 同类群组分析]就能派上用场。您可以轻松识别趋势中的变化，然后相应地采取回应。（网上提供了有关[!UICONTROL 同类群组分析]的解释说明，例如[同类群组分析基础](https://en.wikipedia.org/wiki/Cohort_analysis)。）
+*`cohort`* 是指一组在特定期限内共享相同特性的人员。例如，在您想了解如何让一个同类群组喜欢某个品牌时，[!UICONTROL 同类群组分析]就能派上用场。您可以轻松识别趋势中的变化，然后相应地采取回应。（网上提供了有关[!UICONTROL 同类群组分析]的解释说明，例如[同类群组分析基础](https://zh.wikipedia.org/wiki/Cohort_analysis)。）
 
 创建队列报表后，您可以组织其组件（特定的维度、指标和区段），然后可以与其他任何人员共享这份队列报表。请参阅[策划和共享](/help/analyze/analysis-workspace/curate-share/curate.md)。
 
@@ -46,7 +46,7 @@ ht-degree: 97%
 
 ![](assets/retention-report.png)
 
-以下是有关计算滚动维系率的视频：
+以下是一段关于计算滚动留存率的视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/25962/?quality=12)
 
@@ -56,7 +56,7 @@ ht-degree: 97%
 
 ![](assets/churn-report.png)
 
-以下是有关流失分析的视频：
+以下是一段关于流失分析的视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/25966/?quality=12)
 
