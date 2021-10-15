@@ -4,9 +4,9 @@ title: 虚拟报表包组件管理
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
 source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 可对虚拟报表包进行管理以在 Analysis Workspace 中包含和排除组件。
 
-以下是有关组件管理的视频：
+以下是一段关于组件策展的视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23544/?quality=12)
 
@@ -45,7 +45,7 @@ ht-degree: 98%
    选中后，通过将适用组件从“排除的组件”列拖入“已包含的组件”列，可添加要包含在虚拟报表包中的组件。可包含和排除的组件包括：
 
    * 维度
-   * 量度
+   * 指标
    * 区段
    * 日期范围
 
