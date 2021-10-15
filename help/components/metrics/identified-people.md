@@ -1,17 +1,17 @@
 ---
-title: 已识别人员
-description: 跨设备分析识别的人员数量。
+title: 已识别的人员
+description: Cross-Device Analytics 识别的人员的数量。
 source-git-commit: c6faacbc4b5365c500237682c3ec2ef71448be80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '58'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
-# 已识别人员
+# 已识别的人员
 
-“已识别人员”量度是一个[跨设备分析](../cda/overview.md)量度，用于计算由CDA标识的访客数量。
+“已识别的人员”指标是一个 [Cross-Device analytics](../cda/overview.md) 指标，它统计 CDA 识别的访客的数量。
 
-## 如何计算此量度
+## 如何计算此指标
 
-如果拼合服务识别了新访客（点击已绑定到特定的新访客），则此量度会增加。
+如果拼接服务识别了新的访客（点击与特定的新人员相关），则该指标增大。
