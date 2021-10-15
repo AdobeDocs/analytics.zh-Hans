@@ -6,9 +6,9 @@ feature: Reports & Analytics Basics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '676'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 97%
 
 ![](assets/visit-definition.png)
 
-以下视频介绍了如何在虚拟报表包中调整访问定义：
+以下是一段关于如何在虚拟报表包中调整访问定义的视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
 
@@ -52,10 +52,10 @@ ht-degree: 97%
 | --- |--- |
 | **配置访问定义** |  |
 | 启用报表时间处理 | 使用报表时间处理可更改默认的访问超时时长。这些设置不具有任何破坏性，仅适用于 Analysis Workspace。[了解详情](/help/components/vrs/vrs-report-time-processing.md) |
-| 访问超时 | 定义在自动计算为新访问之前，独特访客必须有多长时间处于非活动状态。这将影响访问量度、访问区段容器和访问时过期的 eVar。 |
+| 访问超时 | 定义在自动计算为新访问之前，独特访客必须有多长时间处于非活动状态。这将影响访问指标、访问区段容器和访问时过期的 eVar。 |
 | 通过事件开始新访问 | 当任何指定事件触发时，无论会话是否超时，都将计为启动了一个新会话。 |
 | **移动应用程序访问设置** | 可修正如何定义 Adobe Mobile SDK 收集的移动应用程序点击的访问量。这些设置不具有任何破坏性，且仅适用于 Analysis Workspace。 |
-| 避免将后台点击计算为一次新的访问 | 避免将后台点击计算为一次新的访问，从而防止后台点击量使访问次数和独特访客量度被夸大。 |
+| 避免将后台点击计算为一次新的访问 | 避免将后台点击计算为一次新的访问，从而防止后台点击量使访问次数和独特访客指标被夸大。 |
 | 在每次应用程序启动后即开始一个新访问 | 每当应用程序启动时，即视为开始了一个新会话。[了解详情](/help/components/vrs/vrs-mobile-visit-processing.md) |
 
 ## 包括和重命名组件
@@ -65,7 +65,7 @@ ht-degree: 97%
 1. 在[!UICONTROL 组件]选项卡上，选中此复选框可应用策划，以在 Analysis Workspace 中包含、排除和重命名此虚拟报表包的组件。
 有关 VRS 策划的更多信息，请参阅[虚拟报表包组件策划](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=zh-Hans#virtual-report-suites)。
 
-1. 将您想在 VRS 中包括的组件（维度、量度、区段或日期范围）拖入[!UICONTROL 包含的组件]部分。
+1. 将您想在 VRS 中包括的组件（维度、指标、区段或日期范围）拖入[!UICONTROL 包含的组件]部分。
 
 1. 完成后，单击&#x200B;**[!UICONTROL 保存]**。
 
