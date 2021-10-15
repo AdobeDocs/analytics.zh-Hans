@@ -3,15 +3,15 @@ description: 在这个详细的指南中探索可用 Advertising Analytics 做�
 title: Advertising Analytics 指南
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
 source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1230'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Advertising Analytics 指南
 
-通过 Advertising Analytics，您可以在 Adobe Analytics 中并排查看您在 Google 和 Bing 上的所有付费搜索数据。以前，您必须在 Adobe Advertising Cloud (AMO) 或 Google/Bing 中查看所有 Google AdWords/DFA 或 Microsoft Bing Ads 数据。您现在可以在Adobe Analytics中获取以下数据：展示次数、点击次数、直接从搜索引擎计算数据以及AMO ID实例（点击实例）。 由于Google在2019年9月弃用了这些量度，因此不再收集质量分数和平均位置。
+通过 Advertising Analytics，您可以在 Adobe Analytics 中并排查看您在 Google 和 Bing 上的所有付费搜索数据。以前，您必须在 Adobe Advertising Cloud (AMO) 或 Google/Bing 中查看所有 Google AdWords/DFA 或 Microsoft Bing Ads 数据。现在可在 Adobe Analytics 中直接从搜索引擎获取以下数据：展示次数、点击次数、成本数据以及 AMO ID 实例数（点击实例数）。由于 Google 在 2019 年 9 月弃用了质量得分和平均排名，因此不再收集这些指标。
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ Analytics 有两种权限，可自动授予给 Analytics 管理员。然后，�
  </tbody> 
 </table>
 
-## Advertising Analytics 维度和量度 {#section_C0DF4A08EA9E46ADABE9E465AFC11E32}
+## Advertising Analytics 维度和指标 {#section_C0DF4A08EA9E46ADABE9E465AFC11E32}
 
 Advertising Analytics 可将以下维度和指标添加到 Analysis Workspace、Reports &amp; Analytics、Report Builder 和 Analytics 报表 API。
 
@@ -100,11 +100,11 @@ Advertising Analytics 可将以下维度和指标添加到 Analysis Workspace、
 | 优化 (AMO ID) | Advertising Analytics 不使用此功能。此功能仅由 Advertising Cloud 客户使用。 |
 | 设备 (AMO ID) | 当前未使用。这是一个占位符，用于将来可能针对广告（非访客的实际设备）的指定目标设备类型（例如移动设备、桌面设备）实施的产品增强功能。 |
 
-**量度**
+**指标**
 
 >[!IMPORTANT]
 >
->Advertising Analytics 提供的指标（如下所列）是来自搜索引擎的概要级别的数据。它们未连接到 Analytics 访客配置文件。它们仅连接到 AMO ID 变量及其关联的分类维度。因此，不应根据 AMO ID 维度以外的任何维度/区段对这些指标进行报告。这样做会导致 Analytics 将这些数据都显示为零。您可以将它们与其他指标一起纳入计算量度中，但这些计算量度也只应按照 AMO ID 维度进行划分。
+>Advertising Analytics 提供的指标（如下所列）是来自搜索引擎的概要级别的数据。它们未连接到 Analytics 访客配置文件。它们仅连接到 AMO ID 变量及其关联的分类维度。因此，不应根据 AMO ID 维度以外的任何维度/区段对这些指标进行报告。这样做会导致 Analytics 将这些数据都显示为零。您可以将它们与其他指标一起纳入计算指标中，但这些计算指标也只应按照 AMO ID 维度进行划分。
 >
 >这些指标是每日收集的数据，因此不会有当天的数据。也不应以低于每日的粒度对其进行报告。
 >
