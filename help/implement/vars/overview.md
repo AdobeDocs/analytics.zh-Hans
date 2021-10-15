@@ -4,9 +4,9 @@ description: 了解您可以在向 Adobe 发送的数据中包含哪些变量以
 keywords: appmeasurement,变量,变量,配置,页面,实施
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
 source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Analytics 提供了多个变量来收集 Analytics 数据。此部分中的变�
 
 Adobe 提供了多种实施 Adobe Analytics 的方法。每个页面中都提供了一部分来说明如何使用 Adobe Experience Platform 中的标记和 AppMeasurement for JavaScript 实施该变量。
 
-以下是有关在Adobe Analytics中配置变量的视频：
+以下是一段关于在 Adobe Analytics 中配置变量的视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/28755/?quality=12)
 
