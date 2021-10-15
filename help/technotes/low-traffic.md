@@ -5,9 +5,9 @@ feature: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 source-git-commit: 7036c6d3bc15c2cb7bd62af79229052cd772f8f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '682'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 93%
 为什么 Adobe 将某个项从[!UICONTROL 低流量]行项目移动到该项自己的行项目？例如，在该月晚些时候添加了某个热门的新页面或新项（超过了唯一值之后）并且得到了大量的点击数/查看数，就会出现这种移动。这种移动并非用于捕获每天或每个月获得了特定点击数/查看数的所有信息。
 
 >[!NOTE]
->页面查找计数不仅包含[!UICONTROL pagename]/[!UICONTROL page_url]的值。 页面查找表包含多个列/字段，如[!UICONTROL pagename]、[!UICONTROL first_hit_pagename]/[!UICONTROL page_url]、[!UICONTROL visit_pagename]/[!UICONTROL page_url]和点击上下文（旧的Clickmap数据）。
+>页面查找计数不仅包括 [!UICONTROL pagename]/[!UICONTROL page_url] 的值。页面查找表包括若干列/字段，如 [!UICONTROL pagename]、[!UICONTROL first_hit_pagename]/[!UICONTROL page_url]、[!UICONTROL visit_pagename]/[!UICONTROL page_url]，以及单击上下文（旧 Clickmap 数据）。
 
 ## 更改唯一限制阈值
 
