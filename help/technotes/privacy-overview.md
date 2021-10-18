@@ -108,7 +108,7 @@ Adobe Analytics 收集以下数据：
  </tbody> 
 </table>
 
-##  {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
+## EMEA Data Center Locations {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
 
 
 
