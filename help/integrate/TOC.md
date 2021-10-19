@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 集成指南
 breadcrumb-title: 集成指南
 user-guide-description: 配置与其他 Adobe Experience Cloud 解决方案（如 Audience Manager、Advertising Cloud 和 Target）的集成。
-source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
-workflow-type: ht
-source-wordcount: '159'
-ht-degree: 100%
+source-git-commit: caecae51d7921ecec63d3922bc5902b94379a7fb
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 93%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 100%
       + [管理广告帐户](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Advertising Analytics 疑难解答](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [常见问题解答](c-advertising-analytics/aa-faq.md)
++ [适用于Advertising Cloud的Analytics](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html)
 + [Analytics for Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)
 + [Analytics 中的 Adobe Campaign 报告功能](adobe-campaign.md)
 + [将 Analytics 数据与 Campaign Classic 集成](analytics-to-campaign-classic.md)
