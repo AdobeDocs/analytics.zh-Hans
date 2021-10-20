@@ -2,10 +2,10 @@
 title: Analytics 集成
 description: 了解怎样才能将其他位置的数据集成到 Adobe Analytics 中。
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
-source-git-commit: 877bb63cd96cd2d91094f7c2b39b3046c2255b81
+source-git-commit: 4324a4911337db6299563f31cc50dc4da220ee45
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 89%
+source-wordcount: '188'
+ht-degree: 84%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 89%
 
 ![横幅](../../assets/doc_banner_integrate.png)
 
-本指南重点介绍如何集成多个 Experience Cloud 解决方案。如果要查找 Analytics Data Connectors，请参阅导入用户指南中的 [Data Connectors](/help/import/data-connectors/getting-started-data-connectors.md) 页面。
+本指南重点介绍如何集成多个Adobe Experience Cloud解决方案。 如果要查找 Analytics Data Connectors，请参阅导入用户指南中的 [Data Connectors](/help/import/data-connectors/getting-started-data-connectors.md) 页面。
 
 配置与其他 Adobe Experience Cloud 解决方案（例如，Audience Manager、Advertising Cloud 或 Target）的集成。这些集成包括：
 
