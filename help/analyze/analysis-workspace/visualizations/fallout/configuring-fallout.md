@@ -2,17 +2,17 @@
 description: 指定接触点以创建多维度流失序列。
 title: 配置流失可视化图表
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-feature: 可视化图表
+feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '689'
-ht-degree: 100%
+source-git-commit: b170e8df18e3f6223e5390dfd61423ef419146a6
+workflow-type: tm+mt
+source-wordcount: '700'
+ht-degree: 92%
 
 ---
 
-# 配置流失可视化图表
+# 配置流失可视化
 
 您可以指定接触点以创建多维度流失序列。通常，接触点就是网站中的某个页面。但是，接触点并不仅限于页面。例如，您可以添加事件，如件数及独特访客和回访。也可以添加维度，如类别、浏览器类型或内部搜索词。
 
@@ -52,11 +52,11 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>最终路径 </p> <p>(默认) </p> </td> 
-   <td colname="col2"> <p>对不一定通过下一次点击“最终”在该会话的路径中登陆下一页的访客进行计数。 </p> </td> 
+   <td colname="col2"> <p>访客（或访问）最终登陆路径中的下一个接触点时，即被计为一次。 触点之间允许绕行。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>下一次点击 </p> </td> 
-   <td colname="col2"> <p>对通过下一次点击在路径中登陆下一页的访客进行计数。 </p> </td> 
+   <td colname="col2"> <p>访客（或访问）在立即登陆路径中的下一个接触点时即被计数。 下一次点击包括任何点击类型（页面查看次数或链接）。 触点之间不允许绕行。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
