@@ -7,7 +7,7 @@ user-guide-description: 提供 Analytics 的高级分析和可视化工具 Analy
 source-git-commit: fca73532a83756062583d750b1727b5f2558718f
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 97%
          + [预览维度](analysis-workspace/components/dimensions/view-dimensions.md)
          + [划分维度](analysis-workspace/components/dimensions/t-breakdown-fa.md)
          + [时间划分维度](analysis-workspace/components/dimensions/time-parting-dimensions.md)
-      + [量度](analysis-workspace/components/apply-create-metrics.md)
+      + [指标](analysis-workspace/components/apply-create-metrics.md)
       + 区段 {#segments}
          + [创建区段](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [快速区段](analysis-workspace/components/segments/quick-segments.md)
@@ -87,7 +87,7 @@ ht-degree: 97%
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
       + [自由格式面板](analysis-workspace/c-panels/freeform-panel.md)
       + [“媒体并行查看者”面板](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [“媒体播放逗留时间”面板](analysis-workspace/c-panels/media-playback-time-spent.md)
+      + [“媒体播放耗时”面板](analysis-workspace/c-panels/media-playback-time-spent.md)
       + [“快速分析”面板](analysis-workspace/c-panels/quickinsight.md)
       + “区段比较”面板 {#segment-comparison}
          + [区段比较概述](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -180,13 +180,13 @@ ht-degree: 97%
       + [交互式控件](report-builder/data-requests/interactive-controls.md)
    + 版面 - 请求向导第 2 步 {#layout}
       + [版面概述](report-builder/layout/layout.md)
-      + 量度和维度 {#metrics-dimension}
-         + [量度和维度概述](report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
-         + [添加量度和维度](report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
-         + [计算量度](report-builder/layout/c-metrics-dimensions/calculated-metrics.md)
-         + [在同一请求中组合使用流量和商务量度](report-builder/layout/c-metrics-dimensions/grouped-metrics.md)
-         + [维度和量度的用户访问权限](report-builder/layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
-         + [修改量度 - 字段定义](report-builder/layout/c-metrics-dimensions/r-arb-modify-metrics.md)
+      + 指标和维度 {#metrics-dimension}
+         + [指标和维度概述](report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
+         + [添加指标和维度](report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
+         + [计算指标](report-builder/layout/c-metrics-dimensions/calculated-metrics.md)
+         + [在同一请求中组合使用流量和商务指标](report-builder/layout/c-metrics-dimensions/grouped-metrics.md)
+         + [维度和指标的用户访问权限](report-builder/layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
+         + [修改指标 - 字段定义](report-builder/layout/c-metrics-dimensions/r-arb-modify-metrics.md)
          + [客户属性](report-builder/layout/c-metrics-dimensions/c-ustomer-attributes.md)
       + [异常检测](report-builder/layout/anomaly-detection.md)
       + [配置异常检测请求](report-builder/layout/t-anomaly.md)
@@ -197,7 +197,7 @@ ht-degree: 97%
       + [为请求命名](report-builder/layout/name-a-request.md)
       + [在单元格中添加前置和后置文本](report-builder/layout/prepend-and-postpend-text-to-cells.md)
       + [配置自定义版面](report-builder/layout/configure-the-custom-layout.md)
-      + [将量度和维度映射到单元格](report-builder/layout/map-metrics-and-dimensions-to-cells.md)
+      + [将指标和维度映射到单元格](report-builder/layout/map-metrics-and-dimensions-to-cells.md)
       + [创建 Microchart](report-builder/layout/t-create-a-microchart.md)
       + 过滤条件维度 {#filter-dimenson}
          + [过滤条件维度概述](report-builder/layout/c-filter-dimensions/filter-dimensions.md)
@@ -210,7 +210,7 @@ ht-degree: 97%
       + [升序排序或降序排序](report-builder/manage-requests/sort-ascending-or-descending.md)
       + [受保护的工作表元素](report-builder/manage-requests/protected-worksheet-elements.md)
       + [编辑多个请求](report-builder/manage-requests/t-edit-multiple-requests.md)
-      + [编辑跨越多个请求的量度](report-builder/manage-requests/edit-multiple-metrics.md)
+      + [编辑跨越多个请求的指标](report-builder/manage-requests/edit-multiple-metrics.md)
       + [刷新请求](report-builder/manage-requests/t-refresh-a-request.md)
       + [刷新所有工作表的请求](report-builder/manage-requests/t-refresh-requests-for-all-sheets.md)
       + [添加从属请求](report-builder/manage-requests/add-dependent-requests.md)
@@ -265,7 +265,7 @@ ht-degree: 97%
    + [标准模式与实时模式的对比](activity-map/activitymap-standard-live.md)
    + [链接报表](activity-map/activitymap-links-report.md)
    + [页面详细信息](activity-map/activitymap-page-flow.md)
-   + [整套量度](activity-map/activitymap-complete-metrics.md)
+   + [整套指标](activity-map/activitymap-complete-metrics.md)
    + [实时页面分析](activity-map/activitymap-realtime.md)
    + [客户分段](activity-map/activitymap-multiple-segments.md)
    + [可自定义的叠加图](activity-map/activitymap-gainerslosers.md)
@@ -303,7 +303,7 @@ ht-degree: 97%
    + [功能板管理器](reports-analytics/dashboard-manage.md)
    + [数据提取](reports-analytics/data-extract.md)
    + [漏斗报表](reports-analytics/funnels.md)
-   + [量度](reports-analytics/metrics.md)
+   + [指标](reports-analytics/metrics.md)
    + [目标](reports-analytics/targets.md)
    + [警报](reports-analytics/alerts.md)
    + [日历事件](reports-analytics/t-calendar-event.md)
