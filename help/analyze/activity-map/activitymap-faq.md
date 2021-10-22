@@ -5,10 +5,10 @@ uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '655'
-ht-degree: 100%
+source-git-commit: 7b093860dfd0c355780269a3d155ade2d153edfe
+workflow-type: tm+mt
+source-wordcount: '690'
+ht-degree: 93%
 
 ---
 
@@ -41,7 +41,7 @@ Activity Map 支持大多数现代浏览器的最新版本。
 
 Activity Map 本身不会发送服务器调用。相反，Activity Map 上下文数据变量包括在后续页面上的 Analytics 页面查看调用中。
 
-## 为什么有些已排名项叠加会缺失？**
+## 为何缺少一些排名项目叠加图？
 
 页面中会隐藏一些排名链接，例如子菜单链接。因此，其对应的链接叠加也不显示。排名的计算针对页面上的所有链接，包括隐藏链接。
 
@@ -83,3 +83,16 @@ Activity Map 上下文数据变量在数据馈送中不可用。
 ## Activity Map 是否与虚拟报表包兼容？
 
 是。但是，由于虚拟报表包的限制，Activity Map 的实时模式与虚拟报表包不兼容。
+
+## 如何禁用Activity Map?
+
+您有三个选项：
+
+* 删除 `AppMeasurement_Module_ActivityMap` 函数
+* 添加自定义代码，以使用空主体重写上述函数，例如：
+
+   ```
+   function AppMeasurement_Module_ActivityMap() {}
+   ```
+
+* 通过设置 `s.trackClickMap` 和 `s.trackInlineStats` to `false`

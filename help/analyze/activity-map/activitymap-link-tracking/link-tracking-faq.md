@@ -5,9 +5,9 @@ uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 feature: Activity Map
 role: User, Admin
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 2a20ce50f773c82856da59154bb212f1fca2b7ea
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '516'
 ht-degree: 44%
 
 ---
@@ -35,11 +35,11 @@ Activity Map链接和区域标识在用户单击页面时发生。
 
 如果某个元素发生点击事件，该元素必须通过一些检查来确定AppMeasurement是否将其视为链接。 检查内容如下：
 
-* 这是`A`还是`AREA`标记，具有`href`属性？
-* 是否有`onclick`属性可设置`s_objectID`变量？
-* 这是带值或子文本的`INPUT`标记还是`SUBMIT`按钮？
-* 这是否是`INPUT`标记，其类型为`IMAGE`和`src`属性？
-* 这是`BUTTON`吗？
+* 这是 `A` 或 `AREA` 标记 `href` 资产？
+* 是否 `onclick` 属性 `s_objectID` 变量？
+* 这是 `INPUT` 标记或 `SUBMIT` 值或子文本的按钮？
+* 这是 `INPUT` 标记类型 `IMAGE` 和 `src` 资产？
+* 这是 `BUTTON`?
 
 如果以上任一问题的回答为是，则该元素将被视为链接，需要对其进行跟踪。
 
@@ -53,28 +53,28 @@ Activity Map链接和区域标识在用户单击页面时发生。
 
 ## Activity Map如何跟踪其他可视化HTML元素？
 
-a.通过`s.tl()`函数。
+a.通过 `s.tl()` 函数。
 
-如果点击是通过`s.tl()`调用发生的，则Activity Map还将收到此点击事件，并确定是否找到`linkName`字符串变量。 在`s.tl()`执行期间，该linkName将被设置为Activity Map链接ID。 发起`s.tl()`调用的已单击元素将用于确定区域。 示例：
+如果点击是通过 `s.tl()` 调用时，Activity Map还会收到此点击事件，并确定 `linkName` 找到字符串变量。 期间 `s.tl()` 执行时，该linkName将设置为Activity Map链接ID。 发起 `s.tl()` 将使用调用来确定区域。 示例：
 
 ```
 <img onclick="s.tl(true,'o','abc')" src="someimageurl.png"/>
 ```
 
-b.通过`s_objectID`变量。 示例：
+b.通过 `s_objectID` 变量。 示例：
 
-    &quot;&#39;在
+    &quot; 
     
-    &lt;a>&lt;img>&lt;/a>
+    &lt;img onclick=&quot;s_objectID=&amp;#39;abc&amp;#39;;&quot; src=&quot;someimageurl.png&quot; />
+    &lt;a href=&quot;some-url.html&quot; onclick=&quot;s_objectID=&amp;#39;abc&amp;#39;;&quot;>
+    在此处链接文本
+    &lt;/a>
     
-    &lt;a>此处链接文&lt;/a>本
-    
-    
-    &quot;&#39;
+    &quot;
 
 >[!IMPORTANT]
 >
->在Activity Map中使用`s_objectID`时，需要以分号(;)结尾。
+>使用 `s_objectID` Activity Map。
 
 ## 能否提供一些将被跟踪的链接示例？
 
@@ -119,7 +119,7 @@ b.通过`s_objectID`变量。 示例：
 1. 原因：锚标记不具备有效的 `href`:
    `<a name="innerAnchor">Section header</a>`
 
-1. 原因：`s_ObjectID`和`s.tl()`均不存在：
+1. 原因：都不 `s_ObjectID` nor `s.tl()` 目前：
 
    ```
    <p onclick="showPanel('market rates')">
@@ -128,7 +128,7 @@ b.通过`s_objectID`变量。 示例：
    </p>
    ```
 
-1. 原因：`s_ObjectID`和`s.tl()`均不存在：
+1. 原因：都不 `s_ObjectID` nor `s.tl()` 目前：
 
    ``` 
    <input type="radio" onclick="changeState(this)" name="group1" value="A"/>
@@ -140,3 +140,4 @@ b.通过`s_objectID`变量。 示例：
 1. 原因：&quot;src&quot;属性缺少表单输入元素：
 
    `<input type="image"/>`
+
