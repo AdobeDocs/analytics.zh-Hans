@@ -5,10 +5,10 @@ uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 feature: Activity Map
 role: User, Admin
 exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: a6b38c6e7a34c876524ebe15514ac205898549d0
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 97%
+source-wordcount: '992'
+ht-degree: 95%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->其文本（非 href）可能包含 PII（个人身份识别信息）的任何链接，均应使用 [s_objectID](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) 或通过以 [s.ActivityMap.linkExclusions 或 s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars) 排除 ActivityMap 链接收集的方式进行显式实施。有关 Activity Map 如何收集 PII 数据的更多信息，请转至[此处](/help/analyze/activity-map/lnk-tracking-overview.md)。
+>其文本（非 href）可能包含 PII（个人身份识别信息）的任何链接，均应使用 [s_objectID](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=zh-Hans) 或通过以 [s.ActivityMap.linkExclusions 或 s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars) 排除 ActivityMap 链接收集的方式进行显式实施。有关 Activity Map 如何收集 PII 数据的更多信息，请转至[此处](/help/analyze/activity-map/lnk-tracking-overview.md)。
 
 Activity Map 根据以下两个 ID 进行链接跟踪：
 
@@ -116,102 +116,105 @@ s.ActivityMap.regionIDAttribute = "lpos";
 
 请注意，下面列出的变量仅供参考。您应该不拘一格，正确地配置 Activity Map，但是您可以使用这些变量来自定义您的实现。
 
-<table id="table_7BC8DC3F35CF49288D94BA707F06B283"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 变量名称 </th> 
-   <th colname="col2" class="entry"> 示例 </th> 
-   <th colname="col3" class="entry"> 描述 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> s.ActivityMap.regionIDAttribute </td> 
-   <td colname="col2"> 默认为“id”参数。您可以将此变量设置为其他参数。 </td> 
-   <td colname="col3"> 字符串，可以将来自 s.linkObject 某些上级（父级、父级的父级...）元素（例如<b>被单击的元素</b>）的标签属性用作区域 ID。 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> s.ActivityMap.link </td> 
-   <td colname="col2"> 
-    <code>//&nbsp;only&nbsp;ever&nbsp;use&nbsp;"title"&nbsp;attributes&nbsp;from&nbsp;A&nbsp;tags</code><br/>
-    <code>function(clickedElement)&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;var&nbsp;linkId;</code><br/>
-    <code>&nbsp;&nbsp;if&nbsp;(clickedElement&nbsp;&amp;&amp;&nbsp;clickedElement.tagName.toUpperCase()&nbsp;===&nbsp;'A')&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;linkId&nbsp;=&nbsp;clickedElement.getAttribute('title');</code><br/>
-    <code>&nbsp;&nbsp;}</code><br/>
-    <code>&nbsp;&nbsp;return&nbsp;linkId;</code><br/>
-    <code>}</code> </td>
-   <td colname="col3"> 函数，可以收到被单击的 HTMLElement，且应该返回代表<b>被单击的链接</b>的字符串值。<br/>
-      <br/>
-     如果返回值为false（null、未定义、空字符串、0），则不会跟踪任何链接。 </td>
-  </tr>
-  <tr>
-   <td colname="col1"> s.ActivityMap.region </td> 
-   <td colname="col2"> 
-        <code>//&nbsp;only&nbsp;ever&nbsp;use&nbsp;lowercase&nbsp;version&nbsp;of&nbsp;tag&nbsp;name&nbsp;concatenated&nbsp;with&nbsp;first&nbsp;className&nbsp;as&nbsp;the&nbsp;region</code><br/>
-    <code>function(clickedElement)&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;var&nbsp;regionId,&nbsp;className;</code><br/>
-    <code>&nbsp;&nbsp;while&nbsp;(clickedElement&nbsp;&amp;&amp;&nbsp;(clickedElement&nbsp;=&nbsp;clickedElement.parentNode))&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;regionId&nbsp;=&nbsp;clickedElement.tagName;</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(regionId)&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;regionId.toLowerCase();</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;}</code><br/>
-    <code>&nbsp;&nbsp;}</code><br/>
-    <code>}</code> </td> 
-   <td colname="col3"> 函数，可以被单击的 HTMLElement，且应该返回代表<b>链接被单击时所在的区域</b>的字符串值。<br/>
-      <br/>
-     如果返回值为false（null、未定义、空字符串、0），则不会跟踪任何链接。 </td>
-  </tr>
-  <tr>
-   <td colname="col1"> s.ActivityMap.linkExclusions </td> 
-   <td colname="col2"> 
-     <code>//&nbsp;Exclude&nbsp;links&nbsp;tagged&nbsp;with&nbsp;a&nbsp;special&nbsp;linkExcluded&nbsp;CSS&nbsp;class</code><br/>
-    <code>&lt;style&gt;</code><br/>
-    <code>.linkExcluded&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;display:&nbsp;block;</code><br/>
-    <code>&nbsp;&nbsp;height:&nbsp;1px;</code><br/>
-    <code>&nbsp;&nbsp;left:&nbsp;-9999px;</code><br/>
-    <code>&nbsp;&nbsp;overflow:&nbsp;hidden;</code><br/>
-    <code>&nbsp;&nbsp;position:&nbsp;absolute;</code><br/>
-    <code>&nbsp;&nbsp;width:&nbsp;1px;</code><br/>
-    <code>}</code><br/>
-    <code>&lt;/style&gt;</code><br/>
-    <code>&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
-    <code>&nbsp;&nbsp;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;link&nbsp;does&nbsp;not&nbsp;have&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.&nbsp;</code><br/>
-    <code>&lt;/a&gt;</code><br/>
-    <code>&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
-    <code>&nbsp;&nbsp;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.</code><br/>
-    <code>&nbsp;&nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link1&lt;/span&gt;</code><br/>
-    <code>&lt;/a&gt;</code><br/>
-    <code>&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
-    <code>&nbsp;&nbsp;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.</code><br/>
-    <code>&nbsp;&nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link2&lt;/span&gt;</code><br/>
-    <code>&lt;/a&gt;</code><br/>
-    <code>&lt;script&gt;</code><br/>
-    <code>&nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid');</code><br/>
-    <code>&nbsp;&nbsp;s.ActivityMap.linkExclusions&nbsp;=&nbsp;'exclude-link1,exclude-link2';</code><br/>
-    <code>&lt;/script&gt;</code> </td> 
-   <td colname="col3"> 字符串，可接收以逗号分隔的字符串列表，以便在链接文本中进行搜索。如果找到，则链接不会由 Activity Map 跟踪。如果未设置，则不会尝试停止由 Activity Map 跟踪链接。 </td>
-  </tr>
-  <tr>
-   <td colname="col1"> s.ActivityMap.regionExclusions </td> 
-   <td colname="col2"> 
-    <code>//&nbsp;Exclude&nbsp;regions&nbsp;on&nbsp;the&nbsp;page&nbsp;from&nbsp;its&nbsp;links&nbsp;being&nbsp;trackable&nbsp;by&nbsp;ActivityMap</code><br/>
-    <code>&lt;div&nbsp;id="links-included"&gt;</code><br/>
-    <code>&nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;but&nbsp;does&nbsp;not&nbsp;match&nbsp;the&nbsp;filter.</code><br/>
-    <code>&nbsp;&nbsp;&lt;/a&gt;</code><br/>
-    <code>&lt;/div&gt;</code><br/>
-    <code>&lt;div&nbsp;id="links-excluded"&gt;&nbsp;</code><br/>
-    <code>&nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;matches&nbsp;the&nbsp;filter.</code><br/>
-    <code>&nbsp;&nbsp;&lt;/a&gt;</code><br/>
-    <code>&lt;/div&gt;</code><br/>
-    <code>&lt;script&gt;</code><br/>
-    <code>&nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid');</code><br/>
-    <code>&nbsp;&nbsp;s.ActivityMap.regionExclusions&nbsp;=&nbsp;'links-excluded';</code><br/>
-    <code>&lt;/script&gt;</code> </td> 
-   <td colname="col3"> 字符串，可接收以逗号分隔的字符串列表，以便在区域文本中进行搜索。如果找到，则链接不会由 Activity Map 跟踪。如果未设置，则不会尝试停止由 Activity Map 跟踪链接。 </td>
-  </tr>
- </tbody>
-</table>
+### `s.ActivityMap.regionIDAttribute`
+
+一个字符串，用于标识要用作某些上级（父项、父项、 ...）元素中的区域ID的标记属性 `s.linkObject`，例如， **点击的元素**.
+
+**示例**
+
+默认为“id”参数。您可以将此变量设置为其他参数。
+
+### `s.ActivityMap.link`
+
+接收已点击的函数 `HTMLElement` 和应返回一个表示已单击链接的字符串值。 如果返回值为 false（空、未定义、空字符串、0），则表示没有跟踪任何链接。
+
+**示例**
+
+```
+// only ever use "title" attributes from A tags
+function(clickedElement) {
+  var linkId;
+  if (clickedElement && clickedElement.tagName.toUpperCase() === 'A') {
+    linkId = clickedElement.getAttribute('title');
+  }
+  return linkId;
+}
+```
+
+### `s.ActivityMap.region`
+
+函数，可以被单击的 HTMLElement，且应该返回代表&#x200B;**链接被单击时所在的区域的字符串值。**&#x200B;如果返回值为 false（空、未定义、空字符串、0），则表示没有跟踪任何链接。
+
+**示例**
+
+```
+// only ever use lowercase version of tag name concatenated with first className as the region
+function(clickedElement) {
+  var regionId, className;
+  while (clickedElement && (clickedElement = clickedElement.parentNode)) {
+    regionId = clickedElement.tagName;
+    if (regionId) {
+      return regionId.toLowerCase();
+    }
+  }
+}
+```
+
+### `s.ActivityMap.linkExclusions`
+
+字符串，可接收以逗号分隔的字符串列表，以便在链接文本中进行搜索。如果找到，则链接不会由 Activity Map 跟踪。如果未设置，则不会尝试停止由 Activity Map 跟踪链接。
+
+**示例**
+
+```
+// Exclude links tagged with a special linkExcluded CSS class
+<style>
+.linkExcluded {
+  display: block;
+  height: 1px;
+  left: -9999px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+</style>
+<a href="next-page.html">
+  Link is tracked because link does not have hidden text matching the filter. 
+</a>
+<a href="next-page.html">
+  Link not tracked because s.ActivityMap.linkExclusions is set and this link has hidden text matching the filter.
+  <span class="linkExcluded">exclude-link1</span>
+</a>
+<a href="next-page.html">
+  Link not tracked because s.ActivityMap.linkExclusions is set and this link has hidden text matching the filter.
+  <span class="linkExcluded">exclude-link2</span>
+</a>
+<script>
+  var s = s_gi('samplersid');
+  s.ActivityMap.linkExclusions = 'exclude-link1,exclude-link2';
+</script>
+```
+
+### `s.ActivityMap.regionExclusions`
+
+字符串，可接收以逗号分隔的字符串列表，以便在区域文本中进行搜索。如果找到，则链接不会由 Activity Map 跟踪。如果未设置，则不会尝试停止由 Activity Map 跟踪链接。
+
+**示例**
+
+```
+// Exclude regions on the page from its links being trackable by ActivityMap
+<div id="links-included">
+  <a href="next-page.html">
+    Link is tracked because s.ActivityMap.regionExclusions is set but does not match the filter.
+  </a>
+</div>
+<div id="links-excluded"> 
+  <a href="next-page.html">
+    Link not tracked because s.ActivityMap.regionExclusions is set and this link matches the filter.
+  </a>
+</div>
+<script>
+  var s = s_gi('samplersid');
+  s.ActivityMap.regionExclusions = 'links-excluded';
+</script>
+```
