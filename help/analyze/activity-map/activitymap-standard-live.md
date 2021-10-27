@@ -5,10 +5,10 @@ uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 feature: Activity Map
 role: User, Admin
 exl-id: 2364e7b0-443a-49a8-b084-403501f52360
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 99a6144be155e17a8252e5461b2d6a96e5be641d
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 100%
+source-wordcount: '391'
+ht-degree: 97%
 
 ---
 
@@ -27,7 +27,7 @@ Activity Map 提供了两种基本模式，它们可以在报告页面活动时�
 
 ![](assets/standard_mode.png)
 
-在此模式下，未启用“参与率”的商务量度是线性分配的。例如，假设用户单击主页上的“IPod mini”链接，然后浏览了 3 个以上的页面。在第 4 页上，他以 200 美元的价格购买了 IPod mini。“IPod mini”链接将获得 200 美元的参与收入和 50 美元（200 美元/4）的收入（线性分配收入）。
+在此模式下，未启用“参与率”的商务量度是线性分配的。例如，假设用户单击主页上的“IPod mini”链接，然后浏览了 3 个以上的页面。在第4页，用户以200美元的价格购买了IPod mini。 “IPod mini”链接将获得 200 美元的参与收入和 50 美元（200 美元/4）的收入（线性分配收入）。
 
 问：如果一个页面在不同区域中包含多个使用了相同链接名称的链接，会怎么样？两个链接在页面上属于不同的区域，但拥有相同链接名称，它们是否会分别获得信用？
 
