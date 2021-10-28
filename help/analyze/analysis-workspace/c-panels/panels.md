@@ -4,16 +4,20 @@ title: 面板概述
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 50aa39ec6566e615b2a7c30bae0ffe7940120e9a
+source-git-commit: 324ee0f5839442ba1575b65a1159a23bed7129b4
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1049'
 ht-degree: 91%
 
 ---
 
 # 面板概述
 
-[!UICONTROL 面板]是表格和可视化图表的集合可从工作区左上角的图标或[空白面板](blank-panel.md)访问面板。当您要根据时段、报表包或分析用例组织您的项目时，面板非常有用。Analysis Workspace 中提供了以下面板类型：
+[!UICONTROL 面板]是表格和可视化图表的集合可从工作区左上角的图标或[空白面板](blank-panel.md)访问面板。当您要根据时段、报表包或分析用例组织您的项目时，面板非常有用。
+
+## 面板类型
+
+Analysis Workspace 中提供了以下面板类型：
 
 | 面板名称 | 描述 |
 | --- | --- |
