@@ -1,13 +1,13 @@
 ---
 title: 如何在 Analysis Workspace 中设置用户首选项
-description: 可设置用户的常规和项目首选项。
-feature: Workspace 基础知识
+description: 您可以为用户设置常规首选项和项目首选项，以及深色主题首选项。
+feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '223'
-ht-degree: 100%
+source-git-commit: 50aa39ec6566e615b2a7c30bae0ffe7940120e9a
+workflow-type: tm+mt
+source-wordcount: '269'
+ht-degree: 78%
 
 ---
 
@@ -41,3 +41,13 @@ ht-degree: 100%
 |  | [面板类型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hans) | <ul><li>自由格式（默认）</li><li>空白</li><li>快速见解</li></ul> |
 |  | 数字格式 | <ul><li>1,000.00（默认）</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV 分隔符 字符 | <ul><li>逗号（默认）</li><li>分号</li><li>冒号</li><li>竖线</li><li>句点</li><li>空格</li><li>制表符</li></ul> |
+
+## [!UICONTROL 深色主题]
+
+如果您希望Adobe Analytics用户界面具有深色背景，则可以切换到 [!UICONTROL 深色主题].
+
+1. 单击右上方的Experience Cloud用户图标。
+
+   ![暗主题](assets/dark-theme.png)
+
+1. 移动 **[!UICONTROL 深色主题]** 切换到右侧。
