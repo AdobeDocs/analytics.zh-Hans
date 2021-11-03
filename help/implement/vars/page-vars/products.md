@@ -2,7 +2,7 @@
 title: 产品
 description: 发送有关所显示产品或购物车中产品的数据。
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: b78604e675a371894b1839d1751d44a1e8b2c5c1
+source-git-commit: 9ec16e61560dd31f5240c7dd169ae8720761fbc5
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 93%
@@ -50,7 +50,7 @@ s.products = ";Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merc
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
-s.products = ";Example product 1;1;3.50,Example category 2;Example product 2;1;5.99";
+s.products = ";Example product 1;1;3.50,;Example product 2;1;5.99";
 ```
 
 >[!IMPORTANT]
