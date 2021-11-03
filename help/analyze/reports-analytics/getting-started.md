@@ -1,17 +1,20 @@
 ---
 description: 在使用 Reports & Analytics 之前，请了解这些基本登录和设置任务，以及如何访问帐户信息。
 title: Reports and Analytics 快速入门
-feature: Reports & Analytics 基础知识
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '704'
-ht-degree: 100%
+source-git-commit: baceae144480bc93634c35ce1bdea5d2ceec56e8
+workflow-type: tm+mt
+source-wordcount: '726'
+ht-degree: 94%
 
 ---
 
 # Reports &amp; Analytics 快速入门
+
+>[!NOTE]
+>本产品在北美和实际销售产品的其他地区授权销售，可能不符合其他国家或地区的销售要求。
 
 在使用 Reports &amp; Analytics 之前，请了解这些基本的登录和设置任务以及如何访问帐户信息。
 
@@ -31,15 +34,10 @@ ht-degree: 100%
 
 登录“Reports &amp; Analytics”界面的浏览器和系统要求。
 
-* 浏览器：
+>[!NOTE]
+>Adobe 已于 2018 年 11 月 13 日，停止在 Adobe Analytics 中支持 Internet Explorer 11。请尽快切换到 Microsoft Edge 或其他受支持的浏览器。
 
-   * 首选：最新版的 Firefox、Chrome、Safari 或 Edge。
-   * 最新版的 Microsoft Internet Explorer 11
-
-      >[!NOTE]
-      >
-      >Adobe 已于 2018 年 11 月 13 日，停止在 Adobe Analytics 中支持 Internet Explorer 11。请尽快切换到 Microsoft Edge 或其他受支持的浏览器。
-
+* 首选浏览器：最新版本的Firefox、Chrome、Safari或Edge。
 * 必须启用 Cookie 和 JavaScript。
 * 具有 16 位颜色深度（或更高）的 1024 x 768 显示器分辨率。
 
