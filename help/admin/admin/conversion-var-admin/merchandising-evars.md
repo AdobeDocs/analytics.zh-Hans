@@ -1,10 +1,11 @@
 ---
 title: 促销 eVar 和产品查找方法
 description: 深入了解促销 eVar 背后的概念以及它们如何处理和分配数据。
-source-git-commit: 0caff2caec9cf840e7a232c22497b61f009d8b36
-workflow-type: ht
-source-wordcount: '5324'
-ht-degree: 100%
+exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
+source-git-commit: b78604e675a371894b1839d1751d44a1e8b2c5c1
+workflow-type: tm+mt
+source-wordcount: '5319'
+ht-degree: 99%
 
 ---
 
@@ -86,7 +87,7 @@ ht-degree: 100%
 
 `s.products="[category];[productID];[quantity];[revenue];[events];[eVars]"`
 
-* [!UICONTROL 类别]是一个已弃用的功能，不再推荐作为跟踪产品类别性能的可行选项。它的存在只是为了说明为什么在大多数 products 变量的实施中，变量值的 productID 部分前面都有一个分号。
+* [!UICONTROL 类别] 不再建议将其作为跟踪产品类别性能的可行选项。  它的存在只是为了说明为什么在大多数 products 变量的实施中，变量值的 productID 部分前面都有一个分号。
 * 跟踪产品购买时，[!UICONTROL 数量]和[!UICONTROL 收入]非常有用。
 * [!UICONTROL 事件]可用于记录不计入收入的自定义增量或货币事件值（例如运费、折扣等）
 

@@ -2,10 +2,10 @@
 title: 产品
 description: 发送有关所显示产品或购物车中产品的数据。
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: e7d8c716547cdedabf095bb8d6712d0f8b5ad647
-workflow-type: ht
-source-wordcount: '503'
-ht-degree: 100%
+source-git-commit: b78604e675a371894b1839d1751d44a1e8b2c5c1
+workflow-type: tm+mt
+source-wordcount: '512'
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,9 @@ ht-degree: 100%
 
 `s.products` 变量是一个字符串，其中包含每个产品的多个分隔字段。在字符串中使用分号 (`;`) 分隔每个字段。
 
-* **类别**（可选）：总体产品类别。您的组织可决定如何划分产品类别。此字段的最大长度为 100 个字节。
+>[!IMPORTANT]
+>**[!UICONTROL 类别&#x200B;]**不再建议将其作为跟踪产品类别性能的可行选项。 因此，所有产品字符串应以分号开头，表示空的第一个字段。
+
 * **产品名称**（必需）：产品的名称。此字段的最大长度为 100 个字节。
 * **数量**（可选）：购物车中此产品的数量。此字段仅适用于具有购买事件的点击。
 * **价格**（可选）：以小数表示的产品总价格。如果数量大于 1，则将价格设置为总价，而不是产品单价。调整此值的货币以与 [`currencyCode`](../config-vars/currencycode.md) 变量匹配。请勿在此字段中包含货币符号。此字段仅适用于具有购买事件的点击。
@@ -41,14 +43,14 @@ ht-degree: 100%
 
 ```js
 // Set a single product using all available fields
-s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
+s.products = ";Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
 此变量在同一点击中支持多个产品。它对于购物车和包含多种产品的购买非常有用。整个 `products` 字符串的最大长度为 64K。在字符串中使用逗号 (`,`) 分隔每个产品。
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
-s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2;1;5.99";
+s.products = ";Example product 1;1;3.50,Example category 2;Example product 2;1;5.99";
 ```
 
 >[!IMPORTANT]
@@ -61,39 +63,39 @@ s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Exa
 
 ```js
 // Include only product and category. Common on individual product pages
-s.products = "Example category;Example product";
+s.products = ";Example product";
 
-// Include only product name if you do not want to use product category
+// Include only product name
 s.products = ";Example product";
 
 // One product has a category, the other does not. Note the comma and adjacent semicolon to omit category
-s.products = "Example category;Example product 1,;Example product 2";
+s.products = ";Example product 1,;Example product 2";
 
 // A visitor purchases a single product; record quantity and price
 s.events = "purchase";
-s.products = "Example category;Example product;1;6.99";
+s.products = ";Example product;1;6.99";
 
 // A visitor purchases multiple products with different quantities
 s.events = "purchase";
-s.products = "Example category;Example product 1;9;26.91,Example category;Example product 2;4;9.96";
+s.products = ";Example product 1;9;26.91,Example category;Example product 2;4;9.96";
 
 // Attribute currency event1 only to product 2 and not product 1
 s.events = "event1";
-s.products = "Example category 1;Example product 1;1;1.99,Example category 2;Example product 2;1;2.69;event1=1.29";
+s.products = ";Example product 1;1;1.99,Example category 2;Example product 2;1;2.69;event1=1.29";
 
 // Use multiple numeric events in the product string
 s.events = "event1,event2";
-s.products = "Example category;Example product;1;4.20;event1=2.3|event2=5";
+s.products = ";Example product;1;4.20;event1=2.3|event2=5";
 
 // Use merchandising eVars without any events. Note the adjacent semicolons to skip events
-s.products = "Example category;Example product;1;6.69;;eVar1=Merchandising value";
+s.products = ";Example product;1;6.69;;eVar1=Merchandising value";
 
 // Use merchandising eVars without category, quantity, price, or events
 s.products = ";Example product;;;;eVar1=Merchandising value";
 
 // Multiple products using multiple different events and multiple different merchandising eVars
 s.events = "event1,event2,event3,event4,purchase";
-s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
+s.products = ";Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
 ```
 
 如果使用 `digitalData` [数据层](../../prepare/data-layer.md)，则可通过 `digitalData.product` 对象阵列进行迭代：
