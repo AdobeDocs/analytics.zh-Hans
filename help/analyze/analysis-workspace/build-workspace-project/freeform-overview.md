@@ -3,19 +3,23 @@ description: 学习在 Workspace 项目中工作的基础知识。
 keywords: Analysis Workspace
 title: 项目概述
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-feature: Workspace 基础知识
+feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 5027c17f1b0efc2fe22915e39aca901ee2beb34a
-workflow-type: ht
-source-wordcount: '1405'
-ht-degree: 100%
+source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+workflow-type: tm+mt
+source-wordcount: '1414'
+ht-degree: 99%
 
 ---
 
 # 项目概述
 
 通过 Workspace 项目，可结合数据组件、表格和可视化以得出您的分析结果，并与您组织中的任何人共享。在开始您的第一个项目之前，请了解如何访问、浏览和管理您的项目。
+
+以下是有关如何构建工作区项目的视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/334076/?quality=12)
 
 ## 项目列表 {#project-list}
 
@@ -77,7 +81,7 @@ Workspace 项目列表页面包含了以下信息：
 
 ## 左侧边栏 {#left-rail}
 
-在项目中，可从左侧边栏访问[面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hans)、表格、[可视化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hans)和[组件](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=zh-Hans)。这些都是项目的构建基块。
+在项目中，可从左侧边栏访问[面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hans)、表格、[可视化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hans)和[组件](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html)。这些都是项目的构建基块。
 
 还可从[空面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=zh-Hans)访问可视化和面板。
 
@@ -91,7 +95,7 @@ Workspace 项目列表页面包含了以下信息：
 
 当您要根据时段、报表包或分析用例组织您的项目时，面板非常有用。活动面板在自身四周将有蓝色边框，并决定在左侧边栏中有哪些组件可用。
 
-根据您为项目选择的起点，您在画布中将首先使用[自由格式表](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=zh-Hans)或[空面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=zh-Hans)。最快开始分析的方法是选择一个或多个组件，然后将其拖放到项目画布中。随后将自动为您呈现数据表。[详细了解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=zh-Hans)构建表的不同选项，或利用我们的[培训教程](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans?#training-tutorial)就构建您的第一个项目获得更多指导。
+根据您为项目选择的起点，您在画布中将首先使用[自由格式表](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=zh-Hans)或[空面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)。最快开始分析的方法是选择一个或多个组件，然后将其拖放到项目画布中。随后将自动为您呈现数据表。[详细了解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html)构建表的不同选项，或利用我们的[培训教程](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans?#training-tutorial)就构建您的第一个项目获得更多指导。
 
 ![](assets/canvas.png)
 
@@ -107,9 +111,9 @@ Workspace 项目列表页面包含了以下信息：
 
 | 操作 | 描述 |
 |---|---|
-| 添加 | 从头开始或从[模板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hans)创建新项目。 |
+| 添加 | 从头开始或从[模板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)创建新项目。 |
 | 标记或批准 | 选择“标记”或“批准”以组织您的项目并使其更容易搜索。 |
-| [共享](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans) | 使项目可供您所在组织中的其他 Analysis Workspace 用户使用。 |
+| [共享](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | 使项目可供您所在组织中的其他 Analysis Workspace 用户使用。 |
 | 删除 | 删除项目。 |
 | 重命名 | 编辑项目的名称。 |
 | 复制 | 创建项目的副本。此操作创建新项目和项目 ID。其中不复制与原始项目关联的任何共享或时间表。 |

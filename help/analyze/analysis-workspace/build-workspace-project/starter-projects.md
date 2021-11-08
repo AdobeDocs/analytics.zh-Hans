@@ -2,13 +2,13 @@
 description: 根据标准或自定义模板创建 Workspace 项目。
 title: 模板
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-feature: Workspace 基础知识
+feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
 workflow-type: tm+mt
-source-wordcount: '1391'
-ht-degree: 100%
+source-wordcount: '1399'
+ht-degree: 99%
 
 ---
 
@@ -36,6 +36,10 @@ ht-degree: 100%
    >[!NOTE]
    >
    >默认情况下，项目模板对贵组织的每个人均可见。您可以通过应用标记来组织这些模板。（转到&#x200B;**[!UICONTROL 项目]** > **[!UICONTROL 项目信息和设置]**&#x200B;以编辑标记和描述。）
+
+以下是有关创建和管理自定义模板的视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/23231/?quality=12)
 
 ### 可对自定义模板执行的操作
 

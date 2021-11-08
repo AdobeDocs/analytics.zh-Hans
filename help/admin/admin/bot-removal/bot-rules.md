@@ -1,23 +1,26 @@
 ---
-description: 使用机器人规则，您可以从报表包中删除已知蜘蛛程序和机器人程序生成的流量。删除机器人程序流量可为您网站上的用户活动提供更准确的测量。
+description: 使用机器人规则，您可以从报表包中删除已知蜘蛛程序和机器人程序生成的流量。剔除机器人流量可更准确地衡量您网站上的用户活动。
 subtopic: Bot rules
 title: 机器人规则概述
-feature: 管理工具
+feature: Admin Tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-translation-type: ht
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '1358'
-ht-degree: 100%
+source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+workflow-type: tm+mt
+source-wordcount: '1364'
+ht-degree: 99%
 
 ---
 
 # 机器人规则概述
 
-机器人规则允许您从由已知蜘蛛程序和机器人生成的报表包中删除流量。删除机器人程序流量可为您网站上的用户活动提供更准确的测量。
+机器人规则允许您从由已知蜘蛛程序和机器人生成的报表包中删除流量。剔除机器人流量可更准确地衡量您网站上的用户活动。
 
-定义了机器人规则之后，将按照定义的规则对所有传入流量进行比较。报表包中将不会收集与任何这些规则匹配的流量，并且流量量度中也不会包含这些流量。
+以下是有关配置机器人规则的视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/335738/?quality=12)
+
+定义机器人规则之后，所有传入的流量会与定义的规则进行比较。报告包中不会收集符合这些规则的流量，并且不会包括在流量量度中。
 
 要更新或上载机器人规则，请导航至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。选择正确的报表包，然后转到&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 常规]** > **[!UICONTROL 机器人规则]**。
 

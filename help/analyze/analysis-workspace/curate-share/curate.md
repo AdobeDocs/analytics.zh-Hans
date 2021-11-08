@@ -2,13 +2,13 @@
 description: “策划”让您可在共享项目前限制组件。
 keywords: Analysis Workspace 策划
 title: 策划项目
-feature: 策划和共享
+feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '546'
-ht-degree: 100%
+source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+workflow-type: tm+mt
+source-wordcount: '552'
+ht-degree: 98%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 100%
 
 >[!NOTE]
 > 产品配置文件是控制用户可以查看哪些组件的主要机制。此类配置文件通过 Adobe Experience Cloud Admin Console 进行管理。“策划”是一个次级过滤器。
+
+以下是有关项目策划和共享的视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/24711/?quality=12)
 
 ## 应用项目策划
 

@@ -2,13 +2,12 @@
 description: 列举有关如何使用数据表、区段的示例，同时提供一些适合 Analysis Workspace 的用例建议。
 keywords: Analysis Workspace
 title: Analysis Workspace 用例
-feature: Reports & Analytics 基础知识
+feature: Analysis Workspace basics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-translation-type: ht
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: ht
-source-wordcount: '521'
-ht-degree: 100%
+source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+workflow-type: tm+mt
+source-wordcount: '530'
+ht-degree: 97%
 
 ---
 
@@ -62,3 +61,8 @@ ht-degree: 100%
 
    现在您可以与这些营销团队[共享](/help/analyze/analysis-workspace/curate-share/curate.md)此报表。
 
+## Analysis Workspace中的交叉销售分析
+
+以下是有关此主题的视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/25864/?quality=12)
