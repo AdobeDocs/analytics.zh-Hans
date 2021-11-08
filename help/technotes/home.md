@@ -2,16 +2,20 @@
 title: Analytics 技术说明
 description: 本指南提供关于不属于特定分析工具或组件的主题的有用信息。
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
-source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
-workflow-type: ht
-source-wordcount: '96'
-ht-degree: 100%
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 92%
 
 ---
 
 # Analytics 技术说明
 
 本指南提供关于不属于特定分析工具或组件的主题的有用信息。
+
+以下是Adobe Analytics的视频概述：
+
+>[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 ## 重要技术说明文章
 

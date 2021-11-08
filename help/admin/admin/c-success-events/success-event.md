@@ -2,19 +2,23 @@
 description: 成功事件是指可跟踪的活动。什么是成功事件完全由您来决定。例如，如果访客购买一件产品，则该购买事件可视为成功事件。。
 keywords: event
 title: 成功事件概述
-feature: 管理工具
+feature: Admin Tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 98%
+source-wordcount: '727'
+ht-degree: 96%
 
 ---
 
 # 成功事件概述
 
-成功事件是指可跟踪的活动。什么是成功事件完全由您来决定。例如，如果访客购买一件产品，则该购买事件可视为成功事件。.
+成功事件（也称为转化事件或自定义事件）是可跟踪的操作。 什么是成功事件完全由您来决定。例如，如果访客购买一件产品，则该购买事件可视为成功事件。.
+
+以下是一段视频概述：
+
+>[!VIDEO](https://video.tv.adobe.com/v/28764/?quality=12)
 
 访问报表包设置中的“成功事件”页面：
 

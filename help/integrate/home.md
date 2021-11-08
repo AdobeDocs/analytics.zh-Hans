@@ -2,10 +2,10 @@
 title: Analytics 集成
 description: 了解怎样才能将其他位置的数据集成到 Adobe Analytics 中。
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
-source-git-commit: 4324a4911337db6299563f31cc50dc4da220ee45
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 84%
+source-wordcount: '202'
+ht-degree: 80%
 
 ---
 
@@ -19,10 +19,15 @@ ht-degree: 84%
 
 * **Audience Analytics：**&#x200B;将 Adobe Audience Manager 与 Adobe Analytics 相集成。
 * **Advertising Analytics：**&#x200B;可使用 Adobe Analytics 数据并排查看付费搜索数据。
-* **Advertising Cloud分析：** 集成了Adobe Analytics和Adobe Advertising Cloud以扩展和增强每个产品的功能。
+* **Advertising Cloud DSP分析：** 集成了Adobe Analytics和Adobe Advertising Cloud以扩展和增强每个产品的功能。 以下是一段视频概述：
+   >[!VIDEO](https://video.tv.adobe.com/v/27237/?quality=12)
 * **Analytics for Target：** A4T 是 Adobe Analytics 与 Adobe Target 的集成。
 * **Adobe Campaign 报告功能：**&#x200B;将 Adobe Analytics 与 Adobe Campaign 相集成。
 * **AEM Assets 报告功能：**&#x200B;允许针对 Adobe Experience Manager 提供的资产，收集相关的展示次数和单击次数。
+
+以下是Adobe Analytics的视频概述：
+
+>[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 ## 重要 Analytics 集成文章
 
