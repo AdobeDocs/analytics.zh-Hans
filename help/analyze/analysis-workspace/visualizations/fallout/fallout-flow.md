@@ -2,19 +2,23 @@
 description: 在 Workspace 项目中使用流失可视化。
 title: 流失概述
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
-feature: 可视化图表
+feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '501'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '496'
+ht-degree: 98%
 
 ---
 
 # 流失概述
 
 流失可视化图表为构建流失报表提供了多个选项。流失报表显示访客从何处离开（流失）或继续通过（流过）预定义的页面序列。
+
+以下是有关流失可视化的视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/24042/?quality=12)
 
 流失可视化图表允许您
 
@@ -33,8 +37,6 @@ ht-degree: 100%
 * 网站上特定过程的转化率（例如购买或注册过程）。
 * 一般、更宽范围的流量：显示在查看主页的访客中，有多少人继续进行搜索及有多少人最终查看特定项目。
 * 网站上事件之间的关联。显示查看隐私政策后继续购买产品的访客百分比。
-
-[流失可视化视频教程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=zh-Hans)（4 分 15 秒）
 
 ## 分段作为流量和流失的基础 {#section_654F37A398C24DDDB1552A543EE29AA9}
 

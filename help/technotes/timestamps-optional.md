@@ -5,9 +5,9 @@ title: 使用可选时间戳
 topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '615'
 ht-degree: 100%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 100%
 # 使用可选时间戳
 
 了解有关使用可选时间戳设置的好处和限制。
+
+以下是一段关于该主题的视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/335740/?quality=12)
 
 可选时间戳是所有新报表包的默认设置。
 
@@ -34,7 +38,6 @@ ht-degree: 100%
 
 * **加盖时间戳的数据**。可使用以下客户端时间戳变量捕获客户端时间戳数据，并直接随设备数据一起发送：在网页上使用 Javascript，或在移动应用程序中使用移动 SDK 调用 ([!DNL offlineEnabled=true])。
 * **未加盖时间戳的数据**。当数据抵达收集服务器时，Adobe 会在报表包中针对未加盖时间戳的数据设置时间戳。
-
 
 报表包可具有以下时间戳设置之一：
 

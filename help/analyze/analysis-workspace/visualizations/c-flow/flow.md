@@ -2,12 +2,12 @@
 description: 在 Workspace 项目中使用流量可视化。
 title: 流量概述
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-feature: 可视化图表
+feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '210'
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '213'
 ht-degree: 100%
 
 ---
@@ -37,3 +37,7 @@ ht-degree: 100%
 ## 将流量图导出为项目 .CSV 文件的一部分 {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
 流量图可以作为您能够创建的项目 .CSV 文件的一部分，方法是转到&#x200B;**[!UICONTROL 项目]** > **[!UICONTROL 下载 CSV]**。这可以让您分析 Microsoft Excel（以表格形式显示）或其他软件中的流量结果。
+
+## 扩展流可视化
+
+>[!VIDEO](https://video.tv.adobe.com/v/24044/?quality=12)

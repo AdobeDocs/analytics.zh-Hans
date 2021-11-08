@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: f107cc32bb42dbc2cde84225867c39bacdbecd9d
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
@@ -26,9 +26,15 @@ ht-degree: 91%
 | - 基于计算指标的区段 | [计算指标生成器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=zh-Hans) | 适用于个别计算指标 | 在您的指标定义中应用区段 |
 | - 基于 VRS 的区段 | [虚拟报表包生成器](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=zh-Hans) | 适用于个别虚拟报表包 | 在您的 VRS 定义中应用区段 |
 
-以下是一段关于在 Analysis Workspace 中使用区段的视频：
+## 视频
+
+在Analysis Workspace中使用区段：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
+
+查找和创建区段:
+
+>[!VIDEO](https://video.tv.adobe.com/v/334092/?quality=12)
 
 ## 创建区段 {#section_693CFADA668B4542B982446C2B4CF0F5}
 

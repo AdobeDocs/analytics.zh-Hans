@@ -5,10 +5,10 @@ uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 0de07d1822b28c7ad3b784a4d53dff098aeb55c6
-workflow-type: ht
-source-wordcount: '288'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '292'
+ht-degree: 95%
 
 ---
 
@@ -24,27 +24,23 @@ Activity Map 是一款 Adobe Analytics 应用程序，专门用于通过可视�
 
 Activity Map 允许您设置不同的视图，以此来直观地标识客户活动的增速、量化营销举措，并根据受众的需求和行为采取相应的措施。
 
-下面是 Activity Map 的视频概述：
-
->[!VIDEO](https://video.tv.adobe.com/v/25451/?quality=12)
-
-**管理员入门指南**
+## 管理员入门指南
 
 * [启用 Activity Map](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 * [实现代码样例](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
 
-**用户入门指南**
+## 用户入门指南
 
 * [安装 Activity Map 浏览器插件](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
 * [启动 Activity Map](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
 
-**Activity Map 功能**
+## Activity Map 功能
 
 * [可靠的链接跟踪](lnk-tracking-overview.md)
 * [标准模式与实时模式的对比](activitymap-standard-live.md)
 * [链接报表](activitymap-links-report.md)
 * [页面详细信息](activitymap-page-flow.md)
-* [整套量度](activitymap-complete-metrics.md)
+* [整套指标](activitymap-complete-metrics.md)
 * [实时页面分析](activitymap-realtime.md)
 * [客户分段](activitymap-multiple-segments.md)
 * [可自定义的叠加图](activitymap-gainerslosers.md)
@@ -57,3 +53,13 @@ Activity Map 允许您设置不同的视图，以此来直观地标识客户活�
 * [Activity Map 用户界面](activitymap-user-interface.md)
 * [Analytics 中的 Activity Map 报告](activitymap-reporting-analytics.md)
 * [浏览器扩展疑难解答](troubleshooting-browser-extensions.md)
+
+## 视频
+
+视频Activity Map概述：
+
+>[!VIDEO](https://video.tv.adobe.com/v/25451/?quality=12)
+
+启用、禁用和自定义Activity Map:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25878/?quality=12)

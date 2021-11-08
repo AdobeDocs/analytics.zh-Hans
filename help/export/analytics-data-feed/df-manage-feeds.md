@@ -2,17 +2,20 @@
 title: 数据馈送 UI
 description: 了解如何导览数据馈送界面。
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '637'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '647'
+ht-degree: 98%
 
 ---
 
 # 管理数据馈送
 
 通过数据馈送管理器，您可以为贵组织创建、编辑和删除数据馈送。如果您有权访问数据馈送管理器，则可以管理对您可见的所有报表包的数据馈送。
+
+以下是有关数据馈送管理UI的视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
 
 可按照以下步骤访问数据馈送管理器：
 
