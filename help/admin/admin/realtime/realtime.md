@@ -4,10 +4,9 @@ title: 实时报表
 topic-fix: Reports
 uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '569'
 ht-degree: 100%
 
 ---
@@ -19,6 +18,10 @@ ht-degree: 100%
 >[!NOTE]
 >
 >实时报表不需要额外实施或添加标记。它可以充分利用您现有的 Adobe Analytics 实施。要配置实时报表，请参阅[实时报表配置](/help/admin/admin/realtime/t-realtime-admin.md)。
+
+以下是一段视频概述：
+
+>[!VIDEO](https://video.tv.adobe.com/v/25454/?quality=12)
 
 **[!UICONTROL 网站量度]** > **[!UICONTROL 实时]**
 
@@ -48,7 +51,7 @@ ht-degree: 100%
 
 仅管理员或“全部报表访问”和“高级报表”权限组中的所有用户有权设置和查看实时报表。而且，实时报表确实遵守权限设置。例如，如果您没有查看收入的权限，也便无法查看其中包含收入数据的实时报表。
 
-## 由 A4T 配置导致的数据滞后  {#section_806CE36354FC4C539A0DED9266A5C704}
+## 由 A4T 配置导致的数据滞后 {#section_806CE36354FC4C539A0DED9266A5C704}
 
 在 Adobe Target 中启用 A4T 集成后，您在 Adobe Analytics 中会额外经历 5 至 10 分钟的滞后。这额外增加的滞后允许您将 Analytics 和 Target 中的数据存储到同一个点击上，从而允许您按页面和网站部分来细分测试。
 

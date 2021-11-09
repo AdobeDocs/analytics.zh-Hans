@@ -4,10 +4,10 @@ description: Analysis Workspace 是 Adobe Analytics 的首要分析工具。从�
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
-source-wordcount: '555'
-ht-degree: 100%
+source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
+workflow-type: tm+mt
+source-wordcount: '568'
+ht-degree: 97%
 
 ---
 
@@ -60,6 +60,12 @@ Analysis Workspace 是一款通过浏览器即可使用的灵活工具，可让�
 **“面板”**&#x200B;可以包含许多表格和可视化图表，用于在项目中对分析进行组织和整理。Analysis Workspace 中提供的许多面板都可以基于一些用户输入来生成整套分析。在最左侧的边栏中，选择顶部的&#x200B;**[!UICONTROL 面板]**&#x200B;图标，以查看所有可用的[面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hans)。
 
 ![](assets/build-panels.png)
+
+### Analysis Workspace项目管理
+
+以下是项目管理的视频概述：
+
+>[!VIDEO](https://video.tv.adobe.com/v/24035/?quality=12)
 
 ## 其他资源 {#resources}
 

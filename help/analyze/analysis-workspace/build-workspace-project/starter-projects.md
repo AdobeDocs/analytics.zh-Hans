@@ -5,10 +5,10 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
 workflow-type: tm+mt
-source-wordcount: '1399'
-ht-degree: 99%
+source-wordcount: '1405'
+ht-degree: 98%
 
 ---
 
@@ -123,6 +123,10 @@ ht-degree: 99%
 >[!NOTE]
 >
 >“人员”模板及其关联的“人员”量度只能在 [Adobe Experience Cloud 设备协作](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html?lang=zh-Hans)中使用。
+
+“人员”模板的视频概述：
+
+>[!VIDEO](https://video.tv.adobe.com/v/24037/?quality=12)
 
 该模板基于“人员”量度，“人员”量度是删除了重复数据的独特访客量度版本。通过“人员”量度可测量客户使用多个设备与您的品牌进行交互的频率。该模板允许您
 
