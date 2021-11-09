@@ -2,10 +2,10 @@
 title: 分类概述
 description: 自定义维度项目的分组。
 exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '603'
-ht-degree: 100%
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+workflow-type: tm+mt
+source-wordcount: '612'
+ht-degree: 98%
 
 ---
 
@@ -24,6 +24,10 @@ ht-degree: 100%
 分类后，任何可使用关键变量生成的报表也可通过关联的属性来生成。例如，您可以使用其他产品属性（如产品名称、颜色、大小、描述和 SKU）对[!UICONTROL 产品 ID] 进行分类。以其他属性增强 Reports &amp; Analytics 数据，可让您生成更深入、更复杂的报表。
 
 在创建分类后，您可以在 Adobe Analytics 中使用新的数据属性。
+
+以下是有关Adobe Analytics分类的概述视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/16853/?quality=12)
 
 ## 跟踪代码示例
 

@@ -1,13 +1,13 @@
 ---
 title: 多个报表包
 description: 了解如何在工作区中使用多个报表包来创建项目以及为什么创建项目
-feature: Workspace 基础知识
+feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '519'
-ht-degree: 100%
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+workflow-type: tm+mt
+source-wordcount: '524'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 100%
 * 比较两个不同区域的数据，以及存储在两个不同的报表包中的数据。您可以构建一些表格和可视化图表，以并排比较数据。
 
 * 构建一个包含量度和可视化图表的功能板，向其他组织报告。您现在可以将不同报表包中的数据提取到同一项目。
+
+以下是有关此主题的视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/32843/?quality=12)
 
 ## 将报表包应用于所有面板
 
@@ -35,7 +39,7 @@ ht-degree: 100%
 >您可以拖放到与活动面板位于同一报表包中的任何面板。通过拖放到同一报表包的非活动面板，该面板将变为活动面板。
 
 | 任务 | 活动面板 | 非活动面板 |
-|---|---|---|
+| --- | --- | --- |
 | 更改报表包 | 是 | 否 |
 | 拖放组件 | 是 | 是，适用于与活动面板位于同一报表包中的任何面板。 |
 | 拖放可视化图表 | 是 | 是，适用于与活动面板位于同一报表包中的任何面板。 |

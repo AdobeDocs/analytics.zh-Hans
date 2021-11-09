@@ -5,10 +5,10 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
-workflow-type: ht
-source-wordcount: '636'
-ht-degree: 100%
+source-git-commit: f7853f81c6f7d036b35e1d88ac8b5eb2bf84646d
+workflow-type: tm+mt
+source-wordcount: '642'
+ht-degree: 94%
 
 ---
 
@@ -24,6 +24,10 @@ Analysis Workspace 中的地图可视化
 * 支持 PDF 导出。
 * 利用 WebGL 显示图形。如果您的图形驱动程序不支持 WebGL 渲染，则可能需要更新您的驱动程序。
 
+以下是一段视频概述：
+
+>[!VIDEO](https://video.tv.adobe.com/v/23559/?quality=12)
+
 ## 构建地图可视化 {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
 1. 从可视化列表中，将&#x200B;**[!UICONTROL 地图]**&#x200B;拖到“自由格式”面板中：
@@ -33,18 +37,10 @@ Analysis Workspace 中的地图可视化
 1. 从指标列表中拖入一个指标（包括计算指标）。
 1. 指定要从中提取内容的数据源。（只有在为移动设备应用程序数据启用了位置跟踪时，才会显示此对话框。）
 
-<table id="table_CD54B433464B4282A7524FB187016C47"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>移动设备经纬度</b> </p> </td> 
-   <td colname="col2"> <p>此选项表示移动设备应用程序数据。 </p> <p>只有在通过 <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">“管理员”</span>&gt;<span class="uicontrol">“报表包”</span>&gt; <span class="uicontrol">&lt;选择报表包&gt;</span> &gt;<span class="uicontrol">“编辑设置”</span>&gt;<span class="uicontrol">“移动设备管理”</span>&gt;<span class="uicontrol">“启用位置跟踪”</span></span>为报表包启用该设置时，才会看到此选项。 </p> <p>这是默认设置（如果已启用位置跟踪）。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>地理维度</b> </p> </td> 
-   <td colname="col2"> <p>此选项表示有关访客位置（基于访客的 IP 地址）的地域划分数据。此数据将被转换为国家、地区和城市。请注意，它不会转到 DMA 或邮政编码级别。 </p> <p>几乎所有报表包都启用了此维度。如果您的报表包还没有启用此维度，请联系 Adobe 客户关怀以启用地理报表。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 设置 | 描述 |
+| --- | --- |
+| [!UICONTROL 移动设备经纬度] | 此选项表示移动设备应用程序数据。仅当您在 [!UICONTROL Analytics] > [!UICONTROL 管理员] > [!UICONTROL 报表包] >（选择报表包）> [!UICONTROL 编辑设置] >  [!UICONTROL 移动设备管理] > [!UICONTROL 启用位置跟踪]. 这是默认设置（如果已启用位置跟踪）。 |
+| [!UICONTROL 地理维度] | 此选项表示有关访客位置（基于访客的 IP 地址）的地域划分数据。此数据将转换为 [!UICONTROL 国家/地区], [!UICONTROL 地区]和 [!UICONTROL 城市]. 请注意，它不会转到 DMA 或邮政编码级别。几乎所有报表包都启用了此维度。如果您的报表包还没有启用此维度，请联系 Adobe 客户关怀以启用地理报表。 |
 
 1. 单击&#x200B;**[!UICONTROL 生成]**。
 

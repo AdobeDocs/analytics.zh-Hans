@@ -1,20 +1,24 @@
 ---
 description: Analysis Workspace 中的流失允许您将维度和量度作为漏斗和工作流程中的接触点来进行混合和匹配。这在定义要调查的用户步骤方面具有更大的灵活性。
-title: 维度间流失
+title: 多维度流失
 uuid: 17520727-2d06-4dc2-a66d-66e3350bdda3
-feature: 可视化图表
+feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '165'
-ht-degree: 100%
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+workflow-type: tm+mt
+source-wordcount: '171'
+ht-degree: 93%
 
 ---
 
-# 维度间流失
+# 多维度流失
 
 Analysis Workspace 中的流失允许您将维度和量度作为漏斗和工作流程中的接触点来进行混合和匹配。这在定义要调查的用户步骤方面具有更大的灵活性。
+
+以下是有关此主题的视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/24043/?quality=12)
 
 **示例**：除了页面维度之外，还可以向流失可视化图表添加基于操作的维度项目。这让您可以可视化客户路径中页面和某些操作是怎样相互作用的。
 

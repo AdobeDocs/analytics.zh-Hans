@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 提供 Analytics 的高级分析和可视化工具 Analysis Workspace 以及 Adobe Analytics Dashboards、Report Builder 和 Activity Map 等工具的操作说明。
-source-git-commit: fca73532a83756062583d750b1727b5f2558718f
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 98%
@@ -60,7 +60,7 @@ ht-degree: 98%
       + 流失 {#fallout}
          + [流失概述](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [配置流失可视化图表](analysis-workspace/visualizations/fallout/configuring-fallout.md)
-         + [维度间流失](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
+         + [多维度流失](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [在流失分析中应用区段](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + 流量 {#flow}
          + [流量概述](analysis-workspace/visualizations/c-flow/flow.md)
