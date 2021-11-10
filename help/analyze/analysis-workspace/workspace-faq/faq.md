@@ -1,13 +1,13 @@
 ---
 description: 工作区常见问题解答
 title: 工作区常见问题解答以及故障诊断
-feature: Workspace 基础知识
+feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: ht
-source-wordcount: '520'
-ht-degree: 100%
+source-git-commit: e9b917a60e31b63d8350d4023fa803605d86e050
+workflow-type: tm+mt
+source-wordcount: '530'
+ht-degree: 97%
 
 ---
 
@@ -24,6 +24,12 @@ ht-degree: 100%
 | 我可以将 Analysis Workspace 用于 Data Warehouse 吗？ | 不建议将 Analysis Workspace 用于批量数据导出。它是一个创建类似功能板分析项目的可视化图表工作区。 |
 | 如何优化 Analysis Workspace 的性能？ | 请参阅[优化性能](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。 |
 
+## 数据如何进入您的Analysis Workspace项目？
+
+请观看此视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/31072/?quality=12)
+
 ## 疑难解答
 
 **当我将指标拖动到上面时，显示“数据无效”。**
@@ -38,3 +44,4 @@ ht-degree: 100%
 * 如果在报表中应用了区段，区段标准可能与所有数据不匹配。请尝试移除区段或调整区段定义。
 * 检查右上角的日期范围，并确保它已设置为预期的值。
 * 导航到您的网站，然后使用 [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans) 验证正在收集的数据。
+

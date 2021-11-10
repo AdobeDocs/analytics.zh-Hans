@@ -2,13 +2,13 @@
 description: 影响工作区性能的因素以及您可以采取的优化措施
 title: 影响 Analysis Workspace 性能的因素及优化措施
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
-feature: Workspace 基础知识
+feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: ht
-source-wordcount: '2012'
-ht-degree: 100%
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+workflow-type: tm+mt
+source-wordcount: '2024'
+ht-degree: 99%
 
 ---
 
@@ -77,3 +77,9 @@ ht-degree: 100%
 | 报表包大小 | 报表包中收集到的数据量。 | - | 请咨询您的实施团队或 Adobe 专家，确定是否可以开展实施方面的改进，以提升 Adobe Analytics 的综合体验。 |
 | 并行查询 | 您的组织同时向 Adobe 请求的查询数。每个组织都有权进行至少 5 个并发查询。 | 如果报表需要较长时间，通常是因为其所在队列中有其他报表。这意味着您的组织针对特定报表包尝试运行的并发请求过多。查询可能来自 API 请求、报告 UI（Analysis Workspace、Reports &amp; Analytics、Report Builder 等）、计划项目、计划报表、计划警报以及发出报告请求的并发用户。 | 将报表包的请求和计划较为均匀地分布在一天当中。此外，请尽可能将您的请求转移到非高峰时段。周一早上、周二早上和每个月的第一天是报告高峰时段。 |
 | 数据中心容量 | 您和其他客户在 Adobe 数据中心内共享的报告容量数额。 | 此值受组织和数据中心内其他组织进行的并发查询数量的影响。 | 您的组织有权使用设置的容量，如果系统负荷较轻，Adobe 将转给您超出权利限额的更多容量。 |
+
+## 提高Analysis Workspace工作效率的提示
+
+以下是一段关于该主题的视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/31157/?quality=12)

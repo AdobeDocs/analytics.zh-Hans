@@ -2,19 +2,23 @@
 description: 时间划分会采用所收集的点击量的时间戳，并将其划分为更有意义的维度，例如“每天时间”或“每周时间”。
 title: 时间划分维度
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
-feature: Workspace 基础知识
+feature: Workspace Basics
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 时间划分维度
 
 时间划分会采用所收集的点击量的时间戳，并将其划分为更有意义的维度，例如“每天时间”或“每周时间”。
+
+以下是有关时间划分维度的视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/23727/?quality=12)
 
 时间划分维度基于报表包或虚拟报表包的时区。这些维度可以在 Analysis Workspace 中使用，并且可以帮助您回答以下问题：
 
@@ -30,7 +34,7 @@ ht-degree: 100%
 Analysis Workspace 中的时间划分维度包括：
 
 | 维度 | 示例值 |
-|--- |--- |
+| --- | --- |
 | 每天时间 | 0 时至 23 时 |
 | 上午/下午 | 上午、下午 |
 | 每周时间 | 星期一、星期二、星期三、星期四、星期五、星期六、星期日 |

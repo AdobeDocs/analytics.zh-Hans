@@ -2,19 +2,23 @@
 description: 通过维度间流量可以跨不同维度查看用户路径。
 title: 维度间流量
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
-feature: 可视化图表
+feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '306'
-ht-degree: 100%
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 96%
 
 ---
 
 # 维度间流量
 
 通过维度间流量可以跨不同维度查看用户路径。
+
+以下是有关Analysis Workspace中文本环绕和多维度流的视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
 
 现在每个“流量”列的顶部有一个维度标签，让您在流量可视化图表中使用多个维度时变得更加直观：
 

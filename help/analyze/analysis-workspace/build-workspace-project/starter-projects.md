@@ -5,9 +5,9 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1414'
 ht-degree: 98%
 
 ---
@@ -71,6 +71,10 @@ ht-degree: 98%
 * **培训教程 — 内部搜索分析**：“内部搜索”教程可帮助您了解访客在网站或应用程序上查找的内容（而非找到的内容）。分析此类数据可以发掘内容优化商机。
 
 * **培训教程 — 营销分析**：本教程介绍如何为您的主管领导总结出一份营销分析，包括哪些自定义维度和指标重要。
+
+以下是有关 [!UICONTROL 培训教程] 模板：
+
+>[!VIDEO](https://video.tv.adobe.com/v/33773/?quality=12)
 
 ### 广告
 
