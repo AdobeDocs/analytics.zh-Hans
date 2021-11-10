@@ -1,10 +1,10 @@
 ---
 title: 营销渠道常见问题解答
 description: 有关营销渠道的常见问题解答。
-source-git-commit: 925435a475be13103c5b26255bb7910d259ff7e7
-workflow-type: ht
-source-wordcount: '1485'
-ht-degree: 100%
+source-git-commit: 9d4470dd297227333c6043572820053d7eb5e899
+workflow-type: tm+mt
+source-wordcount: '1486'
+ht-degree: 98%
 
 ---
 
