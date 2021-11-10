@@ -3,11 +3,10 @@ description: 管理计划的Analysis Workspace项目
 keywords: Analysis Workspace
 title: 计划项目管理器
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
-translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 96%
+source-wordcount: '164'
+ht-degree: 89%
 
 ---
 
@@ -19,6 +18,10 @@ ht-degree: 96%
 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 计划项目]**。
 
 ![](assets/components-scheduled-projects.png)
+
+以下是有关Analysis Workspace中计划项目和可下载项目的视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/24709/?quality=12)
 
 在计划项目管理器中，您可以编辑和删除重复的项目提交。您可以创建提交计划，通过电子邮件将报表发送至指定位置。您可以将这些计划配置为以指定间隔在某个时间段或不定时地自动发送报表，或停止提交重复性的项目。
 
@@ -32,6 +35,5 @@ ht-degree: 96%
 * 标记计划项目。
 * 指定/更改计划项目的所有者。
 * 添加其他过滤器，例如“已批准”、“已失败”、“收藏夹”、“我的”、“显示全部”和“已过期项目”。
-
 * 定义计划项目过期日期。
 

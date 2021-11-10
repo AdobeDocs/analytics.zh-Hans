@@ -5,9 +5,9 @@ title: 共享项目
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1111'
 ht-degree: 99%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 99%
 您可以为收件人添加三个项目角色中的一个角色。项目角色与用户和特定项目 ID 关联。项目角色与 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hans) 中管理的用户权限无关。
 
 | 角色 | 项目控制 |
-|---|---|
+| --- | --- |
 | 可以编辑 | 收件人可以对项目的变更执行&#x200B;**[!UICONTROL 保存]**&#x200B;操作，并且可以行使共有人的权力。如果您希望与其他同事共同管理项目，则此角色很有用；这包括编辑、删除和修改共享项目的收件人列表。<br>注意：Analysis Workspace 当前不支持实时协作，因此建议在给定时间只让一个用户编辑项目。如果同时保存多个项目，则将保留最后一个版本。 |
 | 可以复制 | 收件人可以执行&#x200B;**[!UICONTROL 另存为]**&#x200B;操作，并有权访问左边栏。在此角色中，项目交互不受限。如果您希望将项目共享给了解您组织数据以及知道如何使用 Analysis Workspace 的用户，但不希望更改项目，则此角色非常有用。 |
 | 可以查看 | 收件人无法执行“另存为”操作，并且不具有访问左边栏的权限。项目交互受到限制。如果您希望将项目共享给不太熟悉您组织的数据结构或不太熟悉 Analysis Workspace 和 Adobe Analytics 的一般用户，则此角色非常有用。但是，您可能仍然希望这些用户在一个安全的环境中使用数据和信息分析。<br>详细了解[“可以查看”角色提供的项目体验](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)。 |
@@ -86,6 +86,12 @@ ht-degree: 99%
 * 项目 B：4、5、6、7
 
 ![](assets/mult-proj-sharing.png)
+
+## 共享嵌入的组件
+
+以下是一段关于该主题的视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/24713/?quality=12)
 
 ## 常见问题解答 {#FAQs}
 

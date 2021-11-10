@@ -2,21 +2,25 @@
 description: 使用“概要数字”和“概要变化”可视化图表来显示项目中的重要数据点。
 title: 概要数字和概要变化
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
-feature: 可视化图表
+feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: 5027c17f1b0efc2fe22915e39aca901ee2beb34a
-workflow-type: ht
-source-wordcount: '396'
-ht-degree: 100%
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+workflow-type: tm+mt
+source-wordcount: '403'
+ht-degree: 84%
 
 ---
 
 # 概要数字和概要变化
 
-## “概要数字”可视化图表 {#summary-number}
+以下是有关这两种可视化的视频：
 
-使用“概要数字”可视化图表来突出显示项目中的大型重要数字。此可视化图表的行为方式如下：
+>[!VIDEO](https://video.tv.adobe.com/v/335564/?quality=12)
+
+## [!UICONTROL “概要数字”可视化图表] {#summary-number}
+
+使用 [!UICONTROL 概要数字] 可视化图表来突出显示项目中的重要大数字。 此可视化图表的行为方式如下：
 
 * 如果未选中单元格，此可视化则会选择总列数。
 * 如果选中了单个单元格，此可视化则会显示该单元格的概要。
@@ -27,14 +31,14 @@ ht-degree: 100%
 
 | 设置 | 定义 |
 |--- |--- |
-| 百分比 | 显示百分比，而不是原始数字。 |
-| 图例可见 | 显示有关所显示的量度的信息。 |
-| 缩写值 | 选择缩写值，最多显示 3 个小数位。 |
-| 值汇总方式 | 选择显示所选数据的最大值、最小值、平均值、中间值或总和。 |
+| [!UICONTROL 百分比] | 显示百分比，而不是原始数字。 |
+| [!UICONTROL 图例可见] | 显示有关所显示的量度的信息。 |
+| [!UICONTROL 缩写值] | 选择缩写值，最多显示 3 个小数位。 |
+| [!UICONTROL 值汇总方式] | 选择显示所选数据的最大值、最小值、平均值、中间值或总和。 |
 
-## 概要更改可视化 {#summary-change}
+## [!UICONTROL 概要更改可视化] {#summary-change}
 
-使用“概要变化”可视化图表来显示两个数字之间的增量（变化）。可通过[自定义事件极性](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=zh-Hans)或计算量度的[将上升趋势显示为](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=zh-Hans)选项来控制“概要变化”的绿色和红色。
+使用 [!UICONTROL 概要变化] 可视化图表，显示两个数字之间的增量（变化）。 绿色和红色 [!UICONTROL 概要变化] 可以通过 [自定义事件极性](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=zh-Hans) 或计算量度的 [将上升趋势显示为](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=zh-Hans) 选项。
 
 此可视化图表的行为方式如下：
 
@@ -52,8 +56,8 @@ ht-degree: 100%
 单击右上方的&#x200B;**可视化设置**&#x200B;齿轮，可配置“概要变化”设置：
 
 | 设置 | 定义 |
-|--- |--- |
-| 百分比 | 显示百分比，而不是原始数字。 |
-| 图例可见 | 显示有关所显示的量度的信息。 |
-| 显示百分比变化 | 显示 2 个数字之间的百分比变化。 |
-| 显示原始差异 | 显示 2 个数字之间的原始差异。您还可以对此选项使用缩写值，并最多显示 3 个小数位。 |
+| --- | --- |
+| [!UICONTROL 百分比] | 显示百分比，而不是原始数字。 |
+| [!UICONTROL 图例可见] | 显示有关所显示的量度的信息。 |
+| [!UICONTROL 显示百分比变化] | 显示 2 个数字之间的百分比变化。 |
+| [!UICONTROL 显示原始差异] | 显示 2 个数字之间的原始差异。您还可以对此选项使用缩写值，并最多显示 3 个小数位。 |

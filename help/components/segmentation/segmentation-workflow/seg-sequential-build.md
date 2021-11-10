@@ -1,14 +1,13 @@
 ---
 description: 顺序区段使用 THEN 运算符（而非 AND 或 OR）创建。THEN 意味着出现一个区段标准后，接着出现另一个区段标准。默认情况下，顺序区段会识别所有匹配数据，并显示过滤器“包含每个人”。可以使用“仅在序列前”和“仅在序列后”选项将顺序区段进一步过滤为匹配点击的子集。
 title: 生成顺序区段
-feature: 分段
+feature: Segmentation
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
 workflow-type: tm+mt
-source-wordcount: '3858'
-ht-degree: 100%
+source-wordcount: '3864'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +18,10 @@ ht-degree: 100%
 ![](assets/before-after-sequence.png)
 
 此外，您还可以使用 [After 和 Within 运算符](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)，将顺序区段限制为检查点之间的特定时间段、粒度和计数。
+
+以下是有关连续分段的视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/25405/?quality=12)
 
 ## 包含每个人 {#section_75ADDD5D41F04800A09E592BB2940B35}
 
@@ -31,7 +34,7 @@ ht-degree: 100%
 | 匹配 | A -> B<br>A ->（在不同的访问中）B<br>A -> D -> B |
 | 不匹配 | B -> A |
 
-## “仅在序列前”和“仅在序列后”  {#section_736E255C8CFF43C2A2CAAA6D312ED574}
+## “仅在序列前”和“仅在序列后” {#section_736E255C8CFF43C2A2CAAA6D312ED574}
 
 **[!UICONTROL 仅在序列前]**&#x200B;和&#x200B;**[!UICONTROL 仅在序列后]**&#x200B;选项可将区段过滤为指定序列之前或之后的数据子集。
 
@@ -355,7 +358,7 @@ ht-degree: 100%
 
 您可以使用 [!UICONTROL Within] 和 [!UICONTROL After] 容器并指定粒度和计数，以将匹配限制为指定的持续时间。[!UICONTROL Within] 运算符用于指定两个检查点之间的时间长度的最大限制。[!UICONTROL After] 运算符用于指定两个检查点之间的时间长度的最小限制。
 
-### After 和 Within 运算符  {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
+### After 和 Within 运算符 {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
 持续时间是由表示粒度的单个大写字母以及后面表示粒度重复次数的数字指定的。
 
@@ -363,7 +366,7 @@ ht-degree: 100%
 
 **[!UICONTROL After]** 不包括终结点（大于）。
 
-| 运算符 | 描述 |
+| 操作员 | 描述 |
 |--- |--- |
 | AFTER | After 运算符用于指定两个检查点之间的时间长度的最小限制。在设置 After 值后，时间限制将从应用区段时算起。例如，如果在容器上设置 After 运算符以识别访问页面 A，但直到一天后才返回访问页面 B 的访客，那么该时间将从访客离开页面 A 时开始。对于要包含在此区段中的访客，从离开页面 A 后至查看页面 B，必须至少经过 1440 分钟（一天）。 |
 | WITHIN | Within 运算符用于指定两个检查点之间的时间长度的最大限制。例如，如果在容器上设置 Within 运算符以识别访问页面 A，然后在一天内返回访问页面 B 的访客，那么该时间将从访客离开页面 A 时开始。要包含在此区段中，访客需要在一天之内打开页面 B。对于要包含在此区段中的访客，在离开页面 A 后至查看页面 B，所经过的时间不能超过 1440 分钟（一天）。 |

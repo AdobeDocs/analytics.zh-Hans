@@ -1,13 +1,13 @@
 ---
 description: 通过区段生成器，您可以使用选定的运算符比较和约束值。
 title: 区段的比较运算符
-feature: 分段
+feature: Segmentation
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: 8559437fc16a8cddc8ce5cf738993d147b522a05
-workflow-type: ht
-source-wordcount: '1086'
-ht-degree: 100%
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+workflow-type: tm+mt
+source-wordcount: '1095'
+ht-degree: 99%
 
 ---
 
@@ -63,3 +63,7 @@ ht-degree: 100%
 | 小于 | 返回独特计数小于输入值的维度项目。 |
 | 大于或等于 | 返回独特计数大于或等于输入值的维度项目。 |
 | 小于或等于 | 返回独特计数小于或等于输入值的维度项目。 |
+
+以下是有关不同维度计数的分段视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/27257/?quality=12)

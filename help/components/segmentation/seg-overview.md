@@ -1,13 +1,13 @@
 ---
 description: 您可以使用区段根据特性或网站交互来确定访客子集。区段是作为可编码的受众分析而设计的，您可以针对特定的需求生成区段，然后验证、编辑和与其他团队成员共享或在其他 Adobe 产品和 Analytics 功能中使用。
 title: 关于区段和容器
-feature: 分段
+feature: Segmentation
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '3698'
-ht-degree: 100%
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+workflow-type: tm+mt
+source-wordcount: '3705'
+ht-degree: 99%
 
 ---
 
@@ -69,6 +69,10 @@ ht-degree: 100%
 
 ![](assets/sequential_segmentation_container_hierarchy.png)
 
+以下是区段容器的视频概述：
+
+>[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12)
+
 **访客容器**
 
 访客容器包含指定时间段内访客的每次访问和页面查看。访客级别的区段会返回满足条件的页面，以及访客查看的所有其他页面（只受定义的日期范围的约束）。作为定义最为广泛的容器，访客容器级别生成的报表将返回跨所有访问的页面查看并允许您生成多访问分析。因此，根据定义的日期范围，访客容器是最容易更改的。
@@ -88,7 +92,7 @@ ht-degree: 100%
 * 访问量
 * 登录页面
 * 回访频度
-* 参与指标
+* 参与率指标
 * 线性分配的指标
 
 **点击容器**
