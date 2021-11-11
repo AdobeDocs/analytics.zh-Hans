@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Analysis Workspace 用例
 feature: Analysis Workspace basics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 97%
+source-wordcount: '592'
+ht-degree: 93%
 
 ---
 
@@ -66,3 +66,15 @@ ht-degree: 97%
 以下是有关此主题的视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/25864/?quality=12)
+
+## 使用跨选项卡分析进行基本营销归因
+
+您可以使用 Adobe Analytics 中的多种方式将归因方法提升到新的高度。在此视频中，我们将重点介绍如何使用工作区中的跨选项卡分析，从营销渠道报表中获得更加深入的分析。
+
+>[!VIDEO](https://video.tv.adobe.com/v/39237/?quality=12)
+
+## 在Analysis Workspace中使用参与量度
+
+以下视频演示如何使用计算量度获取参与率量度：
+
+>[!VIDEO](https://video.tv.adobe.com/v/41266/?quality=12)

@@ -4,10 +4,10 @@ title: 工作区常见问题解答以及故障诊断
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: e9b917a60e31b63d8350d4023fa803605d86e050
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 97%
+source-wordcount: '546'
+ht-degree: 94%
 
 ---
 
@@ -29,6 +29,12 @@ ht-degree: 97%
 请观看此视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/31072/?quality=12)
+
+## 如何跟踪工作区的使用情况？
+
+请观看以下视频，了解Analysis Workspace的使用日志跟踪：
+
+>[!VIDEO](https://video.tv.adobe.com/v/29768/?quality=12)
 
 ## 疑难解答
 

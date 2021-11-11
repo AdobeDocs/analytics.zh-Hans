@@ -2,12 +2,12 @@
 description: Analysis Workspace 中的日期比较允许您采用包含日期范围的任何列来创建常见的日期比较，例如：年同比、季度同比、月同比，等等。
 title: 日期比较
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
-feature: Workspace 基础知识
+feature: Workspace Basics
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '663'
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '668'
 ht-degree: 100%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 100%
 # 日期比较
 
 Analysis Workspace 中的日期比较允许您采用包含日期范围的任何列来创建常见的日期比较，例如：年同比、季度同比、月同比，等等。
+
+以下是一段关于该主题的视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/30753/?quality=12)
 
 ## 比较时间段 {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 

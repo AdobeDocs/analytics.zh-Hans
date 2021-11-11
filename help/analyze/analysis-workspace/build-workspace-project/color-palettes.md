@@ -1,13 +1,13 @@
 ---
 description: 如何在 Analysis Workspace 中使用可视化图表调色板
 title: 什么是可视化图表调色板？其工作原理是怎样的？
-feature: Workspace 基础知识
+feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '216'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 95%
 
 ---
 
@@ -27,6 +27,10 @@ ht-degree: 100%
 * 位于前两个调色板下方的第 3 个到第 5 个调色板已针对色彩协调进行了优化。
 
 ## 更改调色板：
+
+以下是有关使用自定义调色板的视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
 
 1. 导航至&#x200B;**[!UICONTROL 工作区]** > **[!UICONTROL 项目]** > **[!UICONTROL 项目信息和设置]**。
 1. 从&#x200B;**[!UICONTROL 项目调色板]**&#x200B;下拉列表中，您可以从 5 种预设配色方案中选取一种配色方案。

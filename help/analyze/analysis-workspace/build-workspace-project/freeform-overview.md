@@ -6,10 +6,10 @@ uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 99%
+source-wordcount: '1428'
+ht-degree: 96%
 
 ---
 
@@ -89,6 +89,12 @@ Workspace 项目列表页面包含了以下信息：
 
 ![](assets/left-rail.png)
 
+## 右键单击菜单
+
+以下是有关使用Analysis Workspace中的右键单击菜单的视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/23981/?quality=12)
+
 ## 项目画布 {#canvas}
 
 项目画布是将面板、表格、可视化和组件集中在一起以构建您的分析的地方。一个项目可包含许多面板，而每个面板均可包含许多表格和可视化。
@@ -101,7 +107,9 @@ Workspace 项目列表页面包含了以下信息：
 
 ## 项目管理器 {#manager}
 
-可在&#x200B;**“Analytics”>“组件”>“项目”**&#x200B;下管理 Analysis Workspace 项目。项目管理器显示特定用户已创建的项。可在“管理员”>“Analytics 用户和资源”>“转移资源”下将项目所有权移交给新用户。
+Analysis Workspace项目可在 **[!UICONTROL Analytics] > [!UICONTROL 组件] >  [!UICONTROL 项目]**. 项目管理器显示特定用户已创建的项。
+
+项目所有权可以转移给 [!UICONTROL 管理员] > [!UICONTROL Analytics用户和资产] > [!UICONTROL 转移资产].
 
 在项目管理器中，可执行添加、标记、共享、复制等操作。可在搜索栏中或通过使用左侧边栏中的筛选器选项搜索项目。可按标记、所有者、项目类型等进行筛选。
 

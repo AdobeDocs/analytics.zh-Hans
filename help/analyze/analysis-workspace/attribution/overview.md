@@ -1,13 +1,13 @@
 ---
 title: 归因概述
 description: 将成功事件的点数归因到多个维度项目的概念。
-feature: 归因
+feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '420'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '435'
+ht-degree: 96%
 
 ---
 
@@ -45,3 +45,9 @@ Adobe Analytics 通过让您能够执行以下操作来增强归因：
 * [将归因应用于度量](../visualizations/freeform-table/column-row-settings/column-settings.md)：对项目中的任何量度使用非默认归因。
 * [将归因应用于细分](../components/dimensions/t-breakdown-fa.md)：对细分使用非默认归因。
 * [比较归因模型](../components/apply-create-metrics.md)：快速了解任何量度的不同归因模型的异同。
+
+## 视频
+
+以下视频介绍如何在Analysis Workspace中对区段使用不同的Attribution IQ模型：
+
+>[!VIDEO](https://video.tv.adobe.com/v/23743/?quality=12)

@@ -2,19 +2,23 @@
 description: 在日历中，您可以指定日期和日期范围，或者选择一个预设。
 title: 日历和日期范围概述
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
-feature: Workspace 基础知识
+feature: Workspace Basics
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '375'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 96%
 
 ---
 
 # 日历和日期范围概述
 
 在日历中，您可以指定日期和日期范围，或者选择一个预设。
+
+以下是有关在Analysis Workspace中使用日期范围和日历的视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/23973/?quality=12)
 
 日历选择在面板级别应用，但您可以选择将它们应用于所有面板。在工作区中单击日期范围时，界面将显示当前日历月和上一个日历月。您可以通过单击上方左右边角的左右箭头来调整这两个日历。
 

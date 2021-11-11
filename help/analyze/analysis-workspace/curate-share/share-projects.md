@@ -5,10 +5,10 @@ title: 共享项目
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 99%
+source-wordcount: '1121'
+ht-degree: 98%
 
 ---
 
@@ -29,6 +29,10 @@ ht-degree: 99%
 | 可以编辑 | 收件人可以对项目的变更执行&#x200B;**[!UICONTROL 保存]**&#x200B;操作，并且可以行使共有人的权力。如果您希望与其他同事共同管理项目，则此角色很有用；这包括编辑、删除和修改共享项目的收件人列表。<br>注意：Analysis Workspace 当前不支持实时协作，因此建议在给定时间只让一个用户编辑项目。如果同时保存多个项目，则将保留最后一个版本。 |
 | 可以复制 | 收件人可以执行&#x200B;**[!UICONTROL 另存为]**&#x200B;操作，并有权访问左边栏。在此角色中，项目交互不受限。如果您希望将项目共享给了解您组织数据以及知道如何使用 Analysis Workspace 的用户，但不希望更改项目，则此角色非常有用。 |
 | 可以查看 | 收件人无法执行“另存为”操作，并且不具有访问左边栏的权限。项目交互受到限制。如果您希望将项目共享给不太熟悉您组织的数据结构或不太熟悉 Analysis Workspace 和 Adobe Analytics 的一般用户，则此角色非常有用。但是，您可能仍然希望这些用户在一个安全的环境中使用数据和信息分析。<br>详细了解[“可以查看”角色提供的项目体验](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)。 |
+
+以下是有关Analysis Workspace中仅查看项目的视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/36206/?quality=12)
 
 >[!IMPORTANT]
 > 在 2020 年 6 月 18 日之前添加的项目收件人已迁移到相应项目角色。管理员用户已迁移到&#x200B;**[!UICONTROL 可以编辑]**&#x200B;角色，非管理员用户已迁移到&#x200B;**[!UICONTROL 可以复制]**&#x200B;角色。这些角色将提供与以前相同的项目体验。此外，所有组（包括“全部”组）都已迁移到&#x200B;**[!UICONTROL 可以复制]**&#x200B;角色。
