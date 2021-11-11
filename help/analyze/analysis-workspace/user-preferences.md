@@ -4,10 +4,10 @@ description: 您可以为用户设置常规首选项和项目首选项，以及�
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 324ee0f5839442ba1575b65a1159a23bed7129b4
+source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 78%
+source-wordcount: '277'
+ht-degree: 76%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 78%
 通过[!UICONTROL 组件]>[!UICONTROL 用户首选项]页面，可在用户级别管理 Analysis Workspace 的设置及其相关的组件。“用户首选项”适用于所有&#x200B;*新的*&#x200B;项目或面板。
 
 ![用户首选项](assets/user-preferences.png)
+
+以下是有关用户首选项的简短视频：
+
+>[!VIDEO](https://video.tv.adobe.com/v/332600/?quality=12)
 
 ## 常规首选项
 
