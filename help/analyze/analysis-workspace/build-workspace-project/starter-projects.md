@@ -5,10 +5,10 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+source-git-commit: 76235e80ad5e2104d0ad3a262b8f805f34fa99a3
 workflow-type: tm+mt
-source-wordcount: '1423'
-ht-degree: 97%
+source-wordcount: '1410'
+ht-degree: 88%
 
 ---
 
@@ -41,9 +41,7 @@ ht-degree: 97%
 
 >[!VIDEO](https://video.tv.adobe.com/v/23231/?quality=12)
 
-### 可对自定义模板执行的操作
-
-![](assets/custom_templates.png)
+### 管理自定义模板 {#manage-custom-template}
 
 | 操作 | 描述 |
 |--- |--- |
@@ -66,11 +64,7 @@ ht-degree: 97%
 
 ### 培训
 
-这些标准模板可指导您逐步了解在 Workspace 中构建首个分析的常用术语和步骤。这些模板可用作新建项目模式中的标准模板，并替换当前存在的示例项目，供列表中没有其他项目的新用户使用。
-
-* **培训教程 — 内部搜索分析**：“内部搜索”教程可帮助您了解访客在网站或应用程序上查找的内容（而非找到的内容）。分析此类数据可以发掘内容优化商机。
-
-* **培训教程 — 营销分析**：本教程介绍如何为您的主管领导总结出一份营销分析，包括哪些自定义维度和指标重要。
+此标准模板可指导您逐步了解在工作区中构建首个分析的常用术语和步骤。 该模板可用作新建项目模式中的标准模板，并替换当前存在的示例项目，供列表中没有其他项目的新用户使用。
 
 以下是有关 [!UICONTROL 培训教程] 模板：
 
@@ -80,38 +74,40 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->广告模板仅在您的报表包针对 Advertising Cloud 启用的情况下才可用。
+>广告模板仅在您的报表包在 [Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/integration/advertising-analytics/overview.html).
 
 * **付费搜索引擎**：此模板可划分广告趋势、广告平台、关键字、帐户、营销活动等。
 
 ### 商务
 
-* **Magento：营销与商务**：此模板通过营销渠道归因细分您的电子商务转化，并按搜索关键字、登陆页面、地理位置等提供见解。有关视频概述，请观看：
+* **Magento：营销与商务**：此模板通过营销渠道归因细分您的电子商务转化，并按搜索关键字、登陆页面、地理位置等提供见解。以下是有关 [Magento:营销和商务模板](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=zh-Hans).
 
->[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=zh-Hans)
+### 数据收集
+
+* **ITP影响**:了解Apple的ITP对数据有何影响以及如何相应地调整报表。
 
 ### 媒体
 
-* **音频使用情况**：哪个内容的使用次数最多并且吸引用户？以下是有关音频使用情况模板的视频：
+* **内容使用情况**:谁是我的忠实读者
+* **回访间隔 — 频度 — 忠诚度**:哪些内容的使用次数最多且吸引用户？
+* **流媒体使用情况**:提供所有数字设备中媒体使用情况的趋势和主要量度。 以下是有关流媒体使用模板的视频：
 
    >[!VIDEO](https://video.tv.adobe.com/v/23901/?quality=12)
-
-* **回访间隔 — 频度 — 忠诚度**：谁是我的忠实读者？
 
 ### 移动设备
 
 >[!IMPORTANT]
 >
->移动设备模板仅在您的报表包针对移动设备启用的情况下才可用。
+>移动设备模板仅在您的报表包针对移动设备应用程序分析启用时才可用。
 
-* **消息：**&#x200B;重点关注应用内消息和消息推送的性能。
-* **位置：**&#x200B;包括可展示位置数据的“地图”
-* **关键量度：**&#x200B;掌握应用程序关键量度。
-* **应用程序使用情况：**&#x200B;应用程序拥有多少用户、启动次数和首次启动次数，以及平均会话时长是多少？
 * **客户获取：**&#x200B;了解移动设备客户获取链接的表现如何。
+* **应用程序使用情况：**&#x200B;应用程序拥有多少用户、启动次数和首次启动次数，以及平均会话时长是多少？
+* **历程：**&#x200B;我的应用程序最突出的使用模式是什么？
+* **关键量度：**&#x200B;掌握应用程序关键量度。
+* **位置：**&#x200B;包括可展示位置数据的“地图”
+* **消息：**&#x200B;重点关注应用内消息和消息推送的性能。
 * **性能：**&#x200B;应用程序性能如何、用户在哪些情况下遇到问题？
 * **维系率：**&#x200B;谁是我的忠实用户，他们会怎么做？
-* **历程：**&#x200B;我的应用程序最突出的使用模式是什么？
 
 ### 零售
 
@@ -121,6 +117,7 @@ ht-degree: 97%
 ### Web
 
 * **客户获取：**&#x200B;我的网站最主要的流量推动因素是什么？
+* **AEM网站性能概述：** 我的Adobe Experience Manager网站表现如何？
 * **内容使用情况：**&#x200B;用户在我的网站中最常访问哪些区域？
 * **维系率：**&#x200B;哪类用户可能成为我的网站的忠实用户？
 * **技术：**&#x200B;用户使用哪些技术访问我的网站？
@@ -130,10 +127,6 @@ ht-degree: 97%
 >[!NOTE]
 >
 >“人员”模板及其关联的“人员”量度只能在 [Adobe Experience Cloud 设备协作](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html?lang=zh-Hans)中使用。
-
-“人员”模板的视频概述：
-
->[!VIDEO](https://video.tv.adobe.com/v/24037/?quality=12)
 
 该模板基于“人员”量度，“人员”量度是删除了重复数据的独特访客量度版本。通过“人员”量度可测量客户使用多个设备与您的品牌进行交互的频率。该模板允许您
 
@@ -145,7 +138,7 @@ ht-degree: 97%
 * 了解如何对“人员”量度进行分段堆叠。
 * 探索如何在您的环境中使用 Experience Cloud ID 来增强“人员”量度的效率。
 
-### 历程 IQ：Cross-Device Analytics 模板
+### 历程IQ:跨设备分析模板
 
 <!--This content is mirrored in the CDA doc.-->
 
