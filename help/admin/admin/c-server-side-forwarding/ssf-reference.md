@@ -3,9 +3,9 @@ description: 服务器端转发调用中的配置变量、HTTP 头和数据信�
 title: 服务器端转发数据和代码引用
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: 4f29245a80e54f3fbc5a830075d066b31d23c628
+source-git-commit: 27af710f1ce9d85b1177fa4c5fd4d3f6e2875a48
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '520'
 ht-degree: 92%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 92%
 | Accept-Language | 设置为传递到 Analytics 的 `Accept-Language` 头。 | `h_accept-language` |
 | Referer | 设置为传递到 Analytics 的页面 URL，或从传递到 Analytics 的 `Referer` 头中收集的页面 URL。 | `h_referer` |
 | 反向链接 | 设置为传递到 Analytics 的页面 URL，或从传递到 Analytics 的 `Referrer` 头中收集的页面 URL。 | `h_referrer` |
+| 日期 | 设置为传递到 Analytics 的 `Date` 头。 | `h_date` |
 
 此外， `h_ip` 信号是从向DCS发送请求的主机的IP中生成的。
 
