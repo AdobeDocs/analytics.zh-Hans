@@ -3,7 +3,7 @@ description: 服务器端转发调用中的配置变量、HTTP 头和数据信�
 title: 服务器端转发数据和代码引用
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: 4bfe2005e48a0ed6aabdc66f58980ca687e174c6
+source-git-commit: 47026c5256039cf3fd9ff5d9a301778160ada9b6
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 93%
@@ -29,7 +29,7 @@ ht-degree: 93%
 
 这些头是一些字段，其中包含 HTTP 调用中的数据请求和响应之类的信息。
 
-| HTTP 标头 | 描述 | h_键值被Audience Manager接受 |
+| HTTP 标头 | 描述 | 已接受h_键Audience Manager |
 | --- | --- | --- |
 | 主机 | 设置为在 Analytics 主机配置文件中指定的客户端的特定数据收集主机名。它显示为 `host name .demdex.net`。请参阅[了解 Demdex 域调用](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hans)。 | `h_host` |
 | User-Agent | 设置为传递到 Analytics 的 User-Agent 头。 | `h_user-agent` |
