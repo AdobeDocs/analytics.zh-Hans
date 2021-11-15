@@ -3,9 +3,9 @@ title: 人员
 description: 通常使用多个设备的独特个人的数量。
 exl-id: 0136b843-2a1e-44d5-b5a6-e0fb03b7b995
 source-git-commit: 639897682c9a28df7dc642dd7c68ad992fde40a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '161'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -17,4 +17,4 @@ ht-degree: 80%
 
 在 [Cross-Device Analytics](../cda/overview.md) 虚拟报表包中，“人员”指标不是统计推导。而是在报表中识别的个人与属于某人的未识别的设备数之和。
 
-如果访客在访问中被识别，则该访客可以计为2人（1个未识别人员和1个已识别人员）。 [重播](/help/components/cda/replay.md) 根据报告时间范围、重播频率和成功率缓解此重复计数。 有关详细信息，请参阅[独特设备](unique-devices.md)。
+如果在访问中识别了某个访客，则可能会将该访客计为 2 人（1 个未识别的人员和 1 个已识别的人员）。[重放](/help/components/cda/replay.md)根据报告时段、重放频率和成功率来减少这种重复计数。有关详细信息，请参阅[独特设备](unique-devices.md)。
