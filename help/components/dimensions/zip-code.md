@@ -3,9 +3,9 @@ title: 邮政编码
 description: 访客的邮政编码。
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
 source-git-commit: b8ef31f3fbc51746c8f6b2ee35742a493c3df2b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '250'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 98%
 >
 >如果您希望完全控制填充此维度的方式，报表包设置至关重要。
 
-## 维度项目
+## 维度项
 
-维度项目包括访客的邮政编码。
+维度项包括访客的邮政编码。
 
-## 受支持的邮政编码国家/地区
+## 支持的邮政编码国家/地区
 
 * 奥兰群岛
 * 阿尔巴尼亚
