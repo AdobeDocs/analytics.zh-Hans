@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 7c5fa374-fa39-4bbc-9bd7-0ef17914d593
 source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '214'
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 要进一步了解 Adobe Analytics [!UICONTROL 功能板]，请参阅以下资源：
 
-* [策划人资源](/help/analyze/mobile-app/curator.md):旨在帮助数据策划人在功能板上为其执行用户配置记 [!UICONTROL 分卡]。策划人可以是组织管理员，也可以是其他角色中负责设置记分卡的人员：
+* [策划人资源](/help/analyze/mobile-app/curator.md)：旨在帮助数据策划人在[!UICONTROL 功能板]上为其执行用户配置记分卡。策划人可以是组织管理员，也可以是其他角色中负责设置记分卡的人员：
 
    * [创建记分卡](/help/analyze/mobile-app/create-scorecard.md)
-   * [帮助执行人员设置应用程序并使用应用程序](/help/analyze/mobile-app/set-up-execs.md)
-   * 要观看管理体验的视频概述，请参阅[Adobe Analytics功能板记分卡生成器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html?lang=zh-Hans)。
+   * [协助执行用户设置和使用应用程序](/help/analyze/mobile-app/set-up-execs.md)
+   * 要观看策划体验的视频概述，请参阅 [Adobe Analytics 功能板记分卡生成器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html?lang=zh-Hans)。
 
 
 * [执行用户快速入门指南](/help/analyze/mobile-app/executive.md)：本指南旨在帮助执行用户阅读并理解[!UICONTROL 功能板]上的记分卡。该应用程序允许执行用户在其自己的移动设备上快速、轻松地查看广泛呈现的重要摘要数据。
 
-   * 有关重点介绍此信息的视频，请参阅[Adobe Analytics功能板应用程序内体验](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html?lang=zh-Hans)。
+   * 有关重点介绍此信息的视频，请参阅 [Adobe Analytics 功能板应用程序内体验](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html?lang=zh-Hans)。
