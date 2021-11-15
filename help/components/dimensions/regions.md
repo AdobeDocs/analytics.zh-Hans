@@ -3,7 +3,7 @@ title: 地区
 description: 访客的地理区域。
 exl-id: 95ab4c7e-71e8-490f-88a4-25201331d848
 source-git-commit: b8ef31f3fbc51746c8f6b2ee35742a493c3df2b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
 ht-degree: 100%
 
@@ -17,11 +17,11 @@ ht-degree: 100%
 
 此维度引用 Adobe 内部的查找规则。查找值基于随点击发送的 IP 地址。Adobe 与 [Digital Element](https://www.digitalelement.com/) 合作，共同维护 IP 地址与国家/地区之间的查找服务。此维度可开箱即用于所有实施。
 
-## 维度项目
+## 维度项
 
-维度项目包括地区以及该地区所在的国家/地区。示例值包括 `"California (United States)"`、`"Tokyo (Japan)"` 或 `"Sao Paulo (Brazil)"`。
+维度项包括地区以及该地区所在的国家/地区。示例值包括 `"California (United States)"`、`"Tokyo (Japan)"` 或 `"Sao Paulo (Brazil)"`。
 
-某些维度项目可能包括 `"AOL"`，它是一个拨号上网服务提供商。此服务的订阅者会根据其建立帐号的国家/地区来分配一个接入点。AOL 用户将使用此接入点的 IP 地址。由于此维度基于 IP 地址，因此会使用接入点的地理位置，而不是访客的实际位置。
+某些维度项可能包括 `"AOL"`，它是一个拨号上网服务提供商。此服务的订阅者会根据其建立帐号的国家/地区来分配一个接入点。AOL 用户将使用此接入点的 IP 地址。由于此维度基于 IP 地址，因此会使用接入点的地理位置，而不是访客的实际位置。
 
 ## 报告位置与实际位置之间的差异
 
