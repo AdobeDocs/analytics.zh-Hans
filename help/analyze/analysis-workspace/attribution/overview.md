@@ -4,10 +4,10 @@ description: 将成功事件的点数归因到多个维度项目的概念。
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+source-git-commit: 25fe4364e5daeaaf5f180254015574b00a091e5c
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 96%
+source-wordcount: '430'
+ht-degree: 97%
 
 ---
 
@@ -48,6 +48,6 @@ Adobe Analytics 通过让您能够执行以下操作来增强归因：
 
 ## 视频
 
-以下视频介绍如何在Analysis Workspace中对区段使用不同的Attribution IQ模型：
+以下是有关自由格式表中Attribution IQ的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/23743/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)

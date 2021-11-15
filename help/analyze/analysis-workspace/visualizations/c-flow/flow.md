@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+source-git-commit: 25fe4364e5daeaaf5f180254015574b00a091e5c
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 100%
+source-wordcount: '208'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,9 @@ ht-degree: 100%
 >
 >有关 Analysis Workspace 与 Reports &amp; Analytics 之间将区段应用于流量的结果可能有何不同的信息，请参阅[分段作为流量和流失的基础](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)。
 
-[流量可视化视频教程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html?lang=zh-Hans)（4 分 56 秒）
+以下是流量可视化视频教程：
+
+>[!VIDEO](https://video.tv.adobe.com/v/24045/?quality=12)
 
 ## 维度间流量 {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
