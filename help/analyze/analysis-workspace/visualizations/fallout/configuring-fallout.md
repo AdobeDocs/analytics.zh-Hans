@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
 source-git-commit: b170e8df18e3f6223e5390dfd61423ef419146a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '700'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 92%
 
    >[!NOTE]
    >
-   >多个区段通过 AND 相连，而多个项目（如维度项目）和量度通过 OR 相连。
+   >多个区段通过 AND 相连，而多个项目（如维度项）和量度通过 OR 相连。
 
    ![](assets/multiple_obj_touchpoint.png)
 
@@ -52,11 +52,11 @@ ht-degree: 92%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>最终路径 </p> <p>(默认) </p> </td> 
-   <td colname="col2"> <p>访客（或访问）最终登陆路径中的下一个接触点时，即被计为一次。 触点之间允许绕行。 </p> </td> 
+   <td colname="col2"> <p>当访客最终到达路径中的下一个接触点时，就会计入访客（或访问）。允许在接触点之间绕道。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>下一次点击 </p> </td> 
-   <td colname="col2"> <p>访客（或访问）在立即登陆路径中的下一个接触点时即被计数。 下一次点击包括任何点击类型（页面查看次数或链接）。 触点之间不允许绕行。 </p> </td> 
+   <td colname="col2"> <p>一旦访客到达路径中的下一个接触点，就会计入访客（或访问）。下一次点击包括任何点击类型（页面查看或链接）。禁止在接触点之间绕道。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
