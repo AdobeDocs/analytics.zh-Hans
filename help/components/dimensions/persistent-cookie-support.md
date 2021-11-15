@@ -3,26 +3,26 @@ title: 永久 Cookie 支持
 description: 确定访客是否能够支持永久 Cookie。
 exl-id: ced69e41-d992-4c5a-8541-920aeb7186ae
 source-git-commit: 82d6137bc9229bbaa997c6856690bf76c20b755c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 11%
+ht-degree: 100%
 
 ---
 
 # 永久 Cookie 支持
 
-“永久Cookie支持”维度显示点击是否使用源自永久源的访客标识符。 最常见的永久性源来自Cookie，但也可以使用移动头和其他源。
+“永久性 Cookie 支持”维度显示了点击是否使用了来自永久来源的访客标识符。最常见的永久性来源来自 Cookie，但也可以使用移动标头和其他来源。
 
 ## 使用数据填充此维度
 
-Adobe根据点击的标识符来源确定此维度在服务器端的值。 无法直接设置。 它可开箱即用于所有实施。
+Adobe 根据点击标识符的来源确定此维度服务器端的值。无法直接设置此值。它可开箱即用于所有实施。
 
-## 维度项目
+## 维度项
 
-* **`Enabled`**:点击的访客标识符来自通常持续存在的源。最常见的示例包括`aid`、`fid`或`mid`查询字符串参数，因为它们的值来自Cookie。
-* **`Disabled`**:点击的访客标识符来自Adobe无法识别为永久性的源，如IP +用户代理字符串。此维度项目还包含使用[`visitorID`](/help/implement/vars/config-vars/visitorid.md)变量的自定义访客ID。
+* **`Enabled`**：点击的访客标识符来自通常持续存在的来源。最常见的示例包括 `aid`、`fid` 或 `mid` 查询字符串参数，因为它们从 Cookie 派生自己的值。
+* **`Disabled`**：点击的访客标识符来自 Adobe 未识别为永久性来源的来源，例如 IP + 用户代理字符串。此维度项还包括使用 [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 变量的自定义访客 ID。
 
-## “Cookie支持”与“永久Cookie支持”的区别
+## “Cookie 支持”和“永久性 Cookie 支持”之间的区别
 
-* **Cookie支持**:AppMeasurement尝试设置通用Cookie。维度项目基于Cookie是否成功设置。
-* **永久Cookie支持**:维度项目基于点击的标识符是否源自永久性源（如Cookie）。
+* **Cookie 支持**：AppMeasurement 尝试设置通用 Cookie。此维度项基于 Cookie 是否设置成功。
+* **永久性 Cookie 支持**：此维度项基于点击的标识符是否源自永久性来源，例如 Cookie。
