@@ -6,9 +6,9 @@ feature: Activity Map
 role: User, Admin
 exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
 source-git-commit: a6b38c6e7a34c876524ebe15514ac205898549d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '992'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 95%
 Activity Map 根据以下两个 ID 进行链接跟踪：
 
 * 主 ID：这是链接的可识别参数。
-* 链接区域：这是次要参数，允许用户指定一个代表页面内或区域内整个链接区域的的字符串。如果用户没有提供此参数，此参数则会自动生成。
+* 链接区域：这是次要参数，允许用户指定一个代表页面内或区域内整个链接区域的字符串。如果用户没有提供此参数，此参数则会自动生成。
 
 ## 主 ID {#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
 
@@ -118,7 +118,7 @@ s.ActivityMap.regionIDAttribute = "lpos";
 
 ### `s.ActivityMap.regionIDAttribute`
 
-一个字符串，用于标识要用作某些上级（父项、父项、 ...）元素中的区域ID的标记属性 `s.linkObject`，例如， **点击的元素**.
+字符串，可以将来自 `s.linkObject` 的某些上级（父级、父级的父级...）元素（例如&#x200B;**被单击的元素**）的标签属性用作区域 ID。
 
 **示例**
 
@@ -126,7 +126,7 @@ s.ActivityMap.regionIDAttribute = "lpos";
 
 ### `s.ActivityMap.link`
 
-接收已点击的函数 `HTMLElement` 和应返回一个表示已单击链接的字符串值。 如果返回值为 false（空、未定义、空字符串、0），则表示没有跟踪任何链接。
+函数，可以收到所单击的 `HTMLElement` 并且应该返回代表所单击的链接的字符串值。如果返回值为 false（空、未定义、空字符串、0），则表示没有跟踪任何链接。
 
 **示例**
 
@@ -143,7 +143,7 @@ function(clickedElement) {
 
 ### `s.ActivityMap.region`
 
-函数，可以被单击的 HTMLElement，且应该返回代表&#x200B;**链接被单击时所在的区域的字符串值。**&#x200B;如果返回值为 false（空、未定义、空字符串、0），则表示没有跟踪任何链接。
+函数，可以收到被单击的 HTMLElement，且应该返回代表&#x200B;**链接被单击时所在的区域的字符串值。**&#x200B;如果返回值为 false（空、未定义、空字符串、0），则表示没有跟踪任何链接。
 
 **示例**
 
