@@ -2,19 +2,19 @@
 description: 您可以对贵组织中的收件人策划、共享和计划 PDF/CSV 项目。
 title: “共享”菜单
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
-feature: 策划和共享
+feature: Curate and Share
 role: User, Admin
 exl-id: 38b92af3-646d-4c30-84ab-a0007c0a39e8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '165'
-ht-degree: 100%
+source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
+workflow-type: tm+mt
+source-wordcount: '162'
+ht-degree: 88%
 
 ---
 
 # “共享”菜单
 
-在工作区的&#x200B;**“共享”菜单**&#x200B;中，您可以对贵组织中的收件人策划、共享和计划 PDF/CSV 项目。
+您可以在工作区中为组织中的收件人策划、共享和计划PDF/CSV项目 **“共享”菜单**.
 
 | 菜单选项 | 描述 |
 |---|---|

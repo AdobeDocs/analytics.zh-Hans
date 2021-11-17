@@ -2,13 +2,13 @@
 description: 通过电子邮件发送 Analysis Workspace 项目，或者计划发送项目的时间。
 keywords: Analysis Workspace
 title: 计划项目
-feature: 策划和共享
+feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '473'
-ht-degree: 100%
+source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 78%
 
 ---
 
@@ -49,7 +49,22 @@ ht-degree: 100%
 
 在计划项目管理器中，您可以编辑和删除重复的项目计划。在搜索栏中搜索计划，或者使用左边栏中的过滤器选项搜索计划。您可以按标记、批准的计划、所有者等进行过滤。
 
-![](assets/scheduled-project-manager.png)
+![](assets/scheduled-project-manager2.png)
+
+| 字段 | 描述 |
+| --- | --- |
+| 收藏 | 选择星形图标将使此计划成为收藏。 |
+| 计划 ID | 此ID主要用于调试目的。 |
+| 标题和描述 | 此项目的标题和描述。 |
+| 所有者 | 创建和拥有项目的人员。 |
+| 标记 | （可选）标记是组织项目的好方法。 所有用户都可以创建标记并将一个或多个标记应用到项目。 但是，您只能查看您拥有的或与您共享的项目的标记。 |
+| 送达 | 此计划项目的收件人。 |
+| 过期日期 | 默认的过期日期为创建日期后一年。 |
+| 频度 | 您希望将此计划项目发送给收件人的频率。 |
+| 执行时间 | 此计划项目在一天中的哪个时间发送。 |
+| 查询数 | 针对此项目的查询数。 |
+
+## 常见操作
 
 以下是计划项目管理器中的常见操作：
 

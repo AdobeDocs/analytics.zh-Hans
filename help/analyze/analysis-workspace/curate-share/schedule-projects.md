@@ -3,10 +3,10 @@ description: 管理计划的Analysis Workspace项目
 keywords: Analysis Workspace
 title: 计划项目管理器
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
-source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 89%
+source-wordcount: '175'
+ht-degree: 84%
 
 ---
 
@@ -28,6 +28,10 @@ ht-degree: 89%
 计划项目管理器可显示特定用户已创建的项目。若应用程序中禁用此用户帐户，则会停止所有计划的提交。
 
 ![](assets/scheduled-projects.png)
+
+## 计划项目经理任务
+
+在 [!UICONTROL 计划项目] UI，您可以：
 
 * 编辑计划项目。
 * 查看项目的计划 ID（主要用于调试用途）。
