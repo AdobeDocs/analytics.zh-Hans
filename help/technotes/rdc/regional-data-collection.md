@@ -2,10 +2,10 @@
 title: 地区数据收集
 description: 关于区域数据收集的信息
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: e020e768b7a3a5495fcc86cb3fd1fbc5a421d224
+source-git-commit: e2fd69043e198d855dddd316b04215fde9f52cad
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 78%
+source-wordcount: '494'
+ht-degree: 75%
 
 ---
 
@@ -25,9 +25,11 @@ RDC 目前包括以下位置（可能发生变化）：
 |---------------------|-------------------|
 | 默认 | 俄勒冈、弗吉尼亚、爱尔兰、巴黎、孟买、新加坡、东京、悉尼、中国* |
 
-注意：如果您的 Analytics 图像请求发送到了 `adobedc`、`2o7.net` 或 `omtrdc.net` 端点，则表明您使用的是第三方数据收集。如果您在请求的 URL 中看到了任一端点，则可以确定这一点。
-
 *中国 RDC 需要中国加载项包。请参阅上面的“重要”说明。
+
+>[!NOTE]
+>
+>如果您的Analytics图像请求被发送到 `adobedc`, `2o7.net` 或 `omtrdc.net` 端点，则表示您拥有第三方数据收集。 如果您在请求的 URL 中看到了任一端点，则可以确定这一点。
 
 ## 第一方 HTTPS 数据收集
 
@@ -43,7 +45,8 @@ RDC 目前包括以下位置（可能发生变化）：
 *“仅限中国”和“全球+中国RDC”类型需要“中国附加组件包”。 请参阅上面的“重要”说明。Global + China会将源自中国的数据路由到我们的中国RDC，同时将源自中国以外的数据路由到位于中国以外的最接近的RDC。
 
 >[!NOTE]
->Experience Edge Global和Global + China可为您的最终用户提供最佳性能。 如果要使用替代RDC类型，请联系Adobe客户关怀团队以寻求帮助。
+>
+>Experience Edge Global为最终用户提供最佳性能。  如果要使用替代RDC类型，请联系Adobe客户关怀团队以寻求帮助。
 
 ## RDC 的好处
 
