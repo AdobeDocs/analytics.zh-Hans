@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 提供 Analytics 的高级分析和可视化工具 Analysis Workspace 以及 Adobe Analytics Dashboards、Report Builder 和 Activity Map 等工具的操作说明。
-source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+source-git-commit: 3266dd5547c1967e424534a13a3f8dc29aa1189e
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 98%
+source-wordcount: '1011'
+ht-degree: 99%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 98%
       + [面积图和堆叠的面积图](analysis-workspace/visualizations/area.md)
       + [条形图和堆叠的条形图](analysis-workspace/visualizations/bar.md)
       + [项目符号图表](analysis-workspace/visualizations/bullet-graph.md)
-      + [环形图](analysis-workspace/visualizations/donut.md)
+      + [圆环图](analysis-workspace/visualizations/donut.md)
       + [水平条形图和堆叠的水平条形图](analysis-workspace/visualizations/horizontal-bar.md)
       + [折线图](analysis-workspace/visualizations/line.md)
       + [散点图](analysis-workspace/visualizations/scatterplot.md)
@@ -87,7 +87,10 @@ ht-degree: 98%
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
       + [自由格式面板](analysis-workspace/c-panels/freeform-panel.md)
       + [“媒体并行查看者”面板](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [“媒体播放耗时”面板](analysis-workspace/c-panels/media-playback-time-spent.md)
+      + 媒体播放耗时 {#media-playback-timespent}
+         + [概述](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
+         + [输入和输出设置](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
+         + [常见问题解答](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
       + [“快速分析”面板](analysis-workspace/c-panels/quickinsight.md)
       + “区段比较”面板 {#segment-comparison}
          + [区段比较概述](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -313,7 +316,7 @@ ht-degree: 98%
    + [Adobe Analytics 功能板 - 概述](mobile-app/home.md)
    + [策划人简介](mobile-app/curator.md)
    + [创建移动记分卡](mobile-app/create-scorecard.md)
-   + [设置管理人员以使用功能板](mobile-app/set-up-execs.md)
+   + [设置执行用户以使用功能板](mobile-app/set-up-execs.md)
    + [执行用户快速入门指南](mobile-app/executive.md)
 + [报告 API](reporting-api.md)
 + [Labs](labs.md)
