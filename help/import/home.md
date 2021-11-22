@@ -2,10 +2,10 @@
 title: Analytics 导入指南
 description: 本指南说明如何使用数据源、Data Sources 和 Data Connectors 将数据导入 Analytics。
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
-source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+source-git-commit: 451b359ae969b542116d4a564febf7fb8d044eab
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 94%
+source-wordcount: '149'
+ht-degree: 75%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 * **[数据源](c-data-sources/datasrc-home.md)**：将文件上传到指定的 Adobe FTP 站点。Adobe 将检索该文件，并包含您的报表包中的数据。
 * **[数据插入 API](c-data-insertion-api/c-data-insertion-api.md)**：通过 API，将数据直接发送到 Adobe 的数据收集中。
-* **[Data Connectors](data-connectors/getting-started-data-connectors.md)**：与受支持的第三方合作，将其数据纳入 Adobe Analytics 以丰富您的报表包。
+* **Data Connectors**:自2021年8月19日起，Adobe已终止Data Connectors集成。 其中许多集成可通过 [Adobe交换](https://exchange.adobe.com/experiencecloud.analytics.html#product) 并可继续使用。
 
 以下是Adobe Analytics的视频概述：
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 
 ## 更多 Analytics 用户指南
 
-[Analytics 用户指南](https://experienceleague.adobe.com/docs/analytics.html)
+[Analytics 用户指南](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hans)
 
 ## 重要 Analytics 资源
 
