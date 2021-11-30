@@ -1,14 +1,14 @@
 ---
 description: Activity Map 是一款 Adobe Analytics 应用程序，专门用于通过可视化叠加图为链接活动排名，并且可以提供实时分析功能板，以监控受众在您网页上的参与度。
-title: Activity Map 概述
+title: 什么是Activity Map?
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+source-git-commit: 9d0d8bc3fbba2ef83416f8230b5ed5fa9b03d019
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 95%
+source-wordcount: '293'
+ht-degree: 94%
 
 ---
 
