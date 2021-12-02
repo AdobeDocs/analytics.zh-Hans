@@ -1,13 +1,13 @@
 ---
 description: Web 服务 API 可通过编程方式访问市场营销报告及其他“包”服务，从而让您以其他方式使用通过 Analytics 界面提供的功能，以及实现更多功能。
 title: Web 服务
-feature: 管理工具
+feature: Admin Tools
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 6fe67311c73fc766e8051e57a047224b8fb17747
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 96%
+source-wordcount: '241'
+ht-degree: 87%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 96%
 
 Web 服务 API 可通过编程方式访问市场营销报告及其他“包”服务，从而让您以其他方式使用通过 Analytics 界面提供的功能，以及实现更多功能。
 
-**[!UICONTROL Analytics]** >管 **[!UICONTROL 理]** >所 **[!UICONTROL 有管理]** >  **[!UICONTROL 公司设]** 置 **[!UICONTROL >  Web服务]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 公司设置]** > **[!UICONTROL Web服务]**
 
 ## 管理 Web 服务
 
-在“用户管理”>[“群组”](/help/admin/user-management2/c-user-groups/groups.md)中，您可以更新 Web 服务访问群组，以包括那些需要访问 Web 服务 API 的用户。
+在 [Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 您可以更新权限，以包含需要访问Web服务API的用户。
 
 ## WSDL：为 Web 服务开发人员下载 Web 服务 API WSDL。
 

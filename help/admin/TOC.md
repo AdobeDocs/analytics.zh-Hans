@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解如何在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等。
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
-source-wordcount: '723'
+source-git-commit: 22bf5b376f1f5a5c1b6efea419cae9bd0c77991d
+workflow-type: tm+mt
+source-wordcount: '659'
 ht-degree: 100%
 
 ---
@@ -149,29 +149,12 @@ ht-degree: 100%
    + [创建报表包群组](c-manage-report-suites/t-create-rs-group.md)
 + 用户和产品管理（旧版）{#user-product-management}
    + [用户和产品管理](user-management2/user-management.md)
-   + [将用户群组分配给报表包](user-management2/t-group-access-report-suite.md)
-   + 用户管理 {#user-management}
-      + [用户管理概述](user-management2/c-user-management/users.md)
-      + [添加用户帐户](user-management2/c-user-management/t-add-user-account.md)
-      + [用户和群组权限更改](user-management2/c-user-management/permissions-changes.md)
-      + [转移用户帐户项目](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
-      + [将用户添加到群组](user-management2/c-user-management/t-add-user-to-group.md)
-      + 将用户迁移到 Adobe Admin Console {#migrate-users}
-         + [将 Analytics 用户迁移到 Admin Console](user-management2/user-migration/c-migration-tool.md)
-         + [为 Adobe ID 迁移 Analytics 用户帐户](user-management2/user-migration/t-migrate-users.md)
-         + [为 Enterprise ID 和 Federated ID 迁移 Analytics 用户帐户](user-management2/user-migration/migrate-enterprise.md)
-         + [禁用旧版登录](user-management2/user-migration/t-disable-legacy-login.md)
-         + [受迁移影响的 API](user-management2/user-migration/developer.md)
-   + 用户群组 {#user-groups}
-      + [添加用户群组](user-management2/c-user-groups/t-user-group.md)
-      + [用户群组设置](user-management2/c-user-groups/groups.md)
-   + 自定义报表访问 {#customize-report-access}
-      + [自定义报表访问 - 概述](user-management2/c-customize-report-access/groups-customize-report-access.md)
-      + [自定义 Analytics 工具权限](user-management2/c-customize-report-access/groups-analytics-tools.md)
-      + [自定义报表包工具权限](user-management2/c-customize-report-access/groups-report-suite-tools.md)
-      + [自定义量度权限](user-management2/c-customize-report-access/groups-metrics.md)
-      + [自定义维度权限](user-management2/c-customize-report-access/groups-dimensions.md)
-   + [电子邮件用户](user-management2/t-email-users.md)
+   + 将用户迁移到 Adobe Admin Console {#migrate-users}
+      + [将 Analytics 用户迁移到 Admin Console](user-management2/user-migration/c-migration-tool.md)
+      + [为 Adobe ID 迁移 Analytics 用户帐户](user-management2/user-migration/t-migrate-users.md)
+      + [为 Enterprise ID 和 Federated ID 迁移 Analytics 用户帐户](user-management2/user-migration/migrate-enterprise.md)
+      + [禁用旧版登录](user-management2/user-migration/t-disable-legacy-login.md)
+      + [受迁移影响的 API](user-management2/user-migration/developer.md)
 + 数据管理 {#data-governance}
    + [Adobe Analytics 和 GDPR](c-data-governance/an-gdpr-overview.md)
    + [Adobe Analytics 和 CCPA](c-data-governance/an-ccpa-overview.md)
