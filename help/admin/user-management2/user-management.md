@@ -2,13 +2,13 @@
 description: 在 Admin Console 中管理 Analytics 用户、群组和产品。
 subtopic: Users and groups
 title: 用户和产品管理
-feature: 管理工具
+feature: Admin Tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: f184cc7a98f0b15e2b96d5132e2a35b12d0f3556
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 92%
+source-wordcount: '557'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->用户和产品管理即将转移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在迁移完所有客户后，将撤销&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 用户管理]**&#x200B;的帮助内容。
+>用户和产品管理已移到 [Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中。Adobe 会通知您何时迁移用户。在迁移完所有客户之后，帮助 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 用户管理]** 就要退休了。
 
 ## 面向 Admin Console 管理员的帮助资源 {#section_C13BBB89E4F248F193358BB3A59DD502}
 
@@ -36,7 +36,7 @@ ht-degree: 92%
   </tr> 
   <tr> 
    <td colname="col1"> <p>启动 Admin Console </p> </td> 
-   <td colname="col2"> <p>在迁移了用户帐户之后，您可以在 Admin Console 中管理所有解决方案的用户和产品。 </p> <p>导航到 <a href="https://adminconsole.adobe.com/enterprise/#">https://adminconsole.adobe.com/enterprise/</a>。 </p> <p>要获取相关帮助，请参阅<a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html">管理 Experience Cloud 用户和产品</a>，以了解在 Admin Console 中管理 Experience Cloud 用户和产品的更新内容。 </p> </td> 
+   <td colname="col2"> <p>在迁移了用户帐户之后，您可以在 Admin Console 中管理所有解决方案的用户和产品。 </p> <p>导航到 <a href="https://adminconsole.adobe.com/enterprise/#">https://adminconsole.adobe.com/enterprise/</a>。 </p> <p>要获取相关帮助，请参阅<a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hans">管理 Experience Cloud 用户和产品</a>，以了解在 Admin Console 中管理 Experience Cloud 用户和产品的更新内容。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
