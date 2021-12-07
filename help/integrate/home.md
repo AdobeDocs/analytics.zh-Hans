@@ -34,7 +34,7 @@ ht-degree: 73%
 
 ## 更多 Analytics 用户指南
 
-[Analytics 用户指南](https://experienceleague.adobe.com/docs/analytics.html)
+[Analytics 用户指南](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hans)
 
 ## 重要 Analytics 资源
 

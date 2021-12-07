@@ -8,7 +8,7 @@ exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
 source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 90%
 
 * [快速区段](/help/analyze/analysis-workspace/components/segments/quick-segments.md)
 * [临时区段](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)
-* 您在区段生成器中创建并最终在区段库中创建的常规组件列表区段（请参阅下文）
+* 您在区段生成器中创建的最终位于区段库中的常规组件列表区段（见下文）
 
 ### 创建组件列表区段 {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
@@ -56,7 +56,7 @@ ht-degree: 90%
 
 ![](assets/segment_icons.png)
 
-有 2 种方法可创建此类型的区段。他们都带你去 [区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md) 在Adobe Analytics中，您可以找到更多说明。
+有 2 种方法可创建此类型的区段。这两种方法都带您进入 Adobe Analytics 中的[区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md)，您可以在其中查找详细说明。
 
 * 在左边栏中，单击[!UICONTROL “区段”]旁的加号 (+)：
 

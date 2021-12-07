@@ -5,7 +5,7 @@ exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
 source-git-commit: 99a6144be155e17a8252e5461b2d6a96e5be641d
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 69%
+ht-degree: 76%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 69%
 
 ![独特设备数](/help/components/metrics/assets/Unique_Devices_Count.png)
 
-在之前在CDA虚拟报表包中查看此数据 [重播](/help/components/cda/replay.md) 可能会拼合未经身份验证的点击：
+在[重放](/help/components/cda/replay.md)（可能会拼接未经身份验证的点击）之前在 CDA 虚拟报表包中查看此数据将显示：
 
 * **5 个独特设备**：1 个表示未经身份验证的 Bob + 2 个表示 Bob + 1 个表示 Alice + 1 个表示 Charles
 * **4 个[人员](people.md)**：1 个[未识别的人员](unidentified-people.md) + 3 个[已识别的人员](identified-people.md)。
