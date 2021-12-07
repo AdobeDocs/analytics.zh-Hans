@@ -2,10 +2,10 @@
 title: 地区数据收集
 description: 关于区域数据收集的信息
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: e2fd69043e198d855dddd316b04215fde9f52cad
+source-git-commit: 1cf95a2bf57aacd6b0b5bdb1c3bf31d1b31339e0
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 75%
+source-wordcount: '491'
+ht-degree: 74%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Experience Cloud 使用区域数据收集 (RDC)，这样，您的最终用
 
 RDC 目前包括以下位置（可能发生变化）：
 
-## 第三方和 HTTP 数据收集
+## 第三方数据收集
 
 | RDC 类型 | 数据收集中心 |
 |---------------------|-------------------|
@@ -31,7 +31,7 @@ RDC 目前包括以下位置（可能发生变化）：
 >
 >如果您的Analytics图像请求被发送到 `adobedc`, `2o7.net` 或 `omtrdc.net` 端点，则表示您拥有第三方数据收集。 如果您在请求的 URL 中看到了任一端点，则可以确定这一点。
 
-## 第一方 HTTPS 数据收集
+## 第一方数据收集
 
 | RDC 类型 | 数据收集中心 |
 |---------------------|-------------------|
