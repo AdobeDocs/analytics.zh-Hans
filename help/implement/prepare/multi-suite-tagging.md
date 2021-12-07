@@ -2,7 +2,7 @@
 description: 了解如何实施多包标记以将图像请求发送到多个报表包。
 title: 实施多包标记
 source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
 ht-degree: 100%
 
