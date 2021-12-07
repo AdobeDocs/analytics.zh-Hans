@@ -2,7 +2,7 @@
 title: post_product_list 中的促销 eVar 实例查找
 description: 为数据馈送的 post_product_list 列中的每个查找值查找促销 eVar 实例。
 source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '579'
 ht-degree: 100%
 
