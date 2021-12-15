@@ -4,17 +4,14 @@ title: Reports and Analytics 快速入门
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: baceae144480bc93634c35ce1bdea5d2ceec56e8
+source-git-commit: 1d5cb1c2b9ab2414d42d18f6395b1857786c8da0
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '727'
 ht-degree: 94%
 
 ---
 
 # Reports &amp; Analytics 快速入门
-
->[!NOTE]
->本产品在北美和实际销售产品的其他地区授权销售，可能不符合其他国家或地区的销售要求。
 
 在使用 Reports &amp; Analytics 之前，请了解这些基本的登录和设置任务以及如何访问帐户信息。
 
@@ -102,3 +99,6 @@ ht-degree: 94%
 1. 在页脚中，单击&#x200B;**[!UICONTROL 语言]**&#x200B;菜单中的可用语言，然后选择您的首选语言。
 
 您可以从 Adobe Experience Cloud 访问文档和主页。（**[!UICONTROL 帮助]** > **[!UICONTROL 帮助主页]**。）
+
+>[!NOTE]
+>本产品在北美和实际销售产品的其他地区获得销售授权。 不得符合在其他国家或者地区销售的当地要求。
