@@ -4,9 +4,9 @@ title: 标记示例
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 source-git-commit: 91864a15bda5022dbbd9b9b312bc6c042078b6a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 81%
 |---|---|---|---|---|---|
 | **变量名称** <br> **(命名空间)** | **MyProp1** <br> **(用户)** | **访客 ID** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
 | 命中数据 | Mary | 77 | A | M | X |
-|  | 玛丽 | 88 | B | N | Y |
-|  | 玛丽 | 99 | C | O | Z |
+|  | Mary | 88 | B | N | Y |
+|  | Mary | 99 | C | O | Z |
 |  | John | 77 | D | P | W |
-|  | 约翰 | 88 | E | N | U |
-|  | 约翰 | 44 | F | Q | V |
-|  | 约翰 | 55 | G | R | X |
+|  | John | 88 | E | N | U |
+|  | John | 44 | F | Q | V |
+|  | John | 55 | G | R | X |
 |  | Alice | 66 | A | N | Z |
 
 ## 访问请求示例
@@ -75,7 +75,7 @@ ht-degree: 81%
     <td>user=Mary</td>
     <td>false</td>
     <td>“人员”</td>
-    <td>玛丽</td>
+    <td>Mary</td>
     <td>77、88、99</td>
     <td>A、B、C</td>
     <td>M、N、O</td>
@@ -85,7 +85,7 @@ ht-degree: 81%
     <td rowspan="2">user=Mary</td>
     <td rowspan="2">true</td>
     <td>“人员”</td>
-    <td>玛丽</td>
+    <td>Mary</td>
     <td>77、88、99</td>
     <td>A、B、C</td>
     <td>M、N、O</td>
@@ -103,7 +103,7 @@ ht-degree: 81%
     <td rowspan="2">user=Mary<br>AAID=66</td>
     <td rowspan="2">true</td>
     <td>“人员”</td>
-    <td>玛丽</td>
+    <td>Mary</td>
     <td>77、88、99</td>
     <td>A、B、C</td>
     <td>M、N、O</td>
@@ -157,56 +157,56 @@ ht-degree: 81%
     <th>MyEvar3</th>
   </tr>
   <tr>
-    <td>玛丽</td>
+    <td>Mary</td>
     <td>42</td>
     <td>A</td>
     <td>Privacy-7398</td>
     <td>Privacy-9152</td>
   </tr>
   <tr>
-    <td>玛丽</td>
+    <td>Mary</td>
     <td>88</td>
     <td>B</td>
     <td>N</td>
     <td>Y</td>
   </tr>
   <tr>
-    <td>玛丽</td>
+    <td>Mary</td>
     <td>99</td>
     <td>C</td>
     <td>O</td>
     <td>Z</td>
   </tr>
   <tr>
-    <td>约翰</td>
+    <td>John</td>
     <td>42</td>
     <td>D</td>
     <td>Privacy-1866</td>
     <td>Privacy-8216</td>
   </tr>
   <tr>
-    <td>约翰</td>
+    <td>John</td>
     <td>88</td>
     <td>E</td>
     <td>N</td>
     <td>U</td>
   </tr>
   <tr>
-    <td>约翰</td>
+    <td>John</td>
     <td>44</td>
     <td>F</td>
     <td>Q</td>
     <td>V</td>
   </tr>
   <tr>
-    <td>约翰</td>
+    <td>John</td>
     <td>55</td>
     <td>G</td>
     <td>R</td>
     <td>X</td>
   </tr>
   <tr>
-    <td>爱丽丝</td>
+    <td>Alice</td>
     <td>66</td>
     <td>A</td>
     <td>N</td>
@@ -251,35 +251,35 @@ ht-degree: 81%
     <td>Z</td>
   </tr>
   <tr>
-    <td>约翰</td>
+    <td>John</td>
     <td>77</td>
     <td>D</td>
     <td>P</td>
     <td>W</td>
   </tr>
   <tr>
-    <td>约翰</td>
+    <td>John</td>
     <td>88</td>
     <td>E</td>
     <td>N</td>
     <td>U</td>
   </tr>
   <tr>
-    <td>约翰</td>
+    <td>John</td>
     <td>44</td>
     <td>F</td>
     <td>Q</td>
     <td>V</td>
   </tr>
   <tr>
-    <td>约翰</td>
+    <td>John</td>
     <td>55</td>
     <td>G</td>
     <td>R</td>
     <td>X</td>
   </tr>
   <tr>
-    <td>爱丽丝</td>
+    <td>Alice</td>
     <td>66</td>
     <td>A</td>
     <td>N</td>
@@ -324,35 +324,35 @@ ht-degree: 81%
     <td>Privacy-4395</td>
   </tr>
   <tr>
-    <td>约翰</td>
+    <td>John</td>
     <td>09</td>
     <td>D</td>
     <td>Privacy-8454</td>
     <td>Privacy-8216</td>
   </tr>
   <tr>
-    <td>约翰</td>
+    <td>John</td>
     <td>16</td>
     <td>E</td>
     <td>Privacy-2911</td>
     <td>Privacy-2930</td>
   </tr>
   <tr>
-    <td>约翰</td>
+    <td>John</td>
     <td>44</td>
     <td>F</td>
     <td>Q</td>
     <td>V</td>
   </tr>
   <tr>
-    <td>约翰</td>
+    <td>John</td>
     <td>55</td>
     <td>G</td>
     <td>R</td>
     <td>X</td>
   </tr>
   <tr>
-    <td>爱丽丝</td>
+    <td>Alice</td>
     <td>66</td>
     <td>A</td>
     <td>N</td>
@@ -362,9 +362,9 @@ ht-degree: 81%
 
 请注意以下事项：
 
-* 包含 `user=Mary` 和 `DEL-PERSON` 标签会受到影响。
-* 由于ID扩展，包含 `AAID=77`, `AAID=88` 或 `AAID=99` (是包含 `user=Mary`)和 `DEL-DEVICE` 标签会受到影响。 这包括带有 `DEL-DEVICE` 在 `user=Mary`. 这会导致第4行和第5行（以及第1-3行）中的单元格 `DEL-DEVICE` 要模糊处理的标签（AAID、MyEvar2和MyEvar3）。
-* expandIDs设置不会扩展到调用以包含MyEvar3中存在的值(`X`, `Y` 和 `Z`)，其具有ID-DEVICE标签，当 `user=Mary`. ExpandIDs 仅展开以包含 `user=Mary` 的行上的访客 ID（在本例中为 AAID，但还包括 ECID）。因此，最后两行包含的MyEvar3值为 `X` 和 `Z` 不会受到影响。
-* `MyEvar2` 第四行和第五行中的访客ID值已更新，因为这些行包含相同的访客ID值(`77` 和 `88`)作为第一行和第二行中的行。 因此，ID 扩展包括它们以用于设备级别的删除。
-* 第二行和第五行中 `MyEvar2` 的值在删除前后均匹配。但是，在删除后，它们将不再与值匹配 `N` 在最后一行中发生，因为该行未作为删除请求的一部分进行更新。
+* 包含 `user=Mary` 和 `DEL-PERSON` 标签的行中的单元格会受到影响。
+* 由于 ID 扩展，包含 `AAID=77`、`AAID=88` 或 `AAID=99`（它们是包含 `user=Mary` 的行中的 AAID 值）和 `DEL-DEVICE` 标签的行中的单元格会受到影响。 这包括在 `user=Mary` 的行中带有 `DEL-DEVICE` 标签的单元格。 这会导致第 4 行和第 5 行（以及第 1-3 行）中带有 `DEL-DEVICE` 标签（AAID、MyEvar2 和 MyEvar3）的单元格被混淆。
+* expandIDs 设置不会展开到调用以包含 MyEvar3（`X`、`Y` 和 `Z`）中存在的值，后者在 `user=Mary` 时具有 ID-DEVICE 标签。 ExpandIDs 仅展开以包含 `user=Mary` 的行中的访客 ID（在本例中为 AAID，但还包括 ECID）。 因此，包含 `X` 和 `Z` 的 MyEvar3 值的最后两行不受影响。
+* 在第四行和第五行中的 `MyEvar2` 将更新，因为这两行包含的访客 ID 值（`77` 和 `88`）与第一行和第二行中的值相同。 因此，ID 扩展包括它们以用于设备级别的删除。
+* 第二行和第五行中 `MyEvar2` 的值在删除前后均匹配。但是，在删除之后，它们不再匹配最后一行中出现的值 `N`，因为该行没有在删除请求期间更新。
 * `MyEvar3` 的行为与不使用 ID 扩展时它的行为非常不同，因为没有 ID 扩展，就没有 `ID-DEVICES` 匹配。现在，`AAID` 在前五行上匹配。
