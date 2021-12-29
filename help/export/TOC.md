@@ -5,9 +5,9 @@ user-guide-title: Analytics 导出指南
 breadcrumb-title: 导出指南
 user-guide-description: 使用“数据馈送”接收每小时或每天导出的原始数据。使用 Data Warehouse 检索以电子表格输出的数据。
 source-git-commit: fd0641778fb46b7775ee02517a1f8e267ca37f3b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '275'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
