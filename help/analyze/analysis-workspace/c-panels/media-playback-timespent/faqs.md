@@ -1,18 +1,18 @@
 ---
-title: 媒体播放逗留时间常见问题解答
-description: 什么是媒体播放逗留时间常见问题解答？
+title: 媒体播放耗时的常见问题解答
+description: 媒体播放耗时的常见问题解答是什么？
 feature: Panels
 role: User, Admin
 source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
 
-# 媒体播放逗留时间常见问题解答
+# 媒体播放耗时的常见问题解答
 
 
 | 问题 | 回答 |
