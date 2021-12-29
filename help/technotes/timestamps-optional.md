@@ -6,7 +6,7 @@ topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
 source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '615'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 >
 >“可选时间戳”是从模板生成的所有新报表包的默认设置。从现有报表包复制而来的新报表包将继承原始报表包的设置。
 
-请参阅[可选时间戳](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html)，以了解更多设置信息。
+请参阅[可选时间戳](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html?lang=zh-Hans)，以了解更多设置信息。
 
 ## 可选时间戳：集成加盖时间戳和未加盖时间戳的数据 {#section_BF17CB593044462B993FD0D28EA56518}
 
