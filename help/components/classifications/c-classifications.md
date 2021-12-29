@@ -3,9 +3,9 @@ title: 分类概述
 description: 自定义维度项目的分组。
 exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
 source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '612'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
 
 在创建分类后，您可以在 Adobe Analytics 中使用新的数据属性。
 
-以下是有关Adobe Analytics分类的概述视频：
+以下是一段关于 Adobe Analytics 分类的概述视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/16853/?quality=12)
 
