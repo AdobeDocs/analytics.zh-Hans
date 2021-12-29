@@ -2,10 +2,10 @@
 description: 了解 Analytics 数据连接器生命周期终止的时间和原因。
 title: Analytics 数据连接器生命周期终止预告
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 451b359ae969b542116d4a564febf7fb8d044eab
-workflow-type: tm+mt
+source-git-commit: 3e1b422c908c9cdd2abd877285e15dc7398cb131
+workflow-type: ht
 source-wordcount: '685'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -107,6 +107,6 @@ ht-degree: 99%
 
 ## 例外：Adobe Campaign Classic
 
-到 2021 年 8 月 1 日这一天唯一的例外是 Adobe Campaign Classic 集成。该集成将于 2022 年 3 月 1 日正式弃用。
+到 2021 年 8 月 1 日这一天唯一的例外是 Adobe Campaign Classic 集成。该集成将于 2022 年 8 月 17 日正式弃用。
 
-2021 年 8 月 1 日，Adobe Campaign Classic 将与所有其他集成一起从数据连接器 UI 中删除，但是，在 2022 年 3 月 1 日之前，现有 Campaign 集成将继续收集数据并传递到 Adobe Analytics。在 2022 年 3 月 1 日，集成将停止收集和传递数据到 Adobe Analytics。如果您使用此集成，则需要在 2022 年 3 月 1 日之前迁移到新的 Campaign-Analytics 连接器。请参阅 [Adobe Campaign Classic 文档](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html?lang=zh-Hans)以了解详情。
+2021 年 8 月 1 日，Adobe Campaign Classic 将与所有其他集成一起从数据连接器 UI 中删除，但是，在 2022 年 8 月 17 日之前，现有 Campaign 集成将继续收集数据并传递到 Adobe Analytics。 在 2022 年 8 月 17 日，该集成将停止收集数据并传递到 Adobe Analytics。 如果您使用该集成，则需要在 2022 年 8 月 17 日之前迁移到新的 Campaign-Analytics 连接器。 请参阅 [Adobe Campaign Classic 文档](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html?lang=zh-Hans)以了解详情。
