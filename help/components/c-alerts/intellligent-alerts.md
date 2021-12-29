@@ -1,18 +1,18 @@
 ---
-description: 智能警报系统允许对警报进行更多粒度控制，并将异常检测与警报系统集成在一起。
+description: 智能警报系统允许对警报进行更细粒度的控制，并将异常检测与警报系统集成在一起。
 title: 智能警报
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '564'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # 智能警报
 
-智能警报系统允许对警报进行更多粒度控制，并将异常检测与警报系统集成在一起。
+智能警报系统允许对警报进行更细粒度的控制，并将异常检测与警报系统集成在一起。
 
 以下是一段视频概述：
 
@@ -31,7 +31,7 @@ ht-degree: 88%
 * 通过含链接的电子邮件或短信将警报发送到自动生成的 Analysis Workspace 项目。
 * 创建可在一个警报中捕获了多个指标的“堆栈式”警报。
 
-警报系统的组件包括：警报生成器、警报管理器、警报预览，以及更好的创建警报的上下文访问权限。 旧的警报系统用户界面将不再可用，但警报将进行迁移。一些旧版警报功能 [不再可用](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=zh-Hans).
+警报系统的组件包括：警报生成器、警报管理器、警报预览以及更便于创建警报的上下文关联访问。 旧的警报系统用户界面将不再可用，但警报将进行迁移。 一些旧警报功能[不再可用](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=zh-Hans)。
 
 可通过四种方式访问警报生成器：
 
