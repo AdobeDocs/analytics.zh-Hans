@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '546'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -24,15 +24,15 @@ ht-degree: 94%
 | 我可以将 Analysis Workspace 用于 Data Warehouse 吗？ | 不建议将 Analysis Workspace 用于批量数据导出。它是一个创建类似功能板分析项目的可视化图表工作区。 |
 | 如何优化 Analysis Workspace 的性能？ | 请参阅[优化性能](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。 |
 
-## 数据如何进入您的Analysis Workspace项目？
+## 数据如何进入您的 Analysis Workspace 项目？
 
-请观看此视频：
+观看以下视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/31072/?quality=12)
 
-## 如何跟踪工作区的使用情况？
+## 如何跟踪 Workspace 使用情况？
 
-请观看以下视频，了解Analysis Workspace的使用日志跟踪：
+观看以下有关 Analysis Workspace 使用情况日志跟踪的视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/29768/?quality=12)
 
