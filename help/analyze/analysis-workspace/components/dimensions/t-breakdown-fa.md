@@ -7,9 +7,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
 source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '218'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 88%
 
 ## 视频
 
-将维度和量度添加到Analysis Workspace中的项目：
+在 Analysis Workspace 中将维度和量度添加到项目：
 
 >[!VIDEO](https://video.tv.adobe.com/v/30606/?quality=12)
 
@@ -46,6 +46,6 @@ ht-degree: 88%
 
 >[!VIDEO](https://video.tv.adobe.com/v/40179/?quality=12)
 
-以下是有关按位置划分维度的视频：
+以下是一段关于按位置划分的维度细分的视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/24033/?quality=12)
