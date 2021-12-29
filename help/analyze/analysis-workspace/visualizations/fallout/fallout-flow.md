@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
 source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '496'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 流失可视化图表为构建流失报表提供了多个选项。流失报表显示访客从何处离开（流失）或继续通过（流过）预定义的页面序列。
 
-以下是有关流失可视化的视频：
+以下是一段关于流失可视化图表的视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/24042/?quality=12)
 
