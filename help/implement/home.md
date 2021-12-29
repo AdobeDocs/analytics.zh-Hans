@@ -3,9 +3,9 @@ title: 实施 Adobe Analytics
 description: 在您的网站、属性或应用程序上实施 Adobe Analytics。
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 97%
 
 ![横幅](../../assets/doc_banner_implement.png)
 
-以下是Adobe Analytics的视频概述：
+下面是 Adobe Analytics 的视频概述：
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
@@ -44,7 +44,7 @@ Adobe Analytics 需要在您的网站、移动应用程序或其他应用程序�
 
 ## 更多 Analytics 用户指南
 
-[Analytics 用户指南](https://experienceleague.adobe.com/docs/analytics.html)
+[Analytics 用户指南](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hans)
 
 ## 重要 Analytics 资源
 
