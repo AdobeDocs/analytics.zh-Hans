@@ -4,9 +4,9 @@ title: 服务器端转发数据和代码引用
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
 source-git-commit: 27af710f1ce9d85b1177fa4c5fd4d3f6e2875a48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '520'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -29,35 +29,35 @@ ht-degree: 92%
 
 这些头是一些字段，其中包含 HTTP 调用中的数据请求和响应之类的信息。
 
-| HTTP 标头 | 描述 | 已接受h_键Audience Manager |
+| HTTP 标头 | 描述 | 由 Audience Manager 接受的 h_ 键 |
 | --- | --- | --- |
-| 主机 | 设置为在 Analytics 主机配置文件中指定的客户端的特定数据收集主机名。它显示为 `host name .demdex.net`。请参阅[了解 Demdex 域调用](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hans)。 | `h_host` |
+| Host | 设置为在 Analytics 主机配置文件中指定的客户端的特定数据收集主机名。它显示为 `host name .demdex.net`。 请参阅[了解 Demdex 域调用](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hans)。 | `h_host` |
 | User-Agent | 设置为传递到 Analytics 的 User-Agent 头。 | `h_user-agent` |
 | Accept-Language | 设置为传递到 Analytics 的 `Accept-Language` 头。 | `h_accept-language` |
 | Referer | 设置为传递到 Analytics 的页面 URL，或从传递到 Analytics 的 `Referer` 头中收集的页面 URL。 | `h_referer` |
-| 反向链接 | 设置为传递到 Analytics 的页面 URL，或从传递到 Analytics 的 `Referrer` 头中收集的页面 URL。 | `h_referrer` |
-| 日期 | 设置为传递到 Analytics 的 `Date` 头。 | `h_date` |
+| Referrer | 设置为传递到 Analytics 的页面 URL，或从传递到 Analytics 的 `Referrer` 头中收集的页面 URL。 | `h_referrer` |
+| Date | 设置为传递到 Analytics 的 `Date` 头。 | `h_date` |
 
-此外， `h_ip` 信号是从向DCS发送请求的主机的IP中生成的。
+此外，`h_ip` 信号由向 DCS 发送请求的主机的 IP 生成。
 
 ## 客户定义的信号 {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-带有 `c_` 前缀的参数用于标识客户定义的变量。另请参阅 [DCS API 调用支持的属性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)。
+带有 `c_` 前缀的参数用于标识客户定义的变量。另请参阅 [DCS API 调用支持的属性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=zh-Hans)。
 
 | 信号 | 描述 |
 | --- |--- |
-| `c_browserWidth`  和 `c_browserHeight` | 浏览器窗口宽度和高度。 |
-| `c_campaign` | 设置者 `s.campaign`. |
-| `c_channel` | 设置者 `s.channel`. |
-| `c_clientDateTime` | 格式为 `dd/mm/yyy hh:mm:ss  W TZ` . `TZ` 以分钟为单位，并与 方法的返回值匹配。`Date.getTimezoneOffset` |
+| `c_browserWidth` 和 `c_browserHeight` | 浏览器窗口宽度和高度。 |
+| `c_campaign` | 由 `s.campaign` 设置。 |
+| `c_channel` | 由 `s.channel` 设置。 |
+| `c_clientDateTime` | 时间戳格式为 `dd/mm/yyy hh:mm:ss  W TZ`。 `TZ` 以分钟为单位，并与 `Date.getTimezoneOffset` 方法的返回值匹配。 |
 | `c_colorDepth` | 指定为 16 位或 32 位颜色。 |
 | `c_connectionType` | 指定连接类型。选项包括：<ul><li>modem</li><li>lan</li></ul> |
-| `c_contextData.*` | 示例：<ul><li>AppMeasurement: `s.contextData`</li><li>[&quot;category&quot;] = &quot;news&quot;;</li><li>信号: `c_contextData.category=news`</li></ul> |
+| `c_contextData.*` | 示例：<ul><li>AppMeasurement: `s.contextData`</li><li>[&quot;category&quot;] = &quot;news&quot;;</li><li>Signal: `c_contextData.category=news`</li></ul> |
 | `c_cookiesEnabled` | 指定是否可启用 Cookie。选项包括：是、否、未知 |
 | `c_currencyCode` | 用于交易的货币类型。 |
-| `c_evar#` | 自定义 eVar |
-| `c_events` | 设置者 `s.events`. |
-| `c_hier#` | 自定义层次结构变量。 |
+| `c_evar#` | 自定义 eVar。 |
+| `c_events` | 由 `s.events` 设置。 |
+| `c_hier#` | 自定义层级变量。 |
 | `c_javaEnabled` | 指定是否可启用 Java。选项包括：是、否、未知 |
 | `c_javaScriptVersion` | 浏览器支持的 JavaScript 版本。 |
 | `c_latitude` | 数值纬度 |
@@ -76,7 +76,7 @@ ht-degree: 92%
 | `c_referrer` | 当前页面之前的页面。 |
 | `c_screenResolution` | 屏幕宽度和高度（以像素为单位）。 |
 | `c_server` | Web 服务器名称（由 `s.server` 设置）。 |
-| `c_state` | 地理区域(由 `s.state`)。 |
+| `c_state` | 地理区域（由 `s.state` 设置）。 |
 | `c_timezone` | 时间偏移（以小时为单位）。 |
 | `c_transactionID` | 交易的唯一 ID。 |
-| `c_zip` | 邮政编码(设置者 `s.zip`)。 |
+| `c_zip` | 邮政编码（由 `s.zip` 设置）。 |
