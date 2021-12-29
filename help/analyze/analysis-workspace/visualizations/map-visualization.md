@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: f7853f81c6f7d036b35e1d88ac8b5eb2bf84646d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '642'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -39,8 +39,8 @@ Analysis Workspace 中的地图可视化
 
 | 设置 | 描述 |
 | --- | --- |
-| [!UICONTROL 移动设备经纬度] | 此选项表示移动设备应用程序数据。仅当您在 [!UICONTROL Analytics] > [!UICONTROL 管理员] > [!UICONTROL 报表包] >（选择报表包）> [!UICONTROL 编辑设置] >  [!UICONTROL 移动设备管理] > [!UICONTROL 启用位置跟踪]. 这是默认设置（如果已启用位置跟踪）。 |
-| [!UICONTROL 地理维度] | 此选项表示有关访客位置（基于访客的 IP 地址）的地域划分数据。此数据将转换为 [!UICONTROL 国家/地区], [!UICONTROL 地区]和 [!UICONTROL 城市]. 请注意，它不会转到 DMA 或邮政编码级别。几乎所有报表包都启用了此维度。如果您的报表包还没有启用此维度，请联系 Adobe 客户关怀以启用地理报表。 |
+| [!UICONTROL 移动设备经纬度] | 此选项表示移动应用程序数据。 只有在通过 [!UICONTROL Analytics] > [!UICONTROL 管理员] > [!UICONTROL 报表包] >（选择报表包）> [!UICONTROL 编辑设置] > [!UICONTROL 移动设备管理] > [!UICONTROL 启用位置跟踪]为报表包启用该设置时，才会看到此选项。 这是默认设置（如果已启用位置跟踪）。 |
+| [!UICONTROL 地理维度] | 此选项表示有关访客位置（基于访客的 IP 地址）的按地理位置分段的数据。 此数据将被转换为[!UICONTROL 国家]、[!UICONTROL 地区]和[!UICONTROL 城市]。 请注意，它不会转到 DMA 或邮政编码级别。 几乎所有报表包都启用了此维度。如果您的报表包还没有启用此维度，请联系 Adobe 客户关怀以启用地理报表。 |
 
 1. 单击&#x200B;**[!UICONTROL 生成]**。
 
