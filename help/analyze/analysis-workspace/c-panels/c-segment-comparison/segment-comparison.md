@@ -6,9 +6,9 @@ feature: Panels
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 区段比较面板是[区段 IQ](../../segment-iq.md) 中的一个工具，可以发现无限数量的区段中最具统计意义的差异。该功能通过自动分析您有权访问的所有维度和量度来进行迭代。它会自动找出受众区段中可提升公司 KPI 的关键特征，并让您了解任意区段的重叠程度。
 
-以下是有关区段比较的视频：
+以下是一段关于区段比较的视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23976/?quality=12)
 
