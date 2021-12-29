@@ -5,9 +5,9 @@ feature: Segmentation
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1095'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 99%
 | 开头不为 | 返回不以输入值的字符或字符串开头的项目。这与“开头”运算符正好相反。 |
 | 止于 | 返回以输入值的字符或字符串结束的项目。 |
 | 结尾不为 | 返回不以输入值的字符或字符串结束的项目。这与“结束”运算符正好相反。 |
-| matches | 返回与给定的数字或字符串值完全匹配的项目。“matches”子句在 Adobe Analytics 和 Customer Journey Analytics 中均区分大小写。**注意**：仅在采用通配符（通配）功能时使用该运算符。“通配”示例：<ul><li>`a*e` 将匹配 `ae`、`abcde`、`adobe` 和 `a whole sentence`</li><li>`adob*` 将匹配 `adobe`、`adobe analytics` 和 `adobo recipe`</li><li>`*dobe` 将匹配 `dobe`、`adobe` 和 `cute little dobe`</li></ul> |
+| 匹配 | 返回与给定的数字或字符串值完全匹配的项目。“matches”子句在 Adobe Analytics 和 Customer Journey Analytics 中均区分大小写。**注意**：仅在采用通配符（通配）功能时使用该运算符。“通配”示例：<ul><li>`a*e` 将匹配 `ae`、`abcde`、`adobe` 和 `a whole sentence`</li><li>`adob*` 将匹配 `adobe`、`adobe analytics` 和 `adobo recipe`</li><li>`*dobe` 将匹配 `dobe`、`adobe` 和 `cute little dobe`</li></ul> |
 | 不匹配 | 返回不包含输入值的完全匹配项的所有项目。注意：仅在采用通配符（通配）功能时使用该运算符。 |
 | 存在 | 返回存在的项目的数量。例如，如果您使用“存在”运算符评估“页面未找到”维度，就会返回错误页面的数量。 |
 | 不存在 | 返回所有不存在的项目。例如，如果您使用“不存在”运算符评估“页面未找到”维度，就会返回不存在错误页面的页面的数量。 |
@@ -64,6 +64,6 @@ ht-degree: 99%
 | 大于或等于 | 返回独特计数大于或等于输入值的维度项目。 |
 | 小于或等于 | 返回独特计数小于或等于输入值的维度项目。 |
 
-以下是有关不同维度计数的分段视频：
+以下是一段关于按非重复维度计数进行分段的视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/27257/?quality=12)
