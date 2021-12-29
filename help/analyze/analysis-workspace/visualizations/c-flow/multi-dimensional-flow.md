@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
 source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '317'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 通过维度间流量可以跨不同维度查看用户路径。
 
-以下是有关Analysis Workspace中文本环绕和多维度流的视频：
+以下是一段关于 Analysis Workspace 中的文本环绕和多维度流量的视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
 
