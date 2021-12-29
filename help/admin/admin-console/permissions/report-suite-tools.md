@@ -1,17 +1,17 @@
 ---
-title: Adobe Admin Console中报表包工具的产品配置文件权限
+title: Adobe Admin Console 中“报表包工具”的产品配置文件权限
 description: 了解“报表包工具”下面的每个权限项。
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 source-git-commit: 6fe67311c73fc766e8051e57a047224b8fb17747
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '631'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # “报表包工具”的产品配置文件权限
 
-通过本页可了解Adobe Admin Console中报表包工具下的每个权限项。
+使用此页面可了解 Adobe Admin Console 中“报表包工具”下的每个权限项。
 
 | 报表包工具权限项 | 描述 |
 |------|------|
