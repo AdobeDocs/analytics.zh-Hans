@@ -5,9 +5,9 @@ feature: Segmentation
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3705'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 99%
 
 ![](assets/sequential_segmentation_container_hierarchy.png)
 
-以下是区段容器的视频概述：
+下面是区段容器的视频概述：
 
 >[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12)
 
