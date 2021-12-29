@@ -4,9 +4,9 @@ keywords: 数据馈送;作业;前处理列;后处理列;区分大小写
 title: 数据馈送常见问题解答
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 source-git-commit: b81ffba2f1e021888dd1c4b016c9b451448f47bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1439'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ Adobe 建议不要自动在 Microsoft Excel 中打开 `hit_data.tsv` 文件。�
 
 如果传输失败，您可以重新运行作业直至它成功。
 
-如果您在让数据馈送显示在FTP站点上时遇到问题，请参阅 [数据馈送疑难解答](troubleshooting.md).
+如果您遇到在 FTP 站点上显示数据馈送的问题，请参阅[数据馈送疑难解答](troubleshooting.md)。
 
 ## 如何重新发送作业？ {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
