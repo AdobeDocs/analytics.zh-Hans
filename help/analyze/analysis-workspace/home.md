@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 source-git-commit: 405403523e7b862005839cb4eb07adf804c6bc9c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -61,13 +61,13 @@ Analysis Workspace 是一款通过浏览器即可使用的灵活工具，可让�
 
 ![](assets/build-panels.png)
 
-### Analysis Workspace项目管理
+### Analysis Workspace 中的项目管理
 
-以下是项目管理的视频概述：
+下面是项目管理的视频概述：
 
 >[!VIDEO](https://video.tv.adobe.com/v/24035/?quality=12)
 
 ## 其他资源 {#resources}
 
 * Adobe 提供了大量的 [Analytics 视频培训教程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=zh-Hans)。
-* 请参阅 [Adobe Experience Cloud发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en#analytics) 以获取有关新增功能的更新。
+* 有关新功能的更新，请参阅 [Adobe Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans#analytics)。
