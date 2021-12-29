@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
 source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '95'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -20,6 +20,6 @@ ht-degree: 90%
 
 项目符号图表具有一个主要的测量方法（例如，当前年初至今的收入），允许您输入定性范围、绩效范围（例如，与目标收入相比）。您可以指定高、中和低。您可以在[!UICONTROL 可视化设置]中指定目标范围。
 
-以下是有关项目符号图表可视化的视频：
+以下是一段关于项目符号图可视化的视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23989/?quality=12)
