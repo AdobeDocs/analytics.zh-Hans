@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
 source-git-commit: 25fe4364e5daeaaf5f180254015574b00a091e5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 96%
 >
 >有关 Analysis Workspace 与 Reports &amp; Analytics 之间将区段应用于流量的结果可能有何不同的信息，请参阅[分段作为流量和流失的基础](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)。
 
-以下是流量可视化视频教程：
+下面是流量可视化视频教程：
 
 >[!VIDEO](https://video.tv.adobe.com/v/24045/?quality=12)
 
@@ -40,6 +40,6 @@ ht-degree: 96%
 
 流量图可以作为您能够创建的项目 .CSV 文件的一部分，方法是转到&#x200B;**[!UICONTROL 项目]** > **[!UICONTROL 下载 CSV]**。这可以让您分析 Microsoft Excel（以表格形式显示）或其他软件中的流量结果。
 
-## 扩展流可视化
+## 扩展流量可视化
 
 >[!VIDEO](https://video.tv.adobe.com/v/24044/?quality=12)
