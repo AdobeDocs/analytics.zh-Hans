@@ -1,13 +1,13 @@
 ---
 title: 多个报表包
-description: 了解如何在工作区中使用多个报表包来创建项目以及为什么创建项目
+description: 了解如何在工作区中使用多个报表包来创建项目以及为什么创建项目。
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
 source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 * 构建一个包含量度和可视化图表的功能板，向其他组织报告。您现在可以将不同报表包中的数据提取到同一项目。
 
-以下是有关此主题的视频：
+以下是一段关于该主题的视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/32843/?quality=12)
 
