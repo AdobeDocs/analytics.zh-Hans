@@ -5,9 +5,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 source-git-commit: 25fe4364e5daeaaf5f180254015574b00a091e5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '500'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 90%
 
 [!UICONTROL 同类群组分析]适用于具有 [!UICONTROL Analysis Workspace] 访问权限的所有 Adobe Analytics 客户。
 
-有关Analysis Workspace中同类群组表的视频：
+关于 Analysis Workspace 中同类群组表的视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/25965/?quality=12)
 
 >[!IMPORTANT]
 >
->[!UICONTROL 同类群组分析] 不支持不可分段的量度（包括计算量度）、非整数量度（如收入、发生次数或发生次数）。 只有可在区段中使用的量度才能用于 [!UICONTROL 同类群组分析]，并且一次只能增加1个以上。
+>[!UICONTROL 同类群组分析]不支持不可分段的量度（包括计算量度）、非整数量度（例如收入或发生次数）。 只有可以在区段中使用的量度才能在[!UICONTROL 同类群组分析]中使用，并且它们一次只能递增 1。
 
 ## 同类群组分析功能
 
