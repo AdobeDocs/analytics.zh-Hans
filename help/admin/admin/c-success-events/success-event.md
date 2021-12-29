@@ -1,20 +1,20 @@
 ---
-description: 成功事件是指可跟踪的活动。什么是成功事件完全由您来决定。例如，如果访客购买一件产品，则该购买事件可视为成功事件。。
+description: 成功事件是指可跟踪的活动。什么是成功事件完全由您来决定。例如，如果访客购买一件产品，则该购买事件可视为成功事件。.
 keywords: event
 title: 成功事件概述
 feature: Admin Tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '727'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # 成功事件概述
 
-成功事件（也称为转化事件或自定义事件）是可跟踪的操作。 什么是成功事件完全由您来决定。例如，如果访客购买一件产品，则该购买事件可视为成功事件。.
+成功事件（也称为转化事件或自定义事件）是可以跟踪的操作。 什么是成功事件完全由您来决定。例如，如果访客购买一件产品，则该购买事件可视为成功事件。.
 
 以下是一段视频概述：
 
@@ -38,7 +38,7 @@ ht-degree: 96%
 * **高科技**：下载白皮书、RFP、填写表单、请求支持
 * **汽车**：提交商机、申请报价、下载手册
 
-成功事件是由 [s.events](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html) 变量来定义。
+成功事件是由 [s.events](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=zh-Hans) 变量来定义。
 
 ## 成功事件页面 - 描述 {#section_681ECEC981694CABBDBF00E18165B447}
 
@@ -48,7 +48,7 @@ ht-degree: 96%
 
 | 元素 | 描述 |
 |--- |--- |
-| Event | 事件的原始名称。 |
+| 事件 | 事件的原始名称。 |
 | 名称 | 为您的网站上使用的成功事件取一个有意义的名称。例如，如果 event1 用于跟踪注册，则在此处更改名称，使 event1 在所有转化报表中都表示为“注册”量度。 |
 | 类型 | 所选类型确定事件是计数器（标准）、量度还是货币事件。数值和货币事件允许您以大于 1 的增量增加量度。计数器事件用于及时记录事件，而货币事件则记录小数，例如税款或运输费用。传递给货币事件的值在收到后将从页面货币换算为报表包的基本货币。有关使用货币事件的详细信息，请与 Adobe 代表联系。数值事件用于报告非货币数字，例如订单中使用的优惠券数量。货币事件用于跟踪税款和运输费用。在“标准”类型的“数据源”中使用的事件必须是数值事件或货币事件。 |
 | 极性 | 量度极性允许您指示 Adobe Analytics 将给定自定义事件（量度）上升的情况视为好还是坏。它允许 Adobe Analytics 显示各种量度的方向指示器（箭头）以添加上下文（例如，逐周比较）。示例：如果“提交的错误数”呈逐周上升趋势，Adobe Analytics 应将这种情况视为好还是坏？“电子邮件注册数”的上升可能是好的。但“表单提交错误数”的上升可能是坏的。在 Analysis Workspace 中，极性可应用于以下对象：自由格式表的条件格式、“概要变化”可视化图表，及地图可视化的“反差”颜色方案。 |
