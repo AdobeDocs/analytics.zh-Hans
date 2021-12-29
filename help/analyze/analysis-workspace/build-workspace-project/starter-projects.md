@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
 source-git-commit: 76235e80ad5e2104d0ad3a262b8f805f34fa99a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1410'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 88%
    >
    >默认情况下，项目模板对贵组织的每个人均可见。您可以通过应用标记来组织这些模板。（转到&#x200B;**[!UICONTROL 项目]** > **[!UICONTROL 项目信息和设置]**&#x200B;以编辑标记和描述。）
 
-以下是有关创建和管理自定义模板的视频：
+以下是一段关于创建和管理自定义模板的视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23231/?quality=12)
 
@@ -64,9 +64,9 @@ ht-degree: 88%
 
 ### 培训
 
-此标准模板可指导您逐步了解在工作区中构建首个分析的常用术语和步骤。 该模板可用作新建项目模式中的标准模板，并替换当前存在的示例项目，供列表中没有其他项目的新用户使用。
+该标准模板将指导您逐步了解在 Workspace 中构建第一个分析时通常会用到的术语和步骤。 该模板可用作新建项目模式中的标准模板，并替换当前存在的示例项目，供列表中没有其他项目的新用户使用。
 
-以下是有关 [!UICONTROL 培训教程] 模板：
+以下是一段关于[!UICONTROL 培训教程]模板的视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/33773/?quality=12)
 
@@ -74,38 +74,38 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->广告模板仅在您的报表包在 [Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/integration/advertising-analytics/overview.html).
+>仅当您的报表包启用了 [Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/integration/advertising-analytics/overview.html?lang=zh-Hans) 时，广告模板才可用。
 
 * **付费搜索引擎**：此模板可划分广告趋势、广告平台、关键字、帐户、营销活动等。
 
 ### 商务
 
-* **Magento：营销与商务**：此模板通过营销渠道归因细分您的电子商务转化，并按搜索关键字、登陆页面、地理位置等提供见解。以下是有关 [Magento:营销和商务模板](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=zh-Hans).
+* **Magento：营销与商务**：此模板通过营销渠道归因细分您的电子商务转化，并按搜索关键字、登陆页面、地理位置等提供见解。以下是一段关于 [Magento：营销与商务模板](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=zh-Hans)的视频教程。
 
 ### 数据收集
 
-* **ITP影响**:了解Apple的ITP对数据有何影响以及如何相应地调整报表。
+* **ITP 影响**：了解 Apple 的 ITP 如何影响您的数据以及如何相应地调整报表。
 
 ### 媒体
 
-* **内容使用情况**:谁是我的忠实读者
-* **回访间隔 — 频度 — 忠诚度**:哪些内容的使用次数最多且吸引用户？
-* **流媒体使用情况**:提供所有数字设备中媒体使用情况的趋势和主要量度。 以下是有关流媒体使用模板的视频：
+* **内容使用**：谁是我的忠实读者
+* **回访间隔 - 频率 - 忠诚度**：哪种内容使用最多，并且吸引用户？
+* **流媒体使用**：提供所有数字设备的媒体使用的趋势和主要量度。 以下是一段关于流媒体使用模板的视频：
 
    >[!VIDEO](https://video.tv.adobe.com/v/23901/?quality=12)
 
-### 移动设备
+### 移动
 
 >[!IMPORTANT]
 >
->移动设备模板仅在您的报表包针对移动设备应用程序分析启用时才可用。
+>仅当您的报表包启用了移动应用程序分析时，移动模板才可用。
 
-* **客户获取：**&#x200B;了解移动设备客户获取链接的表现如何。
-* **应用程序使用情况：**&#x200B;应用程序拥有多少用户、启动次数和首次启动次数，以及平均会话时长是多少？
-* **历程：**&#x200B;我的应用程序最突出的使用模式是什么？
-* **关键量度：**&#x200B;掌握应用程序关键量度。
-* **位置：**&#x200B;包括可展示位置数据的“地图”
-* **消息：**&#x200B;重点关注应用内消息和消息推送的性能。
+* **客户获取：** 了解移动设备客户获取链接的表现如何。
+* **应用程序使用情况：** 应用程序拥有多少用户、启动次数和首次启动次数，以及平均会话时长是多少？
+* **历程：** 我的应用程序最突出的使用模式是什么？
+* **关键量度：** 掌握应用程序关键量度。
+* **位置：** 包括可展示位置数据的“地图”。
+* **消息：** 重点关注应用内消息和消息推送的性能。
 * **性能：**&#x200B;应用程序性能如何、用户在哪些情况下遇到问题？
 * **维系率：**&#x200B;谁是我的忠实用户，他们会怎么做？
 
@@ -117,7 +117,7 @@ ht-degree: 88%
 ### Web
 
 * **客户获取：**&#x200B;我的网站最主要的流量推动因素是什么？
-* **AEM网站性能概述：** 我的Adobe Experience Manager网站表现如何？
+* **AEM 网站性能概述：** 我的 Adobe Experience Manager 网站的性能如何？
 * **内容使用情况：**&#x200B;用户在我的网站中最常访问哪些区域？
 * **维系率：**&#x200B;哪类用户可能成为我的网站的忠实用户？
 * **技术：**&#x200B;用户使用哪些技术访问我的网站？
@@ -138,11 +138,11 @@ ht-degree: 88%
 * 了解如何对“人员”量度进行分段堆叠。
 * 探索如何在您的环境中使用 Experience Cloud ID 来增强“人员”量度的效率。
 
-### 历程IQ:跨设备分析模板
+### 历程 IQ：Cross-Device Analytics 模板
 
 <!--This content is mirrored in the CDA doc.-->
 
-此模板可让您查看重要的跨设备性能数据。它仅适用于有权访问[Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=en) (CDA) 的客户。
+此模板可让您查看重要的跨设备性能数据。它仅适用于有权访问[Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=zh-Hans) (CDA) 的客户。
 
 * **对协作图成员的特别说明**：显示报表包的哪些部分包含支持协作图的区域的访客，以及不支持协作图的区域的访客。
 * **用户标识**：显示使用基于 Cross-Device Analytics 的方法识别网站访客的频率。
