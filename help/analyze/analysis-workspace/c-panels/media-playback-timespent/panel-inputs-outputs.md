@@ -1,19 +1,19 @@
 ---
-title: “媒体播放逗留时间”面板输入和输出
-description: “媒体播放逗留时间”的输入和输出设置是什么？
+title: “媒体播放耗时”面板输入和输出
+description: “媒体播放耗时”输入和输出设置是什么？
 feature: Panels
 role: User, Admin
 source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
-# 媒体播放逗留时间面板输入和输出 {#Inputs-and-outputs}
+# “媒体播放耗时”面板输入和输出 {#Inputs-and-outputs}
 
-您可以使用以下输入和输出设置自定义“媒体播放逗留时间”面板。
+您可以使用以下输入和输出设置自定义“媒体播放耗时”面板。
 
 ## 面板输入 {#Input}
 
