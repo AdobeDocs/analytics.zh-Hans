@@ -5,9 +5,9 @@ feature: Segmentation
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2046'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 99%
 
    **示例：eVar1 = A 的点击区段**
 
-   | 示例 | 同类群组 | 同类群组 | A（保留） | B | 同类群组 | C |
+   | 示例 | A | A | A（保留） | B | A | C |
    |---|---|---|---|---|---|---|
    | 重复 | X | X | X | - | X | - |
    | 实例 | X | X | - | - | X | - |
@@ -121,7 +121,7 @@ ht-degree: 99%
 
 ![](assets/date-ranges.png)
 
-以下是有关在区段中使用滚动日期范围的视频：
+以下是一段关于在区段中使用滚动日期范围的视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
 
@@ -207,7 +207,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> 查看的产品未添加到购物车 </td> 
-   <td colname="col2">查看浏览了产品但未添加到购物车的访客的数据。在区段定义中，容器为访问。此顺序区段的规则为 <p>产品查看不为空 </p> <p>然后 </p> <p> 购物车加货等于 0。 </p> </td> 
+   <td colname="col2">查看浏览了产品但未添加到购物车的访客的数据。在区段定义中，容器为访问。此顺序区段的规则为 <p>产品查看不为空 </p> <p>Then </p> <p> 购物车加货等于 0。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 来自促销活动的访问量 </td> 
