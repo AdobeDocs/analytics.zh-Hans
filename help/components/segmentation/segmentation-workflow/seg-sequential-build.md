@@ -5,9 +5,9 @@ feature: Segmentation
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
 source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3864'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 此外，您还可以使用 [After 和 Within 运算符](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)，将顺序区段限制为检查点之间的特定时间段、粒度和计数。
 
-以下是有关连续分段的视频：
+以下是一段关于顺序区段的视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/25405/?quality=12)
 
@@ -47,16 +47,16 @@ ht-degree: 99%
 
 | 示例 | A | B | C | D | E | F |
 |---|---|---|---|---|---|---|
-| 包含每个人 | 同类群组 | B | C | D | E | F |
-| 仅在序列前 | 同类群组 | B |  |  |  |  |
+| 包含每个人 | A | B | C | D | E | F |
+| 仅在序列前 | A | B |  |  |  |  |
 | 仅在序列后 |  |  |  | D | E | F |
 
 **示例 2：B -> D 出现多次**
 
 | 示例 | A | B | C | D | B | C | D | E |
 |---|---|---|---|---|---|---|---|---|
-| 包含每个人 | 同类群组 | B | C | D | B | C | D | E |
-| 仅在序列前 | 同类群组 | B | C | D | B |  |  |  |
+| 包含每个人 | A | B | C | D | B | C | D | E |
+| 仅在序列前 | A | B | C | D | B |  |  |  |
 | 仅在序列后 |  |  |  | D | B | C | D | E |
 
 我们还可以使用“点击深度”维度来描述这个概念。
@@ -366,7 +366,7 @@ ht-degree: 99%
 
 **[!UICONTROL After]** 不包括终结点（大于）。
 
-| 操作员 | 描述 |
+| 运算符 | 描述 |
 |--- |--- |
 | AFTER | After 运算符用于指定两个检查点之间的时间长度的最小限制。在设置 After 值后，时间限制将从应用区段时算起。例如，如果在容器上设置 After 运算符以识别访问页面 A，但直到一天后才返回访问页面 B 的访客，那么该时间将从访客离开页面 A 时开始。对于要包含在此区段中的访客，从离开页面 A 后至查看页面 B，必须至少经过 1440 分钟（一天）。 |
 | WITHIN | Within 运算符用于指定两个检查点之间的时间长度的最大限制。例如，如果在容器上设置 Within 运算符以识别访问页面 A，然后在一天内返回访问页面 B 的访客，那么该时间将从访客离开页面 A 时开始。要包含在此区段中，访客需要在一天之内打开页面 B。对于要包含在此区段中的访客，在离开页面 A 后至查看页面 B，所经过的时间不能超过 1440 分钟（一天）。 |
