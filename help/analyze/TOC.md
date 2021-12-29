@@ -7,7 +7,7 @@ user-guide-description: 提供 Analytics 的高级分析和可视化工具 Analy
 source-git-commit: 3266dd5547c1967e424534a13a3f8dc29aa1189e
 workflow-type: tm+mt
 source-wordcount: '1011'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -186,7 +186,7 @@ ht-degree: 99%
       + 指标和维度 {#metrics-dimension}
          + [指标和维度概述](report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
          + [添加指标和维度](report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
-         + [计算指标](report-builder/layout/c-metrics-dimensions/calculated-metrics.md)
+         + [计算量度](report-builder/layout/c-metrics-dimensions/calculated-metrics.md)
          + [在同一请求中组合使用流量和商务指标](report-builder/layout/c-metrics-dimensions/grouped-metrics.md)
          + [维度和指标的用户访问权限](report-builder/layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
          + [修改指标 - 字段定义](report-builder/layout/c-metrics-dimensions/r-arb-modify-metrics.md)

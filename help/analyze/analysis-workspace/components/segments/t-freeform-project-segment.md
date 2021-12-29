@@ -8,7 +8,7 @@ exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
 source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 
 ## 视频
 
-在Analysis Workspace中使用区段：
+在 Analysis Workspace 中使用区段：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
 

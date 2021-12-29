@@ -5,7 +5,7 @@ exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 source-git-commit: 80698e880e2fe218525854d4ccc8dba341b1da5d
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -13,17 +13,17 @@ ht-degree: 73%
 
 ![横幅](../../assets/doc_banner_integrate.png)
 
-本指南重点介绍如何集成多个Adobe Experience Cloud解决方案，如Audience Manager、Advertising Cloud或Target。 这些集成包括：
+本指南重点介绍有关集成多个 Adobe Experience Cloud 解决方案的内容，例如 Audience Manager、Advertising Cloud 或 Target。 这些集成包括：
 
 * **Audience Analytics：**&#x200B;将 Adobe Audience Manager 与 Adobe Analytics 相集成。
 * **Advertising Analytics：**&#x200B;可使用 Adobe Analytics 数据并排查看付费搜索数据。
-* **Advertising Cloud DSP分析：** 集成了Adobe Analytics和Adobe Advertising Cloud以扩展和增强每个产品的功能。 以下是一段视频概述：
+* **Analytics for Advertising Cloud DSP：**&#x200B;集成 Adobe Analytics 和 Adobe Advertising Cloud 以扩展和增强每个产品的功能。 以下是一段视频概述：
    >[!VIDEO](https://video.tv.adobe.com/v/27237/?quality=12)
 * **Analytics for Target：** A4T 是 Adobe Analytics 与 Adobe Target 的集成。
 * **Adobe Campaign 报告功能：**&#x200B;将 Adobe Analytics 与 Adobe Campaign 相集成。
 * **AEM Assets 报告功能：**&#x200B;允许针对 Adobe Experience Manager 提供的资产，收集相关的展示次数和单击次数。
 
-以下是Adobe Analytics的视频概述：
+下面是 Adobe Analytics 的视频概述：
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 

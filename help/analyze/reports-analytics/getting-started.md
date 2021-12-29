@@ -7,7 +7,7 @@ exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 source-git-commit: 1d5cb1c2b9ab2414d42d18f6395b1857786c8da0
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 94%
 >[!NOTE]
 >Adobe 已于 2018 年 11 月 13 日，停止在 Adobe Analytics 中支持 Internet Explorer 11。请尽快切换到 Microsoft Edge 或其他受支持的浏览器。
 
-* 首选浏览器：最新版本的Firefox、Chrome、Safari或Edge。
+* 首选浏览器：最新版的 Firefox、Chrome、Safari 或 Edge。
 * 必须启用 Cookie 和 JavaScript。
 * 具有 16 位颜色深度（或更高）的 1024 x 768 显示器分辨率。
 
