@@ -3,9 +3,9 @@ title: 管理数据馈送作业
 description: 了解如何管理数据馈送中的各个作业。
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
 source-git-commit: 963e66b05cc401956211c28b9ffeb9aad6bed604
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '496'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 97%
    * 正在等待数据：作业正在运行，且正在收集相应报告时间范围的数据。
    * 正在处理：作业正在创建数据文件并准备发送它们。
    * 已完成：作业已完成，且未出现任何问题。
-   * 失败：作业未完成。请参阅 [数据馈送疑难解答](troubleshooting.md) 以帮助确定失败原因。
+   * 失败：作业未完成。请参阅[数据馈送疑难解答](troubleshooting.md)，帮助确定失败的原因。
    * 等待导出：尚未完全处理相应报告时间范围的数据。
    * 无数据：报表包中没有请求的报告时间范围的数据。
 * **完成时间**：作业完成的时间。日期和时间将以报表包的时区显示，且含 GMT 时差。
