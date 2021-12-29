@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '280'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 92%
 
 * 也可以单击&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 新建量度]**。此操作可将您转到[计算量度生成器](/help/components/c-calcmetrics/cm-overview.md)，您可以从现有量度创建自定义量度。
 
-以下是有关在自由格式表中使用量度的视频：
+以下是一段在自由格式表中使用量度的视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
@@ -46,7 +46,7 @@ ht-degree: 92%
 
 此快捷键可让您快速、轻松地将一个归因模型与另一个归因模型进行比较，而无需将归因模型拖动到某个量度中且不必对其进行两次配置。
 
-## 使用 [!UICONTROL 累积平均值] 应用量度平滑功能
+## 使用[!UICONTROL 累积平均]函数应用量度平滑
 
 以下是一段关于该主题的视频：
 
