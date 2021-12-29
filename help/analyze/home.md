@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 96%
 * **[!UICONTROL Reporting API]：**&#x200B;直接向 Adobe 的服务器发出报表查询，并获得响应以供在您自己的客户报表工具中使用。
 * **[!UICONTROL Reports &amp; Analytics]：**&#x200B;一个包含大量预建报表的工具。Adobe 建议您使用 Analysis Workspace 以满足大多数的报表需求。
 
-以下是Adobe Analytics的视频概述：
+下面是 Adobe Analytics 的视频概述：
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
-## Analytics 工具方面的重要文章
+## 重要 Analytics 工具文章
 
 * [Adobe Analytics 功能板 - 概述](/help/analyze/mobile-app/home.md)
 * [Analysis Workspace 快速入门](analysis-workspace/home.md)
@@ -38,7 +38,7 @@ ht-degree: 96%
 
 ## 更多 Analytics 用户指南
 
-[Analytics 用户指南](https://experienceleague.adobe.com/docs/analytics.html)
+[Analytics 用户指南](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hans)
 
 ## 重要 Analytics 资源
 
