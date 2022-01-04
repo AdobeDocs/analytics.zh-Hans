@@ -7,9 +7,9 @@ feature: Reports & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 20a4ee51d0eace9cdcb5e0aeff5704b9a757a1eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3432'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 97%
 | `click_context_type` | 已不再使用。指示 click_context 是使用了页面名称，还是默认使用了页面 URL。<br>0：页面 URL<br>1：页面名称 | 无符号 tinyint |
 | `click_sourceid` | 已不再使用。页面上点击链接的位置所对应的数字 ID。包含在旧版 ClickMap 工具中。 | 无符号 int |
 | `click_tag` | 已不再使用。已点击的 HTML 元素的类型。 | char(10) |
-| `clickmaplink` | Activity Map链接 | varchar(255) |
+| `clickmaplink` | Activity Map 链接 | varchar(255) |
 | `clickmaplinkbyregion` | Activity Map 链接（按地区） | varchar(255) |
 | `clickmappage` | Activity Map 页面 | varchar(255) |
 | `clickmapregion` | Activity Map 地区 | varchar(255) |
@@ -54,7 +54,7 @@ ht-degree: 97%
 | `color` | 颜色深度 ID，它基于 `c_color` 列的值。引用 `color_depth.tsv` 查找表。 | 无符号 smallint |
 | `connection_type` | 表示连接类型的数值 ID。在[连接类型](/help/components/dimensions/connection-type.md)维度中使用的变量。引用 `connection_type.tsv` 查找表。 | 无符号 tinyint |
 | `cookies` | 在 [Cookie 支持](/help/components/dimensions/cookie-support.md)维度中使用的变量。<br>Y：启用<br>N：禁用<br>U：未知 | char(1) |
-| `country` | 数字ID，表示在 `country.tsv` 查找。 在Reports &amp; Analytics的顶级域报表中使用。 | 无符号 smallint |
+| `country` | 表示在 `country.tsv` 查找中找到的值的数值 ID。在 Reports &amp; Analytics 中的“顶级域”报表中使用它。 | 无符号 smallint |
 | `ct_connect_type` | 与 `connection_type` 列相关。最常见的值为 LAN/Wifi、Mobile Carrier 和 Modem。 | char(20) |
 | `curr_factor` | 确定货币的小数位，用于货币兑换。例如，美元使用两个小数位，因此该列的值为 2。 | tinyint |
 | `curr_rate` | 交易时的汇率。Adobe 与 XE 合作，以确定当天的汇率。 | decimal(24,12) |
@@ -69,7 +69,7 @@ ht-degree: 97%
 | `duplicated_from` | 仅在包含点击复制 VISTA 规则的报表包中使用。指示点击是从哪个报表包中复制的。 | varchar(40) |
 | `ef_id` | 在 Adobe Advertising Cloud 集成中使用的 `ef_id`。 | varchar(255) |
 | `evar1 - evar250` | 自定义变量 1 至 250。在 [eVar](/help/components/dimensions/evar.md) 维度中用到。每个公司使用 eVar 的方式有所不同。要了解有关贵组织如何填充各个 eVar 的更多信息，您最好参阅专为贵组织设计的解决方案文档。 | varchar(255) |
-| `event_list` | 以逗号分隔的数字 ID 列表，其中各 ID 表示点击时所触发的各个事件。包含默认事件及自定义事件 1-1,000。使用 `event.tsv` 查找。 | 文本 |
+| `event_list` | 以逗号分隔的数字 ID 列表，其中各 ID 表示点击时所触发的各个事件。包含默认事件及自定义事件 1-1,000。使用 `event.tsv` 查找。 | text |
 | `exclude_hit` | 指示是否从报表中排除点击的标志。对于被排除的点击，`visit_num` 列不递增。<br>1：未使用。属于某个已弃用的功能。<br>2：未使用。属于某个已弃用的功能。<br>3：已不再使用。用户代理排除<br>4：根据 IP 地址排除<br>5：缺少重要的点击信息，如 `page_url`、`pagename`、`page_event` 或 `event_list`<br>6：JavaScript 未正确处理点击<br>7：帐户特有的排除，如 VISTA 规则中的排除<br>8: 未使用。替代特定于帐户的排除。<br>9：未使用。属于某个已弃用的功能。<br>10：无效的货币代码<br>11：仅时间戳报表包上缺少时间戳的点击，或非时间戳报表包上包含时间戳的点击<br>12：未使用。属于某个已弃用的功能。<br>13：未使用。属于某个已弃用的功能。<br>14：与 Analytics 点击不匹配的 Target 点击<br>15：当前未使用。<br>16：与 Analytics 点击不匹配的 Advertising Cloud 点击 | 无符号 tinyint |
 | `first_hit_page_url` | 访客访问的第一个 URL。 | varchar(255) |
 | `first_hit_pagename` | 在[原始登入页面](/help/components/dimensions/entry-dimensions.md)维度中使用的变量。访客访问的原始登录页面名称。 | varchar(100) |
@@ -77,11 +77,11 @@ ht-degree: 97%
 | `first_hit_ref_type` | 表示访客使用的第一个反向链接的反向链接类型的数值 ID。使用 `referrer_type.tsv` 查找。 | 无符号 tinyint |
 | `first_hit_referrer` | 访客访问的第一个反向链接 URL。 | varchar(255) |
 | `first_hit_time_gmt` | 访客第一次点击的时间戳（基于 Unix 时间）。 | int |
-| `geo_city` | 点击来自的城市名称（基于IP）。 在[城市](/help/components/dimensions/cities.md)维度中用到。 | char(32) |
-| `geo_country` | 点击来源的国家/地区的缩写，基于IP。 在[国家/地区](/help/components/dimensions/countries.md)维度中用到。 | char(4) |
-| `geo_dma` | 点击来源的人口统计区域的数字ID，基于IP。 在[美国 DMA](/help/components/dimensions/us-dma.md) 维度中用到。 | 无符号 int |
-| `geo_region` | 点击来自的州或地区的名称（基于IP）。 在[地区](/help/components/dimensions/regions.md)维度中用到。 | char(32) |
-| `geo_zip` | 点击来自的邮政编码（基于IP）。 有助于填充[邮编](/help/components/dimensions/zip-code.md)维度。另请参阅 `zip`。 | varchar(16) |
+| `geo_city` | 根据 IP 地址判断的点击来源城市的名称。在[城市](/help/components/dimensions/cities.md)维度中用到。 | char(32) |
+| `geo_country` | 根据 IP 地址判断的点击来源国家/地区的缩写。在[国家/地区](/help/components/dimensions/countries.md)维度中使用它。 | char(4) |
+| `geo_dma` | 根据 IP 地址判断的点击来源人口统计区的数值 ID。在[美国 DMA](/help/components/dimensions/us-dma.md) 维度中用到。 | 无符号 int |
+| `geo_region` | 根据 IP 地址判断的点击来源省/市/自治区或区域的名称。在[地区](/help/components/dimensions/regions.md)维度中用到。 | char(32) |
+| `geo_zip` | 根据 IP 地址判断的点击来源的邮政编码。有助于填充[邮编](/help/components/dimensions/zip-code.md)维度。另请参阅 `zip`。 | varchar(16) |
 | `hier1 - hier5` | 由层级变量使用。包含一个分隔的值列表。在“报表包设置”下方选择分隔符。 | varchar(255) |
 | `hit_source` | 表示点击的来源。点击源 1、2 和 6 将计费。<br>1：不带时间戳的标准图像请求<br>2：带有时间戳的标准图像请求<br>3：带有时间戳的实时数据源上载<br>4：未使用<br>5：通用数据源上载<br>6：完全处理数据源上载<br>7：TransactionID 数据源上载<br>8：不再使用；Adobe Advertising Cloud 数据源的以前版本<br>9：不再使用；Adobe Social 概要指标<br>10：使用了 Audience Manager 服务器端转发 | 无符号 tinyint |
 | `hit_time_gmt` | Adobe 数据收集服务器收到点击的时间戳，基于 Unix 时间。 | int |
@@ -101,7 +101,7 @@ ht-degree: 97%
 | `latlon1` | 位置（精确到 10 千米） | varchar(255) |
 | `latlon23` | 位置（精确到 100 米） | varchar(255) |
 | `latlon45` | 位置（精确到 1 米） | varchar(255) |
-| `mc_audiences` | 列出访客所属的 Audience Manager 区段 ID。 | 文本 |
+| `mc_audiences` | 列出访客所属的 Audience Manager 区段 ID。 | text |
 | `mcvisid` | Experience Cloud 访客 ID. 一个 128 位的数字（由两个 64 位的数字拼接而成），共占据了 19 位数。 | varchar(255) |
 | `mobile_id` | 如果用户使用了移动设备，则为移动设备的数字 ID。 | int |
 | `mobileaction` | 移动设备操作。在 Mobile Services 中调用 `trackAction` 时自动收集此项。应用程序支持自动的操作路径。 | varchar(100) |
@@ -146,17 +146,17 @@ ht-degree: 97%
 | `mobilerelaunchcampaigntrackingcode` | 从上下文数据变量 `a.launch.campaign.trackingcode` 收集。在客户获取中用作启动促销活动的跟踪代码。 | varchar(255) |
 | `mobileresolution` | 移动设备的分辨率。`[Width] x [Height]` 以像素为单位。 | varchar(255) |
 | `monthly_visitor` | 表示访客属于当月的独特访客的标记。 | 无符号 tinyint |
-| `mvvar1` - `mvvar3` | 列出变量值。包含分隔的自定义值列表（取决于实施）。 | 文本 |
+| `mvvar1` - `mvvar3` | 列出变量值。包含分隔的自定义值列表（取决于实施）。 | text |
 | `namespace` | 未使用。属于某个已弃用的功能。 | varchar(50) |
 | `new_visit` | 确定当前点击是否为新访问的标记。在访问处于不活动状态 30 分钟后，由 Adobe 服务器设置。 | 无符号 tinyint |
 | `os` | 表示访客的操作系统的数值 ID。基于 `user_agent` 列。使用 `os` 查找。 | 无符号 int |
-| `p_plugins` | 已不再使用。可用于浏览器的插件列表。使用了 JavaScript 函数 `navigator.plugins()`。 | 文本 |
+| `p_plugins` | 已不再使用。可用于浏览器的插件列表。使用了 JavaScript 函数 `navigator.plugins()`。 | text |
 | `page_event` | 在图像请求中发送的点击类型（标准点击、下载链接、自定义链接、退出链接）。请参阅[页面事件查找](datafeeds-page-event.md)。 | 无符号 tinyint |
-| `page_event_var1` | 仅用于链接跟踪图像请求。单击的下载链接、退出链接或自定义链接的 URL。 | 文本 |
+| `page_event_var1` | 仅用于链接跟踪图像请求。单击的下载链接、退出链接或自定义链接的 URL。 | text |
 | `page_event_var2` | 仅用于链接跟踪图像请求。链接的自定义名称（如果已指定）。 | varchar(100) |
-| `page_event_var3` | 已不再使用。包含调查和媒体模块数据。用于填充 Adobe Analytics 早期版本中的旧版视频报表。 | 文本 |
+| `page_event_var3` | 已不再使用。包含调查和媒体模块数据。用于填充 Adobe Analytics 早期版本中的旧版视频报表。 | text |
 | `page_type` | 用于填充[未找到页面](/help/components/dimensions/pages-not-found.md)维度。仅用于 404 页面。此变量应为空或包含 `ErrorPage` 值。 | char(20) |
-| `page_url` | 点击的 URL。请注意，`post_page_url` 被剥离以用于链接跟踪图像请求，并使用 varchar(255) 数据类型。 | 文本 |
+| `page_url` | 点击的 URL。请注意，`post_page_url` 被剥离以用于链接跟踪图像请求，并使用 varchar(255) 数据类型。 | text |
 | `pagename` | 用于填充[页面](/help/components/dimensions/page.md)维度。如果 [`pagename`](/help/implement/vars/page-vars/pagename.md) 变量为空，则 Analytics 改用 `page_url`。 | varchar(100) |
 | `paid_search` | 设置点击是否与付费搜索检测匹配的标记。 | 无符号 tinyint |
 | `partner_plugins` | 未使用。属于某个已弃用的功能。 | varchar(255) |
@@ -166,8 +166,8 @@ ht-degree: 97%
 | `pointofinterestdistance` | Mobile Services 与目标点中心的距离 | varchar(255) |
 | `post_` 列 | 包含报表中最终使用的值。每个 post 列会在服务器端逻辑、处理规则和 VISTA 规则后填充。大多数情况下，Adobe 建议使用 post_ 列。 | 请参阅相应的非 post 列 |
 | `prev_page` | 未使用。上一页的 Adobe 专有标识符。 | 无符号 int |
-| `product_list` | 产品列表，通过 [`products`](/help/implement/vars/page-vars/products.md) 变量传入。各产品用逗号分隔，而各个产品属性则用分号分隔。 | 文本 |
-| `product_merchandising` | 未使用。请改用 `product_list`。 | 文本 |
+| `product_list` | 产品列表，通过 [`products`](/help/implement/vars/page-vars/products.md) 变量传入。各产品用逗号分隔，而各个产品属性则用分号分隔。 | text |
+| `product_merchandising` | 未使用。请改用 `product_list`。 | text |
 | `prop1` - `prop75` | 自定义流量变量 1 至 75。在 [Prop](/help/components/dimensions/prop.md) 维度中用到。 | varchar(100) |
 | `purchaseid` | 某次购买的唯一标识符，使用 [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) 变量设置它。供 `duplicate_purchase` 列使用。 | char(20) |
 | `quarterly_visitor` | 确定点击是否为新的每季访客的标记。 | 无符号 tinyint |
@@ -199,15 +199,15 @@ ht-degree: 97%
 | `state` | 状态变量。 | varchar(50) |
 | `stats_server` | 没有用处。处理点击的 Adobe 内部服务器。 | char(30) |
 | `t_time_info` | 访客的当地时间。格式为：`M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
-| `tnt` | 在 Adobe Target 集成中使用。表示所有当前符合条件的测试。格式为：`TargetCampaignID:TargetRecipeID:TargetType|Event/Action`。 | 文本 |
-| `tnt_action` | 在 Adobe Target 集成中使用。表示点击符合条件的所有测试。 | 文本 |
-| `tnt_post_vista` | 已不再使用。请改用 `post_tnt`。 | 文本 |
-| `transactionid` | 其中稍后可通过数据源上载各种数据点的唯一标识符。使用 [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 变量收集而得。 | 文本 |
+| `tnt` | 在 Adobe Target 集成中使用。表示所有当前符合条件的测试。格式为：`TargetCampaignID:TargetRecipeID:TargetType|Event/Action`。 | text |
+| `tnt_action` | 在 Adobe Target 集成中使用。表示点击符合条件的所有测试。 | text |
+| `tnt_post_vista` | 已不再使用。请改用 `post_tnt`。 | text |
+| `transactionid` | 其中稍后可通过数据源上载各种数据点的唯一标识符。使用 [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 变量收集而得。 | text |
 | `truncated_hit` | 表示图像请求已被截断的标记。表示收到了不完整的点击。<br>Y：点击被截断；收到部分点击<br>N：点击未被截断；收到完整点击 | char(1) |
 | `ua_color` | 已不再使用。之前用作颜色深度的备选项。 | char(20) |
 | `ua_os` | 已不再使用。之前用作操作系统的备选项。 | char(80) |
 | `ua_pixels` | 已不再使用。之前用作浏览器高度和宽度的备选项。 | char(20) |
-| `user_agent` | 在图像请求的 HTTP 标头中发送的用户代理字符串。 | 文本 |
+| `user_agent` | 在图像请求的 HTTP 标头中发送的用户代理字符串。 | text |
 | `user_hash` | 没有用处。有关报表包 ID 的散列。请改用 `username`。 | 无符号 int |
 | `user_server` | 在[服务器](/help/components/dimensions/server.md)维度中用到。 | varchar(100) |
 | `userid` | 没有用处。表示报表包 ID 的数字 ID。请改用 `username`。 | 无符号 int |
@@ -240,7 +240,7 @@ ht-degree: 97%
 | `videodaypart` | 视频播放时段 | varchar(255) |
 | `videoepisode` | 视频剧集 | varchar(255) |
 | `videofeedtype` | 视频馈送类型 | varchar(255) |
-| `videogenre` | 视频流派 | 文本 |
+| `videogenre` | 视频流派 | text |
 | `videolength` | 视频长度 | varchar(255) |
 | `videomvpd` | 视频 MVPD | varchar(255) |
 | `videoname` | 视频名称 | varchar(255) |
@@ -253,8 +253,8 @@ ht-degree: 97%
 | `videoqoebuffertimeevar` | 视频品质：缓冲时间 | varchar(255) |
 | `videoqoedroppedframecountevar` | 视频品质：丢帧计数 | varchar(255) |
 | `videoqoeerrorcountevar` | 视频品质：错误计数 | varchar(255) |
-| `videoqoeextneralerrors` | 视频品质：外部错误 | 文本 |
-| `videoqoeplayersdkerrors` | 视频品质：SDK 错误 | 文本 |
+| `videoqoeextneralerrors` | 视频品质：外部错误 | text |
+| `videoqoeplayersdkerrors` | 视频品质：SDK 错误 | text |
 | `videoqoetimetostartevar` | 视频品质：启动时间 | varchar(255) |
 | `videoseason` | 视频季 | varchar(255) |
 | `videosegment` | 视频区段 | varchar(255) |
