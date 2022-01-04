@@ -5,7 +5,7 @@ exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 source-git-commit: aca7a89449cb8d1dfb8420f4ac9c0f331940690f
 workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 89%
 
 * **[数据源](c-data-sources/datasrc-home.md)**：将文件上传到指定的 Adobe FTP 站点。Adobe 将检索该文件，并包含您的报表包中的数据。
 * **[数据插入 API](c-data-insertion-api/c-data-insertion-api.md)**：通过 API，将数据直接发送到 Adobe 的数据收集中。
-* **[AdobeExchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product)**:查找可用于扩充您的Adobe Analytics报表包的当前集成。
+* **[Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product)**：查找当前可用于充实您的 Adobe Analytics 报表包的集成。
 
 下面是 Adobe Analytics 的视频概述：
 

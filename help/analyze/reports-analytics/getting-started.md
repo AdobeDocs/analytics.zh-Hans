@@ -7,7 +7,7 @@ exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 source-git-commit: 1d5cb1c2b9ab2414d42d18f6395b1857786c8da0
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -101,4 +101,4 @@ ht-degree: 95%
 您可以从 Adobe Experience Cloud 访问文档和主页。（**[!UICONTROL 帮助]** > **[!UICONTROL 帮助主页]**。）
 
 >[!NOTE]
->本产品在北美和实际销售产品的其他地区获得销售授权。 不得符合在其他国家或者地区销售的当地要求。
+>本产品获准在北美和其他实际销售本产品的区域进行销售。它可能不符合其他国家或地区当地的销售要求。
