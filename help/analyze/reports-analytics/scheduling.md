@@ -3,19 +3,22 @@ description: 有关计划、下载和分发报表的信息。
 subtopic: Schedule
 title: 报表计划和分发
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-feature: Reports & Analytics 基础知识
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: a589e2dffd52749ec3e243815451fe3ed2396509
-workflow-type: ht
-source-wordcount: '1666'
-ht-degree: 100%
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
+workflow-type: tm+mt
+source-wordcount: '1750'
+ht-degree: 95%
 
 ---
 
 # 报表计划和分发
 
 有关计划、下载和分发报表的信息。
+
+>[!IMPORTANT]
+>有效 **2023年12月31日**,Adobe打算停用Reports &amp; Analytics及其随附的报表和功能。 届时， Reports &amp; Analytics及其所有报表和计划将停止工作。 支持Reports &amp; Analytics的报表、可视化图表和基础技术不再满足Adobe的技术标准。 Analysis Workspace中提供了大多数Reports &amp; Analytics功能。 自2015年Analysis Workspace发布以来，Reports &amp; Analytics的功能和功能已移至Analysis Workspace，并达到工作流对等性的阈值。 本通知将介绍生命周期终止的过程。
 
 计划报表以提交至 Adobe Analytics 应用程序时，可以使用“计划”和“分发”工具来查看已经自动发送的文件，并修改或终止提交。
 

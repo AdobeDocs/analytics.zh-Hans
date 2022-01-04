@@ -2,19 +2,22 @@
 description: “Reports & Analytics”中的“报表”菜单概述。
 title: “报表”菜单
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-feature: Reports & Analytics 基础知识
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 97%
+source-wordcount: '855'
+ht-degree: 87%
 
 ---
 
 # “报表”菜单{#reports-menu}
 
 “Reports &amp; Analytics”中的“报表”菜单概述。
+
+>[!IMPORTANT]
+>有效 **2023年12月31日**,Adobe打算停用Reports &amp; Analytics及其随附的报表和功能。 届时， Reports &amp; Analytics及其所有报表和计划将停止工作。 支持Reports &amp; Analytics的报表、可视化图表和基础技术不再满足Adobe的技术标准。 Analysis Workspace中提供了大多数Reports &amp; Analytics功能。 自2015年Analysis Workspace发布以来，Reports &amp; Analytics的功能和功能已移至Analysis Workspace，并达到工作流对等性的阈值。 本通知将介绍生命周期终止的过程。
 
 “报表”菜单提供：
 
@@ -31,7 +34,7 @@ ht-degree: 97%
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-有关单个报表的详细信息，请参阅[Dimension](/help/components/dimensions/overview.md)。
+有关单个报表的详细信息，请参阅 [Dimension](/help/components/dimensions/overview.md).
 
 ## 搜索报表 {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 

@@ -1,13 +1,13 @@
 ---
 title: 报表
 description: Reports & Analytics 用于每个报表的维度和量度。
-feature: 报表 & Analytics 基础
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '1866'
-ht-degree: 100%
+source-wordcount: '1950'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,9 @@ Reports &amp; Analytics 的每个报表会使用专用维度和量度。您可�
 >[!NOTE]
 >
 >您的报表菜单看上去可能会有所不同，具体取决于贵组织管理员所做的自定义设置。请参阅管理员用户指南中的[菜单自定义](/help/admin/admin/customize-menus.md)。
+
+>[!IMPORTANT]
+>有效 **2023年12月31日**,Adobe打算停用Reports &amp; Analytics及其随附的报表和功能。 届时， Reports &amp; Analytics及其所有报表和计划将停止工作。 支持Reports &amp; Analytics的报表、可视化图表和基础技术不再满足Adobe的技术标准。 Analysis Workspace中提供了大多数Reports &amp; Analytics功能。 自2015年Analysis Workspace发布以来，Reports &amp; Analytics的功能和功能已移至Analysis Workspace，并达到工作流对等性的阈值。 本通知将介绍生命周期终止的过程。
 
 ## 网站量度
 

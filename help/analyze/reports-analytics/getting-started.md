@@ -4,16 +4,19 @@ title: Reports and Analytics 快速入门
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 1d5cb1c2b9ab2414d42d18f6395b1857786c8da0
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 100%
+source-wordcount: '790'
+ht-degree: 88%
 
 ---
 
 # Reports &amp; Analytics 快速入门
 
 在使用 Reports &amp; Analytics 之前，请了解这些基本的登录和设置任务以及如何访问帐户信息。
+
+>[!IMPORTANT]
+>有效 **2023年12月31日**,Adobe打算停用Reports &amp; Analytics及其随附的报表和功能。 届时， Reports &amp; Analytics及其所有报表和计划将停止工作。 支持Reports &amp; Analytics的报表、可视化图表和基础技术不再满足Adobe的技术标准。 Analysis Workspace中提供了大多数Reports &amp; Analytics功能。 自2015年Analysis Workspace发布以来，Reports &amp; Analytics的功能和功能已移至Analysis Workspace，并达到工作流对等性的阈值。 本通知将介绍生命周期终止的过程。
 
 报告帮助您深入了解传统 Web 渠道以及逐渐发展的新渠道，如移动、视频和社交网络。报表的部分示例包括：
 
@@ -30,9 +33,6 @@ ht-degree: 100%
 ## 浏览器和系统要求
 
 登录“Reports &amp; Analytics”界面的浏览器和系统要求。
-
->[!NOTE]
->Adobe 已于 2018 年 11 月 13 日，停止在 Adobe Analytics 中支持 Internet Explorer 11。请尽快切换到 Microsoft Edge 或其他受支持的浏览器。
 
 * 首选浏览器：最新版的 Firefox、Chrome、Safari 或 Edge。
 * 必须启用 Cookie 和 JavaScript。

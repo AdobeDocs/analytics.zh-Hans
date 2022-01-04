@@ -4,10 +4,10 @@ title: 报表显示设置和导航
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 role: User, Admin
 exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 99%
+source-wordcount: '1557'
+ht-degree: 94%
 
 ---
 
@@ -15,9 +15,12 @@ ht-degree: 99%
 
 用来定义所有报表显示方式的设置以及将默认菜单选项映射到简化菜单中相应位置的信息。
 
+>[!IMPORTANT]
+>有效 **2023年12月31日**,Adobe打算停用Reports &amp; Analytics及其随附的报表和功能。 届时， Reports &amp; Analytics及其所有报表和计划将停止工作。 支持Reports &amp; Analytics的报表、可视化图表和基础技术不再满足Adobe的技术标准。 Analysis Workspace中提供了大多数Reports &amp; Analytics功能。 自2015年Analysis Workspace发布以来，Reports &amp; Analytics的功能和功能已移至Analysis Workspace，并达到工作流对等性的阈值。 本通知将介绍生命周期终止的过程。
+
 ## 报表显示设置和导航 {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]**  >  **[!UICONTROL 组件]**  >  **[!UICONTROL 所有组件]**  >  **[!UICONTROL 报表设置]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 报表设置]**
 
 | 元素 | 描述 |
 |--- |--- |

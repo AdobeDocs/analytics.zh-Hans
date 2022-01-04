@@ -5,16 +5,19 @@ title: 常见问题解答
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '753'
-ht-degree: 100%
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
+workflow-type: tm+mt
+source-wordcount: '840'
+ht-degree: 89%
 
 ---
 
 # 常见问题解答
 
 为 Reports &amp; Analytics 的一些最常见的 Analytics 问题，提供答案和故障诊断建议。有关常见的实施问题，请参阅实施用户指南中的[常见问题解答](/help/implement/faq.md)。
+
+>[!IMPORTANT]
+>有效 **2023年12月31日**,Adobe打算停用Reports &amp; Analytics及其随附的报表和功能。 届时， Reports &amp; Analytics及其所有报表和计划将停止工作。 支持Reports &amp; Analytics的报表、可视化图表和基础技术不再满足Adobe的技术标准。 Analysis Workspace中提供了大多数Reports &amp; Analytics功能。 自2015年Analysis Workspace发布以来，Reports &amp; Analytics的功能和功能已移至Analysis Workspace，并达到工作流对等性的阈值。 本通知将介绍生命周期终止的过程。
 
 **我的帐户已被锁定，怎样才能解锁？**
 
