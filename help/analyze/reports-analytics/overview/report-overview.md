@@ -6,9 +6,9 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
 source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 79%
 此示例显示了[!UICONTROL 页面报表]。配置选项可能有所差异，具体取决于运行的报表。例如，您可以在[!UICONTROL 网站内容]报表中不选择趋势或排名，而为[!UICONTROL 网站量度]报表指定粒度和页面。
 
 >[!IMPORTANT]
->有效 **2023年12月31日**,Adobe打算停用Reports &amp; Analytics及其随附的报表和功能。 届时， Reports &amp; Analytics及其所有报表和计划将停止工作。 支持Reports &amp; Analytics的报表、可视化图表和基础技术不再满足Adobe的技术标准。 Analysis Workspace中提供了大多数Reports &amp; Analytics功能。 自2015年Analysis Workspace发布以来，Reports &amp; Analytics的功能和功能已移至Analysis Workspace，并达到工作流对等性的阈值。 本通知将介绍生命周期终止的过程。
+>自 **2023 年 12 月 31 日**&#x200B;起，Adobe 决定中断 Reports &amp; Analytics 及其随附的报表和功能。到时候，Reports &amp; Analytics 及其所有报表和计划都将停止工作。支持 Reports &amp; Analytics 的报表、可视化和底层技术不再满足 Adobe 的技术标准。在 Analysis Workspace 中提供了 Reports &amp; Analytics 的大部分功能。自 2015 年发布 Analysis Workspace 以来，Reports &amp; Analytics 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。本通知解释了生命周期结束的过程。
 
 ## 页面报表示例 {#section_288CC85536684C2DB184141358481EF0}
 
@@ -67,7 +67,7 @@ ht-degree: 79%
 
 请参阅[自定义报表](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)。
 
-## 指标 {#section_8B8F9EC72B864E29B91039E7B7381EAD}
+## 量度 {#section_8B8F9EC72B864E29B91039E7B7381EAD}
 
 向报表添加量度。管理员可以指定默认量度。
 
