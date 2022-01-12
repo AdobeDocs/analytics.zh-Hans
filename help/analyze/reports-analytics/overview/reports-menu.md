@@ -6,9 +6,9 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
 source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '855'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 87%
 “Reports &amp; Analytics”中的“报表”菜单概述。
 
 >[!IMPORTANT]
->有效 **2023年12月31日**,Adobe打算停用Reports &amp; Analytics及其随附的报表和功能。 届时， Reports &amp; Analytics及其所有报表和计划将停止工作。 支持Reports &amp; Analytics的报表、可视化图表和基础技术不再满足Adobe的技术标准。 Analysis Workspace中提供了大多数Reports &amp; Analytics功能。 自2015年Analysis Workspace发布以来，Reports &amp; Analytics的功能和功能已移至Analysis Workspace，并达到工作流对等性的阈值。 本通知将介绍生命周期终止的过程。
+>自 **2023 年 12 月 31 日**&#x200B;起，Adobe 决定中断 Reports &amp; Analytics 及其随附的报表和功能。到时候，Reports &amp; Analytics 及其所有报表和计划都将停止工作。支持 Reports &amp; Analytics 的报表、可视化和底层技术不再满足 Adobe 的技术标准。在 Analysis Workspace 中提供了 Reports &amp; Analytics 的大部分功能。自 2015 年发布 Analysis Workspace 以来，Reports &amp; Analytics 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。本通知解释了生命周期结束的过程。
 
 “报表”菜单提供：
 
@@ -34,11 +34,11 @@ ht-degree: 87%
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-有关单个报表的详细信息，请参阅 [Dimension](/help/components/dimensions/overview.md).
+有关个别报表的详细信息，请参阅[维度](/help/components/dimensions/overview.md)。
 
 ## 搜索报表 {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
-“报表”菜单提供了增强的搜索体验。单击&#x200B;**[!UICONTROL 查看所有报表]**，或按正斜杠键 (/)，然后开始键入内容可快速查找报表。报表搜索已扩展到包含 Analytics 左侧导航器菜单中的所有内容（管理员，组件等）。
+“报表”菜单提供了增强的搜索体验。单击&#x200B;**[!UICONTROL 查看所有报表]**，或按正斜杠键 (/)，然后开始键入内容可快速查找报表。报表搜索已扩展到包含 Analytics 左侧导航器菜单中的所有内容（管理员、组件等）。
 
 ![](assets/menu-search.png)
 
@@ -68,7 +68,7 @@ ht-degree: 87%
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">区段 <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">可显示用于添加或管理区段的区段边栏。您还可以通过区段边栏访问<a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >区段生成器</a>和<a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=zh-Hans"  >区段管理器</a>界面。 </td> 
+   <td colname="col2">可显示用于添加或管理区段的区段边栏。您还可以通过区段边栏访问<a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >区段生成器</a>和<a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >区段管理器</a>界面。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">量度 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -116,7 +116,7 @@ ht-degree: 87%
   </tr> 
   <tr> 
    <td colname="col1">报表包选择器 <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">允许您选择<a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=zh-Hans"  >基本报表包</a>或<a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  >虚拟报表包</a>。 </td> 
+   <td colname="col2">允许您选择<a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html"  >基本报表包</a>或<a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  >虚拟报表包</a>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1">日历 <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
@@ -125,6 +125,6 @@ ht-degree: 87%
  </tbody> 
 </table>
 
-## 自定义所有报表菜单 {#section_7E47312747564FBE8A55EE5726B7DFF4}
+## 自定义“所有报表”菜单 {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
 管理员可以更改“报表”菜单中包含的报表。请参阅“管理参考”中的[菜单自定义](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html)。
