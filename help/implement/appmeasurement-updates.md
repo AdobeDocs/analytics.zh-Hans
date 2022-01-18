@@ -3,10 +3,10 @@ title: AppMeasurement for JavaScript 发行说明
 description: AppMeasurement for JavaScript 的发行说明汇总。
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: f06f067d3273883cea4f5d6b4e2b0da303a0d5d2
+source-git-commit: d9999d45476a70cee49f83d009ce95b9b4931529
 workflow-type: tm+mt
-source-wordcount: '2235'
-ht-degree: 99%
+source-wordcount: '2267'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
 
 发行日期：**2022 年 1 月 11 日**
 
-* 修复了s.tl()，以便优雅地忽略带有href对象而不是href字符串的对象。
+* 链接跟踪调用 `s.tl()` 现在验证传递给该对象的对象是否包含 `href` 类型属性 `string`. 如果不是 `string`，则会优雅地忽略 `href` 属性，而不是失败。 在传递时可能会发生这种情况 `svg` 链接跟踪调用的对象。
 
 ## 版本 2.22.3
 
