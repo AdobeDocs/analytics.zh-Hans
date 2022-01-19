@@ -3,10 +3,10 @@ description: 数据源在处理作为标准服务器调用的数据时，支持�
 title: 完全处理
 topic-fix: Developer and implementation
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 94%
+source-wordcount: '718'
+ht-degree: 92%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Adobe 建议客户使用[批量数据插入 API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)，而不是完全处理数据源。Adobe 计划在 2021 年 7 月 31 日弃用完全处理数据源。[了解详情](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>Adobe建议您使用 [批量数据插入API(BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) 而不是完全处理数据源。 Adobe2022年1月31日弃用了完全处理数据源。 [了解详情](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 数据源在处理作为标准服务器调用的数据时，支持以下变量（普通 > 完全处理）。
 
@@ -68,7 +68,7 @@ ht-degree: 94%
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>事件 </p> </td> 
-   <td colname="col3"> <p>事件字符串，使用与 <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a> 变量相同的语法进行格式设置。 </p> <p>例如： </p> 
+   <td colname="col3"> <p>事件字符串，使用与 <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=zh-Hans"  >s.events</a> 变量相同的语法进行格式设置。 </p> <p>例如： </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -116,7 +116,7 @@ ht-degree: 94%
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>产品 </p> </td> 
-   <td colname="col3"> <p>产品列表（例如<code> "Sports;Ball;1;5.95"</code>）。 每行最多可保存4096字节的值。</p> </td> 
+   <td colname="col3"> <p>产品列表(例如， <code> "Sports;Ball;1;5.95"</code>)。 每行最多可保存4096字节的值。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
