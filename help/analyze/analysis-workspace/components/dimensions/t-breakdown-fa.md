@@ -6,10 +6,10 @@ uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: ht
-source-wordcount: '218'
-ht-degree: 100%
+source-git-commit: 9f0f17936de2597611728498c5ed82d36fd01d1c
+workflow-type: tm+mt
+source-wordcount: '343'
+ht-degree: 63%
 
 ---
 
@@ -35,6 +35,14 @@ ht-degree: 100%
 也可以对表中的任何划分应用归因模型。此归因模型可能与父列相同或不同。例如，您可以对“营销渠道”维度上的线性订单进行分析，但同时将 U 型订单应用于渠道中的特定跟踪代码。要编辑已应用于划分的归因模型，只需将鼠标悬停在划分模型上，然后单击&#x200B;**[!UICONTROL 编辑]**：
 
 ![划分设置](assets/breakdown_settings.png)
+
+将归因模型应用于划分或编辑划分时的预期行为是：
+
+* 如果您在不存在其他属性时应用归因，则该归因将应用于整个列树。
+
+* 如果在应用归因后添加划分，则在该维度具有默认值时，它将对添加的给定划分使用默认值。 否则，它将使用父列中的划分。 某些维度具有默认分配。  例如， [!UICONTROL 时间] 维度和 [!UICONTROL 反向链接] use [!UICONTROL 同一接触]. 的 [!UICONTROL 产品] 维度使用 [!UICONTROL 最近联系]. 其他维没有默认维，将使用父列分配。
+
+* 如果列树中已存在属性，则更改属性只会影响您正在编辑的属性。
 
 ## 视频
 
