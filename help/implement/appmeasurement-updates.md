@@ -6,7 +6,7 @@ exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 71c4b4d7381dcdf79c550f968c8f720d87c63126
 workflow-type: tm+mt
 source-wordcount: '2267'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 发行日期：**2022 年 1 月 18 日**
 
-* 链接跟踪调用 `s.tl()` 现在验证传递给该对象的对象是否包含 `href` 类型属性 `string`. 如果不是 `string`，则会优雅地忽略 `href` 属性，而不是失败。 在传递时可能会发生这种情况 `svg` 链接跟踪调用的对象。
+* 链接跟踪调用 `s.tl()` 现在验证传递给它的对象是否包含 `string` 类型的 `href` 属性。如果它不是 `string`，则它将正常地忽略 `href` 属性而非运行失败。将 `svg` 对象传递给链接跟踪调用时可能会发生此情况。
 
 ## 版本 2.22.3
 
