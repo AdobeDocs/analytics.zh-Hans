@@ -5,9 +5,9 @@ user-guide-title: Analytics 导出指南
 breadcrumb-title: 导出指南
 user-guide-description: 使用“数据馈送”接收每小时或每天导出的原始数据。使用 Data Warehouse 检索以电子表格输出的数据。
 source-git-commit: d50ec88ec7d2271d009ae8049481e20d0c90162b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 98%
    + [使用被动 FTP 模式](ftp-and-sftp/ftp-passive.md)
    + [FTP 处理时间](ftp-and-sftp/ftp-processing.md)
    + 安全文件传输协议 {#secure-file-transfer-protocol}
-      + [SFTP服务升级 — 常见问题解答](ftp-and-sftp/c-sftp/sftp-upgrade.md)
+      + [SFTP 服务升级 - 常见问题解答](ftp-and-sftp/c-sftp/sftp-upgrade.md)
       + [安全文件传输协议 - 概述](ftp-and-sftp/c-sftp/ftp-sftp.md)
       + [通过 SFTP 连接到 Adobe FTP 帐户](ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
       + [通过 SFTP 将 Adobe 数据发送到外部 FTP 帐户](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
