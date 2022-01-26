@@ -1,30 +1,38 @@
 ---
-title: Create annotations
-description: How to create annotations in Workspace.
+title: 创建注释
+description: 如何在工作区中创建注释。
 role: User, Admin
-source-git-commit: 6c1727ddc57de5767409462cdf1293f8ff2d94df
+source-git-commit: f8f2b5eed5124724b7889c9f1656e4a524dc37c7
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 5%
+source-wordcount: '290'
+ht-degree: 6%
 
 ---
 
 
-# Create annotations
+# 创建注释
 
-To add an annotation to a project
+>[!NOTE]
+>
+>此功能当前处于有限测试阶段。
 
-1. Right-click a point on a table or graph. The annotation builder opens.
+1. 要创建注释，有2个选项可用：
 
-1. Fill in the builder elements.
+   * 转到 [!UICONTROL 组件] > [!UICONTROL 注释]. 此时将打开“注释管理器”页面。 单击 [!UICONTROL 创建新注释] 和“注释生成器”打开，或
+
+   * 右键单击表或图形上的点。 此时将打开“注释生成器”。
+
+1. 填写生成器元素。
 
    | 元素 | 描述 |
    | --- | --- |
-   | 标题 | Name the annotation, e.g. &quot;Memorial Day&quot; |
-   | 描述 | (Optional) Provide a description for the annotation, e.g. &quot;Public holiday observed in the US&quot;. |
-   | 标记 | (Optional) Organize annotations by creating or applying a tag. |
-   | 应用的日期范围 | Select the date range that needs to be present for the annotation to be visible. |
-   | 颜色 | Apply a color to the annotation. The annotation appears in the project with the selected color. Color can be used to categorize annotations, e.g. public holidays, external events, tracking issues, etc. |
-   | 范围 | Choose the metrics, dimensions, or segments that the annotation will be visible with. Choose the report suites, projects, and users where the annotation will be visible.<ul><li>****</li><li>****</li><li>**** To show the annotation to users across all of their projects, first apply it to all of your projects, then share it via the Annotations component manager.</li></ul> |
+   | [!UICONTROL 标题] | 命名注释，例如“纪念日” |
+   | [!UICONTROL 描述] | （可选）提供注释的描述，例如“美国观看公共假日”。 |
+   | [!UICONTROL 标记] | （可选）通过创建或应用标记来组织批注。 |
+   | [!UICONTROL 应用的日期] | 选择注释需要存在的日期或日期范围才可见。 |
+   | [!UICONTROL 颜色] | 将颜色应用于注释。 注释以所选颜色显示在项目中。 可以使用颜色对批注进行分类，例如公共假日、外部事件、跟踪问题等。 |
+   | [!UICONTROL 范围] | （可选）拖放触发注释的量度。 然后，拖放任何充当过滤器的维度或区段（即，批注将随之显示）。 如果未指定范围，则注释将应用于所有数据。 用例：eVar已停止收集特定日期范围的数据。 将eVar拖入 **以下任何量度都会触发** 对话框。 或 **访问次数** 量度未报告任何数据 — 请遵循相同的流程。 |
+   | [!UICONTROL 应用于所有报告包] | 默认情况下，注释适用于原始报表包。 勾选此框后，您可以将注释应用于公司中的所有报表包。 |
+   | [!UICONTROL 应用于所有项目] | 默认情况下，注释应用于当前项目。 勾选此框后，注释可应用于您拥有的所有项目。 |
 
 1. 单击[!UICONTROL 保存]。

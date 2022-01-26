@@ -1,35 +1,38 @@
 ---
 title: 批注概述
-description: How to use annotations in Workspace.
+description: 如何在工作区中使用注释。
 role: User, Admin
-source-git-commit: 6c1727ddc57de5767409462cdf1293f8ff2d94df
+source-git-commit: f8f2b5eed5124724b7889c9f1656e4a524dc37c7
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 4%
+source-wordcount: '138'
+ht-degree: 3%
 
 ---
 
 # 批注概述
 
-Annotations enable you to effectively communicate data nuances and insights about your data to your organization. [!DNL Reports & Analytics]
+>[!NOTE]
+>
+>此功能当前处于有限测试阶段。
+
+通过注释，您可以有效地将上下文数据细微差别和洞察传达给您的组织。 通过注释，您可以将日历事件与特定维度/量度关联。 您可以通过图形方式显示事件，并查看促销活动或其他事件是否影响了网站流量、收入或任何其他量度。 以前称为 [!UICONTROL 日历事件] in [!DNL Reports & Analytics]，则可以为数据问题、公共假日、营销活动启动次数等在日期添加批注。
 
 ## 可见性
 
-Annotations are visible in a variety of ways:
+批注的形式有多种多样：
 
-* Insert line viz image>
+* 插入行视图图像>
 
-* Insert freeform table
+* 插入自由格式表
 
-* Insert PDF
+* 插入PDF
 
+## 打开或关闭注释
 
-## Turn annotations on or off
+可以在以下几个位置打开或关闭注释：
 
-Annotations can be turned on or off in a few places:
+* 可视化级别：可视化设置>显示批注
 
-* Visualization level: Visualization settings > Show annotations
+* 项目级别：项目信息和设置>显示批注
 
-* Project level: Project info &amp; settings > Show annotations
-
-* User level: Components > User preferences > Data > Show annotations
+* 用户级别：组件>用户首选项>数据>显示注释
