@@ -7,9 +7,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
 source-git-commit: 9f0f17936de2597611728498c5ed82d36fd01d1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -36,13 +36,13 @@ ht-degree: 63%
 
 ![划分设置](assets/breakdown_settings.png)
 
-将归因模型应用于划分或编辑划分时的预期行为是：
+将归因模型应用到细分或者编辑它们时的预期行为如下：
 
-* 如果您在不存在其他属性时应用归因，则该归因将应用于整个列树。
+* 如果在没有其他归因存在时应用某个归因，则该归因应用到整个列树。
 
-* 如果在应用归因后添加划分，则在该维度具有默认值时，它将对添加的给定划分使用默认值。 否则，它将使用父列中的划分。 某些维度具有默认分配。  例如， [!UICONTROL 时间] 维度和 [!UICONTROL 反向链接] use [!UICONTROL 同一接触]. 的 [!UICONTROL 产品] 维度使用 [!UICONTROL 最近联系]. 其他维没有默认维，将使用父列分配。
+* 如果您在应用某个归因之后添加细分，则它会使用所添加给定细分的默认值（如果该维度有默认值）。否则，它会使用来自父列的细分。一些维度具有默认分配。例如，[!UICONTROL 时间]维度和[!UICONTROL 反向链接]使用[!UICONTROL 同一接触]。[!UICONTROL 产品]维度使用[!UICONTROL 最后一个接触]。其他维度没有默认值，将使用父列分配。
 
-* 如果列树中已存在属性，则更改属性只会影响您正在编辑的属性。
+* 如果列树中已有归因，更改该归因仅影响您正在编辑的列。
 
 ## 视频
 
