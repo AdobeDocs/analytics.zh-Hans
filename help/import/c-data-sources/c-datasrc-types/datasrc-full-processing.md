@@ -4,9 +4,9 @@ title: 完全处理
 topic-fix: Developer and implementation
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '718'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->Adobe建议您使用 [批量数据插入API(BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) 而不是完全处理数据源。 Adobe2022年1月31日弃用了完全处理数据源。 [了解详情](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>Adobe 推荐使用 [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) 来取代 Full Processing Data Sources。Adobe 将在 2022 年 1 月 31 日弃用 Full Processing Data Sources。[了解详情](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 数据源在处理作为标准服务器调用的数据时，支持以下变量（普通 > 完全处理）。
 
@@ -27,7 +27,7 @@ ht-degree: 92%
 
 完全处理数据源数据使用单独的访客资料进行处理，因此即使上载数据中的访客 ID 与使用 JavaScript 或其他 AppMeasurement 库收集的数据匹配，访客资料也不会通过 eVar 分配进行关联。
 
-例如，访客 ID 为 `"user@example.com"` 的用户通过名为“春季促销”的市场促销活动访问您的网站，该活动存储在促销活动变量中。如果您稍后使用相同的访客 ID 上载一个交易，则“春季促销”活动不会收到使用完全处理数据源上载的任何收入或成功事件的积分。
+例如，访客 ID 为 `"user@example.com"` 的用户通过名为“春季促销”的市场营销活动访问您的网站，该活动存储在营销活动变量中。如果您稍后使用相同的访客 ID 上载一个交易，则“春季促销”活动不会收到使用完全处理数据源上载的任何收入或成功事件的积分。
 
 ## 列引用 {#section_92BAE76639E3404E97276B1BE0581078}
 
@@ -42,13 +42,13 @@ ht-degree: 92%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>campaign </p> </td> 
-   <td colname="col2"> <p>营销活动 </p> </td> 
-   <td colname="col3"> <p>转化促销活动跟踪代码。 </p> </td> 
+   <td colname="col2"> <p>campaign </p> </td> 
+   <td colname="col3"> <p>转化营销活动跟踪代码。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>channel </p> </td> 
-   <td colname="col2"> <p>频道 </p> </td> 
-   <td colname="col3"> <p>渠道字符串（例如体育区域）。 </p> </td> 
+   <td colname="col2"> <p>channel </p> </td> 
+   <td colname="col3"> <p>渠道字符串（例如，体育专栏）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>currencyCode </p> </td> 
@@ -67,7 +67,7 @@ ht-degree: 92%
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
-   <td colname="col2"> <p>事件 </p> </td> 
+   <td colname="col2"> <p>events </p> </td> 
    <td colname="col3"> <p>事件字符串，使用与 <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=zh-Hans"  >s.events</a> 变量相同的语法进行格式设置。 </p> <p>例如： </p> 
     <code>
       scAdd,event1,event7 
@@ -115,8 +115,8 @@ ht-degree: 92%
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
-   <td colname="col2"> <p>产品 </p> </td> 
-   <td colname="col3"> <p>产品列表(例如， <code> "Sports;Ball;1;5.95"</code>)。 每行最多可保存4096字节的值。</p> </td> 
+   <td colname="col2"> <p>products </p> </td> 
+   <td colname="col3"> <p>产品列表（例如，<code> "Sports;Ball;1;5.95"</code>）。每行最多可容纳 4096 字节的值。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
@@ -135,7 +135,7 @@ ht-degree: 92%
   </tr> 
   <tr> 
    <td colname="col1"> <p>server </p> </td> 
-   <td colname="col2"> <p>服务器 </p> </td> 
+   <td colname="col2"> <p>server </p> </td> 
    <td colname="col3"> <p>服务器字符串。 </p> </td> 
   </tr> 
   <tr> 
@@ -163,15 +163,15 @@ ht-degree: 92%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>browserHeight </p> </td> 
-   <td colname="col2"> <p>浏览器高度（以像素计，例如 768）。 </p> </td> 
+   <td colname="col2"> <p>浏览器高度，以像素为单位（例如，768）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>browserWidth </p> </td> 
-   <td colname="col2"> <p>浏览器宽度（以像素计，例如 1024）。 </p> </td> 
+   <td colname="col2"> <p>浏览器宽度，以像素为单位（例如，1024）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>您的网站所支持的字符集。例如，UTF-8、ISO-8859-1 等。 </p> <p>请参阅<a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >多字节字符集</a>（国际化）白皮书，以了解完整列表。 </p> </td> 
+   <td colname="col2"> <p>您的网站所支持的字符集。例如，UTF-8、ISO-8859-1 等。 </p> <p>请参阅<a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html?lang=zh-Hans#concept_E65B9A8F75C3482C87D0D455805F89BD"  >多字节字符集</a>（国际化）白皮书，以了解完整列表。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
@@ -199,7 +199,7 @@ ht-degree: 92%
   </tr> 
   <tr> 
    <td colname="col1"> <p>colorDepth </p> </td> 
-   <td colname="col2"> <p>显示器颜色深度（以位计，例如 24）。 </p> </td> 
+   <td colname="col2"> <p>显示器颜色深度，以位为单位（例如，24）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>connectionType </p> </td> 
