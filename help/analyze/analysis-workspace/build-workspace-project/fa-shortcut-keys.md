@@ -2,13 +2,13 @@
 description: 在 Analysis Workspace 中，可使用键盘交互、快捷键以及点击行为。
 keywords: Analysis Workspace
 title: 热键（快捷键）
-feature: Workspace 基础知识
+feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '286'
-ht-degree: 100%
+source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 97%
 
 ---
 
@@ -40,6 +40,7 @@ Analysis Workspace 中提供了热键（键盘快捷键），用于无缝导航�
 | --- | --- |
 | 搜索左边栏 | Ctrl + / |
 | 创建警报 | Ctrl+Shift+A |
+| 创建注释 | ctrl + shift + o |
 | 创建计算量度 | Ctrl+Shift+C |
 | 创建日期范围 | Ctrl+Shift+D |
 | 创建区段 | Ctrl+Shift+E |

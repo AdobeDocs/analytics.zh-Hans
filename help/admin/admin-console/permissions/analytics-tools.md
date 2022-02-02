@@ -2,10 +2,10 @@
 title: Analytics 工具的产品配置文件权限
 description: Analytics 工具权限项用于授予对 Adobe Analytics 中各项功能的访问权限。
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: ht
-source-wordcount: '494'
-ht-degree: 100%
+source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
+workflow-type: tm+mt
+source-wordcount: '456'
+ht-degree: 98%
 
 ---
 
@@ -41,6 +41,6 @@ Analytics 工具权限项用于授予对 Adobe Analytics 中各项功能的访�
 | [!UICONTROL 区段创建] | 允许在所有 Analytics 功能中创建区段并在功能之间共享区段。 |
 | [!UICONTROL Advertising Analytics 管理] | 未使用。 |
 | [!UICONTROL 区段发布] | 允许在创建或编辑区段时将区段设为 Experience Cloud 受众。 |
-| [!UICONTROL 集成（创建）] | 授予对“管理员”>“所有管理员”>“数据连接器”的访问权限，并允许用户创建数据连接器。 |
-| [!UICONTROL 集成（更新）] | 授予对“管理员”>“所有管理员”>“数据连接器”的访问权限，并允许用户修改现有的连接器配置。 |
-| [!UICONTROL 集成（删除）] | 授予对“管理员”>“所有管理员”>“数据连接器”的访问权限，并允许用户删除数据连接器。 |
+| [!UICONTROL 集成（创建）] | 未使用。Data Connectors生命周期终止。 |
+| [!UICONTROL 集成（更新）] | 未使用。 |
+| [!UICONTROL 集成（删除）] | 未使用。 |
