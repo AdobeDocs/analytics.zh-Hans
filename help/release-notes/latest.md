@@ -1,17 +1,21 @@
 ---
 title: 查看当前Adobe Analytics发行说明
 description: 最新Analytics发行说明
-source-git-commit: e19299820a03783215d8425b937a0935311d9e7b
+exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
+source-git-commit: 16e74d5374fd761af973ca7af9dd1c4022010911
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 98%
+source-wordcount: '577'
+ht-degree: 70%
 
 ---
 
-
 # 最新Adobe Analytics发行说明
 
-**2022 年 1 月**
+>[!IMPORTANT]
+>
+>这些发行说明包含可能发生更改的预发行信息。
+
+**2022年2月16日**
 
 了解 [Adobe Experience Cloud 产品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新版本更新。在 Experience League 上获取最新的自助文档、教程和课程。
 
@@ -19,40 +23,36 @@ ht-degree: 98%
 
 | 功能 | 描述 | 目标日期 |
 | ----------- | ---------- | ------- |
-| 不适用 |  | 参见[正式发布](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=zh-Hans) |
+| 本月未推出任何新增功能 | 不适用 | 参见[正式发布](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=zh-Hans) |
 
 {style=&quot;table-layout:auto&quot;}
 
-## Adobe Analytics 和 Customer Journey Analytics 中的修复 {#aa-fixes}
+## Adobe Analytics 中的修复
 
-* 修复了维度项中缺少受众 ID 的 Analysis Workspace 问题。（AN-262038；AN-279315）
-* 修复了阻止用户在 Workspace 中加载已保存的 [!DNL Target] 项目的问题。（AN-277461；AN-275825；AN-266397）
-* 修复了未启用的功能在 UI 中可见的问题。(AN-262006)
-* 修复了使用 Workspace 中的日期字段更改日期时发生的问题。这导致[!UICONTROL 结束时间]从晚上 11:59 更改为中午 12:00。（AN-277269；AN-277481）
-* 修复了在将新区段添加到已加载区段时导致区段 UI 中断的问题。(AN-260827)
-* 修复了用户无法访问共享的 Workspace 项目的问题。(AN-267529)
-* 添加了一条错误消息，显示滚动日期范围的开始日期晚于结束日期。(AN-270488)
-* 修复了各种数据馈送问题。（AN-275876；AN-270512；AN-277284；AN-277290；AN-274893；AN-274606；AN-269651）
-* 修复了图表中的日期范围忽略表格中的日期过滤器的问题。(AN-263999)
-* 修复了由于夏令时而提前发送计划报表的问题。（AN-276410；AN-276305）
-* 修复了在 Workspace 中无法将项目下载到 `.csv` 文件的问题。(AN-275834)
+* 修复了 [!UICONTROL 服务器调用使用情况]. （AN-279134、AN-279878、AN-280802、AN-279097、AN-191284、AN-269720）
+* 修复了导致Data warehouse导出空.csv文件的问题。 (AN-280291)
+* 修复了导致最近的区段无法填充受众名称的问题。 (AN-279715)
+* 修复了报告时间缓慢的问题。 (AN-280055)
+* 修复了分类未对所有维度项目进行分类的问题。 (AN-280031)
+
 
 ### Adobe Analytics 中的其他修复
 
-AN-253294；AN-254976；AN-255377；AN-255561；AN-258550；AN-259336；AN-263935；AN-265094；AN-269441；AN-269486；AN-269855；AN-271166；AN-271588；AN-272088；AN-272249；AN-272859；AN-272873；AN-272885；AN-273229；AN-273913；AN-274237；AN-274472；AN-274491；AN-274619；AN-274766；AN-275248；AN-275259；AN-275271；AN-275315；AN-275388；AN-275418；AN-275597；AN-275643；AN-275650；AN-275651；AN-275675；AN-275682；AN-275704；AN-275711；AN-275796；AN-275834；AN-275923；AN-275941；AN-276044；AN-276125；AN-276157；AN-276397；AN-276597；AN-276789；AN-276834；AN-276861；AN-276870；AN-276963；AN-276975；AN-277000；AN-277044；AN-277093；AN-277200；AN-277215；AN-277271；AN-277281；AN-277362；AN-277419；AN-277492；AN-277498；AN-277533；AN-277619；AN-277675；AN-277681；AN-277767；AN-277805；AN-277810；AN-277818；AN-277875；AN-277933；AN-277988；AN-278105；AN-278115；AN-278122；AN-278192；AN-278407；AN-278437；AN-278559；AN-278604；AN-278610；AN-278709；AN-278835；AN-278849；AN-278881；AN-279067；AN-279103；AN-279111；AN-279219；AN-279237；AN-279312
+AN-268093、AN-273820、AN-274435、AN-274904、AN-276160、AN-276258、AN-276705、AN-277051、AN-277957、AN-278693-、AN-AN-AN-AN-AN-AN-AN-AN-AN-AN、AN-AN-AN-AN、AN-AN-AN-AN-AN-AN-AN-AN、、AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-A-AN-AN-AN-A-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-An-AN-A
 
-## [!DNL Analytics] 管理员的重要注意事项 {#aa-notices}
+
+## [!DNL Analytics] 管理员的重要注意事项
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
 | 旧版 Analytics OAuth/JWT 集成的允许列表 EOL 扩展到期 | 2022 年 1 月 14 日 | 在 **2022 年 5 月 25 日**，[Analytics 1.3 API、1.4 SOAP API 和旧版 Analytics OAuth/JWT EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) 允许列表延长期将到期。此延长期为使用旧版 [!DNL Adobe Analytics] OAuth/JWT 凭据的客户提供额外的时间，以将其客户端集成迁移到 [Adobe IMS 凭据](https://developer.adobe.com/console)。该扩展到期会影响（但不限于）尚未完成必需的 IMS 迁移的 [!DNL Adobe Analytics Livestream] 和 [!DNL Adobe Campaign] 客户。如果客户目前正在通过允许列表扩展使用旧版 [!DNL Analytics] OAuth/JWT 凭据，但未在 2022 年 5 月 25 日之前完成向 IMS 凭据迁移，则将失去对 Adobe 服务的访问权限。Livestream 客户可以参考这些关于将客户端应用程序迁移到 IMS 凭据的[说明](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md)。[!DNL Campaign] 客户可以联系他们的 Adobe 帐户团队，了解如何升级到最新版本的 [!DNL Campaign]。 |
 | EOL for [!DNL Reports & Analytics] | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起，Adobe 决定中断 及其随附的报表和功能。[!DNL Reports & Analytics]支持 [!DNL Reports & Analytics] 的报表、可视化图表和底层技术不再满足 Adobe 的技术标准。大部分 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans) 中都可用。自 2015 年发布 Analysis Workspace 以来，[!DNL Reports & Analytics] 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。[本通知解释了生命周期结束的过程。](https://spark.adobe.com/page/6WnF8JK6IRDhf/) |
-| 安全文件传输协议 (SFTP) 服务升级 | 2022 年 1 月 13 日 | 在 **2022 年 5 月 2 日**，[!DNL Adobe Analytics] 将升级安全文件传输协议 (SFTP) 服务，以提高文件传输的安全性。作出此更改后，将不再支持某些 SFTP 客户端配置。我们还将增加一些在 **2022 年 3 月 1 日**&#x200B;之前可用的连接选项。此更改将仅影响使用 SFTP 发送到 Adobe Analytics 或从其检索的数据。而不影响 FTP 协议。为避免服务中断，请确保您的 SFTP 客户端（代码、工具、服务）与[此处](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html)详述的更改一致。 |
-| _全球 + 中国_ RDC 类型 | 2021 年 11 月 22 日 | _全球 + 中国_ 是一种新的区域数据收集 (RDC) 类型，使用[!UICONTROL 中国性能优化加载项包]为全球客户简化了流量路由。过去，您必须确定是将数据路由到中国收集端点还是全球收集端点之一。现在您可以选择此 RDC *类型*，让 Adobe 根据用户的地理位置确定最佳收集端点。 |
-| 数据源中的 Full Processing 生命周期结束 | 2021 年 10 月 18 日 | **2022 年 1 月 31 日**，Adobe 将终止 Full Processing，这使用户能够将离线命中数据提取到 Analytics 中。此功能可通过 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 获得。[了解详情](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=zh-Hans?lang=zh-Hans) |
-
-{style=&quot;table-layout:auto&quot;}
+| 安全文件传输协议 (SFTP) 服务升级 | 2022 年 1 月 13 日 | 在 **2022 年 5 月 2 日**，[!DNL Adobe Analytics] 将升级安全文件传输协议 (SFTP) 服务，以提高文件传输的安全性。作出此更改后，将不再支持某些 SFTP 客户端配置。我们还将增加一些在 **2022 年 3 月 1 日**&#x200B;之前可用的连接选项。这仅会影响使用SFTP发送到Adobe Analytics或从Analytics检索到的数据。 FTP协议不会受到影响。 为避免服务中断，请确保您的SFTP客户端（代码、工具、服务）符合详细更改 [此处](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html). |
 
 ## AppMeasurement {#appm}
 
 有关 AppMeasurement 版本（版本 2.22.4）的最新更新，请参阅[适用于 JavaScript 的 AppMeasurement 发行说明](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=zh-Hans)。
+
+>[!MORELIKETHIS]
+>[[!DNL Customer Journey Analytics] 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=en)
+
