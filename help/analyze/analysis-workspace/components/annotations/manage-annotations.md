@@ -1,24 +1,24 @@
 ---
-title: 管理批注
+title: 管理注释
 description: 如何在工作区中管理注释。
 role: User, Admin
-source-git-commit: 89cbecf109a8fa9a9fac1f1ed8ad198ffdd398d3
+exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
+source-git-commit: 4706c815dfb34938716fa674865b9cb1ef6cd604
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 18%
+ht-degree: 33%
 
 ---
 
-
-# 管理批注
+# 管理注释
 
 >[!NOTE]
 >
->此功能当前处于有限测试阶段。
+>此功能当前正在进行小范围测试。
 
-的 [!UICONTROL 组件] > [!UICONTROL 批注] manager提供了多种管理批注的方法，如共享、过滤、标记、批准、复制、删除和标记为收藏。
+[!UICONTROL 组件] > [!UICONTROL 注释]管理器提供了许多种管理注释的方式，例如共享、筛选、标记、审批、复制、删除和标记为收藏。
 
-的 [!UICONTROL 批注] “管理器”显示您拥有的所有注释，这些注释的范围已涵盖所有项目，并且已与您共享。
+[!UICONTROL 注释]管理器显示了您拥有、已覆盖到您的所有项目并且已与您共享的所有注释。
 
 >[!NOTE]
 >
@@ -28,13 +28,13 @@ ht-degree: 18%
 
 ![](assets/annotation-mgr.png)
 
-| UI元素 | 描述 |
+| UI 元素 | 描述 |
 | --- | --- | 
 | [!UICONTROL 标题和描述] | 在注释生成器中提供。 要编辑标题和描述，请单击标题链接 — 这会使您返回到注释生成器。 |
 | [!UICONTROL 报表包] | 此注释所适用的报表包。 |
 | [!UICONTROL 所有者] | 指示批注的所有者。 作为非管理员，您只能看到您拥有的批注或与您共享的批注。 |
 | [!UICONTROL 应用的日期范围] | 此注释适用的日期或日期范围。 |
-| [!UICONTROL 共享人] | 列出您与其共享注释的个人或组数量。 单击以了解更多详细信息。 |
+| [!UICONTROL 共享对象] | 列出您与其共享注释的个人或组数量。 单击以了解更多详细信息。 |
 | [!UICONTROL 修改日期] | 显示上次修改注释的日期和时间。 |
 
 ## 编辑批注
