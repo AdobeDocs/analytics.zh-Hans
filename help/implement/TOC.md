@@ -4,17 +4,18 @@ audience: all
 user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
 user-guide-description: '自定义收集哪些数据，以便让 Adobe Analytics 得到充分利用。 '
-source-git-commit: 9e1ed13b73a4e31baf788a9c8090af8b7c7bcd7d
-workflow-type: ht
-source-wordcount: '381'
-ht-degree: 100%
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+workflow-type: tm+mt
+source-wordcount: '391'
+ht-degree: 97%
 
 ---
 
 
-# Analytics 实施指南 {#implementation}
+# Adobe Analytics实施指南 {#implementation}
 
 + [实施 Adobe Analytics](home.md)
++ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + [AppMeasurement 发行说明](appmeasurement-updates.md)
 + Analytics 变量、函数和方法 {#vars}
    + [概述](vars/overview.md)

@@ -4,17 +4,18 @@ audience: end-user
 user-guide-title: Analytics 导入指南
 breadcrumb-title: 导入指南
 user-guide-description: '从外部来源批量或实时将数据导入 Analytics。 '
-source-git-commit: a9d0cc251e8902f3c9c3cd9c31cbc71ae6ee20e9
-workflow-type: ht
-source-wordcount: '126'
-ht-degree: 100%
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+workflow-type: tm+mt
+source-wordcount: '136'
+ht-degree: 92%
 
 ---
 
 
-# Analytics 导入指南 {#import}
+# Adobe Analytics导入指南 {#import}
 
 + [Analytics 导入指南](home.md)
++ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 数据源 {#data-sources}
    + [数据源概述](c-data-sources/datasrc-home.md)
    + [数据源工作原理](c-data-sources/datasrc-how-data-sources-works.md)

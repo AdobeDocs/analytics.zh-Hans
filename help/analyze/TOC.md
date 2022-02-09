@@ -4,17 +4,18 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 提供 Analytics 的高级分析和可视化工具 Analysis Workspace 以及 Adobe Analytics Dashboards、Report Builder 和 Activity Map 等工具的操作说明。
-source-git-commit: 6b5fd4e25056d7efbf3119a4d55d2e0a7897965f
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 99%
+source-wordcount: '1030'
+ht-degree: 98%
 
 ---
 
 
-# Analytics 工具指南 {#analyze}
+# Adobe Analytics工具指南 {#analyze}
 
 + [Analytics 工具指南](home.md)
++ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + [登陆页面](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Analysis Workspace 概述](analysis-workspace/home.md)
@@ -32,7 +33,7 @@ ht-degree: 99%
       + 批注 {#annotations}
          + [批注概述](analysis-workspace/components/annotations/overview.md)
          + [创建注释](analysis-workspace/components/annotations/create-annotations.md)
-         + [管理批注](analysis-workspace/components/annotations/manage-annotations.md)
+         + [管理注释](analysis-workspace/components/annotations/manage-annotations.md)
          + [查看批注](analysis-workspace/components/annotations/view-annotations.md)
       + 维度{#dimensions}
          + [预览维度](analysis-workspace/components/dimensions/view-dimensions.md)

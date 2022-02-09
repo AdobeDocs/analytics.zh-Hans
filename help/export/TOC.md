@@ -4,17 +4,18 @@ audience: end-user
 user-guide-title: Analytics 导出指南
 breadcrumb-title: 导出指南
 user-guide-description: 使用“数据馈送”接收每小时或每天导出的原始数据。使用 Data Warehouse 检索以电子表格输出的数据。
-source-git-commit: d50ec88ec7d2271d009ae8049481e20d0c90162b
-workflow-type: ht
-source-wordcount: '279'
-ht-degree: 100%
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 96%
 
 ---
 
 
-# Analytics 导出指南 {#export}
+# Adobe Analytics导出指南 {#export}
 
 + [Analytics 导出指南](home.md)
++ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Analytics 数据馈送 {#analytics-data-feed}
    + [数据馈送概述](analytics-data-feed/data-feed-overview.md)
    + [创建或编辑数据馈送](analytics-data-feed/create-feed.md)
