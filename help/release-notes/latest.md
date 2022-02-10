@@ -2,28 +2,28 @@
 title: 查看当前Adobe Analytics发行说明
 description: 最新Analytics发行说明
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 16e74d5374fd761af973ca7af9dd1c4022010911
+source-git-commit: 44bbcabf0bdc74b560a650ce1892a52b4d98052c
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 70%
+source-wordcount: '649'
+ht-degree: 61%
 
 ---
 
-# 最新Adobe Analytics发行说明
+# 最新Adobe Analytics发行说明（2022年2月）
 
 >[!IMPORTANT]
 >
 >这些发行说明包含可能发生更改的预发行信息。
 
-**2022年2月16日**
+**上次更新**:2022年2月10日
 
 了解 [Adobe Experience Cloud 产品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新版本更新。在 Experience League 上获取最新的自助文档、教程和课程。
 
 ## Adobe Analytics 中的新增功能 {#aa-features}
 
-| 功能 | 描述 | 目标日期 |
+| 功能 | 描述 | [目标日期](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=zh-Hans) |
 | ----------- | ---------- | ------- |
-| 本月未推出任何新增功能 | 不适用 | 参见[正式发布](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=zh-Hans) |
+| 移动记分卡项目预览模式 | 直接从记分卡生成器中启动在Analytics功能板应用程序中显示移动记分卡的预览。 预览模式允许用户与过滤器和图表进行交互，其方式与应用程序中的过滤器和图表相同，允许用户在保存和共享记分卡之前预览体验。 用户还可以在预览模式下使用设备选取器，以查看其记分卡在不同设备上的显示效果。 | 2022 年 2 月 16 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
