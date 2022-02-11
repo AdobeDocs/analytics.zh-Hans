@@ -1,21 +1,19 @@
 ---
 description: Adobe Analytics 变量的数据隐私标签示例
 title: Analytics 变量的数据隐私标签
-uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '3649'
-ht-degree: 100%
+source-git-commit: de059ecc9f7ec2fe7ce544ee9cd48d81ad952887
+workflow-type: tm+mt
+source-wordcount: '3913'
+ht-degree: 96%
 
 ---
 
 # Analytics 变量的数据隐私标签
 
-## 为何要为您的数据设置标签？{#section_A075CDF3AD0744BD8CEB41CE3FB7BFB3}
+## 为何要为您的数据设置标签？ {#why-label}
 
-许多 Adobe 客户的法律团队都对数据隐私法（GDPR、CCPA 等）进行了仔细研究，并且就如何处理数据以遵守数据隐私法做出了自己的结论。各公司之间做出的法律解释可能有所差异，客户所需的数据处理设置也可能不尽相同。由于客户对数据隐私数据处理存在不同的偏好并且具有不同的数据集，Adobe 允许 Adobe 客户以数据控制者的身份，为其独特数据自定义所需的隐私服务数据处理设置。这允许每个独特客户采用对其品牌和独特数据集最为合理的方式处理数据隐私请求。
+许多Adobe客户都拥有法律团队，他们已对数据隐私法（GDPR、CCPA等）进行了相关审查。 这些团队可能已就如何处理数据以遵守数据隐私法做出了自己的结论。 各公司之间做出的法律解释可能有所差异，客户所需的数据处理设置也可能不尽相同。由于客户对数据隐私数据处理存在不同的偏好并且具有不同的数据集，Adobe 允许 Adobe 客户以数据控制者的身份，为其独特数据自定义所需的隐私服务数据处理设置。这允许每个独特客户采用对其品牌和独特数据集最为合理的方式处理数据隐私请求。
 
 Adobe Analytics 根据数据的敏感性和合同限制提供了数据标签设置工具。标签非常重要而且有用，它有助于：（1）识别数据主体，（2）确定哪些数据可在访问请求中返回，以及（3）识别必须在删除请求中删除的数据字段。
 
@@ -23,7 +21,7 @@ Adobe Analytics 根据数据的敏感性和合同限制提供了数据标签设�
 
 Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据和数据管理的标签。
 
-## DULE 标签 {#section_B2E78130957647338495EF37DE21D6BC}
+## DULE 标签 {#dule-labels}
 
 >[!NOTE]
 >
@@ -86,11 +84,11 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
  </tbody> 
 </table>
 
-## 数据管理标签（数据隐私）{#data-governance-labels}
+## 数据管理标签（数据隐私） {#data-governance-labels}
 
 数据管理标签让用户能够对反映隐私相关考虑因素和合同条件的数据进行分类，以符合相关法规和公司政策规定。
 
-**数据隐私访问标签**
+### 数据隐私访问标签
 
 <table id="table_663EFF43A454498386F7F3E60875E0F8"> 
  <thead> 
@@ -121,7 +119,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 
 尽管很少会有变量设置其他任何标签，但预计访问标签将会应用到许多变量中。不过，您需要咨询您的法律团队，以决定应该将收集的哪些数据与数据主体共享。
 
-**数据隐私删除标签**
+### 数据隐私删除标签
 
 <table id="table_59DFCE4D90214CB5972BDDE5B7391B4D"> 
  <thead> 
@@ -164,7 +162,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
  </tbody> 
 </table>
 
-**数据隐私身份标签**
+### 数据隐私身份标签
 
 <table id="table_F6BBC868457443A19A7B693BD6C55B4B"> 
  <thead> 
@@ -178,7 +176,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
   <tr> 
    <td colname="col1"> <p>无 </p> </td> 
    <td colname="col2"> <p>此变量不包含将用于数据隐私请求的 ID。 </p> </td> 
-   <td colname="col3"> <p>只有当这个字段包含的 ID 是您在通过数据隐私 API 或用户界面提交访问或删除请求时要使用的 ID 时，才需要设置这些其他标签之一。 </p> </td> 
+   <td colname="col3"> <p>仅当此字段包含您在通过[Privacy ServiceAPI](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en)或UI提交访问或删除请求时将使用的ID时，才需要设置其他标签之一。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID-DEVICE </p> </td> 
@@ -205,11 +203,17 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
  </tbody> 
 </table>
 
+| 标签 | 定义 | 其他要求 |
+| --- | --- | --- |
+| 无 | 此变量不包含将用于数据隐私请求的 ID。 | 仅当此字段包含您在通过提交访问或删除请求时将使用的ID时，才需要设置其他标签之一 [Privacy ServiceAPI](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) 或UI。 |
+| ID-DEVICE | 该字段包含一个 ID，可用于识别数据隐私请求的设备，但无法区分共享设备的不同用户。您不需要为包含 ID 的所有变量指定此标签（这是 I1/I2 标签的用途）。如果您使用存储在此变量中的 ID 提交数据隐私请求，并想要为指定的 ID 搜索此变量，请使用此标签。 | 还需要 I1 或 I2 标签.<ul><li>不能在事件中设置</li><li>不能在促销 eVar 中设置</li><li>不能在分类中设置</li></ul> |
+| ID-PERSON | 此字段包含一个 ID，可用于识别数据隐私请求的经过身份验证的用户（特定人员）。您不需要为包含 ID 的所有变量指定此标签（这是 I1/I2 标签的用途）。如果您要使用存储在此变量中的 ID 提交数据隐私请求，并想要为指定的 ID 搜索此变量，请使用此标签。 | 还需要 I1 或 I2 标签.<ul><li>不能在事件中设置</li><li>不能在促销 eVar 中设置</li><li>不能在分类中设置</li></ul> |
+
 ## 在为变量设置 ID-DEVICE 或 ID-PERSON 标签时提供命名空间 {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
 
 在为变量设置 ID-DEVICE 或 ID-PERSON 标签时，系统会提示您提供一个命名空间。您可以使用先前已定义的命名空间或者定义一个新的命名空间。
 
-**使用先前已定义的命名空间**
+### 使用先前已定义的命名空间
 
 如果您已经为登录公司的任何报表包中的其他变量分配了一个 ID 标签，则可以选择其中一个现有的命名空间。如果此变量包含的 ID 类型与之前已使用此命名空间设置标签的其他变量包含的 ID 类型相同，并且您希望在提交请求时搜索所有这些变量，则应重复使用该命名空间。
 
@@ -218,7 +222,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 
 ![](assets/namespace.png)
 
-**定义一个新的命名空间**
+### 定义一个新的命名空间
 
 您也可以定义一个新的命名空间。我们建议将命名空间字符串限制为字母数字字符，以及下划线、短划线和空格。这些字符串将全部转换为小写字母。
 
@@ -249,7 +253,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 >
 >命名空间“visitorId”和“customVisitorId”是保留名称，用于识别 Analytics 旧版跟踪 Cookie 和 Analytics 客户的访客 ID。请勿将这些命名空间用于自定义流量或转换变量。
 
-## 变量类型及其支持的数据隐私/DULE 标签{#section_CE7C3EDE1344466A98BC45E394B40762}
+## 变量类型及其支持的数据隐私/DULE 标签 {#section_CE7C3EDE1344466A98BC45E394B40762}
 
 数据隐私/DULE 标签功能影响四大类 Analytics 变量。并非所有变量都支持所有标签。下表显示了各类变量对各种标签的支持情况。
 
@@ -483,4 +487,4 @@ Adobe Analytics 对数据隐私删除请求的支持旨在最大限度地减少�
 
 用于生成为数据隐私访问请求返回的文件的代码，要求访问请求中至少包含前三个时间戳变量中的一个（具有一个适用于该请求类型的 ACC 标签）。若不包含上述三个中的任意一个，则“自定义命中时间 UTC”将被视为含有 ACC-ALL 标签。
 
-为数据隐私访问请求返回的命中项级别的 CSV 文件，会将这些字段中的值从 UNIX 时间戳转换为 YYYY-MM-DD HH:MM:SS 格式的日期/时间（例如，2018-05-01 13:49:22）。在 HTML 摘要文件中，这些时间戳值将会被截断为仅包含日期（YYYY-MM-DD），以缩短这些字段中出现的唯一值的长度。
+为数据隐私访问请求返回的命中项级别的CSV文件，会将这些字段中的值从UNIX时间戳转换为YYYY-MM-DD HH格式的日期/时间字段:MM:SS(例如，2018-05-01 13:49:22)。 在 HTML 摘要文件中，这些时间戳值将会被截断为仅包含日期（YYYY-MM-DD），以缩短这些字段中出现的唯一值的长度。
