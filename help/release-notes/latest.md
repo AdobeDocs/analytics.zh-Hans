@@ -2,10 +2,10 @@
 title: 查看当前Adobe Analytics发行说明
 description: 最新Analytics发行说明
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: a6f2e241617d118479b79d00305f7ed4dc3dfd67
+source-git-commit: 581c7888153b7fefdcadeb240d01582b3b2bd47a
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 60%
+source-wordcount: '653'
+ht-degree: 59%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 60%
 
 | 功能 | 描述 | [目标日期](releases.md) |
 | ----------- | ---------- | ------- |
-| 移动记分卡项目预览模式 | 直接从记分卡生成器中启动在Analytics功能板应用程序中显示移动记分卡的预览。 预览模式允许用户与过滤器和图表进行交互，其方式与应用程序中的过滤器和图表相同，允许用户在保存和共享记分卡之前预览体验。 用户还可以在预览模式下使用设备选取器，以查看其记分卡在不同设备上的显示效果。 | 2022 年 2 月 16 日 |
+| 移动记分卡项目预览模式 | 直接从记分卡生成器中启动在Analytics功能板应用程序中显示移动记分卡的预览。 预览模式允许用户与过滤器和图表进行交互，其方式与应用程序中的过滤器和图表相同，允许用户在保存和共享记分卡之前预览体验。 用户还可以在预览模式下使用设备选取器，以查看其记分卡在不同设备上的显示效果。 [了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#preview) | 2022 年 2 月 16 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
