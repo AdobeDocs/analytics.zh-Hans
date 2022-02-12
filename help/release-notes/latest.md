@@ -1,11 +1,11 @@
 ---
-title: 查看当前Adobe Analytics发行说明
-description: 最新Analytics发行说明
+title: 最新Analytics发行说明
+description: 查看当前的Adobe Analytics发行说明。
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 581c7888153b7fefdcadeb240d01582b3b2bd47a
+source-git-commit: 511e3f4c621137d76b40fcc04ea849a0bba9e3fa
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 59%
+source-wordcount: '676'
+ht-degree: 58%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 59%
 | 功能 | 描述 | [目标日期](releases.md) |
 | ----------- | ---------- | ------- |
 | 移动记分卡项目预览模式 | 直接从记分卡生成器中启动在Analytics功能板应用程序中显示移动记分卡的预览。 预览模式允许用户与过滤器和图表进行交互，其方式与应用程序中的过滤器和图表相同，允许用户在保存和共享记分卡之前预览体验。 用户还可以在预览模式下使用设备选取器，以查看其记分卡在不同设备上的显示效果。 [了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#preview) | 2022 年 2 月 16 日 |
+| API项目端点 | 使用API添加、编辑或删除Analysis Workspace项目。 [了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) | 2022年2月1日 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -35,11 +36,9 @@ ht-degree: 59%
 * 修复了报告时间缓慢的问题。 (AN-280055)
 * 修复了分类未对所有维度项目进行分类的问题。 (AN-280031)
 
-
 ### Adobe Analytics 中的其他修复
 
 AN-268093、AN-273820、AN-274435、AN-274904、AN-276160、AN-276258、AN-276705、AN-277051、AN-277957、AN-278693-、AN-AN-AN-AN-AN-AN-AN-AN-AN-AN、AN-AN-AN-AN、AN-AN-AN-AN-AN-AN-AN-AN、、AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-A-AN-AN-AN-A-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-An-AN-A
-
 
 ## [!DNL Analytics] 管理员的重要注意事项
 
@@ -55,4 +54,3 @@ AN-268093、AN-273820、AN-274435、AN-274904、AN-276160、AN-276258、AN-27670
 
 >[!MORELIKETHIS]
 >[[!DNL Customer Journey Analytics] 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=en)
-
