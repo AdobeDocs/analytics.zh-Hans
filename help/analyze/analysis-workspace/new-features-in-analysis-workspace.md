@@ -5,10 +5,10 @@ title: Analysis Workspace 中的新增功能
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: cd93db4c83e93863f1e2fe6f6d258a1073bd0823
+source-git-commit: c818db35524d6c0d416ee2560943526f19842c5e
 workflow-type: tm+mt
-source-wordcount: '8286'
-ht-degree: 100%
+source-wordcount: '8276'
+ht-degree: 99%
 
 ---
 
@@ -548,7 +548,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>贡献分析：<a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=zh-Hans"  >令牌通知 </a> </p> </td> 
-   <td colname="col2"> <p>如果贵公司的贡献分析令牌数量有限，则您每次用掉一个令牌后 Analysis Workspace UI 中会显示相关通知。这可以让您知晓还剩下多少令牌。&amp;nbsp; </p> <p>（管理员用户：您可以通过编辑群组权限，对能够使用令牌的人员进行限制。此权限称为“异常检测和贡献分析”，位于<span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol">管理员</span> &gt; <span class="uicontrol">所有管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">编辑群组</span> &gt; <span class="uicontrol">编辑所有报表访问权限</span> &gt; <span class="uicontrol">自定义报表包工具</span> &gt; <span class="uicontrol">工具和报表</span>下。）  </p> </td> 
+   <td colname="col2"> <p>如果贵公司的贡献分析令牌数量有限，则您每次用掉一个令牌后 Analysis Workspace UI 中会显示相关通知。这可以让您知晓还剩下多少令牌。 </p> <p>（管理员用户：您可以通过编辑群组权限，对能够使用令牌的人员进行限制。此权限称为“异常检测和贡献分析”，位于 <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> 管理员 </span> &gt; <span class="uicontrol"> 所有管理员 </span>  &gt; <span class="uicontrol"> 用户管理 </span>&gt; <span class="uicontrol"> 编辑群组 </span> &gt; <span class="uicontrol"> 编辑所有报表访问 </span> &gt; <span class="uicontrol"> 自定义报表包工具 </span> &gt; <span class="uicontrol"> 工具和报表 </span>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CSV 文件可包含多字节字符 </p> </td> 
@@ -598,7 +598,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > 地图可视化图表 </a> </p> </td> 
-   <td colname="col2"> <p>通过新的地图可视化图表，您可以轻松查看客户在其位置上下文内的交互。从宏观（全球）视图到微观（城市）视图，您可以轻松地放大和缩小可视化图表中的各种层次结构等级，以了解跨区域的客户集群。 </p> <p>您可以通过 IP 地址对位置数据进行可视化（对于非移动数据集），或者可以在 Analysis Workspace 中将经纬度数据（对于使用 Mobile SDK 的客户）变得生动有趣。&amp;nbsp; </p> </td> 
+   <td colname="col2"> <p>通过新的地图可视化图表，您可以轻松查看客户在其位置上下文内的交互。 从宏观（全球）视图到微观（城市）视图，您可以轻松地放大和缩小可视化图表中的各种层次结构等级，以了解跨区域的客户集群。 </p> <p>您可以通过IP地址对位置数据进行可视化（对于非移动数据集），也可以将经纬度数据（对于使用Mobile SDK的客户）变得生动有趣。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  > 趋势可视化图表的粒度选择器 </a> </p> </td> 
