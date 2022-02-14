@@ -2,19 +2,19 @@
 title: 查看批注
 description: 如何在工作区中查看注释。
 role: User, Admin
-source-git-commit: 0985a31596103a0325509a66a6bde7688e24e9bd
+exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
+source-git-commit: 37de8752b5467cd30969fee35efa78de2941f963
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 5%
+source-wordcount: '174'
+ht-degree: 10%
 
 ---
-
 
 # 查看批注
 
 >[!NOTE]
 >
->此功能当前处于有限测试阶段。
+>此功能当前正在进行小范围测试。
 
 注释的显示方式略有不同，具体取决于它们是跨越一天还是日期范围。
 
@@ -34,3 +34,9 @@ ht-degree: 5%
 由于不能将鼠标悬停在.pdf文件中的图标上，因此该文件（导出后）会在面板底部提供说明说明说明。 示例如下：
 
 ![](assets/ann-pdf.png)
+
+## 查看不基于日期的注释
+
+有时，注释不会与日期绑定，而是与特定维度绑定。 在这种情况下，它们仅显示在右下角的摘要批注中。 示例如下：
+
+![](assets/non-date.png)
