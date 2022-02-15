@@ -2,10 +2,10 @@
 description: 了解 Analytics 数据连接器生命周期终止的时间和原因。
 title: Analytics 数据连接器生命周期终止预告
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 3e1b422c908c9cdd2abd877285e15dc7398cb131
-workflow-type: ht
+source-git-commit: 44b869a269fdf3a52d8ef132787a66a8284cf6c3
+workflow-type: tm+mt
 source-wordcount: '685'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## 为什么我们要终止使用此功能？
 
-此功能由不再可实现或受支持的传统技术提供支持。[Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product) 现在是查找 Adobe 解决方案的当前集成的位置。
+此功能由传统技术提供支持，而这些技术不再可行或不再受支持。 [Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product) 现在是查找 Adobe 解决方案的当前集成的位置。
 
 ## 删除此功能对您有何影响？
 
