@@ -1,12 +1,12 @@
 ---
 description: 本帮助页面包含每个 Adobe Analytics 工具的推荐使用案例。应该按照工具的列出顺序来考虑使用哪个工具。如果某个工具无法满足需求，请考虑切换到下一个工具。
 title: 我应该使用哪种 Adobe Analytics 工具？
-uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
+feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 76072b45114a15d9b366657ea81872035965e5b6
-workflow-type: ht
-source-wordcount: '1168'
-ht-degree: 100%
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+workflow-type: tm+mt
+source-wordcount: '1169'
+ht-degree: 98%
 
 ---
 
@@ -62,9 +62,9 @@ ht-degree: 100%
    * 交易 ID：数据上载将在线端点与离线数据连接起来，并将导入的数据与访客在线捕获的快照完全关联（例如，在线完成并离线返回的订单）
    * 完全处理：像处理 Adobe 服务器收集的点击一样处理带有时间戳的数据源。例如，直接将数据插入访客历程。
 
-**[Data Connector](https://www.adobeexchange.com/experiencecloud.html)** 的使用说明：
+**[AdobeExchange集成](https://www.adobeexchange.com/experiencecloud.html)** 应使用：
 
-* 适用于跟已经与 Adobe Analytics 建立受支持连接的第三方提供商合作的情况。Data Connector 通常会定期将摘要级别的数据自动地永久合并到 Adobe Analytics 中。
+* 适用于跟已经与 Adobe Analytics 建立受支持连接的第三方提供商合作的情况。集成应用程序通常会定期将摘要级别的数据永久自动合并到Adobe Analytics中。
 
 **[数据插入 API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** 的使用说明：
 

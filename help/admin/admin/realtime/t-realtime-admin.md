@@ -1,13 +1,12 @@
 ---
 description: 设置实时报表的管理步骤。
 title: 实时报表配置
-feature: 管理工具
-uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
+feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 97%
+source-wordcount: '298'
+ht-degree: 100%
 
 ---
 
@@ -56,6 +55,6 @@ ht-degree: 97%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;或&#x200B;**[!UICONTROL 保存并查看报表]**。
 
-   在初始报表设置中，最多需要 20 分钟数据才会开始传输。之后，数据会立即可用。有关查看实时报表的信息，请参阅[运行实时报表](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html)。
+   在初始报表设置中，最多需要 20 分钟数据才会开始传输。之后，数据会立即可用。有关查看实时报表的信息，请参阅[运行实时报表](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html?lang=zh-Hans)。
 
 1. 默认情况下，所有用户均有权访问实时报表。

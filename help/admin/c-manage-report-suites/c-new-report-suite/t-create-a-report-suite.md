@@ -1,24 +1,24 @@
 ---
 description: 在Adobe Analytics中创建用于数据收集的基本容器
 title: 创建报表包
-feature: 管理工具
+feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '374'
 ht-degree: 63%
 
 ---
 
 # 创建报表包
 
-报表包是一种数据存储库，Adobe Analytics 使用报表包提取单个报表。一个组织可以有多个报表包，每个报表包中包含不同的数据集。过去，有必要设置多个独立报表包，但现在单个报表包的优势变得日益凸显。引入[虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites)和报表时间处理后，管理员可以创建自己的数据子集，从而灵活地获取全局数据和特定于站点的数据。
+报表包是一种数据存储库，Adobe Analytics 使用报表包提取单个报表。一个组织可以有多个报表包，每个报表包中包含不同的数据集。过去，有必要设置多个独立报表包，但现在单个报表包的优势变得日益凸显。简介 [虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites) 而且，通过报表时间处理，管理员可以创建自己的数据子集，从而可以灵活地获取全局数据和特定于站点的数据。
 
 本文旨在让系统级别管理员或Adobe Analytics管理员为数据收集做好准备。
 
 ## 先决条件
 
-[Adobe Analytics第一管理指南](/help/admin/admin-console/first-admin-guide.md):确保系统级别管理员已通过Experience CloudAdmin Console向您授予对Adobe Analytics的访问权限。
+[Adobe Analytics First Admin指南](/help/admin/admin-console/first-admin-guide.md):确保系统级别管理员已通过Experience CloudAdmin Console向您授予对Adobe Analytics的访问权限。
 
 ## 创建报表包 {#create-report-suite}
 
@@ -43,7 +43,7 @@ ht-degree: 63%
 
 **登录到 Adobe Analytics 后，看不到“欢迎使用 Adobe Analytics”弹出窗口和下拉列表。**
 
-确保您已通过[Experience Cloud](https://experience.adobe.com)登录，而不是通过my.omniture.com登录。 如果用户通过 my.omniture.com 登录，将不会显示报表包设置向导。
+确保您已通过 [Experience Cloud](https://experience.adobe.com)，而不是通过my.omniture.com。 如果用户通过 my.omniture.com 登录，将不会显示报表包设置向导。
 
 ## 后续步骤
 

@@ -2,13 +2,11 @@
 description: 描述如何从一个报表包复制处理规则以及如何将这些规则替换或附加到其他报表包的步骤。
 subtopic: Processing rules
 title: 将处理规则复制到其他报表包
-feature: Admin Tools
-uuid: e6aa50b9-a46b-4332-b4e1-6df0f828077d
+feature: Processing Rules
 exl-id: 6b3cb570-780a-4d18-8aba-4cb674f5b16c
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '116'
 ht-degree: 100%
 
 ---

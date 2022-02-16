@@ -1,10 +1,10 @@
 ---
 description: 服务器端转发调用中的配置变量、HTTP 头和数据信号的综合列表及描述。
 title: 服务器端转发数据和代码引用
-uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
+feature: Server-Side Forwarding
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: 27af710f1ce9d85b1177fa4c5fd4d3f6e2875a48
-workflow-type: ht
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 100%
 
@@ -42,9 +42,9 @@ ht-degree: 100%
 
 ## 客户定义的信号 {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-带有 `c_` 前缀的参数用于标识客户定义的变量。另请参阅 [DCS API 调用支持的属性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=zh-Hans)。
+带有 `c_` 前缀的参数用于标识客户定义的变量。另请参阅 [DCS API 调用支持的属性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)。
 
-| 信号 | 描述 |
+| Signal | 描述 |
 | --- |--- |
 | `c_browserWidth` 和 `c_browserHeight` | 浏览器窗口宽度和高度。 |
 | `c_campaign` | 由 `s.campaign` 设置。 |

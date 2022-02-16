@@ -1,9 +1,10 @@
 ---
-description: 分类用于对值进行分组归类，并按照分组级别进行报告。例如，您可将所有“付费搜索”促销活动归为一个类似于流行音乐术语的类别，并且相对于“实例”（点进次数）等量度，报告该类别的成功以及有关成功事件的转化。
+description: 分类用于对值进行分组归类，并按照分组级别进行报告。例如，您可将所有付费搜索营销活动归为一个类似流行音乐术语的类别，并且相对于“实例”（点进次数）等量度，报告该类别的成功以及有关成功事件的转化。
 title: 转化分类
+feature: Admin Tools
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: fa12c51be5d0f788dbdaacfbd36504d1cda92a58
-workflow-type: ht
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 100%
 

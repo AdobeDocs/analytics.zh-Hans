@@ -3,12 +3,10 @@ description: 流量分类允许您对流量变量 (prop) 进行分类。流量�
 subtopic: Classifications
 title: 流量分类
 feature: Admin Tools
-uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '192'
 ht-degree: 100%
 
 ---

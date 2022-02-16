@@ -1,12 +1,14 @@
 ---
 description: 了解如何禁用 Analytics 用户的旧版登录。
 title: 禁用旧版登录
-uuid: 085874b2-10bf-4a56-a337-f3104428d71e
-translation-type: tm+mt
-source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
+feature: Admin Tools
+exl-id: 3e619700-722d-429b-94dc-7aa162e114c0
+source-git-commit: 0143496648e59e95c360388735def726e63ee71b
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 100%
 
 ---
-
 
 # 禁用旧版登录{#disable-legacy-logins}
 
@@ -26,4 +28,3 @@ source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
    “禁用旧版登录”可指示哪些用户可以继续使用其旧版 [!DNL my.omniture.com] 用户名和密码。
 
    对于尚未迁移的用户，无法禁用其旧版登录。禁用后，用户必须使用其 Experience Cloud ID 登录和访问 Analytics。
-

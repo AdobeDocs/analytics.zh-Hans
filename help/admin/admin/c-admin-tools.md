@@ -1,11 +1,10 @@
 ---
 description: Adobe Analytics 中的管理工具索引。
 title: 管理工具
-uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
+feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
 
@@ -35,11 +34,11 @@ ht-degree: 100%
 + [日志](logs.md)
 + [营销渠道](marketing-channels-admin.md)
 + [菜单自定义](customize-menus.md)
-+ [指标可见性](metric-visibility.md)
++ [量度可见性](metric-visibility.md)
 + [移动设备管理](mobile-management.md)
 + [付费搜索检测概述](paid-search-detection/paid-search-detection.md)
 + [发布列表](publishing-list.md)
-+ [发布小组件](publishing-widgets-admin.md)
++ [发布用构件](publishing-widgets-admin.md)
 + [首选项管理器](preferences-manager.md)
 + [隐私设置](privacy-settings.md)
 + [处理规则概述](c-processing-rules/processing-rules.md)

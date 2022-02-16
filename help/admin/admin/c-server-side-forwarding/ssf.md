@@ -1,10 +1,10 @@
 ---
 description: 服务器端转发专为希望将 Analytics 中的数据实时共享到其他 Experience Cloud 解决方案的客户而设计。启用服务器端转发后，在数据收集过程中该功能还允许 Analytics 将数据推送到其他 Experience Cloud 解决方案，而对于这些解决方案，则将数据推送到 Analytics。
-solution: Audience Manager
+solution: Analytics
 title: 服务器端转发概述
-uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
+feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 93%
@@ -64,10 +64,10 @@ ht-degree: 93%
 
 转至 **Analytics** > **管理员** > **报表包** >（选择&#x200B;**报表包**）> **编辑设置** > **常规** > **服务器端转发**。如果复选框为：
 
-* **不活动** （您无法进行选择或菜单不存在）：您没有将选定的报表包映射到IMS组织。请联系客户关怀团队，以确保正确映射报表包。
+* **不活动** （无法进行选择或菜单不存在）：您没有将选定的报表包映射到IMS组织。请联系客户关怀团队，以确保正确映射报表包。
 * **禁用**：表示您没有开启新的服务器端转发。请阅读本页面上的内容，然后继续启用该功能。
 * **启用**：表示您已设置了新的服务器端转发。您还能够设置此 Audience Analytics 集成。
 
 >[!NOTE]
 >
->在全部完成这 3 个步骤之后，数据才会显示在其他 Experience Cloud 解决方案中，例如 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=zh-Hans) 或 [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)。这些设置在启用后需要几个小时才会生效。
+>在全部完成这 3 个步骤之后，数据才会显示在其他 Experience Cloud 解决方案中，例如 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=zh-Hans) 或 [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)。这些设置在启用后需要几个小时才会生效。

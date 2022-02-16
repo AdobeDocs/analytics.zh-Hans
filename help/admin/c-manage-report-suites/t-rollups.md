@@ -1,13 +1,11 @@
 ---
 description: 描述如何创建汇总报表包的步骤。
 title: 创建汇总报表包
-feature: Admin Tools
-uuid: d4bab32a-2a09-49a7-b280-29f8f33ee021
+feature: Report Suite Settings
 exl-id: 0aac9063-d915-4484-92c0-c84a75704ac2
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '119'
 ht-degree: 76%
 
 ---
@@ -18,7 +16,7 @@ ht-degree: 76%
 
 >[!NOTE]
 >
->[!DNL Reports & Analytics] 是支持汇总报表的唯一工具，Adobe不再建议使用汇总。有关替代方法，请参阅“[报表包方法](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/rollup-report-suite.html)”。
+>[!DNL Reports & Analytics] 是唯一支持汇总报表的工具，Adobe不再建议使用汇总报表。 请参阅“[报表包方法](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/rollup-report-suite.html)“ ”。
 
 1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
 1. 在[!UICONTROL 报表包群组]中，单击&#x200B;**[!UICONTROL 汇总]**&#x200B;标题旁的&#x200B;**[!UICONTROL 添加]**。

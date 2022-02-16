@@ -1,15 +1,14 @@
 ---
 description: 如何将 Analytics 用户帐户作为 Enterprise ID 或 Federated ID 迁移到 Admin Console。
 title: 为 Enterprise ID 和 Federated ID 迁移 Analytics 用户帐户
-uuid: f90bf78a-5603-4bef-b714-13215301187c
-translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+feature: Admin Tools
+exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
+source-git-commit: 0143496648e59e95c360388735def726e63ee71b
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 100%
 
 ---
-
 
 # 为 Enterprise ID 和 Federated ID 迁移 Analytics 用户帐户{#migrate-analytics-user-accounts-for-enterprise-and-federated-ids}
 
@@ -137,7 +136,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-有关 [!DNL .csv] 文件中字段的更多信息，请参阅 [CSV 文件格式](https://helpx.adobe.com/cn/enterprise/using/users.html)。
+有关 [!DNL .csv] 文件中字段的更多信息，请参阅 [CSV 文件格式](https://helpx.adobe.com/enterprise/using/users.html)。
 
 >[!NOTE]
 >

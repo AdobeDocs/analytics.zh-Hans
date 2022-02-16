@@ -2,13 +2,12 @@
 description: 若要高效地使用处理规则，了解在数据收集期间何时应用处理规则非常重要。
 subtopic: Processing rules
 title: 处理顺序
-feature: 管理工具
-uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
+feature: Processing Rules
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
-source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 90%
+source-wordcount: '501'
+ht-degree: 92%
 
 ---
 
@@ -36,7 +35,7 @@ ht-degree: 90%
 | 由 VISTA 添加的数据 | 处理规则先于 VISTA 应用。 |
 | 访问页面编号 | 作为一般规则，处理规则仅了解当前点击中包含的数据。访问页面编号将在应用处理规则之后编译。 |
 | 如果未设置页面名称，将添加简洁 URL 作为页面名称 | 在应用处理规则和 VISTA 之后，如果未设置页面名称，将添加简洁 URL 作为页面名称。由于这在应用处理规则之后发生，因此我们建议添加一个条件来检查页面名称是否为空。如果运行“网站内容”>“页面报表”，并看到页面名称的值为 https://，则页面名称可能为空并且正在使用 URL。您可以设置一个条件来测试空页面名称，或者通过测试了解页面名称或页面 URL 是否包含特定的值。然后可以根据需要设置页面名称。 |
-| 营销渠道处理规则 | 您可以使用处理规则来准备由[营销渠道处理规则](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-rules.html)处理的数据。 |
+| 营销渠道处理规则 | 您可以使用处理规则来准备由[营销渠道处理规则](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-rules.html?lang=zh-Hans)处理的数据。 |
 | 地域查找 | 这包括“访客所在州”和“访客 ZIP/邮政编码”值。 |
 | eVars 持久性 | 在规则处理过程中，上次点击中包含的 eVar 不会持久用于每个点击。只有在当前正在处理的点击上设置的 eVar 可用。 |
 

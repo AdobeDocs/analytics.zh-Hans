@@ -2,7 +2,8 @@
 title: 按 IP 地址排除
 description: 防止某些IP地址生成的数据显示在报表中。
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+feature: Admin Tools
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 79%
@@ -13,7 +14,7 @@ ht-degree: 79%
 
 您可以从报表中排除特定 IP 地址的数据，例如，内部网站活动、站点测试和员工使用情况。数据排除能够通过排除 IP 地址数据来提高报表的准确性。此外，还可以删除来自拒绝服务攻击或其他可能影响报表数据准确性的恶意事件的数据。您可以对排除进行配置，也可以使用您的防火墙进行排除。
 
-**[!UICONTROL Analytics]**  >  **[!UICONTROL 管理员]**  >  **[!UICONTROL 所有管理员]**  >  **[!UICONTROL 按IP排除]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 按IP排除]**
 
 >[!NOTE]
 >
@@ -23,7 +24,7 @@ ht-degree: 79%
 
 >[!TIP]
 >
->无需排除专用IP地址。 只有外部IP地址才能访问Adobe数据收集服务器。 专用地址包括`10.*.*.*`、`192.168.*.*`、`172.[16-31].*.*`和`169.254.*.*`。
+>无需排除专用IP地址。 只有外部IP地址才能访问Adobe数据收集服务器。 私有地址包括 `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*`和 `169.254.*.*`.
 
 ## IP 模糊处理的影响 {#section_51B7529FFF16449CA016FDC51D87E2CA}
 

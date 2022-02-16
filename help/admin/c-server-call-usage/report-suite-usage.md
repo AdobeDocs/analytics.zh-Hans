@@ -1,10 +1,10 @@
 ---
 description: “报表包使用情况”选项卡提供与您的账单公司关联的所有登录公司所具有的各个报表包在当前使用时段内的服务器调用使用情况数据。
 title: 查看报表包使用情况
-uuid: c609ed99-9acc-4023-905a-81a40dd07a79
+feature: Server Call Usage
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
+workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 | 栏目 | 定义 |
 |--- |--- |
-| 报表包名称 | 报表包的友好名称 |
+| 报表包 名称 | 报表包的友好名称 |
 | 所有调用（占总数的 %） | 当前使用时段内的所有服务器调用。 |
 | 主调用 (%) | 当前使用时段内发起的所有主服务器调用（及其占总数的百分比）。 |
 | 次级调用 (%) | 当前使用时段内发起的所有次级服务器调用（及其占总数的百分比）。 |

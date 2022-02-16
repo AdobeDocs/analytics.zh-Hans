@@ -1,15 +1,14 @@
 ---
 description: 将用户从旧版 Analytics 用户管理系统迁移到 Admin Console。
 title: 为 Adobe ID 迁移 Analytics 用户帐户
-uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+feature: Admin Tools
+exl-id: 198367a1-8156-4cc3-af8a-d92c61699eda
+source-git-commit: 0143496648e59e95c360388735def726e63ee71b
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 
 ---
-
 
 # 为 Adobe ID 迁移 Analytics 用户帐户{#migrate-analytics-user-accounts-for-adobe-ids}
 
@@ -70,7 +69,7 @@ ht-degree: 100%
    </tr> 
    <tr> 
       <td colname="col1"> <p>声明的域 </p> </td> 
-      <td colname="col2"> <p>如果要按 Enterprise ID 或 Federated ID 迁移用户，您必须是系统管理员，并通过 Admin Console 声明可用域，然后才能迁移用户。在<a href="https://helpx.adobe.com/cn/enterprise/help/identity.html">这里</a>了解更多。 </p> <p>如果不想为 Enterprise ID 或 Federated ID 声明任何域，请跳过此步骤，并继续按 Adobe ID 迁移用户。在<a href="https://helpx.adobe.com/cn/enterprise/help/identity.html">这里</a>了解有关 ID 类型的更多信息。 </p> </td> 
+      <td colname="col2"> <p>如果要按 Enterprise ID 或 Federated ID 迁移用户，您必须是系统管理员，并通过 Admin Console 声明可用域，然后才能迁移用户。在<a href="https://helpx.adobe.com/cn/enterprise/help/identity.html">这里</a>了解更多。 </p> <p>如果不想为 Enterprise ID 或 Federated ID 声明任何域，请跳过此步骤，并继续按 Adobe ID 迁移用户。在<a href="https://helpx.adobe.com/enterprise/help/identity.html">这里</a>了解有关 ID 类型的更多信息。 </p> </td> 
    </tr> 
    </tbody> 
    </table>

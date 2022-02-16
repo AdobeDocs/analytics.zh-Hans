@@ -1,13 +1,12 @@
 ---
 description: 代码管理器可让您下载适用于 Web 和移动平台的数据收集代码。
 title: 代码管理器
-feature: 管理工具
-uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
+feature: Admin Tools
 exl-id: 90591e91-0830-46e3-a8a1-f09c4f108eb2
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 91%
+source-wordcount: '137'
+ht-degree: 95%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 91%
 
 代码管理器可让您下载适用于 Web 和移动平台的数据收集代码。
 
-**[!UICONTROL Analytics]**  >  **[!UICONTROL 管理员]**  >  **[!UICONTROL 所有管理员]**  >  **[!UICONTROL 代码管理器]**。
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 代码管理器]**.
 
 下载库后，您必须配置代码，以便将数据发送到正确的跟踪服务器和报表包。[实施](/help/implement/home.md)用户指南中还提供了其他实施资源。
 

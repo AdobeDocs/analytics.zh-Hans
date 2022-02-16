@@ -1,12 +1,14 @@
 ---
 description: 关于服务器端转发相关特性、功能和问题的常见问题解答。
 title: 服务器端转发常见问题解答
-uuid: ecd0bc9b-ebf7-414e-88a2-ebba3fd75c92
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+feature: Server-Side Forwarding
+exl-id: 63103d2b-e2e8-42da-bdbd-be90abe305f7
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 100%
 
 ---
-
 
 # 服务器端转发常见问题解答
 
