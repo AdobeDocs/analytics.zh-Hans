@@ -1,12 +1,11 @@
 ---
 description: 时间划分会采用所收集的点击量的时间戳，并将其划分为更有意义的维度，例如“每天时间”或“每周时间”。
 title: 时间划分维度
-uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
-feature: Workspace Basics
+feature: Dimensions
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
-workflow-type: ht
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 100%
 
@@ -25,7 +24,7 @@ ht-degree: 100%
 * 在某个较长的日期范围内，哪些时段内访问网站或应用程序的访客最多？
 * 在我的网站或应用程序上，是否每周有几天或每天有几个小时的转化率较高？
 * 周末的销售额与工作日的销售额相比如何？
-* 特定促销活动是在上午还是在下午产生更高的转化？
+* 特定营销活动是在上午还是在下午产生更高的转化？
 
 >[!NOTE]
 >

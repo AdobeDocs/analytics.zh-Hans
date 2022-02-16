@@ -1,13 +1,12 @@
 ---
 description: 交互控件允许您直接从工作表编辑一个或多个请求的区段和日期范围。这使您可以更加灵活地更新 Report Builder 请求。
 title: 交互控件
-uuid: 5f324b61-e032-455e-9947-5037f013e0fa
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '541'
 ht-degree: 100%
 
 ---
@@ -27,7 +26,6 @@ ht-degree: 100%
 >* 如果您在 Windows 上运行 Microsoft Excel，但是运行较低版本的 Report Builder，或者如果您未安装 Report Builder：您可以更改交互控件中的值，但这不会刷新关联的请求，也不会更新请求的关联参数。
 >* 如果您在 Mac 上运行 Excel，则更改控件中的值将会导致显示以下消息：“找不到宏‘Adobe.ReportBuilder.Bridge.FormControlClick.Event’。”
 >
-
 
 
 >[!IMPORTANT]

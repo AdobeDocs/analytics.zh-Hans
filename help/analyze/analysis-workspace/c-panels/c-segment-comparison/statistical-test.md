@@ -2,13 +2,12 @@
 description: 排名最前的每个比较表都会显示一个差异分数，该分数由若干统计测试根据所做的比较计算得出；但是，无论使用哪个测试，差异分数都显示为一个介于 0 到 1 之间的值。
 keywords: Analysis Workspace;区段 IQ
 title: 区段比较中使用的统计测试
-feature: Reports & Analytics 基础知识
-uuid: c3f52470-5bfc-4e6b-8638-1c142b08d013
+feature: Segmentation
 role: User, Admin
 exl-id: b1c235ca-2eab-48d2-bf11-e8a8c4067d03
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '470'
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+workflow-type: tm+mt
+source-wordcount: '467'
 ht-degree: 100%
 
 ---

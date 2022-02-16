@@ -1,13 +1,12 @@
 ---
 description: 描述如何将过滤器应用到路径报表的步骤。
 title: 使用请求向导过滤路径报表
-uuid: 9b22d5b5-7ae8-49a2-90ae-0c1075562bbe
 feature: Report Builder
 role: User, Admin
 exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '365'
 ht-degree: 100%
 
 ---

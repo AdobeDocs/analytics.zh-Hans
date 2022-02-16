@@ -1,15 +1,15 @@
 ---
-description: 如何创建 Analytics 功能板记分卡
-title: 创建记分卡
+description: 执行用户在访问和使用应用程序时可能需要一些其他帮助。 本节将介绍有助于您提供该帮助的信息。
+title: 使用应用程序设置执行用户
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 63f4f69cd22531ced7c65d1b38fdc982da97887b
-workflow-type: ht
-source-wordcount: '729'
-ht-degree: 100%
+exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+workflow-type: tm+mt
+source-wordcount: '749'
+ht-degree: 98%
 
 ---
-
 
 # 使用应用程序设置执行用户
 
@@ -101,7 +101,7 @@ ht-degree: 100%
 
 ![深色模式](assets/darkmode.png)
 
-## 疑难解答
+## 故障排除
 
 如果执行用户登录后看到一条消息，指出尚未共享任何内容，则：
 

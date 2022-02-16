@@ -1,13 +1,12 @@
 ---
 description: 描述 Report Builder 如何支持路径报表和流失报表，以及实施过程与 Reports & Analytics 有何不同。
 title: Report Builder 中的路径报表和路径流失报表
-uuid: 9ca6cb97-8f31-46f6-977a-e81a89a176d1
 feature: Report Builder
 role: User, Admin
 exl-id: 211b0e76-2895-401d-a5a5-73e459a486e2
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '292'
 ht-degree: 98%
 
 ---

@@ -1,13 +1,12 @@
 ---
 description: 现在，所有标为书签的报表和功能板报表都作为维度列在“请求向导”的第 1 步中，并且可以导入为 Report Builder 请求。
 title: 导入加入书签的报表和功能板缩图报表
-uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '341'
 ht-degree: 100%
 
 ---

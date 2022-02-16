@@ -1,13 +1,12 @@
 ---
 description: 介绍如何将 Report Builder 发布的资产提取到 Power BI Desktop
 title: 将已发布的资产提取到 Power BI Desktop
-uuid: ef47d5c7-31e0-44fc-a792-bc9d12bb089e
 feature: Report Builder
 role: User, Admin
 exl-id: ce6020df-caf4-4cd2-8086-4357309e5bbb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '199'
 ht-degree: 100%
 
 ---

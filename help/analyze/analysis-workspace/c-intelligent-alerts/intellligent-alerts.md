@@ -1,14 +1,13 @@
 ---
 description: 新的智能警报系统允许对警报进行更多粒度控制，而且还将异常检测与警报系统集成在一起。
 title: 智能警报概述
-uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
-feature: AI 工具
+feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '365'
-ht-degree: 100%
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
+source-wordcount: '364'
+ht-degree: 84%
 
 ---
 
@@ -29,15 +28,12 @@ Analysis Workspace 中新增的警报生成器和警报管理器取代了 Report
 
 可通过四种方式访问警报生成器：
 
-* 直接转到警报生成器：**[!UICONTROL 组件]** > **[!UICONTROL 警报]**
-* 在工作区中使用键盘快捷键：`Ctrl + Shift + A` (Windows) 或 `Cmd + Shift + A` (Mac)
-* 选择一个或多个自由格式表行项目，右键单击并选择&#x200B;**[!UICONTROL 从选定范围中创建警报]**。此时将打开警报生成器，并预填充从表中应用的相应量度和过滤器。您可以根据需要编辑警报。
-
-   ![从选定范围中创建警报](assets/create-alert-from-selection.png)
-
-* 在 Reports &amp; Analytics 报表中，转到&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 添加警报]**。此时将打开警报生成器，并预填充从报表中应用的相应量度和过滤器。您可以根据需要编辑警报。
-
-   ![添加警报](assets/add-alert.png)
+| 方法 | 详细信息 |
+| --- | --- |
+| 直接转到警报生成器 | **[!UICONTROL 组件]** > **[!UICONTROL 警报]** |
+| 在工作区中使用键盘快捷键 | `Ctrl + Shift + A` (Windows)或 `Cmd + Shift + A` (Mac) |
+| 选择一个或多个自由格式表行项目 | 右键单击并选择 **[!UICONTROL 从选定范围中创建警报]**. 这将打开 [!UICONTROL 警报生成器] 和会预填充从表中应用的相应量度和过滤器。 您可以根据需要编辑警报。![从选定范围中创建警报](assets/create-alert-from-selection.png) |
+| 从Reports &amp; Analytics报表中 | 转到  **[!UICONTROL 更多]** > **[!UICONTROL 添加警报]** . 此时将打开警报生成器，并预填充从报表中应用的相应量度和过滤器。您可以根据需要编辑警报。![添加警报](assets/add-alert.png) |
 
 百分比阈值代表标准偏差。例如，95% 等于 2 个标准偏差，99% 等于 3 标准偏差。根据您选择的时间粒度，将使用[不同的模型](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)来计算每个数据点和标准值之间的间隔时间（标准偏差个数）。设定的阈值越低，异常会越多。例如，同 99.75% 的相比，90% 的阈值会产生更多的异常。
 

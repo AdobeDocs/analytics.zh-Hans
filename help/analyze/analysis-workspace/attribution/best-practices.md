@@ -1,9 +1,10 @@
 ---
 title: 归因最佳实践
 description: 确定归因模型的最佳实践是什么？
+feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: e0a4caec9bc58a0846cd46871aad3bed99d218a3
-workflow-type: ht
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
 

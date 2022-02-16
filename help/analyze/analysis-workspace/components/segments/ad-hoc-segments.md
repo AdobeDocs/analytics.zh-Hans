@@ -1,15 +1,15 @@
 ---
 description: 在 Analysis Workspace 中使用临时区段。
 title: 临时区段
-feature: Workspace Basics
+feature: Segmentation
 role: User, Admin
-source-git-commit: f3185f1ee341348fb7bdbaab8b68d421e7c79076
-workflow-type: ht
+exl-id: 1c189abc-ab9f-413c-9be6-0d2fc457230e
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 100%
 
 ---
-
 
 # 临时项目区段
 

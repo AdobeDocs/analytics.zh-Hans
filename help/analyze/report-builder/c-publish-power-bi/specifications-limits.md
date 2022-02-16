@@ -1,13 +1,12 @@
 ---
 description: 使用Report Builder和MicrosoftPower BI时的限制。
 title: 限制和规范
-uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 feature: Report Builder
 role: User, Admin
 exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '624'
 ht-degree: 94%
 
 ---
@@ -70,5 +69,5 @@ ht-degree: 94%
 请记住以下事项
 
 * 标签不能是可被误认为行和列地址的字母和数字组合。例如，A100 不能用作标签，因为它是工作表中一个单元格的地址。
-* 以下字符不是有效的标签字符：`'#', '@', '!', '$', '^', '&', '&#42;', '`&#39;和`'~', ' '`。 它们将被替换为下划线字符。
+* 以下字符不是有效的标签字符： `'#', '@', '!', '$', '^', '&', '&#42;', '`&#39;和 `'~', ' '` . 它们将被替换为下划线字符。
 * 如果您输入一个无效名称，将显示一则警告消息，并向您推荐一个自动生成的名称。如果单击&#x200B;**[!UICONTROL 是]**，将会使用此名称。如果单击&#x200B;**[!UICONTROL 否]**，高级向导 UI 将让您输入新名称。

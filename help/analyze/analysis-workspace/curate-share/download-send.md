@@ -1,13 +1,12 @@
 ---
 description: 您可以通过复制数据或以 PDF 和 CSV 格式从 Analysis Workspace 下载数据。
 title: 下载 PDF 或 CSV 文件
-uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
-feature: 策划和共享
+feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '986'
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
+source-wordcount: '983'
 ht-degree: 100%
 
 ---
@@ -51,7 +50,7 @@ ht-degree: 100%
 
 ## 以 CSV 格式下载项目 {#download-items}
 
-如果要分析表中的 400 多行可见数据，请右键单击表标题或任意行，然后选择&#x200B;**以 CSV 格式下载项目（维度名称）**。此选项将为所选维度导出最多 50,000 个维度项目（基于表格排序），并应用过滤器和区段。如果从表格顶部选择此选项，将导出表格中的第一个维度。虽然在自由格式表中没有强制执行任何限制，但建议在少于 20 列的表中使用“下载项目”选项以确保达到最佳性能。
+如果要分析的数据不止在表中可见的 400 行数据，请右键单击该表标题或任意行，然后选择&#x200B;**以 CSV 格式下载项目（维度名称）**。此选项将为所选维度导出最多 50,000 个维度项目（基于表格排序），并应用过滤器和区段。如果从表格顶部选择此选项，将导出表格中的第一个维度。虽然在自由格式表中没有强制执行任何限制，但建议在少于 20 列的表中使用“下载项目”选项以确保达到最佳性能。
 
 >[!TIP]
 >

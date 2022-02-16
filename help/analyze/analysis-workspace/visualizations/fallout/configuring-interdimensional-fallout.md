@@ -1,12 +1,11 @@
 ---
 description: Analysis Workspace 中的流失允许您将维度和量度作为漏斗和工作流程中的接触点来进行混合和匹配。这在定义要调查的用户步骤方面具有更大的灵活性。
 title: 多维度流失
-uuid: 17520727-2d06-4dc2-a66d-66e3350bdda3
 feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
-workflow-type: ht
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 100%
 
