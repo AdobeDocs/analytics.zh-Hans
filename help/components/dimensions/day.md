@@ -1,14 +1,14 @@
 ---
 title: 日
 description: 量度出现的日期。
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+feature: Dimensions
+exl-id: 2f93ae8b-422c-4e1e-81d3-43cc0aa442c4
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%
 
 ---
-
 
 # 日
 

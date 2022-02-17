@@ -1,14 +1,14 @@
 ---
 title: 平均页面深度
 description: 维度一般存在于多少个页面上。
-translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+feature: Metrics
+exl-id: 6625405a-bda5-4723-8d22-4bc5b7e44d4e
+source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
-
 
 # 平均页面深度
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 >[!TIP]
 >
->Use this metric alongside another metric (such as [Visits](visits.md)) to obtain better insights. 如果您单独使用此量度，则会获得包含异常页面深度的维度项目，该维度项目通常没有什么价值。
+>将此量度与其他量度（例如[访问数](visits.md)）一起使用以获取更好的见解。如果您单独使用此量度，则会获得包含异常页面深度的维度项目，该维度项目通常没有什么价值。
 
 ## 如何计算此量度
 
@@ -46,4 +46,4 @@ If 'Count repeat instances' is disabled:
 
 ## 百分比高于 100%
 
-此量度通常包含高于 100% 的百分比。分母是整个维度的平均页面深度，分子是维度项目的平均页面深度。如果整个维度的平均页面深度低于给定维度项目的平均页面深度，您将看到高于 100% 的百分比。按此量度对排名报表进行排序，会显示网站平均深度的异常值，该值通常没什么价值。Adobe 建议在排名报表中按其他量度（例如[访问次数](visits.md)）来排序。
+此指标通常包含高于 100% 的百分比。分母是整个维度的平均页面深度，分子是维度项目的平均页面深度。如果整个维度的平均页面深度低于给定维度项目的平均页面深度，您将看到高于 100% 的百分比。按此量度对排名报表进行排序，会显示网站平均深度的异常值，该值通常没什么价值。Adobe 建议在排名报表中按其他量度（例如[访问次数](visits.md)）来排序。

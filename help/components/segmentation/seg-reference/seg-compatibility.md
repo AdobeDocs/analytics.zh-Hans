@@ -1,13 +1,11 @@
 ---
 description: 区段生成器中创建的所有区段并非都与 Data Warehouse 兼容。此表列出支持的功能。
 title: Data Warehouse 区段兼容性
-feature: 分段
-uuid: 370258c5-8614-4434-871c-41753ed77f5c
+feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-translation-type: ht
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
-source-wordcount: '343'
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
+source-wordcount: '342'
 ht-degree: 100%
 
 ---

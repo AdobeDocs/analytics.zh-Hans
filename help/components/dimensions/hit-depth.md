@@ -1,14 +1,14 @@
 ---
 title: 点击深度
 description: 点击进行访问的次数。
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+feature: Dimensions
+exl-id: 84c27e3f-4228-4455-95bf-0239928337b5
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 100%
 
 ---
-
 
 # 点击深度
 

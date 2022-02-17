@@ -1,12 +1,12 @@
 ---
 title: 网站平均逗留时间
 description: 给定维度项目在点击之间存在的平均时间。
+feature: Metrics
 exl-id: bf9056e2-4f6d-4c4f-b641-d3146ce269ff
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -37,9 +37,9 @@ ht-degree: 100%
 
 如果您想要了解维度项目 `Product page A` 的网站平均逗留时间，请首先获取该维度在点击之间经过的时间：
 
-* **12:04:20 - 12:05:30** - 1 分 10 秒
-* **12:05:30 - 12:07:00** - 1 分 30 秒
-* **12:07:40 - 12:08:10** - 30 秒
+* **12:04:20 - 12:05:30** - 1分10秒
+* **12:05:30 - 12:07:00** - 1分30秒
+* **12:07:40 - 12:08:10** - 30秒
 * **12:25:40 - ?** - 未包含
 
 `Product page A` 的逗留总时间是 `00:03:10`。此访问中存在两个序列：第一个序列是针对两个连续值，第二个序列是在结账前。此访问的最后一个点击不是序列，因为它不包含结束时间戳。

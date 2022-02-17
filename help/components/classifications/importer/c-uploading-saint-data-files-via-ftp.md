@@ -1,12 +1,10 @@
 ---
 description: 如何通过 FTP 上传数据文件。
-subtopic: Classifications
 title: FTP 导入
-feature: Admin Tools
-uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
+feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 32196fc76b2743679516a00f86c4912fac0bb3cf
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 100%
 
@@ -20,7 +18,7 @@ ht-degree: 100%
 
 描述如何通过 FTP 上载数据文件的步骤。
 
-**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
+**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**.
 
 以下建议的限制很重要：
 

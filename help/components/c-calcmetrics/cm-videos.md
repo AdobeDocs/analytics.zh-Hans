@@ -1,11 +1,10 @@
 ---
 description: 这些简短视频（不超过 8 分钟）概述了如何优化计算量度工具的使用。
 title: 操作方法视频
-uuid: b6920b20-4c38-4017-bb10-cb187d39fd77
+feature: Calculated Metrics
 exl-id: 1227f68f-b4cd-4fa6-8fa9-0e8cc4e86cb3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 100%
 

@@ -2,10 +2,9 @@
 description: 区段生成器提供了一个画布以将指标维度、区段和事件拖放到其中，从而根据容器层次结构逻辑、规则和运算符划分访客。通过使用该集成开发工具，您可以生成和保存简单或复杂的区段，以确定跨访问和页面点击的访客属性和操作。
 title: 生成区段
 feature: Segmentation
-uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
-workflow-type: ht
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
 source-wordcount: '2046'
 ht-degree: 100%
 
@@ -207,7 +206,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> 查看的产品未添加到购物车 </td> 
-   <td colname="col2">查看浏览了产品但未添加到购物车的访客的数据。在区段定义中，容器为访问。此顺序区段的规则为 <p>产品查看不为空 </p> <p>Then </p> <p> 购物车加货等于 0。 </p> </td> 
+   <td colname="col2">查看浏览了产品但未添加到购物车的访客的数据。在区段定义中，容器为访问。此顺序区段的规则为 <p>产品查看不为空 </p> <p>然后 </p> <p> 购物车加货等于 0。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 来自促销活动的访问量 </td> 

@@ -1,16 +1,14 @@
 ---
 description: 规则集是特定变量的一组分类规则。您可将变量应用到规则集。如果您要为一个变量创建多个规则集，则必须将每个规则集应用到多个报表包。
-subtopic: Classifications
 title: 分类规则集
-feature: 管理工具
-uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '397'
+feature: Classifications
+exl-id: 5c118541-d143-4947-b693-514d7042abe6
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
+source-wordcount: '395'
 ht-degree: 100%
 
 ---
-
 
 # 分类规则集
 

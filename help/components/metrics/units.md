@@ -1,14 +1,14 @@
 ---
 title: 件数
 description: 所有订单内购买的产品总数。
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+feature: Metrics
+exl-id: c7293445-0760-4237-83ae-812224ca6f4b
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
 
 ---
-
 
 # 件数
 

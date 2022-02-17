@@ -1,12 +1,10 @@
 ---
 description: 您无需在每次跟踪代码变更时维护并上载分类，您可以创建自动、基于规则的分类并将这些分类应用在多个报表包中。根据分类相关的流量数目，定期处理规则。
-subtopic: Classifications
 title: 分类规则生成器工作流程
-feature: Admin Tools
-uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
+feature: Classifications
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
 

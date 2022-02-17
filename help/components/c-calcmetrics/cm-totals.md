@@ -1,10 +1,10 @@
 ---
 title: 计算量度总计
 description: 了解计算量度总计在不同 Analytics 工具中的差异
+feature: Calculated Metrics
 exl-id: 3e4429de-3e0c-49a5-b32c-3a4d24a29816
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 100%
 

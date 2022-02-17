@@ -1,10 +1,10 @@
 ---
 title: 反向链接类型
 description: 反向链接类型，取决于访客的来源。
+feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 100%
 

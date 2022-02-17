@@ -1,11 +1,12 @@
 ---
 title: eVar
 description: 可在报告中使用的自定义维度。
+feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: f811651dd86786a081bef25942dbb4bece54befa
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '784'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 *此帮助页介绍 eVar 如何作为维度使用。有关如何实施 eVar 的信息，请参阅实施用户指南中的 [eVar](/help/implement/vars/page-vars/evar.md)。*
 
-eVar 是自定义变量，您可以根据需要随意使用。如果您有[解决方案设计文档](/help/implement/prepare/solution-design.md)，则大多数特定于您的组织的维度最终都会成为 eVar。默认情况下，eVar 会在其设置的点击之外继续存在。您可以在报表包设置的[转换变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)下自定义其到期和分配情况。
+eVar 是自定义变量，您可以根据需要随意使用。如果您有 [解决方案设计文档](/help/implement/prepare/solution-design.md)，大多数特定于您组织的维度最终为 [!UICONTROL eVar]. 默认情况下，eVar 会在其设置的点击之外继续存在。您可以在 [转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in [!UICONTROL 报表包设置].
 
 可用 eVar 的数量取决于您与 Adobe 签署的合同。如果您与 Adobe 签署的合同支持，则至多有 250 个 eVar 可供使用。
 

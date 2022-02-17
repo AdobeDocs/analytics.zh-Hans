@@ -1,10 +1,10 @@
 ---
 title: 上次购买间隔天数
 description: 当前点击与上次购买之间间隔的天数。
+feature: Dimensions
 exl-id: 6f0d9d79-cf40-4de3-9d9f-9b1bc57f97b6
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 100%
 

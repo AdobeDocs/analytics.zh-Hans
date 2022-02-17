@@ -1,12 +1,11 @@
 ---
 description: 区段管理器提供了许多种管理区段的方式，如共享、过滤、标记、批准、复制、删除和标记为收藏。
 title: 管理区段
-feature: 分段
-uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
+feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '426'
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
+source-wordcount: '425'
 ht-degree: 100%
 
 ---
@@ -38,7 +37,7 @@ Analytics 区段管理器显示了您拥有的所有区段以及共享给您的�
 | 6 | 报表包 | 此列指示区段最后保存的报表包。 |
 | 7 | 所有者 | 指示区段的所有者。如果是非管理员，则只能看到您拥有的区段或与您分享的区段。 |
 | 8 | 标记（在列选择器中未选择，因此列不显示） | 应用到区段的标记，由您或与您共享该区段的人添加。 |
-| 9 | 共享人 | 列出您共享该区段的个人或组（仅管理员）或所有人（仅管理员）。 |
+| 9 | 共享对象 | 列出您共享该区段的个人或组（仅管理员）或所有人（仅管理员）。 |
 | 10 | 修改日期 | 显示最后一次修改区段的日期。 |
 | 11 | 列选择器 | 让您在区段管理器中选择或取消选择列。 |
 | 12 | 共享图标 | 表示该区段由您或与您共享。 |

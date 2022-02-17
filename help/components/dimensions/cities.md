@@ -1,9 +1,10 @@
 ---
 title: 城市
 description: 点击源自的城市。
+feature: Dimensions
 exl-id: c04525bb-50d6-4d28-b5dc-335d089e184b
-source-git-commit: 9770f8e04089ff339d912d1787679257c87c7caa
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 100%
 
@@ -17,11 +18,11 @@ ht-degree: 100%
 
 此维度引用 Adobe 内部的查找规则。查找值基于随点击发送的 IP 地址。Adobe 与 [Digital Element](https://www.digitalelement.com/) 合作，共同维护 IP 地址与城市之间的查找服务。此维度可开箱即用于所有实施。
 
-## 维度项目
+## 维度项
 
 维度项目包括全世界的城市。示例值包括 `"New York (New York, United States)"`、`"Bangalore (Karnataka, India)"` 或 `"London (London, United Kingdom)"`。
 
-某些维度项目可能包括 `"AOL"`，它是一个拨号上网服务提供商。此服务的订阅者会根据其建立帐号的国家/地区来分配一个接入点。AOL 用户将使用此接入点的 IP 地址。由于此维度基于 IP 地址，因此会使用接入点的地理位置，而不是访客的实际位置。
+某些维度项可能包括 `"AOL"`，它是一个拨号上网服务提供商。此服务的订阅者会根据其建立帐号的国家/地区来分配一个接入点。AOL 用户将使用此接入点的 IP 地址。由于此维度基于 IP 地址，因此会使用接入点的地理位置，而不是访客的实际位置。
 
 ## 报告位置与实际位置之间的差异
 

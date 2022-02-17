@@ -1,26 +1,25 @@
 ---
 description: 排除和修复与区段相关的问题。
 title: 分段疑难解答
-uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
+feature: Segmentation
+exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%
 
 ---
 
-
 # 分段疑难解答
 
-## 错误：“此区段中存在不兼容的元素”{#section_B167EE10A0844E649DD7E14D0BAEDA17}
+## 错误：“此区段中存在不兼容的元素” {#incompatible}
 
 当您尝试在“Data Warehouse”文件夹中保存的区段含有与 Data Warehouse 不兼容的元素时，会出现此问题。要解决此错误，请执行以下操作之一：
 
 * 将该区段保存在其他文件夹
 * 删除或更改该区段中的不兼容部分。
 
-## 为何我的区段根本不返回任何数据？ {#section_999749CBBE984142AEA49A6E68E6730A}
+## 为何我的区段根本不返回任何数据？ {#no-data}
 
 可能的原因：
 
@@ -28,7 +27,7 @@ ht-degree: 100%
 * 报表不支持分段。
 * 没有与此分段标准匹配的数据。
 
-## 为何我看不到在“区段管理器”中创建的区段？ {#section_BE0A0930A2694A23BB32DA71696D52CE}
+## 为何我看不到在“区段管理器”中创建的区段？ {#invisible}
 
 可能的原因：
 
@@ -40,11 +39,10 @@ ht-degree: 100%
 * 未保存区段。
 * 用户端可能阻止了 IP 地址。
 
-## 为何在应用了区段后显示的“页面数据”看似不正确？ {#section_B226AF69FE06463A8BC5337FDA8D4949}
+## 为何在应用了区段后显示的“页面数据”看似不正确？ {#page-data}
 
 可能的原因：
 
 * 规则/运算符不正确，无法获得所需结果
 * 对区段应用了不正确的容器。
 * 区段使用的流量变量未经过正确设置或者已过期。
-

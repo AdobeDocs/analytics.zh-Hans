@@ -1,9 +1,10 @@
 ---
 title: 国家/地区
 description: 点击源自的国家/地区。
+feature: Dimensions
 exl-id: 47704b08-215d-4d2d-bcd4-1789e308c1c6
-source-git-commit: 9770f8e04089ff339d912d1787679257c87c7caa
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
 
@@ -17,7 +18,7 @@ ht-degree: 100%
 
 此维度引用 Adobe 内部的查找规则。查找值基于随点击发送的 IP 地址。Adobe 与 [Digital Element](https://www.digitalelement.com/) 合作，共同维护 IP 地址与国家/地区之间的查找服务。此维度可开箱即用于所有实施。
 
-## 维度项目
+## 维度项
 
 维度项目包括全世界的各个国家/地区。示例值包括 `"United States"`、`"United Kingdom"` 或 `"India"`。
 

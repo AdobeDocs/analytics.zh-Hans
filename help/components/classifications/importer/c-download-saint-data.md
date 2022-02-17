@@ -1,16 +1,14 @@
 ---
 description: （可选）在将分类导入市场营销报告之前，您可以下载模板来帮助您创建分类数据文件。数据文件会将您所需的分类用作列标题，然后在相应的分类标题下组织报表数据集。
-subtopic: Classifications
 title: 分类模板
-feature: Admin Tools
-uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
-workflow-type: ht
+feature: Classifications
+exl-id: e299509a-0c4f-4ba8-9e91-96356c386054
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 100%
 
 ---
-
 
 # 分类模板
 
@@ -20,7 +18,7 @@ ht-degree: 100%
 
 （可选）在将分类导入市场营销报告之前，您可以下载模板来帮助您创建分类数据文件。数据文件会将您所需的分类用作列标题，然后在相应的分类标题下组织报表数据集。
 
-**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
+**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**.
 
 | 元素 | 描述 |
 | --- | ---|
@@ -52,4 +50,3 @@ ht-degree: 100%
 1. 将模板文件保存到您的本地系统中。
 
    模板文件是大多数电子表格应用程序支持的以制表符分隔的数据文件（文件扩展名为 [!DNL .tab]）。
-

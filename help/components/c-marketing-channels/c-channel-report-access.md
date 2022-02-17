@@ -1,9 +1,10 @@
 ---
 description: 介绍如何运行营销渠道报表、授予有限管理员用户权限，以及授予用户群组对报表的访问权限。
 title: 营销渠道权限
+feature: Marketing Channels
 exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
 

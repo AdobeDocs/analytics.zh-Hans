@@ -1,14 +1,14 @@
 ---
 title: 访问量
 description: 访客的第 n 次访问。
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+feature: Dimensions
+exl-id: daef34b3-c270-476d-a45c-a20be6138c6b
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 100%
 
 ---
-
 
 # 访问量
 

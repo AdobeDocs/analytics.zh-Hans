@@ -1,13 +1,11 @@
 ---
 description: 未分类键值在分类报表中作为标记为 None 的单个行项目分组。将 None 重命名为更具描述性的名称可能很有用。
-subtopic: Classifications
 title: 未分类键值
-feature: 管理工具
-uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
+feature: Classifications
 exl-id: 37288c2d-f6f6-4343-87a1-3c3a7b56fe32
-source-git-commit: f52baf97efe20b209f51108995a0620b6c19bec0
-workflow-type: ht
-source-wordcount: '256'
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
+source-wordcount: '254'
 ht-degree: 100%
 
 ---

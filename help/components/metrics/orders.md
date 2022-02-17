@@ -1,14 +1,14 @@
 ---
 title: 订单数
 description: 购买的次数。
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+feature: Metrics
+exl-id: b05abb6d-983f-43fe-80ad-a0ddf90de466
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 100%
 
 ---
-
 
 # 订单数
 

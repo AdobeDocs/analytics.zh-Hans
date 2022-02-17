@@ -1,11 +1,10 @@
 ---
 description: 显示如何在计算量度生成器内堆叠和替换区段。
 title: 堆叠和替换区段
-uuid: f6d4db9e-d982-4731-b342-7e49dee02035
+feature: Calculated Metrics
 exl-id: a89d66df-a5bc-45fd-8592-967446d8d63b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 100%
 

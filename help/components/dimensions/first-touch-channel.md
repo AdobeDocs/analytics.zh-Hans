@@ -1,14 +1,14 @@
 ---
 title: 首个联系渠道
 description: 访客参与到期时间内的第一个营销渠道。
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
+feature: Dimensions
+exl-id: cca9794c-1305-4e54-aa13-809b9ebc6230
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 100%
 
 ---
-
 
 # 首个联系渠道
 

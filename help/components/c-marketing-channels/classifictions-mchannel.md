@@ -1,10 +1,10 @@
 ---
 title: 营销渠道中的分类
 description: 分类用于将值归到相关群组并在群组级别进行报告。例如，您可以将所有“付费搜索”促销活动归为类似“视频卡”的类别。然后，可在该类别相对于“实例”（或“点进次数”）等量度而成功时进行报告。
+feature: Marketing Channels
 exl-id: eaae9d60-21f8-42ff-b574-cb1710c68cdf
-translation-type: ht
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 100%
 

@@ -2,13 +2,11 @@
 description: 单击报表包名称旁边的 i（信息）图标可获取有关该报表包的信息。
 keywords: 虚拟报表包
 title: 查看虚拟报表包信息
-feature: Reports & Analytics 基础知识
-uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
+feature: VRS
 exl-id: 92e89d40-db94-4b0c-881e-e57ca4bb6999
-translation-type: ht
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: ht
-source-wordcount: '101'
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
+source-wordcount: '98'
 ht-degree: 100%
 
 ---

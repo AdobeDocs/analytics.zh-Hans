@@ -1,13 +1,11 @@
 ---
 description: 描述了使用区段生成器创建并通过区段管理器管理的区段的建议工作流程。
 title: 分段工作流程概述
-feature: 分段
-uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
+feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '240'
 ht-degree: 100%
 
 ---
@@ -15,12 +13,6 @@ ht-degree: 100%
 # 分段工作流程概述
 
 描述了使用区段生成器创建并通过区段管理器管理的区段的建议工作流程。
-
-<!-- 
-
-seg_workflow.xml
-
- -->
 
 ![](assets/seg_workflow.png)
 

@@ -1,16 +1,14 @@
 ---
 description: 分类规则会定期查找未分类的术语。如果找到匹配规则的术语，规则会自动将其添加到分类数据表。您还可以使用分类规则覆盖现有键值。
-subtopic: Classifications
 title: 分类规则
-feature: Admin Tools
-uuid: 08685919-216d-448b-b886-3adf5ff5405e
-source-git-commit: 010712cce4de0bfa65c961052a6131fa20055bd2
-workflow-type: ht
+feature: Classifications
+exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '2020'
 ht-degree: 100%
 
 ---
-
 
 # 分类规则
 
@@ -36,8 +34,8 @@ ht-degree: 100%
 | 选择规则类型 | 输入匹配条件 | 设置分类 | 至 |
 |---|---|---|---|
 | 开头 | em: | 渠道 | 电子邮件 |
-| 结束 | Sale | 类型 | Sale |
-| 包含 | 2013 | 年 | 2013 |
+| 结束 | Sale | 类型 | 销售 |
+| 包含 | 2013 | 年 | 2013年 |
 
 ## 如何处理规则 {#how-rules-are-processed}
 
@@ -328,8 +326,8 @@ t_classification_rule.xml
    >*仅*&#x200B;当满足以下条件时，才会在此页面上显示报表包：
    >
    >* 报表包在[!UICONTROL 管理工具]中针对该变量至少定义了一个分类。
-   >
-   >   （请参阅&#x200B;*分类规则集*&#x200B;中的[变量](/help/components/classifications/crb/classification-rule-set.md)，了解关于此先决条件的说明。）
+      >
+      >   （请参阅&#x200B;*分类规则集*&#x200B;中的[变量](/help/components/classifications/crb/classification-rule-set.md)，了解关于此先决条件的说明。）
    >
    >* 您在单击&#x200B;**[!UICONTROL 添加规则集]**&#x200B;以创建规则集后显示的[可用报表包](/help/components/classifications/crb/classification-rule-set.md)页面上选择了报表包。
 

@@ -1,10 +1,10 @@
 ---
 description: 虚拟报表包中的上下文感知会话可更改 Adobe Analytics 计算移动设备访问的方式。本文介绍了后台点击处理和应用程序启动事件处理（均由 Mobile SDK 设置）对移动设备访问定义方式的影响。
 title: 上下文感知会话
-uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
+feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
-workflow-type: ht
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
 source-wordcount: '1563'
 ht-degree: 100%
 

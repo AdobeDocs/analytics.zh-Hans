@@ -1,10 +1,10 @@
 ---
 title: 首个联系渠道详细信息
 description: 访客参与到期时间内的第一个营销渠道的详细信息。
+feature: Dimensions
 exl-id: a155182d-7bc0-4c7d-9de7-680bfe2d6432
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 100%
 

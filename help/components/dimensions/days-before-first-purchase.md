@@ -1,14 +1,14 @@
 ---
 title: 首次购买间隔天数
 description: 访客首次访问与首次购买之间的间隔天数。
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+feature: Dimensions
+exl-id: 651f9d55-49b9-402a-b7c7-ba4fba62c695
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 100%
 
 ---
-
 
 # 首次购买间隔天数
 

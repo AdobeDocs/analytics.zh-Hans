@@ -1,14 +1,14 @@
 ---
 title: 营销渠道快速入门
 description: 了解营销渠道工作流程、自动设置以及如何将模板报表包设置应用到多个报表包。
-translation-type: ht
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
-workflow-type: ht
+feature: Marketing Channels
+exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 100%
 
 ---
-
 
 # 营销渠道快速入门
 
@@ -96,4 +96,3 @@ ht-degree: 100%
    1. 选择模板报表包，以及一个或多个目标报表包。
    1. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 营销渠道]** > **[!UICONTROL 营销渠道处理规则]**。
    1. 单击&#x200B;**[!UICONTROL 保存]**。如果“保存”按钮在此步骤中处于禁用状态，请通过展开其中一项规则来启用它。
-

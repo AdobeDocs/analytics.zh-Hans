@@ -1,14 +1,11 @@
 ---
 description: 描述如何删除或移除分类数据的步骤。
-subtopic: Classifications
 title: 删除分类数据
-feature: 管理工具
-uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
+feature: Classifications
 exl-id: 2b156e66-3090-4048-8192-a412320e3be3
-translation-type: ht
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '365'
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
+source-wordcount: '363'
 ht-degree: 100%
 
 ---

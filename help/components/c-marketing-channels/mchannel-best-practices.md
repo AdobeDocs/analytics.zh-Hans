@@ -1,13 +1,14 @@
 ---
 title: 实施 Adobe Analytics 营销渠道的最佳实践
 description: 将营销渠道用于归因 IQ 和 Customer Journey Analytics 的更新后最佳实践
-source-git-commit: 35bdd513bee7b01fae1916a0dc1496749752ce62
-workflow-type: ht
+feature: Marketing Channels
+exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 100%
 
 ---
-
 
 # 归因 IQ 和营销渠道 - 最佳实践
 
@@ -21,7 +22,7 @@ ht-degree: 100%
 
 ## 最佳实践 1：利用归因 IQ 进行可控分析
 
-我们推荐使用 [归因 IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=zh-Hans#analysis-workspace) 而不是现有的营销渠道归因以调整您的营销渠道分析。按照其他最佳实践操作，以确保使用归因 IQ 进行分析时一致且可靠的控制。
+我们推荐使用 [归因 IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) 而不是现有的营销渠道归因以调整您的营销渠道分析。按照其他最佳实践操作，以确保使用归因 IQ 进行分析时一致且可靠的控制。
 
 ![](assets/attribution.png)
 

@@ -2,10 +2,10 @@
 title: 登入维度
 description: 列出登入维度及其使用情况。
 keywords: 登入页面，登入网站区域，登入服务器，登入自定义见解
+feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 100%
 

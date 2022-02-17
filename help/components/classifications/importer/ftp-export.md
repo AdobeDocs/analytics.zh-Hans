@@ -1,9 +1,10 @@
 ---
 title: 通过 FTP 导出分类数据
 description: FTP 导出在数据集下载方面提供了更好的灵活性，包括从多个报表包下载数据以及下载超过 50,000 个数据行的数据集文件
+feature: Classifications
 exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
-source-git-commit: e0a4caec9bc58a0846cd46871aad3bed99d218a3
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 100%
 

@@ -1,9 +1,10 @@
 ---
 title: 美国各州
 description: 访客所在的美国州。
+feature: Dimensions
 exl-id: d4506e59-c1ff-4348-912d-c1ad73278f56
-source-git-commit: 9770f8e04089ff339d912d1787679257c87c7caa
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 100%
 
@@ -17,7 +18,7 @@ ht-degree: 100%
 
 此维度引用 Adobe 内部的查找规则。查找值基于随点击发送的 IP 地址。Adobe 与 [Digital Element](https://www.digitalelement.com/) 合作，共同维护 IP 地址与国家/地区之间的查找服务。此维度可开箱即用于所有实施。
 
-## 维度项目
+## 维度项
 
 维度项目包括地区以及该地区所在的国家/地区。示例值包括 `"California"`、`"Texas"` 或 `"Virginia"`。维度项目 `"Unspecified"` 包括美国以外的所有国际流量。
 

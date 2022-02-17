@@ -1,13 +1,11 @@
 ---
 description: 将区段标记为收藏是另一种组织区段以便于使用的方式。
 title: 将区段标记为收藏
-feature: 分段
-uuid: 0bc1f19c-4ab1-47a2-8dd4-9aa0015846ed
+feature: Segmentation
 exl-id: 7586066c-b6bc-4e24-9946-0983bb34dc3f
-translation-type: ht
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
-source-wordcount: '75'
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
+source-wordcount: '74'
 ht-degree: 100%
 
 ---

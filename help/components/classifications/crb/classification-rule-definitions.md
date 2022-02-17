@@ -1,13 +1,11 @@
 ---
 description: 分类规则生成器中的页面上界面元素的定义。
-subtopic: Classifications
 title: 分类规则 - 定义
-feature: 管理工具
-uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
+feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '876'
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
+source-wordcount: '874'
 ht-degree: 100%
 
 ---

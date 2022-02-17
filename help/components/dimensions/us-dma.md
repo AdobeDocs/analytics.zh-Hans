@@ -1,9 +1,10 @@
 ---
 title: 美国 DMA
 description: 点击的指定市场区域。
+feature: Dimensions
 exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
-source-git-commit: 9770f8e04089ff339d912d1787679257c87c7caa
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 100%
 
@@ -17,7 +18,7 @@ ht-degree: 100%
 
 此维度引用 Adobe 内部的查找规则。查找值基于随点击发送的 IP 地址。Adobe 与 Nielsen 合作，共同维护 IP 地址与 DMA 之间的查找服务。此维度可开箱即用于所有实施。
 
-## 维度项目
+## 维度项
 
 维度项目包括访客的 DMA 和 DMA 代码。3 位数的代码不是邮政编码，而是 Nielsen 的 DMA 代码。示例值包括 `"Dallas-Ft. Worth (623)"`、`"New York (501)"` 或 `"Los Angeles (803)"`。维度项目 `"No Metro (0)"` 包括美国以外的所有国际流量。
 

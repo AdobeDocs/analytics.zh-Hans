@@ -2,10 +2,9 @@
 description: 围绕区段的常见问题。
 title: 常见问题解答
 feature: Segmentation
-uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
 source-wordcount: '2080'
 ht-degree: 100%
 
@@ -333,7 +332,7 @@ seg_definition.xml
 | 移动设备操作系统 | Cookie | 地域 DMA |
 | 移动设备 Java VM | 客户忠诚度 | 持久 Cookie |
 | 移动设备书签长度 | 启用 Java | 付费搜索 |
-| 移动设备 URL 长度 | 语言 |  |
+| 移动设备 URL 长度 | language |  |
 
 ## 对具有已知值的整数维度的更改 {#section_84A8AAD0344148AD9F9211D3EB271903}
 
