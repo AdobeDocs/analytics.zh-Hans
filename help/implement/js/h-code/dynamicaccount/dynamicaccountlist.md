@@ -1,9 +1,10 @@
 ---
 title: dynamicAccountList
 description: 构建有关实施如何确定其报表包的逻辑。
+feature: Implementation Basics
 exl-id: ccff24a1-4b9a-4f62-adb5-09ab60e9b93e
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 100%
 

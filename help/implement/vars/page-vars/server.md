@@ -1,15 +1,16 @@
 ---
 title: server
 description: 填充“服务器”维度。
+feature: Variables
 exl-id: 7904c3c2-9a91-497e-89d0-9eed9ae7a902
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 100%
 
 ---
 
-# server
+# 服务器
 
 `server` 变量通常存储网站的主机名。它通常在包含来自多个域的数据的报表包中使用。它的功能与 prop 相同。
 

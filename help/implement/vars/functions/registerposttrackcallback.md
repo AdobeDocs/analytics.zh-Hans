@@ -1,9 +1,10 @@
 ---
 title: registerPostTrackCallback
 description: 在向 Adobe 发送点击后创建回调函数。
+feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%
 
@@ -21,7 +22,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> [`registerPreTrackCallback`](registerpretrackcallback.md) 和 `registerPostTrackCallback` 之间触发函数的时间和顺序无法得到保证。避免这两个函数之间存在依赖关系。
+>[`registerPreTrackCallback`](registerpretrackcallback.md) 和 `registerPostTrackCallback` 之间触发函数的时间和顺序无法得到保证。避免这两个函数之间存在依赖关系。
 
 ## 使用 Adobe Experience Platform 中的标记的“注册后跟踪回调”
 

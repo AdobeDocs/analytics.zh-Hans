@@ -1,9 +1,10 @@
 ---
 title: 将 AppMeasurement 与 iframe 一起使用
 description: 访问 iframe 中的 Adobe Analytics 变量或者在 iframe 中时访问父页面
+feature: Implementation Basics
 exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 100%
 

@@ -1,14 +1,14 @@
 ---
 title: 创建解决方案设计文档
 description: 了解解决方案设计文档是什么，以及如何在组织中使用它。
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
+feature: Implementation Basics
+exl-id: 0b5c5ddd-5f53-4790-a649-1381135dacda
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 100%
 
 ---
-
 
 # 创建解决方案设计文档
 

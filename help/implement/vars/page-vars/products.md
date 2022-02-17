@@ -1,9 +1,10 @@
 ---
 title: 产品
 description: 发送有关所显示产品或购物车中产品的数据。
+feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 9ec16e61560dd31f5240c7dd169ae8720761fbc5
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 100%
 

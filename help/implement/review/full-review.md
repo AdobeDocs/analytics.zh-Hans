@@ -1,10 +1,10 @@
 ---
 title: 全面审查
 description: 每 6 个月对您的实施进行一次审查，以确保实施与业务需求和 KPI 始终保持一致。
+feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 100%
 

@@ -1,9 +1,10 @@
 ---
 title: trackExternalLinks
 description: 对退出链接启用或禁用自动链接跟踪。
+feature: Variables
 exl-id: a34d4ffa-ff82-460e-af7d-1a4be85fc631
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 100%
 

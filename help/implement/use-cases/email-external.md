@@ -1,10 +1,10 @@
 ---
 title: 外部电子邮件跟踪
 description: 使用 Adobe Analytics 跟踪电子邮件内容。
+feature: Implementation Basics
 exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 100%
 

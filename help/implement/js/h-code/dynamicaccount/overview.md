@@ -1,9 +1,10 @@
 ---
 title: 动态帐户概述
 description: 了解关于如何使用 H 代码动态选择报表包的工作流。
+feature: Implementation Basics
 exl-id: 6f35dd71-29ad-4923-b1f7-9c7d6ca45bd8
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 100%
 

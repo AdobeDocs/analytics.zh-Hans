@@ -1,9 +1,10 @@
 ---
 title: 选择退出链接
 description: 了解如何为网站的访客创建实施选择退出链接。
+feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 100%
 

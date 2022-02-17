@@ -1,14 +1,14 @@
 ---
 title: (hier)
 description: 在 Adobe Analytics 中实施层级变量。
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
+feature: Variables
+exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
 
 ---
-
 
 # (hier)
 

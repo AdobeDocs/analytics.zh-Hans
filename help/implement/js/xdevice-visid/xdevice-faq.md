@@ -1,18 +1,18 @@
 ---
 title: 跨设备访客识别常见问题解答
 description: 关于跨设备访客识别的常见问题解答
+feature: Implementation Basics
 exl-id: da972fee-fe6e-45b2-af01-50674989c375
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 100%
 
 ---
 
-# 跨设备访客识别的常见问题解答
+# 跨设备访客识别常见问题解答
 
-关于跨设备访客识别的常见问题解答。
+关于跨设备访客识别的常见问题解答 
 
 **跨设备访客识别与跨设备分析之间有何不同？**
 

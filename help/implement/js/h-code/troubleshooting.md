@@ -1,9 +1,10 @@
 ---
 title: H 代码实施疑难解答
 description: 了解旧版 JavaScript 实施存在的一些常见问题。
+feature: Implementation Basics
 exl-id: 51d6e286-7008-4736-a196-bd8ac4e3e9cb
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 100%
 

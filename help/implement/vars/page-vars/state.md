@@ -1,9 +1,10 @@
 ---
 title: 省/州
 description: 在 Reports and Analytics 中填充“访客所在州报表”。
+feature: Variables
 exl-id: a6e3f30b-b5d1-48f8-8961-8e9c6d4d29da
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 100%
 

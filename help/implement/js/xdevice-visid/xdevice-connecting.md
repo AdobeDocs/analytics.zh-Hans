@@ -3,12 +3,10 @@ description: 跨设备访客识别可帮助您连接跨多个设备的访客。�
 keywords: Analytics 实施
 subtopic: Visitors
 title: 跨设备连接用户
-topic-fix: Developer and implementation
-uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
+feature: Implementation Basics
 exl-id: dfe278db-01de-4bba-b07a-66d52de1dbe2
-translation-type: ht
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 100%
 

@@ -2,9 +2,10 @@
 title: 变量、函数、方法及插件概述
 description: 了解您可以在向 Adobe 发送的数据中包含哪些变量以改进报告。
 keywords: appmeasurement,变量,变量,配置,页面,实施
+feature: Variables
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
-source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 100%
 

@@ -1,9 +1,10 @@
 ---
 title: JavaScript 实施疑难解答
 description: 了解 JavaScript 实施存在的常见问题以及疑难解答最佳实践。
+feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 100%
 
