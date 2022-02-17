@@ -3,12 +3,12 @@ description: 为使用数据源而采取的准备步骤。
 subtopic: Data sources
 title: 准备使用数据源
 topic-fix: Developer and implementation
-uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
+feature: Data Sources
 exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 97%
 
 在确定数据源数据的相应量度到事件映射之后，请使用关联数据源量度所适用的描述性名称重命名事件。
 
-请参阅管理工具帮助中的[成功事件](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html)。
+请参阅管理工具帮助中的[成功事件](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=zh-Hans)。
 
 >[!NOTE]
 >

@@ -1,15 +1,14 @@
 ---
-description: Adobe处理数据源所需时间长度的信息。
+description: 有关Adobe处理数据源所用时间长度的信息。
 title: 数据源处理时间
-uuid: d7cd679a-f9e3-4740-87cf-6171f3fe5cd9
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+feature: Data Sources
+exl-id: 2445775b-e079-45f0-afcc-b373c63350e8
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 90%
 
 ---
-
 
 # 数据源处理时间
 

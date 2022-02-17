@@ -3,9 +3,9 @@ description: 创建、管理和查看报表包中数据源的使用情况。
 subtopic: Data sources
 title: 数据源管理器
 topic-fix: Developer and implementation
-uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
+feature: Data Sources
 exl-id: a63137b8-deeb-4865-9be9-322416b00186
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 98%
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 创建、管理和查看报表包中数据源的使用情况。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > All  **[!UICONTROL admin]** > **[!UICONTROL Data sources]**。
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 数据源]**.
 
 ## “创建”选项卡 {#section_74603FDA3D8842E49F1A51624A06DE20}
 

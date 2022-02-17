@@ -3,10 +3,9 @@ description: 有关数据源模板的信息，该模板提供了一个数据框�
 subtopic: Data sources
 title: 数据源模板概述
 topic-fix: Developer and implementation
-uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
+feature: Data Sources
 exl-id: d3122582-d392-4bd9-af2a-fb3d1292ba66
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 100%
@@ -26,7 +25,7 @@ ht-degree: 100%
 * [转化](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md)
 * [交易 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)
 * [访客 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
-* [完全处理](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md)
+* [Full Processing](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md)
 
 例如，对于访客 ID 数据类型，您可以为[访客 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md) 中列出的任何量度或维度添加一列。
 

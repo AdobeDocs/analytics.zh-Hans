@@ -1,8 +1,9 @@
 ---
 title: 交易 ID 数据源
 description: 了解使用交易 ID 数据源的一般工作流程。
+feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
-source-git-commit: 4497ca252c4ee05175141e58d784ca2df215cb94
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 45%
@@ -21,11 +22,11 @@ ht-degree: 45%
 
 ## 示例
 
-如果传入具有交易ID 1256的在线点击并在其上设置`evar1=blue`、`evar2=water`和`event1`，则交易ID 1256的交易数据将与`evar1=blue`、`evar2=water`一起保存。 事务信息中不保存任何事件值。
+如果在其上传递了交易ID为1256的在线点击 `evar1=blue`, `evar2=water` 和 `event1` 设置，则交易ID 1256的交易数据保存为 `evar1=blue`, `evar2=water`. 事务信息中不保存任何事件值。
 
-现在，假设数据源事务点击随后通过系统传递，并设置事务ID为1256和`evar1=yellow`、`evar3=mountain`和`event2`。 系统找到保存的事务数据，并在数据源事务点击集`evar2=water`中（因为这是在原始点击中设置的数据）。 它未设置`evar1=blue`（与在原始点击时一样），因为数据源事务点击中已设置`evar1`（黄色）的值。  因此，数据源事务点击会导致`evar1=yellow`、`evar2=water`（来自原始在线点击）和`evar3=mountain`。 这3个eVar值已设置`event2` — 数据源事务点击中的事件。
+现在，假设数据源交易点击随后通过交易ID为1256和 `evar1=yellow`, `evar3=mountain` 和 `event2` 设置。 系统在数据源事务点击集中查找保存的事务数据和 `evar2=water` （因为这是在原始点击中设置的内容）。 未设置 `evar1=blue` （与在原始点击时一样），因为 `evar1` （黄色）已在数据源交易点击中设置。  因此，数据源交易点击会导致 `evar1=yellow`, `evar2=water` （来自原始在线点击）和 `evar3=mountain`. 这3个eVar值具有 `event2` set — 数据源交易点击中的事件。
 
-在处理数据源事务点击时，不会设置来自数据源事务点击的值`event1`。
+没有来自数据源交易点击的值 `event1` 在处理数据源交易点击时设置。
 
 ## 交易 ID 数据源的整个工作流程
 

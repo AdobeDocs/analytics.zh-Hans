@@ -1,8 +1,9 @@
 ---
 description: 了解 Analytics 数据连接器生命周期终止的时间和原因。
 title: Analytics 数据连接器生命周期终止预告
+feature: Data Connectors
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 44b869a269fdf3a52d8ef132787a66a8284cf6c3
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 97%

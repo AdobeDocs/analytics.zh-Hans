@@ -2,9 +2,10 @@
 description: 数据源在处理作为标准服务器调用的数据时，支持以下变量（普通 > 完全处理）。
 title: 完全处理
 topic-fix: Developer and implementation
+feature: Data Sources
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
-source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
-workflow-type: ht
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 100%
 
@@ -42,12 +43,12 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>campaign </p> </td> 
-   <td colname="col2"> <p>campaign </p> </td> 
+   <td colname="col2"> <p>营销活动 </p> </td> 
    <td colname="col3"> <p>转化营销活动跟踪代码。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>channel </p> </td> 
-   <td colname="col2"> <p>channel </p> </td> 
+   <td colname="col2"> <p>频道 </p> </td> 
    <td colname="col3"> <p>渠道字符串（例如，体育专栏）。 </p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +68,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
-   <td colname="col2"> <p>events </p> </td> 
+   <td colname="col2"> <p>事件 </p> </td> 
    <td colname="col3"> <p>事件字符串，使用与 <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=zh-Hans"  >s.events</a> 变量相同的语法进行格式设置。 </p> <p>例如： </p> 
     <code>
       scAdd,event1,event7 
@@ -115,7 +116,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
-   <td colname="col2"> <p>products </p> </td> 
+   <td colname="col2"> <p>产品 </p> </td> 
    <td colname="col3"> <p>产品列表（例如，<code> "Sports;Ball;1;5.95"</code>）。每行最多可容纳 4096 字节的值。</p> </td> 
   </tr> 
   <tr> 
@@ -135,7 +136,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>server </p> </td> 
-   <td colname="col2"> <p>server </p> </td> 
+   <td colname="col2"> <p>服务器 </p> </td> 
    <td colname="col3"> <p>服务器字符串。 </p> </td> 
   </tr> 
   <tr> 

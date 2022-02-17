@@ -3,9 +3,9 @@ description: 导入模板文件旨在让您开始导入。
 subtopic: Data sources
 title: 生成导入文件模板
 topic-fix: Developer and implementation
-uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
+feature: Data Sources
 exl-id: c2717936-a011-4224-8a9e-94753abbcb33
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 98%
@@ -25,7 +25,7 @@ ht-degree: 98%
 请参阅[导入文件引用](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md)以了解更多详细信息。
 
 1. 登录到 Analytics。
-1. 在包标题中，选择&#x200B;**[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 数据源]**。
+1. 在包标题中，选择 **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 数据源]**.
 1. 在 **[!UICONTROL 数据源创建]**&#x200B;选项卡中，选择模板类别和类型。
 1. 查看激活指令/信息，然后点击&#x200B;**[!UICONTROL 激活]**。
 

@@ -1,9 +1,10 @@
 ---
 title: 比较 Adobe Analytics 数据与第三方产品
 description: 了解直接将 Adobe Analytics 中的数据与其他 Analytics 解决方案收集的数据进行比较的选项。
+feature: Third-party Integration
 exl-id: b4f85088-7ffd-45dc-bdd1-c0fc8dc3b332
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 

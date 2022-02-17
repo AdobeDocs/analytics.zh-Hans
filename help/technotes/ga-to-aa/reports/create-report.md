@@ -1,10 +1,10 @@
 ---
 title: 在 Analysis Workspace 中创建基本报表
 description: 了解如何在 Analysis Workspace 中以某种格式创建基本报表，适用于熟悉 Google Analytics 等第三方工具的用户。
+feature: Third-party Integration
 exl-id: 513da3f1-ad24-4d5b-bc35-dbcd3694cbdf
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 100%
 

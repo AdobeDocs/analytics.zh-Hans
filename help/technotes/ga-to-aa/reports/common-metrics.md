@@ -1,14 +1,14 @@
 ---
 title: 其他平台上常用的量度翻译指南
 description: 了解如何使用 Google Analytics 用户更熟悉的术语提取许多常见报表的量度数据。
-translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+feature: Third-party Integration
+exl-id: e95b0530-8099-4a08-9e2b-75174546277d
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 97%
 
 ---
-
 
 # 其他平台上常用的量度翻译指南
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 ## 客户获取量度
 
-**用户**&#x200B;大致相当于 Workspace 中的&#x200B;**独特访客**。有关更多详细信息，请参阅组件用户指南中的[独特访客](/help/components/metrics/unique-visitors.md)。
+**用户**&#x200B;大致相当于工作区中的&#x200B;**独特访客**。有关更多详细信息，请参阅组件用户指南中的[独特访客](/help/components/metrics/unique-visitors.md)。
 
 可通过以下方式获取&#x200B;**新用户**：
 
@@ -53,7 +53,7 @@ ht-degree: 97%
 
    您可在组件用户指南中了解有关[计算量度](/help/components/c-calcmetrics/cm-overview.md)的更多信息。
 
-**平均会话持续时间**&#x200B;大致相当于&#x200B;**每次访问逗留时间（秒）**。Learn more about [Time spent per visit](/help/components/metrics/time-spent-per-visit.md) metrics in the Components user guide.
+**平均会话持续时间**&#x200B;大致相当于&#x200B;**每次访问逗留时间（秒）**。详细了解 [每次访问逗留时间](/help/components/metrics/time-spent-per-visit.md) 量度。
 
 ## 转化率量度
 

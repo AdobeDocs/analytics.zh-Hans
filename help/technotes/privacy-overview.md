@@ -2,9 +2,9 @@
 description: 有关 Adobe Analytics 所收集数据和其他隐私注意事项的概述。
 keywords: 隐私
 title: 隐私概述
-uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
+feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: d6430845f30a5b14c29c3c4111bf9c60a69eeea4
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 97%
@@ -91,7 +91,7 @@ Adobe Analytics 收集以下数据：
   </tr> 
   <tr> 
    <td colname="col1"> 欧洲 </td> 
-   <td colname="col2"> Adobe 启用了设置 IP 模糊处理：对于欧洲、中东和非洲地区使用报表包集的所有客户，默认设置为“已启用 - IP 已删除 (x.x.x.x)”。通过此设置，在地理查询后 IP 地址将由值 (x.x.x.x) 完全取代，且不再可作为数据点使用。 <p>这个基本替换方法无法通过实施反向工程返回一个唯一的特定 IP 地址。客户或 Adobe 均无法访问该 IP 地址，该 IP 地址已经过不可逆转的匿名化处理。有关其他IP模糊处理设置的更多信息，请参阅 </p> <p> <a href="/help/admin/admin/general-acct-settings-admin.md">管理员用</a> 户指南中的一般帐户设置。</p> </td>
+   <td colname="col2"> Adobe 启用了设置 IP 模糊处理：对于欧洲、中东和非洲地区使用报表包集的所有客户，默认设置为“已启用 - IP 已删除 (x.x.x.x)”。通过此设置，在地理查询后 IP 地址将由值 (x.x.x.x) 完全取代，且不再可作为数据点使用。 <p>这个基本替换方法无法通过实施反向工程返回一个唯一的特定 IP 地址。客户或 Adobe 均无法访问该 IP 地址，该 IP 地址已经过不可逆转的匿名化处理。有关其他IP模糊处理设置的更多信息，请参阅 </p> <p> <a href="/help/admin/admin/general-acct-settings-admin.md">一般帐户设置</a> 管理用户指南中的。</p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> 全球 </td> 

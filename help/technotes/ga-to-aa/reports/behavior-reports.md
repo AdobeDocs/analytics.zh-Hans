@@ -1,10 +1,10 @@
 ---
 title: Adobe Analytics 中的行为报表
 description: 了解如何在 Adobe Analytics 中创建行为报表
+feature: Third-party Integration
 exl-id: ea441afa-e595-4ffa-b446-d67e87f8a7c9
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 100%
 

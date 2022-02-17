@@ -3,9 +3,9 @@ description: 数据源提供其他两种方式，用于将离线发生的事件�
 subtopic: Data sources
 title: 交易和客户集成
 topic-fix: Developer and implementation
-uuid: 71f73a47-3436-4314-a182-36de4bd935ba
+feature: Data Sources
 exl-id: d4e4388b-6449-4fef-a94d-01b3a52c2190
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 79%
@@ -38,7 +38,7 @@ ht-degree: 79%
 
  -->
 
-要查看是否启用了“事务ID记录”，请导航至&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 数据源]**。
+要查看是否启用了“交易ID记录”，请导航至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 数据源]**.
 
 ![](assets/transaction-ID-recording-active.png)
 
@@ -63,6 +63,6 @@ ht-degree: 79%
 
 客户从在线转为离线时通常是匿名的。
 
-“访问参与”量度中不包括交易ID事件（这些量度显示在市场营销报告中）。 这是因为交易ID数据与访问无关联(因为脱机事件通常不是联机事件的一部分)，而是与访客关联。
+交易ID事件未包含在“访问参与”量度中（这些量度显示在市场营销报告中）。 这是因为交易ID数据与访问没有关联（因为离线事件通常不是在线事件的一部分），而是与访客关联。
 
-请参阅[事务ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)。
+请参阅 [交易ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).

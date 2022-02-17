@@ -3,10 +3,10 @@ description: 数据源类别标识提供相似功能的不同数据源类型。
 subtopic: Data sources
 title: 数据类型和类别概述
 topic-fix: Developer and implementation
-uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
+feature: Data Sources
 exl-id: d459fd06-a0fe-49e6-8624-b42f0c60ee6e
-source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
-workflow-type: ht
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 100%
 

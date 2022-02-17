@@ -1,13 +1,14 @@
 ---
 title: 减轻浏览器 Cookie 限制影响的选项
 description: 了解如何减轻浏览器 Cookie 限制的影响以改进 Adobe Analytics 的数据收集。
-source-git-commit: 6c354a343648162ce2951c52a70a688970e1304d
-workflow-type: ht
+feature: Data Configuration and Collection
+exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 100%
 
 ---
-
 
 # 减轻浏览器 Cookie 限制影响的选项
 
@@ -37,5 +38,4 @@ Adobe Analytics 依靠第一方 Cookie 记录访客在网站上的活动。Analy
 
 >[!MORELIKETHIS]
 >
->[Adobe Analytics 和浏览器 Cookie](cookies.md)>
->
+>[Adobe Analytics 和浏览器 Cookie](cookies.md)
