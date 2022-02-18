@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 提供 Analytics 的高级分析和可视化工具 Analysis Workspace 以及 Adobe Analytics Dashboards、Report Builder 和 Activity Map 等工具的操作说明。
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+source-git-commit: 3cb991e7f440a72247b7261ad5959e15619e8a76
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1035'
 ht-degree: 98%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 98%
          + [批注概述](analysis-workspace/components/annotations/overview.md)
          + [创建注释](analysis-workspace/components/annotations/create-annotations.md)
          + [管理注释](analysis-workspace/components/annotations/manage-annotations.md)
-         + [查看批注](analysis-workspace/components/annotations/view-annotations.md)
+         + [查看注释](analysis-workspace/components/annotations/view-annotations.md)
       + 维度{#dimensions}
          + [预览维度](analysis-workspace/components/dimensions/view-dimensions.md)
          + [划分维度](analysis-workspace/components/dimensions/t-breakdown-fa.md)
@@ -91,7 +91,8 @@ ht-degree: 98%
       + [Analytics for Target (A4T) 面板](analysis-workspace/c-panels/a4t-panel.md)
       + [归因面板](analysis-workspace/c-panels/attribution.md)
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
-      + [自由格式面板](analysis-workspace/c-panels/freeform-panel.md)
+      + [“自由格式”面板](analysis-workspace/c-panels/freeform-panel.md)
+      + [“媒体平均观看分钟数”面板](analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [“媒体并行查看者”面板](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + 媒体播放耗时 {#media-playback-timespent}
          + [概述](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
@@ -119,7 +120,7 @@ ht-degree: 98%
    + [历程 IQ](analysis-workspace/journey-iq.md)
    + [区段 IQ](analysis-workspace/segment-iq.md)
    + 虚拟分析师 {#virtual-analyst}
-      + [虚拟分析师概述](analysis-workspace/virtual-analyst/overview.md)
+      + [Virtual Analyst 概述](analysis-workspace/virtual-analyst/overview.md)
       + 异常检测 {#anomaly-detection}
          + [异常检测概述](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
          + [在 Analysis Workspace 中查看异常](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
