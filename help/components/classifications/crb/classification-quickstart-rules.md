@@ -80,7 +80,7 @@ about_classification_rules.xml
 
 * 已对键值进行分类，并且您未选择[覆盖分类](/help/components/classifications/crb/classification-rule-definitions.md)。
 
-   您可以在[](/help/components/classifications/crb/classification-quickstart-rules.md)添加和激活规则，以及激活 Data Connectors 集成时，覆盖分类。（对于 Data Connectors，规则由开发中心的合作伙伴创建，并显示在“[!UICONTROL 分类规则生成器]”中。）
+   您可以在[&#128279;](/help/components/classifications/crb/classification-quickstart-rules.md)添加和激活规则，以及激活 Data Connectors 集成时，覆盖分类。（对于 Data Connectors，规则由开发中心的合作伙伴创建，并显示在“[!UICONTROL 分类规则生成器]”中。）
 
 * 在覆盖键值时指定的时间范围后，甚至在启用[覆盖分类](/help/components/classifications/crb/classification-rule-definitions.md)后，已分类的键值都没有出现在数据中。
 * 在大约一个月前时间范围开始后，没有对键值进行分类，并且键值从未传递到 [!DNL Adobe Analytics]。
@@ -326,8 +326,8 @@ t_classification_rule.xml
    >*仅*&#x200B;当满足以下条件时，才会在此页面上显示报表包：
    >
    >* 报表包在[!UICONTROL 管理工具]中针对该变量至少定义了一个分类。
-      >
-      >   （请参阅&#x200B;*分类规则集*&#x200B;中的[变量](/help/components/classifications/crb/classification-rule-set.md)，了解关于此先决条件的说明。）
+   >
+   >   （请参阅&#x200B;*分类规则集*&#x200B;中的[变量](/help/components/classifications/crb/classification-rule-set.md)，了解关于此先决条件的说明。）
    >
    >* 您在单击&#x200B;**[!UICONTROL 添加规则集]**&#x200B;以创建规则集后显示的[可用报表包](/help/components/classifications/crb/classification-rule-set.md)页面上选择了报表包。
 
