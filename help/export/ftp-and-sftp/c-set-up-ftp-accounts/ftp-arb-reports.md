@@ -2,10 +2,10 @@
 description: 使用适用于 Microsoft Excel 的 Adobe Report Builder 加载项以生成来自 Web 分析数据的自定义请求，并且可将它插入您的 Excel 工作表。
 keywords: ftp;sftp
 title: Report Builder 传送的报表
-uuid: 94070700-4073-499a-afe2-10a30eeab79f
+feature: FTP Export
 exl-id: 0026b6dc-023f-4896-ba0d-0eec16a9d469
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 100%
 

@@ -2,15 +2,14 @@
 description: 了解如何使用 FTP 和 SFTP 在计算机和服务器之间传输文件。
 keywords: ftp;sftp
 title: 将 FTP 和 SFTP 用于 Adobe Experience Cloud
-uuid: 12a82a13-1634-4a2d-bb92-5006d650ebe9
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '124'
-ht-degree: 100%
+feature: FTP Export
+exl-id: 03111429-6a32-4d0a-bf3c-9ca658de1684
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 87%
 
 ---
-
 
 # 将 FTP 和 SFTP 用于 Adobe Experience Cloud
 
@@ -22,4 +21,4 @@ ht-degree: 100%
 * 将客户属性上传到 Experience Cloud，以供在解决方案中使用。
 * 使用 Analytics 来创建和管理基于 FTP 的数据源，它可以利用 FTP 文件传输将离线数据或历史数据导入 [!UICONTROL Experience Cloud]。
 
-本文的主旨并非是带您了解在每个产品中使用 FTP 的具体步骤。而是推荐一些在 Adobe 中使用 FTP 的最佳实践。
+这些文章不一定会指导您完成将FTP用于每个产品的步骤。 而是推荐一些在 Adobe 中使用 FTP 的最佳实践。

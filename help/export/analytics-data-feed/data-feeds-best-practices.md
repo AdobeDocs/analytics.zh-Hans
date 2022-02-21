@@ -2,10 +2,10 @@
 description: 以下是数据馈送处理和提交的一些最佳实践。
 keywords: 数据馈送;最佳实践;流量尖峰;每小时;ftp
 title: 最佳实践和常规信息
-uuid: f2d6c13a-5d4e-4fc2-8baa-28c69f0cf5f6
+feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
-source-git-commit: c420a9468dc39922bd02047160bb07623503eee4
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 100%
 

@@ -2,9 +2,10 @@
 description: 有关数据馈送的常见问题解答
 keywords: 数据馈送;作业;前处理列;后处理列;区分大小写
 title: 数据馈送常见问题解答
+feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: b81ffba2f1e021888dd1c4b016c9b451448f47bb
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '1439'
 ht-degree: 100%
 

@@ -2,11 +2,10 @@
 description: 您可以使用 Analytics 创建和管理基于 FTP 的数据源，它可以利用 FTP 文件传输将离线数据或历史数据导入 Experience Cloud。
 keywords: ftp;sftp
 title: 数据源
-uuid: 41ba2de7-d33d-4394-b7d8-04a116f45419
+feature: FTP Export
 exl-id: 777917bd-bd11-4360-a149-e4fd0bb2f99e
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 100%
 
@@ -32,4 +31,4 @@ ht-degree: 100%
 
 如果您在上传数据源或 SAINT 文件时没有提供 [!DNL .fin] 文件，Adobe 不会将它添加到待处理的队列。该文件将保留在 FTP 上，并且不会被应用到 [!UICONTROL Experience Cloud] 中的数据。只有您在报表的“[!UICONTROL 创建 FTP 帐户]”窗口的“[!UICONTROL 通知收件人]”中输入了您的电子邮件地址，才会向您发出通知。如果没有在此字段中输入电子邮件地址，则不会发送通知。
 
-如果您上传文件时含有 [!DNL .fin] 文件，但文件中存在错误，则在提交它进行处理时，该错误会导致处理停止，并将文件发送到错误文件夹。如果发生这种情况，会向“[!UICONTROL 创建 FTP 帐户]”窗口的“[!UICONTROL 通知收件人]”字段中列出的电子邮件地址发送一个通知。如果没有输入电子邮件地址，则不会发送通知。
+如果您上传文件时含有 [!DNL .fin] 文件，但文件中存在错误，则在提交它进行处理时，该错误会导致处理停止，并将文件发送到错误文件夹。如果发生这种情况，会向[!UICONTROL 创建 FTP 帐户]窗口的[!UICONTROL 通知收件人]字段中列出的电子邮件地址发送一个通知。如果没有输入电子邮件地址，则不会发送通知。

@@ -1,15 +1,14 @@
 ---
-description: 计划请求在Data warehouse中重复运行。
+description: 计划Data warehouse中的请求以重复运行。
 title: 计划周期性请求
-uuid: 8ebeb78c-23a0-4b39-a63e-51835e0677a8
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+feature: Data Warehouse
+exl-id: 8c532d14-d2bc-48e9-80a6-7741805b5aca
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 85%
 
 ---
-
 
 # 计划周期性请求
 
@@ -27,4 +26,3 @@ ht-degree: 85%
    ![](assets/dw_schedule.png)
 
 1. 单击&#x200B;**[!UICONTROL 计划]**。
-

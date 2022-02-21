@@ -1,10 +1,10 @@
 ---
 description: Report Builder 5.2 支持 Adobe Analytics 统一的计算量度。作为诸多创新中的一种，目前所有计算量度都拥有一个全局 ID - 不再局限于单一的报表包之中。
 title: 计算量度
-uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
+feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 98%
@@ -23,7 +23,7 @@ Report Builder 5.2 支持 Adobe Analytics 统一的计算量度。作为诸多�
 
 在“请求向导”的第 2 步，可以过滤并应用计算量度。
 
-## 过滤计算量度 {#section_376E986D3E684999A7CDB08E53854159}
+## 筛选计算量度 {#section_376E986D3E684999A7CDB08E53854159}
 
 单击“过滤器”图标 ![](assets/segment_filter.png) 可以&#x200B;**过滤**&#x200B;计算量度。
 

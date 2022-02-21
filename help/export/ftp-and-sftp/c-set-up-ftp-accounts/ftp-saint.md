@@ -2,10 +2,10 @@
 description: 分类 (SAINT) FTP 选项在上传较大的分类数据集方面具有更大的灵活性，包括能够将数据上传到多个报表包，并可上传大于 50,000 行的数据集。
 keywords: ftp;sftp
 title: 分类
-uuid: 35936c98-b785-43eb-89f4-ab42a10db256
+feature: FTP Export
 exl-id: fc783328-a70b-4af3-b3d3-c59ab79d6b8f
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 100%
 

@@ -2,20 +2,20 @@
 description: 在使用 Data Connectors 创建与 Adobe 合作伙伴的集成时，Adobe 可将再营销或其他数据推送到 FTP 帐户，以供您或合作伙伴下载。
 keywords: ftp;sftp
 title: Data Connectors
-translation-type: tm+mt
-source-git-commit: d5840838b092eb19165d4b716e808a1d2d1fc4dc
+feature: FTP Export
+exl-id: 69225b84-b292-4b16-a5c2-b618c6cd3191
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 91%
+source-wordcount: '138'
+ht-degree: 94%
 
 ---
-
 
 # Data Connectors
 
 >[!IMPORTANT]
 >
->我们将在2021年中后期终止Adobe Data Connector技术。 [了解更多...](/help/import/data-connectors/data-connectors-eol.md)
+>Adobe2021年终止Adobe数据连接器技术。 [了解详情...](/help/import/data-connectors/data-connectors-eol.md)
 
 在使用 [Data Connectors](https://www.adobeexchange.com/experiencecloud.html) 创建与 Adobe 合作伙伴的集成时，Adobe 可将再营销或其他数据推送到 FTP 帐户，以供您或合作伙伴下载。
 

@@ -1,11 +1,11 @@
 ---
 description: 用来定义所有报表显示方式的设置以及将默认菜单选项映射到简化菜单中相应位置的信息。
 title: 报表显示设置和导航
-uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '1557'
 ht-degree: 100%
 
