@@ -1,17 +1,17 @@
 ---
-description: 说明Adobe Analytics的连续功能发布策略
+description: 介绍 Adobe Analytics 的连续功能发布战略
 title: Adobe Analytics 功能发布
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 source-git-commit: a6f2e241617d118479b79d00305f7ed4dc3dfd67
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '376'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Adobe Analytics 功能发布
 
-Adobe Analytics版本基于连续交付模型进行操作，该模型允许采用更具扩展性的分阶段方法来部署功能。
+Adobe Analytics 版本在持续交付模型上运行，该模型允许采用更具可扩展性的分阶段方法进行功能部署。
 
 ## 发布策略
 
