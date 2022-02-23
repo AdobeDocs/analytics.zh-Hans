@@ -1,10 +1,10 @@
 ---
 description: 了解关于用户准许在设备或浏览器上存储或读取非必要 Cookie 的准则和建议。
 title: 关于用户准许和 Cookie 的 CNIL 准则是什么
+feature: Data Governance
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-translation-type: ht
-source-git-commit: 0e09f6ee34560ca7f036e8f3fb743c822d5fcfc4
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 100%
 

@@ -1,11 +1,10 @@
 ---
 description: 为报表包数据设置标签即是向给定报表包中的每个变量分配身份、敏感性和数据管理标签。请确保您首先要熟悉标签及其定义。
 title: 为报表包数据设置标签
-uuid: a694851c-8933-496e-9118-113cc38cba8a
+feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 100%
 
@@ -64,7 +63,7 @@ ht-degree: 100%
 
 1. 完成所有标签设置后，请单击&#x200B;**[!UICONTROL 应用]**。
 
-## 将标签复制到报表包 {#section_7C6FDAFF049F4126B84F6261F72668EE}
+## 将标签复制到报表包  {#section_7C6FDAFF049F4126B84F6261F72668EE}
 
 如果您要将相同的 DULE/数据隐私设置应用于多个报表包，则可以执行以下步骤：
 

@@ -1,11 +1,10 @@
 ---
 description: 您希望能够搜索的每个 ID 均分配有一个命名空间；命名空间是一个自定义字符串，用于在所有报表包之间使用的任何变量中识别该 ID。
 title: 命名空间
-uuid: cab61844-3209-4980-b14c-6859de777606
+feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 100%
 
