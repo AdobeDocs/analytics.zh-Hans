@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 导入指南
 breadcrumb-title: 导入指南
 user-guide-description: '从外部来源批量或实时将数据导入 Analytics。 '
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+source-git-commit: d8603ddd6cee2ccc930281003d9ff1befa15c95c
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '140'
 ht-degree: 92%
 
 ---
@@ -40,6 +40,7 @@ ht-degree: 92%
    + [交易和客户集成](c-data-sources/datasrc-integrating-offline-data.md)
    + [交易 ID 和访客资料](c-data-sources/datasrc-tid-visitor-profile.md)
    + [数据源常见问题解答](c-data-sources/datasrc-faq.md)
++ [批量数据插入 API](bulk-data-insertion-api/bulk-data-insert.md)
 + [数据插入 API](c-data-insertion-api/c-data-insertion-api.md)
 + 数据连接器 {#dataconnectors}
    + [Analytics 数据连接器生命周期结束](data-connectors/data-connectors-eol.md)
