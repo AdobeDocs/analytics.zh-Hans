@@ -4,7 +4,7 @@ description: 存储稍后可随时检索的值。
 feature: Variables
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '583'
 ht-degree: 100%
 
