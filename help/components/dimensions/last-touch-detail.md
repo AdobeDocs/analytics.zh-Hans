@@ -4,7 +4,7 @@ description: 访客参与到期时间内最近的那个营销渠道的详细信�
 feature: Dimensions
 exl-id: def03267-f3e5-4772-a707-5678c45eba6d
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '313'
 ht-degree: 100%
 
