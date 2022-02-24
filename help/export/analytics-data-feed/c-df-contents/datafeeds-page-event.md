@@ -5,7 +5,7 @@ title: 页面事件对照
 feature: Data Feeds
 exl-id: ef0467df-b94b-4cec-b312-96d8f42c23b0
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 用于根据 page_event 值确定点击类型的对照表。
 
-| 点击类型 | `page_event` value | `post_page_event` 值 |
+| 点击类型 | `page_event` value | `post_page_event` value |
 | --- | --- | --- |
 | 页面查看 | 0：来自 Mobile SDK 的所有页面查看调用和 `trackState` 调用 | 与 `page_event` 的值相同 |
 | 链接跟踪 | 10：Mobile SDK 中的自定义链接和 `trackAction` 调用<br>11：下载链接<br>12：退出链接 | 100：Mobile SDK 中的自定义链接和 `trackAction` 调用<br>101：下载链接<br>102：退出链接 |
