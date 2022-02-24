@@ -4,13 +4,13 @@ description: 填充“网站区域”维度。
 feature: Variables
 exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
 ht-degree: 100%
 
 ---
 
-# 频道
+# channel
 
 `channel` 变量通常存储给定页面所在的网站区域。确定最受欢迎的网站组对您很有帮助。此变量可填充“网站区域”维度。
 
