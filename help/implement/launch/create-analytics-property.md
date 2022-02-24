@@ -3,10 +3,10 @@ title: 在标记中创建 Analytics 属性
 description: 使用标记创建一个空间，以自定义数据的收集方式。
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 0763f2624d46eb282b7b4c94f7d103d8e9ad8095
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 100%
+source-wordcount: '610'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 1. 为您的属性指定名称（如网站的标题），然后输入要在其中实施 Analytics 的域。单击&#x200B;**[!UICONTROL 保存]**。
 1. 单击新创建的标记属性以输入其设置。
 1. 单击&#x200B;**[!UICONTROL 扩展]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 目录]**。
-1. 找到“标识服务”，然后单击&#x200B;**[!UICONTROL 安装]**。
+1. 找到“Experience CloudID服务”，然后单击 **[!UICONTROL 安装]**.
 1. 所有设置（包括 Experience Cloud 组织 ID）都应当已经填充。单击&#x200B;**[!UICONTROL 保存]**。
 1. 返回扩展目录，找到 Adobe Analytics 并单击&#x200B;**[!UICONTROL 安装]**。
 
