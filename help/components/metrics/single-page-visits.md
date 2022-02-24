@@ -4,7 +4,7 @@ description: “页面”维度项目在访问中未更改的次数。
 feature: Metrics
 exl-id: 086235d0-4542-4e82-96ab-28c47c842ecf
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
 ht-degree: 100%
 
