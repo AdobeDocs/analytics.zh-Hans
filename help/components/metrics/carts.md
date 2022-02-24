@@ -4,7 +4,7 @@ description: 访客将第一个产品添加到购物车的点击数。
 feature: Metrics
 exl-id: 890bbaba-0140-4995-bbd2-c69aedc801e5
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '135'
 ht-degree: 100%
 
