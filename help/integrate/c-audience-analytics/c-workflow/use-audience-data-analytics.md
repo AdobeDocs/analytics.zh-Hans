@@ -5,7 +5,7 @@ title: 在 Analytics 中使用受众数据
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '632'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ AAM 区段数据依据逐次点击传递到 Analytics 中，表示访客在该�
 
 ![](assets/flow-aamaudiences.png)
 
-受众还可用于[流失可视化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)。
+受众还可用于[流失可视化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=zh-Hans)。
 
 ## Analysis Workspace 中的维恩可视化 {#section_E78AB764FB5047148B51DC1526B0DF89}
 
