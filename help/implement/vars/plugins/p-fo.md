@@ -4,7 +4,7 @@ description: 确保某些例程在每页上仅触发一次。
 feature: Variables
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '635'
 ht-degree: 100%
 
