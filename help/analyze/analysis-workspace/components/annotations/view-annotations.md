@@ -4,10 +4,10 @@ description: 如何在工作区中查看注释。
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 863b47ee84c1446ed20beb9661bf5435c264b12e
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 78%
+ht-degree: 66%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 78%
 | 日期 | 外观 |
 | --- | --- |
 | **一天** | ![](assets/single-day.png) |
-| **日期范围** | 图标会发生变化，当您将鼠标悬停在它上面时，会显示日期范围。<p>![](assets/multi-day.png)<p>在表中，会在日期范围内的每个日期上显示一个图标。<p>![](assets/multi-day-table.png)<p>请注意以下事项：在有多个注释与其关联的日期上，图标将为灰色。 |
+| **日期范围** | 图标会发生变化，当您将鼠标悬停在它上面时，会显示日期范围。<p>![](assets/multi-day.png)<p>在表中，会在日期范围内的每个日期上显示一个图标。<p>![](assets/multi-day-table.png)<p>请注意以下事项：在与多个批注关联的天数中，图标将以灰色显示。 |
 
 ## 在摘要图中查看注释
 
