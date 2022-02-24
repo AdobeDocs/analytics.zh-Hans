@@ -4,7 +4,7 @@ title: 分类数据文件
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1783'
 ht-degree: 100%
 
@@ -204,4 +204,4 @@ ht-degree: 100%
 
 ## 有关分类的疑难解答
 
-* [常见 上载问题](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)：知识库文章，描述由于文件格式以及文件内容不正确导致的问题。
+* [常见 上载问题](https://helpx.adobe.com/cn/analytics/kb/common-saint-upload-issues.html)：知识库文章，描述由于文件格式以及文件内容不正确导致的问题。
