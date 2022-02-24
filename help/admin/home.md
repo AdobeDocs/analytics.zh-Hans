@@ -4,7 +4,7 @@ description: 适用于 Adobe Analytics 管理员的管理帮助，包括 Admin C
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 source-git-commit: 0143496648e59e95c360388735def726e63ee71b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '328'
 ht-degree: 100%
 
