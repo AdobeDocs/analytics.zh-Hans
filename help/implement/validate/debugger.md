@@ -4,7 +4,7 @@ description: 安装旧版 Adobe Experience Cloud Debugger。此调试器可检�
 feature: Validation
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ javascript:void(window.open("","stats_debugger","width=800,height=800,location=0
 
 #### Chrome
 
-如果您坚持不使用 [Chrome 扩展](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)，则可以改用旧版 Debugger 小书签。
+如果您坚持不使用 [Chrome 扩展](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans)，则可以改用旧版 Debugger 小书签。
 
 1. 单击右上方的三个圆点，然后转到“书签”>“书签管理器”。此外，您还可以按 `Ctrl` + `Shift` + `O` (Windows) 或 `Cmd` + `Shift` + `O` (Mac)。
 2. 在书签管理器的右上方，单击三个圆点，然后单击“添加新书签”。
