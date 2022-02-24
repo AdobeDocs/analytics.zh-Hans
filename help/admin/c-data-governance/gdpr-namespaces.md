@@ -3,10 +3,10 @@ description: 您希望能够搜索的每个 ID 均分配有一个命名空间；
 title: 命名空间
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
-source-wordcount: '903'
-ht-degree: 100%
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
+workflow-type: tm+mt
+source-wordcount: '892'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 * “type”字段，它在大部分 Adobe Analytics 请求中包含值“analytics”。
 * “value”字段，其中包含 Analytics 应在每个报表包的关联命名空间变量中搜索的 ID。
 
-有关更多详细信息，请参阅 [Experience Cloud 数据隐私 API 文档](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md)。
+有关更多详细信息，请参阅 [Experience Cloud 数据隐私 API 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en)。
 
 ## Cookie ID
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 
 若任何这些 Cookie ID 的值格式与规定的该 ID 格式不符，则数据隐私请求会失败，并出现“值格式不正确”的错误消息。
 
-通常，您将会使用新的[隐私 JavaScript](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm) 收集这些 Cookie ID，该 JavaScript 将为这些 JSON ID 自动提供所有相关的密钥/值对。
+通常，您将会使用新的[隐私 JavaScript](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) 收集这些 Cookie ID，该 JavaScript 将为这些 JSON ID 自动提供所有相关的密钥/值对。
 
 除了上面所列的字段（“namespace”、“type”、“value”）以外，该 JavaScript 代码还会在 JSON 中填充其他密钥/值对，但是上面列出的字段对于 Analytics 数据隐私处理来说最为重要，而且在您以其他方式收集 ID 时，只需提供上述字段。
 

@@ -3,10 +3,10 @@ description: '您提交的 ID 并不总是涵盖 Analytics 可将其与数据主
 title: ID 扩展
 feature: Data Governance
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
-source-wordcount: '1350'
-ht-degree: 100%
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
+workflow-type: tm+mt
+source-wordcount: '1358'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 "expandIds": true
 ```
 
-有关如何在请求中包含此选项的示例，请参阅 [JSON 请求示例](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request)。有关更多详细信息，请参阅[隐私服务 API 文档](https://www.adobe.io/apis/experienceplatform/gdpr.html)。
+有关如何在请求中包含此选项的示例，请参阅 [JSON 请求示例](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request)。有关更多详细信息，请参阅[隐私服务 API 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en)。
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
@@ -60,7 +60,7 @@ Adobe 在执行 ID 扩展时，可能需要进行额外的完整数据扫描，�
 
 >[!NOTE]
 >
->提供[隐私服务 API](https://www.adobe.io/apis/experienceplatform/gdpr.html) 是为了帮助您执行对时间敏感的数据隐私请求。Adobe 不支持将此 API 用于其他目的，因为这样会影响 Adobe 为其他 Adobe 客户及时提供高优先级服务、执行用户所发起数据隐私请求的能力。我们建议您不要将隐私服务 API 用于其他目的，例如清除大量访客意外提交的数据。
+>提供[隐私服务 API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) 是为了帮助您执行对时间敏感的数据隐私请求。Adobe 不支持将此 API 用于其他目的，因为这样会影响 Adobe 为其他 Adobe 客户及时提供高优先级服务、执行用户所发起数据隐私请求的能力。我们建议您不要将隐私服务 API 用于其他目的，例如清除大量访客意外提交的数据。
 
 您还应该了解，对于任何因提交数据隐私删除请求后而删除其点击（已更新或匿名）的访客，其状态信息都将会进行重置。这样该访客下次返回您的网站时，将会成为新访客。所有 eVar 归因都将重新开始，访问次数、反向链接、访问的第一个页面等信息也都将重新统计。对于要清除数据字段的情况，这种副作用不尽如人意，因此突显了隐私服务 API 不适合此用途的一个原因。
 

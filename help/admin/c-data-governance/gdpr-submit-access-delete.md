@@ -3,10 +3,10 @@ description: 如何在 Adobe Analytics 中提交数据访问和删除请求。
 title: 提交访问和删除请求
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 100%
+source-wordcount: '1301'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 ## 提交请求 {#submit-requests}
 
-您可以通过我们的[数据隐私 UI 门户](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)或者[数据隐私 API ](https://www.adobe.io/apis/experienceplatform/gdpr.html)来提交数据隐私访问和删除请求。
+您可以通过我们的 [Privacy ServiceUI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) 或通过 [Privacy ServiceAPI。](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en)
 
 >[!NOTE]
 >

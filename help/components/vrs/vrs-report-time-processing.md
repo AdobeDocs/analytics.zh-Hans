@@ -3,10 +3,10 @@ description: 报表时间处理是一种虚拟报表包设置，它允许以一�
 title: 报表时间处理
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
-source-wordcount: '1442'
-ht-degree: 100%
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
+workflow-type: tm+mt
+source-wordcount: '1443'
+ht-degree: 96%
 
 ---
 
@@ -30,14 +30,14 @@ ht-degree: 100%
 
 这种处理架构提供了更为灵活的报表选项。例如，您可以将访问超时时段以非破坏性的方式更改为任何所需时长，这些更改将以追溯方式反映在您的 eVar 持久性和区段容器中，就如同您在收集数据之前应用了这些设置一样。此外，您还可以创建任意数量的虚拟报表包，每个虚拟报表包均具有不同的报表时间处理选项，这些选项基于相同的基础报表包，而无需更改基础报表包中的任何数据。
 
-通过[!UICONTROL 报表时间处理]，Analytics 还可以避免将后台点击计算为新的访问，并且 [Mobile SDK](https://www.adobe.io/apis/cloudplatform/mobile.html) 也可以让报表在每次触发应用程序启动事件时才开始一次新访问。
+[!UICONTROL 报表时间处理] 还允许Analytics阻止将后台点击计算为一次新的访问，并允许 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html) 以告知报表在每次触发应用程序启动事件时都开始一次新访问。
 
 ## 配置选项
 
 以下配置选项当前可用于启用了报表时间处理的虚拟报表包：
 
 * **[!UICONTROL 访问超时]：**&#x200B;访问超时设置定义在自动计算为新访问之前，独特访客必须有多长时间处于非活动状态。 默认为 30 分钟。例如，如果将访问超时设置为 15 分钟，则会以 15 分钟的非活动状态进行分隔，为每个收集的点击序列创建一个新访问组。此设置不仅会影响您的访问计数，还会影响访问区段容器的评估方式，以及任何在访问时过期的 eVar 的访问过期逻辑。缩短访问超时时间可能会增加报表中的总访问次数，而延长访问超时时间可能会减少报表中的总访问次数。
-* **[!UICONTROL 移动应用程序访问设置]：**&#x200B;对于包含移动应用程序通过 [Adobe Mobile SDK](https://www.adobe.io/apis/cloudplatform/mobile.html) 生成的数据的报表包，可以使用其他访问设置。 这些设置不具有破坏性，只会影响通过 Mobile SDK 收集的点击量。这些设置对通过 Mobile SDK 之外的程序收集的数据没有影响。
+* **[!UICONTROL 移动应用程序访问设置]：**&#x200B;对于包含移动应用程序通过 [Adobe Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html) 生成的数据的报表包，可以使用其他访问设置。 这些设置不具有破坏性，只会影响通过 Mobile SDK 收集的点击量。这些设置对通过 Mobile SDK 之外的程序收集的数据没有影响。
 * **[!UICONTROL 避免将后台点击计算为一次新的访问]：**&#x200B;当应用程序处于后台状态时，后台点击由 Mobile SDK 收集。
 * **[!UICONTROL 在每次应用程序启动后即开始一个新访问]：**&#x200B;除了访问超时之外，只要从 Mobile SDK 记录了应用程序启动事件，您就可以强制开始访问，而不管处于非活动状态的时间长短。 此设置会影响访问量度和访问区段容器，以及 eVar 中的访问过期逻辑。
 * **[!UICONTROL 通过事件开始新访问]：**&#x200B;无论会话是否超时，都会在触发事件时启动新会话。 新创建的会话包含启动该会话的事件。此外，您可以使用多个事件启动会话，如果在数据中观察到这些事件中的任何一个，便会触发新会话。此设置将影响您的访问计数、访问分段容器以及 eVar 上的访问过期逻辑。

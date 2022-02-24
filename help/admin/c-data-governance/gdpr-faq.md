@@ -3,10 +3,10 @@ description: Adobe Analytics 数据管理常见问题解答
 title: 常见问题解答
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 98%
+source-wordcount: '1802'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>为了进行数据隐私处理，Adobe 客户（数据控制者）将如何找出哪些数据隐私请求映射到 Adobe Analytics 中的哪些 ID？</b> </p> </td> 
-   <td colname="col2"> <p>数据控制者将确定如何解析发出请求的数据主体的身份。可以考虑部署 <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm">Adobe 的数据隐私 ID 检索标记。</a>为了节省时间，您的开发团队可采用下面的方法：使用我们的数据隐私 ID 检索标记捕获用户 ID (Cookie ID)，然后用我们的数据隐私 API 将这些用户 ID 发送到 Adobe Experience Cloud 的相关解决方案中，以进行数据隐私请求处理。 </p> <p>数据隐私 API 可以在多个 Adobe 解决方案中支持范围广泛的客户 ID。如果数据主体提交了一个请求和一个标识符（自定义变量 – prop 或 eVar），Adobe Analytics 则会扫描针对给定标识符收集的所有保留的数据历史记录。有关如何配置存储在 Analytics prop 或 eVar 中的自定义 ID 的详细信息，请参阅 Analytics 关于<a href="/help/admin/c-data-governance/gdpr-namespaces.md">命名空间</a>的文档。
+   <td colname="col2"> <p>数据控制者将确定如何解析发出请求的数据主体的身份。可以考虑部署 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">Adobe 的数据隐私 ID 检索标记。</a>为了节省时间，您的开发团队可采用下面的方法：使用我们的数据隐私 ID 检索标记捕获用户 ID (Cookie ID)，然后用我们的数据隐私 API 将这些用户 ID 发送到 Adobe Experience Cloud 的相关解决方案中，以进行数据隐私请求处理。 </p> <p>数据隐私 API 可以在多个 Adobe 解决方案中支持范围广泛的客户 ID。如果数据主体提交了一个请求和一个标识符（自定义变量 – prop 或 eVar），Adobe Analytics 则会扫描针对给定标识符收集的所有保留的数据历史记录。有关如何配置存储在 Analytics prop 或 eVar 中的自定义 ID 的详细信息，请参阅 Analytics 关于<a href="/help/admin/c-data-governance/gdpr-namespaces.md">命名空间</a>的文档。
     </p> </td> 
   </tr> 
   <tr> 
