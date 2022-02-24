@@ -4,13 +4,13 @@ description: 覆盖点击的自动收集的反向链接。
 feature: Variables
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
 ht-degree: 100%
 
 ---
 
-# 反向链接
+# referrer
 
 `referrer` 变量将覆盖报表中自动收集的反向链接。当反向链接可能丢失时，例如重定向访客或将访客临时转发给支付处理器时，此变量很有帮助。此变量有助于填充“反向链接”和“反向链接域”维度。
 
