@@ -4,7 +4,7 @@ description: 了解如何解决与注销 Adobe Analytics 相关的问题。
 feature: Analytics Basics
 exl-id: 191250ef-8313-47be-9717-046cce870998
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '347'
 ht-degree: 100%
 
