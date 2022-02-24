@@ -4,7 +4,7 @@ description: 访问 iframe 中的 Adobe Analytics 变量或者在 iframe 中时�
 feature: Implementation Basics
 exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
 ht-degree: 100%
 
