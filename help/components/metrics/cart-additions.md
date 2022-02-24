@@ -4,7 +4,7 @@ description: 访客将产品添加到购物车的点击次数。
 feature: Metrics
 exl-id: 0617b4c4-6425-4425-b6f7-efadbd6f58b2
 source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '79'
 ht-degree: 100%
 
