@@ -5,7 +5,7 @@ title: 计算指标和高级计算（派生）指标
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '605'
 ht-degree: 100%
 
