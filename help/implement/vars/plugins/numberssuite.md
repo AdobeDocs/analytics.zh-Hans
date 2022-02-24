@@ -4,7 +4,7 @@ description: 生成和处理数字以供在其他 JavaScript 变量中使用。
 feature: Variables
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '644'
 ht-degree: 100%
 
