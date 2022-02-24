@@ -4,7 +4,7 @@ description: 覆盖 AppMeasurement 在链接跟踪调用中使用的自动生成
 feature: Variables
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
 ht-degree: 100%
 
