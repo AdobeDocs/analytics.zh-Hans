@@ -4,7 +4,7 @@ description: 通过 useBeacon，您可以强制 AppMeasurement 使用浏览器 s
 feature: Variables
 exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
 ht-degree: 100%
 
