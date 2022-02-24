@@ -4,13 +4,13 @@ description: 设置事件变量，该变量可控制网站上的大多数量度�
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
 ht-degree: 100%
 
 ---
 
-# 事件
+# events
 
 维度和量度是报表的重要组成部分。`events` 变量负责收集您网站上许多量度的数据。事件通常会递增报表中的[量度](/help/components/metrics/overview.md)。
 
