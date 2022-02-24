@@ -4,7 +4,7 @@ description: 手动将 XDM 数据从 Experience Platform 映射到 Adobe Analyti
 feature: AEP Edge
 exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '353'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Adobe Experience Platform (AEP) Web SDK 包括有助于您在 Platform 与 Analy
 
 ## 处理规则
 
-可以通过[处理规则](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html)访问边缘网络收集的所有数据。在 Analytics 中，您可以使用处理规则将上下文数据纳入 Analytics 变量。
+可以通过[处理规则](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html?lang=zh-Hans)访问边缘网络收集的所有数据。在 Analytics 中，您可以使用处理规则将上下文数据纳入 Analytics 变量。
 
 例如，在以下规则中，Analytics 设置为使用与 **a.x_atag.search.term（上下文数据）**&#x200B;相关联的数据来填充&#x200B;**内部搜索词 (eVar2)**。
 
@@ -83,4 +83,4 @@ alloy("event",{
 });
 ```
 
-有关使用 AEP Web SDK 跟踪事件的更多信息，请参阅[跟踪事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html)。
+有关使用 AEP Web SDK 跟踪事件的更多信息，请参阅[跟踪事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hans)。
