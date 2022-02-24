@@ -4,7 +4,7 @@ description: 在将点击发送到 Adobe 之前创建回调函数。
 feature: Variables
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '265'
 ht-degree: 100%
 
