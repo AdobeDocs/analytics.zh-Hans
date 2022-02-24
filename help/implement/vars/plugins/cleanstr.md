@@ -4,7 +4,7 @@ description: 删除或替换字符串中所有不必要的字符。
 feature: Variables
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
 ht-degree: 100%
 
