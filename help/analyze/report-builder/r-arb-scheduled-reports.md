@@ -4,10 +4,10 @@ title: 计划任务管理器
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 68a8eb3452d3f86bb59140ab5842667094198dee
+source-git-commit: 91d94ba33328f0ac5fba09cdafb26f58733b4d58
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 51%
+source-wordcount: '655'
+ht-degree: 47%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 51%
 | [!UICONTROL 发布选项] | 此列将列出Power BI(如果 [Power BI发布选项](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/publish-powerbi/power-bi.html) 中。 |
 | [!UICONTROL 计划] | 计划的提交类型。 |
 | [!UICONTROL 文件格式] | 报表的提交格式，如 Excel、PDF、HTML 等。 |
-| [!UICONTROL 重新激活] | 计划工作簿无法运行时，Report Builder 会尝试再运行该工作簿 2 次，每次间隔 15 分钟。3 次尝试均失败后，Report Builder 会停用该计划并显示“重新激活”按钮。重新激活工作簿时，计划提交从停用的时间重新开始。例如，如果计划工作簿在 14 天之前停用，而您在今天将其重新激活，它将运行以弥补错过的每一天并且将提交 14 次。如果您不希望为错过的时间提交工作簿，可以删除计划工作簿，然后使用相同的计划参数创建新的计划工作簿。注意：除非您知道系统停用工作簿的原因，否则不应该将其重新激活。一种解决问题的方法是下载停用的工作簿，并在客户端刷新该工作簿。如果没有显示任何错误，则您应该可以将其重新激活。 |
+| [!UICONTROL 重新激活] | 计划工作簿无法运行时，Report Builder 会尝试再运行该工作簿 2 次，每次间隔 15 分钟。3 次尝试均失败后，Report Builder 会停用该计划并显示“重新激活”按钮。重新激活工作簿时，计划提交从停用的时间重新开始。<p>例如，如果计划工作簿在 14 天之前停用，而您在今天将其重新激活，它将运行以弥补错过的每一天并且将提交 14 次。如果您不希望为错过的时间提交工作簿，可以删除计划工作簿，然后使用相同的计划参数创建新的计划工作簿。<p>**注意：** 除非您知道系统停用工作簿的原因，否则请勿将其重新激活。 要进行故障诊断，请下载停用的工作簿，然后在客户端刷新该工作簿。 如果没有显示任何错误，则您应该可以将其重新激活。 |
 | [!UICONTROL 上次发送] | 报表上次发送的日期和时间。 |
 | **收件人选项卡** |  |
 | [!UICONTROL 收件人电子邮件] | 报表的电子邮件收件人。 |
