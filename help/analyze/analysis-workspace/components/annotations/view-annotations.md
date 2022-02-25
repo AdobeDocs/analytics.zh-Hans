@@ -4,10 +4,10 @@ description: 如何在工作区中查看注释。
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: 863b47ee84c1446ed20beb9661bf5435c264b12e
+source-git-commit: 8e15d386379d98066973112b0e81b507d67c694d
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 66%
+source-wordcount: '228'
+ht-degree: 50%
 
 ---
 
@@ -23,8 +23,9 @@ ht-degree: 66%
 
 | 日期 | 外观 |
 | --- | --- |
-| **一天** | ![](assets/single-day.png) |
-| **日期范围** | 图标会发生变化，当您将鼠标悬停在它上面时，会显示日期范围。<p>![](assets/multi-day.png)<p>在表中，会在日期范围内的每个日期上显示一个图标。<p>![](assets/multi-day-table.png)<p>请注意以下事项：在与多个批注关联的天数中，图标将以灰色显示。 |
+| **一天** | ![](assets/single-day.png)<p>将鼠标悬停在注释上时，可以查看其详细信息，也可以通过选择钢笔图标来编辑注释，或将其删除：<p> ![](assets/hover.png) |
+| **日期范围** | 图标会发生变化，当您将鼠标悬停在它上面时，会显示日期范围。<p>![](assets/multi-day.png)<p>在折线图中选择注释元数据时，将显示注释元数据，您可以编辑或删除该元数据：![](assets/multi-hover.png)<p>在表中，会在日期范围内的每个日期上显示一个图标。<p>![](assets/multi-day-table.png) |
+| **重叠批注** | 在与多个批注关联的天数中，图标以灰色显示。<p>![](assets/grey.png)<p>将鼠标悬停在灰色图标上时，会显示所有重叠的批注：<p>![](assets/overlap.png) |
 
 ## 在摘要图中查看注释
 
