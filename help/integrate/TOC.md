@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 集成指南
 breadcrumb-title: 集成指南
-user-guide-description: 配置与其他 Adobe Experience Cloud 解决方案（如 Audience Manager、Advertising Cloud 和 Target）的集成。
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+user-guide-description: 配置与其他Adobe Experience Cloud解决方案(如Audience Manager和Advertising Cloud)的集成。
+source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 94%
+source-wordcount: '184'
+ht-degree: 86%
 
 ---
 
