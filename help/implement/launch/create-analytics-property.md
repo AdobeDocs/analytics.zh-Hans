@@ -3,19 +3,16 @@ title: 在标记中创建 Analytics 属性
 description: 使用标记创建一个空间，以自定义数据的收集方式。
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 0763f2624d46eb282b7b4c94f7d103d8e9ad8095
+source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 98%
+source-wordcount: '513'
+ht-degree: 90%
 
 ---
 
 # 创建 Adobe Analytics 标记属性
 
 使用 Adobe Experience Platform 中的标记，您可以在网站上集成 Experience Cloud 解决方案（包括 Analytics）。此页面专门概述了标记管理员如何正确配置基本的 Adobe Analytics 实施。
-
->[!NOTE]
->Adobe Experience Platform Launch 已更名为 Experience Platform 中的一套数据收集技术。因此，产品文档中的术语有一些改动。有关术语更改的综合参考，请参阅以下[文档](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=zh-Hans)。
 
 ## 先决条件
 
@@ -34,25 +31,27 @@ ht-degree: 98%
 1. 所有设置（包括 Experience Cloud 组织 ID）都应当已经填充。单击&#x200B;**[!UICONTROL 保存]**。
 1. 返回扩展目录，找到 Adobe Analytics 并单击&#x200B;**[!UICONTROL 安装]**。
 
+请参阅 [Adobe Analytics扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hans) 以了解更多详细信息。
+
 ## 为 Adobe Analytics 创建数据元素
 
 数据元素是对网站特定部分的引用，以便收集变量值。
 
 1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击要在网站上实施的标记属性。
-1. 单击&#x200B;**[!UICONTROL 数据元素]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 创建新数据元素]**。
+1. 单击&#x200B;**[!UICONTROL 数据元素]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 添加新数据元素]**。
 1. 为数据元素指定以下设置：
 
    * 名称：页面名称
    * 扩展：核心
    * 数据元素类型：JavaScript 变量
-   * 变量路径：`window.document.title`
+   * JavaScript变量名称： `window.document.title`
 
       >[!NOTE]
       >
-      >这是一个帮助您入门的示例值。如果您的组织为页面名称定义了更好的值（例如数据层值），则可以在此处输入该值。
+      >此值将作为帮助入门的示例。 如果您的组织为页面名称定义了更好的值（例如数据层值），则可以在此处输入该值。
    * 清理选中的文本
-   * 持续时间：页面查看
+   * 存储持续时间：无
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 为 Adobe Analytics 创建规则
@@ -61,12 +60,11 @@ ht-degree: 98%
 
 1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击要在网站上实施的标记属性。
-1. 单击&#x200B;**[!UICONTROL 创建新规则]**&#x200B;并将其命名为 `Global Rule`。
+1. 单击 **[!UICONTROL 规则]** ，然后单击 **[!UICONTROL 添加规则]**. 将其命名为 `Global Rule`.
 1. 单击事件旁边的&#x200B;**[!UICONTROL 添加]**，然后输入以下设置：
    * 扩展：核心
    * 事件类型：已加载的库（页面顶部）
    * 名称：核心 - 已加载的库（页面顶部）
-   * 订购：50
 1. 单击&#x200B;**[!UICONTROL 保留更改]**。
 1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;下，单击&#x200B;**[!UICONTROL 添加]**，然后输入以下设置：
    * 扩展：Adobe Analytics
@@ -81,12 +79,6 @@ ht-degree: 98%
    * 跟踪：s.t()
 1. 单击&#x200B;**[!UICONTROL 保留更改]**。
 1. 验证是否已设置事件和两个操作，然后单击&#x200B;**[!UICONTROL 保存]**。
-
-## 文档和其他资源
-
-* [Adobe Analytics 扩展文档](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hans)：特定于标记中 Adobe Analytics 扩展的完整文档。
-* [标记快速入门](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=zh-Hans)：有关标记的完整文档，包括更详细的入门指南
-* [Adobe Experience Platform Launch 渠道](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform)：通过视频了解如何使用标记
 
 ## 后续步骤
 

@@ -3,10 +3,10 @@ title: 验证开发实施并发布到生产环境
 description: 了解如何使用 Adobe Experience Platform 标记将 Adobe Analytics 部署到生产环境。
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 7cae63a63b7047c1907ebe4c4f25f38b6b4237d4
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 100%
+source-wordcount: '630'
+ht-degree: 81%
 
 ---
 
@@ -14,27 +14,22 @@ ht-degree: 100%
 
 将标记库推送到生产环境后，您的组织可以开始使用 Adobe Analytics 提取基本报表。
 
->[!NOTE]
->Adobe Experience Platform Launch 已更名为 Experience Platform 中的一套数据收集技术。因此，产品文档中的术语有一些改动。有关术语更改的综合参考，请参阅以下[文档](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=zh-Hans)。
-
 ## 先决条件
 
 [将 Analytics 实施部署到开发环境](deploy-dev.md)：必须将 Analytics 实施发布到您的开发环境，才能遵循本页进行操作。
 
 ## 使用 Experience Cloud Debugger 验证您的开发实施
 
-Experience Cloud Debugger 是一个 Chrome 插件，可显示页面上存在的所有 Experience Cloud 标记。
+Experience Cloud调试器是一个扩展，可显示页面上存在的所有Experience Cloud标记。
 
-1. 打开 [Chrome Web 浏览器](https://www.google.com/chrome/)，然后转到 Chrome 网上应用店中的 [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) 以安装该扩展。
+1. 为以下任一项安装扩展 [铬黄](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 或 [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/adobe-experience-platform-dbg/).
 2. 导航到已实施标记的开发网站。
-3. 单击 Chrome 右上角的 Adobe Experience Cloud Debugger 图标
-4. 如果一切都已正确实施，则应会在 Adobe Analytics、标记和 Adobe Experience Cloud 访客 ID 服务中看到以下内容：
-
-![调试器][assets/debugger.png]
+3. 单击浏览器中的Adobe Experience Cloud Debugger图标。
+4. 如果一切都已正确实施，您应会在Adobe Analytics、标记和Adobe Experience Cloud访客ID服务中看到内容。
 
 ## 将开发实施部署到测试/生产环境
 
-验证数据后，即可将实施推送到网站的在线版本。
+验证数据后，您可以将实施推送到网站的实时版本。
 
 1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击要在网站上实施的标记属性。
@@ -45,7 +40,7 @@ Experience Cloud Debugger 是一个 Chrome 插件，可显示页面上存在的�
 1. 再次单击库的下拉列表，然后选择&#x200B;**[!UICONTROL 批准以供发布]**。
 1. 再次单击库的下拉列表（现在位于[!UICONTROL 已批准]列中），然后选择&#x200B;**[!UICONTROL 构建并发布到生产环境]**。
 1. 转到“环境”选项卡，单击&#x200B;**[!UICONTROL 生产环境]**。
-1. 复制生产页眉和页脚代码，并将其提供给您的网站所有者。请求他们在网站的生产环境中实施此代码。
+1. 复制生产安装代码，并将其提供给您的网站所有者。 请求他们在网站的生产环境中实施此代码。
 
 ## 验证您的生产实施
 
@@ -63,7 +58,7 @@ Experience Cloud Debugger 是一个 Chrome 插件，可显示页面上存在的�
 * 控制台中没有 JavaScript 错误。与贵组织的网站所有者合作，确保解决了所有 JS 错误。
 * 正确实施了页眉代码：确保页眉代码位于 `<head>` 标记内部，并且文件存在。
 * AppMeasurement 库存在：直接导航到 JS 源，以确保 JS 文件包含代码。如果不包含，请确保创建了每个环境，并且库已发布到各自对应的环境。
-* 干扰插件：某些 Chrome 插件可阻止触发图像请求。禁用任何可能会阻止将数据发送到 Adobe 服务器的插件。
+* 干扰扩展：某些扩展（如广告拦截器）可能会阻止触发图像请求。 禁用任何可能阻止数据发送到Adobe的扩展。
 
 ## 后续步骤
 

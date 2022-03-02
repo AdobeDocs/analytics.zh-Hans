@@ -3,17 +3,14 @@ title: 使用 Adobe Experience Platform 中的标记进行实施
 description: 了解如何使用标记实施 Adobe Analytics
 feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '360'
+source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+workflow-type: tm+mt
+source-wordcount: '308'
 ht-degree: 100%
 
 ---
 
 # 使用 Adobe Experience Platform 中的标记进行实施
-
->[!NOTE]
->Adobe Experience Platform Launch 已更名为 Experience Platform 中的一套数据收集技术。因此，产品文档中的术语有一些改动。有关术语更改的综合参考，请参阅以下[文档](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=zh-Hans)。
 
 在 Adobe Analytics 的整个生命周期中，Adobe 提供了多种不同方法来帮助您在网站上实施用于收集数据的代码。Adobe 目前推荐的方法是使用 Adobe Experience Platform 中的标记进行实施。
 

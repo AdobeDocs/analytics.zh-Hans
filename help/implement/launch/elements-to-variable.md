@@ -3,19 +3,17 @@ title: 将标记数据元素映射到 Analytics 变量
 description: 将数据元素分配给 Analytics 变量，以便在 Analysis Workspace 中可以将这些变量用作维度。
 feature: Launch Implementation
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '492'
+source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+workflow-type: tm+mt
+source-wordcount: '440'
 ht-degree: 100%
 
 ---
 
+
 # 将标记数据元素映射到 Analytics 变量
 
 一旦您拥有标记数据元素的存储库，就可以将它们分配给 Analytics 维度。
-
->[!NOTE]
->Adobe Experience Platform Launch 已更名为 Experience Platform 中的一套数据收集技术。因此，产品文档中的术语有一些改动。有关术语更改的综合参考，请参阅以下[文档](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=zh-Hans)。
 
 ## 先决条件
 

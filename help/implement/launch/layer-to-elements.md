@@ -3,9 +3,9 @@ title: 将数据层对象映射到数据元素
 description: 将标记配置为从数据层读取。
 feature: Launch Implementation
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '357'
+source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+workflow-type: tm+mt
+source-wordcount: '305'
 ht-degree: 100%
 
 ---
@@ -13,9 +13,6 @@ ht-degree: 100%
 # 将数据层对象映射到数据元素
 
 您的组织在网站上建立并实施数据层后，您可以将数据层对象映射到标记内的数据元素。
-
->[!NOTE]
->Adobe Experience Platform Launch 已更名为 Experience Platform 中的一套数据收集技术。因此，产品文档中的术语有一些改动。有关术语更改的综合参考，请参阅以下[文档](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=zh-Hans)。
 
 ## 先决条件
 
