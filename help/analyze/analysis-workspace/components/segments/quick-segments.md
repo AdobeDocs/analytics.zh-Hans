@@ -4,10 +4,10 @@ title: 快速区段
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
-source-wordcount: '798'
-ht-degree: 100%
+source-git-commit: 417f57f6987f58b1acd0feb087fbdc854a0d03fa
+workflow-type: tm+mt
+source-wordcount: '876'
+ht-degree: 77%
 
 ---
 
@@ -15,15 +15,11 @@ ht-degree: 100%
 
 可在项目中创建快速区段以规避完整版[区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md)的复杂操作。快速区段
 
-* 仅适用于创建它们的项目（您可以更改此设置）。
+* 应用为 [仅限项目的区段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en#what-are-project-only-segments%3F).
 * 允许有最多 3 条规则。
 * 不容纳嵌套容器或顺序规则。
-* 可在具有多个报表包的项目中起作用。
 
 要比较快速区段与完整的组件列表区段的作用，请转到[此处](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)。
-
->[!IMPORTANT]
-> 快速区段当前正在进行小范围测试，将于 2021 年 10 月 21 日正式发布。
 
 ## 先决条件
 
@@ -81,14 +77,16 @@ ht-degree: 100%
 1. （可选）为区段重命名。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-请注意区段的边栏如何从蓝色条纹变为蓝色。它现在显示在左边栏中的组件列表中。
+请注意区段的边栏如何从蓝色条纹变为蓝色。现在，它也会显示在您的左边栏组件列表中。
 
 ## 仅用于项目的区段是什么？
 
-仅用于项目的区段或者是快速区段，或者是临时工作区项目区段。在[!UICONTROL 区段生成器]中编辑/打开此类区段时，将出现表示仅用于项目的框。如果您在生成器中应用某个快速区段，但未选中使其可用的框，则它仍为仅用于项目的区段，但在[!UICONTROL 快速区段生成器]中无法再打开它。
+仅限项目区段是仅适用于在中创建的当前项目的区段。 它们将不会在其他项目中使用，也无法共享给其他用户。 它们旨在快速探索数据，而无需在左边栏中创建和保存区段。 可以在面板拖放区域中使用快速区段或 [临时区段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=en).
+
+如果在 [!UICONTROL 区段生成器]，则会显示仅限项目的通知。 如果未选中“使此区段可用……” 单击 **[!UICONTROL 应用]**，则该区段仍为仅项目区段。 注意：如果从区段生成器中应用快速区段，则该区段将无法再在 [!UICONTROL 快速区段生成器].
 
 ![“仅用于项目”未选中](assets/project-only-unchecked.png)
 
-如果选中该框并单击&#x200B;**[!UICONTROL 保存]**，则它现在为组件列表区段。
+如果选中“使此区段可用……” 单击 **[!UICONTROL 保存]**，则该区段会在左边栏组件列表中变得可用，以供在其他项目中使用。 也可以通过区段管理器与其他用户共享该区段。
 
 ![“仅用于项目”已选中](assets/project-only-checked.png)
