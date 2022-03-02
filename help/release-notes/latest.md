@@ -3,16 +3,16 @@ title: 最新的 Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 77a83fdb8d805f8a3ca6128a9a0d3628833eb863
+source-git-commit: e07f51764c6eeaccb56ce44df4a102e43fd44384
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 77%
+ht-degree: 76%
 
 ---
 
 # 当前的 Adobe Analytics 发行说明（2022 年 2 月）
 
-**上次更新时间**：2022 年 2 月 25 日
+**上次更新**:2022年3月2日
 
 了解 [Adobe Experience Cloud 产品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新版本更新。在 Experience League 上获取最新的自助文档、教程和课程。
 
@@ -39,11 +39,11 @@ AN-268093、AN-273820、AN-274435、AN-274904、AN-275356、AN-275947、AN-27616
 
 ## [!DNL Analytics] 管理员的重要注意事项
 
-**更新日期： 2022年1月25日**
+**更新日期： 2022年3月2日**
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| 更改Analytics处理通过Experience Edge收集的A4T数据的方式 | 2022 年 2 月 25 日 | 开 **2022年3月8日**，我们将更改处理通过Experience Edge发送到Adobe Analytics的一些与Target相关的数据的方式。 将Adobe Experience Platform Web SDK与Analytics和Target结合使用时，某些个性化事件会被计入 [!DNL Adobe Analytics] as [!UICONTROL 页面查看次数]. 这会导致页面查看计数虚增以及额外的服务器调用次数。 通过更改，将忽略不含Analytics内容的个性化调用。 包含A4T数据的个性化调用将记录A4T数据，但不会记录为可计费服务器调用，也不会影响页面查看次数或链接事件量度。 |
+| 更改Analytics处理通过Experience Edge收集的A4T数据的方式 | 2022 年 2 月 25 日 | 开 **2022年3月7日**，我们将更改处理通过Experience Edge发送到Adobe Analytics的一些与Target相关的数据的方式。 将Adobe Experience Platform Web SDK与Analytics和Target结合使用时，某些个性化事件会被计入 [!DNL Adobe Analytics] as [!UICONTROL 页面查看次数]. 这会导致页面查看计数虚增以及额外的服务器调用次数。 通过更改，将忽略不含Analytics内容的个性化调用。 包含A4T数据的个性化调用将记录A4T数据，但不会记录为可计费服务器调用，也不会影响页面查看次数或链接事件量度。 |
 | 暂停旧的计划Report Builder任务 | 2022 年 2 月 24 日 | **2022年4月15日起生效**，则Adobe打算暂停两年前创建的所有计划Report Builder任务。 具体而言，此暂停适用于2020年1月31日之前创建的任何任务。 不会删除任务、工作簿或数据。 但是，将暂停识别为两年以上的任务，并且不会发送其他计划任务。 [了解详情](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
 | 旧版 Analytics OAuth/JWT 集成的允许列表 EOL 扩展到期 | 2022 年 1 月 14 日 | 在 **2022 年 5 月 25 日**，[Analytics 1.3 API、1.4 SOAP API 和旧版 Analytics OAuth/JWT EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) 允许列表延长期将到期。此延长期为使用旧版 [!DNL Adobe Analytics] OAuth/JWT 凭据的客户提供额外的时间，以将其客户端集成迁移到 [Adobe IMS 凭据](https://developer.adobe.com/console)。该扩展到期会影响（但不限于）尚未完成必需的 IMS 迁移的 [!DNL Adobe Analytics Livestream] 和 [!DNL Adobe Campaign] 客户。如果客户目前正在通过允许列表扩展使用旧版 [!DNL Analytics] OAuth/JWT 凭据，但未在 2022 年 5 月 25 日之前完成向 IMS 凭据迁移，则将失去对 Adobe 服务的访问权限。Livestream 客户可以参考这些关于将客户端应用程序迁移到 IMS 凭据的[说明](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md)。[!DNL Campaign] 客户可以联系他们的 Adobe 帐户团队，了解如何升级到最新版本的 [!DNL Campaign]。 |
 | EOL for [!DNL Reports & Analytics] | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起，Adobe 决定中断 [!DNL Reports & Analytics] 及其随附的报告和功能。支持 [!DNL Reports & Analytics] 的报表、可视化图表和底层技术不再满足 Adobe 的技术标准。大部分 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans) 中都可用。自 2015 年发布 Analysis Workspace 以来，[!DNL Reports & Analytics] 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)解释了生命周期结束的过程。 |
