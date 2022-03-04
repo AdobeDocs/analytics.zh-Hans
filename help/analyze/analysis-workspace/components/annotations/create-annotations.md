@@ -4,10 +4,10 @@ description: 如何在工作区中创建注释。
 role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 7e73f66d4a2253dbcce6c5af4a9bb267dc5c34f5
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 61%
+source-wordcount: '612'
+ht-degree: 62%
 
 ---
 
@@ -41,5 +41,7 @@ ht-degree: 61%
    | [!UICONTROL 范围] | （可选）拖放触发注释的指标。然后拖放充当筛选器（即，与注释一起可见的内容）的任何维度或区段。如果不指定范围，注释将应用于您的所有数据。<ul><li>**[!UICONTROL 以下任一指标存在]**：拖放最多 10 个会触发注释显示的指标。</li><li>**[!UICONTROL 使用所有这些筛选器]**：拖放最多 10 个会在注释显示时进行筛选的维度或区段。</li></ul><p>用例：eVar 已停止收集特定日期范围的数据。将 eVar 拖入&#x200B;**[!UICONTROL 以下任一指标存在]**&#x200B;对话框。或者您的[!UICONTROL 访问量]指标未报告任何数据 - 请遵循相同的流程。<p>**注意：** 应用到组件（该组件随后用作计算量度或区段定义的一部分）的任何注释不会自动继承注释。 还必须将所需的计算量度添加到范围部分以显示注释。 但是，应为要使用相同信息添加注释的任何区段创建新注释。<p>示例：将注释应用到 [!UICONTROL 订单数] 在某一天。 然后，您使用 [!UICONTROL 订单数] 的计算量度。 新的计算量度不会自动显示订单的注释；还必须将计算量度添加到要显示注释的范围部分。 |
    | [!UICONTROL 应用于所有报告包] | 默认情况下，注释应用于原始报表包。通过选中此框，您可以使注释应用于公司内的所有报表包。 |
    | [!UICONTROL 应用于所有项目] | 默认情况下，注释应用于当前项目。通过选中此框，您可以使注释应用于您负责的所有项目。请注意，此复选框仅在您从 Annotation Builder 启动 Annotation Builder 时显示？ |
+
+   {style=&quot;table-layout:auto&quot;}
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
