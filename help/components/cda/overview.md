@@ -2,10 +2,10 @@
 title: Cross-Device Analytics
 description: 通过将设备数据拼合在一起，将您的数据从以设备为中心更改为以人员为中心。
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: b5fe55f69d30d87cc394d731d2ae696152faa535
+source-git-commit: 47824be19d3cc25b3120ce9aed6938f69fe0e096
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 91%
+source-wordcount: '883'
+ht-degree: 90%
 
 ---
 
@@ -49,8 +49,8 @@ Cross-Device Analytics 是一项具有突破性的强大功能，但其使用方
 * Cross-Device Analytics 不适用于多个报表包，也无法合并多个报表包的数据。
 * Adobe Analytics 报表包无法映射到多个 IMS 组织。由于 CDA 拼合给定报表包内的设备，因此 CDA 无法用于拼合多个 IMS 组织之间的数据。
 * CDA使用包含多个从属组件的复杂处理管道。 此操作与基本的Analytics报表工作流程并行运行。 因此，预计原始报表包与CDA虚拟报表包之间的点击总数会出现大约1%的数据不匹配。
-* 跨设备分析使用虚拟报表包和报表时间处理，二者各有其自身的限制，例如当前不支持营销渠道变量。 有关具体限制的详细信息，请参阅[虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-Hans)和[报表时间处理](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=en#report-time-processing-limitations)。
-* 专用图形利用 Experience Cloud 和 Adobe Analytics 中的[客户属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hans#customer-attributes)功能所使用的相同 ID 同步。但是，CDA 虚拟报表包（无论是基于专用图形还是基于字段的拼接）与其余的“客户属性”功能不兼容。也就是说，基于客户属性的维度在 CDA 虚拟报表包中不可用。
+* Cross-Device Analytics 使用虚拟报表包和报表时间处理，二者各有其自身的限制。例如，它们当前不支持营销渠道变量。 有关具体限制的详细信息，请参阅[虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-Hans)和[报表时间处理](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=en#report-time-processing-limitations)。
+* 专用图形利用 Experience Cloud 和 Adobe Analytics 中的[客户属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hans#customer-attributes)功能所使用的相同 ID 同步。但是，CDA 虚拟报表包（无论是基于专用图形还是基于字段的拼接）与其余的“客户属性”功能不兼容。换言之，基于客户属性的维度不可用于CDA虚拟报表包。
 * CDA 当前与 A4T 不兼容。
 * 不支持 1.4 API。Power BI 连接器和 Report Builder 都依赖于 1.4 API，因此与 CDA 不兼容。
 * Adobe 对于 CDA 拼合过程的主动监视仅适用于生产报表包。
