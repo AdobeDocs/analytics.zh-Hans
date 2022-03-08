@@ -2,27 +2,48 @@
 description: 介绍登陆页面如何将 Analysis Workspace 与 Reports & Analytics 融于一个界面中，提供工作区伞形结构下的访问点。
 title: Adobe Analytics 登陆页面
 role: User, Admin
+feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 99e8c0ca05a319a5dd196293a6538b7cba4a5896
-workflow-type: ht
-source-wordcount: '3236'
-ht-degree: 100%
+source-git-commit: ec11508218082b62fffa7541662a1e12ae5245d9
+workflow-type: tm+mt
+source-wordcount: '3582'
+ht-degree: 84%
 
 ---
 
 # Adobe Analytics 登陆页面
 
-Adobe Analytics 的登陆页面将 Analysis Workspace 与 Reports &amp; Analytics 融于一个界面中，提供工作区伞形结构下的访问点。它配有项目管理器主页、更新的报表菜单、现代化报表，以及学习部分，帮助您更高效地入门。
+Adobe Analytics的登陆页面将这两者汇集在一起 [!DNL Analysis Workspace] 和 [!DNL Reports & Analytics] 在单个界面和访问点下 [!DNL Workspace] 伞。 它配有项目管理器主页、更新的报表菜单、现代化报表，以及学习部分，帮助您更高效地入门。
 
 >[!IMPORTANT]
 >
->此登陆页面将于 2021 年 7 月 21 日推出公开 Beta 版。它是一个可选的起点。不论是 Workspace 还是 Reports，您都可以按自己的偏好使用现有登陆页面。如果您确实决定加入 Beta 计划，在访问登陆页面时，单击屏幕顶部的&#x200B;**[!UICONTROL 提供反馈]**&#x200B;可提交您的反馈以及您可能遇到的任何 Bug。您可以随时选择退出并重新加入 Beta 计划。在 Beta 版用户界面中所做的任何工作都会转移到现有/当前 Workspace 体验中。
+>此登陆页面当前处于“Open Beta”状态。 它是一个可选的起点。如果您愿意，可以使用现有的登陆页面，无论 [!UICONTROL 工作区] 或 [!UICONTROL 报表]. 如果您确实决定加入 Beta 计划，在访问登陆页面时，单击屏幕顶部的&#x200B;**[!UICONTROL 提供反馈]**&#x200B;可提交您的反馈以及您可能遇到的任何 Bug。您可以随时选择退出并重新加入 Beta 计划。在测试版用户界面中完成的任何工作都将传递到现有/当前 [!UICONTROL 工作区] 体验。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
+## 新增登陆页面功能
+
+>[!NOTE]
+>
+>这些添加和更改当前为 [有限测试](/help/release-notes/releases.md).
+
+| 功能 | 描述 | 屏幕截图 |
+| --- | --- | --- |
+| 展开 [!UICONTROL 项目] 全屏表格 | 要展开表格，只需单击汉堡包菜单图标。 此操作将折叠左边栏选项卡。 | ![展开表](assets/landing-collapse.png) |
+| 自定义列宽 | 以前，列宽是固定的。 现在，您可以通过拖动列分隔符来调整列。 |  |
+| 重新排列固定项目 | 要上下移动固定项目，请单击固定项目旁边的省略号，然后选择 **[!UICONTROL 上移]** 或 **[!UICONTROL 向下移动]**. | ![移动固定项目](assets/move-up-down.png) |
+| 新建表列 | 单击 [!UICONTROL 自定义表] 图标。 新表列包括： <ul><li>**[!UICONTROL 已计划]**:设置为 [!UICONTROL 开] 计划项目或 [!UICONTROL 关闭] 当它不是时。 单击 [!UICONTROL 开] 链接可让您查看有关计划项目的信息。 您还可以 [编辑项目计划](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) 如果您是项目所有者。</li><li>**[!UICONTROL 项目ID]**:项目ID可用于调试项目。</li><li>**[!UICONTROL 最长日期范围]**:较长的日期范围会增加项目复杂性，并可能会增加处理和加载时间。 </li><li>**[!UICONTROL 查询数]**:项目查询的数量越多，项目复杂性就越高，并且可能会增加处理和加载时间。</li></ul> | ![新列](assets/new-columns.png) |
+| 单击以打开报表 | 以前，您必须双击。 |  |
+| 新链接 **[!UICONTROL Reports &amp; Analytics]** 报告 | <ul><li>**[!UICONTROL 报表]** > **[!UICONTROL 受众]** > **[!UICONTROL 机器人]**</li><li>**[!UICONTROL 报表]** > **[!UICONTROL 受众]** > **[!UICONTROL 机器人页面]**<li>**[!UICONTROL 报表]** > **[!UICONTROL 参与度]** > **[!UICONTROL 实时]**</li></ul> | ![新链接](assets/report-links.png) |
+| 新的现成报表 | <ul><li>**[!UICONTROL 报表]** > **[!UICONTROL 最受欢迎]** > **[!UICONTROL 下一页]**</li><li>**[!UICONTROL 报表]** > **[!UICONTROL 最受欢迎]** > **[!UICONTROL 上一页]**</li><li>**[!UICONTROL 报表]** > **[!UICONTROL 参与度]** > **[!UICONTROL 页面分析]** > **[!UICONTROL 页面摘要]**</li></ul>请注意，这些报表位于 [!UICONTROL 工作区] 格式，需要配置和生成。 输出由高级别量度、趋势数据面板组成， [!UICONTROL 流量] 可视化等。 您可以修改这些报表并更改维度、维度项目等。 这些报表也作为“工作区”面板下的面板提供。 | ![下一页](assets/next-page.png) |
+| **[!UICONTROL 新建]** 模式窗口返回 | 单击 **[!UICONTROL 新建]** 在工作区中，您可以再次选择 [!UICONTROL 空白项目] 和 [!UICONTROL 空白移动记分卡]. 您还可以从公司创建的任何模板中进行选择。 | ![新建](assets/create-new.png) |
+| CJA中也提供 | 此登陆页面（以已修改的形式）也将在CJA中提供。 |  |
+
+{style=&quot;table-layout:auto&quot;}
+
 ## 访问登陆页面 {#access-landing}
 
-登录 Adobe Experience Cloud 和 Analytics 之后，在左下角启用[!UICONTROL 新登陆页面 - Beta] 切换按钮。能否使用切换按钮取决于每个组织的用户而非公司。
+登录 Adobe Experience Cloud 和 Analytics 之后，在左下角启用[!UICONTROL 新登陆页面 - Beta] 切换按钮。对切换按钮的访问权限是特定于每个组织的用户，而不是特定于公司。
 
 ![登陆](assets/landing.png)
 
@@ -36,8 +57,8 @@ Adobe Analytics 的登陆页面将 Analysis Workspace 与 Reports &amp; Analytic
 ### 术语
 
 * **[!UICONTROL 项目]**&#x200B;是指您已构建的内容或其他人已构建并与您分享的内容。[!UICONTROL 项目]还指空白项目和空白移动记分卡。
-* **[!UICONTROL 报告]**&#x200B;是指 Adobe 预建的任何内容，例如 Reports &amp; Analytics 中的报告和 Workspace 中的模板。[!UICONTROL 报告]还指贵公司为您制作的模板。
-* **[!UICONTROL 模板]**&#x200B;不再用作 Adobe 预建的 Workspace 项目的术语。它们现在归入[!UICONTROL 报告]下。
+* **[!UICONTROL 报告]**&#x200B;是指 Adobe 预建的任何内容，例如 Reports &amp; Analytics 中的报告和 Workspace 中的模板。
+* **[!UICONTROL 模板]**&#x200B;不再用作 Adobe 预建的 Workspace 项目的术语。它们现在归入[!UICONTROL 报告]下。术语 [!UICONTROL 模板] 仍用于贵公司创建的模板。
 
 ## 在[!UICONTROL 项目]选项卡中导航 {#navigate-projects}
 
@@ -52,27 +73,27 @@ Adobe Analytics 的登陆页面将 Analysis Workspace 与 Reports &amp; Analytic
 | UI 元素 | 定义 |
 | --- | --- |
 | ... 更多 | 可让您[!UICONTROL 查看教程]和[编辑用户偏好设置](/help/analyze/analysis-workspace/user-preferences.md)。 |
-| 创建项目 | 下拉菜单可让您创建 [!UICONTROL Workspace 项目]或 [!UICONTROL Mobile 项目]。 |
-| 显示更少/更多内容 | 在不显示和显示横幅之间切换：![顶部横幅](assets/top-banner.png) |
-| 空白项目 | 创建一个空白 [Workspace 项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans)供您填充。 |
-| 空白移动记分卡 | 创建一个空白[移动记分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=zh-Hans)供您填充。 |
-| 打开培训教程 | 打开 Workspace 培训教程，它会指导新用户逐步构建项目。 |
-| 打开发行说明 | 打开最新的 Adobe Experience Cloud 发行说明的 Adobe Analytics 部分。 |
+| [!UICONTROL 创建项目] | 下拉菜单可让您创建 [!UICONTROL Workspace 项目]或 [!UICONTROL Mobile 项目]。 |
+| [!UICONTROL 显示更少/更多内容] | 在不显示和显示横幅之间切换： ![顶部横幅](assets/top-banner.png) |
+| [!UICONTROL 空白项目] | 创建一个空白 [Workspace 项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans)供您填充。 |
+| [!UICONTROL 空白移动记分卡] | 创建一个空白[移动记分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=zh-Hans)供您填充。 |
+| [!UICONTROL 打开培训教程] | 打开 Workspace 培训教程，它会指导新用户逐步构建项目。 |
+| [!UICONTROL 打开发行说明] | 打开最新的 Adobe Experience Cloud 发行说明的 Adobe Analytics 部分。 |
 | 过滤器图标 | 您可以按标记、报告包、所有者、类型和其他过滤器（“我的”、“已与我共享”、“收藏”和“已批准”）进行过滤 |
 | 搜索栏 | 搜索现在包含表中的所有列。 |
 | 选区框 | 单击一个或多个项目旁边的此框会显示您可以执行的项目管理操作：删除、标记、固定、批准、共享、重命名、复制和导出至 CSV。您可能无权执行所有这些操作。 |
-| 收藏 | 收藏项目会给它旁边添加星标，并将其标记为您可以过滤的收藏项。 |
-| 名称 | 项目的名称。 |
+| [!UICONTROL 收藏] | 收藏项目会给它旁边添加星标，并将其标记为您可以过滤的收藏项。 |
+| [!UICONTROL 名称] | 项目的名称。 |
 | 固定图标 | 您可以固定项目，固定后的项目会&#x200B;*始终*&#x200B;显示在列表顶部。 |
 | 信息 (i) 图标 | 单击信息图标会显示有关此项目的以下信息：类型、项目角色、所有者、描述及其共享对象。它还指示谁可以[编辑或复制](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans)此项目。 |
 | 省略号 (...) | 单击项目旁边的省略号会显示您可以执行的项目管理操作：删除、标记、固定、批准、共享、重命名、复制和导出至 CSV。请注意，您可能无权执行所有这些操作。 |
-| 类型 | 指示此类型是 Workspace 项目还是移动记分卡。 |
-| 标记 | 您可以标记报告以将其整理到组中。 |
-| 项目角色 | 项目角色是指您是否为项目所有者，以及您是否具有编辑或复制项目的权限。 |
-| 报表包 | 面板中的表格和可视化图表从在面板的右上角选中的报表包中派生数据。报表包还确定在左边栏中有哪些组件可用。在项目中，您可以根据分析用例，使用一个或多个报表包。报表包列表按相关性排序。Adobe 在定义相关性时，依据当前用户在近期使用该包的频率以及该包在组织中的使用频率。 |
-| 所有者 | 创建项目的用户。 |
-| 上次打开时间 | 您上次打开此项目的时间。 |
-| 列选择器 | 如果要在项目列表中添加或移除列，可以通过选择或取消选择它们来实现。 |
+| [!UICONTROL 类型] | 指示此类型是 Workspace 项目还是移动记分卡。 |
+| [!UICONTROL 标记] | 您可以标记报告以将其整理到组中。 |
+| [!UICONTROL 项目角色] | 项目角色是指您是否为项目所有者，以及您是否具有编辑或复制项目的权限。 |
+| [!UICONTROL 报表包] | 面板中的表格和可视化图表从在面板的右上角选中的报表包中派生数据。报表包还确定在左边栏中有哪些组件可用。在项目中，您可以根据分析用例，使用一个或多个报表包。报表包列表按相关性排序。Adobe 在定义相关性时，依据当前用户在近期使用该包的频率以及该包在组织中的使用频率。 |
+| [!UICONTROL 所有者] | 创建项目的用户。 |
+| [!UICONTROL 上次打开时间] | 您上次打开此项目的时间。 |
+| “自定义表”图标 | （右上方）如果要在项目列表中添加或删除列，可以通过选择或取消选择它们来执行此操作。 |
 | &lt;（“返回”按钮） | Workspace 项目或报告中的此按钮会将您转到最近的登陆页面配置。您离开登陆页面时的任何页面配置将在您返回时保留。 |
 
 ## 在[!UICONTROL 报告]选项卡中导航 {#navigate-reports}
@@ -80,7 +101,7 @@ Adobe Analytics 的登陆页面将 Analysis Workspace 与 Reports &amp; Analytic
 [!UICONTROL 报告]选项卡整合了三组报告：
 
 * 预建 [!UICONTROL Workspace] 模板（之前位于 [!UICONTROL Workspace] > [!UICONTROL 项目] > [!UICONTROL 新建]下）。Adobe 在此上下文中不再使用“模板”一词。
-* 之前的 Adobe Analytics [!UICONTROL 报告]顶部菜单下的大多数预建报告。这些报告现在显示在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans) 中。
+* 之前的 Adobe Analytics [!UICONTROL 报告]顶部菜单下的大多数预建报告。这些报告现在显示在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=en) 中。
 * 贵公司为您制作的任何内容。
 
 >[!IMPORTANT]
@@ -100,8 +121,8 @@ Adobe Analytics 的登陆页面将 Analysis Workspace 与 Reports &amp; Analytic
 | **[!UICONTROL 最受欢迎]** | <ul><li>培训教程（预先存在的 Workspace 模板）</li><li>页面数（我的页面中浏览次数最多的有哪些？）</li><li>页面浏览量（我产生了多少次页面浏览？）</li><li>访问次数（我获得了多少次访问？）</li><li>访客数（我获得了多少个访客？）</li><li>关键量度（我最重要的量度表现如何？）</li><li>网站版块（我网站的哪些版块产生的页面浏览次数最多？）</li><li>下一个页面（我们的访客前往的下一个页面是哪个？）</li><li>上一个页面（我们的访客前往的上一个页面是哪个？）</li><li>营销活动（我的关键量度受哪些营销活动驱动？）</li><li>产品（哪些产品在驱动我的关键量度？）</li><li>最近联系渠道（哪个最近联系渠道的效果最佳？）</li><li>最近联系渠道详情（哪个特定最近联系渠道的效果优于其他渠道？）</li><li>收入（我的收入表现如何？）</li><li>订单（我的订单表现如何？）</li><li>单位数（我售出了多少个单位？）</li></ul> |
 | **[!UICONTROL 参与度]** | <ul><li>关键量度（我最重要的量度表现如何？）</li><li>页面浏览量（我产生了多少次页面浏览？）</li><li>页面数（我的页面中浏览次数最多的有哪些？）</li><li>访问次数（我获得了多少次访问？）</li><li>访客数（我获得了多少个访客？）</li><li>每次访问花费的时间（我的用户每次访问花费了多少时间？）</li><li>事件之前的时间（我的用户在成功事件之前花费了多少时间？）</li><li>网站版块（我网站的哪些版块产生的页面浏览次数最多？）</li><li>Web 内容使用（哪种内容使用最多，并且吸引用户？）</li><li>媒体内容使用（哪种内容使用最多，并且吸引用户？）</li><li>下一个和上一个页面流程（我的访客采用的下一个/上一个路径是什么？）</li><li>流失（我的数字资产中哪里出现了流失？）</li><li>跨设备分析（在 Analysis Workspace 中使用跨设备分析）</li><li>Web 维系率（谁是我的忠实用户，他们会怎么做？）</li><li>媒体音频使用（音频使用趋势和热门量度是什么？）</li><li>媒体回访间隔、频度、忠诚度（谁是我的忠实读者？）</li><li>页面分析 > 重新加载（哪些页面产生的重新加载次数最多？）</li><li>页面分析 > 在页面上停留的时间（我的用户在我的页面上停留了多少时间？）</li><li>进入和退出 > 进入页面（我的进入次数最多的页面有哪些？）</li><li>进入和退出 > 原始进入页面（我的访客最初是从哪个页面进入的？）</li><li>进入和退出 > 单页面访问（哪些页面生成的单页面访问次数最多？）</li><li>进入和退出 > 退出页面（我的退出次数最多的页面有哪些？）</li></ul> |
 | **[!UICONTROL 转化]** | <ul><li>产品 > 产品（哪些产品在驱动我的关键量度？）</li><li>产品 > 产品表现（哪些产品表现最佳？）</li><li>产品 > 类别（我表现最佳的产品类别是什么？）</li><li>购物车 > 购物车（有多少用户向购物车添加了产品？）</li><li>购物车 > 购物车查看次数（我的访客查看了他们的购物车多少次？）</li><li>购物车 > 购物车添加次数（用户向其购物车添加产品的频率如何？）</li><li>购物车 > 购物车移除次数（用户从其购物车移除产品的频率如何？）</li><li>购买次数 > 收入（我的收入表现如何？）</li><li>购买次数 > 订单（我的订单表现如何？）</li><li>购买次数 > 单位数（我售出了多少个单位？）</li><li>[Magento：营销和商务](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hans#commerce)</li></ul> |
-| **[!UICONTROL 受众]** | <ul><li>人员量度（有多少人在与我的品牌互动？）</li><li>访客个人资料 > 位置概览（哪些位置在用户中促成的使用量最大）</li><li>访客个人资料 > 地理分段 > 地理县、美国地理州、地理区域、地理城市、美国地理 DMA（我的用户访问哪些地理区域？）</li><li>访客个人资料 > 语言（我的用户更喜欢哪种语言？）</li><li>访客个人资料 > 时区（我的用户从哪些时区访问？）</li><li>访客个人资料 > 域（我的访客使用哪些 ISP 访问我的网站？）</li><li>访客个人资料 > 顶级域（哪些域会提升我的网站的流量？）</li><li>访客个人资料 > 技术 > 技术概览（人们使用哪些技术访问我的网站？）</li><li>访客个人资料 > 技术 > 浏览器、浏览器类型、浏览器宽度、浏览器高度（人们使用哪家公司的浏览器、浏览器版本及其宽度和高度来访问我的网站？）</li><li>访客个人资料 > 技术 > 操作系统、操作系统类型（我的访客使用哪个操作系统和哪个版本？）</li><li>访客个人资料 > 技术 > 移动运营商（我的访客使用哪些移动运营商访问我的网站？）</li><li>访客维系 > 回访频率（我的用户当前访问和之前访问之间间隔了多长时间？）</li><li>访客维系 > 回访访客（我的访客中有多少是回访用户？）</li><li>访客维系 > 访问次数（哪个访问次数区间对我的关键量度起到的推动作用最大？）</li><li>访客维系 > 销售周期 > 客户忠诚度（我的用户属于哪个忠诚度细分？）</li><li>访客维系 > 销售周期 > 首次购买前的天数（我的用户第一次访问和第一次购买之间间隔了多少天？）</li><li>访客维系 > 销售周期 > 上次购买前的天数（我的用户当前访问和上一次购买之间间隔了多少天？）</li><li>访客维系 > 移动 > 设备和设备类型（我的访客使用哪些设备和设备类型？）</li><li>访客维系 > 移动 > 制造商（我的访客使用哪个移动设备制造商？）</li><li>访客维系 > 移动 > 屏幕尺寸、屏幕高度、屏幕宽度（我的访客有哪些移动屏幕尺寸/高度/宽度？）</li><li>访客维系 > 移动 > [移动应用使用情况](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hans#mobile)</li><li>访客维系 > 移动 > [移动应用旅程](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hans#mobile)</li><li>访客维系 > 移动 > [移动应用量度](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hans#mobile)</li><li>访客维系 > 移动 > [移动应用消息](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hans#mobile)</li><li>访客维系 > 移动 > [移动应用表现](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hans#mobile)</li><li>访客维系 > 移动 > [移动应用维系](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hans#mobile)</li></ul> |
-| **[!UICONTROL 客户获取]** | <ul><li>营销渠道 > 首次联系渠道、首次联系渠道详细信息（哪个首次联系渠道以及哪个特定的首次联系渠道表现最佳？）</li><li>营销渠道 > 首次最近渠道、首次最近渠道详细信息（哪个最近联系渠道以及哪个特定的最近联系渠道表现最佳？）</li><li>营销活动 > 营销活动（我的关键量度受哪些营销活动驱动？）</li><li>营销活动 > 营销活动效果（哪些营销活动带来的收入最多？）</li><li>营销活动 > 跟踪代码（哪些营销活动跟踪代码的表现最佳？）</li><li>[Web 客户获取](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hans#web)</li><li>[移动客户获取](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hans#mobile)</li><li>[Advertising Analytics：付费搜索](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hans#advertising)</li><li>搜索关键词 - 全部、付费、免费（哪些搜索关键词和付费/免费搜索关键词对我的关键量度的推动作用最大？）</li><li>搜索引擎 - 全部、付费、免费（哪些搜索引擎和付费/免费搜索引擎对我的关键量度的推动作用最大？）</li><li>所有搜索页面排名（我的用户是从哪个搜索页面访问的？）</li><li>反向链接域（哪些域会提升我的网站的流量？）</li><li>原始反向链接域（在访问我的网站之前，用户所在的第一个域是哪个域？）</li><li>反向链接（我的用户在点进我的网站之前位于哪些 URL 上？）</li><li>反向链接类型（我的引用 URL 属于哪个类别？）</li></ul> |
+| **[!UICONTROL 受众]** | <ul><li>人员量度（有多少人在与我的品牌互动？）</li><li>访客个人资料 > 位置概览（哪些位置在用户中促成的使用量最大）</li><li>访客个人资料 > 地理分段 > 地理县、美国地理州、地理区域、地理城市、美国地理 DMA（我的用户访问哪些地理区域？）</li><li>访客个人资料 > 语言（我的用户更喜欢哪种语言？）</li><li>访客个人资料 > 时区（我的用户从哪些时区访问？）</li><li>访客个人资料 > 域（我的访客使用哪些 ISP 访问我的网站？）</li><li>访客个人资料 > 顶级域（哪些域会提升我的网站的流量？）</li><li>访客个人资料 > 技术 > 技术概览（人们使用哪些技术访问我的网站？）</li><li>访客个人资料 > 技术 > 浏览器、浏览器类型、浏览器宽度、浏览器高度（人们使用哪家公司的浏览器、浏览器版本及其宽度和高度来访问我的网站？）</li><li>访客个人资料 > 技术 > 操作系统、操作系统类型（我的访客使用哪个操作系统和哪个版本？）</li><li>访客个人资料 > 技术 > 移动运营商（我的访客使用哪些移动运营商访问我的网站？）</li><li>访客维系 > 回访频率（我的用户当前访问和之前访问之间间隔了多长时间？）</li><li>访客维系 > 回访访客（我的访客中有多少是回访用户？）</li><li>访客维系 > 访问次数（哪个访问次数区间对我的关键量度起到的推动作用最大？）</li><li>访客维系 > 销售周期 > 客户忠诚度（我的用户属于哪个忠诚度细分？）</li><li>访客维系 > 销售周期 > 首次购买前的天数（我的用户第一次访问和第一次购买之间间隔了多少天？）</li><li>访客维系 > 销售周期 > 上次购买前的天数（我的用户当前访问和上一次购买之间间隔了多少天？）</li><li>访客维系 > 移动 > 设备和设备类型（我的访客使用哪些设备和设备类型？）</li><li>访客维系 > 移动 > 制造商（我的访客使用哪个移动设备制造商？）</li><li>访客维系 > 移动 > 屏幕尺寸、屏幕高度、屏幕宽度（我的访客有哪些移动屏幕尺寸/高度/宽度？）</li><li>访客维系 > 移动 > [移动应用使用情况](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hans#mobile)</li><li>访客维系 > 移动 > [移动应用旅程](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>访客维系 > 移动 > [移动应用量度](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>访客维系 > 移动 > [移动应用消息](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>访客维系 > 移动 > [移动应用表现](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>访客维系 > 移动 > [移动应用维系](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li></ul> |
+| **[!UICONTROL 客户获取]** | <ul><li>营销渠道 > 首次联系渠道、首次联系渠道详细信息（哪个首次联系渠道以及哪个特定的首次联系渠道表现最佳？）</li><li>营销渠道 > 首次最近渠道、首次最近渠道详细信息（哪个最近联系渠道以及哪个特定的最近联系渠道表现最佳？）</li><li>营销活动 > 营销活动（我的关键量度受哪些营销活动驱动？）</li><li>营销活动 > 营销活动效果（哪些营销活动带来的收入最多？）</li><li>营销活动 > 跟踪代码（哪些营销活动跟踪代码的表现最佳？）</li><li>[Web 客户获取](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hans#web)</li><li>[移动客户获取](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>[Advertising Analytics：付费搜索](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hans#advertising)</li><li>搜索关键词 - 全部、付费、免费（哪些搜索关键词和付费/免费搜索关键词对我的关键量度的推动作用最大？）</li><li>搜索引擎 - 全部、付费、免费（哪些搜索引擎和付费/免费搜索引擎对我的关键量度的推动作用最大？）</li><li>所有搜索页面排名（我的用户是从哪个搜索页面访问的？）</li><li>反向链接域（哪些域会提升我的网站的流量？）</li><li>原始反向链接域（在访问我的网站之前，用户所在的第一个域是哪个域？）</li><li>反向链接（我的用户在点进我的网站之前位于哪些 URL 上？）</li><li>反向链接类型（我的引用 URL 属于哪个类别？）</li></ul> |
 | **[!UICONTROL 公司报表]** | 您公司创建的供您使用的报表。参阅下面的“创建公司报表”。 |
 
 ### 模板（现在称作报表）位置
@@ -183,10 +204,10 @@ Adobe Analytics 的登陆页面将 Analysis Workspace 与 Reports &amp; Analytic
 
 | 问题 | 回答 |
 | --- | --- |
-| 以前在 Workspace 中经常可以找到的模板在哪里？ | 这些模板在[!UICONTROL 报告]选项卡下分组。 |
+| 我习惯在中看到的模板位于何处 [!UICONTROL 工作区]? | 这些模板在[!UICONTROL 报告]选项卡下分组。 |
 | 我可以选择退出 Beta 版吗？ | 您可以随时选择退出 Beta 版。 |
-| 我在 Beta 版程序 UI 中所做的工作会转移到生产 Workspace 体验中吗？ | 会，在 Beta 版中所做的任何工作都会转移到以前/当前 Workspace 体验中。 |
-| 任何当前的 Reports &amp; Analytics 收藏会转移吗？ | 不会，它们不会转移。但是，所有 Workspace 项目收藏都会转移。 |
+| 我在测试版程序UI中所做的工作是否转移到生产环境 [!UICONTROL 工作区] 体验？ | 是的，任何在测试版中完成的工作都将传递到旧/当前 [!UICONTROL 工作区] 体验。 |
+| 是我的当前 [!DNL Reports & Analytics] 收藏次数？ | 不会，它们不会转移。但是，任何 [!UICONTROL 工作区] 项目收藏夹会被结转。 |
 | 我可以固定的项目数量是否存在上限？ | 无限制，您可以固定的项目数量没有任何限制。 |
-| 管理员可以为其用户指定此登陆页面吗？ | 不可以，管理员不能代表用户指定登陆页面。个人用户必须自行开启切换开关。 |
-| 目前存在于 Reports &amp; Analytics 中的所有报表是否仍可用？ | 不是，根据总体使用情况数据，以下报表已逐步淘汰： <ul><li>任何自定义 eVar/prop/事件/分类<li>我的推荐报表</li><li>每小时/每日/每周/每月/每季度/每年独特访客</li><li>每日/每周/每月/每季度/每年独特客户</li><li>操作名称深度</li><li>操作名称摘要</li><li>添加仪表板</li><li>年龄</li><li>音频支持</li><li>计费信息</li><li>进入页面点击数</li><li>颜色深度</li><li>Cookie 支持</li><li>Cookie</li><li>连接类型</li><li>创意元素</li><li>信用卡类型</li><li>交叉销售</li><li>自定义事件漏斗</li><li>自定义链接</li><li>客户 ID</li><li>每周的某一日</li><li>进入操作名称</li><li>退出操作名称</li><li>退出链接</li><li>流失</li><li>文件下载</li><li>在商店中查找</li><li>完整路径</li><li>性别</li><li>点击类型 VISTA 规则</li><li>图像支持</li><li>Java</li><li>JavaScript</li><li>JavaScript 版本</li><li>管理书签</li><li>管理仪表板</li><li>监视器颜色深度</li><li>显示器分辨率</li><li>新闻稿注册</li><li>下一个操作名称</li><li>下一个操作名称流程</li><li>Null 搜索次数</li><li>操作系统</li><li>订单查看</li><li>一天中的页面</li><li>页面未找到</li><li>PathFinder</li><li>路径长度</li><li>上一个操作名称</li><li>上一个操作名称流程</li><li>产品活动</li><li>产品成本</li><li>产品部门</li><li>产品库存类别</li><li>产品名称</li><li>产品评价</li><li>产品季节</li><li>产品共享</li><li>产品缩放</li><li>重新加载</li><li>搜索</li><li>服务器</li><li>单页面访问量</li><li>运费信息</li><li>网站层级</li><li>社交网站提及次数</li><li>一天中的时间</li><li>操作名称所用时间</li><li>视频支持</li><li>访客所在州</li></ul> |
+| 管理员能否为其用户指定此登陆页面？ | 不能，管理员不能代表用户指定登陆页面。 个人用户必须自行开启切换开关。 |
+| 中当前存在的所有报表 [!DNL Reports & Analytics] 仍然可用？ | 不是，根据总体使用情况数据，以下报表已逐步淘汰： <ul><li>任何自定义 eVar/prop/事件/分类<li>我的推荐报表</li><li>每小时/每日/每周/每月/每季度/每年独特访客</li><li>每日/每周/每月/每季度/每年独特客户</li><li>操作名称深度</li><li>操作名称摘要</li><li>添加仪表板</li><li>年龄</li><li>音频支持</li><li>计费信息</li><li>进入页面点击数</li><li>颜色深度</li><li>Cookie 支持</li><li>Cookie</li><li>连接类型</li><li>创意元素</li><li>信用卡类型</li><li>交叉销售</li><li>自定义事件漏斗</li><li>自定义链接</li><li>客户 ID</li><li>每周的某一日</li><li>进入操作名称</li><li>退出操作名称</li><li>退出链接</li><li>流失</li><li>文件下载</li><li>在商店中查找</li><li>完整路径</li><li>性别</li><li>点击类型 VISTA 规则</li><li>图像支持</li><li>Java</li><li>JavaScript</li><li>JavaScript 版本</li><li>管理书签</li><li>管理仪表板</li><li>监视器颜色深度</li><li>显示器分辨率</li><li>新闻稿注册</li><li>下一个操作名称</li><li>下一个操作名称流程</li><li>Null 搜索次数</li><li>操作系统</li><li>订单查看</li><li>一天中的页面</li><li>页面未找到</li><li>PathFinder</li><li>路径长度</li><li>上一个操作名称</li><li>上一个操作名称流程</li><li>产品活动</li><li>产品成本</li><li>产品部门</li><li>产品库存类别</li><li>产品名称</li><li>产品评价</li><li>产品季节</li><li>产品共享</li><li>产品缩放</li><li>重新加载</li><li>搜索</li><li>服务器</li><li>单页面访问量</li><li>运费信息</li><li>网站层级</li><li>社交网站提及次数</li><li>一天中的时间</li><li>操作名称所用时间</li><li>视频支持</li><li>访客所在州</li></ul> |

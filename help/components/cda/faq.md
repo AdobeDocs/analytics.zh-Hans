@@ -2,9 +2,9 @@
 title: Cross-Device Analytics 常见问题解答
 description: Cross-Device Analytics 常见问题解答
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 639897682c9a28df7dc642dd7c68ad992fde40a9
-workflow-type: ht
-source-wordcount: '1949'
+source-git-commit: a99ef87e9b131beba3fceb8dbb98da503a9d528d
+workflow-type: tm+mt
+source-wordcount: '1941'
 ht-degree: 100%
 
 ---
@@ -122,7 +122,7 @@ CDA 在为报表优化标识符变量维度项之前提取它们。不必担心�
 
 ## 为什么我的源报表包和 CDA 虚拟报表包的点击总数不同？
 
-CDA 使用复杂的并行处理管道，并具有多个依赖组件。预计源报表包和 CDA 虚拟报表包之间的点击总数的数据不匹配率约为 1%。它对跨设备功能产生的影响最小。
+CDA 使用复杂的并行处理管道，并具有多个依赖组件。预计源报表包和 CDA 虚拟报表包之间的点击总数的数据不匹配率约为 1%。
 
 ## 为什么“已识别的人员”指标被夸大？
 
