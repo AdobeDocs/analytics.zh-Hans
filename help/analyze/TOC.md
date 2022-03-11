@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
-user-guide-description: Analysis Workspace（Analytics的主要分析和可视化工具）以及Adobe Analytics功能板、Report Builder和Activity Map等工具的操作说明。
-source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
+user-guide-description: Analytics 的高级分析和可视化工具 Analysis Workspace 以及 Adobe Analytics Dashboards、Report Builder 和 Activity Map 等工具的操作说明。
+source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 96%
+source-wordcount: '1039'
+ht-degree: 98%
 
 ---
 
@@ -298,6 +298,7 @@ ht-degree: 96%
       + [适用于 iOS 的 Adobe Analytics](reports-analytics/overview/app-ios.md)
    + [报表显示设置和导航](reports-analytics/report-settings.md)
    + [报表计划和分发](reports-analytics/scheduling.md)
+   + [计划报表的生命周期终止通知](reports-analytics/scheduled-reports-eol.md)
    + [报表类型](reports-analytics/reports.md)
    + [运行不同的报表类型](reports-analytics/t-running-report-types.md)
    + 自定义报表 {#customize-reports}

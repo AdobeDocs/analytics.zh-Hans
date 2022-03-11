@@ -3,10 +3,10 @@ title: 最新的 Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 75cf6b9898e4afd1f10d7ee2f08f148219965343
+source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 76%
+source-wordcount: '913'
+ht-degree: 72%
 
 ---
 
@@ -43,7 +43,8 @@ AN-268093、AN-273820、AN-274435、AN-274904、AN-275356、AN-275947、AN-27616
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| 2022 年 ISO 区域更新 | 2021 年 3 月 11 日 | Adobe将于2022年6月10日执行2022 ISO区域更新。 预计在这个版本之后将看到小规模更新。 |
+| 暂停旧的计划报表 | 2022年3月11日 | 有效 **2022年4月15日**，则Adobe打算暂停创建日期超过两年（在2020年1月31日之前创建）的所有计划报表。 不会删除任何报表或数据。 只会暂停识别为两年以上的报表，并且不会发送其他计划报表。 [了解详情](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
+| 2022 年 ISO 区域更新 | 2021 年 3 月 11 日 | Adobe将在 **2022年6月10日**. 预计在这个版本之后将看到小规模更新。 |
 | 更改Analytics处理通过Experience Edge收集的A4T数据的方式 | 2022 年 2 月 25 日 | 开 **2022年3月7日**，我们将更改处理通过Experience Edge发送到Adobe Analytics的一些与Target相关的数据的方式。 将Adobe Experience Platform Web SDK与Analytics和Target结合使用时，某些个性化事件会被计入 [!DNL Adobe Analytics] as [!UICONTROL 页面查看次数]. 这会导致页面查看计数虚增以及额外的服务器调用次数。 通过更改，将忽略不含Analytics内容的个性化调用。 包含A4T数据的个性化调用将记录A4T数据，但不会记录为可计费服务器调用，也不会影响页面查看次数或链接事件量度。 |
 | 暂停旧的计划Report Builder任务 | 2022 年 2 月 24 日 | **2022年4月15日起生效**，则Adobe打算暂停两年前创建的所有计划Report Builder任务。 具体而言，此暂停适用于2020年1月31日之前创建的任何任务。 不会删除任务、工作簿或数据。 但是，将暂停识别为两年以上的任务，并且不会发送其他计划任务。 [了解详情](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
 | 旧版 Analytics OAuth/JWT 集成的允许列表 EOL 扩展到期 | 2022 年 1 月 14 日 | 在 **2022 年 5 月 25 日**，[Analytics 1.3 API、1.4 SOAP API 和旧版 Analytics OAuth/JWT EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) 允许列表延长期将到期。此延长期为使用旧版 [!DNL Adobe Analytics] OAuth/JWT 凭据的客户提供额外的时间，以将其客户端集成迁移到 [Adobe IMS 凭据](https://developer.adobe.com/console)。该扩展到期会影响（但不限于）尚未完成必需的 IMS 迁移的 [!DNL Adobe Analytics Livestream] 和 [!DNL Adobe Campaign] 客户。如果客户目前正在通过允许列表扩展使用旧版 [!DNL Analytics] OAuth/JWT 凭据，但未在 2022 年 5 月 25 日之前完成向 IMS 凭据迁移，则将失去对 Adobe 服务的访问权限。Livestream 客户可以参考这些关于将客户端应用程序迁移到 IMS 凭据的[说明](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md)。[!DNL Campaign] 客户可以联系他们的 Adobe 帐户团队，了解如何升级到最新版本的 [!DNL Campaign]。 |
