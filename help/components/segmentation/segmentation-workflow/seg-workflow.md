@@ -4,7 +4,7 @@ title: 分段工作流程概述
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
 ht-degree: 100%
 
@@ -55,4 +55,4 @@ ht-degree: 100%
 
 [管理区段](/help/components/segmentation/segmentation-workflow/seg-manage.md)
 
-区段管理器提供了许多种管理区段的方式，如共享、过滤、标记、批准、复制、删除和标记为收藏。
+区段管理器提供多种编排区段的方式，如共享、过滤、标记、批准、复制、删除和标记为收藏。
