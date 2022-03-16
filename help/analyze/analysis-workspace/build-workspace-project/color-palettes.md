@@ -5,15 +5,15 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # 可视化图表调色板
 
-现在，您可以通过选择不同的调色板或指定与公司品牌颜色相匹配的个性化调色板，来更改工作区中使用的可视化图表调色板。此功能会影响工作区中的大多数可视化图表，但会 **not** 影响 [!UICONTROL 概要变化]，条件格式 [!UICONTROL 自由格式] 表格和 [!UICONTROL 地图] 可视化图表。
+可更改在工作区中使用的可视化效果调色板，其中可选择不同的调色板或指定您自己的与贵公司品牌配色相配的调色板。此功能影响工作区中的大部分可视化效果，但它&#x200B;**不**&#x200B;影响[!UICONTROL 摘要变化]、[!UICONTROL 自由格式]表中的条件格式和[!UICONTROL 地图]可视化效果。
 
 >[!NOTE]
 >
@@ -21,14 +21,14 @@ ht-degree: 83%
 
 ![](assets/color_palettes.png)
 
-请记住：
+请牢记：
 
 * 有 5 种预设调色板可供选择。默认调色板和下面的调色板已经过优化以获得最佳对比度，并且对于色盲用户来说，二者都更易于使用。
 * 位于前两个调色板下方的第 3 个到第 5 个调色板已针对色彩协调进行了优化。
 
-## 更改 [!UICONTROL 调色板]:
+## 更改您的[!UICONTROL 调色板]：
 
-以下是有关使用自定义 [!UICONTROL 调色板]:
+以下是一段关于使用自定义[!UICONTROL 调色板]的视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
 
