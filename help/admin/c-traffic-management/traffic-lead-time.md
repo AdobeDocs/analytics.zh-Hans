@@ -4,7 +4,7 @@ title: 流量增长必需的前置时间
 feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '332'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ Adobe 要求预先通知新帐户设置、流量尖峰和流量增长。硬件�
 
 >[!IMPORTANT]
 >
-> Adobe 无法处理“占位符”流量更改请求。除非另有指示，否则尽可能地遵循建议的前置时间，这包括不要过早地发送警报。请参阅[计划流量尖峰](/help/admin/c-traffic-management/t-traffic-schedule-spike.md)或[指定永久性流量增长](/help/admin/c-traffic-management/t-traffic-permanent.md)。
+>Adobe 无法满足“占位”流量更改请求。除非另有指示，否则尽可能地遵循建议的前置时间，这包括不要过早地发送警报。请参阅[安排流量尖峰](/help/admin/c-traffic-management/t-traffic-schedule-spike.md)或[指定永久性流量增长](/help/admin/c-traffic-management/t-traffic-permanent.md)。
 
 使用以下准则来确定您必须提前多久提交流量警报：
 
@@ -34,21 +34,21 @@ Adobe 要求预先通知新帐户设置、流量尖峰和流量增长。硬件�
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> 最高 1,000,000 </td>
+   <td colname="col1"> 最大 1,000,000 </td>
    <td colname="col2"> 无需前置时间 </td>
    <td colname="col3"> 无需前置时间 </td>
   </tr>
   <tr>
-   <td colname="col1"> 1,000,000 - 5,000,000 </td>
+   <td colname="col1"> 1,000,000-5,000,000 </td>
    <td colname="col2"> 两个工作日 </td>
    <td colname="col3" morerows="3"> 定于十一月至十二月发生的所有流量增长都应在 9 月 1 日之前提交。这样就有充裕的时间来购买足以满足假期流量需要的容量。 </td>
   </tr>
   <tr>
-   <td colname="col1"> 5,000,000 - 10,000,000 </td>
+   <td colname="col1"> 5,000,000-10,000,000 </td>
    <td colname="col2"> 一个日历周 </td>
   </tr>
   <tr>
-   <td colname="col1"> 10,000,000 - 25,000,000 </td>
+   <td colname="col1"> 10,000,000-25,000,000 </td>
    <td colname="col2"> 两个日历周 </td>
   </tr>
   <tr>
