@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: 7f630839ae7d75730f93588877a172f3590d5a5e
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1461'
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Analytics 记分卡以平铺布局为执行用户显示关键数据可视�
 
 1. 打开 Adobe Analytics，然后单击&#x200B;**[!UICONTROL 工作区]**&#x200B;选项卡。
 1. 单击&#x200B;**[!UICONTROL 创建新项目]**&#x200B;并选择&#x200B;**[!UICONTROL 空白移动记分卡]**&#x200B;项目模板。
-1. 单击&#x200B;**[!UICONTROL “创建”]**。
+1. 单击&#x200B;**[!UICONTROL 创建]**。
 
 ![记分卡模板](assets/new_template.png)
 
@@ -55,18 +55,18 @@ Adobe Analytics 记分卡以平铺布局为执行用户显示关键数据可视�
 
    ![报表包选择](assets/properties_save.png)
 
-1. 要向记分卡中添加新图块，请将左侧面板中的某个量度拖放到&#x200B;**[!UICONTROL 在此处拖放量度]**&#x200B;区域。您也可以使用类似的工作流程，在两个图块之间插入量度。
+1. 要向记分卡中添加新图块，请将左侧面板中的某个指标拖放到&#x200B;**[!UICONTROL 在此处拖放指标]**&#x200B;区域。您也可以使用类似的工作流程，在两个图块之间插入指标。
 
    ![添加图块](assets/build_list.png)
 
 
-1. 从每个图块中，您可以访问一个详细视图，该视图显示有关量度的其他信息，例如，相关维度列表的排名最前的项目。
+1. 从每个图块中，您可以访问一个详细视图，该视图显示有关指标的其他信息，例如，相关维度列表的排名最前的项目。
 
-## 添加维度或量度 {#dimsmetrics}
+## 添加维度或指标 {#dimsmetrics}
 
-要向量度中添加相关维度，请将左侧面板中的维度拖放到图块中。
+要向指标中添加相关维度，请将左侧面板中的维度拖放到图块中。
 
-例如，您可以通过将适当的维度（如本示例中的 **[!DNL Marketing Channel]**）拖放到图块上来将它添加到&#x200B;**[!UICONTROL 独特访客]**&#x200B;量度。维度细分显示在图块特定的&#x200B;**[!UICONTROL 属性]**&#x200B;的[!UICONTROL 深入分析]（细分）部分的下方。可向每个图块中添加多个维度。
+例如，您可以通过将适当的维度（如本示例中的 **[!DNL Marketing Channel]**）拖放到图块上来将它添加到&#x200B;**[!UICONTROL 独特访客]**&#x200B;指标。维度细分显示在图块特定的&#x200B;**[!UICONTROL 属性]**&#x200B;的[!UICONTROL 深入分析]（细分）部分的下方。可向每个图块中添加多个维度。
 
 ![添加维度](assets/layer_dimensions.png)
 
@@ -74,7 +74,7 @@ Adobe Analytics 记分卡以平铺布局为执行用户显示关键数据可视�
 
 要将区段应用于单个图块，请将左侧面板中的某个区段直接拖放到图块的顶部。
 
-如果要将区段应用于记分卡中的所有图块，请将区段拖放到记分卡的顶部。或者，您也可以通过在日期范围下方的筛选器菜单中选择区段来应用区段。您可以像在 Adobe Analytics Workspace 中一样[为记分卡配置和应用过滤器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hans)。
+如果要将区段应用于记分卡中的所有图块，请将区段拖放到记分卡的顶部。或者，您也可以通过在日期范围下方的过滤器菜单中选择区段来应用区段。您可以像在 Adobe Analytics Workspace 中一样[为记分卡配置和应用过滤器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hans)。
 
 ![构建区段以进行过滤](assets/segment_ui.png)
 
@@ -108,7 +108,7 @@ Adobe Analytics 记分卡以平铺布局为执行用户显示关键数据可视�
 
 >[!VIDEO](https://video.tv.adobe.com/v/337570/?quality=12&learn=on)
 
-Analytics 功能板提供了四种可视化图表，可让您深入了解维度项和量度。通过更改图块的[!UICONTROL 属性]的[!UICONTROL 图表类型]来更改为其他可视化图表。只需选择正确的图块，然后更改图表类型。
+Analytics 功能板提供了四种可视化图表，可让您深入了解维度项和指标。通过更改图块的[!UICONTROL 属性]的[!UICONTROL 图表类型]来更改为其他可视化图表。只需选择正确的图块，然后更改图表类型。
 
 ![图块属性](assets/properties.png)
 
@@ -116,11 +116,11 @@ Analytics 功能板提供了四种可视化图表，可让您深入了解维度�
 
 ![可视化图表](assets/vizs.png)
 
-### [!UICONTROL 概要数字]
+### [!UICONTROL 摘要数字]
 
-使用“概要数字”可视化图表来突出显示项目中的大型重要数字。
+使用“摘要数字”可视化图表来突出显示项目中的大型重要数字。
 
-![概要数字](assets/summary-number.png)
+![摘要数字](assets/summary-number.png)
 
 ### [!UICONTROL 圆环图]
 
@@ -130,14 +130,14 @@ Analytics 功能板提供了四种可视化图表，可让您深入了解维度�
 
 ### [!UICONTROL 折线图]
 
-此折线图可视化图表使用线条来表示量度，以显示一段时间内值的变化情况。折线图显示随时间变化的维度，但适用于任何可视化图表。在此示例中，您将可视化产品类别维度。
+此折线图可视化图表使用线条来表示指标，以显示一段时间内值的变化情况。折线图显示随时间变化的维度，但适用于任何可视化图表。在此示例中，您将可视化产品类别维度。
 
 ![折线图可视化图表](assets/line.png)
 
 
 ### [!UICONTROL 水平条形图]
 
-此可视化显示了一些水平条，这些水平条表示一个或多个量度中的各种值。例如，要轻松查看您的最热门产品，请使用[!UICONTROL 水平条形图]作为您的首选可视化图表。
+此可视化显示了一些水平条，这些水平条表示一个或多个指标中的各种值。例如，要轻松查看您的最热门产品，请使用[!UICONTROL 水平条形图]作为您的首选可视化图表。
 
 ![水平条形图](assets/horizontal.png)
 
@@ -160,9 +160,9 @@ Analytics 功能板提供了四种可视化图表，可让您深入了解维度�
 
 在单击图块时，会显示一个动态弹出窗口，其中显示“深入分析”（细分）视图在应用程序中向执行用户显示的方式。如果未将任何维度应用于图块，则细分维度将为&#x200B;**小时**&#x200B;或&#x200B;**天**，具体取决于默认日期范围。
 
-细分通过按其他量度和维度逐字分解量度和维度来优化您的分析，例如，在此零售示例中：
+细分通过按其他指标和维度逐字分解指标和维度来优化您的分析，例如，在此零售示例中：
 
-* 按广告平台 (AMO ID) 细分独特访客量度
+* 按广告平台 (AMO ID) 细分独特访客指标
 * 按产品类别（零售）细分访问
 * 按产品名称细分总收入
 
@@ -178,23 +178,23 @@ Analytics 功能板提供了四种可视化图表，可让您深入了解维度�
 
 ## 预览记分卡 {#preview}
 
-在Analytics功能板应用程序中发布记分卡后，您可以预览记分卡的外观和功能。
+可预览在 Analytics 功能板应用程序中发布记分卡后其外观和功能。
 
-1. 单击 **[!UICONTROL 预览]** 屏幕的右上角。
+1. 在屏幕的右上角单击&#x200B;**[!UICONTROL 预览]**。
 
-   ![Preview_scorecards](assets/preview.png)
+   ![预览记分卡](assets/preview.png)
 
-1. 要查看记分卡在不同设备上的显示效果，请从 [!UICONTROL 设备预览] 下拉菜单。
+1. 要查看记分卡在不同设备上的外观，请从[!UICONTROL 设备预览]下拉菜单中选择一个设备。
 
-   ![Device_preview](assets/device-preview.png)
+   ![设备预览](assets/device-preview.png)
 
-1. 要与预览进行交互，您可以：
+1. 要与预览交互，您可以：
 
-   * 单击左键以模拟在电话屏幕上点按。
+   * 单击左键以模拟在手机屏幕上点击。
 
    * 使用计算机的滚动功能模拟用手指滚动手机屏幕。
 
-   * 单击并按住，以模拟将手指按住电话屏幕。 这对于与详细视图中的可视化进行交互非常有用。
+   * 单击并按住以模拟在手机屏幕上按住手指。此操作对于与详细视图中的可视化效果交互很有用。
 
 ## 命名记分卡 {#name}
 
