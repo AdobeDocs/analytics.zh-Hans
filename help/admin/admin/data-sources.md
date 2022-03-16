@@ -4,7 +4,7 @@ title: 数据源
 feature: Admin Tools
 exl-id: 540c7342-64e1-41e3-9ee9-270a2a0a5008
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
 ht-degree: 100%
 
@@ -20,6 +20,6 @@ ht-degree: 100%
 * 从网站服务器、呼叫中心或其他系统收集数据。然后，将数据导入 Experience Cloud，以便查看来自组织各个途径的转化。
 * 根据通过 SearchCenter 实现的离线商机，对关键词竞价管理进行优化。
 
-激活报表包上的数据源时，会提供一个 FTP 地址，这样您就可以上载要集成到报表中的文件。完成上载后，Adobe 服务器会自动处理数据并将其集成到您的报表包中。
+激活报表包上的数据源时，会提供一个 FTP 地址，这样您就可以上传要集成到报表中的文件。完成上传后，Adobe 服务器会自动处理数据并将其集成到您的报表包中。
 
-请参阅[数据源帮助](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=zh-Hans)。
+请参阅[数据源帮助](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html)。
