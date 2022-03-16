@@ -1,19 +1,19 @@
 ---
-description: 设置并使用 Adobe 托管的 FTP 帐户。
+description: 设置和使用 Adobe 托管的 FTP 帐户。
 keywords: ftp;sftp
-title: 设置 FTP 帐户 - 概述
+title: 设置 FTP 帐户 — 概述
 feature: FTP Export
 exl-id: 55f942fe-cb06-43e1-bd3c-57d6786278b7
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
 ht-degree: 100%
 
 ---
 
-# 设置 FTP 帐户 - 概述
+# 设置 FTP 帐户 — 概述
 
-设置并使用 Adobe 托管的 FTP 帐户。
+设置和使用 Adobe 托管的 FTP 帐户。
 
 Adobe 维护有具备高可用性和性能的 FTP 群集，这些群集专门用来改进文件传输的可靠性，同时又能继续确保高性能。
 
