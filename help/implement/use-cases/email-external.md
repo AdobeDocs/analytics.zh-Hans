@@ -4,7 +4,7 @@ description: 使用 Adobe Analytics 跟踪电子邮件内容。
 feature: Implementation Basics
 exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '736'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 公司使用 Analytics 来确定电子邮件促销活动的成功与否。
 
-[!DNL Analytics] 可报告以下几个关键量度的电子邮件促销活动分析数据：
+[!DNL Analytics] 可报告以下几个关键指标的电子邮件促销活动分析数据：
 
 | 指标 | 描述 |
 |---|---|
@@ -24,7 +24,7 @@ ht-degree: 100%
 | 收益 | 显示由电子邮件产生的每次访问的美元金额。 |
 | 转化 | 显示由电子邮件产生的商机、注册或任何其他成功事件的数量。 |
 
-需要对 HTML 电子邮件正文和 JavaScript 库进行修改，才能捕获上述关键量度。
+需要对 HTML 电子邮件正文和 JavaScript 库进行修改，才能捕获上述关键指标。
 
 ## 实施 {#section_8A42A8F4A6CD4A1BAF4B9F99F709AF7A}
 
@@ -84,7 +84,7 @@ ht-degree: 100%
       * 查询字符串参数 [!UICONTROL sc_cid] 必须显示在最终登陆页面的 URL 中，否则不会记录任何点进转化。
       * [!UICONTROL sc_cid] 参数是一个示例查询字符串参数。[!UICONTROL getQueryParam] 插件可使用和捕获任何查询字符串参数。请确保查询字符串参数仅用于促销活动跟踪。任何时候，只要查询字符串中显示有参数，它们的值就会复制到&#x200B;*`campaign`*。
 
-1. 使用 [!UICONTROL SAINT] 划分促销活动跟踪代码。
+1. 使用 [!UICONTROL SAINT] 为营销活动跟踪代码分类。
 
    [!UICONTROL SAINT 促销活动管理工具]可用于将跟踪代码转换为用户易记的名称。它还可用于总结每个电子邮件促销活动的成功情况。以下步骤 5 概述了开展电子邮件促销活动所必需的过程。
 
