@@ -1,17 +1,17 @@
 ---
 description: 您可以通过选择预定义的模板或者使用某个现有报表包作为模型，来创建新的报表包。
-title: 新报表包 - 设置
+title: 新报表包 — 设置
 feature: Report Suite Settings
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '535'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# 新报表包 - 设置
+# 新报表包 — 设置
 
 您可以通过选择预定义的模板或者使用某个现有报表包作为模型，来创建新的报表包。
 
@@ -47,7 +47,7 @@ ht-degree: 93%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 默认页面</span> </td> 
-   <td colname="col2"> <p>（可选）将<span class="wintitle">默认页面</span>值的发生次数从它遇到的 URL 中剥离开来。如果<span class="wintitle">最受欢迎页面</span>报表包含 URL 而不是页面名称，则此设置可以防止同一网页有多个 URL。 </p> <p>例如，URL<span class="filepath"> https://example.com</span> 和 <span class="filepath"> https://example.com/index.html</span> 通常是同一页面。 您可以删除不重要的文件名，以便这两个URL都显示为 <span class="filepath"> https://example.com</span> 在您的报表中。 </p> <p>如果不设置此值，Analytics 将从 URL 中自动删除以下文件名：<span class="filepath">index.htm</span>、<span class="filepath">index.html</span>、<span class="filepath">index.cgi</span>、<span class="filepath">index.asp</span>、<span class="filepath">default.htm</span>、<span class="filepath">default.html</span>、<span class="filepath">default.cgi</span>、<span class="filepath">default.asp</span>、<span class="filepath">home.htm</span>、<span class="filepath">home.html</span>、<span class="filepath">home.cgi</span> 和 <span class="filepath"> home.asp</span>。 </p> <p>要禁止剥离文件名，可以输入永远不会在您的 URL 中出现的默认页面值。 </p> </td> 
+   <td colname="col2"> <p>（可选）将<span class="wintitle">默认页面</span>值的发生次数从它遇到的 URL 中剥离开来。如果<span class="wintitle">最受欢迎页面</span>报表包含 URL 而不是页面名称，则此设置可以防止同一网页有多个 URL。 </p> <p>例如，URL<span class="filepath"> https://example.com</span> 和 <span class="filepath"> https://example.com/index.html</span> 一般为相同的页面。可删除不相干的文件名，以使这两个 URL 在您的报表中都显示为 <span class="filepath"> https://example.com</span>。 </p> <p>如果不设置此值，Analytics 将从 URL 中自动删除以下文件名：<span class="filepath">index.htm</span>、<span class="filepath">index.html</span>、<span class="filepath">index.cgi</span>、<span class="filepath">index.asp</span>、<span class="filepath">default.htm</span>、<span class="filepath">default.html</span>、<span class="filepath">default.cgi</span>、<span class="filepath">default.asp</span>、<span class="filepath">home.htm</span>、<span class="filepath">home.html</span>、<span class="filepath">home.cgi</span> 和 <span class="filepath"> home.asp</span>。 </p> <p>要禁止剥离文件名，可以输入永远不会在您的 URL 中出现的默认页面值。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>起始日期 </p> </td> 
