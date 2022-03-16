@@ -5,7 +5,7 @@ title: 处理规则的工作原理
 feature: Processing Rules
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
 source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '690'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 使用处理规则可以基于定义的条件对数据进行更改。当属性或值匹配定义的条件时，可以设置和删除值，并可以设置事件。
 
-收集数据时，会对数据应用处理规则，并且规则会应用于通过 AppMeasurement 库和数据插入 API 获得的所有数据。处理规则还应用于完整数据源和日志数据源。这些数据源包含的数据代表一次&#x200B;*`hit`* 或用户采取的某个操作。处理规则不应用于其他数据源。
+收集数据时，会对数据应用处理规则，并且规则会应用于通过 AppMeasurement 库和数据插入 API 获得的所有数据。处理规则还应用于完整数据源和日志数据源。这些数据源包含的数据代表一次&#x200B;*`hit`* 或用户采取的某个操作。处理规则不适用于其他数据源。
 
 ## 重要概念 {#section_EB138775E7C64C74B0D1D3213F7A823C}
 
@@ -83,7 +83,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>上下文数据变量名称只能包含字母数字字符、下划线和点。任何其他字符都会被去除。 </p> </td> 
-   <td colname="col2"> <p>例如，上下文数据变量 <code> login_page-home</code> 会自动变为 <code> login_pagehome</code>。发送给 <code> login_page-home</code> 变量的所有数据会被分配在 <code> login_pagehome</code> 下。 </p> <p>包含不受支持字符的上下文数据变量无法添加到“处理规则”界面中。 </p> </td> 
+   <td colname="col2"> <p>例如，上下文数据变量 <code> login_page-home</code> 会自动变为 <code> login_pagehome</code>。发送给 <code> login_page-home</code> 变量的所有数据会被分配在 <code> login_pagehome</code> 下。 </p> <p>在“处理规则”界面中无法添加包含不支持的字符的上下文数据变量。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>插入符号 (^) 在处理规则系统中是特殊字符。 </p> </td> 
