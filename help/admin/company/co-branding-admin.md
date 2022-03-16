@@ -4,9 +4,9 @@ title: 品牌联合
 feature: Company Settings
 exl-id: 0297086d-4bff-44ab-9ad2-4f036215a2f9
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '73'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -14,8 +14,8 @@ ht-degree: 84%
 
 通过“管理品牌联合图像”页面，您可以在 Reports &amp; Analytics 下载的报表和旧版功能板中显示公司徽标。Analysis Workspace 中不使用品牌联合。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 公司设置]** > **[!UICONTROL 品牌联合Adobe Experience Cloud]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 公司设置]** > **[!UICONTROL 与 Adobe Experience Cloud 联名]**
 
 使用以下图像准则以获得最佳效果：
 
-* 要达到最好的 PDF 输出效果，请上载 417x125 像素图像。
+* 要达到最好的 PDF 输出效果，请上传 417x125 像素图像。
