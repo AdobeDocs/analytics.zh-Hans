@@ -1,11 +1,11 @@
 ---
-description: 描述如何将过滤器应用到路径报表的步骤。
+description: 描述将过滤器应用于路径报表所涉及的各个步骤。
 title: 使用请求向导过滤路径报表
 feature: Report Builder
 role: User, Admin
 exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 使用请求向导过滤路径报表
 
-描述如何将过滤器应用到路径报表的步骤。
+描述将过滤器应用于路径报表所涉及的各个步骤。
 
 此示例使用“网站区域路径”。
 
