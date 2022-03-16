@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: d4e4388b-6449-4fef-a94d-01b3a52c2190
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '315'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 79%
 
 ## 启用交易 ID 记录 {#section_30D6D47AEC0F4A36B87EBFE4C858F20C}
 
-交易 ID 可以从 UI 启用/禁用，而无需 ClientCare 的参与：
+可从 UI 中启用/禁用交易 ID，无需 ClientCare 的介入：
 
 转到&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > 选择报表包 > **[!UICONTROL 编辑设置]** > **[!UICONTROL 常规]** > **[!UICONTROL 一般帐户设置]**。
 
@@ -38,7 +38,7 @@ ht-degree: 79%
 
  -->
 
-要查看是否启用了“交易ID记录”，请导航至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 数据源]**.
+要查看是否启用了交易 ID 记录，请导航到 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 数据源]**。
 
 ![](assets/transaction-ID-recording-active.png)
 
@@ -63,6 +63,6 @@ ht-degree: 79%
 
 客户从在线转为离线时通常是匿名的。
 
-交易ID事件未包含在“访问参与”量度中（这些量度显示在市场营销报告中）。 这是因为交易ID数据与访问没有关联（因为离线事件通常不是在线事件的一部分），而是与访客关联。
+（在市场营销报表中显示的）“访问参与率”指标中不包括交易 ID 事件。这是因为交易 ID 数据不与访问关联（因为离线事件一般不是在线事件的一部分），却与访客关联。
 
-请参阅 [交易ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
+请参阅[交易 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)。
