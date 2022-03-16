@@ -4,7 +4,7 @@ title: 常见问题解答
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1411'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # 常见问题解答
 
-## 访问权限/授权 {#section_5F558C5981F747F0AF375A9E4B75C93C}
+## 访问/权利 {#section_5F558C5981F747F0AF375A9E4B75C93C}
 
 <table id="table_6713C3B0B6734F768370F974EB5AC5E8"> 
  <thead> 
@@ -77,7 +77,7 @@ ht-degree: 100%
    <td colname="col2"> <p>答：您可以直接从搜索引擎获得 1) 展示次数、2) 点击次数、3) 成本、4) 质量分数、 5) 平均位置以及 6) AMO ID 实例数（点击实例数）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>问：我是否可以根据其他 Analytics 数据（量度/维度）<b>划分 Advertising Analytics 数据</b>？ </p> </td> 
+   <td colname="col1"> <p>问：我是否可以根据其他 Analytics 数据（指标/维度）<b>划分 Advertising Analytics 数据</b>？ </p> </td> 
    <td colname="col2"> <p>答：不能，原始搜索数据将以独立数据集的形式进入。不过，您可以通过其他 Analytics 数据对实例数版本的点击数据进行划分。 </p> </td> 
   </tr> 
   <tr> 
@@ -95,30 +95,30 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>问：是否可以将<b>“虚拟报表包”</b> (VRS) 分配到 Advertising Analytics 帐户？ </p> </td> 
-   <td colname="col2"> <p>答：虚拟报表包不收集数据，因此您不能直接将 Advertising Analytics 帐户映射到虚拟报表包。 </p> <p>但是，您可以将 Advertising Analytics 帐户映射到您想要查看其数据的虚拟报表包的父报表包。 </p> <p>除非您根据 AMO ID（或其分类）在区段逻辑中包含“或”条件，否则搜索引擎量度（点击次数/成本/展示次数）可能不会显示在 VRS 中。示例：添加“存在 AMO ID 的所有点击”将包括该区段中的搜索引擎量度。 </p> </td> 
+   <td colname="col2"> <p>答：虚拟报表包不收集数据，因此您不能直接将 Advertising Analytics 帐户映射到虚拟报表包。 </p> <p>但是，您可以将 Advertising Analytics 帐户映射到您想要查看其数据的虚拟报表包的父报表包。 </p> <p>除非您根据 AMO ID（或其分类）在区段逻辑中包含“或”条件，否则搜索引擎指标（点击次数/成本/展示次数）可能不会显示在 VRS 中。示例：添加“存在 AMO ID 的所有点击”将包括该区段中的搜索引擎指标。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>问：Advertising Analytics 量度是否可以在<b>“营销渠道”</b>报表中进行报告？ </p> </td> 
-   <td colname="col2"> <p>答：不可以，营销渠道报表中不包含这些量度。 </p> </td> 
+   <td colname="col1"> <p>问：Advertising Analytics 指标是否可以在<b>“营销渠道”</b>报表中进行报告？ </p> </td> 
+   <td colname="col2"> <p>答：不可以，营销渠道报表中不包含这些指标。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>问：搜索数据<b>何时</b>会提取到 Analytics 中？ </p> </td> 
-   <td colname="col2"> <p>答：您所在 Analytics 数据中心时区的早上 6 点 (06:00) 左右，系统会从搜索引擎中提取搜索数据。这是收集 AMO 数据并将其插入到报表包中的时间。之后，在将数据插入 Analytics 的过程中，时区会转换为报表包时区。 </p> </td> 
+   <td colname="col2"> <p>答：您所在 Analytics 数据中心时区的早上 6 点 (06:00) 左右，系统会从搜索引擎中提取搜索数据。此时收集 AMO 数据并将其插入报表包。然后，在将数据插入 Analytics 的过程中，将该时间转换为报表包所在的时区。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>问：<b>在捕获点击次数之前</b>可以捕获哪些数据？即使没有点击次数，我们是否也会捕获展示次数、成本、平均位置等数据？ </p> </td> 
-   <td colname="col2"> <p>答：AMO ID 将捕获以下搜索引擎量度：展示次数、成本、点击次数、平均位置和平均质量分数。如果没有点击次数，但具有展示次数，则仍会将展示次数/位置/质量分数数据发送到 Analytics。一般情况下，如果没有点击次数，则也不会有成本。 </p> </td> 
+   <td colname="col2"> <p>答：AMO ID 将捕获以下搜索引擎指标：展示次数、成本、点击次数、平均位置和平均质量分数。如果没有点击次数，但具有展示次数，则仍会将展示次数/位置/质量分数数据发送到 Analytics。一般情况下，如果没有点击次数，则也不会有成本。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>问：此类数据是在哪个级别捕获的？<b>访客？点击级别？</b> </p> </td> 
-   <td colname="col2"> <p>答：搜索引擎量度是在点击级别捕获的，且关联到 AMO ID（及其分类）。此类数据是概要级别的数据，未关联到访问次数/访客数。因此，搜索引擎量度只能在属于点击级别范围且基于 AMO ID（或其分类）的区段中使用。 </p> <p>AMO ID 也可以在登陆页面上通过点击该页面来捕获（这会将此 ID 关联到访问/访客），此 ID 将保留到下游，以便获取其他 Analytics 量度的点数（直到此 ID 过期或被新的 AMO ID 覆盖）。与任何其他 eVar 一样，AMO ID 会完全合并到数据集中。 </p> </td> 
+   <td colname="col2"> <p>答：搜索引擎指标是在点击级别捕获的，且关联到 AMO ID（及其分类）。此类数据是摘要级别的数据，未关联到访问次数/访客数。因此，搜索引擎指标只能在属于点击级别范围且基于 AMO ID（或其分类）的区段中使用。 </p> <p>AMO ID 也可以在登陆页面上通过点击该页面来捕获（这会将此 ID 关联到访问/访客），此 ID 将保留到下游，以便获取其他 Analytics 指标的点数（直到此 ID 过期或被新的 AMO ID 覆盖）。与任何其他 eVar 一样，AMO ID 会完全合并到数据集中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>问：我们是仅捕获 google.com，还是也会捕获<b>国家/地区版本</b>（例如 google.co.uk、google.it、google.fr 或 google.de）？ </p> </td> 
    <td colname="col2"> <p>答：广告平台分类可捕获以下值：“Google Adwords”和“Bing Ads”。 </p> <p>通常的最佳做法是将国家/地区代码包含在营销活动名称中。之后，您可以进一步过滤或分段（例如，如果所有促销活动均以 countrycode_ 开头，则创建一个以“UK_”开头的促销活动 (AMO ID) 区段，可提供仅与 UK 有关的数据）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>问：量度“AMO 成本”是搜索引擎所报告的每个关键字/广告的成本花费。这是指净成本还是总成本？ </p> </td> 
+   <td colname="col1"> <p>问：指标“AMO 成本”是搜索引擎所报告的每个关键字/广告的成本花费。这是指净成本还是总成本？ </p> </td> 
    <td colname="col2"> <p>答：“AMO 成本”只是向搜索引擎支付的成本。它不包含任何代理费用或搜索优化/管理平台费用。 </p> </td> 
   </tr> 
   <tr> 
