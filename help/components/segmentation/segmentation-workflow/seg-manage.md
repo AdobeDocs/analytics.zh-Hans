@@ -1,10 +1,10 @@
 ---
-description: 区段管理器提供了许多种管理区段的方式，如共享、过滤、标记、批准、复制、删除和标记为收藏。
+description: 区段管理器提供多种编排区段的方式，如共享、过滤、标记、批准、复制、删除和标记为收藏。
 title: 管理区段
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '425'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # 管理区段
 
-区段管理器提供了许多种管理区段的方式，如共享、过滤、标记、批准、复制、删除和标记为收藏。
+区段管理器提供多种编排区段的方式，如共享、过滤、标记、批准、复制、删除和标记为收藏。
 
 Analytics 区段管理器显示了您拥有的所有区段以及共享给您的所有区段。管理员级别的用户可以查看组织内的所有区段。此概述说明了用户界面和区段管理器的功能。访问区段管理器的方法如下：
 
