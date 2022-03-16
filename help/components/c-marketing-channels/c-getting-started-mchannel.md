@@ -1,16 +1,16 @@
 ---
-title: 营销渠道快速入门
+title: 《营销渠道快速入门》
 description: 了解营销渠道工作流程、自动设置以及如何将模板报表包设置应用到多个报表包。
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
 ht-degree: 100%
 
 ---
 
-# 营销渠道快速入门
+# 《营销渠道快速入门》
 
 >[!NOTE]
 >
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 营销渠道通常用于提供有关访客如何到达您网站的分析。您可以基于要跟踪的渠道以及跟踪方式，自定义营销渠道处理规则。
 
-营销渠道主要考虑首次联系和最近联系量度，这两个量度属于标准转化量度。
+营销渠道主要考虑首次联系和最近联系指标，这两个指标属于标准转化指标。
 
 ## 营销渠道工作流程
 
@@ -47,29 +47,29 @@ ht-degree: 100%
 >
 >如果之前未配置营销渠道，则会显示[自动设置](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。该设置提供多个可自定义的预配置渠道。Adobe 建议将这些规则用作模板。但如果已有固定的渠道定义，则可跳过自动设置。
 
-![](assets/step3_icon.png)在[!UICONTROL “营销渠道处理规则”]页面上配置或优化每个渠道的规则。
+![](assets/step3_icon.png)在[!UICONTROL 营销渠道处理规则]页面上配置或优化每个渠道的规则。
 
-在[!UICONTROL “营销渠道管理器”]页面上创建渠道后，可配置规则，以便渠道可检索和报告数据。
+在[!UICONTROL 营销渠道管理器]页面上创建渠道后，可配置规则，以便渠道可检索和报告数据。
 
 请参阅[营销渠道处理规则](/help/components/c-marketing-channels/c-rules.md)。
 
 如果渠道是在自动设置中创建的，则这些渠道中的规则已经过定义。您可以修改这些规则以满足您的需求。
 
-## 营销渠道的自动设置 {#run-auto-setup}
+## 自动设置营销渠道 {#run-auto-setup}
 
 营销渠道报表包含一个一次性设置页面，帮助您入门。它提供了多个可用于跟踪的营销渠道。如果您觉得对创建渠道和规则得心应手，可以跳过此设置。然而，Adobe 建议您允许该向导为您创建渠道。自动设置可使您了解规则是如何构建的，还可让您根据自己的需要进行编辑。您可以随时禁用或删除预定义的渠道。
 
 如何运行营销渠道自动设置。
 
 1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
-1. 在[!UICONTROL “报表包管理器”]上，选择一个报表包。
+1. 在[!UICONTROL 报表包管理器]上，选择一个报表包。
 1. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 营销渠道]** > **[!UICONTROL 营销渠道管理器]**。
 
    ![步骤结果](assets/wizard.png)
 
    >[!NOTE]
    >
-   >当您访问“管理工具”中的渠道配置应用程序时，会自动显示“[!UICONTROL 营销渠道: 自动设置]”页面。（请参阅[营销渠道管理器](/help/components/c-marketing-channels/c-channels.md)。）如果您的报表包包含一个或多个营销渠道，则本页面不会显示。除非您选择另一个不含营销渠道的报表包，否则您不能再访问此页面。
+   >当您访问“管理工具”中的渠道配置应用程序时，会自动显示[!UICONTROL 营销渠道: 自动设置]页面。（请参阅[营销渠道管理器](/help/components/c-marketing-channels/c-channels.md)。）如果您的报表包包含一个或多个营销渠道，则本页面不会显示。除非您选择另一个不含营销渠道的报表包，否则您不能再访问此页面。
 
 1. 确保选定您要创建的渠道。
 
