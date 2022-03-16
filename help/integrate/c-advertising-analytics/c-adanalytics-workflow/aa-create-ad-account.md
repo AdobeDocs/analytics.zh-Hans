@@ -4,9 +4,9 @@ description: 让您创建新的广告帐户并将多个帐户映射到多个报�
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '819'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Analytics 管理员可以创建新的广告帐户，并将多个帐户映�
    | --- | --- |
    | 类型 | 您有 2 个选项：Google AdWords 和 Microsoft Bing Ads。注意：Microsoft Bing 于 2019 年 3 月 31 日收购了 Yahoo Gemini。因此，现已不再提供 Yahoo Gemini 广告帐户选项。 |
    | 帐户名称 | 您可以选择将此帐户名称设置为适合您的任意名称。这是将显示在 UI 中的帐户的友好名称。 |
-   | OAuth 令牌 | **注意：** OAuth 是一种针对访问权限委派的开放标准，通常用于授予网站或应用程序访问其他网站上的信息的权限，且无需提供密码。您会注意到您将被路由到一个第三方URL(efrontier.com)。 Adobe 使用 efrontier 为所有三个搜索引擎启用 OAuth 身份验证过程。如果您使用Internet Explorer 11（或更早版本），则无法为三个搜索引擎中的任何一个成功检索Oauth令牌。 请改用其他 Web 浏览器。<p>单击&#x200B;**[!UICONTROL 检索令牌]**&#x200B;可启动 OAuth2 身份验证过程。系统将要求您使用您的凭据登录到Google/Bing搜索帐户。 根据您选择的搜索引擎，过程会略有不同： <ul><li>Google Adwords:提供Google帐户ID</li><li>Microsoft Bing：提供 Bing 帐户 ID 和 Bing 客户 ID。</li></ul>请参考[查找帐户 ID](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md) 以获取有关这些 ID 的信息。成功登录后， **[!UICONTROL OAuth令牌]** 字段显示 **[!UICONTROL 已检索]**. |
+   | OAuth 令牌 | **注意：** OAuth 是一种委派访问权限的开放标准，常用于允许网站或应用程序访问它们在其他网站上的信息，在此过程中并不向其提供密码。您将注意到您将被引向某个第三方 URL (efrontier.com)。Adobe 使用 efrontier 为所有这三个搜索引擎实现 OAuth 身份验证过程。如果您使用 Internet Explorer 11（或更低版本），则您将无法成功地为这三个搜索引擎中的任意一个检索 Oauth 令牌。请改用其他 Web 浏览器。<p>单击&#x200B;**[!UICONTROL 检索令牌]**&#x200B;以开始 OAuth2 身份验证过程。其中将要求您使用自己的凭据登录到您的 Google/Bing 搜索帐户。根据所选的搜索引擎，此过程略有不同： <ul><li>Google Adwords：提供 Google 帐户 ID</li><li>Microsoft Bing：提供 Bing 帐户 ID 和 Bing 客户 ID。</li></ul>请参考[查找帐户 ID](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md) 以获取有关这些 ID 的信息。当您成功登录后，**[!UICONTROL OAuth 令牌]**&#x200B;字段即显示&#x200B;**[!UICONTROL 已检索]**。 |
 
 1. 在&#x200B;**[!UICONTROL 跟踪]**&#x200B;部分中，您提供的是有关您的 Adobe Analytics 实施如何对搜索引擎数据进行跟踪的信息。这是向 Adobe Analytics 数据适当增加搜索引擎数据的必要步骤。按照以下说明填写&#x200B;**[!UICONTROL 跟踪设置]**：
 
