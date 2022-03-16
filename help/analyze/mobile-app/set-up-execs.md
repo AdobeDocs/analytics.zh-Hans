@@ -1,25 +1,25 @@
 ---
-description: 执行用户在访问和使用应用程序时可能需要一些其他帮助。 本节将介绍有助于您提供该帮助的信息。
-title: 使用应用程序设置执行用户
+description: 执行用户可能需要一些额外的协助才能访问和使用该应用程序。此部分介绍如何帮助您提供这种协助。
+title: 为该应用程序设置执行用户
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '749'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 使用应用程序设置执行用户
+# 为该应用程序设置执行用户
 
-在某些情况下，执行用户可能需要一些其他帮助才能访问和使用应用程序。本节将介绍有助于您提供该帮助的信息。
+在某些情况下，执行用户可能需要一些其他帮助才能访问和使用应用程序。此部分介绍如何帮助您提供这种协助。
 
 ## 确保应用程序用户具有 Adobe Analytics 访问权限
 
 1. 在 [Experience Cloud Admin Console](/help/admin/admin-console/permissions/product-profile.md) 中设置新用户。
 
-1. 要能够共享记分卡，您必须向应用程序用户授予对记分卡组件（例如 Analysis Workspace）、记分卡所基于的报表包以及区段、量度和维度的访问权限。
+1. 要能够共享记分卡，您必须向应用程序用户授予对记分卡组件（例如 Analysis Workspace）、记分卡所基于的报表包以及区段、指标和维度的访问权限。
 
 ## 应用程序用户的系统先决条件
 
@@ -79,7 +79,7 @@ ht-degree: 98%
 * 一天会显示每小时的趋势
    * 超过一天且不足一年会显示每日的趋势
    * 一年及以上会显示每周的趋势
-   * 百分比值更改公式为：量度总计（当前日期范围）- 量度总计（比较日期范围）/ 量度总计（比较日期范围）。
+   * 百分比值更改公式为：指标总计（当前日期范围）- 指标总计（比较日期范围）/ 指标总计（比较日期范围）。
    * 您可以通过下拉屏幕来刷新记分卡。
 
 
