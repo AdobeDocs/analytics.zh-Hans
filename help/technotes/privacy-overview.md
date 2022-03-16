@@ -5,9 +5,9 @@ title: 隐私概述
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '829'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -91,11 +91,11 @@ Adobe Analytics 收集以下数据：
   </tr> 
   <tr> 
    <td colname="col1"> 欧洲 </td> 
-   <td colname="col2"> Adobe 启用了设置 IP 模糊处理：对于欧洲、中东和非洲地区使用报表包集的所有客户，默认设置为“已启用 - IP 已删除 (x.x.x.x)”。通过此设置，在地理查询后 IP 地址将由值 (x.x.x.x) 完全取代，且不再可作为数据点使用。 <p>这个基本替换方法无法通过实施反向工程返回一个唯一的特定 IP 地址。客户或 Adobe 均无法访问该 IP 地址，该 IP 地址已经过不可逆转的匿名化处理。有关其他IP模糊处理设置的更多信息，请参阅 </p> <p> <a href="/help/admin/admin/general-acct-settings-admin.md">一般帐户设置</a> 管理用户指南中的。</p> </td>
+   <td colname="col2"> Adobe 启用了设置 IP 模糊处理：对于欧洲、中东和非洲地区使用报表包集的所有客户，默认设置为“已启用 — IP 已删除 (x.x.x.x)”。通过此设置，在地理查询后 IP 地址将由值 (x.x.x.x) 完全取代，且不再可作为数据点使用。 <p>这个基本替换方法无法通过实施反向工程返回一个唯一的特定 IP 地址。客户或 Adobe 均无法访问该 IP 地址，该 IP 地址已经过不可逆转的匿名化处理。有关其他 IP 模糊设置的详细信息，请参阅 </p> <p> 管理员用户指南中的<a href="/help/admin/admin/general-acct-settings-admin.md">常规帐户设置</a>。</p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> 全球 </td> 
-   <td colname="col2"> 客户可以在 JavaScript 量度代码中将 Cookie 持续时间变量设置为“none”、“session”值，或其他以秒为单位的特定值。 </td> 
+   <td colname="col2"> 客户可以在 JavaScript 指标代码中将 Cookie 持续时间变量设置为“none”、“session”值，或其他以秒为单位的特定值。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 欧洲 </td> 
@@ -134,7 +134,7 @@ Adobe Analytics 收集以下数据：
    <td colname="col1"> LON5 </td> 
    <td colname="col2"> <p>3 Centro </p> <p>Boundary Way </p> <p>Hemel Hempstead HP2 7SU </p> <p>UK </p> </td> 
    <td colname="col3"> <p>Colocation Facility </p> <p>(Gyron) </p> </td> 
-   <td colname="col4"> <p>多渠道分析、 </p> <p>Digital Analytics </p> </td> 
+   <td colname="col4"> <p>Multichannel Analytics, </p> <p>Digital Analytics </p> </td> 
    <td colname="col5"> SSAE 16 </td> 
   </tr> 
  </tbody> 
