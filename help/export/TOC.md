@@ -3,16 +3,16 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 导出指南
 breadcrumb-title: 导出指南
-user-guide-description: 使用“数据馈送”接收每小时或每天导出的原始数据。使用 Data Warehouse 检索以电子表格输出的数据。了解如何使用 FTP 和 SFTP 在计算机和服务器之间传输文件。
+user-guide-description: 使用“数据馈送”接收每小时或每天导出的原始数据。使用 Data Warehouse 检索以电子表格形式输出的数据。了解如何使用 FTP 和 SFTP 在计算机与服务器之间传输文件。
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Analytics导出指南 {#export}
+# Adobe Analytics 导出指南 {#export}
 
 + [Analytics 导出指南](home.md)
 + [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
@@ -23,7 +23,7 @@ ht-degree: 96%
    + [管理数据馈送作业](analytics-data-feed/df-manage-jobs.md)
    + 数据馈送内容 {#data-feed-contents}
       + [数据馈送内容概述](analytics-data-feed/c-df-contents/datafeeds-contents.md)
-      + [计算量度](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
+      + [计算指标](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [数据列引用](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [页面事件查找](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [移动设备属性查找](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
@@ -39,7 +39,7 @@ ht-degree: 96%
    + [创建 Data Warehouse 请求](data-warehouse/t-dw-create-request.md)
    + [请求发送时间](data-warehouse/delivery-time.md)
    + [表格数据文件](data-warehouse/t-tableau.md)
-   + [按量度排序](data-warehouse/sorting-by-metric.md)
+   + [按指标排序](data-warehouse/sorting-by-metric.md)
    + [计划周期性请求](data-warehouse/dw-schedule-recurring.md)
    + [管理 Data Warehouse 请求](data-warehouse/data-warehouse-requests-manage.md)
    + [Data Warehouse 中支持的组件](data-warehouse/component-support.md)
@@ -48,7 +48,7 @@ ht-degree: 96%
 + FTP 和 SFTP {#ftp-and-sftp}
    + [将 FTP 和 SFTP 用于 Adobe Experience Cloud](ftp-and-sftp/ftp-overview.md)
    + 设置 Adobe 托管的 FTP 帐户 {#set-up-ftp-accounts}
-      + [设置 FTP 帐户 - 概述](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
+      + [设置 FTP 帐户 — 概述](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
       + [分类](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
       + [数据源](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
       + [Data Connector](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
@@ -63,8 +63,8 @@ ht-degree: 96%
    + [使用被动 FTP 模式](ftp-and-sftp/ftp-passive.md)
    + [FTP 处理时间](ftp-and-sftp/ftp-processing.md)
    + 安全文件传输协议 {#secure-file-transfer-protocol}
-      + [SFTP 服务升级 - 常见问题解答](ftp-and-sftp/c-sftp/sftp-upgrade.md)
-      + [安全文件传输协议 - 概述](ftp-and-sftp/c-sftp/ftp-sftp.md)
+      + [SFTP 服务升级 — 常见问题解答](ftp-and-sftp/c-sftp/sftp-upgrade.md)
+      + [安全文件传输协议 — 概述](ftp-and-sftp/c-sftp/ftp-sftp.md)
       + [通过 SFTP 连接到 Adobe FTP 帐户](ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
       + [通过 SFTP 将 Adobe 数据发送到外部 FTP 帐户](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [将 Data Warehouse 请求发送到 SFTP 服务器](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)

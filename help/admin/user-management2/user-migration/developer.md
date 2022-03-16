@@ -1,16 +1,16 @@
 ---
-description: 列出受用户迁移影响的API
-title: 受用户迁移影响的API
+description: 列出受用户迁移影响的 API
+title: 受用户迁移影响的 API
 feature: Admin Tools
 exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
 source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
 source-wordcount: '240'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
-# 受用户迁移影响的API{#apis-affected-by-the-migration}
+# 受用户迁移影响的 API{#apis-affected-by-the-migration}
 
 Adobe 正在将所有 Analytics 登录公司从 [!DNL my.omniture.com] 是迁移出来，并通过 Adobe Experience Cloud 进行身份验证。公司开始此迁移后，将不再支持通过特定于 Analytics 的权限及 Analytics Admin API v1.3 与 v1.4 提供的 `GetLoginKey` 方法以编程方式创建和管理用户。此类操作将立即通过 [!DNL adobe.io] 在 Experience Cloud 中执行。
 
@@ -44,4 +44,4 @@ Adobe 正在将所有 Analytics 登录公司从 [!DNL my.omniture.com] 是迁移
 * [一般用户管理信息](https://helpx.adobe.com/cn/enterprise/help/users.html)
 * [通过 adobe.io 的用户管理 API](https://developer.adobe.com/UMAPI/)
 * [用户管理 API 论坛](https://community.adobe.com/t5/enterprise-teams/bd-p/enterprise-and-teams)
-* [将 Analytics 用户访问和管理迁移到 Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=zh-Hans)
+* [将 Analytics 用户访问和管理迁移到 Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)

@@ -7,7 +7,7 @@ exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
 source-git-commit: 8e15d386379d98066973112b0e81b507d67c694d
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 50%
+ht-degree: 67%
 
 ---
 
@@ -39,6 +39,6 @@ ht-degree: 50%
 
 ## 查看不基于日期的注释
 
-有时，注释不会与日期绑定，而是与特定维度绑定。 在这种情况下，它们仅显示在右下角的摘要批注中。 示例如下：
+有时注释与日期无关，而是与特定的维度关联。在这种情况下，此类注释仅显示在右下角的摘要注释中。示例如下：
 
 ![](assets/non-date.png)

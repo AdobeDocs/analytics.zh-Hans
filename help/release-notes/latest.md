@@ -1,6 +1,6 @@
 ---
 title: 最新的 Analytics 发行说明
-description: 查看当前 Adobe Analytics 发行说明.
+description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: e35e437a61b925625f6dc7fa2344406c5a66e5fe
@@ -21,7 +21,7 @@ ht-degree: 53%
 
 ## Adobe Analytics 中的新增功能 {#aa-features}
 
-| 功能 | 描述 | [目标日期](releases.md) |
+| 功能 | 描述 | [预定日期](releases.md) |
 | ----------- | ---------- | ------- |
 | 工作区中的注释 | 通过工作区中的注释，您可以有效地将上下文数据细微差别和洞察传达给您的组织。 [了解详情](/help/analyze/analysis-workspace/components/annotations/overview.md) | 2022年3月23日 |
 | Adobe Analytics登陆页面更新 | 更新了工作区/Reports &amp; Analytics联合登陆页面，提高了可用性并简化了导航。 [了解详情](/help/analyze/landing.md) | 2022年3月23日 |

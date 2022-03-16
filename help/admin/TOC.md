@@ -1,20 +1,20 @@
 ---
 product: analytics
 audience: admin
-user-guide-title: Analytics 管理指南
+user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
-user-guide-description: 了解Analytics管理任务，例如管理Experience CloudAdmin Console中的用户和产品、配置报表包等。
+user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等等。
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Analytics管理指南 {#admin}
+# Adobe Analytics 管理员指南 {#admin}
 
-+ [Analytics 管理指南](home.md)
++ [Analytics 管理员指南](home.md)
 + [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Analytics 管理概述{#admin-overview}
    + [我应该使用哪种 Adobe Analytics 工具？](c-analytics-product-comparison/which-analytics-tool.md)
@@ -22,7 +22,7 @@ ht-degree: 95%
 + [系统要求](sys-reqs.md)
 + 管理工具{#admin-tools}
    + [管理工具](admin/c-admin-tools.md)
-   + [帐单](admin/billing-admin.md)
+   + [计费](admin/billing-admin.md)
    + 机器人移除{#bot-removal}
       + [机器人移除](admin/bot-removal/bot-removal.md)
       + [机器人规则概述](admin/bot-removal/bot-rules.md)
@@ -40,7 +40,7 @@ ht-degree: 95%
    + [自定义报表描述](admin/custom-desc-admin.md)
    + [自定义日历](admin/custom-calendar.md)
    + [数据源](admin/data-sources.md)
-   + [默认量度](admin/default-metrics.md)
+   + [默认指标](admin/default-metrics.md)
    + [按 IP 地址排除](admin/exclude-ip.md)
    + [查找方法](admin/finding-methods.md)
    + [一般帐户设置](admin/general-acct-settings-admin.md)
@@ -48,14 +48,14 @@ ht-degree: 95%
    + [日志](admin/logs.md)
    + [营销渠道](admin/marketing-channels-admin.md)
    + [菜单自定义](admin/customize-menus.md)
-   + [量度可见性](admin/metric-visibility.md)
+   + [指标可见性](admin/metric-visibility.md)
    + [应用程序管理](admin/mobile-management.md)
    + 付费搜索检测{#paid-search-detection}
       + [付费搜索检测概述](admin/paid-search-detection/paid-search-detection.md)
       + [配置付费搜索检测](admin/paid-search-detection/t-paid-search-detection.md)
    + [发布列表](admin/publishing-list.md)
-   + [发布用构件](admin/publishing-widgets-admin.md)
-   + [偏好设置管理器](admin/preferences-manager.md)
+   + [发布构件](admin/publishing-widgets-admin.md)
+   + [首选项管理器](admin/preferences-manager.md)
    + [隐私设置](admin/privacy-settings.md)
    + [隐私报表](admin/privacy-reporting.md)
    + 处理规则{#processing-rules}
@@ -84,8 +84,8 @@ ht-degree: 95%
    + 实时报表 {#real-time-reports}
       + [实时报表概述](admin/realtime/realtime.md)
       + [实时报表配置](admin/realtime/t-realtime-admin.md)
-      + [受支持的实时量度和维度](admin/realtime/realtime-metrics.md)
-   + [计划报表队列](admin/scheduled-reports-admin.md)
+      + [受支持的实时指标和维度](admin/realtime/realtime-metrics.md)
+   + [已安排的报表队列](admin/scheduled-reports-admin.md)
    + 服务器端转发 {#server-side-forwarding}
       + [服务器端转发概述](admin/c-server-side-forwarding/ssf.md)
       + [GDPR/ePrivacy 合规和服务器端转发](admin/c-server-side-forwarding/ssf-gdpr.md)
@@ -106,9 +106,9 @@ ht-degree: 95%
       + [流量分类](admin/c-traffic-variables/traffic-classifications.md)
    + 独特访客变量 {#unique-visitor-variable}
       + [指定独特访客变量](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
-      + [用例 - 提取访客 ID](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
+      + [用例 — 提取访客 ID](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [视频管理](admin/video-management.md)
-+ AnalyticsAdobe Admin Console 中的 {#admin-console}
++ Adobe Admin Console 中的 Analytics {#admin-console}
    + [Adobe Admin Console 中的 Analytics](admin-console/home.md)
    + 权限 {#permissions}
       + [Admin Console 中的 Analytics Permissions](admin-console/permissions/summary-tables.md)
@@ -145,7 +145,7 @@ ht-degree: 95%
    + [下载报表包设置](c-manage-report-suites/t-download-rs-settings.md)
    + 新的报表包 {#new-report-suite}
       + [创建报表包](c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-      + [新报表包 - 设置](c-manage-report-suites/c-new-report-suite/new-report-suite.md)
+      + [新报表包 — 设置](c-manage-report-suites/c-new-report-suite/new-report-suite.md)
       + [未从源报表包复制的设置](c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
    + [创建报表包群组](c-manage-report-suites/t-create-rs-group.md)
 + 用户和产品管理（旧版）{#user-product-management}
@@ -153,7 +153,7 @@ ht-degree: 95%
    + 将用户迁移到 Adobe Admin Console {#migrate-users}
       + [将 Analytics 用户迁移到 Admin Console](user-management2/user-migration/c-migration-tool.md)
       + [为 Adobe ID 迁移 Analytics 用户帐户](user-management2/user-migration/t-migrate-users.md)
-      + [为 Enterprise ID 和 Federated ID 迁移 Analytics 用户帐户](user-management2/user-migration/migrate-enterprise.md)
+      + [迁移 Analytics 用户帐户以使用 Enterprise ID 和 Federated ID](user-management2/user-migration/migrate-enterprise.md)
       + [禁用旧版登录](user-management2/user-migration/t-disable-legacy-login.md)
       + [受迁移影响的 API](user-management2/user-migration/developer.md)
 + 数据管理 {#data-governance}
@@ -181,8 +181,8 @@ ht-degree: 95%
    + [服务器调用使用情况常见问题解答](c-server-call-usage/overage-faq.md)
 + 流量管理{#traffic-management}
    + [管理流量](c-traffic-management/traffic-management.md)
-   + [计划流量尖峰](c-traffic-management/t-traffic-schedule-spike.md)
-   + [评估过去的服务器调用并计划流量尖峰](c-traffic-management/traffic-spike-estimate-past-server-calls.md)
+   + [安排流量尖峰](c-traffic-management/t-traffic-schedule-spike.md)
+   + [评估过去的服务器调用并安排流量尖峰](c-traffic-management/traffic-spike-estimate-past-server-calls.md)
    + [指定永久性流量增长](c-traffic-management/t-traffic-permanent.md)
    + [流量增长必需的前置时间](c-traffic-management/traffic-lead-time.md)
 + [管理员 API](c-admin-api/c-admin-api.md)

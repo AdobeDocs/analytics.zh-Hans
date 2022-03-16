@@ -1,16 +1,16 @@
 ---
-title: SFTP 服务升级 - 常见问题解答
+title: SFTP 服务升级 — 常见问题解答
 description: 有关计划于 2022 年 5 月进行的 SFTP 服务升级的常见问题解答。
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
 source-git-commit: dd1b2d358e6074fc393e6e5999c4286549a1b82d
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# SFTP 服务升级 - 常见问题解答
+# SFTP 服务升级 — 常见问题解答
 
 Adobe Analytics 将于 **2022 年 5 月 15 日**&#x200B;升级其安全文件传输协议 ([SFTP]) 服务，以增强文件传输的安全性。作出此更改后，将不再支持某些 SFTP 客户端配置。我们还将增加一些在 **2022 年 3 月 1 日**&#x200B;之前可用的连接选项。此更改将仅影响使用 SFTP 发送到 Adobe Analytics 或从其检索的数据。而不影响 FTP 协议。为避免服务中断，请确保您的 SFTP 客户端（代码、工具、服务）与下文详述的更改一致。
 
@@ -18,7 +18,7 @@ Adobe Analytics 将于 **2022 年 5 月 15 日**&#x200B;升级其安全文件传
 
 所使用的 FTP/SFTP 软件应指示在配置为与 Adobe Analytics 交换数据的连接中使用了什么具体设置。此软件还应包括有关对于连接可用的各种选项的文档。在此更新之后支持的选项在业内受到广泛支持和认可。
 
-将删除的连接选项通常被视为过时，不会在当前软件中使用。 如果您在过去三年内升级了FTP/SFTP软件，则可能已经具有兼容的连接。
+一般将删除的连接选项视为过时，并在当前的软件中不使用这些选项。如果过去三年内升级过 FTP/SFTP 软件，则连接可能已符合要求。
 
 ## 哪些 Adobe Analytics 功能使用 SFTP 引入数据？
 

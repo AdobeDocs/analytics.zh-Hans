@@ -7,12 +7,12 @@ user-guide-description: Analytics 的高级分析和可视化工具 Analysis Wor
 source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
 workflow-type: tm+mt
 source-wordcount: '1039'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
 
-# Adobe Analytics工具指南 {#analyze}
+# Adobe Analytics 工具指南 {#analyze}
 
 + [Analytics 工具指南](home.md)
 + [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
@@ -83,7 +83,7 @@ ht-degree: 98%
       + [水平条形图和堆叠的水平条形图](analysis-workspace/visualizations/horizontal-bar.md)
       + [折线图](analysis-workspace/visualizations/line.md)
       + [散点图](analysis-workspace/visualizations/scatterplot.md)
-      + [概要数字和概要变化](analysis-workspace/visualizations/summary-number-change.md)
+      + [摘要数字和摘要变化](analysis-workspace/visualizations/summary-number-change.md)
       + [文本](analysis-workspace/visualizations/text.md)
       + [树形图](analysis-workspace/visualizations/treemap.md)
    + 面板 {#panels}
@@ -154,11 +154,11 @@ ht-degree: 98%
       + [通过 Microsoft Excel 函数调用 Report Builder 功能](report-builder/setup/invoke-arb-excel-function.md)
    + [Report Builder 工具栏](report-builder/reportbuilder-toolbar.md)
    + 数据请求 {#data-requests}
-      + [数据请求 - 请求向导第 1 步](report-builder/data-requests/data-requests.md)
+      + [数据请求 — 请求向导第 1 步](report-builder/data-requests/data-requests.md)
       + [创建数据请求](report-builder/data-requests/t-create-a-data-request.md)
       + 报表包 {#report-suites}
-         + [选择一个报表包](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
-         + [选择一个报表包从 Excel 中的现有请求](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
+         + [选择某个报表包](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
+         + [选择某个报表包从 Excel 中的现有请求](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [使用 Excel 查找报表包 ID](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [管理区段](report-builder/data-requests/segmentation.md)
       + [允许发布列表覆盖](report-builder/data-requests/allow-publishing-list-overrides.md)
@@ -171,15 +171,15 @@ ht-degree: 98%
          + [选择报表类型](report-builder/data-requests/c-report-types/t-select-report-type.md)
       + [导入加入书签的报表和功能板小型报表](report-builder/data-requests/import-bookmarked.md)
       + 日期范围 {#date-ranges}
-         + [请求向导定义 - 预设日期](report-builder/data-requests/configuring-report-dates/r-arb-preset-dates.md)
+         + [请求向导定义 — 预设日期](report-builder/data-requests/configuring-report-dates/r-arb-preset-dates.md)
          + [固定日期和保存的日期范围](report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md)
-         + [请求向导定义 - 固定日期](report-builder/data-requests/configuring-report-dates/r-arb-fixed-dates.md)
+         + [请求向导定义 — 固定日期](report-builder/data-requests/configuring-report-dates/r-arb-fixed-dates.md)
          + [滚动日期](report-builder/data-requests/configuring-report-dates/t-rolling-dates.md)
-         + [请求向导定义 - 滚动日期](report-builder/data-requests/configuring-report-dates/r-arb-rolling-dates.md)
+         + [请求向导定义 — 滚动日期](report-builder/data-requests/configuring-report-dates/r-arb-rolling-dates.md)
          + [实时报表](report-builder/data-requests/configuring-report-dates/real-time.md)
          + [配置实时请求](report-builder/data-requests/configuring-report-dates/t-real-time.md)
          + 自定义的日期表达式 {#customized-date-expressions}
-            + [自定义的日期表达式 - 概述](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
+            + [自定义的日期表达式 — 概述](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
             + [日期缩写](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/date-abbreviations.md)
             + [单个开始日期或结束日期](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/individual-starting-or-ending-dates.md)
             + [使用自定义表达式的日期范围示例](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md)
@@ -188,15 +188,15 @@ ht-degree: 98%
          + [粒度](report-builder/data-requests/configuring-report-dates/granularity.md)
          + [自定义日历](report-builder/data-requests/configuring-report-dates/custom-calendar.md)
       + [交互式控件](report-builder/data-requests/interactive-controls.md)
-   + 版面 - 请求向导第 2 步 {#layout}
+   + 版面 — 请求向导第 2 步 {#layout}
       + [版面概述](report-builder/layout/layout.md)
       + 指标和维度 {#metrics-dimension}
          + [指标和维度概述](report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
          + [添加指标和维度](report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
-         + [计算量度](report-builder/layout/c-metrics-dimensions/calculated-metrics.md)
+         + [计算指标](report-builder/layout/c-metrics-dimensions/calculated-metrics.md)
          + [在同一请求中组合使用流量和商务指标](report-builder/layout/c-metrics-dimensions/grouped-metrics.md)
          + [维度和指标的用户访问权限](report-builder/layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
-         + [修改指标 - 字段定义](report-builder/layout/c-metrics-dimensions/r-arb-modify-metrics.md)
+         + [修改指标 — 字段定义](report-builder/layout/c-metrics-dimensions/r-arb-modify-metrics.md)
          + [客户属性](report-builder/layout/c-metrics-dimensions/c-ustomer-attributes.md)
       + [异常检测](report-builder/layout/anomaly-detection.md)
       + [配置异常检测请求](report-builder/layout/t-anomaly.md)
@@ -215,7 +215,7 @@ ht-degree: 98%
          + [特定过滤条件](report-builder/layout/c-filter-dimensions/t-specific-filters.md)
          + [保存的过滤条件](report-builder/layout/c-filter-dimensions/saved-filters.md)
    + 管理请求 {#manage-requests}
-      + [管理请求 - 定义](report-builder/manage-requests/r-arb-manage-requests.md)
+      + [管理请求 — 定义](report-builder/manage-requests/r-arb-manage-requests.md)
       + [诊断消息](report-builder/manage-requests/diagnostic-messages.md)
       + [升序排序或降序排序](report-builder/manage-requests/sort-ascending-or-descending.md)
       + [受保护的工作表元素](report-builder/manage-requests/protected-worksheet-elements.md)
@@ -246,7 +246,7 @@ ht-degree: 98%
       + [锁定/解锁工作簿](report-builder/workbook-library/protect-wb.md)
       + [计划启用宏的工作簿](report-builder/workbook-library/schedule-macro-wb.md)
    + 使用 Report Builder 5.5 发布到 Power BI {#publish-powerbi}
-      + [发布到 Power BI - 概述](report-builder/c-publish-power-bi/power-bi.md)
+      + [发布到 Power BI — 概述](report-builder/c-publish-power-bi/power-bi.md)
       + [限制和规范](report-builder/c-publish-power-bi/specifications-limits.md)
       + [将数据手动导入 Power BI](report-builder/c-publish-power-bi/bi-manually-import-data.md)
       + [将已发布的资产提取到 Power BI Desktop](report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
@@ -321,7 +321,7 @@ ht-degree: 98%
    + [常见问题解答](reports-analytics/frequently-asked-questions.md)
    + [疑难解答](reports-analytics/report-troubleshooting.md)
 + Adobe Analytics 功能板 {#mobapp}
-   + [Adobe Analytics 功能板 - 概述](mobile-app/home.md)
+   + [Adobe Analytics 功能板 — 概述](mobile-app/home.md)
    + [策划人简介](mobile-app/curator.md)
    + [创建移动记分卡](mobile-app/create-scorecard.md)
    + [设置执行用户以使用功能板](mobile-app/set-up-execs.md)

@@ -6,7 +6,7 @@ exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
 source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
 source-wordcount: '1802'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Adobe Analytics 如何支持由最终用户（数据主体）提出、并由客户（数据控制者）进行验证的访问请求和删除请求？</b> </p> </td> 
-   <td colname="col2"> <p>各种数据隐私法规 (GDPR、CCPA) 正式生效后，Adobe Analytics 将支持处理“数据控制者”向 Experience Cloud 数据隐私 API 提交的验证请求，以实现更加自动化的流程。针对我们的客户在各种 Adobe Experience Cloud 解决方案中存储的数据，Adobe 的数据隐私 API 旨在帮助处理个人权利请求（例如，访问和删除请求）。它具有灵活性和伸缩性，具体情况将依据贵公司从数据主体接收到的数据访问和删除请求数量。此外，Privacy ServiceAPI允许客户检查有关如何执行数据访问和删除请求的状态。 </p> <p>有关更多详细信息，请参阅 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/"> Privacy ServiceAPI文档。 </a> </p> </td> 
+   <td colname="col2"> <p>各种数据隐私法规 (GDPR、CCPA) 正式生效后，Adobe Analytics 将支持处理“数据控制者”向 Experience Cloud 数据隐私 API 提交的验证请求，以实现更加自动化的流程。针对我们的客户在各种 Adobe Experience Cloud 解决方案中存储的数据，Adobe 的数据隐私 API 旨在帮助处理个人权利请求（例如，访问和删除请求）。它具有灵活性和伸缩性，具体情况将依据贵公司从数据主体接收到的数据访问和删除请求数量。此外，通过 Privacy Service API，客户还可检查关于如何履行访问和删除数据的请求的状态。 </p> <p>有关更多详细信息，请参阅 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">Privacy Service API 文档</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>谁将负责接收、接受和执行来自最终用户的数据隐私请求？</b> </p> </td> 
