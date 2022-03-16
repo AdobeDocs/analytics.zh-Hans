@@ -4,7 +4,7 @@ title: 管理工具
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 >
 >请不要在同一个浏览器中打开多个“管理员”选项卡。这可能导致您无意中将设置保存到错误的报表包。例如，如果您需要比较规则集并将它们复制到新的报表包，我们建议您打开一个新的浏览器或抓取屏幕截图来比较规则集。
 
-+ [帐单](billing-admin.md)
++ [计费](billing-admin.md)
 + [机器人规则概述](bot-removal/bot-rules.md)
 + [代码管理器](code-manager-admin.md)
 + [转化变量 (eVar)](conversion-var-admin/conversion-var-admin.md)
@@ -34,16 +34,16 @@ ht-degree: 100%
 + [日志](logs.md)
 + [营销渠道](marketing-channels-admin.md)
 + [菜单自定义](customize-menus.md)
-+ [量度可见性](metric-visibility.md)
-+ [移动设备管理](mobile-management.md)
++ [指标可见性](metric-visibility.md)
++ [移动管理](mobile-management.md)
 + [付费搜索检测概述](paid-search-detection/paid-search-detection.md)
 + [发布列表](publishing-list.md)
-+ [发布用构件](publishing-widgets-admin.md)
++ [发布构件](publishing-widgets-admin.md)
 + [首选项管理器](preferences-manager.md)
 + [隐私设置](privacy-settings.md)
 + [处理规则概述](c-processing-rules/processing-rules.md)
 + [实时报表概述](realtime/realtime.md)
-+ [计划报表队列](scheduled-reports-admin.md)
++ [已安排的报表队列](scheduled-reports-admin.md)
 + [服务器端转发概述](c-server-side-forwarding/ssf.md)
 + [简化的报表菜单](t-simplified-menu.md)
 + [社交管理](social-management.md)
