@@ -1,10 +1,10 @@
 ---
 title: Data Warehouse 中的组件支持
-description: 了解 Data Warehouse 中有哪些其他维度和量度可用，以及哪些维度和量度不受支持。
+description: 了解 Data Warehouse 中有哪些其他维度和指标可用以及不支持哪些维度和指标。
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ Data Warehouse 的独特处理架构，可支持某些通常情况下在 Adobe A
 
 ## Data Warehouse 的特有组件
 
-某些维度和量度在 Data Warehouse 中可用，但无法用于 Adobe Analytics 中的其他功能。
+某些维度和指标在 Data Warehouse 中可用，但无法用于 Adobe Analytics 中的其他功能。
 
 ### 专门支持的维度
 
@@ -25,26 +25,26 @@ Data Warehouse 的独特处理架构，可支持某些通常情况下在 Adobe A
 * 购买 ID：购买的唯一标识符，使用 purchaseID 变量设置。
 * 访客 ID：提供访客的唯一标识符。此值与数据馈送中的 `visid_high` 和 `visid_low` 列的拼接值相同。有关更多信息，请参阅“数据馈送”下的[数据列引用](../analytics-data-feed/c-df-contents/datafeeds-reference.md)。
 
-### 专门支持的量度
+### 专门支持的指标
 
-* 访问次数：在 Data Warehouse 上下文中，此量度不包括非永久性 Cookie 访问。
-* 访问 - 所有访客数：在 Data Warehouse 上下文中，此量度与 Adobe Analytics 内其他工具中的“访问次数”量度更接近。
+* 访问次数：在 Data Warehouse 上下文中，此指标不包括非永久性 Cookie 访问。
+* 访问 — 所有访客数：在 Data Warehouse 上下文中，此指标与 Adobe Analytics 内其他工具中的“访问次数”指标更接近。
 
 ## Data Warehouse 中不支持的组件
 
-Data Warehouse 不支持某些维度和量度。
+Data Warehouse 不支持某些维度和指标。
 
 >[!NOTE]
 >
->如果 Data Warehouse 不支持某个维度或量度，则也不支持使用这些维度或量度的区段。在创建或编辑区段时，请务必检查产品兼容性。
+>如果 Data Warehouse 不支持某个维度或指标，则也不支持使用这些维度或指标的区段。在创建或编辑区段时，请务必检查产品兼容性。
 
 ### 不支持的维度
 
 * 一些基于时间的维度，包括：
    * 上午/下午
-   * 日期
+   * 月中几号
    * 每周时间
-   * 每年的某一天
+   * 年中哪天
    * 每天时间
    * 分钟
    * 月份
@@ -57,8 +57,8 @@ Data Warehouse 不支持某些维度和量度。
    * 点击深度
    * 回访频度
    * 发生事件之前逗留的时间
-   * 页面逗留时间 - 分段统计
-   * 每次访问逗留时间 - 分段统计
+   * 页面逗留时间 — 分段统计
+   * 每次访问逗留时间 — 分段统计
    * 访问深度
 * 所有搜索页面排名
 * 层次结构变量
@@ -69,7 +69,7 @@ Data Warehouse 不支持某些维度和量度。
 * 跟踪选择退出的原因
 * 美国各州
 
-### 不支持的量度
+### 不支持的指标
 
 * 一些基于路径的指标，包括：
    * 跳出次数
@@ -77,4 +77,4 @@ Data Warehouse 不支持某些维度和量度。
    * 退出
    * 重新载入
    * 单次存取
-   * “逗留时间”量度
+   * “逗留时间”指标
