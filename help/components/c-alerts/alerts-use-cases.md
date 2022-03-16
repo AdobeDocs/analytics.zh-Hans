@@ -4,7 +4,7 @@ title: 智能警报 — 用例
 feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '92'
 ht-degree: 100%
 
@@ -28,12 +28,12 @@ Update screenshots for better readability.
 
 ![](assets/alert_selection.png)
 
-这会立即预填充警报生成器，以便使用正确的量度和过滤器创建警报：
+这会立即预填充警报生成器，以便使用正确的指标和过滤器创建警报：
 
 ![](assets/prepopulated_alert.png)
 
 ## 合并（堆叠）警报，而不是创建多个警报 {#section_B27B0856BA104B9FB6D0BBB317633F18}
 
-堆叠警报可确保警报得到合并，并且您不会收到大量单独的警报。
+堆叠警报确保合并警报，这样您就不会收到大量单独的警报。
 
 ![](assets/alerts_example2.png)
