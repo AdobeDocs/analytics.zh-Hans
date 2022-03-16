@@ -4,9 +4,9 @@ title: 我应该使用哪种 Adobe Analytics 工具？
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1169'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -58,17 +58,17 @@ ht-degree: 98%
 * 适用于要将离线数据永久写入 Adobe Analytics 的情况
 * 选项:
 
-   * 概要：按日期或有限维度显示简单数据上载
-   * 交易 ID：数据上载将在线端点与离线数据连接起来，并将导入的数据与访客在线捕获的快照完全关联（例如，在线完成并离线返回的订单）
+   * 摘要：按日期或有限维度显示简单数据上传
+   * 交易 ID：数据上传将在线端点与离线数据连接起来，并将导入的数据与访客在线捕获的快照完全关联（例如，在线完成并离线返回的订单）
    * 完全处理：像处理 Adobe 服务器收集的点击一样处理带有时间戳的数据源。例如，直接将数据插入访客历程。
 
-**[AdobeExchange集成](https://www.adobeexchange.com/experiencecloud.html)** 应使用：
+**[Adobe Exchange 集成](https://www.adobeexchange.com/experiencecloud.html)**&#x200B;应该用于：
 
-* 适用于跟已经与 Adobe Analytics 建立受支持连接的第三方提供商合作的情况。集成应用程序通常会定期将摘要级别的数据永久自动合并到Adobe Analytics中。
+* 与已建立支持的 Adobe Analytics 连接的第三方提供商开展业务的情况。集成应用程序一般不断自动地将摘要级别的数据永久纳入 Adobe Analytics。
 
 **[数据插入 API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** 的使用说明：
 
-* 适用于需要将数据上载到 Adobe Analytics，但无法使用 Adobe AppMeasurement 或移动 SDK 代码的情况。
+* 适用于需要将数据上传到 Adobe Analytics，但无法使用 Adobe AppMeasurement 或移动 SDK 代码的情况。
 
 **[批量数据插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
@@ -76,13 +76,13 @@ ht-degree: 98%
 
 **[客户属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hans)**&#x200B;的使用说明：
 
-* 适用于您在客户关系管理 (CRM) 数据库中捕获了企业客户数据，并希望将该数据上载到 Experience Cloud 的情况。
+* 适用于您在客户关系管理 (CRM) 数据库中捕获了企业客户数据，并希望将该数据上传到 Experience Cloud 的情况。
 * 适用于要在 Analytics 中使用 CRM 数据进行更深入的分析，或要在 Adobe Target 中将该数据作为定位条件的情况。
 
 **[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)** 的使用说明：
 
 * 适用于要将诸如人口统计信息（如性别或收入水平）、心理统计信息（如兴趣和爱好）、CRM 数据或广告展示数据之类的 Adobe Audience Manager (AAM) 受众数据合并到任何 Analytics 工作流程中的情况。
-* 适用于希望上载的 CRM 数据基于时间（因为此集成会按点击将新信息发送给 Analytics）的情况。
+* 适用于希望上传的 CRM 数据基于时间（因为此集成会按点击将新信息发送给 Analytics）的情况。
 
 ## 从 Adobe Analytics 导出数据 {#export}
 
