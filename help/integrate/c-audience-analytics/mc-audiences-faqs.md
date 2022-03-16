@@ -5,9 +5,9 @@ title: 常见问题解答
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1091'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：如果我的某些报表包中包含个人数据，而有些不包含，我该怎么做？</b> </p> </td> 
-   <td colname="col2"> <p>提示：创建两个维度 - 将个人数据报表包添加到其中一个维度，并将非个人数据报表包添加到另一个维度。 </p> </td> 
+   <td colname="col2"> <p>提示：创建两个维度 — 将个人数据报表包添加到其中一个维度，并将非个人数据报表包添加到另一个维度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -101,7 +101,7 @@ ht-degree: 98%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>问：为什么我在 Analytics 报表中看到“已达到受众限制”？(注：此名称还将显示为受众ID = -1和“：:max_audiences_exceeded:：”(在Data warehouse中)</b> </p> </td> 
+   <td colname="col1"> <p><b>问：为什么我在 Analytics 报表中看到“已达到受众限制”？（注意：这在 Data Warehouse 中还将表示为 Audience ID = -1 和 "::max_audiences_exceeded::"）</b> </p> </td> 
    <td colname="col2"> <p>默认情况下，AAM 的 Audience Analytics 集成会根据点击将访客有资格使用的所有区段都发送到 Analytics。如果访客在一次点击中从属于 150 个以上的 AAM 区段，则将<b>最近获得授权的 150 个区段</b>发送到 Analytics，而剩余的列表将被截断。 </p> <p>此外，还会向 Analytics 发送一个标记，指示区段列表被截断，该标记在“受众名称”维度中显示为“已达到受众限制”，在“受众 ID”维度中显示为“-1”。 </p> <p>虽然访客不太可能在一次点击中有资格使用 150 个以上的区段，但这种情况依然有极小的概率发生。如果您在报表中遇到“已达到受众限制”，可选择以下两个选项： </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>选项 1</b>：继续让集成保持现有工作状态，这会为特定访客发送最近获得授权的 150 个区段。 </li> 
@@ -121,7 +121,7 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>问：如果我实施了旧版 SSF，我还需要转至 Analytics 管理员，开启报表包 SSF 吗？</b> </p> </td> 
-   <td colname="col2"> <p>可以。在 AAM 目标设置中，您将只会看到开启了 SSF 的报表包。 </p> </td> 
+   <td colname="col2"> <p>是的。在 AAM 目标设置中，您将只会看到开启了 SSF 的报表包。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：为何我无法在 Analytics 管理员中为某些报表包开启 SSF？</b> </p> </td> 
