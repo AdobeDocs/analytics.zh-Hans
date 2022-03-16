@@ -1,12 +1,12 @@
 ---
 description: 添加日历事件和管理共享事件的步骤。
-title: 日历事件
-feature: Reports & Analytics 基础知识
+title: 日历事件概述
+feature: Reports & Analytics Basics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 exl-id: 5765b377-bdad-41a7-8277-b9fd521c12bd
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: ht
-source-wordcount: '341'
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+workflow-type: tm+mt
+source-wordcount: '339'
 ht-degree: 100%
 
 ---
