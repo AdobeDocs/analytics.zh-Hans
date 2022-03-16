@@ -5,9 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: a7bd6cdb-397a-45ba-88ff-c3b3c7062005
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,4 +27,4 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->如果将计划报表发送给多个发布列表，则报表针对每个列表运行一次。可变报表包由分配给发布列表的报表包替换。
+>如果将已安排的报表发送到多个发布列表，则对于每个列表运行一次报表。可变报表包被替换为分配给发布列表的报表包。
