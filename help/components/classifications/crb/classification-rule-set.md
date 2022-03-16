@@ -4,7 +4,7 @@ title: 分类规则集
 feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '395'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>状态 </p> </td> 
-   <td colname="col2"> 显示规则集的活动状态，如“草稿”或“活动”。活动规则每天进行处理，通常每月检查一次返回的分类数据。规则会自动检查新值，并上载分类。 </td> 
+   <td colname="col2"> 显示规则集的活动状态，如“草稿”或“活动”。活动规则每天进行处理，通常每月检查一次返回的分类数据。规则会自动检查新值，并上传分类。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>上次更改 </p> </td> 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 ## 创建分类规则集 {#create-classification-rule-set}
 
-命名分类规则集，应用变量并指定覆盖设置。
+为分类规则集命名、应用变量并指定覆盖设置。
 
 1. （前提条件）在&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**&#x200B;中定义分类结构。
 
