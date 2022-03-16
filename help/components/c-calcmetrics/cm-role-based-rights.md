@@ -4,9 +4,9 @@ title: 计算指标：基于角色的权限
 feature: Calculated Metrics
 exl-id: 018d9ef5-5a6f-4ebc-a241-c1291ba6b561
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '251'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 90%
  <tbody> 
   <tr> 
    <td colname="col1"> <b>管理员级别的用户</b> </td> 
-   <td colname="col02"> 管理员可以创建计算量度，也可以在Admin Console中创建产品配置文件，以限制用户创建计算量度的权限。 </td> 
-   <td colname="col2"> 可与整个公司、用户组和个人用户进行共享。 </td> 
-   <td colname="col3"> <span class="keyword">Reports &amp; Analytics</span>：可以对他们自己以及其他用户的计算量度执行查看/编辑/删除等操作。 <p> <span class="keyword">Report Builder</span>：可查看/编辑/删除/等等自身的计算指标和与他共享的计算指标。 </p> </td> 
+   <td colname="col02"> 管理员可创建计算指标以及在 Admin Console 中创建产品配置文件以限制用户创建计算指标的权利。 </td> 
+   <td colname="col2"> 可与整个公司、用户组和个别用户共享。 </td> 
+   <td colname="col3"> <span class="keyword">Reports &amp; Analytics</span>：可以对他们自己以及其他用户的计算指标执行查看/编辑/删除等操作。 <p> <span class="keyword">Report Builder</span>：可查看/编辑/删除/等等自身的计算指标和与他共享的计算指标。 </p> </td> 
    <td colname="col4"> 可以批准计算指标作为规范。 </td> 
    <td colname="col5"> 可以在整个组织内应用任何计算指标。 </td> 
   </tr> 
