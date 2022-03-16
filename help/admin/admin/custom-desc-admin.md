@@ -4,7 +4,7 @@ title: 自定义报表描述
 feature: Admin Tools
 exl-id: f9bcd01c-acca-47a4-b9b5-751b3068a5ad
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '113'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 大多数传统分类都能添加描述，但目前移动设备分类无法添加描述。
+>对于大多数传统分类可添加描述，但目前对于移动分类无法添加描述。
 
 ![](assets/report_descriptions.png)
 
