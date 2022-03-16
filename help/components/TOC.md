@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
-user-guide-description: 使用区段、计算量度、虚拟报表包、警报、营销渠道、分类等组件帮助管理数据，并了解跨设备分析。
+user-guide-description: 帮助您使用区段、计算指标、虚拟报表包、警报、营销渠道、分类等组件管理您的数据，并了解跨设备分析。
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ ht-degree: 95%
    + [国家/地区](dimensions/countries.md)
    + [自定义链接](dimensions/custom-link.md)
    + [客户忠诚度](dimensions/customer-loyalty.md)
-   + [每月的某一日](dimensions/day-of-month.md)
+   + [月中几号](dimensions/day-of-month.md)
    + [每周的某一日](dimensions/day-of-week.md)
-   + [每年的某一日](dimensions/day-of-year.md)
+   + [年中哪天](dimensions/day-of-year.md)
    + [日](dimensions/day.md)
    + [首次购买间隔天数](dimensions/days-before-first-purchase.md)
    + [上次购买间隔天数](dimensions/days-since-last-purchase.md)
@@ -199,7 +199,7 @@ ht-degree: 95%
       + [计算指标总计](c-calcmetrics/cm-totals.md)
 + 虚拟报表包 {#virtual-report-suites}
    + [虚拟报表包概述](vrs/vrs-about.md)
-   + [虚拟报表包 - 组件管理](vrs/vrs-components.md)
+   + [虚拟报表包 — 组件管理](vrs/vrs-components.md)
    + [Mobile Services 中的 VRS 支持](vrs/vrs-mobile-services.md)
    + [上下文感知会话](vrs/vrs-mobile-visit-processing.md)
    + [报表时间处理](vrs/vrs-report-time-processing.md)
@@ -228,7 +228,7 @@ ht-degree: 95%
 + 分类{#classifications}
    + [分类概述](classifications/c-classifications.md)
    + 分类导入器 {#classifications-importer}
-      + [分类导入器 - 概述](classifications/importer/c-working-with-saint.md)
+      + [分类导入器 — 概述](classifications/importer/c-working-with-saint.md)
       + [分类数据文件](classifications/importer/c-saint-data-files.md)
       + [删除分类数据](classifications/importer/t-delete-classification-data.md)
       + [转义分类数据](classifications/importer/t-classifications-escape-data.md)
@@ -255,7 +255,7 @@ ht-degree: 95%
    + [配置实时报表](c-real-time-reporting/t-realtime-admin.md)
    + [受支持的实时指标和维度](c-real-time-reporting/realtime-metrics.md)
 + 营销渠道 {#marketing-channels}
-   + [营销渠道快速入门](c-marketing-channels/c-getting-started-mchannel.md)
+   + [《营销渠道快速入门》](c-marketing-channels/c-getting-started-mchannel.md)
    + [Attribution IQ 和营销渠道](c-marketing-channels/mchannel-best-practices.md)
    + [管理营销渠道](c-marketing-channels/c-channels.md)
    + [营销渠道的处理规则](c-marketing-channels/c-rules.md)
