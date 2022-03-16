@@ -4,9 +4,9 @@ description: 页面名称。
 feature: Dimensions
 exl-id: 579963c8-8460-425f-b716-3b30d7a259af
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 88%
 
 ## 使用数据填充此维度
 
-此维度从 [`pageName` 查询字符串](/help/implement/validate/query-parameters.md) in [页面查看调用(`t()`)](/help/implement/vars/functions/t-method.md). [链接跟踪调用 (`tl()`)](/help/implement/vars/functions/tl-method.md) 始终剥离此维度，即使存在 `pageName` 查询字符串。
+此维度从[页面查看调用 (`t()`)](/help/implement/vars/functions/t-method.md) 中的 [`pageName` 查询字符串](/help/implement/validate/query-parameters.md)检索数据。[链接跟踪调用 (`tl()`)](/help/implement/vars/functions/tl-method.md) 始终剥离此维度，即使存在 `pageName` 查询字符串也是如此。
 
-AppMeasurement 使用 [`pageName`](/help/implement/vars/page-vars/pagename.md) 变量收集此数据。如果 `pageName` 变量，它会返回使用 [`pageURL`](/help/implement/vars/page-vars/pageurl.md) 变量。
+AppMeasurement 使用 [`pageName`](/help/implement/vars/page-vars/pagename.md) 变量收集此数据。如果未定义 `pageName` 变量，则它回退为使用 [`pageURL`](/help/implement/vars/page-vars/pageurl.md) 变量。
 
 ## 维度项目
 
@@ -28,4 +28,4 @@ AppMeasurement 使用 [`pageName`](/help/implement/vars/page-vars/pagename.md) �
 
 >[!NOTE]
 >
->在 Reports &amp; Analytics 中，转化量度使用此维度的线性归因。例如，收入在 `purchase` 事件之前的访问中查看的所有页面之间进行拆分。Analysis Workspace 默认使用上一个归因，并且可以选择使用任何归因模型。
+>在 Reports &amp; Analytics 中，转化指标使用此维度的线性归因。例如，收入在 `purchase` 事件之前的访问中查看的所有页面之间进行拆分。Analysis Workspace 默认使用上一个归因，并且可以选择使用任何归因模型。
