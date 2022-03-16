@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: a63137b8-deeb-4865-9be9-322416b00186
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '473'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 98%
 
 创建、管理和查看报表包中数据源的使用情况。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 数据源]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 数据源]**。
 
 ## “创建”选项卡 {#section_74603FDA3D8842E49F1A51624A06DE20}
 
-“[!UICONTROL 创建]”选项卡允许您为当前选中的报表包配置新的数据源。在激活数据源后，“[!UICONTROL 数据源向导]”会引导您完成创建数据源模板的过程，然后为上载数据创建一个 FTP 位置。
+[!UICONTROL 创建]选项卡允许您为当前选中的报表包配置新的数据源。在激活数据源后，[!UICONTROL 数据源向导]会引导您完成创建数据源模板的过程，然后为上传数据创建一个 FTP 位置。
 
 您在“创建”选项卡中所做的选择决定了所创建模板中的初始字段。请参阅[生成导入文件模板](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md)。
 
@@ -78,4 +78,4 @@ ht-degree: 98%
 
 ## “文件日志”选项卡 {#section_B7AC7EE8CAD740A59DD53CF1919373F0}
 
-文件日志包含搜索功能，它允许您通过数据源名称、数据源类型、文件名、接收日期或状态来搜索相关信息。
+“文件日志”选项卡包括一个搜索功能，可按数据源名称、数据源类型、文件名、接收日期或状态搜索信息。
