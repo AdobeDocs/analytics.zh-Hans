@@ -6,7 +6,7 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 3d56ca3f-6c45-48d0-bbd2-53d6babfbb83
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '179'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 ## FTP {#section_0E70022648F94061AF5B4AD6C7145243}
 
-您可以通过市场营销报表创建和管理基于 FTP 的数据源，它可使用 FTP 文件传输将数据文件导入数据源。在创建数据源之后，Adobe 会为您提供一个 FTP 位置，可供您上载数据源文件。上载完成之后，数据源可自动查找并处理这些数据源文件。处理完成之后，相关数据即可用于市场营销报表。
+您可以通过市场营销报表创建和管理基于 FTP 的数据源，它可使用 FTP 文件传输将数据文件导入数据源。在创建数据源之后，Adobe 会为您提供一个 FTP 位置，可供您上传数据源文件。上传完成之后，数据源可自动查找并处理这些数据源文件。处理完成之后，相关数据即可用于市场营销报表。
 
 ## API {#section_65DACC9CE00C437BBFDD02D19C25A4BD}
 
