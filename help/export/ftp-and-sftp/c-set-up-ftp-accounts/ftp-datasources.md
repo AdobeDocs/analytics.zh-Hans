@@ -5,7 +5,7 @@ title: 数据源
 feature: FTP Export
 exl-id: 777917bd-bd11-4360-a149-e4fd0bb2f99e
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '450'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 您可以使用 Analytics 创建和管理基于 FTP 的数据源，它可以利用 FTP 文件传输将离线数据或历史数据导入 Experience Cloud。
 
-在创建数据源实例后，该工具会提供一个可用来上载数据源文件的 FTP 位置。上载完成之后，Data Sources 可自动查找并处理这些数据源文件。在文件经过处理后，该数据即可用于 Analytics 报表。
+在创建数据源实例后，该工具会提供一个可用来上传数据源文件的 FTP 位置。上传完成之后，Data Sources 可自动查找并处理这些数据源文件。在文件经过处理后，该数据即可用于 Analytics 报表。
 
 您可以通过数据源管理器中的“[!UICONTROL 创建]”选项卡为选定报表包配置新的数据源实例。“[!UICONTROL 数据源向导]”可引导您完成创建数据源模板的过程，然后为上传数据创建一个 FTP 位置。
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 有关 FTP 限制和数据保留的信息，请参阅 [FTP 限制和数据保留](/help/export/ftp-and-sftp/ftp-limits.md)。
 
-## 关于分类和数据源上传时使用的 .fin 文件 {#section_1484719F8A134EAE91212DBD8F15174F}
+## 关于用于分类和上传数据源的 .fin 文件 {#section_1484719F8A134EAE91212DBD8F15174F}
 
 在上传分类或[!UICONTROL 数据源]文件（[!DNL .tab] 或 [!DNL .txt]）时，还要求您上传一个与正在导入的数据文件完全同名，但具有 [!DNL .fin] 扩展名的空白文件。此 [!DNL .fin] 文件是一个完成文件。此文件的作用是告诉系统该数据文件已完全上传到 FTP 帐户。[!DNL .fin] 文件可让 Adobe 知道您已完成导入。在提交之后，Adobe 会从 FTP 上删除这两个文件，并开始处理导入。导入文件: [!DNL Classifications.tab]
 
