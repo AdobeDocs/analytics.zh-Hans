@@ -4,8 +4,8 @@ title: 关于更改事件类型
 feature: Event
 exl-id: 6972431a-bb42-4b7f-b02b-ceef0ff56271
 source-git-commit: d8603ddd6cee2ccc930281003d9ff1befa15c95c
-workflow-type: tm+mt
-source-wordcount: '43'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
