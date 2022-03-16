@@ -1,12 +1,12 @@
 ---
-description: “概述”页面，用于配置设置并应用于您的组织管理的所有报表包。
+description: “概述”页面，用于配置适用于受您组织管理的所有报表包的设置。
 title: 公司设置概述
 feature: Company Settings
 exl-id: 3c86288a-817f-42da-90f9-b5220a2c2c23
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '63'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
