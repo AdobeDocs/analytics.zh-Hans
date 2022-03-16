@@ -4,7 +4,7 @@ description: 描述什么是哈希冲突以及它是如何体现的。
 feature: Validation
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '443'
 ht-degree: 100%
 
@@ -59,15 +59,15 @@ Adobe 会将 prop 和 eVar 值视为字符串，即使这个值是一个数字�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> 值99 </p> </td> 
+   <td colname="col1"> <p> Value 99 </p> </td> 
    <td colname="col2"> <p> 111 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b> 值100</b> </p> </td> 
+   <td colname="col1"> <p> <b> Value 100</b> </p> </td> 
    <td colname="col2"> <p> <b> 123</b> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> 值101 </p> </td> 
+   <td colname="col1"> <p> Value 101 </p> </td> 
    <td colname="col2"> <p> 222 </p> </td> 
   </tr> 
   <tr> 
