@@ -1,11 +1,11 @@
 ---
-description: 描述如何将过滤器应用到流失报表的步骤。
+description: 描述将过滤器应用于流失报表所涉及的各个步骤。
 title: 使用请求向导过滤流失报表
 feature: Report Builder
 role: User, Admin
 exl-id: 6134d7d4-7287-4a83-92b6-d250ca15cf69
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 使用请求向导过滤流失报表
 
-描述如何将过滤器应用到流失报表的步骤。
+描述将过滤器应用于流失报表所涉及的各个步骤。
 
 此示例显示了页面流失报表。
 
