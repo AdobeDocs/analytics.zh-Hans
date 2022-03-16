@@ -4,9 +4,9 @@ title: 未从源报表包复制的设置
 feature: Report Suite Settings
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 95%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>分类数据（复制分类结构） </p> </td> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=zh-Hans"> 分类导入器（上载）文档</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html"> 分类导入器（上传）文档</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>启用交易 ID 记录 </p> </td> 
