@@ -1,12 +1,12 @@
 ---
-description: Adobe Analytics 数据源允许您手动导入其他在线或离线数据以便进行报告。
-title: 什么是数据源，它们如何为我带来好处？
+description: 通过 Adobe Analytics 数据源，可手动导入其他在线或离线数据以供制作报表。
+title: 数据源是什么及其如何使我受益？
 feature: Data Sources
 exl-id: 8e695f0a-06b7-4aac-8917-318ae80ce1ec
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Analytics 数据源允许您手动导入其他在线或离线数据以便�
 
 * 产品成本
 * 呼叫中心信息
-* 退货
+* 产品退货
 * 商机
 * 网络日志
 
@@ -36,4 +36,4 @@ Adobe Analytics 数据源允许您手动导入其他在线或离线数据以便�
 >
 >为了让交易 ID 数据源将离线数据与在线事件相关联，客户关怀团队必须启用“交易 ID 记录”。请参阅[交易 ID 记录](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)，以了解更多信息。
 
-导入后，大多数数据源数据在整个Adobe Experience Cloud中都可用。
+导入后，即可通过 Adobe Experience Cloud 找到大多数“数据源”数据。
