@@ -5,7 +5,7 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '718'
 ht-degree: 100%
 
@@ -26,9 +26,9 @@ ht-degree: 100%
 
 ## 访客资料 {#section_6065627D0C144506965F562C80AE67F8}
 
-完全处理数据源数据使用单独的访客资料进行处理，因此即使上载数据中的访客 ID 与使用 JavaScript 或其他 AppMeasurement 库收集的数据匹配，访客资料也不会通过 eVar 分配进行关联。
+完全处理数据源数据使用单独的访客资料进行处理，因此即使上传数据中的访客 ID 与使用 JavaScript 或其他 AppMeasurement 库收集的数据匹配，访客资料也不会通过 eVar 分配进行关联。
 
-例如，访客 ID 为 `"user@example.com"` 的用户通过名为“春季促销”的市场营销活动访问您的网站，该活动存储在营销活动变量中。如果您稍后使用相同的访客 ID 上载一个交易，则“春季促销”活动不会收到使用完全处理数据源上载的任何收入或成功事件的积分。
+例如，访客 ID 为 `"user@example.com"` 的用户通过名为“春季促销”的市场营销活动访问您的网站，该活动存储在营销活动变量中。如果您稍后使用相同的访客 ID 上传一个交易，则“春季促销”活动不会收到使用完全处理数据源上传的任何收入或成功事件的积分。
 
 ## 列引用 {#section_92BAE76639E3404E97276B1BE0581078}
 
@@ -43,12 +43,12 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>campaign </p> </td> 
-   <td colname="col2"> <p>营销活动 </p> </td> 
+   <td colname="col2"> <p>campaign </p> </td> 
    <td colname="col3"> <p>转化营销活动跟踪代码。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>channel </p> </td> 
-   <td colname="col2"> <p>频道 </p> </td> 
+   <td colname="col2"> <p>channel </p> </td> 
    <td colname="col3"> <p>渠道字符串（例如，体育专栏）。 </p> </td> 
   </tr> 
   <tr> 
@@ -64,11 +64,11 @@ ht-degree: 100%
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
    <td colname="col2"> <p>eVar<i>N</i>，例如 &lt;eVar2&gt;…&lt;/eVar2&gt; </p> </td> 
-   <td colname="col3"> <p>转化 eVar 名称。您最多可有 75 个 eVar (<span class="varname">eVar1</span> - <span class="varname">eVar75</span>)。 </p> <p>您可以指定 eVar 名称 (eVar12) 或一个易记名称（广告活动 3）。 </p> </td> 
+   <td colname="col3"> <p>转化 eVar 名称。您最多可有 75 个 eVar (<span class="varname">eVar1</span> — <span class="varname">eVar75</span>)。 </p> <p>您可以指定 eVar 名称 (eVar12) 或一个易记名称（广告活动 3）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
-   <td colname="col2"> <p>事件 </p> </td> 
+   <td colname="col2"> <p>events </p> </td> 
    <td colname="col3"> <p>事件字符串，使用与 <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=zh-Hans"  >s.events</a> 变量相同的语法进行格式设置。 </p> <p>例如： </p> 
     <code>
       scAdd,event1,event7 
@@ -77,7 +77,7 @@ ht-degree: 100%
   <tr> 
    <td colname="col1"> <p>hier<i>N</i> </p> </td> 
    <td colname="col2"> <p>hier<i>N</i>，例如 &lt;hier2&gt;…&lt;/hier2&gt; </p> </td> 
-   <td colname="col3"> <p>层级名称。您最多可有 5 个层级 (<span class="varname">hier1</span> - <span class="varname">hier5</span>)。 </p> <p>您可以指定默认的层级名称 (<span class="varname">hier2</span>) 或一个易记名称（<span class="term">北方人</span>）。 </p> </td> 
+   <td colname="col3"> <p>层级名称。您最多可有 5 个层级 (<span class="varname">hier1</span>-<span class="varname">hier5</span>)。 </p> <p>您可以指定默认的层级名称 (<span class="varname">hier2</span>) 或一个易记名称（<span class="term">北方人</span>）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkName </p> </td> 
@@ -116,11 +116,11 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
-   <td colname="col2"> <p>产品 </p> </td> 
+   <td colname="col2"> <p>products </p> </td> 
    <td colname="col3"> <p>产品列表（例如，<code> "Sports;Ball;1;5.95"</code>）。每行最多可容纳 4096 字节的值。</p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>prop1 - prop75 </p> </td> 
+   <td colname="col1"> <p>prop1-prop75 </p> </td> 
    <td colname="col2"> <p>prop<i>N</i>，例如 &lt;prop2&gt;…&lt;/prop2&gt; </p> </td> 
    <td colname="col3"> <p>属性编号字符串（例如<span class="term">体育区域</span>）。 </p> </td> 
   </tr> 
@@ -136,7 +136,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>server </p> </td> 
-   <td colname="col2"> <p>服务器 </p> </td> 
+   <td colname="col2"> <p>server </p> </td> 
    <td colname="col3"> <p>服务器字符串。 </p> </td> 
   </tr> 
   <tr> 
@@ -216,11 +216,11 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>homePage </p> </td> 
-   <td colname="col2"> <p>Y 或 N - 当前页面是否为访客的主页。 </p> </td> 
+   <td colname="col2"> <p>Y 或 N — 当前页面是否为访客的主页。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>javaEnabled </p> </td> 
-   <td colname="col2"> <p>Y 或 N - 访客是否已启用 Java。 </p> </td> 
+   <td colname="col2"> <p>Y 或 N — 访客是否已启用 Java。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>javaScriptVersion </p> </td> 
