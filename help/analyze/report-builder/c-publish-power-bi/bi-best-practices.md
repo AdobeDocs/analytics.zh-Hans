@@ -1,19 +1,19 @@
 ---
-description: Power BI最佳实践。
+description: Power BI 最佳实践。
 title: 最佳实践
 feature: Report Builder
 role: User, Admin
 exl-id: 2d9447f4-77ac-465b-af93-206dc3ea80f7
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # 最佳实践
 
-## 保留 Power BI 可视化中的引用 {#section_7ED14FE64D974681A57EB91EF1B47CB6}
+## 在 Power BI 可视化效果中保留引用 {#section_7ED14FE64D974681A57EB91EF1B47CB6}
 
 创建请求后，该请求将始终在 Power BI 中具有相同的引用。但如果您删除请求，该引用将由您为同一维度创建的新请求使用。
 
