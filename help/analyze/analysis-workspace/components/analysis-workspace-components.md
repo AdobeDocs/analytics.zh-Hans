@@ -1,11 +1,11 @@
 ---
-description: 'Analysis Workspace 中的组件包括维度、量度、区段和日期范围，您可以将这些组件拖放到项目中。 '
+description: 'Analysis Workspace 中的组件包括维度、指标、区段和日期范围，您可以将这些组件拖放到项目中。 '
 title: 组件概述
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 组件概述
 
-Analysis Workspace 中的组件包括维度、量度、区段和日期范围，您可以将这些组件拖放到项目中。
+Analysis Workspace 中的组件包括维度、指标、区段和日期范围，您可以将这些组件拖放到项目中。
 
 要访问“组件”菜单，请单击左边栏中的&#x200B;**[!UICONTROL 组件]**&#x200B;图标。您可以从左边栏在[面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hans)、[可视化图表](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hans)和组件之间切换，也可以使用[快捷键](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)。
 
@@ -33,19 +33,19 @@ Analysis Workspace 中的组件包括维度、量度、区段和日期范围，�
 
 ![](assets/dimensions.png)
 
-## 量度 {#metrics}
+## 指标 {#metrics}
 
-[**量度**](https://experienceleague.adobe.com/docs/analytics/components/metrics/overview.html?lang=zh-Hans)是有关访客行为的量化指标。它们可以在左侧的“组件”边栏（绿色部分）中找到，通常作为表中的列。
+[**指标**](https://experienceleague.adobe.com/docs/analytics/components/metrics/overview.html?lang=zh-Hans)是有关访客行为的量化指标。它们可以在左侧的“组件”边栏（绿色部分）中找到，通常作为表中的列。
 
-量度的示例包括[!UICONTROL 页面查看数]、[!UICONTROL 访问]、[!UICONTROL 订单]、[!UICONTROL 平均用时]和[!UICONTROL 收入/订单]。量度由 Adobe 提供、通过自定义实施来捕获（[!UICONTROL 成功事件]）或者使用[计算量度生成器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=zh-Hans)创建。
+指标的示例包括[!UICONTROL 页面查看数]、[!UICONTROL 访问]、[!UICONTROL 订单]、[!UICONTROL 平均用时]和[!UICONTROL 收入/订单]。指标由 Adobe 提供、通过自定义实施来捕获（[!UICONTROL 成功事件]）或者使用[计算指标生成器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=zh-Hans)创建。
 
 ![](assets/metrics.png)
 
 ## 区段 {#segments}
 
-[**区段**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html?lang=zh-Hans)是应用到分析的受众过滤器。它们可以在左侧的“组件”边栏（蓝色部分）中找到，通常位于面板的顶部或者在表中量度列的上方。
+[**区段**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html?lang=zh-Hans)是应用到分析的受众过滤器。它们可以在左侧的“组件”边栏（蓝色部分）中找到，通常位于面板的顶部或者在表中指标列的上方。
 
-区段的示例包括[!UICONTROL 移动设备访客]、[!UICONTROL 来自电子邮件的访问]和[!UICONTROL 经验证的点击]。区段由 Adobe 提供、在[面板拖放区域](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html)中创建或者使用[区段生成器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hans)创建。
+区段的示例包括[!UICONTROL 移动设备访客]、[!UICONTROL 来自电子邮件的访问]和[!UICONTROL 经验证的点击]。区段由 Adobe 提供、在[面板拖放区域](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hans)中创建或者使用[区段生成器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hans)创建。
 
 ![](assets/segments.png)
 
@@ -53,7 +53,7 @@ Analysis Workspace 中的组件包括维度、量度、区段和日期范围，�
 
 [**日期范围**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html?lang=zh-Hans)是您进行分析时使用的日期的范围。它们可以在左侧的“组件”边栏（紫色部分）中找到，通常用于各个面板的日历中。
 
-日期范围的示例包括 2019 年 7 月、[!UICONTROL 过去 4 周]和[!UICONTROL 本月]。日期范围由 Adobe 提供、在[面板日历](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html)中应用或者使用[日期范围生成器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=zh-Hans)创建。
+日期范围的示例包括 2019 年 7 月、[!UICONTROL 过去 4 周]和[!UICONTROL 本月]。日期范围由 Adobe 提供、在[面板日历](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hans)中应用或者使用[日期范围生成器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=zh-Hans)创建。
 
 ![](assets/date-ranges.png)
 
@@ -68,7 +68,7 @@ Analysis Workspace 中的组件包括维度、量度、区段和日期范围，�
 | 标记 | 通过对组件应用标记来组织或管理组件。然后，您可以通过单击过滤器或者键入 # 在左边栏中按标记搜索。标记在组件管理器中也可用作过滤器。 |
 | 收藏 | 将组件添加到您的收藏夹列表中。与标记相似，您可在左边栏中按“收藏”进行搜索，然后在组件管理器中对其进行过滤。 |
 | 批准 | 将组件标记为“已批准”可告知用户该组件得到了组织的批准。与标记相似，您可在左边栏中按“已批准”进行搜索，然后在组件管理器中对其进行过滤。 |
-| 共享 | 将组件与组织中的用户共享。此选项仅对自定义组件可用，例如区段或计算量度。 |
-| 删除 | 删除不再需要的组件。此选项仅对自定义组件可用，例如区段或计算量度。 |
+| 共享 | 将组件与组织中的用户共享。此选项仅对自定义组件可用，例如区段或计算指标。 |
+| 删除 | 删除不再需要的组件。此选项仅对自定义组件可用，例如区段或计算指标。 |
 
 自定义组件也可通过其相应的组件管理器进行管理。例如，[区段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)。
