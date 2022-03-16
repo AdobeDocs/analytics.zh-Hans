@@ -4,7 +4,7 @@ title: “服务器调用使用情况”警报
 feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
 ht-degree: 100%
 
@@ -49,8 +49,8 @@ ht-degree: 100%
    * **过期日期**：默认情况下，警报会在创建日期一年以后过期。
    * **发送警报时间**：
 
-      * 以下任何一个量度触发器
-添加服务器调用类型作为量度，然后选择限定条件以及阈值，从而指定警报触发条件：
+      * 以下任何一个指标触发器
+添加服务器调用类型作为指标，然后选择限定条件以及阈值，从而指定警报触发条件：
          * 大于或等于
          * 小于或等于
       * 且
