@@ -5,7 +5,7 @@ feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 >
 >切勿篡改控件的名称。（要查看名称，请将焦点置于控件上，此时控件名称便会出现在左上角 Excel 网格的正上方。）
 
-## 实施交互日期范围控件 {#section_39B228F2D2C44985863D31424C953280}
+## 实现交互式日期范围控件 {#section_39B228F2D2C44985863D31424C953280}
 
 1. 在“请求向导”的第 1 步中，例如，选择&#x200B;**[!UICONTROL 页面]**&#x200B;报表。
 1. 在&#x200B;**[!UICONTROL 常用日期]**&#x200B;下拉列表的旁边，单击&#x200B;**[!UICONTROL 控件设置]**&#x200B;图标：
@@ -63,7 +63,7 @@ ht-degree: 100%
       >
       >您可以使用本机 Microsoft Excel“剪切”/“复制”/“粘贴”控件功能。Report Builder 会自动识别新添加的控件。
 
-## 实施交互区段控件 {#section_5003D3F724644280BF1BCD6E1B0CB784}
+## 实现交互式区段控件 {#section_5003D3F724644280BF1BCD6E1B0CB784}
 
 实施交互区段控件与实施日期范围控件类似。
 
