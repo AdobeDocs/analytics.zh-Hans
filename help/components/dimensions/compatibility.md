@@ -4,7 +4,7 @@ description: Analytics 维度和报表的参考。
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '985'
 ht-degree: 100%
 
@@ -85,19 +85,19 @@ ht-degree: 100%
 | 搜索引擎 | `searchengine` |
 | 搜索关键词 | `searchenginekeyword` |
 | 搜索引擎 - 免费 | `searchenginenatural` |
-| 搜索引擎 - 付费 | `searchenginepaid` |
-| 搜索关键词 - 免费 | `searchenginenaturalkeyword` |
-| 搜索关键词 - 付费 | `searchenginepaidkeyword` |
+| 搜索引擎 — 付费 | `searchenginepaid` |
+| 搜索关键词 — 免费 | `searchenginenaturalkeyword` |
+| 搜索关键词 — 付费 | `searchenginepaidkeyword` |
 | 所有搜索页面排名 | `searchenginepagerank` |
 | 服务器 | `server` |
 | 单页面访问量 | `singlepagevisits` |
 | 网站区域 | `sitesections` |
-| 每次访问逗留时间 - 粒度 | `sitetime` |
+| 每次访问逗留时间 — 粒度 | `sitetime` |
 | 跟踪代码 | `campaign` |
 | 美国 DMA | `geodma` |
 | 美国各州 | `state` |
 | 发生事件之前逗留的时间 | `timeprior` |
-| 每次访问逗留时间 - 分段统计 | `timespent` |
+| 每次访问逗留时间 — 分段统计 | `timespent` |
 | 访问深度 | `pathlength` |
 | 访问量 | `visitnumber` |
 | 邮政编码 | `zip` |
@@ -107,13 +107,13 @@ ht-degree: 100%
 | 维度名称（在 Analytics UI 中可见） | 维度 ID（用于 API 请求） |
 |--- |--- |
 | 上午/下午 | `timepartampm` |
-| 浏览器高度 - 分段统计 | `browserheightbucketed` |
-| 浏览器宽度 - 分段统计 | `browserwidthbucketed` |
+| 浏览器高度 — 分段统计 | `browserheightbucketed` |
+| 浏览器宽度 — 分段统计 | `browserwidthbucketed` |
 | 日 | `daterangeday` |
-| 日期 | `timepartdayofmonth` |
+| 月中几号 | `timepartdayofmonth` |
 | 每周时间 | `dayofweek` |
 | 每周时间 | `timepartdayofweek` |
-| 每年的某一天 | `timepartdayofyear` |
+| 年中哪天 | `timepartdayofyear` |
 | 上次访问间隔天数 | `dayssincelastvisit` |
 | 登录自定义分析 | `entryprops` |
 | 登录列表变量 | `entrylistvariables` |
@@ -146,8 +146,8 @@ ht-degree: 100%
 | 季度 | `daterangequarter` |
 | 季度 | `timepartquarterofyear` |
 | 调查 | `surveybase` |
-| 页面逗留时间 - 分段统计 | `averagepagetime` |
-| 页面逗留时间 - 粒度 | `pagetimeseconds` |
+| 页面逗留时间 — 分段统计 | `averagepagetime` |
+| 页面逗留时间 — 粒度 | `pagetimeseconds` |
 | 跟踪选择退出的原因 | `optoutreason` |
 | 工作日/周末 | `timepartweekdayweekend` |
 | 周 | `daterangeweek` |
@@ -252,7 +252,7 @@ ht-degree: 100%
 | 拥有的定义属性和帖子 | `socialowneddefinitionpropertyvspost` |
 | 拥有的定义分析类型 | `socialowneddefinitioninsighttype` |
 | 拥有的定义分析值 | `socialowneddefinitioninsightvalue` |
-| 拥有的定义量度 | `socialowneddefinitionmetric` |
+| 拥有的定义指标 | `socialowneddefinitionmetric` |
 | 资产 | `socialmediaid` |
 
 ### Mobile SDK
