@@ -5,7 +5,7 @@ feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '912'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 >添加或编辑区段时，Report Builder 区段界面会在 Microsoft Internet Explorer 窗口中启动 Analytics 区段生成器。您的 Report Builder 会话将保持活动状态。此操作不支持使用 Internet Explorer 以外的浏览器。
 
 1. 在“请求向导”第 1 步的区段面板中，单击&#x200B;**[!UICONTROL 添加]**。
-1. 将启动一个 Internet Explorer 窗口，其中可打开 Analytics 区段生成器界面。有关如何构建区段的信息，请参阅 [Analytics 分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hans)。
+1. 将启动一个 Internet Explorer 窗口，其中可打开 Analytics 区段生成器界面。有关如何构建区段的信息，请参阅 [Analytics 分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)。
 1. 定义并保存区段后，返回至“请求向导”。
 1. 单击“刷新”图标以刷新区段列表。
 
@@ -34,7 +34,7 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 >
 >该列表已缓存，新建区段只有在刷新后才会出现。
 
-## 创建关联区段 {#section_6DD2C663B2854469AA1075438F907678}
+## 创建上下文区段 {#section_6DD2C663B2854469AA1075438F907678}
 
 您可能希望将特定的报表维度组合转换为区段。您可以从 Report Builder 界面创建这些区段。例如，从页面请求输出中选择一些页面，然后基于这些值创建一个区段。
 
@@ -52,7 +52,7 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 
 ## 搜索和应用区段 {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-此区段列表中会显示在 Reports &amp; Analytics、Report Builder 或 Data Warehouse 中创建的所有区段。要刷新该列表，请单击“刷新”图标 (![](assets/refresh_icon.png))。
+在此区段列表中显示任何在 Reports &amp; Analytics、Report Builder 或 Data Warehouse 中创建的区段。要刷新该列表，请单击“刷新”图标 (![](assets/refresh_icon.png))。
 
 您可以将一个或多个区段应用到任意给定请求。这包括连续区段。
 
@@ -64,7 +64,7 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 
 >[!NOTE]
 >
->不论您是否为管理员，在 Report Builder 中，您都只能查看那些您拥有的区段以及与您共享的区段。（在市场营销 Reports &amp; Analytics 用户界面中，管理员可以查看组织中的所有区段）。
+>不论您是否为管理员，在 Report Builder 中，您都只能查看那些您拥有的区段以及与您共享的区段。（在市场营销 Reports &amp; Analytics 用户界面中，管理员可查看组织中的所有区段）。
 
 ## 过滤区段 {#section_376E986D3E684999A7CDB08E53854159}
 
@@ -103,9 +103,9 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 
 ## 刷新区段列表 {#section_22E4A86789444B4A998532396B476EFB}
 
-无论您何时添加了新区段或编辑了现有区段，都应单击“刷新”图标 (![](assets/refresh_icon.png)) 以刷新缓存的区段列表。
+只要添加新区段或编辑现有区段，即应单击“刷新”图标 (![](assets/refresh_icon.png)) 以刷新缓存的区段列表。
 
-## 跨请求管理区段 {#section_C3D63FCBE1A94369A319243313B03C93}
+## 在请求间管理区段 {#section_C3D63FCBE1A94369A319243313B03C93}
 
 在 v5.4 之前，Report Builder 允许用户更改多个请求中的区段。但是，此流程始终会替换现有区段。希望向每个请求添加一个新区段的用户无法执行此操作，因为添加区段将会删除之前已分配给每个请求的区段集。
 
