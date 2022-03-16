@@ -4,7 +4,7 @@ title: 为报表包数据设置标签
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '964'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ ht-degree: 100%
    ![](assets/variables.png)
 
    * **标准维度**（Adobe Analytics 现成维度）
-   * **标准量度**（Adobe Analytics 现成量度）
+   * **标准指标**（Adobe Analytics 现成指标）
    * **转化事件**（自定义成功事件）
    * **促销转化维度**（促销 eVar）
    * **转化维度**（非推销 eVar）
@@ -45,7 +45,7 @@ ht-degree: 100%
 
    ![](assets/edit.png)
 
-1. 此时，**身份数据**&#x200B;标签对话框会自动打开。这些标签对数据进行分类，可单独使用，也可与其他数据结合使用，以识别个人或能够用来与个人直接联系。有关这些选项的更多信息，请参阅[身份数据标签 (DULE)。](/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels)
+1. 此时，**“身份数据”**&#x200B;标签对话框会自动打开。这些标签对数据进行分类，可单独使用，也可与其他数据结合使用，以识别个人或能够用来与个人直接联系。有关这些选项的更多信息，请参阅[身份数据标签 (DULE)。](/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels)
 
    >[!NOTE]
    >
@@ -53,17 +53,17 @@ ht-degree: 100%
 
    ![](assets/identity_labels.png)
 
-1. 打开&#x200B;**敏感数据**&#x200B;部分，以设置敏感数据标签，它可以对地理位置数据进行分类。有关这些选项的更多信息，请参阅[敏感数据标签 (DULE)。](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)
+1. 打开&#x200B;**“敏感数据”**&#x200B;部分，以设置敏感数据标签，它可以对地理位置数据进行分类。有关这些选项的更多信息，请参阅[敏感数据标签 (DULE)。](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)
 
    ![](assets/sensitive_data.png)
 
-1. 打开数据隐私“数据”部分，以设置&#x200B;**数据管理**&#x200B;标签。使用本节信息指导 Adobe 如何处理数据隐私访问和删除请求的每个变量，并且定义应该扫描哪些变量以查找这些请求的数据主体 ID。有关这些选项的更多信息，请参阅[数据管理标签（数据隐私）](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)。
+1. 打开数据隐私“数据”部分，以设置&#x200B;**“数据管理”**&#x200B;标签。使用本节信息指导 Adobe 如何处理数据隐私访问和删除请求的每个变量，并且定义应该扫描哪些变量以查找这些请求的数据主体 ID。有关这些选项的更多信息，请参阅[数据管理标签（数据隐私）](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)。
 
    ![](assets/privacy_labels.png)
 
 1. 完成所有标签设置后，请单击&#x200B;**[!UICONTROL 应用]**。
 
-## 将标签复制到报表包  {#section_7C6FDAFF049F4126B84F6261F72668EE}
+## 将标签复制到报表包 {#section_7C6FDAFF049F4126B84F6261F72668EE}
 
 如果您要将相同的 DULE/数据隐私设置应用于多个报表包，则可以执行以下步骤：
 
@@ -79,7 +79,7 @@ ht-degree: 100%
    >
    >请记住，您选择的所有报表包都必须映射到您的 Experience Cloud 组织。
 
-   将一个变量或一组变量的标签复制到不同的报表包时，复制的标签会转到目标报表包中相应位置的变量中。对于标准维度、标准量度、解决方案维度和事件以及数据处理维度，标签将被复制到目标报表包中具有&#x200B;**相同名称**&#x200B;的变量中。
+   将一个变量或一组变量的标签复制到不同的报表包时，复制的标签会转到目标报表包中相应位置的变量中。对于标准维度、标准指标、解决方案维度和事件以及数据处理维度，标签将被复制到目标报表包中具有&#x200B;**相同名称**&#x200B;的变量中。
 
    然而，对于转化变量 (eVar)、促销转化维度和自定义流量维度 (prop)，标签将被复制到目标报表包中具有&#x200B;**相同编号**&#x200B;的变量中。例如，eVar12 将被复制到所有目标报表包的 eVar12 中。在确定复制的目标时，会忽略这些变量的名称。如果相应的变量未在目标报表包中启用，则针对该变量的标签复制将会失败。
 
