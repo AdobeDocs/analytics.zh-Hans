@@ -1,12 +1,12 @@
 ---
-description: 计划Data warehouse中的请求以重复运行。
+description: 在 Data Warehouse 安排重复运行请求。
 title: 计划周期性请求
 feature: Data Warehouse
 exl-id: 8c532d14-d2bc-48e9-80a6-7741805b5aca
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '74'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 85%
 
 1. 在“[!UICONTROL 报告日期]”下，选择&#x200B;**[!UICONTROL 预设]**。
 
-1. 在“[!UICONTROL 计划提交]”下，单击&#x200B;**[!UICONTROL 高级提交选项]**。
+1. 在[!UICONTROL 计划提交]下，单击&#x200B;**[!UICONTROL 高级提交选项]**。
 
 1. 转到“计划选项”选项卡，然后选择&#x200B;**[!UICONTROL 安排以后执行]**。
-1. 为“[!UICONTROL 提交频率]”和“[!UICONTROL 结束提交选项]”选择所需的设置。
+1. 为[!UICONTROL 提交频率]和[!UICONTROL 结束提交选项]选择所需的设置。
 
    ![](assets/dw_schedule.png)
 
-1. 单击&#x200B;**[!UICONTROL 计划]**。
+1. 单击&#x200B;**[!UICONTROL 安排]**。
