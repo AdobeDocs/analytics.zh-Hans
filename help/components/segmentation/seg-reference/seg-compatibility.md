@@ -4,7 +4,7 @@ title: Data Warehouse 区段兼容性
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ ht-degree: 100%
   <tr> 
    <td> <b>顺序区段</b> </td> 
    <td> 受支持 </td> 
-   <td> 不受支持 </td> 
+   <td> 不支持 </td> 
   </tr> 
   <tr> 
    <td> <b>AND 和 OR 可自由组合不受限制</b> </td> 
@@ -62,9 +62,9 @@ ht-degree: 100%
     <ul> 
      <li>所有搜索页面排名 </li> 
      <li>上午/下午 </li> 
-     <li>日期 </li> 
+     <li>月中几号 </li> 
      <li>每周时间 </li> 
-     <li>每年的某一天 </li> 
+     <li>年中哪天 </li> 
      <li>登录业务单位 </li> 
      <li>登录（以“登录”开头的所有维度，“登录页面”除外） </li> 
      <li>退出（以“退出”开头的所有维度，“退出链接”和“退出页面”除外） </li> 
@@ -79,8 +79,8 @@ ht-degree: 100%
      <li>回访频度 </li> 
      <li>单页面访问量 </li> 
      <li>发生事件之前逗留的时间 </li> 
-     <li>页面逗留时间 - 分段统计 </li> 
-     <li>每次访问逗留时间 - 分段统计 </li> 
+     <li>页面逗留时间 — 分段统计 </li> 
+     <li>每次访问逗留时间 — 分段统计 </li> 
      <li>跟踪选择退出的原因 </li> 
      <li>美国各州 </li> 
      <li>工作日/周末 </li> 
@@ -94,7 +94,7 @@ ht-degree: 100%
   <tr>
     <td><b>“等于以下任意一项”运算符和“不等于任一项”运算符</b></td>
     <td>受支持</td>
-    <td>不受支持</td>
+    <td>不支持</td>
   </tr>
  </tbody> 
 </table>
