@@ -4,7 +4,7 @@ title: 金融服务
 feature: Report Suite Settings
 exl-id: 2ab435e2-3fc7-46f9-aee9-961f6730f3e8
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 | 自定义分析变量 | `s_code` 变量 |
 |---|---|
 | 安全/非安全 | `prop1` |
-| 流量属性 2 - 5 | `prop2, prop3, prop4, prop5` |
+| 流量属性 2-5 | `prop2, prop3, prop4, prop5` |
 
 下表包含标准商务事件的列表。在所有的报表包模板中，这些事件的初始配置相同。您无需设置 s_code 变量为“不适用”的事件，因为它们将被自动提供。
 
