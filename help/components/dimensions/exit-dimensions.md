@@ -1,19 +1,19 @@
 ---
 title: 退出维度
 description: 列出退出维度及其用法。
-keywords: 退出页面，退出网站区域，退出服务器，退出自定义分析
+keywords: 退出页面，退出站点部分，退出服务器，退出客户洞察
 feature: Dimensions
 exl-id: b2b1ee88-e5c3-44b5-8159-85ec53d20258
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # 退出维度
 
-*此帮助页介绍退出次数如何作为维度使用。有关退出次数如何作为量度使用的信息，请参阅[退出次数](../metrics/exits.md)量度。*
+*此帮助页介绍退出次数如何作为维度使用。有关退出次数如何作为指标使用的信息，请参阅[退出次数](../metrics/exits.md)指标。*
 
 退出维度记录最后一个维度项目，并将其逆向应用于访问中的所有点击。退出维度可用于在“报表包”设置中的[流量变量](/help/admin/admin/c-traffic-variables/traffic-var.md)下启用路径的所有变量。
 
