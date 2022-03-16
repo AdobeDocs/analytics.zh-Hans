@@ -1,18 +1,18 @@
 ---
-description: 如何将 Analytics 用户帐户作为 Enterprise ID 或 Federated ID 迁移到 Admin Console。
-title: 为 Enterprise ID 和 Federated ID 迁移 Analytics 用户帐户
+description: 如何将 Analytics 用户帐户迁移到 Admin Console 作为 Enterprise ID 或 Federated ID。
+title: 迁移 Analytics 用户帐户以使用 Enterprise ID 和 Federated ID
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
 source-git-commit: 0143496648e59e95c360388735def726e63ee71b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '752'
 ht-degree: 100%
 
 ---
 
-# 为 Enterprise ID 和 Federated ID 迁移 Analytics 用户帐户{#migrate-analytics-user-accounts-for-enterprise-and-federated-ids}
+# 迁移 Analytics 用户帐户以使用 Enterprise ID 和 Federated ID{#migrate-analytics-user-accounts-for-enterprise-and-federated-ids}
 
-如何将 Analytics 用户帐户作为 Enterprise ID 或 Federated ID 迁移到 Admin Console。
+如何将 Analytics 用户帐户迁移到 Admin Console 作为 Enterprise ID 或 Federated ID。
 
 ## 先决条件 {#prereqs}
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 如果其他业务部门或团队已在另一个组织中创建了目录，请按照[目录信任](https://helpx.adobe.com/cn/enterprise/using/set-up-identity.html#Directorytrusting)中的步骤，在组织中建立要用于 Analytics 的目录。
 
-## 为 Enterprise ID 和 Federated ID 迁移 用户帐户 {#task-0cfb3e4400fd4ab58e4d9704528b05fa}
+## 迁移用户帐户以使用 Enterprise ID 和 Federated ID {#task-0cfb3e4400fd4ab58e4d9704528b05fa}
 
 在此过程中，您将执行以下操作：
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 * 从 **[!UICONTROL Admin Console]** > **[!UICONTROL 用户]**&#x200B;下载当前用户列表。
 
 * 比较列表（查找重复项，以避免覆盖 Admin Console 中的帐户数据）。
-* 将包含 Enterprise ID 或 Federated ID 用户的已完成 [!DNL .csv]（从 **[!UICONTROL Admin Console]** > **[!UICONTROL 用户]**）上载到 Admin Console。
+* 将包含 Enterprise ID 或 Federated ID 用户的已完成 [!DNL .csv]（从 **[!UICONTROL Admin Console]** > **[!UICONTROL 用户]**）上传到 Admin Console。
 
 如果需要将现有的 Adobe ID 用户帐户迁移到 Enterprise ID 或 Federated ID，请联系 Adobe 客户关怀并请求[批量切换用户身份](https://helpx.adobe.com/cn/enterprise/using/bulk-operations.html)。
 
@@ -64,11 +64,11 @@ ht-degree: 100%
 
       >[!IMPORTANT]
       >
-      > CSV 文件中的值必须以逗号分隔。
+      >必须用逗号分隔该 CSV 文件中的值。
 
       >[!TIP]
       >
-      > 在此步骤中，Adobe 建议简化用户列表，以确保 Enterprise ID 或 Federated ID 迁移中只包含拥有有效电子邮件 ID 的用户。
+      >在此步骤中，Adobe 建议精简用户列表，以确保 Enterprise ID 或 Federated ID 迁移中仅包括其电子邮件 ID 有效的用户。
 
 1. 在 [!UICONTROL Admin Console] 中，下载 Admin Console 用户列表：
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 
       >[!IMPORTANT]
       >
-      > 如果您发现了重复项，请将其从 Analytics [!DNL User Logins List.csv] 文件中删除。此步骤可帮助避免覆盖 Admin Console 中的现有 Experience Cloud 用户权限，并且可为您提供要迁移的帐户列表。
+      >如果发现重复项，请从 Analytics [!DNL User Logins List.csv] 文件中删除它们。此步骤可帮助避免覆盖 Admin Console 中的现有 Experience Cloud 用户权限，并且可为您提供要迁移的帐户列表。
 
 1. 从 Admin Console 中下载 CSV 模板：
    1. 在“用户”选项卡中，单击&#x200B;**[!UICONTROL 通过 CSV 添加用户]**，然后单击&#x200B;**[!UICONTROL 下载 CSV 模板]**。
@@ -136,13 +136,13 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-有关 [!DNL .csv] 文件中字段的更多信息，请参阅 [CSV 文件格式](https://helpx.adobe.com/enterprise/using/users.html)。
+有关 [!DNL .csv] 文件中字段的更多信息，请参阅 [CSV 文件格式](https://helpx.adobe.com/cn/enterprise/using/users.html)。
 
 >[!NOTE]
 >
-> 其他列（如[!UICONTROL 产品配置]和[!UICONTROL 管理员角色]）可为空。
+>[!UICONTROL 产品配置]和[!UICONTROL 管理员角色]等其他列可为空。
 
-1. 在 Admin Console 的“用户”选项卡中，单击&#x200B;**[!UICONTROL 通过 CSV 添加用户]**（如步骤 3 中所示）以上载模板文件。
+1. 在 Admin Console 的“用户”选项卡中，单击&#x200B;**[!UICONTROL 通过 CSV 添加用户]**（如步骤 3 中所示）以上传模板文件。
 1. 在 Analytics 中，运行迁移工具（如[迁移 Analytics 用户帐户](/help/admin/user-management2/user-migration/t-migrate-users.md)中所述）。
 1. 单击&#x200B;**[!UICONTROL 迁移]** > **[!UICONTROL 按照 Enterprise ID 进行迁移]**。
 
