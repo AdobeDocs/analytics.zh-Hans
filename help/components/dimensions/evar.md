@@ -4,9 +4,9 @@ description: 可在报告中使用的自定义维度。
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '784'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 96%
 
 *此帮助页介绍 eVar 如何作为维度使用。有关如何实施 eVar 的信息，请参阅实施用户指南中的 [eVar](/help/implement/vars/page-vars/evar.md)。*
 
-eVar 是自定义变量，您可以根据需要随意使用。如果您有 [解决方案设计文档](/help/implement/prepare/solution-design.md)，大多数特定于您组织的维度最终为 [!UICONTROL eVar]. 默认情况下，eVar 会在其设置的点击之外继续存在。您可以在 [转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in [!UICONTROL 报表包设置].
+eVar 是自定义变量，您可以根据需要随意使用。如果您具有[解决方案设计文档](/help/implement/prepare/solution-design.md)，则您组织专属的大多数维度最终都将是 [!UICONTROL eVar]。默认情况下，eVar 在设置了它们的点击之外继续存在。可在[!UICONTROL 报表包设置]中的[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)下自定义其到期和分配。
 
 可用 eVar 的数量取决于您与 Adobe 签署的合同。如果您与 Adobe 签署的合同支持，则至多有 250 个 eVar 可供使用。
 
@@ -22,9 +22,9 @@ eVar 是自定义变量，您可以根据需要随意使用。如果您有 [解�
 
 ## 使用数据填充 eVar
 
-每个 eVar 都从图像请求中的 [`v1` - `v250` 查询字符串](/help/implement/validate/query-parameters.md)中收集数据。例如，`v1` 查询字符串参数为 eVar1 收集数据，而 `v222` 查询字符串参数为 eVar222 收集数据。
+每个 eVar 都从图像请求中的 [`v1` — `v250` 查询字符串](/help/implement/validate/query-parameters.md)中收集数据。例如，`v1` 查询字符串参数为 eVar1 收集数据，而 `v222` 查询字符串参数为 eVar222 收集数据。
 
-AppMeasurement 将 JavaScript 变量编译到图像请求中以用于数据收集，它使用变量 `eVar1` - `eVar250`。请参阅实施用户指南中的 [eVar](/help/implement/vars/page-vars/evar.md)，以了解相关实施指南。
+AppMeasurement 将 JavaScript 变量编译到图像请求中以用于数据收集，它使用变量 `eVar1` — `eVar250`。请参阅实施用户指南中的 [eVar](/help/implement/vars/page-vars/evar.md)，以了解相关实施指南。
 
 ## 维度项目
 
@@ -39,7 +39,7 @@ AppMeasurement 将 JavaScript 变量编译到图像请求中以用于数据收�
 
 几乎所有情况下，`post_evar` 列都会在报表中使用。
 
-### eVar 如何与量度绑定
+### eVar 如何与指标绑定
 
 成功事件和 eVar 通常在不同的图像请求中定义。`post_evar` 列允许 eVar 值将自己绑定到事件，以显示报告中的数据。以下列访问为例：
 
@@ -62,11 +62,11 @@ AppMeasurement 将 JavaScript 变量编译到图像请求中以用于数据收�
 * `pagename` 列填充“页面”维度。
 * `evar` 列确定明确设置 eVar1 时的点击量。
 * 根据报表包设置下变量的分配和到期设置，`post_evar1` 将带有先前的值。
-* `event_list` 列包含所有量度数据。对于此示例，`event1` 为“Searches”，而其他事件是标准购物车量度。在实际原始数据中，`event_list` 包含一组以逗号分隔的数字，由查找表将这些数字与量度相关联。
+* `event_list` 列包含所有指标数据。对于此示例，`event1` 为“Searches”，而其他事件是标准购物车指标。在实际原始数据中，`event_list` 包含一组以逗号分隔的数字，由查找表将这些数字与指标相关联。
 
 ### 将数据收集转换为报告
 
-Adobe Analytics 中的工具（如 Analysis Workspace）可以处理此收集的数据。例如，如果您使用 eVar1 作为维度，使用“订单”作为量度提取报表，则会看到以下类似报表：
+Adobe Analytics 中的工具（如 Analysis Workspace）可以处理此收集的数据。例如，如果您使用 eVar1 作为维度，使用“订单”作为指标提取报表，则会看到以下类似报表：
 
 | `Internal search term (eVar1)` | `Orders` |
 | --- | --- |
