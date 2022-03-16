@@ -5,7 +5,7 @@ title: 处理规则的提示和技巧
 feature: Processing Rules
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
 source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '490'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 **测试读取搜索词的规则**
 
-有关基于搜索的任何标准，比如 prop1 包含“news”时，请转到 prop 1 报表并搜索“news”，查看是否存在您不希望出现的任何匹配。
+有关基于搜索的任何标准，比如 prop 1 包含“news”时，请转到 prop 1 报表并搜索“news”，查看是否存在您不希望出现的任何匹配。
 
 **测试读取变量的规则**
 
