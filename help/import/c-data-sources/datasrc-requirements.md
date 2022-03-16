@@ -1,18 +1,18 @@
 ---
 description: 有关使用数据源之前的报表包要求的信息。
 subtopic: Data sources
-title: 要求和上载限制
+title: 要求和上传限制
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '634'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 要求和上载限制
+# 要求和上传限制
 
 有关使用数据源之前的报表包要求的信息。
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 * [日期](/help/import/c-data-sources/datasrc-requirements.md#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2)
 * [常规](/help/import/c-data-sources/datasrc-requirements.md#section_1CD337F660484ABDB7D8CAE96FF46ACF)
 * [多字节支持](/help/import/c-data-sources/datasrc-requirements.md#section_96C8D26B21184C3E839865DB6F23EA22)
-* [上载网络日志文件](/help/import/c-data-sources/datasrc-requirements.md#section_DD736FC971FE45C89AB310BEDC1FE707)
+* [上传 Web 日志文件](/help/import/c-data-sources/datasrc-requirements.md#section_DD736FC971FE45C89AB310BEDC1FE707)
 
 ## 大小限制 {#section_77B06D82CB374FFABD39F7D9A49D8E18}
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 
 ## 日期 {#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2}
 
-* 每一个日历天可上载 90 个唯一日期的数据。如果超过此限制，上载则会失败，并出现错误消息，提示您超过了唯一天数的上限。
+* 每一个日历天可上传 90 个唯一日期的数据。如果超过此限制，上传则会失败，并出现错误消息，提示您超过了唯一天数的上限。
 * 只能导入具有当前或过去日期的数据。请勿尝试在数据源数据中使用未来日期。
 * 所有行必须具有一个指定日期，用于启用报表制图功能。如果某行不包含日期，数据源会生成一个错误并拒绝该文件。日期/时间格式依不同的数据源类型而改变：
 
@@ -40,7 +40,7 @@ ht-degree: 98%
 
 ## 常规 {#section_1CD337F660484ABDB7D8CAE96FF46ACF}
 
-* 在上载数据源文件时，数据源会执行基本的数据验证，以确保文件不含格式错误。如果某文件中遇到错误，将发送一封电子邮件通知，并停止处理。
+* 在上传数据源文件时，数据源会执行基本的数据验证，以确保文件不含格式错误。如果某文件中遇到错误，将发送一封电子邮件通知，并停止处理。
 * 数据字段不能包含分号。数据源会跳过包含分号的记录。
 * 网络日志、流量和某些普通数据源组中的数据在 Data Warehouse 或 Discover 中不可用。有关更多信息，请参阅[数据类型和类别](/help/import/c-data-sources/c-datasrc-types/datasrc-categories.md)。
 * 数据源不支持序列化事件。
@@ -59,7 +59,7 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>受支持. 与数据源一起使用的报表包必须启用多字节字符支持。 </p> <p>请参阅帮助中的<a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html?lang=zh-Hans"  >新报表包</a>。 </p> </td> 
+   <td colname="col2"> <p>受支持. 与数据源一起使用的报表包必须启用多字节字符支持。 </p> <p>请参阅帮助中的<a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >新报表包</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 带字节顺序标记的 UTF-8 (EF BB BF) </td> 
@@ -79,7 +79,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> UTF-16，不带字节顺序标记 </td> 
-   <td colname="col2"> 不受支持。 </td> 
+   <td colname="col2"> 不支持。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,12 +89,12 @@ ht-degree: 98%
 * 转化期间检测到错误，此时您会收到一则类似如下内容的消息：“从 UTF-8 到 ISO-8859-1 转化期间，在位置 18 的文件中发现坏字符”。
 * 文件处理过程中未出现错误，但是报表中存在混乱的数据。
 
-## 上载网络日志文件 {#section_DD736FC971FE45C89AB310BEDC1FE707}
+## 上传 Web 日志文件 {#section_DD736FC971FE45C89AB310BEDC1FE707}
 
 * 用于查看网络日志数据的最有用报表是流量报表，如页面查看。
 * 页面名称显示为整个 URL，其中包括查询字符串。
 * 每个文件请求都显示为一个单独的页面查看，其中包括样式表和图像文件。
-* 如果您在 URL 后附加信息，文件可能会被记录为单独的页面。例如，Adobe将以下URL记录为两个不同的页面：
+* 如果您在 URL 后附加信息，文件可能会被记录为单独的页面。例如，Adobe 将以下 URL 记录为两个单独的页面：
 
 `/jokes/misc/snail_joke.html?userid=12345`
 
