@@ -4,7 +4,7 @@ title: FTP 导入
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '716'
 ht-degree: 100%
 
@@ -12,13 +12,13 @@ ht-degree: 100%
 
 # FTP 导入
 
-描述如何通过 FTP 上载数据文件的步骤。
+描述如何通过 FTP 上传数据文件的步骤。
 
 ## FTP 导入 {#concept_2F965BE873254546A61FB755F25299FD}
 
-描述如何通过 FTP 上载数据文件的步骤。
+描述如何通过 FTP 上传数据文件的步骤。
 
-**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**.
+**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
 
 以下建议的限制很重要：
 
@@ -27,9 +27,9 @@ ht-degree: 100%
 
 初始设置使用大量原始数据填充分类数据库，或重新构建分类，而不是对某些行重新分类或添加行。
 
-在报表包中进行初始上载（针对给定的变量或报表）之后，Adobe 建议在后续导入中只上载新行和更新的行。将来上载时应忽略未更改的行。
+在报表包中进行初始上传（针对给定的变量或报表）之后，Adobe 建议在后续导入中只上传新行和更新的行。将来上传时应忽略未更改的行。
 
-您上载的每个新键值都会计入当月该变量的独立值。
+您上传的每个新键值都会计入当月该变量的独立值。
 
 如果您超出了当月的独立值，将无法在报表中看到超出独立值所对应的分类数据。可在 Data Warehouse 中看到这些分类。
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 >
 >处理分类数据文件所需的时间因文件大小和 Adobe 服务器已在处理的当前文件数而异。处理数据文件的时间通常不超过 72 小时。
 
-在通过 FTP 上载数据之前，请先创建 FTP 帐户。有关详细信息，请参阅[创建 FTP 帐户](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)。
+在通过 FTP 上传数据之前，请先创建 FTP 帐户。有关详细信息，请参阅[创建 FTP 帐户](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)。
 
 ## 通过 FTP 导入分类 {#task_132C36830B69418B8C929E39838EF01D}
 
@@ -49,16 +49,16 @@ ht-degree: 100%
 1. 单击&#x200B;**[!UICONTROL 导入文件]**，然后单击 **[!UICONTROL FTP 导入]**。
 1. 在要使用的 FTP 帐户旁边，单击&#x200B;**[!UICONTROL 查看]**。
 1. 使用 FTP 访问信息（主机、登录名、密码），通过您选择的 FTP 客户端访问 FTP 服务器。
-1. 将数据文件（[!DNL .tab] 或 [!DNL .txt]）上载到 FTP 服务器。
-1. 上载数据文件之后，再上载指示可以处理文件的 FIN 文件。
+1. 将数据文件（[!DNL .tab] 或 [!DNL .txt]）上传到 FTP 服务器。
+1. 上传数据文件之后，再上传指示可以处理文件的 FIN 文件。
 
    FIN 文件是一个与您的数据文件同名的空文件，扩展名为 [!DNL .fin]。例如，如果您的数据文件为 [!DNL classdata1.tab]，则 文件名为 [!DNL classdata1.fin].fin。
 
-Adobe 会定期检索已上载的具有关联 FIN 文件的数据文件。然后，Adobe 会将其导入 FTP 帐户配置中指定的报表包和数据集中。
+Adobe 会定期检索已上传的具有关联 FIN 文件的数据文件。然后，Adobe 会将其导入 FTP 帐户配置中指定的报表包和数据集中。
 
 ## 创建 FTP 帐户 {#task_C019268E6C934C7C95F4326F42A22CCF}
 
-在通过 FTP 上载数据之前，请先创建 FTP 帐户。>
+在通过 FTP 上传数据之前，请先创建 FTP 帐户。>
 
 有关 Adobe FTP 服务器的其他详细信息，请参阅 [FTP 和 sFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html?lang=zh-Hans)。
 
