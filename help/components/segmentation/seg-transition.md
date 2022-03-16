@@ -4,7 +4,7 @@ title: 常见问题解答
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2080'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 您可以通过以下方法访问区段生成器：
 
-* 显示一个现有报表，然后单击左侧导航中的“区段”图标 ![区段图标](assets/segment_icon.png)。在显示的区段边栏中，单击&#x200B;**[!UICONTROL 添加]**，或者
+* 显示一个现有报表，然后单击左侧导航中的“区段”图标 ![ “区段”图标 ](assets/segment_icon.png)。在显示的区段边栏中，单击&#x200B;**[!UICONTROL 添加]**，或者
 
 * 单击区段管理器顶部的 **[!UICONTROL + 添加]**。![“添加”按钮](assets/add_button.png)
 
@@ -52,13 +52,13 @@ ht-degree: 100%
 
 * 在顶部导航中，转到 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]**。然后，单击&#x200B;**[!UICONTROL 区段]**，或者
 
-* 显示一个现有报表，然后单击左侧导航中的“区段”图标 ![区段图标](assets/segment_icon.png)。接下来，单击&#x200B;**[!UICONTROL 管理]**，或者
+* 显示一个现有报表，然后单击左侧导航中的“区段”图标 ![“区段”图标 ](assets/segment_icon.png)。接下来，单击&#x200B;**[!UICONTROL 管理]**，或者
 
 * 在界面的任意位置按斜杠键“/”，并搜索区段管理器。
 
 **原有的区段下拉菜单转到了何处？**
 
-Reports &amp; Analytics 中的区段下拉菜单已被功能更加丰富的[区段生成器](/help/components/segmentation/segmentation-workflow/seg-workflow.md)界面取代，通过使用该界面，您可以创建在报表包中和 Adobe Analytics 解决方案中“通用”的区段。要查看现有区段的列表，请在左侧导航中单击“区段”图标 ![，“区段”图标 ](assets/segment_icon.png)
+Reports &amp; Analytics 中的区段下拉菜单已被功能更加丰富的[区段生成器](/help/components/segmentation/segmentation-workflow/seg-workflow.md)界面取代，通过使用该界面，您可以创建在报表包中和 Adobe Analytics 解决方案中“通用”的区段。要查看现有区段的列表，请在左侧导航中单击“区段”图标 ![“区段”图标 ](assets/segment_icon.png)
 
 此时将显示区段边栏。
 
@@ -332,7 +332,7 @@ seg_definition.xml
 | 移动设备操作系统 | Cookie | 地域 DMA |
 | 移动设备 Java VM | 客户忠诚度 | 持久 Cookie |
 | 移动设备书签长度 | 启用 Java | 付费搜索 |
-| 移动设备 URL 长度 | language |  |
+| 移动设备 URL 长度 | 语言 |  |
 
 ## 对具有已知值的整数维度的更改 {#section_84A8AAD0344148AD9F9211D3EB271903}
 
