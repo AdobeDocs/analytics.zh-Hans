@@ -4,7 +4,7 @@ title: 生成顺序区段
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3864'
 ht-degree: 100%
 
@@ -132,7 +132,7 @@ ht-degree: 100%
 
 1. 从左侧窗格中拖动两个页面维度到顶级[!UICONTROL 访客]容器中。
 1. 在两个维度之间添加 THEN 运算符。
-1. 单击“选项”****>“添加容器”****，然后在[!UICONTROL 访客]级别下添加[!UICONTROL 访问]容器，并使用 [!UICONTROL THEN] 运算符排列。
+1. 单击&#x200B;**[!UICONTROL “选项”]**>**[!UICONTROL “添加容器”]**，然后在[!UICONTROL “访客”]级别下添加[!UICONTROL “访问”]容器，并使用 [!UICONTROL THEN] 运算符排列。
 
 ![](assets/mixed_level_checkpoints.png)
 
