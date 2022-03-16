@@ -4,7 +4,7 @@ description: 面向刚开始使用现有 Adobe Analytics 实施的管理员的�
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
 ht-degree: 100%
 
@@ -24,6 +24,6 @@ ht-degree: 100%
 
 另请参阅：
 
-* [“重点审查”检查表，用于在每次网站发布后审查您的实施](/help/implement/review/focused-review.md)
-* [“全面审查”检查表，用于每 6 个月审查您的实施](/help/implement/review/full-review.md)
+* [用于在每次发布网站后检查实施的“重点检查”核对清单](/help/implement/review/focused-review.md)
+* [用于每 6 个月检查实施的“全面检查”核对清单](/help/implement/review/full-review.md)
 * [定义您的 5 大 KPI](/help/implement/review/define-kpis.md)
