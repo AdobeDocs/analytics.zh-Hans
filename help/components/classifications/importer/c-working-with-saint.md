@@ -1,18 +1,18 @@
 ---
-description: 使用导入器将分类上载到 Adobe Analytics。您也可以在导入前导出要更新的数据。
-title: 分类导入器 - 概述
+description: 使用导入器将分类上传到 Adobe Analytics。您也可以在导入前导出要更新的数据。
+title: 分类导入器 — 概述
 feature: Classifications
 exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '137'
 ht-degree: 100%
 
 ---
 
-# 分类导入器 - 概述
+# 分类导入器 — 概述
 
-使用导入器将分类上载到 Adobe Analytics。您也可以在导入前导出要更新的数据。
+使用导入器将分类上传到 Adobe Analytics。您也可以在导入前导出要更新的数据。
 
 **[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**
 
