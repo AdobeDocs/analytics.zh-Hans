@@ -1,19 +1,19 @@
 ---
-description: 使用处理规则时，您可以读取和写入的维度（另有说明的除外）。
+description: 可使用处理规则读取和写入的维度（除非另有说明）。
 subtopic: Processing rules
 title: 可用于处理规则的维度
 feature: Processing Rules
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '743'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # 可用于处理规则的维度
 
-使用处理规则时，您可以读取和写入的维度（另有说明的除外）。
+可使用处理规则读取和写入的维度（除非另有说明）。
 
 ## 自定义值和上下文数据 {#section_7A5E1810CAC34B0BBC69F8F5F7C75AA5}
 
@@ -89,11 +89,11 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p>页面名称 </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>注意：链接跟踪调用会删除 <code>pageName</code> 变量。 如果您使用处理规则重新插入页面名称值，则点击将被视为页面查看，而不是链接跟踪调用。 Adobe建议检查以确保在修改页面名称之前已设置页面名称。 </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>注意：链接跟踪调用在其到达处理规则之前剥离 <code>pageName</code> 变量。如果使用处理规则重新插入页面名称值，则将点击视为页面查看而非链接跟踪调用。Adobe 建议检查以确保已设置页面名称，然后再修改它。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>页面 URL </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> 或未指定 <code> s.pageURL</code> 时的当前页面 URL。 <p>注意：链接跟踪调用会删除 <code>pageURL</code> 变量。 如果您使用处理规则重新插入页面URL值，则点击将被视为页面查看，而不是链接跟踪调用。 Adobe建议在修改页面URL之前先检查以确保已设置页面URL。 </p></td> 
+   <td colname="col2"> <code> s.pageURL</code> 或未指定 <code> s.pageURL</code> 时的当前页面 URL。 <p>注意：链接跟踪调用在其到达处理规则之前剥离 <code>pageURL</code> 变量。如果使用处理规则重新插入页面 URL 值，则将点击视为页面查看而非链接跟踪调用。Adobe 建议检查以确保已设置页面 URL，然后再修改它。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>查询字符串参数 </p> </td> 
@@ -162,10 +162,10 @@ ht-degree: 86%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>eVar 1-N </p> </td> 
-   <td colname="col2"> <p> <code> evar1</code> - <code> evarN</code> </p> </td> 
+   <td colname="col2"> <p> <code> evar1</code> — <code> evarN</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>促销活动跟踪代码 </p> </td> 
+   <td colname="col1"> <p>营销活动跟踪代码 </p> </td> 
    <td colname="col2"> <p> <code> s.campaign</code> </p> </td> 
   </tr> 
   <tr> 
@@ -174,7 +174,7 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p>列表变量 1-3 </p> </td> 
-   <td colname="col2"> <p> <code> s.list1</code> - <code> s.list3</code> </p> </td> 
+   <td colname="col2"> <p> <code> s.list1</code> — <code> s.list3</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>购买 ID </p> </td> 
@@ -209,7 +209,7 @@ ht-degree: 86%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>事件 1-1000 </p> <p>（对于 SiteCatalyst 15 客户，事件 1-100。） </p> </td> 
-   <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
+   <td colname="col2"> <p> <code> event1</code> — <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchase、scView、scAdd 和其他购物车事件 </p> </td> 
