@@ -1,13 +1,13 @@
 ---
-description: 使用Report Builder和MicrosoftPower BI时的限制。
+description: 使用 Report Builder 和 Microsoft Power BI 时的限制。
 title: 限制和规范
 feature: Report Builder
 role: User, Admin
 exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '624'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
-> 这些限制仅适用于选项“作为 Power BI 数据集表发布 Report Builder 请求”。
+>这些限制仅适用于“作为 Power BI 数据集表发布 Report Builder 请求”选项。
 
 * 对于每个工作簿，最多可向 Power BI 导出 100 个 Report Builder 请求。
 * 在达到 101 个请求时，计划过程将停止导出请求。
@@ -27,7 +27,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
-> 此规范适用于选项“作为 Power BI 数据集表发布所有 Report Builder 请求”和“作为 Power BI 数据集表发布工作簿中所有带格式的表”。
+>此规范适用于“作为 Power BI 数据集表发布所有 Report Builder 请求”和“作为 Power BI 数据集表发布工作簿中所有带格式的表”选项。
 
 在发布到 Power BI 之后编辑 Report Builder 请求，可能会引发问题。
 
@@ -35,8 +35,8 @@ ht-degree: 94%
 
    **以下是一个有关可视化将如何中断的示例：**
 
-   1. 在 Report Builder 中，使用“页面”维度和“页面查看次数”量度，创建具有一个请求的工作簿。
-   2. 计划将此请求发布到Power BI。
+   1. 在 Report Builder 中，使用“页面”维度和“页面查看次数”指标，创建具有一个请求的工作簿。
+   2. 安排将此请求发布到 Power BI。
    3. 在 Power BI 中，为页面和页面查看次数创建可视化。
    4. 现在，通过从请求中删除页面查看次数，编辑工作簿。
    5. 编辑涉及更新工作簿的计划，并将请求重新发布到 Power BI。
@@ -48,10 +48,10 @@ ht-degree: 94%
 
    **以下是一个有关如何不中断可视化的示例：**
 
-   1. 在 Report Builder 中，使用“页面”维度和“页面查看次数”量度，创建具有一个请求的工作簿。
-   2. 计划此请求以将其发布到 Power BI。
+   1. 在 Report Builder 中，使用“页面”维度和“页面查看次数”指标，创建具有一个请求的工作簿。
+   2. 安排将此请求发布到 Power BI。
    3. 在 Power BI 中，为页面和页面查看次数创建可视化。
-   4. 现在编辑 Report Builder 中的工作簿，在保留“页面”和“页面查看次数”的同时添加“访问”量度。
+   4. 现在编辑 Report Builder 中的工作簿，在保留“页面”和“页面查看次数”的同时添加“访问”指标。
    5. 编辑涉及更新工作簿的计划，并将请求重新发布到 Power BI。
    6. 在新工作簿发送到 Power BI 之后
 
@@ -69,5 +69,5 @@ ht-degree: 94%
 请记住以下事项
 
 * 标签不能是可被误认为行和列地址的字母和数字组合。例如，A100 不能用作标签，因为它是工作表中一个单元格的地址。
-* 以下字符不是有效的标签字符： `'#', '@', '!', '$', '^', '&', '&#42;', '`&#39;和 `'~', ' '` . 它们将被替换为下划线字符。
+* 以下字符是无效的标签字符：`'#', '@', '!', '$', '^', '&', '&#42;', '`&#39; 和 `'~', ' '`。它们将被替换为下划线字符。
 * 如果您输入一个无效名称，将显示一则警告消息，并向您推荐一个自动生成的名称。如果单击&#x200B;**[!UICONTROL 是]**，将会使用此名称。如果单击&#x200B;**[!UICONTROL 否]**，高级向导 UI 将让您输入新名称。
