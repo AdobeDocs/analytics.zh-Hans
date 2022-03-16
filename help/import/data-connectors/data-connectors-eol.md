@@ -4,9 +4,9 @@ title: Analytics 数据连接器生命周期终止预告
 feature: Data Connectors
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '685'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 
 ## 为什么我们要终止使用此功能？
 
-此功能由传统技术提供支持，而这些技术不再可行或不再受支持。 [Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product) 现在是查找 Adobe 解决方案的当前集成的位置。
+实现此功能的传统技术不再可行或不再受支持。[Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product) 现在是查找 Adobe 解决方案的当前集成的位置。
 
 ## 删除此功能对您有何影响？
 
