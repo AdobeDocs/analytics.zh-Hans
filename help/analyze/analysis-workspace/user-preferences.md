@@ -4,9 +4,9 @@ description: 您可以为用户设置常规和项目首选项，以及深色主�
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
-workflow-type: ht
-source-wordcount: '277'
+source-git-commit: 941b2b472301c3e99f268ab98976de348573ae1b
+workflow-type: tm+mt
+source-wordcount: '285'
 ht-degree: 100%
 
 ---
@@ -45,6 +45,7 @@ ht-degree: 100%
 |  | [面板类型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hans) | <ul><li>自由格式（默认）</li><li>空白</li><li>快速见解</li></ul> |
 |  | 数字格式 | <ul><li>1,000.00（默认）</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV 分隔符 字符 | <ul><li>逗号（默认）</li><li>分号</li><li>冒号</li><li>竖线</li><li>句点</li><li>空格</li><li>制表符</li></ul> |
+|  | 自由格式表 | <ul><li>显示异常 </li><li>显示迷你图</li><li>显示注释</li></ul> |
 
 ## [!UICONTROL 深色主题]
 
