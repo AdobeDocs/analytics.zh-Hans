@@ -4,10 +4,10 @@ title: 快速区段
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 417f57f6987f58b1acd0feb087fbdc854a0d03fa
+source-git-commit: a79fe36f009984a8b343e98a915f867b56a519fb
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 77%
+source-wordcount: '878'
+ht-degree: 75%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 77%
 1. （可选）为区段重命名。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-请注意区段的边栏如何从蓝色条纹变为蓝色。现在，它也会显示在您的左边栏组件列表中。
+请注意区段的侧栏如何从条纹蓝色更改为浅蓝色。 现在，它也会显示在您的左边栏组件列表中。
 
 ## 仅用于项目的区段是什么？
 
