@@ -4,9 +4,9 @@ description: 了解如何使用标记将 Adobe Analytics 部署到开发环境�
 feature: Launch Implementation
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
 source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '592'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 47%
 
 1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 2. 单击要在网站上实施的标记属性。
-3. 单击 **[!UICONTROL 主机]**，然后单击 **[!UICONTROL 添加主机]**.
-4. 将其命名为 `"Adobe managed"`，然后选择 **[!UICONTROL 由Adobe]** 在类型下拉列表中。 单击“保存”。
-5. 导航到 **[!UICONTROL 环境]**，然后单击 **[!UICONTROL 添加环境]**.
-6. 选择 **[!UICONTROL 开发]**，命名 `"Dev Environment"`，然后从下拉菜单中选择Adobe托管主机。 单击&#x200B;**[!UICONTROL 保存]**。
-7. 出现一个显示Web安装说明的模式窗口。 我们稍后会返回此窗口；单击 **[!UICONTROL 关闭]** 现在。
-8. 单击 **[!UICONTROL 添加环境]**，选择 **[!UICONTROL 暂存]**，命名 `"Staging Environment"`，然后选择Adobe管理的主机。 单击 **[!UICONTROL 创建]**，然后关闭安装说明模式窗口。
-9. 单击 **[!UICONTROL 添加环境]** 再次选择 **[!UICONTROL 生产]**，命名 `"Production Environment"`，然后选择Adobe管理的主机。 单击 **[!UICONTROL 创建]**，然后关闭安装说明模式窗口。
+3. 单击 **[!UICONTROL 主机]**，然后单击 **[!UICONTROL 添加主机]**。
+4. 将其命名为`"Adobe managed"`，并在类型下拉菜单中选择&#x200B;**[!UICONTROL 由 Adobe 管理]**。单击“保存”。
+5. 导航至&#x200B;**[!UICONTROL 环境]**，然后单击&#x200B;**[!UICONTROL 添加环境]**。
+6. 选择&#x200B;**[!UICONTROL 开发]**，将其命名为`"Dev Environment"`，然后从下拉菜单中选择由 Adobe 管理的主机。单击&#x200B;**[!UICONTROL 保存]**。
+7. 此时会出现一个模式窗口，显示 Web 安装说明。稍后我们将返回此窗口；现在，请单击&#x200B;**[!UICONTROL 关闭]**。
+8. 单击&#x200B;**[!UICONTROL 添加环境]**，选择&#x200B;**[!UICONTROL 暂存]**，将其命名为`"Staging Environment"`，然后选择由 Adobe 管理的主机。单击&#x200B;**[!UICONTROL 创建]**，然后关闭安装说明模式窗口。
+9. 再次单击&#x200B;**[!UICONTROL 添加环境]**，选择&#x200B;**[!UICONTROL 生产]**，将其命名为`"Production Environment"`，然后选择由 Adobe 管理的主机。单击&#x200B;**[!UICONTROL 创建]**，然后关闭安装说明模式窗口。
 
 ## 构建开发库
 
@@ -38,22 +38,22 @@ ht-degree: 47%
 
 1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 2. 单击要在网站上实施的标记属性。
-3. 单击 **[!UICONTROL 发布流程]** ，然后单击 **[!UICONTROL 添加库]**. 请参阅 [发布概述](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html) 有关此页面的更多信息，请参阅标记文档。
-4. 将库命名为 `'Initial changes'`，然后选择开发环境。
-5. 单击 **[!UICONTROL Add All Changed Resources]**，它会自动列出Adobe Analytics、Identity Service和核心。
+3. 单击 **[!UICONTROL 发布流]** 选项卡，然后单击 **[!UICONTROL 添加库]**。有关此页面的更多信息，请参阅标记文档中的[发布概述](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html)。
+4. 为此库命名`'Initial changes'`，并选择您的开发环境。
+5. 单击&#x200B;**[!UICONTROL 添加所有更改的资源]**，自动列出 Adobe Analytics、标识服务和核心。
 6. 单击&#x200B;**[!UICONTROL 保存]**。
-7. 返回发布工作流程屏幕，单击新库旁边的下拉菜单，然后单击 **[!UICONTROL 构建用于开发]**. 几秒钟后，库上的黄色圆点变为绿色，表示已成功生成。
-8. 导航到 **[!UICONTROL 环境]**，然后单击开发环境右侧的安装图标。 此操作将再次显示Web安装说明模式窗口。
-9. 复制代码块，并将其提供给贵组织的网站所有者。
+7. 回到发布工作流屏幕，单击新库旁边的下拉菜单，然后单击&#x200B;**[!UICONTROL 为开发构建]**。几秒钟后，库上的黄点变为绿色，表示构建成功。
+8. 导航到&#x200B;**[!UICONTROL 环境]**，然后单击开发环境右侧的安装图标。此操作将再次打开“Web 安装说明”模式窗口。
+9. 复制代码块并将其提供给贵组织的网站所有者。
 
 ## 在网站的开发环境中安装标记
 
-如果您控制网站的代码，请在其各自的位置实施每个代码块：
+如果是您控制网站的代码，请在各自位置执行每个代码块：
 
-* 主标记属于 `<head>` 标记。
-* 如果选择同步加载标记，则还必须在紧靠结束 `</body>` 标记。 您可以选择通过切换 **[!UICONTROL 异步加载库]** 选项。
+* 主标记属于`<head>`网站上的标记。
+* 如果选择同步加载标记，您还必须在网站上的结束`</body>`标记下方添加第二个代码块。通过在 Web 安装说明中切换&#x200B;**[!UICONTROL 异步加载库]**&#x200B;选项，您可以选择同步加载库标记。
 
-标记代码通常放置在网站的总模板中。 仅包含实施代码的空白页面如下所示：
+标记代码通常放置在网站的主要模板中。仅包含实施代码的空白页面如下所示：
 
 ```html
 <!doctype html>
