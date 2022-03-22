@@ -6,9 +6,9 @@ solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
 source-git-commit: a2d3336ec89823a764ce073526836b6af70f0b76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1443'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 96%
 
 这种处理架构提供了更为灵活的报表选项。例如，您可以将访问超时时段以非破坏性的方式更改为任何所需时长，这些更改将以追溯方式反映在您的 eVar 持久性和区段容器中，就如同您在收集数据之前应用了这些设置一样。此外，您还可以创建任意数量的虚拟报表包，每个虚拟报表包均具有不同的报表时间处理选项，这些选项基于相同的基础报表包，而无需更改基础报表包中的任何数据。
 
-[!UICONTROL 报表时间处理] 还允许Analytics阻止将后台点击计算为一次新的访问，并允许 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html) 以告知报表在每次触发应用程序启动事件时都开始一次新访问。
+通过[!UICONTROL 报表时间处理]，Analytics 还可以避免将后台点击计算为新的访问，并且 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html) 也可以让报表在每次触发应用程序启动事件时才开始一次新访问。
 
 ## 配置选项
 
