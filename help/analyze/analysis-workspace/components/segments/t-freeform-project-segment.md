@@ -5,9 +5,9 @@ feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
 source-git-commit: 5e9894e3b7ea3e6c36e45b3683c08a1c767df8f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '534'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 92%
 | 区段类型 | 在何处创建？ | 适用于何处？ | 使用时间 |
 | --- | --- | --- | --- |
 | 组件列表区段 | 单击 +，这样即转到[区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md) | 您的所有工作区项目 | 对于更复杂的区段、顺序区段 |
-| 快速区段 | [快速区段生成器](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | [仅限项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F)，但可以保存并添加到区段列表。 | 灵活地添加/编辑一条或多条规则 |
+| 快速区段 | [快速区段生成器](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | [ 仅用于项目 ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F)，但可保存并添加到您的区段列表。 | 灵活地添加/编辑一条或多条规则 |
 | 临时区段： |  |  |  |
-| - 临时工作区项目区段 | [拖放到项目中的区段放置区域](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | [仅限项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F)，但可以保存并添加到区段列表。 | 对于单规则区段 |
+| - 临时工作区项目区段 | [拖放到项目中的区段放置区域](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | [ 仅用于项目 ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F)，但可保存并添加到您的区段列表。 | 对于单规则区段 |
 | - 基于计算指标的区段 | [计算指标生成器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=zh-Hans) | 适用于个别计算指标 | 在您的指标定义中应用区段 |
 | - 基于 VRS 的区段 | [虚拟报表包生成器](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=zh-Hans) | 适用于个别虚拟报表包 | 在您的 VRS 定义中应用区段 |
 
