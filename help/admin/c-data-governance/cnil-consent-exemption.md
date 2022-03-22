@@ -4,9 +4,9 @@ title: 关于用户准许和 Cookie 的 CNIL 准则是什么
 feature: Data Governance
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
 source-git-commit: 99bbc9d6cc4d50c39b7f689a9bd84ee95a008691
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '754'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 92%
 
 另外还涉及以下这些注意事项：
 
-* Adobe Analytics在美国、英国和新加坡运营数据处理中心，以便为所有客户提供在地区范围内收集、处理和存储其数据的灵活性。 配置Adobe Analytics的初始设置时，客户会选择所需的数据处理中心位置。 客户数据最终会存储在其选定区域中，以供核心Analytics产品使用。
+* Adobe Analytics 在美国、英国和新加坡设有数据处理中心，以便为所有客户提供灵活的区域性数据收集、处理和存储。在配置 Adobe Analytics 初始设置时，客户会选择所需的数据处理中心位置。客户的数据最终存储在其为核心 Analytics 产品选择的区域内。
 * 请考虑在 Analytics 变量中收集选择加入状态，以便将选择加入数据与选择退出数据分离，以供分段、虚拟报表包或路由到单独的端点。
 * 未经事先许可，不得在网站或应用程序之外进行度量，例如不得进行站外营销活动、电子邮件营销活动或嵌入 iframe。
 * 未经许可，不允许收集变量中的个人信息。[在用户同意的基础上控制 Experience Cloud 活动](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=zh-Hans%22%20\l%20%22implementation#implementation)
