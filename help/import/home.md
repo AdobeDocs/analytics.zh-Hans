@@ -3,9 +3,9 @@ title: Analytics 导入指南
 description: 本指南说明如何使用数据源、Data Sources 和 Data Connectors 将数据导入 Analytics。
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 source-git-commit: d8603ddd6cee2ccc930281003d9ff1befa15c95c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 86%
 本指南介绍如何将数据引入 Analytics。其中包括：
 
 * **[数据源](c-data-sources/datasrc-home.md)**：将文件上传到指定的 Adobe FTP 站点。Adobe 将检索该文件，并包含您的报表包中的数据。
-* **[批量数据插入API](/help/import/bulk-data-insertion-api/bulk-data-insert.md)** 允许您批量上传文件中的服务器调用数据，而不是使用客户端库（如AppMeasurement）。
+* **[批量数据插入 API](/help/import/bulk-data-insertion-api/bulk-data-insert.md)** 允许您以文件的形式批量上传服务器调用数据，而不是使用客户端库（如 AppMeasurement）。
 * **[数据插入 API](c-data-insertion-api/c-data-insertion-api.md)**：通过 API，将数据直接发送到 Adobe 的数据收集中。
 * **[Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product)**：查找当前可用于充实您的 Adobe Analytics 报表包的集成。
 
