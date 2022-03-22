@@ -4,10 +4,10 @@ description: 如何在工作区中查看注释。
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: 8e15d386379d98066973112b0e81b507d67c694d
+source-git-commit: 70dc0fedc6ba16cb521af7a94524a4df99200d25
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 100%
+source-wordcount: '251'
+ht-degree: 79%
 
 ---
 
@@ -27,18 +27,18 @@ ht-degree: 100%
 | **日期范围** | 图标会发生变化，当您将鼠标悬停在它上面时，会显示日期范围。<p>![](assets/multi-day.png)<p>在折线图中选择注释时，将显示注释元数据，您可以进行编辑或删除：![](assets/multi-hover.png)<p>在表中，会在日期范围内的每个日期上显示一个图标。<p>![](assets/multi-day-table.png) |
 | **重叠注释** | 在有多个注释与其关联的日期上，图标将为灰色。<p>![](assets/grey.png)<p>将鼠标悬停在灰色图标上时，将显示所有重叠的注释：<p>![](assets/overlap.png) |
 
-## 在摘要图中查看注释
-
-![](assets/ann-summary.png)
-
 ## 在 .pdf 文件中查看注释
 
 由于您无法将鼠标悬停在 .pdf 文件中的图标上，因此该文件（导出后）在面板底部提供了注释或说明。示例如下：
 
 ![](assets/ann-pdf.png)
 
-## 查看不基于日期的注释
+## 查看包含非趋势数据的注释
 
-有时注释与日期无关，而是与特定的维度关联。在这种情况下，此类注释仅显示在右下角的摘要注释中。示例如下：
+有时，注释会以非趋势数据显示，但会与特定维度绑定。 在这种情况下，此类注释仅显示在右下角的摘要注释中。示例如下：
 
 ![](assets/non-date.png)
+
+概要图表显示在角落的所有可视化图表类型中，而不只是显示在非趋势自由格式表和概要数字中。 它还会显示在 [!UICONTROL 圆环], [!UICONTROL 流量],[!UICONTROL 流失],[!UICONTROL 同类群组]，等等。
+
+![](assets/ann-summary.png)
