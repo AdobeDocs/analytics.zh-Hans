@@ -4,9 +4,9 @@ title: 命名空间
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
 source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '892'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 * “type”字段，它在大部分 Adobe Analytics 请求中包含值“analytics”。
 * “value”字段，其中包含 Analytics 应在每个报表包的关联命名空间变量中搜索的 ID。
 
-有关更多详细信息，请参阅 [Experience Cloud 数据隐私 API 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en)。
+有关更多详细信息，请参阅 [Experience Cloud 数据隐私 API 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hans)。
 
 ## Cookie ID
 
@@ -114,6 +114,6 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
->命名空间“visitorId”和“customVisitorId”是保留名称，用于识别 Analytics 旧版跟踪 Cookie 和 Analytics 客户的访客 ID。请勿将这些命名空间用于自定义流量或转换变量。
+>命名空间“visitorId”和“customVisitorId”是保留名称，用于识别 Analytics 旧版跟踪 Cookie 和 Analytics 客户的访客 ID。请勿将这些命名空间用于自定义流量或转化变量。
 
 有关更多信息，请参阅[为变量设置 ID-DEVICE 或 ID-PERSON 标签时提供命名空间。](/help/admin/c-data-governance/gdpr-labels.md)
