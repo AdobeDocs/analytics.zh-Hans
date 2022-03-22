@@ -4,9 +4,9 @@ description: 了解如何使用 Adobe Experience Platform 标记将 Adobe Analyt
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 source-git-commit: 7cae63a63b7047c1907ebe4c4f25f38b6b4237d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '630'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -20,16 +20,16 @@ ht-degree: 81%
 
 ## 使用 Experience Cloud Debugger 验证您的开发实施
 
-Experience Cloud调试器是一个扩展，可显示页面上存在的所有Experience Cloud标记。
+Experience Cloud Debugger 是一个可显示页面上存在的所有 Experience Cloud 标记的扩展。
 
-1. 为以下任一项安装扩展 [铬黄](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 或 [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/adobe-experience-platform-dbg/).
+1. 为 [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 或 [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/adobe-experience-platform-dbg/) 安装此扩展。
 2. 导航到已实施标记的开发网站。
-3. 单击浏览器中的Adobe Experience Cloud Debugger图标。
-4. 如果一切都已正确实施，您应会在Adobe Analytics、标记和Adobe Experience Cloud访客ID服务中看到内容。
+3. 单击浏览器中的 Adobe Experience Cloud Debugger 图标。
+4. 如果一切都已正确实施，则应会看到 Adobe Analytics、标记和 Adobe Experience Cloud 访客 ID 服务中的内容。
 
 ## 将开发实施部署到测试/生产环境
 
-验证数据后，您可以将实施推送到网站的实时版本。
+一旦确认看到数据，则可在网站实时版本推出实施。
 
 1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击要在网站上实施的标记属性。
@@ -40,7 +40,7 @@ Experience Cloud调试器是一个扩展，可显示页面上存在的所有Expe
 1. 再次单击库的下拉列表，然后选择&#x200B;**[!UICONTROL 批准以供发布]**。
 1. 再次单击库的下拉列表（现在位于[!UICONTROL 已批准]列中），然后选择&#x200B;**[!UICONTROL 构建并发布到生产环境]**。
 1. 转到“环境”选项卡，单击&#x200B;**[!UICONTROL 生产环境]**。
-1. 复制生产安装代码，并将其提供给您的网站所有者。 请求他们在网站的生产环境中实施此代码。
+1. 复制生产安装代码块并将其提供给网站所有者。请求他们在网站的生产环境中实施此代码。
 
 ## 验证您的生产实施
 
@@ -58,7 +58,7 @@ Experience Cloud调试器是一个扩展，可显示页面上存在的所有Expe
 * 控制台中没有 JavaScript 错误。与贵组织的网站所有者合作，确保解决了所有 JS 错误。
 * 正确实施了页眉代码：确保页眉代码位于 `<head>` 标记内部，并且文件存在。
 * AppMeasurement 库存在：直接导航到 JS 源，以确保 JS 文件包含代码。如果不包含，请确保创建了每个环境，并且库已发布到各自对应的环境。
-* 干扰扩展：某些扩展（如广告拦截器）可能会阻止触发图像请求。 禁用任何可能阻止数据发送到Adobe的扩展。
+* 干扰扩展：一些扩展，如广告拦截器，可以阻止触发图像请求。禁用任何可能阻止数据发送到 Adobe 的扩展。
 
 ## 后续步骤
 
