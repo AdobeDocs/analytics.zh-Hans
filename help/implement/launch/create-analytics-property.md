@@ -6,7 +6,7 @@ exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
 source-wordcount: '513'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 90%
 1. 为您的属性指定名称（如网站的标题），然后输入要在其中实施 Analytics 的域。单击&#x200B;**[!UICONTROL 保存]**。
 1. 单击新创建的标记属性以输入其设置。
 1. 单击&#x200B;**[!UICONTROL 扩展]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 目录]**。
-1. 找到“Experience CloudID服务”，然后单击 **[!UICONTROL 安装]**.
+1. 找到 &#39;Experience Cloud ID 服务&#39;，然后点击 **[!UICONTROL 安装]**.
 1. 所有设置（包括 Experience Cloud 组织 ID）都应当已经填充。单击&#x200B;**[!UICONTROL 保存]**。
 1. 返回扩展目录，找到 Adobe Analytics 并单击&#x200B;**[!UICONTROL 安装]**。
 
-请参阅 [Adobe Analytics扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hans) 以了解更多详细信息。
+有关更多详细信息，请参阅 [Adobe Analytics 扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hans)完整文档。
 
 ## 为 Adobe Analytics 创建数据元素
 
@@ -45,11 +45,11 @@ ht-degree: 90%
    * 名称：页面名称
    * 扩展：核心
    * 数据元素类型：JavaScript 变量
-   * JavaScript变量名称： `window.document.title`
+   * JavaScript 变量名称`window.document.title`
 
       >[!NOTE]
       >
-      >此值将作为帮助入门的示例。 如果您的组织为页面名称定义了更好的值（例如数据层值），则可以在此处输入该值。
+      >此值可作为帮助入门的示例。如果您的组织为页面名称定义了更好的值（例如数据层值），则可以在此处输入该值。
    * 清理选中的文本
    * 存储持续时间：无
 1. 单击&#x200B;**[!UICONTROL 保存]**。
@@ -60,7 +60,7 @@ ht-degree: 90%
 
 1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
 1. 单击要在网站上实施的标记属性。
-1. 单击 **[!UICONTROL 规则]** ，然后单击 **[!UICONTROL 添加规则]**. 将其命名为 `Global Rule`.
+1. 单击 **[!UICONTROL 规则]** 选项卡，然后单击 **[!UICONTROL 添加规则]**。将其命名为 `Global Rule`。
 1. 单击事件旁边的&#x200B;**[!UICONTROL 添加]**，然后输入以下设置：
    * 扩展：核心
    * 事件类型：已加载的库（页面顶部）

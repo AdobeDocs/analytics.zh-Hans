@@ -7,7 +7,7 @@ user-guide-description: Analytics 的高级分析和可视化工具 Analysis Wor
 source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
 workflow-type: tm+mt
 source-wordcount: '1039'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -298,7 +298,7 @@ ht-degree: 99%
       + [适用于 iOS 的 Adobe Analytics](reports-analytics/overview/app-ios.md)
    + [报表显示设置和导航](reports-analytics/report-settings.md)
    + [报表计划和分发](reports-analytics/scheduling.md)
-   + [计划报表的生命周期终止通知](reports-analytics/scheduled-reports-eol.md)
+   + [计划报表的生命周期结束通知](reports-analytics/scheduled-reports-eol.md)
    + [报表类型](reports-analytics/reports.md)
    + [运行不同的报表类型](reports-analytics/t-running-report-types.md)
    + 自定义报表 {#customize-reports}

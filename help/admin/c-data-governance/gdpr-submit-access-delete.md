@@ -6,7 +6,7 @@ exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
 source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
 source-wordcount: '1301'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 97%
 
 ## 提交请求 {#submit-requests}
 
-您可以通过我们的 [Privacy ServiceUI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) 或通过 [Privacy ServiceAPI。](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en)
+您可以通过我们的 [Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=zh-Hans) 或 [Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hans) 提交数据隐私访问和删除请求。
 
 >[!NOTE]
 >

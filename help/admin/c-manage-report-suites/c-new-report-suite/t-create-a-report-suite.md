@@ -6,13 +6,13 @@ exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
 source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # 创建报表包
 
-报表包是一种数据存储库，Adobe Analytics 使用报表包提取单个报表。一个组织可以有多个报表包，每个报表包中包含不同的数据集。过去，有必要设置多个独立报表包，但现在单个报表包的优势变得日益凸显。通过引入[虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites)和报表时间处理，管理员可创建您自己的数据子集，使得可灵活地获取全局数据和站点专属数据。
+报表包是一种数据存储库，Adobe Analytics 使用报表包提取单个报表。一个组织可以有多个报表包，每个报表包中包含不同的数据集。过去，有必要设置多个独立报表包，但现在单个报表包的优势变得日益凸显。通过引入[虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-Hans#virtual-report-suites)和报表时间处理，管理员可创建您自己的数据子集，使得可灵活地获取全局数据和站点专属数据。
 
 本文旨在帮助系统级别管理员或 Adobe Analytics 管理员为数据收集做好准备。
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
 1. 单击&#x200B;**[!UICONTROL 新建]**>**[!UICONTROL 报表包]**。
-1. 选择预定义的模板或现有报表包以用作 [模板](../c-report-suite-templates/report-suite-templates.md).
+1. 选择要用作[模板](../c-report-suite-templates/report-suite-templates.md)的预定义模板或现有报表包。
 
    >[!NOTE]
    >
