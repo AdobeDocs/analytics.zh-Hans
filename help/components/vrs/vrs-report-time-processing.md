@@ -5,10 +5,10 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: a2d3336ec89823a764ce073526836b6af70f0b76
-workflow-type: ht
-source-wordcount: '1443'
-ht-degree: 100%
+source-git-commit: 00577a87f1f6ec69619dd17f18597dabe4c59bd2
+workflow-type: tm+mt
+source-wordcount: '1521'
+ht-degree: 94%
 
 ---
 
@@ -88,3 +88,4 @@ ht-degree: 100%
 * **非促销 eVar/保留 eVar：**&#x200B;由于报表时间处理存在日期时限，因此，仅当 eVar 中的值在报表日期范围内设置时，才会持久保留该值。此外，如果持久保留时间跨越夏令时变更，则基于时间的过期可能会提前一小时或延后一小时。
 * **促销 eVar/保留 eVar：**&#x200B;请参阅上文。此外，对于将绑定设置为“任何事件”的转化语法，将改用“任何点击”。
 * **点击类型：**&#x200B;此维度指定点击是前台点击还是后台点击。
+* **Dimension具有（低流量）或“超出的唯一值”：** 使用报表时间处理时，（低流量）行项目的确定方式略有不同，并且不能保证与在基本报表包上报告时观察到的内容相匹配。 此外，与基本报表包不同，不属于低流量的维度行项目不保证表示该行项目的100%数据。 维度中唯一值的数量越大，这些差异就越明显。
