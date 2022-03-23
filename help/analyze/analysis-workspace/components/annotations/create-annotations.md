@@ -4,10 +4,10 @@ description: 如何在工作区中创建注释。
 role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: ce2e7352793384e2b7561498cbbaae973c661e66
+source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 96%
+source-wordcount: '597'
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->此功能当前正在进行小范围测试。
+>此功能的逐步推出将于2022年3月23日开始。 正式发布：2022年4月11日。
 
 1. 要创建注释，有若干方法可使用：
 

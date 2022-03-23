@@ -4,10 +4,10 @@ description: 如何在工作区中管理注释。
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 75cf6b9898e4afd1f10d7ee2f08f148219965343
-workflow-type: ht
-source-wordcount: '684'
-ht-degree: 100%
+source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
+workflow-type: tm+mt
+source-wordcount: '687'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->此功能当前正在进行小范围测试。
+>此功能的逐步推出将于2022年3月23日开始。 正式发布：2022年4月11日。
 
 [!UICONTROL 组件] > [!UICONTROL 注释]管理器提供了许多种管理注释的方式，例如共享、筛选、标记、审批、复制、删除和标记为收藏。
 
