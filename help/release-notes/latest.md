@@ -3,9 +3,9 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f3b62096b481bda29946ccb091771157dce41d9d
+source-git-commit: a6fc5b196e91803506398816ac24ae7a495a8e0a
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1012'
 ht-degree: 78%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 78%
 
 | 功能 | 描述 | [预定日期](releases.md) |
 | ----------- | ---------- | ------- |
-| 工作区注释 | 工作区注释使您能够有效地将上下文数据的细微差别和见解传达给您的组织。[了解详情](/help/analyze/analysis-workspace/components/annotations/overview.md) | 2022年3月23日开始逐步推出 |
+| 工作区注释 | 工作区注释使您能够有效地将上下文数据的细微差别和见解传达给您的组织。[了解详情](/help/analyze/analysis-workspace/components/annotations/overview.md) | 2022年3月23日开始逐步推出。 正式发布：2022年4月11日 |
 | 全新 Adobe Analytics 登陆页面 | 对工作区/Reports &amp; Analytics联合登陆页面进行了更新，提高了可用性和导航方便性。 [了解详情](/help/analyze/landing.md) | 2022年4月1日 |
 | [!UICONTROL 下一项] 或 [!UICONTROL 上一项目] 工作区面板 | 的 [!UICONTROL 下一项或上一项] 面板允许您浏览所选维度项目之后或之前的项目。 例如，如果您想要查看特定产品页面、营销渠道，甚至设备类型的下一页或上一页，请使用它。 此面板不仅适用于旧版的下一个/上一个报表，因为它允许您查看任何维度，并且不需要任何新实施即可获得洞察。 | 2022年4月1日 |
 | [!UICONTROL 页面摘要] 工作区面板 | 的 [!UICONTROL 页面摘要] 面板为您选择的页面提供了深入分析。 它提供的详细信息与旧版Reports &amp; Analytics相同 [!UICONTROL 页面摘要] 报告，以及更多内容。 | 2022年4月1日 |
