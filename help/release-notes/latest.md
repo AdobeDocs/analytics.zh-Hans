@@ -3,9 +3,9 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: a6fc5b196e91803506398816ac24ae7a495a8e0a
+source-git-commit: 0eb88df05909be28877ac266655f7959cc086044
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1001'
 ht-degree: 78%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 78%
 # 当前的 Adobe Analytics 发行说明（2022 年 3 月）
 
 **上次更新日期：2022 年 3 月 23 日**
-
->[!IMPORTANT]
->
->以下内容包含可能会发生变化的预发行信息。
 
 * 有关 2022 年 2 月版发行说明，请转到 [此处](/help/release-notes/2022.md)。
 * 了解 [Adobe Experience Cloud 产品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新版本更新。在 Experience League 上获取最新的自助文档、教程和课程。
