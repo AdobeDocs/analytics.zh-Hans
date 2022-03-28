@@ -1,13 +1,13 @@
 ---
 description: 实施 Audience Analytics 时可能遇到的问题的解答。
 solution: Experience Cloud
-title: 有关Audience Analytics的常见问题解答
+title: Audience Analytics 常见问题解答。
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1094'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
