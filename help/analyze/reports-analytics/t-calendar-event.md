@@ -1,14 +1,14 @@
 ---
 description: 添加日历事件和管理共享事件的步骤。
-title: 添加和管理日历事件
+title: 添加和管理日程表事件
 uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
 feature: Calendar
 role: User, Admin
 exl-id: e89be5ce-3ec0-4b2d-8574-7bd2041ed18a
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
