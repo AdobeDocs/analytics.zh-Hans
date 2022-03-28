@@ -1,12 +1,12 @@
 ---
 description: “数据源”功能允许您将数据从离线资源导入 Analytics。导入后，对这些数据的处理方式即类似于从本地收集的数据。
-title: 数据源 对于管理员
+title: 数据源适用于管理员
 feature: Admin Tools
 exl-id: 540c7342-64e1-41e3-9ee9-270a2a0a5008
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '167'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
