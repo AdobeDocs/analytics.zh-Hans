@@ -1,12 +1,12 @@
 ---
-title: 页面未找到（量度）
+title: 未找到页面（指标）
 description: 包含错误的点击数。
 feature: Metrics
 exl-id: 71e138b5-69bb-41b0-852c-ca4af22be1f3
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '110'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
