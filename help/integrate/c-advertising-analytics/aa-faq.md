@@ -1,12 +1,12 @@
 ---
 description: 围绕 Advertising Analytics 的常见问题。
-title: Advertising Analytics常见问题解答
+title: Advertising analytics 常见问题解答
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1414'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
