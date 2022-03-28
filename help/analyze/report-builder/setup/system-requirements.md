@@ -1,20 +1,20 @@
 ---
-description: 系统建议和先决条件。
-title: 系统要求 Report Builder
+description: 系统推荐和先决条件。
+title: 系统要求适用于 Report Builder
 uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
 feature: Report Builder
 role: User, Admin
 exl-id: ef11dde4-084d-45b6-a6a3-ca7d3a1f0ff6
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '68'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # 系统要求
 
-系统建议和先决条件。
+系统推荐和先决条件。
 
 * Windows XP 或更高版本
 * 32 位或 64 位 Microsoft Excel 2007 或更高版本
