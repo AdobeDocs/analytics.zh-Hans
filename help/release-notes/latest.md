@@ -3,16 +3,16 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 0eb88df05909be28877ac266655f7959cc086044
+source-git-commit: ce607610516a94e4d0fbbc53a1f8f53f5977a777
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 86%
+source-wordcount: '1115'
+ht-degree: 77%
 
 ---
 
 # 当前的 Adobe Analytics 发行说明（2022 年 3 月）
 
-**上次更新日期：2022 年 3 月 23 日**
+**上次更新日期：2022 年 3 月 28 日**
 
 * 有关 2022 年 2 月版发行说明，请转到 [此处](/help/release-notes/2022.md)。
 * 了解 [Adobe Experience Cloud 产品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新版本更新。在 Experience League 上获取最新的自助文档、教程和课程。
@@ -47,6 +47,7 @@ AN-256929；AN-270937；AN-272158；AN-275130；AN-277830；AN-278635；AN-27906
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
+| 更新了某些客户支持的浏览器加密方法 | 2022 年 28 月 3 日 | Adobe提供两个密码安全级别，以满足客户对第一方数据收集安全性的不同需求。 开 **2022年6月23日** 对于安全级别设置为“High”的客户，我们将删除对某些HTTPS加密算法（称为密码）的支持。 这意味着某些旧版操作系统将无法再将数据发送到Analytics，因为它们不支持现代加密方法。 使用默认“标准”密码安全设置的客户将不会受到影响。 已直接联系所有当前使用“高”设置的客户。 有关受此更改影响的密码的详细列表，请参阅 [此处](/help/technotes/rdc/encryption-algos.md). |
 | 暂停旧版计划报告 | 2022 年 3 月 11 日 | 从 **2022 年 4 月 15 日**&#x200B;起，Adobe 打算暂停所有创建日期超过两年的计划报告（2020 年 1 月 31 日前创建的任何任务）。任何报告或数据都不会被删除。只有确认创建超过两年的报告才会暂停，并且不会发送额外的计划报告。[了解详情](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
 | 2022 年 ISO 区域更新 | 2021 年 3 月 11 日 | Adobe 将在&#x200B;**2022 年 6 月 10 日**&#x200B;执行 2022 年 ISO 区域更新。预计在这个版本之后将看到小规模更新。 |
 | 改变 Analytics 处理 Experience Edge 收集的 A4T 数据的方式 | 2022 年 2 月 25 日 | 我们在 **2022 年 3 月 7 日**&#x200B;改变了如何处理通过 Experience Edge 发给 Adobe Analytics 的某些与 Target 相关的数据。在将 Adobe Experience Platform Web SDK 与 Analytics 和 Target 结合使用时，一些个性化事件被计入[!DNL Adobe Analytics][!UICONTROL 页面查看]。这导致页面查看量增加，并导致额外的服务器调用。经过该更改后，将忽略无 Analytics 内容的个性化调用。带有 A4T 数据的个性化调用将记录 A4T 数据，但不会记录为计费服务器调用，也不会影响页面查看或链接事件指标。 |
