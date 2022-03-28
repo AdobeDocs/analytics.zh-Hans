@@ -1,12 +1,12 @@
 ---
-title: eVar变量
+title: eVar 变量
 description: 可在实施中使用的自定义变量。
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
