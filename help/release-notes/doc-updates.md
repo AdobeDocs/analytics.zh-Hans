@@ -4,10 +4,10 @@ description: 对 Adobe Analytics 文档集的重要更新。
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
-source-wordcount: '2958'
-ht-degree: 100%
+source-git-commit: c6d211c4d163dd1458a8c298721243c4531d083a
+workflow-type: tm+mt
+source-wordcount: '3096'
+ht-degree: 97%
 
 ---
 
@@ -23,8 +23,16 @@ ht-degree: 100%
 
 | 日期 | 描述 |
 | --- | --- |
+| **2022 年 3 月** |  |
+| 有关工作区中批注的新文档 | [工作区注释使您能够有效地将上下文数据的细微差别和见解传达给您的组织。](/help/analyze/analysis-workspace/components/annotations/overview.md) |
+| 全新 Adobe Analytics 登陆页面 | [更新](/help/analyze/landing.md) 转到工作区/Reports &amp; Analytics联合登陆页面，以提高可用性和导航简便性。 |
+| [!UICONTROL 下一项] 或 [!UICONTROL 上一项目] 工作区面板 | 此面板允许您浏览所选维度项目后面或之前的项目。 |
+| [!UICONTROL 页面摘要] 工作区面板 | 此面板可为您选择的页面提供深入分析。 |
+| **2022 年 2 月** |  |
+| 移动记分卡项目预览模式 | 的 [预览模式](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#preview) 用于在保存和共享记分卡之前预览体验。 |
+| API 项目端点 | 使用 API 添加、编辑或删除 Analysis Workspace 项目。[了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | **2021 年 10 月** |  |
-| 2021 年 10 月 21 日 | 有关 Analysis Workspace 中的[快速区段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=zh-Hans)的新文档 |
+| 2021 年 10 月 21 日 | 有关 Analysis Workspace 中的[快速区段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html)的新文档 |
 | 2021 年 10 月 21 日 | 有关 Analysis Workspace 中的[媒体播放耗时](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=zh-Hans)面板的新文档。 |
 | 2021 年 10 月 7 日 | 有关[移动记分卡可视化](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-Hans#apply-visualizations)的新文档 |
 | **2021 年 8 月** |  |
@@ -69,7 +77,7 @@ ht-degree: 100%
 | 2020 年 10 月 23 日 | 向 Adobe Analytics 功能板文档添加了增强功能。在工作区中构建移动记分卡时，记分卡的样式现在与应用程序匹配。 |
 | **2020 年 9 月** |  |
 | 2020 年 9 月 17 日 | [下载单个维度的 5 万个项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hans#download-items)：现在可以为自由格式表中的单个维度下载 50,000 个项目，并应用区段和过滤器。这允许您访问 Analysis Workspace 以外的 400 多行数据。 |
-| 2020 年 9 月 17 日 | [折线图可视化图表的增强功能](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=zh-Hans)： <ul><li>可显示或隐藏任何[!UICONTROL 折线图]可视化图表的 X 轴和 Y 轴。如果想让[!UICONTROL 折线图]可视化图表显得更加紧凑，这项功能会特别有用。</li><li>您可以在任何折线图可视化图表上叠加最小值和最大值标签，以便快速突出显示指标中的高峰和低谷。</li><li>您可以在任何折线图可视化图表上叠加不同的回归趋势线，以便更轻松地查看数据趋势。相关选项包括[!UICONTROL 线性]、[!UICONTROL 对数]、[!UICONTROL 指数]、[!UICONTROL 幂]和[!UICONTROL 二次方程式]。</li></ul> |
+| 2020 年 9 月 17 日 | [折线图可视化图表的增强功能](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html)： <ul><li>可显示或隐藏任何[!UICONTROL 折线图]可视化图表的 X 轴和 Y 轴。如果想让[!UICONTROL 折线图]可视化图表显得更加紧凑，这项功能会特别有用。</li><li>您可以在任何折线图可视化图表上叠加最小值和最大值标签，以便快速突出显示指标中的高峰和低谷。</li><li>您可以在任何折线图可视化图表上叠加不同的回归趋势线，以便更轻松地查看数据趋势。相关选项包括[!UICONTROL 线性]、[!UICONTROL 对数]、[!UICONTROL 指数]、[!UICONTROL 幂]和[!UICONTROL 二次方程式]。</li></ul> |
 | 2020 年 9 月 17 日 | 工作区中的新日期范围：我们新增了 5 个日期范围（最近 7 天整、最近 14 天整、最近 30 天整、最近 60 天整、最近 90 天整），这样从现在开始，您就可以选择不包含部分日期数据的日期范围 |
 | 2020 年 9 月 17 日 | 新增有关[工作区中的“媒体并行查看者”面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html?lang=zh-Hans)的文档 |
 | **2020 年 8 月** |  |
@@ -84,8 +92,8 @@ ht-degree: 100%
 | 2020 年 6 月 18 日 | 新增有关 [Attribution IQ：自定义回溯时段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=zh-Hans#lookback-windows)的文档 |
 | 2020 年 6 月 18 日 | 新增有关共享工作区项目的[项目角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans)的文档。现在，在共享工作区项目时，您可以根据希望收件人获得的项目体验为收件人分配以下三个项目角色中的一个角色：“编辑”、“复制”和“查看”。 |
 | 2020 年 6 月 18 日 | 新增有关[“仅查看”工作区项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=zh-Hans)的文档。只能将项目以“可以查看”的形式共享给用户。当具有查看角色的收件人打开共享项目时，他们将会获得较为受限的项目体验，即，无左边栏而且只能进行有限的交互。 |
-| 2020 年 6 月 18 日 | 新增有关共享工作区项目的[项目角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans)的文档。现在，在共享工作区项目时，您可以根据希望收件人获得的项目体验为收件人分配以下三个项目角色中的一个角色：“编辑”、“复制”和“查看”。 |
-| 2020 年 6 月 18 日 | 新增有关[协同编辑工作区项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans)的文档。添加到“可以编辑”角色的收件人可以保存已共享给他们的项目。这同时适用于管理员和非管理员用户。 |
+| 2020 年 6 月 18 日 | 新增有关共享工作区项目的[项目角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)的文档。现在，在共享工作区项目时，您可以根据希望收件人获得的项目体验为收件人分配以下三个项目角色中的一个角色：“编辑”、“复制”和“查看”。 |
+| 2020 年 6 月 18 日 | 新增有关[协同编辑工作区项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)的文档。添加到“可以编辑”角色的收件人可以保存已共享给他们的项目。这同时适用于管理员和非管理员用户。 |
 | **2020 年 5 月** |  |
 | 2020 年 5 月 31 日 | 新增有关 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 的文档 |
 | 2020 年 5 月 21 日 | 新增有关 [Adobe Analytics 功能板](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=zh-Hans)的文档 |
@@ -120,10 +128,10 @@ ht-degree: 100%
 | 2020 年 12 月 19 日 | 已将默认 [FTP 数据存储限制](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=zh-Hans)更改为 10 GB。 |
 | 2019 年 11 月 29 日 | 全面修订了[数据馈送文档](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 2019 年 11 月 25 日 | 新增了有关强制 IP 登录限制终止使用的主题。 |
-| 2019 年 11 月 21 日 | 新增了 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=zh-Hans) 文档集 |
+| 2019 年 11 月 21 日 | 新增了 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html) 文档集 |
 | 2019 年 11 月 21 日 | 更新了 [Audience Analytics 工作流程常见问题解答](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=zh-Hans)以指示 LiveStream 中的可用性。 |
 | 2019 年 10 月 25 日 | 更新了 [Adobe Analytics 关键概念](/help/technotes/terms.md)页面。 |
-| 2019 年 10 月 10 日 | 更新了自由格式表总计：它们现在包含两个总计，即&#x200B;**[!UICONTROL 表总计]**&#x200B;和&#x200B;**[!UICONTROL 全部总计]**。表格总计行会将已应用的[报表过滤器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=zh-Hans)计入在内。以前，只有区段会影响总数的计算。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=zh-Hans)<br/>，此外，**[!UICONTROL ￼显示总数]**&#x200B;和&#x200B;**[!UICONTROL 显示总计]**&#x200B;选项已添加到&#x200B;**[!UICONTROL 列设置]**&#x200B;中。<br/>鉴于自由格式表的这项变化，与之相关的可视化图表（例如关联的&#x200B;**[!UICONTROL 概要数字]**&#x200B;可视化图表）也将进行相应的更新，导出的 CSV 和 PDF 数据同样也会更新。 |
+| 2019 年 10 月 10 日 | 更新了自由格式表总计：它们现在包含两个总计，即&#x200B;**[!UICONTROL 表总计]**&#x200B;和&#x200B;**[!UICONTROL 全部总计]**。表格总计行会将已应用的[报表过滤器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=zh-Hans)计入在内。以前，只有区段会影响总数的计算。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=zh-Hans)<br/>，此外，**[!UICONTROL ￼显示总数]**&#x200B;和&#x200B;**[!UICONTROL 显示总计]**&#x200B;选项已添加到&#x200B;**[!UICONTROL 列设置]**&#x200B;中。<br/>鉴于自由格式表的这项变化，与之相关的可视化图表（例如关联的&#x200B;**[!UICONTROL 摘要数字]**&#x200B;可视化图表）也将进行相应的更新，导出的 CSV 和 PDF 数据同样也会更新。 |
 | 2019 年 10 月 10 日 | 在工作区中，已将用于轻松删除“未指定（无）”的功能作为选项添加到报表过滤器。 |
 | 2019 年 10 月 10 日 | 在工作区中，紫色粒度组件（分钟、小时、天、周、月、季度、年）已被弃用。即使之前使用了某个紫色时间组件，您也&#x200B;**无需执行任何操作**。<br/>此外，根据这项变化，紫色的&#x200B;**[!UICONTROL 时间]**&#x200B;部分已重命名为&#x200B;**[!UICONTROL 日期范围]**。 |
 | 2019 年 10 月 1 日 | 新增有关[工作区总计](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html?lang=zh-Hans#cja-workspace)的文章。 |
