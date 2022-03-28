@@ -1,12 +1,12 @@
 ---
-title: eVar（促销），用于Dimension
+title: 维度 eVar（促销）
 description: 与产品维度关联的自定义变量。
 feature: Dimensions
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
