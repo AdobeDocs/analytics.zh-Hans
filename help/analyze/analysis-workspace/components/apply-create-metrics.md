@@ -1,13 +1,13 @@
 ---
-description: 可通过两种方式在 Analysis Workspace 中使用量度。
-title: Analysis Workspace中的量度
+description: 有两种方式可使用 Analysis Workspace 中的指标。
+title: Analysis Workspace 中的指标
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
