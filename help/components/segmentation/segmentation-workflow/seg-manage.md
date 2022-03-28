@@ -1,10 +1,10 @@
 ---
 description: 区段管理器提供多种编排区段的方式，如共享、过滤、标记、批准、复制、删除和标记为收藏。
-title: 管理区段 (区段管理器)
+title: 管理区段（区段管理器）
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
 ht-degree: 100%
 
