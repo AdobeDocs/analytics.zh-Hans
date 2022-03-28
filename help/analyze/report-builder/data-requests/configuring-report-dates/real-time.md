@@ -6,15 +6,15 @@ feature: Report Builder
 role: User, Admin
 exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # 实时报表
 
-实时显示网页流量并对页面查看次数进行排名，以便更快地了解您网站上的趋势。
+实时显示网页流量并为页面查看次数排名，以使您更快了解您网站上的趋势。
 
 对于实时报告，Analytics 使用高频率量度和网站分析，直观地报告动态新闻和零售网站的流量及页面查看趋势。只需数秒钟进行收集，即可时时刻刻看到数据的实时趋势。它通过对内容和某些转换进行实时关联和跟踪，来收集数据并将数据传输到界面。
 
@@ -29,4 +29,4 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->[!UICONTROL 实时报表]与以前发布的[包括当前数据](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/options.html)（“数据新近度”）功能不同，后者通过在最终确定数据之前显示数据来减少标准报告的延迟。
+>[!UICONTROL 实时报表]与以前发布的[包括当前数据](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/options.html)（数据回访间隔）功能不同，后者通过在最终确定数据之前显示数据而降低标准报表的延迟。
