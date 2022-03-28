@@ -4,9 +4,9 @@ description: 在您的网站上返回错误的 URL。
 feature: Dimensions
 exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '215'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
