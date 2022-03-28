@@ -1,12 +1,12 @@
 ---
-title: 单页面访问量（维度）
+title: 单页访问次数（维度）
 description: 指示访问只包含单个页面的标志。
 feature: Dimensions
 exl-id: f7b58941-add4-4e7b-8645-a64280fd9dcb
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '144'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
