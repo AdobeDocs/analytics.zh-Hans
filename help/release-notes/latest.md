@@ -3,9 +3,9 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c6d211c4d163dd1458a8c298721243c4531d083a
+source-git-commit: 533c323b8be651eca14a88641aa4a82705305297
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1102'
 ht-degree: 77%
 
 ---
@@ -35,7 +35,6 @@ ht-degree: 77%
 * 修复了 A4T 工作区面板的问题。（AN-281594；AN-282418）
 * 修复了一些用户无法访问 Adobe Analytics 的问题。(AN-282776)
 * 修复了一些新创建的报表包未收集数据的问题。（AN-283114、AN-283311）
-* 修复了无法使用操作系统维度检测 Win11 的问题。（AN-275569、AN-275727；AN-280335）
 * 修复了错误发送数据馈送电子邮件的问题。（AN-280255；AN-282051）
 
 
