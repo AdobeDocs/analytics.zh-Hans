@@ -4,9 +4,9 @@ description: 访问逗留的总时间。
 feature: Dimensions
 exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '303'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
