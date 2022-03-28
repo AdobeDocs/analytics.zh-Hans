@@ -4,9 +4,9 @@ title: 警报生成器概述
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
