@@ -4,7 +4,7 @@ description: 帮助 AppMeasurement 了解当您的域的后缀中有句点时，
 feature: Variables
 exl-id: e994a188-1dab-4bf0-912b-cd2f6a1032e0
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '266'
 ht-degree: 100%
 
