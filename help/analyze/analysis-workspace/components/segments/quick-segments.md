@@ -4,10 +4,10 @@ title: 快速区段
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: a79fe36f009984a8b343e98a915f867b56a519fb
-workflow-type: ht
-source-wordcount: '878'
-ht-degree: 100%
+source-git-commit: 7434a941f3e5a47a3f5d5a28320a3fc396dd3740
+workflow-type: tm+mt
+source-wordcount: '886'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 100%
 * 不容纳嵌套容器或顺序规则。
 
 要比较快速区段与完整的组件列表区段的作用，请转到[此处](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)。
+
+以下是快速区段的视频概述：
+
+>[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
 
 ## 先决条件
 
