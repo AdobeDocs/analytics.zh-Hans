@@ -5,9 +5,9 @@ role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
 source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '597'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->此功能的逐步推出将于2022年3月23日开始。 正式发布：2022年4月11日。
+>将于 2022 年 3 月 23 日开始逐步推出此功能。正式发布：2022 年 4 月 11 日。
 
 1. 要创建注释，有若干方法可使用：
 
@@ -33,7 +33,7 @@ ht-degree: 95%
 
    | 元素 | 描述 |
    | --- | --- |
-   | [!UICONTROL 仅项目注释] | 默认情况下，注释应用于当前项目。勾选此框后，注释便可用于您拥有的所有项目。<p> ![](assets/project-only.png) |
+   | [!UICONTROL 仅用于项目的注释] | 默认情况下，注释应用于当前项目。通过选中此框，您可以使注释可用于您负责的所有项目。<p> ![](assets/project-only.png) |
    | [!UICONTROL 标题] | 为注释命名，例如“Memorial Day” |
    | [!UICONTROL 描述] | （可选）提供注释的描述，例如“美国的公共假日”。 |
    | [!UICONTROL 标记] | （可选）通过创建或应用标记来整理注释。 |
