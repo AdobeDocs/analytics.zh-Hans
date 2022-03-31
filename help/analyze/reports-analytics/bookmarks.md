@@ -7,9 +7,9 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 8b923484-0988-4271-8186-317bb33f2210
 source-git-commit: 029c6b168756448d01d73dd5e92cbe9df70e3f57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '326'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 书签]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 书签]**。
 
 **我的书签**
 
