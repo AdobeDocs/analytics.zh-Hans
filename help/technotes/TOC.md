@@ -5,9 +5,9 @@ user-guide-title: Analytics 技术说明
 breadcrumb-title: 技术说明
 user-guide-description: 包含不属于特定分析工具或组件的有用文章的知识库。
 source-git-commit: ce607610516a94e4d0fbbc53a1f8f53f5977a777
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '200'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 98%
 + 地区数据收集 {#rdc}
    + [地区数据收集帮助](rdc/regional-data-collection.md)
    + [SSL 认证许可](rdc/ssl-cert-licensing.md)
-   + [支持的HTTPS加密算法](rdc/encryption-algos.md)
+   + [支持的 HTTPS 加密算法](rdc/encryption-algos.md)
 + [安全资源](security.md)
 + [使用的术语（术语表）](terms.md)
 + [可选时间戳](timestamps-optional.md)
