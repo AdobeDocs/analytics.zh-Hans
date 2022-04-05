@@ -3,10 +3,10 @@ description: 如何通过 FTP 上传数据文件。
 title: FTP 导入
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '716'
-ht-degree: 100%
+source-git-commit: 5edf3e6684b3572616f76db3f7c3bf0cf58ed408
+workflow-type: tm+mt
+source-wordcount: '735'
+ht-degree: 97%
 
 ---
 
@@ -55,6 +55,8 @@ ht-degree: 100%
    FIN 文件是一个与您的数据文件同名的空文件，扩展名为 [!DNL .fin]。例如，如果您的数据文件为 [!DNL classdata1.tab]，则 文件名为 [!DNL classdata1.fin].fin。
 
 Adobe 会定期检索已上传的具有关联 FIN 文件的数据文件。然后，Adobe 会将其导入 FTP 帐户配置中指定的报表包和数据集中。
+
+在Adobe Analytics读取并处理了FTP文件夹中上传的文件后，这些文件便会自动删除。
 
 ## 创建 FTP 帐户 {#task_C019268E6C934C7C95F4326F42A22CCF}
 
