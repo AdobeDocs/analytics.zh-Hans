@@ -3,16 +3,16 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 433a750ddf4aca56fd9fbe5ec2482f66cf45125f
+source-git-commit: 14881de9527796430f13199a6fc5d06452a94a60
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 89%
+source-wordcount: '1141'
+ht-degree: 88%
 
 ---
 
 # 当前的 Adobe Analytics 发行说明（2022 年 3 月）
 
-**上次更新日期：2022 年 3 月 31 日**
+**上次更新时间：2022年4月6日**
 
 * 有关 2022 年 2 月版发行说明，请转到 [此处](/help/release-notes/2022.md)。
 * 有关Customer Journey Analytics发行说明，请转到 [此处](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hans)
@@ -21,12 +21,14 @@ ht-degree: 89%
 
 ## Adobe Analytics 中的新增功能 {#aa-features}
 
+**上次更新时间：2022年4月6日**
+
 | 功能 | 描述 | [预定日期](releases.md) |
 | ----------- | ---------- | ------- |
 | 工作区注释 | 工作区注释使您能够有效地将上下文数据的细微差别和见解传达给您的组织。[了解详情](/help/analyze/analysis-workspace/components/annotations/overview.md) | 将于 2022 年 3 月 23 日开始逐步推出。正式发布：2022 年 4 月 11 日 |
 | 全新 Adobe Analytics 登陆页面 | 更新联合工作区/Reports &amp; Analytics 登录页面，提高可用性和导航的便利性。[了解详情](/help/analyze/landing.md) | 2022 年 4 月 1 日 |
-| [!UICONTROL 下一个项目]或[!UICONTROL 上一个项目]工作区面板 | [!UICONTROL 下一个或上一个项目]面板允许您浏览您选择的维度项目之后或之前的项目。例如，如果您想查看特定产品页面、营销渠道甚至设备类型的下一个或上一个页面，请使用它。该面板超越了传统的下一个/上一个报告，因为它允许您查看任何维度并且不需要任何新的实施来获得见解。 | 2022 年 4 月 1 日 |
-| [!UICONTROL 页面摘要]工作区面板 | [!UICONTROL 页面摘要]面板为您选择的页面提供深入分析。它提供与旧版 Reports &amp; Analytics [!UICONTROL 页面摘要]报告相同以及更多信息。 | 2022 年 4 月 1 日 |
+| [!UICONTROL 下一个项目]或[!UICONTROL 上一个项目]工作区面板 | [!UICONTROL 下一个或上一个项目]面板允许您浏览您选择的维度项目之后或之前的项目。例如，如果您想查看特定产品页面、营销渠道甚至设备类型的下一个或上一个页面，请使用它。该面板超越了传统的下一个/上一个报告，因为它允许您查看任何维度并且不需要任何新的实施来获得见解。 | 2022 年 4 月 20 日 |
+| [!UICONTROL 页面摘要]工作区面板 | [!UICONTROL 页面摘要]面板为您选择的页面提供深入分析。它提供与旧版 Reports &amp; Analytics [!UICONTROL 页面摘要]报告相同以及更多信息。 | 2022 年 4 月 20 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
