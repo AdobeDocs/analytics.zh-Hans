@@ -4,10 +4,10 @@ description: 如何在工作区中创建注释。
 role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
-workflow-type: ht
-source-wordcount: '597'
-ht-degree: 100%
+source-git-commit: 6a63c480220fa963cf1dc00acdd5e482dc2bab38
+workflow-type: tm+mt
+source-wordcount: '640'
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 100%
 | **右键单击[!UICONTROL 折线]图上的某个点。** | 随后将打开[!UICONTROL 注释生成器]。请注意，默认情况下，以这种方式创建的注释仅在创建它们的项目中可见。但是您可以使它们可用于所有项目。另请注意，已填充日期和任何指标等。<p>![](assets/annotate-line.png) |
 | **在工作区中，转到[!UICONTROL 组件] > [!UICONTROL 创建注释]。** | 随后将打开[!UICONTROL 注释生成器]。 |
 | **使用此热键**&#x200B;打开注释生成器：(PC) `ctrl` `shift` + o、(Mac) `shift` + `command` + o | 请注意，使用热键创建注释，您只是为当前日期创建单日注释，并无任何预先选择的范围（指标或维度）。 |
+| **使用 [2.0批注API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/annotations/)** | Analytics 2.0注释API允许您通过Adobe I/O以编程方式创建、更新或检索注释。这些API使用的数据和方法与Adobe在产品UI中使用的数据和方法相同。 |
 
 1. 填写[!UICONTROL 注释生成器]的各个元素。
 
