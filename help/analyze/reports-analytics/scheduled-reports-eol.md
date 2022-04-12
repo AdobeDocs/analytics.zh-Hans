@@ -4,8 +4,8 @@ description: Adobe 打算暂停所有创建日期超过两年的计划报告。
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
-source-git-commit: a08865a94b7d9bf602e8de8c7f8d2af2fb80ff0e
-workflow-type: ht
+source-git-commit: 64b239d0807f68ee7e60c94a81a08c46a55fecf8
+workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 计划报告的生命周期结束通知
 
-从 2022 年 4 月 15 日起，Adobe 打算暂停所有创建日期超过两年的计划报告（2020 年 1 月 31 日前创建的任何任务）。任何报告或数据都不会被删除。只有确认创建超过两年的报告才会暂停，并且不会发送额外的计划报告。
+从 2022 年 4 月 21 日起，Adobe 打算暂停所有创建日期超过两年的计划报告（2020 年 1 月 31 日前创建的任何任务）。任何报告或数据都不会被删除。只有确认创建超过两年的报告才会暂停，并且不会发送额外的计划报告。
 
 只需登录 Analytics 并打开[!UICONTROL 计划报告]，即可重新激活任何仍要发送的计划报告。点击[!UICONTROL 编辑] 图标并设置新的计划时间和到期日期。任何重新激活的报表都将拥有 9 个月默认到期日期，除非选择更短的到期日期。
 

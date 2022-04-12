@@ -4,8 +4,8 @@ title: 计划任务管理器
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 91d94ba33328f0ac5fba09cdafb26f58733b4d58
-workflow-type: ht
+source-git-commit: 64b239d0807f68ee7e60c94a81a08c46a55fecf8
+workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## 暂停旧版计划任务
 
-从 **2022 年 4 月 15 日**&#x200B;起，Adobe 打算暂停所有创建日期超过两年的计划 Report Builder 任务。具体而言，这一暂停适用于 **2020 年 1 月 31 日之前创建的任何任务**。任何任务、工作簿或数据都不会被删除。超过两年的任务将暂停，并且不会发送其他计划任务。
+从 **2022 年 4 月 21 日**&#x200B;起，Adobe 打算暂停所有创建日期超过两年的计划 Report Builder 任务。具体而言，这一暂停适用于 **2020 年 1 月 31 日之前创建的任何任务**。任何任务、工作簿或数据都不会被删除。超过两年的任务将暂停，并且不会发送其他计划任务。
 
 您希望继续发送的任何任务都可以重新激活。登录 Report Builder，启动[!UICONTROL 计划任务管理器]。若您想继续发送任何计划任务，请点击&#x200B;**[!UICONTROL 重新激活]**。任何重新激活的任务都将拥有 18 个月默认到期日期，除非选择更短的到期日期。
 
