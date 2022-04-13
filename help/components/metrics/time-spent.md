@@ -3,10 +3,10 @@ title: 在 Adobe Analytics 中如何计算逗留时间
 description: 逗留时间维度和指标的汇总页面。
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
-source-wordcount: '1581'
-ht-degree: 100%
+source-git-commit: de08ad32d36219ccd7da5470e5821de565bed18b
+workflow-type: tm+mt
+source-wordcount: '1617'
+ht-degree: 94%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 100%
 | 指标 | 定义 | 适用的功能领域 |
 |---|---|---|
 | [!UICONTROL 所用总秒数] | 表示访客与特定维度项目交互所用的总时间。包括所有后续点击中的值和持久性的实例。对于 prop，也会在后续链接事件中统计逗留时间。 | Analysis Workspace、Reports &amp; Analytics、Report Builder（称为“总逗留时间”）、Data Warehouse |
-| [!UICONTROL 每次访问逗留时间]（秒） | *所用总秒数/（访问次数 — 跳出次数）*<br>&#x200B;表示访客在每次访问期间与特定维度项目交互所用的平均时间。 | Analysis Workspace、Reports &amp; Analytics |
-| [!UICONTROL 每位访客逗留时间]（秒） | *所用总秒数/独特访客*<br>&#x200B;表示在访客的存留期（访客 Cookie 的时长）内，访客与特定维度项目交互所用的平均时间。 | Analysis Workspace、Reports &amp; Analytics |
+| [!UICONTROL 每次访问逗留时间]（秒） | 大约 *所用总秒数/（访问次数 — 跳出次数）*<br>&#x200B;表示访客在每次访问期间与特定维度项目交互的平均时间。 **注意**:此量度无法单独计算，因为此函数的分母是内部量度。 | Analysis Workspace、Reports &amp; Analytics |
+| [!UICONTROL 每位访客逗留时间]（秒） | 大约 *所用总秒数/独特访客*<br>&#x200B;表示访客在访客的生命周期（访客Cookie的长度）中与特定维度项目交互的平均时间。 **注意**:此量度无法单独计算，因为此函数的分母是内部量度。 | Analysis Workspace、Reports &amp; Analytics |
 | [!UICONTROL 网站平均逗留时间]（秒） | 表示访客与特定维度项目交互所用的总时间，其中每个序列包含一个维度项目。它并非像其名称所暗示的那样仅限于“网站”平均值。有关序列的详细信息，请参阅“‘逗留时间’的计算方式”部分。<br>**注意**：由于计算中所用的分母不同，因此，此指标很可能会与维度项目级别的“每次访问逗留时间”有所不同。 | Analysis Workspace、Reports &amp; Analytics（以分钟为单位显示）、Report Builder（以分钟为单位显示） |
 | [!UICONTROL 网站平均逗留时间] | 这与&#x200B;*平均网站逗留时间（秒）*&#x200B;指标相同，但采用的时间格式为 hh:mm:ss | Analysis Workspace |
 | [!UICONTROL 页面平均逗留时间] | 已弃用的指标。<br>如果需要维度项目的平均时间，我们建议您使用“网站平均逗留时间”。 | Report Builder（当请求中包含维度时） |
