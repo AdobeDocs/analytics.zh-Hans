@@ -2,10 +2,10 @@
 title: Cross-Device Analytics 常见问题解答
 description: Cross-Device Analytics 常见问题解答
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: a99ef87e9b131beba3fceb8dbb98da503a9d528d
-workflow-type: ht
-source-wordcount: '1941'
-ht-degree: 100%
+source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+workflow-type: tm+mt
+source-wordcount: '1937'
+ht-degree: 98%
 
 ---
 
@@ -104,7 +104,7 @@ CDA 在为报表优化标识符变量维度项之前提取它们。不必担心�
 
 ## 可以为 CDA 启用多少个公司报表包？
 
-可以启用多个报表包，但是如果同时请求多个报表包，则每个其他报表包都会增加总体配置时间。CDA 不会合并报表包。本质上，为 CDA 启用的每个报表包都必须是跨设备报表包（包含来自多个表面的数据，例如桌面 Web、移动 Web、移动应用程序等）。
+自2022年5月1日起，每个客户对CDA的任何新实施将限制为最多三个报表包ID(RSID)。 CDA 不会合并报表包。本质上，为 CDA 启用的每个报表包都必须是跨设备报表包（包含来自多个表面的数据，例如桌面 Web、移动 Web、移动应用程序等）。 
 
 ## 如果我的 Experience Cloud 组织（也称为 IMS 组织）在不同地区有多家公司，我可以为所有公司启用 CDA 吗？
 

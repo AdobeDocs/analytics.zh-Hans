@@ -1,16 +1,16 @@
 ---
-title: 迁移到 Adobe Analytics 的常见问题解答。
+title: 迁移到Adobe Analytics的常见问题解答
 description: 获取从第三方平台转到 Adobe 时的常见问题解答。
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
-source-wordcount: '408'
-ht-degree: 100%
+source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 96%
 
 ---
 
-# 常见问题解答
+# 迁移到Adobe Analytics的常见问题解答
 
 **如何将历史数据从第三方平台迁移到 Adobe Analytics？**
 

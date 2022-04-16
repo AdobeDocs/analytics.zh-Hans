@@ -4,14 +4,14 @@ keywords: ftp;sftp
 title: 数据源概述
 feature: FTP Export
 exl-id: 777917bd-bd11-4360-a149-e4fd0bb2f99e
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
-source-wordcount: '451'
-ht-degree: 100%
+source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+workflow-type: tm+mt
+source-wordcount: '452'
+ht-degree: 99%
 
 ---
 
-# 数据源
+# 基于FTP的数据源
 
 您可以使用 Analytics 创建和管理基于 FTP 的数据源，它可以利用 FTP 文件传输将离线数据或历史数据导入 Experience Cloud。
 
