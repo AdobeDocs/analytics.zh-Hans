@@ -3,9 +3,9 @@ description: 页面摘要面板会显示您选择的页面的摘要信息。
 title: 页面摘要面板
 feature: Panels
 role: User, Admin
-source-git-commit: 62bc0da1de9303cb3a15731eac4f25ac294ddd4b
+source-git-commit: 4bb950350d258b8d608f6d95d37d7d860e23ed2c
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '469'
 ht-degree: 9%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 9%
 
 # 页面摘要面板
 
-的 [!UICONTROL 页面摘要] 在Reports &amp; Analytics中，单击报表>参与度>页面分析>页面摘要，以报表形式启动面板。 通过此工作区面板，您可以轻松浏览有关特定页面的关键统计信息。
+的 [!UICONTROL 页面摘要] 在Reports &amp; Analytics中，单击报表>参与度>页面分析>页面摘要，以报表形式启动面板。 它现在也是工作区面板。 通过此面板，您可以轻松浏览有关特定页面的关键统计信息。
 
 ## 访问面板
 
