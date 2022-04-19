@@ -3,7 +3,7 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 116acfa2c3b7f75a6157f0d86ab4c27ab0f82ad2
+source-git-commit: c101a98e2d2d73fecc39054289f516411d7d529a
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 73%
@@ -12,7 +12,7 @@ ht-degree: 73%
 
 # 最新Adobe Analytics发行说明（2022年4月）
 
-**上次更新**:2022年4月13日
+**上次更新**:2022年4月19日
 
 * 对于2022年3月版发行说明，请转至 [此处](/help/release-notes/2022.md).
 
