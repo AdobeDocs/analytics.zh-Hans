@@ -3,17 +3,17 @@ description: 显示特定维度的下一个或上一个维度项目的面板。
 title: 下一项或上一项面板
 feature: Panels
 role: User, Admin
-source-git-commit: d4106324f6716139731cc6bd948ef06b35303620
+source-git-commit: 73fa048164c67c6c381ce5e223bb178f9ab1833f
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 8%
+source-wordcount: '477'
+ht-degree: 7%
 
 ---
 
 
 # 下一项或上一项面板
 
-的 [!UICONTROL 下一个或上一个项目] 面板最初是作为Reports &amp; Analytics中的报表创建，位于 [!UICONTROL 报表] > [!UICONTROL 最受欢迎] > [!UICONTROL 下一页/上一页]. 此工作区面板包含许多表格和可视化图表，可轻松识别特定维度的下一个或上一个维度项目。 例如，
+的 [!UICONTROL 下一个或上一个项目] 面板最初是作为Reports &amp; Analytics中的报表创建，位于 [!UICONTROL 报表] > [!UICONTROL 最受欢迎] > [!UICONTROL 下一页/上一页]. 此工作区面板包含许多表格和可视化图表，可轻松识别特定维度的下一个或上一个维度项目。 例如，您可能希望了解客户访问主页后最常访问的页面。
 
 ## 访问面板
 
