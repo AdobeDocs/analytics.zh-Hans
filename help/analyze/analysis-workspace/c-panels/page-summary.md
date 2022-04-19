@@ -3,13 +3,13 @@ description: 页面摘要面板会显示您选择的页面的摘要信息。
 title: 页面摘要面板
 feature: Panels
 role: User, Admin
-source-git-commit: 4bb950350d258b8d608f6d95d37d7d860e23ed2c
+exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
+source-git-commit: 8e319511362ecdef9bbd7d0ee0b2a6607fe68605
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '473'
 ht-degree: 9%
 
 ---
-
 
 # 页面摘要面板
 
@@ -26,12 +26,12 @@ ht-degree: 9%
 
 ## 面板输入 {#Input}
 
-您可以配置 [!UICONTROL 下一个或上一个项目] 面板面板：使用以下输入设置：
+您可以配置 [!UICONTROL 页面摘要] 面板：
 
 | 设置 | 描述 |
 | --- | --- |
 | 区段（或其他组件）拖放区域 | 您可以拖放区段或其他组件以进一步过滤面板结果。 |
-| 页面维度项目 | 从下拉列表中，选择要浏览其关键统计信息的维度项目。 |
+| 页面维度项目 | 从下拉列表中，选择要浏览其关键统计信息的页面维度项目。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -56,3 +56,7 @@ ht-degree: 9%
 | [!UICONTROL 流] | 以选定页面作为焦点的流程图。 您可以像在任何 [流程图](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md). |
 
 {style=&quot;table-layout:auto&quot;}
+
+![页面摘要面板](assets/page-sum1.png)
+
+![量度和流量](assets/page-sum2.png)
