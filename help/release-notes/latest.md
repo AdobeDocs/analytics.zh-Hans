@@ -3,10 +3,10 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 62bc0da1de9303cb3a15731eac4f25ac294ddd4b
+source-git-commit: b93b27fac0a9e3364512bb8a27ad64c7eb379dd1
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 73%
+source-wordcount: '1021'
+ht-degree: 53%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 73%
 
 * 了解 [Adobe Experience Cloud 产品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新版本更新。在 Experience League 上获取最新的自助文档、教程和课程。
 
-
 | 功能 | 描述 | [预定日期](releases.md) |
 | ----------- | ---------- | ------- |
 | 全新 Adobe Analytics 登陆页面 | 更新联合工作区/Reports &amp; Analytics 登录页面，提高可用性和导航的便利性。[了解详情](/help/analyze/landing.md) | 2022 年 4 月 20 日 |
 | [!UICONTROL 下一个项目]或[!UICONTROL 上一个项目]工作区面板 | [!UICONTROL 下一个或上一个项目]面板允许您浏览您选择的维度项目之后或之前的项目。例如，如果您想查看特定产品页面、营销渠道甚至设备类型的下一个或上一个页面，请使用它。该面板超越了传统的下一个/上一个报告，因为它允许您查看任何维度并且不需要任何新的实施来获得见解。[了解详情](/help/analyze/analysis-workspace/c-panels/next-previous.md) | 2022 年 4 月 20 日 |
 | [!UICONTROL 页面摘要]工作区面板 | [!UICONTROL 页面摘要]面板为您选择的页面提供深入分析。它提供与旧版 Reports &amp; Analytics [!UICONTROL 页面摘要]报告相同以及更多信息。[了解详情](/help/analyze/analysis-workspace/c-panels/page-summary.md) | 2022 年 4 月 20 日 |
+| 删除了 `x-proxy-global-company-id` 2.0 API调用的标头 | Adobe Analytics 2.0 API不再需要 `x-proxy-global-company-id` 标头，因为此信息是端点URL的一部分。 您仍可以包含此标头，但如果缺少该标头，则不再引发错误。 | 2022 年 4 月 20 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -45,13 +45,13 @@ AN-274486;AN-279258;AN-279995;AN-280918;AN-281423;AN-282084;AN-282435;AN-283508;
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| **跨设备分析(CDA)权利** | 2022 年 4 月 13 日 | 有效 **2022年5月1日**，任何新实施 [CDA](/help/components/cda/overview.md) 将限制为每个客户最多三个报表包ID(RSID)。 |
-| **更改了Adobe Analytics处理通过Experience Edge收集的A4T数据的方式** | 2022 年 3 月 31 日 | 2022年3月7日，我们更改了处理来自Experience Edge的一些调用的方式，这些调用包括适用于Analytics for Target(A4T)报表的Target内容。 从3月7日开始，已修改所有包含A4T报表内容的点击，以便不将其视为页面查看或链接事件。 开始 **2022年3月31日**，我们更改了逻辑，以便更加选择性，从而不会修改标准的页面查看和点击事件。 今后，将修改的唯一事件将是仅具有A4T内容的个性化调用。 |
-| **更新某些客户支持的浏览器加密方法** | 2022 年 3 月 28 日 | Adobe 提供两种密码安全级别，以满足客户对第一方数据收集安全性的不同需求。在 **2022 年 6 月 23 日**，我们将为安全级别设置为“高”的客户移除对某些 HTTPS 加密算法（称为密码）的支持。这意味着一些较旧的操作系统将不再能够将数据发送到 Analytics，因为它们不支持现代加密方法。使用默认“标准”密码安全设置的客户不会受到影响。目前使用“高”设置的所有客户都已被直接联系。可在此处找到受此更改影响的密码的详细列表。 |
-| **暂停旧版计划报告** | 2022 年 4 月 12 日 | 从 **2022 年 4 月 20 日**&#x200B;起，Adobe 打算暂停所有创建日期超过两年的计划报告（2020 年 1 月 31 日前创建的任何任务）。任何报告或数据都不会被删除。只有确认创建超过两年的报告才会暂停，并且不会发送额外的计划报告。了解详情 |
-| **2022 年 ISO 区域更新** | 2021 年 3 月 11 日 | Adobe 将在&#x200B;**2022 年 6 月 10 日**&#x200B;执行 2022 年 ISO 区域更新。预计在此版本之后会看到较小的地理信息更新。 |
-| **暂停旧版计划 Report Builder 任务** | 2022 年 4 月 12 日 | 有效 **2022年4月20日**，则Adobe打算暂停两年前创建的所有计划Report Builder任务。 具体而言，这一暂停适用于 2020 年 1 月 31 日之前创建的任何任务。任何任务、工作簿或数据都不会被删除。但是，只有确认创建超过两年的任务才会暂停，并且不会发送其他计划任务。了解详情 |
-| **旧版 Analytics OAuth/JWT 集成的允许列表 EOL 扩展到期** | 2022 年 1 月 14 日 | 在 **2022 年 5 月 25 日**，[Analytics 1.3 API、1.4 SOAP API 和旧版 Analytics OAuth/JWT EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) 允许列表延长期将到期。此延长期为使用旧版 [!DNL Adobe Analytics] OAuth/JWT 凭据的客户提供额外的时间，以将其客户端集成迁移到 [Adobe IMS 凭据](https://developer.adobe.com/console)。该扩展到期会影响（但不限于）尚未完成必需的 IMS 迁移的 [!DNL Adobe Analytics Livestream] 和 [!DNL Adobe Campaign] 客户。如果客户目前正在通过允许列表扩展使用旧版 [!DNL Analytics] OAuth/JWT 凭据，但未在 2022 年 5 月 25 日之前完成向 IMS 凭据迁移，则将失去对 Adobe 服务的访问权限。Livestream 客户可以参考这些关于将客户端应用程序迁移到 IMS 凭据的[说明](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md)。[!DNL Campaign] 客户可以联系他们的 Adobe 帐户团队，了解如何升级到最新版本的 [!DNL Campaign]。 |
+| **跨设备分析(CDA)权利** | 2022 年 4 月 13 日 | 有效 **2022年5月1日**，任何新实施 [CDA](/help/components/cda/overview.md) 限制为每个客户最多三个报表包ID(RSID)。 |
+| **更改了Adobe Analytics处理通过Experience Edge收集的A4T数据的方式** | 2022 年 3 月 31 日 | 2022年3月7日，Analytics更改了处理来自Experience Edge的一些调用的方式，这些调用包括适用于Analytics for Target(A4T)报表的Target内容。 从3月7日开始，包含A4T报表内容的所有点击都将进行修改，以便不会将其视为页面查看或链接事件。 开始 **2022年3月31日**，则逻辑的选择性更强，从而不会修改标准的页面查看和点击事件。 今后，修改的事件仅是仅包含A4T内容的个性化调用。 |
+| **更新某些客户支持的浏览器加密方法** | 2022 年 3 月 28 日 | Adobe 提供两种密码安全级别，以满足客户对第一方数据收集安全性的不同需求。开 **2022年6月23日** 对于安全级别设置为“高”的客户，某些HTTPS加密算法（称为密码）将不再受支持。 此操作意味着某些旧版操作系统不再能够将数据发送到Analytics，因为它们不支持现代加密方法。 使用默认“标准”密码安全设置的客户不会受到影响。 目前使用“高”设置的所有客户都已被直接联系。此处提供了受此更改影响的密码的详细列表。 |
+| **暂停旧版计划报告** | 2022 年 4 月 12 日 | 从 **2022 年 4 月 20 日**&#x200B;起，Adobe 打算暂停所有创建日期超过两年的计划报告（2020 年 1 月 31 日前创建的任何任务）。不会删除报表或数据。 只会暂停识别为超过两年的报表，并且不会发送其他计划报表。 了解详情 |
+| **2022 年 ISO 区域更新** | 2021 年 3 月 11 日 | Adobe计划在 **2022年6月10日**. 预计在此版本之后会看到较小的地理信息更新。 |
+| **暂停旧版计划 Report Builder 任务** | 2022 年 4 月 12 日 | 有效 **2022年4月20日**，则Adobe打算暂停两年前创建的所有计划Report Builder任务。 具体而言，这一暂停适用于 2020 年 1 月 31 日之前创建的任何任务。不会删除任务、工作簿或数据。 但是，将暂停被标识为两年以上的任务，并且不会发送其他计划任务。 了解详情 |
+| **旧版 Analytics OAuth/JWT 集成的允许列表 EOL 扩展到期** | 2022 年 1 月 14 日 | 开 **2022年5月25日**, [Analytics 1.3 API、1.4 SOAP API和旧版Analytics OAuth/JWT EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) 允许列表扩展过期。 此延长期为使用旧版 [!DNL Adobe Analytics] OAuth/JWT 凭据的客户提供额外的时间，以将其客户端集成迁移到 [Adobe IMS 凭据](https://developer.adobe.com/console)。该扩展到期会影响（但不限于）尚未完成必需的 IMS 迁移的 [!DNL Adobe Analytics Livestream] 和 [!DNL Adobe Campaign] 客户。当前使用旧版 [!DNL Analytics] 通过扩展的OAuth/JWT凭允许列表据，以及在2022年5月25日之前未完成IMS凭据迁移的用户，将无法访问Adobe服务。 Livestream 客户可以参考这些关于将客户端应用程序迁移到 IMS 凭据的[说明](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md)。[!DNL Campaign] 客户可以联系他们的 Adobe 帐户团队，了解如何升级到最新版本的 [!DNL Campaign]。 |
 | **EOL for[!DNL Reports & Analytics]** | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起，Adobe 决定中断 [!DNL Reports & Analytics] 及其随附的报告和功能。支持 [!DNL Reports & Analytics] 的报表、可视化图表和底层技术不再满足 Adobe 的技术标准。大部分 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans) 中都可用。自 2015 年发布 Analysis Workspace 以来，[!DNL Reports & Analytics] 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)解释了生命周期结束的过程。 |
 
 {style=&quot;table-layout:auto&quot;}
