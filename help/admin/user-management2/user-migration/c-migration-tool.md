@@ -3,10 +3,10 @@ description: 在 Adobe Experience Cloud 中将 Analytics 用户 ID 迁移到 Adm
 title: 将 Analytics 用户迁移到 Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
-source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
+source-git-commit: 8f25dfefbc6fba1fb525d2e9e0fce654e21ef362
 workflow-type: tm+mt
-source-wordcount: '3115'
-ht-degree: 100%
+source-wordcount: '3114'
+ht-degree: 99%
 
 ---
 
@@ -280,7 +280,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>用户管理 API <a href="https://helpx.adobe.com/cn/enterprise/help/identity.html">Adobe 支持的身份类型</a> </p> </td> 
-   <td colname="col2"> <p> 迁移到 Admin Console 的管理员应当配置在 Adobe I/O 提供的<a href="https://developer.adobe.com/UMAPI/">用户管理 API</a>，以便在 Admin Console 中以编程方式访问用户帐户。 </p> <p>为您启用迁移时将会关闭 Analytics 权限 API。 </p> </td> 
+   <td colname="col2"> <p> 迁移到Admin Console的管理员应配置<a href="https://developer.adobe.com/UMAPI/"> 用户管理API</a> 在Adobe Developer上提供，用于以编程方式访问Admin Console中的用户帐户。 </p> <p>为您启用迁移时将会关闭 Analytics 权限 API。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Web 服务凭据 </p> </td> 

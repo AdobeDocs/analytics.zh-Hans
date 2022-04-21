@@ -3,10 +3,10 @@ description: Analysis Workspace、Reports & Analytics、Report Builder、Data Wa
 title: Analytics 产品比较和要求
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
-source-wordcount: '425'
-ht-degree: 100%
+source-git-commit: 8f25dfefbc6fba1fb525d2e9e0fce654e21ef362
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 | 产品名称和帮助链接 | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=zh-Hans) | [数据馈送](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|---|---|
-| **访问方法** | [浏览器](/help/admin/sys-reqs.md) | [浏览器](/help/admin/sys-reqs.md) | [Windows 版 MS Excel](/help/analyze/report-builder/setup/system-requirements.md) | 通过浏览器进行安装。[了解详情](/help/admin/sys-reqs.md) | [Windows 64 位](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=zh-Hans) | 通过浏览器进行安装。[了解详情](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API 工具。使用 Adobe I/O 凭据登录。[了解详情](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| **访问方法** | [浏览器](/help/admin/sys-reqs.md) | [浏览器](/help/admin/sys-reqs.md) | [Windows 版 MS Excel](/help/analyze/report-builder/setup/system-requirements.md) | 通过浏览器进行安装。[了解详情](/help/admin/sys-reqs.md) | [Windows 64 位](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=zh-Hans) | 通过浏览器进行安装。[了解详情](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API 工具。使用Adobe Developer凭据登录。 [了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **数据粒度** | 汇总 | 汇总 | 汇总 | 汇总 | 点击 | 点击 | 汇总 |
 | **Experience Cloud ID (ECID) 可用** | 否 | 否 | 否 | 是 | 是 | 是 | 否 |
 | **时间戳可用** | 否 | 否 | 否 | 否 | 是 | 是 | 否 |

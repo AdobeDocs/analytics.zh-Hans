@@ -3,10 +3,10 @@ title: Adobe Analytics 的产品配置文件
 description: 了解产品配置文件如何用作产品管理员可以分配给组织内的用户的权限预设。
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
-source-wordcount: '671'
-ht-degree: 100%
+source-git-commit: 8f25dfefbc6fba1fb525d2e9e0fce654e21ef362
+workflow-type: tm+mt
+source-wordcount: '670'
+ht-degree: 95%
 
 ---
 
@@ -58,6 +58,6 @@ Analytics 工具权限项用于授予对独立于报表包设置的功能的访�
 
 ## 产品配置文件开发人员
 
-开发人员类似于用户，只不过开发人员有权在 Adobe I/O 上使用 Experience Cloud API。有关更多信息，请参阅“企业用户指南”中的[管理开发人员](https://helpx.adobe.com/cn/enterprise/using/manage-developers.html)。如果授予用户任何配置文件的开发人员访问权限，则他们将有权访问开发控制台 (console.adobe.io) 并编辑 Adobe Analytics 集成。在用户拥有开发人员访问权限的所有配置文件中，这些配置文件的净权限决定了为该用户授予的 Analytics API 调用和响应。
+开发人员与用户类似，只是开发人员有权对Adobe开发人员使用Experience CloudAPI。 请参阅 [管理开发人员](https://helpx.adobe.com/cn/enterprise/using/manage-developers.html) （详细信息）。 如果授予用户任何配置文件的开发人员访问权限，则他们将有权访问开发控制台 (console.adobe.io) 并编辑 Adobe Analytics 集成。在用户拥有开发人员访问权限的所有配置文件中，这些配置文件的净权限决定了为该用户授予的 Analytics API 调用和响应。
 
 例如，根据配置文件权限（包含所有量度、所有维度和一个报表包），持有配置文件开发人员访问权限的成员可发出与关联套件中任何组件相关的 API 调用。随着“异常检测”的添加，报告可以包含更完整的响应，从而添加异常数据。根据经验，如果配置文件授予对 Adobe Analytics 界面中某个场景的访问权限，则对类似定义的配置文件的开发人员访问权限将启用相应的 API 调用和响应。

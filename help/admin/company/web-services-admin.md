@@ -3,10 +3,10 @@ description: Web 服务 API 可通过编程方式访问市场营销报告及其�
 title: Web 服务
 feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
-source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: ht
-source-wordcount: '241'
-ht-degree: 100%
+source-git-commit: 8f25dfefbc6fba1fb525d2e9e0fce654e21ef362
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 88%
 
 ---
 
@@ -20,9 +20,9 @@ Web 服务 API 可通过编程方式访问市场营销报告及其他“包”�
 
 在 [Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中，您可以更新权限以包括那些需要访问 Web 服务 API 的用户。
 
-## WSDL：为 Web 服务开发人员下载 Web 服务 API WSDL。
+## WSDL:为Web服务开发人员下载Web服务API WSDL
 
-访问 [Adobe I/O](https://www.adobe.io/apis/experiencecloud/analytics.html)，其中提供了与 Web 服务 API 相关的文档、示例代码和论坛。有关更多信息，请单击 Web 服务 API 概述。
+访问 [Adobe开发人员](https://developer.adobe.com/analytics-apis/docs/2.0/)，提供了与Web服务API相关的文档、示例代码和论坛。 有关更多信息，请单击 Web 服务 API 概述。
 
 ## 筛选选项
 
