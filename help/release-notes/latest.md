@@ -6,19 +6,19 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: b93b27fac0a9e3364512bb8a27ad64c7eb379dd1
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 53%
+ht-degree: 68%
 
 ---
 
-# 最新Adobe Analytics发行说明（2022年4月）
+# 当前 Adobe Analytics 发行说明（2022 年 4 月）
 
-**上次更新**:2022年4月19日
+**上次更新时间**：2022 年 4 月 19 日
 
-* 对于2022年3月版发行说明，请转至 [此处](/help/release-notes/2022.md).
+* 若要查看 2022 年 3 月的发行说明，请点击[这里](/help/release-notes/2022.md)。
 
-* 有关Customer Journey Analytics发行说明，请转到 [此处](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hans).
+* 若要查看 Customer Journey Analytics 发行说明，请点击[这里](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hans)。
 
-* 有关Media Analytics发行说明，请转到 [此处](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=en).
+* 若要查看 Media Analytics 发行说明，请点击[这里](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-Hans)。
 
 * 了解 [Adobe Experience Cloud 产品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新版本更新。在 Experience League 上获取最新的自助文档、教程和课程。
 
@@ -33,24 +33,24 @@ ht-degree: 53%
 
 ## Adobe Analytics 中的修复
 
-* 修复了数据馈送中的一个问题：从数据馈送UI创建数据馈送时，在保存数据馈送后，开始日期和结束日期会自动更改。 日期在1天前更新。 (AN-281262)
+* 修复了数据源中的一个问题，即从数据源 UI 创建数据源时，保存数据源后，开始和结束日期会自动更改。日期自动更新了 1 天。(AN-281262)
 
-* 修复了通过电子邮件链接阻止续订计划项目的问题。 (AN-283622)
+* 修复了阻止通过电子邮件链接续订计划项目的问题。(AN-283622)
 
 ### Adobe Analytics 中的其他修复
 
-AN-274486;AN-279258;AN-279995;AN-280918;AN-281423;AN-282084;AN-282435;AN-283508;AN-283517;AN-283706;AN-283762;AN-283921;AN-284195;AN-284663;AN-284573;AN-284721;AN-284790;AN-284867;AN-284870;AN-284872;AN-284884;AN-284914;AN-284930;AN-284933;AN-284967;AN-284970;AN-285187;AN-285328;AN-285337;AN-285375;AN-285447;AN-285724;AN-285753;AN-285761;
+AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-283508; AN-283517; AN-283706; AN-283762; AN-283921; AN-284195; AN-284663; AN-284573; AN-284721; AN-284790; AN-284867; AN-284870; AN-284872; AN-284884; AN-284914; AN-284930; AN-284933; AN-284967; AN-284970; AN-285187; AN-285328; AN-285337; AN-285375; AN-285447; AN-285724; AN-285753; AN-285761;
 
 ## Adobe Analytics 管理员的重要注意事项
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| **跨设备分析(CDA)权利** | 2022 年 4 月 13 日 | 有效 **2022年5月1日**，任何新实施 [CDA](/help/components/cda/overview.md) 限制为每个客户最多三个报表包ID(RSID)。 |
-| **更改了Adobe Analytics处理通过Experience Edge收集的A4T数据的方式** | 2022 年 3 月 31 日 | 2022年3月7日，Analytics更改了处理来自Experience Edge的一些调用的方式，这些调用包括适用于Analytics for Target(A4T)报表的Target内容。 从3月7日开始，包含A4T报表内容的所有点击都将进行修改，以便不会将其视为页面查看或链接事件。 开始 **2022年3月31日**，则逻辑的选择性更强，从而不会修改标准的页面查看和点击事件。 今后，修改的事件仅是仅包含A4T内容的个性化调用。 |
+| **Cross-Device Analytics (CDA) 授权** | 2022 年 4 月 13 日 | 有效 **2022年5月1日**，任何新实施 [CDA](/help/components/cda/overview.md) 限制为每个客户最多三个报表包ID(RSID)。 |
+| **更改 Adobe Analytics 处理通过 Experience Edge 收集的 A4T 数据的方式** | 2022 年 3 月 31 日 | 2022年3月7日，Analytics更改了处理来自Experience Edge的一些调用的方式，这些调用包括适用于Analytics for Target(A4T)报表的Target内容。 从3月7日开始，包含A4T报表内容的所有点击都将进行修改，以便不会将其视为页面查看或链接事件。 开始 **2022年3月31日**，则逻辑的选择性更强，从而不会修改标准的页面查看和点击事件。 今后，修改的事件仅是仅包含A4T内容的个性化调用。 |
 | **更新某些客户支持的浏览器加密方法** | 2022 年 3 月 28 日 | Adobe 提供两种密码安全级别，以满足客户对第一方数据收集安全性的不同需求。开 **2022年6月23日** 对于安全级别设置为“高”的客户，某些HTTPS加密算法（称为密码）将不再受支持。 此操作意味着某些旧版操作系统不再能够将数据发送到Analytics，因为它们不支持现代加密方法。 使用默认“标准”密码安全设置的客户不会受到影响。 目前使用“高”设置的所有客户都已被直接联系。此处提供了受此更改影响的密码的详细列表。 |
 | **暂停旧版计划报告** | 2022 年 4 月 12 日 | 从 **2022 年 4 月 20 日**&#x200B;起，Adobe 打算暂停所有创建日期超过两年的计划报告（2020 年 1 月 31 日前创建的任何任务）。不会删除报表或数据。 只会暂停识别为超过两年的报表，并且不会发送其他计划报表。 了解详情 |
 | **2022 年 ISO 区域更新** | 2021 年 3 月 11 日 | Adobe计划在 **2022年6月10日**. 预计在此版本之后会看到较小的地理信息更新。 |
-| **暂停旧版计划 Report Builder 任务** | 2022 年 4 月 12 日 | 有效 **2022年4月20日**，则Adobe打算暂停两年前创建的所有计划Report Builder任务。 具体而言，这一暂停适用于 2020 年 1 月 31 日之前创建的任何任务。不会删除任务、工作簿或数据。 但是，将暂停被标识为两年以上的任务，并且不会发送其他计划任务。 了解详情 |
+| **暂停旧版计划 Report Builder 任务** | 2022 年 4 月 12 日 | 从 **2022 年 4 月 20 日**&#x200B;起，Adobe 打算暂停所有创建日期超过两年的计划 Report Builder 任务。具体而言，这一暂停适用于 2020 年 1 月 31 日之前创建的任何任务。不会删除任务、工作簿或数据。 但是，将暂停被标识为两年以上的任务，并且不会发送其他计划任务。 了解详情 |
 | **旧版 Analytics OAuth/JWT 集成的允许列表 EOL 扩展到期** | 2022 年 1 月 14 日 | 开 **2022年5月25日**, [Analytics 1.3 API、1.4 SOAP API和旧版Analytics OAuth/JWT EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) 允许列表扩展过期。 此延长期为使用旧版 [!DNL Adobe Analytics] OAuth/JWT 凭据的客户提供额外的时间，以将其客户端集成迁移到 [Adobe IMS 凭据](https://developer.adobe.com/console)。该扩展到期会影响（但不限于）尚未完成必需的 IMS 迁移的 [!DNL Adobe Analytics Livestream] 和 [!DNL Adobe Campaign] 客户。当前使用旧版 [!DNL Analytics] 通过扩展的OAuth/JWT凭允许列表据，以及在2022年5月25日之前未完成IMS凭据迁移的用户，将无法访问Adobe服务。 Livestream 客户可以参考这些关于将客户端应用程序迁移到 IMS 凭据的[说明](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md)。[!DNL Campaign] 客户可以联系他们的 Adobe 帐户团队，了解如何升级到最新版本的 [!DNL Campaign]。 |
 | **EOL for[!DNL Reports & Analytics]** | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起，Adobe 决定中断 [!DNL Reports & Analytics] 及其随附的报告和功能。支持 [!DNL Reports & Analytics] 的报表、可视化图表和底层技术不再满足 Adobe 的技术标准。大部分 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans) 中都可用。自 2015 年发布 Analysis Workspace 以来，[!DNL Reports & Analytics] 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)解释了生命周期结束的过程。 |
 

@@ -7,7 +7,7 @@ exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: 716b57203cd15ec646792ce1cf5ca47340c23421
 workflow-type: tm+mt
 source-wordcount: '3212'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -24,20 +24,20 @@ ht-degree: 94%
 | 日期 | 描述 |
 | --- | --- |
 | **2022 年 4 月** |  |
-| 全新 Adobe Analytics 登陆页面 | 对联合 [工作区/Reports &amp; Analytics登陆页面](/help/analyze/landing.md) 提高了可用性和导航方便性。 |
+| Adobe Analytics 登陆页面更新 | 对联合 [工作区/Reports &amp; Analytics登陆页面](/help/analyze/landing.md) 提高了可用性和导航方便性。 |
 | 新主题 [!UICONTROL 页面摘要] 面板 | [页面摘要面板](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | 新主题 [!UICONTROL 下一项/上一项] 面板 | [下一个/上一个维度项目面板](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **2022 年 3 月** |  |
-| 新增了有关支持的HTTPS加密算法的主题 | [支持的HTTPS加密算法](/help/technotes/rdc/encryption-algos.md) 对于安全级别设置为“高”的客户。 |
-| 有关工作区中批注的新文档 | [工作区注释使您能够有效地将上下文数据的细微差别和见解传达给您的组织。](/help/analyze/analysis-workspace/components/annotations/overview.md) |
-| 全新 Adobe Analytics 登陆页面 | [更新联合工作区/Reports &amp; Analytics 登录页面，提高可用性和导航的便利性。](/help/analyze/landing.md) |
-| [!UICONTROL 下一个项目]或[!UICONTROL 上一个项目]工作区面板 | 此面板允许您浏览所选维度项目后面或之前的项目。 |
-| [!UICONTROL 页面摘要]工作区面板 | 此面板可为您选择的页面提供深入分析。 |
-| 新增了有关暂停旧计划报表的主题 | 有效 **2022年4月15日**,Adobe打算 [暂停创建日期超过两年的所有计划报表](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
+| 关于支持的 HTTPS 加密算法的新主题 | [支持密码安全级别设置为“高”的客户使用的 HTTPS 加密算法](/help/technotes/rdc/encryption-algos.md)。 |
+| 关于工作区中注释的新文档 | [工作区注释使您能够有效地将上下文数据的细微差别和见解传达给您的组织。](/help/analyze/analysis-workspace/components/annotations/overview.md) |
+| Adobe Analytics 登陆页面更新 | [更新联合工作区/Reports &amp; Analytics 登录页面，提高可用性和导航的便利性。](/help/analyze/landing.md) |
+| [!UICONTROL 下一个项目]或[!UICONTROL 上一个项目]工作区面板 | 此面板允许您浏览所选维度项目之后或之前的项目。 |
+| [!UICONTROL 页面摘要]工作区面板 | 此面板为您选择的页面提供深入分析。 |
+| 关于暂停旧版计划报告的新主题 | 从 **2022 年 4 月 15 日起**，Adobe 打算[暂停所有创建日期超过两年的计划报告](/help/analyze/reports-analytics/scheduled-reports-eol.md)。 |
 | **2022 年 2 月** |
-| 移动记分卡项目预览模式 | 的 [预览模式](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#preview) 用于在保存和共享记分卡之前预览体验。 |
+| 移动记分卡项目预览模式 | 该[预览模式](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-Hans#preview)允许您在保存和共享记分卡之前预览体验。 |
 | API 项目端点 | 使用 API 添加、编辑或删除 Analysis Workspace 项目。[了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
-| 更新了有关暂停旧计划Report Builder任务的主题 | **2022年4月15日起生效**,Adobe打算 [暂停两年多前创建的所有计划Report Builder任务](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
+| 暂停旧版计划 Report Builder 任务更新主题 | **从 2022 年 4 月 15 日起**，Adobe 打算[暂停所有创建日期超过两年的计划 Report Builder 任务](/help/analyze/report-builder/r-arb-scheduled-reports.md)。 |
 | **2021 年 10 月** |  |
 | 2021 年 10 月 21 日 | 有关 Analysis Workspace 中的[快速区段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=zh-Hans)的新文档 |
 | 2021 年 10 月 21 日 | 有关 Analysis Workspace 中的[媒体播放耗时](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=zh-Hans)面板的新文档。 |
