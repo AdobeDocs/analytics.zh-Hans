@@ -3,24 +3,25 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 80e7241fd35e5c745c2341182983613f537ce224
+source-git-commit: c29515da8c74ad3332aa9797db9de505af7fe3aa
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 68%
+source-wordcount: '1070'
+ht-degree: 60%
 
 ---
 
 # 当前 Adobe Analytics 发行说明（2022 年 4 月）
 
-**上次更新时间**：2022 年 4 月 20 日
+**上次更新时间**：2022 年 4 月 28 日
 
-* 若要查看 2022 年 3 月的发行说明，请点击[这里](/help/release-notes/2022.md)。
+## 相关资源
 
-* 若要查看 Customer Journey Analytics 发行说明，请点击[这里](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hans)。
+* [2022版以前的发行说明](/help/release-notes/2022.md)
+* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [Media Analytics发行说明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
+* 的最新版本更新 [Adobe Experience Cloud产品](https://business.adobe.com/products/adobe-experience-cloud-products.html)
 
-* 若要查看 Media Analytics 发行说明，请点击[这里](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-Hans)。
-
-* 了解 [Adobe Experience Cloud 产品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新版本更新。在 Experience League 上获取最新的自助文档、教程和课程。
+## Adobe Analytics 中的新增功能
 
 | 功能 | 描述 | [预定日期](releases.md) |
 | ----------- | ---------- | ------- |
@@ -34,12 +35,12 @@ ht-degree: 68%
 ## Adobe Analytics 中的修复
 
 * 修复了数据源中的一个问题，即从数据源 UI 创建数据源时，保存数据源后，开始和结束日期会自动更改。日期自动更新了 1 天。(AN-281262)
-
 * 修复了阻止通过电子邮件链接续订计划项目的问题。(AN-283622)
+* 修复了导致最新版本的Apple Safari和Microsoft Edge在Adobe的浏览器类型查找表中无法正确识别的问题。 类似于 [浏览器版本已更新](/help/components/dimensions/browser.md)，则对浏览器类型查找表进行更新时，只能更正数据正在向前移动。 4月20日更新了浏览器版本的查找表，4月28日更新了浏览器类型的查找表。 (AN-284872;AN-285753;AN-286257)
 
 ### Adobe Analytics 中的其他修复
 
-AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-283508; AN-283517; AN-283706; AN-283762; AN-283921; AN-284195; AN-284663; AN-284573; AN-284721; AN-284790; AN-284867; AN-284870; AN-284872; AN-284884; AN-284914; AN-284930; AN-284933; AN-284967; AN-284970; AN-285187; AN-285328; AN-285337; AN-285375; AN-285447; AN-285724; AN-285753; AN-285761;
+AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-283508; AN-283517; AN-283706; AN-283762; AN-283921; AN-284195; AN-284663; AN-284573; AN-284721; AN-284790; AN-284867; AN-284870; AN-284872; AN-284884; AN-284914; AN-284930; AN-284933; AN-284967; AN-284970; AN-285187; AN-285328; AN-285337; AN-285375; AN-285447; AN-285724; AN-285753; AN-285761
 
 ## Adobe Analytics 管理员的重要注意事项
 
@@ -61,4 +62,4 @@ AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-
 有关 AppMeasurement 版本（版本 2.22.4）的最新更新，请参阅[适用于 JavaScript 的 AppMeasurement 发行说明](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=zh-Hans)。
 
 >[!MORELIKETHIS]
->[[!DNL Customer Journey Analytics] 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=en)
+>[[!DNL Customer Journey Analytics] 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hans)
