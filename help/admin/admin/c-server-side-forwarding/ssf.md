@@ -4,10 +4,10 @@ solution: Analytics
 title: 服务器端转发概述
 feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: ht
+source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
+workflow-type: tm+mt
 source-wordcount: '821'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 转至&#x200B;**“Analytics”**>**“管理员”**>**“报表包”**>（选择&#x200B;**“报表包”**）>**“编辑设置”**>**“常规”**>**“服务器端转发”**。如果复选框为：
 
-* **未激活**（无法作出选择或菜单不存在）：您未将所选的报表包映射到 IMS 组织。请与客户关怀部门联系以确保正确地映射了报表包。
+* **不活动** （无法进行选择或菜单不存在）：您没有将选定的报表包映射到组织ID。 请联系客户关怀团队，以确保正确映射报表包。
 * **禁用**：表示您没有开启新的服务器端转发。请阅读本页面上的内容，然后继续启用该功能。
 * **启用**：表示您已设置了新的服务器端转发。您还能够设置此 Audience Analytics 集成。
 

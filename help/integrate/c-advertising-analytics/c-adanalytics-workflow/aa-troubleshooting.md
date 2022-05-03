@@ -3,10 +3,10 @@ description: 排除和修复与 Advertising Analytics 相关的问题。
 title: Advertising Analytics 疑难解答
 feature: Advertising Analytics
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
+workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. 未将报表包映射到登录用户的 Experience Cloud 组织 ID。 </p> </td> 
-   <td colname="col2"> <p>联系客户关怀部门以将报表包映射到 IMS 组织。</p> </td> 
+   <td colname="col2"> <p>请联系客户关怀团队，将报表包映射到组织ID。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. 报表包没有配置为可以使用 Advertising Analytics 报告功能。 </p> </td> 
