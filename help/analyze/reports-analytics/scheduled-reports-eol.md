@@ -4,10 +4,10 @@ description: Adobe 打算暂停所有创建日期超过两年的计划报告。
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
-source-git-commit: 64b239d0807f68ee7e60c94a81a08c46a55fecf8
+source-git-commit: d3309815de29264c743f30a236c99a55fc731413
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 100%
+source-wordcount: '336'
+ht-degree: 97%
 
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 100%
 
 本操作的目的是在我们为之前宣布的 Reports &amp; Analytics 生命周期结束做准备时，有效管理和维护计划报告。以下将成为我们今后的新治理政策：
 
+* 2022年4月15日之后，将无法创建新的计划报表。
 * 2022 年 4 月 15 日之后，所有计划报告的最长有效期为 9 个月。
 * 9 个月后，到期的任务将暂停，如果仍然需要，任务可以重新激活直至 2023 年 12 月 31 日。
 * 2023 年 12 月 31 日，Reports &amp; Analytics 将被弃用。
