@@ -4,16 +4,16 @@ description: Adobe 打算暂停所有创建日期超过两年的计划报告。
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
-source-git-commit: d3309815de29264c743f30a236c99a55fc731413
+source-git-commit: 35e5f056f962066a068ca1f0247c5b550efc2edc
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 97%
+source-wordcount: '350'
+ht-degree: 70%
 
 ---
 
 # 计划报告的生命周期结束通知
 
-从 2022 年 4 月 21 日起，Adobe 打算暂停所有创建日期超过两年的计划报告（2020 年 1 月 31 日前创建的任何任务）。任何报告或数据都不会被删除。只有确认创建超过两年的报告才会暂停，并且不会发送额外的计划报告。
+**** No reports or data were deleted. Only reports identified as older than two years were paused, and no additional scheduled reports can be sent.
 
 只需登录 Analytics 并打开[!UICONTROL 计划报告]，即可重新激活任何仍要发送的计划报告。点击[!UICONTROL 编辑] 图标并设置新的计划时间和到期日期。任何重新激活的报表都将拥有 9 个月默认到期日期，除非选择更短的到期日期。
 
@@ -27,9 +27,10 @@ ht-degree: 97%
 
 本操作的目的是在我们为之前宣布的 Reports &amp; Analytics 生命周期结束做准备时，有效管理和维护计划报告。以下将成为我们今后的新治理政策：
 
-* 2022年4月15日之后，将无法创建新的计划报表。
-* 2022 年 4 月 15 日之后，所有计划报告的最长有效期为 9 个月。
-* 9 个月后，到期的任务将暂停，如果仍然需要，任务可以重新激活直至 2023 年 12 月 31 日。
+* No new scheduled reports can be created after April 21, 2022.
+* After April 21, 2022, all scheduled reports have a maximum expiration date of 9 months.
+* After 9 months, expired tasks are paused and can be reactivated, if still needed, until December 31, 2023.
 * 2023 年 12 月 31 日，Reports &amp; Analytics 将被弃用。
+* You can no longer set up new Data Extracts. Existing ones will continue to run, but no new ones can be scheduled.
 
 如果还有其他问题或需要获取相关支持，请联系 Adobe 客户关怀团队。
