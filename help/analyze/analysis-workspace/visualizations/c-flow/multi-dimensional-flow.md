@@ -5,8 +5,8 @@ uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
-workflow-type: ht
+source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
+workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 100%
 
@@ -14,9 +14,7 @@ ht-degree: 100%
 
 # 维度间流量
 
-通过维度间流量可以跨不同维度查看用户路径。
-
-以下是一段关于 Analysis Workspace 中的文本环绕和多维度流量的视频：
+通过维度间流量可以跨不同维度查看用户路径。以下是一段关于 Analysis Workspace 中的文本环绕和多维度流量的视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
 
@@ -26,7 +24,7 @@ ht-degree: 100%
 
 我们将讨论 2 个用例：应用程序用例和 Web 用例。
 
-## 用例一：应用程序 {#section_3D31D37B9C9F4134AE46C96291E41294}
+## 用例一：应用程序 {#app}
 
 [!UICONTROL 操作名称]维度已被添加到流量，顶部的返回项目为 [!UICONTROL ItemAdded]：
 
@@ -56,7 +54,7 @@ ht-degree: 100%
 
 这将允许进行一些深入的分析，并对您分析的应用程序进行可能的更改。
 
-## 用例二：Web {#section_8D55983FA0C84926995270052AE01CD8}
+## 用例二：Web {#web}
 
 此用例显示如何分析哪些促销活动为网站带来最多登入。
 
