@@ -3,10 +3,10 @@ title: 数据收集查询参数
 description: 列出了图像请求中使用的所有查询字符串参数。
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '688'
-ht-degree: 100%
+source-git-commit: 799c7d2636dc2ba5db90d2dc400462a412aea9f1
+workflow-type: tm+mt
+source-wordcount: '710'
+ht-degree: 94%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 | `p` | 无 | 已不再使用。浏览器中使用的插件的列表。 |
 | `pageName` | [`pageName`](../vars/page-vars/pagename.md) | 在[页面](/help/components/dimensions/page.md)维度中使用。 |
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | 在[页面未找到](/help/components/dimensions/pages-not-found.md)维度中使用。 |
-| `pccr` | 无 | 仅为新访客设置，并始终设置为 `true`。帮助防止无限重定向。 |
+| `pccr` | 无 | 仅为新访客设置，并始终设置为 `true`。有助于防止在访客拒绝Cookie时无限重定向。 |
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | 确定自定义链接的类型。[自定义链接](/help/components/dimensions/custom-link.md)、[下载链接](/help/components/dimensions/download-link.md)和[退出链接](/help/components/dimensions/exit-link.md)需要。 |
 | `pev1` | 无 | 自定义链接的 URL。 |
 | `pev2` | [`tl()`](../vars/functions/tl-method.md) | 自定义链接友好名称。 |
@@ -77,7 +77,8 @@ ht-degree: 100%
 | `v0` | [`campaign`](../vars/page-vars/campaign.md) | [跟踪代码](/help/components/dimensions/tracking-code.md)维度。 |
 | `v1` - `v250` | [`evar1` - `eVar250`](../vars/page-vars/evar.md) | [eVar](/help/components/dimensions/evar.md) 或自定义转化维度。 |
 | `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | 访客 ID 变量。 |
-| `vmk` | `vmk` | 已不再使用。访客迁移密钥，帮助将实施从第三方迁移到第一方 Cookie。 |
+| `vidn` | 无 | 由AppMeasurement为新访客设置。 包含存储在访客Cookie中的ID值。 |
+| `vmk` | `vmk` | 已不再使用。访客迁移密钥，可帮助将实施从第三方迁移到第一方Cookie。 |
 | `vvp` | `variableProvider` | 用于 Data Connectors。 |
 | `xact` | [`transactionID`](../vars/page-vars/transactionid.md) | 与数据源结合使用，将在线和离线数据绑定在一起。 |
 | `zip` | [`zip`](../vars/page-vars/zip.md) | 在[邮政编码](/help/components/dimensions/zip-code.md)维度中使用。 |
