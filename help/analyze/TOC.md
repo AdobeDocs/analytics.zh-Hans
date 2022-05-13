@@ -5,9 +5,9 @@ user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: Analytics 的高级分析和可视化工具 Analysis Workspace 以及 Adobe Analytics Dashboards、Report Builder 和 Activity Map 等工具的操作说明。
 source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1051'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 99%
       + 流量 {#flow}
          + [流量概述](analysis-workspace/visualizations/c-flow/flow.md)
          + [配置流量可视化图表](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
-         + [新的流量可视化图表（测试版）](analysis-workspace/visualizations/c-flow/create-flow.md)
+         + [新流量可视化图表（Beta 版）](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [流量设置](analysis-workspace/visualizations/c-flow/flow-settings.md)
          + [维度间流量](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [直方图](analysis-workspace/visualizations/histogram.md)
