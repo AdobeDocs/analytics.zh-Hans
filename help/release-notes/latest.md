@@ -3,16 +3,20 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 43869c683ca30c94157c6822b53f02a917f6e3ff
+source-git-commit: aa4dc06dc1719f398c29aeca40051d88f339ce42
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 100%
+source-wordcount: '872'
+ht-degree: 95%
 
 ---
 
-# 当前 Adobe Analytics 发行说明（2022 年 4 月）
+# 最新Adobe Analytics发行说明（2022年5月）
 
-**上次更新日期**：2022 年 5 月 9 日
+**上次更新日期**：2022 年 5 月 11 日
+
+>[!NOTE]
+>
+>本页包含预发行信息，可能会发生更改。
 
 ## 相关资源
 
@@ -25,24 +29,23 @@ ht-degree: 100%
 
 | 功能 | 描述 | [预定日期](releases.md) |
 | ----------- | ---------- | ------- |
-| Adobe Analytics 登陆页面更新 | 更新联合工作区/Reports &amp; Analytics 登录页面，提高可用性和导航的便利性。[了解详情](/help/analyze/landing.md) | 2022 年 4 月 20 日 |
-| [!UICONTROL 下一个项目]或[!UICONTROL 上一个项目]工作区面板 | [!UICONTROL 下一个或上一个项目]面板允许您浏览您选择的维度项目之后或之前的项目。例如，如果您想查看特定产品页面、营销渠道甚至设备类型的下一个或上一个页面，请使用它。此面板不仅涉及传统的下一/上一报表，因为它允许您查看任何维度，并且不需要任何新实施即可获得见解。[了解详情](/help/analyze/analysis-workspace/c-panels/next-previous.md) | 2022 年 4 月 20 日 |
-| [!UICONTROL 页面摘要]工作区面板 | [!UICONTROL 页面摘要]面板为您选择的页面提供深入分析。它提供与旧版 Reports &amp; Analytics [!UICONTROL 页面摘要]报表相同的详细信息，外加更多信息。[了解详情](/help/analyze/analysis-workspace/c-panels/page-summary.md) | 2022 年 4 月 20 日 |
-| 取消了将 `x-proxy-global-company-id` 标头用于 2.0 API 调用的要求 | Adobe Analytics 2.0 API 不再需要 `x-proxy-global-company-id` 标头，因为此信息是端点 URL 的一部分。仍可包括此标头，但即使缺少它，也不再显示一条错误。 | 2022 年 4 月 20 日 |
+| 本月未推出任何新增功能 | 不适用 | 不适用 |
 
 {style=&quot;table-layout:auto&quot;}
 
-## Adobe Analytics 中的修复
+### Adobe Analytics 中的修复
 
-* 修复了数据源中的一个问题，即从数据源 UI 创建数据源时，保存数据源后，开始和结束日期会自动更改。日期自动更新了 1 天。(AN-281262)
-* 修复了阻止通过电子邮件链接续订计划项目的问题。(AN-283622)
-* 解决了一个问题，该问题导致在 Adobe 的浏览器类型查找表中无法识别近期的 Apple Safari 和 Microsoft Edge 版本。与[更新浏览器版本](/help/components/dimensions/browser.md)时相似，对浏览器类型查找表的更新仅纠正今后的数据。在 4 月 20 日更新了浏览器版本的查找表，并在 4 月 28 日更新了浏览器类型的查找表。（AN-284872、AN-285753、AN-286257）
+（修复了多个客户的问题）
+
+不适用
 
 ### Adobe Analytics 中的其他修复
 
-AN-274486、AN-279258、AN-279995、AN-280918、AN-281423、AN-282084、AN-282435、AN-283508、AN-283517、AN-283706、AN-283762、AN-283921、AN-284195、AN-284663、AN-284573、AN-284721、AN-284790、AN-284867、AN-284870、AN-284872、AN-284884、AN-284914、AN-284930、AN-284933、AN-284967、AN-284970、AN-285187、AN-285328、AN-285337、AN-285375、AN-285447、AN-285724、AN-285753、AN-285761
+（针对各个客户的修复）
 
-## Adobe Analytics 管理员的重要注意事项
+AN-274429;AN-280918;AN-280945;AN-282884;AN-283565;AN-284785;AN-284814;AN-284854;AN-285253;AN-285432;AN-285535;AN-286255;AN-286340;AN-286434;AN-286454;AN-286630;AN-286716;AN-286854;AN-286911
+
+### Adobe Analytics 管理员的重要注意事项
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
@@ -58,9 +61,7 @@ AN-274486、AN-279258、AN-279995、AN-280918、AN-281423、AN-282084、AN-28243
 
 {style=&quot;table-layout:auto&quot;}
 
-## AppMeasurement {#appm}
+### AppMeasurement
 
 有关 AppMeasurement 版本（版本 2.22.4）的最新更新，请参阅[适用于 JavaScript 的 AppMeasurement 发行说明](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=zh-Hans)。
 
->[!MORELIKETHIS]
->[[!DNL Customer Journey Analytics] 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hans)
