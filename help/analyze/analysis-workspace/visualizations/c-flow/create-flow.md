@@ -4,9 +4,9 @@ title: 配置流量可视化图表
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 6ceea6bcb2fc0cb9120c42f6dbf857ce172664c7
+source-git-commit: e9cebe28f71b3d6f44744e78447e31cf597e7054
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '808'
 ht-degree: 40%
 
 ---
@@ -45,6 +45,10 @@ ht-degree: 40%
 
    ![路径维度](assets/pathing-dim.png)
 
+   >[!IMPORTANT]
+   >
+   >计算量度无法放入  **[!UICONTROL 开始于]** 或 **[!UICONTROL 结束于]** 拖放区域。
+
 1. （可选）单击 **[!UICONTROL 显示高级设置]** 要配置高级设置，请执行以下操作：
 
    ![高级设置](assets/adv-settings.png)
@@ -53,7 +57,7 @@ ht-degree: 40%
    | --- | --- |
    | **[!UICONTROL 包含重复实例]** | 流量可视化图表基于某个维度的实例。此设置使您可以选择包含还是排除重复实例，例如页面重新载入。但是，不能从包含多值维度（例如 listVar、listProp、s.product、推销 eVar 等）的流量可视化图表中删除重复项。默认值 = 取消选中。 |
    | **[!UICONTROL 标签换行]** | 通常情况下，流量元素上的标签会被截断以节约屏幕资源，但您可以通过选中此框使整个标签可见。默认值 = 取消选中。 |
-   | **[!UICONTROL 限制为首次出现/最后一次出现]** | 将路径限制为以维度/项目/量度的首次出现/最后出现开始/结束的路径。 |
+   | **[!UICONTROL 限制到第一次/最后一次发生次数]** | 将路径限制为以维度/项目/量度的首次出现/最后出现开始/结束的路径。 |
    | **[!UICONTROL 列数]** | 确定您希望在流量图中显示多少列。 |
    | **[!UICONTROL 按列展开的项目]** | 每列需要多少个项目。 |
    | **[!UICONTROL 流量容器]** | <ul><li>访问</li><li>访客</li></ul> 用于在“访问”和“访客”之间切换以分析访客路径。这些设置可帮助您在访客级别（跨访问）了解访客参与程度，或将分析限定于单次访问。 |
