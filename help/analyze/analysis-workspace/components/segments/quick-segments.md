@@ -4,10 +4,10 @@ title: 快速区段
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 7434a941f3e5a47a3f5d5a28320a3fc396dd3740
-workflow-type: ht
-source-wordcount: '886'
-ht-degree: 100%
+source-git-commit: 931e9b0bd71abd852c515cd2e7d99dc9ae423a63
+workflow-type: tm+mt
+source-wordcount: '887'
+ht-degree: 97%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 100%
 
 ## 仅用于项目的区段是什么？
 
-仅用于项目的区段是指只适用于其所在当前项目的区段。它们在其他项目中不可用，也不能共享给其他用户。它们用于快速浏览数据，而无需在左边栏中创建和保存数据区段。可以在面板拖放区域中使用快速区段或[临时区段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=zh-Hans)创建仅用于项目的区段。
+仅用于项目的区段是指只适用于其所在当前项目的区段。它们在其他项目中不可用，也不能共享给其他用户。它们用于快速浏览数据，而无需在左边栏中创建和保存数据区段。可以在面板拖放区域中使用快速区段或 [临时区段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=zh-Hans).
 
 如果在[!UICONTROL 区段生成器]中打开了仅用于项目区段，则会显示“仅用于项目”通知。如果不选中“使此区段可用…”且不点击&#x200B;**[!UICONTROL 应用]**，则该区段仍然是仅用于项目的区段。注意：如果从区段生成器应用快速区段，则无法再在[!UICONTROL 快速区段生成器]中打开它。
 
