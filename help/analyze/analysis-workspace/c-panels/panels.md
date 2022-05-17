@@ -4,10 +4,10 @@ title: 面板概述
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: ca1ca90c5b40ef89db14741bca826d7a57be44c6
-workflow-type: ht
-source-wordcount: '1095'
-ht-degree: 100%
+source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
+workflow-type: tm+mt
+source-wordcount: '1098'
+ht-degree: 95%
 
 ---
 
@@ -68,9 +68,9 @@ Analysis Workspace 中提供了以下面板类型：
 
 ### 临时区段过滤器
 
-还可将非区段组件直接拖入放置区域以创建临时区段，从而为您节省转到区段生成器的时间和精力。通过这种方式创建的区段自动定义为点击级别区段。通过单击区段旁的信息图标 (i)、单击铅笔形状编辑图标并在区段生成器中进行编辑，可以修改此定义。
+也可以将非区段组件直接拖入拖放区域以创建临时区段，从而节省您转到区段生成器的时间和工作。 通过这种方式创建的区段自动定义为点击级别区段。通过单击区段旁的信息图标 (i)、单击铅笔形状编辑图标并在区段生成器中进行编辑，可以修改此定义。
 
-临时区段在项目本地，除非将其公开，否则此类区段不会出现在左边栏中。
+临时区段是项目的本地区段，除非将其设为公用区段，否则不会显示在左边栏中。
 
 ![](assets/adhoc-segment-filter.png)
 
