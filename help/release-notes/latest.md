@@ -3,16 +3,16 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: aa4dc06dc1719f398c29aeca40051d88f339ce42
-workflow-type: ht
-source-wordcount: '872'
-ht-degree: 100%
+source-git-commit: 31387d369428727a486a19b986bf9d891a36e714
+workflow-type: tm+mt
+source-wordcount: '877'
+ht-degree: 94%
 
 ---
 
 # 当前 Adobe Analytics 发行说明（2022 年 5 月）
 
-**上次更新日期**：2022 年 5 月 11 日
+**上次更新日期**：2022 年 5 月 17 日
 
 >[!NOTE]
 >
@@ -43,14 +43,14 @@ ht-degree: 100%
 
 （适用于单个客户的修复）
 
-AN-274429、AN-280918、AN-280945、AN-282884、AN-283565、AN-284785、AN-284814、AN-284854、AN-285253、AN-285432、AN-285535、AN-286255、AN-286340、AN-286434、AN-286454、AN-286630、AN-286716、AN-286854、AN-286911
+AN-274429;AN-279640;AN-280918;AN-280945;AN-282884;AN-283565;AN-284785;AN-284814;AN-284854;AN-284989;AN-285244;AN-285253;AN-285432;AN-285528;AN-285535;AN-285710;AN-286255;AN-286340;AN-286434;AN-286454;AN-286630;AN-286716;AN-286854;AN-286911
 
 ### Adobe Analytics 管理员的重要注意事项
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
 | **SFTP 升级** | 2022 年 5 月 9 日 | 之前，我们已告知 Adobe 将在 2022 年 5 月升级其安全文件传输协议 (SFTP) 服务以提高文件传输的安全性。我们已将此升级推迟到 2022 年夏天。完成此更改后，将不再支持某些 SFTP 客户端配置。这将仅影响使用 SFTP 发送到 Adobe Analytics 或从其检索的数据，而不影响 FTP 协议。为避免服务中断，请确保您的 SFTP 客户端（代码、工具、服务）与[此处](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=zh-Hans)详述的更改一致。 |
-| **Cross-Device Analytics (CDA) 权利** | 2022 年 4 月 13 日 | 自 **2022 年 5 月 1 日**&#x200B;起，将 [CDA](/help/components/cda/overview.md) 的任何新实施限制为每个客户最多三个报表包 ID (RSID)。 |
+| **Cross-Device Analytics (CDA) 权利** | 2022 年 4 月 13 日 | 有效 **2022年5月1日**，任何新实施 [CDA](/help/components/cda/overview.md) 限制为每个客户最多三个报表包ID(RSID)。 |
 | **更改 Adobe Analytics 如何处理通过 Experience Edge 收集的 A4T 数据** | 2022 年 3 月 31 日 | 在 2022 年 3 月 7 日，Analytics 更改了它如何处理从 Experience Edge 发出的某些调用，这些调用包括要用于 Analytics for Target (A4T) 报表的 Target 内容。从 3 月 7 日开始，将修改所有带 A4T 报表内容的点击，以使其不被视为页面查看或链接事件。自 **2022 年 3 月 31 日**&#x200B;起，逻辑更具选择性，以使标准的页面查看和点击事件不被修改。此后，被修改的事件仅限于只有 A4T 内容的仅个性化调用。 |
 | **更新某些客户支持的浏览器加密方法** | 2022 年 3 月 28 日 | Adobe 提供两种密码安全级别，以满足客户对第一方数据收集安全性的不同需求。在 **2022 年 6 月 23 日**，对于将其安全级别设置为“高”的客户不再支持某些 HTTPS 加密算法（也称为密码）。此操作意味着某些旧版操作系统无法再将数据发送到 Analytics，因为它们不支持新型加密方法。不影响使用默认“标准”密码安全设置的客户。已直接联系所有当前正在使用“高”设置的客户。可在此处找到受此更改影响的密码的详细列表。 |
 | **暂停旧版计划报表** | 2022 年 4 月 12 日 | 自 **2022 年 4 月 20 日**&#x200B;起，Adobe 打算暂停所有其创建日期大于两年的计划报表（即 2020 年 1 月 31 日之前创建的计划报表）。不删除任何报告或数据。而是仅暂停确认为期限大于两年的报表，并且不发送其他计划报表。了解详情 |
