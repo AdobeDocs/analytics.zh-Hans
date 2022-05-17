@@ -4,19 +4,19 @@ description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: aa4dc06dc1719f398c29aeca40051d88f339ce42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '872'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# 最新Adobe Analytics发行说明（2022年5月）
+# 当前 Adobe Analytics 发行说明（2022 年 5 月）
 
 **上次更新日期**：2022 年 5 月 11 日
 
 >[!NOTE]
 >
->本页包含预发行信息，可能会发生更改。
+>此页面包含预发行信息，这些信息可能会发生变化。
 
 ## 相关资源
 
@@ -35,15 +35,15 @@ ht-degree: 95%
 
 ### Adobe Analytics 中的修复
 
-（修复了多个客户的问题）
+（适用于多个客户的修复）
 
 不适用
 
 ### Adobe Analytics 中的其他修复
 
-（针对各个客户的修复）
+（适用于单个客户的修复）
 
-AN-274429;AN-280918;AN-280945;AN-282884;AN-283565;AN-284785;AN-284814;AN-284854;AN-285253;AN-285432;AN-285535;AN-286255;AN-286340;AN-286434;AN-286454;AN-286630;AN-286716;AN-286854;AN-286911
+AN-274429、AN-280918、AN-280945、AN-282884、AN-283565、AN-284785、AN-284814、AN-284854、AN-285253、AN-285432、AN-285535、AN-286255、AN-286340、AN-286434、AN-286454、AN-286630、AN-286716、AN-286854、AN-286911
 
 ### Adobe Analytics 管理员的重要注意事项
 
@@ -63,5 +63,5 @@ AN-274429;AN-280918;AN-280945;AN-282884;AN-283565;AN-284785;AN-284814;AN-284854;
 
 ### AppMeasurement
 
-有关 AppMeasurement 版本（版本 2.22.4）的最新更新，请参阅[适用于 JavaScript 的 AppMeasurement 发行说明](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=zh-Hans)。
+有关 AppMeasurement 版本（版本 2.22.4）的最新更新，请参阅[适用于 JavaScript 的 AppMeasurement 发行说明](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=en)。
 
