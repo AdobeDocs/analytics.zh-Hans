@@ -3,10 +3,10 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b300ec0f40eacc43463e9e42e7ff8f7cfedc15cb
+source-git-commit: 3243780b2bb1f7507dc5815f71c448a8be7f62cd
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 94%
+source-wordcount: '897'
+ht-degree: 90%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 
 | 功能 | 描述 | [预定日期](releases.md) |
 | ----------- | ---------- | ------- |
-| 本月未推出任何新增功能 | 不适用 | 不适用 |
+| 通过Experience Edge填充生命周期维度和量度 | 许多生命周期事件现在会自动映射到XDM字段。 未自动映射的事件可以通过自由格式键/值对发送到Adobe。 [了解更多 — 即将推出] | 2022 年 5 月 27 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
