@@ -4,9 +4,9 @@ description: 如何在工作区中创建注释。
 role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 645baf99161d93b5e9d2436978d35c1fb5ee35e7
+source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '590'
 ht-degree: 100%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 100%
 | **右键单击[!UICONTROL 折线]图上的某个点。** | 随后将打开[!UICONTROL 注释生成器]。请注意，默认情况下，以这种方式创建的注释仅在创建它们的项目中可见。但是您可以使它们可用于所有项目。另请注意，已填充日期和任何指标等。<p>![](assets/annotate-line.png) |
 | **在工作区中，转到[!UICONTROL 组件] > [!UICONTROL 创建注释]。** | 随后将打开[!UICONTROL 注释生成器]。 |
 | **使用此热键**&#x200B;打开注释生成器：(PC) `ctrl` `shift` + o、(Mac) `shift` + `command` + o | 请注意，使用热键创建注释，您只是为当前日期创建单日注释，并无任何预先选择的范围（指标或维度）。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 1. 填写[!UICONTROL 注释生成器]的各个元素。
 

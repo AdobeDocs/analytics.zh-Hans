@@ -4,9 +4,9 @@ description: 如何在工作区中管理注释。
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 645baf99161d93b5e9d2436978d35c1fb5ee35e7
+source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '683'
 ht-degree: 100%
 
 ---
@@ -33,6 +33,8 @@ ht-degree: 100%
 | [!UICONTROL 应用的日期范围] | 此注释应用于的日期或日期范围。 |
 | [!UICONTROL 共享对象] | 列出您与多少个人或组共享注释。单击以了解更多详细信息。 |
 | [!UICONTROL 修改日期] | 显示上次修改注释的日期和时间。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 编辑注释
 
@@ -75,3 +77,5 @@ ht-degree: 100%
 | [!UICONTROL Copy] | 创建一个独特副本，使其具有自身的注释 ID，但使用相同的名称和定义。 |
 | [!UICONTROL 导出到 CSV] | 将注释定义导出到 .csv 文件。 |
 | [!UICONTROL 筛选]（左边栏） | 按标记、报表包、所有者和其他筛选器（“我的”、“已批准”、“收藏”、“已与我共享”和“全部显示”）进行筛选。 |
+
+{style=&quot;table-layout:auto&quot;}
