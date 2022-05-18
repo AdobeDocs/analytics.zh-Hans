@@ -4,18 +4,14 @@ description: 如何在工作区中查看注释。
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
-workflow-type: ht
-source-wordcount: '254'
+source-git-commit: 645baf99161d93b5e9d2436978d35c1fb5ee35e7
+workflow-type: tm+mt
+source-wordcount: '244'
 ht-degree: 100%
 
 ---
 
 # 查看注释
-
->[!NOTE]
->
->将于 2022 年 3 月 23 日开始逐步推出此功能。正式发布：2022 年 4 月 11 日。
 
 注释的显示方式略有不同，具体取决于它们是跨越一天还是跨越一个日期范围。
 
