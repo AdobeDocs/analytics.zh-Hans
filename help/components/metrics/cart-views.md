@@ -3,10 +3,10 @@ title: 购物车查看
 description: 访客查看购物车的点击数。
 feature: Metrics
 exl-id: f181df60-4dec-47a1-ac6b-a162463c370f
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
-source-wordcount: '69'
-ht-degree: 100%
+source-git-commit: 932a6c1452d4710b11c1ce5551c845ef6721f137
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 92%
 
 ---
 
@@ -16,4 +16,6 @@ ht-degree: 100%
 
 ## 如何计算此量度
 
-此量度计算 [`events`](/help/implement/vars/page-vars/events/events-overview.md) 变量中存在 `scView` 的点击数。
+此指标计算 [`events`](/help/implement/vars/page-vars/events/events-overview.md) 变量中存在 `scView` 的点击数。
+
+请参阅 [购物车](carts.md) ，用于量度比较。
