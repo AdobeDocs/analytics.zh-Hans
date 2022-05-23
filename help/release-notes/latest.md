@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: b9bf373d7d62d7b6df405629cdf304246b80649f
 workflow-type: tm+mt
 source-wordcount: '905'
-ht-degree: 90%
+ht-degree: 96%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 90%
 ## 相关资源
 
 * [以前的 2022 年发行说明](/help/release-notes/2022.md)
-* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
-* [Media Analytics 发行说明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
+* [Customer Journey Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hans)
+* [Media Analytics 发行说明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-Hans)
 * [Adobe Experience Cloud 产品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新版本更新
 
 ## Adobe Analytics 中的新增功能
 
 | 功能 | 描述 | [预定日期](releases.md) |
 | ----------- | ---------- | ------- |
-| 通过Experience Edge填充生命周期维度和量度 | 现在，通过Experience Edge发送的移动设备生命周期数据将显示在Analytics报表中。 有关通过Experience Edge收集的生命周期数据以及这些数据如何与现有生命周期报表相对应的详细信息，请参阅文档。 [了解更多 — 即将推出] | 2022 年 5 月 27 日 |
+| 通过 Experience Edge 填充生命周期维度和量度 | 现在，通过Experience Edge发送的移动设备生命周期数据将显示在Analytics报表中。 有关通过Experience Edge收集的生命周期数据以及这些数据如何与现有生命周期报表相对应的详细信息，请参阅文档。 [了解详情 - 即将推出] | 2022 年 5 月 27 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -39,14 +39,14 @@ ht-degree: 90%
 
 （适用于单个客户的修复）
 
-AN-274429;AN-279640;AN-280918;AN-280945;AN-282884;AN-283565;AN-284785;AN-284814;AN-284854;AN-284989;AN-285244;AN-285253;AN-285432;AN-285528;AN-285535;AN-285710;AN-286255;AN-286340;AN-286434;AN-286454;AN-286630;AN-286716;AN-286854;AN-286911
+AN-274429、AN-279640、AN-280918、AN-280945、AN-282884、AN-283565、AN-284785、AN-284814、AN-284854、AN-284989、AN-285244、AN-285253、AN-285432、AN-285528、AN-285535、AN-285710、AN-286255、AN-286340、AN-286434、AN-286454、AN-286630、AN-286716、AN-286854、AN-286911
 
 ### Adobe Analytics 管理员的重要注意事项
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
 | **SFTP 升级** | 2022 年 5 月 9 日 | 之前，我们已告知 Adobe 将在 2022 年 5 月升级其安全文件传输协议 (SFTP) 服务以提高文件传输的安全性。我们已将此升级推迟到 2022 年夏天。完成此更改后，将不再支持某些 SFTP 客户端配置。这将仅影响使用 SFTP 发送到 Adobe Analytics 或从其检索的数据，而不影响 FTP 协议。为避免服务中断，请确保您的 SFTP 客户端（代码、工具、服务）与[此处](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=zh-Hans)详述的更改一致。 |
-| **Cross-Device Analytics (CDA) 权利** | 2022 年 4 月 13 日 | 有效 **2022年5月1日**，任何新实施 [CDA](/help/components/cda/overview.md) 限制为每个客户最多三个报表包ID(RSID)。 |
+| **Cross-Device Analytics (CDA) 权利** | 2022 年 4 月 13 日 | 自 **2022 年 5 月 1 日**&#x200B;起，将 [CDA](/help/components/cda/overview.md) 的任何新实施限制为每个客户最多三个报表包 ID (RSID)。 |
 | **更改 Adobe Analytics 如何处理通过 Experience Edge 收集的 A4T 数据** | 2022 年 3 月 31 日 | 在 2022 年 3 月 7 日，Analytics 更改了它如何处理从 Experience Edge 发出的某些调用，这些调用包括要用于 Analytics for Target (A4T) 报表的 Target 内容。从 3 月 7 日开始，将修改所有带 A4T 报表内容的点击，以使其不被视为页面查看或链接事件。自 **2022 年 3 月 31 日**&#x200B;起，逻辑更具选择性，以使标准的页面查看和点击事件不被修改。此后，被修改的事件仅限于只有 A4T 内容的仅个性化调用。 |
 | **更新某些客户支持的浏览器加密方法** | 2022 年 3 月 28 日 | Adobe 提供两种密码安全级别，以满足客户对第一方数据收集安全性的不同需求。在 **2022 年 6 月 23 日**，对于将其安全级别设置为“高”的客户不再支持某些 HTTPS 加密算法（也称为密码）。此操作意味着某些旧版操作系统无法再将数据发送到 Analytics，因为它们不支持新型加密方法。不影响使用默认“标准”密码安全设置的客户。已直接联系所有当前正在使用“高”设置的客户。可在此处找到受此更改影响的密码的详细列表。 |
 | **暂停旧版计划报表** | 2022 年 4 月 12 日 | 自 **2022 年 4 月 20 日**&#x200B;起，Adobe 打算暂停所有其创建日期大于两年的计划报表（即 2020 年 1 月 31 日之前创建的计划报表）。不删除任何报告或数据。而是仅暂停确认为期限大于两年的报表，并且不发送其他计划报表。了解详情 |
@@ -59,5 +59,5 @@ AN-274429;AN-279640;AN-280918;AN-280945;AN-282884;AN-283565;AN-284785;AN-284814;
 
 ### AppMeasurement
 
-有关 AppMeasurement 版本（版本 2.22.4）的最新更新，请参阅[适用于 JavaScript 的 AppMeasurement 发行说明](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=en)。
+有关 AppMeasurement 版本（版本 2.22.4）的最新更新，请参阅[适用于 JavaScript 的 AppMeasurement 发行说明](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=zh-Hans)。
 
