@@ -5,7 +5,7 @@ role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
 source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '683'
 ht-degree: 100%
 
