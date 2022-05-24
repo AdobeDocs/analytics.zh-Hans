@@ -4,7 +4,7 @@ description: 在您的网站、属性或应用程序上实施 Adobe Analytics。
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Adobe Analytics 需要在您的网站、移动应用程序或其他应用程序�
 
 ## 更多 Analytics 用户指南
 
-[Analytics 用户指南](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hans)
+[Analytics 用户指南](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## 重要 Analytics 资源
 
