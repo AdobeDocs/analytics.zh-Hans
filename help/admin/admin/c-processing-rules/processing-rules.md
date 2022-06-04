@@ -4,9 +4,9 @@ subtopic: Processing rules
 title: 处理规则概述
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: ht
-source-wordcount: '394'
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
+source-wordcount: '329'
 ht-degree: 100%
 
 ---
@@ -28,11 +28,7 @@ ht-degree: 100%
 
 管理员&#x200B;**在默认情况下**&#x200B;有权使用处理规则。管理员还可通过“管理工具”界面将这些权限授予非管理员用户。有关说明，请参阅 []
 
-![](assets/processing-rules.png)
-
->[!IMPORTANT]
->
->由于处理规则永久地影响 Analytics 数据，因此 Adobe 强烈建议处理规则管理员参加 Adobe Analytics 中的认证培训，并熟悉报表包的所有数据源（标准网站、移动网站、移动应用程序、数据插入 API 等等）。了解有关在各种平台内填充的上下文数据变量和标准变量的知识，将有助于防止数据被意外删除或更改。
+![处理规则](assets/processing-rules.png)
 
 ## 使用上下文数据简化数据收集 {#section_09EEA03612D24C15839631AA9E9668D8}
 

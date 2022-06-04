@@ -4,8 +4,8 @@ keywords: 数据馈送;作业;量度;前处理列;后处理列;机器人;日期�
 title: 计算量度
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 介绍如何使用数据馈送计算常见量度。
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >从 Adobe Analytics 中排除的点击通常包含在数据馈送中。使用 `exclude_hit > 0` 可从原始数据查询中删除排除的点击。此外，数据馈送中还包含数据源数据。如果要排除数据源，请排除 `hit_source = 5,7,8,9` 的所有行。
 

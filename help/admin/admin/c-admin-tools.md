@@ -3,8 +3,8 @@ description: Adobe Analytics 中的管理工具索引。
 title: 管理工具
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]**
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >请不要在同一个浏览器中打开多个“管理员”选项卡。这可能导致您无意中将设置保存到错误的报表包。例如，如果您需要比较规则集并将它们复制到新的报表包，我们建议您打开一个新的浏览器或抓取屏幕截图来比较规则集。
 

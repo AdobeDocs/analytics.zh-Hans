@@ -4,8 +4,8 @@ description: 了解如何在工作区中使用多个报表包来创建项目以�
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 我们在这项功能中引入了“活动面板”与“非活动面板”的概念。您可以通过周围的浅蓝色边框识别活动面板。只需在面板内单击，该面板便可成为活动面板。
 
->[!IMPORTANT]
+>[!TIP]
 >您可以拖放到与活动面板位于同一报表包中的任何面板。通过拖放到同一报表包的非活动面板，该面板将变为活动面板。
 
 | 任务 | 活动面板 | 非活动面板 |

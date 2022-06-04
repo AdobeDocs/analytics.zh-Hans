@@ -4,8 +4,8 @@ title: 警报生成器 (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 警报生成器
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >智能警报仅适用于 Adobe Analytics Prime 和 Adobe Analytics Ultimate 客户。
 

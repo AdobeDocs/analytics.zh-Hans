@@ -3,8 +3,8 @@ title: writeSecureCookies
 description: 允许 AppMeasurement 使用“安全”属性设置 Cookie。
 feature: Variables
 exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 在[此处](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=zh-Hans)了解有关 Analytics Cookie 的详细信息。
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >如果启用 `writeSecureCookies` 变量，请确保网站上的所有内容都通过 HTTPS 协议来安全地提供。如果启用了此变量，并且您的页面上有不安全的内容，则 AppMeasurement 将不起作用。
 

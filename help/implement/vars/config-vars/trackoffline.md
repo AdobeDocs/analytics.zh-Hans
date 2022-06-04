@@ -3,8 +3,8 @@ title: trackOffline
 description: 启用或禁用离线跟踪，这会更改 AppMeasurement 收集数据的方式。
 feature: Variables
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 `trackOffline` 变量可决定您是否要在实施中使用离线跟踪。
 
->[!IMPORTANT]
+>[!WARNING]
 >
 > 在启用此变量之前，必须配置报表包以接受带有时间戳的点击。如果报表包不接受带有时间戳的点击并且已启用此变量，则数据将丢失且无法恢复。
 

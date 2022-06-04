@@ -3,8 +3,8 @@ description: 顺序区段使用 THEN 运算符（而非 AND 或 OR）创建。TH
 title: 生成顺序区段
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '3864'
 ht-degree: 100%
 
@@ -398,7 +398,7 @@ ht-degree: 100%
 * 通过使用 [!UICONTROL Within]，您可以按年、月、日、小时和分钟跟踪以匹配访问。
 * [!UICONTROL Within] 只能应用于[!UICONTROL 点击]容器，因为它是定义这种细粒度的唯一级别。
 
->[!IMPORTANT]
+>[!TIP]
 >
 >在 THEN 语句之间的“within”子句中，您可以添加“在 1 个搜索关键词实例之内”、“在 1 个 eVar 47 实例之内”。此条件可将区段限制在维度的一个实例之内。
 

@@ -4,10 +4,9 @@ title: 可选时间戳
 feature: Admin Tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '319'
 ht-degree: 100%
 
 ---
@@ -22,7 +21,7 @@ ht-degree: 100%
 * 将加盖时间戳的数据从移动设备应用程序发送至全局报表包。
 * 升级应用程序以使用离线跟踪功能，而不必创建新的报表包。
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >如果您使用可选时间戳，请不要在已加盖时间戳的数据上设置 [s.visitorID](/help/implement/vars/config-vars/visitorid.md)。这可能会导致数据混乱，并且会对时间计算操作（例如，逗留时间值）、属性（eVar 持久性）、访问量/访问计数以及路径报表产生负面影响。
 
@@ -41,7 +40,7 @@ ht-degree: 100%
    * **必须提供时间戳**（不支持设置 s.visitorID）
    * **可选时间戳**（支持设置 s.visitorID，但不适用于带有时间戳的点击）
 
-## 将现有报表包更改为“可选时间戳”  {#section_40BCD3B4639241DEA716F7640ED33E72}
+## 将现有报表包更改为“可选时间戳” {#section_40BCD3B4639241DEA716F7640ED33E72}
 
 1. 转到&#x200B;**管理员 > 报表包 > 编辑设置 > 常规 > 时间戳配置**。
 1. 选中&#x200B;**将选定的报表包转换为可选时间戳**&#x200B;框。

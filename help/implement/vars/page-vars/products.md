@@ -3,10 +3,10 @@ title: 产品
 description: 发送有关所显示产品或购物车中产品的数据。
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '512'
-ht-degree: 100%
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
+source-wordcount: '493'
+ht-degree: 98%
 
 ---
 
@@ -33,9 +33,7 @@ ht-degree: 100%
 
 `s.products` 变量是一个字符串，其中包含每个产品的多个分隔字段。在字符串中使用分号 (`;`) 分隔每个字段。
 
->[!IMPORTANT]
->**[!UICONTROL 不再建议将类别&#x200B;]**作为跟踪产品类别性能的可行选项。 因此，所有产品字符串都应以分号开头，表示第一个字段为空。
-
+* **类别** （可选）：产品类别。 此字段的最大长度为 100 个字节。
 * **产品名称**（必需）：产品的名称。此字段的最大长度为 100 个字节。
 * **数量**（可选）：购物车中此产品的数量。此字段仅适用于具有购买事件的点击。
 * **价格**（可选）：以小数表示的产品总价格。如果数量大于 1，则将价格设置为总价，而不是产品单价。调整此值的货币以与 [`currencyCode`](../config-vars/currencycode.md) 变量匹配。请勿在此字段中包含货币符号。此字段仅适用于具有购买事件的点击。
@@ -44,17 +42,17 @@ ht-degree: 100%
 
 ```js
 // Set a single product using all available fields
-s.products = ";Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
+s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
 此变量在同一点击中支持多个产品。它对于购物车和包含多种产品的购买非常有用。整个 `products` 字符串的最大长度为 64K。在字符串中使用逗号 (`,`) 分隔每个产品。
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
-s.products = ";Example product 1;1;3.50,;Example product 2;1;5.99";
+s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2;1;5.99";
 ```
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >从产品名称、类别和推销 eVar 值中去除所有分号、逗号和管道字符。如果产品名称包含逗号，则 AppMeasurement 会将其解析为新产品的开头。此错误解析会丢掉产品字符串的其余部分，导致维度和报表中的数据不正确。
 
@@ -64,13 +62,13 @@ s.products = ";Example product 1;1;3.50,;Example product 2;1;5.99";
 
 ```js
 // Include only product and category. Common on individual product pages
-s.products = ";Example product";
+s.products = "Example category;Example product";
 
 // Include only product name
 s.products = ";Example product";
 
 // One product has a category, the other does not. Note the comma and adjacent semicolon to omit category
-s.products = ";Example product 1,;Example product 2";
+s.products = "Example category;Example product 1,;Example product 2";
 
 // A visitor purchases a single product; record quantity and price
 s.events = "purchase";
@@ -96,7 +94,7 @@ s.products = ";Example product;;;;eVar1=Merchandising value";
 
 // Multiple products using multiple different events and multiple different merchandising eVars
 s.events = "event1,event2,event3,event4,purchase";
-s.products = ";Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
+s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
 ```
 
 如果使用 `digitalData` [数据层](../../prepare/data-layer.md)，则可通过 `digitalData.product` 对象阵列进行迭代：

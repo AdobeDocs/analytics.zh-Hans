@@ -3,10 +3,10 @@ title: 促销 eVar 和产品查找方法
 description: 深入了解促销 eVar 背后的概念以及它们如何处理和分配数据。
 feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: ht
-source-wordcount: '5319'
-ht-degree: 100%
+source-git-commit: 3d9b64bd28210732c7506dbf667c5d4d50e7fb07
+workflow-type: tm+mt
+source-wordcount: '5291'
+ht-degree: 99%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 以下是您可以在促销 eVar 中使用的不同设置。以下屏幕快照来自报表包管理器。访问方法是转到 [!UICONTROL Analytics] > [!UICONTROL 管理员] > [!UICONTROL 报表包] > [!UICONTROL 编辑设置] > [!UICONTROL 转化] > [!UICONTROL 转化变量] > [!UICONTROL 添加新项] > [!UICONTROL 启用促销]。
 
-![](assets/merch-evars1.png)
+![Merch eVar](assets/merch-evars1.png)
 
 有关这些设置的更多详细信息，请参阅下表各部分。
 
@@ -86,9 +86,9 @@ ht-degree: 100%
 
 而使用&#x200B;**[!UICONTROL 产品语法]**，eVar 只在 Adobe Analytics 的 products 变量中设置。Analytics 的 products 变量分为六个不同部分（就每个产品而言）：
 
-`s.products="[category];[productID];[quantity];[revenue];[events];[eVars]"`
+`s.products="[category];[name];[quantity];[revenue];[events];[eVars]"`
 
-* 不再建议将[!UICONTROL 类别]作为跟踪产品类别性能的可行选项。  它的存在只是为了说明为什么在大多数 products 变量的实施中，变量值的 productID 部分前面都有一个分号。
+* [!UICONTROL 类别] 和 [!UICONTROL 名称] 识别给定产品。
 * 跟踪产品购买时，[!UICONTROL 数量]和[!UICONTROL 收入]非常有用。
 * [!UICONTROL 事件]可用于记录不计入收入的自定义增量或货币事件值（例如运费、折扣等）
 
@@ -104,7 +104,7 @@ ht-degree: 100%
 
 了解此设置的作用也就了解了 eVar 分配与促销 eVar 捆绑之间的区别。对于促销 eVar，“促销 eVar 捆绑”更适合用作这个“分配”设置的名称。
 
-**标准 eVar 分配设置**
+#### 标准 eVar 分配设置
 
 每当从一个图像请求中收集到任何使用标准语法的 eVar 时，Adobe Analytics 处理服务器都会将数据插入另一个数据库列（称为 `post_evar` 列）。由于 eVar 具有持久性（大多数情况下，它们会在超出当前点击的某个时间点过期），服务器随后会在每个后续图像请求中设置此 `post_evar` 列。它被设置为等于传递到相应 eVar 中的最后一个值。对于标准 eVar，当成功事件发生时，Adobe Analytics 使用 `post_evar` 列（而不是常规 eVar 列）来确定因该事件而获得点数的 eVar 值。
 
@@ -112,7 +112,7 @@ ht-degree: 100%
 
 如果标准 eVar 的“分配”设置等于“最近（最后一个）”，则对于所有后续图像请求，从访客处收集的最近的 eVar 值将填入 `post_evar` 列。“最近（最后一个）”分配意味着在任何图像请求中，每次将相应的 eVar 设置为新值时，`post_evar` 值都会更改。“原始值（第一个）”分配意味着在未来某个图像请求中，即使相应的 eVar 可能设置为不同的值，`post_evar` 列也不会因点击而更改。
 
-**促销 eVar 分配（捆绑）设置**
+#### 促销 eVar 分配（捆绑）设置
 
 如前所述，所有使用转化变量语法的促销 eVar 都只有“最近（最后一个）”分配。因此，促销 eVar 的“分配”设置并不确定在访客继续使用网站时将哪些值插入 post_evar 列中；而是确定哪个 eVar 值捆绑到产品，以及这些产品如何将其成功事件分配回它们所捆绑的 eVar 值。
 
@@ -174,12 +174,11 @@ eVar 类型设置确定插入 eVar 中的数据的类型。大多数情况下，
 
 例如：
 
-```
+```js
 s.products=";12345;;;;eVar1=internal campaign";
 ```
 
 此变量设置将产品 ID 12345 的捆绑从“内部关键词搜索”的 eVar1 值更改为“内部营销活动”的 eVar1 值。此外，将 eVar 配置为使用产品语法和“最近（最后一个）”的“分配”（捆绑）设置时，也会发生这种重新捆绑更改。如果“分配”（捆绑）设置设为“原始值（第一个）”，则将 eVar1 与产品 ID 12345 一起设置为等于“内部营销活动”并不会将产品 ID 12345 重新捆绑到“内部营销活动”的 eVar1 值。相反，捆绑将保留最初捆绑的值 –“内部关键词搜索”。
-
 
 ### 使用产品语法时面临的挑战
 
@@ -191,7 +190,7 @@ s.products=";12345;;;;eVar1=internal campaign";
 
 虽然本例中 products 变量的语法较长，但它会将看到的每个 eVar 值都捆绑到 ID 为“sandal123”的产品。从那时起，与“sandal123”产品同时捕获的任何成功事件（例如购物车添加、购买）都将其点数提供给最后捆绑到产品的 eVar 值。此代码示例显示，如果将上述 eVar 捆绑到“sandal123”产品后购买了 1 件“sandal123”产品（价格为 79.95 美元）：
 
-```
+```js
 s.products=";sandal123;1;79.95";
 s.events="purchase";
 ```
@@ -210,7 +209,7 @@ s.events="purchase";
 
 此外，在查看查找方法页面时，访客也许能够单击将他们带到单个产品详细信息页面的链接，或者直接从查找方法页面将单个产品添加到购物车。以我们的“凉鞋”搜索关键词为例，如果访客直接从关键词搜索结果页面将“sandal123”产品添加到购物车，那么用于捕获购物车添加（通过“添加到购物车”按钮的 onClick 事件等）的代码必须要么在购物车添加发生时动态生成，要么直接通过页面代码或标记管理系统进行“硬编码”。无论如何，在这种情况下触发的代码如下所示：
 
-```
+```js
 s.linkTrackVars="products,events";
 s.linkTrackEvents=s.events="scAdd";
 s.products=";sandal123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross-sell";
@@ -236,9 +235,9 @@ s.tl(true,"o","Cart Add")
 
 例如，许多服装产品都有“子 SKU”，用于指定尺寸、颜色、款式和任何其他属性。这些属性将单个子产品与属于同一父产品的其他产品区分开来。比如说，您决定购买一件中号蓝色 T 恤和一件大号红色 T 恤。假设两件 T 恤的父产品 ID 均为“tshirt123”，并且 `eVar10` 已配置为捕获子 SKU。在购买确认页面上设置的变量将按如下方式设置：
 
-```
-s.events='purchase';
-s.products=';tshirt123;1;20;;eVar10=tshirt123-m-blue,;tshirt123;1;20;;eVar10=tshirt123-l-red"
+```js
+s.events="purchase";
+s.products=";tshirt123;1;20;;eVar10=tshirt123-m-blue,;tshirt123;1;20;;eVar10=tshirt123-l-red";
 ```
 
 在本例中，“tshirt123-m-blue”和“tshirt123-l-red”的 `eVar10`（childSKU）值都因购买了各自的产品 ID“tshirt123”实例而获得点数。
@@ -247,17 +246,17 @@ s.products=';tshirt123;1;20;;eVar10=tshirt123-m-blue,;tshirt123;1;20;;eVar10=tsh
 
 使用“最近（最后一个）”的“分配”（捆绑）设置可能会遇到其他问题。在许多网络浏览体验中，访客会“重新找到”他们已经查看和/或添加到购物车中的产品。这通常通过后续访问或就在他们决定完成购买之前发生。假设访客在访问网站时，通过关键词搜索“凉鞋”找到了“sandal123”产品。他们立即将其从关键词搜索结果页面添加到购物车。捕获购物车添加的代码将设置如下：
 
-```
+```js
 s.linkTrackVars="products,events";
 s.linkTrackEvents=s.events="scAdd";
-s.products=";sandal123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross
+s.products=";sandal123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross";
 ```
 
 因此，此图像请求中所示的每个 eVar 值都捆绑到“sandal123”产品。
 
 现在，假设访客在这次访问期间没有购买该产品，但三天后返回网站时，“sandals123”产品仍在购物车中。访客希望在购买之前了解有关该产品的更多信息。但是，访客不是使用关键词搜索来查找产品，而是浏览网站。就在“重新找到”该产品之前，他们最终会进入“女式 > 鞋子 > 凉鞋”的促销浏览区。当他们最终“重新查找”“sandal123”产品的产品详细信息页面时，变量将设置如下（加载页面时）：
 
-```
+```js
 s.events="prodView";
 s.products=";sandal123;;;;eVar4=womens > shoes > sandals|eVar1=browse|eVar3=non-internal campaign|eVar2=non-search|eVar5=non-cross-sell";
 ```
@@ -279,14 +278,14 @@ s.products=";sandal123;;;;eVar4=womens > shoes > sandals|eVar1=browse|eVar3=non-
 AppMeasurement/AEP Web SDK 文件中包含的附加逻辑可以填充需要同时设置的其余变量（促销 eVar/维度）。\
 例如，如果新访客要对“凉鞋”进行关键词搜索（搜索结果页面上返回了 25 个结果），则要触发的代码（通过页面代码或数据层捕获）将如下所示：
 
-```
+```js
 s.prop4="sandals";
 s.prop5="25";
 ```
 
 AppMeasurement/Analytics SDK 文件中的逻辑随后可以自动将此代码片段转换为以下内容：
 
-```
+```js
 s.prop4="sandals";
 s.prop5="25";
 s.eVar2="sandals";
@@ -324,7 +323,7 @@ s.eVar5="non-cross sell";
 
 当捆绑事件包含在与 products 变量相同的服务器调用中时，其后处理列中的促销 eVar（使用转化变量语法）值将捆绑到 products 变量。基于前面的示例，假设一台服务器调用包含以下促销 eVar 值：
 
-```
+```js
 s.eVar2="sandals";
 s.eVar1="internal keyword search";
 s.eVar3="non-internal campaign";
@@ -334,7 +333,7 @@ s.eVar5="non-cross sell";
 
 如前所述，上述 eVar 通过其各自的 post_evar 列在当前点击之后持续存在。因此，Adobe 的服务器将上述 eVar 转换为以下内容：
 
-```
+```js
 post_eVar2="sandals";
 post_eVar1="internal keyword search";
 post_eVar3="non-internal campaign";
@@ -348,15 +347,15 @@ post_eVar5="non-cross sell";
 
 假设在未来点击时，设置了以下变量：
 
-```
+```js
 s.products=";sandals123"
 s.events="prodView";
 ```
 
 在 post_evar 列中，Adobe 处理服务器按如下方式显示此点击：
 
-```
-s.products=";sandals123"
+```js
+s.products=";sandals123";
 s.events="prodView";
 post_eVar2="sandals";
 post_eVar1="internal keyword search";
@@ -369,9 +368,9 @@ post_eVar5="non-cross sell";
 
 捆绑会产生一些非常有趣的结果，可以在 post_products 列的值中看到这些结果。捆绑对上面的代码进行了转换，并设置了更多的后处理列，如下所示：
 
-```
-post_events="prodView"
-post_products=";sandals123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross-sell"
+```js
+post_events="prodView";
+post_products=";sandals123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross-sell";
 ```
 
 您可能对 post_products 列中包含的值感到熟悉。在本文档中向上滚动并比较此 post_products 值和 s.products 值，如下所示。请注意，post_products 列是使用产品变量语法设置的！
@@ -390,6 +389,6 @@ post_products=";sandals123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=
 
 总之，如果不进行额外的配置，促销 eVar 的现成实例量度就没有多大用处。幸运的是，Adobe 发布了 [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=zh-Hans)。您可以借助它，为 Adobe Analytics 收集的任何自定义量度应用多个归因模型。应用这些归因模型的量度不使用 post_evar 列中包含的值或捆绑到任一种特定产品的值。这些量度仅使用通过图像请求本身传递的值（或通过 Adobe Analytics 处理规则捕获的值）。您可以使用 Attribution IQ 中的功能，为所有使用转化变量语法的促销 eVar 获取准确归因的实例量度。
 
-![](assets/attribution-select.png)
+![归因选择](assets/attribution-select.png)
 
 将促销 eVar 的实例量度添加到报表时，正确的 Attribution IQ 模型应该是“最后接触”模型。在这种情况下，模型的“回顾窗口”设置并不重要。原因是，“强制”最后接触归因模型始终将实例点数分配给通过请求传入的每个单独值。这与 eVar 的实际属性/捆绑设置是设置为等于“最近（最后一个）”还是设置为“原始值（第一个）”无关。

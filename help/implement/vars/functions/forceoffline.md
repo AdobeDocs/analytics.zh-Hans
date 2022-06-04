@@ -3,8 +3,8 @@ title: forceOffline
 description: 手动设置 AppMeasurement 的在线状态。
 feature: Variables
 exl-id: 2e48bdf6-7de7-4976-86dd-ef3d558769c7
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 `forceOffline()` 方法允许您覆盖自动检测到的 AppMeasurement 状态。
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >仅在启用 [`trackOffline`](../config-vars/trackoffline.md) 时才使用此函数。在离线跟踪之外使用此函数可能会导致数据丢失。
 

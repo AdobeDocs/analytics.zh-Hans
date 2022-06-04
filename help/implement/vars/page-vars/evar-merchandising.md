@@ -3,8 +3,8 @@ title: eVar（促销）变量
 description: 与单个产品关联的自定义变量。
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 在实施中使用 eVar 之前，请确保在报表包设置中将 eVar 配置为所需的语法。请参阅《管理员指南》中的[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >未能正确配置推销 eVar 会导致变量出现意外值或数据丢失。确保为您的实施正确配置推销 eVar。
 

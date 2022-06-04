@@ -4,8 +4,8 @@ title: 交互控件
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 >
 
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >切勿篡改控件的名称。（要查看名称，请将焦点置于控件上，此时控件名称便会出现在左上角 Excel 网格的正上方。）
 

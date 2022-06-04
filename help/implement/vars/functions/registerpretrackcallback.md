@@ -3,8 +3,8 @@ title: registerPreTrackCallback
 description: 在将点击发送到 Adobe 之前创建回调函数。
 feature: Variables
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 `registerPreTrackCallback` 变量允许贵组织在编译图像请求 URL 后但在将其发送之前挂接 JavaScript 函数。您可以使用此变量将 AppMeasurement 收集的数据发送到合作伙伴或内部基础结构。
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >在 [`registerPostTrackCallback`](registerposttrackcallback.md) 变量内请勿调用任何跟踪调用，如 [`t()`](t-method.md) 或 [`tl()`](tl-method.md)。此变量中的跟踪函数可能会导致图像请求无限循环！
 

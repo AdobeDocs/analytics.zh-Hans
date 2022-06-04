@@ -3,8 +3,8 @@ title: Prop
 description: 可在报告中使用的自定义维度。
 feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ AppMeasurement 将 JavaScript 变量编译到图像请求中以用于数据收�
 
 您可以让任何 Prop 区分大小写。您还可以在启用 Prop 后，为任何 Prop 禁用区分大小写功能。请联系 Adobe 客户关怀团队，提供报表包 ID 和所需的变量以切换区分大小写设置。
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >切换区分大小写设置可能会影响维度项目，导致区段出现意外结果，以及导致过滤器出现问题。Adobe 强烈建议在两个主要时间段（如在每月或每年开始时）之间切换此设置。
 

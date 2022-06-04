@@ -2,8 +2,8 @@
 title: 基于字段的拼合
 description: 了解使用基于字段的拼合来拼合数据的先决条件和限制。
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: 88c6874a043c3aa1a9ff1ec9d4b196ba37179387
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ Cross-Device Analytics 提供了两种截然不同的方法来拼合数据。此
 
 如果您打算使用基于字段的拼合来实施 Cross-Device Analytics，则需要满足以下条件。请与贵组织内的团队以及 Adobe 客户经理合作，确保满足以下所有条件。
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >如果不满足所有先决条件，则可能会导致无法启用 Cross-Device Analytics，或者导致拼合数据时的结果不佳。
 

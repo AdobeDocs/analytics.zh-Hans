@@ -3,8 +3,8 @@ title: contextData
 description: 上下文数据变量允许您在处理规则可读取的每个页面上定义自定义变量。
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ s.contextData["example_variable"] = "Example value";
 
 ## 使用处理规则填充 Analytics 变量
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >运行处理规则后，上下文数据变量将被丢弃。如果没有可将值置于变量的处于活动状态的处理规则，则该数据会永久丢失！
 

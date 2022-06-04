@@ -4,8 +4,8 @@ title: 日期比较
 feature: Calendar
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Analysis Workspace 中的日期比较允许您采用包含日期范围的任何�
 
    ![](assets/compare-time.png)
 
-   >[!IMPORTANT]
+   >[!NOTE]
    >
    >对于量度行、日期范围行和时间维度行，此右键单击选项处于禁用状态。
 
@@ -93,7 +93,7 @@ Analysis Workspace 中的日期比较允许您采用包含日期范围的任何�
 
 ![](assets/date-comparison-setting.png)
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >对于所有现有项目，此设置处于&#x200B;**禁用**（未选中）状态，对于所有新项目则处于&#x200B;**启用**（选中）状态。
 
