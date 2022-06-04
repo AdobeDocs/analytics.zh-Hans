@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
 user-guide-description: '自定义收集哪些数据，以便让 Adobe Analytics 得到充分利用。 '
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
-workflow-type: ht
-source-wordcount: '391'
-ht-degree: 100%
+source-git-commit: 82c24cb7fd9051c5b0f848bb7fdd071f4137b697
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 95%
 
 ---
 
@@ -131,6 +131,22 @@ ht-degree: 100%
    + [“实施”模式](prepare/implementation-modal.md)
    + [创建解决方案设计文档](prepare/solution-design.md)
    + [负责现有的 Adobe Analytics 实施](prepare/existing-implementation.md)
++ 使用Experience Platform边缘实施Analytics {#aep-edge}
+   + [Experience Edge概述](aep-edge/overview.md)
+   + [变量映射](aep-edge/variable-mapping.md)
+   + Web SDK {#web-sdk}
+      + [Web SDK 概述](aep-edge/web-sdk/overview.md)
+   + Mobile SDK {#mobile-sdk}
+      + [Mobile SDK概述](aep-edge/mobile-sdk/overview.md)
+   + Edge API {#edge-api}
+      + [Edge API概述](aep-edge/edge-api/overview.md)
++ 使用 Adobe Experience Platform 中的标记实施 Analytics {#launch}
+   + [标记概述](launch/overview.md)
+   + [创建 Adobe Analytics 标记属性](launch/create-analytics-property.md)
+   + [部署到开发环境](launch/deploy-dev.md)
+   + [验证并发布到生产环境](launch/validate-publish-prod.md)
+   + [将数据层对象映射到数据元素](launch/layer-to-elements.md)
+   + [将标记数据元素映射到 Analytics 变量](launch/elements-to-variable.md)
 + 使用 JavaScript 实施 Analytics {#js}
    + [JavaScript 概述](js/overview.md)
    + [实施选择退出链接](js/opt-out.md)
@@ -150,13 +166,6 @@ ht-degree: 100%
       + [访问示例](js/xdevice-visid/visit-example.md)
       + [旧版跨设备识别功能常见问题解答](js/xdevice-visid/xdevice-faq.md)
    + [AppMeasurement 疑难解答](js/troubleshooting.md)
-+ 使用 Adobe Experience Platform 中的标记实施 Analytics {#launch}
-   + [标记概述](launch/overview.md)
-   + [创建 Adobe Analytics 标记属性](launch/create-analytics-property.md)
-   + [部署到开发环境](launch/deploy-dev.md)
-   + [验证并发布到生产环境](launch/validate-publish-prod.md)
-   + [将数据层对象映射到数据元素](launch/layer-to-elements.md)
-   + [将标记数据元素映射到 Analytics 变量](launch/elements-to-variable.md)
 + 在其他平台上实施 Analytics {#other}
    + [使用硬编码图像请求实施 Analytics](other/hardcoded.md)
    + [使用 DTM 实施 Analytics](other/dtm-implementation-overview.md)
@@ -179,6 +188,3 @@ ht-degree: 100%
    + [重点审查（每个网站发布后）](review/focused-review.md)
    + [全面审查（每 6 个月）](review/full-review.md)
    + [定义您的 5 大 KPI](review/define-kpis.md)
-+ 在 Analytics 中使用 XDM 数据 {#aep-edge}
-   + [使用 AEP Web SDK](aep-edge/xdmoverview.md)
-   + [手动将 XDM 数据映射到 Analytics](aep-edge/xdm-manual.md)

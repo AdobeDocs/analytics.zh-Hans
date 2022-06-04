@@ -1,16 +1,16 @@
 ---
-title: AppMeasurement for JavaScript
+title: 使用AppMeasurement for JavaScript实施Adobe Analytics
 description: 了解如何在没有标签管理系统的情况下使用 JavaScript 实施 Adobe Analytics。
 feature: Implementation Basics
 exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '150'
-ht-degree: 100%
+source-git-commit: 99fc7814eaa12d0d9e8e478629a4c2134a577aaa
+workflow-type: tm+mt
+source-wordcount: '158'
+ht-degree: 91%
 
 ---
 
-# AppMeasurement for JavaScript
+# 使用AppMeasurement for JavaScript实施Adobe Analytics
 
 AppMeasurement for JavaScript 一直以来都是实施 Adobe Analytics 的常用方法。但是，随着标记管理系统的日益普及，建议使用 [Adobe Experience Platform 中的标记](../launch/overview.md)来实施。
 
