@@ -1,13 +1,13 @@
 ---
 title: Adobe Experience Edge中的Analytics变量映射
 description: 查看Edge自动映射到Analytics变量的XDM字段。
-source-git-commit: 984d62f6ece15ebbd41dbbd1e3cb800faa7f323b
+exl-id: fbff5c38-0f04-4780-b976-023e207023c6
+source-git-commit: 1ed07727530ef5e3c9afbb291772f668fdee5d45
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Experience Edge中的Analytics变量映射
 
@@ -70,26 +70,26 @@ ht-degree: 0%
 | `media.mediaTimed.midpoints.value` | Media Analytics量度 [50%进度标记](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#fifty-progress-marker). |
 | `media.mediaTimed.pauseTime.value` | Media Analytics量度 [暂停总持续时间](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#total-pause-duration). |
 | `media.mediaTimed.pauses.value` | Media Analytics量度 [暂停事件](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#pause-events). |
-| `media.mediaTimed.primaryAssetReference.@id` | Media Analytics维度 [资产ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#asset-id). |
-| `media.mediaTimed.primaryAssetReference.dc:title` | Media Analytics维度 [视频名称](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#video-name). |
-| `media.mediaTimed.primaryAssetReference.iptc4xmpExt:Creator[N].iptc4xmpExt:Name` | Media Analytics维度 [创作者](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#originator). |
-| `media.mediaTimed.primaryAssetReference.iptc4xmpExt:Episode.iptc4xmpExt:Number` | Media Analytics维度 [剧集](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#episode). |
-| `media.mediaTimed.primaryAssetReference.iptc4xmpExt:Genre` | Media Analytics维度 [流派](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#genre). |
-| `media.mediaTimed.primaryAssetReference.iptc4xmpExt:Rating[N].iptc4xmpExt:RatingValue` | Media Analytics维度 [内容评级](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-rating). |
-| `media.mediaTimed.primaryAssetReference.iptc4xmpExt:Season.iptc4xmpExt:Number` | Media Analytics维度 [季](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#season). |
-| `media.mediaTimed.primaryAssetReference.iptc4xmpExt:Series.iptc4xmpExt:Identifier` | Media Analytics维度 [内容ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-id). |
-| `media.mediaTimed.primaryAssetReference.iptc4xmpExt:Series.iptc4xmpExt:Name` | Media Analytics维度 [显示](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#show). |
-| `media.mediaTimed.primaryAssetReference.showType` | Media Analytics维度 [显示类型](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#show-type). |
-| `media.mediaTimed.primaryAssetReference.xmpDM:duration` | Media Analytics维度 [视频长度](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#video-length). |
-| `media.mediaTimed.primaryAssetViewDetails.@id` | Media Analytics维度 [媒体会话ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#media-session-id). |
-| `media.mediaTimed.primaryAssetViewDetails.broadcastChannel` | Media Analytics维度 [内容渠道](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-channel). |
-| `media.mediaTimed.primaryAssetViewDetails.broadcastContentType` | Media Analytics维度 [内容类型](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-type). |
-| `media.mediaTimed.primaryAssetViewDetails.broadcastNetwork` | Media Analytics维度 [网络](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#network). |
-| `media.mediaTimed.primaryAssetViewDetails.mediaSegmentView.value` | Media Analytics维度 [内容区段](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-segment). |
-| `media.mediaTimed.primaryAssetViewDetails.playerName` | Media Analytics维度 [内容播放器名称](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-player-name). |
-| `media.mediaTimed.primaryAssetViewDetails.playerSDKVersion.version` | Media Analytics维度 [SDK版本](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#sdk-version). |
-| `media.mediaTimed.primaryAssetViewDetails.sourceFeed` | Media Analytics维度 [媒体馈送类型](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#media-feed-type). |
-| `media.mediaTimed.primaryAssetViewDetails.streamFormat` | Media Analytics维度 [流格式](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#stream-format). |
+| `media.mediaTimed.primaryAssetReference.`<br/>`@id` | Media Analytics维度 [资产ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#asset-id). |
+| `media.mediaTimed.primaryAssetReference.`<br/>`dc:title` | Media Analytics维度 [视频名称](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#video-name). |
+| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Creator[N].iptc4xmpExt:Name` | Media Analytics维度 [创作者](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#originator). |
+| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Episode.iptc4xmpExt:Number` | Media Analytics维度 [剧集](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#episode). |
+| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Genre` | Media Analytics维度 [流派](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#genre). |
+| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Rating[N].iptc4xmpExt:RatingValue` | Media Analytics维度 [内容评级](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-rating). |
+| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Season.iptc4xmpExt:Number` | Media Analytics维度 [季](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#season). |
+| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Series.iptc4xmpExt:Identifier` | Media Analytics维度 [内容ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-id). |
+| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Series.iptc4xmpExt:Name` | Media Analytics维度 [显示](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#show). |
+| `media.mediaTimed.primaryAssetReference.`<br/>`showType` | Media Analytics维度 [显示类型](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#show-type). |
+| `media.mediaTimed.primaryAssetReference.`<br/>`xmpDM:duration` | Media Analytics维度 [视频长度](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#video-length). |
+| `media.mediaTimed.primaryAssetViewDetails.`<br/>`@id` | Media Analytics维度 [媒体会话ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#media-session-id). |
+| `media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastChannel` | Media Analytics维度 [内容渠道](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-channel). |
+| `media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastContentType` | Media Analytics维度 [内容类型](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-type). |
+| `media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastNetwork` | Media Analytics维度 [网络](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#network). |
+| `media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | Media Analytics维度 [内容区段](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-segment). |
+| `media.mediaTimed.primaryAssetViewDetails.`<br/>`playerName` | Media Analytics维度 [内容播放器名称](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-player-name). |
+| `media.mediaTimed.primaryAssetViewDetails.`<br/>`playerSDKVersion.version` | Media Analytics维度 [SDK版本](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#sdk-version). |
+| `media.mediaTimed.primaryAssetViewDetails.`<br/>`sourceFeed` | Media Analytics维度 [媒体馈送类型](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#media-feed-type). |
+| `media.mediaTimed.primaryAssetViewDetails.`<br/>`streamFormat` | Media Analytics维度 [流格式](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#stream-format). |
 | `media.mediaTimed.progress10.value` | Media Analytics量度 [10%进度标记](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#ten-progress-marker). |
 | `media.mediaTimed.progress95.value` | Media Analytics量度 [95%进度标记](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#ninety-five-progress-marker). |
 | `media.mediaTimed.resumes.value` | Media Analytics量度 [内容继续](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-resumes). |
