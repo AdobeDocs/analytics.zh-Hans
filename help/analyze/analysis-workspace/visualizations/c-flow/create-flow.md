@@ -4,7 +4,7 @@ title: 配置流量可视化图表
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: e9cebe28f71b3d6f44744e78447e31cf597e7054
+source-git-commit: 2ce17ecd45810e1c567e99423271dbc2d5288485
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 40%
@@ -15,7 +15,7 @@ ht-degree: 40%
 
 >[!NOTE]
 >
->此新版本的 [!UICONTROL 流量] 可视化图表当前为私人测试版。 请参阅 [本页](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md) ，用于当前功能。
+>此新版本的 [!UICONTROL 流量] 可视化图表当前处于有限测试阶段。 请参阅 [本页](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md) ，用于当前功能。
 
 更新的流量可视化图表允许您了解源自网站或应用程序上特定转化事件或导致该事件的历程。 它会跟踪维度（和维度项目）或量度的路径。 流量允许您配置您感兴趣的路径的开始或结束，或分析通过维度或维度项目的所有这些路径。
 
