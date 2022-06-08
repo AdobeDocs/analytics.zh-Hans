@@ -3,10 +3,10 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9a16f3942505028624e5c07568342a9acac898d7
+source-git-commit: 8666c32ffe907ad486778fa382404807459be03c
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 63%
+source-wordcount: '826'
+ht-degree: 62%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 63%
 
 | 功能 | 描述 | [预定日期](releases.md) |
 | ----------- | ---------- | ------- |
-| 通过 Experience Edge 填充生命周期维度和量度 | Analytics 报表中现在将显示通过 Experience Edge 发送的移动生命周期数据。查看文档，详细了解通过 Experience Edge 收集哪些生命周期数据以及这些数据如何与现有生命周期报表相对应。[了解详情 - 即将推出] | 2022 年 5 月 27 日 |
+| 通过 Experience Edge 填充生命周期维度和量度 | Analytics 报表中现在将显示通过 Experience Edge 发送的移动生命周期数据。查看文档，详细了解通过 Experience Edge 收集哪些生命周期数据以及这些数据如何与现有生命周期报表相对应。[了解详情](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) | 2022 年 5 月 27 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
