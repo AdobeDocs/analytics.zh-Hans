@@ -6,10 +6,10 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: 000d9aedbe8d3ac109be472d9e29f7798f86baa7
-workflow-type: ht
-source-wordcount: '1717'
-ht-degree: 100%
+source-git-commit: e589a26627a24da693fd3724e2078148412c71cc
+workflow-type: tm+mt
+source-wordcount: '1772'
+ht-degree: 94%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 有关计划、下载和分发报表的信息。
 
 >[!IMPORTANT]
->从 2022 年 4 月 15 日起，Adobe 打算暂停所有创建日期超过两年的计划报告（2020 年 1 月 31 日前创建的任何任务）。任何报告或数据都不会被删除。只有确认创建超过两年的报告才会暂停，并且不会发送额外的计划报告。[了解详情](/help/analyze/reports-analytics/scheduled-reports-eol.md)
+>2022年4月21日，我们宣布弃用特定于计划报表的几项功能，以便为之前宣布的Reports &amp; Analytics生命周期终止做准备。 这些功能包括计划新报表和新数据提取的功能。 为响应寻求扩展并简化从Reports &amp; Analytics迁移的客户请求，我们决定将这些功能的访问权限延长到2023年1月31日。 请注意，报告和数据提取的过期时间窗口将继续限制为9个月；除非重新激活计划，否则在此时段结束时，报表和数据提取提交将会暂停。 [了解详情](/help/analyze/reports-analytics/scheduled-reports-eol.md)
 
 计划报表以提交至 Adobe Analytics 应用程序时，可以使用“计划”和“分发”工具来查看已经自动发送的文件，并修改或终止提交。
 
