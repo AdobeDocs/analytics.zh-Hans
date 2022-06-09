@@ -5,9 +5,9 @@ user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
 user-guide-description: '自定义收集哪些数据，以便让 Adobe Analytics 得到充分利用。 '
 source-git-commit: 82c24cb7fd9051c5b0f848bb7fdd071f4137b697
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '402'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 # Adobe Analytics 实施指南 {#implementation}
 
 + [实施 Adobe Analytics](home.md)
-+ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
 + [AppMeasurement 发行说明](appmeasurement-updates.md)
 + Analytics 变量、函数和方法 {#vars}
    + [概述](vars/overview.md)
@@ -126,20 +126,20 @@ ht-degree: 95%
    + [集成模块](vars/integrate.md)
 + 准备实施 Adobe Analytics {#prepare}
    + [创建数据层](prepare/data-layer.md)
-   + [全局报表包注意事项](prepare/global-rs.md)
+   + [全局报告包注意事项](prepare/global-rs.md)
    + [实施多包标记](prepare/multi-suite-tagging.md)
    + [“实施”模式](prepare/implementation-modal.md)
    + [创建解决方案设计文档](prepare/solution-design.md)
    + [负责现有的 Adobe Analytics 实施](prepare/existing-implementation.md)
-+ 使用Experience Platform边缘实施Analytics {#aep-edge}
-   + [Experience Edge概述](aep-edge/overview.md)
++ 使用 Experience Platform Edge 实施 Analytics{#aep-edge}
+   + [Experience Edge 概述](aep-edge/overview.md)
    + [变量映射](aep-edge/variable-mapping.md)
    + Web SDK {#web-sdk}
       + [Web SDK 概述](aep-edge/web-sdk/overview.md)
    + Mobile SDK {#mobile-sdk}
-      + [Mobile SDK概述](aep-edge/mobile-sdk/overview.md)
-   + Edge API {#edge-api}
-      + [Edge API概述](aep-edge/edge-api/overview.md)
+      + [Mobile SDK 概述](aep-edge/mobile-sdk/overview.md)
+   + Edge API{#edge-api}
+      + [Edge API 概述](aep-edge/edge-api/overview.md)
 + 使用 Adobe Experience Platform 中的标记实施 Analytics {#launch}
    + [标记概述](launch/overview.md)
    + [创建 Adobe Analytics 标记属性](launch/create-analytics-property.md)
