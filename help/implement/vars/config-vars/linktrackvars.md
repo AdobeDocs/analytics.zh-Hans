@@ -3,10 +3,10 @@ title: linkTrackVars
 description: 指定要包含在链接跟踪图像请求中的变量。
 feature: Variables
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '275'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '338'
+ht-degree: 61%
 
 ---
 
@@ -16,15 +16,19 @@ ht-degree: 100%
 
 页面查看调用（[`t()`](../functions/t-method.md) 方法）不使用此变量。
 
-## 使用 Adobe Experience Platform 标记的链接跟踪调用中的变量
+## 使用Web SDK确定要包含在XDM事件中的变量
 
-Adobe Experience Platform 会根据界面中设置的变量自动填充后端上的此变量，因此始终为使用 Adobe Experience Platform 中的标记的实施设置此变量。
+Web SDK不排除用于链接跟踪调用的某些字段。 但是，您可以使用 `onBeforeEventSend` 回调以在将数据发送到Adobe之前清除或设置所需字段。 请参阅 [全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) （位于Web SDK文档中）以了解更多信息。
+
+## 使用Adobe Analytics扩展的链接跟踪调用中的变量
+
+此变量会根据界面中设置的变量自动填充在后端，因此实施始终使用Adobe Analytics扩展来设置此变量。
 
 >[!IMPORTANT]
 >
->如果使用自定义代码编辑器设置变量，则还必须使用自定义代码在 `linkTrackVars` 中包含该变量。
+>如果使用自定义代码编辑器设置变量，则必须在 `linkTrackVars` 也使用自定义代码。
 
-## AppMeasurement 和自定义代码编辑器中的 s.linkTrackVars
+## AppMeasurement和Analytics扩展的自定义代码编辑器中的s.linkTrackVars
 
 `s.linkTrackVars` 变量是一个字符串，其中包含以逗号分隔的变量列表，您要将这些事件包含在链接跟踪图像请求（`tl()` 方法）中。必须满足以下两个条件才能在链接跟踪点击中包含维度：
 

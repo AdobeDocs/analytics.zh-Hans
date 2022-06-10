@@ -4,9 +4,9 @@ subtopic: Processing rules
 title: 处理顺序
 feature: Processing Rules
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
-source-git-commit: 790c3a02fbdf896cba0933dcd7a2b2efd5a19f15
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '506'
 ht-degree: 49%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 49%
 |--- |--- |
 | [动态变量](/help/implement/vars/page-vars/dynamic-variables.md) | 通过从HTTP标头或其他变量中提取信息来动态填充的变量。 |
 | [AppMeasurement](/help/implement/home.md) | AppMeasurement库中使用的函数和插件将在浏览器或客户端应用程序中执行。 |
-| [标记实施](/help/implement/launch/overview.md) | 数据收集UI中定义的规则。 |
+| [标记实施](/help/implement/launch/overview.md) | 在Adobe Experience Platform数据收集的Adobe Analytics扩展中定义的规则。 |
 | [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/adobe-analytics/analytics-overview.html) | 通过Web SDK收集的数据会发送到Adobe Experience Edge，然后转发到所需的报表包。 |
 | [机器人规则](/help/admin/admin/bot-removal/bot-rules.md) | 允许您删除已知蜘蛛程序和机器人程序生成的流量。 |
 

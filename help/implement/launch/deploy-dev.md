@@ -3,10 +3,10 @@ title: 将 Adobe Analytics 部署到开发环境
 description: 了解如何使用标记将 Adobe Analytics 部署到开发环境。
 feature: Launch Implementation
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
-workflow-type: ht
-source-wordcount: '592'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '594'
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 标记在部署代码方面提供了许多组织工作流程。请按照以下步骤为 Analytics 实施创建所需的最少组件。作为标记管理员，您可以在组织内部建立用于部署 Adobe 解决方案的合适工作流程。
 
-1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
 2. 单击要在网站上实施的标记属性。
 3. 单击 **[!UICONTROL 主机]**，然后单击 **[!UICONTROL 添加主机]**。
 4. 将其命名为`"Adobe managed"`，并在类型下拉菜单中选择&#x200B;**[!UICONTROL 由 Adobe 管理]**。单击“保存”。
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 尽管到目前为止您已进行所有更改和配置，但实际上尚未发布任何代码。创建一个库（大致意思为更改集合）以在您的网站上用于发布代码。
 
-1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
 2. 单击要在网站上实施的标记属性。
 3. 单击 **[!UICONTROL 发布流]** 选项卡，然后单击 **[!UICONTROL 添加库]**。有关此页面的更多信息，请参阅标记文档中的[发布概述](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html)。
 4. 为此库命名`'Initial changes'`，并选择您的开发环境。

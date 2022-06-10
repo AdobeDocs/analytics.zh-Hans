@@ -3,10 +3,10 @@ title: visitorID
 description: 使用自定义访客 ID。
 feature: Variables
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '259'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 86%
 
 ---
 
@@ -18,18 +18,22 @@ Adobe 使用多种不同的方法识别您网站上的访客。`visitorID` 变�
 >
 >Adobe 建议不要使用此变量。请改用 [Adobe Experience Cloud 身份服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
 
-## 使用 Adobe Experience Platform 中的标记的“访客 ID”
+## 使用Web SDK覆盖访客ID
+
+即将推出！
+
+## 使用Adobe Analytics扩展的访客ID
 
 [!UICONTROL 访客 ID] 是配置 Adobe Analytics 扩展时位于 [!UICONTROL Cookie] 折叠面板下的字段。
 
-1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
-2. 单击所需的属性。
-3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的]配置[!UICONTROL 按钮。
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+2. 单击所需的标记属性。
+3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;]**配置**[!UICONTROL &#x200B;按钮。
 4. 展开 [!UICONTROL Cookie] 折叠面板，这会显示[!UICONTROL 访客 ID]字段。
 
 将此字段分配给包含您的自定义访客 ID 的数据元素。请勿将此字段设置为静态值。
 
-## AppMeasurement 和自定义代码编辑器中的 s.visitorID
+## AppMeasurement和Analytics扩展自定义代码编辑器中的s.visitorID
 
 `s.visitorID` 变量是一个字符串，其中包含访客的自定义唯一标识符。有效值包括最多 100 字节的字母数字字符。避免在此变量中使用虚线、空格、下划线或符号。
 

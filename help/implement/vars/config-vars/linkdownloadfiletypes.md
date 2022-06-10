@@ -3,16 +3,16 @@ title: linkDownloadFileTypes
 description: 确定自动作为下载链接进行跟踪的文件扩展名。
 feature: Variables
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '270'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 49%
 
 ---
 
 # linkDownloadFileTypes
 
-当启用了 [`trackDownloadLinks`](trackdownloadlinks.md) 并且访客单击某个链接时，AppMeasurement 会检查该链接的 URL 以获取文件类型扩展。如果链接 URL 包含的文件类型可在 `linkDownloadFileTypes` 中找到，则会自动发送下载链接图像请求。
+When [`trackDownloadLinks`](trackdownloadlinks.md) (AppMeasurement)或 [`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK)启用后，如果访客单击某个链接，则AppMeasurement会检查该链接的URL以获取文件类型扩展。 如果链接URL包含匹配的文件类型，则会自动发送下载链接图像请求。
 
 使用 `linkDownloadFileTypes` 可自定义要计为下载链接的文件扩展名。
 
@@ -25,22 +25,41 @@ ht-degree: 100%
 >* 右键单击并选择“将目标另存为...”
 >* 使用 JavaScript 的链接，例如 `javascript:openLink()`
 >
->对于这些下载类型，您可以手动调用 [`tl()`](../functions/tl-method.md) 方法。
+>对于这些下载类型，您可以手动发送 [`link tracking`](../functions/tl-method.md) 呼叫。
 
 如果点击的链接与退出链接和下载链接标准均匹配，则将优先使用下载链接类型。
 
-## 使用 Adobe Experience Platform 中的标记的“下载扩展”
+## 使用Web SDK扩展下载链接限定符
+
+的 [!UICONTROL 下载链接限定符] 文本字段使用正则表达式来确定点击的链接是否符合下载链接的条件。
+
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 单击所需的标记属性。
+1. 转到 [!UICONTROL 扩展] ，然后单击 **[!UICONTROL 配置]** 按钮 [!UICONTROL Adobe Experience Platform Web SDK].
+1. 在 [!UICONTROL 数据收集]，请在 **[!UICONTROL 下载链接限定符]** 文本。
+
+## 手动实施Web SDK的下载链接限定符
+
+[配置](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hans) SDK使用 [`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking). 该字段在点击的URL上使用正则表达式来确定它是否为有效的下载链接。 如果 `downloadLinkQualifier` 未定义，则默认值设置为 `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`.
+
+```json
+alloy("configure", {
+  "downloadLinkQualifier": "\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$"
+});
+```
+
+## 使用Adobe Analytics扩展下载扩展
 
 “下载扩展”是文件扩展名的列表，其中包含一个字段，用于在配置 Adobe Analytics 扩展时在[!UICONTROL 链接跟踪]折叠面板下添加更多内容。
 
-1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
-2. 单击所需的属性。
-3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的]配置[!UICONTROL 按钮。
-4. 展开[!UICONTROL 链接跟踪]折叠面板，这会显示[!UICONTROL 下载扩展]字段。
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+2. 单击所需的标记属性。
+3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;]**配置**[!UICONTROL &#x200B;按钮。
+4. 展开[!UICONTROL 链接跟踪]折叠面板，这会显示&#x200B;**[!UICONTROL 下载扩展]**&#x200B;字段。
 
-通过在字段中输入文本并单击[!UICONTROL 添加]，可将文件扩展名添加到列表中。通过单击相应的“X”图标，可从列表中删除文件扩展名。
+通过在字段中输入文本并单击&#x200B;**[!UICONTROL 添加]**，可将文件扩展名添加到列表中。通过单击相应的文件扩展名，从列表中将其删除 **“X”** 图标。
 
-## AppMeasurement 和自定义代码编辑器中的 s.linkDownloadFileTypes
+## AppMeasurement和Analytics扩展自定义代码编辑器中的s.linkDownloadFileTypes
 
 `s.linkDownloadFileTypes` 变量是以逗号分隔的文件扩展名字符串。请勿使用空格。
 

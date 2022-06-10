@@ -3,14 +3,14 @@ title: list
 description: 在同一点击中保留多个值的自定义变量。
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '366'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 85%
 
 ---
 
-# list
+# 列表
 
 列表变量是自定义变量，您可以根据需要随意使用。它们的工作方式与 eVar 类似，只是它们可以在同一点击中包含多个值。列表变量没有字符限制。
 
@@ -24,11 +24,15 @@ ht-degree: 100%
 
 确保先在报表包设置中配置每个列表变量，然后再在实施中使用它们。请参阅《管理员指南》中的[转化变量](/help/admin/admin/conversion-var-admin/list-var-admin.md)。
 
-## 使用 Adobe Experience Platform 中的标记的列表变量
+## 使用Web SDK列出变量
 
-数据收集 UI 中没有专门的字段来使用此变量。按照 AppMeasurement 语法使用自定义代码编辑器。
+列表变量包括 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `_experience.analytics.customDimensions.lists.list1` to `_experience.analytics.customDimensions.lists.list3`.
 
-## AppMeasurement 和自定义代码编辑器中的 s.list1 - s.list3
+## 使用Adobe Analytics扩展列出变量
+
+Adobe Analytics扩展中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
+
+## AppMeasurement和Analytics扩展自定义代码编辑器中的s.list1 - s.list3
 
 每个列表变量都是一个字符串，其中包含特定于贵组织的自定义值。它们没有字节数上限；但是，单个值的最大长度为 255 字节。在报表包设置中设置变量时，将会确定使用的分隔符。在分隔多个项目时不要使用空格。
 

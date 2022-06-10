@@ -3,10 +3,10 @@ title: 事件序列化
 description: 帮助删除网站上的重复量度。
 feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '341'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '421'
+ht-degree: 74%
 
 ---
 
@@ -32,12 +32,18 @@ ht-degree: 100%
 >
 >如果要删除重复的 [`purchase`](event-purchase.md) 事件，请改用 [`purchaseID`](../purchaseid.md) 变量。
 
-## 使用 Adobe Experience Platform 中的标记的“使用事件 ID”
+## 使用Web SDK的事件ID
+
+事件序列化为 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 的 `id`. 完整的XDM路径取决于您要序列化的事件。
+
+例如，如果要序列化购物车加货量度，请将 `commerce.productListAdds.id` 将XDM字段更改为所需的序列化值。 如果要序列化自定义事件20，请将 `_experience.analytics.event1to100.event20` 将XDM字段更改为所需的序列化值。
+
+## 使用事件ID(使用Adobe Analytics扩展)
 
 您可以在配置 Analytics 扩展时（全局变量）设置事件 ID 字段，也可以根据规则执行此操作。
 
-1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
-2. 单击所需的属性。
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
 5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
@@ -45,7 +51,7 @@ ht-degree: 100%
 
 有效值是长度不超过 20 字节的字母数字字符。如果输入的值超过 20 个字节，系统会将其截断为前 20 个字节。
 
-## 在 AppMeasurement 和自定义代码编辑器中使用事件 ID
+## 在AppMeasurement和Analytics扩展自定义代码编辑器中使用事件ID
 
 事件序列化是 `s.events` 变量的一部分。在字符串中使用冒号为每个事件分配一个 ID。
 

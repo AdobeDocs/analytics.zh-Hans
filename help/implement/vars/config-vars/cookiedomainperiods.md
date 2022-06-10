@@ -3,12 +3,13 @@ title: cookieDomainPeriods
 description: 帮助 AppMeasurement 了解当您的域的后缀中有句点时，应使用哪个域来存储 Cookie。
 feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '291'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '314'
+ht-degree: 84%
 
 ---
+
 
 # cookieDomainPeriods
 
@@ -23,18 +24,22 @@ AppMeasurement 可通过检查域和域的后缀确定其 Cookie 位置。对于
 >
 >此变量不考虑子域。例如，不要在示例 URL `store.toys.example.com` 上设置 `cookieDomainPeriods`。默认情况下，AppMeasurement 允许将 Cookie 存储在 `example.com` 上，甚至存储在具有许多子域的 URL 上。
 
-## 使用 Adobe Experience Platform 中的标记的“域名段”
+## 使用Web SDK的域句点
+
+Web SDK可以在没有此变量的情况下确定正确的Cookie存储域。
+
+## 使用Adobe Analytics扩展的域名段
 
 “域名段”是在配置 Adobe Analytics 扩展时显示在 [!UICONTROL Cookie] 折叠面板中的一个字段。
 
-1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
-1. 单击所需的属性。
-1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的[!UICONTROL 配置]按钮。
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 单击所需的标记属性。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
 1. 展开 [!UICONTROL Cookie] 折叠面板，这会显示[!UICONTROL 域名段]字段。
 
 仅当域的后缀中包含句点时，才会将此字段设置为 `3`。否则，可将此字段留空。
 
-## AppMeasurement 和自定义代码编辑器中的 s.cookieDomainPeriods
+## AppMeasurement和Analytics扩展自定义代码编辑器中的s.cookieDomainPeriods
 
 `cookieDomainPeriods` 变量是一个字符串，一般而言，仅对于后缀中包含句点的域，才会将该变量设置为 `"3"`。其默认值是 `"2"`，该值适用于大多数域。
 

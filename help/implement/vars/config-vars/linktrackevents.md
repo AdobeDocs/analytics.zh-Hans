@@ -3,10 +3,10 @@ title: linkTrackEvents
 description: 确定要包含在链接跟踪图像请求中的事件。
 feature: Variables
 exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '258'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '320'
+ht-degree: 67%
 
 ---
 
@@ -16,15 +16,19 @@ ht-degree: 100%
 
 页面查看调用（[`t()`](../functions/t-method.md) 方法）不使用此变量。
 
-## 使用 Adobe Experience Platform 标记的链接跟踪调用中的事件
+## 使用Web SDK确定要包含在XDM事件中的Analytics事件
+
+Web SDK不排除用于链接跟踪调用的某些字段。 但是，您可以使用 `onBeforeEventSend` 回调以在将数据发送到Adobe之前清除或设置所需字段。 请参阅 [全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) （位于Web SDK文档中）以了解更多信息。
+
+## 使用Adobe Analytics扩展的链接跟踪调用中的事件
 
 如果您不使用自定义代码，Adobe Experience Platform 会自动将定义的事件包含在链接跟踪点击中。
 
 >[!IMPORTANT]
 >
->如果使用自定义代码编辑器在数据收集 UI 中设置事件，则还必须使用自定义代码在 `linkTrackEvents` 中包含该事件。
+>如果在Analytics扩展的自定义代码编辑器中设置事件，则必须在 `linkTrackEvents` 也使用自定义代码。
 
-## AppMeasurement 和自定义代码编辑器中的 s.linkTrackEvents
+## AppMeasurement和Analytics扩展的自定义代码编辑器中的s.linkTrackEvents
 
 `s.linkTrackEvents` 变量是一个字符串，其中包含以逗号分隔的事件列表，您要将这些事件包含在链接跟踪图像请求（`tl()` 方法）中。必须满足以下三个条件才能在链接跟踪点击中包含量度：
 

@@ -3,10 +3,10 @@ title: pageType
 description: 确定当前页面是否为 404 错误。
 feature: Variables
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '138'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '140'
+ht-degree: 77%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 100%
 >
 >请勿在非错误页面上设置此变量。
 
-## 使用 Adobe Experience Platform 中的标记的“页面类型”
+## 使用Adobe Analytics扩展的页面类型
 
-数据收集 UI 中没有专门的字段来使用此变量。按照 AppMeasurement 语法使用自定义代码编辑器。
+Adobe Analytics扩展中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
 
-## AppMeasurement 和自定义代码编辑器中的 s.pageType
+## AppMeasurement和Analytics扩展自定义代码编辑器中的s.pageType
 
 `s.pageType` 变量是一个字符串，其唯一有效值为 `errorPage`。在网站上的任何错误页面上（如在 404 页面上）将此变量设置为此值。
 

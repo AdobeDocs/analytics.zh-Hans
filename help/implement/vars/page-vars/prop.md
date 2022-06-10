@@ -3,10 +3,10 @@ title: prop
 description: 可在实施中使用的自定义变量。
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '488'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '515'
+ht-degree: 89%
 
 ---
 
@@ -22,12 +22,16 @@ Prop 是自定义变量，您可以根据需要随意使用。它们不会在设
 
 如果您有[解决方案设计文档](/help/implement/prepare/solution-design.md)，则可以将这些自定义维度分配给特定于贵组织的值。可用 prop 的数量取决于您与 Adobe 签署的合同。如果您与 Adobe 签署的合同支持，则至多有 75 个 prop 可供使用。
 
-## 使用 Adobe Experience Platform 中的标记的 Prop
+## 使用Web SDK的Prop
+
+Prop是 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `_experience.analytics.customDimensions.props.prop1` to `_experience.analytics.customDimensions.props.prop75`.
+
+## 使用Adobe Analytics扩展的Prop
 
 您可以在配置 Analytics 扩展时（全局变量）或根据规则设置 Prop。
 
-1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
-2. 单击所需的属性。
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
 5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
@@ -35,7 +39,7 @@ Prop 是自定义变量，您可以根据需要随意使用。它们不会在设
 
 您可以将 prop 设置为值或数据元素。您还可以从其他 Analytics 变量复制值。
 
-## AppMeasurement 和自定义代码编辑器中的 s.prop1 - s.prop75
+## AppMeasurement和Analytics扩展自定义代码编辑器中的s.prop1 - s.prop75
 
 每个 prop 变量都是一个字符串，其中包含特定于贵组织的自定义值。其值的最大长度为 100 字节；超过 100 字节的值在发送到 Adobe 时会自动被截断。
 

@@ -3,10 +3,10 @@ title: currencyCode 变量是什么以及怎样使用它？
 description: 对于电子商务网站，设置页面交易的货币。
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 100%
+source-wordcount: '862'
+ht-degree: 93%
 
 ---
 
@@ -26,13 +26,17 @@ ht-degree: 100%
 
 此变量不会在点击之间保留。确保在涉及收入或货币事件的每个页面上定义此变量。
 
-## 使用 Adobe Experience Platform 中的标记的“货币代码”
+## 使用Web SDK的货币代码
+
+货币代码为 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `commerce.order.currencyCode`.
+
+## 使用Adobe Analytics扩展的货币代码
 
 “货币代码”是在配置 Adobe Analytics 扩展时显示在[!UICONTROL 常规]折叠面板中的一个字段。
 
-1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
-1. 单击所需的属性。
-1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的[!UICONTROL 配置]按钮。
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 单击所需的标记属性。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
 1. 展开[!UICONTROL 常规]折叠面板，这会显示[!UICONTROL 货币代码]字段。
 
 您可以使用预设货币代码或自定义货币代码。如果使用自定义货币代码，请确保该代码有效。
@@ -47,7 +51,7 @@ ht-degree: 100%
 
 您可以使用预设货币代码或自定义货币代码。如果使用自定义货币代码，请确保该代码有效。
 
-## AppMeasurement 和自定义代码编辑器中的 s.currencyCode
+## AppMeasurement和Analytics扩展自定义代码编辑器中的s.currencyCode
 
 `s.currencyCode` 变量是一个字符串，其中包含由 3 个大写字母构成的表示页面上所用货币的代码。
 

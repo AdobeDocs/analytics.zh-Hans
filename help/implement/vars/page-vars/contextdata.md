@@ -3,10 +3,10 @@ title: contextData
 description: 上下文数据变量允许您在处理规则可读取的每个页面上定义自定义变量。
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '509'
+ht-degree: 79%
 
 ---
 
@@ -16,11 +16,17 @@ ht-degree: 100%
 
 上下文数据变量有助于开发团队收集指定元素中的数据而不是编号变量。例如，您可以请求开发团队将页面的作者分配给 `s.contextData["author"]`，而不是请求他们将其分配给 `eVar10`。然后，贵组织中的 Analytics 管理员可以创建处理规则，以将上下文数据变量映射到用于报告的 Analytics 变量。开发团队最终只需关注上下文数据变量，而无需考虑 Adobe 提供的许多页面变量。
 
-## 使用 Adobe Experience Platform 中的标记的上下文数据变量
+## 使用Web SDK的上下文数据变量
 
-数据收集 UI 中没有专门的位置来设置上下文数据变量。按照 AppMeasurement 语法使用自定义代码编辑器。
+如果XDM字段不为 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)，则会自动将其作为上下文数据变量包含在内。 然后，您可以使用 [处理规则](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) 将上下文数据变量分配给所需的Analytics变量。
 
-## AppMeasurement 和自定义代码编辑器中的 s.contextData
+虽然将数据映射到数据流中正确的XDM字段是最佳做法，但这种方法获得了类似的结果。
+
+## 使用Adobe Analytics扩展的上下文数据变量
+
+Adobe Experience Platform数据收集没有用于设置上下文数据变量的专用位置。 按照 AppMeasurement 语法使用自定义代码编辑器。
+
+## AppMeasurement和Analytics扩展的自定义代码编辑器中的s.contextData
 
 `s.contextData` 变量不会直接接收值。它会将此变量的属性设置为字符串。
 

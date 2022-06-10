@@ -3,10 +3,10 @@ title: getQueryParam
 description: 提取 URL 查询字符串参数的值。
 feature: Variables
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '666'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '675'
+ht-degree: 90%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 100%
 
 `getQueryParam` 插件允许您提取 URL 中包含的任意查询字符串参数的值。在从登录页面 URL 中提取内部和外部促销活动代码时，此插件非常有用。在提取搜索词或其他查询字符串参数时，此插件也非常有价值。
 
-此插件在解析复杂 URL（包括散列和包含多个查询字符串参数的 URL）方面提供了强大的功能。如果您只需要处理简单的查询字符串参数，Adobe 建议您使用 URL 参数功能（这些功能使用 Adobe Experience Platform 中的标记）或 AppMeasurement 中包含的 [`Util.getQueryParam()`](../functions/util-getqueryparam.md) 方法。
+此插件在解析复杂 URL（包括散列和包含多个查询字符串参数的 URL）方面提供了强大的功能。如果您只需要使用简单的查询字符串参数，则Adobe建议您使用URL参数功能，该功能应当包括Web SDK或Adobe Analytics扩展，或者 [`Util.getQueryParam()`](../functions/util-getqueryparam.md) 方法。
 
-## 使用 Adobe Experience Platform 中的标记安装插件
+## 使用Web SDK或Adobe Analytics扩展安装此插件
 
 Adobe 提供了一个扩展，通过该扩展，您可以使用一些常用插件。
 
-1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
-1. 单击所需的属性。
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 单击所需的标记属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
 1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
 1. 如果还没有任何扩展，请使用以下配置创建一个标签为“初始化插件”的规则：
@@ -40,9 +40,9 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些常用插�
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
 1. 单击所需的属性。
-1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的[!UICONTROL 配置]按钮。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
 1. 展开[!UICONTROL 使用自定义代码配置跟踪]折叠面板，这会显示[!UICONTROL 打开编辑器]按钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
 1. 保存并发布对此 Analytics 扩展所做的更改。

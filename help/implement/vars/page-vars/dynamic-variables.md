@@ -3,10 +3,10 @@ title: 动态变量
 description: 在不增加图像请求长度的情况下复制变量。
 feature: Variables
 exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '363'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '441'
+ht-degree: 77%
 
 ---
 
@@ -24,12 +24,22 @@ ht-degree: 100%
 >
 >在复制变量时需要注意最大字符限制。例如，如果将 `eVar1` 复制到 `prop1`，`prop1` 的值可能会被截断，因为它的长度限制为 100 字节（而 `eVar1` 的长度限制为 255 字节）。
 
-## 使用 Adobe Experience Platform 中的标记的动态变量
+## 使用Web SDK的动态变量
+
+使用数据流映射从单个XDM字段将数据发送到多个Analytics变量。
+
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 单击 **[!UICONTROL 数据流]** 中。
+1. 单击所需的数据流。
+1. 单击 **[!UICONTROL 编辑映射]** 在右边。
+1. 映射所需的 [!UICONTROL 源字段] 到所需的 [!UICONTROL 目标字段]. 单个源字段可以映射到任意数量的目标字段。
+
+## 使用Adobe Analytics扩展的动态变量
 
 您可以在接受字符串的任何维度字段中使用动态变量。通常会在配置 Analytics 扩展（全局变量）时或根据规则设置维度项目。
 
-1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
-2. 单击所需的属性。
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
 5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
@@ -37,7 +47,7 @@ ht-degree: 100%
 
 将动态变量前缀置于文本字段中，然后放置要引用的查询字符串参数或 HTTP 标头。默认情况下，动态变量前缀为 `D=`。
 
-## AppMeasurement 和自定义代码编辑器中的动态变量
+## AppMeasurement和Analytics扩展自定义代码编辑器中的动态变量
 
 动态变量是分配给其他变量的文本字符串。默认的动态变量前缀为 `D=`。动态变量区分大小写。
 

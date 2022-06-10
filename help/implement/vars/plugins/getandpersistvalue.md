@@ -3,10 +3,10 @@ title: getAndPersistValue
 description: 存储稍后可随时检索的值。
 feature: Variables
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '583'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '593'
+ht-degree: 87%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 100%
 >
 >此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
-`getAndPersistValue` 插件允许您在 Cookie 中存储稍后可在访问期间进行检索的值。其作用与使用 Adobe Experience Platform 中的标记的[!UICONTROL 存储持续时间]功能类似。如果要在设置变量后的后续点击中自动将 Analytics 变量保留为相同的值，Adobe 建议使用此插件。如果数据收集 UI 中的[!UICONTROL 存储持续时间]功能足够，则没必要使用此插件。如果您不需要设置变量并在后续点击中将变量保留为相同的值，那么也没必要使用此插件。eVar 的内置持久性不需要使用此插件，因为 eVar 会由 Adobe 保留在服务器端。
+`getAndPersistValue` 插件允许您在 Cookie 中存储稍后可在访问期间进行检索的值。它的作用与 [!UICONTROL 存储持续时间] 中的Adobe Analytics扩展功能。 如果要在设置变量后的后续点击中自动将 Analytics 变量保留为相同的值，Adobe 建议使用此插件。如果 [!UICONTROL 存储持续时间] Analytics扩展中的功能已足够。 如果您不需要设置变量并在后续点击中将变量保留为相同的值，那么也没必要使用此插件。eVar 的内置持久性不需要使用此插件，因为 eVar 会由 Adobe 保留在服务器端。
 
-## 使用 Adobe Experience Platform 中的标记安装插件
+## 使用Web SDK或Adobe Analytics扩展安装此插件
 
 Adobe 提供了一个扩展，通过该扩展，您可以使用一些常用插件。
 
-1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
-1. 单击所需的属性。
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 单击所需的标记属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
 1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
 1. 如果还没有任何扩展，请使用以下配置创建一个标签为“初始化插件”的规则：
@@ -38,9 +38,9 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些常用插�
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
 1. 单击所需的属性。
-1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的[!UICONTROL 配置]按钮。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
 1. 展开[!UICONTROL 使用自定义代码配置跟踪]折叠面板，这会显示[!UICONTROL 打开编辑器]按钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
 1. 保存并发布对此 Analytics 扩展所做的更改。

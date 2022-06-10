@@ -3,10 +3,10 @@ title: linkLeaveQueryString
 description: 允许在链接跟踪维度中保留查询字符串。
 feature: Variables
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '293'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 80%
 
 ---
 
@@ -24,18 +24,22 @@ ht-degree: 100%
 >
 >此变量不影响链接跟踪外部的维度。它仅影响自定义链接、退出链接和下载链接。
 
-## 使用 Adobe Experience Platform 中的标记的“保留 URL 参数”
+## 使用Web SDK处理链接查询字符串
+
+未从XDM字段中清除查询字符串 `web.webInteraction.URL`. 如果要从此XDM字段中删除查询字符串，可以使用 `onBeforeEventSend`.
+
+## 使用Adobe Analytics扩展保留URL参数
 
 [!UICONTROL 保留 URL 参数]是配置 Adobe Analytics 扩展时位于[!UICONTROL 链接跟踪]折叠面板下方的复选框。
 
-1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
-2. 单击所需的属性。
-3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的]配置[!UICONTROL 按钮。
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+2. 单击所需的标记属性。
+3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;]**配置**[!UICONTROL &#x200B;按钮。
 4. 展开[!UICONTROL 链接跟踪]折叠面板，这会显示[!UICONTROL 保留 URL 参数]复选框。
 
 如果要在链接跟踪维度中包含查询字符串，请选中此框。
 
-## AppMeasurement 和自定义代码编辑器中的 s.linkLeaveQueryString
+## AppMeasurement和Analytics扩展自定义代码编辑器中的s.linkLeaveQueryString
 
 `s.linkLeaveQueryString` 变量是一个布尔值。其默认值为 `false`。
 

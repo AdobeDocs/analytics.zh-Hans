@@ -3,10 +3,10 @@ title: 将数据层对象映射到数据元素
 description: 将标记配置为从数据层读取。
 feature: Launch Implementation
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
-workflow-type: ht
-source-wordcount: '305'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '307'
+ht-degree: 90%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 100%
 
 ## 使用标记创建数据元素
 
-[数据元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=zh-Hans)是数据收集 UI 中的组件，您可以在整个工具中使用这些组件。您可以使用数据元素在 Adobe Analytics 扩展中分配变量值。
+[数据元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=zh-Hans) 是Adobe Experience Platform数据收集中的组件，您可以在整个工具中使用这些组件。 您可以使用数据元素在 Adobe Analytics 扩展中分配变量值。
 
-1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
 1. 单击所需的标记属性。
 1. 单击&#x200B;**[!UICONTROL 数据元素]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 添加新数据元素]**。
 

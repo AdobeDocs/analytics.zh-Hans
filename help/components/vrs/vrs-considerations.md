@@ -4,10 +4,10 @@ keywords: 虚拟报表包，VRS
 title: 虚拟报表包和多包标记注意事项
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
-source-wordcount: '1753'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '1755'
+ht-degree: 98%
 
 ---
 
@@ -100,7 +100,7 @@ Adobe Analytics 中的某些 Adobe 合作伙伴集成限制为每个报表包具
    * 作为优秀实践，请考虑使用[区段堆叠](/help/components/segmentation/segmentation-workflow/seg-build.md)，以便在一个位置编辑区段并将其应用于所有从属虚拟报表包。
    * 如果要使虚拟报表包更加互斥，请使用点击容器。
 2. 确认虚拟报表包设置正确后，从实施中删除辅助报表包 ID。要删除辅助报表包，请执行以下操作：
-   * 在 Adobe Experience Platform 的数据收集 UI 中，单击您不希望再使用的任何报表包旁边的“x”。
+   * 在Adobe Experience Platform数据收集的Adobe Analytics扩展中，单击您不希望再使用的任何报表包旁边的“x”。
    * 在旧版 JavaScript 实施中，找到 `s.account` 变量并删除您不希望再使用的任何报表包 ID。
    * 在所有情况下，仅保留全局/父报表包 ID 以收集网站和应用程序的数据。
    * 导航到“管理员”>“报表包”并隐藏任何不再使用的辅助报表包。

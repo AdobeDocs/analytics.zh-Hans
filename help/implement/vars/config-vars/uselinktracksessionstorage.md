@@ -3,10 +3,10 @@ title: useLinkTrackSessionStorage
 description: 将链接跟踪数据存储在会话中，而不是 Cookie 中。
 feature: Variables
 exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '264'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 81%
 
 ---
 
@@ -25,11 +25,15 @@ ht-degree: 100%
 
 在向 Adobe 发送点击后，AppMeasurement 会删除会话存储链接跟踪数据。当浏览器选项卡关闭时，它也会自动过期。
 
-## 使用 Adobe Experience Platform 中的标记的“使用链接跟踪会话存储”
+## 使用Web SDK使用链接跟踪会话存储
 
-数据收集 UI 中没有专门的字段来使用此变量。按照 AppMeasurement 语法使用自定义代码编辑器。
+Web SDK不支持此功能。
 
-## AppMeasurement 和自定义代码编辑器中的 s.useLinkTrackSessionStorage
+## 使用Adobe Analytics扩展的链接跟踪会话存储
+
+Adobe Analytics扩展中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
+
+## AppMeasurement和Analytics扩展的s.useLinkTrackSessionStorage自定义代码编辑器
 
 `s.useLinkTrackSessionStorage` 变量是一个布尔值，用于确定 AppMeasurement 使用会话存储而不是 `s_sq` Cookie 来跟踪链接数据。其默认值为 `false`。如果希望 AppMeasurement 使用会话存储而不是 `s_sq` Cookie 来跟踪链接和 Activity Map 数据，请将此变量设置为 `true`。
 

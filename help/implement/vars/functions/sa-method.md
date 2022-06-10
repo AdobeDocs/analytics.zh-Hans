@@ -3,10 +3,10 @@ title: sa
 description: 在您的实施中随时更改报表包。
 feature: Variables
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '184'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 38%
 
 ---
 
@@ -14,11 +14,44 @@ ht-degree: 100%
 
 `sa()` 方法可让您随时在页面上动态更改报表包。如果要在不重新加载页面的情况下将数据发送到不同的报表包，则可以使用此方法。
 
-## 使用 Adobe Experience Platform 中的标记的“使用 sa 方法”
+## 使用Web SDK处理报表包
+
+Web SDK通过向特定数据流发送数据来运行，该数据流会将数据转发到所需的Analytics报表包。 单个数据流可以将数据转发到多个报表包。 本节适用于Web SDK扩展和手动实施Web SDK。
+
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 单击 **[!UICONTROL 数据流]** 左边。
+1. 单击所需的数据流，或单击 **[!UICONTROL 新数据流]**.
+1. 单击 **[!UICONTROL 添加服务]**，然后选择 **[!UICONTROL Adobe Analytics]**.
+1. 输入所需的报表包ID。 如果要将相同的数据发送到多个报表包，请单击 **[!UICONTROL 添加报表包]**.
+1. 在输入所有所需的报表包后，单击 **[!UICONTROL 保存]**.
+
+## 使用Web SDK扩展设置所需的数据流
+
+Web SDK扩展为每个环境提供了一个数据流下拉菜单。 或者，您也可以手动输入数据流ID。
+
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 单击所需的标记属性。
+1. 转到 [!UICONTROL 扩展] ，然后单击 **[!UICONTROL 配置]** 按钮 [!UICONTROL Adobe Experience Platform Web SDK].
+1. 在 [!UICONTROL 数据流]，请在下拉菜单中为每个环境选择所需的数据流。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
+
+## 手动设置所需的数据流以实施Web SDK
+
+设置 `edgeConfigId` 配置变量。 在Adobe Experience Platform数据收集中查看数据流时，可在右侧找到数据流ID。
+
+```js
+alloy("configure", {
+  "edgeConfigId": "example-a01f-4458-8cec-ef61de241c93",
+});
+```
+
+请参阅 [配置Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hans) （位于Web SDK文档中）以了解更多信息。
+
+## 使用Adobe Analytics扩展更改报表包
 
 界面中没有提供任何灵活的方法来更改报表包。配置 Adobe Analytics 扩展时，可以在[!UICONTROL 库管理]折叠面板下设置报表包。但是，您不能使用规则更改或更新报表包。如果要在设置报表包值后更新这些值，请按照 AppMeasurement 语法使用自定义代码编辑器。
 
-## AppMeasurement 和自定义代码编辑器中的 s.sa()
+## AppMeasurement和Analytics扩展自定义代码编辑器中的s.sa()
 
 调用 `s.sa()` 方法以更改目标报表包。其唯一参数是包含报表包 ID 或以逗号分隔的多个报表包 ID 的字符串。报表包 ID 参数为必需参数。请勿在字符串参数中使用空格。
 
@@ -26,9 +59,7 @@ ht-degree: 100%
 s.sa("examplersid");
 ```
 
-## 示例
-
-如果用户在您的网站上执行特定操作，则可以更改报表包。
+例如，如果用户在您的网站上执行特定操作，则可以更改报表包。
 
 ```js
 // Instantiate the tracking object

@@ -3,10 +3,10 @@ title: Util.cookieWrite
 description: 写入 Cookie 的值。
 feature: Variables
 exl-id: 079dbe50-5568-467b-a67c-f44481a4a20b
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 100%
+ht-degree: 70%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 100%
 
 Cookie 可以在同一域上的不同页面中存储和检索信息。使用 `Util.cookieWrite()` 方法将值设置为 Cookie。您可以使用 [`Util.cookieRead()`](util-cookieread.md) 方法检索使用 `Util.cookieWrite()` 设置的值。
 
-## 使用 Adobe Experience Platform 中的标记的“设置 Cookie”
+## 使用Adobe Analytics扩展和Web SDK扩展设置Cookie
 
-数据收集 UI 不提供在界面中设置 Cookie 的功能。按照 AppMeasurement 语法使用自定义代码编辑器。
+Adobe Experience Platform数据收集不提供在界面中设置Cookie的功能。
 
-## AppMeasurement 和自定义代码编辑器中的 s.Util.cookieWrite()
+## AppMeasurement和Analytics扩展自定义代码编辑器中的s.Util.cookieWrite()
 
 调用 `s.Util.cookieWrite()` 方法可将 Cookie 设置为所需值。
 

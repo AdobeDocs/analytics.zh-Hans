@@ -3,10 +3,10 @@ title: websiteBot
 description: 通过移动鼠标，动态识别机器人。
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '434'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 96%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 如果用户代理使用的是桌面设备并且未检测出鼠标移动，则该插件可以
 
-* 使用 Adobe Experience Platform 中的标记进行直接调用规则调用，或者
+* 使用Web SDK或Adobe Analytics扩展进行直接调用规则调用，或者
 * 进行链接跟踪调用以表明访客不是机器人。
 
 ## 先决条件

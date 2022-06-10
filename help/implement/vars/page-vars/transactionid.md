@@ -3,10 +3,10 @@ title: transactionID
 description: 使用此变量将在线和离线数据链接在一起。
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '398'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 92%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 100%
 
 默认情况下，Adobe 最多可在 90 天内记住所有交易 ID 值（已链接和未链接）。如果离线互动过程的时间超过 90 天，请联系客户关怀延长该期限。
 
-## 使用 Adobe Experience Platform 中的标记的“交易 ID”
+## 使用Adobe Analytics扩展的交易ID
 
 您可以在配置 Analytics 扩展时（全局变量）或根据规则设置交易 ID。
 
-1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
-2. 单击所需的属性。
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
 5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 您可以将交易 ID 设置为任何字符串值，包括数据元素。
 
-## AppMeasurement 和自定义代码编辑器中的 s.transactionID
+## AppMeasurement和Analytics扩展自定义代码编辑器中的s.transactionID
 
 `s.transactionID` 变量是一个包含交易的唯一标识符的字符串。有效值包括长度不超过 100 字节的字母数字字符。其默认值是空字符串。
 

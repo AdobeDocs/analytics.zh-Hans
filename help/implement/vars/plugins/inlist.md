@@ -3,10 +3,10 @@ title: inList
 description: 检查某个值是否包含在另一个字符分隔的值中。
 feature: Variables
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '557'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '563'
+ht-degree: 93%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 100%
 
 `inList` 插件允许您检查某个值是否已存在于一个分隔字符串或 JavaScript 数组对象中。有一些其他插件需要 `inList` 插件才能正常运行。与 JavaScript 方法 `indexOf()` 相比，此插件具有一个明显的优势，即它不会匹配部分字符串。例如，如果您使用此插件检查 `"event2"`，则此插件不会匹配包含 `"event25"` 的字符串。如果您不需要检查分隔字符串或数组中的值，或者如果您要使用自己的 `indexOf()` 逻辑，则无需使用此插件。
 
-## 使用 Adobe Experience Platform 中的标记安装插件
+## 使用Web SDK或Adobe Analytics扩展安装此插件
 
 Adobe 提供了一个扩展，通过该扩展，您可以使用一些常用插件。
 
-1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
-1. 单击所需的属性。
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 单击所需的标记属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
 1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
 1. 如果还没有任何扩展，请使用以下配置创建一个标签为“初始化插件”的规则：
@@ -38,9 +38,9 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些常用插�
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
 1. 单击所需的属性。
-1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的[!UICONTROL 配置]按钮。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
 1. 展开[!UICONTROL 使用自定义代码配置跟踪]折叠面板，这会显示[!UICONTROL 打开编辑器]按钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
 1. 保存并发布对此 Analytics 扩展所做的更改。

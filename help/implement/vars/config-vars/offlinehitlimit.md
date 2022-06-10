@@ -3,10 +3,10 @@ title: offlineHitLimit
 description: 确定要置于离线跟踪队列的最大点击数。
 feature: Variables
 exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '158'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 79%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 `offlineHitLimit` 变量可对设备在本地存储的点击数设置上限。仅在启用 [`trackOffline`](trackoffline.md) 时，此变量才有效。
 
-## 使用 Adobe Experience Platform 中的标记的“离线点击限制”
+## 使用Adobe Analytics扩展的离线点击限制
 
-数据收集 UI 中没有专门的字段来使用此变量。按照 AppMeasurement 语法使用自定义代码编辑器。
+Adobe Analytics扩展中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
 
-## AppMeasurement 和自定义代码编辑器中的 s.offlineHitLimit
+## AppMeasurement和Analytics扩展自定义代码编辑器中的s.offlineHitLimit
 
 `s.offlineHitLimit` 变量是一个整数，表示设备在离线状态下存储的最大点击数。如果未定义此变量，则对设备在离线状态下存储的点击数没有限制。
 

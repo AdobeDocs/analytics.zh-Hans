@@ -3,10 +3,10 @@ title: 产品
 description: 发送有关所显示产品或购物车中产品的数据。
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 98%
+source-wordcount: '571'
+ht-degree: 77%
 
 ---
 
@@ -18,18 +18,29 @@ ht-degree: 98%
 >
 >如果在点击中设置此变量，而没有 [`events`](events/events-overview.md) 变量，则[产品查看次数](/help/components/metrics/product-views.md)量度将递增 1。确保使用 `products` 变量对每次点击设置适当的事件。
 
-## 使用 Adobe Experience Platform 中的标记的“产品”
+## 使用Web SDK的产品
 
-数据收集 UI 中没有专门用于设置此变量的字段；但是，存在多个第三方扩展可帮助进行此设置。
+产品包括 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在多个XDM字段下：
 
-1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
-2. 单击所需的属性。
+* 类别已映射到 `productListItems[].name`.
+* 产品已映射到 `productListItems[]._id`.
+* 数量已映射到 `productListItems[].quantity`.
+* 价格已映射到 `productListItems[].priceTotal`.
+* 促销eVar被映射到 `productListItems._experience.analytics.customDimensions.eVars.eVar1` to `productListItems._experience.analytics.customDimensions.eVars.eVar250`，具体取决于您要绑定到产品的eVar。
+* 促销事件被映射到 `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems._experience.analytics.event901to1000.event1000.value`，具体取决于您要绑定到产品的事件。
+
+## 使用Adobe Analytics扩展的产品
+
+Adobe Experience Platform数据收集中没有用于设置此变量的专用字段；但是，存在多个第三方扩展可提供帮助。
+
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+2. 单击所需的标记属性。
 3. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]以查看所有可用的扩展。
 4. 搜索术语“product”，结果会显示若干可用于设置此变量的扩展。
 
 您可以使用其中一个扩展，也可以按照下面的 AppMeasurement 语法使用自定义代码编辑器。
 
-## AppMeasurement 和自定义代码编辑器中的 s.products
+## AppMeasurement和Analytics扩展自定义代码编辑器中的s.products
 
 `s.products` 变量是一个字符串，其中包含每个产品的多个分隔字段。在字符串中使用分号 (`;`) 分隔每个字段。
 

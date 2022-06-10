@@ -3,10 +3,10 @@ title: clearVars
 description: 从实例对象中清除以下值。此函数会删除以下元素（将其设为“未定义”）。
 feature: Variables
 exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '172'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '198'
+ht-degree: 74%
 
 ---
 
@@ -29,17 +29,21 @@ ht-degree: 100%
 * `zip`
 * `campaign`
 
-## 使用 Adobe Experience Platform 中的标记的“清除变量”
+## 使用Web SDK清除变量
+
+当您使用Web SDK将数据发送到Adobe时，所有XDM数据都会自动清除。
+
+## 使用Adobe Analytics扩展清除变量
 
 配置规则时设置“清除变量”操作。
 
-1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
-2. 单击所需的属性。
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击“+”图标
 5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 清除变量]。
 
-## AppMeasurement 和自定义代码编辑器中的 s.clearVars()
+## AppMeasurement和Analytics扩展自定义代码编辑器中的s.clearVars()
 
 在实例化 Analytics 对象实例后，您可以在实施中的任意位置调用 `s.clearVars()` 方法。
 

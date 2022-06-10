@@ -3,25 +3,42 @@ title: events
 description: 设置事件变量，该变量可控制网站上的大多数量度。
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '680'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '774'
+ht-degree: 84%
 
 ---
 
-# events
+# 事件
 
 维度和量度是报表的重要组成部分。`events` 变量负责收集您网站上许多量度的数据。事件通常会递增报表中的[量度](/help/components/metrics/overview.md)。
 
 在实施事件之前，请确保在报表包设置的[成功事件](/help/admin/admin/c-success-events/success-event.md)下创建和配置事件。如果您计划在链接跟踪点击中使用自定义事件，请确保正确设置 [`linkTrackVars`](../../config-vars/linktrackvars.md) 和 [`linkTrackEvents`](../../config-vars/linktrackevents.md)。
 
-## 使用 Adobe Experience Platform 中的标记的“事件”
+## 使用Web SDK的事件
+
+自定义事件包括 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在以下XDM字段下：
+
+* 自定义事件1-100已映射到 `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
+* 自定义事件101-200已映射到 `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
+* 此模式每100个事件重复一次， `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`.
+* 订单已映射到 `commerce.purchases.value`.
+* 单位被映射到所有 `productListItems[].quantity` 字段。
+* 收入会映射到所有 `productListItems[].priceTotal` 字段。
+* 产品查看次数映射到 `commerce.productListViews.value`.
+* 购物车被映射到 `commerce.productListOpens.value`.
+* 购物车加货已映射到 `commerce.productListAdds.value`.
+* 购物车减货已映射到 `commerce.productListRemovals.value`.
+* 购物车查看次数被映射到 `commerce.productListViews.value`.
+* 结帐已映射到 `commerce.checkouts.value`.
+
+## 使用Adobe Analytics扩展的事件
 
 您可以在配置 Analytics 扩展时（全局变量）或根据规则设置事件。
 
-1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
-2. 单击所需的属性。
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
 5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
@@ -34,7 +51,7 @@ ht-degree: 100%
 * 用于事件值的可选文本字段。您可以包含货币（货币事件）或整数（非货币事件）以使其多次递增。例如，在下拉列表下选择 `event1` 并在此字段中包含 `10`，报表中的 `event1` 将以 10 为单位进行递增。
 * 用于添加其他事件的按钮。对于可包含在点击中的事件数，没有相应的限制。
 
-## AppMeasurement 和自定义代码编辑器中的 s.events
+## AppMeasurement和Analytics扩展自定义代码编辑器中的s.events
 
 `s.events` 变量是一个字符串，其中包含要包含在点击中的以逗号分隔的事件列表。此变量没有字节限制，因此不会被截断。有效的值包括：
 

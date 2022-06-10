@@ -3,10 +3,10 @@ title: registerPreTrackCallback
 description: 在将点击发送到 Adobe 之前创建回调函数。
 feature: Variables
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 100%
+source-wordcount: '433'
+ht-degree: 55%
 
 ---
 
@@ -24,11 +24,34 @@ ht-degree: 100%
 >
 >`registerPreTrackCallback` 和 `registerPostTrackCallback` 之间触发函数的时间和顺序无法得到保证。避免这两个函数之间存在依赖关系。
 
-## 使用 Adobe Experience Platform 中的标记的“注册预跟踪回调”
+## 使用Web SDK扩展预跟踪回调
 
-数据收集 UI 中没有专门的字段来使用此变量。按照 AppMeasurement 语法使用自定义代码编辑器。
+Web SDK在编译数据后但在将其发送到Adobe之前无法挂接函数。 但是，您可以使用 `onBeforeEventSend` 注册一个函数以在发送数据之前执行。
 
-## AppMeasurement 和自定义代码编辑器中的 s.registerPreTrackCallback
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 单击所需的标记属性。
+1. 转到 [!UICONTROL 扩展] ，然后单击 **[!UICONTROL 配置]** 按钮 [!UICONTROL Adobe Experience Platform Web SDK].
+1. 在 [!UICONTROL 数据收集]，请单击 **[!UICONTROL 在事件发送回调代码之前编辑]** 按钮。
+1. 将所需的代码放入编辑器中。
+
+## 手动实施Web SDK的预跟踪回调
+
+Web SDK在编译数据后但在将其发送到Adobe之前无法挂接函数。 但是，您可以使用 `onBeforeEventSend` 在发送数据之前注册要执行的函数，类似于 `doPlugins`. 请参阅 [全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) （位于Web SDK文档中）以了解更多信息。
+
+```js
+// Set the trackingCode XDM field to "New value"
+alloy("configure", {
+  "onBeforeEventSend": function(content) {
+    content.xdm.marketing.trackingCode = "New value";
+  }
+})
+```
+
+## 使用Adobe Analytics扩展预跟踪回调
+
+Adobe Analytics扩展中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
+
+## AppMeasurement和Analytics扩展自定义代码编辑器中的s.registerPreTrackCallback
 
 `s.registerPreTrackCallback` 是一个函数，只接受函数作为参数。嵌套函数在发送图像请求之前运行。
 

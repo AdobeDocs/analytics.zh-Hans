@@ -3,10 +3,10 @@ title: 集成模块
 description: 借助集成模块，Adobe 合作伙伴可以将其数据收集工作与您的组织集成在一起。
 feature: Variables
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '888'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '886'
+ht-degree: 96%
 
 ---
 
@@ -41,9 +41,9 @@ ht-degree: 100%
 
 ### 将集成模块放入实施中
 
-在您的网站上实施集成模块需要访问 Adobe Experience Platform 中的数据收集 UI。如果使用旧版 JavaScript 实施，则需要具有访问贵组织网站源代码的权限。
+在您的网站上实施集成模块时，需要访问Adobe Experience Platform数据收集。 如果使用旧版 JavaScript 实施，则需要具有访问贵组织网站源代码的权限。
 
-1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
 1. 单击要编辑的标记属性。
 1. 单击“扩展”选项卡，然后单击 Adobe Analytics 下的“配置”。
 1. 打开“使用自定义代码配置跟踪器”折叠面板，然后单击“&lt;/> 打开编辑器”。

@@ -3,10 +3,10 @@ title: purchaseID
 description: 根据唯一购买标识符删除重复点击。
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 80%
 
 ---
 
@@ -18,11 +18,15 @@ ht-degree: 100%
 
 购买 ID 适用于所有访客，且不会过期。如果一个访客设置了给定的购买 ID，然后另一个访客在一年后设置了相同的购买 ID，则将会对第二次购买进行重复数据删除。
 
-## 使用 Adobe Experience Platform 中的标记的“购买 ID”
+## 使用Web SDK的购买ID
 
-数据收集 UI 中没有专门的字段来使用此变量。按照 AppMeasurement 语法使用自定义代码编辑器。
+购买ID为 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `commerce.order.purchaseID`.
 
-## AppMeasurement 和自定义代码编辑器中的 s.purchaseID
+## 使用Adobe Analytics扩展的购买ID
+
+Adobe Analytics扩展中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
+
+## AppMeasurement和Analytics扩展自定义代码编辑器中的s.purchaseID
 
 `s.purchaseID` 变量是一个字符串，其中包含购买的唯一标识符。它在相同的点击中被设置为购买事件。仅使用字母数字字符填充此变量。
 

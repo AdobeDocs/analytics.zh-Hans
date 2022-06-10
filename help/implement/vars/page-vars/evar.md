@@ -3,10 +3,10 @@ title: eVar 变量
 description: 可在实施中使用的自定义变量。
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 100%
+source-wordcount: '405'
+ht-degree: 87%
 
 ---
 
@@ -22,12 +22,16 @@ eVar 是自定义变量，您可以根据需要随意使用。如果您有[解�
 
 在实施中使用 eVar 之前，请确保在报表包设置中配置每个 eVar。请参阅《管理员指南》中的[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
 
-## 使用 Adobe Experience Platform 中的标记的“eVar”
+## 使用Web SDK的eVar
+
+eVar为 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `_experience.analytics.customDimensions.eVars.eVar1` to `_experience.analytics.customDimensions.eVars.eVar250`.
+
+## 使用Adobe Analytics扩展的eVar
 
 您可以在配置 Analytics 扩展时（全局变量）或根据规则设置 eVar。
 
-1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
-2. 单击所需的属性。
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
 5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
@@ -35,7 +39,7 @@ eVar 是自定义变量，您可以根据需要随意使用。如果您有[解�
 
 您可以将 eVar 设置为一个值或一个数据元素。您还可以从其他 Analytics 变量复制值。
 
-## AppMeasurement 和自定义代码编辑器中的 s.eVar1 - s.eVar250
+## AppMeasurement和Analytics扩展中的s.eVar1 - s.eVar250自定义代码编辑器
 
 每个 eVar 都是一个字符串，其中包含特定于贵组织的自定义值。这些值的最大长度为 255 字节；超过 255 字节的值在发送到 Adobe 时会自动被截断。
 

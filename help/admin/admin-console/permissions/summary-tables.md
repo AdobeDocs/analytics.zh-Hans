@@ -3,10 +3,10 @@ title: Adobe Analytics Permissions — 汇总表
 description: 汇总 Admin Console 中可用的 Adobe Analytics Permissions 的表格。
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
-source-wordcount: '1271'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '1277'
+ht-degree: 98%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 
 | Analytics 工具 | 管理 | 访问控制 | 仅报表功能 | 已弃用 | 描述 |
 | --- | --- | --- | --- | --- | --- |
-| 代码管理器 | x |  |  |  | 用于管理旧版代码。授予对“管理员”>“所有管理员”>“代码管理器”的访问权限。大多数情况下，请改用数据收集 UI 中包含的库。 |
+| 代码管理器 | x |  |  |  | 用于管理旧版代码。授予对“管理员”>“所有管理员”>“代码管理器”的访问权限。在大多数情况下，请改用Adobe Experience Platform数据收集中Adobe Analytics扩展中包含的库。 |
 | 代码管理器 - Web 服务 | x |  |  |  | 授予通过 1.4 API 访问代码管理器的权限。 |
 | 隐藏报表包 | x |  |  |  | 授予对“管理员”>“所有管理员”>“公司设置”>“隐藏报表包”的访问权限。允许隐藏组织内的任何报表包，而不考虑是否具有报表包的访问权限。 |
 | 集成（创建） | x |  |  |  | 授予对“管理员”>“所有管理员”>“数据连接器”的访问权限，并允许用户创建数据连接器。 |

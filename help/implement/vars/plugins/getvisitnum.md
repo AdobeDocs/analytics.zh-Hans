@@ -3,10 +3,10 @@ title: getVisitNum
 description: 跟踪访客的当前访问数量。
 feature: Variables
 exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '684'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '690'
+ht-degree: 94%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 100%
 
 `getVisitNum` 插件可返回在所需天数内访问网站的所有访客所产生的访问数量。Analysis Workspace 提供了一个具有类似功能的维度，即“访问数量”维度。如果您希望提高对访问量递增方式的控制，Adobe 建议您使用此插件。如果 Analysis Workspace 中内置的“访问数量”维度足以满足您的报告需求，则无需使用此插件。
 
-## 使用 Adobe Experience Platform 中的标记安装插件
+## 使用Web SDK或Adobe Analytics扩展安装此插件
 
 Adobe 提供了一个扩展，通过该扩展，您可以使用一些常用插件。
 
-1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
-1. 单击所需的属性。
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 单击所需的标记属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
 1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
 1. 如果还没有任何扩展，请使用以下配置创建一个标签为“初始化插件”的规则：
@@ -38,9 +38,9 @@ Adobe 提供了一个扩展，通过该扩展，您可以使用一些常用插�
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. 使用您的 Adobe ID 凭据登录[数据收集 UI](https://experience.adobe.com/data-collection)。
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
 1. 单击所需的属性。
-1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的[!UICONTROL 配置]按钮。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
 1. 展开[!UICONTROL 使用自定义代码配置跟踪]折叠面板，这会显示[!UICONTROL 打开编辑器]按钮。
 1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
 1. 保存并发布对此 Analytics 扩展所做的更改。
