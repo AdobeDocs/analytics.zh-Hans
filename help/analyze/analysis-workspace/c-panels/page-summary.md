@@ -4,7 +4,7 @@ title: 页面摘要面板
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: 8e319511362ecdef9bbd7d0ee0b2a6607fe68605
+source-git-commit: bef175d9675134f4932407a0b9e4a3c67b1d27a5
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 9%
@@ -53,10 +53,10 @@ ht-degree: 9%
 | [!UICONTROL 重新载入] | 的 [!UICONTROL 重新载入] 量度显示重新加载过程中维度项目存在的次数。 访客刷新其浏览器是触发重新载入的最常见方式。 |
 | [!UICONTROL 登录] | 的 [!UICONTROL 登录] 量度显示作为访问中第一个值捕获的给定维度项目的次数。 |
 | [!UICONTROL 退出] | 的 [!UICONTROL 退出] 量度显示给定维度项目被捕获为访问中最后一个值的次数。 |
-| [!UICONTROL 流] | 以选定页面作为焦点的流程图。 您可以像在任何 [流程图](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md). |
+| [!UICONTROL 流] | 以选定页面作为焦点的流程图。 您可以像在任何 [流程图](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md). |
 
 {style=&quot;table-layout:auto&quot;}
 
-![页面摘要面板](assets/page-sum1.png)
+![页面摘要](assets/page-sum1.png)面板
 
 ![量度和流量](assets/page-sum2.png)
