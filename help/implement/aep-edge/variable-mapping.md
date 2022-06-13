@@ -2,7 +2,7 @@
 title: Adobe Experience Edge 中的 Analytics 变量映射
 description: 查看 Edge 自动映射到 Analytics 变量的 XDM 字段。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
 source-wordcount: '1355'
 ht-degree: 96%
@@ -114,7 +114,7 @@ ht-degree: 96%
 | `productListItems[].quantity` | 帮助确定[单位](../../components/metrics/units.md) 量度。 |
 | `web.webInteraction.URL` | [linkURL](../vars/config-vars/linkurl.md) 实施变量。 |
 | `web.webInteraction.name` | [自定义链接](../../components/dimensions/custom-link.md)、[下载链接](../../components/dimensions/download-link.md) 或者[退出链接](../../components/dimensions/exit-link.md) 维度取决于 `web.webInteraction.type` 中的值 |
-| `web.webInteraction.type` | 确定链接点击的类型。 有效值包括 `lnk_o`（自定义链接）、`lnk_d`（下载链接）和 `lnk_e`（退出链接）。 |
+| `web.webInteraction.type` | 确定链接点击的类型。 有效值包括 `other`（自定义链接）、`download`（下载链接）和 `exit`（退出链接）。 |
 | `web.webPageDetails.URL` | [页面 URL](../../components/dimensions/page-url.md) 维度。 |
 | `web.webPageDetails.errorPage` | 帮助确定“找不到页面”[维度](../../components/dimensions/pages-not-found.md) 和[量度](../../components/metrics/pages-not-found.md)。 |
 | `web.webPageDetails.name` | [页面](../../components/dimensions/page.md) 维度。 |

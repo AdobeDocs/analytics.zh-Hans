@@ -3,10 +3,10 @@ title: tl
 description: 向 Adobe 发送链接跟踪调用。
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 80%
+source-wordcount: '702'
+ht-degree: 79%
 
 ---
 
@@ -18,7 +18,11 @@ ht-degree: 80%
 
 ## 使用Web SDK进行链接跟踪
 
-Web SDK不区分页面查看调用和链接跟踪调用；二者均使用 `sendEvent` 命令。 如果希望Adobe Analytics将给定事件计为链接跟踪调用，请确保XDM数据包含 `web.webInteraction.name`, `web.webInteraction.URL`和 `web.webInteraction.type`.
+Web SDK不区分页面查看调用和链接跟踪调用；二者均使用 `sendEvent` 命令。 如果您希望Adobe Analytics将给定的XDM事件计为链接跟踪调用，请确保XDM数据包含或已映射到 `web.webInteraction.name`, `web.webInteraction.URL`和 `web.webInteraction.type`.
+
+* 链接名称映射到 `web.webInteraction.name`.
+* 链接URL映射到 `web.webInteraction.URL`.
+* 链接类型映射到 `web.webInteraction.type`. 有效值包括 `other`（自定义链接）、`download`（下载链接）和 `exit`（退出链接）。
 
 ```js
 alloy("sendEvent", {

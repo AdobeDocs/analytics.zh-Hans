@@ -3,10 +3,10 @@ title: timestamp
 description: 手动设置点击的时间戳。
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 87%
+source-wordcount: '276'
+ht-degree: 81%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 87%
 >[!WARNING]
 >
 >如果您的报表包未明确配置为接受带有时间戳的点击，请勿使用此变量。AppMeasurement 会为不支持带有时间戳的点击的报表包自动设置点击时间。如果使用此变量将点击发送到不支持时间戳的报表包，则该数据将永久丢失。
+
+## 使用Web SDK的时间戳
+
+时间戳为 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `_experience.analytics.session.timestamp`. 此字段仅支持Unix时间。
 
 ## 使用Adobe Analytics扩展的时间戳
 
