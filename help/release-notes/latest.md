@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: cf291c4d46a6bff9e1c61804ca7e897ee1d4e4d5
 workflow-type: tm+mt
 source-wordcount: '984'
-ht-degree: 49%
+ht-degree: 74%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 49%
 >
 >此页面包含预发行信息，这些信息可能会发生变化。
 
-**上次更新**:2022年6月10日
+**上次更新时间**：2022 年 6 月 10 日
 
 ## 相关资源
 
@@ -45,9 +45,9 @@ AN-251686、AN-283542、AN-286572、AN-286945、AN-286784、AN-286944、AN-28701
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| **在Reports &amp; Analytics中暂停计划报表** | 2022年6月8日 | 2022年4月21日，我们宣布弃用特定于计划报表的几项功能，以便为之前宣布的Reports &amp; Analytics生命周期终止做准备。 这些功能包括计划新报表和新数据提取的功能。<p>为响应寻求扩展并简化从Reports and Analytics迁移的客户请求，我们决定将这些功能的访问权限扩展到 **2023年1月31日**. 请注意，报告和数据提取的过期时间窗口将继续限制为9个月；除非重新激活计划，否则在此时段结束时，报表和数据提取提交将会暂停。<p>重申，这些功能将于2023年1月31日被弃用。 在此日期之前，您必须将计划报表迁移到Adobe Analytics中可用的其他机制之一。 如果还有其他问题或需要获取相关支持，请联系 Adobe 客户关怀团队。[了解详情](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
-| **在Report Builder中暂停计划任务** | 2022年6月8日 | 2022年4月21日，我们对Report Builder中的计划任务进行了更改，以此作为性能和交付优化工作的一部分。 这些更改包括删除使计划投放“在x次发生后结束”的功能。 为响应一些客户请求寻求更多时间来探索和实施替代方案，我们决定以有限的方式恢复此选项，直到 **2023年1月31日**.<p>您可以继续计划每小时Report Builder任务，并在最多99次发生后使任务结束。 请注意，回滚仅适用于每小时任务；“x次出现后结束”将不可用于所有其他提交间隔（每日、每周、每月和每年）。 请注意，此选项将于2023年1月31日被弃用。 如需更多问题或支持，请联系Adobe客户关怀团队。 [了解详情](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
-| **SFTP 升级** | 2022 年 5 月 9 日 | 之前，我们已告知 Adobe 将在 2022 年 5 月升级其安全文件传输协议 (SFTP) 服务以提高文件传输的安全性。我们已将此升级推迟到 **2022年夏季**. 完成此更改后，将不再支持某些 SFTP 客户端配置。这将仅影响使用 SFTP 发送到 Adobe Analytics 或从其检索的数据，而不影响 FTP 协议。为避免服务中断，请确保您的 SFTP 客户端（代码、工具、服务）与[此处](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=zh-Hans)详述的更改一致。 |
+| **暂停 Reports &amp; Analytics 中的计划报告** | 2022 年 6 月 8 日 | 2022 年 4 月 21 日，我们宣布弃用计划报告的多项功能，为之前宣布的 Reports &amp; Analytics 生命周期结束做准备。这些功能包括计划新报告和新数据提取的能力。<p>为响应客户延期请求并简化从 Reports and Analytics 的过渡，我们决定将这些功能的访问权限延长至 **2023 年 1 月 31 日**。 请注意，报告和数据提取的到期窗口仍为九个月；除非重新激活计划，否则报告和数据提取交付将在此期限结束时暂停。<p>重申，这些功能将于2023年1月31日被弃用。 在此日期之前，您必须将计划报表迁移到Adobe Analytics中可用的其他机制之一。 如果还有其他问题或需要获取相关支持，请联系 Adobe 客户关怀团队。[了解详情](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
+| **在 Report Builder 中暂停计划任务** | 2022 年 6 月 8 日 | 2022 年 4 月 21 日，作为性能和交付优化工作的一部分，我们在 Report Builder 中推出了对计划任务的更改。这些更改包括取消预定交付“在发生 x 次后结束”的功能。为了响应一些客户要求更多时间来探索和实施替代方案的请求，我们决定在 **2023 年 1 月 31 日**&#x200B;之前有限地恢复此选项。<p>您可以继续计划每小时Report Builder任务，并在最多99次发生后使任务结束。 请注意，回滚仅适用于小时任务；对于所有其他交付间隔期（每天、每周、每月和每年），“在发生 x 次后结束”不可用。请注意，此选项将于 2023 年 1 月 31 日弃用。如果还有更多问题或需要获取相关支持，请联系 Adobe 客户关怀团队。[了解详情](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
+| **SFTP 升级** | 2022 年 5 月 9 日 | 之前，我们已告知 Adobe 将在 2022 年 5 月升级其安全文件传输协议 (SFTP) 服务以提高文件传输的安全性。我们已将此升级推迟到 **2022 年夏天**。完成此更改后，将不再支持某些 SFTP 客户端配置。这将仅影响使用 SFTP 发送到 Adobe Analytics 或从其检索的数据，而不影响 FTP 协议。为避免服务中断，请确保您的 SFTP 客户端（代码、工具、服务）与[此处](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=zh-Hans)详述的更改一致。 |
 | **更新某些客户支持的浏览器加密方法** | 2022 年 3 月 28 日 | Adobe 提供两种密码安全级别，以满足客户对第一方数据收集安全性的不同需求。在 **2022 年 6 月 23 日**，对于将其安全级别设置为“高”的客户不再支持某些 HTTPS 加密算法（也称为密码）。此操作意味着某些旧版操作系统无法再将数据发送到 Analytics，因为它们不支持新型加密方法。不影响使用默认“标准”密码安全设置的客户。已直接联系所有当前正在使用“高”设置的客户。受此影响的密码的详细列表 |
 | **2022 年 ISO 区域更新** | 2021 年 3 月 11 日 | Adobe在 **2022年6月10日**. 预计在此次发布后将看到少量地理信息更新。 |
 | **[!DNL Reports & Analytics]** 的 EOL | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起，Adobe 决定中断 [!DNL Reports & Analytics] 及其随附的报告和功能。支持 [!DNL Reports & Analytics] 的报表、可视化图表和底层技术不再满足 Adobe 的技术标准。大部分 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans) 中都可用。自 2015 年发布 Analysis Workspace 以来，[!DNL Reports & Analytics] 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)解释了生命周期结束的过程。 |
