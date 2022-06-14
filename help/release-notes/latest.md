@@ -3,9 +3,9 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: cf291c4d46a6bff9e1c61804ca7e897ee1d4e4d5
+source-git-commit: 93937279fa9d342048c7a16cabc50e92f95cf74d
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '993'
 ht-degree: 74%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 74%
 >
 >此页面包含预发行信息，这些信息可能会发生变化。
 
-**上次更新时间**：2022 年 6 月 10 日
+**上次更新时间**：2022 年 6 月 14 日
 
 ## 相关资源
 
@@ -30,7 +30,7 @@ ht-degree: 74%
 | 功能 | 描述 | [预定日期](releases.md) |
 | ----------- | ---------- | ------- |
 | 新的流量可视化图表UI | 为流量可视化图表提供了额外的功能，使其更强大、更强大。 [了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) | 2022 年 6 月 15 日 |
-| 在移动记分卡中共享注释 | 您可以在移动记分卡中显示在工作区中创建的注释。 这允许您直接在移动记分卡项目中共享与您的组织和促销活动有关的上下文数据细微差别和分析，这些项目可在Analytics功能板移动应用程序中查看。 了解更多（后续操作） | 2022 年 6 月 15 日 |
+| 在移动记分卡中共享注释 | 您可以在移动记分卡中显示在工作区中创建的注释。 这允许您直接在移动记分卡项目中共享与您的组织和促销活动有关的上下文数据细微差别和分析，这些项目可在Analytics功能板移动应用程序中查看。 [了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=en) | 2022 年 6 月 15 日 |
 | 支持带有边缘集合的促销变量的产品语法版本 | 您现在可以通过设置相关的XDM字段，使用产品语法的等效函数来设置推销变量。 查找有关促销变量产品语法的更多详细信息 [此处](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=zh-Hans). 请参阅产品语法的映射 [此处](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). | 2022 年 6 月 15 日 |
 | 通过 Experience Edge 填充生命周期维度和量度 | Analytics 报表中现在将显示通过 Experience Edge 发送的移动生命周期数据。有关哪些XDM字段映射到现有移动设备生命周期报表的详细信息，请参阅相关文档。 [了解详情](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) | 2022 年 5 月 27 日 |
 | 新分类体验 — 第1阶段 | 这一新分类集用户体验的分阶段发布显着提高了对客户拥有分类数据的可见性。 GA估计于2023年初。 | 有限测试从2022年6月15日开始 |
