@@ -4,10 +4,10 @@ title: Power BI 集成疑难解答
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: b98fbf52ab9fefef9c19e82f440ca9f5a81f933f
+source-git-commit: a30564e9d8969457aaa8709c3aa3c17ba6d0a2d3
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 66%
+source-wordcount: '408'
+ht-degree: 90%
 
 ---
 
@@ -45,23 +45,4 @@ ht-degree: 66%
 
 ## 达到API限制
 
-Power BI中的报表可与Analytics报表API配合使用，因此适用API阈值限制。 对于Analytics 2.0 API，无论报表包或公司如何，每用户每分钟的限制调用量为120次。 超过限制后，服务器会向用户返回HTTP 429状态，其中包含以下消息内容：
-
-```
-too many requests
-{"error_code":"429050","message":"Too many requests"}
-```
-
-Adobe建议您 *坚持* 以下准则：
-
-* 发出多个较小的请求，而不是单个较大的请求。
-* 请求一次数据并缓存它。
-* 轮询新数据的时间间隔不要超过30分钟。
-* 定期提取历史数据并增加它，而不是请求整个数据集。
-
-Adobe建议您 *避免* 以下内容：
-
-* 在一个请求中请求尽可能多的数据
-* 每天以日粒度请求一年的数据，以获得连续12个月的窗口。 Adobe建议您请求新日期的数据，并将其与前几天的现有数据合并。
-* 每次加载网页时，都会发出API请求，从而使用网站性能小组件驱动网页
-* 从1.4迁移
+Power BI中的报表可与Analytics报表API配合使用，因此适用API阈值限制。 有关详细信息，请参阅 [API调用的速率限制是多少？](https://developer.adobe.com/analytics-apis/docs/2.0/guides/faq/#what-is-the-rate-limit-for-api-calls).
