@@ -5,10 +5,10 @@ role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: 7fef9d7e31d5611b981b6edba6cd49d66f916725
-workflow-type: ht
-source-wordcount: '300'
-ht-degree: 100%
+source-git-commit: 383a38e90cacf31ae92122b9e96845e5cd2950b6
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 工作区注释使您能够有效地将上下文数据的细微差别和见解传达给您的组织。它们可让您将日历活动与特定维度/指标关联起来。您可以对已知数据问题、公共假日、营销活动启动等内容注释日期或日期范围。然后您可以以图形方式显示活动并查看营销活动或其他活动是否影响了您的网站流量、收入或任何其他指标。
 
-例如，假设您正在与您的组织共享项目。如果因营销活动而产生重大流量尖峰，则可创建“营销活动启动日期”注释，并将其用于您整个报表包。当您的用户查看任何包括该日期的数据集时，他们会在其项目中与其数据一起看到该注释。
+例如，假设您正在与您的组织共享项目。如果因营销活动而产生重大流量尖峰，则可创建“营销活动启动日期”注释，并将其用于您整个报告包。 当您的用户查看任何包括该日期的数据集时，他们会在其项目中与其数据一起看到该注释。
 
 ![](assets/multi-day.png)
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 * 它们可以应用于在其中创建它们的项目（默认）或所有项目。
 
-* 它们可以应用于在其中创建它们的报表包（默认）或所有报表包。
+* 它们可以应用于在其中创建它们的报告包（默认）或所有报告包。
 
 ## 权限 {#permissions}
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 但是，管理员可以通过 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=zh-Hans) 向用户提供[!UICONTROL 注释创建]权限（Analytics 工具）。
 
-## 启用或禁用注释 {#on-off}
+## 启用或禁用注释 {#annotations-on-off}
 
 可以在多个级别上启用或禁用注释：
 
