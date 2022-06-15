@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 帮助您使用区段、计算指标、虚拟报表包、警报、营销渠道、分类等组件管理您的数据，并了解跨设备分析。
-source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
+source-git-commit: 2ef658933af7902d67dc14e52f7e610e02e18044
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -227,6 +227,18 @@ ht-degree: 100%
    + [智能警报 — 用例](c-alerts/alerts-use-cases.md)
 + 分类{#classifications}
    + [分类概述](classifications/c-classifications.md)
+   + 分类集 {#sets}
+      + [分类集概述](classifications/sets/overview.md)
+      + [分类集管理器](classifications/sets/set-manager.md)
+      + [分类集作业管理器](classifications/sets/job-manager.md)
+      + [创建分类集](classifications/sets/create.md)
+      + [分类集设置](classifications/sets/settings.md)
+   + 分类规则生成器 {#classifications-rulebuilder}
+      + [分类规则生成器工作流程](classifications/crb/classification-rule-builder.md)
+      + [分类规则集](classifications/crb/classification-rule-set.md)
+      + [分类规则](classifications/crb/classification-quickstart-rules.md)
+      + [分类规则 - 定义](classifications/crb/classification-rule-definitions.md)
+      + [子分类和规则生成器](classifications/crb/sub-classification-rule-builder.md)
    + 分类导入器 {#classifications-importer}
       + [分类导入器 — 概述](classifications/importer/c-working-with-saint.md)
       + [分类数据文件](classifications/importer/c-saint-data-files.md)
@@ -241,12 +253,6 @@ ht-degree: 100%
       + [FTP 导出](classifications/importer/ftp-export.md)
       + [处理时间](classifications/importer/processing-time.md)
       + [疑难解答](classifications/importer/troubleshooting.md)
-   + 分类规则生成器 {#classifications-rulebuilder}
-      + [分类规则生成器工作流程](classifications/crb/classification-rule-builder.md)
-      + [分类规则集](classifications/crb/classification-rule-set.md)
-      + [分类规则](classifications/crb/classification-quickstart-rules.md)
-      + [分类规则 - 定义](classifications/crb/classification-rule-definitions.md)
-      + [子分类和规则生成器](classifications/crb/sub-classification-rule-builder.md)
    + [子分类](classifications/c-sub-classifications.md)
    + [分类常见问题解答](classifications/faq.md)
 + [日历事件](t-calendar-event.md)
