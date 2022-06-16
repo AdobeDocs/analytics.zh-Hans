@@ -4,9 +4,9 @@ title: 影响 Analysis Workspace 性能的因素及优化措施
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: ht
-source-wordcount: '2024'
+source-git-commit: 568000a7da84301f8a7c5a48a68a146e4af5f105
+workflow-type: tm+mt
+source-wordcount: '1956'
 ht-degree: 100%
 
 ---
@@ -75,7 +75,6 @@ ht-degree: 100%
 | 可视化图表的复杂性（区段、量度、过滤器） | 自行添加到项目中的可视化图表类型（例如，流失和自由格式表）不会对项目性能有太大影响。可视化图表的复杂性会增加处理时间。 | 导致可视化图表复杂性增加的因素包括：<ul><li>请求的数据范围</li><li>应用的区段数量；例如，用作自由格式表行的区段</li><li>使用复杂区段</li><li>[静态项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html?lang=zh-Hans)行或列（位于自由格式表中）</li><li>应用于自由格式表行的过滤器</li><li>包含的量度数量，尤其是使用区段的计算量度</li></ul> | 如果您注意到项目没有按所需的速度加载，请尽量尝试将某些区段替换为 eVar 和过滤器。<br><br>如果您发现自己正在不断地将一些区段和计算量度用于对业务非常重要的数据点，请考虑改进您的实施方式，以便更直接地捕获这些数据点。使用 Adobe Experience Platform 中的标记和 Adobe 的处理规则，可以快速更改实施方式，而且也有利于实施。 |
 | 报表包大小 | 报表包中收集到的数据量。 | - | 请咨询您的实施团队或 Adobe 专家，确定是否可以开展实施方面的改进，以提升 Adobe Analytics 的综合体验。 |
 | 并行查询 | 您的组织同时向 Adobe 请求的查询数。每个组织都有权进行至少 5 个并发查询。 | 如果报表需要较长时间，通常是因为其所在队列中有其他报表。这意味着您的组织针对特定报表包尝试运行的并发请求过多。查询可能来自 API 请求、报告 UI（Analysis Workspace、Reports &amp; Analytics、Report Builder 等）、计划项目、计划报表、计划警报以及发出报告请求的并发用户。 | 将报表包的请求和计划较为均匀地分布在一天当中。此外，请尽可能将您的请求转移到非高峰时段。周一早上、周二早上和每个月的第一天是报告高峰时段。 |
-| 数据中心容量 | 您和其他客户在 Adobe 数据中心内共享的报告容量数额。 | 此值受组织和数据中心内其他组织进行的并发查询数量的影响。 | 您的组织有权使用设置的容量，如果系统负荷较轻，Adobe 将转给您超出权利限额的更多容量。 |
 
 ## 提高 Analysis Workspace 中工作效率的技巧
 
