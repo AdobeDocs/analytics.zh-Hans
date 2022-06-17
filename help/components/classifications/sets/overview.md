@@ -1,13 +1,13 @@
 ---
 title: 分类集概述
 description: 使用分类集管理分类数据。
-source-git-commit: 2ef658933af7902d67dc14e52f7e610e02e18044
+exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
+source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
-
 
 # 分类集概述
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此功能当前为有限版本。 如果您希望访问此功能，请联系Adobe客户关怀或您的客户经理，他们将您的请求转发给分类集团队进行配置。
+>此功能当前为有限版本。 如果您希望访问此功能，请联系Adobe客户关怀或您的客户经理，他们将您的请求转发给分类团队进行配置。
 
 **[!UICONTROL 组件]** > **[!UICONTROL 分类集]**
 
