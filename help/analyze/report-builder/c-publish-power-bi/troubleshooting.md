@@ -4,10 +4,10 @@ title: Power BI 集成疑难解答
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: a30564e9d8969457aaa8709c3aa3c17ba6d0a2d3
+source-git-commit: f6f65f34c4d8caf04eb3ea47108e36e5b9adf24f
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 90%
+source-wordcount: '414'
+ht-degree: 89%
 
 ---
 
@@ -45,4 +45,4 @@ ht-degree: 90%
 
 ## 达到API限制
 
-Power BI中的报表可与Analytics报表API配合使用，因此适用API阈值限制。 有关详细信息，请参阅 [API调用的速率限制是多少？](https://developer.adobe.com/analytics-apis/docs/2.0/guides/faq/#what-is-the-rate-limit-for-api-calls).
+Power BI中的报表可与Analytics报表API配合使用，因此适用API阈值限制。 有关详细信息，请参阅 [Web服务错误代码](https://github.com/AdobeDocs/analytics-1.4-apis/blob/3dda746890743c2098256719d6595109b7748262/docs/getting-started/c_Web_Services_Error_Codes.md).
