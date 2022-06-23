@@ -4,9 +4,9 @@ description: 有关实施的常见问题，以及指向更多信息的链接。
 feature: Implementation Basics
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ AppMeasurement 会在 HTML 页面内创建一个图像对象，浏览器随后�
 
 有时，组织会因合同到期而想要移除实施，或想要减少服务器调用的数量。
 
-* **使用Adobe Experience Platform数据收集的实施**:在 [!UICONTROL 扩展] 选项卡，然后发布。
+* **使用 Adobe Experience Platform 数据收集实施**：在[!UICONTROL 扩展]选项卡中禁用或卸载适用的 Adobe Analytics、Web SDK 或移动 SDK 扩展，然后发布。
 * **旧版 AppMeasurement 实施**：使用以下代码行替换 `s_code.js` 文件的全部内容：
 
 ```js
