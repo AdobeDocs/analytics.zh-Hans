@@ -26,7 +26,7 @@ ht-degree: 86%
 | 功能 | 描述 | [预定日期](releases.md) |
 | ----------- | ---------- | ------- |
 | **新的 Flow 可视化 UI** | 为我们的 Flow 可视化提供附加功能，使其更加强大和有能力。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) | 推出于2022年6月15日；2022年6月27日或28日正式全面实施 |
-| **在移动记分卡中共享注释** | 您可以在移动记分卡中显示在工作区中创建的注释。这允许您直接在移动记分卡项目中共享有关您的组织和活动的上下文数据细微差别和见解，可在 Analytics 功能板移动应用程序中查看。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=en) | 2022 年 6 月 15 日 |
+| **在移动记分卡中共享批注** | 您可以在移动记分卡中显示在工作区中创建的批注。这允许您直接在移动记分卡项目中共享有关您的组织和活动的上下文数据细微差别和见解，可在 Analytics 功能板移动应用程序中查看。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=en) | 2022 年 6 月 15 日 |
 | **支持带有 Edge 收藏集的促销变量的产品语法版本** | 现在，您可以通过设置相关的 XDM 字段，使用产品语法的等效项来设置促销变量请参阅 [产品变量](../implement/vars/page-vars/products.md) 有关更多信息，请参阅 `products` 变量，以及 [Adobe Experience Edge中的Analytics变量映射](../implement/aep-edge/variable-mapping.md) ，以获取可用变量的完整列表。 | 2022 年 6 月 15 日 |
 | **通过 Experience Edge 填充生命周期维度和量度** | Analytics 报表中现在将显示通过 Experience Edge 发送的移动生命周期数据。有关哪些 XDM 字段映射到现有移动生命周期报告的详细信息，请参阅文档。[了解详情](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) | 2022 年 5 月 27 日 |
 | **Analytics处理规则中提供的Mobile Service处理规则** | AdobeMobile Services的生命周期终止日期为2022年12月31日。 由AdobeMobile Services创建或生成的现有处理规则将自动迁移到Adobe Analytics处理规则，您可以在该规则中编辑和管理它们。 这些量度可以查看，但在产品停用前无法再在Mobile Services中进行编辑。 如果还有其他问题或需要获取相关支持，请联系 Adobe 客户关怀团队。[了解详情](https://experienceleague.adobe.com/docs/mobile-services/using/eol.html?lang=en) | 2022 年 6 月 15 日 |
