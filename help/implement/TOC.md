@@ -5,9 +5,9 @@ user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
 user-guide-description: '自定义收集哪些数据，以便让 Adobe Analytics 得到充分利用。 '
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '401'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -140,7 +140,7 @@ ht-degree: 98%
       + [Mobile SDK 概述](aep-edge/mobile-sdk/overview.md)
    + Edge API{#edge-api}
       + [Edge API 概述](aep-edge/edge-api/overview.md)
-+ 使用Adobe Analytics扩展实施Analytics {#launch}
++ 使用 Adobe Analytics 扩展实施 Analytics{#launch}
    + [标记概述](launch/overview.md)
    + [创建 Adobe Analytics 标记属性](launch/create-analytics-property.md)
    + [部署到开发环境](launch/deploy-dev.md)
