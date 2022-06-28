@@ -3,10 +3,10 @@ title: 产品
 description: 发送有关所显示产品或购物车中产品的数据。
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 3edb7208f4b11a2fa58a2f7c696444ab998a6bfe
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 77%
+ht-degree: 78%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 77%
 
 产品包括 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在多个XDM字段下：
 
-* 类别已映射到 `productListItems[].name`.
-* 产品已映射到 `productListItems[]._id`.
+* 类别已映射到 `productListItems[].lineItemId`.
+* 产品已映射到 `productListItems[].name`.
 * 数量已映射到 `productListItems[].quantity`.
 * 价格已映射到 `productListItems[].priceTotal`.
 * 促销eVar被映射到 `productListItems._experience.analytics.customDimensions.eVars.eVar1` to `productListItems._experience.analytics.customDimensions.eVars.eVar250`，具体取决于您要绑定到产品的eVar。
