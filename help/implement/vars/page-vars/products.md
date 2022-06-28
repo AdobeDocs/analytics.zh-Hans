@@ -3,10 +3,10 @@ title: 产品
 description: 发送有关所显示产品或购物车中产品的数据。
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 3edb7208f4b11a2fa58a2f7c696444ab998a6bfe
+source-git-commit: f0e69d68dd6a5413a050e00f5dca1c820ecee389
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 78%
+source-wordcount: '600'
+ht-degree: 74%
 
 ---
 
@@ -28,6 +28,11 @@ ht-degree: 78%
 * 价格已映射到 `productListItems[].priceTotal`.
 * 促销eVar被映射到 `productListItems._experience.analytics.customDimensions.eVars.eVar1` to `productListItems._experience.analytics.customDimensions.eVars.eVar250`，具体取决于您要绑定到产品的eVar。
 * 促销事件被映射到 `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems._experience.analytics.event901to1000.event1000.value`，具体取决于您要绑定到产品的事件。
+
+>[!NOTE]
+>
+>`lineItemId` 需要作为自定义字段进行添加，因为它不是标准Analytics事件架构的一部分。 我们将来添加一个专用的“类别”字段。
+
 
 ## 使用Adobe Analytics扩展的产品
 
