@@ -3,10 +3,10 @@ title: 迁移到Adobe Analytics的常见问题解答
 description: 获取从第三方平台转到 Adobe 时的常见问题解答。
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
-source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+source-git-commit: 1192a6a1e14e43aa2b434ac0b2675c73d249214a
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 96%
+source-wordcount: '399'
+ht-degree: 91%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 如果贵组织坚决要求将历史数据迁移到 Adobe，请与贵组织的客户经理联系。实施顾问可以与您的组织合作，将 Google Analytics 数据导出转换为可由 Adobe 数据收集服务器引入的数据源。
 
-Adobe 不建议迁移历史数据，因为这是一个复杂的过程，而且对组织而方，成本过于高昂。访客身份识别也无法无缝地迁移到 Adobe，因为这两个平台中的访客信息以不同的格式存储在不同的 Cookie 中。
+要移动历史数据，我们建议使用 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hans) 可以引入任何全渠道数据源。
 
 **我习惯了使用许多报表中的分段下拉菜单。如何在 [!UICONTROL Analysis Workspace] 中重新创建分段下拉菜单？**
 
