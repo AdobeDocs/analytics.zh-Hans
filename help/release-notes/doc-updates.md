@@ -7,7 +7,7 @@ exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: 1c56c03a46d5a037faac109dcda536516fbd3532
 workflow-type: tm+mt
 source-wordcount: '3420'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 97%
 | --- | --- |
 | **2022 年 6 月** |  |
 | Experience Platform边缘文档 | 有关Adobe Analytics实施的新文章(通过 [Web SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/web-sdk/overview.html?lang=en), [Mobile SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/mobile-sdk/overview.html?lang=en)和 [Edge API](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/edge-api/overview.html?lang=en). |
-| 更新了流量可视化图表文档 | 基于 [新UI](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) |
-| 有关在移动记分卡中共享注释的文档 | 您可以显示 [在工作区中创建的注释 — 在移动记分卡中](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html). |
-| 有关具有Edge Collection的促销变量的产品语法版本的文档 | 现在，您可以通过设置相关的 XDM 字段，使用产品语法的等效项来设置促销变量在[此处](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)查找有关促销变量的产品语法的更多详细信息。请参阅产品语法[此处](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge)的映射。 |
+| 更新的流量可视化文档 | 基于[新 UI](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=cn) |
+| 关于在移动记分卡中共享注释的文档 | 您可以[在移动记分卡中显示在工作区中创建的注释](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html)。 |
+| 关于 Edge Collection 促销变量的产品语法版本的文档 | 现在，您可以通过设置相关的 XDM 字段，使用产品语法的等效项来设置促销变量在[此处](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=cn)查找有关促销变量的产品语法的更多详细信息。请参阅产品语法[此处](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=cn#aep-edge)的映射。 |
 | **2022 年 5 月** |  |
 | 通过 Experience Edge 填充生命周期维度和量度 | Analytics 报表中现在将显示通过 Experience Edge 发送的移动生命周期数据。有关哪些 XDM 字段映射到现有移动生命周期报告的详细信息，请参阅文档。[了解详情](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) |
 | **2022 年 4 月** |  |
@@ -46,7 +46,7 @@ ht-degree: 97%
 | API 项目端点 | 使用 API 添加、编辑或删除 Analysis Workspace 项目。[了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | 暂停旧版计划 Report Builder 任务更新主题 | **从 2022 年 4 月 15 日起**，Adobe 打算[暂停所有在大于两年之前创建的计划 Report Builder 任务](/help/analyze/report-builder/r-arb-scheduled-reports.md)。 |
 | **2021 年 10 月** |  |
-| 2021 年 10 月 21 日 | 有关 Analysis Workspace 中的[快速区段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html)的新文档 |
+| 2021 年 10 月 21 日 | 有关 Analysis Workspace 中的[快速区段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=zh-Hans)的新文档 |
 | 2021 年 10 月 21 日 | 有关 Analysis Workspace 中的[媒体播放耗时](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=zh-Hans)面板的新文档。 |
 | 2021 年 10 月 7 日 | 有关[移动记分卡可视化](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-Hans#apply-visualizations)的新文档 |
 | **2021 年 8 月** |  |

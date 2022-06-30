@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: c083c9d62d71dfd2d8a6360f24d8cc40f18f427d
 workflow-type: tm+mt
 source-wordcount: '1065'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 86%
 
 | 功能 | 描述 | [预定日期](releases.md) |
 | ----------- | ---------- | ------- |
-| **新的 Flow 可视化 UI** | 为我们的 Flow 可视化提供附加功能，使其更加强大和有能力。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) | 推出于2022年6月15日；2022年6月27日或28日正式全面实施 |
-| **在移动记分卡中共享批注** | 您可以在移动记分卡中显示在工作区中创建的批注。这允许您直接在移动记分卡项目中共享有关您的组织和活动的上下文数据细微差别和见解，可在 Analytics 功能板移动应用程序中查看。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=en) | 2022 年 6 月 15 日 |
-| **支持带有 Edge 收藏集的促销变量的产品语法版本** | 现在，您可以通过设置相关的 XDM 字段，使用产品语法的等效项来设置促销变量请参阅 [产品变量](../implement/vars/page-vars/products.md) 有关更多信息，请参阅 `products` 变量，以及 [Adobe Experience Edge中的Analytics变量映射](../implement/aep-edge/variable-mapping.md) ，以获取可用变量的完整列表。 | 2022 年 6 月 15 日 |
+| **新的 Flow 可视化 UI** | 为我们的 Flow 可视化提供附加功能，使其更加强大和有能力。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=cn) | 2022 年 6 月 15 日开始推出；2022 年 6 月 27 日或 28 日前正式上市 |
+| **在移动记分卡中共享注释** | 您可以在移动记分卡中显示在工作区中创建的批注。这允许您直接在移动记分卡项目中共享有关您的组织和活动的上下文数据细微差别和见解，可在 Analytics 功能板移动应用程序中查看。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=cn) | 2022 年 6 月 15 日 |
+| **支持带有 Edge Collection 的促销变量的产品语法版本** | 现在，您可以通过设置相关的 XDM 字段，使用产品语法的等效项来设置促销变量有关使用`products`变量的 Web SDK 语法的更多信息，请参阅[产品变量](../implement/vars/page-vars/products.md)；有关可用变量的完整列表，请参阅 [Adobe Experience Edge 中的 Analytics 变量映射](../implement/aep-edge/variable-mapping.md)。 | 2022 年 6 月 15 日 |
 | **通过 Experience Edge 填充生命周期维度和量度** | Analytics 报表中现在将显示通过 Experience Edge 发送的移动生命周期数据。有关哪些 XDM 字段映射到现有移动生命周期报告的详细信息，请参阅文档。[了解详情](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) | 2022 年 5 月 27 日 |
-| **Analytics处理规则中提供的Mobile Service处理规则** | AdobeMobile Services的生命周期终止日期为2022年12月31日。 由AdobeMobile Services创建或生成的现有处理规则将自动迁移到Adobe Analytics处理规则，您可以在该规则中编辑和管理它们。 这些量度可以查看，但在产品停用前无法再在Mobile Services中进行编辑。 如果还有其他问题或需要获取相关支持，请联系 Adobe 客户关怀团队。[了解详情](https://experienceleague.adobe.com/docs/mobile-services/using/eol.html?lang=en) | 2022 年 6 月 15 日 |
-| **分类集 — 阶段1** | 这一新分类用户体验的分阶段发布显着提高了对客户拥有的分类数据的可见性。 请参阅 [分类集](../components/classifications/sets/overview.md) 以了解更多信息。 | 有限测试从2022年6月15日开始，预计于2023年初正式发布 |
+| **Analytics 处理规则中提供的移动服务处理规则** | Adobe Mobile Services 的终止日期为 2022 年 12 月 31 日。 由 Adobe Mobile Services 创建或生成的现有处理规则将自动迁移到 Adobe Analytics 处理规则，您可以在其中编辑和管理这些规则。 它们可以在 Mobile Services 中查看，但在产品失效之前不能再进行编辑。 如果还有其他问题或需要获取相关支持，请联系 Adobe 客户关怀团队。[了解详情](https://experienceleague.adobe.com/docs/mobile-services/using/eol.html?lang=cn) | 2022 年 6 月 15 日 |
+| **分类集 – 阶段 1** | 新分类用户体验的分阶段发布显着提高了对客户拥有的分类数据的可见性。 有关更多信息，请参阅[分类集](../components/classifications/sets/overview.md)。 | 有限测试于 2022 年 6 月 15 日开始，预计 2023 年初全面可用 |
 
 {style=&quot;table-layout:auto&quot;}
 
