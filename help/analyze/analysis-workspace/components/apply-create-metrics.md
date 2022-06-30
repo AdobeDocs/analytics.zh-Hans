@@ -4,36 +4,42 @@ title: Analysis Workspace 中的指标
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
-source-wordcount: '283'
-ht-degree: 100%
+source-git-commit: 56fd6dd8450df3ffea78154fafa1e858d5a653a7
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 23%
 
 ---
 
-# 量度
+# 指标
 
-可通过两种方式在 Analysis Workspace 中使用量度。
+通过量度可量化Analysis Workspace中的数据点。 它们最常用作可视化中的列，并与维度绑定。
 
-* 您可以从“[!UICONTROL 组件]”菜单将标准量度、计算量度或计算量度模板拖放到表中：
+Adobe提供了多种类型的量度以在Analysis Workspace中使用：
 
-   ![](assets/metrics_icons.png)
+* **标准量度**:您在项目中使用的大多数量度都是标准量度。 示例包括 [页面查看次数](/help/components/metrics/page-views.md), [收入](/help/components/metrics/revenue.md)或 [自定义事件](/help/components/metrics/custom-events.md). 请参阅 [量度概述](/help/components/metrics/overview.md) （详细信息）。
 
-   >[!NOTE]
-   >
-   >尽管这看似简单，但量度的使用功能却非常强大。您可以通过将相应的量度拖动到表的量度部分来将量度添加到报表中。您还可以按量度划分维度，从而使您能够精细地控制表视图。此外，您还可以将度量作为维度插入，或将维度作为度量插入以创建超时报告。尝试使用各种不同组件，了解您可以进行哪些操作。这种可能性是无穷的。
+   ![标准量度](assets/standard-metric.png)
 
-* 也可以单击&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 新建量度]**。此操作可将您转到[计算量度生成器](/help/components/c-calcmetrics/cm-overview.md)，您可以从现有量度创建自定义量度。
+* **计算量度**:用户定义的基于标准量度、静态数字或算法函数的量度。 用户定义的计算量度在可用组件列表中显示一个计算器图标。 请参阅 [计算量度概述](/help/components/c-calcmetrics/cm-overview.md) （详细信息）。
 
-以下是一段在自由格式表中使用量度的视频：
+   ![计算量度](assets/calculated-metric.png)
+
+* **计算量度模板**:Adobe定义的量度，其行为与计算量度类似。 您可以在工作区项目中按原样使用它们，或保存副本以自定义其逻辑。 计算量度模板在可用组件列表中显示一个Adobe图标。
+
+   ![计算量度模板](assets/calculated-metric-template.png)
+
+量度在Analysis Workspace中的使用方式非常灵活。 将量度拖动到空的自由格式表中，以查看该量度在项目日期时段内的趋势。 当存在维度时，您还可以拖动量度以查看与每个维度项目相比的量度。 将量度拖动到现有量度标题上方会替换量度，而将量度拖动到标题旁边会让您并排查看这两个量度。
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
 ## 计算量度
 
-为了更便于快速创建计算量度，**[!UICONTROL 从所选内容创建量度]**&#x200B;已添加到自由格式表中的列右键单击菜单。在选定一个或多个标头列单元格时，会显示该选项。
+计算量度允许您使用简单的运算符或统计函数轻松查看量度之间的关系。 有多种方法可创建计算量度：
 
-![](assets/calc_metrics.png)
+* 单击左侧组件列表下的量度标题旁边的加号图标。
+* 导航到 **[!UICONTROL 组件]** > **[!UICONTROL 计算量度]** > **[!UICONTROL 添加]**.
+* 右键单击列标题> **[!UICONTROL 从选定范围中创建量度]** 选择一个或多个标题列单元格时。 此选项可自动为您创建计算量度，而无需使用计算量度规则生成器。
 
 [计算量度：无实施量度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=zh-Hans) (3:42)
 
