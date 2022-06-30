@@ -3,7 +3,7 @@ title: 创建分类集
 description: 创建分类集时可用的字段和描述。
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '191'
 ht-degree: 100%
 
