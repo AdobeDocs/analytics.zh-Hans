@@ -3,7 +3,7 @@ title: 分类集作业管理器
 description: 查看从分类集生成的当前和已完成的分类作业。
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
 ht-degree: 100%
 
