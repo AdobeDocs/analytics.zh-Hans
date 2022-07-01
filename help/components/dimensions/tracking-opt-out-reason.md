@@ -3,14 +3,16 @@ title: 跟踪选择退出的原因
 description: 预览在启用“隐私设置”后将排除的数据。
 feature: Dimensions
 exl-id: f0521f4f-b11e-4ce3-b0fe-60788be6b120
-source-git-commit: 4c896fe930b52e440f8b91725fa6451faaa76fc8
+source-git-commit: b7209b914695423099266f5c507eaa34c2b98bc5
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 7%
+source-wordcount: '262'
+ht-degree: 9%
 
 ---
 
 # 跟踪选择退出的原因
+
+*本页介绍的维度允许您查看启用某些报表包设置对数据的潜在影响。 它与 [Adobe Experience Cloud ID选择加入服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hans).*
 
 “跟踪选择退出原因”维度用作在启用隐私设置时将被排除的数据的预览。 此维度主要用于确定在您启用的情况下，您的实施是否会受到负面影响 [隐私设置](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html) 下。
 
