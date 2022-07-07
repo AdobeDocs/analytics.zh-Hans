@@ -7,7 +7,7 @@ exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: 1c56c03a46d5a037faac109dcda536516fbd3532
 workflow-type: tm+mt
 source-wordcount: '3420'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 | 日期 | 描述 |
 | --- | --- |
 | **2022 年 6 月** |  |
-| Experience Platform边缘文档 | 有关Adobe Analytics实施的新文章(通过 [Web SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/web-sdk/overview.html?lang=en), [Mobile SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/mobile-sdk/overview.html?lang=en)和 [Edge API](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/edge-api/overview.html?lang=en). |
+| Experience Platform Edge 文档 | 关于通过 [Web SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/web-sdk/overview.html?lang=en)、[Mobile SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/mobile-sdk/overview.html?lang=en) 和 [Edge API](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/edge-api/overview.html?lang=en) 实现 Adobe Analytics 的新文章。 |
 | 更新的流量可视化文档 | 基于[新 UI](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=cn) |
 | 关于在移动记分卡中共享注释的文档 | 您可以[在移动记分卡中显示在工作区中创建的注释](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html)。 |
 | 关于 Edge Collection 促销变量的产品语法版本的文档 | 现在，您可以通过设置相关的 XDM 字段，使用产品语法的等效项来设置促销变量在[此处](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=cn)查找有关促销变量的产品语法的更多详细信息。请参阅产品语法[此处](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=cn#aep-edge)的映射。 |
@@ -55,7 +55,7 @@ ht-degree: 98%
 | 2021 年 8 月 18 日 | 有关[归因最佳实践](/help/analyze/analysis-workspace/attribution/best-practices.md)的新主题 |
 | 2021 年 8 月 5 日 | 有关[计算重复实例](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html?lang=zh-Hans)的新主题 |
 | 2021 年 8 月 5 日 | 更新了有关[模板](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=zh-Hans)、[浏览器导入](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=zh-Hans)和[浏览器导出](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=zh-Hans)的分类文档，以指示对启用新分类架构的报表包不可用的选项。 |
-| 2021 年 8 月 2 日 | 更新了多个页面以反映 [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en) 的重新品牌化 |
+| 2021 年 8 月 2 日 | 更新了多个页面以反映 [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=zh-Hans) 的重新品牌化 |
 | **2021 年 7 月** |  |
 | 2021 年 7 月 23 日 | 对[促销 eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) 的全新深入讨论 |
 | 2021 年 7 月 15 日 | 新增有关新的 [Adobe Analytics 登陆页面](/help/analyze/landing.md)的文档 |
