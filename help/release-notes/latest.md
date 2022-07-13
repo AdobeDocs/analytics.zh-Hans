@@ -3,16 +3,16 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c083c9d62d71dfd2d8a6360f24d8cc40f18f427d
+source-git-commit: df9e8e323ba12985761b38c403bb4114cc99f5fe
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 100%
+source-wordcount: '1103'
+ht-degree: 96%
 
 ---
 
 # 当前 Adobe Analytics 发行说明（2022 年 6 月）
 
-**上次更新时间**：2022 年 6 月 16 日
+**上次更新**:2022年7月13日
 
 ## 相关资源
 
@@ -42,6 +42,7 @@ AN-251686、AN-283542、AN-286572、AN-286945、AN-286784、AN-286944、AN-28701
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
+| **系统生成电子邮件的新域** | 2022 年 7 月 13 日 | Adobe最近从工作区项目、警报和超量警报中更改了发件人的域，该域位于 `noreply@omniture.com` to `noreply@adobe.com`. 如果贵组织仅允许特定发件人，请将此新电子邮件添加到允许列表。 |
 | **暂停 Reports &amp; Analytics 中的计划报告** | 2022 年 6 月 8 日 | 2022 年 4 月 21 日，我们宣布弃用计划报告的多项功能，为之前宣布的 Reports &amp; Analytics 生命周期结束做准备。这些功能包括计划新报告和新数据提取的能力。<p>为响应客户延期请求并简化从 Reports and Analytics 的过渡，我们决定将这些功能的访问权限延长至 **2023 年 1 月 31 日**。 请注意，报告和数据提取的到期窗口仍为九个月；除非重新激活计划，否则报告和数据提取交付将在此期限结束时暂停。<p>重申一下，这些功能将于 2023 年 1 月 31 日弃用。在此日期之前，您必须将计划报告迁移到 Adobe Analytics 中可供您使用的其他机制之一。如果还有其他问题或需要获取相关支持，请联系 Adobe 客户关怀团队。[了解详情](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
 | **在 Report Builder 中暂停计划任务** | 2022 年 6 月 8 日 | 2022 年 4 月 21 日，作为性能和交付优化工作的一部分，我们在 Report Builder 中推出了对计划任务的更改。这些更改包括取消预定交付“在发生 x 次后结束”的功能。为了响应一些客户要求更多时间来探索和实施替代方案的请求，我们决定在 **2023 年 1 月 31 日**&#x200B;之前有限地恢复此选项。<p>您可以计划每小时 Report Builder 任务，并在最多发生 99 次后结束这些任务。请注意，回滚仅适用于小时任务；对于所有其他交付间隔期（每天、每周、每月和每年），“在发生 x 次后结束”不可用。请注意，此选项将于 2023 年 1 月 31 日弃用。如果还有更多问题或需要获取相关支持，请联系 Adobe 客户关怀团队。[了解详情](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
 | **SFTP 升级** | 2022 年 5 月 9 日 | 之前，我们已告知 Adobe 将在 2022 年 5 月升级其安全文件传输协议 (SFTP) 服务以提高文件传输的安全性。我们已将此升级推迟到 **2022 年夏天**。完成此更改后，将不再支持某些 SFTP 客户端配置。这将仅影响使用 SFTP 发送到 Adobe Analytics 或从其检索的数据，而不影响 FTP 协议。为避免服务中断，请确保您的 SFTP 客户端（代码、工具、服务）与[此处](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=zh-Hans)详述的更改一致。 |
