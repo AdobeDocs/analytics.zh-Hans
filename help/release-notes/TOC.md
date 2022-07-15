@@ -5,7 +5,7 @@ user-guide-title: Analytics 发行说明
 breadcrumb-title: 发行说明
 user-guide-description: 新功能和错误修复说明列表。
 source-git-commit: a6f2e241617d118479b79d00305f7ed4dc3dfd67
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '39'
 ht-degree: 100%
 

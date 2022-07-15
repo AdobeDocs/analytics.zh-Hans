@@ -5,7 +5,7 @@ user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: Analytics 的高级分析和可视化工具 Analysis Workspace 以及 Adobe Analytics Dashboards、Report Builder 和 Activity Map 等工具的操作说明。
 source-git-commit: 6f0d92a85003537447821687bf5385b1690dc33f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 100%
 
@@ -140,9 +140,9 @@ ht-degree: 100%
    + [用户首选项](analysis-workspace/user-preferences.md)
    + 工作区常见问题解答 {#workspace-faq}
       + [常见问题解答](analysis-workspace/workspace-faq/faq.md)
-      + [优化 Analysis Workspace 性能](analysis-workspace/workspace-faq/optimizing-performance.md)
+      + [优化分析工作区性能](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [错误消息](analysis-workspace/workspace-faq/error-messages.md)
-      + [Analysis Workspace 限制](analysis-workspace/workspace-faq/aw-limitations.md)
+      + [分析工作区限制](analysis-workspace/workspace-faq/aw-limitations.md)
       + [管理要求](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Analysis Workspace 中的辅助功能](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
