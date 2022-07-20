@@ -4,10 +4,10 @@ keywords: 数据馈送;作业;前处理列;后处理列;区分大小写
 title: 数据馈送常见问题解答
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: ef228e7d7ba41e934fe7a74db15ce112be2c13d8
+source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 98%
+source-wordcount: '1437'
+ht-degree: 94%
 
 ---
 
@@ -97,4 +97,5 @@ AWS 还使得用户可以在存储桶中创建属于不同用户帐户的对象�
 
 >[!NOTE]
 >
->[!DNL Analytics] 不会确定存储桶是否具有一项要求为存储桶所有者提供新对象完全控制权的策略，甚至不会确定存储桶所有者与写入数据的用户是否位于不同的帐户中。相反，[!DNL Analytics] 会在每次馈送上传时将存储桶所有者自动添加到 BucketOwnerFullControl ACL。
+>Adobe Analytics不确定存储段是否有要求存储段所有者完全控制新对象的策略，或者即使存储段所有者与写入数据的用户位于不同的帐户中也是如此。 相反，Analytics会自动将存储段所有者添加到 `BucketOwnerFullControl` ACL，每次上传信息源。
+

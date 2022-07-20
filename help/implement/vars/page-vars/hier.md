@@ -3,10 +3,10 @@ title: (hier)
 description: 在 Adobe Analytics 中实施层级变量。
 feature: Variables
 exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '185'
-ht-degree: 100%
+source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 100%
 >[!TIP]
 >
 >此变量在 Adobe Analytics 的先前版本中比较常见。Adobe 建议改用 [eVar](evar.md) 和分类。
+
+>[!IMPORTANT]
+>
+>使用XDM for Experience Edge的数据收集不支持层次结构。
 
 此变量适用于网站结构超过三层的网站。例如，媒体网站的“体育”部分可以有 4 个级别：`Sports`、`Local Sports`、`Baseball` 以及 `Team name`。如果有人访问“棒球”页面，则“体育”、“地方体育”和“棒球”这几个级别都会反映此访问。
 
