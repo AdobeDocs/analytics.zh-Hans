@@ -3,7 +3,7 @@ title: events
 description: 设置事件变量，该变量可控制网站上的大多数量度。
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: e4428d6a875e37bc4cbeee7c940545418ae82f94
+source-git-commit: 5e71564e3aade426d84a039a6864d441d165345a
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 84%
@@ -22,9 +22,7 @@ ht-degree: 84%
 
 * 自定义事件1-100已映射到 `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
 * 自定义事件101-200已映射到 `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
-* 此模式每100个事件重复一次， `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`.
-* `eventx.value` 用于指定值。
-* `eventx.id` 用于指定要序列化的id。
+* 此模式每100个事件重复一次， `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` 用于指定值。 `eventx.id` 用于指定要序列化的id。
 * 订单已映射到 `commerce.purchases.value`.
 * 单位被映射到所有 `productListItems[].quantity` 字段。
 * 收入会映射到所有 `productListItems[].priceTotal` 字段。
