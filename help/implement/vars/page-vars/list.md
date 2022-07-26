@@ -3,10 +3,10 @@ title: list
 description: 在同一点击中保留多个值的自定义变量。
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: e4428d6a875e37bc4cbeee7c940545418ae82f94
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 85%
+source-wordcount: '368'
+ht-degree: 91%
 
 ---
 
@@ -23,10 +23,6 @@ ht-degree: 85%
 ## 在报表包设置中设置列表变量
 
 确保先在报表包设置中配置每个列表变量，然后再在实施中使用它们。请参阅《管理员指南》中的[转化变量](/help/admin/admin/conversion-var-admin/list-var-admin.md)。
-
-## 使用Web SDK列出变量
-
-列表变量包括 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `_experience.analytics.customDimensions.lists.list1` to `_experience.analytics.customDimensions.lists.list3`.
 
 ## 使用Adobe Analytics扩展列出变量
 
