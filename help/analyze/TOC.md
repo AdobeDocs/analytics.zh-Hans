@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: Analytics 的高级分析和可视化工具 Analysis Workspace 以及 Adobe Analytics Dashboards、Report Builder 和 Activity Map 等工具的操作说明。
-source-git-commit: eb45e267835fcf91010dd87deb13707082dbf736
+source-git-commit: 04a314e93a77ecf5687e771e143bf68ba911b32b
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1053'
 ht-degree: 100%
 
 ---
@@ -73,20 +73,21 @@ ht-degree: 100%
          + [流量概述](analysis-workspace/visualizations/c-flow/flow.md)
          + [配置流量可视化图表](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [维度间流量](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-      + [直方图](analysis-workspace/visualizations/histogram.md)
-      + [关键量度摘要](analysis-workspace/visualizations/key-metric.md)
-      + [地图](analysis-workspace/visualizations/map-visualization.md)
-      + [维恩图](analysis-workspace/visualizations/venn.md)
       + [面积图和堆叠的面积图](analysis-workspace/visualizations/area.md)
       + [条形图和堆叠的条形图](analysis-workspace/visualizations/bar.md)
       + [项目符号图表](analysis-workspace/visualizations/bullet-graph.md)
+      + [组合图表](analysis-workspace/visualizations/combo-charts.md)
       + [圆环图](analysis-workspace/visualizations/donut.md)
+      + [直方图](analysis-workspace/visualizations/histogram.md)
       + [水平条形图和堆叠的水平条形图](analysis-workspace/visualizations/horizontal-bar.md)
+      + [关键量度摘要](analysis-workspace/visualizations/key-metric.md)
       + [折线图](analysis-workspace/visualizations/line.md)
+      + [地图](analysis-workspace/visualizations/map-visualization.md)
       + [散点图](analysis-workspace/visualizations/scatterplot.md)
       + [摘要数字和摘要变化](analysis-workspace/visualizations/summary-number-change.md)
       + [文本](analysis-workspace/visualizations/text.md)
       + [树形图](analysis-workspace/visualizations/treemap.md)
+      + [维恩图](analysis-workspace/visualizations/venn.md)
    + 面板 {#panels}
       + [面板概述](analysis-workspace/c-panels/panels.md)
       + [Analytics for Target (A4T) 面板](analysis-workspace/c-panels/a4t-panel.md)
