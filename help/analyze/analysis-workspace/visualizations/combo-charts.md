@@ -3,13 +3,13 @@ description: 让您能够轻松地在Analysis Workspace中显示比较数据，�
 title: 组合图可视化图表
 feature: Visualizations
 role: User, Admin
-source-git-commit: 4cc3a34eab5d29cb62244978c848d303d4754409
+exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
+source-git-commit: 46a3fc5170f4b445cf3cafd2c4cc01a40d522bd3
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 32%
 
 ---
-
 
 # 组合图表
 
@@ -47,8 +47,8 @@ ht-degree: 32%
    | 折线比较类型 | 定义 |
    | --- | --- |
    | **[!UICONTROL 时间比较]** | 最常见的比较类型 — 例如，将此时间段与4周前进行比较。 如果已选择 [!UICONTROL 时间比较]，则对要比较的时间段进行次要选择。<p>![](assets/combo-time-period.png) |
-   | **[!UICONTROL 其他指标]** | 例如，您可以比较 [!UICONTROL 收入] 到其他量度。<p>![](assets/combo-2metrics.png) |
    | **[!UICONTROL 函数]** | 你可以引入一个 [!UICONTROL 平均] 比较。 请参阅下面的支持函数列表。<p>![](assets/combo-functions.png) |
+   | **[!UICONTROL 辅助指标]** | 例如，您可以比较 [!UICONTROL 收入] 到其他量度。<p>![](assets/combo-2metrics.png) |
 
    {style=&quot;table-layout:auto&quot;}
 
@@ -107,5 +107,3 @@ ht-degree: 32%
 | **[!UICONTROL 将y轴定位为0]** | 如果图表上绘制的所有值都远远大于零，则图表默认会将 y 轴底部设置为非零值。如果选中此框，y 轴将被强制设置为零（并将重新绘制图表）。 |
 
 {style=&quot;table-layout:auto&quot;}
-
-
