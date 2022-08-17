@@ -3,9 +3,9 @@ title: 产品
 description: 发送有关所显示产品或购物车中产品的数据。
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: f0e69d68dd6a5413a050e00f5dca1c820ecee389
+source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '602'
 ht-degree: 74%
 
 ---
@@ -31,8 +31,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->`lineItemId` 需要作为自定义字段进行添加，因为它不是标准Analytics事件架构的一部分。 我们将来添加一个专用的“类别”字段。
-
+>`lineItemId` 需要作为自定义字段进行添加，因为它尚未纳入标准Analytics事件架构。 Adobe计划将来添加一个专用的“类别”字段。
 
 ## 使用Adobe Analytics扩展的产品
 
