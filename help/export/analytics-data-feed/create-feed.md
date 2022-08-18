@@ -3,10 +3,10 @@ title: 创建或编辑数据馈送
 description: 了解如何创建或编辑数据馈送。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
-source-wordcount: '948'
-ht-degree: 100%
+source-git-commit: 60335be9a60b467969f5e1796ce465a7d453951f
+workflow-type: tm+mt
+source-wordcount: '1518'
+ht-degree: 56%
 
 ---
 
@@ -30,23 +30,65 @@ ht-degree: 100%
 
 目标字段下的可用字段取决于目标类型。
 
-### FTP
+### Google Cloud平台
 
-数据馈送数据可以提交到由 Adobe 或客户托管的 FTP 位置。需要 FTP 主机、用户名和密码。可使用路径字段将馈送文件放置在文件夹中。文件夹必须已存在；如果指定的路径不存在，则馈送将引发错误。
+作为安全目标访问GCP存储段
 
-![FTP 信息](assets/dest-ftp.jpg)
+**字段**
+* *类型：* Google云平台的目标类型
+* *项目ID:* 存储段所在的GCP项目ID
+* *存储段名称：* 不带点的存储段名称最多可包含3到63个字符。 包含点的名称最多可包含222个字符，但每个以点分隔的组件不能超过63个字符。
+* *路径（可选）：* &amp; *将报表包ID附加到路径：* 要检索或存储的资源的位置
 
-### SFTP
+![GCP信息](assets/dest-gcp.png)
 
-提供了对数据馈送的 SFTP 支持。需要 SFTP 主机、用户名，以及包含有效 RSA 或 DSA 公钥的目标站点。您可以在创建馈送时下载相应的公钥。
+**服务帐户创建过程**
 
-![SFTP 信息](assets/dest-sftp.jpg)
+需要用户为已选择Google云平台目标创建服务帐户。
 
-### S3
+每个Analytics组织只允许一个GCP服务帐户。 为数据馈送创建服务帐户后，组织内的所有其他数据馈送都将预填充服务帐户。
 
-您可以直接将馈送发送到 Amazon S3 存储段。此目标类型需要存储段名称、访问密钥 ID 和密钥。有关详细信息，请参阅 Amazon S3 文档中的 [Amazon S3 存储段命名要求](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)。
+![GCP服务帐户信息](assets/service-account.png)
 
-![S3 信息](assets/dest-s3.jpg)
+
+### Amazon S3
+
+Amazon S3存储段存储，通过受信任实体中的IAM角色访问。
+
+**字段**
+
+* *类型：* Amazon S3的目标类型
+* *存储段：* S3存储段名称
+* *可信实体ARN:* AWS IAM Entity ARN `arn:aws:iam::<12 digit account number>:user/<username>`
+* *角色ARN:* AWS IAM角色ARN `arn:aws:iam::<12 digit account number>:role/<role name>`
+* *路径（可选）：* &amp; *将报表包ID附加到路径：* 要检索或存储的资源的位置
+* *指定区域（可选）：* 所有可用AWS区域（包括CN区域）的下拉列表
+
+![Amazon S3信息](assets/dest-s3-secure.png)
+
+
+**创建和选择受信任实体**
+
+用户可以从下拉列表中列出的任何选项中选择受信任的实体，也可以通过单击 `Create Entity` 按钮。
+
+单击 `Create Entity` 按钮，用户将被重定向到身份验证过程。 用户进行身份验证后，将创建受信任实体并将其添加到下拉菜单中的选项。
+
+此下拉列表列出了此用户在组织中创建的所有受信任实体。
+
+![实体信息](assets/entity-creation.png)
+
+您可以通过旧版方法将信息源直接发送到Amazon S3存储段。 有关详细信息，请参阅 Amazon S3 文档中的 [Amazon S3 存储段命名要求](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)。
+
+**字段 — 已弃用**
+
+* *类型：* 已弃用S3方法的目标类型
+* *存储段：* Amazon S3存储段名称
+* *路径（可选）：* &amp; *将报表包ID附加到路径：* 要检索或存储的资源的位置
+* *访问密钥：* AWS用户的访问密钥ID
+* *密钥：* AWS用户的密钥
+* *确认密钥：* 重新输入AWS用户的密钥
+
+![S3 信息](assets/dest-s3-dpr.png)
 
 您为上传数据馈送提供的用户必须具有以下[权限](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html)：
 
@@ -54,12 +96,9 @@ ht-degree: 100%
 * s3:PutObject
 * s3:PutObjectAcl
 
-   >[!NOTE]
-   >
-   >每次上传到 Amazon S3 存储桶时，无论存储桶是否有需要它的策略，[!DNL Analytics] 都会将存储桶所有者添加到 BucketOwnerFullControl ACL。有关详细信息，请参阅“[什么是 Amazon S3 数据馈送的 BucketOwnerFullControl 设置？](df-faq.md#BucketOwnerFullControl)”
+每次上传到 Amazon S3 存储桶时，无论存储桶是否有需要它的策略，[!DNL Analytics] 都会将存储桶所有者添加到 BucketOwnerFullControl ACL。有关详细信息，请参阅“[什么是 Amazon S3 数据馈送的 BucketOwnerFullControl 设置？](df-faq.md#BucketOwnerFullControl)”
 
-以下 16 个标准 AWS 区域（在必要时使用适当的签名算法）受支持：
-
+**受支持的AWS地区**:
 * us-east-2
 * us-east-1
 * us-west-1
@@ -76,20 +115,77 @@ ht-degree: 100%
 * eu-west-3
 * eu-north-1
 * sa-east-1
+* cn-north-1
+* cn-northwest-1
 
->[!NOTE]
->
->不支持 cn-north-1 区域。
 
 ### Azure Blob
 
-数据馈送支持 Azure Blob 目标。需要容器、帐户和密钥。Amazon 会自动加密静态数据。当您下载数据时，数据会自动解密。有关详细信息，请参阅 Microsoft Azure 文档中的[创建存储帐户](https://docs.microsoft.com/zh-cn/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)。
+使用基于角色的访问控制(RBAC)或共享访问签名(SAS)的Azure Blob安全目标。 选择访问控制后，面板的内容将进行更新以反映相应的字段。
 
-![Azure 信息](assets/azure.png)
+**字段 — RBAC**
+* *类型：* Azure Blob的目标类型
+* *访问控制：* 使用RBAC或SAS的选项
+* *Active Directory租户ID:* Azure帐户的组织ID
+* *应用程序ID:* 来自Active Directory适配器的应用程序ID
+* *客户端密钥：* Azure客户端密钥
+* *存储帐户名称：* 包含数据对象的帐户名称
+* *容器名称：* 属于给定存储帐户的容器。
+* *路径（可选）：* &amp; *将报表包ID附加到路径：* 要检索或存储的资源的位置
+
+![Azure RBAC信息](assets/dest-azure-rbac.png)
+
+**字段 — SAS**
+* *类型：* Azure Blob的目标类型
+* *访问控制：* 使用RBAC或SAS的选项
+* *Active Directory租户ID:* Azure Active Directory实例的ID
+* *应用程序ID:* 来自Active Directory适配器的应用程序ID
+* *客户端密钥：* Azure客户端密钥
+* *密钥保管库URI:* Azure密钥保管库的位置
+* *密钥保管库密钥名称：* 用于访问安全密钥保管库的密钥名称
+* *路径（可选）：* &amp; *将报表包ID附加到路径：* 要检索或存储的资源的位置
+
+![Azure SAS信息](assets/dest-azure-sas.png)
+
+**字段 — 已弃用**
+* *类型：* Azure Blob的目标类型
+* *容器：* Azure容器的名称
+* *路径（可选）：* &amp; *将报表包ID附加到路径：* 要检索或存储的资源的位置
+* *帐户：* Azure帐户密钥
+* *密钥保管库URI:* Azure密钥保管库的位置
+* *密钥保管库密钥名称：* 用于访问安全密钥保管库的密钥名称
+
+您必须实施自己的流程来管理馈送目标上的磁盘空间。Adobe 不会从服务器中删除任何数据。有关详细信息，请参阅 Microsoft Azure 文档中的[创建存储帐户](https://docs.microsoft.com/zh-cn/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)。
+
+![Azure已弃用信息](assets/dest-azure-dpr.png)
 
 >[!NOTE]
 >
 >您必须实施自己的流程来管理馈送目标上的磁盘空间。Adobe 不会从服务器中删除任何数据。
+
+### FTP — 已弃用
+
+**字段**
+* *类型：* FTP的目标类型
+* *主机：* 访问主机的端点
+* *路径（可选）：* &amp; *将报表包ID附加到路径：* 要检索或存储的资源的位置
+* *用户名：* 主机用户名
+* *密码：* 主机密码
+* *确认密码：* 重新输入并验证主机的密码
+
+![FTP 信息](assets/dest-ftp-dpr.png)
+
+### SFTP - 已弃用
+
+提供了对数据馈送的 SFTP 支持。需要 SFTP 主机、用户名，以及包含有效 RSA 或 DSA 公钥的目标站点。您可以在创建馈送时下载相应的公钥。
+
+**字段**
+* *类型：* SFTP的目标类型
+* *主机：* 访问主机的端点
+* *路径（可选）：* &amp; *将报表包ID附加到路径：* 要检索或存储的资源的位置
+* *RSA公钥：* 或 *DSA公钥：* 访问主机的公共密钥
+
+![SFTP 信息](assets/dest-sftp-dpr.png)
 
 ## 数据列定义
 
