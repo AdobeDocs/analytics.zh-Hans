@@ -3,16 +3,16 @@ title: 美国 DMA
 description: 点击的指定市场区域。
 feature: Dimensions
 exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '267'
-ht-degree: 100%
+source-git-commit: 89e8c9ac085d020db954790331103846c9dbc7a1
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 美国 DMA
 
-“美国 DMA”维度报告访客的指定市场区域 (DMA)。它基于 [Nielsen](https://www.nielsen.com/us/en/intl-campaigns/dma-maps/) 编辑的媒体市场。
+“美国 DMA”维度报告访客的指定市场区域 (DMA)。它基于 [Nielsen](https://markets.nielsen.com/us/en/contact-us/intl-campaigns/dma-maps/) 编辑的媒体市场。
 
 ## 使用数据填充此维度
 
