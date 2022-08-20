@@ -3,10 +3,10 @@ title: list
 description: 在同一点击中保留多个值的自定义变量。
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
+source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 62%
+source-wordcount: '547'
+ht-degree: 59%
 
 ---
 
@@ -57,6 +57,10 @@ ht-degree: 62%
     }
 }
 ```
+
+>[!NOTE]
+>
+>AdobeXDM架构包含 `key` 对象除 `value` 每个对象 `list[]` 数组。 Adobe不使用这些 `key` 对象。
 
 如果贵组织需要使用不同于逗号(“`,`“)，您可以将整个列表字符串（包括所需的分隔符）传递到自定义XDM字段。 确保将列表变量配置为在 [报表包设置](/help/admin/admin/conversion-var-admin/list-var-admin.md).
 
