@@ -3,20 +3,16 @@ title: 创建数据层
 description: 了解 Analytics 实施中的数据层，以及如何在 Adobe Analytics 中使用它来映射变量。
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 76c36a136359290e341febc554773a71b1cc7c66
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 92%
+source-wordcount: '514'
+ht-degree: 63%
 
 ---
 
 # 创建数据层
 
-数据层是网站上 JavaScript 对象的框架，其中包含实施中使用的所有变量值。它让您可以在实施中拥有更大的控制力且更便于维护。
-
-以下是一段关于使用数据层的视频：
-
->[!VIDEO](https://video.tv.adobe.com/v/28775/?quality=12)
+数据层是网站上JavaScript对象的框架，其中包含Analytics实施中使用的变量值。 在为Analytics变量分配值时，这样可以更好地控制并更轻松地进行维护。
 
 ## 先决条件
 
@@ -31,145 +27,18 @@ ht-degree: 92%
    >[!NOTE]
    >
    > 是否遵循 Adobe 推荐的数据层规范是可选的。如果您已经有一个数据层，或者选择不遵循 Adobe 提供的规范，请确保贵组织与要遵循的规范保持一致。
-1. **使用浏览器控制台验证数据层**：创建数据层后，您可以使用任意浏览器的开发人员控制台来验证数据层是否可正常使用。在大多数浏览器中，您都可以使用 `F12` 键打开开发人员控制台。`digitalData.page.pageInfo.pageID` 是一个示例变量值。
-1. **使用Adobe Experience Platform数据收集将数据层对象映射到数据元素**:在Adobe Experience Platform数据收集中创建数据元素，并将其映射到在数据层中列出的JavaScript属性。
-1. **使用 Adobe Analytics 标记扩展将数据元素映射到 Analytics 变量**：根据您的解决方案设计文档，将每个数据元素分配给相应的 Analytics 变量。
+1. **使用浏览器控制台验证数据层**：创建数据层后，您可以使用任意浏览器的开发人员控制台来验证数据层是否可正常使用。在大多数浏览器中，您都可以使用 `F12` 键打开开发人员控制台。`adobeDataLayer.page.title` 是一个示例变量值。
+1. **使用Adobe Experience Platform数据收集将数据层对象映射到数据元素**:此步骤因贵组织的实施方法而异：
+   * **如果使用Web SDK**:将所需数据层对象映射到Adobe Experience Platform Edge中的所需XDM字段。 请参阅 [Analytics变量映射](../aep-edge/variable-mapping.md) 以确定所需的数据层映射。
+   * **如果使用Analytics扩展**:在Adobe Experience Platform数据收集的标记下创建数据元素，并将其分配给所需的数据层对象。 然后，在Analytics扩展中，将每个数据元素分配给相应的Analytics变量。
 
 ## 规范
 
-Adobe 建议遵循由 [Customer Experience Digital Data Community Group](https://www.w3.org/community/custexpdata/) 制定的 [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) 规范。请阅读以下几节内容，以了解数据层元素如何与 Adobe Analytics 交互。
+Adobe建议使用 [Adobe客户端数据层](https://github.com/adobe/adobe-client-data-layer/wiki) 用于新的或经过重组的实施。
 
-建议使用的总数据层对象是 `digitalData`。以下示例使用示例数据列出了一个比较全面的数据层 JSON 对象：
+贵组织可以自由使用其他数据层规范，例如 [客户体验数字数据层](https://www.w3.org/2013/12/ceddl-201312.pdf)，或其他完全自定义的数据层。 与满足贵组织需求的一致数据层保持一致是最重要的。
 
-```js
-digitalData = {
-    pageInstanceID: "Example page - production",
-    page: {
-        pageInfo: {
-            pageID: "5093",
-            pageName: "Example page",
-            destinationURL: "https://example.com/index.html",
-            referringURL: "https://example.com/referrer.html",
-            sysEnv: "desktop",
-            variant: "2",
-            version: "1.14",
-            breadCrumbs: ["Home","Example group","Example page"],
-            author: "J Smith",
-            issueDate: "Example date",
-            effectiveDate: "Example date",
-            expiryData: "Example date",
-            language: "en-US",
-            geoRegion: "US",
-            industryCodes: "Example industry codes",
-            publisher: "Example publisher"
-        },
-        category: {
-            primaryCategory: "Example page category",
-            subCategory: "Sub-category example"
-        },
-        attributes: {
-            country: "US",
-            language: "en-US"
-        }
-    },
-    product: [{
-        productInfo: {
-            productID: "4859",
-            productName: "Example product",
-            description: "Example description",
-            productURL: "https://example.com/product.html",
-            productImage: "https://example.com/product_image.png",
-            productThumbnail: "https://example.com/product_thumbnail.png",
-            manufacturer: "Example manufacturer",
-            quantity: 1,
-            size: "Product size"
-        },
-        category: {
-            primaryCategory: "Example product category",
-            subCategory: "Example sub-category"
-        }
-    }],
-    cart: {
-        cartID: "934856",
-        price: {
-            basePrice: 200.00,
-            voucherCode: "EXAMPLEVOUCHER1",
-            voucherDiscount: 0.50,
-            currency: "USD",
-            taxRate: 0.20,
-            shipping: 5.00,
-            shippingMethod: "UPS",
-            priceWithTax: 120,
-            cartTotal: 125
-        }
-    },
-    transaction: {
-        transactionID: "694025",
-        profile: {
-            profileInfo: {
-                profileID: "exampleprofile",
-                userName: "exampleusername",
-                email: "user@example.com"
-            },
-            address: {
-                line1: "123 Vague Street",
-                line2: "Apt 1",
-                city: "Austin",
-                stateProvince: "TX",
-                postalCode: "78610",
-                country: "USA"
-            },
-            shippingAddress: {
-                line1: "123 Vague Street",
-                line2: "Apt 1",
-                city: "Austin",
-                stateProvince: "TX",
-                postalCode: "78610",
-                country: "USA"
-            }
-        }
-    },
-    event: [{
-        category: {
-            primaryCategory: "Example event category",
-            subCategory: "Example sub-category"
-        }
-    }],
-    component: [{
-        componentInfo: {
-            componentID: "4921",
-            componentName: "Example component"
-        },
-        category: {
-            primaryCategory: "Example event category",
-            subCategory: "Example sub-category"
-        }
-    }],
-    user: [{
-        segment: "Premium membership",
-        profile: [{
-            profileInfo: {
-                profileID: "exampleprofile",
-                userName: "exampleusername",
-                email: "user@example.com",
-                language: "en-US",
-                returningStatus: "New"
-            },
-            social: {
-                facebook: "examplefacebookid",
-                twitter: "exampletwitterhandle"
-            }
-        }]
-    }],
-    privacy: {
-        accessCategories: [{
-            categoryName: "Default",
-            domains: "adobedtm.com"
-        }]
-    },
-    version: "1.0"
-}
-```
+
 
 有关每个对象和子对象的详细信息，请参阅 [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) 报表。并非所有网站都会使用所有对象，例如，如果您托管新的网站，那么就不太可能使用 `digitalData.product` 对象数组。
 
