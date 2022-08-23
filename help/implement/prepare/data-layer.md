@@ -3,10 +3,10 @@ title: 创建数据层
 description: 了解 Analytics 实施中的数据层，以及如何在 Adobe Analytics 中使用它来映射变量。
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 76c36a136359290e341febc554773a71b1cc7c66
+source-git-commit: 6a43a24cfe6a2a7f92a9613898660df41daf2c89
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 63%
+source-wordcount: '468'
+ht-degree: 60%
 
 ---
 
@@ -36,11 +36,7 @@ ht-degree: 63%
 
 Adobe建议使用 [Adobe客户端数据层](https://github.com/adobe/adobe-client-data-layer/wiki) 用于新的或经过重组的实施。
 
-贵组织可以自由使用其他数据层规范，例如 [客户体验数字数据层](https://www.w3.org/2013/12/ceddl-201312.pdf)，或其他完全自定义的数据层。 与满足贵组织需求的一致数据层保持一致是最重要的。
-
-
-
-有关每个对象和子对象的详细信息，请参阅 [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) 报表。并非所有网站都会使用所有对象，例如，如果您托管新的网站，那么就不太可能使用 `digitalData.product` 对象数组。
+贵组织可以自由使用其他数据层规范，例如 [客户体验数字数据层](https://www.w3.org/2013/12/ceddl-201312.pdf)，或其他完全自定义的规范。 与满足贵组织需求的一致数据层保持一致是最重要的。
 
 数据层是可扩展的；如果贵组织有特定需求，则可以在数据层中包含相应对象以满足这些需求。
 
