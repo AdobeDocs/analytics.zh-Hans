@@ -4,9 +4,9 @@ description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 21b8e21a0f5488e4e8702d5e7538360add1cd621
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1264'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 80%
 
 | 功能 | 描述 | [预定日期](releases.md) |
 | ----------- | ---------- | ------- |
-| 支持XDM中用于边缘收集的列表变量 | 允许客户通过Experience Edge/Web SDK收集数据，以使用XDM指定列表变量内容。 [了解详情](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=en#list-variables-using-the-web-sdk) | 2022 年 8 月 18 日 |
-| 在设置产品字符串变量时，使用XDM for Edge Collection中的SKU字段 | 允许客户通过Experience Edge/Web SDK收集数据，以使用SKU值在产品变量中设置产品字段。 [了解详情](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=en#products-using-the-web-sdk) | 2022 年 8 月 18 日 |
+| 在用于 Edge Collection 的 XDM 中支持列表变量 | 使客户能够通过 Experience Edge/Web SDK 收集数据，以使用 XDM 指定列表变量内容。 [了解详情](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=zh-Hans#list-variables-using-the-web-sdk) | 2022 年 8 月 18 日 |
+| 设置产品字符串变量时在用于 Edge Collection 的 XDM 中使用 SKU 字段 | 使客户能够通过 Experience Edge/Web SDK 收集数据，以使用 SKU 值设置产品变量中的产品字段。 [了解详情](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=zh-Hans#products-using-the-web-sdk) | 2022 年 8 月 18 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -36,13 +36,13 @@ ht-degree: 80%
 
 **适用于单个客户的修复**：
 
-AN-274281、AN-280956、AN-285670、AN-288176、AN-289221、AN-289665、AN-289768、AN-294632、AN-294970、AN-295078、AN-295233、AN-295482、AN-295549、AN-295633、AN-295712、AN-295749、AN-295963、AN-295977、AN-296094、AN-296153、AN-296167、AN-296177、AN-296297、AN-296383、AN-296394、AN-296414、AN-296431、AN-296459、AN-296486、AN-296510、AN-296514、AN-296540、AN-296734、AN-296840、AN-296841、AN-296977、AN-296987、AN-297002、AN-297141、AN-297158、AN-297267、AN-297396、AN-297397、AN-297522、AN-297704、AN-297705、AN-297829、AN-297895;
+AN-274281、AN-280956、AN-285670、AN-288176、AN-289221、AN-289665、AN-289768、AN-294632、AN-294970、AN-295078、AN-295233、AN-295482、AN-295549、AN-295633、AN-295712、AN-295749、AN-295963、AN-295977、AN-296094、AN-296153、AN-296167、AN-296177、AN-296297、AN-296383、AN-296394、AN-296414、AN-296431、AN-296459、AN-296486、AN-296510、AN-296514、AN-296540、AN-296734、AN-296840、AN-296841、AN-296977、AN-296987、AN-297002、AN-297141、AN-297158、AN-297267、AN-297396、AN-297397、AN-297522、AN-297704、AN-297705、AN-297829、AN-297895；
 
 ## Adobe Analytics 管理员的重要注意事项
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| **由于Google客户端提示而更新了设备查找** | 2022 年 8 月 19 日 | 从2022年10月开始，在为来自Chromium浏览器(如Google Chrome和Microsoft Edge)的点击获取某些设备信息时，Adobe将在用户代理之外开始使用客户端提示。 这是对Google逐步减少用户代理字符串中提供的信息，而不是通过客户端提示传递的数据的计划的响应。 阅读有关客户端提示的更多信息 [此处](https://web.dev/user-agent-client-hints/).<p> 到10月，AppMeasurement和Web SDK收集库将支持客户端提示的收集，并配置是否收集到高熵客户端提示。 作为此更改的一部分，Adobe将使用Device Atlas进行与用户代理相关的所有设备查找。 目前，Device Atlas仅用于移动设备点击。 这些更新可能会对以往由用户代理派生的设备信息（特别是浏览器、浏览器类型、操作系统、操作系统类型和移动设备）做出细微更改。 |
+| **由于 Google 客户端提示而更新设备查找** | 2022 年 8 月 19 日 | 从 2022 年 10 月开始，在为来自 Chromium 浏览器（例如 Google Chrome 和 Microsoft Edge）的点击获取某些设备信息时，除了用户代理之外，Adobe 将开始使用客户端提示。这是为了响应 Google 计划以逐步减少用户代理字符串提供的信息，替代通过客户端提示传递的数据。在[此处](https://web.dev/user-agent-client-hints/)详细了解客户端提示。<p> 10 月之前，AppMeasurement 和 Web SDK 集合库都将支持收集客户端提示，并配置是否收集高熵客户端提示。作为此更改的一部分，Adobe 将使用 Device Atlas 进行与用户代理相关的所有设备查找。目前，Device Atlas 仅用于移动点击。这些更新可能会导致从用户代理派生的设备历史信息发生微小变化——特别是浏览器、浏览器类型、操作系统、操作系统类型和移动设备。 |
 | **SFTP 升级** | 2022 年 8 月 12 日 | 之前，我们已告知 Adobe 将在 2022 年 5 月升级其安全文件传输协议 (SFTP) 服务以提高文件传输的安全性。我们已将此升级推迟到 **2022 年 9 月 7 日**。 完成此更改后，将不再支持某些 SFTP 客户端配置。这将仅影响使用 SFTP 发送到 Adobe Analytics 或从其检索的数据，而不影响 FTP 协议。为避免服务中断，请确保您的 SFTP 客户端（代码、工具、服务）与[此处](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=zh-Hans)详述的更改一致。 |
 | **更新到新的 NetAcuity 运营商数据库** | 2022 年 7 月 11 日 | **从 2022 年 10 月开始**，Adobe Analytics Data Warehouse 和 Analytics 数据馈送中存储在 `carrier` 字段中的运营商相关信息将更改。 过去，该列中的数据格式一直是 `<domain>:<ISP>`。 Adobe 维护有内部查找表将这些 `<domain>:<ISP>` 值映射到运营商名称中，以便在 Adobe Analytics 报告工具（Analysis Workspace、Reports &amp; Analytics、报告 API、Data Warehouse、LiveStream 等）中进行报告。 查找文件 (`carrier.tsv`) 也随数据馈送一起提供，以便您能使用相同的映射。<p>此更新通过使用 NetAcuity 提供的更为准确的运营商数据库来增强运营商映射。 数据馈送中运营商列中的数据格式将继续更改。 于 `<domain>:<ISP>` 不同，它将包含运营商名称。 Adobe 将继续使用查找表，以尽可能保持与过去报告的连续性。 Adobe 应用查找的报告工具（Analysis Workspace、Reports &amp; Analytics、报告 API、Data Warehouse、LiveStream 等） 将受益于更精确的映射。 当我们采用新的数据库时，一些映射（尤其是国际域名和 ISP 的映射）将发生更大的变化。 数据馈送运营商查找文件 (`carrier.tsv`) 将维护旧映射并添加新映射。<p>Analytics Source Connector 当前未映射运营商字段，因此运营商报告当前在 AEP、CJA 等中不可用。 因此，使用新的运营商数据库不会影响 AEP 中基于 Analytics Source Connector 提供的数据的任何内容。 |
 | **改进的 IP 到地理位置映射** | 2022 年 7 月 11 日 | 我们的 IP 查找供应商 Digital Element 正在升级到一个新的改进数据集 (NetAcuity Pulse)，用于 IP 到地理位置映射。 Adobe Analytics 将在 **2022 年 10 月**&#x200B;采用此新数据集。 新的数据库将比以前的版本更准确。 当采用新数据库时，一些 IP 到地理位置的映射将发生变化/改进。<p>所有 Adobe Analytics 工具（Analysis Workspace、Reports &amp; Analytics、报告 API、Data Warehouse、LiveStream、数据馈送等） 将自动利用新的改进映射。 数据馈送中的数据格式不会发生变化。 通过 Analytics Source Connector 提供的 CJA 数据也将自动利用新的映射。 |
