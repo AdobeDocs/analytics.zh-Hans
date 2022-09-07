@@ -3,9 +3,9 @@ description: 虚拟报表包可对您的 Adobe Analytics 数据进行分段，�
 title: 虚拟报表包概述
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
-source-wordcount: '790'
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '782'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,6 @@ ht-degree: 100%
 * 通过允许您在所有网站/域中使用单个报表包 ID (RSID) 来简化实施。随着我们向下一代 Adobe Analytics 的过渡，将所有数据放在单个报表包中可实现客户分析。
 * 让贵组织中的业务用户始终只看到与其相关的数据区段。
 * 通过允许管理员用户在实施后更轻松、更精细地控制数据访问来提升安全性。
-* 提供参与设备协作的功能
 * 人员指标
 * 单个客户数据视图（将来会提供）
 * 能够创建不限数量的虚拟报表包以细分数据

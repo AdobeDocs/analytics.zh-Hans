@@ -2,23 +2,19 @@
 title: Cross-Device Analytics
 description: 通过将设备数据拼合在一起，将您的数据从以设备为中心更改为以人员为中心。
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
-workflow-type: ht
-source-wordcount: '883'
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '860'
 ht-degree: 100%
 
 ---
 
-# Cross-Device Analytics
+# 跨设备分析
 
 Cross-Device Analytics 是一项功能，可将 Analytics 从以设备为中心的视图转变为以人员为中心的视图。因此，分析师可以了解跨浏览器、设备或应用程序的用户行为。Adobe 支持使用两个主要工作流程，将设备数据链接在一起：
 
 * [**基于字段的拼接**](field-based-stitching.md)：推荐使用的拼接选项，因为它仅使用确定性匹配将设备联系在一起。使您可选择 Analytics 变量作为在虚拟报表包中进行跨设备拼接的基础。
-* [**设备图**](device-graph.md)：CDA 与设备图进行通信以将设备拼接在一起。协作图使用确定性匹配和概率性匹配。
-
->[!NOTE]
->
->详细了解[设备协作生命周期结束](https://experienceleague.adobe.com/docs/device-co-op/using/about/device-co-op-eol.html?lang=zh-Hans)。
+* [**设备图**](device-graph.md)：CDA 与设备图进行通信以将设备拼接在一起。
 
 通过使用 CDA，您可以回答类似下面的问题：
 

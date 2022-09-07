@@ -5,10 +5,10 @@ subtopic: Visitors
 title: 跨设备连接用户
 feature: Implementation Basics
 exl-id: dfe278db-01de-4bba-b07a-66d52de1dbe2
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '401'
-ht-degree: 100%
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 95%
 
 ---
 
@@ -31,4 +31,4 @@ ht-degree: 100%
 通过使用您自己的自定义访客 ID，您可以更好地控制访客的识别方式，但这同时也存在限制。
 
 * **无法实现访客计数去重**：如果一位访客在首次访问您的网站后进行身份验证，则会计为两个独特访客。其中，会将自动生成的 Analytics ID 计为一个独特访客，并将登录时使用的自定义访客 ID 计为另一个独特访客。每次访客使用新设备或清除其 Cookie 时，都会按这种方式重复计算独特访客数。
-* **与 Experience Cloud ID 服务不兼容**：自从引入跨设备访客识别功能后，Adobe 推出了更强大、更可靠的跨设备访客跟踪方法。这些新的识别方法与自定义访客 ID 覆盖不兼容。如果您计划使用 ID 服务、跨设备分析 (CDA) 或设备协作，Adobe 强烈建议您不要使用 `visitorID` 变量。
+* **与 Experience Cloud ID 服务不兼容**：自从引入跨设备访客识别功能后，Adobe 推出了更强大、更可靠的跨设备访客跟踪方法。这些新的识别方法与自定义访客 ID 覆盖不兼容。如果您计划使用ID服务或跨设备分析(CDA)，强烈建议Adobe不要使用 `visitorID` 变量。

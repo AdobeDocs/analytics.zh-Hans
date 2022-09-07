@@ -4,10 +4,10 @@ title: 模板
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
-source-wordcount: '1410'
-ht-degree: 100%
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '1313'
+ht-degree: 93%
 
 ---
 
@@ -123,19 +123,15 @@ ht-degree: 100%
 
 ### 人员
 
->[!NOTE]
->
->“人员”模板及其关联的“人员”量度只能在 [Adobe Experience Cloud 设备协作](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html?lang=zh-Hans)中使用。
+该模板基于“人员”量度，“人员”量度是删除了重复数据的独特访客量度版本。通过“人员”量度可测量客户使用多个设备与您的品牌进行交互的频率。该模板允许您：
 
-该模板基于“人员”量度，“人员”量度是删除了重复数据的独特访客量度版本。通过“人员”量度可测量客户使用多个设备与您的品牌进行交互的频率。该模板允许您
-
-* 将美国/加拿大的数据与世界其它地区的数据进行分段。该设备协作当前仅在北美地区可用。
-* 横向比较“人员”与“独特访客”量度。
-* 请参阅“压缩率”，该计算量度用于计算“人员”量度小于独特访客的百分比。
+* 将美国/加拿大的数据与世界其他地区的数据进行分段
+* 并排比较“人员”和“独特访客”量度
+* 请参阅“压缩率”，该计算量度用于计算“人员”量度小于独特访客的百分比
 * 比较客户使用的设备类型总数
-* 查看每人使用的平均设备数量。
-* 了解如何对“人员”量度进行分段堆叠。
-* 探索如何在您的环境中使用 Experience Cloud ID 来增强“人员”量度的效率。
+* 查看每人使用的平均设备数
+* 了解如何将区段堆叠与“人员”量度结合使用
+* 探索如何在您的环境中使用Experience CloudID来增强“人员”量度的有效性
 
 ### 历程 IQ：Cross-Device Analytics 模板
 
@@ -143,10 +139,8 @@ ht-degree: 100%
 
 此模板可让您查看重要的跨设备性能数据。它仅适用于有权访问[Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=zh-Hans) (CDA) 的客户。
 
-* **对协作图成员的特别说明**：显示报表包的哪些部分包含支持协作图的区域的访客，以及不支持协作图的区域的访客。
 * **用户标识**：显示使用基于 Cross-Device Analytics 的方法识别网站访客的频率。
 * **测量受众规模**：显示“独特设备”与“人员”的对比。这两个数字的比例称为“跨设备压缩”，该计算量度在此面板中可见。此压缩量度取决于多种因素：
-   * **使用协作图或专用图：**&#x200B;一般而言，使用设备协作的组织往往比使用专用图的组织获得更好的压缩率。
    * **登录率**：登录您网站的用户越多，Adobe 跨设备识别和拼合的访客越多。登录率较低的网站，其压缩率也较低。
    * **Experience Cloud ID 覆盖**：只能拼合拥有 ECID 的访客。使用 ECID 访问您网站的访客百分比越低，则压缩率也越低。
    * **多种设备使用情况**：如果网站的访客不使用多种设备，则压缩率可能较低。

@@ -2,10 +2,10 @@
 title: Cross-Device Analytics 常见问题解答
 description: Cross-Device Analytics 常见问题解答
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
-workflow-type: ht
-source-wordcount: '1934'
-ht-degree: 100%
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '1927'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ CDA 的跨设备拼接发生在两个同时进行的过程中。
 
 * 第二个过程称为“重放”。在重放期间，CDA 回溯过去，如有可能，还重申指定回看时段内的历史数据。回看时段为 1 天或 7 天，具体取决于您要求配置 CDA 的方式。在重放期间，CDA 尝试重申以前认识这个人之处的点击。
 
-* **如果使用设备图**，Adobe 会将协作图和专用图中的设备映射保留大约 6 个月。超过 6 个月无活动的 ECID 将从图表中删除。在 CDA 中已拼合的数据不会受到影响，但该 ECID 的后续点击会被视为新用户的点击。
+* **如果使用设备图**，则Adobe会将设备图映射保留大约6个月。 超过 6 个月无活动的 ECID 将从图表中删除。在CDA中已拼合的数据不会受到影响；该ECID的后续点击将被视为新人员。
 
 ## CDA 如何处理带有时间戳的点击？
 

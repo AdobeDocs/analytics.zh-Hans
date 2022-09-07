@@ -2,9 +2,9 @@
 title: CDA 工作区模板
 description: 描述 Analysis Workspace 内 CDA 模板中的每个字段。
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
-source-git-commit: 48c026d3d5314b20b52edb9b3f04497dc180df37
-workflow-type: ht
-source-wordcount: '439'
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '381'
 ht-degree: 100%
 
 ---
@@ -23,10 +23,8 @@ Adobe 提供一个模板以查看重要的跨设备性能数据。
 
 <!--The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md-->
 
-* **对协作图成员的特别说明**：显示报表包的哪些部分包含的访客位于支持协作图的地区以及哪些部分包含的访客位于不支持协作图的地区。
 * **用户标识**：显示使用基于 Cross-Device Analytics 的方法识别网站访客的频率。
 * **测量受众规模**：显示“独特设备”与“人员”的对比。这两个数字的比例称为“跨设备压缩”，该计算量度在此面板中可见。此压缩量度取决于多种因素：
-   * 使用协作图或专用图：一般而言，使用设备协作的组织往往比使用专用图的组织获得更好的压缩率。
    * 登录率：登录您网站的用户越多，Adobe 跨设备识别和拼合的访客越多。登录率较低的网站，其压缩率也较低。
    * Experience Cloud ID 覆盖：只能拼合拥有 ECID 的访客。使用 ECID 访问您网站的访客百分比越低，则压缩率也越低。
    * 多种设备使用情况：如果网站的访客不使用多种设备，则压缩率可能较低。
