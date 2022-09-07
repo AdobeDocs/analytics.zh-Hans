@@ -4,10 +4,10 @@ title: 快速区段
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 931e9b0bd71abd852c515cd2e7d99dc9ae423a63
+source-git-commit: 40fbff764c7d61f9653f39b49679ea4b5782e96c
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 97%
+source-wordcount: '909'
+ht-degree: 95%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 97%
 ## 保存快速区段
 
 >[!IMPORTANT]
->保存或应用区段后，在快速区段生成器中就无法再编辑它，而只能在常规的区段生成器中编辑它。
+>保存或应用区段后，在快速区段生成器中就无法再编辑它，而只能在常规的区段生成器中编辑它。只有Adobe Analytics产品管理员和快速区段的创建者才能保存对现有快速区段所做的更改。
 
 1. 应用快速区段后，将光标悬停在它上并选择信息（“i”）图标。
 
