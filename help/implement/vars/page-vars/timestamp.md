@@ -3,7 +3,7 @@ title: timestamp
 description: 手动设置点击的时间戳。
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
+source-git-commit: a41fed835b6dcd3979111a7b13eaf33b63a3b2ec
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 81%
@@ -20,7 +20,7 @@ ht-degree: 81%
 
 ## 使用Web SDK的时间戳
 
-时间戳为 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `_experience.analytics.session.timestamp`. 此字段仅支持Unix时间。
+时间戳为 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `xdm.timestamp`. 此字段仅支持Unix时间。
 
 ## 使用Adobe Analytics扩展的时间戳
 
