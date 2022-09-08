@@ -2,10 +2,10 @@
 title: 设置 Cross-Device Analytics
 description: 配置虚拟报表包以启用 CDA。
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
-source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
-workflow-type: ht
-source-wordcount: '533'
-ht-degree: 100%
+source-git-commit: f7106ca52447988c90a3ccac6a1e1cc7514f1fc9
+workflow-type: tm+mt
+source-wordcount: '530'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ CDA 由 Adobe 工程团队在您的跨设备报表包上预配。要开始此过
 
 * 您的 Adobe Experience Cloud 组织 ID（一个以 @AdobeOrg 结尾的字母数字字符串）
 * 希望通过 CDA 启用的跨设备报表包的报表包 ID
-* 希望使用的 CDA 方法（基于字段的拼合、Adobe 专用图或 Adobe 协作图）
+* 要使用哪种CDA方法(基于字段的拼合或Adobe设备图)
 * 如果要使用基于字段的拼合，请提供包含用户 ID 的 prop 或 eVar
 * 您对于重放频率和回看时长的首选项。选项包括每周重放一次且回看时段为 7 天或每天重放一次且回看时段为 1 天。
 默认为每周重放一次且回看时段为 7 天。在此情况下，上周内的数据可能会发生变化（因为它正在逐步拼合和更新）。
