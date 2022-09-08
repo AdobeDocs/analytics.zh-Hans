@@ -3,10 +3,10 @@ title: transactionID
 description: 使用此变量将在线和离线数据链接在一起。
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: e42c125da0c48ff01267e3a18aaec8374652809e
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 92%
+source-wordcount: '426'
+ht-degree: 89%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 92%
 当您在点击上设置 `transactionID` 时，Adobe 会及时拍摄在该时间点设置或持久保留的所有 Analytics 变量的快照。通过数据源上传且具有匹配交易 ID 的数据将会永久绑定到这些变量值。
 
 默认情况下，Adobe 最多可在 90 天内记住所有交易 ID 值（已链接和未链接）。如果离线互动过程的时间超过 90 天，请联系客户关怀延长该期限。
+
+## 使用Web SDK的交易ID
+
+交易ID为 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `commerce.order.transactionID`.
 
 ## 使用Adobe Analytics扩展的交易ID
 
