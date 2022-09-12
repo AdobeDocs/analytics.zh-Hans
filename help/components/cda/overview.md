@@ -3,19 +3,19 @@ title: Cross-Device Analytics
 description: 通过将设备数据拼合在一起，将您的数据从以设备为中心更改为以人员为中心。
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 source-git-commit: 9c9322647145832503e4a5875789e9cf7e9a2397
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '860'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# 跨设备分析
+# Cross-Device Analytics
 
-跨设备分析(CDA)是一项功能，可将Analytics从以设备为中心的视图转变为以人员为中心的视图。 因此，分析师可以了解跨浏览器、设备或应用程序的用户行为。Adobe 支持使用两个主要工作流程，将设备数据链接在一起：
+跨设备分析 (CDA) 是一项功能，可将 Analytics 从以设备为中心的视图转变为以人员为中心的视图。 因此，分析师可以了解跨浏览器、设备或应用程序的用户行为。Adobe 支持使用两个主要工作流程，将设备数据链接在一起：
 
 * [**基于字段的拼接**](field-based-stitching.md)：推荐使用的拼接选项，因为它仅使用确定性匹配将设备联系在一起。使您可选择 Analytics 变量作为在虚拟报表包中进行跨设备拼接的基础。
 
-* [**设备图**](device-graph.md):CDA与专用图进行通信，以便将设备拼合在一起。
+* [**设备图**](device-graph.md)：CDA 与专用图通信以将设备拼接在一起。
 
 通过使用 CDA，您可以回答类似下面的问题：
 
@@ -36,7 +36,7 @@ ht-degree: 93%
 使用 CDA 需要满足以下所有条件。[基于字段的拼合](field-based-stitching.md)以及[设备图](device-graph.md)方法还有其各自的特定先决条件。
 
 * 必须与 Adobe 签订有关 Adobe Analytics Ultimate 的合同。
-* 贵组织会选择要启用CDA的报表包。 Adobe建议使用包含跨设备数据的报表包，即来自多种设备/浏览器/应用程序类型的数据。 某些组织将此概念称为“全球”报表包，尽管从地理角度来说，CDA 并不一定包含严格意义上的全球范围。
+* 您的组织选择要启用 CDA 的报告包。 Adobe 建议报告包包含跨设备数据，这表示数据来自多种设备/浏览器/应用程序类型。 某些组织将此概念称为“全球”报表包，尽管从地理角度来说，CDA 并不一定包含严格意义上的全球范围。
 
 ## 限制
 
