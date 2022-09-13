@@ -3,10 +3,10 @@ title: 产品
 description: 发送有关所显示产品或购物车中产品的数据。
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
+source-git-commit: 5b426c0cc6f0a30c167f35d96fa1498ac0961c3e
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 73%
+source-wordcount: '632'
+ht-degree: 71%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 73%
 * 数量已映射到 `productListItems[].quantity`.
 * 价格已映射到 `productListItems[].priceTotal`.
 * 促销eVar被映射到 `productListItems._experience.analytics.customDimensions.eVars.eVar1` to `productListItems._experience.analytics.customDimensions.eVars.eVar250`，具体取决于您要绑定到产品的eVar。
-* 促销事件被映射到 `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems._experience.analytics.event901to1000.event1000.value`，具体取决于您要绑定到产品的事件。
+* 促销事件被映射到 `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems._experience.analytics.event901to1000.event1000.value`，具体取决于您要绑定到产品的事件。 如果在其中一个字段中设置事件，则该事件会自动包含在 [事件](events/events-overview.md) 字符串。
 
 >[!NOTE]
 >
->`lineItemId` 需要作为自定义字段进行添加，因为它尚未纳入标准Analytics事件架构。 Adobe计划将来添加一个专用的“类别”字段。
+>`lineItemId` 必须作为自定义字段进行添加，因为它尚未成为标准Analytics事件架构的一部分。 Adobe计划将来添加一个专用的“类别”字段。
 
 ## 使用Adobe Analytics扩展的产品
 
