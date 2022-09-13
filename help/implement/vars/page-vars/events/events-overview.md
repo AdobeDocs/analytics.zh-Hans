@@ -3,10 +3,10 @@ title: events
 description: 设置事件变量，该变量可控制网站上的大多数量度。
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: 5e71564e3aade426d84a039a6864d441d165345a
+source-git-commit: 48f840f3f15702761a453763e7c416a67bcb687b
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 84%
+source-wordcount: '809'
+ht-degree: 79%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 84%
 
 * 自定义事件1-100已映射到 `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
 * 自定义事件101-200已映射到 `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
-* 此模式每100个事件重复一次， `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` 用于指定值。 `eventx.id` 用于指定要序列化的id。
+* 此模式每100个事件重复一次， `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` 用于指定增量。 `eventx.id` 用于 [序列化](event-serialization.md).
 * 订单已映射到 `commerce.purchases.value`.
 * 单位被映射到所有 `productListItems[].quantity` 字段。
 * 收入会映射到所有 `productListItems[].priceTotal` 字段。
@@ -32,6 +32,10 @@ ht-degree: 84%
 * 购物车减货已映射到 `commerce.productListRemovals.value`.
 * 购物车查看次数被映射到 `commerce.productListViews.value`.
 * 结帐已映射到 `commerce.checkouts.value`.
+
+>[!NOTE]
+>
+>如果在 `productListItems` (例如， `productListItems._experience.analytics.event1.value`)且该事件尚未在此字段中，则会自动将该事件添加到此字段。
 
 ## 使用Adobe Analytics扩展的事件
 
@@ -49,7 +53,7 @@ ht-degree: 84%
 * 允许您选择要包括的事件的下拉列表
 * 用于序列化的可选文本字段。请参阅[事件序列化](event-serialization.md)以了解更多信息。
 * 用于事件值的可选文本字段。您可以包含货币（货币事件）或整数（非货币事件）以使其多次递增。例如，在下拉列表下选择 `event1` 并在此字段中包含 `10`，报表中的 `event1` 将以 10 为单位进行递增。
-* 用于添加其他事件的按钮。对于可包含在点击中的事件数，没有相应的限制。
+* 用于添加其他事件的按钮。您可以根据需要向单个规则添加任意数量的事件。
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.events
 
