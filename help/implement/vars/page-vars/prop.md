@@ -3,10 +3,10 @@ title: prop
 description: 可在实施中使用的自定义变量。
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 5df83f1614d9d17146873a5b5214636691ec87ab
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 89%
+source-wordcount: '603'
+ht-degree: 73%
 
 ---
 
@@ -24,7 +24,7 @@ Prop 是自定义变量，您可以根据需要随意使用。它们不会在设
 
 ## 使用Web SDK的Prop
 
-Prop是 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `_experience.analytics.customDimensions.props.prop1` to `_experience.analytics.customDimensions.props.prop75`.
+Prop是 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `_experience.analytics.customDimensions.props.prop1` to `_experience.analytics.customDimensions.props.prop75`. 列表属性在单独的字段集中指定。
 
 ## 使用Adobe Analytics扩展的Prop
 
@@ -53,13 +53,17 @@ s.prop1 = "Example custom value";
 
 ### 配置列表属性
 
-在报表包设置中启用列表属性。请参阅《管理员用户指南》中的[流量变量](/help/admin/admin/c-traffic-variables/traffic-var.md)。确保正确配置所需的分隔符。Adobe 不提供默认分隔符。
+在中启用列表属性 [流量变量](/help/admin/admin/c-traffic-variables/traffic-var.md) 下。 确保正确配置所需的分隔符。Adobe 不提供默认分隔符。
 
 >[!TIP]
 >
->实施中使用的常见分隔符为逗号 (`,`)、冒号 (`:`)、分号 (`;`) 或管道字符 (`|`)。您可以使用最适合您的实施的任何分隔符。
+>实施中使用的常见分隔符为逗号 (`,`)、冒号 (`:`)、分号 (`;`) 或管道字符 (`|`)。您可以使用最适合您的实施的任何非扩展ASCII分隔符。
 
-### 设置列表属性
+### 使用Web SDK设置列表属性
+
+在报表包设置中使用所需的分隔符配置列表属性后，将在 `_experience.analytics.customDimensions.listProps.prop1.values[]` to `_experience.analytics.customDimensions.listProps.prop75.values[]`. Web SDK会自动使用报表包设置下列出的正确分隔符。 如果在XDM字段中设置分隔符(例如， `_experience.analytics.customDimensions.props.prop1.delimiter`)，会覆盖从报表包设置自动检索到的分隔符，并且可能导致对列表属性字符串的解析不正确。
+
+### 使用Adobe Analytics扩展和AppMeasurement设置列表属性
 
 在报表包设置中使用所需的分隔符配置列表属性后，除了使用分隔符外，没有任何其他实施差异。
 
