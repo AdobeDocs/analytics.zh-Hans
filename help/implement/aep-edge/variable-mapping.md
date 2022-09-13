@@ -2,10 +2,10 @@
 title: Adobe Experience Edge 中的 Analytics 变量映射
 description: 查看 Edge 自动映射到 Analytics 变量的 XDM 字段。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: e42c125da0c48ff01267e3a18aaec8374652809e
-workflow-type: ht
-source-wordcount: '1386'
-ht-degree: 100%
+source-git-commit: 610cab7cf71f178af2166133728e9152f0175c47
+workflow-type: tm+mt
+source-wordcount: '1398'
+ht-degree: 99%
 
 ---
 
@@ -16,15 +16,15 @@ ht-degree: 100%
 | XDM 字段路径 | Analytics 维度和描述 |
 | --- | --- |
 | `application.isClose` | 帮助定义移动量度[崩溃](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#metrics)。 |
-| `application.isInstall` | 帮助确定何时增加[首次发布](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#metrics)移动量度。 |
-| `application.isLaunch` | 帮助确定何时增加[首次发布](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#metrics)移动量度。 |
-| `application.closeType` | 确定关闭事件是否为崩溃。 有效值包括 `close`（生命周期会话结束，前一个会话收到暂停事件）和 `unknown`（生命周期会话结束，没有暂停事件）。 帮助设定[崩溃](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#metrics)量度。 |
-| `application.isInstall` | 移动量度[安装](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#metrics)。 |
-| `application.isLaunch` | 移动量度[发布](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#metrics)。 |
+| `application.isInstall` | 帮助确定何时增加[首次发布](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)移动量度。 |
+| `application.isLaunch` | 帮助确定何时增加[首次发布](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)移动量度。 |
+| `application.closeType` | 确定关闭事件是否为崩溃。 有效值包括 `close`（生命周期会话结束，前一个会话收到暂停事件）和 `unknown`（生命周期会话结束，没有暂停事件）。 帮助设定[崩溃](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)量度。 |
+| `application.isInstall` | 移动量度[安装](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
+| `application.isLaunch` | 移动量度[发布](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
 | `application.name` | 帮助设置移动维度 [App ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#dimensions)。 |
-| `application.isUpgrade` | 移动量度[升级](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#metrics)。 |
-| `application.version` | 帮助设置移动维度 [App ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#dimensions)。 |
-| `application.sessionLength` | 移动量度[上一个会话长度](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#metrics)。 |
+| `application.isUpgrade` | 移动量度[升级](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
+| `application.version` | 帮助设置移动维度 [App ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
+| `application.sessionLength` | 移动量度[上一个会话长度](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
 | `commerce.checkouts.id` | 将[事件序列化](../vars/page-vars/events/event-serialization.md)应用于[“结账”](../../components/metrics/checkouts.md)量度。 |
 | `commerce.checkouts.value` | 按所需的量增加[“结账”](../../components/metrics/checkouts.md) 量度。 |
 | `commerce.order.currencyCode` | 设置 [currencyCode](../vars/config-vars/currencycode.md) 配置变量。 |
@@ -41,7 +41,7 @@ ht-degree: 100%
 | `commerce.productViews.id` | 将[事件序列化](../vars/page-vars/events/event-serialization.md)应用于[“产品查看”](../../components/metrics/product-views.md)量度。 |
 | `commerce.productViews.value` | 增加[“产品查看次数”](../../components/metrics/product-views.md) 量度。 |
 | `commerce.purchases.value` | 增加[“订单”](../../components/metrics/orders.md) 量度。 |
-| `device.model` | 移动维度 [设备名称](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#dimensions)。 |
+| `device.model` | 移动维度 [设备名称](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
 | `device.colorDepth` | 帮助设置 [“颜色深度”](../../components/dimensions/color-depth.md) 维度。 |
 | `device.screenHeight` | 帮助设置移动维度 [“监测器分辨率”](../../components/dimensions/monitor-resolution.md) 维度。 |
 | `device.screenWidth` | 帮助设置移动维度 [“监测器分辨率”](../../components/dimensions/monitor-resolution.md) 维度。 |
@@ -52,12 +52,12 @@ ht-degree: 100%
 | `environment.browserDetails.userAgent` | 用作后备的[独特访客](../../components/metrics/unique-visitors.md)识别方法。 通常使用 `User-Agent` HTTP 请求头填充。 如果要在报告中使用此字段，可以将其映射到 eVar。 |
 | `environment.browserDetails.viewportHeight` | 设置 [“浏览器高度”](../../components/dimensions/browser-height.md) 维度。 |
 | `environment.browserDetails.viewportWidth` | 设置 [“浏览器宽度”](../../components/dimensions/browser-width.md) 维度。 |
-| `environment.carrier` | 移动维度[“运营商名称”](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#dimensions)。 |
+| `environment.carrier` | 移动维度[“运营商名称”](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
 | `environment.connectionType` | 帮助设置 [“连接类型”](../../components/dimensions/connection-type.md) 维度。 |
 | `environment.ipV4` | 用作后备的[独特访客 ](../../components/metrics/unique-visitors.md) 识别方法。 通常使用 `X-Forwarded-For` HTTP 头填充。 |
 | `environment.language` | 移动维度区域设置。 |
-| `environment.operatingSystem` | 移动维度[操作系统](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#dimensions)。 |
-| `environment.operatingSystemVersion` | 帮助设置[操作系统版本](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#dimensions)维度。 |
+| `environment.operatingSystem` | 移动维度[操作系统](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
+| `environment.operatingSystemVersion` | 帮助设置[操作系统版本](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)维度。 |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | 设置相应的 [eVar](../../components/dimensions/evar.md) 维度。 |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 用于给定 [List Prop](../vars/page-vars/prop.md#list-props) 的分隔符。 |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | 一个字符串数组，包含相应的 [List Prop](../vars/page-vars/prop.md#list-props) 值。 |
@@ -106,6 +106,7 @@ ht-degree: 100%
 | `placeContext.geo.longitude` | 移动维度”经度“。 |
 | `placeContext.geo.postalCode` | [“邮政编码”](../../components/dimensions/zip-code.md) 维度。 |
 | `placeContext.geo.stateProvince` | [“美国”](../../components/dimensions/us-states.md) 维度。 |
+| `placeContext.localTime` | 帮助填充 [时区](/help/analyze/reports-analytics/reports.md) 中。 显示为 `t_time_info` in [数据馈送](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1` -<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | 将[产品语法](../vars/page-vars/products.md)促销应用于 eVar。 |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value` -<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | 将[产品语法](../vars/page-vars/products.md)促销应用于事件。 |
 | `productListItems[].lineItemId` | [“类别”](../../components/dimensions/category.md) 维度。另请参阅[产品](../vars/page-vars/products.md)页面变量。 |
