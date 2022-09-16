@@ -4,10 +4,10 @@ subtopic: Processing rules
 title: 处理规则的提示和技巧
 feature: Processing Rules
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
-source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: ht
-source-wordcount: '490'
-ht-degree: 100%
+source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 95%
 
 ---
 
@@ -60,3 +60,9 @@ ht-degree: 100%
 选择正确的匹配条件以查找正确匹配的最严格条件。您可以在创建规则前在报表中搜索值，以确保不会出现意外匹配。例如，在启用此规则前，应搜索 Prop2 报表以查找匹配此条件的所有位置。
 
 ![](assets/tips-startswith.png)
+
+## 使用 VISTA 复制点击量时如何应用处理规则
+
+如果配置了 VISTA 规则以将点击次数复制到另一报表包，则将通过在该报表包中定义的任何处理规则发送点击次数。
+
+如果您在原始报表包上定义了处理规则，则这些规则可能会应用，也可能不会应用，具体取决于工程服务部门配置VISTA规则的方式。 若要确定是否应用了这些规则，您可以询问实施专家 VISTA 规则是将“pre”值还是“post”值复制到了其他报表包中。如果复制的是“pre”值，则不会应用初始报表包中定义的处理规则。如果复制的是“post”值，则会在复制点击量前应用处理规则。

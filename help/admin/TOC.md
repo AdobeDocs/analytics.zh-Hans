@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等等。
-source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
+source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '671'
 ht-degree: 100%
 
 ---
@@ -62,7 +62,6 @@ ht-degree: 100%
       + [处理规则概述](admin/c-processing-rules/processing-rules.md)
       + 处理规则配置{#processing-rules-configuration}
          + [处理规则的工作原理](admin/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
-         + [处理顺序](admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
          + [创建处理规则](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
          + [查看活动处理规则](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
          + [查看处理规则历史记录](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
