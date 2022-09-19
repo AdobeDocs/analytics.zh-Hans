@@ -3,16 +3,16 @@ title: SFTP 服务升级 — 常见问题解答
 description: 有关计划中的SFTP服务升级的常见问题解答。
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
-source-git-commit: 4edae431cf4bca1c3e7d7c1017bbc4a89b0e1d7f
+source-git-commit: d16d97673c33203afa60599da733425b04f84660
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 89%
 
 ---
 
 # SFTP 服务升级 — 常见问题解答
 
-2022年9月中下旬，Adobe Analytics将升级其安全文件传输协议 [SFTP] 服务，以便为文件传输提供改进的安全性。 作出此更改后，将不再支持某些 SFTP 客户端配置。这仅会影响使用SFTP发送到Adobe Analytics或从Analytics检索到的数据。 而不影响 FTP 协议。为避免服务中断，请确保您的 SFTP 客户端（代码、工具、服务）与下文详述的更改一致。
+2022年9月20日，Adobe Analytics将升级其安全文件传输协议 [SFTP] 服务，以便为文件传输提供改进的安全性。 作出此更改后，将不再支持某些 SFTP 客户端配置。这仅会影响使用SFTP发送到Adobe Analytics或从Analytics检索到的数据。 而不影响 FTP 协议。为避免服务中断，请确保您的 SFTP 客户端（代码、工具、服务）与下文详述的更改一致。
 
 ## 如何确定我所在的组织当前使用何种算法、连接类型和协议？
 
