@@ -3,9 +3,9 @@ title: Adobe Experience Edge 中的 Analytics 变量映射
 description: 查看 Edge 自动映射到 Analytics 变量的 XDM 字段。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 source-git-commit: 47a5f891f2769a97936a3809c3615374b0045bd4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1441'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -16,15 +16,15 @@ ht-degree: 95%
 | XDM 字段路径 | Analytics 维度和描述 |
 | --- | --- |
 | `application.isClose` | 帮助定义移动量度[崩溃](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#metrics)。 |
-| `application.isInstall` | 帮助确定何时增加[首次发布](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)移动量度。 |
-| `application.isLaunch` | 帮助确定何时增加[首次发布](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)移动量度。 |
-| `application.closeType` | 确定关闭事件是否为崩溃。 有效值包括 `close`（生命周期会话结束，前一个会话收到暂停事件）和 `unknown`（生命周期会话结束，没有暂停事件）。 帮助设定[崩溃](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)量度。 |
-| `application.isInstall` | 移动量度[安装](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
-| `application.isLaunch` | 移动量度[发布](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
+| `application.isInstall` | 帮助确定何时增加[首次发布](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#metrics)移动量度。 |
+| `application.isLaunch` | 帮助确定何时增加[首次发布](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#metrics)移动量度。 |
+| `application.closeType` | 确定关闭事件是否为崩溃。 有效值包括 `close`（生命周期会话结束，前一个会话收到暂停事件）和 `unknown`（生命周期会话结束，没有暂停事件）。 帮助设定[崩溃](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#metrics)量度。 |
+| `application.isInstall` | 移动量度[安装](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#metrics)。 |
+| `application.isLaunch` | 移动量度[发布](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#metrics)。 |
 | `application.name` | 帮助设置移动维度 [App ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#dimensions)。 |
-| `application.isUpgrade` | 移动量度[升级](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
-| `application.version` | 帮助设置移动维度 [App ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
-| `application.sessionLength` | 移动量度[上一个会话长度](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
+| `application.isUpgrade` | 移动量度[升级](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#metrics)。 |
+| `application.version` | 帮助设置移动维度 [App ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#dimensions)。 |
+| `application.sessionLength` | 移动量度[上一个会话长度](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#metrics)。 |
 | `commerce.checkouts.id` | 将[事件序列化](../vars/page-vars/events/event-serialization.md)应用于[“结账”](../../components/metrics/checkouts.md)量度。 |
 | `commerce.checkouts.value` | 按所需的量增加[“结账”](../../components/metrics/checkouts.md) 量度。 |
 | `commerce.order.currencyCode` | 设置 [currencyCode](../vars/config-vars/currencycode.md) 配置变量。 |
@@ -41,7 +41,7 @@ ht-degree: 95%
 | `commerce.productViews.id` | 将[事件序列化](../vars/page-vars/events/event-serialization.md)应用于[“产品查看”](../../components/metrics/product-views.md)量度。 |
 | `commerce.productViews.value` | 增加[“产品查看次数”](../../components/metrics/product-views.md) 量度。 |
 | `commerce.purchases.value` | 增加[“订单”](../../components/metrics/orders.md) 量度。 |
-| `device.model` | 移动维度 [设备名称](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
+| `device.model` | 移动维度 [设备名称](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#dimensions)。 |
 | `device.colorDepth` | 帮助设置 [“颜色深度”](../../components/dimensions/color-depth.md) 维度。 |
 | `device.screenHeight` | 帮助设置移动维度 [“监测器分辨率”](../../components/dimensions/monitor-resolution.md) 维度。 |
 | `device.screenWidth` | 帮助设置移动维度 [“监测器分辨率”](../../components/dimensions/monitor-resolution.md) 维度。 |
@@ -52,16 +52,16 @@ ht-degree: 95%
 | `environment.browserDetails.userAgent` | 用作后备的[独特访客](../../components/metrics/unique-visitors.md)识别方法。 通常使用 `User-Agent` HTTP 请求头填充。 如果要在报告中使用此字段，可以将其映射到 eVar。 |
 | `environment.browserDetails.viewportHeight` | 设置 [“浏览器高度”](../../components/dimensions/browser-height.md) 维度。 |
 | `environment.browserDetails.viewportWidth` | 设置 [“浏览器宽度”](../../components/dimensions/browser-width.md) 维度。 |
-| `environment.carrier` | 移动维度[“运营商名称”](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
+| `environment.carrier` | 移动维度[“运营商名称”](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#dimensions)。 |
 | `environment.connectionType` | 帮助设置 [“连接类型”](../../components/dimensions/connection-type.md) 维度。 |
 | `environment.ipV4` | 用作后备的[独特访客 ](../../components/metrics/unique-visitors.md) 识别方法。 通常使用 `X-Forwarded-For` HTTP 头填充。 |
 | `environment.language` | 移动维度区域设置。 |
-| `environment.operatingSystem` | 移动维度[操作系统](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
-| `environment.operatingSystemVersion` | 帮助设置[操作系统版本](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)维度。 |
+| `environment.operatingSystem` | 移动维度[操作系统](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#dimensions)。 |
+| `environment.operatingSystemVersion` | 帮助设置[操作系统版本](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#dimensions)维度。 |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | 设置相应的 [eVar](../../components/dimensions/evar.md) 维度。 |
-| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 列表属性分隔符覆盖。 不建议使用此字段，因为分隔符将自动从 [流量变量管理](/help/admin/admin/c-traffic-variables/traffic-var.md) 下。 使用此字段可能会在使用的分隔符与Analytics预期的分隔符之间产生不匹配的情况。 |
+| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 列表属性分隔符覆盖。不建议使用此字段，因为会从报告包设置下的[流量变量管理](/help/admin/admin/c-traffic-variables/traffic-var.md)中自动检索分隔符。使用此字段可能会导致使用的分隔符与 Analytics 需要的分隔符不匹配。 |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | 一个字符串数组，包含相应的 [List Prop](../vars/page-vars/prop.md#list-props) 值。 |
-| `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | 将每个`list[]`数组中的所有`value`字符串连接到其各自的[列表变量](../vars/page-vars/list.md)。分隔符是根据 [报表包设置](/help/admin/admin/conversion-var-admin/list-var-admin.md). |
+| `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | 将每个 `list[]` 数组中的所有 `value` 字符串连接到其各自的[列表变量](../vars/page-vars/list.md)。分隔符是根据[报告包设置](/help/admin/admin/conversion-var-admin/list-var-admin.md)中的值集自动选择的。 |
 | `_experience.analytics.customDimensions.`<br/>`props.prop1` -<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | 设置相应的 [Prop](../../components/dimensions/prop.md) 维度。 |
 | `_experience.analytics.event1to100.`<br/>`event1.id` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | 将[事件序列化](../vars/page-vars/events/event-serialization.md)应用于相应的[自定义事件](../../components/metrics/custom-events.md)量度。 |
 | `_experience.analytics.event1to100.`<br/>`event1.value` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | 按所需的量增加相应的[自定义事件](../../components/metrics/custom-events.md)量度。 |
@@ -106,7 +106,7 @@ ht-degree: 95%
 | `placeContext.geo.longitude` | 移动维度”经度“。 |
 | `placeContext.geo.postalCode` | [“邮政编码”](../../components/dimensions/zip-code.md) 维度。 |
 | `placeContext.geo.stateProvince` | [“美国”](../../components/dimensions/us-states.md) 维度。 |
-| `placeContext.localTime` | 帮助填充 [时区](/help/analyze/reports-analytics/reports.md) 中。 显示为 `t_time_info` in [数据馈送](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
+| `placeContext.localTime` | 在 Reports &amp; Analytics 中帮助填充[时区](/help/analyze/reports-analytics/reports.md)。在[数据馈送](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)中显示为 `t_time_info`。 |
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1` -<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | 将[产品语法](../vars/page-vars/products.md)促销应用于 eVar。 |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value` -<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | 将[产品语法](../vars/page-vars/products.md)促销应用于事件。 |
 | `productListItems[].lineItemId` | [“类别”](../../components/dimensions/category.md) 维度。另请参阅[产品](../vars/page-vars/products.md)页面变量。 |
