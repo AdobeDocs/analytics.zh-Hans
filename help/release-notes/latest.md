@@ -3,16 +3,16 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 1622f69e4d2a19d72e5748d165567d0bf7c5f83c
+source-git-commit: 835898b2a4c060f2e0202d79c58c73d4928c330d
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 100%
+source-wordcount: '1311'
+ht-degree: 99%
 
 ---
 
 # 当前 Adobe Analytics 发行说明（2022 年 9 月）
 
-**上次更新日期**：2022 年 9 月 14 日
+**上次更新日期**：2022 年 9 月 19 日
 
 ## 相关资源
 
@@ -41,9 +41,9 @@ AN-288519；AN-289300；AN-297387；AN-297465；AN-297520；AN-297641；AN-29813
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
+| **SFTP 升级** | 2022 年 9 月 19 日 | 之前，Adobe 已告知 Adobe 将在 2022 年 9 月升级其安全文件传输协议 (SFTP) 服务以提高文件传输的安全性。Adobe已将此升级推迟到 **2022年9月20日**. 进行此更改后，不再支持某些 SFTP 客户端配置。这将仅影响使用 SFTP 发送到 Adobe Analytics 或从其检索的数据，而不影响 FTP 协议。为避免服务中断，请确保您的 SFTP 客户端（代码、工具、服务）与[此处](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=zh-Hans)详述的更改一致。 |
 | **更改了 Analytics 如何处理通过 Experience Edge 收集的 A4T 数据** | 2022 年 9 月 14 日 | 2022 年 3 月，Analytics 更改了如何处理包括 A4T 数据的某些来自 Experience Edge 的调用。修改了带 A4T 报表内容的点击，以使其不被视为页面查看 (`t()`) 或链接跟踪 (`tl()`) 事件。此逻辑现已更新以包括其中未按预期修改 `propositionDisplay` 事件的情况。 |
 | **Web SDK 中列表变量和列表属性的自动分隔符** | 2022 年 9 月 14 日 | 列表变量和列表属性现在使用报告包设置中指定的分隔符，除非在 XDM 中指定了分隔符覆盖。有关详细信息，请参阅[列表](/help/implement/vars/page-vars/list.md)变量。 |
-| **SFTP 升级** | 2022 年 9 月 14 日 | 之前，Adobe 已告知 Adobe 将在 2022 年 9 月升级其安全文件传输协议 (SFTP) 服务以提高文件传输的安全性。Adobe 已将此升级推迟到 **2022 年 9 月中下旬**。进行此更改后，不再支持某些 SFTP 客户端配置。这将仅影响使用 SFTP 发送到 Adobe Analytics 或从其检索的数据，而不影响 FTP 协议。为避免服务中断，请确保您的 SFTP 客户端（代码、工具、服务）与[此处](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=zh-Hans)详述的更改一致。 |
 | **Data Workbench 的生命周期结束日期** | 2022 年 9 月 14 日 | Adobe 打算在 **2023 年 12 月 31 日**&#x200B;结束 Data Workbench 的生命周期。如果您有任何问题，请联系您的客户关怀代表以获取 Data Workbench 的替代解决方案。 |
 | **由于 Google 客户端提示而更新设备查找** | 2022 年 9 月 14 日 | 从 **2022 年 9 月 29 日**&#x200B;开始，根据来自 Chromium 浏览器（如 Google Chrome 和 Microsoft Edge）的点击得出某些设备信息时，除了使用用户代理之外，Adobe 还开始使用客户端提示。这是为了响应 Google 计划以逐步减少用户代理字符串提供的信息，替代通过客户端提示传递的数据。在[此处](https://web.dev/user-agent-client-hints/)详细了解客户端提示。<p> 10 月之前，AppMeasurement 和 Web SDK 集合库都将支持收集客户端提示，并配置是否收集高熵客户端提示。作为此更改的一部分，Adobe 将使用 Device Atlas 进行与用户代理相关的所有设备查找。目前，Device Atlas 仅用于移动点击。这些更新可能会导致从用户代理派生的设备历史信息发生微小变化——特别是浏览器、浏览器类型、操作系统、操作系统类型和移动设备。 |
 | **更新到新的 NetAcuity 网络运营商数据库** | 2022 年 9 月 14 日 | **从 2022 年 10 月 5 日开始**，存储在 Adobe Analytics Data Warehouse 和 Analytics 数据馈送中的 `carrier` 字段中的与网络运营商相关的信息将变更。过去，该列中的数据格式一直是 `<domain>:<ISP>`。Adobe 维护有内部查找表将这些 `<domain>:<ISP>` 值映射到运营商名称中，以便在 Adobe Analytics 报告工具（Analysis Workspace、Reports &amp; Analytics、报告 API、Data Warehouse、LiveStream 等）中进行报告。查找文件 (`carrier.tsv`) 也随数据馈送一起提供，以便您能使用相同的映射。<p>此更新通过使用 NetAcuity 提供的更为准确的运营商数据库来增强运营商映射。 数据馈送中运营商列中的数据格式将继续更改。 于 `<domain>:<ISP>` 不同，它将包含运营商名称。 Adobe 将继续使用查找表，以尽可能保持与过去报告的连续性。 Adobe 应用查找的报告工具（Analysis Workspace、Reports &amp; Analytics、报告 API、Data Warehouse、LiveStream 等） 将受益于更精确的映射。 当 Adobe 采用新的数据库时，一些映射（尤其是国际域名和 ISP 的映射）将发生更大的变化。数据馈送运营商查找文件 (`carrier.tsv`) 将维护旧映射并添加新映射。<p>Analytics Source Connector 当前未映射运营商字段，因此运营商报告当前在 Experience Platform、CJA 等中不可用。因此，使用新的运营商数据库不会影响 Experience Platform 中基于 Analytics Source Connector 提供的数据的任何内容。 |
