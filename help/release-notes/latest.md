@@ -4,9 +4,9 @@ description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 835898b2a4c060f2e0202d79c58c73d4928c330d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1311'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ AN-288519；AN-289300；AN-297387；AN-297465；AN-297520；AN-297641；AN-29813
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| **SFTP 升级** | 2022 年 9 月 19 日 | 之前，Adobe 已告知 Adobe 将在 2022 年 9 月升级其安全文件传输协议 (SFTP) 服务以提高文件传输的安全性。Adobe已将此升级推迟到 **2022年9月20日**. 进行此更改后，不再支持某些 SFTP 客户端配置。这将仅影响使用 SFTP 发送到 Adobe Analytics 或从其检索的数据，而不影响 FTP 协议。为避免服务中断，请确保您的 SFTP 客户端（代码、工具、服务）与[此处](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=zh-Hans)详述的更改一致。 |
+| **SFTP 升级** | 2022 年 9 月 19 日 | 此前，Adobe 曾表示将于 2022 年 9 月升级其安全文件传输协议 (SFTP) 服务，以提高文件传输的安全性。Adobe 已将此次升级推迟至 **2022 年 9 月 20 日**。进行此更改后，不再支持某些 SFTP 客户端配置。这将仅影响使用 SFTP 发送到 Adobe Analytics 或从其检索的数据，而不影响 FTP 协议。为避免服务中断，请确保您的 SFTP 客户端（代码、工具、服务）与[此处](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=zh-Hans)详述的更改一致。 |
 | **更改了 Analytics 如何处理通过 Experience Edge 收集的 A4T 数据** | 2022 年 9 月 14 日 | 2022 年 3 月，Analytics 更改了如何处理包括 A4T 数据的某些来自 Experience Edge 的调用。修改了带 A4T 报表内容的点击，以使其不被视为页面查看 (`t()`) 或链接跟踪 (`tl()`) 事件。此逻辑现已更新以包括其中未按预期修改 `propositionDisplay` 事件的情况。 |
 | **Web SDK 中列表变量和列表属性的自动分隔符** | 2022 年 9 月 14 日 | 列表变量和列表属性现在使用报告包设置中指定的分隔符，除非在 XDM 中指定了分隔符覆盖。有关详细信息，请参阅[列表](/help/implement/vars/page-vars/list.md)变量。 |
 | **Data Workbench 的生命周期结束日期** | 2022 年 9 月 14 日 | Adobe 打算在 **2023 年 12 月 31 日**&#x200B;结束 Data Workbench 的生命周期。如果您有任何问题，请联系您的客户关怀代表以获取 Data Workbench 的替代解决方案。 |
