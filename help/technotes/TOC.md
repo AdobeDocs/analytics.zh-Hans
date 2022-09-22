@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 技术说明
 breadcrumb-title: 技术说明
 user-guide-description: 包含不属于特定分析工具或组件的有用文章的知识库。
-source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
+source-git-commit: b99852f4b8e0a3034ea8965e5646b1ab2f1a8c4c
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 100%
+source-wordcount: '201'
+ht-degree: 99%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 100%
    + [将日期与先前的范围进行比较](event/compare-dates.md)
    + [派生受事件影响的数据](event/calcmetrics.md)
    + [向用户传达事件](event/communicate.md)
++ [客户端提示](client-hints.md)
 + Cookie {#cookies}
    + [浏览器 Cookie](cookies/cookies.md)
    + [减轻浏览器 Cookie 限制影响的选项](cookies/cookieless.md)

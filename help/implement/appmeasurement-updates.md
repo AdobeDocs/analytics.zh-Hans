@@ -3,10 +3,10 @@ title: AppMeasurement for JavaScript 发行说明
 description: AppMeasurement for JavaScript 的发行说明汇总。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '2267'
-ht-degree: 100%
+source-git-commit: b99852f4b8e0a3034ea8965e5646b1ab2f1a8c4c
+workflow-type: tm+mt
+source-wordcount: '2325'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,13 @@ ht-degree: 100%
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 您可以在[代码管理器](/help/admin/admin/code-manager-admin.md)中下载最新版本的 AppMeasurement。
+
+## 版本 2.23.0
+
+发行日期： **待定**
+
+* AppMeasurement现在支持收集高熵用户代理客户端提示，Chromium浏览器(Google Chrome和Microsoft Edge)使用这些提示来提供设备信息。 您可以通过标记配置客户端提示，或使用“collectHighEntropyUserAgentHints”标记。 默认情况下，高熵提示的集合处于关闭状态。 在此处了解有关用户代理客户端提示的更多信息 [链接].
+
 
 ## 版本 2.22.4
 
@@ -449,7 +456,7 @@ ht-degree: 100%
 发行日期：**2013 年 11 月 14 日**
 
 * 添加了对[心率视频测量](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans)的支持。
-* `VisitorAPI.js`添加了 ，以便支持[访客 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
+* `VisitorAPI.js`添加了 ，以便支持[访客 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
 
 ## 版本 1.1.1
 
