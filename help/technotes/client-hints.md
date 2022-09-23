@@ -1,10 +1,10 @@
 ---
 title: 客户端提示
 description: 了解客户端提示如何逐渐取代用户代理作为设备信息源。
-source-git-commit: 788ab49fec9117e0ef2a736f609a627b913b9f8c
+source-git-commit: cd8370f6c19e79e1a8a506e772db390708e96a44
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 4%
+source-wordcount: '833'
+ht-degree: 5%
 
 ---
 
@@ -21,13 +21,25 @@ Google将用户代理客户端提示分为两类：低熵和高熵提示。
 
 >[!NOTE]
 >
->从2022年10月开始，新版Chromium浏览器将开始“冻结”用户代理字符串中表示的操作系统版本。 这意味着，随着时间的推移，用户代理中表示的操作版本信息将变得不那么准确。 操作系统版本是一个高熵提示，因此要在报表中保持操作系统版本的准确性，必须配置您的收集库以收集这些高熵提示。 随着时间的推移，用户代理的其他设备信息将被冻结，需要客户端提示来保持设备报告的准确性。
+>从2022年10月开始，新版Chromium浏览器将开始“冻结”用户代理字符串中表示的操作系统版本。 当用户升级其设备时，用户代理中的操作系统不会发生更改。 因此，随着时间的推移，用户代理中表示的操作版本信息将变得不那么准确。 操作系统版本是一个高熵提示，因此要在报表中保持操作系统版本的准确性，必须配置您的收集库以收集这些高熵提示。 随着时间的推移，用户代理的其他设备信息将被冻结，需要客户端提示来保持设备报告的准确性。
 
 ## 常见问题解答
 
++++**我可以在哪里了解有关客户端提示的更多信息？**
+
+此 [Google博客文章](https://web.dev/user-agent-client-hints/) 是一个很好的参考和起点。
+
++++
+
 +++**如何启用客户端提示的集合？**
 
-低熵提示由浏览器自动提供并包含在Adobe的设备信息处理中。 较新版本的AppMeasurement（启动TBD）和Web SDK（启动TBD）可配置为收集高熵提示。 对于这两个库，高熵提示的集合是 **默认情况下处于禁用状态**. 有关如何实施此功能的详细信息，请参阅此处。
+低熵提示由浏览器自动提供并包含在Adobe的获取设备和浏览器信息的过程中。 可以将较新版本的AppMeasurement(从2.23.0开始)和Web SDK(从2.12.0开始)配置为收集高熵提示。 对于这两个库，高熵提示的集合是 **默认情况下处于禁用状态**.
+
++++
+
++++**如何捕获高熵提示？**
+
+高熵提示可以通过Web SDK和AppMeasurement库各自的标记扩展配置，也可以直接使用collectHighEntropyUserAgentHints标记配置。
 
 +++
 
@@ -49,23 +61,16 @@ Google将用户代理客户端提示分为两类：低熵和高熵提示。
 * [浏览器类型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=en)
 * [操作系统](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en)
 * [操作系统类型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=en)
-* [移动设备和移动设备类型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=en)??
-* 数据馈送(请注意，用户必须更新才能捕获这些字段。 此外，我们还存在一个依赖关系，无法在依赖关系中显示移动ID和设备信息。)
-* Analytics源连接器（未就绪）
+* [移动设备和移动设备类型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=en)
+* [数据馈送](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=zh-Hans)
 
 +++
 
 +++**哪些Analytics报表字段是从高熵提示中存储的值派生的？**
 
-自2022年9月起，Google发布的冻结用户代理提示时间表指示操作系统版本将从2022年10月起停止更新。 如果没有高熵提示，Analytics“操作系统”维度中包含的操作系统版本的准确性将逐渐降低。
+自2022年9月起，Google发布的“冻结”用户代理提示时间表指示操作系统版本将从2022年10月起停止更新。 当用户升级其操作系统时，用户代理中的操作系统版本将不会更新。 如果没有高熵提示，操作系统版本（包含在Analytics“操作系统”维度中）的准确性将逐渐降低。
 
-请参阅 [Google发布的时间轴](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html) 查看用户代理冻结的时间。
-
-+++
-
-+++**客户端提示会影响哪些浏览器？**
-
-客户端提示仅适用于Chromium浏览器，如Google Chrome和Microsoft Edge。 其他浏览器或移动设备应用程序中的数据没有变化。
+请参阅 [Google发布的时间轴](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html) 查看冻结用户代理其他部分的时间。
 
 +++
 
@@ -75,9 +80,9 @@ Adobe使用第三方Device Atlas，Device Atlas将同时使用客户端提示和
 
 +++
 
-+++**数据馈送中是否会提供客户端提示？**
++++**客户端提示会影响哪些浏览器？**
 
-是的。请参阅文档（以下内容）。
+客户端提示仅适用于Chromium浏览器，如Google Chrome和Microsoft Edge。 其他浏览器或移动设备应用程序中的数据没有变化。
 
 +++
 
@@ -93,41 +98,27 @@ Adobe使用第三方Device Atlas，Device Atlas将同时使用客户端提示和
 
 +++
 
-+++**我可以在哪里了解有关客户端提示的更多信息？**
-
-此 [Google博客文章](https://web.dev/user-agent-client-hints/) 是一个很好的参考和起点。
-
-+++
-
 +++**有哪些提示字段？ 哪些会影响设备报表？**
 
 下表介绍了自2022年9月起的客户提示。
 
-| 提示（标题） | 提示 | 高或低熵 | 示例 | Analytics报表字段 |
-| --- | --- | --- | --- | --- |
-| Sec-CH-UA | 浏览器和重要版本 | 低 | Google Chrome 84 | [浏览器](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=en) 和 [浏览器类型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=en) |
-| Sec-CH-UA-Mobile | 移动设备（true或false） | 低 | TRUE | [移动设备和移动设备类型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=en)?? |
-| Sec-CH-UA-Platform | 操作系统/平台 | 低 | Android | [操作系统](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en) |
-| Sec-CH-UA-Arch | 网站的架构 | 高 | &quot;arm&quot; | 无? |
-| Sec-CH-UA-Bitness | Sec-CH-UA-Bitness | 高 |  | 无? |
-| Sec-CH-UA-Full-Version | 浏览器的完整版本 | 高 | &quot;84.0.4143.2&quot; | 无? |
-| Sec-CH-UA-Full-Version-List | ??? | 高 | ??? | 无? |
-| Sec-CH-UA-Model | 设备型号 | 高 | &quot;Pixel 3&quot; | 无? |
-| Sec-CH-UA-Platform-Version | 操作系统/平台版本 | 高 | &quot;10&quot; | [操作系统](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en) |
+| 提示 | 描述 | 高或低熵 | 示例 |
+| --- | --- | --- | --- | 
+| Sec-CH-UA | 浏览器和重要版本 | 低 | &quot;Google Chrome 84&quot; |
+| Sec-CH-UA-Mobile | 移动设备（true或false） | 低 | TRUE |
+| Sec-CH-UA-Platform | 操作系统/平台 | 低 | &quot;Android&quot; |
+| Sec-CH-UA-Arch | 网站的架构 | 高 | &quot;arm&quot; |
+| Sec-CH-UA-Bitness | 架构位 | 高 | &quot;64&quot; |
+| Sec-CH-UA-Full-Version | 浏览器的完整版本 | 高 | &quot;84.0.4143.2&quot; |
+| Sec-CH-UA-Full-Version-List | 品牌及其版本列表 | 高 | &quot;Not A;Brand&quot;;v=&quot;99&quot;,&quot;Chromium&quot;;v=&quot;98&quot;,&quot;Google Chrome&quot;;v=&quot;98&quot; |
+| Sec-CH-UA-Model | 设备型号 | 高 | &quot;Pixel 3&quot; |
+| Sec-CH-UA-Platform-Version | 操作系统/平台版本 | 高 | &quot;10&quot; |
 
 +++
 
-+++**如何捕获高熵提示？**
 
-可以配置高熵提示
 
-* 直接用于AppMeasurement [指向实施指南中标志条目的链接]
-* 在标记Analytics扩展中
-* 在Web SDK中。
-
-+++
-
-+++**从用户代理中删除哪些数据？何时删除？**
++++**用户代理的哪些部分被“冻结”？何时？**
 
 请参阅 [Google发布的时间轴](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). 这可能会发生变化。
 
