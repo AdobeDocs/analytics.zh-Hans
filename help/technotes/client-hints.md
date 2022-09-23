@@ -1,7 +1,7 @@
 ---
 title: 客户端提示
 description: 了解客户端提示如何逐渐取代用户代理作为设备信息源。
-source-git-commit: cd8370f6c19e79e1a8a506e772db390708e96a44
+source-git-commit: c26012465b998b2d05bd08e8ddb064cd43940449
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 5%
@@ -15,9 +15,9 @@ ht-degree: 5%
 
 Google将用户代理客户端提示分为两类：低熵和高熵提示。
 
-* 低熵提示具有有关设备的更多通用信息。 这些提示由Chromium浏览器自动提供。
+* **低熵提示** 包含有关设备的更多常规信息。 这些提示由Chromium浏览器自动提供。
 
-* 高熵提示包含更详细的信息。 这些提示仅可通过请求使用。 AppMeasurement和Web SDK都可以配置为请求高熵提示。 默认情况下，两个库都会 **not** 请求高熵提示。
+* **高熵** 提示包含更多详细信息。 这些提示仅可通过请求使用。 AppMeasurement和Web SDK都可以配置为请求高熵提示。 默认情况下，两个库都会 **not** 请求高熵提示。
 
 >[!NOTE]
 >
