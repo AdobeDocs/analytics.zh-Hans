@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 36abc6f887074a7f79e223277c21223ab1493afa
 workflow-type: tm+mt
 source-wordcount: '1392'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Analytics发行版在 [连续投放模型](releases.md) 这允许采用更
 | 功能 | 描述 | [预定日期](releases.md) |
 | ----------- | ---------- | ------- |
 | Workspace 中的组合图表可视化 | 通过组合图表，可在 Workspace 中更轻松且更直观地比较各种指标。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts.html) | 2022 年 9 月 14 日 |
-| AppMeasurement版本2.23.0 | AppMeasurement现在支持收集高熵用户代理客户端提示，Chromium浏览器(Google Chrome和Microsoft Edge)使用这些提示来提供设备信息。 您可以通过标记配置客户端提示，或使用“collectHighEntropyUserAgentHints”标记。 默认情况下，高熵提示的集合处于关闭状态。 [了解详情](/help/technotes/client-hints.md) | 2022 年 9 月 23 日 |
+| AppMeasurement版本2.23.0 | AppMeasurement 现在支持收集 Chromium 浏览器（Google Chrome 和 Microsoft Edge）用来提供设备信息的高熵用户代理客户端提示。您可以通过 Tags 配置客户端提示或使用“collectHighEntropyUserAgentHints”标志。默认情况下，高熵提示的收集是关闭的。[了解详情](/help/technotes/client-hints.md) | 2022 年 9 月 23 日 |
 
 {style=&quot;table-layout:auto&quot;}
 

@@ -6,7 +6,7 @@ exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 297e236a6f573354c9d391d43b20db54ad653cd2
 workflow-type: tm+mt
 source-wordcount: '2321'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 
 发行日期：**2022 年 9 月 23 日**
 
-* AppMeasurement现在支持收集高熵用户代理客户端提示，Chromium浏览器(Google Chrome和Microsoft Edge)使用这些提示来提供设备信息。 您可以通过标记配置客户端提示，或使用“collectHighEntropyUserAgentHints”标记。 默认情况下，高熵提示的集合处于关闭状态。 进一步了解用户代理 [客户端提示](/help/technotes/client-hints.md).
+* AppMeasurement 现在支持收集 Chromium 浏览器（Google Chrome 和 Microsoft Edge）用来提供设备信息的高熵用户代理客户端提示。您可以通过 Tags 配置客户端提示或使用“collectHighEntropyUserAgentHints”标志。默认情况下，高熵提示的收集是关闭的。进一步了解用户代理 [客户端提示](/help/technotes/client-hints.md).
 
 
 ## 版本 2.22.4
@@ -346,7 +346,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->**已知问题**：在访客 API/[!DNL AppMeasurement] [!DNL Audience Manager] 模块集成中，将有两个在 IE6-9 中发出的目标发布 iFrame 请求：`//fast.<subdomain>.demdex.net/dest5.html` 和 `//fast.<subdomain>.demdex.net/dest4.html`。如在其他浏览器中所看到的，正确的行为是仅加载 `//fast.<subdomain>.demdex.net/dest5.html`.
+>**已知问题**：在访客 API/[!DNL AppMeasurement] [!DNL Audience Manager] 模块集成中，将有两个在 IE6-9 中发出的目标发布 iFrame 请求：`//fast.<subdomain>.demdex.net/dest5.html` 和 `//fast.<subdomain>.demdex.net/dest4.html`。如在其他浏览器中所看到的，正确的行为是仅加载 `//fast.<subdomain>.demdex.net/dest5.html`。
 
 ## 版本 1.4.4
 
@@ -456,7 +456,7 @@ ht-degree: 97%
 发行日期：**2013 年 11 月 14 日**
 
 * 添加了对[心率视频测量](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans)的支持。
-* `VisitorAPI.js`添加了 ，以便支持[访客 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
+* 添加了 `VisitorAPI.js` 以支持[访客 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
 
 ## 版本 1.1.1
 
