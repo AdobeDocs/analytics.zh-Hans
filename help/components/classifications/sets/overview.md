@@ -2,10 +2,10 @@
 title: 分类集概述
 description: 使用分类集管理分类数据。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
-source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
-workflow-type: ht
-source-wordcount: '123'
-ht-degree: 100%
+source-git-commit: faa1c730e051000032b4c442b43f17bd9c4d76d1
+workflow-type: tm+mt
+source-wordcount: '120'
+ht-degree: 74%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->此功能当前正在进行小范围发布。 如果您想访问此功能，请联系 Adobe 客户关怀部门或您的客户经理，他们可以将您的请求转发给分类团队进行配置。
+>分类集将适用于将其报表包迁移到新分类架构的所有客户。 有关更多信息，请联系Adobe客户关怀或您的客户经理。
 
 **[!UICONTROL 组件]** > **[!UICONTROL 分类集]**
 
