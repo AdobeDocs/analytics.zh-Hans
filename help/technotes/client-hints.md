@@ -1,10 +1,10 @@
 ---
 title: 客户端提示
 description: 了解 客户端提示如何逐渐取代用户代理作为设备信息源。
-source-git-commit: 72ef2d5e34220f1703714fac40a9dae4e76c1ab1
+source-git-commit: f2f1e64a62796b58c24e6ff652db93b21f750669
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 56%
+source-wordcount: '855'
+ht-degree: 53%
 
 ---
 
@@ -86,9 +86,15 @@ Adobe使用第三方Device Atlas，Device Atlas将同时使用客户端提示和
 
 +++
 
++++**不安全的连接是否支持客户端提示？
+
+不可以。只能通过安全的HTTP连接（如HTTPS）来收集客户端提示。
+
++++
+
 +++**通过 Adobe Source Connector 发送到 AEP 和 CJA 的数据中是否会提供客户端提示？**
 
-我们计划在 2023 年上半年在通过 Adobe Source Connector 发送的数据中包含客户提示。
+Adobe计划在2023年上半年通过Adobe源连接器在数据中包含客户提示。
 
 +++
 
