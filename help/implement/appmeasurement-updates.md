@@ -6,7 +6,7 @@ exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 297e236a6f573354c9d391d43b20db54ad653cd2
 workflow-type: tm+mt
 source-wordcount: '2321'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 99%
 
 ## 版本 2.23.0
 
-发行日期：**2022 年 9 月 23 日**
+发布日期：**2022 年 9 月 23 日**
 
-* AppMeasurement 现在支持收集 Chromium 浏览器（Google Chrome 和 Microsoft Edge）用来提供设备信息的高熵用户代理客户端提示。您可以通过 Tags 配置客户端提示或使用“collectHighEntropyUserAgentHints”标志。默认情况下，高熵提示的收集是关闭的。进一步了解用户代理 [客户端提示](/help/technotes/client-hints.md).
+* AppMeasurement 现在支持收集 Chromium 浏览器（Google Chrome 和 Microsoft Edge）用来提供设备信息的高熵用户代理客户端提示。您可以通过 Tags 配置客户端提示或使用“collectHighEntropyUserAgentHints”标志。默认情况下，高熵提示的收集是关闭的。详细了解 User-Agent [客户端提示](/help/technotes/client-hints.md)。
 
 
 ## 版本 2.22.4

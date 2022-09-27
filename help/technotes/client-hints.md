@@ -1,27 +1,27 @@
 ---
 title: 客户端提示
-description: 了解 客户端提示如何逐渐取代用户代理作为设备信息源。
+description: 了解客户端提示将如何逐渐取代 User-Agent 作为设备信息的来源。
 source-git-commit: f2f1e64a62796b58c24e6ff652db93b21f750669
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 53%
+ht-degree: 95%
 
 ---
 
 
 # 客户端提示概述和常见问题解答
 
-客户端提示是单独的关于用户设备的信息。它们由 Chromium 浏览器提供，例如 Google Chrome 和 Microsoft Edge。对于这些浏览器，客户端提示将逐渐取代用户代理作为设备信息源。 Adobe Analytics将更新其设备查找过程，以便除用户代理之外，还使用客户端提示来确定设备信息。
+客户端提示是单独的关于用户设备的信息。它们由 Chromium 浏览器提供，例如 Google Chrome 和 Microsoft Edge。对于这些浏览器，客户端提示将逐渐取代 User-Agent 作为设备信息的来源。Adobe Analytics 将更新其设备查找过程，以使它在 User-Agent 之外使用客户端提示确定设备信息。
 
-Google将用户代理客户端提示分为两类：低熵和高熵提示。
+Google 将 User-Agent 客户端提示分为两类：低熵提示和高熵提示。
 
-* **低熵提示** 包含有关设备的更多常规信息。 这些提示由 Chromium 浏览器自动提供。
+* **低熵提示**&#x200B;包含更加通用的设备信息。Chromium 浏览器自动提供这些提示。
 
-* **高熵** 提示包含更多详细信息。 这些提示仅应请求提供。AppMeasurement和Web SDK [可以配置](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) 请求高熵提示。 默认情况下，两个库都&#x200B;**不**&#x200B;请求高熵提示。
+* **高熵**&#x200B;提示包含更加详细的信息。仅应请求提供这些提示。AppMeasurement 和 Web SDK 都[可以配置为](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md)请求高熵提示。默认情况下，这两个库都&#x200B;**不**&#x200B;请求高熵提示。
 
 >[!NOTE]
 >
->从2022年10月开始，新版Chromium浏览器将开始“冻结”用户代理字符串中表示的操作系统版本。 当用户升级其设备时，用户代理中的操作系统不会发生更改。 因此，随着时间的推移，用户代理中表示的操作版本信息将变得不那么准确。 操作系统版本是一个高熵提示，因此为了在您的报告中保持操作系统版本的准确性，有必要配置您的收集库来收集这些高熵提示。随着时间的推移，用户代理的其他设备信息将被冻结，需要客户端提示来保持设备报告的准确性。
+>从 2022 年 10 月开始，Chromium 浏览器的新版本将开始“冻结”在 User-Agent 字符串中表示的操作系统版本。当用户升级其设备时，User-Agent 中的操作系统不变。因此，在 User-Agent 中表示的操作版本信息将逐渐降低准确性。操作系统版本是高熵提示，因此要保证报表中操作系统版本的准确无误，必须配置收藏集库以使其收集这些高熵提示。User-Agent 的其他设备信息逐渐将被冻结，需要客户端提示以保持设备报表准确性。
 
 ## 常见问题解答
 
@@ -33,13 +33,13 @@ Google将用户代理客户端提示分为两类：低熵和高熵提示。
 
 +++**如何启用客户端提示的收集？**
 
-低熵提示由浏览器自动提供并包含在Adobe的获取设备和浏览器信息的过程中。 可以将较新版本的AppMeasurement(从2.23.0开始)和Web SDK(从2.12.0开始)配置为收集高熵提示。 对于这两个库，**默认情况下将禁用**&#x200B;高熵提示的收集。
+在 Adobe 获取设备和浏览器信息的过程中，浏览器自动提供低熵提示。可将较高版本的 AppMeasurement（从 2.23.0 起）和 Web SDK（从 2.12.0 起）配置为收集高熵提示。对于这两个库，都在&#x200B;**默认情况下禁用**&#x200B;高熵提示的收集。
 
 +++
 
 +++**如何捕获高熵提示？**
 
-可以配置高熵提示 通过Web SDK和AppMeasurement库各自的标记扩展，或直接使用collectHighEntropyUserAgentHints标记。
+可用 Web SDK 和 AppMeasurement 库通过其各自的标记扩展或直接用 collectHighEntropyUserAgentHints 标志配置高熵提示。
 
 +++
 
@@ -51,11 +51,11 @@ Google将用户代理客户端提示分为两类：低熵和高熵提示。
 
 +++**Analytics 中的设备报告是否会有任何变化？**
 
-可用于报告的设备字段不会有任何变化。根据为客户端提示配置集合的字段和方式，为这些字段捕获的数据可能会发生更改。
+可用于报告的设备字段不会有任何变化。为这些字段捕获的数据可能会根据为客户端提示配置哪个字段以及如何为客户端提示配置收集而异。
 
 +++
 
-+++**哪些Analytics报表字段是从用户代理派生的？**
++++**从 User-Agent 获取哪些 Analytics 报表字段？**
 
 * [浏览器](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=zh-Hans)
 * [浏览器类型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=zh-Hans)
@@ -66,17 +66,17 @@ Google将用户代理客户端提示分为两类：低熵和高熵提示。
 
 +++
 
-+++**哪些 Analytics 报告字段源自高熵提示中存储的值？**
++++**从高熵提示中存储的值获取哪些 Analytics 报表字段？**
 
-自2022年9月起，Google发布的“冻结”用户代理提示时间表指示操作系统版本将从2022年10月起停止更新。 当用户升级其操作系统时，用户代理中的操作系统版本将不会更新。 如果没有高熵提示，操作系统版本（包含在Analytics“操作系统”维度中）的准确性将逐渐降低。
+截至 2022 年 9 月，Google 关于“冻结”User-Agent 提示发布的时间表指示将从 2022 年 10 月开始停止更新操作系统版本。当用户升级其操作系统时，User-Agent 中的操作系统版本不更新。没有了高熵提示，（包括在 Analytics“操作系统”维度中的）操作系统版本的准确性将逐渐降低。
 
-请参阅 [Google发布的时间轴](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html) 查看冻结用户代理其他部分的时间。
+请参阅 [Google 发布的时间表](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html)以参阅冻结 User-Agent 其他部分的时机。
 
 +++
 
-+++**Adobe 将如何使用客户端提示来获取设备信息？**
++++**Adobe 将如何使用客户端提示获取设备信息？**
 
-Adobe使用第三方Device Atlas，Device Atlas将同时使用客户端提示和用户代理获取设备信息。
+Adobe 使用第三方 Device Atlas，后者同时使用客户端提示和 User-Agent 获取设备信息。
 
 +++
 
@@ -116,7 +116,7 @@ Adobe计划在2023年上半年通过Adobe源连接器在数据中包含客户提
 | Sec-CH-UA-Arch | 网站架构 | 高 | &quot;arm&quot; |
 | Sec-CH-UA-Bitness | 架构位 | 高 | &quot;64&quot; |
 | Sec-CH-UA-Full-Version | 浏览器的完整版本 | 高 | &quot;84.0.4143.2&quot; |
-| Sec-CH-UA-Full-Version-List | 品牌及其版本列表 | 高 | &quot;Not A;Brand&quot;;v=&quot;99&quot;,&quot;Chromium&quot;;v=&quot;98&quot;,&quot;Google Chrome&quot;;v=&quot;98&quot; |
+| Sec-CH-UA-Full-Version-List | 品牌及其版本的列表 | 高 | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
 | Sec-CH-UA-Model | 设备型号 | 高 | &quot;Pixel 3&quot; |
 | Sec-CH-UA-Platform-Version | 操作系统/平台版本 | 高 | &quot;10&quot; |
 
@@ -124,7 +124,7 @@ Adobe计划在2023年上半年通过Adobe源连接器在数据中包含客户提
 
 
 
-+++**用户代理的哪些部分被“冻结”？何时？**
++++**“冻结”User-Agent 的哪些部分以及何时冻结？**
 
 请参阅 [Google 发布的时间表](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html)。此可能会有变化。
 
