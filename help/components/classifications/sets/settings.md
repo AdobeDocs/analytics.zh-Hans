@@ -3,9 +3,9 @@ title: 分类集设置
 description: 创建或编辑分类集。
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 source-git-commit: fa0de6241d56e10144b7eefeb72e9d6ed25a9773
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '591'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此功能将适用于将其报表包迁移到新分类架构的所有客户。 有关更多信息，请联系Adobe客户关怀或您的客户经理。
+>所有将其报表包迁移到新分类架构的客户都可以使用此功能。请联系 Adobe 客户关怀部门或您的客户经理以获取更多信息。
 
 **[!UICONTROL “组件”]**>**[!UICONTROL “分类集”]**>**[!UICONTROL “集”]**>“单击所需的分类集名称”
 
