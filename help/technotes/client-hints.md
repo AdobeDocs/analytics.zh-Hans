@@ -4,7 +4,7 @@ description: 了解客户端提示将如何逐渐取代 User-Agent 作为设备�
 source-git-commit: f2f1e64a62796b58c24e6ff652db93b21f750669
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -86,15 +86,15 @@ Adobe 使用第三方 Device Atlas，后者同时使用客户端提示和 User-A
 
 +++
 
-+++**不安全的连接是否支持客户端提示？
++++**是否在不安全的连接上支持客户端提示？
 
-不可以。只能通过安全的HTTP连接（如HTTPS）来收集客户端提示。
+否。只能通过安全的 HTTP 连接（如 HTTPS）收集客户端提示。
 
 +++
 
-+++**通过 Adobe Source Connector 发送到 AEP 和 CJA 的数据中是否会提供客户端提示？**
++++**能否在通过 Adobe Source Connector 发送到 AEP 和 CJA 的数据中找到客户端提示？**
 
-Adobe计划在2023年上半年通过Adobe源连接器在数据中包含客户提示。
+Adobe 计划在 2023 年上半年在通过 Adobe Source Connector 发送的数据中加入客户端提示。
 
 +++
 
