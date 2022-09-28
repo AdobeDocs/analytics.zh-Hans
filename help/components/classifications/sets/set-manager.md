@@ -3,9 +3,9 @@ title: 分类集管理器
 description: 在 Adobe Analytics 中管理分类集。
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 source-git-commit: b75594e21cc499bf3367577df90d6a4f4705f09c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->此功能将适用于将其报表包迁移到新分类架构的所有客户。 有关更多信息，请联系Adobe客户关怀或您的客户经理。
+>所有将其报表包迁移到新分类架构的客户都可以使用此功能。请联系 Adobe 客户关怀部门或您的客户经理以获取更多信息。
 
 **[!UICONTROL “组件”]**>**[!UICONTROL “分类集”]**>**[!UICONTROL “集”]**
 
