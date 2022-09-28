@@ -3,9 +3,9 @@ title: 创建分类集
 description: 创建分类集时可用的字段和描述。
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 source-git-commit: 759e2b1d2b4fa99cfbb699be18e736600bf358ab
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '188'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此功能将适用于将其报表包迁移到新分类架构的所有客户。 有关更多信息，请联系Adobe客户关怀或您的客户经理。
+>所有将其报表包迁移到新分类架构的客户都可以使用此功能。请联系 Adobe 客户关怀部门或您的客户经理以获取更多信息。
 
 **[!UICONTROL “组件”]**>**[!UICONTROL “分类集”]**>**[!UICONTROL “集”]**>**[!UICONTROL “添加”]**
 
