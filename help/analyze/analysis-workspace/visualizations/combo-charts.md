@@ -4,10 +4,10 @@ title: 组合图表可视化
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: acacd0a61dfaf2ab7ba20bcaa1c6bcc4f6f67765
+source-git-commit: b3f9d3fdac403cdd1be425c0c631fa93dde5cb13
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 100%
+source-wordcount: '764'
+ht-degree: 97%
 
 ---
 
@@ -23,12 +23,13 @@ ht-degree: 100%
 
 * 在一段时间内针对某个函数（例如[!UICONTROL 累积平均数]）分析量度。
 
-请记住，您可以：
+请牢记这一点：
 
-* 在单个[!UICONTROL 组合图表]中添加多个比较。
+* 您可以在一个中添加多个比较 [!UICONTROL 组合图].
 * 如果添加一个或多个比较，则它们必须是同一类型，例如[!UICONTROL 时间比较]。
 * 最多可添加 5 个比较。
 * 您最多可以为一个量度应用 3 个过滤器（区段）。
+* 组合图中不支持计算量度。
 
 ## 构建组合图表
 
