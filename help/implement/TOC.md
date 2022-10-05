@@ -3,11 +3,11 @@ product: analytics
 audience: all
 user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
-user-guide-description: 自定义收集哪些数据，以便让 Adobe Analytics 得到充分利用。
-source-git-commit: 72ef2d5e34220f1703714fac40a9dae4e76c1ab1
-workflow-type: ht
-source-wordcount: '402'
-ht-degree: 100%
+user-guide-description: 了解实施Adobe Analytics的方法。 自定义收集哪些数据以充分利用Analytics数据。
+source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 95%
 
 ---
 

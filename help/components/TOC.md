@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
-user-guide-description: 帮助您使用区段、计算指标、虚拟报表包、警报、营销渠道、分类等组件管理您的数据，并了解跨设备分析。
-source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
+user-guide-description: 使用区段、计算量度、虚拟报表包、营销渠道和分类等组件管理数据。 了解跨设备分析。
+source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 98%
+source-wordcount: '689'
+ht-degree: 96%
 
 ---
 

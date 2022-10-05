@@ -3,11 +3,11 @@ product: analytics
 audience: all
 user-guide-title: Analytics 技术说明
 breadcrumb-title: 技术说明
-user-guide-description: 包含不属于特定分析工具或组件的有用文章的知识库。
-source-git-commit: b99852f4b8e0a3034ea8965e5646b1ab2f1a8c4c
+user-guide-description: 浏览知识库，其中包含不属于特定Analytics工具或组件的有用文章。
+source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 99%
+source-wordcount: '202'
+ht-degree: 91%
 
 ---
 

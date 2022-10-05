@@ -4,11 +4,10 @@ title: 发布列表
 feature: Admin Tools
 uuid: 07dad661-c302-4981-80d1-3169ad1fe90e
 exl-id: 5c9a0ae7-742b-4247-bcbc-2e979af6160c
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 2f14b9059601fd0b8d1603cb7dfc4a0b4a3ff55e
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 100%
+source-wordcount: '663'
+ht-degree: 49%
 
 ---
 
@@ -18,7 +17,25 @@ ht-degree: 100%
 
 计划报表时可指定多个发布列表。
 
-## 发布列表管理器描述  {#section_099DF8AC5691495F9B22C71266DD6004}
+## 发布列表生命周期终止
+
+如您所知，Adobe将于2023年12月31日弃用Reports and Analytics(R&amp;A)以及Site Catalyst点产品。 [您可以在此处了解有关生命周期终止以及如何为其做好准备的更多信息](https://express.adobe.com/page/6WnF8JK6IRDhf/).
+
+R&amp;A中计划在此日期终止使用的功能之一是发布列表。 日历事件和页面摘要报表等某些功能在Analysis Workspace中具有对等版本。 但是，发布列表不是其中的一个，在R&amp;A生命周期结束时将弃用。 **您将无法创建新发布列表或访问现有发布列表以发送或计划Analysis Workspace项目。**
+
+为了缓解当前依赖发布列表的报表分发工作流程受到的任何干扰，我们请您考虑以下替代方法：
+
+* 如果您使用发布列表将同一版本的报表分发给多个用户（而不应用报表包覆盖）：
+
+   在Analysis Workspace中将报表重新创建为项目后，您可以使用为邮件客户端创建的联系人组或通讯组列表以及工作区的“计划项目”功能的组合来发送或计划项目的定期提交。 与发布列表一样，项目的PDF/CSV版本随后会被发送到组/列表中包含的每个电子邮件ID。 您可以进一步了解 [此处的计划项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html?lang=en#:~:text=Scheduled%20Analysis%20Workspace%20projects%20can,options%20in%20the%20left%20rail.).
+
+* 如果您使用发布列表将多个版本的报表或功能板分发给多个用户（通过报表包覆盖功能）：
+
+   Analysis Workspace不支持报表包覆盖。 它也不支持在共享或计划项目时锁定报表包的功能。 要复制工作流，您可能需要为同一项目创建多个版本，并将不同的报表包应用于每个版本，然后使用上述计划项目功能。
+
+如果还有其他问题或需要获取相关支持，请联系 Adobe 客户关怀团队。
+
+## 发布列表管理器描述 {#section_099DF8AC5691495F9B22C71266DD6004}
 
 | 元素 | 描述 |
 |--- |--- |

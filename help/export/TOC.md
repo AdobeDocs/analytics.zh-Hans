@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 导出指南
 breadcrumb-title: 导出指南
-user-guide-description: 使用“数据馈送”接收每小时或每天导出的原始数据。使用 Data Warehouse 检索以电子表格形式输出的数据。了解如何使用 FTP 和 SFTP 在计算机与服务器之间传输文件。
-source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
+user-guide-description: 了解如何使用数据馈送导出原始数据，以及如何Data warehouse以电子表格形式检索输出的数据。 了解如何使用FTP和SFTP传输文件。
+source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 100%
+source-wordcount: '296'
+ht-degree: 89%
 
 ---
 
