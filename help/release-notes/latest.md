@@ -3,7 +3,7 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 631c217d45b2504b1faa3bb2e585d3dcdfac128c
+source-git-commit: 1843989f77482152adeaee1f1c9e523d0c55dc21
 workflow-type: tm+mt
 source-wordcount: '1511'
 ht-degree: 79%
@@ -42,7 +42,7 @@ AN-298512;AN-300117;AN-301754;AN-301584;AN-301685;AN-301783;AN-301818;AN-301825;
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| **默认登陆页面** | 2023 年 9 月 | 的 [新登陆页面](/help/analyze/landing.md) 今年早些时候引入的体验将成为 **2023年1月**. 当前页面将被弃用，每个人都需要使用新体验。 |
+| **默认登陆页面** | 2022 年 9 月 29 日 | 的 [新登陆页面](/help/analyze/landing.md) 今年早些时候引入的体验将成为 **2023年1月**. 当前页面将被弃用，每个人都需要使用新体验。 |
 | **终止 [!UICONTROL 发布列表] 功能** | 2022 年 9 月 29 日 | 作为Reports &amp; Analytics生命周期终止的一部分，发布列表将在 **2023年12月**. 您将无法创建新发布列表或访问现有发布列表以发送或计划Analysis Workspace项目。 [了解详情](/help/admin/admin/publishing-list.md) |
 | **[!UICONTROL 异常检测] 自动运行条件** | 2022 年 9 月 29 日 | 今天， [!UICONTROL 异常检测] 自动在时间序列自由格式表的所有列上运行。 为确保数据能够更快地用于分析和项目加载，Adobe将更改异常检测自动运行的方式。 开始 **2022年10月26日**, [!UICONTROL 异常检测] 将仅在表中的第一个量度列上自动运行。 您可以配置列设置，以便根据需要对其他列运行异常检测。 |
 | **更新到新的 NetAcuity 网络运营商数据库** | 2022 年 9 月 26 日 | 原计划于 2022 年 10 月 5 日进行的本次更新已推迟到 **2023 年 1 月**。存储在 Adobe Analytics Data Warehouse 和 Analytics 数据馈送的 `carrier` 字段中的与运营商相关的信息将发生变化。过去，该列中的数据格式一直是 `<domain>:<ISP>`。Adobe 维护有内部查找表将这些 `<domain>:<ISP>` 值映射到运营商名称中，以便在 Adobe Analytics 报告工具（Analysis Workspace、Reports &amp; Analytics、报告 API、Data Warehouse、LiveStream 等）中进行报告。查找文件 (`carrier.tsv`) 也随数据馈送一起提供，以便您能使用相同的映射。<p>此更新通过使用 NetAcuity 提供的更为准确的运营商数据库来增强运营商映射。 数据馈送中运营商列中的数据格式将继续更改。 于 `<domain>:<ISP>` 不同，它将包含运营商名称。 Adobe 将继续使用查找表，以尽可能保持与过去报告的连续性。 Adobe 应用查找的报告工具（Analysis Workspace、Reports &amp; Analytics、报告 API、Data Warehouse、LiveStream 等） 将受益于更精确的映射。 当 Adobe 采用新的数据库时，一些映射（尤其是国际域名和 ISP 的映射）将发生更大的变化。数据馈送运营商查找文件 (`carrier.tsv`) 将维护旧映射并添加新映射。<p>Analytics Source Connector 当前未映射运营商字段，因此运营商报告当前在 Experience Platform、CJA 等中不可用。因此，使用新的运营商数据库不会影响 Experience Platform 中基于 Analytics Source Connector 提供的数据的任何内容。 |
