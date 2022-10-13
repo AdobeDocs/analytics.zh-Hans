@@ -3,16 +3,16 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2dc8dc9f7dd9671cfa25095e075474d2b5463dc0
-workflow-type: ht
-source-wordcount: '1519'
-ht-degree: 100%
+source-git-commit: 6014be392d700fae0df1f178d1f989eb29d03477
+workflow-type: tm+mt
+source-wordcount: '1569'
+ht-degree: 96%
 
 ---
 
 # 当前的 Adobe Analytics 发行说明（2022 年 10 月）
 
-**上次更新时间**：2022 年 10 月 5 日
+**上次更新时间**：2022 年 10 月 13 日
 
 Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
@@ -30,6 +30,7 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 | **[!UICONTROL 关键指标摘要]**&#x200B;可视化 | 通过[!UICONTROL 关键指标摘要]可视化，可了解某个重要的指标在单个时间范围内的趋势如何。通过它，还可比较指标在两个时间范围内的表现。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=zh-Hans) | 已从 2022 年 10 月 5 日开始分阶段推出 |
 | 新的&#x200B;**[!UICONTROL 分类集]**&#x200B;用户体验 | 新用户体验提供单个界面以管理分类和规则，并更容易看到客户拥有的分类数据。[了解详情](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=zh-Hans) | 2022 年 10 月 5 日 |
 | 移动应用程序：**自定义详细信息视图** | 通过自定义详细信息视图，可通过让受众关注最重要的内容而使与受众共享的信息更有针对性。可更改与每个记分卡图块关联的详细视图的布局，并可添加文本以更好地解释最终用户可能在数据中看到的内容。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-Hans) | 2022 年 10 月 5 日 |
+| **不区分大小写的多值变量** | 对于不区分大小写的多值变量， `mvvar1` - `mvvar3` 在数据馈送中，将不再自动转换为小写。 相反，数据馈送(以及通过Analytics源连接器传递到Adobe Experience Platform和CJA的数据)将反映从页面传入的原始大小写。 | 2022 年 10 月 24 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
