@@ -4,7 +4,7 @@ description: 了解客户端提示将如何逐渐取代 User-Agent 作为设备�
 source-git-commit: 55747b79851696fd1bff8fb7cb4849dc8c813fc0
 workflow-type: tm+mt
 source-wordcount: '947'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Google 将 User-Agent 客户端提示分为两类：低熵提示和高熵提示�
 
 >[!NOTE]
 >
->AAM需要收集高熵提示以保留完整功能。 如果您使用 [到AAM的服务器端转发](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hans) 然后，您可能希望启用高熵提示的集合。
+>AAM 需要收集高熵提示以保留完整功能。如果您正在使用[服务器端转发到 AAM 功能](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hans)，则您可能希望启用高熵提示的收集。
 
 ## 常见问题解答
 
@@ -53,9 +53,9 @@ Google 将 User-Agent 客户端提示分为两类：低熵提示和高熵提示�
 
 +++
 
-+++**各种客户端提示值是什么？**
++++**各种客户端提示值表示什么？**
 
-下表介绍了自2022年10月起的客户端提示。
+下表对截至 2022 年 10 月的客户提示进行了说明。
 
 | 提示 | 描述 | 高熵或低熵 | 示例 |
 | --- | --- | --- | --- | 
@@ -79,7 +79,7 @@ Google 将 User-Agent 客户端提示分为两类：低熵提示和高熵提示�
 
 +++**从 User-Agent 获取哪些 Analytics 报表字段？**
 
-这些字段直接从用户代理派生，但用户代理可用于帮助为其他与设备相关的字段导出值，具体取决于设备详细信息。
+这些字段直接从用户-代理派生，但用户-代理可用于帮助派生其他设备相关字段的值，具体取决于设备详细信息。
 
 * [浏览器](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=zh-Hans)
 * [浏览器类型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=zh-Hans)
@@ -91,7 +91,7 @@ Google 将 User-Agent 客户端提示分为两类：低熵提示和高熵提示�
 
 +++**从高熵提示中存储的值获取哪些 Analytics 报表字段？**
 
-随着Google“冻结”用户代理的更多部分，这种情况会随着时间的推移而发生变化。 要直接影响的第一个字段是“操作系统”，其中包括操作系统版本根据Google发布的“冻结”用户代理提示时间表，操作系统版本将从2022年10月底以Chromium版本107开始冻结。 此时，用户代理中的操作系统版本在某些情况下将不准确。
+随着 Google“冻结”用户代理的更多部分，这将随着时间的推移而改变。第一个受到直接影响的字段是“操作系统”（其中包括操作系统版本）。根据 Google 发布的“冻结”用户-代理提示的时间表，操作系统版本将从 2022 年 10 月底的 Chromium 版本 107 开始冻结。届时，用户代理中的操作系统版本在某些情况下会不准确。
 
 请参阅 [Google 发布的时间表](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html)以参阅冻结 User-Agent 其他部分的时机。
 
@@ -105,11 +105,11 @@ Adobe 使用第三方 Device Atlas，后者同时使用客户端提示和 User-A
 
 +++**哪些浏览器会受到客户端提示的影响？**
 
-客户端提示仅适用于Chromium浏览器，如Google Chrome和Microsoft Edge。 来自其他浏览器或移动应用程序的数据没有变化。
+客户端提示仅适用于 Chromium 浏览器，例如 Google Chrome 和 Microsoft Edge。来自其他浏览器或移动应用程序的数据没有变化。
 
 +++
 
-+++**不安全的连接是否支持客户端提示？**
++++**是否在不安全的连接上支持客户端提示？**
 
 否。只能通过安全的 HTTP 连接（如 HTTPS）收集客户端提示。
 
@@ -133,9 +133,9 @@ Adobe 计划在 2023 年上半年在通过 Adobe Source Connector 发送的数�
 
 +++
 
-+++**AAM服务器端转发是否支持客户端提示？**
++++**AAM 服务器端转发是否支持客户端提示？**
 
-是的。转发到AAM的数据中将包含客户端提示。 请注意，AAM需要收集高熵提示以保留完整功能。 如果您使用 [到AAM的服务器端转发](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) 然后，您可能希望启用高熵提示的集合。
+是的。客户端提示将包含在转发给 AAM 的数据中。请注意，AAM 需要收集高熵提示以保留完整功能。如果您正在使用[服务器端转发到 AAM 功能](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)，则您可能希望启用高熵提示的收集。
 
 +++
 
