@@ -1,10 +1,10 @@
 ---
 title: 客户端提示
 description: 了解客户端提示将如何逐渐取代 User-Agent 作为设备信息的来源。
-source-git-commit: 55747b79851696fd1bff8fb7cb4849dc8c813fc0
+source-git-commit: 1bd34bd2bdbe5ad8abb75be81554837e53c112fb
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 100%
+source-wordcount: '948'
+ht-degree: 97%
 
 ---
 
@@ -99,7 +99,7 @@ Google 将 User-Agent 客户端提示分为两类：低熵提示和高熵提示�
 
 +++**Adobe 将如何使用客户端提示获取设备信息？**
 
-Adobe 使用第三方 Device Atlas，后者同时使用客户端提示和 User-Agent 获取设备信息。
+Adobe使用第三方Device Atlas ,Device Atlas将同时使用客户端提示和用户代理获取设备信息。
 
 +++
 
