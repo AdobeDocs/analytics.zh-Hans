@@ -1,10 +1,10 @@
 ---
 title: 客户端提示
 description: 了解客户端提示将如何逐渐取代 User-Agent 作为设备信息的来源。
-source-git-commit: 1bd34bd2bdbe5ad8abb75be81554837e53c112fb
+source-git-commit: 72fc9f58e58ed4b43fb17cec194808268e8b6879
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 97%
+source-wordcount: '1067'
+ht-degree: 86%
 
 ---
 
@@ -18,6 +18,10 @@ Google 将 User-Agent 客户端提示分为两类：低熵提示和高熵提示�
 * **低熵提示**&#x200B;包含更加通用的设备信息。Chromium 浏览器自动提供这些提示。
 
 * **高熵**&#x200B;提示包含更加详细的信息。仅应请求提供这些提示。AppMeasurement 和 Web SDK 都[可以配置为](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md)请求高熵提示。默认情况下，这两个库都&#x200B;**不**&#x200B;请求高熵提示。
+
+>[!NOTE]
+>
+>从2023年1月中旬开始，客户端提示将纳入Analytics设备查找流程中。 AppMeasurement和Web SDK当前都支持提示数据的收集，但直到1月中旬才会在设备查找中使用。 这是为了避免在关键的年末期间可能中断报告。 如下所述，操作系统版本将从10月开始冻结，但由于逐步推出以及大多数用户代理将被冻结到正确的操作系统版本，我们估计这将影响&lt;3%的Chrome访客。
 
 >[!NOTE]
 >
@@ -89,6 +93,12 @@ Google 将 User-Agent 客户端提示分为两类：低熵提示和高熵提示�
 
 +++
 
++++**“冻结”User-Agent 的哪些部分以及何时冻结？**
+
+请参阅 [Google 发布的时间表](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html)。此可能会有变化。
+
++++
+
 +++**从高熵提示中存储的值获取哪些 Analytics 报表字段？**
 
 随着 Google“冻结”用户代理的更多部分，这将随着时间的推移而改变。第一个受到直接影响的字段是“操作系统”（其中包括操作系统版本）。根据 Google 发布的“冻结”用户-代理提示的时间表，操作系统版本将从 2022 年 10 月底的 Chromium 版本 107 开始冻结。届时，用户代理中的操作系统版本在某些情况下会不准确。
@@ -115,6 +125,12 @@ Adobe使用第三方Device Atlas ,Device Atlas将同时使用客户端提示和�
 
 +++
 
++++**使用API提交时，如何包含客户端提示数据？**
+
+请参阅相关文档，以通过 [批量数据插入API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/file-format/).
+
++++
+
 +++**能否在通过 Adobe Source Connector 发送到 AEP 和 CJA 的数据中找到客户端提示？**
 
 Adobe 计划在 2023 年上半年在通过 Adobe Source Connector 发送的数据中加入客户端提示。
@@ -124,12 +140,6 @@ Adobe 计划在 2023 年上半年在通过 Adobe Source Connector 发送的数�
 +++**在 XDM 中如何表示客户端提示？**
 
 请参阅 Adobe Experience Platform 中的[架构文档](https://github.com/adobe/xdm/blob/master/components/datatypes/browserdetails.schema.json#L121)。
-
-+++
-
-+++**“冻结”User-Agent 的哪些部分以及何时冻结？**
-
-请参阅 [Google 发布的时间表](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html)。此可能会有变化。
 
 +++
 
