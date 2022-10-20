@@ -4,10 +4,10 @@ title: 创建移动记分卡
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: e2af78cec37488b3c5f7681fa5d3f3555f8012c2
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1750'
+ht-degree: 100%
 
 ---
 
@@ -174,7 +174,11 @@ Analytics 功能板提供了四种可视化图表，可让您深入了解维度�
 
 ## 自定义详细信息幻灯片 {#customize-detail-slide}
 
-通过自定义详细信息幻灯片，与受众共享的信息可更有针对性。可修改每个详细信息幻灯片的布局，并添加文本以更好地解释最终用户可能在数据中看到的内容。还可使用下拉菜单更改图表类型。
+通过自定义详细信息幻灯片，与受众共享的信息可更有针对性。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410002)
+
+可修改每个详细信息幻灯片的布局，并添加文本以更好地解释最终用户可能在数据中看到的内容。还可使用下拉菜单更改图表类型。
 
 ![自定义详细信息幻灯片](assets/custom-detail-slide.png)
 
