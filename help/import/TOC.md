@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 导入指南
 breadcrumb-title: 导入指南
-user-guide-description: '从外部来源批量或实时地将数据引入 Adobe Analytics。 '
+user-guide-description: 从外部来源批量或实时地将数据引入 Adobe Analytics。
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
 source-wordcount: '141'
