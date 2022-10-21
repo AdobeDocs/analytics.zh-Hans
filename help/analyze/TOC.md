@@ -7,7 +7,7 @@ user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Wo
 source-git-commit: 15dcca7a00598db422244d705cb0d6be6ce97c5e
 workflow-type: tm+mt
 source-wordcount: '1063'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 98%
    + 项目 {#build-workspace-project}
       + [项目概述](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [保存项目](analysis-workspace/build-workspace-project/save-projects.md)
-      + 工作区中的文件夹 {#workspace-folders}
-         + [关于工作区中的文件夹](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [创建文件夹和子文件夹](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+      + Workspace 中的文件夹 {#workspace-folders}
+         + [关于 Workspace 中的文件夹](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [创建文件夹 和子文件夹](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [添加项目](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [删除项目](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [保存新项目](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
@@ -65,7 +65,7 @@ ht-degree: 98%
             + [行设置](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [动态项和静态项](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [对表格进行分页、过滤和排序](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
-         + [工作区总计](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [ Workspace 总计](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 同类群组表 {#cohort-table}
          + [什么是同类群组分析？](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [配置同类群组分析报表](analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -146,7 +146,7 @@ ht-degree: 98%
          + [警报管理器](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [智能警报 — 用例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [用户首选项](analysis-workspace/user-preferences.md)
-   + 工作区常见问题解答 {#workspace-faq}
+   + Workspace 常见问题解答 {#workspace-faq}
       + [常见问题解答](analysis-workspace/workspace-faq/faq.md)
       + [优化 Analysis Workspace 性能](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [错误消息](analysis-workspace/workspace-faq/error-messages.md)
