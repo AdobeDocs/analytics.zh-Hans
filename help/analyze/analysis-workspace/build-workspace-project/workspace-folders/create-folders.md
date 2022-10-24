@@ -6,7 +6,7 @@ feature: Workspace Basics
 source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->此功能目前处于测试阶段。 某些屏幕可能会有所变更。
+>此功能当前为 Beta 版。某些屏幕可能会有所变更。
 
 ## 创建新文件夹
 
