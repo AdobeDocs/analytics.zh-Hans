@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等等。
-source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
+source-git-commit: 10a325b5479b6852fc98ed780f59ee525ec6f51b
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '674'
 ht-degree: 100%
 
 ---
@@ -84,6 +84,7 @@ ht-degree: 100%
       + [实时报表概述](admin/realtime/realtime.md)
       + [实时报表配置](admin/realtime/t-realtime-admin.md)
       + [受支持的实时指标和维度](admin/realtime/realtime-metrics.md)
+   + [报告活动管理器](admin/reporting-activity.md)
    + [已安排的报表队列](admin/scheduled-reports-admin.md)
    + 服务器端转发 {#server-side-forwarding}
       + [服务器端转发概述](admin/c-server-side-forwarding/ssf.md)
