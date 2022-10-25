@@ -3,7 +3,9 @@ description: 了解如何在 Workspace 中添加文件夹
 keywords: Analysis Workspace
 title: 在 Workspace 中添加文件夹
 feature: Workspace Basics
-source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
+hide: true
+hidefromtoc: true
+source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 100%
@@ -17,7 +19,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->此功能当前为 Beta 版。某些屏幕可能会有所变更。
+>目前此功能处于测试阶段。某些屏幕可能会有所变更。
 
 ## 从表格视图中
 

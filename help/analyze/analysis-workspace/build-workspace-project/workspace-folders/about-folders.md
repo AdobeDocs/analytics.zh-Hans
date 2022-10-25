@@ -3,7 +3,9 @@ description: 了解 Workspace 中的文件夹
 keywords: Analysis Workspace
 title: 文件夹概述
 feature: Workspace Basics
-source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
+hide: true
+hidefromtoc: true
+source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
@@ -17,7 +19,7 @@ Workspace 项目中的文件夹是位于 Workspace 登陆页上的一个文件�
 
 >[!NOTE]
 >
->此功能当前为 Beta 版。某些屏幕可能会有所变更。
+>目前此功能处于测试阶段。某些屏幕可能会有所变更。
 
 Workspace 项目中的文件夹帮助用户组织其项目和将其项目分类，以便更好地检索和访问。此外，通过一个共享的公司文件夹，管理员可轻松地创建内容并与所有 Workspace 用户共享内容。 
 
