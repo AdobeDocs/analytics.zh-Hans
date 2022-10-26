@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 数据列引用
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 477c9be498fcec91febeb7b7f7cefb22820d2032
+source-git-commit: 56c11dd4f35f7b2de0e124b1bcb005afb356ece6
 workflow-type: tm+mt
-source-wordcount: '3445'
-ht-degree: 100%
+source-wordcount: '3537'
+ht-degree: 96%
 
 ---
 
@@ -38,11 +38,13 @@ ht-degree: 100%
 | `c_color` | 调色板的位深度。在计算[颜色深度](/help/components/dimensions/color-depth.md)维度时用到。AppMeasurement 使用 JavaScript 函数 `screen.colorDepth()`。 | char(20) |
 | `campaign` | 在[跟踪代码](/help/components/dimensions/tracking-code.md)维度中使用的变量。 | varchar(255) |
 | `carrier` | Adobe Advertising Cloud 集成变量。指定移动设备运营商。引用 `carrier` 查找表。 | varchar(100) |
+| `ch_hdr` | 通过HTTP请求标头收集的客户端提示。 | 文本 |
+| `ch_js` | 通过用户代理客户端提示JavaScript API收集的客户端提示。 | 文本 |
 | `channel` | 在[网站部分](/help/components/dimensions/site-section.md)维度中使用的变量。 | varchar(100) |
 | `click_action` | 已不再使用。在旧版 Clickmap 工具中点击的链接地址。 | varchar(100) |
 | `click_action_type` | 已不再使用。旧版 Clickmap 工具的链接类型。<br>0：HREF URL<br>1：自定义 ID<br>2：JavaScript onClick 事件<br>3：表单元素 | 无符号 tinyint |
 | `click_context` | 已不再使用。发生链接点击的页面名称。包含在旧版 ClickMap 工具中。 | varchar(255) |
-| `click_context_type` | 已不再使用。指示 click_context 是使用了页面名称，还是默认使用了页面 URL。<br>0：页面 URL<br>1：页面名称 | 无符号 tinyint |
+| `click_context_type` | 已不再使用。指示是否 `click_context` 具有页面名称或默认使用页面URL。<br>0：页面 URL<br>1：页面名称 | 无符号 tinyint |
 | `click_sourceid` | 已不再使用。页面上点击链接的位置所对应的数字 ID。包含在旧版 ClickMap 工具中。 | 无符号 int |
 | `click_tag` | 已不再使用。已点击的 HTML 元素的类型。 | char(10) |
 | `clickmaplink` | Activity Map 链接 | varchar(255) |
@@ -64,8 +66,8 @@ ht-degree: 100%
 | `date_time` | 以可读格式表示的点击时间（基于报表包所在时区）。 | datetime |
 | `domain` | 在[域](/help/components/dimensions/domain.md)维度中使用的变量。基于访客的 Internet 接入点。 | varchar(100) |
 | `duplicate_events` | 列出计为重复的每个事件。 | varchar(255) |
-| `duplicate_purchase` | 表示此次点击对应的购买事件因重复而应忽略的标记。 | 无符号 tinyint |
-| `duplicated_from` | 仅在包含点击复制 VISTA 规则的报表包中使用。指示点击是从哪个报表包中复制的。 | varchar(40) |
+| `duplicate_purchase` | 表示此点击的购买事件因重复而被忽略的标记。 | 无符号 tinyint |
+| `duplicated_from` | 仅在包含点击复制 VISTA 规则的报表包中使用。指示点击是从哪个报表包复制的。 | varchar(40) |
 | `ef_id` | 在 Adobe Advertising Cloud 集成中使用的 `ef_id`。 | varchar(255) |
 | `evar1 - evar250` | 自定义变量 1 至 250。在 [eVar](/help/components/dimensions/evar.md) 维度中用到。每个公司使用 eVar 的方式有所不同。要了解有关贵组织如何填充各个 eVar 的更多信息，您最好参阅专为贵组织设计的解决方案文档。 | varchar(255) |
 | `event_list` | 以逗号分隔的数字 ID 列表，其中各 ID 表示点击时所触发的各个事件。包含默认事件及自定义事件 1-1,000。使用 `event.tsv` 查找。 | 文本 |
@@ -88,8 +90,9 @@ ht-degree: 100%
 | `hitid_low` | 与 `hitid_high` 配合使用可标识某次点击。 | 无符号 bigint |
 | `homepage` | 已不再使用。指示当前的 URL 是否是浏览器的主页。 | char(1) |
 | `hourly_visitor` | 确定点击是否为新的每小时访客的标记。 | 无符号 tinyint |
-| `ip` | IP 地址，基于图像请求的 HTTP 标头。 | char(20) |
+| `ip` | IPv4地址，基于图像请求的HTTP标头。 互斥 `ipv6`;如果此列包含非模糊处理的IP地址， `ipv6` 为空。 | char(20) |
 | `ip2` | 未使用。报表包的后端引用变量，包含基于 IP 地址的 VISTA 规则。 | char(20) |
+| `ipv6` | 压缩的IPv6地址（如果可用）。 如果IP地址类似于 `2001:cDBa:0000:0000:0000:0000:3257:0052`，数据馈送包含 `2001:cdba::3257:52`. 互斥 `ip`;如果此列包含非模糊处理的IP地址， `ip` 为空。 | varchar(40) |
 | `j_jscript` | 浏览器支持的 JavaScript 版本。 | char(5) |
 | `java_enabled` | 表示 Java 是否已启用的标记。<br>Y：启用<br>N：禁用<br>U：未知 | char(1) |
 | `javascript` | JavaScript 版本的查找 ID，基于 `j_jscript`。使用查询表。 | 无符号 tinyint |
@@ -145,7 +148,8 @@ ht-degree: 100%
 | `mobilerelaunchcampaigntrackingcode` | 从上下文数据变量 `a.launch.campaign.trackingcode` 收集。在客户获取中用作启动促销活动的跟踪代码。 | varchar(255) |
 | `mobileresolution` | 移动设备的分辨率。`[Width] x [Height]` 以像素为单位。 | varchar(255) |
 | `monthly_visitor` | 表示访客属于当月的独特访客的标记。 | 无符号 tinyint |
-| `mvvar1` - `mvvar3` | 列出变量值。包含分隔的自定义值列表（取决于实施）。`post_mvvar1` - `post_mvvar3` 列将原始分隔符替换为 `--**--`。 | 文本 |
+| `mvvar1` - `mvvar3` | 列出在当前点击上设置或从先前点击保留的变量值。 包含分隔的自定义值列表（取决于实施）。`post_mvvar1` - `post_mvvar3` 列将原始分隔符替换为 `--**--`。 | 文本 |
+| `mvvar1_instances` - `mvvar3_instances` | 在当前点击中设置的列表变量值。 `post_mvvar1_instances` - `post_mvvar3_instances` 列将原始分隔符替换为 `--**--`。 | 文本 |
 | `namespace` | 未使用。属于某个已弃用的功能。 | varchar(50) |
 | `new_visit` | 确定当前点击是否为新访问的标记。在访问处于不活动状态 30 分钟后，由 Adobe 服务器设置。 | 无符号 tinyint |
 | `os` | 表示访客的操作系统的数值 ID。基于 `user_agent` 列。使用 `os` 查找。 | 无符号 int |
