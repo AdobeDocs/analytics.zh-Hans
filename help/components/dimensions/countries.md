@@ -3,16 +3,16 @@ title: 国家/地区
 description: 点击源自的国家/地区。
 feature: Dimensions
 exl-id: 47704b08-215d-4d2d-bcd4-1789e308c1c6
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '268'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '269'
+ht-degree: 89%
 
 ---
 
 # 国家/地区
 
-“国家/地区”维度报告点击源自的国家/地区。此维度可帮助确定访客在访问您的网站时最有可能所在的国家/地区。您可以根据这些数据专注于这些国家/地区的营销工作，或确保在使用不同主要语言的国家/地区提供最佳的网站体验。
+“国家/地区”维度报告点击源自的国家/地区。此维度可帮助确定访客在访问您的网站时最有可能所在的国家/地区。您可以使用此数据专注于这些国家/地区的营销工作，或确保在使用不同主要语言的国家/地区提供最佳的网站体验。
 
 ## 使用数据填充此维度
 

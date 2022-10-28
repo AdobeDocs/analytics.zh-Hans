@@ -4,10 +4,10 @@ title: 编辑跨越多个请求的指标
 feature: Report Builder
 role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
-source-wordcount: '567'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '574'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 * 只能将指标添加到引导布局请求中。如果某些选定的请求为自定义布局，则无法添加指标。其原因在于，由于布局进行了自定义，Report Builder 不知道将新指标放置到电子表格中的哪个地方。
 * 因此，如果您只选择自定义布局请求，则&#x200B;**[!UICONTROL 添加指标]**&#x200B;选项不可用。
-* 添加指标将增加请求的大小，并且可能会导致与其他请求重叠。请确保您的请求周围有足够的空间以允许添加指标。
+* 添加指标将增加请求的大小，并且可能会导致与其他请求重叠。确保请求周围有足够的空间，以允许添加量度。
 * 如果添加的指标已存在于某一个选定的请求中，则不会将其添加到该请求。
 
 要添加一个或多个指标，请执行以下操作：
@@ -29,7 +29,7 @@ ht-degree: 100%
 1. 在 Excel 中选择一个或多个请求，并右键单击选择&#x200B;**[!UICONTROL 编辑指标]**。（或者，单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 编辑多个]** > `<choose metric>` > **[!UICONTROL 编辑群组]**，以选择要修改的一组请求）。
 1. 选择 **[!UICONTROL 添加指标]** 并选择要添加的指标。
 
-   ![](assets/add_metric.png)
+   ![添加量度](assets/add_metric.png)
 
 1. 刷新请求以查看实际数据。在刷新之前，您看到的都是脱机数据。
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 1. 选择&#x200B;**[!UICONTROL 替换指标]**。
 
-   ![](assets/replace_metric.png)
+   ![替换指标](assets/replace_metric.png)
 
 1. 选择要替换的指标和替换它的指标。
 1. 刷新请求。在刷新之前，您看到的都是脱机数据。
@@ -72,7 +72,7 @@ ht-degree: 100%
 
 1. 选择&#x200B;**[!UICONTROL 删除指标]**。
 
-   ![](assets/remove_metric.png)
+   ![删除量度](assets/remove_metric.png)
 
 1. 从请求中选择一个或多个要删除的指标。
 1. 刷新请求。在刷新之前，您看到的都是脱机数据。

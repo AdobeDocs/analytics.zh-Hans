@@ -5,10 +5,10 @@ uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 feature: Report Builder
 role: User, Admin
 exl-id: f18859e3-19e4-48af-963f-0bb4d1b46380
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 100%
+source-wordcount: '201'
+ht-degree: 90%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 1. 单击 Report Builder 菜单中的&#x200B;**[!UICONTROL 选项]**。
 
-   ![](assets/offline_mode.png)
+   ![脱机模式](assets/offline_mode.png)
 
 1. 选中&#x200B;**[!UICONTROL 打开脱机模式以创建和编辑请求]**&#x200B;旁边的复选框。
 1. 在&#x200B;**[!UICONTROL 将量度数据显示为]**&#x200B;字段中，输入要在请求中返回的占位符数据。例如，输入“1”。
@@ -30,8 +30,8 @@ ht-degree: 100%
 1. 现在，使用“请求向导”创建并运行您的请求（以脱机模式）。
 1. 您的以“1”作为占位符数据的请求将与以下内容类似：
 
-   ![](assets/offline_mode_example.png)
+   ![脱机模式示例](assets/offline_mode_example.png)
 
    >[!IMPORTANT]
    >
-   >请确保禁用了“脱机模式”后，再使用实际数据运行请求。要执行此操作，只需返回至&#x200B;**[!UICONTROL 选项]**，然后移除复选标记。
+   >确保在使用实际数据运行请求之前禁用离线模式。 要执行此操作，只需返回至&#x200B;**[!UICONTROL 选项]**，然后移除复选标记。

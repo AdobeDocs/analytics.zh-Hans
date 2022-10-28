@@ -3,10 +3,10 @@ description: 了解如何将 Mobile Services 处理规则迁移到 Adobe Analyti
 title: 将 Mobile Services 处理规则迁移到 Adobe Analytics
 feature: Processing Rules
 exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
-source-wordcount: '686'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
    ![上下文变量](assets/context-var.png)
 
-1. 在 Experience Cloud 中，切换到 Adobe Analytics 并确保所处的移动报表包与在 Mobile Services 中查看的报表包是相同的。
+1. 在Experience Cloud中，切换到Adobe Analytics，并确保您位于在Mobile Services中查看的同一移动设备报表包中。
 1. 转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 报表包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 常规]** > **[!UICONTROL 处理规则]**。
 1. 单击&#x200B;**[!UICONTROL 添加规则]**。
 1. 忽略条件并继续，添加与在 Mobile Services 中相同的上下文变量。
@@ -59,7 +59,7 @@ ht-degree: 100%
 要访问该模板，请执行以下操作：
 
 1. 登录 `experience.adobe.com` 并选择 Analytics。
-1. 确保您处于已为 Mobile Services 启用的报表包。
+1. 确保您位于为Mobile Services启用的报表包中。
 1. 单击 **[!UICONTROL Workspace]** 选项卡。
 1. 单击&#x200B;**[!UICONTROL 新建项目]**。
 1. 选择任意 Mobile 模板并单击&#x200B;**[!UICONTROL 创建]**。

@@ -1,25 +1,25 @@
 ---
-title: eVar（促销）变量
+title: eVar（促销变量）
 description: 与单个产品关联的自定义变量。
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: 43703a5e90bcc2afbe45091d72f2c09a50f3db24
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 71%
+source-wordcount: '543'
+ht-degree: 64%
 
 ---
 
 # eVar（推销）
 
-*此帮助页面介绍了如何实施推销 eVar。有关推销 eVar 如何用作维度的信息，请参阅《组件用户指南》中的 [eVar（推销）](/help/components/dimensions/evar-merchandising.md)。*
+*此帮助页面介绍了如何实施推销 eVar。有关推销eVar如何用作维度的信息，请参阅 [eVar（促销维度）](/help/components/dimensions/evar-merchandising.md) （位于组件用户指南中）。*
 
 有关促销 eVar 如何工作的详细讨论，请参阅[促销 eVar 和产品查找方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=cn)。
 
 ## 在报表包设置中设置 eVar
 
-在实施中使用 eVar 之前，请确保在报表包设置中将 eVar 配置为所需的语法。请参阅《管理员指南》中的[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
+在实施中使用eVar之前，请确保在报表包设置中将eVar配置为所需的语法。 请参阅《管理员指南》中的[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
 
 >[!WARNING]
 >

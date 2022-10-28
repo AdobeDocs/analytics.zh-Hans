@@ -3,10 +3,10 @@ title: JavaScript 实施疑难解答
 description: 了解 JavaScript 实施存在的常见问题以及疑难解答最佳实践。
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '692'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '693'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ### 混合使用不同引号定义变量
 
-为符合最佳实践，请确保您使用的引号类型始终保持一致。如果使用单引号指定字符串的开头，则必须使用单引号结束字符串。
+作为最佳实践，请确保您使用的引号类型一致。 如果使用单引号指定字符串的开头，则必须使用单引号结束字符串。
 
 例如，`s.eVar1 = 'Value'` 和 `s.eVar1 = "Value"` 均有效。但 `s.eVar1 = 'Value"` 无效。
 

@@ -4,10 +4,10 @@ title: 配置流量可视化图表
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: acacd0a61dfaf2ab7ba20bcaa1c6bcc4f6f67765
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 89%
+source-wordcount: '1377'
+ht-degree: 88%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 89%
 
    * 使用下拉菜单选择量度或维度。
    * 从维度或量度列表中拖动项目。
-   * 使用搜索功能查找您要寻找的量度或维度。
+   * 使用搜索功能可查找要查找的维度或量度。
 
    例如，假设您希望跟踪导致结账事件的所有内容。您可以将与结账相关的维度或量度（例如 [!UICONTROL Order exists]）拖动到 **[!UICONTROL Ends with]** 放置区域。
 

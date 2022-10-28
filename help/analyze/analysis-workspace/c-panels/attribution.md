@@ -4,16 +4,16 @@ description: 在 Analysis Workspace 中如何使用和解读归因面板。
 feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
-workflow-type: ht
-source-wordcount: '441'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '442'
+ht-degree: 97%
 
 ---
 
 # 归因面板
 
-[!UICONTROL 归因]面板是一种简单的方式，用于构建分析来比较各种归因模型。它是[归因 IQ](../attribution/overview.md) 的一项功能，为您提供专用工作区来使用和比较归因模型。
+[!UICONTROL 归因]面板是一种简单的方式，用于构建分析来比较各种归因模型。它是 [Attribution IQ](../attribution/overview.md) 的一项功能，为您提供专用工作区来使用和比较归因模型。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 ## 归因可视化图表
 
-* **总数量度**：报表时间范围内发生的转化总数。这些是在您所选维度中归因的转化。
+* **总数量度**：报表时间范围内发生的转化总数。这些是在您选择的维度中归因的转化。
 * **归因比较条形图**：以可视方式，比较所选维度中各个维度项的归因转化。每种条形颜色代表一个不同的归因模型。
 * **归因比较表**：将相同的数据显示为条形图，以表格的形式表示。选择此表中的不同列或行，会筛选条形图以及面板中的其他一些可视化图表。此表的作用与工作区中任何其他自由格式表的作用相似，允许您添加量度、区段或细分等组件。
 * **重叠图**：一种维恩图，显示前三个维度项以及它们共同参与某个转化的频率。例如，气泡重叠的大小表示当访客出现在两个维度项目中时发生转化的频率。选择相邻自由格式表中的其他行，会更新可视化图表以反映所选内容。

@@ -3,10 +3,10 @@ title: 创建或编辑数据馈送
 description: 了解如何创建或编辑数据馈送。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: ed1a627dafdf10f8a0a65e94b20ab6a3204a5d15
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 100%
+source-wordcount: '949'
+ht-degree: 98%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 通过创建数据馈送，Adobe 可以了解发送原始数据文件的位置以及要包含在每个文件中的内容。本页列出了在创建数据馈送时可以自定义的各个设置。
 
-在阅读本页之前，建议您先了解数据馈送的基本知识。请参阅[数据馈送概述](data-feed-overview.md)，确保您满足创建数据馈送的要求。
+在阅读本页之前，建议您先了解数据馈送的基本知识。请参阅 [数据馈送概述](data-feed-overview.md) 以确保您满足创建数据馈送的要求。
 
 ## 馈送信息字段
 

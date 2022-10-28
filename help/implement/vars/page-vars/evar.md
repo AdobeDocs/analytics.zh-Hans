@@ -1,12 +1,12 @@
 ---
-title: eVar 变量
+title: eVar（变量）
 description: 可在实施中使用的自定义变量。
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 87%
+source-wordcount: '406'
+ht-degree: 84%
 
 ---
 
@@ -20,7 +20,7 @@ eVar 是自定义变量，您可以根据需要随意使用。如果您有[解�
 
 ## 在报表包设置中设置 eVar
 
-在实施中使用 eVar 之前，请确保在报表包设置中配置每个 eVar。请参阅《管理员指南》中的[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
+在实施中使用eVar之前，请确保在报表包设置中配置每个eVar。 请参阅《管理员指南》中的[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
 
 ## 使用Web SDK的eVar
 

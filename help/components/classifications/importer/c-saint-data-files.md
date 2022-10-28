@@ -3,10 +3,10 @@ description: 导入器允许您将文件中的分类数据批量上载至分析�
 title: 分类数据文件
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '1783'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '1784'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 * 上载的文件必须使用不带 BOM 字符编码的 UTF-8 格式。
 * 包含制表符、换行符和引号在内的特殊字符可以嵌入在单元格内，前提是指定了 v2.1 文件格式，并且该单元格已被正确[转义](/help/components/classifications/importer/t-classifications-escape-data.md)。特殊字符包括：
 
-   ```
+   ```text
    \t     tab character 
    \r     form feed character 
    \n    newline character 
@@ -53,7 +53,7 @@ ht-degree: 100%
    * v2.0 忽略引号，并将所有引号都视为指定键和值的一部分。以下面这个值为例：&quot;This is &quot;&quot;some value&quot;&quot;&quot;。v2.0 会照字面将其解释为 &quot;This is &quot;&quot;some value&quot;&quot;&quot;。
    * v2.1 则要求分类将引号视为 Excel 文件中使用的文件格式的一部分。因此，v2.1 将以上示例的格式解释为：This is &quot;some value&quot;。
    * 如果文件中指定的是 v2.1，但实际上需要的是 v2.0，也就是说，当引号的使用方式在 Excel 格式中违规时，则可能产生问题。例如，若您有以下值：&quot;VP NO REPS&quot; S/l Dress w/ Overlay。在 v2.1 中，这是错误的格式（此值应当由左右引号括起来，并且作为实际值一部分的引号应当由额外的引号转义），而且分类也无法正常工作。
-   * 请确保您执行了以下操作之一：通过更改上载文件中的标题（单元格 C1）将您的文件格式更改为 v2.0，或者在所有文件中正确实施 Excel 引号功能。
+   * 确保执行以下操作之一：通过更改您上传文件中的标题（单元格C1），将文件格式更改为v2.0，或在整个文件中正确实施Excel报价。
 
 * 数据文件的第一行（非注释）包含用于标识该列中分类数据的列标题。导入器要求列标题采用特定的格式。有关详细信息，请参阅[列标题格式](/help/components/classifications/importer/c-saint-data-files.md)。
 * 在数据文件中，紧接标题行的是数据行。每行数据都应包含各列标题的数据字段。
@@ -155,7 +155,7 @@ ht-degree: 100%
 
 **示例：**&#x200B;如果促销活动 A 的成本为 $10,000，[!UICONTROL 促销活动^~成本]列包含的值为 10000，而[!UICONTROL 促销活动^~成本~per] 列包含 [!UICONTROL FIXED]。在报表中显示促销活动 A 的成本时，会将 $10,000 显示为日期范围内促销活动 A 的固定成本。
 
-**示例：**&#x200B;如果每次单击促销活动 B 花费大约 $2，[!UICONTROL 促销活动^~成本]列包含 2，而&#x200B;**[!UICONTROL 促销活动^~成本~per]** 列包含 [!UICONTROL CLICK]。在报表中显示促销活动 B 的成本时，Adobe 会随时计算报表日期范围内的成本（2 * [点击次数]）。这样即可根据促销活动 B 的点击次数计算出总成本。
+**示例：**&#x200B;如果每次单击促销活动 B 花费大约 $2，[!UICONTROL 促销活动^~成本]列包含 2，而&#x200B;**[!UICONTROL 促销活动^~成本~per]** 列包含 [!UICONTROL CLICK]。在报表中显示促销活动B的成本时，Adobe会计算(2) &#42; [点击次数])。 这样即可根据促销活动 B 的点击次数计算出总成本。
 
 ### 页面
 
@@ -204,4 +204,4 @@ ht-degree: 100%
 
 ## 有关分类的疑难解答
 
-* [常见 上载问题](https://helpx.adobe.com/cn/analytics/kb/common-saint-upload-issues.html)：知识库文章，描述由于文件格式以及文件内容不正确导致的问题。
+* [常见 上载问题](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)：知识库文章，描述由于文件格式以及文件内容不正确导致的问题。
