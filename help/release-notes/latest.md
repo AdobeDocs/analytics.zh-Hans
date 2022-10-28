@@ -3,16 +3,16 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 96488440c73acfdc015560012de5481368baed8a
+source-git-commit: 7c66414129e262954e5521a28b878424099ac6ad
 workflow-type: tm+mt
-source-wordcount: '1425'
-ht-degree: 95%
+source-wordcount: '1426'
+ht-degree: 94%
 
 ---
 
 # 最新Adobe Analytics发行说明（2022年10月/11月）
 
-**上次更新时间**：2022 年 10 月 25 日
+**上次更新时间**：2022 年 10 月 28 日
 
 Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
@@ -21,7 +21,7 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 | 功能 | 描述 | [转出开始](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **[!UICONTROL 关键指标摘要]**&#x200B;可视化 | 通过[!UICONTROL 关键指标摘要]可视化，可了解某个重要的指标在单个时间范围内的趋势如何。通过它，还可比较指标在两个时间范围内的表现。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=zh-Hans) | 2022 年 10 月 5 日 | 2023 年 10 月 19 日 |
-| **不区分大小写的多值变量** | 对于不区分大小写的多值变量，存储在数据馈送中的 `mvvar1` 至 `mvvar3` 中的值将不再自动变为小写。而是数据馈送（以及通过 Analytics Source Connector 传递到 Adobe Experience Platform 和 CJA 的数据）将反映从页面传入的原有大小写形式。 | 不适用 | 2022 年 10 月 24 日 |
+| **不区分大小写的多值变量** | 对于不区分大小写的多值变量， `mvvar1 - mvvar3` 和 `post_mvvar1 - post_mvvar3` 中的数据馈送将不再自动转换为小写。 而是数据馈送（以及通过 Analytics Source Connector 传递到 Adobe Experience Platform 和 CJA 的数据）将反映从页面传入的原有大小写形式。 | 不适用 | 2022 年 10 月 24 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
