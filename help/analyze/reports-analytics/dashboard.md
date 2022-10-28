@@ -5,14 +5,16 @@ title: 功能板和缩图报表
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+workflow-type: tm+mt
 source-wordcount: '1827'
 ht-degree: 100%
 
 ---
 
 # 功能板和缩图报表
+
+{{ra-eol}}
 
 功能板是由一组以缩略图方式显示的报表（称为“缩图报表”）构成的。包含相关缩图报表的功能板非常有用，因为这样您就可以对网站的某些方面（如查找方法、访客资料等）有一个完整的概括性认识。
 

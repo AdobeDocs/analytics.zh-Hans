@@ -5,14 +5,16 @@ keywords: 最佳实践;失败;超时;故障排除;慢
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 1c09f514-42ab-4698-bdee-d1b509da3f11
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 100%
 
 ---
 
 # 报表最佳实践和疑难解答
+
+{{ra-eol}}
 
 *此帮助页面将介绍 Reports &amp; Analytics 最佳实践。对于 Analysis Workspace，请参阅[优化 Analysis Workspace 性能](../analysis-workspace/workspace-faq/optimizing-performance.md)。对于 Data Warehouse，请参阅 [Data Warehouse 最佳实践](/help/export/data-warehouse/data-warehouse-bp.md)。*
 
@@ -28,7 +30,7 @@ Adobe Analytics 提供了一个灵活的报表界面，允许您生成各种复�
 以下因素会导致报表的生成时间延长。增加其中一个因素通常不会影响性能，但可能会延迟报表包队列中的其他报表，并导致后续报表超时。
 
 * **报表日期范围：**&#x200B;影响报表生成时间的最大因素是请求的月份数。将月份数从 3 减少到 1 可以大幅度降低生成时间，但是将时间范围从 1 个月减少到 1 个星期则不会对报表生成时间有明显影响。
-* **指标数**：随着指标数的增加，报表运行时间也会增加。删除指标往往可缩短生成报表所需的时间。
+* **量度数**：随着指标数的增加，报表运行时间也会增加。删除指标往往可缩短生成报表所需的时间。
 * **细分的数量**：在报表中，每个细分代表一个单独的请求。因为单个请求可能会快速完成，所以在独立报表内运行成千上万个划分可能会大幅度减慢报表的生成速度，同时也会影响报表包队列。
 * **区段复杂性**：考虑多个维度或包含多个（超过 24 个）规则的区段将增加处理影响并会增加报表的生成时间。
 * **唯一值的数量**：包含成千上万个唯一值的报表比其中唯一值较少的报表生成的速度要慢，即使区段或过滤器减少最终显示在报表中的值的数量也不例外。例如，显示搜索词的报表生成的速度通常比其他报表要慢，即便应用了过滤器后只显示包含特定值的搜索词也是如此。

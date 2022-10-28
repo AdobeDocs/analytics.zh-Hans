@@ -3,17 +3,19 @@ description: 使用功能板管理器可以复制、共享、存档和计划功�
 subtopic: Dashboards
 title: 功能板管理器
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-feature: Reports & Analytics 基础知识
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '794'
 ht-degree: 98%
 
 ---
 
 # 功能板管理器
+
+{{ra-eol}}
 
 使用功能板管理器可以复制、共享、存档和计划功能板以进行提交。
 
@@ -21,7 +23,7 @@ ht-degree: 98%
 >
 >使用功能板管理器时的最佳做法是：任何一个用户最多拥有 300 个功能板。另外请注意，管理器会加载下面所有共享的功能板，因此，共享功能板时要谨慎。
 
-单击&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 功能板]**。
+单击 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 功能板]**.
 
 | 元素 | 描述 |
 |--- |--- |
@@ -35,7 +37,7 @@ ht-degree: 98%
 
 描述如何使用共享功能板管理选项的步骤。
 
-1. 转到&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 功能板]**。
+1. 转到 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 功能板]**.
 1. 在“[!UICONTROL 共享功能板]”下方，找到您要管理的共享功能板（或原有功能板），然后选取下面一个或多个选项：
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
@@ -71,7 +73,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->接下来，请考虑使用 [Analysis Workspace 项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans)及其将要下载和计划的功能。
+>接下来，请考虑使用 [Analysis Workspace 项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)及其将要下载和计划的功能。
 
 复制原有功能板时，系统将打开原有功能板以供您编辑，您可添加旧内容或新内容。当您复制原有功能板时，旧内容将保留在原有功能板列表中。
 

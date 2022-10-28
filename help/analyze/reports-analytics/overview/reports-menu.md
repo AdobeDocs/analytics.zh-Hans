@@ -5,14 +5,16 @@ uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: ht
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 100%
 
 ---
 
 # “报表”菜单{#reports-menu}
+
+{{ra-eol}}
 
 “Reports &amp; Analytics”中的“报表”菜单概述。
 
@@ -38,7 +40,7 @@ ht-degree: 100%
 
 ## 搜索报表 {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
-“报表”菜单提供了增强的搜索体验。单击&#x200B;**[!UICONTROL 查看所有报表]**，或按正斜杠键 (/)，然后开始键入内容可快速查找报表。报表搜索已扩展到包含 Analytics 左侧导航器菜单中的所有内容（管理员、组件等）。
+“报表”菜单提供了增强的搜索体验。单击&#x200B;**[!UICONTROL 查看所有报表]**，或按正斜杠键 (/)，然后开始键入内容可快速查找报表。报表搜索已扩展到包含 Analytics 左侧导航器菜单中的所有内容（管理员，组件等）。
 
 ![](assets/menu-search.png)
 

@@ -5,14 +5,16 @@ title: Reports & Analytics 常见问题解答
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 100%
 
 ---
 
 # 常见问题解答
+
+{{ra-eol}}
 
 为 Reports &amp; Analytics 的一些最常见的 Analytics 问题，提供答案和故障诊断建议。有关常见的实施问题，请参阅实施用户指南中的[常见问题解答](/help/implement/faq.md)。
 

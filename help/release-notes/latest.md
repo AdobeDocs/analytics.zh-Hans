@@ -3,10 +3,10 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 5f94ac8a04510b99ce8838daf55745f524bffd95
+source-git-commit: 96488440c73acfdc015560012de5481368baed8a
 workflow-type: tm+mt
-source-wordcount: '1429'
-ht-degree: 96%
+source-wordcount: '1425'
+ht-degree: 95%
 
 ---
 
@@ -54,7 +54,7 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 | 产品或功能 EOL | 添加或更新日期 | 描述 |
 | --- | --- | --- |
 | **终止使用[!UICONTROL 发布列表]功能** | 2022 年 9 月 29 日 | 作为终止使用 Reports and Analytics 的一部分，预计在 **2023 年 12 月**&#x200B;终止使用发布列表。您将无法创建新的发布列表或访问现有的发布列表以发送或安排 Analysis Workspace 项目。[了解详情](/help/admin/admin/publishing-list.md) |
-| **Data Workbench 的生命周期结束日期** | 2022 年 9 月 14 日 | Adobe 打算在 **2023 年 12 月 31 日**&#x200B;结束 Data Workbench 的生命周期。如果您有任何问题，请联系您的客户关怀代表以获取 Data Workbench 的替代解决方案。[了解详情](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
+| **Data Workbench 的生命周期结束日期** | 2022 年 9 月 14 日 | Adobe 打算在 **2023 年 12 月 31 日**&#x200B;结束 Data Workbench 的生命周期。请参阅 [Data Workbench生命周期终止公告](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) 以了解详细信息。 如有任何问题，请联系贵组织的Adobe客户经理。 |
 | **[!DNL Reports & Analytics]** 的 EOL | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起，Adobe 决定中断 [!DNL Reports & Analytics] 及其随附的报告和功能。支持 [!DNL Reports & Analytics] 的报表、可视化图表和底层技术不再满足 Adobe 的技术标准。大部分 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans) 中都可用。自 2015 年发布 Analysis Workspace 以来，[!DNL Reports & Analytics] 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)阐明生命周期结束的过程。 |
 
 {style=&quot;table-layout:auto&quot;}

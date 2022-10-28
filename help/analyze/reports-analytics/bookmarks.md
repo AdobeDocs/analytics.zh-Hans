@@ -6,14 +6,16 @@ uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 8b923484-0988-4271-8186-317bb33f2210
-source-git-commit: 029c6b168756448d01d73dd5e92cbe9df70e3f57
-workflow-type: ht
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 100%
 
 ---
 
 # 书签管理器
+
+{{ra-eol}}
 
 书签可让您访问最常用的报表。创建的书签会添加到 Experience Cloud 中，并可在 Data Connectors 等集成功能中使用。
 

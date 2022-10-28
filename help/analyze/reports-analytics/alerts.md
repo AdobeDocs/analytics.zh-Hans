@@ -3,17 +3,19 @@ description: 在Reports & Analytics中使用警报。
 subtopic: Alerts
 title: 警报
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
-feature: 警报
+feature: Alerts
 role: User, Admin
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '837'
 ht-degree: 96%
 
 ---
 
 # 警报
+
+{{ra-eol}}
 
 ## 警报 {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
@@ -22,7 +24,7 @@ ht-degree: 96%
 * 构建基于异常的警报（90%、95% 或 99% 阈值；% 更改；以上/以下）。
 * 预览警报触发的频率。
 * 通过含链接的电子邮件或短信将警报发送到自动生成的 Analysis Workspace 项目。
-* 创建可在一个警报中捕获了多个量度的“堆栈式”警报。
+* 创建可在一个警报中捕获了多个指标的“堆栈式”警报。
 
 您可以通过 Reports &amp; Analytics 的任何报表中的&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 警报]**，访问此新的警报系统。
 

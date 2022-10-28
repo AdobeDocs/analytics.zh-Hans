@@ -2,17 +2,19 @@
 description: 运行报表后，您可以自定义报表，以根据需要查看和分析数据。您可以过滤报表数据，以图形方式更改数据的呈现方式，更改日期粒度等。
 title: 自定义报表概述
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
-feature: Reports & Analytics 基础知识
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 99%
+source-wordcount: '921'
+ht-degree: 100%
 
 ---
 
 # 自定义报表概述
+
+{{ra-eol}}
 
 运行报表后，您可以自定义报表，以根据需要查看和分析数据。您可以过滤报表数据，以图形方式更改数据的呈现方式，更改日期粒度等。
 
@@ -86,7 +88,7 @@ t_reports_comparing_dates.xml
 
 >[!NOTE]
 >
-> 如果您想对功能板中的关键量度执行日期比较，则可以使用两个不同的请求，将数据提取到 [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=zh-Hans) 中。然后，可以在 Excel 中使用自定义公式来分析二者的差异。
+> 如果您想对功能板中的关键量度执行日期比较，则可以使用两个不同的请求，将数据提取到 [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) 中。然后，可以在 Excel 中使用自定义公式来分析二者的差异。
 
 要比较“Reports &amp; Analytics”中排名报表之间的日期，请执行以下操作：
 
@@ -223,4 +225,4 @@ try_in_workspace.xml
 
 目前，仅当您的用户名拥有 Analysis Workspace 的完整访问权限时，该按钮才可用。
 
-有关可以自定义报表的所有方法的更多信息，请参阅 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans) 指南。
+有关可以自定义报表的所有方法的更多信息，请参阅 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) 指南。
