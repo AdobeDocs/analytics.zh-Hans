@@ -3,9 +3,9 @@ description: 了解如何使用报表活动管理器诊断和修复在报表高�
 title: 报表活动管理器
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: 7c66414129e262954e5521a28b878424099ac6ad
+source-git-commit: 0ace6f453e08557be4fe61e35c542abaee8374f2
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '942'
 ht-degree: 36%
 
 ---
@@ -45,6 +45,8 @@ ht-degree: 36%
 | **[!UICONTROL 虚拟报表包]** | 显示馈送到此基础报表包中的所有虚拟报表包。 由于额外施加多层筛选和分段，因此虚拟报表包提高了报表请求的复杂性。所有来自虚拟报表包的请求合并归入基础报表包。<p>例如，如果您有10个请求来自5个VRS，则这是基础级别报表包中的50个请求。 这样即可很快达到容量。 |
 | **[!UICONTROL 使用容量]** | 百分比，实时使用了多少报表包的报表容量。 |
 | **[!UICONTROL 状态]** | 四种可能的状态指示符： <ul><li>**红色 —  [!UICONTROL 容量]**:报表包的报告容量已达到最大值。 (95% - 100%) </li><li>**黄色 —  [!UICONTROL 接近容量]**:此报表包有达到最大容量的危险。 (90% - 94%)</li><li>**绿色 —  [!UICONTROL 一切都好]**:报告能力很强。 (0% - 90%)</li><li>**灰色 —  [!UICONTROL 状态待定]**:?</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### 其他报表活动操作
 
