@@ -3,10 +3,10 @@ description: 了解如何使用报表活动管理器诊断和修复在报表高�
 title: 报表活动管理器
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: 0ace6f453e08557be4fe61e35c542abaee8374f2
+source-git-commit: fa76e9cce0161e0efd2e95e87da5cddb6a612d8b
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 36%
+source-wordcount: '919'
+ht-degree: 37%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 36%
 | **[!UICONTROL 报表包]** | 基础报表包 您正在监控其报表活动。 |
 | **[!UICONTROL 虚拟报表包]** | 显示馈送到此基础报表包中的所有虚拟报表包。 由于额外施加多层筛选和分段，因此虚拟报表包提高了报表请求的复杂性。所有来自虚拟报表包的请求合并归入基础报表包。<p>例如，如果您有10个请求来自5个VRS，则这是基础级别报表包中的50个请求。 这样即可很快达到容量。 |
 | **[!UICONTROL 使用容量]** | 百分比，实时使用了多少报表包的报表容量。 |
-| **[!UICONTROL 状态]** | 四种可能的状态指示符： <ul><li>**红色 —  [!UICONTROL 容量]**:报表包的报告容量已达到最大值。 (95% - 100%) </li><li>**黄色 —  [!UICONTROL 接近容量]**:此报表包有达到最大容量的危险。 (90% - 94%)</li><li>**绿色 —  [!UICONTROL 一切都好]**:报告能力很强。 (0% - 90%)</li><li>**灰色 —  [!UICONTROL 状态待定]**:?</li></ul> |
+| **[!UICONTROL 状态]** | 四种可能的状态指示符： <ul><li>**红色 —  [!UICONTROL 容量]**:报表包的报告容量已达到最大值。 (100%) </li><li>**黄色 —  [!UICONTROL 接近容量]**:此报表包有达到最大容量的危险。 (90% - 99%)</li><li>**绿色 —  [!UICONTROL 一切都好]**:报告能力很强。 (0% - 89%)</li><li>**灰色 —  [!UICONTROL 状态挂起/未启用]**:报告容量不可用。</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -86,11 +86,11 @@ ht-degree: 36%
 
 | 摘要数字 | 描述 |
 | --- | --- |
-| 用户 | 当前向此报表包发送报表请求的用户数。 |
-| 项目 | 工作区项目、Report Builder工作簿等 |
-| 查询 | 当前正在运行的查询数。 |
-| 平均等待时间 | 所有运行查询的平均等待时间。 |
-| 使用容量 | 此报表包的当前使用容量。 |
+| [!UICONTROL 用户] | 当前向此报表包发送报表请求的用户数。 |
+| [!UICONTROL 项目] | 工作区项目、Report Builder工作簿等 |
+| [!UICONTROL 查询] | 当前正在运行的查询数。 |
+| [!UICONTROL 平均等待时间] | 所有运行查询的平均等待时间。 |
+| [!UICONTROL 使用容量] | 此报表包的当前使用容量。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -100,17 +100,17 @@ ht-degree: 36%
 
 | 栏目 | 描述 |
 | --- | --- |
-| 查询ID | 可用于故障诊断。 |
-| 运行时间 | 查询运行的时长。 |
-| 等待时间 | 查询在处理之前已等待多长时间。 通常为“0”时，容量足够。 |
-| 开始时间 | 查询开始处理时（管理员的本地时间）。 |
-| 应用程序 | 报表活动管理器支持的应用程序包括： <ul><li>Analysis Workspace UI</li><li>工作区计划项目</li><li>Report Builder</li><li>生成器UI:区段、计算量度、批注、受众等</li><li>来自1.4或2.0 API的API调用（5个并发请求）</li><li>智能警报</li></ul> |
-| 用户 | 启动查询的用户。 |
-| 项目 | 工作区项目、Report Builder工作簿等 |
-| 月份边界 | 请求跨越的月边界数。 这增加了请求的复杂性。 |
-| 列 | 工作区中用于衡量请求复杂性的量度和划分数量。 |
-| 区段 | 此请求应用了多少个区段。 这增加了请求的复杂性。 |
-| 状态 | 四种可能的状态指示符： <ul><li>**红色 —  [!UICONTROL 容量]**:报表包的报告容量已达到最大值。 （95%及以上）</li><li>**黄色 —  [!UICONTROL 接近容量]**:此报表包有达到其最大容量(90% - 95%)的危险。</li><li>**绿色 —  [!UICONTROL 一切都好]**:报告能力很强。</li><li>**[!UICONTROL 状态待定]**:状态不可用。</li></ul> |
+| [!UICONTROL 查询ID] | 可用于故障诊断。 |
+| [!UICONTROL 运行时间] | 查询运行的时长。 |
+| [!UICONTROL 等待时间] | 查询在处理之前已等待多长时间。 通常为“0”时，容量足够。 |
+| [!UICONTROL 开始时间] | 查询开始处理时（管理员的本地时间）。 |
+| [!UICONTROL 应用程序] | 报表活动管理器支持的应用程序包括： <ul><li>Analysis Workspace UI</li><li>工作区计划项目</li><li>Report Builder</li><li>生成器UI:区段、计算量度、批注、受众等</li><li>来自1.4或2.0 API的API调用</li><li>智能警报</li></ul> |
+| [!UICONTROL 用户] | 启动查询的用户。 |
+| [!UICONTROL 项目] | 保存的工作区项目名称、API报表ID等。 （元数据可能会在各种应用程序中有所不同。） |
+| [!UICONTROL 月份边界] | 请求跨越的月边界数。 这增加了请求的复杂性。 |
+| [!UICONTROL 列] | 工作区中用于衡量请求复杂性的量度和划分数量。 |
+| [!UICONTROL 区段] | 此请求应用了多少个区段。 这增加了请求的复杂性。 |
+| [!UICONTROL 状态] | 状态指标： <ul><li>**正在运行**:请求当前正在处理中。</li><li>**待定**:请求正在等待处理。</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -134,6 +134,5 @@ ht-degree: 36%
 | 问题 | 回答 |
 | --- | --- |
 | 我是否可以购买其他报告容量？ | 此功能将在不久的将来提供。 |
-| 其他问题？ |  |
 
 {style=&quot;table-layout:auto&quot;}
