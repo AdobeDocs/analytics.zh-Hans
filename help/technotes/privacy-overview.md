@@ -4,10 +4,10 @@ keywords: 隐私
 title: 隐私概述
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
-source-wordcount: '829'
-ht-degree: 100%
+source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
+workflow-type: tm+mt
+source-wordcount: '791'
+ht-degree: 93%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Analytics 收集以下数据：
 | 操作系统 | 是 |
 | ISP/连接速度 | 是 |
 | 显示设置（例如屏幕大小和分辨率） | 是 |
-| IP 地址（用于估算位置） | 是* |
+| IP 地址（用于估算位置） | 是&#42; |
 | 消费者在客户网站上的表格中提供的信息 | 是 |
 | 消费者在社交网站上的表格中提供的信息 | **否** |
 | 消费者是否点击了广告 | 是 |
@@ -49,7 +49,7 @@ Adobe Analytics 收集以下数据：
 | 广告促销成功率 | 是 |
 | 产品信息，例如颜色、价格、样式、照片 | 是 |
 
-*除非 Adobe 客户选择删除 IP。
+&#42;除非Adobe客户选择删除IP。
 
 ## 其他隐私注意事项 {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
 
@@ -103,7 +103,7 @@ Adobe Analytics 收集以下数据：
   </tr> 
   <tr> 
    <td colname="col1"> 德国 </td> 
-   <td colname="col2"> <p>如果客户尚未与 Adobe 就 Adobe Analytics 签订数据处理协议 (Data Processing Agreement)，则应与 Adobe 客户经理或客户成功经理取得联系，他们会与 Adobe 法律部合作，协助签订 DPA。 </p> <p>Adobe 就 Analytics 准备了一份数据处理协议 (Vertrag fuer Auftragsdatenverarbeitung – ADV)，该协议已通过巴伐利亚数据保护局 (Bayerisches Landesamt fuer Datenschutzaufsicht – BayLDA) 的审查和批准。ADV 以德语和英语提供。 </p> </td> 
+   <td colname="col2"> <p>如果您尚未与Adobe Analytics签订Adobe处理协议，则应联系您的Adobe客户经理或客户成功经理，他们将与Adobe法律部门合作，以实施DPA。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -134,7 +134,7 @@ Adobe Analytics 收集以下数据：
    <td colname="col1"> LON5 </td> 
    <td colname="col2"> <p>3 Centro </p> <p>Boundary Way </p> <p>Hemel Hempstead HP2 7SU </p> <p>UK </p> </td> 
    <td colname="col3"> <p>Colocation Facility </p> <p>(Gyron) </p> </td> 
-   <td colname="col4"> <p>Multichannel Analytics, </p> <p>Digital Analytics </p> </td> 
+   <td colname="col4"> <p>多渠道分析、 </p> <p>Digital Analytics </p> </td> 
    <td colname="col5"> SSAE 16 </td> 
   </tr> 
  </tbody> 

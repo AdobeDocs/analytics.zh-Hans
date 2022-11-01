@@ -3,9 +3,9 @@ description: 了解如何使用报表活动管理器诊断和修复在报表高�
 title: 报表活动管理器
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: 1f42ca083346f673f6685ca43f361b19c644975d
+source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '928'
 ht-degree: 33%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 33%
 
 ## 权限
 
-您需要Analytics系统管理员权限才能管理报表活动。 产品管理员访问权限不足。
+您需要Analytics产品管理员权限才能管理报表活动。
 
 ## 查看报表队列
 
@@ -118,7 +118,7 @@ ht-degree: 33%
 
 取消请求
 
-1. 选中一个或多个复选框左侧的复选框 **[!UICONTROL 查询ID]** ，然后单击 **[!UICONTROL 取消请求]** 在底部。
+1. 选中一个或多个复选框左侧的复选框 **[!UICONTROL 查询ID]** ，然后单击 **[!UICONTROL 取消请求]** 在底部。 (您还可以通过查看 [!UICONTROL 用户], [!UICONTROL 项目]或 [!UICONTROL 应用程序].)
 1. 在 **[!UICONTROL 取消x查询]** 窗口，您可以根据需要修改取消消息。
 1. 单击&#x200B;**[!UICONTROL 继续]**。
 
@@ -127,7 +127,6 @@ ht-degree: 33%
 例如，工作区中的应用程序用户将看到以下通知显示在其项目中：
 
 ![cancel-user-notice](assets/cancel-user-facing.png)
-
 
 ## 常见问题解答
 
