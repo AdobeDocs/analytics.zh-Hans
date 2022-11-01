@@ -3,7 +3,7 @@ title: 创建数据层
 description: 了解 Analytics 实施中的数据层，以及如何在 Adobe Analytics 中使用它来映射变量。
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 6a43a24cfe6a2a7f92a9613898660df41daf2c89
+source-git-commit: 571192e27972f2bc15912481f9a578427e1c1cfb
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 60%
@@ -27,6 +27,7 @@ ht-degree: 60%
    >[!NOTE]
    >
    > 是否遵循 Adobe 推荐的数据层规范是可选的。如果您已经有一个数据层，或者选择不遵循 Adobe 提供的规范，请确保贵组织与要遵循的规范保持一致。
+
 1. **使用浏览器控制台验证数据层**：创建数据层后，您可以使用任意浏览器的开发人员控制台来验证数据层是否可正常使用。在大多数浏览器中，您都可以使用 `F12` 键打开开发人员控制台。`adobeDataLayer.page.title` 是一个示例变量值。
 1. **使用Adobe Experience Platform数据收集将数据层对象映射到数据元素**:此步骤因贵组织的实施方法而异：
    * **如果使用Web SDK**:将所需数据层对象映射到Adobe Experience Platform Edge中的所需XDM字段。 请参阅 [Analytics变量映射](../aep-edge/variable-mapping.md) 以确定所需的数据层映射。

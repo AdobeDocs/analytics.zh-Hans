@@ -3,10 +3,10 @@ title: 实施 Adobe Analytics
 description: 在您的网站、属性或应用程序上实施 Adobe Analytics。
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: ht
-source-wordcount: '430'
-ht-degree: 100%
+source-git-commit: be00ae15cfcd1afb1ecf225c9dff82e969bb5127
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 88%
 
 ---
 
@@ -32,9 +32,10 @@ Adobe 需要在您的网站或应用程序上实施相应代码，才能将数�
 
 Adobe Analytics 需要在您的网站、移动应用程序或其他应用程序中实施相应代码，才能将数据发送到数据收集服务器。根据平台和贵组织的需求，可以通过多种方法来实施相应代码。
 
-* **Web SDK**：这是一种在实施 Adobe Analytics 时推荐使用的标准化方法。在 Adobe Experience Platform 数据收集中安装 Web SDK 扩展，在每个页面上使用加载器标签，并以组织方便的格式将数据发送到 Adobe Experience Platform Edge。Experience Edge 以正确的格式将传入数据转发到 Adobe Analytics。
+* **Web SDK扩展**:实施Adobe Analytics的标准化和推荐方法。 在 Adobe Experience Platform 数据收集中安装 Web SDK 扩展，在每个页面上使用加载器标签，并以组织方便的格式将数据发送到 Adobe Experience Platform Edge。Experience Edge 以正确的格式将传入数据转发到 Adobe Analytics。
+* **Web SDK**:如果您不想使用Adobe Experience Platform数据收集，则可以在网站上手动加载Web SDK库。 在每个页面上引用Web SDK库，并将所需的跟踪调用发送到Adobe Experience Edge。
 * **Adobe Analytics 扩展**：在 Adobe Experience Platform 数据收集中安装 Adobe Analytics 扩展。该方法会在每个页面上设置一个加载器标记，并使用 Analytics 扩展来确定每个变量的定义方式。
-* **旧版 JavaScript**：实施 Adobe Analytics 的历史手动方法。概述实施中使用的变量和设置，对于使用自定义代码规则的标记实施很有用。
+* **旧版 JavaScript**：实施 Adobe Analytics 的历史手动方法。概述实施中使用的变量和设置，对于使用自定义代码规则的 实施很有用。
 * **Mobile SDK**：专用库，可轻松将数据从您的移动设备应用程序中发送到 Adobe。
 
 ## 重要 Analytics 实施文章
