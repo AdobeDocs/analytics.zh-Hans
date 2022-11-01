@@ -3,28 +3,31 @@ title: currencyCode 变量是什么以及怎样使用它？
 description: 对于电子商务网站，设置页面交易的货币。
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: f659d1bde361550928528c7f2a70531e3ac88047
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 93%
+source-wordcount: '955'
+ht-degree: 72%
 
 ---
 
 # currencyCode
 
-对于商业网站，收入和货币是 Analytics 的重要组成部分。很多网站（尤其是跨多个国家/地区的网站）都会使用多种不同的货币。使用 `currencyCode` 变量可确保按正确的币种计算收入。
+对于商业网站，收入和货币是 Analytics 的重要组成部分。很多网站（尤其是跨多个国家/地区的网站）都会使用多种不同的货币。使用 `currencyCode` 变量来确保收入归因为正确的货币。
 
-如果未定义 `currencyCode` 但定义了货币值，则会将 [`products`](../page-vars/products.md) 变量和货币事件视为与报表包中使用的货币相同。要了解报表包中使用的货币，请参阅《管理员用户指南》中的[常规帐户设置](/help/admin/admin/general-acct-settings-admin.md)。
+货币兑换在每次点击时都使用以下逻辑。 这些步骤适用于收入值设置 [`products`](../page-vars/products.md) 变量和在中列为“货币”的所有事件 [成功事件](/help/admin/admin/c-success-events/success-event.md) 下。
 
-如果 `currencyCode` 已定义并且与报表包中使用的货币相一致，则无需进行货币换算。
+* 如果 `currencyCode` 未定义，则Adobe会假定所有货币值都是报表包中使用的货币。 请参阅 [一般帐户设置](/help/admin/admin/general-acct-settings-admin.md) ，以查看报表包的货币。
+* 如果 `currencyCode` 已定义并且与报表包中使用的货币相一致，则无需进行货币换算。
+* 如果 `currencyCode` 已定义并且与报表包中使用的货币不同，则 Adobe 会根据当天的汇率进行货币换算。Adobe 与 [XE](https://xe.com) 合作，共同开展每日的货币换算工作。报表包中存储的所有值均以报表包中使用的货币表示。
+* 如果 `currencyCode` 设置为无效值， **整个点击被丢弃，从而导致数据丢失。** 确保在使用时正确定义此变量。
 
-如果 `currencyCode` 已定义并且与报表包中使用的货币不同，则 Adobe 会根据当天的汇率进行货币换算。Adobe 与 [XE](https://xe.com) 合作，共同开展每日的货币换算工作。数据收集服务器中存储的所有值最终都将以报表包中使用的货币进行存储。
+此变量不会在点击中持久保留。 确保在涉及收入或货币事件且与报表包的默认货币不匹配的每个页面上定义此变量。
 
->[!WARNING]
+>[!NOTE]
 >
->如果 `currencyCode` 包含无效值，则整个点击都会被丢弃，从而导致数据丢失。如果要在实施中使用此变量，请确保正确定义此变量。
+>虽然不同页面之间的货币代码会发生更改，但单次点击中的所有货币量度必须使用相同的货币。
 
-此变量不会在点击之间保留。确保在涉及收入或货币事件的每个页面上定义此变量。
+句点 **必须** 在实施此变量时，将用作所有货币的货币分隔符。 例如，必须将通常显示逗号分隔符的瑞典克朗修改为使用 `products` 变量和所有货币事件。 Adobe在报表中显示正确的货币分隔符。
 
 ## 使用Web SDK的货币代码
 
@@ -53,7 +56,7 @@ ht-degree: 93%
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.currencyCode
 
-`s.currencyCode` 变量是一个字符串，其中包含由 3 个大写字母构成的表示页面上所用货币的代码。
+`s.currencyCode` 变量是一个字符串，其中包含由 3 个大写字母构成的表示页面上所用货币的代码。值区分大小写。
 
 ```js
 s.currencyCode = "USD";
@@ -61,7 +64,7 @@ s.currencyCode = "USD";
 
 以下货币代码有效：
 
-| 货币代码 | 货币说明 |
+| 货币代码 | 标签 |
 | --- | --- |
 | `AED` | 阿联酋迪拉姆 |
 | `AFA` | 阿富汗阿富汗尼 |
