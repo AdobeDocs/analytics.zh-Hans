@@ -3,9 +3,9 @@ description: 虚拟报表包可对您的 Adobe Analytics 数据进行分段，�
 title: 虚拟报表包概述
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: 41811cb8c9b67452556364959f24d75cfc7ddc9e
+source-git-commit: f48c7c404312562ad4f443af8e7c7643e5d3f17b
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '807'
 ht-degree: 95%
 
 ---
@@ -59,6 +59,8 @@ ht-degree: 95%
 | 支持创建 DL 报表、书签、功能板、目标、警报、区段和计算量度... | 是 | 是 |
 | 可单独添加至权限群组 | 是 | 是 |
 | 可使用“管理员”功能修改此报表包的各个设置（管理员 > 报表包） | 否（从父项继承设置） | 是 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 将虚拟报表包与多包标记结合使用 {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
