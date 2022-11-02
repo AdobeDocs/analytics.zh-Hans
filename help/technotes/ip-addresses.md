@@ -3,10 +3,10 @@ title: Adobe Analytics 使用的 IP 和域
 description: 如果贵组织的防火墙阻止源自 Adobe 的 IP 地址，请使用此列表更新您的防火墙设置。
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 7f55b7d0fae6031088cd31d9605a9b47aa5fce9f
+source-git-commit: 0a66bc86ee68259fdb5835bf7bccd9b5e9455990
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 79%
+source-wordcount: '400'
+ht-degree: 72%
 
 ---
 
@@ -33,9 +33,9 @@ Adobe Analytics 使用以下主机来改进性能和产品体验。Adobe建议�
 | Microsoft Azure Blob 存储 | `awaascicdprodva7.blob.core.windows.net` |
 | Microsoft Azure CDN | `aauicdnva7.azureedge.net` |
 
-## 所有 Adobe Analytics 数据收集 IP 地址块
+## 所有Adobe Analytics IP地址块
 
-下表介绍了 Adobe Analytics 的所有标准数据收集服务器以及区域数据收集服务器。它们不包括单个 AWS 主机。
+下表涵盖用于Adobe Analytics的所有Adobe拥有的IP地址。 它们不包括公共云中托管的所有服务。
 
 | IP 块（CIDR 表示法） |
 | --- |
@@ -43,6 +43,7 @@ Adobe Analytics 使用以下主机来改进性能和产品体验。Adobe建议�
 | `66.117.16.0/20` |
 | `66.235.128.0/19` |
 | `130.248.0.0/16` |
+| `185.34.188.0/22` |
 
 ## 数据收集和 FTP IP 地址块
 
