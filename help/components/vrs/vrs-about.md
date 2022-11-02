@@ -3,10 +3,10 @@ description: 虚拟报表包可对您的 Adobe Analytics 数据进行分段，�
 title: 虚拟报表包概述
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+source-git-commit: 41811cb8c9b67452556364959f24d75cfc7ddc9e
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 100%
+source-wordcount: '804'
+ht-degree: 95%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 | 功能 | 虚拟报表包 | 多包标记 |
 |--- |--- |--- |
 | 提供实时或“当前数据”报表 | 否 | 是 |
-| 在所有 Analytics 工具（Analysis Workspace、Report Builder 等等）中工作 | 是。**注意：**&#x200B;您只能在“Reports &amp; Analytics”中编辑和标识虚拟报表包。但是，在其他工具中，您可以从报表包下拉菜单中选择虚拟报表包。 | 是 |
+| 在所有 Analytics 工具（Analysis Workspace、Report Builder 等等）中工作 | 是。**注意：** 您只能在 [!UICONTROL Analytics] > [!UICONTROL 组件] > [!UICONTROL 虚拟报表包]. 但是，在其他工具中，您可以从报表包下拉菜单中选择虚拟报表包。<p>**重要信息**:当前，Adobe Report Builder不支持具有报表时间处理和变量自定义功能的虚拟报表包。 | 是 |
 | 可向其上载数据（通过 分类、数据馈送等） | 否 | 是 |
 | 支持创建 DL 报表、书签、功能板、目标、警报、区段和计算量度... | 是 | 是 |
 | 可单独添加至权限群组 | 是 | 是 |
