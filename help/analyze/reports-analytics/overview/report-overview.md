@@ -6,8 +6,8 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '415'
+workflow-type: tm+mt
+source-wordcount: '407'
 ht-degree: 100%
 
 ---
@@ -27,13 +27,13 @@ ht-degree: 100%
 
 页面报表示例（**[!UICONTROL 报表]** > **[!UICONTROL 网站内容]** > **[!UICONTROL 页面报表]** > **[!UICONTROL 页面]**）。
 
-![](assets/pages_report.png){width=&quot;672px&quot;}
+![](assets/pages_report.png){width="672px"}
 
 ## 报表工具栏 {#section_0D674177AE6C4A71B07234DB25910ECD}
 
 与可根据数据更改网站或营销策略的决策人共享报表数据。
 
-![](assets/toolbar.png){width=&quot;672px&quot;}
+![](assets/toolbar.png){width="672px"}
 
 另请参阅[自定义报表](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)。
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 显示报表设置，并且允许您配置报表类型、选择量度等。此组中的可用选项因运行的报表而变化。
 
-![](assets/settings_header.png){width=&quot;672px&quot;}
+![](assets/settings_header.png){width="672px"}
 
 有关更多信息，请参阅[自定义报表](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)。
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 通过单击日历按钮并选择日期范围来指定日期。还可以选择两个时间范围以比较绩效。
 
-![](assets/calendar_large.png){width=&quot;672px&quot;}
+![](assets/calendar_large.png){width="672px"}
 
 请参阅[选择日期或日期范围](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)和[比较日期](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)。
 

@@ -6,8 +6,8 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '855'
+workflow-type: tm+mt
+source-wordcount: '853'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 报表是采用分层列视图导航的。单击&#x200B;**[!UICONTROL 查看所有报表]**，或按正斜杠键 (/)，然后按向下箭头键 (?)，可使用箭头键快速显示并导航菜单。按 Esc 键可在不更改当前报表的情况下关闭菜单，或按 Enter 可加载选定报表。
 
-![](assets/reports-landing.png){width=&quot;672px&quot;}
+![](assets/reports-landing.png){width="672px"}
 
 有关个别报表的详细信息，请参阅[维度](/help/components/dimensions/overview.md)。
 
