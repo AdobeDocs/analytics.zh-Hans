@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算指标、虚拟报表包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: f435453f655caef89460de42ebecf489b021dc47
+source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 98%
+source-wordcount: '696'
+ht-degree: 97%
 
 ---
 
@@ -30,6 +30,8 @@ ht-degree: 98%
    + [城市](dimensions/cities.md)
    + [颜色深度](dimensions/color-depth.md)
    + [连接类型](dimensions/connection-type.md)
+   + [同意管理选择加入](dimensions/cm-opt-in.md)
+   + [同意管理选择退出](dimensions/cm-opt-out.md)
    + [Cookie 支持](dimensions/cookie-support.md)
    + [国家/地区](dimensions/countries.md)
    + [自定义链接](dimensions/custom-link.md)

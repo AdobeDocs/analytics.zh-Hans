@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 数据列引用
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 5c178ebb86ffc932ecd90f427bd0a5e90fada1cb
-workflow-type: ht
-source-wordcount: '3526'
-ht-degree: 100%
+source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
+workflow-type: tm+mt
+source-wordcount: '3599'
+ht-degree: 97%
 
 ---
 
@@ -63,6 +63,8 @@ ht-degree: 100%
 | **`cust_hit_time_gmt`** | 仅限启用了时间戳的报表包。随点击发送的时间戳（基于 Unix 时间）。 | int |
 | **`cust_visid`** | 如果设置了自定义访客 ID，此 ID 会填充到该列中。 | varchar(255) |
 | **`daily_visitor`** | 确定点击是否为新的每日访客的标记。 | 无符号 tinyint |
+| **`dataprivacyconsentoptin`** | 在 [同意管理选择加入](/help/components/dimensions/cm-opt-in.md) 维度。 每次点击可以存在多个值，并用管道分隔(`|`)。 有效值包括 `DMP` 和 `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptout`** | 在 [同意管理选择退出](/help/components/dimensions/cm-opt-out.md) 维度。 每次点击可以存在多个值，并用管道分隔(`|`)。 有效值包括 `SSF`, `DMP`和 `SELL`. | varchar(100) |
 | **`date_time`** | 以可读格式表示的点击时间（基于报表包所在时区）。 | datetime |
 | **`domain`** | 在[域](/help/components/dimensions/domain.md)维度中使用的变量。基于访客的 Internet 接入点。 | varchar(100) |
 | **`duplicate_events`** | 列出计为重复的每个事件。 | varchar(255) |
@@ -201,9 +203,12 @@ ht-degree: 100%
 | **`socialownedpropertypropertyvsapp`** | 已不再使用。设计网站拥有的资产与应用程序 | varchar(255) |
 | **`state`** | 状态变量。 | varchar(50) |
 | **`stats_server`** | 没有用处。处理点击的 Adobe 内部服务器。 | char(30) |
+| **`survey`** | 已不再使用。Adobe Survey变量。 | 文本 |
+| **`survey_instances`** | 已不再使用。Adobe Survey实例变量。 | 文本 |
 | **`t_time_info`** | 访客的当地时间。格式为：`M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | **`tnt`** | 在 Adobe Target 集成中使用。表示所有当前符合条件的测试。格式为：`TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`。 | 文本 |
 | **`tnt_action`** | 在 Adobe Target 集成中使用。表示点击符合条件的所有测试。 | 文本 |
+| **`tnt_instances`** | 在 Adobe Target 集成中使用。Target实例变量。 | 文本 |
 | **`tnt_post_vista`** | 已不再使用。请改用 `post_tnt`。 | 文本 |
 | **`transactionid`** | 其中稍后可通过数据源上载各种数据点的唯一标识符。使用 [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 变量收集而得。 | 文本 |
 | **`truncated_hit`** | 表示图像请求已被截断的标记。表示收到了不完整的点击。<br>Y：点击被截断；收到部分点击<br>N：点击未被截断；收到完整点击 | char(1) |
@@ -268,7 +273,7 @@ ht-degree: 100%
 | **`visid_low`** | 与 `visid_high` 配合使用以唯一地标识某位访客。 | 无符号 bigint |
 | **`visid_new`** | 用于表示点击是否包含新生成的访客 ID 的标记。 | char(1) |
 | **`visid_timestamp`** | 如果访客 ID 是新生成的，则会提供用于表示访客 ID 生成时间的时间戳（基于 Unix 时间）。 | int |
-| **`visid_type`** | 不能用于外部用途；Adobe 内部用于处理优化。数字 ID，表示用于标识访客的方法。<br>0：自定义访客 ID 或未知/不适用<br>1：IP 和用户代理回退<br>2：HTTP 移动订户标头<br>3：旧版 Cookie 值 (`s_vi`)<br>4：回退 Cookie 值 (`s_fid`)<br>5：身份服务 | 无符号 tinyint |
+| **`visid_type`** | 不能用于外部用途；Adobe 内部用于处理优化。数字 ID，表示用于标识访客的方法。<br>`0`:自定义访客ID或未知/不适用<br>`1`:IP和用户代理回退 <br>`2`:HTTP移动订阅者标头 <br>`3`:旧版Cookie值(`s_vi`) <br>`4`:回退Cookie值(`s_fid`) <br>`5`:Identity Service | 无符号 tinyint |
 | **`visit_keywords`** | 在[搜索关键词](/help/components/dimensions/search-keyword.md)维度中使用的变量。此列使用 varchar(244) 的非标准字符限制容纳 Adobe 使用的后端逻辑。 | varchar(244) |
 | **`visit_num`** | 在[访问编号](/help/components/dimensions/visit-number.md)维度中使用的变量。起始值为 1，每当每个访客开始新的访问时，此项就会递增。 | 无符号 int |
 | **`visit_page_num`** | 在[点击深度](/help/components/dimensions/hit-depth.md)维度中使用的变量。用户每生成一次点击，该变量的值便会增加 1。每次访问后重置。 | 无符号 int |
