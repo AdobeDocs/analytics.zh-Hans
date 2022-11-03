@@ -1,9 +1,9 @@
 ---
 title: 同意管理选择退出
 description: 查看访客选择退出的隐私设置。
-source-git-commit: 49b2c144fea5786564ccb6dc70adead3bc669596
+source-git-commit: c305f74d5047db57509de8ff9ee03b8144009f5a
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '254'
 ht-degree: 5%
 
 ---
@@ -26,6 +26,6 @@ ht-degree: 5%
 
 Dimension项目包括以下三个值：
 
-* **`SSF`**:访客选择退出 [服务器端转发](/help/admin/admin/c-server-side-forwarding/ssf.md). 上下文数据变量时存在此维度项目 `cm.ssf` 等于 `1`. 请参阅 [数据隐私概述](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html) （详细信息）Audience Manager用户指南中。
-* **`DMP`**:访客选择退出共享到数据管理平台。 上下文数据变量时存在此维度项目 `opt.dmp` 等于 `N`. 点击不会转发到Adobe Audience Manager。
+* **`SSF`**:访客选择退出 [服务器端转发](/help/admin/admin/c-server-side-forwarding/ssf.md). 上下文数据变量时存在此维度项目 `cm.ssf` 等于 `1`. 请参阅 [数据隐私概述](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html) （详细信息）Audience Manager用户指南中。 点击不会转发到Adobe Audience Manager。
+* **`DMP`**:访客选择退出共享到数据管理平台。 上下文数据变量时存在此维度项目 `opt.dmp` 等于 `N`. 类似于 `SSF`，则不会将点击转发到Adobe Audience Manager。
 * **`SELL`**:访客选择退出向第三方共享或出售数据。 上下文数据变量时存在此维度 `opt.sell` 等于 `N`.
