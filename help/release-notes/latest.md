@@ -6,19 +6,19 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 7c66414129e262954e5521a28b878424099ac6ad
 workflow-type: tm+mt
 source-wordcount: '1426'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
-# 最新Adobe Analytics发行说明（2022年10月/11月）
+# 当前的 Adobe Analytics 发行说明（2022 年 10 月/11 月）
 
-**上次更新时间**：2022 年 10 月 28 日
+**上次更新日期**：2022 年 10 月 28 日
 
 Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
 ## Adobe Analytics 的新增或更新功能
 
-| 功能 | 描述 | [转出开始](releases.md) | [正式发布](releases.md) |
+| 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **[!UICONTROL 关键指标摘要]**&#x200B;可视化 | 通过[!UICONTROL 关键指标摘要]可视化，可了解某个重要的指标在单个时间范围内的趋势如何。通过它，还可比较指标在两个时间范围内的表现。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=zh-Hans) | 2022 年 10 月 5 日 | 2023 年 10 月 19 日 |
 | **不区分大小写的多值变量** | 对于不区分大小写的多值变量， `mvvar1 - mvvar3` 和 `post_mvvar1 - post_mvvar3` 中的数据馈送将不再自动转换为小写。 而是数据馈送（以及通过 Analytics Source Connector 传递到 Adobe Experience Platform 和 CJA 的数据）将反映从页面传入的原有大小写形式。 | 不适用 | 2022 年 10 月 24 日 |
@@ -27,13 +27,13 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 
 ## Adobe Analytics 中的修复
 
-* 修复了最近的MacOS版本被错误地命名为“Macintosh”的问题。 通过此修复，操作系统维度将开始使用“MacOS”版本编号（从 MacOS 11 开始）。(AN-301834)
-* 修复了“固定日期”日期范围在Report Builder中的问题。 (AN-303684)
-* 修复了数据馈送UI未加载的问题。 （AN-303803、AN-303784）
+* 修复了最近的 MacOS 版本被错误地命名为“Macintosh”的问题。通过此修复，操作系统维度将开始使用“MacOS”版本编号（从 MacOS 11 开始）。(AN-301834)
+* 修复了 Report Builder 中的“固定日期”日期范围的问题。(AN-303684)
+* 修复了数据馈送 UI 无法加载的问题。（AN-303803、AN-303784）
 
 ### 其他修复
 
--295574、AN-296354、AN-297143、AN-299501、AN-301755、AN-302054、AN-302304、AN-302631、AN-302811、AN-303090、AN-303372、AN-、AN-303428、AN-303429、AN-303432、AN-303434、AN-303437、AN-303438、AN-303519、AN-303610、AN-303656、AN-303659、AN-303663、AN-303664、AN-303818、AN-303823、AN-303837、AN-304036、AN-304195、AN-304321、AN-304325、AN-304339、AN-304356、AN-304435、AN-304457、AN-304509、AN-304519、AN-304534
+AN-295574；AN-296354；AN-297143；AN-299501；AN-301755；AN-302054；AN-302304；AN-302631；AN-302811；AN-303090；AN-303372；AN-303428；AN-303429；AN-303432；AN-303434；AN-303437；AN-303438；AN-303519；AN-303610；AN-303656；AN-303659；AN-303663；AN-303664；AN-303818；AN-303823；AN-303837；AN-304036；AN-304195；AN-304321；AN-304325；AN-304339；AN-304356；AN-304435；AN-304457；AN-304509；AN-304519；AN-304534
 
 ## Adobe Analytics 管理员的重要注意事项
 
@@ -54,8 +54,8 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 | 产品或功能 EOL | 添加或更新日期 | 描述 |
 | --- | --- | --- |
 | **终止使用[!UICONTROL 发布列表]功能** | 2022 年 9 月 29 日 | 作为终止使用 Reports and Analytics 的一部分，预计在 **2023 年 12 月**&#x200B;终止使用发布列表。您将无法创建新的发布列表或访问现有的发布列表以发送或安排 Analysis Workspace 项目。[了解详情](/help/admin/admin/publishing-list.md) |
-| **Data Workbench 的生命周期结束日期** | 2022 年 9 月 14 日 | Adobe 打算在 **2023 年 12 月 31 日**&#x200B;结束 Data Workbench 的生命周期。请参阅 [Data Workbench生命周期终止公告](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) 以了解详细信息。 如有任何问题，请联系贵组织的Adobe客户经理。 |
-| **[!DNL Reports & Analytics]** 的 EOL | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起，Adobe 决定中断 [!DNL Reports & Analytics] 及其随附的报告和功能。支持 [!DNL Reports & Analytics] 的报表、可视化图表和底层技术不再满足 Adobe 的技术标准。大部分 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans) 中都可用。自 2015 年发布 Analysis Workspace 以来，[!DNL Reports & Analytics] 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)阐明生命周期结束的过程。 |
+| **Data Workbench 的生命周期结束日期** | 2022 年 9 月 14 日 | Adobe 打算在 **2023 年 12 月 31 日**&#x200B;结束 Data Workbench 的生命周期。请参阅 [Data Workbench 生命周期结束公告](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html)以了解详情。如有任何问题，请与您组织的 Adobe 客户经理联系。 |
+| **[!DNL Reports & Analytics]** 的 EOL | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起，Adobe 决定中断 [!DNL Reports & Analytics] 及其随附的报告和功能。支持 [!DNL Reports & Analytics] 的报表、可视化图表和底层技术不再满足 Adobe 的技术标准。大部分 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) 中都可用。自 2015 年发布 Analysis Workspace 以来，[!DNL Reports & Analytics] 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)阐明生命周期结束的过程。 |
 
 {style=&quot;table-layout:auto&quot;}
 
