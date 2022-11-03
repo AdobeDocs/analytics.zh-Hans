@@ -6,7 +6,7 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ t_reports_select_date.xml
    * 手动输入日期。
    * 单击某个月名选择月份。
    * 单击&#x200B;**[!UICONTROL 选择预设]**&#x200B;选择一个预设日期。
-   * 比较日期.
+   * 比较日期。
 
 1. 单击&#x200B;**[!UICONTROL 运行报告]**。
 
@@ -88,7 +88,7 @@ t_reports_comparing_dates.xml
 
 >[!NOTE]
 >
-> 如果您想对功能板中的关键量度执行日期比较，则可以使用两个不同的请求，将数据提取到 [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) 中。然后，可以在 Excel 中使用自定义公式来分析二者的差异。
+>如果您想对功能板中的关键量度执行日期比较，则可以使用两个不同的请求，将数据提取到 [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) 中。然后，可以在 Excel 中使用自定义公式来分析二者的差异。
 
 要比较“Reports &amp; Analytics”中排名报表之间的日期，请执行以下操作：
 
@@ -169,7 +169,7 @@ t_reports_compare_suites.xml
 * 访客资料
 * 自定义转换
 * 自定义流量
-* Target
+* 目标
 * 调查
 
 **比较报表包**
