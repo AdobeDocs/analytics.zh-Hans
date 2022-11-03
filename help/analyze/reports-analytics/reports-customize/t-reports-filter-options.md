@@ -6,9 +6,9 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -134,9 +134,9 @@ Ocean Blue Jean
 |--- |--- |
 | `" "` | 匹配确切的短语。 |
 | `*` | 通配符，属于贪婪匹配。<br>例如，`r*p` 与“Registration Signup”匹配。 |
-| `^` | 开始于. <br>不要在特殊字符与搜索短语之间包括空格。 |
-| `$` | 结束于. <br>不要在特殊字符与搜索短语之间包括空格。 |
-| `-` | 非. <br>不要在特殊字符与搜索短语之间包括空格。 |
+| `^` | 开始于。<br>不要在特殊字符与搜索短语之间包括空格。 |
+| `$` | 结束于。<br>不要在特殊字符与搜索短语之间包括空格。 |
+| `-` | 非。<br>不要在特殊字符与搜索短语之间包括空格。 |
 | `|` | 或者，<br>注意：必须在管道字符的两边各包括一个空格，即 `" | "`。 |
 
 ## 创建特定于报表的过滤器 {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
