@@ -4,10 +4,11 @@ description: 对 Adobe Analytics 文档集的重要更新。
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: d5c30102374e650f404ef31e105106dd22dd9c01
+mini-toc-levels: 3
+source-git-commit: 87e32cfdda69303939045b90a7984efafdf05b27
 workflow-type: tm+mt
-source-wordcount: '3545'
-ht-degree: 100%
+source-wordcount: '3550'
+ht-degree: 99%
 
 ---
 
@@ -16,14 +17,17 @@ ht-degree: 100%
 自 2019 年 1 月以来的 Adobe Analytics 文档集内容更新。
 
 * 有关 [!UICONTROL Customer Journey Analytics] 的信息，请转到[此处](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=zh-Hans)。
-* 有关 Adobe Analytics 新增功能、管理员通知和错误修复的完整列表，请参阅最新的 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)。
-* 有关 Adobe Analytics for Audio and Video 的信息，请参阅[在 Analytics 中测量音频和视频](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans)。
+* 有关Adobe Medium分析的信息，请参阅 [在Analytics中测量音频和视频](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans).
 
 ## 有关主要文档更新的详细信息
+
+### 2022 {#22}
 
 | 功能 | 描述 |
 | --- | --- |
 | **2022 年 10 月** |  |
+| Data Workbench | [生命周期终止公告](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=en) |
+| 客户端提示 | 新建 [概述和常见问题解答](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en). |
 | 关键指标摘要 | 关于[关键指标摘要](/help/analyze/analysis-workspace/visualizations/key-metric.md)可视化的新主题。 |
 | 分类集 | 新用户[分类集](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=zh-Hans)体验提供单个界面以管理分类和规则，并更容易看到客户拥有的分类数据。 |
 | 移动应用程序：自定义详细信息视图 | 关于[自定义详细视图](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-Hans)的新主题。 |
@@ -59,6 +63,11 @@ ht-degree: 100%
 | 移动记分卡项目预览模式 | 该[预览模式](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-Hans#preview)允许您在保存和共享记分卡之前预览体验。 |
 | API 项目端点 | 使用 API 添加、编辑或删除 Analysis Workspace 项目。[了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | 暂停旧版计划 Report Builder 任务更新主题 | **从 2022 年 4 月 15 日起**，Adobe 打算[暂停所有在大于两年之前创建的计划 Report Builder 任务](/help/analyze/report-builder/r-arb-scheduled-reports.md)。 |
+
+### 2021 {#21}
+
+| 功能 | 描述 |
+| --- | --- |
 | **2021 年 10 月** |  |
 | 2021 年 10 月 21 日 | 有关 Analysis Workspace 中的[快速区段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=zh-Hans)的新文档 |
 | 2021 年 10 月 21 日 | 有关 Analysis Workspace 中的[媒体播放耗时](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=zh-Hans)面板的新文档。 |
@@ -90,6 +99,11 @@ ht-degree: 100%
 | 2021 年 1 月 14 日 | 向 Analytics 功能板文档添加了语言选择选项。 |
 | 2021 年 1 月 14 日 | 新增有关如何通过引用公共图像 URL 将图像添加到工作区项目的文档。 |
 | 2021 年 1 月 14 日 | 合并了工作区可视化源和设置管理器：用于可视化的[!UICONTROL 数据源]管理器（点）和设置管理器（齿轮）已合并为单个弹出框，因此可轻松地从同一位置管理源和设置。 |
+
+### 2020 {#20}
+
+| 功能 | 描述 |
+| --- | --- |
 | **2020 年 12 月** |  |
 | 2020 年 12 月 7 日 | 修改了所有相关页面以包含或替换“adobedc.net”端点。 |
 | 2020 年 12 月 8 日 | 更新了工作区中的[创建新项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=zh-Hans)页面。 |
@@ -152,7 +166,11 @@ ht-degree: 100%
 | 2020 年 1 月 16 日 | 新增有关[自由格式表生成器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=zh-Hans)的文档。启用表生成器后，您可以通过拖放多个维度、细分、指标和区段来构建可解答更复杂业务问题的表。数据不会立即更新，相反，单击&#x200B;**[!UICONTROL 生成]**&#x200B;后才会进行更新，这样可在您知道自己要构建什么表的情况下节省您的时间。此外，此功能还提供：<ul><li>**预览**：您可以先预览表的格式，然后再花费时间渲染实际数据。</li><li>**灵活的行和划分设置**：您可以为每个维度行设置行级别和划分级别。以前，工作区施加了一些默认值，这些默认值在返回数据之前无法更改。</li><li>**按状态划分**：您可以将维度行设置为始终&#x200B;_按状态划分_&#x200B;而不是&#x200B;_按特定项目_（默认值）划分。</li><li>**手动静态行排序**：您可以手动对静态行进行排序，以使表行完全按照您的需要显示。以前，静态行只能按指标列或按字母顺序排序。</li></ul> |
 | 2020 年 1 月 13 日 | 添加了 [Adobe Analytics 和浏览器 Cookie](/help/technotes/cookies/cookies.md)。 |
 | 2020 年 1 月 13 日 | 修改了[我应该使用哪种 Adobe Analytics 工具](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=zh-Hans)页面。 |
-| **2019** |  |
+
+### 2019 {#19}
+
+| 功能 | 描述 |
+| --- | --- |
 | 2020 年 12 月 19 日 | 已将默认 [FTP 数据存储限制](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=zh-Hans)更改为 10 GB。 |
 | 2019 年 11 月 29 日 | 全面修订了[数据馈送文档](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 2019 年 11 月 25 日 | 新增了有关强制 IP 登录限制终止使用的主题。 |
