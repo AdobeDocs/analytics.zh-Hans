@@ -6,9 +6,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: 1529c173-b42c-4deb-8bb9-0e6b007f71d6
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '141'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -27,4 +27,4 @@ ht-degree: 74%
 
 ## 权限
 
-如果您没有看到 **[!UICONTROL Report Builder]** 作为 **[!UICONTROL 工具]**，请咨询Adobe Analytics管理员，以确保您是包含以下权限的产品配置文件的一部分：&quot;Report Builder&quot;。 了解有关[产品配置文件](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)和 [Analytics 权限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html)的详细信息。
+如果在&#x200B;**[!UICONTROL 工具]**&#x200B;下未看到 **[!UICONTROL Report Builder]** 菜单项，请咨询 Adobe Analytics 管理员，确保您是包含以下权限的产品配置文件的一部分：“Report Builder”。了解有关[产品配置文件](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)和 [Analytics 权限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html)的详细信息。
