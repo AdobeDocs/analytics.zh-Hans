@@ -1,12 +1,12 @@
 ---
 title: 定义您的 5 大 KPI
-description: 确保关键绩效指标和相关量度和维度与您的业务需求紧密一致。
+description: 确保您的关键绩效指标以及关联的量度和维度与业务需求保持紧密一致。
 feature: Implementation Basics
 exl-id: ca2af0ec-2719-4ee2-aa00-b48a54ee9e14
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
