@@ -3,10 +3,10 @@ description: Adobe Analytics 变量的数据隐私标签示例
 title: Analytics 变量的数据隐私标签
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
-source-wordcount: '3913'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '3909'
+ht-degree: 98%
 
 ---
 
@@ -177,7 +177,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
   <tr> 
    <td colname="col1"> <p>无 </p> </td> 
    <td colname="col2"> <p>此变量不包含将用于数据隐私请求的 ID。 </p> </td> 
-   <td colname="col3"> <p>只有此字段包含您将在通过 [隐私服务 API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) 或 UI 提交访问或删除请求时使用的 ID，才需要设置这些其他标签之一。 </p> </td> 
+   <td colname="col3"> <p>仅当此字段包含您在通过[Privacy ServiceAPI](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html)或UI提交访问或删除请求时将使用的ID时，才需要设置其他标签之一。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID-DEVICE </p> </td> 
@@ -206,7 +206,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 
 | 标签 | 定义 | 其他要求 |
 | --- | --- | --- |
-| 无 | 此变量不包含将用于数据隐私请求的 ID。 | 只有此字段包含您将在通过 [隐私服务 API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) 或 UI 提交访问或删除请求时使用的 ID，才需要设置这些其他标签之一。 |
+| 无 | 此变量不包含将用于数据隐私请求的 ID。 | 只有此字段包含您将在通过 [隐私服务 API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) 或 UI 提交访问或删除请求时使用的 ID，才需要设置这些其他标签之一。 |
 | ID-DEVICE | 此字段包含一个 ID，它可用于为数据隐私请求识别设备，但无法区分共享设备的不同用户。您不需要为包含 ID 的所有变量指定此标签（这是 I1/I2 标签的用途）。如果您使用存储在此变量中的 ID 提交数据隐私请求，并想要为指定的 ID 搜索此变量，请使用此标签。 | 还需要 I1 或 I2 标签.<ul><li>不能在事件中设置</li><li>不能在促销 eVar 中设置</li><li>不能在分类中设置</li></ul> |
 | ID-PERSON | 此字段包含一个 ID，它可用于为数据隐私请求识别经过身份验证的用户（特定人员）。您不需要为包含 ID 的所有变量指定此标签（这是 I1/I2 标签的用途）。如果您要使用存储在此变量中的 ID 提交数据隐私请求，并想要为指定的 ID 搜索此变量，请使用此标签。 | 还需要 I1 或 I2 标签.<ul><li>不能在事件中设置</li><li>不能在促销 eVar 中设置</li><li>不能在分类中设置</li></ul> |
 

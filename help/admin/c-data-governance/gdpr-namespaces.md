@@ -3,10 +3,10 @@ description: 您希望能够搜索的每个 ID 均分配有一个命名空间；
 title: 命名空间
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
-workflow-type: ht
-source-wordcount: '892'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '890'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 * “type”字段，它在大部分 Adobe Analytics 请求中包含值“analytics”。
 * “value”字段，其中包含 Analytics 应在每个报表包的关联命名空间变量中搜索的 ID。
 
-有关更多详细信息，请参阅 [Experience Cloud 数据隐私 API 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hans)。
+有关更多详细信息，请参阅 [Experience Cloud 数据隐私 API 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html)。
 
 ## Cookie ID
 

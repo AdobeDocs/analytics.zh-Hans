@@ -3,9 +3,9 @@ title: 归因最佳实践
 description: 确定归因模型的最佳实践是什么？
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
-source-wordcount: '430'
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '424'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!NOTE]
 >此分析需要在您选择归因模型之前进行。
 
-此阶段最初包括了解客户行为和定义转化量度。根据转化量度，[数据馈送](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=en)（针对原始数据）或 Analysis Workspace 等工具可以帮助您更好地理解：
+此阶段最初包括了解客户行为和定义转化量度。根据转化量度，[数据馈送](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=zh-Hans)（针对原始数据）或 Analysis Workspace 等工具可以帮助您更好地理解：
 
 * 在转化前有多少客户接触了不同的营销渠道。
 * 这些行为的比例/分布。
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 **示例 2**
 
-您的假设可能是：“在我们的行业（例如，旅游业）中，归因时段为 60 或 90 天，而不是 30 天，因为客户在购买产品之前会进行大量研究。”然后，您会将[回溯时段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=en#lookback-windows)更改为 90 天。
+您的假设可能是：“在我们的行业（例如，旅游业）中，归因时段为 60 或 90 天，而不是 30 天，因为客户在购买产品之前会进行大量研究。”然后，您会将[回溯时段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows)更改为 90 天。
 
 ## 步骤 3：使用算法归因
 
@@ -54,4 +54,4 @@ ht-degree: 100%
 
 * 您可能需要使用数据科学家的服务，而不是仅仅依靠 Analysis Workspace。
 * 您可以依赖原始数据，就像在 Adobe 数据馈送中一样。
-* 例如，如果您需要考虑展示数据，则可考虑使用 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en)。
+* 例如，如果您需要考虑展示数据，则可考虑使用 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hans)。

@@ -3,9 +3,9 @@ title: 迁移到 Adobe Analytics 的常见问题解答
 description: 获取有关从第三方平台迁移到 Adobe 的常见问题解答。
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
-source-git-commit: 1192a6a1e14e43aa2b434ac0b2675c73d249214a
-workflow-type: ht
-source-wordcount: '399'
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '397'
 ht-degree: 100%
 
 ---

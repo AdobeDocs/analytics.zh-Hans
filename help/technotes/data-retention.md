@@ -3,10 +3,10 @@ title: 数据保留策略
 description: 数据保留策略确定 Adobe 将您的数据存储多长时间。
 feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
-source-wordcount: '620'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '618'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe 作为您的数据处理者，必须采取适当措施协助其客户实�
 
 ## 查看/管理当前数据保留策略
 
-[!UICONTROL Admin] 工具中的“数据治理”对话框概述了为数据治理配置了哪些报表包。它还指示它们是否已映射到 Experience Cloud 组织，以及是否为此报表包制定了数据保留策略。[更多信息](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=zh-Hans)
+[!UICONTROL Admin] 工具中的“数据治理”对话框概述了为数据治理配置了哪些报表包。它还指示它们是否已映射到 Experience Cloud 组织，以及是否为此报表包制定了数据保留策略。[更多信息](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html)
 
 ## 常见问题解答
 

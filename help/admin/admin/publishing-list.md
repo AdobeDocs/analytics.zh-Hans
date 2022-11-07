@@ -4,9 +4,9 @@ title: 发布列表
 feature: Admin Tools
 uuid: 07dad661-c302-4981-80d1-3169ad1fe90e
 exl-id: 5c9a0ae7-742b-4247-bcbc-2e979af6160c
-source-git-commit: 2f14b9059601fd0b8d1603cb7dfc4a0b4a3ff55e
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '661'
 ht-degree: 49%
 
 ---
@@ -27,7 +27,7 @@ R&amp;A中计划在此日期终止使用的功能之一是发布列表。 日历
 
 * 如果您使用发布列表将同一版本的报表分发给多个用户（而不应用报表包覆盖）：
 
-   在Analysis Workspace中将报表重新创建为项目后，您可以使用为邮件客户端创建的联系人组或通讯组列表以及工作区的“计划项目”功能的组合来发送或计划项目的定期提交。 与发布列表一样，项目的PDF/CSV版本随后会被发送到组/列表中包含的每个电子邮件ID。 您可以进一步了解 [此处的计划项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html?lang=en#:~:text=Scheduled%20Analysis%20Workspace%20projects%20can,options%20in%20the%20left%20rail.).
+   在Analysis Workspace中将报表重新创建为项目后，您可以使用为邮件客户端创建的联系人组或通讯组列表以及工作区的“计划项目”功能的组合来发送或计划项目的定期提交。 与发布列表一样，项目的PDF/CSV版本随后会被发送到组/列表中包含的每个电子邮件ID。 您可以进一步了解 [此处的计划项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html#:~:text=Scheduled%20Analysis%20Workspace%20projects%20can,options%20in%20the%20left%20rail.).
 
 * 如果您使用发布列表将多个版本的报表或功能板分发给多个用户（通过报表包覆盖功能）：
 

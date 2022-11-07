@@ -3,10 +3,10 @@ description: 在 Analytics 中启用 AEM Assets 报表功能的管理步骤。
 title: 如何在 Adobe Analytics 中启用 AEM Assets 报告功能
 feature: AEM Assets Reporting
 exl-id: 48beac22-60af-4030-ac40-4c5d12f25d5e
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
-source-wordcount: '116'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 93%
 
 ---
 
@@ -22,4 +22,4 @@ ht-degree: 100%
 * 将新维度添加到 Analysis Workspace 中的资源变量：资源 ID、资源来源和已点击的资源 ID
 * 向资产事件中添加了以下新维度：“资产点击次数”和“资产展示次数”
 
-要填充数据，请参阅 [AEM 资产分析文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html?lang=zh-Hans)，以了解完整的实施说明。
+要填充数据，请参阅 [AEM 资产分析文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html)，以了解完整的实施说明。

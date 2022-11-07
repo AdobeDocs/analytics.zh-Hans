@@ -3,9 +3,9 @@ title: 在 Adobe Analytics 中删除机器人
 description: 如何删除 Adobe Analytics 中的机器人
 feature: Bot Removal
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
-source-wordcount: '797'
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '793'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-设置了数据元素之后，请按照[这些说明](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh-Hans)将声明的 ID 传递到使用 Adobe Experience Platform 中的标记的 ECID 工具中。
+设置了数据元素之后，请按照[这些说明](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)将声明的 ID 传递到使用 Adobe Experience Platform 中的标记的 ECID 工具中。
 
 ### 步骤 2：使用分段识别机器人
 

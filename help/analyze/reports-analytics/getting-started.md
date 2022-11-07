@@ -4,10 +4,10 @@ title: Reports and Analytics 快速入门
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: ht
-source-wordcount: '790'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '788'
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 100%
 | 信息类型 | 定义 |
 | --- | --- |
 | 联系方式 | 为您的帐户指定以下个人信息：<ul><li>名字（必填）</li><li>姓氏（必填）</li><li>标题</li><li>电子邮件地址（必填）</li><li>电话号码</li></ul> |
-| 登录 | 显示帐户用户名，并且通过它可更改帐户密码。另请参阅：[如何重置 Reports &amp; Analytics 帐户密码](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=zh-Hans)。 |
+| 登录 | 显示帐户用户名，并且通过它可更改帐户密码。另请参阅：[如何重置 Reports &amp; Analytics 帐户密码](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html)。 |
 | Web 服务 | 显示与此帐户关联的 Web 服务用户名和共享机密。在通过 Web 服务 API 访问 Experience Cloud 时使用这些凭据。有关详细信息，请参阅 Developer Connection。**注意：**&#x200B;仅在帐户被授权为 Web 服务用户时才显示此信息。 |
 | 排除此计算机 | 将一个 Cookie 应用于当前计算机，以将其从数据收集中排除。如果不想让在线活动影响域中的页面浏览次数和访客数，可使用此项。**注意：**&#x200B;要使用此功能，您的浏览器必须启用 Cookie。如果删除计算机上的 Cookie，则必须重新设置排除 Cookie。 |
 

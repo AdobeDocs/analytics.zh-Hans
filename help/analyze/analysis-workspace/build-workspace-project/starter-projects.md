@@ -4,9 +4,9 @@ title: 模板
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1311'
 ht-degree: 93%
 
 ---
@@ -137,7 +137,7 @@ ht-degree: 93%
 
 <!--This content is mirrored in the CDA doc.-->
 
-此模板可让您查看重要的跨设备性能数据。它仅适用于有权访问[Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=zh-Hans) (CDA) 的客户。
+此模板可让您查看重要的跨设备性能数据。它仅适用于有权访问[Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html) (CDA) 的客户。
 
 * **用户标识**：显示使用基于 Cross-Device Analytics 的方法识别网站访客的频率。
 * **测量受众规模**：显示“独特设备”与“人员”的对比。这两个数字的比例称为“跨设备压缩”，该计算量度在此面板中可见。此压缩量度取决于多种因素：

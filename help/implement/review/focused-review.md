@@ -3,10 +3,10 @@ title: 重点审查（每个网站发布后）
 description: 按照以下步骤操作以确保您的实施无误并与 KPI 保持一致。
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
-source-wordcount: '513'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '511'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 如果您最近添加或更改了任何量度或变量，您需要更新业务需求文档 (BRD) 和解决方案设计参考 (SDR)。
 
-如果您没有实施文档，请导出一个变量列表，并使用[此模板](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=zh-Hans#implementation)创建 BRD 或 SDR。
+如果您没有实施文档，请导出一个变量列表，并使用[此模板](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation)创建 BRD 或 SDR。
 
 ## 5. 立即解决您在数据质量方面发现的任何不足
 

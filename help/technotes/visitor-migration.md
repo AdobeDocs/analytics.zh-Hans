@@ -5,9 +5,9 @@ title: 访客迁移
 topic-fix: Developer and implementation
 feature: Analytics Basics
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '440'
 ht-degree: 97%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>在完成配置更改的 6 小时后</b>：更新您的 Analytics JavaScript 代码中的 <code> s.trackingServer</code> 和 <code> s.trackingServerSecure</code> 变量，从而使用新的数据收集服务器。 </p> </td> 
-   <td colname="col3"> <p>进行此更改后，使用 <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans">Experience Cloud Debugger</a> 验证 Analytics 图像请求传送到了更新后的数据收集服务器。 </p> </td> 
+   <td colname="col3"> <p>进行此更改后，使用 <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html">Experience Cloud Debugger</a> 验证 Analytics 图像请求传送到了更新后的数据收集服务器。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>更新 Analytics 代码之后立即执行</b>：测试网站，验证是否会重定向到之前的数据收集域。 </p> </td> 

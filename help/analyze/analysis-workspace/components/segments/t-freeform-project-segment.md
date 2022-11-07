@@ -4,10 +4,10 @@ title: 区段
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 931e9b0bd71abd852c515cd2e7d99dc9ae423a63
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 97%
+source-wordcount: '535'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 | --- | --- | --- | --- |
 | 组件列表区段 | 单击 +，这样即转到[区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md) | 您的所有工作区项目 | 对于更复杂的区段、顺序区段 |
 | 快速区段 | [快速区段生成器](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | [ 仅用于项目 ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F)，但可保存并添加到您的区段列表。 | 灵活地添加/编辑一条或多条规则 |
-| 临时区段： |  |  |  |
+| 临时区段: |  |  |  |
 | - Ad hoc Workspace项目区段 | [拖放到项目中的区段放置区域](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | [ 仅用于项目 ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F)，但可保存并添加到您的区段列表。 | 对于单规则区段 |
 | - 基于计算指标的区段 | [计算指标生成器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=zh-Hans) | 适用于个别计算指标 | 在您的指标定义中应用区段 |
 | - 基于 VRS 的区段 | [虚拟报表包生成器](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=zh-Hans) | 适用于个别虚拟报表包 | 在您的 VRS 定义中应用区段 |
@@ -77,7 +77,7 @@ ht-degree: 97%
 | 从选定范围中创建区段 | 创建内联区段。该区段只适用于打开的项目并且不能另存为 Analytics 区段。1. 选择行。2. 右键单击选定的内容。3. 单击&#x200B;*从选定范围中创建区段*。 |
 | 组件 > 新建区段 | 屏幕上会显示“区段生成器”。有关区段划分的更多信息，请参阅[区段生成器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hans)。 |
 | “共享”>“共享项目”或“共享”>“策划项目数据” | 在[组织并共享](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hans#concept_4A9726927E7C44AFA260E2BB2721AFC6)中，了解应用到项目中的区段如何用于为收件人提供的共享分析报表。 |
-| 使用区段作为维度 | 视频：[在 Analysis Workspace 中使用区段作为维度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html?lang=zh-Hans) |
+| 使用区段作为维度 | 视频：[在 Analysis Workspace 中使用区段作为维度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html) |
 
 ## 区段 IQ
 

@@ -4,10 +4,10 @@ title: 快速区段
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 40fbff764c7d61f9653f39b49679ea4b5782e96c
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 95%
+source-wordcount: '899'
+ht-degree: 91%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 可在项目中创建快速区段以规避完整版[区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md)的复杂操作。快速区段
 
-* 作为[仅用于项目的区段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=zh-Hans#what-are-project-only-segments%3F)应用。
+* 作为[仅用于项目的区段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html#what-are-project-only-segments%3F)应用。
 * 允许有最多 3 条规则。
 * 不容纳嵌套容器或顺序规则。
 
@@ -27,7 +27,7 @@ ht-degree: 95%
 
 ## 先决条件
 
-任何人都可以创建[!UICONTROL 快速区段]。不过，您需要具有 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=zh-Hans#analytics-tools) 中的[!UICONTROL 区段创建]权限才能在[!UICONTROL 区段生成器]中保存或打开快速区段。
+任何人都可以创建[!UICONTROL 快速区段]。不过，您需要具有 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html#analytics-tools) 中的[!UICONTROL 区段创建]权限才能在[!UICONTROL 区段生成器]中保存或打开快速区段。
 
 ## 创建快速区段
 
@@ -43,9 +43,9 @@ ht-degree: 95%
 | --- | --- |
 | 名称 | 区段的默认名称为该区段中的规则名称的组合。您可以对区段重命名。 |
 | 包括/排除 | 可在区段定义中包括或排除组件，但不得既包括又排除。 |
-| “点击”/“访问”/“访客”容器 | 快速区段仅包括一个[区段容器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=zh-Hans#section_AF2A28BE92474DB386AE85743C71B2D6)，从中可在区段中包括（或从区段中排除）某个维度/量度/日期范围。[!UICONTROL 访客]包含访客在不同的访问和页面查看间专属的总体数据。通过[!UICONTROL 访问]容器可设置规则以根据访问划分访客的数据，而通过[!UICONTROL 点击]容器可根据个别页面查看划分访客信息。默认容器为[!UICONTROL 点击]。 |
+| “点击”/“访问”/“访客”容器 | 快速区段仅包括一个[区段容器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6)，从中可在区段中包括（或从区段中排除）某个维度/量度/日期范围。[!UICONTROL 访客]包含访客在不同的访问和页面查看间专属的总体数据。通过[!UICONTROL 访问]容器可设置规则以根据访问划分访客的数据，而通过[!UICONTROL 点击]容器可根据个别页面查看划分访客信息。默认容器为[!UICONTROL 点击]。 |
 | 组件（维度/指标/日期范围） | 通过添加组件（维度和/或量度和/或日期范围）及其值，可定义最多 3 条规则。有 3 种方法可以找到正确的组件：<ul><li>只需开始打字，[!UICONTROL 快速区段]生成器即自动查找相应的组件。</li><li>使用下拉列表查找组件。</li><li>从左边栏中拖放组件。</li></ul> |
-| 运算符 | 使用下拉菜单查找标准运算符和[!UICONTROL 非重复计数]运算符。[了解详情](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=zh-Hans) |
+| 运算符 | 使用下拉菜单查找标准运算符和[!UICONTROL 非重复计数]运算符。[了解详情](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html) |
 | 加号 (+) | 添加另一条规则。 |
 | AND/OR 限定符 | 可将“AND”或“OR”限定符添加到规则，但不得在单个区段定义中混用“AND”和“OR”。 |
 | 应用 | 将此区段应用于面板。如果此区段不包含任何数据，则系统将询问您是否要继续。 |
@@ -85,7 +85,7 @@ ht-degree: 95%
 
 ## 仅用于项目的区段是什么？
 
-仅用于项目的区段是指只适用于其所在当前项目的区段。它们在其他项目中不可用，也不能共享给其他用户。它们用于快速浏览数据，而无需在左边栏中创建和保存数据区段。可以在面板拖放区域中使用快速区段或 [临时区段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=zh-Hans).
+仅用于项目的区段是指只适用于其所在当前项目的区段。它们在其他项目中不可用，也不能共享给其他用户。它们用于快速浏览数据，而无需在左边栏中创建和保存数据区段。可以在面板拖放区域中使用快速区段或 [临时区段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html).
 
 如果在[!UICONTROL 区段生成器]中打开了仅用于项目区段，则会显示“仅用于项目”通知。如果不选中“使此区段可用…”且不点击&#x200B;**[!UICONTROL 应用]**，则该区段仍然是仅用于项目的区段。注意：如果从区段生成器应用快速区段，则无法再在[!UICONTROL 快速区段生成器]中打开它。
 
