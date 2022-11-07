@@ -4,9 +4,9 @@ title: ID 扩展
 feature: Data Governance
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1359'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Cookie ID 扩展 </p> </td> 
-   <td colname="col2"> <p>许多 Analytics 客户最初使用（旧版）<a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=zh-Hans">Analytics Cookie</a>，但现在逐渐使用 <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans">Identity 服务 (ECID)</a>，这项服务以前称为 Marketing Cloud ID 服务 (MCID)。对于在转换后首次访问这些客户网站的访客，仅存在 ECID。但是，对于那些在仅可使用旧版 Cookie 时首次访问，但之后又访问过的访客，他们的某些数据将同时具有这两个 Cookie，但是较旧的数据将只有 Analytics Cookie，而在极少数情况中，最新的数据可能只有 ECID。 </p> <p>您需要确保找到通过Analytics（访客ID）Cookie或ECID标识的访客的所有数据。 因此，如果您以前使用过 Analytics Cookie 且现在使用 ECID，则当您使用任一类型的 ID 提交请求时，应在请求中包含两种 ID，或者指定 expandIds 选项。当您指定 expandIds 时，Adobe 将检查与您提供的任何 Cookie ID 相对应的其他 ECID 或 Analytics Cookie。该请求将自动扩展以包含这些新识别的 Cookie ID。 </p> </td> 
+   <td colname="col2"> <p>许多 Analytics 客户最初使用（旧版）<a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=zh-Hans">Analytics Cookie</a>，但现在逐渐使用 <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans">Identity 服务 (ECID)</a>，这项服务以前称为 Marketing Cloud ID 服务 (MCID)。对于在转换后首次访问这些客户网站的访客，仅存在 ECID。但是，对于那些在仅可使用旧版 Cookie 时首次访问，但之后又访问过的访客，他们的某些数据将同时具有这两个 Cookie，但是较旧的数据将只有 Analytics Cookie，而在极少数情况中，最新的数据可能只有 ECID。 </p> <p>您需要确保通过 Analytics（访客 ID）Cookie 或 ECID 识别的访客的所有数据都能被找到。 因此，如果您以前使用过 Analytics Cookie 且现在使用 ECID，则当您使用任一类型的 ID 提交请求时，应在请求中包含两种 ID，或者指定 expandIds 选项。当您指定 expandIds 时，Adobe 将检查与您提供的任何 Cookie ID 相对应的其他 ECID 或 Analytics Cookie。该请求将自动扩展以包含这些新识别的 Cookie ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>自定义 ID 转 Cookie ID 扩展 </p> </td> 
@@ -41,7 +41,7 @@ ht-degree: 98%
 
 在数据隐私法正式生效后的前几个月，绝大多数的 Analytics 数据隐私请求都没有请求 ID 扩展，而需要您自行确定适合您组织的合适值。您应该咨询您的法律团队，了解包含您使用的 ID 的数据以及您在 Adobe Analytics 中收集的数据是否需要 ID 扩展。一个主要考虑因素是，在一台共享设备上，如果有多个用户使用该设备访问过您的网站，那么使用 ID 扩展后，在访问请求返回的数据中，将包括来自该设备其他用户命中项的数据（在设备文件中）。即使您遵循了标签设置的最佳实践使得设备文件中不含任何私人数据，例如访问过的页面，设备文件仍将包含访问过的页面数量以及每次访问的时间。是否可以与不是访客的人共享此类信息？
 
-对于没有使用 ID 扩展的删除请求，如果您使用非 Cookie ID（除 ECID 或 Analytics Cookie 之外的任何 ID）来识别应删除的命中项，且该 ID 带有一个 ID-DEVICE 标签，那么报表中的独特访客计数将发生变化，因为只有部分 Cookie ID 的实例会被匿名化处理，而其他实例则保持不变。如果您没有指定 ID 扩展，则建议您在请求中使用 Cookie ID，或者使用带有 ID-PERSON 标签的 ID。
+对于没有使用 ID 扩展的删除请求，如果您使用非 Cookie ID（除 ECID 或 Analytics Cookie 之外的任何 ID）来识别应删除的命中项，且该 ID 带有一个 ID-DEVICE 标签，那么报告中的独特访客计数将发生变化，因为只有部分 Cookie ID 的实例会被匿名化处理，而其他实例则保持不变。如果您没有指定 ID 扩展，则建议您在请求中使用 Cookie ID，或者使用带有 ID-PERSON 标签的 ID。
 
 Adobe 在执行 ID 扩展时，可能需要进行额外的完整数据扫描，这将延长 Adobe 用于完成请求的时间，通常会增加一周的处理时间。
 
@@ -60,7 +60,7 @@ Adobe 在执行 ID 扩展时，可能需要进行额外的完整数据扫描，�
 
 >[!NOTE]
 >
->提供[隐私服务 API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) 是为了帮助您执行对时间敏感的数据隐私请求。Adobe 不支持将此 API 用于其他目的，因为这样会影响 Adobe 为其他 Adobe 客户及时提供高优先级服务、执行用户所发起数据隐私请求的能力。我们建议您不要将隐私服务 API 用于其他目的，例如清除大量访客意外提交的数据。
+>提供[隐私服务 API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hans) 是为了帮助您执行对时间敏感的数据隐私请求。Adobe 不支持将此 API 用于其他目的，因为这样会影响 Adobe 为其他 Adobe 客户及时提供高优先级服务、执行用户所发起数据隐私请求的能力。我们建议您不要将隐私服务 API 用于其他目的，例如清除大量访客意外提交的数据。
 
 您还应该了解，对于任何因提交数据隐私删除请求后而删除其点击（已更新或匿名）的访客，其状态信息都将会进行重置。这样该访客下次返回您的网站时，将会成为新访客。所有 eVar 归因都将重新开始，访问次数、反向链接、访问的第一个页面等信息也都将重新统计。对于要清除数据字段的情况，这种副作用不尽如人意，因此突显了隐私服务 API 不适合此用途的一个原因。
 
