@@ -4,15 +4,15 @@ description: 了解 Analytics 实施中的数据层，以及如何在 Adobe Anal
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
 source-git-commit: 571192e27972f2bc15912481f9a578427e1c1cfb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '468'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
 # 创建数据层
 
-数据层是网站上JavaScript对象的框架，其中包含Analytics实施中使用的变量值。 在为Analytics变量分配值时，这样可以更好地控制并更轻松地进行维护。
+数据层是网站上 JavaScript 对象的框架，其中包含 Analytics 实施中使用的变量值。在为 Analytics 变量分配值时，它可以帮助更好地控制和更轻松地维护变量值。
 
 ## 先决条件
 
@@ -29,15 +29,15 @@ ht-degree: 60%
    > 是否遵循 Adobe 推荐的数据层规范是可选的。如果您已经有一个数据层，或者选择不遵循 Adobe 提供的规范，请确保贵组织与要遵循的规范保持一致。
 
 1. **使用浏览器控制台验证数据层**：创建数据层后，您可以使用任意浏览器的开发人员控制台来验证数据层是否可正常使用。在大多数浏览器中，您都可以使用 `F12` 键打开开发人员控制台。`adobeDataLayer.page.title` 是一个示例变量值。
-1. **使用Adobe Experience Platform数据收集将数据层对象映射到数据元素**:此步骤因贵组织的实施方法而异：
-   * **如果使用Web SDK**:将所需数据层对象映射到Adobe Experience Platform Edge中的所需XDM字段。 请参阅 [Analytics变量映射](../aep-edge/variable-mapping.md) 以确定所需的数据层映射。
-   * **如果使用Analytics扩展**:在Adobe Experience Platform数据收集的标记下创建数据元素，并将其分配给所需的数据层对象。 然后，在Analytics扩展中，将每个数据元素分配给相应的Analytics变量。
+1. **使用 Adobe Experience Platform 数据收集将数据层对象映射到数据元素**：此步骤因您组织的实施方法而异：
+   * **如果使用 Web SDK**：将所需的数据层对象映射到 Adobe Experience Platform Edge 中所需的 XDM 字段。 请参阅 [Analytics 变量映射](../aep-edge/variable-mapping.md)，确定所需的数据层映射。
+   * **如果使用 Analytics 扩展程序**：在 Adobe Experience Platform 数据集的标签下创建数据元素，并将其分配给所需的数据层对象。 然后在 Analytics 扩展程序中，将每个数据元素分配给适当的 Analytics 变量。
 
 ## 规范
 
-Adobe建议使用 [Adobe客户端数据层](https://github.com/adobe/adobe-client-data-layer/wiki) 用于新的或经过重组的实施。
+Adobe 建议将 [Adobe 客户端数据层](https://github.com/adobe/adobe-client-data-layer/wiki)用于新的或重构的实现。
 
-贵组织可以自由使用其他数据层规范，例如 [客户体验数字数据层](https://www.w3.org/2013/12/ceddl-201312.pdf)，或其他完全自定义的规范。 与满足贵组织需求的一致数据层保持一致是最重要的。
+您的组织可以自由使用其他数据层规范，例如[客户体验数字数据层](https://www.w3.org/2013/12/ceddl-201312.pdf)，或完全另外自定义一个规范。与满足组织需求的一致数据层保持一致是最重要的。
 
 数据层是可扩展的；如果贵组织有特定需求，则可以在数据层中包含相应对象以满足这些需求。
 
