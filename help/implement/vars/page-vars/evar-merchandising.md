@@ -5,21 +5,21 @@ feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '543'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 # eVar（推销）
 
-*此帮助页面介绍了如何实施推销 eVar。有关推销eVar如何用作维度的信息，请参阅 [eVar（促销维度）](/help/components/dimensions/evar-merchandising.md) （位于组件用户指南中）。*
+*此帮助页面介绍了如何实施推销 eVar。有关促销 eVar 如何用作维度的信息，请参阅组件用户指南中的 [eVar（促销维度）](/help/components/dimensions/evar-merchandising.md)。*
 
 有关促销 eVar 如何工作的详细讨论，请参阅[促销 eVar 和产品查找方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=cn)。
 
-## 在报表包设置中设置 eVar
+## 在报告包设置中设置 eVar
 
-在实施中使用eVar之前，请确保在报表包设置中将eVar配置为所需的语法。 请参阅《管理员指南》中的[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
+在实施中使用 eVar 之前，请确保在报告包设置中将 eVar 配置为所需的语法。 请参阅《管理员指南》中的[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
 
 >[!WARNING]
 >
@@ -42,18 +42,18 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 `eVar1` 的值已分配给产品。所有与本产品相关的后续成功事件将计入 eVar 值。
 
-### 使用Web SDK的产品语法
+### 使用 Web SDK 的产品语法
 
-产品语法推销变量包括 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在多个不同的XDM字段下。
+在几个不同的 XDM 字段下， [为 Adobe Analytics 映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)产品语法促销变量。
 
-* 产品语法推销eVar在 `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` to `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
-* 产品语法推销事件映射在 `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems[]._experience.analytics.event901to1000.event1000.value`. [事件序列化](events/event-serialization.md) 在 `productListItems[]._experience.analytics.event1to100.event1.id` to `productListItems[]._experience.analytics.event901to1000.event1000.id`.
+* 产品语法促销 eVar 在 `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` 下映射到 `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`。
+* 产品语法促销事件在 `productListItems[]._experience.analytics.event1to100.event1.value` 下映射到 `productListItems[]._experience.analytics.event901to1000.event1000.value`。 [事件序列化](events/event-serialization.md)XDM 字段在 `productListItems[]._experience.analytics.event1to100.event1.id` 下映射到 `productListItems[]._experience.analytics.event901to1000.event1000.id`。
 
 >[!NOTE]
 >
->在 `productListItems`，则无需在事件字符串中设置它们。 如果在这两个位置中都进行了设置，则事件字符串中的值优先。
+>当您在 `productListItems` 下设置事件时，您不需要在事件字符串中设置事件。 如果在两个地方都设置了事件，则事件字符串中的值优先。
 
-以下示例显示了 [产品](products.md) 使用多个推销eVar和事件：
+以下示例展示了使用多个推销 eVar 和事件的单一[产品](products.md)：
 
 ```js
 "productListItems": [
@@ -84,7 +84,7 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 ]
 ```
 
-上述示例对象将作为 `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`.
+上述示例对象将作为 `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"` 发送到 Adobe Analytics。
 
 ## 使用转化变量语法实施
 
@@ -106,11 +106,11 @@ s.products = ";Canary";
 * eVar 过期（根据“过期时间”设置）
 * 推销 eVar 被新值覆盖。
 
-### 使用Web SDK的转化变量语法
+### 使用 Web SDK 的转化变量语法
 
-使用Web SDK的转化变量语法的操作方式与实施其他变量语法类似 [eVar](evar.md) 和 [事件](events/events-overview.md). 上述示例的XDM镜像如下所示：
+使用 Web SDK 的转化变量语法的操作，类似于实现其他 [eVar](evar.md) 和[事件 ](events/events-overview.md)。镜像上述示例的 XDM 如下所示：
 
-在同一事件调用或上一个事件调用中设置eVar:
+在同一或上个事件调用中设置 eVar：
 
 ```js
 "_experience": {
@@ -124,7 +124,7 @@ s.products = ";Canary";
 }
 ```
 
-设置产品字符串的绑定事件和值：
+设置产品字符串的捆绑事件和值：
 
 ```js
 "commerce": {
