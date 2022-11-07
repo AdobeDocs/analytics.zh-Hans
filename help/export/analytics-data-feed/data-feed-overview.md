@@ -5,9 +5,9 @@ title: Analytics 数据馈送概述
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '575'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 ## 先决条件
 
-在使用数据馈送之前，请确保满足以下所有要求。
+在使用数据馈送之前，请确保您满足以下所有要求。
 
 * 有可用的 FTP 网站和凭据。数据馈送只能发送到服务器目标。您的组织通常会提供 FTP 凭据。Adobe 可以根据您的请求为 FTP 位置提供少量存储空间。联系客户关怀团队以请求获取数据馈送的 FTP 目标。
 * 将数据发送到 Adobe 数据收集服务器的有效实施。请参阅《实施用户指南》中的[验证和发布实施](/help/implement/launch/validate-publish-prod.md)。
@@ -31,7 +31,7 @@ ht-degree: 97%
 4. 单击[!UICONTROL 添加]。此时将显示一个新页面，该页面具有三个主要类别：“[!UICONTROL 馈送信息]”、“[!UICONTROL 目标]”和“[!UICONTROL 数据列定义]”。
 5. 填写“[!UICONTROL 馈送信息]”字段。
    * 名称：任何所需的名称，如“测试数据馈送”。
-   * 报表包：选择所需的报表包。
+   * 报告包：选择所需的报告包。
    * 完成时发送电子邮件：输入您的电子邮件。
    * 馈送间隔：选择所需的间隔（每小时或每天）。
    * 延迟处理：可保留为“[!UICONTROL 无延迟]”。
