@@ -4,9 +4,9 @@ description: 在数字助理（如 Amazon Alexa 或 Google Home）上实施 Adob
 feature: Implementation Basics
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1265'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -113,7 +113,7 @@ Cache-Control: no-cache
 
 例如，如果用户表示“Siri，从我的银行应用中向 John 支付昨晚的晚餐费 20 美元”，意图有可能是类似于 *sendMoney*。
 
-通过将其中每个请求作为 eVar 发送，您将能够对会话应用程序的每个意图运行路径报表。此外，请确保您的应用程序可以处理没有意图的请求。 Adobe 建议将“未指定意图”传入给意图上下文数据变量，而不是忽略变量。
+通过将其中每个请求作为 eVar 发送，您将能够对会话应用程序的每个意图运行路径报告。此外，请确保您的应用程序可以处理无意图的请求。 Adobe 建议将“未指定意图”传入给意图上下文数据变量，而不是忽略变量。
 
 ```text
 GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
