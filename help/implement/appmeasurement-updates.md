@@ -4,9 +4,9 @@ description: AppMeasurement for JavaScript 的发行说明汇总。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2319'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -275,7 +275,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->版本 1.6.0 的 [!DNL Experience Cloud] ID 服务&#x200B;*要求* [!DNL AppMeasurement] for [!DNL JavaScript] 版本 1.6.3 或更高版本。如果要升级到版本1.6.0的Experience CloudID服务，请确保使用AppMeasurement 1.6.3或更高版本。
+>版本 1.6.0 的 [!DNL Experience Cloud] ID 服务&#x200B;*要求* [!DNL AppMeasurement] for [!DNL JavaScript] 版本 1.6.3 或更高版本。如果您要升级到版本 1.6.0 的 Experience Cloud ID 服务，请确保您使用的是 AppMeasurement 1.6.3 或更高版本。
 
 ## 版本 1.6.2
 
@@ -419,7 +419,7 @@ ht-degree: 99%
 
 发行日期：**2014 年 5 月 22 日**
 
-* [!DNL AppMeasurement] for [!DNL JavaScript]`s_gi` 函数无法正确查找使用 H 代码 `s_gi` 创建的实例。请注意，该问题仅会影响一些双标记实施，在这些实施中，[!DNL AppMeasurement] for [!DNL JavaScript] 和 H 代码位于同一页面上，但却在单独实例中，而且 `s_gi` 被报表包用来查找实例。
+* [!DNL AppMeasurement] for [!DNL JavaScript]`s_gi` 函数无法正确查找使用 H 代码 `s_gi` 创建的实例。请注意，该问题仅会影响一些双标记实施，在这些实施中，[!DNL AppMeasurement] for [!DNL JavaScript] 和 H 代码位于同一页面上，但却在单独实例中，而且 `s_gi` 被报告包用来查找实例。
 
 ## 版本 1.3
 
@@ -456,7 +456,7 @@ ht-degree: 99%
 发行日期：**2013 年 11 月 14 日**
 
 * 添加了对[心率视频测量](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans)的支持。
-* 添加了 `VisitorAPI.js` 以支持[访客 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
+* 添加了 `VisitorAPI.js` 以支持[访客 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
 
 ## 版本 1.1.1
 
