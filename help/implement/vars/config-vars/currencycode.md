@@ -4,40 +4,40 @@ description: 对于电子商务网站，设置页面交易的货币。
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 source-git-commit: f659d1bde361550928528c7f2a70531e3ac88047
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '955'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # currencyCode
 
-对于商业网站，收入和货币是 Analytics 的重要组成部分。很多网站（尤其是跨多个国家/地区的网站）都会使用多种不同的货币。使用 `currencyCode` 变量来确保收入归因为正确的货币。
+对于商业网站，收入和货币是 Analytics 的重要组成部分。很多网站（尤其是跨多个国家/地区的网站）都会使用多种不同的货币。使用 `currencyCode` 变量可确保按正确的币种计算收入。
 
-货币兑换在每次点击时都使用以下逻辑。 这些步骤适用于收入值设置 [`products`](../page-vars/products.md) 变量和在中列为“货币”的所有事件 [成功事件](/help/admin/admin/c-success-events/success-event.md) 下。
+货币转换在每次点击时使用以下逻辑。 这些步骤适用于为收入值设置 [`products`](../page-vars/products.md) 变量，以及所有在报告包设置下的[成功事件](/help/admin/admin/c-success-events/success-event.md)中列为“货币”的事件。
 
-* 如果 `currencyCode` 未定义，则Adobe会假定所有货币值都是报表包中使用的货币。 请参阅 [一般帐户设置](/help/admin/admin/general-acct-settings-admin.md) ，以查看报表包的货币。
-* 如果 `currencyCode` 已定义并且与报表包中使用的货币相一致，则无需进行货币换算。
-* 如果 `currencyCode` 已定义并且与报表包中使用的货币不同，则 Adobe 会根据当天的汇率进行货币换算。Adobe 与 [XE](https://xe.com) 合作，共同开展每日的货币换算工作。报表包中存储的所有值均以报表包中使用的货币表示。
-* 如果 `currencyCode` 设置为无效值， **整个点击被丢弃，从而导致数据丢失。** 确保在使用时正确定义此变量。
+* 如果 `currencyCode` 未定义，Adobe 假定所有货币值都是报告包的货币。 要了解报告包中使用的货币，请参阅报告包设置中的[常规帐户设置](/help/admin/admin/general-acct-settings-admin.md)。
+* 如果 `currencyCode` 已定义并且与报告包中使用的货币相一致，则无需进行货币换算。
+* 如果 `currencyCode` 已定义并且与报告包中使用的货币不同，则 Adobe 会根据当天的汇率进行货币换算。Adobe 与 [XE](https://xe.com) 合作，共同开展每日的货币换算工作。存储在报告包中的所有值都以报告包的货币表示。
+* 如果 `currencyCode` 设置为无效值，**则整个点击都会被丢弃，从而导致数据丢失。**&#x200B;确保在使用时正确定义此变量。
 
-此变量不会在点击中持久保留。 确保在涉及收入或货币事件且与报表包的默认货币不匹配的每个页面上定义此变量。
+此变量不会在点击之间保留。 确保在涉及与报告包的默认货币不匹配的收入或货币事件的每个页面上都定义了此变量。
 
 >[!NOTE]
 >
->虽然不同页面之间的货币代码会发生更改，但单次点击中的所有货币量度必须使用相同的货币。
+>虽然货币代码可以在页面之间更改，但一次点击的所有货币量度必须使用相同的货币。
 
-句点 **必须** 在实施此变量时，将用作所有货币的货币分隔符。 例如，必须将通常显示逗号分隔符的瑞典克朗修改为使用 `products` 变量和所有货币事件。 Adobe在报表中显示正确的货币分隔符。
+实现此变量时，句点&#x200B;**必须**&#x200B;用作所有货币的货币分隔符。 例如，通常显示逗号分隔符的瑞典克朗，必须修改为在 `products` 变量和所有货币事件中使用句点。 Adobe 在报告中显示正确的货币分隔符。
 
-## 使用Web SDK的货币代码
+## 使用 Web SDK 的货币代码
 
-货币代码为 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `commerce.order.currencyCode`.
+在 XDM 字段 `commerce.order.currencyCode` 下，[为 Adobe Analytics 映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)货币代码。
 
-## 使用Adobe Analytics扩展的货币代码
+## 使用 Adobe Analytics 扩展程序的货币代码
 
 “货币代码”是在配置 Adobe Analytics 扩展时显示在[!UICONTROL 常规]折叠面板中的一个字段。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
 1. 展开[!UICONTROL 常规]折叠面板，这会显示[!UICONTROL 货币代码]字段。
@@ -49,12 +49,12 @@ ht-degree: 72%
 货币代码通过 Adobe Analytics 扩展中的上下文数据变量传递到 Adobe Experience Platform Mobile SDK。
 
 1. 在 `trackState` 或 `trackAction` 期间在上下文数据变量中设置货币代码。
-1. 在 Adobe Analytics 管理控制台中为报表包创建处理规则。设置规则以覆盖货币代码变量。
+1. 在 Adobe Analytics 管理控制台中为报告包创建处理规则。设置规则以覆盖货币代码变量。
 1. 将货币代码传递给 `trackState` 或 `trackAction` 调用中的 `products` 变量。
 
 您可以使用预设货币代码或自定义货币代码。如果使用自定义货币代码，请确保该代码有效。
 
-## AppMeasurement和Analytics扩展自定义代码编辑器中的s.currencyCode
+## AppMeasurement 和 Analytics 扩展自定义代码编辑器中的 s.currencyCode
 
 `s.currencyCode` 变量是一个字符串，其中包含由 3 个大写字母构成的表示页面上所用货币的代码。值区分大小写。
 
