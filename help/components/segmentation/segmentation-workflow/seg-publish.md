@@ -4,9 +4,9 @@ title: 将区段发布到 Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1324'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 96%
 
 ## 先决条件
 
-* 确保[已为 Experience Cloud 启用](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=zh-Hans)要保存此区段的报表包。否则，您无法将其发布到 Experience Cloud。
+* 确保[已为 Experience Cloud 启用](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=zh-Hans)要保存此区段的报告包。否则，您无法将其发布到 Experience Cloud。
 * 确保您的组织使用的是 Experience Cloud ID。
 * 在发布区段之前，您的管理员需要先在[管理控制台](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hans)中向产品配置文件分配“[!UICONTROL 区段发布]”权限，并将您添加到产品配置文件中。
 
 ## 注意事项
 
-* **报表包限制**：每个报表包最多可发布 75 个区段。此限制是强制实施的。如果已发布 75 个区段，则只有在取消发布足够数量的区段，使区段数量低于 75 个区段的阈值后，才能发布任何其他区段。
+* **报告包限制**：每个报告包最多可发布 75 个区段。此限制是强制实施的。如果已发布 75 个区段，则只有在取消发布足够数量的区段，使区段数量低于 75 个区段的阈值后，才能发布任何其他区段。
 * **会员资格限制**：从 Adobe Analytics 共享到 [!DNL Experience Cloud] 的受众数量不能超过 2000 万个独特会员。
 * **数据隐私**：受众并非基于访客的身份验证状态进行过滤。如果访客可在未验证或已验证的状态下浏览您的站点，则访客在处于未验证状态时执行的操作仍会导致访客被包含在受众中。请查看 [Adobe Experience Cloud 隐私](https://www.adobe.com/cn/privacy/experience-cloud.html)，了解受众共享对隐私的全面影响。
 * 有关&#x200B;**[!DNL Adobe Analytics] 和[!DNL Audience Manager]** 中的区段之间的差异的讨论，请转到[此处](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=zh-Hans)。
@@ -53,21 +53,21 @@ ht-degree: 96%
 1. 导航到 **[!UICONTROL Analytics > 工作区 > 组件 > 区段] > +**
 1. 在[!UICONTROL 区段生成器]中创建区段。
 1. 为区段提供标题和描述，否则，您将无法保存。
-1. 选中&#x200B;**[!UICONTROL 将此区段发布到 Experience Cloud（对于&#x200B;*报表包*）]**。
+1. 选中&#x200B;**[!UICONTROL 将此区段发布到 Experience Cloud（对于&#x200B;*报告包*）]**。
 
-![发布Experience Cloud](assets/publish-ec.png)
+![发布 Experience Cloud](assets/publish-ec.png)
 
 >[!IMPORTANT]
->在比较Adobe Analytics数量与Experience Cloud数量时，请确保在Analytics中查看区段预览时使用“具有Audience ManagerID的访客”，而不是总的“独特访客”区段预览：
+>将 Adobe Analytics 数字与 Audience Manager 数字进行比较时，确保在 Analytics 中查看区段预览时使用“具有 Experience Cloud ID 的访客”，而不是总计“独特访客数”区段预览：
 >
->![使用ECID划分访客](assets/seg-vis-ecid.png)
+>![使用 ECID 细分访客](assets/seg-vis-ecid.png)
 
 | 元素 | 描述 |
 |---|---|
 | **[!UICONTROL 将此区段发布到 Experience Cloud（对于 *`<report suite>`*）]** | 启用此选项后，区段标题和定义（即，广告平台中经常使用的 Shell 受众）会立即与 Experience Cloud 共享，而区段会员资格则每 4 小时进行一次评估和共享。<br>例如，当该受众与 [!DNL Target] 中的某个活动关联时，[!DNL Analytics] 将开始发送具有 Experience Cloud 和 [!DNL Target] 受众资格的访客的 ID。此时，受众名称和相应的数据开始显示在“Experience Cloud 受众”页面中。</br> |
 | **[!UICONTROL 受众创建窗口]** | 您选择用于在滚动日历基础上创建受众的时间范围。例如，“最近 30 天”（默认）包括从当天日期（不是最初创建区段的日期）起，最近 30 天中符合受众条件的访客。 |
 | **[!UICONTROL 在受众库中创建]** | 您创建和发布的区段可在 Experience Cloud 受众库中立即提供。它们不依赖于 Analytics 更新。这些区段不会计入 75 个已发布区段的限制。 |
-| **[!UICONTROL 已发布 x 个（限制为 75 个）]** | 显示您已发布到 Experience Cloud 的区段数。单击该链接可查看已发布的区段，及其关联的报表包和所有者的列表。 |
+| **[!UICONTROL 已发布 x 个（限制为 75 个）]** | 显示您已发布到 Experience Cloud 的区段数。单击该链接可查看已发布的区段，及其关联的报告包和所有者的列表。 |
 | **[!UICONTROL 保存]** | 保存此区段。 |
 
 ## 取消发布或删除区段
@@ -114,19 +114,19 @@ ht-degree: 96%
 
 默认情况下，在加载[!UICONTROL 访客资料查看器]时，将使用浏览器中的 AAM UUID。如果验证其他用户的特性实现，请在“UUID”字段中输入 UUID，然后单击“[!UICONTROL 刷新]”。请参阅[访客资料查看器](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=zh-Hans)，以了解详细信息。
 
-![Audience Manager配置文件查看器](assets/aam-vpv.png)
+![Audience Manager 个人资料查看器](assets/aam-vpv.png)
 
 ## 在 [!DNL Audience Manager] 中查看区段特性
 
 在 AAM 中，当 Analytics 与 Experience Cloud 共享区段时，将以流式方式评估给定区段的具有 ECID 的访客列表。
 
-1. 在 [!DNL Audience Manager] 中，转到[!UICONTROL “受众数据”>“特性”>“Analytics 特性”]。您将看到每个 Analytics 报表包对应的文件夹，这些报表包已映射到您的 Experience Cloud 组织。在启动或置备配置文件和受众/人员核心服务时，将创建这些文件夹（针对特性、区段和数据源）。
-1. 选择报表包对应的文件夹，您之前在该报表包中创建了要与 [!DNL Audience Manager] 共享的区段。您将看到所创建的区段/受众。当您共享区段时，会在 [!DNL Audience Manager] 中发生以下两种情况：
+1. 在 [!DNL Audience Manager] 中，转到[!UICONTROL “受众数据”>“特性”>“Analytics 特性”]。您将看到每个 Analytics 报告包对应的文件夹，这些报告包已映射到您的 Experience Cloud 组织。在启动或置备配置文件和受众/人员核心服务时，将创建这些文件夹（针对特性、区段和数据源）。
+1. 选择报告包对应的文件夹，您之前在该报告包中创建了要与 [!DNL Audience Manager] 共享的区段。您将看到所创建的区段/受众。当您共享区段时，会在 [!DNL Audience Manager] 中发生以下两种情况：
    * 将创建一个特性，起初该特性中没有数据。在 [!DNL Analytics] 中发布该区段大约 8 小时后，会载入一个 ECID 列表，并将其与 [!DNL Audience Manager] 和其他 Experience Cloud 解决方案共享。
 
-      ![Audience Manager特征](assets/aam-traits.png)
+      ![Audience Manager 特征](assets/aam-traits.png)
 
-   * 将创建一个区段，其中包含一个特性。该区段使用与您在其中发布该区段的报表包关联的数据源。
+   * 将创建一个区段，其中包含一个特性。该区段使用与您在其中发布该区段的报告包关联的数据源。
    * 特征到期现在设置为 16 天（以前为 2 天）。
 
 ## 在 [!DNL Adobe Target] 中查看区段
