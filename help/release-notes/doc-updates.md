@@ -17,7 +17,7 @@ ht-degree: 95%
 自 2019 年 1 月以来的 Adobe Analytics 文档集内容更新。
 
 * 有关 [!UICONTROL Customer Journey Analytics] 的信息，请转到[此处](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=zh-Hans)。
-* 有关Adobe Medium分析的信息，请参阅 [在Analytics中测量音频和视频](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans).
+* 有关 Adobe Media Analytics 的信息，请参阅[在 Analytics 中测量音频和视频](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans)。
 
 ## 有关主要文档更新的详细信息
 
@@ -29,8 +29,8 @@ ht-degree: 95%
 | 同意管理变量 | 专用页面 [同意管理选择加入](/help/components/dimensions/cm-opt-in.md) 和 [同意管理选择退出](/help/components/dimensions/cm-opt-out.md). |
 | 多货币刷新 | 页面周围 [多货币支持](/help/technotes/multicurrency.md) 更新。 |
 | **2022 年 10 月** |  |
-| Data Workbench | [生命周期终止公告](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
-| 客户端提示 | 新建 [概述和常见问题解答](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html). |
+| Data Workbench | [生命周期终止通知](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
+| 客户端提示 | 新的[概述和常见问题解答 ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html)。 |
 | 关键指标摘要 | 关于[关键指标摘要](/help/analyze/analysis-workspace/visualizations/key-metric.md)可视化的新主题。 |
 | 分类集 | 新用户[分类集](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html)体验提供单个界面以管理分类和规则，并更容易看到客户拥有的分类数据。 |
 | 移动应用程序：自定义详细信息视图 | 关于[自定义详细视图](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html)的新主题。 |
