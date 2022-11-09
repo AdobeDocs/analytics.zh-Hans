@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 数据列引用
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
-workflow-type: ht
-source-wordcount: '3599'
-ht-degree: 100%
+source-git-commit: 8be5cc920e601e7ebd57e0e3df645f3fa817924f
+workflow-type: tm+mt
+source-wordcount: '3621'
+ht-degree: 99%
 
 ---
 
@@ -63,8 +63,8 @@ ht-degree: 100%
 | **`cust_hit_time_gmt`** | 仅限启用了时间戳的报表包。随点击发送的时间戳（基于 Unix 时间）。 | int |
 | **`cust_visid`** | 如果设置了自定义访客 ID，此 ID 会填充到该列中。 | varchar(255) |
 | **`daily_visitor`** | 确定点击是否为新的每日访客的标记。 | 无符号 tinyint |
-| **`dataprivacyconsentoptin`** | [同意管理选择加入](/help/components/dimensions/cm-opt-in.md)维度中使用的变量。每次点击可以出现多个值，各个值之间用竖线 (`|`) 隔开。有效值包括 `DMP` 和 `SELL`。 | varchar(100) |
-| **`dataprivacyconsentoptout`** | [同意管理选择退出](/help/components/dimensions/cm-opt-out.md)维度中使用的变量。每次点击可以出现多个值，各个值之间用竖线 (`|`) 隔开。有效值包括 `SSF`, `DMP` 和 `SELL`。 | varchar(100) |
+| **`dataprivacyconsentoptin`** | [同意管理选择加入](/help/components/dimensions/cm-opt-in.md)维度中使用的变量。每次点击可以出现多个值，各个值之间用竖线 (`\|`) 隔开。有效值包括 `DMP` 和 `SELL`。 | varchar(100) |
+| **`dataprivacyconsentoptout`** | [同意管理选择退出](/help/components/dimensions/cm-opt-out.md)维度中使用的变量。每次点击可以出现多个值，各个值之间用竖线 (`\|`) 隔开。有效值包括 `SSF`, `DMP` 和 `SELL`。 | varchar(100) |
 | **`date_time`** | 以可读格式表示的点击时间（基于报表包所在时区）。 | datetime |
 | **`domain`** | 在[域](/help/components/dimensions/domain.md)维度中使用的变量。基于访客的 Internet 接入点。 | varchar(100) |
 | **`duplicate_events`** | 列出计为重复的每个事件。 | varchar(255) |
@@ -163,6 +163,7 @@ ht-degree: 100%
 | **`page_type`** | 用于填充[未找到页面](/help/components/dimensions/pages-not-found.md)维度。仅用于 404 页面。此变量应为空或包含 `ErrorPage` 值。 | char(20) |
 | **`page_url`** | 点击的 URL。请注意，`post_page_url` 被剥离以用于链接跟踪图像请求，并使用 varchar(255) 数据类型。 | 文本 |
 | **`pagename`** | 用于填充[页面](/help/components/dimensions/page.md)维度。如果 [`pagename`](/help/implement/vars/page-vars/pagename.md) 变量为空，则 Analytics 改用 `page_url`。 | varchar(100) |
+| **`pagename_no_url`** | 类似于 `pagename`，但不会回退到 `page_url`. 仅 `post` 列。 | varchar(100) |
 | **`paid_search`** | 设置点击是否与付费搜索检测匹配的标记。 | 无符号 tinyint |
 | **`partner_plugins`** | 未使用。属于某个已弃用的功能。 | varchar(255) |
 | **`persistent_cookie`** | 在[永久性 Cookie 支持](/help/components/dimensions/persistent-cookie-support.md)维度中用到。指示访客是否要支持每次点击后未被丢弃的 Cookie。 | char(1) |
@@ -201,9 +202,10 @@ ht-degree: 100%
 | **`socialownedpropertyid`** | 已不再使用。社交网站拥有的资产 ID | varchar(255) |
 | **`socialownedpropertyname`** | 已不再使用。社交网站拥有的资产名称 | varchar(255) |
 | **`socialownedpropertypropertyvsapp`** | 已不再使用。设计网站拥有的资产与应用程序 | varchar(255) |
+| **`sourceid`** | 。 | 无符号 int |
 | **`state`** | 状态变量。 | varchar(50) |
 | **`stats_server`** | 没有用处。处理点击的 Adobe 内部服务器。 | char(30) |
-| **`survey`** | 已不再使用。Adobe Survey 变量。 | 文本 |
+| **`survey`** | 已不再使用。Adobe Survey 变量。仅 `post` 列。 | 文本 |
 | **`survey_instances`** | 已不再使用。Adobe Survey 实例变量。 | 文本 |
 | **`t_time_info`** | 访客的当地时间。格式为：`M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | **`tnt`** | 在 Adobe Target 集成中使用。表示所有当前符合条件的测试。格式为：`TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`。 | 文本 |
