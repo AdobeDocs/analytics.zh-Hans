@@ -1,10 +1,10 @@
 ---
 description: 当报表具有许多唯一值时，Adobe 使用低流量维度项来提高报表性能。
 title: Adobe Analytics 中的低流量值
-feature: Data Configuration and Collection
+feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: ddd1473ccfe27dbcb28c0c51992628c9bf03cb5c
-workflow-type: ht
+source-git-commit: 81c7dcea2d42ee8e31140523cd43cdfd001baf28
+workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 100%
 
