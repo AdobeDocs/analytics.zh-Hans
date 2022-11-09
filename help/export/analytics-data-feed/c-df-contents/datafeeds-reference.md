@@ -5,9 +5,9 @@ subtopic: data feeds
 title: 数据列引用
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 8be5cc920e601e7ebd57e0e3df645f3fa817924f
+source-git-commit: 031b5922e490419eecdb2c953ff9b2c798314ab5
 workflow-type: tm+mt
-source-wordcount: '3621'
+source-wordcount: '3638'
 ht-degree: 99%
 
 ---
@@ -29,6 +29,7 @@ ht-degree: 99%
 | 列名称 | 列说明 | 数据类型 |
 | --- | --- | --- |
 | **`accept_language`** | 列出所有已接受的语言，如图像请求中的 Accept-Language HTTP 标头所示。 | char(20) |
+| **`adload`** | 媒体广告加载 | varchar(255) |
 | **`aemassetid`** | 一个具有多个值的变量，与一组 Adobe Experience Manager 资产的资产 ID (GUID) 相对应。可增加展示事件的计数。 | 文本 |
 | **`aemassetsource`** | 标识资产事件的来源。在 Adobe Experience Manager 中使用。 | varchar(255) |
 | **`aemclickedassetid`** | Adobe Experience Manager 资产的资产 ID可增加点击事件的计数。 | varchar(255) |
@@ -143,6 +144,8 @@ ht-degree: 99%
 | **`mobileplaceaccuracy`** | 从上下文数据变量 `a.loc.acc` 收集。指示收集时 GPS 的精度（以米为单位）。 | varchar(255) |
 | **`mobileplacecategory`** | 从上下文数据变量 `a.loc.category` 收集。描述特定位置的类别。 | varchar(255) |
 | **`mobileplaceid`** | 从上下文数据变量 `a.loc.id` 收集。给定目标点的标识符。 | varchar(255) |
+| **`mobilepushoptin`** | Mobile Services推送选择加入 | varchar(255) |
+| **`mobilepushpayloadid`** | Mobile Services推送付费ID | varchar(255) |
 | **`mobilerelaunchcampaigncontent`** | Mobile Services 启动内容 | varchar(255) |
 | **`mobilerelaunchcampaignmedium`** | Mobile Services 启动媒介 | varchar(255) |
 | **`mobilerelaunchcampaignsource`** | Mobile Services 启动来源 | varchar(255) |
@@ -202,7 +205,7 @@ ht-degree: 99%
 | **`socialownedpropertyid`** | 已不再使用。社交网站拥有的资产 ID | varchar(255) |
 | **`socialownedpropertyname`** | 已不再使用。社交网站拥有的资产名称 | varchar(255) |
 | **`socialownedpropertypropertyvsapp`** | 已不再使用。设计网站拥有的资产与应用程序 | varchar(255) |
-| **`sourceid`** | 。 | 无符号 int |
+| **`sourceid`** | 源 ID | 无符号 int |
 | **`state`** | 状态变量。 | varchar(50) |
 | **`stats_server`** | 没有用处。处理点击的 Adobe 内部服务器。 | char(30) |
 | **`survey`** | 已不再使用。Adobe Survey 变量。仅 `post` 列。 | 文本 |
@@ -294,6 +297,7 @@ ht-degree: 99%
 
 以下列列表未使用且不包含数据：
 
+* `adclassificationcreative`
 * `mobileacquisitionclicks`
 * `mobileactioninapptime`
 * `mobileactiontotaltime`
