@@ -4,7 +4,7 @@ description: 获取有关从第三方平台迁移到 Adobe 的常见问题解答
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
 ht-degree: 100%
 
