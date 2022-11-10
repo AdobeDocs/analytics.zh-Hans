@@ -4,9 +4,9 @@ title: 提交访问和删除请求
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1297'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 
 ## 提交请求 {#submit-requests}
 
-您可以通过我们的 [Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html) 或 [Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) 提交数据隐私访问和删除请求。
+您可以通过我们的 [Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=zh-Hans) 或 [Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hans) 提交数据隐私访问和删除请求。
 
 >[!NOTE]
 >
