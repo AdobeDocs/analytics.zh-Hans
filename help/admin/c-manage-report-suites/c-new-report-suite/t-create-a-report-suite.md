@@ -4,15 +4,15 @@ title: 创建报表包
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # 创建报表包
 
-报表包是一种数据存储库，Adobe Analytics 使用报表包提取单个报表。一个组织可以有多个报表包，每个报表包中包含不同的数据集。过去，有必要设置多个独立报表包，但现在单个报表包的优势变得日益凸显。通过引入[虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html#virtual-report-suites)和报表时间处理，管理员可创建您自己的数据子集，使得可灵活地获取全局数据和站点专属数据。
+报表包是一种数据存储库，Adobe Analytics 使用报表包提取单个报表。一个组织可以有多个报表包，每个报表包中包含不同的数据集。过去，有必要设置多个独立报表包，但现在单个报表包的优势变得日益凸显。通过引入[虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html#virtual-report-suites?lang=zh-Hans)和报表时间处理，管理员可创建您自己的数据子集，使得可灵活地获取全局数据和站点专属数据。
 
 本文旨在帮助系统级别管理员或 Adobe Analytics 管理员为数据收集做好准备。
 
