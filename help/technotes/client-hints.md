@@ -1,13 +1,13 @@
 ---
 title: 客户端提示
 description: 了解客户端提示将如何逐渐取代 User-Agent 作为设备信息的来源。
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
+source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
+workflow-type: ht
 source-wordcount: '1059'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-
 
 # 客户端提示概述和常见问题解答
 
@@ -41,7 +41,7 @@ Google 将 User-Agent 客户端提示分为两类：低熵提示和高熵提示�
 
 +++**如何启用客户端提示的收集？**
 
-浏览器会自动提供低熵提示，这些提示经摄取后用于获取设备和浏览器信息。较新版本的 Web SDK（从 2.12.0 开始）和 AppMeasurement（从 2.23.0 开始）可以配置为通过各自的标记扩展或直接通过配置选项收集高熵提示。请参阅关于 [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) 和 [AppMeaurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html) 的说明。
+浏览器会自动提供低熵提示，这些提示经摄取后用于获取设备和浏览器信息。较新版本的 Web SDK（从 2.12.0 开始）和 AppMeasurement（从 2.23.0 开始）可以配置为通过各自的标记扩展或直接通过配置选项收集高熵提示。请参阅关于 [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints?lang=zh-Hans) 和 [AppMeaurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=zh-Hans) 的说明。
 
 这两个库&#x200B;**在默认情况下禁用**&#x200B;高熵提示的收集。
 
@@ -81,11 +81,11 @@ Google 将 User-Agent 客户端提示分为两类：低熵提示和高熵提示�
 
 这些字段直接从用户-代理派生，但用户-代理可用于帮助派生其他设备相关字段的值，具体取决于设备详细信息。
 
-* [浏览器](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html)
-* [浏览器类型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html)
-* [操作系统](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html)
-* [操作系统类型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html)
-* [移动设备和移动设备类型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html)
+* [浏览器](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=zh-Hans)
+* [浏览器类型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=zh-Hans)
+* [操作系统](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hans)
+* [操作系统类型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=zh-Hans)
+* [移动设备和移动设备类型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=zh-Hans)
 
 +++
 
@@ -141,7 +141,6 @@ Adobe 计划在 2023 年上半年在通过 Adobe Source Connector 发送的数�
 
 +++**AAM 服务器端转发是否支持客户端提示？**
 
-是的。客户端提示将包含在转发给 AAM 的数据中。请注意，AAM 需要收集高熵提示以保留完整功能。如果您正在使用[服务器端转发到 AAM 功能](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)，则您可能希望启用高熵提示的收集。
+是的。客户端提示将包含在转发给 AAM 的数据中。请注意，AAM 需要收集高熵提示以保留完整功能。如果您正在使用[服务器端转发到 AAM 功能](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hans)，则您可能希望启用高熵提示的收集。
 
 +++
-
