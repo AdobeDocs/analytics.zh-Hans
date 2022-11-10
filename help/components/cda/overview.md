@@ -3,13 +3,13 @@ title: Cross-Device Analytics
 description: 通过将设备数据拼合在一起，将您的数据从以设备为中心更改为以人员为中心。
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '856'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# 跨设备分析
+# Cross-Device Analytics
 
 跨设备分析 (CDA) 是一项功能，可将 Analytics 从以设备为中心的视图转变为以人员为中心的视图。 因此，分析师可以了解跨浏览器、设备或应用程序的用户行为。Adobe 支持使用两个主要工作流程，将设备数据链接在一起：
 
@@ -46,7 +46,7 @@ Cross-Device Analytics 是一项具有突破性的强大功能，但其使用方
 * Cross-Device Analytics 不适用于多个报表包，也无法合并多个报表包的数据。
 * Adobe Analytics 报告包无法映射到多个组织 ID。由于 CDA 拼合给定报告包内的设备，因此 CDA 无法用于拼合多个组织 ID 之间的数据。
 * CDA 使用复杂的处理管道，并具有多个依赖组件。这与基本 Analytics 报告工作流并行运行。因此，预计源报表包和 CDA 虚拟报表包之间的点击总数的数据不匹配率约为 1%。
-* Cross-Device Analytics 使用虚拟报表包和报表时间处理，二者各有其自身的限制。例如，它们目前不支持营销渠道变量。有关具体限制的详细信息，请参阅[虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html)和[报表时间处理](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html#report-time-processing-limitations)。
+* Cross-Device Analytics 使用虚拟报表包和报表时间处理，二者各有其自身的限制。例如，它们目前不支持营销渠道变量。有关具体限制的详细信息，请参阅[虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-Hans)和[报表时间处理](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html#report-time-processing-limitations?lang=zh-Hans)。
 * 专用图形利用 Experience Cloud 和 Adobe Analytics 中的[客户属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hans#customer-attributes)功能所使用的相同 ID 同步。但是，CDA 虚拟报表包（无论是基于专用图形还是基于字段的拼接）与其余的“客户属性”功能不兼容。换句话说，基于客户属性的维度不可用于 CDA 虚拟报表包。
 * CDA 当前与 A4T 不兼容。
 * 不支持 1.4 API。Power BI 连接器和 Report Builder 都依赖于 1.4 API，因此与 CDA 不兼容。
