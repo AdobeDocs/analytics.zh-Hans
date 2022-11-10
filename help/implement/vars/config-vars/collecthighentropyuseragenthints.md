@@ -1,13 +1,13 @@
 ---
 title: collectHighEntropyUserAgentHints
 description: 使用 collectHighEntropyUserAgentHints 变量可确定 Adobe 是否将从 Chromium 浏览器（例如 Google Chrome 和 Microsoft Edge）请求高熵提示。
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+exl-id: 97cfa0f9-b35d-4c73-822f-adf30d0b7efc
+source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
+workflow-type: ht
 source-wordcount: '224'
 ht-degree: 100%
 
 ---
-
 
 # collectHighEntropyUserAgentHints
 
