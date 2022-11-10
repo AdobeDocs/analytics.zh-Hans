@@ -4,7 +4,7 @@ description: 使用标记创建一个空间，以自定义数据的收集方式�
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 属性是用于管理标记的主要容器。通过扩展，您可以安装和配置特定于产品的标记。
 
-1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection?lang=zh-Hans)。
 1. 单击&#x200B;**[!UICONTROL 新建属性]**。
 1. 为您的属性指定名称（如网站的标题），然后输入要在其中实施 Analytics 的域。单击&#x200B;**[!UICONTROL 保存]**。
 1. 单击新创建的标记属性以输入其设置。
