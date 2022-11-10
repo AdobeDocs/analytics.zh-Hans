@@ -3,9 +3,9 @@ title: 导入付费搜索指标
 description: 配置 Adobe Analytics 以跟踪您的付费搜索指标（如 Google AdWords、MSN、Yahoo 等等）的步骤。使用数据源。
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1210'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -117,7 +117,7 @@ f. 删除跟踪代码、展示次数、点击次数和成本之外的所有列�
 
 添加计算指标将在作出每次点击付费决策时有所帮助。
 
-例如，可添加这些[计算指标](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html#calculated-metrics)：
+例如，可添加这些[计算指标](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html#calculated-metrics?lang=zh-Hans)：
 
 | 名称 | 公式 | 指标类型 | 描述 |
 | --- | --- | --- | --- |
