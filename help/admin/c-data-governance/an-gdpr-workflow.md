@@ -4,9 +4,9 @@ title: 隐私工作流程
 feature: Privacy
 exl-id: c364b364-6d77-4b2c-88ab-65daf812f242
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '280'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,5 +17,5 @@ ht-degree: 97%
 1. **设置您的数据保留策略。** Adobe 需要数据保留策略来处理数据隐私数据访问/删除请求。有关更多信息，请参阅[数据保留常见问题解答](/help/technotes/data-retention.md)。
 1. **熟悉 DULE/数据隐私标签、Adobe Analytics ID、命名空间和 ID 扩展。**&#x200B;请参阅 [Analytics 变量的数据隐私标签](/help/admin/c-data-governance/gdpr-labels.md)和[标签设置最佳实践](/help/admin/c-data-governance/gdpr-analytics-ids.md)。
 1. **向报表包中的每个变量分配身份、敏感性和数据管理标签。**&#x200B;每次创建新报表包或在现有报表包中启用新变量时，都需要对标签设置进行审核。此外，在启用新的解决方案集成时也需要审核标签设置，因为这些集成会公开可能要求设置标签的新变量。重新实施您的移动应用程序或网站时，可能会改变现有变量的使用方式，这或许也需要更新标签。请参阅[为报表包数据设置标签](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)。
-1. **连接到 Adobe 数据隐私 API 并提交访问和删除请求。** 作为 Adobe Analytics 客户，您可以通过调用 [ Adobe Experience Privacy Service API ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html)，来提交单独的数据隐私请求以访问和删除客户数据。您可以在请求中提交任何 Analytics 标识符（如[标签设置最佳实践](/help/admin/c-data-governance/gdpr-analytics-ids.md)一节中所述）及其各自的命名空间 ID（数据源 ID）。
+1. **连接到 Adobe 数据隐私 API 并提交访问和删除请求。** 作为 Adobe Analytics 客户，您可以通过调用 [ Adobe Experience Privacy Service API ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hans)，来提交单独的数据隐私请求以访问和删除客户数据。您可以在请求中提交任何 Analytics 标识符（如[标签设置最佳实践](/help/admin/c-data-governance/gdpr-analytics-ids.md)一节中所述）及其各自的命名空间 ID（数据源 ID）。
 1. **查看和管理报表包的数据隐私设置。**&#x200B;请参阅[查看报表包的数据管理设置](/help/admin/c-data-governance/gdpr-view-settings.md)。
