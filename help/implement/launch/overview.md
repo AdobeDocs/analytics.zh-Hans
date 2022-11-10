@@ -1,16 +1,16 @@
 ---
-title: 在Adobe Analytics中使用标记实施Adobe Experience Platform
+title: 使用 Adobe Experience Platform 中的标记实施 Adobe Analytics
 description: 了解如何使用标记实施 Adobe Analytics
 feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '308'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# 在Adobe Analytics中使用标记实施Adobe Experience Platform
+# 使用 Adobe Experience Platform 中的标记实施 Adobe Analytics
 
 在 Adobe Analytics 的整个生命周期中，Adobe 提供了多种不同方法来帮助您在网站上实施用于收集数据的代码。Adobe 目前推荐的方法是使用 Adobe Experience Platform 中的标记进行实施。
 
@@ -33,6 +33,6 @@ Adobe Experience Platform 中的标记是一款标记管理解决方案，可让
 
 标记可高度定制。详细了解如何通过在实施中包含正确的数据来充分利用 Adobe Analytics。
 
-* [标记文档](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html#)：了解界面的使用方式和可用的扩展。
+* [标记文档](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html#?lang=zh-Hans)：了解界面的使用方式和可用的扩展。
 * [Adobe Analytics 扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hans)：使用 Analytics 扩展将数据发送到 Adobe Analytics。
 * [实施变量](../vars/overview.md)：确定要发送到数据收集服务器的变量。
