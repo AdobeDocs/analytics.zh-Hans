@@ -4,9 +4,9 @@ description: 每 6 个月对您的实施进行一次审查，以确保实施与�
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 95%
 
 ## 1. 确保您的实施仍然完全符合我们的业务需求
 
-与业务所有者和/或分析师会面，以审查不断变化的业务需求。对于您的实施当前未能满足的任何需求或衡量机会，请弄清楚如何更新您的 KPI 和衡量计划。请记得要在 [BRD 和 SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation) 中记录您所做的更改。
+与业务所有者和/或分析师会面，以审查不断变化的业务需求。对于您的实施当前未能满足的任何需求或衡量机会，请弄清楚如何更新您的 KPI 和衡量计划。请记得要在 [BRD 和 SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation?lang=zh-Hans) 中记录您所做的更改。
 
 ## 2. 确保您的量度和变量仍能正常运行
 
-按照对业务的重要程度，简要对所有的量度和变量进行审查，以确保正确地收集数据。从最关键的量度和变量开始 – 与 [5 大 KPI](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html#review) 相关的量度和变量。请按以下步骤执行此操作：
+按照对业务的重要程度，简要对所有的量度和变量进行审查，以确保正确地收集数据。从最关键的量度和变量开始 – 与 [5 大 KPI](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html#review?lang=zh-Hans) 相关的量度和变量。请按以下步骤执行此操作：
 
 * 创建功能板以查看这些关键量度和变量每月的趋势视图（或为每个量度和变量设置[智能警报](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace)），确保您能获得所需数据并且数据正确。如果发现任何误差，请检查数据层、标签管理器规则及处理规则，并找出原因。
 * 重新运行 [Analytics 运行状况功能板](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252)，以监控量度和变量的总体趋势。
