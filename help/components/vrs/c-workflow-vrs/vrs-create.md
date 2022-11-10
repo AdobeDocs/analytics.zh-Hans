@@ -5,9 +5,9 @@ title: 创建虚拟报表包
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 98%
 ![](assets/components.png)
 
 1. 在[!UICONTROL 组件]选项卡上，选中此复选框可应用策划，以在 Analysis Workspace 中包含、排除和重命名此虚拟报表包的组件。
-有关 VRS 策划的更多信息，请参阅[虚拟报表包组件策划](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html#virtual-report-suites)。
+有关 VRS 策划的更多信息，请参阅[虚拟报表包组件策划](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html#virtual-report-suites?lang=zh-Hans)。
 
 1. 将您想在 VRS 中包括的组件（维度、指标、区段或日期范围）拖入[!UICONTROL 包含的组件]部分。
 
