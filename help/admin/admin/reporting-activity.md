@@ -3,13 +3,13 @@ description: 了解如何使用报告活动管理器诊断和修复在报告高�
 title: 报告活动管理器
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
+exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
+source-git-commit: 7421b2eb2b8b00824de2910e37882c83d2d6f3e9
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 100%
+source-wordcount: '934'
+ht-degree: 98%
 
 ---
-
 
 # 报告活动管理器
 
@@ -31,7 +31,9 @@ ht-degree: 100%
 
 ## 权限
 
-您需要 Analytics 产品管理员权限才能管理报告活动。
+您需要拥有Analytics产品管理员权限(位于Adobe Admin Console中)才能管理报表活动。
+
+![许可](assets/rep-mgr-permission.png)
 
 ## 查看报告队列
 
