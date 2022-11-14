@@ -4,10 +4,10 @@ title: 报告活动管理器
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 7421b2eb2b8b00824de2910e37882c83d2d6f3e9
+source-git-commit: 21270e1a4f05208525261969c2e6858df8647aa1
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 98%
+source-wordcount: '962'
+ht-degree: 92%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 98%
 
 | 摘要数字 | 描述 |
 | --- | --- |
-| [!UICONTROL 用户] | 当前正在向此报告包发送报告请求的用户的数目。 |
+| [!UICONTROL 用户] | 当前向此报表包发送报表请求的用户数。 |
 | [!UICONTROL 项目] | Workspace 项目、Report Builder 工作簿等。 |
 | [!UICONTROL 查询] | 当前正在运行的查询数。 |
 | [!UICONTROL 平均等待时间] | 所有正在运行的查询的平均等待时间。 |
@@ -120,7 +120,10 @@ ht-degree: 98%
 
 要取消请求
 
-1. 选中表格中一个或多个&#x200B;**[!UICONTROL 查询编号]**&#x200B;左侧的框，然后在底部单击&#x200B;**[!UICONTROL 取消请求]**。 （您也可以通过查看[!UICONTROL 用户]、[!UICONTROL 项目]，或者[!UICONTROL 应用程序]的详细信息批量取消请求。)
+1. 选中表格中一个或多个&#x200B;**[!UICONTROL 查询编号]**&#x200B;左侧的框，然后在底部单击&#x200B;**[!UICONTROL 取消请求]**。 
+
+   您还可以通过查看 [!UICONTROL 用户], [!UICONTROL 项目]或 [!UICONTROL 应用程序]. 在活动刷新时，对于未处于队列或取消时正在运行的项目、用户或应用程序的后续请求仍可能显示。
+
 1. 在出现的&#x200B;**[!UICONTROL 取消 x 查询]**&#x200B;窗口中，您可以根据需要修改取消消息。
 1. 单击&#x200B;**[!UICONTROL 继续]**。
 
