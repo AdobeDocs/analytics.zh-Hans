@@ -3,16 +3,16 @@ title: Adobe Analytics系统要求
 description: 为使用 Adobe Analytics 而需满足的系统要求。
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+source-git-commit: 45c6f0e08870cd9e01e8e6bfb7900ca54d356d02
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 92%
+source-wordcount: '118'
+ht-degree: 76%
 
 ---
 
 # Adobe Analytics系统要求
 
-列出为使用 Adobe Analytics 中的各种产品解决方案而需满足的系统要求。
+大多数Adobe Analytics解决方案都在浏览器中运行。 以下部分提供了浏览器和客户端解决方案的系统要求：
 
 ## 基于浏览器的解决方案的系统要求
 
