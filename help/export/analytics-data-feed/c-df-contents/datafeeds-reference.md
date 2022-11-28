@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 数据列引用
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 031b5922e490419eecdb2c953ff9b2c798314ab5
+source-git-commit: d65eb9ce1904e66bfb5fdaa801696ba050f99ae7
 workflow-type: tm+mt
-source-wordcount: '3638'
-ht-degree: 99%
+source-wordcount: '3641'
+ht-degree: 98%
 
 ---
 
@@ -125,13 +125,13 @@ ht-degree: 99%
 | **`mobilecampaignterm`** | 要在此客户获取中跟踪的付费关键字或其他搜索词。由移动设备应用程序客户获取填充。 | varchar(255) |
 | **`mobiledayofweek`** | 应用程序启动的时间（星期几）。 | varchar(255) |
 | **`mobiledayssincefirstuse`** | 距应用程序首次运行的间隔天数。 | varchar(255) |
-| **`mobiledayssincelastupgrade`** | 从上下文数据变量 a.DaysSinceLastUpgrade 收集。自上一个会话以来经过的天数。 | varchar(255) |
+| **`mobiledayssincelastupgrade`** | 已停用 — 从上下文数据变量a.DaysSinceLastUpgrade收集。 自上一个会话以来经过的天数。 | varchar(255) |
 | **`mobiledayssincelastuse`** | 距应用程序上次运行的间隔天数。 | varchar(255) |
 | **`mobiledeeplinkid`** | 从上下文数据变量 `a.deeplink.id` 收集。在客户获取报表中用作移动客户获取链接的标识符。 | varchar(255) |
 | **`mobiledevice`** | 移动设备名称。在 iOS 上，该变量存储为用逗号分隔的 2 位数的字符串。第一个数字表示设备是第几代的，而另一个数字则表示设备所属的系列。 | varchar(255) |
 | **`mobilehourofday`** | 确定应用程序启动的具体时间。采用 24 小时数字格式。 | varchar(255) |
 | **`mobileinstalldate`** | 移动设备安装日期。表示用户首次打开移动设备应用程序的日期。 | varchar(255) |
-| **`mobilelaunchessincelastupgrade`** | 从上下文数据变量 a.LaunchesSinceUpgrade 收集。报告自上次升级以来的启动次数。 | varchar(255) |
+| **`mobilelaunchessincelastupgrade`** | 已停用 — 从上下文数据变量a.LaunchesSinceUpgrade收集。 报告自上次升级以来的启动次数。 | varchar(255) |
 | **`mobilelaunchnumber`** | 应用程序每启动一次，该变量值便会递增。 | varchar(255) |
 | **`mobileltv`** | 已不再使用。由 trackLifetimeValue 方法填充。 | varchar(255) |
 | **`mobilemessagebuttonname`** | 从上下文数据变量 `a.message.button.id` 收集。用于应用程序内消息传递，以标识关闭消息的按钮。 | varchar(100) |
@@ -139,7 +139,7 @@ ht-degree: 99%
 | **`mobilemessageonline`** | 应用程序内消息在线 | varchar(255) |
 | **`mobilemessagepushoptin`** | 从上下文数据变量 `a.push.optin` 收集。当用户选择加入推送消息时，设置为“true”；否则，将该值设为“false”。 | varchar(255) |
 | **`mobilemessagepushpayloadid`** | 从上下文数据变量 `a.push.payloadid` 收集。在推送消息中用作有效负载标识符。 | varchar(255) |
-| **`mobileosenvironment`** | 从上下文数据变量 `a.OSEnvironment` 收集。指明操作系统环境，如 Android 或 iOS。 | varchar(255) |
+| **`mobileosenvironment`** | 已停用 — 从上下文数据变量收集 `a.OSEnvironment`. 指明操作系统环境，如 Android 或 iOS。 | varchar(255) |
 | **`mobileosversion`** | Mobile Services 操作系统版本 | varchar(255) |
 | **`mobileplaceaccuracy`** | 从上下文数据变量 `a.loc.acc` 收集。指示收集时 GPS 的精度（以米为单位）。 | varchar(255) |
 | **`mobileplacecategory`** | 从上下文数据变量 `a.loc.category` 收集。描述特定位置的类别。 | varchar(255) |
