@@ -2,10 +2,10 @@
 title: 客户端提示
 description: 了解客户端提示将如何逐渐取代 User-Agent 作为设备信息的来源。
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
-workflow-type: ht
-source-wordcount: '1059'
-ht-degree: 100%
+source-git-commit: f80430a4537b17991a0c2cf104df47a053c3792d
+workflow-type: tm+mt
+source-wordcount: '1134'
+ht-degree: 91%
 
 ---
 
@@ -95,6 +95,14 @@ Google 将 User-Agent 客户端提示分为两类：低熵提示和高熵提示�
 
 +++
 
++++**Analytics在哪些方面依赖于用户代理？**
+
+报告中的设备信息是从用户代理派生的。 我们更新了流程，以便在可用时同时使用用户代理和客户端提示。
+
+回退ID([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=en))是从用户代理和IP地址派生的。 此ID仅在无法设置Cookie时使用，因此不被广泛使用
+
++++
+
 +++**从高熵提示中存储的值获取哪些 Analytics 报表字段？**
 
 随着 Google“冻结”用户代理的更多部分，这将随着时间的推移而改变。第一个受到直接影响的字段是“操作系统”（其中包括操作系统版本）。根据 Google 发布的“冻结”用户-代理提示的时间表，操作系统版本将从 2022 年 10 月底的 Chromium 版本 107 开始冻结。届时，用户代理中的操作系统版本在某些情况下会不准确。
@@ -105,7 +113,7 @@ Google 将 User-Agent 客户端提示分为两类：低熵提示和高熵提示�
 
 +++**Adobe 将如何使用客户端提示获取设备信息？**
 
-Adobe 使用第三方 Device Atlas，后者同时使用客户端提示和 User-Agent 获取设备信息。
+Adobe使用第三方Device Atlas ,Device Atlas将同时使用客户端提示和用户代理获取设备信息。
 
 +++
 
@@ -141,6 +149,6 @@ Adobe 计划在 2023 年上半年在通过 Adobe Source Connector 发送的数�
 
 +++**AAM 服务器端转发是否支持客户端提示？**
 
-是的。客户端提示将包含在转发给 AAM 的数据中。请注意，AAM 需要收集高熵提示以保留完整功能。如果您正在使用[服务器端转发到 AAM 功能](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hans)，则您可能希望启用高熵提示的收集。
+是的。客户端提示将包含在转发给 AAM 的数据中。请注意，AAM 需要收集高熵提示以保留完整功能。如果您正在使用[服务器端转发到 AAM 功能](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)，则您可能希望启用高熵提示的收集。
 
 +++
