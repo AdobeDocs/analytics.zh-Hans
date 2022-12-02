@@ -4,10 +4,10 @@ description: 将成功事件的点数归因到多个维度项目的概念。
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 639449ea27721a15e29ca1b3085788d764b14909
-workflow-type: ht
-source-wordcount: '442'
-ht-degree: 100%
+source-git-commit: ecb3600d524817ccb01f0e0697672e4828d99e86
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 给定的客户历程不是线性的，而且往往难以预测。每位客户按各自的进度进行；通常，它们会再次返回、延迟、重新启动或参与其他非线性行为。这些免费操作使得我们很难了解营销工作在整个客户历程中所产生的影响。它还会妨碍将多个数据渠道绑定在一起的工作。
 
-![归因 IQ 问题](assets/attribution_iq_problem.png)
+![Attribution IQ 问题](assets/attribution_iq_problem.png)
 
 Adobe Analytics 通过让您能够执行以下操作来增强归因：
 
@@ -39,7 +39,7 @@ Adobe Analytics 通过让您能够执行以下操作来增强归因：
 
 ## 功能
 
-归因 IQ 包括以下功能：
+Attribution IQ 包括以下功能：
 
 * [归因面板](../c-panels/attribution.md)：获取任何维度和量度，并快速将其与不同的归因模型进行比较。
 * [将归因应用于度量](../visualizations/freeform-table/column-row-settings/column-settings.md)：对项目中的任何量度使用非默认归因。
@@ -64,3 +64,6 @@ Adobe Analytics 通过让您能够执行以下操作来增强归因：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 
+## Adobe Analytics工具不支持Attribution IQ
+
+任何不支持Analytics 2.0 API的工具(如Report Builder)都不支持Attribution IQ。
