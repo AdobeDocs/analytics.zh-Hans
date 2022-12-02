@@ -3,20 +3,20 @@ title: Adobe Analytics系统要求
 description: 为使用 Adobe Analytics 而需满足的系统要求。
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: 45c6f0e08870cd9e01e8e6bfb7900ca54d356d02
+source-git-commit: 1ff50284015588888f9118f7640b4057232457d2
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 76%
+source-wordcount: '125'
+ht-degree: 63%
 
 ---
 
 # Adobe Analytics系统要求
 
-大多数Adobe Analytics解决方案都在浏览器中运行。 以下部分提供了浏览器和客户端解决方案的系统要求：
+大多数Adobe Analytics解决方案都在浏览器中运行。 本文中的信息提供了浏览器和客户端解决方案的系统要求。
 
 ## 基于浏览器的解决方案的系统要求
 
-大多数 Adobe Analytics 解决方案（包括 Analysis Workspace）都基于浏览器。因此，为使用 Adobe Analytics 而需满足的最重要的要求便是使用新版 Web 浏览器。Adobe 支持以下浏览器的最新稳定版本：
+大多数 Adobe Analytics 解决方案（包括 Analysis Workspace）都基于浏览器。因此，为使用 Adobe Analytics 而需满足的最重要的要求便是使用新版 Web 浏览器。Adobe支持以下浏览器的最新稳定版本：
 
 * Microsoft Edge
 * Google Chrome
@@ -31,5 +31,5 @@ ht-degree: 76%
 
 有关此类解决方案的系统要求，请参阅链接的解决方案页面。
 
-* [Report Builder](/help/analyze/report-builder/setup/system-requirements.md)
-* [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=zh-Hans)
+* [Report Builder 系统要求](/help/analyze/report-builder/setup/system-requirements.md)
+* [Data Workbench系统要求](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=zh-Hans)
