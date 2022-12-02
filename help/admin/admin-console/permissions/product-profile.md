@@ -3,10 +3,10 @@ title: Adobe Analytics 的产品配置文件
 description: 了解产品配置文件如何用作产品管理员可以分配给组织内的用户的权限预设。
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
-source-git-commit: 8f25dfefbc6fba1fb525d2e9e0fce654e21ef362
+source-git-commit: 88ed2f874d680f9ed1aea9bfb60e303f123cbc37
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 95%
+source-wordcount: '672'
+ht-degree: 91%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 95%
 
 产品配置文件是产品管理员可分配给组织内用户的权限预设。如果您创建产品配置文件并将其分配给 Experience Cloud 用户，用户将继承该产品配置文件中包含的权限项。
 
-有关产品配置文件的一般信息，请参阅“企业用户指南”中的[管理产品和配置文件](https://helpx.adobe.com/cn/enterprise/using/manage-products-and-profiles.html)。
+请参阅 [为企业用户管理产品配置文件](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) 有关产品配置文件的常规信息，请参阅企业用户指南。
 
 ## 产品配置文件管理员
 
