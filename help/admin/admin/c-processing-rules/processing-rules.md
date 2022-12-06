@@ -4,10 +4,10 @@ subtopic: Processing rules
 title: 处理规则概述
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
-workflow-type: ht
-source-wordcount: '329'
-ht-degree: 100%
+source-git-commit: 3d22d27a259b100cbbe8306b4d610afacb59d265
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 88%
 
 ---
 
@@ -57,3 +57,7 @@ s.contextData['genre'] = "Youth";
 在您的实施中定义上下文数据变量后，必须将这些变量复制到 eVar 等变量中，才能在报表中使用。
 
 有关详细信息，请参阅[将上下文数据变量复制到 eVar](processing-rules-examples/processing-rules-copy-context-data.md) 和[使用上下文数据变量设置事件](processing-rules-examples/processing-rules-copy-context-data-event.md)。
+
+## 已知限制
+
+**在处理规则中使用Carat(^)。** 如果要在处理规则中将克拉用作分隔符或用于其他目的，则每单克拉必须由两克拉表示。 例如，表示单克拉为^^，双克拉为^^^^，等等。
