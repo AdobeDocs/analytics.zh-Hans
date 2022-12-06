@@ -3,10 +3,10 @@ title: 移动设备维度
 description: 基于设备的 IP 地址的维度。
 feature: Dimensions
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '892'
-ht-degree: 100%
+source-git-commit: 9e7ad96710d536baac6923850e29df49dfaec98f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 * **移动运营商**：根据 Analytics 捕获的 IP 地址查找第三方（Digital Elements）数据以填充此维度的值。示例值包括 `"Reliance Jio"`、`"Airtel"`、`"Vodafone"` 和 `"Verizon"`。
 * **移动设备颜色深度**：移动设备的颜色深度（以位为单位）。
 * **移动 Cookie 支持**：确定移动设备是否支持 Cookie。报表未说明浏览器是否接受 Cookie。维度项目包括 `"Supported"`、`"Not supported"` 和 `"Unknown"`。
-* **移动设备**：访客使用的移动设备。
+* **移动设备**：访客使用的移动设备。**注意**:数字元素会定期发布更新以识别新设备/更新设备。
 * **移动设备号**：确定移动设备是否传输其号码。维度项目包括 `"Supported"`、`"Not supported"` 和 `"Unknown"`。
 * **移动设备类型**：移动设备的类型。示例值包括 `"Mobile phone"`、`"Tablet"`、`"Media player"` 和 `"Gaming console"`。
 * **移动设备 DRM**：移动设备支持的 DRM 类型。示例值包括 `"DRM OMA forward"`、`"DRM OMA combined delivery"` 和 `"DRM OMA separate delivery"`。
