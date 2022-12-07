@@ -4,10 +4,10 @@ title: 快速区段
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '899'
-ht-degree: 100%
+source-git-commit: 86fc28375d62d9f1d71d0b239ea0e2038fae47e4
+workflow-type: tm+mt
+source-wordcount: '943'
+ht-degree: 92%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 | --- | --- |
 | 名称 | 区段的默认名称为该区段中的规则名称的组合。您可以对区段重命名。 |
 | 包括/排除 | 可在区段定义中包括或排除组件，但不得既包括又排除。 |
-| “点击”/“访问”/“访客”容器 | 快速区段仅包括一个[区段容器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6?lang=zh-Hans)，从中可在区段中包括（或从区段中排除）某个维度/量度/日期范围。[!UICONTROL 访客]包含访客在不同的访问和页面查看间专属的总体数据。通过[!UICONTROL 访问]容器可设置规则以根据访问划分访客的数据，而通过[!UICONTROL 点击]容器可根据个别页面查看划分访客信息。默认容器为[!UICONTROL 点击]。 |
+| “点击”/“访问”/“访客”容器 | 快速区段仅包括一个[区段容器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6?lang=zh-Hans)，从中可在区段中包括（或从区段中排除）某个维度/量度/日期范围。[!UICONTROL 访客]包含访客在不同的访问和页面查看间专属的总体数据。A [!UICONTROL 访问] 容器允许您设置规则来根据访问对访客数据进行划分， [!UICONTROL 点击] 容器允许您根据各个页面查看次数划分访客信息。 默认容器为[!UICONTROL 点击]。 |
 | 组件（维度/指标/日期范围） | 通过添加组件（维度和/或量度和/或日期范围）及其值，可定义最多 3 条规则。有 3 种方法可以找到正确的组件：<ul><li>只需开始打字，[!UICONTROL 快速区段]生成器即自动查找相应的组件。</li><li>使用下拉列表查找组件。</li><li>从左边栏中拖放组件。</li></ul> |
 | 运算符 | 使用下拉菜单查找标准运算符和[!UICONTROL 非重复计数]运算符。[了解详情](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=zh-Hans) |
 | 加号 (+) | 添加另一条规则。 |
@@ -94,3 +94,10 @@ ht-degree: 100%
 如果选中“使此区段可用…”并点击&#x200B;**[!UICONTROL 保存]**，则该区段在左边栏组件列表中可用于其他项目。还可以从区段管理器与其他用户共享。
 
 ![“仅用于项目”已选中](assets/project-only-checked.png)
+
+## 已知问题
+
+1. 创建包含2个条目的快速区段，并 **[!UICONTROL 保存]** 称为Test1。
+1. 单击 **[!UICONTROL 另存为]** 并将此快速区段另存为Test2。
+1. 编辑Test2快速区段，并再次将其另存为Test2。
+请注意，Test1快速区段被Test2修改。
