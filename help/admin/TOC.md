@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等等。
-source-git-commit: 927e7e374919d89798c69c1959c54426b4e51a3e
+source-git-commit: 9407c284313653f95456bb0f2d11f509c6937377
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 98%
+source-wordcount: '678'
+ht-degree: 97%
 
 ---
 
@@ -16,10 +16,20 @@ ht-degree: 98%
 
 + [Analytics 管理员指南](home.md)
 + [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
-+ Analytics 管理概述{#admin-overview}
-   + [我应该使用哪种 Adobe Analytics 工具？](c-analytics-product-comparison/which-analytics-tool.md)
-   + [Analytics 产品比较和要求](c-analytics-product-comparison/analytics-product-comparison.md)
-+ [系统要求](sys-reqs.md)
++ Analytics管理入门 {#admin-overview}
+   + [我应该使用哪种 Adobe Analytics 工具？](admin/get-started/which-analytics-tool.md)
+   + [Analytics 产品比较和要求](admin/get-started/analytics-product-comparison.md)
+   + [系统要求](admin/get-started/sys-reqs.md)
+   + 公司设置 {#company-settings}
+      + [公司设置概述](admin/get-started/company/c-company-settings.md)
+      + [功能访问级别](admin/get-started/company/feature-access-levels.md)
+      + [Web 服务](admin/get-started/company/web-services-admin.md)
+      + [Report Builder 报表](admin/get-started/company/report-builder-reports-admin.md)
+      + [单点登录](admin/get-started/company/single-signon-admin.md)
+      + [待定操作](admin/get-started/company/pending-actions-admin.md)
+      + [品牌联合](admin/get-started/company/co-branding-admin.md)
+      + [隐藏报表包](admin/get-started/company/c-hide-report-suites.md)
+      + [安全管理器](admin/get-started/company/security-manager.md)
 + 管理工具{#admin-tools}
    + [管理工具](admin/c-admin-tools.md)
    + [计费](admin/billing-admin.md)
@@ -117,16 +127,6 @@ ht-degree: 98%
       + [Analytics 工具的产品配置文件权限](admin-console/permissions/analytics-tools.md)
    + [Adobe Analytics第一管理指南](admin-console/first-admin-guide.md)
    + [Adobe Analytics中的管理员角色](admin-console/admin-roles-in-analytics.md)
-+ 公司设置 {#company-settings}
-   + [公司设置概述](company/c-company-settings.md)
-   + [功能访问级别](company/feature-access-levels.md)
-   + [Web 服务](company/web-services-admin.md)
-   + [Report Builder 报表](company/report-builder-reports-admin.md)
-   + [单点登录](company/single-signon-admin.md)
-   + [待定操作](company/pending-actions-admin.md)
-   + [品牌联合](company/co-branding-admin.md)
-   + [隐藏报表包](company/c-hide-report-suites.md)
-   + [安全管理器](company/security-manager.md)
 + 管理报表包 {#manage-report-suites}
    + [报表包管理器](c-manage-report-suites/report-suites-admin.md)
    + [汇总报表包和全局报表包](c-manage-report-suites/rollup-report-suite.md)
