@@ -5,9 +5,9 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '994'
 ht-degree: 98%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->您必须安装 Excel 2007 或兼容包才能计划工作簿。对于每个 Report Builder 许可证，您最多可以有 10 个计划工作簿。但是，您可以通过减少其他许可证中的数量来增加此数量。为此，请转到&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 公司设置]** > **[!UICONTROL Report Builder报表]**。 已计划（或已上载到工作簿库）的工作簿以及超过 28 个月未使用（更新、替换）的工作簿将被删除。
+>您必须安装 Excel 2007 或兼容包才能计划工作簿。对于每个 Report Builder 许可证，您最多可以有 10 个计划工作簿。但是，您可以通过减少其他许可证中的数量来增加此数量。要执行此操作，请转到 **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 公司设置]** > **[!UICONTROL Report Builder报表]**. 已计划（或已上载到工作簿库）的工作簿以及超过 28 个月未使用（更新、替换）的工作簿将被删除。
 
 >[!NOTE]
 >
@@ -73,7 +73,6 @@ ht-degree: 98%
 | **文件选项选项卡** |  |
 | 文件格式 | 允许您选择提交格式：Excel 2007 (.xlsx) 或 2003 (.xls)、.pdf、.csv、.mht、.txt 和 .xml。 |
 | 文件目标 | 指定电子邮件或 FTP。页面上的选项会因您的选择而有所差异。对于 FTP，必须确保可从外部使用主机。 |
-| 发布列表 | 如果将计划工作簿发送给多个发布列表，则工作簿针对每个列表运行一次。可变报表包由分配给发布列表的报表包替换。 |
 | 文件内容语言 | 指定您希望附信使用的语言。您可以选择中文（简体或繁体）、德语、法语、日语、韩语、巴西葡萄牙语或西班牙语。 |
 | **发布选项选项卡** |  |
 | 发布到 Power BI | <ul><li>将工作簿发布到 Power BI</li><li>作为 Power BI 数据集表发布所有 Report Builder 请求</li><li>作为 Power BI 数据集表发布所有带格式的表</li></ul> |

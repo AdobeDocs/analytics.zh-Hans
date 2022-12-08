@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 功能板、Report Builder 和 Activity Map。
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '1059'
+source-git-commit: 9960b79ee6dcd98ed9f64af7c0e668c081542bb2
+workflow-type: tm+mt
+source-wordcount: '1055'
 ht-degree: 100%
 
 ---
@@ -171,7 +171,6 @@ ht-degree: 100%
          + [选择某个报表包从 Excel 中的现有请求](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [使用 Excel 查找报表包 ID](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [管理区段](report-builder/data-requests/segmentation.md)
-      + [允许发布列表覆盖](report-builder/data-requests/allow-publishing-list-overrides.md)
       + 报表类型 {#report-types}
          + [报表类型概述](report-builder/data-requests/c-report-types/select-report-types.md)
          + [Report Builder 中的路径报表和路径流失报表](report-builder/data-requests/c-report-types/report-path-fallout.md)

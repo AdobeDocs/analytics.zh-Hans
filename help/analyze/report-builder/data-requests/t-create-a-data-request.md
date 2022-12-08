@@ -4,9 +4,9 @@ title: 创建数据请求
 feature: Report Builder
 role: User, Admin
 exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: ht
-source-wordcount: '301'
+source-git-commit: d2e4a6eed54fa8b3e080b162a5e841fc2f5a0e59
+workflow-type: tm+mt
+source-wordcount: '291'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 1. 在[!UICONTROL 请求向导：第 1 步]窗口中，选择一个[报表包](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)。
 1. （可选）选择一个要应用到请求的区段。选择一个或多个区段后，它们将会移动到列表顶部。
 
-   Report Builder 使用区段的方式与 Adobe Analytics 使用区段的方式相同。请参阅[《Analytics 分段指南》](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)。1. （可选）选择要用于分配的[发布列表](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md)。
+   Report Builder 使用区段的方式与 Adobe Analytics 使用区段的方式相同。请参阅[《Analytics 分段指南》](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)。
 1. 选择[报表类型](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md)。
 1. 指定[日期范围](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)和报表[粒度](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md)。
 1. 单击&#x200B;**[!UICONTROL 下一步]**。

@@ -4,10 +4,10 @@ title: 数据请求 — 请求向导第 1 步
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: ht
-source-wordcount: '418'
-ht-degree: 100%
+source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
+workflow-type: tm+mt
+source-wordcount: '364'
+ht-degree: 98%
 
 ---
 
@@ -25,9 +25,7 @@ ht-degree: 100%
 
    例如，您可以运行[!UICONTROL 页面报表]，然后应用“首次访问”区段。
 
-1. **允许发布列表覆盖**：计划报表时，您可以选择要用于分发的发布列表。发布列表在 **[!UICONTROL Analytics]** > **[!UICONTROL 管理工具]**&#x200B;中进行设置。此请求的报表包由分配给发布列表中每个收件人的报表包 ID 替换。请参阅[允许发布列表覆盖](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md)。
-
-1. **报表类型**：指定要在数据请求中运行的基本报表。每个请求运行一个报表，并且报表可以包含一对多维度和一对多指标。报表类型的指标和维度显示在“[!UICONTROL 请求向导: 第 2 步]”界面上。请参阅[选择报表类型](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md)。
+1. **报表类型**：指定要在数据请求中运行的基本报表。每个请求运行一个报表，并且报表可以包含一对多维度和一对多指标。报表类型的指标和维度显示在“[!UICONTROL 请求向导: 第 2 步]”界面上。请参阅 [选择报表类型](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
 
 1. **日期范围**：定义请求涵盖的时间跨度。系统提供了多种类型的请求时段，如预设、固定和滚动。最大时段数是 366。您还可以选择单元格指定的日期范围，并且将日期范围保存为模板，供以后使用。请参阅[配置报表日期](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)
 

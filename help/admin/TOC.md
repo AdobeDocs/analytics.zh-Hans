@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等等。
-source-git-commit: cd680e8e2e8a30e100a713e0943978f8d798143a
+source-git-commit: 72c35538b0e5d0ffaa103b3159b4e9835a6c1602
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '673'
 ht-degree: 96%
 
 ---
@@ -32,13 +32,13 @@ ht-degree: 96%
       + [安全管理器](get-started/company/security-manager.md)
 + Adobe管理控制台中的用户权限 {#admin-console}
    + [Adobe Admin Console 中的 Analytics](admin-console/home.md)
+   + [Adobe Analytics第一管理指南](admin-console/first-admin-guide.md)
+   + [Adobe Analytics中的管理员角色](admin-console/admin-roles-in-analytics.md)
    + 权限 {#permissions}
       + [Admin Console 中的 Analytics Permissions](admin-console/permissions/summary-tables.md)
       + [Adobe Analytics 的产品配置文件](admin-console/permissions/product-profile.md)
       + [“报表包工具”的产品配置文件权限](admin-console/permissions/report-suite-tools.md)
       + [Analytics 工具的产品配置文件权限](admin-console/permissions/analytics-tools.md)
-   + [Adobe Analytics第一管理指南](admin-console/first-admin-guide.md)
-   + [Adobe Analytics中的管理员角色](admin-console/admin-roles-in-analytics.md)
 + 管理工具{#admin-tools}
    + [管理工具](admin/c-admin-tools.md)
    + [计费](admin/billing-admin.md)
@@ -72,8 +72,6 @@ ht-degree: 96%
    + 付费搜索检测{#paid-search-detection}
       + [付费搜索检测概述](admin/paid-search-detection/paid-search-detection.md)
       + [配置付费搜索检测](admin/paid-search-detection/t-paid-search-detection.md)
-   + [发布列表](admin/publishing-list.md)
-   + [发布构件](admin/publishing-widgets-admin.md)
    + [首选项管理器](admin/preferences-manager.md)
    + [隐私设置](admin/privacy-settings.md)
    + [隐私报表](admin/privacy-reporting.md)
@@ -113,7 +111,6 @@ ht-degree: 96%
       + [如何验证服务器端转发的实施情况](admin/c-server-side-forwarding/ssf-verify.md)
       + [服务器端转发常见问题解答](admin/c-server-side-forwarding/ssf-faq.md)
    + [简化的报表菜单](admin/t-simplified-menu.md)
-   + [社交管理](admin/social-management.md)
    + 成功事件 {#success-events}
       + [成功事件概述](admin/c-success-events/success-event.md)
       + [配置成功事件](admin/c-success-events/t-success-events.md)
