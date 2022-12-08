@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等等。
-source-git-commit: 72c35538b0e5d0ffaa103b3159b4e9835a6c1602
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -39,9 +39,31 @@ ht-degree: 96%
       + [Adobe Analytics 的产品配置文件](admin-console/permissions/product-profile.md)
       + [“报表包工具”的产品配置文件权限](admin-console/permissions/report-suite-tools.md)
       + [Analytics 工具的产品配置文件权限](admin-console/permissions/analytics-tools.md)
-+ 管理工具{#admin-tools}
++ Analytics管理员 {#admin-tools}
    + [管理工具](admin/c-admin-tools.md)
    + [计费](admin/billing-admin.md)
+   + 报表包管理器 {#manage-report-suites}
+      + [管理报表包](admin/c-manage-report-suites/report-suites-admin.md)
+      + [汇总报表包和全局报表包](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [创建汇总报表包](admin/c-manage-report-suites/t-rollups.md)
+      + [创建报表包群组](admin/c-manage-report-suites/t-create-rs-group.md)
+      + [保存报表包搜索](admin/c-manage-report-suites/t-report-suite-saved-search.md)
+      + [单个报表包设置](admin/c-manage-report-suites/individual-rs-settings.md)
+      + [下载报表包设置](admin/c-manage-report-suites/t-download-rs-settings.md)
+      + 新的报表包 {#new-report-suite}
+         + [创建报表包](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
+         + [新报表包 — 设置](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
+         + [未从源报表包复制的设置](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
+      + 报表包模板 {#report-suite-templates}
+         + [报表包模板概述](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+         + [内容聚合门户](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
+         + [商务](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
+         + [内容和媒体](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
+         + [默认模板](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
+         + [金融服务](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
+         + [求职门户](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
+         + [商机开发](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
+         + [支持媒体](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
    + 机器人移除{#bot-removal}
       + [机器人移除](admin/bot-removal/bot-removal.md)
       + [机器人规则概述](admin/bot-removal/bot-rules.md)
@@ -124,28 +146,6 @@ ht-degree: 96%
       + [指定独特访客变量](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [用例 — 提取访客 ID](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [视频管理](admin/video-management.md)
-+ 管理报表包 {#manage-report-suites}
-   + [报表包管理器](c-manage-report-suites/report-suites-admin.md)
-   + [汇总报表包和全局报表包](c-manage-report-suites/rollup-report-suite.md)
-   + [创建汇总报表包](c-manage-report-suites/t-rollups.md)
-   + 报表包模板 {#report-suite-templates}
-      + [报表包模板概述](c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
-      + [内容聚合门户](c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
-      + [商务](c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
-      + [内容和媒体](c-manage-report-suites/c-report-suite-templates/content-media.md)
-      + [默认模板](c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
-      + [金融服务](c-manage-report-suites/c-report-suite-templates/financial-services.md)
-      + [求职门户](c-manage-report-suites/c-report-suite-templates/job-portal.md)
-      + [商机开发](c-manage-report-suites/c-report-suite-templates/lead-generation.md)
-      + [支持媒体](c-manage-report-suites/c-report-suite-templates/support-media.md)
-   + [保存报表包搜索](c-manage-report-suites/t-report-suite-saved-search.md)
-   + [单个报表包设置](c-manage-report-suites/individual-rs-settings.md)
-   + [下载报表包设置](c-manage-report-suites/t-download-rs-settings.md)
-   + 新的报表包 {#new-report-suite}
-      + [创建报表包](c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-      + [新报表包 — 设置](c-manage-report-suites/c-new-report-suite/new-report-suite.md)
-      + [未从源报表包复制的设置](c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
-   + [创建报表包群组](c-manage-report-suites/t-create-rs-group.md)
 + 用户和产品管理（旧版）{#user-product-management}
    + [用户和产品管理](user-management2/user-management.md)
    + 将用户迁移到 Adobe Admin Console {#migrate-users}

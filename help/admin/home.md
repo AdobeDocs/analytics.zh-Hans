@@ -3,8 +3,8 @@ title: Analytics 管理指南
 description: 适用于 Adobe Analytics 管理员的管理帮助，包括 Admin Console 中的用户和产品管理，以及设置报表包、变量、分类和数据收集。
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
-source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
-workflow-type: ht
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 100%
 
@@ -35,11 +35,11 @@ Adobe Analytics 目前有两个管理员区域：
 ## 重要文章
 
 * [Analytics 管理入门指南](admin-console/first-admin-guide.md)：如果贵组织首次接触 Adobe Analytics，请遵循本指南，以开始了解 Adobe Analytics 的价值所在。
-* [报表包管理器](c-manage-report-suites/report-suites-admin.md)：Analytics 中最常用的管理工具。报表包管理器包含变量管理、分类管理、时区等设置。
+* [报表包管理器](admin/c-manage-report-suites/report-suites-admin.md)：Analytics 中最常用的管理工具。报表包管理器包含变量管理、分类管理、时区等设置。
 
 ## 更多 Analytics 用户指南
 
-[Analytics 用户指南](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hans)
+[Analytics 用户指南](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## 重要 Analytics 资源
 
