@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等等。
-source-git-commit: b274cb4b51a1bdc54413a27f244a1522da903542
+source-git-commit: cd680e8e2e8a30e100a713e0943978f8d798143a
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 96%
@@ -17,19 +17,19 @@ ht-degree: 96%
 + [Analytics 管理员指南](home.md)
 + [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
 + Analytics管理入门 {#admin-overview}
-   + [我应该使用哪种 Adobe Analytics 工具？](admin/get-started/which-analytics-tool.md)
-   + [Analytics 产品比较和要求](admin/get-started/analytics-product-comparison.md)
-   + [系统要求](admin/get-started/sys-reqs.md)
+   + [我应该使用哪种 Adobe Analytics 工具？](get-started/which-analytics-tool.md)
+   + [Analytics 产品比较和要求](get-started/analytics-product-comparison.md)
+   + [系统要求](get-started/sys-reqs.md)
    + 公司设置 {#company-settings}
-      + [公司设置概述](admin/get-started/company/c-company-settings.md)
-      + [功能访问级别](admin/get-started/company/feature-access-levels.md)
-      + [Web 服务](admin/get-started/company/web-services-admin.md)
-      + [Report Builder 报表](admin/get-started/company/report-builder-reports-admin.md)
-      + [单点登录](admin/get-started/company/single-signon-admin.md)
-      + [待定操作](admin/get-started/company/pending-actions-admin.md)
-      + [品牌联合](admin/get-started/company/co-branding-admin.md)
-      + [隐藏报表包](admin/get-started/company/c-hide-report-suites.md)
-      + [安全管理器](admin/get-started/company/security-manager.md)
+      + [公司设置概述](get-started/company/c-company-settings.md)
+      + [功能访问级别](get-started/company/feature-access-levels.md)
+      + [Web 服务](get-started/company/web-services-admin.md)
+      + [Report Builder 报表](get-started/company/report-builder-reports-admin.md)
+      + [单点登录](get-started/company/single-signon-admin.md)
+      + [待定操作](get-started/company/pending-actions-admin.md)
+      + [品牌联合](get-started/company/co-branding-admin.md)
+      + [隐藏报表包](get-started/company/c-hide-report-suites.md)
+      + [安全管理器](get-started/company/security-manager.md)
 + Adobe管理控制台中的用户权限 {#admin-console}
    + [Adobe Admin Console 中的 Analytics](admin-console/home.md)
    + 权限 {#permissions}

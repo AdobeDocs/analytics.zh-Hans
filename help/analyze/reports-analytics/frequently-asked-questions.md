@@ -5,7 +5,7 @@ title: Reports & Analytics 常见问题解答
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
-source-git-commit: 88df864b58cecef71aadc0314d1d2d81c5b9b72f
+source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 100%
@@ -46,7 +46,7 @@ ht-degree: 100%
 +++如何从我的报告包中排除特定 IP 地址的数据？您可以从您的报告中排除与内部网站活动相关的数据（如网站测试和员工使用数据）。此功能可让您和您的同事在访问您的网站时不影响流量数据。有关更多信息，请参阅管理员用户指南中的[按 IP 地址排除](/help/admin/admin/exclude-ip.md)。
 +++
 
-+++可以删除报告包吗？无法删除报告包。但是，可以在 Adobe Analytics 的所有视图中隐藏报告包。请注意，发送到隐藏报告包的服务器调用仍会计入您的月度合同限制。有关更多信息，请参阅管理员用户指南中的[隐藏报告包](/help/admin/admin/get-started/company/c-hide-report-suites.md)。
++++可以删除报告包吗？无法删除报告包。但是，可以在 Adobe Analytics 的所有视图中隐藏报告包。请注意，发送到隐藏报告包的服务器调用仍会计入您的月度合同限制。有关更多信息，请参阅管理员用户指南中的[隐藏报告包](/help/admin/get-started/company/c-hide-report-suites.md)。
 +++
 
 +++使用分段时，应选用哪个容器？页面查看、访问还是访客？您使用的区段容器取决于您打算捕获数据的范围。页面查看容器只计算与区段标准匹配的点击数，这对于过滤掉不相关的访问部分很有用。访问容器将计算访问的所有点击数，其中一个或多个点击与区段标准匹配，这对于查看常规会话很有用。访客容器计算所有访问次数，其中一个点击匹配区段标准，这对于查看人员很有用。作为分析师，您可以确定最适合选用的区段容器。有关更多信息，请参阅组件用户指南中的[分段概述](/help/components/segmentation/seg-overview.md)。
