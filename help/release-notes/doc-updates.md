@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 8e6f8ecb153d5af183adee76acef0a12901bb1be
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '3517'
 ht-degree: 100%
@@ -203,7 +203,7 @@ ht-degree: 100%
 | 2019 年 4 月 11 日 | 工作区增强功能优化最佳实践：[优化性能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
 | 2019 年 4 月 11 日 | 更新了[优化工作区性能](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。 |
 | 2019 年 3 月 14 日 | 对[地区数据收集](/help/technotes/rdc/regional-data-collection.md)进行了重大更新。 |
-| 2019 年 2 月 7 日 | 对[常规帐户设置](/help/admin/admin/general-acct-settings-admin.md)中的“将 IP 地址的最后一个八位字节替换为 0”设置和“IP 模糊处理”设置进行了小幅更新。 |
+| 2019 年 2 月 7 日 | 对[常规帐户设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)中的“将 IP 地址的最后一个八位字节替换为 0”设置和“IP 模糊处理”设置进行了小幅更新。 |
 | 2019 年 2 月 1 日 | 对 [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 实施插件进行了重大更新。 |
 | 2019 年 1 月 17 日 | [同类群组分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - 对同类群组分析进行重大改进后，您能够：<ul><li>应用区段包含并单独返回指标。 </li><li>显示流失率而不是保留率。</li><li>显示延时表（包含事件之前和之后经过的时间）。</li><li>自定义同类群组维度（根据 eVar 而不只是时间对访客进行分组）。</li><li>进行滚动式同类群组计算：根据先前的时间段而不是原始同类群组来计算维系率/流失率。 </li><li>将多个指标添加到包含和回访字段中，并应用区段。（不支持计算指标）</li></ul> |
 | 2019 年 1 月 17 日 | [视图密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)。此新设置可减少左边栏、自由格式表和同类群组表中的垂直边距，从而使您能够在单个屏幕上查看更多数据。可通过项目 > 项目信息和设置进行访问。 |

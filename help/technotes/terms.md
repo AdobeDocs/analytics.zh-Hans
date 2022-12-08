@@ -2,8 +2,8 @@
 title: Adobe Analytics 中使用的术语
 description: Adobe Analytics 词汇表，用于定义常用术语。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
-workflow-type: ht
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
 
@@ -83,7 +83,7 @@ ht-degree: 100%
 * **持久性：**&#x200B;转化变量的抽象概念，允许在变量值和在单独点击中发生的事件之间进行链接。另请参阅“到期”。
 * **主服务器调用：**&#x200B;图像请求或点击的替代名称，主要用于多包标记和帐单的上下文。当同一点击被发送到多个报表包时，第一个报表包是主服务器调用，而其余报表包是辅助服务器调用。此规则适用于所有点击类型，包括页面查看和链接跟踪。另请参阅“辅助服务器调用”。
 * **处理规则：**&#x200B;可以称为：
-   * 处理规则，一种在 Admin Console 中使用某些规则更改数据收集的方法。请参阅管理用户指南中的[处理规则](/help/admin/admin/c-processing-rules/processing-rules.md)。
+   * 处理规则，一种在 Admin Console 中使用某些规则更改数据收集的方法。请参阅管理用户指南中的[处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)。
    * 营销渠道处理规则，一组用于确定点击属于哪个营销渠道的规则。请参阅管理用户指南中的[营销渠道处理规则](/help/admin/admin/marketing-channels-admin.md)。
 * **属性：**&#x200B;请参阅“流量变量”。
 * **排名报表：**&#x200B;一种报表格式，通常遵循带有量度的维度。此类报表允许您查看排名最前的项目，如网站上查看次数最多的页面。另请参阅“趋势报表”。

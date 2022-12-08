@@ -3,7 +3,7 @@ description: Adobe Analytics 中的管理工具索引。
 title: 管理工具
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 72c35538b0e5d0ffaa103b3159b4e9835a6c1602
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 100%
@@ -24,22 +24,22 @@ ht-degree: 100%
 + [转化变量 (eVar)](conversion-var-admin/conversion-var-admin.md)
 + [货币代码](currency.md)
 + [自定义报表描述](custom-desc-admin.md)
-+ [自定义日历](custom-calendar.md)
++ [自定义日历](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
 + [数据源](data-sources.md)
 + [默认指标](default-metrics.md)
 + [按 IP 地址排除](exclude-ip.md)
 + [查找方法](finding-methods.md)
-+ [一般帐户设置](general-acct-settings-admin.md)
-+ [内部 URL 过滤器](internal-url-filter-admin.md)
++ [一般帐户设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
++ [内部 URL 过滤器](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
 + [日志](logs.md)
 + [营销渠道](marketing-channels-admin.md)
-+ [菜单自定义](customize-menus.md)
++ [菜单自定义](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
 + [指标可见性](metric-visibility.md)
 + [移动管理](mobile-management.md)
-+ [付费搜索检测概述](paid-search-detection/paid-search-detection.md)
++ [付费搜索检测概述](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
 + [首选项管理器](preferences-manager.md)
 + [隐私设置](privacy-settings.md)
-+ [处理规则概述](c-processing-rules/processing-rules.md)
++ [处理规则概述](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
 + [实时报表概述](realtime/realtime.md)
 + [已安排的报表队列](scheduled-reports-admin.md)
 + [服务器端转发概述](c-server-side-forwarding/ssf.md)

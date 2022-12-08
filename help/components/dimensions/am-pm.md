@@ -3,8 +3,8 @@ title: 上午/下午
 description: 确定点击是否发生在上午或下午时刻。
 feature: Dimensions
 exl-id: 93fcdb9f-2ba3-402c-a389-b02ed8c990d2
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # 上午/下午
 
-“AM/PM”维度提供关于点击是发生在上午还是下午时刻的洞察信息。点击时间基于[报表包所在时区](/help/admin/admin/general-acct-settings-admin.md)。
+“AM/PM”维度提供关于点击是发生在上午还是下午时刻的洞察信息。点击时间基于[报表包所在时区](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)。
 
 ## 使用数据填充此维度
 

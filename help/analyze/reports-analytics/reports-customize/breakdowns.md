@@ -5,8 +5,8 @@ uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: bc695b30-c5ac-4bb4-90f4-db6dd83c2f30
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 例如，划分名为“年龄组”的自定义流量报表，您已在该报表中通过调查收集了网站访客的年龄。此报表可供您查看网站上创造最大流量的年龄组。但是，如果您已经捕获了访客年龄等数据，则除页面查看以外，您可能还想了解更多详情。您可以生成划分报表，说明访客使用的搜索引擎类型、所用关键词，或所处地理位置。您可以将年龄组与搜索引擎关联。
 
-如果您按 *`Referrer Type`* 划分报表，则可能会看到 *`Inside Your Site`* 的数据点。此值指示“内部 URL 过滤器”列表中的连接页面。请参阅“管理参考”中的[内部 URL 过滤器](/help/admin/admin/internal-url-filter-admin.md)。
+如果您按 *`Referrer Type`* 划分报表，则可能会看到 *`Inside Your Site`* 的数据点。此值指示“内部 URL 过滤器”列表中的连接页面。请参阅“管理参考”中的[内部 URL 过滤器](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)。
 
 您可以按任何其他变量划分所有 Analytics 变量（eVar 或 prop）。报表表格中的“**[!UICONTROL 划分依据]**”菜单与标准 Analytics 报告菜单匹配，从而保持选择的一致性。
 

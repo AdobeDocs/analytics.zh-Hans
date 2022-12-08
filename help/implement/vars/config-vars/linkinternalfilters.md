@@ -3,10 +3,10 @@ title: linkInternalFilters
 description: 使用 linkInternalFilters 变量有助于进行自动退出链接跟踪。
 feature: Variables
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 65%
+ht-degree: 68%
 
 ---
 
@@ -22,7 +22,7 @@ Activity Map 使用此变量帮助确定哪些链接是您网站的内部链接�
 
 >[!NOTE]
 >
->`linkInternalFilters` 和[内部 URL 过滤器](/help/admin/admin/internal-url-filter-admin.md)是两个不同功能，可以实现不同的目的。`linkInternalFilters` 变量专门用于退出链接跟踪。内部 URL 过滤器是一个管理员设置，可帮助处理流量源维度，如反向链接域名。
+>`linkInternalFilters` 和[内部 URL 过滤器](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)是两个不同功能，可以实现不同的目的。`linkInternalFilters` 变量专门用于退出链接跟踪。内部 URL 过滤器是一个管理员设置，可帮助处理流量源维度，如反向链接域名。
 
 ## Web SDK中的退出链接
 
@@ -34,7 +34,7 @@ Activity Map 使用此变量帮助确定哪些链接是您网站的内部链接�
 
 “从不跟踪”字段是配置 Adobe Analytics 扩展时[!UICONTROL 链接跟踪]折叠面板下以逗号分隔的过滤器（通常是域）列表。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;]**配置**[!UICONTROL &#x200B;按钮。
 4. 展开[!UICONTROL 链接跟踪]折叠面板，这会显示[!UICONTROL 出站链接 - 从不跟踪]字段。

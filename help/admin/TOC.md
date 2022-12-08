@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等等。
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 89d5c1e59e0cf5167eb7858caa0f9090d527a9c4
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '680'
 ht-degree: 95%
 
 ---
@@ -42,28 +42,6 @@ ht-degree: 95%
 + Analytics管理员 {#admin-tools}
    + [管理工具](admin/c-admin-tools.md)
    + [计费](admin/billing-admin.md)
-   + 报表包管理器 {#manage-report-suites}
-      + [管理报表包](admin/c-manage-report-suites/report-suites-admin.md)
-      + [汇总报表包和全局报表包](admin/c-manage-report-suites/rollup-report-suite.md)
-      + [创建汇总报表包](admin/c-manage-report-suites/t-rollups.md)
-      + [创建报表包群组](admin/c-manage-report-suites/t-create-rs-group.md)
-      + [保存报表包搜索](admin/c-manage-report-suites/t-report-suite-saved-search.md)
-      + [单个报表包设置](admin/c-manage-report-suites/individual-rs-settings.md)
-      + [下载报表包设置](admin/c-manage-report-suites/t-download-rs-settings.md)
-      + 新的报表包 {#new-report-suite}
-         + [创建报表包](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-         + [新报表包 — 设置](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
-         + [未从源报表包复制的设置](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
-      + 报表包模板 {#report-suite-templates}
-         + [报表包模板概述](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
-         + [内容聚合门户](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
-         + [商务](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
-         + [内容和媒体](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
-         + [默认模板](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
-         + [金融服务](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
-         + [求职门户](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
-         + [商机开发](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
-         + [支持媒体](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
    + 机器人移除{#bot-removal}
       + [机器人移除](admin/bot-removal/bot-removal.md)
       + [机器人规则概述](admin/bot-removal/bot-rules.md)
@@ -79,52 +57,76 @@ ht-degree: 95%
       + [促销 eVar](admin/conversion-var-admin/merchandising-evars.md)
    + [货币代码](admin/currency.md)
    + [自定义报表描述](admin/custom-desc-admin.md)
-   + [自定义日历](admin/custom-calendar.md)
    + [数据源](admin/data-sources.md)
    + [默认指标](admin/default-metrics.md)
    + [按 IP 地址排除](admin/exclude-ip.md)
    + [查找方法](admin/finding-methods.md)
-   + [一般帐户设置](admin/general-acct-settings-admin.md)
-   + [内部 URL 过滤器](admin/internal-url-filter-admin.md)
    + [日志](admin/logs.md)
    + [营销渠道](admin/marketing-channels-admin.md)
-   + [菜单自定义](admin/customize-menus.md)
    + [指标可见性](admin/metric-visibility.md)
    + [应用程序管理](admin/mobile-management.md)
-   + 付费搜索检测{#paid-search-detection}
-      + [付费搜索检测概述](admin/paid-search-detection/paid-search-detection.md)
-      + [配置付费搜索检测](admin/paid-search-detection/t-paid-search-detection.md)
    + [首选项管理器](admin/preferences-manager.md)
    + [隐私设置](admin/privacy-settings.md)
    + [隐私报表](admin/privacy-reporting.md)
-   + 处理规则{#processing-rules}
-      + [处理规则概述](admin/c-processing-rules/processing-rules.md)
-      + 处理规则配置{#processing-rules-configuration}
-         + [处理规则的工作原理](admin/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
-         + [创建处理规则](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
-         + [查看活动处理规则](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
-         + [查看处理规则历史记录](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
-         + [还原处理规则](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
-         + [将处理规则复制到其他报表包](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
-      + [可用于处理规则的维度](admin/c-processing-rules/processing-rule-dimensions.md)
-      + 处理规则示例{#processing-rules-examples}
-         + [处理规则的示例](admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
-         + [通过查询字符串参数填充促销活动 ID](admin/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
-         + [在产品概述页面中设置产品视图事件](admin/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
-         + [通过连接类别和页面名称添加子类别](admin/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
-         + [通过将 eVar 值复制到 prop 来确定路径](admin/c-processing-rules/processing-rules-examples/processing-rules-determining-path.md)
-         + [清理报告中的值](admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
-         + [使用查询字符串参数填充内部搜索词](admin/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
-         + [将上下文数据变量复制到 eVar](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
-         + [使用上下文数据变量设置事件](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
-         + [通过点击删除事件](admin/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
-      + [处理规则的提示和技巧](admin/c-processing-rules/processing-rules-tips.md)
    + 实时报表 {#real-time-reports}
       + [实时报表概述](admin/realtime/realtime.md)
       + [实时报表配置](admin/realtime/t-realtime-admin.md)
       + [受支持的实时指标和维度](admin/realtime/realtime-metrics.md)
    + [报表活动管理器](admin/reporting-activity.md)
    + [已安排的报表队列](admin/scheduled-reports-admin.md)
+   + 报表包管理器 {#manage-report-suites}
+      + [管理报表包](admin/c-manage-report-suites/report-suites-admin.md)
+      + [汇总报表包和全局报表包](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [保存报表包搜索](admin/c-manage-report-suites/t-report-suite-saved-search.md)
+      + [单个报表包设置](admin/c-manage-report-suites/individual-rs-settings.md)
+      + [下载报表包设置](admin/c-manage-report-suites/t-download-rs-settings.md)
+      + 新的报表包 {#c-new-report-suite}
+         + [创建报表包](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
+         + [创建汇总报表包](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
+         + [创建报表包群组](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
+         + [新报表包 — 设置](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
+         + [未从源报表包复制的设置](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
+      + 报表包模板 {#report-suite-templates}
+         + [报表包模板概述](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+         + [内容聚合门户](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
+         + [商务](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
+         + [内容和媒体](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
+         + [默认模板](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
+         + [金融服务](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
+         + [求职门户](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
+         + [商机开发](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
+         + [支持媒体](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
+      + 编辑报表包的设置 {#edit-report-suite}
+         + 常规 {#report-suite-general}
+            + [一般帐户设置](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
+            + [内部 URL 过滤器](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
+            + 付费搜索检测{#paid-search-detection}
+               + [付费搜索检测概述](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
+               + [配置付费搜索检测](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
+            + [菜单自定义](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
+            + [自定义日历](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
+            + 处理规则{#c-processing-rules}
+               + [处理规则概述](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
+               + 处理规则配置{#c-processing-rules-configuration}
+                  + [处理规则的工作原理](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
+                  + [创建处理规则](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
+                  + [查看活动处理规则](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
+                  + [查看处理规则历史记录](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
+                  + [还原处理规则](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
+                  + [将处理规则复制到其他报表包](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
+                  + [可用于处理规则的维度](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rule-dimensions.md)
+               + 处理规则示例{#processing-rules-examples}
+                  + [处理规则的示例](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
+                  + [通过查询字符串参数填充促销活动 ID](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
+                  + [在产品概述页面中设置产品视图事件](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
+                  + [通过连接类别和页面名称添加子类别](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
+                  + [通过将 eVar 值复制到 prop 来确定路径](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-determining-path.md)
+                  + [清理报告中的值](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
+                  + [使用查询字符串参数填充内部搜索词](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
+                  + [将上下文数据变量复制到 eVar](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
+                  + [使用上下文数据变量设置事件](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
+                  + [通过点击删除事件](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
+               + [处理规则的提示和技巧](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
    + 服务器端转发 {#server-side-forwarding}
       + [服务器端转发概述](admin/c-server-side-forwarding/ssf.md)
       + [GDPR/ePrivacy 合规和服务器端转发](admin/c-server-side-forwarding/ssf-gdpr.md)

@@ -3,8 +3,8 @@ title: 邮政编码
 description: 访客的邮政编码。
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 * 使用 `zip` 变量直接设置邮政编码，或
 * 将其配置为从地域划分数据中提取。
 
-[常规帐户设置](/help/admin/admin/general-acct-settings-admin.md)下的[!UICONTROL 邮编选项]控制着填充此维度的方式。
+[常规帐户设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)下的[!UICONTROL 邮编选项]控制着填充此维度的方式。
 
 >[!IMPORTANT]
 >

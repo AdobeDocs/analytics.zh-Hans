@@ -3,8 +3,8 @@ title: 每周时间
 description: 每周时间，不考虑日期范围。
 feature: Dimensions
 exl-id: 01aa6b5f-49e6-4f86-97c7-8d0ff431e15b
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 100%
 
@@ -20,4 +20,4 @@ ht-degree: 100%
 
 ## 维度项目
 
-维度项目包括 `Sunday` - `Saturday`，表示点击在一周中发生的时间。默认情况下，维度项目的顺序以[自定义日历](/help/admin/admin/custom-calendar.md)中一周的第一天为准。
+维度项目包括 `Sunday` - `Saturday`，表示点击在一周中发生的时间。默认情况下，维度项目的顺序以[自定义日历](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)中一周的第一天为准。

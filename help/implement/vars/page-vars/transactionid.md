@@ -3,10 +3,10 @@ title: transactionID
 description: 使用此变量将在线和离线数据链接在一起。
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
-source-git-commit: e42c125da0c48ff01267e3a18aaec8374652809e
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '426'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->在使用此变量之前，请确保在报表包中启用了[!UICONTROL 交易 ID 存储]。有关详细信息，请参阅《管理员用户指南》中的[一般帐户设置](/help/admin/admin/general-acct-settings-admin.md)。
+>在使用此变量之前，请确保在报表包中启用了[!UICONTROL 交易 ID 存储]。有关详细信息，请参阅《管理员用户指南》中的[一般帐户设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)。
 
 当您在点击上设置 `transactionID` 时，Adobe 会及时拍摄在该时间点设置或持久保留的所有 Analytics 变量的快照。通过数据源上传且具有匹配交易 ID 的数据将会永久绑定到这些变量值。
 
@@ -30,7 +30,7 @@ ht-degree: 89%
 
 您可以在配置 Analytics 扩展时（全局变量）或根据规则设置交易 ID。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。

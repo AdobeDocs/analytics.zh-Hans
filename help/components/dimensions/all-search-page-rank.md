@@ -3,8 +3,8 @@ title: 所有搜索页面排名
 description: 确定访客点击了搜索引擎上的哪个页面进入您的网站。
 feature: Dimensions
 exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 使用数据填充此维度
 
-要使此维度正常工作，只需为您的报表包正确设置[内部 URL 过滤器](/help/admin/admin/internal-url-filter-admin.md)。AppMeasurement 会自动填充此维度，而无需更改任何实施代码。
+要使此维度正常工作，只需为您的报表包正确设置[内部 URL 过滤器](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)。AppMeasurement 会自动填充此维度，而无需更改任何实施代码。
 
 ## 维度项目
 
