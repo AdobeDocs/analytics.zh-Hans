@@ -3,8 +3,8 @@ title: 最近联系渠道详细信息
 description: 访客参与到期时间内最近的那个营销渠道的详细信息。
 feature: Dimensions
 exl-id: def03267-f3e5-4772-a707-5678c45eba6d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: ab0f0c80c13b9064b40511b59d03d9d899d20df1
+workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 使用数据填充此维度
 
-此维度复制其他变量中的值。使用的变量引用每个[营销渠道处理规则](/help/admin/admin/marketing-channels-admin.md)内的渠道值。当点击与营销渠道处理规则匹配时，[最近联系渠道](last-touch-channel.md)维度将设置为渠道名称，并且此维度将会设置为规则中设置的渠道值。
+此维度复制其他变量中的值。使用的变量引用每个[营销渠道处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)内的渠道值。当点击与营销渠道处理规则匹配时，[最近联系渠道](last-touch-channel.md)维度将设置为渠道名称，并且此维度将会设置为规则中设置的渠道值。
 
 如果要将此维度设置为特定值，必须执行以下步骤：
 

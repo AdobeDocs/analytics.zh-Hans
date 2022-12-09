@@ -4,8 +4,8 @@ keywords: 数据馈送;最佳实践;流量尖峰;每小时;ftp
 title: 最佳实践和常规信息
 feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 以下是数据馈送处理和提交的一些最佳实践。
 
-* 确保提前沟通预计会出现的任何流量尖峰。延迟会直接影响数据馈送的处理时间。请参阅管理员用户指南中的[计划流量尖峰](/help/admin/c-traffic-management/t-traffic-schedule-spike.md)。
+* 确保提前沟通预计会出现的任何流量尖峰。延迟会直接影响数据馈送的处理时间。请参阅管理员用户指南中的[计划流量尖峰](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)。
 
 * 除非您与 Adobe 签订的合同中有明确规定，否则数据馈送不包含服务级别协议。通常情况下，馈送会在报告时间范围超过后的几小时内交付，但有时也可能需要 12 小时或更长时间才能交付。
 

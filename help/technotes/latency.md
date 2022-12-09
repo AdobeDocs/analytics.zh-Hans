@@ -4,8 +4,8 @@ keywords: 缺少数据;缓慢
 title: 数据可用性和滞后
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
+source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Adobe Experience Cloud 中的某些功能在标准处理时间的基础上固有
 
 有多种策略可以防止滞后或缩短滞后发生后的恢复时间：
 
-* **通知 Adobe 预期流量尖峰：**&#x200B;虽然不可能预测到您网站的每个流量尖峰，但有时您可能会预料到网站的流量会显著增加。例如，时间较长的假期，或大型营销活动推送后不久。在这些情况下，您的组织可以通过 Adobe 提供的方式来通知我们预期的流量增加，以便我们可以向您的报表包分配额外的处理资源。有关如何通知 Adobe 流量增加的信息，请参阅管理员用户指南中的[计划流量尖峰](/help/admin/c-traffic-management/t-traffic-schedule-spike.md)。
+* **通知 Adobe 预期流量尖峰：**&#x200B;虽然不可能预测到您网站的每个流量尖峰，但有时您可能会预料到网站的流量会显著增加。例如，时间较长的假期，或大型营销活动推送后不久。在这些情况下，您的组织可以通过 Adobe 提供的方式来通知我们预期的流量增加，以便我们可以向您的报表包分配额外的处理资源。有关如何通知 Adobe 流量增加的信息，请参阅管理员用户指南中的[计划流量尖峰](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)。
 * **在激活新功能时请考虑处理负载问题：**&#x200B;某些功能的处理密集度远高于其他功能。对报表包启用的功能越多，越难从滞后问题中恢复。在对报表包启用某些功能时，请注意以下功能会增加要处理的数据量：
 
    * 在同一页面上实施的事件超过 20 个
