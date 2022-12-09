@@ -5,9 +5,9 @@ uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 feature: Report Builder
 role: User, Admin
 exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '316'
 ht-degree: 91%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 91%
 
 1. 创建或编辑请求，然后进入“[!UICONTROL 请求向导: 第 2 步]”。
 
-   ![步骤结果](assets/dimension_filter.png)
+   ![步骤结果](/help/admin/admin/assets/filter.png)
 
 1. 在“[!UICONTROL 请求向导: 第 2 步]”中，单击网格中维度旁边的链接，然后选择&#x200B;**[!UICONTROL 过滤器]**。
 
@@ -36,6 +36,6 @@ ht-degree: 91%
    * **来自列表：**&#x200B;允许您从列表中选择数据，您可以向列表中添加数据。
 1. 如果启用&#x200B;**[!UICONTROL 来自列表]**，请选择列出的任意可用项目，或者单击&#x200B;**[!UICONTROL 添加]**。
 
-   单击&#x200B;**[!UICONTROL Add]**&#x200B;后，[!UICONTROL 从列表中选择]窗体会显示当前请求日期范围的可用维度项目列表，该列表仅限于前10,000个项目。 您可以在这些项目中搜索，或者单击&#x200B;**[!UICONTROL 更多...]**，这样会显示[!UICONTROL 搜索窗体]，以便您可以创建更详细的维度搜索条件。
+   单击 **[!UICONTROL 添加]**, [!UICONTROL 从列表中选择] 表单显示当前请求日期范围内可用维度项目的列表，仅限前10,000个项目。 您可以在这些项目中搜索，或者单击&#x200B;**[!UICONTROL 更多...]**，这样会显示[!UICONTROL 搜索窗体]，以便您可以创建更详细的维度搜索条件。
 1. 在“[!UICONTROL 从列表中选择]”中，单击&#x200B;**[!UICONTROL 确定]**。
 1. 在“[!UICONTROL 选择页面]”窗体中，保存您的特定过滤器（如果需要），然后单击&#x200B;**[!UICONTROL 确定]**。

@@ -3,8 +3,8 @@ description: 不能将分类规则生成器与子分类结合使用。
 title: 子分类和规则生成器
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
    示例：
 
-   ![步骤信息](assets/sub_class_create.png)
+   ![步骤信息](/help/admin/admin/assets/sub_class_create.png)
 
 1. 在[分类规则生成器](/help/components/classifications/crb/classification-rule-builder.md)中，从原始跟踪代码中对子分类键值进行分类。
 
@@ -67,8 +67,8 @@ ht-degree: 100%
 
    | 键 | 渠道 | 广泛促销活动代码 | 广泛促销活动代码&amp;Hat;促销活动类型 | 广泛促销活动代码&amp;Hat;促销活动主管 | ... |
    |---|---|---|---|---|---|
-   | * |  | 111 | 品牌 | Suzanne |  |
-   | * |  | 222 | 品牌 | Frank |  |
+   | &#42; |  | 111 | 品牌 | Suzanne |  |
+   | &#42; |  | 222 | 品牌 | Frank |  |
 
 1. 要维护查找表，请上载一个小文件（如上方所示）。
 

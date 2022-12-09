@@ -4,10 +4,9 @@ title: 简化的报表菜单
 feature: Admin Tools
 uuid: cc7023e4-9e28-477e-9266-6d06e5379559
 exl-id: fa383f68-9858-4d85-972a-a375b24da61a
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '176'
 ht-degree: 100%
 
 ---
@@ -18,7 +17,7 @@ ht-degree: 100%
 
 通过简化的 Adobe Reports &amp; Analytics 菜单，您可以选择应用备用的简化菜单，在下层包含经过调整的文件夹。默认情况下，简化的菜单会显示以下选项：
 
-![](assets/simplified-menu.png)
+![](/help/admin/admin/assets/simplified-menu.png)
 
 >[!NOTE]
 >
@@ -29,6 +28,6 @@ ht-degree: 100%
 1. 转到&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 常规]** > **[!UICONTROL 自定义菜单]**。
 1. 单击&#x200B;**[!UICONTROL 还原简化菜单]**&#x200B;以实施简化菜单结构。
 
-   ![](assets/restore-simplified.png)
+   ![](/help/admin/admin/assets/restore-simplified.png)
 
 1. 要返回到（非自定义）默认菜单，请单击&#x200B;**[!UICONTROL 还原默认菜单]**。

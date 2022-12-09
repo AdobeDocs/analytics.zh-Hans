@@ -4,7 +4,7 @@ title: 面板概述
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 95%
@@ -64,7 +64,7 @@ Analysis Workspace 中提供了以下面板类型：
 
 将任意区段从左边栏拖放到面板拖放区域以开始过滤面板。
 
-![](assets/segment-filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 ### 临时区段过滤器
 
@@ -72,7 +72,7 @@ Analysis Workspace 中提供了以下面板类型：
 
 临时区段是项目的本地区段，除非将其设为公用区段，否则不会显示在左边栏中。
 
-![](assets/adhoc-segment-filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 ### 下拉过滤器 {#dropdown-filter}
 

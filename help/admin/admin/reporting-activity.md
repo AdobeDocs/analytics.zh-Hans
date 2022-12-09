@@ -4,7 +4,7 @@ title: 报告活动管理器
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 21270e1a4f05208525261969c2e6858df8647aa1
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 92%
@@ -33,13 +33,13 @@ ht-degree: 92%
 
 您需要拥有Analytics产品管理员权限(位于Adobe Admin Console中)才能管理报表活动。
 
-![许可](assets/rep-mgr-permission.png)
+![许可](/help/admin/admin/assets/rep-mgr-permission.png)
 
 ## 查看报告队列
 
 在打开[!UICONTROL 报告活动]管理器概览页面时，您将看到已启用的基础报告包的列表。
 
-![报告队列](assets/reporting-activity1.png)
+![报告队列](/help/admin/admin/assets/reporting-activity1.png)
 
 | UI 元素 | 描述 |
 | --- | --- |
@@ -62,7 +62,7 @@ ht-degree: 92%
 
 单击要查看其详细信息的报告包的标题链接。
 
-![报告包](assets/indiv-report-ste.png)
+![报告包](/help/admin/admin/assets/indiv-report-ste.png)
 
 ### 折线图
 
@@ -72,17 +72,17 @@ ht-degree: 92%
 * Y 轴显示查询的平均等待时间（以秒为单位）。
 * 您可以将鼠标悬停在折线图的上方来查看该时刻的时间点和平均等待时间。
 
-   ![详细信息](assets/detail.png)
+   ![详细信息](/help/admin/admin/assets/detail.png)
 
 ### 筛选
 
 您可以按应用程序（见下表中的列表）、用户和项目筛选表。
 
-![筛选](assets/filter.png)
+![筛选](/help/admin/admin/assets/filter.png)
 
 ### 摘要数字
 
-![筛选](assets/summary_numbers.png)
+![筛选](/help/admin/admin/assets/summary_numbers.png)
 
 摘要数字显示以下信息：
 
@@ -127,11 +127,11 @@ ht-degree: 92%
 1. 在出现的&#x200B;**[!UICONTROL 取消 x 查询]**&#x200B;窗口中，您可以根据需要修改取消消息。
 1. 单击&#x200B;**[!UICONTROL 继续]**。
 
-   ![cancel-query](assets/cancel-query.png)
+   ![cancel-query](/help/admin/admin/assets/cancel-query.png)
 
 例如，Workspace 中的应用程序用户会在他们的项目中看到以下通知：
 
-![cancel-user-notice](assets/cancel-user-facing.png)
+![cancel-user-notice](/help/admin/admin/assets/cancel-user-facing.png)
 
 ## 常见问题解答
 

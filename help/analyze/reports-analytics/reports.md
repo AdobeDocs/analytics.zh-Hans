@@ -4,7 +4,7 @@ description: Reports & Analytics 用于每个报表的维度和量度。
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
 workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 100%
@@ -115,7 +115,7 @@ Reports &amp; Analytics 的每个报表会使用专用维度和量度。您可�
 
 >[!NOTE]
 >
->其他报表可能会显示在此文件夹中。还有其他维度，例如 prop，您可以在报表包设置下[启用路径](../../admin/admin/c-traffic-variables/traffic-var.md)。
+>其他报表可能会显示在此文件夹中。还有其他维度，例如 prop，您可以在报表包设置下[启用路径](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)。
 
 ## 流量源
 

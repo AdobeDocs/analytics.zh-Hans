@@ -3,7 +3,7 @@ description: 分类用于对值进行分组归类，并按照分组级别进行�
 title: 转化分类
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 0ec9d6fd44f1f6eb565f8602cc5a2d449556d0ee
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 100%
@@ -40,7 +40,7 @@ ht-degree: 100%
 1. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 转化]** > **[!UICONTROL 转化分类]**。
 1. 从&#x200B;**[!UICONTROL 选择分类类型]**&#x200B;下拉列表中，选择要添加分类的变量。
 
-   ![步骤信息](../assets/sub_class_create.png)
+   ![步骤信息](/help/admin/admin/assets/sub_class_create.png)
 
 1. 将鼠标悬停在&#x200B;**[!UICONTROL 编辑分类]**&#x200B;图标上，然后选择&#x200B;**[!UICONTROL 添加分类]**。
 1. 在&#x200B;**[!UICONTROL 选择类型]**&#x200B;字段中，选择要添加到变量的分类类型。

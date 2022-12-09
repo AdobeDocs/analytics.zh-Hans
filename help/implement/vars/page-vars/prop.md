@@ -3,10 +3,10 @@ title: prop
 description: 可在实施中使用的自定义变量。
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: 5df83f1614d9d17146873a5b5214636691ec87ab
+source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 73%
+ht-degree: 75%
 
 ---
 
@@ -30,7 +30,7 @@ Prop是 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analy
 
 您可以在配置 Analytics 扩展时（全局变量）或根据规则设置 Prop。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
@@ -53,7 +53,7 @@ s.prop1 = "Example custom value";
 
 ### 配置列表属性
 
-在中启用列表属性 [流量变量](/help/admin/admin/c-traffic-variables/traffic-var.md) 下。 确保正确配置所需的分隔符。Adobe 不提供默认分隔符。
+在中启用列表属性 [流量变量](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) 下。 确保正确配置所需的分隔符。Adobe 不提供默认分隔符。
 
 >[!TIP]
 >
