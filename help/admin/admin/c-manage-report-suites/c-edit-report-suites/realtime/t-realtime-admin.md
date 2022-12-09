@@ -1,8 +1,8 @@
 ---
 description: 设置实时报表的管理步骤。
-title: 配置实时报表
+title: 实时报表配置
 feature: Real-time
-exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
+exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '298'
@@ -10,11 +10,11 @@ ht-degree: 100%
 
 ---
 
-# 配置实时报表
+# 实时报表配置
 
 设置实时报表的管理步骤。
 
-在 [!UICONTROL Reports &amp; Analytics] 中设置实时报表包括选择报表包并为其配置至多 3 个报表。
+在 Reports &amp; Analytics 中设置实时报表包括选择报表包并为其配置至多 3 个报表。
 
 1. 选择您要为其启用实时报表的报表包。
 
@@ -33,13 +33,13 @@ ht-degree: 100%
 1. 打开&#x200B;**[!UICONTROL 启用实时设置]**。
 1. 为至多 3 个表报设置实时数据收集，每个报表具有 1 个量度和 3 个维度或分类。
 
-   ![](assets/real_time_admin.png)
+   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/real_time_admin.png)
 
    有关受支持的实时量度和维度的信息，请参阅[受支持的量度和维度](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)。
 
    如果已创建了分类，则分类会缩进显示在其所定义的维度下。
 
-   ![](assets/classifications.png)
+   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/classifications.png)
 
    >[!NOTE]
    >

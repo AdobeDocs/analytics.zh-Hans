@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
 workflow-type: tm+mt
 source-wordcount: '3517'
 ht-degree: 100%
@@ -190,7 +190,7 @@ ht-degree: 100%
 | 2019 年 9 月 12 日 | 更新了[计算量度总计](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=zh-Hans)文档。 |
 | 2019 年 8 月 28 日 | 新增了有关[用于 Analytics 的渐进式 Web 应用程序 (PWA)](/help/technotes/pwa.md) 的文章 |
 | 2019 年 8 月 8 日 | 有关[计算量度合计](/help/components/c-calcmetrics/cm-totals.md)的新文章 |
-| 2019 年 8 月 8 日 | 关于[已启用时间戳的会话数据](/help/admin/admin/timestamp-optional.md)的说明 | 2019 年 8 月 8 日 | 在工作区中，Adobe 将可放置在下拉过滤器中的项目限制从 50 提高到了 200。此增强功能适用于各种用例，例如将所有国家/地区 (195) 添加到过滤器，或将所有美国州和省 (52) 添加到过滤器。 |
+| 2019 年 8 月 8 日 | 关于[已启用时间戳的会话数据](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)的说明 | 2019 年 8 月 8 日 | 在工作区中，Adobe 将可放置在下拉过滤器中的项目限制从 50 提高到了 200。此增强功能适用于各种用例，例如将所有国家/地区 (195) 添加到过滤器，或将所有美国州和省 (52) 添加到过滤器。 |
 | 2019 年 8 月 2 日 | [Analytics 词汇表](/help/technotes/terms.md)的主要更新 |
 | 2019 年 7 月 22 日 | 将“Magento：营销和商务”模板添加到 [Analysis Workspace 模板](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)文档。 |
 | 2019 年 7 月 18 日 | 更新了[同类群组表格设置](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。 |

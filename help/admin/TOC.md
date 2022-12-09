@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等等。
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: 914ebfa7f9cdd55e5d03297c429d652a76430db1
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 95%
@@ -39,14 +39,17 @@ ht-degree: 95%
       + [Adobe Analytics 的产品配置文件](admin-console/permissions/product-profile.md)
       + [“报表包工具”的产品配置文件权限](admin-console/permissions/report-suite-tools.md)
       + [Analytics 工具的产品配置文件权限](admin-console/permissions/analytics-tools.md)
+   + 用户和产品管理（旧版）{#user-product-management}
+      + [用户和产品管理](admin-console/user-management2/user-management.md)
+      + 将用户迁移到 Adobe Admin Console {#migrate-users}
+         + [将 Analytics 用户迁移到 Admin Console](admin-console/user-management2/user-migration/c-migration-tool.md)
+         + [为 Adobe ID 迁移 Analytics 用户帐户](admin-console/user-management2/user-migration/t-migrate-users.md)
+         + [迁移 Analytics 用户帐户以使用 Enterprise ID 和 Federated ID](admin-console/user-management2/user-migration/migrate-enterprise.md)
+         + [禁用旧版登录](admin-console/user-management2/user-migration/t-disable-legacy-login.md)
+         + [受迁移影响的 API](admin-console/user-management2/user-migration/developer.md)
 + Analytics管理员 {#admin-tools}
    + [管理工具](admin/c-admin-tools.md)
    + [计费](admin/billing-admin.md)
-   + 机器人移除{#bot-removal}
-      + [机器人移除](admin/bot-removal/bot-removal.md)
-      + [机器人规则概述](admin/bot-removal/bot-rules.md)
-      + [常见的机器人签名](admin/bot-removal/bot-signatures.md)
-      + [机器人排除法](admin/bot-removal/bot-exclusion-methods.md)
    + [代码管理器](admin/code-manager-admin.md)
    + [货币代码](admin/currency.md)
    + [数据源](admin/data-sources.md)
@@ -54,21 +57,14 @@ ht-degree: 95%
    + [按 IP 地址排除](admin/exclude-ip.md)
    + [日志](admin/logs.md)
    + [指标可见性](admin/metric-visibility.md)
-   + [应用程序管理](admin/mobile-management.md)
    + [首选项管理器](admin/preferences-manager.md)
-   + [隐私设置](admin/privacy-settings.md)
    + [隐私报表](admin/privacy-reporting.md)
-   + 实时报表 {#real-time-reports}
-      + [实时报表概述](admin/realtime/realtime.md)
-      + [实时报表配置](admin/realtime/t-realtime-admin.md)
-      + [受支持的实时指标和维度](admin/realtime/realtime-metrics.md)
    + [报表活动管理器](admin/reporting-activity.md)
    + [已安排的报表队列](admin/scheduled-reports-admin.md)
    + 报表包管理器 {#manage-report-suites}
       + [管理报表包](admin/c-manage-report-suites/report-suites-admin.md)
       + [汇总报表包和全局报表包](admin/c-manage-report-suites/rollup-report-suite.md)
       + [保存报表包搜索](admin/c-manage-report-suites/t-report-suite-saved-search.md)
-      + [单个报表包设置](admin/c-manage-report-suites/individual-rs-settings.md)
       + [下载报表包设置](admin/c-manage-report-suites/t-download-rs-settings.md)
       + 新的报表包 {#c-new-report-suite}
          + [创建报表包](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
@@ -117,6 +113,20 @@ ht-degree: 95%
                   + [使用上下文数据变量设置事件](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
                   + [通过点击删除事件](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
                + [处理规则的提示和技巧](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
+            + 机器人移除{#bot-removal}
+               + [机器人移除](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
+               + [机器人规则概述](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
+               + [常见的机器人签名](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
+               + [机器人排除法](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
+            + [隐私设置](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
+            + [可选时间戳](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
+            + 服务器端转发 {#server-side-forwarding}
+               + [服务器端转发概述](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
+               + [GDPR/ePrivacy 合规和服务器端转发](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
+               + [服务器端转发要求](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-requirements.md)
+               + [服务器端转发数据和代码引用](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-reference.md)
+               + [如何验证服务器端转发的实施情况](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
+               + [服务器端转发常见问题解答](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
          + 流量变量 {#traffic-variables}
             + [流量变量 (prop) 概述](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
             + [启用流量变量报表](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
@@ -144,24 +154,20 @@ ht-degree: 95%
             + [评估过去的服务器调用并安排流量尖峰](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-spike-estimate-past-server-calls.md)
             + [指定永久性流量增长](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
             + [流量增长必需的前置时间](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md)
-   + 服务器端转发 {#server-side-forwarding}
-      + [服务器端转发概述](admin/c-server-side-forwarding/ssf.md)
-      + [GDPR/ePrivacy 合规和服务器端转发](admin/c-server-side-forwarding/ssf-gdpr.md)
-      + [服务器端转发要求](admin/c-server-side-forwarding/ssf-requirements.md)
-      + [服务器端转发数据和代码引用](admin/c-server-side-forwarding/ssf-reference.md)
-      + [如何验证服务器端转发的实施情况](admin/c-server-side-forwarding/ssf-verify.md)
-      + [服务器端转发常见问题解答](admin/c-server-side-forwarding/ssf-faq.md)
+         + [单个报表包设置](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)
+         + [应用程序管理](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+         + 实时报表 {#real-time-reports}
+            + [实时报表概述](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
+            + [实时报表配置](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
+            + [受支持的实时指标和维度](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
    + [简化的报表菜单](admin/t-simplified-menu.md)
-   + [可选时间戳](admin/timestamp-optional.md)
    + [视频管理](admin/video-management.md)
-+ 用户和产品管理（旧版）{#user-product-management}
-   + [用户和产品管理](user-management2/user-management.md)
-   + 将用户迁移到 Adobe Admin Console {#migrate-users}
-      + [将 Analytics 用户迁移到 Admin Console](user-management2/user-migration/c-migration-tool.md)
-      + [为 Adobe ID 迁移 Analytics 用户帐户](user-management2/user-migration/t-migrate-users.md)
-      + [迁移 Analytics 用户帐户以使用 Enterprise ID 和 Federated ID](user-management2/user-migration/migrate-enterprise.md)
-      + [禁用旧版登录](user-management2/user-migration/t-disable-legacy-login.md)
-      + [受迁移影响的 API](user-management2/user-migration/developer.md)
+   + 服务器调用使用情况 {#server-call-usage}
+      + [服务器调用使用情况概述](admin/c-server-call-usage/overage-overview.md)
+      + [查看当前的服务器调用使用情况](admin/c-server-call-usage/server-call-usage-dashboard.md)
+      + [查看报表包使用情况](admin/c-server-call-usage/report-suite-usage.md)
+      + [服务器调用使用情况警报](admin/c-server-call-usage/scu-alerts.md)
+      + [服务器调用使用情况常见问题解答](admin/c-server-call-usage/overage-faq.md)
 + 数据管理 {#data-governance}
    + [Adobe Analytics 和 GDPR](c-data-governance/an-gdpr-overview.md)
    + [Adobe Analytics 和 CCPA](c-data-governance/an-ccpa-overview.md)
@@ -178,10 +184,4 @@ ht-degree: 95%
    + [标签设置示例](c-data-governance/gdpr-labeling-example.md)
    + [数据隐私和数据连接器 (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [数据隐私术语](c-data-governance/gdpr-terminology.md)
-+ 服务器调用使用情况 {#server-call-usage}
-   + [服务器调用使用情况概述](c-server-call-usage/overage-overview.md)
-   + [查看当前的服务器调用使用情况](c-server-call-usage/server-call-usage-dashboard.md)
-   + [查看报表包使用情况](c-server-call-usage/report-suite-usage.md)
-   + [服务器调用使用情况警报](c-server-call-usage/scu-alerts.md)
-   + [服务器调用使用情况常见问题解答](c-server-call-usage/overage-faq.md)
 + [管理员 API](c-admin-api/c-admin-api.md)

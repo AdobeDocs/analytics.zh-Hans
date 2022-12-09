@@ -4,7 +4,7 @@ keywords: 缺少数据;缓慢
 title: 数据可用性和滞后
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 100%
@@ -50,7 +50,7 @@ Adobe Experience Cloud 中的某些功能在标准处理时间的基础上固有
    * 产品变量中有超过 20 个值
    * 事件序列化
 
-* 启用 IAB 机器人过滤：如果机器人或爬网程序经常影响报表包，则[机器人过滤](/help/admin/admin/bot-removal/bot-removal.md)可以显著减少滞后。推荐使用 IAB 机器人列表，因为它是由[美国互动广告局 (Interactive Advertising Bureau) ](https://www.iab.net/about_the_iab)更新和维护的。用户可以自定义其自己的机器人规则以补充 IAB 所提供的机器人规则。
+* 启用 IAB 机器人过滤：如果机器人或爬网程序经常影响报表包，则[机器人过滤](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)可以显著减少滞后。推荐使用 IAB 机器人列表，因为它是由[美国互动广告局 (Interactive Advertising Bureau) ](https://www.iab.net/about_the_iab)更新和维护的。用户可以自定义其自己的机器人规则以补充 IAB 所提供的机器人规则。
 
 ## 如何处理滞后
 

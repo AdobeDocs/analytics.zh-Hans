@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: 处理规则的工作原理
 feature: Processing Rules
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 100%
@@ -39,7 +39,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>处理规则在保存后将被立即应用于报表包。 </p> </td> 
-   <td colname="col2"> <p>来自处理规则的更改应在保存后的几分钟内在您的报表包中可见。在测试处理规则时，我们建议在您的测试报表包中配置<a href="/help/admin/admin/realtime/t-realtime-admin.md">实时报表</a>，以便于快速查看处理规则的结果。 </p> </td> 
+   <td colname="col2"> <p>来自处理规则的更改应在保存后的几分钟内在您的报表包中可见。在测试处理规则时，我们建议在您的测试报表包中配置<a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md">实时报表</a>，以便于快速查看处理规则的结果。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>处理规则是访问上下文数据变量的唯一途径。 </p> </td> 

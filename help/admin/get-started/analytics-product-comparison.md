@@ -3,7 +3,7 @@ description: Analysis Workspace、Reports & Analytics、Report Builder、Data Wa
 title: Analytics 产品比较和要求
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 94%
@@ -22,8 +22,8 @@ ht-degree: 94%
 | **数据粒度** | 汇总 | 汇总 | 汇总 | 汇总 | 点击 | 点击 | 汇总 |
 | **Experience Cloud ID (ECID) 可用** | 否 | 否 | 否 | 是 | 是 | 是 | 否 |
 | **时间戳可用** | 否 | 否 | 否 | 否 | 是 | 是 | 否 |
-| **处理级别** | 完全处理 | 完全处理，具有单独的[实时报表](/help/components/c-real-time-reporting/realtime.md) | 完全处理，具有单独的[实时报表](/help/components/c-real-time-reporting/realtime.md) | 完全处理 | 完全处理 | 完全处理 | 完全处理 |
-| **包含管理员机器人过滤器数据**<br> [了解详情](/help/admin/admin/bot-removal/bot-removal.md) | 否 | 是 - 单独的机器人报表 | 是 - 单独的机器人报表 | 否 | 否 | 否 | 否 |
+| **处理级别** | 完全处理 | 完全处理，具有单独的[实时报表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) | 完全处理，具有单独的[实时报表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) | 完全处理 | 完全处理 | 完全处理 | 完全处理 |
+| **包含管理员机器人过滤器数据**<br> [了解详情](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) | 否 | 是 - 单独的机器人报表 | 是 - 单独的机器人报表 | 否 | 否 | 否 | 否 |
 | **显示低流量（超出唯一值）**<br> [了解详情](/help/technotes/low-traffic.md) | 是 | 是 | 是 | 否 | 否 | 否 | 是 |
 | **可见的行限制（分页前）** | 400 | 200 | 50000 | 无限制 | 无限制 | 无限制 | 50000 |
 | **多个报表包** | [是](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | 是，具有限制 | 是 | 否 | 是 | 否 | 是 |

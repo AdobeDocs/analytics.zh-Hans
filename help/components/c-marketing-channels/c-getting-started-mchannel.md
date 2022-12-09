@@ -3,10 +3,10 @@ title: 《营销渠道快速入门》
 description: 了解营销渠道工作流程、自动设置以及如何将模板报表包设置应用到多个报表包。
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## 营销渠道工作流程
 
-![](assets/step1_icon.png) 根据企业要求定义每个渠道。
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step1_icon.png) 根据企业要求定义每个渠道。
 
 定义使用的渠道是营销渠道中最重要的步骤之一。定义渠道可能需要贵组织中多名人员通力合作。以下是需要考虑的几个问题：
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 建议的渠道列表可在[常见问题和示例](/help/components/c-marketing-channels/c-faq.md)中找到。创建要使用的渠道列表，以便在创建渠道时方便启用和定义渠道。
 
-![](assets/step2_icon.png) 在“[!UICONTROL 营销渠道管理器]”页面上添加营销渠道。
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png) 在“[!UICONTROL 营销渠道管理器]”页面上添加营销渠道。
 
 定义要跟踪的渠道后，可在&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**&#x200B;中启用它们。
 
@@ -47,11 +47,11 @@ ht-degree: 100%
 >
 >如果之前未配置营销渠道，则会显示[自动设置](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。该设置提供多个可自定义的预配置渠道。Adobe 建议将这些规则用作模板。但如果已有固定的渠道定义，则可跳过自动设置。
 
-![](assets/step3_icon.png)在[!UICONTROL 营销渠道处理规则]页面上配置或优化每个渠道的规则。
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png)在[!UICONTROL 营销渠道处理规则]页面上配置或优化每个渠道的规则。
 
 在[!UICONTROL 营销渠道管理器]页面上创建渠道后，可配置规则，以便渠道可检索和报告数据。
 
-请参阅[营销渠道处理规则](/help/components/c-marketing-channels/c-rules.md)。
+请参阅 [营销渠道处理规则](/help/components/c-marketing-channels/c-rules.md).
 
 如果渠道是在自动设置中创建的，则这些渠道中的规则已经过定义。您可以修改这些规则以满足您的需求。
 

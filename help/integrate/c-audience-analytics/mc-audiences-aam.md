@@ -4,8 +4,8 @@ solution: Experience Cloud
 title: Audience Analytics 概述
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Audience Analytics 集成功能具有以下主要优点：
 ![](assets/mc-aud-dataflow.png)
 
 1. 每当访客访问您的数字属性时，都会收集点击量并将其发送给 Analytics。
-1. 通过[服务器端转发](/help/admin/admin/c-server-side-forwarding/ssf.md)，Analytics 收到的每次点击都会实时地自动发送给 AAM。
+1. 通过[服务器端转发](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)，Analytics 收到的每次点击都会实时地自动发送给 AAM。
 1. 通过 Audience Analytics 集成，对于每次点击，均会在 AAM 中查找访客的受众成员资格，并将区段 ID 列表返回到 Analytics 以便进行实时处理。
 
 由于 AAM 区段是基于相同点击而插入的，您可以确保无论 AAM 中有哪些关于访客的数据，该数据都不会丢失并针对该点击保持最新状态。由于插件只能在下一次点击（而不是当前点击）时提供这些区段，因此这种方式要优于 AppMeasurement 插件。
@@ -49,6 +49,6 @@ Audience Analytics 集成功能具有以下主要优点：
 * 您是 Audience Manager 管理员。
 * 您使用的是 Identity Service v1.5 或更高版本。
 * AAM 和 Adobe Analytics 报表包已映射到相同的 Experience Cloud 组织。
-* 您使用[服务器端转发](/help/admin/admin/c-server-side-forwarding/ssf.md)并实施了[受众管理模块](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=zh-Hans)（不是 DIL 代码）- AppMeasurement 1.5 或更高版本。
+* 您使用[服务器端转发](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)并实施了[受众管理模块](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=zh-Hans)（不是 DIL 代码）- AppMeasurement 1.5 或更高版本。
 
 [Audience Analytics 工作流程](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)中介绍了这些先决条件。

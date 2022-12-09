@@ -4,7 +4,7 @@ description: Reports & Analytics 用于每个报表的维度和量度。
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 100%
@@ -56,9 +56,9 @@ Reports &amp; Analytics 的每个报表会使用专用维度和量度。您可�
    * 结帐：显示[结账](/help/components/metrics/checkouts.md)量度随时间变化的趋势。
 * 自定义事件：包含有关您的具体实施的[自定义事件](/help/components/metrics/custom-events.md)的所有报表。
 * 机器人程序：显示与机器人程序相关的报表。
-   * 机器人程序：显示最频繁地访问您网站的机器人程序。请参阅管理员用户指南中的[机器人程序规则](../../admin/admin/bot-removal/bot-rules.md)。
+   * 机器人程序：显示最频繁地访问您网站的机器人程序。请参阅管理员用户指南中的[机器人程序规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)。
    * 机器人程序页面：显示机器人程序点击最多的页面。
-* 实时：在数据收集后的数秒内显示某些维度和量度。有关更多信息，请参阅[实时报表](/help/components/c-real-time-reporting/realtime.md)。
+* 实时：在数据收集后的数秒内显示某些维度和量度。有关更多信息，请参阅[实时报表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)。
 
 ## 网站内容
 

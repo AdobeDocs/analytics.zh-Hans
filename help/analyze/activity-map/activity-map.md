@@ -4,8 +4,8 @@ title: 什么是 Activity Map？
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Activity Map 允许您设置不同的视图，以此来直观地标识客户活�
 * [链接报表](activitymap-links-report.md)
 * [页面详细信息](activitymap-page-flow.md)
 * [整套指标](activitymap-complete-metrics.md)
-* [实时页面分析](activitymap-realtime.md)
+* [实时页面分析](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
 * [客户分段](activitymap-multiple-segments.md)
 * [可自定义的叠加图](activitymap-gainerslosers.md)
 * [叠加图的详细信息](activitymap-overlay-details.md)

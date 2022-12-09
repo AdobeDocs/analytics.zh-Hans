@@ -4,8 +4,8 @@ keywords: 虚拟报表包
 title: 虚拟报表包工作流程
 feature: VRS
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 100%
 
@@ -15,11 +15,11 @@ ht-degree: 100%
 
 规划虚拟报表包的实施时需要完成的步骤概述。
 
-![](assets/step1_icon.png) 规划您的虚拟报表包策略。
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step1_icon.png) 规划您的虚拟报表包策略。
 
 在决定您的策略时，请了解[全局/多包标记注意事项](/help/components/vrs/vrs-considerations.md)以及常见问题解答。
 
-![](assets/step2_icon.png)[ 通过以下方法创建虚拟报表包](/help/components/vrs/c-workflow-vrs/vrs-create.md)：向父报表包应用一个或多个区段。
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png)[ 通过以下方法创建虚拟报表包](/help/components/vrs/c-workflow-vrs/vrs-create.md)：向父报表包应用一个或多个区段。
 
 可在虚拟报表包管理器（组件 > 虚拟报表包）中创建虚拟报表包。
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 单击报表包名称旁边的“信息”按钮可[查看有关该报表包的信息](/help/components/vrs/c-workflow-vrs/vrs-view.md)。
 
-![](assets/step3_icon.png) 打开一个项目或报表，然后选择一个虚拟报表包，以提供数据的分段视图。
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) 打开一个项目或报表，然后选择一个虚拟报表包，以提供数据的分段视图。
 
 ![](assets/step4_icon.png)[管理](/help/components/vrs/c-workflow-vrs/vrs-manage.md)虚拟报表包。
 

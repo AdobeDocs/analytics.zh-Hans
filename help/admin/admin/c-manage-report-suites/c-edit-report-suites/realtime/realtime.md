@@ -1,23 +1,26 @@
 ---
 description: 实时显示 Web 页面流量和并对页面查看次数进行排名。提供制定业务决策所需的可操作数据。
-title: 实时报表概述
-topic-fix: Reports
+title: 实时报表
 feature: Real-time
-exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
+source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '569'
 ht-degree: 100%
 
 ---
 
-# 实时报表概述
+# 实时报表
 
-实时报表可实时显示网页流量，并对页面查看次数进行排名。提供制定业务决策所需的可操作数据。
+实时显示 Web 页面流量和并对页面查看次数进行排名。提供制定业务决策所需的可操作数据。
 
 >[!NOTE]
 >
 >实时报表不需要额外实施或添加标记。它可以充分利用您现有的 Adobe Analytics 实施。要配置实时报表，请参阅[实时报表配置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)。
+
+以下是一段视频概述：
+
+>[!VIDEO](https://video.tv.adobe.com/v/25454/?quality=12)
 
 **[!UICONTROL 网站量度]** > **[!UICONTROL 实时]**
 
@@ -43,13 +46,13 @@ ht-degree: 100%
 
 * 例如，将上周的值与上一年的值（以及当日的总计值）进行比较。
 
-请记住，由于没有持续性的概念，eVar（转化量度）不受支持。但是您可以选择转化量度，这些量度仅在与维度设置在同一个页面时，才起作用。有关详细信息，请参阅[设置实时报表](/help/components/c-real-time-reporting/t-realtime-admin.md)。
+请记住，由于没有持续性的概念，eVar（转化量度）不受支持。但是您可以选择转化量度，这些量度仅在与维度设置在同一个页面时，才起作用。有关详细信息，请参阅[设置实时报表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)。
 
 仅管理员或“全部报表访问”和“高级报表”权限组中的所有用户有权设置和查看实时报表。而且，实时报表确实遵守权限设置。例如，如果您没有查看收入的权限，也便无法查看其中包含收入数据的实时报表。
 
 ## 由 A4T 配置导致的数据滞后 {#section_806CE36354FC4C539A0DED9266A5C704}
 
-在 Adobe [!DNL Target] 中启用 A4T 集成后，您在 Adobe Analytics 中会额外经历 5 至 10 分钟的滞后。这额外增加的滞后可将 Analytics 和 [!DNL Target] 中的数据存储到同一个点击上，从而允许您按页面和网站区域来细分测试。
+在 Adobe Target 中启用 A4T 集成后，您在 Adobe Analytics 中会额外经历 5 至 10 分钟的滞后。这额外增加的滞后允许您将 Analytics 和 Target 中的数据存储到同一个点击上，从而允许您按页面和网站部分来细分测试。
 
 增加的滞后在所有的 Adobe Analytics 服务和工具（包括实时流和实时报表）中都有所体现，且适用于以下情况：
 

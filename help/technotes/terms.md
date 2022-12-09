@@ -2,7 +2,7 @@
 title: Adobe Analytics 中使用的术语
 description: Adobe Analytics 词汇表，用于定义常用术语。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
@@ -87,7 +87,7 @@ ht-degree: 100%
    * 营销渠道处理规则，一组用于确定点击属于哪个营销渠道的规则。请参阅管理用户指南中的[营销渠道处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)。
 * **属性：**&#x200B;请参阅“流量变量”。
 * **排名报表：**&#x200B;一种报表格式，通常遵循带有量度的维度。此类报表允许您查看排名最前的项目，如网站上查看次数最多的页面。另请参阅“趋势报表”。
-* **实时：**&#x200B;在收集配置的变量后立即显示该变量，延迟时间很少甚至没有。请参阅管理用户指南中的[实时报表](/help/admin/admin/realtime/realtime.md)。
+* **实时：**&#x200B;在收集配置的变量后立即显示该变量，延迟时间很少甚至没有。请参阅管理用户指南中的[实时报表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)。
 * **Report Builder：**&#x200B;一个 Microsoft Excel 插件，可让您从 Adobe Analytics 数据构建自定义请求。
 * **报表包**：将数据发送到的首要容器。Adobe Analytics 中的所有报表都引用了一个报表包。
 * **Reports &amp; Analytics：**&#x200B;以前称为 SiteCatalyst。用于报告和分析的浏览器解决方案。Analytics 包中的初学者工具。
