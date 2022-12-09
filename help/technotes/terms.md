@@ -2,7 +2,7 @@
 title: Adobe Analytics 中使用的术语
 description: Adobe Analytics 词汇表，用于定义常用术语。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 * **Admin Console：**&#x200B;可以称为：
    * 旧版管理工具，用于管理 Adobe Analytics 中的报表包设置。在 Adobe Analytics 的先前版本中，用户权限也是在这里进行管理。请参阅管理用户指南中的[管理工具](/help/admin/admin/c-admin-tools.md)。
    * Adobe Admin Console，可用于配置产品访问权限和管理用户权限。请参阅管理用户指南中的 [Admin Console](/help/admin/admin-console/home.md)。
-* **分配：**&#x200B;如果转化变量在访问期间遇到多个值，则该变量的分配设置将决定保留哪个值。请参阅管理用户指南中的[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
+* **分配：**&#x200B;如果转化变量在访问期间遇到多个值，则该变量的分配设置将决定保留哪个值。请参阅管理用户指南中的[转化变量](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)。
 * **Analysis Workspace：**&#x200B;用于构建强大的自定义分析项目和实现分析民主化的浏览器解决方案。具有比 Reports and Analytics 更大的报表灵活性。
 * **异常：**&#x200B;通过使用统计建模自动查找数据中的意外趋势，可检测异常。该模型可分析量度并确定值的下限、上限和预期范围。请参阅分析用户指南中的[异常检测](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)。
 * **AppMeasurement：**&#x200B;用于收集数据并将其发送到 Adobe 的代码库。请参阅《实施用户指南》中的[主页](/help/implement/home.md)。
@@ -55,7 +55,7 @@ ht-degree: 100%
 * **eVar：**&#x200B;请参阅“转化变量”。
 * **事件：**&#x200B;请参阅“成功事件”。
 * **ExcelClient：**&#x200B;不再用作术语。Report Builder 前身的名称。
-* **到期：**&#x200B;在转化变量的上下文中，该值在后端的持续时间。此持久性允许事件在事件点击之前与变量值相关联。请参阅管理用户指南中的[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
+* **到期：**&#x200B;在转化变量的上下文中，该值在后端的持续时间。此持久性允许事件在事件点击之前与变量值相关联。请参阅管理用户指南中的[转化变量](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)。
 * **流量：** Analysis Workspace 中的一种可视化类型，可显示用户在您的网站上采用的路径。请参阅分析用户指南中的[流量可视化](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)。
 * **Genesis：**&#x200B;不再用作术语。Data Connectors 之前的名称。
 * **全局报表包：**&#x200B;指定给从多个网站收集点击量的报表包的非正式术语。

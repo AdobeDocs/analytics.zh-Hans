@@ -3,7 +3,7 @@ title: currencyCode 变量是什么以及怎样使用它？
 description: 对于电子商务网站，设置页面交易的货币。
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 对于商业网站，收入和货币是 Analytics 的重要组成部分。很多网站（尤其是跨多个国家/地区的网站）都会使用多种不同的货币。使用 `currencyCode` 变量可确保按正确的币种计算收入。
 
-货币转换在每次点击时使用以下逻辑。 这些步骤适用于为收入值设置 [`products`](../page-vars/products.md) 变量，以及所有在报告包设置下的[成功事件](/help/admin/admin/c-success-events/success-event.md)中列为“货币”的事件。
+货币转换在每次点击时使用以下逻辑。 这些步骤适用于为收入值设置 [`products`](../page-vars/products.md) 变量，以及所有在报告包设置下的[成功事件](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)中列为“货币”的事件。
 
 * 如果 `currencyCode` 未定义，Adobe 假定所有货币值都是报告包的货币。 要了解报告包中使用的货币，请参阅报告包设置中的[常规帐户设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)。
 * 如果 `currencyCode` 已定义并且与报告包中使用的货币相一致，则无需进行货币换算。

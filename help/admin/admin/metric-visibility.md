@@ -3,8 +3,8 @@ description: 您可以隐藏“菜单”、“指标选择器”、“计算指�
 title: 指标可见性
 feature: Admin Tools
 exl-id: 8ff06677-a9fc-4a12-bf8d-8a7ce05db922
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 您可以隐藏“菜单”、“指标选择器”、“计算指标生成器”和“区段生成器”中的标准（内置）指标、自定义事件和内置事件。
 
-1. 导航至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 转化]** > **[!UICONTROL 成功事件]**。[更多...](/help/admin/admin/c-success-events/t-success-events.md)
+1. 导航至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 转化]** > **[!UICONTROL 成功事件]**。[更多...](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
 1. 将“可见性”列设置为&#x200B;**[!UICONTROL 随时随地可见]**、**[!UICONTROL 生成器]**&#x200B;或&#x200B;**[!UICONTROL 随时随地隐藏]**。
 
 这项设置不影响相关指标的数据收集，只影响该指标在用户界面的可见性。以下是各项设置会在用户界面中对指标可见性产生何种影响：

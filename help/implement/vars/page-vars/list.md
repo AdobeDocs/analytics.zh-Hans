@@ -3,14 +3,14 @@ title: list
 description: 在同一点击中保留多个值的自定义变量。
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
+source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
+workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 100%
 
 ---
 
-# list
+# 列表
 
 列表变量是自定义变量，您可以根据需要随意使用。它们的工作方式与 eVar 类似，只是它们可以在同一点击中包含多个值。列表变量没有字符限制。
 
@@ -22,11 +22,11 @@ ht-degree: 100%
 
 ## 在报告包设置中设置列表变量
 
-确保先在报告包设置中配置每个列表变量，然后再在实施中使用它们。请参阅管理员指南中的[转化变量](/help/admin/admin/conversion-var-admin/list-var-admin.md)。此步骤适用于所有实现方法。
+确保先在报告包设置中配置每个列表变量，然后再在实施中使用它们。请参阅管理员指南中的[转化变量](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)。此步骤适用于所有实现方法。
 
 ## 使用 Web SDK 的列表变量
 
-在 XDM 字段 `_experience.analytics.customDimensions.lists.list1.list[]` 至 `_experience.analytics.customDimensions.lists.list3.list[]` 中，[为 Adobe Analytics 映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 列表变量。每个数组元素含有一个包含每个字符串的 `"value"` 对象。 无需提供分隔符；它使用指定的值自动包含在[报告包设置](/help/admin/admin/conversion-var-admin/list-var-admin.md)中。 例如，如果逗号 (&#39;`,`&#39;) 配置为列表变量 1 的分隔符，以下 XDM 对象会使用 `"Example value 1,Example value 2,Example value 3"` 填充 `list1` 变量。
+在 XDM 字段 `_experience.analytics.customDimensions.lists.list1.list[]` 至 `_experience.analytics.customDimensions.lists.list3.list[]` 中，[为 Adobe Analytics 映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 列表变量。每个数组元素含有一个包含每个字符串的 `"value"` 对象。 无需提供分隔符；它使用指定的值自动包含在[报告包设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)中。 例如，如果逗号 (&#39;`,`&#39;) 配置为列表变量 1 的分隔符，以下 XDM 对象会使用 `"Example value 1,Example value 2,Example value 3"` 填充 `list1` 变量。
 
 ```json
 "xdm": {
@@ -64,7 +64,7 @@ Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照
 
 ## AppMeasurement 和 Analytics 扩展代码编辑器中的 s.list1 – s.list3
 
-每个列表变量都是一个字符串，其中包含特定于贵组织的自定义值。它们没有字节数上限；但是，单个值的最大长度为 255 字节。在[报告包设置](/help/admin/admin/conversion-var-admin/list-var-admin.md)中设置变量时，将会确定使用的分隔符。 在分隔多个项目时不要使用空格。
+每个列表变量都是一个字符串，其中包含特定于贵组织的自定义值。它们没有字节数上限；但是，单个值的最大长度为 255 字节。在[报告包设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)中设置变量时，将会确定使用的分隔符。 在分隔多个项目时不要使用空格。
 
 ```js
 // A list variable configured with a comma as a delimiter

@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等等。
-source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 95%
@@ -48,18 +48,10 @@ ht-degree: 95%
       + [常见的机器人签名](admin/bot-removal/bot-signatures.md)
       + [机器人排除法](admin/bot-removal/bot-exclusion-methods.md)
    + [代码管理器](admin/code-manager-admin.md)
-   + 转化变量{#conversion-variables}
-      + [转化变量 (eVar)](admin/conversion-var-admin/conversion-var-admin.md)
-      + [编辑转化变量](admin/conversion-var-admin/t-conversion-variables-admin.md)
-      + [转化分类](admin/conversion-var-admin/conversion-classifications.md)
-      + [分类层次结构](admin/conversion-var-admin/classification-hierarchies.md)
-      + [列表变量](admin/conversion-var-admin/list-var-admin.md)
-      + [促销 eVar](admin/conversion-var-admin/merchandising-evars.md)
    + [货币代码](admin/currency.md)
    + [数据源](admin/data-sources.md)
    + [默认指标](admin/default-metrics.md)
    + [按 IP 地址排除](admin/exclude-ip.md)
-   + [查找方法](admin/finding-methods.md)
    + [日志](admin/logs.md)
    + [营销渠道](admin/marketing-channels-admin.md)
    + [指标可见性](admin/metric-visibility.md)
@@ -131,6 +123,21 @@ ht-degree: 95%
             + [启用流量变量报表](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
             + [流量分类](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
             + [自定义报表描述](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
+         + 转化变量{#conversion-variables}
+            + [转化变量 (eVar)](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
+            + [编辑转化变量](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/t-conversion-variables-admin.md)
+            + [转化分类](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
+            + [分类层次结构](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)
+            + [列表变量](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
+            + [促销 eVar](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
+            + [查找方法](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
+            + 独特访客变量 {#unique-visitor-variable}
+               + [指定独特访客变量](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
+               + [用例 — 提取访客 ID](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
+            + 成功事件 {#success-events}
+               + [成功事件概述](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
+               + [配置成功事件](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
+               + [关于更改事件类型](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/event-type.md)
    + 服务器端转发 {#server-side-forwarding}
       + [服务器端转发概述](admin/c-server-side-forwarding/ssf.md)
       + [GDPR/ePrivacy 合规和服务器端转发](admin/c-server-side-forwarding/ssf-gdpr.md)
@@ -139,14 +146,7 @@ ht-degree: 95%
       + [如何验证服务器端转发的实施情况](admin/c-server-side-forwarding/ssf-verify.md)
       + [服务器端转发常见问题解答](admin/c-server-side-forwarding/ssf-faq.md)
    + [简化的报表菜单](admin/t-simplified-menu.md)
-   + 成功事件 {#success-events}
-      + [成功事件概述](admin/c-success-events/success-event.md)
-      + [配置成功事件](admin/c-success-events/t-success-events.md)
-      + [关于更改事件类型](admin/c-success-events/event-type.md)
    + [可选时间戳](admin/timestamp-optional.md)
-   + 独特访客变量 {#unique-visitor-variable}
-      + [指定独特访客变量](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
-      + [用例 — 提取访客 ID](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [视频管理](admin/video-management.md)
 + 用户和产品管理（旧版）{#user-product-management}
    + [用户和产品管理](user-management2/user-management.md)

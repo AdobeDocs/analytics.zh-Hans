@@ -3,7 +3,7 @@ title: websiteBot
 description: 通过移动鼠标，动态识别机器人。
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 96%
@@ -32,7 +32,7 @@ ht-degree: 96%
 
 Adobe 建议在使用此插件之前执行以下操作：
 
-* **配置 eVar 设置**：在“报表包”设置中的[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)下设置 eVar。将到期设置为&#x200B;**从不**&#x200B;或&#x200B;**访问**，并将分配设置为&#x200B;**“原始值（第一个）”**。 在以下两种情况下都应设置此 eVar：当触发[!UICONTROL 直接调用]规则或 `s.tl` 调用时。
+* **配置 eVar 设置**：在“报表包”设置中的[转化变量](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)下设置 eVar。将到期设置为&#x200B;**从不**&#x200B;或&#x200B;**访问**，并将分配设置为&#x200B;**“原始值（第一个）”**。 在以下两种情况下都应设置此 eVar：当触发[!UICONTROL 直接调用]规则或 `s.tl` 调用时。
 * **在单独的变量中收集用户代理**：将用户代理字符串收集到一个单独的变量中，以监控此插件的功效。每次点击时，将 eVar 设置为 `navigator.UserAgent` 以收集此数据。
 
 ## 使用自定义代码编辑器安装此插件

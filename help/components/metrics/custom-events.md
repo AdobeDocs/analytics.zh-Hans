@@ -3,8 +3,8 @@ title: 自定义事件
 description: 存在自定义事件的点击数。
 feature: Metrics
 exl-id: 9ae3ff53-8634-466a-a9f6-786c1e62c2fa
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## 如何计算此量度
 
-自定义事件的计算方式各不相同，具体取决于其所属类型。您可以在报表包设置中的[成功事件](../../admin/admin/c-success-events/success-event.md)下查看事件类型。
+自定义事件的计算方式各不相同，具体取决于其所属类型。您可以在报表包设置中的[成功事件](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)下查看事件类型。
 
 * **计数器事件**：默认的事件设置。大多数事件是计数器事件。计算匹配自定义事件 `event1` - `event1000` 存在于 [`events`](/help/implement/vars/page-vars/events/events-overview.md) 变量中的点击数。
 * **数字事件**：对 `events` 变量中分配给事件的数值求和。

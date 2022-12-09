@@ -4,8 +4,8 @@ description: 与单个产品关联的自定义变量。
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## 在报告包设置中设置 eVar
 
-在实施中使用 eVar 之前，请确保在报告包设置中将 eVar 配置为所需的语法。 请参阅《管理员指南》中的[转化变量](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
+在实施中使用 eVar 之前，请确保在报告包设置中将 eVar 配置为所需的语法。 请参阅《管理员指南》中的[转化变量](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)。
 
 >[!WARNING]
 >
