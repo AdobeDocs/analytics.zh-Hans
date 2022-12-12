@@ -1,18 +1,18 @@
 ---
 title: Adobe Analytics Permissions — 汇总表
-description: 汇总 Admin Console 中可用的 Adobe Analytics Permissions 的表格。
+description: 概述Adobe Admin Console中可用Adobe Analytics权限的表。
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 98%
+source-wordcount: '1279'
+ht-degree: 96%
 
 ---
 
 # Adobe Analytics Permissions — 汇总表
 
-使用以下汇总表，根据逻辑分组识别 Admin Console 中的 Adobe Analytics Permissions。
+使用以下摘要表按逻辑分组标识Adobe Admin Console中的Adobe Analytics权限。
 
 ## 报表包工具
 

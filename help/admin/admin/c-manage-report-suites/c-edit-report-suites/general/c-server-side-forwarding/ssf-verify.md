@@ -4,9 +4,9 @@ solution: Analytics
 title: 如何验证服务器端转发的实施情况
 feature: Server-Side Forwarding
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '256'
 ht-degree: 84%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 84%
 
 >[!CAUTION]
 >
->如果响应包含键值对 `"status":"SUCCESS"` 或一个 2 x 2 图像，则表示服务器端转发的配置 *不* 正确。请确保已正确部署Identity Service，已部署App Measurement模块，已将适用的报表包映射到正确的组织ID，并且已在Analytics管理控制台中启用服务器端转发。
+>如果响应包含键值对 `"status":"SUCCESS"` 或一个 2 x 2 图像，则表示服务器端转发的配置 *不* 正确。请确保已正确部署Identity Service，已部署App Measurement模块，已将适用的报表包映射到正确的组织ID，并且已在Analytics管理工具中启用服务器端转发。
 
 >[!MORELIKETHIS]
 >
