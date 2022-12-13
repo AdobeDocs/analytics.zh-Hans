@@ -3,10 +3,10 @@ description: Adobe Analytics 变量的数据隐私标签示例
 title: Analytics 变量的数据隐私标签
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '3909'
-ht-degree: 100%
+source-git-commit: 196e7672026a284591c0dba2336cb11fc3661c72
+workflow-type: tm+mt
+source-wordcount: '3672'
+ht-degree: 97%
 
 ---
 
@@ -32,58 +32,23 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 
 身份数据“I”标签用于对可识别或联系特定人员的数据进行分类。
 
-<table id="table_6B5368D714424E52835D5DFE189BD080"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 标签 </th> 
-   <th colname="col2" class="entry"> 定义 </th> 
-   <th colname="col3" class="entry"> 其他要求 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>I1 </p> </td> 
-   <td colname="col2"> <p><b>直接可识别</b>：可明确识别个人或允许与个人直接联系的数据，例如姓名或电子邮件地址。 </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_4E2AD59D119E40D28B869D0BB63B9FD9"> 
-     <li id="li_AC3E99B57E3A4AE2A12BE219680AFC58">不能在事件中设置 </li> 
-     <li id="li_BB66992863C8402F8D58656293F31E71">不能在促销 eVar 中设置 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>I2 </p> </td> 
-   <td colname="col2"> <p><b>间接可识别</b>：可与任何其他数据结合使用来识别个人或设备或者允许与个人或设备直接联系的数据。 </p> <p>它本身不能识别个人的身份，但是可以与其他信息（不管该信息是否由您持有）结合起来，用于识别某人的身份。示例包括客户会员号，或公司的 CRM 系统为其每个客户使用的唯一 ID。 </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_A0EF0F3DC5804D4FBE228946D697ABEB"> 
-     <li id="li_A592EA6DA82C4D8C80E03F02ADF4E20E">不能在事件中设置 </li> 
-     <li id="li_46CE7B1E84884CDAB356A6DF89397849">不能在促销 eVar 中设置 </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 标签 | 定义 | 其他要求 |
+| --- | --- | --- |
+| I1 | 直接可识别：可明确识别个人或允许与个人直接联系的数据，例如姓名或电子邮件地址。 | <ul><li>不能在事件中设置</li><li>不能在促销 eVar 中设置</li></ul> |
+| I2 | 间接可识别：可与任何其他数据结合使用来识别个人或设备或者允许与个人或设备直接联系的数据。它本身不能识别个人的身份，但是可以与其他信息（不管该信息是否由您持有）结合起来，用于识别某人的身份。示例包括客户会员号，或公司的 CRM 系统为其每个客户使用的唯一 ID。 | <ul><li>不能在事件中设置</li><li>不能在促销 eVar 中设置</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 敏感数据标签 (DULE) {#sensitive-data-labels}
 
 敏感数据“S”标签用于对诸如地理数据之类的敏感数据进行分类。未来，会引入其他敏感数据标签，用于识别其他类型的敏感信息。
 
-<table id="table_A778A508620545CCB37830E5CF1C75B7"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 标签 </th> 
-   <th colname="col2" class="entry"> 定义 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>S1 </p> </td> 
-   <td colname="col2"> <p> 与纬度和经度相关的精确地理位置数据，可用于确定设备的准确位置（在 100 米以内）。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>S2 </p> </td> 
-   <td colname="col2"> <p> 可用于确定广泛定义的地理围栏区域的地理位置数据。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 标签 | 定义 |
+| --- | --- |
+| S1 | 与纬度和经度相关的精确地理位置数据，可用于确定设备的准确位置（在 100 米以内）。 |
+| S2 | 可用于确定广泛定义的地理围栏区域的地理位置数据。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 数据治理标签（数据隐私） {#data-governance-labels}
 
@@ -91,124 +56,38 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 
 ### 数据隐私访问标签
 
-<table id="table_663EFF43A454498386F7F3E60875E0F8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 标签 </th> 
-   <th colname="col2" class="entry"> 定义 </th> 
-   <th colname="col3" class="entry"> 其他要求 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>无 </p> </td> 
-   <td colname="col2"> <p>如果此变量并未包含作为数据隐私访问请求的一部分返回到数据主体的数据中必须包括的数据，请选择此选项。 </p> </td> 
-   <td colname="col3"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ACC-ALL </p> </td> 
-   <td colname="col2"> <p>此字段中的值应当包含在<u>所有</u>数据隐私访问请求中。 </p> <p>如果此命中来自多人共享的设备，则您作为数据控制者，可以通过应用此标签来指示它是可接受的，以便将此字段中的数据与任何有权访问该共享设备的个人共享。 </p> </td> 
-   <td colname="col3"> <p>将为所有数据隐私请求返回具有此标签的字段。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ACC-PERSON </p> </td> 
-   <td colname="col2"> <p> 仅当我们根据与 ID-PERSON 字段值匹配的数据隐私请求 ID，基本确定点击来自数据主体时，这个字段中的值才应专门用于数据隐私访问请求。 </p> </td> 
-   <td colname="col3"> <p>您还必须在此报表包中的某个变量上设置了 ID-PERSON 标签，并使用该 ID 提交请求，否则将绝不会应用此标签。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 标签 | 定义 | 其他要求 |
+| --- | --- | --- |
+| 无 | 如果此变量并未包含作为数据隐私访问请求的一部分返回到数据主体的数据中必须包括的数据，请选择此选项。 |  |
+| ACC-ALL | 此字段中的值应当包含在所有数据隐私访问请求中。如果此命中来自多人共享的设备，则您作为数据控制者，可以通过应用此标签来指示它是可接受的，以便将此字段中的数据与任何有权访问该共享设备的个人共享。 | 将为所有数据隐私请求返回具有此标签的字段。 |
+| ACC-PERSON | 仅当我们根据与 ID-PERSON 字段值匹配的数据隐私请求 ID，基本确定点击来自数据主体时，这个字段中的值才应专门用于数据隐私访问请求。 | 您还必须在此报表包中的某个变量上设置了 ID-PERSON 标签，并使用该 ID 提交请求，否则将绝不会应用此标签。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 尽管很少会有变量设置其他任何标签，但预计访问标签将会应用到许多变量中。不过，您需要咨询您的法律团队，以决定应该将收集的哪些数据与数据主体共享。
 
 ### 数据隐私删除标签
 
-<table id="table_59DFCE4D90214CB5972BDDE5B7391B4D"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 标签 </th> 
-   <th colname="col2" class="entry"> 定义 </th> 
-   <th colname="col3" class="entry"> 其他要求 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>与其他标签不同，这些“删除”标签并不是相互排斥的。您可以选择两者之一、同时选择两者，或者选择“无”。“无”标签不需要另外单独选择，因为不勾选任何一个“删除”选项即表示选择了此标签。 </p> </td> 
-   <td colname="col3"> <p>只有当字段中包含的值能够将命中项与该数据主体进行关联时（即，可用来识别数据主体），这些字段才需要使用删除标签。 </p> <p> 不需要删除其他个人信息（收藏夹、浏览/购买历史、健康状况等），因为这会切断与数据主体的关联。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>DEL-DEVICE </p> </td> 
-   <td colname="col2"> <p>对于数据隐私删除请求，仅当命中项当中存在请求中指定的 ID-DEVICE 时，才应当对此字段中的值进行匿名化。 </p> <p>如果相同的值出现在其他不删除的命中项中，那么将不对这些其他实例进行更改。这会导致在此字段中计算独特计数的报表的计数发生更改。在共享设备上，这可能会删除其他个人（不仅仅是数据主体）的标识符。 </p> <p>如果此字段还具有 ID-DEVICE 标签并且此字段中的值用作数据隐私请求的 ID，则计数不会发生更改。 </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_45C3A09E1F05492B97C3F3DEA7C78FBC"> 
-     <li id="li_BAB277F92F284ADE9D7B6839BDD716E2">还需要 I1 或 I2 或 S1 标签 </li> 
-     <li id="li_6DDFC0571457489CBA9D76F547247F20">不能在事件中设置 </li> 
-     <li id="li_E79C6DFC6C58478EAA1504E3820D512C">不能在促销 eVar 中设置 </li> 
-     <li id="li_B78E273212E447D49D0707E174B66DEC">不能在分类中设置 </li> 
-     <li id="li_F0F52D0DE7454557A6A97063C1FBC372">您必须使用 ID-DEVICE 提交请求或将 expandIDs 设置为 true，否则将绝不会应用此标签。 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>DEL-PERSON </p> </td> 
-   <td colname="col2"> <p>对于数据隐私删除请求，仅当命中项当中存在请求中指定的 ID-PERSON 时，才应当对此字段中的值进行匿名化。 </p> <p>如果相同的值出现在其他不删除的命中项当中，那么将不对这些其他值进行更改。这会导致在此字段中计算独特计数的报表的计数发生更改。如果此字段还具有 ID-PERSON 标签并且此字段中的值用作数据隐私请求的 ID，则计数不会发生更改。 </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_6722E42E036E47B4B5E17DC213636D51"> 
-     <li id="li_6C1A64FF68AF428A827D8C6C33E22970">还需要 I1 或 I2 或 S1 标签 </li> 
-     <li id="li_8053533FFE874EE795C8B6043A4F73B3">不能在事件中设置 </li> 
-     <li id="li_D6700CF4D03E44DDA83C4DDBB5B70CC3">不能在促销 eVar 中设置 </li> 
-     <li id="li_B6C2B15484B344889DBF29B62E2EA8FD">不能在分类中设置 </li> 
-     <li id="li_3BBD0C27D9644C2B9618457A0BFC15EF">您还必须在此报表包中的某个变量上设置了 ID-PERSON 标签，并使用该 ID 提交请求，否则将绝不会应用此标签。 </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+与其他标签不同，这些“删除”标签并不是相互排斥的。您可以选择两者之一、同时选择两者，或者选择“无”。单独 [!UICONTROL 无] 标签是不必要的，因为 [!UICONTROL 无] 仅通过不选中任一删除选项来指示。
+
+只有当字段中包含的值能够将命中项与该数据主体进行关联时（即，可用来识别数据主体），这些字段才需要使用删除标签。不需要删除其他个人信息（收藏夹、浏览/购买历史、健康状况等），因为这会切断与数据主体的关联。
+
+| 标签 | 定义 | 其他要求 |
+| --- | --- | --- |
+| DEL-DEVICE | 对于数据隐私删除请求，仅当命中项当中存在请求中指定的 ID-DEVICE 时，才应当对此字段中的值进行匿名化。如果相同的值出现在其他不删除的命中项中，那么将不对这些其他实例进行更改。这会导致在此字段中计算独特计数的报表的计数发生更改。在共享设备上，这可能会删除其他个人（不仅仅是数据主体）的标识符。如果此字段还具有 ID-DEVICE 标签并且此字段中的值用作数据隐私请求的 ID，则计数不会发生更改。 | <ul><li>还需要 I1 或 I2 或 S1 标签</li><li>不能在事件中设置</li><li>不能在促销 eVar 中设置</li></li><li>不能在分类中设置</li><li>您必须使用 ID-DEVICE 提交请求或将 expandIDs 设置为 true，否则将绝不会应用此标签。</li></ul> |
+| DEL-PERSON | 对于数据隐私删除请求，仅当命中项当中存在请求中指定的 ID-PERSON 时，才应当对此字段中的值进行匿名化。如果相同的值出现在其他不删除的命中项当中，那么将不对这些其他值进行更改。这会导致在此字段中计算独特计数的报表的计数发生更改。如果此字段还具有 ID-PERSON 标签并且此字段中的值用作数据隐私请求的 ID，则计数不会发生更改。 | <ul><li>还需要 I1 或 I2 或 S1 标签</li><li>不能在事件中设置</li><li>不能在促销 eVar 中设置</li></li><li>不能在分类中设置</li><li>您必须使用在此报表包中某些变量上设置的ID-PERSON标签提交请求，然后使用该ID提交请求，否则此标签将永远不适用。</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### 数据隐私身份标签
-
-<table id="table_F6BBC868457443A19A7B693BD6C55B4B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 标签 </th> 
-   <th colname="col2" class="entry"> 定义 </th> 
-   <th colname="col3" class="entry"> 其他要求 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>无 </p> </td> 
-   <td colname="col2"> <p>此变量不包含将用于数据隐私请求的 ID。 </p> </td> 
-   <td colname="col3"> <p>只有此字段包含您将在通过 [隐私服务 API] (https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hans) 或 UI 提交访问或删除请求时使用的 ID，才需要设置这些其他标签之一。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ID-DEVICE </p> </td> 
-   <td colname="col2"> <p>此字段包含一个 ID，它可用于为数据隐私请求识别设备，但无法区分共享设备的不同用户。 </p> <p>您不需要为包含 ID 的所有变量指定此标签（这是 I1/I2 标签的用途）。如果您使用存储在此变量中的 ID 提交数据隐私请求，并想要为指定的 ID 搜索此变量，请使用此标签。 </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_618019CB8FCA4A5C94C47636240197B2"> 
-     <li id="li_0E5ADED36FF24A348FDD434E2CC8C8EE">还需要 I1 或 I2 标签 </li> 
-     <li id="li_20BCFF07B2BF468C8E0D477C10B2EF9F">不能在事件中设置 </li> 
-     <li id="li_0BD73EEF4184475D8E97878CF8DBEB90">不能在促销 eVar 中设置 </li> 
-     <li id="li_129851035C4A4BF0922296B4C3BEE39B">不能在分类中设置 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ID-PERSON </p> </td> 
-   <td colname="col2"> <p>此字段包含一个 ID，它可用于为数据隐私请求识别经过身份验证的用户（特定人员）。 </p> <p>您不需要为包含 ID 的所有变量指定此标签（这是 I1/I2 标签的用途）。如果您要使用存储在此变量中的 ID 提交数据隐私请求，并想要为指定的 ID 搜索此变量，请使用此标签。 </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_0C7EEC8FCB5C4BCDA5D48F3C98770A67"> 
-     <li id="li_2E781AE8D7A046A7996C7300CA854B86">还需要 I1 或 I2 标签 </li> 
-     <li id="li_EB4C6430C218405DAAE81DEE010DCAA2">不能在事件中设置 </li> 
-     <li id="li_05AA67B45974474F9DA520E8B877BA11">不能在促销 eVar 中设置 </li> 
-     <li id="li_8A6BF4B40ED249289EAD46FE1C755FB0">不能在分类中设置 </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 | 标签 | 定义 | 其他要求 |
 | --- | --- | --- |
 | 无 | 此变量不包含将用于数据隐私请求的 ID。 | 只有此字段包含您将在通过 [隐私服务 API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hans) 或 UI 提交访问或删除请求时使用的 ID，才需要设置这些其他标签之一。 |
 | ID-DEVICE | 此字段包含一个 ID，它可用于为数据隐私请求识别设备，但无法区分共享设备的不同用户。您不需要为包含 ID 的所有变量指定此标签（这是 I1/I2 标签的用途）。如果您使用存储在此变量中的 ID 提交数据隐私请求，并想要为指定的 ID 搜索此变量，请使用此标签。 | 还需要 I1 或 I2 标签.<ul><li>不能在事件中设置</li><li>不能在促销 eVar 中设置</li><li>不能在分类中设置</li></ul> |
-| ID-PERSON | 此字段包含一个 ID，它可用于为数据隐私请求识别经过身份验证的用户（特定人员）。您不需要为包含 ID 的所有变量指定此标签（这是 I1/I2 标签的用途）。如果您要使用存储在此变量中的 ID 提交数据隐私请求，并想要为指定的 ID 搜索此变量，请使用此标签。 | 还需要 I1 或 I2 标签.<ul><li>不能在事件中设置</li><li>不能在促销 eVar 中设置</li><li>不能在分类中设置</li></ul> |
+| ID-PERSON | 此字段包含一个 ID，它可用于为数据隐私请求识别经过身份验证的用户（特定人员）。您不需要为包含 ID 的所有变量指定此标签（这是 I1/I2 标签的用途）。如果您要使用存储在此变量中的 ID 提交数据隐私请求，并想要为指定的 ID 搜索此变量，请使用此标签。 | <ul><li>还需要 I1 或 I2 标签.</li><li>不能在事件中设置</li><li>不能在促销 eVar 中设置</li><li>不能在分类中设置</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 在为变量设置 ID-DEVICE 或 ID-PERSON 标签时提供命名空间 {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
 
@@ -254,53 +133,18 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 >
 >命名空间“visitorId”和“customVisitorId”是保留名称，用于识别 Analytics 旧版跟踪 Cookie 和 Analytics 客户的访客 ID。请勿将这些命名空间用于自定义流量或转化变量。
 
-## 变量类型及其支持的数据隐私/DULE 标签 {#section_CE7C3EDE1344466A98BC45E394B40762}
+## 变量类型及其支持的数据隐私/DULE 标签 {#variable-types}
 
 数据隐私/DULE 标签功能影响四大类 Analytics 变量。并非所有变量都支持所有标签。下表显示了各类变量对各种标签的支持情况。
 
-<table id="table_95D4416B3A8A40C28B2610D0003456E6"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 变量类型 </th> 
-   <th colname="col2" class="entry"> 支持的标签 </th> 
-   <th colname="col3" class="entry"> 不支持的标签 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 
-    <ul id="ul_0615B545A5AD43F2A6F25698A47AAD3E"> 
-     <li id="li_A4B3E8E241B149C99F2A71B21227AD72">自定义成功事件 </li> 
-     <li id="li_8AEF688AE9B8426C82D199E4B195330D">促销 eVar </li> 
-     <li id="li_DFFCA65DCC6146AEB6D47476B4D4CC3B">多值变量 (mvVar) </li> 
-     <li id="li_3192D08B12C249D1AAA8AAEEDE2FD7D7">层次结构变量 </li> 
-    </ul> </td> 
-   <td colname="col2"> <p>S1/S2 </p> <p>ACC-ALL、ACC-PERSON </p> </td> 
-   <td colname="col3"> <p>I1/I2 </p> <p>ID-DEVICE、ID-PERSON </p> <p>DEL-DEVICE、DEL-PERSON </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>分类 </p> </td> 
-   <td colname="col2"> <p>I1/I2、S1/S2 </p> <p>ACC-ALL、ACC-PERSON </p> </td> 
-   <td colname="col3"> <p>ID-DEVICE、ID-PERSON </p> <p>DEL-DEVICE、DEL-PERSON </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 
-    <ul id="ul_1C2FD4D606664965A88F10818E1C11A9"> 
-     <li id="li_590975F5C7304317B22C80B20718E914">流量变量 (prop) </li> 
-     <li id="li_6E614B7036994434BFDA71A4424529A0">商务变量（非推销 eVar） </li> 
-    </ul> </td> 
-   <td colname="col2"> <p>所有标签 </p> </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>其他大部分变量 </p> <p><i>（请参阅下表以了解例外情况）</i> </p> </td> 
-   <td colname="col2"> <p>ACC-ALL、ACC-PERSON </p> </td> 
-   <td colname="col3"> <p>I1/I2、S1/S2 </p> <p>ID-DEVICE、ID-PERSON </p> <p>DEL-DEVICE、DEL-PERSON </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 变量类型 | 支持的标签 | 不支持的标签 |
+|--- |--- |--- |
+| <ul><li>自定义成功事件</li><li>促销 eVar</li><li>多值变量 (mvVar)</li><li>层次结构变量</li></ul> | <ul><li>S1/S2</li><li>ACC-ALL、ACC-PERSON</li></ul> | <ul><li>I1/I2</li>  <li>ID-DEVICE、ID-PERSON</li><li>DEL-DEVICE、DEL-PERSON</li></ul> |
+| 分类 | <ul><li>I1/I2、S1/S2</li><li>ACC-ALL、ACC-PERSON</li></ul> | <ul><li>ID-DEVICE、ID-PERSON</li><li>DEL-DEVICE、DEL-PERSON</li></ul> |
+| <ul><li>流量变量 (prop)</li><li>商务变量（非推销 eVar）</li></ul> | 所有标签 | - |
+| 大多数其他变量(*有关例外情况，请参阅下表*) | ACC-ALL、ACC-PERSON | <ul><li>I1/I2、S1/S2</li><li>ID-DEVICE、ID-PERSON</li><li>DEL-DEVICE、DEL-PERSON)</li></ul> |
 
-## 可为其分配除 ACC-ALL/ACC-PERSON 以外的标签的变量/已修改 {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+## 可为其分配/修改除 ACC-ALL/ACC-PERSON 以外的标签的变量 {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -378,7 +222,7 @@ Adobe Analytics 对数据隐私删除请求的支持旨在最大限度地减少�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>• 流量变量 (prop) </p> <p>• 商务变量 (eVar) </p> </td> 
+   <td colname="col1"> <p>* 流量变量 (prop) </p> <p>* 商务变量 (eVar) </p> </td> 
    <td colname="col2"> <p>现有值将被格式为“Data Privacy-356396D55C4F9C7AB3FBB2F2FA223482”的新值替换，其中“Data Privacy-”前缀后面的 32 位十六进制值是一个加密性强的 128 位伪随机数。因为现有值基本上被随机字符串替换，所以无法从这个新值确定原始值，也无法从原始值导出新值。 </p> <p>对于给定变量，若被替换的相同值存在于作为同一数据隐私请求的一部分而被删除的其他命中项中，则该值的所有实例都将被相同的新值替换。 </p> <p>若某个值的部分实例被删除请求替换，且稍后的请求删除了原始值的其他（新）实例，则新的替换值与原始替换值不同。 </p> </td> 
   </tr> 
   <tr> 
@@ -390,15 +234,15 @@ Adobe Analytics 对数据隐私删除请求的支持旨在最大限度地减少�
    <td colname="col2"> <p>此值是一个 128 位整数，且被加密性强的 128 位伪随机值替换。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>• MCID </p> <p>• 自定义访客 ID </p> <p>• IP 地址 </p> <p>• IP 地址 2 </p> </td> 
+   <td colname="col1"> <p>* MCID </p> <p>* 自定义访客 ID </p> <p>* IP 地址 </p> <p>* IP 地址 2 </p> </td> 
    <td colname="col2"> <p>清除该值（根据变量的类型，设为空字符串或 0）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>• ClickMap 操作（旧版） </p> <p>• ClickMap 上下文（旧版） </p> <p>• 页面 </p> <p>• 页面 URL </p> <p>• 原始登入页面 URL </p> <p>• 反向链接 </p> <p>• 访问起始页 URL </p> </td> 
+   <td colname="col1"> <p>*ClickMap操作（旧版） </p> <p>*ClickMap上下文（旧版） </p> <p>* 页面 </p> <p>* 页面 URL </p> <p>* 原始登入页面 URL </p> <p>* Referrer </p> <p>* 访问起始页 URL </p> </td> 
    <td colname="col2"> <p>清除/删除 URL 参数。如果该值看起来不像是 URL，则清除该值（将其设为空字符串）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>• 纬度 </p> <p>• 经度 </p> </td> 
+   <td colname="col1"> <p>* 纬度 </p> <p>* 经度 </p> </td> 
    <td colname="col2"> <p>精度降低到不低于 1 公里。 </p> </td> 
   </tr> 
  </tbody> 
@@ -451,7 +295,7 @@ Adobe Analytics 对数据隐私删除请求的支持旨在最大限度地减少�
  </tbody> 
 </table>
 
-## 访问请求的日期字段 {#section_6678FB4FF42B481C9B78E64F61782397}
+## 访问请求的日期字段 {#access-requests}
 
 有五个标准变量包含时间戳：
 
