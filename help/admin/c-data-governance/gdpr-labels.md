@@ -3,10 +3,10 @@ description: Adobe Analytics 变量的数据隐私标签示例
 title: Analytics 变量的数据隐私标签
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 196e7672026a284591c0dba2336cb11fc3661c72
+source-git-commit: 3a48eadd47b4d748708abebd2875fdac8979a115
 workflow-type: tm+mt
-source-wordcount: '3672'
-ht-degree: 97%
+source-wordcount: '3685'
+ht-degree: 96%
 
 ---
 
@@ -144,7 +144,9 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 | <ul><li>流量变量 (prop)</li><li>商务变量（非推销 eVar）</li></ul> | 所有标签 | - |
 | 大多数其他变量(*有关例外情况，请参阅下表*) | ACC-ALL、ACC-PERSON | <ul><li>I1/I2、S1/S2</li><li>ID-DEVICE、ID-PERSON</li><li>DEL-DEVICE、DEL-PERSON)</li></ul> |
 
-## 可为其分配/修改除 ACC-ALL/ACC-PERSON 以外的标签的变量 {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+{style=&quot;table-layout:auto&quot;}
+
+## 可以为其分配/修改ACC-ALL/ACC-PERSON以外的标签的变量 {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -213,122 +215,47 @@ Adobe Analytics 对数据隐私删除请求的支持旨在最大限度地减少�
 
 下表描述了如何“删除”各种变量。这不是一个完整的列表。
 
-<table id="table_A329C2E2645F4685BC208826D070A5F6"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 变量 </th> 
-   <th colname="col2" class="entry"> 删除方法 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>* 流量变量 (prop) </p> <p>* 商务变量 (eVar) </p> </td> 
-   <td colname="col2"> <p>现有值将被格式为“Data Privacy-356396D55C4F9C7AB3FBB2F2FA223482”的新值替换，其中“Data Privacy-”前缀后面的 32 位十六进制值是一个加密性强的 128 位伪随机数。因为现有值基本上被随机字符串替换，所以无法从这个新值确定原始值，也无法从原始值导出新值。 </p> <p>对于给定变量，若被替换的相同值存在于作为同一数据隐私请求的一部分而被删除的其他命中项中，则该值的所有实例都将被相同的新值替换。 </p> <p>若某个值的部分实例被删除请求替换，且稍后的请求删除了原始值的其他（新）实例，则新的替换值与原始替换值不同。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>购买 ID </p> </td> 
-   <td colname="col2"> <p>现有值将被格式为“G-7588FCD8642718EC50”的新值替换，其中“G-”前缀后面的 18 位十六进制值是一个加密性强的 128 位伪随机数的前 18 位。适用于删除流量变量和商务变量的所有注释在此处也适用。 </p> <p>购买 ID 是一种交易 ID，其主要目的是为了确保某次购买行为不会被计入两次，例如，当购物者刷新其购买确认页面时。该 ID 本身可能会将该次购买绑定到您用来记录购买事务的数据库中的一行。大多数情况下无需删除该 ID，因此默认不会删除它。在针对您的数据提出数据隐私删除请求之后，若仍然能够将购买行为与用户绑定，则您可能需要删除此字段，以便该访客的 Analytics 数据无法与购买者绑定。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>访客 ID </p> </td> 
-   <td colname="col2"> <p>此值是一个 128 位整数，且被加密性强的 128 位伪随机值替换。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>* MCID </p> <p>* 自定义访客 ID </p> <p>* IP 地址 </p> <p>* IP 地址 2 </p> </td> 
-   <td colname="col2"> <p>清除该值（根据变量的类型，设为空字符串或 0）。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>*ClickMap操作（旧版） </p> <p>*ClickMap上下文（旧版） </p> <p>* 页面 </p> <p>* 页面 URL </p> <p>* 原始登入页面 URL </p> <p>* Referrer </p> <p>* 访问起始页 URL </p> </td> 
-   <td colname="col2"> <p>清除/删除 URL 参数。如果该值看起来不像是 URL，则清除该值（将其设为空字符串）。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>* 纬度 </p> <p>* 经度 </p> </td> 
-   <td colname="col2"> <p>精度降低到不低于 1 公里。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 变量 | 删除方法 |
+| --- | --- |
+| <ul><li>流量变量 (prop)</li><li>商务变量 (eVar)</li></ul> | 现有值将被格式为“Data Privacy-356396D55C4F9C7AB3FBB2F2FA223482”的新值替换，其中“Data Privacy-”前缀后面的 32 位十六进制值是一个加密性强的 128 位伪随机数。<p>因为现有值基本上被随机字符串替换，所以无法从这个新值确定原始值，也无法从原始值导出新值。对于给定变量，若被替换的相同值存在于作为同一数据隐私请求的一部分而被删除的其他命中项中，则该值的所有实例都将被相同的新值替换。<p>若某个值的部分实例被删除请求替换，且稍后的请求删除了原始值的其他（新）实例，则新的替换值与原始替换值不同。 |
+| 购买 ID | 现有值将被格式为“G-7588FCD8642718EC50”的新值替换，其中“G-”前缀后面的 18 位十六进制值是一个加密性强的 128 位伪随机数的前 18 位。适用于删除流量变量和商务变量的所有注释在此处也适用。<p>购买 ID 是一种交易 ID，其主要目的是为了确保某次购买行为不会被计入两次，例如，当购物者刷新其购买确认页面时。该 ID 本身可能会将该次购买绑定到您用来记录购买事务的数据库中的一行。大多数情况下无需删除该 ID，因此默认不会删除它。<p>在针对您的数据提出数据隐私删除请求之后，若仍然能够将购买行为与用户绑定，则您可能需要删除此字段，以便该访客的 Analytics 数据无法与购买者绑定。 |
+| 访客 ID | 此值是一个 128 位整数，且被加密性强的 128 位伪随机值替换。 |
+| <ul><li>MCID</li><li>自定义访客 ID</li><li>IP 地址</li><li>IP 地址 2 | 清除该值（根据变量的类型，设为空字符串或 0）。 |
+| <ul><li>ClickMap操作（旧版）</li><li>ClickMap上下文（旧版）</li><li>页面</li><li>页面 URL</li><li>原始登入页面 URL</li><li>Referrer</li><li>访问起始页 URL</li></ul> | 清除/删除 URL 参数。如果该值看起来不像是 URL，则清除该值（将其设为空字符串）。 |
+| <ul><li>纬度</li><li>经度</li></ul> | 精度降低到不低于 1 公里。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 不支持预期删除标签的变量 {#section_956B766EFFEC427E87E6CFF3A4217E86}
 
 本节旨在阐明有关不支持删除的 Analytics 变量的信息。有时候，这些变量会被非 Analytics 用户（例如法律团队）删除，这些用户不了解变量中包含的数据类型，因此会根据变量的名称做出不正确的假设。以下是其中一些变量的列表，以及它们不需要删除、或者不需要特定的删除标签的原因。
 
-<table id="table_6FECF3D654514862912D371E6BE4143B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 变量 </th> 
-   <th colname="col2" class="entry"> 评论 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>新访客 ID </p> </td> 
-   <td colname="col2"> <p>“新访客 ID”是一个布尔值，如果给定的访客 ID 是我们第一次看到，则该值为 True。一旦访客 ID 匿名化之后，就不需要再删除它。匿名化后，它将与我们第一次看到的此匿名 ID 相对应。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>邮政编码 </p> <p>地理邮政编码 </p> </td> 
-   <td colname="col2"> <p>邮政编码已设置为仅适用于来自美国的命中。对于来自欧盟地区的命中，未设置邮政编码。即使设置了邮政编码，它们也只能提供大致的地理区域，很难用来重新识别数据主体。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>地理纬度 </p> <p>地理经度 </p> </td> 
-   <td colname="col2"> <p>经纬度提供了从 IP 地址派生的一个大概位置。其精度通常与邮政编码相似，位于实际位置的几十公里范围之内。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>用户代理 </p> </td> 
-   <td colname="col2"> <p>用户代理识别所用浏览器的版本。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>用户 ID </p> </td> 
-   <td colname="col2"> <p> 指定包含该数据的 Analytics 报表包（以数字表示）。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>报表包 ID </p> </td> 
-   <td colname="col2"> <p> 指定包含该数据的 Analytics 报表包的名称。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>访客 ID </p> <p>MCID / ECID </p> </td> 
-   <td colname="col2"> <p> 这些 ID 具有 DEL-DEVICE 标签，但不能添加 DEL-PERSON 标签。如果您指定了对每个请求都进行 <a href="/help/admin/c-data-governance/gdpr-id-expansion.md">ID 扩展</a>，则在处理删除请求时，这些 ID 都会被自动删除，即使是使用了 ID-PERSON 的 ID 也是如此。 </p> <p>如果您不使用 ID 扩展，但您希望当 prop 或 eVar 中包含匹配 ID 时，这些 Cookie ID 能够对命中项匿名化，那么即使该 prop 或 eVar 可真正识别个人，您也可以通过为其设置 ID-DEVICE 标签来解决此标签限制（也需要将所有 DEL-PERSON 标签更改为 DEL-DEVICE 标签）。在这种情况下，由于只有访客 ID 或 ECID 的部分实例被匿名化，因此历史报表中的独特访客计数将发生变化。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>AMO ID </p> </td> 
-   <td colname="col2"> <p> Adobe Advertising Cloud ID 是一个解决方案变量，具有不可修改的 DEL-DEVICE 标签。与访客 ID 和 MCID 一样，它由 Cookie 填充。只要删除这些其他 ID，它就会从命中项当中删除。更多详细信息，请参阅这些变量的描述。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 变量 | 评论 |
+| --- | --- |
+| 新访客 ID | “新访客 ID”是一个布尔值，如果给定的访客 ID 是我们第一次看到，则该值为 True。一旦访客 ID 匿名化之后，就不需要再删除它。匿名化后，它将与我们第一次看到的此匿名 ID 相对应。 |
+| 邮政编码<p>地理邮政编码 | 邮政编码已设置为仅适用于来自美国的命中。对于来自欧盟地区的命中，未设置邮政编码。即使设置了邮政编码，它们也只能提供大致的地理区域，很难用来重新识别数据主体。 |
+| 地理纬度<p>地理经度 | 经纬度提供了从 IP 地址派生的一个大概位置。其精度通常与邮政编码相似，位于实际位置的几十公里范围之内。 |
+| 用户代理 | 用户代理识别所用浏览器的版本。 |
+| 用户 ID | 指定包含该数据的 Analytics 报表包（以数字表示）。 |
+| 报表包 ID | 指定包含该数据的 Analytics 报表包的名称。 |
+| 访客 ID<p>MCID / ECID | 这些ID具有DEL-DEVICE标签，但无法添加DEL-PERSON标签。 如果您指定 [!UICONTROL ID扩展] 对于每个请求，这些ID都将在所有删除请求中自动删除，即使是使用ID-PERSON的ID也是如此。<p>如果您不使用 ID 扩展，但您希望当 prop 或 eVar 中包含匹配 ID 时，这些 Cookie ID 能够对命中项匿名化，那么即使该 prop 或 eVar 可真正识别个人，您也可以通过为其设置 ID-DEVICE 标签来解决此标签限制（也需要将所有 DEL-PERSON 标签更改为 DEL-DEVICE 标签）。在这种情况下，由于只有访客 ID 或 ECID 的部分实例被匿名化，因此历史报表中的独特访客计数将发生变化。 |
+| AMO ID | Adobe Advertising Cloud ID是一个解决方案变量，具有不可修改的 [!UICONTROL DEL-DEVICE] 标签。 与访客 ID 和 MCID 一样，它由 Cookie 填充。只要删除这些其他 ID，它就会从命中项当中删除。更多详细信息，请参阅这些变量的描述。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 访问请求的日期字段 {#access-requests}
 
 有五个标准变量包含时间戳：
 
-<table id="table_49A9255366254F799E1682C30CBD98EB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 时间戳 </th> 
-   <th colname="col2" class="entry"> 定义 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>命中时间 UTC </p> </td> 
-   <td colname="col2"> <p>Adobe Analytics 接收到命中项的时间。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>自定义命中时间 UTC </p> </td> 
-   <td colname="col2"> <p>发生命中的时间，某些移动应用程序和其他实施的命中发生时间可能会早于接收时间。例如，当命中发生时但网络连接不可用，应用程序可能会保留该命中项，并在网络连接可用时将其发出。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>日期时间 </p> </td> 
-   <td colname="col2"> <p>与自定义命中时间 UTC 为同一值，但在报表包的时区列显示为 UTC 而不是 GMT。</p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>首次命中时间 GMT </p> </td> 
-   <td colname="col2"> <p>针对此命中的访客 ID 值收到的首次命中的自定义命中时间 UTC 值。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>访问开始时间 UTC </p> </td> 
-   <td colname="col2"> <p>针对此访客 ID 当前访问收到的首次命中的自定义命中时间 UTC 值。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 时间戳 | 定义 |
+| --- | --- |
+| 命中时间 UTC | Adobe Analytics 接收到命中项的时间。 |
+| 自定义命中时间 UTC | 发生命中的时间，某些移动应用程序和其他实施的命中发生时间可能会早于接收时间。例如，当命中发生时但网络连接不可用，应用程序可能会保留该命中项，并在网络连接可用时将其发出。 |
+| 日期时间 | 与自定义命中时间 UTC 为同一值，但在报表包的时区列显示为 UTC 而不是 GMT。 |
+| 首次命中时间 GMT | 针对此命中的访客 ID 值收到的首次命中的自定义命中时间 UTC 值。 |
+| 访问开始时间 UTC | 针对此访客 ID 当前访问收到的首次命中的自定义命中时间 UTC 值。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 用于生成为数据隐私访问请求返回的文件的代码，要求访问请求中至少包含前三个时间戳变量中的一个（具有一个适用于该请求类型的 ACC 标签）。若不包含上述三个中的任意一个，则“自定义命中时间 UTC”将被视为含有 ACC-ALL 标签。
 
