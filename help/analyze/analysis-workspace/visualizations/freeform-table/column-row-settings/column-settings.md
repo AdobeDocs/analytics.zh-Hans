@@ -5,10 +5,10 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: ht
-source-wordcount: '735'
-ht-degree: 100%
+source-git-commit: 289c611419dd131c5ad529b15df3200ab6b14c12
+workflow-type: tm+mt
+source-wordcount: '774'
+ht-degree: 87%
 
 ---
 
@@ -18,11 +18,23 @@ ht-degree: 100%
 
 ## 编辑[!UICONTROL 列设置] {#edit-column-settings}
 
-要访问“[!UICONTROL 列设置]”，请将自由格式表拖到项目中，然后单击列标题中的齿轮图标。
+您可以编辑单个列或同时编辑多个列的列设置。
 
-![](assets/column_settings.png)
+1. 在Analysis Workspace中，将自由格式表拖动到您的项目。
 
-您可以&#x200B;**一次编辑多个列**&#x200B;的设置。只需选择多个列并单击其中任意一列的设置图标。您所做的任何更改将应用于有单元格被选中的所有列。
+1. （视情况而定）要同时编辑多个列，请在按住Shift键的同时选择要编辑的每个列。
+
+1. 将鼠标悬停在要编辑的列上，然后选择齿轮图标。
+
+   如果选择了多列，请单击任意选定列的齿轮图标。 您所做的任何更改都会应用于所有选定的列。
+
+   ![](assets/column_settings.png)
+
+1. 继续 [列设置](#column-settings).
+
+## 列设置
+
+在Analysis Workspace中编辑列时，可以使用以下列设置：
 
 | 元素 | 描述 |
 | --- | --- |
