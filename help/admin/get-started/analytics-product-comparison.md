@@ -4,9 +4,9 @@ title: Analytics 产品比较和要求
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 94%
 
 此页面包含各种 Adobe Analytics 产品的比较：Analysis Workspace、Reports &amp; Analytics、Report Builder、Data Warehouse、Data Workbench、数据馈送和 Analytics API 2.0。
 
-有关使用哪种Adobe Analytics产品的信息，请参阅 [我应该使用哪种Adobe Analytics工具？](/help/admin/get-started/which-analytics-tool.md).
+有关使用哪种 Adobe Analytics 产品的信息，请参阅[我应该使用哪种 Adobe Analytics 工具？](/help/admin/get-started/which-analytics-tool.md)。
 
 | 产品名称和帮助链接 | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=zh-Hans) | [数据馈送](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|---|---|
-| **访问方法** | [浏览器](/help/admin/get-started/sys-reqs.md) | [浏览器](/help/admin/get-started/sys-reqs.md) | [Windows 版 MS Excel](/help/analyze/report-builder/setup/system-requirements.md) | 通过浏览器进行安装。[了解详情](/help/admin/get-started/sys-reqs.md) | [Windows 64 位](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=zh-Hans) | 通过浏览器进行安装。[了解详情](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API 工具。使用Adobe Developer凭据登录。 [了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/) |
+| **访问方法** | [浏览器](/help/admin/get-started/sys-reqs.md) | [浏览器](/help/admin/get-started/sys-reqs.md) | [Windows 版 MS Excel](/help/analyze/report-builder/setup/system-requirements.md) | 通过浏览器进行安装。[了解详情](/help/admin/get-started/sys-reqs.md) | [Windows 64 位](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=zh-Hans) | 通过浏览器进行安装。[了解详情](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API 工具。使用 Adobe Developer 凭据登录。[了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **数据粒度** | 汇总 | 汇总 | 汇总 | 汇总 | 点击 | 点击 | 汇总 |
 | **Experience Cloud ID (ECID) 可用** | 否 | 否 | 否 | 是 | 是 | 是 | 否 |
 | **时间戳可用** | 否 | 否 | 否 | 否 | 是 | 是 | 否 |
