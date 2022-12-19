@@ -4,15 +4,15 @@ description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1459'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # 当前的 Adobe Analytics 发行说明（2022 年 10 月/11 月）
 
-**上次更新**:2022年11月18日
+**上次更新**：2022 年 11 月 18 日
 
 Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
@@ -39,7 +39,7 @@ AN-295574；AN-296354；AN-297143；AN-299501；AN-301755；AN-302054；AN-30230
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| **更新了流量尖峰通知的准则** | 2022 年 11 月 18 日 | 以前的准则完全基于点击量。 的 [新准则](https://experienceleague.adobe.com/docs/analytics/admin/traffic-management/traffic-lead-time.html?lang=en) 基于报表包大小和百分比增加的组合。 |
+| **更新了流量尖峰通知指南** | 2022 年 11 月 18 日 | 以前的指南严格基于点击量。[新指南](https://experienceleague.adobe.com/docs/analytics/admin/traffic-management/traffic-lead-time.html?lang=zh-Hans)基于报告包大小和百分比增长的组合。 |
 | **由于 Google 客户端提示而更新设备查找** | 2022 年 10 月 14 日 | 原计划于 2022 年 10 月 26 日推出在设备查找中使用客户端提示的功能，现已推迟到 **2023 年 1 月**&#x200B;推出。 <p> <p>自 2022 年 10 月起，可以使用 Web SDK 或 AppMeasurement JavaScript 库收集客户端提示。但直到 2023 年 1 月才将客户端提示纳入设备查找。届时，在为来自 Chromium 浏览器（如 Google Chrome 和 Microsoft Edge）的点击获取某些设备信息时，Adobe 除了使用 User-Agent 之外，还将开始使用客户端提示。这是为了响应 Google 的计划，该计划逐步减少从 User-Agent 字符串产生的信息，并用通过客户端提示传递的数据替代。 <p> <p>作为此更改的一部分，Adobe 将使用 Device Atlas 执行所有与 User-Agent 相关的设备查找。[了解详情](/help/technotes/client-hints.md) |
 | **默认登陆页面** | 2022 年 9 月 29 日 | 今年早些时候引入的[新登陆页面](/help/analyze/landing.md)在 **2023 年 1 月**&#x200B;将成为所有用户的默认体验。当前页面将被弃用，每个人都将必须使用新体验。 |
 | **[!UICONTROL 异常检测]自动运行条件** | 2022 年 9 月 29 日 | 现在对时间序列自由格式表的所有列都自动运行[!UICONTROL 异常检测]。为了确保有数据可用于分析并加快项目加载，Adobe 将更改异常检测自动运行的方式。从 **2022 年 10 月 26 日**&#x200B;起，将对表中的第一个指标列自动运行[!UICONTROL 异常检测]。如果需要，可配置列设置以对其他列运行异常检测。 |
