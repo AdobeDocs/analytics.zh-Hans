@@ -4,9 +4,9 @@ title: 我应该使用哪种 Adobe Analytics 工具？
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1164'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 99%
 
 本帮助页面包含每个 Adobe Analytics 工具的推荐使用案例。应该按照工具的列出顺序来考虑使用哪个工具。如果某个工具无法满足需求，请考虑切换到下一个工具。
 
-有关Adobe Analytics产品比较的更多信息，请参阅 [Analytics产品比较](/help/admin/get-started/analytics-product-comparison.md).
+有关 Adobe Analytics 产品比较的更多信息，请参阅[Analytics 产品比较](/help/admin/get-started/analytics-product-comparison.md)。
 
 以下是一段比较各种 Adobe Analytics 工具的视频：
 
