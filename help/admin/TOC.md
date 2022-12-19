@@ -5,9 +5,9 @@ user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等等。
 source-git-commit: 914ebfa7f9cdd55e5d03297c429d652a76430db1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 + [Analytics 管理员指南](home.md)
 + [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
-+ Analytics管理入门 {#admin-overview}
++ Analytics 管理快速入门{#admin-overview}
    + [我应该使用哪种 Adobe Analytics 工具？](get-started/which-analytics-tool.md)
    + [Analytics 产品比较和要求](get-started/analytics-product-comparison.md)
    + [系统要求](get-started/sys-reqs.md)
@@ -30,10 +30,10 @@ ht-degree: 95%
       + [品牌联合](get-started/company/co-branding-admin.md)
       + [隐藏报表包](get-started/company/c-hide-report-suites.md)
       + [安全管理器](get-started/company/security-manager.md)
-+ Adobe管理控制台中的用户权限 {#admin-console}
++ Adobe Admin Console 用户权限{#admin-console}
    + [Adobe Admin Console 中的 Analytics](admin-console/home.md)
-   + [Adobe Analytics第一管理指南](admin-console/first-admin-guide.md)
-   + [Adobe Analytics中的管理员角色](admin-console/admin-roles-in-analytics.md)
+   + [Adobe Analytics 管理入门指南](admin-console/first-admin-guide.md)
+   + [Adobe Analytics 中的管理员角色](admin-console/admin-roles-in-analytics.md)
    + 权限 {#permissions}
       + [Admin Console 中的 Analytics Permissions](admin-console/permissions/summary-tables.md)
       + [Adobe Analytics 的产品配置文件](admin-console/permissions/product-profile.md)
@@ -47,7 +47,7 @@ ht-degree: 95%
          + [迁移 Analytics 用户帐户以使用 Enterprise ID 和 Federated ID](admin-console/user-management2/user-migration/migrate-enterprise.md)
          + [禁用旧版登录](admin-console/user-management2/user-migration/t-disable-legacy-login.md)
          + [受迁移影响的 API](admin-console/user-management2/user-migration/developer.md)
-+ Analytics管理员 {#admin-tools}
++ Analytics 管理员 {#admin-tools}
    + [管理工具](admin/c-admin-tools.md)
    + [计费](admin/billing-admin.md)
    + [代码管理器](admin/code-manager-admin.md)
@@ -61,15 +61,15 @@ ht-degree: 95%
    + [隐私报表](admin/privacy-reporting.md)
    + [报表活动管理器](admin/reporting-activity.md)
    + [已安排的报表队列](admin/scheduled-reports-admin.md)
-   + 报表包管理器 {#manage-report-suites}
-      + [管理报表包](admin/c-manage-report-suites/report-suites-admin.md)
-      + [汇总报表包和全局报表包](admin/c-manage-report-suites/rollup-report-suite.md)
-      + [保存报表包搜索](admin/c-manage-report-suites/t-report-suite-saved-search.md)
+   + 报告包管理器 {#manage-report-suites}
+      + [管理报告包](admin/c-manage-report-suites/report-suites-admin.md)
+      + [汇总报告包和全局报告包](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [保存报告包搜索](admin/c-manage-report-suites/t-report-suite-saved-search.md)
       + [下载报表包设置](admin/c-manage-report-suites/t-download-rs-settings.md)
       + 新的报表包 {#c-new-report-suite}
          + [创建报表包](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-         + [创建汇总报表包](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
-         + [创建报表包群组](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
+         + [创建汇总报告包](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
+         + [创建报告包群组](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
          + [新报表包 — 设置](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
          + [未从源报表包复制的设置](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
       + 报表包模板 {#report-suite-templates}
@@ -82,7 +82,7 @@ ht-degree: 95%
          + [求职门户](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
          + [商机开发](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
          + [支持媒体](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
-      + 编辑报表包的设置 {#edit-report-suite}
+      + 编辑报告包设置 {#edit-report-suite}
          + 常规 {#report-suite-general}
             + [一般帐户设置](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
             + [内部 URL 过滤器](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
@@ -154,7 +154,7 @@ ht-degree: 95%
             + [评估过去的服务器调用并安排流量尖峰](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-spike-estimate-past-server-calls.md)
             + [指定永久性流量增长](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
             + [流量增长必需的前置时间](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md)
-         + [单个报表包设置](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)
+         + [单个报告包设置](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)
          + [应用程序管理](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + 实时报表 {#real-time-reports}
             + [实时报表概述](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
