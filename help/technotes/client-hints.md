@@ -2,10 +2,10 @@
 title: 客户端提示
 description: 了解客户端提示将如何逐渐取代 User-Agent 作为设备信息的来源。
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: f80430a4537b17991a0c2cf104df47a053c3792d
+source-git-commit: 69b37e23636848770693a999318d818d3b7443ee
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 91%
+source-wordcount: '1133'
+ht-degree: 90%
 
 ---
 
@@ -21,7 +21,7 @@ Google 将 User-Agent 客户端提示分为两类：低熵提示和高熵提示�
 
 >[!NOTE]
 >
->从 2023 年 1 月中旬开始，客户提示将纳入 Analytics 设备查找流程。AppMeasurement 和 Web SDK 目前都支持收集提示数据，但直到 1 月中旬才会用于设备查找。这是为了避免在关键的年终期间对报告的潜在干扰。如下所述，操作系统版本将从 10 月开始冻结，但由于逐步推出以及大多数用户代理将冻结到正确的操作系统版本，我们估计这将影响不到 3% 的 Chrome 访问者。
+>从2023年1月25日开始，客户端提示将纳入Analytics设备查找流程中。 AppMeasurement 和 Web SDK 目前都支持收集提示数据，但直到 1 月中旬才会用于设备查找。这是为了避免在关键的年终期间对报告的潜在干扰。如下所述，操作系统版本将从 10 月开始冻结，但由于逐步推出以及大多数用户代理将冻结到正确的操作系统版本，我们估计这将影响不到 3% 的 Chrome 访问者。
 
 >[!NOTE]
 >
@@ -149,6 +149,6 @@ Adobe 计划在 2023 年上半年在通过 Adobe Source Connector 发送的数�
 
 +++**AAM 服务器端转发是否支持客户端提示？**
 
-是的。客户端提示将包含在转发给 AAM 的数据中。请注意，AAM 需要收集高熵提示以保留完整功能。如果您正在使用[服务器端转发到 AAM 功能](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)，则您可能希望启用高熵提示的收集。
+是的。客户端提示将包含在转发给 AAM 的数据中。请注意，AAM 需要收集高熵提示以保留完整功能。如果您正在使用[服务器端转发到 AAM 功能](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hans)，则您可能希望启用高熵提示的收集。
 
 +++

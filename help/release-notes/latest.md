@@ -3,10 +3,10 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: be32a2278ac3686d814b25d8a4a857b9f0ddc771
+source-git-commit: 4ab8df2efb8b3175f93f325e9d88feb9457a566a
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 97%
+source-wordcount: '1461'
+ht-degree: 90%
 
 ---
 
@@ -39,8 +39,8 @@ AN-295574；AN-296354；AN-297143；AN-299501；AN-301755；AN-302054；AN-30230
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| **改进了 IP 到地理位置映射** | 2023 年 1 月 4 日 | 我们的 IP 查找供应商 Digital Element 正在升级到新的改进数据集 (NetAcuity Pulse)，用于 IP 到地理位置映射。Adobe Analytics最初计划于2022年10月在 **2023年1月11日**. 新的数据库将比以前的版本更准确。 当采用新数据库时，一些 IP 到地理位置的映射将发生变化/改进。<p>所有 Adobe Analytics 工具（Analysis Workspace、Reports &amp; Analytics、报告 API、Data Warehouse、LiveStream、数据馈送等） 将自动利用新的改进映射。 数据馈送中的数据格式不会发生变化。 通过 Analytics Source Connector 提供的 CJA 数据也将自动利用新的映射。 |
-| **更新到新的 NetAcuity 网络运营商数据库** | 2023 年 1 月 4 日 | 此更新最初计划于2022年10月5日进行，现在将于 **2023年1月11日**. 存储在 Adobe Analytics Data Warehouse 和 Analytics 数据馈送的 `carrier` 字段中的与运营商相关的信息将发生变化。过去，该列中的数据格式一直是 `<domain>:<ISP>`。Adobe 维护有内部查找表将这些 `<domain>:<ISP>` 值映射到运营商名称中，以便在 Adobe Analytics 报告工具（Analysis Workspace、Reports &amp; Analytics、报告 API、Data Warehouse、LiveStream 等）中进行报告。查找文件 (`carrier.tsv`) 也随数据馈送一起提供，以便您能使用相同的映射。<p>此更新通过使用 NetAcuity 提供的更为准确的运营商数据库来增强运营商映射。 数据馈送中运营商列中的数据格式将继续更改。 与 `<domain>:<ISP>` 不同，它将包含运营商名称。 Adobe 将继续使用查找表，以尽可能保持与过去报告的连续性。 Adobe 应用查找的报告工具（Analysis Workspace、Reports &amp; Analytics、报告 API、Data Warehouse、LiveStream 等） 将受益于更精确的映射。 当 Adobe 采用新的数据库时，一些映射（尤其是国际域名和 ISP 的映射）将发生更大的变化。数据馈送运营商查找文件 (`carrier.tsv`) 将维护旧映射并添加新映射。<p>Analytics Source Connector 当前未映射运营商字段，因此运营商报告当前在 Experience Platform、CJA 等中不可用。因此，使用新的运营商数据库不会影响 Experience Platform 中基于 Analytics Source Connector 提供的数据的任何内容。 |
+| **改进了 IP 到地理位置映射** | 2023 年 1 月 4 日 | 我们的 IP 查找供应商 Digital Element 正在升级到新的改进数据集 (NetAcuity Pulse)，用于 IP 到地理位置映射。Adobe Analytics最初计划于2022年10月在 **2023年1月11日**. 新的数据库将比以前的版本更准确。 当采用新数据库时，一些 IP 到地理位置的映射将发生变化/改进。<p>所有Adobe Analytics工具(Analysis Workspace、Reports &amp; Analytics、报表API、Data warehouse、LiveStream、Analytics数据馈送等)都将自动利用新的改进映射。 数据馈送中的数据格式不会发生变化。 通过Analytics源连接器提供的CJA数据将自动利用新映射。 |
+| **更新到新的 NetAcuity 网络运营商数据库** | 2023 年 1 月 4 日 | 此更新最初计划于2022年10月5日进行，现在将于 **2023年1月11日**. 存储在 Adobe Analytics Data Warehouse 和 Analytics 数据馈送的 `carrier` 字段中的与运营商相关的信息将发生变化。过去，该列中的数据格式一直是 `<domain>:<ISP>`。Adobe维护了一个内部查找表来映射这些 `<domain>:<ISP>` 值转换为运营商名称，以便在Adobe Analytics报表工具(Analysis Workspace、Reports &amp; Analytics、报表API、Data warehouse、LiveStream等)中进行报告。 查找文件 (`carrier.tsv`) 也随数据馈送一起提供，以便您能使用相同的映射。<p>此更新通过使用 NetAcuity 提供的更为准确的运营商数据库来增强运营商映射。 数据馈送中运营商列中的数据格式将继续更改。 与 `<domain>:<ISP>` 不同，它将包含运营商名称。 Adobe 将继续使用查找表，以尽可能保持与过去报告的连续性。 Adobe 应用查找的报告工具（Analysis Workspace、Reports &amp; Analytics、报告 API、Data Warehouse、LiveStream 等） 将受益于更精确的映射。 当 Adobe 采用新的数据库时，一些映射（尤其是国际域名和 ISP 的映射）将发生更大的变化。数据馈送运营商查找文件 (`carrier.tsv`) 将维护旧映射并添加新映射。<p>Analytics源连接器当前未映射运营商字段，因此目前在Experience Platform、CJA等中不提供运营商报表。 因此，使用新的运营商数据库不会影响 Experience Platform 中基于 Analytics Source Connector 提供的数据的任何内容。 |
 | **更新了流量尖峰通知指南** | 2022 年 11 月 18 日 | 以前的指南严格基于点击量。[新指南](https://experienceleague.adobe.com/docs/analytics/admin/traffic-management/traffic-lead-time.html?lang=zh-Hans)基于报告包大小和百分比增长的组合。 |
 | **由于 Google 客户端提示而更新设备查找** | 2022 年 10 月 14 日 | 原计划于 2022 年 10 月 26 日推出在设备查找中使用客户端提示的功能，现已推迟到 **2023 年 1 月**&#x200B;推出。 <p> <p>自 2022 年 10 月起，可以使用 Web SDK 或 AppMeasurement JavaScript 库收集客户端提示。但直到 2023 年 1 月才将客户端提示纳入设备查找。届时，在为来自 Chromium 浏览器（如 Google Chrome 和 Microsoft Edge）的点击获取某些设备信息时，Adobe 除了使用 User-Agent 之外，还将开始使用客户端提示。这是为了响应 Google 的计划，该计划逐步减少从 User-Agent 字符串产生的信息，并用通过客户端提示传递的数据替代。 <p> <p>作为此更改的一部分，Adobe 将使用 Device Atlas 执行所有与 User-Agent 相关的设备查找。[了解详情](/help/technotes/client-hints.md) |
 | **默认登陆页面** | 2022 年 9 月 29 日 | 今年早些时候引入的[新登陆页面](/help/analyze/landing.md)在 **2023 年 1 月**&#x200B;将成为所有用户的默认体验。当前页面将被弃用，每个人都将必须使用新体验。 |
