@@ -3,23 +3,17 @@ description: 了解如何将项目保存到 Workspace 中的文件夹
 keywords: Analysis Workspace
 title: 将项目保存到文件夹
 feature: Workspace Basics
-hide: true
-hidefromtoc: true
-source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
-workflow-type: ht
-source-wordcount: '80'
+exl-id: 9719c4f7-85f1-4f12-9ee4-26565a40f0d7
+source-git-commit: 8e976be3e6b8fa954fc9902651c6e4601b25c727
+workflow-type: tm+mt
+source-wordcount: '70'
 ht-degree: 100%
 
 ---
 
-
 # 将新项目保存到文件夹
 
 要将新项目保存到特定文件夹，请在“保存项目”对话框窗口中选择该文件夹名称。
-
->[!NOTE]
->
->目前此功能处于测试阶段。某些屏幕可能会有所变更。
 
 1. 在 Workspace 中创建一个新项目。
 

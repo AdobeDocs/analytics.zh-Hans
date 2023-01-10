@@ -3,25 +3,19 @@ description: 了解如何在 Workspace 中添加文件夹
 keywords: Analysis Workspace
 title: 在 Workspace 中添加文件夹
 feature: Workspace Basics
-hide: true
-hidefromtoc: true
-source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
-workflow-type: ht
-source-wordcount: '224'
+exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
+source-git-commit: 8e976be3e6b8fa954fc9902651c6e4601b25c727
+workflow-type: tm+mt
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
-
 
 # 将项目添加到文件夹
 
 可在表格视图中或从文件夹内将项目添加到文件夹。
 
->[!NOTE]
->
->目前此功能处于测试阶段。某些屏幕可能会有所变更。
-
-## 从表格视图中
+## 从表格视图中 {#table-view}
 
 从主页上的表格视图中将项目添加到文件夹。
 
@@ -47,7 +41,7 @@ ht-degree: 100%
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
 
-## 从文件夹内
+## 从文件夹内 {#inside-folder}
 
 还可使用省略号链接从文件夹内添加项目。
 

@@ -3,29 +3,25 @@ description: 了解如何从文件夹中删除项目
 keywords: Analysis Workspace
 title: 从文件夹中删除项目
 feature: Workspace Basics
-hide: true
-hidefromtoc: true
-source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
-workflow-type: ht
-source-wordcount: '174'
-ht-degree: 100%
+exl-id: d2e77111-569d-4eec-8e54-863a38b9ac20
+source-git-commit: 29f8e18b5723228340c7e55af5159145d28e7cce
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 89%
 
 ---
 
-
-# 从文件夹中删除项目
+# 从文件夹删除项目
 
 要从文件夹中删除一个项目，可将该项目移至另一位置或删除该项目。
 
 >[!NOTE]
 >
->目前此功能处于测试阶段。某些屏幕可能会有所变更。
-
->[!NOTE]
->
 >当管理员将某个项目移至公司文件夹时，即使原有的共享权限受限，也将与所有人共享该文件夹。当管理员将某个项目移出公司文件夹时，将遵循原有或以前的共享权限。
 
-## 移动项目
+## 移动项目 {#move-project-in-folder}
+
+您可以将项目从一个文件夹移动到您创建的另一个文件夹。
 
 1. 从某个项目的文件夹中，选择该项目名称旁的 **...** 省略号。
 
@@ -43,7 +39,7 @@ ht-degree: 100%
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
 
-## 从项目文件夹中删除项目
+## 从项目文件夹中删除项目 {#delete-project-in-folder}
 
 从文件夹中删除某个项目时，将完全删除该项目。
 
