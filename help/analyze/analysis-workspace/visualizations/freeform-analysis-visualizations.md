@@ -5,10 +5,10 @@ title: 可视化图表概述
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
+source-git-commit: 6d9167b41080fdb45b78148a9887e4eabd875c62
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 100%
+source-wordcount: '1155'
+ht-degree: 91%
 
 ---
 
@@ -29,7 +29,7 @@ Analysis Workspace 中提供了以下可视化图表类型：
 | [项目符号图表](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | 显示您感兴趣的值与其他性能范围（目标）进行比较或衡量的结果。 |
 | [同类群组表](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | *`cohort`* 是指一组在特定期限内共享相同特性的人员。同类群组分析对于保留、流失或延迟分析非常有用。 |
 | [圆环图](/help/analyze/analysis-workspace/visualizations/donut.md) | 此可视化图表与饼图类似，它将数据显示为整体的一部分或区段。 |
-| [流失](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | 流失报表显示访客从何处离开（流失）或继续通过（流过）预定义的页面序列。可以设置为有条件序列或确切序列。 |
+| [流失](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | 流失报告显示访客从何处离开（流失）或继续通过（流过）预定义的页面序列。可以设置为有条件序列或确切序列。 |
 | [流](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | 显示客户在您的网站和应用程序中的确切路径。 |
 | [自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | 自由格式表不仅可以作为数据表，而且还是一个交互式可视化图表。这是在工作区中进行数据分析的基础。 |
 | [直方图](/help/analyze/analysis-workspace/visualizations/histogram.md) | 直方图根据指标数量，将访客数、访问数或点击数划分到存储桶中。 |
@@ -43,9 +43,25 @@ Analysis Workspace 中提供了以下可视化图表类型：
 | [树图](/help/analyze/analysis-workspace/visualizations/treemap.md) | 将分层（树结构）数据显示为一组嵌套的矩形。 |
 | [维恩图](/help/analyze/analysis-workspace/visualizations/venn.md) | 使用圆圈来描述最多 3 个区段之间的指标重叠。 |
 
-## 设置 {#settings}
+## 自定义可视化设置
 
-每个可视化图表都有其自身的设置，您可以管理这些设置。要访问[!UICONTROL 可视化图表设置]，请单击[!UICONTROL 可视化图表设置]齿轮图标。
+您可以自定义单个可视化图表的可视化图表设置，也可以自定义您创建的所有可视化图表的可视化图表设置。
+
+### 自定义单个可视化的可视化设置
+
+访问 [!UICONTROL 可视化设置] 对于单个可视化：
+
+1. 在Analysis Workspace中，将鼠标悬停在要自定义其设置的可视化上。
+
+1. 单击齿轮图标。
+
+   每种类型的可视化图表都有可自定义的唯一设置。 有关可用设置的信息，请参阅 [设置](#settings).
+
+### 自定义您创建的所有可视化的可视化设置
+
+您可以自定义您创建的所有可视化的设置。 有关更多信息，请参阅 [用户首选项](/help/analyze/analysis-workspace/user-preferences.md).
+
+## 设置 {#settings}
 
 ![](assets/settings.png)
 
@@ -86,7 +102,7 @@ Analysis Workspace 中提供了以下可视化图表类型：
 
 | 设置 | 描述 |
 | --- | --- |
-| 插入复制的面板/可视化图表 | 此设置允许您将复制的面板或可视化图表粘贴（“插入”）到项目中的其他位置或完全不同的项目中。 |
+| 插入复制的面板/可视化图表 | 使用此设置，您可以将复制的面板或可视化图表粘贴（“插入”）到项目中的其他位置或完全不同的项目中。 |
 | 复制可视化图表 | 此设置允许您右键单击并复制可视化图表，以便将其插入到项目中的其他位置或完全不同的项目中。 |
 | [以 CSV 格式下载项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hans?#download-items) | 以 CSV 格式下载所选维度，最多下载 50,000 个维度项。 |
 | [将数据下载为 CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hans?#download-data) | 以 CSV 格式下载可视化图表数据源。 |

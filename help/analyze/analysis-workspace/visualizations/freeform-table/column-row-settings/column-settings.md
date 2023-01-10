@@ -5,10 +5,10 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 289c611419dd131c5ad529b15df3200ab6b14c12
+source-git-commit: 1ce29a131302e32a6bafd8cfdb21abb65619b359
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 87%
+source-wordcount: '805'
+ht-degree: 84%
 
 ---
 
@@ -34,7 +34,9 @@ ht-degree: 87%
 
 ## 列设置
 
-在Analysis Workspace中编辑列时，可以使用以下列设置：
+您可以更新Analysis Workspace中各个表的以下列设置，如 [编辑列设置](#edit-uicontrol-column-settings).
+
+您还可以为在Analysis Workspace中创建的所有新项目管理其中某些相同设置，如 [用户首选项](/help/analyze/analysis-workspace/user-preferences.md)
 
 | 元素 | 描述 |
 | --- | --- |
