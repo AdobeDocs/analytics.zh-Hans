@@ -4,10 +4,10 @@ title: 在 Analysis Workspace 中查看异常
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: 8be2b622250b1da3ec765592253df2607de67a96
+source-git-commit: 3dcdafa04b2a636ae147b9726aff6a770a4f1a6a
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,9 +21,11 @@ ht-degree: 16%
 
 1. 选择列标题中的列设置图标，然后确保 [!UICONTROL **异常**] 选项。 有关更多信息，请参阅 [列设置](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
 
-1. 表中显示了异常情况，如下所示：
+1. 单击“设置”菜单以查看更新的表。
 
    ![](assets/anomaly_detected.png)
+
+1. 表中显示了异常情况，如下所示：
 
    A **深灰色三角形** 显示在检测到数据异常的每行的右上角。
 
