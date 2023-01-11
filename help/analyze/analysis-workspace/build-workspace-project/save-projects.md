@@ -4,7 +4,7 @@ title: 保存项目
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 598271d12257df2f78128e44ea04f04db8fde811
+source-git-commit: 5c37c7173550a080ec64a958344f949cd217b72c
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 39%
@@ -31,8 +31,6 @@ Analysis Workspace中的项目每2分钟自动保存一次。
    | **[!UICONTROL 保存并添加注释]** | 在保存项目之前，添加有关项目中进行了哪些更改的注释。注释与项目版本一起存储，并且在[!UICONTROL 项目] > [!UICONTROL 打开以前的版本]下面可供所有编辑者使用。 |
    | **[!UICONTROL 另存为]** | 创建项目副本。原始项目不受影响。 |
    | **[!UICONTROL 另存为模板]** | 将您的项目另存为[自定义模板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hans)，贵组织可在&#x200B;**[!UICONTROL 项目 > 新建]**&#x200B;下使用该模板 |
-
-   ![](assets/save-project.png)
 
 ## 自动保存 {#Autosave}
 
