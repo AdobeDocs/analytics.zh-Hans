@@ -4,10 +4,10 @@ title: 在 Analysis Workspace 中查看异常
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: 3dcdafa04b2a636ae147b9726aff6a770a4f1a6a
+source-git-commit: bc56f3567d2285d063ef35f316e22699bdcf151d
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 15%
+source-wordcount: '467'
+ht-degree: 16%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 15%
 
    的 **虚线** 是确切的预期值。
 
-1. 单击一个白点可查看有关异常的以下信息：
+1. 单击异常（白色圆点）可查看以下信息：
 
    * 异常发生的日期
 
