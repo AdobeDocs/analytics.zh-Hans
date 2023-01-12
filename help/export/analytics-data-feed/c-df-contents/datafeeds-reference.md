@@ -5,9 +5,9 @@ subtopic: data feeds
 title: 数据列引用
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: d65eb9ce1904e66bfb5fdaa801696ba050f99ae7
+source-git-commit: 49291658626ac3dc79c16c6f1d7137f0feaa0a95
 workflow-type: tm+mt
-source-wordcount: '3641'
+source-wordcount: '3644'
 ht-degree: 98%
 
 ---
@@ -234,7 +234,7 @@ ht-degree: 98%
 | **`video`** | 视频内容 | varchar(255) |
 | **`videoad`** | 视频广告名称 | varchar(255) |
 | **`videoadinpod`** | 面板位置中的视频广告 | varchar(255) |
-| **`videoadlength`** | 视频广告时长 | varchar(255) |
+| **`videoadlength`** | 视频广告时长 | 整数 |
 | **`videoadload`** | 视频广告加载 | varchar(255) |
 | **`videoadname`** | 视频广告名称 | varchar(255) |
 | **`videoadplayername`** | 视频广告播放器名称 | varchar(255) |
@@ -254,12 +254,13 @@ ht-degree: 98%
 | **`videoepisode`** | 视频剧集 | varchar(255) |
 | **`videofeedtype`** | 视频馈送类型 | varchar(255) |
 | **`videogenre`** | 视频流派 | 文本 |
-| **`videolength`** | 视频长度 | varchar(255) |
+| **`videolength`** | 视频长度 | 整数 |
 | **`videomvpd`** | 视频 MVPD | varchar(255) |
 | **`videoname`** | 视频名称 | varchar(255) |
 | **`videonetwork`** | 视频网络 | varchar(255) |
 | **`videopath`** | 视频路径 | varchar(100) |
 | **`videoplayername`** | 视频播放器名称 | varchar(255) |
+| **`videotime`** | 视频时间 | 整数 |
 | **`videoqoebitrateaverageevar`** | 视频品质：平均比特率 | varchar(255) |
 | **`videoqoebitratechangecountevar`** | 视频品质：比特率变化计数 | varchar(255) |
 | **`videoqoebuffercountevar`** | 视频品质：缓冲计数 | varchar(255) |
