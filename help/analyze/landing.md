@@ -4,10 +4,10 @@ title: Adobe Analytics 登陆页面
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: f13e282c83b76c28cd75dfd4964fa1a51cc60229
+source-git-commit: 3be2db90220c7e54abf96e47a9ac8658bbd066cc
 workflow-type: tm+mt
-source-wordcount: '3582'
-ht-degree: 82%
+source-wordcount: '3727'
+ht-degree: 79%
 
 ---
 
@@ -82,6 +82,18 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 | 自定义表格图标 | 选择要在表中查看的列。 要在项目列表中添加或删除列，请单击列图标(![全部登陆](/help/analyze/assets/select-column.png) )，然后选择或取消选择列标题。 |
 | 节目：文件夹和项目或所有项目 | 更改表格中的视图设置，以根据您的文件夹组织显示文件夹和项目 **或** 以无组织的列表显示所有项目。 |
 | &lt;（“返回”按钮） | 可返回到工作区项目或报表中最近的登陆页面配置。 您离开登陆页面时拥有的页面配置将在您返回时持续保留。 |
+
+### 弃用“项目管理器”页面 {#deprecate-pm-page}
+
+在新登陆页面的发布中，我们弃用了项目管理器，如组件管理器下所列。 新登录页面可处理旧项目管理器页面等的所有功能。
+
+“项目管理器”页面的一个常见用例是查看您的所有项目。 要使用过滤器边栏查看新登陆页面上的所有项目，请选择 **其他过滤器** 然后选择 **显示全部**.
+
+![其他过滤器](assets/other-filters.png)
+
+如果您处于“文件夹和项目”视图中，将弹出一个模式窗口，询问您是否要切换到“所有项目”视图，这样可以更轻松地在可能组织的任何文件夹之外查看所有项目。   选择 **切换到“所有项目”视图** 以便更好地查看您有权访问的所有项目。
+
+![切换到所有项目](assets/switch-all-projects-view.png)
 
 ## 在[!UICONTROL 报告]选项卡中导航 {#navigate-reports}
 
