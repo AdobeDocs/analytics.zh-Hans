@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等等。
-source-git-commit: 4ed166bb05d8dfb32706008ad23c13f61908d1e9
+source-git-commit: f84ba51558dbbe59af496f83d37ed5f2789baf1d
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 99%
+source-wordcount: '683'
+ht-degree: 98%
 
 ---
 
@@ -47,8 +47,8 @@ ht-degree: 99%
          + [迁移 Analytics 用户帐户以使用 Enterprise ID 和 Federated ID](admin-console/user-management2/user-migration/migrate-enterprise.md)
          + [禁用旧版登录](admin-console/user-management2/user-migration/t-disable-legacy-login.md)
          + [受迁移影响的 API](admin-console/user-management2/user-migration/developer.md)
-+ Analytics 管理员 {#admin-tools}
-   + [管理工具](admin/c-admin-tools.md)
++ Analytics管理工具 {#admin-tools}
+   + [管理工具概述](admin/c-admin-tools.md)
    + [计费](admin/billing-admin.md)
    + [代码管理器](admin/code-manager-admin.md)
    + [货币代码](admin/currency.md)
