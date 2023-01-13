@@ -3,16 +3,16 @@ description: Adobe Analytics 变量的数据隐私标签示例
 title: Analytics 变量的数据隐私标签
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 3a48eadd47b4d748708abebd2875fdac8979a115
-workflow-type: ht
+source-git-commit: 4f7282f22cba344a86efca992ea273af0707cdcf
+workflow-type: tm+mt
 source-wordcount: '3685'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Analytics 变量的数据隐私标签
 
-## 为什么要为数据加标签？ {#why-label}
+## 为何要为您的数据设置标签？ {#why-label}
 
 Adobe 有许多客户的法律团队仔细研究过数据隐私法律（GDPR、CCPA 等等）。这些团队对于如何处理数据以符合数据隐私法律可能已得出自己的结论。各公司之间做出的法律解释可能有所差异，客户所需的数据处理设置也可能不尽相同。由于客户对数据隐私数据处理存在不同的偏好并且具有不同的数据集，Adobe 允许 Adobe 客户以数据控制者的身份，为其独特数据自定义所需的隐私服务数据处理设置。这允许每个独特客户采用对其品牌和独特数据集最为合理的方式处理数据隐私请求。
 
@@ -22,13 +22,13 @@ Adobe Analytics 根据数据的敏感性和合同限制提供了数据标签设�
 
 Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据和数据管理的标签。
 
-## DULE 标签 {#dule-labels}
+## DULE标签 {#dule-labels}
 
 >[!NOTE]
 >
 >数据使用标签和执行 (DULE) 框架旨在提供一个跨所有解决方案/服务/平台的统一方式，以便在整个 Adobe Experience Cloud 中捕获、传输和使用有关数据的元数据。元数据可帮助数据控制者指明哪些数据是个人信息，哪些数据是敏感数据，以及哪些合同限制与数据相关。在这个初始版本中，Analytics 只支持与数据隐私相关的 DULE 标签。随着 Adobe 的其他产品开始实施对 DULE 标签的支持，未来版本将会引入更多的敏感数据标签以及合同标签，这有助于确保产品之间共享的数据只在法律允许的范围内使用。
 
-## 身份数据标签 (DULE) {#identity-data-labels}
+## 身份数据标签(DULE) {#identity-data-labels}
 
 身份数据“I”标签用于对可识别或联系特定人员的数据进行分类。
 
@@ -39,7 +39,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 
 {style=&quot;table-layout:auto&quot;}
 
-## 敏感数据标签 (DULE) {#sensitive-data-labels}
+## 敏感数据标签(DULE) {#sensitive-data-labels}
 
 敏感数据“S”标签用于对诸如地理数据之类的敏感数据进行分类。未来，会引入其他敏感数据标签，用于识别其他类型的敏感信息。
 
@@ -50,7 +50,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 
 {style=&quot;table-layout:auto&quot;}
 
-## 数据治理标签（数据隐私） {#data-governance-labels}
+## 数据管理标签（数据隐私） {#data-governance-labels}
 
 通过数据治理标签，用户可将反映与隐私相关的考虑因素和合同条件的数据分类，以符合法规和公司政策。
 
@@ -89,11 +89,11 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 
 {style=&quot;table-layout:auto&quot;}
 
-## 在为变量设置 ID-DEVICE 或 ID-PERSON 标签时提供命名空间 {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
+## 在将变量标记为ID-DEVICE或ID-PERSON时，提供命名空间 {#provide-namespace}
 
 在为变量设置 ID-DEVICE 或 ID-PERSON 标签时，系统会提示您提供一个命名空间。您可以使用先前已定义的命名空间或者定义一个新的命名空间。
 
-### 使用以前定义的命名空间
+### 使用之前定义的命名空间
 
 如果以前为登录公司的任何报表包中的其他变量分配了 ID 标签，则可选择这些现有的命名空间之一。如果此变量包含的 ID 类型与之前已使用此命名空间设置标签的其他变量包含的 ID 类型相同，并且您希望在提交请求时搜索所有这些变量，则应重复使用该命名空间。
 
@@ -102,7 +102,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 
 ![](assets/namespace.png)
 
-### 定义新的命名空间
+### 定义新命名空间
 
 您也可以定义一个新的命名空间。我们建议将命名空间字符串限制为字母数字字符，以及下划线、短划线和空格。这些字符串将全部转换为小写字母。
 
@@ -146,7 +146,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 
 {style=&quot;table-layout:auto&quot;}
 
-## 可为其分配/修改除 ACC-ALL/ACC-PERSON 以外的标签的变量 {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+## 可为其分配/修改除 ACC-ALL/ACC-PERSON 以外的标签的变量 {#variables}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -209,7 +209,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
  </tbody> 
 </table>
 
-## 删除处理 {#section_F3DEE591671A4B16A8E043F91C137ECB}
+## 删除处理 {#deletion}
 
 Adobe Analytics 对数据隐私删除请求的支持旨在最大限度地减少对报表的影响。在大多数情况下，报表中显示的指标不应发生变化。在执行数据隐私删除之前运行的历史报表将与执行删除之后运行的同一报表相匹配。这是通过将已删除的数据与数据主体完全解除关联、同时又保留不可识别的数据来完成的，以便使报告的值保持一致。
 
@@ -226,7 +226,7 @@ Adobe Analytics 对数据隐私删除请求的支持旨在最大限度地减少�
 
 {style=&quot;table-layout:auto&quot;}
 
-## 不支持预期删除标签的变量 {#section_956B766EFFEC427E87E6CFF3A4217E86}
+## 不支持预期删除标签的变量 {#no-delete-support}
 
 本节旨在阐明有关不支持删除的 Analytics 变量的信息。有时候，这些变量会被非 Analytics 用户（例如法律团队）删除，这些用户不了解变量中包含的数据类型，因此会根据变量的名称做出不正确的假设。以下是其中一些变量的列表，以及它们不需要删除、或者不需要特定的删除标签的原因。
 
