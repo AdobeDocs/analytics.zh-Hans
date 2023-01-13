@@ -3,16 +3,16 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: e4468aa0a34654395fe78e70092df77d8f7011f6
+source-git-commit: b6c22fdeab68c55f145ed72002532ed87c06a258
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 60%
+source-wordcount: '1473'
+ht-degree: 59%
 
 ---
 
 # 最新Adobe Analytics发行说明
 
-**上次更新**:2023年1月6日
+**上次更新**:2023年1月12日
 
 Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
@@ -22,6 +22,7 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 | ----------- | ---------- | ------- | ---- |
 | **Workspace 中的文件夹** | 文件夹可帮助您组织和分类项目，以便更好地检索和访问。 此外，共享 **[!UICONTROL 公司]** 利用文件夹，管理员可以轻松创建内容并与所有工作区用户共享。 [了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html) | 不适用 | 2023 年 1 月 11 日 |
 | **默认登陆页面** | 的 [新登陆页面](/help/analyze/landing.md) 2022年早些时候引入的体验，将成为 **2023年1月11日**. 旧版登陆页面将被弃用，每个人都需要使用新体验。 | 不适用 | 2023 年 1 月 11 日 |
+| **已弃用项目管理器页面** | 随着新登陆页面的发布，我们弃用了 **[!UICONTROL 项目经理]** 列于 **[!UICONTROL Adobe Analytics]** > **[!UICONTROL 组件]**. 新登录页面具有旧项目管理器页面的所有功能等。 了解详情 | 不适用 | 2023 年 1 月 11 日 |
 | **自动保存新项目** | Analysis Workspace现在可自动保存新创建的项目。 如果您出于任何原因，在手动保存之前意外失去了对新创建项目的访问权限，则现在可以使用项目的恢复版本。 以前，只有在最初手动保存项目后，才会自动保存项目。 [了解详情](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md) | 不适用 | 2023 年 1 月 11 日 |
 | **增强的用户首选项** | 您现在可以在用户级别配置其他首选项(在 [!UICONTROL 组件] > [!UICONTROL 首选项])。 设置用户首选项时，您的选择会跨项目、表和可视化图表进行。 “首选项”页面现在包含以下新选项卡，每个选项卡都包含许多新配置选项：<ul><li>自由格式表</li><li>可视化图表</li></ul>此外，现在还提供了 **[!UICONTROL 常规]** 和 **[!UICONTROL 项目]** 选项卡。<p>以前，其中许多首选项只能针对单个项目、表和可视化图表进行配置。 [了解详情](/help/analyze/analysis-workspace/user-preferences.md) | 不适用 | 2023 年 1 月 11 日 |
 
