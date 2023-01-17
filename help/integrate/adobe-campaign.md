@@ -5,8 +5,8 @@ feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 source-git-commit: 0a039668af52a0e5433f9b0c4e643db566b95702
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 68%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
