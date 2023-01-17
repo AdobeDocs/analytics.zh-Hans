@@ -1,20 +1,23 @@
 ---
-description: 了解如何在 Adobe Analytics 中启用 Adobe Campaign 报告功能
-title: 如何将 Adobe Campaign 报告功能集成到 Adobe Analytics？
+description: 了解如何在Adobe Analytics中启用Adobe Campaign Standard报告
+title: 如何将Adobe Campaign Standard Reporting集成到Adobe Analytics?
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
-source-git-commit: a7537a80719ff149b4d60da500c93d3e451499c9
+source-git-commit: 0a039668af52a0e5433f9b0c4e643db566b95702
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 100%
+source-wordcount: '518'
+ht-degree: 68%
 
 ---
 
-# Adobe Campaign 报告
+# Adobe Campaign Standard报告
 
 有关如何配置此集成的更多信息，请参阅 [Adobe Campaign 文档](https://helpx.adobe.com/cn/campaign/standard/integrating/using/about-campaign-analytics-integration.html)。
 
-Adobe Analytics 与 Adobe Campaign 之间的此集成
+>[!IMPORTANT]
+>本文适用于Adobe Campaign **标准** 仅报告。 请参阅 [此处](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=en) 添加Adobe Campaign **Classic** 报表。
+
+Adobe Analytics与Adobe Campaign Standard之间的此集成：
 
 * 允许您将 KPI（关键绩效指标）数据从 Adobe Campaign Standard 共享到 Adobe Analytics。
 * 通过 Adobe Analytics 参数丰富了跟踪公式。
@@ -22,11 +25,11 @@ Adobe Analytics 与 Adobe Campaign 之间的此集成
 * 添加了 5 个新的 Adobe Campaign 分类。
 * 添加了 9 个新的 Adobe Campaign 指标。
 * 添加了 6 个新的 Adobe Campaign 维度。
-* 每隔 15 分钟将数据同步到 Analytics。
+* 通过自动配置的数据源，每15分钟将数据同步一次到Analytics。
 
-## 步骤 1. 启用 Adobe Campaign 报告 {#section_C685EF10505045708A6536BB13F6CD58}
+## 步骤 1. 启用Adobe Campaign Standard报表 {#section_C685EF10505045708A6536BB13F6CD58}
 
-要在 Analytics 中查看 Campaign 数据，您首先需要启用 Campaign 报表功能。
+要在Analytics中查看Campaign Standard数据，您首先必须在报表包管理器中启用促销活动报表。
 
 1. 导航至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **`<select report suite>`** > **[!UICONTROL 编辑设置]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign 报告]**。
 1. 单击&#x200B;**[!UICONTROL 启用 Campaign 报表]**。
@@ -37,9 +40,7 @@ Adobe Analytics 与 Adobe Campaign 之间的此集成
 
 Adobe Campaign Standard 与 Adobe Analytics 之间的集成在 **[!UICONTROL Analytics]** > **[!UICONTROL 报表]**&#x200B;下添加了以下报表
 
-| 报表 | 定义 |
-|--- |--- |
-| Adobe Campaign 执行的提交 ID | 显示从 Adobe Campaign 导入的有关发送自 Adobe Campaign 的电子邮件的数据。 |
+* **[!UICONTROL Adobe Campaign执行的提交ID]**:显示从Adobe Campaign导入的有关从Adobe Campaign发送的电子邮件的数据。 |
 
 ## 步骤 3. 使用 Adobe Campaign 分类 {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
@@ -47,13 +48,15 @@ Adobe Campaign Standard 与 Adobe Analytics 之间的集成在 **[!UICONTROL Ana
 
 在为您的报表包启用了 Adobe Campaign 后，可以使用以下分类：
 
-* 提交 ID（您在 Campaign 中看到的内部提交名称）
-* 提交标签（Campaign 中的提交 — 单个提交/循环提交/交易提交）
-* 促销活动 ID（您在 Campaign 中看到的促销活动名称）
-* 促销活动标签（Adobe Campaign 中的促销活动）
-* 执行的提交标签（执行的各个提交的列表）
+| 分类 | 描述 |
+| --- | --- |
+| [!UICONTROL 提交 ID] | 您在Campaign中看到的内部投放名称 |
+| [!UICONTROL 提交标签] | 营销活动中的投放 — 单个投放/循环投放/交易投放 |
+| [!UICONTROL 营销活动 ID] | 您在Campaign中看到的内部促销活动名称 |
+| [!UICONTROL 促销活动标签] | Adobe Campaign中的Campaign |
+| [!UICONTROL 执行的提交标签] | 已执行的各个投放的列表 |
 
-## Adobe Analytics 中可用的 Adobe Campaign 维度和指标 {#section_F33385C9660644AF84172EC39601469B}
+## Adobe Campaign Standard维度和量度在Adobe Analytics中可用 {#section_F33385C9660644AF84172EC39601469B}
 
 在 Adobe Analytics 报表包的 Campaign 中可以使用以下&#x200B;**指标**：
 
@@ -70,7 +73,7 @@ Adobe Campaign Standard 与 Adobe Analytics 之间的集成在 **[!UICONTROL Ana
 在 Adobe Analytics 报表包的 Campaign 中可以使用以下&#x200B;**维度**：
 
 | 维度名称 | 定义 |
-|--- |--- |
+| --- | --- |
 | 促销活动 ID | 在活动持续期间为其发送了 KPI 的所有促销活动的 ID |
 | 促销活动标签 | 促销活动 ID 的标签 |
 | 提交 ID | 在活动持续期间为其发送了 KPI 的所有提交的 ID。还包含循环提交和交易提交的主提交的 ID。示例：循环提交 DM1 是计划的提交，DM2、DM3、DM4 和 DM5 是该循环提交的子提交。提交 ID 将显示从 DM1 到 DM5 的所有提交的结果。 |
