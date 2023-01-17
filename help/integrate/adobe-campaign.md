@@ -3,9 +3,9 @@ description: 了解如何在 Adobe Analytics 中启用 Adobe Campaign 报告功�
 title: 如何将 Adobe Campaign 报告功能集成到 Adobe Analytics？
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
-source-wordcount: '478'
+source-git-commit: a7537a80719ff149b4d60da500c93d3e451499c9
+workflow-type: tm+mt
+source-wordcount: '475'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Adobe Analytics 与 Adobe Campaign 之间的此集成
 * 通过 Adobe Analytics 参数丰富了跟踪公式。
 * 在 **[!UICONTROL Analytics]** > **[!UICONTROL 报表]** > **[!UICONTROL Adobe Campaign]** 下添加了新报表。
 * 添加了 5 个新的 Adobe Campaign 分类。
-* 添加了 10 个新的 Adobe Campaign 指标。
+* 添加了 9 个新的 Adobe Campaign 指标。
 * 添加了 6 个新的 Adobe Campaign 维度。
 * 每隔 15 分钟将数据同步到 Analytics。
 
@@ -60,7 +60,6 @@ Adobe Campaign Standard 与 Adobe Analytics 之间的集成在 **[!UICONTROL Ana
 * Adobe Campaign 已发送
 * Adobe Campaign 已打开
 * Adobe Campaign 已点击
-* Adobe Campaign 已处理
 * Adobe Campaign 已提交
 * Adobe Campaign 唯一打开
 * Adobe Campaign 唯一点击
