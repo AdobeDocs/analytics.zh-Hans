@@ -3,8 +3,8 @@ title: AppMeasurement for JavaScript 发行说明
 description: AppMeasurement for JavaScript 的发行说明汇总。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
+source-git-commit: d2c291f7db465034ffadc4a2c1caf9639caf2a1d
+workflow-type: tm+mt
 source-wordcount: '2319'
 ht-degree: 100%
 
@@ -23,7 +23,6 @@ ht-degree: 100%
 发布日期：**2022 年 9 月 23 日**
 
 * AppMeasurement 现在支持收集 Chromium 浏览器（Google Chrome 和 Microsoft Edge）用来提供设备信息的高熵用户代理客户端提示。您可以通过 Tags 配置客户端提示或使用“collectHighEntropyUserAgentHints”标志。默认情况下，高熵提示的收集是关闭的。详细了解 User-Agent [客户端提示](/help/technotes/client-hints.md)。
-
 
 ## 版本 2.22.4
 
