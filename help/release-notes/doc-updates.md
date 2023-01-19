@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+source-git-commit: ae44be2166334f2a2f785f877f6919cf295dc663
 workflow-type: tm+mt
-source-wordcount: '3517'
-ht-degree: 100%
+source-wordcount: '3527'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,13 @@ ht-degree: 100%
 * 有关 Adobe Media Analytics 的信息，请参阅[在 Analytics 中测量音频和视频](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans)。
 
 ## 有关主要文档更新的详细信息
+
+### 2023 {#23}
+
+| 功能 | 描述 |
+| --- | --- |
+| **2023 年 1 月** |  |
+| 文件夹 | 专用页面 [文件夹管理](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md) |
 
 ### 2022 {#22}
 
