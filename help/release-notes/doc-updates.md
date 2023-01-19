@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 5e6341663eecaa7ebc99155a9eec085a8b7acf1c
+source-git-commit: 0b693521e2daf4909859b37436751bcdc191b097
 workflow-type: tm+mt
-source-wordcount: '3550'
+source-wordcount: '3556'
 ht-degree: 99%
 
 ---
@@ -29,6 +29,7 @@ ht-degree: 99%
 | 文件夹 | 专用页面 [文件夹管理](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | 用户首选项 | 许多其他用户首选项现在在 [首选项](/help/analyze/analysis-workspace/user-preferences.md). |
 | 自动保存项目 | 更新了内容，以在 [保存项目](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). |
+| 登陆页面 | 新建 [登陆页面更新](/help/analyze/landing.md) |
 
 ### 2022 {#22}
 
