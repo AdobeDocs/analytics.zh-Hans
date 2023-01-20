@@ -4,10 +4,10 @@ title: Adobe Analytics 登陆页面
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 3be2db90220c7e54abf96e47a9ac8658bbd066cc
+source-git-commit: 4d49e0c3d622ffdd34b26a82282b3a03fd8e53d0
 workflow-type: tm+mt
-source-wordcount: '3727'
-ht-degree: 79%
+source-wordcount: '3947'
+ht-degree: 74%
 
 ---
 
@@ -87,13 +87,17 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 
 在新登陆页面的发布中，我们弃用了项目管理器，如组件管理器下所列。 新登录页面可处理旧项目管理器页面等的所有功能。
 
-“项目管理器”页面的一个常见用例是查看您的所有项目。 要使用过滤器边栏查看新登陆页面上的所有项目，请选择 **其他过滤器** 然后选择 **显示全部**.
+“项目管理器”页面的一个常见用例是查看您的所有项目。
 
-![其他过滤器](assets/other-filters.png)
+要使用过滤器边栏查看新登陆页面上的所有项目，请选择 **其他过滤器** 然后选择 **显示全部**.
+
+![显示所有项目](assets/show-all-fIlter.png)
 
 如果您处于“文件夹和项目”视图中，将弹出一个模式窗口，询问您是否要切换到“所有项目”视图，这样可以更轻松地在可能组织的任何文件夹之外查看所有项目。   选择 **切换到“所有项目”视图** 以便更好地查看您有权访问的所有项目。
 
 ![切换到所有项目](assets/switch-all-projects-view.png)
+
+管理员的另一个用例是管理公司报表，以删除、重命名、标记或批准报表。 有关管理报表的信息，请参阅 [管理公司报表](#manage-company-reports).
 
 ## 在[!UICONTROL 报告]选项卡中导航 {#navigate-reports}
 
@@ -188,6 +192,36 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 * 如果您是新用户，我们建议观看[培训教程](https://www.youtube.com/watch?v=lCH1Kl1q9Wk)视频，以便您可以在指导下构建新项目。
 * 这是指向[完整 Analysis Workspace 文档](/help/analyze/analysis-workspace/home.md)的链接。
 * 这是 [Analysis Workspace 的完整 YouTube 播放列表](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)。
+
+### 管理公司报表 {#manage-company-reports}
+
+管理员可以过滤项目列表以显示和管理公司报表。 已固定项目仍保留已固定项目，其后跟由 ![报表图标](assets/report-icon.png) 报表图标。 在此视图中，您可以删除、重命名、标记或批准一个或多个报表。
+
+显示和管理公司报表
+
+1. 在过滤器边栏中，选择 **其他过滤器** 然后选择 **公司报表**.
+此时会显示公司报表的列表。 所有常规项目（除非已固定）都不会显示。
+
+   ![显示公司报表过滤器](assets/company-reports-filter.png)
+
+   显示公司报表后，管理员可以删除、重命名、添加标记或批准报表。
+
+1. 在报表列表中，选择一个报表或选择多个报表。
+
+1. 单击 **...** 报表旁边的“筛选”图标，以查看可用选项（“删除”、“重命名”、“标记”和“批准”）。
+
+   ![公司报表操作](assets/company-reports-actions.png)
+
+1. 选择一个选项（“删除”、“重命名”、“标记”和“批准”）。
+
+1. 要在完成后返回到常规视图，请在过滤器边栏中，再次取消选中公司报表选项。
+
+### 删除公司报表
+
+管理员可以使用公司报表列表选项（如上所述）删除报表，或从创建项目模式中删除报表。
+
+![其他过滤器](assets/delete-fr-create-project-modal.png)
+
 
 ## 在“学习”选项卡中导航 {#navigate-learning}
 
