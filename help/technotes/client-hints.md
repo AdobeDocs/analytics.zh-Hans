@@ -2,7 +2,7 @@
 title: 客户端提示
 description: 了解客户端提示将如何逐渐取代 User-Agent 作为设备信息的来源。
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: cb15ba22fc9817583c6ded8fe12af5a115c1ea43
+source-git-commit: 0364b52a2abc05b57184871616b702507d17205d
 workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 77%
@@ -21,7 +21,7 @@ Google 将 User-Agent 客户端提示分为两类：低熵提示和高熵提示�
 
 >[!NOTE]
 >
->从2023年2月15日开始，客户端提示将纳入Analytics设备查找流程中。 AppMeasurement和Web SDK当前都支持提示数据的收集，但直到2月中旬才会在设备查找中使用。 如下所述，操作系统版本从10月开始冻结，但是由于逐步推出以及许多用户代理已经提供冻结的操作系统版本所致(请参阅更多 [此处](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hans))，我们估计这将影响&lt;3%的Chrome访客。
+>从2023年2月15日开始，客户端提示将纳入Analytics设备查找流程中。 AppMeasurement和Web SDK当前均支持收集提示数据，但直到2月中旬才会在设备查找中使用该数据。 如下所述，操作系统版本从10月开始冻结，但是由于逐步推出以及许多用户代理已经提供冻结的操作系统版本所致(请参阅更多 [此处](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hans))，我们估计这将影响&lt;3%的Chrome访客。
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Google 将 User-Agent 客户端提示分为两类：低熵提示和高熵提示�
 
 +++**如何启用客户端提示的收集？**
 
-浏览器会自动提供低熵提示，这些提示经摄取后用于获取设备和浏览器信息。较新版本的 Web SDK（从 2.12.0 开始）和 AppMeasurement（从 2.23.0 开始）可以配置为通过各自的标记扩展或直接通过配置选项收集高熵提示。请参阅关于 [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints?lang=zh-Hans) 和 [AppMeaurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=zh-Hans) 的说明。
+浏览器会自动提供低熵提示，这些提示经摄取后用于获取设备和浏览器信息。较新版本的 Web SDK（从 2.12.0 开始）和 AppMeasurement（从 2.23.0 开始）可以配置为通过各自的标记扩展或直接通过配置选项收集高熵提示。请参阅 [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints?lang=zh-Hans) 和 [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=zh-Hans).
 
 这两个库&#x200B;**在默认情况下禁用**&#x200B;高熵提示的收集。
 
