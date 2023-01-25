@@ -3,9 +3,9 @@ title: 操作系统
 description: 访客的操作系统。
 feature: Dimensions
 exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
-source-git-commit: 26de81f090cebb45473a04a2edbe281f1c8591a4
+source-git-commit: 17c441f8855b8ca0604076763817de8d4d3b8efb
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '357'
 ht-degree: 34%
 
 ---
@@ -28,16 +28,16 @@ ht-degree: 34%
 
 ### 更改了Apple操作系统的命名约定：
 
-从版本11开始，我们将使用OS X而不是Mac OS来引用Apple操作系统。
+从版本11开始，我们将使用MacOS而不是OS X来引用Apple操作系统。
 
 示例：
 
-* macOS版本10.15.7(请参阅下面关于版本10.15.7的注释，而不是UA字符串中的表示形式)。
-* OS X版本11.0.0
+* “OS X 10.15”(请参阅下面关于版本10.15.7的注释，以了解UA字符串的表示形式)。
+* &quot;MacOS 11.0.0
 
 ### Mac OS版本10.15.7之后，用户代理中的版本不正确 
 
-自2023年1月起，所有浏览器中的用户代理都会将Mac OS版本显示为10.15.7，即使对于较新版本也是如此。 这样做是因为在UA中包含版本11显然导致了某些网站的问题。 Apple还指出，在UA中包含错误的操作系统版本可提供一些隐私方面的好处。
+Apple计算机上的用户代理将操作系统版本显示为10.15.7，即使它是较新版本。 这样做是因为在UA中包含版本11显然导致了某些网站的问题。 对于 *所有浏览器* 和与Google在Chromium浏览器上的用户代理的“冻结”无关。
 
 请注意，客户端提示在平台版本提示(“Sec-CH-UA-Platform-Version”)中包含正确的版本。 这是一个高熵提示，因此不会由Adobe自动收集。 请参阅 [Adobe Analytics提示常见问题解答](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) 以了解有关如何收集高熵提示的详细信息。
 
