@@ -3,7 +3,7 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: a3683ec1697932201593d21b7f5b8f0e304f364e
+source-git-commit: 96f4383126f8e88eb1a8c8d60b4a6f2ce7e17f0b
 workflow-type: tm+mt
 source-wordcount: '1473'
 ht-degree: 58%
@@ -36,7 +36,7 @@ AN-282634;AN-289684;AN-299597;AN-299630;AN-300128;AN-301633;AN-301683;AN-301745;
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| **由于 Google 客户端提示而更新设备查找** | 2023年1月25日 | 设备查找中将开始使用客户端提示 **2023年2月15日**. <p> <p>自2022年10月起，可以通过Web SDK或AppMeasurement JavaScript库收集客户端提示。 但是，在2023年2月之前，客户端提示不会纳入设备查找中。 届时，在为来自Chromium浏览器(如Google Chrome和Microsoft Edge)的点击获取某些设备信息时，Adobe将开始在用户代理之外使用客户端提示。 这是为了响应 Google 的计划，该计划逐步减少从 User-Agent 字符串产生的信息，并用通过客户端提示传递的数据替代。 <p> <p>作为此更改的一部分，Adobe 将使用 Device Atlas 执行所有与 User-Agent 相关的设备查找。[了解详情](/help/technotes/client-hints.md) |
+| **由于 Google 客户端提示而更新设备查找** | 2023年1月25日 | 设备查找中将开始使用客户端提示 **2023年2月16日**. <p> <p>自2022年10月起，可以通过Web SDK或AppMeasurement JavaScript库收集客户端提示。 但是，在2023年2月之前，客户端提示不会纳入设备查找中。 届时，在为来自Chromium浏览器(如Google Chrome和Microsoft Edge)的点击获取某些设备信息时，Adobe将开始在用户代理之外使用客户端提示。 这是为了响应 Google 的计划，该计划逐步减少从 User-Agent 字符串产生的信息，并用通过客户端提示传递的数据替代。 <p> <p>作为此更改的一部分，Adobe 将使用 Device Atlas 执行所有与 User-Agent 相关的设备查找。[了解详情](/help/technotes/client-hints.md) |
 | **暂停 Reports &amp; Analytics 中的计划报告** | 2023 年 1 月 6 日 | 这提醒您，Adobe将在 **2023年1月31日**. 请注意，报告和数据提取的到期窗口仍为九个月；除非重新激活计划，否则报告和数据提取交付将在此期限结束时暂停。<p>重申一下，这些功能将于 2023 年 1 月 31 日弃用。在此日期之前，您必须将计划报告迁移到 Adobe Analytics 中可供您使用的其他机制之一。如果还有其他问题或需要获取相关支持，请联系 Adobe 客户关怀团队。[了解详情](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
 | **在 Report Builder 中暂停计划任务** | 2023 年 1 月 6 日 | 开 **2023年1月31日**,Adobe将在Report Builder中对计划任务进行更改，以作为性能和交付优化工作的一部分。 这些更改包括删除使计划投放“在x次发生后结束”的功能。<p>您可以继续计划每小时 Report Builder 任务，并在最多发生 99 次后结束这些任务。请注意，回滚仅适用于小时任务；对于所有其他交付间隔期（每天、每周、每月和每年），“在发生 x 次后结束”不可用。请注意，此选项将于 2023 年 1 月 31 日弃用。如果还有更多问题或需要获取相关支持，请联系 Adobe 客户关怀团队。 [了解详情](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
 | **改进了 IP 到地理位置的映射** | 2023年1月4日 | 我们的 IP 查找供应商 Digital Element 正在升级到新的改进数据集 (NetAcuity Pulse)，用于 IP 到地理位置映射。Adobe Analytics最初计划于2022年10月在 **2023年1月11日**. 新的数据库将比以前的版本更准确。 当采用新数据库时，一些 IP 到地理位置的映射将发生变化/改进。<p>所有Adobe Analytics工具(Analysis Workspace、Reports &amp; Analytics、报表API、Data warehouse、LiveStream、Analytics数据馈送等)都将自动利用新的改进映射。 数据馈送中的数据格式不会发生变化。 通过Analytics源连接器提供的CJA数据将自动利用新映射。 |
