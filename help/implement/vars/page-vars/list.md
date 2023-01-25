@@ -4,13 +4,13 @@ description: 在同一点击中保留多个值的自定义变量。
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
 ht-degree: 100%
 
 ---
 
-# 列表
+# list
 
 列表变量是自定义变量，您可以根据需要随意使用。它们的工作方式与 eVar 类似，只是它们可以在同一点击中包含多个值。列表变量没有字符限制。
 
