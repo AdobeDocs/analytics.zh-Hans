@@ -3,8 +3,8 @@ description: 如何在 Adobe Analytics 中提交数据访问和删除请求。
 title: 提交访问和删除请求
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
+source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+workflow-type: tm+mt
 source-wordcount: '1297'
 ht-degree: 100%
 
@@ -107,7 +107,7 @@ ht-degree: 100%
 请记住以下事项
 
 * 必须使用您的 Experience Cloud 组织的值来更新“companyContexts”部分的“5D7236525AA6D9580A495C6C@AdobeOrg”值。
-* “type”和“namespace”字段在[命名空间](/help/admin/c-data-governance/gdpr-namespaces.md)部分有更多详细介绍。
+* “type”和“namespace”字段在[命名空间](/help/admin/c-data-governance/data-labeling/gdpr-namespaces.md)部分有更多详细介绍。
 * “description”字段被忽略。
 * “key”字段可以包含您想要的任何值。如果您有用于跟踪数据隐私请求的内部 ID，则可以将该值添加到此处，以便更轻松地将 Adobe 系统中的请求与自己系统中的请求进行匹配。
 

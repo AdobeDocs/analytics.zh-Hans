@@ -3,8 +3,8 @@ description: Adobe Analytics 数据管理常见问题解答
 title: 数据治理的常见问题解答
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
+source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+workflow-type: tm+mt
 source-wordcount: '1805'
 ht-degree: 100%
 
@@ -30,17 +30,17 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>为了进行数据隐私处理，Adobe 客户（数据控制者）将如何找出哪些数据隐私请求映射到 Adobe Analytics 中的哪些 ID？</b> </p> </td> 
-   <td colname="col2"> <p>数据控制者将确定如何解析发出请求的数据主体的身份。可以考虑部署 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">Adobe 的数据隐私 ID 检索标记。</a>为了节省时间，您的开发团队可采用下面的方法：使用我们的数据隐私 ID 检索标记捕获用户 ID (Cookie ID)，然后用我们的数据隐私 API 将这些用户 ID 发送到 Adobe Experience Cloud 的相关解决方案中，以进行数据隐私请求处理。 </p> <p>数据隐私 API 可以在多个 Adobe 解决方案中支持范围广泛的客户 ID。如果数据主体提交了一个请求和一个标识符（自定义变量 – prop 或 eVar），Adobe Analytics 则会扫描针对给定标识符收集的所有保留的数据历史记录。有关如何配置存储在 Analytics prop 或 eVar 中的自定义 ID 的详细信息，请参阅 Analytics 关于<a href="/help/admin/c-data-governance/gdpr-namespaces.md">命名空间</a>的文档。
+   <td colname="col2"> <p>数据控制者将确定如何解析发出请求的数据主体的身份。可以考虑部署 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">Adobe 的数据隐私 ID 检索标记。</a>为了节省时间，您的开发团队可采用下面的方法：使用我们的数据隐私 ID 检索标记捕获用户 ID (Cookie ID)，然后用我们的数据隐私 API 将这些用户 ID 发送到 Adobe Experience Cloud 的相关解决方案中，以进行数据隐私请求处理。 </p> <p>数据隐私 API 可以在多个 Adobe 解决方案中支持范围广泛的客户 ID。如果数据主体提交了一个请求和一个标识符（自定义变量 – prop 或 eVar），Adobe Analytics 则会扫描针对给定标识符收集的所有保留的数据历史记录。有关如何配置存储在 Analytics prop 或 eVar 中的自定义 ID 的详细信息，请参阅 Analytics 关于<a href="/help/admin/c-data-governance/data-labeling/gdpr-namespaces.md">命名空间</a>的文档。
     </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Adobe Analytics 数据管理怎样协助处理数据隐私请求？</b> </p> </td> 
    <td colname="col2"> <p>“数据管理”是 Adobe Analytics 中的一个新工具，它赋与数据控制者在其 Analytics 数据中应用数据控制和分类的能力。这款新工具允许 Adobe 客户自定义其数据隐私数据访问和数据删除请求的处理方式。在“数据管理”控制台中，管理员可以定义多种所需的设置，这些设置应该会应用于 Adobe Analytics 的各种数据列中。一旦定义了这些标签，Adobe 将根据客户所需的标签设置，执行并处理任何下游访问或删除请求。数据控制者有责任进行审查，并就这些标签设置与其法律代表进行协商。Adobe Analytics 鼓励客户于 2018 年 5 月 25 日 GDPR 正式生效之前，在客户端上正确设置数据标签功能，以便允许利用数据隐私 API 自定义请求的完成情况。 </p> <p>“数据管理”工具包含以下数据标签： </p> 
     <ul id="ul_F25B00EB020B4A639628FB884D0CB4F9"> 
-     <li id="li_C295A396685340369D730D696FE6FC13"> <a href="/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels">身份数据标签</a>：用于对可以直接识别个人或与其他数据结合使用以识别个人的数据进行分类。（无、I1、I2） </li> 
-     <li id="li_6D9A25139D3342CA82AAA64BC01AD368"> <a href="/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels">敏感数据标签</a>：用于按照适用的法律，对定义为敏感数据的数据进行分类。（无、S1、S2）请注意，当前通常禁止在 Adobe Analytics 中使用敏感数据，但是根据适用法律正确获得的精确地理位置数据除外，不过在某些司法辖区，这类数据可能会被视为敏感数据。 </li> 
-     <li id="li_C69935AAC36741D8A902D14F75E896D6"> <a href="/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels">数据隐私数据标签</a>：用于对以下字段进行定义：包含数据隐私请求中使用的个人标识符的字段，或者，作为数据隐私删除请求的一部分而应该删除的字段。在某些情况下，这些标签可能会与身份和敏感数据标签重叠。 </li> 
-    </ul> <p>有关“数据管理”标签的更多信息，请参阅 <a href="/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels">Analytics 变量的数据隐私标签</a>。 </p> </td> 
+     <li id="li_C295A396685340369D730D696FE6FC13"> <a href="/help/admin/c-data-governance/data-labeling/gdpr-labels.md#identity-data-labels">身份数据标签</a>：用于对可以直接识别个人或与其他数据结合使用以识别个人的数据进行分类。（无、I1、I2） </li> 
+     <li id="li_6D9A25139D3342CA82AAA64BC01AD368"> <a href="/help/admin/c-data-governance/data-labeling/gdpr-labels.md#sensitive-data-labels">敏感数据标签</a>：用于按照适用的法律，对定义为敏感数据的数据进行分类。（无、S1、S2）请注意，当前通常禁止在 Adobe Analytics 中使用敏感数据，但是根据适用法律正确获得的精确地理位置数据除外，不过在某些司法辖区，这类数据可能会被视为敏感数据。 </li> 
+     <li id="li_C69935AAC36741D8A902D14F75E896D6"> <a href="/help/admin/c-data-governance/data-labeling/gdpr-labels.md#data-governance-labels">数据隐私数据标签</a>：用于对以下字段进行定义：包含数据隐私请求中使用的个人标识符的字段，或者，作为数据隐私删除请求的一部分而应该删除的字段。在某些情况下，这些标签可能会与身份和敏感数据标签重叠。 </li> 
+    </ul> <p>有关“数据管理”标签的更多信息，请参阅 <a href="/help/admin/c-data-governance/data-labeling/gdpr-labels.md#data-governance-labels">Analytics 变量的数据隐私标签</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>我该从哪里开始着手准备 Adobe Analytics 以支持数据隐私法？</b> </p> </td> 
