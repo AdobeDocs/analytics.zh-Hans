@@ -3,8 +3,8 @@ description: 介绍 Adobe Analytics 的连续功能发布战略
 title: Adobe Analytics 功能发布
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
-workflow-type: ht
+source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
+workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 100%
 
@@ -41,4 +41,4 @@ Adobe Analytics 版本在持续交付模型上运行，该模型允许采用更�
 | 问题 | 回答 |
 | --- | --- |
 | 我是否可以请求提前访问某个功能？ | 不会。不会授予提前访问权限。<br>如果您想要提前测试 Analytics 概念，我们建议您试用 [Adobe Analytics Labs](/help/analyze/labs.md)，就我们行业领先的创新技术提供反馈。 |
-| 此发布策略是否会影响我对功能的访问？ | 不会。一旦某个功能达到 GA 阶段，您将有权访问该功能，前提是它包含在您的 Analytics 程序包中。<br>您可以在[功能访问级别](/help/admin/get-started/company/feature-access-levels.md)下查看您的 Analytics 程序包的详细信息。 |
+| 此发布策略是否会影响我对功能的访问？ | 不会。一旦某个功能达到 GA 阶段，您将有权访问该功能，前提是它包含在您的 Analytics 程序包中。<br>您可以在[功能访问级别](/help/admin/admin/company/feature-access-levels.md)下查看您的 Analytics 程序包的详细信息。 |
