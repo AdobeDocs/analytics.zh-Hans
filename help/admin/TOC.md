@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等等。
-source-git-commit: db87f32341e064343f1f233701ed04011f802d94
+source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '648'
 ht-degree: 96%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 96%
 
 + [Analytics 管理员指南](home.md)
 + [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
-+ Analytics 管理快速入门{#admin-overview}
-   + [我应该使用哪种 Adobe Analytics 工具？](get-started/which-analytics-tool.md)
-   + [Analytics 产品比较和要求](get-started/analytics-product-comparison.md)
-   + [系统要求](get-started/sys-reqs.md)
 + Adobe Admin Console 用户权限{#admin-console}
    + [Adobe Admin Console 中的 Analytics](admin-console/home.md)
    + [Adobe Analytics 管理入门指南](admin-console/first-admin-guide.md)

@@ -3,10 +3,10 @@ title: 减轻浏览器 Cookie 限制影响的选项
 description: 了解如何减轻浏览器 Cookie 限制的影响以改进 Adobe Analytics 的数据收集。
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
-source-git-commit: 19fc62470c51bca091342006ff3715ba357e075c
+source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 88%
+source-wordcount: '566'
+ht-degree: 85%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Analytics 依靠第一方 Cookie 记录访客在网站上的活动。Analy
 
 服务器端收集提供了灵活性，让您可以提供自己的标识符而不是依靠浏览器机制来设置 Cookie。
 
-您可以使用 [Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) 或 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 将数据提交到 Analytics 服务器端。建议将 Bulk Data Insertion API 用于新服务器端实施。有关两个 API 的比较，请参阅[我应该使用哪个 Adobe Analytics 工具](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=zh-Hans)。
+您可以使用 [Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) 或 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 将数据提交到 Analytics 服务器端。建议将 Bulk Data Insertion API 用于新服务器端实施。有关两个API的比较，请参阅[我应该使用哪种Adobe Analytics工具](/help/analyze/get-started/which-analytics-tool.md).&quot;
 
 ## 使用Web SDK的第一方设备ID(FPID)
 
