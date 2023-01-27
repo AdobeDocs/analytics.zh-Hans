@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等等。
-source-git-commit: 2ee9007bdb3e359c9d5babe81c6f64bd7d7b6e8e
+source-git-commit: 6aecf51563bfe112ac51248f45167db83fe54fd7
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 96%
             + 付费搜索检测{#paid-search-detection}
                + [付费搜索检测概述](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [配置付费搜索检测](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
-            + [菜单自定义](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
+            + [自定义菜单](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
             + [自定义日历](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
             + 处理规则{#c-processing-rules}
                + [处理规则概述](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
