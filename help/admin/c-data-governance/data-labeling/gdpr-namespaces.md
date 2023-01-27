@@ -3,10 +3,10 @@ description: 您希望能够搜索的每个 ID 均分配有一个命名空间；
 title: 命名空间
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 此外，也可以转而使用 `"namespaceId": 10` 作为 `"namespace": "AAID"` 的代替或补充，您可能会看到其他一些 Adobe 产品使用该表单。
 
-## 旧版 Analytics 跟踪 Cookie：弃用版本
+## 旧版Analytics跟踪Cookie:已弃用表单
 
 ```
 {
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 该值应指定为两个 16 位十六进制数或两个 19 位十进制数。数字之间应使用短横线、下划线或冒号进行分隔。如果任一数字没有足够的位数，则需在开头补零。
 
-## Identity 服务 Cookie
+## Identity服务Cookie
 
 ```
 {
@@ -90,7 +90,7 @@ ht-degree: 100%
 
 还会为自定义访客 ID 预定义命名空间。
 
-## 自定义变量中的 ID
+## 自定义变量中的ID
 
 ```
 {

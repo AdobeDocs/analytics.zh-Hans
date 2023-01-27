@@ -3,16 +3,16 @@ description: 显示一些示例来说明如何标记命中数据、访问请求�
 title: 标记示例
 feature: Data Governance
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: b0716d9a4ea51dc0e1e6fc024f3de6b01a9ccfd8
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # 标记示例
 
-## 命中数据示例
+## 点击数据示例 {#hit}
 
 假设您具有以下命中数据：
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 |  | John | 55 | G | R | X |
 |  | Alice | 66 | A | N | Z |
 
-## 访问请求示例
+## 访问请求示例 {#access}
 
 如果我提交了访问请求，则摘要文件将包含下表中指示的值。一个请求只返回一个设备文件、一个人员文件，或各一个文件。只有在使用人员 ID 并且 expandIds 为 true 时，会返回两个摘要文件。
 
@@ -141,7 +141,7 @@ ht-degree: 100%
 
 请注意，使用 Cookie ID 时，expandIDs 的设置对输出没有任何影响。
 
-## 示例删除请求
+## 删除请求示例 {#delete}
 
 通过使用表格第一行中的 API 值来提出删除请求，命中表格将会发生更新。具体情况如下所示：
 

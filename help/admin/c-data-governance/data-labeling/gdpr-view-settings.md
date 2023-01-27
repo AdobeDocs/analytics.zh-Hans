@@ -3,7 +3,7 @@ description: “数据管理的隐私标签”对话框概述了报表包的隐�
 title: 查看/管理用于数据管理的隐私标签
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 44%
@@ -75,7 +75,7 @@ ht-degree: 44%
    >
    >您应该经常检查目标报告包，以确保正确复制标签。对于具有 ID 或 DEL 标签的变量来说，这一点尤为重要。
 
-## 导出到.csv文件
+## 导出到.csv文件 {#export-csv}
 
 您可以下载一个CSV文件，其中包含选定报表包的所有变量的当前所有标签定义。我们建议您的法律团队审核您的标签设置选项，并且此选项可帮助进行此审核。 无需登录到“数据管理”界面，您即可通过共享 .CSV 文件来进行审核。
 
@@ -85,6 +85,6 @@ ht-degree: 44%
 
 1. 选择一个或多个要导出其所有数据管理设置的报表包。
 
-## 编辑隐私标签
+## 编辑隐私标签 {#edit}
 
 请参阅 [分配或编辑报表包隐私标签](/help/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md).

@@ -3,7 +3,7 @@ description: Adobe Analytics 变量的数据隐私标签示例
 title: Analytics 变量的数据隐私标签
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '3685'
 ht-degree: 98%
@@ -133,7 +133,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 >
 >命名空间“visitorId”和“customVisitorId”是保留名称，用于识别 Analytics 旧版跟踪 Cookie 和 Analytics 客户的访客 ID。请勿将这些命名空间用于自定义流量或转化变量。
 
-## 变量类型及其支持的数据隐私/DULE 标签 {#variable-types}
+## 变量类型及其支持的数据隐私/DULE标签 {#variable-types}
 
 数据隐私/DULE 标签功能影响四大类 Analytics 变量。并非所有变量都支持所有标签。下表显示了各类变量对各种标签的支持情况。
 
