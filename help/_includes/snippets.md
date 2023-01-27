@@ -1,8 +1,8 @@
 ---
-source-git-commit: d42b7ef770a51f0379e358367a5b64202970fd60
+source-git-commit: 9d8471189788dbf7b86374ea3976e0e8b4b0d00b
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 18%
+source-wordcount: '120'
+ht-degree: 15%
 
 ---
 # 片段
@@ -17,10 +17,10 @@ ht-degree: 18%
 
 >[!AVAILABILITY]
 >
->本文中描述的功能处于版本的有限测试阶段。 当功能正常可用时，此注释将被删除。 有关Analytics发行过程的信息，请参阅 [Adobe Analytics功能发布](/help/release-notes/releases.md).
+>本文中描述的功能处于版本的有限测试阶段，可能尚未在您的环境中提供。 当功能正常可用时，此注释将被删除。 有关Analytics发行过程的信息，请参阅 [Adobe Analytics功能发布](/help/release-notes/releases.md).
 
 ## 发布阶段有限测试部分 {#release-limited-testing-section}
 
 >[!AVAILABILITY]
 >
->此部分中描述的功能处于版本的有限测试阶段。 当功能正常可用时，此注释将被删除。 有关Analytics发行过程的信息，请参阅 [Adobe Analytics功能发布](/help/release-notes/releases.md).
+>此部分中描述的功能处于版本的有限测试阶段，可能尚未在您的环境中提供。 当功能正常可用时，此注释将被删除。 有关Analytics发行过程的信息，请参阅 [Adobe Analytics功能发布](/help/release-notes/releases.md).
