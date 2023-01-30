@@ -3,9 +3,9 @@ description: Adobe Analytics 变量的数据隐私标签示例
 title: Analytics 变量的数据隐私标签
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '3685'
+source-wordcount: '3567'
 ht-degree: 98%
 
 ---
@@ -22,13 +22,7 @@ Adobe Analytics 根据数据的敏感性和合同限制提供了数据标签设�
 
 Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据和数据管理的标签。
 
-## DULE标签 {#dule-labels}
-
->[!NOTE]
->
->数据使用标签和执行 (DULE) 框架旨在提供一个跨所有解决方案/服务/平台的统一方式，以便在整个 Adobe Experience Cloud 中捕获、传输和使用有关数据的元数据。元数据可帮助数据控制者指明哪些数据是个人信息，哪些数据是敏感数据，以及哪些合同限制与数据相关。在这个初始版本中，Analytics 只支持与数据隐私相关的 DULE 标签。随着 Adobe 的其他产品开始实施对 DULE 标签的支持，未来版本将会引入更多的敏感数据标签以及合同标签，这有助于确保产品之间共享的数据只在法律允许的范围内使用。
-
-## 身份数据标签(DULE) {#identity-data-labels}
+## 身份数据标签 {#identity-data-labels}
 
 身份数据“I”标签用于对可识别或联系特定人员的数据进行分类。
 
@@ -39,7 +33,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 
 {style=&quot;table-layout:auto&quot;}
 
-## 敏感数据标签(DULE) {#sensitive-data-labels}
+## 敏感数据标签 {#sensitive-data-labels}
 
 敏感数据“S”标签用于对诸如地理数据之类的敏感数据进行分类。未来，会引入其他敏感数据标签，用于识别其他类型的敏感信息。
 
@@ -133,9 +127,9 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 >
 >命名空间“visitorId”和“customVisitorId”是保留名称，用于识别 Analytics 旧版跟踪 Cookie 和 Analytics 客户的访客 ID。请勿将这些命名空间用于自定义流量或转化变量。
 
-## 变量类型及其支持的数据隐私/DULE标签 {#variable-types}
+## 变量类型及其支持的数据隐私标签 {#variable-types}
 
-数据隐私/DULE 标签功能影响四大类 Analytics 变量。并非所有变量都支持所有标签。下表显示了各类变量对各种标签的支持情况。
+数据隐私标签功能影响四大类Analytics变量。 并非所有变量都支持所有标签。下表显示了各类变量对各种标签的支持情况。
 
 | 变量类型 | 支持的标签 | 不支持的标签 |
 |--- |--- |--- |
