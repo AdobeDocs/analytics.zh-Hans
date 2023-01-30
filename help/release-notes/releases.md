@@ -3,10 +3,10 @@ description: 介绍 Adobe Analytics 的连续功能发布战略
 title: Adobe Analytics 功能发布
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
+source-git-commit: 7a6a7438ae6dcfd514c8de66626331f3a0e8210d
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 100%
+source-wordcount: '388'
+ht-degree: 90%
 
 ---
 
@@ -18,9 +18,9 @@ Adobe Analytics 版本在持续交付模型上运行，该模型允许采用更�
 
 [!UICONTROL Analysis Workspace] 使用功能标志（又称为“切换”）控制新功能的可见性，从而允许在完全发布之前进行受控规模测试。此发布策略包括以下阶段：
 
-* **发布到生产 (RTP)**：将代码发布到生产，并在 Analysis Workspace 中关闭功能可见性。此功能有时在 2.0 Analytics API 中可用。
+* **有限测试**：从 Adobe 内部用户测试开始的分阶段发布。然后，该功能将提供给一小部分客户帐户，以确保该功能满足客户需求和期望。
 
-* **有限测试**：从 Adobe 内部用户测试开始的分阶段发布。然后，此发布在两个月内从可用性 0% 扩展到 100%。由于分阶段推出在 Experience Cloud 组织级别进行，因此组织中所有授权用户都可以获得相同的体验。
+* **转出开始**:从有限测试阶段开始推出分阶段发布。 然后，此发布在两个月内从 0% 到 100% 提供给客户。由于分阶段推出在 Experience Cloud 组织级别进行，因此组织中所有授权用户都可以获得相同的体验。
 
 * **正式发布 (GA)**：此功能对 100% 授权的 Experience Cloud 组织可用，且功能发布已完成。
 
