@@ -2,10 +2,10 @@
 title: 客户端提示
 description: 了解客户端提示将如何逐渐取代 User-Agent 作为设备信息的来源。
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 2d309f7c246dea59f731764450974f12cdcdeffd
+source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 76%
+source-wordcount: '1232'
+ht-degree: 75%
 
 ---
 
@@ -63,23 +63,20 @@ Google 将 User-Agent 客户端提示分为两类：低熵提示和高熵提示�
 
 下表对截至 2022 年 10 月的客户提示进行了说明。
 
-| 提示* | 描述 | 高熵或低熵 | 示例 |
+| 提示 | 描述 | 高熵或低熵 | 示例 |
 | --- | --- | --- | --- | 
-| Sec-CH-UA | 浏览器和重要版本 | 低 | &quot;Google Chrome 84&quot; |
-| Sec-CH-UA-Mobile | 移动设备类型（true 或 false） | 低 | TRUE |
-| Sec-CH-UA-Platform | 操作系统/平台 | 低 | &quot;Android&quot; |
-| Sec-CH-UA-Arch | 网站架构 | 高 | &quot;arm&quot; |
-| Sec-CH-UA-Bitness | 架构位 | 高 | &quot;64&quot; |
-| Sec-CH-UA-Full-Version | 浏览器的完整版本 | 高 | &quot;84.0.4143.2&quot; |
-| Sec-CH-UA-Full-Version-List | 品牌及其版本的列表 | 高 | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
-| Sec-CH-UA-Model | 设备型号 | 高 | &quot;Pixel 3&quot; |
-| Sec-CH-UA-Platform-Version | 操作系统/平台版本 | 高 | &quot;10&quot; |
+| Sec-CH-UA | 浏览器和重要版本 | 低 | `"Google Chrome 84"` |
+| Sec-CH-UA-Mobile | 移动设备类型（true 或 false） | 低 | `true` |
+| Sec-CH-UA-Platform | 操作系统/平台 | 低 | `"Android"` |
+| Sec-CH-UA-Arch | 网站架构 | 高 | `"arm"` |
+| Sec-CH-UA-Bitness | 架构位 | 高 | `"64"` |
+| Sec-CH-UA-Full-Version | 浏览器的完整版本 | 高 | `"84.0.4143.2"` |
+| Sec-CH-UA-Full-Version-List | 品牌及其版本的列表 | 高 | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
+| Sec-CH-UA-Model | 设备型号 | 高 | `"Pixel 3"` |
+| Sec-CH-UA-Platform-Version | 操作系统/平台版本 | 高 | `"10"` |
 
-
-* 通过标头收集低熵提示。 高熵提示通过JavaScript收集并传递到查询字符串参数中。
-
-* 通过JavaScript调用收集高熵提示，并通过查询参数传递
-
+* 通过请求标头收集低熵提示。
+* 高熵提示通过JavaScript收集并通过查询字符串参数值进行传递。 查询字符串参数使用 `h.` 作为图像请求中的前缀。
 
 +++
 

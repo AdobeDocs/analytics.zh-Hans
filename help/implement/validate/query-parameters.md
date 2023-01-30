@@ -3,10 +3,10 @@ title: 数据收集查询参数
 description: 列出了图像请求中使用的所有查询字符串参数。
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
-source-git-commit: 799c7d2636dc2ba5db90d2dc400462a412aea9f1
+source-git-commit: 74920ff0e518d18697df9aaac8de92e831bb7c03
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 94%
+source-wordcount: '718'
+ht-degree: 93%
 
 ---
 
@@ -41,6 +41,7 @@ ht-degree: 94%
 | `-g` | [`pageURL`](../../components/dimensions/page-url.md) | 长度超过 255 字节的 URL 将被拆分。前 255 个字节显示在 `g` 参数中，其余所有字节都显示在 `-g` 参数中。 |
 | `gn` | [`pageName`](../vars/page-vars/pagename.md) | `pageName` 查询字符串的简写形式。 |
 | `gt` | [`pageType`](../vars/page-vars/pagetype.md) | `pageType` 查询字符串的简写形式。 |
+| `h.` | [`collectHighEntropyUserAgentHints`](../vars/config-vars/collecthighentropyuseragenthints.md) | 表示 [客户端提示](/help/technotes/client-hints.md). |
 | `h1` - `h5` | [`hier1` - `hier5`](../vars/page-vars/hier.md) | 层次结构维度。 |
 | `hp` | 无 | 已不再使用。在早期版本的 Adobe Analytics 中，用于确定当前 URL 是否是浏览器的主页。 |
 | `j` | 无 | 浏览器中安装的 JavaScript 版本。 |
