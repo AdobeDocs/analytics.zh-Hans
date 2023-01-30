@@ -3,9 +3,9 @@ description: 您提交的 ID 并不总是涵盖 Analytics 可将其与数据主�
 title: ID 扩展
 feature: Data Governance
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '1355'
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+workflow-type: tm+mt
+source-wordcount: '1338'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 "expandIds": true
 ```
 
-有关如何在请求中包含此选项的示例，请参阅 [JSON 请求示例](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request)。有关更多详细信息，请参阅[隐私服务 API 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hans)。
+有关更多详细信息，请参阅[隐私服务 API 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hans)。
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
