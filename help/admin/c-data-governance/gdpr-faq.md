@@ -3,10 +3,10 @@ description: Adobe Analytics 数据管理常见问题解答
 title: 数据治理的常见问题解答
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 82c69131fcc5a22795e44ed97246240aec31f4d9
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '1867'
-ht-degree: 88%
+source-wordcount: '2164'
+ht-degree: 87%
 
 ---
 
@@ -49,6 +49,20 @@ ht-degree: 88%
 * 数据隐私数据标签：用于对以下字段进行定义：包含数据隐私请求中使用的个人标识符的字段，或者，作为数据隐私删除请求的一部分而应该删除的字段。在某些情况下，这些标签可能会与身份和敏感数据标签重叠。
 
 有关“数据管理”标签的更多信息，请参阅 [Analytics 变量的数据隐私标签](/help/admin/c-data-governance/data-labeling/gdpr-labels.md)。
+
++++
+
++++ **如何验证隐私服务请求是否从Adobe Analytics中删除数据时工作正常？**
+
+通常，Analytics客户会先设置一些测试报表包来验证功能，然后再将其发布给公众。 预生产网站或应用程序会将数据发送到这些测试/开发/QA 报表包中，以评估在将实际流量发送到生产报表包之前代码完成时的运行情况。
+
+但是，在正常配置下，在将请求应用到生产报表包之前，不能先在这些测试报表包上对 GPDR 请求的处理进行测试。这是因为，数据隐私请求会自动应用于 Experience Cloud 组织中的所有报表包，通常也是您公司的所有报表包。
+
+在将数据隐私请求应用于所有报表包之前，您仍可以使用以下几种方法测试您的数据隐私处理：
+
+* 一种选择是，设置一个单独的 Experience Cloud 组织，其中仅包含测试报表包。然后，使用此 Experience Cloud 组织进行数据隐私测试，并使用常规的 Experience Cloud 组织进行实际的数据隐私处理。
+
+* 另一种选择是，为测试报表包中的 ID 分配与生产报表包中的 ID 不同的命名空间。例如，您可以在测试报表包中为每个命名空间添加“qa-”作为前缀。当您提交仅带有 qa 前缀的命名空间的数据隐私请求时，这些请求将仅针对您的测试报表包运行。之后，当您提交不带 qa 前缀的请求时，它们将应用于您的生产报表包。**推荐使用这种方法，除非您使用visitorId、AAID、ECID或customVisitorId命名空间。 这些命名空间采用硬编码，您无法在测试报表包中为它们指定替代名称。**
 
 +++
 
