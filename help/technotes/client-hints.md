@@ -2,10 +2,10 @@
 title: 客户端提示
 description: 了解客户端提示将如何逐渐取代 User-Agent 作为设备信息的来源。
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 96f4383126f8e88eb1a8c8d60b4a6f2ce7e17f0b
+source-git-commit: 2d309f7c246dea59f731764450974f12cdcdeffd
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 77%
+source-wordcount: '1248'
+ht-degree: 76%
 
 ---
 
@@ -63,7 +63,7 @@ Google 将 User-Agent 客户端提示分为两类：低熵提示和高熵提示�
 
 下表对截至 2022 年 10 月的客户提示进行了说明。
 
-| 提示 | 描述 | 高熵或低熵 | 示例 |
+| 提示* | 描述 | 高熵或低熵 | 示例 |
 | --- | --- | --- | --- | 
 | Sec-CH-UA | 浏览器和重要版本 | 低 | &quot;Google Chrome 84&quot; |
 | Sec-CH-UA-Mobile | 移动设备类型（true 或 false） | 低 | TRUE |
@@ -75,7 +75,11 @@ Google 将 User-Agent 客户端提示分为两类：低熵提示和高熵提示�
 | Sec-CH-UA-Model | 设备型号 | 高 | &quot;Pixel 3&quot; |
 | Sec-CH-UA-Platform-Version | 操作系统/平台版本 | 高 | &quot;10&quot; |
 
-通过JavaScript调用收集高熵提示，并通过查询参数传递
+
+* 通过标头收集低熵提示。 高熵提示通过JavaScript收集并传递到查询字符串参数中。
+
+* 通过JavaScript调用收集高熵提示，并通过查询参数传递
+
 
 +++
 
