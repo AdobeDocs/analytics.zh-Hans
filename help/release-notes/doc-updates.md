@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
+source-git-commit: 3e023a3cbf4eb8c1ec337a791f816458786835f5
 workflow-type: tm+mt
-source-wordcount: '3549'
-ht-degree: 99%
+source-wordcount: '3578'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 99%
 | 功能 | 描述 |
 | --- | --- |
 | **2023 年 1 月** |  |
+| 过滤和排序表 | 更新了 [过滤和排序表](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) 文章。 已从“对表格进行分页、过滤和排序”中重命名本文。 |
 | 文件夹 | 专用页面 [文件夹管理](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | 用户首选项 | 许多其他用户首选项现在在 [首选项](/help/analyze/analysis-workspace/user-preferences.md). |
 | 自动保存项目 | 更新了内容，以在 [保存项目](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). |
