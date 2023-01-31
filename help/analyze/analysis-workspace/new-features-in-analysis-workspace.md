@@ -5,10 +5,10 @@ title: Analysis Workspace 中的新增功能
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
+source-git-commit: f83ab75e9a3cce2dd3dc13d88be97cf97df3dc65
+workflow-type: tm+mt
 source-wordcount: '8277'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -75,8 +75,8 @@ ht-degree: 100%
 | 归因 IQ：算法归因 | Analysis Workspace 中的“算法归因”模型可使用统计技术动态确定所选指标的最佳点数分配方式。适用于 Adobe Analytics Ultimate 客户。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=zh-Hans) |
 | 归因 IQ：自定义回顾时间范围 | 现在，您可以将“归因 IQ”中的任意归因模型配置为最多包含在报告期开始前的 90 天内的接触点。通过计算在之前月份发生的交互，通常可以提高在报告期初期所发生事件的归因准确性。适用于 Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete 和 Ultimate 客户。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=zh-Hans#lookback-windows) |
 | 共享工作区项目中的项目角色 | 在共享工作区项目时，现在可根据要让接收方获得的项目体验为其赋予三个项目角色之一：“编辑”、“复制”和“查看”。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans) |
-| 仅查看的工作区项目 | 可以将工作区项目仅以“可以查看”的形式共享给用户。当具有查看角色的收件人打开共享项目时，他们将会获得较为受限的项目体验，即，无左边栏而且只能进行有限的交互。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=zh-Hans) |
-| 能够共同编辑工作区项目 | 添加到“可编辑”角色的接收方可保存已共享给他们的项目。这同时适用于管理员和非管理员用户。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans) |
+| 仅查看的工作区项目 | 可以将工作区项目仅以“可以查看”的形式共享给用户。 当具有查看角色的收件人打开共享项目时，他们将会获得较为受限的项目体验，即，无左边栏而且只能进行有限的交互。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=zh-Hans) |
+| 能够共同编辑工作区项目 | 添加到“可编辑”角色的接收方可另存已共享给他们的项目。这同时适用于管理员和非管理员用户。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans) |
 | 更新了空白面板 | 现在，空白面板中包含一些面板和可视化图表，使您能够更加顺畅地选择最适合自己的分析工作流程。 |
 | “快速分析”面板（2020 年 6 月 25 日） | 快速分析可为 Analysis Workspace 的非分析师和新用户了解如何快速轻松地回答业务问题提供指导。[了解更多...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | 工作区中的 Analytics for Target 面板（2020 年 6 月 25 日） | 借助“Analytics for Target”(A4T) 面板，您可以满怀信心地在 Analysis Workspace 中分析 Adobe Target 活动和体验。[了解详情...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
@@ -133,8 +133,8 @@ ht-degree: 100%
 
 | 增强功能 | 描述 |
 |--- |--- |
-| 更新了自由格式表总计 | 现在，自由格式表包含两项总数统计：**[!UICONTROL 表格总计]**&#x200B;和&#x200B;**[!UICONTROL 全部总计]**。表格总计行会将已应用的[报表过滤器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=zh-Hans)计入在内。以前，只有区段会影响总数的计算。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=zh-Hans)<br/>，此外，**[!UICONTROL ￼显示总数]**&#x200B;和&#x200B;**[!UICONTROL 显示总计]**&#x200B;选项已添加到&#x200B;**[!UICONTROL 列设置]**&#x200B;中。<br/>鉴于自由格式表的这项变化，与之相关的可视化图表（例如关联的&#x200B;**[!UICONTROL 摘要数字]**&#x200B;可视化图表）也将进行相应的更新，导出的 CSV 和 PDF 数据同样也会更新。 |
-| 用于删除“未指定/无”的选项 | 一个可以轻松删除“未指定（无）”的选项已经添加到报表过滤器。 |
+| 更新了自由格式表总计 | 现在，自由格式表包含两项总数统计：**[!UICONTROL 表格总计]**&#x200B;和&#x200B;**[!UICONTROL 全部总计]**。表格总计行会将已应用的[报表过滤器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html)计入在内。以前，只有区段会影响总数的计算。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=zh-Hans)<br/>，此外，**[!UICONTROL ￼显示总数]**&#x200B;和&#x200B;**[!UICONTROL 显示总计]**&#x200B;选项已添加到&#x200B;**[!UICONTROL 列设置]**&#x200B;中。<br/>鉴于自由格式表的这项变化，与之相关的可视化图表（例如关联的&#x200B;**[!UICONTROL 摘要数字]**&#x200B;可视化图表）也将进行相应的更新，导出的 CSV 和 PDF 数据同样也会更新。 |
+| 用于删除“未指定/无”的选项 | 轻松删除“未指定（无）”的功能已添加为报表过滤器的选项。 |
 | 弃用紫色粒度组件 | 已弃用紫色的时间粒度组件（分钟、小时、日、周、月、季度、年）。紫色时间组件与对应的橙色维度组件的功能是一样的，因此这项更改将简化这方面的使用体验。即使之前使用了某个紫色时间组件，您也&#x200B;**无需执行任何操作**。<br/>此外，根据这项变化，紫色的&#x200B;**[!UICONTROL 时间]**&#x200B;部分已重命名为&#x200B;**[!UICONTROL 日期范围]**。 |
 
 ## 2019 年 8 月
@@ -504,7 +504,7 @@ ht-degree: 100%
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> <p>自由格式表格中增加了更多的维度项目<a href="/help/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md"  >过滤选项</a> </p> </td>
+   <td colname="col1"> <p>自由格式表格中增加了更多的维度项目<a href="/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md"  >过滤选项</a> </p> </td>
    <td colname="col2"> <p>已经为维度项目增加了以下（高级）过滤选项（除了现有的“包含”和“不包含”选项之外）： </p>
     <ul id="ul_869B3E943E304C0282D56AD96BB79E18">
      <li id="li_81A49BA0CA3041C7AB892FAD2D129E5A">包含所有词语 </li>
