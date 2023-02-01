@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等等。
-source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 96%
+source-wordcount: '634'
+ht-degree: 98%
 
 ---
 
@@ -17,24 +17,24 @@ ht-degree: 96%
 + [Analytics 管理员指南](home.md)
 + [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
 + Adobe管理控制台 {#admin-console}
-   + [Adobe Admin Console 中的 Analytics](admin-console/home.md)
+   + [概述](admin-console/home.md)
    + [Adobe Analytics 管理入门指南](admin-console/first-admin-guide.md)
    + [Adobe Analytics 中的管理员角色](admin-console/admin-roles-in-analytics.md)
-   + 权限 {#permissions}
+   + Analytics工具权限摘要 {#permissions}
       + [Admin Console 中的 Analytics Permissions](admin-console/permissions/summary-tables.md)
       + [Adobe Analytics 的产品配置文件](admin-console/permissions/product-profile.md)
       + [“报表包工具”的产品配置文件权限](admin-console/permissions/report-suite-tools.md)
       + [Analytics 工具的产品配置文件权限](admin-console/permissions/analytics-tools.md)
    + 用户和产品管理（旧版）{#user-product-management}
-      + [用户和产品管理 （旧版）](admin-console/user-management2/user-management.md)
+      + [用户和产品管理（旧版）](admin-console/user-management2/user-management.md)
       + 将用户迁移到 Adobe Admin Console {#migrate-users}
          + [将 Analytics 用户迁移到 Admin Console](admin-console/user-management2/user-migration/c-migration-tool.md)
          + [为 Adobe ID 迁移 Analytics 用户帐户](admin-console/user-management2/user-migration/t-migrate-users.md)
          + [迁移 Analytics 用户帐户以使用 Enterprise ID 和 Federated ID](admin-console/user-management2/user-migration/migrate-enterprise.md)
          + [禁用旧版登录](admin-console/user-management2/user-migration/t-disable-legacy-login.md)
          + [受迁移影响的 API](admin-console/user-management2/user-migration/developer.md)
-+ Analytics管理工具 {#admin-tools}
-   + [管理工具概述](admin/c-admin-tools.md)
++ Analytics 管理员工具 {#admin-tools}
+   + [管理员工具概述](admin/c-admin-tools.md)
    + [计费](admin/billing-admin.md)
    + [代码管理器](admin/code-manager-admin.md)
    + [货币代码](admin/currency.md)
@@ -156,7 +156,6 @@ ht-degree: 96%
       + [品牌联合](admin/company/co-branding-admin.md)
       + [隐藏报表包](admin/company/c-hide-report-suites.md)
       + [安全管理器](admin/company/security-manager.md)
-   + [简化的报表菜单](admin/t-simplified-menu.md)
    + [视频管理](admin/video-management.md)
    + 服务器调用使用情况 {#server-call-usage}
       + [服务器调用使用情况概述](admin/c-server-call-usage/overage-overview.md)
@@ -168,8 +167,8 @@ ht-degree: 96%
    + [Adobe Analytics 数据隐私工作流程](c-data-governance/an-gdpr-workflow.md)
    + [常见问题解答](c-data-governance/gdpr-faq.md)
    + 数据标签 {#data-labels}
-      + [Analytics组件的数据隐私标签](c-data-governance/data-labeling/gdpr-labels.md)
-      + [为报告包数据设置标签](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
+      + [Analytics 组件的数据隐私标签](c-data-governance/data-labeling/gdpr-labels.md)
+      + [为报表包数据设置标签](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
       + [查看/管理报表包的隐私标签](c-data-governance/data-labeling/gdpr-view-settings.md)
       + [标签设置最佳实践](c-data-governance/data-labeling/gdpr-analytics-ids.md)
       + [标签设置示例](c-data-governance/data-labeling/gdpr-labeling-example.md)
