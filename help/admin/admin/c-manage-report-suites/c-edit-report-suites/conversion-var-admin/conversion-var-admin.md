@@ -4,10 +4,10 @@ keywords: eVar
 title: 转化变量 (eVar)
 feature: Admin Tools
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '1582'
-ht-degree: 100%
+source-git-commit: 2f219f599b5c9231a29a23e1ebd9412081754c9d
+workflow-type: tm+mt
+source-wordcount: '1672'
+ht-degree: 99%
 
 ---
 
@@ -15,7 +15,10 @@ ht-degree: 100%
 
 “自定义分析转化变量”（或 eVar）置于您网站所选网页的 Adobe 代码中。其主要目的是在自定义市场营销报告中划分转化成功量度区段。eVar 可以是基于访问的，其功能与 Cookie 类似。在预先设定的一段时间内，传递到 eVar 变量的值将始终“跟随”着用户。
 
-以下是一段视频概述：
+
+## 转化变量(eVar)概述
+
+以下是视频概述：
 
 >[!VIDEO](https://video.tv.adobe.com/v/28759/?quality=12)
 
@@ -33,9 +36,9 @@ eVar 最适合用于度量原因和影响，例如：
 >
 >在图像请求中，一个 eVar 中只能存储一个值。如果一个 eVar 值中需要多个值，我们建议您实施[列表变量 (list vars)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=zh-Hans)。
 
-## 转化变量 - 描述 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
+### 转化变量 - 描述 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
-[编辑转化变量](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/t-conversion-variables-admin.md)时所用字段的描述。
+[编辑转化变量](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)时所用字段的描述。
 
 | 元素 | 描述 |
 | --- | --- |
@@ -68,3 +71,18 @@ eVar 不区分大小写。报表中使用的大写或小写基于后端系统注
 ### 计数器
 
 eVar 最常用于保存字符串值，但也可以配置为用作计数器。在您尝试计入用户在某个事件前所执行的操作数时，使用 eVar 与计数器一样有用。例如，可以使用 eVar 捕获购买前的内部搜索数。访客每搜索一次时，eVar 包含值“+1”。如果访客在购买前搜索了四次，则将看到每个总计数的实例：1.00、2.00、3.00 和 4.00。但只有 4.00 针对购买事件（订购和收入量度）计数。只允许正数作为 eVar 计数器的值。
+
+## 添加或编辑转化变量
+
+1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
+1. 选择报表包。
+1. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 转化]** > **[!UICONTROL 转化变量]**。
+1. 在[!UICONTROL 转化变量]页面上，单击您想要修改的转化变量旁的&#x200B;**[!UICONTROL 展开]**&#x200B;图标 [+]。
+
+   或
+
+   单击&#x200B;**[!UICONTROL 新增]**，将未使用的 eVar 添加至报表包。
+1. 选择想要修改的转化变量字段。
+
+   请参阅[转化变量 - 描述](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md#section_7C317BB0287A4B8EB0A1A4ECC40627BF)。某些字段可让您在字段中直接键入。其他字段可从包含支持的值的下拉列表中选择。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
