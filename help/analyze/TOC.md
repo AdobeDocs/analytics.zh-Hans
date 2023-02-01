@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 功能板、Report Builder 和 Activity Map。
-source-git-commit: 08dd9724efa105d0d9efd25223f72b2ae8e9a487
+source-git-commit: 0d7ae5dea6597996039d5af5256be8b5b65b3bd3
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 99%
+source-wordcount: '1101'
+ht-degree: 97%
 
 ---
 
@@ -41,6 +41,7 @@ ht-degree: 99%
       + [视图密度](analysis-workspace/build-workspace-project/view-density.md)
    + 组件 {#components}
       + [组件概述](analysis-workspace/components/analysis-workspace-components.md)
+      + [添加组件描述](analysis-workspace/components/add-component-descriptions.md)
       + 批注 {#annotations}
          + [批注概述](analysis-workspace/components/annotations/overview.md)
          + [创建批注](analysis-workspace/components/annotations/create-annotations.md)
@@ -60,6 +61,11 @@ ht-degree: 99%
          + [日历和日期范围概述](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [创建自定义日期范围](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [日期比较](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
+      + 数据词典 {#data-dictionary}
+         + [数据字典概述](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
+         + [在数据字典中查看组件信息](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
+         + [编辑数据字典中的组件条目](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+         + [监视数据字典运行状况](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + 可视化图表 {#visualizations}
       + [可视化图表概述](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [管理数据源](analysis-workspace/visualizations/t-sync-visualization.md)
@@ -150,7 +156,7 @@ ht-degree: 99%
          + [警报生成器](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [警报管理器](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [智能警报 — 用例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
-   + [用户首选项](analysis-workspace/user-preferences.md)
+   + [用户偏好设置](analysis-workspace/user-preferences.md)
    + Workspace 常见问题解答 {#workspace-faq}
       + [常见问题解答](analysis-workspace/workspace-faq/faq.md)
       + [优化 Analysis Workspace 性能](analysis-workspace/workspace-faq/optimizing-performance.md)
@@ -339,5 +345,5 @@ ht-degree: 99%
    + [创建移动记分卡](mobile-app/create-scorecard.md)
    + [设置执行用户以使用功能板](mobile-app/set-up-execs.md)
    + [执行用户快速入门指南](mobile-app/executive.md)
-+ [报告 API](reporting-api.md)
++ [Reporting API](reporting-api.md)
 + [Labs](labs.md)

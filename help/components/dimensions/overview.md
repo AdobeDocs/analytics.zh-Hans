@@ -3,10 +3,10 @@ title: 维度概述
 description: 包含字符串值的变量。
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '127'
-ht-degree: 100%
+source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
+workflow-type: tm+mt
+source-wordcount: '144'
+ht-degree: 63%
 
 ---
 
@@ -26,6 +26,4 @@ ht-degree: 100%
 
 ## 添加维度描述
 
-以下视频介绍了如何在 Adobe Analytics 中添加维度（和量度）描述：
-
->[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
+Analytics管理员可以在报表包中或直接在Analysis Workspace中为维度和其他组件添加描述。 有关如何向维度添加描述的信息，请参阅 [添加组件描述](/help/analyze/analysis-workspace/components/add-component-descriptions.md).

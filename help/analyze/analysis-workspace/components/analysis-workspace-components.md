@@ -1,13 +1,13 @@
 ---
-description: 'Analysis Workspace 中的组件包括维度、指标、区段和日期范围，您可以将这些组件拖放到项目中。 '
+description: Analysis Workspace 中的组件包括维度、指标、区段和日期范围，您可以将这些组件拖放到项目中。
 title: 组件概述
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
-source-wordcount: '714'
-ht-degree: 100%
+source-git-commit: 356df9e96e3b15ccb74e641e04d6a6fc26e6db62
+workflow-type: tm+mt
+source-wordcount: '735'
+ht-degree: 97%
 
 ---
 
@@ -53,9 +53,12 @@ Analysis Workspace 中的组件包括维度、指标、区段和日期范围，�
 
 [**日期范围**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html?lang=zh-Hans)是您进行分析时使用的日期的范围。它们可以在左侧的“组件”边栏（紫色部分）中找到，通常用于各个面板的日历中。
 
+您可以使日期范围组件相对于面板日历。 有关其他信息，请参阅 [关于相对面板日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates).
+
 日期范围的示例包括 2019 年 7 月、[!UICONTROL 过去 4 周]和[!UICONTROL 本月]。日期范围由 Adobe 提供、在[面板日历](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hans)中应用或者使用[日期范围生成器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=zh-Hans)创建。
 
 ![](assets/date-ranges.png)
+
 
 ## 组件操作 {#actions}
 

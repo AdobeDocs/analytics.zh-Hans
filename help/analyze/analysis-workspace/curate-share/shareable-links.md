@@ -2,19 +2,19 @@
 description: 了解如何创建指向项目或可视化图表的可共享链接
 keywords: Analysis Workspace 共享
 title: 创建可共享链接
-feature: 策划和共享
+feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '296'
-ht-degree: 100%
+source-git-commit: 4b11a7057177bec9d2e9d7c435ad0d5476a46602
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 68%
 
 ---
 
 # 创建可共享链接
 
-Analysis Workspace 提供了多种将项目共享给用户的方法，包括能够获得指向项目或项目特定部分的链接。收到链接的用户需要先登录到 Adobe Analytics，然后才能访问项目。
+Analysis Workspace 提供了多种将项目共享给用户的方法，包括能够获得指向项目或项目特定部分的链接。对于大多数类型的链接，收到链接的用户需要先登录Adobe Analytics，然后才能访问项目。
 
 ## 获取项目链接 {#project-link}
 
@@ -24,7 +24,7 @@ Analysis Workspace 提供了多种将项目共享给用户的方法，包括能�
 
 ## 获取面板或可视化图表链接 {#panel-link}
 
-您还可以共享指向项目特定部分的链接，如面板或单个可视化图表。这种链接有时被称为内部链接。内部链接对于将用户的注意力吸引到项目中的关键分析上非常有用。
+您还可以共享指向项目特定部分的链接，如面板或单个可视化图表。这种链接有时被称为内部链接。这有助于将用户的注意力吸引到项目中的关键分析上。
 
 * 在任意面板标题中，右键单击&#x200B;**[!UICONTROL 获取面板链接]**
 * 在任意表或可视化图表标题中，右键单击&#x200B;**[!UICONTROL 获取可视化图表链接]**
@@ -33,10 +33,18 @@ Analysis Workspace 提供了多种将项目共享给用户的方法，包括能�
 
 ![](assets/get-viz-link.png)
 
+## 获取公共链接
+
+{{release-limited-testing-section}}
+
+您可以与无权访问Analysis Workspace的人员共享Adobe Analytics项目。 这可以包括组织外的人员或组织内未配置Adobe Analytics的人员。
+
+有关更多信息，请参阅 [与任何人共享公共链接（无需登录）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共享项目](/help/analyze/analysis-workspace/curate-share/share-projects.md).)
+
 ## 在目录中使用链接 {#TOC}
 
 使用各种链接选项的一个技巧是，始终将目录置于工作区项目顶部。在目录中，您可以链接到其他相关项目、特定面板和特定可视化图表。这可帮助项目收件人更加轻松地进行导航。
 
-请[观看视频](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html?lang=zh-Hans)，了解如何通过使用链接和工作区的富文本编辑器来构建目录。
+[观看视频](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html?lang=zh-Hans) 了解如何使用链接和工作区的富文本编辑器构建目录。
 
 ![](assets/toc.png)

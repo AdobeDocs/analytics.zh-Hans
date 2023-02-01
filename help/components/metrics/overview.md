@@ -3,10 +3,10 @@ title: 量度概述
 description: 查看维度项目的数量或数据随时间变化的情况。
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
-source-wordcount: '168'
-ht-degree: 100%
+source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 82%
 
 ---
 
@@ -29,6 +29,4 @@ ht-degree: 100%
 
 ## 添加量度描述
 
-以下视频介绍了如何在 Adobe Analytics 中添加量度（和维度）描述：
-
->[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
+Analytics管理员可以在报表包中或直接在Analysis Workspace中为量度和其他组件添加描述。 有关如何向量度添加描述的信息，请参阅 [添加组件描述](/help/analyze/analysis-workspace/components/add-component-descriptions.md).

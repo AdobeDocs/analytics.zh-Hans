@@ -4,10 +4,10 @@ title: Adobe Analytics 登陆页面
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 4d49e0c3d622ffdd34b26a82282b3a03fd8e53d0
+source-git-commit: 54ec253516a6d735f02914887c72ef966ce36862
 workflow-type: tm+mt
 source-wordcount: '3947'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 | 单击打开报告。 | （以前，您必须双击。） |  |
 | **[!UICONTROL Reports &amp; Analytics]** 报告的新链接 | <ul><li>**[!UICONTROL 报告]** > **[!UICONTROL 受众]** > **[!UICONTROL 机器人]**</li><li>**[!UICONTROL 报告]** > **[!UICONTROL 受众]** > **[!UICONTROL 机器人页面]**<li>**[!UICONTROL 报告]** > **[!UICONTROL 参与]** > **[!UICONTROL 实时]**</li></ul> | ![新链接](assets/report-links.png) |
 | 全新开箱即用报告 | <ul><li>**[!UICONTROL 报告]** > **[!UICONTROL 最受欢迎]** > **[!UICONTROL 下一页]**</li><li>**[!UICONTROL 报告]** > **[!UICONTROL 最受欢迎]** > **[!UICONTROL 上一页]**</li><li>**[!UICONTROL 报告]** > **[!UICONTROL 参与]** > **[!UICONTROL 页面分析]** > **[!UICONTROL 页面摘要]**</li></ul>请注意，这些报告采用[!UICONTROL 工作区]格式，需要配置和构建。输出包括一组高级别指标、趋势数据、[!UICONTROL 流程] 可视化等。您可以修改这些报告并更改维度、维度项数等。这些报告也可以作为工作区面板下的面板使用。 | ![下一页](assets/next-page.png) |
-| **[!UICONTROL 创建项目]** 模式窗口返回 | 单击 **[!UICONTROL 创建项目]** 在工作区中，您可以再次选择 [!UICONTROL 空白项目] 和 [!UICONTROL 空白移动记分卡]. 您也可以从公司创建的任何模板中进行选择。 | ![新建](assets/create-new.png) |
-| 也可在Customer Journey Analytics中使用 | CJA中还提供了此登陆页面（已修改的表单）。 |  |
+| **[!UICONTROL 新建项目]**&#x200B;模式恢复 | 当在工作区中单击&#x200B;**[!UICONTROL 新建项目]**&#x200B;时，您可再次在[!UICONTROL 空白项目]和[!UICONTROL 空白移动记分卡]之间进行选择。您也可以从公司创建的任何模板中进行选择。 | ![新建](assets/create-new.png) |
+| 也在 Customer Journey Analytics 中提供 | 此登录页面的修改版也将在 CJA 中提供。 |  |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -42,62 +42,62 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 
 ### 术语
 
-* **[!UICONTROL 项目]** 是自定义设计，用于组合您构建的数据组件、表格和可视化图表，或者是其他人与您构建和共享的数据组件、表格和可视化图表。 [!UICONTROL 项目]还指空白项目和空白移动记分卡。
+* **[!UICONTROL 项目]**&#x200B;是自定义的设计，结合了您构建的或其他人构建并与您共享的数据组件、表格和可视化图表。[!UICONTROL 项目]还指空白项目和空白移动记分卡。
 * **[!UICONTROL 报告]**&#x200B;是指 Adobe 预建的任何内容，例如 Reports &amp; Analytics 中的报告和工作区中的模板。
 * **[!UICONTROL 模板]**&#x200B;不再用作 Adobe 预建的工作区项目的术语。它们现在归入[!UICONTROL 报告]下。术语[!UICONTROL 模板]仍然用于您公司创建的模板。
 
 ## 在[!UICONTROL 项目]选项卡中导航 {#navigate-projects}
 
-[!UICONTROL 项目]用作 [!UICONTROL Workspace] 主页。“项目”选项卡显示公司文件夹、您创建的任何个人文件夹、您的项目和移动记分卡。 使用此页可查看、创建和修改文件夹、项目和移动记分卡。 有关更多信息，请参阅 [关于Analytics中的文件夹](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
+[!UICONTROL 项目]用作 [!UICONTROL Workspace] 主页。“项目”选项卡显示公司文件夹、您创建的任何个人文件夹、您的项目和移动记分卡。使用此页面可查看、创建和修改文件夹、项目和移动记分卡。有关更多信息，请参阅[关于 Analytics 中的文件夹](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)。
 
 ![全部登陆](assets/landing-all2.png)
 
 >[!NOTE]
 >
->会话期间和会话期间会保留以下几项设置。 例如，您选择的选项卡、选定的过滤器、选定的列和列排序方向。 搜索结果不是永久性的。
+>以下几种设置会在该会话和多个会话期间保留。例如，您选择的选项卡、选择的过滤器、选择的列以及列排序方向。搜索结果不是持久性的。
 
 | UI 元素 | 定义 |
 | --- | --- |
-| 编辑首选项 | 可让您[!UICONTROL 查看教程]和[编辑用户偏好设置](/help/analyze/analysis-workspace/user-preferences.md)。 |
-| [!UICONTROL 新建] | 打开项目模式窗口，您可以在该模式窗口中创建工作区项目、移动记分卡或打开公司模板。 |
+| 编辑偏好设置 | 可让您[!UICONTROL 查看教程]和[编辑用户偏好设置](/help/analyze/analysis-workspace/user-preferences.md)。 |
+| [!UICONTROL 新建] | 打开项目模式，您可以在其中创建 Workspace 项目或移动记分卡，也可以打开公司模板。 |
 | [!UICONTROL 显示更少<br> 显示更多] | 在不显示和显示横幅之间切换：![顶部横幅](assets/top-banner.png) |
-| [!UICONTROL 工作区项目] | 创建空白 [工作区项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans) ，以便您设计和构建。 |
-| [!UICONTROL 移动记分卡] | 创建空白 [移动记分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html) ，以便您设计和构建。 |
-| [!UICONTROL 打开培训教程] | 打开工作区培训教程，该教程将指导您在分步教程中完成构建新入门项目的过程。 |
+| [!UICONTROL Workspace 项目] | 创建一个空白 [Workspace 项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans)以便您进行设计和构建。 |
+| [!UICONTROL 移动记分卡] | 创建一个空白[移动记分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html)以便您进行设计和构建。 |
+| [!UICONTROL 打开培训教程] | 打开 Workspace 培训教程，它会通过分步教程指导您完成构建新的入门项目的过程。 |
 | [!UICONTROL 打开发行说明] | 打开最新的 Adobe Experience Cloud 发行说明的 Adobe Analytics 部分。 |
-| 过滤器图标 | 按标记、报表包、所有者、类型和其他过滤器（“我的”、“与我共享”、“收藏夹”和“已批准”）进行过滤 |
+| 过滤器图标 | 按标记、报表包、所有者、类型和其他过滤器（“我的”、“已与我共享”、“收藏”和“已批准”）进行过滤 |
 | 搜索栏 | 搜索表中的所有列。 |
-| 选区框 | 选择一个或多个项目以显示可执行的项目管理操作： **删除**, **共享**, **重命名**, **复制**, **取消固定**, **上移**, **向下移动**, **标记**, **批准**, **导出CSV**&#x200B;和 **移动到**. 您可能没有执行所有列出操作的权限。 |
-| [!UICONTROL 收藏] | 在可用作过滤器的收藏项目或文件夹旁边添加一个星形。 |
+| 选区框 | 选择一个或多个项目可显示您可以执行的项目管理操作：**删除**、**共享**、**重命名**、**复制**、**取消固定**、**上移**、**下移**、**标记**、**批准**、**导出 CSV** 和&#x200B;**移至**。您可能无权执行所有列出的操作。 |
+| [!UICONTROL 收藏] | 在可用作过滤器的收藏项目或文件夹旁边添加星号。 |
 | [!UICONTROL 名称] | 标识项目的名称。 |
-| 固定图标 | 将项目设为大头针，以便它们始终显示在列表顶部，但您可以通过按顺序上下移动来重新调整顺序。 使用省略号选项菜单并选择 **上移** 或 **向下移动** 列表中。 |
-| 信息 (i) 图标 | 显示有关项目的以下信息：类型、项目角色、所有者、描述以及共享对象。 它还指示谁可以[编辑或复制](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans)此项目。 |
-| 省略号 (...) | 显示您可以执行的项目管理操作： **删除**, **共享**, **重命名**, **复制**, **取消固定**, **上移**, **向下移动**, **标记**, **批准**, **导出CSV**&#x200B;和 **移动到**. 您可能没有执行所有列出操作的权限。 |
-| [!UICONTROL 类型] | 指示此类型是工作区项目、移动记分卡还是文件夹。 |
-| [!UICONTROL 标记] | 标记项目以将其组织成组。 |
-| [!UICONTROL 项目角色] | 标识项目角色：您是项目所有者，还是拥有编辑或复制项目的权限。 |
-| [!UICONTROL 报告包] | 标识与项目关联的报表包。<br>面板中的表格和可视化图表从在面板的右上角选中的报表包中派生数据。报表包还确定在左边栏中有哪些组件可用。在项目中，您可以根据分析用例，使用一个或多个报表包。报表包列表按相关性排序。Adobe 在定义相关性时，依据当前用户在近期使用该包的频率以及该包在组织中的使用频率。 |
-| [!UICONTROL 所有者] | 标识创建项目的人员。 |
+| 固定图标 | 固定项目，使它们始终显示在列表顶部，但您可以通过上移或下移项目来重新调整其顺序。使用省略号选项菜单并在列表中选择&#x200B;**上移**&#x200B;或&#x200B;**下移**。 |
+| 信息 (i) 图标 | 显示有关项目的以下信息：类型、项目角色、所有者、描述及其共享对象。它还指示谁可以[编辑或复制](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans)此项目。 |
+| 省略号 (...) | 显示您可以执行的项目管理操作：**删除**、**共享**、**重命名**、**复制**、**取消固定**、**上移**、**下移**、**标记**、**批准**、**导出 CSV** 和&#x200B;**移至**。您可能无权执行所有列出的操作。 |
+| [!UICONTROL 类型] | 指示此类型是 Workspace 项目、移动记分卡还是文件夹。 |
+| [!UICONTROL 标记] | 标记项目以将其整理到组中。 |
+| [!UICONTROL 项目角色] | 标识项目角色：您是否为项目所有者，以及您是否具有编辑或复制项目的权限。 |
+| [!UICONTROL 报表包] | 标识与项目关联的报表包。<br>面板中的表格和可视化图表从在面板的右上角选中的报表包中派生数据。报表包还确定在左边栏中有哪些组件可用。在项目中，您可以根据分析用例，使用一个或多个报表包。报表包列表按相关性排序。Adobe 在定义相关性时，依据当前用户在近期使用该包的频率以及该包在组织中的使用频率。 |
+| [!UICONTROL 所有者] | 标识已创建项目的用户。 |
 | [!UICONTROL 上次打开时间] | 标识您上次打开项目的日期。 |
-| 自定义表格图标 | 选择要在表中查看的列。 要在项目列表中添加或删除列，请单击列图标(![全部登陆](/help/analyze/assets/select-column.png) )，然后选择或取消选择列标题。 |
-| 节目：文件夹和项目或所有项目 | 更改表格中的视图设置，以根据您的文件夹组织显示文件夹和项目 **或** 以无组织的列表显示所有项目。 |
-| &lt;（“返回”按钮） | 可返回到工作区项目或报表中最近的登陆页面配置。 您离开登陆页面时拥有的页面配置将在您返回时持续保留。 |
+| 自定义表格图标 | 选择要在表中查看的列。要在项目列表中添加或删除列，请单击右上角的列图标（![全部登陆](/help/analyze/assets/select-column.png)），然后选择或取消选择列标题。 |
+| 显示：文件夹和项目或所有项目 | 更改表格上的视图设置可根据文件夹结构显示文件夹和项目&#x200B;**或**&#x200B;在无结构的列表中显示所有项目。 |
+| &lt;（“返回”按钮） | 返回到 Workspace 项目或报告中最新的登陆页面配置。您离开登陆页面时的页面配置将在您返回时保留。 |
 
-### 弃用“项目管理器”页面 {#deprecate-pm-page}
+### 弃用项目管理器页面 {#deprecate-pm-page}
 
-在新登陆页面的发布中，我们弃用了项目管理器，如组件管理器下所列。 新登录页面可处理旧项目管理器页面等的所有功能。
+随着新登陆页面的发布，我们弃用了项目管理器，如组件管理器下所列。新的登陆页面将处理旧项目管理器页面的所有功能以及其他功能。
 
-“项目管理器”页面的一个常见用例是查看您的所有项目。
+项目管理器页面的一个常见用例是查看您的所有项目。
 
-要使用过滤器边栏查看新登陆页面上的所有项目，请选择 **其他过滤器** 然后选择 **显示全部**.
+要使用筛选器边栏查看新登陆页面上的所有项目，请选择&#x200B;**其他过滤器**，然后选择&#x200B;**全部显示**。
 
 ![显示所有项目](assets/show-all-fIlter.png)
 
-如果您处于“文件夹和项目”视图中，将弹出一个模式窗口，询问您是否要切换到“所有项目”视图，这样可以更轻松地在可能组织的任何文件夹之外查看所有项目。   选择 **切换到“所有项目”视图** 以便更好地查看您有权访问的所有项目。
+如果您在“文件夹和项目”视图中，将弹出一个模式窗口，询问您是否要切换到“所有项目”视图，这样可以更轻松地在项目可能已整理到其中的任何文件夹的外部查看它们。选择&#x200B;**切换到“所有项目”视图**&#x200B;可更好地查看您有权访问的所有项目。
 
 ![切换到所有项目](assets/switch-all-projects-view.png)
 
-管理员的另一个用例是管理公司报表，以删除、重命名、标记或批准报表。 有关管理报表的信息，请参阅 [管理公司报表](#manage-company-reports).
+面向管理员的另一个用例是管理公司报表，以便删除、重命名、标记或审批报表。有关管理报表的信息，请参阅[管理公司报表](#manage-company-reports)。
 
 ## 在[!UICONTROL 报告]选项卡中导航 {#navigate-reports}
 
@@ -173,7 +173,7 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 
 ### 创建自定义公司报表 {#company-report}
 
-为登录公司中的其他人员创建和保存的自定义报表，称为公司报表。 之前创建的公司报表和新创建的公司报表将在创建项目模式中列出，如下所示。
+创建并保存以供您的登录公司中的其他人使用的自定义报告称为公司报表。以前创建的公司报表和新创建的公司报表将在“创建项目”模式中列出，如下所示。
 
 要创建新的公司报表，请执行以下操作：
 
@@ -184,7 +184,7 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 
 1. 将所有必需字段添加到模态中并进行保存。
 
-   该报表会添加到创建项目模式的公司报表列表中，并可供登录公司中的人员使用。
+   该报表将添加到“创建项目”模式下的“公司报表”列表中，并且可供您的登录公司的内部人员使用。
 
 更多学习选项：
 
@@ -195,30 +195,29 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 
 ### 管理公司报表 {#manage-company-reports}
 
-管理员可以过滤项目列表以显示和管理公司报表。 已固定项目仍保留已固定项目，其后跟由 ![报表图标](assets/report-icon.png) 报表图标。 在此视图中，您可以删除、重命名、标记或批准一个或多个报表。
+管理员可以过滤项目列表以显示和管理公司报表。已固定的项目保持固定状态，后跟由 ![报表图标](assets/report-icon.png) 报表图标标识的公司报表的列表。在此视图中，您可以删除、重命名、标记或审批一个或多个报表。
 
 显示和管理公司报表
 
-1. 在过滤器边栏中，选择 **其他过滤器** 然后选择 **公司报表**.
-此时会显示公司报表的列表。 所有常规项目（除非已固定）都不会显示。
+1. 在过滤器边栏中，选择&#x200B;**其他过滤器**，然后选择&#x200B;**公司报表**。显示公司报表的列表。不会显示所有常规项目（除非已固定）。
 
    ![显示公司报表过滤器](assets/company-reports-filter.png)
 
-   显示公司报表后，管理员可以删除、重命名、添加标记或批准报表。
+   显示公司报表后，管理员可以删除、重命名、标记或审批报表。
 
-1. 在报表列表中，选择一个报表或选择多个报表。
+1. 在报表列表中，选择单个报表或多个报表。
 
-1. 单击 **...** 报表旁边的“筛选”图标，以查看可用选项（“删除”、“重命名”、“标记”和“批准”）。
+1. 单击报表旁边的 **...** 省略号图标可查看可用选项（删除、重命名、标记和审批）。
 
-   ![公司报表操作](assets/company-reports-actions.png)
+   ![公司报表图标](assets/company-reports-actions.png)
 
-1. 选择一个选项（“删除”、“重命名”、“标记”和“批准”）。
+1. 选择一个选项（删除、重命名、标记和审批）。
 
-1. 要在完成后返回到常规视图，请在过滤器边栏中，再次取消选中公司报表选项。
+1. 要在完成操作后返回常规视图，请在过滤器边栏中再次取消选中“公司报表”选项。
 
 ### 删除公司报表
 
-管理员可以使用公司报表列表选项（如上所述）删除报表，或从创建项目模式中删除报表。
+管理员可以使用公司报表列表选项（如上所述）删除报表，也可以从“创建项目”模式中删除报表。
 
 ![其他过滤器](assets/delete-fr-create-project-modal.png)
 
@@ -231,7 +230,7 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 * 单击视频/导览会添加&#x200B;**[!UICONTROL 查看过]**&#x200B;标记。此标记有助于跟踪您在整个学习内容中的进度。如果您尚未完成内容，则当您单击此标记后，它即会消失。
 * 视频模态上的&#x200B;**[!UICONTROL 了解详情]**&#x200B;按钮会将您转到 Adobe Experience League 文档页面，其中包含与您刚刚观看的视频相关的更多帮助内容。 **[!UICONTROL 查看更多视频]**&#x200B;会将您转到完整的 Analysis Workspace YouTube 播放列表。
 
-## 设置登陆页面 {#set-landing}
+## 设置您的登陆页面 {#set-landing}
 
 用户可以设置其首选登陆页面。
 
@@ -251,7 +250,7 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 
 | 问题 | 回答 |
 | --- | --- |
-| 以前在[!UICONTROL 工作区]中经常可以找到的模板在哪里？ | 这些模板在[!UICONTROL 报告]选项卡下分组。 |
+| 以前在[!UICONTROL 工作区]中经常可以找到的模板在哪里？ | 这些模板在[!UICONTROL 报表]选项卡下分组。 |
 | 我在 Beta 版程序 UI 中所做的工作会转移到生产[!UICONTROL 工作区]体验中吗？ | 会，在 Beta 版中所做的任何工作都会转移到以前/当前[!UICONTROL 工作区]体验中。 |
 | 任何当前的 [!DNL Reports & Analytics] 收藏会转移吗？ | 不会，它们不会转移。但是，所有[!UICONTROL 工作区]项目收藏都会转移。 |
 | 我可以固定的项目数量是否存在上限？ | 无限制，您可以固定的项目数量没有任何限制。 |

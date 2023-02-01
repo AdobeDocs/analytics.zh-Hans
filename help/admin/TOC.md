@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等等。
-source-git-commit: 1defe0b630d9d600402dc23562d7a6af0bfa81de
+source-git-commit: 01c7fbc8c06bf88e32f198ee5e23d00ba3e6128b
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '614'
 ht-degree: 98%
 
 ---
@@ -132,12 +132,10 @@ ht-degree: 98%
             + [列表变量](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
             + [促销 eVar](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
          + [营销渠道](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
-         + 流量管理{#traffic-management}
-            + [管理流量](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
-            + [安排流量尖峰](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
-            + [评估过去的服务器调用并安排流量尖峰](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-spike-estimate-past-server-calls.md)
-            + [指定永久性流量增长](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
-            + [流量增长必需的前置时间](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md)
+         + 流量管理 {#traffic-management}
+            + [概述](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
+            + [计划尖峰](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
+            + [永久性流量](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [单个报告包设置](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)
          + [应用程序管理](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + 实时报表 {#real-time-reports}
@@ -171,6 +169,7 @@ ht-degree: 98%
       + [标签设置最佳实践](c-data-governance/data-labeling/gdpr-analytics-ids.md)
       + [标签设置示例](c-data-governance/data-labeling/gdpr-labeling-example.md)
       + [命名空间](c-data-governance/data-labeling/gdpr-namespaces.md)
+   + [提交访问和删除请求](c-data-governance/gdpr-submit-access-delete.md)
    + [ID 扩展](c-data-governance/gdpr-id-expansion.md)
    + [CNIL 准许豁免](c-data-governance/cnil-consent-exemption.md)
 + [管理员 API](c-admin-api/c-admin-api.md)

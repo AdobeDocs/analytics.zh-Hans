@@ -3,7 +3,7 @@ description: Adobe Analytics 数据管理常见问题解答
 title: 数据治理的常见问题解答
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+source-git-commit: f941326a3e2bc510891371f2dad658c1b23bece2
 workflow-type: tm+mt
 source-wordcount: '2164'
 ht-degree: 87%
@@ -119,7 +119,6 @@ Adobe Analytics 要求客户设置其数据保留策略以处理其数据隐私�
 请联系您的客户经理 (CSM) 以与我们的工程架构师咨询团队进行协调，以进行进一步审查并提供解决任何 PII 或数据问题的帮助。
 
 +++
-
 
 其他数据隐私资源：
 
