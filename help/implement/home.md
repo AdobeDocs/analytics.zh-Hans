@@ -2,10 +2,10 @@
 title: 实施 Adobe Analytics
 description: 在您的网站、属性或应用程序上实施 Adobe Analytics。
 feature: Implementation Basics
-source-git-commit: ad0099e41315b5e61cd62747e68f578266b47054
+source-git-commit: d9a5d8a15b9e108af795cdfb7ed5481d51311328
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '885'
+ht-degree: 40%
 
 ---
 
@@ -64,7 +64,7 @@ Adobe Analytics 需要在您的网站、移动应用程序或其他应用程序�
 
 >[!TIP]
 >
->请联系Adobe，以获取根据当前情况选择实施的建议和最佳实践。 >
+>请联系Adobe，以获取根据当前情况选择实施的建议和最佳实践。
 
 ## 移动设备应用程序实施方法
 
