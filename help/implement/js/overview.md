@@ -4,8 +4,8 @@ description: 了解如何在没有标签管理系统的情况下使用 JavaScrip
 feature: Implementation Basics
 source-git-commit: 97e2cefbd8959f088d5f6e9923cad47b5414f38b
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 41%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

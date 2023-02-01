@@ -4,8 +4,8 @@ description: 在您的网站、属性或应用程序上实施 Adobe Analytics。
 feature: Implementation Basics
 source-git-commit: ad0099e41315b5e61cd62747e68f578266b47054
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 40%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
