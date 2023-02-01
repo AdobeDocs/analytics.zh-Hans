@@ -2,10 +2,10 @@
 title: 使用Analytics扩展实施Adobe Analytics
 description: 了解如何使用标记和Analytics扩展实施Adobe Analytics
 feature: Launch Implementation
-source-git-commit: 472faef9c6ef99d4e58f2f5a9a71ca8d058f0ee2
+source-git-commit: e6b40881a543b43c03b612c7e7b0d9bd09f44c0d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '358'
+ht-degree: 48%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Experience Platform 中的标记是一款标记管理解决方案，可让
 
 ![Adobe Analytics使用Analytics扩展工作流](../assets/analytics-extension-annotated.png)
 
-| |任务 |更多信息 | |-|—|—| | 1 |确保您拥有 **定义了报表包**. | [报表包管理器](../../admin/admin/c-manage-report-suites/report-suites-admin.md) | | 2 | **创建数据层** 用于管理网站上数据的跟踪。 | [创建数据层](../prepare/data-layer.md) | | 3 | **创建标记属性**. 属性是用于引用标签管理数据的总容器。| [创建Adobe Analytics标记属性](../launch/create-analytics-property.md) | | 4 | **安装Analytics扩展** 在标记属性中。 配置Analytics扩展以将数据发送到Adobe Analytics。 | [Adobe Analytics扩展概述](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en) | | 5 | **部署到开发环境**. 有一个可在其中进行标签迭代开发的环境。 | [将Analytics实施部署到开发环境](./deploy-dev.md) | | 6 | **验证并发布到生产环境**. 将标记属性添加到您的网站。 然后，使用数据元素、规则等自定义您的实施。| [验证开发实施并发布到生产环境](./validate-publish-prod.md) |
+|<div style="width:20px"></div>|任务 |更多信息 | |-|—|—| | 1 |确保您拥有 **定义了报表包**. | [报表包管理器](../../admin/admin/c-manage-report-suites/report-suites-admin.md) | | 2 | **创建数据层** 用于管理网站上数据的跟踪。 | [创建数据层](../prepare/data-layer.md) | | 3 | **创建标记属性**. 属性是用于引用标签管理数据的总容器。| [创建Adobe Analytics标记属性](../launch/create-analytics-property.md) | | 4 | **安装Analytics扩展** 在标记属性中。 配置Analytics扩展以将数据发送到Adobe Analytics。 | [Adobe Analytics扩展概述](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en) | | 5 | **部署到开发环境**. 有一个可在其中进行标签迭代开发的环境。 | [将Analytics实施部署到开发环境](./deploy-dev.md) | | 6 | **验证并发布到生产环境**. 将标记属性添加到您的网站。 然后，使用数据元素、规则等自定义您的实施。| [验证开发实施并发布到生产环境](./validate-publish-prod.md) |
 
 ## 其他资源
 
