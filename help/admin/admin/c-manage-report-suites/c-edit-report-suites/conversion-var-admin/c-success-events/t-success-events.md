@@ -3,10 +3,10 @@ description: 描述如何配置成功事件的步骤。
 title: 配置成功事件
 feature: Event
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '201'
-ht-degree: 100%
+source-git-commit: 3f5834bb8a6460acacc806839a6d9ae45b2e7afd
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 89%
 
 ---
 
@@ -32,7 +32,15 @@ ht-degree: 100%
 1. 在&#x200B;**[!UICONTROL 极性]**&#x200B;列中，指定此量度的上升趋势是好还是坏。
 1. 在&#x200B;**[!UICONTROL 可见性]**&#x200B;列中，您可以隐藏“菜单”、“量度选择器”、“计算量度生成器”和“区段生成器”中的标准（内置）量度、自定义事件和内置事件。
 
-   这项设置不影响相关量度或事件的数据收集，而只会影响该量度或事件在用户界面中的可见性。[更多...](/help/admin/admin/metric-visibility.md)
+   此设置不会影响该量度或事件的数据收集；它仅影响其在用户界面中的可见性，如下所示：
+
+
+   | 设置 | 可见位置 | 不可见位置 |
+   |---------|----------|---------|
+   | [!UICONTROL **随时随地可见**] | <ul><li>Reports &amp; Analytics（菜单和指标选择器）</li><li>Analysis Workspace</li><li>区段生成器</li><li>计算指标生成器</li></ul> | 不适用 |
+   | [!UICONTROL **生成器**] | <ul><li>区段生成器</li><li>计算指标生成器</li></ul> | <ul><li>Reports &amp; Analytics（菜单和指标选择器）</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **随时随地隐藏**] | 不适用 | <ul><li>Reports &amp; Analytics（菜单和指标选择器）</li><li>Analysis Workspace</li><li>区段生成器</li><li>计算指标生成器</li></ul> |
+
 1. 提供描述。
 1. 选择是否始终记录该事件。
 1. 启用或禁用参与率量度。
