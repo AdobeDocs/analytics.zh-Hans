@@ -2,11 +2,10 @@
 title: 使用AppMeasurement for JavaScript实施Adobe Analytics
 description: 了解如何在没有标签管理系统的情况下使用 JavaScript 实施 Adobe Analytics。
 feature: Implementation Basics
-exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
-source-git-commit: 99fc7814eaa12d0d9e8e478629a4c2134a577aaa
+source-git-commit: 97e2cefbd8959f088d5f6e9923cad47b5414f38b
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 91%
+source-wordcount: '198'
+ht-degree: 41%
 
 ---
 
@@ -14,34 +13,79 @@ ht-degree: 91%
 
 AppMeasurement for JavaScript 一直以来都是实施 Adobe Analytics 的常用方法。但是，随着标记管理系统的日益普及，建议使用 [Adobe Experience Platform 中的标记](../launch/overview.md)来实施。
 
-## 使用 JavaScript 向 Adobe 发送数据的整个工作流
+实施任务的高级概述：
 
-1. 加载 `AppMeasurement.js` 文件。此文件包含向 Adobe 发送数据所需的库。
+![使用AppMeasurement实施Adobe分析概述](../assets/appmeasurement-annotated.png)
 
-   ```html
-   <script src="AppMeasurement.js"></script>
-   ```
+<table>
+<tr>
+<td></td><td> <b>任务</b></td><td><b>更多信息</b></td>
+</tr>
 
-2. 在 `AppMeasurement.js` 中定义配置变量。实例化 Analytics 对象后，定义的配置变量可确保数据收集设置正确无误。有关可定义变量的完整列表，请参阅[配置变量](../vars/config-vars/configuration-variables.md)。
+<tr>
+<td>1</td><td>确保您 <b>定义了报表包</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">报表包管理器</a></td>
+</tr>
 
-   ```js
-   // Instantiate the Analytics tracking object with report suite ID
-   var s_account = "examplersid";
-   var s=s_gi(s_account);
-   // Make sure data is sent to the correct location
-   s.trackingServer = "example.data.adobedc.net";
-   ```
+<tr>
+<td>2</td><td><b>下载AppMeasurement所需的JavaScript代码</b> 从代码管理器。 解压缩文件。</td><td><a href="../../admin/admin/code-manager-admin.md">代码管理器</a></td>
+</tr>
 
-3. 在网站的页面代码中定义页面级变量。此类变量可确定发送给 Adobe 的具体维度和量度。有关可定义变量的完整列表，请参阅[页面变量](../vars/page-vars/page-variables.md)。
+<tr>
+<td>3</td><td><b>添加 <code>AppMeasurement.js</code> 到您网站的模板文件</b>. 代码包含将数据发送到Adobe所需的库。
 
-   ```js
-   s.pageName = "Example page";
-   s.eVar1 = "Example eVar";
-   s.events = "event1";
-   ```
+```html
+<head>
+  <script src="AppMeasurement.js"></script>
+  …
+</head>
+```
 
-4. 定义所有页面级变量后，使用 `t()` 方法将数据发送到 Adobe。有关更多信息，请参阅 [t](../vars/functions/t-method.md)。
+</td><td></td>
+</tr>
 
-   ```js
-   s.t();
-   ```
+<tr>
+<td>4</td><td><b>在 <code>AppMeasurement.js</code></b> 中定义配置变量。实例化Analytics对象后，这些变量可确保数据收集设置正确无误。
+
+```JavaScript
+// Instantiate the Analytics tracking object with report suite ID
+var s_account = "examplersid";
+var s=s_gi(s_account);
+ 
+// Make sure data is sent to the correct tracking server
+s.trackingServer = "example.data.adobedc.net";
+```
+
+</td><td><a href="../vars/config-vars/configuration-variables.md">配置变量</a></td>
+</tr>
+
+<tr>
+<td>5</td><td><b>在网站的页面代码中定义页面级变量</b>. 此类变量可确定发送给 Adobe 的具体维度和量度。
+
+```js
+s.pageName = "Example page";
+s.eVar1 = "Example eVar";
+s.events = "event1";
+```
+
+</td><td><a href="../vars/page-vars/page-variables.md">页面变量</a></td>
+</tr>
+
+<tr>
+<td>6</td><td><b>使用将数据发送到Adobe <code>t()</code> 方法</b>，时为定义所有页面变量。
+
+```js
+s.t();
+```
+
+</td><td><a href="../vars/functions/t-method.md">t()方法</a></td>
+</tr>
+
+<tr>
+<td>7</td><td><b>扩展并验证实施</b> 然后再推出生产。</b></td><td></td>
+</tr>
+
+</table>
+
+## 其他资源
+
+- [变量、函数、方法及插件概述](../vars/overview.md)
