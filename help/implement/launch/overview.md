@@ -2,10 +2,10 @@
 title: 使用Analytics扩展实施Adobe Analytics
 description: 了解如何使用标记和Analytics扩展实施Adobe Analytics
 feature: Launch Implementation
-source-git-commit: e6b40881a543b43c03b612c7e7b0d9bd09f44c0d
+source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 48%
+source-wordcount: '364'
+ht-degree: 57%
 
 ---
 
@@ -19,9 +19,54 @@ Adobe Experience Platform 中的标记是一款标记管理解决方案，可让
 
 实施任务的高级概述：
 
+
+
 ![Adobe Analytics使用Analytics扩展工作流](../assets/analytics-extension-annotated.png)
 
-|<div style="width:20px"></div>|任务 |更多信息 | |-|—|—| | 1 |确保您拥有 **定义了报表包**. | [报表包管理器](../../admin/admin/c-manage-report-suites/report-suites-admin.md) | | 2 | **创建数据层** 用于管理网站上数据的跟踪。 | [创建数据层](../prepare/data-layer.md) | | 3 | **创建标记属性**. 属性是用于引用标签管理数据的总容器。| [创建Adobe Analytics标记属性](../launch/create-analytics-property.md) | | 4 | **安装Analytics扩展** 在标记属性中。 配置Analytics扩展以将数据发送到Adobe Analytics。 | [Adobe Analytics扩展概述](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en) | | 5 | **部署到开发环境**. 有一个可在其中进行标签迭代开发的环境。 | [将Analytics实施部署到开发环境](./deploy-dev.md) | | 6 | **验证并发布到生产环境**. 将标记属性添加到您的网站。 然后，使用数据元素、规则等自定义您的实施。| [验证开发实施并发布到生产环境](./validate-publish-prod.md) |
+<table style="width:100%">
+
+<tr>
+<th style="width:5%"></th><th style="width:60%"><b>任务</b></th><th style="width:35%"><b>更多信息</b></th>
+</tr>
+
+<tr>
+<td> 1</td>
+<td>确保您 <b>定义了报表包</b>.</td>
+<td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">报表包管理器</a></td>
+</tr>
+
+<tr>
+<td>2</td>
+<td><b>创建数据层</b>用于管理网站上数据的跟踪。</td>
+<td>
+<a href="../prepare/data-layer.md">创建数据层</a>
+</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td><b><b>创建标记属性</b>.属性是用于引用标签管理数据的总容器。</td>
+<td><a ref="../launch/create-analytics-property.md">创建 Adobe Analytics 标记属性</a></td>
+</tr>
+
+<tr>
+<td>4</td><td><b>安装Analytics扩展</b> 在标记属性中。 配置Analytics扩展以将数据发送到Adobe Analytics。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en">Adobe Analytics扩展概述</a></td>
+</tr>
+
+<tr>
+<td>5</td>
+<td><b>部署到开发环境</b>.有一个可在其中进行标签迭代开发的环境。</td>
+<td><a href="./deploy-dev.md">将 Analytics 实施部署到开发环境</td>
+</tr>
+
+<tr>
+<td>6</td> 
+<td><b>验证并发布到生产环境</b>. 将标记属性添加到您的网站。 然后，使用数据元素、规则等自定义您的实施。</td>
+<td><a href="./validate-publish-prod.md">验证开发实施并发布到生产环境</a></td>
+</tr>
+
+</table>
 
 ## 其他资源
 
