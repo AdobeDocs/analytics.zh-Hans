@@ -3,14 +3,14 @@ title: Adobe Admin Console 中的 Analytics
 description: 了解如何使用 Adobe Admin Console 管理 Analytics 产品和用户。
 exl-id: 6e2c5ad4-2761-4ccb-8c76-ea9e1df9437a
 feature: Admin Tools
-source-git-commit: 087eb1efbd7f34492033e61685082f5830c004ce
+source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 80%
+source-wordcount: '116'
+ht-degree: 93%
 
 ---
 
-# Adobe Admin Console 中的 Analytics
+# Adobe Admin Console中的Analytics概述
 
 使用 [Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 管理 Analytics 产品和用户。Adobe Admin Console 位于 [adminconsole.adobe.com](https://adminconsole.adobe.com/)。
 
@@ -24,6 +24,6 @@ ht-degree: 80%
 
 ## 在 Adobe Analytics 中添加管理员
 
-请观看以下视频演示，了解如何在Adobe Analytics中添加管理员：
+观看以下视频演示，了解如何在 Adobe Analytics 中添加管理员：
 
-[在Adobe Analytics中添加管理员](https://video.tv.adobe.com/v/37648/?quality=12){target=_blank}
+[在 Adobe Analytics 中添加管理员](https://video.tv.adobe.com/v/37648/?quality=12){target=_blank}
