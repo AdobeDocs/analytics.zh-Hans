@@ -2,10 +2,10 @@
 title: 客户端提示
 description: 了解客户端提示将如何逐渐取代 User-Agent 作为设备信息的来源。
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: f941326a3e2bc510891371f2dad658c1b23bece2
+source-git-commit: 7adcd3698416e0591dba1faa841ac3b4273a5562
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 97%
+source-wordcount: '1247'
+ht-degree: 94%
 
 ---
 
@@ -13,27 +13,23 @@ ht-degree: 97%
 
 客户端提示是单独的关于用户设备的信息。它们由 Chromium 浏览器提供，例如 Google Chrome 和 Microsoft Edge。对于这些浏览器，客户端提示将逐渐取代 User-Agent 作为设备信息的来源。Adobe Analytics 将更新其设备查找过程，以使它在 User-Agent 之外使用客户端提示确定设备信息。
 
+## 低熵和高熵客户端提示
+
 Google 将 User-Agent 客户端提示分为两类：低熵提示和高熵提示。
 
 * **低熵提示**&#x200B;包含更加通用的设备信息。Chromium 浏览器自动提供这些提示。
 
 * **高熵**&#x200B;提示包含更加详细的信息。仅应请求提供这些提示。AppMeasurement 和 Web SDK 都可以配置为请求高熵提示。默认情况下，两个库都&#x200B;**不**&#x200B;请求高熵提示。
 
->[!NOTE]
->
->从 2023 年 2 月 16 日开始，客户提示将纳入 Analytics 设备查找流程。AppMeasurement 和 Web SDK 目前都支持收集提示数据，但直到 2 月中旬才会用于设备查找。如下所述，操作系统版本已从 10 月开始冻结，但由于逐步推出以及许多用户代理已提高冻结的操作系统版本（有关更多信息，请参见[此处](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hans)），我们估计这将影响不到 3% 的 Chrome 访客。
+从 2022 年 10 月开始，Chromium 浏览器的新版本已开始“冻结”在 User-Agent 字符串中表示的操作系统版本。操作系统版本是高熵提示，因此要保证报表中操作系统版本的准确无误，必须配置收藏集库以使其收集这些高熵提示。User-Agent 的其他设备信息逐渐将被冻结，需要客户端提示以保持设备报表准确性。
+
+从 2023 年 2 月 16 日开始，客户提示将纳入 Analytics 设备查找流程。AppMeasurement 和 Web SDK 目前都支持收集提示数据，但直到 2 月中旬才会用于设备查找。如下所述，操作系统版本已从 10 月开始冻结，但由于逐步推出以及许多用户代理已提高冻结的操作系统版本（有关更多信息，请参见[此处](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hans)），我们估计这将影响不到 3% 的 Chrome 访客。
 
 >[!NOTE]
 >
->从 2022 年 10 月开始，Chromium 浏览器的新版本已开始“冻结”User-Agent 字符串中表示的操作系统版本。操作系统版本是高熵提示，因此要保证报表中操作系统版本的准确无误，必须配置收藏集库以使其收集这些高熵提示。User-Agent 的其他设备信息逐渐将被冻结，需要客户端提示以保持设备报表准确性。
+> 自2023年1月起，某些版本的Mac和Windows操作系统在用户代理中表示不正确，但在高熵客户端提示中正确表示。 有关更多信息，请参阅[操作系统](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hans)。
 
->[!NOTE]
->
-> 截至 2023 年 1 月，某些版本的 Mac 和 Windows 操作系统在用户代理中未正确显示，而在高熵客户端提示中正确。有关更多信息，请参阅[操作系统](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hans)。
-
->[!NOTE]
->
->AAM 需要收集高熵提示以保留完整功能。如果您正在使用[服务器端转发到 AAM 功能](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hans)，则您可能希望启用高熵提示的收集。
+AAM需要收集高熵提示以保留完整功能。 如果您正在使用[服务器端转发到 AAM 功能](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hans)，则您可能希望启用高熵提示的收集。
 
 ## 常见问题解答
 
@@ -106,11 +102,11 @@ Google 将 User-Agent 客户端提示分为两类：低熵提示和高熵提示�
 
 +++
 
-+++**Analytics 在哪些方面依赖于用户代理？**
++++**Analytics 在哪些方面依赖于用户代理程序？**
 
-报告中的设备信息派生自用户代理。我们更新了我们的流程，以便在可用的情况下同时使用用户代理和客户端提示。
+报告中的设备信息派生自用户代理程序。 我们更新了我们的流程，以便在可用的情况下同时使用用户代理程序和客户端提示。
 
-回退 ID ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=en)) 派生自用户代理和 IP 地址。此 ID 仅在无法设置 Cookie 时使用，因此未被广泛使用
+回退 ID ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=en)) 派生自用户代理程序和 IP 地址。此 ID 仅在无法设置 Cookie 时使用，因此未被广泛使用
 
 +++
 
@@ -124,7 +120,7 @@ Google 将 User-Agent 客户端提示分为两类：低熵提示和高熵提示�
 
 +++**Adobe 将如何使用客户端提示获取设备信息？**
 
-Adobe 使用第三方 Device Atlas，后者同时使用客户端提示和 User-Agent 来派生设备信息。
+Adobe 使用第三方 Device Atlas，后者同时使用客户端提示和用户代理程序来派生设备信息。
 
 +++
 
