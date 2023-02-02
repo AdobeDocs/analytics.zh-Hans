@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算指标、虚拟报表包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
+source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '699'
 ht-degree: 97%
 
 ---
@@ -259,6 +259,7 @@ ht-degree: 97%
    + [子分类](classifications/c-sub-classifications.md)
    + [分类常见问题解答](classifications/faq.md)
 + [日历事件](t-calendar-event.md)
++ [已安排的报表队列](scheduled-reports-admin.md)
 + 实时报表 {#real-time-reporting}
    + [实时报表概述](c-real-time-reporting/realtime.md)
    + [配置实时报表](c-real-time-reporting/t-realtime-admin.md)

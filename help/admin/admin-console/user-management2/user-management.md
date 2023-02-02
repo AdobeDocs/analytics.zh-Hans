@@ -1,30 +1,30 @@
 ---
-description: 在Adobe Admin Console中管理Analytics用户、组和产品。
+description: 在 Adobe Admin Console 中管理 Analytics 用户、组和产品。
 subtopic: Users and groups
 title: 用户和产品管理
 feature: Admin Tools
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
-source-git-commit: 4ed166bb05d8dfb32706008ad23c13f61908d1e9
+source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
 # 用户和产品管理（旧版）
 
-在Adobe Admin Console中管理Analytics用户、组和产品。
+在 Adobe Admin Console 中管理 Analytics 用户、组和产品。
 
 >[!IMPORTANT]
 >
->用户和产品管理已移至 [Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)。 要开始管理Adobe Analytics用户的用户权限，请参阅 [Adobe Admin Console中的Analytics][/help/admin/admin-console/home.md].
+>用户和产品管理已移至 [Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)。要开始管理 Adobe Analytics 用户的用户权限，请参阅 [Adobe Admin Console 中的 Analytics](/help/admin/admin-console/home.md)。
 
-## 面向Adobe Admin Console管理员的帮助资源 {#section_C13BBB89E4F248F193358BB3A59DD502}
+## 面向 Adobe Admin Console 管理员的帮助资源 {#section_C13BBB89E4F248F193358BB3A59DD502}
 
 | 任务或资源 | 描述 |
 | --- | --- |
-| 将 Analytics 用户 ID 迁移到 Adobe Admin Console | Adobe 正协助 Analytics 管理员将用户 ID 迁移至 Adobe Admin Console。这项工作将分批进行。当轮到您迁移用户时，Adobe 将通过电子邮件告知 Analytics 管理员有关迁移的说明。[Analytics User Management](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=zh-Hans) 中提供了迁移工具以简化此任务。<p>**重要信息**:在您迁移用户的当天，您以前的权限组会自动复制到Adobe Admin Console。 您将无法在 Analytics 管理工具中邀请新用户或创建新群组。 查看有关将 Analytics 用户迁移到 Adobe Admin Console 的常见问题解答和帮助，了解有关如何准备迁移以及受影响的管理功能的信息。 |
-| 启动 Adobe Admin Console | 在迁移用户帐户后，您可以在Adobe Admin Console中管理所有解决方案的用户和产品。 导航到 `https://adminconsole.adobe.com/enterprise/`。 另请参阅[管理 Experience Cloud 用户和产品](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-Hans)。 |
+| 将 Analytics 用户 ID 迁移到 Adobe Admin Console | Adobe 正协助 Analytics 管理员将用户 ID 迁移至 Adobe Admin Console。这项工作将分批进行。当轮到您迁移用户时，Adobe 将通过电子邮件告知 Analytics 管理员有关迁移的说明。[Analytics User Management](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=zh-Hans) 中提供了迁移工具以简化此任务。<p>**重要提示**：在您迁移用户的当日，您以前的权限组将自动复制到 Adobe Admin Console。您将无法在 Analytics 管理工具中邀请新用户或创建新群组。 查看有关将 Analytics 用户迁移到 Adobe Admin Console 的常见问题解答和帮助，了解有关如何准备迁移以及受影响的管理功能的信息。 |
+| 启动 Adobe Admin Console | 迁移用户帐户后，您可以在 Adobe Admin Console 中管理所有解决方案中的用户和产品。导航到 `https://adminconsole.adobe.com/enterprise/`。 另请参阅[管理 Experience Cloud 用户和产品](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-Hans)。 |
 | 管理 Adobe Analytics 产品配置文件、用户和权限 | 请参阅 [Adobe Admin Console 中的 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hans)。 |
 
 <!---

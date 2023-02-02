@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等等。
-source-git-commit: 709483bd7a4573004100c9508f5bd78f1f3f253e
+source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '607'
 ht-degree: 98%
 
 ---
@@ -42,9 +42,7 @@ ht-degree: 98%
    + [默认指标](admin/default-metrics.md)
    + [按 IP 地址排除](admin/exclude-ip.md)
    + [日志](admin/logs.md)
-   + [隐私报表](admin/privacy-reporting.md)
-   + [报表活动管理器](admin/reporting-activity.md)
-   + [已安排的报表队列](admin/scheduled-reports-admin.md)
+   + [报告活动管理器](admin/reporting-activity.md)
    + 报告包管理器 {#manage-report-suites}
       + [管理报告包](admin/c-manage-report-suites/report-suites-admin.md)
       + [汇总报告包和全局报告包](admin/c-manage-report-suites/rollup-report-suite.md)
@@ -136,6 +134,7 @@ ht-degree: 98%
             + [计划尖峰](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [永久性流量](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [应用程序管理](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+         + [隐私报表](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + 实时报表 {#real-time-reports}
             + [实时报表概述](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [实时报表配置](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
