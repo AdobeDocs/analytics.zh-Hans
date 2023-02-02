@@ -5,10 +5,10 @@ title: 功能板和缩图报表
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '1827'
-ht-degree: 100%
+source-git-commit: dbccae5fdfd092da40e0786aa76238f1e6c1ccb9
+workflow-type: tm+mt
+source-wordcount: '1818'
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,6 @@ ht-degree: 100%
 
 ## 创建功能板 {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
-描述如何创建功能板的步骤。
 
 <!-- 
 
@@ -74,6 +73,8 @@ t_dashboard_add.xml
  -->
 
 在将报表（作为缩图报表）添加到功能板之前，请定义功能板的布局。
+
+创建功能板:
 
 1. 转至 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 管理功能板]**。
 1. 单击&#x200B;**[!UICONTROL 添加功能板]**。
@@ -96,13 +97,15 @@ t_dashboard_add.xml
 
 ## 创建缩图报表 {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
 
-描述如何创建缩图报表的步骤。在创建缩图报表后，可以将其显示在功能板中。
+创建缩图报表后，该缩图报表可在功能板中显示。
 
 <!-- 
 
 t_dashboard_add_report.xml
 
  -->
+
+创建缩图报表:
 
 1. 运行报表。
 1. 单击&#x200B;**[!UICONTROL 功能板]**。
@@ -122,13 +125,15 @@ t_dashboard_add_report.xml
 
 ## 将内容添加到功能板 {#task_90D7FAC1CC3E4DB786B4C87CC33B5459}
 
-用于描述如何从其他功能板和共享功能板添加内容的步骤。还可以从自定义和外部源添加内容，如文本和图像。
+您可以添加来自其他功能板和共享功能板的内容。 还可以从自定义和外部源添加内容，如文本和图像。
 
 <!-- 
 
 t_dashboard_content.xml
 
  -->
+
+将内容添加到功能板:
 
 1. 打开一个功能板，然后单击&#x200B;**[!UICONTROL 布局]**。
 1. 单击&#x200B;**[!UICONTROL 添加内容]**，然后将项目拖到功能板。
@@ -208,7 +213,7 @@ t_dashboard_edit.xml
 
 ## 与功能板联名 {#task_603BDE7700B945699AF5514C2DEB81F7}
 
-描述如何上传图像以在功能板中显示的步骤。
+要上传要在功能板中显示的图像，请执行以下操作：
 
 <!-- 
 

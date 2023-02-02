@@ -3,10 +3,10 @@ description: 如何通过 FTP 上传数据文件。
 title: FTP 导入
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 5edf3e6684b3572616f76db3f7c3bf0cf58ed408
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 97%
+source-wordcount: '733'
+ht-degree: 92%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 97%
 
 ## FTP 导入 {#concept_2F965BE873254546A61FB755F25299FD}
 
-描述如何通过 FTP 上传数据文件的步骤。
+要通过FTP上传数据文件，请执行以下操作：
 
-**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
+1. **[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
 
 以下建议的限制很重要：
 
@@ -41,9 +41,11 @@ ht-degree: 97%
 
 ## 通过 FTP 导入分类 {#task_132C36830B69418B8C929E39838EF01D}
 
-描述如何使用 FTP 帐户将分类导入 Adobe Analytics 的步骤。
+您可以使用FTP帐户将分类导入Adobe Analytics。
 
-有关创建 FTP 帐户的更多信息，请参阅[创建 FTP 帐户](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)。
+有关创建FTP帐户的更多信息，请参阅 [创建FTP帐户](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+
+要通过FTP导入分类，请执行以下操作：
 
 1. 单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
 1. 单击&#x200B;**[!UICONTROL 导入文件]**，然后单击 **[!UICONTROL FTP 导入]**。

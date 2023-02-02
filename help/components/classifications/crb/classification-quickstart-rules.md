@@ -3,10 +3,10 @@ description: 分类规则会定期查找未分类的术语。如果找到匹配�
 title: 分类规则
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '2020'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '2015'
+ht-degree: 98%
 
 ---
 
@@ -80,7 +80,7 @@ about_classification_rules.xml
 
 * 已对键值进行分类，并且您未选择[覆盖分类](/help/components/classifications/crb/classification-rule-definitions.md)。
 
-   您可以在[&#128279;](/help/components/classifications/crb/classification-quickstart-rules.md)添加和激活规则，以及激活 Data Connectors 集成时，覆盖分类。（对于 Data Connectors，规则由开发中心的合作伙伴创建，并显示在“[!UICONTROL 分类规则生成器]”中。）
+   您可以在[](/help/components/classifications/crb/classification-quickstart-rules.md)添加和激活规则，以及激活 Data Connectors 集成时，覆盖分类。（对于 Data Connectors，规则由开发中心的合作伙伴创建，并显示在“[!UICONTROL 分类规则生成器]”中。）
 
 * 在覆盖键值时指定的时间范围后，甚至在启用[覆盖分类](/help/components/classifications/crb/classification-rule-definitions.md)后，已分类的键值都没有出现在数据中。
 * 在大约一个月前时间范围开始后，没有对键值进行分类，并且键值从未传递到 [!DNL Adobe Analytics]。
@@ -304,13 +304,13 @@ t_classification_rule.xml
 
  -->
 
-描述如何添加或编辑分类规则的步骤。
-
 通过将条件与分类进行匹配并指定操作来添加规则。
 
 >[!NOTE]
 >
 >在此过程中，必须将规则应用到一个或多个报表包。即使没有限制，我们也建议每个规则集的规则数量在 500 到 1000 之间。如果您的规则超过 1000 条，请考虑使用[子分类](/help/components/classifications/c-sub-classifications.md)简化规则集。
+
+添加或编辑分类规则：
 
 1. [创建分类规则集](/help/components/classifications/crb/classification-rule-set.md)。
 1. 在规则集页面上，单击&#x200B;**[!UICONTROL 添加规则]**。
@@ -326,8 +326,8 @@ t_classification_rule.xml
    >*仅*&#x200B;当满足以下条件时，才会在此页面上显示报表包：
    >
    >* 报表包在[!UICONTROL 管理工具]中针对该变量至少定义了一个分类。
-   >
-   >   （请参阅&#x200B;*分类规则集*&#x200B;中的[变量](/help/components/classifications/crb/classification-rule-set.md)，了解关于此先决条件的说明。）
+      >
+      >   （请参阅&#x200B;*分类规则集*&#x200B;中的[变量](/help/components/classifications/crb/classification-rule-set.md)，了解关于此先决条件的说明。）
    >
    >* 您在单击&#x200B;**[!UICONTROL 添加规则集]**&#x200B;以创建规则集后显示的[可用报表包](/help/components/classifications/crb/classification-rule-set.md)页面上选择了报表包。
 
@@ -363,7 +363,9 @@ t_classifications_test_rule.xml
 
  -->
 
-描述如何测试分类规则或规则集的步骤。运行测试会检查规则集中的所有规则。
+您可以测试分类规则或规则集。 运行测试会检查规则集中的所有规则。
+
+要测试分类规则集，请执行以下操作：
 
 1. [创建分类规则集](/help/components/classifications/crb/classification-rule-set.md)。
 1. 在“[!UICONTROL 分类规则生成器]”中，单击规则集名称。
@@ -395,7 +397,7 @@ t_validate_rules.xml
 
  -->
 
-描述如何验证和激活分类规则的步骤。
+要验证和激活分类规则，请执行以下操作：
 
 1. [创建分类规则集](/help/components/classifications/crb/classification-rule-set.md)，然后向规则集中[添加分类规则](/help/components/classifications/crb/classification-quickstart-rules.md)。
 1. 在规则编辑器中，单击&#x200B;**[!UICONTROL 激活]**。

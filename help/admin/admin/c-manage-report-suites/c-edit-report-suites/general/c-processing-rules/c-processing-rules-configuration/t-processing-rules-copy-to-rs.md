@@ -4,16 +4,16 @@ subtopic: Processing rules
 title: 将处理规则复制到其他报表包
 feature: Processing Rules
 exl-id: 6b3cb570-780a-4d18-8aba-4cb674f5b16c
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: ht
-source-wordcount: '116'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 83%
 
 ---
 
 # 将处理规则复制到其他报表包
 
-描述如何从一个报表包复制处理规则以及如何将这些规则替换或附加到其他报表包的步骤。
+要从一个报表包复制处理规则，并将这些规则替换或附加到另一个报表包，请执行以下操作：
 
 1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
 1. 选择某个报表包。

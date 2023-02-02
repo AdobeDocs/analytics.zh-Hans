@@ -6,10 +6,10 @@ uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 feature: Alerts
 role: User, Admin
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 96%
+source-wordcount: '841'
+ht-degree: 91%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 96%
 
 ## 添加警报 {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
-描述如何在 Adobe Analytics 中添加警报的步骤。
+您可以在Adobe Analytics中通过警报生成器或特定报表添加警报。
 
 <!-- 
 
@@ -40,7 +40,11 @@ t_add_an_alert.xml
 
  -->
 
-在 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]**&#x200B;菜单中，导航到新的警报生成器。但是，您仍然可以从 Reports &amp; Analytics 的报表内访问它：
+### 从警报生成器中添加警报
+
+1. 选择 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** 以打开警报生成器。
+
+### 从单个报表添加警报
 
 1. 在 Reports &amp; Analytics 中，打开要在其中设置警报的报表。
 1. 单击&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 添加警报]**。
@@ -48,7 +52,7 @@ t_add_an_alert.xml
 
 ## 查看或编辑现有警报 {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
-任务上下文
+<!-- add Task Context-->
 
 1. 转至 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 警报]**。这会将您引导至新的[警报管理器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html)。
 

@@ -5,10 +5,10 @@ uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 100%
+source-wordcount: '662'
+ht-degree: 99%
 
 ---
 
@@ -141,7 +141,7 @@ Ocean Blue Jean
 
 ## 创建特定于报表的过滤器 {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
-描述如何为报表创建过滤器的步骤。
+您可以为报表创建过滤器。
 
 <!-- 
 
@@ -153,7 +153,7 @@ t_reports_filter_specific.xml
 
 访问这些过滤器时，您可以看到列表中指定项目的报表量度。
 
-**创建特定于报表的过滤器**
+创建特定于报表的过滤器:
 
 1. 生成一个报表，如[!UICONTROL 购买报表]（**[!UICONTROL 网站量度]** > **[!UICONTROL 购买]** > **[!UICONTROL 购买转化漏斗]**）。
 1.  在报表标题中，单击&#x200B;**[!UICONTROL 过滤器]**&#x200B;链接。
@@ -162,8 +162,6 @@ t_reports_filter_specific.xml
 1. 单击&#x200B;**[!UICONTROL 确定]**。
 
 ## 添加关联过滤器 {#task_065042E384DA4BF3864C58AF2B88D6E2}
-
-描述如何添加关联过滤器的步骤。
 
 <!-- 
 
@@ -175,7 +173,7 @@ t_reports_correlation_filter.xml
 
 可过滤关联报表（使用任何可用关联）中显示的数据。此示例显示添加搜索引擎关联过滤器的方法。
 
-**添加关联过滤器**
+添加关联过滤器:
 
 1. 运行支持关联的报表。（请参阅[运行划分报表](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69)。）
 1. 在报表标题中，单击&#x200B;**[!UICONTROL 关联过滤器]**&#x200B;链接。

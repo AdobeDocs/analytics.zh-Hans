@@ -4,10 +4,10 @@ description: Analysis Workspace 是 Adobe Analytics 的首要分析工具。从�
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '575'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '570'
+ht-degree: 94%
 
 ---
 
@@ -37,7 +37,7 @@ Analysis Workspace 是一款通过浏览器即可使用的灵活工具，可让�
 
 ![](assets/create-new-project.png)
 
-您还可以从预建&#x200B;**“模板”**&#x200B;开始分析，这些模板可以是 Adobe 提供的标准模板，也可以是您的组织创建的自定义模板。根据您所考虑的分析或用例，有多个不同的模板可用。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hans)关于可用的不同模板选项。
+您还可以从预建&#x200B;**“模板”**&#x200B;开始分析，这些模板可以是 Adobe 提供的标准模板，也可以是您的组织创建的自定义模板。根据您所考虑的分析或用例，有多个不同的模板可用。 [了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hans)关于可用的不同模板选项。
 
 ## 构建分析 {#analysis}
 
@@ -51,7 +51,7 @@ Analysis Workspace 是一款通过浏览器即可使用的灵活工具，可让�
 
 ### 可视化图表
 
-接下来，将&#x200B;**“可视化图表”**（例如条形图或折线图）添加到数据的顶部，以便更加直观地将数据呈现出来。在最左侧的边栏中，选择中间的&#x200B;**[!UICONTROL 可视化图表]**&#x200B;图标，以查看所有可用的[可视化图表](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hans)。
+**可视化图表**，如条形图或折线图，可用于直观地将数据呈现出来。 在最左侧的边栏中，选择中间的&#x200B;**[!UICONTROL 可视化图表]**&#x200B;图标，以查看所有可用的[可视化图表](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hans)。
 
 ![](assets/build-visualizations.png)
 

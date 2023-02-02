@@ -6,10 +6,10 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: e589a26627a24da693fd3724e2078148412c71cc
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 94%
+source-wordcount: '1761'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 94%
 有关计划、下载和分发报表的信息。
 
 >[!IMPORTANT]
->2022年4月21日，我们宣布弃用特定于计划报表的几项功能，以便为之前宣布的Reports &amp; Analytics生命周期终止做准备。 这些功能包括计划新报表和新数据提取的功能。 为响应寻求扩展并简化从Reports &amp; Analytics迁移的客户请求，我们决定将这些功能的访问权限延长到2023年1月31日。 请注意，报告和数据提取的过期时间窗口将继续限制为9个月；除非重新激活计划，否则在此时段结束时，报表和数据提取提交将会暂停。 [了解详情](/help/analyze/reports-analytics/scheduled-reports-eol.md)
+>2022 年 4 月 21 日，我们宣布弃用计划报告的多项功能，为之前宣布的 Reports &amp; Analytics 生命周期结束做准备。这些功能包括计划新报告和新数据提取的能力。为响应客户延期请求并简化从 Reports &amp; Analytics 的过渡，我们决定将这些功能的访问权限延长至 2023 年 1 月 31 日。请注意，报告和数据提取的到期窗口仍为九个月；除非重新激活计划，否则报告和数据提取交付将在此期限结束时暂停。[了解详情](/help/analyze/reports-analytics/scheduled-reports-eol.md)
 
 计划报表以提交至 Adobe Analytics 应用程序时，可以使用“计划”和“分发”工具来查看已经自动发送的文件，并修改或终止提交。
 
@@ -44,7 +44,7 @@ ht-degree: 94%
 
 ## 发送报表 {#task_27642CD33D484FD0BF59EBD159EEF52C}
 
-描述如何以各种格式下载报表和通过电子邮件发送报表，以及计划报表以进行提交的步骤。
+要下载各种格式的报表并通过电子邮件发送报表，并计划报表以进行提交：
 
 1. 运行报表，然后单击&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 发送]**。
 1.  指定提交选项： 
@@ -78,7 +78,7 @@ ht-degree: 94%
 
 ## 打印报表 {#task_0F7CF6D6ED54462CAE4A793E271AF7E5}
 
-描述如何打印报表的步骤。
+打印报表:
 
 1. 运行报表。
 1. 单击&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 打印]**。![](assets/print.png)
@@ -115,11 +115,11 @@ ht-degree: 94%
 
 ## 共享报表链接 {#task_9711DDE9E140451B8C914EC5513E21EC}
 
-描述如何通过生成报表链接 (URL) 以发送给其他用户来共享报表的步骤。
+您可以通过生成要发送给其他用户的报表链接(URL)来共享报表。
 
 收件人单击此链接时，系统将要求提供登录凭据（公司名称、用户名和密码）。登录后，原始用户生成的报表将显示给收件人。应用标准权限限制。
 
-共享报表链接,
+共享报表链接:
 
 1. 运行报表。
 1. 单击&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 链接至此报表]**。

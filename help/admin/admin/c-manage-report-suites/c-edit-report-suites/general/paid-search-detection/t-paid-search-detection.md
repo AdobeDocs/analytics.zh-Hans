@@ -3,16 +3,16 @@ description: 描述如何配置付费搜索检测的步骤。
 title: 配置付费搜索检测
 feature: Admin Tools
 exl-id: a602a84c-f12f-4c98-a477-f59ea993e662
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: ht
-source-wordcount: '78'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 93%
 
 ---
 
 # 配置付费搜索检测
 
-描述如何配置付费搜索检测的步骤。
+要配置付费搜索检测，请执行以下操作：
 
 1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**，以打开[!UICONTROL 报表包管理器]。
 1. 选择报表包。

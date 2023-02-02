@@ -4,10 +4,10 @@ title: Reports and Analytics 快速入门
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '788'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '782'
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 在使用 Reports &amp; Analytics 之前，请了解这些基本的登录和设置任务以及如何访问帐户信息。
 
 >[!IMPORTANT]
->自 **2023 年 12 月 31 日**&#x200B;起，Adobe 决定中断 Reports &amp; Analytics 及其随附的报表和功能。到时候，Reports &amp; Analytics 及其所有报表和计划都将停止工作。支持 Reports &amp; Analytics 的报表、可视化和底层技术不再满足 Adobe 的技术标准。在 Analysis Workspace 中提供了 Reports &amp; Analytics 的大部分功能。自 2015 年发布 Analysis Workspace 以来，Reports &amp; Analytics 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。本通知解释了生命周期结束的过程。
+>自 **2023 年 12 月 31 日**&#x200B;起，Adobe 决定中断 Reports &amp; Analytics 及其随附的报表和功能。到时候，Reports &amp; Analytics 及其所有报表和计划都将停止工作。支持 Reports &amp; Analytics 的报表、可视化图表和底层技术不再满足 Adobe 的技术标准。在 Analysis Workspace 中提供了 Reports &amp; Analytics 的大部分功能。自 2015 年发布 Analysis Workspace 以来，Reports &amp; Analytics 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。本通知解释了生命周期结束的过程。
 
 报告帮助您深入了解传统 Web 渠道以及逐渐发展的新渠道，如移动、视频和社交网络。报表的部分示例包括：
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 ## 使用 Experience Cloud 登录
 
-描述如何使用 Adobe Experience Cloud 登录的步骤。
+要通过Adobe Experience Cloud登录，请执行以下操作：
 
 1. 启动联网计算机的浏览器。
 1. 转到 [!DNL https://login.experiencecloud.adobe.com/] 。
@@ -62,7 +62,7 @@ ht-degree: 100%
 
 ## 运行报表
 
-描述如何生成报表的步骤。
+要生成 报表，请执行以下操作：
 
 1. 登录到“[!UICONTROL Reports &amp; Analytics]”。
 
@@ -93,7 +93,9 @@ ht-degree: 100%
 
 ## 更改界面语言
 
-描述如何更改界面语言的步骤。您可以用所选的语言来查看 Reports &amp; Analytics 界面。
+您可以更改界面语言。 您可以用所选的语言来查看 Reports &amp; Analytics 界面。
+
+更改界面语言：
 
 1. 登录到 Analytics，然后选择&#x200B;**[!UICONTROL 报表]**&#x200B;选项卡。
 1. 在页脚中，单击&#x200B;**[!UICONTROL 语言]**&#x200B;菜单中的可用语言，然后选择您的首选语言。

@@ -5,10 +5,10 @@ uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '592'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '589'
+ht-degree: 97%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 {{ra-eol}}
 
-描述如何自定义图表以供预定受众充分使用的步骤。
+您可以自定义图表，以便它对目标受众最有用。
 
 可用的图表类型取决于您运行的报表类型。例如，趋势线图表对趋势报表有用，但您还能使用带趋势线的纵条图表，可以清楚地说明天数、周数、月数等的趋势。另外，您可以选择饼图以说明已查看页面的百分比。
 
-**更改报表图表**
+更改报表图表:
 
 1. 运行报表。
 1.  单击&#x200B;**[!UICONTROL 配置图表]**。

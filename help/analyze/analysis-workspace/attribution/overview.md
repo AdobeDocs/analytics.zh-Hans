@@ -4,10 +4,10 @@ description: 将成功事件的点数归因到多个维度项目的概念。
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: ecb3600d524817ccb01f0e0697672e4828d99e86
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '469'
+ht-degree: 92%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 通过归因，分析师能够自定义维度项目获取成功事件点数的方式。例如：
 
 1. 网站访客单击指向您的某个产品页面的付费搜索链接。他们将产品添加到购物车，但不购买。
-2. 第二天，他们查看自己朋友的社交媒体帖子，单击链接，然后完成购买。
+2. 第二天，他们会看到朋友的社交媒体帖子，单击链接，然后完成购买。
 
 在某些报表中，您可能希望将订单归因到“付费”搜索。在其他报表中，您可能希望将订单归因到社交。通过归因，您能够控制报表对的各个方面。它适用于 Adobe Analytics Ultimate、Prime、Select 和 Foundation 上的所有组织。如果您不确定您与 Adobe 签订的合同类型，请联系贵组织的客户经理。
 
@@ -64,6 +64,6 @@ Attribution IQ 包括以下功能：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 
-## Adobe Analytics工具不支持Attribution IQ
+## 不支持 Attribution IQ 的 Adobe Analytics 工具
 
-任何不支持Analytics 2.0 API的工具(如Report Builder)都不支持Attribution IQ。
+任何不支持 Analytics 2.0 API 的工具（例如 Report Builder）都不支持 Attribution IQ。

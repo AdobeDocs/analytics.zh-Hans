@@ -6,10 +6,10 @@ uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 98%
+source-wordcount: '705'
+ht-degree: 95%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 98%
 
 ## 管理共享功能板
 
-描述如何使用共享功能板管理选项的步骤。
+要管理共享功能板，请执行以下操作：
 
 1. 转到 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 功能板]**.
 1. 在“[!UICONTROL 共享功能板]”下方，找到您要管理的共享功能板（或原有功能板），然后选取下面一个或多个选项：
@@ -73,7 +73,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->接下来，请考虑使用 [Analysis Workspace 项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)及其将要下载和计划的功能。
+>接下来，请考虑使用 [Analysis Workspace 项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans)及其将要下载和计划的功能。
 
 复制原有功能板时，系统将打开原有功能板以供您编辑，您可添加旧内容或新内容。当您复制原有功能板时，旧内容将保留在原有功能板列表中。
 
@@ -92,7 +92,9 @@ ht-degree: 98%
 
 ## 共享功能板
 
-描述管理员如何将功能板共享（或推送）给多个用户的步骤。当您向用户推送功能板时，功能板将在用户的[!UICONTROL 共享功能板]菜单中变为可用。
+Analytics管理员可以将功能板共享（或推送）给多个用户。 当您向用户推送功能板时，功能板将在用户的[!UICONTROL 共享功能板]菜单中变为可用。
+
+要与多个用户共享功能板，请执行以下操作：
 
 1.  在[!UICONTROL 功能板管理器]中，定位功能板并启用&#x200B;**[!UICONTROL 共享]**。
 1. 单击&#x200B;**[!UICONTROL 提交至用户]**。![](assets/push.png)
@@ -110,18 +112,3 @@ ht-degree: 98%
 1. 单击&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 发送]**。
 
    有关更多信息，请参阅[计划和分发](/help/analyze/reports-analytics/scheduling.md)。
-
-## 存档功能板
-
->[!NOTE]
->
->2020 年 1 月，这项功能将不再可用。
-
-描述如何将任何发送的功能板存档为 PDF 文件的步骤。系统会将存档文件保存两年，或直到您存档的报表达到了最大 4 GB 容量限制，以先到者为准。
-
-1. 打开功能板。
-1. 单击&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 发送]**。
-1.  在[!UICONTROL 电子邮件报表]组中，启用&#x200B;**[!UICONTROL 存档]**。
-1.  指定提交选项，然后单击&#x200B;**[!UICONTROL 发送]**。
-
-   您可以在功能板管理器中查看存档的功能板。或者打开一个功能板，并单击&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 查看存档]**。

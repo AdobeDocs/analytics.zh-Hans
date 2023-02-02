@@ -3,10 +3,10 @@ description: 未分类键值在分类报表中作为标记为 None 的单个行�
 title: 未分类键值
 feature: Classifications
 exl-id: 37288c2d-f6f6-4343-87a1-3c3a7b56fe32
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '254'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ t_rename_classification_none.xml
 
  -->
 
-描述如何对报表中显示为 *`none`* 的未分类键值进行重命名的步骤。
+对显示为 *`none`* 在报表中：
 
 1. 使用导入器，将分类导入到本地文件。
 1. 向文件中添加一行，然后在“键值”列中键入 `~none~`。

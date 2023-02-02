@@ -3,10 +3,10 @@ description: 分类用于对值进行分组归类，并按照分组级别进行�
 title: 转化分类
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '560'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 ## 添加转化分类
 
-描述如何在“管理员”中添加转化分类的步骤。
+要在管理员中添加转化分类，请执行以下操作：
 
 1. 单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
 1. 选择某个报表包。

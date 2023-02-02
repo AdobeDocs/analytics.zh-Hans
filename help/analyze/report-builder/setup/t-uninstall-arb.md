@@ -5,16 +5,16 @@ uuid: 3fade973-e246-4fcb-abc1-0aafddca0536
 feature: Report Builder
 role: User, Admin
 exl-id: 8196d5e2-acf3-4bac-a993-d1b7301214c9
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 91%
+source-wordcount: '121'
+ht-degree: 95%
 
 ---
 
 # 卸载 Report Builder
 
-说明如何卸载 Adobe Report Builder 的步骤。
+卸载Adobe Report Builder。
 
 1. 确保 Microsoft Excel 处于关闭状态。
 1. 单击&#x200B;**[!UICONTROL 开始]** > **[!UICONTROL 控制面板]**。
@@ -24,5 +24,5 @@ ht-degree: 91%
 
    如果您希望从 Program Files 目录中完全删除所有文件和文件夹，请在卸载 Report Builder 后执行以下步骤：
 1. 单击&#x200B;**[!UICONTROL 开始]** > **[!UICONTROL 计算机]**。
-1. 导航到 [!DNL C:\Program Files\Adobe\]，或在64位版本的Windows上导航到[!DNL C:\Program Files (x86)\Adobe.]
+1. 导航至 [!DNL C:\Program Files\Adobe\]，或在 Windows 64 位版本上导航至 [!DNL C:\Program Files (x86)\Adobe.]。
 1. 如果此目录中仍存在 Report Builder 文件夹，请将其删除。
