@@ -4,10 +4,10 @@ description: 您可以为用户设置常规和项目首选项，以及深色主�
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 5706e7196ab7e0e044bf5114655c9d9e04468c60
+source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
 workflow-type: tm+mt
-source-wordcount: '3365'
-ht-degree: 74%
+source-wordcount: '2556'
+ht-degree: 95%
 
 ---
 
@@ -185,21 +185,12 @@ ht-degree: 74%
 
 ## 公司首选项
 
->[!AVAILABILITY]
->
->此部分中描述的公共访问链接功能处于版本的有限测试阶段。 当该功能正式发布时，将删除此说明。有关 Analytics 发布流程的信息，请参阅 [Adobe Analytics 功能发布](/help/release-notes/releases.md)。
-
 您可以更新适用于组织内所有用户和项目的公司首选项。 有关如何访问这些首选项的信息，请参阅[更新首选项](#update-preferences)。
 
 | 部分 | 首选项 | 选项 |
 | --- | --- | --- |
 | **“报表”选项卡** |  |  |
 |  | 隐藏报表选项卡 | 隐藏组织中所有用户的报表选项卡。 |
-| **公共访问链接** <!-- Double check the names of all these settings for what they are actually called --> |  |  |
-|  | 禁用所有公共访问链接 | <p>阻止您组织中的用户与没有Analysis Workspace帐户的用户共享Analysis Workspace项目。 用户只能与您组织内的其他Analysis Workspace用户共享项目。</p> <p>禁用公共链接时：</p> <ul><li><p>用户无法创建公共访问链接</p><p>“共享公共链接”选项将从“共享”菜单中删除。 这意味着用户无法再像 [与任何人共享公共链接（无需登录）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共享项目](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>任何现有公共链接均被禁用</p></li><p>如果禁用了公共链接，然后又重新启用了，则不会自动重新激活之前停用的所有链接。 在这种情况下，用户必须从“共享项目”对话框中为每个项目手动重新激活它们。</p> |
-|  | 需要密码 | <p>在组织中强制用户创建公共链接时要求提供密码保护。</p> <p>启用此选项后，每当用户创建指向Analysis Workspace项目的公共链接时，“需要密码”选项都会在共享对话框中启用，且用户无法禁用该选项。 (有关用户如何与组织外的用户共享项目的信息，请参阅 [与任何人共享公共链接（无需登录）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共享项目](/help/analyze/analysis-workspace/curate-share/share-projects.md).)</p><p>启用此选项时，请考虑以下事项：</p> <ul><li><p>启用此选项后，所有当前活动且未启用密码保护的公共链接都将被停用。</p></li> <li><p>如果启用了此选项，稍后又禁用了此选项，则不会自动重新激活之前停用的所有链接。 在这种情况下，用户必须从“共享项目”对话框中手动重新激活它们。</p></li></ul> |
-|  | 需要单点登录身份验证 | <p>需要对所有公共链接进行单点登录(SSO)身份验证。 启用此选项后，只有具有联合ID且可以登录到Experience Cloud的收件人才能访问共享的公共链接。</p> <p>启用此选项后，每当用户创建指向Analysis Workspace项目的链接时，“需要单点登录(SSO)身份验证”选项都会在共享对话框中启用，用户无法禁用该选项。 (有关用户如何与组织外的用户共享项目的信息，请参阅 [与任何人共享公共链接（无需登录）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共享项目](/help/analyze/analysis-workspace/curate-share/share-projects.md).)</p> <p>启用此选项时，请考虑以下事项：</p><ul><li><p>启用此选项后，所有当前活动且未启用单点登录(SSO)的公共链接都将被停用。</p></li> <li><p>如果启用了此选项，稍后又禁用了此选项，则不会自动重新激活之前停用的所有链接。 在这种情况下，用户必须从“共享项目”对话框中手动重新激活它们。</p></li> <li><p>此选项仅在贵组织中实施了SSO时可用。 有关系统管理员如何为您的组织启用单点登录(SSO)的信息，请参阅 [设置身份和单点登录](https://helpx.adobe.com/cn/enterprise/using/set-up-identity.html){target=_blank}.</p><p>如果为贵组织配置了SSO，请检查是否在控制台中实施了任何类型的自动帐户创建。 通常，系统管理员会设置此设置，如 [启用自动帐户创建](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>如果贵组织所在的行业需要符合HIPAA合规性，则此选项将自动启用，并且无法禁用。</p></li></ul> |
-|  | 向用户显示“需要单点登录身份验证”选项 | <p>如果“需要单点登录身份验证”选项处于禁用状态，您可以选择此选项，以允许组织中的用户选择他们是否希望为他们共享的项目需要单点登录身份验证。 在这种情况下，每当用户创建指向Analysis Workspace项目的链接时，“需要单点登录(SSO)身份验证”选项都会在共享对话框中启用。 如果用户选择，则可以禁用此功能。<!--or is this disabled by default?--> (有关用户如何与组织外的用户共享项目的信息，请参阅 [与任何人共享公共链接（无需登录）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共享项目](/help/analyze/analysis-workspace/curate-share/share-projects.md).)</p><p>如果启用了“需要单点登录身份验证”选项，则将选中此选项以向用户显示该身份验证，且无法取消选中此选项。</p><p>选择此选项时，请考虑以下事项：</p><ul><li><p>此选项仅在贵组织中实施了SSO时可用。 有关系统管理员如何为您的组织启用单点登录(SSO)的信息，请参阅 [设置身份和单点登录](https://helpx.adobe.com/cn/enterprise/using/set-up-identity.html){target=_blank}.</p><p>如果为贵组织配置了SSO，请检查是否在控制台中实施了任何类型的自动帐户创建。 通常，系统管理员会设置此设置，如 [启用自动帐户创建](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>如果选择此选项，并且用户选择要求进行单点登录身份验证，则只有具有联合ID且可以登录到Experience Cloud的收件人才能访问共享的公共链接。</p></li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 

@@ -5,10 +5,10 @@ title: 创建可共享链接
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 4b11a7057177bec9d2e9d7c435ad0d5476a46602
+source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 68%
+source-wordcount: '298'
+ht-degree: 80%
 
 ---
 
@@ -32,14 +32,6 @@ Analysis Workspace 提供了多种将项目共享给用户的方法，包括能�
 请[观看视频](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=zh-Hans)，了解如何创建链接，并使用这些链接促使收件人访问项目的特定部分。
 
 ![](assets/get-viz-link.png)
-
-## 获取公共链接
-
-{{release-limited-testing-section}}
-
-您可以与无权访问Analysis Workspace的人员共享Adobe Analytics项目。 这可以包括组织外的人员或组织内未配置Adobe Analytics的人员。
-
-有关更多信息，请参阅 [与任何人共享公共链接（无需登录）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共享项目](/help/analyze/analysis-workspace/curate-share/share-projects.md).)
 
 ## 在目录中使用链接 {#TOC}
 
