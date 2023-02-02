@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等等。
-source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
+source-git-commit: e6cef6e77f5418b026830848b6c0fc3347aa6033
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '607'
+ht-degree: 98%
 
 ---
 
@@ -134,6 +134,7 @@ ht-degree: 0%
             + [计划尖峰](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [永久性流量](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [应用程序管理](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+         + [媒体管理](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
          + [隐私报表](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + 实时报表 {#real-time-reports}
             + [实时报表概述](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
@@ -150,7 +151,6 @@ ht-degree: 0%
       + [首选项管理器](admin/company/preferences-manager.md)
       + [待定操作](admin/company/pending-actions-admin.md)
       + [功能访问级别](admin/company/feature-access-levels.md)
-   + [视频管理](admin/video-management.md)
    + 服务器调用使用情况 {#server-call-usage}
       + [服务器调用使用情况概述](admin/c-server-call-usage/overage-overview.md)
       + [查看当前的服务器调用使用情况](admin/c-server-call-usage/server-call-usage-dashboard.md)
