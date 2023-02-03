@@ -4,9 +4,9 @@ description: 使用此变量将在线和离线数据链接在一起。
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '426'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 92%
 
 默认情况下，Adobe 最多可在 90 天内记住所有交易 ID 值（已链接和未链接）。如果离线互动过程的时间超过 90 天，请联系客户关怀延长该期限。
 
-## 使用Web SDK的交易ID
+## 使用 Web SDK 的交易 ID
 
-交易ID为 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `commerce.order.transactionID`.
+在 XDM 字段 `commerce.order.transactionID` 下，[为 Adobe Analytics 映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)交易 ID。
 
-## 使用Adobe Analytics扩展的交易ID
+## 使用 Adobe Analytics 扩展的交易 ID
 
 您可以在配置 Analytics 扩展时（全局变量）或根据规则设置交易 ID。
 
@@ -39,7 +39,7 @@ ht-degree: 92%
 
 您可以将交易 ID 设置为任何字符串值，包括数据元素。
 
-## AppMeasurement和Analytics扩展自定义代码编辑器中的s.transactionID
+## AppMeasurement 和 Analytics 扩展自定义代码编辑器中的 s.transactionID
 
 `s.transactionID` 变量是一个包含交易的唯一标识符的字符串。有效值包括长度不超过 100 字节的字母数字字符。其默认值是空字符串。
 
