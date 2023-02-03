@@ -5,9 +5,9 @@ title: 创建文件夹
 feature: Workspace Basics
 exl-id: d546b87f-627d-4467-b1b8-36e65134fdcb
 source-git-commit: 29f8e18b5723228340c7e55af5159145d28e7cce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '146'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 93%
 
 1. 输入新文件夹的名称。
 
-1. 从下拉菜单中选择标记或添加新标记。
+1. 从下拉菜单中选择标签或添加全新标签。
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-tags.png)
 
