@@ -5,9 +5,9 @@ title: 处理规则概述
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -60,4 +60,4 @@ s.contextData['genre'] = "Youth";
 
 ## 已知限制
 
-**在处理规则中使用Carat(^)。** 如果要在处理规则中将克拉用作分隔符或用于其他目的，则每单克拉必须由两克拉表示。 例如，表示单克拉为^^，双克拉为^^^^，等等。
+**在处理规则中使用插入符号 (^)。**&#x200B;如果要在处理规则中使用插入符号作为分隔符或用于其他目的，则每个插入符号必须由两个插入符号表示。 例如，将一个插入符号表示为 ^^，将两个插入符号表示为 ^^^^，诸如此类。
