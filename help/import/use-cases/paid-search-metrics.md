@@ -3,9 +3,9 @@ title: 导入付费搜索指标
 description: 配置 Adobe Analytics 以跟踪您的付费搜索指标（如 Google AdWords、MSN、Yahoo 等等）的步骤。使用数据源。
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1210'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 98%
 1. 单击&#x200B;**[!UICONTROL 下一步]**，并为您的数据源命名。此名称显示在数据源管理器中。
 1. 接受服务协议，然后单击&#x200B;**[!UICONTROL 下一步]**。
 1. 选择三个标志指标：[!UICONTROL 展示次数]、[!UICONTROL 点击数]和[!UICONTROL 总成本]，然后单击&#x200B;**[!UICONTROL 下一步]**。
-1. 现在，将此新数据源“映射”到我们在中创建的自定义事件 [配置成功事件](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md).
+1. 现在，将这个新的数据源“映射”到我们在[配置成功事件](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)中创建的自定义事件。
 
    ![映射](assets/data-source-mapping.png)
 
