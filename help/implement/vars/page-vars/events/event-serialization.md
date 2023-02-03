@@ -4,9 +4,9 @@ description: 帮助删除网站上的重复量度。
 feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -32,13 +32,13 @@ ht-degree: 78%
 >
 >如果要删除重复的 [`purchase`](event-purchase.md) 事件，请改用 [`purchaseID`](../purchaseid.md) 变量。
 
-## 使用Web SDK的事件ID
+## 通过 Web SDK 使用事件 ID
 
-事件序列化为 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 的 `id`. 完整的XDM路径取决于您要序列化的事件。
+在所需事件 XDM 字段的 `id` 下[为 Adobe Analytics 映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)事件序列化。完整的 XDM 路径取决于要序列化的事件。
 
-例如，如果要序列化购物车加货量度，请将 `commerce.productListAdds.id` 将XDM字段更改为所需的序列化值。 如果要序列化自定义事件20，请将 `_experience.analytics.event1to100.event20` 将XDM字段更改为所需的序列化值。
+例如，如果要序列化“购物车新增”量度，请将 `commerce.productListAdds.id` XDM 字段设置为所需的序列化值。如果要序列化自定义事件 20，请将 `_experience.analytics.event1to100.event20` XDM 字段设置为所需的序列化值。
 
-## 使用事件ID(使用Adobe Analytics扩展)
+## 通过 Adobe Analytics 扩展使用事件 ID
 
 您可以在配置 Analytics 扩展时（全局变量）设置事件 ID 字段，也可以根据规则执行此操作。
 
@@ -51,7 +51,7 @@ ht-degree: 78%
 
 有效值是长度不超过 20 字节的字母数字字符。如果输入的值超过 20 个字节，系统会将其截断为前 20 个字节。
 
-## 在AppMeasurement和Analytics扩展自定义代码编辑器中使用事件ID
+## 在 AppMeasurement 和 Analytics 扩展自定义代码编辑器中使用事件 ID
 
 事件序列化是 `s.events` 变量的一部分。在字符串中使用冒号为每个事件分配一个 ID。
 
