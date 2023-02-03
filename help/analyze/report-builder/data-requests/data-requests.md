@@ -5,9 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
 source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '364'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
 
    例如，您可以运行[!UICONTROL 页面报表]，然后应用“首次访问”区段。
 
-1. **报表类型**：指定要在数据请求中运行的基本报表。每个请求运行一个报表，并且报表可以包含一对多维度和一对多指标。报表类型的指标和维度显示在“[!UICONTROL 请求向导: 第 2 步]”界面上。请参阅 [选择报表类型](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
+1. **报表类型**：指定要在数据请求中运行的基本报表。每个请求运行一个报表，并且报表可以包含一对多维度和一对多指标。报表类型的指标和维度显示在“[!UICONTROL 请求向导: 第 2 步]”界面上。请参阅[选择报表类型](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md)。
 
 1. **日期范围**：定义请求涵盖的时间跨度。系统提供了多种类型的请求时段，如预设、固定和滚动。最大时段数是 366。您还可以选择单元格指定的日期范围，并且将日期范围保存为模板，供以后使用。请参阅[配置报表日期](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)
 
