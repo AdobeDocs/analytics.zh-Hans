@@ -4,9 +4,9 @@ title: 创建报表包
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,8 +30,8 @@ ht-degree: 97%
    >
    >只能复制设置，而不能复制数据。如果客户关怀团队复制设置，您将需要对客户关怀团队提供的与所涉及的风险相关的免责声明进行书面确认。请参阅[不会从源报表包复制的设置](/help/admin/admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)，以了解更多信息。
 
-1. 填写 [新报表包](/help/admin/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md).
-1. 单击&#x200B;**[!UICONTROL 创建报表包]**。
+1. 填写[新的报表包](/help/admin/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)中描述的字段。
+1. 单击“**[!UICONTROL 创建报表包]**”。
 
 报表包 ID 最长为 40 字节。报表包易记名称最长为 255 字节。
 
