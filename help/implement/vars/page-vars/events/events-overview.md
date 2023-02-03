@@ -4,40 +4,40 @@ description: 设置事件变量，该变量可控制网站上的大多数量度�
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 source-git-commit: 62f793491d2f95266a71bc217260353f8c040525
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '809'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
-# 事件
+# events
 
 维度和量度是报表的重要组成部分。`events` 变量负责收集您网站上许多量度的数据。事件通常会递增报表中的[量度](/help/components/metrics/overview.md)。
 
 在实施事件之前，请确保在报表包设置的[成功事件](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)下创建和配置事件。如果您计划在链接跟踪点击中使用自定义事件，请确保正确设置 [`linkTrackVars`](../../config-vars/linktrackvars.md) 和 [`linkTrackEvents`](../../config-vars/linktrackevents.md)。
 
-## 使用Web SDK的事件
+## 使用 Web SDK 的事件
 
-自定义事件包括 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在以下XDM字段下：
+在以下 XDM 字段下方，[为 Adobe Analytics 映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)自定义事件：
 
-* 自定义事件1-100已映射到 `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
-* 自定义事件101-200已映射到 `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
-* 此模式每100个事件重复一次， `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` 用于指定增量。 `eventx.id` 用于 [序列化](event-serialization.md).
-* 订单已映射到 `commerce.purchases.value`.
-* 单位被映射到所有 `productListItems[].quantity` 字段。
-* 收入会映射到所有 `productListItems[].priceTotal` 字段。
-* 产品查看次数映射到 `commerce.productListViews.value`.
-* 购物车被映射到 `commerce.productListOpens.value`.
-* 购物车加货已映射到 `commerce.productListAdds.value`.
-* 购物车减货已映射到 `commerce.productListRemovals.value`.
-* 购物车查看次数被映射到 `commerce.productListViews.value`.
-* 结帐已映射到 `commerce.checkouts.value`.
+* 自定义事件 1-100 将映射到 `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`。
+* 自定义事件 101-200 将映射到 `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`。
+* 此模式将每 100 个事件重复一次到 `_experience.analytics.event901to1000.event901` – `_experience.analytics.event901to1000.event1000`。`eventx.value` 用于指定增量。`eventx.id` 用于[序列化](event-serialization.md)。
+* 订单将映射到 `commerce.purchases.value`。
+* 件数将映射到所有 `productListItems[].quantity` 字段的总和。
+* 收入将映射到所有 `productListItems[].priceTotal` 字段的总和。
+* 产品视图将映射到 `commerce.productListViews.value`。
+* 购物车将映射到 `commerce.productListOpens.value`。
+* 购物车加货将映射到 `commerce.productListAdds.value`。
+* 购物车减货将映射到 `commerce.productListRemovals.value`。
+* 购物车查看次数将映射到 `commerce.productListViews.value`。
+* 结账将映射到 `commerce.checkouts.value`。
 
 >[!NOTE]
 >
->如果在 `productListItems` (例如， `productListItems._experience.analytics.event1.value`)且该事件尚未在此字段中，则会自动将该事件添加到此字段。
+>如果在 `productListItems` 下设置一个事件（例如 `productListItems._experience.analytics.event1.value`），并且该事件尚未在此字段中，则该事件会自动添加到此字段中。
 
-## 使用Adobe Analytics扩展的事件
+## 使用 Adobe Analytics 扩展的事件
 
 您可以在配置 Analytics 扩展时（全局变量）或根据规则设置事件。
 
@@ -53,9 +53,9 @@ ht-degree: 81%
 * 允许您选择要包括的事件的下拉列表
 * 用于序列化的可选文本字段。请参阅[事件序列化](event-serialization.md)以了解更多信息。
 * 用于事件值的可选文本字段。您可以包含货币（货币事件）或整数（非货币事件）以使其多次递增。例如，在下拉列表下选择 `event1` 并在此字段中包含 `10`，报表中的 `event1` 将以 10 为单位进行递增。
-* 用于添加其他事件的按钮。您可以根据需要向单个规则添加任意数量的事件。
+* 用于添加其他事件的按钮。您可以在合理的范围内向单个规则添加所需数量的事件。
 
-## AppMeasurement和Analytics扩展自定义代码编辑器中的s.events
+## AppMeasurement 和 Analytics 扩展自定义代码编辑器中的 s.events
 
 `s.events` 变量是一个字符串，其中包含要包含在点击中的以逗号分隔的事件列表。此变量没有字节限制，因此不会被截断。有效的值包括：
 
