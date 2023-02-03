@@ -4,9 +4,9 @@ title: Adobe Analytics 和 CCPA
 feature: Data Governance
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
 source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '610'
+ht-degree: 100%
 
 ---
 
