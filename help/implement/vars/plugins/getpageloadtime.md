@@ -4,9 +4,9 @@ description: 跟踪页面加载所用的时间。
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
 source-git-commit: a00511d62960dc077620b2882f4e7f816267f939
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 64%
 
 `getPageLoadTime` 插件使用 JavaScript 性能对象来让您可以测量页面完全加载所需的时间。如果您想要测量页面加载所需的时间，Adobe 建议您使用此插件。
 
->注意/警告：如果您从以前的版本升级此插件，则很可能还需要更改用于调用此函数的代码。  在部署到生产环境之前，请检查您的实施并进行全面测试
+>注意/警告：如果您从早期版本升级此插件，您很可能还需要更改调用此函数的代码。在部署到生产环境之前，请检查您的实施并彻底测试
 
 <!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
@@ -62,16 +62,16 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 `getPercentPageViewed` 函数使用以下参数：
 
-* **`pv`** （可选，字符串）：要将页面加载时间与关联的维度。  此值应等于标识页面本身的值。 如果未设置，则此参数将默认为Adobe AppMeasurement pageName变量（即s.pageName）或未设置s.pageName时的URL
+* **`pv`**（可选，字符串）：要与页面加载时间关联的维度。此值应等于标识页面本身的值。如果未设置，此参数将默认为 Adobe AppMeasurement pageName 变量（即 s.pageName）或未设置 s.pageName 时的 URL
 
 调用此函数时，不会返回任何内容；但是，会设置以下变量：
 
-* `window._pltPreviousPage`:上一页的值（即传递到pv参数的内容）
+* `window._pltPreviousPage`：上一页的值（即传入 pv 参数的内容）
 * `window._pltLoadTime`：加载上一页所用的时间（以秒为单位）
 
-getPageLoadTime插件会创建一个第一方Cookie:
+getPageLoadTime 插件会创建一个第一方 Cookie：
 
-* `s_plt`：加载上一页所用的时间（以秒为单位）。还包含传递到pv参数的值。  将在浏览器会话结束时过期。
+* `s_plt`：加载上一页所用的时间（以秒为单位）。还包含已传入 pv 参数的内容的值。将在浏览器会话结束时过期。
 
 ## 示例
 
@@ -92,12 +92,12 @@ if(window._pltPreviousPage)
 
 ## 版本历史记录
 
-### 3.0（2022年12月6日）
+### 3.0（2022 年 12 月 6 日）
 
-* 对插件进行了彻底重写，使其与解决方案无关。  例如，现在与AEP Web SDK兼容
-* 创建 `_pltPreviousPage` 和 `_pltLoadTime` 窗口对象（而不是AppMeasurement s对象中）中的变量
-* 不再需要s_pltp Cookie — 现在所有内容都仅存储在s_plt Cookie中
-* 包括getVersion函数，可帮助进行疑难解答
+* 完全重写插件以使其与解决方案无关。例如，它现在与 AEP Web SDK 兼容
+* 在窗口对象（而不是 AppMeasurement s 对象）中创建 `_pltPreviousPage` 和 `_pltLoadTime` 变量
+* 消除了对 s_pltp Cookie 的需求；现在，所有内容都只存储在 s_plt Cookie 中
+* 包括 getVersion 函数以帮助进行故障排除
 
 ### 2.0.1（2021 年 3 月 26 日）
 
