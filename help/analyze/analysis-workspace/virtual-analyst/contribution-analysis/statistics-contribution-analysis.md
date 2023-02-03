@@ -4,9 +4,9 @@ title: 贡献分析中使用的统计技术
 role: User, Admin
 exl-id: 1e19b154-c6d2-48fe-9baf-db4e47789321
 source-git-commit: 865b19f5e541691eabaa81d4533a64c79501fd19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 93%
 
    ![](assets/cramers-v.png)
 
-1. 对于每个维度项目，皮尔逊残差(PR)用于测量异常量度与每个维度项目之间的关联。 PR 遵循标准的正态分布，这允许算法比较两个随机变量的 PR（甚至是在偏差不可比较的情况下）。实际上，错误不是已知的，并可使用有限的样本校正进行预测。
+1. 对于每个维度项，皮尔逊残差 (PR) 用于测量异常量度和每个维度项之间的关联。PR 遵循标准的正态分布，这允许算法比较两个随机变量的 PR（甚至是在偏差不可比较的情况下）。实际上，错误不是已知的，并可使用有限的样本校正进行预测。
 
    在前一示例表格 1 中，PR 以及国家/地区 i 和时间段 2 的有限样本校正都是给定的
 
    ![](assets/persons-residual.png)
 
-   此处,
+   此处，
 
    ![](assets/pr-example.png)
 
