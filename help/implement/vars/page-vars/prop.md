@@ -4,9 +4,9 @@ description: 可在实施中使用的自定义变量。
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '603'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ Prop 是自定义变量，您可以根据需要随意使用。它们不会在设
 
 如果您有[解决方案设计文档](/help/implement/prepare/solution-design.md)，则可以将这些自定义维度分配给特定于贵组织的值。可用 prop 的数量取决于您与 Adobe 签署的合同。如果您与 Adobe 签署的合同支持，则至多有 75 个 prop 可供使用。
 
-## 使用Web SDK的Prop
+## 使用 Web SDK 的 props 属性
 
-Prop是 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `_experience.analytics.customDimensions.props.prop1` to `_experience.analytics.customDimensions.props.prop75`. 列表属性在单独的字段集中指定。
+在 XDM 字段 `_experience.analytics.customDimensions.props.prop1` 至 `_experience.analytics.customDimensions.props.prop75` 中，[为 Adobe Analytics 映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) props 属性。在一组单独的字段中指定列表 props。
 
-## 使用Adobe Analytics扩展的Prop
+## 使用 Adobe Analytics 扩展的 props
 
-您可以在配置 Analytics 扩展时（全局变量）或根据规则设置 Prop。
+您可以在配置 Analytics 扩展时（全局变量）或根据规则设置 props。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
@@ -39,7 +39,7 @@ Prop是 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analy
 
 您可以将 prop 设置为值或数据元素。您还可以从其他 Analytics 变量复制值。
 
-## AppMeasurement和Analytics扩展自定义代码编辑器中的s.prop1 - s.prop75
+## AppMeasurement 和 Analytics 扩展自定义代码编辑器中的 s.prop1 - s.prop75
 
 每个 prop 变量都是一个字符串，其中包含特定于贵组织的自定义值。其值的最大长度为 100 字节；超过 100 字节的值在发送到 Adobe 时会自动被截断。
 
@@ -53,19 +53,19 @@ s.prop1 = "Example custom value";
 
 ### 配置列表属性
 
-在中启用列表属性 [流量变量](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) 下。 确保正确配置所需的分隔符。Adobe 不提供默认分隔符。
+在报表包设置下的[流量变量](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)中启用列表 props。 确保正确配置所需的分隔符。Adobe 不提供默认分隔符。
 
 >[!TIP]
 >
->实施中使用的常见分隔符为逗号 (`,`)、冒号 (`:`)、分号 (`;`) 或管道字符 (`|`)。您可以使用最适合您的实施的任何非扩展ASCII分隔符。
+>实施中使用的常见分隔符为逗号 (`,`)、冒号 (`:`)、分号 (`;`) 或管道字符 (`|`)。您可以使用最适合您的实施的任何非扩展 ASCII 分隔符。
 
-### 使用Web SDK设置列表属性
+### 使用 Web SDK 设置列表 props
 
-在报表包设置中使用所需的分隔符配置列表属性后，将在 `_experience.analytics.customDimensions.listProps.prop1.values[]` to `_experience.analytics.customDimensions.listProps.prop75.values[]`. Web SDK会自动使用报表包设置下列出的正确分隔符。 如果在XDM字段中设置分隔符(例如， `_experience.analytics.customDimensions.props.prop1.delimiter`)，会覆盖从报表包设置自动检索到的分隔符，并且可能导致对列表属性字符串的解析不正确。
+使用所需的分隔符在报表包设置中配置列表 props 后，将在 `_experience.analytics.customDimensions.listProps.prop1.values[]` 至 `_experience.analytics.customDimensions.listProps.prop75.values[]` 下为 Adobe Analytics 映射列表 props。 Web SDK 会自动使用报表包设置下列出的正确分隔符。如果您在 XDM 字段中设置分隔符（例如，`_experience.analytics.customDimensions.props.prop1.delimiter`），则会覆盖从报表包设置中自动检索的分隔符，并可能导致错误分析列表 prop 字符串。
 
-### 使用Adobe Analytics扩展和AppMeasurement设置列表属性
+### 使用 Adobe Analytics 扩展和 AppMeasurement 设置列表 props
 
-在报表包设置中使用所需的分隔符配置列表属性后，除了使用分隔符外，没有任何其他实施差异。
+在报表包设置中使用所需的分隔符配置列表 props 后，除了使用分隔符外，没有任何其他实施差异。
 
 ```js
 // List prop delimited with a comma
