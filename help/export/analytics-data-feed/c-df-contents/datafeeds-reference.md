@@ -6,9 +6,9 @@ title: 数据列引用
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 2156cc113db2049cd6a0feb5bcbfb85b8ecb16d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3641'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 98%
 | **`browser_width`** | 浏览器窗口的宽度（单位：像素）。 | 无符号 smallint |
 | **`c_color`** | 调色板的位深度。在计算[颜色深度](/help/components/dimensions/color-depth.md)维度时用到。AppMeasurement 使用 JavaScript 函数 `screen.colorDepth()`。 | char(20) |
 | **`campaign`** | 在[跟踪代码](/help/components/dimensions/tracking-code.md)维度中使用的变量。 | varchar(255) |
-| **`carrier`** | Adobe Advertising 集成变量。指定移动设备运营商。引用 `carrier` 查找表。 | varchar(100) |
+| **`carrier`** | Adobe Advertising 集成变量。指定移动运营商。引用 `carrier` 查找表。 | varchar(100) |
 | **`ch_hdr`** | 通过 HTTP 请求头收集的客户端提示。 | 文本 |
 | **`ch_js`** | 通过用户代理客户端提示 JavaScript API 收集的客户端提示。 | 文本 |
 | **`channel`** | 在[网站部分](/help/components/dimensions/site-section.md)维度中使用的变量。 | varchar(100) |
@@ -125,13 +125,13 @@ ht-degree: 98%
 | **`mobilecampaignterm`** | 要在此客户获取中跟踪的付费关键字或其他搜索词。由移动设备应用程序客户获取填充。 | varchar(255) |
 | **`mobiledayofweek`** | 应用程序启动的时间（星期几）。 | varchar(255) |
 | **`mobiledayssincefirstuse`** | 距应用程序首次运行的间隔天数。 | varchar(255) |
-| **`mobiledayssincelastupgrade`** | 已停用 — 从上下文数据变量a.DaysSinceLastUpgrade收集。 自上一个会话以来经过的天数。 | varchar(255) |
+| **`mobiledayssincelastupgrade`** | 已停用 – 从上下文数据变量 a.DaysSinceLastUpgrade 收集。 自上一个会话以来经过的天数。 | varchar(255) |
 | **`mobiledayssincelastuse`** | 距应用程序上次运行的间隔天数。 | varchar(255) |
 | **`mobiledeeplinkid`** | 从上下文数据变量 `a.deeplink.id` 收集。在客户获取报表中用作移动客户获取链接的标识符。 | varchar(255) |
 | **`mobiledevice`** | 移动设备名称。在 iOS 上，该变量存储为用逗号分隔的 2 位数的字符串。第一个数字表示设备是第几代的，而另一个数字则表示设备所属的系列。 | varchar(255) |
 | **`mobilehourofday`** | 确定应用程序启动的具体时间。采用 24 小时数字格式。 | varchar(255) |
 | **`mobileinstalldate`** | 移动设备安装日期。表示用户首次打开移动设备应用程序的日期。 | varchar(255) |
-| **`mobilelaunchessincelastupgrade`** | 已停用 — 从上下文数据变量a.LaunchesSinceUpgrade收集。 报告自上次升级以来的启动次数。 | varchar(255) |
+| **`mobilelaunchessincelastupgrade`** | 已停用 – 从上下文数据变量 a.LaunchesSinceUpgrade 收集。报告自上次升级以来的启动次数。 | varchar(255) |
 | **`mobilelaunchnumber`** | 应用程序每启动一次，该变量值便会递增。 | varchar(255) |
 | **`mobileltv`** | 已不再使用。由 trackLifetimeValue 方法填充。 | varchar(255) |
 | **`mobilemessagebuttonname`** | 从上下文数据变量 `a.message.button.id` 收集。用于应用程序内消息传递，以标识关闭消息的按钮。 | varchar(100) |
@@ -139,13 +139,13 @@ ht-degree: 98%
 | **`mobilemessageonline`** | 应用程序内消息在线 | varchar(255) |
 | **`mobilemessagepushoptin`** | 从上下文数据变量 `a.push.optin` 收集。当用户选择加入推送消息时，设置为“true”；否则，将该值设为“false”。 | varchar(255) |
 | **`mobilemessagepushpayloadid`** | 从上下文数据变量 `a.push.payloadid` 收集。在推送消息中用作有效负载标识符。 | varchar(255) |
-| **`mobileosenvironment`** | 已停用 — 从上下文数据变量收集 `a.OSEnvironment`. 指明操作系统环境，如 Android 或 iOS。 | varchar(255) |
+| **`mobileosenvironment`** | 已停用 – 从上下文数据变量 `a.OSEnvironment` 收集。指明操作系统环境，如 Android 或 iOS。 | varchar(255) |
 | **`mobileosversion`** | Mobile Services 操作系统版本 | varchar(255) |
 | **`mobileplaceaccuracy`** | 从上下文数据变量 `a.loc.acc` 收集。指示收集时 GPS 的精度（以米为单位）。 | varchar(255) |
 | **`mobileplacecategory`** | 从上下文数据变量 `a.loc.category` 收集。描述特定位置的类别。 | varchar(255) |
 | **`mobileplaceid`** | 从上下文数据变量 `a.loc.id` 收集。给定目标点的标识符。 | varchar(255) |
-| **`mobilepushoptin`** | Mobile Services推送选择加入 | varchar(255) |
-| **`mobilepushpayloadid`** | Mobile Services推送付费ID | varchar(255) |
+| **`mobilepushoptin`** | Mobile Services Push 选择启用 | varchar(255) |
+| **`mobilepushpayloadid`** | Mobile Services Push 负载 ID | varchar(255) |
 | **`mobilerelaunchcampaigncontent`** | Mobile Services 启动内容 | varchar(255) |
 | **`mobilerelaunchcampaignmedium`** | Mobile Services 启动媒介 | varchar(255) |
 | **`mobilerelaunchcampaignsource`** | Mobile Services 启动来源 | varchar(255) |
@@ -166,7 +166,7 @@ ht-degree: 98%
 | **`page_type`** | 用于填充[未找到页面](/help/components/dimensions/pages-not-found.md)维度。仅用于 404 页面。此变量应为空或包含 `ErrorPage` 值。 | char(20) |
 | **`page_url`** | 点击的 URL。请注意，`post_page_url` 被剥离以用于链接跟踪图像请求，并使用 varchar(255) 数据类型。 | 文本 |
 | **`pagename`** | 用于填充[页面](/help/components/dimensions/page.md)维度。如果 [`pagename`](/help/implement/vars/page-vars/pagename.md) 变量为空，则 Analytics 改用 `page_url`。 | varchar(100) |
-| **`pagename_no_url`** | 类似于 `pagename`，但不会回退到 `page_url`. 仅 `post` 列。 | varchar(100) |
+| **`pagename_no_url`** | 与 `pagename` 类似，但它不会回退到 `page_url`。仅 `post` 列可用。 | varchar(100) |
 | **`paid_search`** | 设置点击是否与付费搜索检测匹配的标记。 | 无符号 tinyint |
 | **`partner_plugins`** | 未使用。属于某个已弃用的功能。 | varchar(255) |
 | **`persistent_cookie`** | 在[永久性 Cookie 支持](/help/components/dimensions/persistent-cookie-support.md)维度中用到。指示访客是否要支持每次点击后未被丢弃的 Cookie。 | char(1) |
@@ -208,7 +208,7 @@ ht-degree: 98%
 | **`sourceid`** | 源 ID | 无符号 int |
 | **`state`** | 状态变量。 | varchar(50) |
 | **`stats_server`** | 没有用处。处理点击的 Adobe 内部服务器。 | char(30) |
-| **`survey`** | 已不再使用。Adobe Survey 变量。仅 `post` 列。 | 文本 |
+| **`survey`** | 已不再使用。Adobe Survey 变量。仅 `post` 列可用。 | 文本 |
 | **`survey_instances`** | 已不再使用。Adobe Survey 实例变量。 | 文本 |
 | **`t_time_info`** | 访客的当地时间。格式为：`M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | **`tnt`** | 在 Adobe Target 集成中使用。表示所有当前符合条件的测试。格式为：`TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`。 | 文本 |
