@@ -5,13 +5,13 @@ exl-id: 97cfa0f9-b35d-4c73-822f-adf30d0b7efc
 source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 82%
+ht-degree: 86%
 
 ---
 
 # collectHighEntropyUserAgentHints
 
-Adobe Analytics 使用高熵客户端提示来改进设备和浏览器识别。从AppMeasurement.js版本2.23.0开始，可使用此选项。 请参阅[此概览和常见问题](/help/technotes/client-hints.md)以及 [Google 博文](https://web.dev/user-agent-client-hints/)，详细了解客户端提示。
+Adobe Analytics 使用高熵客户端提示来改进设备和浏览器识别。自 2.23.0 版的 AppMeasurement.js 开始提供此选项。请参阅[此概览和常见问题](/help/technotes/client-hints.md)以及 [Google 博文](https://web.dev/user-agent-client-hints/)，详细了解客户端提示。
 
 ## 使用 Web SDK 收集高熵提示
 

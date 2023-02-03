@@ -28,11 +28,11 @@ ht-degree: 98%
 | **2023 年 2 月** |  |
 | 实施 | 更新了有关如何 [实施适用于Web和移动设备的Adobe Analytics](../implement/home.md). |
 | **2023 年 1 月** |  |
-| 过滤和排序表 | 更新了 [过滤和排序表](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) 文章。 已从“对表格进行分页、过滤和排序”中重命名本文。 |
-| 文件夹 | 专用页面 [文件夹管理](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
-| 用户首选项 | 许多其他用户首选项现在在 [首选项](/help/analyze/analysis-workspace/user-preferences.md). |
-| 自动保存项目 | 更新了内容，以在 [保存项目](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). |
-| 登陆页面 | 新建 [登陆页面更新](/help/analyze/landing.md) |
+| 排序和过滤表格 | 更新了 [过滤和排序表](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) 文章。 已从“对表格进行分页、过滤和排序”中重命名本文。 |
+| 文件夹 | [文件夹管理](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)的专用页面。 |
+| 用户偏好设置 | [偏好设置](/help/analyze/analysis-workspace/user-preferences.md)中现在提供了许多其他用户偏好设置。 |
+| 项目的自动保存 | 已更新内容以在[保存项目](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md)中包含自动保存功能。 |
+| 登陆页面 | 新的[登陆页面更新](/help/analyze/landing.md) |
 
 ### 2022 {#22}
 
@@ -105,7 +105,7 @@ ht-degree: 98%
 | 2021 年 5 月 13 日 | 更新了 [Data Warehouse API 请求](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md)。它们现在支持“Hours”。 |
 | **2021 年 3 月** |  |
 | 2021 年 3 月和 4 月 | 更新了 Adobe Analytics 功能板[执行人指南](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html?lang=zh-Hans)和[策划人指南](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=zh-Hans) |
-| 2021 年 3 月 25 日 | 有关[!UICONTROL 组件] > [!UICONTROL 用户偏好设置]页面的新文档。它使您能够为用户管理 [!UICONTROL Analysis Workspace] 设置及其相关的组件。[!UICONTROL “用户首选项”]适用于所有新的项目和面板。<br>**注意：**&#x200B;以下设置已移至[!UICONTROL “用户首选项”]页面：<ul><li>报表设置：千位分隔符（现在称为&#x200B;_“数字格式”_）</li><li>报表设置：CSV 分隔符</li><li>工作区项目：“帮助”>“启用提示”</li><li>工作区项目：空白面板的&#x200B;_“用此面板开始新项目”_&#x200B;选项</li></ul> |
+| 2021 年 3 月 25 日 | 有关[!UICONTROL 组件] > [!UICONTROL 用户偏好设置]页面的新文档。它使您能够为用户管理 [!UICONTROL Analysis Workspace] 设置及其相关的组件。[!UICONTROL “用户偏好设置”]适用于所有新的项目和面板。<br>**注意：**&#x200B;以下设置已移至[!UICONTROL “用户偏好设置”]页面：<ul><li>报表设置：千位分隔符（现在称为&#x200B;_“数字格式”_）</li><li>报表设置：CSV 分隔符</li><li>工作区项目：“帮助”>“启用提示”</li><li>工作区项目：空白面板的&#x200B;_“用此面板开始新项目”_&#x200B;选项</li></ul> |
 | 2021 年 3 月 25 日 | [!UICONTROL “直方图智能存储桶预测”]帮助高势指标直方图为您的数据分布自动识别存储桶的合适宽度和数量。对于低势指标，可视化的表现与以前相同。 |
 | 2021 年 3 月 25 日 | [数据修复 API](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) 更新（过滤 URL、查询字符串、@ 符号等） |
 | 2021 年 3 月 25 日 | 新的[使用情况日志 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md) 文档 |

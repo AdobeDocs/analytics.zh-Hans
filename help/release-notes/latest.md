@@ -20,11 +20,11 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Workspace 中的文件夹** | 文件夹帮助您组织和分类项目以便更好地检索和访问。此外，通过一个共享的&#x200B;**[!UICONTROL 公司]**&#x200B;文件夹管理员可轻松地创建内容并与所有 Workspace 用户共享内容。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html) | 不适用 | 2023 年 1 月 11 日 |
-| **默认登陆页面** | 2022 年早些时候引入的[新登陆页面](/help/analyze/landing.md)在 **2023 年 1 月 11 日**&#x200B;将成为所有用户的默认体验。传统登陆页面将被弃用，每个人都将必须使用新体验。 | 不适用 | 2023 年 1 月 11 日 |
-| **项目管理器页面已弃用** | 随着新登陆页面的发布，我们弃用了&#x200B;**[!UICONTROL 项目管理器]**，如 **[!UICONTROL Adobe Analytics]** > **[!UICONTROL 组件]**&#x200B;下所列。新的登陆页面具有旧项目管理器页面的所有功能以及其他功能。了解详情 | 不适用 | 2023 年 1 月 11 日 |
+| **Workspace 中的文件夹** | 文件夹帮助您组织和分类项目以便更好地检索和访问。此外，通过共享&#x200B;**[!UICONTROL 公司]**&#x200B;文件夹，管理员可轻松地创建内容并与所有 Workspace 用户共享内容。 [了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html?lang=zh-Hans) | 不适用 | 2023 年 1 月 11 日 |
+| **默认登陆页面** | 2022 年早些时候引入的[新登陆页面](/help/analyze/landing.md)在 **2023 年 1 月 11 日**&#x200B;将成为所有用户的默认体验。旧版登陆页面将被弃用，每个人都将必须使用新体验。 | 不适用 | 2023 年 1 月 11 日 |
+| **项目管理器页面已弃用** | 随着新登陆页面的发布，我们弃用了&#x200B;**[!UICONTROL 项目管理器]**，如“**[!UICONTROL Adobe Analytics]**”>“**[!UICONTROL 组件]**”下所列。 新的登陆页面具有旧项目管理器页面的所有功能以及其他功能。了解详情 | 不适用 | 2023 年 1 月 11 日 |
 | **自动保存新项目** | Analysis Workspace 现在会自动保存新创建的项目。如果由于任何原因，在手动保存新创建的项目之前，您意外地失去了对该项目的访问权限，则现在可以使用项目的恢复版本。以前，项目只有在最初手动保存后才自动保存。[了解详情](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md) | 不适用 | 2023 年 1 月 11 日 |
-| **增强的用户偏好设置** | 您现在可以在用户级别配置其他偏好设置（在 [!UICONTROL 组件] > [!UICONTROL 偏好设置] 中）。当您设置用户偏好设置时，您的选择会跨越您的项目、表格和可视化图表。偏好设置页面现在包含以下新选项卡，每个选项卡包含许多新的配置选项：<ul><li>自由格式表</li><li>可视化图表</li></ul>此外，**[!UICONTROL 常规]**&#x200B;和&#x200B;**[!UICONTROL 项目]**&#x200B;选项卡上现已提供更多偏好设置。<p>以前，其中许多偏好设置只能针对单个项目、表格和可视化图表进行配置。[了解详情](/help/analyze/analysis-workspace/user-preferences.md) | 不适用 | 2023 年 1 月 11 日 |
+| **增强的用户偏好设置** | 您现在可以在用户级别配置其他偏好设置（在[!UICONTROL 组件]>[!UICONTROL 偏好设置]中）。 当您设置用户偏好设置时，您的选择会跨越您的项目、表格和可视化图表。偏好设置页面现在包含以下新选项卡，每个选项卡包含许多新的配置选项：<ul><li>自由格式表</li><li>可视化图表</li></ul>此外，**[!UICONTROL 常规]**&#x200B;和&#x200B;**[!UICONTROL 项目]**&#x200B;选项卡上现已提供更多偏好设置。<p>以前，其中许多偏好设置只能针对单个项目、表格和可视化图表进行配置。[了解详情](/help/analyze/analysis-workspace/user-preferences.md) | 不适用 | 2023 年 1 月 11 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -36,7 +36,7 @@ AN-282634；AN-289684；AN-299597；AN-299630；AN-300128；AN-301633；AN-30168
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| **由于 Google 客户端提示而更新设备查找** | 2023 年 1 月 25 日 | 在设备查找中使用客户端提示的功能将于 **2023 年 2 月 16 日**&#x200B;开始可用。 <p> <p>自 2022 年 10 月起，可以使用 Web SDK 或 AppMeasurement JavaScript 库收集客户端提示。但直到 2023 年 2 月才将客户端提示纳入设备查找。届时，在为来自 Chromium 浏览器（如 Google Chrome 和 Microsoft Edge）的点击派生某些设备信息时，Adobe 除了使用 User-Agent 之外，还将开始使用客户端提示。这是为了响应 Google 的计划，该计划逐步减少从 User-Agent 字符串产生的信息，并用通过客户端提示传递的数据替代。 <p> <p>作为此更改的一部分，Adobe 将使用 Device Atlas 执行所有与 User-Agent 相关的设备查找。[了解详情](/help/technotes/client-hints.md) |
+| **由于 Google 客户端提示而更新设备查找** | 2023 年 1 月 25 日 | 在设备查找中使用客户端提示的功能将于 **2023 年 2 月 16 日**&#x200B;开始可用。 <p> <p>自 2022 年 10 月起，可以使用 Web SDK 或 AppMeasurement JavaScript 库收集客户端提示。但直到 2023 年 2 月才将客户端提示纳入设备查找。届时，在为来自 Chromium 浏览器（如 Google Chrome 和 Microsoft Edge）的点击派生某些设备信息时，Adobe 除了使用用户代理程序之外，还将开始使用客户端提示。这是为了响应 Google 的计划，该计划逐步减少从 User-Agent 字符串产生的信息，并用通过客户端提示传递的数据替代。 <p> <p>作为此更改的一部分，Adobe 将使用 Device Atlas 执行所有与 User-Agent 相关的设备查找。[了解详情](/help/technotes/client-hints.md) |
 | **暂停 Reports &amp; Analytics 中的计划报告** | 2023 年 1 月 6 日 | 在此提醒一下，Adobe 将于 **2023 年 1 月 31 日**&#x200B;弃用这些功能。请注意，报告和数据提取的到期窗口仍为九个月；除非重新激活计划，否则报告和数据提取交付将在此期限结束时暂停。<p>重申一下，这些功能将于 2023 年 1 月 31 日弃用。在此日期之前，您必须将计划报告迁移到 Adobe Analytics 中可供您使用的其他机制之一。如果还有其他问题或需要获取相关支持，请联系 Adobe 客户关怀团队。[了解详情](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
 | **在 Report Builder 中暂停计划任务** | 2023 年 1 月 6 日 | **2023 年 1 月 31 日**，作为性能和交付优化工作的一部分，Adobe 将在 Report Builder 中推出对计划任务的更改。这些更改包括取消预定交付“在发生 x 次后结束”的功能。<p>您可以继续计划每小时 Report Builder 任务，并在最多发生 99 次后结束这些任务。请注意，回滚仅适用于小时任务；对于所有其他交付间隔期（每天、每周、每月和每年），“在发生 x 次后结束”不可用。请注意，此选项将于 2023 年 1 月 31 日弃用。如果还有更多问题或需要获取相关支持，请联系 Adobe 客户关怀团队。 [了解详情](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
 | **改进的 IP 到地理位置映射** | 2023 年 1 月 4 日 | 我们的 IP 查找供应商 Digital Element 正在升级到新的改进数据集 (NetAcuity Pulse)，用于 IP 到地理位置映射。Adobe Analytics 原计划于 2022 年 10 月采用此新数据集，但现在将于 **2023 年 1 月 11 日**&#x200B;采用。新的数据库将比以前的版本更准确。 当采用新数据库时，一些 IP 到地理位置的映射将发生变化/改进。<p>所有 Adobe Analytics 工具（Analysis Workspace、Reports &amp; Analytics、Reporting API、Data Warehouse、LiveStream、Analytics Data Feeds 等）都将自动利用新改进的映射。数据馈送中的数据格式不会发生变化。通过 Analytics Source Connector 提供的 CJA 数据将自动利用新映射。 |
