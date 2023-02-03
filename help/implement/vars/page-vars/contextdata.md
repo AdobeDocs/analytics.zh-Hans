@@ -4,9 +4,9 @@ description: 上下文数据变量允许您在处理规则可读取的每个页�
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '509'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 80%
 
 上下文数据变量有助于开发团队收集指定元素中的数据而不是编号变量。例如，您可以请求开发团队将页面的作者分配给 `s.contextData["author"]`，而不是请求他们将其分配给 `eVar10`。然后，贵组织中的 Analytics 管理员可以创建处理规则，以将上下文数据变量映射到用于报告的 Analytics 变量。开发团队最终只需关注上下文数据变量，而无需考虑 Adobe 提供的许多页面变量。
 
-## 使用Web SDK的上下文数据变量
+## 使用 Web SDK 的上下文数据变量
 
-如果XDM字段不为 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=zh-Hans)，则会自动将其作为上下文数据变量包含在内。 然后，您可以使用 [处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) 将上下文数据变量分配给所需的Analytics变量。
+如果未[为 Adobe Analytics 映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=zh-Hans) XDM 字段，它会自动包含为上下文数据变量。然后，您可以使用[处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)将上下文数据变量分配给所需的 Analytics 变量。
 
-虽然将数据映射到数据流中正确的XDM字段是最佳做法，但这种方法获得了类似的结果。
+虽然最佳实践是将数据映射到 Datastream 中正确的 XDM 字段，但可通过此方法获得类似的结果。
 
-## 使用Adobe Analytics扩展的上下文数据变量
+## 使用 Adobe Analytics 扩展程序的上下文数据变量
 
-Adobe Experience Platform数据收集没有用于设置上下文数据变量的专用位置。 按照 AppMeasurement 语法使用自定义代码编辑器。
+Adobe Experience Platform 数据收集中没有专门的位置来设置上下文数据变量。按照 AppMeasurement 语法使用自定义代码编辑器。
 
-## AppMeasurement和Analytics扩展的自定义代码编辑器中的s.contextData
+## AppMeasurement 和 Analytics 扩展自定义代码编辑器中的 s.contextData
 
 `s.contextData` 变量不会直接接收值。它会将此变量的属性设置为字符串。
 
