@@ -4,9 +4,9 @@ description: 了解产品配置文件如何用作产品管理员可以分配给�
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
 source-git-commit: 7cde90a15dc97468a70f8120bec46915eab7c1bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 86%
 
 产品配置文件是产品管理员可分配给组织内用户的权限预设。如果您创建产品配置文件并将其分配给 Experience Cloud 用户，用户将继承该产品配置文件中包含的权限项。
 
-有关产品配置文件（包括创建产品配置文件和分配用户）的常规信息，请参阅 [为企业用户管理产品配置文件](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) （在企业用户指南中）。
+有关产品配置文件的一般信息（包括创建产品配置文件和分配用户），请参阅《企业用户指南》中的[管理企业用户的产品配置文件](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)。
 
 ## 产品配置文件管理员
 
@@ -25,7 +25,7 @@ ht-degree: 86%
 * 产品配置文件管理员可以向用户组分配或从中移除产品配置文件。
 * 如果团队领导或经理需要为团队授予并管理 Adobe Analytics 的访问权限，那么产品配置文件管理员将是他们的不二之选。通过产品配置文件管理员，个人便无需麻烦系统管理员或产品管理员授予对 Adobe Analytics 的访问权限。
 
-有关如何分配产品配置文件管理员的信息，请参阅文章中的“管理产品配置文件管理员”部分， [为企业用户管理产品配置文件](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) （在企业用户指南中）。
+有关如何分配产品配置文件管理员的信息，请参阅《企业用户指南》的[管理企业用户的产品配置文件](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)一文中的“管理产品配置文件管理员”部分。
 
 ## Adobe Analytics 权限项
 
@@ -60,6 +60,6 @@ Analytics 工具权限项用于授予对独立于报表包设置的功能的访�
 
 ## 产品配置文件开发人员
 
-开发人员与用户类似，只是开发人员有权对Adobe开发人员使用Experience CloudAPI。 请参阅 [管理开发人员](https://helpx.adobe.com/cn/enterprise/using/manage-developers.html) （详细信息）。 如果授予用户任何配置文件的开发人员访问权限，则他们将有权访问开发控制台 (console.adobe.io) 并编辑 Adobe Analytics 集成。在用户拥有开发人员访问权限的所有配置文件中，这些配置文件的净权限决定了为该用户授予的 Analytics API 调用和响应。
+开发人员类似于用户，只不过开发人员有权在 Adobe Developer 上使用 Experience Cloud API。有关更多信息，请参阅《企业用户指南》中的[管理开发人员](https://helpx.adobe.com/cn/enterprise/using/manage-developers.html)。如果授予用户任何配置文件的开发人员访问权限，则他们将有权访问开发控制台 (console.adobe.io) 并编辑 Adobe Analytics 集成。在用户拥有开发人员访问权限的所有配置文件中，这些配置文件的净权限决定了为该用户授予的 Analytics API 调用和响应。
 
 例如，根据配置文件权限（包含所有量度、所有维度和一个报表包），持有配置文件开发人员访问权限的成员可发出与关联套件中任何组件相关的 API 调用。随着“异常检测”的添加，报告可以包含更完整的响应，从而添加异常数据。根据经验，如果配置文件授予对 Adobe Analytics 界面中某个场景的访问权限，则对类似定义的配置文件的开发人员访问权限将启用相应的 API 调用和响应。
