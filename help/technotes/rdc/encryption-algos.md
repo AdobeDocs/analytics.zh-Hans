@@ -4,9 +4,9 @@ description: 在 2022 年 6 月 23 日，我们将为密码安全级别设置为
 feature: Regional Data Collection
 exl-id: f1cbb0cb-fd65-4f22-8594-0d97b6906698
 source-git-commit: 84a8dc9c6052d34e9dea370e444c83e84bf17852
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '285'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
