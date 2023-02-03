@@ -4,9 +4,9 @@ title: 为 Adobe ID 迁移 Analytics 用户帐户
 feature: Admin Tools
 exl-id: 198367a1-8156-4cc3-af8a-d92c61699eda
 source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '429'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 93%
    </tr> 
    <tr> 
       <td colname="col1"> <p>声明的域 </p> </td> 
-      <td colname="col2"> <p>如果要按Enterprise ID或Federated ID迁移用户，您必须是系统管理员，并通过Adobe Admin Console声明可用域，然后才能迁移用户。 在<a href="https://helpx.adobe.com/cn/enterprise/help/identity.html">这里</a>了解更多。 </p> <p>如果不想为 Enterprise ID 或 Federated ID 声明任何域，请跳过此步骤，并继续按 Adobe ID 迁移用户。在<a href="https://helpx.adobe.com/enterprise/help/identity.html">这里</a>了解有关 ID 类型的更多信息。 </p> </td> 
+      <td colname="col2"> <p>如果要按 Enterprise ID 或 Federated ID 迁移用户，您必须是系统管理员，并通过 Adobe Admin Console 声明可用域，然后才能迁移用户。在<a href="https://helpx.adobe.com/cn/enterprise/help/identity.html">这里</a>了解更多。 </p> <p>如果不想为 Enterprise ID 或 Federated ID 声明任何域，请跳过此步骤，并继续按 Adobe ID 迁移用户。在<a href="https://helpx.adobe.com/cn/enterprise/help/identity.html">这里</a>了解有关 ID 类型的更多信息。 </p> </td> 
    </tr> 
    </tbody> 
    </table>
