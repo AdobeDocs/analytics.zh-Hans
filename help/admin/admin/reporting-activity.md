@@ -5,9 +5,9 @@ feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '962'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 92%
 
 ## 权限
 
-您需要拥有Analytics产品管理员权限(位于Adobe Admin Console中)才能管理报表活动。
+您需要 Analytics 产品管理员权限（在 Adobe Admin Console 中）才能管理报告活动。
 
-![许可](/help/admin/admin/assets/rep-mgr-permission.png)
+![权限](/help/admin/admin/assets/rep-mgr-permission.png)
 
 ## 查看报告队列
 
@@ -43,7 +43,7 @@ ht-degree: 92%
 
 | UI 元素 | 描述 |
 | --- | --- |
-| **[!UICONTROL 报告包]** | 基础报告包，您正在监控其报告活动。 |
+| **[!UICONTROL 报表包]** | 基础报告包，您正在监控其报告活动。 |
 | **[!UICONTROL 虚拟报告包]** | 显示馈送入此基础报告包的所有虚拟报告包。由于额外施加多层筛选和分段，因此虚拟报告包提高了报告请求的复杂性。所有来自虚拟报告包的请求合并归入基础报告包。<p>例如，如果您从 5 个 VRS 收到 10 个请求，则基础级别报告包中有 50 个请求。这样即可很快达到容量。 |
 | **[!UICONTROL 使用容量]** | 百分比，实时使用了多少报告包的报告容量。 |
 | **[!UICONTROL 状态]** | 四种可能的状态指示符： <ul><li>**红色 - [!UICONTROL 满负荷]**：报告包的报告容量已达到极限。(100%) </li><li>**黄色 - [!UICONTROL 接近容量]**：此报告包有达到其最大容量的危险。(90% - 99%)</li><li>**绿色 - [!UICONTROL 一切正常]**：有大量的报告容量。(0% - 89%)</li><li>**灰色 – [!UICONTROL 状态待定/未启用]**：报告容量不可用。</li></ul> |
@@ -88,7 +88,7 @@ ht-degree: 92%
 
 | 摘要数字 | 描述 |
 | --- | --- |
-| [!UICONTROL 用户] | 当前向此报表包发送报表请求的用户数。 |
+| [!UICONTROL 用户] | 当前正在向此报表包发送报告请求的用户的数目。 |
 | [!UICONTROL 项目] | Workspace 项目、Report Builder 工作簿等。 |
 | [!UICONTROL 查询] | 当前正在运行的查询数。 |
 | [!UICONTROL 平均等待时间] | 所有正在运行的查询的平均等待时间。 |
@@ -120,9 +120,9 @@ ht-degree: 92%
 
 要取消请求
 
-1. 选中表格中一个或多个&#x200B;**[!UICONTROL 查询编号]**&#x200B;左侧的框，然后在底部单击&#x200B;**[!UICONTROL 取消请求]**。 
+1. 选中表格中一个或多个&#x200B;**[!UICONTROL 查询 ID]** 左侧的框，然后在底部单击&#x200B;**[!UICONTROL 取消请求]**。
 
-   您还可以通过查看 [!UICONTROL 用户], [!UICONTROL 项目]或 [!UICONTROL 应用程序]. 在活动刷新时，对于未处于队列或取消时正在运行的项目、用户或应用程序的后续请求仍可能显示。
+   您也可以通过查看[!UICONTROL 用户]、[!UICONTROL 项目]，或者[!UICONTROL 应用程序]的详细信息来批量取消请求。在取消时不在队列中或未运行的项目、用户或应用程序的后续请求在刷新活动时可能仍会出现。
 
 1. 在出现的&#x200B;**[!UICONTROL 取消 x 查询]**&#x200B;窗口中，您可以根据需要修改取消消息。
 1. 单击&#x200B;**[!UICONTROL 继续]**。
