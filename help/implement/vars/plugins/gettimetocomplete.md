@@ -4,9 +4,9 @@ description: 测量完成一项任务所需的时间。
 feature: Variables
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
 source-git-commit: 77142b65fe0f88826b8b0df5bba4a4dc1a0dbecf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '515'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -62,8 +62,8 @@ function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)
 
 * **`sos`**（可选，字符串）：要启动计时器时设置为 `"start"`。要停止计时器时设置为 `"stop"`。默认为 `"start"`。
 * **`cn`**（可选，字符串）：用于存储开始时间的 Cookie 的名称。默认为 `"s_gttc"`。
-* **`exp`** （可选，整数）：秒、小时或天数(取决于 `tp` 时间划分参数)，则cookie（和计时器）将过期。 默认为30分钟。
-* **`tp`** （可选，字符串）：Cookie（和计时器）过期的时间划分字符串，与 `exp` 参数。 将设置为“d”表示天，将“h”表示小时，将“s”表示秒。 如果未设置此设置，则Cookie（和计时器）到期默认为30分钟，无论 `exp` 参数已设置为。
+* **`exp`**（可选，整数）：Cookie（和计时器）过期的秒数、小时数或天数（具体取决于 `tp` 分时参数）。默认为 30 分钟。
+* **`tp`**（可选，字符串）：Cookie（和计时器）过期的分时字符串，与 `exp` 参数一起使用。设置为“d”表示天数，设置为“h”表示小时数，设置为“s”表示秒数。如果未设置，Cookie（和计时器）过期时间默认为 30 分钟，无论将 `exp` 参数设置为何值。
 
 调用此函数将返回一个字符串，其中包含从 `"start"` 到 `"stop"` 操作所用的时间（天数、小时数、分钟数和/或秒数）。
 
