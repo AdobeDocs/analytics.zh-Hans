@@ -1,22 +1,22 @@
 ---
-description: 如何将Analytics用户帐户作为Enterprise ID或Federated ID迁移到Adobe Admin Console。
+description: 如何将 Analytics 用户帐户迁移到 Adobe Admin Console 作为 Enterprise ID 或 Federated ID。
 title: 迁移 Analytics 用户帐户以使用 Enterprise ID 和 Federated ID
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
 source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '763'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
 # 迁移 Analytics 用户帐户以使用 Enterprise ID 和 Federated ID{#migrate-analytics-user-accounts-for-enterprise-and-federated-ids}
 
-如何将Analytics用户帐户作为Enterprise ID或Federated ID迁移到Adobe Admin Console。
+如何将 Analytics 用户帐户迁移到 Adobe Admin Console 作为 Enterprise ID 或 Federated ID。
 
-## 前提条件 {#prereqs}
+## 先决条件 {#prereqs}
 
-在Adobe Admin Console中管理用户的先决条件。
+在 Adobe Admin Console 中管理用户的先决条件。
 
 对于新的域和目录，请按照以下步骤执行操作：
 
@@ -36,8 +36,8 @@ ht-degree: 75%
 
 * 从 **[!UICONTROL Admin Console]** > **[!UICONTROL 用户]**&#x200B;下载当前用户列表。
 
-* 比较列表(查找重复项，以避免覆盖Adobe Admin Console中的帐户数据)。
-* 上传已完成 [!DNL .csv] (从 **[!UICONTROL Admin Console]** > **[!UICONTROL 用户]**),Enterprise ID或Federated ID用户访问Adobe Admin Console。
+* 比较列表（查找重复项，以避免覆盖 Adobe Admin Console 中的帐户数据）。
+* 将包含 Enterprise ID 或 Federated ID 用户的已完成 [!DNL .csv]（从&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL 用户]**）上传到 Adobe Admin Console。
 
 如果需要将现有的 Adobe ID 用户帐户迁移到 Enterprise ID 或 Federated ID，请联系 Adobe 客户关怀并请求[批量切换用户身份](https://helpx.adobe.com/cn/enterprise/using/bulk-operations.html)。
 
@@ -70,19 +70,19 @@ ht-degree: 75%
       >
       >在此步骤中，Adobe 建议精简用户列表，以确保 Enterprise ID 或 Federated ID 迁移中仅包括其电子邮件 ID 有效的用户。
 
-1. 在 [!UICONTROL Admin Console]，下载Adobe Admin Console用户列表：
+1. 在 [!UICONTROL Admin Console] 中，下载 Adobe Admin Console 用户列表：
 
    1. 导航至 [!UICONTROL Admin Console] > **[!UICONTROL 用户]**，然后单击[将用户列表导出到 CSV](https://helpx.adobe.com/cn/enterprise/using/users.html)。
 
       ![](/help/admin/admin-console/user-management2/user-migration/assets/export-csv.png)
 
-   1. 比较两个文件：导出的 [!DNL .csv] 文件( [!DNL sample.csv]，在本例中为) [!DNL User Logins List.csv] 文件。
+   1. 比较两个文件：对比已导出的 [!DNL .csv] 文件（本示例中为 [!DNL sample.csv]）中的现有 Adobe Admin Console 用户与 Analytics [!DNL User Logins List.csv] 文件中的用户。
 
       >[!IMPORTANT]
       >
-      >如果发现重复项，请从 Analytics [!DNL User Logins List.csv] 文件中删除它们。此步骤有助于避免覆盖Adobe Admin Console中的现有Experience Cloud用户权限，并为您提供要迁移的帐户列表。
+      >如果发现重复项，请从 Analytics [!DNL User Logins List.csv] 文件中删除它们。此步骤可帮助避免覆盖 Adobe Admin Console 中的现有 Experience Cloud 用户权限，并且可为您提供要迁移的帐户列表。
 
-1. 从Adobe Admin Console下载CSV模板：
+1. 从 Adobe Admin Console 中下载 CSV 模板：
    1. 在“用户”选项卡中，单击&#x200B;**[!UICONTROL 通过 CSV 添加用户]**，然后单击&#x200B;**[!UICONTROL 下载 CSV 模板]**。
 
       ![步骤信息](/help/admin/admin-console/user-management2/user-migration/assets/add-users-csv.png)
@@ -136,19 +136,19 @@ ht-degree: 75%
  </tbody> 
 </table>
 
-有关 [!DNL .csv] 文件中字段的更多信息，请参阅 [CSV 文件格式](https://helpx.adobe.com/enterprise/using/users.html)。
+有关 [!DNL .csv] 文件中字段的更多信息，请参阅 [CSV 文件格式](https://helpx.adobe.com/cn/enterprise/using/users.html)。
 
 >[!NOTE]
 >
 >[!UICONTROL 产品配置]和[!UICONTROL 管理员角色]等其他列可为空。
 
-1. 在Adobe Admin Console的“用户”选项卡上，通过单击 **[!UICONTROL 通过CSV添加用户]** （如步骤3中所示。）
+1. 在 Adobe Admin Console 的“用户”选项卡中，单击&#x200B;**[!UICONTROL 通过 CSV 添加用户]**（如步骤 3 中所示）以上传模板文件。
 1. 在 Analytics 中，运行迁移工具（如[迁移 Analytics 用户帐户](/help/admin/admin-console/user-management2/user-migration/t-migrate-users.md)中所述）。
 1. 单击&#x200B;**[!UICONTROL 迁移]** > **[!UICONTROL 按照 Enterprise ID 进行迁移]**。
 
    ![步骤信息](/help/admin/admin-console/user-management2/user-migration/assets/migrate-as-enterprise.png)
 
-   单击 **[!UICONTROL 迁移]**，则用户会链接到Adobe Admin Console中的Enterprise ID/Federated ID帐户。 Analytics 中旧版用户帐户的权限将与 **[!UICONTROL Admin Console]** > **[!UICONTROL Analytics]** > **[!UICONTROL 产品配置文件]**&#x200B;中授予 Enterprise ID/Federated ID 登录的权限相匹配。用户 ID 将显示在“迁移已完成”分段中。您可以禁用其旧版 [!DNL my.omniture.com] 访问权限。
+   单击&#x200B;**[!UICONTROL 迁移]**&#x200B;时，会将用户链接到 Adobe Admin Console 中的 Enterprise ID/Federated ID 帐户。Analytics 中旧版用户帐户的权限将与 **[!UICONTROL Admin Console]** > **[!UICONTROL Analytics]** > **[!UICONTROL 产品配置文件]**&#x200B;中授予 Enterprise ID/Federated ID 登录的权限相匹配。用户 ID 将显示在“迁移已完成”分段中。您可以禁用其旧版 [!DNL my.omniture.com] 访问权限。
 
    在迁移用户后，“迁移状态”列下方的状态将从&#x200B;**[!UICONTROL 未启动]**&#x200B;更改为&#x200B;**[!UICONTROL 已迁移]**。
 
