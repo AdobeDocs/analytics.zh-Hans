@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等等。
-source-git-commit: e6cef6e77f5418b026830848b6c0fc3347aa6033
+source-git-commit: 12fcf4cb07c4cb7497d6f21f3e5f82f7681a9677
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '604'
 ht-degree: 98%
 
 ---
@@ -39,7 +39,6 @@ ht-degree: 98%
    + [代码管理器](admin/code-manager-admin.md)
    + [货币代码](admin/currency.md)
    + [数据源](admin/data-sources.md)
-   + [默认指标](admin/default-metrics.md)
    + [按 IP 地址排除](admin/exclude-ip.md)
    + [日志](admin/logs.md)
    + [报告活动管理器](admin/reporting-activity.md)
@@ -109,12 +108,12 @@ ht-degree: 98%
                + [服务器端转发数据和代码引用](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-reference.md)
                + [如何验证服务器端转发的实施情况](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
                + [服务器端转发常见问题解答](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
-         + 流量变量 {#traffic-variables}
+         + 流量 {#traffic-variables}
             + [流量变量 (prop) 概述](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
             + [启用流量变量报表](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
             + [流量分类](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
             + [自定义报表描述](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
-         + 转化变量{#conversion-variables}
+         + 转化 {#conversion-variables}
             + [转化变量 (eVar)](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
             + [查找方法](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
             + [转化分类](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
@@ -133,10 +132,11 @@ ht-degree: 98%
             + [概述](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [计划尖峰](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [永久性流量](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
+         + [默认指标](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
          + [应用程序管理](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + [媒体管理](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
          + [隐私报表](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
-         + 实时报表 {#real-time-reports}
+         + 实时 {#real-time-reports}
             + [实时报表概述](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [实时报表配置](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [受支持的实时指标和维度](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
