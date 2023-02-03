@@ -6,9 +6,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 选定过滤器表单会基于 Report Builder 请求中选择的元素和量度来填充。
 
-## 定义过滤器 - 值和特殊字符 {#section_15840216A4044C40974945FAA435AD93}
+## 定义过滤器 – 值和特殊字符 {#section_15840216A4044C40974945FAA435AD93}
 
 **[!UICONTROL 最受欢迎的过滤器]** > **[!UICONTROL 定义过滤器]**&#x200B;面板中提供了有关过滤器的信息。
 
@@ -88,7 +88,7 @@ ht-degree: 98%
    <td colname="col1"> <p>结束于 </p> </td> 
    <td colname="col02"> <p>返回以特定值结尾的结果。 </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
-   <td colname="col3"> <p>匹配 <span class="term"> wxyz</span> 但不是 <span class="term"> wxyz0</span> </p> </td> 
+   <td colname="col3"> <p>匹配 <span class="term">wxyz</span> 而不是 <span class="term">wxyz0</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>高级（特殊字符） </p> </td> 
