@@ -4,9 +4,9 @@ description: 对于电子商务网站，设置页面交易的货币。
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '954'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 98%
 货币代码通过 Adobe Analytics 扩展中的上下文数据变量传递到 Adobe Experience Platform Mobile SDK。
 
 1. 在 `trackState` 或 `trackAction` 期间在上下文数据变量中设置货币代码。
-1. 在Adobe Analytics管理工具中为报表包创建处理规则。 设置规则以覆盖货币代码变量。
+1. 在 Adobe Analytics 管理工具中为报表包创建处理规则。设置规则以覆盖货币代码变量。
 1. 将货币代码传递给 `trackState` 或 `trackAction` 调用中的 `products` 变量。
 
 您可以使用预设货币代码或自定义货币代码。如果使用自定义货币代码，请确保该代码有效。
