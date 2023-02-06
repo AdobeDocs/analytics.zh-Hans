@@ -2,7 +2,7 @@
 title: Adobe Analytics 中使用的术语
 description: Adobe Analytics 词汇表，用于定义常用术语。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
@@ -84,7 +84,7 @@ ht-degree: 100%
 * **主服务器调用：**&#x200B;图像请求或点击的替代名称，主要用于多包标记和帐单的上下文。当同一点击被发送到多个报表包时，第一个报表包是主服务器调用，而其余报表包是辅助服务器调用。此规则适用于所有点击类型，包括页面查看和链接跟踪。另请参阅“辅助服务器调用”。
 * **处理规则：**&#x200B;可以称为：
    * 处理规则，一种在 Admin Console 中使用某些规则更改数据收集的方法。请参阅管理用户指南中的[处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)。
-   * 营销渠道处理规则，一组用于确定点击属于哪个营销渠道的规则。请参阅管理用户指南中的[营销渠道处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)。
+   * 营销渠道处理规则，一组用于确定点击属于哪个营销渠道的规则。请参阅管理用户指南中的[营销渠道处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)。
 * **属性：**&#x200B;请参阅“流量变量”。
 * **排名报表：**&#x200B;一种报表格式，通常遵循带有量度的维度。此类报表允许您查看排名最前的项目，如网站上查看次数最多的页面。另请参阅“趋势报表”。
 * **实时：**&#x200B;在收集配置的变量后立即显示该变量，延迟时间很少甚至没有。请参阅管理用户指南中的[实时报表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)。

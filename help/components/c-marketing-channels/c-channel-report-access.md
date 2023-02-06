@@ -3,14 +3,20 @@ description: 介绍如何运行营销渠道报表、授予有限管理员用户�
 title: 营销渠道权限
 feature: Marketing Channels
 exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '218'
-ht-degree: 100%
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+workflow-type: tm+mt
+source-wordcount: '253'
+ht-degree: 94%
 
 ---
 
 # 营销渠道权限
+
+>[!NOTE]
+>
+>为了最大化 Attribution IQ 和 Customer Journey Analytics 的营销渠道效率，我们发布了一些 [修订后的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
+>
+>Analytics管理员可以管理其组织的营销渠道，如 [管理营销渠道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 以下是 [Admin Console](https://adminconsole.adobe.com/) 中需要的报表包工具权限，以便能够处理营销渠道的各个方面。
 

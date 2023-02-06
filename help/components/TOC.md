@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算指标、虚拟报表包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
+source-git-commit: 6b216a9af4b5614203b0f34fa754985b12ff59ea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '684'
+ht-degree: 97%
 
 ---
 
@@ -265,12 +265,8 @@ ht-degree: 0%
    + [配置实时报表](c-real-time-reporting/t-realtime-admin.md)
    + [受支持的实时指标和维度](c-real-time-reporting/realtime-metrics.md)
 + 营销渠道 {#marketing-channels}
-   + [《营销渠道快速入门》](c-marketing-channels/c-getting-started-mchannel.md)
+   + [营销渠道快速入门](c-marketing-channels/c-getting-started-mchannel.md)
    + [Attribution IQ 和营销渠道](c-marketing-channels/mchannel-best-practices.md)
-   + [管理营销渠道](c-marketing-channels/c-channels.md)
-   + [营销渠道的处理规则](c-marketing-channels/c-rules.md)
-   + [营销渠道中的分类](c-marketing-channels/classifictions-mchannel.md)
-   + [访客参与到期](c-marketing-channels/visitor-engagement.md)
    + [分析营销渠道](c-marketing-channels/analyze-mc.md)
    + [营销渠道权限](c-marketing-channels/c-channel-report-access.md)
    + [营销渠道常见问题解答和示例](c-marketing-channels/c-faq.md)
