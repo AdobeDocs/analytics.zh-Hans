@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等等。
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 98%
+source-wordcount: '620'
+ht-degree: 97%
 
 ---
 
@@ -67,14 +67,14 @@ ht-degree: 98%
          + 常规 {#report-suite-general}
             + [一般帐户设置](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
             + [内部 URL 过滤器](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
+            + [自定义日历](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
             + 付费搜索检测{#paid-search-detection}
                + [付费搜索检测概述](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [配置付费搜索检测](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
             + [自定义菜单](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
-            + [自定义日历](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
             + 处理规则{#c-processing-rules}
                + [处理规则概述](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
-               + 处理规则配置{#c-processing-rules-configuration}
+               + 处理规则 {#c-processing-rules-configuration}
                   + [处理规则的工作原理](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
                   + [创建处理规则](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
                   + [查看活动处理规则](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
@@ -109,12 +109,12 @@ ht-degree: 98%
                + [如何验证服务器端转发的实施情况](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
                + [服务器端转发常见问题解答](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
          + 流量 {#traffic-variables}
-            + [流量变量 (prop) 概述](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
+            + [流量变量](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
             + [启用流量变量报表](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
             + [流量分类](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
             + [自定义报表描述](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
          + 转化 {#conversion-variables}
-            + [转化变量 (eVar)](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
+            + [转化变量](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
             + [查找方法](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
             + [转化分类](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
             + 独特访客变量 {#unique-visitor-variable}
@@ -131,7 +131,7 @@ ht-degree: 98%
             + [管理营销渠道](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
             + [营销渠道的处理规则](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
             + [营销渠道中的分类](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
-            + [访客参与到期](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
+            + [营销渠道到期](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + 流量管理 {#traffic-management}
             + [概述](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [计划尖峰](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
@@ -139,6 +139,9 @@ ht-degree: 98%
          + [默认指标](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
          + [应用程序管理](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + [媒体管理](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
+         + [Activity Map](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
+         + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
+         + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [隐私报表](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + 实时 {#real-time-reports}
             + [实时报表概述](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
