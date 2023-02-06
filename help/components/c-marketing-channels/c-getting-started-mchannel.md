@@ -3,18 +3,20 @@ title: 《营销渠道快速入门》
 description: 了解营销渠道工作流程、自动设置以及如何将模板报表包设置应用到多个报表包。
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: bf0a4d4436da5f6a5ce09fbf7a1f03ef8bcc7094
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 99%
+source-wordcount: '829'
+ht-degree: 96%
 
 ---
 
-# 《营销渠道快速入门》
+# 营销渠道快速入门
 
 >[!NOTE]
 >
->为了最大化归因 IQ 和 Customer Journey Analytics 的营销渠道效率，我们发布了一些[修订后的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
+>为了最大化 Attribution IQ 和 Customer Journey Analytics 的营销渠道效率，我们发布了一些 [修订后的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
+>
+>Analytics管理员可以管理其组织的营销渠道，如 [管理营销渠道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 营销渠道通常用于提供有关访客如何到达您网站的分析。您可以基于要跟踪的渠道以及跟踪方式，自定义营销渠道处理规则。
 
@@ -39,9 +41,9 @@ ht-degree: 99%
 
 定义要跟踪的渠道后，可在&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**&#x200B;中启用它们。
 
-请参阅[渠道和规则](/help/components/c-marketing-channels/c-channels.md)，以了解先决条件和概念等重要信息。
+请参阅[渠道和规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)，以了解先决条件和概念等重要信息。
 
-请参阅[添加营销渠道](/help/components/c-marketing-channels/c-channels.md)，以了解相关过程。
+请参阅[添加营销渠道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)，以了解相关过程。
 
 >[!NOTE]
 >
@@ -51,7 +53,7 @@ ht-degree: 99%
 
 在[!UICONTROL 营销渠道管理器]页面上创建渠道后，可配置规则，以便渠道可检索和报告数据。
 
-请参阅 [营销渠道处理规则](/help/components/c-marketing-channels/c-rules.md).
+请参阅 [营销渠道处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
 
 如果渠道是在自动设置中创建的，则这些渠道中的规则已经过定义。您可以修改这些规则以满足您的需求。
 
@@ -69,7 +71,7 @@ ht-degree: 99%
 
    >[!NOTE]
    >
-   >当您访问“管理工具”中的渠道配置应用程序时，会自动显示[!UICONTROL 营销渠道: 自动设置]页面。（请参阅[营销渠道管理器](/help/components/c-marketing-channels/c-channels.md)。）如果您的报表包包含一个或多个营销渠道，则本页面不会显示。除非您选择另一个不含营销渠道的报表包，否则您不能再访问此页面。
+   >当您访问“管理工具”中的渠道配置应用程序时，会自动显示[!UICONTROL 营销渠道: 自动设置]页面。（请参阅[营销渠道管理器](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)。）如果您的报表包包含一个或多个营销渠道，则本页面不会显示。除非您选择另一个不含营销渠道的报表包，否则您不能再访问此页面。
 
 1. 确保选定您要创建的渠道。
 

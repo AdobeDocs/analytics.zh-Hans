@@ -3,10 +3,10 @@ title: 实施 Adobe Analytics 营销渠道的最佳实践
 description: 将营销渠道用于归因 IQ 和 Customer Journey Analytics 的更新后最佳实践
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 94%
+source-wordcount: '628'
+ht-degree: 93%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 94%
 
 为了确保您的营销渠道实施能够在未来使用并且确保与归因 IQ 以及与 Customer Journey Analytics 的报告一致性，我们发布了一组更新后的最佳实践。如果您已经在使用营销渠道，则可以在这些新的指南中选择最佳选项。如果您是刚开始使用营销渠道，我们建议您遵守所有新的最佳实践。
 
-当营销渠道在首次引入时，它们只具有首个联系和最近联系维度。在有了当前版本的归因后，不再需要显式的首个联系/最近联系维度。Adobe 提供了一般化的“营销渠道”和“营销渠道详细信息”维度，这样您可以将它们用于自己所需的归因模型。这些一般化的维度的行为与最近联系渠道维度相同，但采用了不同的标记以防止在将营销渠道用于不同的归因模型时造成混淆。
+当营销渠道在首次引入时，它们只具有首个联系和最近联系维度。在有了当前版本的归因后，不再需要显式的首个联系/最近联系维度。Adobe 提供了通用的“营销渠道”和“营销渠道详细信息”维度，以便您将其与所需的归因模型结合使用。这些一般化的维度的行为与最近联系渠道维度相同，但采用了不同的标记以防止在将营销渠道用于不同的归因模型时造成混淆。
 
 由于营销渠道维度取决于传统的访问定义（由其处理规则定义），其访问定义在使用虚拟报表包时无法更改。这些修订后的实践在归因 IQ 和 CJA 中实现了清楚可控的回溯窗口。
 
@@ -34,7 +34,7 @@ ht-degree: 94%
 
 不建议将直接和内部/会话刷新渠道用于自定义归因模型 (归因 IQ)。
 
-如果组织已经配置了直接和会话刷新会怎么样？在这种情况下，我们建议您为首次联系/最近联系[创建分类](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/classifictions-mchannel.html)，并将直接和会话刷新渠道保留不分类。如果永远不配置这些渠道，则分类的维度会得到相同的归因 IQ 结果。
+如果组织已经配置了直接和会话刷新会怎么样？在这种情况下，我们建议您为首次联系/最近联系[创建分类](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)，并将直接和会话刷新渠道保留不分类。如果永远不配置这些渠道，则分类的维度会得到相同的归因 IQ 结果。
 
 ![](assets/direct-session-refresh.png)
 
@@ -46,7 +46,7 @@ ht-degree: 94%
 
 ## 最佳实践 4：尽可能缩短访客参与期
 
-将此访客参与期设置为最小值“1 天”以尽可能减少保留值的可能性。由于自定义归因模型 (AIQ) 允许灵活的回溯窗口，我们建议设置最小值以尽可能减少此设置的影响。
+将访客参与期设置为最少“1天”，可最大限度地减少保留值的可能性。 由于自定义归因模型 (AIQ) 允许灵活的回溯窗口，我们建议设置最小值以尽可能减少此设置的影响。
 
 ![](assets/expiration.png)
 

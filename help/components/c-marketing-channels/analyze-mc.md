@@ -3,10 +3,10 @@ title: 分析营销渠道
 description: 了解如何在工作区中使用营销渠道维度。
 feature: Marketing Channels
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '401'
-ht-degree: 100%
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 96%
 
 ---
 
@@ -15,6 +15,8 @@ ht-degree: 100%
 >[!NOTE]
 >
 >为了最大化归因 IQ 和 Customer Journey Analytics 的营销渠道效率，我们发布了一些[修订后的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
+>
+>Analytics管理员可以管理其组织的营销渠道，如 [管理营销渠道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 您可能希望了解哪些营销渠道以及与谁合作最有效，从而更好地集中您的精力，并从营销资金中获得更好的回报。在 Adobe Analytics 中，工作区中的营销渠道维度和量度是帮助您跟踪不同渠道对订单、收入等的影响的工具之一。并为您提供有用的渠道分析。以下是您可以使用的与营销渠道相关的维度和量度：
 

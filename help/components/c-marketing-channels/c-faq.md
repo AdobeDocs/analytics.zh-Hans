@@ -3,10 +3,10 @@ title: 营销渠道常见问题解答
 description: 有关营销渠道的常见问题解答。
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '1486'
-ht-degree: 100%
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+workflow-type: tm+mt
+source-wordcount: '1501'
+ht-degree: 95%
 
 ---
 
@@ -15,6 +15,8 @@ ht-degree: 100%
 >[!NOTE]
 >
 >为了最大化归因 IQ 和 Customer Journey Analytics 的营销渠道效率，我们发布了一些[修订后的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
+>
+>Analytics管理员可以管理其组织的营销渠道，如 [管理营销渠道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 有关营销渠道的常见问题解答。
 
@@ -81,7 +83,7 @@ ht-degree: 100%
 
 仅当最近联系内部（会话刷新）也是首次联系时，才会进行最近联系内部（会话刷新）- 请参阅上面的“首次联系与最近联系之间的关系”。以下场景说明“会话刷新”如何成为首次联系渠道。
 
-* **会话超时**：访客访问网站，然后在浏览器中保持打开相应标签页，以备稍后使用。访客的参与期到期（或访客主动删除其 Cookie），他们使用打开的选项卡再次访问网站。由于反向链接 URL 是内部域，访问将被分类为“会话刷新”。
+* **会话超时**：访客访问网站，然后在浏览器中保持打开相应标签页，以备稍后使用。访客的参与期到期（或访客主动删除其Cookie），他们使用打开的选项卡再次访问网站。 由于反向链接 URL 是内部域，访问将被分类为“会话刷新”。
 
 * **并非所有网站页面都已标记**：访客登陆未标记的页面 A，然后移至已标记的页面 B。页面 A 将被视为内部反向链接，并且该访问将被分类为“会话刷新”。
 
@@ -89,7 +91,7 @@ ht-degree: 100%
 
 * **跨域流量**：访客从一个触发包 A 的域移动到另一个触发包 B 的域。如果在包 B 中，内部 URL 过滤器包括第一个域，则包 B 中的访问将被记录为内部访问，因为营销渠道将其视为第二个包中的新访问。该访问将被分类为“会话刷新”。
 
-* **较长的登入页面加载时间**：访客登陆具有大量内容的页面 A，且 Adobe Analytics 代码位于页面底部。在加载所有内容（包括 Adobe Analytics 图像请求）之前，访客单击了页面 B。页面 B 触发其 Adobe Analytics 图像请求。由于页面 A 的图像请求从未加载，因此在 Adobe Analytics 中，第二个页面将显示为访问的首次点击，而页面 A 将作为反向链接。该访问将被分类为“会话刷新”。
+* **较长的登入页面加载时间**：访客登陆具有大量内容的页面 A，且 Adobe Analytics 代码位于页面底部。在加载所有内容（包括 Adobe Analytics 图像请求）之前，访客单击了页面 B。页面 B 触发其 Adobe Analytics 图像请求。由于页面A的图像请求从未加载，因此在Adobe Analytics中，第二个页面将显示为访问的第一次点击，并且页面A将作为反向链接。 该访问将被分类为“会话刷新”。
 
 * **访问网站期间清除 Cookie**：访客访问网站，并在会话期间清除了其 Cookie。此时，首次联系和最近联系渠道都将重置，并且访问将被分类为“会话刷新”（因为反向链接将是内部链接）。
 

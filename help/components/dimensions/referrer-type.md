@@ -3,7 +3,7 @@ title: 反向链接类型
 description: 反向链接类型，取决于访客的来源。
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 1700ec727912f49c7aed12af74d18488daeb1e7e
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 100%
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->此列表不同于[营销渠道处理规则](../c-marketing-channels/c-rules.md)中的社交网络默认列表。
+>此列表不同于[营销渠道处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)中的社交网络默认列表。
 
 * `12seconds.tv`
 * `4travel.jp`
