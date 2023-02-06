@@ -69,8 +69,7 @@ function getPercentPageViewed(pid,ch){var e=pid,i=ch;if("-v"===e)return{plugin:"
 * `window._ppvFinalPercentViewed`：在访客移至当前页面上时，上一页的可见内容的百分比。该值将大于或等于已查看内容的初始百分比，也将等于或小于已查看页面内容的最高百分比。
 * `window._ppvHighestPixelsSeen`：访客在上一页面上向下滚动时，所看到的总像素的最大值（以高度衡量）。
 * `window._ppvFoldsAvailable`：在上一页面上向下滚动时，可达到的“页面折叠”总量。如果整个页面在首次加载时可见，则此值为 `1`。
-* 
-   * `window._ppvFoldsSeen`：访客在上一页面上向下滚动时，所达到的“页面折叠”的最大值。此变量包括“页面顶部”折叠。如果整个页面在首次加载时可见，则此值为 `1`。
+* `window._ppvFoldsSeen`：访客在上一页面上向下滚动时，所达到的“页面折叠”的最大值。此变量包括“页面顶部”折叠。如果整个页面在首次加载时可见，则此值为 `1`。
 
 将上述一个或多个变量分配给 eVar，以便在报告中查看维度数据。
 
