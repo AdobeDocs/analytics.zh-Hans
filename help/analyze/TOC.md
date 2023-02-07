@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 功能板、Report Builder 和 Activity Map。
-source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
+source-git-commit: 7eef1ef0bbe39db25b430d81789743b357778252
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 99%
+source-wordcount: '1101'
+ht-degree: 97%
 
 ---
 
@@ -61,6 +61,11 @@ ht-degree: 99%
          + [日历和日期范围概述](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [创建自定义日期范围](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [日期比较](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
+      + 数据词典 {#data-dictionary}
+         + [数据字典概述](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
+         + [在数据字典中查看组件信息](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
+         + [编辑数据字典中的组件条目](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+         + [监视数据字典运行状况](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + 可视化图表 {#visualizations}
       + [可视化图表概述](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [管理数据源](analysis-workspace/visualizations/t-sync-visualization.md)
@@ -70,7 +75,7 @@ ht-degree: 99%
             + [列设置](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [行设置](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [动态项和静态项](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [排序和过滤表格](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [对表格进行筛选和排序](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [ Workspace 总计](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 同类群组表 {#cohort-table}
          + [什么是同类群组分析？](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
