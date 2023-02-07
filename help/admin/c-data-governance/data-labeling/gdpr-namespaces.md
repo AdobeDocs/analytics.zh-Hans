@@ -3,10 +3,10 @@ description: 您希望能够搜索的每个 ID 均分配有一个命名空间；
 title: 命名空间
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
+source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 98%
+ht-degree: 94%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 您希望能够搜索的每个 ID 均分配有一个命名空间；命名空间是一个自定义字符串，用于在所有报表包之间使用的任何变量中识别该 ID。
 
-命名空间字符串用于识别您在数据隐私请求中提供 ID 时要搜索的字段。在提交数据隐私请求后，该请求将包含一个 JSON 部分，以指定要用于该请求的数据主体 ID。一位数据主体的一个请求中，可以包含多个 ID。JSON 包括：
+命名空间字符串用于识别您在数据隐私请求中提供 ID 时要搜索的字段。提交数据隐私请求后，该请求将包含一个JSON部分，以指定用于该请求的数据主体ID。 多个ID可作为数据主体单个请求的一部分包含在内。 JSON 包括：
 
 * “namespace”字段，其中包含命名空间字符串。
 * “type”字段，它在大部分 Adobe Analytics 请求中包含值“analytics”。
@@ -38,7 +38,7 @@ ht-degree: 98%
 
 此外，也可以转而使用 `"namespaceId": 10` 作为 `"namespace": "AAID"` 的代替或补充，您可能会看到其他一些 Adobe 产品使用该表单。
 
-## 旧版Analytics跟踪Cookie:已弃用表单
+## 旧版Analytics跟踪Cookie:弃用表单
 
 ```
 {
