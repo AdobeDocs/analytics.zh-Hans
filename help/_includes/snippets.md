@@ -1,8 +1,8 @@
 ---
-source-git-commit: 85d59d0a2b94953af457527a56d46faefb3ea94c
+source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 25%
+source-wordcount: '604'
+ht-degree: 24%
 
 ---
 # 片段
@@ -38,9 +38,9 @@ ht-degree: 25%
 |---------|----------|
 | [!UICONTROL **已批准**] | 表示组件已经由管理员审核和批准。 管理员将看到 [!UICONTROL **需要批准**] 选项。 选择此选项会将其标记为已批准。 |
 | [!UICONTROL **描述**] | 描述组件的预期功能。 (此信息由Analytics管理员添加，如 [添加组件描述](/help/analyze/analysis-workspace/components/add-component-descriptions.md).) |
-| [!UICONTROL **常与 一同使用**] | 显示您正在查看的5个主要组件类型中最常用于该组件的5个组件：量度、计算量度、Dimension、区段和日期范围。 此列表基于过去90天的数据。 只显示您有权查看的组件。 |
-| [!UICONTROL **如同**] | 最多显示5个组件，其标签与您在5个主要组件类型中查看的组件类似：量度、计算量度、Dimension、区段和日期范围。 只显示您有权查看的组件。 |
-| [!UICONTROL **标记**] | 显示应用于组件的所有标记。 |
+| [!UICONTROL **常与 一同使用**] | 显示您正在查看的5个主要组件类型中最常用于该组件的5个组件：量度、计算量度、Dimension、区段和日期范围。 此列表基于过去90天的数据。 只显示您有权查看的组件。 <!--Add info about how users with administrator access can control these after the feature is available. How?--> |
+| [!UICONTROL **如同**] | 最多显示5个组件，其标签与您在5个主要组件类型中查看的组件类似：量度、计算量度、Dimension、区段和日期范围。 只显示您有权查看的组件。 <!--Add info about how users with administrator access can control these after the feature is available. How?--> |
+| [!UICONTROL **标记**] | 显示应用于组件的所有标记。 具有管理员访问权限的用户可以在编辑组件时添加标记。 |
 | [!UICONTROL **组件类型**] | 列出组件的类型，无论是Dimension、量度、区段还是日期范围。 |
 | [!UICONTROL **创建者**] | 显示创建组件的用户的名称。 |
 | [!UICONTROL **预览**] | 显示组件在Analysis Workspace中的外观预览。 |

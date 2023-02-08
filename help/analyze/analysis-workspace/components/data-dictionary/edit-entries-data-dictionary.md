@@ -5,9 +5,9 @@ feature: Components
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: b0a3ee6785bdc2f3e9a55e42591b4846984934b6
+source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Analytics管理员可以编辑给定报表包的数据字典中的组件条目�
 
    ![数据字典管理视图](assets/data-dictionary-admin.png)
 
-1. 确保在下拉菜单中选择了正确的报表包。
+1. 确保在下拉菜单中选择了正确的报表包。 默认情况下，会显示您已在中的报表包。
 
 1. （可选）在搜索字段中，开始键入要编辑的组件的名称。
 
