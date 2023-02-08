@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics 发行说明
 breadcrumb-title: 发行说明
 user-guide-description: 了解 Adobe Analytics 中的新功能和修复。
-source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
+source-git-commit: af1574a72c652a75a851499416cf78703a1be178
 workflow-type: tm+mt
-source-wordcount: '39'
+source-wordcount: '41'
 ht-degree: 100%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 100%
 
 + [当前的 Analytics 发行说明](latest.md)
 + 以前的 Analytics 发行说明{#previous}
+   + [2023 年发行说明](2023.md)
    + [2022 年发行说明](2022.md)
    + [2021 年发行说明](2021.md)
    + [2020 年发行说明](2020.md)
