@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 526c7b0739ac9a4c1424bbb3cdfb320369725de6
+source-git-commit: 948a2429d7e73de90877ef40096064c0872a82d0
 workflow-type: tm+mt
 source-wordcount: '3592'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 | **2023 年 2 月** |  |
 | 实施 | 更新了有关如何 [实施适用于Web和移动设备的Adobe Analytics](../implement/home.md). |
 | **2023 年 1 月** |  |
-| 排序和过滤表格 | 更新了 [过滤和排序表](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) 文章。 已从“对表格进行分页、过滤和排序”中重命名本文。 |
+| 对表格进行筛选和排序 | 更新了[对表格进行筛选和排序](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)一文中的内容（包括添加过程和解释可用选项）。本文从“对表格进行分页、筛选和排序”更名而成。 |
 | 文件夹 | [文件夹管理](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)的专用页面。 |
 | 用户偏好设置 | [偏好设置](/help/analyze/analysis-workspace/user-preferences.md)中现在提供了许多其他用户偏好设置。 |
 | 项目的自动保存 | 已更新内容以在[保存项目](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md)中包含自动保存功能。 |
@@ -40,7 +40,7 @@ ht-degree: 98%
 | --- | --- |
 | **2022 年 11 月** |  |
 | 同意管理变量 | [同意管理选择加入](/help/components/dimensions/cm-opt-in.md)和[同意管理选择退出](/help/components/dimensions/cm-opt-out.md)的专用页面。 |
-| 多货币更新 | 有关[多货币支持](/help/technotes/multicurrency.md)的页面已更新。 |
+| 多货币更新 | 有关[多货币支持](/help/implement/vars/config-vars/currencycode.md)的页面已更新。 |
 | **2022 年 10 月** |  |
 | Data Workbench | [生命周期终止通知](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=zh-Hans) |
 | 客户端提示 | 新的[概述和常见问题解答 ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=zh-Hans)。 |
