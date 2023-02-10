@@ -4,7 +4,7 @@ title: Analytics 产品比较和要求
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
 source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
 ht-degree: 100%
 
@@ -22,11 +22,11 @@ ht-degree: 100%
 | **数据粒度** | 汇总 | 汇总 | 汇总 | 汇总 | 点击 | 点击 | 汇总 |
 | **Experience Cloud ID (ECID) 可用** | 否 | 否 | 否 | 是 | 是 | 是 | 否 |
 | **时间戳可用** | 否 | 否 | 否 | 否 | 是 | 是 | 否 |
-| **处理级别** | 完全处理 | 完全处理，具有单独的[实时报表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) | 完全处理，具有单独的[实时报表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) | 完全处理 | 完全处理 | 完全处理 | 完全处理 |
-| **包含管理员机器人过滤器数据**<br> [了解详情](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) | 否 | 是 - 单独的机器人报表 | 是 - 单独的机器人报表 | 否 | 否 | 否 | 否 |
+| **处理级别** | 完全处理 | 完全处理，具有单独的[实时报告](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) | 完全处理，具有单独的[实时报告](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) | 完全处理 | 完全处理 | 完全处理 | 完全处理 |
+| **包含管理员机器人过滤器数据**<br> [了解详情](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) | 否 | 是 - 单独的机器人报告 | 是 - 单独的机器人报告 | 否 | 否 | 否 | 否 |
 | **显示低流量（超出唯一值）**<br> [了解详情](/help/technotes/low-traffic.md) | 是 | 是 | 是 | 否 | 否 | 否 | 是 |
 | **可见的行限制（分页前）** | 400 | 200 | 50000 | 无限制 | 无限制 | 无限制 | 50000 |
-| **多个报表包** | [是](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | 是，具有限制 | 是 | 否 | 是 | 否 | 是 |
+| **多个报告包** | [是](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | 是，具有限制 | 是 | 否 | 是 | 否 | 是 |
 | **划分数** | 无限制 | 最高 2 | 最高 2 | 无限制 | 无限制 | 无限制 | 无限制，跨多个查询运行 |
 | **区段划分** <br> [了解详情](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | 是 | 是 | 是 | 是，具有[限制](/help/components/segmentation/seg-reference/seg-compatibility.md) | 是 | 否 | 是 |
 | **计算指标** <br> [了解详情](/help/components/c-calcmetrics/cm-overview.md) | 是，具有[归因 IQ](/help/analyze/analysis-workspace/attribution/overview.md) | 是 | 是 | 否 | 是 | 否 | 是，具有[归因 IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
@@ -38,4 +38,4 @@ ht-degree: 100%
 | **项目共享**<br> [了解详情](/help/analyze/analysis-workspace/curate-share/share-projects.md) | 是，具有项目角色 | 是 | 是 | 否 | 是 | 否 | 否 |
 | **计划提交** | 是 | 是 | 是 | 是 | 否 | 是 | 否 |
 | **提交目标** | 电子邮件 | 电子邮件 | 电子邮件、FTP、SFTP、[发布到 Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | 电子邮件、FTP。联系客户关怀团队以获取其他目标支持，包括 SFTP、Azure Blob、Amazon S3 | - | FTP、SFTP、Azure Blob、Amazon S3 | - |
-| **VRS 报表时间处理**<br> [了解详情](/help/components/vrs/vrs-report-time-processing.md) | 是 | 否 | 否 | 否 | 否 | 否 | 是 |
+| **VRS 报告时间处理**<br> [了解详情](/help/components/vrs/vrs-report-time-processing.md) | 是 | 否 | 否 | 否 | 否 | 否 | 是 |
