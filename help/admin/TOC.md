@@ -3,11 +3,11 @@ product: analytics
 audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
-user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报表包等等。
-source-git-commit: 948a2429d7e73de90877ef40096064c0872a82d0
+user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报告包等等。
+source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -16,23 +16,15 @@ ht-degree: 97%
 
 + [Analytics 管理员指南](home.md)
 + [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
-+ Adobe管理控制台 {#admin-console}
++ Adobe Admin Console {#admin-console}
    + [概述](admin-console/home.md)
    + [Adobe Analytics 管理入门指南](admin-console/first-admin-guide.md)
    + [Adobe Analytics 中的管理员角色](admin-console/admin-roles-in-analytics.md)
-   + Analytics工具权限摘要 {#permissions}
+   + Analytics 工具权限摘要 {#permissions}
       + [Admin Console 中的 Analytics Permissions](admin-console/permissions/summary-tables.md)
       + [Adobe Analytics 的产品配置文件](admin-console/permissions/product-profile.md)
-      + [“报表包工具”的产品配置文件权限](admin-console/permissions/report-suite-tools.md)
+      + [“报告包工具”的产品配置文件权限](admin-console/permissions/report-suite-tools.md)
       + [Analytics 工具的产品配置文件权限](admin-console/permissions/analytics-tools.md)
-   + 用户和产品管理（旧版）{#user-product-management}
-      + [用户和产品管理（旧版）](admin-console/user-management2/user-management.md)
-      + 将用户迁移到 Adobe Admin Console {#migrate-users}
-         + [将 Analytics 用户迁移到 Admin Console](admin-console/user-management2/user-migration/c-migration-tool.md)
-         + [为 Adobe ID 迁移 Analytics 用户帐户](admin-console/user-management2/user-migration/t-migrate-users.md)
-         + [迁移 Analytics 用户帐户以使用 Enterprise ID 和 Federated ID](admin-console/user-management2/user-migration/migrate-enterprise.md)
-         + [禁用旧版登录](admin-console/user-management2/user-migration/t-disable-legacy-login.md)
-         + [受迁移影响的 API](admin-console/user-management2/user-migration/developer.md)
 + Analytics 管理员工具 {#admin-tools}
    + [管理员工具概述](admin/c-admin-tools.md)
    + [计费](admin/billing-admin.md)
@@ -42,26 +34,6 @@ ht-degree: 97%
    + [日志](admin/logs.md)
    + [报告活动管理器](admin/reporting-activity.md)
    + 报告包管理器 {#manage-report-suites}
-      + [管理报告包](admin/c-manage-report-suites/report-suites-admin.md)
-      + [汇总报告包和全局报告包](admin/c-manage-report-suites/rollup-report-suite.md)
-      + [保存报告包搜索](admin/c-manage-report-suites/t-report-suite-saved-search.md)
-      + [下载报表包设置](admin/c-manage-report-suites/t-download-rs-settings.md)
-      + 新的报表包 {#c-new-report-suite}
-         + [创建报表包](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-         + [创建汇总报告包](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
-         + [创建报告包群组](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
-         + [新报表包 — 设置](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
-         + [未从源报表包复制的设置](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
-      + 报表包模板 {#report-suite-templates}
-         + [报表包模板概述](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
-         + [内容聚合门户](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
-         + [商务](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
-         + [内容和媒体](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
-         + [默认模板](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
-         + [金融服务](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
-         + [求职门户](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
-         + [商机开发](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
-         + [支持媒体](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
       + 编辑报告包设置 {#edit-report-suite}
          + 常规 {#report-suite-general}
             + [一般帐户设置](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
@@ -79,7 +51,7 @@ ht-degree: 97%
                   + [查看活动处理规则](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
                   + [查看处理规则历史记录](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
                   + [还原处理规则](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
-                  + [将处理规则复制到其他报表包](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
+                  + [将处理规则复制到其他报告包](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
                   + [可用于处理规则的维度](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rule-dimensions.md)
                + 处理规则示例{#processing-rules-examples}
                   + [处理规则的示例](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
@@ -109,9 +81,9 @@ ht-degree: 97%
                + [服务器端转发常见问题解答](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
          + 流量 {#traffic-variables}
             + [流量变量](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
-            + [启用流量变量报表](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
+            + [启用流量变量报告](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
             + [流量分类](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
-            + [自定义报表描述](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
+            + [自定义报告描述](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
          + 转化 {#conversion-variables}
             + [转化变量](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
             + [查找方法](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
@@ -141,38 +113,67 @@ ht-degree: 97%
          + [Activity Map](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
          + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
-         + [隐私报表](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
+         + [隐私报告](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + 实时 {#real-time-reports}
-            + [实时报表概述](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
-            + [实时报表配置](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
+            + [实时报告概述](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
+            + [实时报告配置](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [受支持的实时指标和维度](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
+      + [管理报告包](admin/c-manage-report-suites/report-suites-admin.md)
+      + [汇总报告包和全局报告包](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [保存报告包搜索](admin/c-manage-report-suites/t-report-suite-saved-search.md)
+      + [下载报告包设置](admin/c-manage-report-suites/t-download-rs-settings.md)
+      + 新的报告包 {#c-new-report-suite}
+         + [创建报告包](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
+         + [创建汇总报告包](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
+         + [创建报告包群组](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
+         + [新报告包 — 设置](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
+         + [未从源报告包复制的设置](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
+      + 报告包模板 {#report-suite-templates}
+         + [报告包模板概述](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+         + [内容聚合门户](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
+         + [商务](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
+         + [内容和媒体](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
+         + [默认模板](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
+         + [金融服务](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
+         + [求职门户](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
+         + [商机开发](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
+         + [支持媒体](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
    + 公司设置 {#company-settings}
       + [公司设置概述](admin/company/c-company-settings.md)
       + [安全管理器](admin/company/security-manager.md)
       + [Web 服务](admin/company/web-services-admin.md)
-      + [Report Builder 报表](admin/company/report-builder-reports-admin.md)
+      + [Report Builder 报告](admin/company/report-builder-reports-admin.md)
       + [单点登录](admin/company/single-signon-admin.md)
       + [品牌联合](admin/company/co-branding-admin.md)
-      + [隐藏报表包](admin/company/c-hide-report-suites.md)
+      + [隐藏报告包](admin/company/c-hide-report-suites.md)
       + [首选项管理器](admin/company/preferences-manager.md)
       + [待定操作](admin/company/pending-actions-admin.md)
       + [功能访问级别](admin/company/feature-access-levels.md)
    + 服务器调用使用情况 {#server-call-usage}
       + [服务器调用使用情况概述](admin/c-server-call-usage/overage-overview.md)
       + [查看当前的服务器调用使用情况](admin/c-server-call-usage/server-call-usage-dashboard.md)
-      + [查看报表包使用情况](admin/c-server-call-usage/report-suite-usage.md)
+      + [查看报告包使用情况](admin/c-server-call-usage/report-suite-usage.md)
       + [服务器调用使用情况警报](admin/c-server-call-usage/scu-alerts.md)
       + [服务器调用使用情况常见问题解答](admin/c-server-call-usage/overage-faq.md)
+   + 用户和产品管理（旧版）{#user-product-management}
+      + [用户和产品管理（旧版）](admin/user-management2/user-management.md)
+      + 将用户迁移到 Adobe Admin Console {#migrate-users}
+         + [将 Analytics 用户迁移到 Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
+         + [为 Adobe ID 迁移 Analytics 用户帐户](admin/user-management2/user-migration/t-migrate-users.md)
+         + [迁移 Analytics 用户帐户以使用 Enterprise ID 和 Federated ID](admin/user-management2/user-migration/migrate-enterprise.md)
+         + [禁用旧版登录](admin/user-management2/user-migration/t-disable-legacy-login.md)
+         + [受迁移影响的 API](admin/user-management2/user-migration/developer.md)
 + 数据管理 {#data-governance}
    + [Adobe Analytics 数据隐私工作流程](c-data-governance/an-gdpr-workflow.md)
    + [常见问题解答](c-data-governance/gdpr-faq.md)
-   + 数据标签 {#data-labels}
+   + 数据标签{#data-labels}
       + [Analytics 组件的数据隐私标签](c-data-governance/data-labeling/gdpr-labels.md)
-      + [为报表包数据设置标签](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
-      + [查看/管理报表包的隐私标签](c-data-governance/data-labeling/gdpr-view-settings.md)
+      + [为报告包数据设置标签](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
+      + [查看/管理报告包的隐私标签](c-data-governance/data-labeling/gdpr-view-settings.md)
       + [标签设置最佳实践](c-data-governance/data-labeling/gdpr-analytics-ids.md)
       + [标签设置示例](c-data-governance/data-labeling/gdpr-labeling-example.md)
       + [命名空间](c-data-governance/data-labeling/gdpr-namespaces.md)
    + [ID 扩展](c-data-governance/gdpr-id-expansion.md)
    + [CNIL 准许豁免](c-data-governance/cnil-consent-exemption.md)
 + [管理员 API](c-admin-api/c-admin-api.md)
+
