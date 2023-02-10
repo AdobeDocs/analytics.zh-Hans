@@ -4,9 +4,9 @@ title: FTP 导入
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '733'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 92%
 
 ## FTP 导入 {#concept_2F965BE873254546A61FB755F25299FD}
 
-要通过FTP上传数据文件，请执行以下操作：
+通过 FTP 上传数据文件：
 
 1. **[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
 
@@ -27,11 +27,11 @@ ht-degree: 92%
 
 初始设置使用大量原始数据填充分类数据库，或重新构建分类，而不是对某些行重新分类或添加行。
 
-在报表包中进行初始上传（针对给定的变量或报表）之后，Adobe 建议在后续导入中只上传新行和更新的行。将来上传时应忽略未更改的行。
+在报告包中进行初始上传（针对给定的变量或报告）之后，Adobe 建议在后续导入中只上传新行和更新的行。将来上传时应忽略未更改的行。
 
 您上传的每个新键值都会计入当月该变量的独立值。
 
-如果您超出了当月的独立值，将无法在报表中看到超出独立值所对应的分类数据。可在 Data Warehouse 中看到这些分类。
+如果您超出了当月的独立值，将无法在报告中看到超出独立值所对应的分类数据。可在 Data Warehouse 中看到这些分类。
 
 >[!NOTE]
 >
@@ -41,11 +41,11 @@ ht-degree: 92%
 
 ## 通过 FTP 导入分类 {#task_132C36830B69418B8C929E39838EF01D}
 
-您可以使用FTP帐户将分类导入Adobe Analytics。
+您可以使用 FTP 帐户将分类导入 Adobe Analytics 的步骤。
 
-有关创建FTP帐户的更多信息，请参阅 [创建FTP帐户](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+有关创建 FTP 帐户的更多信息，请参阅[创建 FTP 帐户](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)。
 
-要通过FTP导入分类，请执行以下操作：
+通过 FTP 导入分类：
 
 1. 单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
 1. 单击&#x200B;**[!UICONTROL 导入文件]**，然后单击 **[!UICONTROL FTP 导入]**。
@@ -56,9 +56,9 @@ ht-degree: 92%
 
    FIN 文件是一个与您的数据文件同名的空文件，扩展名为 [!DNL .fin]。例如，如果您的数据文件为 [!DNL classdata1.tab]，则 文件名为 [!DNL classdata1.fin].fin。
 
-Adobe 会定期检索已上传的具有关联 FIN 文件的数据文件。然后，Adobe 会将其导入 FTP 帐户配置中指定的报表包和数据集中。
+Adobe 会定期检索已上传的具有关联 FIN 文件的数据文件。然后，Adobe 会将其导入 FTP 帐户配置中指定的报告包和数据集中。
 
-在Adobe Analytics读取并处理了FTP文件夹中上传的文件后，这些文件便会自动删除。
+一旦 Adobe Analytics 读取并处理了上传到 FTP 文件夹中的文件，这些文件就会自动删除。
 
 ## 创建 FTP 帐户 {#task_C019268E6C934C7C95F4326F42A22CCF}
 
@@ -75,7 +75,7 @@ Adobe 会定期检索已上传的具有关联 FIN 文件的数据文件。然后
    |---|---|
    | 名称 | FTP 帐户名称。 |
    | 要分类的数据集 | 从下拉列表中，选择要进行分类的数据集（市场营销报告变量）。 |
-   | 选择报表包 | 选择要将所选数据集进行分类的报表包。要选择多个报表包，每个所选报表包的分类必须完全相同。 |
+   | 选择报告包 | 选择要将所选数据集进行分类的报告包。要选择多个报告包，每个所选报告包的分类必须完全相同。 |
    | 覆盖冲突的数据 | 选择此选项可覆盖重复数据。如果您要更新现有的分类，则此选项非常有用。如果您要添加其他分类，则建议不要使用此选项。 |
    | 导入完成后 | 选择此选项，可在导入完成后，在指定了接收此 FTP 帐户相关通知的电子邮件地址的情况下，自动将更新的数据集导出到同一 FTP 帐户。 |
    | 通知收件人 | 指定电子邮件地址来接收有关此 FTP 帐户的通知。 |
