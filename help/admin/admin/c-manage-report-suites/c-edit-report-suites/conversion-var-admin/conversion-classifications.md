@@ -4,9 +4,9 @@ title: 转化分类
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '556'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 分类用于对值进行分组归类，并按照分组级别进行报告。例如，可将所有[!UICONTROL 付费搜索]营销活动归为一个如&#x200B;*流行音乐术语*&#x200B;的类别，并报告该类别相对于“实例”（点进次数）等指标的成功率以及转化为成功事件的情况。您最多可以向一个变量添加 255 个分类。
 
-转化分类可用于分类转化变量。分类后，任何可使用关键数据生成的报表也可通过关联的数据属性来生成。
+转化分类可用于分类转化变量。分类后，任何可使用关键数据生成的报告也可通过关联的数据属性来生成。
 
 启用分类后，使用[分类导入器](/help/components/classifications/importer/c-working-with-saint.md)将特定的值指定给相应的分类。
 
@@ -33,10 +33,10 @@ ht-degree: 98%
 
 ## 添加转化分类
 
-要在管理员中添加转化分类，请执行以下操作：
+将转化分类添加到“管理”：
 
-1. 单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
-1. 选择某个报表包。
+1. 单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报告包]**。
+1. 选择某个报告包。
 1. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 转化]** > **[!UICONTROL 转化分类]**。
 1. 从&#x200B;**[!UICONTROL 选择分类类型]**&#x200B;下拉列表中，选择要添加分类的变量。
 
@@ -58,8 +58,8 @@ ht-degree: 98%
 
 删除不再需要的转化分类。
 
-1. 单击包标题中的&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**，打开报表包管理器。
-1. 选择某个报表包。
+1. 单击包标题中的&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报告包]**，打开报告包管理器。
+1. 选择某个报告包。
 1. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 转化]** > **[!UICONTROL 转化分类]**。
 1. 从&#x200B;**[!UICONTROL 选择分类类型]**&#x200B;下拉列表中，选择要从中删除分类的变量。
 1. 将鼠标悬停在&#x200B;**[!UICONTROL 编辑分类]**&#x200B;图标上，然后选择&#x200B;**[!UICONTROL 删除分类]**。
