@@ -6,15 +6,15 @@ feature: Report Builder
 role: User, Admin
 exl-id: 621e3928-17d8-4b0a-93dc-7bf1622b16fc
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '84'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # 滚动日期
 
-要自定义请求的滚动日期，请执行以下操作：
+为请求自定义滚动日期：
 
 1. 在“[!UICONTROL 请求向导: 第 1 步]”中，选择&#x200B;**[!UICONTROL 滚动日期]**。
 1. 单击&#x200B;**[!UICONTROL 滚动]**&#x200B;链接以选择滚动类型，然后使用日期链接配置滚动日期。
