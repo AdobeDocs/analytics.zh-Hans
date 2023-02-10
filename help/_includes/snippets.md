@@ -1,8 +1,8 @@
 ---
-source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
+source-git-commit: 3c57d8984634e626f5c50daf0554d660537281b5
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 25%
+source-wordcount: '650'
+ht-degree: 23%
 
 ---
 # 片段
@@ -24,7 +24,7 @@ ht-degree: 25%
    | [!UICONTROL **区段**] | 仅显示属于区段的组件。 (此选项也位于 [!UICONTROL **快速过滤器**] 选项卡。) <!--this is Filters in CJA--> |
    | [!UICONTROL **日期范围**] | 仅显示属于日期范围的组件。 (此选项也位于 [!UICONTROL **快速过滤器**] 选项卡。) |
    | [!UICONTROL **缺少描述**] | 在描述字段中仅显示尚未包含描述的组件。 此选项仅适用于管理员。 |
-   | [!UICONTROL **重复**] | 仅显示与选定报表包中其他组件具有相同标签或相同描述的组件。 此选项仅适用于管理员。 |
+   | [!UICONTROL **重复**] | 仅显示与选定报表包中其他组件具有相同标签或相同描述的组件。 此选项仅适用于管理员。 标签或描述必须完全匹配才能显示为重复项。 |
    | [!UICONTROL **最近没有数据**] | 仅显示过去90天内未收集任何数据的组件。 此选项仅适用于管理员。 |
    | [!UICONTROL **由Adobe创建**] | 仅显示由Adobe创建的组件。 不会显示管理员或组织中其他用户创建的组件。 |
    | [!UICONTROL **已批准**] | 仅显示标记为管理员已批准的组件。 |
@@ -38,8 +38,8 @@ ht-degree: 25%
 |---------|----------|
 | [!UICONTROL **已批准**] | 表示组件已经由管理员审核和批准。 管理员将看到 [!UICONTROL **需要批准**] 选项。 选择此选项会将其标记为已批准。 |
 | [!UICONTROL **描述**] | 描述组件的预期功能。 (此信息由Analytics管理员添加，如 [添加组件描述](/help/analyze/analysis-workspace/components/add-component-descriptions.md).) |
-| [!UICONTROL **常与 一同使用**] | 显示您正在查看的5个主要组件类型中最常用于该组件的5个组件：量度、计算量度、Dimension、区段和日期范围。 此列表基于过去90天的数据。 只显示您有权查看的组件。 <!--Add info about how users with administrator access can control these after the feature is available. How?--> |
-| [!UICONTROL **如同**] | 最多显示5个组件，其标签与您在5个主要组件类型中查看的组件类似：量度、计算量度、Dimension、区段和日期范围。 只显示您有权查看的组件。 <!--Add info about how users with administrator access can control these after the feature is available. How?--> |
+| [!UICONTROL **常与 一同使用**] | <p>显示最常用于您正在查看的组件的组件。</p><p>在5种主要组件类型中，最多显示5个组件：量度、计算量度、Dimension、区段和日期范围。</p><p>此列表基于过去90天的数据。 只显示您有权查看的组件。 <!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
+| [!UICONTROL **如同**] | <p>显示与您正在查看的组件具有类似标签的组件。</p><p>在5种主要组件类型中，最多显示5个组件：量度、计算量度、Dimension、区段和日期范围。</p><p>只显示您有权查看的组件。</p><p>报表包中的任何重复组件都将显示在此处。 Analytics管理员应识别并删除所有重复的组件，如 [监视数据字典运行状况](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md). <!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
 | [!UICONTROL **标记**] | 显示应用于组件的所有标记。 具有管理员访问权限的用户可以在编辑组件时添加标记。 |
 | [!UICONTROL **组件类型**] | 列出组件的类型，无论是Dimension、量度、区段还是日期范围。 |
 | [!UICONTROL **创建者**] | 显示创建组件的用户的名称。 |
