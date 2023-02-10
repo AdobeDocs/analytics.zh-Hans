@@ -4,22 +4,22 @@ title: 指定永久性流量增长
 feature: Traffic Management
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
 source-git-commit: 157b6f53b482d8cc19b99976ed1d927a80fec490
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # 指定永久性流量增长
 
-您可以更改预期流量级别，以便Adobe可以重新分配资源以处理新流量级别。 (或者，您也可以 [计划流量尖峰](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) 如果要临时重新分配资源，请执行以下操作：)
+您可以更改预期流量级别，以便 Adobe 可以重新分配资源来处理新的流量级别。 （或者，如果您想临时重新分配资源，您可以[安排流量尖峰](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)。）
 
 {{$include /help/_includes/traffic-lead-time.md}}
 
 ## 指定永久性流量增长
 
-1. 通过单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 报表包]**&#x200B;而打开报表包管理器。
-1. 选择某个报表包。
+1. 通过单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 报告包]**&#x200B;而打开报告包管理器。
+1. 选择某个报告包。
 1. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 流量管理]** > **[!UICONTROL 永久性流量]**。
 1. 在&#x200B;**[!UICONTROL 新预期的每日页面查看次数]**&#x200B;字段中，为新流量级别指定预期的每日页面查看总次数。
 
