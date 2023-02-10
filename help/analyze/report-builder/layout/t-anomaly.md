@@ -1,22 +1,22 @@
 ---
-description: 用于描述如何在报表生成器中创建异常检测请求的步骤。
+description: 用于描述如何在 Report Builder 中创建异常检测请求的步骤。
 title: 配置异常检测请求
 uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 feature: Report Builder
 role: User, Admin
 exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '168'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # 配置异常检测请求
 
-要在Report Builder中创建异常检测请求，请执行以下操作：
+在 Report Builder 中创建异常检测请求：
 
-1. 选择一个趋势报表，如&#x200B;**[!UICONTROL 网站量度]** > **[!UICONTROL 流量]**&#x200B;报表。
+1. 选择一个趋势报告，如&#x200B;**[!UICONTROL 网站量度]** > **[!UICONTROL 流量]**&#x200B;报告。
 1. 在“[!UICONTROL 应用粒度]”菜单中，选择&#x200B;**[!UICONTROL 日]**。
 
    >[!NOTE]
