@@ -4,9 +4,9 @@ description: 包含字符串值的变量。
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
 source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '144'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 63%
 | `Product page` | `500` |
 | `Purchase page` | `100` |
 
-每个维度表示网站的不同部分或方面。您可以将其中一个或多个维度与一个或多个量度组合在一起，以创建所需的报表。
+每个维度表示网站的不同部分或方面。您可以将其中一个或多个维度与一个或多个量度组合在一起，创建所需的报告。
 
 ## 添加维度描述
 
-Analytics管理员可以在报表包中或直接在Analysis Workspace中为维度和其他组件添加描述。 有关如何向维度添加描述的信息，请参阅 [添加组件描述](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
+Analytics 管理员可以在“报告包”中或直接在 Analysis Workspace 中添加维度和其他组件的描述。 有关如何向维度添加描述的信息，请参阅[添加组件描述](/help/analyze/analysis-workspace/components/add-component-descriptions.md)。
