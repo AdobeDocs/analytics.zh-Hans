@@ -7,7 +7,7 @@ exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: b585743c835312b579ae810a04b7849c5e4f4953
 workflow-type: tm+mt
 source-wordcount: '1789'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -51,9 +51,9 @@ Adobe Analytics 记分卡以平铺布局为执行用户显示关键数据可视�
 
 要实施记分卡模板，请执行以下操作：
 
-1. 在&#x200B;**[!UICONTROL 属性]**（位于右侧边栏中）下，指定要从中使用数据的&#x200B;**[!UICONTROL 项目报表包]**。
+1. 在&#x200B;**[!UICONTROL 属性]**（位于右侧边栏中）下，指定要从中使用数据的&#x200B;**[!UICONTROL 项目报告包]**。
 
-   ![报表包选择](assets/properties_save.png)
+   ![报告包选择](assets/properties_save.png)
 
 1. 要向记分卡中添加新图块，请将左侧面板中的某个指标拖放到&#x200B;**[!UICONTROL 在此处拖放指标]**&#x200B;区域。您也可以使用类似的工作流程，在两个图块之间插入指标。
 
@@ -104,13 +104,13 @@ Adobe Analytics 记分卡以平铺布局为执行用户显示关键数据可视�
 
 ### 显示比较日期范围 {#show-comparison-dates}
 
-要包含比较日期范围，请将 **包括比较日期** 设置。
+要包括比较日期范围，请切换&#x200B;**包括比较日期**&#x200B;设置。
 
 ![包括比较日期](assets/include-comparison-dates.png)
 
-设置为 *on* 默认情况下。 如果不想查看比较日期，请取消选择选项。
+默认情况下&#x200B;*启用*&#x200B;此设置。 如果您不想查看比较日期，请取消选择该选项。
 
-![取消选择的比较日期设置](assets/no-comparison-dates.png)
+![已取消选择比较日期设置](assets/no-comparison-dates.png)
 
 ## 应用可视化图表 {#viz}
 

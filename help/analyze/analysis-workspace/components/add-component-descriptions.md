@@ -1,12 +1,12 @@
 ---
-description: 管理员可以使用报表包或数据字典为组件添加描述。
+description: 管理员可以使用“报告包”或“数据词典”添加组件的描述。
 title: 添加组件描述
 feature: Components
 role: Admin
 source-git-commit: 85d59d0a2b94953af457527a56d46faefb3ea94c
 workflow-type: tm+mt
 source-wordcount: '86'
-ht-degree: 0%
+ht-degree: 84%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Analytics管理员可以为组件(Dimension、量度、区段和日期范围)添加描述<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->.
 
-在Analysis Workspace中构建项目或查看报表时，您组织中的用户可以查看相关描述。 描述可帮助用户了解如何最好地使用各种组件。
+您组织中的用户可以在 Analysis Workspace 中构建项目或查看报告时查看描述。 描述可帮助用户了解如何充分使用各种组件。
 
-## 向报表包中的组件添加描述
+## 向“报告包”中的组件添加描述
 
-以下视频介绍如何在报表包中添加维度和量度描述：
+以下视频介绍了如何在“报告包”中添加维度和量度描述：
 
 >[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
 

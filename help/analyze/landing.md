@@ -37,8 +37,8 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 
 ![顶部菜单](assets/top-menus.png)
 
-* 顶部 Analytics 菜单：现在，大多数报表都位于左边栏中的[!UICONTROL 报表]菜单中。
-* 左边栏有三个选项卡：[!UICONTROL 项目]、[!UICONTROL 报表]和[!UICONTROL 学习]。
+* 顶部 Analytics 菜单：现在，大多数报告都位于左边栏中的[!UICONTROL 报告]菜单中。
+* 左边栏有三个选项卡：[!UICONTROL 项目]、[!UICONTROL 报告]和[!UICONTROL 学习]。
 
 ### 术语
 
@@ -65,7 +65,7 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 | [!UICONTROL 移动记分卡] | 创建一个空白[移动记分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html)以便您进行设计和构建。 |
 | [!UICONTROL 打开培训教程] | 打开 Workspace 培训教程，它会通过分步教程指导您完成构建新的入门项目的过程。 |
 | [!UICONTROL 打开发行说明] | 打开最新的 Adobe Experience Cloud 发行说明的 Adobe Analytics 部分。 |
-| 过滤器图标 | 按标记、报表包、所有者、类型和其他过滤器（“我的”、“已与我共享”、“收藏”和“已批准”）进行过滤 |
+| 过滤器图标 | 按标记、报告包、所有者、类型和其他过滤器（“我的”、“已与我共享”、“收藏”和“已批准”）进行过滤 |
 | 搜索栏 | 搜索表中的所有列。 |
 | 选区框 | 选择一个或多个项目可显示您可以执行的项目管理操作：**删除**、**共享**、**重命名**、**复制**、**取消固定**、**上移**、**下移**、**标记**、**批准**、**导出 CSV** 和&#x200B;**移至**。您可能无权执行所有列出的操作。 |
 | [!UICONTROL 收藏] | 在可用作过滤器的收藏项目或文件夹旁边添加星号。 |
@@ -76,7 +76,7 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 | [!UICONTROL 类型] | 指示此类型是 Workspace 项目、移动记分卡还是文件夹。 |
 | [!UICONTROL 标记] | 标记项目以将其整理到组中。 |
 | [!UICONTROL 项目角色] | 标识项目角色：您是否为项目所有者，以及您是否具有编辑或复制项目的权限。 |
-| [!UICONTROL 报表包] | 标识与项目关联的报表包。<br>面板中的表格和可视化图表从在面板的右上角选中的报表包中派生数据。报表包还确定在左边栏中有哪些组件可用。在项目中，您可以根据分析用例，使用一个或多个报表包。报表包列表按相关性排序。Adobe 在定义相关性时，依据当前用户在近期使用该包的频率以及该包在组织中的使用频率。 |
+| [!UICONTROL 报告包] | 标识与项目关联的报告包。<br>面板中的表格和可视化图表从在面板的右上角选中的报告包中派生数据。报告包还确定在左边栏中有哪些组件可用。在项目中，您可以根据分析用例，使用一个或多个报告包。报告包列表按相关性排序。Adobe 在定义相关性时，依据当前用户在近期使用该包的频率以及该包在组织中的使用频率。 |
 | [!UICONTROL 所有者] | 标识已创建项目的用户。 |
 | [!UICONTROL 上次打开时间] | 标识您上次打开项目的日期。 |
 | 自定义表格图标 | 选择要在表中查看的列。要在项目列表中添加或删除列，请单击右上角的列图标（![全部登陆](/help/analyze/assets/select-column.png)），然后选择或取消选择列标题。 |
@@ -97,7 +97,7 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 
 ![切换到所有项目](assets/switch-all-projects-view.png)
 
-面向管理员的另一个用例是管理公司报表，以便删除、重命名、标记或审批报表。有关管理报表的信息，请参阅[管理公司报表](#manage-company-reports)。
+面向管理员的另一个用例是管理公司报告，以便删除、重命名、标记或审批报告。有关管理报告的信息，请参阅[管理公司报告](#manage-company-reports)。
 
 ## 在[!UICONTROL 报告]选项卡中导航 {#navigate-reports}
 
@@ -110,7 +110,7 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 >
 >在“报告”下，仅当您将新报告标记为收藏时，才会显示“收藏”文件夹。不会沿用任何预先存在的 Reports &amp; Analytics 收藏。
 
-![“报表”选项卡](assets/reports-tab2.png)
+![“报告”选项卡](assets/reports-tab2.png)
 
 如前所述，此处仅提供以前在 Reports &amp; Analytics 中分组的最常用报告。少数很少使用或不再相关的报告没有迁移过来。有关更多详细信息，请参阅下面的常见问题解答。
 
@@ -126,9 +126,9 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 | **[!UICONTROL 受众]** | <ul><li>人员量度（有多少人在与我的品牌互动？）</li><li>访客个人资料 > 位置概览（哪些位置在用户中促成的使用量最大）</li><li>访客个人资料 > 地理分段 > 地理县、美国地理州、地理区域、地理城市、美国地理 DMA（我的用户访问哪些地理区域？）</li><li>访客个人资料 > 语言（我的用户更喜欢哪种语言？）</li><li>访客个人资料 > 时区（我的用户从哪些时区访问？）</li><li>访客个人资料 > 域（我的访客使用哪些 ISP 访问我的网站？）</li><li>访客个人资料 > 顶级域（哪些域会提升我的网站的流量？）</li><li>访客个人资料 > 技术 > 技术概览（人们使用哪些技术访问我的网站？）</li><li>访客个人资料 > 技术 > 浏览器、浏览器类型、浏览器宽度、浏览器高度（人们使用哪家公司的浏览器、浏览器版本及其宽度和高度来访问我的网站？）</li><li>访客个人资料 > 技术 > 操作系统、操作系统类型（我的访客使用哪个操作系统和哪个版本？）</li><li>访客个人资料 > 技术 > 移动运营商（我的访客使用哪些移动运营商访问我的网站？）</li><li>访客维系 > 回访频率（我的用户当前访问和之前访问之间间隔了多长时间？）</li><li>访客维系 > 回访访客（我的访客中有多少是回访用户？）</li><li>访客维系 > 访问次数（哪个访问次数区间对我的关键量度起到的推动作用最大？）</li><li>访客维系 > 销售周期 > 客户忠诚度（我的用户属于哪个忠诚度细分？）</li><li>访客维系 > 销售周期 > 首次购买前的天数（我的用户第一次访问和第一次购买之间间隔了多少天？）</li><li>访客维系 > 销售周期 > 上次购买前的天数（我的用户当前访问和上一次购买之间间隔了多少天？）</li><li>访客维系 > 移动 > 设备和设备类型（我的访客使用哪些设备和设备类型？）</li><li>访客维系 > 移动 > 制造商（我的访客使用哪个移动设备制造商？）</li><li>访客维系 > 移动 > 屏幕尺寸、屏幕高度、屏幕宽度（我的访客有哪些移动屏幕尺寸/高度/宽度？）</li><li>访客维系 > 移动 > [移动应用使用情况](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile?lang=zh-Hans)</li><li>访客维系 > 移动 > [移动应用旅程](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile?lang=zh-Hans)</li><li>访客维系 > 移动 > [移动应用量度](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile?lang=zh-Hans)</li><li>访客维系 > 移动 > [移动应用消息](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile?lang=zh-Hans)</li><li>访客维系 > 移动 > [移动应用表现](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile?lang=zh-Hans)</li><li>访客维系 > 移动 > [移动应用维系](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile?lang=zh-Hans)</li></ul> |
 | **[!UICONTROL 客户获取]** | <ul><li>营销渠道 > 首次联系渠道、首次联系渠道详细信息（哪个首次联系渠道以及哪个特定的首次联系渠道表现最佳？）</li><li>营销渠道 > 首次最近渠道、首次最近渠道详细信息（哪个最近联系渠道以及哪个特定的最近联系渠道表现最佳？）</li><li>营销活动 > 营销活动（我的关键量度受哪些营销活动驱动？）</li><li>营销活动 > 营销活动效果（哪些营销活动带来的收入最多？）</li><li>营销活动 > 跟踪代码（哪些营销活动跟踪代码的表现最佳？）</li><li>[Web 客户获取](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#web?lang=zh-Hans)</li><li>[移动客户获取](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile?lang=zh-Hans)</li><li>[Advertising Analytics：付费搜索](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#advertising?lang=zh-Hans)</li><li>搜索关键词 - 全部、付费、免费（哪些搜索关键词和付费/免费搜索关键词对我的关键量度的推动作用最大？）</li><li>搜索引擎 - 全部、付费、免费（哪些搜索引擎和付费/免费搜索引擎对我的关键量度的推动作用最大？）</li><li>所有搜索页面排名（我的用户是从哪个搜索页面访问的？）</li><li>反向链接域（哪些域会提升我的网站的流量？）</li><li>原始反向链接域（在访问我的网站之前，用户所在的第一个域是哪个域？）</li><li>反向链接（我的用户在点进我的网站之前位于哪些 URL 上？）</li><li>反向链接类型（我的引用 URL 属于哪个类别？）</li></ul> |
 
-### 模板（现在称作报表）位置 {#templates}
+### 模板（现在称作报告）位置 {#templates}
 
-| 报表（模板）名称 | 报表位置 |
+| 报告（模板）名称 | 报告位置 |
 | --- | --- |
 | 培训教程 | 最受欢迎 > 培训教程 |
 | Web 内容使用 | 参与 > Web 内容使用 |
@@ -161,7 +161,7 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 1. 选择您要查看的报告，例如，在[!UICONTROL 最受欢迎]下方选择[!UICONTROL 页面]报告。
 1. 单击右侧的&#x200B;**[!UICONTROL 打开报告]**。
 
-   ![页面报表](assets/pages-report.png)
+   ![页面报告](assets/pages-report.png)
 
 1. “页面”报告显示在 Analysis Workspace 中，其中显示了[可视化](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)（[条形图](/help/analyze/analysis-workspace/visualizations/bar.md)和[摘要数量](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)）和[自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)。使用的量度为“发生次数”。
 1. 这里提供了多个选项。以下是部分选项：
@@ -171,20 +171,20 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
    * 您可以前往右上方的日历更改日期范围。
    * 您可以添加维度细分、拖入其他量度，并且通常以您希望的任何方式自定义报告。
 
-### 创建自定义公司报表 {#company-report}
+### 创建自定义公司报告 {#company-report}
 
-创建并保存以供您的登录公司中的其他人使用的自定义报告称为公司报表。以前创建的公司报表和新创建的公司报表将在“创建项目”模式中列出，如下所示。
+创建并保存以供您的登录公司中的其他人使用的自定义报告称为公司报告。以前创建的公司报告和新创建的公司报告将在“创建项目”模式中列出，如下所示。
 
-要创建新的公司报表，请执行以下操作：
+要创建新的公司报告，请执行以下操作：
 
 1. 将工作区构建为所需的状态。
-1. 打开[!UICONTROL 项目]菜单，然后单击&#x200B;**[!UICONTROL 另存为公司报表…]**。
+1. 打开[!UICONTROL 项目]菜单，然后单击&#x200B;**[!UICONTROL 另存为公司报告…]**。
 
-   ![公司报表](assets/company-report.png)
+   ![公司报告](assets/company-report.png)
 
 1. 将所有必需字段添加到模态中并进行保存。
 
-   该报表将添加到“创建项目”模式下的“公司报表”列表中，并且可供您的登录公司的内部人员使用。
+   该报告将添加到“创建项目”模式下的“公司报告”列表中，并且可供您的登录公司的内部人员使用。
 
 更多学习选项：
 
@@ -193,31 +193,31 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 * 这是指向[完整 Analysis Workspace 文档](/help/analyze/analysis-workspace/home.md)的链接。
 * 这是 [Analysis Workspace 的完整 YouTube 播放列表](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)。
 
-### 管理公司报表 {#manage-company-reports}
+### 管理公司报告 {#manage-company-reports}
 
-管理员可以过滤项目列表以显示和管理公司报表。已固定的项目保持固定状态，后跟由 ![报表图标](assets/report-icon.png) 报表图标标识的公司报表的列表。在此视图中，您可以删除、重命名、标记或审批一个或多个报表。
+管理员可以过滤项目列表以显示和管理公司报告。已固定的项目保持固定状态，后跟由 ![报告图标](assets/report-icon.png) 报告图标标识的公司报告的列表。在此视图中，您可以删除、重命名、标记或审批一个或多个报告。
 
-显示和管理公司报表
+显示和管理公司报告
 
-1. 在过滤器边栏中，选择&#x200B;**其他过滤器**，然后选择&#x200B;**公司报表**。显示公司报表的列表。不会显示所有常规项目（除非已固定）。
+1. 在过滤器边栏中，选择&#x200B;**其他过滤器**，然后选择&#x200B;**公司报告**。显示公司报告的列表。不会显示所有常规项目（除非已固定）。
 
-   ![显示公司报表过滤器](assets/company-reports-filter.png)
+   ![显示公司报告过滤器](assets/company-reports-filter.png)
 
-   显示公司报表后，管理员可以删除、重命名、标记或审批报表。
+   显示公司报告后，管理员可以删除、重命名、标记或审批报告。
 
-1. 在报表列表中，选择单个报表或多个报表。
+1. 在报告列表中，选择单个报告或多个报告。
 
-1. 单击报表旁边的 **...** 省略号图标可查看可用选项（删除、重命名、标记和审批）。
+1. 单击报告旁边的 **...** 省略号图标可查看可用选项（删除、重命名、标记和审批）。
 
-   ![公司报表图标](assets/company-reports-actions.png)
+   ![公司报告图标](assets/company-reports-actions.png)
 
 1. 选择一个选项（删除、重命名、标记和审批）。
 
-1. 要在完成操作后返回常规视图，请在过滤器边栏中再次取消选中“公司报表”选项。
+1. 要在完成操作后返回常规视图，请在过滤器边栏中再次取消选中“公司报告”选项。
 
-### 删除公司报表
+### 删除公司报告
 
-管理员可以使用公司报表列表选项（如上所述）删除报表，也可以从“创建项目”模式中删除报表。
+管理员可以使用公司报告列表选项（如上所述）删除报告，也可以从“创建项目”模式中删除报告。
 
 ![其他过滤器](assets/delete-fr-create-project-modal.png)
 
@@ -250,9 +250,9 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 
 | 问题 | 回答 |
 | --- | --- |
-| 以前在[!UICONTROL 工作区]中经常可以找到的模板在哪里？ | 这些模板在[!UICONTROL 报表]选项卡下分组。 |
+| 以前在[!UICONTROL 工作区]中经常可以找到的模板在哪里？ | 这些模板在[!UICONTROL 报告]选项卡下分组。 |
 | 我在 Beta 版程序 UI 中所做的工作会转移到生产[!UICONTROL 工作区]体验中吗？ | 会，在 Beta 版中所做的任何工作都会转移到以前/当前[!UICONTROL 工作区]体验中。 |
 | 任何当前的 [!DNL Reports & Analytics] 收藏会转移吗？ | 不会，它们不会转移。但是，所有[!UICONTROL 工作区]项目收藏都会转移。 |
 | 我可以固定的项目数量是否存在上限？ | 无限制，您可以固定的项目数量没有任何限制。 |
 | 管理员可以为其用户指定此登陆页面吗？ | 不可以，管理员不能代表用户指定登陆页面。个人用户必须自行开启切换开关。 |
-| 目前存在于 [!DNL Reports & Analytics] 中的所有报告是否仍可用？ | 不是，根据总体使用情况数据，以下报表已逐步淘汰： <ul><li>任何自定义 eVar/prop/事件/分类<li>我的推荐报表</li><li>每小时/每日/每周/每月/每季度/每年独特访客</li><li>每日/每周/每月/每季度/每年独特客户</li><li>操作名称深度</li><li>操作名称摘要</li><li>添加仪表板</li><li>年龄</li><li>音频支持</li><li>计费信息</li><li>进入页面点击数</li><li>颜色深度</li><li>Cookie 支持</li><li>Cookie</li><li>连接类型</li><li>创意元素</li><li>信用卡类型</li><li>交叉销售</li><li>自定义事件漏斗</li><li>自定义链接</li><li>客户 ID</li><li>每周的某一日</li><li>进入操作名称</li><li>退出操作名称</li><li>退出链接</li><li>流失</li><li>文件下载</li><li>在商店中查找</li><li>完整路径</li><li>性别</li><li>点击类型 VISTA 规则</li><li>图像支持</li><li>Java</li><li>JavaScript</li><li>JavaScript 版本</li><li>管理书签</li><li>管理仪表板</li><li>监视器颜色深度</li><li>显示器分辨率</li><li>新闻稿注册</li><li>下一个操作名称</li><li>下一个操作名称流程</li><li>Null 搜索次数</li><li>操作系统</li><li>订单查看</li><li>一天中的页面</li><li>页面未找到</li><li>PathFinder</li><li>路径长度</li><li>上一个操作名称</li><li>上一个操作名称流程</li><li>产品活动</li><li>产品成本</li><li>产品部门</li><li>产品库存类别</li><li>产品名称</li><li>产品评价</li><li>产品季节</li><li>产品共享</li><li>产品缩放</li><li>重新加载</li><li>搜索</li><li>服务器</li><li>单页面访问量</li><li>运费信息</li><li>网站层级</li><li>社交网站提及次数</li><li>一天中的时间</li><li>操作名称所用时间</li><li>视频支持</li><li>访客所在州</li></ul> |
+| 目前存在于 [!DNL Reports & Analytics] 中的所有报告是否仍可用？ | 不是，根据总体使用情况数据，以下报告已逐步淘汰： <ul><li>任何自定义 eVar/prop/事件/分类<li>我的推荐报告</li><li>每小时/每日/每周/每月/每季度/每年独特访客</li><li>每日/每周/每月/每季度/每年独特客户</li><li>操作名称深度</li><li>操作名称摘要</li><li>添加仪表板</li><li>年龄</li><li>音频支持</li><li>计费信息</li><li>进入页面点击数</li><li>颜色深度</li><li>Cookie 支持</li><li>Cookie</li><li>连接类型</li><li>创意元素</li><li>信用卡类型</li><li>交叉销售</li><li>自定义事件漏斗</li><li>自定义链接</li><li>客户 ID</li><li>每周的某一日</li><li>进入操作名称</li><li>退出操作名称</li><li>退出链接</li><li>流失</li><li>文件下载</li><li>在商店中查找</li><li>完整路径</li><li>性别</li><li>点击类型 VISTA 规则</li><li>图像支持</li><li>Java</li><li>JavaScript</li><li>JavaScript 版本</li><li>管理书签</li><li>管理仪表板</li><li>监视器颜色深度</li><li>显示器分辨率</li><li>新闻稿注册</li><li>下一个操作名称</li><li>下一个操作名称流程</li><li>Null 搜索次数</li><li>操作系统</li><li>订单查看</li><li>一天中的页面</li><li>页面未找到</li><li>PathFinder</li><li>路径长度</li><li>上一个操作名称</li><li>上一个操作名称流程</li><li>产品活动</li><li>产品成本</li><li>产品部门</li><li>产品库存类别</li><li>产品名称</li><li>产品评价</li><li>产品季节</li><li>产品共享</li><li>产品缩放</li><li>重新加载</li><li>搜索</li><li>服务器</li><li>单页面访问量</li><li>运费信息</li><li>网站层级</li><li>社交网站提及次数</li><li>一天中的时间</li><li>操作名称所用时间</li><li>视频支持</li><li>访客所在州</li></ul> |

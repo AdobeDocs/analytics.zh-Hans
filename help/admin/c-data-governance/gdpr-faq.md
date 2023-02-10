@@ -5,8 +5,8 @@ feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
 source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2076'
+ht-degree: 61%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 +++ **Adobe Analytics 如何支持由最终用户（数据主体）提出、并由客户（数据控制者）进行验证的访问请求和删除请求？**
 
-各种数据隐私规则(GDPR、CCPA)生效后，Adobe Analytics将支持处理“数据控制方”向Experience Cloud数据隐私API提交的已验证请求，以实现更加自动化的流程。 针对我们的客户在各种 Adobe Experience Cloud 解决方案中存储的数据，Adobe 的数据隐私 API 旨在帮助处理个人权利请求（例如，访问和删除请求）。它灵活且可根据贵公司从数据主体收到的数据访问和删除请求的数量进行扩展。
+各种数据隐私法规 (GDPR、CCPA) 正式生效后，Adobe Analytics 将支持处理“数据控制者”向 Experience Cloud 数据隐私 API 提交的验证请求，以实现更加自动化的流程。针对我们的客户在各种 Adobe Experience Cloud 解决方案中存储的数据，Adobe 的数据隐私 API 旨在帮助处理个人权利请求（例如，访问和删除请求）。它灵活且可根据贵公司从数据主体收到的数据访问和删除请求的数量进行扩展。
 
 此外，Privacy ServiceAPI允许客户检查有关如何执行数据访问和删除请求的状态。 有关更多详细信息，请参阅 [](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)Privacy Service API 文档。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 数据控制者确定如何为来自数据主体的请求解析身份。 可以考虑部署 Adobe 的数据隐私 ID 检索标记。您的开发团队可通过使用我们的数据隐私ID检索标记捕获用户ID(Cookie ID)来节省时间。 然后，他们可以使用我们的数据隐私API将这些用户ID发送到Adobe Experience Cloud中的相关解决方案，以进行数据隐私请求处理。 数据隐私 API 可以在多个 Adobe 解决方案中支持范围广泛的客户 ID。
 
-如果数据主体提交了请求以及标识符(自定义变量 — prop或eVar)，则Adobe Analytics会扫描针对给定标识符收集的数据的整个保留历史记录。 有关如何配置存储在Analytics prop或eVar中的自定义ID的详细信息，请参阅 [Analytics关于命名空间的文档](/help/admin/c-data-governance/data-labeling/gdpr-namespaces.md).
+如果数据主体提交了请求以及标识符(自定义变量 — prop或eVar)，则Adobe Analytics会扫描针对给定标识符收集的数据的整个保留历史记录。 有关如何配置存储在 Analytics prop 或 eVar 中的自定义 ID 的详细信息，请参阅 [Analytics 关于命名空间的文档](/help/admin/c-data-governance/data-labeling/gdpr-namespaces.md)。
 
 +++
 
@@ -54,15 +54,15 @@ ht-degree: 0%
 
 +++ **如何验证Privacy Service请求是否正常运行以从Adobe Analytics中删除数据？**
 
-通常，Analytics客户会先设置一些测试报表包来验证功能，然后再将其发布给公众。 预生产网站或应用程序会将数据发送到这些测试/开发/QA报表包，以评估在将实际流量发送到生产报表包之前释放代码时工作情况。
+通常情况下，在向公众发布之前，Analytics 客户会设置一些测试报告包来验证功能。 预生产网站或应用程序会将数据发送到这些测试/开发/QA报表包，以评估在将实际流量发送到生产报表包之前释放代码时工作情况。
 
-但是，在正常配置下，在将请求应用到生产报表包之前，不能先在这些测试报表包上对 GPDR 请求的处理进行测试。这是因为数据隐私请求会自动应用于Experience Cloud组织中的所有报表包，通常是您公司的所有报表包。
+但是，在正常配置下，在将请求应用到生产报告包之前，不能先在这些测试报告包上对 GPDR 请求的处理进行测试。这是因为数据隐私请求会自动应用于Experience Cloud组织中的所有报表包，通常是您公司的所有报表包。
 
 但是，在将数据隐私处理应用于所有报表包之前，您仍可以通过以下几种方法对其进行测试：
 
-* 一种选择是，设置一个单独的 Experience Cloud 组织，其中仅包含测试报表包。然后，使用此 Experience Cloud 组织进行数据隐私测试，并使用常规的 Experience Cloud 组织进行实际的数据隐私处理。
+* 一种选择是，设置一个单独的 Experience Cloud 组织，其中仅包含测试报告包。然后，使用此 Experience Cloud 组织进行数据隐私测试，并使用常规的 Experience Cloud 组织进行实际的数据隐私处理。
 
-* 另一种选择是，为测试报表包中的 ID 分配与生产报表包中的 ID 不同的命名空间。例如，您可以在测试报表包中为每个命名空间添加“qa-”作为前缀。当您提交仅带有 qa 前缀的命名空间的数据隐私请求时，这些请求将仅针对您的测试报表包运行。之后，当您提交不带 qa 前缀的请求时，它们将应用于您的生产报表包。**推荐使用这种方法，除非您使用visitorId、AAID、ECID或customVisitorId命名空间。 这些命名空间采用硬编码，您无法在测试报表包中为它们指定替代名称。**
+* 另一种选择是，为测试报告包中的 ID 分配与生产报告包中的 ID 不同的命名空间。例如，您可以在测试报告包中为每个命名空间添加“qa-”作为前缀。当您提交仅带有 qa 前缀的命名空间的数据隐私请求时，这些请求将仅针对您的测试报告包运行。之后，当您提交不带 qa 前缀的请求时，它们将应用于您的生产报告包。**推荐使用此方法，除非您使用 visitorId、AAID、ECID 或 customVisitorId 命名空间。 这些命名空间经硬编码，无法在测试报告包中为其指定替代名称。**
 
 +++
 
@@ -84,7 +84,7 @@ GDPR和CCPA是重新考虑您的同意管理策略和惯例的好机会。 这�
 
 个人数据通常不应保留超过达到收集目的所需的时间。 Adobe的一般条款适用默认的25个月数据保留计划，除非按照合同约定，另有数据保留期限。 客户需要先设置其数据保留策略，然后Adobe才能处理数据隐私请求。
 
-每个报表包的当前数据保留策略都显示在新的数据管理管理员 UI 中。如果客户需要调整其数据保留策略，则应联系其Adobe代表。 请参阅 [Adobe Analytics数据保留常见问题解答](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=en).
+每个报告包的当前数据保留策略都显示在新的数据管理管理员 UI 中。如果客户需要调整其数据保留策略，则应联系其Adobe代表。 请参阅 [Adobe Analytics数据保留常见问题解答](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=zh-Hans).
 
 +++
 
@@ -96,7 +96,7 @@ GDPR和CCPA是重新考虑您的同意管理策略和惯例的好机会。 这�
 
 +++ **从 Adobe Analytics 导出个人数据时，数据控制者应该考虑哪些隐私问题？**
 
-如果客户使用 Adobe Analytics 数据馈送，将数据从 Analytics 导出到其企业数据仓库或 Adobe 以外的其他系统，则客户（数据控制者）有责任确保对数据应用删除请求。这也适用于AdobeData Workbench的内部部署实施，在该实施中，持续的Adobe Analytics数据馈送将填充Data Workbench数据。 Adobe 会提供一些辅助工具来查找并删除某些类型的数据馈送，其中包括用于 Data Workbench 的数据馈送，但是客户（数据控制者）仍要负责确保删除的数据符合其内部的数据保留和删除策略。
+如果客户使用 Adobe Analytics 数据馈送，将数据从 Analytics 导出到其企业数据仓库或 Adobe 以外的其他系统，则客户（数据控制者）有责任确保对数据应用删除请求。这同样适用于 Adobe Data Workbench 的内部部署实施，当前，持续进行的 Adobe Analytics 数据馈送正在填充 Data Workbench 数据。 Adobe 会提供一些辅助工具来查找并删除某些类型的数据馈送，其中包括用于 Data Workbench 的数据馈送，但是客户（数据控制者）仍要负责确保删除的数据符合其内部的数据保留和删除策略。
 
 此外，还请考虑员工已下载包含个人数据的Adobe Analytics报表的情况。 如果收到与数据隐私相关的删除请求时涉及报表中存在的ID，则可能需要更新或删除这些报表。 客户应与自己公司的法律顾问合作，确定保留期限以及应应用于这些类型文档的隐私和安全要求。
 
@@ -104,7 +104,7 @@ GDPR和CCPA是重新考虑您的同意管理策略和惯例的好机会。 这�
 
 +++ **我们意外将一些不应该收集的数据发送到了 Adobe Analytics。我们能否使用数据隐私API来清理此数据？**
 
-的 [数据Privacy ServiceAPI](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) 已提供用于帮助您执行对时间敏感的数据隐私请求。 Adobe 不支持将此 API 用于其他目的，因为这样会影响 Adobe 为其他 Adobe 客户及时提供高优先级服务、执行用户所发起数据隐私请求的能力。
+提供[数据 Privacy Service API](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) 是为了帮助您执行对时间敏感的数据隐私请求。 Adobe 不支持将此 API 用于其他目的，因为这样会影响 Adobe 为其他 Adobe 客户及时提供高优先级服务、执行用户所发起数据隐私请求的能力。
 
 我们建议您不要将数据隐私 API 用于其他目的，例如清除大量访客意外提交的数据。您还应该了解，对于任何因提交数据隐私删除请求后而删除其点击（已更新或匿名）的访客，其状态信息都将会进行重置。这样该访客下次返回您的网站时，将会成为新访客。所有 eVar 归因都将重新开始，访问次数、反向链接、访问的第一个页面等信息也都将重新统计。对于要清除数据字段的情况，这种副作用不尽如人意，因此突显了数据隐私 API 不适合此用途的一个原因。
 
@@ -114,7 +114,7 @@ GDPR和CCPA是重新考虑您的同意管理策略和惯例的好机会。 这�
 
 +++ **我们的法律团队已确定我们多年来一直在变量中收集的值不再符合我们更新的隐私政策。 我们是否可以使用数据隐私 API 清除此变量中的所有值？**
 
-的 [数据Privacy ServiceAPI](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) 已提供用于帮助您执行对时间敏感的数据隐私请求。 Adobe 不支持将此 API 用于其他目的，因为这样会影响 Adobe 为其他 Adobe 客户及时提供高优先级服务、执行用户所发起数据隐私请求的能力。我们建议您不要将数据隐私 API 用于其他目的，例如清除大量访客意外提交的数据。
+提供[数据 Privacy Service API](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) 是为了帮助您执行对时间敏感的数据隐私请求。 Adobe 不支持将此 API 用于其他目的，因为这样会影响 Adobe 为其他 Adobe 客户及时提供高优先级服务、执行用户所发起数据隐私请求的能力。我们建议您不要将数据隐私 API 用于其他目的，例如清除大量访客意外提交的数据。
 
 您还应该了解，对于任何因提交数据隐私删除请求后而删除其点击（已更新或匿名）的访客，其状态信息都将会进行重置。这样该访客下次返回您的网站时，将会成为新访客。所有 eVar 归因都将重新开始，访问次数、反向链接、访问的第一个页面等信息也都将重新统计。对于要清除数据字段的情况，这种副作用不尽如人意，因此突显了数据隐私 API 不适合此用途的一个原因。
 

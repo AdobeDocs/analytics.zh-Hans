@@ -1,12 +1,12 @@
 ---
-description: 显示一些示例来说明如何标记命中数据、访问请求、删除请求的数据
+description: 显示一些示例来说明如何标记点击数据、访问请求、删除请求的数据
 title: 标记示例
 feature: Data Governance
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -14,16 +14,16 @@ ht-degree: 95%
 
 ## 点击数据示例 {#hit}
 
-假设您具有以下命中数据：
+假设您具有以下点击数据：
 
 * 第一行包含适用于每个变量的标签。
 * 第二行是变量的名称。如果它有一个 ID 标签，它将包含括号中分配的命名空间。
-* 而第三行是命中数据；
+* 而第三行是点击数据；
 
 | 标签 | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
 | **变量名称** <br> **(命名空间)** | **MyProp1** <br> **(用户)** | **访客 ID** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
-| 命中数据 | Mary | 77 | A | M | X |
+| 点击数据 | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
 |  | John | 77 | D | P | W |
@@ -143,7 +143,7 @@ ht-degree: 95%
 
 ## 删除请求示例 {#delete}
 
-通过使用表格第一行中的 API 值来提出删除请求，命中表格将会发生更新。具体情况如下所示：
+通过使用表格第一行中的 API 值来提出删除请求，点击表格将会发生更新。具体情况如下所示：
 
 <table>
   <tr>

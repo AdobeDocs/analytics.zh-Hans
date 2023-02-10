@@ -5,7 +5,7 @@ exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 source-git-commit: 7adcd3698416e0591dba1faa841ac3b4273a5562
 workflow-type: tm+mt
 source-wordcount: '1247'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,15 +21,15 @@ Google 将 User-Agent 客户端提示分为两类：低熵提示和高熵提示�
 
 * **高熵**&#x200B;提示包含更加详细的信息。仅应请求提供这些提示。AppMeasurement 和 Web SDK 都可以配置为请求高熵提示。默认情况下，两个库都&#x200B;**不**&#x200B;请求高熵提示。
 
-从 2022 年 10 月开始，Chromium 浏览器的新版本已开始“冻结”在 User-Agent 字符串中表示的操作系统版本。操作系统版本是高熵提示，因此要保证报表中操作系统版本的准确无误，必须配置收藏集库以使其收集这些高熵提示。User-Agent 的其他设备信息逐渐将被冻结，需要客户端提示以保持设备报表准确性。
+从 2022 年 10 月开始，Chromium 浏览器的新版本已开始“冻结”在 User-Agent 字符串中表示的操作系统版本。操作系统版本是高熵提示，因此要保证报告中操作系统版本的准确无误，必须配置收藏集库以使其收集这些高熵提示。User-Agent 的其他设备信息逐渐将被冻结，需要客户端提示以保持设备报告准确性。
 
 从 2023 年 2 月 16 日开始，客户提示将纳入 Analytics 设备查找流程。AppMeasurement 和 Web SDK 目前都支持收集提示数据，但直到 2 月中旬才会用于设备查找。如下所述，操作系统版本已从 10 月开始冻结，但由于逐步推出以及许多用户代理已提高冻结的操作系统版本（有关更多信息，请参见[此处](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hans)），我们估计这将影响不到 3% 的 Chrome 访客。
 
 >[!NOTE]
 >
-> 自2023年1月起，某些版本的Mac和Windows操作系统在用户代理中表示不正确，但在高熵客户端提示中正确表示。 有关更多信息，请参阅[操作系统](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hans)。
+> 截至 2023 年 1 月，某些版本的 Mac 和 Windows 操作系统在用户代理中未正确显示，但在高熵客户端提示中正确表示。 有关更多信息，请参阅[操作系统](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hans)。
 
-AAM需要收集高熵提示以保留完整功能。 如果您正在使用[服务器端转发到 AAM 功能](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hans)，则您可能希望启用高熵提示的收集。
+AAM 需要收集高熵提示以保留完整功能。 如果您正在使用[服务器端转发到 AAM 功能](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hans)，则您可能希望启用高熵提示的收集。
 
 ## 常见问题解答
 
@@ -45,7 +45,7 @@ AAM需要收集高熵提示以保留完整功能。 如果您正在使用[服务
 
 这两个库&#x200B;**在默认情况下禁用**&#x200B;高熵提示的收集。
 
-对于通过 API（例如，通过[数据插入 API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) 或[批量数据插入 API](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=en)）提交的数据，提示必须明确包含在负载中。请参阅相应文档以了解详细信息。
+对于通过 API（例如，通过[数据插入 API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) 或[批量数据插入 API](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=zh-Hans)）提交的数据，提示必须明确包含在负载中。请参阅相应文档以了解详细信息。
 
 +++
 
@@ -71,8 +71,8 @@ AAM需要收集高熵提示以保留完整功能。 如果您正在使用[服务
 | Sec-CH-UA-Model | 设备型号 | 高 | `"Pixel 3"` |
 | Sec-CH-UA-Platform-Version | 操作系统/平台版本 | 高 | `"10"` |
 
-* 通过请求标头收集低熵提示。
-* 高熵提示通过JavaScript收集并通过查询字符串参数值进行传递。 查询字符串参数使用 `h.` 作为图像请求中的前缀。
+* 通过请求头收集底熵提示。
+* 高熵提示通过 JavaScript 收集并通过查询字符串参数值传递。 查询字符串参数使用 `h.` 作为图像请求中的前缀。
 
 高熵提示通过 JavaScript 调用收集并通过查询参数传递
 
@@ -84,7 +84,7 @@ AAM需要收集高熵提示以保留完整功能。 如果您正在使用[服务
 
 +++
 
-+++**从 User-Agent 获取哪些 Analytics 报表字段？**
++++**从 User-Agent 获取哪些 Analytics 报告字段？**
 
 这些字段直接从用户-代理派生，但用户-代理可用于帮助派生其他设备相关字段的值，具体取决于设备详细信息。
 
@@ -106,11 +106,11 @@ AAM需要收集高熵提示以保留完整功能。 如果您正在使用[服务
 
 报告中的设备信息派生自用户代理程序。 我们更新了我们的流程，以便在可用的情况下同时使用用户代理程序和客户端提示。
 
-回退 ID ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=en)) 派生自用户代理程序和 IP 地址。此 ID 仅在无法设置 Cookie 时使用，因此未被广泛使用
+回退 ID ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=zh-Hans)) 派生自用户代理程序和 IP 地址。此 ID 仅在无法设置 Cookie 时使用，因此未被广泛使用
 
 +++
 
-+++**从高熵提示中存储的值获取哪些 Analytics 报表字段？**
++++**从高熵提示中存储的值获取哪些 Analytics 报告字段？**
 
 随着 Google“冻结”用户代理的更多部分，这将随着时间的推移而改变。第一个受到直接影响的字段是“操作系统”（其中包括操作系统版本）。根据 Google 发布的“冻结”用户-代理提示的时间表，操作系统版本将从 2022 年 10 月底的 Chromium 版本 107 开始冻结。届时，用户代理中的操作系统版本在某些情况下会不准确。
 

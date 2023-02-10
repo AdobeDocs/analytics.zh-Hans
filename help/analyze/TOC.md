@@ -7,7 +7,7 @@ user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Wo
 source-git-commit: 7eef1ef0bbe39db25b430d81789743b357778252
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 + [Analytics 工具指南](home.md)
 + [Analytics 发行说明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hans)
-+ 开始使用Adobe Analytics {#admin-overview}
++ Adobe Analytics 快速入门。{#admin-overview}
    + [我应该使用哪种 Adobe Analytics 工具？](get-started/which-analytics-tool.md)
    + [Analytics 产品比较和要求](get-started/analytics-product-comparison.md)
    + [系统要求](get-started/sys-reqs.md)
@@ -35,7 +35,7 @@ ht-degree: 97%
          + [删除项目](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [保存新项目](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
       + [模板](analysis-workspace/build-workspace-project/starter-projects.md)
-      + [多个报表包](analysis-workspace/build-workspace-project/multiple-report-suites.md)
+      + [多个报告包](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [热键（快捷方式）](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [调色板](analysis-workspace/build-workspace-project/color-palettes.md)
       + [视图密度](analysis-workspace/build-workspace-project/view-density.md)
@@ -75,11 +75,11 @@ ht-degree: 97%
             + [列设置](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [行设置](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [动态项和静态项](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [对表格进行筛选和排序](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [排序和过滤表格](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [ Workspace 总计](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 同类群组表 {#cohort-table}
          + [什么是同类群组分析？](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
-         + [配置同类群组分析报表](analysis-workspace/visualizations/cohort-table/t-cohort.md)
+         + [配置同类群组分析报告](analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [同类群组分析用例](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + 流失 {#fallout}
          + [流失概述](analysis-workspace/visualizations/fallout/fallout-flow.md)
@@ -177,26 +177,26 @@ ht-degree: 97%
    + 数据请求 {#data-requests}
       + [数据请求 — 请求向导第 1 步](report-builder/data-requests/data-requests.md)
       + [创建数据请求](report-builder/data-requests/t-create-a-data-request.md)
-      + 报表包 {#report-suites}
-         + [选择某个报表包](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
-         + [选择某个报表包从 Excel 中的现有请求](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
-         + [使用 Excel 查找报表包 ID](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
+      + 报告包 {#report-suites}
+         + [选择某个报告包](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
+         + [选择某个报告包从 Excel 中的现有请求](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
+         + [使用 Excel 查找报告包 ID](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [管理区段](report-builder/data-requests/segmentation.md)
-      + 报表类型 {#report-types}
-         + [报表类型概述](report-builder/data-requests/c-report-types/select-report-types.md)
-         + [Report Builder 中的路径报表和路径流失报表](report-builder/data-requests/c-report-types/report-path-fallout.md)
-         + [使用请求向导过滤路径报表](report-builder/data-requests/c-report-types/path-filter.md)
-         + [使用请求向导过滤流失报表](report-builder/data-requests/c-report-types/fallout-filter.md)
-         + [通过添加从属请求过滤路径报表](report-builder/data-requests/c-report-types/create-toppath-filter.md)
-         + [选择报表类型](report-builder/data-requests/c-report-types/t-select-report-type.md)
-      + [导入加入书签的报表和功能板小型报表](report-builder/data-requests/import-bookmarked.md)
+      + 报告类型 {#report-types}
+         + [报告类型概述](report-builder/data-requests/c-report-types/select-report-types.md)
+         + [Report Builder 中的路径报告和路径流失报告](report-builder/data-requests/c-report-types/report-path-fallout.md)
+         + [使用请求向导过滤路径报告](report-builder/data-requests/c-report-types/path-filter.md)
+         + [使用请求向导过滤流失报告](report-builder/data-requests/c-report-types/fallout-filter.md)
+         + [通过添加从属请求过滤路径报告](report-builder/data-requests/c-report-types/create-toppath-filter.md)
+         + [选择报告类型](report-builder/data-requests/c-report-types/t-select-report-type.md)
+      + [导入加入书签的报告和功能板小型报告](report-builder/data-requests/import-bookmarked.md)
       + 日期范围 {#date-ranges}
          + [请求向导定义 — 预设日期](report-builder/data-requests/configuring-report-dates/r-arb-preset-dates.md)
          + [固定日期和保存的日期范围](report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md)
          + [请求向导定义 — 固定日期](report-builder/data-requests/configuring-report-dates/r-arb-fixed-dates.md)
          + [滚动日期](report-builder/data-requests/configuring-report-dates/t-rolling-dates.md)
          + [请求向导定义 — 滚动日期](report-builder/data-requests/configuring-report-dates/r-arb-rolling-dates.md)
-         + [实时报表](report-builder/data-requests/configuring-report-dates/real-time.md)
+         + [实时报告](report-builder/data-requests/configuring-report-dates/real-time.md)
          + [配置实时请求](report-builder/data-requests/configuring-report-dates/t-real-time.md)
          + 自定义的日期表达式 {#customized-date-expressions}
             + [自定义的日期表达式 — 概述](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
@@ -257,7 +257,7 @@ ht-degree: 97%
       + [指定条件格式](report-builder/manage-requests/specify-conditional-formatting.md)
       + [用于创建和编辑请求的脱机模式](report-builder/manage-requests/offline-mode.md)
    + [Report Builder 选项](report-builder/options.md)
-   + [计划报表请求](report-builder/schedule-report-requests.md)
+   + [计划报告请求](report-builder/schedule-report-requests.md)
    + [计划工作簿](report-builder/t-schedule-a-data-request.md)
    + [计划任务管理器](report-builder/r-arb-scheduled-reports.md)
    + 工作簿库 {#workbook-library}
@@ -293,7 +293,7 @@ ht-degree: 97%
       + [停止链接跟踪](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
       + [使用 s.tl() 函数](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
    + [标准模式与实时模式的对比](activity-map/activitymap-standard-live.md)
-   + [链接报表](activity-map/activitymap-links-report.md)
+   + [链接报告](activity-map/activitymap-links-report.md)
    + [页面详细信息](activity-map/activitymap-page-flow.md)
    + [整套指标](activity-map/activitymap-complete-metrics.md)
    + [实时页面分析](activity-map/activitymap-realtime.md)
@@ -312,27 +312,27 @@ ht-degree: 97%
    + [Reports and Analytics 快速入门](reports-analytics/getting-started.md)
    + 报告界面概述 {#reporting-interface}
       + [关于数据收集](reports-analytics/overview/overview-data-collection.md)
-      + [“报表”菜单](reports-analytics/overview/reports-menu.md)
-      + [“报表”功能](reports-analytics/overview/report-overview.md)
+      + [“报告”菜单](reports-analytics/overview/reports-menu.md)
+      + [“报告”功能](reports-analytics/overview/report-overview.md)
       + [常用术语](reports-analytics/overview/overview-common-terms.md)
-   + [报表显示设置和导航](reports-analytics/report-settings.md)
-   + [报表计划和分发](reports-analytics/scheduling.md)
-   + [计划报表的生命周期结束通知](reports-analytics/scheduled-reports-eol.md)
-   + [报表类型](reports-analytics/reports.md)
-   + [运行不同的报表类型](reports-analytics/t-running-report-types.md)
-   + 自定义报表 {#customize-reports}
-      + [自定义报表概述](reports-analytics/reports-customize/customizing-reports-overview.md)
-      + [更改报表图表](reports-analytics/reports-customize/t-reports-graphs.md)
+   + [报告显示设置和导航](reports-analytics/report-settings.md)
+   + [报告计划和分发](reports-analytics/scheduling.md)
+   + [计划报告的生命周期结束通知](reports-analytics/scheduled-reports-eol.md)
+   + [报告类型](reports-analytics/reports.md)
+   + [运行不同的报告类型](reports-analytics/t-running-report-types.md)
+   + 自定义报告 {#customize-reports}
+      + [自定义报告概述](reports-analytics/reports-customize/customizing-reports-overview.md)
+      + [更改报告图表](reports-analytics/reports-customize/t-reports-graphs.md)
       + [细分](reports-analytics/reports-customize/breakdowns.md)
       + [子关系](reports-analytics/reports-customize/subrelations.md)
-      + [过滤报表数据](reports-analytics/reports-customize/t-reports-filter-options.md)
+      + [过滤报告数据](reports-analytics/reports-customize/t-reports-filter-options.md)
    + [Analytics 分段](reports-analytics/segmentation.md)
    + [书签管理器](reports-analytics/bookmarks.md)
    + [当前数据](reports-analytics/current-data.md)
-   + [功能板和小型报表](reports-analytics/dashboard.md)
+   + [功能板和小型报告](reports-analytics/dashboard.md)
    + [功能板管理器](reports-analytics/dashboard-manage.md)
    + [数据提取](reports-analytics/data-extract.md)
-   + [漏斗报表](reports-analytics/funnels.md)
+   + [漏斗报告](reports-analytics/funnels.md)
    + [指标](reports-analytics/metrics.md)
    + [目标](reports-analytics/targets.md)
    + [警报](reports-analytics/alerts.md)

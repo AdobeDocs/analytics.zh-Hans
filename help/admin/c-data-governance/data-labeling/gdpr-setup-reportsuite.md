@@ -1,24 +1,24 @@
 ---
-description: 为报表包数据设置标签即是向给定报表包中的每个变量分配身份、敏感性和数据管理标签。
-title: 为报表包数据设置标签
+description: 为报告包数据设置标签即是向给定报告包中的每个变量分配身份、敏感性和数据管理标签。
+title: 为报告包数据设置标签
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
 source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '531'
+ht-degree: 95%
 
 ---
 
 # 为报告包数据设置标签
 
-为报表包数据设置标签即是向给定报表包中的每个变量分配身份、敏感性和数据管理标签。请确保您首先要熟悉[标签及其定义](/help/admin/c-data-governance/data-labeling/gdpr-labels.md)。
+为报告包数据设置标签即是向给定报告包中的每个变量分配身份、敏感性和数据管理标签。请确保您首先要熟悉[标签及其定义](/help/admin/c-data-governance/data-labeling/gdpr-labels.md)。
 
 >[!NOTE]
 >
 >请记住，每次创建新报告包或在现有报告包中启用新变量时，都需要对标签设置进行审核。当启用新的解决方案集成时，您可能也需要审核标签设置，因为这些集成将出现要求设置标签的新变量。重新实施您的移动应用程序或网站时，可能会改变现有变量的使用方式，这或许也需要更新标签。
 
-## 分配或编辑报表包隐私标签 {#assign-edit}
+## 分配或编辑报告包隐私标签 {#assign-edit}
 
 **示例**:作为数据控制者，您可以计划从数据主体收集电子邮件地址和Cookie ID，以处理其数据隐私请求。 这些 Cookie ID 存储在 Adobe Analytics 的报告包中。
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    ![隐私标签](assets/privacy_rs_settings.png)
 
-1. 从顶部的&#x200B;**[!UICONTROL 报表包]**&#x200B;选择器中选择一个报表包。
+1. 从顶部的&#x200B;**[!UICONTROL 报告包]**&#x200B;选择器中选择一个报告包。
 
 1. 在左侧的过滤器部分中，选择要标记的变量组。您一次只能标记一组变量。
 
