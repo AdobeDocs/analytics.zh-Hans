@@ -5,9 +5,9 @@ title: 流量分类
 feature: Admin Tools
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '188'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 94%
 
 流量分类允许您对流量变量 (prop) 进行分类。流量分类只能使用文本分类。
 
-使用“流量分类”页面可以创建所选报表包的分类。分类后，任何可使用关键数据生成的报表也可通过关联的属性来生成。
+使用“流量分类”页面可以创建所选报告包的分类。分类后，任何可使用关键数据生成的报告也可通过关联的属性来生成。
 
 在启动分类后，使用[分类导入器](/help/components/classifications/importer/c-working-with-saint.md)来对适当分类分配特定值。
 
@@ -31,10 +31,10 @@ t_classification_add_traffic.xml
 
  -->
 
-要添加或编辑选定报表包的分类，请执行以下操作：
+添加或编辑选定报告包的分类：
 
-1. 单击包标题中的&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
-1. 选择某个报表包。
+1. 单击包标题中的&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报告包]**。
+1. 选择某个报告包。
 1. 在&#x200B;**[!UICONTROL 选择分类类型]**&#x200B;字段中，选择要添加分类的变量。
 1. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 流量]** > **[!UICONTROL 流量分类]**。
 
