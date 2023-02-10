@@ -4,10 +4,10 @@ title: 创建移动记分卡
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: b585743c835312b579ae810a04b7849c5e4f4953
+source-git-commit: 45795a98a71e0b7d6a4bc3fda758fb3efa5134f9
 workflow-type: tm+mt
-source-wordcount: '1789'
-ht-degree: 100%
+source-wordcount: '1792'
+ht-degree: 98%
 
 ---
 
@@ -102,9 +102,9 @@ Adobe Analytics 记分卡以平铺布局为执行用户显示关键数据可视�
 
 这会将您带到日期范围生成器，您可以在其中创建和保存新的日期范围组件。
 
-### 显示比较日期范围 {#show-comparison-dates}
+### 显示/隐藏比较日期范围 {#show-comparison-dates}
 
-要包括比较日期范围，请切换&#x200B;**包括比较日期**&#x200B;设置。
+要显示或隐藏比较日期范围，请切换 **包括比较日期** 设置。
 
 ![包括比较日期](assets/include-comparison-dates.png)
 
