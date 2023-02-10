@@ -3,9 +3,9 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: e9e99a463ab8c8afbd786520d9529b68717bc690
+source-git-commit: 2ba6ffc7f632975ca16fa02ee79d467d4d53f076
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1053'
 ht-degree: 51%
 
 ---
@@ -35,7 +35,7 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| **自动迁移到分类集架构** | 2023 年 2 月 8 日 | 在接下来的几个月中，Adobe计划将所有组织中的所有分类迁移到最新的分类架构。 据估计，最后一个要迁移的客户将于2023年5月完成。 无需客户操作，也无需停机。 此新架构具有许多好处，包括：<ul><li>显着缩短了处理时间(72小时→24小时)</li><li>使用 [分类集](/help/components/classifications/sets/overview.md) UI</li><li>将来可通过使用 [Adobe Analytics源连接器用于分类数据](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)</li></ul>请注意以下可能影响贵组织工作流程的更改：<ul><li>使用浏览器导入时，&#39;[!UICONTROL 冲突时覆盖]始终启用“ ”。</li><li>使用浏览器导入时，不再支持导入后立即导出的选项。</li><li>Analytics 2.0 API `GetDimensions` 端点现在会返回分类的字符串标识符，而不是数字标识符。 数字标识符仍可以使用，但Adobe建议尽可能使用新的字符串标识符。 数字标识符可使用 `?expansion=hidden` 查询字符串参数。</li></ul>如果您希望为贵组织制定更具体的迁移计划，或者对此迁移存有疑问/疑虑，请联系Adobe客户关怀团队。 [了解详情](/help/components/classifications/sets/overview.md) |
+| **自动迁移到分类集架构** | 2023 年 2 月 8 日 | 在接下来的几个月中，Adobe计划将所有组织中的所有分类迁移到最新的分类架构。 据估计，最后一个要迁移的客户将于2023年5月完成。 无需客户操作，也无需停机。 此新架构具有许多好处，包括：<ul><li>显着缩短了处理时间(72小时→24小时)</li><li>使用 [分类集](/help/components/classifications/sets/overview.md) UI</li><li>将来可通过使用 [Adobe Analytics源连接器用于分类数据](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)</li></ul>请注意以下可能影响贵组织工作流程的更改：<ul><li>使用浏览器或FTP导入时，&#39;[!UICONTROL 冲突时覆盖]始终启用“ ”。</li><li>使用浏览器或FTP导入时，不再支持导入后立即导出的选项。</li><li>Analytics 2.0 API `GetDimensions` 端点现在会返回分类的字符串标识符，而不是数字标识符。 数字标识符仍可以使用，但Adobe建议尽可能使用新的字符串标识符。 数字标识符可使用 `?expansion=hidden` 查询字符串参数。</li></ul>如果您希望为贵组织制定更具体的迁移计划，或者对此迁移存有疑问/疑虑，请联系Adobe客户关怀团队。 [了解详情](/help/components/classifications/sets/overview.md) |
 | **由于 Google 客户端提示而更新设备查找** | 2023 年 1 月 25 日 | 在设备查找中使用客户端提示的功能将于 **2023 年 2 月 16 日**&#x200B;开始可用。 <p> <p>自 2022 年 10 月起，可以使用 Web SDK 或 AppMeasurement JavaScript 库收集客户端提示。但直到 2023 年 2 月才将客户端提示纳入设备查找。届时，在为来自 Chromium 浏览器（如 Google Chrome 和 Microsoft Edge）的点击派生某些设备信息时，Adobe 除了使用用户代理程序之外，还将开始使用客户端提示。这是为了响应 Google 的计划，该计划逐步减少从 User-Agent 字符串产生的信息，并用通过客户端提示传递的数据替代。 <p> <p>作为此更改的一部分，Adobe 将使用 Device Atlas 执行所有与 User-Agent 相关的设备查找。[了解详情](/help/technotes/client-hints.md) |
 
 {style=&quot;table-layout:auto&quot;}
