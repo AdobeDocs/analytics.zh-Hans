@@ -4,18 +4,18 @@ title: 配置成功事件
 feature: Event
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # 配置成功事件
 
-要配置成功事件，请执行以下操作：
+配置成功事件：
 
-1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
-1. 选择报表包。
+1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报告包]**。
+1. 选择报告包。
 1. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 转化]** > **[!UICONTROL 成功事件]**.
 
    ![步骤结果](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/assets/success_event_page.png)
@@ -32,7 +32,7 @@ ht-degree: 87%
 1. 在&#x200B;**[!UICONTROL 极性]**&#x200B;列中，指定此量度的上升趋势是好还是坏。
 1. 在&#x200B;**[!UICONTROL 可见性]**&#x200B;列中，您可以隐藏“菜单”、“量度选择器”、“计算量度生成器”和“区段生成器”中的标准（内置）量度、自定义事件和内置事件。
 
-   此设置不会影响该量度或事件的数据收集；它仅影响其在用户界面中的可见性，如下所示：
+   这项设置不影响相关量度或事件的数据收集，而只会影响该量度或事件在用户界面中的可见性，如下所示：
 
 
    | 设置 | 可见位置 | 不可见位置 |
