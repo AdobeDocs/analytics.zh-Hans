@@ -2,10 +2,10 @@
 title: 分类集概述
 description: 使用分类集管理分类数据。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
-source-git-commit: 4824170ae2465f3fa04ee588d9571e1cc73d11fc
+source-git-commit: 2ba6ffc7f632975ca16fa02ee79d467d4d53f076
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 46%
+source-wordcount: '264'
+ht-degree: 45%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 46%
 
 随分类集一起发布的后端架构还包含若干显着更改：
 
-* 使用浏览器导入时，&#39;[!UICONTROL 冲突时覆盖]始终启用“ ”。
-* 使用浏览器导入时，不再支持导入后立即导出的选项。 必须单独启动导出。
+* 使用浏览器或FTP导入时，&#39;[!UICONTROL 冲突时覆盖]始终启用“ ”。
+* 使用浏览器或FTP导入时，不再支持导入后立即导出的选项。 必须单独启动导出。
 * Analytics 2.0 API `GetDimensions` 端点现在会返回分类的字符串标识符，而不是数字标识符。 数字标识符仍可以使用，但Adobe建议尽可能使用新的字符串标识符。 数字标识符可使用 `?expansion=hidden` 查询字符串参数。
 
 
