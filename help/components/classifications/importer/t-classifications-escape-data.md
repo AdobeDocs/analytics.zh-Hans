@@ -4,15 +4,15 @@ title: 转义分类数据
 feature: Classifications
 exl-id: 0d3a0e91-5537-43ee-bd28-9907ee6eb331
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '100'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # 转义分类数据
 
-要转义分类文件中的分类数据，请执行以下操作：
+转义分类文件中的分类数据：
 
 <!--Meike, please check this page against orginal. It might be missing information. -->
 
