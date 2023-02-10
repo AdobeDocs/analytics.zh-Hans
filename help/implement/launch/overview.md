@@ -1,17 +1,17 @@
 ---
-title: 使用Analytics扩展实施Adobe Analytics
-description: 了解如何使用标记和Analytics扩展实施Adobe Analytics
+title: 使用 Adobe Analytics 扩展实施 Analytics
+description: 了解如何使用标记和 Analytics 扩展实施 Adobe Analytics
 feature: Launch Implementation
 source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '364'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
-# 使用Analytics扩展实施Adobe Analytics
+# 使用 Adobe Analytics 扩展实施 Analytics
 
-在 Adobe Analytics 的整个生命周期中，Adobe 提供了多种不同方法来帮助您在网站上实施用于收集数据的代码。Adobe当前推荐的方法是在Adobe Experience Platform中通过标记。
+在 Adobe Analytics 的整个生命周期中，Adobe 提供了多种不同方法来帮助您在网站上实施用于收集数据的代码。Adobe 目前推荐的方法是使用 Adobe Experience Platform 中的标记进行实施。
 
 Adobe Experience Platform 中的标记是一款标记管理解决方案，可让您在满足其他标记要求的同时部署 Analytics 代码。Adobe 提供了与其他解决方案和产品的集成，并允许您部署自定义代码。无需依赖组织中的开发团队，也可以完成以下所有任务，进而更新网站上的代码。
 
@@ -21,7 +21,7 @@ Adobe Experience Platform 中的标记是一款标记管理解决方案，可让
 
 
 
-![Adobe Analytics使用Analytics扩展工作流](../assets/analytics-extension-annotated.png)
+![使用 Analytics 扩展工作流的 Adobe Analytics](../assets/analytics-extension-annotated.png)
 
 <table style="width:100%">
 
@@ -31,13 +31,13 @@ Adobe Experience Platform 中的标记是一款标记管理解决方案，可让
 
 <tr>
 <td> 1</td>
-<td>确保您 <b>定义了报表包</b>.</td>
-<td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">报表包管理器</a></td>
+<td>确保您已<b>定义报告包</b>。</td>
+<td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">报告包管理器</a></td>
 </tr>
 
 <tr>
 <td>2</td>
-<td><b>创建数据层</b>用于管理网站上数据的跟踪。</td>
+<td><b>创建数据层</b>来管理您网站上的数据跟踪。</td>
 <td>
 <a href="../prepare/data-layer.md">创建数据层</a>
 </td>
@@ -45,24 +45,24 @@ Adobe Experience Platform 中的标记是一款标记管理解决方案，可让
 
 <tr>
 <td>3</td>
-<td><b><b>创建标记属性</b>.属性是用于引用标签管理数据的总容器。</td>
+<td><b><b>创建标记属性</b>。属性是用于引用标记管理数据的总容器。</td>
 <td><a ref="../launch/create-analytics-property.md">创建 Adobe Analytics 标记属性</a></td>
 </tr>
 
 <tr>
-<td>4</td><td><b>安装Analytics扩展</b> 在标记属性中。 配置Analytics扩展以将数据发送到Adobe Analytics。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en">Adobe Analytics扩展概述</a></td>
+<td>4</td><td>在标记属性中<b>安装 Analytics 扩展</b>。 配置 Analytics 扩展以将数据发送到 Adobe Analytics。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=zh-Hans">Adobe Analytics 扩展概述</a></td>
 </tr>
 
 <tr>
 <td>5</td>
-<td><b>部署到开发环境</b>.有一个可在其中进行标签迭代开发的环境。</td>
+<td><b>部署到开发环境</b>。有一个可在其中进行标签迭代开发的环境。</td>
 <td><a href="./deploy-dev.md">将 Analytics 实施部署到开发环境</td>
 </tr>
 
 <tr>
 <td>6</td> 
-<td><b>验证并发布到生产环境</b>. 将标记属性添加到您的网站。 然后，使用数据元素、规则等自定义您的实施。</td>
+<td><b>验证并发布到生产环境</b>. 将标记属性添加到您的网站。 然后使用数据元素、规则等来定制您的实施。</td>
 <td><a href="./validate-publish-prod.md">验证开发实施并发布到生产环境</a></td>
 </tr>
 
