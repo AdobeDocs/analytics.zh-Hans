@@ -5,9 +5,9 @@ feature: Components
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: b0a3ee6785bdc2f3e9a55e42591b4846984934b6
+source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Analysis Workspace中的数据字典有助于用户和管理员跟踪并更好地了解其Analytics环境中的组件。
 
-系统管理员负责在数据字典中管理有关每个组件的此信息，并将其提供给用户。
+Analytics管理员负责在数据字典中管理有关每个组件的信息，以便向用户提供该信息。
 
 ## 用户优势
 
@@ -33,6 +33,8 @@ Analysis Workspace中的数据字典有助于用户和管理员跟踪并更好�
 * 与您正在查看的组件类似的组件
 
 * 组件是否获得系统管理员的批准
+
+有关如何访问数据字典的信息以及其中包含的信息的详细信息，请参阅 [在数据字典中查看组件信息](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
 
 ## 管理员的好处
 
@@ -67,7 +69,13 @@ Analysis Workspace中的数据字典有助于用户和管理员跟踪并更好�
 
 * 从菜单中： [!UICONTROL **帮助**] > [!UICONTROL **数据字典**].
 
-   <!--add screenshot-->
+有关数据字典中可用的各种选项的详细信息，请参阅 [在数据字典中查看组件信息](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
+
+## 更新和组织数据字典
+
+Analytics管理员负责为其组织维护一个正常的数据字典，如 [监视数据字典运行状况](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).
+
+在此过程中，Analytics管理员可以编辑有关数据字典中每个组件的信息，如 [编辑数据字典中的组件条目](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
 
 ## 移动、最小化或关闭数据字典
 

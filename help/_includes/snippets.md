@@ -1,8 +1,8 @@
 ---
-source-git-commit: 3c57d8984634e626f5c50daf0554d660537281b5
+source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 23%
+source-wordcount: '718'
+ht-degree: 22%
 
 ---
 # 片段
@@ -19,16 +19,18 @@ ht-degree: 23%
 
    | 选项 | 函数 |
    |---------|----------|
+   | [!UICONTROL **已批准**] | 仅显示标记为管理员已批准的组件。 |
+   | [!UICONTROL **收藏**] | 仅显示“收藏夹”列表中的组件。 有关将组件添加到收藏夹列表的信息，请参阅 [组件概述](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
    | [!UICONTROL **维度**] | 仅显示属于Dimension的组件。 (此选项也位于 [!UICONTROL **快速过滤器**] 选项卡。) |
    | [!UICONTROL **指标**] | 仅显示属于量度的组件。 (此选项也位于 [!UICONTROL **快速过滤器**] 选项卡。) |
    | [!UICONTROL **区段**] | 仅显示属于区段的组件。 (此选项也位于 [!UICONTROL **快速过滤器**] 选项卡。) <!--this is Filters in CJA--> |
    | [!UICONTROL **日期范围**] | 仅显示属于日期范围的组件。 (此选项也位于 [!UICONTROL **快速过滤器**] 选项卡。) |
+   | [!UICONTROL **显示所有**] | 显示所有组件。 此选项仅适用于管理员。 |
+   | [!UICONTROL **未批准**] | 仅显示尚未标记为管理员已批准的组件。 作为管理员，在确定需要您审核和批准的组件时，这项功能会很有帮助。 此选项仅适用于管理员。 |
    | [!UICONTROL **缺少描述**] | 在描述字段中仅显示尚未包含描述的组件。 此选项仅适用于管理员。 |
-   | [!UICONTROL **重复**] | 仅显示与选定报表包中其他组件具有相同标签或相同描述的组件。 此选项仅适用于管理员。 标签或描述必须完全匹配才能显示为重复项。 |
-   | [!UICONTROL **最近没有数据**] | 仅显示过去90天内未收集任何数据的组件。 此选项仅适用于管理员。 |
-   | [!UICONTROL **由Adobe创建**] | 仅显示由Adobe创建的组件。 不会显示管理员或组织中其他用户创建的组件。 |
-   | [!UICONTROL **已批准**] | 仅显示标记为管理员已批准的组件。 |
-   | 未批准（仅供管理员使用） | <!--this is in the requirements doc, but I don't see this in the UI--> |
+   | [!UICONTROL **显示重复项**] | 仅显示与选定报表包中其他组件具有相同标签或相同描述的组件。 标签或描述必须完全匹配才能显示为重复项。 此选项仅适用于管理员。 |
+   | [!UICONTROL **没有最近的数据**] | 仅显示过去90天内未收集任何数据的组件。 此选项仅适用于管理员。 |
+   | [!UICONTROL **由Adobe创建**] <!-- I don't see this option--> | 仅显示由Adobe创建的组件。 不会显示管理员或组织中其他用户创建的组件。 |
 
    {style=&quot;table-layout:auto&quot;}
 
