@@ -3,16 +3,16 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 1bb989f3a7e1367ddc1cc2d88bcde9aa680ff963
+source-git-commit: 7c05a3364b1f1b7abaf7ac3c97edb5e590781ec3
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 62%
+source-wordcount: '1053'
+ht-degree: 66%
 
 ---
 
 # 当前 Adobe Analytics 发行说明 (2023 年 2 月)
 
-**上次更新时间**：2023 年 2 月 13 日
+**上次更新时间**：2023 年 2 月 9 日
 
 Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
@@ -44,7 +44,6 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 
 | 产品或功能 EOL | 添加或更新日期 | 描述 |
 | --- | --- | --- |
-| **日语功能电话跟踪服务生命周期终止** | 2023 年 2 月 13 日 | 仅供日本客户使用：2023年5月底，将终止日本功能电话跟踪服务(mod_ktrack)。 对于由此造成的不便，我们深表歉意，但是我们建议您卸载或禁用Apache服务器上安装的模块。 见第27和28页 [本文档](/help/release-notes/mod_ktrackforSiteCatalyst_ver1.40.pdf) 以供参考。 |
 | **某些Reports &amp; Analytics和Report Builder计划功能生命周期终止** | 2023 年 2 月 9 日 | 2023年1月31日终止提供以下计划功能：<ul><li>“发生x次后结束”选项，用于每小时任务Report Builder</li><li>在Reports and Analytics中计划新报表和下载数据提取的功能</li></ul><p>**注意**:我们最初于2022年4月终止了这些功能，但回滚了更改。 我们还发送了一则通知，说这些功能正在临时恢复，并将于2023年1月31日重新终止。 |
 | **终止使用[!UICONTROL 发布列表]功能** | 2022 年 9 月 29 日 | 作为终止使用 Reports and Analytics 的一部分，预计在 **2023 年 12 月**&#x200B;终止使用发布列表。您将无法创建新的发布列表或访问现有的发布列表以发送或安排 Analysis Workspace 项目。 |
 | **Data Workbench 的生命周期结束日期** | 2022 年 9 月 14 日 | Adobe 打算在 **2023 年 12 月 31 日**&#x200B;结束 Data Workbench 的生命周期。请参阅 [Data Workbench 生命周期结束公告](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html)以了解详情。如有任何问题，请与您组织的 Adobe 客户经理联系。 |
