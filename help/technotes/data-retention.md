@@ -3,7 +3,7 @@ title: 数据保留策略
 description: 数据保留策略确定 Adobe 将您的数据存储多长时间。
 feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
-source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
+source-git-commit: 7b5a2ef1f96de5dfa59f70c6e017a2caa3920378
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 100%
@@ -54,3 +54,4 @@ Adobe 作为您的数据处理者，必须采取适当措施协助其客户实�
 **Adobe 何时删除数据？**
 
 请联系贵组织的客户经理来安排删除数据的具体时间。通常会每月滚动删除数据。
+

@@ -3,7 +3,7 @@ description: “数据治理的隐私标签”对话框概述了报告包的隐�
 title: 查看/管理数据治理的隐私标签
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
+source-git-commit: 7b5a2ef1f96de5dfa59f70c6e017a2caa3920378
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 77%
@@ -17,15 +17,15 @@ ht-degree: 77%
 ## 查看隐私标签 {#view-privacy}
 
 1. 登录到 Adobe Experience Cloud。
-1. 导航至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 数据配置和收集]** > **[!UICONTROL 数据治理]**。
+2. 导航至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 数据配置和收集]** > **[!UICONTROL 数据治理]**。
 
    >[!NOTE]
    >
    >如果您没有看到此菜单项，则需要将您添加到 [Admin Console 中的产品配置文件](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)，并为您提供对此功能的各种权限。
 
-1. 在右上角，选择要查看或管理其隐私标签的报告包。
+3. 在右上角，选择要查看或管理其隐私标签的报告包。
 
-   ![](assets/privacy_labeling.png)
+![](assets/privacy_labeling.png)
 
 | 设置 | 描述 |
 | --- | --- |
