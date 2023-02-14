@@ -3,10 +3,10 @@ description: “数据治理的隐私标签”对话框概述了报告包的隐�
 title: 查看/管理数据治理的隐私标签
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
+source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 84%
+source-wordcount: '867'
+ht-degree: 77%
 
 ---
 
@@ -30,11 +30,11 @@ ht-degree: 84%
 | 设置 | 描述 |
 | --- | --- |
 | **[!UICONTROL 组件名称]** | 此列列出了属于此报告包的所有组件（维度、量度）。 |
-| **[!UICONTROL 身份]** | 身份数据“I”标签用于对可识别或联系特定人员的数据进行分类。[了解详情](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=zh-Hans#identity-data-labels) |
-| **[!UICONTROL 敏感度]** | 敏感数据“S”标签用于对诸如地理数据之类的敏感数据进行分类。未来，会引入其他敏感数据标签，用于识别其他类型的敏感信息。[了解详情](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=zh-Hans#sensitive-data-labels) |
-| **[!UICONTROL GDPR 访问]** | 通过数据治理标签，用户可将反映与隐私相关的考虑因素和合同条件的数据分类，以符合法规和公司政策。[了解详情](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=zh-Hans#data-privacy-access-labels) |
-| **[!UICONTROL GDPR 删除]** | 仅当包含允许将点击与数据主体关联的值（即允许标识数据主体）的字段时，才需要删除标签。 [了解详情](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=zh-Hans#data-privacy-delete-labels) |
-| **[!UICONTROL 命名空间]** | 在为变量设置 ID-DEVICE 或 ID-PERSON 标签时，系统会提示您提供一个命名空间。您可以使用先前已定义的命名空间或者定义一个新的命名空间。[了解详情](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=zh-Hans#section_F0A47AF8DA384A26BD56032D0ABFD2D7) |
+| **[!UICONTROL 身份]** | 身份数据“I”标签用于对可识别或联系特定人员的数据进行分类。[了解详情](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-identity-labels) |
+| **[!UICONTROL 敏感度]** | 敏感数据“S”标签用于对诸如地理数据之类的敏感数据进行分类。未来，会引入其他敏感数据标签，用于识别其他类型的敏感信息。[了解详情](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#sensitive-data-labels) |
+| **[!UICONTROL GDPR 访问]** | 通过数据治理标签，用户可将反映与隐私相关的考虑因素和合同条件的数据分类，以符合法规和公司政策。[了解详情](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-access-labels) |
+| **[!UICONTROL GDPR 删除]** | 仅当包含允许将点击与数据主体关联的值（即允许标识数据主体）的字段时，才需要删除标签。 [了解详情](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-delete-labels) |
+| **[!UICONTROL 命名空间]** | 在为变量设置 ID-DEVICE 或 ID-PERSON 标签时，系统会提示您提供一个命名空间。您可以使用先前已定义的命名空间或者定义一个新的命名空间。[了解详情](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#provide-namespace) |
 | **[!UICONTROL 类别]** | 指组件类型，如标准组件、转化变量等。 |
 
 {style=&quot;table-layout:auto&quot;}
@@ -73,7 +73,7 @@ ht-degree: 84%
 
 ## 导出到 .csv 文件 {#export-csv}
 
-您可以下载一个CSV文件，其中包含选定报表包的所有变量的当前所有标签定义。 我们建议您的法律团队审核您的标签设置选项，并且此选项可帮助进行此审核。 无需登录到“数据治理 UI”，即可通过共享 .CSV 文件来进行审查。
+您可以下载一个CSV文件，其中包含选定报表包的所有变量的当前所有标签定义。 我们建议您的法律团队审核您的标签设置选项，此选项可帮助进行此审核。 无需登录到“数据治理 UI”，即可通过共享 .CSV 文件来进行审查。
 
 1. 单击右上角的&#x200B;**[!UICONTROL 导出 CSV]**，此对话框将显示：
 
