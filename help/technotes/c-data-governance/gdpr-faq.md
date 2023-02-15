@@ -5,8 +5,8 @@ feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
 source-git-commit: e26e04e965554f0e9e7f06f0129175f1d24a3f23
 workflow-type: tm+mt
-source-wordcount: '2076'
-ht-degree: 61%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

@@ -5,8 +5,8 @@ feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 77%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 77%
 
 ## 导出到 .csv 文件 {#export-csv}
 
-您可以下载一个CSV文件，其中包含选定报表包的所有变量的当前所有标签定义。 我们建议您的法律团队审核您的标签设置选项，此选项可帮助进行此审核。 无需登录到“数据治理 UI”，即可通过共享 .CSV 文件来进行审查。
+您可以下载一个CSV文件，其中包含选定报表包的所有变量的当前所有标签定义。 我们建议您的法律团队审核您的标签设置选项，并且此选项可帮助进行此审核。 无需登录到“数据治理 UI”，即可通过共享 .CSV 文件来进行审查。
 
 1. 单击右上角的&#x200B;**[!UICONTROL 导出 CSV]**，此对话框将显示：
 
