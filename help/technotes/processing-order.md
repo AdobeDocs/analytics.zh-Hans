@@ -2,8 +2,8 @@
 title: Adobe Analytics 中处理数据的顺序
 description: 了解在 Adobe Analytics 中处理数据的组件和服务的顺序。
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
-workflow-type: ht
+source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
+workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 100%
 
@@ -45,6 +45,6 @@ Adobe 提供多种方式，可在报表中出现数据之前更改或操纵数�
 Adobe Analytics 中的数据大多为永久数据；但是，通过某些功能可选择性地调整或删除数据：
 
 * [**数据修复 API**](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/)：编辑数据的某些列或删除数据中所需的行。
-* [**数据治理**](/help/admin/c-data-governance/an-gdpr-workflow.md)：考虑到隐私请求而永久删除数据。
+* [**数据治理**](/help/technotes/c-data-governance/an-gdpr-workflow.md)：考虑到隐私请求而永久删除数据。
 * [**分类**](/help/components/classifications/c-classifications.md)：根据规则或上传的数据创建维度，这样使您可按不同方式组织数据。不更改报表套件的底层数据，因此您可随意编辑或覆盖分类数据。
 * [**虚拟报表包**](/help/components/vrs/vrs-about.md)：创建可更改访问超时的备用报表包视图或允许[跨设备分析](/help/components/cda/overview.md)。

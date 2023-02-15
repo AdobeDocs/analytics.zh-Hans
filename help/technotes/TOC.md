@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics 技术说明
 breadcrumb-title: 技术说明
 user-guide-description: 浏览一个知识库，其中包含不属于特定 Analytics 工具或组件的有用文章。
-source-git-commit: 1e2284fd4a62816b27b33a91f3bee2575a852107
+source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '243'
 ht-degree: 100%
 
 ---
@@ -43,6 +43,18 @@ ht-degree: 100%
    + [减轻浏览器 Cookie 限制影响的选项](cookies/cookieless.md)
 + [数据保留](data-retention.md)
 + [排除数据](exclude-data.md)
++ 数据管理 {#data-governance}
+   + [Adobe Analytics 数据隐私工作流程](c-data-governance/an-gdpr-workflow.md)
+   + [常见问题解答](c-data-governance/gdpr-faq.md)
+   + 数据标签{#data-labels}
+      + [Analytics 组件的数据隐私标签](c-data-governance/data-labeling/gdpr-labels.md)
+      + [为报告包数据设置标签](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
+      + [查看/管理报告包的隐私标签](c-data-governance/data-labeling/gdpr-view-settings.md)
+      + [标签设置最佳实践](c-data-governance/data-labeling/gdpr-analytics-ids.md)
+      + [标签设置示例](c-data-governance/data-labeling/gdpr-labeling-example.md)
+      + [命名空间](c-data-governance/data-labeling/gdpr-namespaces.md)
+   + [ID 扩展](c-data-governance/gdpr-id-expansion.md)
+   + [CNIL 准许豁免](c-data-governance/cnil-consent-exemption.md)
 + [Adobe Analytics 使用的 IP 和域](ip-addresses.md)
 + [延迟](latency.md)
 + [低流量值](low-traffic.md)
