@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报告包等等。
-source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
+source-git-commit: d712a64111ff5ee9856196a60265de4b395f53b2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '572'
+ht-degree: 98%
 
 ---
 
@@ -39,11 +39,11 @@ ht-degree: 0%
             + [一般帐户设置](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
             + [内部 URL 过滤器](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
             + [自定义日历](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
-            + 付费搜索检测{#paid-search-detection}
+            + 付费搜索检测 {#paid-search-detection}
                + [付费搜索检测概述](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [配置付费搜索检测](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
             + [自定义菜单](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
-            + 处理规则{#c-processing-rules}
+            + 处理规则 {#c-processing-rules}
                + [处理规则概述](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
                + 处理规则 {#c-processing-rules-configuration}
                   + [处理规则的工作原理](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
@@ -71,7 +71,7 @@ ht-degree: 0%
                + [常见的机器人签名](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
                + [机器人排除法](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
             + [隐私设置](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
-            + [可选时间戳](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
+            + [时间戳配置](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
             + 服务器端转发 {#server-side-forwarding}
                + [服务器端转发概述](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
                + [GDPR/ePrivacy 合规和服务器端转发](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
@@ -99,9 +99,9 @@ ht-degree: 0%
             + [列表变量](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
             + [促销 eVar](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
          + 营销渠道 {#marketing-channels}
-            + [管理营销渠道](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
-            + [营销渠道的处理规则](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
-            + [营销渠道中的分类](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
+            + [营销渠道管理器](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
+            + [营销渠道处理规则](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
+            + [营销渠道分类](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
             + [营销渠道到期](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + 流量管理 {#traffic-management}
             + [概述](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
