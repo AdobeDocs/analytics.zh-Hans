@@ -4,10 +4,10 @@ title: 媒体管理
 feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
-source-git-commit: e6cef6e77f5418b026830848b6c0fc3347aa6033
-workflow-type: ht
-source-wordcount: '106'
-ht-degree: 100%
+source-git-commit: 6ddbf0821951e71d7323343104720fe60551dacb
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 53%
 
 ---
 
@@ -17,4 +17,14 @@ ht-degree: 100%
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报告包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 媒体管理]**。
 
-有关详细信息，请参阅[适用于流媒体的 Adobe Analytics 指南](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans)。
+在编辑报表包时，可以使用以下媒体管理选项：
+
+* [!UICONTROL **媒体报告**]
+
+   特定于流媒体的报表可在媒体报表页面上找到。 有关媒体报表的更多信息，请参阅 [媒体报表启用](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html?lang=en).
+
+* [!UICONTROL **媒体分类**]
+
+   特定于流媒体的分类可在“媒体分类”页面上找到。 有关分类的信息，请参阅 [转化分类](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
+
+有关流媒体分析的常规信息，请参阅 [适用于流媒体的 Adobe Analytics指南](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans).
