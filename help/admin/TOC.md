@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报告包等等。
-source-git-commit: d712a64111ff5ee9856196a60265de4b395f53b2
+source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 98%
+source-wordcount: '588'
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 98%
          + 常规 {#report-suite-general}
             + [一般帐户设置](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
             + [内部 URL 过滤器](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
-            + [自定义日历](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
+            + [自定义日程表](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
             + 付费搜索检测 {#paid-search-detection}
                + [付费搜索检测概述](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [配置付费搜索检测](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
@@ -107,17 +107,21 @@ ht-degree: 98%
             + [概述](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [计划尖峰](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [永久性流量](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
-         + [默认指标](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
+         + [默认量度](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
          + [应用程序管理](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + [媒体管理](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
          + [Activity Map](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
          + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [隐私报告](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
+         + Document Cloud管理 {#doc-cloud-mgt}
+            + [使用Adobe Analytics配置Document Cloud](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
+            + [配置Document Cloud报告](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
+         + [Advertising Analytics 配置](admin/c-manage-report-suites/c-edit-report-suites/advertising-analytics-config.md)
          + 实时 {#real-time-reports}
             + [实时报告概述](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [实时报告配置](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
-            + [受支持的实时指标和维度](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
+            + [受支持的实时量度和维度](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
       + [管理报告包](admin/c-manage-report-suites/report-suites-admin.md)
       + [汇总报告包和全局报告包](admin/c-manage-report-suites/rollup-report-suite.md)
       + [保存报告包搜索](admin/c-manage-report-suites/t-report-suite-saved-search.md)
