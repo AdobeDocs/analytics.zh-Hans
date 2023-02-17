@@ -3,10 +3,10 @@ description: 如何通过 FTP 上传数据文件。
 title: FTP 导入
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: ht
-source-wordcount: '733'
-ht-degree: 100%
+source-git-commit: 1b1cea9b9e336a1836e824906e620a0761c364e4
+workflow-type: tm+mt
+source-wordcount: '665'
+ht-degree: 87%
 
 ---
 
@@ -20,10 +20,11 @@ ht-degree: 100%
 
 1. **[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
 
-以下建议的限制很重要：
+以下建议限制很重要。 太多
 
-* 小文件过多会造成比少量大文件更慢的处理速度。这是因为这些小作业需要大量的排队和优先级安排操作。
-* 请将大文件分为多个 50 MB 的数据块。这不是必需的，但建议这么做，因为这样可以更好地了解后端进程。另外，如果我们在处理您的作业时出现错误，则将会重新开始处理作业；而大文件则会在这种情况下导致重做大量工作。
+>[!IMPORTANT]
+>
+>小文件过多或单个大文件可能会在处理服务器上产生不必要的处理负载。 Adobe建议将大文件拆分为50 MB的区块，并将小文件组合在一起。
 
 初始设置使用大量原始数据填充分类数据库，或重新构建分类，而不是对某些行重新分类或添加行。
 
@@ -37,34 +38,11 @@ ht-degree: 100%
 >
 >处理分类数据文件所需的时间因文件大小和 Adobe 服务器已在处理的当前文件数而异。处理数据文件的时间通常不超过 72 小时。
 
-在通过 FTP 上传数据之前，请先创建 FTP 帐户。有关详细信息，请参阅[创建 FTP 帐户](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)。
-
-## 通过 FTP 导入分类 {#task_132C36830B69418B8C929E39838EF01D}
-
-您可以使用 FTP 帐户将分类导入 Adobe Analytics 的步骤。
-
-有关创建 FTP 帐户的更多信息，请参阅[创建 FTP 帐户](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)。
-
-通过 FTP 导入分类：
-
-1. 单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
-1. 单击&#x200B;**[!UICONTROL 导入文件]**，然后单击 **[!UICONTROL FTP 导入]**。
-1. 在要使用的 FTP 帐户旁边，单击&#x200B;**[!UICONTROL 查看]**。
-1. 使用 FTP 访问信息（主机、登录名、密码），通过您选择的 FTP 客户端访问 FTP 服务器。
-1. 将数据文件（[!DNL .tab] 或 [!DNL .txt]）上传到 FTP 服务器。
-1. 上传数据文件之后，再上传指示可以处理文件的 FIN 文件。
-
-   FIN 文件是一个与您的数据文件同名的空文件，扩展名为 [!DNL .fin]。例如，如果您的数据文件为 [!DNL classdata1.tab]，则 文件名为 [!DNL classdata1.fin].fin。
-
-Adobe 会定期检索已上传的具有关联 FIN 文件的数据文件。然后，Adobe 会将其导入 FTP 帐户配置中指定的报告包和数据集中。
-
-一旦 Adobe Analytics 读取并处理了上传到 FTP 文件夹中的文件，这些文件就会自动删除。
-
-## 创建 FTP 帐户 {#task_C019268E6C934C7C95F4326F42A22CCF}
+## 创建 FTP 帐户
 
 在通过 FTP 上传数据之前，请先创建 FTP 帐户。>
 
-有关 Adobe FTP 服务器的其他详细信息，请参阅 [FTP 和 sFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html?lang=zh-Hans)。
+有关 Adobe FTP 服务器的其他详细信息，请参阅 [FTP 和 sFTP](/help/export/ftp-and-sftp/ftp-overview.md)。
 
 1. 单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
 1. 单击&#x200B;**[!UICONTROL 导入文件]**，然后单击 **[!UICONTROL FTP 导入]**。
@@ -73,13 +51,13 @@ Adobe 会定期检索已上传的具有关联 FIN 文件的数据文件。然后
 
    | 元素 | 描述 |
    |---|---|
-   | 名称 | FTP 帐户名称。 |
-   | 要分类的数据集 | 从下拉列表中，选择要进行分类的数据集（市场营销报告变量）。 |
-   | 选择报告包 | 选择要将所选数据集进行分类的报告包。要选择多个报告包，每个所选报告包的分类必须完全相同。 |
-   | 覆盖冲突的数据 | 选择此选项可覆盖重复数据。如果您要更新现有的分类，则此选项非常有用。如果您要添加其他分类，则建议不要使用此选项。 |
-   | 导入完成后 | 选择此选项，可在导入完成后，在指定了接收此 FTP 帐户相关通知的电子邮件地址的情况下，自动将更新的数据集导出到同一 FTP 帐户。 |
-   | 通知收件人 | 指定电子邮件地址来接收有关此 FTP 帐户的通知。 |
-   | 授权 | （必需）授权 Adobe 自动导入发送到新 FTP 帐户的所有数据文件。 |
+   | **名称** | FTP 帐户名称。 |
+   | **要分类的数据集** | 从下拉列表中，选择要进行分类的数据集（市场营销报告变量）。 |
+   | **选择报告包** | 选择要将所选数据集进行分类的报告包。要选择多个报告包，每个所选报告包的分类必须完全相同。 |
+   | **覆盖冲突的数据** | 选择此选项可覆盖重复数据。如果您要更新现有的分类，则此选项非常有用。如果您在 [最新分类架构](../sets/overview.md)，则始终启用此设置。 |
+   | **导入完成后** | 选择此选项，可在导入完成后，在指定了接收此 FTP 帐户相关通知的电子邮件地址的情况下，自动将更新的数据集导出到同一 FTP 帐户。如果您在 [最新分类架构](../sets/overview.md)，此选项不可用。 |
+   | **通知收件人** | 指定电子邮件地址来接收有关此 FTP 帐户的通知。 |
+   | **授权** | （必需）授权 Adobe 自动导入发送到新 FTP 帐户的所有数据文件。 |
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -88,3 +66,22 @@ Adobe 会定期检索已上传的具有关联 FIN 文件的数据文件。然后
 >[!NOTE]
 >
 >如果导入不引起某个分类发生变化，则不会发送通知。只有导入成功，并且引起某个分类发生变化，才会发送电子邮件。
+
+## 通过 FTP 导入分类
+
+您可以使用 FTP 帐户将分类导入 Adobe Analytics 的步骤。
+
+通过 FTP 导入分类：
+
+1. 单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
+1. 单击&#x200B;**[!UICONTROL 导入文件]**，然后单击 **[!UICONTROL FTP 导入]**。
+1. 在要使用的 FTP 帐户旁边，单击&#x200B;**[!UICONTROL 查看]**。
+1. 使用 FTP 访问信息（主机、登录名、密码），通过您选择的 FTP 客户端访问 FTP 服务器。
+1. 将数据文件（`.tab` 或 `.txt`）上传到 FTP 服务器。
+1. 上传数据文件之后，再上传指示可以处理文件的 FIN 文件。
+
+   FIN 文件是一个与您的数据文件同名的空文件，扩展名为 `.fin`。例如，如果您的数据文件为 `classdata1.tab`，则 文件名为 `classdata1.fin`.fin。
+
+Adobe 会定期检索已上传的具有关联 FIN 文件的数据文件。然后，Adobe 会将其导入 FTP 帐户配置中指定的报告包和数据集中。
+
+在Adobe Analytics读取并处理了FTP文件夹中的文件后，这些文件将自动从FTP站点上删除。
