@@ -4,9 +4,9 @@ title: 隐私工作流程
 feature: Privacy
 exl-id: c364b364-6d77-4b2c-88ab-65daf812f242
 source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '357'
+ht-degree: 100%
 
 ---
 
