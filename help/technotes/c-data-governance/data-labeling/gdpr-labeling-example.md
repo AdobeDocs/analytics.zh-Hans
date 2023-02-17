@@ -4,9 +4,9 @@ title: 标记示例
 feature: Data Governance
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '814'
+ht-degree: 100%
 
 ---
 
@@ -365,6 +365,6 @@ ht-degree: 0%
 * 包含 `user=Mary` 和 `DEL-PERSON` 标签的行中的单元格会受到影响。
 * 由于 ID 扩展，包含 `AAID=77`、`AAID=88` 或 `AAID=99`（它们是包含 `user=Mary` 的行中的 AAID 值）和 `DEL-DEVICE` 标签的行中的单元格会受到影响。 这包括在 `user=Mary` 的行中带有 `DEL-DEVICE` 标签的单元格。 这会导致第 4 行和第 5 行（以及第 1-3 行）中带有 `DEL-DEVICE` 标签（AAID、MyEvar2 和 MyEvar3）的单元格被混淆。
 * expandIDs 设置不会展开到调用以包含 MyEvar3（`X`、`Y` 和 `Z`）中存在的值，后者在 `user=Mary` 时具有 ID-DEVICE 标签。 ExpandIDs 仅展开以包含 `user=Mary` 的行中的访客 ID（在本例中为 AAID，但还包括 ECID）。 因此，包含 `X` 和 `Z` 的 MyEvar3 值的最后两行不受影响。
-* `MyEvar2` 第四行和第五行中的访客ID值会更新，因为这些行包含相同的访客ID值(`77` 和 `88`)作为第一行和第二行中的行。 因此，ID 扩展包括它们以用于设备级别的删除。
+* 在第四行和第五行中的 `MyEvar2` 将更新，因为这两行包含的访客 ID 值（`77` 和 `88`）与第一行和第二行中的值相同。因此，ID 扩展包括它们以用于设备级别的删除。
 * 第二行和第五行中 `MyEvar2` 的值在删除前后均匹配。但是，在删除之后，它们不再匹配最后一行中出现的值 `N`，因为该行没有在删除请求期间更新。
 * `MyEvar3` 的行为与不使用 ID 扩展时它的行为非常不同，因为没有 ID 扩展，就没有 `ID-DEVICES` 匹配。现在，`AAID` 在前五行上匹配。
