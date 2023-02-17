@@ -4,9 +4,9 @@ title: 迁移 Analytics 用户帐户以使用 Enterprise ID 和 Federated ID
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
 source-git-commit: d78489cd87b59e4dda40d9975e1ce643507f2f69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '763'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,11 +44,11 @@ ht-degree: 98%
 **迁移用户帐户**
 
 1. 使用以下方法之一（具体取决于您是否已迁移用户），从 Analytics 用户管理中下载 Analytics 用户登录文件 ([!DNL User Logins List.tab])。
-   1. *在迁移之前，*&#x200B;导航至&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 用户管理（旧版）]**> **[!UICONTROL 编辑用户]**，然后单击&#x200B;**[!UICONTROL 下载报表]**。
+   1. *在迁移之前，*&#x200B;导航至&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 用户管理（旧版）]**> **[!UICONTROL 编辑用户]**，然后单击&#x200B;**[!UICONTROL 下载报告]**。
 
       ![](/help/admin/admin/user-management2/user-migration/assets/download-report.png)
 
-      只有未迁移用户的客户才会看到“下载报表”链接。
+      只有未迁移用户的客户才会看到“下载报告”链接。
 
    1. *如果您已经迁移用户*，请导航至 **[!UICONTROL Analytics]** > **[!UICONTROL Analytics 用户和资产]**。
 
@@ -143,7 +143,7 @@ ht-degree: 98%
 >[!UICONTROL 产品配置]和[!UICONTROL 管理员角色]等其他列可为空。
 
 1. 在 Adobe Admin Console 的“用户”选项卡中，单击&#x200B;**[!UICONTROL 通过 CSV 添加用户]**（如步骤 3 中所示）以上传模板文件。
-1. 在Analytics中，运行迁移工具(如 [迁移Analytics用户帐户](/help/admin/admin/user-management2/user-migration/t-migrate-users.md).
+1. 在 Analytics 中，运行迁移工具（如[迁移 Analytics 用户帐户](/help/admin/admin/user-management2/user-migration/t-migrate-users.md)中所述）。
 1. 单击&#x200B;**[!UICONTROL 迁移]** > **[!UICONTROL 按照 Enterprise ID 进行迁移]**。
 
    ![步骤信息](/help/admin/admin/user-management2/user-migration/assets/migrate-as-enterprise.png)
