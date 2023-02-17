@@ -1,27 +1,27 @@
 ---
-description: 您可以在Adobe Analytics中查看Activity Map数据
-title: 在Adobe Analytics中查看Activity Map数据
+description: 您可以在 Adobe Analytics 中查看 Activity Map 数据
+title: 查看 Adobe Analytics 中的 Activity Map 数据
 feature: Admin Tools
 source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '166'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
-# 在Adobe Analytics中查看Activity Map数据
+# 查看 Adobe Analytics 中的 Activity Map 数据
 
 在 Analytics 中启用 Activity Map 报告功能的管理步骤。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **`<select report suite>`** > **[!UICONTROL 编辑设置]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map 报告]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报告包]** > **`<select report suite>`** > **[!UICONTROL 编辑设置]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map 报告]**
 
 允许 Analytics 收集 Activity Map（以前的 ClickMap）中提供的用户活动。此集成
 
-* 在 Analytics 中启用了报表功能。
-* 在&#x200B;**[!UICONTROL 查看所有报表]** > **[!UICONTROL Activity Map]** 下添加了新报表：
+* 在 Analytics 中启用了报告功能。
+* 在&#x200B;**[!UICONTROL 查看所有报告]** > **[!UICONTROL Activity Map]** 下添加了新报告：
 
-   | 报表 | 描述 |
+   | 报告 | 描述 |
    |---|---|
    | Activity Map 页面 | 列出访客点击了其中链接的页面。 |
    | Activity Map 区域 | 列出在整个网站中收集的所有链接区域。请注意，如果某个区域在多个页面中出现，则该量度将采用其所有页面的汇总值。 |
