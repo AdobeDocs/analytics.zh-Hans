@@ -4,9 +4,9 @@ title: 为报告包数据设置标签
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
 source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '531'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 分配或编辑报告包隐私标签 {#assign-edit}
 
-**示例**:作为数据控制者，您可以计划从数据主体收集电子邮件地址和Cookie ID，以处理其数据隐私请求。 这些 Cookie ID 存储在 Adobe Analytics 的报告包中。
+**示例**：作为数据控制者，您可以计划从“数据主体”收集电子邮件地址和 Cookie ID，以处理他们的数据隐私请求。这些 Cookie ID 存储在 Adobe Analytics 的报告包中。
 
 1. 在 Adobe Analytics 中，导航至&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 数据配置和收集]** > **[!UICONTROL 数据治理]**。
 
