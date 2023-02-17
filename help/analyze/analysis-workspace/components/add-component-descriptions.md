@@ -6,13 +6,13 @@ role: Admin
 source-git-commit: 85d59d0a2b94953af457527a56d46faefb3ea94c
 workflow-type: tm+mt
 source-wordcount: '86'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 # 添加组件描述
 
-Analytics管理员可以为组件(Dimension、量度、区段和日期范围)添加描述<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->.
+Analytics 管理员可以添加组件（维度、量度、区段和日期范围）的描述<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->。
 
 您组织中的用户可以在 Analysis Workspace 中构建项目或查看报告时查看描述。 描述可帮助用户了解如何充分使用各种组件。
 
