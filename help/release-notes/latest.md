@@ -3,16 +3,16 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: fa3faf6158f3ad59ac95fd226a5c8d9116f27a6f
+source-git-commit: 9c716438e4802d7dcdeab3302295e651cb5df30e
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 97%
+source-wordcount: '992'
+ht-degree: 94%
 
 ---
 
 # 当前 Adobe Analytics 发行说明 (2023 年 2 月)
 
-**上次更新时间**：2023 年 2 月 15 日
+**上次更新时间**：2023 年 2 月 17 日
 
 Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
@@ -35,9 +35,9 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
+| **由于 Google 客户端提示而更新设备查找** | 2023 年 2 月 17 日 | **计划于2023年2月16日发布的客户端提示的使用已推迟，以更好地确保使用提示的设备查找质量。 我们很快将公布新的推出日期。** [了解详情](/help/technotes/client-hints.md) |
 | **Analytics源连接器可用性** | 2023 年 2 月 15 日 | 2023年2月28日，将在位于加拿大的新Adobe Experience Platform数据中心提供Analytics源连接器。 |
 | **自动迁移到“分类集”架构** | 2023 年 2 月 8 日 | 在接下来的几个月里，Adobe 计划将所有组织的所有分类迁移到最新的分类架构。最后一批迁移的客户估计会在 2023 年 5 月发生。无需客户操作，预计不会出现停机时间。这种新架构有很多好处，包括：<ul><li>大幅缩短处理时间（72 小时 → 24 小时）</li><li>能够使用[分类集](/help/components/classifications/sets/overview.md) UI</li><li>未来通过[适用于分类数据的 Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html) 在 Adobe Experience Platform 中使用分类数据的选项</li></ul>请注意以下可能会影响您组织工作流的变更：<ul><li>使用浏览器或 FTP 导入时，始终启用“[!UICONTROL 冲突时覆盖]”。</li><li>使用浏览器或 FTP 导入时，不再支持导入后立即导出的选项。</li><li>Analytics 2.0 API `GetDimensions`端点现在返回用于分类的字符串标识符，而不是数字标识符。仍然可以使用数字标识符，但 Adobe 建议尽可能使用新的字符串标识符。可以使用 `?expansion=hidden` 查询字符串参数检索数字标识符。</li></ul>如果您想为您的组织制定更具体的迁移计划，或者对此迁移有疑问/疑虑，请联系 Adobe 客户关怀。[了解详情](/help/components/classifications/sets/overview.md) |
-| **由于 Google 客户端提示而更新设备查找** | 2023 年 1 月 25 日 | 在设备查找中使用客户端提示的功能将于 **2023 年 2 月 16 日**&#x200B;开始可用。 <p> <p>自 2022 年 10 月起，可以使用 Web SDK 或 AppMeasurement JavaScript 库收集客户端提示。但直到 2023 年 2 月才将客户端提示纳入设备查找。届时，在为来自 Chromium 浏览器（如 Google Chrome 和 Microsoft Edge）的点击派生某些设备信息时，Adobe 除了使用用户代理程序之外，还将开始使用客户端提示。这是为了响应 Google 的计划，该计划逐步减少从 User-Agent 字符串产生的信息，并用通过客户端提示传递的数据替代。 <p> <p>作为此更改的一部分，Adobe 将使用 Device Atlas 执行所有与 User-Agent 相关的设备查找。[了解详情](/help/technotes/client-hints.md) |
 
 {style=&quot;table-layout:auto&quot;}
 
