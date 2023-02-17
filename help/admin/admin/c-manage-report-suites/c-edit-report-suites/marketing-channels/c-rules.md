@@ -4,9 +4,9 @@ description: 营销渠道处理规则决定访客点击是否符合分配到渠�
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2187'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 98%
 
 >[!NOTE]
 >
-> 有关营销渠道的一般信息，请参阅 [营销渠道快速入门](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+> 有关营销渠道的一般信息，请参阅[营销渠道快速入门](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
 >
 > 为了最大化 Attribution IQ 和 Customer Journey Analytics 的营销渠道效率，我们发布了一些 [修订后的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 营销渠道]** > **[!UICONTROL 营销渠道处理规则]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报告包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 营销渠道]** > **[!UICONTROL 营销渠道处理规则]**。
 
 营销渠道处理规则通过处理访客在您的网站上进行的每次点击，确定访客点击是否满足分配给渠道的条件。系统会按您指定的顺序处理规则，当一个规则得到满足时，系统会停止处理剩余规则。
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 有关处理规则的附加说明：
 
 * 通过这些规则收集的数据全部为永久性数据，数据收集后再更改的规则不具有可回溯性。我们强烈建议您在保存[!UICONTROL 营销渠道处理规则]以迁移在不正确的渠道中收集的数据之前，查看并考虑所有情况。
-* 该报表一次最多可处理 25 个渠道。
+* 该报告一次最多可处理 25 个渠道。
 * 规则可以访问已由 VISTA 设置的变量，但不能访问已被 VISTA 删除的数据。
 * 两个营销渠道从不会接收相同事件的信用，如购买或点击次数。在这方面，营销渠道不同于 eVar（两个 eVar 可能会接收相同事件的信用）。
 * 如果规则的覆盖范围存在空隙，您可能会看到[未识别渠道](/help/components/c-marketing-channels/c-faq.md)。
@@ -42,10 +42,10 @@ ht-degree: 98%
 
 创建营销渠道处理规则，这些规则决定访客点击是否符合分配到渠道的标准。
 
-1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
-2. 选择某个报表包。
+1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报告包]**。
+2. 选择某个报告包。
 
-   如果您的报表包未定义渠道，则会显示[!UICONTROL “营销渠道：自动设置”]页面。
+   如果您的报告包未定义渠道，则会显示[!UICONTROL “营销渠道：自动设置”]页面。
 
    请参阅[运行自动设置](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
 
@@ -81,17 +81,17 @@ ht-degree: 98%
 |--- |--- |
 | 全部 | 当编号规则中所有规则都正确时激活此渠道。 |
 | 任何 | 当规则集中任何规则都正确时激活此渠道。仅当编号规则中存在一条以上规则时，此选项才可用。 |
-| AMO ID | Advertising Cloud 和 Advertising Analytics 集成使用的主要跟踪代码。如果启用其中一个集成，可以使用跟踪代码前缀来标识特定于 Advertising Cloud 的渠道。对于搜索，使用以“AL”开头的“AMO ID”；对于显示，使用以“AC”开头的“AMO ID”；对于社交，使用以“AO”开头的“AMO ID”。在营销渠道中使用 AMO ID 时，点击/成本/展示次数指标可归因于正确的渠道（未配置时，这些指标将转至“直接”或“无”）。 |
+| AMO ID | Advertising Cloud 和 Advertising Analytics 集成使用的主要跟踪代码。如果启用其中一个集成，可以使用跟踪代码前缀来标识特定于 Advertising Cloud 的渠道。对于搜索，使用以“AL”开头的“AMO ID”；对于显示，使用以“AC”开头的“AMO ID”；对于社交，使用以“AO”开头的“AMO ID”。在营销渠道中使用 AMO ID 时，点击/成本/展示次数量度可归因于正确的渠道（未配置时，这些量度将转至“直接”或“无”）。 |
 | AMO ED ID | Advertising Cloud 使用的辅助跟踪代码。此跟踪代码的主要用途是用作将数据发送回 Ad Cloud 的键值。但是，如果您希望将显示点进次数和显示视图点进次数作为两个单独的营销渠道，还可以使用此代码来标识它们。可以通过为显示点进次数设置以“:d”结尾的“AMO EF ID”的营销渠道逻辑，或者为显示视图点进次数设置以“:i”结尾的“AMO EF ID”的营销渠道逻辑来实现此操作。如果您不希望将显示拆分为两个渠道，可以改为使用 AMO ID 维度。 |
-| 转化变量 | 由为本报表包启用的 eVar 组成，并且只在通过网页上的 Adobe 代码设置变量时才适用。请参阅实施指南。 |
+| 转化变量 | 由为本报告包启用的 eVar 组成，并且只在通过网页上的 Adobe 代码设置变量时才适用。请参阅实施指南。 |
 | 存在 | 可使用若干选项，包括：<ul><li>**不存在**：指定请求上不存在点击属性。例如在反向链接域中，如果用户键入一个 URL 或单击一个书签，则该反向链接域属性不存在。</li><li>**为空**：指定点击属性存在，通常为 eVar 或查询字符串参数，但没有任何与点击属性相关的值。</li><li>**不包含**：例如，您可以指定反向链接域不包含特定值（这与使用选项“包含”。）</li></ul> |
 | 将渠道识别为 | 将规则与您添加到“营销渠道管理器”页面上的营销渠道相关联。请参阅添加营销渠道。 |
 | 匹配付费搜索检测规则 | Adobe 检测的付费搜索。付费搜索是指公司向列出它们网站的搜索引擎支付费用。付费搜索通常出现在搜索结果顶部或右侧。 |
-| 匹配免费搜索检测规则 | Adobe 报表检测的免费搜索。 |
-| 引用网站与内部 URL 过滤器匹配 | 按照“管理工具”中对报表包的定义，页面 URL 与内部 URL 过滤器匹配的访问。 |
-| 引用网站与内部 URL 过滤器不匹配 | 按照“管理工具”中对报表包的定义，引用 URL 与内部 URL 筛选器不匹配。您可以将此设置与“页面 URL”和“存在”一起使用来设置一个通用规则，这样就不会有访问登陆报表中的未识别渠道区域。 |
+| 匹配免费搜索检测规则 | Adobe 报告检测的免费搜索。 |
+| 引用网站与内部 URL 过滤器匹配 | 按照“管理工具”中对报告包的定义，页面 URL 与内部 URL 过滤器匹配的访问。 |
+| 引用网站与内部 URL 过滤器不匹配 | 按照“管理工具”中对报告包的定义，引用 URL 与内部 URL 筛选器不匹配。您可以将此设置与“页面 URL”和“存在”一起使用来设置一个通用规则，这样就不会有访问登陆报告中的未识别渠道区域。 |
 | 忽略与内部 URL 过滤器匹配的点击量 | （关于反向链接）只跟踪来自外部引用网站的点击量。通常，将此设置保留为启用状态，除非您希望包括内部流量。 |
-| 是访问第一页 | Adobe 报表检测到的访问第一页。 |
+| 是访问第一页 | Adobe 报告检测到的访问第一页。 |
 | 页面 | 网站上使用 Adobe 网络信标标记的网页名称。该值等同于 s.pageName。示例包括 `Home Page` 和 `About Us`。 |
 | 页面域 | 访客所登陆页面的域，如 `products.example.co.uk`。 |
 | 页面域和路径 | 域和路径，如 `products.example.co.uk/mens/pants/overview.html`。 |
@@ -120,7 +120,7 @@ ht-degree: 98%
 
 #### 付费搜索检测
 
-为了匹配付费搜索检测规则，营销渠道使用[!UICONTROL 付费搜索检测]页面上配置的设置。（**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 常规]** > **[!UICONTROL 付费搜索检测]**）。目标 URL 匹配该搜索引擎的现有付费搜索检测规则。
+为了匹配付费搜索检测规则，营销渠道使用[!UICONTROL 付费搜索检测]页面上配置的设置。（**[!UICONTROL 管理员]** > **[!UICONTROL 报告包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 常规]** > **[!UICONTROL 付费搜索检测]**）。目标 URL 匹配该搜索引擎的现有付费搜索检测规则。
 
 对于营销渠道规则，[!UICONTROL 付费搜索]设置如下：
 
@@ -132,7 +132,7 @@ ht-degree: 98%
 
 免费搜索是指，在您无需为您的网站排名向搜索引擎支付费用的情况下，访客就能通过网络搜索找到您的网站。
 
-分析没有免费搜索检测的功能。在设置了“付费搜索检测”之后，系统可以推断出如果一个搜索反向链接不是付费的，则它必然是免费搜索反向链接。有关详细信息，请参阅管理员中的[付费搜索检测](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html?lang=zh-Hans)。
+Analytics 中没有免费搜索检测的功能。在设置了“付费搜索检测”之后，系统可以推断出如果一个搜索反向链接不是付费的，则它必然是免费搜索反向链接。有关详细信息，请参阅管理员中的[付费搜索检测](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html?lang=zh-Hans)。
 
 对于营销渠道规则，“免费搜索”设置如下：
 
