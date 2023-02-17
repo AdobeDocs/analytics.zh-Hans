@@ -1,44 +1,44 @@
 ---
-description: 通过Analysis Workspace中的数据字典，用户可以编录并跟踪Analysis Workspace中的各种组件，包括其预期用途（已批准）、重复项等。
-title: 查看数据字典
+description: Analysis Workspace 中的数据词典允许用户对 Analysis Workspace 中的各种组件进行编目和跟踪，包括组件的预期用途、批准情况、重复情况等等。
+title: 查看数据词典
 feature: Components
 role: User, Admin
 hide: true
 hidefromtoc: true
 source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 在数据字典中查看组件信息
+# 查看数据词典中的组件信息
 
 {{release-limited-testing}}
 
-数据字典允许您查看有关组件的信息，包括组件描述、类似组件、组件经常使用的其他组件等。
+“数据词典”允许您查看有关组件的信息，包括组件描述、相似组件、组件经常使用的其他组件等等。
 
-要在数据字典中查看有关组件的信息，请执行以下操作：
+要查看数据词典中的组件信息：
 
-1. 转到包含要查看的组件的Analysis Workspace项目。
+1. 前往包含要查看组件的 Analysis Workspace 项目。
 
-1. 选择 [!UICONTROL **数据字典**] 图标。 (访问数据字典的替代方法在 [数据字典概述](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).)
+1. 选择 Analysis Workspace 左侧栏中的&#x200B;[!UICONTROL **数据词典**]&#x200B;图标。（[数据字典概述](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)中的“访问数据字典”一节中描述了访问数据词典的其他方法。）
 
-   此时将显示“数据字典”窗口。
+   显示“数据词典”窗口。
 
    ![data-dictionary.png](assets/data-dictionary.png)
 
    <!--double-check this screenshot. I mocked the admin view up a bit to get rid of the Dictionary health tab.-->
 
-1. 确保在下拉菜单中选择了包含要查看的组件的报表包。 默认情况下，会显示您已在中的报表包。
+1. 确保在下拉菜单中选择了包含您要查看的组件的报告包。默认情况下，会显示您已在使用的报告包。
 
-1. （可选）在搜索字段中，开始键入要查看的组件名称。
+1. （可选）在搜索字段中，开始键入要查看组件的名称。
 
 {{dd-filter-criteria}}
 
 1. 从组件列表中，选择要查看的组件。
 
-   将显示有关组件的以下信息：
+   显示有关组件的以下信息：
 
    {{dd-component-information}}
 
