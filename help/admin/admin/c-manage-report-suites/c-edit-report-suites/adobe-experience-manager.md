@@ -1,24 +1,24 @@
 ---
-description: 您可以在Adobe Analytics中查看Adobe Experience Manager数据
-title: 在Adobe Analytics中查看Adobe Experience Manager数据
+description: 您可以在 Adobe Analytics 中查看 Adobe Experience Manager 数据
+title: 查看 Adobe Analytics 中的 Adobe Experience Manager 数据
 feature: Admin Tools
 source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 
-# 在Adobe Analytics中查看Adobe Experience Manager数据
+# 查看 Adobe Analytics 中的 Adobe Experience Manager 数据
 
-在 Analytics 中启用 AEM Assets 报表功能的管理步骤。
+在 Analytics 中启用 AEM Assets 报告功能的管理步骤。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **`<select report suite>`** > **[!UICONTROL 编辑设置]** > **[!UICONTROL AEM]** > **[!UICONTROL AEM Assets 报表功能]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报告包]** > **`<select report suite>`** > **[!UICONTROL 编辑设置]** > **[!UICONTROL AEM]** > **[!UICONTROL AEM Assets 报告功能]**
 
 使 Analytics 可收集从 AEM Asset Insights 提供的[!UICONTROL 资产]的展示次数和点击次数。此集成
 
-* 在 Analytics 中启用了报表功能。
+* 在 Analytics 中启用了报告功能。
 * 将新维度添加到 Analysis Workspace 中的资源变量：资源 ID、资源来源和已点击的资源 ID
 * 向资产事件中添加了以下新维度：“资产点击次数”和“资产展示次数”
 
