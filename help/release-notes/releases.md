@@ -4,9 +4,9 @@ title: Adobe Analytics 功能发布
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 source-git-commit: cc18ac659400b572967e06cc2946d602e825bc97
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Analytics 版本在持续交付模型上运行，该模型允许采用更�
 
 * **正式发布 (GA)**：此功能对 100% 授权的 Experience Cloud 组织可用，且功能发布已完成。
 
-在每个功能版本中，从转出开始到GA的时间轴可能会有所不同。 其目标是缩短发行时间，以便在推出后的2个月内，一项功能将正式启用。
+对于每个功能发布，从“开始推出”到 GA 的时间表可能会有所不同。目标是缩短发布时间，以便能够在“开始推出”后的 2 个月内，功能将达到 GA 阶段。
 
 ## 功能标记
 
