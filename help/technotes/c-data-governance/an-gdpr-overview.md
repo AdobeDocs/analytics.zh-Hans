@@ -4,9 +4,9 @@ title: Adobe Analytics 和 GDPR
 feature: Data Governance
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
 source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '598'
+ht-degree: 100%
 
 ---
 
