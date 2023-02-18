@@ -3,16 +3,18 @@ title: 跟踪代码
 description: 跟踪代码或营销活动的名称。
 feature: Dimensions
 exl-id: e4f70552-6946-4974-a9e2-928faf563ecd
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '525'
-ht-degree: 100%
+source-git-commit: e46b15eedda78303e6e29faceea6db8483eee277
+workflow-type: tm+mt
+source-wordcount: '545'
+ht-degree: 91%
 
 ---
 
 # 跟踪代码
 
-“跟踪代码”维度列出您的网站上跟踪代码的名称。此维度通常使用查询字符串参数进行收集。您可以将具有不同查询字符串参数值的链接放在 Internet 的不同位置。此维度报告在增加网站流量方面哪些链接最成功。
+“跟踪代码”维度列出您的网站上跟踪代码的名称。您可以将具有不同查询字符串参数值的链接放在 Internet 的不同位置。此维度有助于您了解哪些链接在增加网站流量方面最成功。
+
+附加跟踪代码查询字符串在电子邮件、广告、社交媒体帖子以及您的组织使用的其他营销工作中很常见。
 
 ## 使用数据填充此维度
 
@@ -20,7 +22,7 @@ ht-degree: 100%
 
 ## 维度项目
 
-维度项目包括您的网站上的跟踪代码的名称。贵组织会确定您要使用的具体维度项目。
+维度项目包括您的网站上的跟踪代码的名称。贵组织会确定您要使用的具体维度项目。请参阅 [促销活动跟踪](/help/implement/use-cases/campaign-tracking.md) 以了解更多信息。
 
 ## 比较跟踪代码维度与收集跟踪代码的营销渠道
 

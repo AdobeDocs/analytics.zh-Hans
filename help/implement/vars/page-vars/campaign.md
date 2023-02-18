@@ -3,18 +3,18 @@ title: campaign
 description: 填充“跟踪代码”维度。
 feature: Variables
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: e46b15eedda78303e6e29faceea6db8483eee277
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 77%
+source-wordcount: '244'
+ht-degree: 75%
 
 ---
 
-# 营销活动
+# campaign
 
 `campaign` 变量专门用于在您的网站上收集跟踪代码。在 Adobe Analytics 的早期版本中，该变量具有特殊用途，可用于划分大多数维度。在 Adobe Analytics 的当前版本中，它的作用与 eVar 相同。
 
-此变量会填充“跟踪代码”维度。
+此变量将填充 [跟踪代码](/help/components/dimensions/tracking-code.md) 维度。 它通常使用 [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) 实用程序方法。 但是，您的组织会确切确定如何设置此变量。
 
 ## 使用Web SDK的Campaign
 
@@ -24,7 +24,7 @@ ht-degree: 77%
 
 您可以在配置 Analytics 扩展时（全局变量）或根据规则设置营销活动。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
