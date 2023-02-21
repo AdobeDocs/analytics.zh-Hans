@@ -4,26 +4,26 @@ description: 关于区域数据收集的信息
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
 source-git-commit: 88d6edd99c96d19980464e0f1cfa5cc867baf645
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '468'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
 # 地区数据收集
 
-Adobe Experience Cloud使用区域数据收集(RDC)，以便访客与Adobe之间的交互尽可能靠近访客。 在数据收集中心(DCC)对数据进行地区性收集后，这些收集数据会通过安全连接转发到数据处理中心(DPC)。 处理后，该数据便可用于Adobe Experience Cloud中的产品。
+Adobe Experience Cloud 使用区域数据收集 (RDC)，这样，您的访客与 Adobe 之间的交互就会尽可能靠近您的访客。在数据收集中心 (DCC) 收集区域数据后，它会通过安全连接转发到数据处理中心 (DPC)。处理后，数据可用于 Adobe Experience Cloud 中的产品。
 
-区域数据收集流程使用以下步骤：
+区域数据收集过程使用以下步骤：
 
-1. DNS会自动将收集主机名解析为距访客最近的数据收集中心的IP地址。
+1. DNS 会自动将收集主机名解析为距访客最近的数据收集中心的 IP 地址。
 1. 访客将数据发送到该地址。
 1. 届时，数据会立即通过安全连接转发到数据处理中心进行处理，然后提供给 Adobe Experience Cloud 中的产品。
 
-使用区域数据收集具有以下几个好处：
+使用区域数据收集提供了以下好处：
 
-* **性能**:通过RDC，您的访客可以连接到最近的DCC。 此优化提供了最快的响应时间，从而实现更准确的跟踪和更快的加载时间。
-* **冗余**:如果DCC与DPC之间的通信中断，则Adobe的RDC基础架构会将数据保存在本地，然后在通信恢复后将其转发到DPC。
+* **性能**：通过 RDC，访客将连接到最近的 DCC。这优化将提供最快的响应速度，从而实现更准确的跟踪和更快的加载速度。
+* **冗余**：如果 DCC 与 DPC 之间出现通信中断，则 Adobe 的 RDC 基础设施会在本地保存数据，然后在通信恢复后将数据转发到 DPC。
 
 RDC 目前包括以下位置（可能发生变化）：
 
@@ -35,7 +35,7 @@ RDC 目前包括以下位置（可能发生变化）：
 
 {style=&quot;table-layout:auto&quot;}
 
-*中国 RDC 需要中国加载项包。请参阅 [中国绩效优化](#china-performance-optimization) 下。
+*中国 RDC 需要中国加载项包。请参阅下面的[中国性能优化](#china-performance-optimization)。
 
 >[!NOTE]
 >
@@ -54,12 +54,12 @@ RDC 目前包括以下位置（可能发生变化）：
 
 {style=&quot;table-layout:auto&quot;}
 
-*“仅限中国”和“全球 + 中国”RDC 类型需要中国加载项包。 全球+中国将源自中国的数据路由到Adobe的中国RDC，同时将源自中国以外的数据路由到位于中国以外的最近RDC。 请参阅 [中国绩效优化](#china-performance-optimization) 下。
+*“仅限中国”和“全球 + 中国”RDC 类型需要中国加载项包。“全球 + 中国”会将源自中国境内的数据路由到 Adobe 的中国 RDC，同时将源自中国境外的数据路由到中国境外最近的 RDC。请参阅下面的[中国性能优化](#china-performance-optimization)。
 
-## 中国绩效优化
+## 中国性能优化
 
-China RDC(China Performance Optimization)附加组件包是Adobe Analytics的收费附加组件。 Adobe在中国大陆的性能优化功能，允许具有中国境内用户的客户将该数据直接发送到中国境内的Adobe数据收集服务器，而不是发送到全球其他位置。 与将数据发送到中国以外的位置相比，此优化可缩短页面加载时间并提高数据准确性。 数据最终会传输到Adobe在中国境外的一个数据处理中心(DPC)。 有关更多信息，请联系您的Adobe销售代表。
+中国 RDC（中国性能优化）加载项包是 Adobe Analytics 的收费加载项。Adobe 在中国大陆推出的性能优化使在中国境内拥有用户的客户能够将数据直接发送到中国境内的 Adobe 数据收集服务器，而不用发送到全球其他位置。与将数据发送到中国以外的位置相比，此性能优化可缩短页面加载时间，并提高数据准确性。数据最终会传输到中国境外的 Adobe 数据处理中心 (DPC) 之一。有关更多信息，请与您的 Adobe 销售代表联系。
 
 >!![NOTE]
-不支持的China RDC附加组件包 [Web SDK](/help/implement/aep-edge/overview.md).
+中国 RDC 加载项包不支持 [Web SDK](/help/implement/aep-edge/overview.md)。
 
