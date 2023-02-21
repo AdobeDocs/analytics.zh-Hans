@@ -1,57 +1,57 @@
 ---
-description: 您可以在Adobe Analytics中查看Document Cloud数据
-title: 配置Document Cloud报告
+description: 您可以在 Adobe Analytics 中查看 Document Cloud 数据
+title: 配置 Document Cloud 报告
 feature: Admin Tools
 source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '139'
+ht-degree: 100%
 
 ---
 
 
-# 配置Document Cloud报告
+# 配置 Document Cloud 报告
 
-您可以配置特定于PDF的维度和量度，以便在Adobe Analytics中可用。
+您可以配置特定于 PDF 的维度和量度以便在 Adobe Analytics 中可用。
 
-## 启用PDF报告时添加的组件
+## 启用 PDF 报告时添加的组件
 
-正确配置PDF报表后，Adobe Analytics中提供了以下维度和量度：
+正确配置 PDF 报告后，以下维度和量度在 Adobe Analytics 中可用：
 
 **维度：**
 
-* PDF搜索词
+* PDF 搜索项
 
-* PDF缩放级别
+* PDF 缩放级别
 
-* PDF操作
+* PDF 操作
 
-* PDF页码
+* PDF 页面编号
 
-* PDF文件名
+* PDF 文件名
 
 **量度：**
 
-* PDF视图
+* PDF 查看次数
 
-* PDF页面查看次数
+* PDF 页面查看次数
 
-* PDF下载
+* PDF 下载次数
 
-* PDF搜索
+* PDF 搜索
 
-* PDF使用的书签
+* 使用的 PDF 书签数
 
-* PDF复制文本
+* PDF 复制文本
 
-* PDF打印
+* PDF 打印
 
-## 在Adobe Analytics中启用PDF报表
+## 在 Adobe Analytics 中启用 PDF 报告
 
-1. 转到 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **`<select report suite>`** > **[!UICONTROL 编辑设置]** > **[!UICONTROL Document Cloud管理]** > [!UICONTROL **Document Cloud报告**].
+1. 转到 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报告包]** > **`<select report suite>`** > **[!UICONTROL 编辑设置]** > **[!UICONTROL Document Cloud 管理]** > [!UICONTROL **Document Cloud 报告**]。
 
-1. 在Adobe Document Cloud管理页面上，选择 [!UICONTROL **启用PDF报表**].
+1. 在 Adobe Document Cloud 管理页面上，选择&#x200B;[!UICONTROL **启用 PDF 报告**]。
 
-1. 要配置Adobe Document Cloud以将数据传输到Adobe Analytics，请使用 [Adobe Document Cloud Javascript SDK](https://www.adobe.io/apis/documentcloud/dcsdk.html).
+1. 要配置 Adobe Document Cloud 以将数据传输到 Adobe Analytics，请使用 [Adobe Document Cloud Javascript SDK ](https://www.adobe.io/apis/documentcloud/dcsdk.html)。
 
 
