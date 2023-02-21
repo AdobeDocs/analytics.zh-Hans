@@ -4,10 +4,10 @@ title: 日程表和日期范围概述
 feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: bec3ddc1f5ccf7b4baddabb0a376ed5775318df7
+source-git-commit: feb6942a54f61850ce11e08008b5694c53436e6d
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 100%
+source-wordcount: '863'
+ht-degree: 88%
 
 ---
 
@@ -76,3 +76,10 @@ ht-degree: 100%
 ### 关于使用滚动日期和相对面板日期范围的区段 {#segments-relative-dates}
 
 如果您构建区段或使用具有滚动日期的区段，例如，过去 7 天或过去 2 周，并单击区段预览，系统将会从&#x200B;*今天*&#x200B;开始滚动日期而非从面板开始日期滚动。因此，当您实际使用表中的区段时，区段的预览将会不相符。受影响的是预览，而非区段本身。
+
+## 面板日期范围和预览的准则 {#guidelines-panel-dates}
+
+* 从2月版开始，组件和数据预览将基于面板日期范围，而不是最近90天。
+* 左边栏中列出的所有组件都将基于面板日期范围可用。
+* 区段和计算量度生成器中的所有日期预览都将基于面板日期范围（除非从没有关联面板的组件管理器访问，否则它们仍将基于过去90天）。
+* 任何数据预览都将根据面板日期范围显示数据或组件。
