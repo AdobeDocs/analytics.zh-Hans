@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
 workflow-type: tm+mt
 source-wordcount: '3679'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 99%
 | 实施 | 更新了有关如何[为 Web 和移动设备实施 Adobe Analytics](../implement/home.md) 的内容。 |
 | 工作区日程表和日期范围 | 更新内容以描述相对日期范围、公式计算更新和日程表 UI 更改。请参阅[关于相对面板日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)。 |
 | 移动记分卡 | 新文档部分描述如何显示和隐藏比较日期范围。请参阅 CJA 中的[显示比较日期范围](/help/analyze/mobile-app/create-scorecard.md)。 |
-| 1.4 API | 的 [Adobe Analytics 1.4 API](https://developer.adobe.com/analytics-apis/docs/1.4/) 收到了完全重写，现已在Adobe Developer上发布。 |
-| 跨实施类型跟踪 | 更新了用例 [跨不同的实施类型跟踪](../implement/use-cases/cross-type-implementation.md) 以容纳Experience CloudID服务。 |
+| 1.4 API | [Adobe Analytics 1.4 API](https://developer.adobe.com/analytics-apis/docs/1.4/) 经过了全面改写，现在发布在 Adobe Developer 上。 |
+| 跟踪各实施类型 | 更新了用例[跟踪不同的实施类型](../implement/use-cases/cross-type-implementation.md)以适应 Experience Cloud ID 服务。 |
 | **2023 年 1 月** |  |
 | 排序和过滤表格 | 更新了[对表格进行筛选和排序](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)一文中的内容（包括添加过程和解释可用选项）。本文从“对表格进行分页、筛选和排序”更名而成。 |
 | 文件夹 | [文件夹管理](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)的专用页面。 |
@@ -59,8 +59,8 @@ ht-degree: 99%
 | 高熵客户端提示 | 关于 Adobe 如何在 User-Agent 之外使用[客户端提示](/help/technotes/client-hints.md)确定设备信息的新主题。 |
 | 处理顺序 | 我们已聚合多个帮助页面以仅提供一个关于[处理顺序](/help/technotes/processing-order.md)的帮助主题。 |
 | **2022 年 8 月** |  |
-| 在用于 Edge Collection 的 XDM 中支持列表变量 | 使客户能够通过 Experience Edge/Web SDK 收集数据，以使用 XDM 指定列表变量内容。 [了解详情](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html#list-variables-using-the-web-sdk?lang=zh-Hans) | 2022 年 8 月 18 日 |
-| 设置产品字符串变量时在用于 Edge Collection 的 XDM 中使用 SKU 字段 | 使客户能够通过 Experience Edge/Web SDK 收集数据，以使用 SKU 值设置产品变量中的产品字段。 [了解详情](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html#products-using-the-web-sdk?lang=zh-Hans) |
+| 在用于 Edge Collection 的 XDM 中支持列表变量 | 使客户能够通过 Experience Edge/Web SDK 收集数据，以使用 XDM 指定列表变量内容。 [了解详情](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=zh-Hans#list-variables-using-the-web-sdk?lang=zh-Hans) | 2022 年 8 月 18 日 |
+| 设置产品字符串变量时在用于 Edge Collection 的 XDM 中使用 SKU 字段 | 使客户能够通过 Experience Edge/Web SDK 收集数据，以使用 SKU 值设置产品变量中的产品字段。 [了解详情](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=zh-Hans#products-using-the-web-sdk?lang=zh-Hans) |
 | **2022 年 6 月** |  |
 | 用于 Edge Collection 的 XDM 中的促销变量 | 关于[支持用于 Edge Collection 的 XDM 中促销变量的文档](/help/components/dimensions/evar-merchandising.md) |
 | Experience Platform Edge 文档 | 关于通过 [Web SDK](/help/implement/aep-edge/web-sdk/overview.md)、[Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) 和 [Edge API](/help/implement/aep-edge/edge-api/overview.md) 实现 Adobe Analytics 的新文章。 |
@@ -80,7 +80,7 @@ ht-degree: 99%
 | [!UICONTROL 页面摘要]工作区面板 | 此面板为您选择的页面提供深入分析。 |
 | 关于暂停旧版计划报告的新主题 | 从 **2022 年 4 月 15 日起**，Adobe 打算[暂停所有创建日期超过两年的计划报告](/help/analyze/reports-analytics/scheduled-reports-eol.md)。 |
 | **2022 年 2 月** |
-| 移动记分卡项目预览模式 | 该[预览模式](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html#preview?lang=zh-Hans)允许您在保存和共享记分卡之前预览体验。 |
+| 移动记分卡项目预览模式 | 该[预览模式](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-Hans#preview?lang=zh-Hans)允许您在保存和共享记分卡之前预览体验。 |
 | API 项目端点 | 使用 API 添加、编辑或删除 Analysis Workspace 项目。[了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | 暂停旧版计划 Report Builder 任务更新主题 | **从 2022 年 4 月 15 日起**，Adobe 打算[暂停所有在大于两年之前创建的计划 Report Builder 任务](/help/analyze/report-builder/r-arb-scheduled-reports.md)。 |
 
@@ -91,7 +91,7 @@ ht-degree: 99%
 | **2021 年 10 月** |  |
 | 2021 年 10 月 21 日 | 有关 Analysis Workspace 中的[快速区段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=zh-Hans)的新文档 |
 | 2021 年 10 月 21 日 | 有关 Analysis Workspace 中的[媒体播放耗时](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=zh-Hans)面板的新文档。 |
-| 2021 年 10 月 7 日 | 有关[移动记分卡可视化](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html#apply-visualizations?lang=zh-Hans)的新文档 |
+| 2021 年 10 月 7 日 | 有关[移动记分卡可视化](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-Hans#apply-visualizations?lang=zh-Hans)的新文档 |
 | **2021 年 8 月** |  |
 | 2021 年 8 月 18 日 | 修订了顶层结构，合并为一个[登陆页面](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hans) |
 | 2021 年 8 月 18 日 | 有关 [A4T 和虚拟报告包](/help/components/vrs/vrs-a4t.md)的新主题 |
@@ -104,7 +104,7 @@ ht-degree: 99%
 | 2021 年 7 月 15 日 | 新增有关新的 [Adobe Analytics 登陆页面](/help/analyze/landing.md)的文档 |
 | **2021 年 6 月** |  |
 | 2021 年 6 月 15 日 | 更新了[营销渠道最佳实践](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=zh-Hans) |
-| 2021 年 6 月 3 日 | 更新了文档以更好地说明[数据馈送实施](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=zh-Hans)，请参阅[此处](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html#BucketOwnerFullControl)。 |
+| 2021 年 6 月 3 日 | 更新了文档以更好地说明[数据馈送实施](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=zh-Hans)，请参阅[此处](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=zh-Hans#BucketOwnerFullControl)。 |
 | 2021 年 5 月 25 日 | 更新了有关[报告中的 eVar 区分大小写](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=zh-Hans)的文档。 |
 | 2021 年 5 月 13 日 | 更新了 [Data Warehouse API 请求](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md)。它们现在支持“Hours”。 |
 | **2021 年 3 月** |  |
@@ -182,7 +182,7 @@ ht-degree: 99%
 | 2020 年 2 月 4 日 | 完全重写[实施用户指南](/help/implement/home.md)。 |
 | 2020 年 1 月 22 日 | 更新了“自由格式表”页面，现在包含有关新的[自由格式表生成器](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)的信息。 |
 | **2020 年 1 月** |  |
-| 2020 年 1 月 24 日 | 更新了工作区中的[行设置](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html#cja-workspace?lang=zh-Hans)页面。 |
+| 2020 年 1 月 24 日 | 更新了工作区中的[行设置](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=zh-Hans#cja-workspace?lang=zh-Hans)页面。 |
 | 2020 年 1 月 16 日 | 新增有关[自由格式表生成器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=zh-Hans)的文档。启用表生成器后，您可以通过拖放多个维度、细分、量度和区段来构建可解答更复杂业务问题的表。数据不会立即更新，相反，单击&#x200B;**[!UICONTROL 生成]**&#x200B;后才会进行更新，这样可在您知道自己要构建什么表的情况下节省您的时间。此外，此功能还提供：<ul><li>**预览**：您可以先预览表的格式，然后再花费时间渲染实际数据。</li><li>**灵活的行和划分设置**：您可以为每个维度行设置行级别和划分级别。以前，工作区施加了一些默认值，这些默认值在返回数据之前无法更改。</li><li>**按状态划分**：您可以将维度行设置为始终&#x200B;_按状态划分_&#x200B;而不是&#x200B;_按特定项目_（默认值）划分。</li><li>**手动静态行排序**：您可以手动对静态行进行排序，以使表行完全按照您的需要显示。以前，静态行只能按量度列或按字母顺序排序。</li></ul> |
 | 2020 年 1 月 13 日 | 添加了 [Adobe Analytics 和浏览器 Cookie](/help/technotes/cookies/cookies.md)。 |
 | 2020 年 1 月 13 日 | 修改了[我应该使用哪种 Adobe Analytics 工具](/help/analyze/get-started/which-analytics-tool.md)页面。 |
@@ -200,9 +200,9 @@ ht-degree: 99%
 | 2019 年 10 月 10 日 | 更新了自由格式表总计：它们现在包含两个总计，即&#x200B;**[!UICONTROL 表总计]**&#x200B;和&#x200B;**[!UICONTROL 全部总计]**。表格总计行会将已应用的[报告过滤器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=zh-Hans)计入在内。以前，只有区段会影响总数的计算。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=zh-Hans)<br/>，此外，**[!UICONTROL ￼显示总数]**&#x200B;和&#x200B;**[!UICONTROL 显示总计]**&#x200B;选项已添加到&#x200B;**[!UICONTROL 列设置]**&#x200B;中。<br/>鉴于自由格式表的这项变化，与之相关的可视化图表（例如关联的&#x200B;**[!UICONTROL 摘要数字]**&#x200B;可视化图表）也将进行相应的更新，导出的 CSV 和 PDF 数据同样也会更新。 |
 | 2019 年 10 月 10 日 | 在 Workspace 中，已将轻松地删除“未指定（无）”作为一个选项添加到报告过滤器。 |
 | 2019 年 10 月 10 日 | 在工作区中，紫色粒度组件（分钟、小时、天、周、月、季度、年）已被弃用。即使之前使用了某个紫色时间组件，您也&#x200B;**无需执行任何操作**。<br/>此外，根据这项变化，紫色的&#x200B;**[!UICONTROL 时间]**&#x200B;部分已重命名为&#x200B;**[!UICONTROL 日期范围]**。 |
-| 2019 年 10 月 1 日 | 新增有关[工作区总计](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html#cja-workspace?lang=zh-Hans)的文章。 |
+| 2019 年 10 月 1 日 | 新增有关[工作区总计](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html?lang=zh-Hans#cja-workspace?lang=zh-Hans)的文章。 |
 | 2019 年 9 月 28 日 | 新增了有关[用于 Javascript 实施的配置变量](/help/implement/vars/config-vars/configuration-variables.md)的文章 |
-| 2019 年 9 月 19 日 | 修订了分段文档以说明[逻辑组容器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html#logic-group-containers?lang=zh-Hans)。 |
+| 2019 年 9 月 19 日 | 修订了分段文档以说明[逻辑组容器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html?lang=zh-Hans#logic-group-containers?lang=zh-Hans)。 |
 | 2019 年 9 月 12 日 | 新增了[历程 IQ：跨设备分析](/help/components/cda/overview.md)文档 |
 | 2019 年 9 月 12 日 | 更新了[计算量度总计](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=zh-Hans)文档。 |
 | 2019 年 8 月 28 日 | 新增了有关[用于 Analytics 的渐进式 Web 应用程序 (PWA)](/help/technotes/pwa.md) 的文章 |

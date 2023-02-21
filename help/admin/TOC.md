@@ -7,7 +7,7 @@ user-guide-description: 了解 Analytics administration 任务，如在 Experien
 source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -114,9 +114,9 @@ ht-degree: 96%
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
          + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [隐私报告](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
-         + Document Cloud管理 {#doc-cloud-mgt}
-            + [使用Adobe Analytics配置Document Cloud](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
-            + [配置Document Cloud报告](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
+         + Document Cloud 管理 {#doc-cloud-mgt}
+            + [使用 Adobe Analytics 配置 Document Cloud](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
+            + [配置 Document Cloud 报告](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
          + [Advertising Analytics 配置](admin/c-manage-report-suites/c-edit-report-suites/advertising-analytics-config.md)
          + 实时 {#real-time-reports}
             + [实时报告概述](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)

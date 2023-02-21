@@ -8,7 +8,7 @@ hidefromtoc: true
 source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 77%
 
 Analysis Workspace 中的数据词典可帮助用户和管理员跟踪并更好地了解其 Analytics 环境中的组件。
 
-Analytics管理员负责在数据字典中管理有关每个组件的信息，以便向用户提供该信息。
+Analytics 管理员负责整理有关数据词典中每个组件的信息，并将其提供给用户。
 
 ## 对用户的好处
 
@@ -34,7 +34,7 @@ Analytics管理员负责在数据字典中管理有关每个组件的信息，�
 
 * 组件是否经系统管理员批准
 
-有关如何访问数据字典的信息以及其中包含的信息的详细信息，请参阅 [在数据字典中查看组件信息](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
+有关如何访问数据字典及其包含的信息的详细信息，请参阅[查看数据词典中的组件信息](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md)。
 
 ## 对管理员的好处
 
@@ -69,13 +69,13 @@ Analytics管理员负责在数据字典中管理有关每个组件的信息，�
 
 * 从菜单：[!UICONTROL **帮助**] > [!UICONTROL **数据词典**]。
 
-有关数据字典中可用的各种选项的详细信息，请参阅 [在数据字典中查看组件信息](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
+有关数据词典中提供的不同选项的详细信息，请参阅[查看数据词典中的组件信息](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md)。
 
-## 更新和组织数据字典
+## 更新和整理数据词典
 
-Analytics管理员负责为其组织维护一个正常的数据字典，如 [监视数据字典运行状况](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).
+Analytics 管理员负责为其组织维护健康的数据词典，如[监控数据词典健康状况](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)中所述。
 
-在此过程中，Analytics管理员可以编辑有关数据字典中每个组件的信息，如 [编辑数据字典中的组件条目](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+作为此过程的一部分，Analytics 管理员可以编辑有关数据词典中每个组件的信息，如[编辑数据词典中的组件条目](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)中所述。
 
 ## 移动、最小化或关闭数据词典
 
