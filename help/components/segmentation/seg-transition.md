@@ -3,10 +3,10 @@ description: 有关管理旧版区段的常见问题解答。
 title: 有关旧版区段的常见问题解答
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 3901376a9a19e40650cce56c8e7d2941add73790
+source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
 workflow-type: tm+mt
-source-wordcount: '1440'
-ht-degree: 92%
+source-wordcount: '1446'
+ht-degree: 91%
 
 ---
 
@@ -152,8 +152,9 @@ ht-degree: 92%
 
 以下维度已更改为枚举列表：
 
+| Dimension名称 | Dimension名称 | Dimension名称 |
+| --- | --- | --- |
 | 移动设备制造商 | 移动设备电子邮件长度 | 颜色深度 |
-|---|---|---|
 | 移动设备屏幕大小 | 移动设备数 | 显示器分辨率 |
 | 移动设备屏幕高度 | 移动设备按键通话 | 插件 |
 | 移动设备 Cookie 支持 | 移动设备邮件修饰 | 操作系统 |
@@ -170,7 +171,7 @@ ht-degree: 92%
 
 ## 对具有已知值的整数维度的更改 {#integer-based-dims}
 
-具有已知值集的整数维度（如浏览器宽度）已被拆分为多个枚举范围，因此您可以快速定义特定范围的区段。这些枚举列表会在维度名称后附加“- 分段统计”。以下屏幕演示了如何使用以前的区段生成器界面和新区段生成器界面来分段这些维度：
+具有已知值集的整数维度（如浏览器宽度）已被拆分为多个枚举范围，因此您可以快速定义特定范围的区段。这些枚举列表会在维度名称后附加“- 分段统计”。以下屏幕显示了如何使用以前的和新的区段生成器界面对这些维度进行分段：
 
 ![](assets/seg_browser_dimension.png)
 
