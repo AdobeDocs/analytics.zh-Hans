@@ -3,35 +3,16 @@ description: 有关管理旧版区段的常见问题解答。
 title: 有关旧版区段的常见问题解答
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: e1ba6e93bcea4ece6e06941a97227a54116e2c25
+source-git-commit: 3901376a9a19e40650cce56c8e7d2941add73790
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 94%
+source-wordcount: '1440'
+ht-degree: 92%
 
 ---
 
 # 有关旧版区段的常见问题解答
 
 解答有关管理旧版区段（2014年之前创建的区段）的最佳实践的常见问题。
-
-## 最佳实践 {#best-practices}
-
-+++ **我应该怎样处理具有相同名称，但可能有不同定义的重复区段？**&#x200B;由于区段在多个报表包中使用，您可能会发现有多个区段具有相同的名称。我们建议您
-
-* 重命名名称相同但定义不同的区段，或者
-* 删除不再需要的区段。
-
-+++
-
-+++ **Adobe 针对区段清理方面有何建议？**
-
-* 使用原有标记对所有区段添加标记。
-* 审查您拥有的区段。
-* 将区段添加到区段库（如果适用）。
-* 批准符合规范的区段。
-* 根据[最佳实践](/help/components/segmentation/segmentation-workflow/seg-workflow.md)标记区段。
-
-+++
 
 ## 管理原有区段 {#legacy}
 
@@ -69,7 +50,7 @@ ht-degree: 94%
 
 +++
 
-**预配置区段发生了什么情况？**
++++ **预配置区段发生了什么情况？**
 
 * **单页面访问量**
 * **来自移动设备的访问量**
@@ -97,7 +78,7 @@ ht-degree: 94%
 
 +++
 
-+++ **管理员区段（又称为“全局”区段）有何变化？**
++++ **管理员区段（也称为“全局”区段）发生了什么情况？**
 
 **管理员**&#x200B;区段将迁移到新的区段界面中，并将显示为与每个人共享的区段。
 
@@ -109,6 +90,23 @@ ht-degree: 94%
 
 +++
 
++++ **我应该怎样处理具有相同名称，但可能有不同定义的重复区段？**&#x200B;由于区段在多个报表包中使用，您可能会发现有多个区段具有相同的名称。我们建议您
+
+* 重命名名称相同但定义不同的区段，或者
+* 删除不再需要的区段。
+
++++
+
++++ **Adobe 针对区段清理方面有何建议？**
+
+* 使用原有标记对所有区段添加标记。
+* 审查您拥有的区段。
+* 将区段添加到区段库（如果适用）。
+* 批准符合规范的区段。
+* 根据[最佳实践](/help/components/segmentation/segmentation-workflow/seg-workflow.md)标记区段。
+
++++
+
 ### 迁移提示
 
 以下提示将可帮助您迁移一些常用维度：
@@ -116,10 +114,7 @@ ht-degree: 94%
 * 地域（市、州/省、国家/地区）– 搜索并选择特定的城市、州/省或国家/地区，而不是使用部分匹配。
 * 浏览器 – 使用浏览器类型维度来获取某种类型的所有浏览器，如 Google Chrome
 * 操作系统 – 使用操作系统类型维度来获取某种类型的所有操作系统，如 Microsoft Windows。
-
-* [新维度和重命名的维度](/help/components/segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
-* [对“包含”的更改](/help/components/segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [对“小于”和“大于”的更改](/help/components/segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* 请参阅“新Dimension和重命名的客户”（请参阅下文）
 
 ## 新维度和重命名的维度 {#renamed}
 

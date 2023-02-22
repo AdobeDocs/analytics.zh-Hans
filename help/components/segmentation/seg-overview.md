@@ -3,10 +3,10 @@ description: 您可以使用区段根据特性或网站交互来确定访客子�
 title: 关于区段
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 385c27de382b7bb047b6c62420d0471dd6e1650d
+source-git-commit: 14c5acb9dbd46fac3dc2465c1200b478853270e9
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 87%
+source-wordcount: '1173'
+ht-degree: 86%
 
 ---
 
@@ -53,7 +53,7 @@ Analysis Workspace包含以下其他功能：
 
 ## Adobe提供的区段
 
-屏幕左侧的“组件”边栏显示您和您的公司创建的区段，以及开箱即用提供的Adobe区段。 单击 **[!UICONTROL 显示全部]**，则这些区段通常显示在列表底部，并由右侧的Adobe徽标标识：
+屏幕左侧的“组件”边栏显示您和您的公司创建的区段，以及开箱即用提供的Adobe区段。 单击 **[!UICONTROL 显示全部]**，则这些区段通常显示在列表底部，并由右侧的Adobe徽标标识。 这是Adobe提供的区段的部分列表：
 
 ![Adobe区段](assets/adobe-segs.png)
 
@@ -76,7 +76,7 @@ Analysis Workspace包含以下其他功能：
 
 顺序区段根据使用 [!UICONTROL THEN] 运算符联接的用户操作过滤数据集。
 
-## 操作方法视频 {#segment-video}
+## 如何划分视频 {#segment-video}
 
 这段视频简要概述了区段容器是什么及其使用方式：[Adobe Analytics 中的区段容器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=zh-Hans)
 
