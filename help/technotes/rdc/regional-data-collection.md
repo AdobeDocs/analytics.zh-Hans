@@ -3,8 +3,8 @@ title: 地区数据收集
 description: 关于区域数据收集的信息
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: 88d6edd99c96d19980464e0f1cfa5cc867baf645
-workflow-type: ht
+source-git-commit: 8f02656820ed0b9201f29fc9dca6870e6f7fe8fd
+workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ RDC 目前包括以下位置（可能发生变化）：
 | --- | --- |
 | 默认 | 俄勒冈、弗吉尼亚、爱尔兰、巴黎、孟买、新加坡、东京、悉尼、中国* |
 
-{style="table-layout:auto"}
+{style=&quot;table-layout:auto&quot;}
 
 *中国 RDC 需要中国加载项包。请参阅下面的[中国性能优化](#china-performance-optimization)。
 
@@ -52,7 +52,7 @@ RDC 目前包括以下位置（可能发生变化）：
 | 仅限亚太地区 | 孟买、新加坡、东京、悉尼 |
 | 仅限中国* | 北京 |
 
-{style="table-layout:auto"}
+{style=&quot;table-layout:auto&quot;}
 
 *“仅限中国”和“全球 + 中国”RDC 类型需要中国加载项包。“全球 + 中国”会将源自中国境内的数据路由到 Adobe 的中国 RDC，同时将源自中国境外的数据路由到中国境外最近的 RDC。请参阅下面的[中国性能优化](#china-performance-optimization)。
 
@@ -60,6 +60,7 @@ RDC 目前包括以下位置（可能发生变化）：
 
 中国 RDC（中国性能优化）加载项包是 Adobe Analytics 的收费加载项。Adobe 在中国大陆推出的性能优化使在中国境内拥有用户的客户能够将数据直接发送到中国境内的 Adobe 数据收集服务器，而不用发送到全球其他位置。与将数据发送到中国以外的位置相比，此性能优化可缩短页面加载时间，并提高数据准确性。数据最终会传输到中国境外的 Adobe 数据处理中心 (DPC) 之一。有关更多信息，请与您的 Adobe 销售代表联系。
 
->!![NOTE]
+>[!NOTE]
+>
 >中国 RDC 加载项包不支持 [Web SDK](/help/implement/aep-edge/overview.md)。
 
