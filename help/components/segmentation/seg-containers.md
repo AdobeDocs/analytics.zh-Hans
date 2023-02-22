@@ -1,12 +1,12 @@
 ---
-description: Adobe Analytics 允许您使用各种 Analytics 功能、Adobe Experience Cloud、Adobe Target 和其他集成的 Adobe 产品生成、管理和共享强大而集中的受众区段并将它们应用到您的报表中。
+description: 了解不同的分段容器及其使用方法
 keywords: 分段;区段
-title: Analytics 分段
+title: 区段容器
 feature: Segmentation
-source-git-commit: d361e9e97e9652acab317014aba53af49115c07c
+source-git-commit: 3569cea351a61eb79e1b8f5dad76905f8054982b
 workflow-type: tm+mt
-source-wordcount: '3139'
-ht-degree: 100%
+source-wordcount: '3120'
+ht-degree: 99%
 
 ---
 
