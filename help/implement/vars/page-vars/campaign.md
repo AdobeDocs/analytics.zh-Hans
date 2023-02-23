@@ -4,9 +4,9 @@ description: 填充“跟踪代码”维度。
 feature: Variables
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
 source-git-commit: e46b15eedda78303e6e29faceea6db8483eee277
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '244'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 75%
 
 `campaign` 变量专门用于在您的网站上收集跟踪代码。在 Adobe Analytics 的早期版本中，该变量具有特殊用途，可用于划分大多数维度。在 Adobe Analytics 的当前版本中，它的作用与 eVar 相同。
 
-此变量将填充 [跟踪代码](/help/components/dimensions/tracking-code.md) 维度。 它通常使用 [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) 实用程序方法。 但是，您的组织会确切确定如何设置此变量。
+此变量填充[跟踪代码](/help/components/dimensions/tracking-code.md)维度。它一般使用 [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) 实用方法从查询字符串获取其值。但是，由您的组织确定究竟如何设置此变量。
 
-## 使用Web SDK的Campaign
+## 使用 Web SDK 的营销活动
 
-营销活动是 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `marketing.trackingCode`.
+在 XDM 字段 `marketing.trackingCode` 下[为 Adobe Analytics 映射营销活动](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)。
 
-## 使用Adobe Analytics扩展的Campaign
+## 使用 Adobe Analytics 扩展的营销活动
 
 您可以在配置 Analytics 扩展时（全局变量）或根据规则设置营销活动。
 
@@ -33,7 +33,7 @@ ht-degree: 75%
 
 您可以将促销活动设置为一个值或一个查询字符串参数。
 
-## AppMeasurement和Analytics扩展自定义代码编辑器中的s.campaign
+## AppMeasurement 和 Analytics 扩展自定义代码编辑器中的 s.campaign
 
 `s.campaign` 变量是一个字符串，通常包含营销活动中使用的跟踪代码。其最大长度为 255 字节；超过 255 字节的值在发送到 Adobe 时会自动被截断。
 
