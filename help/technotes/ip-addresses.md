@@ -3,9 +3,9 @@ title: Adobe Analytics 使用的 IP 和域
 description: 如果贵组织的防火墙阻止源自 Adobe 的 IP 地址，请使用此列表更新您的防火墙设置。
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: efe78fb17d9a7ea7dde27075d9d890a33138a0d6
+source-git-commit: d109011bcdbc6b5f37c9304e5d72f572a4245193
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '394'
 ht-degree: 71%
 
 ---
@@ -65,6 +65,7 @@ Adobe Analytics 使用以下主机来改进性能和产品体验。Adobe建议�
 | 伦敦 | `66.235.156.0/24` |
 | 伦敦 | `185.34.188.0/22` |
 | 俄勒冈 | `66.235.132.0/22` |
+| 俄勒冈 | `130.248.150.0/24` |
 | 俄勒冈 | `130.248.160.0/21` |
 | 新加坡 | `130.248.170.0/23` |
 | 新加坡 | `130.248.240.0/24` |
