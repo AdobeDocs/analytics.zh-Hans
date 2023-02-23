@@ -5,9 +5,9 @@ user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
 user-guide-description: 了解各种实施 Adobe Analytics 的方法。自定义收集什么数据以充分利用 Analytics 数据。
 source-git-commit: e46b15eedda78303e6e29faceea6db8483eee277
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '407'
+ht-degree: 100%
 
 ---
 
@@ -177,7 +177,7 @@ ht-degree: 0%
 + 实施用例 {#use-cases}
    + [将 AppMeasurement 与 iFrames 结合使用](use-cases/iframe.md)
    + [跨不同的实施类型跟踪](use-cases/cross-type-implementation.md)
-   + [促销活动跟踪工作流](use-cases/campaign-tracking.md)
+   + [营销活动跟踪工作流程](use-cases/campaign-tracking.md)
 + 验证实施 {#validate}
    + [旧版 Adobe Experience Cloud Debugger](validate/debugger.md)
    + [数据收集查询参数](validate/query-parameters.md)
