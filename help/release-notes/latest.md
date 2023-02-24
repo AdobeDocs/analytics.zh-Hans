@@ -3,16 +3,16 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: feb6942a54f61850ce11e08008b5694c53436e6d
+source-git-commit: 5eefd324cfb1d9985f21faf3809e889802c96e0c
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1100'
 ht-degree: 90%
 
 ---
 
 # 当前 Adobe Analytics 发行说明 (2023 年 2 月)
 
-**上次更新时间**：2023 年 2 月 17 日
+**上次更新时间**：2023 年 2 月 23 日
 
 Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
@@ -24,7 +24,7 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 | **在移动记分卡中隐藏比较日期范围** | 使用“移动记分卡”，您可以切换&#x200B;**[!UICONTROL 包括比较日期]**&#x200B;设置以查看或隐藏比较日期。 | 不适用 | 2023 年 2 月 8 日 |
 | **Workspace 中的日程表更新** | <ul><li>锚定面板日期：您可以使日期范围组件与面板日程表相对的选项。[了解详情](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates)</li><li>日程表样式更新：整个 UI 中的日程表样式已升级，以呈现更加一致且易于使用的工作流程。</li><li>日程表公式更新：如果您使用相对日期，所有的日程表公式都会反映面板日期范围的开始。[了解详情](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#formula-relative-dates)</li></ul> | 不适用 | 2023 年 2 月 8 日 |
 | **面板日期范围更新** | 在工作区中，我们添加了以下改进：<ul><li>从2月版开始，组件和数据预览将基于面板日期范围，而不是最近90天。 </li><li>左边栏中列出的所有组件都将基于面板日期范围可用。</li><li>区段和计算量度生成器中的所有日期预览都将基于面板日期范围（除非从没有关联面板的组件管理器访问，否则它们仍将基于过去90天）。</li><li>任何数据预览都将根据面板日期范围显示数据或组件。</li></ul> | 不适用 | 2023 年 2 月 8 日 |
-| **Adobe Analytics 源连接器流的行/列筛选** | Adobe Experience Platform 中的 Analytics 源连接器现在允许过滤 Analytics 数据，这些数据用于填充[实时客户配置文件](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans)中的配置文件。行级过滤有助于减少与配置文件关联的事件数。列级过滤有助于减少事件本身的丰富性，从而使您能够优化对配置文件权利的使用。此过滤仅适用于发送至实时客户配置文件和[标识服务](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hans)的数据。**过滤不会影响发送到数据湖以用于 Customer Journey Analytics** 等应用程序的数据。[了解详情](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hans#filtering-for-profile) | 不适用 | 2023 年 2 月 22 日 |
+| **Adobe Analytics 源连接器流的行/列筛选** | Adobe Experience Platform 中的 Analytics 源连接器现在允许过滤 Analytics 数据，这些数据用于填充[实时客户配置文件](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans)中的配置文件。行级过滤有助于减少与配置文件关联的事件数。列级过滤有助于减少事件本身的丰富性，从而使您能够优化对配置文件权利的使用。此过滤仅适用于发送至实时客户配置文件和[标识服务](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hans)的数据。**过滤不会影响发送到数据湖以用于 Customer Journey Analytics** 等应用程序的数据。[了解详情](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hans#filtering-for-profile) | 不适用 | 重定于2023年3月29日 |
 
 {style=&quot;table-layout:auto&quot;}
 
