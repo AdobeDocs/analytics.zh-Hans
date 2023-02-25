@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 数据列引用
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 2156cc113db2049cd6a0feb5bcbfb85b8ecb16d2
-workflow-type: ht
-source-wordcount: '3641'
-ht-degree: 100%
+source-git-commit: 2af8c2ee2ad8f445390a0b732630af1e1304d9a5
+workflow-type: tm+mt
+source-wordcount: '3629'
+ht-degree: 94%
 
 ---
 
@@ -42,11 +42,11 @@ ht-degree: 100%
 | **`ch_hdr`** | 通过 HTTP 请求头收集的客户端提示。 | 文本 |
 | **`ch_js`** | 通过用户代理客户端提示 JavaScript API 收集的客户端提示。 | 文本 |
 | **`channel`** | 在[网站部分](/help/components/dimensions/site-section.md)维度中使用的变量。 | varchar(100) |
-| **`click_action`** | 已不再使用。在旧版 Clickmap 工具中点击的链接地址。 | varchar(100) |
-| **`click_action_type`** | 已不再使用。旧版 Clickmap 工具的链接类型。<br>0：HREF URL<br>1：自定义 ID<br>2：JavaScript onClick 事件<br>3：表单元素 | 无符号 tinyint |
-| **`click_context`** | 已不再使用。发生链接点击的页面名称。包含在旧版 ClickMap 工具中。 | varchar(255) |
+| **`click_action`** | 已不再使用。在旧版ClickMap工具中单击的链接地址。 | varchar(100) |
+| **`click_action_type`** | 已不再使用。旧版ClickMap工具的链接类型。<br>0：HREF URL<br>1：自定义 ID<br>2：JavaScript onClick 事件<br>3：表单元素 | 无符号 tinyint |
+| **`click_context`** | 已不再使用。发生链接点击的页面名称。旧版ClickMap工具的一部分。 | varchar(255) |
 | **`click_context_type`** | 已不再使用。指示 `click_context` 是使用了页面名称，还是默认使用了页面 URL。<br>0：页面 URL<br>1：页面名称 | 无符号 tinyint |
-| **`click_sourceid`** | 已不再使用。页面上点击链接的位置所对应的数字 ID。包含在旧版 ClickMap 工具中。 | 无符号 int |
+| **`click_sourceid`** | 已不再使用。页面上点击链接的位置所对应的数字 ID。旧版ClickMap工具的一部分。 | 无符号 int |
 | **`click_tag`** | 已不再使用。已点击的 HTML 元素的类型。 | char(10) |
 | **`clickmaplink`** | Activity Map 链接 | varchar(255) |
 | **`clickmaplinkbyregion`** | Activity Map 链接（按地区） | varchar(255) |
@@ -61,7 +61,7 @@ ht-degree: 100%
 | **`curr_factor`** | 确定货币的小数位，用于货币兑换。例如，美元使用两个小数位，因此该列的值为 2。 | tinyint |
 | **`curr_rate`** | 交易时的汇率。Adobe 与 XE 合作，以确定当天的汇率。 | decimal(24,12) |
 | **`currency`** | 交易过程中使用的货币代码。 | char(8) |
-| **`cust_hit_time_gmt`** | 仅限启用了时间戳的报表包。随点击发送的时间戳（基于 Unix 时间）。 | int |
+| **`cust_hit_time_gmt`** | 仅限启用了时间戳的报表包。随点击发送的时间戳，基于UNIX®时间。 | int |
 | **`cust_visid`** | 如果设置了自定义访客 ID，此 ID 会填充到该列中。 | varchar(255) |
 | **`daily_visitor`** | 确定点击是否为新的每日访客的标记。 | 无符号 tinyint |
 | **`dataprivacyconsentoptin`** | [同意管理选择加入](/help/components/dimensions/cm-opt-in.md)维度中使用的变量。每次点击可以出现多个值，各个值之间用竖线 (`\|`) 隔开。有效值包括 `DMP` 和 `SELL`。 | varchar(100) |
@@ -80,17 +80,17 @@ ht-degree: 100%
 | **`first_hit_ref_domain`** | 在[原始反向链接域](/help/components/dimensions/original-referring-domain.md)维度中使用的变量。基于 `first_hit_referrer`。访客首次访问的反向链接域。 | varchar(100) |
 | **`first_hit_ref_type`** | 表示访客使用的第一个反向链接的反向链接类型的数值 ID。使用 `referrer_type.tsv` 查找。 | 无符号 tinyint |
 | **`first_hit_referrer`** | 访客访问的第一个反向链接 URL。 | varchar(255) |
-| **`first_hit_time_gmt`** | 访客第一次点击的时间戳（基于 Unix 时间）。 | int |
+| **`first_hit_time_gmt`** | 访客第一次点击的时间戳(UNIX®时间)。 | int |
 | **`geo_city`** | 根据 IP 地址判断的点击来源城市的名称。在[城市](/help/components/dimensions/cities.md)维度中用到。 | char(32) |
 | **`geo_country`** | 根据 IP 地址判断的点击来源国家/地区的缩写。在[国家/地区](/help/components/dimensions/countries.md)维度中使用它。 | char(4) |
 | **`geo_dma`** | 根据 IP 地址判断的点击来源人口统计区的数值 ID。在[美国 DMA](/help/components/dimensions/us-dma.md) 维度中用到。 | 无符号 int |
 | **`geo_region`** | 根据 IP 地址判断的点击来源省/市/自治区或区域的名称。在[地区](/help/components/dimensions/regions.md)维度中用到。 | char(32) |
-| **`geo_zip`** | 根据 IP 地址判断的点击来源的邮政编码。有助于填充[邮编](/help/components/dimensions/zip-code.md)维度。另请参阅 `zip`。 | varchar(16) |
+| **`geo_zip`** | 点击来自的邮政编码（基于IP）。 有助于填充[邮编](/help/components/dimensions/zip-code.md)维度。另请参阅 `zip`。 | varchar(16) |
 | **`hier1 - hier5`** | 由层级变量使用。包含一个分隔的值列表。在“报表包设置”下方选择分隔符。 | varchar(255) |
-| **`hit_source`** | 表示点击的来源。点击源 1、2 和 6 将计费。<br>1：不带时间戳的标准图像请求<br>2：带有时间戳的标准图像请求<br>3：带有时间戳的实时数据源上载<br>4：未使用<br>5：通用数据源上载<br>6：完全处理数据源上载<br>7：TransactionID 数据源上载<br>8：不再使用；Adobe Advertising Cloud 数据源的以前版本<br>9：不再使用；Adobe Social 概要指标<br>10：使用了 Audience Manager 服务器端转发 | 无符号 tinyint |
-| **`hit_time_gmt`** | Adobe 数据收集服务器收到点击的时间戳，基于 Unix 时间。 | int |
-| **`hitid_high`** | 与 `hitid_low` 配合使用可标识某次点击。 | 无符号 bigint |
-| **`hitid_low`** | 与 `hitid_high` 配合使用可标识某次点击。 | 无符号 bigint |
+| **`hit_source`** | 指示点击的来源。 点击源 1、2 和 6 将计费。<br>1：不带时间戳的标准图像请求<br>2：带有时间戳的标准图像请求<br>3：带有时间戳的实时数据源上载<br>4：未使用<br>5：通用数据源上载<br>6：完全处理数据源上载<br>7：TransactionID 数据源上载<br>8：不再使用；Adobe Advertising Cloud 数据源的以前版本<br>9：不再使用；Adobe Social 概要指标<br>10：使用了 Audience Manager 服务器端转发 | 无符号 tinyint |
+| **`hit_time_gmt`** | 点击Adobe数据收集服务器收到点击的时间戳，基于UNIX®时间。 | int |
+| **`hitid_high`** | 与 `hitid_low` 来识别点击。 | 无符号 bigint |
+| **`hitid_low`** | 与 `hitid_high` 来识别点击。 | 无符号 bigint |
 | **`homepage`** | 已不再使用。指示当前的 URL 是否是浏览器的主页。 | char(1) |
 | **`hourly_visitor`** | 确定点击是否为新的每小时访客的标记。 | 无符号 tinyint |
 | **`ip`** | IPv4 地址，基于图像请求的 HTTP 标头。与 `ipv6` 互斥；如果此列包含未进行模糊处理的 IP 地址，则 `ipv6` 为空白。 | char(20) |
@@ -100,9 +100,9 @@ ht-degree: 100%
 | **`java_enabled`** | 表示 Java 是否已启用的标记。<br>Y：启用<br>N：禁用<br>U：未知 | char(1) |
 | **`javascript`** | JavaScript 版本的查找 ID，基于 `j_jscript`。使用查询表。 | 无符号 tinyint |
 | **`language`** | 语言的数值 ID。使用 `languages.tsv` 查询表。 | 无符号 smallint |
-| **`last_hit_time_gmt`** | 上次点击的时间戳（以 Unix 时间表示）。用于计算[上次访问后天数](/help/components/dimensions/days-since-last-visit.md)维度。 | int |
+| **`last_hit_time_gmt`** | 上一次点击的时间戳(UNIX®时间)。 用于计算[上次访问后天数](/help/components/dimensions/days-since-last-visit.md)维度。 | int |
 | **`last_purchase_num`** | 在[客户忠诚度](/help/components/dimensions/customer-loyalty.md)维度中使用的变量。访客以前购买的次数。<br>0：之前没有购买（不是客户）<br>1：1 次先前购买（新客户）<br>2：2 次先前购买（退货客户）<br>3：3 次或更多先前购买（忠诚客户） | 无符号 int |
-| **`last_purchase_time_gmt`** | 在[上次购买后天数](/help/components/dimensions/days-since-last-purchase.md)维度中用到。上次购买的时间戳（以 Unix 时间表示）。对于首次购买和以前未购买过的访客，此值为 `0`。 | int |
+| **`last_purchase_time_gmt`** | 在[上次购买后天数](/help/components/dimensions/days-since-last-purchase.md)维度中用到。上次购买的时间戳(UNIX®时间)。 对于首次购买和以前未购买过的访客，此值为 `0`。 | int |
 | **`latlon1`** | 位置（精确到 10 千米） | varchar(255) |
 | **`latlon23`** | 位置（精确到 100 米） | varchar(255) |
 | **`latlon45`** | 位置（精确到 1 米） | varchar(255) |
@@ -129,8 +129,8 @@ ht-degree: 100%
 | **`mobiledayssincelastuse`** | 距应用程序上次运行的间隔天数。 | varchar(255) |
 | **`mobiledeeplinkid`** | 从上下文数据变量 `a.deeplink.id` 收集。在客户获取报表中用作移动客户获取链接的标识符。 | varchar(255) |
 | **`mobiledevice`** | 移动设备名称。在 iOS 上，该变量存储为用逗号分隔的 2 位数的字符串。第一个数字表示设备是第几代的，而另一个数字则表示设备所属的系列。 | varchar(255) |
-| **`mobilehourofday`** | 确定应用程序启动的具体时间。采用 24 小时数字格式。 | varchar(255) |
-| **`mobileinstalldate`** | 移动设备安装日期。表示用户首次打开移动设备应用程序的日期。 | varchar(255) |
+| **`mobilehourofday`** | 定义应用程序在一天中启动的小时。 采用 24 小时数字格式。 | varchar(255) |
+| **`mobileinstalldate`** | 移动设备安装日期。提供用户首次打开移动设备应用程序的日期。 | varchar(255) |
 | **`mobilelaunchessincelastupgrade`** | 已停用 – 从上下文数据变量 a.LaunchesSinceUpgrade 收集。报告自上次升级以来的启动次数。 | varchar(255) |
 | **`mobilelaunchnumber`** | 应用程序每启动一次，该变量值便会递增。 | varchar(255) |
 | **`mobileltv`** | 已不再使用。由 trackLifetimeValue 方法填充。 | varchar(255) |
@@ -145,7 +145,7 @@ ht-degree: 100%
 | **`mobileplacecategory`** | 从上下文数据变量 `a.loc.category` 收集。描述特定位置的类别。 | varchar(255) |
 | **`mobileplaceid`** | 从上下文数据变量 `a.loc.id` 收集。给定目标点的标识符。 | varchar(255) |
 | **`mobilepushoptin`** | Mobile Services Push 选择启用 | varchar(255) |
-| **`mobilepushpayloadid`** | Mobile Services Push 负载 ID | varchar(255) |
+| **`mobilepushpayloadid`** | Mobile Services推送负载ID | varchar(255) |
 | **`mobilerelaunchcampaigncontent`** | Mobile Services 启动内容 | varchar(255) |
 | **`mobilerelaunchcampaignmedium`** | Mobile Services 启动媒介 | varchar(255) |
 | **`mobilerelaunchcampaignsource`** | Mobile Services 启动来源 | varchar(255) |
@@ -153,8 +153,8 @@ ht-degree: 100%
 | **`mobilerelaunchcampaigntrackingcode`** | 从上下文数据变量 `a.launch.campaign.trackingcode` 收集。在客户获取中用作启动促销活动的跟踪代码。 | varchar(255) |
 | **`mobileresolution`** | 移动设备的分辨率。`[Width] x [Height]` 以像素为单位。 | varchar(255) |
 | **`monthly_visitor`** | 表示访客属于当月的独特访客的标记。 | 无符号 tinyint |
-| **`mvvar1`** - `mvvar3` | 列出在当前点击中设置的变量值或从以前的点击保留的变量值。包含分隔的自定义值列表（取决于实施）。`post_mvvar1` - `post_mvvar3` 列将原始分隔符替换为 `--**--`。 | 文本 |
-| **`mvvar1_instances`** - `mvvar3_instances` | 在当前点击上设置的列表变量值。`post_mvvar1_instances` - `post_mvvar3_instances` 列将原始分隔符替换为 `--**--`。 | 文本 |
+| **`mvvar1`** - `mvvar3` | 列出变量值。包含分隔的自定义值列表（取决于实施）。`post_mvvar1` - `post_mvvar3` 列将原始分隔符替换为 `--**--`。 | 文本 |
+| **`mvvar1_instances`** - `mvvar3_instances` | 在当前点击上设置的列表变量值。将原始分隔符替换为 `--**--`. 没有 `post` 列。 | 文本 |
 | **`namespace`** | 未使用。属于某个已弃用的功能。 | varchar(50) |
 | **`new_visit`** | 确定当前点击是否为新访问的标记。在访问处于不活动状态 30 分钟后，由 Adobe 服务器设置。 | 无符号 tinyint |
 | **`os`** | 表示访客的操作系统的数值 ID。基于 `user_agent` 列。使用 `os` 查找。 | 无符号 int |
@@ -187,7 +187,7 @@ ht-degree: 100%
 | **`s_kwcid`** | Adobe Advertising 集成中使用的关键词 ID。 | varchar(255) |
 | **`s_resolution`** | 原始屏幕分辨率值。使用 JavaScript 函数 `screen.width x screen.height` 收集而得。 | char(20) |
 | **`search_engine`** | 表示将访客引向您的网站的搜索引擎的数值 ID。使用 `search_engines.tsv` 查找。 | 无符号 smallint |
-| **`search_page_num`** | 供[所有搜索网页排名](/help/components/dimensions/all-search-page-rank.md)维度使用。指示用户在点击进入您的网站之前您的网站出现在搜索结果的哪一页。 | 无符号 smallint |
+| **`search_page_num`** | 供[所有搜索网页排名](/help/components/dimensions/all-search-page-rank.md)维度使用。指示用户点击进入您的网站之前，您的网站显示了搜索结果的哪个页面。 | 无符号 smallint |
 | **`secondary_hit`** | 跟踪次级点击的标志。一般来自多包标记和复制点击的 VISTA 规则。 | 无符号 tinyint |
 | **`service`** | 未使用。请改用 `page_event`。 | char(2) |
 | **`socialaccountandappids`** | 已不再使用。社交帐户和应用程序 ID | varchar(255) |
@@ -275,10 +275,10 @@ ht-degree: 100%
 | **`videoshow`** | 视频表演 | varchar(255) |
 | **`videoshowtype`** | 视频表演类型 | varchar(255) |
 | **`videostreamtype`** | 视频流类型 | varchar(255) |
-| **`visid_high`** | 与 `visid_low` 配合使用以唯一地标识某位访客。 | 无符号 bigint |
-| **`visid_low`** | 与 `visid_high` 配合使用以唯一地标识某位访客。 | 无符号 bigint |
+| **`visid_high`** | 与 `visid_low` 以唯一标识访客。 | 无符号 bigint |
+| **`visid_low`** | 与 `visid_high` 以唯一标识访客。 | 无符号 bigint |
 | **`visid_new`** | 用于表示点击是否包含新生成的访客 ID 的标记。 | char(1) |
-| **`visid_timestamp`** | 如果访客 ID 是新生成的，则会提供用于表示访客 ID 生成时间的时间戳（基于 Unix 时间）。 | int |
+| **`visid_timestamp`** | 如果访客ID是新生成的，则会提供生成访客ID的时间戳(在UNIX®时间内)。 | int |
 | **`visid_type`** | 不能用于外部用途；Adobe 内部用于处理优化。数字 ID，表示用于标识访客的方法。<br>`0`：自定义访客 ID 或未知/不适用<br>`1`：IP 和用户代理回退<br>`2`：HTTP 移动订户标头<br>`3`：旧版 Cookie 值 (`s_vi`)<br>`4`：回退 Cookie 值 (`s_fid`)<br>`5`：身份服务 | 无符号 tinyint |
 | **`visit_keywords`** | 在[搜索关键词](/help/components/dimensions/search-keyword.md)维度中使用的变量。此列使用 varchar(244) 的非标准字符限制容纳 Adobe 使用的后端逻辑。 | varchar(244) |
 | **`visit_num`** | 在[访问编号](/help/components/dimensions/visit-number.md)维度中使用的变量。起始值为 1，每当每个访客开始新的访问时，此项就会递增。 | 无符号 int |
@@ -289,7 +289,7 @@ ht-degree: 100%
 | **`visit_search_engine`** | 表示访问中使用的第一个搜索引擎的数值 ID。使用 `search_engines.tsv` 查找。 | 无符号 smallint |
 | **`visit_start_page_url`** | 访问中的第一个 URL。 | varchar(255) |
 | **`visit_start_pagename`** | 访问中首次点击的“页面名称”值。 | varchar(100) |
-| **`visit_start_time_gmt`** | 访问中首次点击的时间戳（基于 Unix 时间）。 | int |
+| **`visit_start_time_gmt`** | 访问中首次点击的时间戳(UNIX®时间)。 | int |
 | **`weekly_visitor`** | 确定点击是否为新的每周访客的标记。 | 无符号 tinyint |
 | **`yearly_visitor`** | 确定点击是否为新的每年访客的标记。 | 无符号 tinyint |
 | **`zip`** | 有助于填充[邮编](/help/components/dimensions/zip-code.md)维度。另请参阅 `geo_zip`。 | varchar(50) |
