@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
 user-guide-description: 了解各种实施 Adobe Analytics 的方法。自定义收集什么数据以充分利用 Analytics 数据。
-source-git-commit: e46b15eedda78303e6e29faceea6db8483eee277
-workflow-type: ht
-source-wordcount: '407'
+source-git-commit: 9a16cd89b2d650098495902cca5c5229df48b475
+workflow-type: tm+mt
+source-wordcount: '410'
 ht-degree: 100%
 
 ---
@@ -127,6 +127,7 @@ ht-degree: 100%
    + [集成模块](vars/integrate.md)
 + 准备实施 Adobe Analytics {#prepare}
    + [创建数据层](prepare/data-layer.md)
+   + [比较实施方法](prepare/comparison.md)
    + [全局报告包注意事项](prepare/global-rs.md)
    + [实施多包标记](prepare/multi-suite-tagging.md)
    + [创建解决方案设计文档](prepare/solution-design.md)
