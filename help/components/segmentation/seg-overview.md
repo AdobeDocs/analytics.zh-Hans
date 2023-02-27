@@ -1,18 +1,18 @@
 ---
-description: 您可以使用区段根据特性或网站交互来确定访客子集。区段是作为可编码的受众分析而设计的，您可以针对特定的需求生成区段，然后验证、编辑和与其他团队成员共享或在其他 Adobe 产品和 Analytics 功能中使用。
+description: 通过区段，可根据特性或网站交互标识访客的子集。区段是作为可编码的受众分析而设计的，您可以针对特定的需求生成区段，然后验证、编辑和与其他团队成员共享或在其他 Adobe 产品和 Analytics 功能中使用。
 title: 关于区段
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: 14c5acb9dbd46fac3dc2465c1200b478853270e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1173'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # 关于区段
 
-您可以使用区段根据特性或网站交互来确定访客子集。区段被设计为受众分析，您可以根据特定需求构建这些分析，然后验证、编辑和与其他团队成员共享，或在其他Adobe产品和Analytics功能中使用。
+通过区段，可根据特性或网站交互标识访客的子集。区段被设计为受众见解，您可根据自己的特定需求生成区段，然后验证、编辑区段和与其他团队成员共享区段或在其他 Adobe 产品和 Analytics 功能中使用区段。
 
 区段基于使用嵌套容器模型的[!UICONTROL 访客]、[!UICONTROL 访问]和[!UICONTROL 点击]级别层次结构。您可以使用嵌套容器根据各容器之间和容器内的规则定义访客属性和操作。可在 [!DNL Adobe Experience Cloud] 的多个产品和功能中生成、批准、共享、保存和运行 Analytics 区段。区段可通过报表生成、可内建于功能板报表中，或添加书签以便快速访问。
 
@@ -41,21 +41,21 @@ ht-degree: 86%
 * 您可以通过[区段管理器](/help/components/segmentation/segmentation-workflow/seg-workflow.md)中的区段共享、标记、验证和批准功能，来设置[工作流程](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
 * 可[为区段加标签](/help/components/segmentation/segmentation-workflow/seg-workflow.md)代替使用文件夹以稍后整理和搜索。
 * 可创建[顺序区段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)。
-* 的 [!UICONTROL 页面查看] 容器现在为 [!UICONTROL 点击] 容器来指示此容器可分段所有类型的数据，而不仅仅是页面查看。 例如，点击容器完全包含或排除链接跟踪调用和移动 SDK 中的 trackAction 调用。
+* [!UICONTROL 页面查看]容器现在改名为[!UICONTROL 点击]容器，以指示此容器为所有类型的数据而非仅为页面查看分段。例如，点击容器完全包含或排除链接跟踪调用和移动 SDK 中的 trackAction 调用。
 
-## Analysis Workspace中的分段
+## Analysis Workspace 中的分段
 
-Analysis Workspace包含以下其他功能：
+Analysis Workspace 包含以下附加功能：
 
 * 您可以[比较区段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=zh-Hans)。
 * 在比较中使用[区段作为维度](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)。
 * 在[流失分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html?lang=zh-Hans)中使用区段。
 
-## Adobe提供的区段
+## Adobe 提供的区段
 
-屏幕左侧的“组件”边栏显示您和您的公司创建的区段，以及开箱即用提供的Adobe区段。 单击 **[!UICONTROL 显示全部]**，则这些区段通常显示在列表底部，并由右侧的Adobe徽标标识。 这是Adobe提供的区段的部分列表：
+屏幕左侧的组件边栏显示由您和您的公司创建的区段以及现成的 Adobe 区段。当您单击&#x200B;**[!UICONTROL 显示所有]**&#x200B;时，一般将在列表的底部出现这些区段，并通过右侧的 Adobe 徽标标识这些区段。这是 Adobe 提供的区段的部分列表：
 
-![Adobe区段](assets/adobe-segs.png)
+![Adobe 区段](assets/adobe-segs.png)
 
 ## 顺序区段 {#sequential}
 
@@ -76,7 +76,7 @@ Analysis Workspace包含以下其他功能：
 
 顺序区段根据使用 [!UICONTROL THEN] 运算符联接的用户操作过滤数据集。
 
-## 如何划分视频 {#segment-video}
+## 分段操作方法视频 {#segment-video}
 
 这段视频简要概述了区段容器是什么及其使用方式：[Adobe Analytics 中的区段容器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=zh-Hans)
 
@@ -122,11 +122,11 @@ Analysis Workspace包含以下其他功能：
 
 可以，管理员可以在 [!DNL Analysis Workspace] 和 [!DNL Reports & Analytics] 用户界面中看到所有区段。
 
-Report Builder显示您拥有的区段以及与您共享的区段。
+Report Builder 显示您拥有的区段以及与您共享的区段。
 
 +++
 
-+++ **我可以在区段管理器中管理所有 Analytics 区段吗？**
++++ **能否在区段管理器中管理所有 Analytics 区段？**
 
 是的，可在 Segment Manager 中管理所有区段。区段管理器显示对所有者（创建区段的用户）、共享用户和管理员用户可见的区段。区段选择器显示用户拥有的区段及与其共享的区段。
 
