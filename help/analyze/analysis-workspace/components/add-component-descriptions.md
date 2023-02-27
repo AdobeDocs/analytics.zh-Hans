@@ -4,15 +4,15 @@ title: 添加组件描述
 feature: Components
 role: Admin
 source-git-commit: fb9be2d52ebe02603a7255b0ff6d5a7c2efdeed7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '78'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
 # 添加组件描述
 
-描述可帮助用户了解在Analysis Workspace中构建项目或查看报表时如何最好地使用各种组件。
+描述帮助用户了解如何在 Analysis Workspace 中构建项目时或在查看报表时最佳地使用各个组件。
 
 Analytics 管理员可以添加组件（维度、量度、区段和日期范围）的描述<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->。
 
