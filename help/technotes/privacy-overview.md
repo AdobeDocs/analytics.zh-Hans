@@ -4,10 +4,10 @@ keywords: 隐私
 title: 隐私概述
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 77e50dec593722855f30c517f63141e84f665519
+source-git-commit: 297269f2ebf88d722eaf21ce8919ce28bb6abdc7
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 96%
+source-wordcount: '759'
+ht-degree: 91%
 
 ---
 
@@ -65,7 +65,7 @@ Adobe Analytics 收集以下数据：
 | 欧洲 | Adobe 启用了设置 IP 模糊处理：对于欧洲、中东和非洲地区使用报告包集的所有客户，默认设置为“已启用 — IP 已删除 (x.x.x.x)”。通过此设置，在地理查询后 IP 地址将由值 (x.x.x.x) 完全取代，且不再可作为数据点使用。这个基本替换方法无法通过实施反向工程返回一个唯一的特定 IP 地址。客户或 Adobe 均无法访问该 IP 地址，该 IP 地址已经过不可逆转的匿名化处理。有关其他 IP 混淆设置的详细信息，请参阅管理员用户指南中的[常规帐户设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)。 |
 | 全球 | 客户可以在 JavaScript 指标代码中将 Cookie 持续时间变量设置为“none”、“session”值，或其他以秒为单位的特定值。 |
 | 欧洲 | Adobe 制定了新的“从设计着手保护隐私”设置，Adobe ClientCare 为 Adobe Analytics（以前称为 SiteCatalyst）发布版本 14.9 和 15.4 启用了此设置。启用这一新设置后，当 Adobe 收集 IP 地址时，该 IP 地址的最后八位字节（最后一部分）会立即被 0 值取代。在对 IP 地址进行任何处理之前，包括在对 IP 地址进行可选地理查询和 ISP 查询之前，会执行此匿名化操作。 |
-| 德国 | 如果您尚未与 Adobe 就 Adobe Analytics 签订数据处理协议 (Data Processing Agreement)，则应与 Adobe 客户经理或客户成功经理取得联系，他们会与 Adobe 法律部合作，协助签订 DPA。 |
+| 德国 | 如果您尚未与Adobe签订适用于Adobe Analytics的数据处理协议，则应与Adobe客户团队联系，他们将会与Adobe法律部合作，以获取DPA。 |
 
 ## EMEA数据中心位置 {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
 
@@ -73,4 +73,4 @@ Adobe Analytics 收集以下数据：
 
 | Adobe 名称 | 地址 | 设备类型（运营商） | 支持的解决方案组件 | 证书 |
 |--- |--- |--- |--- |--- |
-| LON5 | 3 Centro  Boundary Way Hemel Hempstead HP2 7SU UK | Colocation Facility(Gyron) | 多渠道分析， Digital Analytics | SSAE 16 |
+| LON5 | 3 Centro  Boundary Way Hemel Hempstead HP2 7SU UK | Colocation Facility (Gyron) | 多渠道分析、数字分析 | SSAE 16 |

@@ -3,10 +3,10 @@ description: 如果您从现有的报表包中复制了设置，则会有一条�
 title: 未从源报表包复制的设置
 feature: Report Suite Settings
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: ht
+source-git-commit: 297269f2ebf88d722eaf21ce8919ce28bb6abdc7
+workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA 规则 </p> </td> 
-   <td colname="col2"> <p>联系您的客户成功经理以便与工程技术服务团队接触。 </p> </td> 
+   <td colname="col2"> <p>联系您的Adobe客户团队以联系工程技术服务。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
