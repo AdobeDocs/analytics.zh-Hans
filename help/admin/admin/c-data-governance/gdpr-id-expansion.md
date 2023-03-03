@@ -3,10 +3,10 @@ description: 您提交的 ID 并不总是涵盖 Analytics 可将其与“数据�
 title: ID 扩展
 feature: Data Governance
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
+source-git-commit: 02d0baee99ad2ea5966788f036644d3e3780016e
 workflow-type: tm+mt
 source-wordcount: '1351'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -59,4 +59,4 @@ ht-degree: 100%
 
 您还应该了解，对于任何因提交数据隐私删除请求后而删除其点击（已更新或匿名）的访客，其状态信息都将会进行重置。这样该访客下次返回您的网站时，将会成为新访客。所有 eVar 归因都将重新开始，访问次数、反向链接、访问的第一个页面等信息也都将重新统计。对于要清除数据字段的情况，这种结果不尽如人意，因此突显了隐私服务 API 不适合此用途的一个原因。
 
-请联系您的客户经理 (CSM) 以与我们的工程架构师咨询团队进行协调，以进行进一步审查并提供移除任何 PII 或解决数据问题的帮助。
+请联系您的Adobe客户团队以与我们的工程架构师咨询团队进行协调，以进一步检查并提供删除任何PII或解决数据问题的帮助。
