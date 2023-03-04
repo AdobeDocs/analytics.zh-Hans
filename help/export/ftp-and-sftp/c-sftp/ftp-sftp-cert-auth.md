@@ -4,10 +4,10 @@ keywords: ftp;sftp
 title: 在无密码的情况下通过 SFTP 连接到 Adobe
 feature: FTP Export
 exl-id: 7ff9511c-50a2-466f-b5af-6bbd59941ce5
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 1. FTP 帐户已创建 (Adobe)。
 
-   一位 Adobe 代表可创建一个 FTP 帐户（如果没有）。联系您的 Adobe 客户经理或 Adobe 客户关怀以创建帐户。
+   一位 Adobe 代表可创建一个 FTP 帐户（如果没有）。请联系您的Adobe客户团队或Adobe客户关怀团队以创建一个帐户。
 1. 公钥/私钥创建（客户）。
 
    创建公钥和私钥组合。私钥是您的计算机/服务器上私有的文件，并会留存在那里。公钥文件需要上传到 Adobe 帐户。在通过这种方式使用时，您无需密码身份验证即可连接。位于 Adobe 的公钥文件匹配您的计算机/服务器上的私钥文件，并以该方式进行身份验证。

@@ -1,8 +1,8 @@
 ---
-source-git-commit: fb9be2d52ebe02603a7255b0ff6d5a7c2efdeed7
-workflow-type: ht
-source-wordcount: '763'
-ht-degree: 100%
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
+source-wordcount: '822'
+ht-degree: 98%
 
 ---
 # 片段
@@ -63,3 +63,8 @@ ht-degree: 100%
 >
 >本部分描述的功能处于发布的有限测试阶段，因此可能在您的环境中尚不可用。当该功能正式发布时，将删除此说明。有关 Analytics 发布流程的信息，请参阅 [Adobe Analytics 功能发布](/help/release-notes/releases.md)。
 
+## 插件免责声明 {#plug-in}
+
+>[!IMPORTANT]
+>
+>此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要有关此插件的帮助，请与贵组织的Adobe客户团队联系。 他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。

@@ -2,10 +2,10 @@
 title: 基于字段的拼合
 description: 了解使用基于字段的拼合来拼合数据的先决条件和限制。
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 100%
+source-wordcount: '523'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ Cross-Device Analytics 提供了两种截然不同的方法来拼合数据。此
 
 ## 基于字段的拼合的特定先决条件
 
-如果您打算使用基于字段的拼合来实施 Cross-Device Analytics，则需要满足以下条件。请与贵组织内的团队以及 Adobe 客户经理合作，确保满足以下所有条件。
+如果您打算使用基于字段的拼合来实施 Cross-Device Analytics，则需要满足以下条件。请与贵组织内的团队以及Adobe客户团队合作，确保您满足以下所有条件。
 
 >[!WARNING]
 >
@@ -23,7 +23,7 @@ Cross-Device Analytics 提供了两种截然不同的方法来拼合数据。此
 
 * [概述页面](overview.md)中列出了所有先决条件。
 * 您的实施必须设置一个 prop 或 eVar，以便在可能的情况下（例如用户登录或打开电子邮件时）唯一标识个人。这项要求适用于所有平台，包括使用的移动设备应用程序。避免为 prop 或 eVar 分配默认值。
-* 为基于字段的拼合配置所需的标识变量后，请将这些变量告知您的客户经理。
+* 为基于字段的拼合进行配置时，将所需的标识变量传达给您的Adobe客户团队。
 
 ## 基于字段的拼合的特定限制
 

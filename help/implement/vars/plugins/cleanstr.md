@@ -3,20 +3,18 @@ title: cleanStr
 description: 删除或替换字符串中所有不必要的字符。
 feature: Variables
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 79%
+source-wordcount: '300'
+ht-degree: 80%
 
 ---
 
 # Adobe 插件：cleanStr
 
->[!IMPORTANT]
->
->此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
+{{plug-in}}
 
-`cleanStr` 插件可删除或替换字符串中所有不必要的字符，包括 HTML 标记字符、额外的空格、制表符和换行符/回车符。它还会将左/右单引号（`‘` 和 `’`）替换为直单引号 (`'`)。如果您要从变量值中删除不必要的字符，并且Adobe Experience Platform数据收集中的“清理文本”功能无法满足您的实施需求，则Adobe建议使用此插件。 如果收集的数据不包含不必要的字符，或者Adobe Experience Platform数据收集中的“清理文本”功能足够，则无需使用此插件。
+`cleanStr` 插件可删除或替换字符串中所有不必要的字符，包括 HTML 标记字符、额外的空格、制表符和换行符/回车符。它还会将左/右单引号（`‘` 和 `’`）替换为直单引号 (`'`)。如果您想要从变量值中删除不必要的字符，并且Adobe Experience Platform数据收集中的“清理文本”功能无法满足您的实施需求，则Adobe建议使用此插件。 如果收集的数据不包含不必要的字符，或者Adobe Experience Platform数据收集中的“清理文本”功能足以满足需求，则无需使用此插件。
 
 <!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
@@ -38,7 +36,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
 1. 展开[!UICONTROL 使用自定义代码配置跟踪]折叠面板，这会显示[!UICONTROL 打开编辑器]按钮。

@@ -3,10 +3,10 @@ description: 使用“计费”页可以访问计费信息，包括每个报表�
 title: 计费
 feature: Admin Tools
 exl-id: cea802e4-99c4-491e-99c2-8476870001f7
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
-source-wordcount: '503'
-ht-degree: 100%
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
+source-wordcount: '504'
+ht-degree: 91%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->如果对贵公司禁用了“计费”选项卡的访问权，请与您的客户经理联系。
+>如果对贵公司禁用了“帐单”选项卡的访问权，请与您的Adobe客户团队联系。
 
 使用“计费”页中的流量摘要数据可将报表中的页面查看数据与您的发票上的计费服务器调用次数关联起来。使用“[!UICONTROL 计费]”页面可执行以下操作：
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->要获取[!UICONTROL 每月发票]报表的工作副本，请将其复制到剪贴板，然后粘贴到电子表格程序，如 Microsoft Excel*。
+>要获取 [!UICONTROL 每月发票] 报表，将其复制到剪贴板，然后粘贴到电子表格程序，如Microsoft Excel&#42;.
 
 ## 报告日期与处理日期 {#section_51A48C2F223F4904BE1407C13333C457}
 

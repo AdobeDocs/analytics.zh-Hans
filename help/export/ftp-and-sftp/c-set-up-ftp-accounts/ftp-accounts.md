@@ -4,10 +4,10 @@ keywords: ftp;sftp
 title: 设置 FTP 帐户 — 概述
 feature: FTP Export
 exl-id: 55f942fe-cb06-43e1-bd3c-57d6786278b7
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -23,6 +23,6 @@ Adobe 客户会通过标准流程收到有关维护事件计划的通知。为�
 * 在 Adobe 传送到 FTP 帐户的数据已被成功传输到系统之后，用户应当删除这些数据。
 * 请在不再需要 FTP 帐户时通知 Adobe，以停用它们。
 
-Adobe FTP 主机名为 [!DNL ftp.omniture.com] 或 [!DNL ftp2.omniture.com]。
+Adobe FTP 主机名为 `ftp.omniture.com` 或 `ftp2.omniture.com`。
 
-该信息连同用户名和密码，应当在 [!UICONTROL Experience Cloud]（对于分类和数据源）中提供，或由负责按照您的请求设置帐户的 Adobe 代表提供。如果您不知道要使用哪个 FTP 地址，请联系您的 Adobe 客户经理，他可为您提供正确的地址。此外，对于分类和数据源帐户，Adobe 不确定会在一天中的哪个具体时段处理 FTP 文件。Adobe 会使用一个可持续轮询 FTP 帐户的脚本，来用于新文件的处理。已上传到这些帐户的文件将得到尽快的处理。
+该信息连同用户名和密码，应当在 [!UICONTROL Experience Cloud]（对于分类和数据源）中提供，或由负责按照您的请求设置帐户的 Adobe 代表提供。如果您不知道要使用哪个FTP地址，请联系您的Adobe客户团队，他们可以提供正确的地址。 此外，对于分类和数据源帐户，Adobe 不确定会在一天中的哪个具体时段处理 FTP 文件。Adobe 会使用一个可持续轮询 FTP 帐户的脚本，来用于新文件的处理。已上传到这些帐户的文件将得到尽快的处理。

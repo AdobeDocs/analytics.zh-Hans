@@ -3,10 +3,10 @@ title: Adobe Analytics 中的行为报表
 description: 了解如何在 Adobe Analytics 中创建行为报表
 feature: Third-party Integration
 exl-id: ea441afa-e595-4ffa-b446-d67e87f8a7c9
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -87,4 +87,4 @@ Google 和 Adobe Analytics 中的事件存在一些主要结构性差异。这�
 
 ## 发行者报表
 
-与 Google 需要通过 Google Ad Manager 建立连接类似，Adobe 提供了一种专门的产品来提供分析，称为 Adobe Advertising Cloud。如果贵组织对使用本产品感兴趣，请联系贵组织的客户经理。
+与 Google 需要通过 Google Ad Manager 建立连接类似，Adobe 提供了一种专门的产品来提供分析，称为 Adobe Advertising Cloud。如果您的组织有兴趣使用此产品，请联系您的Adobe客户团队。

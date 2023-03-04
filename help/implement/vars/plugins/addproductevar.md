@@ -3,18 +3,16 @@ title: addProductEvar
 description: 将推销 eVar 添加到产品变量。
 feature: Variables
 exl-id: 6be94a15-78c9-4cbc-8b33-4a16f1b73b96
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 97%
+source-wordcount: '389'
+ht-degree: 100%
 
 ---
 
 # Adobe 插件：addProductEvar
 
->[!IMPORTANT]
->
->此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
+{{plug-in}}
 
 通过 `addProductEvar` 插件，您轻松地将使用产品语法的 Adobe Analytics 推销 eVar 添加到产品变量中，而不必担心产品变量的现有内容是否会被更改/移动/删除。如果您想轻松地将产品语法推销 eVar 添加到 [`products`](../page-vars/products.md) 变量中，则 Adobe 建议使用此插件。如果不将推销 eVar 与产品语法一起使用，则无需使用 `addProductEvar` 插件。
 
@@ -42,7 +40,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 如果您不想使用插件扩展，则可以使用自定义代码编辑器。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
 1. 展开[!UICONTROL 使用自定义代码配置跟踪]折叠面板，这会显示[!UICONTROL 打开编辑器]按钮。

@@ -3,10 +3,10 @@ title: 自定义事件
 description: 存在自定义事件的点击数。
 feature: Metrics
 exl-id: 9ae3ff53-8634-466a-a9f6-786c1e62c2fa
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -24,6 +24,6 @@ ht-degree: 100%
 * **数字事件**：对 `events` 变量中分配给事件的数值求和。
 * **货币事件**：将货币兑换与当日的汇率进行对比，然后对 `events` 变量中分配给每个点击的数值求和。
 
-可用事件的数量取决于贵组织的 Analytics 合同。大多数使用非传统合同的组织具有 1,000 个可用的自定义事件。如果您不确定有多少自定义事件可供使用，请与贵组织的客户经理联系。
+可用事件的数量取决于贵组织的 Analytics 合同。大多数使用非传统合同的组织具有 1,000 个可用的自定义事件。如果您不确定有多少个自定义事件可供使用，请联系您的Adobe客户团队。
 
 Adobe 强烈建议您在贵组织的[解决方案设计文档](/help/implement/prepare/solution-design.md)中记录使用每个事件的方式。

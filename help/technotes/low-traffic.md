@@ -3,10 +3,10 @@ description: 当报表具有许多唯一值时，Adobe 使用低流量维度项�
 title: Adobe Analytics 中的低流量值
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: 81c7dcea2d42ee8e31140523cd43cdfd001baf28
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 ## 更改唯一限制阈值
 
-默认情况下，阈值限制为 500000 和 1000000 个唯一值。这些限制可以按变量更改。请联系 Adobe 客户关怀或您组织的客户经理以请求此更改。请求更改时，应包括：
+默认情况下，阈值限制为 500000 和 1000000 个唯一值。这些限制可以按变量更改。请联系Adobe客户关怀团队或您的Adobe客户团队，以请求进行此更改。 请求更改时，应包括：
 
 * 报表包 ID
 * 要增加阈值的变量
