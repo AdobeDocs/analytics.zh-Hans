@@ -2,10 +2,10 @@
 title: 客户端提示
 description: 了解客户端提示将如何逐渐取代 User-Agent 作为设备信息的来源。
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 58937630e6173013b622deec0433ef67b483c483
+source-git-commit: 3b1777d48d4661a558b5be2cb09b822bf349ee76
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 98%
+source-wordcount: '1279'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,7 @@ Google 将 User-Agent 客户端提示分为两类：低熵提示和高熵提示�
 
 从 2022 年 10 月开始，Chromium 浏览器的新版本已开始“冻结”在 User-Agent 字符串中表示的操作系统版本。操作系统版本是高熵提示，因此要保证报告中操作系统版本的准确无误，必须配置收藏集库以使其收集这些高熵提示。User-Agent 的其他设备信息逐渐将被冻结，需要客户端提示以保持设备报告准确性。
 
-从2023年2月27日开始，并于2023年3月2日结束，客户端提示将纳入Analytics设备查找流程中。 AppMeasurement 和 Web SDK 目前都支持收集提示数据，但直到 2 月中旬才会用于设备查找。如下所述，操作系统版本已从 10 月开始冻结，但由于逐步推出以及许多用户代理已提高冻结的操作系统版本（有关更多信息，请参见[此处](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hans)），我们估计这将影响不到 3% 的 Chrome 访客。
+从2023年2月27日开始，客户端提示将纳入Analytics设备查找过程，并将于2023年3月2日结束。 AppMeasurement 和 Web SDK 目前都支持收集提示数据，但直到 2 月中旬才会用于设备查找。如下所述，操作系统版本已从 10 月开始冻结，但由于逐步推出以及许多用户代理已提高冻结的操作系统版本（有关更多信息，请参见[此处](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hans)），我们估计这将影响不到 3% 的 Chrome 访客。
 
 >[!NOTE]
 >
@@ -53,6 +53,8 @@ AAM 需要收集高熵提示以保留完整功能。 如果您正在使用[服�
 
 目前还不可以。 您可以选择收集所有高熵提示，或者都不收集。
 
+请注意，当前未收集fullVersionList，因为浏览器主要版本被捕获为低熵提示。
+
 +++
 
 +++**各种客户端提示值表示什么？**
@@ -64,15 +66,14 @@ AAM 需要收集高熵提示以保留完整功能。 如果您正在使用[服�
 | Sec-CH-UA | 浏览器和重要版本 | 低 | `"Google Chrome 84"` |
 | Sec-CH-UA-Mobile | 移动设备类型（true 或 false） | 低 | `true` |
 | Sec-CH-UA-Platform | 操作系统/平台 | 低 | `"Android"` |
-| Sec-CH-UA-Arch | 网站架构 | 高 | `"arm"` |
-| Sec-CH-UA-Bitness | 架构位 | 高 | `"64"` |
-| Sec-CH-UA-Full-Version | 浏览器的完整版本 | 高 | `"84.0.4143.2"` |
-| Sec-CH-UA-Full-Version-List | 品牌及其版本的列表 | 高 | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
-| Sec-CH-UA-Model | 设备型号 | 高 | `"Pixel 3"` |
-| Sec-CH-UA-Platform-Version | 操作系统/平台版本 | 高 | `"10"` |
+| 架构 | 网站架构 | 高 | `"arm"` |
+| 位数 | 架构位 | 高 | `"64"` |
+| fullVersionList | 品牌及其版本的列表 | 高 | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
+| model | 设备型号 | 高 | `"Pixel 3"` |
+| 平台版本 | 操作系统/平台版本 | 高 | `"10"` |
 
 * 通过请求头收集底熵提示。
-* 高熵提示通过 JavaScript 收集并通过查询字符串参数值传递。 查询字符串参数使用 `h.` 作为图像请求中的前缀。
+* 高熵提示通过 JavaScript 收集并通过查询字符串参数值传递。 查询字符串参数使用 `h.` 作为图像请求中的前缀。请注意，当前未收集fullVersionList，因为浏览器主要版本被捕获为低熵提示。
 
 高熵提示通过 JavaScript 调用收集并通过查询参数传递
 
