@@ -5,10 +5,10 @@ title: 计划项目
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: bf9f04ce6ff057ca66bcf0d9cf66540cea160444
-workflow-type: ht
-source-wordcount: '658'
-ht-degree: 100%
+source-git-commit: 74d4127ccb9ff2837ab5b17c8237aa4604378485
+workflow-type: tm+mt
+source-wordcount: '622'
+ht-degree: 96%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 | [!UICONTROL 所有者] | 创建并拥有此项目的人。 |
 | [!UICONTROL 标记] | （可选）标记是一种用于排列项目的好方法。 所有用户均可创建标记，并将一个或多个标记应用到项目。 但是，您只能查看自己拥有或者与您共享的项目的标记。 |
 | [!UICONTROL 投放到] | 接收此计划项目的人。 |
-| [!UICONTROL 到期日期] | 默认到期日期取决于计划频率。请参阅下方的“计划项目到期日期”。 |
+| [!UICONTROL 到期日期] | 对于任何计划项目频率，您最多可以将到期日期设置为将来1年。 |
 | [!UICONTROL 频率] | 您希望将此计划项目发送给收件人的频率。 |
 | [!UICONTROL 执行时间] | 在一天中发送此计划项目的时间。 |
 | [!UICONTROL 查询次数] | 查询此项目的次数。 |
@@ -78,12 +78,3 @@ ht-degree: 100%
 | **[!UICONTROL 查看计划 ID]** | 导航到右上方的列选项，并将“计划 ID”列添加到表中。计划 ID 通常对调试有用。 |
 
 计划项目管理器可显示特定用户已创建的项目。若应用程序中禁用此用户帐户，则会停止所有计划的提交。可以在&#x200B;**管理员 > Analytics 用户和资产 > 转移资产**&#x200B;下将计划项目所有权&#x200B;**转移**&#x200B;给新用户。
-
-## 计划项目到期日期
-
-计划项目的到期日期取决于计划的投放频率：
-
-* 每小时投放在一周后到期。
-* 每日投放在一个月后到期。
-* 每周投放在 6 个月后到期。
-* 每月/每年投放在一年后到期。

@@ -4,10 +4,10 @@ description: Analysis Workspace 是 Adobe Analytics 的首要分析工具。从�
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 8c4c5e2a0149f720f9ae2d5dac95be8d2e8894e8
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 94%
+source-wordcount: '553'
+ht-degree: 70%
 
 ---
 
@@ -21,23 +21,27 @@ Analysis Workspace 是一款通过浏览器即可使用的灵活工具，可让�
 
 ## 登录 Adobe Analytics {#login}
 
-要开始使用 Analysis Workspace，请前往 [experience.adobe.com/analytics](https://experience.adobe.com/analytics) 登录 Adobe Analytics。如果此前未选择特定项目，您将登录到 Workspace 项目列表主页。
+要开始使用 Analysis Workspace，请前往 [experience.adobe.com/analytics](https://experience.adobe.com/analytics) 登录 Adobe Analytics。如果之前未选择特定项目，您将登录到“项目”页面。
 
-![](assets/login-analytics.png)
+![](assets/create-new-project.png)
 
 ## 使用培训教程 {#training-tutorial}
 
-登录后，您的第一站应该是“Analysis Workspace 培训教程”，该教程将指导您逐步了解在 Workspace 中构建第一个分析时通常会用到的术语和步骤。要开始教程，请单击&#x200B;**[!UICONTROL 新建项目]**，然后在新项目模式中选择&#x200B;**“培训教程”**。
+登录后，您的第一站可以是Analysis Workspace培训教程模板。 它将指导您逐步了解在Workspace中构建第一个分析的常用术语和步骤。 要开始教程，请执行以下操作：
+
+1. 单击 **[!UICONTROL 学习]** 选项卡。
+1. 单击 **[!UICONTROL 打开教程]**.
 
 ![](assets/training-tutorial.png)
 
 ## 创建新项目 {#new-project}
 
-完成教程后，您就可以开始构建您的第一个项目。**“新项目模式”**&#x200B;提供了多种不同选项来开始您的分析。您可以选择从空白项目或[空白移动记分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=zh-Hans)开始，具体取决于您计划从浏览器还是从 Adobe Analytics 功能板移动应用程序共享您的分析。
+完成本教程后，您便可以开始构建第一个项目。 在 [!UICONTROL 项目] 选项卡，您可以选择从以下位置开始
 
-![](assets/create-new-project.png)
+* [!UICONTROL 空白项目] 如果您计划从浏览器共享您的分析，或者
+* [[!UICONTROL 空白移动记分卡]](/help/analyze/mobile-app/curator.md)，如果您计划从Customer Journey Analytics功能板移动应用程序共享您的分析。
 
-您还可以从预建&#x200B;**“模板”**&#x200B;开始分析，这些模板可以是 Adobe 提供的标准模板，也可以是您的组织创建的自定义模板。根据您所考虑的分析或用例，有多个不同的模板可用。 [了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hans)关于可用的不同模板选项。
+您还可以从预建&#x200B;**“模板”**&#x200B;开始分析，这些模板可以是 Adobe 提供的标准模板，也可以是您的组织创建的自定义模板。根据您所考虑的分析或用例，有多种不同的模板可供使用。 您现在可以在 [!UICONTROL 报告] 选项卡。
 
 ## 构建分析 {#analysis}
 
@@ -51,7 +55,7 @@ Analysis Workspace 是一款通过浏览器即可使用的灵活工具，可让�
 
 ### 可视化图表
 
-**可视化图表**，如条形图或折线图，可用于直观地将数据呈现出来。 在最左侧的边栏中，选择中间的&#x200B;**[!UICONTROL 可视化图表]**&#x200B;图标，以查看所有可用的[可视化图表](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hans)。
+**可视化图表**（例如条形图或折线图）可用于直观地将数据呈现出来。 在最左侧的边栏中，选择中间的&#x200B;**[!UICONTROL 可视化图表]**&#x200B;图标，以查看所有可用的[可视化图表](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hans)。
 
 ![](assets/build-visualizations.png)
 
