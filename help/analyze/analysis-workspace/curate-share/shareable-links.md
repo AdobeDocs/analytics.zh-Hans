@@ -5,22 +5,30 @@ title: 创建可共享链接
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
-workflow-type: ht
-source-wordcount: '298'
-ht-degree: 100%
+source-git-commit: 8935f71e52e2486fc1fd8562a31dbd18d69fd18d
+workflow-type: tm+mt
+source-wordcount: '333'
+ht-degree: 81%
 
 ---
 
 # 创建可共享链接
 
-Analysis Workspace 提供了多种将项目共享给用户的方法，包括能够获得指向项目或项目特定部分的链接。对于大多数类型的链接，收到链接的用户需要先登录 Adobe Analytics，然后才能进入项目。
+Analysis Workspace 提供了多种将项目共享给用户的方法，包括能够获得指向项目或项目特定部分的链接。某些链接类型要求收件人先登录Adobe Analytics才能访问项目，而其他链接类型则不需要。
 
 ## 获取项目链接 {#project-link}
 
 要共享指向完整项目的链接，请转到&#x200B;**[!UICONTROL 共享 > 获取项目链接]**。如果没有为链接的收件人分配[项目角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans)，则管理员将获得&#x200B;**[!UICONTROL 可以编辑]**&#x200B;体验，非管理员将获得&#x200B;**[!UICONTROL 可以复制]**&#x200B;体验。
 
 ![](assets/get-project-link.png)
+
+## 获取公共链接
+
+{{release-limited-testing-section}}
+
+您可以与无权访问Analysis Workspace的用户共享指向Adobe Analytics项目的仅查看链接。
+
+有关更多信息，请参阅文章中的“与任何人共享公共链接（无需登录）” [共享项目](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
 ## 获取面板或可视化图表链接 {#panel-link}
 

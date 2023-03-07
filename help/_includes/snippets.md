@@ -1,5 +1,5 @@
 ---
-source-git-commit: ae5571dc1c2c7107dc3ab7368f4616533b190d5f
+source-git-commit: 7f8fdceaaac1d9384e108660c09010bfdc1472b2
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 92%
@@ -68,3 +68,4 @@ ht-degree: 92%
 >[!IMPORTANT]
 >
 >此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要有关此插件的帮助，请与贵组织的Adobe客户团队联系。 他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
+

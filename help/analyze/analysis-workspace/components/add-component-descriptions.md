@@ -1,12 +1,12 @@
 ---
-description: 管理员可以使用“报告包”或“数据词典”添加组件的描述。
+description: 管理员可以使用任一报表包为组件添加描述。
 title: 添加组件描述
 feature: Components
 role: Admin
-source-git-commit: fb9be2d52ebe02603a7255b0ff6d5a7c2efdeed7
-workflow-type: ht
-source-wordcount: '78'
-ht-degree: 100%
+source-git-commit: a8605f6c3077a625d6936b4ba9e135dc35c99439
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 85%
 
 ---
 

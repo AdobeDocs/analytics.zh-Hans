@@ -5,14 +5,37 @@ title: 共享项目
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
-workflow-type: ht
-source-wordcount: '1132'
-ht-degree: 100%
+source-git-commit: ec3539389ab3aa9589e15e14f19b6f34d57a15a2
+workflow-type: tm+mt
+source-wordcount: '1680'
+ht-degree: 66%
 
 ---
 
 # 共享项目
+
+您可以与以下类型的人共享Analysis Workspace项目：
+
+* 组织中有权访问Adobe Analytics的用户和组
+
+   您可以共享编辑、复制或查看权限
+
+* 您组织中无权访问Adobe Analytics的用户和组
+
+   收件人具有仅查看访问权限
+
+* 组织外部的人员
+
+   收件人具有仅查看访问权限
+
+任意 [策划](curate.md) 当收件人打开项目时，会反映您在共享之前应用。
+
+下面是项目共享的视频概述：
+
+>[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
+
+
+## 与贵组织中的Adobe Analytics用户和组共享 {#Add}
 
 您可以与组织中的现有 Adobe Analytics 用户或组共享项目。 当您按本节所述共享项目时，您共享的用户必须已经拥有 Adobe Analytics 帐户。
 
@@ -57,7 +80,11 @@ ht-degree: 100%
 
    * **设置为收件人的登陆页面：** 将此页面设置为收件人的登陆页面。 此设置不具有持续性，属于分享时的一次性操作。
 
-1. 单击&#x200B;**[!UICONTROL 共享]**。您还可以单击&#x200B;**[!UICONTROL 策划和共享]**&#x200B;以自动应用项目策划。如果某个项目已共享，则将显示&#x200B;**[!UICONTROL 更新]**&#x200B;和&#x200B;**[!UICONTROL 策划和更新]**&#x200B;按钮。了解有关[项目策划](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hans)的更多信息。
+1. 单击&#x200B;**[!UICONTROL 共享]**。(如果项目已共享，请单击 [!UICONTROL **更新**].)
+
+   或
+
+   单击 **[!UICONTROL 策划和共享]** 以自动应用项目策划。 (如果项目已共享，请单击 **[!UICONTROL 策划和更新]**.) 了解有关[项目策划](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hans)的更多信息。
 
 ## 共享项目链接
 
@@ -78,6 +105,63 @@ ht-degree: 100%
 1. 单击&#x200B;**[!UICONTROL 共享 URL 字段]**&#x200B;旁边的&#x200B;**[!UICONTROL 复制链接]**。
 
 1. 与组织中的用户共享项目链接。 例如，您可以将其粘贴到电子邮件、内部网站等。
+
+## 与任何人共享公共链接（无需登录） {#share-public-link}
+
+{{release-limited-testing-section}}
+
+您可以授予 [仅查看访问权限](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) 将Analysis Workspace项目发送给无权访问Adobe Analytics的用户。 这可能包括：
+
+* 组织外部的人员
+
+* 未使用Adobe Analytics进行配置的组织内部人员
+
+>[!NOTE]
+>
+>共享公共链接时，请考虑以下事项：
+>
+>* Analytics管理员可以禁用共享公共访问链接的功能，如中所述 [首选项](/help/analyze/analysis-workspace/user-preferences.md). 如果您无法按本节所述共享公共链接，则Analytics管理员已禁用此功能。
+>
+>* 无法使用公共访问链接共享具有14个以上扩展可视化图表的项目。
+
+
+要共享指向Analysis Workspace项目的公共链接，请执行以下操作：
+
+1. 打开要共享的Analysis Workspace项目。
+
+1. 单击 **[!UICONTROL 共享]** > **[!UICONTROL 共享公共链接]**.
+
+   如果存在未保存的更改，系统会提示您保存项目。
+
+   <!-- Add screen shot of new modal -->
+
+1. 启用 **[!UICONTROL 链接处于活动状态]** 选项。
+
+1. 选择是否启用以下安全选项（这些选项可由您的Analytics管理员控制）：
+
+   * **[!UICONTROL 需要单点登录 (SSO) 身份验证]:**
+
+      在获取对共享项目的访问权限之前，要求具有链接的用户通过SSO进行身份验证。 如果您希望项目仅可供组织内的用户访问，请选择此选项。
+
+      Analytics管理员可以为公司设置此首选项，如中所述 [首选项](/help/analyze/analysis-workspace/user-preferences.md). 您可能会遇到以下情况，具体取决于管理员如何配置此选项：
+
+      * 如果此选项不可见，则表示您的组织未启用SSO或Analytics管理员未启用此功能。
+
+      * 如果此选项已启用且呈灰显状态，则Analytics管理员需要SSO身份验证才能访问所有公共链接。
+   * **[!UICONTROL 需要密码]：** 在访问Analysis Workspace项目之前，需要具有链接的人员指定密码。 这为您的项目提供了额外的安全级别。
+
+      如果选择此选项，请指定密码。 在与其他人共享此密码时，请记住将其与项目链接共享。 <!--go through this workflow and see how it works.-->
+
+      如果此选项已启用且呈灰显状态，则Analytics管理员要求所有公共链接都受密码保护。 Analytics管理员可以为公司设置此首选项，如中所述 [首选项](/help/analyze/analysis-workspace/user-preferences.md).
+
+
+1. 在 **[!UICONTROL 与任何人共享（无需登录）]** 字段中，单击 **复制链接** 图标，以将链接复制到系统剪贴板。
+
+1. 与您希望拥有项目访问权限的人员共享该链接。 例如，您可以将该链接粘贴到电子邮件中。
+
+   您与之共享链接的任何人都可以查看Analysis Workspace项目。 如果您选择需要密码，则还必须与要访问该链接的任何人共享该密码。
+
+1. 选择 **[!UICONTROL 关闭]** 以关闭“共享”对话框。 您的更改会自动保存。 <!-- True? -->
 
 ## 在项目管理器中共享项目 {#Manager}
 
