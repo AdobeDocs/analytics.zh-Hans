@@ -5,10 +5,10 @@ title: 数据源常见问题解答
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 2a5d38fe-5c5b-4275-bc44-e9cb02ec2f5d
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
-source-wordcount: '1496'
-ht-degree: 100%
+source-git-commit: 18c5f88cef907af1bdb17c99df59dfb46cc859bc
+workflow-type: tm+mt
+source-wordcount: '1601'
+ht-degree: 94%
 
 ---
 
@@ -102,7 +102,7 @@ Adobe 建议您选择新的未用变量，以使用数据源导入数据。如�
 
 可以统计数据源信息；但是，Adobe Customer Care 必须重新处理来自历史日期的统计，以包含历史数据。例如，如果当前日期为 2015 年 10 月 31 日，而您使用数据源上传 2015 年 8 月 1 日至 15 日的数据，则统计必须设置为从 2015 年 8 月 1 日开始重新处理，这样才能包含新导入的数据。
 
-另外，数据绝对不能直接上传到使用数据源的统计报表包中。如果需要在统计中包含此数据，则应当将其导入标准报表包，又称为统计的&#x200B;*`child suite`*。有关详细信息，请联系 Adobe Customer Care。
+另外，数据绝对不能直接上载到使用数据源的统计报表包中。如果需要在统计中包含此数据，则应当将其导入标准报表包，又称为统计的&#x200B;*`child suite`*。有关详细信息，请联系 Adobe Customer Care。
 
 ## 为什么页面查看报表没有显示某一天的任何数据源数据，却显示了一周的正确数据？ {#week}
 
@@ -145,3 +145,9 @@ Adobe 建议您选择新的未用变量，以使用数据源导入数据。如�
 s.products="Footwear;Running Shoes;1;99.99;event1=4.50";
 s.products="Footwear;Running Shoes;1;99.99;event1=4.50|event4=1.99";
 ```
+
+## 为什么我的ftp上传未接收？
+
+上传.fin文件后，请务必从数据源FTP站点注销。 原因是 Analytics 使用注销事件作为触发器，指示文件准备好处理。如果您以编程方式上传文件，请务必确保上传文件后，您的自动化流程也会从FTP站点注销。
+
+验证文件名是否遵循正确的格式。 文件名中的前导或尾随空格导致无法识别文件，并且Adobe摄取过程无法提取该文件。
