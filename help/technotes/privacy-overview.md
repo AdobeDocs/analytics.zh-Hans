@@ -4,10 +4,10 @@ keywords: 隐私
 title: 隐私概述
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 297269f2ebf88d722eaf21ce8919ce28bb6abdc7
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 91%
+source-wordcount: '791'
+ht-degree: 100%
 
 ---
 
@@ -53,24 +53,89 @@ Adobe Analytics 收集以下数据：
 
 ## 其他隐私注意事项 {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
 
-| 地区/国家 | 注意事项 |
-|--- |--- |
-| 全球 | Adobe 强烈建议客户避免将个人可识别信息 (PII) 传递到 Adobe，特别是在 Analytics 不要求必须提供 PII 的情况下。 |
-| 全球 | 在收集资料时，需要通知用户，并让用户做出选择。在加拿大、澳大利亚、欧盟（一些国家/地区可选择加入）以及拉美和亚太地区的许多国家/地区，这是法律规定。 |
-| 全球 | 如果使用第一方 Cookie，Analytics 退出仅针对于某个客户；不能在 Adobe.com 上使用退出选项。 |
-| 全球 | 第一方分析不在针对在线行为广告 (AdChoices) 的自律计划的范围之内。 |
-| 全球 | 不应该合并跨设备数据，除非数据绑定到客户提供的标识符（例如哈希用户名）。 |
-| 全球 | 对于客户将广告展示信息合并到 PII 可能存在相关限制。 |
-| 欧洲 | 欧盟中的大多数国家/地区并不认为 Analytics Cookie 绝对必要。 |
-| 欧洲 | Adobe 启用了设置 IP 模糊处理：对于欧洲、中东和非洲地区使用报告包集的所有客户，默认设置为“已启用 — IP 已删除 (x.x.x.x)”。通过此设置，在地理查询后 IP 地址将由值 (x.x.x.x) 完全取代，且不再可作为数据点使用。这个基本替换方法无法通过实施反向工程返回一个唯一的特定 IP 地址。客户或 Adobe 均无法访问该 IP 地址，该 IP 地址已经过不可逆转的匿名化处理。有关其他 IP 混淆设置的详细信息，请参阅管理员用户指南中的[常规帐户设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)。 |
-| 全球 | 客户可以在 JavaScript 指标代码中将 Cookie 持续时间变量设置为“none”、“session”值，或其他以秒为单位的特定值。 |
-| 欧洲 | Adobe 制定了新的“从设计着手保护隐私”设置，Adobe ClientCare 为 Adobe Analytics（以前称为 SiteCatalyst）发布版本 14.9 和 15.4 启用了此设置。启用这一新设置后，当 Adobe 收集 IP 地址时，该 IP 地址的最后八位字节（最后一部分）会立即被 0 值取代。在对 IP 地址进行任何处理之前，包括在对 IP 地址进行可选地理查询和 ISP 查询之前，会执行此匿名化操作。 |
-| 德国 | 如果您尚未与Adobe签订适用于Adobe Analytics的数据处理协议，则应与Adobe客户团队联系，他们将会与Adobe法律部合作，以获取DPA。 |
+<table id="table_247B425E774F403288233824870D070E"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> 地区/国家 </th> 
+   <th colname="col2" class="entry"> 注意事项 </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> 全球 </td> 
+   <td colname="col2"> Adobe 强烈建议客户避免将个人可识别信息 (PII) 传递到 Adobe，特别是在 Analytics 不要求必须提供 PII 的情况下。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 全球 </td> 
+   <td colname="col2"> 在收集资料时，需要通知用户，并让用户做出选择。在加拿大、澳大利亚、欧盟（一些国家/地区可选择加入）以及拉美和亚太地区的许多国家/地区，这是法律规定。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 全球 </td> 
+   <td colname="col2"> 如果使用第一方 Cookie，Analytics 退出仅针对于某个客户；不能在 Adobe.com 上使用退出选项。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 全球 </td> 
+   <td colname="col2"> 第一方分析不在针对在线行为广告 (AdChoices) 的自律计划的范围之内。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 全球 </td> 
+   <td colname="col2"> 不应该合并跨设备数据，除非数据绑定到客户提供的标识符（例如哈希用户名）。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 全球 </td> 
+   <td colname="col2"> 对于客户将广告展示信息合并到 PII 可能存在相关限制。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 欧洲 </td> 
+   <td colname="col2"> 欧盟中的大多数国家/地区并不认为 Analytics Cookie 绝对必要。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 欧洲 </td> 
+   <td colname="col2"> Adobe 启用了设置 IP 模糊处理：对于欧洲、中东和非洲地区使用报告包集的所有客户，默认设置为“已启用 — IP 已删除 (x.x.x.x)”。通过此设置，在地理查询后 IP 地址将由值 (x.x.x.x) 完全取代，且不再可作为数据点使用。 <p>这个基本替换方法无法通过实施反向工程返回一个唯一的特定 IP 地址。客户或 Adobe 均无法访问该 IP 地址，该 IP 地址已经过不可逆转的匿名化处理。有关其他 IP 模糊设置的详细信息，请参阅 </p> <p> 管理员用户指南中的<a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md">常规帐户设置</a>。</p> </td>
+  </tr> 
+  <tr> 
+   <td colname="col1"> 全球 </td> 
+   <td colname="col2"> 客户可以在 JavaScript 指标代码中将 Cookie 持续时间变量设置为“none”、“session”值，或其他以秒为单位的特定值。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 欧洲 </td> 
+   <td colname="col2"> Adobe 制定了新的“从设计着手保护隐私”设置，Adobe ClientCare 为 Adobe Analytics（以前称为 SiteCatalyst）发布版本 14.9 和 15.4 启用了此设置。启用这一新设置后，当 Adobe 收集 IP 地址时，该 IP 地址的最后八位字节（最后一部分）会立即被 0 值取代。在对 IP 地址进行任何处理之前，包括在对 IP 地址进行可选地理查询和 ISP 查询之前，会执行此匿名化操作。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 德国 </td> 
+   <td colname="col2"> <p>如果您尚未与 Adobe 就 Adobe Analytics 签订数据处理协议 (Data Processing Agreement)，则应与 Adobe 客户经理或客户成功经理取得联系，他们会与 Adobe 法律部合作，协助签订 DPA。 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
-## EMEA数据中心位置 {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
+## EMEA 数据中心位置 {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
 
-以下EMEA数据中心当前托管Adobe Analytics数据：
+目前，下列 EMEA 数据中心托管 Adobe Analytics 数据：
 
-| Adobe 名称 | 地址 | 设备类型（运营商） | 支持的解决方案组件 | 证书 |
-|--- |--- |--- |--- |--- |
-| LON5 | 3 Centro  Boundary Way Hemel Hempstead HP2 7SU UK | Colocation Facility (Gyron) | 多渠道分析、数字分析 | SSAE 16 |
+<table id="table_65794B3790FD4B519EE89CF4F4B88314"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Adobe 名称 </th> 
+   <th colname="col2" class="entry"> 地址 </th> 
+   <th colname="col3" class="entry"> 设备类型（运营商） </th> 
+   <th colname="col4" class="entry"> 支持的解决方案组件 </th> 
+   <th colname="col5" class="entry"> 证书 </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> AMS1 </td> 
+   <td colname="col2"> <p>Luttenbergweg 4 </p> <p>Amsterdam 1101 EC </p> <p>The Netherlands </p> </td> 
+   <td colname="col3"> <p>Colocation Facility </p> <p>(Equinix) </p> </td> 
+   <td colname="col4"> <p>Multichannel Analytics, </p> <p>Digital Analytics </p> </td> 
+   <td colname="col5"> <p>ISO9001:2008 </p> <p>ISO14001:2004 </p> <p>OHSAS18001:2007 </p> <p>ISO27001:2005 </p> <p>ISO50001:2011 </p> <p>PCI-DSS </p> <p> <a href="https://www.equinix.com/solutions/by-services/colocation/standards-and-compliance/iso-certified-data-centers/#table"  > Equinix </a> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> LON5 </td> 
+   <td colname="col2"> <p>3 Centro </p> <p>Boundary Way </p> <p>Hemel Hempstead HP2 7SU </p> <p>UK </p> </td> 
+   <td colname="col3"> <p>Colocation Facility </p> <p>(Gyron) </p> </td> 
+   <td colname="col4"> <p>Multichannel Analytics, </p> <p>Digital Analytics </p> </td> 
+   <td colname="col5"> SSAE 16 </td> 
+  </tr> 
+ </tbody> 
+</table>

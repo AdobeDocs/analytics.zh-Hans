@@ -2,10 +2,10 @@
 title: 分类集概述
 description: 使用分类集管理分类数据。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 90%
+source-wordcount: '264'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->此功能适用于分类集架构中的所有客户。 有关更多信息，请联系Adobe客户关怀或您的Adobe客户团队。
+>所有将其报告包迁移到新分类架构的客户都可以使用分类集。请联系 Adobe 客户关怀部门或您的客户经理以获取更多信息。
 
 与“分类集”一起发布的后端架构包含几项显著改进：
 

@@ -2,7 +2,7 @@
 title: 在Adobe Analytics中排除数据
 description: 了解有关如何在数据收集之前和之后排除数据的各种方法。
 exl-id: dee5bf3b-8bb3-48eb-908d-b4a981f17bfb
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 * **按IP排除**：Adobe Analytics提供了在报表包中排除IP地址或范围数据的基本功能。 参见 [按IP排除](/help/admin/admin/exclude-ip.md) （在管理员用户指南中）。
 * **机器人规则**：机器人规则从已知的机器人用户代理字符串中获取流量，并将其从Analytics报表中排除。 通过机器人规则排除的数据将放入机器人报表中。 可创建自定义机器人规则以排除其他数据。 参见 [机器人规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) （在管理员用户指南中）。
-* **VISTA规则**：根据您组织的需求，会将符合您要求的点击发送到另一个专用于接收排除数据的报表包。 VISTA规则通常针对IP地址使用，但不限于此IP地址。 您可以使用任何维度在报表包中包含或排除数据。 VISTA规则可能会产生额外费用；请联系您的Adobe客户团队以了解详细信息。
+* **VISTA规则**：根据您组织的需求，会将符合您要求的点击发送到另一个专用于接收排除数据的报表包。 VISTA规则通常针对IP地址使用，但不限于此IP地址。 您可以使用任何维度在报表包中包含或排除数据。 VISTA规则可能会产生额外费用；请联系贵组织的客户经理以了解详细信息。
 * **选择退出Cookie**：您网站的所有访客均可主动选择退出在Adobe Analytics中进行跟踪，方法是访问特定于您的跟踪服务器的页面。 参见 [实施选择退出链接](/help/implement/js/opt-out.md) 实施用户指南中的。
 
 >[!TIP]

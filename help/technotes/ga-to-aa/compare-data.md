@@ -3,10 +3,10 @@ title: 比较 Adobe Analytics 数据与第三方产品
 description: 了解直接将 Adobe Analytics 中的数据与其他 Analytics 解决方案收集的数据进行比较的选项。
 feature: Third-party Integration
 exl-id: b4f85088-7ffd-45dc-bdd1-c0fc8dc3b332
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,4 +20,4 @@ ht-degree: 88%
 
 * **使用调试器自行审核**：您可以使用 [Adobe Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans) 或其他数据包监视器检查您网站上的页面。使用调试器可以验证实施，以确保使用正确的变量正确触发图像请求。
 * **使用数据馈送自行审核**：Adobe 为贵组织提供了选项用于接收[数据馈送](/help/export/analytics-data-feed/data-feed-overview.md)，其中包含每天的所有原始数据。然后，贵组织可以使用这些数据，并将其与第三方分析工具进行比较，以确定是否存在任何差异。
-* **通过Adobe咨询团队进行辅助审核和数据验证**：如果您希望由正式的Adobe代表对您的网站执行全面实施审核，请与您的Adobe客户团队联系。 他们可以安排与实施顾问见面，实施顾问可以根据贵公司的合同来审核您的网站。
+* **由 Adobe 咨询团队协助审核和验证数据**：如果您希望由正式的 Adobe 代表对您的网站执行完整的实施审核，请与贵组织的客户经理联系。他们可以安排与实施顾问见面，实施顾问可以根据贵公司的合同来审核您的网站。

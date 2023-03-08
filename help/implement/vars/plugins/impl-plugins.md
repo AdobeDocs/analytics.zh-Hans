@@ -3,9 +3,9 @@ title: 插件概述
 description: 将代码粘贴到您的网站上以引入新功能。
 feature: Variables
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '354'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 100%
 
 插件是可执行多个高级功能以帮助您实施 Analytics 的代码片段。这些插件扩展了 JavaScript 文件的功能，提供了多项基本实施所没有的功能。作为高级解决方案的一部分，Adobe 提供了许多其他插件。
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>这些插件均由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对其中任何插件的支持，包括安装或疑难解答。如果您需要关于某个插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
 Adobe 提供了多种安装给定插件的方法：
 

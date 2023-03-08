@@ -3,10 +3,10 @@ description: 本文档介绍您需要在 Adobe Analytics 中执行什么操作�
 title: Adobe Analytics 和 GDPR
 feature: Data Governance
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-source-git-commit: 297269f2ebf88d722eaf21ce8919ce28bb6abdc7
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Adobe 认识到您最熟悉您的报表包中的自定义数据，因此我们�
 
    >[!NOTE]
    >
-   >如果未在 Adobe Analytics 中设置数据保留期限，Adobe Analytics 将无法协助您处理 GDPR API 请求，例如，处理您从最终用户那里收到的访问请求或删除请求。请联系您的Adobe客户团队以设置您的数据保留期限。
+   >如果未在 Adobe Analytics 中设置数据保留期限，Adobe Analytics 将无法协助您处理 GDPR API 请求，例如，处理您从最终用户那里收到的访问请求或删除请求。请联系您的客户成功经理以便设置数据保留期限。
 
 * 检查您的权限：要在 Adobe Analytics 中使用“数据管理”管理界面，您必须是 Adobe Analytics 管理员。
 

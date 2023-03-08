@@ -4,10 +4,10 @@ keywords: 虚拟报表包，VRS
 title: 虚拟报表包和多包标记注意事项
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '1755'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 ## 准则
 
-如果您不确定所描述的用例是否适用于您和您的组织，请咨询您的其他Adobe Analytics管理员或Adobe帐户团队。 他们可以帮助您评估您的业务需求并提供相应的建议。
+如果您不确定所描述的用例是否适用于您和贵组织，请咨询您的其他 Adobe Analytics 管理员或您的 Adobe 帐户经理。他们可以帮助您评估您的业务需求并提供相应的建议。
 
 在确定应使用多包标记还是虚拟报表包时，请考虑以下因素：
 

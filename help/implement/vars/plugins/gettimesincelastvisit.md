@@ -3,16 +3,18 @@ title: getTimeSinceLastVisit
 description: 测量两次访问之间的间隔时间。
 feature: Variables
 exl-id: c5cef219-8a8a-4e57-a372-f2e063325a67
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '402'
 ht-degree: 100%
 
 ---
 
 # Adobe 插件：getTimeSinceLastVisit
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
 `getTimeSinceLastVisit` 插件允许您跟踪访客在距上次访问后多久再次访问您的网站。
 

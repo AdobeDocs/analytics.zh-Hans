@@ -4,10 +4,10 @@ title: 为该应用程序设置执行用户
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
-source-git-commit: 02d0baee99ad2ea5966788f036644d3e3780016e
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 94%
+source-wordcount: '749'
+ht-degree: 100%
 
 ---
 
@@ -114,4 +114,4 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->从2020年10月开始，Adobe将逐步推出一系列增强功能，以优化“Adobe Analytics功能板”应用程序的性能。 这些增强功能的重心在于缓存用于填充特定日期（不包括当天）记分卡的历史 Analytics 数据。该数据将在安全的 Microsoft Azure 公共云存储帐户中缓存长达 24 小时。如果您希望退出这些性能增强功能，请联系您的Adobe客户团队。
+>从 2020 年 10 月开始，Adobe 逐步推出一系列增强功能，以优化“Adobe Analytics 功能板”应用程序的性能。这些增强功能的重心在于缓存用于填充特定日期（不包括当天）记分卡的历史 Analytics 数据。该数据将在安全的 Microsoft Azure 公共云存储帐户中缓存长达 24 小时。如果您想要选择退出这些性能增强功能，请联系您的客户成功经理。

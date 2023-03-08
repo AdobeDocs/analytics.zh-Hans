@@ -3,16 +3,18 @@ title: Numbers Suite
 description: 生成和处理数字以供在其他 JavaScript 变量中使用。
 feature: Variables
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '537'
 ht-degree: 100%
 
 ---
 
 # Adobe 插件：Numbers Suite
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
 
 Numbers Suite 包含一系列 JavaScript 函数。具体包含以下插件：
 

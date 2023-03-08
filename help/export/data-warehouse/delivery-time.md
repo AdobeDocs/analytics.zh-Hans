@@ -3,10 +3,10 @@ title: Data Warehouse 请求提交时间故障诊断
 description: 确定 Data Warehouse 请求存在的可能会延长提交时间的潜在问题。
 feature: Data Warehouse
 exl-id: eed4d172-fffd-453f-ab5b-0fc2a79d5bd0
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,4 +37,4 @@ ht-degree: 97%
 
 * **Analysis Workspace**：虽然不能使用无限数量的维度项目，但它包含 Data Warehouse 提供的几乎所有其他用例。
 * **数据馈送**：每天获取报表包中的所有原始数据，并将其发送到 FTP 站点。然后，您可以将此数据导入自己的数据库，并运行查询以获取要查找的数据。
-* **自定义工程服务解决方案**：Adobe 工程服务团队可以为贵组织提供自定义解决方案，但需支付额外费用。有关其他详细信息，请联系您的Adobe客户团队。
+* **自定义工程服务解决方案**：Adobe 工程服务团队可以为贵组织提供自定义解决方案，但需支付额外费用。请联系贵组织的客户经理以了解更多详细信息。

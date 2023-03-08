@@ -5,10 +5,10 @@ title: 导入文件引用
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 7966b156-04bf-4d39-a720-ab47a665d1e2
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 93%
+source-wordcount: '430'
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 93%
 * 若要加快数据源文件的处理速度，Adobe 建议按日期将事件（量度）数据汇总到一行。
 
    例如，如果您的数据源文件将广告显示次数数据映射到事件 6，请创建一个包含每日广告显示总次数的数据行，而无需为某一特定日期发生的每一次广告显示创建一个单独的数据行条目。
-* 如果您需要上载报表包创建日期之前的日期的数据，请联系您的Adobe帐户团队以更改可以运行报表的最早日期。
+* 如果需要从报表包创建日期之前的日期上载数据，请联系您的帐户管理员更改可运行报表的最早日期。
 
 **.FIN 文件**
 
