@@ -3,10 +3,10 @@ description: 管理员可以使用任一报表包为组件添加描述。
 title: 添加组件描述
 feature: Components
 role: Admin
-source-git-commit: a8605f6c3077a625d6936b4ba9e135dc35c99439
+source-git-commit: c2bfedde64b4961afcda75880594ee9b1347a831
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 85%
+source-wordcount: '167'
+ht-degree: 43%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 85%
 
 描述帮助用户了解如何在 Analysis Workspace 中构建项目时或在查看报表时最佳地使用各个组件。
 
-Analytics 管理员可以添加组件（维度、量度、区段和日期范围）的描述<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->。
+Analytics管理员可以在报表包中或直接使用Analysis Workspace中的数据字典为组件(Dimension、量度、区段和日期范围)添加描述。
 
 ## 向“报告包”中的组件添加描述
 
@@ -22,14 +22,12 @@ Analytics 管理员可以添加组件（维度、量度、区段和日期范围�
 
 >[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
 
-<!--
-## Add descriptions to components in Analysis Workspace (using the Data Dictionary) {#add-descriptions}
+## 向Analysis Workspace中的组件添加描述（使用数据字典） {#add-descriptions}
 
 {{release-limited-testing-section}}
 
-The Data Dictionary in Analysis Workspace helps both users and administrators keep track of and better understand the components in their Analytics environment. This includes the ability for Analytics administrators to add component descriptions directly within Analysis Workspace. 
+Analysis Workspace 中的数据词典可帮助用户和管理员跟踪并更好地了解其 Analytics 环境中的组件。这包括Analytics管理员能够直接在Analysis Workspace中添加组件描述。
 
-For information about adding a component description in the data dictionary, see [Edit component entries in the Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+有关在数据字典中添加组件描述的信息，请参见 [编辑数据字典中的组件条目](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
 
-For general information about the Data Dictionary, see [Data Dictionary overview](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).
--->
+有关数据字典的一般信息，请参见 [数据字典概述](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).
