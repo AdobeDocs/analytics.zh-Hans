@@ -3,9 +3,7 @@ description: Analysis Workspace 中的数据词典允许用户对 Analysis Works
 title: 数据词典概述
 feature: Components
 role: User, Admin
-hide: true
-hidefromtoc: true
-source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
+source-git-commit: 4e471b5f4376a9cdc3ab014139221b382b3b3c26
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 100%
@@ -65,7 +63,7 @@ Analytics 管理员负责整理有关数据词典中每个组件的信息，并�
 * 来自组件信息弹出框内的&#x200B;**数据词典**&#x200B;图标。
 
    ![信息弹出窗口中的“数据词典”图标](assets/data-dictionary-access-infopopover.png)
-<!--update screenshot; this was taken from a mock-->
+   <!--update screenshot; this was taken from a mock-->
 
 * 从菜单：[!UICONTROL **帮助**] > [!UICONTROL **数据词典**]。
 

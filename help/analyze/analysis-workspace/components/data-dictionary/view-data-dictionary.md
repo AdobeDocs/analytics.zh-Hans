@@ -3,10 +3,8 @@ description: Analysis Workspace 中的数据词典允许用户对 Analysis Works
 title: 查看数据词典
 feature: Components
 role: User, Admin
-hide: true
-hidefromtoc: true
-source-git-commit: 36dcedc730e956ea5a7c3a0e3470719a41a8f8e9
-workflow-type: ht
+source-git-commit: 4e471b5f4376a9cdc3ab014139221b382b3b3c26
+workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
 
