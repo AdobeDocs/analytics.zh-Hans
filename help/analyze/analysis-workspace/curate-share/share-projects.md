@@ -5,10 +5,10 @@ title: 共享项目
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: ec3539389ab3aa9589e15e14f19b6f34d57a15a2
+source-git-commit: ffe72f02a80496160a5d894456bc9eb96b6cf9b0
 workflow-type: tm+mt
-source-wordcount: '1680'
-ht-degree: 66%
+source-wordcount: '1600'
+ht-degree: 69%
 
 ---
 
@@ -137,23 +137,17 @@ ht-degree: 66%
 
 1. 启用 **[!UICONTROL 链接处于活动状态]** 选项。
 
-1. 选择是否启用以下安全选项（这些选项可由您的Analytics管理员控制）：
+1. 选择是否启用以下安全选项（此选项可由您的Analytics管理员控制）：
 
-   * **[!UICONTROL 需要单点登录 (SSO) 身份验证]:**
+   * **[!UICONTROL 需要Experience Cloud身份验证]：**
 
-      在获取对共享项目的访问权限之前，要求具有链接的用户通过SSO进行身份验证。 如果您希望项目仅可供组织内的用户访问，请选择此选项。
+      启用此选项后，只有具有Federated ID并且可以登录到Adobe Experience Cloud的收件人才能访问共享的公共链接。需要具有链接的用户使用其Adobe Experience Cloud登录进行身份验证，才能获得对共享项目的访问权限。
 
       Analytics管理员可以为公司设置此首选项，如中所述 [首选项](/help/analyze/analysis-workspace/user-preferences.md). 您可能会遇到以下情况，具体取决于管理员如何配置此选项：
 
-      * 如果此选项不可见，则表示您的组织未启用SSO或Analytics管理员未启用此功能。
+      * 如果此选项不可见，则表示您的Analytics管理员未启用此功能。
 
-      * 如果此选项已启用且呈灰显状态，则Analytics管理员需要SSO身份验证才能访问所有公共链接。
-   * **[!UICONTROL 需要密码]：** 在访问Analysis Workspace项目之前，需要具有链接的人员指定密码。 这为您的项目提供了额外的安全级别。
-
-      如果选择此选项，请指定密码。 在与其他人共享此密码时，请记住将其与项目链接共享。 <!--go through this workflow and see how it works.-->
-
-      如果此选项已启用且呈灰显状态，则Analytics管理员要求所有公共链接都受密码保护。 Analytics管理员可以为公司设置此首选项，如中所述 [首选项](/help/analyze/analysis-workspace/user-preferences.md).
-
+      * 如果此选项已启用且呈灰显状态，则Analytics管理员需要Experience Cloud身份验证才能访问所有公共链接。
 
 1. 在 **[!UICONTROL 与任何人共享（无需登录）]** 字段中，单击 **复制链接** 图标，以将链接复制到系统剪贴板。
 
