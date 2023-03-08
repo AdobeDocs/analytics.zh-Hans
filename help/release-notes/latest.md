@@ -3,9 +3,9 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ccb40e45ea559db815f4252d85baa61b9e109024
+source-git-commit: 6e6fcca0c2fa1fd1ee433c7d1b9727c058bb711e
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1062'
 ht-degree: 58%
 
 ---
@@ -21,7 +21,7 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Analysis Workspace中的数据字典** | 数据字典可帮助用户和管理员跟踪、管理和更好地了解其Analytics环境中的组件（维度、量度）。 [了解详情](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023年3月15日 | 2023年3月22日 |
-| **移动仪表板中的数据故事** | 通过数据故事，可将多个可自定义的详细信息视图添加到移动记分卡项目中的图块。 使用数据故事在客户历程中更深入地探讨关键驱动因素、相关指标和不同步骤。 您可以轻松地浏览这些视图，以了解关键量度背后的整个故事。 了解更多（关注） | 不适用 | 2023年3月8日 |
+| **移动仪表板中的数据故事** | 通过数据故事，可将多个可自定义的详细信息视图添加到移动记分卡项目中的图块。 使用数据故事在客户历程中更深入地探讨关键驱动因素、相关指标和不同步骤。 您可以轻松地浏览这些视图，以了解关键量度背后的整个故事。 [了解详情](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | 不适用 | 2023年3月8日 |
 | **计划项目的到期日期** | 您可以将计划项目的最长到期日期设置为一年，而不管计划频率如何。 | 不适用 | 2023年3月8日 |
 | **项目链接共享（无需登录）**  — 仅私人测试版访问 | <p>您现在可以与无权访问Analysis Workspace的用户共享Adobe Analytics项目的只读链接。 您可以与组织外部的人员或组织内部未配置Adobe Analytics的人员共享项目链接。 [了解详情](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>要加入私人测试版，请联系您的Adobe客户团队。</p> | 2023年3月15日(Private Beta) | 2023 年 4 月 |
 
