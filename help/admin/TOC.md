@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报告包等等。
-source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
+source-git-commit: 87d4e492afe8d614dfdba24389660829df871dd7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '628'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,6 @@ ht-degree: 0%
       + [Analytics 工具的产品配置文件权限](admin-console/permissions/analytics-tools.md)
 + Analytics 管理员工具 {#admin-tools}
    + [管理员工具概述](admin/c-admin-tools.md)
-   + [计费](admin/billing-admin.md)
    + [代码管理器](admin/code-manager-admin.md)
    + [数据源](admin/data-sources.md)
    + [按 IP 地址排除](admin/exclude-ip.md)
