@@ -1,11 +1,10 @@
 ---
 description: Adobe提供各种您可以使用的计算指标。 本页列出了这些量度及其预期用途。
 title: 默认计算量度
-feature: calculated metrics
-exl-id: 1a49435c-96d1-4617-bd1a-a5d3b74e3ebd
-source-git-commit: 43bb7102e2caff93c3beea6e8c23500347679327
+feature: Calculated Metrics
+source-git-commit: b383e856374791be7d85b1f25566e8d98a099ec8
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '745'
 ht-degree: 4%
 
 ---
@@ -21,7 +20,7 @@ Adobe Analytics提供了各种计算量度，以涵盖最常见的用例。 默�
 >除了此页面上描述的默认计算指标之外，您还可以向报表包添加其他计算指标。
 >
 >您可以:
-> * 为流媒体添加默认计算指标，如中所述 [计算量度](/https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)
+> * 为流媒体添加默认计算指标，如中所述 [计算量度](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)
 > * 从现有量度创建自定义计算量度，如中所述 [计算指标和高级计算（派生）指标](/help/components/c-calcmetrics/cm-overview.md).
 
 

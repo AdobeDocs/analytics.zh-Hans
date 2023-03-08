@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算指标、虚拟报表包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: 74a6f05817cf93eb95dc7b5546b3e5155a08c725
+source-git-commit: a49affe282e95d451e72ed92a585b861f081f02e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '690'
+ht-degree: 95%
 
 ---
 
@@ -181,19 +181,19 @@ ht-degree: 0%
    + [操作方法视频](c-calcmetrics/cm-videos.md)
    + 计算指标工作流程 {#calcmetric-workflow}
       + [计算指标工作流程](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
-      + [查找指标](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
-      + [生成指标](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [指标类型和归因](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
+      + [查找度量](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
+      + [生成度量](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+      + [度量类型和归因](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [构建简单的“每次访问的页面查看次数”指标](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [分段指标](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [堆叠和替换区段](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [过滤和加权指标](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
       + [订购协助指标](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [使用函数](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
-      + [参与率指标](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
-      + [标记计算指标](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
-      + [批准计算指标](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
-      + [共享计算指标](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
+      + [参与率度量](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [标记计算度量](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
+      + [批准计算度量](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
+      + [共享计算度量](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [计算指标管理器](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
    + 指标引用 {#calcmetrics-reference}
       + [引用：基本函数](c-calcmetrics/cm-reference/cm-functions.md)
@@ -201,6 +201,7 @@ ht-degree: 0%
       + [指标兼容性](c-calcmetrics/cm-compatibility.md)
       + [计算指标：基于角色的权限](c-calcmetrics/cm-role-based-rights.md)
       + [计算指标总计](c-calcmetrics/cm-totals.md)
+      + [默认计算量度](c-calcmetrics/cm-reference/default-calcmetrics.md)
 + 虚拟报表包 {#virtual-report-suites}
    + [虚拟报表包概述](vrs/vrs-about.md)
    + [虚拟报表包 — 组件管理](vrs/vrs-components.md)
@@ -266,7 +267,7 @@ ht-degree: 0%
    + [配置实时报表](c-real-time-reporting/t-realtime-admin.md)
    + [受支持的实时指标和维度](c-real-time-reporting/realtime-metrics.md)
 + 营销渠道 {#marketing-channels}
-   + [营销渠道快速入门](c-marketing-channels/c-getting-started-mchannel.md)
+   + [营销渠道入门](c-marketing-channels/c-getting-started-mchannel.md)
    + [Attribution IQ 和营销渠道](c-marketing-channels/mchannel-best-practices.md)
    + [分析营销渠道](c-marketing-channels/analyze-mc.md)
    + [营销渠道权限](c-marketing-channels/c-channel-report-access.md)
