@@ -3,7 +3,7 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 22374dbf0cea5842bd59c8c22aec6518a0600aa8
+source-git-commit: c156ab154bc34ffb653c9ad5509c409f475db39d
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 88%
@@ -16,7 +16,7 @@ ht-degree: 88%
 
 Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
-## Adobe Analytics 的新增或更新功能
+## Adobe Analytics 的新增或更新功能 {#features}
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
@@ -32,7 +32,7 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 
 -302282、AN-303127、AN-303541、AN-303550、AN-305282、AN-306504、AN-307351、AN-307496、AN-307530、AN-307947、AN-308497、AN-、AN-308610、AN-308777、AN-308994、AN-309143、AN-309404、AN-309414、AN-309445、AN-309575、AN-309630、AN-309658、AN-309690、AN-309742、AN-309861、AN-309967、AN-309973、AN-310059、AN-310132、AN-310168、AN-310238、AN-310241、AN-310301、AN-310318、AN-310324、AN-310335、AN-310338、AN-310460、AN-310500、AN-310684、AN-310690、AN-311010、AN-311022、AN-311043、AN-311125、AN-311250、AN-311370、AN-311458；
 
-## Adobe Analytics 管理员的重要注意事项
+## Adobe Analytics 管理员的重要注意事项 {#admin}
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
@@ -42,7 +42,7 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 
 {style="table-layout:auto"}
 
-## 生命周期终止 (EOL) 通知
+## 生命周期终止 (EOL) 通知 {#eol}
 
 | 产品或功能 EOL | 添加或更新日期 | 描述 |
 | --- | --- | --- |
