@@ -3,10 +3,10 @@ title: 人员
 description: 通常使用多个设备的独特个人的数量。
 feature: Metrics
 exl-id: 0136b843-2a1e-44d5-b5a6-e0fb03b7b995
-source-git-commit: 4c329e8868df0a112ddbc710417eefbc5043ec9b
+source-git-commit: db7d8b4e8426a97af4c7e566c41b115dbb5b6174
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 43%
+source-wordcount: '114'
+ht-degree: 42%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 43%
 
 >[!IMPORTANT]
 >
->与Device Co-op相关的“人员”指标将于2023年弃用。 此弃用不会影响下面描述的CDA相关人员指标。
+>与Device Co-op相关的“人员”指标将于2023年3月8日弃用。 此弃用不会影响下面描述的CDA相关人员指标。
 
 “人员”指标特定于 [跨设备分析](../cda/overview.md) 虚拟报表包。 它表示报表中识别的个人总数，以及未识别为属于某个人的设备数量。
 
