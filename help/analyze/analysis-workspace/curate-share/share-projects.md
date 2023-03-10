@@ -5,10 +5,10 @@ title: 共享项目
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: ffe72f02a80496160a5d894456bc9eb96b6cf9b0
+source-git-commit: 66a02a6d0c6cc88752ea39172bd30b026908846b
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 69%
+source-wordcount: '1584'
+ht-degree: 70%
 
 ---
 
@@ -141,9 +141,9 @@ ht-degree: 69%
 
    * **[!UICONTROL 需要Experience Cloud身份验证]：**
 
-      启用此选项后，只有具有Federated ID并且可以登录到Adobe Experience Cloud的收件人才能访问共享的公共链接。需要具有链接的用户使用其Adobe Experience Cloud登录进行身份验证，才能获得对共享项目的访问权限。
+      启用此选项后，只有能够登录到创建您共享的项目的Adobe Experience Cloud组织的用户才能使用此链接。
 
-      Analytics管理员可以为公司设置此首选项，如中所述 [首选项](/help/analyze/analysis-workspace/user-preferences.md). 您可能会遇到以下情况，具体取决于管理员如何配置此选项：
+      Analytics管理员可以为公司配置此首选项，如中所述 [首选项](/help/analyze/analysis-workspace/user-preferences.md). 您可能会遇到以下情况，具体取决于管理员如何配置此选项：
 
       * 如果此选项不可见，则表示您的Analytics管理员未启用此功能。
 
