@@ -3,10 +3,10 @@ description: 导入器允许您将文件中的分类数据批量上载至分析�
 title: 分类数据文件
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
-source-wordcount: '1784'
-ht-degree: 100%
+source-git-commit: caeaef9415be93913bdf078a47c887fc21fd6e60
+workflow-type: tm+mt
+source-wordcount: '1798'
+ht-degree: 98%
 
 ---
 
@@ -109,11 +109,11 @@ ht-degree: 100%
 
 ### 分类列标题
 
-例如，Reports &amp; Analytics 自动包含两种[!UICONTROL 促销活动]变量分类：[!UICONTROL 促销活动]和[!UICONTROL 创作元素]。若要将数据添加到[!UICONTROL 促销活动]分类中，分类数据文件中的列标题应为[!UICONTROL 促销活动]。
+示例：您的Reports &amp; Analytics实施自动包含两个分类 [!UICONTROL Campaign] 变量： [!UICONTROL 营销活动] 和 [!UICONTROL 创意元素]. 若要将数据添加到[!UICONTROL 促销活动]分类中，分类数据文件中的列标题应为[!UICONTROL 促销活动]。
 
 >[!NOTE]
 >
->[!UICONTROL 分类]列标题中的值必须完全符合分类的命名规范，否则会导致导入失败。例如，如果管理员在[!UICONTROL 促销活动设置管理器]中将[!UICONTROL 促销活动]更改为[!UICONTROL 内部促销活动名称]，则文件列标题必须随之更改。
+>[!UICONTROL 分类]列标题中的值必须完全符合分类的命名规范，否则会导致导入失败。例如，如果管理员在[!UICONTROL 促销活动设置管理器]中将[!UICONTROL 促销活动]更改为[!UICONTROL 内部促销活动名称]，则文件列标题必须随之更改。“键”是一个保留的分类（标题）值。 不支持名为“Key”的新分类。
 
 此外，数据文件支持下列其他标题规范，用于标识子分类和其他特殊数据列：
 
