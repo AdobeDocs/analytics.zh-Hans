@@ -32,7 +32,7 @@ ht-degree: 90%
 
 ## 维度间流量 {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
-您可以显示[维度间的流量](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)。例如，您可以在一个图表中合并多个页面和部门。在这种情况下，您的流程可能会从主页转到Mens页面，然后转到Shoes部门。
+您可以显示[维度间的流量](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)。例如，您可以在一个图表中合并多个页面和部门。在这种情况下，您的流量可能从主页转到Mens页面，然后转到Shoes部门。
 
 每一列可显示一个不同的维度。在拖放区域中对维度进行拖放，以将该维度添加到图表。
 

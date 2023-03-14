@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: a0bed55f-042c-4963-b7e5-7a5369bba48e
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 62%
+source-wordcount: '109'
+ht-degree: 61%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 62%
 |--- |--- |
 | Internet Explorer | 最新版本 |
 | Firefox | 最新版本 |
-| Chrome | 最新版本. 注意： Activity MapChrome插件仅在此时为“开发人员模式”插件。 启动此插件时，您会收到一条消息，鼓励您禁用开发人员模式扩展。 每次启动插件时，都会显示此消息。 |
+| Chrome | 最新版本. 注意：仅目前，Activity MapChrome插件是“开发人员模式”插件。 启动此插件时，您会收到一条消息，鼓励您禁用开发人员模式扩展。 每次启动插件时都会显示此消息。 |
 
 >[!NOTE]
 >

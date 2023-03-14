@@ -4,7 +4,7 @@ description: 面向刚开始使用现有 Adobe Analytics 实施的管理员的�
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
 

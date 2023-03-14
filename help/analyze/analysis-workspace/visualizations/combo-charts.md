@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
 source-git-commit: b3f9d3fdac403cdd1be425c0c631fa93dde5cb13
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 97%
+source-wordcount: '755'
+ht-degree: 100%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 97%
 
 请牢记这一点：
 
-* 您可以在一个中添加多个比较 [!UICONTROL 组合图].
+* 您可以在单个[!UICONTROL 组合图表]中添加多个比较。
 * 如果添加一个或多个比较，则它们必须是同一类型，例如[!UICONTROL 时间比较]。
 * 最多可添加 5 个比较。
 * 您最多可以为一个量度应用 3 个过滤器（区段）。
-* 组合图中不支持计算量度。
+* 组合图表中不支持计算指标。
 
 ## 构建组合图表
 
@@ -47,7 +47,7 @@ ht-degree: 97%
    | **[!UICONTROL 函数]** | 您可以在比较中引入函数（例如[!UICONTROL 平均值]）。请参阅下面的支持函数列表。<p>![](assets/combo-functions.png) |
    | **[!UICONTROL 辅助量度]** | 例如，您可以将[!UICONTROL 收入]与另一个量度进行比较。<p>![](assets/combo-2metrics.png) |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. 单击&#x200B;**[!UICONTROL 生成]**。
 
@@ -71,7 +71,7 @@ ht-degree: 97%
 | **[!UICONTROL 平均值]** | 返回某度量的算术平均值或平均值。 |
 | **[!UICONTROL 列最小值]** | 返回某量度列的一组维度元素中的最小值。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 以下是“收入”量度的累积平均值的示例：
 
@@ -103,4 +103,4 @@ ht-degree: 97%
 | **[!UICONTROL 显示 Y 轴]** | 显示 Y 轴或隐藏它。 |
 | **[!UICONTROL 将 Y 轴固定在 0]** | 如果图表上绘制的所有值都远远大于零，则图表默认会将 y 轴底部设置为非零值。如果选中此框，y 轴将被强制设置为零（并将重新绘制图表）。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

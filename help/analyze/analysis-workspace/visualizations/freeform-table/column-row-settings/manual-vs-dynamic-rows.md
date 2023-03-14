@@ -1,11 +1,11 @@
 ---
-title: 自由格式表中的动态维度项目与静态维度项目
+title: 自由格式表中的动态维度项与静态维度项
 description: 如何与表中的动态维度项目和静态维度项目交互。
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
 source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 例如，将“浏览器类型”维度拖入表中后，则排名靠前的“浏览器类型”维度项目（例如 Microsoft、Apple、Google 等）会动态返回到表行。如果拖放到列中，则会动态返回排名前 5 的“浏览器类型”维度项目。
 
-动态维度项目具有行筛选器选项，并且&#x200B;**不会**&#x200B;出现锁图标和 X 图标。
+动态维度项目具有行过滤器选项，并且&#x200B;**不会**&#x200B;出现锁图标和 X 图标。
 
 ![](assets/dynamic-items.png)
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 例如，当您将鼠标拖到特定的“浏览器类型”项目（例如 Microsoft 和 Apple）上时，这 2 个特定项目始终会提取到表中。
 
-静态维度项目&#x200B;**没有**&#x200B;行筛选器选项。而锁图标和 X 图标则会显示在每个项目上。单击 X 图标可从表中删除该维度项目。
+静态维度项目&#x200B;**没有**&#x200B;行过滤器选项。而锁图标和 X 图标则会显示在每个项目上。单击 X 图标可从表中删除该维度项目。
 
 ![](assets/static-items.png)
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 动态行和静态行在自由格式表总计行中的行为方式有所不同。默认情况下：
 
-* 动态行是服务器端总和，并且去除了重复量度，例如访问次数和访客
+* 动态行是服务器端总和，并且去除了重复量度，例如访问次数和访客。
 * 静态行是客户端总和，并且&#x200B;**不会**&#x200B;去除重复量度。要计算服务器端总计行，请将“行”设置更改为&#x200B;**“显示总计”**。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=zh-Hans)
 
 ## 重新排序静态行

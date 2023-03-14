@@ -6,7 +6,7 @@ exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 source-git-commit: 5b426c0cc6f0a30c167f35d96fa1498ac0961c3e
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
 
@@ -20,24 +20,24 @@ ht-degree: 71%
 
 ## 使用Web SDK的产品
 
-产品包括 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在多个XDM字段下：
+产品包括 [已为Adobe Analytics映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在多个XDM字段下：
 
 * 类别已映射到 `productListItems[].lineItemId`.
-* 产品已映射到 `productListItems[].SKU` 或 `productListItems[].name`. 如果两个XDM字段都存在， `productListItems[].SKU` 中，将使用。
+* 产品已映射到 `productListItems[].SKU` 或 `productListItems[].name`. 如果两个XDM字段都存在， `productListItems[].SKU` 已使用。
 * 数量已映射到 `productListItems[].quantity`.
 * 价格已映射到 `productListItems[].priceTotal`.
-* 促销eVar被映射到 `productListItems._experience.analytics.customDimensions.eVars.eVar1` to `productListItems._experience.analytics.customDimensions.eVars.eVar250`，具体取决于您要绑定到产品的eVar。
-* 促销事件被映射到 `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems._experience.analytics.event901to1000.event1000.value`，具体取决于您要绑定到产品的事件。 如果在其中一个字段中设置事件，则该事件会自动包含在 [事件](events/events-overview.md) 字符串。
+* 促销eVar映射到 `productListItems._experience.analytics.customDimensions.eVars.eVar1` 到 `productListItems._experience.analytics.customDimensions.eVars.eVar250`，具体取决于要捆绑到产品的eVar。
+* 促销事件映射到 `productListItems[]._experience.analytics.event1to100.event1.value` 到 `productListItems._experience.analytics.event901to1000.event1000.value`，具体取决于您要捆绑到产品的事件。 如果您在其中某个字段中设置了事件，则该事件会自动包含在 [事件](events/events-overview.md) 发送到Adobe Analytics的字符串。
 
 >[!NOTE]
 >
->`lineItemId` 必须作为自定义字段进行添加，因为它尚未成为标准Analytics事件架构的一部分。 Adobe计划将来添加一个专用的“类别”字段。
+>`lineItemId` 必须添加为自定义字段，因为它尚未包含在标准Analytics事件架构中。 Adobe计划将来添加专用的“类别”字段。
 
 ## 使用Adobe Analytics扩展的产品
 
-Adobe Experience Platform数据收集中没有用于设置此变量的专用字段；但是，存在多个第三方扩展可提供帮助。
+Adobe Experience Platform数据收集中没有专门用于设置此变量的字段；但是，存在多个第三方扩展可帮助进行此设置。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]以查看所有可用的扩展。
 4. 搜索术语“product”，结果会显示若干可用于设置此变量的扩展。

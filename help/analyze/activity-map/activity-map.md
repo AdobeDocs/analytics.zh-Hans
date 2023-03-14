@@ -37,9 +37,9 @@ Activity Map 允许您设置不同的视图，以此来直观地标识客户活�
 
 * [可靠的链接跟踪](lnk-tracking-overview.md)
 * [标准模式与实时模式的对比](activitymap-standard-live.md)
-* [链接报表](activitymap-links-report.md)
+* [链接报告](activitymap-links-report.md)
 * [页面详细信息](activitymap-page-flow.md)
-* [整套指标](activitymap-complete-metrics.md)
+* [整套量度](activitymap-complete-metrics.md)
 * [实时页面分析](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
 * [客户分段](activitymap-multiple-segments.md)
 * [可自定义的叠加图](activitymap-gainerslosers.md)

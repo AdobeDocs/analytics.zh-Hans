@@ -13,4 +13,4 @@ ht-degree: 57%
 
 # 实施 Activity Map
 
-Activity Map可以使用Adobe Analytics标记扩展下的复选框来实施 [链接跟踪](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hans).
+可以通过Adobe AnalyticsActivity Map扩展中的复选框来标记标签，位于 [链接跟踪](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hans).

@@ -6,7 +6,7 @@ exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 69%
+ht-degree: 74%
 
 ---
 
@@ -18,13 +18,13 @@ Adobe 会使用 charSet 变量将传入数据转换为 UTF-8，以便 Analytics 
 
 ## Web SDK中的字符集
 
-Web SDK当前仅支持UTF-8，并且不提供更改编码的选项。
+Web SDK当前仅支持UTF-8，不提供更改编码的选项。
 
 ## Adobe Analytics扩展中的字符集
 
-字符集是 [!UICONTROL 常规] 折叠面板。
+“字符集”是 [!UICONTROL 常规] 在Adobe Experience Platform数据收集中配置Adobe Analytics扩展时的折叠面板。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
 1. 展开[!UICONTROL 常规]折叠面板，这会显示[!UICONTROL 字符集]字段。

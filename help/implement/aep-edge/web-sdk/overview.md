@@ -2,7 +2,7 @@
 title: 使用 Adobe Experience Platform Web SDK 实施 Adobe Analytics
 description: 使用 Adobe Experience Platform 数据收集中的 Web SDK 扩展将数据发送到 Adobe Analytics。
 source-git-commit: 97bff355a5d9bb737d510221b63ba1321aaf5812
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 100%
 

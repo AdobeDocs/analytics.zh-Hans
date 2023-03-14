@@ -5,7 +5,7 @@ feature: Implementation Basics
 source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 41%
+ht-degree: 51%
 
 ---
 
@@ -24,15 +24,15 @@ AppMeasurement for JavaScript 一直以来都是实施 Adobe Analytics 的常用
 </tr>
 
 <tr>
-<td>1</td><td>确保您 <b>定义了报表包</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">报表包管理器</a></td>
+<td>1</td><td>确保您拥有 <b>定义了一个报表包</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">报告包管理器</a></td>
 </tr>
 
 <tr>
-<td>2</td><td><b>下载AppMeasurement所需的JavaScript代码</b> 从代码管理器。 解压缩文件。</td><td><a href="../../admin/admin/code-manager-admin.md">代码管理器</a></td>
+<td>2</td><td><b>下载所需的JavaScript AppMeasurement代码</b> 代码管理器中的。 解压缩文件。</td><td><a href="../../admin/admin/code-manager-admin.md">代码管理器</a></td>
 </tr>
 
 <tr>
-<td>3</td><td><b>添加 <code>AppMeasurement.js</code> 到您网站的模板文件</b>. 代码包含将数据发送到Adobe所需的库。
+<td>3</td><td><b>添加 <code>AppMeasurement.js</code> 到您网站的模板文件</b>. 代码包含向Adobe发送数据所需的库。
 
 ```html
 <head>
@@ -60,7 +60,7 @@ s.trackingServer = "example.data.adobedc.net";
 </tr>
 
 <tr>
-<td>5</td><td><b>在网站的页面代码中定义页面级变量</b>. 此类变量可确定发送给 Adobe 的具体维度和量度。
+<td>5</td><td><b>在网站的页面代码中定义页面级别变量</b>. 此类变量可确定发送给 Adobe 的具体维度和量度。
 
 ```js
 s.pageName = "Example page";
@@ -72,7 +72,7 @@ s.events = "event1";
 </tr>
 
 <tr>
-<td>6</td><td><b>使用将数据发送到Adobe <code>t()</code> 方法</b>，时为定义所有页面变量。
+<td>6</td><td><b>使用将数据发送到Adobe <code>t()</code> 方法</b>，则表示已定义所有页面变量。
 
 ```js
 s.t();
@@ -82,7 +82,7 @@ s.t();
 </tr>
 
 <tr>
-<td>7</td><td><b>扩展并验证实施</b> 然后再推出生产。</b></td><td></td>
+<td>7</td><td><b>将您的实施</b>推向生产环境之前，对其进行扩展和验证。</b></td><td></td>
 </tr>
 
 </table>

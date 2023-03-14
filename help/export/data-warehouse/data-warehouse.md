@@ -1,20 +1,19 @@
 ---
-description: Data Warehouse 是指用于存储的 Analytics 数据副本，以及可通过过滤这些数据来运行的自定义报表。您可让报表根据您的特定问题显示原始数据的高级数据关系。Data Warehouse 报表通过电子邮件或 FTP 发送，过程可能需要长达 72 小时。处理时间取决于查询的复杂程度和请求的数据量。
+description: Data Warehouse 是指用于存储和自定义报告的 Analytics 数据副本，您可以通过筛选来运行这些数据。 您可以根据独特的问题，请求报告显示高级数据与原始数据的关系。 Data Warehouse 报告通过电子邮件或 FTP 发送，过程可能长达 72 小时。处理时间取决于查询的复杂程度和请求的数据量。
 title: Data Warehouse 概述
 feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '723'
 ht-degree: 100%
 
 ---
 
 # Data Warehouse 概述
 
-Data Warehouse 是指用于存储的 Analytics 数据副本，以及可通过过滤这些数据来运行的自定义报表。您可让报表根据您的特定问题显示原始数据的高级数据关系。Data Warehouse 报表通过电子邮件或 FTP 发送，过程可能需要长达 72 小时。处理时间取决于查询的复杂程度和请求的数据量。
+Data Warehouse 指的是用于存储和自定义报表的 Analytics 数据副本，您可以通过筛选数据来运行这些数据。 您可以基于独特的问题来请求报表，显示高级数据与原始数据的关系。 Data Warehouse 报告通过电子邮件或 FTP 发送，过程可能长达 72 小时。处理时间取决于查询的复杂程度和请求的数据量。
 
 对于特定的报表包，Adobe 仅为管理员级别的用户启用 Data Warehouse。（全局报表包和子报表包均可启用 Data Warehouse，但汇总报表包不可启用。）管理员可创建访问 Data Warehouse 的群组，然后将非管理员级别的用户关联到此群组。
 

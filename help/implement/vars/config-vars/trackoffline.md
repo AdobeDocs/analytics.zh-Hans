@@ -6,7 +6,7 @@ exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 83%
+ht-degree: 89%
 
 ---
 
@@ -34,9 +34,9 @@ Web SDK不支持离线跟踪。
 
 ## 使用Adobe Analytics扩展进行离线跟踪
 
-Adobe Analytics扩展中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
+Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照 AppMeasurement 语法使用自定义代码编辑器。
 
-## AppMeasurement和Analytics扩展的自定义代码编辑器中的s.trackOffline
+## AppMeasurement和Analytics扩展自定义代码编辑器中的s.trackOffline
 
 `s.trackOffline` 变量是一个布尔值，用于启用或禁用离线跟踪。其默认值为 `false`。如果要启用离线跟踪，则将此值设置为 `true`。
 

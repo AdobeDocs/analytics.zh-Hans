@@ -5,7 +5,7 @@ feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
 source-git-commit: f48c7c404312562ad4f443af8e7c7643e5d3f17b
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '804'
 ht-degree: 95%
 
 ---
@@ -54,13 +54,13 @@ ht-degree: 95%
 | 功能 | 虚拟报表包 | 多包标记 |
 |--- |--- |--- |
 | 提供实时或“当前数据”报表 | 否 | 是 |
-| 在所有 Analytics 工具（Analysis Workspace、Report Builder 等等）中工作 | 是。**注意：** 您只能在 [!UICONTROL Analytics] > [!UICONTROL 组件] > [!UICONTROL 虚拟报表包]. 但是，在其他工具中，您可以从报表包下拉菜单中选择虚拟报表包。<p>**重要信息**:当前，Adobe Report Builder不支持具有报表时间处理和变量自定义功能的虚拟报表包。 | 是 |
+| 在所有 Analytics 工具（Analysis Workspace、Report Builder 等等）中工作 | 是。**注意：** 您只能在中编辑和标识虚拟报表包 [!UICONTROL 分析] > [!UICONTROL 组件] > [!UICONTROL 虚拟报表包]. 但是，在其他工具中，您可以从报表包下拉菜单中选择虚拟报表包。<p>**重要**：Adobe Report Builder当前不支持具有报表时间处理和变量自定义的虚拟报表包。 | 是 |
 | 可向其上载数据（通过 分类、数据馈送等） | 否 | 是 |
 | 支持创建 DL 报表、书签、功能板、目标、警报、区段和计算量度... | 是 | 是 |
 | 可单独添加至权限群组 | 是 | 是 |
 | 可使用“管理员”功能修改此报表包的各个设置（管理员 > 报表包） | 否（从父项继承设置） | 是 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 将虚拟报表包与多包标记结合使用 {#section_026FA3FCD7314DD18220E73EC5702AFF}
 

@@ -6,7 +6,7 @@ exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 80%
+ht-degree: 84%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 80%
 
 ## 使用Web SDK的Cookie生命周期
 
-Web SDK尚未提供对其设置的Cookie的生命周期进行自定义。
+Web SDK尚不提供对其设置的Cookie生命周期的自定义。
 
 ## 使用Adobe Analytics扩展的Cookie生命周期
 
 “Cookie 生命周期”是在配置 Adobe Analytics 扩展时显示在 [!UICONTROL Cookie] 折叠面板中的一个下拉列表。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
 1. 展开 [!UICONTROL Cookie] 折叠面板，这会显示 [!UICONTROL Cookie 生命周期]下拉字段。

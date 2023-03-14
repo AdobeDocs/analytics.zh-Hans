@@ -6,23 +6,23 @@ exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 82%
+ht-degree: 89%
 
 ---
 
-# 反向链接
+# referrer
 
 `referrer` 变量将覆盖报表中自动收集的反向链接。当反向链接可能丢失时，例如重定向访客或将访客临时转发给支付处理器时，此变量很有帮助。此变量有助于填充“反向链接”和“反向链接域”维度。
 
 ## 使用Web SDK的反向链接
 
-反向链接为 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `web.webReferrer.URL`.
+反向链接是 [已为Adobe Analytics映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `web.webReferrer.URL`.
 
 ## 使用Adobe Analytics扩展的反向链接
 
 您可以在配置 Analytics 扩展时（全局变量）或根据规则设置反向链接。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。

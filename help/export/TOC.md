@@ -6,8 +6,8 @@ breadcrumb-title: 导出指南
 user-guide-description: 了解如何使用数据馈送导出原始数据以及使用 Data Warehouse 检索数据的电子表格输出形式。了解如何使用 FTP 和 SFTP 传输文件。
 source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '296'
+ht-degree: 100%
 
 ---
 

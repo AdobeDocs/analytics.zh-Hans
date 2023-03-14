@@ -4,8 +4,8 @@ description: 关于区域数据收集的信息
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
 source-git-commit: 8f02656820ed0b9201f29fc9dca6870e6f7fe8fd
-workflow-type: ht
-source-wordcount: '468'
+workflow-type: tm+mt
+source-wordcount: '462'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,7 @@ RDC 目前包括以下位置（可能发生变化）：
 | --- | --- |
 | 默认 | 俄勒冈、弗吉尼亚、爱尔兰、巴黎、孟买、新加坡、东京、悉尼、中国* |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 *中国 RDC 需要中国加载项包。请参阅下面的[中国性能优化](#china-performance-optimization)。
 
@@ -52,7 +52,7 @@ RDC 目前包括以下位置（可能发生变化）：
 | 仅限亚太地区 | 孟买、新加坡、东京、悉尼 |
 | 仅限中国* | 北京 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 *“仅限中国”和“全球 + 中国”RDC 类型需要中国加载项包。“全球 + 中国”会将源自中国境内的数据路由到 Adobe 的中国 RDC，同时将源自中国境外的数据路由到中国境外最近的 RDC。请参阅下面的[中国性能优化](#china-performance-optimization)。
 

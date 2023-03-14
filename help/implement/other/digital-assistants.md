@@ -4,7 +4,7 @@ description: 在数字助理（如 Amazon Alexa 或 Google Home）上实施 Adob
 feature: Implementation Basics
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1265'
 ht-degree: 100%
 

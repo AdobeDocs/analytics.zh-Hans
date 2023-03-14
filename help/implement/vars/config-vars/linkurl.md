@@ -6,7 +6,7 @@ exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 61%
+ht-degree: 76%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 61%
 
 每当向 Adobe 发送链接跟踪调用时，数据收集服务器都会自动检测 URL。使用 `linkURL` 变量可覆盖检测到的 URL。
 
-## 使用Web SDK链接URL
+## 使用Web SDK的“链接URL”
 
-链接URL为 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `web.webInteraction.URL`.
+链接URL为 [已为Adobe Analytics映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=zh-Hans) 在XDM字段下 `web.webInteraction.URL`.
 
-## 使用Adobe Analytics扩展的链接URL
+## 使用Adobe Analytics扩展的“链接URL”
 
-Adobe Analytics扩展中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
+Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照 AppMeasurement 语法使用自定义代码编辑器。
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.linkURL
 

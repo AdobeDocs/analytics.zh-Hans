@@ -13,13 +13,13 @@ ht-degree: 77%
 
 # 临时项目区段
 
-利用Ad Hoc项目区段，可将任何组件直接拖放到面板拖放区域中以创建区段。 该区段将成为当前项目的本地[项目级区段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F)。
+通过临时项目区段，可以将任何组件直接拖放到面板拖放区域中来创建区段。 该区段将成为当前项目的本地[项目级区段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F)。
 
-以下是有关创建临时项目区段的视频：
+以下是一段关于创建临时项目区段的视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
-1. 将任意组件类型（维度、维度项、事件、指标、区段、区段模板、日期范围）拖入面板顶部的区段放置区域。组件类型会自动转换为临时区段或 [快速区段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) 兼容。
+1. 将任意组件类型（维度、维度项、事件、指标、区段、区段模板、日期范围）拖入面板顶部的区段放置区域。组件类型会自动转换为临时区段或 [快速区段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) 如果兼容。
 以下是如何为 Twitter 反向链接域创建区段的示例：
 
    ![](assets/ad-hoc1.png)
@@ -39,7 +39,7 @@ ht-degree: 77%
 
 ## 保存临时区段 {#ad-hoc-save}
 
-通过保存临时区段，可以将其提供给其他项目。
+通过保存临时区段，可以将临时区段提供给其他项目。
 
 1. 将光标悬停在放置区域中的区段上，然后单击“i”图标。
 1. 单击编辑铅笔转到区段生成器。

@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 13ba343d-bb17-455e-a078-1036d81383a1
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 100%
 
 ---
@@ -25,5 +25,4 @@ ht-degree: 100%
 >* **编辑：**&#x200B;下载并打开工作簿以进行编辑。如果要上载先前下载以进行编辑的工作簿，必须手动完成。
 >* **删除：**&#x200B;允许您删除已上载的工作簿。只有工作簿的所有者才能删除工作簿。
 >
-
 

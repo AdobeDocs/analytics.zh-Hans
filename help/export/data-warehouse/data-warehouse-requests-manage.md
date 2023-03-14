@@ -4,10 +4,9 @@ title: 管理 Data Warehouse 请求
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '155'
 ht-degree: 80%
 
 ---
@@ -31,6 +30,6 @@ ht-degree: 80%
 * 通过将报表拖放到队列中的新位置，重新安排报表的优先级。
 * 要查看请求开始处理的时间，请单击计划请求 ID，然后检查打开的弹出窗口。
 
-单击某个作业可查看该作业的单个请求。
+单击某个作业可查看该作业的各个请求。
 
-* 费率有限：您的组织正在运行的Data warehouse请求过多。 请求将暂停，直到其他数据请求完成。
+* 速率限制：您的组织运行的Data warehouse请求过多。 请求将暂停，直到其他数据请求完成。

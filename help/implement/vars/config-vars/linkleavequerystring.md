@@ -6,7 +6,7 @@ exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 80%
+ht-degree: 84%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 80%
 
 ## 使用Web SDK处理链接查询字符串
 
-未从XDM字段中清除查询字符串 `web.webInteraction.URL`. 如果要从此XDM字段中删除查询字符串，可以使用 `onBeforeEventSend`.
+查询字符串不会从XDM字段中清除 `web.webInteraction.URL`. 如果要从此XDM字段中去除查询字符串，可以使用以下方式编辑它 `onBeforeEventSend`.
 
 ## 使用Adobe Analytics扩展保留URL参数
 
 [!UICONTROL 保留 URL 参数]是配置 Adobe Analytics 扩展时位于[!UICONTROL 链接跟踪]折叠面板下方的复选框。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;]**配置**[!UICONTROL &#x200B;按钮。
 4. 展开[!UICONTROL 链接跟踪]折叠面板，这会显示[!UICONTROL 保留 URL 参数]复选框。

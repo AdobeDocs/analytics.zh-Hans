@@ -6,7 +6,7 @@ feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: 54ec253516a6d735f02914887c72ef966ce36862
 workflow-type: tm+mt
-source-wordcount: '3947'
+source-wordcount: '3944'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 | **[!UICONTROL 新建项目]**&#x200B;模式恢复 | 当在 Workspace 中单击&#x200B;**[!UICONTROL 新建项目]**&#x200B;时，您可再次在[!UICONTROL 空白项目]和[!UICONTROL 空白移动记分卡]之间进行选择。 您也可以从公司创建的任何模板中进行选择。 | ![新建](assets/create-new.png) |
 | 也在 Customer Journey Analytics 中提供 | 此登录页面的修改版也将在 CJA 中提供。 |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 顶部菜单结构 {#top-menu}
 

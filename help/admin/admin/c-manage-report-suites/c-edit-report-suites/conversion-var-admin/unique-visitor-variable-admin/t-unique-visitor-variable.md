@@ -4,7 +4,7 @@ title: 指定独特访客变量
 feature: Admin Tools
 exl-id: 20d5cd43-9ab2-4e36-8faf-607176378f8b
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 100%
 

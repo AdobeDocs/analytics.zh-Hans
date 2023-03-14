@@ -4,9 +4,9 @@ title: 转化分类
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '556'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 转化分类可用于分类转化变量。分类后，任何可使用关键数据生成的报告也可通过关联的数据属性来生成。
 
-启用分类后，使用[分类导入器](/help/components/classifications/importer/c-working-with-saint.md)将特定的值指定给相应的分类。
+启用分类后，请使用 [分类导入器](/help/components/classifications/importer/c-working-with-saint.md) 以将特定值分配给相应的分类。
 
 >[!WARNING]
 >

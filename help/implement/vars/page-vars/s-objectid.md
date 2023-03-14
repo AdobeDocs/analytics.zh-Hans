@@ -6,7 +6,7 @@ exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 91%
 
 ## 使用Adobe Analytics扩展的对象ID
 
-Adobe Analytics扩展中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
+Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照 AppMeasurement 语法使用自定义代码编辑器。
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s_objectID
 

@@ -6,7 +6,7 @@ exl-id: b05b628c-bae6-4dba-bc1d-6a1ab56e3660
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '181'
-ht-degree: 73%
+ht-degree: 80%
 
 ---
 
@@ -18,7 +18,7 @@ Cookie 可以在同一域上的不同页面中存储和检索信息。使用 `Ut
 
 您可以通过在数据元素中设置值来读取 Cookie。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 数据元素]选项卡，然后单击所需的数据元素（或创建数据元素）。
 4. 将[!UICONTROL 扩展]下拉列表设置为&#x200B;**[!UICONTROL 核心]**，将[!UICONTROL 数据元素类型]设置为 **[!UICONTROL Cookie]**。

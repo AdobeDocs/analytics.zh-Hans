@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 6dbf94f1-f70e-40d3-a76f-fef298be19f5
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '301'
 ht-degree: 92%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 92%
 
 ![](assets/report_builder_toolbar.png)
 
-**登录：** 显示日志通  知，以便您可以使用您的凭据或以其他用户身份登录。在登录后，还将显示您的公司名称。请参阅 [Report Builder 登录](/help/analyze/report-builder/setup/login.md).
+**登录：** 显示 [!UICONTROL 登录] ，以便您可以使用您的凭据或以其他用户的身份登录。 在登录后，还将显示您的公司名称。请参阅 [Report Builder 登录](/help/analyze/report-builder/setup/login.md).
 
 **创建：**&#x200B;启动[!UICONTROL 请求向导]。如果您未登录，则会提示您登录。请参阅[数据请求](/help/analyze/report-builder/data-requests/data-requests.md)。
 
@@ -34,7 +34,7 @@ ht-degree: 92%
 
 **库：**&#x200B;启动“[!UICONTROL 工作簿库]”，以便您可以上载要共享的 Report Builder Excel 工作簿。您还可以下载并编辑共享的工作簿。请参阅[使用工作簿库](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md)。
 
-**选项：**&#x200B;允许您指定是否希望在刷新请求时提示您输入&#x200B;**[!UICONTROL 截止]**（“现在”）日期，并且允许您启用日志记录功能，以用于疑难解答。请参阅[选项](/help/analyze/report-builder/options.md)。
+**选项：**&#x200B;允许您指定是否希望在刷新请求时提示您输入&#x200B;**[!UICONTROL 截止]**（“现在”）日期，并且允许您启用日志记录功能，以用于疑难解答。参见 [选项](/help/analyze/report-builder/options.md).
 
 **锁定/解锁：**&#x200B;您可以锁定工作簿，从而防止对工作簿中的所有请求执行添加和编辑操作。这允许通过暂停所有报表请求来脱机编辑工作簿，从而提高编辑效率。请参阅[锁定/解锁工作簿](/help/analyze/report-builder/workbook-library/protect-wb.md)。
 

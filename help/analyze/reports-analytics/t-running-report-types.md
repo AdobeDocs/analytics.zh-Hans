@@ -59,7 +59,7 @@ ht-degree: 97%
 
 页面流量报表显示访客访问页面和导航网站的顺序。此报表有助于解答相关问题。
 
-查看 [流量可视化图表](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) 在Analysis Workspace!
+查看 [流量可视化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) 在Analysis Workspace中！
 
 例如，单击&#x200B;**[!UICONTROL 报表]** > **[!UICONTROL 路径]** > **[!UICONTROL 页面]** > **[!UICONTROL 下一页面流量]**。
 
@@ -71,7 +71,7 @@ ht-degree: 97%
 
 ## 运行异常检测报表 {#task_4808C96327354D789C075823F5C3A049}
 
-您可以运行 [异常检测和贡献分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=zh-Hans) 只在Analysis Workspace。
+您可以运行 [异常检测和贡献分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=zh-Hans) 仅在Analysis Workspace中。
 
 ## 运行实时报表 {#task_5D25929C918E40B18965222FA94176B0}
 
@@ -81,7 +81,7 @@ ht-degree: 97%
 
 实时报表提供了两个主要的报表 - 概述报表和详细信息报表。每个报表都包含许多缩图报表。
 
-请参阅 [实时报告概述](/help/components/c-real-time-reporting/realtime.md) 以了解更多信息。
+参见 [实时报表概述](/help/components/c-real-time-reporting/realtime.md) 了解更多信息。
 
 1. 了解&#x200B;**[!UICONTROL 概述]**&#x200B;报表及其组件：![](assets/rtr_overview_report.png)
 

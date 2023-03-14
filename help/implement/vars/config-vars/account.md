@@ -10,7 +10,7 @@ ht-degree: 47%
 
 ---
 
-# 帐户
+# account
 
 >[!IMPORTANT]
 >
@@ -19,5 +19,5 @@ ht-degree: 47%
 在早期版本的 Adobe Analytics 中，`account` 变量用于确定要将数据发送到的报表包。需要具有报表包 ID 才能将数据发送到 Adobe Analytics。
 
 * 如果您使用Web SDK，则报表包位于Web SDK将数据发送到的数据流中的Adobe Analytics服务设置中。
-* 如果您使用Adobe Analytics扩展，则报表包位于 [!UICONTROL 库管理] 折叠面板。
-* 如果您使用 [`s_gi()`](../functions/s-gi.md) 函数实例化Analytics跟踪对象时，报表包ID已作为函数中的必需参数存在。
+* 如果您使用Adobe Analytics扩展，则报表包位于 [!UICONTROL 库管理] 配置Adobe Analytics扩展时显示的可折叠项。
+* 如果您使用 [`s_gi()`](../functions/s-gi.md) 函数来实例化Analytics跟踪对象，报表包ID已作为函数中的必需参数存在。

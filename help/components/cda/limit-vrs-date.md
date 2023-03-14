@@ -2,9 +2,8 @@
 title: 将 VRS 限制在特定日期
 description: 了解如何将 VRS 日期范围限制为仅限合并的数据。
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
-translation-type: ht
 source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
 

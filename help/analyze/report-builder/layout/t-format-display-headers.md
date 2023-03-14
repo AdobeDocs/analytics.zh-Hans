@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '408'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 100%
 
    | 元素 | 描述 |
    |--- |--- |
-   | 报表名称 | 显示从“请求向导：第 1 步”的树中选择的报表类型的名称（例如，[!DNL Traffic Report]），或者显示您在 [!DNL Name this Request] 字段中键入的名称。 |
+   | 报告名称 | 显示从“请求向导：第 1 步”的树中选择的报表类型的名称（例如，[!DNL Traffic Report]），或者显示您在 [!DNL Name this Request] 字段中键入的名称。 |
    | 过滤器参数 | 显示维度过滤器，如搜索过滤器。 |
    | 区段 | 显示区段参数。 |
    | “数据新近度” | 显示数据新近度参数。例如：数据新近度：页面查看次数（1.5 小时前）、退出次数（30 分钟前）。有关当前数据处理的信息，请参阅[选项](/help/analyze/report-builder/options.md)。 |

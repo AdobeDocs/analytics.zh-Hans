@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '314'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 使用的任何文件名所包含的字符数不能超过 255 个。此外，文件名不能包含以下字符：
 
-\ ? | > &lt; :/ * &#39; &quot;
+\ ? | > &lt; : / &#42; &#39; &quot;
 
 最后，不能使用除扩展 ASCII 字符集之外的 Unicode 字符。
 

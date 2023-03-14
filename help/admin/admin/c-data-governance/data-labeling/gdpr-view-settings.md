@@ -5,7 +5,7 @@ feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 source-git-commit: 0f5a1e7264b194b368731f612a04bb805740a932
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '864'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 100%
 | **[!UICONTROL 命名空间]** | 在为变量设置 ID-DEVICE 或 ID-PERSON 标签时，系统会提示您提供一个命名空间。您可以使用先前已定义的命名空间或者定义一个新的命名空间。[了解详情](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=zh-Hans#provide-namespace) |
 | **[!UICONTROL 类别]** | 指组件类型，如标准组件、转化变量等。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 将隐私标签复制到报告包  {#copy-to-rs}
 

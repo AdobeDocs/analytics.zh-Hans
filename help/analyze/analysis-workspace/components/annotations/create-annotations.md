@@ -5,8 +5,8 @@ role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
 source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
-workflow-type: ht
-source-wordcount: '590'
+workflow-type: tm+mt
+source-wordcount: '584'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 100%
 | **在工作区中，转到[!UICONTROL 组件] > [!UICONTROL 创建注释]。** | 随后将打开[!UICONTROL 注释生成器]。 |
 | **使用此热键**&#x200B;打开注释生成器：(PC) `ctrl` `shift` + o、(Mac) `shift` + `command` + o | 请注意，使用热键创建注释，您只是为当前日期创建单日注释，并无任何预先选择的范围（指标或维度）。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 1. 填写[!UICONTROL 注释生成器]的各个元素。
 
@@ -40,6 +40,6 @@ ht-degree: 100%
    | [!UICONTROL 范围] | （可选）拖放触发注释的指标。然后拖放充当过滤器（即，与注释一起可见的内容）的任何维度或区段。如果不指定范围，注释将应用于您的所有数据。<ul><li>**[!UICONTROL 以下任一指标存在]**：拖放最多 10 个会触发注释显示的指标。</li><li>**[!UICONTROL 使用所有这些过滤器]**：拖放最多 10 个会在注释显示时进行过滤的维度或区段。</li></ul><p>用例：eVar 已停止收集特定日期范围的数据。将 eVar 拖入&#x200B;**[!UICONTROL 以下任一指标存在]**&#x200B;对话框。否则，您的[!UICONTROL 访问量]指标不会报告任何数据 — 请遵循相同的过程。<p>**请注意：**&#x200B;任何应用于组件、随后用作计算指标或区段定义的一部分的注释，均不自动继承注释。还必须将所需的计算指标添加到范围部分才能显示注释。但是，应为要用相同信息进行注释的任何区段创建新的注释。<p>示例：将注释应用于某一天的[!UICONTROL 订单]。然后，在相同日期范围的某个计算指标中使用[!UICONTROL 订单]。新的计算指标将不自动显示订单的注释；还必须将该计算指标添加到范围部分才能显示注释。 |
    | [!UICONTROL 应用于所有报表包] | 默认情况下，注释应用于原始报表包。通过选中此框，您可以使注释应用于公司内的所有报表包。 |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。

@@ -40,9 +40,9 @@ t_add_an_alert.xml
 
  -->
 
-### 从警报生成器中添加警报
+### 从警报生成器添加警报
 
-1. 选择 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** 以打开警报生成器。
+1. 选择 **[!UICONTROL 分析]** > **[!UICONTROL 组件]** 以打开警报生成器。
 
 ### 从单个报表添加警报
 

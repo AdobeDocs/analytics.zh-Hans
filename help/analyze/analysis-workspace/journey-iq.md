@@ -4,7 +4,7 @@ description: 了解构成历程 IQ 的功能，历程 IQ 是 Adobe Analytics 的
 role: User, Admin
 exl-id: dcc56996-625d-4179-bd58-f0dc1241ad57
 source-git-commit: 9b50e77b3998753d45a25799dbed6094b048c118
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 100%
 

@@ -28,7 +28,7 @@ AppMeasurement 将 JavaScript 变量编译到图像请求中以用于数据收�
 
 ## 维度项目
 
-由于 eVar 在您的实施中包含自定义字符串，因此，由您的组织来确定每个 eVar 的维度项目。确保在 [解决方案设计文档](/help/implement/prepare/solution-design.md).
+由于 eVar 在您的实施中包含自定义字符串，因此，由您的组织来确定每个 eVar 的维度项目。确保将每个eVar的用途和典型维度项目记录在 [解决方案设计文档](/help/implement/prepare/solution-design.md).
 
 ## eVar 的工作方式
 

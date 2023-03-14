@@ -6,7 +6,7 @@ exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 72%
+ht-degree: 77%
 
 ---
 
@@ -20,22 +20,22 @@ ht-degree: 72%
 
 >[!WARNING]
 >
->如果启用 `writeSecureCookies` 变量，请确保网站上的所有内容都通过 HTTPS 协议来安全地提供。如果启用了此变量，并且您的页面上有不安全的内容，则数据收集无法正常工作。
+>如果启用 `writeSecureCookies` 变量，请确保网站上的所有内容都通过 HTTPS 协议来安全地提供。如果启用此变量，并且您的页面上有不安全的内容，则数据收集无法正常工作。
 
 ## 在Web SDK中使用安全Cookie
 
-如果您的网站使用HTTPS协议，则会为Web SDK设置的所有Cookie设置“安全”属性。
+如果您的网站使用HTTPS协议，则会为Web SDK设置的所有Cookie设置Secure属性。
 
 ## 使用Adobe Analytics扩展编写安全Cookie
 
 在配置 Adobe Analytics 扩展时，[!UICONTROL 编写安全 Cookie]是 [!UICONTROL Cookie] 折叠面板下的一个复选框。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
 4. 展开 [!UICONTROL Cookie] 折叠面板，这会显示[!UICONTROL 编写安全 Cookie] 复选框。
 
-## AppMeasurement和Analytics扩展的自定义代码编辑器中的s.writeSecureCookies
+## AppMeasurement和Analytics扩展自定义代码编辑器中的s.writeSecureCookies
 
 `s.writeSecureCookies` 变量是一个布尔值，用于确定 AppMeasurement 在创建 Cookie 时是否为 Cookie 设置了安全属性。其默认值为 `false`。如果网站上的所有内容都安全，并且您希望 AppMeasurement 设置的 Cookie 具有“安全”属性，请将此变量设置为 `true`。
 

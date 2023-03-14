@@ -97,7 +97,7 @@ ht-degree: 100%
       + [圆环图](analysis-workspace/visualizations/donut.md)
       + [直方图](analysis-workspace/visualizations/histogram.md)
       + [水平条形图和堆叠的水平条形图](analysis-workspace/visualizations/horizontal-bar.md)
-      + [关键量度摘要](analysis-workspace/visualizations/key-metric.md)
+      + [关键度量摘要](analysis-workspace/visualizations/key-metric.md)
       + [折线图](analysis-workspace/visualizations/line.md)
       + [地图](analysis-workspace/visualizations/map-visualization.md)
       + [散点图](analysis-workspace/visualizations/scatterplot.md)

@@ -23,7 +23,7 @@ ht-degree: 95%
 >
 >使用功能板管理器时的最佳做法是：任何一个用户最多拥有 300 个功能板。另外请注意，管理器会加载下面所有共享的功能板，因此，共享功能板时要谨慎。
 
-单击 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 功能板]**.
+单击 **[!UICONTROL 分析]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 仪表板]**.
 
 | 元素 | 描述 |
 |--- |--- |
@@ -37,7 +37,7 @@ ht-degree: 95%
 
 要管理共享功能板，请执行以下操作：
 
-1. 转到 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 功能板]**.
+1. 转到 **[!UICONTROL 分析]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 仪表板]**.
 1. 在“[!UICONTROL 共享功能板]”下方，找到您要管理的共享功能板（或原有功能板），然后选取下面一个或多个选项：
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 

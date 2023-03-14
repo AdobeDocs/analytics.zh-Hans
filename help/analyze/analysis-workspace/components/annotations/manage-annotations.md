@@ -5,8 +5,8 @@ role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
 source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
-workflow-type: ht
-source-wordcount: '683'
+workflow-type: tm+mt
+source-wordcount: '677'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 100%
 | [!UICONTROL 共享对象] | 列出您与多少个人或组共享注释。单击以了解更多详细信息。 |
 | [!UICONTROL 修改日期] | 显示上次修改注释的日期和时间。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 编辑注释
 
@@ -78,4 +78,4 @@ ht-degree: 100%
 | [!UICONTROL 导出到 CSV] | 将注释定义导出到 .csv 文件。 |
 | [!UICONTROL 筛选]（左边栏） | 按标记、报表包、所有者和其他筛选器（“我的”、“已批准”、“收藏”、“已与我共享”和“全部显示”）进行筛选。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

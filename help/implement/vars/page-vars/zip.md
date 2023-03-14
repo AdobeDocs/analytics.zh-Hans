@@ -4,7 +4,7 @@ description: 在报表包设置允许时手动填充“邮政编码”维度。
 feature: Variables
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 100%
 

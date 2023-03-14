@@ -1,12 +1,12 @@
 ---
-description: 在 Analysis Workspace 中划分维度和维度项目。
-keywords: Analysis Workspace
+description: 在分析工作区中划分维度和维度项目。
+keywords: 分析工作区
 title: 划分维度
 feature: Dimensions
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 ## 视频
 
-在 Analysis Workspace 中将维度和量度添加到项目：
+在分析工作区中将维度和量度添加到项目：
 
 >[!VIDEO](https://video.tv.adobe.com/v/30606/?quality=12)
 

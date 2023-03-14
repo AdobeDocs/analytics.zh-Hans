@@ -4,7 +4,7 @@ title: 引用：基本函数
 feature: Calculated Metrics
 exl-id: 1a49435c-96d1-4617-bd1a-a5d3b74e3ebd
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 100%
 
@@ -178,7 +178,7 @@ QUARTILE(metric,quart)
 | *metric* | 您希望求四分位数值的指标。 |
 | *quart* | 指示要返回哪个*值。 |
 
-*如果 *quart* = 0，则 QUARTILE 返回最小值。如果 *quart* = 1，则 QUARTILE 返回第一个四分位数（第 25 个百分位数）。如果 *quart* = 2，则 QUARTILE 返回第一个四分位数（第 50 个百分位数）。如果 *quart* = 3，则 QUARTILE 返回第一个四分位数（第 75 个百分位数）。如果 *quart* = 4，则 QUARTILE 返回最大值。
+&#42;如果 *quart* = 0，则 QUARTILE 会返回最小值。如果 *quart* = 1，则 QUARTILE 返回第一个四分位数（第 25 个百分位数）。如果 *quart* = 2，则 QUARTILE 返回第一个四分位数（第 50 个百分位数）。如果 *quart* = 3，则 QUARTILE 返回第一个四分位数（第 75 个百分位数）。如果 *quart* = 4，则 QUARTILE 返回最大值。
 
 ## 轮次 {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
 

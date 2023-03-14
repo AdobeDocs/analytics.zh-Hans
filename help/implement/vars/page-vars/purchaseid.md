@@ -6,7 +6,7 @@ exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 80%
+ht-degree: 87%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 80%
 
 ## 使用Web SDK的购买ID
 
-购买ID为 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `commerce.order.purchaseID`.
+购买ID为 [已为Adobe Analytics映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=zh-Hans) 在XDM字段下 `commerce.order.purchaseID`.
 
-## 使用Adobe Analytics扩展的购买ID
+## 使用Adobe Analytics扩展的“购买ID”
 
-Adobe Analytics扩展中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
+Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照 AppMeasurement 语法使用自定义代码编辑器。
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.purchaseID
 

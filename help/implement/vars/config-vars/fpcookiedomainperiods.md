@@ -6,7 +6,7 @@ exl-id: e994a188-1dab-4bf0-912b-cd2f6a1032e0
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 82%
+ht-degree: 86%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 82%
 >
 >此变量不考虑子域。例如，不要在示例 URL `store.toys.example.com` 上设置 `fpCookieDomainPeriods`。默认情况下，AppMeasurement 允许将 Cookie 存储在 `example.com` 上，甚至存储在具有许多子域的 URL 上。
 
-## 使用Web SDK的第一方域名句点
+## 使用Web SDK的第一方域名段
 
 Web SDK可以在没有此变量的情况下确定正确的Cookie存储域。
 
@@ -29,7 +29,7 @@ Web SDK可以在没有此变量的情况下确定正确的Cookie存储域。
 
 “第一方域名段”是在配置 Adobe Analytics 扩展时位于 [!UICONTROL Cookie] 折叠面板下的一个字段。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;]**配置**[!UICONTROL &#x200B;按钮。
 4. 展开 [!UICONTROL Cookie] 折叠面板，这会显示[!UICONTROL 第一方域名段]字段。

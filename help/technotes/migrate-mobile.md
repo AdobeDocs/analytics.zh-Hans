@@ -30,7 +30,7 @@ ht-degree: 93%
 
    ![上下文变量](assets/context-var.png)
 
-1. 在Experience Cloud中，切换到Adobe Analytics，并确保您位于在Mobile Services中查看的同一移动设备报表包中。
+1. 在Experience Cloud中，切换到Adobe Analytics并确保您位于在Mobile Services中查看的同一移动设备报表包中。
 1. 转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 报表包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 常规]** > **[!UICONTROL 处理规则]**。
 1. 单击&#x200B;**[!UICONTROL 添加规则]**。
 1. 忽略条件并继续，添加与在 Mobile Services 中相同的上下文变量。

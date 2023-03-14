@@ -1,5 +1,5 @@
 ---
-description: 区域可视化与折线图类似，只是折线图下方显示了彩色区域。
+description: 面积可视化图表与折线图类似，只是线条下方显示了彩色区域。
 title: 面积图和堆叠的面积图
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizations

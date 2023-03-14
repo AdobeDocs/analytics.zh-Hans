@@ -6,13 +6,13 @@ feature: Visualizations
 role: User, Admin
 exl-id: e6f175f5-7228-495b-a20a-3276633c1d77
 source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 100%
 
 ---
 
-# [!UICONTROL 树图]
+# [!UICONTROL 树形图]
 
 将分层（树结构）数据显示为一组嵌套的矩形。
 

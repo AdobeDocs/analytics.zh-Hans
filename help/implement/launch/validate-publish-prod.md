@@ -6,7 +6,7 @@ exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '631'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Experience Cloud Debugger 是一个可显示页面上存在的所有 Experience 
 
 一旦确认看到数据，则可在网站实时版本推出实施。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击要在网站上实施的标记属性。
 1. 单击&#x200B;**[!UICONTROL 发布]**&#x200B;选项卡，并在开发列中找到您的库。
 1. 单击库上的下拉列表，然后选择&#x200B;**[!UICONTROL 提交以供审批]**。在模态窗口中单击&#x200B;**[!UICONTROL 提交]**。

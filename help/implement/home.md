@@ -3,7 +3,7 @@ title: 实施 Adobe Analytics
 description: 在您的网站、属性或应用程序上实施 Adobe Analytics。
 feature: Implementation Basics
 source-git-commit: d9a5d8a15b9e108af795cdfb7ed5481d51311328
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 100%
 

@@ -29,7 +29,7 @@ ht-degree: 92%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. 未将报表包映射到登录用户的 Experience Cloud 组织 ID。 </p> </td> 
-   <td colname="col2"> <p>请联系客户关怀团队，将报表包映射到组织ID。</p> </td> 
+   <td colname="col2"> <p>联系客户关怀团队以将报表包映射到组织ID。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. 报表包没有配置为可以使用 Advertising Analytics 报告功能。 </p> </td> 

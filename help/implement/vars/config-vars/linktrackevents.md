@@ -18,17 +18,17 @@ ht-degree: 67%
 
 ## 使用Web SDK确定要包含在XDM事件中的Analytics事件
 
-Web SDK不排除用于链接跟踪调用的某些字段。 但是，您可以使用 `onBeforeEventSend` 回调以在将数据发送到Adobe之前清除或设置所需字段。 请参阅 [全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) （位于Web SDK文档中）以了解更多信息。
+Web SDK不排除链接跟踪调用的某些字段。 但是，您可以使用 `onBeforeEventSend` 用于在将数据发送到Adobe之前清除或设置所需字段的回调。 参见 [全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 有关更多信息，请参阅Web SDK文档。
 
-## 使用Adobe Analytics扩展的链接跟踪调用中的事件
+## 使用Adobe Analytics扩展进行的链接跟踪调用中的事件
 
 如果您不使用自定义代码，Adobe Experience Platform 会自动将定义的事件包含在链接跟踪点击中。
 
 >[!IMPORTANT]
 >
->如果在Analytics扩展的自定义代码编辑器中设置事件，则必须在 `linkTrackEvents` 也使用自定义代码。
+>如果您在Analytics扩展的自定义代码编辑器中设置事件，则必须将此事件包含在 `linkTrackEvents` 使用自定义代码。
 
-## AppMeasurement和Analytics扩展的自定义代码编辑器中的s.linkTrackEvents
+## AppMeasurement和Analytics扩展自定义代码编辑器中的s.linkTrackEvents
 
 `s.linkTrackEvents` 变量是一个字符串，其中包含以逗号分隔的事件列表，您要将这些事件包含在链接跟踪图像请求（`tl()` 方法）中。必须满足以下三个条件才能在链接跟踪点击中包含量度：
 

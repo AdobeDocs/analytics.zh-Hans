@@ -5,9 +5,9 @@ title: 流量分类
 feature: Admin Tools
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 使用“流量分类”页面可以创建所选报告包的分类。分类后，任何可使用关键数据生成的报告也可通过关联的属性来生成。
 
-在启动分类后，使用[分类导入器](/help/components/classifications/importer/c-working-with-saint.md)来对适当分类分配特定值。
+启用分类后，使用 [分类导入器](/help/components/classifications/importer/c-working-with-saint.md) 以将特定值分配给相应的分类。
 
 ## 添加流量分类 {#task_4DB49CCB1D764483907BC33A5CEB7315}
 

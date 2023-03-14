@@ -45,4 +45,4 @@ ht-degree: 89%
 
 ## 达到API限制
 
-Power BI中的报表可与Analytics报表API配合使用，因此适用API阈值限制。 有关详细信息，请参阅 [Web服务错误代码](https://github.com/AdobeDocs/analytics-1.4-apis/blob/3dda746890743c2098256719d6595109b7748262/docs/getting-started/c_Web_Services_Error_Codes.md).
+Power BI中的报表可与Analytics Reporting API配合使用，因此API阈值限制适用。 有关详细信息，请参阅 [Web服务错误代码](https://github.com/AdobeDocs/analytics-1.4-apis/blob/3dda746890743c2098256719d6595109b7748262/docs/getting-started/c_Web_Services_Error_Codes.md).

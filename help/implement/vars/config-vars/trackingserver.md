@@ -6,7 +6,7 @@ exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '562'
-ht-degree: 69%
+ht-degree: 74%
 
 ---
 
@@ -18,24 +18,24 @@ Adobe 通过接收访客生成的图像请求来收集您网站上的数据。`t
 >
 >更改此值会使 AppMeasurement 在其他位置查找 Cookie。当在新位置设置访客 Cookie 时，报表中的独特访客计数可能会暂时激增。
 
-## 使用Web SDK扩展的边缘域
+## 使用Web SDK扩展的Edge域
 
-Web SDK使用 [!UICONTROL 边缘域] 来处理跟踪服务器和安全跟踪服务器。 您可以设置所需的 [!UICONTROL 边缘域] 值。
+Web SDK使用 [!UICONTROL 边缘域] 处理跟踪服务器和安全跟踪服务器。 您可以设置所需的 [!UICONTROL 边缘域] 值。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection?lang=zh-Hans)。
 1. 单击所需的标记属性。
-1. 转到 [!UICONTROL 扩展] ，然后单击 **[!UICONTROL 配置]** 按钮 [!UICONTROL Adobe Experience Platform Web SDK].
-1. 设置所需的 **[!UICONTROL 边缘域]** 文本。
+1. 转到 [!UICONTROL 扩展] 选项卡，然后单击 **[!UICONTROL 配置]** 按钮位于 [!UICONTROL Adobe Experience Platform Web SDK].
+1. 设置所需的 **[!UICONTROL 边缘域]** 文本字段。
 
-请参阅 [配置Adobe Experience Platform Web SDK扩展](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html) （位于Web SDK文档中）以了解更多信息。
+参见 [配置Adobe Experience Platform Web SDK扩展](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=zh-Hans) 有关更多信息，请参阅Web SDK文档。
 
 >[!TIP]
 >
->如果贵组织从AppMeasurement或Analytics扩展实施移至Web SDK，则此字段可以使用 `trackingServerSecure` (或 `trackingServer`)。
+>如果您的组织从AppMeasurement或Analytics扩展实施移至Web SDK，则此字段可以使用中包含的相同值 `trackingServerSecure` (或 `trackingServer`)。
 
-## 手动实施Web SDK的边缘域
+## 边缘域手动实施Web SDK
 
-使用配置SDK [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hans). 字段是一个字符串，可确定要将数据发送到的域。
+使用以下方式配置SDK [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hans). 字段是一个字符串，可确定要将数据发送到的域。
 
 ```json
 alloy("configure", {
@@ -43,11 +43,11 @@ alloy("configure", {
 });
 ```
 
-## 使用Adobe Analytics扩展的跟踪服务器
+## 使用Adobe Analytics扩展的Tracking Server
 
 “跟踪服务器”是配置 Adobe Analytics 扩展时位于[!UICONTROL 常规]折叠面板下的字段。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;]**配置**[!UICONTROL &#x200B;按钮。
 4. 展开[!UICONTROL 常规]折叠面板，这会显示[!UICONTROL 跟踪服务器]字段。

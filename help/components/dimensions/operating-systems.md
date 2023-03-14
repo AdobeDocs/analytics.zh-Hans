@@ -22,27 +22,27 @@ ht-degree: 34%
 
 维度项目包括访客使用的操作系统。示例包括 `"Windows 10"`、`"OS X 10.15"` 和 `"Android 9"`。
 
-## 标签和定义中的更改
+## 标签和定义的更改
 
-以下是有关操作系统如何在用户代理和Adobe Analytics报表中显示的特定问题列表。
+下面列出了有关操作系统在用户代理和Adobe Analytics报表中的呈现方式的具体问题。
 
-### 更改了Apple操作系统的命名约定：
+### 更改Apple操作系统的命名约定：
 
-从版本11开始，我们将使用MacOS而不是OS X来引用Apple操作系统。
+从版本11开始，我们将使用MacOS而不是OS X来指代Apple操作系统。
 
 示例：
 
-* “OS X 10.15”(请参阅下面关于版本10.15.7的注释，以了解UA字符串的表示形式)。
-* &quot;MacOS 11.0.0
+* “OS X 10.15”（参见下面关于10.15.7版的UA字符串表示法的注释）。
+* “MacOS 11.0.0
 
-### Mac OS版本10.15.7之后，用户代理中的版本不正确 
+### Mac OS版本10.15.7版之后的用户代理中的版本不正确 
 
-Apple计算机上的用户代理将操作系统版本显示为10.15.7，即使它是较新版本。 这样做是因为在UA中包含版本11显然导致了某些网站的问题。 对于 *所有浏览器* 和与Google在Chromium浏览器上的用户代理的“冻结”无关。
+Apple计算机上的用户代理将操作系统版本显示为10.15.7，即使它是较新版本也是如此。 之所以这样做，是因为在UA中包含版本11显然会导致某些网站出现问题。 这适用于 *所有浏览器* 与Google在Chromium浏览器上“冻结”用户代理无关。
 
-请注意，客户端提示在平台版本提示(“Sec-CH-UA-Platform-Version”)中包含正确的版本。 这是一个高熵提示，因此不会由Adobe自动收集。 请参阅 [Adobe Analytics提示常见问题解答](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) 以了解有关如何收集高熵提示的详细信息。
+请注意，客户端提示在平台版本提示中包含正确的版本(“Sec-CH-UA-Platform-Version”)。 这是一个高熵提示，因此Adobe不会自动收集它。 请参阅 [Adobe Analytics提示常见问题解答](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) 了解有关如何收集高熵提示的详细信息。
 
-### 从Windows 11开始，用户代理中的Windows版本不正确
+### 从Windows 11开始的用户代理中的Windows版本不正确
 
-自2023年1月起，所有浏览器中的用户代理都将Windows 11表示为Windows 10。
+截至2023年1月，所有浏览器中的用户代理都显示Windows 11为Windows 10。
 
-请注意，客户端提示在平台版本提示(“Sec-CH-UA-Platform-Version”)中包含正确的版本。 这是一个高熵提示，因此不会由Adobe自动收集。 请参阅 [Adobe Analytics提示常见问题解答](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) 以了解有关如何收集高熵提示的详细信息。
+请注意，客户端提示在平台版本提示中包含正确的版本(“Sec-CH-UA-Platform-Version”)。 这是一个高熵提示，因此Adobe不会自动收集它。 请参阅 [Adobe Analytics提示常见问题解答](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) 了解有关如何收集高熵提示的详细信息。

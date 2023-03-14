@@ -1,12 +1,12 @@
 ---
 title: Prop
-description: 可在报表中使用的自定义维度。
+description: 可在报告中使用的自定义维度。
 feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -30,7 +30,7 @@ AppMeasurement 将 JavaScript 变量编译到图像请求中以用于数据收�
 
 ## 维度项目
 
-由于 Prop 在您的实施中包含自定义字符串，因此，由您的组织来确定每个 Prop 的维度项目。确保在 [解决方案设计文档](/help/implement/prepare/solution-design.md).
+由于 Prop 在您的实施中包含自定义字符串，因此，由您的组织来确定每个 Prop 的维度项目。确保将每个Prop的用途和典型维度项目记录在 [解决方案设计文档](/help/implement/prepare/solution-design.md).
 
 ## 区分大小写
 

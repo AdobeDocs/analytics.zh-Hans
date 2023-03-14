@@ -48,7 +48,7 @@ ht-degree: 96%
 
 在您定义要与数据源一起使用的数据维度之后，请通过将维度数据映射到变量，将其集成到市场营销报表中。可使用标准报表（例如，产品、跟踪代码、搜索关键词）或转化流量变量 (eVar)。
 
-在使用 eVar 时，您可以将现有 eVar 或新 eVar 用作数据维度。选择eVar以从数据源接收数据维度后，请确保正确命名数据维度。
+在使用 eVar 时，您可以将现有 eVar 或新 eVar 用作数据维度。选择要从数据源接收数据维的eVar后，请确保正确命名数据源。
 
 请参阅 Analytics 帮助中的[成功事件](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html)。
 

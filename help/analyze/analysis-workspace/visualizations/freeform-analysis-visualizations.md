@@ -6,7 +6,7 @@ feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
 source-git-commit: 6d9167b41080fdb45b78148a9887e4eabd875c62
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Analysis Workspace 中提供了以下可视化图表类型：
 | [概要数字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 将选择的单元格显示为 1 个多位数。 |
 | [概要变化](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 将所选单元格之间的变化显示为 1 个多位数/百分比。 |
 | [文本](/help/analyze/analysis-workspace/visualizations/text.md) | 使您克将用户定义的文本添加到您的工作区。在利用面板/可视化图表描述之外，对于向您的分析和见解添加额外的上下文非常有用 |
-| [树图](/help/analyze/analysis-workspace/visualizations/treemap.md) | 将分层（树结构）数据显示为一组嵌套的矩形。 |
+| [树形图](/help/analyze/analysis-workspace/visualizations/treemap.md) | 将分层（树结构）数据显示为一组嵌套的矩形。 |
 | [维恩图](/help/analyze/analysis-workspace/visualizations/venn.md) | 使用圆圈来描述最多 3 个区段之间的指标重叠。 |
 
 ## 自定义可视化图表设置
@@ -69,7 +69,7 @@ Analysis Workspace 中提供了以下可视化图表类型：
 | --- | --- |
 | 可视化图表类型 | 更改描述数据所用的视觉效果的类型。 |
 | 粒度 | 对于趋势性的可视化图表，您可从此下拉菜单更改时间粒度（日、周、月等）。此更改也适用于数据源表。 |
-| 百分数 | 显示百分数值。 |
+| 百分比 | 显示百分数值。 |
 | 100% 堆叠 | 在面积堆叠、条形堆叠或水平条形堆叠的可视化图表上的此设置将图表转换为“100% 堆叠”的可视化图表。示例：![堆叠 100%](assets/stacked_100_percent.png) |
 | 图例可见 | 此设置允许您为概要数字/概要变化可视化图表隐藏详细的图例文本。 |
 | 限制最大项目数 | 允许您限制可视化图表显示的项目数量。 |

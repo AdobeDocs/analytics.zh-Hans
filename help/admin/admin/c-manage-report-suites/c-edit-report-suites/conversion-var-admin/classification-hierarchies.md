@@ -5,7 +5,7 @@ title: 分类层次结构
 feature: Classifications
 exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 ## 创建分类层次结构 {#task_3805EBCACC844261A7125D63D772CCDF}
 
-1. 单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报表包]**。
+1. 单击&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 报告包]**。
 1. 选择某个报表包。
 1. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 转化]** > **[!UICONTROL 分类层次结构]**。
 1.  从&#x200B;****&#x200B;要构建层次结构的对象下拉列表中，选择要创建分类层次结构的变量。

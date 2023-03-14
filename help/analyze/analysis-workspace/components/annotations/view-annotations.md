@@ -5,8 +5,8 @@ role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
 source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
-workflow-type: ht
-source-wordcount: '247'
+workflow-type: tm+mt
+source-wordcount: '244'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 100%
 | **日期范围** | 图标会发生变化，当您将鼠标悬停在它上面时，会显示日期范围。<p>![](assets/multi-day.png)<p>在折线图中选择注释时，将显示注释元数据，您可以进行编辑或删除：![](assets/multi-hover.png)<p>在表中，会在日期范围内的每个日期上显示一个图标。<p>![](assets/multi-day-table.png) |
 | **重叠注释** | 在有多个注释与其关联的日期上，图标将为灰色。<p>![](assets/grey.png)<p>将鼠标悬停在灰色图标上时，将显示所有重叠的注释：<p>![](assets/overlap.png) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 在 .pdf 文件中查看注释
 

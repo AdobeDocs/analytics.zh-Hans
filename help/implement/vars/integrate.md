@@ -6,7 +6,7 @@ exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '886'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -41,9 +41,9 @@ ht-degree: 96%
 
 ### 将集成模块放入实施中
 
-在您的网站上实施集成模块时，需要访问Adobe Experience Platform数据收集。 如果使用旧版 JavaScript 实施，则需要具有访问贵组织网站源代码的权限。
+在您的网站上实施集成模块需要访问Adobe Experience Platform数据收集。 如果使用旧版 JavaScript 实施，则需要具有访问贵组织网站源代码的权限。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击要编辑的标记属性。
 1. 单击“扩展”选项卡，然后单击 Adobe Analytics 下的“配置”。
 1. 打开“使用自定义代码配置跟踪器”折叠面板，然后单击“&lt;/> 打开编辑器”。

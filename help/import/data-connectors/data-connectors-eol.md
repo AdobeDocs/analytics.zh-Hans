@@ -4,7 +4,7 @@ title: Analytics 数据连接器生命周期终止预告
 feature: Data Connectors
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Adobe 数据连接器生命周期终止
 
-**自 2021 年 8 月 19 日起**，Adobe 已中断数据连接器集成。生命周期终止是任何技术产品生命周期的一部分，Adobe 旨在尽可能地让客户和合作伙伴实现无缝过渡。这些集成中的许多资源可通过 Adobe Exchange 获得，并可以继续加以利用。
+**自 2021 年 8 月 19 日起**，Adobe 已中断数据连接器集成。生命周期终止是任何技术产品生命周期的一部分，Adobe 将尽力协助客户和合作伙伴实现无缝过渡。这些集成中的许多资源可通过 Adobe Exchange 获得，并可以继续加以利用。
 
 十多年来，Adobe Analytics 始终致力于提供一流的网络和营销分析解决方案来满足客户的需求。随着技术和业务需求的发展，我们努力地持续践行这一目标并实现最高标准。遗憾的是，支持这一集成的 API 已不再满足这些标准，并且也无法应用于现代 Adobe Analytics 技术基础设施中。
 

@@ -4,9 +4,9 @@ description: 防止在报表中出现由某些 IP 地址生成的数据。
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
 feature: Admin Tools
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >
 >按 IP 地址排除的点击按[服务器调用](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html)计费。
 
-可使用通配指示符 (*) 排除某个范围的地址。例如，`[!DNL 0.0.*.0]` 将排除 `[!DNL 0.0.0.0]` 和 `[!DNL 0.0.255.0]` 之间的所有 IP 地址。最多可以排除 50 个不同的 IP 地址。
+您可以使用通配符指示符(&#42;)以排除一定范围的地址。 例如，`[!DNL 0.0.*.0]` 将排除 `[!DNL 0.0.0.0]` 和 `[!DNL 0.0.255.0]` 之间的所有 IP 地址。最多可以排除 50 个不同的 IP 地址。
 
 >[!TIP]
 >
@@ -30,4 +30,4 @@ ht-degree: 100%
 
 如果启用了 IP 模糊处理，则在 IP 地址被模糊处理之前会进行 IP 排除，这样客户就无需在启用 IP 模糊处理时更改任何内容。
 
-如果删除了最后八位字节，则该操作是在 IP 过滤之前完成的。这样，最后八位字节将被替换为 0，并且应当更新 IP 排除规则以匹配末尾为 0 的 IP 地址。* 应当匹配 0。
+如果删除了最后八位字节，则该操作是在 IP 过滤之前完成的。这样，最后八位字节将被替换为 0，并且应当更新 IP 排除规则以匹配末尾为 0 的 IP 地址。匹配 &#42; 应匹配 0。

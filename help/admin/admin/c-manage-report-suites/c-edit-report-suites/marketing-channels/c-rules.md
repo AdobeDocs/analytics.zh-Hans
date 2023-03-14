@@ -4,9 +4,9 @@ description: 营销渠道处理规则决定访客点击是否符合分配到渠�
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2187'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
    如果您的报告包未定义渠道，则会显示[!UICONTROL “营销渠道：自动设置”]页面。
 
-   请参阅[运行自动设置](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
+   参见 [运行自动设置](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
 3. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 营销渠道]** > **[!UICONTROL 营销渠道处理规则]**。如果您运行自动设置，则将自动为您定义一组渠道和规则。
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 | 匹配付费搜索检测规则 | Adobe 检测的付费搜索。付费搜索是指公司向列出它们网站的搜索引擎支付费用。付费搜索通常出现在搜索结果顶部或右侧。 |
 | 匹配免费搜索检测规则 | Adobe 报告检测的免费搜索。 |
 | 引用网站与内部 URL 过滤器匹配 | 按照“管理工具”中对报告包的定义，页面 URL 与内部 URL 过滤器匹配的访问。 |
-| 引用网站与内部 URL 过滤器不匹配 | 按照“管理工具”中对报告包的定义，引用 URL 与内部 URL 筛选器不匹配。您可以将此设置与“页面 URL”和“存在”一起使用来设置一个通用规则，这样就不会有访问登陆报告中的未识别渠道区域。 |
+| 引用网站与内部 URL 过滤器不匹配 | 按照“管理工具”中对报表包的定义，引用 URL 与内部 URL 筛选器不匹配。您可以将此设置与“页面 URL”和“存在”一起使用来设置一个通用规则，这样就不会有访问登陆报告中的未识别渠道区域。 |
 | 忽略与内部 URL 过滤器匹配的点击量 | （关于反向链接）只跟踪来自外部引用网站的点击量。通常，将此设置保留为启用状态，除非您希望包括内部流量。 |
 | 是访问第一页 | Adobe 报告检测到的访问第一页。 |
 | 页面 | 网站上使用 Adobe 网络信标标记的网页名称。该值等同于 s.pageName。示例包括 `Home Page` 和 `About Us`。 |

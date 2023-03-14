@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '265'
 ht-degree: 92%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 92%
 要使用户可以报告 Activity Map 维度，管理员需要执行以下操作：
 
 * [将用户添加至 Activity Map 访问群组](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)。
-* 向此群组添加您希望可访问的报表包。导航到&#x200B;**[!UICONTROL Admin]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 组]** > **[!UICONTROL Activity Map访问]** > **[!UICONTROL 编辑]**。
+* 向此群组添加您希望可访问的报表包。导航到 **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 组]** > **[!UICONTROL Activity Map访问]** > **[!UICONTROL 编辑]**.
 * 自定义用户对维度的访问权限。请参阅以下部分。
 
 ## Analytics Activity Map 维度 {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}

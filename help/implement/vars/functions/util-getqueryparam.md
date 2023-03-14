@@ -6,7 +6,7 @@ exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 81%
+ht-degree: 85%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 81%
 
 可以通过在数据元素中设置值来获取查询字符串参数数据。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 数据元素]选项卡，然后单击所需的数据元素（或创建数据元素）。
 4. 将[!UICONTROL 扩展]下拉列表设置为&#x200B;**[!UICONTROL 核心]**，将[!UICONTROL 数据元素类型]设置为&#x200B;**[!UICONTROL 查询字符串参数]**。

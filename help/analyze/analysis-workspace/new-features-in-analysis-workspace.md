@@ -23,8 +23,8 @@ ht-degree: 99%
 
 | 功能 | 目标日期 | 描述 |
 | --- | --- | --- |
-| [!UICONTROL 组件] > [!UICONTROL 用户首选项] | 2021 年 3 月 25 日 | 通过[!UICONTROL “组件”]>[!UICONTROL “用户首选项”]页面可为用户管理 [!UICONTROL Analysis Workspace] 设置及其相关的组件。[!UICONTROL “用户首选项”]适用于所有新的项目和面板。<br>**注意：**&#x200B;以下设置已移至[!UICONTROL “用户首选项”]页面：<ul><li>报表设置：千位分隔符（现在称为&#x200B;_“数字格式”_）</li><li>报表设置：CSV 分隔符</li><li>工作区项目：“帮助”>“启用提示”</li><li>工作区项目：空白面板的&#x200B;_“用此面板开始新项目”_&#x200B;选项</li></ul> |
-| [!UICONTROL 直方图智能存储桶预测] | 2021 年 3 月 25 日 | [!UICONTROL “直方图智能存储桶预测”]帮助高势指标直方图为您的数据分布自动识别存储桶的合适宽度和数量。对于低势指标，可视化的表现与以前相同。 |
+| [!UICONTROL 组件] > [!UICONTROL 用户首选项] | 2021 年 3 月 25 日 | 通过[!UICONTROL “组件”]>[!UICONTROL “用户偏好设置”]页面可为用户管理 [!UICONTROL Analysis Workspace] 设置及其相关的组件。[!UICONTROL “用户偏好设置”]适用于所有新的项目和面板。<br>**注意：**&#x200B;以下设置已移至[!UICONTROL “用户偏好设置”]页面：<ul><li>报告设置：千位分隔符（现在称为&#x200B;_“数字格式”_）</li><li>报告设置：CSV 分隔符</li><li>工作区项目：“帮助”>“启用提示”</li><li>工作区项目：空白面板的&#x200B;_“用此面板开始新项目”_&#x200B;选项</li></ul> |
+| [!UICONTROL 直方图智能存储桶预测] | 2021 年 3 月 25 日 | [!UICONTROL “直方图智能存储桶预测”]帮助高基数量度直方图为您的数据分布自动识别存储桶的合适宽度和数量。对于低基数量度，可视化的表现与以前相同。 |
 
 ## 2021 年 2 月
 
@@ -51,7 +51,7 @@ ht-degree: 99%
 | 功能 | 描述 |
 | --- | --- |
 | [下载适合单个维度的 50,000 个项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hans#download-items) | 现在，您可以在自由格式表中下载适合单个维度的 50,000 个项目，并应用区段和过滤器。这允许您访问 Analysis Workspace 以外的 400 多行数据。 |
-| [折线图可视化图表的增强功能](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=zh-Hans) | <ul><li>可显示或隐藏任何[!UICONTROL 折线图]可视化图表的 X 轴和 Y 轴。如果想让[!UICONTROL 折线图]可视化图表显得更加紧凑，这项功能会特别有用。</li><li>您可以在任何折线图可视化图表上叠加最小值和最大值标签，以便快速突出显示指标中的高峰和低谷。</li><li>您可以在任何折线图可视化图表上叠加不同的回归趋势线，以便更轻松地查看数据趋势。相关选项包括[!UICONTROL 线性]、[!UICONTROL 对数]、[!UICONTROL 指数]、[!UICONTROL 幂]和[!UICONTROL 二次方程式]。</li></ul> |
+| [折线图可视化图表的增强功能](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=zh-Hans) | <ul><li>可显示或隐藏任何[!UICONTROL 折线图]可视化图表的 X 轴和 Y 轴。如果想让[!UICONTROL 折线图]可视化图表显得更加紧凑，这项功能会特别有用。</li><li>您可以在任何折线图可视化图表上叠加最小值和最大值标签，以便快速突出显示量度中的高峰和低谷。</li><li>您可以在任何折线图可视化图表上叠加不同的回归趋势线，以便更轻松地查看数据趋势。相关选项包括[!UICONTROL 线性]、[!UICONTROL 对数]、[!UICONTROL 指数]、[!UICONTROL 幂]和[!UICONTROL 二次方程式]。</li></ul> |
 | 新增日期范围 | 我们新增了 5 个日期范围（最近 7 天整、最近 14 天整、最近 30 天整、最近 60 天整、最近 90 天整），这样从现在开始，您就可以选择不包含部分日期数据的日期范围 |
 
 ## 2020 年 8 月
@@ -114,7 +114,7 @@ ht-degree: 99%
 
 | 功能 | 描述 |
 |--- |--- |
-| 适用于使用 Cross-Device Analytics 的组织的新工作区模板 | 此模板显示 CDA 在拼合访问次数方面的有效性，并且还指导您了解 CDA 独有的维度和指标知识。需要使用 CDA 的报表包。有关更多信息，请参阅[设置 Cross-Device Analytics](/help/components/cda/setup.md)。 |
+| 适用于使用 Cross-Device Analytics 的组织的新工作区模板 | 此模板显示 CDA 在拼合访问次数方面的有效性，并且还指导您了解 CDA 独有的维度和指标知识。需要使用 CDA 的报告包。有关更多信息，请参阅[设置 Cross-Device Analytics](/help/components/cda/setup.md)。 |
 | 工作区中的新热键 | <ul><li>折叠/展开所有面板：`alt + m`</li><li>折叠/展开活动面板: `alt + ctrl + m`</li><li>搜索左边栏: `ctrl + /`</li><li>移到下一个面板: `alt + Right Key`</li><li>移到上一个面板: `alt + Left Key`</li></ul>[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=zh-Hans) |
 | 其他工作区增强功能 | <ul><li>将面板或可视化图表放入工作区后，左边栏会自动切换到组件，以实现更加无缝的工作流程。</li><li>现在可以对模板组件进行操作（例如，标记、标记为收藏、已批准）。</li><li>过滤的指标和区段列表提供了 + 按钮，可在找不到所需内容时添加新组件。</li></ul> |
 | 工作区调试器 | 工作区调试器已添加到“帮助”菜单，可让您根据调试工作区请求更加无缝地启用调试器。[了解详情...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
@@ -133,8 +133,8 @@ ht-degree: 99%
 
 | 增强功能 | 描述 |
 |--- |--- |
-| 更新了自由格式表总计 | 现在，自由格式表包含两项总数统计：**[!UICONTROL 表格总计]**&#x200B;和&#x200B;**[!UICONTROL 全部总计]**。表格总计行会将已应用的[报表过滤器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html)计入在内。以前，只有区段会影响总数的计算。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=zh-Hans)<br/>，此外，**[!UICONTROL ￼显示总数]**&#x200B;和&#x200B;**[!UICONTROL 显示总计]**&#x200B;选项已添加到&#x200B;**[!UICONTROL 列设置]**&#x200B;中。<br/>鉴于自由格式表的这项变化，与之相关的可视化图表（例如关联的&#x200B;**[!UICONTROL 摘要数字]**&#x200B;可视化图表）也将进行相应的更新，导出的 CSV 和 PDF 数据同样也会更新。 |
-| 用于删除“未指定/无”的选项 | 轻松删除“未指定（无）”的功能已添加为报表过滤器的选项。 |
+| 更新了自由格式表总计 | 现在，自由格式表包含两项总数统计：**[!UICONTROL 表格总计]**&#x200B;和&#x200B;**[!UICONTROL 全部总计]**。表格总计行会将已应用的[报告过滤器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html?lang=zh-Hans)计入在内。以前，只有区段会影响总数的计算。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=zh-Hans)<br/>，此外，**[!UICONTROL ￼显示总数]**&#x200B;和&#x200B;**[!UICONTROL 显示总计]**&#x200B;选项已添加到&#x200B;**[!UICONTROL 列设置]**&#x200B;中。<br/>鉴于自由格式表的这项变化，与之相关的可视化图表（例如关联的&#x200B;**[!UICONTROL 摘要数字]**&#x200B;可视化图表）也将进行相应的更新，导出的 CSV 和 PDF 数据同样也会更新。 |
+| 用于删除“未指定/无”的选项 | 轻松删除“未指定（无）”的功能已作为一个选项添加到报表过滤器。 |
 | 弃用紫色粒度组件 | 已弃用紫色的时间粒度组件（分钟、小时、日、周、月、季度、年）。紫色时间组件与对应的橙色维度组件的功能是一样的，因此这项更改将简化这方面的使用体验。即使之前使用了某个紫色时间组件，您也&#x200B;**无需执行任何操作**。<br/>此外，根据这项变化，紫色的&#x200B;**[!UICONTROL 时间]**&#x200B;部分已重命名为&#x200B;**[!UICONTROL 日期范围]**。 |
 
 ## 2019 年 8 月
@@ -185,9 +185,9 @@ ht-degree: 99%
 
 | 功能 | 描述 |
 |--- |--- |
-| [同类群组分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 对同类群组分析进行重大改进后，您能够：<ul><li>应用区段包含并单独返回指标。 </li><li>显示流失率而不是保留率。</li><li>显示延时表（包含事件之前和之后经过的时间）。</li><li>自定义同类群组维度（根据 eVar 而不只是时间对访客进行分组）。</li><li>进行滚动式同类群组计算：根据先前的时间段而不是原始同类群组来计算维系率/流失率。 </li><li>将多个指标添加到包含和回访字段中，并应用区段。（不支持计算指标）</li></ul> |
+| [同类群组分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 对同类群组分析进行重大改进后，您能够：<ul><li>应用区段包含并单独返回指标。 </li><li>显示流失率而不是保留率。</li><li>显示延时表（包含事件之前和之后经过的时间）。</li><li>自定义同类群组维度（根据 eVar 而不只是时间对访客进行分组）。</li><li>进行滚动式同类群组计算：根据先前的时间段而不是原始同类群组来计算维系率/流失率。 </li><li>将多个量度添加到包含和回访字段中，并应用区段。（不支持计算指标）</li></ul> |
 | [视图密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 此新设置可减少左边栏、自由格式表和同类群组表中的垂直边距，从而使您能够在单个屏幕上查看更多数据。可通过项目 > 项目信息和设置进行访问。 |
-| [在归因 IQ 中支持多值变量](attribution/overview.md) | Analytics 中的某些维度可以在单次点击中包含多个值，例如 listVar、产品变量、列表属性或推销 eVar。Analysis Workspace 允许您在点击级别将归因 IQ 应用于任何此类变量。 |
+| [在归因 IQ 中支持多值变量](attribution/overview.md) | Analytics 中的某些维度可以在单次点击中包含多个值，例如 listVar、产品变量、列表属性或推销 eVar。Analysis Workspace 允许您在点击级别将 Attribution IQ 应用于任何此类变量。 |
 | 性能改进 | 提高了划分可视化图表的速度 — 具有大量划分的项目将能更快加载。 |
 
 ## 2018 年 11 月

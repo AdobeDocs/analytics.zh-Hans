@@ -4,7 +4,7 @@ title: 构建简单的“每次访问的页面查看次数”量度
 feature: Calculated Metrics
 exl-id: 2d1c4677-b07c-4eca-97b7-e5e4594daee1
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 100%
 

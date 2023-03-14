@@ -5,7 +5,7 @@ feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Report Builder 5.2 支持 Adobe Analytics 统一的计算指标。作为诸多�
 
 单击“过滤器”图标 ![](/help/admin/admin/assets/filter.png) 可以&#x200B;**过滤**&#x200B;计算指标。
 
-“高级过滤器”对话框同时包含标准指标和计算指标。
+。“高级过滤器”对话框同时包含标准指标和计算指标。
 
 可用的过滤器包括：
 

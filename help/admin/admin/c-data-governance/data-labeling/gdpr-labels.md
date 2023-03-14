@@ -5,7 +5,7 @@ feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
 source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
 workflow-type: tm+mt
-source-wordcount: '3585'
+source-wordcount: '3558'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 | I1 | 直接可识别：可明确识别个人或允许与个人直接联系的数据，例如姓名或电子邮件地址。 | <ul><li>不能在事件中设置</li><li>不能在促销 eVar 中设置</li></ul> |
 | I2 | 间接可识别：可与任何其他数据结合使用来识别个人或设备或者允许与个人或设备直接联系的数据。它本身不能识别个人的身份，但是可以与其他信息（不管该信息是否由您持有）结合起来，用于识别某人的身份。示例包括客户会员号，或公司的 CRM 系统为其每个客户使用的唯一 ID。 | <ul><li>不能在事件中设置</li><li>不能在促销 eVar 中设置</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 敏感数据标签 {#sensitive-data-labels}
 
@@ -42,7 +42,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 | S1 | 与纬度和经度相关的精确地理位置数据，可用于确定设备的准确位置（在 100 米以内）。 |
 | S2 | 可用于确定广泛定义的地理围栏区域的地理位置数据。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 数据治理标签（数据隐私） {#data-governance-labels}
 
@@ -56,7 +56,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 | ACC-ALL | 此字段中的值应当包含在所有数据隐私访问请求中。如果此点击量来自多人共享的设备，则您作为数据控制者，可以通过应用此标签来指示它是可接受的，以便将此字段中的数据与任何有权访问该共享设备的个人共享。 | 将为所有数据隐私请求返回具有此标签的字段。 |
 | ACC-PERSON | 仅当您根据与 ID-PERSON 字段值匹配的数据隐私请求 ID，基本确定点击来自“数据主体”时，这个字段中的值才应专门用于数据隐私访问请求。 | 您还必须在此报告包中的某个变量上设置了 ID-PERSON 标签，并使用该 ID 提交请求，否则将绝不会应用此标签。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 尽管很少会有变量设置其他任何标签，但预计访问标签将会应用到许多变量中。不过，您需要咨询您的法律团队，以决定应该将收集的哪些数据与“数据主体”共享。
 
@@ -71,7 +71,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 | DEL-DEVICE | 对于数据隐私删除请求，仅当点击量当中存在请求中指定的 ID-DEVICE 时，才应当对此字段中的值进行匿名化。如果相同的值出现在其他不删除的命中项中，那么将不对这些其他实例进行更改。这会导致在此字段中计算独特计数的报告的计数发生更改。在共享设备上，这可能会移除其他个人（不仅仅是“数据主体”）的标识符。 如果此字段还具有 ID-DEVICE 标签并且此字段中的值用作数据隐私请求的 ID，则计数不会发生更改。 | <ul><li>还需要 I1 或 I2 或 S1 标签</li><li>不能在事件中设置</li><li>不能在促销 eVar 中设置</li></li><li>不能在分类中设置</li><li>您必须使用 ID-DEVICE 提交请求或将 expandIDs 设置为 true，否则将绝不会应用此标签。</li></ul> |
 | DEL-PERSON | 对于数据隐私删除请求，仅当点击量当中存在请求中指定的 ID-PERSON 时，才应当对此字段中的值进行匿名化。如果相同的值出现在其他不删除的点击中，那么将不对这些其他值进行更改。这会导致在此字段中计算独特计数的报告的计数发生更改。如果此字段还具有 ID-PERSON 标签并且此字段中的值用作数据隐私请求的 ID，则计数不会发生更改。 | <ul><li>还需要 I1 或 I2 或 S1 标签</li><li>不能在事件中设置</li><li>不能在促销 eVar 中设置</li></li><li>不能在分类中设置</li><li>您还必须通过此报告包中的某个变量上设置的 ID-PERSON 标签提交请求，并使用该 ID 提交请求，否则将绝不会应用此标签。</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 数据隐私身份标签
 
@@ -81,7 +81,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 | ID-DEVICE | 此字段包含一个 ID，它可用于为数据隐私请求识别设备，但无法区分共享设备的不同用户。您不需要为包含 ID 的所有变量指定此标签（这是 I1/I2 标签的用途）。如果您使用存储在此变量中的 ID 提交数据隐私请求，并想要为指定的 ID 搜索此变量，请使用此标签。 | 还需要 I1 或 I2 标签.<ul><li>不能在事件中设置</li><li>不能在促销 eVar 中设置</li><li>不能在分类中设置</li></ul> |
 | ID-PERSON | 此字段包含一个 ID，它可用于为数据隐私请求识别经过身份验证的用户（特定人员）。您不需要为包含 ID 的所有变量指定此标签（这是 I1/I2 标签的用途）。如果您要使用存储在此变量中的 ID 提交数据隐私请求，并想要为指定的 ID 搜索此变量，请使用此标签。 | <ul><li>还需要 I1 或 I2 标签.</li><li>不能在事件中设置</li><li>不能在促销 eVar 中设置</li><li>不能在分类中设置</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 在为变量设置 ID-DEVICE 或 ID-PERSON 标签时提供命名空间 {#provide-namespace}
 
@@ -138,7 +138,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 | <ul><li>流量变量 (prop)</li><li>商务变量（非推销 eVar）</li></ul> | 所有标签 | - |
 | 大多数其他变量（*请参阅下表了解例外情况*） | ACC-ALL、ACC-PERSON | <ul><li>I1/I2、S1/S2</li><li>ID-DEVICE、ID-PERSON</li><li>DEL-DEVICE、DEL-PERSON</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 可为其分配/修改除 ACC-ALL/ACC-PERSON 以外的标签的变量 {#variables}
 
@@ -218,7 +218,7 @@ Adobe Analytics 对数据隐私删除请求的支持旨在最大限度地减少�
 | <ul><li>ClickMap 操作（旧版）</li><li>ClickMap 上下文（旧版）</li><li>页面</li><li>页面 URL</li><li>原始登入页面 URL</li><li>反向链接</li><li>访问起始页 URL</li></ul> | 清除/删除 URL 参数。如果该值看起来不像是 URL，则清除该值（将其设为空字符串）。 |
 | <ul><li>纬度</li><li>经度</li></ul> | 精度降低到不低于 1 公里。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 可能不支持预期“删除”标签的变量 {#no-delete-support}
 
@@ -237,7 +237,7 @@ Adobe Analytics 对数据隐私删除请求的支持旨在最大限度地减少�
 | [!UICONTROL 访客 ID]<p>[!UICONTROL MCID] / [!UICONTROL ECID] | 这些 ID 具有 DEL-DEVICE 标签，但不能添加 DEL-PERSON 标签。如果您指定 [!UICONTROL ID 扩展]，则在处理删除请求时，这些 ID 都会被自动删除，即使是使用了 ID-PERSON 的 ID 也是如此。<p>如果您不使用 ID 扩展，但您希望当 prop 或 eVar 中包含匹配 ID 时，这些 Cookie ID 能够对点击量匿名化，那么即使该 prop 或 eVar 可真正识别个人，您也可以通过为其设置 ID-DEVICE 标签来解决此标签限制（也需要将所有 DEL-PERSON 标签更改为 DEL-DEVICE 标签）。在这种情况下，由于只有访客 ID 或 ECID 的部分实例被匿名化，因此历史报告中的独特访客计数将发生变化。 |
 | [!UICONTROL AMO ID] | Adobe Advertising Cloud ID 是一个解决方案变量，具有不可修改的 [!UICONTROL DEL-DEVICE] 标签。与访客 ID 和 MCID 一样，它由 Cookie 填充。只要删除这些其他 ID，它就会从点击量当中删除。更多详细信息，请参阅这些变量的描述。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 访问请求的日期字段 {#access-requests}
 
@@ -251,7 +251,7 @@ Adobe Analytics 对数据隐私删除请求的支持旨在最大限度地减少�
 | 首次点击时间 GMT | 针对此点击的访客 ID 值收到的首次点击的自定义点击时间 UTC 值。 |
 | 访问开始时间 UTC | 针对此访客 ID 当前访问收到的首次点击的自定义点击时间 UTC 值。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 用于生成为数据隐私访问请求返回的文件的代码，要求访问请求中至少包含前三个时间戳变量中的一个（具有一个适用于该请求类型的 ACC 标签）。若不包含上述三个中的任意一个，则“自定义点击时间 UTC”将被视为含有 ACC-ALL 标签。
 

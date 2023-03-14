@@ -6,7 +6,7 @@ exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 74%
+ht-degree: 80%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 74%
 
 配置规则时设置“清除变量”操作。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击“+”图标

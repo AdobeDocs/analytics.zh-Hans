@@ -6,8 +6,8 @@ breadcrumb-title: 集成指南
 user-guide-description: 配置与 Audience Manager 和 Advertising Cloud 等其他 Adobe Experience Cloud 解决方案的集成。
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '184'
+ht-degree: 100%
 
 ---
 

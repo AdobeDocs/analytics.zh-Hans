@@ -4,9 +4,9 @@ title: 分类规则
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2015'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -63,7 +63,7 @@ about_classification_rules.xml
 
 * **报告包**：在至少选择一个报告包后，您才可以选取分类。在创建规则集并分配变量后，您才可以应用报告包。
 
-   在测试规则集时，使用报告中的键值（经过分类的变量）可查看规则集将如何影响键值。（[键值](/help/components/classifications/importer/c-saint-data-files.md)是经过分类的变量，或者是分类上载表中的第一列。）
+   在测试规则集时，使用报告中的键值（经过分类的变量）可查看规则集将如何影响键值。(此 [键](/help/components/classifications/importer/c-saint-data-files.md) 是要分类的变量，还是分类上载表中的第一列。)
 
 * **规则优先级**：如果一个键值匹配多条规则，这些规则设置了相同的分类（在“[!UICONTROL 设置分类]”列中），则将使用匹配分类的最后一条规则。请参阅[关于规则优先级](/help/components/classifications/crb/classification-quickstart-rules.md)。
 
@@ -80,7 +80,7 @@ about_classification_rules.xml
 
 * 已对键值进行分类，并且您未选择[覆盖分类](/help/components/classifications/crb/classification-rule-definitions.md)。
 
-   您可以在[&#128279;](/help/components/classifications/crb/classification-quickstart-rules.md)添加和激活规则，以及激活 Data Connectors 集成时，覆盖分类。（对于 Data Connectors，规则由开发中心的合作伙伴创建，并显示在“[!UICONTROL 分类规则生成器]”中。）
+   您可以在[](/help/components/classifications/crb/classification-quickstart-rules.md)添加和激活规则，以及激活 Data Connectors 集成时，覆盖分类。（对于 Data Connectors，规则由开发中心的合作伙伴创建，并显示在“[!UICONTROL 分类规则生成器]”中。）
 
 * 在覆盖键值时指定的时间范围后，甚至在启用[覆盖分类](/help/components/classifications/crb/classification-rule-definitions.md)后，已分类的键值都没有出现在数据中。
 * 在大约一个月前时间范围开始后，没有对键值进行分类，并且键值从未传递到 [!DNL Adobe Analytics]。
@@ -326,8 +326,8 @@ t_classification_rule.xml
    >*仅*&#x200B;当满足以下条件时，才会在此页面上显示报告包：
    >
    >* 报告包在[!UICONTROL 管理工具]中针对该变量至少定义了一个分类。
-   >
-   >   （请参阅&#x200B;*分类规则集*&#x200B;中的[变量](/help/components/classifications/crb/classification-rule-set.md)，了解关于此先决条件的说明。）
+      >
+      >   （请参阅[分类规则集](/help/components/classifications/crb/classification-rule-set.md)中的“*变量*”，了解关于此先决条件的说明。）
    >
    >* 您在单击&#x200B;**[!UICONTROL 添加规则集]**&#x200B;以创建规则集后显示的[可用报告包](/help/components/classifications/crb/classification-rule-set.md)页面上选择了报告包。
 

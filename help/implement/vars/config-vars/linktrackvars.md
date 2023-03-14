@@ -18,17 +18,17 @@ ht-degree: 61%
 
 ## 使用Web SDK确定要包含在XDM事件中的变量
 
-Web SDK不排除用于链接跟踪调用的某些字段。 但是，您可以使用 `onBeforeEventSend` 回调以在将数据发送到Adobe之前清除或设置所需字段。 请参阅 [全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) （位于Web SDK文档中）以了解更多信息。
+Web SDK不排除链接跟踪调用的某些字段。 但是，您可以使用 `onBeforeEventSend` 用于在将数据发送到Adobe之前清除或设置所需字段的回调。 参见 [全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 有关更多信息，请参阅Web SDK文档。
 
-## 使用Adobe Analytics扩展的链接跟踪调用中的变量
+## 使用Adobe Analytics扩展程序的链接跟踪调用中的变量
 
-此变量会根据界面中设置的变量自动填充在后端，因此实施始终使用Adobe Analytics扩展来设置此变量。
+此变量会根据界面中设置的变量自动填充到后端，因此在使用Adobe Analytics扩展的实施中始终会设置此变量。
 
 >[!IMPORTANT]
 >
->如果使用自定义代码编辑器设置变量，则必须在 `linkTrackVars` 也使用自定义代码。
+>如果使用自定义代码编辑器设置变量，则必须将变量包含在 `linkTrackVars` 使用自定义代码。
 
-## AppMeasurement和Analytics扩展的自定义代码编辑器中的s.linkTrackVars
+## AppMeasurement和Analytics扩展自定义代码编辑器中的s.linkTrackVars
 
 `s.linkTrackVars` 变量是一个字符串，其中包含以逗号分隔的变量列表，您要将这些事件包含在链接跟踪图像请求（`tl()` 方法）中。必须满足以下两个条件才能在链接跟踪点击中包含维度：
 

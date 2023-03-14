@@ -2,9 +2,8 @@
 title: Adobe Analytics 安全资源
 description: 指向与 Adobe 安全实践和恢复计划相关的资源的链接。
 exl-id: 276285f3-349b-4261-bea1-25bdc0996fbf
-translation-type: ht
 source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 100%
 

@@ -6,7 +6,7 @@ exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 52%
+ht-degree: 58%
 
 ---
 
@@ -38,17 +38,17 @@ Adobe 会接收图像请求，然后解析请求标头、URL 和查询字符串�
 
 ## 使用Web SDK扩展发送事件
 
-使用操作配置向Adobe发送XDM事件数据。 数据流接收此数据，应用任何配置的映射，并将该数据转发到Adobe Analytics（如果它是向该数据流添加的服务）。
+使用操作配置向Adobe发送XDM事件数据。 数据流接收此数据，应用任何已配置的映射，并在它是该数据流的添加服务时将该数据转发到Adobe Analytics。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection?lang=zh-Hans)。
 1. 单击所需的标记属性。
 1. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
-1. 在 [!UICONTROL 操作]，单击所需的操作或单击 **&#39;+&#39;** 图标以添加操作。
-1. 设置 [!UICONTROL 扩展] 下拉列表 **[!UICONTROL Adobe Experience Platform Web SDK]** 和 [!UICONTROL 操作类型] to **[!UICONTROL 发送事件]**.
+1. 下 [!UICONTROL 操作]，单击所需的操作或单击 **&#39;+&#39;** 图标以添加操作。
+1. 设置 [!UICONTROL 扩展] 下拉至 **[!UICONTROL Adobe Experience Platform Web SDK]** 和 [!UICONTROL 操作类型] 到 **[!UICONTROL 发送事件]**.
 
 ## 手动发送实施Web SDK的事件
 
-使用 `sendEvent` 命令向Adobe发送数据。 数据流接收此数据，应用任何配置的映射，并将该数据转发到Adobe Analytics（如果它是向该数据流添加的服务）。
+使用 `sendEvent` 命令将数据发送到Adobe。 数据流接收此数据，应用任何已配置的映射，并在它是该数据流的添加服务时将该数据转发到Adobe Analytics。
 
 ```js
 alloy("sendEvent", {
@@ -56,17 +56,17 @@ alloy("sendEvent", {
 });
 ```
 
-请参阅 [跟踪事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hans) （位于Web SDK文档中）以了解更多信息。
+参见 [跟踪事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hans) 有关更多信息，请参阅Web SDK文档。
 
-## 使用Adobe Analytics扩展的页面查看跟踪调用
+## 使用Adobe Analytics扩展的“页面查看跟踪”调用
 
 Adobe Experience Platform数据收集中的Adobe Analytics扩展有一个专用位置，用于设置页面查看跟踪调用。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
 1. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
-1. 在 [!UICONTROL 操作]，单击所需的操作或单击 **&#39;+&#39;** 图标以添加操作。
-1. 设置 [!UICONTROL 扩展] 下拉列表 **[!UICONTROL Adobe Analytics]**&#x200B;和 [!UICONTROL 操作类型] to **[!UICONTROL 发送信标]**.
+1. 下 [!UICONTROL 操作]，单击所需的操作或单击 **&#39;+&#39;** 图标以添加操作。
+1. 设置 [!UICONTROL 扩展] 下拉至 **[!UICONTROL Adobe Analytics]**，以及 [!UICONTROL 操作类型] 到 **[!UICONTROL 发送信标]**.
 1. 单击 `s.t()` 单选按钮。
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.t()方法

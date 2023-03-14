@@ -6,7 +6,7 @@ feature: Admin Tools
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '462'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Analytics 工具权限项用于授予对 Adobe Analytics 中各项功能的访�
 | Analytics 工具权限项 | 描述 |
 |----|----|
 | [!UICONTROL 服务器调用使用情况] | 授予对“管理员”>“服务器调用使用情况”的访问权限。 |
-| [!UICONTROL 代码管理器] | 用于管理旧版代码。授予对“管理员”>“所有管理员”>“代码管理器”的访问权限。在大多数情况下，请改用Adobe Experience Platform数据收集中Adobe Analytics扩展中包含的库。 |
+| [!UICONTROL 代码管理器] | 用于管理旧版代码。授予对“管理员”>“所有管理员”>“代码管理器”的访问权限。在大多数情况下，请改用 Adobe Experience Platform 数据收集中的 Adobe Analytics 扩展所包含的库。 |
 | [!UICONTROL 代码管理器 - Web 服务] | 授予通过 1.4 API 访问代码管理器的权限。 |
 | [!UICONTROL 日志] | 授予对“管理员”>“所有管理员”>“日志”的访问权限。 |
 | [!UICONTROL 日志 - Web 服务] | 授予通过 1.4 API 提取日志的权限。 |
@@ -26,7 +26,7 @@ Analytics 工具权限项用于授予对 Adobe Analytics 中各项功能的访�
 | [!UICONTROL 支持] | 授予对“管理员”>“所有管理员”>“公司设置”>“支持信息”的访问权限。 |
 | [!UICONTROL Web 服务] | 授予对“管理员”>“所有管理员”>“公司设置”>“Web 服务”的访问权限。 |
 | [!UICONTROL 待定操作] | 授予对“管理员”>“所有管理员”>“公司设置”>“待定操作”的访问权限。 |
-| [!UICONTROL 隐藏报表包] | 授予对“管理员”>“所有管理员”>“公司设置”>“隐藏报表包”的访问权限。允许隐藏组织内的任何报表包，而不考虑是否具有报表包的访问权限。 |
+| [!UICONTROL 隐藏报表包] | 授予对“管理员”>“所有管理员”>“公司设置”>“隐藏报告包”的访问权限。允许隐藏组织内的任何报告包，而不考虑是否具有报告包的访问权限。 |
 | [!UICONTROL Excel 许可用户] | 未使用。 |
 | [!UICONTROL Activity Map] | 授予对“工具”>“Activity Map”的访问权限。允许用户使用 Activity Map 扩展。 |
 | [!UICONTROL 当前数据] | 启用此选项可在 Reports &amp; Analytics 报表中查看当前数据。 |

@@ -6,7 +6,7 @@ exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 84%
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,7 @@ AppMeasurement 可通过检查域和域的后缀确定其 Cookie 位置。对于
 >
 >此变量不考虑子域。例如，不要在示例 URL `store.toys.example.com` 上设置 `cookieDomainPeriods`。默认情况下，AppMeasurement 允许将 Cookie 存储在 `example.com` 上，甚至存储在具有许多子域的 URL 上。
 
-## 使用Web SDK的域句点
+## 使用Web SDK的域名段
 
 Web SDK可以在没有此变量的情况下确定正确的Cookie存储域。
 
@@ -32,7 +32,7 @@ Web SDK可以在没有此变量的情况下确定正确的Cookie存储域。
 
 “域名段”是在配置 Adobe Analytics 扩展时显示在 [!UICONTROL Cookie] 折叠面板中的一个字段。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
 1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
 1. 展开 [!UICONTROL Cookie] 折叠面板，这会显示[!UICONTROL 域名段]字段。

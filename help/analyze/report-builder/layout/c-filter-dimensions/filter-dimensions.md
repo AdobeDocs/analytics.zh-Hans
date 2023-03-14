@@ -6,7 +6,7 @@ feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 100%
 
@@ -117,7 +117,7 @@ ht-degree: 100%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> " " </td> 
+   <td colname="col1"> “ ” </td> 
    <td colname="col2"> 等于 </td> 
    <td colname="col3"> <p>不会转义，除非引号未配对使用。例如，<span class="term">17" 显示器</span>不是一个短语。 </p> </td> 
   </tr> 

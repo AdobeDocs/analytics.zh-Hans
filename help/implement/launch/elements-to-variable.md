@@ -6,7 +6,7 @@ exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 94%
 
 如果您希望在数据元素所在的所有页面上设置变量值，理想的做法是设置全局变量。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
 1. 单击[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的[!UICONTROL 配置]。
 1. 单击[!UICONTROL 全局变量]折叠图标，这会显示用于分配全局变量的界面。
@@ -38,7 +38,7 @@ ht-degree: 94%
 
 如果您不希望在每个页面上设置变量，理想的做法是在规则中设置变量。在规则中定义条件。请参阅 Adobe Experience Platform 标记文档中的[规则](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=zh-Hans)。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
 1. 单击[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建一个规则）。
 1. 单击[!UICONTROL 操作]下的[!UICONTROL 添加]按钮。

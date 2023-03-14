@@ -21,7 +21,7 @@ Analytics 提供了多个变量来收集 Analytics 数据。此部分中的变�
 
 ## 变量和实施方法
 
-Adobe 提供了多种实施 Adobe Analytics 的方法。每个页面都提供有关如何使用Web SDK、使用Adobe Analytics扩展和AppMeasurement for JavaScript实施变量的章节。
+Adobe 提供了多种实施 Adobe Analytics 的方法。每个页面都提供一个部分，介绍如何使用Web SDK、使用Adobe Analytics扩展和使用AppMeasurement for JavaScript实施变量。
 
 以下是一段关于在 Adobe Analytics 中配置变量的视频：
 

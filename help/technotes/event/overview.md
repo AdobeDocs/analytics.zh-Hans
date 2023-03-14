@@ -1,14 +1,13 @@
 ---
 title: 分析受事件影响的数据
 description: 了解受事件影响的数据会如何影响整体数据质量。
-translation-type: ht
-source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: ht
+exl-id: 8d81a432-42d6-4f5d-b66a-bb3af7fc4857
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 100%
 
 ---
-
 
 # 分析受事件影响的数据
 
@@ -44,7 +43,7 @@ Adobe Analytics 提供了一种简单可靠的方法，来使用分段重点关�
 
 此视频将逐步介绍上述各个步骤。
 
->[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)
 
 * **0:27**：使用分段排除数据
 * **2:55**：比较事件与先前的日期范围

@@ -6,7 +6,7 @@ exl-id: 2e48bdf6-7de7-4976-86dd-ef3d558769c7
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 70%
+ht-degree: 80%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 70%
 
 AppMeasurement 会自动检测设备的在线状态。您可以使用该 `forceOffline()` 方法强制 AppMeasurement 处理点击，如同设备处于离线状态一样。此方法不接受任何参数，也不返回任何值。它的唯一用途是覆盖 AppMeasurement 中的在线状态。
 
-## 使用Web SDK强制离线
+## 使用Web SDK强制脱机
 
 Web SDK不支持离线跟踪。
 
-## 使用Adobe Analytics扩展强制离线
+## 使用Adobe Analytics扩展强制脱机
 
-Adobe Analytics扩展中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
+Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照 AppMeasurement 语法使用自定义代码编辑器。
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.forceOffline()
 

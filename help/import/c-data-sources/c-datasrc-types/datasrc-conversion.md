@@ -6,7 +6,7 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 00450ad4-7148-4cf1-bdba-5d1732dd0fd3
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 针对以转化方式处理的数据类型，数据源支持以下转化数据维度和指标。
 
-## 转化维度和指标 {#section_FA1731B232B246DABEDF5A5D84159084}
+## 转化维度和量度 {#section_FA1731B232B246DABEDF5A5D84159084}
 
 如果指定“查看”事件，则还必须指定对应的数据维度 (eVar)。例如，如果包括 eVar2 查看，则必须列出带值的 eVar2。报表包支持的自定义事件和 eVar 查看数量取决于合同，并且会依不同的公司而改变。
 

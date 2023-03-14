@@ -18,4 +18,4 @@ ht-degree: 92%
 
 此指标计算 [`events`](/help/implement/vars/page-vars/events/events-overview.md) 变量中存在 `scAdd` 的点击数。
 
-请参阅 [购物车](carts.md) ，用于量度比较。
+参见 [购物车](carts.md) 用于量度比较。

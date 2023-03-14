@@ -6,7 +6,7 @@ exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 81%
+ht-degree: 86%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 81%
 
 Web SDK不支持此功能。
 
-## 使用Adobe Analytics扩展的链接跟踪会话存储
+## 使用Adobe Analytics扩展的“使用链接跟踪会话存储”
 
-Adobe Analytics扩展中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
+Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照 AppMeasurement 语法使用自定义代码编辑器。
 
-## AppMeasurement和Analytics扩展的s.useLinkTrackSessionStorage自定义代码编辑器
+## AppMeasurement和Analytics扩展自定义代码编辑器中的s.useLinkTrackSessionStorage
 
 `s.useLinkTrackSessionStorage` 变量是一个布尔值，用于确定 AppMeasurement 使用会话存储而不是 `s_sq` Cookie 来跟踪链接数据。其默认值为 `false`。如果希望 AppMeasurement 使用会话存储而不是 `s_sq` Cookie 来跟踪链接和 Activity Map 数据，请将此变量设置为 `true`。
 

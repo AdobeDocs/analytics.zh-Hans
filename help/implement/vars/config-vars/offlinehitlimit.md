@@ -6,7 +6,7 @@ exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 79%
+ht-degree: 88%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 79%
 
 `offlineHitLimit` 变量可对设备在本地存储的点击数设置上限。仅在启用 [`trackOffline`](trackoffline.md) 时，此变量才有效。
 
-## 使用Adobe Analytics扩展的离线点击限制
+## 使用Adobe Analytics扩展的“离线点击限制”
 
-Adobe Analytics扩展中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
+Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照 AppMeasurement 语法使用自定义代码编辑器。
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.offlineHitLimit
 

@@ -6,7 +6,7 @@ exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 source-git-commit: a41fed835b6dcd3979111a7b13eaf33b63a3b2ec
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 81%
+ht-degree: 86%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 81%
 
 ## 使用Web SDK的时间戳
 
-时间戳为 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `xdm.timestamp`. 此字段仅支持Unix时间。
+时间戳为 [已为Adobe Analytics映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=zh-Hans) 在XDM字段下 `xdm.timestamp`. 此字段仅支持Unix时间。
 
 ## 使用Adobe Analytics扩展的时间戳
 
-Adobe Analytics扩展中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
+Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照 AppMeasurement 语法使用自定义代码编辑器。
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.timestamp
 

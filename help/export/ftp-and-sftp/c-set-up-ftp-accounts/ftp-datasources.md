@@ -11,7 +11,7 @@ ht-degree: 99%
 
 ---
 
-# 基于FTP的数据源
+# 基于FTP数据源
 
 您可以使用 Analytics 创建和管理基于 FTP 的数据源，它可以利用 FTP 文件传输将离线数据或历史数据导入 Experience Cloud。
 

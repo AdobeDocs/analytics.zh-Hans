@@ -5,8 +5,8 @@ feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: ht
-source-wordcount: '962'
+workflow-type: tm+mt
+source-wordcount: '950'
 ht-degree: 100%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 100%
 | **[!UICONTROL 使用容量]** | 百分比，实时使用了多少报告包的报告容量。 |
 | **[!UICONTROL 状态]** | 四种可能的状态指示符： <ul><li>**红色 - [!UICONTROL 满负荷]**：报告包的报告容量已达到极限。(100%) </li><li>**黄色 - [!UICONTROL 接近容量]**：此报告包有达到其最大容量的危险。(90% - 99%)</li><li>**绿色 - [!UICONTROL 一切正常]**：有大量的报告容量。(0% - 89%)</li><li>**灰色 – [!UICONTROL 状态待定/未启用]**：报告容量不可用。</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 其他报告活动操作
 
@@ -94,7 +94,7 @@ ht-degree: 100%
 | [!UICONTROL 平均等待时间] | 所有正在运行的查询的平均等待时间。 |
 | [!UICONTROL 使用容量] | 此报告包的当前使用容量。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 表格
 
@@ -114,7 +114,7 @@ ht-degree: 100%
 | [!UICONTROL 区段] | 有多少段应用于此请求。这增加了请求的复杂性。 |
 | [!UICONTROL 状态] | 状态指示器： <ul><li>**运行中**：请求当前正在处理中。</li><li>**等待中**：请求正在等待处理。</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 取消报告请求
 
@@ -139,4 +139,4 @@ ht-degree: 100%
 | --- | --- |
 | 我可以购买额外的报告容量吗？ | 此功能将在不久的将来提供。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

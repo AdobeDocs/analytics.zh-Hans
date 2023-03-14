@@ -1,20 +1,20 @@
 ---
-title: eVar（促销维度）
+title: eVar（“促销”维度）
 description: 与产品维度关联的自定义变量。
 feature: Dimensions
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
 # eVar（推销）
 
-*此帮助页介绍推销 eVar 如何作为维度使用。有关如何实施推销eVar的信息，请参阅 [eVar（促销变量）](/help/implement/vars/page-vars/evar-merchandising.md) （位于实施用户指南中）。*
+*此帮助页介绍推销 eVar 如何作为维度使用。有关如何实施推销eVar的信息，请参阅 [eVar（促销变量）](/help/implement/vars/page-vars/evar-merchandising.md) 实施用户指南中的。*
 
-有关促销 eVar 如何工作的详细讨论，请参阅[促销 eVar 和产品查找方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html)。
+有关促销 eVar 如何工作的详细讨论，请参阅[促销 eVar 和产品查找方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=zh-Hans)。
 
 测量外部促销活动或外部搜索术语的成功程度时，通常需要一个单独的值来对发生的所有成功事件接收信用。例如，如果某个客户单击电子邮件促销活动中的链接访问您的网站，那么该客户因此进行的所有购买都将计入此促销活动中。
 

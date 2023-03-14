@@ -4,7 +4,7 @@ description: 一次点击与登入次数之间的比率。
 feature: Metrics
 exl-id: 2d4929df-3843-4ad2-abe6-5c01d3eac557
 source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 100%
 

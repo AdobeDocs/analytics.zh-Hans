@@ -6,7 +6,7 @@ exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 81%
+ht-degree: 90%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 81%
 
 当设备恢复为在线状态时，存储在设备上的所有点击都将被发送到 Adobe 数据收集服务器。如果已排队点击的数量过大，可能会潜在地影响旧设备的性能。使用 `offlineThrottleDelay` 变量可确定将已排队的点击发送到 Adobe 的频率。
 
-## 使用Adobe Analytics扩展的离线限制延迟
+## 使用Adobe Analytics扩展的“离线节流延迟”
 
-Adobe Analytics扩展中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
+Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照 AppMeasurement 语法使用自定义代码编辑器。
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.offlineThrottleDelay
 

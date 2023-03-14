@@ -6,23 +6,23 @@ exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 74%
+ht-degree: 84%
 
 ---
 
-# 频道
+# channel
 
 `channel` 变量通常存储给定页面所在的网站区域。确定最受欢迎的网站组对您很有帮助。此变量可填充“网站区域”维度。
 
 ## 使用Web SDK的渠道
 
-渠道为 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `web.webPageDetails.siteSection`.
+渠道为 [已为Adobe Analytics映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `web.webPageDetails.siteSection`.
 
-## 使用Adobe Analytics扩展的渠道
+## 使用Adobe Analytics扩展的“渠道”
 
 您可以在配置 Analytics 扩展时（全局变量）或根据规则设置渠道。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。

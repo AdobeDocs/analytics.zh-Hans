@@ -4,7 +4,7 @@ description: 有关实施的常见问题，以及指向更多信息的链接。
 feature: Implementation Basics
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
 

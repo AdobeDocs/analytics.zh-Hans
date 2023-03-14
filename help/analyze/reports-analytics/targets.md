@@ -24,7 +24,7 @@ ht-degree: 90%
 
 ## [!UICONTROL 目标字段描述] {#section_44DFFB4A7AC54D65BC2345411686B2AD}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 目标]**
+**[!UICONTROL 分析]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 目标]**
 
 “[!UICONTROL 添加/编辑目标]”页上的字段和选项描述。
 
@@ -35,20 +35,20 @@ ht-degree: 90%
 | [!UICONTROL 选择项目] | 显示选定属性或 eVar 的选择形式，对相关项目执行[!UICONTROL 高级搜索。]例如，如果选择 eVar [!UICONTROL 国家/地区]，则可在项目列表中指定具体的国家/地区。如果选择 eVar [!UICONTROL 产品]，则可在项目列表中指定具体的产品。菜单中也列出自定义分析变量。若自定义分析变量设置为测量访客年龄范围，则项目列表将显示年龄范围，如 18-24、25-35 等。 |
 | [!UICONTROL 量度] | 对某个量度应用目标。该菜单只显示对给定 eVar 应用的量度。例如，如果选择[!UICONTROL 产品]作为 eVar，则不会向其应用[!UICONTROL 页面退出]等量度。[!UICONTROL 页面退出]量度可以应用到网页 eVar。 |
 | [!UICONTROL 句点] | 它允许您定义目标的[!UICONTROL 日期范围]和[!UICONTROL 粒度]设置。视日期范围的规格而定，某些粒度选项不适用。键入量度值时，请键入每一粒度设置的值。例如，若日期范围为二月份，粒度选择为每周，则请键入二月份每周的值。[!UICONTROL 目标报表显示每一粒度设置。] |
-| [!UICONTROL 值] | 指定时段和选定量度的目标值。这些值是您尝试访问的目标数字。 例如，如果目标基于收入，您的目标是在某个月达到 1 万美元收入，应在该月的值字段中输入 10000。 |
+| [!UICONTROL 值] | 指定时段和选定量度的目标值。这些值是您尝试联系的目标号码。 例如，如果目标基于收入，您的目标是在某个月达到 1 万美元收入，应在该月的值字段中输入 10000。 |
 
 ## 添加 [!UICONTROL Target] {#task_94915391E26E4F808F2538AA92BC7E71}
 
 添加目标:
 
-1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 目标]**.
+1. 单击 **[!UICONTROL 分析]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 目标]**.
 1. 在 [!UICONTROL 管理目标] 页面，单击 **[!UICONTROL 新增……]**.
 1. 配置[目标字段描述](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)中所述的选项。
 1. 单击&#x200B;**[!UICONTROL 确定]**。
 
 ## 编辑 [!UICONTROL Target] {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
-1. 单击 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 目标]**.
+1. 单击 **[!UICONTROL 分析]** > **[!UICONTROL 组件]** > **[!UICONTROL 所有组件]** > **[!UICONTROL 目标]**.
 1.  在&#x200B;**[!UICONTROL 管理]**&#x200B;列，单击&#x200B;**[!UICONTROL 编辑]**&#x200B;图标。
 1. 配置[目标字段描述](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)中所述的选项。
 1. 单击&#x200B;**[!UICONTROL 确定]**。

@@ -3,8 +3,8 @@ title: 跨不同的实施类型跟踪
 description: 使用不同的实施类型并在不同实施类型之间无缝跟踪访客。
 exl-id: 18aa5595-d2a7-4df2-a4ef-a5040c097483
 source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
-workflow-type: ht
-source-wordcount: '442'
+workflow-type: tm+mt
+source-wordcount: '439'
 ht-degree: 100%
 
 ---
@@ -23,6 +23,6 @@ Adobe 建议通过在所有页面使用相同的实施类型来保持站点实�
 | 跟踪服务器 | [`trackingServer`](../vars/config-vars/trackingserver.md) 和 [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md) 变量 | [配置扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=zh-Hans)时的[!UICONTROL 常规]部分下的[!UICONTROL 跟踪服务器]和[!UICONTROL SSL 跟踪服务器] | [配置 Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hans) 时的 `edgeDomain` 属性 | [配置扩展](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=zh-Hans)时的[!UICONTROL 边缘域] | 图像请求 URL 的 `hostname` |
 | Experience Cloud ID 服务 | 实施 [`VisitorAPI.js`](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=zh-Hans) | 使用 [Adobe Experience Cloud ID Service 扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/id-service/overview.html?lang=zh-Hans) | 使用 [Adobe Experience Cloud ID Service 扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/id-service/overview.html?lang=zh-Hans) | 使用 [Adobe Experience Cloud ID Service 扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/id-service/overview.html?lang=zh-Hans) | [单独调用 ID Service 服务器](https://experienceleague.adobe.com/docs/id-service/using/implementation/direct-integration.html?lang=zh-Hans)以获取所需 ID |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 如果这些变量中的任何一个在跨实施类型中不一致，Adobe 会将它们视为不同的访客。如果未在您的网站上对访客进行跨实施类型无缝跟踪，则最常见的原因是 ID Service 配置不正确。请参阅 ID Service 用户指南中的[实施方法](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-methods.html?lang=zh-Hans)，了解详细信息。

@@ -7,7 +7,7 @@ user-guide-description: 使用区段、计算指标、虚拟报表包、营销�
 source-git-commit: a49affe282e95d451e72ed92a585b861f081f02e
 workflow-type: tm+mt
 source-wordcount: '690'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 

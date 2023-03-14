@@ -6,7 +6,7 @@ exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 77%
+ht-degree: 82%
 
 ---
 
@@ -26,10 +26,10 @@ ht-degree: 77%
 
 ## 使用Web SDK的动态变量
 
-使用数据流映射从单个XDM字段将数据发送到多个Analytics变量。
+使用数据流映射将数据从单个XDM字段发送到多个Analytics变量。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
-1. 单击 **[!UICONTROL 数据流]** 中。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
+1. 单击 **[!UICONTROL 数据流]** 在左边栏中。
 1. 单击所需的数据流。
 1. 单击 **[!UICONTROL 编辑映射]** 在右边。
 1. 映射所需的 [!UICONTROL 源字段] 到所需的 [!UICONTROL 目标字段]. 单个源字段可以映射到任意数量的目标字段。
@@ -38,7 +38,7 @@ ht-degree: 77%
 
 您可以在接受字符串的任何维度字段中使用动态变量。通常会在配置 Analytics 扩展（全局变量）时或根据规则设置维度项目。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。

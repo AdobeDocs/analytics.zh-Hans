@@ -4,7 +4,7 @@ description: 分类用于将值归到相关群组并在群组级别进行报告�
 feature: Marketing Channels
 exl-id: eaae9d60-21f8-42ff-b574-cb1710c68cdf
 source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
 

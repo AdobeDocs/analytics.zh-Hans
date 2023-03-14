@@ -4,7 +4,7 @@ title: 分类规则 - 定义
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 激活</span> </p> </td> 
-   <td colname="col2"> <p>验证并激活规则。活动规则每天进行处理，通常每月检查一次返回的分类数据。规则会自动检查新值，并上载分类。 </p> </td> 
+   <td colname="col2"> <p>验证并激活规则。活动规则每天进行处理，通常每月检查一次返回的分类数据。规则会自动检查新值，并上传分类。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 停用</span> </p> </td> 

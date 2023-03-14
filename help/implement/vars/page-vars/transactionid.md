@@ -4,7 +4,7 @@ description: 使用此变量将在线和离线数据链接在一起。
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 100%
 

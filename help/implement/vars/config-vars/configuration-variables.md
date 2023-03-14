@@ -6,7 +6,7 @@ exl-id: 3f017a94-b71d-47da-8ab4-daf32475ed34
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 66%
+ht-degree: 76%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 66%
 
 在使用Web SDK扩展或Analytics扩展的实施中，通常可以在扩展的设置中找到配置变量：
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
-1. 单击 [!UICONTROL 扩展] ，然后单击 [!UICONTROL 配置] 下。
+1. 单击 [!UICONTROL 扩展] 选项卡，然后单击 [!UICONTROL 配置] 在扩展下。
 
 在使用 `AppMeasurement.js` 的 JavaScript 实施中，通常会在 JS 文件的顶部设置配置变量。
 

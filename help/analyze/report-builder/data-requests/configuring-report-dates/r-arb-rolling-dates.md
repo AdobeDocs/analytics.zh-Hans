@@ -7,14 +7,14 @@ role: User, Admin
 exl-id: 31caee9b-3488-4dc7-b5b1-361b153c8b68
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '75'
 ht-degree: 89%
 
 ---
 
 # 请求向导定义 - 滚动日期
 
-滚动日期的字段定义Report Builder。
+Report Builder中滚动日期的字段定义。
 
 <table id="table_620F3BD3FD1B4C85A0319107EC03D54F"> 
  <thead> 

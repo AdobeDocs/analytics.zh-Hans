@@ -23,4 +23,4 @@ Analytics 区段包括[区段生成器](/help/components/segmentation/segmentati
 
 ## 入门
 
-请参阅 [关于区段](/help/components/segmentation/seg-overview.md) 以快速了解。 然后转到 [设置分段工作流](/help/components/segmentation/segmentation-workflow/seg-workflow.md) 或 [生成区段](/help/components/segmentation/segmentation-workflow/seg-build.md).
+参见 [关于区段](/help/components/segmentation/seg-overview.md) 以获取快速概述。 然后转到 [设置分段工作流](/help/components/segmentation/segmentation-workflow/seg-workflow.md) 或 [生成区段](/help/components/segmentation/segmentation-workflow/seg-build.md).

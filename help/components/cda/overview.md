@@ -3,7 +3,7 @@ title: Cross-Device Analytics
 description: 通过将设备数据拼合在一起，将您的数据从以设备为中心更改为以人员为中心。
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 100%
 

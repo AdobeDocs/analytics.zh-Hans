@@ -5,7 +5,7 @@ title: 创建文件夹
 feature: Workspace Basics
 exl-id: d546b87f-627d-4467-b1b8-36e65134fdcb
 source-git-commit: 29f8e18b5723228340c7e55af5159145d28e7cce
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 通过子文件夹，可提供额外级别的项目管理和组织。
 
-要在已有文件夹打开时创建子文件夹，请执行以下操作
+要在已有文件夹打开时创建子文件夹，请执行以下操作：
 
 1. 单击&#x200B;**创建新文件夹**。
 

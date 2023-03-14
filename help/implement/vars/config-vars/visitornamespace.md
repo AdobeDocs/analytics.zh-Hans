@@ -6,7 +6,7 @@ exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 86%
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 86%
 
 [!UICONTROL 访客命名空间]是配置 Adobe Analytics 扩展时位于 [!UICONTROL Cookie] 折叠面板下的字段。
 
-1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) 使用您的Adobe ID凭据。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
 4. 展开 [!UICONTROL Cookie] 折叠面板，这会显示[!UICONTROL 访客命名空间]字段。

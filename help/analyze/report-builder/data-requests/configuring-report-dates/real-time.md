@@ -1,12 +1,12 @@
 ---
-description: 实时显示网页流量并对页面查看次数进行排名，以便更快地了解您网站上的趋势。
-title: 实时报表概述
+description: 实时显示网页流量并为页面查看次数排名，以使您更快了解您网站上的趋势。
+title: 实时报告概述
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
 role: User, Admin
 exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 100%
 

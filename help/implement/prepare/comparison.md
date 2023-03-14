@@ -2,8 +2,8 @@
 title: 比较实施方法
 description: 了解每种用于将数据发送到 Adobe Analytics 的方法的优点。
 source-git-commit: 2e69321404237213c6929f3fb0c330575d8a90db
-workflow-type: ht
-source-wordcount: '294'
+workflow-type: tm+mt
+source-wordcount: '291'
 ht-degree: 100%
 
 ---
@@ -20,4 +20,4 @@ ht-degree: 100%
 | 如何处理 A4T | A4T 调用包含在已发送到 Adobe 的点击中 | A4T 调用包含在已发送到 Adobe 的点击中 | A4T 调用作为单独的点击发送 | A4T 调用作为单独的点击发送 |
 | 上下文数据 | 使用 `s.contextData`。 | 在自定义代码块中使用 `s.contextData` | 作为 `a.x.*` 上下文数据变量自动发送所有未映射的字段。 | 作为 `a.x.*` 上下文数据变量自动发送所有未映射的字段。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

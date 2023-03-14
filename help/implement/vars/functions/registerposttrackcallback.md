@@ -6,7 +6,7 @@ exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 74%
+ht-degree: 79%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 74%
 >
 >[`registerPreTrackCallback`](registerpretrackcallback.md) 和 `registerPostTrackCallback` 之间触发函数的时间和顺序无法得到保证。避免这两个函数之间存在依赖关系。
 
-## 使用Web SDK扩展的跟踪后回调
+## 使用Web SDK扩展的后跟踪回调
 
-即将推出！
+即将推出!
 
 ## 手动实施Web SDK的后跟踪回调
 
-在数据成功发送到Adobe后，您可以在发送事件时使用JavaScript Promise注册函数。
+在将数据成功发送到Adobe后，您可以在发送事件以注册函数时使用JavaScript Promise 。
 
 ```js
 alloy("sendEvent",{
@@ -40,11 +40,11 @@ alloy("sendEvent",{
 });
 ```
 
-请参阅 [处理来自事件的响应](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) （位于Web SDK文档中）以了解更多信息。
+参见 [处理来自事件的响应](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) 有关更多信息，请参阅Web SDK文档。
 
 ## 使用Adobe Analytics扩展注册跟踪后回调
 
-Adobe Analytics扩展中没有可使用此变量的专用字段。 按照 AppMeasurement 语法使用自定义代码编辑器。
+Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照 AppMeasurement 语法使用自定义代码编辑器。
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.registerPostTrackCallback
 
