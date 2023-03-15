@@ -326,8 +326,8 @@ t_classification_rule.xml
    >*仅*&#x200B;当满足以下条件时，才会在此页面上显示报告包：
    >
    >* 报告包在[!UICONTROL 管理工具]中针对该变量至少定义了一个分类。
-      >
-      >   （请参阅[分类规则集](/help/components/classifications/crb/classification-rule-set.md)中的“*变量*”，了解关于此先决条件的说明。）
+   >
+   >   （请参阅[分类规则集](/help/components/classifications/crb/classification-rule-set.md)中的“*变量*”，了解关于此先决条件的说明。）
    >
    >* 您在单击&#x200B;**[!UICONTROL 添加规则集]**&#x200B;以创建规则集后显示的[可用报告包](/help/components/classifications/crb/classification-rule-set.md)页面上选择了报告包。
 
