@@ -5,16 +5,16 @@ title: 仅供查看的项目
 feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
+source-git-commit: 7d79d6a329c5d42ede2d15d8afd67021fde23e1c
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 # 仅供查看的项目
 
-您可以通过[项目共享工作流程](/help/analyze/analysis-workspace/curate-share/share-projects.md)与收件人共享“仅查看”项目。处于“可以查看”角色的收件人将获得更有限的项目体验。如果您将项目共享给不太熟悉您组织的数据结构（通常情况下是 Analysis Workspace 或 Adobe Analytics）的用户，但仍希望他们在安全的环境中使用数据和洞察，则可能希望这样做。
+您可以通过[项目共享工作流程](/help/analyze/analysis-workspace/curate-share/share-projects.md)与收件人共享“仅查看”项目。处于“可以查看”角色的收件人将获得更有限的项目体验。如果您要将项目共享给不太熟悉您组织的数据结构(通常为Analysis Workspace或Adobe Analytics)的用户，但您仍希望他们在安全的环境中使用数据和分析，则可能需要这样做。
 
 ![](assets/view-only-project.png)
 
