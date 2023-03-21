@@ -3,7 +3,7 @@ description: Analysis Workspace 中的数据词典允许用户对 Analysis Works
 title: 数据词典概述
 feature: Components
 role: User, Admin
-source-git-commit: 4e471b5f4376a9cdc3ab014139221b382b3b3c26
+source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 100%
@@ -11,8 +11,6 @@ ht-degree: 100%
 ---
 
 # 数据词典概述
-
-{{release-limited-testing}}
 
 Analysis Workspace 中的数据词典可帮助用户和管理员跟踪并更好地了解其 Analytics 环境中的组件。
 

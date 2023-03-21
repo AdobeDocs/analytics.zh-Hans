@@ -3,7 +3,7 @@ description: 管理员负责监测数据词典的健康状况。这包括组件�
 title: 监测数据词典健康状况
 feature: Components
 role: Admin
-source-git-commit: 4e471b5f4376a9cdc3ab014139221b382b3b3c26
+source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 100%
@@ -11,8 +11,6 @@ ht-degree: 100%
 ---
 
 # 监测数据词典健康状况
-
-{{release-limited-testing}}
 
 Analytics 管理员负责维持健康的数据词典。
 

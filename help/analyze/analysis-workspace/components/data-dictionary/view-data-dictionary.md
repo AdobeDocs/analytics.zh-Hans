@@ -3,16 +3,14 @@ description: Analysis Workspace 中的数据词典允许用户对 Analysis Works
 title: 查看数据词典
 feature: Components
 role: User, Admin
-source-git-commit: 5d83d2621ee5eee7dbbc2af3793a9e1d3de0f97b
+source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '280'
+ht-degree: 75%
 
 ---
 
 # 查看数据词典中的组件信息
-
-{{release-limited-testing}}
 
 “数据词典”允许您查看有关组件的信息，包括组件描述、相似组件、组件经常使用的其他组件等等。
 
@@ -32,16 +30,7 @@ ht-degree: 0%
 
 1. （可选）在搜索字段中，开始键入要查看组件的名称。
 
-   组件名称旁会显示图标以指示组件类型：
-
-   | 图标 | 含义 |
-   |---------|----------|
-   | ![Dimension图标](assets/dimension-icon.png) | 指示 **维度**. Dimension由Adobe提供。 无法修改现有维度，也无法创建新维度。 |
-   | ![“量度”图标](assets/default-metric-icon.png) | 指示 **标准量度** （未计算）。 标准量度由Adobe提供，无法修改。 |
-   | ![Adobe图标](assets/default-calc-metric-icon.png) | 指示 **计算量度模板** 或 **区段模板**. 这些组件由Adobe提供，无法修改。 |
-   | ![计算器图标](assets/calculated-metric-icon-created.png) | 指示 **计算量度** 由您组织中的Analytics管理员创建。 |
-   | ![“区段”图标 ](assets/segment-icon.png) | 指示 **区段**. 这些区段可以是由Adobe提供或由您组织中的Analytics管理员创建的区段。 |
-   | ![日期范围图标](assets/date-range-icon.png) | 指示 **日期范围**. 这些日期范围可以是由Adobe提供或由贵组织中的Analytics管理员创建的日期范围。 |
+   组件类型可通过颜色和图标进行标识。 **Dimension** ![Dimension图标](assets/dimension-icon.png) 橙色， **区段** ![区段图标](assets/segment-icon.png) 是蓝色的， **日期范围** ![日期范围图标](assets/date-range-icon.png) 是紫色的， **量度** ![“量度”图标](assets/default-metric-icon.png) 为绿色。 Adobe图标 ![Adobe图标](assets/default-calc-metric-icon.png) 指示计算量度模板或区段模板以及计算器图标 ![计算器图标](assets/calculated-metric-icon-created.png) 指示了由您组织中的Analytics管理员创建的计算量度。
 
 {{dd-filter-criteria}}
 
