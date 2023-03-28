@@ -2,7 +2,7 @@
 title: 使用 Adobe Analytics 扩展实施 Analytics
 description: 了解如何使用标记和 Analytics 扩展实施 Adobe Analytics
 feature: Launch Implementation
-source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
+source-git-commit: bd35fc09211a818983c27ce4494f14499c2229d8
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 100%
