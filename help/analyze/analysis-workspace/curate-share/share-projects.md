@@ -5,10 +5,10 @@ title: 共享项目
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 9190703c073ecb28e629fa53ac916f706d359324
+source-git-commit: 5f502cb30deb49ce21c72c1bf84db340ac3b426e
 workflow-type: tm+mt
-source-wordcount: '1587'
-ht-degree: 65%
+source-wordcount: '1668'
+ht-degree: 62%
 
 ---
 
@@ -124,6 +124,10 @@ ht-degree: 65%
 >* Analytics管理员可以禁用以这种方式共享项目的功能，如 [首选项](/help/analyze/analysis-workspace/user-preferences.md). 如果无法按照本节所述共享项目，则Analytics管理员已禁用此功能。
 >
 >* 无法与无权访问Adobe Analytics的人员共享具有超过14个扩展可视化的项目。
+>
+>* 与您共享的用户可以查看在 [策划](curate.md).
+> 
+>* 您与共享的用户可以更改项目日期范围。 默认情况下，会显示您为项目设置的日期范围。
 
 
 要与无权访问Analysis Workspace的人员共享Adobe Analytics项目，请执行以下操作：
@@ -155,6 +159,8 @@ ht-degree: 65%
 1. 与您希望拥有项目访问权限的人员共享该链接。 例如，您可以将链接粘贴到电子邮件中。
 
    与您共享该链接的任何人都可以查看Analysis Workspace项目。
+
+1. （可选）您可以单击 **生成新链接** 图标 ![生成链接图标](assets/regenerate-link.png) 删除之前收到项目链接的用户的访问权限。 系统会生成一个新链接，您可以与想要访问该项目的用户共享该链接。
 
 1. 选择 **[!UICONTROL 关闭]** 关闭“共享”对话框。 您的更改将自动保存。
 
