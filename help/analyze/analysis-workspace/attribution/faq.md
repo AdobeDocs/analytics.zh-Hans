@@ -4,10 +4,10 @@ description: 获取有关归因的常见问题解答。
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 1c9f2a0f811d42c55205ee9e0431cee2f67187e7
+source-git-commit: 5ed1ff0ecee4843f866b1a911e2cb5f14310c58a
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 89%
+source-wordcount: '1071'
+ht-degree: 85%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 89%
 
 是的，支持大多数数据源。摘要级别数据源不能进行归因，因为它们未与 Analytics 访客标识符关联。
 
-交易ID数据源的处理方式与任何其他点击相同；他们不使用传统报表中通常使用的特殊处理方式。
+交易ID数据源的处理方式与任何其他点击相同；他们不使用传统报表中通常使用的特殊处理方式。 换言之，在使用报表时间处理时，交易ID点击将传播来自在交易ID点击时间戳附近发生的点击的eVar值。 这些值不会从在原始交易时间附近发生的点击中传播。
 
 ## 归因是否适用于 Advertising Analytics 集成？
 
