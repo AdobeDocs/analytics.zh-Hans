@@ -5,10 +5,10 @@ title: 计划项目
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 74d4127ccb9ff2837ab5b17c8237aa4604378485
+source-git-commit: 258eac585d536af593e0fa5b2cf75fd53ecd4ef0
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 96%
+source-wordcount: '620'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 
 要通过电子邮件立即将文件发送给收件人，请执行以下步骤：
 
-1. 单击&#x200B;**[!UICONTROL 共享] > [!UICONTROL 立即发送文件]**。
+1. 单击 **[!UICONTROL 共享] > [!UICONTROL 导出文件]**.
 1. 指定文件类型（CSV 或 PDF）。
 1. （可选）添加要包含在电子邮件中的说明，以阐述所发送的文件。
 1. 添加收件人或组。也可以输入电子邮件地址。
@@ -33,7 +33,7 @@ ht-degree: 96%
 
 要通过电子邮件按重复计划将文件发送给收件人，请执行以下操作：
 
-1. 单击&#x200B;**[!UICONTROL 共享] > [!UICONTROL 按计划发送文件]**。
+1. 单击 **[!UICONTROL 共享] > [!UICONTROL 计划文件导出]**.
 1. 指定文件类型（CSV 或 PDF）。
 1. （可选）添加要包含在电子邮件中的说明，以阐述所发送的文件。
 1. 添加收件人或组。也可以输入电子邮件地址。
@@ -59,7 +59,7 @@ ht-degree: 96%
 | [!UICONTROL 所有者] | 创建并拥有此项目的人。 |
 | [!UICONTROL 标记] | （可选）标记是一种用于排列项目的好方法。 所有用户均可创建标记，并将一个或多个标记应用到项目。 但是，您只能查看自己拥有或者与您共享的项目的标记。 |
 | [!UICONTROL 投放到] | 接收此计划项目的人。 |
-| [!UICONTROL 到期日期] | 对于任何计划项目频率，您最多可以将到期日期设置为将来1年。 |
+| [!UICONTROL 到期日期] | 对于任何计划项目频度，您可以将到期日期设置为将来最多1年。 |
 | [!UICONTROL 频率] | 您希望将此计划项目发送给收件人的频率。 |
 | [!UICONTROL 执行时间] | 在一天中发送此计划项目的时间。 |
 | [!UICONTROL 查询次数] | 查询此项目的次数。 |

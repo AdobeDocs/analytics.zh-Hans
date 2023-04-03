@@ -5,10 +5,10 @@ title: 共享项目
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 5f502cb30deb49ce21c72c1bf84db340ac3b426e
+source-git-commit: 258eac585d536af593e0fa5b2cf75fd53ecd4ef0
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 62%
+source-wordcount: '1682'
+ht-degree: 57%
 
 ---
 
@@ -93,17 +93,15 @@ ht-degree: 62%
 
 * 使用链接的收件人必须登录 Adobe Analytics 才能访问项目。
 
-* 如果收件人未分配角色，并收到指向项目的[链接](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=zh-Hans)（**[!UICONTROL 共享] > [!UICONTROL 获取项目链接]**），则他们会获得默认角色。 管理员将获得&#x200B;**[!UICONTROL 可以编辑]**&#x200B;角色，非管理员将获得&#x200B;**[!UICONTROL 可以复制]**&#x200B;角色。
+* 如果收件人未分配角色，并收到 [链接](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=zh-Hans) 默认情况下，项目会为其分配角色。 管理员将收到 **[!UICONTROL 可以编辑]** 和非管理员接收 **[!UICONTROL 可以复制]**.
 
 与组织中的用户共享项目链接：
 
-1. 单击 **[!UICONTROL 共享]** > **[!UICONTROL 与工作区用户共享]**.
+1. 保存项目。如果存在未保存的更改，系统会在共享链接之前提示您保存项目。
 
-如果存在未保存的更改，系统将提示您先保存项目。
+1. 选择 **[!UICONTROL 共享]** > **[!UICONTROL 与工作区用户共享]**，然后选择 **[!UICONTROL 复制]** 旁边 **[!UICONTROL 按链接共享]** 字段。
 
    ![](assets/share-proj-modal.png)
-
-1. 单击 **[!UICONTROL 复制]** 旁边 **[!UICONTROL 按链接共享]** 字段。
 
 1. 与组织中的用户共享项目链接。 例如，您可以将其粘贴到电子邮件中，粘贴到内部网站上，等等。
 
@@ -193,4 +191,4 @@ ht-degree: 62%
 | 如果两位编辑者同时保存一个项目，会发生什么情况？ | 将不会合并更改，并将保留最后保存的项目版本。Analysis Workspace 当前不支持实时协作。 |
 | 作为管理员，我将获得什么样的项目体验？ | 具有&#x200B;**[!UICONTROL 可以复制]**&#x200B;或&#x200B;**[!UICONTROL 可以查看]**&#x200B;角色的管理员在打开项目时将获得有限的项目体验。如有需要，管理员可以随时通过&#x200B;**[!UICONTROL 组件] > [!UICONTROL 项目]**&#x200B;将其角色提升为&#x200B;**[!UICONTROL 可以编辑]**。 |
 | 如果一位收件人作为个人和作为小组成员分别有不同的角色，会发生什么情况？ | 如果收件人同时具有多个角色，他们将始终获得权限最高的角色体验。例如，如果作为个人收件人获得&#x200B;**[!UICONTROL 可以编辑]**&#x200B;角色，而作为小组成员获得&#x200B;**[!UICONTROL 可以查看]**&#x200B;角色，则收件人将获得&#x200B;**[!UICONTROL 可以编辑]**&#x200B;项目体验。 |
-| 如果收件人打开项目链接，他们会获得什么体验？ | 收件人将获得您在共享模式中为其分配的角色。如果收件人未分配到角色，并收到指向项目的链接（**[!UICONTROL 共享] > [!UICONTROL 获取项目链接]**），则他们会获得默认角色。管理员将获得&#x200B;**[!UICONTROL 可以编辑]**&#x200B;角色，非管理员将获得&#x200B;**[!UICONTROL 可以复制]**&#x200B;角色。 |
+| 如果收件人打开项目链接，他们会获得什么体验？ | 收件人将获得您在共享模式中为其分配的角色。如果收件人未分配角色，并收到指向项目的链接(**[!UICONTROL 共享]** > **[!UICONTROL 与工作区用户共享]**，然后选择 **[!UICONTROL 复制]** 旁边 **[!UICONTROL 按链接共享]** 字段)，则默认情况下会将他们置于角色中。 管理员将获得&#x200B;**[!UICONTROL 可以编辑]**&#x200B;角色，非管理员将获得&#x200B;**[!UICONTROL 可以复制]**&#x200B;角色。 |
