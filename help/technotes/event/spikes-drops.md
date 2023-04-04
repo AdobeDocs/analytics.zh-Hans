@@ -2,7 +2,7 @@
 title: 数据激增和骤减故障诊断
 description: 了解趋势报表中出现数据急剧增加或减少的可能原因。
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 100%
@@ -41,7 +41,7 @@ ht-degree: 100%
 ### 接近或恰好是预期数据两倍的潜在原因
 
 * **实施中有多个图像请求**：如果实施中的每个页面包含多个 [`t()`](/help/implement/vars/functions/t-method.md) 方法调用，这会有效地使收集的所有数据翻倍。可在您的网站上使用调试器，并监测多个图像请求以捕获重复数据。
-* **上载了重复的数据源文件**：如果贵组织使用[数据源](/help/import/c-data-sources/datasrc-home.md)，则组织中的用户可以将同一文件上载到 Adobe Analytics 两次。执行此项重复上载操作，会有效地使报表中的数据翻倍，从而导致流量激增。
+* **上载了重复的数据源文件**：如果贵组织使用[数据源](/help/import/data-sources/overview.md)，则组织中的用户可以将同一文件上载到 Adobe Analytics 两次。执行此项重复上载操作，会有效地使报表中的数据翻倍，从而导致流量激增。
 
 ### 流量增加的其他潜在原因
 
