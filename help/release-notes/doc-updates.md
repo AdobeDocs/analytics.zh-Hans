@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: b604895acfb18c566f5d282ed5781400192d3553
+source-git-commit: 025f176777ef8fd4f91d74fb493e45889c66f439
 workflow-type: tm+mt
-source-wordcount: '3853'
+source-wordcount: '3867'
 ht-degree: 95%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 95%
 | 功能 | 描述 |
 | --- | --- |
 | **2023 年 3 月** |  |
+| 支持Web SDK以进行Activity Map | 已更新 [实施Adobe Analytics](/help/implement/home.md) 和 [启用Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md). |
 | 流量变量(prop)概述 | 添加了一些章节和分步步骤以阐明和改进文章内容。 从标题为“启用流量变量报表”的文章中合并的内容，并删除了该文章。 请参阅 [流量变量(prop)概述](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |
 | 内部URL过滤器 | 添加了一些章节和分步步骤以阐明和改进文章内容。 请参阅 [内部URL过滤器](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). |
 | 在移动记分卡中创建数据文章 | A [数据故事](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) 是围绕中心主题或量度构建的支持数据点、业务上下文和相关量度的集合。 |

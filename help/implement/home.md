@@ -2,10 +2,10 @@
 title: 实施 Adobe Analytics
 description: 在您的网站、属性或应用程序上实施 Adobe Analytics。
 feature: Implementation Basics
-source-git-commit: d9a5d8a15b9e108af795cdfb7ed5481d51311328
+source-git-commit: eae2b75d47a044b36ff9e5bbb311d1a2906faf91
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 100%
+source-wordcount: '900'
+ht-degree: 97%
 
 ---
 
@@ -48,7 +48,11 @@ Adobe Analytics 需要在您的网站、移动应用程序或其他应用程序�
    ![旧版 JavaScript](./assets/appmeasurement-implementation.png)
 此实现方法对于使用自定义代码的实施非常有用，并且在您（想要）使用时仍然推荐使用：
 
-   * [点击级Activity Map 数据](../analyze/activity-map/activity-map.md)，
+   * [activity map数据](../analyze/activity-map/activity-map.md),
+
+      >[!INFO]
+      >
+      >使用最新的Web SDK，支持Activity Map。 请参阅 [启用Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) 以了解更多信息。
 
    * [流媒体测量](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans)，
 
