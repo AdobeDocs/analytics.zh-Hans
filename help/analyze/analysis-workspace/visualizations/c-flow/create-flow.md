@@ -4,22 +4,16 @@ title: 配置流量可视化图表
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
 workflow-type: tm+mt
-source-wordcount: '1377'
-ht-degree: 100%
+source-wordcount: '1304'
+ht-degree: 96%
 
 ---
 
 # 配置流量可视化图表
 
-更新的流量可视化功能允许您了解源于或导致网站或应用程序上特定转化事件的旅程。它通过维度（和维度项）或量度跟踪路径。流量允许您配置感兴趣的路径的起点或终点，或分析流经某个维度或维度项的所有路径。
-
-新的[!UICONTROL 流量]体验可从几个方面增强您的工作流程：
-
-* 现在，您可以选择使用度量和路径维度的组合来开始或结束路径。
-* 它包含[!UICONTROL 高级设置]，以便进一步自定义[!UICONTROL 流量]。
-* 新的“生成”按钮允许您一次性配置历程，然后查询，之后再一次性自动构建多个列和节点，从而节省分析时间&#x200B;。
+流量可视化图表有助于您了解网站或应用程序上特定转化事件所产生的或导致该事件的历程。 它通过维度（和维度项）或量度跟踪路径。流量可视化图表允许您配置您感兴趣的路径的开始或结尾，或分析通过维度或维度项目流动的所有这些路径。
 
 ![新的流量 UI](assets/new-flow.png)
 

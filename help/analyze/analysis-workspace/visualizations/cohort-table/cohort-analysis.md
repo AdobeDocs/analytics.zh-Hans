@@ -4,10 +4,10 @@ description: 用同类群组分析更深入地挖掘您受众周围的数据并�
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,9 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->[!UICONTROL 同类群组分析]不支持不可分段的量度（包括计算量度）、非整数量度（例如收入或发生次数）。 只有可以在区段中使用的量度才能在[!UICONTROL 同类群组分析]中使用，并且它们一次只能递增 1。
+>[!UICONTROL 同类群组分析] 不支持不可分段的量度（包括计算量度）、非整数量度（如收入）或发生次数。
+>
+>只有可以在区段中使用的量度才能在[!UICONTROL 同类群组分析]中使用，并且它们一次只能递增 1。
 
 ## 同类群组分析功能
 
