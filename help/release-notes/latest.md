@@ -3,16 +3,16 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: cc774376b2f98506eb9c1a737e2e6fba3ea73a45
+source-git-commit: 78ab323ca7f508b319c293975b430c2cb3e043de
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 73%
+source-wordcount: '1574'
+ht-degree: 67%
 
 ---
 
 # 当前 Adobe Analytics 发行说明 (2023 年 3 月)
 
-**上次更新时间**：2023 年 4 月 3 日
+**上次更新时间**：2023 年 4 月 5 日
 
 Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
@@ -20,7 +20,8 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Analysis Workspace 中的数据词典** | 数据词典可帮助用户和管理员跟踪、管理并更好地了解其 Analytics 环境中的组件（如维度、量度等）。[了解详情](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023 年 3 月 15 日 | 2023 年 3 月 29 日 |
+| **部分支持使用Web SDKActivity Map** | 从Web SDK版本2.15.0开始，我们在启用链接跟踪时开始填充Activity Map数据。 如果Web SDK用户启用了链接跟踪并在Analytics中配置了Web SDK和Activity Map，则允许Web SDK用户获取Activity Map报表。<p>请注意，当客户从一个页面导航到下一个页面时，通过Web SDK启用链接跟踪会发送链接事件。 因此，会向Adobe发送额外的可计费点击。 我们正在努力研究一种让Web SDK收集Activity Map的方法，该方法可以反映AppMeasurement的功能。 在某些情况下，AppMeasurement会在后续页面查看时单独发送数据，从而减少服务器调用数量。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) | 不适用 | 2023 年 3 月 31 日 |
+| **Analysis Workspace 中的数据词典** | 数据词典可帮助用户和管理员跟踪、管理并更好地了解其 Analytics 环境中的组件（如维度、量度等）。[了解详情](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023 年 3 月 15 日 | **暂时不可用** |
 | **移动仪表板中的数据故事** | 数据故事让您可以将多个可自定义的详细信息视图添加到移动记分卡项目中的图块。使用数据故事深入了解关键驱动因素、相关指标以及客户历程中的不同步骤。您可以轻松浏览这些视图以了解关键指标背后的整个故事。[了解详情](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | 不适用 | 2023 年 3 月 8 日 |
 | **计划项目的过期日期** | 无论计划频率如何，您都可以将计划项目的最长到期日期设置为最多一年。 | 不适用 | 2023 年 3 月 8 日 |
 | **项目链接共享（无需登录）** - 仅限访问 Private Beta | <p>您现在可以与无权访问 Adobe Analytics 的人员共享 Analysis Workspace 项目的只读链接。您可以与组织外的人员或组织内未配置 Adobe Analytics 的人员共享项目链接。[了解详情](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>要加入 Private Beta，请联系您的 Adobe 账户团队。</p> | 2023年4月26日 | 2023 年 6 月 |
