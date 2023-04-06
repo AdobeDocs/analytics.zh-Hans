@@ -5,8 +5,8 @@ feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 3bfa7e7eeac52370b32060c264c408de32a56fc1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1546'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 | **移动仪表板中的数据故事** | 数据故事让您可以将多个可自定义的详细信息视图添加到移动记分卡项目中的图块。使用数据故事深入了解关键驱动因素、相关指标以及客户历程中的不同步骤。您可以轻松浏览这些视图以了解关键指标背后的整个故事。[了解详情](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | 不适用 | 2023 年 3 月 8 日 |
 | **计划项目的过期日期** | 无论计划频率如何，您都可以将计划项目的最长到期日期设置为最多一年。 | 不适用 | 2023 年 3 月 8 日 |
 | **项目链接共享（无需登录）** - 仅限访问 Private Beta | <p>您现在可以与无权访问 Adobe Analytics 的人员共享 Analysis Workspace 项目的只读链接。您可以与组织外的人员或组织内未配置 Adobe Analytics 的人员共享项目链接。[了解详情](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>要加入 Private Beta，请联系您的 Adobe 账户团队。</p> | 2023年4月26日 | 2023 年 6 月 |
-| **面板日期范围更新** | 在 Workspace 中，我们对以下方面作出了改进：<ul><li>从2月版开始，维度项目和数据预览基于面板日期范围，而不是最近90天。 </li><li>列出的所有维度项目都基于面板日期范围内的数据。 如果维度项目的数据超出日期范围，您可以在列表底部显示超出日期范围的其他数据。</li><li>没有Dimension的数据可显示在左边栏中。 单击显示更多选项可查看在面板日期范围外包含数据的维度项目。</li><li>区段和计算量度生成器中的数据预览基于面板日期范围，除非从组件管理器进行访问，组件管理器没有关联的面板，并且仍基于过去90天。</li><li>数据预览基于面板日期范围显示数据或组件。</li></ul> | 不适用 | 2023 年 2 月 8 日 |
+| **面板日期范围更新** | 在 Workspace 中，我们对以下方面作出了改进：<ul><li>从 2 月版开始，维度项和数据预览基于面板日期范围而非过去 90 天。 </li><li>列出的所有维度项都基于面板日期范围内的数据。如果某个维度项有超出该日期范围的数据，则可在该列表的底部显示该日期范围之外的其他数据。</li><li>可在左边栏中显示没有数据的维度。单击“显示更多选项”以查看有面板日期范围之外的数据的维度项。</li><li>区段和计算量度构建器中的数据预览基于面板日期范围，除非从组件管理器访问数据预览，因为这些数据预览没有关联的面板，仍基于过去 90 天。</li><li>数据预览基于面板日期范围显示数据或组件。</li></ul> | 不适用 | 2023 年 2 月 8 日 |
 
 {style="table-layout:auto"}
 
@@ -37,7 +37,7 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| **设备查找流程现在使用第三方进行所有设备查找** | 2023 年 3 月 3 日 | 2023年3月2日，作为客户端提示支持推出的一部分，我们更新了设备查找流程，以便使用第三方进行所有设备查找。 以前，我们仅使用第三方进行移动设备查找。 作为该推出的一部分，某些桌面操作系统被错误地标记为文本“移动”(例如，“移动设备OS X 10.15.7”而不是“OS X 10.15.7 ”)。<p>在Adobe的4月版中，我们将更正这些名称。 Analytics和CJA报表将进行追溯更新，因为它们的报表会根据记录为事件数据一部分的ID查找操作系统名称。 更新与ID对应的查找值后，所有报表都将被更正，包括历史数据。 对于 [!UICONTROL 数据馈送] 客户，如果您在报告时使用类似的查找流程，则此更改具有追溯性。 但是，如果将操作系统值存储在事件数据中，则仅以后会更新报表。 请参阅 [操作系统](/help/components/dimensions/operating-systems.md) 以了解更多详细信息。 |
+| **设备查找过程现在将一个第三方用于所有设备查找** | 2023 年 3 月 3 日 | 2023 年 3 月 2 日，作为推出客户端提示支持的一部分，我们更新了设备查找过程以将一个第三方用于所有设备查找。我们以前将该第三方仅用于移动设备查找。在此推出的过程中，不当地为一些桌面操作系统标注了“mobile”一词（如“Mobile OS X 10.15.7”而非“OS X 10.15.7”）。<p>在 Adobe 的 4 月发行版中，我们将更正这些名称。将追溯地更新 Analytics 和 CJA 报告，因为其报告基于作为事件数据的一部分而记录的 ID 查找操作系统名称。在更新与 ID 对应的查找值后，将更正所有报告，包括历史数据。对于[!UICONTROL 数据馈送]客户，如果您在报告时使用类似的查找过程，则更改可追溯。不过，如果您将操作系统值存储在事件数据中，则报告将仅在以后更新。有关更多详细信息，请参阅[操作系统](/help/components/dimensions/operating-systems.md)。 |
 | **由于 Google 客户端提示而更新设备查找** | 2023 年 2 月 27 日 | 计划于 2023 年 2 月 16 日使用的客户端提示功能被推迟，以更好地确保使用提示查找设备的质量。我们于 2023 年 2 月 27 日开始了第一阶段的发布，以支持客户端提示功能。2023 年 3 月 2 日（星期四）完成了第二阶段也是最后一阶段的发布。[了解详情](/help/technotes/client-hints.md) |
 | **Analytics Source Connector 可用性** | 2023 年 2 月 15 日 | 2023 年 2 月 28 日，位于加拿大的新 Adobe Experience Platform 数据中心提供了 Analytics Source Connector。 |
 | **自动迁移到“分类集”架构** | 2023 年 2 月 8 日 | 在接下来的几个月里，Adobe 计划将所有组织的所有分类迁移到最新的分类架构。最后一批迁移的客户估计会在 2023 年 5 月发生。无需客户操作，预计不会出现停机时间。这种新架构有很多好处，包括：<ul><li>大幅缩短处理时间（72 小时 → 24 小时）</li><li>能够使用[分类集](/help/components/classifications/sets/overview.md) UI</li><li>未来通过[适用于分类数据的 Adobe Analytics Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html) 在 Adobe Experience Platform 中使用分类数据的选项</li></ul>请注意以下可能会影响您组织工作流的变更：<ul><li>使用浏览器或 FTP 导入时，始终启用“[!UICONTROL 冲突时覆盖]”。</li><li>使用浏览器或 FTP 导入时，不再支持导入后立即导出的选项。</li><li>Analytics 2.0 API `GetDimensions`端点现在返回用于分类的字符串标识符，而不是数字标识符。仍然可以使用数字标识符，但 Adobe 建议尽可能使用新的字符串标识符。可以使用 `?expansion=hidden` 查询字符串参数检索数字标识符。</li></ul>如果您想为您的组织制定更具体的迁移计划，或者对此迁移有疑问/疑虑，请联系 Adobe 客户关怀。[了解详情](/help/components/classifications/sets/overview.md) |
@@ -48,12 +48,12 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 
 | 产品或功能 EOL | 添加或更新日期 | 描述 |
 | --- | --- | --- |
-| **日语功能电话跟踪服务生命周期终止** | 2023 年 3 月 21 日 | 仅供日本客户使用：2023年5月底，将终止日本功能电话跟踪服务(mod_ktrack)。 对于由此造成的不便，我们深表歉意，但是我们建议您卸载或禁用Apache服务器上安装的模块。 见第27和28页 [本文档](/help/release-notes/mod_ktrackforSiteCatalyst_ver1.40.pdf) 以供参考。 |
+| **终止日语版功能手机跟踪服务** | 2023 年 3 月 21 日 | 仅针对我们的日本客户：2023 年 5 月底将终止日语版功能手机跟踪服务 (mod_ktrack)。由此给您带来的不便，我们深表歉意，但我们恳请您卸载或禁用安装在您 Apache 服务器上的这些模块。请参阅[本文档](/help/release-notes/mod_ktrackforSiteCatalyst_ver1.40.pdf)中的第 27 页和第 28 页以供参考。 |
 | **[!DNL Reports & Analytics]** 的 EOL | 2023 年 3 月 7 日 | 自 **2023 年 12 月 31 日**&#x200B;起，Adobe 决定中断 [!DNL Reports & Analytics] 及其随附的报告和功能。支持 [!DNL Reports & Analytics] 的报告、可视化图表和底层技术不再满足 Adobe 的技术标准。大部分 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans) 中都可用。自 2015 年发布 Analysis Workspace 以来，[!DNL Reports & Analytics] 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)阐明生命周期结束的过程。<p>2023 年 12 月 31 日，我们将终止许多相关的报告和分析功能，包括但不限于：Reports &amp; Analytics、数据提取和 DL 报告。2023 年 12 月 31 日之后，将不再发送任何计划报告。在 **2023 年 4 月**，任何计划在 2023 年 12 月 31 日之后到期的报告将会自动更新并恢复到 2023 年 12 月 31 日到期。此外，您不能再安排 2023 年 12 月 31 日之后的未来报告。 |
-| **终止使用[!UICONTROL 人员]指标** | 2023 年 3 月 9 日 | 随着对 [[!DNL Device Co-op]](https://experienceleague.adobe.com/docs/discontinued/using/device-co-op.html) 的弃用，与 Device Co-op 相关的人员量度将会不再相关。2023年5月8日，我们将删除 [!UICONTROL 人员] 量度。 届时，我们会将其数据重定向到[!UICONTROL 独特访客]量度，以防止项目、区段和计算量度出现中断。<p>**注释**：与跨设备分析相关的[[!UICONTROL 人员]量度](/help/components/metrics/people.md)不受本公告影响。 |
+| **终止使用[!UICONTROL 人员]指标** | 2023 年 3 月 9 日 | 启用 [[!DNL Device Co-op]](https://experienceleague.adobe.com/docs/discontinued/using/device-co-op.html) 后，与 Device Co-op 相关的人员量度不再相关。我们将在 2023 年 5 月 8 日删除[!UICONTROL 人员]量度。届时，我们会将其数据重定向到[!UICONTROL 独特访客]量度，以防止项目、区段和计算量度出现中断。<p>**注释**：与跨设备分析相关的[[!UICONTROL 人员]量度](/help/components/metrics/people.md)不受本公告影响。 |
 | **终止使用[!UICONTROL 发布列表]功能** | 2022 年 9 月 29 日 | 作为终止使用 Reports &amp; Analytics 的一部分，预计在 **2023 年 12 月**&#x200B;终止使用[!UICONTROL 发布列表]。您将无法创建新的[!UICONTROL 发布列表]或访问现有的发布列表以发送或安排 [!UICONTROL Analysis Workspace] 项目。 |
 | **Data Workbench 的生命周期结束日期** | 2022 年 9 月 14 日 | Adobe 打算在 **2023 年 12 月 31 日**&#x200B;结束 Data Workbench 的生命周期。请参阅 [Data Workbench 生命周期结束公告](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=zh-Hans)以了解详情。如有任何问题，请与您组织的 Adobe 账户经理联系。 |
-| **[!DNL Reports & Analytics]** 的 EOL | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起，Adobe 决定中断 [!DNL Reports & Analytics] 及其随附的报告和功能。支持 [!DNL Reports & Analytics] 的报告、可视化图表和底层技术不再满足 Adobe 的技术标准。大部分 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans) 中都可用。自 2015 年发布 Analysis Workspace 以来，[!DNL Reports & Analytics] 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。[本通知](https://www.adobe.com/go/analytics_rnaeol_en)阐明生命周期结束的过程。 |
+| **[!DNL Reports & Analytics]** 的 EOL | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起，Adobe 决定中断 [!DNL Reports & Analytics] 及其随附的报告和功能。支持 [!DNL Reports & Analytics] 的报告、可视化图表和底层技术不再满足 Adobe 的技术标准。大部分 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans) 中都可用。自 2015 年发布 Analysis Workspace 以来，[!DNL Reports & Analytics] 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。[本通知](https://www.adobe.com/go/analytics_rnaeol_cn)阐明生命周期结束的过程。 |
 
 {style="table-layout:auto"}
 

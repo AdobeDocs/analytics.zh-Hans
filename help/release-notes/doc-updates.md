@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 025f176777ef8fd4f91d74fb493e45889c66f439
 workflow-type: tm+mt
 source-wordcount: '3867'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -27,12 +27,12 @@ ht-degree: 95%
 | --- | --- |
 | **2023 年 3 月** |  |
 | 支持Web SDK以进行Activity Map | 已更新 [实施Adobe Analytics](/help/implement/home.md) 和 [启用Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md). |
-| 流量变量(prop)概述 | 添加了一些章节和分步步骤以阐明和改进文章内容。 从标题为“启用流量变量报表”的文章中合并的内容，并删除了该文章。 请参阅 [流量变量(prop)概述](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |
-| 内部URL过滤器 | 添加了一些章节和分步步骤以阐明和改进文章内容。 请参阅 [内部URL过滤器](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). |
-| 在移动记分卡中创建数据文章 | A [数据故事](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) 是围绕中心主题或量度构建的支持数据点、业务上下文和相关量度的集合。 |
+| 流量变量 (prop) 概述 | 添加了章节和分步过程以阐明和改善文章内容。合并了标题为“启用流量变量报告”一文的内容并删除了这篇文章。请参阅[流量变量 (prop) 概述](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)。 |
+| 内部 URL 过滤器 | 添加了章节和分步过程以阐明和改善文章内容。请参阅[内部 URL 过滤器](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)。 |
+| 在移动记分卡中创建数据故事 | [数据故事](/help/analyze/mobile-app/create-scorecard.md#create-data-stories)是围绕中心主题或量度构建的辅助数据点、业务背景和相关量度的集合。 |
 | 默认计算量度 | 添加了解释 [Adobe 提供的默认计算量度](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)的内容。 |
-| 数据词典 | <p>添加了有关数据字典的新文档，包括 [概述](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md), [查看](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md), [编辑](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)和 [监控](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md) 数据字典。</p><p>中的信息 [添加组件描述](/help/analyze/analysis-workspace/components/add-component-descriptions.md) 已更新，以考虑数据字典功能。</p> |
-| 项目的链接共享（无需登录） | <p>更新了现有文档，以说明如何与无权访问Analysis Workspace的人员共享项目的只读链接。</p> <p>更新的用户文档包括 [共享项目](/help/analyze/analysis-workspace/curate-share/share-projects.md) 和 [创建可共享链接](/help/analyze/analysis-workspace/curate-share/shareable-links.md).</p> <p>管理员选项已添加到 [首选项](/help/analyze/analysis-workspace/user-preferences.md).</p> |
+| 数据词典 | <p>添加了数据词典的新文档，包括[概述](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)、[查看](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md)、[编辑](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)和[监控](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)数据词典。</p><p>更新了[添加组件描述](/help/analyze/analysis-workspace/components/add-component-descriptions.md)中的信息以解释数据词典功能。</p> |
+| 共享项目链接（无需登录） | <p>更新了现有文档以说明如何与无权访问 Analysis Workspace 的人员共享项目的只读链接。</p> <p>更新后的用户文档包括[共享项目](/help/analyze/analysis-workspace/curate-share/share-projects.md)和[创建可共享链接](/help/analyze/analysis-workspace/curate-share/shareable-links.md)。</p> <p>已将管理员的选项添加到[首选项](/help/analyze/analysis-workspace/user-preferences.md)。</p> |
 | **2023 年 2 月** |  |
 | 实施 | 更新了有关如何[为 Web 和移动设备实施 Adobe Analytics](../implement/home.md) 的内容。 |
 | 工作区日程表和日期范围 | 更新内容以描述相对日期范围、公式计算更新和日程表 UI 更改。请参阅[关于相对面板日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)。 |
