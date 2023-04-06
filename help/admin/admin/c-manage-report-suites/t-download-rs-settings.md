@@ -3,10 +3,10 @@ description: 描述如何生成 Excel 电子表格以包含选定报告包所有
 title: 下载报告包设置
 feature: Report Suite Settings
 exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
-source-git-commit: 00d37f1e77bb0f2cc0c7bd728a7f8bebe56d659e
+source-git-commit: b26da8f7e3aee3c3f3e68d24bd8b170e32759bbd
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 32%
+source-wordcount: '123'
+ht-degree: 33%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 32%
 
 3. 单击&#x200B;**[!UICONTROL 下载]**。
 
-   将名为Report Suite Data.tab的文件下载到本地计算机。
+   名为的文件 `Report Suite Data.tab` 下载到本地计算机。
 
 您可以在可以处理制表符分隔文件的任何文本编辑器中打开文件。
 
