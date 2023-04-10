@@ -3,9 +3,9 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 4e9b96fc29ee8c409019c292d565ea229e7c521f
+source-git-commit: c24a78f914faf1a236a1cb7ae2ce51dd9265012f
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1535'
 ht-degree: 93%
 
 ---
@@ -24,7 +24,7 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 | **Analysis Workspace 中的数据词典** | 数据词典可帮助用户和管理员跟踪、管理并更好地了解其 Analytics 环境中的组件（如维度、量度等）。[了解详情](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023 年 3 月 15 日 | 2023 年 3 月 29 日 |
 | **移动仪表板中的数据故事** | 数据故事让您可以将多个可自定义的详细信息视图添加到移动记分卡项目中的图块。使用数据故事深入了解关键驱动因素、相关指标以及客户历程中的不同步骤。您可以轻松浏览这些视图以了解关键指标背后的整个故事。[了解详情](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | 不适用 | 2023 年 3 月 8 日 |
 | **计划项目的过期日期** | 无论计划频率如何，您都可以将计划项目的最长到期日期设置为最多一年。 | 不适用 | 2023 年 3 月 8 日 |
-| **项目链接共享（无需登录）** - 仅限访问 Private Beta | <p>您现在可以与无权访问 Adobe Analytics 的人员共享 Analysis Workspace 项目的只读链接。您可以与组织外的人员或组织内未配置 Adobe Analytics 的人员共享项目链接。[了解详情](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>要加入 Private Beta，请联系您的 Adobe 账户团队。</p> | 2023年4月26日 | 2023 年 6 月 |
+| **项目链接共享（无需登录）** - 仅限访问 Private Beta | <p>您现在可以与无权访问 Adobe Analytics 的人员共享 Analysis Workspace 项目的只读链接。您可以与组织外的人员或组织内未配置 Adobe Analytics 的人员共享项目链接。[了解详情](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> | 2023年4月26日 | 2023 年 6 月 |
 | **面板日期范围更新** | 在 Workspace 中，我们对以下方面作出了改进：<ul><li>从 2 月版开始，维度项和数据预览基于面板日期范围而非过去 90 天。 </li><li>列出的所有维度项都基于面板日期范围内的数据。如果某个维度项有超出该日期范围的数据，则可在该列表的底部显示该日期范围之外的其他数据。</li><li>可在左边栏中显示没有数据的维度。单击“显示更多选项”以查看有面板日期范围之外的数据的维度项。</li><li>区段和计算量度构建器中的数据预览基于面板日期范围，除非从组件管理器访问数据预览，因为这些数据预览没有关联的面板，仍基于过去 90 天。</li><li>数据预览基于面板日期范围显示数据或组件。</li></ul> | 不适用 | 2023 年 2 月 8 日 |
 
 {style="table-layout:auto"}
