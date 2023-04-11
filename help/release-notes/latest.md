@@ -4,9 +4,9 @@ description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: c24a78f914faf1a236a1cb7ae2ce51dd9265012f
-workflow-type: tm+mt
-source-wordcount: '1535'
-ht-degree: 93%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **部分支持使用Web SDKActivity Map** | 从Web SDK版本2.15.0开始，我们在启用链接跟踪时开始填充Activity Map数据。 如果Web SDK用户启用了链接跟踪并在Analytics中配置了Web SDK和Activity Map，则允许Web SDK用户获取Activity Map报表。<p>当客户从一个页面导航到下一个页面时，启用Web SDK的链接跟踪当前会发送链接事件。 这与AppMeasurement的工作方式不同，可能会导致向Adobe发送额外的可计费点击。 了解更多 [此处](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) 和 [此处](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) | 不适用 | 2023 年 3 月 31 日 |
+| **Web SDK 对 Activity Map 的部分支持** | 从 Web SDK 版本 2.15.0 开始，我们开始在启用链接跟踪时填充 Activity Map 数据。这样使得 Web SDK 用户如果用在 Analytics 中配置的 Web SDK 和 Activity Map 启用了链接跟踪，则可获得 Activity Map 报告。<p>当客户从一个页面导航到下一个页面时，用 Web SDK 启用链接跟踪当前将发送链接事件。这与 AppMeasurement 的工作方式不同，并且可能会导致将额外的可计费点击数发送到 Adobe。请在[此处](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html)和[此处](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)了解详情 | 不适用 | 2023 年 3 月 31 日 |
 | **Analysis Workspace 中的数据词典** | 数据词典可帮助用户和管理员跟踪、管理并更好地了解其 Analytics 环境中的组件（如维度、量度等）。[了解详情](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023 年 3 月 15 日 | 2023 年 3 月 29 日 |
 | **移动仪表板中的数据故事** | 数据故事让您可以将多个可自定义的详细信息视图添加到移动记分卡项目中的图块。使用数据故事深入了解关键驱动因素、相关指标以及客户历程中的不同步骤。您可以轻松浏览这些视图以了解关键指标背后的整个故事。[了解详情](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | 不适用 | 2023 年 3 月 8 日 |
 | **计划项目的过期日期** | 无论计划频率如何，您都可以将计划项目的最长到期日期设置为最多一年。 | 不适用 | 2023 年 3 月 8 日 |
-| **项目链接共享（无需登录）** - 仅限访问 Private Beta | <p>您现在可以与无权访问 Adobe Analytics 的人员共享 Analysis Workspace 项目的只读链接。您可以与组织外的人员或组织内未配置 Adobe Analytics 的人员共享项目链接。[了解详情](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> | 2023年4月26日 | 2023 年 6 月 |
+| **项目链接共享（无需登录）** - 仅限访问 Private Beta | <p>您现在可以与无权访问 Adobe Analytics 的人员共享 Analysis Workspace 项目的只读链接。您可以与组织外的人员或组织内未配置 Adobe Analytics 的人员共享项目链接。[了解详情](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> | 2023 年 26 月 4 日 | 2023 年 6 月 |
 | **面板日期范围更新** | 在 Workspace 中，我们对以下方面作出了改进：<ul><li>从 2 月版开始，维度项和数据预览基于面板日期范围而非过去 90 天。 </li><li>列出的所有维度项都基于面板日期范围内的数据。如果某个维度项有超出该日期范围的数据，则可在该列表的底部显示该日期范围之外的其他数据。</li><li>可在左边栏中显示没有数据的维度。单击“显示更多选项”以查看有面板日期范围之外的数据的维度项。</li><li>区段和计算量度构建器中的数据预览基于面板日期范围，除非从组件管理器访问数据预览，因为这些数据预览没有关联的面板，仍基于过去 90 天。</li><li>数据预览基于面板日期范围显示数据或组件。</li></ul> | 不适用 | 2023 年 2 月 8 日 |
 
 {style="table-layout:auto"}
