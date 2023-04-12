@@ -5,16 +5,20 @@ title: 访客迁移
 topic-fix: Developer and implementation
 feature: Analytics Basics
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 21bbb59cdc630823cf342ff7dd0142b83f89a314
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 97%
+source-wordcount: '465'
+ht-degree: 88%
 
 ---
 
 # 访客迁移
 
-访客迁移是访客 ID Cookie 从一个域迁移到另一个域的过程。
+>[!NOTE]
+>
+>如果您已经实施Experience Cloud访客ID服务，则宽限期不适用于您，因此不应该启用宽限期。
+
+访客迁移是访客ID Cookie(s_vi)从一个域迁移到另一个域的过程。
 
 通过访客迁移可以在更改数据收集域时保留访客识别 Cookie。数据收集域可能由于以下原因发生更改：
 
@@ -41,7 +45,7 @@ ht-degree: 97%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>开始：</b> <a href="https://helpx.adobe.com/cn/marketing-cloud/contact-support.html"  >联系客户关怀</a>，告知您要迁移的域以及希望启用的迁移周期（30、60 或 90 天）。确保包括不安全和安全的域。 </p> </td> 
+   <td colname="col1"> <p> <b>开始：</b> <a href="https://helpx.adobe.com/cn/marketing-cloud/contact-support.html"  >联系客户关怀</a>，告知您要迁移的域以及希望启用的迁移周期（30、60 或 90 天）。确保包含非安全和安全域。 </p> </td> 
    <td colname="col3"> <p>使用 <i>exact</i> 语法创建一个列表，包含您希望作为迁移源或迁移目标的域。 </p> 
     <ul id="ul_067EC5C7619141A6BDFBC209C9FD47E2"> 
      <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metrics.example.com </li> 
