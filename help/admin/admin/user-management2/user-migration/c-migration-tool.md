@@ -3,10 +3,10 @@ description: 在 Adobe Experience Cloud 中将 Analytics 用户 ID 迁移到 Adm
 title: 将 Analytics 用户迁移到 Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '3162'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -120,7 +120,7 @@ ht-degree: 100%
      <li id="li_8CFFF72877E8456DAC3241143AD648AD">确认您是 Adobe Admin Console 中的 Analytics 产品管理员。 </li> 
      <li id="li_25DAA8D1EEDA45A0B5B59472BD8896C4">与您的用户群沟通，告知他们的登录体验在迁移开始后将发生改变。 </li> 
      <li id="li_5B50F942F6A8483FAFA500AFF428702C">审核您的当前用户和权限，并执行清理活动。 </li> 
-    </ul> <p>要加快迁移进度，请在 <a href="https://helpx.adobe.com/cn/marketing-cloud/contact-support.html">Adobe 客户关怀</a>联系您的客户成功经理，并提交开始日期提前的请求。 </p> </td> 
+    </ul> <p>要加快迁移进度，请通过以下地址联系您的Adobe客户团队： <a href="https://helpx.adobe.com/cn/marketing-cloud/contact-support.html"> Adobe客户关怀</a> 并提交开始日期提前的请求。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 我是 Analytics 管理员但没有 Adobe Admin Console 访问权限。谁能帮助我获取 Adobe Admin Console 的访问权限？ </p> </td> 

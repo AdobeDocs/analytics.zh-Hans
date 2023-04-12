@@ -2,20 +2,20 @@
 title: Adobe Experience Edge 中的 Analytics 变量映射
 description: 查看 Edge 自动映射到 Analytics 变量的 XDM 字段。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 814c88f3248aec7dde812926ba19f5eee1a815b0
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 98%
+source-wordcount: '1478'
+ht-degree: 97%
 
 ---
 
 # Adobe Experience Edge 中的 Analytics 变量映射
 
-下表显示了 Adobe Experience Platform Edge Network 自动映射到 Adobe Analytics 的变量。 如果使用这些 XDM 字段路径，则无需额外配置即可将数据发送到 Adobe Analytics。
+下表显示了 Adobe Experience Platform Edge Network 自动映射到 Adobe Analytics 的变量。 如果使用这些 XDM 字段路径，则无需额外配置即可将数据发送到 Adobe Analytics。这些字段包含在 **[!UICONTROL Adobe Analytics ExperienceEvent模板]** 字段组。
 
 此表的以前更新可在本页的 [在GitHub上提交历史记录](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/variable-mapping.md).
 
-| XDM 字段路径 | Analytics 维度和描述 |
+| XDM字段路径 | Analytics 维度和描述 |
 | --- | --- |
 | `application.isClose` | 帮助定义移动量度[崩溃](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#metrics)。 |
 | `application.isInstall` | 帮助确定何时增加[首次发布](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hans#metrics)移动量度。 |

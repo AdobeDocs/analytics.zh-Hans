@@ -2,9 +2,9 @@
 title: 分类集设置
 description: 创建或编辑分类集。
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '560'
 ht-degree: 100%
 
 ---
@@ -12,10 +12,6 @@ ht-degree: 100%
 # 分类集设置
 
 配置分类集、上载数据或下载数据。
-
->[!NOTE]
->
->所有将其报表包迁移到新分类架构的客户都可以使用此功能。请联系 Adobe 客户关怀部门或您的客户经理以获取更多信息。
 
 **[!UICONTROL “组件”]**>**[!UICONTROL “分类集”]**>**[!UICONTROL “集”]**>“单击所需的分类集名称”
 

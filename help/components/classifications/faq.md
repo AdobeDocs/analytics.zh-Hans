@@ -3,10 +3,10 @@ title: 分类常见问题解答
 description: 使用分类的常见问题解答。
 feature: Classifications
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
    *如果[维度]等于 `0`，则使用自定义值 `Zero` 覆盖[维度]的值。*
 
-* **请求设置 VISTA 规则**：工程服务顾问可为您设置服务器端规则，但需支付额外费用。请与贵组织的客户经理联系，请求设置 VISTA 规则。
+* **请求设置 VISTA 规则**：工程服务顾问可为您设置服务器端规则，但需支付额外费用。请联系您的Adobe客户团队以请求设置VISTA规则。
 
 ## 是否可以使用分类导入器对尚不存在的维度项目进行分类？
 

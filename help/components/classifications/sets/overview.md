@@ -2,9 +2,9 @@
 title: 分类集概述
 description: 使用分类集管理分类数据。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '233'
 ht-degree: 100%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 100%
 分类集提供单一界面来管理分类和规则。 此工作流将在报告包设置中创建分类的概念，与分类导入器的概念相结合，提供更直观的界面以供创建和管理分类数据。
 
 **[!UICONTROL 组件]** > **[!UICONTROL 分类集]**
-
->[!NOTE]
->
->所有将其报告包迁移到新分类架构的客户都可以使用分类集。请联系 Adobe 客户关怀部门或您的客户经理以获取更多信息。
 
 与“分类集”一起发布的后端架构包含几项显著改进：
 

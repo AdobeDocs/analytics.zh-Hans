@@ -3,18 +3,16 @@ title: getTimeParting
 description: 测量特定操作发生的时间。
 feature: Variables
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 100%
+source-wordcount: '807'
+ht-degree: 78%
 
 ---
 
 # Adobe 插件：getTimeParting
 
->[!IMPORTANT]
->
->此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
+{{plug-in}}
 
 `getTimeParting` 插件允许您捕获网站上发生任何可衡量活动的详细时间。如果您希望按任一可重复分时段对指定日期范围内的量度进行细分，此插件将非常有帮助。例如，您可以比较一周内某两天的转化率，如所有星期日的转化率与所有星期四的转化率。您还可以比较一天内的不同时段，如比较所有上午与所有晚上。
 
@@ -24,25 +22,44 @@ Analysis Workspace 提供了与此插件类似的开箱即用维度，只是维�
 >
 >此插件的 4.0+ 版本与以往版本有显著差异。Adobe 强烈建议您“从头开始”实施此插件。引用了版本 4.0 之前插件的代码与此插件的当前版本不兼容。
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## 使用Web SDK扩展安装插件
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+Adobe提供了一个扩展，允许您将最常用的插件与Web SDK结合使用。
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired tag property.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
-    * Condition: None
-    * Event: Core – Library Loaded (Page Top)
-1. Add an action to the above rule with the following configuration:
-    * Extension: Common Analytics Plugins
-    * Action Type: Initialize getTimeParting
-1. Save and publish the changes to the rule.-->
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
+1. 单击 **[!UICONTROL 标记]** 然后，单击左侧的所需标记属性。
+1. 单击 **[!UICONTROL 扩展]** ，然后单击 **[!UICONTROL 目录]** 选项卡
+1. 找到并安装 **[!UICONTROL 常用Web SDK插件]** 扩展。
+1. 单击 **[!UICONTROL 数据元素]** 然后，单击左侧的所需数据元素。
+1. 使用以下配置设置所需的数据元素名称：
+   * 扩展：常用Web SDK插件
+   * 数据元素: `getTimeParting`
+1. 设置 `Time Zone` 参数。
+1. 保存并发布对数据元素所做的更改。
+
+## 手动安装插件以实施Web SDK
+
+尚不支持在Web SDK的手动实施中使用此插件。
+
+## 使用Adobe Analytics扩展安装插件
+
+Adobe提供了一个扩展，允许您将最常用的插件与Adobe Analytics一起使用。
+
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
+1. 单击所需的标记属性。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
+1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
+1. 如果还没有任何扩展，请使用以下配置创建一个标签为“初始化插件”的规则：
+   * 条件：无
+   * 事件：核心 - 已加载的库（页面顶部）
+1. 使用以下配置向上述规则添加操作：
+   * 扩展：常用 Analytics 插件
+   * 操作类型：初始化 getTimeParting
+1. 保存并发布对上述规则所做的更改。
 
 ## 使用自定义代码编辑器安装此插件
 
-如果您不想使用插件扩展，则可以使用自定义代码编辑器。
+如果您不想使用“常用Analytics插件”插件扩展，则可以使用自定义代码编辑器。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。
@@ -127,7 +144,7 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 ### 6.1（2018 年 11 月 26 日）
 
-* 对 Internet Explorer 浏览器问题进行了修复。此类浏览器可以返回时间，但只能返回访客所在地区的本地时间。
+* 对 Internet Explorer 浏览器问题进行了修复。他们可以返回时间，但只能返回访客的本地时间。
 
 ### 6.0（2018 年 8 月 14 日）
 

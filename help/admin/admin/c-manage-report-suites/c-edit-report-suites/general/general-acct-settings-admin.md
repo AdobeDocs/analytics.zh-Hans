@@ -4,10 +4,10 @@ title: 一般帐户设置
 feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
-source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 100%
+source-wordcount: '810'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 | 交易 ID 存储 | 可让您使用[交易 ID](/help/import/data-sources/transactionid.md) 数据源。 |
 | 启用 Data Warehouse | 在“Analytics”>“工具”>“Data Warehouse”下启用 Data Warehouse UI。 |
 | 邮政编码选项 | 让您指定邮政编码，而不是使用我们的地理 IP 查找生成的任何内容。 |
-| 多字节字符支持 | 多字节字符支持使用 UTF-8 将字符存储在报表包中。系统在接收数据之后会将其从您的网页字符集转换为 UTF-8 字符集，从而使您可以在市场营销报告中使用任何语言。要将现有报表包更改为支持多字节字符，请联系您的客户经理或客户关怀。 |
+| 多字节字符支持 | 多字节字符支持使用 UTF-8 将字符存储在报表包中。系统在接收数据之后会将其从您的网页字符集转换为 UTF-8 字符集，从而使您可以在市场营销报告中使用任何语言。请联系您的Adobe客户团队或客户关怀团队，以更改现有报表包的多字节字符支持。 |
 | 已激活 | 指定是否激活此报表包。 |
 | 基本货币 | 允许您为此报表包指定基本[货币](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=zh-Hans)。 |
 | 组织 ID | 与您设置的 Experience Cloud 公司关联的 ID。此 ID 是由 24 个字符组成的字母数字字符串，其后跟（且必须包括）@AdobeOrg。 |

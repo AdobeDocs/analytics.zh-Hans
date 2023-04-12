@@ -3,40 +3,42 @@ title: getTimeToComplete
 description: 测量完成一项任务所需的时间。
 feature: Variables
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 100%
+source-wordcount: '596'
+ht-degree: 88%
 
 ---
 
 # Adobe 插件：getTimeToComplete
 
->[!IMPORTANT]
->
->此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
+{{plug-in}}
 
 `getTimeToComplete` 插件可跟踪用户在网站上完成某个流程所需的时间。“时钟”在调用 `start` 操作时开始，并在调用 `stop` 操作时结束。如果网站上的某个工作流程需要花一些时间才能完成，并且您希望了解访客完成该工作流程所用的时间，Adobe 建议使用此插件。如果网站上的工作流程需要很短时间（少于 3 秒）即可完成，则无需使用此插件，因为可测量的最小时间粒度为 1 秒。
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## 使用Web SDK或Web SDK扩展安装此插件
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+尚不支持在Web SDK中使用此插件。
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired tag property.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
-    * Condition: None
-    * Event: Core – Library Loaded (Page Top)
-1. Add an action to the above rule with the following configuration:
-    * Extension: Common Analytics Plugins
-    * Action Type: Initialize getTimeToComplete
-1. Save and publish the changes to the rule.-->
+## 使用Adobe Analytics扩展安装插件
+
+Adobe提供了一个扩展，允许您将最常用的插件与Adobe Analytics一起使用。
+
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
+1. 单击所需的标记属性。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
+1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
+1. 如果还没有任何扩展，请使用以下配置创建一个标签为“初始化插件”的规则：
+   * 条件：无
+   * 事件：核心 - 已加载的库（页面顶部）
+1. 使用以下配置向上述规则添加操作：
+   * 扩展：常用 Analytics 插件
+   * 操作类型：初始化 getTimeToComplete
+1. 保存并发布对上述规则所做的更改。
 
 ## 使用自定义代码编辑器安装此插件
 
-如果您不想使用插件扩展，则可以使用自定义代码编辑器。
+如果您不想使用“常用Analytics插件”插件扩展，则可以使用自定义代码编辑器。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。

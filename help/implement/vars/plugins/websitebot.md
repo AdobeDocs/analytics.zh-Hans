@@ -3,18 +3,16 @@ title: websiteBot
 description: 通过移动鼠标，动态识别机器人。
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: f3c656b0b631d655159ae89d4622990937cf84ef
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '381'
 ht-degree: 100%
 
 ---
 
 # Adobe 插件：websiteBot
 
->[!IMPORTANT]
->
->此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
+{{plug-in}}
 
 通过 `websiteBot` 插件，您可以动态识别桌面访客是否为机器人。您可以凭借此数据来提高所有报表类型的准确性，从而更好地衡量合法的网站流量。
 

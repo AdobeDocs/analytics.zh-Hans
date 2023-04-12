@@ -2,9 +2,9 @@
 title: 分类集作业管理器
 description: 查看从分类集生成的当前和已完成的分类作业。
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '387'
 ht-degree: 100%
 
 ---
@@ -12,10 +12,6 @@ ht-degree: 100%
 # 分类集作业管理器
 
 通过分类集作业管理器，可以查看从分类集生成的当前和已完成的分类作业。 您还可以使用此界面下载特定作业的分类数据或模板，或将其他数据上载到作业。
-
->[!NOTE]
->
->所有将其报表包迁移到新分类架构的客户都可以使用此功能。请联系 Adobe 客户关怀部门或您的客户经理以获取更多信息。
 
 **[!UICONTROL “组件”]**>**[!UICONTROL “分类集”]**>**[!UICONTROL “作业”]**
 

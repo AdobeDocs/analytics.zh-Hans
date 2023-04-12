@@ -6,9 +6,9 @@ uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 34a7be55-519a-4e04-95a3-99b0f6e04b3e
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '155'
 ht-degree: 100%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 100%
 {{ra-eol}}
 
 了解如何为 Adobe Analytics 收集数据。
-
-Adobe 跟踪的每个页面均有一个 Adobe 授权的 JavaScript 代码小片段。您的帐户管理员可提供该代码。
 
 高级别下的数据收集过程如下：
 

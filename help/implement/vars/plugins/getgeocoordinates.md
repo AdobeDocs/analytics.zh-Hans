@@ -3,40 +3,56 @@ title: getGeoCoordinates
 description: 跟踪访客的地理位置。
 feature: Variables
 exl-id: 8620d083-7fa6-432b-891c-e24907e7c466
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 100%
+source-wordcount: '566'
+ht-degree: 72%
 
 ---
 
 # Adobe 插件：getGeoCoordinates
 
->[!IMPORTANT]
->
->此插件由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对此插件的支持，包括安装或疑难解答。如果您需要关于此插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
+{{plug-in}}
 
 `getGeoCoordinates` 插件允许您捕获访客设备所在的纬度和经度。如果您想要在 Analytics 变量中捕获地理位置数据，Adobe 建议使用此插件。
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## 使用Web SDK扩展安装插件
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+Adobe提供了一个扩展，允许您将最常用的插件与Web SDK结合使用。
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired tag property.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
-    * Condition: None
-    * Event: Core – Library Loaded (Page Top)
-1. Add an action to the above rule with the following configuration:
-    * Extension: Common Analytics Plugins
-    * Action Type: Initialize getGeoCoordinates
-1. Save and publish the changes to the rule.-->
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
+1. 单击 **[!UICONTROL 标记]** 然后，单击左侧的所需标记属性。
+1. 单击 **[!UICONTROL 扩展]** ，然后单击 **[!UICONTROL 目录]** 选项卡
+1. 找到并安装 **[!UICONTROL 常用Web SDK插件]** 扩展。
+1. 单击 **[!UICONTROL 数据元素]** 然后，单击左侧的所需数据元素。
+1. 使用以下配置设置所需的数据元素名称：
+   * 扩展：常用Web SDK插件
+   * 数据元素: `getGeoCoordinates`
+1. 保存并发布对数据元素所做的更改。
+
+## 手动安装插件以实施Web SDK
+
+尚不支持在Web SDK的手动实施中使用此插件。
+
+## 使用Adobe Analytics扩展安装插件
+
+Adobe提供了一个扩展，允许您将最常用的插件与Adobe Analytics一起使用。
+
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
+1. 单击所需的标记属性。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
+1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
+1. 如果还没有任何扩展，请使用以下配置创建一个标签为“初始化插件”的规则：
+   * 条件：无
+   * 事件：核心 - 已加载的库（页面顶部）
+1. 使用以下配置向上述规则添加操作：
+   * 扩展：常用 Analytics 插件
+   * 操作类型：初始化 getGeoCoordinates
+1. 保存并发布对上述规则所做的更改。
 
 ## 使用自定义代码编辑器安装此插件
 
-如果您不想使用插件扩展，则可以使用自定义代码编辑器。
+如果您不想使用“常用Analytics插件”插件扩展，则可以使用自定义代码编辑器。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的属性。

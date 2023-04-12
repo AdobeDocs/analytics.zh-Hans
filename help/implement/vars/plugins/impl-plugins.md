@@ -3,10 +3,10 @@ title: 插件概述
 description: 将代码粘贴到您的网站上以引入新功能。
 feature: Variables
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: f3c656b0b631d655159ae89d4622990937cf84ef
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 100%
+source-wordcount: '308'
+ht-degree: 96%
 
 ---
 
@@ -14,15 +14,13 @@ ht-degree: 100%
 
 插件是可执行多个高级功能以帮助您实施 Analytics 的代码片段。这些插件扩展了 JavaScript 文件的功能，提供了多项基本实施所没有的功能。作为高级解决方案的一部分，Adobe 提供了许多其他插件。
 
->[!IMPORTANT]
->
->这些插件均由 Adobe Consulting 团队提供，旨在帮助您从 Adobe Analytics 中获取更多的价值。Adobe 客户关怀团队不提供对其中任何插件的支持，包括安装或疑难解答。如果您需要关于某个插件的帮助，请与贵组织的帐户管理员联系。他们可以为您安排与顾问的答疑会，以便您向顾问寻求帮助。
+{{plug-in}}
 
 Adobe 提供了多种安装给定插件的方法：
 
-<!--1. Use the 'Common Analytics Plugins' extension using the Web SDK or the Adobe Analytics extension-->
-1. 使用自定义代码编辑器粘贴插件代码
-1. 将插件代码粘贴到 `AppMeasurement.js` 文件
+* 使用Adobe Analytics扩展的“常用Analytics插件”扩展
+* 使用自定义代码编辑器粘贴插件代码
+* 将插件代码粘贴到 `AppMeasurement.js` 文件
 
 由于每个组织有不同的实施需求，因此您可以决定在实施中以何种方式包含这些插件。将代码包含到网站中时，确保符合以下条件：
 
