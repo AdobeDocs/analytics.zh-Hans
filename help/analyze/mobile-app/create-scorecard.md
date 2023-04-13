@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: 8707bde9ddda96ab63a916bda9dfb35e8b9b1063
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2353'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -241,7 +241,7 @@ Analytics 功能板提供了四种可视化图表，可让您深入了解维度�
 
    要添加新幻灯片，请将光标悬停在幻灯片上或单击幻灯片，然后选择可用的选项：
 
-   * 点按 [!UICONTROL +] 签署以创建新幻灯片。
+   * 点按 [!UICONTROL +] 号以创建新幻灯片。
 
    * 点按复制图标以复制现有幻灯片。
 
@@ -263,7 +263,7 @@ Analytics 功能板提供了四种可视化图表，可让您深入了解维度�
 
    ![创建数据故事](assets/data-story3.png)
 
-   将组件（如可视化图表）拖放到图块上时，该组件会应用于所有数据文章幻灯片。
+   在将可视化等组件拖放到磁贴上时，该组件将应用于所有数据故事幻灯片。
 
 1. 要仅对标题应用更改，请按住 Shift 键以应用更改。
 
