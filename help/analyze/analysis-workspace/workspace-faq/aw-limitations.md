@@ -4,10 +4,10 @@ title: Analysis Workspace 中的已知限制
 feature: Workspace Basics
 role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 100%
+source-wordcount: '414'
+ht-degree: 90%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 ## “组件”>“区段”
 
 * 某些量度和维度不可分段，如[!UICONTROL 发生次数]、[!UICONTROL 唯一访客]，等等。
-* 在[面板拖放区](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hans)中创建的临时区段，将不会显示在工作区或区段组件管理器的左边栏中，除非将这些临时区段公开。可通过编辑区段并选中&#x200B;**[!UICONTROL 将此区段设为公用]**&#x200B;来完成这项操作。
+* 在 [面板拖放区域](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hans) 是一种快速过滤器。 除非将区段组件公开，否则它们不会显示在工作区或区段组件管理器的左边栏中。 有关更多信息，请参阅 [快速区段](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ## “组件”>“计算量度”
 

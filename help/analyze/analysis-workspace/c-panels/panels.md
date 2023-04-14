@@ -4,10 +4,10 @@ title: 面板概述
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 95%
+source-wordcount: '1111'
+ht-degree: 93%
 
 ---
 
@@ -68,11 +68,11 @@ Analysis Workspace 中提供了以下面板类型：
 
 ### 临时区段过滤器
 
-还可将非区段组件直接拖入放置区域以创建临时区段，从而为您节省转到区段生成器的时间和精力。 通过这种方式创建的区段自动定义为点击级别区段。通过单击区段旁的信息图标 (i)、单击铅笔形状编辑图标并在区段生成器中进行编辑，可以修改此定义。
+也可以将非区段组件直接拖入拖放区域以创建临时区段，从而节省您转到区段生成器的时间和工作。 通过这种方式创建的区段自动定义为点击级别区段。通过单击区段旁的信息图标 (i)、单击铅笔形状编辑图标并在区段生成器中进行编辑，可以修改此定义。
 
-临时区段在项目本地，除非将其公开，否则此类区段不会显示在左边栏中。
+临时区段是一种快速区段类型，属于项目的本地区段。 除非您将它们设为公开，否则它们不会显示在左边栏中。
 
-![](/help/admin/admin/assets/filter.png)
+有关更多信息，请参阅 [快速区段](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ### 下拉过滤器 {#dropdown-filter}
 

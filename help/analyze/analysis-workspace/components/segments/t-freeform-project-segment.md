@@ -4,10 +4,10 @@ title: 区段
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: f2a22aa71c928be30d365fcea71c8fb42efc3919
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 100%
+source-wordcount: '493'
+ht-degree: 95%
 
 ---
 
@@ -19,11 +19,9 @@ ht-degree: 100%
 | 区段类型 | 在何处创建？ | 适用于何处？ | 使用时间 |
 | --- | --- | --- | --- |
 | 组件列表区段 | 单击 +，这样即转到[区段生成器](/help/components/segmentation/segmentation-workflow/seg-build.md) | 您的所有工作区项目 | 对于更复杂的区段、顺序区段 |
-| 快速区段 | [快速区段生成器](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | [ 仅用于项目 ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F)，但可保存并添加到您的区段列表。 | 灵活地添加/编辑一条或多条规则 |
-| 临时区段： |  |  |  |
-| - 临时 Workspace 项目区段 | [拖放到项目中的区段拖放区域](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | [ 仅用于项目 ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F)，但可保存并添加到您的区段列表。 | 对于单规则区段 |
-| - 基于计算指标的区段 | [计算指标生成器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=zh-Hans) | 适用于个别计算指标 | 在您的指标定义中应用区段 |
-| - 基于 VRS 的区段 | [虚拟报表包生成器](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=zh-Hans) | 适用于个别虚拟报表包 | 在您的 VRS 定义中应用区段 |
+| 快速区段 | [快速区段生成器](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | 仅用于项目，但可保存并添加到您的区段列表。 | 可用于临时单规则区段（通过拖放），或添加/编辑多个规则（通过单击区段图标） |
+| 基于计算指标的区段 | [计算指标生成器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=zh-Hans) | 适用于个别计算指标 | 在您的指标定义中应用区段 |
+| 基于 VRS 的区段 | [虚拟报表包生成器](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=zh-Hans) | 适用于个别虚拟报表包 | 在您的 VRS 定义中应用区段 |
 
 ## 视频
 
@@ -44,7 +42,6 @@ ht-degree: 100%
 可在 Analysis Workspace 中创建不同类型的区段：
 
 * [快速区段](/help/analyze/analysis-workspace/components/segments/quick-segments.md)
-* [临时区段](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)
 * 您在区段生成器中创建的最终位于区段库中的常规组件列表区段（见下文）
 
 ### 创建组件列表区段 {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
