@@ -4,9 +4,9 @@ description: 自由格式表是在 Analysis Workspace 中进行数据分析的�
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 8ca676a9e69195ef873981dd390bb0a6d4d465f1
+source-git-commit: ef2b452a0dcb2659b49fc0507b096952a89ea2f4
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '629'
 ht-degree: 69%
 
 ---
@@ -15,11 +15,13 @@ ht-degree: 69%
 
 在 Analysis Workspace 中，自由格式表是进行交互式数据分析的基础。可以将[组件](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=zh-Hans)组合拖放到行和列中，以创建自定义表格供您分析。拖放每个组件后，表格会立即更新，以便您可以快速分析和深入挖掘。
 
-为了说明这一点，您首先需要一个空的自由格式表。
+## 构建简单的自由格式表
+
+您首先需要一个空的自由格式表。
 
 ![空自由格式表](assets/freeform-table-1.png)
 
-如果您将 **[!UICONTROL **&#x200B;访问次数&#x200B;**]** 量度 **[!UICONTROL **&#x200B;将量度拖放到此处（或任何其他组件）**]**，自由格式表会在您选择的时段内自动填充每日访问量。
+如果您将 **[!UICONTROL **&#x200B;访问次数&#x200B;**]** 量度 **[!UICONTROL **&#x200B;将量度拖放到此处（或任何其他组件）**]**，自由格式表会在您选择的日历期间自动填充每日访问量。
 
 ![访问自由格式表](assets/freeform-table-2.png)
 
