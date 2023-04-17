@@ -4,9 +4,9 @@ description: 用同类群组分析更深入地挖掘您受众周围的数据并�
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
+source-git-commit: fbb9c742ca169e727cffa9b8e5e93ba23ced0ebf
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '490'
 ht-degree: 96%
 
 ---
@@ -23,7 +23,6 @@ ht-degree: 96%
 * 在客户生命周期的恰当时间内转变营销预算。
 * 识别终止试用或优惠活动的时间，以实现价值的最大化。
 * 获取在一些领域（例如，定价、升级路径等）内进行 A/B 测试的建议。
-* 在引导分析报表中查看[!UICONTROL 同类群组分析]报表。
 
 [!UICONTROL 同类群组分析]适用于具有 [!UICONTROL Analysis Workspace] 访问权限的所有 Adobe Analytics 客户。
 
