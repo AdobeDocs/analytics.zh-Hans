@@ -6,11 +6,11 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: f4cf651e07da27c416fc02b184b80bc07756eb33
 workflow-type: tm+mt
 source-wordcount: '1568'
-ht-degree: 81%
+ht-degree: 98%
 
 ---
 
-# 当前 Adobe Analytics 发行说明 (2023 年 4 月)
+# 当前 Adobe Analytics 发行说明（2023 年 4 月）
 
 **上次更新时间**：2023 年 4 月 12 日
 
@@ -20,27 +20,27 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Analytics 源连接器流的行/列筛选** | Adobe Experience Platform 中的 Analytics 源连接器现在允许过滤 Analytics 数据，这些数据用于填充[实时客户配置文件](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans)中的配置文件。行级过滤有助于减少与配置文件关联的事件数。列级过滤有助于减少事件本身的丰富性，从而使您能够优化对配置文件权利的使用。此过滤仅适用于发送至实时客户配置文件和[标识服务](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hans)的数据。**过滤不会影响发送到数据湖以用于 Customer Journey Analytics** 等应用程序的数据。[了解详情](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hans#filtering-for-profile) | 不适用 | 2023 年 3 月 29 日 |
+| **Analytics 源连接器流式处理的行/列筛选** | Adobe Experience Platform 中的 Analytics 源连接器现在允许过滤 Analytics 数据，这些数据用于填充[实时客户配置文件](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans)中的配置文件。行级过滤有助于减少与配置文件关联的事件数。列级过滤有助于减少事件本身的丰富性，从而使您能够优化对配置文件权利的使用。此过滤仅适用于发送至实时客户配置文件和[标识服务](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hans)的数据。**过滤不会影响发送到数据湖以用于 Customer Journey Analytics** 等应用程序的数据。[了解详情](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hans#filtering-for-profile) | 不适用 | 2023 年 3 月 29 日 |
 | **Web SDK 对 Activity Map 的部分支持** | 从 Web SDK 版本 2.15.0 开始，我们开始在启用链接跟踪时填充 Activity Map 数据。这样使得 Web SDK 用户如果用在 Analytics 中配置的 Web SDK 和 Activity Map 启用了链接跟踪，则可获得 Activity Map 报告。<p>当客户从一个页面导航到下一个页面时，用 Web SDK 启用链接跟踪当前将发送链接事件。这与 AppMeasurement 的工作方式不同，并且可能会导致将额外的可计费点击数发送到 Adobe。请在[此处](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html)和[此处](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)了解详情 | 不适用 | 2023 年 3 月 31 日 |
-| **Experience Edge的IP模糊处理** | Experience Edge将支持对直接发送到Adobe Experience Platform的数据进行IP模糊处理。 这样，将数据直接发送到Platform以用于CJA或其他平台解决方案的客户就会受益。 IP模糊处理在数据流级别配置。 它支持删除最后八位字节或整个IP地址。<p>**注意**:模糊处理不适用于发送到Adobe Analytics的数据。 Analytics将继续获取完整的IP。 IP处理仍可以在Analytics中单独完成。 将来，我们计划允许在Edge中模糊处理Analytics数据。 | 不适用 | 2023年4月26日的AEP版本 |
+| **Experience Edge 的 IP 地址模糊处理** | Experience Edge 将支持对直接发送到 Adobe Experience Platform 的数据进行 IP 地址模糊处理。这有利于将数据直接发送到 Platform 以用于 CJA 或其他 Platform 解决方案的客户。 IP 地址模糊处理是在数据流级别配置的。它支持删除最后一个八位字节或整个 IP 地址。<p>**注释**：模糊处理不适用于发送到 Adobe Analytics 的数据。Analytics 继续获取完整的 IP。IP 处理继续在 Analytics 中单独完成。将来，我们计划允许在 Edge 模糊分析数据。 | 不适用 | AEP 于 2023 年 4 月 26 日发布 |
 | **Analysis Workspace 中的数据词典** | 数据词典可帮助用户和管理员跟踪、管理并更好地了解其 Analytics 环境中的组件（如维度、量度等）。[了解详情](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023 年 3 月 15 日 | 2023 年 3 月 29 日 |
-| **项目链接共享（无需登录）** - 仅限访问 Private Beta | <p>您现在可以与无权访问 Adobe Analytics 的人员共享 Analysis Workspace 项目的只读链接。您可以与组织外的人员或组织内未配置 Adobe Analytics 的人员共享项目链接。[了解详情](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>要加入 Private Beta，请联系您的 Adobe 账户团队。</p> | 2023 年 26 月 4 日 | 2023 年 6 月 |
-| Adobe Analytics 2.0 API的2个新端点指南 | <ul><li>[AnalyticsDimensionAPI](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics量度API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> | 不适用 | 2023 年 10 月 4 日 |
+| **项目链接共享（无需登录）** - 仅限访问 Private Beta | <p>您现在可以与无权访问 Adobe Analytics 的人员共享 Analysis Workspace 项目的只读链接。您可以与组织外的人员或组织内未配置 Adobe Analytics 的人员共享项目链接。[了解详情](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>要加入 Private Beta，请联系您的 Adobe 账户团队。</p> | 2023 年 4 月 26 日 | 2023 年 6 月 |
+| Adobe Analytics 2.0 API的2个新端点指南 | <ul><li>[AnalyticsDimensionAPI](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics量度API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> | 不适用 | 2023 年 4 月 10 日 |
 
 {style="table-layout:auto"}
 
 ## Adobe Analytics 中的修复
 
-* 修复了数据馈送中Operating System.tsv查找文件的问题。
-* 修复了Reports &amp; Analytics和工作区之间量度值不同的问题(AN-315965)。
-* 修复了无法导入部分分类的问题。 (AN-315854)
-* 修复了Analytics API 1.4的问题。 (AN-316475)
-* 修复了导致某些客户无法通过“Report Builder”和“Report &amp; Analytics”获取“页面”维度的分类的问题。 (AN-314445)
-* 修复了无法传输警报的问题。 (AN-306457)
+* 修复了数据馈送中 Operating System.tsv 查找文件的问题。
+* 修复了 Reports and Analytics 与 Workspace 之间指标值不同的问题 (AN-315965)。
+* 修复了无法导入部分分类的问题。(AN-315854)
+* 修复了 Analytics API 1.4 的问题。(AN-316475)
+* 修复了阻止某些客户通过 Report Builder 和 Report and Analytics 获取页面维度分类的问题。(AN-314445)
+* 修复了无法转移警报的问题。(AN-306457)
 
 ### 其他修复
 
-AN-288373;AN-305144;AN-309023;AN-310466;AN-311686;AN-311705;AN-312018;AN-312105;AN-312116;AN-312191;AN-312502;AN-312737;AN-312854;AN-312991;AN-313253;AN-313275;AN-313278;AN-313282;AN-313365;AN-313390;AN-313547;AN-313549;AN-313818;AN-313986;AN-314080;AN-314248;AN-314251;AN-314262;AN-314300;AN-314309;AN-314448;AN-314643;AN-314564;AN-314645;AN-314705;AN-314761;AN-314831;AN-314919;AN-314948;AN-315032;AN-315115;AN-315154;AN-315158;AN-315321;AN-315375;AN-315379;AN-315392;AN-315407;AN-315427;AN-315582;AN-315591;AN-315699;AN-315700;AN-315704;AN-315705;AN-315777;AN-315923;AN-316237;AN-316243;AN-316324;AN-316415;AN-316474;AN-316493;AN-316596;AN-316864;
+AN-288373、AN-305144、AN-309023、AN-310466、AN-311686、AN-311705、AN-312018、AN-312105、AN-312116、AN-312191、AN-312502、AN-312737、AN-312854、AN-312991、AN-313253、AN-313275、AN-313278、AN-313282、AN-313365、AN-313390、AN-313547、AN-313549、AN-313818、AN-313986、AN-314080、AN-314248、AN-314251、AN-314262、AN-314300、AN-314309、AN-314448、AN-314643、AN-314564、AN-314645、AN-314705、AN-314761、AN-314831、AN-314919、AN-314948、AN-315032、AN-315115、AN-315154、AN-315158、AN-315321、AN-315375、AN-315379、AN-315392、AN-315407、AN-315427、AN-315582、AN-315591、AN-315699、AN-315700、AN-315704、AN-315705、AN-315777、AN-315923、AN-316237、AN-316243、AN-316324、AN-316415、AN-316474、AN-316493、AN-316596、AN-316864；
 
 ## Adobe Analytics 管理员的重要注意事项 {#admin}
 
@@ -56,7 +56,7 @@ AN-288373;AN-305144;AN-309023;AN-310466;AN-311686;AN-311705;AN-312018;AN-312105;
 
 | 产品或功能 EOL | 添加或更新日期 | 描述 |
 | --- | --- | --- |
-| **终止日语版功能手机跟踪服务** | 2023 年 3 月 21 日 | 仅供日本客户使用：在 **2023年5月底**，将终止使用日语功能电话跟踪服务(mod_ktrack)。 由此给您带来的不便，我们深表歉意，但我们恳请您卸载或禁用安装在您 Apache 服务器上的这些模块。请参阅[本文档](/help/release-notes/mod_ktrackforSiteCatalyst_ver1.40.pdf)中的第 27 页和第 28 页以供参考。 |
+| **终止日语版功能手机跟踪服务** | 2023 年 3 月 21 日 | 仅针对我们的日本客户：**2023 年 5 月底**&#x200B;将终止日语版功能手机跟踪服务 (mod_ktrack)。由此给您带来的不便，我们深表歉意，但我们恳请您卸载或禁用安装在您 Apache 服务器上的这些模块。请参阅[本文档](/help/release-notes/mod_ktrackforSiteCatalyst_ver1.40.pdf)中的第 27 页和第 28 页以供参考。 |
 | **[!DNL Reports & Analytics]** 的 EOL | 2023 年 3 月 7 日 | 自 **2023 年 12 月 31 日**&#x200B;起，Adobe 决定中断 [!DNL Reports & Analytics] 及其随附的报告和功能。支持 [!DNL Reports & Analytics] 的报告、可视化图表和底层技术不再满足 Adobe 的技术标准。大部分 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans) 中都可用。自 2015 年发布 Analysis Workspace 以来，[!DNL Reports & Analytics] 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)阐明生命周期结束的过程。<p>2023 年 12 月 31 日，我们将终止许多相关的报告和分析功能，包括但不限于：Reports &amp; Analytics、数据提取和 DL 报告。2023 年 12 月 31 日之后，将不再发送任何计划报告。在 **2023 年 4 月**，任何计划在 2023 年 12 月 31 日之后到期的报告将会自动更新并恢复到 2023 年 12 月 31 日到期。此外，您不能再安排 2023 年 12 月 31 日之后的未来报告。 |
 | **终止使用[!UICONTROL 人员]指标** | 2023 年 3 月 9 日 | 启用 [[!DNL Device Co-op]](https://experienceleague.adobe.com/docs/discontinued/using/device-co-op.html) 后，与 Device Co-op 相关的人员量度不再相关。我们将在 2023 年 5 月 8 日删除[!UICONTROL 人员]量度。届时，我们会将其数据重定向到[!UICONTROL 独特访客]量度，以防止项目、区段和计算量度出现中断。<p>**注释**：与跨设备分析相关的[[!UICONTROL 人员]量度](/help/components/metrics/people.md)不受本公告影响。 |
 | **终止使用[!UICONTROL 发布列表]功能** | 2022 年 9 月 29 日 | 作为终止使用 Reports &amp; Analytics 的一部分，预计在 **2023 年 12 月**&#x200B;终止使用[!UICONTROL 发布列表]。您将无法创建新的[!UICONTROL 发布列表]或访问现有的发布列表以发送或安排 [!UICONTROL Analysis Workspace] 项目。 |
