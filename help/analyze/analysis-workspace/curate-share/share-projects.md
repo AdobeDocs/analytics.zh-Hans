@@ -5,10 +5,10 @@ title: 共享项目
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 258eac585d536af593e0fa5b2cf75fd53ecd4ef0
+source-git-commit: e3447bc278cfcf5553e46ceb298d9f4743f73328
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 57%
+source-wordcount: '1752'
+ht-degree: 55%
 
 ---
 
@@ -139,6 +139,10 @@ ht-degree: 57%
    <!-- Add screen shot of new modal -->
 
 1. 启用 **[!UICONTROL 链接处于活动状态]** 选项。
+
+   选择此选项将创建一个指向项目的链接，该链接可供任何人共享。 您可以随时通过禁用此选项来禁用对项目的访问权限。
+
+   项目的所有者也是此链接的所有者。 仅当项目所有权被转移时，链接所有权才能转移给其他用户，如 [转移用户资产或设置帐户过期日期](/help/admin/admin/user-management2/users-assets.md) 管理指南中的。
 
 1. 选择是否启用以下安全选项（此选项可由Analytics管理员控制）：
 
