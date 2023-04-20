@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3929'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 98%
 | 功能 | 描述 |
 | --- | --- |
 | **2023 年 4 月** |  |
-| Adobe Analytics 2.0 API的2个新端点指南 | <ul><li>[AnalyticsDimensionAPI](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics量度API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
-| 项目区段（临时和快速区段） | 简化了有关项目区段的文档并删除了重复信息。 现在，创建临时区段的步骤与 [创建快速区段](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
+| 面向 Adobe Analytics 2.0 API 的 2 个新端点指南 | <ul><li>[Analytics 维度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 量度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
+| 项目区段（临时区段和快速区段） | 简化了有关项目区段的文档并删除了重复的信息。创建临时区段的步骤现在与[创建快速区段](/help/analyze/analysis-workspace/components/segments/quick-segments.md)的步骤合并在一起。 |
 | **2023 年 3 月** |  |
 | Web SDK 对 Activity Map 的支持 | 更新了[实施 Adobe Analytics](/help/implement/home.md) 和[启用 Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)。 |
 | 流量变量 (prop) 概述 | 添加了章节和分步过程以阐明和改善文章内容。合并了标题为“启用流量变量报告”一文的内容并删除了这篇文章。请参阅[流量变量 (prop) 概述](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)。 |
