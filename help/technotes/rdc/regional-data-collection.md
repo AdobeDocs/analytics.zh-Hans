@@ -3,16 +3,16 @@ title: 地区数据收集
 description: 关于区域数据收集的信息
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: 8f02656820ed0b9201f29fc9dca6870e6f7fe8fd
+source-git-commit: f75d123c93d446776492dd933d03d32c2496fa69
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '472'
+ht-degree: 97%
 
 ---
 
 # 地区数据收集
 
-Adobe Experience Cloud 使用区域数据收集 (RDC)，这样，您的访客与 Adobe 之间的交互就会尽可能靠近您的访客。在数据收集中心 (DCC) 收集区域数据后，它会通过安全连接转发到数据处理中心 (DPC)。处理后，数据可用于 Adobe Experience Cloud 中的产品。
+Adobe Experience Cloud 使用区域数据收集 (RDC)，这样，您的访客与 Adobe 之间的交互就会尽可能靠近您的访客。在数据收集中心 (DCC) 收集区域数据后，它会通过安全连接转发到数据处理中心 (DPC)。处理后，数据可用于 Adobe Experience Cloud 中的产品。要更改您的RDC类型，请联系Adobe客户关怀团队。
 
 区域数据收集过程使用以下步骤：
 
@@ -39,7 +39,7 @@ RDC 目前包括以下位置（可能发生变化）：
 
 >[!NOTE]
 >
->如果您的 Analytics 图像请求发送到了 `adobedc`、`2o7.net` 或 `omtrdc.net` 端点，则表明您使用的是第三方数据收集。 如果您在自己的请求的 URL 中看到其中任意一个端点，即可确定这一点。
+>如果您的 Analytics 图像请求发送到了 `adobedc.net`、`2o7.net` 或 `omtrdc.net` 端点，则表明您使用的是第三方数据收集。 如果您在自己的请求的 URL 中看到其中任意一个端点，即可确定这一点。
 
 ## 第一方数据收集
 
