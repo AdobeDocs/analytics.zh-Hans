@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算指标、虚拟报表包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: a49affe282e95d451e72ed92a585b861f081f02e
+source-git-commit: 1cd0ef3d294be79346bb819da583c7d13aedb26d
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 96%
+source-wordcount: '697'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 96%
    + [维度兼容性](dimensions/compatibility.md)
    + [所有搜索页面排名](dimensions/all-search-page-rank.md)
    + [上午/下午](dimensions/am-pm.md)
+   + [机器人名称](dimensions/bot-name.md)
    + [浏览器高度](dimensions/browser-height.md)
    + [浏览器类型](dimensions/browser-type.md)
    + [浏览器宽度](dimensions/browser-width.md)
@@ -111,6 +112,8 @@ ht-degree: 96%
    + [每次访问的平均页面查看次数](metrics/average-page-views-per-visit.md)
    + [平均会话时长](metrics/average-session-length.md)
    + [网站平均逗留时间](metrics/average-time-on-site.md)
+   + [机器人发生次数](metrics/bot-occurrences.md)
+   + [机器人页面查看次数](metrics/bot-page-views.md)
    + [跳出率](metrics/bounce-rate.md)
    + [跳出次数](metrics/bounces.md)
    + [购物车加货](metrics/cart-additions.md)
@@ -267,7 +270,7 @@ ht-degree: 96%
    + [配置实时报表](c-real-time-reporting/t-realtime-admin.md)
    + [受支持的实时指标和维度](c-real-time-reporting/realtime-metrics.md)
 + 营销渠道 {#marketing-channels}
-   + [营销渠道入门](c-marketing-channels/c-getting-started-mchannel.md)
+   + [营销渠道快速入门](c-marketing-channels/c-getting-started-mchannel.md)
    + [Attribution IQ 和营销渠道](c-marketing-channels/mchannel-best-practices.md)
    + [分析营销渠道](c-marketing-channels/analyze-mc.md)
    + [营销渠道权限](c-marketing-channels/c-channel-report-access.md)
