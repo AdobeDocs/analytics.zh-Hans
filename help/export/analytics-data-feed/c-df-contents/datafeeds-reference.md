@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 数据列引用
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 814c88f3248aec7dde812926ba19f5eee1a815b0
+source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
 workflow-type: tm+mt
-source-wordcount: '3655'
-ht-degree: 99%
+source-wordcount: '3670'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 99%
 | **`browser_width`** | 浏览器窗口的宽度（单位：像素）。 | 无符号 smallint |
 | **`c_color`** | 调色板的位深度。在计算[颜色深度](/help/components/dimensions/color-depth.md)维度时用到。AppMeasurement 使用 JavaScript 函数 `screen.colorDepth()`。 | char(20) |
 | **`campaign`** | 在[跟踪代码](/help/components/dimensions/tracking-code.md)维度中使用的变量。 | varchar(255) |
-| **`carrier`** | Adobe Advertising 集成变量。指定移动运营商。引用 `carrier` 查找表。 | varchar(100) |
+| **`carrier`** | Adobe Advertising 集成变量。指定移动运营商。的键值 `carrier.tsv` [动态查找](dynamic-lookups.md). | varchar(100) |
 | **`ch_hdr`** | 通过 HTTP 请求头收集的客户端提示。 | 文本 |
 | **`ch_js`** | 通过用户代理客户端提示 JavaScript API 收集的客户端提示。 | 文本 |
 | **`channel`** | 在[网站部分](/help/components/dimensions/site-section.md)维度中使用的变量。 | varchar(100) |
@@ -110,7 +110,7 @@ ht-degree: 99%
 | **`latlon45`** | 位置（精确到 1 米） | varchar(255) |
 | **`mc_audiences`** | 列出访客所属的 Audience Manager 区段 ID。`post_mc_audiences` 列将分隔符更改为 `--**--`。 | 文本 |
 | **`mcvisid`** | Experience Cloud 访客 ID. 一个 128 位的数字（由两个 64 位的数字拼接而成），共占据了 19 位数。 | varchar(255) |
-| **`mobile_id`** | 如果用户使用了移动设备，则为移动设备的数字 ID。 | int |
+| **`mobile_id`** | 如果用户使用了移动设备，则为移动设备的数字 ID。的键值 `mobile_attributes.tsv` [动态查找](dynamic-lookups.md). | int |
 | **`mobileaction`** | 移动设备操作。在 Mobile Services 中调用 `trackAction` 时自动收集此项。应用程序支持自动的操作路径。 | varchar(100) |
 | **`mobileappid`** | 移动设备应用程序 ID。采用以下格式存储应用程序名称和版本： `[AppName] [BundleVersion]` | varchar(255) |
 | **`mobileappperformanceappid`** | 用于 Apteligent Data Connector。Apteligent 中使用的应用程序 ID。 | varchar(255) |
@@ -159,7 +159,7 @@ ht-degree: 99%
 | **`mvvar1_instances`** - `mvvar3_instances` | 在当前点击上设置的列表变量值。将原始分隔符替换为 `--**--`。没有 `post` 列。 | 文本 |
 | **`namespace`** | 未使用。属于某个已弃用的功能。 | varchar(50) |
 | **`new_visit`** | 确定当前点击是否为新访问的标记。在访问处于不活动状态 30 分钟后，由 Adobe 服务器设置。 | 无符号 tinyint |
-| **`os`** | 表示访客的操作系统的数值 ID。基于 `user_agent` 列。使用 `os` 查找。 | 无符号 int |
+| **`os`** | 表示访客的操作系统的数值 ID。基于 `user_agent` 列。的键值 `operating_system.tsv` 标准查找和 `operating_system_type.tsv` [动态查找](dynamic-lookups.md). | 无符号 int |
 | **`p_plugins`** | 已不再使用。可用于浏览器的插件列表。使用了 JavaScript 函数 `navigator.plugins()`。 | 文本 |
 | **`page_event`** | 在图像请求中发送的点击类型（标准点击、下载链接、自定义链接、退出链接）。请参阅[页面事件查找](datafeeds-page-event.md)。 | 无符号 tinyint |
 | **`page_event_var1`** | 仅用于链接跟踪图像请求。单击的下载链接、退出链接或自定义链接的 URL。 | 文本 |
