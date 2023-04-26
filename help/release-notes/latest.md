@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: b4ab6862de537d594bfc83abedcd06b10b007f48
 workflow-type: tm+mt
 source-wordcount: '1630'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **回填非生产沙箱** | 在非生产沙盒中创建Analytics源连接器数据流时，非生产沙盒的回填将限制为3个月。 生产沙箱的工作时间将保持在13个月。 | 不适用 | 2023 年 4 月 26 日 |
+| **非生产沙盒的回填** | 在非生产沙盒中创建 Analytics 源连接器数据流时，非生产沙盒中的回填将限制为 3 个月。生产沙盒的时间将保持在 13 个月。 | 不适用 | 2023 年 4 月 26 日 |
 | **Analytics 源连接器流式处理的行/列筛选** | Adobe Experience Platform 中的 Analytics 源连接器现在允许过滤 Analytics 数据，这些数据用于填充[实时客户配置文件](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans)中的配置文件。行级过滤有助于减少与配置文件关联的事件数。列级过滤有助于减少事件本身的丰富性，从而使您能够优化对配置文件权利的使用。此过滤仅适用于发送至实时客户配置文件和[标识服务](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hans)的数据。**过滤不会影响发送到数据湖以用于 Customer Journey Analytics** 等应用程序的数据。[了解详情](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hans#filtering-for-profile) | 不适用 | 2023 年 3 月 29 日 |
 | **Web SDK 对 Activity Map 的部分支持** | 从 Web SDK 版本 2.15.0 开始，我们开始在启用链接跟踪时填充 Activity Map 数据。这样使得 Web SDK 用户如果用在 Analytics 中配置的 Web SDK 和 Activity Map 启用了链接跟踪，则可获得 Activity Map 报告。<p>当客户从一个页面导航到下一个页面时，用 Web SDK 启用链接跟踪当前将发送链接事件。这与 AppMeasurement 的工作方式不同，并且可能会导致将额外的可计费点击数发送到 Adobe。请在[此处](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html)和[此处](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)了解详情 | 不适用 | 2023 年 3 月 31 日 |
 | **Experience Edge 的 IP 地址模糊处理** | Experience Edge 将支持对直接发送到 Adobe Experience Platform 的数据进行 IP 地址模糊处理。这有利于将数据直接发送到 Platform 以用于 CJA 或其他 Platform 解决方案的客户。 IP 地址模糊处理是在数据流级别配置的。它支持删除最后一个八位字节或整个 IP 地址。<p>**注释**：模糊处理不适用于发送到 Adobe Analytics 的数据。Analytics 继续获取完整的 IP。IP 处理继续在 Analytics 中单独完成。将来，我们计划允许在 Edge 模糊分析数据。 | 不适用 | AEP 于 2023 年 4 月 26 日发布 |
