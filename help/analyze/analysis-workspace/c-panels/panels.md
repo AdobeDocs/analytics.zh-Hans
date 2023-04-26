@@ -4,16 +4,16 @@ title: 面板概述
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
+source-git-commit: 017559d2b909deb4bf87fb5fe41db8250f2ca2ac
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 面板概述
 
-[!UICONTROL 面板]是表格和可视化图表的集合可从工作区左上角的图标或[空白面板](blank-panel.md)访问面板。当您要根据时段、报表包或分析用例组织您的项目时，面板非常有用。
+[!UICONTROL 面板]是表格和可视化图表的集合您可以从工作区的左上角图标或 [空白面板](blank-panel.md). 当您要根据时段、报表包或分析用例组织您的项目时，面板非常有用。
 
 ## 面板类型
 
@@ -64,7 +64,7 @@ Analysis Workspace 中提供了以下面板类型：
 
 将任意区段从左边栏拖放到面板拖放区域以开始过滤面板。
 
-![](/help/admin/admin/assets/filter.png)
+![过滤器](/help/admin/admin/assets/filter.png)
 
 ### 临时区段过滤器
 
@@ -74,36 +74,60 @@ Analysis Workspace 中提供了以下面板类型：
 
 有关更多信息，请参阅 [快速区段](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
-### 下拉过滤器 {#dropdown-filter}
+### 静态下拉过滤器
 
-除了区段过滤器，您还可通过下拉过滤器以可控方式与数据交互。例如，您可以为移动设备类型添加下拉过滤器，这样您就可以按照平板电脑、手机或台式机来细分面板。
+通过下拉过滤器，您可以以受控方式与数据交互。 例如，您可以为移动设备类型添加下拉过滤器，这样您就可以按照平板电脑、手机或台式机来细分面板。
 
 下拉过滤器也可用于将多个项目合并在一起。例如，如果您有一个项目的多个版本，每个版本具有不同的“国家/地区”区段，您可以将所有版本合并为一个项目并添加“国家/地区”下拉过滤器。
 
 ![](assets/dropdown-filter-intro.png)
 
-要创建下拉过滤器，请执行以下操作：
+要创建静态下拉过滤器，请执行以下操作：
 
-1. 要使用[!UICONTROL 维度项]创建下拉过滤器，例如[!UICONTROL 营销渠道]维度，请在左边栏中单击该维度旁边的右箭头图标。这会打开所有可用项。从左边栏中选择一个或多个组件项，然后&#x200B;**在按住 Shift 键的同时**&#x200B;将其放到面板拖放区域中。这会将组件转换为下拉过滤器，而不是转换为单个区段。
-1. 要使用指标、区段或日期范围等其他组件创建下拉过滤器，请在左边栏中选择一种组件类型，然后&#x200B;**在按住 Shift 键的同时**&#x200B;将其放到面板拖放区域中。
-1. 从下拉过滤器中选择以下选项之一来更改面板中的数据。您也可以通过选择&#x200B;**[!UICONTROL 无过滤器]**&#x200B;来不过滤任何面板数据。
+* 对于使用维度项目的下拉过滤器，请单击左边栏中所需维度旁边的向右箭头图标。 此操作会公开所有可用的维度项目。 使用 `[Shift + Click]` 或 `[Ctrl + Click]`，然后将它们放入面板拖放区 **保持`[Shift]`**.
+* 对于使用其他组件（如量度、区段或日期范围）的下拉过滤器，请使用 `[Shift + Click]` 或 `[Ctrl + Click]`. 将所选内容放入面板拖放区 **保持`[Shift]`**. 在此上下文中，所有组件类型都会被视为区段。
+* 单个下拉过滤器只能包含单个组件类型。 如果您在选择中包含多个组件类型，则会为每个组件类型创建一个单独的下拉过滤器。 例如，如果您在所选内容中同时包含量度和维度项目，则会创建两个单独的下拉过滤器。 一个下拉过滤器包含维度项目，另一个下拉过滤器包含量度。
+
+从下拉列表中选择一个选项，以更改面板中的数据。 您还可以通过选择 **[!UICONTROL 无过滤器]**.
 
 ![](assets/create-dropdown.png)
 
+右键单击下拉过滤器可提供以下选项：
+
+* **[!UICONTROL 添加标签]**:向项目添加下拉过滤器时，会自动将标签设置为组件名称。 如果删除标签，则可以使用此选项再次添加该标签。
+* **[!UICONTROL 删除标签]**:删除下拉过滤器上方的文本。
+* **[!UICONTROL 删除下拉过滤器]**:从面板中删除下拉过滤器。
+
 [观看视频](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=zh-Hans)以详细了解如何将下拉过滤器添加到项目中。
+
+<!--### Dynamic drop-down filters
+
+Dynamic drop-down filters allow you to determine available values based on data within the panel's reporting range and values in other drop-down filters. For example, you can create two dynamic drop-downs using the [Countries](/help/components/dimensions/countries.md) dimension and [Cities](/help/components/dimensions/cities.md) dimension. When you select a country from the [!UICONTROL Countries] drop-down list, the [!UICONTROL Cities] drop-down list dynamically adjusts to only show cities within that country.
+
+This same concept applies to all dimensions; only dimension items that appear within the panel's date range and selected filters are visible. Dimension items selected in static drop-down filters affect available values in dynamic drop-down filters. However, the inverse is not true; Dimension items selected in dynamic drop-down filters do not affect available values in static drop-down filters.
+
+Manual selection of dimension items is available if you anticipate a certain dimension item to be collected in the future. You can also clear a dynamic drop-down filter so that it does not contain a value, allowing other dynamic drop-down filters to contain more values. Select **[!UICONTROL Clear All]** to clear the selection from all drop-down filters for that panel.
+
+To create a dynamic drop-down filter:
+
+* Drag and drop a single dimension into the panel dropzone **while holding `[Shift]`**.
+* Dynamic drop-down filters are not available for metrics, segments, or date ranges.
+* Right-click a drop-down filter and select **[!UICONTROL Delete filter]** to delete it.
+
+Right-clicking a dynamic drop-down filter provides the same options as static drop-down filters.-->
 
 ## 右键单击菜单 {#right-click}
 
 面板的其他功能可通过在面板的标题上右键单击来使用。
 
-![](assets/right-click-menu.png)
+![右键单击菜单](assets/right-click-menu.png)
 
 其中提供了以下设置：
 
 | 设置 | 描述 |
 | --- | --- |
-| 插入复制的面板/可视化图表 | 此设置允许您将复制的面板或可视化图表粘贴（“插入”）到项目中的其他位置或完全不同的项目中。 |
-| 复制面板 | 此设置允许您右键单击并复制面板，以便将其插入到项目中的其他位置或完全不同的项目中。 |
+| 插入复制的面板/可视化图表 | 允许您将复制的面板或可视化图表粘贴（“插入”）到项目中的其他位置或其他项目中。 |
+| 复制面板 | 允许您右键单击并复制面板，以便将其插入到项目中的其他位置，或插入到其他项目中。 |
 | 将报表包应用于所有面板 | 此设置允许您将活动的面板报表包应用到项目中的所有面板。 |
 | 复制面板 | 生成一个与当前面板完全相同的副本，然后可对其进行修改。 |
 | 折叠/展开所有面板 | 折叠和展开所有项目面板。 |
