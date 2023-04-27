@@ -5,7 +5,7 @@ title: 共享项目
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: e3447bc278cfcf5553e46ceb298d9f4743f73328
+source-git-commit: 836b2c91cf401b7133d3569ae64154a24d2923f7
 workflow-type: tm+mt
 source-wordcount: '1752'
 ht-degree: 55%
@@ -121,7 +121,7 @@ ht-degree: 55%
 >
 >* Analytics管理员可以禁用以这种方式共享项目的功能，如 [首选项](/help/analyze/analysis-workspace/user-preferences.md). 如果无法按照本节所述共享项目，则Analytics管理员已禁用此功能。
 >
->* 无法与无权访问Adobe Analytics的人员共享具有超过14个扩展可视化的项目。
+>* 无法与无权访问Adobe Analytics的人员共享具有50个以上扩展可视化的项目。
 >
 >* 与您共享的用户可以查看在 [策划](curate.md).
 > 

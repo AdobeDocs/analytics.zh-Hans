@@ -4,10 +4,10 @@ description: 如何与表中的动态维度项目和静态维度项目交互。
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
+source-git-commit: 836b2c91cf401b7133d3569ae64154a24d2923f7
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 100%
+source-wordcount: '505'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 例如，将“浏览器类型”维度拖入表中后，则排名靠前的“浏览器类型”维度项目（例如 Microsoft、Apple、Google 等）会动态返回到表行。如果拖放到列中，则会动态返回排名前 5 的“浏览器类型”维度项目。
 
-动态维度项目具有行过滤器选项，并且&#x200B;**不会**&#x200B;出现锁图标和 X 图标。
+动态维度项目具有行过滤器选项，并且&#x200B;**不会**&#x200B;出现锁图标和 X 图标。有关将过滤器应用到表格的更多信息，请参阅 [过滤和排序表](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 ![](assets/dynamic-items.png)
 
