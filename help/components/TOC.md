@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算指标、虚拟报表包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: 1cd0ef3d294be79346bb819da583c7d13aedb26d
+source-git-commit: 41154580c272514e504c5478215bb67795488de3
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '692'
 ht-degree: 95%
 
 ---
@@ -208,7 +208,6 @@ ht-degree: 95%
 + 虚拟报表包 {#virtual-report-suites}
    + [虚拟报表包概述](vrs/vrs-about.md)
    + [虚拟报表包 — 组件管理](vrs/vrs-components.md)
-   + [Mobile Services 中的 VRS 支持](vrs/vrs-mobile-services.md)
    + [上下文感知会话](vrs/vrs-mobile-visit-processing.md)
    + [报表时间处理](vrs/vrs-report-time-processing.md)
    + [A4T 注意事项](vrs/vrs-a4t.md)
