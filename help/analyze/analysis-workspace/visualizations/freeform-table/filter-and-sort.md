@@ -4,10 +4,10 @@ title: 排序和过滤表格
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: af0c56a8911c5ea2fb49fb9625c68331a8517d81
+source-git-commit: c546058b83be79f4ffb94811727a12b30dd14033
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 100%
+source-wordcount: '683'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,10 @@ Analysis Workspace 中的自由格式表是进行交互式数据分析的基础�
 ## 过滤表格
 
 Analysis Workspace 中的过滤器可帮助您显示最重要的信息。
+
+>[!NOTE]
+>
+> 只能按照本节所述过滤动态维度项目。 无法过滤静态维度项目。 有关更多信息，请参阅 [自由格式表中的动态维度项目与静态维度项目](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 
 过滤自由格式表中的数据：
 

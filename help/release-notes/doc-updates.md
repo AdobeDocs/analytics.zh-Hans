@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
+source-git-commit: 983ca17062abbaac05b468fda63e82055d787667
 workflow-type: tm+mt
-source-wordcount: '3953'
+source-wordcount: '3972'
 ht-degree: 98%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 98%
 | 功能 | 描述 |
 | --- | --- |
 | **2023 年 4 月** |  |
+| 转移用户资产并设置帐户过期日期 | 添加了有关如何 [转移用户资产并设置帐户过期日期](/help/admin/admin/user-management2/users-assets.md). |
 | 面向 Adobe Analytics 2.0 API 的 2 个新端点指南 | <ul><li>[Analytics 维度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 量度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
 | 项目区段（临时区段和快速区段） | 简化了有关项目区段的文档并删除了重复的信息。创建临时区段的步骤现在与[创建快速区段](/help/analyze/analysis-workspace/components/segments/quick-segments.md)的步骤合并在一起。 |
 | 动态查找 | 有关 [动态查找](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md) 中。 以前，仅存在有关移动设备属性的信息，该属性是多个动态查找之一。 |
