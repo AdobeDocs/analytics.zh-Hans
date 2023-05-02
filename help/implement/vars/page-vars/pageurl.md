@@ -3,10 +3,10 @@ title: pageUrl
 description: 覆盖网站上自动收集的页面 URL。
 feature: Variables
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 84%
+source-wordcount: '313'
+ht-degree: 80%
 
 ---
 
@@ -20,9 +20,9 @@ AppMeasurement 会在每次点击时自动收集页面 URL。如果要覆盖由 
 
 ## 使用Web SDK的页面URL
 
-页面URL为 [已为Adobe Analytics映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `web.webPageDetails.URL`.
+页面URL为 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `web.webPageDetails.URL`.
 
-## 使用Adobe Analytics扩展的“页面URL”
+## 使用Adobe Analytics扩展的页面URL
 
 Adobe Experience Platform数据收集中的Analytics扩展会自动填充页面URL。 但是，您可以在配置 Analytics 扩展时（全局变量）或根据规则设置页面 URL 覆盖。
 
@@ -30,7 +30,7 @@ Adobe Experience Platform数据收集中的Analytics扩展会自动填充页面U
 2. 单击所需的标记属性。
 3. 转到&#x200B;**[!UICONTROL 规则]**&#x200B;选项卡，然后单击所需的规则（或创建规则）。
 4. 在&#x200B;**[!UICONTROL 操作]**&#x200B;下，单击现有的 **[!UICONTROL Adobe Analytics - 设置变量]**&#x200B;操作或单击“+”图标。
-5. 将&#x200B;**[!UICONTROL 扩展]**&#x200B;下拉列表设置为 Adobe Analytics，将&#x200B;**[!UICONTROL 操作类型]**&#x200B;设置为&#x200B;**[!UICONTROL 设置变量]**。
+5. 设置 **[!UICONTROL 扩展]** 下拉列表中的Adobe Analytics和 **[!UICONTROL 操作类型]** to **[!UICONTROL 设置变量]**.
 6. 找到&#x200B;**[!UICONTROL 页面 URL]** 部分。
 
 可以将页面 URL 设置为任何字符串值。

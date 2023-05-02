@@ -4,9 +4,9 @@ keywords: 事件
 title: 成功事件概述
 feature: Event
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '708'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 100%
 2. 单击顶部的 9 宫格按钮，然后单击 [!UICONTROL Analytics]。
 3. 导航至[!UICONTROL 管理员] > [!UICONTROL 报告包]。
 4. 选择所需的报告包，然后导航到[!UICONTROL 编辑设置] > [!UICONTROL 转化] > [!UICONTROL 成功事件]。
-5. 找到所需的事件，并将[!UICONTROL 独特事件记录]下拉列表修改为[!UICONTROL 每次访问记录一次]或[!UICONTROL 使用事件 ID]。
 
 成功事件的种类有多种，具体取决于网站类型。下面是一些示例：
 

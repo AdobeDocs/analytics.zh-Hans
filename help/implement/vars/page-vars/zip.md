@@ -3,10 +3,10 @@ title: zip
 description: 在报表包设置允许时手动填充“邮政编码”维度。
 feature: Variables
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
-5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
+5. 设置 [!UICONTROL 扩展] 下拉列表中的Adobe Analytics和 [!UICONTROL 操作类型] to [!UICONTROL 设置变量].
 6. 找到[!UICONTROL 邮政编码]部分。
 
 您可以将“邮政编码”设置为任何字符串值，包括数据元素。

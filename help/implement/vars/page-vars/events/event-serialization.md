@@ -3,10 +3,10 @@ title: 事件序列化
 description: 帮助删除网站上的重复量度。
 feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 100%
+source-wordcount: '422'
+ht-degree: 96%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
-5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
+5. 设置 [!UICONTROL 扩展] 下拉列表中的Adobe Analytics和 [!UICONTROL 操作类型] to [!UICONTROL 设置变量].
 6. 找到[!UICONTROL 事件]部分，其中每个事件都包含一个[!UICONTROL 事件 ID] 字段。
 
 有效值是长度不超过 20 字节的字母数字字符。如果输入的值超过 20 个字节，系统会将其截断为前 20 个字节。

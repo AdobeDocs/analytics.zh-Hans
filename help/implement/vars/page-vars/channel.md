@@ -3,10 +3,10 @@ title: channel
 description: 填充“网站区域”维度。
 feature: Variables
 exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 84%
+source-wordcount: '200'
+ht-degree: 77%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 84%
 
 ## 使用Web SDK的渠道
 
-渠道为 [已为Adobe Analytics映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `web.webPageDetails.siteSection`.
+渠道为 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `web.webPageDetails.siteSection`.
 
-## 使用Adobe Analytics扩展的“渠道”
+## 使用Adobe Analytics扩展的渠道
 
 您可以在配置 Analytics 扩展时（全局变量）或根据规则设置渠道。
 
@@ -26,7 +26,7 @@ ht-degree: 84%
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
-5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
+5. 设置 [!UICONTROL 扩展] 下拉列表中的Adobe Analytics和 [!UICONTROL 操作类型] to [!UICONTROL 设置变量].
 6. 找到[!UICONTROL 渠道]部分。
 
 可以将渠道设置为任何字符串值或数据元素。

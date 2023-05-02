@@ -3,10 +3,10 @@ title: pageName
 description: 您的网站中页面的名称。
 feature: Variables
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 87%
+source-wordcount: '264'
+ht-degree: 81%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 87%
 
 ## 使用Web SDK的页面名称
 
-页面为 [已为Adobe Analytics映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `web.webPageDetails.name`.
+页面为 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `web.webPageDetails.name`.
 
 ## 使用Adobe Analytics扩展的页面名称
 
@@ -32,12 +32,12 @@ ht-degree: 87%
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
-5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
+5. 设置 [!UICONTROL 扩展] 下拉列表中的Adobe Analytics和 [!UICONTROL 操作类型] to [!UICONTROL 设置变量].
 6. 找到[!UICONTROL 页面名称]部分。
 
 您可以将页面名称设置为任何字符串值，包括数据元素。
 
-## AppMeasurement和Analytics扩展自定义代码编辑器中的s.pageName
+## AppMeasurement和Analytics扩展的自定义代码编辑器中的s.pageName
 
 `s.pageName` 变量是一个字符串，通常包含页面名称。其值的最大长度为 100 字节；超出此长度的值会被截断。如果此变量为空，则此截断会包含返回 `pageURL` 的实例。
 

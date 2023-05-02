@@ -3,10 +3,10 @@ title: events
 description: 设置事件变量，该变量可控制网站上的大多数量度。
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 97%
+source-wordcount: '813'
+ht-degree: 92%
 
 ---
 
@@ -45,14 +45,14 @@ ht-degree: 97%
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
-5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
+5. 设置 [!UICONTROL 扩展] 下拉列表中的Adobe Analytics和 [!UICONTROL 操作类型] to [!UICONTROL 设置变量].
 6. 找到[!UICONTROL 事件]部分。
 
 可使用以下几项功能：
 
-* 允许您选择要包括的事件的下拉列表
+* 允许您选择要包含的事件的下拉列表
 * 用于序列化的可选文本字段。请参阅[事件序列化](event-serialization.md)以了解更多信息。
-* 用于事件值的可选文本字段。您可以包含货币（货币事件）或整数（非货币事件）以使其多次递增。例如，在下拉列表下选择 `event1` 并在此字段中包含 `10`，报表中的 `event1` 将以 10 为单位进行递增。
+* 用于事件值的可选文本字段。您可以包含货币（货币事件）或整数（非货币事件）以使其多次递增。例如，选择 `event1` （在下拉列表下），包括 `10` 在此字段中 `event1` 10倍。
 * 用于添加其他事件的按钮。您可以在合理的范围内向单个规则添加所需数量的事件。
 
 ## AppMeasurement 和 Analytics 扩展自定义代码编辑器中的 s.events

@@ -5,10 +5,10 @@ title: Analysis Workspace 中的新增功能
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: f83ab75e9a3cce2dd3dc13d88be97cf97df3dc65
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '8277'
-ht-degree: 99%
+source-wordcount: '8267'
+ht-degree: 98%
 
 ---
 
@@ -134,7 +134,7 @@ ht-degree: 99%
 | 增强功能 | 描述 |
 |--- |--- |
 | 更新了自由格式表总计 | 现在，自由格式表包含两项总数统计：**[!UICONTROL 表格总计]**&#x200B;和&#x200B;**[!UICONTROL 全部总计]**。表格总计行会将已应用的[报告过滤器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html?lang=zh-Hans)计入在内。以前，只有区段会影响总数的计算。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=zh-Hans)<br/>，此外，**[!UICONTROL ￼显示总数]**&#x200B;和&#x200B;**[!UICONTROL 显示总计]**&#x200B;选项已添加到&#x200B;**[!UICONTROL 列设置]**&#x200B;中。<br/>鉴于自由格式表的这项变化，与之相关的可视化图表（例如关联的&#x200B;**[!UICONTROL 摘要数字]**&#x200B;可视化图表）也将进行相应的更新，导出的 CSV 和 PDF 数据同样也会更新。 |
-| 用于删除“未指定/无”的选项 | 轻松删除“未指定（无）”的功能已作为一个选项添加到报表过滤器。 |
+| 用于删除“未指定/无”的选项 | 轻松删除“未指定（无）”的功能已添加为报表过滤器的选项。 |
 | 弃用紫色粒度组件 | 已弃用紫色的时间粒度组件（分钟、小时、日、周、月、季度、年）。紫色时间组件与对应的橙色维度组件的功能是一样的，因此这项更改将简化这方面的使用体验。即使之前使用了某个紫色时间组件，您也&#x200B;**无需执行任何操作**。<br/>此外，根据这项变化，紫色的&#x200B;**[!UICONTROL 时间]**&#x200B;部分已重命名为&#x200B;**[!UICONTROL 日期范围]**。 |
 
 ## 2019 年 8 月
@@ -143,7 +143,7 @@ ht-degree: 99%
 
 | 增强功能 | 描述 |
 |--- |--- |
-| 将下拉过滤器的项目限制从 50 提高至 200 | 我们将可放置在下拉过滤器中的项目限制从 50 提高到了 200。此增强功能适用于各种用例，例如将所有国家/地区 (195) 添加到过滤器，或将所有美国州和省 (52) 添加到过滤器。 |
+| 将静态下拉过滤器的项目限制从50提高到200 | 可放置在静态下拉过滤器中的项目限制从50增加到200。 此增强功能适用于各种用例，例如将所有国家/地区 (195) 添加到过滤器，或将所有美国州和省 (52) 添加到过滤器。 |
 
 ## 2019 年 7 月
 
@@ -202,29 +202,10 @@ ht-degree: 99%
 
 2018 年 10 月 11 日发行的新增功能和增强功能。
 
-<table id="table_3DDC812B2F66416F868004416D248BF3">
- <thead>
-  <tr>
-   <th colname="col1" class="entry"> 功能 </th>
-   <th colname="col2" class="entry"> 描述 </th>
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td colname="col1"> <p><b>面板下拉菜单管理</b> </p> </td>
-   <td colname="col2"> <p>我们对面板下拉菜单的管理进行了一些更改，这些更改已在 9 月维护版本中引入。现在当您右键单击下拉菜单时，可以执行以下操作： </p>
-    <ul id="ul_4BDEC66EEB2243628FE32B43E377E5BD">
-     <li id="li_EF8277BE972540D3B2604D82BC7C0918">删除下拉菜单（此选项始终存在。） </li>
-     <li id="li_6A991208F2744274817DBE1E9D1B443F">删除标签（如果显示标签。） </li>
-     <li id="li_5C1CFC465C2E41D2B35E8841EFDC82AA">添加标签（如果没有显示标签。） </li>
-    </ul> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p><b>面板和可视化图表工具提示中的链接</b> </p> </td>
-   <td colname="col2"> <p>我们向面板和可视化图表工具提示中添加了指向相关视频和文档的链接。 </p> </td>
-  </tr>
- </tbody>
-</table>
+| 功能 | 描述 |
+| --- | --- |
+| 面板下拉菜单管理 | 对面板下拉菜单的管理进行了一些更改。 右键单击下拉列表时，您现在可以删除下拉列表、删除标签（如果显示标签）或添加标签（如果未显示标签）。 |
+| 面板和可视化图表工具提示中的链接 | 向面板和可视化工具提示中添加了指向相关视频和文档的链接。 |
 
 ## 2018 年 9 月
 

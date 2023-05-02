@@ -3,10 +3,10 @@ title: 迁移到 Adobe Analytics 的常见问题解答
 description: 获取有关从第三方平台迁移到 Adobe 的常见问题解答。
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 95%
+source-wordcount: '401'
+ht-degree: 74%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 95%
 
 若要移动历史数据，我们建议使用 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hans)，它可以引入任何全渠道数据源。
 
-**我习惯使用许多报表中都有的分段下拉菜单。如何在 [!UICONTROL Analysis Workspace] 中重新创建分段下拉菜单？**
+**我习惯了使用许多报表中的分段下拉列表。 如何在 [!UICONTROL Analysis Workspace] 中重新创建分段下拉菜单？**
 
-[!UICONTROL Analysis Workspace] 中的下拉过滤器是一个灵活而强大的功能，可用来创建分段下拉菜单。在工作区项目中时：
+下拉过滤器是 [!UICONTROL Analysis Workspace] 用于创建分段下拉列表。 在工作区项目中时：
 
-1. 按住 ctrl 并单击 (Windows) 或按住 cmd 并单击 (Mac) 要包含在下拉菜单中的组件。不仅仅限于区段；任何组件都可以包含在下拉过渡器中。
+1. 按住ctrl并单击(Windows)或按住cmd并单击(Mac)要包含在下拉筛选器中的组件。 您不仅限于区段；任何组件都可以包含在下拉过滤器中。
 2. 将组件组拖动到标有“在此处放置区段”的工作区区域。放手前，按住 Shift 键。
 
-访问此[!UICONTROL 工作区]项目的用户现在可以使用此下拉菜单将区段或其他组件应用到该项目。有关更多信息，请参阅 Adobe Analytics 工具指南中的[面板概述](/help/analyze/analysis-workspace/c-panels/panels.md)。
+访问此 [!UICONTROL 工作区] 项目现在可以使用此下拉过滤器将区段或其他组件应用到项目。 有关更多信息，请参阅 Adobe Analytics 工具指南中的[面板概述](/help/analyze/analysis-workspace/c-panels/panels.md)。
 
 **我习惯通过单击维度项目来查看深入信息。如何在 Analysis Workspace 中重现这种轻松的工作流？**
 

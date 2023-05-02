@@ -3,10 +3,10 @@ description: 分类用于对值进行分组归类，并按照分组级别进行�
 title: 转化分类
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
 source-wordcount: '556'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 转化分类可用于分类转化变量。分类后，任何可使用关键数据生成的报告也可通过关联的数据属性来生成。
 
-启用分类后，请使用 [分类导入器](/help/components/classifications/importer/c-working-with-saint.md) 以将特定值分配给相应的分类。
+启用分类后，请使用 [分类导入器](/help/components/classifications/importer/c-working-with-saint.md) 来将特定值分配给相应的分类。
 
 >[!WARNING]
 >
@@ -48,7 +48,7 @@ ht-degree: 97%
    相关选项包括&#x200B;**[!UICONTROL 文本]**&#x200B;和&#x200B;**[!UICONTROL 数值]**。有关分类类型的详细信息，请参阅[关于分类](/help/components/classifications/c-classifications.md)。
 1. 在&#x200B;**[!UICONTROL 文本分类]**&#x200B;对话框中，根据需要配置分类。
 
-1. 在&#x200B;**[!UICONTROL 下拉列表]**&#x200B;对话框中，添加或删除选项。
+1. 在下拉列表对话框中添加或删除选项。
 
    添加选项可为此分类创建可用的分类值列表。您可以将此选项和促销活动变量结合使用，在促销活动管理器中为用户提供该分类的一个支持值列表。将它用于此分类维度，其中拥有极少数很少更改或从不更改的允许值。例如，您可能针对以下不同级别的客户忠诚度运行不同的促销活动：银牌客户、金牌客户和白金客户。然后，您可以使用此下拉列表确保只有被接受的值才是那些匹配这三个级别的值。如果任何人试图使用其他的值，则它将被丢弃。
 

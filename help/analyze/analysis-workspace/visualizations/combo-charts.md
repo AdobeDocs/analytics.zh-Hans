@@ -4,10 +4,10 @@ title: 组合图表可视化
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: b3f9d3fdac403cdd1be425c0c631fa93dde5cb13
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 100%
+source-wordcount: '756'
+ht-degree: 99%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 100%
 | 设置 | 定义 |
 | --- | --- |
 | **[!UICONTROL 可视化类型]** | 让您切换到另一种可视化类型。 |
-| **[!UICONTROL 粒度]** | 对于趋势性的可视化图表，您可从此下拉菜单更改时间粒度（日、周、月等）。 |
+| **[!UICONTROL 粒度]** | 对于趋势性的可视化图表，您可从此下拉菜单更改从此下拉列表中。 |
 | **[!UICONTROL 常规]** |  |
 | **[!UICONTROL 百分比]** | 显示百分数值。 |
 | **[!UICONTROL 图例可见]** | 允许您为组合图表可视化隐藏详细的图例文本。 |

@@ -4,10 +4,10 @@ title: Analysis Workspace 中的辅助功能
 feature: Workspace Basics
 role: User, Admin
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 100%
+source-wordcount: '601'
+ht-degree: 99%
 
 ---
 
@@ -54,34 +54,34 @@ ht-degree: 100%
 #### 导航
 
 | 快捷键 | 操作 |
-|---|---|
-| Alt + Shift + 1 / 2 / 3 | 跳到不同的边栏：[!UICONTROL 面板]、[!UICONTROL 可视化图表]或[!UICONTROL 组件] |
-| Alt + 向左/向右箭头键 | 在面板之间导航 |
-| Alt + M | 折叠/展开所有面板 |
-| Alt + Ctrl + M | 折叠/展开活动面板 |
-| Ctrl + / | 搜索左边栏 |
+| --- | --- |
+| `[Alt + Shift + 1 / 2 / 3]` | 跳到不同的边栏：[!UICONTROL 面板]、[!UICONTROL 可视化图表]或[!UICONTROL 组件] |
+| `[Alt + Left / Right]` | 在面板之间导航 |
+| `[Alt + M]` | 折叠/展开所有面板 |
+| `[Alt + Ctrl + M]` | 折叠/展开活动面板 |
+| `[Ctrl + /]` | 搜索左边栏 |
 
 #### 创建分析
 
 | 快捷键 | 操作 |
-|---|---|
-| Alt + 1 | 新建自由格式表 |
-| Ctrl + Shift + C | 新建计算量度 |
-| Ctrl + Shift + D | 新建日期范围 |
-| Ctrl + Shift + E | 新建区段 |
-| Ctrl + Z | 撤消 |
-| 按住 Shift 键（在面板的区段拖放区域中） | 创建[下拉过滤器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hans) |
+| --- | --- |
+| `[Alt + 1]` | 新建自由格式表 |
+| `[Ctrl + Shift + C]` | 新建计算量度 |
+| `[Ctrl + Shift + D]` | 新建日期范围 |
+| `[Ctrl + Shift + E]` | 新建区段 |
+| `[Ctrl + Z]` | 还原 |
+| `[Component drag + Shift]` | 创建下拉过滤器 |
 
 #### 大众化
 
 | 快捷键 | 操作 |
-|---|---|
-| Ctrl + S | 保存 |
-| Ctrl + Shift + G | 策划 |
-| Ctrl + G | 共享 |
-| Alt + Shift + S | 计划 |
-| Alt + L | 获取项目链接 |
-| Ctrl + Shift + B | 下载 PDF |
+| --- | --- |
+| `[Ctrl + S]` | 保存 |
+| `[Ctrl + Shift + G]` | 策划 |
+| `[Ctrl + G]` | 共享 |
+| `[Alt + Shift + S]` | 计划 |
+| `[Alt + L]` | 获取项目链接 |
+| `[Ctrl + Shift + B]` | 下载 PDF |
 
 ## 支持屏幕阅读器和屏幕放大镜
 

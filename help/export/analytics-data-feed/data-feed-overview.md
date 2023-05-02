@@ -4,10 +4,10 @@ keywords: 点击流;数据馈送;数据馈送;数据馈送
 title: Analytics 数据馈送概述
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 100%
+source-wordcount: '576'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
    * 用户名：输入用户名以登录 FTP 网站。
    * 密码和确认密码：输入登录 FTP 网站的密码。
 7. 填写“[!UICONTROL 数据列定义]”。
-   * 在下拉菜单中选择最新的“所有 Adobe 列”模板。
+   * 在下拉列表中选择最新的“所有Adobe Columns”模板。
    * 压缩格式：Gzip
    * 包装类型：多个文件
    * 清单：无文件

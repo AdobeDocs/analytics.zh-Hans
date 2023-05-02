@@ -3,10 +3,10 @@ title: 将标记数据元素映射到 Analytics 变量
 description: 将数据元素分配给 Analytics 变量，以便在 Analysis Workspace 中可以将这些变量用作维度。
 feature: Launch Implementation
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 100%
+source-wordcount: '443'
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 1. 单击所需的标记属性。
 1. 单击[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建一个规则）。
 1. 单击[!UICONTROL 操作]下的[!UICONTROL 添加]按钮。
-1. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为设置变量。
+1. 设置 [!UICONTROL 扩展] 下拉列表中的Adobe Analytics和 [!UICONTROL 操作类型] 来设置变量。
 1. 单击所需 Analytics 变量右侧的 ![数据元素](assets/data-element.png) 图标。贵组织的[解决方案设计文档](../prepare/solution-design.md)规定了要使用的 Analytics 变量。
 1. 在模式窗口中选择所需的数据元素。单击[!UICONTROL 选择]。
 1. 数据元素名称将添加到被 `%` 符号包围的文本字段中。例如，如果将数据元素命名为“页面名称”，则在将数据元素分配给变量时，会看到字符串 `%Page name%`。

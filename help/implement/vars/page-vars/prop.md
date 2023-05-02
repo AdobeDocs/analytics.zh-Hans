@@ -3,10 +3,10 @@ title: prop
 description: 可在实施中使用的自定义变量。
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: e658a14564e7efacf8811c35d0e9b1e7455f4394
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 97%
+source-wordcount: '607'
+ht-degree: 94%
 
 ---
 
@@ -34,7 +34,7 @@ Prop 是自定义变量，您可以根据需要随意使用。它们不会在设
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
-5. 将[!UICONTROL 扩展]下拉列表设置为 Adobe Analytics，将[!UICONTROL 操作类型]设置为[!UICONTROL 设置变量]。
+5. 设置 [!UICONTROL 扩展] 下拉列表中的Adobe Analytics和 [!UICONTROL 操作类型] to [!UICONTROL 设置变量].
 6. 找到[!UICONTROL 属性]部分。
 
 您可以将 prop 设置为值或数据元素。您还可以从其他 Analytics 变量复制值。

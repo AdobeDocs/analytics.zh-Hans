@@ -5,10 +5,10 @@ title: 可视化图表概述
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 6d9167b41080fdb45b78148a9887e4eabd875c62
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 100%
+source-wordcount: '1156'
+ht-degree: 99%
 
 ---
 
@@ -68,7 +68,7 @@ Analysis Workspace 中提供了以下可视化图表类型：
 | 设置 | 描述 |
 | --- | --- |
 | 可视化图表类型 | 更改描述数据所用的视觉效果的类型。 |
-| 粒度 | 对于趋势性的可视化图表，您可从此下拉菜单更改时间粒度（日、周、月等）。此更改也适用于数据源表。 |
+| 粒度 | 对于趋势性的可视化图表，您可从此下拉菜单更改从此下拉列表中。 此更改也适用于数据源表。 |
 | 百分比 | 显示百分数值。 |
 | 100% 堆叠 | 在面积堆叠、条形堆叠或水平条形堆叠的可视化图表上的此设置将图表转换为“100% 堆叠”的可视化图表。示例：![堆叠 100%](assets/stacked_100_percent.png) |
 | 图例可见 | 此设置允许您为概要数字/概要变化可视化图表隐藏详细的图例文本。 |

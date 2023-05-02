@@ -1,9 +1,10 @@
 ---
 title: 数据源入门
 description: 将示例数据上传到开发报表包。
-source-git-commit: bb3036380eeec9b7a868f60a4c9076f2b772532b
+exl-id: d9f74f55-abbb-4ceb-b4db-8d3c32aacd4a
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '665'
 ht-degree: 1%
 
 ---
@@ -18,16 +19,16 @@ ht-degree: 1%
 
 1. 通过登录Adobe Analytics [https://experience.adobe.com](https://experience.adobe.com).
 1. 导航到 **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 数据源]**.
-1. 使用右上方的下拉菜单选择一个开发报表包。
+1. 使用右上角的下拉列表选择一个开发报表包。
 1. 单击 **[!UICONTROL 创建]** 按钮。
 1. 在 [!UICONTROL 选择类别]，选择&quot;[!UICONTROL 通用]&quot;和下 [!UICONTROL 选择类型]，选择&quot;[!UICONTROL 通用数据源（仅限概要数据）]&quot;
 1. 单击&#x200B;**[!UICONTROL 激活]**。
 打开显示 [!UICONTROL 数据源激活向导].
    1. 步骤1:为数据源指定名称，然后单击免责声明复选框。
    1. 步骤2:此步骤在以前版本的Adobe Analytics中有更多用法。 单击复选框，然后在其旁边的文本字段中键入任意值。
-   1. 步骤3:选择要包含在数据源模板文件中的量度。 从下拉菜单中选择“Event 1”。
+   1. 步骤3:选择要包含在数据源模板文件中的量度。 从下拉列表中选择“事件1”。
    1. 步骤4:此步骤在以前版本的Adobe Analytics中有更多用法。 单击复选框，然后在其旁边的文本字段中键入任意值。
-   1. 步骤5:选择要包含在数据源模板文件中的维度。 从下拉菜单中选择“eVar1”。
+   1. 步骤5:选择要包含在数据源模板文件中的维度。 从下拉列表中选择“eVar1”。
    1. 步骤6:查看摘要，其中显示模板文件中包含的维度和量度。
    1. 步骤7:单击 **[!UICONTROL 下载]** 按钮下载数据源模板文件。 另请注意FTP站点的登录凭据，因为这些凭据很快便会使用。
 1. 数据源现已创建完成；下一步是为其提供要处理的数据。 在所需的文本编辑器中打开下载的文件。
@@ -35,8 +36,8 @@ ht-degree: 1%
 
    ```text
    # Generic Data Source (Summary Data Only) template file (user: 123456789 ds_id: 2)
-   #	eVar1	event1
-   Date	Evar 1	Event 1
+   #    eVar1    event1
+   Date    Evar 1    Event 1
    ```
 
 1. 输入多行数据，用选项卡分隔每个条目。 请勿使用空格或逗号来分隔值。
@@ -46,10 +47,10 @@ ht-degree: 1%
 
    ```text
    # Generic Data Source (Summary Data Only) template file (user: 123456789 ds_id: 5)
-   #	eVar1	event1
-   Date	Evar 1	Event 1
-   09/07/YYYY/11/23/00	Data source example value	3
-   09/07/YYYY/15/59/00	Another data source value	18
+   #    eVar1    event1
+   Date    Evar 1    Event 1
+   09/07/YYYY/11/23/00    Data source example value    3
+   09/07/YYYY/15/59/00    Another data source value    18
    ```
 
 1. 保存文件。如有需要，您可以选择为其指定其他文件名。 保存文件后，可以关闭文本编辑器。

@@ -3,10 +3,10 @@ title: Adobe Analytics 中的报表自定义
 description: 了解如何在 Adobe Analytics 中自定义报表
 feature: Third-party Integration
 exl-id: 8ea6ec3a-cfc6-4c14-966b-d245949451c7
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 96%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 1. 单击指标列表旁的 **+** 图标以打开[!UICONTROL 计算指标生成器]。
 2. 为计算指标提供一个名称并指定格式。
-3. 将指标组件拖到定义区域，然后使用每个组件之间的下拉列表指定一个运算符。
+3. 将量度组件拖到定义区域中，然后使用每个组件之间的下拉列表来指定运算符。
 4. 计算指标包含所需的公式后，单击“保存”以返回工作区。
 5. 将新定义的计算指标拖动到工作区上。
 
