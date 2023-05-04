@@ -3,10 +3,10 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: cd727113683be47793829871c64f057dc764f3ef
+source-git-commit: 556a8fefa2a5515437ab4b95fc08dde32756ef68
 workflow-type: tm+mt
-source-wordcount: '1692'
-ht-degree: 92%
+source-wordcount: '1688'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 | **Web SDK 对 Activity Map 的部分支持** | 从 Web SDK 版本 2.15.0 开始，我们开始在启用链接跟踪时填充 Activity Map 数据。这样使得 Web SDK 用户如果用在 Analytics 中配置的 Web SDK 和 Activity Map 启用了链接跟踪，则可获得 Activity Map 报告。<p>当客户从一个页面导航到下一个页面时，用 Web SDK 启用链接跟踪当前将发送链接事件。这与 AppMeasurement 的工作方式不同，并且可能会导致将额外的可计费点击数发送到 Adobe。请在[此处](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html)和[此处](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)了解详情 | 不适用 | 2023 年 3 月 31 日 |
 | **Experience Edge 的 IP 地址模糊处理** | Experience Edge 将支持对直接发送到 Adobe Experience Platform 的数据进行 IP 地址模糊处理。这有利于将数据直接发送到 Platform 以用于 CJA 或其他 Platform 解决方案的客户。 IP 地址模糊处理是在数据流级别配置的。它支持删除最后一个八位字节或整个 IP 地址。<p>**注释**：模糊处理不适用于发送到 Adobe Analytics 的数据。Analytics 继续获取完整的 IP。IP 处理继续在 Analytics 中单独完成。将来，我们计划允许在 Edge 模糊分析数据。 | 不适用 | AEP 于 2023 年 4 月 26 日发布 |
 | **Analysis Workspace 中的数据词典** | 数据词典可帮助用户和管理员跟踪、管理并更好地了解其 Analytics 环境中的组件（如维度、量度等）。[了解详情](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023 年 3 月 15 日 | 2023 年 3 月 29 日 |
-| **共享项目链接（无需登录）** | <p>您现在可以与无权访问 Adobe Analytics 的人员共享 Analysis Workspace 项目的只读链接。这包括与组织外的人员或组织内未配置Adobe Analytics的人员共享。 [了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=en#share-public-link)</p> <p>默认情况下，此功能处于启用状态，系统管理员可以禁用此功能。 [了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#company-preferences)</p> | 2023年4月26日（仅限私人测试版访问） | 2023 年 6 月 |
+| **共享项目链接（无需登录）** | <p>您现在可以与无权访问 Adobe Analytics 的人员共享 Analysis Workspace 项目的只读链接。这包括与组织外的人员或组织内未配置Adobe Analytics的人员共享。 [了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=en#share-public-link)</p> <p>默认情况下，此功能处于启用状态，系统管理员可以禁用此功能。 [了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#company-preferences)</p> | 2023年5月3日 | 2023 年 6 月 |
 | **面向 Adobe Analytics 2.0 API 的 2 个新端点指南** | <ul><li>[Analytics 维度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 量度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> | 不适用 | 2023 年 4 月 10 日 |
 
 {style="table-layout:auto"}
