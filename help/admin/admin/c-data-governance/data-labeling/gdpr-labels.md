@@ -3,10 +3,10 @@ description: Adobe Analytics 变量的数据隐私标签示例
 title: Analytics 变量的数据隐私标签
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
+source-git-commit: 11cfba59a57ba3292bbfe936ec104d85bf2f7695
 workflow-type: tm+mt
-source-wordcount: '3558'
-ht-degree: 100%
+source-wordcount: '3578'
+ht-degree: 99%
 
 ---
 
@@ -161,6 +161,12 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
    <td colname="col2"> <p>所有（分类除外） </p> </td> 
    <td colname="col3"> <p>全部 </p> </td> 
    <td colname="col4"> </td> 
+  </tr>
+  <tr> 
+   <td colname="col1"> <p>流量变量 </p> </td> 
+   <td colname="col2"> <p>列表属性 </p> </td> 
+   <td colname="col3"> <p>无 / S1 / S2 </p> </td> 
+   <td colname="col4"> <p>列表属性可以包含多个值，不允许用作隐私标识符。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>分类 </p> </td> 
