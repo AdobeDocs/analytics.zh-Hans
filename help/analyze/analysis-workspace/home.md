@@ -4,9 +4,9 @@ description: Analysis Workspace 是 Adobe Analytics 的首要分析工具。从�
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: f3ba2c1b63b9b7fa0da4c0d3b784036abdd9df1b
+source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '749'
 ht-degree: 33%
 
 ---
@@ -94,7 +94,7 @@ Analysis Workspace 中的数据词典可帮助用户和管理员跟踪并更好�
 
 在Analysis Workspace中创建分析时，您所做的工作是 [自动保存](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
-当您完成项目构建并收集可操作的洞察时，便可供他人使用。 您可以与组织中的用户和组共享项目，甚至与组织外的人员共享项目。 有关共享项目的信息，请参阅 [共享项目](/help/analyze/analysis-workspace/curate-share/share-projects.md).
+当您完成项目构建并收集可操作的洞察时，该项目便可供其他人使用。 您可以与组织中的用户和组共享项目，甚至与组织外的人员共享项目。 有关共享项目的信息，请参阅 [共享项目](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
 ### Analysis Workspace 中的项目管理
 

@@ -3,10 +3,10 @@ description: 了解在Analysis Workspace中创建项目的基础知识
 title: 创建项目
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 98cffce26edc02b74747e05c35ff6625081e0cc6
+source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 6%
+source-wordcount: '651'
+ht-degree: 5%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 6%
 
 ## 向项目中添加面板 {#panels}
 
-[面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hans) 是Analysis Workspace中任何项目的基础。 它们用于组织项目的内容（可视化和组件）。 在将组件或可视化图表添加到项目之前，您需要添加面板。
+[面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hans) 是Analysis Workspace中任何项目的基础。 面板用于组织项目的内容（可视化和组件）。
 
 Analysis Workspace 中提供的许多面板都可以基于一些用户输入来生成整套分析。
 
@@ -71,6 +71,12 @@ Analysis Workspace 中提供的许多面板都可以基于一些用户输入来�
 
 [可视化图表](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hans) （如自由格式表、条形图或折线图）可用于直观地将数据呈现出来。
 
+>[!TIP]
+>
+>自由格式表是最常见的可视化类型，也是交互式数据分析的基础。 有关如何在Analysis Workspace中使用自由格式表的更多详细信息，请参阅 [自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
+
+要添加可视化，请执行以下操作：
+
 1. 选择 **[!UICONTROL 可视化图表]** 图标。
 
    ![](assets/build-visualizations.png)
@@ -83,13 +89,21 @@ Analysis Workspace 中提供的许多面板都可以基于一些用户输入来�
 
 [组件](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) 构成任何项目的实际数据。 您可以将组件添加到可视化图表或面板。
 
+>[!TIP]
+>
+>有关每个组件的信息，请选择左边栏中组件名称旁边的信息图标，或查看 [Analytics组件指南](/help/components/home.md).
+
+添加组件：
+
 1. 选择 **[!UICONTROL 组件]** 图标。
 
    ![](assets/build-components.png)
 
 1. 搜索要添加的组件。 当它显示在左边栏中时，将其拖动到项目中的面板或可视化图表。
 
->[!TIP]
->
->   有关每个组件的信息，请选择左边栏中组件名称旁边的信息图标，或查看 [Analytics组件指南](/help/components/home.md).
+### 保存并共享项目
+
+在Analysis Workspace中创建分析时，您所做的工作是 [自动保存](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
+
+当您完成项目构建并收集可操作的洞察时，该项目便可供其他人使用。 您可以与组织中的用户和组共享项目，甚至与组织外的人员共享项目。 有关共享项目的信息，请参阅 [共享项目](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
