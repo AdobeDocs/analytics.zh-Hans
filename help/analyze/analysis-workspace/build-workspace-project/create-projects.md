@@ -3,7 +3,7 @@ description: 了解在Analysis Workspace中创建项目的基础知识
 title: 创建项目
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
+source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 5%
@@ -12,7 +12,7 @@ ht-degree: 5%
 
 # 创建项目
 
-[项目](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) 在Analysis Workspace中，您可以显示可与组织内外的利益相关方共享的业务关键型数据。
+[项目](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) 在Analysis Workspace中，您可以查看可与组织内外的利益干系人共享的业务关键型分析。
 
 有关如何开始使用Analysis Workspace的一般信息，请参阅 [Analysis Workspace概述](/help/analyze/analysis-workspace/home.md).
 
@@ -73,7 +73,7 @@ Analysis Workspace 中提供的许多面板都可以基于一些用户输入来�
 
 >[!TIP]
 >
->自由格式表是最常见的可视化类型，也是交互式数据分析的基础。 有关如何在Analysis Workspace中使用自由格式表的更多详细信息，请参阅 [自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
+>自由格式表是最常见的可视化类型，是进行交互式数据分析的基础。 有关如何在Analysis Workspace中使用自由格式表的更多详细信息，请参阅 [自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
 
 要添加可视化，请执行以下操作：
 

@@ -4,22 +4,22 @@ description: 了解如何在工作区中使用多个报表包来创建项目以�
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 100%
+source-wordcount: '521'
+ht-degree: 90%
 
 ---
 
-# 多个报表包
+# 多个报告包
 
-您现在可以在 Analysis Workspace 中使用多个报表包的数据创建项目。现在可以在面板级别选择报表包，因此您可以在同一工作区项目中为每个面板选择不同的报表包。
+您可以在Analysis Workspace中使用多个报表包的数据创建项目。 报表包是在面板级别选择的，因此您可以在同一工作区项目中为每个面板选择不同的报表包。
 
 例如，如果您想要
 
 * 比较两个不同区域的数据，以及存储在两个不同的报表包中的数据。您可以构建一些表格和可视化图表，以并排比较数据。
 
-* 构建一个包含量度和可视化图表的功能板，向其他组织报告。您现在可以将不同报表包中的数据提取到同一项目。
+* 构建一个包含量度和可视化图表的功能板，向其他组织报告。您可以将不同报表包中的数据提取到同一项目中。
 
 以下是一段关于该主题的视频：
 

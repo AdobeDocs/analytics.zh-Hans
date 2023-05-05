@@ -1,13 +1,13 @@
 ---
-title: Analysis Workspace 是什么以及怎样使用它？
+title: Analysis Workspace 概述
 description: Analysis Workspace 是 Adobe Analytics 的首要分析工具。从中可使用面板、表格、可视化和其他组件使数据形象化、策划数据集、共享和安排项目等功能。
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
+source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 33%
+source-wordcount: '839'
+ht-degree: 36%
 
 ---
 
@@ -64,11 +64,11 @@ Analysis Workspace中的组件包括：
 
 * 日期范围
 
-请参阅 [组件概述](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) 了解有关每个组件类型的更多信息。
+要了解有关每个组件类型的更多信息，请参阅 [组件概述](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).
 
 可以将这些组件类型中的每种类型添加到可视化图表（如自由格式表），以开始回答您的业务问题。
 
-了解组件术语后，您可以将组件拖动到可视化（包括自由格式表）中，以 [构建分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html?lang=zh-Hans).
+了解组件术语后，您可以将组件拖动到可视化（包括自由格式表）中，以 [构建分析](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).
 
 ![](assets/build-components.png)
 
@@ -90,17 +90,35 @@ Analysis Workspace 中的数据词典可帮助用户和管理员跟踪并更好�
 
 您可以在Analysis Workspace中创建项目，如 [创建项目](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
+项目可以组织到文件夹和子文件夹中，如 [Analysis Workspace中的文件夹](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
+
 ### 保存和共享项目
 
 在Analysis Workspace中创建分析时，您所做的工作是 [自动保存](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
 当您完成项目构建并收集可操作的洞察时，该项目便可供其他人使用。 您可以与组织中的用户和组共享项目，甚至与组织外的人员共享项目。 有关共享项目的信息，请参阅 [共享项目](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
-### Analysis Workspace 中的项目管理
+<!--
 
-以下视频概述了Analysis Workspace中的项目管理：
+Maybe add this back in if the video isn't too outdated. Otherwise, delete this section.
+
+### Project management in Analysis Workspace
+
+The following video provides an overview of project management in Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24035/?quality=12)
+
+-->
+
+## 使用Virtual Analyst更好地了解异常情况
+
+Virtual Analyst是Adobe Analytics中的一组功能，它使用预测算法和机器学习来提供对影响您业务的异常的洞察。 它使您能够自动执行最常见、最昂贵的数据科学工作流程，以识别导致数据异常行为的原因。
+
+Virtual Analyst 具有以下功能：
+
+* [异常检测：](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)&amp;#x200B;提供了一种统计方法来确定给定的量度相对于以前的数据发生了什么变化。
+* [贡献分析：](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md)帮助确定对数据异常贡献最大的因素。
+* [智能警报：](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)主动识别数据异常并通知您，从而提高洞察速度。
 
 ## 其他资源 {#resources}
 
