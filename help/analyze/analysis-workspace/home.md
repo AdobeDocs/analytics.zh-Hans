@@ -4,10 +4,10 @@ description: Analysis Workspace 是 Adobe Analytics 的首要分析工具。从�
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
+source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 36%
+source-wordcount: '732'
+ht-degree: 31%
 
 ---
 
@@ -97,28 +97,6 @@ Analysis Workspace 中的数据词典可帮助用户和管理员跟踪并更好�
 在Analysis Workspace中创建分析时，您所做的工作是 [自动保存](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
 当您完成项目构建并收集可操作的洞察时，该项目便可供其他人使用。 您可以与组织中的用户和组共享项目，甚至与组织外的人员共享项目。 有关共享项目的信息，请参阅 [共享项目](/help/analyze/analysis-workspace/curate-share/share-projects.md).
-
-<!--
-
-Maybe add this back in if the video isn't too outdated. Otherwise, delete this section.
-
-### Project management in Analysis Workspace
-
-The following video provides an overview of project management in Analysis Workspace:
-
->[!VIDEO](https://video.tv.adobe.com/v/24035/?quality=12)
-
--->
-
-## 使用Virtual Analyst更好地了解异常情况
-
-Virtual Analyst是Adobe Analytics中的一组功能，它使用预测算法和机器学习来提供对影响您业务的异常的洞察。 它使您能够自动执行最常见、最昂贵的数据科学工作流程，以识别导致数据异常行为的原因。
-
-Virtual Analyst 具有以下功能：
-
-* [异常检测：](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)&amp;#x200B;提供了一种统计方法来确定给定的量度相对于以前的数据发生了什么变化。
-* [贡献分析：](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md)帮助确定对数据异常贡献最大的因素。
-* [智能警报：](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)主动识别数据异常并通知您，从而提高洞察速度。
 
 ## 其他资源 {#resources}
 

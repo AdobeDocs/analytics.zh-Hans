@@ -3,9 +3,9 @@ description: 了解在Analysis Workspace中创建项目的基础知识
 title: 创建项目
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
+source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '663'
 ht-degree: 5%
 
 ---
@@ -101,7 +101,9 @@ Analysis Workspace 中提供的许多面板都可以基于一些用户输入来�
 
 1. 搜索要添加的组件。 当它显示在左边栏中时，将其拖动到项目中的面板或可视化图表。
 
-### 保存并共享项目
+1. （可选）共享项目，如 [保存并共享项目](#save-and-share-the-project).
+
+## 保存并共享项目
 
 在Analysis Workspace中创建分析时，您所做的工作是 [自动保存](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
