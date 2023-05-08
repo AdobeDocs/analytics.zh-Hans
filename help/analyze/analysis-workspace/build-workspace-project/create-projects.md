@@ -3,10 +3,10 @@ description: 了解在Analysis Workspace中创建项目的基础知识
 title: 创建项目
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
+source-git-commit: 35f8bea903d15f18642d4b2482fb99f591e3b386
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 5%
 
    +++创建空白项目
 
-   1. 选择 [!UICONTROL **项目**] 选项卡，然后选择 [!UICONTROL **创建项目**].
+   1. 在 [!UICONTROL **工作区**] 选项卡，选择 [!UICONTROL **项目**] ，然后选择 [!UICONTROL **创建项目**].
 
    1. 选择是创建空白项目还是创建空白移动记分卡
 
@@ -38,7 +38,7 @@ ht-degree: 5%
 
    +++从模板创建项目
 
-   1. 选择 [!UICONTROL **报表**] 选项卡。
+   1. 在 [!UICONTROL **工作区**] 选项卡，选择 [!UICONTROL **报表**] 选项卡。
 
    1. 搜索或导航到要使用的模板，然后在显示时选择该模板。
 
