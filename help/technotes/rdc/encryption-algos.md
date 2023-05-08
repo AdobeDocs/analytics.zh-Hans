@@ -3,10 +3,10 @@ title: 支持的 HTTPS 加密算法
 description: TLS密码安全设置和证书类型。
 feature: Regional Data Collection
 exl-id: f1cbb0cb-fd65-4f22-8594-0d97b6906698
-source-git-commit: 299de03c05f6a8af4f6c5d98c76bae54eec4c088
+source-git-commit: 1ca7f750387fd9ae034d10ebf3e47190cf33d4b7
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 30%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 30%
 
 ## 密码安全级别
 
-Adobe 提供两种密码安全级别，以满足客户对第一方数据收集安全性的不同需求。这些级别决定了与我们服务器的 HTTPS 连接支持哪些加密算法。Adobe会根据当前的安全实践定期审查和更新一组受支持的算法。 如果要更改密码安全设置，请联系客户关怀团队。
+Adobe 提供两种密码安全级别，以满足客户对第一方数据收集安全性的不同需求。这些级别决定了与Adobe服务器的HTTPS连接支持哪些加密算法。 Adobe会根据当前的安全实践定期审查和更新一组受支持的算法。 如果要更改密码安全设置，请联系客户关怀团队。
 
-“Standard”需要TLS 1.2或更高版本以及至少128位加密。 它旨在提供最广泛的设备兼容性，同时保持安全加密。
+“Standard”需要TLS 1.2或更高版本以及至少128位加密。 它旨在提供最广的设备兼容性，同时保持安全加密。
 
 “高”密码安全级别需要TLS 1.2或更高版本，并且不再支持较弱的密码。 它专为那些希望获得最强加密并且不关心对旧设备支持的客户而设计。
 
