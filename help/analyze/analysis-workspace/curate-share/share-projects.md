@@ -5,10 +5,10 @@ title: 共享项目
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 836b2c91cf401b7133d3569ae64154a24d2923f7
+source-git-commit: fe072eab9c6dd6438ad6f27f0c16860cd87d1e64
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 55%
+source-wordcount: '1797'
+ht-degree: 53%
 
 ---
 
@@ -126,6 +126,8 @@ ht-degree: 55%
 >* 与您共享的用户可以查看在 [策划](curate.md).
 > 
 >* 您与共享的用户可以更改项目日期范围。 默认情况下，会显示您为项目设置的日期范围。
+>
+>* 如果许多用户同时尝试访问给定链接，则项目可能会变为无法访问。 默认情况下，每5分钟有190多人可以访问一个链接。 如果贵组织达到此限制，请等待5分钟，然后再次尝试访问该链接。
 
 
 要与无权访问Analysis Workspace的人员共享Adobe Analytics项目，请执行以下操作：
