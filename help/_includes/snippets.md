@@ -1,8 +1,8 @@
 ---
-source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
-workflow-type: ht
-source-wordcount: '974'
-ht-degree: 100%
+source-git-commit: 94765bfa306240fb02d2ea788234cc0043c65d8f
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 94%
 
 ---
 # 片段
@@ -48,6 +48,16 @@ ht-degree: 100%
 | [!UICONTROL **创建者**] | 显示创建组件的用户名称。 |
 | [!UICONTROL **预览**] | 显示组件在 Analysis Workspace 中的外观预览。 |
 | [!UICONTROL **上次修改日期**] | 显示上次修改组件的日期。在查看区段、计算量度和日期范围时将显示此部分。 |
+
+{style="table-layout:auto"}
+
+## 组件排序选项 {#components-sort-options}
+
+| 选项 | 函数 |
+|---------|----------|
+| [!UICONTROL **建议**] | 使用列表顶部推荐的组件对组件进行排序。 您或组织中的其他人员最常使用、最近使用的组件在列表中显示得更高。 |
+| [!UICONTROL **按字母顺序**] | 按字母顺序对组件进行排序。 |
+| [!UICONTROL **类别**] | 按组件类型（维度、量度、区段、日期范围）对组件进行排序。 |
 
 {style="table-layout:auto"}
 

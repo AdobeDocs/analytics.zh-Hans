@@ -3,10 +3,11 @@ description: Analysis Workspace 中的数据词典允许用户对 Analysis Works
 title: 编辑数据词典中的条目
 feature: Components
 role: Admin
-source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
+exl-id: 4f15cad2-596e-41c3-89aa-4456d8e94fa0
+source-git-commit: 631f84794203cb0a1154d68149c9d64d7247ecd3
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 75%
+source-wordcount: '313'
+ht-degree: 70%
 
 ---
 
@@ -31,6 +32,10 @@ Analytics 管理员可以为给定的报告包编辑数据词典中的组件条�
    组件类型可通过颜色和图标进行标识。 **Dimension** ![Dimension图标](assets/dimension-icon.png) 橙色， **区段** ![区段图标](assets/segment-icon.png) 是蓝色的， **日期范围** ![日期范围图标](assets/date-range-icon.png) 是紫色的， **量度** ![“量度”图标](assets/default-metric-icon.png) 为绿色。 Adobe图标 ![Adobe图标](assets/default-calc-metric-icon.png) 指示计算量度模板或区段模板以及计算器图标 ![计算器图标](assets/calculated-metric-icon-created.png) 指示了由您组织中的Analytics管理员创建的计算量度。
 
 {{dd-filter-criteria}}
+
+1. （可选）选择 **排序** 图标 ![对组件排序图标](assets/component-sort-icon.png)，然后选择以下任意过滤器选项以对组件列表进行排序：
+
+   {{components-sort-options}}
 
 1. 从组件列表中，选择要编辑的组件。
 

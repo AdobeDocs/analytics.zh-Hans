@@ -3,10 +3,11 @@ description: Analysis Workspace 中的数据词典允许用户对 Analysis Works
 title: 查看数据词典
 feature: Components
 role: User, Admin
-source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
+exl-id: 68f68ea4-f0a6-4937-bf8f-aecfa28572bb
+source-git-commit: 02b3dca057731dc56f3ee72e3ce33e30b2cb2a28
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 75%
+source-wordcount: '302'
+ht-degree: 69%
 
 ---
 
@@ -33,6 +34,10 @@ ht-degree: 75%
    组件类型可通过颜色和图标进行标识。 **Dimension** ![Dimension图标](assets/dimension-icon.png) 橙色， **区段** ![区段图标](assets/segment-icon.png) 是蓝色的， **日期范围** ![日期范围图标](assets/date-range-icon.png) 是紫色的， **量度** ![“量度”图标](assets/default-metric-icon.png) 为绿色。 Adobe图标 ![Adobe图标](assets/default-calc-metric-icon.png) 指示计算量度模板或区段模板以及计算器图标 ![计算器图标](assets/calculated-metric-icon-created.png) 指示了由您组织中的Analytics管理员创建的计算量度。
 
 {{dd-filter-criteria}}
+
+1. （可选）选择 **排序** 图标 ![对组件排序图标](assets/component-sort-icon.png)，然后选择以下任意过滤器选项以对组件列表进行排序：
+
+   {{components-sort-options}}
 
 1. 从组件列表中，选择要查看的组件。
 
