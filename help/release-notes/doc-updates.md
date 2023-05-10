@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
+source-git-commit: 08185446c031582bfea21cb35cbfa365fa8f4239
 workflow-type: tm+mt
-source-wordcount: '4008'
-ht-degree: 97%
+source-wordcount: '4121'
+ht-degree: 95%
 
 ---
 
@@ -28,6 +28,9 @@ ht-degree: 97%
 | **2023 年 5 月** |  |
 | Analysis Workspace 概述 | 已更新 [Analysis Workspace概述](/help/analyze/analysis-workspace/home.md) 以包含更多常规概述信息和相关内容的链接。 |
 | 创建项目 | 创建了一篇新文章，详细说明了如何 [创建项目](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) 在Analysis Workspace。 |
+| 对左边栏中的组件进行排序 | 添加了有关在左边栏中对组件列表进行排序的信息。请参阅 [组件概述](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
+| 从自由格式表中删除包含动态维度的行 | 添加了有关如何使用x图标快速删除包含动态维度的特定行的信息。 请参阅 [过滤和排序表](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
+| 用于在面板中添加可视化的按钮 | 在Analysis Workspace中每个面板底部添加了有关新按钮的信息，通过该按钮可快速添加可视化图表。 请参阅 [可视化概述](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
 | **2023 年 4 月** |  |
 | 转移用户资产并设置帐户过期日期 | 添加了有关如何 [转移用户资产并设置帐户过期日期](/help/admin/admin/user-management2/users-assets.md). |
 | 面向 Adobe Analytics 2.0 API 的 2 个新端点指南 | <ul><li>[Analytics 维度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 量度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
