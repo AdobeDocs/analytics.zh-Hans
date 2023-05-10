@@ -4,10 +4,10 @@ title: Adobe Analytics 功能板执行指南
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: daa9e22468430434b23f515d6dd22fee4228d728
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 98%
+source-wordcount: '1276'
+ht-degree: 92%
 
 ---
 
@@ -58,9 +58,15 @@ ht-degree: 98%
 
 1. 选择一个公司。登录功能板后，会显示&#x200B;**[!UICONTROL 选择公司]**&#x200B;屏幕。此屏幕会列出您所属的登录公司。点按与您共享的记分卡所关联的公司名称。
 
-1. 然后，记分卡列表会显示与您共享的所有记分卡。点按要查看的记分卡。
+   记分卡列表显示与您共享的所有记分卡。
 
-   ![选择公司](assets/nextseq.png)
+1. 点按要查看的记分卡。
+
+   如果您通过一次登录访问多个组织，则记分卡列表中将提供来自您组织的所有记分卡。
+
+   您可以根据记分卡标题、组织名称或最近查看的内容对记分卡列表进行排序。 您甚至可以搜索特定的记分卡。
+
+   ![选择公司](assets/mobile-home-screen.png)
 
    如果您登录后看到一条消息，指出尚未共享任何内容，请与策划人确认以下事项：
 
