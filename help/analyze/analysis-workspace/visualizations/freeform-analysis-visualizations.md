@@ -5,10 +5,10 @@ title: 可视化图表概述
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: ce3fa1ae1a4785a6ed2adfe9128f180d3eaa341a
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 99%
+source-wordcount: '1280'
+ht-degree: 88%
 
 ---
 
@@ -16,9 +16,7 @@ ht-degree: 99%
 
 工作区提供了许多可视化图表，使您能够生成数据的可视化表示形式，如条形图、圆环图、直方图、折线图、地图、散点图等。如果您使用 Adobe Analytics，则您已经熟悉了大多数可视化图表类型。但是，Analysis Workspace 提供了可视化图表设置，以及许多全新或独特的具有交互功能的可视化图表类型。
 
-可从工作区左上角的图标、[空白面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=zh-Hans)或者通过工作流程中的右键单击菜单来访问可视化图表。
-
-![](assets/viz-rail.png)
+## 可视化图表类型 
 
 Analysis Workspace 中提供了以下可视化图表类型：
 
@@ -34,6 +32,7 @@ Analysis Workspace 中提供了以下可视化图表类型：
 | [自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | 自由格式表不仅可以作为数据表，而且还是一个交互式可视化图表。这是在工作区中进行数据分析的基础。 |
 | [直方图](/help/analyze/analysis-workspace/visualizations/histogram.md) | 直方图根据指标数量，将访客数、访问数或点击数划分到存储桶中。 |
 | [水平条](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 显示一些水平条，这些水平条表示一个或多个指标中的各种值。 |
+| [关键度量摘要](/help/analyze/analysis-workspace/visualizations/key-metric.md) | 显示量度在单个时间范围内的趋势，或者允许您比较两个时间范围内的量度性能。 |
 | [折线图](/help/analyze/analysis-workspace/visualizations/line.md) | 使用线条来表示指标，以显示一段时间内值的变化情况。将时间作为 x 轴的线形图。 |
 | [地图](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | 允许您构建任何指标（包括计算指标）的可视地图。 |
 | [散点图](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | 显示维度项目与最多三个指标之间的关系。 |
@@ -42,6 +41,26 @@ Analysis Workspace 中提供了以下可视化图表类型：
 | [文本](/help/analyze/analysis-workspace/visualizations/text.md) | 使您克将用户定义的文本添加到您的工作区。在利用面板/可视化图表描述之外，对于向您的分析和见解添加额外的上下文非常有用 |
 | [树形图](/help/analyze/analysis-workspace/visualizations/treemap.md) | 将分层（树结构）数据显示为一组嵌套的矩形。 |
 | [维恩图](/help/analyze/analysis-workspace/visualizations/venn.md) | 使用圆圈来描述最多 3 个区段之间的指标重叠。 |
+
+## 向面板中添加可视化
+
+1. 打开要在其中添加可视化的Analysis Workspace项目。
+
+1. 使用以下任一方法添加可视化：
+
+   * 在左边栏中，选择 **可视化图表** 图标 <!-- add icon -->，然后将可视化图表拖到要添加该可视化图表的面板中。
+
+      ![](assets/viz-rail.png)
+
+   * 在要添加可视化的面板上，选择 **加号** 图标，然后选择表示要添加的可视化的图标。 将鼠标悬停在每个可视化的图标上可查看其名称。
+
+      ![用于添加可视化的按钮](assets/visualization-add-to-panel.png)
+
+   * 添加 [空白面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=zh-Hans)，然后选择要添加的可视化。
+
+      ![空白面板](assets/blank_panel.png)
+
+   * 右键单击Analysis Workspace项目中的现有面板，然后选择 [!UICONTROL **复制可视化图表**] 或 [!UICONTROL **复制可视化图表**].
 
 ## 自定义可视化图表设置
 
