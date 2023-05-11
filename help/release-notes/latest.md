@@ -3,7 +3,7 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b5b6925b7425104335b592e98a556c2449fea5d9
+source-git-commit: 890742781a59532828003f8ba660043b9f1c73a1
 workflow-type: tm+mt
 source-wordcount: '1388'
 ht-degree: 54%
@@ -23,8 +23,8 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 | **非生产沙盒的回填** | 在非生产沙盒中创建 Analytics 源连接器数据流时，非生产沙盒中的回填将限制为 3 个月。生产沙盒的时间将保持在 13 个月。 | 不适用 | 2023 年 4 月 26 日 |
 | **共享项目链接（无需登录）** | 您现在可以与无权访问 Adobe Analytics 的人员共享 Analysis Workspace 项目的只读链接。这包括与组织外的人员或组织内未配置Adobe Analytics的人员共享。 [了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=en#share-public-link)<p>默认情况下，此功能处于启用状态，系统管理员可以禁用此功能。 [了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#company-preferences)</p> | 2023年5月3日 | 2023 年 6 月 |
 | **更新了Analytics功能板应用程序（移动设备应用程序）的主屏幕** | 新的更新主页屏幕允许您在一个整合的记分卡列表中查看所有记分卡。  如果您通过一次登录访问多个组织，则来自您组织的所有记分卡都将在单个列表中可用。 | 不适用 | 2023 年 5 月 10 日 |
-| **对Analysis Workspace中的组件排序** | 现在，在左边栏或Analysis Workspace的“数据字典”中查看组件时，可以使用新的排序选项。 您可以按推荐（最常用的组件）、按字母顺序或类别（类型）对组件进行排序。<p>以前，您只能搜索或过滤组件。 [了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=en)</p> | 不适用 | 2023 年 5 月 10 日 |
-| **从自由格式表中删除包含动态维度的行** | 在Analysis Workspace的自由格式表中，您现在可以使用x图标快速删除包含动态维度的特定行。 这样做时，会自动应用“不等于”过滤规则。<p>以前，删除包含动态维度的行的唯一方法是在过滤器对话框中手动创建规则。 [了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html?lang=en)</p> | 不适用 | 2023 年 5 月 10 日 |
+| **对Analysis Workspace中的组件排序** | 现在，在左边栏或Analysis Workspace的“数据字典”中查看组件时，可以使用新的排序选项。 您可以按推荐（最常用的组件）、按字母顺序或类别（类型）对组件进行排序。<p>以前，您只能搜索或过滤组件。 [了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=en)</p> | 不适用 | 2023年5月17日 |
+| **从自由格式表中删除包含动态维度的行** | 在Analysis Workspace的自由格式表中，您现在可以使用x图标快速删除包含动态维度的特定行。 这样做时，会自动应用“不等于”过滤规则。<p>以前，删除包含动态维度的行的唯一方法是在过滤器对话框中手动创建规则。 [了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html?lang=en)</p> | 不适用 | 2023年5月17日 |
 | **用于在面板中添加可视化的新按钮** | 现在，Analysis Workspace中每个面板底部都有一个新按钮，通过该按钮，您可以快速添加可视化图表。 <p>以前，向面板添加可视化的唯一方法是从左边栏拖动可视化、复制或复制现有可视化，或创建空白面板。 [了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=en#add-visualizations-to-a-panel)</p> | 不适用 | 2023年5月17日 |
 | **深层链接（移动设备应用程序）** | 允许用户发送指向记分卡的链接，这些记分卡会将用户直接引导到应用程序中的记分卡项目。 这样，就更容易共享项目并提高技术含量较低的受众的参与度。 | 待定 | 待定 |
 
