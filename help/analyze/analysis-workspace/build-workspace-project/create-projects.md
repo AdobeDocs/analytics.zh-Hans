@@ -3,10 +3,10 @@ description: 了解在Analysis Workspace中创建项目的基础知识
 title: 创建项目
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 35f8bea903d15f18642d4b2482fb99f591e3b386
+source-git-commit: 6d1515ee21044941b4b79d18b4438e0647471c57
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '689'
+ht-degree: 5%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 以下各节介绍如何创建项目并开始为任何Analysis Workspace项目添加关键构建基块：面板、可视化图表和组件。
 
-## 从空白项目或模板创建项目
+## 从空白项目或报表创建项目
 
 1. 在Adobe Analytics中，选择 [!UICONTROL **工作区**].
 
-1. 选择是创建空白项目还是从模板创建项目：
+1. 选择是创建空白项目还是从报表创建项目：
 
    +++创建空白项目
 
@@ -36,15 +36,15 @@ ht-degree: 0%
 
 +++
 
-   +++从模板创建项目
+   +++从报表创建项目
 
    1. 在 [!UICONTROL **工作区**] 选项卡，选择 [!UICONTROL **报表**] 选项卡。
 
-   1. 搜索或导航到要使用的模板，然后在显示时选择该模板。
+   1. 搜索或导航到要使用的报表，然后在显示时选择该报表。
 
-      默认情况下，提供一组标准模板。 此外，您的组织可能已创建自定义模板供您选择。
+      默认情况下，可使用一组标准报表。 此外，您的组织可能已创建自定义报表供您选择。
 
-      有关更多信息，请参阅 [Reports &amp; Analytics快速入门](/help/analyze/reports-analytics/getting-started.md).
+      有关更多信息，请参阅 [Adobe Analytics登陆页](/help/analyze/landing.md).
 +++
 
 1. 接下来，您需要向项目添加面板、可视化图表和组件。 首先，在Analysis Workspace中向项目添加面板，如 [向项目中添加面板](#add-panels-to-the-project). 然后，您可以向任何面板中添加可视化。 最后，您可以向任何面板或可视化图表中添加组件。
