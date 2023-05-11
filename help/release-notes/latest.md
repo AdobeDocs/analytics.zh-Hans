@@ -3,10 +3,10 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 09536aa3cba8570e8f1158b1397c21677bcf8332
+source-git-commit: b5b6925b7425104335b592e98a556c2449fea5d9
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 55%
+source-wordcount: '1388'
+ht-degree: 54%
 
 ---
 
@@ -38,7 +38,7 @@ AN-312098;AN-318309;AN-316675;AN-318173;AN-310359;AN-317613;AN-318836;AN-315744;
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| **迁移到AdobeIO OAuth服务器到服务器凭据** | 2023 年 5 月 11 日 | Adobe Analytics API和使用AdobeIO JWT凭据的实时流客户必须通过 **2025年1月1日**. 从2024年5月1日开始，AdobeIO将不允许创建新的JWT凭据。 使用JWT的客户必须创建新的OAuth服务器到服务器凭据，或将其现有的JWT凭据迁移到OAuth服务器到服务器凭据。 客户还必须更新其客户端应用程序才能使用新的OAuth服务器到服务器凭据。 有关时间轴，请参阅下面的EOL通知。<ul><li>[从服务帐户(JWT)凭据迁移](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[使用新的OAuth服务器到服务器凭据](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[常见问题解答](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
+| **迁移到AdobeIO OAuth服务器到服务器凭据** | 2023 年 5 月 11 日 | Adobe Analytics API和使用AdobeIO JWT凭据的实时流客户必须通过 **2025年1月1日**. 有关更多详细信息和时间表，请参阅下表中的终止通知。 |
 | **注意：伦敦数据中心Adobe Analytics数据馈送和Data warehouse出口使用的新IP** | 2023 年 4 月 27 日 | 对于伦敦数据中心中有数据馈送请求和/或Data warehouse报表被交付到FTP/SFTP服务的客户，应将以下IP地址范围添加到防火墙配置中，以便允许访问： <ul><li>130.248.244.32/29</li><li>130.248.244.40/29</li></ul> |
 | **设备查找过程现在将一个第三方用于所有设备查找** | 2023 年 3 月 3 日 | 2023 年 3 月 2 日，作为推出客户端提示支持的一部分，我们更新了设备查找过程以将一个第三方用于所有设备查找。我们以前将该第三方仅用于移动设备查找。在此推出的过程中，不当地为一些桌面操作系统标注了“mobile”一词（如“Mobile OS X 10.15.7”而非“OS X 10.15.7”）。<p>在 Adobe 的 4 月发行版中，我们将更正这些名称。将追溯地更新 Analytics 和 CJA 报告，因为其报告基于作为事件数据的一部分而记录的 ID 查找操作系统名称。在更新与 ID 对应的查找值后，将更正所有报告，包括历史数据。对于 [!UICONTROL 数据馈送] 客户，如果您在报告时使用类似的查找流程，则更改具有追溯性。 不过，如果您将操作系统值存储在事件数据中，则报告将仅在以后更新。有关更多详细信息，请参阅[操作系统](/help/components/dimensions/operating-systems.md)。 |
 
@@ -48,7 +48,7 @@ AN-312098;AN-318309;AN-316675;AN-318173;AN-310359;AN-317613;AN-318836;AN-315744;
 
 | 产品或功能 EOL | 添加或更新日期 | 描述 |
 | --- | --- | --- |
-| **迁移到AdobeIO OAuth服务器到服务器凭据** | 2023 年 5 月 11 日 | ![](assets/jwt.png) |
+| **迁移到AdobeIO OAuth服务器到服务器凭据** | 2023 年 5 月 11 日 | Adobe Analytics API和使用AdobeIO JWT凭据的实时流客户必须通过 **2025年1月1日**. 从2024年5月1日开始，AdobeIO将不允许创建新的JWT凭据。 使用JWT的客户必须创建新的OAuth服务器到服务器凭据，或将其现有的JWT凭据迁移到OAuth服务器到服务器凭据。 客户还必须更新其客户端应用程序才能使用新的OAuth服务器到服务器凭据。 <ul><li>[从服务帐户(JWT)凭据迁移](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[使用新的OAuth服务器到服务器凭据](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[常见问题解答](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul>![](assets/jwt.png) |
 | **终止日语版功能手机跟踪服务** | 2023 年 3 月 21 日 | 仅针对我们的日本客户：**2023 年 5 月底**&#x200B;将终止日语版功能手机跟踪服务 (mod_ktrack)。由此给您带来的不便，我们深表歉意，但我们恳请您卸载或禁用安装在您 Apache 服务器上的这些模块。请参阅[本文档](/help/release-notes/mod_ktrackforSiteCatalyst_ver1.40.pdf)中的第 27 页和第 28 页以供参考。 |
 | **[!DNL Reports & Analytics]** 的 EOL | 2023 年 3 月 7 日 | 自 **2023 年 12 月 31 日**&#x200B;起，Adobe 决定中断 [!DNL Reports & Analytics] 及其随附的报告和功能。支持 [!DNL Reports & Analytics] 的报告、可视化图表和底层技术不再满足 Adobe 的技术标准。大部分 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans) 中都可用。自 2015 年发布 Analysis Workspace 以来，[!DNL Reports & Analytics] 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)阐明生命周期结束的过程。<p>2023 年 12 月 31 日，我们将终止许多相关的报告和分析功能，包括但不限于：Reports &amp; Analytics、数据提取和 DL 报告。2023 年 12 月 31 日之后，将不再发送任何计划报告。在 **2023 年 4 月**，任何计划在 2023 年 12 月 31 日之后到期的报告将会自动更新并恢复到 2023 年 12 月 31 日到期。此外，您不能再安排 2023 年 12 月 31 日之后的未来报告。 |
 | **终止使用[!UICONTROL 人员]指标** | 2023 年 3 月 9 日 | 启用 [[!DNL Device Co-op]](https://experienceleague.adobe.com/docs/discontinued/using/device-co-op.html) 后，与 Device Co-op 相关的人员量度不再相关。我们将在 2023 年 5 月 8 日删除[!UICONTROL 人员]量度。届时，我们会将其数据重定向到[!UICONTROL 独特访客]量度，以防止项目、区段和计算量度出现中断。<p>**注释**：与跨设备分析相关的[[!UICONTROL 人员]量度](/help/components/metrics/people.md)不受本公告影响。 |
