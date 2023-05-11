@@ -5,10 +5,10 @@ title: 项目概述
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 5b22de34d4c99d68609d39711a970f871c893b74
+source-git-commit: 7b3acbab3f65b02ceaaea154fb6152cfb0bf07f0
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 83%
+source-wordcount: '1531'
+ht-degree: 81%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 83%
 |---|---|
 | [编辑偏好设置](/help/analyze/analysis-workspace/user-preferences.md) | 管理您创建的所有新项目或面板的Analysis Workspace及其相关组件的设置。 |
 | [创建文件夹](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | 向项目和文件夹列表中添加新文件夹或子文件夹。 |
-| [创建项目](/help/analyze/analysis-workspace/home.md) | 从头开始或从 [模板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#analysis-workspace?lang=zh-Hans). |
+| [创建项目](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) | 从头开始或从报表开始启动新项目。 |
 | 展开 | 显示用于创建空白项目或移动记分卡的选项， [查看培训教程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=zh-Hans)或 [查看发行说明](/help/release-notes/latest.md). |
 | 显示文件夹和项目 | 选择是否显示项目的文件夹结构。 有关更多信息，请参阅[关于 Analytics 中的文件夹](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)。 |
 | 自定义表（图标） | 允许您自定义在“项目”页面上为每个项目显示的信息。 |
@@ -65,7 +65,7 @@ ht-degree: 83%
 
 | 菜单项 | 描述 |
 |---|---|
-| 项目 | 包括常用于项目管理的操作，如新建、打开、保存、另存为和[另存为模板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hans)。还可通过单击“刷新项目”而刷新整个项目以检索最新的数据和定义。通过[“下载 CSV 和 PDF”](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hans)选项，可从 Workspace 导出数据。[“项目信息和设置”](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=zh-Hans?#info-settings)提供多种用于管理项目的选项。 |
+| 项目 | 包括用于项目管理的常见操作，包括“新建”、“打开”、“保存”、“另存为”和 [另存为公司报表](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). 还可通过单击“刷新项目”而刷新整个项目以检索最新的数据和定义。通过[“下载 CSV 和 PDF”](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hans)选项，可从 Workspace 导出数据。[“项目信息和设置”](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=zh-Hans?#info-settings)提供多种用于管理项目的选项。 |
 | 编辑 | 撤消或重做您的上一项操作。“全部清除”将您的项目重置为空起点。 |
 | 插入 | 从此菜单插入新面板或可视化图表。还可从左侧边栏插入新面板和可视化图表。 |
 | [组件](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=zh-Hans) | 从您的项目创建新区段、计算指标、日期范围或警报组件。还可从左侧边栏创建新组件。如果最近更改了组件定义，则“刷新组件”将检索最新定义。 |
@@ -132,7 +132,7 @@ ht-degree: 83%
 
 | 操作 | 描述 |
 |---|---|
-| 添加 | 从头开始或从[模板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hans)创建新项目。 |
+| 添加 | 从头开始创建新项目或从 [报告](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). |
 | 标记或批准 | 选择“标记”或“批准”以组织项目并使其更易于搜索。 |
 | [共享](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans) | 使项目可供您所在组织中的其他 Analysis Workspace 用户使用。 |
 | 删除 | 删除项目。 |
