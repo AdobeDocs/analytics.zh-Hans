@@ -4,18 +4,16 @@ title: 报告活动管理器
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: 646eb5aeefb17ded89a7041df6f6ad927b799f3f
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 100%
+source-wordcount: '954'
+ht-degree: 94%
 
 ---
 
 # 报告活动管理器
 
->[!NOTE]
->
->此功能当前处于测试阶段。
+{{release-limited-testing}}
 
 通过[!UICONTROL 报告活动管理器]，可查看组织中每个报告包的报告容量。 它让管理员详细了解报告消耗，并帮助您轻松地诊断和修复在报告高峰期出现的容量问题。
 
@@ -64,13 +62,13 @@ ht-degree: 100%
 
 ![报告包](/help/admin/admin/assets/indiv-report-ste.png)
 
-### 折线图
+### 折线图 {#line}
 
 折线图显示选定的报告包在过去 2 小时内的报告活动。
 
 * X 轴显示过去 2 小时内的报告容量数据。
-* Y 轴显示查询的平均等待时间（以秒为单位）。
-* 您可以将鼠标悬停在折线图的上方来查看该时刻的时间点和平均等待时间。
+* y轴按分钟显示选定报表包的报表使用容量%。
+* 您可以将鼠标悬停在折线图上，以查看显示的使用容量%将是该分钟的最高%的时间点。
 
    ![详细信息](/help/admin/admin/assets/detail.png)
 
@@ -80,7 +78,7 @@ ht-degree: 100%
 
 ![筛选](/help/admin/admin/assets/filter.png)
 
-### 摘要数字
+### 摘要数字 {#summary}
 
 ![筛选](/help/admin/admin/assets/summary_numbers.png)
 
@@ -96,9 +94,9 @@ ht-degree: 100%
 
 {style="table-layout:auto"}
 
-### 表格
+### 报表包详细信息表 {#details}
 
-下面的详情表显示有关报告包详情。
+下表显示了有关报表包的详细信息。
 
 | 栏目 | 描述 |
 | --- | --- |
@@ -116,7 +114,7 @@ ht-degree: 100%
 
 {style="table-layout:auto"}
 
-## 取消报告请求
+## 取消报告请求 {#cancel}
 
 要取消请求
 
@@ -133,7 +131,7 @@ ht-degree: 100%
 
 ![cancel-user-notice](/help/admin/admin/assets/cancel-user-facing.png)
 
-## 常见问题解答
+## 常见问题解答 {#faq}
 
 | 问题 | 回答 |
 | --- | --- |
