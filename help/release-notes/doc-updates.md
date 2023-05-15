@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 08185446c031582bfea21cb35cbfa365fa8f4239
 workflow-type: tm+mt
 source-wordcount: '4121'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -26,16 +26,16 @@ ht-degree: 95%
 | 功能 | 描述 |
 | --- | --- |
 | **2023 年 5 月** |  |
-| Analysis Workspace 概述 | 已更新 [Analysis Workspace概述](/help/analyze/analysis-workspace/home.md) 以包含更多常规概述信息和相关内容的链接。 |
-| 创建项目 | 创建了一篇新文章，详细说明了如何 [创建项目](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) 在Analysis Workspace。 |
+| Analysis Workspace 概述 | 更新了 [Analysis Workspace 概述](/help/analyze/analysis-workspace/home.md)，包括更多的一般概述信息和相关内容的链接。 |
+| 创建项目 | 创建了一篇新文章，其中详细解释了如何在 Analysis Workspace 中[创建项目](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)。 |
 | 对左边栏中的组件进行排序 | 添加了有关在左边栏中对组件列表进行排序的信息。请参阅 [组件概述](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
 | 从自由格式表中删除包含动态维度的行 | 添加了有关如何使用x图标快速删除包含动态维度的特定行的信息。 请参阅 [过滤和排序表](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
 | 用于在面板中添加可视化的按钮 | 在Analysis Workspace中每个面板底部添加了有关新按钮的信息，通过该按钮可快速添加可视化图表。 请参阅 [可视化概述](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
 | **2023 年 4 月** |  |
-| 转移用户资产并设置帐户过期日期 | 添加了有关如何 [转移用户资产并设置帐户过期日期](/help/admin/admin/user-management2/users-assets.md). |
+| 转移用户资源和设置帐户到期 | 添加了关于如何[转移用户资源和设置帐户到期](/help/admin/admin/user-management2/users-assets.md)的信息。 |
 | 面向 Adobe Analytics 2.0 API 的 2 个新端点指南 | <ul><li>[Analytics 维度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 量度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
 | 项目区段（临时区段和快速区段） | 简化了有关项目区段的文档并删除了重复的信息。创建临时区段的步骤现在与[创建快速区段](/help/analyze/analysis-workspace/components/segments/quick-segments.md)的步骤合并在一起。 |
-| 动态查找 | 有关 [动态查找](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md) 中。 以前，仅存在有关移动设备属性的信息，该属性是多个动态查找之一。 |
+| 动态查找 | 添加了关于[动态查找](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)的其他信息。以前对于移动属性仅存在“信息”，而它仅为若干动态查找之一。 |
 | **2023 年 3 月** |  |
 | Web SDK 对 Activity Map 的支持 | 更新了[实施 Adobe Analytics](/help/implement/home.md) 和[启用 Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)。 |
 | 流量变量 (prop) 概述 | 添加了章节和分步过程以阐明和改善文章内容。合并了标题为“启用流量变量报告”一文的内容并删除了这篇文章。请参阅[流量变量 (prop) 概述](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)。 |
@@ -226,7 +226,7 @@ ht-degree: 95%
 | 2019 年 9 月 12 日 | 更新了[计算量度总计](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=zh-Hans)文档。 |
 | 2019 年 8 月 28 日 | 新增了有关[用于 Analytics 的渐进式 Web 应用程序 (PWA)](/help/technotes/pwa.md) 的文章 |
 | 2019 年 8 月 8 日 | 有关[计算量度合计](/help/components/c-calcmetrics/cm-totals.md)的新文章 |
-| 2019 年 8 月 8 日 | 关于[已启用时间戳的会话数据](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)的说明 | 2019 年 8 月 8 日 | 在工作区中，Adobe将可放置到静态下拉过滤器中的项目限制从50增加到了200。 此增强功能适用于各种用例，例如将所有国家/地区 (195) 添加到过滤器，或将所有美国州和省 (52) 添加到过滤器。 |
+| 2019 年 8 月 8 日 | 关于[已启用时间戳的会话数据](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)的说明 | 2019 年 8 月 8 日 | 在 Workspace 中，Adobe 将可放入静态下拉过滤器的项数限制从 50 提高到 200。此增强功能适用于各种用例，例如将所有国家/地区 (195) 添加到过滤器，或将所有美国州和省 (52) 添加到过滤器。 |
 | 2019 年 8 月 2 日 | [Analytics 词汇表](/help/technotes/terms.md)的主要更新 |
 | 2019 年 7 月 22 日 | 将“Magento：营销和商务”模板添加到 [Analysis Workspace 模板](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)文档。 |
 | 2019 年 7 月 18 日 | 更新了[同类群组表格设置](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。 |
