@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics 技术说明
 breadcrumb-title: 技术说明
 user-guide-description: 浏览一个知识库，其中包含不属于特定 Analytics 工具或组件的有用文章。
-source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
-workflow-type: ht
-source-wordcount: '204'
+source-git-commit: d53b13e6f67c8a769f5e56ba1c2582450a16c920
+workflow-type: tm+mt
+source-wordcount: '207'
 ht-degree: 100%
 
 ---
@@ -44,6 +44,7 @@ ht-degree: 100%
 + [数据保留](data-retention.md)
 + [排除数据](exclude-data.md)
 + [Adobe Analytics 使用的 IP 和域](ip-addresses.md)
++ [改进的 IP 到地理位置映射](ip-geo-mapping.md)
 + [延迟](latency.md)
 + [低流量值](low-traffic.md)
 + [将 Mobile Services 处理规则迁移到 Adobe Analytics](migrate-mobile.md)
