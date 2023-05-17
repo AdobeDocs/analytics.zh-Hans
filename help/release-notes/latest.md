@@ -3,16 +3,16 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 890742781a59532828003f8ba660043b9f1c73a1
+source-git-commit: 6fe32c13ecd6f15aae9d0d42789c263da6463fce
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1389'
 ht-degree: 87%
 
 ---
 
 # 当前 Adobe Analytics 发行说明（2023 年 5 月）
 
-**上次更新日期**：2023 年 5 月 11 日
+**上次更新日期**：2023 年 5 月 17 日
 
 Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
@@ -26,7 +26,7 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 | **为 Analysis Workspace 中的组件排序** | 在 Analysis Workspace 中的左边栏或数据词典中查看组件时，现在有一个新的排序选项可用。可按“推荐”（最常用的那些组件）、“字母顺序”或“分类”（类型）为组件排序。<p>而以前只能搜索或过滤组件。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=zh-Hans)</p> | 不适用 | 2023 年 5 月 17 日 |
 | **从自由格式表中删除包含动态维度的行** | 现在可在 Analysis Workspace 的自由格式表中使用 x 图标快速地删除包含动态维度的特定行。这样做时自动应用“不等于”过滤规则。<p>而以前只有在“过滤器”对话框中手动创建规则才能删除包含动态维度的行。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html?lang=zh-Hans)</p> | 不适用 | 2023 年 5 月 17 日 |
 | **在面板中新增一个用于添加可视化效果的按钮** | Analysis Workspace 中每个面板的底部现在都有一个新按钮，通过它，可快速地添加可视化效果。 <p>而以前只有从左边栏拖动可视化效果、重复或复制现有的可视化效果或创建空白面板才能将可视化效果添加到面板。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=en#add-visualizations-to-a-panel)</p> | 不适用 | 2023 年 5 月 17 日 |
-| **深层链接（移动应用程序）** | 使用户可发送记分卡的链接，而这些链接将引导用户直接进入应用程序中的记分卡项目。这样使得可更轻松地从不太熟悉技术的受众共享项目和提高参与度。 | 待定 | 待定 |
+| **深层链接（移动应用程序）** | 使用户可发送记分卡的链接，而这些链接将引导用户直接进入应用程序中的记分卡项目。这样使得可更轻松地从不太熟悉技术的受众共享项目和提高参与度。 | 不适用 | 2023 年 5 月 17 日 |
 
 {style="table-layout:auto"}
 

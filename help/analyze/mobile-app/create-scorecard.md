@@ -1,27 +1,27 @@
 ---
-description: 如何创建 Adobe Analytics 功能板记分卡
-title: 创建移动记分卡
+description: 如何创建和共享Adobe Analytics功能板记分卡
+title: 创建和共享移动记分卡
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 8707bde9ddda96ab63a916bda9dfb35e8b9b1063
-workflow-type: ht
-source-wordcount: '2353'
-ht-degree: 100%
+source-git-commit: 455b206ea145a3364d20048041976a1472c8abd7
+workflow-type: tm+mt
+source-wordcount: '2513'
+ht-degree: 82%
 
 ---
 
 # 创建移动记分卡
 
-以下信息指示 Adobe Analytics 数据的策划人如何为执行用户配置和展示移动记分卡。要开始操作，您可以观看 Adobe Analytics 功能板记分卡生成器视频：
+以下信息指示 Adobe Analytics 数据的策划人如何为执行用户配置和展示移动记分卡。要开始使用，您可以查看Adobe Analytics功能板记分卡生成器视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
 
-Adobe Analytics 记分卡以平铺布局为执行用户显示关键数据可视化图表，如下所示：
+Adobe Analytics 记分卡以平铺版面为执行用户显示关键数据可视化图表，如下所示：
 
 ![示例记分卡](assets/intro_scorecard.png)
 
-作为此记分卡的策划人，您可以使用记分卡生成器来配置要在执行用户的记分卡上显示的图块。您还可以配置在点按图块后，如何调整详细视图或细分。记分卡生成器界面如下所示：
+作为此记分卡的策划人，您可以使用记分卡生成器来配置在执行用户的记分卡上显示的图块。 您还可以配置在点按图块后，如何调整详细视图或细分。记分卡生成器界面如下所示：
 
 ![记分卡生成器](assets/scorecard_builder.png)
 
@@ -37,7 +37,7 @@ Adobe Analytics 记分卡以平铺布局为执行用户显示关键数据可视�
 ### 创建新项目 {#create}
 
 1. 打开 Adobe Analytics，然后单击&#x200B;**[!UICONTROL 工作区]**&#x200B;选项卡。
-1. 单击&#x200B;**[!UICONTROL 创建新项目]**&#x200B;并选择&#x200B;**[!UICONTROL 空白移动记分卡]**&#x200B;项目模板。
+1. 单击 **[!UICONTROL 创建项目]** ，然后选择 **[!UICONTROL 空白移动记分卡]** 项目模板。
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 
 ![记分卡模板](assets/new_template.png)
@@ -55,7 +55,7 @@ Adobe Analytics 记分卡以平铺布局为执行用户显示关键数据可视�
 
    ![报告包选择](assets/properties_save.png)
 
-1. 要向记分卡中添加新图块，请将左侧面板中的某个指标拖放到&#x200B;**[!UICONTROL 在此处拖放指标]**&#x200B;区域。您也可以使用类似的工作流程，在两个图块之间插入指标。
+1. 要向记分卡中添加新图块，请将左侧面板中的某个量度拖放到 **[!UICONTROL 将量度拖放到此处]** 区域。 您也可以使用类似的工作流程，在两个图块之间插入指标。
 
    ![添加图块](assets/build_list.png)
 
@@ -74,7 +74,7 @@ Adobe Analytics 记分卡以平铺布局为执行用户显示关键数据可视�
 
 要将区段应用于单个图块，请将左侧面板中的某个区段直接拖放到图块的顶部。
 
-如果要将区段应用于记分卡中的所有图块，请将区段拖放到记分卡的顶部。或者，您也可以通过在日期范围下方的过滤器菜单中选择区段来应用区段。您可以像在 Adobe Analytics Workspace 中一样[为记分卡配置和应用过滤器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hans)。
+如果要将区段应用于记分卡中的所有图块，请将区段拖放到记分卡的顶部。 或者，您也可以通过在日期范围下方的过滤器菜单中选择区段来应用区段。您 [为记分卡配置和应用过滤器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hans) 与在Adobe Analytics Workspace中相同的方式。
 
 ![构建区段以进行过滤](assets/segment_ui.png)
 
@@ -164,7 +164,7 @@ Analytics 功能板提供了四种可视化图表，可让您深入了解维度�
 
 ## 查看和配置图块属性 {#tiles}
 
-在记分卡生成器中单击某个图块时，右侧边栏将显示与该图块及其详细信息幻灯片关联的属性和特征。在此边栏中，可为该图块提供新的&#x200B;**标题**&#x200B;或通过应用区段而配置该图块。
+在记分卡生成器中单击图块时，右侧边栏会显示与该图块及其详细信息幻灯片关联的属性和特征。 在此边栏中，可为该图块提供新的&#x200B;**标题**&#x200B;或通过应用区段而配置该图块。
 
 ![“属性”图块](assets/properties-tile-new.png)
 
@@ -212,7 +212,7 @@ Analytics 功能板提供了四种可视化图表，可让您深入了解维度�
 
 ## 删除组件 {#remove}
 
-同样，要移除应用于整个记分卡的组件，请单击记分卡上图块外的任意位置，然后单击将鼠标悬停在该组件上时显示的 **x** 来移除该组件，如下面的&#x200B;**首次访问**&#x200B;区段所示：
+同样，要删除应用于整个记分卡的组件，请单击记分卡上图块外的任意位置，然后单击 **x** 当您将鼠标悬停在组件上时显示，如下 **首次访问** 区段：
 
 ![Remove_components](assets/new_remove.png)
 
@@ -336,6 +336,25 @@ Analytics 功能板提供了四种可视化图表，可让您深入了解维度�
 
 ![Share_Scorecards](assets/new_share.png)
 
-共享记分卡后，收件人可在其 Analytics 功能板中访问该记分卡。如果您在记分卡生成器中对记分卡进行后续更改，则已共享的记分卡会自动更新以反映这些更改。然后，执行用户在其应用程序中刷新记分卡后，便可看到这些更改。
+共享记分卡后，收件人可在其 Analytics 功能板中访问该记分卡。如果您在记分卡生成器中对记分卡进行后续更改，则共享记分卡中的记分卡会自动更新这些更改。 然后，执行用户在其应用程序中刷新记分卡后，将看到所做的更改。
 
 如果通过添加新组件来更新记分卡，则您可能需要再次共享记分卡（并选中&#x200B;**[!UICONTROL 共享嵌入的组件]**&#x200B;选项），以确保执行用户有权访问这些更改。
+
+### 使用可共享链接共享记分卡
+
+通过使用可共享链接，可以轻松地在电子邮件、文档或文本消息应用程序中共享记分卡。 可共享链接允许收件人在其桌面或功能板移动应用程序上打开记分卡。 可共享的深层链接更便于共享项目并提高与利益相关者的参与度。
+
+使用可共享链接共享记分卡
+
+1. 单击&#x200B;**[!UICONTROL 共享]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 共享记分卡]**。
+
+   ![Share_Scorecards](assets/share-scorecard.png)
+
+1. 复制链接并将其粘贴到电子邮件、文档或IM应用程序中。
+
+   当收件人使用桌面应用程序或浏览器打开链接时，将在工作区中打开移动记分卡项目。
+
+   当收件人在移动设备上打开链接时，评分卡将直接在Analytics功能板应用程序中打开。
+
+   如果收件人尚未下载移动设备应用程序，则会将他们定向到App Store或Google Play应用商店的应用程序列表，以供他们下载。
+
