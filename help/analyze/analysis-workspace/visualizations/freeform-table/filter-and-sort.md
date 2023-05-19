@@ -4,10 +4,10 @@ title: 排序和过滤表格
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
+source-git-commit: 9899b5e0fbdfd5264be9d414477caad38d4550ae
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 77%
+source-wordcount: '825'
+ht-degree: 78%
 
 ---
 
@@ -29,7 +29,7 @@ Analysis Workspace 中的过滤器可帮助您显示最重要的信息。
 
 >[!NOTE]
 >
->如本节所述，排除行时， [!UICONTROL **不等于**] 规则会在 [**[!UICONTROL 高级过滤]**](#apply-a-simple-or-advanced-filter) 对话框。
+>如本节所述，排除行时， [!UICONTROL **始终排除项目**] 规则会在高级过滤器对话框中自动应用。 (您可以通过选择过滤器图标，然后 [**[!UICONTROL 显示高级]**](#apply-a-simple-or-advanced-filter-to-a-table).)
 
 要快速从自由格式表中排除特定行，请执行以下操作：
 
@@ -54,7 +54,7 @@ Analysis Workspace 中的过滤器可帮助您显示最重要的信息。
    | [!UICONTROL **搜索词或短语**] | 指定要按过滤的单词或短语。 仅显示包含指定单词或确切短语的行。 |
    | [!UICONTROL **包括未指定的项（无）**] | 选择此选项可在表中显示不属于表格的任何维度的数据。<!--what is this?--> |
 
-1. （可选）要按不同标准或多个标准进行筛选，请选择 [!UICONTROL **高级过滤**].
+1. （可选）要按不同条件或多个条件筛选，请选择&#x200B;[!UICONTROL **显示高级选项**]。
 
    提供了以下高级过滤器选项：
 
