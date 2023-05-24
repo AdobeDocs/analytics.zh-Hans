@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 50983b3cdc6ee003593eacc5b9a158eae761e4a5
+source-git-commit: 5a555c1e2da1659086c0f244e41894192e592d19
 workflow-type: tm+mt
-source-wordcount: '4163'
-ht-degree: 96%
+source-wordcount: '4191'
+ht-degree: 95%
 
 ---
 
@@ -26,13 +26,14 @@ ht-degree: 96%
 | 功能 | 描述 |
 | --- | --- |
 | **2023 年 5 月** |  |
-| 改进的 IP 到地理位置映射 | 创建了 [常见问题解答](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |
-| 报告活动管理器 | 更新了此测试版文档，特别是 [查看单个报表包的报表活动](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites). |
+| 頻譜圖示 | 適當時，取代檔案中使用者介面圖示的熒幕擷取畫面，並參照中的對等圖示 [Adobe的頻譜設計系統](https://spectrum.adobe.com/page/icons/). |
+| 改进的 IP 到地理位置映射 | 已建立主題 [常見問答](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |
+| 报告活动管理器 | 更新此Beta版檔案，尤其是 [檢視個別報表套裝的報告活動](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites). |
 | Analysis Workspace 概述 | 更新了 [Analysis Workspace 概述](/help/analyze/analysis-workspace/home.md)，包括更多的一般概述信息和相关内容的链接。 |
 | 创建项目 | 创建了一篇新文章，其中详细解释了如何在 Analysis Workspace 中[创建项目](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)。 |
-| 对左边栏中的组件进行排序 | 添加了有关在左边栏中对组件列表进行排序的信息。请参阅 [组件概述](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
-| 从自由格式表中删除包含动态维度的行 | 添加了有关如何使用x图标快速删除包含动态维度的特定行的信息。 请参阅 [过滤和排序表](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
-| 用于在面板中添加可视化的按钮 | 在Analysis Workspace中每个面板底部添加了有关新按钮的信息，通过该按钮可快速添加可视化图表。 请参阅 [可视化概述](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
+| 排序左側邊欄中的元件 | 新增排序左側邊欄中元件清單的相關資訊。請參閱以下主題中的「搜尋、篩選及排序元件清單」一節： [元件概觀](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
+| 从自由格式表中删除包含动态维度的行 | 新增有關如何使用x圖示快速刪除包含動態維度之特定列的資訊。 請參閱中的「快速從表格中排除特定列」一節。 [篩選及排序表格](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
+| 在面板中新增視覺效果的按鈕 | 新增有關Analysis Workspace中每個面板底部新按鈕的資訊，讓您快速新增視覺效果。 請參閱以下的「將視覺效果新增至面板」一節： [視覺效果概觀](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
 | **2023 年 4 月** |  |
 | 转移用户资源和设置帐户到期 | 添加了关于如何[转移用户资源和设置帐户到期](/help/admin/admin/user-management2/users-assets.md)的信息。 |
 | 面向 Adobe Analytics 2.0 API 的 2 个新端点指南 | <ul><li>[Analytics 维度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 量度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
