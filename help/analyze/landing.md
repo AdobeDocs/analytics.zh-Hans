@@ -4,10 +4,10 @@ title: Adobe Analytics 登陆页面
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 54ec253516a6d735f02914887c72ef966ce36862
+source-git-commit: a4af84fffad816ea94b170de0f5d8cbc7dc61a50
 workflow-type: tm+mt
-source-wordcount: '3944'
-ht-degree: 100%
+source-wordcount: '3952'
+ht-degree: 99%
 
 ---
 
@@ -195,11 +195,11 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 
 ### 管理公司报告 {#manage-company-reports}
 
-管理员可以过滤项目列表以显示和管理公司报告。已固定的项目保持固定状态，后跟由 ![报告图标](assets/report-icon.png) 报告图标标识的公司报告的列表。在此视图中，您可以删除、重命名、标记或审批一个或多个报告。
+管理员可以过滤项目列表以显示和管理公司报告。已固定的项目保持固定状态，后跟由 ![报告图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg) 报告图标标识的公司报告的列表。在此视图中，您可以删除、重命名、标记或审批一个或多个报告。
 
 显示和管理公司报告
 
-1. 在过滤器边栏中，选择&#x200B;**其他过滤器**，然后选择&#x200B;**公司报告**。显示公司报告的列表。不会显示所有常规项目（除非已固定）。
+1. 在过滤器边栏中，选择&#x200B;**其他过滤器**，然后选择&#x200B;**公司报告**。显示公司报告的列表。除非已釘選，否則不會顯示所有一般專案。
 
    ![显示公司报告过滤器](assets/company-reports-filter.png)
 

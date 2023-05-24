@@ -3,10 +3,10 @@ description: 区段生成器提供了一个画布以将指标维度、区段和�
 title: 生成区段
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '2046'
-ht-degree: 100%
+source-wordcount: '2054'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 * **Analytics 顶部导航**：单击 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 区段]**。
 * **[!UICONTROL Analysis Workspace]**：单击 **[!UICONTROL Analytics]** > **[!UICONTROL 工作区]**，打开一个项目，然后单击 **[!UICONTROL + 新建]** > **[!UICONTROL 创建区段]**。
-* **[!UICONTROL Reports &amp; Analytics]**：单击 **[!UICONTROL Analytics]** > **[!UICONTROL 报表]**，打开一个现有报表并单击左侧导航中的“区段”图标 ![](assets/segment_icon.png)，然后单击&#x200B;**[!UICONTROL 添加]**。
+* **[!UICONTROL Reports &amp; Analytics]**：单击 **[!UICONTROL Analytics]** > **[!UICONTROL 报表]**，打开一个现有报表并单击左侧导航中的“区段”图标 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)，然后单击&#x200B;**[!UICONTROL 添加]**。
 * **[!UICONTROL Report Builder]**：[在 Report Builder 中添加或编辑区段](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html?lang=zh-Hans)。
 
 ## 生成器条件 {#section_F61C4268A5974C788629399ADE1E6E7C}

@@ -4,10 +4,10 @@ title: 编辑数据词典中的条目
 feature: Components
 role: Admin
 exl-id: 4f15cad2-596e-41c3-89aa-4456d8e94fa0
-source-git-commit: 631f84794203cb0a1154d68149c9d64d7247ecd3
+source-git-commit: a6805f0944570bee265d5db9a159ae24e0694837
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 70%
+source-wordcount: '375'
+ht-degree: 58%
 
 ---
 
@@ -29,20 +29,20 @@ Analytics 管理员可以为给定的报告包编辑数据词典中的组件条�
 
 1. （可选）在搜索字段中，开始键入要编辑的组件的名称。
 
-   组件类型可通过颜色和图标进行标识。 **Dimension** ![Dimension图标](assets/dimension-icon.png) 橙色， **区段** ![区段图标](assets/segment-icon.png) 是蓝色的， **日期范围** ![日期范围图标](assets/date-range-icon.png) 是紫色的， **量度** ![“量度”图标](assets/default-metric-icon.png) 为绿色。 Adobe图标 ![Adobe图标](assets/default-calc-metric-icon.png) 指示计算量度模板或区段模板以及计算器图标 ![计算器图标](assets/calculated-metric-icon-created.png) 指示了由您组织中的Analytics管理员创建的计算量度。
+   元件型別可由顏色和圖示識別。 **Dimension** ![Dimension圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) 是橙色， **區段** ![「區段」圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) 是藍色的， **日期範圍** ![日期範圍圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) 是紫色的，並且 **量度** ![量度圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) 是綠色的。 Adobe圖示會指出計算量度範本或區段範本，以及計算器圖示 ![計算器圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) 表示貴組織中Analytics管理員建立的計算量度。
 
 {{dd-filter-criteria}}
 
-1. （可选）选择 **排序** 图标 ![对组件排序图标](assets/component-sort-icon.png)，然后选择以下任意过滤器选项以对组件列表进行排序：
+1. （可選）選取 **排序** 圖示 ![排序元件圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)，然後選取下列任一篩選選項來排序元件清單：
 
    {{components-sort-options}}
 
 1. 从组件列表中，选择要编辑的组件。
 
-1. 选择组件名称旁边的&#x200B;**编辑**&#x200B;图标，即![“数据词典编辑”图标](assets/data-dictionary-edit-icon.png)。
+1. 选择组件名称旁边的&#x200B;**编辑**&#x200B;图标，即![“数据词典编辑”图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg)。
 
 1. 编辑有关组件的以下任何信息：
 
    {{dd-component-information}}
 
-1. 单击&#x200B;**保存**&#x200B;图标，即![“数据词典保存”图标](assets/data-dictionary-save-icon.png)来保存您的更改。
+1. 单击&#x200B;**保存**&#x200B;图标，即![“数据词典保存”图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SaveFloppy_18_N.svg)来保存您的更改。

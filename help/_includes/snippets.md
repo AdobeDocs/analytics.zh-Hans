@@ -1,7 +1,7 @@
 ---
-source-git-commit: 94765bfa306240fb02d2ea788234cc0043c65d8f
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1040'
 ht-degree: 94%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 94%
 
 ## 数据词典过滤条件 {#dd-filter-criteria}
 
-1. （可选）选择&#x200B;**过滤**&#x200B;图标![，即“数据词典过滤”图标](/help/analyze/analysis-workspace/components/data-dictionary/assets/data-dictionary-filter-icon.png)，然后选择以下任一过滤器选项过滤组件列表：
+1. （可选）选择&#x200B;**过滤**&#x200B;图标![，即“数据词典过滤”图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)，然后选择以下任一过滤器选项过滤组件列表：
 
    | 选项 | 函数 |
    |---------|----------|
@@ -51,13 +51,13 @@ ht-degree: 94%
 
 {style="table-layout:auto"}
 
-## 组件排序选项 {#components-sort-options}
+## 元件排序選項 {#components-sort-options}
 
 | 选项 | 函数 |
 |---------|----------|
-| [!UICONTROL **建议**] | 使用列表顶部推荐的组件对组件进行排序。 您或组织中的其他人员最常使用、最近使用的组件在列表中显示得更高。 |
-| [!UICONTROL **按字母顺序**] | 按字母顺序对组件进行排序。 |
-| [!UICONTROL **类别**] | 按组件类型（维度、量度、区段、日期范围）对组件进行排序。 |
+| [!UICONTROL **建议**] | 將元件與建議置於清單頂端的元件進行排序。 您或組織中其他人最常使用且最近使用的元件，會在清單中顯示在較高位置。 |
+| [!UICONTROL **按字母顺序**] | 依字母順序排序元件。 |
+| [!UICONTROL **類別**] | 根據元件型別（維度、量度、區段、日期範圍）來排序元件。 |
 
 {style="table-layout:auto"}
 

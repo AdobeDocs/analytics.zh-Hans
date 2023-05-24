@@ -5,10 +5,10 @@ role: User, Admin
 solution: Analytics
 feature: Components
 exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
-source-git-commit: 383a38e90cacf31ae92122b9e96845e5cd2950b6
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 100%
+source-wordcount: '375'
+ht-degree: 93%
 
 ---
 
@@ -41,9 +41,9 @@ ht-degree: 100%
 
 ![](assets/view-annotations.png)
 
-当批注图标可见时，您无法在生成器画布中完全查看批注或与之交互。使用预览模式查看应用程序中出现的批注并与之交互。![](assets/preview-icon.png)
+当批注图标可见时，您无法在生成器画布中完全查看批注或与之交互。使用「預覽」模式，可在註解顯示於應用程式時檢視及互動 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **預覽**.
 
-在工作区中创建批注时选择批注颜色。灰色批注表示存在多个批注。![](assets/gray-annotations1.png) ![](assets/gray-annotations2.png)
+在工作区中创建批注时选择批注颜色。灰色批注表示存在多个批注。 
 
 ## 查看图表批注
 

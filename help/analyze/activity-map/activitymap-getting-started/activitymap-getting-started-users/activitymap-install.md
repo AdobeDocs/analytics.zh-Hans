@@ -5,10 +5,10 @@ uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 feature: Activity Map
 role: User, Admin
 exl-id: ceec1c10-57e7-462f-8f78-9ed86c938563
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: a4af84fffad816ea94b170de0f5d8cbc7dc61a50
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -35,7 +35,7 @@ Activity Map 浏览器插件：
 1. 返回 Chrome 的地址栏并输入 `chrome://extensions`。
 1. 选中“开发者模式”复选框。
 1. 单击“加载已解压的扩展程序”，然后从弹出式窗口中选择已解压的文件夹。
-1. 如果您看到工具栏上新增了 Adobe Analytics 图标 ![](assets/an_icon.png){width="70px"}，则表示已成功下载。您现在可以从您的页面[启动 Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)。
+1. 如果看到工具列中新增加一個Adobe Analytics圖示，表示下載成功。 <br/><img src="./assets/an_icon.png" width="150px"/><br/>您现在可以从您的页面[启动 Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)。
 
 ## 在 Firefox 上安装 Activity Map 插件 {#section_1F69D3D22DB34D6992747B1A62C1D2DA}
 
@@ -47,7 +47,7 @@ Activity Map 浏览器插件：
 1. 单击&#x200B;**[!UICONTROL 立即安装]**。
 1. 单击右上方的&#x200B;**[!UICONTROL 打开菜单]**&#x200B;图标，然后选择&#x200B;**[!UICONTROL 附加组件]**。![](assets/firefox_install3.png){width="250px"}
 1. Activity Map 应该被列为 Firefox 的附加组件之一。
-1. 如果您看到工具栏上新增了 Adobe Analytics 图标 ![](assets/an_icon.png)，则表示已成功下载。您现在可以从您的页面[启动 Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)。
+1. 如果看到工具列中新增加一個Adobe Analytics圖示，表示下載成功。 <br/><img src="./assets/an_icon.png" width="150px"/><br/>您现在可以从您的页面[启动 Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)。
 
 ## 在 Internet Explorer 上安装 Activity Map 插件 {#section_1A33705D7F784C4A88C9026ADC860FB8}
 

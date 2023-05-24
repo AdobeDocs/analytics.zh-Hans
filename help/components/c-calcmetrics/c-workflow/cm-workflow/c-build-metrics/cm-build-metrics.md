@@ -3,10 +3,10 @@ description: 计算指标生成器提供了一个画布，用于拖放维度、�
 title: 生成指标
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 100%
+source-wordcount: '972'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 * 单击&#x200B;**[!UICONTROL 计算指标管理器]**&#x200B;顶部的 [+ 添加](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)，或者
 
-* 转到 **[!UICONTROL Analytics]** > **[!UICONTROL 报表]**，打开任意报表并单击“指标”图标 ![](assets/metrics_icon.png) 以调出“指标”边栏，然后单击&#x200B;**[!UICONTROL 添加]**。
+* 前往 **[!UICONTROL 分析]** > **[!UICONTROL 報表]**，開啟任一報表並按一下「量度」圖示  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) 以開啟「量度」邊欄，然後按一下 **[!UICONTROL 新增]**.
 
 ![](assets/cm_builder_ui.png)
 
@@ -67,7 +67,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 摘要 </span> </td> 
-   <td colname="col3"> <p>无论您何时对指标定义进行更改，<span class="uicontrol">摘要</span>公式都会随之发生更新。当您将光标悬停在指标上方并单击 <img placement="inline"  src="assets/i_icon.png" id="image_BDA0EAF89C19440CB02AE248BA3F968E" /> 图标时，此公式还会显示在左侧的指标边栏中。 </p> </td> 
+   <td colname="col3"> <p>无论您何时对指标定义进行更改，<span class="uicontrol">摘要</span>公式都会随之发生更新。当您将光标悬停在指标上方并单击 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" id="image_BDA0EAF89C19440CB02AE248BA3F968E" /> 图标时，此公式还会显示在左侧的指标边栏中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 定义 </span> </td> 
@@ -79,7 +79,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 运算符 </span> </td> 
-   <td colname="col3"> <p>默认运算符是除以 (<img placement="inline"  src="assets/divided_icon.png" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" />)，还有 +、- 和 x 运算符。 </p> </td> 
+   <td colname="col3"> <p>默认运算符是除以 (<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" />)，还有 +、- 和 x 运算符。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 预览 </span> </td> 

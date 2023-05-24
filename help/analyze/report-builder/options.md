@@ -5,10 +5,10 @@ uuid: f2920dee-4245-4617-a02e-03726dde2bb5
 feature: Report Builder
 role: User, Admin
 exl-id: d3388990-7919-461d-a96e-4c996b8bdb8b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 100%
+source-wordcount: '493'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 在“选项”面板中，您可以指定日期设置、延迟设置（“当前数据”）和日志信息，还可以配置更新。
 
-1. 在“加载项”工具栏中，单击&#x200B;**[!UICONTROL 选项]** ![](assets/options_icon.png)：
+1. 在「增益集」工具列中，按一下 **[!UICONTROL 選項]** ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)：
 
 | 元素 | 描述 |
 |--- |--- |

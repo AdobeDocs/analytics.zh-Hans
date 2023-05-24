@@ -3,10 +3,10 @@ description: 按照标记、所有者和其他过滤器（全部显示、我的�
 title: 过滤区段
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 100%
+source-wordcount: '162'
+ht-degree: 95%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 过滤功能使得在区段边栏中搜索区段变得更加容易。
 
-1. 在区段管理器中，单击&#x200B;**[!UICONTROL 过滤器]**&#x200B;图标：![](assets/filter_icon.png)
+1. 在区段管理器中，单击&#x200B;**[!UICONTROL 过滤器]**&#x200B;图标：![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
    ![](assets/filtering.png)
 
-1. 可用过滤器如下：
+2. 可用过滤器如下：
 
    | 过滤器名称 | 描述 |
    |---|---|

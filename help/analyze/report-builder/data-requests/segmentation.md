@@ -4,10 +4,10 @@ title: 管理区段 (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 100%
+source-wordcount: '922'
+ht-degree: 98%
 
 ---
 
@@ -86,18 +86,18 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 
 通过添加区段控件，您可以从工作簿中切换区段，而不必转至“请求向导”。
 
-1. 单击区段下拉列表旁边的“控件”图标 (![](assets/control_icon.png))。
+1. 按一下控制項圖示 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) 「區段」下拉式清單旁。
 
    ![](assets/seg_control.png)
 
-1. 选中要在区段控件中显示的所有区段，或者选中&#x200B;**[!UICONTROL 全选]**。
-1. 请注意&#x200B;**[!UICONTROL 根据项目选择自动刷新链接的请求]**&#x200B;选项。
+2. 选中要在区段控件中显示的所有区段，或者选中&#x200B;**[!UICONTROL 全选]**。
+3. 请注意&#x200B;**[!UICONTROL 根据项目选择自动刷新链接的请求]**&#x200B;选项。
 
    * 如果选中，则会刷新使用此控件的所有请求。
    * 如果不选中，则会更新关联的请求参数，而不会刷新请求。
 
-1. 指定区段控件的左上角单元格位置。
-1. 单击&#x200B;**[!UICONTROL 确定]**，此时区段控件便会出现在指定的位置。
+4. 指定区段控件的左上角单元格位置。
+5. 单击&#x200B;**[!UICONTROL 确定]**，此时区段控件便会出现在指定的位置。
 
    ![](assets/seg_control2.png)
 

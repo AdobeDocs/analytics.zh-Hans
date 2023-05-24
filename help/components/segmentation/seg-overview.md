@@ -3,10 +3,10 @@ description: 通过区段，可根据特性或网站交互标识访客的子集�
 title: 关于区段
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 14c5acb9dbd46fac3dc2465c1200b478853270e9
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 100%
+source-wordcount: '1189'
+ht-degree: 98%
 
 ---
 
@@ -86,9 +86,9 @@ Analysis Workspace 包含以下附加功能：
 
 您可以通过以下方法访问区段生成器：
 
-* 显示一个现有报表，然后单击左侧导航中的“区段”图标 ![ “区段”图标 ](assets/segment_icon.png)。在显示的区段边栏中，单击&#x200B;**[!UICONTROL 添加]**，或者
+* 显示一个现有报表，然后单击左侧导航中的“区段”图标 ![ “区段”图标 ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)。在显示的区段边栏中，单击&#x200B;**[!UICONTROL 添加]**，或者
 
-* 单击区段管理器顶部的 **[!UICONTROL + 添加]**。![“添加”按钮](assets/add_button.png)
+* 单击区段管理器顶部的 **[!UICONTROL + 添加]**。![“添加”按钮](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)
 
    或
 
