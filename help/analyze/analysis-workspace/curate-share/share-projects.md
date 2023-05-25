@@ -5,9 +5,9 @@ title: 共享项目
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 3a9dc661ce9243174bef45e689366baa58cf45b3
+source-git-commit: d3e560df22f487a2dfabd65d07de5609c0665918
 workflow-type: tm+mt
-source-wordcount: '1813'
+source-wordcount: '1816'
 ht-degree: 53%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 53%
 
 * 组织外部的人员
 
-* 未使用Adobe Analytics进行配置的组织内部人员
+* 您组织内无权访问Adobe Analytics的人员
 
 >[!NOTE]
 >
@@ -123,7 +123,7 @@ ht-degree: 53%
 >
 >* 扩展的可视化图表超过50个的项目不能与无法访问Adobe Analytics的人共享。
 >
->* 与您共享的用户可以查看以下期间应用于项目的任何过滤器： [策划](curate.md).
+>* 您与其共享项目的用户可以查看以下期间应用于项目的任何过滤器： [策划](curate.md).
 > 
 >* 与您共享的用户可以更改项目日期范围。 默认情况下，将显示您为项目设置的日期范围。
 >
