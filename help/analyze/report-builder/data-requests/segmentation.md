@@ -4,10 +4,10 @@ title: 管理区段 (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
+source-git-commit: 644e2d10eac226a35705351608161fe494efe113
 workflow-type: tm+mt
-source-wordcount: '938'
-ht-degree: 92%
+source-wordcount: '948'
+ht-degree: 91%
 
 ---
 
@@ -68,7 +68,7 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 
 ## 过滤区段 {#section_376E986D3E684999A7CDB08E53854159}
 
-通过单击“过滤器”图标 **，可以**&#x200B;过滤![](assets/segment_filter.png)区段。
+**筛选条件** 通过单击“过滤器”图标，可访问区段：  ![过滤器图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
 可用的过滤器包括：
 
