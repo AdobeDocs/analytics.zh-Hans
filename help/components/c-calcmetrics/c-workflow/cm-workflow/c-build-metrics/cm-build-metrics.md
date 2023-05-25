@@ -1,31 +1,28 @@
 ---
 description: 计算指标生成器提供了一个画布，用于拖放维度、指标、区段和函数，以基于容器层次结构逻辑、规则和运算符创建自定义指标。通过这个集成的开发工具，可生成并保存简单的计算指标或复杂的高级计算指标。
-title: 生成指标
+title: 生成量度
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: c64b4199d93443b14e2012459a4d33fdd847eca1
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 97%
+source-wordcount: '962'
+ht-degree: 90%
 
 ---
 
-# 生成指标
+# 生成量度
 
-计算指标生成器提供了一个画布，用于拖放维度、指标、区段和函数，以基于容器层次结构逻辑、规则和运算符创建自定义指标。通过这个集成的开发工具，可生成并保存简单的计算指标或复杂的高级计算指标。
+Adobe Analytics提供了一个画布以将维度、量度、区段和函数拖放到其中，从而根据容器层次结构逻辑、规则和运算符创建自定义量度。 通过这种集成式开发工具，您可以生成并保存简单或复杂的计算量度。
 
-可通过以下几种方式访问计算指标生成器：
+您可以通过以下任意方式开始创建计算量度：
 
-* 在 Analysis Workspace 中，打开一个项目然后单击 **[!UICONTROL + 新建]** > **[!UICONTROL 创建指标]**。
-* 在 [!DNL Analytics] 中，转到&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 计算指标]**。
-
-* 单击&#x200B;**[!UICONTROL 计算指标管理器]**&#x200B;顶部的 [+ 添加](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)，或者
-
-* 前往 **[!UICONTROL 分析]** > **[!UICONTROL 報表]**，開啟任一報表並按一下「量度」圖示  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) 以開啟「量度」邊欄，然後按一下 **[!UICONTROL 新增]**.
+* 在Analysis Workspace中，打开一个项目，然后选择 **[!UICONTROL 组件]** > **[!UICONTROL 创建量度]**.
+* 在Analysis Workspace中，打开一个项目，然后选择 **加号** 图标 [!UICONTROL **量度**] 部分。
+* In [!DNL Analytics]，转到 **[!UICONTROL 组件]** > **[!UICONTROL 计算量度]**，然后选择 **[!UICONTROL +添加]** “计算量度”页面的顶部。
 
 ![](assets/cm_builder_ui.png)
 
-## UI 组件 {#section_9382AEEBA4244DD6A9F6C1DD3F6D076B}
+## 可用字段和区域 {#section_9382AEEBA4244DD6A9F6C1DD3F6D076B}
 
 <table id="table_60A82936321047D1A335331BF83B0972"> 
  <thead> 

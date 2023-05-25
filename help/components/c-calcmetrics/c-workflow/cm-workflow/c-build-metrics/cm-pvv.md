@@ -3,32 +3,34 @@ description: 显示如何生成简单的“每次访问页面查看次数”量�
 title: 构建简单的“每次访问的页面查看次数”量度
 feature: Calculated Metrics
 exl-id: 2d1c4677-b07c-4eca-97b7-e5e4594daee1
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 100%
+source-wordcount: '246'
+ht-degree: 54%
 
 ---
 
 # 构建简单的“每次访问的页面查看次数”量度
 
-显示如何生成简单的“每次访问页面查看次数”量度。
+以下信息介绍了如何创建简单的“每次访问的页面查看次数”量度。
 
-有关 UI 组件的详细描述，请参阅[生成量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)。
+有关UI组件的详细说明，请参阅 [生成量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
-下面说明了如何生成简单的“每次访问页面查看次数”量度。
+要构建简单的“每次访问的页面查看次数”量度，请执行以下操作：
 
-1. 导航至计算量度生成器。
+1. 开始构建量度，如中所述 [生成量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 1. 为量度指定“每次访问页面查看次数”或类似的名称。
 1. 为量度提供用户友好的&#x200B;**[!UICONTROL 描述]**，以显示其用途。
-1. 选择正确的&#x200B;**[!UICONTROL 格式]**，在此例中，选择“小数”。
+1. 选择右侧 **[!UICONTROL 格式]**. 对于此示例，请选择 [!UICONTROL **小数**].
 1. 确定您希望报表显示多少个小数位。
-1. 设置量度极性。对于此量度，上升趋势是有利的（绿色）。
+1. 在 [!UICONTROL **将上升趋势显示为**] 下拉菜单，选择 [!UICONTROL **良好（绿色）**].
 1. 添加&#x200B;**[!UICONTROL 标记]**&#x200B;以组织您的量度。
-1. 对于此量度，首先将“页面查看次数”拖到画布中，然后再将“访问次数”拖到下方（等到出现蓝线时再放下它）。
+1. 对于此量度，首先将“页面查看次数”拖入 [!UICONTROL **定义**] 区域的所有内容，然后将“访问次数”拖动到其下方（等到蓝线出现后再放置）。
 1. 选择“除以”运算符。（“除以”是默认的运算符。）
 1. 现在，当您生成量度时，即可在右上角看到该量度的&#x200B;**[!UICONTROL 预览]**。
 1. 产品兼容性显示该量度是与“[当前数据](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=zh-Hans)”兼容，还是仅与“完全处理数据”兼容。
-1. 单击&#x200B;**[!UICONTROL 保存]**。
-1. 请注意，无论您何时对量度定义进行更改，**[!UICONTROL 概要]**&#x200B;公式都会随之发生更新。
-1. 此时您会自动转到[计算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)，它类似于区段管理器。它允许您共享、批准、（重新）标记、重命名或删除量度。
+1. 选择&#x200B;**[!UICONTROL 保存]**。
+
+   请注意，无论您何时对量度定义进行更改，**[!UICONTROL 概要]**&#x200B;公式都会随之发生更新。
+
+1. （可选）要共享、批准、（重新）标记、重命名或删除指标，您可以转到 [“计算量度”页面](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md).

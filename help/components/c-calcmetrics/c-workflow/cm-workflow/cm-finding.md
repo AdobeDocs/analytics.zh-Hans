@@ -3,63 +3,15 @@ description: 描述用于查找量度的两种主要方式：排序和过滤。
 title: 查找量度
 feature: Calculated Metrics
 exl-id: 532e9ebb-91c7-4b29-afc5-afb99e00219b
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 82%
+source-wordcount: '66'
+ht-degree: 24%
 
 ---
 
 # 查找量度
 
-描述用于查找量度的两种主要方式：排序和过滤。
+您可以在Analysis Workspace中查找量度，其方式与查找其他类型的组件相同。
 
-## 排序 {#section_89F9C4D515084F5796F2A54D468BF6C8}
-
-開啟報表並按一下「量度」圖示時  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg))以顯示「量度」邊欄， **[!UICONTROL 排序方式]** 量度選擇器中的下拉式清單會顯示四個排序選項：
-
-![](assets/cm_sort.png)
-
-| 选项 | 何时使用 |
-|---|---|
-| 按字母顺序 | 当您知道名称时，此选项非常有用。 |
-| 建议 | 报表中的常用量度 - 它由后端从用户经常在此报表中使用的量度收集而来。 |
-| 经常使用 | 当您是新用户并需要查看报表中经常使用的量度时，此选项非常有用。 |
-| 最近使用 | 当您正在处理项目且反复使用相同的量度集时，此选项非常有用。 |
-
-## 过滤 - 高级选择 {#section_33818CC048C04F098703AC229693F8CA}
-
-当您打开报表时，单击“量度”图标，然后单击&#x200B;**[!UICONTROL 管理]**。现在，单击“过滤器”图标。您可以通过多种方式进行过滤。
-
-![](assets/cm_advanced_sel.png)
-
-<table id="table_269081BC9DF54FFDA4E949FFC7488F42"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 如果您希望 </th> 
-   <th colname="col2" class="entry"> 则按以下方式排序 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 显示该报表包中的所有量度 </td> 
-   <td colname="col2"><span class="ignoretag"><span class="uicontrol"> 其他过滤器</span> &gt; <span class="uicontrol">显示所有</span></span> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 仅显示您拥有的量度 </td> 
-   <td colname="col2"><span class="uicontrol"> 其他过滤器</span> &gt; <span class="uicontrol">我的</span> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 显示他人与我共享的量度 </td> 
-   <td colname="col2"><span class="uicontrol">所有者</span>或 <p><span class="uicontrol"> 其他过滤器</span> &gt; <span class="uicontrol">与我共享</span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 仅显示已获公司批准的量度 </td> 
-   <td colname="col2"><span class="uicontrol"> 已批准</span> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 过滤您正在处理的项目的量度 </td> 
-   <td colname="col2"><span class="uicontrol">标记</span>之一 </td> 
-  </tr> 
- </tbody> 
-</table>
+有关如何快速定位组件的信息，请参阅 [搜索、筛选和排序组件列表](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=en#search%2C-filter%2C-and-sort-the-component-list) 在 [组件概述](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).

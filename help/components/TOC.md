@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算指标、虚拟报表包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: 41154580c272514e504c5478215bb67795488de3
+source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 95%
+source-wordcount: '695'
+ht-degree: 92%
 
 ---
 
@@ -112,7 +112,7 @@ ht-degree: 95%
    + [每次访问的平均页面查看次数](metrics/average-page-views-per-visit.md)
    + [平均会话时长](metrics/average-session-length.md)
    + [网站平均逗留时间](metrics/average-time-on-site.md)
-   + [机器人发生次数](metrics/bot-occurrences.md)
+   + [机器人出现次数](metrics/bot-occurrences.md)
    + [机器人页面查看次数](metrics/bot-page-views.md)
    + [跳出率](metrics/bounce-rate.md)
    + [跳出次数](metrics/bounces.md)
@@ -185,15 +185,15 @@ ht-degree: 95%
    + 计算指标工作流程 {#calcmetric-workflow}
       + [计算指标工作流程](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [查找度量](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
-      + [生成度量](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+      + [生成量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+      + [构建“每次访问的页面查看次数”量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [构建“订单辅助”量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [构建“参与率”量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [度量类型和归因](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-      + [构建简单的“每次访问的页面查看次数”指标](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [分段指标](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [堆叠和替换区段](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
-      + [过滤和加权指标](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
-      + [订购协助指标](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [过滤和加权度量](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
       + [使用函数](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
-      + [参与率度量](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [标记计算度量](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
       + [批准计算度量](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [共享计算度量](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
@@ -269,7 +269,7 @@ ht-degree: 95%
    + [配置实时报表](c-real-time-reporting/t-realtime-admin.md)
    + [受支持的实时指标和维度](c-real-time-reporting/realtime-metrics.md)
 + 营销渠道 {#marketing-channels}
-   + [营销渠道快速入门](c-marketing-channels/c-getting-started-mchannel.md)
+   + [营销渠道入门](c-marketing-channels/c-getting-started-mchannel.md)
    + [Attribution IQ 和营销渠道](c-marketing-channels/mchannel-best-practices.md)
    + [分析营销渠道](c-marketing-channels/analyze-mc.md)
    + [营销渠道权限](c-marketing-channels/c-channel-report-access.md)
