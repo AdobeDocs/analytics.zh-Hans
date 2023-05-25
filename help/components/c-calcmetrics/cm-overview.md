@@ -4,14 +4,14 @@ keywords: 计算指标;派生指标;高级计算指标
 title: 计算指标和高级计算（派生）指标
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
-# 计算指标和高级计算（派生）指标
+# 计算量度和高级计算（派生）量度
 
 计算指标和高级计算（或派生）指标是指您可以从现有指标创建的自定义指标。
 
@@ -44,11 +44,11 @@ ht-degree: 100%
    >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
 
 * 在报表包之间共享指标。这表示所有新创建的指标都适用于同一登录公司中的所有报表包。
-* （仅限高级计算指标）指标上的区段。例如，您可以为“新访客”创建一个量度，其中包含首次进行会话的人员计数。 以下是一段关于该主题的视频：
+* （仅限高级计算指标）指标上的区段。 例如，您可以为“新访客”创建一个量度，其中包含首次进行会话的人员计数。 以下是一段关于该主题的视频：
 
    >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12)
 
-* （仅限高级计算指标）包含统计函数，以帮助您更好地描述数据。例如，您可以对报表中的项目数量进行计数，或为每个项目加入标准偏差数。
+* （仅限高级计算指标）包含统计函数以帮助您更好地描述数据。 例如，您可以对报表中的项目数量进行计数，或为每个项目加入标准偏差数。
 
 ## 限制 {#section_CB878B02451541D68A68B508D4DBD19A}
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 ## 工具 {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-以下是[!UICONTROL 计算指标]工具的简短概述：
+以下是 [!UICONTROL 计算量度] 工具：
 
 <table id="table_520AFE97DB514958ABE23FD3C9CE0ABD"> 
  <thead> 

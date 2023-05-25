@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算指标、虚拟报表包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 92%
+ht-degree: 90%
 
 ---
 
@@ -180,16 +180,16 @@ ht-degree: 92%
    + [有关管理旧版区段的常见问题解答 ](segmentation/seg-transition.md)
    + [优秀实践](segmentation/best-practices.md)
 + 计算指标 {#calculated-metrics}
-   + [计算指标和高级计算（派生）指标](c-calcmetrics/cm-overview.md)
+   + [计算量度和高级计算（派生）量度](c-calcmetrics/cm-overview.md)
    + [操作方法视频](c-calcmetrics/cm-videos.md)
-   + 计算指标工作流程 {#calcmetric-workflow}
-      + [计算指标工作流程](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
+   + 计算度量工作流程 {#calcmetric-workflow}
+      + [计算度量工作流程](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [查找度量](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [生成量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
       + [构建“每次访问的页面查看次数”量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [构建“订单辅助”量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [构建“参与率”量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
-      + [度量类型和归因](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
+      + [量度类型和归因](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [分段指标](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [堆叠和替换区段](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [过滤和加权度量](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
@@ -197,7 +197,7 @@ ht-degree: 92%
       + [标记计算度量](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
       + [批准计算度量](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [共享计算度量](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
-      + [计算指标管理器](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
+      + [计算量度管理器](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
    + 指标引用 {#calcmetrics-reference}
       + [引用：基本函数](c-calcmetrics/cm-reference/cm-functions.md)
       + [引用：高级函数](c-calcmetrics/cm-reference/cm-adv-functions.md)

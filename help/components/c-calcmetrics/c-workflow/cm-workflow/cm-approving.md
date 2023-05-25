@@ -3,16 +3,22 @@ description: 在计算量度管理器内，您可以设置一个工作流程，�
 title: 批准计算量度
 feature: Calculated Metrics
 exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
-source-git-commit: 644e2d10eac226a35705351608161fe494efe113
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 23%
+source-wordcount: '245'
+ht-degree: 17%
 
 ---
 
 # 批准计算量度
 
-在计算量度管理器中，您可以设置一个工作流程，其中包含各种级别的应用程序和特定部门或组的批准量度。
+在计算量度管理器中，管理员可以设置一个工作流程，其中包含各种级别的应用程序和特定部门或组的量度的批准工作。
+
+>[!NOTE]
+>
+>管理员还可以从数据字典中批准计算指标（和其他组件），如中所述 [编辑数据字典中的组件条目](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+>
+>数据字典中批准的任何计算量度都会反映在计算量度管理器中。 同样，计算量度管理器中批准的量度也会反映在数据字典中。
 
 要将计算量度标记为已批准，请执行以下操作：
 

@@ -3,16 +3,22 @@ description: 您可以在区段管理器内设置一个工作流程，其中包�
 title: 批准区段
 feature: Segmentation
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 100%
+source-wordcount: '176'
+ht-degree: 53%
 
 ---
 
 # 批准区段
 
-您可以在区段管理器内设置一个工作流程，其中包含各种级别的申请和特定部门或组的批准区段，并与报表策略相一致。
+在区段管理器中，您可以设置一个工作流程，其中包含各种级别的申请和特定部门或组的批准区段，并与报表策略相一致。
+
+>[!NOTE]
+>
+>管理员还可以从数据字典中批准区段（和其他组件），如中所述 [编辑数据字典中的组件条目](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+>
+>数据字典中批准的任何区段都会反映在区段管理器中。 同样，区段管理器中批准的量度也会反映在数据字典中。
 
 下面是如何将区段标记为已批准的方法：
 

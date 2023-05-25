@@ -3,7 +3,7 @@ description: “计算量度”页面提供了许多种管理量度的方式，�
 title: 计算量度管理器
 feature: Calculated Metrics
 exl-id: 32430e77-2450-4672-9c21-255e76802a4c
-source-git-commit: 406ed620c880cd48bea17ccc13d0397c18f082b6
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 5%
@@ -15,6 +15,10 @@ ht-degree: 5%
 “计算量度”页面提供了许多种管理量度的方式，如共享、筛选、标记、批准、复制、删除和标记为收藏。
 
 “计算量度”页面会显示您拥有的所有区段以及与您共享的区段。 管理员级别的用户可以查看组织内的所有自定义指标。
+
+## 访问计算量度管理器
+
+1. 在Adobe Analytics中，选择 [!UICONTROL **组件**] > [!UICONTROL **计算量度**].
 
 ## 计算量度管理器的区域
 
@@ -37,7 +41,3 @@ ht-degree: 5%
 | 未显示在图像中 | **修改日期：** 指示上次修改自定义量度的日期。 |
 
 {style="table-layout:auto"}
-
-## 访问计算量度管理器
-
-1. 在Adobe Analytics中，选择 [!UICONTROL **组件**] > [!UICONTROL **计算量度**].
