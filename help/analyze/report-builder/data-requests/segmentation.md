@@ -4,10 +4,10 @@ title: 管理区段 (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 98%
+source-wordcount: '938'
+ht-degree: 92%
 
 ---
 
@@ -52,7 +52,7 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 
 ## 搜索和应用区段 {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-在此区段列表中显示任何在 Reports &amp; Analytics、Report Builder 或 Data Warehouse 中创建的区段。要刷新该列表，请单击“刷新”图标 (![](assets/refresh_icon.png))。
+在此区段列表中显示任何在 Reports &amp; Analytics、Report Builder 或 Data Warehouse 中创建的区段。要刷新列表，请单击“刷新”图标 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
 
 您可以将一个或多个区段应用到任意给定请求。这包括连续区段。
 
@@ -60,7 +60,7 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 
    ![](assets/seg_list.png)
 
-1. 选中要应用的区段。
+2. 选中要应用的区段。
 
 >[!NOTE]
 >
@@ -86,7 +86,7 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 
 通过添加区段控件，您可以从工作簿中切换区段，而不必转至“请求向导”。
 
-1. 按一下控制項圖示 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) 「區段」下拉式清單旁。
+1. 单击控件图标 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) ，位于区段下拉列表旁边。
 
    ![](assets/seg_control.png)
 
@@ -103,7 +103,7 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 
 ## 刷新区段列表 {#section_22E4A86789444B4A998532396B476EFB}
 
-只要添加新区段或编辑现有区段，即应单击“刷新”图标 (![](assets/refresh_icon.png)) 以刷新缓存的区段列表。
+每次添加新区段或编辑现有区段时，都应单击刷新图标 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) 刷新缓存的区段列表。
 
 ## 在请求间管理区段 {#section_C3D63FCBE1A94369A319243313B03C93}
 

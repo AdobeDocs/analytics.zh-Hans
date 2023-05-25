@@ -3,10 +3,10 @@ description: 区段管理器提供多种编排区段的方式，如共享、过�
 title: 管理区段（区段管理器）
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 100%
+source-wordcount: '435'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 Analytics 区段管理器显示了您拥有的所有区段以及共享给您的所有区段。管理员级别的用户可以查看组织内的所有区段。此概述说明了用户界面和区段管理器的功能。访问区段管理器的方法如下：
 
 * 在顶部导航中，转到 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 区段]**。
-* 显示一个现有报表，然后单击左侧导航中的“区段”图标 ![](assets/segment_icon.png)。接下来，单击&#x200B;**[!UICONTROL 管理]**。
+* 显示一个现有报表，然后单击左侧导航中的“区段”图标 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)。接下来，单击&#x200B;**[!UICONTROL 管理]**。
 
 ## 操作方法视频 {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 

@@ -5,39 +5,39 @@ title: 共享项目
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: fe072eab9c6dd6438ad6f27f0c16860cd87d1e64
+source-git-commit: 3a9dc661ce9243174bef45e689366baa58cf45b3
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1813'
 ht-degree: 53%
 
 ---
 
 # 共享项目
 
-您可以与以下类型的人员共享Analysis Workspace项目：
+您可以与以下类型的人共享Analysis Workspace项目：
 
-* 您组织中有权访问Adobe Analytics的用户和组
+* 组织中有权访问Adobe Analytics的用户和组
 
-   您可以共享“编辑”、“复制”或“查看”访问权限
+   您可以共享编辑、复制或查看权限
 
 * 您组织中无权访问Adobe Analytics的用户和组
 
    收件人具有只读访问权限
 
-* 组织外的人员
+* 组织外部的人员
 
    收件人具有只读访问权限
 
-任意 [策划](curate.md) 在收件人打开项目时，会反映在共享之前应用的内容。
+任意 [策划](curate.md) 当收件人打开项目时，会反映您在共享之前应用。
 
 下面是项目共享的视频概述：
 
 >[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
 
 
-## 与组织中的Analysis Workspace用户和组共享 {#Add}
+## 与贵组织中的Analysis Workspace用户和组共享 {#Add}
 
-您可以与组织中的现有Analysis Workspace用户或组共享项目。 在您按照本节所述共享项目时，您与共享的用户必须已经具有访问Adobe Analytics的权限。
+您可以与组织中的现有Analysis Workspace用户或组共享项目。 在按本节所述共享项目时，与您共享的用户必须已拥有Adobe Analytics的访问权限。
 
 您可以与用户或组共享特定角色，也可以共享链接。
 
@@ -85,7 +85,7 @@ ht-degree: 53%
 
    或
 
-   单击 **[!UICONTROL 组织并共享]** 自动应用项目策划。 (如果项目已共享，请单击 **[!UICONTROL 策划和更新]**.) 了解有关[项目策划](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hans)的更多信息。
+   单击 **[!UICONTROL 策划和共享]** 以自动应用项目策划。 (如果项目已共享，请单击 **[!UICONTROL 策划和更新]**.) 了解有关[项目策划](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hans)的更多信息。
 
 ## 共享项目链接
 
@@ -93,44 +93,44 @@ ht-degree: 53%
 
 * 使用链接的收件人必须登录 Adobe Analytics 才能访问项目。
 
-* 如果收件人未分配角色，并收到 [链接](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=zh-Hans) 默认情况下，项目会为其分配角色。 管理员将收到 **[!UICONTROL 可以编辑]** 和非管理员接收 **[!UICONTROL 可以复制]**.
+* 如果收件人未分配角色，并收到 [链接](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=zh-Hans) 对于项目，默认情况下会为他们分配角色。 管理员接收 **[!UICONTROL 可以编辑]** 和非管理员收到 **[!UICONTROL 可以复制]**.
 
 与组织中的用户共享项目链接：
 
-1. 保存项目。如果存在未保存的更改，系统会在共享链接之前提示您保存项目。
+1. 保存项目。如果存在未保存的更改，则系统会提示您先保存项目，然后再共享链接。
 
-1. 选择 **[!UICONTROL 共享]** > **[!UICONTROL 与工作区用户共享]**，然后选择 **[!UICONTROL 复制]** 旁边 **[!UICONTROL 按链接共享]** 字段。
+1. 选择 **[!UICONTROL 共享]** > **[!UICONTROL 与工作区用户共享]**，然后选择 **[!UICONTROL 复制]** 旁边的 **[!UICONTROL 通过链接共享]** 字段。
 
    ![](assets/share-proj-modal.png)
 
-1. 与组织中的用户共享项目链接。 例如，您可以将其粘贴到电子邮件中，粘贴到内部网站上，等等。
+1. 与组织中的用户共享项目链接。 例如，您可以将其粘贴到电子邮件中、内部网站中，等等。
 
 ## 与任何人共享项目（无需登录） {#share-public-link}
 
 {{release-limited-testing-section}}
 
-您可以授予 [只读访问](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) 向无法访问Analysis Workspace的人员实施项目。 这包括：
+您可以授予 [只读访问](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) 将Analysis Workspace项目发送给无权访问Adobe Analytics的用户。 这可能包括：
 
-* 组织外的人员
+* 组织外部的人员
 
-* 您组织中未配置Adobe Analytics的人员
+* 未使用Adobe Analytics进行配置的组织内部人员
 
 >[!NOTE]
 >
->与无权访问Analysis Workspace的人员共享Adobe Analytics项目时，请考虑以下事项：
+>与无权访问Analysis Workspace的用户共享Adobe Analytics项目时，请考虑以下事项：
 >
->* Analytics管理员可以禁用以这种方式共享项目的功能，如 [首选项](/help/analyze/analysis-workspace/user-preferences.md). 如果无法按照本节所述共享项目，则Analytics管理员已禁用此功能。
+>* Analytics管理员可以禁用通过此方式共享项目的功能，如中所述 [首选项](/help/analyze/analysis-workspace/user-preferences.md). 如果您无法按本节所述共享项目，则Analytics管理员已禁用此功能。
 >
->* 无法与无权访问Adobe Analytics的人员共享具有50个以上扩展可视化的项目。
+>* 扩展的可视化图表超过50个的项目不能与无法访问Adobe Analytics的人共享。
 >
->* 与您共享的用户可以查看在 [策划](curate.md).
+>* 与您共享的用户可以查看以下期间应用于项目的任何过滤器： [策划](curate.md).
 > 
->* 您与共享的用户可以更改项目日期范围。 默认情况下，会显示您为项目设置的日期范围。
+>* 与您共享的用户可以更改项目日期范围。 默认情况下，将显示您为项目设置的日期范围。
 >
->* 如果许多用户同时尝试访问给定链接，则项目可能会变为无法访问。 默认情况下，每5分钟有190多人可以访问一个链接。 如果贵组织达到此限制，请等待5分钟，然后再次尝试访问该链接。
+>* 如果许多用户尝试同时访问给定链接，则项目可能会变得无法访问。 默认情况下，超过190个人每5分钟可访问一次链接。 如果您的组织达到此限制，请等待5分钟，然后再次尝试访问链接。
 
 
-要与无权访问Analysis Workspace的人员共享Adobe Analytics项目，请执行以下操作：
+要与无权访问Analysis Workspace的用户共享Adobe Analytics项目，请执行以下操作：
 
 1. 打开要共享的Analysis Workspace项目。
 
@@ -142,31 +142,31 @@ ht-degree: 53%
 
 1. 启用 **[!UICONTROL 链接处于活动状态]** 选项。
 
-   选择此选项将创建一个指向项目的链接，该链接可供任何人共享。 您可以随时通过禁用此选项来禁用对项目的访问权限。
+   选择此选项将创建一个指向项目的链接，并可与任何人共享。 您可以随时通过禁用此选项来禁用对项目的访问。
 
-   项目的所有者也是此链接的所有者。 仅当项目所有权被转移时，链接所有权才能转移给其他用户，如 [转移用户资产或设置帐户过期日期](/help/admin/admin/user-management2/users-assets.md) 管理指南中的。
+   项目所有者也是此链接的所有者。 仅在转移项目所有权时，才能将链接所有权转移给另一个用户，如中所述 [转移用户资产或设置帐户有效期](/help/admin/admin/user-management2/users-assets.md) 在Analytics管理指南中。
 
-1. 选择是否启用以下安全选项（此选项可由Analytics管理员控制）：
+1. 选择是否启用以下安全选项（此选项可由您的Analytics管理员控制）：
 
    * **[!UICONTROL 需要 Experience Cloud 身份验证]:**
 
-      启用此选项后，只有能够登录到创建了您共享的项目的Adobe Experience Cloud组织的用户才能访问该项目。
+      启用此选项后，只有能够登录到创建您共享的项目的Adobe Experience Cloud组织的用户才能访问该项目。
 
-      Analytics管理员可以为公司配置此首选项，如 [首选项](/help/analyze/analysis-workspace/user-preferences.md). 根据管理员配置此选项的方式，您可能会遇到以下情况：
+      Analytics管理员可以为公司配置此首选项，如中所述 [首选项](/help/analyze/analysis-workspace/user-preferences.md). 您可能会遇到以下情况，具体取决于管理员如何配置此选项：
 
-      * 如果此选项不可见，则您的Analytics管理员未启用此功能。
+      * 如果此选项不可见，则表示您的Analytics管理员未启用此功能。
 
-      * 如果此选项处于启用状态且灰显，则您的Analytics管理员需要对任何访问Analysis Workspace项目的人进行Experience Cloud身份验证。
+      * 如果此选项已启用且呈灰显状态，则Analytics管理员要求对访问Analysis Workspace项目的任何人进行Experience Cloud身份验证。
 
-1. 在 **[!UICONTROL 与任何人共享（无需登录）]** 字段，单击 **复制链接** 图标 ![复制链接图标](assets/copy-link-icon.png) 将链接复制到系统剪贴板。
+1. 在 **[!UICONTROL 与任何人共享（无需登录）]** 字段中，单击 **复制链接** 图标 ![复制链接图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg) 以将链接复制到系统剪贴板。
 
-1. 与您希望拥有项目访问权限的人员共享该链接。 例如，您可以将链接粘贴到电子邮件中。
+1. 与您希望拥有项目访问权限的人员共享该链接。 例如，您可以将该链接粘贴到电子邮件中。
 
-   与您共享该链接的任何人都可以查看Analysis Workspace项目。
+   您与之共享链接的任何人都可以查看Analysis Workspace项目。
 
-1. （可选）您可以单击 **生成新链接** 图标 ![生成链接图标](assets/regenerate-link.png) 删除之前收到项目链接的用户的访问权限。 系统会生成一个新链接，您可以与想要访问该项目的用户共享该链接。
+1. （可选）您可以单击 **生成新链接** 图标 ![“生成链接”图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) 删除先前收到项目链接的用户的访问权限。 将生成一个新链接，您可以将该链接与要访问该项目的用户共享。
 
-1. 选择 **[!UICONTROL 关闭]** 关闭“共享”对话框。 您的更改将自动保存。
+1. 选择 **[!UICONTROL 关闭]** 以关闭“共享”对话框。 您的更改会自动保存。
 
 ## 在项目管理器中共享项目 {#Manager}
 
@@ -197,4 +197,4 @@ ht-degree: 53%
 | 如果两位编辑者同时保存一个项目，会发生什么情况？ | 将不会合并更改，并将保留最后保存的项目版本。Analysis Workspace 当前不支持实时协作。 |
 | 作为管理员，我将获得什么样的项目体验？ | 具有&#x200B;**[!UICONTROL 可以复制]**&#x200B;或&#x200B;**[!UICONTROL 可以查看]**&#x200B;角色的管理员在打开项目时将获得有限的项目体验。如有需要，管理员可以随时通过&#x200B;**[!UICONTROL 组件] > [!UICONTROL 项目]**&#x200B;将其角色提升为&#x200B;**[!UICONTROL 可以编辑]**。 |
 | 如果一位收件人作为个人和作为小组成员分别有不同的角色，会发生什么情况？ | 如果收件人同时具有多个角色，他们将始终获得权限最高的角色体验。例如，如果作为个人收件人获得&#x200B;**[!UICONTROL 可以编辑]**&#x200B;角色，而作为小组成员获得&#x200B;**[!UICONTROL 可以查看]**&#x200B;角色，则收件人将获得&#x200B;**[!UICONTROL 可以编辑]**&#x200B;项目体验。 |
-| 如果收件人打开项目链接，他们会获得什么体验？ | 收件人将获得您在共享模式中为其分配的角色。如果收件人未分配角色，并收到指向项目的链接(**[!UICONTROL 共享]** > **[!UICONTROL 与工作区用户共享]**，然后选择 **[!UICONTROL 复制]** 旁边 **[!UICONTROL 按链接共享]** 字段)，则默认情况下会将他们置于角色中。 管理员将获得&#x200B;**[!UICONTROL 可以编辑]**&#x200B;角色，非管理员将获得&#x200B;**[!UICONTROL 可以复制]**&#x200B;角色。 |
+| 如果收件人打开项目链接，他们会获得什么体验？ | 收件人将获得您在共享模式中为其分配的角色。如果收件人未分配角色，并收到指向项目的链接(**[!UICONTROL 共享]** > **[!UICONTROL 与工作区用户共享]**，然后选择 **[!UICONTROL 复制]** 旁边的 **[!UICONTROL 通过链接共享]** 字段)，则默认情况下会将他们放入角色。 管理员将获得&#x200B;**[!UICONTROL 可以编辑]**&#x200B;角色，非管理员将获得&#x200B;**[!UICONTROL 可以复制]**&#x200B;角色。 |

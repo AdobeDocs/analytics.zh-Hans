@@ -3,10 +3,10 @@ description: 在计算量度管理器内，您可以设置一个工作流程，�
 title: 批准计算量度
 feature: Calculated Metrics
 exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
-source-git-commit: 406ed620c880cd48bea17ccc13d0397c18f082b6
+source-git-commit: e9109ccb726e5e4bf52d8a4734dd0d09820f2ffc
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 24%
+source-wordcount: '189'
+ht-degree: 23%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 24%
 
 1. 选择 **[!UICONTROL 批准]** 在页面顶部的管理任务中。
 
-   要从批准的量度列表中删除量度，请选择 **[!UICONTROL 取消批准]**.
+要从批准的量度列表中删除量度，请选择 **[!UICONTROL 取消批准]**.
 
 1. （可选）与组织中的其他用户共享量度，如中所述 [共享计算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md).
 
 1. 选择 **[!UICONTROL 确定]**.
 
-   请注意列表中计算量度旁边的批准图标：![](assets/cm_approve_icon.png)
+请注意列表中计算量度旁边的批准图标：![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg)
 
 1. （可选）要在计算量度管理器中过滤计算量度列表以仅显示批准的量度，请选择 **筛选条件** 图标，展开 **[!UICONTROL 其他筛选器]**，然后选择 **[!UICONTROL 已批准]**.

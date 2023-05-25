@@ -3,10 +3,10 @@ description: 计算指标生成器提供了一个画布，用于拖放维度、�
 title: 生成量度
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: c64b4199d93443b14e2012459a4d33fdd847eca1
+source-git-commit: 991b2a8597ca59aab9869437d7f4097a8f638b90
 workflow-type: tm+mt
 source-wordcount: '962'
-ht-degree: 90%
+ht-degree: 87%
 
 ---
 
@@ -115,15 +115,15 @@ Adobe Analytics提供了一个画布以将维度、量度、区段和函数拖�
    <td colname="col2"> <p>指标列表 </p> </td> 
    <td colname="col3"> <p>指标有以下 3 种类别： </p> 
     <ul id="ul_7BF50F4964EF45858FBA1634FBFA45CF"> 
-     <li id="li_90F2312927A6499CA1CE04F8FFC912CF">标准指标 ( <img placement="inline"  src="assets/met_icon.png" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li> 
-     <li id="li_A3F59083E79B4AC780D6F8CEDFFD20C9">计算指标 ( <img placement="inline"  src="assets/calc_met_icon.png" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li> 
-     <li id="li_8735E76637ED4C3F983731A66E04C93E">指标模板 (<img placement="inline"  src="assets/cm_template_icon.png" width="25px" id="image_D236601511CC4DD3828F223431E27E88" />) — 位于列表底部。 </li> 
-    </ul> <p>当您将光标悬停在指标上方时，可以在其右侧看到“信息”图标：<img placement="inline"  src="assets/info.png" width="150px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />。单击此图标会显示以下信息： </p> 
+     <li id="li_90F2312927A6499CA1CE04F8FFC912CF">标准指标 ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li> 
+     <li id="li_A3F59083E79B4AC780D6F8CEDFFD20C9">计算指标 ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li> 
+     <li id="li_8735E76637ED4C3F983731A66E04C93E">指标模板 (<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg" id="image_D236601511CC4DD3828F223431E27E88" />) — 位于列表底部。 </li> 
+    </ul> <p>当您将光标悬停在指标上方时，可以在其右侧看到“信息”图标：<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" width="15px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />。单击此图标会显示以下信息： </p> 
     <ul id="ul_DF35DDB9FBFA40C8A93FA0F2286A0BBE"> 
      <li id="li_4215AA9BF93F4C8B941002A7A4D2F50B">有关如何计算指标的公式。 </li> 
      <li id="li_6A8E39EB6DCE4377B0B594B6D4FC0294">指标的预览趋势。 </li> 
-     <li id="li_44C1595E4BE64ED69D1DB3BB6655ED55">位于右上角的编辑（铅笔）图标可使您转到计算指标生成器，以便在其中编辑此计算指标。 </li> 
-    </ul> <p><img placement="break" align="center"  src="assets/info2.png" width="200px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> </p> </td> 
+     <li id="li_44C1595E4BE64ED69D1DB3BB6655ED55">编辑（铅笔）图标 <img placement="break" align="center"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg" width="15px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> ，您将转到计算指标生成器，可在其中编辑此计算指标。 </li> 
+    </ul> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>区段列表 </p> </td> 

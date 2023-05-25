@@ -3,9 +3,9 @@ description: 根据您的权限，您可以与整个组织、群组或个人用�
 title: 共享计算量度
 feature: Calculated Metrics
 exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
-source-git-commit: 406ed620c880cd48bea17ccc13d0397c18f082b6
+source-git-commit: e9109ccb726e5e4bf52d8a4734dd0d09820f2ffc
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '324'
 ht-degree: 24%
 
 ---
@@ -23,11 +23,13 @@ ht-degree: 24%
 
 1. 在计算量度管理器中，选中要共享的任何量度左侧的复选框。
 
-1. 选择&#x200B;**[!UICONTROL 共享]**。
+1. 单击 **[!UICONTROL 共享]** 图标。 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
 
    此时将显示“共享计算指标”对话框。
 
    ![](assets/cm_share.png)
+
+1. 单击&#x200B;**[!UICONTROL 共享]**。
 
 1. 选择要与谁共享：
 
@@ -45,6 +47,9 @@ ht-degree: 24%
 
 1. 选择&#x200B;**[!UICONTROL 共享]**。
 
-   “共享”图标显示在量度旁边：![](assets/share_icon.png)
+   “共享”图标显示在量度旁边：  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
+
+1. 您可以过滤与您共享的量度，方法是转到&#x200B;**[!UICONTROL 过滤器]** > **[!UICONTROL 其他过滤器]** > **[!UICONTROL 与我共享]**。
 
 1. （可选）要筛选计算量度管理器中的计算量度列表以仅显示与您共享的量度，请选择 **筛选条件** 图标，展开 **[!UICONTROL 其他筛选器]**，然后选择 **[!UICONTROL 与我共享]**.
+
