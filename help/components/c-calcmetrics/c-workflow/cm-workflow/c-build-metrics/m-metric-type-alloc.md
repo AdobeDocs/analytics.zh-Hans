@@ -3,9 +3,9 @@ description: 了解
 title: 量度类型和归因
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '466'
 ht-degree: 73%
 
 ---
@@ -29,9 +29,7 @@ ht-degree: 73%
    | 标准 | 这些指标是在标准 [!DNL Analytics] 报表中使用的相同指标。如果公式包含一个标准指标，它会显示与其相对的非计算指标的相同数据。标准指标可用于创建特定于每个单独行项目的计算指标。例如，[订购次数]/[访问次数]是将特定行项目的订购次数除以特定行项目的访问次数。 |
    | 总计 | 在每个行项目中为报告期间使用总计。 如果配方包含单个“总计”指标，则它会在每个行项目上显示相同的总数。 总计量度可用于创建与网站总计数据相比较的计算量度。 例如，[订购次数]/[总访问次数]会显示订购次数与网站所有访问次数的比例，而不只是与特定行项目访问次数的比例。 |
 
-## 列归因模型
-
-## 线性分配工作原理（自 2018 年 7 月 19 日起）
+## 线性分配的工作原理
 
 [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) 是计算指标中分配模型的评估方式。
 

@@ -3,10 +3,10 @@ description: 计算指标生成器提供了一个画布，用于拖放维度、�
 title: 生成量度
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 47%
+ht-degree: 45%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Analytics提供了一个画布以将维度、量度、区段和函数拖�
 
 ## 计算指标生成器的区域
 
-下图及随附的表介绍了计算量度管理器的某些主要区域和功能。
+下图及随附的表介绍了计算量度生成器的某些主要区域和功能。
 
 ![](assets/cm_builder_ui.png)
 
@@ -40,7 +40,7 @@ Adobe Analytics提供了一个画布以将维度、量度、区段和函数拖�
 | 8 | **定义：** 您可以将量度/计算量度、区段和/或函数拖放到此处来构建计算量度。 <ul><li>如果拖入一个计算指标，则它将自动展开其指标定义。 </li> <li>您可以通过容器嵌套定义。但是，与区段容器不同的是，这些容器的作用类似于数学表达式，它们决定着运算的顺序。 </li> </ul> |
 | 9 | **运算符：** 除以( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> )是默认运算符，另外还有+、 — 和x运算符。 |
 | 10 | **预览：** 提供对任何可能错误的快速读取。 预览涵盖过去 90 天的范围。这种方式可用于初步评估您是否为指标选择了正确的组件。出现意外结果表示您需要重新检查指标定义。 |
-| 11 | **产品兼容性:** <p>“产品兼容性”显示指标是与<a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=zh-Hans"  >当前数据</a>、“完全处理数据”兼容，还是只与“营销渠道报表”（首次联系分配）兼容。 <p>注意：“当前数据”并不支持所有指标。包含区段或函数的指标与“当前数据”不兼容。<a href="/help/components/c-calcmetrics/cm-compatibility.md"  > 更多... </a> </p> </p> |
+| 11 | **产品兼容性：** 产品兼容性显示该量度是否与兼容 <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=zh-Hans"  > 当前数据 </a>、完全处理的数据或仅营销渠道报表（首次联系分配）中列出的报表的区段。 <p>注意：“当前数据”并不支持所有指标。包含区段或函数的指标与“当前数据”不兼容。<a href="/help/components/c-calcmetrics/cm-compatibility.md"  > 更多... </a> </p> </p> |
 | 12 | **添加：** 对于所有类型的计算量度，您可以向定义中添加容器和静态数字。 对于高级计算指标，您还可以添加区段和函数。 <ul><li>容器的作用类似于数学表达式，它们决定着运算的顺序。因此，容器中的任何内容都将在下次运算前得到处理。</li><li>将区段拖到容器上，会将该容器中的所有内容分段。（仅限高级计算指标）</li><li>您可以在一个容器中堆叠多个区段。</li></ul> |
 | 13 | **齿轮图标（量度类型、归因）：** 选择量度旁边的齿轮图标允许您指定 <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > 量度类型和归因模型 </a>. |
 | 14 | **新增：** 允许您创建新组件，例如新区段(可使您转到 <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > 区段生成器 </a>.) |

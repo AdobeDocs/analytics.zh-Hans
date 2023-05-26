@@ -3,10 +3,10 @@ description: 有关如何创建量度以显示哪个营销渠道有助于提高�
 title: 订购协助指标
 feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 57%
+source-wordcount: '199'
+ht-degree: 56%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 57%
 
 1. 开始创建计算指标，如中所述 [生成量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
-1. 在计算量度生成器中，将量度命名为“辅助订单”。
+1. 在计算量度生成器中，将量度命名为“辅助订单”或类似名称。
 
 1. 在“定义”画布中，拖入“订购”量度。然后，选中&#x200B;**[!UICONTROL 使用非默认归因模型]**&#x200B;复选框，以通过“设置”齿轮调整归因模型。
 
