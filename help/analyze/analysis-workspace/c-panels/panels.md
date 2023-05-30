@@ -4,16 +4,16 @@ title: 面板概述
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 017559d2b909deb4bf87fb5fe41db8250f2ca2ac
+source-git-commit: 5ba12c243a8013c52b487d048c54461ebdf7bd85
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1437'
+ht-degree: 57%
 
 ---
 
 # 面板概述
 
-[!UICONTROL 面板]是表格和可视化图表的集合您可以从工作区的左上角图标或 [空白面板](blank-panel.md). 当您要根据时段、报表包或分析用例组织您的项目时，面板非常有用。
+[!UICONTROL 面板]是表格和可视化图表的集合您可以从工作区左上角的图标或访问面板 [空白面板](blank-panel.md). 当您要根据时段、报表包或分析用例组织您的项目时，面板非常有用。
 
 ## 面板类型
 
@@ -68,15 +68,15 @@ Analysis Workspace 中提供了以下面板类型：
 
 ### 临时区段过滤器
 
-也可以将非区段组件直接拖入拖放区域以创建临时区段，从而节省您转到区段生成器的时间和工作。 通过这种方式创建的区段自动定义为点击级别区段。通过单击区段旁的信息图标 (i)、单击铅笔形状编辑图标并在区段生成器中进行编辑，可以修改此定义。
+还可将非区段组件直接拖入放置区域以创建临时区段，从而为您节省转到区段生成器的时间和精力。 通过这种方式创建的区段自动定义为点击级别区段。通过单击区段旁的信息图标 (i)、单击铅笔形状编辑图标并在区段生成器中进行编辑，可以修改此定义。
 
-临时区段是一种快速区段类型，属于项目的本地区段。 除非您将它们设为公开，否则它们不会显示在左边栏中。
+临时区段是一种快速区段，属于项目的本地区段。 除非将其公开，否则它们不会显示在左边栏中。
 
 有关更多信息，请参阅 [快速区段](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ### 静态下拉过滤器
 
-通过下拉过滤器，您可以以受控方式与数据交互。 例如，您可以为移动设备类型添加下拉过滤器，这样您就可以按照平板电脑、手机或台式机来细分面板。
+利用下拉过滤器，可按可控方式与数据交互。 例如，您可以为移动设备类型添加下拉过滤器，这样您就可以按照平板电脑、手机或台式机来细分面板。
 
 下拉过滤器也可用于将多个项目合并在一起。例如，如果您有一个项目的多个版本，每个版本具有不同的“国家/地区”区段，您可以将所有版本合并为一个项目并添加“国家/地区”下拉过滤器。
 
@@ -84,37 +84,37 @@ Analysis Workspace 中提供了以下面板类型：
 
 要创建静态下拉过滤器，请执行以下操作：
 
-* 对于使用维度项目的下拉过滤器，请单击左边栏中所需维度旁边的向右箭头图标。 此操作会公开所有可用的维度项目。 使用 `[Shift + Click]` 或 `[Ctrl + Click]`，然后将它们放入面板拖放区 **保持`[Shift]`**.
-* 对于使用其他组件（如量度、区段或日期范围）的下拉过滤器，请使用 `[Shift + Click]` 或 `[Ctrl + Click]`. 将所选内容放入面板拖放区 **保持`[Shift]`**. 在此上下文中，所有组件类型都会被视为区段。
-* 单个下拉过滤器只能包含单个组件类型。 如果您在选择中包含多个组件类型，则会为每个组件类型创建一个单独的下拉过滤器。 例如，如果您在所选内容中同时包含量度和维度项目，则会创建两个单独的下拉过滤器。 一个下拉过滤器包含维度项目，另一个下拉过滤器包含量度。
+* 对于使用维度项目的下拉过滤器，在左边栏中单击所需维度旁边的右箭头图标。 此操作会公开所有可用的维度项目。 使用以下方式从此列表中选择多个维度项 `[Shift + Click]` 或 `[Ctrl + Click]`，然后将它们拖放到面板拖放区域中 **同时保持`[Shift]`**.
+* 对于使用其他组件（如量度、区段或日期范围）的下拉过滤器，请使用以下选项选择多个组件 `[Shift + Click]` 或 `[Ctrl + Click]`. 将选定内容拖放到面板拖放区域中 **同时保持`[Shift]`**. 在此上下文中，所有组件类型都被视为区段。
+* 单个下拉过滤器只能包含单个组件类型。 如果在选择中包含多个组件类型，则会为每个组件类型创建一个单独的下拉过滤器。 例如，如果在选择中同时包含量度和维度项目，则会创建两个单独的下拉过滤器。 一个下拉过滤器包含维度项目，另一个包含量度。
 
-从下拉列表中选择一个选项，以更改面板中的数据。 您还可以通过选择 **[!UICONTROL 无过滤器]**.
+从下拉列表中选择一个选项，以更改面板中的数据。 您还可以通过选择不对面板数据中的任何数据进行过滤 **[!UICONTROL 无筛选器]**.
 
 ![](assets/create-dropdown.png)
 
 右键单击下拉过滤器可提供以下选项：
 
-* **[!UICONTROL 添加标签]**:向项目添加下拉过滤器时，会自动将标签设置为组件名称。 如果删除标签，则可以使用此选项再次添加该标签。
-* **[!UICONTROL 删除标签]**:删除下拉过滤器上方的文本。
-* **[!UICONTROL 删除下拉过滤器]**:从面板中删除下拉过滤器。
+* **[!UICONTROL 添加标签]**：将下拉过滤器添加到项目时，会自动将标签设置为组件名称。 如果删除标签，则可以使用此选项再次添加该标签。
+* **[!UICONTROL 删除标签]**：删除下拉过滤器上方的文本。
+* **[!UICONTROL 删除下拉过滤器]**：从面板中删除下拉过滤器。
 
 [观看视频](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=zh-Hans)以详细了解如何将下拉过滤器添加到项目中。
 
-<!--### Dynamic drop-down filters
+### 动态下拉过滤器
 
-Dynamic drop-down filters allow you to determine available values based on data within the panel's reporting range and values in other drop-down filters. For example, you can create two dynamic drop-downs using the [Countries](/help/components/dimensions/countries.md) dimension and [Cities](/help/components/dimensions/cities.md) dimension. When you select a country from the [!UICONTROL Countries] drop-down list, the [!UICONTROL Cities] drop-down list dynamically adjusts to only show cities within that country.
+通过动态下拉过滤器，可根据面板报告范围内的数据以及其他下拉过滤器中的值来确定可用值。 例如，您可以使用 [国家/地区](/help/components/dimensions/countries.md) 维度和 [城市](/help/components/dimensions/cities.md) 维度。 当您从 [!UICONTROL 国家/地区] 下拉列表， [!UICONTROL 城市] 下拉列表会动态调整以仅显示该国家/地区的城市。
 
-This same concept applies to all dimensions; only dimension items that appear within the panel's date range and selected filters are visible. Dimension items selected in static drop-down filters affect available values in dynamic drop-down filters. However, the inverse is not true; Dimension items selected in dynamic drop-down filters do not affect available values in static drop-down filters.
+此同一概念适用于所有维度；只有出现在面板日期范围内的维度项和选定的过滤器才可见。 在静态下拉过滤器中选择的Dimension项会影响动态下拉过滤器中的可用值。 但是，反之则不成立；在动态下拉过滤器中选择的Dimension项目不会影响静态下拉过滤器中的可用值。
 
-Manual selection of dimension items is available if you anticipate a certain dimension item to be collected in the future. You can also clear a dynamic drop-down filter so that it does not contain a value, allowing other dynamic drop-down filters to contain more values. Select **[!UICONTROL Clear All]** to clear the selection from all drop-down filters for that panel.
+如果您预计将来会收集特定维度项目，则可以手动选择维度项目。 您还可以清除动态下拉过滤器，使其不包含值，从而允许其他动态下拉过滤器包含更多值。 选择 **[!UICONTROL 全部重置]** 以清除该面板的所有下拉过滤器中的选定内容。
 
-To create a dynamic drop-down filter:
+要创建动态下拉过滤器，请执行以下操作：
 
-* Drag and drop a single dimension into the panel dropzone **while holding `[Shift]`**.
-* Dynamic drop-down filters are not available for metrics, segments, or date ranges.
-* Right-click a drop-down filter and select **[!UICONTROL Delete filter]** to delete it.
+* 将单个维度拖放到面板拖放区域中 **同时保持`[Shift]`**.
+* 动态下拉过滤器不适用于量度、区段或日期范围。
+* 右键单击下拉过滤器并选择 **[!UICONTROL 删除筛选器]** 删除它。
 
-Right-clicking a dynamic drop-down filter provides the same options as static drop-down filters.-->
+右键单击动态下拉筛选器提供的选项与静态下拉筛选器提供的选项相同。
 
 ## 右键单击菜单 {#right-click}
 
@@ -126,8 +126,8 @@ Right-clicking a dynamic drop-down filter provides the same options as static dr
 
 | 设置 | 描述 |
 | --- | --- |
-| 插入复制的面板/可视化图表 | 允许您将复制的面板或可视化图表粘贴（“插入”）到项目中的其他位置或其他项目中。 |
-| 复制面板 | 允许您右键单击并复制面板，以便将其插入到项目中的其他位置，或插入到其他项目中。 |
+| 插入复制的面板/可视化图表 | 此设置允许您将复制的面板或可视化图表粘贴（“插入”）到项目中的其他位置或其他项目中。 |
+| 复制面板 | 此设置允许您右键单击并复制面板，以便将其插入到项目中的其他位置或其他项目中。 |
 | 将报表包应用于所有面板 | 此设置允许您将活动的面板报表包应用到项目中的所有面板。 |
 | 复制面板 | 生成一个与当前面板完全相同的副本，然后可对其进行修改。 |
 | 折叠/展开所有面板 | 折叠和展开所有项目面板。 |

@@ -3,10 +3,10 @@ title: 配置变量
 description: 使用配置变量可帮助确定数据收集的方式。
 feature: Variables
 exl-id: 3f017a94-b71d-47da-8ab4-daf32475ed34
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: ef82c34f97a0c8172f097b83b521860a1897c82c
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 76%
+source-wordcount: '125'
+ht-degree: 65%
 
 ---
 
@@ -26,4 +26,4 @@ ht-degree: 76%
 
 >[!IMPORTANT]
 >
->确保在调用跟踪方法（[`t()`](../functions/t-method.md) 或 [`tl()`](../functions/tl-method.md)）之前设置所有配置变量。避免在 [`doPlugins()`](../functions/doplugins.md) 函数中设置配置变量。
+>确保在调用跟踪方法之前设置所有配置变量([`t()`](../functions/t-method.md) 或 [`tl()`](../functions/tl-method.md))。 避免在 [`doPlugins()`](../functions/doplugins.md) 函数中设置配置变量。

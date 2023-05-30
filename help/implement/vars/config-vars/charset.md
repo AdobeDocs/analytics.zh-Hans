@@ -3,16 +3,16 @@ title: charSet
 description: charSet 变量可确定 Adobe 用于解析图像请求的编码。
 feature: Variables
 exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: ef82c34f97a0c8172f097b83b521860a1897c82c
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 74%
+source-wordcount: '230'
+ht-degree: 66%
 
 ---
 
 # charSet
 
-Adobe 会使用 charSet 变量将传入数据转换为 UTF-8，以便 Analytics 进行存储和报告。大部分网站不需要设置此变量。
+此 `charSet` 变量可将传入数据转换为UTF-8，以便Adobe进行存储和报告。 大部分网站不需要设置此变量。
 
 只有当您在报表中看到了乱码值 ([mojibake](https://en.wikipedia.org/wiki/Mojibake)) 时才设置此变量。如果您的网站在不同页面上使用不同编码，您可逐页设置此变量。
 
