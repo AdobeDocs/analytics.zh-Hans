@@ -3,9 +3,9 @@ description: 在计算量度管理器中，您可以通过标记区段来组织�
 title: 标记计算量度
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '281'
 ht-degree: 19%
 
 ---
@@ -20,10 +20,10 @@ ht-degree: 19%
 >
 >最有用的标记类型通常是基于以下条件的标记：
 >
->* **团队名称**，如社交营销、移动营销。
+>* **团队名称**，例如社交营销或移动营销。
 >* **项目** （分析标记），例如登入页面分析。
->* **类别**，例如“Women&#39;s”（女性）、“Geography”（地理位置）。
->* **工作流**，如待批准；策划（为特定的业务部门）
+>* **类别**，例如“女性”或“地理”。
+>* **工作流**，如要批准或策划（特定的业务部门）
 
 
 ## 将标记应用于计算量度
