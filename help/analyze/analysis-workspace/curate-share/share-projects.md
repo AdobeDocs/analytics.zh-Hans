@@ -5,10 +5,10 @@ title: 共享项目
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: d3e560df22f487a2dfabd65d07de5609c0665918
+source-git-commit: 8aca2f068a455eddca904d0367bc4a282f464e56
 workflow-type: tm+mt
-source-wordcount: '1816'
-ht-degree: 53%
+source-wordcount: '1852'
+ht-degree: 52%
 
 ---
 
@@ -130,6 +130,10 @@ ht-degree: 53%
 >* 如果许多用户尝试同时访问给定链接，则项目可能会变得无法访问。 默认情况下，超过190个人每5分钟可访问一次链接。 如果您的组织达到此限制，请等待5分钟，然后再次尝试访问链接。
 
 
+以下视频演示和随附文档介绍了与任何人共享链接相关的选项：
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
+
 要与无权访问Analysis Workspace的用户共享Adobe Analytics项目，请执行以下操作：
 
 1. 打开要共享的Analysis Workspace项目。
@@ -150,7 +154,7 @@ ht-degree: 53%
 
    * **[!UICONTROL 需要 Experience Cloud 身份验证]:**
 
-      启用此选项后，只有能够登录到创建您共享的项目的Adobe Experience Cloud组织的用户才能访问该项目。
+      启用此选项后，只有那些可访问项目的用户才能登录到创建您共享的项目的Adobe Experience Cloud组织。 但是，与您共享的用户不需要具有访问Adobe Analytics的权限。
 
       Analytics管理员可以为公司配置此首选项，如中所述 [首选项](/help/analyze/analysis-workspace/user-preferences.md). 您可能会遇到以下情况，具体取决于管理员如何配置此选项：
 
