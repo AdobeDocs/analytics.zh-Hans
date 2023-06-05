@@ -3,9 +3,9 @@ description: 通过区段，可根据特性或网站交互标识访客的子集�
 title: 关于区段
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 2b1b681039fded30578ea9f46477e68bdc5630ca
+source-git-commit: 9ae046e99b25cf8d648d80968124f9688fdd3cd5
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1183'
 ht-degree: 78%
 
 ---
@@ -237,7 +237,9 @@ Analysis Workspace 包含以下附加功能：
 
 ## 分段操作方法视频 {#segment-video}
 
-此视频简要概述什么是区段容器以及如何使用它们： [Adobe Analytics中的区段容器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=zh-Hans)
+此视频简要概述什么是区段容器以及如何使用它们：
+
+![](https://video.tv.adobe.com/v/25401)
 
 
 ## 访问分段工具 {#access}
