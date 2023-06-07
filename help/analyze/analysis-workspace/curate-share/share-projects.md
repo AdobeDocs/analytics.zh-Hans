@@ -5,7 +5,7 @@ title: 共享项目
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 8aca2f068a455eddca904d0367bc4a282f464e56
+source-git-commit: 8e03817b2e03c50dff730be05849a47d7728dc9a
 workflow-type: tm+mt
 source-wordcount: '1852'
 ht-degree: 52%
@@ -106,8 +106,6 @@ ht-degree: 52%
 1. 与组织中的用户共享项目链接。 例如，您可以将其粘贴到电子邮件中、内部网站中，等等。
 
 ## 与任何人共享项目（无需登录） {#share-public-link}
-
-{{release-limited-testing-section}}
 
 您可以授予 [只读访问](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) 将Analysis Workspace项目发送给无权访问Adobe Analytics的用户。 这可能包括：
 
