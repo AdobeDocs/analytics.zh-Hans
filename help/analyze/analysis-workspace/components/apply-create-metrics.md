@@ -4,9 +4,9 @@ title: Analysis Workspace 中的指标
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: e0a10540bdfbd9fa3694ff3c7a8585eeb87eaad8
+source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '416'
 ht-degree: 24%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 24%
 # 度量
 
 量度允许您量化Analysis Workspace中的数据点。 它们最常用作可视化图表中的列，并与维度关联。
+
+## 量度类型
 
 Adobe提供了多种类型的量度以用于Analysis Workspace：
 
@@ -29,7 +31,17 @@ Adobe提供了多种类型的量度以用于Analysis Workspace：
 
    ![计算量度模板](assets/calculated-metric-template.png)
 
-量度在Analysis Workspace中的使用非常灵活。 将量度拖动到空的自由格式表中，可查看在项目的日期时段内该量度的趋势。 当存在维度时，您还可以拖动量度，以查看该量度与每个维度项目的比较。 将量度拖动到现有量度标题之上会替换该量度，将量度拖动到标题旁会让您并排查看这两个量度。
+## 在Analysis Workspace中使用量度
+
+可以在Analysis Workspace中以各种方式使用量度。 您可以:
+
+* 将量度拖动到空的自由格式表中，可查看在项目的日期时段内该量度的趋势。
+
+* 当存在维度时，拖动一个量度以查看该量度与每个维度项目的比较。
+
+* 将指标拖动到现有指标标题上以替换该指标。
+
+* 将指标拖动到标题旁边，可并排查看这两个指标。
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 

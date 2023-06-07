@@ -3,7 +3,8 @@ description: 管理员可以使用任一报表包为组件添加描述。
 title: 添加组件描述
 feature: Components
 role: Admin
-source-git-commit: c2bfedde64b4961afcda75880594ee9b1347a831
+exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
+source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 43%
@@ -23,8 +24,6 @@ Analytics管理员可以在报表包中或直接使用Analysis Workspace中的�
 >[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
 
 ## 向Analysis Workspace中的组件添加描述（使用数据字典） {#add-descriptions}
-
-{{release-limited-testing-section}}
 
 Analysis Workspace 中的数据词典可帮助用户和管理员跟踪并更好地了解其 Analytics 环境中的组件。这包括Analytics管理员能够直接在Analysis Workspace中添加组件描述。
 

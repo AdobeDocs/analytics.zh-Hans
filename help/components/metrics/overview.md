@@ -3,10 +3,10 @@ title: 量度概述
 description: 查看维度项目的数量或数据随时间变化的情况。
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
+source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 100%
+source-wordcount: '210'
+ht-degree: 78%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 | `Product page` | `500` |
 | `Purchase page` | `100` |
 
-如果找不到给定的量度帮助页面，量度可能是[自定义事件](custom-events.md)或[计算量度](../c-calcmetrics/cm-overview.md)。
+如果找不到给定量度的帮助页面，则可能是 [自定义事件](custom-events.md) 或 [计算量度](../c-calcmetrics/cm-overview.md).
 
 * 如果量度是自定义事件，请咨询您组织的 Analytics 管理员，或查看报告包的[解决方案设计文档](/help/implement/prepare/solution-design.md)。
 * 如果量度是计算量度，请单击信息图标以确定其公式。
@@ -30,3 +30,7 @@ ht-degree: 100%
 ## 添加量度描述
 
 Analytics 管理员可以在“报告包”中或直接在 Analysis Workspace 中添加量度和其他组件的描述。 有关如何向量度添加描述的信息，请参阅[添加组件描述](/help/analyze/analysis-workspace/components/add-component-descriptions.md)。
+
+## 在Analysis Workspace中使用量度
+
+有关如何在Analysis Workspace中使用指标的信息，请参阅中的“在Analysis Workspace中使用指标” [量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
