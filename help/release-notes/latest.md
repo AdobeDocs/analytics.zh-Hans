@@ -3,9 +3,9 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 1d98d711c17d3c7ca487b8f5bd4e918a9a399ea7
+source-git-commit: 49c4acb38a96b5fd6a8cd25258628adc9a68074c
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1426'
 ht-degree: 53%
 
 ---
@@ -20,11 +20,9 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **用链接共享项目（无需登录）** | 您现在可以与无权访问 Adobe Analytics 的人员共享 Analysis Workspace 项目的只读链接。这包括与组织外的人员或组织内未配置 Adobe Analytics 的人员共享。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans#share-public-link)<p>默认启用此功能，而系统管理员可禁用此功能。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=zh-Hans#company-preferences)</p> | 2023 年 5 月 3 日 | 2023 年 6 月 7 日 |
-| **分类集 — 合并** | 将不同报表包中的分类合并到一个合并的数据集中。 整合的数据集可用于分类集，或用作CJA中的查找数据集。 了解详情（即将推出） |  | 2023 年 6 月 7 日 |
-| **分类集 — 规则生成器** | 使用当前分类集架构中的分类规则生成器。 了解详情（即将推出） |  | 2023 年 6 月 7 日 |
-| **分类集 — 自动导入** | 您现在可以从云存储目标自动导入分类集数据。 了解详情（即将推出） |  | 2023 年 6 月 7 日 |
-| **新的AppMeasurement变量** | 变量 `doubleEncodeLinkParameters` 适合边缘案例，在这些案例中，实施会对链接跟踪变量中的多字节字符进行编码。 大多数实施不需要定义此变量。 了解详情（即将推出） |  | 2023 年 6 月 7 日 |
+| **用链接共享项目（无需登录）** | 您现在可以与无权访问 Adobe Analytics 的人员共享 Analysis Workspace 项目的只读链接。这包括与组织外的人员或组织内未配置 Adobe Analytics 的人员共享。[了解详情](../analyze/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required)<p>默认启用此功能，而系统管理员可禁用此功能。[了解详情](../analyze/analysis-workspace/user-preferences.md#company-preferences)</p> | 2023 年 5 月 3 日 | 2023 年 6 月 7 日 |
+| **分类集的新增功能** | [分类集](/help/components/classifications/sets/overview.md) 已更新若干新功能：<ul><li>**合并**：将分类集合并到一个合并的分类集中。 合并的分类集可以像其他分类集一样使用，或者在CJA中用作查找数据集。 [了解详情](../components/classifications/sets/consolidations/manage.md)</li><li>**规则**：根据分类集中的规则自动对值分类。 [了解详情](../components/classifications/sets/manage/rules.md)</li><li>**自动导入**：自动从云存储目标导入分类数据。 [了解详情](../components/classifications/sets/manage/schema.md)</li></ul> | | 2023 年 6 月 7 日 |
+| **新建AppMeasurement变量** | 变量 `doubleEncodeLinkParameters` 适合边缘案例，在这些案例中，实施会对链接跟踪变量中的多字节字符进行编码。 大多数实施不需要定义此变量。 [了解详情](../implement/vars/config-vars/doubleencodelinkparameters.md) |  | 2023 年 6 月 7 日 |
 | **数据馈送导出的安全目标** | 数据馈送现在可以发送到以下云存储目标：<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud 平台</li></ul>不再建议以前可用的目标（FTP、SFTP、S3和Azure Blob）。 [了解详情](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=zh-Hans) |  | 2023 年 6 月 12 日 |
 | **工作区中的机器人报告** | 机器人报告功能现已在Analysis Workspace中可用。 此功能附带几个附加功能：<ul><li>新维度： [机器人名称](/help/components/dimensions/bot-name.md)</li><li>两个新量度： [机器人页面查看次数](/help/components/metrics/bot-page-views.md) 和 [机器人出现次数](/help/components/metrics/bot-occurrences.md).</li><li>新的计算量度模板： [机器人页面查看率](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)</li><li>新的工作区报表：机器人报表</li></ul>新维度和量度包含从2023年3月开始回填的数据。 |  | 7,2023 年 6 月 |
 

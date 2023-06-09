@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算指标、虚拟报表包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: 0d16592cfa1f0da4e868d9d51c1a73269235b653
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 90%
+source-wordcount: '715'
+ht-degree: 86%
 
 ---
 
@@ -177,7 +177,7 @@ ht-degree: 90%
       + [Data Warehouse 区段兼容性](segmentation/seg-reference/seg-compatibility.md)
       + [区段权限（按角色）](segmentation/seg-reference/seg-rights.md)
       + [疑难解答](segmentation/seg-reference/c-troubleshooting.md)
-   + [有关管理旧版区段的常见问题解答 ](segmentation/seg-transition.md)
+   + [有关管理旧版区段的常见问题解答](segmentation/seg-transition.md)
    + [优秀实践](segmentation/best-practices.md)
 + 计算指标 {#calculated-metrics}
    + [计算量度和高级计算（派生）量度](c-calcmetrics/cm-overview.md)
@@ -236,10 +236,16 @@ ht-degree: 90%
    + [分类概述](classifications/c-classifications.md)
    + 分类集 {#sets}
       + [分类集概述](classifications/sets/overview.md)
-      + [分类集管理器](classifications/sets/set-manager.md)
+      + 管理分类集 {#manage}
+         + [分类集管理器](classifications/sets/manage/set-manager.md)
+         + [创建分类集](classifications/sets/manage/create.md)
+         + [分类集设置](classifications/sets/manage/settings.md)
+         + [分类集架构](classifications/sets/manage/schema.md)
+         + [分类集规则](classifications/sets/manage/rules.md)
       + [分类集作业管理器](classifications/sets/job-manager.md)
-      + [创建分类集](classifications/sets/create.md)
-      + [分类集设置](classifications/sets/settings.md)
+      + 分类集合并 {#consolidations}
+         + [分类集合并管理器](classifications/sets/consolidations/manage.md)
+         + [分类集合并过程](classifications/sets/consolidations/process.md)
    + 分类规则生成器 {#classifications-rulebuilder}
       + [分类规则生成器工作流程](classifications/crb/classification-rule-builder.md)
       + [分类规则集](classifications/crb/classification-rule-set.md)
@@ -260,6 +266,7 @@ ht-degree: 90%
       + [FTP 导出](classifications/importer/ftp-export.md)
       + [处理时间](classifications/importer/processing-time.md)
       + [疑难解答](classifications/importer/troubleshooting.md)
+
    + [子分类](classifications/c-sub-classifications.md)
    + [分类常见问题解答](classifications/faq.md)
 + [日历事件](t-calendar-event.md)
