@@ -4,16 +4,16 @@ title: 创建和共享移动记分卡
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 455b206ea145a3364d20048041976a1472c8abd7
+source-git-commit: f2e040cfc6dcb67fbb1b995e38eede78943c66f7
 workflow-type: tm+mt
 source-wordcount: '2513'
-ht-degree: 82%
+ht-degree: 81%
 
 ---
 
 # 创建移动记分卡
 
-以下信息指示 Adobe Analytics 数据的策划人如何为执行用户配置和展示移动记分卡。要开始使用，您可以查看Adobe Analytics功能板记分卡生成器视频：
+以下信息指示 Adobe Analytics 数据的策划人如何为执行用户配置和展示移动记分卡。要开始操作，您可以查看Adobe Analytics功能板记分卡生成器视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
 
@@ -21,7 +21,7 @@ Adobe Analytics 记分卡以平铺版面为执行用户显示关键数据可视�
 
 ![示例记分卡](assets/intro_scorecard.png)
 
-作为此记分卡的策划人，您可以使用记分卡生成器来配置在执行用户的记分卡上显示的图块。 您还可以配置在点按图块后，如何调整详细视图或细分。记分卡生成器界面如下所示：
+作为此记分卡的策划人，您可以使用记分卡生成器来配置要在执行使用者的记分卡上显示的图块。 您还可以配置在点按图块后，如何调整详细视图或细分。记分卡生成器界面如下所示：
 
 ![记分卡生成器](assets/scorecard_builder.png)
 
@@ -37,7 +37,7 @@ Adobe Analytics 记分卡以平铺版面为执行用户显示关键数据可视�
 ### 创建新项目 {#create}
 
 1. 打开 Adobe Analytics，然后单击&#x200B;**[!UICONTROL 工作区]**&#x200B;选项卡。
-1. 单击 **[!UICONTROL 创建项目]** ，然后选择 **[!UICONTROL 空白移动记分卡]** 项目模板。
+1. 单击 **[!UICONTROL 创建项目]** 并选择 **[!UICONTROL 空白移动记分卡]** 项目模板。
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 
 ![记分卡模板](assets/new_template.png)
@@ -49,13 +49,13 @@ Adobe Analytics 记分卡以平铺版面为执行用户显示关键数据可视�
 
 ## 使用数据配置记分卡并将其保存 {#configure}
 
-要实施记分卡模板，请执行以下操作：
+实施记分卡模板：
 
 1. 在&#x200B;**[!UICONTROL 属性]**（位于右侧边栏中）下，指定要从中使用数据的&#x200B;**[!UICONTROL 项目报告包]**。
 
    ![报告包选择](assets/properties_save.png)
 
-1. 要向记分卡中添加新图块，请将左侧面板中的某个量度拖放到 **[!UICONTROL 将量度拖放到此处]** 区域。 您也可以使用类似的工作流程，在两个图块之间插入指标。
+1. 要向记分卡中添加新图块，请将左侧面板中的某个量度拖放到 **[!UICONTROL 将指标拖放到此处]** 区域。 您也可以使用类似的工作流程，在两个图块之间插入指标。
 
    ![添加图块](assets/build_list.png)
 
@@ -74,7 +74,7 @@ Adobe Analytics 记分卡以平铺版面为执行用户显示关键数据可视�
 
 要将区段应用于单个图块，请将左侧面板中的某个区段直接拖放到图块的顶部。
 
-如果要将区段应用于记分卡中的所有图块，请将区段拖放到记分卡的顶部。 或者，您也可以通过在日期范围下方的过滤器菜单中选择区段来应用区段。您 [为记分卡配置和应用过滤器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hans) 与在Adobe Analytics Workspace中相同的方式。
+如果要将区段应用于记分卡中的所有图块，请将图块拖放到记分卡的顶部。 或者，您也可以通过在日期范围下方的过滤器菜单中选择区段来应用区段。您 [为记分卡配置和应用过滤器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hans) 与在Adobe Analytics工作区中操作的方式相同。
 
 ![构建区段以进行过滤](assets/segment_ui.png)
 
@@ -96,7 +96,7 @@ Adobe Analytics 记分卡以平铺版面为执行用户显示关键数据可视�
 
 ![新记分卡 4](assets/new_score_card4.png)
 
-如果尚未创建您所需的日期范围，您可以单击日历图标以创建一个新的日期范围。
+如果尚未创建所需的日期范围，则可以通过单击日历图标来创建一个新的日期范围。
 
 ![新记分卡 5](assets/new_score_card5.png)
 
@@ -212,7 +212,7 @@ Analytics 功能板提供了四种可视化图表，可让您深入了解维度�
 
 ## 删除组件 {#remove}
 
-同样，要删除应用于整个记分卡的组件，请单击记分卡上图块外的任意位置，然后单击 **x** 当您将鼠标悬停在组件上时显示，如下 **首次访问** 区段：
+同样，要删除应用于整个记分卡的组件，请单击记分卡上图块外的任意位置，然后单击 **x** 将鼠标悬停在该组件上时显示，如下面的 **首次访问** 区段：
 
 ![Remove_components](assets/new_remove.png)
 
@@ -270,7 +270,7 @@ Analytics 功能板提供了四种可视化图表，可让您深入了解维度�
    ![创建数据故事](assets/data-story4.png)
 
 >[!NOTE]
->幻灯片从磁贴继承组件，但磁贴不从幻灯片继承组件。
+>幻灯片从图块继承组件，但图块不从幻灯片继承组件。
 
 **自定义个别幻灯片**
 
@@ -336,13 +336,13 @@ Analytics 功能板提供了四种可视化图表，可让您深入了解维度�
 
 ![Share_Scorecards](assets/new_share.png)
 
-共享记分卡后，收件人可在其 Analytics 功能板中访问该记分卡。如果您在记分卡生成器中对记分卡进行后续更改，则共享记分卡中的记分卡会自动更新这些更改。 然后，执行用户在其应用程序中刷新记分卡后，将看到所做的更改。
+共享记分卡后，收件人可在其 Analytics 功能板中访问该记分卡。如果您在记分卡生成器中对记分卡进行后续更改，则已共享的记分卡会自动更新以反映这些更改。 然后，执行用户在其应用程序中刷新记分卡后，将会看到这些更改。
 
 如果通过添加新组件来更新记分卡，则您可能需要再次共享记分卡（并选中&#x200B;**[!UICONTROL 共享嵌入的组件]**&#x200B;选项），以确保执行用户有权访问这些更改。
 
-### 使用可共享链接共享记分卡
+### 使用可共享链接共享记分卡 {#shareable-link}
 
-通过使用可共享链接，可以轻松地在电子邮件、文档或文本消息应用程序中共享记分卡。 可共享链接允许收件人在其桌面或功能板移动应用程序上打开记分卡。 可共享的深层链接更便于共享项目并提高与利益相关者的参与度。
+使用可共享链接可轻松地在电子邮件、文档或短信应用程序中共享记分卡。 可共享链接允许收件人在其桌面或功能板移动设备应用程序上打开记分卡。 可共享的深层链接使共享项目并促进与利益相关者的互动变得更加容易。
 
 使用可共享链接共享记分卡
 
@@ -350,11 +350,11 @@ Analytics 功能板提供了四种可视化图表，可让您深入了解维度�
 
    ![Share_Scorecards](assets/share-scorecard.png)
 
-1. 复制链接并将其粘贴到电子邮件、文档或IM应用程序中。
+1. 复制链接并将其粘贴到电子邮件、文档或即时消息应用程序中。
 
    当收件人使用桌面应用程序或浏览器打开链接时，将在工作区中打开移动记分卡项目。
 
-   当收件人在移动设备上打开链接时，评分卡将直接在Analytics功能板应用程序中打开。
+   当收件人打开移动设备上的链接时，记分卡将直接在Analytics功能板应用程序中打开。
 
-   如果收件人尚未下载移动设备应用程序，则会将他们定向到App Store或Google Play应用商店的应用程序列表，以供他们下载。
+   如果收件人尚未下载移动设备应用程序，则会被定向到App Store或Google Play应用商店中的应用程序列表，以便他们下载。
 
