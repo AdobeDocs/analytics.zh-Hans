@@ -5,16 +5,30 @@ subtopic: data feeds
 title: 数据馈送内容 - 概述
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 100%
+source-wordcount: '832'
+ht-degree: 92%
 
 ---
 
-# 数据馈送内容 - 概述
+# 数据馈送内容 — 概述
 
-本节介绍数据馈送提交中包含的文件。
+以下各节介绍如何访问和了解数据馈送交付中的文件。
+
+## 访问数据馈送内容
+
+要访问数据馈送的内容，请执行以下操作：
+
+1. 登录到数据馈送目标站点。
+
+   这是您在创建数据馈送时设置的目标站点，例如Amazon S3或Google Cloud Platform存储桶。
+
+1. 将压缩的数据馈送文件下载到本地计算机。
+
+1. 使用支持 `.tar.gz` 文件扩展名的程序解压已压缩文件。
+
+1. 在您选择的电子表格或数据库应用程序中打开 `hit_data.tsv` 文件，以查看当天的原始数据。 -->
 
 ## 清单文件 {#feed-manifest}
 

@@ -4,10 +4,10 @@ keywords: ftp;sftp
 title: 数据馈送
 feature: FTP Export
 exl-id: 286050fa-e197-4b70-b167-da6921615c1b
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 100%
+source-wordcount: '312'
+ht-degree: 89%
 
 ---
 
@@ -16,6 +16,11 @@ ht-degree: 100%
 数据馈送是对 Adobe 收到的点击流数据的导出，其中提供标准和自定义[数据馈送](/help/export/analytics-data-feed/data-feed-overview.md)。
 
 如果您已购买 Adobe Data Warehouse、[!UICONTROL Standard Data Feeds]，则可以自行设置您自己的 Analytics 数据馈送。可将它们发送到任何 FTP 帐户（无论是由 Adobe 设置的帐户还是外部 FTP）。Adobe 工程技术服务提供了几乎可通过任何方式发送的自定义[!UICONTROL 数据馈送]。
+
+>[!NOTE]
+>
+>以下信息与FTP和SFTP目标类型有关。 FTP和SFTP是旧版目标类型。 配置数据馈送时，您应使用更安全的云目标类型。
+
 
 [!UICONTROL 数据馈送] FTP 帐户允许 10 GB（默认情况下）。所有其他标准 FTP 帐户的默认限制为 50 MB。在客户端将 FTP 帐户用于适当用途的情况下，某些高流量用户可快速填满这些帐户。当 FPT 帐户已填满时，不可再向其推送任何其他文件。因此，传送给该 FTP 帐户的任何文件（[!UICONTROL 数据馈送]、数据仓库请求等）都不会被传送。正因如此，通过删除已接收和下载的文件来管理 Adobe FTP 帐户才会如此重要。
 

@@ -3,10 +3,10 @@ title: 数据馈送 UI
 description: 了解如何导览数据馈送界面。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 100%
+source-wordcount: '646'
+ht-degree: 97%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 ### 添加
 
-在“馈送”和“作业”选项卡附近，单击“+ [!UICONTROL 添加]”按钮可创建新馈送。有关详细信息，请参阅[添加馈送](create-feed.md)。
+在“馈送”和“作业”选项卡附近，单击“+ [!UICONTROL 添加]”按钮可创建新馈送。参见 [创建数据馈送](create-feed.md) 了解更多信息。
 
 ### 列
 
@@ -66,8 +66,8 @@ ht-degree: 100%
 * **报表包 ID**：报表包的唯一标识符。
 * **数据列**：用于馈送的活动数据列。在大多数情况下，列会因为太多而无法全部以此格式显示。
 * **间隔**：指示馈送的频率是每小时还是每天。
-* **目标类型**：馈送的目标类型。例如，FTP、Amazon S3 或 Azure。
-* **目标主机**：文件的放置位置。例如：`ftp.example.com`。
+* **目标类型**：馈送的目标类型。例如，Amazon S3、GCP或Azure。
+* **目标主机**：文件的放置位置。
 * **所有者**：创建馈送时所用的用户帐户。
 * **状态**：馈送的状态。
    * 活动：馈送正在运行。

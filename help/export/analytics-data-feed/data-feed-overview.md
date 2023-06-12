@@ -4,14 +4,18 @@ keywords: 点击流;数据馈送;数据馈送;数据馈送
 title: Analytics 数据馈送概述
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 98%
+source-wordcount: '622'
+ht-degree: 83%
 
 ---
 
 # Analytics 数据馈送概述
+
+>[!AVAILABILITY]
+>
+>此页面上描述的某些目标类型处于版本的有限测试阶段，可能尚未在您的环境中提供。 当该功能正式发布时，将删除此说明。有关 Analytics 发布流程的信息，请参阅 [Adobe Analytics 功能发布](/help/release-notes/releases.md)。
 
 数据馈送是从 Adobe Analytics 中获取原始数据的有效方法。此原始数据可在 Adobe 以外的其他平台中使用，具体所用平台由您的组织自行决定。数据在每小时结束时以小时为单位分批发送，或者在每天结束时以天为单位分批发送。
 
@@ -19,11 +23,12 @@ ht-degree: 98%
 
 在使用数据馈送之前，请确保您满足以下所有要求。
 
-* 有可用的 FTP 网站和凭据。数据馈送只能发送到服务器目标。您的组织通常会提供 FTP 凭据。Adobe 可以根据您的请求为 FTP 位置提供少量存储空间。联系客户关怀团队以请求获取数据馈送的 FTP 目标。
-* 将数据发送到 Adobe 数据收集服务器的有效实施。请参阅《实施用户指南》中的[验证和发布实施](/help/implement/launch/validate-publish-prod.md)。
+* 将数据发送到 Adobe 数据收集服务器的有效实施。参见 [验证和发布实施](/help/implement/launch/validate-publish-prod.md) 实施指南中的。
 * 您的帐户是 Analytics 产品管理员，或者属于有权访问数据馈送的产品配置文件。
+* 在Amazon S3、Google Cloud Platform、Azure RBAC或Azure SAS上配置的存储桶。
+* （旧版：仅旧版FTP和SFTP目标类型需要）便于使用FTP站点和凭据（由您的组织提供的FTP凭据）。
 
-## 入门步骤
+## 推荐的数据馈送资源
 
 1. 使用您的 Adobe ID 凭据登录 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 2. 单击右上角的 9 个正方形图标，然后单击彩色的 Analytics 徽标。
@@ -58,17 +63,15 @@ ht-degree: 98%
 
 了解获取数据馈送的基本工作流程后，您可以与组织内的团队合作，将原始数据存储或纳入到数据库中。
 
+* [数据馈送最佳实践](/help/export/analytics-data-feed/data-feeds-best-practices.md)：创建和管理数据馈送的最佳实践。
 * [创建数据馈送](create-feed.md)：有关创建数据馈送的技术详细信息，更加详细地阐述各个字段
 * [管理数据馈送](df-manage-feeds.md)：了解有关导览数据馈送界面的更多信息
-* [数据馈送内容](c-df-contents/datafeeds-contents.md)：了解压缩文件中包含的内容
-* [数据列定义](c-df-contents/datafeeds-reference.md)：所有可用列的完整列表
+* [数据馈送内容](c-df-contents/datafeeds-contents.md)：了解压缩文件中包含的内容 <!-- Is this still the output users can download from the destination? I aske Jun. -->
+* [数据列定义](c-df-contents/datafeeds-reference.md)：所有可用列的完整列表.
+* 导览数据馈送界面的视频：
 
-## 其他资源
+  >[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
 
-导览数据馈送界面的视频：
+* 有关如何查找数据馈送 ID 的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
-
-有关如何查找数据馈送 ID 的视频：
-
->[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)
+  >[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)
