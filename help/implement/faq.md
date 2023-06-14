@@ -4,7 +4,7 @@ description: 有关实施的常见问题，以及指向更多信息的链接。
 feature: Implementation Basics
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
 ht-degree: 100%
 
@@ -48,7 +48,6 @@ var s = new Object();
 >* 将报表包更改为无效值，因为它会在 Adobe 服务器上产生不必要的负载。
 >* 同时移除 `s_code.js` 文件，除非您还移除了每个页面上对该文件的所有引用。
 >* 更改 `trackingServer` 变量使其指向 Adobe 之外的服务器。AppMeasurement 仍会发送图像请求，这会返回 404 错误。
-
 
 ## 我通过代码分析器运行了 AppMeasurement，它将其 `Math.random()` 使用行为标记为潜在安全风险。`Math.random()` 是否用于任何敏感数据？
 
