@@ -4,7 +4,7 @@ description: AppMeasurement for JavaScript 的发行说明汇总。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: d2c291f7db465034ffadc4a2c1caf9639caf2a1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2319'
 ht-degree: 100%
 
@@ -376,24 +376,24 @@ ht-degree: 100%
 
 * 增加了 `tagContainerMarker` 变量，该变量允许实施指定最多 4 个字符和一个附加短划线字符分界符一起附加在版本字符串的后面。这被用于动态标签管理。
 
-   ```js
-   // JavaScript
-   s.tagContainerMarker = "D1.0";
-   
-   // Data Collection request
-   //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
-   ```
+  ```js
+  // JavaScript
+  s.tagContainerMarker = "D1.0";
+  
+  // Data Collection request
+  //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
+  ```
 
-   这 4 个字符仅限于在 URL 文件路径中允许使用的字符，例如字母数字和句点。
+  这 4 个字符仅限于在 URL 文件路径中允许使用的字符，例如字母数字和句点。
 
 * 在具有双标签和 H 代码的页面上，修复了在启用强制链接跟踪（在 Webkit 浏览器中默认启用）时在自动链接跟踪过程中（下载和退出）可能出现的循环。此外，在自动链接跟踪过程中增加了一般防护措施，防止出现相同的循环。该防护措施将&#x200B;*相同*&#x200B;对象的重复单击的自动链接跟踪频率限制为每 10 秒钟一次。该防护措施仅适用于自动链接跟踪，因此手动链接跟踪 (s.tl) 调用不受限制。另外，单击不同的对象不受该防护措施的影响，将会对此进行跟踪。
 * 修复了需要延迟时处理单击的对象的问题。
 * 修复了如果访客 API 尚未具有所需的值，从链接 onclick 函数调用 s.t 时导致双页面视图计数的问题。
 * HTTP POST 支持。
 
-   >[!IMPORTANT]
-   >
-   > 对于在 [!DNL Analytics] 中使用 POST 方法而不是 GET 方法（一种用于解决 [!DNL AppMeasurement]IE 中的截断 URL[ 的方法）的 ](https://helpx.adobe.com/cn/analytics/kb/shortening-image-request-urls.html) 调用，您必须对 Experience Cloud 使用最新的访客 ID 服务实施。
+  >[!IMPORTANT]
+  >
+  > 对于在 [!DNL Analytics] 中使用 POST 方法而不是 GET 方法（一种用于解决 [!DNL AppMeasurement]IE 中的截断 URL[ 的方法）的 ](https://helpx.adobe.com/cn/analytics/kb/shortening-image-request-urls.html) 调用，您必须对 Experience Cloud 使用最新的访客 ID 服务实施。
 
 ## 版本 1.4
 
@@ -482,11 +482,11 @@ ht-degree: 100%
 
 * 散列/片段现在被自动链接跟踪忽略。此前由于整个 `href` 以 `.pdf` 结束，因此自动对下面的 URL 进行了跟踪：
 
-   ```js
-   <a href="index.htm#anchor.pdf">Test Link</a>
-   ```
+  ```js
+  <a href="index.htm#anchor.pdf">Test Link</a>
+  ```
 
-   现在散列/片段被忽略，因此，只有当文件名以匹配的扩展名结束时，才会跟踪该链接。
+  现在散列/片段被忽略，因此，只有当文件名以匹配的扩展名结束时，才会跟踪该链接。
 
 ## 版本 1.0.1
 
