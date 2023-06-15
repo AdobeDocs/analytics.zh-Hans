@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 数据馈送内容 - 概述
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
+source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 92%
+source-wordcount: '981'
+ht-degree: 77%
 
 ---
 
@@ -81,24 +81,24 @@ Datafeed-Manifest-Version: 1.0
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
-* [!DNL column_headers.tsv]（针对此数据馈送自定义的规则）
-* [!DNL browser.tsv]
-* [!DNL browser_type.tsv]
-* [!DNL color_depth.tsv]
-* [!DNL connection_type.tsv]
-* [!DNL country.tsv]
-* [!DNL javascript_version.tsv]
-* [!DNL languages.tsv]
-* [!DNL operating_systems.tsv]
-* [!DNL plugins.tsv]
-* [!DNL resolution.tsv]
-* [!DNL referrer_type.tsv]
-* [!DNL search_engines.tsv]
-* [!DNL event_lookup.tsv]（针对此数据馈送自定义的规则）
+* **`column_headers.tsv`**：包含列标题的单个行 `hit_data.tsv`.
+* **`browser.tsv`**：映射浏览器ID( `browser` 的易记名称。
+* **`browser_type.tsv`**：映射浏览器ID( `browser` 馈送列)更改为浏览器类型。
+* **`color_depth.tsv`**：映射颜色深度ID( `color` 输入列)更改为颜色深度。
+* **`connection_type.tsv`**：映射连接类型ID( `connection_type` 馈送列)到连接类型。
+* **`country.tsv`**：映射国家/地区ID( `country` 馈送列)到国家/地区名称。
+* **`javascript_version.tsv`**：映射JavaScript版本ID( `javascript` 馈送列)。
+* **`languages.tsv`**：映射语言ID( `language` 馈送列)转换为语言。
+* **`operating_systems.tsv`**：映射操作系统ID( `os` ”输入到操作系统名称。
+* **`plugins.tsv`**：映射插件ID( `plugin` ”添加到每个相应的插件名称中。
+* **`resolution.tsv`**：映射分辨率ID( `resolution` 源)到显示器分辨率之间的映射。
+* **`referrer_type.tsv`**：映射反向链接类型ID( `ref_type` 馈送列)更改为反向链接类型。
+* **`search_engines.tsv`**：映射搜索引擎ID( `search_engine` ”添加到搜索引擎名称中。
+* **`event.tsv`**：映射每个事件ID( `event_list` 馈送列)，以将其添加到其各自的事件名称。
 
 ## 点击数据文件
 
-点击数据在 [!DNL hit_data.tsv] 文件中提供。此文件中的数据量由提交格式（每小时或每日、单个或多个文件）确定。此文件仅包含点击数据。列标题与对照文件分开提交。此文件中的每行均包含一个服务器调用。
+点击数据在 `hit_data.tsv` 文件中提供。此文件中的数据量由提交格式（每小时或每日、单个或多个文件）确定。此文件仅包含点击数据。列标题与对照文件分开提交。此文件中的每行均包含一个服务器调用。
 
 根据您所配置的数据馈送类型，Adobe 提交的文件会有所不同。所有文件都使用 ISO-8859-1 进行编码。
 

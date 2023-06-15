@@ -5,9 +5,9 @@ subtopic: data feeds
 title: 数据列引用
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
+source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
 workflow-type: tm+mt
-source-wordcount: '3670'
+source-wordcount: '3671'
 ht-degree: 98%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 98%
 >
 >大多数列中包含一个以 `post_` 为前缀的相似列。post 列包含应用服务器端逻辑、处理规则和 VISTA 规则后得出的值。大多数情况下，Adobe 建议使用 post_ 列。有关更多信息，请参阅[数据馈送常见问题解答](../df-faq.md)。
 
-此表的以前更新可在本页的 [在GitHub上提交历史记录](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
+此表格的先前更新可以在此页的 [在GitHub上提交历史记录](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
 
 | 列名称 | 列说明 | 数据类型 |
 | --- | --- | --- |
@@ -100,7 +100,7 @@ ht-degree: 98%
 | **`ipv6`** | 压缩的 IPv6 地址（如果有）。与 `ip` 互斥；如果此列包含未进行模糊处理的 IP 地址，则 `ip` 为空白。 | varchar(40) |
 | **`j_jscript`** | 浏览器支持的 JavaScript 版本。 | char(5) |
 | **`java_enabled`** | 表示 Java 是否已启用的标记。<br>Y：启用<br>N：禁用<br>U：未知 | char(1) |
-| **`javascript`** | JavaScript 版本的查找 ID，基于 `j_jscript`。使用查询表。 | 无符号 tinyint |
+| **`javascript`** | JavaScript 版本的查找 ID，基于 `j_jscript`。引用 `javascript_version` 查找表。 | 无符号 tinyint |
 | **`language`** | 语言的数值 ID。使用 `languages.tsv` 查询表。 | 无符号 smallint |
 | **`last_hit_time_gmt`** | 上次点击的时间戳（以 UNIX® 时间表示）。用于计算[上次访问后天数](/help/components/dimensions/days-since-last-visit.md)维度。 | int |
 | **`last_purchase_num`** | 在[客户忠诚度](/help/components/dimensions/customer-loyalty.md)维度中使用的变量。访客以前购买的次数。<br>0：之前没有购买（不是客户）<br>1：1 次先前购买（新客户）<br>2：2 次先前购买（退货客户）<br>3：3 次或更多先前购买（忠诚客户） | 无符号 int |

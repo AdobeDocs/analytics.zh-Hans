@@ -4,16 +4,18 @@ subtopic: Classifications
 title: 分类层次结构
 feature: Classifications
 exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 100%
+source-wordcount: '306'
+ht-degree: 97%
 
 ---
 
 # 分类层次结构
 
 “分类层次结构”页面可让您定义分类层次结构，将其用于创建具有相同名称的“层次结构”报表。
+
+**[!UICONTROL 分析]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报表包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 转化]** > **[!UICONTROL 分类层次结构]**
 
 ## 分类层次结构 {#concept_10A956342D7D4C3E9114CCFCE1364741}
 
