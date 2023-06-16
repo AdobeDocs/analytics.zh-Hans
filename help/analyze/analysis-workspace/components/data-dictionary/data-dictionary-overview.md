@@ -5,7 +5,7 @@ feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
 source-git-commit: 8b10464e8950a9afd647f6d8e08dd75ebdecb46e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '532'
 ht-degree: 100%
 
@@ -49,9 +49,9 @@ Analytics 管理员负责整理有关数据词典中每个组件的信息，并�
 
 * 直接在 Analysis Workspace 中更新组件描述。对数据词典中组件描述所做的任何更新都会反映在报告包中。
 
-   同样，对报告包中组件描述所做的任何更新都会反映在 Analysis Workspace 中。
+  同样，对报告包中组件描述所做的任何更新都会反映在 Analysis Workspace 中。
 
-   有关在 Analysis Workspace 或报告包中添加组件描述的更多信息，请参阅[添加组件描述](/help/analyze/analysis-workspace/components/add-component-descriptions.md)。
+  有关在 Analysis Workspace 或报告包中添加组件描述的更多信息，请参阅[添加组件描述](/help/analyze/analysis-workspace/components/add-component-descriptions.md)。
 
 ## 访问数据词典
 
@@ -59,12 +59,12 @@ Analytics 管理员负责整理有关数据词典中每个组件的信息，并�
 
 * 来自左边栏中的&#x200B;**数据词典**&#x200B;图标。
 
-   ![来自左边栏中的“数据词典”图标](assets/data-dictionary-access-icon.png)
+  ![来自左边栏中的“数据词典”图标](assets/data-dictionary-access-icon.png)
 
 * 来自组件信息弹出框内的&#x200B;**数据词典**&#x200B;图标。
 
-   ![信息弹出窗口中的“数据词典”图标](assets/data-dictionary-access-infopopover.png)
-   <!--update screenshot; this was taken from a mock-->
+  ![信息弹出窗口中的“数据词典”图标](assets/data-dictionary-access-infopopover.png)
+  <!--update screenshot; this was taken from a mock-->
 
 * 从菜单：[!UICONTROL **帮助**] > [!UICONTROL **数据词典**]。
 
@@ -84,12 +84,12 @@ Analytics 管理员负责为其组织维护健康的数据词典，如[监控数
 
 * 将其拖动到 Analysis Workspace 中的任何区域
 
-   如果您关闭并重新打开 Analysis Workspace，“数据词典”窗口将保留在您上次移动它的位置上。<!--True?-->
+  如果您关闭并重新打开 Analysis Workspace，“数据词典”窗口将保留在您上次移动它的位置上。<!--True?-->
 
 * 将其最小化
 
-   最小化时，数据词典在 Analysis Workspace 的右下角显示为蓝色选项卡。
+  最小化时，数据词典在 Analysis Workspace 的右下角显示为蓝色选项卡。
 
-   当您选择蓝色选项卡时，数据词典将打开您最近查看的组件。
+  当您选择蓝色选项卡时，数据词典将打开您最近查看的组件。
 
 * 将其关闭
