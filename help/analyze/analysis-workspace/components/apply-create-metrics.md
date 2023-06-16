@@ -5,65 +5,65 @@ feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
 source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '416'
-ht-degree: 24%
+ht-degree: 100%
 
 ---
 
-# 度量
+# 指标
 
-量度允许您量化Analysis Workspace中的数据点。 它们最常用作可视化图表中的列，并与维度关联。
+指标允许您量化 Analysis Workspace 中的数据点。它们最常用作可视化中的列，并与维度相关联。
 
-## 量度类型
+## 指标类型
 
-Adobe提供了多种类型的量度以用于Analysis Workspace：
+Adobe 提供了多种类型的指标，可供在 Analysis Workspace 中使用：
 
-* **标准量度**：您在项目中使用的大多数量度都是标准量度。 示例包括 [页面查看次数](/help/components/metrics/page-views.md)， [收入](/help/components/metrics/revenue.md)，或 [自定义事件](/help/components/metrics/custom-events.md). 参见 [量度概述](/help/components/metrics/overview.md) 有关更多信息，请参阅组件用户指南。
+* **标准指标**：您在项目中使用的大多数指标都是标准指标。相关例子包括[页面浏览量](/help/components/metrics/page-views.md)、[收入](/help/components/metrics/revenue.md)或者[自定义事件。](/help/components/metrics/custom-events.md)有关更多信息，请参阅组件用户指南中的[指标概述。](/help/components/metrics/overview.md)
 
-   ![标准量度](assets/standard-metric.png)
+  ![标准指标](assets/standard-metric.png)
 
-* **计算量度**：基于标准指标、静态数字或算法函数的用户定义指标。 用户定义的计算指标在可用组件列表中显示计算器图标。 参见 [计算量度概述](/help/components/c-calcmetrics/cm-overview.md) 有关更多信息，请参阅组件用户指南。
+* **计算指标**：基于标准指标、静态数字或算法函数的由用户定义的指标。用户定义的计算指标会在可用组件列表中显示一个计算器图标。有关更多信息，请参阅组件用户指南中的[计算指标概述。](/help/components/c-calcmetrics/cm-overview.md)
 
-   ![计算量度](assets/calculated-metric.png)
+  ![计算指标](assets/calculated-metric.png)
 
-* **计算量度模板**：Adobe定义的指标，其行为与计算指标类似。 您可以在工作区项目中按原样使用它们，也可以保存副本以自定义其逻辑。 计算指标模板在可用组件列表中显示Adobe图标。
+* **计算指标模板**：Adobe 定义的指标，其行为类似于计算指标。您可以在 Workspace 项目中按原样使用它们，或保存副本以自定义其逻辑。计算指标模板会在可用组件列表中显示一个 Adobe 图标。
 
-   ![计算量度模板](assets/calculated-metric-template.png)
+  ![计算指标模板](assets/calculated-metric-template.png)
 
-## 在Analysis Workspace中使用量度
+## 在 Analysis Workspace 中使用指标
 
-可以在Analysis Workspace中以各种方式使用量度。 您可以:
+指标可以在 Analysis Workspace 中以各种方式使用。您可以:
 
-* 将量度拖动到空的自由格式表中，可查看在项目的日期时段内该量度的趋势。
+* 将一个指标拖到一个空的自由格式表中，以查看该指标在项目日期期间的趋势。
 
-* 当存在维度时，拖动一个量度以查看该量度与每个维度项目的比较。
+* 存在维度时拖动一个指标，以查看该指标与每个维度项的比较。
 
-* 将指标拖动到现有指标标题上以替换该指标。
+* 将一个指标拖到现有指标标题的顶部即可替换它。
 
-* 将指标拖动到标题旁边，可并排查看这两个指标。
+* 将一个指标拖到标题旁边可以并排查看两个指标。
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
-## 计算量度
+## 计算指标
 
-计算量度允许您使用简单的运算符或统计函数轻松查看量度之间的相互关系。 可通过以下几种方式创建计算量度：
+通过计算指标，您可以使用简单的运算符或统计函数轻松查看指标之间的相互关系。可通过以下几种方式创建计算指标：
 
-* 单击左侧组件列表下“量度”标题旁边的加号图标。
-* 导航到 **[!UICONTROL 组件]** > **[!UICONTROL 计算量度]** > **[!UICONTROL 添加]**.
-* 右键单击列标题> **[!UICONTROL 从所选内容创建量度]** 选择一个或多个标题列单元格时。 此选项会自动为您创建计算指标，而无需使用计算指标规则生成器。
+* 单击左侧组件列表下“指标”标题旁边的加号图标。
+* 导航到&#x200B;**[!UICONTROL 组件]** > **[!UICONTROL 计算指标]** > **[!UICONTROL 添加]**。
+* 选择一个或多个标题列单元格时，右键单击列标题 > **[!UICONTROL 从所选内容创建指标]**。此选项会自动为您创建计算指标，而无需使用计算指标规则构建器。
 
-[计算量度：无实施量度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=zh-Hans) (3:42)
+[计算指标：无实施指标](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=zh-Hans) (3:42)
 
-## 比较不同归因模型的量度
+## 比较不同归因模型的指标
 
-如果您希望轻松快速地将一个归因模型与另一个进行比较，请右键单击某个量度并选择&#x200B;**[!UICONTROL 比较归因模型]**：
+如果您希望轻松快速地将一个归因模型与另一个进行比较，请右键单击某个指标并选择&#x200B;**[!UICONTROL 比较归因模型]**：
 
 ![比较归因模型](assets/compare-attribution.png)
 
-此快捷键可让您快速、轻松地将一个归因模型与另一个归因模型进行比较，而无需将归因模型拖动到某个量度中且不必对其进行两次配置。
+此快捷键可让您快速、轻松地将一个归因模型与另一个归因模型进行比较，而无需将归因模型拖动到某个指标中且不必对其进行两次配置。
 
-## 使用[!UICONTROL 累积平均]函数应用量度平滑
+## 使用[!UICONTROL 累积平均]函数应用指标平滑
 
 以下是一段关于该主题的视频：
 
