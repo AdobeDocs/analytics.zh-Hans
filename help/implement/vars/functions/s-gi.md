@@ -4,9 +4,9 @@ description: 创建和跟踪 AppMeasurement 实例。
 feature: Variables
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -14,18 +14,18 @@ ht-degree: 73%
 
 `s_gi()` 函数按报表包 ID 实例化或查找 AppMeasurement 的实例。AppMeasurement 会保持跟踪每个创建的实例，`s_gi()` 会为报表包返回现有实例（如果存在）。如果实例不存在，则会创建一个新实例。
 
-## 使用Web SDK扩展实例化跟踪对象
+## 使用 Web SDK 扩展实例化跟踪对象
 
-Web SDK扩展可为您实例化和管理跟踪对象。 但是，您可以在扩展设置中自定义跟踪对象名称：
+Web SDK 扩展可为您实例化并管理跟踪对象。但是，您可以在扩展设置中自定义跟踪对象名称：
 
-1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection?lang=zh-Hans)。
+1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
-1. 转到 [!UICONTROL 扩展] 选项卡，然后单击 **[!UICONTROL 配置]** Adobe Experience Platform按钮。
-1. 更改 [!UICONTROL 名称] 字段到所需的值。 其默认值为 `alloy`。
+1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Experience Platform Web SDK 下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
+1. 将[!UICONTROL 名称]字段更改为所需的值。其默认值为 `alloy`。
 
-## 手动实施Web SDK实例化跟踪对象
+## 手动对执行 Web SDK 的跟踪对象进行实例化
 
-以下代码加载Web SDK并实例化跟踪对象。 您可以通过更改字符串来自定义跟踪对象名称 `"alloy"` 将内联脚本末尾的值调整为所需的值。
+以下代码会加载 Web SDK 并实例化一个跟踪对象。您可以通过将内联脚本末尾的字符串`"alloy"`更改为所需值来自定义跟踪对象名称。
 
 ```js
 <script>
@@ -37,9 +37,9 @@ Web SDK扩展可为您实例化和管理跟踪对象。 但是，您可以在扩
 <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.min.js" async></script>
 ```
 
-参见 [安装SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hans) 有关更多信息，请参阅Web SDK文档。
+请参阅 Web SDK 文档中的[安装 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)，以获取更多信息。
 
-## 使用Adobe Analytics扩展实例化跟踪对象
+## 使用 Adobe Analytics 扩展实例化跟踪对象
 
 Analytics 扩展可为您实例化和管理跟踪对象。但是，在配置 Adobe Analytics 扩展时，您还可以在[!UICONTROL 库管理]折叠面板中设置全局跟踪对象。
 
@@ -50,7 +50,7 @@ Analytics 扩展可为您实例化和管理跟踪对象。但是，在配置 Ado
 
 全局变量文本字段允许您设置自定义跟踪对象。其默认值为 `s`。
 
-## AppMeasurement和Analytics扩展自定义代码编辑器中的s_gi()
+## AppMeasurement 和 Analytics 扩展代码编辑器中的 s_gi()
 
 调用 `s_gi()` 函数以实例化跟踪对象。其唯一参数包含以逗号分隔的报表包 ID 字符串。报表包 ID 参数为必需参数。
 
