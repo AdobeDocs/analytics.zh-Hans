@@ -4,10 +4,10 @@ solution: Analytics
 title: 服务器端转发概述
 feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 100%
+source-wordcount: '826'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 >当前使用 Analytics 的 Audience Manager 客户应当迁移到服务器端转发。新的 Adobe Analytics 和 Audience Manager 客户应当实施服务器端转发（而不是 DIL）作为默认的数据收集和传输方法。
 
 >[!IMPORTANT]
->根据欧盟 Cookie 合规条例的规定，数据控制方（Analytics 客户）现在可以选择将预先同意的数据限制在 Adobe Analytics 中，并阻止将这些数据经由服务器端转发至 Adobe Audience Manager (AAM)。新的实施环境变量可以让您标记出在未获得同意的情况下的点击量。设置了该变量后，它可以阻止将这些点击量发送到 AAM，直至获得同意为止。有关更多信息，请参阅 [GDPR_ePrivacy 合规和服务器端转发](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)。
+>根据欧盟 Cookie 合规条例的规定，数据控制方（Analytics 客户）现在可以选择将预先同意的数据限制在 Adobe Analytics 中，并阻止将这些数据经由服务器端转发至 Adobe Audience Manager. 新的实施环境变量可以让您标记出在未获得同意的情况下的点击量。变量设置后，可在征得同意之前阻止将这些点击发送到Adobe Audience Manager。 有关更多信息，请参阅 [GDPR_ePrivacy 合规和服务器端转发](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)。
 
 要了解您的组织在实施服务器端转发方面的进展，请执行以下验证步骤：
 
@@ -49,12 +49,12 @@ ht-degree: 100%
 * **&quot;status&quot;:&quot;SUCCESS&quot;**：表示您已经实施了受众管理模块，但是还没有正确配置服务器端转发。继续执行步骤 3。
 * **2 x 2 图像**：表示您没有实施服务器端转发或受众管理模块。要纠正这一问题，请执行以下操作：
 
-   * **具有 DIL 的 AAM 客户**：调整以下 2 个项目以使其紧密配合工作：
+   * **具有DIL的Adobe Audience Manager客户**：紧密协调以下2项：
 
       1. 删除 DIL 代码并安装[受众管理模块](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)页面代码。
       1. 按照步骤 3 中所述，在 Analytics 管理员用户界面中启用服务器端转发。如果在删除 DIL 代码之前启用该设置，则将复制数据并创建对 Audience Manager 的额外计费服务器调用。
-   * **新 AAM 客户** — 安装[受众管理模块](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)页面代码并继续执行步骤 3。在步骤 3 中开启了服务器端转发之后，才会将数据发送到 Audience Manager。
 
+   * **新的Adobe Audience Manager客户**  — 安装 [受众管理模块](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) 页面代码并继续执行步骤3。 在步骤 3 中开启了服务器端转发之后，才会将数据发送到 Audience Manager。
 
 ## ![step3_icon.png 图像](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) 验证报表包的服务器端转发实施
 

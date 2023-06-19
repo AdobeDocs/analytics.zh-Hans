@@ -3,10 +3,10 @@ title: 促销 eVar 和产品查找方法
 description: 深入了解促销 eVar 背后的概念以及它们如何处理和分配数据。
 feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '5289'
-ht-degree: 100%
+source-wordcount: '5297'
+ht-degree: 97%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 * `eVar2` 等于搜索中使用的关键词（“凉鞋”）
 * `eVar1` 等于使用的产品查找方法（“内部关键词搜索”）。
 
-当您将这两个变量设置为等于这些特定值时，便知道该访客正使用“凉鞋”这一内部搜索关键词来查找产品。与此同时，您知道该访客并未使用其他的产品查找方法来查找产品（例如，该访客并未在执行关键词搜索的同时浏览产品类别）。为确保按产品进行适当分配，这些未使用的方法不应该因为查找通过内部关键词搜索找到的产品而获得点数。因此，您必须在代码（例如 AppMeasurement、AEP Web SDK 等）中插入逻辑，以自动将与这些其他查找方法关联的 eVar 设置为等于“非查找方法”值。
+当您将这两个变量设置为等于这些特定值时，便知道该访客正使用“凉鞋”这一内部搜索关键词来查找产品。与此同时，您知道该访客并未使用其他的产品查找方法来查找产品（例如，该访客并未在执行关键词搜索的同时浏览产品类别）。为确保按产品进行适当分配，这些未使用的方法不应该因为查找通过内部关键词搜索找到的产品而获得点数。因此，您必须在代码(例如AppMeasurement、Adobe Experience Platform Web SDK等)中插入逻辑，以自动将与其他这些查找方法关联的eVar设置为等于“非查找方法”值。
 
 例如，当用户使用关键词“凉鞋”搜索产品时，Analytics 代码的逻辑应在内部关键词搜索结果页面上将变量设置为等于以下内容：
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 
 此选项不适用于标准 eVar。通过[!UICONTROL 促销]设置，您可以选择[!UICONTROL 转化变量语法]或[!UICONTROL 产品语法]作为捕获促销 eVar 值的方法。
 
-**[!UICONTROL 转化变量语法]**&#x200B;意味着您在其自身变量中设置 eVar 值。例如，使用转化变量语法，“内部关键词搜索”的 `eVar1` 值在页面代码（或 AppMeasurement 代码、AEP Web SDK 代码等）中设置如下：
+**[!UICONTROL 转化变量语法]**&#x200B;意味着您在其自身变量中设置 eVar 值。例如，使用转化变量语法， `eVar1` “内部关键词搜索”的值在页面代码(或AppMeasurement代码、Adobe Experience Platform Web SDK代码等)中设置如下：
 
 `s.eVar1="internal keyword search";`
 
@@ -271,11 +271,11 @@ s.products=";sandal123;;;;eVar4=womens > shoes > sandals|eVar1=browse|eVar3=non-
 
 ### 使用转化变量语法
 
-我们回到“产品语法”与“转化变量语法”的问题上来。Adobe 发现了一种更简单的方法，既可以收集促销 eVar 的产品查找方法，又可以将其值捆绑到访客找到的产品：使用转化变量语法可减少客户开发人员负责的实施工作。它仍然提供与产品语法方法相同甚至更有用的信息。开发人员只需按照给出的部署说明进行操作，其余代码可以放入 Adobe AppMeasurement/AEP Web SDK 文件中。
+我们回到“产品语法”与“转化变量语法”的问题上来。Adobe 发现了一种更简单的方法，既可以收集促销 eVar 的产品查找方法，又可以将其值捆绑到访客找到的产品：使用转化变量语法可减少客户开发人员负责的实施工作。它仍然提供与产品语法方法相同甚至更有用的信息。开发人员只需按照给出的部署说明进行操作，其余代码可以放入Adobe AppMeasurement/Adobe Experience Platform Web SDK文件中。
 
 例如，我们来看看推荐的用于跟踪内部关键词搜索性能的解决方案。它说的是，在关键词搜索结果页面上，代码捕获通过一个 prop（如 prop4）和另一个 prop（如 prop5）搜索的关键词。这些 prop 跟踪搜索结果的数量。每当在搜索结果页面上生成 Adobe Analytics 图像请求时，它都会使用开发人员部署的数据层对象（或页面代码）来填充上述变量 (prop)。
 
-AppMeasurement/AEP Web SDK 文件中包含的附加逻辑可以填充需要同时设置的其余变量（促销 eVar/维度）。\
+AppMeasurement/Adobe Experience Platform Web SDK文件中包含的其他逻辑可以填充需要同时设置的其余变量（推销eVar/维度）。\
 例如，如果新访客要对“凉鞋”进行关键词搜索（搜索结果页面上返回了 25 个结果），则要触发的代码（通过页面代码或数据层捕获）将如下所示：
 
 ```js

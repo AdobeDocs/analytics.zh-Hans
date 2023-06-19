@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Audience Analytics 常见问题解答。
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 100%
+source-wordcount: '1126'
+ht-degree: 76%
 
 ---
 
@@ -41,13 +41,13 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## AAM 特定的常见问题解答 {#section_6BDF746BA6464359A6A89A64EB025D12}
+## Adobe Audience Manager特定的常见问题解答 {#section_6BDF746BA6464359A6A89A64EB025D12}
 
 <table id="table_15B44592161240BDA79F3B020EA9CC9D"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>问：我如何在 Audience Manager 中创建 Analytics 目标？</b> </p> </td> 
-   <td colname="col2"> 请参阅<a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=zh-Hans"  >在 AAM 中配置 Analytics 目标</a>。 </td> 
+   <td colname="col2"> 参见 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=zh-Hans"  > 在Adobe Audience Manager中配置Analytics目标 </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：在创建并保存了 Analytics 目标之后，需要多久才会在我选择的报表包中显示数据？</b> </p> </td> 
@@ -58,7 +58,7 @@ ht-degree: 100%
    <td colname="col2"> <p>当您在<span class="uicontrol">区段映射</span>中选择<span class="uicontrol">自动映射所有当前和未来区段</span>选项时，Analytics 目标就会从区段的“目标映射”部分中消失。 </p> <p><img placement="break" align="left"  src="assets/auto-mapping.png" id="image_670ED5A306784FCBA8A0B336AC1F0FC6" width="300px" /> </p> <p>要防止出现这种情况，请选择<span class="uicontrol">手动映射区段</span>，而不要选择自动选项。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>问：Analytics 是否会为我提供 AAM 中的所有信息？</b> </p> </td> 
+   <td colname="col1"> <p> <b>问：Analytics是否会为我提供Adobe Audience Manager中的所有信息？</b> </p> </td> 
    <td colname="col2"> <p>不会，仅提供 Audience Manager 受众启用期间或之后，以及区段鉴定期间或之后访问您站点的用户相关数据。 </p> </td> 
   </tr> 
   <tr> 
@@ -90,27 +90,27 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：为何我无法看到在 Analytics 中传入的数据？</b> </p> </td> 
-   <td colname="col2"> <p>数据源与数据目标之间的 AAM 隐私控件可能存在冲突。 </p> </td> 
+   <td colname="col2"> <p>数据源与目标之间的Adobe Audience Manager隐私控制可能存在冲突。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：为何我的某些区段在 Analytics 中丢失，即使我选择发送所有区段也是如此？</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_B8938FD08C6F4F2387EDADDEF8089319"> 
-     <li id="li_50A9BDF612304062913370F16BC882EF">您的目标和区段数据源中的 AAM 数据导出控件可能存在冲突，这会阻止发送某些区段。 </li> 
+     <li id="li_50A9BDF612304062913370F16BC882EF">目标和区段数据源中的Adobe Audience Manager数据导出控件可能存在冲突，这会阻止发送某些区段。 </li> 
      <li id="li_AF5D6F883D6F4D3192E0BF23CF12ADEA">如果您在区段中使用第三方数据特征，这些区段无法共享到包含个人数据的目标（一组报表包）。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：为什么我在 Analytics 报表中看到“已达到受众限制”？（注意：这在 Data Warehouse 中还将表示为 Audience ID = -1 和 "::max_audiences_exceeded::"）</b> </p> </td> 
-   <td colname="col2"> <p>默认情况下，AAM 的 Audience Analytics 集成会根据点击将访客有资格使用的所有区段都发送到 Analytics。如果访客在一次点击中从属于 150 个以上的 AAM 区段，则将<b>最近获得授权的 150 个区段</b>发送到 Analytics，而剩余的列表将被截断。 </p> <p>此外，还会向 Analytics 发送一个标记，指示区段列表被截断，该标记在“受众名称”维度中显示为“已达到受众限制”，在“受众 ID”维度中显示为“-1”。 </p> <p>虽然访客不太可能在一次点击中有资格使用 150 个以上的区段，但这种情况依然有极小的概率发生。如果您在报表中遇到“已达到受众限制”，可选择以下两个选项： </p> 
+   <td colname="col2"> <p>默认情况下，Adobe Audience Manager的Audience Analytics集成会将访客符合条件的所有区段按点击发送到Analytics。 如果某位访客在一次点击中属于超过150个Adobe Audience Manager区段，则 <b>150个最近符合条件的区段</b> 发送到Analytics，而其余列表被截断。 </p> <p>此外，还会向 Analytics 发送一个标记，指示区段列表被截断，该标记在“受众名称”维度中显示为“已达到受众限制”，在“受众 ID”维度中显示为“-1”。 </p> <p>虽然访客不太可能在一次点击中有资格使用 150 个以上的区段，但这种情况依然有极小的概率发生。如果您在报表中遇到“已达到受众限制”，可选择以下两个选项： </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>选项 1</b>：继续让集成保持现有工作状态，这会为特定访客发送最近获得授权的 150 个区段。 </li> 
-     <li id="li_CA4D5747AA4A4452929097807B604959"><b>选项 2</b>：在 AAM 中，选择对您的集成业务最为重要的 150 个区段。AAM 随后仅针对这 150 个区段检查访客。此方法的缺点在于您只能收到所有访客间的这 150 个区段。而在另一方面，选项 1 方法因为集成的每次点击特性可提供无限的区段。 </li> 
+     <li id="li_CA4D5747AA4A4452929097807B604959"><b>选项2</b>：在Adobe Audience Manager中，选择对您的业务最重要的150个区段进行集成。 然后，Adobe Audience Manager仅根据这150个区段检查访客。 此方法的缺点在于您只能收到所有访客间的这 150 个区段。而在另一方面，选项 1 方法因为集成的每次点击特性可提供无限的区段。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：对于该集成，额外的服务器调用会记入 Analytics 吗？</b> </p> </td> 
-   <td colname="col2"> <p>不会。AAM 受众将整合到 Analytics 点击服务器端。这不会对 Analytics 引发额外的服务器调用（主要或次要）。 </p> </td> 
+   <td colname="col2"> <p>不会。Adobe Audience Manager受众将纳入Analytics点击服务器端。 这不会对 Analytics 引发额外的服务器调用（主要或次要）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,7 +121,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>问：如果我实施了旧版 SSF，我还需要转至 Analytics 管理员，开启报表包 SSF 吗？</b> </p> </td> 
-   <td colname="col2"> <p>是的。在 AAM 目标设置中，您将只会看到开启了 SSF 的报表包。 </p> </td> 
+   <td colname="col2"> <p>是的。在Adobe Audience Manager目标设置中，您将只看到启用了SSF的报表包。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：为何我无法在 Analytics 管理员中为某些报表包开启 SSF？</b> </p> </td> 
@@ -141,12 +141,12 @@ ht-degree: 100%
    <td colname="col2"> <p>请参阅<a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  >访客计数差异 </a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>问：AAM 中的“受众”和 Analytics 中的“区段”之间有哪些区别？</b> </p> </td> 
-   <td colname="col2"> <p>请参阅<a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > 了解 Analytics 和 Audience Manager 中的区段 </a>。 </p> <p>AAM 受众将作为要在 Analytics 中使用的“维度”组件发送和共享。它们不会在区段生成器之类的地方显示为区段，但是会作为您可用来构建区段的维度。 </p> </td> 
+   <td colname="col1"> <p><b>问：Adobe Audience Manager中的“受众”与Analytics中的“区段”有何区别？</b> </p> </td> 
+   <td colname="col2"> <p>参见 <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > 了解Analytics和Audience Manager中的区段 </a>. </p> <p>Adobe Audience Manager受众作为要在Analytics中使用的“维度”组件进行发送和共享。 它们不会在区段生成器之类的地方显示为区段，但是会作为您可用来构建区段的维度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>问：客户属性和集成自 AAM 的客户数据之间有哪些区别？</b> </p> </td> 
-   <td colname="col2"> <p>客户属性不基于时间；它们可按逆向和前向应用。AAM 集成数据基于时间，并且只能前向应用。此外，客户属性是用于 Experience Cloud 访客 ID 的查询表，而 AAM 集成是拼结到每次访客点击的数据。 </p> </td> 
+   <td colname="col1"> <p><b>问：从Adobe Audience Manager集成的客户属性和客户数据之间有何区别？</b> </p> </td> 
+   <td colname="col2"> <p>客户属性不基于时间；它们可按逆向和前向应用。Adobe Audience Manager集成数据是基于时间的，并且仅用于前进。 此外，客户属性是Experience Cloud访客ID的查找表，而Adobe Audience Manager集成是将数据拼合到访客的每次点击中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>问：针对该问题的旧方法效果如何，比如，旧的测试版或咨询插件 Cookie 目标？</b> </p> </td> 

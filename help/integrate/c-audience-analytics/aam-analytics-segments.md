@@ -3,10 +3,10 @@ description: Analytics 和 Audience Manager 均使用区段。但是，Analytics
 title: 了解 Analytics 和 Audience Manager 中的区段
 feature: Audience Analytics
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 100%
+source-wordcount: '739'
+ht-degree: 96%
 
 ---
 
@@ -35,13 +35,13 @@ Analytics 区段是一种对报表数据进行过滤的机制。不同于在 Aud
 
 * Analytics 区段所处理的数据不同于 Audience Manager 区段。在数据收集期间，Analytics 会对数据应用许多不同的后期处理步骤，而这些步骤对 Audience Manager 不可用。后期处理可包括 eVar 持久性、处理规则、查找（地理位置、移动设备）、VISTA 及许多其他内容。Audience Manager 通过服务器端转发（或 DIL）接收预处理数据。
 
-   在将 Analytics 中基于永不过期维度的区段与 Audience Manager 中的相同区段进行比较时，常见数据会出现差异。例如，永不过期的 listVar 或促销 eVar。
+  在将 Analytics 中基于永不过期维度的区段与 Audience Manager 中的相同区段进行比较时，常见数据会出现差异。例如，永不过期的 listVar 或促销 eVar。
 
-   例如，如果 eVar = blue 并在 Analytics 中设置为永不过期，则 Analytics 中任何具有标准“eVar = blue”的区段都将始终包含该访客。然而，在 Audience Manager 中，该访客在一定的时间段后可能会从具有类似定义的区段中流失。
+  例如，如果 eVar = blue 并在 Analytics 中设置为永不过期，则 Analytics 中任何具有标准“eVar = blue”的区段都将始终包含该访客。然而，在 Audience Manager 中，该访客在一定的时间段后可能会从具有类似定义的区段中流失。
 
-* Analytics 区段比 AAM 区段具有更多的功能。Audience Manager 区段始终在访客级别进行评估。Analytics 区段可在访客、访问或点击级别（或这些级别的组合）进行定义。此外，Analytics 还支持一些 Audience Manager 没有的高级分段功能，如连续分段。
+* Analytics区段比Adobe Audience Manager区段具有更多功能。 Audience Manager 区段始终在访客级别进行评估。Analytics 区段可在访客、访问或点击级别（或这些级别的组合）进行定义。此外，Analytics 还支持一些 Audience Manager 没有的高级分段功能，如连续分段。
 * 如前所述，Audience Manager 可以进入或退出区段，具体取决于他们在当前时间点是否符合区段标准。
 
-   相反，在 Analytics 中，将根据报告的日期范围在区段中包含或排除访客。例如有一名访客在上月进行了一次购买。在 AAM 中，这名访客将包含在“购买者”区段中，而不考虑日期范围。在 Analytics 中，基于本月的报表将不会在区段中包含该访客。而基于本月和上月的报表将在区段中包含该访客。
+  相反，在 Analytics 中，将根据报告的日期范围在区段中包含或排除访客。例如有一名访客在上月进行了一次购买。在Adobe Audience Manager中，无论日期范围如何，该访客都将包含在“购买者”区段中。 在 Analytics 中，基于本月的报表将不会在区段中包含该访客。而基于本月和上月的报表将在区段中包含该访客。
 
 有关详细信息，请参阅 [Analytics 分段指南。](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hans)

@@ -3,10 +3,10 @@ title: getPageLoadTime
 description: 跟踪页面加载所用的时间。
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 88%
+source-wordcount: '586'
+ht-degree: 86%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 88%
 
 ## 使用Web SDK或Web SDK扩展安装此插件
 
-尚不支持在Web SDK中使用此插件。
+尚不支持将此插件用于Web SDK。
 
 ## 使用Adobe Analytics扩展安装插件
 
-Adobe提供了一个扩展，允许您将最常用的插件与Adobe Analytics一起使用。
+Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与Adobe Analytics结合使用。
 
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 1. 单击所需的标记属性。
@@ -96,7 +96,7 @@ if(window._pltPreviousPage)
 
 ### 3.0（2022 年 12 月 6 日）
 
-* 完全重写插件以使其与解决方案无关。例如，它现在与 AEP Web SDK 兼容
+* 完全重写插件以使其与解决方案无关。例如，它现在与Adobe Experience Platform Web SDK兼容
 * 在窗口对象（而不是 AppMeasurement s 对象）中创建 `_pltPreviousPage` 和 `_pltLoadTime` 变量
 * 消除了对 s_pltp Cookie 的需求；现在，所有内容都只存储在 s_plt Cookie 中
 * 包括 getVersion 函数以帮助进行故障排除

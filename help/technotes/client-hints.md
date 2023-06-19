@@ -2,10 +2,10 @@
 title: 客户端提示
 description: 了解客户端提示将如何逐渐取代 User-Agent 作为设备信息的来源。
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 3b1777d48d4661a558b5be2cb09b822bf349ee76
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 95%
+source-wordcount: '1295'
+ht-degree: 87%
 
 ---
 
@@ -29,7 +29,7 @@ Google 将 User-Agent 客户端提示分为两类：低熵提示和高熵提示�
 >
 > 截至 2023 年 1 月，某些版本的 Mac 和 Windows 操作系统在用户代理中未正确显示，但在高熵客户端提示中正确表示。 有关更多信息，请参阅[操作系统](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hans)。
 
-AAM 需要收集高熵提示以保留完整功能。 如果您正在使用[服务器端转发到 AAM 功能](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hans)，则您可能希望启用高熵提示的收集。
+Adobe Audience Manager需要收集高熵提示以保留完整功能。 如果您使用 [服务器端转发到Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hans) 然后，您可能希望启用高熵提示的收集。
 
 ## 常见问题解答
 
@@ -143,7 +143,7 @@ Adobe 使用第三方 Device Atlas，后者同时使用客户端提示和用户�
 
 +++
 
-+++**能否在通过 Adobe Source Connector 发送到 AEP 和 CJA 的数据中找到客户端提示？**
++++**通过Adobe源连接器发送到Adobe Experience Platform和Customer Journey Analytics的数据中是否会提供客户端提示？**
 
 Adobe 计划在 2023 年上半年在通过 Adobe Source Connector 发送的数据中加入客户端提示。
 
@@ -155,8 +155,8 @@ Adobe 计划在 2023 年上半年在通过 Adobe Source Connector 发送的数�
 
 +++
 
-+++**AAM 服务器端转发是否支持客户端提示？**
++++**Adobe Audience Manager服务器端转发是否支持客户端提示？**
 
-是的。客户端提示将包含在转发给 AAM 的数据中。请注意，AAM 需要收集高熵提示以保留完整功能。如果您正在使用[服务器端转发到 AAM 功能](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hans)，则您可能希望启用高熵提示的收集。
+是的。客户端提示将包含在转发到Adobe Audience Manager的数据中。 请注意，Adobe Audience Manager需要收集高熵提示以保留完整功能。 如果您使用 [服务器端转发到Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hans) 然后，您可能希望启用高熵提示的收集。
 
 +++

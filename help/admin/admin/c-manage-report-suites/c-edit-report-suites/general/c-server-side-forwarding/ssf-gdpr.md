@@ -3,10 +3,10 @@ description: 阐述欧盟 Cookie 监管法规促成的服务器端转发改进�
 title: GDPR/ePrivacy 合规和服务器端转发
 feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '561'
+ht-degree: 60%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 服务器端转发用于实时将数据从 Adobe Analytics 共享到其他 [!DNL Experience Cloud Solutions]，例如 Audience Manager。启用服务器端转发后，Analytics 还可在数据收集过程中将数据推送到其他 Experience Cloud 解决方案，并且这些解决方案可将数据推送到 Analytics。
 
-以前，服务器端转发无法区分同意和同意前的事件/点击。从 2018 年 11 月 1 日起，数据控制方（Adobe Analytics 客户）可以选择将预先同意的数据限制在 Adobe Analytics 中，并阻止将其转发到 AAM。新的实施环境变量可以让您标记出在未获得同意的情况下的点击量。设置了该变量后，它可以阻止将这些点击量发送到 AAM，直至获得同意为止。
+以前，服务器端转发无法区分同意和同意前的事件/点击。自2018年11月1日起，作为数据控制者(Adobe Analytics客户)，您可以选择将预先同意的数据限制在Adobe Analytics中，并阻止将这些数据转发到Adobe Audience Manager。 新的实施环境变量可以让您标记出在未获得同意的情况下的点击量。变量设置后，可在征得同意之前阻止将这些点击发送到Adobe Audience Manager。
 
-当点击存在新上下文变量 `cm.ssf=1` 时，此点击会进行标记，因此不会被服务器端转发到 AAM。相反，如果未对点击设置此字符串，则点击会被转发到 AAM。
+当这个新的上下文变量， `cm.ssf=1`，点击时存在，此点击会进行标记，因此不会被服务器端转发到Adobe Audience Manager。 相反，如果此字符串未出现在点击中，则点击将被转发到Adobe Audience Manager。
 
-服务器端转发是双向的，这意味着当它应用于点击并且该点击被转发到 AAM 时，Audience Analytics 会从 AAM 接收该点击的区段信息并将其发送回 Analytics。因此，对于不是由服务器端从 Analytics 转发到 AAM 的任何点击，将不会使用 AAM 的区段 ID 列表加以丰富。这样，便会有部分流量/点击不会从 AAM 中获取区段 ID 信息。
+服务器端转发是双向的，这意味着当点击应用于该点击并且该点击被转发到Adobe Audience Manager时，Audience Analytics会从Adobe Audience Manager接收该点击的区段信息并将其发送回Analytics。 因此，任何非服务器端转发自Analytics到Adobe Audience Manager的点击都不会使用Adobe Audience Manager中的区段ID列表进行扩充。 因此，将存在一个流量/点击的子集，该子集不会从Adobe Audience Manager获取区段ID信息。
 
 ## 实施详细信息 {#section_FFA8B66085BF469FAB5365C944FE38F7}
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 ## 报表（可选） {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
-您可以使用 Adobe Analytics 报告有多少流量基于同意并经由服务器端转发，以及有多少流量非基于同意且尚未转发到 AAM。
+您可以使用Adobe Analytics报告有多少流量基于同意并经由服务器端转发，以及有多少流量不是基于同意且尚未转发到Adobe Audience Manager。
 
 要配置此类型的报表，请通过处理规则将新上下文变量映射到自定义流量变量 (prop)。为此，请执行以下步骤：
 

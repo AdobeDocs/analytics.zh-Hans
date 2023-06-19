@@ -3,10 +3,10 @@ title: AppMeasurement for JavaScript 发行说明
 description: AppMeasurement for JavaScript 的发行说明汇总。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: d2c291f7db465034ffadc4a2c1caf9639caf2a1d
-workflow-type: ht
-source-wordcount: '2319'
-ht-degree: 100%
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+workflow-type: tm+mt
+source-wordcount: '2323'
+ht-degree: 99%
 
 ---
 
@@ -324,7 +324,7 @@ ht-degree: 100%
 发行日期：**2015 年 9 月 17 日**
 
 * 包括 Visitor API 1.5.2
-* 更新了 [!DNL Audience Manager] 模块，以便使用来自 VisitorAPI.js 的 AAM DIL 6.2 - getCustomer ID，并在事件调用中将它们传递到 AAM。(AN-104978)
+* 已更新 [!DNL Audience Manager] 模块，以使用Adobe Audience ManagerDIL6.2 — 从VisitorAPI.js获取Customer ID，并在/event调用中将它们传递到Adobe Audience Manager。 (AN-104978)
 
 ## 版本 1.5
 

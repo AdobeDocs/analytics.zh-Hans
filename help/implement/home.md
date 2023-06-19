@@ -3,10 +3,10 @@ title: 实施 Adobe Analytics
 description: 在您的网站、属性或应用程序上实施 Adobe Analytics。
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
-workflow-type: ht
-source-wordcount: '900'
-ht-degree: 100%
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+workflow-type: tm+mt
+source-wordcount: '902'
+ht-degree: 95%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Analytics 需要在您的网站、移动应用程序或其他应用程序�
 
 对于您的&#x200B;**网站**，可以使用以下实现方法：
 
-* **Web SDK 扩展**：这是一种在为新客户实施 Adobe Analytics 时推荐使用的标准化方法。 在 Adobe Experience Platform 数据收集&#x200B;**标记**&#x200B;中安装 **AEP Web SDK 扩展**，在每个页面上使用加载器标签，并以组织方便的格式将数据发送到 Adobe Experience Platform **Edge Network**。 Edge Network 以正确的格式将传入数据转发到 Adobe Analytics。
+* **Web SDK 扩展**：这是一种在为新客户实施 Adobe Analytics 时推荐使用的标准化方法。 安装 **Adobe Experience Platform Web SDK扩展** 在Adobe Experience Platform数据收集中 **标记**，在每个页面上使用加载器标记，并将数据发送到Adobe Experience Platform **边缘网络** 采用对您的组织方便的格式。 Edge Network 以正确的格式将传入数据转发到 Adobe Analytics。
   ![Web SDK 扩展](./assets/websdk-extension-implementation.png)
 有关详细信息，请参阅[使用 Adobe Experience Platform Web SDK 扩展](./aep-edge/overview.md)实施 Adobe Analytics。
 

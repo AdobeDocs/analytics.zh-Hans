@@ -3,10 +3,10 @@ description: 本帮助页面包含每个 Adobe Analytics 工具的推荐使用�
 title: 我应该使用哪种 Adobe Analytics 工具？
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: a288253816fa73444dd5078d56d3d30e92aebe3f
+workflow-type: tm+mt
+source-wordcount: '1163'
+ht-degree: 96%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 
 **[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)** 的使用说明：
 
-* 适用于要将诸如人口统计信息（如性别或收入水平）、心理统计信息（如兴趣和爱好）、CRM 数据或广告展示数据之类的 Adobe Audience Manager (AAM) 受众数据合并到任何 Analytics 工作流程中的情况。
+* 如果您要将Adobe Audience Manager受众数据(如人口统计信息（如性别或收入水平）、心理统计信息（如兴趣和爱好）、CRM数据或广告展示数据)合并到任何Analytics工作流程中。
 * 适用于希望上传的 CRM 数据基于时间（因为此集成会按点击将新信息发送给 Analytics）的情况。
 
 ## 从 Adobe Analytics 导出数据 {#export}

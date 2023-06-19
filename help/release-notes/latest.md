@@ -3,9 +3,9 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1443'
 ht-degree: 90%
 
 ---
@@ -21,7 +21,7 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **用链接共享项目（无需登录）** | 您现在可以与无权访问 Adobe Analytics 的人员共享 Analysis Workspace 项目的只读链接。这包括与组织外的人员或组织内未配置 Adobe Analytics 的人员共享。[了解详情](../analyze/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required)<p>默认启用此功能，而系统管理员可禁用此功能。[了解详情](../analyze/analysis-workspace/user-preferences.md#company-preferences)</p> | 2023 年 5 月 3 日 | 2023 年 6 月 7 日 |
-| **分类集的新增功能** | [分类集](/help/components/classifications/sets/overview.md) 已更新若干新功能：<ul><li>**合并**：将分类集合并到一个合并的分类集中。 合并的分类集可以像其他分类集一样使用，或者在CJA中用作查找数据集。 [了解详情](../components/classifications/sets/consolidations/manage.md)</li><li>**规则**：根据分类集中的规则自动对值分类。 [了解详情](../components/classifications/sets/manage/rules.md)</li><li>**自动导入**：自动从云存储目标导入分类数据。 [了解详情](../components/classifications/sets/manage/schema.md)</li></ul> | | 2023 年 6 月 7 日 |
+| **分类集的新增功能** | [分类集](/help/components/classifications/sets/overview.md) 已更新若干新功能：<ul><li>**合并**：将分类集合并到一个合并的分类集中。 合并的分类集可以像其他分类集一样使用，也可以在Customer Journey Analytics中用作查找数据集。 [了解详情](../components/classifications/sets/consolidations/manage.md)</li><li>**规则**：根据分类集中的规则自动对值分类。 [了解详情](../components/classifications/sets/manage/rules.md)</li><li>**自动导入**：自动从云存储目标导入分类数据。 [了解详情](../components/classifications/sets/manage/schema.md)</li></ul> | | 2023 年 6 月 7 日 |
 | **新 AppMeasurement 变量** | 变量 `doubleEncodeLinkParameters` 可适应一些少见的情况，其中实施在链接跟踪变量中为多字节字符编码。大多数实施无需定义此变量。[了解详情](../implement/vars/config-vars/doubleencodelinkparameters.md) |  | 2023 年 6 月 7 日 |
 | **数据馈送导出到安全目标** | 现在可以将数据馈送发送到以下云存储目标：<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>不再推荐以前可用的目标（FTP、SFTP、S3 和 Azure Blob）。[了解详情](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=zh-Hans) | 2023 年 6 月 12 日 | 2023 年 7 月 15 日 |
 | **Workspace 中的机器人报表** | Analysis Workspace 中现在有机器人报表可用。此功能附带了几项额外功能：<ul><li>一个新维度：[机器人名称](/help/components/dimensions/bot-name.md)</li><li>两个新指标：[机器人页面查看次数](/help/components/metrics/bot-page-views.md)和[机器人发生次数](/help/components/metrics/bot-occurrences.md)。</li><li>一个新的计算指标模板：[机器人页面查看率](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)</li><li>一个新的 Workspace 报表：机器人报表</li></ul>新维度和指标包含自 2023 年 3 月起开始回填的数据。 |  | 2023 年 6 月 7 日 |

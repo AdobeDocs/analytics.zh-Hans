@@ -1,23 +1,23 @@
 ---
-description: 您可以在整个 Analytics 中使用 AAM 受众维度。集成的区段是名为“受众 ID”和“受众名称”的新 Analytics 维度，并且可以像 Analytics 收集的任何其他维度一样使用。在数据馈送中，受众 ID 存储在“mc_audiences”列中。这些维度当前在 Data Workbench 或 Livestream 中不可用。有关如何利用受众维度的一些示例包括
+description: 您可以在整个Analytics中使用Adobe Audience Manager受众维度。 集成的区段是名为“受众 ID”和“受众名称”的新 Analytics 维度，并且可以像 Analytics 收集的任何其他维度一样使用。在数据馈送中，受众 ID 存储在“mc_audiences”列中。这些维度当前在 Data Workbench 或 Livestream 中不可用。有关如何利用受众维度的一些示例包括
 solution: Experience Cloud
 title: 在 Analytics 中使用受众数据
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 100%
+source-wordcount: '640'
+ht-degree: 90%
 
 ---
 
 # 在 Analytics 中使用受众数据
 
-您可以在整个 Analytics 中使用 AAM 受众维度。集成的区段是名为“受众 ID”和“受众名称”的新 Analytics 维度，并且可以像 Analytics 收集的任何其他维度一样使用。在数据馈送中，受众 ID 存储在“mc_audiences”列中。这些维度当前在 Data Workbench 或 Livestream 中不可用。有关如何利用受众维度的一些示例包括：
+您可以在整个Analytics中使用Adobe Audience Manager受众维度。 集成的区段是名为“受众 ID”和“受众名称”的新 Analytics 维度，并且可以像 Analytics 收集的任何其他维度一样使用。在数据馈送中，受众 ID 存储在“mc_audiences”列中。这些维度当前在 Data Workbench 或 Livestream 中不可用。有关如何利用受众维度的一些示例包括：
 
 ## Analysis Workspace {#section_C70837499BEA4DED885B3486C9E02C68}
 
-在 Analysis Workspace 中，AAM 区段显示为两个维度。
+在Analysis Workspace中，Adobe Audience Manager区段显示为两个维度。
 
 1. 转至&#x200B;**[!UICONTROL 工作区]**。
 1. 从&#x200B;**[!UICONTROL 维度]**&#x200B;列表中，选择维度&#x200B;**[!UICONTROL 受众 ID]** 或&#x200B;**[!UICONTROL 受众名称]**。名称即是一种易记的 ID 分类。
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 ## Analysis Workspace 中的客户历程（流量） {#section_FC30E5795C9D4539838E30FE11FAEA6E}
 
-AAM 区段数据依据逐次点击传递到 Analytics 中，表示访客在该时间点所具有的受众成员资格。这意味着，访客可能归属于一个区段（例如“感知”），然后又有资格访问另外一个获得授权的区段（例如“注意事项”）。您可以在 Analysis Workspace 中使用[流量](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=zh-Hans)显示访客在各受众之间的历程。
+Adobe Audience Manager区段数据是逐次点击传递到Analytics中的，表示访客在该时间点的受众成员资格。 这意味着，访客可能归属于一个区段（例如“感知”），然后又有资格访问另外一个获得授权的区段（例如“注意事项”）。您可以在 Analysis Workspace 中使用[流量](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=zh-Hans)显示访客在各受众之间的历程。
 
 1. 转至&#x200B;**[!UICONTROL 工作区]**&#x200B;并从左边栏中选择&#x200B;**[!UICONTROL 流量]**&#x200B;可视化。
 

@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: f2e040cfc6dcb67fbb1b995e38eede78943c66f7
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '4485'
-ht-degree: 98%
+source-wordcount: '4489'
+ht-degree: 97%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 | --- | --- |
 | **2023 年 6 月** | |
 | 新 AppMeasurement 变量 | 变量 `doubleEncodeLinkParameters` 可适应一些少见的情况，其中实施在链接跟踪变量中为多字节字符编码。[了解详情](../implement/vars/config-vars/doubleencodelinkparameters.md) |
-| 分类集的新增功能 | [分类集](/help/components/classifications/sets/overview.md) 已更新若干新功能：<ul><li>**合并**：将分类集合并到一个合并的分类集中。 合并的分类集可以像其他分类集一样使用，或者在CJA中用作查找数据集。 [了解详情](../components/classifications/sets/consolidations/manage.md)</li><li>**规则**：根据分类集中的规则自动对值分类。 [了解详情](../components/classifications/sets/manage/rules.md)</li><li>**自动导入**：自动从云存储目标导入分类数据。 [了解详情](../components/classifications/sets/manage/schema.md)</li></ul> |
+| 分类集的新增功能 | [分类集](/help/components/classifications/sets/overview.md) 已更新若干新功能：<ul><li>**合并**：将分类集合并到一个合并的分类集中。 合并的分类集可以像其他分类集一样使用，也可以在Customer Journey Analytics中用作查找数据集。 [了解详情](../components/classifications/sets/consolidations/manage.md)</li><li>**规则**：根据分类集中的规则自动对值分类。 [了解详情](../components/classifications/sets/manage/rules.md)</li><li>**自动导入**：自动从云存储目标导入分类数据。 [了解详情](../components/classifications/sets/manage/schema.md)</li></ul> |
 | 计算指标更新 | 已更新与计算指标相关的各种文章，包括更新屏幕截图和过程中的步骤。作出这些更改是为了使文档与当前的 Adobe Analytics 功能保持一致。 |
 | 数据馈送导出到安全目标 | 现在可以将数据馈送发送到以下云存储目标：<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>不再推荐以前可用的目标（FTP、SFTP、S3 和 Azure Blob）。[了解详情](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=zh-Hans) |
 | Workspace 中的机器人报表 | Analysis Workspace 中现在有机器人报表可用。此功能附带了几项额外功能：<ul><li>一个新维度：[机器人名称](/help/components/dimensions/bot-name.md)</li><li>两个新指标：[机器人页面查看次数](/help/components/metrics/bot-page-views.md)和[机器人发生次数](/help/components/metrics/bot-occurrences.md)。</li><li>一个新的计算指标模板：[机器人页面查看率](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)</li><li>一个新的 Workspace 报表：机器人报表</li></ul>新维度和指标包含自 2023 年 3 月起开始回填的数据。 |
@@ -58,7 +58,7 @@ ht-degree: 98%
 | **2023 年 2 月** | |
 | 实施 | 更新了有关如何[为 Web 和移动设备实施 Adobe Analytics](../implement/home.md) 的内容。 |
 | 工作区日程表和日期范围 | 更新内容以描述相对日期范围、公式计算更新和日程表 UI 更改。请参阅[关于相对面板日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)。 |
-| 移动记分卡 | 新文档部分描述如何显示和隐藏比较日期范围。请参阅 CJA 中的[显示比较日期范围](/help/analyze/mobile-app/create-scorecard.md)。 |
+| 移动记分卡 | 新文档部分描述如何显示和隐藏比较日期范围。参见 [显示比较日期范围](/help/analyze/mobile-app/create-scorecard.md) Customer Journey Analytics中的。 |
 | 1.4 API | [Adobe Analytics 1.4 API](https://developer.adobe.com/analytics-apis/docs/1.4/) 经过了全面改写，现在发布在 Adobe Developer 上。 |
 | 跟踪各实施类型 | 更新了用例[跟踪不同的实施类型](../implement/use-cases/cross-type-implementation.md)以适应 Experience Cloud ID 服务。 |
 | **2023 年 1 月** | |
