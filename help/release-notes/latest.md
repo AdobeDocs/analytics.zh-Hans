@@ -3,16 +3,16 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 09a4f0865c0297681a05da4eae98412632931626
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 90%
+source-wordcount: '1514'
+ht-degree: 87%
 
 ---
 
 # 当前 Adobe Analytics 发行说明（2023 年 6 月）
 
-**上次更新日期**：2023 年 6 月 1 日
+**上次更新日期**：2023 年 6 月 21 日
 
 Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
@@ -20,6 +20,7 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **数据修复过滤器增强功能** | 在数据修复中增加了三个过滤改进：<ul><li>按一个变量筛选以修改第二个变量。 例如，如果 `eVar2` 包含“@”，然后删除 `eVar3`.</li><li>筛选数字或非数字值</li><li>使用AND应用多个过滤器。 例如，其中 `eVar2="a"` 和 `eVar3="b"`</li></ul>[了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) | 2023 年 6 月 21 日 | 2023 年 7 月 12 日 |
 | **用链接共享项目（无需登录）** | 您现在可以与无权访问 Adobe Analytics 的人员共享 Analysis Workspace 项目的只读链接。这包括与组织外的人员或组织内未配置 Adobe Analytics 的人员共享。[了解详情](../analyze/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required)<p>默认启用此功能，而系统管理员可禁用此功能。[了解详情](../analyze/analysis-workspace/user-preferences.md#company-preferences)</p> | 2023 年 5 月 3 日 | 2023 年 6 月 7 日 |
 | **分类集的新增功能** | [分类集](/help/components/classifications/sets/overview.md) 已更新若干新功能：<ul><li>**合并**：将分类集合并到一个合并的分类集中。 合并的分类集可以像其他分类集一样使用，也可以在Customer Journey Analytics中用作查找数据集。 [了解详情](../components/classifications/sets/consolidations/manage.md)</li><li>**规则**：根据分类集中的规则自动对值分类。 [了解详情](../components/classifications/sets/manage/rules.md)</li><li>**自动导入**：自动从云存储目标导入分类数据。 [了解详情](../components/classifications/sets/manage/schema.md)</li></ul> | | 2023 年 6 月 7 日 |
 | **新 AppMeasurement 变量** | 变量 `doubleEncodeLinkParameters` 可适应一些少见的情况，其中实施在链接跟踪变量中为多字节字符编码。大多数实施无需定义此变量。[了解详情](../implement/vars/config-vars/doubleencodelinkparameters.md) |  | 2023 年 6 月 7 日 |
@@ -59,7 +60,7 @@ AN-311878；AN-313968；AN-314130；AN-315701；AN-315761；AN-316613；AN-31756
 
 | 产品或功能 EOL | 添加或更新日期 | 描述 |
 | --- | --- | --- |
-| **迁移到Adobe I/OOAuth服务器到服务器凭据** | 2023 年 5 月 11 日 | 使用Adobe I/OJWT凭据的Adobe Analytics API和Livestream客户必须通过以下方式迁移到Adobe I/OOAuth服务器到服务器凭据 **2025年1月1日**. 从2024年5月1日开始，Adobe I/O不允许创建新的JWT凭据。 使用 JWT 的客户必须创建新的 OAuth 服务器到服务器凭据或将他们现有的 JWT 凭据迁移到 OAuth 服务器到服务器凭据。客户还必须更新其客户端应用程序以使用新的 OAuth 服务器到服务器凭据。 <ul><li>[从服务帐户 (JWT) 凭据迁移](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[使用新的 OAuth 服务器到服务器凭据](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[常见问题解答](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
+| **迁移到Adobe I/OOAuth服务器到服务器凭据** | 2023 年 5 月 11 日 | 使用Adobe I/OJWT凭据的Adobe Analytics API和Livestream客户必须通过以下方式迁移到Adobe I/OOAuth服务器到服务器凭据 **2025年1月1日**. 从2024年5月1日开始，Adobe I/O不允许创建新的JWT凭据。 使用 JWT 的客户必须创建新的 OAuth 服务器到服务器凭据或将他们现有的 JWT 凭据迁移到 OAuth 服务器到服务器凭据。客户还必须更新其客户端应用程序以使用新的 OAuth 服务器到服务器凭据。 <ul><li>[从服务帐户 (JWT) 凭据迁移](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[使用OAuth的新旧应用程序实施指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)<li>[使用新的 OAuth 服务器到服务器凭据](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[常见问题解答](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
 | **[!DNL Reports & Analytics]** 的 EOL | 2023 年 3 月 7 日 | 自 **2023 年 12 月 31 日**&#x200B;起，Adobe 决定中断 [!DNL Reports & Analytics] 及其随附的报告和功能。支持 [!DNL Reports & Analytics] 的报告、可视化图表和底层技术不再满足 Adobe 的技术标准。大部分 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans) 中都可用。自 2015 年发布 Analysis Workspace 以来，[!DNL Reports & Analytics] 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)阐明生命周期结束的过程。<p>2023 年 12 月 31 日，我们将终止许多相关的报告和分析功能，包括但不限于：Reports &amp; Analytics、数据提取和 DL 报告。2023 年 12 月 31 日之后，将不再发送任何计划报告。在 **2023 年 4 月**，任何计划在 2023 年 12 月 31 日之后到期的报告将会自动更新并恢复到 2023 年 12 月 31 日到期。此外，您不能再安排 2023 年 12 月 31 日之后的未来报告。 |
 | **终止使用[!UICONTROL 发布列表]功能** | 2022 年 9 月 29 日 | 作为终止使用 Reports &amp; Analytics 的一部分，预计在 **2023 年 12 月**&#x200B;终止使用[!UICONTROL 发布列表]。您将无法创建新的[!UICONTROL 发布列表]或访问现有的发布列表以发送或安排 [!UICONTROL Analysis Workspace] 项目。 |
 | **Data Workbench 的生命周期结束日期** | 2022 年 9 月 14 日 | Adobe 打算在 **2023 年 12 月 31 日**&#x200B;结束 Data Workbench 的生命周期。请参阅 [Data Workbench 生命周期结束公告](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=zh-Hans)以了解详情。如有任何问题，请与您组织的 Adobe 账户经理联系。 |
