@@ -1,8 +1,8 @@
 ---
 source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1040'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 # 片段
@@ -55,9 +55,9 @@ ht-degree: 94%
 
 | 选项 | 函数 |
 |---------|----------|
-| [!UICONTROL **建议**] | 将组件与推荐位于列表顶部的组件进行排序。 您或组织中的其他人最常使用且最近使用的组件在列表中排名靠后。 |
-| [!UICONTROL **按字母顺序**] | 按字母顺序对组件进行排序。 |
-| [!UICONTROL **分类**] | 根据组件类型（维度、量度、区段、日期范围）对组件进行排序。 |
+| [!UICONTROL **建议**] | 为组件排序，将推荐的组件置于列表的顶部。您或您组织中的其他人最频繁且最近使用的组件显示在列表的较高位置。 |
+| [!UICONTROL **按字母顺序**] | 按字母顺序为组件排序。 |
+| [!UICONTROL **分类**] | 根据组件类型（维度、指标、细分、日期范围）为组件排序。 |
 
 {style="table-layout:auto"}
 
