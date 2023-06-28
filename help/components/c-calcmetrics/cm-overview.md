@@ -4,7 +4,7 @@ keywords: 计算指标;派生指标;高级计算指标
 title: 计算指标和高级计算（派生）指标
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 970c18834c1cc7f866b7b0ceec7dc1642c3482ad
+source-git-commit: 1dc0325f1a8b4fc1888895ee18570effb34e6208
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 88%
@@ -24,7 +24,7 @@ ht-degree: 88%
 
 以下是计算指标和高级计算指标功能的比较：
 
-| Builder 选项 | 计算量度 | 高级计算（派生）指标 |
+| Builder 选项 | 计算指标 | 高级计算（派生）指标 |
 |---|---|---|
 | [格式类型（小数、时间、百分比、货币）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | 是 | 是 |
 | [归因更改（默认、线性、参与率等）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | 是 | 是 |
@@ -41,10 +41,14 @@ ht-degree: 88%
 * 在 [!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、[!UICONTROL Report Builder]、[!UICONTROL Anomaly Detection] 和 [!UICONTROL Contribution Analysis] 间创建指标。
 * 创建在报表运行时派生的分段量度，而不必更改实施。 这些指标可以在历史记录中查看，因为它们是基于区段的。
 
+  >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
+
 * 在报表包之间共享指标。这表示所有新创建的指标都适用于同一登录公司中的所有报表包。
 * （仅限高级计算指标）指标上的区段。 例如，您可以为“新访客”创建一个指标，其中包含首次进行会话的人员计数。
 
 * （仅限高级计算指标）包含统计函数以帮助您更好地描述数据。 例如，您可以对报表中的项目数量进行计数，或为每个项目加入标准偏差数。
+
+  >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12&learn=on)
 
 ## 限制 {#section_CB878B02451541D68A68B508D4DBD19A}
 

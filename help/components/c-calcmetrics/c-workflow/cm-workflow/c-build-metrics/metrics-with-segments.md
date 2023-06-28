@@ -3,7 +3,7 @@ description: 通过为个别指标分段，可在同一报表中比较各个指�
 title: 分段指标
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: 1dc0325f1a8b4fc1888895ee18570effb34e6208
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 69%
@@ -56,7 +56,7 @@ ht-degree: 69%
 
 以下是一段视频概述：
 
->[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12&learn=on)
 
 ## 占总指标的百分比 {#percent-total}
 
