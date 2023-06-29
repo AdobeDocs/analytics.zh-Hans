@@ -4,9 +4,9 @@ keywords: 隐私
 title: 隐私概述
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 56ce76b906d1d6362c771edd1123e814cc47209b
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '753'
 ht-degree: 96%
 
 ---
@@ -45,7 +45,6 @@ Adobe Analytics 收集以下数据：
 | 消费者购买的项目 | 是 |
 | 购物车中的剩余项目 | 是 |
 | 社交网络信息（包括照片、用户 ID、年龄、性别和位置） | **否** |
-| 用户在我们的服务范围之外提供的个人信息 | 是 |
 | 广告促销成功率 | 是 |
 | 产品信息，例如颜色、价格、样式、照片 | 是 |
 
@@ -73,4 +72,4 @@ Adobe Analytics 收集以下数据：
 
 | Adobe 名称 | 地址 | 设备类型（运营商） | 支持的解决方案组件 | 证书 |
 |--- |--- |--- |--- |--- |
-| LON5 | 3 Centro  Boundary Way Hemel Hempstead HP2 7SU UK | Colocation Facility(Gyron) | 多渠道分析， Digital Analytics | SSAE 16 |
+| LON5 | 3 Centro  Boundary Way Hemel Hempstead HP2 7SU UK | Colocation Facility (Gyron) | 多渠道分析、数字分析 | SSAE 16 |
