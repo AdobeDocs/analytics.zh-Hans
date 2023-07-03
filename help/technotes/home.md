@@ -2,8 +2,9 @@
 title: Analytics 技术说明
 description: 本指南提供关于不属于特定分析工具或组件的主题的有用信息。
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
-source-git-commit: 2c451360f6e3ab62ca69a8852ec6d5627ee2691f
-workflow-type: ht
+feature: Attribution, Visualizations, Reports & Analytics Basics, Segmentation, Real-time
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 100%
 

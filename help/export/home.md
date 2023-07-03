@@ -2,7 +2,8 @@
 title: Analytics 导出指南
 description: 本指南概述了如何使用数据馈送和 Data Warehouse 将数据导出 Adobe Analytics。
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
-source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
+feature: Data Feeds, FTP Export, Data Warehouse
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%

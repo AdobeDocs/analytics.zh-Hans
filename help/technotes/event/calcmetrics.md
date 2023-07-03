@@ -2,7 +2,8 @@
 title: 派生受事件影响的数据
 description: 使用计算量度更正受事件影响的趋势数据。
 exl-id: 0fe70c8b-fa07-47e4-b6b3-b55eebad1fef
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+feature: Event, Calculated Metrics
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 3%

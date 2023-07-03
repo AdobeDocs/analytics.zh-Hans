@@ -3,7 +3,8 @@ description: 在 Workspace 项目中运行贡献分析报表。
 title: 运行贡献分析
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
-source-git-commit: 9b50e77b3998753d45a25799dbed6094b048c118
+feature: Anomaly Detection
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 100%
@@ -20,15 +21,15 @@ ht-degree: 100%
 
 * 在使用每天粒度的自由格式表中，右键单击任何行并选择&#x200B;**[!UICONTROL 运行贡献分析]**。甚至可以对没有显示任何异常的行运行贡献分析。
 
-   >[!NOTE]
-   >
-   >我们当前仅支持对每天粒度进行贡献分析。
+  >[!NOTE]
+  >
+  >我们当前仅支持对每天粒度进行贡献分析。
 
-   ![](assets/run_ca.png)
+  ![](assets/run_ca.png)
 
 * 在折线图中，将光标悬停在折线图中的异常数据点上。单击显示的&#x200B;**[!UICONTROL 分析]**&#x200B;链接。
 
-   ![](assets/contribution-analysis.png)
+  ![](assets/contribution-analysis.png)
 
 1. （可选）在折线图或表中单击了&#x200B;**[!UICONTROL 运行贡献分析]**&#x200B;后，可通过[排除维度](#section_F6932F4BF74544B5872164E7B1E0C6FC)来缩小分析范围（并且因此而提高分析速度）。
 
@@ -41,7 +42,7 @@ ht-degree: 100%
 
    * [生成的区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hans)（排名最前的项目集群）表根据贡献得分、异常发生次数和对异常量度做出贡献的整体百分比，识别排名最前的项目间的关联。然后，将这种关联捕获为受众区段（贡献区段 1、贡献区段 2，等等）。单击“i”（信息）按钮将显示每个自动生成区段的定义，包括构成该自动生成区段的排名最前的项目：
 
-      ![](assets/auto_segment.png)
+     ![](assets/auto_segment.png)
 
 1. 由于贡献分析现在属于 Analysis Workspace 的一部分，因此您可以利用表右键单击菜单中的大量功能使您的分析更有意义，例如：
 

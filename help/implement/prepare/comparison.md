@@ -1,7 +1,9 @@
 ---
 title: 比较实施方法
 description: 了解每种用于将数据发送到 Adobe Analytics 的方法的优点。
-source-git-commit: 2e69321404237213c6929f3fb0c330575d8a90db
+exl-id: 19353255-6356-4426-a2ef-5a2672a00eca
+feature: Implementation Basics
+source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 100%
@@ -12,7 +14,7 @@ ht-degree: 100%
 
 了解每种实施 Adobe Analytics 的方法的比较情况。您可以使用此表来帮助您的组织确定用于向 Adobe 发送数据的最理想方法。
 
-|  | AppMeasurement | Adobe Analytics 扩展 | Web SDK | Web SDK 扩展 |
+| | AppMeasurement | Adobe Analytics 扩展 | Web SDK | Web SDK 扩展 |
 | --- | --- | --- | --- | --- |
 | 实施要求 | 在每个页面上参考 `AppMeasurement.js`，定义变量，使用 `s.t()` 发送数据 | 在每个页面上参考标记加载器，使用数据收集 UI 定义变量并将数据发送到 Adobe | 在每个页面上参考 `Alloy.js`，使用 `alloy("sendEvent",{})` 发送包含所需数据的 JSON 对象 | 在每个页面上参考标记加载器，使用数据收集 UI 建立 JSON 对象以发送数据 |
 | 数据目标 | 直接发送到 Adobe Analytics | 直接发送到 Adobe Analytics | 发送到 Adobe Experience Platform Edge，后者会将数据转发到 Adobe Analytics | 发送到 Adobe Experience Platform Edge，后者会将数据转发到 Adobe Analytics |

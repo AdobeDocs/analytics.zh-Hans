@@ -1,9 +1,9 @@
 ---
 title: 数据保留策略
 description: 数据保留策略确定 Adobe 将您的数据存储多长时间。
-feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+feature: Data Governance, Privacy
+source-git-commit: 065126757513df3503a5bbb34ceafe1b569ec51a
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 91%
@@ -20,7 +20,7 @@ ht-degree: 91%
 
 ## 调整默认数据保留期限
 
-如果您希望缩短或延长默认的数据保留期限，请联系您的Adobe客户团队。
+如果要缩短或延长默认数据保留期限，请联系您的Adobe客户团队。
 
 * 缩短默认数据保留期限不收取任何费用。
 * 如果延长数据保留期限超出 25 个月的默认保留期限，则需要购买延长时间，每次购买可延长一年。最多可购买 8 次延长，共 10 年 1 个月（默认保留期为 2 年 1 个月，另购买 8 年）。
@@ -49,9 +49,9 @@ Adobe 作为您的数据处理者，必须采取适当措施协助其客户实�
 
 **我可以在删除之前请求一份数据副本吗？**
 
-可以。Adobe 可以提供点击级别原始数据的历史数据转储。有关更多信息，请参阅导出用户指南中的[数据馈送](/help/export/analytics-data-feed/data-feed-overview.md)。如果您的数据导出要求超出UI可提供的范围，请联系您的Adobe帐户团队。 可以做出特殊调整；成本可能会有所不同。
+可以。Adobe 可以提供点击级别原始数据的历史数据转储。有关更多信息，请参阅导出用户指南中的[数据馈送](/help/export/analytics-data-feed/data-feed-overview.md)。如果您的数据导出要求超出UI可提供的范围，请联系您的Adobe客户团队。 可以做出特殊调整；成本可能会有所不同。
 
 **Adobe 何时删除数据？**
 
-在计划删除数据的特定时间，请联系您的Adobe帐户团队。 通常会每月滚动删除数据。
+请联系您的Adobe客户团队来安排删除数据的具体时间。 通常会每月滚动删除数据。
 

@@ -3,7 +3,8 @@ description: 贡献分析是一个密集型计算机学习过程，专为揭示�
 title: 贡献分析中使用的统计技术
 role: User, Admin
 exl-id: 1e19b154-c6d2-48fe-9baf-db4e47789321
-source-git-commit: 865b19f5e541691eabaa81d4533a64c79501fd19
+feature: Anomaly Detection
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 100%

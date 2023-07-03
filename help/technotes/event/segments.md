@@ -2,7 +2,8 @@
 title: 在分析中排除特定日期
 description: 如果您不想在报表中包括日期或日期范围，可以使用此提示排除它们。
 exl-id: 744666c0-17f3-443b-9760-9c8568bec600
-source-git-commit: d03206b127e16cbb98d1318b0acc6c304f91ca48
+feature: Event, Segmentation
+source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 2%
