@@ -2,7 +2,8 @@
 title: Adobe Analytics 中处理数据的顺序
 description: 了解在 Adobe Analytics 中处理数据的组件和服务的顺序。
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+feature: Data Configuration and Collection
+source-git-commit: c697530103ea7cd279cc3560c1daec796759e7a1
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 97%
@@ -33,7 +34,7 @@ Adobe 提供多种方式，可在报表中出现数据之前更改或操纵数�
 2. [**动态变量**](/help/implement/vars/page-vars/dynamic-variables.md)：如果在图像请求的任何部分中发现动态变量，则将其值复制过来，并且以后它其视为独立的值。
 3. [**机器人规则**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)：应用标准或自定义机器人筛选以从报表中排除这些数据。
 4. [**处理规则**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)：您的组织应用于您的数据的自定义规则。包括[上下文数据变量](/help/implement/vars/page-vars/contextdata.md)与其相应变量的映射。
-5. **VISTA 规则**：Adobe 顾问应用于您的数据的自定义灵活规则。可在处理规则前后运行 VISTA 规则，具体取决于您组织的需要。大多数 VISTA 规则一般都在处理规则之后运行，但每个组织的设置有所不同。请联系您的Adobe客户团队，以了解有关现有VISTA规则的更多信息。
+5. **VISTA 规则**：Adobe 顾问应用于您的数据的自定义灵活规则。可在处理规则前后运行 VISTA 规则，具体取决于您组织的需要。大多数 VISTA 规则一般都在处理规则之后运行，但每个组织的设置有所不同。有关现有VISTA规则的更多信息，请与您的Adobe客户团队联系。
 6. [**营销渠道处理规则**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)：可使用[处理规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)准备要用于营销渠道处理规则中的数据。
 7. **地理位置数据**：填充依赖于 IP 地址查找的维度（例如[国家/地区](/help/components/dimensions/countries.md)维度）。
 8. [**IP 混淆**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)：如果您的组织已决定混淆原始数据中的 IP 地址，则将在所有其他处理功能均已执行完毕后再混淆。
