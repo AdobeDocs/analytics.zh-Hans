@@ -3,7 +3,7 @@ description: 配置云导入帐户和可上传分类数据的位置
 keywords: Analysis Workspace
 title: 配置云导入帐户
 feature: Classifications
-source-git-commit: 4efb0623d734419c376ca5f2bf2bbd94097ee4e4
+source-git-commit: 6010c65571b326759eeddc5e71f8a52212ddbb98
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 5%
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 在从云目标导入Adobe Analytics分类数据之前，您需要添加并配置帐户以及该帐户中希望收集分类数据的位置。
 
-此过程包括按照本文所述添加和配置帐户(例如Amazon S3角色ARN、Google Cloud Platform等)，然后按照中的所述添加和配置该帐户内的位置（例如帐户内的文件夹） [配置云导入位置][/help/components/locations/configure-import-locations.md].
+此过程包括按照本文所述添加和配置帐户(例如Amazon S3角色ARN、Google Cloud Platform等)，然后按照中的所述添加和配置该帐户内的位置（例如帐户内的文件夹） [配置云导入位置](/help/components/locations/configure-import-locations.md).
 
 您需要为Adobe Analytics配置访问云目标帐户所需的信息。
 
