@@ -3,14 +3,22 @@ description: 如何通过 FTP 上传数据文件。
 title: FTP 导入
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 1b1cea9b9e336a1836e824906e620a0761c364e4
+source-git-commit: c36cc9884b2de3cddf03b505d9c4883dcac846af
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 100%
+source-wordcount: '721'
+ht-degree: 91%
 
 ---
 
 # FTP 导入
+
+>[!IMPORTANT]
+>
+>我们不再建议使用FTP进行导入，如本页所述。
+>
+>不建议使用FTP，因为这是一种未加密的共享文件方法，这意味着任何人都可以拦截文件内容以及帐户使用的用户名和密码。
+>
+>相反，请按照中的所述配置云帐户 [配置云导入位置](/help/components/classifications/importer/configure-import-accounts.md).
 
 描述如何通过 FTP 上传数据文件的步骤。
 
@@ -20,7 +28,7 @@ ht-degree: 100%
 
 1. **[!UICONTROL 管理员]** > **[!UICONTROL 分类导入器]**。
 
-以下建议的限制很重要。太多
+以下建议的限制很重要。
 
 >[!IMPORTANT]
 >
