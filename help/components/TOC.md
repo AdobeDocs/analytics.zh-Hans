@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算指标、虚拟报表包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: e87e47eb32ce150491596216d4ddc4fb87348497
+source-git-commit: 50d6094a5b849bc16a02b3e59f9b40f19c86eee3
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '724'
 ht-degree: 88%
 
 ---
@@ -262,15 +262,17 @@ ht-degree: 88%
       + [浏览器和 FTP 导入](classifications/importer/import-file.md)
       + [浏览器导入](classifications/importer/browser-import.md)
       + [浏览器导出](classifications/importer/browser-export.md)
-      + [云导入](/help/components/classifications/importer/configure-import-accounts.md)
       + [FTP 导入](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [FTP 导出](classifications/importer/ftp-export.md)
       + [处理时间](classifications/importer/processing-time.md)
       + [疑难解答](classifications/importer/troubleshooting.md)
-
    + [子分类](classifications/c-sub-classifications.md)
    + [分类常见问题解答](classifications/faq.md)
-+ [日历事件](t-calendar-event.md)
++ 位置 {#locations}
+   + [位置管理器](/help/components/locations/locations-manager.md)
+   + [云导入帐户](/help/components/locations/configure-import-accounts.md)
+   + [云导入位置](/help/components/locations/configure-import-locations.md)
++ [日程表事件](t-calendar-event.md)
 + [已安排的报表队列](scheduled-reports-admin.md)
 + 实时报表 {#real-time-reporting}
    + [实时报表概述](c-real-time-reporting/realtime.md)

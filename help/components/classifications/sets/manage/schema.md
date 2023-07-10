@@ -3,7 +3,7 @@ title: 分类集架构
 description: 查看和编辑单个分类集的架构。
 exl-id: 0fc12a0c-c1cf-4159-9d8b-492ebcaa8ea1
 feature: Classifications
-source-git-commit: 6cc7f491340ec7c36252f7ae53de07b0ab8f3b6f
+source-git-commit: d21903fe5683cadf2e235f5a1f911e2a62881c58
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 42%
@@ -48,11 +48,11 @@ ht-degree: 42%
 * **[!UICONTROL 自动化]**：自动从外部存储位置摄取数据。
    * **[!UICONTROL 位置帐户]**：一个下拉列表，其中显示贵组织已配置的现有位置帐户。 如果您的组织尚未配置位置帐户，您可以通过选择 [!UICONTROL **创建新帐户**].
 
-     有关配置位置帐户的信息，请参阅 [配置云导入位置](/help/components/classifications/importer/configure-import-accounts.md).
+     有关配置位置帐户的信息，请参阅 [配置云导入帐户](/help/components/locations/configure-import-accounts.md).
 
    * **[!UICONTROL 位置]**：一个下拉列表，其中显示贵组织已配置的现有位置。 如果您的组织尚未配置位置，您可以通过选择 [!UICONTROL **创建新位置**].
 
-     有关配置位置的信息，请参见 [配置云导入位置](/help/components/classifications/importer/configure-import-accounts.md).
+     有关配置位置的信息，请参见 [配置云导入位置](/help/components/locations/configure-import-locations.md).
 
    * **[!UICONTROL 分隔符]**：已上传文件的列分隔符。 选项包括 [!UICONTROL 逗号]， [!UICONTROL 分号]， [!UICONTROL 冒号]， [!UICONTROL 垂直条]， [!UICONTROL 空间]， [!UICONTROL 正斜杠]， [!UICONTROL 反斜杠]， [!UICONTROL 短划线]，或 [!UICONTROL 下划线].
 

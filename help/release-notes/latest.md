@@ -3,7 +3,7 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9044bb3bc8581ff3c12abd5620e81ade513b5f0f
+source-git-commit: b0c97e4f9d3243e233999cf80f1d742a676f4023
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 85%
@@ -20,7 +20,7 @@ Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该�
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **配置云帐户存储位置以摄取分类数据** | 您现在可以管理用于分类集自动化的云帐户存储位置。<p>[了解详情](/help/components/classifications/importer/configure-import-accounts.md)</p> |  | 2023 年 7 月 10 日 |
+| **配置云帐户存储位置以摄取分类数据** | 您现在可以管理用于分类集自动化的云帐户存储位置。<p>[了解详情](/help/components/locations/configure-import-accounts.md)</p> |  | 2023 年 7 月 10 日 |
 | **数据修复过滤器增强功能** | 在数据修复中增加了三个过滤改进：<ul><li>按一个变量筛选以修改第二个变量。 例如，如果 `eVar2` 包含“@”，然后删除 `eVar3`.</li><li>筛选数字或非数字值</li><li>使用AND应用多个过滤器。 例如，其中 `eVar2="a"` 和 `eVar3="b"`</li></ul>[了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) | 2023 年 6 月 21 日 | 2023 年 7 月 12 日 |
 | **用链接共享项目（无需登录）** | 您现在可以与无权访问 Adobe Analytics 的人员共享 Analysis Workspace 项目的只读链接。这包括与组织外的人员或组织内未配置 Adobe Analytics 的人员共享。[了解详情](../analyze/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required)<p>默认启用此功能，而系统管理员可禁用此功能。[了解详情](../analyze/analysis-workspace/user-preferences.md#company-preferences)</p> | 2023 年 5 月 3 日 | 2023 年 6 月 7 日 |
 | **分类集的新增功能** | [分类集](/help/components/classifications/sets/overview.md) 已更新若干新功能：<ul><li>**合并**：将分类集合并到一个合并的分类集中。 合并的分类集可以像其他分类集一样使用，也可以在Customer Journey Analytics中用作查找数据集。 [了解详情](../components/classifications/sets/consolidations/manage.md)</li><li>**规则**：根据分类集中的规则自动对值分类。 [了解详情](../components/classifications/sets/manage/rules.md)</li><li>**自动导入**：自动从云存储目标导入分类数据。 [了解详情](../components/classifications/sets/manage/schema.md)</li></ul> | | 2023 年 6 月 7 日 |
