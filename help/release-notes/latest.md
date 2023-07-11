@@ -3,7 +3,7 @@ title: 最新的 Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 4c6b05ba46e1e5d7bfca24d8cad57fd4479ed8fa
+source-git-commit: 38e1b8da66fbca36c5f22c6050dcba87e8967ecb
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 76%
@@ -12,7 +12,7 @@ ht-degree: 76%
 
 # 当前 Adobe Analytics 发行说明 (2023 年 7 月)
 
-**上次更新日期**：2023 年 7 月 11 日
+**上次更新日期**：2023 年 7 月 10 日
 
 Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
