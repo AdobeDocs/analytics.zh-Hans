@@ -3,10 +3,10 @@ title: 为移动设备实施 Analytics
 description: 确定要使用的移动 AppMeasurement 库。
 feature: Implementation Basics
 exl-id: 8a1dc0c1-493f-41da-a0ed-08df0367e5d8
-source-git-commit: ff719a996260aea108afb80665cacb6a7dbbf923
+source-git-commit: 86b6b5b8fc406bab0634997b0297d44c82c636fe
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 100%
+source-wordcount: '64'
+ht-degree: 78%
 
 ---
 
@@ -16,8 +16,9 @@ ht-degree: 100%
 
 ## Adobe Experience Platform 移动 SDK
 
-* [SDK 存储库](https://github.com/Adobe-Marketing-Cloud/aep-sdks-documentation)
-* [文档](https://aep-sdks.gitbook.io/docs/)
+* [iOS SDK存储库](https://github.com/adobe/aepsdk-analytics-ios)
+* [Android SDK存储库](https://github.com/adobe/aepsdk-analytics-android)
+* [文档](https://sdkdocs.com/)
 
 ## 版本 4 Mobile SDK
 
