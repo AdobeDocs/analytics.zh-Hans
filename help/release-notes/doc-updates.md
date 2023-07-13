@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 53f4048db02331e807edd4d55311861d2350efe3
 workflow-type: tm+mt
-source-wordcount: '4489'
+source-wordcount: '4490'
 ht-degree: 97%
 
 ---
@@ -25,8 +25,9 @@ ht-degree: 97%
 
 | 功能 | 描述 |
 | --- | --- |
+| **2023 年 7 月** | |
+| 新 AppMeasurement 变量 | 变量 `decodeLinkParameters` 可适应一些少见的情况，其中实施在链接跟踪变量中为多字节字符编码。[了解详情](../implement/vars/config-vars/decodelinkparameters.md) |
 | **2023 年 6 月** | |
-| 新 AppMeasurement 变量 | 变量 `doubleEncodeLinkParameters` 可适应一些少见的情况，其中实施在链接跟踪变量中为多字节字符编码。[了解详情](../implement/vars/config-vars/doubleencodelinkparameters.md) |
 | 分类集的新增功能 | [分类集](/help/components/classifications/sets/overview.md) 已更新若干新功能：<ul><li>**合并**：将分类集合并到一个合并的分类集中。 合并的分类集可以像其他分类集一样使用，也可以在Customer Journey Analytics中用作查找数据集。 [了解详情](../components/classifications/sets/consolidations/manage.md)</li><li>**规则**：根据分类集中的规则自动对值分类。 [了解详情](../components/classifications/sets/manage/rules.md)</li><li>**自动导入**：自动从云存储目标导入分类数据。 [了解详情](../components/classifications/sets/manage/schema.md)</li></ul> |
 | 计算指标更新 | 已更新与计算指标相关的各种文章，包括更新屏幕截图和过程中的步骤。作出这些更改是为了使文档与当前的 Adobe Analytics 功能保持一致。 |
 | 数据馈送导出到安全目标 | 现在可以将数据馈送发送到以下云存储目标：<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>不再推荐以前可用的目标（FTP、SFTP、S3 和 Azure Blob）。[了解详情](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=zh-Hans) |
