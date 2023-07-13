@@ -1,21 +1,22 @@
 ---
-title: 使用AppMeasurement for JavaScript实施Adobe Analytics
+title: 使用JavaScriptAppMeasurement实施Adobe Analytics
 description: 了解如何在没有标签管理系统的情况下使用 JavaScript 实施 Adobe Analytics。
 feature: Implementation Basics
-source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
+exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
+source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 51%
+source-wordcount: '206'
+ht-degree: 49%
 
 ---
 
-# 使用AppMeasurement for JavaScript实施Adobe Analytics
+# 使用JavaScriptAppMeasurement实施Adobe Analytics
 
 AppMeasurement for JavaScript 一直以来都是实施 Adobe Analytics 的常用方法。但是，随着标记管理系统的日益普及，建议使用 [Adobe Experience Platform 中的标记](../launch/overview.md)来实施。
 
 实施任务的高级概述：
 
-![使用AppMeasurement实施Adobe分析概述](../assets/appmeasurement-annotated.png)
+![如何通过Javascript的AppMeasurement实施AdobeAnalytics，如本节中所述。](../assets/appmeasurement-annotated.png)
 
 <table>
 
@@ -28,7 +29,7 @@ AppMeasurement for JavaScript 一直以来都是实施 Adobe Analytics 的常用
 </tr>
 
 <tr>
-<td>2</td><td><b>下载所需的JavaScript AppMeasurement代码</b> 代码管理器中的。 解压缩文件。</td><td><a href="../../admin/admin/code-manager-admin.md">代码管理器</a></td>
+<td>2</td><td><b>下载所需的JavaScript代码以进行AppMeasurement</b> 代码管理器中的。 解压缩文件。</td><td><a href="../../admin/admin/code-manager-admin.md">代码管理器</a></td>
 </tr>
 
 <tr>
