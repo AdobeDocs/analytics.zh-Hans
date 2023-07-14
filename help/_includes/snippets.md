@@ -1,6 +1,6 @@
 ---
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
-workflow-type: ht
+source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
+workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
    | [!UICONTROL **收藏夹**] | 仅显示收藏夹列表中的组件。有关将组件添加到收藏夹列表的信息，请参阅[组件概览](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)。 |
    | [!UICONTROL **维度**] | 仅显示维度的组件。（当您首次访问数据词典时，此选项也可在&#x200B;[!UICONTROL **快速过滤**]&#x200B;选项卡中使用。） |
    | [!UICONTROL **量度**] | 仅显示量度的组件。（当您首次访问数据词典时，此选项也可在&#x200B;[!UICONTROL **快速过滤**]&#x200B;选项卡中使用。） |
-   | [!UICONTROL **区段**] | 仅显示区段的组件。（当您首次访问数据词典时，此选项也可在&#x200B;[!UICONTROL **快速过滤**]&#x200B;选项卡中使用。）<!--this is Filters in Customer Jourey Analytics--> |
+   | [!UICONTROL **区段**] | 仅显示区段的组件。（当您首次访问数据词典时，此选项也可在&#x200B;[!UICONTROL **快速过滤**]&#x200B;选项卡中使用。）<!--this is Filters in Customer Journey Analytics--> |
    | [!UICONTROL **日期范围**] | 仅显示日期范围的组件。（当您首次访问数据词典时，此选项也可在&#x200B;[!UICONTROL **快速过滤**]&#x200B;选项卡中使用。） |
    | [!UICONTROL **显示所有**] | 显示所有组件。仅管理员有此选项可用。 |
    | [!UICONTROL **未批准**] | 仅显示未标记为由管理员批准的组件。作为管理员，这有助于确定需要您审阅和批准的组件。仅管理员有此选项可用。 |

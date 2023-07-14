@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 53f4048db02331e807edd4d55311861d2350efe3
+source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
 workflow-type: tm+mt
 source-wordcount: '4490'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 97%
 | **2023 年 7 月** | |
 | 新 AppMeasurement 变量 | 变量 `decodeLinkParameters` 可适应一些少见的情况，其中实施在链接跟踪变量中为多字节字符编码。[了解详情](../implement/vars/config-vars/decodelinkparameters.md) |
 | **2023 年 6 月** | |
-| 分类集的新增功能 | [分类集](/help/components/classifications/sets/overview.md) 已更新若干新功能：<ul><li>**合并**：将分类集合并到一个合并的分类集中。 合并的分类集可以像其他分类集一样使用，也可以在Customer Journey Analytics中用作查找数据集。 [了解详情](../components/classifications/sets/consolidations/manage.md)</li><li>**规则**：根据分类集中的规则自动对值分类。 [了解详情](../components/classifications/sets/manage/rules.md)</li><li>**自动导入**：自动从云存储目标导入分类数据。 [了解详情](../components/classifications/sets/manage/schema.md)</li></ul> |
+| 分类集的新增功能 | 已为[分类集](/help/components/classifications/sets/overview.md)添加多项新功能：<ul><li>**合并**：将多个分类集合并为一个统一的分类集。合并的分类集可以像其他分类集一样使用，也可以在Customer Journey Analytics中用作查找数据集。 [了解详情](../components/classifications/sets/consolidations/manage.md)</li><li>**规则**：根据分类集中的规则自动对值进行分类。[了解详情](../components/classifications/sets/manage/rules.md)</li><li>**自动化导入**：自动从云存储目标导入分类数据。[了解详情](../components/classifications/sets/manage/schema.md)</li></ul> |
 | 计算指标更新 | 已更新与计算指标相关的各种文章，包括更新屏幕截图和过程中的步骤。作出这些更改是为了使文档与当前的 Adobe Analytics 功能保持一致。 |
 | 数据馈送导出到安全目标 | 现在可以将数据馈送发送到以下云存储目标：<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>不再推荐以前可用的目标（FTP、SFTP、S3 和 Azure Blob）。[了解详情](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=zh-Hans) |
 | Workspace 中的机器人报表 | Analysis Workspace 中现在有机器人报表可用。此功能附带了几项额外功能：<ul><li>一个新维度：[机器人名称](/help/components/dimensions/bot-name.md)</li><li>两个新指标：[机器人页面查看次数](/help/components/metrics/bot-page-views.md)和[机器人发生次数](/help/components/metrics/bot-occurrences.md)。</li><li>一个新的计算指标模板：[机器人页面查看率](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)</li><li>一个新的 Workspace 报表：机器人报表</li></ul>新维度和指标包含自 2023 年 3 月起开始回填的数据。 |
@@ -36,11 +36,11 @@ ht-degree: 97%
 | 深层链接（移动应用程序）文档 | 使用户可发送记分卡的链接，而这些链接将引导用户直接进入应用程序中的记分卡项目。[了解详情](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
 | 关于 Analytics 功能板应用程序（移动应用程序）更新的主屏幕的文档 | 通过新近更新的主屏幕，可在一个合并的记分卡列表中查看您的所有记分卡。[了解详情](/help/analyze/mobile-app/executive.md#use-dashboards) |
 | Spectrum 图标 | 已适当地将文档中用户界面图标的屏幕截图替换为引用 [Adobe 的 Spectrum 设计系统](https://spectrum.adobe.com/page/icons/)中的同等图标。 |
-| 改进的 IP 到地理位置映射 | 创建了一个关于[常见问题解答](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en)的主题。 |
+| 改进的 IP 到地理位置映射 | 创建了一个关于[常见问题解答](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=zh-Hans)的主题。 |
 | 报表活动管理器 | 更新了此 Beta 文档，尤其是更新了关于[查看个别报表包的报表活动](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites)的部分。 |
 | Analysis Workspace 概述 | 更新了 [Analysis Workspace 概述](/help/analyze/analysis-workspace/home.md)，包括更多的一般概述信息和相关内容的链接。 |
 | 创建项目 | 创建了一篇新文章，其中详细解释了如何在 Analysis Workspace 中[创建项目](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)。 |
-| 为左边栏中的组件排序 | 添加了有关对左边栏中的组件列表进行排序的信息。 请参阅中的“搜索、筛选和排序组件列表”部分 [组件概述](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
+| 为左边栏中的组件排序 | 添加了有关对左边栏中的组件列表进行排序的信息。请参阅[组件概览](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)中的“搜索、过滤和排序组件列表”部分。 |
 | 从自由格式表中删除包含动态维度的行 | 添加了有关如何使用 x 图标快速删除包含动态维度的特定行的信息。请参阅[过滤表和为其排序](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)中的“从表中快速排除特定行”部分。 |
 | 面板中添加可视化效果的按钮 | 添加了有关 Analysis Workspace 中每个面板底部的新按钮的信息，通过该按钮，可快速地添加可视化效果。请参阅[可视化概述](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)中的“将可视化效果添加到面板”部分。 |
 | **2023 年 4 月** | |
@@ -59,7 +59,7 @@ ht-degree: 97%
 | **2023 年 2 月** | |
 | 实施 | 更新了有关如何[为 Web 和移动设备实施 Adobe Analytics](../implement/home.md) 的内容。 |
 | 工作区日程表和日期范围 | 更新内容以描述相对日期范围、公式计算更新和日程表 UI 更改。请参阅[关于相对面板日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)。 |
-| 移动记分卡 | 新文档部分描述如何显示和隐藏比较日期范围。参见 [显示比较日期范围](/help/analyze/mobile-app/create-scorecard.md) Customer Journey Analytics中的。 |
+| 移动记分卡 | 新文档部分描述如何显示和隐藏比较日期范围。请参阅 Customer Journey Analytics 中的[显示比较日期范围](/help/analyze/mobile-app/create-scorecard.md)。 |
 | 1.4 API | [Adobe Analytics 1.4 API](https://developer.adobe.com/analytics-apis/docs/1.4/) 经过了全面改写，现在发布在 Adobe Developer 上。 |
 | 跟踪各实施类型 | 更新了用例[跟踪不同的实施类型](../implement/use-cases/cross-type-implementation.md)以适应 Experience Cloud ID 服务。 |
 | **2023 年 1 月** | |
