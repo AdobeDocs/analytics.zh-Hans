@@ -5,7 +5,7 @@ feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
 source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1058'
 ht-degree: 100%
 
@@ -72,7 +72,6 @@ ht-degree: 100%
 
    * 随附的可视化图表，在这个示例中是[条形图](/help/analyze/analysis-workspace/visualizations/bar.md)。生成的可视化图表以您添加到表中的数据类型为基础。任何基于时间的数据（例如每日/月的[!UICONTROL 访问量]）均默认显示为[!UICONTROL 折线图]。任何非基于时间的数据（例如[!UICONTROL 每台设备]的[!UICONTROL 访问次数]均默认显示为[!UICONTROL 条形图]。您可以通过单击可视化图表类型旁边的下拉箭头，来更改可视化图表类型。
 
-
 1. （可选）通过单击维度旁边的 > 向右箭头，向下展开维度并查看维度项。
 
 1. 如下文“更多提示”中所述，可尝试添加某些更细致的调整。
@@ -85,19 +84,19 @@ ht-degree: 100%
 
 * 首先，完成&#x200B;**[!UICONTROL 更多提示]**&#x200B;教程：通过[!UICONTROL 快速分析] 标题旁边的帮助图标 (?) 来访问。在创建至少包含一个维度和一个度量的项目后 24 小时内会显示本教程。
 
-   ![](assets/qibuilder4.png)
+  ![](assets/qibuilder4.png)
 
 * **划分依据**：您最多可以使用 3 个级别对维度进行划分，以挖掘您真正需要的数据。
 
-   ![](assets/qibuilder5.png)
+  ![](assets/qibuilder5.png)
 
 * **添加更多量度**：使用 AND 运算符将最多 2 个量度添加到表中。
 
-   ![](assets/qibuilder6.png)
+  ![](assets/qibuilder6.png)
 
 * **添加更多区段**：使用 AND 或 OR 运算符将最多 2 个区段添加到表中。在添加“移动设备用户 OR 忠诚的访客”后，查看表格会发生什么变化。它们彼此相邻，位于量度上方。如果您添加了“移动设备用户 AND 忠诚的访客”，您将会看到这两个区段的结果，并且它们在表中会彼此堆叠。
 
-   ![](assets/qibuilder7.png)
+  ![](assets/qibuilder7.png)
 
 ## 已知限制
 
