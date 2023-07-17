@@ -4,7 +4,7 @@ title: 组件概述
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
+source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 100%
@@ -127,8 +127,6 @@ Analysis Workspace 中的组件包括维度、指标、区段和日期范围，�
 4. （可选）要进一步细化列表，您可以对组件列表进行排序，如[对组件列表进行排序](#sort-the-component-list)中所述。
 
 ### 对组件列表进行排序
-
-{{release-limited-testing-section}}
 
 1. （可选）对组件列表应用任何筛选条件，如[筛选组件列表](#filter-the-component-list)中所述。
 

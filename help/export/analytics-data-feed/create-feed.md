@@ -3,18 +3,14 @@ title: 创建数据馈送
 description: 了解如何创建数据馈送。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 35f33c026a679526309b09b5af61fc3fd8041c39
+source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
 workflow-type: tm+mt
-source-wordcount: '3209'
+source-wordcount: '3160'
 ht-degree: 20%
 
 ---
 
 # 创建数据馈送
-
->[!AVAILABILITY]
->
->此页面上描述的某些目标类型处于版本的有限测试阶段，可能尚未在您的环境中提供。 当该功能正式发布时，将删除此说明。有关 Analytics 发布流程的信息，请参阅 [Adobe Analytics 功能发布](/help/release-notes/releases.md)。
 
 在创建数据馈送时，您可以为Adobe提供：
 
@@ -148,7 +144,7 @@ ht-degree: 20%
          | [!UICONTROL **帐户描述**] | Azure RBAC帐户的描述。 此描述显示在 [!UICONTROL **选择帐户**] 下拉字段，可以是您选择的任意名称。 |
          | [!UICONTROL **应用程序 ID**] | 从您创建的Azure应用程序中复制此ID。 在Microsoft Azure中，此信息位于 **概述** 选项卡。 欲了解更多信息，请参见 [有关如何使用Microsoft identity平台注册应用程序的Microsoft Azure文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **租户 ID**] | 从您创建的Azure应用程序中复制此ID。 在Microsoft Azure中，此信息位于 **概述** 选项卡。 欲了解更多信息，请参见 [有关如何使用Microsoft identity平台注册应用程序的Microsoft Azure文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **密钥**] | 从您创建的Azure应用程序中复制密钥。 在Microsoft Azure中，此信息位于 **证书和密钥** 选项卡。 欲了解更多信息，请参见 [有关如何使用Microsoft identity平台注册应用程序的Microsoft Azure文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **机密**] | 从您创建的Azure应用程序中复制密钥。 在Microsoft Azure中，此信息位于 **证书和密钥** 选项卡。 欲了解更多信息，请参见 [有关如何使用Microsoft identity平台注册应用程序的Microsoft Azure文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
          {style="table-layout:auto"}
 
@@ -210,7 +206,7 @@ ht-degree: 20%
          | [!UICONTROL **租户 ID**] | 从您创建的Azure应用程序中复制此ID。 在Microsoft Azure中，此信息位于 **概述** 选项卡。 欲了解更多信息，请参见 [有关如何使用Microsoft identity平台注册应用程序的Microsoft Azure文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **密钥保管库 URI**] | <p>Azure密钥库中SAS令牌的路径。  要配置Azure SAS，您需要使用Azure密钥库将SAS令牌存储为密钥。 欲了解相关信息，请参见 [有关如何从Azure Key Vault设置和检索密钥的Microsoft Azure文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>创建密钥保管库URI后，在密钥保管库中添加访问策略，以授予您创建的Azure应用程序的权限。 欲了解相关信息，请参见 [有关如何分配密钥保管库访问策略的Microsoft Azure文档](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
          | [!UICONTROL **密钥保管库机密名称**] | 将密钥添加到Azure密钥库时创建的密钥名称。 在Microsoft Azure中，此信息位于您创建的密钥库的 **密钥库** 设置页面。 欲了解相关信息，请参见 [有关如何从Azure Key Vault设置和检索密钥的Microsoft Azure文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
-         | [!UICONTROL **密钥**] | 从您创建的Azure应用程序中复制密钥。 在Microsoft Azure中，此信息位于 **证书和密钥** 选项卡。 欲了解更多信息，请参见 [有关如何使用Microsoft identity平台注册应用程序的Microsoft Azure文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **机密**] | 从您创建的Azure应用程序中复制密钥。 在Microsoft Azure中，此信息位于 **证书和密钥** 选项卡。 欲了解更多信息，请参见 [有关如何使用Microsoft identity平台注册应用程序的Microsoft Azure文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
          {style="table-layout:auto"}
 
@@ -231,7 +227,7 @@ ht-degree: 20%
 
 +++
 
-   +++Google Cloud 平台
+   +++Google Cloud Platform
 
    您可以直接将信息源发送到Google Cloud Platform (GCP)存储桶。 此目标类型只需要您的GCP帐户名称和位置（存储段）名称。
 

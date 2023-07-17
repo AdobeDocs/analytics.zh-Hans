@@ -4,18 +4,14 @@ keywords: 点击流;数据馈送;数据馈送;数据馈送
 title: Analytics 数据馈送概述
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
+source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 83%
+source-wordcount: '573'
+ht-degree: 87%
 
 ---
 
 # Analytics 数据馈送概述
-
->[!AVAILABILITY]
->
->此页面上描述的某些目标类型处于版本的有限测试阶段，可能尚未在您的环境中提供。 当该功能正式发布时，将删除此说明。有关 Analytics 发布流程的信息，请参阅 [Adobe Analytics 功能发布](/help/release-notes/releases.md)。
 
 数据馈送是从 Adobe Analytics 中获取原始数据的有效方法。此原始数据可在 Adobe 以外的其他平台中使用，具体所用平台由您的组织自行决定。数据在每小时结束时以小时为单位分批发送，或者在每天结束时以天为单位分批发送。
 
