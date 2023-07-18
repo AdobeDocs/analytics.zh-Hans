@@ -3,9 +3,9 @@ title: AppMeasurement for JavaScript 发行说明
 description: AppMeasurement for JavaScript 的发行说明汇总。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: f996448224ffebd57023c8d8e4eeeccb4d6e2a47
+source-git-commit: 39dc3821da20ca38851c648317eca67b4f702a04
 workflow-type: tm+mt
-source-wordcount: '2367'
+source-wordcount: '2366'
 ht-degree: 96%
 
 ---
@@ -16,7 +16,7 @@ AppMeasurement for JavaScript 的发行说明汇总。
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-您可以在中下载最新版本的AppMeasurement [GitHub](https://github.com/adobe/appmeasurement/releases).
+您可以从以下位置下载最新版本的AppMeasurement [GitHub](https://github.com/adobe/appmeasurement/releases).
 
 ## 版本 2.24.0
 
