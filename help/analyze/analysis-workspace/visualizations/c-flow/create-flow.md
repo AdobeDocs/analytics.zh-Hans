@@ -4,9 +4,9 @@ title: 配置流量可视化图表
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 58f53da6076bf57d060303538814582cb5eb009c
+source-git-commit: d1c2966bfd7cb5e397de23adf45bb38fca34e416
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1351'
 ht-degree: 62%
 
 ---
@@ -23,11 +23,9 @@ ht-degree: 62%
 
 1. 在项目中添加一个空白面板，然后单击左边栏中的可视化图标。
 
-1. 拖动 [!UICONTROL **流量**] 可视化图表显示在面板中。
-
    或
 
-   拖动 [!UICONTROL **流量**] 可视化图表到现有项目。
+   通过中的“将可视化图表添加到面板”部分中所述的任何方式添加可视化图表 [可视化概述](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 
 1. 使用以下选项之一锚定流量可视化图表：
 
@@ -45,7 +43,7 @@ ht-degree: 62%
    >
    >计算量度不能用于  **[!UICONTROL 开头为]** 或 **[!UICONTROL 结束于]** 字段。
 
-1. 如果您选择量度，则还需要提供 [!UICONTROL 路径Dimension] ，以用作通往或离开您所选组件的路径，如下所示。 默认的是 [!UICONTROL **页面**]。
+1. 如果您选择量度，则还需要提供 [!UICONTROL **路径Dimension**] ，以用作通往或离开您所选组件的路径，如下所示。 默认的是 [!UICONTROL **页面**]。
 
    ![路径维度](assets/pathing-dim.png)
 

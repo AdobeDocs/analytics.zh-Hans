@@ -3,10 +3,10 @@ title: 数据馈送 UI
 description: 了解如何导览数据馈送界面。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
+source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 97%
+source-wordcount: '656'
+ht-degree: 77%
 
 ---
 
@@ -20,13 +20,11 @@ ht-degree: 97%
 
 可按照以下步骤访问数据馈送管理器：
 
-1. 登录到 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
-2. 单击右上方的 9 宫格菜单，然后单击“[!UICONTROL Analytics]”。
-3. 在顶部菜单中，单击“[!UICONTROL 管理员]”>“[!UICONTROL 数据馈送]”。
+1. 使用您的 Adobe ID 凭据登录 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
+1. 选择右上角的9个正方形图标，然后选择 [!UICONTROL **分析**].
+1. 在顶部导航栏中，转到 [!UICONTROL **管理员**] > [!UICONTROL **数据馈送**].
 
-![“数据馈送”菜单](assets/AdminMenu.png)
-
-## 导览界面
+## 导航界面
 
 当到达数据馈送管理器页面时，界面将类似于下图：
 
@@ -36,27 +34,25 @@ ht-degree: 97%
 
 ### 过滤器和搜索
 
-使用过滤器和搜索功能可准确找到您要查找的馈送。
+使用搜索或筛选条件来查找特定馈送。
 
-在最左侧，单击过滤器图标可显示或隐藏过滤选项。过滤器按类别进行组织。单击 V 形标记可折叠或展开过滤类别。单击相应的复选框可应用该过滤器。
+* 在搜索字段中，开始键入馈送的名称。 只有匹配的馈送才会显示在可用馈送列表中。
 
-![过滤器](assets/filters.jpg)
+* 在最左侧，单击过滤器图标可显示或隐藏过滤选项。过滤器按类别进行组织。您可以折叠或展开筛选类别。 选中要应用的任何过滤器旁边的复选框。
 
-使用搜索功能可按名称查找馈送。
-
-![搜索](assets/search.jpg)
+  ![过滤器](assets/filters.png)
 
 ### 馈送和作业
 
-单击“作业”选项卡，可查看每个馈送创建的各个作业。请参阅[管理数据馈送作业](df-manage-jobs.md)。
+选择 [!UICONTROL **作业**] 选项卡，以查看每个馈送创建的各个作业。 请参阅[管理数据馈送作业](df-manage-jobs.md)。
 
 ### 添加
 
-在“馈送”和“作业”选项卡附近，单击“+ [!UICONTROL 添加]”按钮可创建新馈送。参见 [创建数据馈送](create-feed.md) 了解更多信息。
+此 [!UICONTROL 添加] 按钮可让您创建新馈送。 参见 [创建数据馈送](create-feed.md) 了解更多信息。
 
 ### 列
 
-创建的每个馈送都会显示若干列，列中提供了有关该馈送的信息。单击列标题可将列按升序排序。再次单击列标题可将列按降序排序。如果看不到某个特定列，请单击右上方的列图标。
+创建的每个馈送都会显示若干列，列中提供了有关该馈送的信息。选择列标题可按升序排序。 再次选择列标题可按降序排序。 如果看不到特定列，请单击右上角的列图标。
 
 ![列图标](assets/cols.jpg)
 
