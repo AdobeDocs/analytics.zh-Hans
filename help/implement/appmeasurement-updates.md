@@ -3,20 +3,28 @@ title: AppMeasurement for JavaScript 发行说明
 description: AppMeasurement for JavaScript 的发行说明汇总。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 5545497184d02400ce6844c0281c46e6c997e218
 workflow-type: tm+mt
-source-wordcount: '2323'
-ht-degree: 99%
+source-wordcount: '2368'
+ht-degree: 96%
 
 ---
 
 # AppMeasurement for JavaScript 发行说明
 
-[!DNL AppMeasurement] for JavaScript 的发行说明汇总。
+AppMeasurement for JavaScript 的发行说明汇总。
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-您可以在[代码管理器](/help/admin/admin/code-manager-admin.md)中下载最新版本的 AppMeasurement。
+您可以在中下载最新版本的AppMeasurement [GitHub](https://github.com/adobe/appmeasurement/releases).
+
+## 版本 2.24.0
+
+发行日期：**2023 年 7 月 18 日**
+
+* 添加了可选配置（decodeLinkParameters默认为false），用于对包含双字节编码字符的链接URL进行解码。
+* 为具有错误的高熵用户代理客户端提示API的浏览器添加了其他错误处理。
+* 更改了要使用的POST内容类型标头 `x-www-form-urlencoded` 默认情况下。
 
 ## 版本 2.23.0
 
