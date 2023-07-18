@@ -3,7 +3,7 @@ title: decodeLinkParameters
 description: 启用或禁用AppMeasurement双重编码链接跟踪变量。
 exl-id: 7a4cea23-5ae6-4a8b-82a6-c68f9a1f9c49
 feature: Variables
-source-git-commit: 53f4048db02331e807edd4d55311861d2350efe3
+source-git-commit: e666a2efae01bad3cc3ccc5c8bfafe009a429588
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 7%
@@ -12,7 +12,7 @@ ht-degree: 7%
 
 # decodeLinkParameters
 
-此 `decodeLinkParameters` 变量是一个布尔值，可确定是否对链接跟踪变量编码一次(如果设置为 `true`)或两次(如果设置为 `false`)。 它只会影响 `linkName` (属于 [`tl()`](../functions/tl-method.md) 方法)和 [`linkURL`](linkurl.md). 它需要AppMeasurement2.23.1或更高版本才能使用。 此变量的默认值为 `false`.
+此 `decodeLinkParameters` 变量是一个布尔值，可确定是否对链接跟踪变量编码一次(如果设置为 `true`)或两次(如果设置为 `false`)。 它只会影响 `linkName` (属于 [`tl()`](../functions/tl-method.md) 方法)和 [`linkURL`](linkurl.md). 它需要AppMeasurement2.24.0或更高版本才能使用。 此变量的默认值为 `false`.
 
 在AppMeasurement的早期版本中，链接跟踪变量始终通过URL编码两次。 虽然对于通常依赖于单字节字符的实施来说，这并不是问题，但双重编码会为报表中的多字节字符创建不正确的编码值。 将此变量设置为 `true` 对链接跟踪值编码一次，这通常是所需的行为。
 
