@@ -3,7 +3,7 @@ title: AppMeasurement for JavaScript 发行说明
 description: AppMeasurement for JavaScript 的发行说明汇总。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 39dc3821da20ca38851c648317eca67b4f702a04
+source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
 workflow-type: tm+mt
 source-wordcount: '2366'
 ht-degree: 96%
@@ -22,7 +22,7 @@ AppMeasurement for JavaScript 的发行说明汇总。
 
 发行日期：**2023 年 7 月 18 日**
 
-* 添加了可选配置(`decodeLinkParameters` default false)，用于解码包含双字节编码字符的链接URL。
+* 添加了可选配置(`decodeLinkParameters`  — 默认值= false)，用于解码包含双字节编码字符的链接URL。
 * 为具有错误的高熵用户代理客户端提示API的浏览器添加了其他错误处理。
 * 更改了要使用的POST内容类型标头 `x-www-form-urlencoded` 默认情况下。
 
