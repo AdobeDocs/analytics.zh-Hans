@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
+source-git-commit: 2673f684c5111f94a7f3f6c65872bf0ebe3e7a57
 workflow-type: tm+mt
-source-wordcount: '4490'
+source-wordcount: '4503'
 ht-degree: 99%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 99%
 | 功能 | 描述 |
 | --- | --- |
 | **2023 年 7 月** | |
+| 更新了FTP大小限制 | 已将默认 [FTP 数据存储限制](/help/export/ftp-and-sftp/ftp-limits.md)更改为 100 GB。 |
 | 新 AppMeasurement 变量 | 变量 `decodeLinkParameters` 可适应一些少见的情况，其中实施在链接跟踪变量中编码多字节字符。[了解详情](../implement/vars/config-vars/decodelinkparameters.md) |
 | **2023 年 6 月** | |
 | 分类集的新增功能 | 已为[分类集](/help/components/classifications/sets/overview.md)添加多项新功能：<ul><li>**合并**：将多个分类集合并为一个统一的分类集。合并的分类集可以像其他分类集一样使用，也可以在Customer Journey Analytics中用作查找数据集。 [了解详情](../components/classifications/sets/consolidations/manage.md)</li><li>**规则**：根据分类集中的规则自动对值进行分类。[了解详情](../components/classifications/sets/manage/rules.md)</li><li>**自动化导入**：自动从云存储目标导入分类数据。[了解详情](../components/classifications/sets/manage/schema.md)</li></ul> |

@@ -4,7 +4,7 @@ keywords: ftp;sftp
 title: FTP 限制和数据保留
 feature: FTP Export
 exl-id: ffd6bdcb-ebca-4ad3-b467-5ab2b984ca72
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 0cbabeff05ea3ecc685160e3333c17aeff83dc4a
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 100%
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # FTP 限制和数据保留
 
-所有 Adobe FTP 帐户都具有 10 GB 的数据存储限制。文件会在这些 FTP 帐户上保留 90 天。
+所有 Adobe FTP 帐户都具有 100 GB 的数据存储限制。文件会在这些 FTP 帐户上保留 90 天。
 
 ## 并发连接限制
 
