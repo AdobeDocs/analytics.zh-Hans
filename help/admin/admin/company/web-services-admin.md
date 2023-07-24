@@ -3,10 +3,10 @@ description: Web 服务 API 可通过编程方式访问市场营销报告及其�
 title: Web 服务
 feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
-source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
+source-git-commit: d2a644d1b655153e1ad509bf9065c390d9226cfc
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 100%
+source-wordcount: '279'
+ht-degree: 85%
 
 ---
 
@@ -14,9 +14,14 @@ ht-degree: 100%
 
 Web 服务 API 可通过编程方式访问市场营销报告及其他“包”服务，从而让您以其他方式使用通过 Analytics 界面提供的功能，以及实现更多功能。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 公司设置]** > **[!UICONTROL Web 服务]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 公司设置]** > **[!UICONTROL Web 服务]** 或 **API访问**
 
-## 管理 Web 服务
+
+## Analytics 2.0 API
+
+要访问Analytics 2.0 API，您需要拥有Analytics公司的全球公司ID。 您可以找到当前登录的全局公司ID **粗体** 在本节中。
+
+## 管理旧版Web服务（已弃用）
 
 在 [Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中，您可以更新权限以包括那些需要访问 Web 服务 API 的用户。
 

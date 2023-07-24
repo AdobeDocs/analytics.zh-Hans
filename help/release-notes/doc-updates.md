@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2673f684c5111f94a7f3f6c65872bf0ebe3e7a57
+source-git-commit: 9a6728de91ac968c5ff4eb28217b5ea1d11513f8
 workflow-type: tm+mt
-source-wordcount: '4503'
-ht-degree: 99%
+source-wordcount: '4529'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 99%
 | 功能 | 描述 |
 | --- | --- |
 | **2023 年 7 月** | |
+| 全局公司ID | 已记录 [如何查找全球公司id](../admin/admin/company/web-services-admin.md) 您登录的Analytics公司的名称。 Analytics 2.0 API需要此ID。 |
 | 更新了FTP大小限制 | 已将默认 [FTP 数据存储限制](/help/export/ftp-and-sftp/ftp-limits.md)更改为 100 GB。 |
 | 新 AppMeasurement 变量 | 变量 `decodeLinkParameters` 可适应一些少见的情况，其中实施在链接跟踪变量中编码多字节字符。[了解详情](../implement/vars/config-vars/decodelinkparameters.md) |
 | **2023 年 6 月** | |
