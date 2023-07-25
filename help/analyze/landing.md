@@ -5,9 +5,9 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4071'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 | 新表列 | 单击表格右上角的 [!UICONTROL 自定义表格] 图标。新表列包括： <ul><li>**[!UICONTROL 计划项目]**：当项目已计划时，设置为[!UICONTROL 开启]，或者，但项目未计划时，设置为[!UICONTROL 关闭]。点击 [!UICONTROL 开启] 链接，您可以看到有关计划项目的信息。如果您是项目所有者，也可[编辑项目计划](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)。</li><li>**[!UICONTROL 项目 ID]**：项目 ID 可用于调试项目。</li><li>**[!UICONTROL 最长的日期范围]**：较长的日期范围会增加项目的复杂性，并可能增加处理和加载时间。 </li><li>**[!UICONTROL 查询次数]**：项目加载时向 Analytics 发出的请求总数。较多的项目查询次数会增加项目的复杂性，并可能增加处理和加载时间。此数据仅在加载项目或发送计划项目后可用。 </li></ul> | ![新列](assets/new-columns.png) |
 | 单击打开报告。 | （以前，您必须双击。） |  |
 | **[!UICONTROL Reports &amp; Analytics]** 报告的新链接 | <ul><li>**[!UICONTROL 报告]** > **[!UICONTROL 受众]** > **[!UICONTROL 机器人]**</li><li>**[!UICONTROL 报告]** > **[!UICONTROL 受众]** > **[!UICONTROL 机器人页面]**<li>**[!UICONTROL 报告]** > **[!UICONTROL 参与]** > **[!UICONTROL 实时]**</li></ul> | ![新链接](assets/report-links.png) |
-| 全新开箱即用报告 | <ul><li>**[!UICONTROL 报告]** > **[!UICONTROL 最受欢迎]** > **[!UICONTROL 下一页]**</li><li>**[!UICONTROL 报告]** > **[!UICONTROL 最受欢迎]** > **[!UICONTROL 上一页]**</li><li>**[!UICONTROL 报告]** > **[!UICONTROL 参与]** > **[!UICONTROL 页面分析]** > **[!UICONTROL 页面摘要]**</li></ul>请注意，这些报告采用[!UICONTROL 工作区]格式，需要配置和构建。输出包括一组高级别指标、趋势数据、[!UICONTROL 流程] 可视化等。您可以修改这些报告并更改维度、维度项数等。这些报告也可以作为工作区面板下的面板使用。 | ![下一页](assets/next-page.png) |
+| 全新开箱即用报告 | <ul><li>**[!UICONTROL 报告]** > **[!UICONTROL 最受欢迎]** > **[!UICONTROL 下一页]**</li><li>**[!UICONTROL 报告]** > **[!UICONTROL 最受欢迎]** > **[!UICONTROL 上一页]**</li><li>**[!UICONTROL 报告]** > **[!UICONTROL 参与]** > **[!UICONTROL 页面分析]** > **[!UICONTROL 页面摘要]**</li></ul>请注意，这些报告采用[!UICONTROL 工作区]格式，需要配置和构建。输出包括一组高级别量度、趋势数据、[!UICONTROL 流程] 可视化等。您可以修改这些报告并更改维度、维度项数等。这些报告也可以作为工作区面板下的面板使用。 | ![下一页](assets/next-page.png) |
 | **[!UICONTROL 新建项目]**&#x200B;模式恢复 | 当在 Workspace 中单击&#x200B;**[!UICONTROL 新建项目]**&#x200B;时，您可再次在[!UICONTROL 空白项目]和[!UICONTROL 空白移动记分卡]之间进行选择。 您也可以从公司创建的任何模板中进行选择。 | ![新建](assets/create-new.png) |
-| 也在 Customer Journey Analytics 中提供 | 此登陆页面的修改版也在Customer Journey Analytics中提供。 |  |
+| 也在 Customer Journey Analytics 中提供 | 此登录页面的修改版也将在 Customer Journey Analytics 中提供。 |  |
 
 {style="table-layout:auto"}
 
@@ -101,30 +101,30 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 
 ## 在[!UICONTROL 报告]选项卡中导航 {#navigate-reports}
 
-此 [!UICONTROL 报告] 选项卡整合了以下报表集：
+[!UICONTROL 报告]选项卡整合了以下报告集：
 
 * 预建 [!UICONTROL Workspace] 模板（之前位于 [!UICONTROL Workspace] > [!UICONTROL 项目] > [!UICONTROL 新建]下）。Adobe 在此上下文中不再使用“模板”一词。
 * 之前的 Adobe Analytics [!UICONTROL 报告]顶部菜单下的大多数预建报告。这些报告现在显示在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans) 中。
 
 >[!NOTE]
 >
->使用报表时，请考虑以下事项：
+>使用报告时考虑以下几点：
 >* 在“报告”下，仅当您将新报告标记为收藏时，才会显示“收藏”文件夹。不会沿用任何预先存在的 Reports &amp; Analytics 收藏。
->* 只有以前在Reports &amp; Analytics中分组的最常用报表才可用。 一些很少使用或不再相关的报告已不再提供。 请参阅 [登陆页面常见问题解答](#landing-page-faq) 下文，以了解更多详细信息。
+>* 仅提供以前在 Reports &amp; Analytics 中分组的最常用报告。少数很少使用或不再相关的报告不再可用。请参阅下面的[登陆页面常见问题](#landing-page-faq)以了解更多详情。
 
 ![“报告”选项卡](assets/reports-tab2.png)
 
 
-### 查看报表 {#menus}
+### 查看报告 {#menus}
 
 1. 转到&#x200B;[!UICONTROL **报告**]&#x200B;选项卡。
-1. 使用搜索字段搜索特定报告。
+1. 使用搜索字段可搜索特定报告。
 
    或
 
    导航到要查看的报告。
 
-   下面提供了可创建的报表：
+   提供了以下报告：
 
    | 菜单项 | 此菜单项下的报告 |
    | --- | --- |
@@ -136,41 +136,41 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 
 ### 查看和保存报告 {#use-reports}
 
-如果在进行更改后离开报表，系统将提示您保存或放弃更改。 保存对报告所做的更改会将报告另存为新项目。
+如果您在进行更改后离开报告，系统会提示您保存或放弃更改。保存对报告的更改会将报告另存为新项目。
 
 1. 转到&#x200B;[!UICONTROL **报告**]&#x200B;选项卡。
-1. 选择要查看的报告。例如，在 [!UICONTROL **最受欢迎**]，选择 [!UICONTROL **页面**] 报告。
+1. 选择要查看的报告。例如，在&#x200B;[!UICONTROL **最受欢迎**]&#x200B;下方选择&#x200B;[!UICONTROL **页面**]&#x200B;报告。
 
    ![页面报告](assets/pages-report.png)
 
 1. “页面”报告显示在 Analysis Workspace 中，其中显示了[可视化](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)（[条形图](/help/analyze/analysis-workspace/visualizations/bar.md)和[摘要数量](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)）和[自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)。使用的量度为“发生次数”。
-1. 执行以下任一操作：
+1. 执行下列任一操作：
 
-   * 查看报表。
-   * 将一个或多个区段拖入顶部的区段拖放区域。 例如，拖动区段 [!UICONTROL **移动客户**] 并查看结果。
-   * 转到右上角的日历更改日期范围。
-   * 添加维度划分、拖入其他量度，并且通常根据您的需求自定义报表。
+   * 查看报告。
+   * 将一个或多个区段拖到顶部的“区段”放置区中。例如，拖动区段&#x200B;[!UICONTROL **移动客户**]&#x200B;并查看结果。
+   * 转到右上方的日历来更改日期范围。
+   * 添加维度细分、拖入其他量度，并且通常根据您的需求自定义报告。
 
-1. （可选）通过选择将报表另存为项目 [!UICONTROL **项目**] > [!UICONTROL **保存**].
+1. （可选）通过选择&#x200B;[!UICONTROL **项目**] > [!UICONTROL **保存**]，将报告另存为项目。
 
-   这会将报告另存为新项目；它不会修改现有报告。 有关将报表另存为项目的更多信息，请参阅中的“从空白项目或报表创建项目” [创建项目](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+   这会将报告另存为新项目；不会修改现有报告。有关将报告另存为项目的更多信息，请参阅[创建项目](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)中的“从空白项目或报告创建项目”。
 
 ### 创建自定义公司报告 {#company-report}
 
 创建并保存以供您的登录公司中的其他人使用的自定义报告称为公司报告。以前创建的公司报告和新创建的公司报告将在“创建项目”模式中列出，如下所示。
 
-要创建新的公司报表，请执行以下操作：
+要创建新的公司报告，请执行以下操作：
 
-1. 在Analysis Workspace中生成项目以使其处于所需的状态。
-1. 选择 [!UICONTROL **项目**] > **[!UICONTROL 另存为公司报表……]**.
+1. 在 Analysis Workspace 中构建项目并将其设为所需状态。
+1. 选择&#x200B;[!UICONTROL **项目**] > **[!UICONTROL 另存为公司报告...]**。
 
    ![公司报告](assets/company-report.png)
 
-1. 更新报表名称、添加描述并添加任何标记，然后选择 [!UICONTROL **另存为公司报表**].
+1. 更新报告的名称、添加描述并添加任何标签，然后选择&#x200B;[!UICONTROL **另存为公司报告**]。
 
-   该报表将添加到“创建项目”模式的“公司报表”列表中，并且可供登录公司的用户使用。
+   该报告将添加到“创建项目”模式下的“公司报告”列表中，并且可供您的登录公司内的用户使用。
 
-   有关用户如何根据公司报告创建项目的更多信息，请参阅中的“从空白项目或报告创建项目” [创建项目](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+   有关用户如何根据公司报告创建项目的更多信息，请参阅[创建项目](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)中的“从空白项目或报告创建项目”。
 
 更多学习选项：
 
@@ -179,13 +179,13 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 * 这是指向[完整 Analysis Workspace 文档](/help/analyze/analysis-workspace/home.md)的链接。
 * 这是 [Analysis Workspace 的完整 YouTube 播放列表](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)。
 
-### 管理公司报表 {#manage-company-reports}
+### 管理公司报告 {#manage-company-reports}
 
 管理员可以过滤项目列表以显示和管理公司报告。已固定的项目保持固定状态，后跟由 ![报告图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg) 报告图标标识的公司报告的列表。在此视图中，您可以删除、重命名、标记或审批一个或多个报告。
 
 显示和管理公司报告
 
-1. 在过滤器边栏中，选择&#x200B;**其他过滤器**，然后选择&#x200B;**公司报告**。显示公司报告的列表。所有常规项目（除非已固定）将不会显示。
+1. 在过滤器边栏中，选择&#x200B;**其他过滤器**，然后选择&#x200B;**公司报告**。显示公司报告的列表。不会显示所有常规项目（除非已固定）。
 
    ![显示公司报告过滤器](assets/company-reports-filter.png)
 
@@ -237,22 +237,22 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 
 ## 使用“学习”选项卡 {#navigate-learning}
 
-“学习”页面包含实践视频导览、教程和文档链接。
+“学习”页面包含实践视频导览、教程以及文档链接。
 
-使用Adobe Analytics中的“学习”页面可了解Adobe Analytics中的初学者、中间或高级功能和用例。
+使用 Adobe Analytics 中的“学习”页面来学习 Adobe Analytics 中的初学者、中级或高级功能和用例。
 
 ### 访问“学习”页面
 
-1. 在Adobe Analytics中，选择 [!UICONTROL **工作区**] > [!UICONTROL **学习**].
+1. 在 Adobe Analytics 中，选择 [!UICONTROL **Workspace**] > [!UICONTROL **学习**]。
 
-### 学习页面功能
+### “学习”页面功能
 
-* **筛选内容：** 利用左边栏中的过滤器图标，可按体验级别（初级、中级或高级）和内容类型（文档、视频或导览和教程）过滤学习内容。
-* **跟踪进度：** 选择一段内容后， **[!UICONTROL 已查看]** 标记随即出现。 此标记有助于跟踪您在整个学习内容中的进度。您可以选择 **[!UICONTROL 已查看]** 标记以将其从一段内容中删除。
-* **查看其他内容：** 在查看任何视频时，选择 **[!UICONTROL 了解详情]** 按钮以查看有关Experience League的相关文档内容。 或者，从“学习”页面中，选择以下任一选项以查看其他内容：
-   * **[!UICONTROL 访问YouTube]：** 查看完整的Analysis Workspace YouTube播放列表。
-   * [!UICONTROL **访问Experience League**]：查看有关Experience League的整套Adobe Analytics文档。
-* **面向新用户的基础知识：** 此 [!UICONTROL 工作区基础知识] 建议新用户进行导览。 此导览会将您直接转到Workspace，并引导您完成最常见的操作。 此导览也可以随时通过面板标题中的工具提示弹出窗口在Workspace中重新启动。
+* **筛选内容：**&#x200B;利用左边栏中的“筛选”图标，可以按经验级别（初学者、中级或高级）和内容类型（文档、视频或导览和教程）筛选学习内容。
+* **跟踪进度：**&#x200B;选择一段内容后，将显示&#x200B;**[!UICONTROL 已查看]**&#x200B;标记。此标记有助于跟踪您在整个学习内容中的进度。您可以选择&#x200B;**[!UICONTROL 已查看]**&#x200B;标记，将其从一段内容中删除。
+* **查看附加内容：**&#x200B;在观看任何视频时，选择&#x200B;**[!UICONTROL 了解更多]**&#x200B;按钮以查看 Experience League 的相关文档内容。或者，从“学习”页面中，选择下列选项之一以查看其他内容：
+   * **[!UICONTROL 访问 YouTube]：**&#x200B;查看完整的 Analysis Workspace YouTube 播放列表。
+   * [!UICONTROL **访问 Experience League**]：查看 Experience League 上的完整 Adobe Analytics 文档集。
+* **面向新用户的基础知识：**&#x200B;建议新用户使用 [!UICONTROL Workspace 基础知识]导览。此导览会将您直接转到 Workspace 并向您介绍最常用操作。也可以随时通过面板标题中的工具提示弹出窗口，在 Workspace 中重新启动此导览。
 
 ## 设置您的登陆页面 {#set-landing}
 
