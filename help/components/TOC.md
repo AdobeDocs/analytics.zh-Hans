@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
-user-guide-description: 使用区段、计算指标、虚拟报表包、营销渠道和分类等组件管理数据。了解跨设备分析。
+user-guide-description: 使用区段、计算量度、虚拟报表包、营销渠道和分类等组件管理数据。了解跨设备分析。
 source-git-commit: 50d6094a5b849bc16a02b3e59f9b40f19c86eee3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -105,14 +105,14 @@ ht-degree: 88%
    + [工作日/周末](dimensions/weekday-weekend.md)
    + [年](dimensions/year.md)
    + [邮政编码](dimensions/zip-code.md)
-+ 指标 {#metrics}
-   + [指标概述](metrics/overview.md)
++ 量度 {#metrics}
+   + [量度概述](metrics/overview.md)
    + [计数重复实例](metrics/count-repeat-instances.md)
    + [平均页面深度](metrics/average-page-depth.md)
    + [每次访问的平均页面查看次数](metrics/average-page-views-per-visit.md)
    + [平均会话时长](metrics/average-session-length.md)
    + [网站平均逗留时间](metrics/average-time-on-site.md)
-   + [机器人出现次数](metrics/bot-occurrences.md)
+   + [机器人发生次数](metrics/bot-occurrences.md)
    + [机器人页面查看次数](metrics/bot-page-views.md)
    + [跳出率](metrics/bounce-rate.md)
    + [跳出次数](metrics/bounces.md)
@@ -177,34 +177,34 @@ ht-degree: 88%
       + [Data Warehouse 区段兼容性](segmentation/seg-reference/seg-compatibility.md)
       + [区段权限（按角色）](segmentation/seg-reference/seg-rights.md)
       + [疑难解答](segmentation/seg-reference/c-troubleshooting.md)
-   + [有关管理旧版区段的常见问题解答](segmentation/seg-transition.md)
+   + [有关管理原有区段的常见问题](segmentation/seg-transition.md)
    + [优秀实践](segmentation/best-practices.md)
-+ 计算指标 {#calculated-metrics}
++ 计算量度 {#calculated-metrics}
    + [计算量度和高级计算（派生）量度](c-calcmetrics/cm-overview.md)
    + [操作方法视频](c-calcmetrics/cm-videos.md)
-   + 计算指标工作流程 {#calcmetric-workflow}
-      + [计算指标工作流程](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
-      + [查找指标](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
-      + [生成指标](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [生成“每次访问的页面查看次数”指标](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [构建“订单辅助”量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [生成“参与率”指标](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
-      + [指标类型和归因](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-      + [分段指标](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
+   + 计算量度工作流程 {#calcmetric-workflow}
+      + [计算量度工作流程](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
+      + [查找量度](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
+      + [生成量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+      + [生成“每次访问的页面查看次数”量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [生成“订单协助”量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [生成“参与率”量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [量度类型和归因](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
+      + [分段量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [堆叠和替换区段](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [过滤和加权度量](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
       + [使用函数](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
-      + [标记计算指标](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
-      + [批准计算指标](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
-      + [共享计算指标](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
+      + [标记计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
+      + [批准计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
+      + [共享计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [计算量度管理器](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
-   + 指标引用 {#calcmetrics-reference}
+   + 量度引用 {#calcmetrics-reference}
       + [引用：基本函数](c-calcmetrics/cm-reference/cm-functions.md)
       + [引用：高级函数](c-calcmetrics/cm-reference/cm-adv-functions.md)
-      + [指标兼容性](c-calcmetrics/cm-compatibility.md)
-      + [计算指标：基于角色的权限](c-calcmetrics/cm-role-based-rights.md)
-      + [计算指标总计](c-calcmetrics/cm-totals.md)
-      + [默认计算指标](c-calcmetrics/cm-reference/default-calcmetrics.md)
+      + [量度兼容性](c-calcmetrics/cm-compatibility.md)
+      + [计算量度：基于角色的权限](c-calcmetrics/cm-role-based-rights.md)
+      + [计算量度总计](c-calcmetrics/cm-totals.md)
+      + [默认计算量度](c-calcmetrics/cm-reference/default-calcmetrics.md)
 + 虚拟报表包 {#virtual-report-suites}
    + [虚拟报表包概述](vrs/vrs-about.md)
    + [虚拟报表包 — 组件管理](vrs/vrs-components.md)
@@ -270,16 +270,16 @@ ht-degree: 88%
    + [分类常见问题解答](classifications/faq.md)
 + 位置 {#locations}
    + [位置管理器](/help/components/locations/locations-manager.md)
-   + [云导入帐户](/help/components/locations/configure-import-accounts.md)
+   + [云导入帐号](/help/components/locations/configure-import-accounts.md)
    + [云导入位置](/help/components/locations/configure-import-locations.md)
 + [日程表事件](t-calendar-event.md)
 + [已安排的报表队列](scheduled-reports-admin.md)
 + 实时报表 {#real-time-reporting}
    + [实时报表概述](c-real-time-reporting/realtime.md)
    + [配置实时报表](c-real-time-reporting/t-realtime-admin.md)
-   + [受支持的实时指标和维度](c-real-time-reporting/realtime-metrics.md)
+   + [受支持的实时量度和维度](c-real-time-reporting/realtime-metrics.md)
 + 营销渠道 {#marketing-channels}
-   + [营销渠道入门](c-marketing-channels/c-getting-started-mchannel.md)
+   + [营销渠道快速入门](c-marketing-channels/c-getting-started-mchannel.md)
    + [Attribution IQ 和营销渠道](c-marketing-channels/mchannel-best-practices.md)
    + [分析营销渠道](c-marketing-channels/analyze-mc.md)
    + [营销渠道权限](c-marketing-channels/c-channel-report-access.md)
