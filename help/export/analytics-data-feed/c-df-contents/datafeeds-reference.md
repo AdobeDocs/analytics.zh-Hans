@@ -6,9 +6,9 @@ title: 数据列引用
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3671'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
 >
 >大多数列中包含一个以 `post_` 为前缀的相似列。post 列包含应用服务器端逻辑、处理规则和 VISTA 规则后得出的值。大多数情况下，Adobe 建议使用 post_ 列。有关更多信息，请参阅[数据馈送常见问题解答](../df-faq.md)。
 
-此表格的先前更新可以在此页的 [在GitHub上提交历史记录](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
+可以在此页面的 [GitHub 上的提交历史记录](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)中找到此表之前的更新内容。
 
 | 列名称 | 列说明 | 数据类型 |
 | --- | --- | --- |
@@ -40,7 +40,7 @@ ht-degree: 98%
 | **`browser_width`** | 浏览器窗口的宽度（单位：像素）。 | 无符号 smallint |
 | **`c_color`** | 调色板的位深度。在计算[颜色深度](/help/components/dimensions/color-depth.md)维度时用到。AppMeasurement 使用 JavaScript 函数 `screen.colorDepth()`。 | char(20) |
 | **`campaign`** | 在[跟踪代码](/help/components/dimensions/tracking-code.md)维度中使用的变量。 | varchar(255) |
-| **`carrier`** | Adobe Advertising 集成变量。指定移动运营商。的键值 `carrier.tsv` [动态查找](dynamic-lookups.md). | varchar(100) |
+| **`carrier`** | Adobe Advertising 集成变量。指定移动运营商。`carrier.tsv`[动态查找](dynamic-lookups.md)的关键值。 | varchar(100) |
 | **`ch_hdr`** | 通过 HTTP 请求头收集的客户端提示。 | 文本 |
 | **`ch_js`** | 通过用户代理客户端提示 JavaScript API 收集的客户端提示。 | 文本 |
 | **`channel`** | 在[网站部分](/help/components/dimensions/site-section.md)维度中使用的变量。 | varchar(100) |
@@ -89,7 +89,7 @@ ht-degree: 98%
 | **`geo_region`** | 根据 IP 地址判断的点击来源省/市/自治区或区域的名称。在[地区](/help/components/dimensions/regions.md)维度中用到。 | char(32) |
 | **`geo_zip`** | 根据 IP 地址判断的点击来源的邮政编码。有助于填充[邮编](/help/components/dimensions/zip-code.md)维度。另请参阅 `zip`。 | varchar(16) |
 | **`hier1 - hier5`** | 由层级变量使用。包含一个分隔的值列表。在“报表包设置”下方选择分隔符。 | varchar(255) |
-| **`hit_source`** | 表示点击的来源。点击源 1、2 和 6 将计费。<br>1：不带时间戳的标准图像请求<br>2：带有时间戳的标准图像请求<br>3：带有时间戳的实时数据源上载<br>4：未使用<br>5：通用数据源上载<br>6：完全处理数据源上载<br>7：TransactionID 数据源上载<br>8：不再使用；Adobe Advertising Cloud 数据源的以前版本<br>9：不再使用；Adobe Social 概要指标<br>10：使用了 Audience Manager 服务器端转发 | 无符号 tinyint |
+| **`hit_source`** | 表示点击的来源。点击源 1、2 和 6 将计费。<br>1：不带时间戳的标准图像请求<br>2：带有时间戳的标准图像请求<br>3：带有时间戳的实时数据源上载<br>4：未使用<br>5：通用数据源上载<br>6：完全处理数据源上载<br>7：TransactionID 数据源上载<br>8：不再使用；Adobe Advertising Cloud 数据源的以前版本<br>9：不再使用；Adobe Social 概要量度<br>10：使用了 Audience Manager 服务器端转发 | 无符号 tinyint |
 | **`hit_time_gmt`** | Adobe 数据收集服务器收到点击的时间戳（基于 UNIX® 时间）。 | int |
 | **`hitid_high`** | 与 `hitid_low` 配合使用可标识某次点击。 | 无符号 bigint |
 | **`hitid_low`** | 与 `hitid_high` 配合使用可标识某次点击。 | 无符号 bigint |
@@ -110,7 +110,7 @@ ht-degree: 98%
 | **`latlon45`** | 位置（精确到 1 米） | varchar(255) |
 | **`mc_audiences`** | 列出访客所属的 Audience Manager 区段 ID。`post_mc_audiences` 列将分隔符更改为 `--**--`。 | 文本 |
 | **`mcvisid`** | Experience Cloud 访客 ID. 一个 128 位的数字（由两个 64 位的数字拼接而成），共占据了 19 位数。 | varchar(255) |
-| **`mobile_id`** | 如果用户使用了移动设备，则为移动设备的数字 ID。的键值 `mobile_attributes.tsv` [动态查找](dynamic-lookups.md). | int |
+| **`mobile_id`** | 如果用户使用了移动设备，则为移动设备的数字 ID。`mobile_attributes.tsv`[动态查找](dynamic-lookups.md)的关键值。 | int |
 | **`mobileaction`** | 移动设备操作。在 Mobile Services 中调用 `trackAction` 时自动收集此项。应用程序支持自动的操作路径。 | varchar(100) |
 | **`mobileappid`** | 移动设备应用程序 ID。采用以下格式存储应用程序名称和版本： `[AppName] [BundleVersion]` | varchar(255) |
 | **`mobileappperformanceappid`** | 用于 Apteligent Data Connector。Apteligent 中使用的应用程序 ID。 | varchar(255) |
@@ -159,7 +159,7 @@ ht-degree: 98%
 | **`mvvar1_instances`** - `mvvar3_instances` | 在当前点击上设置的列表变量值。将原始分隔符替换为 `--**--`。没有 `post` 列。 | 文本 |
 | **`namespace`** | 未使用。属于某个已弃用的功能。 | varchar(50) |
 | **`new_visit`** | 确定当前点击是否为新访问的标记。在访问处于不活动状态 30 分钟后，由 Adobe 服务器设置。 | 无符号 tinyint |
-| **`os`** | 表示访客的操作系统的数值 ID。基于 `user_agent` 列。的键值 `operating_system.tsv` 标准查找和 `operating_system_type.tsv` [动态查找](dynamic-lookups.md). | 无符号 int |
+| **`os`** | 表示访客的操作系统的数值 ID。基于 `user_agent` 列。`operating_system.tsv` 标准查找和 `operating_system_type.tsv` [动态查找](dynamic-lookups.md)的关键值。 | 无符号 int |
 | **`p_plugins`** | 已不再使用。可用于浏览器的插件列表。使用了 JavaScript 函数 `navigator.plugins()`。 | 文本 |
 | **`page_event`** | 在图像请求中发送的点击类型（标准点击、下载链接、自定义链接、退出链接）。请参阅[页面事件查找](datafeeds-page-event.md)。 | 无符号 tinyint |
 | **`page_event_var1`** | 仅用于链接跟踪图像请求。单击的下载链接、退出链接或自定义链接的 URL。 | 文本 |
@@ -201,7 +201,7 @@ ht-degree: 98%
 | **`sociallatlong`** | 已不再使用。社交网站纬度/经度 | varchar(255) |
 | **`socialowneddefinitioninsighttype`** | 已不再使用。社交网站拥有的定义分析类型 | varchar(255) |
 | **`socialowneddefinitioninsightvalue`** | 已不再使用。社交网站拥有的定义分析值 | varchar(255) |
-| **`socialowneddefinitionmetric`** | 已不再使用。社交网站拥有的定义指标 | varchar(255) |
+| **`socialowneddefinitionmetric`** | 已不再使用。社交网站拥有的定义量度 | varchar(255) |
 | **`socialowneddefinitionpropertyvspost`** | 已不再使用。社交网站拥有的定义属性与帖子 | varchar(255) |
 | **`socialownedpostids`** | 已不再使用。社交网站拥有的帖子 ID | varchar(255) |
 | **`socialownedpropertyid`** | 已不再使用。社交网站拥有的资产 ID | varchar(255) |
