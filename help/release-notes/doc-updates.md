@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 45fbd7f7502abe4b579135d100c7e3618546c0f5
+source-git-commit: 5ebc53e8706f60988b289df060be9b02b5dc778f
 workflow-type: tm+mt
-source-wordcount: '4576'
+source-wordcount: '4615'
 ht-degree: 98%
 
 ---
@@ -26,7 +26,8 @@ ht-degree: 98%
 | 功能 | 描述 |
 | --- | --- |
 | **2023 年 7 月** | |
-| 全局公司ID | 已记录 [如何查找全球公司ID](../admin/admin/company/web-services-admin.md) 您登录的Analytics公司的名称。 Analytics 2.0 API需要此ID。 |
+| Adobe Experience Platform Edge Network Server API | 添加了关于何时以及如何实施的更全面的文档 [Adobe Experience Platform Edge Network服务器API](../implement/aep-edge/server-api/overview.md). 例如，在为桌面应用程序、物联网设备、机顶盒实施Adobe Analytics时。 |
+| 全局公司ID | 已记录 [如何查找全球公司ID](../admin/admin/company/web-services-admin.md) 您登录的Analytics公司。 Analytics 2.0 API需要此ID。 |
 | 更新了FTP大小限制 | 已将默认 [FTP 数据存储限制](/help/export/ftp-and-sftp/ftp-limits.md)更改为 100 GB。 |
 | 新 AppMeasurement 变量 | 变量 `decodeLinkParameters` 可适应一些少见的情况，其中实施在链接跟踪变量中编码多字节字符。[了解详情](../implement/vars/config-vars/decodelinkparameters.md) |
 | 配置云帐户存储位置以摄取分类数据 | 您现在可以管理用于分类集自动化的云帐户存储位置。[了解详情](/help/components/locations/configure-import-accounts.md) |
@@ -98,7 +99,7 @@ ht-degree: 98%
 | 设置产品字符串变量时在用于 Edge Collection 的 XDM 中使用 SKU 字段 | 使客户能够通过 Experience Edge/Web SDK 收集数据，以使用 SKU 值设置产品变量中的产品字段。 [了解详情](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=zh-Hans#products-using-the-web-sdk?lang=zh-Hans) |
 | **2022 年 6 月** |  |
 | 用于 Edge Collection 的 XDM 中的促销变量 | 关于[支持用于 Edge Collection 的 XDM 中促销变量的文档](/help/components/dimensions/evar-merchandising.md) |
-| Experience Platform Edge 文档 | 关于通过 [Web SDK](/help/implement/aep-edge/web-sdk/overview.md)、[Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) 和 [Edge API](/help/implement/aep-edge/edge-api/overview.md) 实现 Adobe Analytics 的新文章。 |
+| Experience Platform Edge 文档 | 关于通过 [Web SDK](/help/implement/aep-edge/web-sdk/overview.md)、[Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) 和 [Edge API](/help/implement/aep-edge/server-api/overview.md) 实现 Adobe Analytics 的新文章。 |
 | 更新的流量可视化文档 | 基于[新 UI](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | 关于在移动记分卡中共享注释的文档 | 您可以[在移动记分卡中显示在工作区中创建的注释](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md)。 |
 | **2022 年 5 月** | |

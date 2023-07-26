@@ -3,10 +3,10 @@ title: 使用 Adobe Experience Platform Edge 实施 Adobe Analytics
 description: 在 Adobe Analytics 中使用源自 Experience Platform 的 XDM 数据概述
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
-source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+source-git-commit: 5ebc53e8706f60988b289df060be9b02b5dc778f
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 100%
+source-wordcount: '135'
+ht-degree: 88%
 
 ---
 
@@ -18,4 +18,4 @@ Adobe 提供了三种向 Experience Edge 发送数据的主要方式：
 
 * **[Adobe Experience Platform Web SDK](web-sdk/overview.md)**：使用 Adobe Experience Platform 数据收集中的 Web SDK 扩展将数据发送到 Edge。
 * **[Adobe Experience Platform Mobile SDK](mobile-sdk/overview.md)**：使用 Adobe Experience Platform 数据收集中的 Mobile SDK 扩展将数据发送到 Edge。
-* **[Edge Network 服务器 API](edge-api/overview.md)**：使用 API 直接向 Edge 发送数据。
+* **[Adobe Experience Platform Edge Network服务器API](server-api/overview.md)**：使用API直接将数据发送到Edge。

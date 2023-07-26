@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 实施指南
 breadcrumb-title: 实施指南
 user-guide-description: 了解各种实施 Adobe Analytics 的方法。自定义收集什么数据以充分利用 Analytics 数据。
-source-git-commit: 53f4048db02331e807edd4d55311861d2350efe3
+source-git-commit: 5ebc53e8706f60988b289df060be9b02b5dc778f
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 99%
       + [cookieDomainPeriods](vars/config-vars/cookiedomainperiods.md)
       + [cookieLifetime](vars/config-vars/cookielifetime.md)
       + [currencyCode](vars/config-vars/currencycode.md)
-      + [decodeLinkParameters](vars/config-vars/decodelinkparameters.md)
+      + [Decodlinkparameters](vars/config-vars/decodelinkparameters.md)
       + [dynamicVariablePrefix](vars/config-vars/dynamicvariableprefix.md)
       + [fpCookieDomainPeriods](vars/config-vars/fpcookiedomainperiods.md)
       + [linkDownloadFileTypes](vars/config-vars/linkdownloadfiletypes.md)
@@ -140,8 +140,8 @@ ht-degree: 99%
       + [Web SDK 概述](aep-edge/web-sdk/overview.md)
    + Mobile SDK {#mobile-sdk}
       + [Mobile SDK 概述](aep-edge/mobile-sdk/overview.md)
-   + Edge API{#edge-api}
-      + [Edge API 概述](aep-edge/edge-api/overview.md)
+   + 服务器API {#server-api}
+      + [服务器API概述](aep-edge/server-api/overview.md)
 + 使用 Adobe Analytics 扩展实施 Analytics{#launch}
    + [标记概述](launch/overview.md)
    + [创建 Adobe Analytics 标记属性](launch/create-analytics-property.md)
