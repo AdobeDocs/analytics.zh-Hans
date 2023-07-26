@@ -3,10 +3,10 @@ description: “数据治理的隐私标签”对话框概述了报告包的隐�
 title: 查看/管理数据治理的隐私标签
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 0f5a1e7264b194b368731f612a04bb805740a932
+source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 100%
+source-wordcount: '877'
+ht-degree: 95%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >如果您没有看到此菜单项，则需要将您添加到 [Admin Console 中的产品配置文件](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=zh-Hans)，并为您提供对此功能的各种权限。
+   >如果您没有看到此菜单项，则需要将您添加到 [Admin Console中的产品配置文件](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=zh-Hans) 或有权访问Admin Console中的报表包。
 
 3. 在右上角，选择要查看或管理其隐私标签的报告包。
 
-![](assets/privacy_labeling.png)
+   ![](assets/privacy_labeling.png)
 
 | 设置 | 描述 |
 | --- | --- |

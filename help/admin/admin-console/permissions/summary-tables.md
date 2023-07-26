@@ -3,10 +3,10 @@ title: Adobe Analytics Permissions — 汇总表
 description: 汇总 Adobe Admin Console 中可用的 Adobe Analytics Permissions 的表格。
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
+source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 100%
+source-wordcount: '1302'
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 | 报告包（写入） |  |  |  | x | 未使用。 |
 | SiteCatalyst |  |  |  | x | 未使用。请改用“Analysis Workspace 访问权限”。 |
 | 社交 |  |  |  | x | 未使用。 |
-| 文本缩图报告 |  |  |  | x | 未使用。 |
+| 文本缩图报告 |  |  |   | x | 未使用。 |
 | 流量管理 |  |  |  | x | 未使用。 |
 | 用户概要缩图报告 |  |  |  | x | 未使用。 |
 | 视频设置 |  |  |  | x | 未使用。 |
@@ -88,6 +88,7 @@ ht-degree: 100%
 | 支持 | x |  |  |  | 授予对“管理员”>“所有管理员”>“公司设置”>“支持信息”的访问权限。 |
 | 流量管理 | x |  |  |  | 授予对“管理员”>“所有管理员”>“流量管理”的访问权限。 |
 | Web 服务 | x |  |  |  | 授予对“管理员”>“所有管理员”>“公司设置”>“Web 服务”的访问权限。 |
+| 与任何人共享项目链接 | x |  |  |  | 授予用户与“工作区”项目 — >“共享” — >“与任何人共享”下的任何人共享的访问权限。 |
 | Activity Map |  | x |  |  | 授予对“工具”>“Activity Map”的访问权限。允许用户使用 Activity Map 扩展。 |
 | Ad Hoc Analysis 许可用户 |  | x |  |  | Ad Hoc Analysis 的产品寿命已结束。[更多信息](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
 | Analysis Workspace 访问权限 |  | x |  |  | 授予对 Analysis Workspace 的访问权限。用户必须属于此组（首选）或“Reports &amp; Analytics 访问权限”组，才能使用 Adobe Analytics。 |
