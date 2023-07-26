@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 5ebc53e8706f60988b289df060be9b02b5dc778f
+source-git-commit: bcef7aeffa28bd8c2fa2863c4dfb6e6cde15a469
 workflow-type: tm+mt
-source-wordcount: '4615'
-ht-degree: 98%
+source-wordcount: '4623'
+ht-degree: 99%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 98%
 | 功能 | 描述 |
 | --- | --- |
 | **2023 年 7 月** | |
-| Adobe Experience Platform Edge Network Server API | 添加了关于何时以及如何实施的更全面的文档 [Adobe Experience Platform Edge Network服务器API](../implement/aep-edge/server-api/overview.md). 例如，在为桌面应用程序、物联网设备、机顶盒实施Adobe Analytics时。 |
-| 全局公司ID | 已记录 [如何查找全球公司ID](../admin/admin/company/web-services-admin.md) 您登录的Analytics公司。 Analytics 2.0 API需要此ID。 |
-| 更新了FTP大小限制 | 已将默认 [FTP 数据存储限制](/help/export/ftp-and-sftp/ftp-limits.md)更改为 100 GB。 |
+| Adobe Experience Platform Edge Network Server API | 添加了关于何时以及如何使用在Adobe Analytics中实施数据收集的更全面的文档 [Adobe Experience Platform Edge Network服务器API](../implement/aep-edge/server-api/overview.md). 例如，在桌面应用程序、物联网设备、机顶盒中使用Adobe Analytics实现数据收集。 |
+| 全球公司 ID | 已为您登录的 Analytics 公司记录[如何查找全球公司 ID](../admin/admin/company/web-services-admin.md)。Analytics 2.0 API 需要此 ID。 |
+| 已更新 FTP 大小限制 | 已将默认 [FTP 数据存储限制](/help/export/ftp-and-sftp/ftp-limits.md)更改为 100 GB。 |
 | 新 AppMeasurement 变量 | 变量 `decodeLinkParameters` 可适应一些少见的情况，其中实施在链接跟踪变量中编码多字节字符。[了解详情](../implement/vars/config-vars/decodelinkparameters.md) |
 | 配置云帐户存储位置以摄取分类数据 | 您现在可以管理用于分类集自动化的云帐户存储位置。[了解详情](/help/components/locations/configure-import-accounts.md) |
-| “数据修复”过滤器增强功能 | 在数据修复中增加了三个过滤改进。 [了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) |
+| “数据修复”过滤器增强功能 | 已向“数据修复”添加三项过滤改进。[了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) |
 | **2023 年 6 月** | |
 | 分类集的新增功能 | 已为[分类集](/help/components/classifications/sets/overview.md)添加多项新功能：<ul><li>**合并**：将多个分类集合并为一个统一的分类集。可以像使用其他分类集一样使用统一的分类集，也可以将其用作 Customer Journey Analytics 中的查找数据集。[了解详情](../components/classifications/sets/consolidations/manage.md)</li><li>**规则**：根据分类集中的规则自动对值进行分类。[了解详情](../components/classifications/sets/manage/rules.md)</li><li>**自动化导入**：自动从云存储目标导入分类数据。[了解详情](../components/classifications/sets/manage/schema.md)</li></ul> |
 | 计算量度更新 | 已更新与计算量度相关的各种文章，包括更新屏幕截图和过程中的步骤。作出这些更改是为了使文档与当前的 Adobe Analytics 功能保持一致。 |
