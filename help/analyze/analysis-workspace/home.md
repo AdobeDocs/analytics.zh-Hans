@@ -7,7 +7,7 @@ exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
 workflow-type: tm+mt
 source-wordcount: '760'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ Analysis Workspace 中的数据词典可帮助用户和管理员跟踪并更好�
 
 ### 数据源
 
-通过同步可视化图表，您可以控制与可视化图表对应的数据表或数据源。以下是如何实现此功能的更多信息 [管理数据源](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
+通过同步可视化图表，您可以控制与可视化图表对应的数据表或数据源。以下是有关如何[管理数据源](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)的更多信息。
 
 ## 开始使用 Analysis Workspace
 
