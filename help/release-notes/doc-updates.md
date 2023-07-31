@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 1c7dd6fad55acc579229f47d0b22ec50b80eb565
 workflow-type: tm+mt
 source-wordcount: '4623'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 | 功能 | 描述 |
 | --- | --- |
 | **2023 年 7 月** | |
-| Adobe Experience Platform Edge Network Server API | 添加了关于何时以及如何使用在Adobe Analytics中实施数据收集的更全面的文档 [Adobe Experience Platform Edge Network服务器API](../implement/aep-edge/server-api/overview.md). 例如，在桌面应用程序、物联网设备、机顶盒中使用Adobe Analytics实施数据收集。 |
+| Adobe Experience Platform Edge Network Server API | 添加了关于何时以及如何使用 [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md) 通过 Adobe Analytics 实施数据收集的更全面的文档。例如，在桌面应用程序、物联网设备、机顶盒中通过 Adobe Analytics 实施数据收集。 |
 | 全球公司 ID | 已为您登录的 Analytics 公司记录[如何查找全球公司 ID](../admin/admin/company/web-services-admin.md)。Analytics 2.0 API 需要此 ID。 |
 | 已更新 FTP 大小限制 | 已将默认 [FTP 数据存储限制](/help/export/ftp-and-sftp/ftp-limits.md)更改为 100 GB。 |
 | 新 AppMeasurement 变量 | 变量 `decodeLinkParameters` 可适应一些少见的情况，其中实施在链接跟踪变量中编码多字节字符。[了解详情](../implement/vars/config-vars/decodelinkparameters.md) |
