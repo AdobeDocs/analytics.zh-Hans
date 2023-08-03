@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 05b4dc07de567b25e71b47fd92743bee0b5621f8
+source-git-commit: e17705adb6319a31f125cdff2810cbf79d85510c
 workflow-type: tm+mt
-source-wordcount: '4689'
-ht-degree: 98%
+source-wordcount: '4895'
+ht-degree: 94%
 
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 98%
 | --- | --- |
 | **2023 年 8 月** | |
 | 阐明了为数据馈送配置SFTP不需要Adobe客户关怀团队 | 阐明于 [通过SFTP将Adobe数据发送到外部FTP帐户](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md) 客户不需要聘请Adobe客户关怀团队为数据馈送配置SFTP。 <p>另外还添加了一条说明，指出不再建议使用SFTP，并且客户在配置数据馈送时应使用云目标。</p> |
+| 流媒体的文档改进 | 对流媒体进行了以下文档改进： <ul><li>已更新 [一般概述](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans) 从而提高清晰度并包含与Customer Journey Analytics相关的信息。</li><li>已更新 [实施概述](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=en) 以明确区分Edge实施和仅限Analytics的实施。 此外，还包含用于说明各种实施方法的图表。</li><li>添加了特定于的先决条件 [Edge实施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html?lang=en) 和 [仅限Analytics的实施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html?lang=en). 还更新了 [常规先决条件](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html?lang=en).</li><li>更新了 [获取媒体SDK、使用标记的扩展和OTT SDK](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html?lang=en) 要包含新列的项目 *支持的解决方案* 和 *实现方法*.</li><li>简化中文章的内容和组织 [实现](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=en) 文档区域。 这包括按Edge实施和仅限Analytics实施对实施进行分类。</li><li>删除了下不需要的额外层次结构级别 [跟踪](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html?lang=en) 并在此部分中添加了已更改URL的重定向。</li><ul> |
 | **2023 年 7 月** | |
 | Adobe Experience Platform Edge Network Server API | 添加了关于何时以及如何使用 [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md) 通过 Adobe Analytics 实施数据收集的更全面的文档。例如，在桌面应用程序、物联网设备、机顶盒中通过 Adobe Analytics 实施数据收集。 |
 | 全球公司 ID | 已为您登录的 Analytics 公司记录[如何查找全球公司 ID](../admin/admin/company/web-services-admin.md)。Analytics 2.0 API 需要此 ID。 |
