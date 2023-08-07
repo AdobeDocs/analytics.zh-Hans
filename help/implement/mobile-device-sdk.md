@@ -3,10 +3,10 @@ title: 为移动设备实施 Analytics
 description: 确定要使用的移动 AppMeasurement 库。
 feature: Implementation Basics
 exl-id: 8a1dc0c1-493f-41da-a0ed-08df0367e5d8
-source-git-commit: 5ebc53e8706f60988b289df060be9b02b5dc778f
+source-git-commit: cf55284ec2fd01949107f8b16e25977fd80c758f
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 51%
+source-wordcount: '85'
+ht-degree: 60%
 
 ---
 
@@ -24,5 +24,5 @@ ht-degree: 51%
 
 >[!CAUTION]
 >
->对版本 4 Mobile SDK 的支持于 2020 年 9 月 30 日终止。
+>对版本 4 Mobile SDK 的支持于 2021 年 8 月 31 日终止。 有关更多信息，请参阅[版本 4 Mobile SDK 支持终止常见问题解答](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/)。
 
