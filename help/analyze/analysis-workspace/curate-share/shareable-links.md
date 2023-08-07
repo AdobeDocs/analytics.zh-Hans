@@ -5,7 +5,7 @@ title: 创建可共享链接
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 8e03817b2e03c50dff730be05849a47d7728dc9a
+source-git-commit: 9349883dc827eb73ee59e852d054091ade70999c
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 61%
@@ -14,15 +14,15 @@ ht-degree: 61%
 
 # 创建可共享链接
 
-Analysis Workspace 提供了多种将项目共享给用户的方法，包括能够获得指向项目或项目特定部分的链接。某些链接类型要求收件人先登录Adobe Analytics才能访问项目，而其他链接类型则不需要。
+Analysis Workspace 提供了多种将项目共享给用户的方法，包括能够获得指向项目或项目特定部分的链接。某些链接类型要求收件人先登录Adobe Analytics才能访问项目，而其他链接类型则不要求登录。
 
-## 获取项目链接以与其他Workspace用户共享 {#project-link}
+## 获取要与其他Workspace用户共享的项目链接 {#project-link}
 
-要共享指向项目的链接，请转到要共享的项目，然后选择转到 [!UICONTROL **共享**] > [!UICONTROL **与工作区用户共享**] > [!UICONTROL **通过链接共享**]. 需要与您共享链接的用户才能登录。
+要共享项目的链接，请转到要共享的项目，然后选择转到 [!UICONTROL **共享**] > [!UICONTROL **与Workspace用户共享**] > [!UICONTROL **通过链接共享**]. 需要与您共享链接的用户才能登录。
 
-如果尚未为链接的收件人分配 [项目角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans)，管理员接收 **[!UICONTROL 可以编辑]** 和非管理员收到 **[!UICONTROL 可以复制]** 体验。
+如果尚未为链接的收件人分配 [项目角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans)，管理员接收 **[!UICONTROL 编辑原始]** 和非管理员获得 **[!UICONTROL 编辑副本]** 体验。
 
-## 获取与任何人共享的只读链接
+## 获取可与任何人共享的只读链接
 
 您可以与无权访问Analysis Workspace的用户共享指向Adobe Analytics项目的只读链接。 您与其共享链接的用户无需登录。
 
