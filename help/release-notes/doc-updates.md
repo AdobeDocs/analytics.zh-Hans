@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: bf111fc5529692283bf6b341655e80498107633b
+source-git-commit: abd4d1a4b8076de225e37a375dfe387c998deb01
 workflow-type: tm+mt
-source-wordcount: '4907'
+source-wordcount: '4891'
 ht-degree: 95%
 
 ---
@@ -45,7 +45,6 @@ ht-degree: 95%
 | 深层链接（移动应用程序）文档 | 使用户可发送记分卡的链接，而这些链接将引导用户直接进入应用程序中的记分卡项目。[了解详情](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
 | 关于 Analytics 功能板应用程序（移动应用程序）更新的主屏幕的文档 | 通过新近更新的主屏幕，可在一个合并的记分卡列表中查看您的所有记分卡。[了解详情](/help/analyze/mobile-app/executive.md#use-dashboards) |
 | Spectrum 图标 | 已适当地将文档中用户界面图标的屏幕截图替换为引用 [Adobe 的 Spectrum 设计系统](https://spectrum.adobe.com/page/icons/)中的同等图标。 |
-| 改进的 IP 到地理位置映射 | 创建了一个关于[常见问题解答](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=zh-Hans)的主题。 |
 | 报表活动管理器 | 更新了此 Beta 文档，尤其是更新了关于[查看个别报表包的报表活动](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites)的部分。 |
 | Analysis Workspace 概述 | 更新了 [Analysis Workspace 概述](/help/analyze/analysis-workspace/home.md)，包括更多的一般概述信息和相关内容的链接。 |
 | 创建项目 | 创建了一篇新文章，其中详细解释了如何在 Analysis Workspace 中[创建项目](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)。 |
