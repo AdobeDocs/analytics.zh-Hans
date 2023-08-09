@@ -5,22 +5,22 @@ uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
 feature: Report Builder
 role: User, Admin
 exl-id: 53cfdcf4-31c3-40ab-aca4-8f0f9be6fe13
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 100%
+source-wordcount: '228'
+ht-degree: 71%
 
 ---
 
 # 维度和量度的用户访问权限
 
-Adobe Report Builder 现在具有类似于 Analytics 管理工具中的权限设置。
+Adobe Report Builder具有类似于Analytics“管理工具”中的权限设置。
 
 作为非管理员用户，您可能先前创建了一些工作簿，其请求指向您无权访问的维度和量度。现在可以强制执行这些权限。
 
-例如，如果您刷新的请求包含您无权访问的维度或量度，则会出现“权限受限错误”：
+例如，如果刷新包含您无权访问的维度或量度的请求，您将收到“权限受限”错误。 该错误消息指出，由于管理权限，您的用户帐户无法使用某个请求。
 
-![](assets/arb_restrc_perm.png)
+![屏幕截图显示“Restricted Permission Error（限制权限错误消息）”。](assets/arb_restrc_perm.png)
 
 对于您维护的&#x200B;**每个** Report Builder 工作簿，请按照以下说明操作：
 

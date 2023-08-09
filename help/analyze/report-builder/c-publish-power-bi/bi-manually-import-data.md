@@ -4,10 +4,10 @@ title: 将数据手动导入 Power BI
 feature: Report Builder
 role: User, Admin
 exl-id: f5685653-ed31-4183-a6d9-b36bdfecd85c
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 100%
+source-wordcount: '112'
+ht-degree: 80%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 100%
 1. 在 Power BI 中，单击屏幕左下方的&#x200B;**[!UICONTROL 获取数据]**。
 1. 在&#x200B;**[!UICONTROL 导入或连接到数据]** > **[!UICONTROL 文件]**&#x200B;下方，单击&#x200B;**[!UICONTROL 获取]**。
 
-   ![](assets/get-data.png)
+   ![单击导入或连接到数据下的获取图标。](assets/get-data.png)
 
 1. 单击本地文件。
 
-   ![](assets/local-file.png)
+   ![单击本地文件图标。](assets/local-file.png)
 
 1. 选择要上载的文件，并单击&#x200B;**[!UICONTROL 打开]**。
 1. 单击&#x200B;**[!UICONTROL 将您的 Excel 文件上载到 Power BI]** 下方的&#x200B;**[!UICONTROL 上载]**。
 
-   ![](assets/upload-excel-file.png)
+   ![单击上传以上传Excel文件。](assets/upload-excel-file.png)
 
 1. 应当会显示消息“您的文件已上载”。

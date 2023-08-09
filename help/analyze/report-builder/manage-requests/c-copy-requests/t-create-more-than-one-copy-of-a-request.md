@@ -1,14 +1,14 @@
 ---
-description: 通过在所选单元格区域中填入可容纳的任意数目的请求副本，您可以创建原始请求的多个副本。
-title: 创建请求的多个副本
+description: 了解如何创建请求的多个副本。
+title: 如何创建请求的多个副本
 uuid: aa8442f3-28c7-4665-b0ff-e81fcdb79f6c
 feature: Report Builder
 role: User, Admin
 exl-id: 5b929821-e7ca-48e4-9196-0a6734a9566e
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 100%
+source-wordcount: '111'
+ht-degree: 81%
 
 ---
 

@@ -5,10 +5,10 @@ uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 feature: Report Builder
 role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 88%
 
 ---
 
@@ -22,9 +22,10 @@ ht-degree: 100%
 
 1. 创建或编辑请求，然后进入“[!UICONTROL 请求向导: 第 2 步]”。
 
-   ![步骤信息](/help/admin/admin/assets/filter.png)
-
 1. 在“[!UICONTROL 请求向导: 第 2 步]”中，单击网格中维度旁边的链接，然后选择&#x200B;**[!UICONTROL 过滤器]**。
+
+   ![屏幕截图显示“定义过滤器”对话框，其中包含按应用程序、用户和项目过滤的选项。](/help/admin/admin/assets/filter.png)
+
 1. 在“[!UICONTROL 选择页面]”窗体中，启用&#x200B;**[!UICONTROL 最受欢迎]**，然后配置下列选项：
 
    **起始排名：**&#x200B;维度的起始排名。默认排名 1 表示在报告的数据列表中排在第 1 位的项目。例如，对于维度“[!UICONTROL 页面]”，起始标记 1 表示您网站中请求次数最多的单个页面。您可以指定 10 或另一值作为起始排名单元格，这样会生成将 10 作为最高排名的报表。量度按降序排列，以便系统首先在列表中报告具有最高活动频率的行项目。如果您在一个请求中需要超过 50,000 个页面名称，但是您已要求系统报告数千个页面的数据，则可以复制请求并更改起始排名，以在 50,000 个数据块中检索相应数据。
@@ -39,17 +40,18 @@ ht-degree: 100%
 
 1. 要创建搜索表达式，请单击&#x200B;**[!UICONTROL 添加]**。
 
-   ![步骤信息](assets/expressions_define_filter.png)
-
 1. 在“[!UICONTROL 定义过滤器]”窗体中，根据您的需要配置条件。
 
-   ![select_cell_icon.png](assets/select_cell_icon.png)：允许您查找在单元格值中定义的条件。
 
-   **添加条件：**&#x200B;向表达式添加条件。可添加的条件数没有限制。
+   ![显示“定义过滤器”对话框的屏幕截图。](assets/expressions_define_filter.png)
+
+   使用选择单元格图标，可查找在单元格值中定义的条件。 ![选择单元格图标。](assets/select_cell_icon.png)
+
+   此 **添加条件** 链接允许您向表达式添加条件。 可添加的条件数没有限制。
 
 1. 单击&#x200B;**[!UICONTROL 确定]**。
 
-   ![步骤信息](assets/choose_page_02.png)
+   ![右下角显示“定义过滤器”对话框和“确定”按钮的屏幕截图。](assets/choose_page_02.png)
 
 1. 在“[!UICONTROL 选择页面]”窗体上，单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存表达式。
 1. 单击&#x200B;**[!UICONTROL 确定]**。

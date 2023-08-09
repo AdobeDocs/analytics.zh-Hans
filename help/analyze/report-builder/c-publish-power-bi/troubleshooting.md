@@ -4,10 +4,10 @@ title: Power BI 集成疑难解答
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: f6f65f34c4d8caf04eb3ea47108e36e5b9adf24f
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 89%
+source-wordcount: '418'
+ht-degree: 68%
 
 ---
 
@@ -35,13 +35,14 @@ ht-degree: 89%
 * 您在 Report Builder 中编辑了请求（例如更改指标或维度），然后重新发布到 Power BI。编辑请求可能中断您的可视化。
 * 您删除了可视化中使用的请求。
 
-## 需要授权 Report Builder 才能访问您的组织资源。只有管理员可授予此访问权限。请要求管理员授予您权限。
+>[!IMPORTANT]
+>
+>Report Builder需要管理员授权访问您的组织资源。 如果您需要访问权限，请要求管理员授予您权限。
+> Microsoft管理员可以查看 *用户可以注册应用程序* 设置位于： **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure活动目录]** > **[!UICONTROL 用户设置允许选项]**. 如果将此选项设置为 **否**，然后管理员可以注册这些类型的应用程序。
 
-让一名 Microsoft 管理员查看可在 **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL 用户设置允许选项]**&#x200B;下找到的“用户可注册应用程序”设置。如果此选项被设置为“否”，则该管理员可注册这些类型的应用程序。
+用户可以通过登录到他们的 [MicrosoftPower BI帐户](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
 
-用户可使用以下[链接](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US)授予用户访问权限。
-
-管理员使用以下[链接](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US)授予每个人访问权限。
+管理员可以通过登录到他们的 [管理员的MicrosoftPower BI帐户](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
 
 ## 达到API限制
 

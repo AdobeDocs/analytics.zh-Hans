@@ -1,14 +1,14 @@
 ---
-description: 自定义布局提供引导布局的大多数功能，但是允许您选择网格中的每个项目应该位于电子表格中的什么位置。此布局具备了早期版本的灵活性，包括添加划分和 Microchart。
-title: 配置自定义布局
+description: 了解自定义布局如何提供引导布局的功能和灵活性，例如添加划分和Microchart。
+title: 如何在Adobe Analytics中配置自定义布局
 uuid: 4c1404b1-f20e-4343-be97-0b4c03500d52
 feature: Report Builder
 role: User, Admin
 exl-id: b3f71fd2-4081-4eaa-a9d6-4007446c1802
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 100%
+source-wordcount: '91'
+ht-degree: 70%
 
 ---
 

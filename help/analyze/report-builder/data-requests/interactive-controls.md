@@ -4,10 +4,10 @@ title: 交互控件
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '596'
+ht-degree: 90%
 
 ---
 
@@ -27,7 +27,6 @@ ht-degree: 100%
 >* 如果您在 Mac 上运行 Excel，则更改控件中的值将会导致显示以下消息：“找不到宏‘Adobe.ReportBuilder.Bridge.FormControlClick.Event’。”
 >
 
-
 >[!WARNING]
 >
 >切勿篡改控件的名称。（要查看名称，请将焦点置于控件上，此时控件名称便会出现在左上角 Excel 网格的正上方。）
@@ -37,11 +36,11 @@ ht-degree: 100%
 1. 在“请求向导”的第 1 步中，例如，选择&#x200B;**[!UICONTROL 页面]**&#x200B;报表。
 1. 在&#x200B;**[!UICONTROL 常用日期]**&#x200B;下拉列表的旁边，单击&#x200B;**[!UICONTROL 控件设置]**&#x200B;图标：
 
-   ![](assets/date_range_control.png)
+   ![“请求向导：第1步”的屏幕截图，突出显示了“控件设置”图标。 ](assets/date_range_control.png)
 
 1. 在“控件设置”对话框中，选择要在交互控件中显示的所有日期范围项。此外，指定控件的左上角单元格位置。
 
-   ![](assets/control_settings.png)
+   ![显示选定日期范围项目和左上角单元格位置的屏幕截图。](assets/control_settings.png)
 
 1. 请注意“根据项目选择自动刷新链接的请求”选项。
 
@@ -50,18 +49,19 @@ ht-degree: 100%
 
 1. 单击&#x200B;**[!UICONTROL 确定]**。控件出现在您指定的单元格位置：
 
-   ![](assets/date_range_control_interactive.png)
-
 1. 现在，您可以更改日期范围，请求将根据此日期范围进行刷新。
+
+   ![显示选定日期范围的屏幕截图。](assets/date_range_control_interactive.png)
+
 1. 您还可以复制请求，然后单击鼠标右键以使用两个“粘贴请求”选项之一：
 
    * **[!UICONTROL 粘贴请求]** > **[!UICONTROL 使用绝对输入单元格]**。这意味着复制的请求将指向与原始请求相同的交互日期范围控件。
 
    * **[!UICONTROL 粘贴请求]** > **[!UICONTROL 使用相对输入单元格]**。这意味着复制的请求将指向其自身的控件。
 
-      >[!NOTE]
-      >
-      >您可以使用本机 Microsoft Excel“剪切”/“复制”/“粘贴”控件功能。Report Builder 会自动识别新添加的控件。
+     >[!NOTE]
+     >
+     >您可以使用本机 Microsoft Excel“剪切”/“复制”/“粘贴”控件功能。Report Builder 会自动识别新添加的控件。
 
 ## 实现交互式区段控件 {#section_5003D3F724644280BF1BCD6E1B0CB784}
 
@@ -69,12 +69,12 @@ ht-degree: 100%
 
 1. 在“请求向导”的第 1 步中，在&#x200B;**[!UICONTROL 区段]**&#x200B;下拉列表旁边选择“区段控件设置”图标：
 
-   ![](assets/segment_interactive_1.png)
+   ![“区段控件设置”图标的屏幕截图。](assets/segment_interactive_1.png)
 
 1. 在“区段控件设置”对话框中，选择要包含在下拉列表中的区段。此外，指定控件的左上角单元格位置。
 
-   ![](assets/segment_drop_down_properties.png)
+   ![此屏幕截图显示了包含选定区段和单元格位置的“区段控制设置”。](assets/segment_drop_down_properties.png)
 
 1. 现在，新的交互控件将显示在工作簿中：
 
-   ![](assets/segment_interactive_3.png)
+   ![显示选定新交互控件的屏幕截图。](assets/segment_interactive_3.png)

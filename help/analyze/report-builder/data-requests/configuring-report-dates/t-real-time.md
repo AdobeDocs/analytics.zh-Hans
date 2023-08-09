@@ -5,10 +5,10 @@ uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
 feature: Report Builder
 role: User, Admin
 exl-id: 818fc9ca-aa78-4a21-abd7-8e3144f5d1c0
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 100%
+source-wordcount: '119'
+ht-degree: 90%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 1. 以分钟或小时为单位选择一个时间范围。
 
-   ![步骤结果](assets/real_time_select_date.png)
+   ![屏幕截图显示了选中了“最近60分钟”的“选择时间范围”选项。](assets/real_time_select_date.png)
 
    实时报告仅适用于最近 20 个小时。对于粒度，您的选择范围介于 1 分钟到 30 分钟之间。
 1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;并继续[配置请求布局](/help/analyze/report-builder/layout/layout.md)。

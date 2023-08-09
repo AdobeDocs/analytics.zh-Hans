@@ -4,10 +4,10 @@ title: 使用请求向导过滤流失报表
 feature: Report Builder
 role: User, Admin
 exl-id: 6134d7d4-7287-4a83-92b6-d250ca15cf69
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 100%
+source-wordcount: '244'
+ht-degree: 91%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 100%
 1. 选择适当的报表包。
 1. 在左侧的树视图中，选择&#x200B;**[!UICONTROL 路径]** > **[!UICONTROL 页面]** > **[!UICONTROL 页面流失]**。
 
-   ![](assets/page_fallout.png)
+   ![显示Report Builder目录的Windows树视图的屏幕截图。 已选中“页面流失” 。](assets/page_fallout.png)
 
 1. 配置相应的[日期范围](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)。
 1. 单击&#x200B;**[!UICONTROL 下一步]**。
 1. 在向导的第 2 步中，在&#x200B;**[!UICONTROL 行标签]**&#x200B;下面单击&#x200B;**[!UICONTROL 定义检查点]**&#x200B;链接。（在流失报表中，您始终必须定义路径元素，这与预先应用了模式的路径报表不同。）
 
-   ![](assets/define_checkpoints.png)
+   ![显示“定义检查点”链接的屏幕截图。](assets/define_checkpoints.png)
 
 1. 选择&#x200B;**[!UICONTROL 过滤器]**&#x200B;选项。
 

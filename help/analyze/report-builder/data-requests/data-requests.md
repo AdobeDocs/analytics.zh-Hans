@@ -4,10 +4,10 @@ title: 数据请求 — 请求向导第 1 步
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 100%
+source-wordcount: '371'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 在“请求向导: 第 1 步”窗体上，您可以选择报表包、报表类型、区段并配置日期。
 
-![](assets/rw1_overview.png)
+![屏幕截图显示了“请求向导：第1步”表单。](assets/rw1_overview.png)
 
 1. **[!UICONTROL 报表包：]**&#x200B;根据您的登录凭据向您提供的报表包列表。请参阅[选择报表包](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)。
 

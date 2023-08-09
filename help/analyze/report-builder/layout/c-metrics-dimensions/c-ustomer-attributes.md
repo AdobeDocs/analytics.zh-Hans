@@ -4,10 +4,10 @@ title: 客户属性
 feature: Report Builder
 role: User, Admin
 exl-id: b5855ce0-6d17-4690-a2c2-366b66ab8e83
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 100%
+source-wordcount: '129'
+ht-degree: 83%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 100%
 
 有关如何上传客户属性的更多详细信息，请参阅 [Experience Cloud 帮助](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)。
 
-* 如果将 VisAttr 配置为指标，那么它可同时作为“维度”和指标显示。
+* 如果将VisAttr配置为指标，那么它可同时作为指标和“维度”显示。
 
-   ![](assets/ca_metrics.png) ![](assets/ca_dimension.png)
+  ![显示量度和维度客户属性的屏幕截图。](assets/ca_metrics.png)  ![](assets/ca_dimension.png)
 
 * 它支持与 eVar 相同的划分方式（任何事物都可以被划分为任何事物）。
 * VisAttr 支持所有 eVar 指标。

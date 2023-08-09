@@ -4,10 +4,10 @@ title: 导入加入书签的报表和功能板缩图报表
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '356'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 下面显示了“请求向导”的第 1 步是如何显示功能板及其缩图报表的：
 
-![](assets/import_dashboard_reportlet.png)
+![此屏幕截图显示了请求向导第1步（共2步），其中突出显示了检索功能板和检索书签。](assets/import_dashboard_reportlet.png)
 
 单击&#x200B;**[!UICONTROL 检索功能板]**&#x200B;或&#x200B;**[!UICONTROL 检索书签]**&#x200B;时，系统将检索现有功能板和/或书签数据并将其粘贴至工作表中。
 
