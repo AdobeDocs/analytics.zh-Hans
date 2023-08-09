@@ -3,9 +3,9 @@ title: 创建数据馈送
 description: 了解如何创建数据馈送。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
+source-git-commit: d9b1caf1edf473461d176d472f6f73c04cc1dbad
 workflow-type: tm+mt
-source-wordcount: '3122'
+source-wordcount: '3174'
 ht-degree: 20%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->在创建数据馈送之前，务必要基本了解数据馈送以及您满足所有必要的先决条件。 有关更多信息，请参阅 [数据馈送概述](data-feed-overview.md).
+>在创建数据馈送之前，一定要基本了解数据馈送，并确保满足所有必要的先决条件。 有关更多信息，请参阅 [数据馈送概述](data-feed-overview.md).
 
 ## 创建和配置数据馈送
 
@@ -45,6 +45,15 @@ ht-degree: 20%
    | [!UICONTROL **连续进纸**] | 此复选框将删除结束日期，允许馈送无限期运行。 当馈送完成历史数据处理时，馈送会等待完成给定小时或天的数据收集。当前小时或天结束后，处理将在指定的延迟后开始。 |
 
 1. 在 [!UICONTROL **目标**] 部分，在 [!UICONTROL **类型**] 下拉菜单中，选择要将数据发送到的目标。
+
+   >[!NOTE]
+   >
+   >配置报表目标时，请考虑以下事项：
+   >
+   >* 我们建议为您的报表目标使用云帐户。 [旧版FTP和SFTP帐户](#legacy-destinations) 可用，但不推荐。
+   >
+   >* Cloud帐户与您的Adobe Analytics用户帐户相关联。 其他用户无法使用或查看您配置的云帐户。
+   >
 
    ![数据馈送目标下拉菜单](assets/datafeed-destinations-dropdown.png)
 

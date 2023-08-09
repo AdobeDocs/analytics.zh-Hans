@@ -1,35 +1,37 @@
 ---
-title: 最新的 Analytics 发行说明
+title: 当前 Adobe Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f996448224ffebd57023c8d8e4eeeccb4d6e2a47
-workflow-type: ht
-source-wordcount: '920'
-ht-degree: 100%
+source-git-commit: d1b9ef79a456fc52b7fa644d088f7089c9b654e4
+workflow-type: tm+mt
+source-wordcount: '899'
+ht-degree: 78%
 
 ---
 
-# 当前 Adobe Analytics 发行说明（2023 年 7 月）
+# 当前 Adobe Analytics 发行说明 (2023 年 8 月)
 
-**上次更新日期**：2023 年 7 月 10 日
+**上次更新日期**：2023 年 8 月 9 日
 
-Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
+这些发行说明涵盖2023年8月9日至9月13日的发行期。 Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
-## 新增功能或增强功能 {#features}
+## 新增功能或增强功能 2023年8月9日至9 {#features}
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **配置云帐户存储位置以摄取分类数据** | 您现在可以管理用于分类集自动化的云帐户存储位置。[了解详情](/help/components/locations/configure-import-accounts.md)<p> | 不适用 | 2023 年 7 月 10 日 |
-| **“数据修复”过滤器增强功能** | 已向“数据修复”添加三项过滤改进：<ul><li>按一个变量过滤以修改第二个变量。例如，如果 `eVar2` 包含“@”，则删除 `eVar3`。</li><li>过滤数值或非数值</li><li>使用 AND 应用多个过滤器。例如，`eVar2="a"` AND `eVar3="b"`</li></ul>[了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) | 2023 年 6 月 21 日 | 2023 年 7 月 12 日 |
-| **数据馈送导出到安全目标** | 现在可以将数据馈送发送到以下云存储目标：<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>不再推荐以前可用的目标（FTP、SFTP、S3 和 Azure Blob）。[了解详情](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=zh-Hans) | 2023 年 6 月 12 日 | 2023 年 7 月 13 日 |
-| **新 AppMeasurement 变量** | 变量 `decodeLinkParameters` 可适应一些少见的情况，其中实施在链接跟踪变量中为多字节字符编码。大多数实施无需定义此变量。[了解详情](../implement/vars/config-vars/decodelinkparameters.md) |  | 2023 年 7 月 17 日 |
+| **API 2.0中的分类集** | 提供Adobe Analytics API 2.0用于保存、删除、检索、导入和导出分类集数据的方法。 | 不适用 | 2023 年 8 月 31 日 |
+| **报表活动管理器** | 通过报表活动管理器，管理员可详细了解每个报表包的报表使用情况，从而让管理员在报表高峰期轻松诊断和修复容量问题。 [了解详情](/help/admin/admin/reporting-activity.md) | 不适用 | 2023年9月6日 |
 
 {style="table-layout:auto"}
 
 ## Adobe Analytics 中的修复
 
-AN-307816；AN-318111；AN-318584；AN-318828；AN-320440；AN-320568；AN-320616；AN-321013；AN-321513；AN-321520；AN-321757；AN-321820；AN-321917；AN-322034；AN-322135；AN-322140；AN-322142；AN-322251；AN-322353；AN-322378；AN-322383；AN-322427；AN-322458；AN-322543；AN-322630；AN-322637；AN-322638；AN-322647；AN-322728；AN-322732；AN-322777；AN-322817；AN-322957；AN-322958；AN-323035；AN-323074；AN-323150；AN-323196；AN-323197；AN-323205；AN-323206；AN-323217；AN-323224；AN-323225；AN-323244；AN-323257；AN-323277；AN-323280；AN-323293；AN-323309；AN-323318；AN-323468；AN-323476；AN-323514；AN-323572；AN-323592；AN-323782；AN-323835
+* 修复了未加载自定义事件的问题。 (AN-324163)
+* 修复了无法在可视化图表中编辑图例标签的问题。 (AN-323246)
+
+AN-315605、AN-316306、AN-317494、AN-317844、AN-320424、AN-320597、AN-320680、AN-320869、AN-321624、AN-321693、AN-322009、AN-322244、AN-322380、AN-322432、AN-322466、AN-322556、AN-322669、AN-322735、AN-323151、AN-323220、AN-323380、AN-323492、AN-323595、AN-323755、AN-323854、AN-323916 AN-324044； AN-324200； AN-324213； AN-324238； AN-324347； AN-323598； AN-323625； AN-323631； AN-323638； AN-323641； AN-323755； AN-323767； AN-323777； AN-323825； AN-323846； AN-323972； AN-324113； AN-324170； AN-324197； AN-324273； AN-324275； AN-324345； AN-324384； AN-324433； AN-324511； AN-324513； AN-324521 AN-324524； AN-324531； AN-324532； AN-324534； AN-324537； AN-324569； AN-324618； AN-324635； AN-324688； AN-324704； AN-324712； AN-324721； AN-324745； AN-324792； AN-324793； AN-324794； AN-324795； AN-324824； AN-324905； AN-324918； AN-324932； AN-324934； AN-324947； AN-325003； AN-325073； AN-325143； AN-325148 AN-325153； AN-325177； AN-325187； AN-325252； AN-325305； AN-325363； AN-325401； AN-325439； AN-325431； AN-325491； AN-325495； AN-325508； AN-325594； AN-325601； AN-325660； AN-325779； AN-325857； AN-325883； AN-325885； AN-325886； AN-； AN-； AN-； AN-； AN-
+
 
 ## Adobe Analytics 管理员的重要注意事项 {#admin}
 
