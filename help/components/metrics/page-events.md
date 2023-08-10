@@ -3,10 +3,10 @@ title: 页面事件
 description: 触发的链接跟踪操作数量。
 feature: Metrics
 exl-id: 1afe86e3-65b3-4e4e-b436-ed7cb5da9641
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: 5e70a84c7793b516c0eca2776d8bbfd3ea3fc02b
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 100%
+source-wordcount: '142'
+ht-degree: 60%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 100%
 
 ## 如何计算此量度
 
-此量度计数报表包中所有链接跟踪调用 ([`tl()`](/help/implement/vars/functions/tl-method.md))。包括所有链接类型（自定义链接、下载链接和退出链接）。它不包括页面查看跟踪调用 ([`t()`](/help/implement/vars/functions/t-method.md))。
+此量度计算所有 [链接跟踪调用(`tl()`)](/help/implement/vars/functions/tl-method.md) 在报表包中。 包括所有链接类型（自定义链接、下载链接和退出链接）。它不包括 [页面查看跟踪调用(`t()`)](/help/implement/vars/functions/t-method.md).
 
-## 与类似量度比较
+## 与类似指标比较
 
-* **页面事件与[页面查看次数](page-views.md)**：页面事件计算链接跟踪调用 (`tl()`) 的数量，不包括页面查看跟踪调用 (`t()`)。页面查看次数则相反；它计算页面查看跟踪调用的数量，不包括链接。
+* **页面事件与 [页面查看次数](page-views.md)**：页面事件计算链接跟踪调用的数量(`tl()`)，并排除页面查看跟踪调用(`t()`)。 页面查看次数则相反；它计算页面查看跟踪调用的数量，不包括链接。
