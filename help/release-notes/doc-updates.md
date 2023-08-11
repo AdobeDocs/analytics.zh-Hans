@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: abd4d1a4b8076de225e37a375dfe387c998deb01
 workflow-type: tm+mt
 source-wordcount: '4891'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 95%
 | 功能 | 描述 |
 | --- | --- |
 | **2023 年 8 月** | |
-| 比较实施方法 | 更新了比较不同实施方法的文档。 [了解详情](../implement/prepare/comparison.md) |
+| 比较实施方法 | 更新了比较不同实施方法的文档。[了解详情](../implement/prepare/comparison.md) |
 | 阐明为数据馈送配置 SFTP 不需要 Adob&#x200B;e 客户服务 | 在[将 Adobe 数据发送到 SFTP 的外部 FTP 帐户](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)中说明，客户无需联系 Adobe 客户服务，即可为数据馈送配置 SFTP。 <p>还添加了一条注释，即不再建议使用 SFTP，并且客户在配置数据馈送时应使用云目标。</p> |
-| 流媒体的文档改进 | 对流媒体进行了以下文档改进： <ul><li>已更新 [一般概述](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans) 从而提高清晰度并包含与Customer Journey Analytics相关的信息。</li><li>已更新 [实施概述](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=en) 以明确区分Edge实施和仅限Analytics的实施。 此外，还包含用于说明各种实施方法的图表。</li><li>添加了特定于的先决条件 [Edge实施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html?lang=en) 和 [仅限Analytics的实施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html?lang=en). 还更新了 [常规先决条件](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html?lang=en).</li><li>更新了 [获取媒体SDK、使用标记的扩展和OTT SDK](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html?lang=en) 要包含新列的项目 *支持的解决方案* 和 *实现方法*.</li><li>简化中文章的内容和组织 [实现](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=en) 文档区域。 这包括按Edge实施和仅限Analytics实施对实施进行分类。</li><li>删除了下不需要的额外层次结构级别 [跟踪](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html?lang=en) 并在此部分中添加了已更改URL的重定向。</li><ul> |
+| 改进了流媒体的文档 | 改进了流媒体文档的以下几点： <ul><li>更新了[一般概述](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=en)以使文档表述更加清晰并包括与 Customer Journey Analytics 相关的信息。</li><li>更新了[实施概述](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=en)以明确地区分 Edge 实施和仅 Analytics 实施。还加入了图表以说明各种实施方法。</li><li>添加了 [Edge 实施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html?lang=en)和[仅 Analytics 实施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html?lang=en)特有的先决条件。还更新了[一般先决条件](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html?lang=en)。</li><li>更新了[获取媒体 SDK、使用标记的扩展和 OTT SDK](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html?lang=en) 文章中的表以加入新的&#x200B;*支持的解决方案*&#x200B;和&#x200B;*实施方法*&#x200B;列。</li><li>简化了文档的[实施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=en)区域中文章的内容和组织方式。其中包括按 Edge 实施和仅 Analytics 实施为实施分类。</li><li>删除了在[跟踪](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html?lang=en)下一个用不到的额外层级，并在此部分中添加了重定向到已更改的 URL。</li><ul> |
 | **2023 年 7 月** | |
 | Adobe Experience Platform Edge Network Server API | 添加了关于何时以及如何使用 [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md) 通过 Adobe Analytics 实施数据收集的更全面的文档。例如，在桌面应用程序、物联网设备、机顶盒中通过 Adobe Analytics 实施数据收集。 |
 | 全球公司 ID | 已为您登录的 Analytics 公司记录[如何查找全球公司 ID](../admin/admin/company/web-services-admin.md)。Analytics 2.0 API 需要此 ID。 |
