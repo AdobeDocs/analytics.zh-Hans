@@ -4,10 +4,10 @@ title: Analytics for Target (A4T) 面板
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 32dfab4b10d3637aba53081f747d2650fc33a8f0
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 99%
+source-wordcount: '1127'
+ht-degree: 87%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 | 设置 | 描述 |
 |---|---|
 | 目标活动 | 从 Target 活动的列表中选择一个活动，或从左边栏拖放一个活动。注意：该列表填入了过去 6 个月至少被点击 1 次的活动。如果您在列表中未看到某个活动，则可能是因为该活动是在 6 个月前进行的。在这种情况下，仍可从左边栏添加该活动，因为左边栏的回顾时间范围最长为 18 个月。 |
-| 控制体验 | 选择您的控制体验。您可以根据需要在下拉列表中更改它。 |
+| 控制体验 | 选择您的控制体验。如有必要，您可以在下拉列表中更改它。 |
 | 标准化指标 | 从“独特访客数”、“访问次数”或“活动展示次数”中进行选择。对于大多数分析用例，建议使用“独特访客数”指标。此指标（也称为计数方法）将作为提升计算的分母。此外，它也会在应用置信度计算之前影响数据汇总的方式。 |
 | 成功指标 | 从下拉列表中最多选择 3 个标准（非计算）成功事件，或从左边栏中拖放指标。每个指标在呈现的面板中都有一个专用表格和可视化图表。 |
 | 日历日期范围 | 这将根据 Adobe Target 中的活动日期范围自动填充。你可以根据需要进行更改。 |
@@ -49,10 +49,10 @@ Analytics for Target 面板可返回丰富的数据和可视化图表，进而�
 | 成功指标 | 在生成器中选择的指标 |
 | 转化率 | 成功指标/标准化指标 |
 | 提升 | 每个体验与对照体验比较转化率。注意：提升是 Target 体验的“固定指标”；无法细分它或将它与其他维度一起使用。 |
-| 提升（下限） | 表示在置信区间为 95% 的情况下变异体验比对照组可能提升的最差程度。<br>计算过程：(x/y ± 1.96 std_err(x,y)) / (x_control/y_control ∓ 1.96 std_err(x_control,y_control))。此处 std_err(x,y) 为 sqrt(xx/y – (x/y)^2)，其中 xx 表示平方和。 |
-| 提升（中） | 代表在 95% 的置信区间内，变量体验相对于控制体验所能达到的中等提升度。这是 Reports &amp; Analytics 中的“提升度”。<br>计算过程：(x/y)/(x_control/y_control) - 1 |
-| 提升（上限） | 表示在置信区间为 95% 的情况下变异体验比对照组可能提升的最佳程度。<br>计算过程：请见“提升（下限）”。 |
-| 置信度 | t 检验（也称为 Student t 检验）将计算置信度级别，用于指示如果再次运行该检验，出现重复结果的可能性。已对指标应用了 75%/85%/95% 的固定条件格式化范围。如果需要，可以在“列”设置下自定义此格式化范围。注意：置信度是 Target 体验的“固定指标”；无法细分它或将它与其他维度一起使用。<br>计算过程：应用自由度为 y+y_control-2 的双尾 t 检验以求出表示 x/y 是否等于 x_control/y_control 的 p 值。计算 t 分数，其中 stderr 为 sqrt( (xx/y-(x/y)^2)/y + (xx_control/y_control-(x_control/y_control)^2)/y_control)。返回 1-p 表示确信二者不同。 |
+| 提升（下限） | 表示在置信区间为 95% 的情况下变异体验比对照组可能提升的最差程度。<br>请参阅 [统计计算](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) 和 [完全置信度计算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) 有关更多信息，请参阅Excel文件。 |
+| 提升（中） | 代表在 95% 的置信区间内，变量体验相对于控制体验所能达到的中等提升度。这是 Reports &amp; Analytics 中的“提升度”。<br>请参阅 [统计计算](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) 和 [完全置信度计算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) 有关更多信息，请参阅Excel文件。 |
+| 提升（上限） | 表示在置信区间为 95% 的情况下变异体验比对照组可能提升的最佳程度。<br>请参阅 [统计计算](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) 和 [完全置信度计算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) 有关更多信息，请参阅Excel文件。 |
+| 置信度 | t 检验（也称为 Student t 检验）将计算置信度级别，用于指示如果再次运行该检验，出现重复结果的可能性。已对指标应用了 75%/85%/95% 的固定条件格式化范围。如果需要，可以在“列”设置下自定义此格式化范围。注意：置信度是 Target 体验的“固定指标”；无法细分它或将它与其他维度一起使用。<br>请参阅 [统计计算](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) 和 [完全置信度计算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) 有关更多信息，请参阅Excel文件。 |
 
 与 Analysis Workspace 中的任何其他面板一样，通过添加其他将帮助您分析 Adobe Target 活动的表和[可视化效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hans)即可继续进行分析。还可在面板级别或自由格式表内应用区段。请注意，如果在自由格式表内添加它，则必须让它横跨整个表以保留提升和置信度计算结果。目前不支持列级区段。
 

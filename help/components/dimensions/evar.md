@@ -3,10 +3,10 @@ title: eVar（维度）
 description: 可在报告中使用的自定义维度。
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 391d4378a360270acb40cbd9ddb2be3cd315d11c
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 97%
+source-wordcount: '823'
+ht-degree: 89%
 
 ---
 
@@ -14,7 +14,11 @@ ht-degree: 97%
 
 *此帮助页介绍 eVar 如何作为维度使用。有关如何实施 eVar 的信息，请参阅实施用户指南中的 [eVar](/help/implement/vars/page-vars/evar.md)。*
 
-eVar 是自定义变量，您可以根据需要随意使用。如果您具有[解决方案设计文档](/help/implement/prepare/solution-design.md)，则您组织专属的大多数维度最终都将是 [!UICONTROL eVar]。默认情况下，eVar 在设置了它们的点击之外继续存在。可在[!UICONTROL 报表包设置]中的[转化变量](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)下自定义其到期和分配。
+eVar是自定义变量，您可以根据需要随意使用。 如果您拥有 [解决方案设计文档](/help/implement/prepare/solution-design.md)，您组织专属的大多数维度最终都会是 [!UICONTROL eVar]，是Adobe Analytics中可用的默认维度（如“页面名称”、“反向链接域”、“渠道”）的附加维度。 请参阅 [Dimension概述](overview.md) 以了解更多信息。
+
+默认情况下，eVar 在设置了它们的点击之外继续存在。可在[报表包设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)中的[!UICONTROL 转化变量]下自定义其到期和分配。有关转化变量UI中eVar定义的示例，请参阅下文。
+
+![Evar示例](assets/evars-sample.png)
 
 可用 eVar 的数量取决于您与 Adobe 签署的合同。如果您与 Adobe 签署的合同支持，则至多有 250 个 eVar 可供使用。
 
@@ -28,7 +32,7 @@ AppMeasurement 将 JavaScript 变量编译到图像请求中以用于数据收�
 
 ## 维度项目
 
-由于 eVar 在您的实施中包含自定义字符串，因此，由您的组织来确定每个 eVar 的维度项目。确保将每个eVar的用途和典型维度项目记录在 [解决方案设计文档](/help/implement/prepare/solution-design.md).
+由于 eVar 在您的实施中包含自定义字符串，因此，由您的组织来确定每个 eVar 的维度项目。请确保将每个eVar的用途和典型维度项目记录在 [解决方案设计文档](/help/implement/prepare/solution-design.md).
 
 ## eVar 的工作方式
 
@@ -51,12 +55,12 @@ AppMeasurement 将 JavaScript 变量编译到图像请求中以用于数据收�
 
 | `visitor_id` | `pagename` | `evar1` | `post_evar1` | `event_list` |
 | --- | --- | --- | --- | --- |
-| `examplevisitor_987` | `Home page` |  |  |  |
+| `examplevisitor_987` | `Home page` | | | |
 | `examplevisitor_987` | `Search results` | `cats` | `cats` | `event1` |
-| `examplevisitor_987` | `Product page` |  | `cats` | `prodView` |
-| `examplevisitor_987` | `Cart` |  | `cats` | `scAdd` |
-| `examplevisitor_987` | `Checkout` |  | `cats` | `scCheckout` |
-| `examplevisitor_987` | `Purchase confirmation` |  | `cats` | `purchase` |
+| `examplevisitor_987` | `Product page` | | `cats` | `prodView` |
+| `examplevisitor_987` | `Cart` | | `cats` | `scAdd` |
+| `examplevisitor_987` | `Checkout` | | `cats` | `scCheckout` |
+| `examplevisitor_987` | `Purchase confirmation` | | `cats` | `purchase` |
 
 * `visitor_id` 列将点击与同一访客绑定。在实际原始数据中，`visid_high` 连接的值和 `visid_low` 确定访客 ID。
 * `pagename` 列填充“页面”维度。
