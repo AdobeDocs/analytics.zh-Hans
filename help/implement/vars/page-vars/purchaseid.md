@@ -3,10 +3,10 @@ title: purchaseID
 description: 根据唯一购买标识符删除重复点击。
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: befa9b1e17a07160fd29feef1676832164bec3fb
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 87%
 
 当 Adobe 将点击识别为重复购买时，所有转化数据（如 eVar 和事件）都不会显示在报表中。在数据馈送中，`duplicate_purchase` 列被设置为 `1`。
 
-购买 ID 适用于所有访客，且不会过期。如果一个访客设置了给定的购买 ID，然后另一个访客在一年后设置了相同的购买 ID，则将会对第二次购买进行重复数据删除。
+购买ID适用于所有访客，并在37个月后过期。 如果一个访客设置了给定的购买 ID，然后另一个访客在一年后设置了相同的购买 ID，则将会对第二次购买进行重复数据删除。
 
 ## 使用Web SDK的购买ID
 
 购买ID为 [已为Adobe Analytics映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=zh-Hans) 在XDM字段下 `commerce.order.purchaseID`.
 
-## 使用Adobe Analytics扩展的“购买ID”
+## 使用Adobe Analytics扩展购买ID
 
 Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照 AppMeasurement 语法使用自定义代码编辑器。
 
