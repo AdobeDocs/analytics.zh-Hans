@@ -3,10 +3,10 @@ description: 本帮助页面包含每个 Adobe Analytics 工具的推荐使用�
 title: 我应该使用哪种 Adobe Analytics 工具？
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: a288253816fa73444dd5078d56d3d30e92aebe3f
-workflow-type: ht
-source-wordcount: '1163'
-ht-degree: 100%
+source-git-commit: 52f7ff8a357cfe80e1f92b4162057da807f44e9d
+workflow-type: tm+mt
+source-wordcount: '1227'
+ht-degree: 99%
 
 ---
 
@@ -30,17 +30,22 @@ ht-degree: 100%
 * 用于访问 UI 中的实时数据。
 * 用于设置日历事件。
 * 用于设置目标。
-* 用于查看机器人报表。
 * 用于访问有关“视频时段”和“观看者流失率”的独特的视频可视化图表。
+
+>[!IMPORTANT]
+>
+>自 **2023 年 12 月 31 日**&#x200B;起，Adobe 决定中断 Reports &amp; Analytics 及其随附的报表和功能。到时候，Reports &amp; Analytics 及其所有报表和计划都将停止工作。支持 Reports &amp; Analytics 的报告、可视化图表和底层技术不再满足 Adobe 的技术标准。在 Analysis Workspace 中提供了 Reports &amp; Analytics 的大部分功能。自 2015 年发布 Analysis Workspace 以来，Reports &amp; Analytics 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。本通知解释了生命周期结束的过程。
 
 **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=zh-Hans)** 的使用说明：
 
-* 最灵活的 Analytics 工具选项（针对访客级别和点击级别分析）。
-* 用于创建从 CRM 到 POS 和 Web 的在线和离线交互的多渠道数据集。
-* 适用于高级属性（基于规则的模型和算法模型）。
 * 适用于预测统计模型（倾向评分、群集、关联等）。
 * 适用于延迟分析（事件前/后的时间）。
 * 用于识别和导出 Adobe Experience Cloud 中的复杂区段。
+
+>[!IMPORTANT]
+>
+>详细了解Data Workbench [生命周期结束公告](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=en).
+
 
 ## 将数据导入 Adobe Analytics {#import}
 

@@ -4,9 +4,9 @@ title: Adobe Analytics概述
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: d5a7dfe720cc84b67208e7d30434295caf1e2aac
+source-git-commit: 1c6cc23c9cb6b4b007d2f296ea23e697cc135bd4
 workflow-type: tm+mt
-source-wordcount: '3111'
+source-wordcount: '3101'
 ht-degree: 32%
 
 ---
@@ -104,7 +104,7 @@ Adobe 打算停用 Reports &amp; Analytics 及其随附的报告和功能，从 
 
    ![“工作区”选项卡](assets/components-tab.png)
 
-2. 选择以下任何产品功能进行配置： （根据您的权限，可能无法显示所有功能。）
+2. 选择以下任何产品功能进行配置：
 
 
    | 产品功能 | 函数 | 更多信息 |
