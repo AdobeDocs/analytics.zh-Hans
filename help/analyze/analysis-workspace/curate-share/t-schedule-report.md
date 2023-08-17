@@ -5,10 +5,10 @@ title: 计划项目
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: c418a9ed9f1dedd4a382b718f83313b6225dff63
+source-git-commit: 00c2b924d31f7a68258bba5e96ef1a39d4707766
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 75%
+source-wordcount: '259'
+ht-degree: 73%
 
 ---
 
@@ -49,4 +49,4 @@ ht-degree: 75%
 
 可以在 **Analytics > 组件 > 计划项目**&#x200B;下管理计划的 Analysis Workspace 项目。
 
-有关更多信息，请参阅
+有关更多信息，请参阅 [计划项目](/help/components/scheduled-projects-manager.md)
