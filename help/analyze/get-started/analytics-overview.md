@@ -4,9 +4,9 @@ title: Adobe Analytics概述
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: f2f1d21989b609bf069da28b3b90785ccd14ef19
+source-git-commit: 58e5f3ca4b99e92b64e01095d61d5fe1fc97feb9
 workflow-type: tm+mt
-source-wordcount: '5049'
+source-wordcount: '5077'
 ht-degree: 41%
 
 ---
@@ -21,7 +21,7 @@ Adobe Analytics使组织能够收集数据，并从任何数字客户互动中�
 
 有关Adobe Analytics所提供优势的其他详细信息，请参阅 [Adobe Analytics产品页面](https://business.adobe.com/products/analytics/adobe-analytics.html).
 
-### 网站分析
++++网站分析
 
 Adobe Analytics提供了以下复杂的分段和预测工具来分析网站流量：
 
@@ -31,7 +31,9 @@ Adobe Analytics提供了以下复杂的分段和预测工具来分析网站流�
 
 * [高级分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)
 
-### 营销分析
++++
+
++++营销分析
 
 Adobe Analytics可帮助企业了解客户在何处与其品牌互动，客户更喜欢哪些渠道，以及哪些体验与他们产生了共鸣。
 
@@ -43,14 +45,18 @@ Adobe Analytics中的以下主要功能提供了这些营销功能：
 
 * [Analysis Workspace中的Ad hoc analysis](/help/analyze/analysis-workspace/home.md)
 
-### 归因
++++
+
++++归因
 
 通过归因，组织可以查看整个客户历程中的不同交互如何影响转化。 除了提供更传统的归因选项（例如线性或首次接触模型）之外，Adobe Analytics中的归因还使用机器学习和高级统计模型来了解每次接触产生的精确影响。
 
 有关更多信息，请参阅 [归因模型和回顾时间范围](/help/analyze/analysis-workspace/attribution/models.md).
 
++++
 
-### 预测分析
+
++++预测分析
 
 预测分析使用机器学习和高级统计建模来分析客户数据、查找模式并预测未来行为，例如流失或转化可能性。 它使数据分析师能够利用原本可能被浪费的巨大数据集。
 
@@ -61,6 +67,8 @@ Adobe Analytics中的以下主要功能提供了这些预测功能：
 * [贡献分析](#contribution-analysis)
 
 * [智能警报](#intelligent-alerts)
+
++++
 
 ## 使用Adobe Analytics的先决条件
 
@@ -78,9 +86,13 @@ Adobe Analytics中的以下主要功能提供了这些预测功能：
 
 ## 了解Analytics界面
 
-Adobe Analytics界面包含以下主要区域：
+Adobe Analytics界面包含以下关键区域，包括用于管理Analysis Workspace中的项目、管理组件、工具和管理员功能的选项卡。
 
-### “工作区”选项卡
+![“工作区”选项卡](assets/landing-all2.png)
+
+展开以下部分以了解Analysis Workspace的每个区域：
+
++++Workspace选项卡
 
 此 [!UICONTROL 工作区] 选项卡显示 [!UICONTROL 项目] 默认区域，其中显示公司文件夹、您创建的所有个人文件夹、您的项目和移动记分卡。
 
@@ -90,13 +102,17 @@ Adobe Analytics界面包含以下主要区域：
 
 欲知关于特色与功能的详情，请参阅 [!UICONTROL 工作区] 选项卡，请参见 [Adobe Analytics登录页面](/help/analyze/landing.md).
 
-### “报告”选项卡
++++
+
++++“报表”选项卡
 
 Adobe 打算停用 Reports &amp; Analytics 及其随附的报告和功能，从 2023 年 12 月 31 日起生效。
 
 请改用 [!UICONTROL **报表**] 左侧边栏中的区域 [!UICONTROL **工作区**] 选项卡。 有关更多信息，请参阅 *在报告选项卡中导航* 在 [Adobe Analytics登录页面](/help/analyze/landing.md).
 
-### “组件”选项卡
++++
+
++++“组件”选项卡
 
 此 [!UICONTROL 组件] 选项卡包含可帮助您优化和增强数据分析功能的功能。
 
@@ -128,7 +144,9 @@ Adobe 打算停用 Reports &amp; Analytics 及其随附的报告和功能，从 
 
    {style="table-layout:auto"}
 
-### “工具”选项卡
++++
+
++++工具”选项卡
 
 <!-- The Tools tab ... -->
 
@@ -150,7 +168,9 @@ Adobe 打算停用 Reports &amp; Analytics 及其随附的报告和功能，从 
 
    {style="table-layout:auto"}
 
-### “管理员”选项卡
++++
+
++++“管理员”选项卡
 
 管理员选项卡包括用于管理Adobe Analytics的功能和配置选项。
 
@@ -194,7 +214,9 @@ Adobe 打算停用 Reports &amp; Analytics 及其随附的报告和功能，从 
 
    {style="table-layout:auto"}
 
-### Analysis Workspace
++++
+
++++Analysis Workspace
 
 利用 Analysis Workspace，可以快速生成分析以收集见解，然后与其他人共享这些见解。可以使用拖放浏览器界面进行分析、添加可视化图表以便直观地呈现数据、梳理数据集以及与您选定的任何人员共享和安排项目。
 
@@ -210,6 +232,8 @@ Adobe 打算停用 Reports &amp; Analytics 及其随附的报告和功能，从 
 | B | **左边栏：**&#x200B;根据在最左侧边栏中选择的选项卡，此区域包含单独的面板、可视化图表或组件。 |
 | C | **画布：**&#x200B;这是您从左边栏拖动内容以构建项目的主要区域。当您向画布添加面板、可视化图表和组件时，项目将动态更新。 |
 | D | **报表包下拉菜单：**&#x200B;对于 Analysis Workspace 中的每个面板，报表包下拉菜单可让您选择要用作数据源的报表包。 |
+
++++
 
 ## 管理员、分析师、最终用户和开发人员快速入门
 
