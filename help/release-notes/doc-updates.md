@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 1dd49a030b501ef3f291448facf08216fce0fe5e
+source-git-commit: 0ece9b2fddcf905951bbe35ec0a3ff862baff71c
 workflow-type: tm+mt
-source-wordcount: '4940'
+source-wordcount: '4954'
 ht-degree: 99%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 99%
 | 功能 | 描述 |
 | --- | --- |
 | **2023 年 8 月** | |
+| Experience Edge数据处理 | 添加了Adobe Analytics的工作原理 [处理来自Experience Edge的数据](../implement/aep-edge/overview.md). |
 | “Media Playback 耗时”面板 | 已更新的内容  [“Media Playback耗时”面板](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) 以提高可读性。 |
 | 移动了关于管理计划项目的内容 | 在“分析组件指南”中创建了一篇新文章，名为[计划项目](/help/components/scheduled-projects-manager.md)。此内容之前位于“分析工具指南”中的[计划项目](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)一文中。 |
 | 比较实施方法 | 更新了比较不同实施方法的文档。[了解详情](../implement/prepare/comparison.md) |
