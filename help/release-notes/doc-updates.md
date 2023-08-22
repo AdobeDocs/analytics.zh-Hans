@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 00c2b924d31f7a68258bba5e96ef1a39d4707766
+source-git-commit: 1dd49a030b501ef3f291448facf08216fce0fe5e
 workflow-type: tm+mt
-source-wordcount: '4924'
+source-wordcount: '4940'
 ht-degree: 99%
 
 ---
@@ -26,7 +26,8 @@ ht-degree: 99%
 | 功能 | 描述 |
 | --- | --- |
 | **2023 年 8 月** | |
-| 移动了关于管理计划项目的内容 | 在《Analytics组件指南》中新增了一篇文章，名为 [计划项目](/help/components/scheduled-projects-manager.md). 此内容先前位于 [计划项目](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) Analytics工具指南中的文章。 |
+| “Media Playback 耗时”面板 | 已更新的内容  [“Media Playback耗时”面板](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) 以提高可读性。 |
+| 移动了关于管理计划项目的内容 | 在“分析组件指南”中创建了一篇新文章，名为[计划项目](/help/components/scheduled-projects-manager.md)。此内容之前位于“分析工具指南”中的[计划项目](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)一文中。 |
 | 比较实施方法 | 更新了比较不同实施方法的文档。[了解详情](../implement/prepare/comparison.md) |
 | 阐明为数据馈送配置 SFTP 不需要 Adob&#x200B;e 客户服务 | 在[将 Adobe 数据发送到 SFTP 的外部 FTP 帐户](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)中说明，客户无需联系 Adobe 客户服务，即可为数据馈送配置 SFTP。 <p>还添加了一条注释，即不再建议使用 SFTP，并且客户在配置数据馈送时应使用云目标。</p> |
 | 改进了流媒体的文档 | 改进了流媒体文档的以下几点： <ul><li>更新了[一般概述](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=en)以使文档表述更加清晰并包括与 Customer Journey Analytics 相关的信息。</li><li>更新了[实施概述](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=en)以明确地区分 Edge 实施和仅 Analytics 实施。还加入了图表以说明各种实施方法。</li><li>添加了 [Edge 实施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html?lang=en)和[仅 Analytics 实施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html?lang=en)特有的先决条件。还更新了[一般先决条件](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html?lang=en)。</li><li>更新了[获取媒体 SDK、使用标记的扩展和 OTT SDK](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html?lang=en) 文章中的表以加入新的&#x200B;*支持的解决方案*&#x200B;和&#x200B;*实施方法*&#x200B;列。</li><li>简化了文档的[实施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=en)区域中文章的内容和组织方式。其中包括按 Edge 实施和仅 Analytics 实施为实施分类。</li><li>删除了在[跟踪](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html?lang=en)下一个用不到的额外层级，并在此部分中添加了重定向到已更改的 URL。</li><ul> |
