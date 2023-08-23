@@ -4,9 +4,9 @@ title: 我应该使用哪种 Adobe Analytics 工具？
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: 52f7ff8a357cfe80e1f92b4162057da807f44e9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1227'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 99%
 
 * 适用于需要访问更易导航的预构建报表的初学用户。
 * 用于访问 UI 中的实时数据。
-* 用于设置日历事件。
+* 用于设置日程表事件。
 * 用于设置目标。
 * 用于访问有关“视频时段”和“观看者流失率”的独特的视频可视化图表。
 
@@ -44,10 +44,10 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->详细了解Data Workbench [生命周期结束公告](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=en).
+>详细阅读 Data Workbench 的[生命周期终止公告](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=zh-Hans)。
 
 
-## 将数据导入 Adobe Analytics {#import}
+## 将数据导入到 Adobe Analytics 中 {#import}
 
 **[分类](/help/components/classifications/c-classifications.md)**&#x200B;的使用说明：
 
