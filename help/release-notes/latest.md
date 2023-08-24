@@ -3,10 +3,10 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2232778be91502eca2ecdc2c9598b8a3375abb8b
+source-git-commit: 5d0133495613c89deca4dc070d38389ef89853b3
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 100%
+source-wordcount: '891'
+ht-degree: 93%
 
 ---
 
@@ -37,7 +37,7 @@ AN-315605、AN-316306、AN-317494、AN-317844、AN-320424、AN-320597、AN-32068
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| **购买 ID 和事件 ID（事件序列化）在 37 个月后到期** | 2023 年 7 月 10 日 | 计划于 **2023 年 7 月 13 日**&#x200B;发行的 Analytics Hit 处理引擎版本，将开始强制“购买 ID”和“事件 ID”（事件序列化）在 37 个月后到期。购买 ID 和事件 ID 目前在 Adobe Analytics 中永不到期。一旦查看/使用购买 ID 或事件 ID，以后无论何时的任何点击都将该购买或事件标为重复。在新的处理引擎发布后：<ul><li>购买 ID 和事件 ID 始终在 37 个月后到期。</li><li>如果自查看购买 ID 或事件 ID 以来已有 37 个月，则不再将它视为重复的购买或事件。</li><li> 如果正在“重用”大于 37 个月之前的购买 ID 或事件 ID，则不再将其视为重复。</li></ul> |
+| **购买 ID 和事件 ID（事件序列化）在 37 个月后到期** | 2023 年 7 月 10 日 | 最新版本的Analytics点击处理引擎，发布日期 **2023年7月13日**，开始强制要求Purchase ID和Event ID在37个月内过期（事件序列化）。 以前，购买ID和事件ID在Adobe Analytics中永不过期。 看到/使用购买ID或事件ID后，无论何时该购买或事件均会标记为重复，任何未来的点击均不会。 在新的处理引擎发布后：<ul><li>购买 ID 和事件 ID 始终在 37 个月后到期。</li><li>如果自查看购买 ID 或事件 ID 以来已有 37 个月，则不再将它视为重复的购买或事件。</li><li> 如果正在“重用”大于 37 个月之前的购买 ID 或事件 ID，则不再将其视为重复。</li></ul> |
 | **迁移到 Adobe I/O OAuth 服务器到服务器凭据** | 2023 年 5 月 11 日 | 使用 Adobe I/O JWT 凭据的 Adobe Analytics API 和 Livestream 客户必须在 **2025 年 1 月 1 日**&#x200B;之前迁移到 Adobe I/O OAuth 服务器到服务器凭据。有关更多详细信息和时间表，请参阅下表中的终止使用通知。 |
 
 {style="table-layout:auto"}
