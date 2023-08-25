@@ -4,10 +4,10 @@ title: Adobe Analytics 概述
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: 5bf266628506bc2f664e4382f819615c5a082763
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 75%
+source-wordcount: '446'
+ht-degree: 76%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Analytics 使组织能够从任何数字客户交互中收集数据并获�
 | 文档资源 | 函数 |
 |---------|----------|
 | [入门（按角色）](/help/analyze/get-started/get-started-by-role.md) | 提供详细说明您需要了解的主要功能和任务，无论您是管理员、分析员、最终用户还是开发人员。 |
-| [了解 Analytics 界面](/help/analyze/get-started/analytics-interface.md) | 划分Analytics界面的关键区域。 |
+| [了解 Analytics 界面](/help/analyze/get-started/analytics-interface.md) | 概述Analytics界面的关键区域。 |
 | [用例](/help/analyze/get-started/use-cases.md) | 介绍Adobe Analytics帮助企业获得关键见解以更好地为客户服务的一些主要方式。 |
 | [我应该使用哪种 Adobe Analytics 工具？](/help/analyze/get-started/which-analytics-tool.md) | 包含每个 Adobe Analytics 工具的推荐使用案例。 |
 | [Analytics 产品比较和要求](/help/analyze/get-started/analytics-product-comparison.md) | 比较各种可用的Adobe Analytics产品。 |

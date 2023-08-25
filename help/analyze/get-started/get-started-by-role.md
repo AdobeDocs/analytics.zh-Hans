@@ -4,18 +4,24 @@ title: 管理员、分析师、最终用户和开发人员快速入门
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: 5bf266628506bc2f664e4382f819615c5a082763
 workflow-type: tm+mt
-source-wordcount: '1812'
-ht-degree: 88%
+source-wordcount: '1901'
+ht-degree: 83%
 
 ---
 
 # 管理员、分析师、最终用户和开发人员快速入门
 
-典型组织中有 3 种类型的 Adobe Analytics 用户：管理员、分析师和最终用户。
+典型组织中有4种类型的Adobe Analytics用户：
 
-管理员实施和配置 Adobe Analytics；分析师使用 Analysis Workspace 设置项目并创建分析，最终用户通过创建自己的分析或与分析师合作创建分析，获得有关其客户的可操作洞察。
+* **管理员：** 实施和配置Adobe Analytics。
+
+* **分析员：** 使用Analysis Workspace设置项目并创建分析
+
+* **最终用户：** 通过创建自己的分析或与分析人员合作创建分析，获得关于客户的可操作见解
+
+* **开发人员：** 使用Adobe Analytics 2.0 API直接调用Adobe的服务器以执行几乎可以在用户界面中执行的任何操作，例如创建报表以探索、获取见解或回答有关数据的重要问题。
 
 以下信息概述了每位用户如何开始使用Adobe Analytics。
 
@@ -68,13 +74,13 @@ Analytics 管理员应先完成以下任务，然后再向组织中的用户提�
 | 定义权限 | Analytics 管理员需要在 Adobe Analytics、报表包工具和分析工具的 Admin Console 中分配产品配置文件。 | [Admin Console 中的 Analytics 权限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=zh-Hans) |
 | 设置报表包并为您的公司定义设置 | 报表包是一种数据存储库，Adobe Analytics 使用报表包生成报表。<p>管理员还可以设置[虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-Hans)进一步细分数据。</p> | <ul><li>[创建报表包](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=zh-Hans)</li><li>[公司设置概述](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=zh-Hans)</li></ul> |
 | 导入数据 | Adobe Analytics 数据源允许您导入其他在线或离线数据以便进行报告。 | [数据源概述](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=zh-Hans) |
-| 使用“分类”对数据进行分类 | “分类”允许您对数据进行分类，以更好地利用变量，从而将更多内容包含到单个变量中。 | |
+| 使用“分类”对数据进行分类 | “分类”允许您对数据进行分类，以更好地利用变量，从而将更多内容包含到单个变量中。 | [分类概述](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hans) |
 | 管理组件 | 使用“数据字典”和每个组件类型的管理区域来定义哪些组件在您的 Analytics 实施中可用，以及哪些组件已批准供您的组织使用。<p>这应该是一项持续的活动，以确保组件在您的组织中得到有效使用。 </p> | <ul><li>[数据词典概述](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.html?lang=zh-Hans)</li><li>[计算量度管理器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=zh-Hans)</li><li>[管理区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=zh-Hans)</li><li>[创建自定义日期范围](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=zh-Hans)</li></ul> |
 | 异常检测 | “异常检测”提供了一种统计方法来确定给定的量度相对于以前的数据发生了什么变化。 | [异常检测概述](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=zh-Hans) |
 | 贡献分析 | “贡献分析”可揭示数据中隐藏的模式以解释统计数据的异常，并可以跨各受众区段，确定意外客户操作、出界值以及选定量度的突增或突减背后存在的关联。 | [贡献分析概述](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=zh-Hans) |
 | Analytics 分段 | 允许您使用Analytics功能、Adobe Experience Cloud、Adobe Target和其他集成的Adobe产品生成、管理、共享强大而集中的受众区段，并将其应用于您的报表。 | [Analytics 分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hans) |
-| 将受众发布到 Audience Manager | | |
-| 集成 | 您可以在 Adobe Analytics 中显示来自其他应用程序的信息。 <p>以下是一些常见的集成：</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=zh-Hans">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans">媒体分析</a></li> | |
+| 将受众发布到 Audience Manager | Adobe Audience Manager是一个功能强大的数据管理平台，可帮助您从第一方、第二方（合作伙伴）和第三方数据集成构建独一无二的受众配置文件。 | [Audience Analytics 概述](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=zh-Hans) |
+| 集成 | 您可以在 Adobe Analytics 中显示来自其他应用程序的信息。 <p>以下是一些常见的集成：</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=zh-Hans">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans">媒体分析</a></li> | [Analytics 集成](https://experienceleague.adobe.com/docs/analytics/integration/home.html?lang=en) |
 
 {style="table-layout:auto"}
 
