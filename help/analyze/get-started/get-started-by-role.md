@@ -2,9 +2,7 @@
 description: 有关Adobe Analytics的一般概述信息，包括有关Analytics界面的信息以及管理员、分析师、用户和开发人员的入门信息。
 title: 管理员、分析师、最终用户和开发人员快速入门
 feature: Analytics Basics
-hide: true
-hidefromtoc: true
-source-git-commit: 5bf266628506bc2f664e4382f819615c5a082763
+source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
 workflow-type: tm+mt
 source-wordcount: '1901'
 ht-degree: 83%
