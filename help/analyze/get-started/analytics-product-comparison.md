@@ -3,10 +3,10 @@ description: Analysis Workspace、Reports & Analytics、Report Builder、Data Wa
 title: Analytics 产品比较和要求
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
+source-git-commit: 71ebabf7efca70c0cbd2489dc538f7f10cae16cb
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 100%
+source-wordcount: '432'
+ht-degree: 97%
 
 ---
 
@@ -37,5 +37,5 @@ ht-degree: 100%
 | **策划**<br> [了解详情](/help/analyze/analysis-workspace/curate-share/curate.md) | 是 - 项目和 VRS | 否 | 否 | 否 | 否 | 否 | 是 - 仅 VRS |
 | **项目共享**<br> [了解详情](/help/analyze/analysis-workspace/curate-share/share-projects.md) | 是，具有项目角色 | 是 | 是 | 否 | 是 | 否 | 否 |
 | **计划提交** | 是 | 是 | 是 | 是 | 否 | 是 | 否 |
-| **提交目标** | 电子邮件 | 电子邮件 | 电子邮件、FTP、SFTP、[发布到 Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | 电子邮件、FTP。联系客户关怀团队以获取其他目标支持，包括 SFTP、Azure Blob、Amazon S3 | - | FTP、SFTP、Azure Blob、Amazon S3 | - |
+| **提交目标** | 电子邮件 | 电子邮件 | 电子邮件、FTP、SFTP、[发布到 Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | 电子邮件、FTP。联系客户关怀团队以获取其他目标支持，包括 SFTP、Azure Blob、Amazon S3 | - | Amazon S3、Azure RBAC、Azure SAS和Google云平台 | - |
 | **VRS 报告时间处理**<br> [了解详情](/help/components/vrs/vrs-report-time-processing.md) | 是 | 否 | 否 | 否 | 否 | 否 | 是 |
