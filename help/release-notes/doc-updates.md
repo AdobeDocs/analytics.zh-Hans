@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 0ece9b2fddcf905951bbe35ec0a3ff862baff71c
+source-git-commit: 6681eedee327a5bb9cbfcb8ccf00ac32628f5a1f
 workflow-type: tm+mt
-source-wordcount: '4954'
+source-wordcount: '4991'
 ht-degree: 99%
 
 ---
@@ -26,8 +26,9 @@ ht-degree: 99%
 | 功能 | 描述 |
 | --- | --- |
 | **2023 年 8 月** | |
-| Experience Edge数据处理 | 添加了Adobe Analytics的工作原理 [处理来自Experience Edge的数据](../implement/aep-edge/overview.md). |
-| “Media Playback 耗时”面板 | 已更新的内容  [“Media Playback耗时”面板](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) 以提高可读性。 |
+| 数据馈送说明 | 已更新 [开始日期和结束日期的定义](/help/export/analytics-data-feed/create-feed.md) 为了阐明在处理历史数据的数据馈送时，您可以将开始日期设置为过去收集数据的任何日期。 |
+| Experience Edge 数据处理 | 添加了有关 Adobe Analytics 如何[处理来自 Experience Edge 的数据](../implement/aep-edge/overview.md)的内容。 |
+| “媒体播放耗时”面板 | 更新了[“媒体播放耗时”面板](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)的内容以提高可读性。 |
 | 移动了关于管理计划项目的内容 | 在《Analytics 组件指南》中创建了一篇名为[计划项目](/help/components/scheduled-projects-manager.md)的新文章。此内容以前位于《Analytics 工具指南》中的[计划项目](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)一文中。 |
 | 比较实施方法 | 更新了比较不同实施方法的文档。[了解详情](../implement/prepare/comparison.md) |
 | 阐明为数据馈送配置 SFTP 不需要 Adob&#x200B;e 客户服务 | 在[将 Adobe 数据发送到 SFTP 的外部 FTP 帐户](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)中说明，客户无需联系 Adobe 客户服务，即可为数据馈送配置 SFTP。 <p>还添加了一条注释，即不再建议使用 SFTP，并且客户在配置数据馈送时应使用云目标。</p> |
@@ -48,7 +49,7 @@ ht-degree: 99%
 | 深层链接（移动应用程序）文档 | 使用户可发送记分卡的链接，而这些链接将引导用户直接进入应用程序中的记分卡项目。[了解详情](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
 | 关于 Analytics 功能板应用程序（移动应用程序）更新的主屏幕的文档 | 通过新近更新的主屏幕，可在一个合并的记分卡列表中查看您的所有记分卡。[了解详情](/help/analyze/mobile-app/executive.md#use-dashboards) |
 | Spectrum 图标 | 已适当地将文档中用户界面图标的屏幕截图替换为引用 [Adobe 的 Spectrum 设计系统](https://spectrum.adobe.com/page/icons/)中的同等图标。 |
-| 报表活动管理器 | 更新了此 Beta 文档，尤其是更新了关于[查看个别报表包的报表活动](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites)的部分。 |
+| 报告活动管理器 | 更新了此 Beta 文档，尤其是更新了关于[查看个别报表包的报告活动](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites)的部分。 |
 | Analysis Workspace 概述 | 更新了 [Analysis Workspace 概述](/help/analyze/analysis-workspace/home.md)，包括更多的一般概述信息和相关内容的链接。 |
 | 创建项目 | 创建了一篇新文章，其中详细解释了如何在 Analysis Workspace 中[创建项目](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)。 |
 | 为左边栏中的组件排序 | 添加了有关对左边栏中的组件列表进行排序的信息。请参阅[组件概览](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)中的“搜索、过滤和排序组件列表”部分。 |
