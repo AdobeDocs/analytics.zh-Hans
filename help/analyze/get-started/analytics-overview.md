@@ -1,11 +1,11 @@
 ---
-description: 有关 Adobe Analytics 的一般概述信息，包括有关Analytics界面的信息以及管理员、分析师、用户和开发人员的入门信息。
+description: 有关 Adobe Analytics 的一般概述信息，包括有关 Analytics 界面的信息以及针对管理员、分析师、用户和开发人员的快速入门信息。
 title: Adobe Analytics 概述
 feature: Analytics Basics
 source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 76%
+ht-degree: 80%
 
 ---
 
