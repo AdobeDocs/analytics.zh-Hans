@@ -1,11 +1,12 @@
 ---
 description: 有关 Adobe Analytics 的一般概述信息，包括有关 Analytics 界面的信息以及针对管理员、分析师、用户和开发人员的快速入门信息。
+short-description: 了解面向分析人员、最终用户和管理员的关键功能、常见用例和首要步骤。
 title: Adobe Analytics 概述
 feature: Analytics Basics
-source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
+source-git-commit: 8adf512522d89ab1f2187c6f9be7373c0a430f17
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 80%
+source-wordcount: '461'
+ht-degree: 96%
 
 ---
 
@@ -13,19 +14,19 @@ ht-degree: 80%
 
 Adobe Analytics 使组织能够从任何数字客户交互中收集数据并获得可操作洞察。借助深入分析、多功能报告和预测智能，组织可以获得为客户打造更好体验所需的深刻基础。
 
-## Adobe Analytics 快速入门。
+## Adobe Analytics 快速入门
 
-使用以下资源了解Adobe Analytics的基础知识：
+使用以下资源来了解 Adobe Analytics 的基础知识：
 
 
 | 文档资源 | 函数 |
 |---------|----------|
-| [入门（按角色）](/help/analyze/get-started/get-started-by-role.md) | 提供详细说明您需要了解的主要功能和任务，无论您是管理员、分析员、最终用户还是开发人员。 |
-| [了解 Analytics 界面](/help/analyze/get-started/analytics-interface.md) | 概述Analytics界面的关键区域。 |
-| [用例](/help/analyze/get-started/use-cases.md) | 介绍Adobe Analytics帮助企业获得关键见解以更好地为客户服务的一些主要方式。 |
-| [我应该使用哪种 Adobe Analytics 工具？](/help/analyze/get-started/which-analytics-tool.md) | 包含每个 Adobe Analytics 工具的推荐使用案例。 |
-| [Analytics 产品比较和要求](/help/analyze/get-started/analytics-product-comparison.md) | 比较各种可用的Adobe Analytics产品。 |
-| [系统要求](/help/analyze/get-started/sys-reqs.md) | 介绍实施和使用Adobe Analytics的先决条件和系统要求。 |
+| [开始使用（按角色）](/help/analyze/get-started/get-started-by-role.md) | 提供详细信息，说明您需要了解的关键功能和任务，无论您是管理员、分析师、最终用户还是开发人员。 |
+| [了解 Analytics 界面](/help/analyze/get-started/analytics-interface.md) | 概述了 Analytics 界面的关键区域。 |
+| [用例](/help/analyze/get-started/use-cases.md) | 说明 Adobe Analytics 帮助组织获得重要见解以更好地服务客户的一些关键方法。 |
+| [我应该使用哪种 Adobe Analytics 工具？](/help/analyze/get-started/which-analytics-tool.md) | 包含每个 Adobe Analytics 工具的推荐用例。 |
+| [Analytics 产品比较和要求](/help/analyze/get-started/analytics-product-comparison.md) | 比较各种可用的 Adobe Analytics 产品。 |
+| [系统要求](/help/analyze/get-started/sys-reqs.md) | 说明实施和使用 Adobe Analytics 的先决条件和系统要求。 |
 
 ## 视频概述
 
