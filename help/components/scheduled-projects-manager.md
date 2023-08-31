@@ -2,10 +2,10 @@
 description: 查看并管理整个组织内的计划报告。
 title: 计划项目管理器
 feature: Admin Tools
-source-git-commit: 8d0cf795b0366b2797fa0574ae9faaffb76b005e
-workflow-type: ht
-source-wordcount: '414'
-ht-degree: 100%
+source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
+workflow-type: tm+mt
+source-wordcount: '467'
+ht-degree: 86%
 
 ---
 
@@ -13,9 +13,19 @@ ht-degree: 100%
 
 可以在 **Analytics > 组件 > 计划项目**&#x200B;下管理计划的 Analysis Workspace 项目。
 
-在管理计划项目时，您可以编辑和删除重复的项目计划。在搜索栏中搜索计划，或者使用左边栏中的过滤器选项搜索计划。您可以按以下条件过滤：[!UICONTROL 标记]、[!UICONTROL 拥有者]、[!UICONTROL 收藏夹]等。
+在管理计划项目时，您可以编辑和删除重复的项目计划：
 
-![](assets/scheduled-project-manager2.png)
+* 更改文件类型(.csv或PDF)
+* 更新项目描述
+* 添加或删除收件人
+* 更改频率
+
+修改计划项目
+
+1. 选择 **Analytics >组件>计划项目**.
+1. 在搜索栏中搜索计划，或者使用左边栏中的过滤器选项搜索计划。您可以按以下条件过滤：[!UICONTROL 标记]、[!UICONTROL 拥有者]、[!UICONTROL 收藏夹]等。
+
+![此屏幕截图显示了计划项目列表，其中的列显示了标题、所有者、标记、交付对象以及“可用列”部分中描述的其他列。](assets/scheduled-project-manager2.png)
 
 ## 可用列
 

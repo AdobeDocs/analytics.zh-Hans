@@ -1,20 +1,20 @@
 ---
-description: 通过电子邮件发送 Analysis Workspace 项目，或者计划发送项目的时间。
+description: 使用电子邮件发送Analysis Workspace项目或计划交付项目。
 keywords: Analysis Workspace
 title: 计划项目
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 00c2b924d31f7a68258bba5e96ef1a39d4707766
+source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 73%
+source-wordcount: '315'
+ht-degree: 51%
 
 ---
 
 # 计划项目
 
-从工作区的&#x200B;**“共享”菜单**&#x200B;中，您可以通过电子邮件将 Analysis Workspace 项目发送给选定的收件人。可以采用 CSV 或 PDF 格式发送文件。
+从工作区 **“共享”菜单**，则可以使用电子邮件将Analysis Workspace项目发送给选定的收件人。 可以采用 CSV 或 PDF 格式发送文件。共享计划项目后，您可以使用计划项目管理器编辑计划设置以修改频率、收件人列表或文件类型。
 
 ## 立即发送文件
 
@@ -46,6 +46,14 @@ ht-degree: 73%
 ![](assets/send-on-schedule.png)
 
 ## 管理计划项目
+
+在管理计划项目时，您可以编辑和删除重复的项目计划：
+
+* 更改文件类型(.csv或PDF)
+* 更新项目描述
+* 添加或删除收件人
+* 更改频率
+
 
 可以在 **Analytics > 组件 > 计划项目**&#x200B;下管理计划的 Analysis Workspace 项目。
 
