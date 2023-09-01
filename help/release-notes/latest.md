@@ -3,16 +3,16 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前的 Adobe Analytics 发行说明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 5d0133495613c89deca4dc070d38389ef89853b3
-workflow-type: ht
+source-git-commit: 991c46091d08a3efa8c1ff90d6ccc2a4e698f208
+workflow-type: tm+mt
 source-wordcount: '891'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # 当前 Adobe Analytics 发行说明（2023 年 8 月）
 
-**上次更新日期**：2023 年 8 月 24 日
+**上次更新日期**：2023 年 8 月 29 日
 
 这些发行说明涵盖 2023 年 8 月 9 日至 9 月 13 日的发行期。Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **API 2.0 中的分类集** | 提供用于保存、删除、检索、导入和导出分类集数据的 Adobe Analytics API 2.0 方法。 | 不适用 | 2023 年 8 月 30 日 |
+| **API 2.0 中的分类集** | 提供用于保存、删除、检索、导入和导出分类集数据的 Adobe Analytics API 2.0 方法。 | 不适用 | 2023 年 9 月 13 日 |
 | **报表活动管理器** | 报告活动管理器使管理员能够详细看到每个报告包的报告消耗情况的详细信息，使管&#x200B;&#x200B;理员能够轻松诊断并修复报告高峰期间的容量问题。[了解详情](/help/admin/admin/reporting-activity.md) | 不适用 | 2023 年 9 月 12 日 |
 
 {style="table-layout:auto"}
