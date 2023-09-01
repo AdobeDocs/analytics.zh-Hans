@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 6681eedee327a5bb9cbfcb8ccf00ac32628f5a1f
 workflow-type: tm+mt
 source-wordcount: '4991'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 | 功能 | 描述 |
 | --- | --- |
 | **2023 年 8 月** | |
-| 数据馈送说明 | 已更新 [开始日期和结束日期的定义](/help/export/analytics-data-feed/create-feed.md) 为了阐明在处理历史数据的数据馈送时，您可以将开始日期设置为过去收集数据的任何日期。 |
+| 数据馈送说明 | 更新了[开始日期和结束日期的定义](/help/export/analytics-data-feed/create-feed.md)以说明在处理历史数据的数据馈送时，可将开始日期设置为任何过去收集数据时的日期。 |
 | Experience Edge 数据处理 | 添加了有关 Adobe Analytics 如何[处理来自 Experience Edge 的数据](../implement/aep-edge/overview.md)的内容。 |
 | “媒体播放耗时”面板 | 更新了[“媒体播放耗时”面板](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)的内容以提高可读性。 |
 | 移动了关于管理计划项目的内容 | 在《Analytics 组件指南》中创建了一篇名为[计划项目](/help/components/scheduled-projects-manager.md)的新文章。此内容以前位于《Analytics 工具指南》中的[计划项目](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)一文中。 |
