@@ -1,15 +1,15 @@
 ---
-description: 有关Adobe Analytics的一般概述信息，包括有关Analytics界面的信息以及管理员、分析师、用户和开发人员的入门信息。
-title: Analytics用例
+description: 有关 Adobe Analytics 的一般概述信息，包括有关 Analytics 界面的信息以及针对管理员、分析师、用户和开发人员的快速入门信息。
+title: Analytics 用例
 feature: Analytics Basics
 source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# Analytics用例
+# Analytics 用例
 
 以下是 Adobe Analytics 帮助组织获得重要见解以更好地服务客户的一些关键方法。
 
@@ -32,7 +32,7 @@ Adobe Analytics 帮助组织了解客户在何处与其品牌互动、客户喜�
 
 Adobe Analytics 中的以下主要功能提供了这些营销功能：
 
-* [多渠道数据采集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hans)
+* [多渠道数据收集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hans)
 
 * [离线数据集成](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=zh-Hans)
 
