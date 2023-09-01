@@ -4,15 +4,15 @@ description: 为使用 Adobe Analytics 而需满足的系统要求。
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
 source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
-# Adobe Analytics 系统要求 和先决条件
+# Adobe Analytics 系统要求和先决条件
 
-在作为管理员开始实施Adobe Analytics，或作为分析人员或最终用户使用它之前，您应该首先熟悉以下先决条件和系统要求：
+在开始以管理员身份实施 Adobe Analytics 或以分析师或最终用户身份使用 Adobe Analytics 之前，您首先应熟悉以下先决条件和系统要求：
 
 ## 使用 Adobe Analytics 的先决条件
 
