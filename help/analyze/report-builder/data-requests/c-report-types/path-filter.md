@@ -4,10 +4,10 @@ title: 使用请求向导过滤路径报表
 feature: Report Builder
 role: User, Admin
 exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 67%
+ht-degree: 62%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 67%
 
    ![](assets/select_a_pattern.png)
 
-   其中，某些模式是特定于 Report Builder 的：登入路径的下一项目模式、退出路径的上一项目模式、下一项目模式。
+   其中一些模式特定于Report Builder：登入路径的下一项目模式、退出路径的上一项目模式、下一项目模式。
 
 ## 要编辑预定义模式
 

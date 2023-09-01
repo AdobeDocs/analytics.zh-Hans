@@ -1,20 +1,20 @@
 ---
-description: 创建具有嵌入请求的报表后，您可以通过在 Excel 中单击“文件”>“保存”或“文件”>“另存为”来保存报表。Report Builder 会检测报表是否包含请求。单击任一保存选项时，将显示“将工作簿另存为”窗体。
-title: 保存具有请求的工作簿
+description: 了解如何保存包含嵌入请求的报表。
+title: 关于保存带有请求的工作簿
 uuid: 31611031-0982-4124-9fc7-7888124aa603
 feature: Report Builder
 role: User, Admin
 exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 100%
+source-wordcount: '276'
+ht-degree: 80%
 
 ---
 
 # 保存具有请求的工作簿
 
-创建具有嵌入请求的报表后，您可以通过在 Excel 中单击“文件”>“保存”或“文件”>“另存为”来保存报表。Report Builder 会检测报表是否包含请求。单击任一保存选项时，将显示“将工作簿另存为”窗体。
+在创建包含嵌入请求的报表时，可以使用以下方式保存它们 **文件** > **保存** 或 **文件** > **另存为** 在Excel中。 Report Builder检测报告是否包含请求。 选择其中一个保存选项后，填写 **将工作簿另存为** 表单。
 
 * 根据使用 Windows 应用程序处理大量工作时的最佳做法，Adobe 建议您在电子表格中随时保存请求，以避免意外丢失工作表中的请求。
 * 为工作簿命名时，请考虑在文件名中包含版本号，以便保存工作历史记录。例如，将第一个工作簿命名为 [!DNL web_forecast_01_01.xlsx]。

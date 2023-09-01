@@ -4,10 +4,10 @@ title: 管理区段 (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
@@ -23,7 +23,7 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 
 >[!NOTE]
 >
->添加或编辑区段时，Report Builder 区段界面会在 Microsoft Internet Explorer 窗口中启动 Analytics 区段生成器。您的 Report Builder 会话将保持活动状态。此操作不支持使用 Internet Explorer 以外的浏览器。
+>添加或编辑区段时，Report Builder 区段界面会在 Microsoft Internet Explorer 窗口中启动 Analytics 区段生成器。您的Report Builder会话将保持活动状态。 此操作不支持使用 Internet Explorer 以外的浏览器。
 
 1. 在“请求向导”第 1 步的区段面板中，单击&#x200B;**[!UICONTROL 添加]**。
 1. 将启动一个 Internet Explorer 窗口，其中可打开 Analytics 区段生成器界面。有关如何构建区段的信息，请参阅 [Analytics 分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)。
@@ -47,7 +47,7 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 
 1. 此时将在 Internet Explorer 中启动区段生成器用户界面。区段生成器用户界面将使用您指定的容器和过滤器进行初始化。
 1. 向区段添加名称和描述后，保存该区段。
-1. 返回至 Report Builder，并单击“刷新”图标以刷新区段列表。
+1. 返回Report Builder并单击“刷新”图标可刷新区段列表。
 1. 现在，您可以应用此区段。
 
 ## 搜索和应用区段 {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
@@ -76,7 +76,7 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 |---|---|
 | 标记 | 允许您过滤具有特定标签的区段。请注意，“标签”过滤器使用 AND 运算符。如果您选中两个标签，右侧窗格会显示&#x200B;**同时**&#x200B;具有这两个标签的区段。 |
 | 所有者 | 允许您按所有者过滤区段。请注意，“所有者”过滤器使用 OR 运算符。如果您选中两个所有者，右侧窗格会显示&#x200B;**每个**&#x200B;所有者拥有的区段。 |
-| 其他过滤器 > 仅&#x200B;*报表包名称* | 如果您在 [!DNL marketing reports & analytics] 中应用区段生成器的“仅&#x200B;*报表包名称*”过滤器，然后在 [!DNL report builder] 中显示“高级过滤器”，则“高级过滤器”将仅显示选定报表包的区段。 |
+| 其他过滤器 > 仅&#x200B;*报表包名称* | 如果您在 [!DNL marketing reports & analytics] 中应用区段生成器的“仅&#x200B;*报表包名称*”过滤器，然后在 [!DNL Report Builder] 中显示“高级过滤器”，则“高级过滤器”将仅显示选定报表包的区段。 |
 | 其他过滤器 > 我的 | 显示您拥有的所有区段。 |
 | 其他过滤器 > 与我共享 | 显示他人与您共享的所有区段。 |
 | 其他过滤器 > 收藏夹 | 显示您标记为收藏项目的所有区段。 |

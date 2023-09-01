@@ -1,14 +1,14 @@
 ---
-description: 您可以计划报表请求、指定高级提交选项、指定收件人和查看计划历史记录。高级提交选项可让您配置要在特定时间发送或定期发送的报表。您还可以指定发送报表时要使用的文件格式。
-title: 计划报表请求
+description: 了解如何计划报表请求、指定高级提交选项、指定收件人以及查看计划历史记录。
+title: 关于计划报表请求
 uuid: d9b65b82-1975-403b-bc50-f22cfea6019f
 feature: Report Builder
 role: User, Admin
 exl-id: bbc1137d-5549-4f2f-9d67-7165a9970c77
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 100%
+source-wordcount: '30'
+ht-degree: 30%
 
 ---
 

@@ -1,14 +1,14 @@
 ---
-description: 说明如何安装 Report Builder 的步骤。
-title: 安装 Report Builder
+description: 了解如何安装Report Builder。
+title: 如何安装Report Builder
 uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
 feature: Report Builder
 role: User, Admin
 exl-id: 1529c173-b42c-4deb-8bb9-0e6b007f71d6
-source-git-commit: 18b68c3f802a72aae0860d9afebbc38f075271cd
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 100%
+ht-degree: 66%
 
 ---
 
@@ -27,4 +27,4 @@ ht-degree: 100%
 
 ## 权限
 
-如果在&#x200B;**[!UICONTROL 工具]**&#x200B;下未看到 **[!UICONTROL Report Builder]** 菜单项，请咨询 Adobe Analytics 管理员，确保您是包含以下权限的产品配置文件的一部分：“Report Builder”。了解有关[产品配置文件](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)和 [Analytics 权限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html)的详细信息。
+如果您没有看到 **[!UICONTROL Report Builder]** 作为菜单项在 **[!UICONTROL 工具]**，请咨询Adobe Analytics管理员，确保您是包含以下权限的产品配置文件的一部分： *Report Builder*. 了解有关[产品配置文件](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)和 [Analytics 权限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html)的详细信息。

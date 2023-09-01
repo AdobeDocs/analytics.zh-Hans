@@ -5,10 +5,10 @@ uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 您可以过滤添加到“行标签”网格中的维度。过滤器可减少请求返回的数据，并且可以从引导布局或自定义布局中进行应用。通过引导布局配置维度过滤时，您还可以指定单元格中的条目数。
 
-选定过滤器表单会基于 Report Builder 请求中选择的元素和量度来填充。
+选定过滤器表单会根据Report Builder请求中选择的元素和指标进行填充。
 
 ## 定义过滤器 – 值和特殊字符 {#section_15840216A4044C40974945FAA435AD93}
 

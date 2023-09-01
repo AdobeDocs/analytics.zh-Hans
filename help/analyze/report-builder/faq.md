@@ -1,13 +1,13 @@
 ---
-title: Report Builder 常见问题解答
-description: Report Builder 常见问题解答。
+description: 了解Report Builder常见问题解答。
+title: Report Builder常见问题解答
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 93%
+source-wordcount: '421'
+ht-degree: 91%
 
 ---
 
@@ -23,7 +23,7 @@ Excel 中的 [`TODAY()` 函数](https://support.microsoft.com/zh-cn/office/today
 
 计划报表还在可能不采用相同日期语法的服务器上进行处理。例如，`7/1/YYYY` 可能指 7 月 1 日或 1 月 7 日，具体取决于您所在国家或地区。使用此日期的 `DATEVALUE()` 函数将会导致序列值有所不同，具体取决于执行此函数的计算机。
 
-作为使用这些 Excel 函数的替代方法，Adobe 强烈建议在 Report Builder 请求中使用日期范围。在请求向导的第一页，选择 **[!UICONTROL 预设日期]** 在下拉列表中，然后在常用日期下，选择 **[!UICONTROL 今天]** 或其他所需的日期范围。 此设置会采用报表包运行时的时间，而不是服务器处理请求的时间。
+作为使用这些 Excel 函数的替代方法，Adobe 强烈建议在 Report Builder 请求中使用日期范围。在请求向导的第一页上，选择 **[!UICONTROL 预设日期]** 在下拉列表的常用日期下，选择 **[!UICONTROL 今天]** 或其他所需的日期范围。 此设置会采用报表包运行时的时间，而不是服务器处理请求的时间。
 
 ## 我的工作簿的大小和复杂程度如何？
 

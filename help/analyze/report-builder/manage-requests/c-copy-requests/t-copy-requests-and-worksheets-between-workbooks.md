@@ -5,10 +5,10 @@ uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 feature: Report Builder
 role: User, Admin
 exl-id: 1a2363da-603e-4d1d-aefa-14ce71554247
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 72%
+ht-degree: 58%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 72%
 1. 右键单击源工作簿中的电子表格，然后选择&#x200B;**[!UICONTROL 复制带有请求的工作表]**。
 1. 在目标工作簿中，右键单击电子表格，然后选择&#x200B;**[!UICONTROL 粘贴带有请求的工作表]**。
 
-   同一 Excel 实例是指在某个时间计算机上只运行一个 Excel 进程 ([!DNL excel.exe])。如果启动两个 Excel 实例，然后尝试将工作表从第一个 Excel 实例中的工作簿复制到第二个 Excel 实例中的工作簿，则 Report Builder 不会在第二个 Excel 实例的快捷菜单中提供粘贴工作表的选项。
+   同一 Excel 实例是指在某个时间计算机上只运行一个 Excel 进程 ([!DNL excel.exe])。如果启动两个Excel实例，并尝试将工作表从第一个Excel实例的工作簿复制到第二个Excel实例的工作簿，则Report Builder不会显示将工作表粘贴到第二个Excel实例快捷菜单中的选项。
 
    如果登录使用不同报表包的源工作簿和目标工作簿，则粘贴操作后只能看到影响目标工作簿格式的结果。Report Builder 会显示一条消息，指出基于指定报表包（位于源工作簿中）生成的请求相关信息在目标工作簿中不可用。要显示粘贴到目标工作簿的请求，必须登录到使用与源工作簿相同的报表包的目标工作簿。
 

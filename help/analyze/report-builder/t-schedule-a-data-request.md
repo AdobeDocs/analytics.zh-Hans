@@ -1,14 +1,14 @@
 ---
-description: 您可以安排报表按照定义的时间和文件格式发送。
-title: 计划数据请求
+description: 了解如何计划报告。
+title: 如何计划数据请求
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 100%
+source-wordcount: '999'
+ht-degree: 96%
 
 ---
 
@@ -34,17 +34,15 @@ ht-degree: 100%
 > * 计划程序所依赖的&#x200B;**下游服务中的问题**&#x200B;也会影响工作簿的提交。例如，如果您单独使用 API 运行工作簿并填充 API 请求队列，则在您争夺该资源时，计划工作簿提交速度可能会较慢。
 > * **报表包延迟**（数据收集的延迟）也会导致某些计划工作簿提交延迟。
 
-
 ## 计划工作簿
 
 1. 生成并保存工作簿。
 1. 在 Report Builder 工具栏上，单击&#x200B;**[!UICONTROL 计划]**。
 
    “[!UICONTROL 计划报表]”选项卡总结您已创建的所有任务，以及剩余任务的数目。
-1. 在&#x200B;**[!UICONTROL 计划报表]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL 新建]**。
-1. “基本计划向导”显示如下：
+1. 在&#x200B;**[!UICONTROL 计划报表]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL 新建]**。“基本计划向导”会显示用于定义计划报表的选项。
 
-   ![](assets/simple-schedule-wizard.png)
+   ![显示“基本计划向导”的屏幕截图。](assets/simple-schedule-wizard.png)
 
 1. 在“[!UICONTROL 基本计划向导]”中，配置以下选项：
 

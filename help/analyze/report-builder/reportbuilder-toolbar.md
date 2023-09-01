@@ -1,14 +1,14 @@
 ---
-description: 可帮助您了解 Report Builder 工具栏上各个按钮功能的信息。
-title: Report Builder 工具栏
+description: 了解Report Builder工具栏按钮的功能。
+title: 如何使用Report Builder工具栏
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 feature: Report Builder
 role: User, Admin
 exl-id: 6dbf94f1-f70e-40d3-a76f-fef298be19f5
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 92%
+source-wordcount: '304'
+ht-degree: 79%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 92%
 
 安装 Report Builder 并启动 Excel 后，单击&#x200B;**[!UICONTROL 加载项]**。
 
-![](assets/report_builder_toolbar.png)
+![Report Builder工具栏图标](assets/report_builder_toolbar.png)
 
 **登录：** 显示 [!UICONTROL 登录] ，以便您可以使用您的凭据或以其他用户的身份登录。 在登录后，还将显示您的公司名称。请参阅 [Report Builder 登录](/help/analyze/report-builder/setup/login.md).
 
@@ -32,9 +32,9 @@ ht-degree: 92%
 
 **计划：**&#x200B;允许您安排报表按照定义的时间和文件格式发送。请参阅[计划报表请求](/help/analyze/report-builder/schedule-report-requests.md)。
 
-**库：**&#x200B;启动“[!UICONTROL 工作簿库]”，以便您可以上载要共享的 Report Builder Excel 工作簿。您还可以下载并编辑共享的工作簿。请参阅[使用工作簿库](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md)。
+**库：** 启动 [!UICONTROL 工作簿库] 以便上传要共享的Report BuilderExcel工作簿。 您还可以下载并编辑共享的工作簿。请参阅[使用工作簿库](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md)。
 
-**选项：**&#x200B;允许您指定是否希望在刷新请求时提示您输入&#x200B;**[!UICONTROL 截止]**（“现在”）日期，并且允许您启用日志记录功能，以用于疑难解答。参见 [选项](/help/analyze/report-builder/options.md).
+**选项：**&#x200B;允许您指定是否希望在刷新请求时提示您输入&#x200B;**[!UICONTROL 截止]**（“现在”）日期，并且允许您启用日志记录功能，以用于疑难解答。请参阅 [选项](/help/analyze/report-builder/options.md).
 
 **锁定/解锁：**&#x200B;您可以锁定工作簿，从而防止对工作簿中的所有请求执行添加和编辑操作。这允许通过暂停所有报表请求来脱机编辑工作簿，从而提高编辑效率。请参阅[锁定/解锁工作簿](/help/analyze/report-builder/workbook-library/protect-wb.md)。
 

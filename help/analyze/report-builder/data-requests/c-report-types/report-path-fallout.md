@@ -1,19 +1,19 @@
 ---
-description: 描述 Report Builder 如何支持路径报表和流失报表，以及实施过程与 Reports & Analytics 有何不同。
+description: 介绍Report Builder如何支持路径报表和流失报表，以及实施过程与Reports & Analytics有何不同。
 title: Report Builder 中的路径报表和路径流失报表
 feature: Report Builder
 role: User, Admin
 exl-id: 211b0e76-2895-401d-a5a5-73e459a486e2
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # Report Builder 中的路径报表和路径流失报表
 
-描述 Report Builder 如何支持路径报表和流失报表，以及实施过程与 Reports &amp; Analytics 有何不同。
+介绍Report Builder如何支持路径报表和流失报表，以及实施过程与Reports &amp; Analytics有何不同。
 
 | Reports &amp; Analytics 中的路径报表名称（路径 > 维度 >） | 在 Report Builder 中是否受支持？ |
 |--- |--- |

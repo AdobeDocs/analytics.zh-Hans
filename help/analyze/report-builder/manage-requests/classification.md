@@ -1,20 +1,20 @@
 ---
-description: 分类划分用于将分析报表数据映射到相关属性。分类的用途广泛，但最常用于对促销活动跟踪代码（内部和外部）和产品 ID 进行分类。
-title: 分类
+description: 了解如何使用分类。
+title: 关于数据的分类
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 feature: Report Builder
 role: User, Admin
 exl-id: ca083152-d589-4896-8cd0-9f8e1cee2116
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 100%
+source-wordcount: '149'
+ht-degree: 76%
 
 ---
 
 # 分类
 
-分类划分用于将分析报表数据映射到相关属性。分类的用途广泛，但最常用于对促销活动跟踪代码（内部和外部）和产品 ID 进行分类。
+分类划分用于将分析报表数据映射到相关属性。分类可用于多种目的，但最常用于分类内部和外部促销活动跟踪代码以及产品ID。
 
 例如，[!UICONTROL 促销活动]报表可能包含[!UICONTROL 经理]分类和[!UICONTROL 商店]分类。然后，可以按特定的层次结构对这些分类进行排序，每组报表值可划分为多个子组。
 

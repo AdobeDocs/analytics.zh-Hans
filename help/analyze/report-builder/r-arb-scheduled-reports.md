@@ -1,13 +1,13 @@
 ---
-description: 计划任务管理器的字段说明。
-title: 计划任务管理器
+description: 了解“计划任务管理器”的字段说明。
+title: 关于计划任务管理器
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 9a16f3942505028624e5c07568342a9acac898d7
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 98%
+source-wordcount: '774'
+ht-degree: 96%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 98%
 
 | 字段 | 描述 |
 | --- | --- |
-| **[!UICONTROL 计划报告选项卡]** |  |
+| **[!UICONTROL 计划报告选项卡]** | |
 | [!UICONTROL 报告名称] | 指示计划任务的名称。 |
 | [!UICONTROL 电子邮件/FTP] | 收件人的电子邮件或 FTP 地址。**注意：**&#x200B;如果选择了电子邮件，那么大于 1MB 的报表将自动作为 .zip 文件添加到邮件附件中。此功能有助于保持较小的附件文件大小，您无法禁用该功能。 |
 | [!UICONTROL 发布选项] | 如果选择了 [Power BI 发布选项](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/publish-powerbi/power-bi.html)之一，本栏将列出 Power BI。 |
@@ -43,10 +43,10 @@ ht-degree: 98%
 | [!UICONTROL 文件格式] | 报告的提交格式，如 Excel、PDF、HTML 等。 |
 | [!UICONTROL 重新激活] | 计划工作簿无法运行时，Report Builder 会尝试再运行该工作簿 2 次，每次间隔 15 分钟。3 次尝试均失败后，Report Builder 会停用该计划并显示“重新激活”按钮。重新激活工作簿时，计划提交从停用的时间重新开始。<p>例如，如果计划工作簿在 14 天之前停用，而您在今天将其重新激活，它将运行以弥补错过的每一天并且将提交 14 次。如果您不希望为错过的时间提交工作簿，可以删除计划工作簿，然后使用相同的计划参数创建新的计划工作簿。<p>**请注意：**&#x200B;除非您知道系统停用工作簿的原因，否则不要重新激活工作簿。要进行故障诊断，请下载已停用的工作簿并在客户端刷新。如果没有显示任何错误，则您应该可以将其重新激活。 |
 | [!UICONTROL 上次发送] | 报告上次发送的日期和时间。 |
-| **收件人选项卡** |  |
+| **收件人选项卡** | |
 | [!UICONTROL 收件人电子邮件] | 报告的电子邮件收件人。 |
 | [!UICONTROL 报告] | 发送给每个收件人的报告。 |
-| **报告历史记录选项卡** |  |
+| **报告历史记录选项卡** | |
 | [!UICONTROL 文件名] | 指示计划任务的名称。 |
 | [!UICONTROL 日期] | 报告上次发送的日期和时间。 |
 | [!UICONTROL 状态] | 状态指示报告是已发送，还是未发送。 |

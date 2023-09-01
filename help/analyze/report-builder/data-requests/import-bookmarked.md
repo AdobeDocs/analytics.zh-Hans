@@ -1,19 +1,19 @@
 ---
-description: 当前，在“请求向导”第 1 步中以维度的形式列出所有已添加书签的报表和功能板报表，并可作为 Report Builder 请求导入这些报表。
+description: 现在，所有标为书签的报表和功能板报表都作为维度列在“请求向导：第1步”中，并且可以作为Report Builder请求导入。
 title: 导入加入书签的报表和功能板缩图报表
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 95%
+ht-degree: 82%
 
 ---
 
 # 导入加入书签的报表和功能板缩图报表
 
-当前，在“请求向导”第 1 步中以维度的形式列出所有已添加书签的报表和功能板报表，并可作为 Report Builder 请求导入这些报表。
+现在，所有标为书签的报表和功能板报表都作为维度列在“请求向导：第1步”中，并且可以作为Report Builder请求导入。
 
 当您选择标为书签的报表时，“请求向导”会填充用于定义此标为书签的报表的所有维度和指标。日期范围、粒度和选定的区段也会根据选定的书签进行更新。
 

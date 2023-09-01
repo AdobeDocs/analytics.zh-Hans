@@ -5,10 +5,10 @@ uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 feature: Report Builder
 role: User, Admin
 exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 94%
+ht-degree: 77%
 
 ---
 
@@ -33,15 +33,15 @@ ht-degree: 94%
 
    **显示行与列标题：**&#x200B;添加行和列以显示这些项目。
 
-   在版本 3.11 中，可以分别显示各个项目的标题。版本 4 要么显示所有这些项目，要么一个都不显示。如果在版本 3.11 中创建请求但在版本 4.x 中打开，那么对于缺少标题的项目，Report Builder 会在第 2 步中提示您通过添加一个单元格来更新范围。
+   在版本 3.11 中，可以分别显示各个项目的标题。版本 4 要么显示所有这些项目，要么一个都不显示。如果您在版本3.11中创建了请求，然后在版本4.x中打开该请求，则Report Builder会在步骤2中提示您为缺少标题的项目使用一个单元格来更新范围。
 
-   **将标题更改为 Excel 自动过滤器：**&#x200B;仅在显示行和列标题时可用。此设置会创建 Excel 自动过滤器，并将其附加到 Report Builder 为此请求而返回的数据中。
+   **将标题更改为 Excel 自动过滤器：**&#x200B;仅在显示行和列标题时可用。此设置会创建Excel自动过滤器，并将其附加到为此请求返回的数据Report Builder。
 
    >[!NOTE]
    >
    >对于每个工作表，Excel 仅支持一个自动过滤器。如果在已具有自动过滤器的工作表中创建新的自动过滤器，那么 Excel 不提供警告即替换现有的自动过滤器。
 
-   **执行自动分级显示：**&#x200B;将 Report Builder 返回的数据从列表视图转换为树视图。
+   **执行自动分级显示：** 将Report Builder返回的数据从列表视图转换为树视图。
 
    **为此请求命名：**&#x200B;允许您为请求键入用户定义的名称，或者使用在第 1 步中选择的默认名称。此名称在[!UICONTROL 请求管理器]中显示为[!UICONTROL 报表]名称。请参阅[为请求命名](/help/analyze/report-builder/layout/name-a-request.md)。
 

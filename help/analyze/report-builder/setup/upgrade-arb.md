@@ -1,54 +1,46 @@
 ---
-description: 关于升级 Report Builder 的步骤和注意事项。
-title: 升级 Report Builder
+description: 了解如何升级Report Builder。
+title: 如何升级Report Builder
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 feature: Report Builder
 role: User, Admin
 exl-id: 4ec876e2-bd8e-443e-8faf-135698d635eb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 100%
+source-wordcount: '227'
+ht-degree: 53%
 
 ---
 
 # 升级 Report Builder
 
-关于升级 Report Builder 的步骤和注意事项。
+升级Report Builder时，请牢记以下准则：
 
-## 有关升级的常见问题解答 {#section_AFE40FF5544C418790A1C298C25CC18A}
+* 将删除旧版本。
 
-**问题：升级时，旧版本的 Report Builder 是否会保留？**
+* 所有现有报告将继续工作。
 
-回答：不会，旧版本将被删除。
+* 所有个人设置（包括身份验证设置）将继续工作。
 
-**问题：我是否会丢失现有报表？**
-
-回答：不会，您目前的所有报表都将完好无损。
-
-**问题：我是否需要向新版本重新验证身份？**
-
-回答：不需要，您的所有设置（包括身份验证设置）都将继续有效。
-
-## 升级说明 {#section_73B8110A619549189A30079735E81867}
+升级Report Builder
 
 1. 登录到当前版本的 Report Builder。
 1. 转到&#x200B;**[!UICONTROL 选项]**&#x200B;菜单以升级到最新版本。“选项”对话框底部将显示您当前的版本号。
 
-   ![](assets/upgrade.png)
+   ![显示“选项”对话框以及当前版本和新版本的屏幕截图。](assets/upgrade.png)
 
-1. 如果有新版本可用，请单击&#x200B;**[!UICONTROL 更新...]**。此按钮将显示您要更新到的新版本，例如“更新到版本 5.0.50”
+1. 如果有新版本可用，请单击&#x200B;**[!UICONTROL 更新...]**。按钮将显示您更新到的版本，例如： *更新至版本5.0.50*
 
    >[!NOTE]
    >
    >如果此按钮呈灰显状态，则表示没有新版本的 Report Builder 可供使用。
 
-1. 此外，您也可以选中&#x200B;**[!UICONTROL 在有新版本时进行更新]**&#x200B;复选框。选中后，如果未来有新版本可用，那么更新流程将自动开启。
+1. （可选）选择 **[!UICONTROL 在有新版本时更新]** 复选框。 选中后，如果未来有新版本可用，那么更新流程将自动开启。
 1. 当安装屏幕出现时，单击&#x200B;**[!UICONTROL 下一步 >]**。
 
-   ![](assets/setup.png)
+   ![显示Report Builder设置屏幕的屏幕截图。](assets/setup.png)
 
-1. 升级完成后，请重新登录 Report Builder。
+1. 升级完成后，重新登录Report Builder。
 
 ## 手动升级说明 {#section_27A0200010DC4747A718F1A65B180599}
 

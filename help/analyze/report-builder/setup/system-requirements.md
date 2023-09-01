@@ -1,14 +1,14 @@
 ---
-description: 系统推荐和先决条件。
-title: Report Builder的系统要求
+description: 了解Report Builder的系统建议和先决条件。
+title: 关于Report Builder的系统要求
 uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
 feature: Report Builder
 role: User, Admin
 exl-id: ef11dde4-084d-45b6-a6a3-ca7d3a1f0ff6
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 92%
+source-wordcount: '74'
+ht-degree: 79%
 
 ---
 

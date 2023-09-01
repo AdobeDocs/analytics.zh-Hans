@@ -1,25 +1,27 @@
 ---
-title: Report Builder 中的 Visual Basic 宏
-description: 使用 VBA 扩展 Excel 工作簿和 Report Builder 的功能。
+title: 如何在Report Builder中使用Visual Basic宏
+description: 了解如何使用VBA宏扩展Excel工作簿和Report Builder的功能。
 feature: Report Builder
 role: User, Admin
 exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 100%
+source-wordcount: '194'
+ht-degree: 68%
 
 ---
 
 # Report Builder 中的 Visual Basic 宏
 
-VBA 宏（也称为 Visual Basic 宏），它允许您以单靠 Microsoft Excel 无法实现的方式来操作工作簿。Visual Basic 可以访问工作簿、Excel 甚至是 Windows。
+Visual Basic (VBA)宏提供的功能可帮助您刷新Excel工作簿。 Visual Basic可以访问工作簿、Excel和Windows。
 
-Adobe 支持三种 Report Builder API 方法。请确保安装了最新版本的 Report Builder，并在运行任何宏之前登录。
+运行VBA宏之前，必须运行最新版本的Report Builder并登录。
 
 >[!IMPORTANT]
 >
 >出于安全原因，您不能计划包含宏的工作簿。
+
+Adobe 支持三种 Report Builder API 方法。
 
 ## `RefreshAllReportBuilderRequests()`
 

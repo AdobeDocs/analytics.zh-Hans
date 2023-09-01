@@ -1,14 +1,14 @@
 ---
-description: 上载要共享的 Report Builder Excel 工作簿。
-title: 上载工作簿
+description: 了解如何上传要共享的Report BuilderExcel工作簿。
+title: 如何上载工作簿
 uuid: fe0424ae-7c68-407c-9b75-e7ef53a44a4f
 feature: Report Builder
 role: User, Admin
 exl-id: 2e02d469-13a4-416d-823d-c8693cb0359b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 100%
+source-wordcount: '148'
+ht-degree: 87%
 
 ---
 
