@@ -1,33 +1,33 @@
 ---
-description: 有关Adobe Analytics的一般概述信息，包括有关Analytics界面的信息以及管理员、分析师、用户和开发人员的入门信息。
+description: 有关 Adobe Analytics 的一般概述信息，包括有关 Analytics 界面的信息以及针对管理员、分析师、用户和开发人员的快速入门信息。
 title: 管理员、分析师、最终用户和开发人员快速入门
 feature: Analytics Basics
 source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1901'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # 管理员、分析师、最终用户和开发人员快速入门
 
-典型组织中有4种类型的Adobe Analytics用户：
+典型组织中有 4 种类型的 Adobe Analytics 用户：
 
-* **管理员：** 实施和配置Adobe Analytics。
+* **管理员：**&#x200B;实施和配置 Adobe Analytics。
 
-* **分析员：** 使用Analysis Workspace设置项目并创建分析
+* **分析师：**&#x200B;使用 Analysis Workspace 设置项目和创建分析
 
-* **最终用户：** 通过创建自己的分析或与分析人员合作创建分析，获得关于客户的可操作见解
+* **最终用户：**&#x200B;通过创建自己的分析或与分析师合作创建分析，获得有关其客户的可操作洞察
 
-* **开发人员：** 使用Adobe Analytics 2.0 API直接调用Adobe的服务器以执行几乎可以在用户界面中执行的任何操作，例如创建报表以探索、获取见解或回答有关数据的重要问题。
+* **开发人员：**&#x200B;使用 Adobe Analytics 2.0 API 直接调用 Adobe 的服务器以执行几乎任何可在用户界面中执行的操作，如创建报告以探索、获得洞察或回答有关数据的重要问题。
 
-以下信息概述了每位用户如何开始使用Adobe Analytics。
+以下信息概述了每个用户如何开始使用 Adobe Analytics。
 
 ## 管理员快速入门
 
 Analytics 管理员负责选择最适合其组织的实施方法。
 
-实施 Adobe Analytics 后，管理员需要执行各种配置任务，以确保分析师和最终用户从 Adobe Analytics 中获得全部价值。管理员还应定期监控其Analytics环境，以确保系统高效运行。
+实施 Adobe Analytics 后，管理员需要执行各种配置任务，以确保分析师和最终用户从 Adobe Analytics 中获得全部价值。管理员还应定期监控其 Analytics 环境以确保系统高效运行。
 
 ### 确定应收集的数据类型
 
@@ -76,22 +76,22 @@ Analytics 管理员应先完成以下任务，然后再向组织中的用户提�
 | 管理组件 | 使用“数据字典”和每个组件类型的管理区域来定义哪些组件在您的 Analytics 实施中可用，以及哪些组件已批准供您的组织使用。<p>这应该是一项持续的活动，以确保组件在您的组织中得到有效使用。 </p> | <ul><li>[数据词典概述](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.html?lang=zh-Hans)</li><li>[计算量度管理器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=zh-Hans)</li><li>[管理区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=zh-Hans)</li><li>[创建自定义日期范围](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=zh-Hans)</li></ul> |
 | 异常检测 | “异常检测”提供了一种统计方法来确定给定的量度相对于以前的数据发生了什么变化。 | [异常检测概述](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=zh-Hans) |
 | 贡献分析 | “贡献分析”可揭示数据中隐藏的模式以解释统计数据的异常，并可以跨各受众区段，确定意外客户操作、出界值以及选定量度的突增或突减背后存在的关联。 | [贡献分析概述](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=zh-Hans) |
-| Analytics 分段 | 允许您使用Analytics功能、Adobe Experience Cloud、Adobe Target和其他集成的Adobe产品生成、管理、共享强大而集中的受众区段，并将其应用于您的报表。 | [Analytics 分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hans) |
-| 将受众发布到 Audience Manager | Adobe Audience Manager是一个功能强大的数据管理平台，可帮助您从第一方、第二方（合作伙伴）和第三方数据集成构建独一无二的受众配置文件。 | [Audience Analytics 概述](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=zh-Hans) |
-| 集成 | 您可以在 Adobe Analytics 中显示来自其他应用程序的信息。 <p>以下是一些常见的集成：</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=zh-Hans">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans">媒体分析</a></li> | [Analytics 集成](https://experienceleague.adobe.com/docs/analytics/integration/home.html?lang=en) |
+| Analytics 分段 | 可让您使用各种 Analytics 功能、Adobe Experience Cloud、Adobe Target 和其他集成的 Adobe 产品生成、管理和共享强大而集中的受众区段并将它们应用到您的报表中。 | [Analytics 分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hans) |
+| 将受众发布到 Audience Manager | Adobe Audience Manager 是一个强大的数据管理平台，它帮助您从第一方、第二方（合作伙伴）和第三方的数据集成构建独特的受众个人资料。 | [Audience Analytics 概述](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=zh-Hans) |
+| 集成 | 您可以在 Adobe Analytics 中显示来自其他应用程序的信息。 <p>以下是一些常见的集成：</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=zh-Hans">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans">媒体分析</a></li> | [Analytics 集成](https://experienceleague.adobe.com/docs/analytics/integration/home.html?lang=zh-Hans) |
 
 {style="table-layout:auto"}
 
-### 监控Adobe Analytics
+### 监控 Adobe Analytics
 
-提供各种功能来帮助您监控Adobe Analytics环境。
+提供了多种功能来帮助您监控 Adobe Analytics 环境。
 
-Analytics管理员应该了解以下可用功能，以帮助监控Analytics环境的重要方面：
+Analytics 管理员应了解以下可用于帮助监控 Analytics 环境的重要方面的功能：
 
 | 任务 | 有可能的使用 | 更多信息 |
 |---------|----------|---------|
-| 报表活动管理器 | 通过报表活动管理器，可查看组织中每个报表包的报表容量。它提供了报告消耗情况的详细可见性，并帮助您轻松地诊断和修复在报告高峰期出现的容量问题。 | [报表活动管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=en) |
-| 服务器调用使用情况 | 服务器调用又称为“点击”或“图像请求”，它是一种将数据发送到 Adobe 服务器进行处理的实例。“服务器调用使用情况”功能板可用于跟踪您的服务器调用使用情况数据并将这些数据与您的合同限制进行比较。 您可以设置警报以防止超量。 | [服务器调用使用情况概述](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-call-usage/overage-overview.html?lang=en) |
+| 报告活动管理器 | 通过报告活动管理器，可查看组织中每个报表包的报告容量。它可让您详细了解报告消耗，并帮助您轻松地诊断和修复在报告高峰期出现的容量问题。 | [报告活动管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=zh-Hans) |
+| 服务器调用使用情况 | 服务器调用又称为“点击”或“图像请求”，它是一种将数据发送到 Adobe 服务器进行处理的实例。提供了“服务器调用使用情况”功能板，来跟踪服务器调用使用情况数据，并将其与合同中的使用限制进行比较。可以设置警报以防止超额情况。 | [服务器调用使用情况概述](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-call-usage/overage-overview.html?lang=zh-Hans) |
 | 日志文件 | 日志文件有助于您了解用户登录的时间、用户使用情况、访问情况、报表包，以及管理员执行的更改。 | [日志](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/logs.html?lang=zh-Hans) |
 
 {style="table-layout:auto"}
