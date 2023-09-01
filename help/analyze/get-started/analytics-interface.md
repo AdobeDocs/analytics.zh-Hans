@@ -1,25 +1,25 @@
 ---
-description: 有关Adobe Analytics的一般概述信息，包括有关Analytics界面的信息以及管理员、分析师、用户和开发人员的入门信息。
+description: 有关 Adobe Analytics 的一般概述信息，包括有关 Analytics 界面的信息以及针对管理员、分析师、用户和开发人员的快速入门信息。
 title: 了解 Analytics 界面
 feature: Analytics Basics
 source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2816'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
 # 了解 Analytics 界面
 
-Adobe Analytics界面包含以下关键区域，包括用于管理Analysis Workspace中的项目、管理组件、工具和管理员功能的选项卡。
+Adobe Analytics 界面由以下关键区域组成，包括用于管理 Analysis Workspace 中的项目、管理组件、工具和管理员功能的选项卡。
 
 ![Workspace 选项卡](assets/landing-all2.png)
 
-以下部分介绍了Analysis Workspace的每个区域：
+以下部分描述了 Analysis Workspace 的每个区域：
 
 ## Workspace 选项卡
 
-此 [!UICONTROL 工作区] 选项卡显示 [!UICONTROL 项目] 默认区域，其中显示公司文件夹、您创建的所有个人文件夹、您的项目和移动记分卡。
+默认情况下，[!UICONTROL Workspace] 选项卡显示[!UICONTROL 项目]区域，该区域显示 Company 文件夹、您创建的任何个人文件夹、您的项目和移动记分卡。
 
 1. 在 Adobe Analytics 中，选择 [!UICONTROL **Workspace**] 选项卡。
 
@@ -44,7 +44,7 @@ Adobe Analytics界面包含以下关键区域，包括用于管理Analysis Works
 2. 选择以下任一产品功能进行配置：
 
 
-   | 产品功能 | 函数 | 更多信息 |
+   | 产品功能 | 功能 | 更多信息 |
    |---------|----------|----------|
    | 区段 | Adobe Analytics 允许您使用各种 Analytics 功能、Adobe Experience Cloud、Adobe Target 和其他集成的 Adobe 产品生成、管理和共享强大而集中的受众区段并将它们应用到您的报表中。 | [Analytics 分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hans) |
    | 计算量度 | 计算量度和高级计算（或派生）量度是指您可以从现有量度创建的自定义量度。通过使用这些工具，营销人员、产品经理和分析人员不必更改 Analytics 实施，即可提出有关数据的问题。 | [计算量度和高级计算（派生）量度](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=zh-Hans) |
@@ -75,21 +75,21 @@ Adobe Analytics界面包含以下关键区域，包括用于管理Analysis Works
 
 2. 选择以下任一产品功能进行配置：
 
-   | 产品功能 | 函数 | 更多信息 |
+   | 产品功能 | 功能 | 更多信息 |
    |---------|----------|----------|
    | Data Warehouse | Data Warehouse 指的是用于存储和自定义报表的 Analytics 数据副本，您可以通过筛选数据来运行这些数据 <p>请求管理器允许您查看和复制请求，并重新安排请求的优先级。</p> | [管理 Data Warehouse 请求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=zh-Hans) |
    | Activity Map | Activity Map 专门用于通过可视化叠加图为链接活动排名，并且可以提供实时分析功能板，以监控受众在您网页上的参与度。让您可以设置不同的视图，以此来直观地标识客户活动的增速、量化营销方案，并根据受众的需求和行为采取相应的措施。 | [Activity Map 概述](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=zh-Hans) |
-   | Recommendations Classic | Recommendations是一项Adobe Target功能，可基于以前的用户活动、偏好或其他标准自动显示可能让访客感兴趣的产品、服务或内容。 | [建议](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en) |
+   | Recommendations Classic | Recommendations 是一项 Adobe Target 功能，它根据以前的用户活动、偏好设置或其他标准，自动显示可能让访客感兴趣的产品、服务或内容。 | [Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=zh-Hans) |
    | Search &amp; Promote | 不再支持此功能。 |  |
    | Mobile Services | 不再支持此功能。 |  |
-   | Analytics 仪表板（移动应用程序） | Adobe Analytics功能板应用程序可以随时随地从Adobe Analytics提供分析。 通过该应用程序，用户可以查看您使用Adobe Analytics桌面UI创建的直观记分卡。 | iOS App Store或Google Play商店中的Adobe Analytics功能板应用程序 |
+   | Analytics 功能板（移动应用程序） | Adobe Analytics 功能板应用程序可以随时随地从 Adobe Analytics 提供见解。通过此应用程序，用户可以查看您使用 Adobe Analytics 桌面 UI 创建的直观记分卡。 | iOS App Store 或 Google Play 商店中的 Adobe Analytics 功能板应用程序 |
    | Report Builder | Adobe Report Builder 是 Microsoft Excel 的一个加载项。通过它，可从 Adobe Analytics 数据构建自定义的请求，并可将其插入 Excel 工作表。请求可动态引用工作表中的单元格，并且您可更新和自定义 Report Builder 展示数据的方式。 | [Report Builder 是什么？](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=zh-Hans) |
 
    {style="table-layout:auto"}
 
 ## “管理员”选项卡
 
-管理员选项卡包括用于管理Adobe Analytics的功能和配置选项。
+“管理员”选项卡包含用于管理 Adobe Analytics 的功能和配置选项。
 
 1. 在 Adobe Analytics 中，选择&#x200B;[!UICONTROL **管理员**]&#x200B;选项卡，然后选择&#x200B;[!UICONTROL **所有管理员**]。
 
@@ -97,37 +97,37 @@ Adobe Analytics界面包含以下关键区域，包括用于管理Analysis Works
 
 2. 选择以下任一产品功能进行配置：
 
-   | 产品功能 | 函数 | 更多信息 |
+   | 产品功能 | 功能 | 更多信息 |
    |---------|----------|----------|
-   | Analytics用户和资产 | 虽然大多数用户和产品管理功能现在仅在 [Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)，将资源从一个用户转移到另一个用户以及设置用户帐户到期日期的管理功能只能从Adobe Analytics管理区域使用。 | [转移用户资产或设置帐户有效期](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=en) |
-   | 用户标识迁移 | 通过 Analytics 用户 ID 迁移，管理员可以轻松地将 Analytics“用户管理”中的用户帐户迁移到 Adobe Admin Console。 | [将 Analytics 用户迁移到 Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=zh-Hans) |
-   | 用户管理主页（旧版） | 用户和产品管理已移至 Adobe Admin Console。使用Adobe Admin Console开始管理Adobe Analytics用户的用户权限。 | [Adobe Admin Console 中的 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hans) |
-   | 组（旧版） | 群组管理已移至Adobe Admin Console。 使用Adobe Admin Console开始管理Adobe Analytics的组。 | [Adobe Admin Console 中的 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hans) |
-   | 报表包访问 | 授予对报表包工具的访问权限的方法已移至Adobe Admin Console。 使用Adobe Admin Console授予Adobe Analytics用户访问报表包的权限。 | [报表包工具的产品配置文件权限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html?lang=en) |
-   | 管理工具主页 | Analytics管理工具区域是管理Adobe Analytics实例的主要区域；大多数管理任务都可以在此完成。 | [管理员工具概述](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/c-admin-tools.html?lang=en) |
-   | 报告包 | 用于定义控制如何在报表包中处理数据的规则。 | [报告包管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/report-suites-admin.html?lang=en) |
-   | Analytics用户和资产 | 用户和资源管理已移至Adobe Admin Console。 使用Adobe Admin Console开始管理Adobe Analytics用户的用户权限。 | [Adobe Admin Console 中的 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hans) |
-   | 分类导入器 | 使用导入器将分类上传到 Adobe Analytics。您也可以在导入前导出要更新的数据。 | [分类导入程序概述](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=en) |
-   | 分类规则生成器 | 您无需在每次跟踪代码变更时维护并上载分类，而是可以创建自动、基于规则的分类并将这些分类应用在多个报表包中。 | [分类规则生成器工作流程](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html?lang=en) |
-   | 数据源 | 使用数据源管理器创建、编辑或停用数据源。 您还可以使用此界面跟踪上载到数据源FTP位置的文件的状态。 | [管理数据源](https://experienceleague.adobe.com/docs/analytics/import/data-sources/manage.html?lang=en) |
-   | 代码管理器 | 代码管理器可让您下载适用于Web和移动平台的数据收集代码 | [代码管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=zh-Hans) |
-   | 流量管理 | 使用“流量管理”页面可以指定预期流量的变更。这些设置可让 Adobe 分配适当的资源，确保能够及时跟踪和处理您的流量。 | [流量管理概述](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-management/traffic-management.html?lang=en) |
-   | 服务器调用使用情况 | 服务器调用又称为“点击”或“图像请求”，它是一种将数据发送到 Adobe 服务器进行处理的实例。“服务器调用使用情况”功能板可用于跟踪您的服务器调用使用情况数据并将这些数据与您的合同限制进行比较。 您可以设置警报以防止超量。 | [服务器调用使用情况概述](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-call-usage/overage-overview.html?lang=en) |
+   | Analytics 用户和资源 | 大多数用户和产品管理功能现在只能在 [Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 中使用，将资源从一个用户转移到另一个用户以及设置用户帐户到期日期的管理功能只能从 Adobe Analytics 管理员区域使用。 | [转移用户资源或设置帐户到期日期](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=zh-Hans) |
+   | 用户 ID 迁移 | 通过 Analytics 用户 ID 迁移，管理员可以轻松地将 Analytics User Management 中的用户帐户迁移到 Adobe Admin Console。 | [将 Analytics 用户迁移到 Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=zh-Hans) |
+   | 用户管理主页（旧版） | 用户和产品管理已移至 Adobe Admin Console。可使用 Adobe Admin Console 开始管理 Adobe Analytics 用户的用户权限。 | [Adobe Admin Console 中的 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hans) |
+   | 群组（旧版） | 群组管理已移至 Adobe Admin Console。可使用 Adobe Admin Console 开始管理 Adobe Analytics 的群组。 | [Adobe Admin Console 中的 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hans) |
+   | 报表包访问 | 用于授予对报表包工具的访问权限的方法已移至 Adobe Admin Console。可使用 Adobe Admin Console 向 Adobe Analytics 用户授予报表包访问权限。 | [报表包工具的产品配置文件权限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html?lang=zh-Hans) |
+   | 管理工具主页 | Analytics 管理工具区域是管理 Adobe Analytics 实例的主要区域；可以在此区域完成大多数管理任务。 | [管理工具概述](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/c-admin-tools.html?lang=zh-Hans) |
+   | 报表包 | 可让您定义一些规则来管理报表包中数据的处理方式。 | [报表包管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/report-suites-admin.html?lang=zh-Hans) |
+   | Analytics 用户和资源 | 用户和资源管理已移至 Adobe Admin Console。可使用 Adobe Admin Console 开始管理 Adobe Analytics 用户的用户权限。 | [Adobe Admin Console 中的 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hans) |
+   | 分类导入器 | 使用导入器将分类上传到 Adobe Analytics。您也可以在导入前导出要更新的数据。 | [分类导入器概述](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=zh-Hans) |
+   | 分类规则生成器 | 您无需在每次跟踪代码变更时维护并上载分类，而是可以创建自动、基于规则的分类并将这些分类应用在多个报表包中。 | [分类规则生成器工作流](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html?lang=zh-Hans) |
+   | 数据源 | 可使用数据源管理器创建、编辑或停用数据源。您还可以使用此界面跟踪上传到数据源 FTP 位置的文件的状态。 | [管理数据源](https://experienceleague.adobe.com/docs/analytics/import/data-sources/manage.html?lang=zh-Hans) |
+   | 代码管理器 | 代码管理器可让您下载适用于 Web 和移动平台的数据收集代码 | [代码管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=zh-Hans) |
+   | 流量管理 | 使用“流量管理”页面可以指定预期流量的变更。这些设置可让 Adobe 分配适当的资源，确保能够及时跟踪和处理您的流量。 | [流量管理概述](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-management/traffic-management.html?lang=zh-Hans) |
+   | 服务器调用使用情况 | 服务器调用又称为“点击”或“图像请求”，它是一种将数据发送到 Adobe 服务器进行处理的实例。提供了“服务器调用使用情况”功能板，来跟踪服务器调用使用情况数据，并将其与合同中的使用限制进行比较。可以设置警报以防止超额情况。 | [服务器调用使用情况概述](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-call-usage/overage-overview.html?lang=zh-Hans) |
    | 日志 | 日志文件有助于您了解用户登录的时间、用户使用情况、访问情况、报表包，以及管理员执行的更改。 | [日志](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/logs.html?lang=zh-Hans) |
-   | Advertising Analytics | 配置Adobe Analytics以并排显示您的所有Google和Bing付费搜索数据。 | [配置 Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/advertising-analytics-config.html?lang=en) |
+   | Advertising Analytics | 可配置 Adobe Analytics 以并排显示所有 Google 和 Bing 付费搜索数据。 | [配置 Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/advertising-analytics-config.html?lang=zh-Hans) |
    | 数据馈送 | 数据馈送是从 Adobe Analytics 中获取原始数据的有效方法。此原始数据可在 Adobe 以外的其他平台中使用，具体所用平台由您的组织自行决定。 | [Analytics 数据馈送概述](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=zh-Hans) |
-   | 通过 IP 排除 | 您可以从报表中排除特定 IP 地址的数据，例如，内部网站活动、站点测试和员工使用情况。数据排除能够通过排除 IP 地址数据来提高报表的准确性。此外，还可以删除来自拒绝服务攻击或其他可能影响报表数据准确性的恶意事件的数据。您可以对排除进行配置，也可以使用您的防火墙进行排除。 | [按 IP 地址排除](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=en) |
-   | 发布构件 | 允许您在网页中嵌入Reports &amp; Analytics可视化图表。 <p>自 2023 年 12 月 31 日起，Adobe 决定中断 Reports &amp; Analytics 及其随附的报表和功能。详细了解 Reports &amp; Analytics [生命周期结束公告](https://www.adobe.com/go/analytics_rnaeol_cn)。</p><p>作为此功能的替代方法，您现在可以 [与任何人共享项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans#share-public-link) 无需登录。</p> <p>管理员可以在中配置此功能 [公司偏好设置](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=zh-Hans#company-preferences)</p> |  |
-   | 报表活动管理器 | 通过报表活动管理器，可查看组织中每个报表包的报表容量。它提供了报告消耗情况的详细可见性，并帮助您轻松地诊断和修复在报告高峰期出现的容量问题。 | [报表活动管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=en) |
-   | 数据治理隐私标签 | 为报告包数据设置标签即是向给定报告包中的每个变量分配身份、敏感性和数据管理标签。 | [为报表包数据设置标签](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=en) |
-   | 公司设置主页 | 通过公司设置页面，您可以配置设置并应用于您的组织所管理的所有报表包。 | [公司设置概述](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=zh-Hans) |
-   | 安全管理器 | 通过安全管理器，您可以控制对报表数据的访问。相关选项包括强密码、密码过期时间、IP 登录限制及电子邮件域限制。 | [安全管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/security-manager.html?lang=en) |
-   | 支持信息 | “支持信息”页面可管理在整个Reports &amp; Analytics中显示的支持信息。 Reports &amp; Analytics. <p>自 2023 年 12 月 31 日起，Adobe 决定中断 Reports &amp; Analytics 及其随附的报表和功能。详细了解 Reports &amp; Analytics [生命周期结束公告](https://www.adobe.com/go/analytics_rnaeol_cn)。</p> |  |
-   | Web 服务 | Web 服务 API 可通过编程方式访问市场营销报告及其他“包”服务，从而让您以其他方式使用通过 Analytics 界面提供的功能，以及实现更多功能。 | [Web服务](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/web-services-admin.html?lang=en) |
-   | Report Builder 报表 | 管理分配给 Report Builder 用户的许可证。 | [Report Builder 报表](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/report-builder-reports-admin.html?lang=en) |
-   | 单点登录服务 | Adobe Experience Cloud 中的单点登录是通过 Admin Consol 实施的。 | [Adobe Admin Console 中的 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hans) |
-   | 品牌联合Adobe Experience Cloud | 通过“管理品牌联合图像”页面，您可以在 Reports &amp; Analytics 下载的报表和旧版功能板中显示公司徽标。Analysis Workspace 中不使用品牌联合。<p>自 2023 年 12 月 31 日起，Adobe 决定中断 Reports &amp; Analytics 及其随附的报表和功能。详细了解 Reports &amp; Analytics [生命周期结束公告](https://www.adobe.com/go/analytics_rnaeol_cn)。</p> | [品牌联合](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/co-branding-admin.html?lang=en) |
-   | 隐藏报告包 | 如果您不再希望报表包对您和您的用户可用，可让您在Adobe Analytics用户界面中隐藏报表包。 | [隐藏报表包](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-hide-report-suites.html?lang=en) |  |
+   | 按 IP 排除 | 您可以从报表中排除特定 IP 地址的数据，例如，内部网站活动、站点测试和员工使用情况。数据排除能够通过排除 IP 地址数据来提高报表的准确性。此外，还可以删除来自拒绝服务攻击或其他可能影响报表数据准确性的恶意事件的数据。您可以对排除进行配置，也可以使用您的防火墙进行排除。 | [按 IP 地址排除](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=zh-Hans) |
+   | 发布构件 | 使您可将 Reports &amp; Analytics 可视化效果嵌入在网页中。 <p>自 2023 年 12 月 31 日起，Adobe 决定中断 Reports &amp; Analytics 及其随附的报表和功能。详细了解 Reports &amp; Analytics [生命周期结束公告](https://www.adobe.com/go/analytics_rnaeol_cn)。</p><p>作为此功能的替代方案，您现在无需登录即可[与任何人共享项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans#share-public-link)。</p> <p>管理员可在[公司首选项](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=zh-Hans#company-preferences)中配置此功能</p> |  |
+   | 报告活动管理器 | 通过报告活动管理器，可查看组织中每个报表包的报告容量。它可让您详细了解报告消耗，并帮助您轻松地诊断和修复在报告高峰期出现的容量问题。 | [报告活动管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=zh-Hans) |
+   | 数据治理隐私标签 | 为报表包数据设置标签即是向给定报表包中的每个变量分配身份、敏感性和数据管理标签。 | [为报表包数据设置标签](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=zh-Hans) |
+   | 公司设置主页 | 通过“公司设置”页面，您可以配置设置以将其应用于您的组织所管理的所有报表包。 | [公司设置概述](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=zh-Hans) |
+   | 安全管理器 | 通过安全管理器，您可以控制对报表数据的访问。相关选项包括强密码、密码过期时间、IP 登录限制及电子邮件域限制。 | [安全管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/security-manager.html?lang=zh-Hans) |
+   | 支持信息 | “支持信息”页面管理整个 Reports &amp; Analytics 中显示的支持信息。Reports &amp; Analytics。 <p>自 2023 年 12 月 31 日起，Adobe 决定中断 Reports &amp; Analytics 及其随附的报表和功能。详细了解 Reports &amp; Analytics [生命周期结束公告](https://www.adobe.com/go/analytics_rnaeol_cn)。</p> |  |
+   | Web 服务 | Web 服务 API 可通过编程方式访问市场营销报告及其他“包”服务，从而让您以其他方式使用通过 Analytics 界面提供的功能，以及实现更多功能。 | [Web 服务](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/web-services-admin.html?lang=zh-Hans) |
+   | Report Builder 报表 | 管理分配给 Report Builder 用户的许可证。 | [Report Builder 报表](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/report-builder-reports-admin.html?lang=zh-Hans) |
+   | 单点登录服务 | Adobe Experience Cloud 中的单点登录是通过 Admin Console 实施的。 | [Adobe Admin Console 中的 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hans) |
+   | 品牌联合 Adobe Experience Cloud | 通过“管理品牌联合图像”页面，您可以在 Reports &amp; Analytics 下载的报表和旧版功能板中显示公司徽标。Analysis Workspace 中不使用品牌联合。<p>自 2023 年 12 月 31 日起，Adobe 决定中断 Reports &amp; Analytics 及其随附的报表和功能。详细了解 Reports &amp; Analytics [生命周期结束公告](https://www.adobe.com/go/analytics_rnaeol_cn)。</p> | [品牌联合](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/co-branding-admin.html?lang=zh-Hans) |
+   | 隐藏报表包 | 可让您在不再希望报表包对您和您的用户可用时，在 Adobe Analytics 用户界面中隐藏报表包。 | [隐藏报表包](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-hide-report-suites.html?lang=zh-Hans) |  |
 
    {style="table-layout:auto"}
 
@@ -135,9 +135,9 @@ Adobe Analytics界面包含以下关键区域，包括用于管理Analysis Works
 
 利用 Analysis Workspace，可以快速生成分析以收集见解，然后与其他人共享这些见解。可以使用拖放浏览器界面进行分析、添加可视化图表以便直观地呈现数据、梳理数据集以及与您选定的任何人员共享和安排项目。
 
-下图及随附的表解释了Analysis Workspace中的一些主要方面。
+下面的图像和附表解释了 Analysis Workspace 中的一些主要区域。
 
-有关Analysis Workspace的更多详细概述，请参阅 [Analysis Workspace概述](/help/analyze/analysis-workspace/home.md).
+有关 Analysis Workspace 的更详细概述，请参阅 [Analysis Workspace 概述](/help/analyze/analysis-workspace/home.md)。
 
 ![Analysis Workspace 概述](assets/analysis-workspace-overvew.png)
 
