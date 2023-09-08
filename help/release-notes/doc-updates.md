@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 6681eedee327a5bb9cbfcb8ccf00ac32628f5a1f
+source-git-commit: ebec057aea182a7c036c105c44d163155809bfd9
 workflow-type: tm+mt
-source-wordcount: '4991'
-ht-degree: 100%
+source-wordcount: '5089'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,9 @@ ht-degree: 100%
 
 | 功能 | 描述 |
 | --- | --- |
+| **2023 年 9 月** | |
+| 入门内容增强 | 添加了有关管理员、分析员、最终用户和开发人员的主要入门任务和资源的信息。 以下新文章现已发布： <ul><li>[快速入门（按角色）](/help/analyze/get-started/get-started-by-role.md)</li><li>[了解 Analytics 界面](/help/analyze/get-started/analytics-interface.md)<li>[用例](/help/analyze/get-started/use-cases.md)</li></ul> |
+| 对Media Analytics报告文档的改进 | 重新组织了流媒体指南报表部分中的一些内容，包括将API文档合并到其自己的部分并调整了一些文章的顺序。 <p>已将“媒体工作区模板”文章重命名为 [工作区中的媒体报表](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=zh-Hans) 以便更好地与产品内命名保持一致。 </p> |
 | **2023 年 8 月** | |
 | 数据馈送说明 | 更新了[开始日期和结束日期的定义](/help/export/analytics-data-feed/create-feed.md)以说明在处理历史数据的数据馈送时，可将开始日期设置为任何过去收集数据时的日期。 |
 | Experience Edge 数据处理 | 添加了有关 Adobe Analytics 如何[处理来自 Experience Edge 的数据](../implement/aep-edge/overview.md)的内容。 |
