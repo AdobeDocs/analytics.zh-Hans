@@ -2,10 +2,10 @@
 description: 描述如何创建 Data Warehouse 请求的步骤。
 title: 为Data Warehouse请求配置报表目标
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 5ed0c4b8cb4b1a50cf25df1459faecadcc19ea29
 workflow-type: tm+mt
-source-wordcount: '1714'
-ht-degree: 8%
+source-wordcount: '2084'
+ht-degree: 16%
 
 ---
 
@@ -59,13 +59,13 @@ ht-degree: 8%
 
       | 字段 | 功能 |
       |---------|----------|
-      | [!UICONTROL **帐户类型**] | 选择您的云帐户类型。 我们建议为每个帐户类型拥有一个帐户，并根据需要在该帐户中放置多个位置。 <p>选择帐户类型后，将会显示特定于该帐户类型的字段。 有关每种帐户类型的配置说明，请展开下面与您选择的对应的部分。 </p> |
+      | [!UICONTROL **帐户类型**] | 选择您的云帐户类型。 我们建议为每个帐户类型拥有一个帐户，并根据需要在该帐户中放置多个位置。 <p>选择帐户类型后，将会显示特定于该帐户类型的字段。 </p> |
       | [!UICONTROL **帐户名称**] | 指定帐户的名称。 创建位置时将显示此名称。 <!-- true? --> |
       | [!UICONTROL **帐户描述**] | 提供帐户的简短描述，以帮助将其与同一帐户类型的其他帐户区分开来。 |
 
       有关配置说明，请展开以下对应于 [!UICONTROL **帐户类型**] 你选择的。
 
-      配置报表目标时，请使用以下任一帐户类型。 有关配置说明，请展开帐户类型。 (其他旧版目标 <!-- add link --> 也可用，但不推荐。)
+      配置报表目标时，请使用以下任一帐户类型。 有关配置说明，请展开帐户类型。 (其他 [旧目标](#legacy-destinations) 也可用，但不推荐。)
 
       +++Amazon S3
 
@@ -134,7 +134,7 @@ ht-degree: 8%
 
    1. 在 [!UICONTROL **位置属性**] 部分，指定特定于您的位置帐户的帐户类型的信息。
 
-      有关配置说明，请展开下面与您之前选择的帐户类型对应的部分。
+      有关配置说明，请展开以下对应于 [!UICONTROL **帐户类型**] 您之前选择的内容。
 
       +++Amazon S3
 
@@ -194,3 +194,67 @@ ht-degree: 8%
       您现在可以将数据导入到您配置的帐户和位置。
 
 1. 继续在上配置您的Data Warehouse请求 [!UICONTROL **报表选项**] 选项卡。 有关更多信息，请参阅 [为Data Warehouse请求配置报表选项](/help/export/data-warehouse/create-request/dw-request-report-options.md).
+
+## 旧版目标
+
+>[!IMPORTANT]
+>
+>此部分介绍的目标是旧版目标，不建议使用。 因此，在创建数据仓库目标时，请使用以下目标之一： Amazon S3、Google Cloud Platform、Azure RBAC、Azure SAS或电子邮件。 有关每个推荐目标的详细信息，请参阅以上信息。
+
+以下信息提供了每个旧版目标的配置信息：
+
+### FTP
+
+Data Warehouse数据可以传送到Adobe或客户托管的FTP位置。 需要 FTP 主机、用户名和密码。可使用路径字段将馈送文件放置在文件夹中。文件夹必须已存在；如果指定的路径不存在，则馈送将引发错误。
+
+填写可用字段时，请使用以下信息：
+
+* [!UICONTROL **主机**]：输入所需的FTP目标URL。 例如：`ftp://ftp.omniture.com`。
+* [!UICONTROL **路径**]：可留空
+* [!UICONTROL **用户名**]：输入用户名以登录到FTP站点。
+* [!UICONTROL **密码和确认密码**]：输入登录FTP站点的密码。
+
+### SFTP
+
+提供了对Data Warehouse的SFTP支持。 需要 SFTP 主机、用户名，以及包含有效 RSA 或 DSA 公钥的目标站点。创建数据仓库目标时，您可以下载相应的公钥。
+
+### S3
+
+您可以将仓库数据直接发送到Amazon S3存储段。 此目标类型需要存储段名称、访问密钥 ID 和密钥。有关详细信息，请参阅 Amazon S3 文档中的 [Amazon S3 存储段命名要求](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)。
+
+您为上传Data Warehouse数据提供的用户必须具备以下条件 [权限](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html)：
+
+* s3:GetObject
+* s3:PutObject
+* s3:PutObjectAcl
+
+以下 16 个标准 AWS 区域（在必要时使用适当的签名算法）受支持：
+
+* us-east-2
+* us-east-1
+* us-west-1
+* us-west-2
+* ap-south-1
+* ap-northeast-2
+* ap-southeast-1
+* ap-southeast-2
+* ap-northeast-1
+* ca-central-1
+* eu-central-1
+* eu-west-1
+* eu-west-2
+* eu-west-3
+* eu-north-1
+* sa-east-1
+
+>[!NOTE]
+>
+>不支持 cn-north-1 区域。
+
+### Azure Blob
+
+数据仓库支持Azure Blob目标。 需要容器、帐户和密钥。Amazon 会自动加密静态数据。当您下载数据时，数据会自动解密。有关详细信息，请参阅 Microsoft Azure 文档中的[创建存储帐户](https://docs.microsoft.com/zh-cn/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)。
+
+>[!NOTE]
+>
+>您必须实施自己的流程来管理数据仓库目标上的磁盘空间。 Adobe 不会从服务器中删除任何数据。

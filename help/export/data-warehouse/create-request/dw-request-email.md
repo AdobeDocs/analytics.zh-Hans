@@ -2,7 +2,7 @@
 description: 描述如何创建 Data Warehouse 请求的步骤。
 title: 为Data Warehouse请求配置报表选项
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 15%
@@ -37,8 +37,8 @@ ht-degree: 15%
 
    | 选项 | 函数 |
    |---------|----------|
-   | 将通知电子邮件发送到 | 指定发送报告时应接收电子邮件通知的人员的电子邮件地址。 <p>您可以指定单个电子邮件地址或以逗号分隔的电子邮件地址列表。</p> |
-   | 高级选项 | 选择此选项可在发送通知时包含电子邮件的主题和注释。 |
+   | [!UICONTROL **将通知电子邮件发送到**] | 指定发送报告时应接收电子邮件通知的人员的电子邮件地址。 <p>您可以指定单个电子邮件地址或以逗号分隔的电子邮件地址列表。</p> |
+   | [!UICONTROL **高级选项**] | 选择此选项可在发送通知时包含电子邮件的主题和注释。 |
 
    {style="table-layout:auto"}
 

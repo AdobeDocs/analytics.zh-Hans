@@ -2,9 +2,9 @@
 description: 描述如何创建 Data Warehouse 请求的步骤。
 title: 为Data Warehouse请求配置报表目标
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '375'
 ht-degree: 15%
 
 ---
@@ -37,16 +37,12 @@ ht-degree: 15%
 
    | 选项 | 函数 |
    |---------|----------|
-   | 立即发送报告 | 将报表作为一次性报表发送。 选择此选项时，将隐藏所有计划选项。 |
-   | 稍后计划 | 提供用于计划报表提交的选项。 所有选项如下所述。 |
-   | 报告频率 | 提交报表的频率。 <p>可以使用以下选项：</p><ul><li>每小时</li><p>[!UICONTROL **每小时**] 仅在 [!UICONTROL **日期范围**] 上的选项 [!UICONTROL **常规设置**] 选项卡设置为 [!UICONTROL **上一小时**].</p><li>每日</li><li>每周</li><li>每月</li><li>每年</li></ul>  <!-- Is this valid? Was in the old docs: "To schedule Data Warehouse requests for Daily, Weekly, Monthly, or Yearly, make sure *Preset* is correctly selected" --> |
-   | 每月重复 | 发送报告时间隔的月份。 |
-   | 一月的某天 | 每月发送报告的日期。<p>当此选项可用时， [!UICONTROL **月中周**] 和 [!UICONTROL **星期几**] 选项则否。 选择 [!UICONTROL **替代格式**] 按钮来回切换。 </p> |
-   | 月中的第几周 | 每月应发送报告的周。 <p>可以使用以下选项：</p><ul><li>首次</li><li>秒</li><li>第三个</li><li>第四个</li><p>在第4周发送报告，即使是在有5周的月份中发送。 选择 [!UICONTROL **最后一个**] 如果您希望在每个月的最后一周发送报告。</p><li>最后</li></ul><p>当此选项可用时， [!UICONTROL **日期**] 选项不是。 选择 [!UICONTROL **替代格式**] 按钮来回切换。 </p> |
-   | 星期 | 应在一周中发送报告的日期。 <p>当此选项可用时， [!UICONTROL **日期**] 选项不是。 选择 [!UICONTROL **替代格式**] 按钮来回切换。 </p> |
-   | 开始日期 | 新计划应该开始的日期。 |
-   | 一天中的时间 | 一天中应发送报告的时间。 |
-   | 结束投放选项 | 选择结束计划交货的时间。 您可以选择从不结束、在特定次发生次数后结束或在特定日期结束。 |
+   | [!UICONTROL **立即发送报告**] | 将报表作为一次性报表发送。 选择此选项时，将隐藏所有计划选项。 |
+   | [!UICONTROL **稍后计划**] | 提供用于计划报表提交的选项。 所有选项如下所述。 |
+   | [!UICONTROL **报告频率**] | 提交报表的频率。 <p>可以使用以下选项：</p><ul><li>每小时</li><p>[!UICONTROL **每小时**] 仅在 [!UICONTROL **日期范围**] 上的选项 [!UICONTROL **常规设置**] 选项卡设置为 [!UICONTROL **上一小时**].</p><li>每日</li><li>每周</li><li>每月</li><li>每年</li></ul><p>根据您选择的频率，将显示其他选项。</p> |
+   | [!UICONTROL **开始日期**] | 新计划应该开始的日期。 |
+   | [!UICONTROL **一天中的时间**] | 一天中应发送报告的时间。 |
+   | [!UICONTROL **结束投放选项**] | 选择结束计划交货的时间。 您可以选择从不结束、在特定次发生次数后结束或在特定日期结束。 |
 
    {style="table-layout:auto"}
 
