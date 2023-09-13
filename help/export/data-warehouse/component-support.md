@@ -3,32 +3,32 @@ title: Data Warehouse 中的组件支持
 description: 了解 Data Warehouse 中有哪些其他维度和指标可用以及不支持哪些维度和指标。
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 3af2cca02675e424b3f704a95d46de92886a88d8
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 100%
+source-wordcount: '381'
+ht-degree: 65%
 
 ---
 
 # Data Warehouse 中的组件支持
 
-Data Warehouse 的独特处理架构，可支持某些通常情况下在 Adobe Analytics 的其他功能中不可用的组件。由于其独特的架构，某些组件无法用于报表或区段。使用此页面可了解哪些组件可以使用，哪些组件不可使用。
+Data Warehouse架构中的独特处理允许使用某些在Adobe Analytics的其他功能中通常不可用的组件。 由于其独特的架构，某些组件无法用于报表或区段。使用此页面可了解哪些组件可以使用，哪些组件不可使用。
 
 ## Data Warehouse 的特有组件
 
-某些维度和指标在 Data Warehouse 中可用，但无法用于 Adobe Analytics 中的其他功能。
+在Adobe Analytics中使用其他功能时，某些可在Data Warehouse中使用的维度和量度不可用。
 
 ### 专门支持的维度
 
-* Experience Cloud ID：对于使用 Experience Cloud ID 服务 (ECID) 的实施，由两个 64 位数字拼接而成的 128 位数字，占据了 19 位数。
-* 页面 URL：点击发生的页面 URL。
-* 购买 ID：购买的唯一标识符，使用 purchaseID 变量设置。
-* 访客 ID：提供访客的唯一标识符。此值与数据馈送中的 `visid_high` 和 `visid_low` 列的拼接值相同。有关更多信息，请参阅“数据馈送”下的[数据列引用](../analytics-data-feed/c-df-contents/datafeeds-reference.md)。
+* **EXPERIENCE CLOUDID**：对于使用Experience CloudID服务(ECID)的实施，由两个64位数字拼接而成的128位数字，占据了19位数。
+* **页面URL**：点击发生的页面URL。
+* **购买ID**：购买的唯一标识符，使用purchaseID变量设置。
+* **访客ID**：提供访客的唯一标识符。 此值与数据馈送中的 `visid_high` 和 `visid_low` 列的拼接值相同。有关更多信息，请参阅“数据馈送”下的[数据列引用](../analytics-data-feed/c-df-contents/datafeeds-reference.md)。
 
 ### 专门支持的指标
 
-* 访问次数：在 Data Warehouse 上下文中，此指标不包括非永久性 Cookie 访问。
-* 访问 — 所有访客数：在 Data Warehouse 上下文中，此指标与 Adobe Analytics 内其他工具中的“访问次数”指标更接近。
+* **访问**：在Data Warehouse上下文中，此指标不包括非永久性Cookie访问。
+* **访问数 — 所有访客**：在Data Warehouse上下文中，此指标与Adobe Analytics内其他工具中的“访问次数”指标更接近。
 
 ## Data Warehouse 中不支持的组件
 

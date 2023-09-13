@@ -3,26 +3,15 @@ description: Data Warehouse 能够以表格数据提取 (TDE) 文件格式提交
 title: 表格数据文件
 feature: Data Warehouse
 exl-id: c9973eb6-9ca2-4a8d-94b0-4c7c9c70ab26
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 4243f10376e5e33c1d9bd439042b396bd4747f1f
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 100%
+source-wordcount: '98'
+ht-degree: 42%
 
 ---
 
-# 表格数据文件
+# 为Tableau配置Data Warehouse报告
 
-Data Warehouse 能够以表格数据提取 (TDE) 文件格式提交报表，通过该格式不仅可以查看 Adobe Analytics 外部的数据，还可以查看数据和层。您可以通过电子邮件发送此信息，也可以将此信息通过 FTP 发送到 FTP 站点。
+Data Warehouse可以提供Tableau数据提取(TDE)文件格式的报告，该数据提取可用于在Tableau中可视化附加数据的数据和层。
 
-请参阅[表格和 Adobe Analytics](https://www.tableausoftware.com/about/blog/2014/3/tableau-and-adobe-analytics-digital-marketing-gets-even-more-awesome-29491)，以了解更多详细信息。
-
-1. 在“Data Warehouse 请求”选项卡上，设置您的报表定义，然后转到&#x200B;**[!UICONTROL 计划提交]** > **[!UICONTROL 高级提交选项]**。
-1. 在&#x200B;**[!UICONTROL 高级提交选项]**&#x200B;页面的&#x200B;**[!UICONTROL 报表格式]**&#x200B;下，选择&#x200B;**[!UICONTROL 表格格式 (TDE)]**。
-1. 选择是否将此报表作为压缩文件发送。
-1. 通过电子邮件或 FTP 发送报表。
-
-1. 转到&#x200B;**[!UICONTROL 计划提交]** > **[!UICONTROL 高级提交选项]**。
-1. 在&#x200B;**[!UICONTROL 报表目标]**&#x200B;下，选择 **[!UICONTROL FTP]**。
-1. 填写&#x200B;**[!UICONTROL 主机]**、**[!UICONTROL 目录]**、**[!UICONTROL 用户名]**&#x200B;和&#x200B;**[!UICONTROL 密码]**。
-
-   默认端口号为 21。1. 单击&#x200B;**[!UICONTROL 发送]**。
+有关如何配置以TDE格式传送的Data Warehouse报表的信息，请参阅 [为Data Warehouse请求配置报表选项](/help/export/data-warehouse/create-request/dw-request-report-options.md).

@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 导出指南
 breadcrumb-title: 导出指南
 user-guide-description: 了解如何使用数据馈送导出原始数据以及使用 Data Warehouse 检索数据的电子表格输出形式。了解如何使用 FTP 和 SFTP 传输文件。
-source-git-commit: 78ec6e91e64791d2f8a5386518d3d64403b2170a
-workflow-type: ht
-source-wordcount: '295'
+source-git-commit: a38ee68a1560200e55067ef0ea007f69ce8b575e
+workflow-type: tm+mt
+source-wordcount: '309'
 ht-degree: 100%
 
 ---
@@ -36,11 +36,17 @@ ht-degree: 100%
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse 概述](data-warehouse/data-warehouse.md)
    + [添加 Data Warehouse 用户组](data-warehouse/t-dw-group.md)
-   + [创建 Data Warehouse 请求](data-warehouse/t-dw-create-request.md)
+   + 创建 Data Warehouse 请求 {#dw-create-request}
+      + [创建 Data Warehouse 请求](/help/export/data-warehouse/create-request/t-dw-create-request.md)
+      + [常规设置](/help/export/data-warehouse/create-request/dw-general-settings.md)
+      + [构建您的报告](/help/export/data-warehouse/create-request/dw-request-build-report.md)
+      + [报表目标](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+      + [报表选项](/help/export/data-warehouse/create-request/dw-request-report-options.md)
+      + [计划选项](/help/export/data-warehouse/create-request/dw-request-scheduling.md)
+      + [通知电子邮件](/help/export/data-warehouse/create-request/dw-request-email.md)
    + [请求发送时间](data-warehouse/delivery-time.md)
    + [表格数据文件](data-warehouse/t-tableau.md)
    + [按量度排序](data-warehouse/sorting-by-metric.md)
-   + [计划周期性请求](data-warehouse/dw-schedule-recurring.md)
    + [管理 Data Warehouse 请求](data-warehouse/data-warehouse-requests-manage.md)
    + [Data Warehouse 中支持的组件](data-warehouse/component-support.md)
    + [Data Warehouse 常见问题解答](data-warehouse/faq.md)
