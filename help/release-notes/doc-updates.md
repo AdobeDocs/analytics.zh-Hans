@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ebec057aea182a7c036c105c44d163155809bfd9
-workflow-type: ht
-source-wordcount: '5089'
-ht-degree: 100%
+source-git-commit: a916afbc15514430cd13673bb642ebc720664e35
+workflow-type: tm+mt
+source-wordcount: '5136'
+ht-degree: 99%
 
 ---
 
@@ -26,12 +26,13 @@ ht-degree: 100%
 | 功能 | 描述 |
 | --- | --- |
 | **2023 年 9 月** | |
+| 更新了“媒体播放耗时”面板的文章结构 | 删除了名为“Media Playback Time Spent”（媒体播放耗时）的文件夹，并将该文件夹的内容合并为一篇文章： [“Media Playback耗时”面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>此更改与其他面板的文档更加一致。</p> |
 | 快速入门内容改善 | 增加了信息来概述管理员、分析师、最终用户和开发人员的重要快速入门任务和资源。以下新文章现已可用： <ul><li>[快速入门（按角色）](/help/analyze/get-started/get-started-by-role.md)</li><li>[了解 Analytics 界面](/help/analyze/get-started/analytics-interface.md)<li>[用例](/help/analyze/get-started/use-cases.md)</li></ul> |
 | 媒体分析报告文档改进 | 重新整理了流媒体指南的“报告”部分中的一些内容，包括将 API 文档并入其自己的部分中并调整了一些文章的顺序。 <p>已将媒体工作区模板文章重命名为 [Workspace 中的媒体报告](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=zh-Hans)，更好地与产品内命名保持一致。 </p> |
 | **2023 年 8 月** | |
 | 数据馈送说明 | 更新了[开始日期和结束日期的定义](/help/export/analytics-data-feed/create-feed.md)以说明在处理历史数据的数据馈送时，可将开始日期设置为任何过去收集数据时的日期。 |
 | Experience Edge 数据处理 | 添加了有关 Adobe Analytics 如何[处理来自 Experience Edge 的数据](../implement/aep-edge/overview.md)的内容。 |
-| “媒体播放耗时”面板 | 更新了[“媒体播放耗时”面板](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)的内容以提高可读性。 |
+| “媒体播放耗时”面板 | 更新了[“媒体播放耗时”面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)的内容以提高可读性。 |
 | 移动了关于管理计划项目的内容 | 在《Analytics 组件指南》中创建了一篇名为[计划项目](/help/components/scheduled-projects-manager.md)的新文章。此内容以前位于《Analytics 工具指南》中的[计划项目](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)一文中。 |
 | 比较实施方法 | 更新了比较不同实施方法的文档。[了解详情](../implement/prepare/comparison.md) |
 | 阐明为数据馈送配置 SFTP 不需要 Adob&#x200B;e 客户服务 | 在[将 Adobe 数据发送到 SFTP 的外部 FTP 帐户](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)中说明，客户无需联系 Adobe 客户服务，即可为数据馈送配置 SFTP。 <p>还添加了一条注释，即不再建议使用 SFTP，并且客户在配置数据馈送时应使用云目标。</p> |
