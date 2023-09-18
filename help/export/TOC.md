@@ -5,7 +5,7 @@ user-guide-title: Analytics 导出指南
 breadcrumb-title: 导出指南
 user-guide-description: 了解如何使用数据馈送导出原始数据以及使用 Data Warehouse 检索数据的电子表格输出形式。了解如何使用 FTP 和 SFTP 传输文件。
 source-git-commit: a38ee68a1560200e55067ef0ea007f69ce8b575e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '309'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ ht-degree: 100%
    + 创建 Data Warehouse 请求 {#dw-create-request}
       + [创建 Data Warehouse 请求](/help/export/data-warehouse/create-request/t-dw-create-request.md)
       + [常规设置](/help/export/data-warehouse/create-request/dw-general-settings.md)
-      + [构建您的报告](/help/export/data-warehouse/create-request/dw-request-build-report.md)
+      + [生成您的报告](/help/export/data-warehouse/create-request/dw-request-build-report.md)
       + [报表目标](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
       + [报表选项](/help/export/data-warehouse/create-request/dw-request-report-options.md)
       + [计划选项](/help/export/data-warehouse/create-request/dw-request-scheduling.md)
