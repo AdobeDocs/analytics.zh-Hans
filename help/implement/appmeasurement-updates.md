@@ -3,10 +3,10 @@ title: AppMeasurement for JavaScript 发行说明
 description: AppMeasurement for JavaScript 的发行说明汇总。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 40d7224ade5a2eb3eda68025671a2dab192eaa83
+source-git-commit: b99717f4b7fe23172c5a9b3adaa92341cdcc5e44
 workflow-type: tm+mt
-source-wordcount: '2414'
-ht-degree: 95%
+source-wordcount: '2399'
+ht-degree: 92%
 
 ---
 
@@ -22,14 +22,14 @@ AppMeasurement for JavaScript 的发行说明汇总。
 
 发布日期：**2023 年 9 月 12 日**
 
-* 添加了可选配置(`bufferRequests`)，以便在浏览器可能不支持信标API或在页面卸载时取消请求的情况下，提高捕获请求的可靠性。
+* 添加了可选方法 [`bufferRequests()`](vars/functions/bufferrequests.md) 用于在浏览器不支持信标API或页面卸载时取消请求时提高捕获请求的可靠性。
 * 添加了保护功能，以防止对单个跟踪请求进行多个跟踪后回调。
 
 ## 版本 2.24.0
 
 发行日期：**2023 年 7 月 18 日**
 
-* 添加了可选配置(`decodeLinkParameters`  — 默认值= false)，用于对包含双字节编码字符的链接URL进行解码。
+* 添加了可选配置变量 [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) 用于对包含双字节编码字符的链接URL进行解码。
 * 为具有错误的高熵用户代理客户端提示API的浏览器添加了其他错误处理。
 * 更改了要使用的POST内容类型标头 `x-www-form-urlencoded` 默认情况下。
 
@@ -37,25 +37,25 @@ AppMeasurement for JavaScript 的发行说明汇总。
 
 发布日期：**2022 年 9 月 23 日**
 
-* AppMeasurement 现在支持收集 Chromium 浏览器（Google Chrome 和 Microsoft Edge）用来提供设备信息的高熵用户代理客户端提示。您可以通过 Tags 配置客户端提示或使用“collectHighEntropyUserAgentHints”标志。默认情况下，高熵提示的收集是关闭的。详细了解 User-Agent [客户端提示](/help/technotes/client-hints.md)。
+* AppMeasurement 现在支持收集 Chromium 浏览器（Google Chrome 和 Microsoft Edge）用来提供设备信息的高熵用户代理客户端提示。您可以通过标记配置客户端提示或使用 [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md) 配置变量。 默认情况下，将禁用高熵提示的收集。 详细了解 User-Agent [客户端提示](/help/technotes/client-hints.md)。
 
 ## 版本 2.22.4
 
 发行日期：**2022 年 1 月 18 日**
 
-* 链接跟踪调用 `s.tl()` 现在验证传递给它的对象是否包含 `string` 类型的 `href` 属性。如果它不是 `string`，则它将正常地忽略 `href` 属性而非运行失败。将 `svg` 对象传递给链接跟踪调用时可能会发生此情况。
+* 链接跟踪调用 `s.tl()` 现在验证传递给它的对象是否包含 `string` 类型的 `href` 属性。如果它不是 `string`，则会正常地忽略 `href` 属性而不是失败。 当您通过时，可能会发生这种情况 `svg` 对象进行链接跟踪调用。
 
 ## 版本 2.22.3
 
 发行日期：**2021 年 10 月 11 日**
 
-* 更新了引用帮助文档以指向当前帮助位置的文件。
+* 更新了文件中指向文档的链接。
 
 ## 版本 2.22.2
 
 发行日期：**2021 年 9 月 7 日**
 
-* 此更新促使在跟踪链接时始终包含 `opt.dmp` 和 `opt.sell`。下面是[同意变量的完整列表](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=zh-Hans)。
+* 此更新促使在跟踪链接时始终包含 `opt.dmp` 和 `opt.sell`。请参阅 [隐私报表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) 有关更多信息，请参阅管理员用户指南。
 
 ## 版本 2.22.1
 

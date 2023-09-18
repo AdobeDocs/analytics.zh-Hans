@@ -3,10 +3,10 @@ title: registerPreTrackCallback
 description: 在将点击发送到 Adobe 之前创建回调函数。
 feature: Variables
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 12d35a0f503ef79eabd55c169d9642c049542798
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 61%
+source-wordcount: '426'
+ht-degree: 54%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 61%
 
 >[!WARNING]
 >
->在 [`registerPostTrackCallback`](registerposttrackcallback.md) 变量内请勿调用任何跟踪调用，如 [`t()`](t-method.md) 或 [`tl()`](tl-method.md)。此变量中的跟踪函数可能会导致图像请求无限循环！
+>不进行任何跟踪调用，例如 [`t()`](t-method.md) 或 [`tl()`](tl-method.md) 内部 `registerPreTrackCallback` 变量。 在此变量中设置跟踪调用会导致图像请求无限循环！
 
 每次调用 `registerPreTrackCallback` 变量时，您都会挂接该函数以在每次编译图像请求 URL 时运行。避免在同一页面加载过程中多次注册同一函数。
 
@@ -26,17 +26,17 @@ ht-degree: 61%
 
 ## 使用Web SDK扩展预跟踪回调
 
-Web SDK无法在编译数据之后但在将数据发送到Adobe之前挂接函数。 但是，您可以使用 `onBeforeEventSend` 注册一个函数，以便在发送数据之前执行。
+Web SDK无法在编译数据后但在将数据发送到Adobe之前挂接函数。 但是，您可以使用 `onBeforeEventSend` 注册一个函数以在发送数据之前执行。
 
-1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection?lang=zh-Hans)。
+1. 登录到 [Adobe Experience Platform数据收集](https://experience.adobe.com/data-collection) UI使用您的AdobeID凭据。
 1. 单击所需的标记属性。
 1. 转到 [!UICONTROL 扩展] 选项卡，然后单击 **[!UICONTROL 配置]** 按钮位于 [!UICONTROL Adobe Experience Platform Web SDK].
-1. 下 [!UICONTROL 数据收集]，单击 **[!UICONTROL 在事件发送回调代码之前编辑]** 按钮。
-1. 将所需的代码放入编辑器中。
+1. 下 [!UICONTROL 数据收集]，单击 **[!UICONTROL 编辑在事件发送回调代码之前]** 按钮。
+1. 将所需的代码置于编辑器中。
 
 ## 手动实施Web SDK的预跟踪回调
 
-Web SDK无法在编译数据之后但在将数据发送到Adobe之前挂接函数。 但是，您可以使用 `onBeforeEventSend` 注册一个函数以在发送数据之前执行，类似于 `doPlugins`. 参见 [全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 有关更多信息，请参阅Web SDK文档。
+Web SDK无法在编译数据后但在将数据发送到Adobe之前挂接函数。 但是，您可以使用 `onBeforeEventSend` 在发送数据之前注册要执行的函数，类似于 `doPlugins`. 请参阅 [全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 有关更多信息，请参阅Web SDK文档。
 
 ```js
 // Set the trackingCode XDM field to "New value"

@@ -3,10 +3,10 @@ title: registerPostTrackCallback
 description: 在向 Adobe 发送点击后创建回调函数。
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 12d35a0f503ef79eabd55c169d9642c049542798
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 79%
+ht-degree: 72%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 79%
 
 >[!WARNING]
 >
-> 在 [`t()`](t-method.md) 变量内请勿调用任何跟踪函数，如 [`tl()`](tl-method.md) 或 `registerPostTrackCallback`。此变量中的跟踪函数可能会导致图像请求无限循环！
+>不进行任何跟踪调用，例如 [`t()`](t-method.md) 或 [`tl()`](tl-method.md) 内部 `registerPostTrackCallback` 变量。 在此变量中设置跟踪调用会导致图像请求无限循环！
 
 每次调用 `registerPostTrackCallback` 变量时，您都会挂接该函数以使其在成功发送图像请求后立即运行。避免在同一页面加载过程中多次注册同一函数。
 
@@ -40,9 +40,9 @@ alloy("sendEvent",{
 });
 ```
 
-参见 [处理来自事件的响应](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) 有关更多信息，请参阅Web SDK文档。
+请参阅 [处理来自事件的响应](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) 有关更多信息，请参阅Web SDK文档。
 
-## 使用Adobe Analytics扩展注册跟踪后回调
+## 使用Adobe Analytics扩展注册后跟踪回调
 
 Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照 AppMeasurement 语法使用自定义代码编辑器。
 
@@ -73,7 +73,7 @@ s.registerPostTrackCallback(function(requestUrl,a,b,c) {
 }, "param1", "param2", "param3");
 ```
 
-## 用例示例
+## 用例
 
 在后跟踪回调中注册该 [`clearVars()`](clearvars.md) 函数对单页应用程序可能很有益处。每次您将点击成功发送到 Adobe 时，`clearVars()` 函数都会运行。然后，您的实施可以再次定义变量，而不必担心会错误地保留值。
 
