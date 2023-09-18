@@ -4,7 +4,7 @@ description: 如何在 Analysis Workspace 中使用和解释“媒体播放耗�
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: d02251e877c119cedb6b07bce5cf095bdfc680c8
+source-git-commit: 95f28d537e6e7538133ebd04d185ebcfd28a13d4
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 80%
@@ -32,13 +32,10 @@ Media Analytics客户可以分析播放耗时，以获取有关内容质量和�
 ## 使用“Media Playback耗时”面板
 
 1. 转到启用了Media Analytics组件的报表包。
-
 1. 选择最左侧的面板图标，然后将面板拖放到您的Analysis Workspace项目中。
-
 1. 继续下面的部分，以自定义“媒体播放耗时”面板
 
    * [面板输入](#panel-inputs)
-
    * [面板输出](#panel-output)
 
 ## 面板输入 {#Input}
