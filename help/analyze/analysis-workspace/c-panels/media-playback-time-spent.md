@@ -4,7 +4,7 @@ description: 如何在 Analysis Workspace 中使用和解释“媒体播放耗�
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 23f34a5588abc125427346ead3f49a25d178aa7f
+source-git-commit: d02251e877c119cedb6b07bce5cf095bdfc680c8
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 80%
@@ -76,7 +76,7 @@ Media Analytics客户可以分析播放耗时，以获取有关内容质量和�
 |---|---|
 | 播放耗时 | 所选粒度期间查看内容所耗的总时间（以 hours:minutes:seconds（或 minutes）形式表示），其中包括暂停、缓冲和开始时间。 |
 
-### 常见问题解答
+## 常见问题解答
 
 | 问题 | 回答 |
 |---|---|
