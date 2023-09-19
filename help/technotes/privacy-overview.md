@@ -4,16 +4,16 @@ keywords: 隐私
 title: 隐私概述
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 04f8602ccfa7fd2d1d2f3c56f477aeee3739c563
+source-git-commit: 9fd055fd747c7124d49e280af1b0acc24d79be8e
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '978'
 ht-degree: 3%
 
 ---
 
 # 隐私概述
 
-Adobe希望启用您的组织，以便您可以遵守适用的隐私法律法规。 请参阅 [Adobe Experience Cloud隐私](https://www.adobe.com/cn/privacy/experience-cloud.html) 以了解更多信息。 关于Adobe Analytics，Adobe充当“数据处理者”，而您是“数据控制者”（或适用隐私和数据保护法律下的等效者）。 贵组织自行决定如何使用Adobe产品和服务，因为贵组织对于如何实施Adobe解决方案拥有完全控制权。 贵组织有责任遵守您自己的隐私政策、您与Adobe的服务协议以及所有适用法律。
+Adobe希望您的组织能够遵守适用的法律和法规。 请参阅 [Adobe Experience Cloud隐私](https://www.adobe.com/cn/privacy/experience-cloud.html){target=_blank} 以了解更多信息。 在Adobe Analytics与您的组织之间，Adobe充当“数据处理者”，而您是“数据控制者”（或适用隐私和数据保护法律下相当）。 贵组织自行决定如何使用Adobe产品和服务，因为贵组织对于如何实施Adobe解决方案拥有完全控制权。 在使用Adobe Analytics时，贵组织有责任遵守您自己的隐私政策、您与Adobe的服务协议以及所有适用法律。
 
 Adobe强烈建议遵循以下总体概念：
 
@@ -33,15 +33,15 @@ Adobe Analytics可以收集以下类型的数据：
 
 | 数据类型 | 详细信息 | 包含此数据的示例变量 |
 | --- | --- | --- |
-| 您网站上网页的页面名称或URL | 始终收集以便Adobe Analytics正常运行。 每次点击均需要URL或页面名称。 | [页面](../components/dimensions/page.md)， [页面URL](../components/dimensions/page-url.md) |
-| 基于时间的数据 | 始终收集以便Adobe Analytics正常运行。 数据收集需要一个时间戳，并且基于时间的数据是从时间戳派生的。 | [页面逗留时间](../components/dimensions/time-spent-on-page.md)， [小时](../components/dimensions/hour-of-day.md)， [上午/下午](../components/dimensions/am-pm.md)， [工作日/周末](../components/dimensions/weekday-weekend.md)， [每周时间](../components/dimensions/day-of-week.md)， [月份](../components/dimensions/month-of-year.md) |
-| 来自其他网站网页的数据 | Adobe无法收集非关联网站上的数据，而您无法更改网站或应用程序的源代码。 默认情况下，数据收集库会在访客访问您的网站时收集反向链接URL。 您可以自定义实施，以便在网站或应用程序访客到达后收集查询字符串中的数据。 | [反向链接](../components/dimensions/referrer.md)， [反向链接域](../components/dimensions/referring-domain.md) |
-| 匿名访客ID | 数据收集库会为访问您网站的每个浏览器生成并引用访客ID。 此ID存储在Cookie中。 如果数据收集库由于任何原因无法设置Cookie，则该库会使用IP地址和用户代理字符串作为访客识别的回退方法。 请参阅 [Adobe Analytics和浏览器Cookie](cookies/cookies.md) 以了解更多信息。 | [独特访客](../components/metrics/unique-visitors.md) |
-| 可识别的访客ID | Adobe不会自动收集自定义访客ID。但是，您可以自定义实施以收集此数据。 | [`visitorID`](../implement/vars/config-vars/visitorid.md) |
+| 您网站上网页的页面名称或URL | Adobe Analytics需要此数据才能正常运行。 每次点击均需要URL或页面名称。 | [页面](../components/dimensions/page.md)， [页面URL](../components/dimensions/page-url.md) |
+| 基于时间的数据 | Adobe Analytics需要此数据才能正常运行。 数据收集需要一个时间戳，并且基于时间的数据是从时间戳派生的。 | [页面逗留时间](../components/dimensions/time-spent-on-page.md)， [小时](../components/dimensions/hour-of-day.md)， [上午/下午](../components/dimensions/am-pm.md)， [工作日/周末](../components/dimensions/weekday-weekend.md)， [每周时间](../components/dimensions/day-of-week.md)， [月份](../components/dimensions/month-of-year.md) |
+| 反向链接数据 | 默认情况下，数据收集库会在访客访问您的网站时收集反向链接URL。 您可以自定义实施以收集反向链接查询字符串中的数据。 这种做法适用于营销活动和跟踪广告效果。 | [反向链接](../components/dimensions/referrer.md)， [反向链接域](../components/dimensions/referring-domain.md) |
+| 匿名访客ID | 数据收集库会为访问您网站的每个浏览器生成并引用访客ID。 此ID存储在Cookie中。 如果数据收集库无法设置Cookie标识符，则该库会使用匿名访客识别的回退方法。 此方法涉及使用访客的IP地址和用户代理字符串将相关点击绑定到同一访问。 如果您的组织启用了IP模糊处理，则此设置将被允许。 请参阅 [Adobe Analytics和浏览器Cookie](cookies/cookies.md) 以了解更多信息。 | [独特访客](../components/metrics/unique-visitors.md) |
+| 可识别的访客ID | Adobe不会自动收集自定义访客ID。 但是，您可以自定义实施以收集此数据。 | [`visitorID`](../implement/vars/config-vars/visitorid.md) |
 | 外部搜索词 | 外部搜索数据包括源自搜索引擎的关键字。 数据收集库会根据反向链接URL查找此数据。 但是，许多现代搜索引擎不再包含此信息。 | [搜索关键词](../components/dimensions/search-keyword.md) |
 | 内部搜索词 | 内部搜索数据包括源自网站或应用程序搜索功能的关键字。 Adobe不会自动收集内部搜索数据。 但是，您可以自定义实施以收集此数据。 这种做法在使用Adobe Analytics的组织中很常见。 | [eVar](../components/dimensions/evar.md) |
-| 计算机和浏览器规格 | AppMeasurement会自动收集低熵浏览器提示，例如浏览器类型、操作系统类型以及设备是桌面还是移动设备。 需要自定义配置才能收集高熵提示，例如浏览器的特定版本/内部版本、设备型号或操作系统版本。 请参阅 [客户端提示概述](client-hints.md) 以了解更多信息。 | [浏览器](../components/dimensions/browser.md)， [操作系统](../components/dimensions/operating-systems.md)， [移动设备维度](../components/dimensions/mobile-dimensions.md)， [监视器分辨率](../components/dimensions/monitor-resolution.md) |
-| 地理位置信息 | Adobe让您可以启用或禁用每个网站或应用程序（在报表包级别）的地理位置数据收集。 默认启用地理位置数据收集。 数据收集库包括地理位置（如果已启用）。 | [城市](../components/dimensions/cities.md)， [地区](../components/dimensions/regions.md)， [国家/地区](../components/dimensions/countries.md) |
+| 计算机和浏览器规格 | 数据收集库会自动收集低熵浏览器提示，例如浏览器类型、操作系统类型以及设备是桌面还是移动设备。 需要自定义配置才能收集高熵提示，例如浏览器的特定版本/内部版本、设备型号或操作系统版本。 请参阅 [客户端提示概述](client-hints.md) 以了解更多信息。 | [浏览器](../components/dimensions/browser.md)， [操作系统](../components/dimensions/operating-systems.md)， [移动设备维度](../components/dimensions/mobile-dimensions.md)， [监视器分辨率](../components/dimensions/monitor-resolution.md) |
+| 地理位置信息 | Adobe让您可以启用或禁用每个网站或应用程序（在报表包级别）的地理位置数据收集。 默认启用地理位置数据收集。 | [城市](../components/dimensions/cities.md)， [地区](../components/dimensions/regions.md)， [国家/地区](../components/dimensions/countries.md) |
 | IP 地址 | Adobe提供在存储此数据时模糊处理最后一个八位字节或完全模糊处理访客IP地址的功能。 默认情况下，EMEA客户的IP地址设置通常会完全模糊处理。 无论使用何种模糊处理设置，IP地址都不可用作Adobe Analytics中的维度；它仅包含在 [数据馈送](../export/analytics-data-feed/data-feed-overview.md). | 无 |
 | 您网站上提供的表单信息 | 所有实施类型都需要配置才能收集此数据。 您可以将此数据包含在自定义变量中。 | [eVar](../components/dimensions/evar.md) |
 | 单击您网站上的广告或链接 | 如果使用数据收集库，则默认收集。 启用Activity Map时，会提供其他信息，例如点击的位置。 | [Activity Map](../analyze/activity-map/activity-map.md)， [退出链接](../components/dimensions/exit-link.md)， [下载链接](../components/dimensions/download-link.md) |
@@ -53,4 +53,4 @@ Adobe Analytics可以收集以下类型的数据：
 
 ## 数据处理位置
 
-Adobe为Adobe Analytics维护三个数据处理位置。 这些站点接收原始数据并将其处理到报表包中，该报表包针对数据存储和报表检索进行了优化。 这些数据处理位置位于 **俄勒冈州**， **伦敦**、和 **新加坡**. 请参阅 [Adobe Analytics安全概述](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf) 以了解更多信息。
+Adobe为Adobe Analytics维护三个数据处理位置。 这些站点接收原始数据并将其处理到报表包中，该报表包针对数据存储和报表检索进行了优化。 这些数据处理地点位于美国（俄勒冈）、英国（伦敦）和新加坡。 请参阅 [Adobe Analytics安全概述](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank} 以了解更多信息。
