@@ -2,10 +2,10 @@
 description: 描述如何创建 Data Warehouse 请求的步骤。
 title: 为Data Warehouse请求配置报表选项
 feature: Data Warehouse
-source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
+source-git-commit: 6e6a406c7f3ab6ad83dcf60dbd78a5f6953f1fbb
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 19%
+source-wordcount: '532'
+ht-degree: 18%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 19%
 
    | 选项 | 函数 |
    |---------|----------|
-   | [!UICONTROL **文件名**] | 标识报表。 |
+   | [!UICONTROL **文件名**] | 标识报表。 <p>如果文件名中使用了以下任何特殊字符，则无法保存请求： <code>！ &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ ` {  } \| ~</code> </p><p>%字符必须后跟“R”、“rsid”或“id”，如下所示： <code>%R</code>, <code>%rsid</code>、和 <code>%id</code>。</p> |
    | [!UICONTROL **将报表日期范围附加到文件名**] | 将日期范围添加到报表文件名。 <p>例如，如果您请求获得从2024年5月1日到2024年5月7日的数据，则文件名将包含日期范围20240501 - 20240507。</p> |
    | [!UICONTROL **CSV**] | 以CSV文件格式发送报表，用于查看电子表格中的数据。 |
    | [!UICONTROL **表格(TDE)**] | 以Tableau数据提取(TDE)文件格式发送报告，该文件格式可用于在Tableau中可视化附加数据的数据和层。 |
