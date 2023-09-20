@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: a916afbc15514430cd13673bb642ebc720664e35
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5136'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 | 功能 | 描述 |
 | --- | --- |
 | **2023 年 9 月** | |
-| 更新了“媒体播放耗时”面板的文章结构 | 删除了名为“Media Playback Time Spent”（媒体播放耗时）的文件夹，并将该文件夹的内容合并为一篇文章： [“Media Playback耗时”面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>此更改与其他面板的文档更加一致。</p> |
+| 更新了“媒体播放耗时”面板的文章结构 | 删除了名为“媒体播放耗时”的文件夹，并将该文件夹的内容合并为一篇文章：[“媒体播放耗时”面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)。 <p>此更改与其他面板的文档更一致。</p> |
 | 快速入门内容改善 | 增加了信息来概述管理员、分析师、最终用户和开发人员的重要快速入门任务和资源。以下新文章现已可用： <ul><li>[快速入门（按角色）](/help/analyze/get-started/get-started-by-role.md)</li><li>[了解 Analytics 界面](/help/analyze/get-started/analytics-interface.md)<li>[用例](/help/analyze/get-started/use-cases.md)</li></ul> |
 | 媒体分析报告文档改进 | 重新整理了流媒体指南的“报告”部分中的一些内容，包括将 API 文档并入其自己的部分中并调整了一些文章的顺序。 <p>已将媒体工作区模板文章重命名为 [Workspace 中的媒体报告](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=zh-Hans)，更好地与产品内命名保持一致。 </p> |
 | **2023 年 8 月** | |
