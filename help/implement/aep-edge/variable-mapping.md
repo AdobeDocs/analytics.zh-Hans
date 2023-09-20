@@ -3,7 +3,7 @@ title: Adobe Experience Edge 中的 Analytics 变量映射
 description: 查看 Edge 自动映射到 Analytics 变量的 XDM 字段。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: b6a92b8ca79422d2ba857cd98c172a824658a7a6
+source-git-commit: f790407b5495d5fad679a2980c951b2247971069
 workflow-type: tm+mt
 source-wordcount: '1506'
 ht-degree: 96%
@@ -113,7 +113,7 @@ ht-degree: 96%
 | `placeContext.localTime` | 在 Reports &amp; Analytics 中帮助填充[时区](/help/analyze/reports-analytics/reports.md)。在[数据馈送](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)中显示为 `t_time_info`。 |
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1`<br/>`[...]`<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | 将[产品语法](../vars/page-vars/products.md)促销应用于 eVar。 |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value`<br/>`[...]`<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | 将[产品语法](../vars/page-vars/products.md)促销应用于事件。 |
-| `productListItems[].lineItemId` | [“类别”](../../components/dimensions/category.md) 维度。另请参阅[产品](../vars/page-vars/products.md)页面变量。 |
+| `productListItems[].productCategories[].categoryID` | [“类别”](../../components/dimensions/category.md) 维度。另请参阅[产品](../vars/page-vars/products.md)页面变量。 |
 | `productListItems[].name` | [产品](../../components/dimensions/product.md)维度。另请参阅[产品](../vars/page-vars/products.md)页面变量。 如果 `productListItems[].SKU` 和 `productListItems[].name` 都包含数据，则使用 `productListItems[].SKU` 中的值。 |
 | `productListItems[].priceTotal` | 帮助确定[收入](../../components/metrics/revenue.md)量度。另请参阅[产品](../vars/page-vars/products.md)页面变量。 |
 | `productListItems[].quantity` | 帮助确定[单位](../../components/metrics/units.md)量度。另请参阅[产品](../vars/page-vars/products.md)页面变量。 |
