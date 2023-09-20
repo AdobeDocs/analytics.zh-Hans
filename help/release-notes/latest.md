@@ -3,10 +3,10 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 95e4a3254bafed8ac4cb59625e6f5ba2fb3b1ad0
-workflow-type: ht
-source-wordcount: '792'
-ht-degree: 100%
+source-git-commit: 2998ab3ecb83e14be38333a2836f863667babfee
+workflow-type: tm+mt
+source-wordcount: '899'
+ht-degree: 88%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 100%
 | **API 2.0 中的分类** | 提供用于保存、删除、检索、导入和导出分类集数据的 Adobe Analytics API 2.0 方法。[了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) | 不适用 | 2023 年 9 月 13 日 |
 | **对于 A4T 分类支持新的 `correlationID` 字段** | 现在可在 Adobe Analytics 源连接器架构中找到 `_experience.decisioning.propositions.scopeDetails.correlationID` 字段。我们添加此 ID 是为了方便加入 Adobe Target 活动和体验事件的分类数据。 | 不适用 | 2023 年 9 月 13 日 |
 | **Data Warehouse 改进** | 创建 Data Warehouse 请求时，现在可配置云帐户以用作报告目标。有以下云帐户类型可用于发送数据：<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>电子邮件（以前有此选项可用）</li></ul>FTP、SFTP、Azure Blob 和 S3 仍然可用作报告目标，但不再推荐使用。<p>创建和管理 Data Warehouse 请求时的用户体验也得到了改进。有关更多信息，请参阅[创建 Data Warehouse 请求](/help/export/data-warehouse/create-request/t-dw-create-request.md)和[管理 Data Warehouse 请求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=zh-Hans)。 | 2023 年 9 月 13 日 | 2023 年 10 月 4 日 |
+| **管理组件时可用的新列** | 现在管理组件时，可以使用以下新列：<ul><li>使用位置<p>此列位于 [计算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) 和 [区段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md).</p></li><li>上次使用<p>此列位于 [计算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)， [区段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)，和 [警报管理器](/help/components/c-alerts/alert-manager.md).</p></li></ul><p>此信息可帮助您确定组件是否对组织中的用户有用、组件的使用位置以及是否需要删除或修改它。 您可以将数据字典与此信息结合使用，以帮助您跟踪和更好地了解组织中如何使用组件。</p> | 2023 年 9 月 20 日 | 2023 年 10 月 4 日 |
 
 {style="table-layout:auto"}
 

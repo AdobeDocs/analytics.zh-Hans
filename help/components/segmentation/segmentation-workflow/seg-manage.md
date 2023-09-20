@@ -3,43 +3,77 @@ description: 区段管理器提供多种编排区段的方式，如共享、过�
 title: 管理区段（区段管理器）
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
+source-git-commit: 637f498c8abee0f3c83780bccd0447f2e3a804e3
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 98%
+source-wordcount: '710'
+ht-degree: 39%
 
 ---
 
-# 管理区段
+# 区段管理器
 
 区段管理器提供多种编排区段的方式，如共享、过滤、标记、批准、复制、删除和标记为收藏。
 
-Analytics 区段管理器显示了您拥有的所有区段以及共享给您的所有区段。管理员级别的用户可以查看组织内的所有区段。此概述说明了用户界面和区段管理器的功能。访问区段管理器的方法如下：
+Analytics 区段管理器显示了您拥有的所有区段以及共享给您的所有区段。管理员级别的用户可以查看组织内的所有区段。此概述说明了用户界面和区段管理器的功能。
 
-* 在顶部导航中，转到 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 区段]**。
-* 显示一个现有报表，然后单击左侧导航中的“区段”图标 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)。接下来，单击&#x200B;**[!UICONTROL 管理]**。
+![区段管理器](assets/segments-manager.png)
+
+## 访问区段管理器
+
+1. 在Adobe Analytics中，选择 **[!UICONTROL 组件]** 选项卡，然后选择 **[!UICONTROL 区段]**.
+
+   或
+
+   在现有报表中，选择区段图标 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) 在左侧导航中，然后选择 **[!UICONTROL 管理]**.
+
+## 区段管理器中的可用操作
+
+在区段管理器中，您可以：
+
+* [过滤区段](/help/components/segmentation/segmentation-workflow/t-seg-filter.md)
+
+* [将区段标记为收藏](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md)
+
+* [批准区段](/help/components/segmentation/segmentation-workflow/seg-approve.md)
+
+* [标记区段](/help/components/segmentation/segmentation-workflow/seg-tag.md)
+
+* [共享区段](/help/components/segmentation/segmentation-workflow/t-seg-share.md)
+
+* 将区段导出到CSV文件。
+
+* [复制区段](/help/components/segmentation/segmentation-workflow/seg-copy.md)
+
+* [删除区段](/help/components/segmentation/segmentation-workflow/seg-delete.md)
+
+## 配置列
+
+通过配置显示的列，可以配置在区段管理器中为每个区段显示的信息。
+
+要在区段管理器中配置可见列，请执行以下操作：
+
+1. 在Adobe Analytics中，选择 **[!UICONTROL 组件]** 选项卡，然后选择 **[!UICONTROL 区段]**.
+
+1. 在区段管理器中，选择 **自定义列** 图标 ![自定义列图标](assets/customize-columns-icon.png)，然后选择要显示在区段管理器中的列。
+
+   以下列可供使用：
+
+   | 列标题 | 描述 |
+   |---|---|
+   | 标题和描述 | 这些值在区段生成器中提供。 要编辑标题和描述，请选择标题链接以打开区段生成器。 |
+   | 收藏 | 在每个区段旁边显示星形图标，以使您可以将区段标记为收藏。 有关更多信息，请参阅 [将区段标记为收藏](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md). |
+   | 报表包 | 此列指示区段最后保存的报表包。 |
+   | 所有者 | 指示区段的所有者。如果是非管理员，则只能看到您拥有的区段或与您分享的区段。 |
+   | 标记（在列选择器中未选择，因此列不显示） | 应用到区段的标记，由您或与您共享该区段的人添加。 |
+   | 共享对象 | 列出您共享该区段的个人或组（仅管理员）或所有人（仅管理员）。 <p>当您或与您共享区段时，区段名称旁边会显示一个共享图标。</p> |
+   | 修改日期 | 显示最后一次修改区段的日期。 |
+   | 使用位置 | **注意：** 此功能处于版本的有限测试阶段，在您的环境中可能尚未可用。 当该功能正式发布时，将删除此说明。有关Customer Journey Analytics发布过程的信息，请参阅 [Customer Journey Analytics功能发布](/help/release-notes/releases.md).<p>显示当前正在使用区段的以下组件类型之一：</p> <ul><li>警报</li><li>计算量度</li><li>项目</li><li>计划项目</li><li>区段</li></ul> 例如，如果该区段在40个项目和2个警报中使用，则此列显示 [!UICONTROL **警报(2)、项目(40)**]. <p>此信息可帮助您确定区段对组织中的用户是否有价值，或者是否应将其删除。</p><p>此信息不包括API、Report Builder或Data Warehouse的使用情况。</p><p>您可以使用 [数据字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) 以及此信息，以帮助您跟踪并更好地了解组织中如何使用组件。 |
+   | 上次使用 | **注意：** 此功能处于版本的有限测试阶段，在您的环境中可能尚未可用。 当该功能正式发布时，将删除此说明。有关Customer Journey Analytics发布过程的信息，请参阅 [Customer Journey Analytics功能发布](/help/release-notes/releases.md).<p>显示上次在以下任意组件类型中使用区段的日期：</p> <ul><li>警报</li><li>计算量度</li><li>项目</li><li>计划项目</li><li>区段</li></ul> <p>此信息可帮助您确定组件是否对组织中的用户有价值，或者是否应将其删除。</p><p>此信息不包括API、Report Builder或Data Warehouse的使用情况。</p><p>您可以使用 [数据字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) 以及此信息，以帮助您跟踪并更好地了解组织中如何使用组件。 |
+
+   {style="table-layout:auto"}
 
 ## 操作方法视频 {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
 这段 [Adobe Analytics 视频](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=zh-Hans)简要概述了区段管理器的使用方法。
 
-## 区段管理器用户界面 {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
-![](assets/segment_manager_ui.png)
-
-| # | UI 功能 | 描述 |
-|---|---|---|
-| 1 | 区段管理工具栏 | 选中某个区段后，此工具栏将显示。大多数管理任务都可以通过此工具栏完成。 |
-| 2 | 显示过滤器 | 单击过滤图标可调出过滤菜单。您可以按“标记”、“所有者”、“全部显示”（仅管理员）、“我的”、“收藏”、“已批准”和“已与我共享”进行过滤。 |
-| 3 | 复选框 | 选中某个区段可管理该区段。 |
-| 4 | 收藏夹 | 单击区段旁边的星形标记可将该标记变为黄色并将此区段标记为收藏。 |
-| 5 | 区段标题和描述 | 在区段生成器中提供。要编辑标题和描述，请单击标题链接，这可以让您返回区段生成器。 |
-| 6 | 报表包 | 此列指示区段最后保存的报表包。 |
-| 7 | 所有者 | 指示区段的所有者。如果是非管理员，则只能看到您拥有的区段或与您分享的区段。 |
-| 8 | 标记（在列选择器中未选择，因此列不显示） | 应用到区段的标记，由您或与您共享该区段的人添加。 |
-| 9 | 共享对象 | 列出您共享该区段的个人或组（仅管理员）或所有人（仅管理员）。 |
-| 10 | 修改日期 | 显示最后一次修改区段的日期。 |
-| 11 | 列选择器 | 让您在区段管理器中选择或取消选择列。 |
-| 12 | 共享图标 | 表示该区段由您或与您共享。 |
-| 13 | 批准图标 | 表示该区段已获管理员批准。 |
-| 14 | 过滤器 | 让您查看和选择“标记”、“报表包”、“所有者”和“其他”（“全部显示”、“我的”、“已与我共享”、“已批准”和“收藏”）下的过滤器。 |
