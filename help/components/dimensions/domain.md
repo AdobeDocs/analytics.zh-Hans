@@ -3,16 +3,16 @@ title: 域
 description: 访客用来访问 Internet 的组织或 ISP。
 feature: Dimensions
 exl-id: 292dc256-e9e7-47be-8586-774f1c047011
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
 # 域
 
-“域”维度报告访客用于访问 Internet 的访问点。
+“域” [维度](overview.md) 报告访客用于访问Internet的访问点。
 
 ## 使用数据填充此维度
 

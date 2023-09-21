@@ -3,16 +3,16 @@ title: 退出链接
 description: 退出链接的名称。
 feature: Dimensions
 exl-id: 090d5fee-4b35-4be7-866c-5ef1d1c4c0a6
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # 退出链接
 
-“退出链接”维度可以报告在网站上实施的退出链接的名称。当您希望了解哪些链接最常用于指向网站外的域时，此维度很有价值。
+“退出链接” [维度](overview.md) 报告网站上实施的退出链接的名称。 当您希望了解哪些链接最常用于指向网站外的域时，此维度很有价值。
 
 ## 使用数据填充此维度
 

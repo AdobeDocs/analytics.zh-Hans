@@ -3,16 +3,16 @@ title: 点击深度
 description: 点击进行访问的次数。
 feature: Dimensions
 exl-id: 84c27e3f-4228-4455-95bf-0239928337b5
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # 点击深度
 
-“点击深度”维度报告给定点击访问的深度。此维度对于了解访客在您网站上执行操作的访问深度非常重要。点击深度计算所有类型的点击，包括页面视图 ([`t()`](/help/implement/vars/functions/t-method.md)) 和链接跟踪点击 ([`tl()`](/help/implement/vars/functions/tl-method.md))。
+“点击深度” [维度](overview.md) 报告给定点击访问的深度。 此维度对于了解访客在您网站上执行操作的访问深度非常重要。点击深度计算所有类型的点击，包括页面视图 ([`t()`](/help/implement/vars/functions/t-method.md)) 和链接跟踪点击 ([`tl()`](/help/implement/vars/functions/tl-method.md))。
 
 ## 使用数据填充此维度
 

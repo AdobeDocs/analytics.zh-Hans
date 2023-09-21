@@ -3,16 +3,16 @@ title: 反向链接
 description: 访客在点击进入到您的网站之前所在的 URL。
 feature: Dimensions
 exl-id: 146f0327-c73c-40f5-8cc1-584e31d163a2
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # 反向链接
 
-“反向链接”维度会报告访客点击访问您的网站前所在的 URL。此维度有助于了解哪些特定 URL 给您的网站带来了最多的流量。链接必须存在于外部 URL 上，且访客必须单击该链接才能显示维度项目。
+“反向链接” [维度](overview.md) 报告访客点击进入您的网站前所在的URL。 此维度有助于了解哪些特定 URL 给您的网站带来了最多的流量。链接必须存在于外部 URL 上，且访客必须单击该链接才能显示维度项目。
 
 >[!IMPORTANT]
 >

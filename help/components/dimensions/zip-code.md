@@ -3,16 +3,16 @@ title: 邮政编码
 description: 访客的邮政编码。
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # 邮政编码
 
-“邮政编码”维度报告访客的邮政编码。利用此维度，您可以进一步了解本地广告是否成功或了解网站在全球哪个地区的表现最好。
+“邮政编码” [维度](overview.md) 报告访客的邮政编码。 利用此维度，您可以进一步了解本地广告是否成功或了解网站在全球哪个地区的表现最好。
 
 ## 使用数据填充此维度
 

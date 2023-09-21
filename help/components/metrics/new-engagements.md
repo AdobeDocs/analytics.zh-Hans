@@ -3,16 +3,16 @@ title: 新参与
 description: 设置首次接触渠道的次数。
 feature: Metrics
 exl-id: a419d048-9715-4d7b-9c24-d34129755371
-source-git-commit: bf0a4d4436da5f6a5ce09fbf7a1f03ef8bcc7094
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 # 新参与
 
-“新参与”量度显示访客在该渠道的参与期内首次匹配营销渠道的次数。当您希望将任何维度与首次匹配营销渠道处理规则的访客进行比较时，此量度非常有用。
+“新参与” [量度](overview.md) 显示访客在该访客的参与期内首次匹配营销渠道的次数。 当您希望将任何维度与首次匹配营销渠道处理规则的访客进行比较时，此量度非常有用。
 
 ## 如何计算此量度
 

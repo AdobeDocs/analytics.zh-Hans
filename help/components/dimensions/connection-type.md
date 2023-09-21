@@ -3,16 +3,16 @@ title: 连接类型
 description: 访客如何连接到 Internet。
 feature: Dimensions
 exl-id: 149b2353-6128-4e0c-a73a-bc5a37c66b52
-source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # 连接类型
 
-“连接类型”维度指明访客如何连接到 Internet。此维度可用于确定访客如何连接到 Internet 以浏览您的网站。您可以使用它根据访客的连接速度来优化网站内容。
+&#39;连接类型&#39; [维度](overview.md) 显示访客如何连接到Internet。 此维度可用于确定访客如何连接到 Internet 以浏览您的网站。您可以使用它根据访客的连接速度来优化网站内容。
 
 ## 使用数据填充此维度
 

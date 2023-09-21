@@ -3,16 +3,16 @@ title: 永久 Cookie 支持
 description: 确定访客是否能够支持永久 Cookie。
 feature: Dimensions
 exl-id: ced69e41-d992-4c5a-8541-920aeb7186ae
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # 永久 Cookie 支持
 
-“永久性 Cookie 支持”维度显示了点击是否使用了来自永久来源的访客标识符。最常见的永久性来源来自 Cookie，但也可以使用移动标头和其他来源。
+“永久性Cookie支持” [维度](overview.md) 显示点击是否使用了来自永久来源的访客标识符。 最常见的永久性来源来自 Cookie，但也可以使用移动标头和其他来源。
 
 ## 使用数据填充此维度
 

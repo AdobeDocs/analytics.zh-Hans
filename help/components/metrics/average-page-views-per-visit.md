@@ -3,16 +3,16 @@ title: 每次访问的平均页面查看次数
 description: 给定维度项目在一次访问中出现的平均次数。
 feature: Metrics
 exl-id: fef6e803-e819-4f0f-8cb0-c565328a8bea
-source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # 每次访问的平均页面查看次数
 
-“每次访问的平均页面查看次数”维度显示针对所需维度平均查看页面的次数。对于基于时间的维度，您可以查看访问中一段时间内平均页面查看次数的趋势。当您想要了解维度项目在访问中出现的频率时，此量度非常有用。
+“每次访问的平均页面查看次数”维度显示针对所需维度平均查看页面的次数。对于基于时间的维度，您可以查看访问中一段时间内平均页面查看次数的趋势。此 [量度](overview.md) 当您想要了解维度项目在访问中出现的频率时，非常有用。
 
 >[!TIP]
 >

@@ -3,7 +3,7 @@ title: 具有 Experience Cloud ID 的人员
 description: Cross-Device Analytics 中具有 Experience Cloud ID 的人数。
 feature: Metrics
 exl-id: 072e7d2b-3a08-49c6-a892-4cea2cc10159
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 如何计算此指标
 
-其中考虑每个（已识别或未识别）[人员](people.md)，如果点击包含 `mid` 查询字符串（基于 [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hans) Cookie），则此指标增大。
+其中考虑每个（已识别或未识别）[人员](people.md)[](overview.md)，如果点击包含 `mid` 查询字符串（基于 [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hans) Cookie），则此指标增大。
 
 可创建计算指标 `[People with ECID] ÷ [People]` 以使用 ID 服务获取您网站访客所占的百分比。
 

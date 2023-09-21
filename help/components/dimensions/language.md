@@ -3,16 +3,16 @@ title: 语言
 description: 浏览器中的首选语言设置。
 feature: Dimensions
 exl-id: 590406a4-d336-42c7-8048-e7cd8e611d43
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # 语言
 
-“语言”维度显示访客喜欢在其中查看内容的最常用语言。当您想要了解访客最常使用的语言以帮助进行本地化时，此维度很有用。
+“语言” [维度](overview.md) 显示访客喜欢在其中查看内容的最常用语言。 当您想要了解访客最常使用的语言以帮助进行本地化时，此维度很有用。
 
 >[!NOTE]
 >

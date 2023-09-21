@@ -3,10 +3,10 @@ title: 移动设备维度
 description: 基于设备的 IP 地址的维度。
 feature: Dimensions
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
-source-git-commit: 9e7ad96710d536baac6923850e29df49dfaec98f
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '903'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 *本页面引用访问您网站的移动设备的属性。如果要在移动应用程序上跟踪设备，请参阅《实施用户指南》中的[为移动设备实施 Analytics](/help/implement/mobile-device-sdk.md)。*
 
-移动设备维度提供关于访问网站的移动设备属性的洞察信息。您可以使用这些维度来帮助了解移动设备支持哪些功能。
+移动设备 [维度](overview.md) 提供有关访问您网站的移动设备属性的洞察信息。 您可以使用这些维度来帮助了解移动设备支持哪些功能。
 
 ## 使用数据填充这些维度
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 * **移动运营商**：根据 Analytics 捕获的 IP 地址查找第三方（Digital Elements）数据以填充此维度的值。示例值包括 `"Reliance Jio"`、`"Airtel"`、`"Vodafone"` 和 `"Verizon"`。
 * **移动设备颜色深度**：移动设备的颜色深度（以位为单位）。
 * **移动 Cookie 支持**：确定移动设备是否支持 Cookie。报表未说明浏览器是否接受 Cookie。维度项目包括 `"Supported"`、`"Not supported"` 和 `"Unknown"`。
-* **移动设备**：访客使用的移动设备。**注释**：Digital Elements定期发布更新以识别新的/更新的设备。
+* **移动设备**：访客使用的移动设备。**注意**：Digital Elements定期发布更新以识别新的/更新的设备。
 * **移动设备号**：确定移动设备是否传输其号码。维度项目包括 `"Supported"`、`"Not supported"` 和 `"Unknown"`。
 * **移动设备类型**：移动设备的类型。示例值包括 `"Mobile phone"`、`"Tablet"`、`"Media player"` 和 `"Gaming console"`。
 * **移动设备 DRM**：移动设备支持的 DRM 类型。示例值包括 `"DRM OMA forward"`、`"DRM OMA combined delivery"` 和 `"DRM OMA separate delivery"`。
@@ -59,10 +59,10 @@ ht-degree: 98%
 * **使用 iOS SDK**：Mobile SDK 包含展示设备版本以用于报表的维度。与网站相比，此方法更适合于移动设备应用程序。
 * **使用通过 JavaScript 提供的其他变量**：某些变量（例如 `screen.height` 和 `screen.width`）可用于推断设备版本。例如，您可以在网站上使用以下代码片断：
 
-   ```js
-   if (navigator.userAgent.indexOf('iPhone') > -1) {
-     s.eVarXX = screen.width + "x" + screen.height;
-     }
-   ```
+  ```js
+  if (navigator.userAgent.indexOf('iPhone') > -1) {
+    s.eVarXX = screen.width + "x" + screen.height;
+    }
+  ```
 
-   此代码块首先会检测设备是否为 iPhone。如果是，则代码会使用 JavaScript 将屏幕分辨率拉入 eVar。如果屏幕分辨率是唯一的，此方法让您能够大致检测设备版本。
+  此代码块首先会检测设备是否为 iPhone。如果是，则代码会使用 JavaScript 将屏幕分辨率拉入 eVar。如果屏幕分辨率是唯一的，此方法让您能够大致检测设备版本。

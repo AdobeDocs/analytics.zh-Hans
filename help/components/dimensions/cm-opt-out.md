@@ -3,16 +3,16 @@ title: 同意管理选择退出
 description: 查看访客选择退出的隐私设置。
 exl-id: 2bf4d22c-5b24-47fb-b489-49388fcca5b1
 feature: Dimensions
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # 同意管理选择退出
 
-“同意管理退出”维度显示访客明确选择退出的隐私设置。您可以使用此维度根据隐私设置过滤数据，或查看最常见的隐私选择退出原因。
+&#39;同意管理选择退出&#39; [维度](overview.md) 显示访客明确选择退出的隐私设置。 您可以使用此维度根据隐私设置过滤数据，或查看最常见的隐私选择退出原因。
 
 ## 使用数据填充此维度
 

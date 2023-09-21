@@ -3,16 +3,16 @@ title: 网站区域
 description: 网站区域的名称。
 feature: Dimensions
 exl-id: 349bace0-4596-4b4c-bf29-6cd8866c246b
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # 网站区域
 
-“网站区域”维度列出您的网站上网站区域的名称。对于大型网站，将页面分组到区域会很有帮助。此维度对于查看“查看次数最多”或“性能最高”网站区域很有帮助。
+“网站区域” [维度](overview.md) 列出了您网站中网站区域的名称。 对于大型网站，将页面分组到区域会很有帮助。此维度对于查看“查看次数最多”或“性能最高”网站区域很有帮助。
 
 此维度与[页面](page.md)维度和[服务器](server.md)维度相关。页面粒度最大，服务器粒度最小，网站区域介于两者之间。
 

@@ -3,16 +3,16 @@ title: 每周时间
 description: 每周时间，不考虑日期范围。
 feature: Dimensions
 exl-id: 01aa6b5f-49e6-4f86-97c7-8d0ff431e15b
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # 每周时间
 
-“每周时间”维度报告点击在一周中发生的时间。当您希望报表按周划分，但不希望静态天数作为维度项目时，此报表很有价值。由于此维度适用于任何日期范围，因此，将其作为计划报表中的维度特别有价值。
+&#39;星期&#39; [维度](overview.md) 报告点击在一周中发生的时间。 当您希望报表按周划分，但不希望静态天数作为维度项目时，此报表很有价值。由于此维度适用于任何日期范围，因此，将其作为计划报表中的维度特别有价值。
 
 ## 使用数据填充此维度
 

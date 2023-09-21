@@ -3,10 +3,10 @@ title: 每次访问逗留时间（指标）
 description: 维度项目的每次访问逗留时间。
 feature: Metrics
 exl-id: 0f951196-66a2-4733-bb62-4555a9331efb
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 *此帮助页面介绍“每次访问逗留时间”如何作为维度使用。有关更多信息，请参阅[每次访问逗留时间](../dimensions/time-spent-per-visit.md)维度。*
 
-“每次访问逗留时间（秒）”指标显示访客在每次访问期间与给定维度项目交互的平均时间。
+“每次访问逗留时间（秒）” [量度](overview.md) 显示访客在每次访问期间与给定维度项目交互的平均时间。
 
 此指标因其处理架构不同而在 Data Warehouse 中不可用。
 

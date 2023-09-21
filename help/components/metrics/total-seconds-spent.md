@@ -3,16 +3,16 @@ title: 所用总秒数
 description: 在维度项目上花费的总时间（秒）。
 feature: Metrics
 exl-id: 02302982-ce8c-44e9-9967-0a4f226f5e9e
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # 所用总秒数
 
-“所用总秒数”量度显示访客在给定维度项目上所花费的总时间（秒）。当您希望了解在给定维度项目上所花费的原始时间，而不是像其他逗留时间量度提供的平均值时，此量度非常有用。
+“所用总秒数” [量度](overview.md) 显示访客在给定维度项目上所花费的总时间（秒）。 当您希望了解在给定维度项目上所花费的原始时间，而不是像其他逗留时间量度提供的平均值时，此量度非常有用。
 
 在 Report Builder 中，此量度称为“总逗留时间”。
 

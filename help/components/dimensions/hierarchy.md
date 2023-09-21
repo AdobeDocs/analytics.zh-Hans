@@ -3,10 +3,10 @@ title: 层级
 description: 可在报告中使用的自定义维度。
 feature: Dimensions
 exl-id: f9bd3ae1-3578-44c5-a540-ea93feac5bef
-source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->此维度已停用，且在 Analysis Workspace 中不是可用维度。 Adobe 建议改用 [eVar](evar.md) 和分类。
+>此维度已停用，不可用 [维度](overview.md) 在Analysis Workspace中。 Adobe 建议改用 [eVar](evar.md) 和分类。
 
 层级是自定义变量，您可以根据需要随意使用。 它们不会在设置的点击之外继续存在。如果您与 Adobe 签署的合同支持，则至多有 5 个层级可供使用。
 

@@ -3,16 +3,16 @@ title: 发生事件之前逗留的时间
 description: 量度与访问的首次点击之间的间隔时间。
 feature: Dimensions
 exl-id: 2586673f-d908-4b69-901a-5fafe635d0d5
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
 # 发生事件之前逗留的时间
 
-“发生事件之前逗留的时间”维度报告访问的首次点击与所需量度之间经过的时长。确定达到成功事件（例如，提交表单或购买）所花费的时间时，此维度非常有用。
+“发生事件之前逗留的时间” [维度](overview.md) 报告访问的首次点击与所需量度之间经过的时间。 确定达到成功事件（例如，提交表单或购买）所花费的时间时，此维度非常有用。
 
 ## 使用数据填充此维度
 

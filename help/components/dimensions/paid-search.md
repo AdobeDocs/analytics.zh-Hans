@@ -3,16 +3,16 @@ title: 付费搜索
 description: 从付费搜索与免费搜索方面区分量度。
 feature: Dimensions
 exl-id: b12665a3-e92f-4fc1-acd3-ea17a316e5e5
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
 # 付费搜索
 
-通过“付费搜索”维度，您可以查看任何量度，并在付费搜索与免费搜索之间进行比较。搜索引擎以外的所有其他点击将会被忽略。此维度有助于您了解付费搜索与免费搜索的对比情况。
+“付费搜索” [维度](overview.md) 允许您查看任何量度，并在付费搜索与免费搜索之间进行比较。 搜索引擎以外的所有其他点击将会被忽略。此维度有助于您了解付费搜索与免费搜索的对比情况。
 
 ## 使用数据填充此维度
 

@@ -3,16 +3,16 @@ title: 同意管理选择加入
 description: 查看访客选择加入的隐私设置。
 exl-id: b2768180-b763-41fb-8cba-665fac047e29
 feature: Dimensions
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '182'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # 同意管理选择加入
 
-“同意管理加入”维度显示访客已选择加入的隐私设置。您可以使用此维度根据隐私设置过滤数据，或查看最常见的隐私选择加入原因。
+&#39;同意管理选择加入&#39; [维度](overview.md) 显示访客已选择加入的隐私设置。 您可以使用此维度根据隐私设置过滤数据，或查看最常见的隐私选择加入原因。
 
 ## 使用数据填充此维度
 

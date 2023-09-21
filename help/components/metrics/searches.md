@@ -3,16 +3,16 @@ title: 搜索
 description: 点击与外部搜索条件匹配的次数。
 feature: Metrics
 exl-id: b84c895d-e678-47a1-9e41-500970e0a80c
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # 搜索
 
-“搜索”量度显示与 Adobe 外部搜索检测匹配的点击数。当您想要查看非搜索维度项目，并了解它们对搜索引擎流量的贡献时，此量度非常有用。
+“搜索” [量度](overview.md) 显示与Adobe的外部搜索检测匹配的点击数。 当您想要查看非搜索维度项目，并了解它们对搜索引擎流量的贡献时，此量度非常有用。
 
 ## 如何计算此量度
 

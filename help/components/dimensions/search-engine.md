@@ -3,16 +3,16 @@ title: 搜索引擎
 description: 访客用来访问您的网站的搜索引擎。
 feature: Dimensions
 exl-id: 2815f1fa-d938-4d2b-b864-c4ed834f3ed3
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # 搜索引擎
 
-“搜索引擎”维度报告访客用来访问您的网站的搜索引擎。反向链接必须满足以下两项要求才能分类为搜索引擎：
+“搜索引擎” [维度](overview.md) 报告访客用来访问您的网站的搜索引擎。 反向链接必须满足以下两项要求才能分类为搜索引擎：
 
 * Adobe 将反向链接域识别为有效的搜索引擎；
 * 反向链接 URL 中存在关键词查询字符串参数。查询字符串参数可以为空（与由于隐私惯例而使用多个搜索引擎的情况一样）。

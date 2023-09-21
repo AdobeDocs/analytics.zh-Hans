@@ -3,16 +3,16 @@ title: 单次存取
 description: 维度项目在访问中未更改的次数。
 feature: Metrics
 exl-id: 973ce835-9d6f-4ead-90c9-0b80aac82cc0
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # 单次存取
 
-“单次存取”量度显示维度项目在整个访问期间仅包含单个唯一值的访问次数。当您想要了解访问过程中哪个维度项目停滞不变时，此量度非常有用。
+“单次存取” [量度](overview.md) 显示维度项目在整个访问期间仅包含单个唯一值的访问次数。 当您想要了解访问过程中哪个维度项目停滞不变时，此量度非常有用。
 
 ## 如何计算此量度
 

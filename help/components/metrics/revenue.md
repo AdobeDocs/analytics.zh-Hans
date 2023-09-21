@@ -3,16 +3,16 @@ title: 收入
 description: 所有订单中已购买产品的货币金额。
 feature: Metrics
 exl-id: a70e4d93-704b-46ac-9cec-31ea20d3dcb5
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # 收入
 
-“收入”量度显示所有订单中已购买的产品的货币金额。此量度对于电子商务网站衡量转化率至关重要。您可以将此量度与任何维度组合，以了解哪些维度项目对收入做出了贡献。例如，您可以看到热门促销活动（使用[跟踪代码](../dimensions/tracking-code.md)维度）或热门内部搜索词（使用 [eVar](../dimensions/evar.md)）。
+“收入” [量度](overview.md) 显示所有订单中已购买产品的货币金额。 此量度对于电子商务网站衡量转化率至关重要。您可以将此量度与任何维度组合，以了解哪些维度项目对收入做出了贡献。例如，您可以看到热门促销活动（使用[跟踪代码](../dimensions/tracking-code.md)维度）或热门内部搜索词（使用 [eVar](../dimensions/evar.md)）。
 
 ## 如何计算此量度
 

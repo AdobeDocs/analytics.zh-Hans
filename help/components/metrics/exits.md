@@ -3,10 +3,10 @@ title: 退出
 description: 访问中最后一个值的实例。
 feature: Metrics
 exl-id: 0997ed1f-29b0-403d-9ed2-644a5ff19aef
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '186'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 *此帮助页介绍了“退出”如何充当量度。有关“退出”如何充当维度的信息，请参阅[退出维度](../dimensions/exit-dimensions.md)。*
 
-“退出”量度显示给定维度项目被捕获为访问中的最后一个值的次数。当您想进一步了解访客离开网站前最后看到的内容时，此量度非常有用。查看维度的最后值，有助于您了解和优化访客在离开网站前获得的体验。
+“退出” [量度](overview.md) 显示给定维度项目被捕获为访问中的最后一个值的次数。 当您想进一步了解访客离开网站前最后看到的内容时，此量度非常有用。查看维度的最后值，有助于您了解和优化访客在离开网站前获得的体验。
 
 ## 如何计算此量度
 

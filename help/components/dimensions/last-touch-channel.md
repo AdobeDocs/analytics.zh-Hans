@@ -3,16 +3,16 @@ title: 最近联系渠道
 description: 访客参与到期期间的最新营销渠道。
 feature: Dimensions
 exl-id: 62a47de5-ee1a-4394-aa63-75cdda92ba6a
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # 最近联系渠道
 
-“最近联系渠道”维度报告访客在该访客的参与期（默认为 30 天）内与之匹配的最近营销渠道。在了解哪些营销渠道可将流量引到您的网站并促成转化，从而使您将营销工作重点放在最有效的领域方面，此维度具有重要价值。
+“最近联系渠道” [维度](overview.md) 报告访客在该访客的参与期（默认为30天）内与之匹配的最新营销渠道。 在了解哪些营销渠道可将流量引到您的网站并促成转化，从而使您将营销工作重点放在最有效的领域方面，此维度具有重要价值。
 
 ## 使用数据填充此维度
 

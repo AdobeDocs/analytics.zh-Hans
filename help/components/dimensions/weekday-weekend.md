@@ -3,16 +3,16 @@ title: 工作日/周末
 description: 确定点击发生在工作日还是周末。
 feature: Dimensions
 exl-id: c3111cdc-a5f9-4244-a725-b1bb1e72fcff
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 100%
+ht-degree: 80%
 
 ---
 
 # 工作日/周末
 
-“工作日/周末”维度提供有关点击发生在工作日（星期一至星期五）还是周末（星期六至星期日）的分析。点击时间基于[报表包所在时区](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)。
+“工作日/周末” [维度](overview.md) 提供点击发生在工作日（星期一至星期五）还是周末（星期六至星期日）的分析。 点击时间基于[报表包所在时区](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)。
 
 ## 使用数据填充此维度
 

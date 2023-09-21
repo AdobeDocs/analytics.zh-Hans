@@ -3,16 +3,16 @@ title: 颜色深度
 description: 设备的颜色深度。
 feature: Dimensions
 exl-id: 0bde895d-6832-4110-b575-62ee5ddc1783
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # 颜色深度
 
-“颜色深度”维度报告设备支持的颜色数量。确定多少流量来自不支持 1,600 万颜色的设备时，此维度非常有用。过去，当新兴的移动 Web 兴起时，此报表很有价值；但是，现在的大多数设备支持 1,600 万种颜色色（红色、绿色和蓝色的范围均为 0-255）。<!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
+“颜色深度” [维度](overview.md) 报告设备支持的颜色数量。 确定多少流量来自不支持 1,600 万颜色的设备时，此维度非常有用。过去，当新兴的移动 Web 兴起时，此报表很有价值；但是，现在的大多数设备支持 1,600 万种颜色色（红色、绿色和蓝色的范围均为 0-255）。<!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
 
 ## 使用数据填充此维度
 

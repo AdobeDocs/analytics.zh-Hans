@@ -3,16 +3,16 @@ title: 上次访问间隔天数
 description: 当前点击与上次访问之间间隔的天数。
 feature: Dimensions
 exl-id: 8063bdc6-516a-4dd0-a4ca-ded739e8d406
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '167'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 # 上次访问间隔天数
 
-“上次访问间隔天数”维度测量访客的当前点击与其上次访问（如果有）之间间隔的时间。此维度有助于您了解访客在访问您的网站后的行为。示例包括：
+“上次访问间隔天数” [维度](overview.md) 测量访客的当前点击与其上次访问（如果有）之间间隔的时间。 此维度有助于您了解访客在访问您的网站后的行为。示例包括：
 
 * 用户回访网站的频率是多久？
 * 回访频度与转化有何关联？重复购买者是否经常访问？

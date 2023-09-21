@@ -3,16 +3,16 @@ title: 网站平均逗留时间
 description: 给定维度项目在点击之间存在的平均时间。
 feature: Metrics
 exl-id: bf9056e2-4f6d-4c4f-b641-d3146ce269ff
-source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # 网站平均逗留时间
 
-“网站平均逗留时间”指标显示给定维度项目在点击之间存在的时间。当您想要查看特定维度项目的平均逗留时间时，此指标非常有用。此外，您还可以跟踪此指标随时间的变化趋势，以了解总体逗留时间的变化情况。此指标以 `HH:MM:SS` 格式显示。
+“网站平均逗留时间” [量度](overview.md) 显示给定维度项目在点击之间存在的时间。 当您想要查看特定维度项目的平均逗留时间时，此指标非常有用。此外，您还可以跟踪此指标随时间的变化趋势，以了解总体逗留时间的变化情况。此指标以 `HH:MM:SS` 格式显示。
 
 此指标与[每次访问逗留时间](../dimensions/time-spent-per-visit.md)维度相关。
 

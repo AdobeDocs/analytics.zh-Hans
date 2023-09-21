@@ -3,16 +3,16 @@ title: 页面
 description: 页面名称。
 feature: Dimensions
 exl-id: 579963c8-8460-425f-b716-3b30d7a259af
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # 页面
 
-“页面”维度列出网站上的页面名称。它是 Adobe Analytics 中最常用的维度之一，因为它可让您深入了解网站上的哪些页面效果最佳。
+“页面” [维度](overview.md) 列出您网站上的页面名称。 它是 Adobe Analytics 中最常用的维度之一，因为它可让您深入了解网站上的哪些页面效果最佳。
 
 此维度与[网站区域](site-section.md)维度和[服务器](server.md)维度相关。页面粒度最大，服务器粒度最小，网站区域介于两者之间。
 

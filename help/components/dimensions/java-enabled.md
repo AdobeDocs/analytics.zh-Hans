@@ -3,16 +3,16 @@ title: 已启用 Java
 description: 确定浏览器中是否已启用 Java。
 feature: Dimensions
 exl-id: 2d4b4ea2-65ba-4d39-a040-f989b5eddc6e
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # 已启用 Java
 
-“已启用 Java”维度确定当时浏览器是否已启用 Java。如果您要在网站上引入基于 Java 的功能，并且想知道有多少访客已经启用 Java，则此功能非常有用。对于已禁用 Java 的访客，您可以提供替代方案或关于如何启用 Java 的操作说明。
+&#39;已启用Java&#39; [维度](overview.md) 确定当时浏览器是否启用了Java。 如果您要在网站上引入基于 Java 的功能，并且想知道有多少访客已经启用 Java，则此功能非常有用。对于已禁用 Java 的访客，您可以提供替代方案或关于如何启用 Java 的操作说明。
 
 ## 使用数据填充此维度
 

@@ -3,8 +3,8 @@ title: 页面查看次数
 description: 在 Adobe Analytics 中设置或保留维度项目的次数。
 feature: Metrics
 exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
-source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
-workflow-type: ht
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # 页面查看次数
 
-**[!UICONTROL 页面查看次数]**&#x200B;量度显示了给定维度项（维度值）在页面上定义或保留（即，过期时）的次数。它是报告中最常见的基本量度之一。
+**[!UICONTROL 页面查看次数]**&#x200B;量度显示了给定维度项（维度值）在页面上定义或保留（即，过期时）的次数。[](overview.md)它是报告中最常见的基本量度之一。
 
 例如，[!UICONTROL 每周时间]维度由以下维度项组成：星期日、星期一、星期二、星期三、星期四、星期五和星期六。
 

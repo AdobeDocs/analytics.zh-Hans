@@ -3,16 +3,16 @@ title: 访问次数
 description: 表示一系列的页面查看操作。
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
-workflow-type: ht
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+workflow-type: tm+mt
 source-wordcount: '659'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # 访问次数
 
-“访问次数”量度显示网站上所有访客的会话数。
+“访问次数” [量度](overview.md) 显示网站上所有访客的会话数。
 
 ## 如何计算此量度
 

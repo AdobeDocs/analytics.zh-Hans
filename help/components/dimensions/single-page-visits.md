@@ -3,16 +3,16 @@ title: 单页访问次数（维度）
 description: 指示访问只包含单个页面的标志。
 feature: Dimensions
 exl-id: f7b58941-add4-4e7b-8645-a64280fd9dcb
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # 单页面访问量
 
-*此帮助页面介绍“单页面访问量”如何作为维度使用。有关更多信息，请参阅[单页面访问量](../metrics/single-page-visits.md)量度。*
+*此帮助页面介绍“单页面访问量”如何作为 [维度](overview.md). 有关更多信息，请参阅[单页面访问量](../metrics/single-page-visits.md)量度。*
 
 “单页面访问量”维度报告只包含单个独特[页面](page.md)维度项目的访问次数。它是[单页面访问量](../metrics/single-page-visits.md)量度的维度形式。
 

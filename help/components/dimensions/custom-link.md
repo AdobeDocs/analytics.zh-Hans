@@ -3,16 +3,16 @@ title: 自定义链接
 description: 自定义链接的名称。
 feature: Dimensions
 exl-id: c153f710-f03f-4be6-8e18-5ebf2ed80f01
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # 自定义链接
 
-“自定义链接”维度报告在网站上实施的自定义链接的名称。当您想要了解访客点击次数最多的链接类型时，此维度很有价值。
+“自定义链接” [维度](overview.md) 报告网站上实施的自定义链接的名称。 当您想要了解访客点击次数最多的链接类型时，此维度很有价值。
 
 ## 使用数据填充此维度
 

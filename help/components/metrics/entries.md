@@ -3,10 +3,10 @@ title: 登入次数
 description: 访问中第一个值的实例。
 feature: Metrics
 exl-id: f5d359ce-e6ac-4f80-a30b-ff78cc5fc8dc
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 *此帮助页介绍登入次数如何作为维度使用。有关登入次数如何作为维度使用的信息，请参阅[登入维度](../dimensions/entry-dimensions.md)。*
 
-“登入次数”量度显示作为访问中第一个值所捕获到的给定维度项目的次数。当您想要进一步了解访客对您网站的第一印象时，此量度很有帮助。查看维度的第一个值可以帮助您了解和优化新访客获得的体验。
+“登入点” [量度](overview.md) 显示给定维度项目在访问中被捕获为第一个值的次数。 当您想要进一步了解访客对您网站的第一印象时，此量度很有帮助。查看维度的第一个值可以帮助您了解和优化新访客获得的体验。
 
 ## 如何计算此量度
 

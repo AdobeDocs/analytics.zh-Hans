@@ -3,16 +3,16 @@ title: 原始反向链接域
 description: 访客在点击进入您的网站之前所处的首个反向链接域。
 feature: Dimensions
 exl-id: 6b9ac662-a79a-477b-8612-7980da7cfadd
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # 原始反向链接域
 
-“原始反向链接域”维度报告访客到达您的网站所点击的第一个反向链接域。设置后，它在该访客 ID 的整个生命周期内包含相同的值。此维度有助于了解哪些第三方网站最初为您的网站带来了流量。
+“原始反向链接域” [维度](overview.md) 报告访客为访问您的网站而点击的第一个反向链接域。 设置后，它在该访客 ID 的整个生命周期内包含相同的值。此维度有助于了解哪些第三方网站最初为您的网站带来了流量。
 
 >[!IMPORTANT]
 >

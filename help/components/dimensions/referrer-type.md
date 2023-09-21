@@ -3,16 +3,16 @@ title: 反向链接类型
 description: 反向链接类型，取决于访客的来源。
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 61a8aec9bbd6102dd3c0eb60362e02d553e1ebd2
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # 反向链接类型
 
-“反向链接类型”维度报告访客是经过哪些通用渠道点击进入您的网站。Adobe 将维护每个维度项目的规则，它与[营销渠道](marketing-channel.md)不同，营销渠道是贵组织负责维护每个渠道的规则。
+“反向链接类型” [维度](overview.md) 报告访客通过哪些通用渠道点击进入您的网站。 Adobe 将维护每个维度项目的规则，它与[营销渠道](marketing-channel.md)不同，营销渠道是贵组织负责维护每个渠道的规则。
 
 ## 使用数据填充此维度
 

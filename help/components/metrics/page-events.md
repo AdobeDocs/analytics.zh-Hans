@@ -3,16 +3,16 @@ title: 页面事件
 description: 触发的链接跟踪操作数量。
 feature: Metrics
 exl-id: 1afe86e3-65b3-4e4e-b436-ed7cb5da9641
-source-git-commit: 5e70a84c7793b516c0eca2776d8bbfd3ea3fc02b
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '142'
-ht-degree: 60%
+ht-degree: 50%
 
 ---
 
 # 页面事件
 
-“页面事件”量度显示进行的任何链接跟踪调用的次数。当您想要了解哪些页面具有最吸引人的内容时，此量度很有用。当访客无需导航到新页面即可对页面执行操作时，此量度的度量最有价值。
+“页面事件” [量度](overview.md) 显示执行任何链接跟踪调用的次数。 当您想要了解哪些页面具有最吸引人的内容时，此量度很有用。当访客无需导航到新页面即可对页面执行操作时，此量度的度量最有价值。
 
 ## 如何计算此量度
 

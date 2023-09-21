@@ -3,16 +3,16 @@ title: 每次访问逗留时间（维度）
 description: 访问逗留的总时间。
 feature: Dimensions
 exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # 每次访问逗留时间
 
-*此帮助页面介绍“每次访问逗留时间”如何作为各自的维度使用。有关更多信息，请参阅[每次访问逗留时间](../metrics/time-spent-per-visit.md)量度。*
+*此帮助页面介绍“每次访问逗留时间”如何作为它们各自的使用 [维度](overview.md). 有关更多信息，请参阅[每次访问逗留时间](../metrics/time-spent-per-visit.md)量度。*
 
 “每次访问逗留时间”维度记录访客在整个访问中所花费的时间。它使用以下步骤来衡量计算：
 

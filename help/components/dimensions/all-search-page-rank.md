@@ -3,16 +3,16 @@ title: 所有搜索页面排名
 description: 确定访客点击了搜索引擎上的哪个页面进入您的网站。
 feature: Dimensions
 exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
 # 所有搜索页面排名
 
-“所有搜索页面排名”维度可以提供有关访客点击了搜索结果的哪个页面进入您网站的分析。例如，如果您的网站出现在搜索引擎的搜索结果的第二页，则此变量的维度项目是“搜索页面 2”。
+“所有搜索页面排名” [维度](overview.md) 提供访客点击了搜索结果的哪个页面进入您网站的分析。 例如，如果您的网站出现在搜索引擎的搜索结果的第二页，则此变量的维度项目是“搜索页面 2”。
 
 ## 使用数据填充此维度
 

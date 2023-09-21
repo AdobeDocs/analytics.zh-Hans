@@ -3,16 +3,16 @@ title: 具有 Experience Cloud ID 的访客
 description: 使用 Adobe Experience Cloud ID 服务的独特访客数。
 feature: Metrics
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # 具有 Experience Cloud ID 的访客
 
-“具有 Experience Cloud ID 的访客”指标显示 Adobe 识别的使用 [Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)的独特访客数量。此指标有助于与[独特访客](unique-visitors.md)指标进行比较，以确保您网站的大多数访客都使用 ID 服务。如果大部分访客不使用 ID 服务 Cookie，则它可能会提示您的实施中存在问题。
+“具有Experience CloudID的访客” [量度](overview.md) 显示通过Adobe识别的独特访客的数量，该独特访客使用 [Experience CloudID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans). 此指标有助于与[独特访客](unique-visitors.md)指标进行比较，以确保您网站的大多数访客都使用 ID 服务。如果大部分访客不使用 ID 服务 Cookie，则它可能会提示您的实施中存在问题。
 
 >[!NOTE]
 >

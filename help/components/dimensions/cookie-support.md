@@ -3,16 +3,16 @@ title: Cookie 支持
 description: 确定浏览器是否支持 Cookie。
 feature: Dimensions
 exl-id: 07d4fe12-0d60-469d-98b1-e93ce5a0fd21
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 # Cookie 支持
 
-“Cookie 支持”维度报告给定点击的浏览器是否支持 Cookie。此维度对于确定使用支持 Cookie 的浏览器和有意禁用 Cookie 的访客比例非常有用。
+“Cookie支持” [维度](overview.md) 报告浏览器是否支持给定点击的Cookie。 此维度对于确定使用支持 Cookie 的浏览器和有意禁用 Cookie 的访客比例非常有用。
 
 ## 使用数据填充此维度
 

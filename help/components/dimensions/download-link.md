@@ -3,16 +3,16 @@ title: 下载链接
 description: 下载链接的名称。
 feature: Dimensions
 exl-id: 078014a2-1f09-4177-9575-b44c5da25816
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 # 下载链接
 
-“下载链接”维度报告网站上实现的下载链接的名称。当您想要了解有关下载链接的访客行为的更多信息时，此维度很有价值，例如：
+&#39;下载链接&#39; [维度](overview.md) 报告网站上实施的下载链接的名称。 当您想要了解有关下载链接的访客行为的更多信息时，此维度很有价值，例如：
 
 * 确定您网站中下载最频繁的文件。
 * 了解某些文件在特定时段内下载的次数是否更多。

@@ -3,16 +3,16 @@ title: 类别
 description: 点击的产品类别。
 feature: Dimensions
 exl-id: 3517b417-1a44-4d3e-ac16-93fdc5f36404
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # 类别
 
-“类别”维度报告点击的产品类别。此维度对于使用 `products` 变量且想要查看产品类别相关的量度（例如，最畅销的产品或查看次数最多的产品）的实施非常有用。如果您的网站上没有任何产品，则此维度可能会特意留空。
+“类别” [维度](overview.md) 报告点击的产品类别。 此维度对于使用 `products` 变量且想要查看产品类别相关的量度（例如，最畅销的产品或查看次数最多的产品）的实施非常有用。如果您的网站上没有任何产品，则此维度可能会特意留空。
 
 ## 使用数据填充此维度
 

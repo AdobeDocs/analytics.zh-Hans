@@ -3,16 +3,16 @@ title: Analytics 维度兼容性
 description: Analytics 维度和报表的参考。
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Analytics 维度兼容性
 
-本页列出了各自 Analytics 功能中支持的维度。
+本页列出 [维度](overview.md) 在各自的Analytics功能中受支持。
 
 >[!NOTE]
 >

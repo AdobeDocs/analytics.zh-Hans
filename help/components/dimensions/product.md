@@ -3,16 +3,16 @@ title: 产品
 description: 产品的名称。
 feature: Dimensions
 exl-id: 2649c200-4b0a-49a9-8592-9b9af72b91cf
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '142'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # 产品
 
-“产品”维度报告点击中产品的名称。此维度对于使用 `products` 变量且想要查看产品相关量度（例如，最畅销的产品或查看次数最多的产品）的实施非常有用。如果您的网站上没有任何产品，则此维度可能会特意留空。
+“产品” [维度](overview.md) 报告点击中产品的名称。 此维度对于使用 `products` 变量且想要查看产品相关量度（例如，最畅销的产品或查看次数最多的产品）的实施非常有用。如果您的网站上没有任何产品，则此维度可能会特意留空。
 
 ## 使用数据填充此维度
 

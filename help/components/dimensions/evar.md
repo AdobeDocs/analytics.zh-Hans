@@ -3,16 +3,16 @@ title: eVar（维度）
 description: 可在报告中使用的自定义维度。
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: 391d4378a360270acb40cbd9ddb2be3cd315d11c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
 # eVar
 
-*此帮助页介绍 eVar 如何作为维度使用。有关如何实施 eVar 的信息，请参阅实施用户指南中的 [eVar](/help/implement/vars/page-vars/evar.md)。*
+*此帮助页介绍eVar如何作为使用 [维度](overview.md). 有关如何实施 eVar 的信息，请参阅实施用户指南中的 [eVar](/help/implement/vars/page-vars/evar.md)。*
 
 eVar是自定义变量，您可以根据需要随意使用。 如果您拥有 [解决方案设计文档](/help/implement/prepare/solution-design.md)，您组织专属的大多数维度最终都会是 [!UICONTROL eVar]，是Adobe Analytics中可用的默认维度（如“页面名称”、“反向链接域”、“渠道”）的附加维度。 请参阅 [Dimension概述](overview.md) 以了解更多信息。
 

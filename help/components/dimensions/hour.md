@@ -3,16 +3,16 @@ title: 小时
 description: 量度出现的小时。
 feature: Dimensions
 exl-id: 323c46dd-87d0-487a-b954-e5ccbc1b919d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # 小时
 
-“小时”维度报告给定量度出现的小时（向下舍入）。第一个维度项目是日期范围内的第一个小时，最后一个维度项目是日期范围内的最后一个小时。此维度对趋势报表而言非常重要，因为它允许您查看一段时间内的量度变化情况。
+&#39;小时&#39; [维度](overview.md) 报告给定量度出现的小时（向下舍入）。 第一个维度项目是日期范围内的第一个小时，最后一个维度项目是日期范围内的最后一个小时。此维度对趋势报表而言非常重要，因为它允许您查看一段时间内的量度变化情况。
 
 ## 使用数据填充此维度
 
