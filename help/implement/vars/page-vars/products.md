@@ -3,10 +3,10 @@ title: 产品
 description: 发送有关所显示产品或购物车中产品的数据。
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: d252b0e99a7d38d171eab181718fa60780489652
+source-git-commit: 19bb3da46637bf8afc4e5723e2fa28b490e09c88
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 71%
+source-wordcount: '660'
+ht-degree: 68%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 71%
 
 ## 使用Web SDK的产品
 
-产品包括 [已为Adobe Analytics映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在多个XDM字段下：
+产品为 [已为Adobe Analytics映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在多个XDM字段下：
 
-* 类别已映射到 `productListItems[].lineItemId`.
+* 类别映射到 `productListItems[].productCategories[].categoryID`. 它使用 `productCategories[]` 数组。 `lineItemId` 也正确映射，但我们建议 `categoryID` 因为这是标准XDM。 如果两个XDM字段都存在 `lineItemId` 优先。
 * 产品已映射到 `productListItems[].SKU` 或 `productListItems[].name`. 如果两个XDM字段都存在， `productListItems[].SKU` 已使用。
-* 数量已映射到 `productListItems[].quantity`.
+* 数量映射到 `productListItems[].quantity`.
 * 价格已映射到 `productListItems[].priceTotal`.
-* 促销eVar映射到 `productListItems._experience.analytics.customDimensions.eVars.eVar1` 到 `productListItems._experience.analytics.customDimensions.eVars.eVar250`，具体取决于要捆绑到产品的eVar。
-* 促销事件映射到 `productListItems[]._experience.analytics.event1to100.event1.value` 到 `productListItems._experience.analytics.event901to1000.event1000.value`，具体取决于您要捆绑到产品的事件。 如果您在其中某个字段中设置了事件，则该事件会自动包含在 [事件](events/events-overview.md) 发送到Adobe Analytics的字符串。
+* 促销eVar映射到 `productListItems._experience.analytics.customDimensions.eVars.eVar1` 到 `productListItems._experience.analytics.customDimensions.eVars.eVar250`，具体取决于您要绑定到产品的eVar。
+* 促销事件映射到 `productListItems[]._experience.analytics.event1to100.event1.value` 到 `productListItems._experience.analytics.event901to1000.event1000.value`，具体取决于您要捆绑到产品的事件。 如果您在其中某个字段中设置了事件，则该事件将自动包含在 [事件](events/events-overview.md) 发送到Adobe Analytics的字符串。
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Adobe Experience Platform数据收集中没有专门用于设置此变量的字�
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-此变量在同一点击中支持多个产品。它对于购物车和包含多种产品的购买非常有用。整个的最大长度 `products` 字符串为64,000字节。 在字符串中使用逗号 (`,`) 分隔每个产品。
+此变量在同一点击中支持多个产品。它对于购物车和包含多种产品的购买非常有用。整个文件的最大长度 `products` 字符串为64,000字节。 在字符串中使用逗号 (`,`) 分隔每个产品。
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
