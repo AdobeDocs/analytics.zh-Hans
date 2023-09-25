@@ -5,9 +5,9 @@ user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报表包、营销渠道和分类等组件管理数据。了解跨设备分析。
 source-git-commit: dc84909f9c19681adfd28696495b667837056146
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '739'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -196,8 +196,8 @@ ht-degree: 98%
       + [过滤和加权度量](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
       + [使用函数](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
       + [标记计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
-      + [过滤计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
-      + [将计算量度标记为收藏](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
+      + [筛选计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
+      + [将计算量度标记为收藏内容](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
       + [批准计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [共享计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [复制计算量度](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
