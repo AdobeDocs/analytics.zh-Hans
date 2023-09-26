@@ -3,7 +3,7 @@ title: Adobe Analytics 使用的 IP 和域
 description: 如果贵组织的防火墙阻止源自 Adobe 的 IP 地址，请使用此列表更新您的防火墙设置。
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 23de7e6fb9f3b1276c7725ac99154e96e09a8469
+source-git-commit: 32318f2974e4ced630ab6d4090fa9ea5c420ddae
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 71%
@@ -12,15 +12,15 @@ ht-degree: 71%
 
 # Adobe Analytics 使用的 IP 和域
 
-一些防火墙配置会阻止源自 Adobe 数据收集服务器或负责访问数据的服务器的 IP 地址。您可以使用此范围列表来更改贵组织的防火墙设置，以允许从组织内访问和发送数据。此页面包括Adobe使用的入站系统（如数据收集）和出站系统（如数据馈送）。
+一些防火墙配置会阻止源自 Adobe 数据收集服务器或负责访问数据的服务器的 IP 地址。您可以使用此范围列表来更改贵组织的防火墙设置，以允许从组织内访问和发送数据。此页包括Adobe使用的入站系统（如数据收集）和出站系统（如数据馈送）。
 
 >[!IMPORTANT]
 >
->虽然Adobe尽其最大努力保持此文档为最新，但无法保证IP范围列表保持不变。 可能的更改包括：业务增长和扩展，互联网注册管理机构要求对 Adobe 的 IP 地址空间进行更改，或者互联网服务提供商停止运营。
+>虽然Adobe会尽力保持此文档为最新状态，但它不能保证IP范围列表保持不变。 可能的更改包括：业务增长和扩展，互联网注册管理机构要求对 Adobe 的 IP 地址空间进行更改，或者互联网服务提供商停止运营。
 
 ## 允许相关的技术域
 
-Adobe Analytics 使用以下主机来改进性能和产品体验。Adobe建议允许这些域通过贵组织的防火墙，以获得最佳的使用Adobe Analytics体验。
+Adobe Analytics 使用以下主机来改进性能和产品体验。Adobe建议允许这些域通过贵组织的防火墙，以获得最佳的Adobe Analytics使用体验。
 
 | 技术 | 域 |
 | --- | --- |
@@ -35,7 +35,7 @@ Adobe Analytics 使用以下主机来改进性能和产品体验。Adobe建议�
 
 ## 所有Adobe Analytics IP地址块
 
-下表涵盖用于Adobe Analytics的所有Adobe拥有的IP地址。 它们不包括公共云中托管的所有服务。
+下表介绍了用于Adobe Analytics的所有Adobe拥有的IP地址。 它们不包括公共云中托管的所有服务。
 
 | IP 块（CIDR 表示法） |
 | --- |
@@ -79,15 +79,15 @@ Adobe Analytics 使用以下主机来改进性能和产品体验。Adobe建议�
 
 ## AWS 主机
 
-Adobe Analytics 使用 Amazon Web Services 作为其数据收集流程的一部分。下表包括为Adobe保留的AWS IPv4主机地址。 上面汇总的块范围中&#x200B;**不**&#x200B;包含这些主机。
+Adobe Analytics 使用 Amazon Web Services 作为其数据收集流程的一部分。下表包含为Adobe保留的AWS IPv4主机地址。 上面汇总的块范围中&#x200B;**不**&#x200B;包含这些主机。
 
 | 位置 | 主机 |
 | --- | --- |
-| 中国 | `52.80.44.16` |
-| 中国 | `52.80.161.58` |
-| 中国 | `140.179.173.142` |
+| 中国 | `52.80.168.159` |
+| 中国 | `52.80.199.104` |
+| 中国 | `54.223.199.8` |
 
-下表包括AWS IPv6地址块，供Adobe使用。 上面汇总的块范围中&#x200B;**不**&#x200B;包含这些主机。
+下表包含Adobe使用的AWS IPv6地址块。 上面汇总的块范围中&#x200B;**不**&#x200B;包含这些主机。
 
 | 位置 | 主机 |
 | --- | --- |
