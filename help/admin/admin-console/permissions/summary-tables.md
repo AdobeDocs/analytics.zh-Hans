@@ -3,7 +3,7 @@ title: Adobe Analytics Permissions — 汇总表
 description: 汇总 Adobe Admin Console 中可用的 Adobe Analytics Permissions 的表格。
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
+source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 98%
@@ -70,6 +70,8 @@ ht-degree: 98%
 | 视频设置 |  |  |  | x | 未使用。 |
 | Web 资源 |  |  |  | x | 未使用。 |
 
+{style="table-layout:auto"}
+
 ## Analytics 工具
 
 | Analytics 工具 | 管理 | 访问控制 | 仅报告功能 | 已弃用 | 描述 |
@@ -110,3 +112,5 @@ ht-degree: 98%
 | 权限（写入）- Web 服务 |  |  |  | x | 已不再使用。允许用户使用管理员 API 编辑旧版 Analytics Permissions。请改为使用 Adobe Admin Console。 |
 | 首选项 |  |  |  | x | 未使用。 |
 | 单点登录 |  |  |  | x | 已不再使用。授予对已弃用的单点登录服务的访问权限。 |
+
+{style="table-layout:auto"}

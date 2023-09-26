@@ -4,7 +4,7 @@ title: 运行贡献分析
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 100%
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 运行贡献分析
 
-贡献分析是一个密集型计算机学习过程，专为揭示导致 Adobe Analytics 中所发现异常的因素而设计。它旨在帮助用户以远快于其他方式的速度找到执行进一步分析的焦点领域或时机。
+[贡献分析是一个密集型计算机学习过程，专为揭示导致 Adobe Analytics 中所发现异常的因素而设计。](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)它旨在帮助用户以远快于其他方式的速度找到执行进一步分析的焦点领域或时机。
 
 ## 运行贡献分析 {#section_7D2C5E48A5664727941DF4C90976D9DC}
 
