@@ -3,10 +3,10 @@ title: Adobe Admin Console 中“报表包工具”的产品配置文件权限
 description: 了解“报表包工具”下面的每个权限项。
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
-source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
+source-git-commit: e53205605642d5c383b1385c5ac4f24e51e6d316
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 90%
+source-wordcount: '637'
+ht-degree: 94%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 90%
 | 报表包工具权限项 | 描述 |
 |------|------|
 | [!UICONTROL 帐户摘要] | 授予对报告包管理器中“常规”>“一般帐户设置”的访问权限。 |
-| [!UICONTROL Advertising Analytics 配置] | 授予对设置Advertising Analytics的所有方面的访问权限。 |
+| [!UICONTROL Advertising Analytics 配置] | 允许用户将报表包配置为可以使用 Advertising Analytics。 |
 | [!UICONTROL 异常检测] | 授予对 Analysis Workspace 中“异常检测”的访问权限。 |
 | [!UICONTROL 机器人页面] | 授予对 Reports &amp; Analytics 中“网站指标”>“机器人”>“机器人页面报告”的访问权限。 |
 | [!UICONTROL 机器人] | 授予对 Reports &amp; Analytics 中“网站指标”>“机器人”>“机器人报告”的访问权限。 |
@@ -44,8 +44,8 @@ ht-degree: 90%
 | [!UICONTROL 实时报告] | 授予对 Reports &amp; Analytics 中“网站指标”>“实时报告”的访问权限。使用权限项“实时报告配置”授予对此报告的设置权限。 |
 | [!UICONTROL 实时报告配置] | 授予对报告包管理器中实时报告的访问权限。使用权限项“实时报告”授予对报告本身的访问权限。 |
 | [!UICONTROL 回访] | 授予对 Reports &amp; Analytics 中“访客维系”>“回访”的访问权限。 |
-| [!UICONTROL 报表活动管理器管理员] | 授予对详细信息页面的访问权限和取消请求的能力。 |
-| [!UICONTROL 报告活动管理器访问] |  |
+| [!UICONTROL 报表活动管理器管理员] | 待定 |
+| [!UICONTROL 报告活动管理器访问] | 待定 |
 | [!UICONTROL 报告包管理] | 授予对报告包管理器的访问权限，但不允许进行任何更改。 |
 | [!UICONTROL R&amp;A功能板图像小型报表] | 不使用 |
 | [!UICONTROL R&amp;A功能板量规报表] | 不使用 |

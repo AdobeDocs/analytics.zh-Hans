@@ -3,9 +3,9 @@ title: Analytics 工具的产品配置文件权限
 description: Analytics 工具权限项用于授予对 Adobe Analytics 中各项功能的访问权限。
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 feature: Admin Tools
-source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
+source-git-commit: e53205605642d5c383b1385c5ac4f24e51e6d316
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '491'
 ht-degree: 93%
 
 ---
@@ -17,7 +17,7 @@ Analytics 工具权限项用于授予对 Adobe Analytics 中各项功能的访�
 | Analytics 工具权限项 | 描述 |
 |----|----|
 | [!UICONTROL Activity Map] | 授予对“工具”>“Activity Map”的访问权限。允许用户使用 Activity Map 扩展。 |
-| [!UICONTROL Advertising Analytics 管理] | 未使用。 |
+| [!UICONTROL Advertising Analytics 管理] | 允许用户设置/编辑/查看广告搜索帐户。 |
 | [!UICONTROL Analysis Workspace 访问权限] | 授予对 Analysis Workspace 的访问权限。用户必须属于此组（首选）或“Reports &amp; Analytics 访问权限”组，才能使用 Adobe Analytics。 |
 | [!UICONTROL Analysis Workspace：另存为模板] | 授予对 Analysis Workspace 中“项目”>“另存为模板”的访问权限。 |
 | [!UICONTROL 创建注释] | 允许创建注释。 |
