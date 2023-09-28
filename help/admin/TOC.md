@@ -4,10 +4,12 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报告包等等。
-source-git-commit: 48ca87747093efe72476de739f0ee5b1b3fd291a
+hide: true
+hidefromtoc: true
+source-git-commit: 8a9c3b4d6c7a59582a6fd8bdc5464c2dbed3ad1b
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 98%
+source-wordcount: '633'
+ht-degree: 99%
 
 ---
 
@@ -32,6 +34,7 @@ ht-degree: 98%
    + [按 IP 地址排除](admin/exclude-ip.md)
    + [日志](admin/logs.md)
    + [报告活动管理器](admin/reporting-activity.md)
+   + [组件迁移](admin/component-migration.md)
    + 报告包管理器 {#manage-report-suites}
       + 编辑报告包设置 {#edit-report-suite}
          + 常规 {#report-suite-general}
@@ -171,7 +174,7 @@ ht-degree: 98%
       + [服务器调用使用情况常见问题解答](admin/c-server-call-usage/overage-faq.md)
    + 用户和产品管理（旧版）{#user-product-management}
       + [用户和产品管理（旧版）](admin/user-management2/user-management.md)
-      + [转移用户资产或设置帐户过期日期](admin/user-management2/users-assets.md)
+      + [转移用户资源或设置帐户到期日期](admin/user-management2/users-assets.md)
       + 将用户迁移到 Adobe Admin Console {#migrate-users}
          + [将 Analytics 用户迁移到 Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
          + [为 Adobe ID 迁移 Analytics 用户帐户](admin/user-management2/user-migration/t-migrate-users.md)
