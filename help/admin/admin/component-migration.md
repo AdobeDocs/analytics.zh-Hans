@@ -2,10 +2,10 @@
 description: 介绍如何将组件和项目从Adobe Analytics迁移到Customer Journey Analytics。
 title: 将组件和项目从Adobe Analytics迁移到Customer Journey Analytics
 feature: Admin Tools
-source-git-commit: 8a9c3b4d6c7a59582a6fd8bdc5464c2dbed3ad1b
+source-git-commit: 73cbfbbad4d8e7bb3107ee08861a6342aba85e84
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 6%
+source-wordcount: '1133'
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,9 @@ Adobe Analytics管理员可以将Adobe Analytics组件和项目迁移到Customer
 
   某些维度和量度会自动匹配；其他维度和量度必须在迁移过程中手动匹配。
 
-## 先决条件
+## 准备迁移
+
+### 先决条件
 
 在准备好迁移项目及其关联的维度和量度之前，您首先需要：
 
@@ -37,7 +39,36 @@ Adobe Analytics管理员可以将Adobe Analytics组件和项目迁移到Customer
 
   权限选项卡是 Admin Console 中每个产品配置文件的一部分。您可以将用户添加到特定的产品配置文件。然后将权限分配给特定的数据视图，并指定用户在产品配置文件中拥有的权限。
 
-## 创建迁移计划作为组织
+* 创建迁移计划，如以下部分所述， [创建迁移计划作为组织](#create-a-migration-plan-as-an-organization).
+
+### 了解迁移中包含的内容
+
+下表概述了迁移中包含的项目和组件元素：
+
+
+|  | 项目 | Dimension和指标 |
+|---------|----------|---------|
+| **日期范围** | 是 | 不适用 |
+| **区段** | 是 | 不适用 |
+| **快速区段** | 是 | 不适用 |
+| **面板** | 是 | 不适用 |
+| **可视化图表** | 是 | 不适用 |
+| **所有者** | （由执行迁移的用户定义） | ? |
+| **策划** | 否 | 不适用 |
+| **共享（项目角色）** | 否 | 否 |
+| **批注** | 否 | 不适用 |
+| **文件夹结构** | 否 | 不适用 |
+| **描述** | 是 | ? |
+| **标记** | ? | ? |
+| **时间表** | ? | 不适用 |
+| **归因（在维度上）** | 不适用 | ? |
+| **异常检测** | ? | 不适用 |
+| **贡献分析** | ? | 不适用 |
+| **警报** | ? | 不适用 |
+
+{style="table-layout:auto"}
+
+### 创建迁移计划作为组织
 
 由于与给定项目迁移匹配的任何组件都适用于整个组织未来的任何项目迁移，因此您的组织提前计划所有项目迁移非常重要。
 
@@ -49,7 +80,7 @@ Adobe Analytics管理员可以将Adobe Analytics组件和项目迁移到Customer
 >
 >在将任何项目迁移到Customer Journey Analytics（如本节所述）之前，请通过了解 [规划迁移](#plan-the-migration) 部分。
 >
->您匹配的任何维度或量度对于此项目以及在整个组织中迁移的所有未来项目都是永久性的。 如果继续，则无法修改您所做的匹配。
+>您匹配的任何维度或量度对于此项目以及在整个组织中迁移的所有未来项目都是永久性的。 无法修改您所做的任何匹配。
 
 
 
