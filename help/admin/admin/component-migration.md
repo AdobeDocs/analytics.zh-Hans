@@ -4,16 +4,16 @@ title: 将组件和项目从Adobe Analytics迁移到Customer Journey Analytics
 feature: Admin Tools
 hide: true
 hidefromtoc: true
-source-git-commit: 94041993f624fc5253929a92475842311c125799
+source-git-commit: 792b2171c5535fcd3920b5cbb100b2fb7c642db8
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 9%
+source-wordcount: '1784'
+ht-degree: 8%
 
 ---
 
 # 将组件和项目从Adobe Analytics迁移到Customer Journey Analytics
 
-Adobe Analytics管理员可以将Adobe Analytics组件和项目迁移到Customer Journey Analytics。
+Adobe Analytics管理员可以将Adobe Analytics项目及其相关组件迁移到Customer Journey Analytics。
 
 迁移过程包括：
 
@@ -21,15 +21,17 @@ Adobe Analytics管理员可以将Adobe Analytics组件和项目迁移到Customer
 
 * 将Adobe Analytics报表包中的维度和量度映射到Customer Journey Analytics数据视图中的维度和量度。
 
-  某些维度和量度会自动映射；其他维度和量度必须在迁移过程中手动映射。
+  某些维度和量度会自动映射；其他维度和量度必须在迁移过程中手动映射。 区段也会迁移，但无需在迁移过程中映射这些区段。
+
+  迁移完成后，所有已迁移的组件都会显示在迁移摘要中。
 
 ## 准备迁移
 
-在开始迁移组织中的项目之前，请完成前提条件，了解哪些项目已迁移，哪些项目未迁移，并为组织创建迁移计划。
+在您组织中的任何人开始迁移项目之前，请完成以下部分。
 
 ### 先决条件
 
-在准备好迁移项目及其关联的维度和量度之前，您首先需要：
+在准备好迁移项目及其相关组件之前，您首先需要：
 
 * 使用Analytics Source Connector在Customer Journey Analytics中查看Adobe Analytics报告包数据。 为此，您需要：
 
@@ -49,28 +51,70 @@ Adobe Analytics管理员可以将Adobe Analytics组件和项目迁移到Customer
 
 下表概述了迁移中包含的项目和组件元素：
 
+#### 已迁移的组件元素
 
-|  | 项目 | Dimension和指标 |
-|---------|----------|---------|
-| **日期范围** | 是 | 不适用 |
-| **区段** | 是 | 不适用 |
-| **快速区段** | 是 | 不适用 |
-| **面板** | 是 | 不适用 |
-| **可视化图表** | 是 | 不适用 |
-| **所有者** | （由执行迁移的用户定义） | ? |
-| **策划** | 否 | 不适用 |
-| **共享（项目角色）** | 否 | 否 |
-| **批注** | 否 | 不适用 |
-| **文件夹结构** | 否 | 不适用 |
-| **描述** | 是 | ? |
-| **标记** | ? | ? |
-| **时间表** | ? | 不适用 |
-| **归因（在维度上）** | 不适用 | ? |
-| **异常检测** | ? | 不适用 |
-| **贡献分析** | ? | 不适用 |
-| **警报** | ? | 不适用 |
+|  | 已迁移 |
+|---------|---------|
+| **[所有者](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | ![复选标记](assets/Smock_Checkmark_18_N.svg) |
+| **[共享](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | 否 |
+| **[描述](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | ? |
+| **[标记](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | 否 |
+| **[归因（在维度上）](/help/analyze/analysis-workspace/attribution/overview.md)** | ? |
 
 {style="table-layout:auto"}
+
+#### 迁移的项目元素
+
+|  | 已迁移 |
+|---------|----------|
+| **[日期范围](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![复选标记](assets/Smock_Checkmark_18_N.svg) |
+| **[区段](/help/components/segmentation/seg-overview.md)** | ![复选标记](assets/Smock_Checkmark_18_N.svg) |
+| **[快速区段](/help/analyze/analysis-workspace/components/segments/quick-segments.md)** | ![复选标记](assets/Smock_Checkmark_18_N.svg) |
+| **[维度](/help/components/dimensions/overview.md)** | ![复选标记](assets/Smock_Checkmark_18_N.svg) 自动或手动映射 |
+| **[指标](/help/components/metrics/overview.md)** | ![复选标记](assets/Smock_Checkmark_18_N.svg) 自动或手动映射 |
+| **[面板](/help/analyze/analysis-workspace/c-panels/panels.md)** | ![复选标记](assets/Smock_Checkmark_18_N.svg) |
+| **[可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![复选标记](assets/Smock_Checkmark_18_N.svg) |
+| **[所有者](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![复选标记](assets/Smock_Checkmark_18_N.svg) 由执行迁移的用户定义 |
+| **[策划](/help/analyze/analysis-workspace/curate-share/curate.md)** | 否 |
+| **[共享（项目角色）](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | 否 |
+| **[共享（与任何人共享链接）](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | ? <!-- if no, combine with the above and just call it sharing? What about sharing links?--> |
+| **[批注](/help/analyze/analysis-workspace/components/annotations/overview.md)** | 否 |
+| **[文件夹结构](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | 否 |
+| **[描述](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![复选标记](assets/Smock_Checkmark_18_N.svg) |
+| **[标记](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | 否 |
+| **[时间表](/help/components/scheduled-projects-manager.md)** | 否 |
+| **[异常检测](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)** | ? |
+| **[收藏夹](/help/analyze/landing.md)** | ? |
+
+{style="table-layout:auto"}
+
+### 了解导致错误的不支持的元素
+
+Customer Journey Analytics不支持以下可视化图表、面板和功能。 如果在迁移之前将这些元素包含在项目中，则它们可能会导致迁移失败，或者会在迁移项目后导致错误。
+
+在将项目迁移到Customer Journey Analytics之前，请从Adobe Analytics项目中删除这些元素。 如果迁移失败，请在重试迁移之前删除这些元素。
+
+#### 不支持的可视化图表
+
+* [地图](/help/analyze/analysis-workspace/visualizations/map-visualization.md)
+
+#### 不支持的面板
+
+* [Analytics for Target (A4T)](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)
+
+* [区段比较](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+
+* [媒体平均受众访问分钟数](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)
+
+* [下一个或上一个项目](/help/analyze/analysis-workspace/c-panels/next-previous.md)
+
+* [页面摘要](/help/analyze/analysis-workspace/c-panels/page-summary.md)
+
+#### 不支持的功能
+
+* [贡献分析](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
+
+* [警报](/help/components/c-alerts/intellligent-alerts.md)
 
 ### 创建迁移计划作为组织
 
