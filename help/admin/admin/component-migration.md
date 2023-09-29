@@ -4,10 +4,10 @@ title: 将组件和项目从Adobe Analytics迁移到Customer Journey Analytics
 feature: Admin Tools
 hide: true
 hidefromtoc: true
-source-git-commit: 792b2171c5535fcd3920b5cbb100b2fb7c642db8
+source-git-commit: 99b363f506e46fae7ce835588defd4f407d02c9e
 workflow-type: tm+mt
-source-wordcount: '1784'
-ht-degree: 8%
+source-wordcount: '1974'
+ht-degree: 9%
 
 ---
 
@@ -116,11 +116,89 @@ Customer Journey Analytics不支持以下可视化图表、面板和功能。 �
 
 * [警报](/help/components/c-alerts/intellligent-alerts.md)
 
-### 创建迁移计划作为组织
+### 以组织身份决定如何映射不支持的组件
 
-由于为给定项目迁移映射的任何组件都适用于整个组织未来的任何项目迁移，因此您的组织提前计划所有项目迁移非常重要。
+>[!IMPORTANT]
+>
+>迁移过程会识别Adobe Analytics项目中无法自动映射到Customer Journey Analytics中组件的组件，并且允许您手动映射这些组件。
+>
+>**对一个项目所做的任何映射都将应用于整个组织中的所有未来项目，而不管哪个用户正在执行迁移。 除非联系客户关怀团队，否则无法修改或撤消这些映射。**
+>
+>因此，在迁移任何项目之前，贵组织必须决定如何映射维度和量度，这一点非常重要。 这样做可避免单个管理员在仅考虑单个项目时在思洛存储器中进行决策。
+>
+>以下是您必须手动映射的维度和量度列表（如果项目中存在这些维度和量度）。 我们建议您在迁移之前查看此列表。 如果项目中存在这些组件中的任何组件，请立即决定要将它们映射到哪些Customer Journey Analytics组件。
 
-作为组织，您应该决定如何映射维度和量度。 这样做可避免单个管理员在仅考虑单个项目时在思洛存储器中进行决策。
+
+#### 不支持的维度
+
+* averagepagetime
+* pagetimeseconds
+* singlepagevisits
+* visitnumber
+* timeprior
+* timespent
+* category
+* connectiontype
+* customerloyalty
+* customlink
+* downloadlink
+* exitlink
+* hitdepth
+* hittype
+* pathlength
+* daysbeforefirstpurchase
+* dayssincelastpurchase
+* dayssincelastvisit
+* identificationstate
+* optoutreason
+* persistentcookie
+* returnfrequency
+* searchenginenatural
+* searchenginenaturalkeyword
+* mobilecarrier
+* monitorresolution
+* surveybase
+* mcaudiences
+* tntbase
+* targetraw
+
+
+#### 不支持的指标
+
+* timespentvisit
+* timespentvisitor
+* 重新载入
+* bounces
+* 退回
+* pageevents
+* pageviewspervisit
+* orderspervisit
+* averagepagedepth
+* averagetimespentonsite
+* 退出实例
+* 自定义实例
+* 下载链接实例
+* 黑暗访客
+* singlepagevisits
+* singlevaluevisits
+* visitorhomepage
+* visitorsmcvisid
+* pagesnotfound
+* 新参与
+* time_granular
+* concurrent_viewers_visitors
+* concurrent_viewers_occurrences
+* 设备
+* estimatedpeople
+* playback_time_spent_seconds
+* playback_time_spent_minutes
+* average_minute_audience_time_based
+* average_minute_audience_media_time
+* average_minute_audience_content_time
+* video_length
+* 目标转换
+* targetetimpression
+
 
 ## 将Adobe Analytics项目迁移到Customer Journey Analytics
 
@@ -214,11 +292,13 @@ Customer Journey Analytics不支持以下可视化图表、面板和功能。 �
 
 如果迁移失败，您可以重试迁移。
 
-您可以通过以下任一方式重试失败的迁移：
+在重试失败的迁移之前，请确保删除所有 [不支持的元素](#understand-unsupported-elements-that-cause-errors) 项目中的。
 
 >[!NOTE]
 >
 >如果重试后迁移继续失败，请联系客户关怀团队并提供项目ID。 您可以在迁移状态页面中找到项目ID。 <!-- when does this page display? How can they get there -->
+
+要重试失败的迁移，请执行以下操作：
 
 1. 在 Adobe Analytics 中，选择&#x200B;[!UICONTROL **管理员**]&#x200B;选项卡，然后选择&#x200B;[!UICONTROL **所有管理员**]。
 
