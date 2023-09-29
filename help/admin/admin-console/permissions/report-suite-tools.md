@@ -3,9 +3,9 @@ title: Adobe Admin Console 中“报表包工具”的产品配置文件权限
 description: 了解“报表包工具”下面的每个权限项。
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
-source-git-commit: e53205605642d5c383b1385c5ac4f24e51e6d316
+source-git-commit: 512c348bda14654daa155f774dd384cba4aed2bd
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '639'
 ht-degree: 94%
 
 ---
@@ -44,8 +44,8 @@ ht-degree: 94%
 | [!UICONTROL 实时报告] | 授予对 Reports &amp; Analytics 中“网站指标”>“实时报告”的访问权限。使用权限项“实时报告配置”授予对此报告的设置权限。 |
 | [!UICONTROL 实时报告配置] | 授予对报告包管理器中实时报告的访问权限。使用权限项“实时报告”授予对报告本身的访问权限。 |
 | [!UICONTROL 回访] | 授予对 Reports &amp; Analytics 中“访客维系”>“回访”的访问权限。 |
-| [!UICONTROL 报表活动管理器管理员] | 待定 |
-| [!UICONTROL 报告活动管理器访问] | 待定 |
+| [!UICONTROL 报表活动管理器管理员] | 不使用 |
+| [!UICONTROL 报告活动管理器访问] | 不使用 |
 | [!UICONTROL 报告包管理] | 授予对报告包管理器的访问权限，但不允许进行任何更改。 |
 | [!UICONTROL R&amp;A功能板图像小型报表] | 不使用 |
 | [!UICONTROL R&amp;A功能板量规报表] | 不使用 |

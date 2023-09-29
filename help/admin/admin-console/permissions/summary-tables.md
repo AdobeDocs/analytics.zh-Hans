@@ -3,7 +3,7 @@ title: Adobe Analytics Permissions — 汇总表
 description: 汇总 Adobe Admin Console 中可用的 Adobe Analytics Permissions 的表格。
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
+source-git-commit: 512c348bda14654daa155f774dd384cba4aed2bd
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 98%
@@ -12,6 +12,7 @@ ht-degree: 98%
 
 # Admin Console 中的 Analytics 权限
 
+<!--This page is no longer in the TOC. It's a duplication of info and contradicts some of the info in the Report Suite Tools and Analytics Tools topics. -->
 使用以下汇总表，根据逻辑分组识别 Adobe Admin Console 中的 Adobe Analytics Permissions。
 
 ## 报告包工具
