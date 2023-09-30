@@ -3,10 +3,10 @@ title: Adobe Analytics 中使用的术语
 description: Adobe Analytics 词汇表，用于定义常用术语。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
 workflow-type: tm+mt
-source-wordcount: '2554'
-ht-degree: 100%
+source-wordcount: '2549'
+ht-degree: 98%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 * **登录公司：**&#x200B;由您的组织使用的报表包集合。某些组织具有多个适用于该组织不同部分的登录公司。
 * **营销渠道：** Adobe Analytics 中的一项功能，可按访客到达网站的方式对点击量进行分类。可使用营销渠道处理规则自定义用于分类点击的逻辑。请参阅《组件用户指南》中的[营销渠道快速入门](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
 * **量度：**&#x200B;包含定量数据的组件类型。量度值通常包含数字，如页面查看次数、访问次数和收入。通常与维度相对应。
-* **Mobile Services：**&#x200B;可以在整个 Adobe Experience Cloud 范围内将移动应用程序的移动营销功能整合在一起，以便您了解和提高应用程序的用户参与度。请参阅 [Mobile Services 概述](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=zh-Hans)。
+* **移动服务：** 一款已弃用的Adobe产品，它可以在整个Adobe Experience Cloud范围内将移动设备应用程序的移动营销功能整合在一起，以便您了解和提高应用程序的用户参与度。
 * **多包标记：**&#x200B;向多个报表包发送相同点击的实践。随着虚拟报表包的推出，基本上不再需要这一实践。大多数多包标记工作可帮助满足全局报表包的需求。
 * **标准化：**&#x200B;一种组织可视化的方法，采用所有量度并强制按同等比例排列量度，从而更容易比较趋势。
 * **发生次数：**&#x200B;一种量度类型，用于显示设置或保留维度项目的点击量。请参阅《组件用户指南》中的[发生次数](/help/components/metrics/occurrences.md)量度。

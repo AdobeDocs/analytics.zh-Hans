@@ -3,10 +3,10 @@ title: 操作系统类型
 description: 操作系统，不考虑版本。
 feature: Dimensions
 exl-id: 0afd5261-98e8-4247-865a-1b8844c53ff4
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 85%
+source-wordcount: '136'
+ht-degree: 55%
 
 ---
 
@@ -16,8 +16,11 @@ ht-degree: 85%
 
 ## 使用数据填充此维度
 
-此维度引用 Adobe 内部的一个查找表。查找值基于图像请求中的 `User-Agent` HTTP 标头。如果您使用 AppMeasurement 库（例如，通过 Adobe Experience Platform 中的标记），则此维度可开箱即用。
+此维度引用 Adobe 内部的一个查找表。查找值基于图像请求中的 `User-Agent` HTTP 标头。Adobe合作伙伴 [DeviceAtlas](https://deviceatlas.com/) 在用户代理和操作系统类型之间维护查找。
 
-## 维度项目
+* 对于AppMeasurement实施，此维度可开箱即用。
+* 对于Web SDK实施，启用 [!UICONTROL 设备查找] 时间 [配置数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans).
 
-维度项目包括所使用的操作系统类型。示例包括 `"Microsoft Windows"`、`"Apple Macintosh"`、`"Google Android"` 和 `"Apple iOS"`。
+## 维度项
+
+Dimension项目包括使用的操作系统类型。 示例包括 `"Microsoft Windows"`、`"Apple Macintosh"`、`"Google Android"` 和 `"Apple iOS"`。

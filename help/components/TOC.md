@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报表包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: dc84909f9c19681adfd28696495b667837056146
-workflow-type: ht
-source-wordcount: '739'
-ht-degree: 100%
+source-git-commit: fa9ba599ccc3d6fe1176e6b2ec20457f30cb5959
+workflow-type: tm+mt
+source-wordcount: '750'
+ht-degree: 98%
 
 ---
 
@@ -66,7 +66,8 @@ ht-degree: 100%
    + [营销渠道](dimensions/marketing-channel.md)
    + [营销渠道详细信息](dimensions/marketing-detail.md)
    + [分钟](dimensions/minute.md)
-   + [移动设备维度](dimensions/mobile-dimensions.md)
+   + [移动生命周期维度](dimensions/lifecycle-dimensions.md)
+   + [移动设备查找维度](dimensions/mobile-dimensions.md)
    + [监视器分辨率](dimensions/monitor-resolution.md)
    + [月份](dimensions/month-of-year.md)
    + [月](dimensions/month.md)
@@ -99,6 +100,7 @@ ht-degree: 100%
    + [跟踪选择退出的原因](dimensions/tracking-opt-out-reason.md)
    + [美国 DMA](dimensions/us-dma.md)
    + [美国各州](dimensions/us-states.md)
+   + [语音维度](dimensions/voice-dimensions.md)
    + [访问深度](dimensions/visit-depth.md)
    + [访问量](dimensions/visit-number.md)
    + [周](dimensions/week.md)
@@ -127,6 +129,7 @@ ht-degree: 100%
    + [退出](metrics/exits.md)
    + [已识别的人员](metrics/identified-people.md)
    + [实例](metrics/instances.md)
+   + [移动生命周期量度](metrics/lifecycle-metrics.md)
    + [移动设备查看次数](metrics/mobile-views.md)
    + [新参与](metrics/new-engagements.md)
    + [发生次数](metrics/occurrences.md)
@@ -151,6 +154,7 @@ ht-degree: 100%
    + [独特设备](metrics/unique-devices.md)
    + [独特访客](metrics/unique-visitors.md)
    + [件数](metrics/units.md)
+   + [语音量度](metrics/voice-metrics.md)
    + [具有 Experience Cloud ID 的访客](metrics/visitors-with-ecid.md)
    + [访问次数](metrics/visits.md)
 + 分段{#segmentation}

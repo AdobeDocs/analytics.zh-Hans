@@ -3,10 +3,10 @@ title: 浏览器类型
 description: 开发浏览器的组织。
 feature: Dimensions
 exl-id: 2a88ebc6-879e-4e5b-a8e5-40a32d54ac1b
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 89%
+source-wordcount: '155'
+ht-degree: 69%
 
 ---
 
@@ -16,7 +16,10 @@ ht-degree: 89%
 
 ## 使用数据填充此维度
 
-此维度引用 Adobe 内部的一个查找表。查找值基于图像请求中的 `User-Agent` HTTP 标头。如果您使用 AppMeasurement 库（例如，通过 Adobe Experience Platform 中的标记），则此维度可开箱即用。
+此维度引用 Adobe 内部的一个查找表。查找值基于图像请求中的 `User-Agent` HTTP 标头。Adobe合作伙伴 [DeviceAtlas](https://deviceatlas.com/) 在用户代理和浏览器之间维护查找。
+
+* 对于AppMeasurement实施，此维度可开箱即用。
+* 对于Web SDK实施，启用 [!UICONTROL 设备查找] 时间 [配置数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans).
 
 ## 维度项目
 

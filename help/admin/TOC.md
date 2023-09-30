@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报告包等等。
-source-git-commit: 512c348bda14654daa155f774dd384cba4aed2bd
+source-git-commit: b8a71d9b351368721909d1580a690bf924eb39fb
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '632'
 ht-degree: 99%
 
 ---
@@ -106,7 +106,9 @@ ht-degree: 99%
             + [计划尖峰](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [永久性流量](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [默认量度](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
-         + [应用程序管理](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+         + 应用程序管理 {#app-management}
+            + [应用程序报表](admin/c-manage-report-suites/c-edit-report-suites/app-reporting.md)
+            + [应用程序分类](admin/c-manage-report-suites/c-edit-report-suites/app-classifications.md)
          + [媒体管理](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
          + [Activity Map](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)

@@ -3,9 +3,9 @@ title: AppMeasurement for JavaScript 发行说明
 description: AppMeasurement for JavaScript 的发行说明汇总。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: b99717f4b7fe23172c5a9b3adaa92341cdcc5e44
+source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2366'
 ht-degree: 92%
 
 ---
@@ -353,8 +353,8 @@ AppMeasurement for JavaScript 的发行说明汇总。
 
 发行日期：**2015 年 5 月 21 日**
 
-* 从 iOS SDK 4.5 版开始，新增的 iOS 扩展允许您从 Apple Watch 应用程序、“今天”小组件、照片编辑小组件和所有其他 iOS 扩展应用程序中收集使用情况数据。请参阅 Mobile Services 用户指南中的 [iOS 扩展实施](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html?lang=zh-Hans)。
-* 从 Android SDK 版本 4.5 开始，新增的 Android 扩展允许您从 Android 可穿戴应用程序中收集数据。请参阅 Mobile Services 用户指南中的 [Android 可穿戴应用程序](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html?lang=zh-Hans)。
+* 从 iOS SDK 4.5 版开始，新增的 iOS 扩展允许您从 Apple Watch 应用程序、“今天”小组件、照片编辑小组件和所有其他 iOS 扩展应用程序中收集使用情况数据。
+* 从 Android SDK 版本 4.5 开始，新增的 Android 扩展允许您从 Android 可穿戴应用程序中收集数据。
 * 包括 Visitor API 1.4。
 * 更新了 AudienceManagement 模块，以便使用 DIL 版本 6.0。
 

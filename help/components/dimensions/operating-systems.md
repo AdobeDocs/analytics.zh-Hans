@@ -3,10 +3,10 @@ title: 操作系统
 description: 访客的操作系统。
 feature: Dimensions
 exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 24972ec79cb42224a97dda6b073b517b301113ba
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 26%
+source-wordcount: '433'
+ht-degree: 21%
 
 ---
 
@@ -16,7 +16,10 @@ ht-degree: 26%
 
 ## 使用数据填充此维度
 
-此维度引用 Adobe 内部的一个查找表。查找值基于图像请求中的 `User-Agent` HTTP 标头。如果您使用 AppMeasurement 库（例如，通过 Adobe Experience Platform 中的标记），则此维度可开箱即用。
+此维度引用 Adobe 内部的一个查找表。查找值基于图像请求中的 `User-Agent` HTTP 标头。Adobe合作伙伴 [DeviceAtlas](https://deviceatlas.com/) 在用户代理和操作系统之间维护查找。
+
+* 对于AppMeasurement实施，此维度可开箱即用。
+* 对于Web SDK实施，启用 [!UICONTROL 设备查找] 时间 [配置数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans).
 
 ## 维度项目
 

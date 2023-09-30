@@ -4,9 +4,9 @@ keywords: 隐私
 title: 隐私概述
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 9fd055fd747c7124d49e280af1b0acc24d79be8e
+source-git-commit: 266c354cdc17e99d847ce57c1e6261386299a8cf
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '986'
 ht-degree: 3%
 
 ---
@@ -42,9 +42,9 @@ Adobe Analytics可以收集以下类型的数据：
 | 内部搜索词 | 内部搜索数据包括源自网站或应用程序搜索功能的关键字。 Adobe不会自动收集内部搜索数据。 但是，您可以自定义实施以收集此数据。 这种做法在使用Adobe Analytics的组织中很常见。 | [eVar](../components/dimensions/evar.md) |
 | 计算机和浏览器规格 | 数据收集库会自动收集低熵浏览器提示，例如浏览器类型、操作系统类型以及设备是桌面还是移动设备。 需要自定义配置才能收集高熵提示，例如浏览器的特定版本/内部版本、设备型号或操作系统版本。 请参阅 [客户端提示概述](client-hints.md) 以了解更多信息。 | [浏览器](../components/dimensions/browser.md)， [操作系统](../components/dimensions/operating-systems.md)， [移动设备维度](../components/dimensions/mobile-dimensions.md)， [监视器分辨率](../components/dimensions/monitor-resolution.md) |
 | 地理位置信息 | Adobe让您可以启用或禁用每个网站或应用程序（在报表包级别）的地理位置数据收集。 默认启用地理位置数据收集。 | [城市](../components/dimensions/cities.md)， [地区](../components/dimensions/regions.md)， [国家/地区](../components/dimensions/countries.md) |
-| IP 地址 | Adobe提供在存储此数据时模糊处理最后一个八位字节或完全模糊处理访客IP地址的功能。 默认情况下，EMEA客户的IP地址设置通常会完全模糊处理。 无论使用何种模糊处理设置，IP地址都不可用作Adobe Analytics中的维度；它仅包含在 [数据馈送](../export/analytics-data-feed/data-feed-overview.md). | 无 |
+| IP 地址 | Adobe提供在存储此数据时模糊处理（哈希）或完全删除访客IP地址的功能。 默认情况下，EMEA客户的IP地址设置通常会进行模糊处理。 无论使用何种模糊处理设置，IP地址都不可用作Analysis Workspace中的维度；它仅包含在 [数据馈送](../export/analytics-data-feed/data-feed-overview.md). 请参阅 [常规帐户设置](../admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) 有关可用混淆设置的详细信息，请参阅管理员指南。 | 无 |
 | 您网站上提供的表单信息 | 所有实施类型都需要配置才能收集此数据。 您可以将此数据包含在自定义变量中。 | [eVar](../components/dimensions/evar.md) |
-| 单击您网站上的广告或链接 | 如果使用数据收集库，则默认收集。 启用Activity Map时，会提供其他信息，例如点击的位置。 | [Activity Map](../analyze/activity-map/activity-map.md)， [退出链接](../components/dimensions/exit-link.md)， [下载链接](../components/dimensions/download-link.md) |
+| 单击您网站上的广告或链接 | 收集条件 [`trackExternalLinks`](../implement/vars/config-vars/trackexternallinks.md) 或 [`trackDownloadLinks`](../implement/vars/config-vars/trackdownloadlinks.md) 已启用。 启用Activity Map时，会提供其他信息，例如点击的位置。 | [Activity Map](../analyze/activity-map/activity-map.md)， [退出链接](../components/dimensions/exit-link.md)， [下载链接](../components/dimensions/download-link.md) |
 | 在您的网站上购买的产品 | 所有实施类型都需要配置才能收集此数据。 Adobe提供了多个默认变量来收集此信息。 | [产品](../components/dimensions/product.md)， [订购](../components/metrics/orders.md)， [收入](../components/metrics/revenue.md) |
 
 {style="table-layout:auto"}
@@ -53,4 +53,4 @@ Adobe Analytics可以收集以下类型的数据：
 
 ## 数据处理位置
 
-Adobe为Adobe Analytics维护三个数据处理位置。 这些站点接收原始数据并将其处理到报表包中，该报表包针对数据存储和报表检索进行了优化。 这些数据处理地点位于美国（俄勒冈）、英国（伦敦）和新加坡。 请参阅 [Adobe Analytics安全概述](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank} 以了解更多信息。
+Adobe为Adobe Analytics维护三个数据处理位置。 这些站点接收原始数据并将其处理到报表包中，该报表包针对数据存储和报表检索进行了优化。 这些数据处理地点目前位于美国（俄勒冈）、英国（伦敦）和新加坡。 请参阅 [Adobe Analytics安全概述](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank} 以了解更多信息。
