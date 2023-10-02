@@ -4,9 +4,9 @@ description: 查看维度项目的数量或数据随时间变化的情况。
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -33,4 +33,4 @@ Analytics 管理员可以在“报告包”中或直接在 Analysis Workspace �
 
 ## 在 Analysis Workspace 中使用量度
 
-有关如何在Analysis Workspace中使用指标的信息，请参阅 [在Analysis Workspace中使用量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
+有关如何在 Analysis Workspace 中使用量度的信息，请参阅[在 Analysis Workspace 中使用量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)。
