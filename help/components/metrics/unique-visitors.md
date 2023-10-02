@@ -4,15 +4,15 @@ description: 独特访客 ID 的数量。
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '556'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # 独特访客
 
-“独特访客” [量度](overview.md) 显示维度项目的访客ID数量。 它是确定流量时最常用的指标之一，因为它提供了对维度项目常用程度的简要概述。例如，访客可能在一个月内每天访问您的网站，但仍将其计为一个独特访客。
+“独特访客”[量度](overview.md)显示访问维度项的访客 ID 的数量。它是确定流量时最常用的指标之一，因为它提供了对维度项目常用程度的简要概述。例如，访客可能在一个月内每天访问您的网站，但仍将其计为一个独特访客。
 
 如果您使用[跨设备分析](../cda/overview.md)，则此指标会被替换为[独特设备](unique-devices.md)指标。
 
