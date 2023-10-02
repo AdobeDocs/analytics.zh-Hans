@@ -4,16 +4,16 @@ keywords: 计算指标;派生指标;高级计算指标
 title: 计算指标和高级计算（派生）指标
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 1dc0325f1a8b4fc1888895ee18570effb34e6208
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 计算量度和高级计算（派生）量度
 
-计算指标和高级计算（或派生）指标是指您可以从现有指标创建的自定义指标。
+计算量度和高级计算（或派生）量度是指您可以从现有量度创建的自定义量度。
 
 我们的计算指标工具提供了一种高度灵活的方式，可用于生成、管理和组织指标。通过使用这些工具，营销人员、产品经理和分析人员不必更改 [!DNL Analytics] 实施，即可提出有关数据的问题。每个 [!DNL Analytics] 包中可用的自定义指标包括：
 
@@ -24,7 +24,7 @@ ht-degree: 88%
 
 以下是计算指标和高级计算指标功能的比较：
 
-| Builder 选项 | 计算指标 | 高级计算（派生）指标 |
+| Builder 选项 | 计算量度 | 高级计算（派生）指标 |
 |---|---|---|
 | [格式类型（小数、时间、百分比、货币）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | 是 | 是 |
 | [归因更改（默认、线性、参与率等）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | 是 | 是 |
@@ -44,7 +44,7 @@ ht-degree: 88%
   >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
 
 * 在报表包之间共享指标。这表示所有新创建的指标都适用于同一登录公司中的所有报表包。
-* （仅限高级计算指标）指标上的区段。 例如，您可以为“新访客”创建一个指标，其中包含首次进行会话的人员计数。
+* （仅限高级计算量度）按量度进行分段。 例如，您可以为“新访客”创建一个指标，其中包含首次进行会话的人员计数。
 
 * （仅限高级计算指标）包含统计函数以帮助您更好地描述数据。 例如，您可以对报表中的项目数量进行计数，或为每个项目加入标准偏差数。
 

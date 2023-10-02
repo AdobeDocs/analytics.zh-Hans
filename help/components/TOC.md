@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报表包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: fa9ba599ccc3d6fe1176e6b2ec20457f30cb5959
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -184,7 +184,7 @@ ht-degree: 98%
       + [疑难解答](segmentation/seg-reference/c-troubleshooting.md)
    + [有关管理原有区段的常见问题](segmentation/seg-transition.md)
    + [优秀实践](segmentation/best-practices.md)
-+ 计算量度 {#calculated-metrics}
++ 计算指标 {#calculated-metrics}
    + [计算量度和高级计算（派生）量度](c-calcmetrics/cm-overview.md)
    + [操作方法视频](c-calcmetrics/cm-videos.md)
    + 计算量度工作流程 {#calcmetric-workflow}

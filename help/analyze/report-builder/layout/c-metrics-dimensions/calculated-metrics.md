@@ -1,19 +1,19 @@
 ---
 description: Report Builder 5.2 支持 Adobe Analytics 统一的计算指标。作为诸多创新中的一种，目前所有计算指标都拥有一个全局 ID — 不再局限于单一的报表包之中。
-title: 计算指标
+title: 计算量度
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 计算指标
+# 计算量度
 
-Report Builder 5.2 支持 Adobe Analytics 统一的计算指标。作为诸多创新中的一种，目前所有计算指标都拥有一个全局 ID — 不再局限于单一的报表包之中。
+Report Builder5.2支持Adobe Analytics统一的计算指标。 作为诸多创新中的一种，目前所有计算指标都拥有一个全局 ID — 不再局限于单一的报表包之中。
 
 >[!NOTE]
 >
@@ -23,9 +23,9 @@ Report Builder 5.2 支持 Adobe Analytics 统一的计算指标。作为诸多�
 
 在“请求向导”的第 2 步，可以过滤并应用计算指标。
 
-## 过滤计算指标 {#section_376E986D3E684999A7CDB08E53854159}
+## 筛选计算量度 {#section_376E986D3E684999A7CDB08E53854159}
 
-单击“过滤器”图标 **可以**&#x200B;过滤![计算指标。显示“应用程序”、“用户”、“项目”字段的“筛选器”选项屏幕截图。](/help/admin/admin/assets/filter.png)
+**筛选** 通过单击“过滤器”图标可访问计算量度：  ![显示“应用程序”、“用户”、“项目”字段的“筛选器”选项屏幕截图。](/help/admin/admin/assets/filter.png)
 
 “高级过滤器”对话框同时包含标准指标和计算指标。
 
@@ -43,7 +43,7 @@ Report Builder 5.2 支持 Adobe Analytics 统一的计算指标。作为诸多�
 | 其他过滤器 > 我的 | 显示您拥有的所有指标。 |
 | 其他过滤器 > 与我共享 | 显示他人与您共享的所有指标。 |
 
-## 应用计算指标 {#section_DF5CF349460A45FDA4B6E6BB8B52F18E}
+## 应用计算量度 {#section_DF5CF349460A45FDA4B6E6BB8B52F18E}
 
 选定过滤器后，单击&#x200B;**[!UICONTROL 应用]**，可将过滤器应用到您的请求。此时，选定的指标会被添加到报表布局中。
 
