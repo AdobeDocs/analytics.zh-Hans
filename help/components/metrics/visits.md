@@ -4,15 +4,15 @@ description: 表示一系列的页面查看操作。
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '659'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # 访问次数
 
-“访问次数” [量度](overview.md) 显示网站上所有访客的会话数。
+“访问次数”[量度](overview.md)显示网站上所有访客的会话数。
 
 ## 如何计算此量度
 
