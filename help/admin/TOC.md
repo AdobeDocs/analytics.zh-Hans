@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报告包等等。
-source-git-commit: b8a71d9b351368721909d1580a690bf924eb39fb
+source-git-commit: 31487111111575e267306d5f68eede23276e79a8
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 99%
+source-wordcount: '637'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,9 @@ ht-degree: 99%
    + [按 IP 地址排除](admin/exclude-ip.md)
    + [日志](admin/logs.md)
    + [报告活动管理器](admin/reporting-activity.md)
-   + [组件迁移](admin/component-migration.md)
+   + 组件迁移 {#component-migration}
+      + [准备迁移](admin/component-migration/prepare-component-migration.md)
+      + [迁移工作流](admin/component-migration/component-migration.md)
    + 报告包管理器 {#manage-report-suites}
       + 编辑报告包设置 {#edit-report-suite}
          + 常规 {#report-suite-general}
