@@ -2,12 +2,10 @@
 description: 介绍如何将组件和项目从Adobe Analytics迁移到Customer Journey Analytics。
 title: 将组件和项目从Adobe Analytics迁移到Customer Journey Analytics
 feature: Admin Tools
-hide: true
-hidefromtoc: true
-source-git-commit: 99b363f506e46fae7ce835588defd4f407d02c9e
+source-git-commit: e32b239fd64eea4516bc73b934b10346832f2bab
 workflow-type: tm+mt
-source-wordcount: '1974'
-ht-degree: 9%
+source-wordcount: '2051'
+ht-degree: 8%
 
 ---
 
@@ -53,13 +51,15 @@ Adobe Analytics管理员可以将Adobe Analytics项目及其相关组件迁移�
 
 #### 已迁移的组件元素
 
+Dimension和量度将作为映射过程的一部分进行迁移，如中所述 [将Adobe Analytics项目迁移到Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics)Customer Journey Analytics ，而区段和日期范围则是根据
+
 |  | 已迁移 |
 |---------|---------|
-| **[所有者](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | ![复选标记](assets/Smock_Checkmark_18_N.svg) |
-| **[共享](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | 否 |
-| **[描述](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | ? |
-| **[标记](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | 否 |
-| **[归因（在维度上）](/help/analyze/analysis-workspace/attribution/overview.md)** | ? |
+| **[所有者](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | Dimension和指标：否<p>区段和日期范围： ![复选标记](assets/Smock_Checkmark_18_N.svg)</p> |
+| **[共享](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimension和指标：否<p>区段和日期范围：否</p> |
+| **[描述](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | Dimension和指标：否<p>区段和日期范围： ![复选标记](assets/Smock_Checkmark_18_N.svg)</p> |
+| **[标记](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimension和指标：否<p>区段和日期范围：否</p> |
+| **[归因（在维度上）](/help/analyze/analysis-workspace/attribution/overview.md)** | Dimension和指标：否<p>区段和日期范围：否</p> |
 
 {style="table-layout:auto"}
 
@@ -76,17 +76,16 @@ Adobe Analytics管理员可以将Adobe Analytics项目及其相关组件迁移�
 | **[可视化图表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![复选标记](assets/Smock_Checkmark_18_N.svg) |
 | **[所有者](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![复选标记](assets/Smock_Checkmark_18_N.svg) 由执行迁移的用户定义 |
 | **[策划](/help/analyze/analysis-workspace/curate-share/curate.md)** | 否 |
-| **[共享（项目角色）](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | 否 |
-| **[共享（与任何人共享链接）](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | ? <!-- if no, combine with the above and just call it sharing? What about sharing links?--> |
+| **[共享（项目角色）](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | 否 <!-- Add info on Share with Anyone? Is it the same?--> |
 | **[批注](/help/analyze/analysis-workspace/components/annotations/overview.md)** | 否 |
 | **[文件夹结构](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | 否 |
 | **[描述](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![复选标记](assets/Smock_Checkmark_18_N.svg) |
 | **[标记](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | 否 |
 | **[时间表](/help/components/scheduled-projects-manager.md)** | 否 |
-| **[异常检测](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)** | ? |
-| **[收藏夹](/help/analyze/landing.md)** | ? |
 
 {style="table-layout:auto"}
+
+<!-- What about Anomaly Detection and Favorites? -->
 
 ### 了解导致错误的不支持的元素
 
@@ -116,7 +115,7 @@ Customer Journey Analytics不支持以下可视化图表、面板和功能。 �
 
 * [警报](/help/components/c-alerts/intellligent-alerts.md)
 
-### 以组织身份决定如何映射不支持的组件
+### 作为组织决定如何映射组件
 
 >[!IMPORTANT]
 >
@@ -129,7 +128,7 @@ Customer Journey Analytics不支持以下可视化图表、面板和功能。 �
 >以下是您必须手动映射的维度和量度列表（如果项目中存在这些维度和量度）。 我们建议您在迁移之前查看此列表。 如果项目中存在这些组件中的任何组件，请立即决定要将它们映射到哪些Customer Journey Analytics组件。
 
 
-#### 不支持的维度
+#### 必须手动映射的Dimension
 
 * averagepagetime
 * pagetimeseconds
@@ -163,7 +162,7 @@ Customer Journey Analytics不支持以下可视化图表、面板和功能。 �
 * targetraw
 
 
-#### 不支持的指标
+#### 必须手动映射的量度
 
 * timespentvisit
 * timespentvisitor
