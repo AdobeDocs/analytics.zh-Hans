@@ -2,10 +2,11 @@
 title: 移动生命周期维度
 description: 基于使用Mobile SDK收集的数据的Dimension。
 feature: Dimensions
-source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
+exl-id: b7ba45d7-7d30-48a3-a747-ea9fbb253abb
+source-git-commit: d940428e1cbe1be6d8263e986e8b641ec18aace1
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 55%
+source-wordcount: '145'
+ht-degree: 57%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 55%
 
 | 生命周期维度名称 | 描述 | 上下文数据变量 |
 | --- | --- | --- |
-| [!UICONTROL 首次启动日期] | | TBD（此安装日期是否？） |
+| [!UICONTROL 首次启动日期] | | 待定 |
 | [!UICONTROL 设备名称 (SDK)] | | `a.DeviceName` |
 | [!UICONTROL 操作系统版本 (SDK)] | | `a.OSVersion` |
 | [!UICONTROL 分辨率(SDK)] | | `a.Resolution` |
