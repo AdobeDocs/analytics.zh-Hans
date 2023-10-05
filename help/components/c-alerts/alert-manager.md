@@ -3,10 +3,10 @@ description: 管理警报。
 title: 警报管理器概述
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: cfae0661dfa9c61daea33c3a52204793ce3d35c1
+source-git-commit: 9a6c2e7c2f83882f6df630f975b0c44e75a2ed7a
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 41%
+source-wordcount: '448'
+ht-degree: 39%
 
 ---
 
@@ -61,6 +61,6 @@ ht-degree: 41%
    | 标记 | 显示应用到警报的标记，这些标记由您自己或与您共享该警报的人添加。 |
    | 共享对象 | 列出您与其共享警报的个人或组（仅限管理员）或所有人（仅限管理员）。 |
    | 修改日期 | 指示上次修改警报的日期。 |
-   | 上次使用时间 | 显示上次使用警报的日期。 <p>此信息可帮助您确定某个组件是否对组织中的用户有用、在何处使用该组件以及是否需要删除或修改该组件。</p><p>此信息不包括API、Report Builder或Data Warehouse的使用情况。</p> |
+   | 上次使用时间 | 显示上次使用警报的日期。 <p>此信息可帮助您确定某个组件是否对组织中的用户有用、在何处使用该组件以及是否需要删除或修改该组件。</p><p>查看此列时，请考虑以下事项：</p><ul><li>此信息不包括API、Report Builder或Data Warehouse的使用情况。</li><li>对于某些组件，如果上次在2023年9月之前使用该组件，则此列可能不包含数据。</li></ul> |
 
    {style="table-layout:auto"}
