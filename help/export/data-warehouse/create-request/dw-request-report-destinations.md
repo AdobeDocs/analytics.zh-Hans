@@ -2,10 +2,11 @@
 description: 描述如何创建 Data Warehouse 请求的步骤。
 title: 为Data Warehouse请求配置报表目标
 feature: Data Warehouse
-source-git-commit: 5ed0c4b8cb4b1a50cf25df1459faecadcc19ea29
+exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
+source-git-commit: f1264344a380944946ffa7b427db7bbc3ea96b1f
 workflow-type: tm+mt
-source-wordcount: '2084'
-ht-degree: 16%
+source-wordcount: '2255'
+ht-degree: 15%
 
 ---
 
@@ -57,7 +58,7 @@ ht-degree: 16%
 
    1. 选择 [!UICONTROL **添加帐户**]，然后指定以下信息：
 
-      | 字段 | 功能 |
+      | 字段 | 函数 |
       |---------|----------|
       | [!UICONTROL **帐户类型**] | 选择您的云帐户类型。 我们建议为每个帐户类型拥有一个帐户，并根据需要在该帐户中放置多个位置。 <p>选择帐户类型后，将会显示特定于该帐户类型的字段。 </p> |
       | [!UICONTROL **帐户名称**] | 指定帐户的名称。 创建位置时将显示此名称。 <!-- true? --> |
@@ -71,32 +72,32 @@ ht-degree: 16%
 
       指定以下信息以配置Amazon S3角色ARN帐户：
 
-      | 字段 | 功能 |
+      | 字段 | 函数 |
       |---------|----------|
       | [!UICONTROL **角色 ARN**] | 您必须提供一个角色ARN(Amazon资源名称)，Adobe可以使用该角色来访问Amazon S3帐户。 为此，您需要为源帐户创建IAM权限策略，将策略附加到用户，然后为目标帐户创建角色。 有关具体信息，请参阅 [此AWS文档](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
       | [!UICONTROL **用户 ARN**] | 用户ARN(Amazon资源名称)由Adobe提供。 您必须将此用户附加到您创建的策略。 |
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
       指定以下信息来配置Google Cloud Platform帐户：
 
-      | 字段 | 功能 |
+      | 字段 | 函数 |
       |---------|----------|
       | [!UICONTROL **项目ID**] | 您的Google Cloud项目ID。 请参阅 [Google Cloud有关获取项目ID的文档](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects). |
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
       指定以下信息以配置Azure SAS帐户：
 
-      | 字段 | 功能 |
+      | 字段 | 函数 |
       |---------|----------|
       | [!UICONTROL **应用程序 ID**] | 从您创建的Azure应用程序中复制此ID。 在Microsoft Azure中，此信息位于 **概述** 选项卡。 欲了解更多信息，请参见 [Microsoft Azure有关如何使用Microsoft Identity Platform注册应用程序的文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
       | [!UICONTROL **租户 ID**] | 从您创建的Azure应用程序中复制此ID。 在Microsoft Azure中，此信息位于 **概述** 选项卡。 欲了解更多信息，请参见 [Microsoft Azure有关如何使用Microsoft Identity Platform注册应用程序的文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
@@ -106,13 +107,13 @@ ht-degree: 16%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
       指定以下信息以配置Azure RBAC帐户：
 
-      | 字段 | 功能 |
+      | 字段 | 函数 |
       |---------|----------|
       | [!UICONTROL **应用程序 ID**] | 从您创建的Azure应用程序中复制此ID。 在Microsoft Azure中，此信息位于 **概述** 选项卡。 欲了解更多信息，请参见 [Microsoft Azure有关如何使用Microsoft Identity Platform注册应用程序的文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
       | [!UICONTROL **租户 ID**] | 从您创建的Azure应用程序中复制此ID。 在Microsoft Azure中，此信息位于 **概述** 选项卡。 欲了解更多信息，请参见 [Microsoft Azure有关如何使用Microsoft Identity Platform注册应用程序的文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
@@ -120,13 +121,13 @@ ht-degree: 16%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++电子邮件
 
       指定以下信息以配置电子邮件帐户：
 
-      | 字段 | 功能 |
+      | 字段 | 函数 |
       |---------|----------|
       | [!UICONTROL **收件人**] | 发送报告时，可以向特定用户发送电子邮件通知。指定单个电子邮件地址或以逗号分隔的电子邮件地址列表。 <!-- How does this differ from the Notification email tab? --> |
 
@@ -140,46 +141,46 @@ ht-degree: 16%
 
       指定以下信息以配置Amazon S3位置：
 
-      | 字段 | 功能 |
+      | 字段 | 函数 |
       |---------|----------|
       | [!UICONTROL **存储桶名称**] | Amazon S3帐户中要将Adobe Analytics数据发送到的存储段。 确保Adobe提供的用户ARN有权将文件上传到此存储段。 |
       | [!UICONTROL **密钥前缀**] | 存储桶中要放置数据的文件夹。 指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。 例如， folder_name/ |
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
       指定以下信息来配置Google Cloud Platform位置：
 
-      | 字段 | 功能 |
+      | 字段 | 函数 |
       |---------|----------|
       | [!UICONTROL **存储桶名称**] | GCP帐户中要将Adobe Analytics数据发送到的存储段。 确保您已授予Adobe提供的承担者将文件上传到此存储段的权限。 有关授予权限的信息，请参见 [将主体添加到存储段级别策略](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) 在Google Cloud文档中。 |
       | [!UICONTROL **密钥前缀**] | 存储桶中要放置数据的文件夹。 指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。 例如， folder_name/ |
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
       指定以下信息以配置Azure SAS位置：
 
-      | 字段 | 功能 |
+      | 字段 | 函数 |
       |---------|----------|
       | [!UICONTROL **容器名称**] | 您指定的帐户中要将Adobe Analytics数据发送到的容器。 |
       | [!UICONTROL **密钥前缀**] | 容器中要放置数据的文件夹。 指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。 例如，`folder_name/` |
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
       指定以下信息以配置Azure RBAC位置：
 
-      | 字段 | 功能 |
+      | 字段 | 函数 |
       |---------|----------|
       | [!UICONTROL **容器名称**] | 您指定的帐户中要将Adobe Analytics数据发送到的容器。 确保授予将文件上载到您之前创建的Azure应用程序的权限。 |
       | [!UICONTROL **密钥前缀**] | 容器中要放置数据的文件夹。 指定文件夹名称，然后在名称后添加反斜杠以创建文件夹。 例如，`folder_name/` |
@@ -187,7 +188,7 @@ ht-degree: 16%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
    1. 选择&#x200B;[!UICONTROL **保存**]。
 
@@ -209,14 +210,59 @@ Data Warehouse数据可以传送到Adobe或客户托管的FTP位置。 需要 FT
 
 填写可用字段时，请使用以下信息：
 
-* [!UICONTROL **主机**]：输入所需的FTP目标URL。 例如：`ftp://ftp.omniture.com`。
-* [!UICONTROL **路径**]：可留空
+#### 帐户字段
+
+* [!UICONTROL **帐户名称**]：FTP帐户的名称。
+
+* [!UICONTROL **帐户描述**]：FTP帐户的描述。
+
+* [!UICONTROL **主机名**]：输入所需的FTP目标URL。 例如：`ftp.company.com`。
+
+  >[!NOTE]
+  >
+  >  不包括 `ftp://` 在URL的开头处。
+
 * [!UICONTROL **用户名**]：输入用户名以登录到FTP站点。
+
 * [!UICONTROL **密码和确认密码**]：输入登录FTP站点的密码。
+
+#### 位置字段
+
+* [!UICONTROL **位置名称**]：您希望发送文件的FTP帐户上的位置名称。
+
+* [!UICONTROL **位置描述**]：FTP帐户上位置的描述。
+
+* [!UICONTROL **目录路径**]：FTP帐户上位置的路径。
 
 ### SFTP
 
 提供了对Data Warehouse的SFTP支持。 需要 SFTP 主机、用户名，以及包含有效 RSA 或 DSA 公钥的目标站点。创建数据仓库目标时，您可以下载相应的公钥。
+
+填写可用字段时，请使用以下信息：
+
+#### 帐户字段
+
+* [!UICONTROL **帐户名称**]：FTP帐户的名称。
+
+* [!UICONTROL **帐户描述**]：FTP帐户的描述。
+
+* [!UICONTROL **主机名**]：输入所需的SFTP目标URL。 例如：`sftp.company.com`。
+
+  >[!NOTE]
+  >
+  >  不包括 `sftp://` 在URL的开头处。
+
+* [!UICONTROL **用户名**]：输入用户名以登录SFTP站点。
+
+* [!UICONTROL **公钥**]：创建Data Warehouse目标时下载相应的公钥。
+
+#### 位置字段
+
+* [!UICONTROL **位置名称**]：您希望发送文件的SFTP帐户上的位置名称。
+
+* [!UICONTROL **位置描述**]：SFTP帐户上的位置描述。
+
+* [!UICONTROL **目录路径**]：SFTP帐户上位置的路径。
 
 ### S3
 
