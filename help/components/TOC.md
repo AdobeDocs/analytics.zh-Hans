@@ -6,8 +6,8 @@ breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报表包、营销渠道和分类等组件管理数据。了解跨设备分析。
 source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '750'
+ht-degree: 100%
 
 ---
 
@@ -66,8 +66,8 @@ ht-degree: 0%
    + [营销渠道](dimensions/marketing-channel.md)
    + [营销渠道详细信息](dimensions/marketing-detail.md)
    + [分钟](dimensions/minute.md)
-   + [移动生命周期维度](dimensions/lifecycle-dimensions.md)
-   + [移动设备查找维度](dimensions/mobile-dimensions.md)
+   + [移动存留期维度](dimensions/lifecycle-dimensions.md)
+   + [移动查找维度](dimensions/mobile-dimensions.md)
    + [监视器分辨率](dimensions/monitor-resolution.md)
    + [月份](dimensions/month-of-year.md)
    + [月](dimensions/month.md)
@@ -129,7 +129,7 @@ ht-degree: 0%
    + [退出](metrics/exits.md)
    + [已识别的人员](metrics/identified-people.md)
    + [实例](metrics/instances.md)
-   + [移动生命周期量度](metrics/lifecycle-metrics.md)
+   + [移动存留期量度](metrics/lifecycle-metrics.md)
    + [移动设备查看次数](metrics/mobile-views.md)
    + [新参与](metrics/new-engagements.md)
    + [发生次数](metrics/occurrences.md)
