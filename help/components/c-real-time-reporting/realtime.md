@@ -4,7 +4,7 @@ title: 实时报表概述
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 100%
@@ -12,6 +12,8 @@ ht-degree: 100%
 ---
 
 # 实时报表概述
+
+{{ra-eol}}
 
 实时报表可实时显示网页流量，并对页面查看次数进行排名。提供制定业务决策所需的可操作数据。
 

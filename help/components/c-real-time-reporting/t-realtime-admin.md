@@ -3,7 +3,7 @@ description: 设置实时报表的管理步骤。
 title: 配置实时报表
 feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 100%
@@ -11,6 +11,8 @@ ht-degree: 100%
 ---
 
 # 配置实时报表
+
+{{ra-eol}}
 
 设置实时报表的管理步骤。
 

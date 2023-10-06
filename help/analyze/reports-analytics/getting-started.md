@@ -4,19 +4,18 @@ title: Reports and Analytics 快速入门
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '695'
 ht-degree: 95%
 
 ---
 
 # Reports &amp; Analytics 快速入门
 
-在使用 Reports &amp; Analytics 之前，请了解这些基本的登录和设置任务以及如何访问帐户信息。
+{{ra-eol}}
 
->[!IMPORTANT]
->自 **2023 年 12 月 31 日**&#x200B;起，Adobe 决定中断 Reports &amp; Analytics 及其随附的报表和功能。到时候，Reports &amp; Analytics 及其所有报表和计划都将停止工作。支持 Reports &amp; Analytics 的报告、可视化图表和底层技术不再满足 Adobe 的技术标准。在 Analysis Workspace 中提供了 Reports &amp; Analytics 的大部分功能。自 2015 年发布 Analysis Workspace 以来，Reports &amp; Analytics 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。本通知解释了生命周期结束的过程。
+在使用 Reports &amp; Analytics 之前，请了解这些基本的登录和设置任务以及如何访问帐户信息。
 
 报告帮助您深入了解传统 Web 渠道以及逐渐发展的新渠道，如移动、视频和社交网络。报表的部分示例包括：
 
@@ -40,7 +39,7 @@ ht-degree: 95%
 
 ## 登录到 Reports and Analytics
 
-在访问界面之前，请与您的Adobe客户团队或客户关怀团队合作，设置您公司的帐户。
+在访问界面之前，请与您的Adobe客户团队或客户关怀团队合作来设置贵公司的帐户。
 
 ## 使用 Experience Cloud 登录
 
