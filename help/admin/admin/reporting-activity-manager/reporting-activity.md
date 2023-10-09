@@ -1,0 +1,227 @@
+---
+description: 了解如何使用报告活动管理器诊断和修复在报告高峰期出现的容量问题。
+title: 报告活动管理器
+feature: Admin Tools
+mini-toc-levels: 3
+exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
+source-git-commit: 0e03379550808e5be3e86f0f9ddbbedd026d4910
+workflow-type: tm+mt
+source-wordcount: '1593'
+ht-degree: 24%
+
+---
+
+# 在报告活动管理器中查看报告活动
+
+{{release-limited-testing}}
+
+此 [!UICONTROL 报告活动管理器] 使管理员能够在报告高峰期快速诊断和修复报告容量问题。
+
+有关报表活动管理器的更多信息，包括主要优势和权限要求，请参阅 [报表活动管理器概述](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md).
+
+## 查看所有报表包的报告活动 {#view-all-report-suites}
+
+1. 在Adobe Analytics中，转到 **[!UICONTROL 管理员]** > **[!UICONTROL 报告活动管理器]**.
+
+   此时将显示已启用的基础报表包的列表。
+
+   ![报告队列](/help/admin/admin/assets/reporting-activity1.png)
+
+1. （可选）您可以搜索或筛选报表包列表：
+
+   * 使用搜索字段搜索特定报表包。 开始键入报表包名称或ID，并且报表包列表会随着您的键入而更新。
+
+   * 选择 [!UICONTROL **筛选**] 图标 ![过滤器图标](assets/filter-icon.png) 以展开筛选器选项列表。 您可以按以下项过滤 [!UICONTROL **收藏夹**] 或 [!UICONTROL **状态**].
+
+     要将报表包标记为收藏，请选择报表包名称左侧的星形图标。
+
+<!-- (does this option still exist?) 1. (Optional) Select **[!UICONTROL Refresh]** at the top-right to refresh the data. -->
+
+1. 查看有关每个报表包的利用率信息。 您可以选择列标题来按该列对表进行排序。
+
+   以下列可供使用：
+
+   | UI 元素 | 描述 |
+   | --- | --- |
+   | **[!UICONTROL 报表包]** | 基础报告包，您正在监控其报告活动。 |
+   | **[!UICONTROL 虚拟报表包]** | 显示馈送入此基础报告包的所有虚拟报告包。由于额外施加多层筛选和分段，因此虚拟报告包提高了报告请求的复杂性。所有来自虚拟报告包的请求合并归入基础报告包。<p>例如，如果您从 5 个 VRS 收到 10 个请求，则基础级别报告包中有 50 个请求。这样即可很快达到容量。 |
+   | **[!UICONTROL 产能利用]** | 实时使用的报表包报告容量的百分比。 <p>**注意** 即使使用容量为100%，也不一定意味着您应该开始取消报告请求。 如果平均等待时间合理，则100%的使用容量可能是健康的。 如果排队的请求数也在增加，则100%的使用容量可能表示出现问题。</p> |
+   | **[!UICONTROL 已排队的请求]** | 等待处理的请求数。 <!-- ??? --> |
+   | **[!UICONTROL 队列等待时间]** | 每个请求处理的平均等待时间。 <!-- ???? --> |
+   | **[!UICONTROL 状态]** | 可能的状态包括： <ul><li>[!UICONTROL **活动**] （蓝色）：已在报表包上运行报告，并且正在监控其活动。</li><li>[!UICONTROL **不活动**] （灰色）：报表包中从未运行任何报表。 此状态仅在首次创建报表包时显示。</li></ul> |
+
+   {style="table-layout:auto"}
+
+## 查看单个报表包的报告活动
+
+1. 在Adobe Analytics中，选择 [!UICONTROL **管理员**] > [!UICONTROL **报告活动管理器**].
+
+1. 选择要查看其详细信息的报表包的链接标题。
+
+   系统将显示选定报表包的报表活动数据。
+
+   <!-- Need to update this screenshot: ![report suite](assets/indiv-report-ste.png) -->
+
+1. 使用可用的图形和表了解报表包中的报表活动。
+
+   * [查看图形](#view-graphs)
+
+   * [查看表](#view-data-in-the-table)
+
+### 查看图形
+
+以下图表可帮助您更好地了解报表包中发生的活动。 如果图形不可见，请选择 [!UICONTROL **显示图形**] 按钮。
+
+#### 利用率图表 {#utilization}
+
+利用率图表显示选定报表包在过去2小时内的报表利用率。
+
+* x轴显示过去2小时内的报告使用容量。
+* Y轴显示报告使用容量百分比（按分钟）。
+* 您可以将鼠标悬停在图表上以查看时间点，其中使用容量百分比是该分钟中最高的。
+
+  ![利用率图](assets/utilization-graph.png)
+
+#### 不同用户图
+
+独特用户图显示选定报表包在过去2小时内的报表活动。
+
+* x轴显示2小时的时间范围。
+* Y轴显示已提出报表请求的用户数量（按分钟）。
+* 您可以将鼠标悬停在图表上以查看该分钟最大用户数最高的时间点。
+
+  ![不同用户图](assets/distinct-users-graph.png)
+
+<!--
+
+#### Requests graph
+
+The Requests graph shows the number of processed and completed requests for the selected report suite over the last 2 hours. 
+
+* The x-axis shows a 2-hour time frame.
+* The y-axis shows the number of processed requests (in purple) and completed requests (in green), by minute.
+* You can hover over the chart to view points in time where the maximum number of requests was highest for that minute.
+
+   ![Distinct Users graph](assets/requests-graph.png)
+
+#### Queueing graph
+
+The Queueing graph shows the average queue wait time (in seconds) for reporting requests for the selected report suite over the last 2 hours. 
+
+* The x-axis shows a 2-hour time frame.
+* The y-axis shows the average wait time (in seconds).
+* You can hover over the chart to view points in time where the maximum average wait time was highest for that minute.
+
+   ![Distinct Users graph](assets/queueing-graph.png)
+
+-->
+
+### 查看表 {#view-table}
+
+通过选择数据表顶部的以下任一选项卡，可以选择查看数据： [!UICONTROL **请求**]， [!UICONTROL **用户**]， [!UICONTROL **项目**]，或 [!UICONTROL **应用程序**].
+
+>[!TIP]
+>
+>您可以选择 [!UICONTROL **隐藏图形**] 以仅显示表。
+
+![表格选项卡](assets/indiv-report-ste-table-tabs.png)
+
+#### 按请求查看数据
+
+当您选择 [!UICONTROL **请求**] 选项卡上，表中提供了以下列：
+
+| 栏目 | 描述 |
+| --- | --- |
+| [!UICONTROL **请求编号**] | 可用于故障排除目的。 |
+| [!UICONTROL **已用时间**] | 请求已运行多长时间。 |
+| [!UICONTROL **开始时间**] | 请求开始处理的时间（基于管理员的本地时间）。 |
+| [!UICONTROL **等待时间**] | 请求在处理之前等待了多长时间。 当有足够的容量时，一般为“0”。 |
+| [!UICONTROL **应用程序**] | [!UICONTROL 报告活动管理器]支持的应用程序包括： <ul><li>Analysis Workspace UI</li><li>工作区计划项目</li><li>Report Builder</li><li>生成器 UI：区段、计算量度、注释、受众等。</li><li>1.4 或 2.0 API 的 API 调用</li><li>智能警报</li></ul> |
+| [!UICONTROL **用户**] | 发起请求的用户。 如果此列的值为 [!UICONTROL **无法识别**]，这意味着用户所在的登录公司您没有管理权限。 |
+| [!UICONTROL **项目**] | 已保存的 Workspace 项目名称、API 报告 ID 等。（元数据可能因各种应用程序而异。） |
+| [!UICONTROL **状态**] | 状态指示器： <ul><li>**运行中**：请求当前正在处理中。</li><li>**等待中**：请求正在等待处理。</li></ul> |
+| [!UICONTROL **复杂度**] | 并非所有请求都需要相同的处理时间。 请求复杂性有助于提供有关处理请求所需时间的一般概念。 可能的值包括： <ul><li>[!UICONTROL **低**]</li><li>[!UICONTROL **媒介**]</li><li>[!UICONTROL **高**]</li></ul>此值受以下列中的值影响：<ul><li>[!UICONTROL **月边界**]</li><li>[!UICONTROL **列**]</li><li>[!UICONTROL **区段**]</li></ul> |
+| [!UICONTROL **月边界**] | 请求中包含的月数。 这增加了请求的复杂性。 |
+| [!UICONTROL **列**] | 请求中的量度和细分的数量。 这增加了请求的复杂性。 |
+| [!UICONTROL **区段**] | 应用于请求的区段数。 这增加了请求的复杂性。 |
+
+{style="table-layout:auto"}
+
+#### 按用户查看数据
+
+当您选择 [!UICONTROL **用户**] 选项卡上，表中提供了以下列：
+
+| 栏目 | 描述 |
+| --- | --- |
+| [!UICONTROL **用户**] | 发起请求的用户。 如果此列的值为 [!UICONTROL **无法识别**]，这意味着用户所在的登录公司您没有管理权限。 |
+| [!UICONTROL **请求数量**] | 用户发起的请求数。 |
+| [!UICONTROL **项目数量**] | 与用户关联的项目数。 <!-- ??? --> |
+| [!UICONTROL **应用程序**] | [!UICONTROL 报告活动管理器]支持的应用程序包括： <ul><li>Analysis Workspace UI</li><li>工作区计划项目</li><li>Report Builder</li><li>生成器 UI：区段、计算量度、注释、受众等。</li><li>1.4 或 2.0 API 的 API 调用</li><li>智能警报</li></ul> |
+| [!UICONTROL **平均复杂性**] | 用户发起的请求的平均复杂性。 <p>并非所有请求都需要相同的处理时间。 请求复杂性有助于提供有关处理请求所需时间的一般概念。</p><p>此列中的值基于由以下列中的值决定的分数：</p><ul><li>[!UICONTROL **平均月份边界**]</li><li>[!UICONTROL **平均列数**]</li><li>[!UICONTROL **平均区段数**]</li></ul> |
+| [!UICONTROL **平均月份边界**] | 请求中包含的平均月数。 这会增加请求的平均复杂性。 |
+| [!UICONTROL **平均列数**] | 包含的请求中的平均量度和细分数。 这增加了平均复杂性。 |
+| [!UICONTROL **平均区段数**] | 应用于所包含请求的平均区段数。 这增加了平均复杂性。 |
+
+{style="table-layout:auto"}
+
+#### 按项目查看数据
+
+当您选择 [!UICONTROL **项目**] 选项卡上，表中提供了以下列：
+
+| 栏目 | 描述 |
+| --- | --- |
+| [!UICONTROL **项目**] | 启动查询的项目。 |
+| [!UICONTROL **请求数量**] | 与项目关联的请求数。 |
+| [!UICONTROL **用户数量**] | 与项目关联的用户数。 <!-- ??? --> |
+| [!UICONTROL **应用程序**] | [!UICONTROL 报告活动管理器]支持的应用程序包括： <ul><li>Analysis Workspace UI</li><li>工作区计划项目</li><li>Report Builder</li><li>生成器 UI：区段、计算量度、注释、受众等。</li><li>1.4 或 2.0 API 的 API 调用</li><li>智能警报</li></ul> |
+| [!UICONTROL **平均复杂性**] | 项目中包含的请求的平均复杂性。 <p>并非所有请求都需要相同的处理时间。 请求复杂性有助于提供有关处理请求所需时间的一般概念。</p><p>此列中的值基于由以下列中的值决定的分数：</p><ul><li>[!UICONTROL **平均月份边界**]</li><li>[!UICONTROL **平均列数**]</li><li>[!UICONTROL **平均区段数**]</li></ul> |
+| [!UICONTROL **平均月份边界**] | 请求中包含的平均月数。 这会增加请求的平均复杂性。 |
+| [!UICONTROL **平均列数**] | 包含的请求中的平均量度和细分数。 这增加了平均复杂性。 |
+| [!UICONTROL **平均区段数**] | 应用于所包含请求的平均区段数。 这增加了平均复杂性。 |
+
+{style="table-layout:auto"}
+
+#### 按应用程序查看数据
+
+当您选择 [!UICONTROL **应用程序**] 选项卡上，表中提供了以下列：
+
+| 栏目 | 描述 |
+| --- | --- |
+| [!UICONTROL **应用程序**] | 发起查询的应用程序。 |
+| [!UICONTROL **请求数量**] | 与应用程序关联的请求数。 |
+| [!UICONTROL **用户数量**] | 与应用程序关联的用户数。 <!--???--> |
+| [!UICONTROL **项目数量**] | 与应用程序关联的项目数。 <!--???--> |
+| [!UICONTROL **平均复杂性**] | 与应用程序关联的请求的平均复杂性。 <p>并非所有请求都需要相同的处理时间。 请求复杂性有助于提供有关处理请求所需时间的一般概念。</p><p>此列中的值基于由以下列中的值决定的分数：</p>此列中的值基于由以下列中的值决定的分数：<ul><li>[!UICONTROL **平均月份边界**]</li><li>[!UICONTROL **平均列数**]</li><li>[!UICONTROL **平均区段数**]</li></ul> |
+| [!UICONTROL **平均月份边界**] | 请求中包含的平均月数。 这会增加请求的平均复杂性。 |
+| [!UICONTROL **平均列数**] | 包含的请求中的平均量度和细分数。 这增加了平均复杂性。 |
+| [!UICONTROL **平均区段数**] | 应用于所包含请求的平均区段数。 这增加了平均复杂性。 |
+
+{style="table-layout:auto"}
+
+<!--
+
+### Filter
+
+You can filter the table by Application (see list in the table below), by User, and by Project.
+
+![filter](/help/admin/admin/assets/filter.png)
+
+### Summary Numbers {#summary}
+
+![filter](/help/admin/admin/assets/summary_numbers.png)
+
+The Summary Numbers show the following information:
+
+| Summary Number | Description |
+| --- | --- |
+| [!UICONTROL **Users**] | The number of users that are currently sending reporting requests to this report suite. |
+| [!UICONTROL **Projects**] | Workspace projects, Report Builder workbooks, etc.  | 
+| [!UICONTROL **Queries**] | The number of queries currently running. |
+| [!UICONTROL **Average Wait Time**] | The average wait time for all running queries.  |
+| [!UICONTROL **Usage Capacity**] | The current usage capacity for this report suite. |
+
+{style="table-layout:auto"}
+
+-->
+
+
