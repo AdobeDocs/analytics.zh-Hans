@@ -2,9 +2,9 @@
 description: 了解如何使用报告活动管理器诊断和修复在报告高峰期出现的容量问题。
 title: 在报告活动管理器中取消报告请求
 feature: Admin Tools
-source-git-commit: dc09510ea1d97c39d00df309faf85f90003b50fa
+source-git-commit: 4da5da34518c3fb7350799c185faed789ef5a22b
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '937'
 ht-degree: 7%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 7%
 
 ## 取消特定请求
 
-您可以选择要取消的特定请求。
+您可以取消占用大量报告容量的单个请求。
 
 1. 在Adobe Analytics中，转到 **[!UICONTROL 管理员]** > **[!UICONTROL 报告活动管理器]**.
 
@@ -41,7 +41,7 @@ ht-degree: 7%
 
 1. 选择 [!UICONTROL **取消请求**].
 
-   此 [!UICONTROL **取消x报表请求**] 对话框随即显示。
+   此 [!UICONTROL **取消 _x_ 报表请求**] 对话框随即显示。
 
 1. 取消消息字段显示取消请求时向用户显示的消息。 提供了默认消息。 您可以更新默认消息以提供其他详细信息。
 
@@ -76,7 +76,7 @@ ht-degree: 7%
 
 1. 选择 [!UICONTROL **取消请求**].
 
-   此 [!UICONTROL **取消x个用户的x个报表请求**] 对话框随即显示。
+   此 [!UICONTROL **取消 _x_ 来自x个用户的报表请求**] 对话框随即显示。
 
 1. 取消消息字段显示取消请求时向用户显示的消息。 提供了默认消息。 您可以更新默认消息以提供其他详细信息。
 
@@ -111,7 +111,7 @@ ht-degree: 7%
 
 1. 选择 [!UICONTROL **取消请求**].
 
-   此 [!UICONTROL **取消x项目中的x报表请求**] 对话框随即显示。
+   此 [!UICONTROL **取消 _x_ 来自x个项目的报表请求**] 对话框随即显示。
 
 1. 取消消息字段显示取消请求时向用户显示的消息。 提供了默认消息。 您可以更新默认消息以提供其他详细信息。
 
@@ -132,6 +132,6 @@ ht-degree: 7%
 
 ## 用户访问已取消报告时的体验
 
-在Analysis Workspace中，尝试访问已取消报表的用户将看到以下消息：
+在Analysis Workspace中，当用户尝试访问管理员已取消的报告时，会看到以下消息：
 
 ![cancel-user-notice](/help/admin/admin/assets/cancel-user-facing.png)
