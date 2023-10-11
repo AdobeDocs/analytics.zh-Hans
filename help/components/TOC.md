@@ -183,8 +183,8 @@ ht-degree: 100%
       + [区段权限（按角色）](segmentation/seg-reference/seg-rights.md)
       + [疑难解答](segmentation/seg-reference/c-troubleshooting.md)
    + [有关管理原有区段的常见问题](segmentation/seg-transition.md)
-   + [优秀实践](segmentation/best-practices.md)
-+ 计算指标 {#calculated-metrics}
+   + [最佳实践](segmentation/best-practices.md)
++ 计算量度 {#calculated-metrics}
    + [计算量度和高级计算（派生）量度](c-calcmetrics/cm-overview.md)
    + [操作方法视频](c-calcmetrics/cm-videos.md)
    + 计算量度工作流程 {#calcmetric-workflow}
