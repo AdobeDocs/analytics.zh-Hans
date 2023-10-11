@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 source-git-commit: cca740f66783de4323b91dd722e3a108dde6b023
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3156'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 95%
 
 {style="table-layout:auto"}
 
-## 项目和分析首选项
+## 项目和分析偏好设置
 
 您可以为在 Analysis Workspace 中创建的所有新项目自定义项目偏好设置。有关如何访问这些偏好设置的信息，请参阅[更新偏好设置](#update-preferences)。
 
@@ -73,7 +73,7 @@ ht-degree: 95%
 | --- | --- | --- |
 | **显示** | | |
 |  | [视图密度](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=zh-Hans) | 通过减小左侧边栏、自由格式表和同类群组表的垂直边距，让您可在屏幕上选择显示内容的多少。 <ul><li>紧凑</li><li>舒适</li><li>展开（默认）</li></ul> |
-| | [调色板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=zh-Hans) | 选择在Analysis Workspace中使用的可视化图表调色板。<ul><li>**类别调色板**：适用于Analysis Workspace中的许多可视化图表。 每种颜色代表一个不同的类别值。 从Adobe提供的选项中进行选择，或输入由逗号分隔的十六进制值定义的自定义调色板。</li><li>**发散调色板**：应用于Analysis Workspace中的同类群组表。 此调色板具有数值含义，其中有两个极端并在中间有一个基线。</li><li>**顺序调色板**：应用于频率趋势（栈叠条形图）引导式分析。 此调色板具有从浅到深的数字含义。</li></ul> |
+| | [调色板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=zh-Hans) | 选择 Analysis Workspace 中使用的可视化调色板。<ul><li>**分类调色板**：适用于 Analysis Workspace 中的许多可视化图表。每种颜色均代表不同的分类值。从 Adobe 提供的选项中进行选择，或输入由逗号分隔的十六进制值定义的自定义调色板。</li><li>**发散调色板**：适用于 Analysis Workspace 中的同类群组表。此调色板包含两个极端和中间基线的数值含义。</li><li>**顺序调色板**：适用于频率趋势（堆叠柱状图）引导分析。此调色板包含从浅色到深色的数值含义。</li></ul> |
 | **数据** | | |
 |  | [报表包](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hans?#report-suite) | 选择表格和可视化从中获取数据的位置。 <ul><li>最近（默认）</li><li>从列表中选择特定报表包</li></ul> |
 |  | [日历](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hans?#calendar) | 从以下列表中选择： <ul><li>Adobe 提供的范围（默认为“本月”）</li><li>自定义范围</li></ul> |
@@ -112,11 +112,11 @@ ht-degree: 95%
 | **[行](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)** | | |
 | | 按位置划分 | 如果您希望细目分类保留在项目的位置而不是项目本身，请选择此选项。有关细分的更多信息，请参阅[细分维度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。 |
 | | 百分比计算 | <ul><li>栏目</li><li>行</li></ul> |
-| | 列总计（仅限静态行） | <ul><li>显示行总和：显示单个行项目的总和 </li><li>显示总计：显示删除了重复项的行总和。</li></ul> |
+| | 列总计（仅限静态行） | <ul><li>显示行总和：显示各个行项目的总和 </li><li>显示总计：显示进行重复数据删除后的行总和。</li></ul> |
 
 ## 可视化偏好设置
 
-您可以更新在Analysis Workspace中创建的所有新项目的可视化图表首选项。 有关如何访问这些偏好设置的信息，请参阅[更新偏好设置](#update-preferences)。
+您可以更新在 Analysis Workspace 中创建的所有新项目的可视化偏好设置。有关如何访问这些偏好设置的信息，请参阅[更新偏好设置](#update-preferences)。
 
 这些相同的偏好设置中的一些也可以针对单个可视化进行自定义。
 
