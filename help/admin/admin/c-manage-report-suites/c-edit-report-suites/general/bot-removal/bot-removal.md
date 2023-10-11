@@ -3,10 +3,10 @@ title: 在 Adobe Analytics 中删除机器人
 description: 如何删除 Adobe Analytics 中的机器人
 feature: Bot Removal
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 ## 使用 Adobe 工具组合
 
-此外，由于机器人发展较快，因此 Adobe 提供了其他几个强大的功能，如果定期将这些功能合理组合在一起，将有助于提高其数据质量。这些功能包括：Experience Cloud ID 服务、分段、Data Warehouse、客户属性和虚拟报表包。这里是如何使用这些工具的概述。
+此外，由于机器人发展较快，因此 Adobe 提供了其他几个强大的功能，如果定期将这些功能合理组合在一起，将有助于提高其数据质量。这些功能包括：Experience CloudID服务、分段、Data Warehouse、客户属性和虚拟报表包。 这里是如何使用这些工具的概述。
 
 ### 步骤 1：将访客的 Experience Cloud ID 传递到新声明的 ID
 
@@ -66,26 +66,26 @@ ht-degree: 100%
 
 请记住使用 Experience Cloud 访客 ID 作为您的维度并应用“Bots”区段。
 
-### 步骤 4：将此列表作为客户属性传回 Adobe
+### 步骤4：将此列表作为客户属性传回Adobe
 
 Data Warehouse 报表到达之后，您就有了必须从历史数据中筛选出去的 ECID 列表。将这些 ECID 复制并粘贴到一个空白的 .CSV 文件中，该文件只包含两列：ECID 和机器人标记。
 
 * **ECID**：确保此列标题与您为以上新声明的 ID 提供的名称相匹配。
 * **机器人标记**：添加“机器人标记”作为客户属性架构维度。
 
-将此 .CSV 文件用作“客户属性”导入文件，然后按照此[博客帖子](https://theblog.adobe.com/link-digital-behavior-customers)中的说明，将报表包订阅给“客户属性”。
+将此.CSV文件用作“客户属性”导入文件，然后按照以下说明将报表包订阅给“客户属性” [博客帖子](https://theblog.adobe.com/link-digital-behavior-customers).
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-csv-4.png)
 
-### 步骤 5：创建可利用新客户属性的区段
+### 步骤5：创建一个利用新“客户”属性的区段
 
 在您的数据集得到了处理并集成到 Analysis Workspace 之后，创建另一个利用您的新“机器人标记”客户属性维度的区段，以及一个[!UICONTROL 排除]容器：
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-filter-seg2.png)
 
-### 步骤 6：使用此区段作为虚拟报表包过滤器
+### 步骤6：将此区段用作虚拟报表包过滤器
 
-最后，创建使用此区段的[虚拟报表包](/help/components/vrs/vrs-about.md)，过滤掉识别的机器人：
+最后，创建 [虚拟报表包](/help/components/vrs/vrs-about.md) 区段来过滤掉已识别的机器人：
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-vrs.png)
 

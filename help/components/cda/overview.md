@@ -3,10 +3,10 @@ title: Cross-Device Analytics
 description: 通过将设备数据拼合在一起，将您的数据从以设备为中心更改为以人员为中心。
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 feature: CDA
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 97%
+ht-degree: 90%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 97%
 
 当设备拼合在一起后，变量持久性会在设备之间传递。例如，用户首先通过台式计算机上的广告访问了您的网站。然后，该用户找到并安装了您的移动设备应用程序，而且最终在其移动设备上进行了购买。对于 Cross-Device Analytics，可将移动设备上的收入归因于用户在其桌面计算机上单击的广告。
 
-本着合作精神和透明精神，我们希望客户了解我们与 Cross-Device Analytics 相结合使用的 Microsoft Azure。Adobe 使用 Azure 存储设备图数据并执行跨设备拼合。因此，Adobe Analytics数据在Adobe的数据处理中心和Adobe的Microsoft Azure预配实例之间来回传递。
+本着合作精神和透明精神，我们希望客户了解我们与 Cross-Device Analytics 相结合使用的 Microsoft Azure。Adobe 使用 Azure 存储设备图数据并执行跨设备拼合。因此，Adobe Analytics数据在Adobe的数据处理中心和Adobe配置的Microsoft Azure实例之间来回传递。
 
 请参阅[历程 IQ：Cross-Device Analytics Spark 页面](https://adobe.ly/aacda)，了解关于 Cross-Device Analytics 功能和特征的详细信息。
 
@@ -48,7 +48,7 @@ Cross-Device Analytics 是一项具有突破性的强大功能，但其使用方
 * Adobe Analytics 报告包无法映射到多个组织 ID。由于 CDA 拼合给定报告包内的设备，因此 CDA 无法用于拼合多个组织 ID 之间的数据。
 * CDA 使用复杂的处理管道，并具有多个依赖组件。这与基本 Analytics 报告工作流并行运行。因此，预计源报表包和 CDA 虚拟报表包之间的点击总数的数据不匹配率约为 1%。
 * Cross-Device Analytics 使用虚拟报表包和报表时间处理，二者各有其自身的限制。例如，它们目前不支持营销渠道变量。有关具体限制的详细信息，请参阅[虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-Hans)和[报表时间处理](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html#report-time-processing-limitations?lang=zh-Hans)。
-* 专用图形利用 Experience Cloud 和 Adobe Analytics 中的[客户属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hans#customer-attributes)功能所使用的相同 ID 同步。但是，CDA 虚拟报表包（无论是基于专用图形还是基于字段的拼接）与其余的“客户属性”功能不兼容。换句话说，基于客户属性的维度不可用于 CDA 虚拟报表包。
+* 专用图形利用ID同步，即 [客户属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hans#customer-attributes) 在Experience Cloud和Adobe Analytics中找到的功能。 但是，CDA虚拟报表包（无论是基于专用图形还是基于字段的拼接）与其余的“客户属性”功能不兼容。 换句话说，基于客户属性的维度不可用于CDA虚拟报表包。
 * CDA 当前与 A4T 不兼容。
 * 不支持 1.4 API。Power BI 连接器和 Report Builder 都依赖于 1.4 API，因此与 CDA 不兼容。
 * Adobe 对于 CDA 拼合过程的主动监视仅适用于生产报表包。

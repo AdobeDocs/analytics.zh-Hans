@@ -3,10 +3,10 @@ title: 实施 Adobe Analytics 营销渠道的最佳实践
 description: 将营销渠道用于归因 IQ 和 Customer Journey Analytics 的更新后最佳实践
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 90%
+ht-degree: 86%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 90%
 
 当营销渠道在首次引入时，它们只具有首个联系和最近联系维度。在有了当前版本的归因后，不再需要显式的首个联系/最近联系维度。Adobe 提供了通用的“营销渠道”和“营销渠道详细信息”维度，以便您将其与所需的归因模型结合使用。这些一般化的维度的行为与最近联系渠道维度相同，但采用了不同的标记以防止在将营销渠道用于不同的归因模型时造成混淆。
 
-由于营销渠道维度取决于传统的访问定义（由其处理规则定义），其访问定义在使用虚拟报表包时无法更改。这些修订后的做法通过Attribution IQ和Customer Journey Analytics实现了清楚可控的回溯窗口。
+由于营销渠道维度取决于传统的访问定义（由其处理规则定义），因此使用虚拟报表包无法更改其访问定义。 这些修订后的做法通过Attribution IQ和Customer Journey Analytics实现了清楚可控的回溯窗口。
 
 ## 最佳实践 1：利用归因 IQ 进行可控分析
 
@@ -46,7 +46,7 @@ ht-degree: 90%
 
 ## 最佳实践 4：尽可能缩短访客参与期
 
-将访客参与期设置为最小值“1天”可将保留值的可能性降至最低。 由于自定义归因模型 (AIQ) 允许灵活的回溯窗口，我们建议设置最小值以尽可能减少此设置的影响。
+将访客参与期设置为最小值“1天”以尽可能减少保留值的可能性。 由于自定义归因模型 (AIQ) 允许灵活的回溯窗口，我们建议设置最小值以尽可能减少此设置的影响。
 
 ![](assets/expiration.png)
 

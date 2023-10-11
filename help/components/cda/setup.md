@@ -3,10 +3,10 @@ title: 设置 Cross-Device Analytics
 description: 配置虚拟报表包以启用 CDA。
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 97%
+source-wordcount: '532'
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ CDA 由 Adobe 工程团队在您的跨设备报表包上预配。要开始此过
 
 * 您的 Adobe Experience Cloud 组织 ID（一个以 @AdobeOrg 结尾的字母数字字符串）
 * 希望通过 CDA 启用的跨设备报表包的报表包 ID
-* 您要使用哪种CDA方法(基于字段的拼合或Adobe设备图)
+* 要使用哪种CDA方法(基于字段的拼合或Adobe设备图)
 * 如果要使用基于字段的拼合，请提供包含用户 ID 的 prop 或 eVar
 * 您对于重放频率和回看时长的首选项。选项包括每周重放一次且回看时段为 7 天或每天重放一次且回看时段为 1 天。
 默认为每周重放一次且回看时段为 7 天。在此情况下，上周内的数据可能会发生变化（因为它正在逐步拼合和更新）。
@@ -37,10 +37,10 @@ CDA 由 Adobe 工程团队在您的跨设备报表包上预配。要开始此过
 
 1. 导航到 [experiencecloud.adobe.com](https://experiencecloud.adobe.com) 并使用 Adobe ID 凭据登录。
 2. 单击顶部的 9 宫格图标，然后单击“Analytics”。
-3. 将鼠标指针悬停在顶部的“组件”上，然后单击“虚拟报表包”。
+3. 将鼠标悬停在 **[!UICONTROL 组件]** 顶部的，然后单击 **[!UICONTROL 虚拟报表包]**.
 4. 单击“添加”。
 5. 输入虚拟报表包的名称，并确保选定已启用 CDA 的报表包。
-6. （可选）将区段应用到虚拟报表包。例如，您可以应用一个区段，以将虚拟报表包的日期限制为在 CDA 开启且拼合开始后的日期。此区段允许用户仅查看 VRS 内的拼合日期范围。
+6. （可选）将区段应用到虚拟报表包。例如，您可以应用一个区段，以将虚拟报表包的日期限制为在 CDA 开启且拼合开始后的日期。此区段允许用户仅查看虚拟报表包中拼合的日期范围。
 7. 单击“启用报表时间处理”复选框，此复选框可启用多个选项，包括 Cross-Device Analytics。
 8. 单击“拼合跨设备用户访问”复选框。
 9. 单击“继续”，完成虚拟报表包的配置，然后单击“保存”。

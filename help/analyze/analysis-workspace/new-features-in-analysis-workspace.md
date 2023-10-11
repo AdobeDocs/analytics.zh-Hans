@@ -5,10 +5,10 @@ title: Analysis Workspace 中的新增功能
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
-workflow-type: ht
-source-wordcount: '8267'
-ht-degree: 100%
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+workflow-type: tm+mt
+source-wordcount: '8268'
+ht-degree: 99%
 
 ---
 
@@ -196,7 +196,7 @@ ht-degree: 100%
 
 | 功能 | 描述 |
 |--- |--- |
-| [VRS 和项目策划 — 增强功能](/help/analyze/analysis-workspace/curate-share/curate.md) | 这些更改的实际引入时间为 2018 年 10 月。无论是管理员还是非管理员，都可以在策划的工作区项目和策划的虚拟报表包 (VRS) 中，查看发生更改的组件。<br>此前，单击显示所有组件按钮后，大家只能查看非策划的组件。策划体验经过更新后，在查看组件方面提供了更加精细化的控制。</br> |
+| [虚拟报表包和项目策划 — 增强功能](/help/analyze/analysis-workspace/curate-share/curate.md) | 这些更改的实际引入时间为 2018 年 10 月。无论是管理员还是非管理员，都可以在策划的工作区项目和策划的虚拟报表包中，查看发生更改的组件。 <br>此前，单击显示所有组件按钮后，大家只能查看非策划的组件。策划体验经过更新后，在查看组件方面提供了更加精细化的控制。</br> |
 
 ## 2018 年 10 月
 
@@ -537,7 +537,7 @@ ht-degree: 100%
   </tr>
   <tr>
    <td colname="col1"> <p>对 event#、eVar# 和 prop# 进行了更改 </p> </td>
-   <td colname="col2"> <p>Event#、eVar# 和 prop# 之前被添加在左边栏的维度名称中（2017 年），现在，只有当您<b>搜索</b>相应组件时，它们才会显示。 </p> <p>（这同样适用于虚拟报表包生成器。） </p> </td>
+   <td colname="col2"> <p>Event#、eVar# 和 prop# 之前被添加在左边栏的维度名称中（2017 年），现在，只有当您<b>搜索</b>相应组件时，它们才会显示。 </p> <p>（也适用于虚拟报表包生成器。） </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>对“无”/“未指定”进行了更改 </p> </td>

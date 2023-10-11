@@ -3,10 +3,10 @@ description: Analysis Workspace、Reports & Analytics、Report Builder、Data Wa
 title: Analytics 产品比较和要求
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 0579715d33db28f1741eed2b1aa1520d3beb757b
-workflow-type: ht
-source-wordcount: '426'
-ht-degree: 100%
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+workflow-type: tm+mt
+source-wordcount: '432'
+ht-degree: 96%
 
 ---
 
@@ -34,8 +34,8 @@ ht-degree: 100%
 | **同类群组分析** | [是](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 否 | 否 | 否 | 是 | 否 | 否 |
 | **归因** | 是，具有[归因 IQ](/help/analyze/analysis-workspace/attribution/overview.md) | 有限制 | 有限制 | 否 | 是 | 否 | 是，具有[归因 IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Virtual Analyst 功能**<br> [了解详情](/help/analyze/analysis-workspace/virtual-analyst/overview.md) | 是 | 否 | 否 | 否 | 否 | 否 | 是 |
-| **策划**<br> [了解详情](/help/analyze/analysis-workspace/curate-share/curate.md) | 是 - 项目和 VRS | 否 | 否 | 否 | 否 | 否 | 是 - 仅 VRS |
+| **策划**<br> [了解详情](/help/analyze/analysis-workspace/curate-share/curate.md) | 是 — 项目和虚拟报表包 | 否 | 否 | 否 | 否 | 否 | 是  — 仅限虚拟报表包 |
 | **项目共享**<br> [了解详情](/help/analyze/analysis-workspace/curate-share/share-projects.md) | 是，具有项目角色 | 是 | 是 | 否 | 是 | 否 | 否 |
 | **计划提交** | 是 | 是 | 是 | 是 | 否 | 是 | 否 |
 | **提交目标** | 电子邮件 | 电子邮件 | 电子邮件、FTP、SFTP、[发布到 Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Amazon S3、Google Cloud Platform、Azure SAS、Azure RBAC 和电子邮件 | - | Amazon S3、Azure RBAC、Azure SAS 和 Google Cloud Platform | - |
-| **VRS 报告时间处理**<br> [了解详情](/help/components/vrs/vrs-report-time-processing.md) | 是 | 否 | 否 | 否 | 否 | 否 | 是 |
+| **虚拟报表包报表时间处理** <br> [了解详情](/help/components/vrs/vrs-report-time-processing.md) | 是 | 否 | 否 | 否 | 否 | 否 | 是 |

@@ -3,10 +3,10 @@ description: 围绕 Advertising Analytics 的常见问题。
 title: Advertising analytics 常见问题解答
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 100%
+source-wordcount: '1419'
+ht-degree: 93%
 
 ---
 
@@ -94,8 +94,8 @@ ht-degree: 100%
    <td colname="col2"> <p>答：在将报表包分配到 Advertising Analytics 帐户之前，<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >需要为 Advertising Analytics 报表</a>配置所需的报表包。 </p> <p>此操作可通过单独的管理员页面完成，访问方式如下：<span class="ignoretag"><span class="uicontrol">“管理员”</span> &gt; <span class="uicontrol">“报表包”</span>&gt;<span class="uicontrol">[选择启用了 Experience Cloud 的报表包]</span>&gt;<span class="uicontrol">“编辑设置”</span>&gt;<span class="uicontrol">“Advertising Analytics 配置”</span></span>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>问：是否可以将<b>“虚拟报表包”</b> (VRS) 分配到 Advertising Analytics 帐户？ </p> </td> 
-   <td colname="col2"> <p>答：虚拟报表包不收集数据，因此您不能直接将 Advertising Analytics 帐户映射到虚拟报表包。 </p> <p>但是，您可以将 Advertising Analytics 帐户映射到您想要查看其数据的虚拟报表包的父报表包。 </p> <p>除非您根据 AMO ID（或其分类）在区段逻辑中包含“或”条件，否则搜索引擎指标（点击次数/成本/展示次数）可能不会显示在 VRS 中。示例：添加“存在 AMO ID 的所有点击”将包括该区段中的搜索引擎指标。 </p> </td> 
+   <td colname="col1"> <p>问：是否可以分配 <b>虚拟报表包</b> 到Advertising Analytics帐户？ </p> </td> 
+   <td colname="col2"> <p>答：虚拟报表包不收集数据，因此您无法将Advertising Analytics帐户直接映射到虚拟报表包。 </p> <p>但是，您可以将Advertising Analytics帐户映射到您想要在其中查看数据的虚拟报表包的父报表包。 </p> <p>除非您根据AMO ID（或其分类）在区段逻辑中包含“或”条件，否则搜索引擎量度（点击次数/成本/展示次数）可能不会显示在虚拟报表包中。 示例：添加“存在 AMO ID 的所有点击”将包括该区段中的搜索引擎指标。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>问：Advertising Analytics 指标是否可以在<b>“营销渠道”</b>报表中进行报告？ </p> </td> 

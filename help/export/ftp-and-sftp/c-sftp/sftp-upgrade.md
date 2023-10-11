@@ -3,7 +3,7 @@ title: SFTP 服务升级 — 常见问题解答
 description: 有关计划进行的 SFTP 服务升级的常见问题解答。
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 100%

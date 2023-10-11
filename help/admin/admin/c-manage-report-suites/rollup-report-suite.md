@@ -3,10 +3,10 @@ description: 介绍各种报表包类型并比较全局报表包和汇总报表�
 title: 报表包方法
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: e8cbf24f6e0c829dadb2a6e7db502d0e8ba1f07f
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '973'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -26,17 +26,17 @@ Adobe 建议在大多数情况下实施全局报表包。有关实施全局报�
 
 * **多包标记**：通过多包标记，可将图像请求不仅发送到全局报表包，还可发送到个别的子报表包。在所有报表包上去除重复的全局报表数据。
 
-   例如，您可能将所有数据收集到一个全局报表包中，还根据品牌、区域或另一区分因素设置辅助报表包。贵公司中的不同团队随后即可集中精力处理报表包中与其相关的数据。
+  例如，您可能将所有数据收集到一个全局报表包中，还根据品牌、区域或另一区分因素设置辅助报表包。贵公司中的不同团队随后即可集中精力处理报表包中与其相关的数据。
 
-   要使用多包标记，请实施子报表包以及一个含有子报表包中所有数据的全局报表包。您的网页和应用程序的跟踪代码将包括全局报表包的报表包 ID (RSID)，还将包括适用的子报表包的 RSID。<!-- Wording/be more specific? And include any links? -->
+  要使用多包标记，请实施子报表包以及一个含有子报表包中所有数据的全局报表包。您的网页和应用程序的跟踪代码将包括全局报表包的报表包 ID (RSID)，还将包括适用的子报表包的 RSID。<!-- Wording/be more specific? And include any links? -->
 
-   对图像请求中的每个报表包进行单独的服务器调用。对子报表包的调用为辅助调用。
+  对图像请求中的每个报表包进行单独的服务器调用。对子报表包的调用为辅助调用。
 
 * **虚拟报表包**：[虚拟报表包](/help/components/vrs/vrs-about.md)是对收集到全局报表包中的指定区段的查询，并对指定的用户组可用。通过虚拟报表包，无需使用多包标记，即可为不同的最终用户编排报表元素，从而避免辅助服务器调用。
 
-   要使用虚拟报表包，请实施一个全局报表包，然后解析数据以创建应用了特定区段并具有特定组权限的虚拟报表包。可在虚拟报表包管理器（[!UICONTROL 组件] > [!UICONTROL 虚拟报表包]）中创建虚拟报表包。有关详细信息，请参阅[虚拟报表包工作流程](/help/components/vrs/c-workflow-vrs/vrs-workflow.md)。
+  要使用虚拟报表包，请实施一个全局报表包，然后解析数据以创建应用了特定区段并具有特定组权限的虚拟报表包。您可以在虚拟报表包管理器([!UICONTROL 组件] > [!UICONTROL 虚拟报表包])。 有关详细信息，请参阅[虚拟报表包工作流程](/help/components/vrs/c-workflow-vrs/vrs-workflow.md)。
 
-使用虚拟报表包代替多包标记一般是最佳实践，但虚拟报表包有一些局限。请参阅[虚拟报表包和多包标记注意事项](/help/components/vrs/vrs-considerations.md)以确定何种报表包方法对于您的业务需求是最佳选择。有关虚拟报表包与多包标记功能的深入比较，请参阅[虚拟报表包与多包标记](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)。
+使用虚拟报表包代替多包标记一般是最佳实践，但虚拟报表包有一些局限。请参阅[虚拟报表包和多包标记注意事项](/help/components/vrs/vrs-considerations.md)以确定何种报表包方法对于您的业务需求是最佳选择。有关虚拟报表包与多包标记功能的深入比较，请参阅“[虚拟报表包与多包标记](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)“
 
 ## 汇总报表
 

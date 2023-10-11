@@ -3,10 +3,10 @@ description: 可对虚拟报表包进行管理以在 Analysis Workspace 中包�
 title: 虚拟报表包组件管理
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 100%
+source-wordcount: '423'
+ht-degree: 90%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->无论是管理员还是非管理员，都可以在策划的工作区项目和策划的虚拟报表包 (VRS) 中，查看发生更改的组件。以前，单击&#x200B;**[!UICONTROL 显示所有组件]**&#x200B;后，大家只能看到非策划的组件。[策划体验经过更新后](/help/analyze/analysis-workspace/curate-share/curate.md)，在查看组件方面提供了更加精细化的控制。
+>无论是管理员还是非管理员，都可以在策划的工作区项目和策划的虚拟报表包中，查看发生更改的组件。 以前，单击&#x200B;**[!UICONTROL 显示所有组件]**&#x200B;后，大家只能看到非策划的组件。[策划体验经过更新后](/help/analyze/analysis-workspace/curate-share/curate.md)，在查看组件方面提供了更加精细化的控制。
 
 要启用组件管理，请执行以下操作：
 
-1. 转到 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 虚拟报表包]** > **[!UICONTROL 新建虚拟报表包]**。
+1. 转到 **[!UICONTROL 分析]** > **[!UICONTROL 组件]** > **[!UICONTROL 虚拟报表包]** > **[!UICONTROL 创建新的虚拟报表包]**.
 1. 定义&#x200B;**[!UICONTROL 设置]**&#x200B;后，单击&#x200B;**[!UICONTROL 组件]**&#x200B;选项卡。
 
-1. 选中&#x200B;**[!UICONTROL 启用虚拟报表包组件自定义]**&#x200B;复选框：
+1. 选中复选框 **[!UICONTROL 启用虚拟报表包组件的自定义]**：
 
    ![](assets/vrs-enable.png)
 
@@ -41,11 +41,10 @@ ht-degree: 100%
    >* [!UICONTROL Activity Map]
    >* Analytics 报表 API
 
-
    选中后，通过将适用组件从“排除的组件”列拖入“已包含的组件”列，可添加要包含在虚拟报表包中的组件。可包含和排除的组件包括：
 
    * 维度
-   * 指标
+   * 量度
    * 区段
    * 日期范围
 

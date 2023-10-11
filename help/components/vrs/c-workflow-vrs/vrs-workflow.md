@@ -4,10 +4,10 @@ keywords: 虚拟报表包
 title: 虚拟报表包工作流程
 feature: VRS
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 100%
+source-wordcount: '206'
+ht-degree: 82%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png)[ 通过以下方法创建虚拟报表包](/help/components/vrs/c-workflow-vrs/vrs-create.md)：向父报表包应用一个或多个区段。
 
-可在虚拟报表包管理器（组件 > 虚拟报表包）中创建虚拟报表包。
+可在虚拟报表包管理器中创建虚拟报表包，该管理器可通过以下方式获取： **[!UICONTROL 组件]** > **[!UICONTROL 虚拟报表包]**.
 
 创建虚拟报表包后，在整个用户界面中都会像对待基础报表包一样对待虚拟报表包，并且大部分扩展功能通常也支持虚拟报表包。例如，报表包选择器中会显示虚拟报表包，可以像选择任何其他报表包一样逐个选择虚拟报表包。
 
@@ -31,4 +31,4 @@ ht-degree: 100%
 
 ![](assets/step4_icon.png)[管理](/help/components/vrs/c-workflow-vrs/vrs-manage.md)虚拟报表包。
 
-在虚拟报表包管理器中，您可以编辑、添加、标记、删除、重命名、批准、复制、导出和过滤虚拟报表包。虚拟报表包管理器对非管理员用户不可见。
+通过虚拟报表包管理器，您可以编辑、添加、标记、删除、重命名、批准、复制、导出和筛选虚拟报表包。 虚拟报表包管理器对非管理员用户不可见。

@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
 user-guide-description: 使用区段、计算量度、虚拟报表包、营销渠道和分类等组件管理数据。了解跨设备分析。
-source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 100%
+source-wordcount: '758'
+ht-degree: 97%
 
 ---
 
@@ -219,9 +219,9 @@ ht-degree: 100%
    + [上下文感知会话](vrs/vrs-mobile-visit-processing.md)
    + [报表时间处理](vrs/vrs-report-time-processing.md)
    + [A4T 注意事项](vrs/vrs-a4t.md)
-   + [VRS 常见问题解答](vrs/vrs-faq.md)
-   + [VRS 和全局/多包标记注意事项](vrs/vrs-considerations.md)
-   + VRS 工作流程 {#vrs-workflow}
+   + [虚拟报表包常见问题解答](vrs/vrs-faq.md)
+   + [虚拟报表包和全局/多包标记注意事项](vrs/vrs-considerations.md)
+   + 虚拟报表包工作流程 {#vrs-workflow}
       + [虚拟报表包工作流程](vrs/c-workflow-vrs/vrs-workflow.md)
       + [创建虚拟报表包](vrs/c-workflow-vrs/vrs-create.md)
       + [管理虚拟报表包](vrs/c-workflow-vrs/vrs-manage.md)
@@ -233,7 +233,7 @@ ht-degree: 100%
    + [设置 Cross-Device Analytics](cda/setup.md)
    + [重播的工作原理](cda/replay.md)
    + [CDA 工作区模板](cda/workspace-template.md)
-   + [将 VRS 限制在特定日期](cda/limit-vrs-date.md)
+   + [将虚拟报表包限制在特定日期](cda/limit-vrs-date.md)
    + [Cross-Device Analytics 常见问题解答](cda/faq.md)
 + 警报 {#alerts}
    + [智能警报](c-alerts/intellligent-alerts.md)
