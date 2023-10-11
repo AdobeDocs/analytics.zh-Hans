@@ -3,14 +3,16 @@ title: 选择退出链接
 description: 了解如何为网站的访客创建实施选择退出链接。
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 99%
+source-wordcount: '634'
+ht-degree: 92%
 
 ---
 
 # 实施选择退出链接
+
+*此帮助页面让Adobe Analytics客户能够为其用户提供选择退出链接。 如果您不是Adobe Analytics客户，请参阅 [Adobe隐私选择](https://www.adobe.com/cn/privacy/opt-out.html) 以控制Adobe如何使用您的信息。*
 
 >[!IMPORTANT]
 >
@@ -38,7 +40,7 @@ ht-degree: 99%
    1. 在 Web 服务器上，在代码编辑器或文本编辑器中打开您网站上使用的 AppMeasurement.js 文件。
    1. 记下 `trackingServer` 变量值。
 
-* 使用 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans)：
+* 使用 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html)：
    1. 使用 Chrome 浏览器导航到您的网站。
    1. 打开 Experience Cloud Debugger，然后转到[!UICONTROL 网络]选项卡。
    1. 记下[!UICONTROL 请求 URL - 主机名]值。
