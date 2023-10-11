@@ -3,10 +3,10 @@ title: 使用 Adobe Analytics 扩展实施 Analytics
 description: 了解如何使用标记和 Analytics 扩展实施 Adobe Analytics
 feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
+source-git-commit: 8cb2fd426e9fef247d79de4c138ea814dd691ed3
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 95%
+source-wordcount: '389'
+ht-degree: 87%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Experience Platform 中的标记是一款标记管理解决方案，可让
 
 
 
-![如何使用Adobe Analytics扩展工作流实施Analytics，如本节中所述。](../assets/analytics-extension-annotated.png)
+![如何使用Adobe Analytics扩展工作流实施Analytics，如本节所述。](../assets/analytics-extension-annotated.png)
 
 <table style="width:100%">
 
@@ -63,8 +63,8 @@ Adobe Experience Platform 中的标记是一款标记管理解决方案，可让
 
 <tr>
 <td>6</td> 
-<td><b>验证并发布到生产环境</b>. 将标记属性添加到您的网站。 然后使用数据元素、规则等来定制您的实施。</td>
-<td><a href="./validate-publish-prod.md">验证开发实施并发布到生产环境</a></td>
+<td><b>验证并发布到生产环境</b>. 嵌入代码以将标记资产包含到网站页面。 然后使用数据元素、规则等来定制您的实施。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">嵌入代码</a><br/><a href="./validate-publish-prod.md">验证开发实施并发布到生产环境</a></td>
 </tr>
 
 </table>

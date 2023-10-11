@@ -3,10 +3,10 @@ title: 实施 Adobe Analytics
 description: 在您的网站、属性或应用程序上实施 Adobe Analytics。
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
+source-git-commit: 8cb2fd426e9fef247d79de4c138ea814dd691ed3
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 85%
+source-wordcount: '933'
+ht-degree: 83%
 
 ---
 
@@ -32,22 +32,22 @@ Adobe Analytics 需要在您的网站、移动应用程序或其他应用程序�
 
 对于您的&#x200B;**网站**，可以使用以下实现方法：
 
-* **Web SDK 扩展**：这是一种在为新客户实施 Adobe Analytics 时推荐使用的标准化方法。 安装 **Adobe Experience Platform Web SDK扩展** 在Adobe Experience Platform数据收集中 **标记**，在每个页面上使用加载器标记，并将数据发送到Adobe Experience Platform **边缘网络** 采用对您的组织方便的格式。 Edge Network 以正确的格式将传入数据转发到 Adobe Analytics。
+* **Web SDK 扩展**：这是一种在为新客户实施 Adobe Analytics 时推荐使用的标准化方法。 安装 **Adobe Experience Platform Web SDK扩展** 在Adobe Experience Platform数据收集中 **标记**，可在每个页面上放置嵌入代码（Javascript加载器标记），并将数据发送到Adobe Experience Platform **边缘网络** 采用对您的组织方便的格式。 Edge Network 以正确的格式将传入数据转发到 Adobe Analytics。
   ![Web SDK扩展](./assets/websdk-extension-implementation.png)
-参见 [如何使用Adobe Experience Platform Web SDK扩展实施Adobe Analytics。](./aep-edge/overview.md)以了解详细信息。
+请参阅 [如何使用Adobe Analytics Web SDK扩展实施Adobe Experience Platform。](./aep-edge/overview.md)以了解详细信息。
 
 * **Web SDK**：如果您不想使用 Adobe Experience Platform 数据收集，可以在您的站点上手动加载 Web SDK 库。 在每个页面上引用 Web SDK 库 (`alloy.js`)，并将所需的跟踪调用以您组织方便的格式发送到 Adobe Experience Platform **Edge Network**。 Edge Network 以正确的格式将传入数据转发到 Adobe Analytics。
   ![Web SDK](./assets/websdk-implementation.png)
-参见 [如何使用Adobe Experience Platform Web SDK实施Adobe Analytics](./aep-edge/overview.md) 了解更多信息。
+请参阅 [如何使用Adobe Experience Platform Web SDK实施Adobe Analytics](./aep-edge/overview.md) 以了解更多信息。
 
 
-* **Analytics 扩展**：在 Adobe Experience Platform 数据收集&#x200B;**标记**&#x200B;中安装 **Adobe Analytics 扩展**。 该方法会在每个页面上设置一个加载器标记，并使用 Adobe Analytics 扩展来确定每个变量的定义方式。 如果您想要“标记”的便利性，但又不想使用 Edge Network 基础设施，请使用此实现方法。
+* **Analytics 扩展**：在 Adobe Experience Platform 数据收集&#x200B;**标记**&#x200B;中安装 **Adobe Analytics 扩展**。 在每个页面上放置一个嵌入代码（Javascript加载器标记），并使用Adobe Analytics扩展来确定每个变量的定义方式。 如果您想要“标记”的便利性，但又不想使用 Edge Network 基础设施，请使用此实现方法。
   ![Adobe Analytics扩展](./assets/analytics-extension-implementation.png)
-参见 [如何使用Adobe Analytics扩展实施Analytics](launch/overview.md) 了解更多信息。
+请参阅 [如何使用Adobe Analytics扩展实施Analytics](launch/overview.md) 以了解更多信息。
 
 * **旧版 JavaScript**：实施 Adobe Analytics 的历史手动方法。在每个页面上引用 AppMeasurement 库 (`AppMeasurement.js`)，然后概述实施中使用的变量和设置。
   ![如何使用旧版JavaScript实施Adobe Analytics](./assets/appmeasurement-implementation.png)
-此实施方法适用于使用自定义代码的实施，当您（希望）使用时，仍建议使用此方法：
+此实施方法可用于使用自定义代码的实施，当您（希望）使用时，仍建议使用此方法：
 
    * [Activity Map 数据](../analyze/activity-map/activity-map.md)，
 
