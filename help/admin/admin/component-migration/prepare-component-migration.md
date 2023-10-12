@@ -2,9 +2,10 @@
 description: 介绍为将组件和项目从Adobe Analytics迁移到Customer Journey Analytics所做的必要准备。
 title: 准备将组件和项目从Adobe Analytics迁移到Customer Journey Analytics
 feature: Admin Tools
-source-git-commit: cbd991821dc1eefa458ec5d92b75f9b4dfcc9fa0
+exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
+source-git-commit: 03120156e1ba70e50b265da788fa5997fd31c93e
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '939'
 ht-degree: 15%
 
 ---
@@ -54,7 +55,9 @@ ht-degree: 15%
 
 ### 已迁移的组件元素
 
-Dimension和量度将作为映射过程的一部分进行迁移，如中所述 [将Adobe Analytics项目迁移到Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics)Customer Journey Analytics ，而区段和日期范围则是根据
+Dimension和量度将作为映射过程的一部分进行迁移，如中所述 [将Adobe Analytics项目迁移到Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics).
+
+Customer Journey Analytics中尚未存在的区段、日期范围和计算指标会根据映射的维度和指标在此处重新创建。
 
 |  | 已迁移 |
 |---------|---------|
@@ -92,7 +95,7 @@ Dimension和量度将作为映射过程的一部分进行迁移，如中所述 [
 
 ## 了解导致错误的不支持的元素
 
-Customer Journey Analytics不支持以下可视化图表、面板和功能。 如果在迁移之前将这些元素包含在项目中，则它们可能会导致迁移失败，或者会在迁移项目后导致错误。
+Customer Journey Analytics不支持以下可视化和面板。 如果在迁移之前将这些元素包含在项目中，则它们可能会导致迁移失败，或者会在迁移项目后导致错误。
 
 在将项目迁移到Customer Journey Analytics之前，请从Adobe Analytics项目中删除这些元素。 如果迁移失败，请在重试迁移之前删除这些元素。
 
@@ -112,11 +115,7 @@ Customer Journey Analytics不支持以下可视化图表、面板和功能。 �
 
 * [页面摘要](/help/analyze/analysis-workspace/c-panels/page-summary.md)
 
-### 不支持的功能
-
 * [贡献分析](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
-
-* [警报](/help/components/c-alerts/intellligent-alerts.md)
 
 ## 作为组织决定如何映射组件
 

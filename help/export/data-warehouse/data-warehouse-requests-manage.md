@@ -4,10 +4,10 @@ title: 管理 Data Warehouse 请求
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 1f6dc980c7ec4646b8b58be06563f553c0010245
+source-git-commit: 48455ca071b2137d4d1d9f8d6d5dce77aee25b5e
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 18%
+source-wordcount: '927'
+ht-degree: 16%
 
 ---
 
@@ -73,6 +73,19 @@ ht-degree: 18%
    ![管理请求](assets/dw-manage-request.png)
 
 1. 选择 [!UICONTROL **查看历史记录**].
+
+   此 [!UICONTROL **查看Data Warehouse请求**] 页面显示单个报告交付的列表。
+
+   ![请求历史记录页面](assets/dw-request-history.png)
+
+1. 选择一个报表交付，然后选择以下任一选项：
+
+   | 选项 | 函数 |
+   |---------|----------|
+   | [!UICONTROL **目标详细信息**] | 显示与请求关联的帐户和位置详细信息。 这是之前配置的帐户和位置，如中所述 [为Data Warehouse请求配置报表目标](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
+   | [!UICONTROL **取消报告**] | 取消报告。 您无法取消状态为“ ”的报告 [!UICONTROL **已完成**] 或 [!UICONTROL **已取消**]. |
+   | [!UICONTROL **重新运行报告**] | 再次运行报表，其中包含与最初发送时相同的数据。 您可以重新运行具有以下任意状态的报表： [!UICONTROL **已取消**]， [!UICONTROL **已完成**]， [!UICONTROL **错误 — 正在处理**]，或 [!UICONTROL **错误 — 发送失败**]. |
+   | [!UICONTROL **重新发送报告**] | 重新发送之前生成的报告文件。 您可以重新发送具有以下任意状态的报表： [!UICONTROL **已完成**] 或 [!UICONTROL **错误 — 发送失败**]. |
 
 ## 复制请求
 

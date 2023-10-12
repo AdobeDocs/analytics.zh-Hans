@@ -3,9 +3,9 @@ title: 创建数据馈送
 description: 了解如何创建数据馈送。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 6681eedee327a5bb9cbfcb8ccf00ac32628f5a1f
+source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
 workflow-type: tm+mt
-source-wordcount: '3175'
+source-wordcount: '3163'
 ht-degree: 19%
 
 ---
@@ -117,9 +117,9 @@ ht-degree: 19%
 
    +++Azure RBAC
 
-   您可以使用RBAC身份验证将馈送直接发送到Azure容器。 此目标类型需要存储段名称、应用程序ID、租户ID和密钥。
+   您可以使用RBAC身份验证将馈送直接发送到Azure容器。 此目标类型需要应用程序ID、租户ID和密码。
 
-   要将Azure RBAC存储段配置为数据馈送的目标，请执行以下操作：
+   要将Azure RBAC帐户配置为数据馈送的目标，请执行以下操作：
 
    1. 如果还没有该应用程序，请创建Adobe Analytics可用于身份验证的Azure应用程序，然后在访问控制(IAM)中授予访问权限。
 
@@ -177,9 +177,9 @@ ht-degree: 19%
 
    +++Azure SAS
 
-   您可以使用SAS身份验证将馈送直接发送到Azure容器。 此目标类型需要存储段名称、应用程序ID、租户ID、密钥保管库URI、密钥保管库机密名和密钥。
+   您可以使用SAS身份验证将馈送直接发送到Azure容器。 此目标类型需要应用程序ID、租户ID、密钥保管库URI、密钥保管库密钥名和密钥。
 
-   要将Azure SAS存储段配置为数据馈送的目标，请执行以下操作：
+   要将Azure SAS配置为数据馈送的目标，请执行以下操作：
 
    1. 如果尚未这样做，请创建一个Adobe Analytics可用于身份验证的Azure应用程序。
 
@@ -210,7 +210,7 @@ ht-degree: 19%
          | 字段 | 函数 |
          |---------|----------|
          | [!UICONTROL **帐户名称**] | Azure SAS帐户的名称。 此名称显示在 [!UICONTROL **选择帐户**] 下拉字段，可以是您选择的任意名称。 |
-         | [!UICONTROL **帐户取消**] | Azure SAS帐户的描述。 此描述显示在 [!UICONTROL **选择帐户**] 下拉字段，可以是您选择的任意名称。 |
+         | [!UICONTROL **帐户描述**] | Azure SAS帐户的描述。 此描述显示在 [!UICONTROL **选择帐户**] 下拉字段，可以是您选择的任意名称。 |
          | [!UICONTROL **应用程序 ID**] | 从您创建的Azure应用程序中复制此ID。 在Microsoft Azure中，此信息位于 **概述** 选项卡。 欲了解更多信息，请参见 [Microsoft Azure有关如何使用Microsoft Identity Platform注册应用程序的文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **租户 ID**] | 从您创建的Azure应用程序中复制此ID。 在Microsoft Azure中，此信息位于 **概述** 选项卡。 欲了解更多信息，请参见 [Microsoft Azure有关如何使用Microsoft Identity Platform注册应用程序的文档](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **密钥保管库 URI**] | <p>Azure密钥库中SAS令牌的路径。  要配置Azure SAS，您需要使用Azure密钥库将SAS令牌存储为密钥。 有关信息，请参见 [有关如何从Azure密钥库中设置和检索密钥的Microsoft Azure文档](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>创建密钥保管库URI后，在密钥保管库中添加访问策略，以授予您创建的Azure应用程序的权限。 有关信息，请参见 [有关如何分配密钥保管库访问策略的Microsoft Azure文档](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |

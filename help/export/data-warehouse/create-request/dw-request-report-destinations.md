@@ -3,10 +3,10 @@ description: 描述如何创建 Data Warehouse 请求的步骤。
 title: 为Data Warehouse请求配置报表目标
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: f1264344a380944946ffa7b427db7bbc3ea96b1f
+source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
 workflow-type: tm+mt
-source-wordcount: '2255'
-ht-degree: 15%
+source-wordcount: '2304'
+ht-degree: 14%
 
 ---
 
@@ -254,6 +254,8 @@ Data Warehouse数据可以传送到Adobe或客户托管的FTP位置。 需要 FT
 
 * [!UICONTROL **用户名**]：输入用户名以登录SFTP站点。
 
+* [!UICONTROL **上载时使用临时文件扩展名**]：启用后， `.part` 文件扩展名在上传过程中使用。 除非您的SFTP服务器限制在上传完成后更改文件名，否则请保持启用此选项。
+
 * [!UICONTROL **公钥**]：创建Data Warehouse目标时下载相应的公钥。
 
 #### 位置字段
@@ -263,6 +265,8 @@ Data Warehouse数据可以传送到Adobe或客户托管的FTP位置。 需要 FT
 * [!UICONTROL **位置描述**]：SFTP帐户上的位置描述。
 
 * [!UICONTROL **目录路径**]：SFTP帐户上位置的路径。
+
+有关SFTP配置的其他信息，请参阅 [将Data Warehouse请求发送到SFTP服务器](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md).
 
 ### S3
 
