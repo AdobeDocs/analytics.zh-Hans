@@ -4,10 +4,10 @@ title: 报告活动管理器
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 4da5da34518c3fb7350799c185faed789ef5a22b
+source-git-commit: b1f67ca51edf55805c8091db43d4f932463c5200
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 19%
+source-wordcount: '1761'
+ht-degree: 18%
 
 ---
 
@@ -96,31 +96,27 @@ ht-degree: 19%
 
   ![不同用户图](assets/distinct-users-graph.png)
 
-<!--
+#### 请求图表
 
-#### Requests graph
+请求图形可显示过去2小时内选定报表包中已处理和已完成的请求数。
 
-The Requests graph shows the number of processed and completed requests for the selected report suite over the last 2 hours. 
+将鼠标悬停在图表上可查看该分钟最大请求数最高的时间点。
 
-Hover over the chart to view points in time where the maximum number of requests was highest for that minute.
+* **X轴**：过去2小时时间范围内已处理和已完成的请求数。
+* **Y轴**：按分钟计算的已处理请求（紫色）和已完成的请求（绿色）的数量。
 
-* **X-axis**: The number of processed and completed requests over the last 2-hour time frame.
-* **Y-axis**: The number of processed requests (in purple) and completed requests (in green), by minute.
+  ![不同用户图](assets/requests-graph.png)
 
-   ![Distinct Users graph](assets/requests-graph.png)
+#### 排队图
 
-#### Queueing graph
+排队图显示所选报表包在过去2小时内报告请求的平均队列等待时间（秒）。
 
-The Queueing graph shows the average queue wait time (in seconds) for reporting requests for the selected report suite over the last 2 hours. 
+将鼠标悬停在图表上可查看该分钟的最大平均等待时间最高的时间点。
 
-Hover over the chart to view points in time where the maximum average wait time was highest for that minute.
+* **X轴**：过去2小时时间范围内报告请求的平均队列等待时间。
+* **Y轴**：平均等待时间（秒）。
 
-* **X-axis**: The average queue wait time for reporting requests over the last a 2-hour time frame.
-* **Y-axis**: The average wait time (in seconds).
-
-   ![Distinct Users graph](assets/queueing-graph.png)
-
--->
+  ![不同用户图](assets/queueing-graph.png)
 
 ### 查看表 {#view-table}
 
