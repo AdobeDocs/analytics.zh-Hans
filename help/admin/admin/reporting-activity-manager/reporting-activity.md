@@ -4,7 +4,7 @@ title: 报告活动管理器
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: b1f67ca51edf55805c8091db43d4f932463c5200
+source-git-commit: 02273690b98ca456862194e814ff2c72f87d7b41
 workflow-type: tm+mt
 source-wordcount: '1761'
 ht-degree: 18%
@@ -172,7 +172,7 @@ ht-degree: 18%
 
 | 栏目 | 描述 |
 | --- | --- |
-| [!UICONTROL **项目**] | 启动查询的项目。 |
+| [!UICONTROL **项目**] | 发起请求的项目。 |
 | [!UICONTROL **请求数量**] | 与项目关联的请求数。 |
 | [!UICONTROL **用户数量**] | 与项目关联的用户数。 <!-- ??? --> |
 | [!UICONTROL **应用程序**] | [!UICONTROL 报告活动管理器]支持的应用程序包括： <ul><li>Analysis Workspace UI</li><li>工作区计划项目</li><li>Report Builder</li><li>生成器 UI：区段、计算量度、注释、受众等。</li><li>1.4 或 2.0 API 的 API 调用</li><li>智能警报</li></ul> |
@@ -189,7 +189,7 @@ ht-degree: 18%
 
 | 栏目 | 描述 |
 | --- | --- |
-| [!UICONTROL **应用程序**] | 发起查询的应用程序。 |
+| [!UICONTROL **应用程序**] | 发起请求的应用程序。 |
 | [!UICONTROL **请求数量**] | 与应用程序关联的请求数。 |
 | [!UICONTROL **用户数量**] | 与应用程序关联的用户数。 <!--???--> |
 | [!UICONTROL **项目数量**] | 与应用程序关联的项目数。 <!--???--> |
@@ -199,31 +199,5 @@ ht-degree: 18%
 | [!UICONTROL **平均区段数**] | 应用于所包含请求的平均区段数。 更多区段会增加请求的复杂性。 |
 
 {style="table-layout:auto"}
-
-<!--
-
-### Filter
-
-You can filter the table by Application (see list in the table below), by User, and by Project.
-
-![filter](/help/admin/admin/assets/filter.png)
-
-### Summary Numbers {#summary}
-
-![filter](/help/admin/admin/assets/summary_numbers.png)
-
-The Summary Numbers show the following information:
-
-| Summary Number | Description |
-| --- | --- |
-| [!UICONTROL **Users**] | The number of users that are currently sending reporting requests to this report suite. |
-| [!UICONTROL **Projects**] | Workspace projects, Report Builder workbooks, etc.  | 
-| [!UICONTROL **Queries**] | The number of queries currently running. |
-| [!UICONTROL **Average Wait Time**] | The average wait time for all running queries.  |
-| [!UICONTROL **Usage Capacity**] | The current usage capacity for this report suite. |
-
-{style="table-layout:auto"}
-
--->
 
 
