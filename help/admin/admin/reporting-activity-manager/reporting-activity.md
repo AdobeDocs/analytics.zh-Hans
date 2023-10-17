@@ -4,10 +4,10 @@ title: 报告活动管理器
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 02273690b98ca456862194e814ff2c72f87d7b41
+source-git-commit: 4c4c38329b203b16d24ffc95f2a4580e7ca0ba0a
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 18%
+source-wordcount: '1892'
+ht-degree: 16%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 18%
 
    此时将显示已启用的基础报表包的列表。
 
-   ![报告队列](/help/admin/admin/assets/reporting-activity1.png)
+   ![报告队列](assets/reporting-activity1.png)
 
 1. （可选）您可以搜索或筛选报表包列表：
 
@@ -44,7 +44,7 @@ ht-degree: 18%
    | UI 元素 | 描述 |
    | --- | --- |
    | **[!UICONTROL 报表包]** | 基础报告包，您正在监控其报告活动。 |
-   | **[!UICONTROL 虚拟报表包]** | 显示馈送入此基础报告包的所有虚拟报告包。由于额外施加多层筛选和分段，因此虚拟报告包提高了报告请求的复杂性。所有来自虚拟报表包的请求将合并到基础报表包中。<p>例如，如果您从5个虚拟报表包收到10个请求，则基础级别报表包中有50个请求。 这样即可很快达到容量。 |
+   | **[!UICONTROL 虚拟报表包]** | 显示馈送入此基础报告包的所有虚拟报告包。由于额外施加多层筛选和分段，因此虚拟报告包提高了报告请求的复杂性。所有来自虚拟报表包的请求将合并到基础报表包中。 |
    | **[!UICONTROL 产能利用]** | 实时使用的报表包报告容量的百分比。 <p>**注意** 使用容量为100%并不一定表示您应立即开始取消报告请求。 如果平均等待时间合理，则100%的使用容量可能是健康的。 另一方面，如果排队的请求数量也在增加，则100%的使用容量可能会出现问题。</p> |
    | **[!UICONTROL 已排队的请求]** | 等待处理的请求数。 <!-- ??? --> |
    | **[!UICONTROL 队列等待时间]** | 开始处理请求前的平均等待时间。 <!-- ???? --> |
@@ -61,6 +61,8 @@ ht-degree: 18%
    系统将显示选定报表包的报表活动数据。
 
    <!-- Need to update this screenshot: ![report suite](assets/indiv-report-ste.png) -->
+
+1. （可选）当连接首次在报表活动管理器中加载时，显示的数据表示当前的利用率量度。 要在初始加载后查看更新的量度，请选择 [!UICONTROL **刷新**] 按钮以手动刷新页面。
 
 1. 使用可用的图形和表了解报表包中的报表活动。
 
@@ -98,12 +100,12 @@ ht-degree: 18%
 
 #### 请求图表
 
-请求图形可显示过去2小时内选定报表包中已处理和已完成的请求数。
+请求图表显示过去2小时内选定报表包的已处理和已排队请求数。
 
 将鼠标悬停在图表上可查看该分钟最大请求数最高的时间点。
 
 * **X轴**：过去2小时时间范围内已处理和已完成的请求数。
-* **Y轴**：按分钟计算的已处理请求（紫色）和已完成的请求（绿色）的数量。
+* **Y轴**：按分钟计算的已处理请求（绿色）和已排队请求（紫色）的数量。
 
   ![不同用户图](assets/requests-graph.png)
 
@@ -120,13 +122,19 @@ ht-degree: 18%
 
 ### 查看表 {#view-table}
 
-通过选择数据表顶部的以下任一选项卡，可以选择查看数据： [!UICONTROL **请求**]， [!UICONTROL **用户**]， [!UICONTROL **项目**]，或 [!UICONTROL **应用程序**].
+查看表时，请考虑以下事项：
 
->[!TIP]
->
->您可以选择 [!UICONTROL **隐藏图形**] 以仅显示表。
+* 通过选择数据表顶部的以下任一选项卡，可以选择查看数据： [!UICONTROL **请求**]， [!UICONTROL **用户**]， [!UICONTROL **项目**]，或 [!UICONTROL **应用程序**].
 
-![表格选项卡](assets/indiv-report-ste-table-tabs.png)
+* 您可以搜索或筛选连接列表：
+
+   * 使用搜索字段搜索特定连接。 开始键入连接名称或ID，并在键入内容时键入连接更新列表。
+
+   * 选择 [!UICONTROL **筛选**] 图标 ![过滤器图标](assets/filter-icon.png) 以展开筛选器选项列表。 您可以按以下项过滤 [!UICONTROL **状态**]， [!UICONTROL **复杂性**]， [!UICONTROL **应用程序**]， [!UICONTROL **用户**]，或 [!UICONTROL **项目**].
+
+   * 您可以选择 [!UICONTROL **隐藏图形**] 以仅显示表。
+
+![表格选项卡](assets/report-activity-tabs.png)
 
 #### 按请求查看数据
 
@@ -134,11 +142,11 @@ ht-degree: 18%
 
 | 栏目 | 描述 |
 | --- | --- |
-| [!UICONTROL **请求编号**] | 可用于故障排除目的。 |
+| [!UICONTROL **请求编号**] | 可用于故障排除的唯一ID。 要复制ID，请选择请求，然后选择选项 [!UICONTROL **复制请求ID**]. |
 | [!UICONTROL **已用时间**] | 请求已运行多长时间。 |
 | [!UICONTROL **开始时间**] | 请求开始处理的时间（基于管理员的本地时间）。 |
 | [!UICONTROL **等待时间**] | 请求在处理之前等待了多长时间。 当有足够的容量时，该值通常为“0”。 |
-| [!UICONTROL **应用程序**] | [!UICONTROL 报告活动管理器]支持的应用程序包括： <ul><li>Analysis Workspace UI</li><li>工作区计划项目</li><li>Report Builder</li><li>生成器 UI：区段、计算量度、注释、受众等。</li><li>1.4 或 2.0 API 的 API 调用</li><li>智能警报</li></ul> |
+| [!UICONTROL **应用程序**] | [!UICONTROL 报告活动管理器]支持的应用程序包括： <ul><li>Analysis Workspace UI</li><li>工作区计划项目</li><li>Report Builder</li><li>生成器 UI：区段、计算量度、注释、受众等。</li><li>1.4 或 2.0 API 的 API 调用</li><li>智能警报</li><li>与任何人共享链接</li><li>查询Analytics报表引擎的任何其他应用程序</li></ul> |
 | [!UICONTROL **用户**] | 发起请求的用户。 <p>**注意：** 如果此列的值为 [!UICONTROL **无法识别**]，这意味着用户所在的登录公司您没有管理权限。</p> |
 | [!UICONTROL **项目**] | 已保存的 Workspace 项目名称、API 报告 ID 等。（元数据可能因各种应用程序而异。） |
 | [!UICONTROL **状态**] | 状态指示器： <ul><li>**运行中**：请求当前正在处理中。</li><li>**等待中**：请求正在等待处理。</li></ul> |
@@ -158,7 +166,7 @@ ht-degree: 18%
 | [!UICONTROL **用户**] | 发起请求的用户。 如果此列的值为 [!UICONTROL **无法识别**]，这意味着用户所在的登录公司您没有管理权限。 |
 | [!UICONTROL **请求数量**] | 用户发起的请求数。 |
 | [!UICONTROL **项目数量**] | 与用户关联的项目数。 <!-- ??? --> |
-| [!UICONTROL **应用程序**] | [!UICONTROL 报告活动管理器]支持的应用程序包括： <ul><li>Analysis Workspace UI</li><li>工作区计划项目</li><li>Report Builder</li><li>生成器 UI：区段、计算量度、注释、受众等。</li><li>1.4 或 2.0 API 的 API 调用</li><li>智能警报</li></ul> |
+| [!UICONTROL **应用程序**] | [!UICONTROL 报告活动管理器]支持的应用程序包括： <ul><li>Analysis Workspace UI</li><li>工作区计划项目</li><li>Report Builder</li><li>生成器 UI：区段、计算量度、注释、受众等。</li><li>1.4 或 2.0 API 的 API 调用</li><li>智能警报</li><li>与任何人共享链接</li><li>查询Analytics报表引擎的任何其他应用程序</li></ul> |
 | [!UICONTROL **平均复杂性**] | 用户发起的请求的平均复杂性。 <p>并非所有请求都需要相同的处理时间。 请求复杂性有助于提供有关处理请求所需时间的一般概念。</p><p>此列中的值基于由以下列中的值决定的分数：</p><ul><li>[!UICONTROL **平均月份边界**]</li><li>[!UICONTROL **平均列数**]</li><li>[!UICONTROL **平均区段数**]</li></ul> |
 | [!UICONTROL **平均月份边界**] | 请求中包含的平均月数。 更多的月份边界会增加请求的复杂性。 |
 | [!UICONTROL **平均列数**] | 包含的请求中的平均量度和细分数。 更多的列会增加请求的复杂性。 |
@@ -175,7 +183,7 @@ ht-degree: 18%
 | [!UICONTROL **项目**] | 发起请求的项目。 |
 | [!UICONTROL **请求数量**] | 与项目关联的请求数。 |
 | [!UICONTROL **用户数量**] | 与项目关联的用户数。 <!-- ??? --> |
-| [!UICONTROL **应用程序**] | [!UICONTROL 报告活动管理器]支持的应用程序包括： <ul><li>Analysis Workspace UI</li><li>工作区计划项目</li><li>Report Builder</li><li>生成器 UI：区段、计算量度、注释、受众等。</li><li>1.4 或 2.0 API 的 API 调用</li><li>智能警报</li></ul> |
+| [!UICONTROL **应用程序**] | [!UICONTROL 报告活动管理器]支持的应用程序包括： <ul><li>Analysis Workspace UI</li><li>工作区计划项目</li><li>Report Builder</li><li>生成器 UI：区段、计算量度、注释、受众等。</li><li>1.4 或 2.0 API 的 API 调用</li><li>智能警报</li><li>与任何人共享链接</li><li>查询Analytics报表引擎的任何其他应用程序</li></ul> |
 | [!UICONTROL **平均复杂性**] | 项目中包含的请求的平均复杂性。 <p>并非所有请求都需要相同的处理时间。 请求复杂性有助于提供有关处理请求所需时间的一般概念。</p><p>此列中的值基于由以下列中的值决定的分数：</p><ul><li>[!UICONTROL **平均月份边界**]</li><li>[!UICONTROL **平均列数**]</li><li>[!UICONTROL **平均区段数**]</li></ul> |
 | [!UICONTROL **平均月份边界**] | 请求中包含的平均月数。 更多的月份边界会增加请求的复杂性。 |
 | [!UICONTROL **平均列数**] | 包含的请求中的平均量度和细分数。 更多的列会增加请求的复杂性。 |
@@ -200,4 +208,14 @@ ht-degree: 18%
 
 {style="table-layout:auto"}
 
+<!--
 
+## Frequently asked questions {#faq}
+
+| Question | Answer |
+| --- | --- |
+|  |  |
+
+{style="table-layout:auto"}
+
+-->

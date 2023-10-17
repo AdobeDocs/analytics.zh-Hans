@@ -2,10 +2,10 @@
 description: 了解如何使用报告活动管理器诊断和修复在报告高峰期出现的容量问题。
 title: 报告活动管理器概述
 feature: Admin Tools
-source-git-commit: 02273690b98ca456862194e814ff2c72f87d7b41
+source-git-commit: 4c4c38329b203b16d24ffc95f2a4580e7ca0ba0a
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 29%
+source-wordcount: '271'
+ht-degree: 23%
 
 ---
 
@@ -41,10 +41,3 @@ ht-degree: 29%
 
 有关在报告活动管理器中取消报告请求的信息，请参阅 [在报告活动管理器中取消报告请求](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md).
 
-## 常见问题解答 {#faq}
-
-| 问题 | 回答 |
-| --- | --- |
-| 我可以购买额外的报告容量吗？ | 此功能将在不久的将来提供。 |
-
-{style="table-layout:auto"}
