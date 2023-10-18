@@ -4,9 +4,9 @@ title: 管理 Data Warehouse 请求
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 02e743892d3e476a5614d9ad912523ce6315fe62
+source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1280'
 ht-degree: 13%
 
 ---
@@ -20,7 +20,9 @@ ht-degree: 13%
 >如果您的组织尚不具有即将面向所有客户提供的新Data Warehouse体验，请使用以下位置的信息： [管理Data Warehouse请求（旧体验）](#manage-data-warehouse-requests-old-experience) ，位于本页底部。
 
 
-您可以管理已发出的Data Warehouse请求。 以下各节介绍了可在管理请求时执行的活动。 <!-- just those you have made? I think you can see other people's requests (you can filter by them). What can you do with other people's requests? Just view them?-->
+您可以查看和管理已发出的Data Warehouse请求。 只有管理员才能查看和管理组织中其他用户发出的请求，因为他们具有管理权限。
+
+以下各节介绍了可在管理请求时执行的活动。
 
 ## 查看请求
 
@@ -91,7 +93,7 @@ ht-degree: 13%
    | [!UICONTROL **状态**] | 报告投放的状态。 可能的状态是：<ul><li>[!UICONTROL **已创建**]：报告已创建，但尚未处理。</li><li>[!UICONTROL **待处理**]：报表正在等待处理。</li><li>[!UICONTROL **正在处理**]：报表当前正在处理。</li><li>[!UICONTROL **已完成**]：报表已完成，现已可用。</li><li>[!UICONTROL **已计划**]：报告已计划但尚未开始。</li><li>[!UICONTROL **已取消**]：用户已取消报告。</li><li>[!UICONTROL **错误 — 正在处理**：] 报告遇到错误，无法处理。</li><li>[!UICONTROL **错误 — 发送失败**]：报告生成成功，但无法提交。 查看 [目标的配置](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)，然后重新发送报表。</li></ul>。 |
    | [!UICONTROL **From**] | 报表中包含的整体时间范围的开始日期。<p>它以报表包的时区显示。</p> |
    | [!UICONTROL **至**] | 报告中包含的整体时间范围的结束日期。 <p>它以报表包的时区显示。</p> |
-   | [!UICONTROL **旧版请求ID**] | 用于在旧版Data Warehouse界面中标识报表的ID。 联系Adobe客户关怀团队时可能需要此ID。 |
+   | [!UICONTROL **旧请求 ID**] | 用于在旧版Data Warehouse界面中标识报表的ID。 联系Adobe客户关怀团队时可能需要此ID。 |
    | [!UICONTROL **报告ID**] | 用于在当前Data Warehouse界面中标识报表的ID。 联系Adobe客户关怀团队时可能需要此ID。 |
 
 

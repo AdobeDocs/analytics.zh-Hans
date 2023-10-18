@@ -3,9 +3,9 @@ description: 描述如何创建 Data Warehouse 请求的步骤。
 title: 为Data Warehouse请求配置报表目标
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
+source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2342'
 ht-degree: 14%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 14%
 
       | 字段 | 函数 |
       |---------|----------|
-      | [!UICONTROL **角色 ARN**] | 您必须提供一个角色ARN(Amazon资源名称)，Adobe可以使用该角色来访问Amazon S3帐户。 为此，您需要为源帐户创建IAM权限策略，将策略附加到用户，然后为目标帐户创建角色。 有关具体信息，请参阅 [此AWS文档](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
+      | [!UICONTROL **角色 ARN**] | 您必须提供一个角色ARN(Amazon资源名称)，Adobe可以使用该角色来访问Amazon S3帐户。 为此，您需要为源帐户创建IAM权限策略，将策略附加到用户，然后为目标帐户创建角色。 有关具体信息，请参阅 [此AWS文档](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/).<p>有关如何设置存储桶权限的信息，请参阅文章 [如何提供对Amazon S3存储桶中对象的跨帐户访问权限？](https://repost.aws/knowledge-center/cross-account-access-s3) 在Amazon知识中心。 |
       | [!UICONTROL **用户 ARN**] | 用户ARN(Amazon资源名称)由Adobe提供。 您必须将此用户附加到您创建的策略。 |
 
       {style="table-layout:auto"}

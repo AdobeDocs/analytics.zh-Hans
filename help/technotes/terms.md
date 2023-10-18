@@ -3,10 +3,10 @@ title: Adobe Analytics 中使用的术语
 description: Adobe Analytics 词汇表，用于定义常用术语。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
 workflow-type: tm+mt
-source-wordcount: '2549'
-ht-degree: 98%
+source-wordcount: '2577'
+ht-degree: 97%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 98%
 * **点击流数据馈送：**&#x200B;请参阅“数据馈送”。
 * **同类群组：**&#x200B;一组在特定时间段内具有共同特征的人员。请参阅分析用户指南中的[什么是队列分析？](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)。
 * **收集服务器：**&#x200B;请参阅“数据收集服务器”。
+* **组件：** Analysis Workspace中的组件包括维度、量度、区段和日期范围，您可以将这些组件拖放到项目中。 请参阅 [组件概述](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) 在分析用户指南中。
 * **上下文数据变量：**&#x200B;仅用于处理规则的临时变量。如果处理规则未将上下文数据变量值复制到转化或流量变量，则上下文数据变量值将永久丢失。请参阅《实施用户指南》中的[上下文数据变量](../implement/vars/page-vars/contextdata.md)。
 * **转化变量：**&#x200B;也称为 eVar。存储自定义值，并保留变量值，直到其过期。请参阅《组件用户指南》中的 [eVar](/help/components/dimensions/evar.md) 维度。
 * **关联：**&#x200B;不再用作术语；替换为维度划分。在 Adobe Analytics 的早期版本中，通过关联可以划分流量变量。请参阅分析用户指南中的[划分维度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
