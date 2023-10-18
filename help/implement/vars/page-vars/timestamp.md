@@ -3,10 +3,10 @@ title: timestamp
 description: 手动设置点击的时间戳。
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: a41fed835b6dcd3979111a7b13eaf33b63a3b2ec
+source-git-commit: 4f9af1b3a1337b0e24b718362a502ff3f0acb5ef
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 86%
+source-wordcount: '278'
+ht-degree: 83%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Analytics 扩展程序中没有专门的字段来使用此变量。 按照
 
 ## AppMeasurement和Analytics扩展自定义代码编辑器中的s.timestamp
 
-`s.timestamp` 变量是一个包含点击日期和时间的字符串。有效的时间戳格式包括 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 和 [Unix 时间](https://en.wikipedia.org/wiki/Unix_time)。
+`s.timestamp` 变量是一个包含点击日期和时间的字符串。有效的时间戳格式包括 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 和 [Unix时间](https://en.wikipedia.org/wiki/Unix_time) 以秒为单位。
 
 ```js
 // Timestamp using ISO 8601
