@@ -3,16 +3,16 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 4134eed3cb97c478304988123196b0c906c86560
+source-git-commit: 69cffe2bc97a81cb9e4b989f2193dc2deb6e8d22
 workflow-type: tm+mt
-source-wordcount: '1233'
-ht-degree: 100%
+source-wordcount: '1236'
+ht-degree: 99%
 
 ---
 
 # 当前的 Adobe Analytics 发行说明（2023 年 10 月）
 
-**上次更新日期**：2023 年 10 月 4 日
+**上次更新日期**：2023 年 10 月 19 日
 
 10 月版发行说明涵盖了 2023 年 10 月 4 日至 2023 年 10 月 25 日的发行期。Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
@@ -21,8 +21,8 @@ ht-degree: 100%
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **管理组件时可用的新列** | 在管理组件时，现在有以下新列可用：<ul><li>用在<p>可在[计算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)和[区段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)中找到此列。</p></li><li>上次使用时间<p>可在[计算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)、[分段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)和[警报管理器](/help/components/c-alerts/alert-manager.md)中找到此列。</p></li></ul><p>此信息可帮助您确定某个组件是否对组织中的用户有用、在何处使用该组件以及是否需要删除或修改该组件。可使用数据词典配合此信息帮助您跟踪并更好地了解如何在您的组织中使用组件。</p> | 2023 年 9 月 20 日 | 2023 年 10 月 4 日 |
-| **报告活动管理器增强功能** | 通过报告活动管理器，可查看组织中每个报告包的报告容量。通过它，管理员可详细了解报告消耗情况，从而轻松地诊断和修复在报告高峰期出现的容量问题。以下是报告活动管理器中现在可用的一些增强功能： <ul><li>限制后续请求：除了取消当前请求之外，管理员现在还可对所定义的时段限制请求。管理员可以按请求、项目或用户限制请求。</li><li>除了利用率和容量量度之外，报告活动管理器现在还包括有关报告活动的更多数据：复杂性列、用户列和连接列。</li><li>现在，在报告活动管理器中进行的所有取消和限制都会显示在审核日志中。管理员可以使用审核日志来查看当前取消的内容。无法在报告活动管理器或审核日志中撤消取消操作。</li></ul><p>有关更多信息，请参阅[报告活动管理器概述](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)</p> | 2023 年 10 月 17 日 | 2023 年 10 月 23 日 |
-| **Data Warehouse 改进** | 创建 Data Warehouse 请求时，现在可配置云帐户以用作报告目标。有以下云帐户类型可用于发送数据：<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>电子邮件（以前有此选项可用）</li></ul>FTP、SFTP、Azure Blob 和 S3 仍然可用作报告目标，但不再推荐使用。<p>创建和管理 Data Warehouse 请求时的用户体验也得到了改进。有关更多信息，请参阅[创建 Data Warehouse 请求](/help/export/data-warehouse/create-request/t-dw-create-request.md)和[管理 Data Warehouse 请求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=zh-Hans)。 | 2023 年 9 月 12 日 | 2023 年 10 月 25 日 |
+| **报告活动管理器增强功能** | 通过报告活动管理器，可查看组织中每个报告包的报告容量。通过它，管理员可详细了解报告消耗情况，从而轻松地诊断和修复在报告高峰期出现的容量问题。以下是报告活动管理器中现在可用的一些增强功能： <ul><li>限制后续请求：除了取消当前请求之外，管理员现在还可对所定义的时段限制请求。管理员可以按请求、项目或用户限制请求。</li><li>除了利用率和容量量度之外，报告活动管理器现在还包括有关报告活动的更多数据：复杂性列、用户列和连接列。</li><li>现在，在报告活动管理器中进行的所有取消和限制都会显示在审核日志中。管理员可以使用审核日志来查看当前取消的内容。无法在报告活动管理器或审核日志中撤消取消操作。</li></ul><p>有关更多信息，请参阅[报告活动管理器概述](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)</p> | 2023 年 10 月 17 日 | 2023 年 10 月 24 日 |
+| **Data Warehouse 改进** | 创建 Data Warehouse 请求时，现在可配置云帐户以用作报告目标。有以下云帐户类型可用于发送数据：<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>电子邮件（以前有此选项可用）</li></ul>FTP、SFTP、Azure Blob 和 S3 仍然可用作报告目标，但不再推荐使用。<p>创建和管理 Data Warehouse 请求时的用户体验也得到了改进。有关更多信息，请参阅[创建 Data Warehouse 请求](/help/export/data-warehouse/create-request/t-dw-create-request.md)和[管理 Data Warehouse 请求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=zh-Hans)。 | 2023 年 9 月 12 日 | 2023年11月8日或之前 |
 | **将 Adobe Analytics 项目和其中包括的任何组件迁移到 Customer Journey Analytics** | 现在可将 Adobe Analytics 项目迁移到 Customer Journey Analytics。此过程简化了从 Adobe Analytics 到 Customer Journey Analytics 的过渡。 <p>将项目迁移到 Customer Journey Analytics 时，资源将从 Adobe Analytics 报表包映射到 Customer Journey Analytics 数据视图。</p> <p>从 Adobe Analytics 界面将项目迁移到 Customer Journey Analytics。[了解详情](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)</p> | 不适用 | 2023 年 10 月 9 日 |
 
 {style="table-layout:auto"}

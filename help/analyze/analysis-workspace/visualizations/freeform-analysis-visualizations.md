@@ -5,10 +5,10 @@ title: 可视化图表概述
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: ce3fa1ae1a4785a6ed2adfe9128f180d3eaa341a
+source-git-commit: e51eff7729f94e60239f34c43f77a533fa53910a
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 88%
+source-wordcount: '1324'
+ht-degree: 85%
 
 ---
 
@@ -22,43 +22,43 @@ Analysis Workspace 中提供了以下可视化图表类型：
 
 | 可视化图表名称 | 描述 |
 | --- | --- |
-| [面积图](/help/analyze/analysis-workspace/visualizations/area.md) | 与线形图相似，但线条下有彩色区域。当您有多个指标并且希望显示两个或更多指标相交的区域时，可使用面积图。 |
-| [条形图](/help/analyze/analysis-workspace/visualizations/bar.md) | 显示一些垂直条，这些垂直条表示一个或多个指标中的各种值。 |
-| [项目符号图表](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | 显示您感兴趣的值与其他性能范围（目标）进行比较或衡量的结果。 |
-| [同类群组表](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | *`cohort`* 是指一组在特定期限内共享相同特性的人员。同类群组分析对于保留、流失或延迟分析非常有用。 |
-| [圆环图](/help/analyze/analysis-workspace/visualizations/donut.md) | 此可视化图表与饼图类似，它将数据显示为整体的一部分或区段。 |
-| [流失](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | 流失报告显示访客从何处离开（流失）或继续通过（流过）预定义的页面序列。可以设置为有条件序列或确切序列。 |
-| [流](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | 显示客户在您的网站和应用程序中的确切路径。 |
-| [自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | 自由格式表不仅可以作为数据表，而且还是一个交互式可视化图表。这是在工作区中进行数据分析的基础。 |
-| [直方图](/help/analyze/analysis-workspace/visualizations/histogram.md) | 直方图根据指标数量，将访客数、访问数或点击数划分到存储桶中。 |
-| [水平条](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 显示一些水平条，这些水平条表示一个或多个指标中的各种值。 |
-| [关键度量摘要](/help/analyze/analysis-workspace/visualizations/key-metric.md) | 显示量度在单个时间范围内的趋势，或者允许您比较两个时间范围内的量度性能。 |
-| [折线图](/help/analyze/analysis-workspace/visualizations/line.md) | 使用线条来表示指标，以显示一段时间内值的变化情况。将时间作为 x 轴的线形图。 |
-| [地图](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | 允许您构建任何指标（包括计算指标）的可视地图。 |
-| [散点图](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | 显示维度项目与最多三个指标之间的关系。 |
-| [概要数字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 将选择的单元格显示为 1 个多位数。 |
-| [概要变化](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 将所选单元格之间的变化显示为 1 个多位数/百分比。 |
-| [文本](/help/analyze/analysis-workspace/visualizations/text.md) | 使您克将用户定义的文本添加到您的工作区。在利用面板/可视化图表描述之外，对于向您的分析和见解添加额外的上下文非常有用 |
-| [树形图](/help/analyze/analysis-workspace/visualizations/treemap.md) | 将分层（树结构）数据显示为一组嵌套的矩形。 |
-| [维恩图](/help/analyze/analysis-workspace/visualizations/venn.md) | 使用圆圈来描述最多 3 个区段之间的指标重叠。 |
+| [面积图](/help/analyze/analysis-workspace/visualizations/area.md)<p>![区域图标](assets/Smock_GraphArea_18_N.svg)</p> | 与线形图相似，但线条下有彩色区域。当您有多个指标并且希望显示两个或更多指标相交的区域时，可使用面积图。 |
+| [条形图](/help/analyze/analysis-workspace/visualizations/bar.md)<p>![条形图示](assets/Smock_GraphBarVertical_18_N.svg)</p> | 显示一些垂直条，这些垂直条表示一个或多个指标中的各种值。 |
+| [项目符号图表](/help/analyze/analysis-workspace/visualizations/bullet-graph.md)<p>![“项目符号”图标](assets/Smock_GraphBullet_18_N.svg)</p> | 显示您感兴趣的值与其他性能范围（目标）进行比较或衡量的结果。 |
+| [同类群组表](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)<p>![“同类群组表”图标](assets/Smock_TextNumbered_18_N.svg)</p> | *`cohort`* 是指一组在特定期限内共享相同特性的人员。同类群组分析对于保留、流失或延迟分析非常有用。 |
+| [圆环图](/help/analyze/analysis-workspace/visualizations/donut.md)<p>![“圆环图”图标](assets/Smock_GraphDonut_18_N.svg)</p> | 此可视化图表与饼图类似，它将数据显示为整体的一部分或区段。 |
+| [流失](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![“流失”图标](assets/Smock_ConversionFunnel_18_N.svg)</p> | 流失报告显示访客从何处离开（流失）或继续通过（流过）预定义的页面序列。可以设置为有条件序列或确切序列。 |
+| [流](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)<p>![“流”图标](assets/flow-icon.png)</p> | 显示客户在您的网站和应用程序中的确切路径。 |
+| [自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)<p>![“自由格式表”图标](assets/Smock_ViewTable_18_N.svg)</p> | 自由格式表不仅可以作为数据表，而且还是一个交互式可视化图表。这是在工作区中进行数据分析的基础。 |
+| [直方图](/help/analyze/analysis-workspace/visualizations/histogram.md)<p>![“直方图”图标](assets/Smock_GraphHistogram_18_N.svg)</p> | 直方图根据指标数量，将访客数、访问数或点击数划分到存储桶中。 |
+| [水平条](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)<p>![水平条形图示](assets/Smock_GraphBarHorizontal_18_N.svg)</p> | 显示一些水平条，这些水平条表示一个或多个指标中的各种值。 |
+| [关键指标摘要](/help/analyze/analysis-workspace/visualizations/key-metric.md)<p>![关键量度图标](assets/key-metric-icon.png)</p> | 显示某个量度在单个时间范围内的趋势，或者让您比较两个时间范围内的量度表现。 |
+| [折线图](/help/analyze/analysis-workspace/visualizations/line.md)<p>![折线图标](assets/Smock_GraphTrend_18_N.svg)</p> | 使用线条来表示指标，以显示一段时间内值的变化情况。将时间作为 x 轴的线形图。 |
+| [地图](/help/analyze/analysis-workspace/visualizations/map-visualization.md)<p>![地图图标](assets/map-icon.png)</p> | 允许您构建任何指标（包括计算指标）的可视地图。 |
+| [散点图](/help/analyze/analysis-workspace/visualizations/scatterplot.md)<p>![散点图图标](assets/Smock_GraphScatter_18_N.svg)</p> | 显示维度项目与最多三个指标之间的关系。 |
+| [概要数字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![“摘要数字”图标](assets/summary-number-icon.png)</p> | 将选择的单元格显示为 1 个多位数。 |
+| [概要变化](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![“概要变化”图标](assets/summary-change-icon.png)</p> | 将所选单元格之间的变化显示为 1 个多位数/百分比。 |
+| [文本](/help/analyze/analysis-workspace/visualizations/text.md)<p>![“文本”图标](assets/Smock_Text_18_N.svg)</p> | 使您克将用户定义的文本添加到您的工作区。在利用面板/可视化图表描述之外，对于向您的分析和见解添加额外的上下文非常有用 |
+| [树形图](/help/analyze/analysis-workspace/visualizations/treemap.md)<p>![树形图图标](assets/Smock_GraphTree_18_N.svg)</p> | 将分层（树结构）数据显示为一组嵌套的矩形。 |
+| [维恩图](/help/analyze/analysis-workspace/visualizations/venn.md)<p>![“维恩图”](assets/venn-icon.png)</p> | 使用圆圈来描述最多 3 个区段之间的指标重叠。 |
 
-## 向面板中添加可视化
+## 向面板添加可视化图表
 
-1. 打开要在其中添加可视化的Analysis Workspace项目。
+1. 打开要添加可视化图表的Analysis Workspace项目。
 
-1. 使用以下任一方法添加可视化：
+1. 使用以下任意方法来添加可视化图表：
 
    * 在左边栏中，选择 **可视化图表** 图标 <!-- add icon -->，然后将可视化图表拖到要添加该可视化图表的面板中。
 
-      ![](assets/viz-rail.png)
+     ![](assets/viz-rail.png)
 
-   * 在要添加可视化的面板上，选择 **加号** 图标，然后选择表示要添加的可视化的图标。 将鼠标悬停在每个可视化的图标上可查看其名称。
+   * 在要添加可视化图表的面板上，选择 **加号** 图标，然后选择表示要添加的可视化图表的图标。 将鼠标悬停在每个可视化图表的图标上可查看其名称。
 
-      ![用于添加可视化的按钮](assets/visualization-add-to-panel.png)
+     ![用于添加可视化图表的按钮](assets/visualization-add-to-panel.png)
 
-   * 添加 [空白面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=zh-Hans)，然后选择要添加的可视化。
+   * 添加 [空白面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=zh-Hans)，然后选择要添加的可视化图表。
 
-      ![空白面板](assets/blank_panel.png)
+     ![空白面板](assets/blank_panel.png)
 
    * 右键单击Analysis Workspace项目中的现有面板，然后选择 [!UICONTROL **复制可视化图表**] 或 [!UICONTROL **复制可视化图表**].
 
@@ -87,7 +87,7 @@ Analysis Workspace 中提供了以下可视化图表类型：
 | 设置 | 描述 |
 | --- | --- |
 | 可视化图表类型 | 更改描述数据所用的视觉效果的类型。 |
-| 粒度 | 对于趋势性的可视化图表，您可从此下拉菜单更改从此下拉列表中。 此更改也适用于数据源表。 |
+| 粒度 | 对于趋势性的可视化图表，您可从此下拉菜单更改下拉列表中。 此更改也适用于数据源表。 |
 | 百分比 | 显示百分数值。 |
 | 100% 堆叠 | 在面积堆叠、条形堆叠或水平条形堆叠的可视化图表上的此设置将图表转换为“100% 堆叠”的可视化图表。示例：![堆叠 100%](assets/stacked_100_percent.png) |
 | 图例可见 | 此设置允许您为概要数字/概要变化可视化图表隐藏详细的图例文本。 |
