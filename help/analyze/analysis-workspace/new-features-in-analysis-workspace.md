@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8268'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 99%
 
 | 功能 | 描述 |
 |--- |--- |
-| 支持工作区中的多个报表包 | 您现在可以将多个报表包中的数据并入一个项目，以便并排查看。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=zh-Hans) |
+| 支持工作区中的多个报告包 | 您现在可以将多个报告包中的数据并入一个项目，以便并排查看。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=zh-Hans) |
 | 培训教程模板 | 这个新的标准模板可指导您逐步了解在工作区中构建首个分析的常用术语和步骤。该模板可用作新建项目模式中的标准模板，并替换当前存在的示例项目，供列表中没有其他项目的新用户使用。[了解详情...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## 2020 年 2 月
@@ -196,7 +196,7 @@ ht-degree: 99%
 
 | 功能 | 描述 |
 |--- |--- |
-| [虚拟报表包和项目策划 — 增强功能](/help/analyze/analysis-workspace/curate-share/curate.md) | 这些更改的实际引入时间为 2018 年 10 月。无论是管理员还是非管理员，都可以在策划的工作区项目和策划的虚拟报表包中，查看发生更改的组件。 <br>此前，单击显示所有组件按钮后，大家只能查看非策划的组件。策划体验经过更新后，在查看组件方面提供了更加精细化的控制。</br> |
+| [虚拟报告包和项目策划 - 增强](/help/analyze/analysis-workspace/curate-share/curate.md) | 这些更改的实际引入时间为 2018 年 10 月。对于管理员和非管理员可在策划的 Workspace 项目和策划的虚拟报告包中看到哪些组件作出了更改。<br>此前，单击显示所有组件按钮后，大家只能查看非策划的组件。策划体验经过更新后，在查看组件方面提供了更加精细化的控制。</br> |
 
 ## 2018 年 10 月
 
@@ -529,7 +529,7 @@ ht-degree: 99%
   </tr>
   <tr>
    <td colname="col1"> <p>贡献分析：<a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=zh-Hans"  >令牌通知 </a> </p> </td>
-   <td colname="col2"> <p>如果贵公司的贡献分析令牌数量有限，则您每次用掉一个令牌后 Analysis Workspace UI 中会显示相关通知。这样即可了解剩余多少个令牌。 </p> <p>（管理员用户：可通过编辑组权限而限制谁可使用这些令牌。该权限在 <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">管理员</span> &gt; <span class="uicontrol">所有管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">编辑组</span> &gt; <span class="uicontrol">编辑所有报表访问 </span> &gt; <span class="uicontrol">自定义报表包工具</span> &gt; <span class="uicontrol">工具和报表</span>下称为“异常检测和贡献分析”。） </p> </td>
+   <td colname="col2"> <p>如果贵公司的贡献分析令牌数量有限，则您每次用掉一个令牌后 Analysis Workspace UI 中会显示相关通知。这样即可了解剩余多少个令牌。 </p> <p>（管理员用户：可通过编辑组权限而限制谁可使用这些令牌。该权限在 <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">管理员</span> &gt; <span class="uicontrol">所有管理员</span> &gt; <span class="uicontrol">用户管理</span> &gt; <span class="uicontrol">编辑组</span> &gt; <span class="uicontrol">编辑所有报表访问 </span> &gt; <span class="uicontrol">自定义报告包工具</span> &gt; <span class="uicontrol">工具和报表</span>下称为“异常检测和贡献分析”。） </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>CSV 文件可包含多字节字符 </p> </td>
@@ -537,10 +537,10 @@ ht-degree: 99%
   </tr>
   <tr>
    <td colname="col1"> <p>对 event#、eVar# 和 prop# 进行了更改 </p> </td>
-   <td colname="col2"> <p>Event#、eVar# 和 prop# 之前被添加在左边栏的维度名称中（2017 年），现在，只有当您<b>搜索</b>相应组件时，它们才会显示。 </p> <p>（也适用于虚拟报表包生成器。） </p> </td>
+   <td colname="col2"> <p>Event#、eVar# 和 prop# 之前被添加在左边栏的维度名称中（2017 年），现在，只有当您<b>搜索</b>相应组件时，它们才会显示。 </p> <p>（还适用于虚拟报告包生成器。） </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p>对“无”/“未指定”进行了更改 </p> </td>
+   <td colname="col1"> <p>对“无”/“未指定”作出了更改 </p> </td>
    <td colname="col2"> <p>对 Analysis Workspace 中“无”/“未指定”的工作方式进行了更改，使其与 Reports &amp; Analytics、区段生成器以及 Analysis Workspace 中的维度项目菜单保持一致。 </p> <p>这意味着在 Analysis Workspace 的大多数项目中，值将显示为“未指定”而非“无”。 </p> </td>
   </tr>
  </tbody>
@@ -560,7 +560,7 @@ ht-degree: 99%
  <tbody>
   <tr>
    <td colname="col1"> <p>不兼容组件列表 </p> </td>
-   <td colname="col2"> <p>有时候，并非项目中包含的所有组件都会包含在报表包中。在加载项目或切换到报表包时显示的“不兼容的报表包”结果消息现在会列出不兼容的组件。 </p> </td>
+   <td colname="col2"> <p>有时候，并非项目中包含的所有组件都会包含在报告包中。在加载项目或切换到报告包时显示的“不兼容的报告包”结果消息现在会列出不兼容的组件。 </p> </td>
   </tr>
  </tbody>
 </table>
@@ -1032,7 +1032,7 @@ ht-degree: 99%
 2016 年 6 月 16 日发布的新功能：
 
 * [新的组权限](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=zh-Hans)让管理员可以允许或拒绝用户访问 **[!UICONTROL Analytics]** > **[!UICONTROL 工作区]**&#x200B;选项卡。自 2016 年 6 月 16 日开始，所有用户都将拥有访问此选项卡的权限。要拒绝访问，只需要从“Analysis Workspace 访问”组中删除用户即可。
-*  [区段比较面板](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)通过自动分析您有权访问的每个量度和维度，可发现任意两个区段之间的最显著统计学差异。
+* [区段比较面板](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)通过自动分析您有权访问的每个量度和维度，可发现任意两个区段之间的最显著统计学差异。
 * [新的项目菜单结构](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)重新排列了顶部菜单，提高了其可扩展性。例如，创建&#x200B;**新同类群组面板**&#x200B;的过程现在包括创建一个空白面板和拖入一个同类群组表可视化图表。
 * [新的左边栏](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：面板、可视化图表、组件
 * 新的[维恩图可视化图表类型](/help/analyze/analysis-workspace/visualizations/venn.md)允许您最多拖入 3 个区段和一个量度以构建维恩图。
@@ -1107,7 +1107,7 @@ ht-degree: 99%
 可清除撤消历史的操作：
 
 * 保存项目。
-* 更改报表包。
+* 更改报告包。
 
 ## 此项目的链接 {#section_453E70F7409F4501B8E976A0D18C9A46}
 
