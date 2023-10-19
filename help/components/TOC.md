@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 组件指南
 breadcrumb-title: 组件指南
-user-guide-description: 使用区段、计算量度、虚拟报表包、营销渠道和分类等组件管理数据。了解跨设备分析。
+user-guide-description: 使用区段、计算量度、虚拟报告包、营销渠道和分类等组件管理数据。了解跨设备分析。
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '758'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -213,19 +213,19 @@ ht-degree: 97%
       + [计算量度：基于角色的权限](c-calcmetrics/cm-role-based-rights.md)
       + [计算量度总计](c-calcmetrics/cm-totals.md)
       + [默认计算量度](c-calcmetrics/cm-reference/default-calcmetrics.md)
-+ 虚拟报表包 {#virtual-report-suites}
-   + [虚拟报表包概述](vrs/vrs-about.md)
-   + [虚拟报表包 — 组件管理](vrs/vrs-components.md)
++ 虚拟报告包 {#virtual-report-suites}
+   + [虚拟报告包概述](vrs/vrs-about.md)
+   + [虚拟报告包 — 组件管理](vrs/vrs-components.md)
    + [上下文感知会话](vrs/vrs-mobile-visit-processing.md)
    + [报表时间处理](vrs/vrs-report-time-processing.md)
    + [A4T 注意事项](vrs/vrs-a4t.md)
-   + [虚拟报表包常见问题解答](vrs/vrs-faq.md)
-   + [虚拟报表包和全局/多包标记注意事项](vrs/vrs-considerations.md)
-   + 虚拟报表包工作流程 {#vrs-workflow}
-      + [虚拟报表包工作流程](vrs/c-workflow-vrs/vrs-workflow.md)
-      + [创建虚拟报表包](vrs/c-workflow-vrs/vrs-create.md)
-      + [管理虚拟报表包](vrs/c-workflow-vrs/vrs-manage.md)
-      + [查看虚拟报表包信息](vrs/c-workflow-vrs/vrs-view.md)
+   + [虚拟报告包常见问题解答](vrs/vrs-faq.md)
+   + [虚拟报告包和全局/多包标记注意事项](vrs/vrs-considerations.md)
+   + 虚拟报告包工作流程 {#vrs-workflow}
+      + [虚拟报告包工作流程](vrs/c-workflow-vrs/vrs-workflow.md)
+      + [创建虚拟报告包](vrs/c-workflow-vrs/vrs-create.md)
+      + [管理虚拟报告包](vrs/c-workflow-vrs/vrs-manage.md)
+      + [查看虚拟报告包信息](vrs/c-workflow-vrs/vrs-view.md)
 + Cross-Device Analytics {#cda}
    + [Cross-Device Analytics 概述](cda/overview.md)
    + [基于字段的拼合](cda/field-based-stitching.md)
@@ -233,7 +233,7 @@ ht-degree: 97%
    + [设置 Cross-Device Analytics](cda/setup.md)
    + [重播的工作原理](cda/replay.md)
    + [CDA 工作区模板](cda/workspace-template.md)
-   + [将虚拟报表包限制在特定日期](cda/limit-vrs-date.md)
+   + [将虚拟报告包限制在特定日期](cda/limit-vrs-date.md)
    + [Cross-Device Analytics 常见问题解答](cda/faq.md)
 + 警报 {#alerts}
    + [智能警报](c-alerts/intellligent-alerts.md)
