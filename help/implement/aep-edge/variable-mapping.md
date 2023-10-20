@@ -3,7 +3,7 @@ title: Adobe Experience Edge 中的 Analytics 变量映射
 description: 查看 Edge 自动映射到 Analytics 变量的 XDM 字段。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+source-git-commit: 79336a9ce525dd551efdf7fe0391a3f38a3b66e1
 workflow-type: tm+mt
 source-wordcount: '1495'
 ht-degree: 83%
@@ -106,8 +106,8 @@ ht-degree: 83%
 | `media.mediaTimed.thirdQuartiles.value` | Media Analytics 量度 [75% 进度标记](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#seventy-five-progress-marker)。 |
 | `media.mediaTimed.timePlayed.value` | Media Analytics 量度[内容花费时间](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#content-time-spent)。 |
 | `media.mediaTimed.totalTimePlayed.value` | Media Analytics 量度[媒体花费时间](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#media-time-spent)。 |
-| `placeContext.geo.latitude` | 移动维度”纬度“。 |
-| `placeContext.geo.longitude` | 移动维度”经度“。 |
+| `placeContext.geo._schema.latitude` | 移动维度”纬度“。 |
+| `placeContext.geo._schema.longitude` | 移动维度”经度“。 |
 | `placeContext.geo.postalCode` | [“邮政编码”](../../components/dimensions/zip-code.md) 维度。 |
 | `placeContext.geo.stateProvince` | [“美国”](../../components/dimensions/us-states.md) 维度。 |
 | `placeContext.localTime` | 在 Reports &amp; Analytics 中帮助填充[时区](/help/analyze/reports-analytics/reports.md)。在[数据馈送](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)中显示为 `t_time_info`。 |
