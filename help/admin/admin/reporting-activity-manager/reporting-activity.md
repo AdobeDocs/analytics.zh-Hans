@@ -4,7 +4,7 @@ title: 报告活动管理器
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: de0d103a2b4cd1827b2c9a93aa140a9c5e44584e
+source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
 workflow-type: tm+mt
 source-wordcount: '1892'
 ht-degree: 15%
@@ -12,8 +12,6 @@ ht-degree: 15%
 ---
 
 # 在报告活动管理器中查看报告活动
-
-{{release-limited-testing}}
 
 此 [!UICONTROL 报告活动管理器] 使管理员能够在报告高峰期快速诊断和修复报告容量问题。
 
@@ -150,7 +148,7 @@ ht-degree: 15%
 | [!UICONTROL **用户**] | 发起请求的用户。 <p>**注意：** 如果此列的值为 [!UICONTROL **无法识别**]，这意味着用户所在的登录公司您没有管理权限。</p> |
 | [!UICONTROL **项目**] | 已保存的 Workspace 项目名称、API 报告 ID 等。（元数据可能因各种应用程序而异。） |
 | [!UICONTROL **状态**] | 状态指示器： <ul><li>**运行中**：请求当前正在处理中。</li><li>**等待中**：请求正在等待处理。</li></ul> |
-| [!UICONTROL **复杂度**] | 并非所有请求都需要相同的处理时间。 请求复杂性有助于提供有关处理请求所需时间的一般概念。 <p>可能的值包括：</p> <ul><li>[!UICONTROL **低**]</li><li>[!UICONTROL **媒介**]</li><li>[!UICONTROL **高**]</li></ul>此值受以下列中的值影响：<ul><li>[!UICONTROL **月边界**]</li><li>[!UICONTROL **列**]</li><li>[!UICONTROL **区段**]</li></ul> |
+| [!UICONTROL **复杂度**] | 并非所有请求都需要相同的处理时间。 请求复杂性有助于提供有关处理请求所需时间的一般概念。 <p>可能的值包括：</p> <ul><li>[!UICONTROL **低**]</li><li>[!UICONTROL **媒介**]</li><li>[!UICONTROL **高**]</li></ul>此值受以下列中的值影响：<ul><li>[!UICONTROL **月份边界**]</li><li>[!UICONTROL **列**]</li><li>[!UICONTROL **区段**]</li></ul> |
 | [!UICONTROL **月边界**] | 请求中包含的月数。 更多的月份边界会增加请求的复杂性。 |
 | [!UICONTROL **列**] | 请求中的量度和细分的数量。 更多的列会增加请求的复杂性。 |
 | [!UICONTROL **区段**] | 应用于请求的区段数。 更多区段会增加请求的复杂性。 |
@@ -167,7 +165,7 @@ ht-degree: 15%
 | [!UICONTROL **请求数量**] | 用户发起的请求数。 |
 | [!UICONTROL **项目数量**] | 与用户关联的项目数。 <!-- ??? --> |
 | [!UICONTROL **应用程序**] | [!UICONTROL 报告活动管理器]支持的应用程序包括： <ul><li>Analysis Workspace UI</li><li>工作区计划项目</li><li>Report Builder</li><li>生成器 UI：区段、计算量度、注释、受众等。</li><li>1.4 或 2.0 API 的 API 调用</li><li>智能警报</li><li>与任何人共享链接</li><li>查询Analytics报表引擎的任何其他应用程序</li></ul> |
-| [!UICONTROL **平均复杂性**] | 用户发起的请求的平均复杂性。 <p>并非所有请求都需要相同的处理时间。 请求复杂性有助于提供有关处理请求所需时间的一般概念。</p><p>此列中的值基于由以下列中的值决定的分数：</p><ul><li>[!UICONTROL **平均月边界**]</li><li>[!UICONTROL **平均列数**]</li><li>[!UICONTROL **平均区段数**]</li></ul> |
+| [!UICONTROL **平均复杂性**] | 用户发起的请求的平均复杂性。 <p>并非所有请求都需要相同的处理时间。 请求复杂性有助于提供有关处理请求所需时间的一般概念。</p><p>此列中的值基于由以下列中的值决定的分数：</p><ul><li>[!UICONTROL **平均月份边界**]</li><li>[!UICONTROL **平均列数**]</li><li>[!UICONTROL **平均区段数**]</li></ul> |
 | [!UICONTROL **平均月边界**] | 请求中包含的平均月数。 更多的月份边界会增加请求的复杂性。 |
 | [!UICONTROL **平均列数**] | 包含的请求中的平均量度和细分数。 更多的列会增加请求的复杂性。 |
 | [!UICONTROL **平均区段数**] | 应用于所包含请求的平均区段数。 更多区段会增加请求的复杂性。 |
