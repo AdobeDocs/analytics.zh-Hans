@@ -4,9 +4,9 @@ title: 管理 Data Warehouse 请求
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
+source-git-commit: 195750917731602ffd3a32f5216db8fe1b174cc0
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1293'
 ht-degree: 13%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 13%
 >如果您的组织尚不具有即将面向所有客户提供的新Data Warehouse体验，请使用以下位置的信息： [管理Data Warehouse请求（旧体验）](#manage-data-warehouse-requests-old-experience) ，位于本页底部。
 
 
-您可以查看和管理已发出的Data Warehouse请求。 只有管理员才能查看和管理组织中其他用户发出的请求，因为他们具有管理权限。
+您可以查看和管理已发出的Data Warehouse请求。 只有管理员才能查看和管理组织中其他用户发出的请求。
 
 以下各节介绍了可在管理请求时执行的活动。
 
@@ -47,6 +47,8 @@ ht-degree: 13%
 * 只能编辑配置为按计划运行的请求。
 
 * 并非与请求关联的所有字段都可以编辑。 无法编辑的字段将灰显。
+
+* 编辑其他用户请求的管理员需要选择他们可以访问的新帐户和位置。
 
 要编辑计划请求，请执行以下操作：
 
