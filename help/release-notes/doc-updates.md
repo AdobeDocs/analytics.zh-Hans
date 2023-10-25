@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: a916afbc15514430cd13673bb642ebc720664e35
-workflow-type: ht
-source-wordcount: '5136'
-ht-degree: 100%
+source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
+workflow-type: tm+mt
+source-wordcount: '5165'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 100%
 
 | 功能 | 描述 |
 | --- | --- |
+| **2023 年 10 月** | |
+| 向报表活动管理器添加了日志信息 | 添加信息表明 [报告活动的取消和后续限制](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md) 在报告活动管理器中，捕获 [日志](/help/admin/admin/logs.md). |
 | **2023 年 9 月** | |
 | 更新了“媒体播放耗时”面板的文章结构 | 删除了名为“媒体播放耗时”的文件夹，并将该文件夹的内容合并为一篇文章：[“媒体播放耗时”面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)。 <p>此更改与其他面板的文档更一致。</p> |
 | 快速入门内容改善 | 增加了信息来概述管理员、分析师、最终用户和开发人员的重要快速入门任务和资源。以下新文章现已可用： <ul><li>[快速入门（按角色）](/help/analyze/get-started/get-started-by-role.md)</li><li>[了解 Analytics 界面](/help/analyze/get-started/analytics-interface.md)<li>[用例](/help/analyze/get-started/use-cases.md)</li></ul> |

@@ -2,9 +2,9 @@
 description: 了解如何使用报告活动管理器诊断和修复在报告高峰期出现的容量问题。
 title: 在报告活动管理器中取消报告请求
 feature: Admin Tools
-source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
+source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1417'
 ht-degree: 15%
 
 ---
@@ -17,7 +17,11 @@ ht-degree: 15%
 
 * 您可以取消特定请求，取消来自特定用户的所有请求，或取消与特定项目相关的所有请求。
 
+  取消请求时，该操作记录在 [日志](/help/admin/admin/logs.md). 此 [!UICONTROL **事件类型**] 列显示为 [!UICONTROL **管理员操作**]，有关取消的说明，请参见 [!UICONTROL **事件**] 列。
+
 * 在取消请求时，您还可以选择限制给定时间期的后续请求。
+
+  当您限制后续请求时，该操作记录在 [日志](/help/admin/admin/logs.md). 此 [!UICONTROL **事件类型**] 列显示为 [!UICONTROL **管理员操作**]，有关限制的描述，请参见 [!UICONTROL **事件**] 列。
 
 * 在以下情况下，您无法取消请求： [!UICONTROL **用户**] 请求的列显示为 [!UICONTROL **无法识别**]. 如果发生这种情况，则意味着用户所在的登录公司您没有管理权限。
 
