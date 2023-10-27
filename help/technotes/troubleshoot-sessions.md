@@ -3,10 +3,10 @@ title: Adobe Analytics 中的会话疑难解答
 description: 了解如何解决与注销 Adobe Analytics 相关的问题。
 feature: Analytics Basics
 exl-id: 191250ef-8313-47be-9717-046cce870998
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 100%
+source-wordcount: '351'
+ht-degree: 97%
 
 ---
 
@@ -34,5 +34,5 @@ ht-degree: 100%
 
 可以在此处查找有关代理和身份验证标头的信息：
 
-* [在 ProxySG 或 ASG 设备上的代理链部署中配置上游代理身份验证](https://knowledge.broadcom.com/external/article/169255/configure-upstream-proxy-authentication.html)
+* [在 ProxySG 或 ASG 设备上的代理链部署中配置上游代理身份验证](https://techdocs.broadcom.com/us/en/symantec-security-software/web-and-network-security/edge-swg/7-3/authentication_co.html)
 * [如何将用户凭据转发到 ProxySG 设备后面的服务器](https://knowledge.broadcom.com/external/article/165859/how-to-forward-user-credentials-to-a-ser.html)

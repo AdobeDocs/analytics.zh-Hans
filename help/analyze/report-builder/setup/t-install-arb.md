@@ -5,7 +5,7 @@ uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
 feature: Report Builder
 role: User, Admin
 exl-id: 1529c173-b42c-4deb-8bb9-0e6b007f71d6
-source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
+source-git-commit: 90441e102ddaf367555e278bda8ca51c7bfeae34
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 66%
@@ -16,7 +16,7 @@ ht-degree: 66%
 
 安装 Report Builder：
 
-1. 单击 **[](http://experience.adobe.com/)Adobe Experience Cloud** > **[!UICONTROL Analytics]** > **[!UICONTROL 工具]** > **[!UICONTROL Report Builder]**。 
+1. 单击 **[](https://experience.adobe.com/)Adobe Experience Cloud** > **[!UICONTROL Analytics]** > **[!UICONTROL 工具]** > **[!UICONTROL Report Builder]**。 
 1. 单击&#x200B;**[!UICONTROL 立即下载]**&#x200B;以下载 32 位或 64 位版本（具体取决于安装的 MS Excel 版本）。
 1. 打开已下载的安装程序包。
 1. 按照安装向导进行操作。

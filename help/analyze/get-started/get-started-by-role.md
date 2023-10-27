@@ -2,9 +2,10 @@
 description: 有关 Adobe Analytics 的一般概述信息，包括有关 Analytics 界面的信息以及针对管理员、分析师、用户和开发人员的快速入门信息。
 title: 管理员、分析师、最终用户和开发人员快速入门
 feature: Analytics Basics
-source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
-workflow-type: ht
-source-wordcount: '1901'
+exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
+source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
+workflow-type: tm+mt
+source-wordcount: '1891'
 ht-degree: 100%
 
 ---
@@ -69,7 +70,7 @@ Analytics 管理员应先完成以下任务，然后再向组织中的用户提�
 | 任务 | 有可能的使用 | 更多信息 |
 |---------|----------|---------|
 | 定义管理员角色 | Adobe Analytics 支持各种类型的管理员 | [Adobe Analytics 中的管理员角色](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/admin-roles-in-analytics.html?lang=zh-Hans) |
-| 定义权限 | Analytics 管理员需要在 Adobe Analytics、报表包工具和分析工具的 Admin Console 中分配产品配置文件。 | [Admin Console 中的 Analytics 权限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=zh-Hans) |
+| 定义权限 | Analytics 管理员需要在 Adobe Analytics、报表包工具和分析工具的 Admin Console 中分配产品配置文件。 | [Admin Console 中的 Analytics 权限](/help/admin/admin-console/permissions/analytics-tools.md) |
 | 设置报表包并为您的公司定义设置 | 报表包是一种数据存储库，Adobe Analytics 使用报表包生成报表。<p>管理员还可以设置[虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-Hans)进一步细分数据。</p> | <ul><li>[创建报表包](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=zh-Hans)</li><li>[公司设置概述](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=zh-Hans)</li></ul> |
 | 导入数据 | Adobe Analytics 数据源允许您导入其他在线或离线数据以便进行报告。 | [数据源概述](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=zh-Hans) |
 | 使用“分类”对数据进行分类 | “分类”允许您对数据进行分类，以更好地利用变量，从而将更多内容包含到单个变量中。 | [分类概述](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hans) |

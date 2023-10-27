@@ -3,10 +3,10 @@ title: 比较实施方法
 description: 了解每种用于将数据发送到 Adobe Analytics 的方法的优点。
 exl-id: 19353255-6356-4426-a2ef-5a2672a00eca
 feature: Implementation Basics
-source-git-commit: 61264d9f4ff2f1e961a613b81461efa826bc3d23
+source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 62%
+ht-degree: 59%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 62%
 
 >[!CAUTION]
 >
->对版本 4 Mobile SDK 的支持于 2021 年 8 月 31 日终止。 有关更多信息，请参阅[版本 4 Mobile SDK 支持终止常见问题解答](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/)。
+>对版本 4 Mobile SDK 的支持于 2021 年 8 月 31 日终止。 请参阅 [AdobeMobile Services生命周期终止常见问题解答](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html) 以了解更多信息。
 
 
 | | [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) | [服务器API](/help/implement/aep-edge/server-api/overview.md) |
