@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 配置云导入位置
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
+source-git-commit: f71b80dce9d447c431130901d86947d23e28d378
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 8%
+source-wordcount: '584'
+ht-degree: 7%
 
 ---
 
@@ -88,4 +88,11 @@ ht-degree: 8%
 
 1. 选择&#x200B;[!UICONTROL **保存**]。
 
-   您现在可以将数据导入到您配置的帐户和位置。
+   您现在可以从您配置的帐户和位置导入数据。
+
+   导入数据后，数据不会从云目标中删除。
+
+   >[!NOTE]
+   >
+   >   如果您之前已使用 [用于导入分类的FTP](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) 到Adobe Analytics，您需要上传FIN文件。 从云帐户导入时不需要此FIN文件。
+

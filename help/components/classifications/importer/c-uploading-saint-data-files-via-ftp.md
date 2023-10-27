@@ -3,7 +3,7 @@ description: 如何通过 FTP 上传数据文件。
 title: FTP 导入
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: d21903fe5683cadf2e235f5a1f911e2a62881c58
+source-git-commit: f71b80dce9d447c431130901d86947d23e28d378
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 91%
@@ -16,9 +16,9 @@ ht-degree: 91%
 >
 >我们不再建议使用FTP进行导入，如本页所述。
 >
->不建议使用FTP，因为这是一种未加密的共享文件方法，这意味着任何人都可以拦截文件内容以及帐户使用的用户名和密码。
+>不建议使用FTP，因为这是一种未加密的共享文件方法，这意味着任何人都可以拦截文件内容以及用于帐户的用户名和密码。
 >
->相反，请按照中的所述配置云帐户 [配置云导入位置](/help/components/locations/configure-import-accounts.md).
+>请按照中的说明配置云帐户 [配置云导入帐户](/help/components/locations/configure-import-accounts.md).
 
 描述如何通过 FTP 上传数据文件的步骤。
 
