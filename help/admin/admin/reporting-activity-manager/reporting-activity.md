@@ -4,9 +4,9 @@ title: 报告活动管理器
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
+source-git-commit: 5e74c47dff7f1685be9fd738f834ae317c95fad5
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1921'
 ht-degree: 16%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 16%
 
      <!-- (does this option still exist?) 1. (Optional) Select **[!UICONTROL Refresh]** at the top-right to refresh the data. -->
 
-1. 查看有关每个报表包的利用率信息。 您可以选择列标题来按该列对表进行排序。
+1. 查看有关每个报表包的利用率信息。 表中显示的数据表示上次加载页面时报表包的报告活动。
 
    以下列可供使用：
 
@@ -46,7 +46,7 @@ ht-degree: 16%
    | **[!UICONTROL 产能利用]** | 实时使用的报表包报告容量的百分比。 <p>**注意** 使用容量为100%并不一定表示您应立即开始取消报告请求。 如果平均等待时间合理，则100%的使用容量可能是健康的。 另一方面，如果排队的请求数量也在增加，则100%的使用容量可能会出现问题。</p> |
    | **[!UICONTROL 已排队的请求]** | 等待处理的请求数。 <!-- ??? --> |
    | **[!UICONTROL 队列等待时间]** | 开始处理请求前的平均等待时间。 <!-- ???? --> |
-   | **[!UICONTROL 状态]** | 可能的状态包括： <ul><li>[!UICONTROL **活动**] （蓝色）：已在报表包上运行报告，并且正在监控其活动。</li><li>[!UICONTROL **不活动**] （灰色）：报表包中从未运行任何报表。 此状态仅在首次创建报表包时显示。</li></ul> |
+   | **[!UICONTROL 状态]** | 可能的状态包括： <ul><li>[!UICONTROL **活动**] （蓝色）：过去2小时内已在报表包上运行报表。 表中显示的数据表示上次加载页面时报表包的报告容量。</li><li>[!UICONTROL **不活动**] （灰色）：由于过去2小时内没有在报表包上运行任何报表，因此没有显示报表包的数据。</li></ul> |
 
    {style="table-layout:auto"}
 
