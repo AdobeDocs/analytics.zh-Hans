@@ -3,10 +3,10 @@ title: Data Warehouse 中的组件支持
 description: 了解 Data Warehouse 中有哪些其他维度和指标可用以及不支持哪些维度和指标。
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: e00a8e611e137590838b1a58571a563aac53434c
+source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 65%
+source-wordcount: '402'
+ht-degree: 56%
 
 ---
 
@@ -40,17 +40,7 @@ Data Warehouse 不支持某些维度和指标。
 
 ### 不支持的维度
 
-* 一些基于时间的维度，包括：
-   * 上午/下午
-   * 月中几号
-   * 每周时间
-   * 年中哪天
-   * 每天时间
-   * 分钟
-   * 月份
-   * 季度
-   * 工作日/周末
-   * 年
+* 上午/下午
 * 一些基于路径的维度，包括：
    * 除“登入页面”之外的所有登入维度
    * 除“退出页面”和“退出链接”之外的所有退出维度
@@ -59,7 +49,6 @@ Data Warehouse 不支持某些维度和指标。
    * 发生事件之前逗留的时间
    * 页面逗留时间 — 分段统计
    * 每次访问逗留时间 — 分段统计
-   * 访问深度
 * 所有搜索页面排名
 * 层次结构变量
 * 点击类型
@@ -78,4 +67,16 @@ Data Warehouse 不支持某些维度和指标。
    * 重新载入
    * 单次存取
    * “逗留时间”指标
+* 参与率量度（如中所述） [构建“参与率”量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
 
+### 以其他方式支持的Dimension
+
+支持以下基于时间的维度。 但是，使用这些维度时，日期输出不是标准输出。 具体而言，该年度由1900抵销，而月份则从零开始。
+
+* 年
+* 季度
+* 月
+* 周
+* 日
+* 小时
+* 分钟
