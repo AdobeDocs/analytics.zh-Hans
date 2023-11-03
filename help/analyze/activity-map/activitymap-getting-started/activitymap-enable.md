@@ -5,10 +5,10 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: 43371b5e7e7e251f0d7eeb41a7215b8c1aa1535f
+source-git-commit: bb9ba0400116aff3aea5307c48c6ac560603995e
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 40%
+source-wordcount: '469'
+ht-degree: 39%
 
 ---
 
@@ -19,19 +19,17 @@ ht-degree: 40%
 
 ## 步骤 1. 激活Activity Map {#update_code}
 
-Activity Map模块是AppMeasurement.js、Adobe Experience Platform标签和Web SDK (alloy.js)的一部分。 除非您更新到，否则无法收集Activity Map数据 **Adobe Analytics tags扩展版本1.90** 或更高， **AppMeasurement版本1.6** 或更高或 **Web SDK版本2.15.0** 或更高。
+Activity Map模块是AppMeasurement.js、Adobe Experience Platform标签和Web SDK (alloy.js)的一部分。 除非您更新到，否则无法收集Activity Map数据 **Web SDK版本2.15.0** 或更高，或 **Adobe Analytics tags扩展版本1.90** 或更高，或 **AppMeasurement版本1.6** 或更高。
 
-### Adobe Experience Platform标记 {#tags}
-
-在Adobe Experience Platform标记中，导航到要实施Analytics的属性。 在 [!UICONTROL 安装扩展] 对话框，选择 **[!UICONTROL 使用Activity Map]**.
-
-![](assets/aa_extension.png)
-
-### Web SDK代码 {#web_sdk}
++++Web SDK（标记扩展）
 
 在Adobe Experience Platform标记中，导航到要实施Analytics的属性。 下 [!UICONTROL 扩展] -> [!UICONTROL Adobe Experience Platform Web SDK]，选择 **[!UICONTROL 启用点击数据收集]** 如下面突出显示的。 然后，使用更改构建库，并将库发布到生产环境。
 
 ![](assets/web_sdk.png)
+
++++
+
++++手动Web SDK实施
 
 请参阅 [跟踪链接](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) 有关如何实施链接跟踪以及如何通过捕获 `region` 点击的HTML元素的ID。
 
@@ -39,10 +37,22 @@ Activity Map模块是AppMeasurement.js、Adobe Experience Platform标签和Web S
 >
 >当客户从一个页面导航到下一个页面时，用 Web SDK 启用链接跟踪当前将发送链接事件。这与 AppMeasurement 的工作方式不同，并且可能会导致将额外的可计费点击数发送到 Adobe。
 
-### AppMeasurement {#appmeasurement}
++++
+
++++Analytics扩展(Adobe Experience Platform标记)
+
+在Adobe Experience Platform标记中，导航到要实施Analytics的属性。 在 [!UICONTROL 安装扩展] 对话框，选择 **[!UICONTROL 使用Activity Map]**.
+
+![](assets/aa_extension.png)
+
++++
+
++++AppMeasurement
 
 根据您使用的是AppMeasurement还是Web SDK，下载最新的Javascript库。
 转到 **[!UICONTROL 分析]** > **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 代码管理器]** 和 [实施](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=zh-Hans).
+
++++
 
 ## 步骤 2. 启用 Activity Map 报表 {#enable}
 
