@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 功能板、Report Builder 和 Activity Map。
-source-git-commit: ab6d3267bd6b503fe96ceea2b870c2e7cdf5d9f4
+source-git-commit: 7f7f6347561d51671bbcb20959895178f3428314
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 100%
+source-wordcount: '1096'
+ht-degree: 99%
 
 ---
 
@@ -280,7 +280,7 @@ ht-degree: 100%
 + Activity Map{#activity-map}
    + [Activity Map 概述](activity-map/activity-map.md)
    + 快速入门 {#getting-started}
-      + [启用 Activity Map](activity-map/activitymap-getting-started/activitymap-enable.md)
+      + [激活和启用Activity Map](activity-map/activitymap-getting-started/activitymap-enable.md)
       + [安装 Activity Map 浏览器插件](activity-map/activitymap-getting-started/activitymap-install.md)
       + [启动 Activity Map](activity-map/activitymap-getting-started/activitymap-launch.md)
    + [可靠的链接跟踪](activity-map/lnk-tracking-overview.md)
