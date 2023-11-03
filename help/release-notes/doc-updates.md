@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
+source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
 workflow-type: tm+mt
 source-wordcount: '5296'
 ht-degree: 97%
@@ -68,7 +68,7 @@ ht-degree: 97%
 | 项目区段（临时区段和快速区段） | 简化了有关项目区段的文档并删除了重复的信息。创建临时区段的步骤现在与[创建快速区段](/help/analyze/analysis-workspace/components/segments/quick-segments.md)的步骤合并在一起。 |
 | 动态查找 | 添加了关于[动态查找](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)的其他信息。以前对于移动属性仅存在“信息”，而它仅为若干动态查找之一。 |
 | **2023 年 3 月** | |
-| Web SDK 对 Activity Map 的支持 | 更新了[实施 Adobe Analytics](/help/implement/home.md) 和[启用 Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)。 |
+| Web SDK 对 Activity Map 的支持 | 更新了[实施 Adobe Analytics](/help/implement/home.md) 和[启用 Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md)。 |
 | 流量变量 (prop) 概述 | 添加了章节和分步过程以阐明和改善文章内容。合并了标题为“启用流量变量报告”一文的内容并删除了这篇文章。请参阅[流量变量 (prop) 概述](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)。 |
 | 内部 URL 过滤器 | 添加了章节和分步过程以阐明和改善文章内容。请参阅[内部 URL 过滤器](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)。 |
 | 在移动记分卡中创建数据故事 | [数据故事](/help/analyze/mobile-app/create-scorecard.md#create-data-stories)是围绕中心主题或量度构建的辅助数据点、业务背景和相关量度的集合。 |

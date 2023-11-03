@@ -4,7 +4,7 @@ description: 在实施中启用或禁用ClickMap。
 keywords: 禁用clickmap
 feature: Variables
 exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
-source-git-commit: a3df69f7de45ba3694e1212e5c16a10bb4602cd6
+source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 31%
@@ -15,7 +15,7 @@ ht-degree: 31%
 
 >[!IMPORTANT]
 >
->此变量已停用。请参阅 [启用Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) 而是。
+>此变量已停用。请参阅 [启用Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md) 而是。
 
 ClickMap是Adobe Analytics中一项已停用的功能，用于收集有关访客点击位置及其点击内容的数据。 该功能已替换为 [Activity Map](/help/analyze/activity-map/activity-map.md).
 

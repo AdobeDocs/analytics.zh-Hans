@@ -1,11 +1,10 @@
 ---
 description: 叠加图为您提供了多种配置数据可视化的方法，让您能够轻松地查看和了解页面上链接的受欢迎程度。
 title: 可自定义的叠加图
-uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 feature: Activity Map
 role: User, Admin
 exl-id: 1e83d470-36e4-47bb-a262-ac12472b21c3
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: ab6d3267bd6b503fe96ceea2b870c2e7cdf5d9f4
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 100%

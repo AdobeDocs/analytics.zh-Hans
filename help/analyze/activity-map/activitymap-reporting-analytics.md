@@ -1,13 +1,12 @@
 ---
 description: 介绍设置权限的方法和 Analytics 中的可用维度。
 title: Analytics 中的 Activity Map 报告
-uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 feature: Activity Map
 role: User, Admin
 exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '242'
 ht-degree: 92%
 
 ---
@@ -16,15 +15,14 @@ ht-degree: 92%
 
 介绍设置权限的方法和 Analytics 中的可用维度。
 
-## 设置权限 {#section_BDCD9914B31A4066A50D23DDDF1ABB37}
+## 设置权限 {#permissions}
 
 要使用户可以报告 Activity Map 维度，管理员需要执行以下操作：
 
-* [将用户添加至 Activity Map 访问群组](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)。
-* 向此群组添加您希望可访问的报表包。导航到 **[!UICONTROL 管理员]** > **[!UICONTROL 所有管理员]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 组]** > **[!UICONTROL Activity Map访问]** > **[!UICONTROL 编辑]**.
+* [将用户添加到Activity Map访问产品配置文件](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md).
 * 自定义用户对维度的访问权限。请参阅以下部分。
 
-## Analytics Activity Map 维度 {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}
+## Analytics Activity Map 维度 {#dimensions}
 
 您可以在粒度级别[自定义用户对维度的访问权限](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html)。以下是 Analytics 中可用的 Activity Map 维度：
 
@@ -36,7 +34,6 @@ ht-degree: 92%
 | Activity Map 链接和区域 | 列出在整个网站中收集的所有链接及其区域。 |
 | Activity Map XY | 未使用 |
 
-* 这些维度在 Analysis Workspace、Reports &amp; Analytics 和 Report Builder 中应该可用，前提是您已经为 Analytics 实施[启用了 Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)。
+* 这些维度在 Analysis Workspace、Reports &amp; Analytics 和 Report Builder 中应该可用，前提是您已经为 Analytics 实施[启用了 Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md)。
 * 在 Reports &amp; Analytics 中，导航至&#x200B;**[!UICONTROL 查看所有报表]** > **[!UICONTROL Activity Map]**。
-
 * 要查看特定页面的链接和区域，您只需在 Activity Map 链接和区域中创建一个相应 Activity Map 页面的划分即可。

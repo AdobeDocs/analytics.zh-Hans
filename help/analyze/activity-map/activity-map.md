@@ -4,10 +4,10 @@ title: 什么是 Activity Map？
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 2d207c76ad40522adec10cde5044b43acbb7f711
+source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 22%
+source-wordcount: '575'
+ht-degree: 20%
 
 ---
 
@@ -35,16 +35,11 @@ Adobe AnalyticsActivity Map是Adobe Analytics中的一项功能，可直观地�
 
 * 移动应用程序优化： Adobe AnalyticsActivity Map不仅适用于网站，它还将其功能扩展到移动应用程序。 企业可以深入了解应用程序内的用户交互，从而提升可用性、增强导航并优化功能以实现无缝移动体验。
 
-## 管理员入门指南
+## 快速入门
 
-* [启用 Activity Map](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-* [实现代码样例](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
-* 使用Web SDK启用Activity Map
-
-## 用户入门指南
-
-* [安装 Activity Map 浏览器插件](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
-* [启动 Activity Map](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
+* [激活和启用Activity Map](activitymap-getting-started/activitymap-enable.md)
+* [安装 Activity Map 浏览器插件](activitymap-getting-started/activitymap-install.md)
+* [启动 Activity Map](activitymap-getting-started/activitymap-launch.md)
 
 ## Activity Map 功能
 

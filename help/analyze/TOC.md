@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 功能板、Report Builder 和 Activity Map。
-source-git-commit: bf2dcda23c35906fbb730603c9366b896248fa60
-workflow-type: ht
-source-wordcount: '1105'
+source-git-commit: ab6d3267bd6b503fe96ceea2b870c2e7cdf5d9f4
+workflow-type: tm+mt
+source-wordcount: '1094'
 ht-degree: 100%
 
 ---
@@ -280,12 +280,9 @@ ht-degree: 100%
 + Activity Map{#activity-map}
    + [Activity Map 概述](activity-map/activity-map.md)
    + 快速入门 {#getting-started}
-      + 管理员快速入门 {#get-started-admins}
-         + [启用 Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-         + [实施 Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
-      + 用户快速入门 {#get-started-users}
-         + [安装 Activity Map 浏览器插件](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
-         + [启动 Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
+      + [启用 Activity Map](activity-map/activitymap-getting-started/activitymap-enable.md)
+      + [安装 Activity Map 浏览器插件](activity-map/activitymap-getting-started/activitymap-install.md)
+      + [启动 Activity Map](activity-map/activitymap-getting-started/activitymap-launch.md)
    + [可靠的链接跟踪](activity-map/lnk-tracking-overview.md)
    + 链接跟踪 {#link-tracking}
       + [链接跟踪方法](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
