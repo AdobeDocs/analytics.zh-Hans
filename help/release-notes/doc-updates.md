@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5296'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 97%
 | --- | --- |
 | **2023 年 10 月** | |
 | 将日志信息添加到报告活动管理器 | 添加了一条信息，该信息表示在报告活动管理器中对于[报告活动的任何取消和后续限制](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md)都被记录在[日志](/help/admin/admin/logs.md)中。 |
-| 更新了Data Warehouse组件支持 | 增加了某些组件的可用性，并移除了其他组件的Data Warehouse可用性。 这些更改反映在 [Data Warehouse中的组件支持](/help/export/data-warehouse/component-support.md). <ul><li>添加了对“访问深度”维度的支持（从不受支持的维度列表中删除了“访问深度”）</li><li>删除了对“参与率”量度的支持（将“参与率”量度添加到不受支持的量度列表）</li><li>添加了对以下基于时间的维度的支持：年、季度、月、周、日、小时和分钟（从不受支持的维度列表中删除了这些维度） <p>以前，当选择“粒度”时，Data Warehouse仅在自由格式表的第一列支持这些维度。 现在，始终支持这些维度。</p><p>但是，使用这些维度时，日期输出不是标准输出。 该年度被1900年度所抵消，而月份则从零开始。</li></ul> |
+| 更新了 Data Warehouse 对组件的支持情况 | 增加了 Data Warehouse 的一些组件的可用性并删除了其他组件的可用性。这些更改反映在 [Data Warehouse 中的组件支持](/help/export/data-warehouse/component-support.md)中。 <ul><li>增加了对“访问深度”维度的支持（从不支持的维度的列表中删除了“访问深度”）</li><li>删除了对参与率量度的支持（已将参与率量度添加到不支持的量度的列表）</li><li>增加了对以下基于时间的维度的支持：年、季度、月、周、日、小时和分钟（从不支持的维度的列表中删除了这些维度） <p>以前在选择粒度时，Data Warehouse 仅在自由格式表的第一列中支持这些维度。现在始终支持这些维度。</p><p>但是，在使用这些维度时，日期的输出不是标准格式。年份为减去 1900 所得，月份从零开始。</li></ul> |
 | **2023 年 9 月** | |
 | 更新了“媒体播放耗时”面板的文章结构 | 删除了名为“媒体播放耗时”的文件夹，并将该文件夹的内容合并为一篇文章：[“媒体播放耗时”面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)。 <p>此更改与其他面板的文档更一致。</p> |
 | 快速入门内容改善 | 增加了信息来概述管理员、分析师、最终用户和开发人员的重要快速入门任务和资源。以下新文章现已可用： <ul><li>[快速入门（按角色）](/help/analyze/get-started/get-started-by-role.md)</li><li>[了解 Analytics 界面](/help/analyze/get-started/analytics-interface.md)<li>[用例](/help/analyze/get-started/use-cases.md)</li></ul> |
