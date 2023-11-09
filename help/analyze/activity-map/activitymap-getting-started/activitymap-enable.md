@@ -5,10 +5,10 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
+source-git-commit: 4c6df8bc08f326bfb54b27eb61f97b4be2320805
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 40%
+source-wordcount: '653'
+ht-degree: 27%
 
 ---
 
@@ -23,19 +23,52 @@ Activity Map模块是AppMeasurement.js、Adobe Experience Platform标签和Web S
 
 +++Web SDK(Adobe Experience Platform标记扩展)
 
-在Adobe Experience Platform标记中，导航到要实施Analytics的属性。 下 [!UICONTROL 扩展] -> [!UICONTROL Adobe Experience Platform Web SDK]，选择 **[!UICONTROL 启用点击数据收集]** 如下面突出显示的。 然后，使用更改构建库，并将库发布到生产环境。
+1. 在Adobe Experience Platform标记中，导航到要实施Analytics的属性。 下 [!UICONTROL 扩展] -> [!UICONTROL Adobe Experience Platform Web SDK]，选择 **[!UICONTROL 启用点击数据收集]** 如下面突出显示的。
+1. 使用更改构建库。
+1. 将库发布到生产环境。
 
 ![](assets/web_sdk.png)
+
+**验证**
+
+使用“开发人员控制台网络”选项卡的Interact调用：
+
+1. 在网站上加载开发Launch脚本。
+1. 在单击元素时，在“网络”选项卡中搜索“/ee”
+
+   ![](assets/validation1.png)
+
+Adobe Experience Platform Debugger：
+
+1. 下载并安装 [Adobe Experience Platform debugger](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpo).
+1. 转到 [!UICONTROL 日志] > [!UICONTROL Edge] > [!UICONTROL 连接到边缘].
+
+   ![](assets/validation2.jpg)
+
+**常见问题解答**
+
+* **在“网络”选项卡中不会触发interact调用。**
+对于收集调用中的点击数据收集，我们需要使用“/ee”或“collect？”进行过滤。
+
+* **收集调用没有有效负荷显示。**
+收集调用的设计方式使得跟踪不会影响到其他站点的导航，因此文档卸载功能适用于收集调用。 这不会影响数据收集，但如果您需要在页面上验证，请将target = &quot;_blank&quot;添加到相应的元素。 然后，该链接将在新选项卡中打开。
+
+* **如何忽略PII的收藏集？**
+在&lt;&lt; on before link click send callback>>中添加相应的条件，并返回false以忽略这些值。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hans)
+
+  示例代码:
+
+  ![](assets/sample-code.png)
 
 +++
 
 +++手动Web SDK实施
 
-请参阅 [跟踪链接](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) 有关如何实施链接跟踪以及如何通过捕获 `region` 点击的HTML元素的ID。
+请参阅 [跟踪链接](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) 有关如何实施链接跟踪以及如何通过捕获启用Activity Map的信息 `region` 点击的HTML元素的ID。
 
 >[!NOTE]
 >
->当客户从一个页面导航到下一个页面时，用 Web SDK 启用链接跟踪当前将发送链接事件。这与 AppMeasurement 的工作方式不同，并且可能会导致将额外的可计费点击数发送到 Adobe。
+>当客户从一个页面导航到下一个页面时，启用Web SDK的链接跟踪当前会发送链接事件。 这与 AppMeasurement 的工作方式不同，并且可能会导致将额外的可计费点击数发送到 Adobe。
 
 +++
 
