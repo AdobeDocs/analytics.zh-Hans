@@ -3,9 +3,9 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 84f6bf068f56b9502a53ab17e71dca00356804d9
+source-git-commit: dfb3750edabed3fd9aef758d2ea1625fc3fb6a96
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1131'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **报告活动管理器增强功能** | 通过报告活动管理器，可查看组织中每个报告包的报告容量。通过它，管理员可详细了解报告消耗情况，从而轻松地诊断和修复在报告高峰期出现的容量问题。以下是报告活动管理器中现在可用的一些增强功能： <ul><li>限制后续请求：除了取消当前请求之外，管理员现在还可对所定义的时段限制请求。管理员可以按请求、项目或用户限制请求。</li><li>除了利用率和容量量度之外，报告活动管理器现在还包括有关报告活动的更多数据：复杂性列、用户列和连接列。</li><li>现在，在报告活动管理器中进行的所有取消和限制都会显示在审核日志中。管理员可以使用审核日志来查看当前取消的内容。无法在报告活动管理器或审核日志中撤消取消操作。</li></ul><p>有关更多信息，请参阅[报告活动管理器概述](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)</p> | 2023 年 10 月 17 日 | 2023 年 10 月 24 日 |
-| **Data Warehouse 改进** | 创建 Data Warehouse 请求时，现在可配置云帐户以用作报告目标。有以下云帐户类型可用于发送数据：<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>电子邮件（以前有此选项可用）</li></ul>FTP、SFTP、Azure Blob 和 S3 仍然可用作报告目标，但不再推荐使用。<p>创建和管理 Data Warehouse 请求时的用户体验也得到了改进。有关更多信息，请参阅[创建 Data Warehouse 请求](/help/export/data-warehouse/create-request/t-dw-create-request.md)和[管理 Data Warehouse 请求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=zh-Hans)。 | 2023 年 9 月 12 日 | 2023 年 11 月 8 日或之前 |
+| **Data Warehouse 改进** | 创建 Data Warehouse 请求时，现在可配置云帐户以用作报告目标。有以下云帐户类型可用于发送数据：<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>电子邮件（以前有此选项可用）</li></ul>FTP、SFTP、Azure Blob 和 S3 仍然可用作报告目标，但不再推荐使用。<p>创建和管理 Data Warehouse 请求时的用户体验也得到了改进。有关更多信息，请参阅[创建 Data Warehouse 请求](/help/export/data-warehouse/create-request/t-dw-create-request.md)和[管理 Data Warehouse 请求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=zh-Hans)。 | 2023 年 9 月 12 日 | 待定 |
 
 {style="table-layout:auto"}
 
