@@ -5,9 +5,9 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
+source-git-commit: ed753ab23e65f845f472dd1df3b144284e4e94a6
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '985'
 ht-degree: 96%
 
 ---
@@ -53,7 +53,6 @@ ht-degree: 96%
 | 自定义 | 允许您自定义日期格式。 |
 | 至 | 显示 Outlook 通讯簿（如果适用）。 |
 | 收件人: 电子邮件 | 工作簿的电子邮件收件人。 |
-| 收件人: 发布列表 | 显示此公司的可用通讯组列表的列表。 |
 | Power BI | 请参阅[将工作簿发布到 Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md)，以了解更多信息。 |
 | 主题 | 用户定义的说明。 |
 | 日程安排 | 允许您指定发送工作簿的时间。（立即、每小时、每天、每周、每月和每年。） |
