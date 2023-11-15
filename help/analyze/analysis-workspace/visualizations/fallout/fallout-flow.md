@@ -4,9 +4,9 @@ title: 流失概述
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: aba4beb51446cdd54afc92047254a0ddd1c55ce3
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '229'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 以下是一段关于流失可视化图表的视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/24042/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/345883/?quality=12)
 
 流失可视化图表允许您
 
@@ -36,28 +36,3 @@ ht-degree: 100%
 * 网站上特定过程的转化率（例如购买或注册过程）。
 * 一般、更宽范围的流量：显示在查看主页的访客中，有多少人继续进行搜索及有多少人最终查看特定项目。
 * 网站上事件之间的关联。显示查看隐私政策后继续购买产品的访客百分比。
-
-## 分段作为流量和流失的基础 {#section_654F37A398C24DDDB1552A543EE29AA9}
-
-应用于 Workspace 面板的区段与应用于 Reports &amp; Analytics 中流失和流量报表的区段在工作方式上略有不同。大多数时间，它们产生的结果完全一致。主要区别是 Reports &amp; Analytics 在序列的每一步应用区段。由于这一区别，产生的结果有时可能会略有不同。
-
-我们以两个步骤的流失分析为例：
-
-![](assets/fallout_segments1.png)
-
-如果您在 Workspace 面板级别应用区段，区段会按以下方式与流失结合使用：
-
-![](assets/fallout_seg.png)
-
-相比之下，当 Reports &amp; Analytics 计算该区段时，按此方式合并该区段：
-
-![](assets/fallout_segments3.png)
-
-Reports &amp; Analytics 每一步都合并该区段。如果容器级别和流失级别（例如访问次数或访客数级别）相同，则结果会与访问次数或访客数相匹配。
-
-但是，如果应用到面板的区段比流失级别（如点击次数级别）低，则区段会因为其在报表中结合使用的方式不同而显示出不同的结果。为了重新迭代，大多数情况下 Analysis Workspace 中的数字都与 Reports &amp; Analytics 中的相同。只有以下情况全部属实，它们才&#x200B;**不**&#x200B;相同：
-
-* 区段和流失不在同一级别。
-* 区段存在变数，即一次访问可能有不同的访客数量，或一位访客可能有不同的访问次数。
-
-在极少数情况下，您可能需要使 Analysis Workspace 与 Reports &amp; Analytics 将区段应用到流失/流量的方式保持一致，为此只需将区段拖放到 Workspace 中的每个流失步骤，即可得到相同的结果。
