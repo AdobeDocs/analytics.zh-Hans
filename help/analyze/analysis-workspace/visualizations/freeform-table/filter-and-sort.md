@@ -4,9 +4,9 @@ title: 筛选和排序自由格式表
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: e5f67042fce223f2998e4031962193b1c0154557
+source-git-commit: b1fbc2ce3387f44a49882e99a03d8bbf3906ee0c
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '920'
 ht-degree: 68%
 
 ---
@@ -32,7 +32,7 @@ Analysis Workspace 中的过滤器可帮助您显示最重要的信息。
 - 表筛选器
 - 区段
 
-请务必阅读每种方法的影响 [自由格式表总计](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html).
+请务必阅读每种方法的影响 [自由格式表总计](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
 ### 从表中快速排除特定行
 
@@ -89,7 +89,7 @@ Analysis Workspace 中的过滤器可帮助您显示最重要的信息。
 
 ### 区段
 
-查看我们的 [分段文档](https://docs.adobe.com/help/zh-Hans/analytics/components/segmentation/seg-home.html) 以了解更多详细信息。
+查看我们的 [分段文档](/help/components/segmentation/seg-home.md) 以了解更多详细信息。
 
 ## 对表格进行排序
 
