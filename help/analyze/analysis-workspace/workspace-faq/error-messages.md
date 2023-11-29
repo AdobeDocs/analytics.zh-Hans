@@ -4,9 +4,9 @@ title: Analysis Workspace 中的常见错误消息
 feature: Workspace Basics
 role: User, Admin
 exl-id: e5c6f710-a205-48db-aeee-ee5b83c42795
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '444'
 ht-degree: 100%
 
 ---
@@ -23,5 +23,5 @@ ht-degree: 100%
 | [!UICONTROL 此可视化图表中的一个区段或搜索，包含返回了大量结果的文本搜索。] | 您设定的区段标准或报告过滤器过于宽泛。 | 应缩小搜索文本标准，然后重试请求。 |
 | [!UICONTROL 报告包的报告过于繁重。请稍后重试。] | 您的组织针对特定报告包尝试运行的并发请求过多。导致此错误的因素包括：API 请求、计划项目、计划报告、计划警报，以及提出报告请求的并发用户数量。 | 将报告包的请求和计划较为均匀地分布在一天当中。 |
 | [!UICONTROL 请求过于复杂。] | 您的报告请求过大，无法执行。导致此错误的因素包括：因请求的大小、区段或搜索过滤器中的匹配项过多、包含的量度过多、维度与量度组合不兼容等原因而导致的各种超时。 | 通过删除表中的某些列或行来简化请求，或者考虑将表拆分为单独的请求。 |
-| [!UICONTROL 此维度当前不支持非默认归因模型。] | 您使用的维度不支持非默认归因。 | 将表格中的维度替换为[归因 IQ](/help/analyze/analysis-workspace/attribution/overview.md) 兼容的维度。 |
+| [!UICONTROL 此维度当前不支持非默认归因模型。] | 您使用的维度不支持非默认归因。 | 将表格中的维度替换为[归因 ](/help/analyze/analysis-workspace/attribution/overview.md) 兼容的维度。 |
 | [!UICONTROL 由于列或预配置行过多，导致请求失败。] | 表格中自由格式单元格（行数乘以列数）过多。 | 移除表格中的列或行，或考虑将表格拆分为单独的请求。 |

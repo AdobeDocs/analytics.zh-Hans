@@ -3,7 +3,7 @@ description: 介绍为将组件和项目从Adobe Analytics迁移到Customer Jour
 title: 准备将组件和项目从Adobe Analytics迁移到Customer Journey Analytics
 feature: Admin Tools
 exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
-source-git-commit: 03120156e1ba70e50b265da788fa5997fd31c93e
+source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 15%
@@ -89,7 +89,7 @@ Customer Journey Analytics中尚未存在的区段、日期范围和计算指标
 | **[标记](/help/analyze/landing.md)** | 否 |
 | **[收藏夹](/help/analyze/landing.md)** | 否 |
 | **[时间表](/help/components/scheduled-projects-manager.md)** | 否 |
-| **[异常检测](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)** | ![复选标记](assets/Smock_Checkmark_18_N.svg) |
+| **[异常检测](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)** | ![复选标记](assets/Smock_Checkmark_18_N.svg) |
 
 {style="table-layout:auto"}
 
@@ -115,7 +115,7 @@ Customer Journey Analytics不支持以下可视化和面板。 如果在迁移�
 
 * [页面摘要](/help/analyze/analysis-workspace/c-panels/page-summary.md)
 
-* [贡献分析](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
+* [贡献分析](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)
 
 ## 作为组织决定如何映射组件
 

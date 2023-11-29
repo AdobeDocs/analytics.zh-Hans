@@ -3,9 +3,9 @@ title: 营销渠道常见问题解答
 description: 有关营销渠道的常见问题解答。
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1500'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->为了最大化 Attribution IQ 和 Customer Journey Analytics 的营销渠道效率，我们发布了一些[修订后的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
+>为了最大化 Attribution 和 Customer Journey Analytics 的营销渠道效率，我们发布了一些 [修订后的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 >
 >Analytics 管理员可以管理其组织的营销渠道，如[管理营销渠道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)中所述。
 
@@ -112,7 +112,7 @@ ht-degree: 100%
    3. 几天后，该用户通过免费搜索重新访问您的网站并购买了商品。
    4. 电子邮件渠道获得“首次联系”点数，免费搜索获得“最近联系”点数。
 
-   即使在您更改处理规则后数天，仍然可以在错误的“首次联系”渠道中收集数据。在所有用户的访客参与到期之前，均会在错误的渠道中持续收集“首次联系”数据。
+  即使在您更改处理规则后数天，仍然可以在错误的“首次联系”渠道中收集数据。在所有用户的访客参与到期之前，均会在错误的渠道中持续收集“首次联系”数据。
 
 解决这些差异的最佳方法是执行以下一项或两项操作：
 

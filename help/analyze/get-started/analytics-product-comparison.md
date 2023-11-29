@@ -3,10 +3,10 @@ description: Analysis Workspace、Reports & Analytics、Report Builder、Data Wa
 title: Analytics 产品比较和要求
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: ht
-source-wordcount: '432'
-ht-degree: 100%
+source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 97%
 
 ---
 
@@ -29,11 +29,10 @@ ht-degree: 100%
 | **多个报告包** | [是](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | 是，具有限制 | 是 | 否 | 是 | 否 | 是 |
 | **划分数** | 无限制 | 最高 2 | 最高 2 | 无限制 | 无限制 | 无限制 | 无限制，跨多个查询运行 |
 | **区段划分** <br> [了解详情](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | 是 | 是 | 是 | 是，具有[限制](/help/components/segmentation/seg-reference/seg-compatibility.md) | 是 | 否 | 是 |
-| **计算指标** <br> [了解详情](/help/components/c-calcmetrics/cm-overview.md) | 是，具有[归因 IQ](/help/analyze/analysis-workspace/attribution/overview.md) | 是 | 是 | 否 | 是 | 否 | 是，具有[归因 IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
+| **计算指标** <br> [了解详情](/help/components/c-calcmetrics/cm-overview.md) | 是，与 [归因](/help/analyze/analysis-workspace/attribution/overview.md) | 是 | 是 | 否 | 是 | 否 | 是，与 [归因](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **营销渠道** <br> [了解详情](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | 是 | 是 | 是 | 是 | 是 | 是 - [va_finder、va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | 是 |
 | **同类群组分析** | [是](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 否 | 否 | 否 | 是 | 否 | 否 |
-| **归因** | 是，具有[归因 IQ](/help/analyze/analysis-workspace/attribution/overview.md) | 有限制 | 有限制 | 否 | 是 | 否 | 是，具有[归因 IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
-| **Virtual Analyst 功能**<br> [了解详情](/help/analyze/analysis-workspace/virtual-analyst/overview.md) | 是 | 否 | 否 | 否 | 否 | 否 | 是 |
+| **归因** | 是，与 [归因](/help/analyze/analysis-workspace/attribution/overview.md) | 有限制 | 有限制 | 否 | 是 | 否 | 是，与 [归因](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **策划**<br> [了解详情](/help/analyze/analysis-workspace/curate-share/curate.md) | 是 - 项目和虚拟报告包 | 否 | 否 | 否 | 否 | 否 | 是 - 仅限虚拟报告包 |
 | **项目共享**<br> [了解详情](/help/analyze/analysis-workspace/curate-share/share-projects.md) | 是，具有项目角色 | 是 | 是 | 否 | 是 | 否 | 否 |
 | **计划提交** | 是 | 是 | 是 | 是 | 否 | 是 | 否 |

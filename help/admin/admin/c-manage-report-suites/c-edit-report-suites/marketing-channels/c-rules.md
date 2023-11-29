@@ -3,9 +3,9 @@ title: 营销渠道的处理规则
 description: 营销渠道处理规则决定访客点击是否符合分配到渠道的标准。这些规则处理访客在网站上的每次点击。当规则不符合渠道标准时，或者如果规则配置不正确，系统会将该点击分配到“未识别渠道”。
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
-source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: '1889'
 ht-degree: 76%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 76%
 
 * 查看[《营销渠道快速入门》](/help/components/c-marketing-channels/c-getting-started-mchannel.md)中的概念信息。
 * 创建一个或更多渠道，以便您将规则分配给它们。请参阅[添加营销渠道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)。
-* 查看将[!UICONTROL 营销渠道]与 [!UICONTROL 归因 IQ] 一起使用的最佳实践。
+* 查看将[!UICONTROL 营销渠道]与 [!UICONTROL 归因 ] 一起使用的最佳实践。
 
 ## 创建营销渠道处理规则
 

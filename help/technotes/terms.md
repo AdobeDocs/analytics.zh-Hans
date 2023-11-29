@@ -3,7 +3,7 @@ title: Adobe Analytics 中使用的术语
 description: Adobe Analytics 词汇表，用于定义常用术语。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '2577'
 ht-degree: 97%
@@ -20,7 +20,7 @@ ht-degree: 97%
    * Adobe Admin Console，可用于配置产品访问权限和管理用户权限。请参阅管理用户指南中的 [Admin Console](/help/admin/admin-console/home.md)。
 * **分配：**&#x200B;如果转化变量在访问期间遇到多个值，则该变量的分配设置将决定保留哪个值。请参阅管理用户指南中的[转化变量](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)。
 * **Analysis Workspace：**&#x200B;用于构建强大的自定义分析项目和实现分析民主化的浏览器解决方案。具有比 Reports and Analytics 更大的报表灵活性。
-* **异常：**&#x200B;通过使用统计建模自动查找数据中的意外趋势，可检测异常。该模型可分析量度并确定值的下限、上限和预期范围。请参阅分析用户指南中的[异常检测](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)。
+* **异常：**&#x200B;通过使用统计建模自动查找数据中的意外趋势，可检测异常。该模型可分析量度并确定值的下限、上限和预期范围。请参阅分析用户指南中的[异常检测](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)。
 * **AppMeasurement：**&#x200B;用于收集数据并将其发送到 Adobe 的代码库。请参阅《实施用户指南》中的[主页](/help/implement/home.md)。
 * **ASI 插槽：**&#x200B;不再存在。在 Adobe Analytics 的先前版本中，ASI 插槽提供了一个用于查看分段数据的临时报表包容器。在 Adobe Analytics 的当前版本中，区段可立即应用于任何报表。
 * **划分：**&#x200B;允许您在另一个维度的上下文中查看维度。请参阅分析用户指南中的[划分维度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。

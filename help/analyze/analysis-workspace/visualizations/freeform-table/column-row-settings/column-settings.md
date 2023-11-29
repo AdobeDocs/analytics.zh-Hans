@@ -5,7 +5,7 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 2525180898d8f4cf29df891a5f228cfd82e6ffc2
+source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 100%
@@ -43,10 +43,10 @@ ht-degree: 100%
 | **总单元格数** |  |
 | 显示总数 | 此总数通常等于[!UICONTROL 全部总计]或者为其一部分。它反映自由格式表内应用的任何表过滤器，包括[!UICONTROL 不包含任何内容]选项。 |
 | 显示全部总计 | 此总计表示已收集的所有点击数，有时候称为“报表包总计”。当在面板级别或自由格式表中应用区段时，此总计会进行相应的调整以反映符合区段标准的所有点击。带有[统计行](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)的表或细分不支持全部总计。 |
-| **表单元格** |  |
+| **表单元格** |   |
 | 数值 | 确定单元格是否显示/隐藏量度的数值。例如，如果量度是“页面查看次数”，则数值是行项目的页面查看次数。 |
 | 百分比 | 确定单元格是否显示/隐藏量度的百分比值。例如，如果量度是“页面查看次数”，则百分比值等于行项目的页面查看次数除以该列的页面查看总数。注意：我们可以显示大于 100% 的百分比，准确度提高了。此外，我们还将上限调整为 1,000%，以确保允许列值有充足的变化范围。 |
-| 异常 | 确定此列中的值是否要运行异常检测。有关更多信息，请参阅[查看 Analysis Workspace 中的异常情况](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)。 |
+| 异常 | 确定此列中的值是否要运行异常检测。有关更多信息，请参阅[查看 Analysis Workspace 中的异常情况](/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md)。 |
 | 隐藏标头文本 | 允许您隐藏自由格式表中的标头文本，以使标头更加易读，表格更易共享。这对 .pdf 渲染和名称较长的量度非常有用。默认处于启用状态。 |
 | 将零解释为没有值 | 对于具有 0 值的单元格，确定将其显示为 0 还是空白单元格。当您查看一个月中每一天的数据，而有些天尚未发生时，这非常有用。可以为将来日期显示空白单元格，而不是 0。各种图表也遵循这种设置（即，选中该设置后，折线图或条形图将不显示值为 0 的部分）。 |
 | 背景 | 确定单元格是否显示/隐藏所有单元格格式，包括条形图和条件格式。 |
@@ -83,7 +83,6 @@ Analysis Workspace 支持对几乎所有量度进行[归因](/help/analyze/analy
 >[!MORELIKETHIS]
 >
 >* [管理数据源](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)
-
 
 ## 动态列
 

@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 功能板、Report Builder 和 Activity Map。
-source-git-commit: e5f67042fce223f2998e4031962193b1c0154557
-workflow-type: ht
-source-wordcount: '1097'
+source-git-commit: af5e88141bef139fb1727ae458628dd66fe3d1f6
+workflow-type: tm+mt
+source-wordcount: '1080'
 ht-degree: 100%
 
 ---
@@ -133,7 +133,7 @@ ht-degree: 100%
       + [仅供查看的项目](analysis-workspace/curate-share/view-only-projects.md)
       + [下载 PDF 或 CSV 文件](analysis-workspace/curate-share/download-send.md)
       + [计划项目](analysis-workspace/curate-share/t-schedule-report.md)
-   + Attribution IQ{#attribution}
+   + 归因 {#attribution}
       + [归因概述](analysis-workspace/attribution/overview.md)
       + [归因模型和回顾时间范围](analysis-workspace/attribution/models.md)
       + [算法归因](analysis-workspace/attribution/algorithmic.md)
@@ -141,17 +141,12 @@ ht-degree: 100%
       + [常见问题解答](analysis-workspace/attribution/faq.md)
    + [历程 IQ](analysis-workspace/journey-iq.md)
    + [区段 IQ](analysis-workspace/segment-iq.md)
-   + 虚拟分析师 {#virtual-analyst}
-      + [Virtual Analyst 概述](analysis-workspace/virtual-analyst/overview.md)
-      + 异常检测 {#anomaly-detection}
-         + [异常检测概述](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
-         + [在 Analysis Workspace 中查看异常](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
-         + [关闭异常检测](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection-turnoff.md)
-         + [异常检测中使用的统计技术](analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
-      + 贡献分析 {#contribution-analysis}
-         + [贡献分析概述](analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
-         + [运行贡献分析](analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md)
-         + [贡献分析中使用的统计技术](analysis-workspace/virtual-analyst/contribution-analysis/statistics-contribution-analysis.md)
+   + 异常检测 {#anomaly-detection}
+      + [异常检测概述](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
+      + [在 Analysis Workspace 中查看异常](analysis-workspace/c-anomaly-detection/view-anomalies.md)
+      + [关闭异常检测](analysis-workspace/c-anomaly-detection/anomaly-detection-turnoff.md)
+      + [运行贡献分析](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
+      + [异常检测中使用的统计技术](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
       + 智能警报 {#intelligent-alerts}
          + [智能警报概述](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
          + [警报生成器](analysis-workspace/c-intelligent-alerts/alert-builder.md)

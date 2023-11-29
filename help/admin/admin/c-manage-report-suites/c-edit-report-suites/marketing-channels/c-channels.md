@@ -4,9 +4,9 @@ subtopic: Marketing channels
 title: 管理营销渠道
 feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
-source-git-commit: bf0a4d4436da5f6a5ce09fbf7a1f03ef8bcc7094
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '766'
 ht-degree: 97%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 97%
 >
 > 有关营销渠道的一般信息，请参阅[营销渠道快速入门](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
 >
-> 为了最大化 Attribution IQ 和 Customer Journey Analytics 的营销渠道效率，我们发布了一些 [修订后的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
+> 为了最大化 Attribution 和 Customer Journey Analytics 的营销渠道效率，我们发布了一些 [修订后的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报告包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 营销渠道]** > **[!UICONTROL 营销渠道管理器]**。
 
@@ -36,7 +36,7 @@ ht-degree: 97%
 
 * 设置对营销渠道维度的访问权限。
 
-   请参阅[营销渠道权限](/help/components/c-marketing-channels/c-channel-report-access.md)。
+  请参阅[营销渠道权限](/help/components/c-marketing-channels/c-channel-report-access.md)。
 
 ## 添加营销渠道 {#add-mktg-channels}
 
@@ -51,7 +51,7 @@ ht-degree: 97%
 
    如果您选择多个报告包，则需要选择一个可将设置从模板复制到选定报告包的模板。
 
-   参见 [将模板报表包设置应用于多个报表包](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+   请参阅 [将模板报表包设置应用于多个报表包](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
 1. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 营销渠道]** > **[!UICONTROL 营销渠道管理器]**。
 
@@ -95,4 +95,4 @@ Adobe 在[自动设置](/help/components/c-marketing-channels/c-getting-started-
 >
 >Adobe 建议您在可作为测试用模板的报告包中设置报告。您可以使用该模板将这些渠道和规则集全局应用到一个或多个生产报告包中。
 >
->参见 [将模板报表包设置应用于多个报表包](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+>请参阅 [将模板报表包设置应用于多个报表包](/help/components/c-marketing-channels/c-getting-started-mchannel.md).

@@ -5,7 +5,7 @@ uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 feature: Report Builder
 role: User, Admin
 exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 72%
@@ -38,4 +38,4 @@ ht-degree: 72%
    当您选择其中一个选项时，系统会创建原始量度的“异常检测”副本。例如，对于“访问”量度，系统会将“访问下限”量度添加到“[!UICONTROL 量度]”群组中。
 1. 单击&#x200B;**[!UICONTROL 完成]**，并选择要输出到 Excel 中的单元格。
 
-   请参阅[异常检测](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)以了解定义。
+   请参阅[异常检测](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)以了解定义。

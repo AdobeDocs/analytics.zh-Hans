@@ -5,10 +5,10 @@ title: Analysis Workspace 中的新增功能
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: ht
-source-wordcount: '8268'
-ht-degree: 100%
+source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
+workflow-type: tm+mt
+source-wordcount: '8261'
+ht-degree: 99%
 
 ---
 
@@ -72,8 +72,8 @@ ht-degree: 100%
 
 | 功能 | 描述 |
 |--- |--- |
-| 归因 IQ：算法归因 | Analysis Workspace 中的“算法归因”模型可使用统计技术动态确定所选量度的最佳点数分配方式。适用于 Adobe Analytics Ultimate 客户。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=zh-Hans) |
-| 归因 IQ：自定义回顾时间范围 | 现在，您可以将“归因 IQ”中的任意归因模型配置为最多包含在报告期开始前的 90 天内的接触点。通过计算在之前月份发生的交互，通常可以提高在报告期初期所发生事件的归因准确性。适用于 Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete 和 Ultimate 客户。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=zh-Hans#lookback-windows) |
+| 归因：算法归因 | Analysis Workspace 中的“算法归因”模型可使用统计技术动态确定所选量度的最佳点数分配方式。适用于 Adobe Analytics Ultimate 客户。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=zh-Hans) |
+| 归因：自定义回顾时间范围 | 现在，您可以将“归因 ”中的任意归因模型配置为最多包含在报告期开始前的 90 天内的接触点。通过计算在之前月份发生的交互，通常可以提高在报告期初期所发生事件的归因准确性。适用于 Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete 和 Ultimate 客户。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=zh-Hans#lookback-windows) |
 | 共享工作区项目中的项目角色 | 在共享工作区项目时，现在可根据要让接收方获得的项目体验为其赋予三个项目角色之一：“编辑”、“复制”和“查看”。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans) |
 | 仅查看的工作区项目 | 只能以“可查看”的形式与用户共享 Workspace 项目。当具有查看角色的收件人打开共享项目时，他们将会获得较为受限的项目体验，即，无左边栏而且只能进行有限的交互。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=zh-Hans) |
 | 能够共同编辑工作区项目 | 添加到“可编辑”角色的收件人可以保存已共享给他们的项目。这同时适用于管理员和非管理员用户。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans) |
@@ -187,7 +187,7 @@ ht-degree: 100%
 |--- |--- |
 | [同类群组分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 对同类群组分析进行重大改进后，您能够：<ul><li>应用区段包含并单独返回量度。 </li><li>显示流失率而不是保留率。</li><li>显示延时表（包含事件之前和之后经过的时间）。</li><li>自定义同类群组维度（根据 eVar 而不只是时间对访客进行分组）。</li><li>进行滚动式同类群组计算：根据先前的时间段而不是原始同类群组来计算维系率/流失率。 </li><li>将多个量度添加到包含和回访字段中，并应用区段。（不支持计算量度）</li></ul> |
 | [视图密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 此新设置可减少左边栏、自由格式表和同类群组表中的垂直边距，从而使您能够在单个屏幕上查看更多数据。可通过项目 > 项目信息和设置进行访问。 |
-| [在归因 IQ 中支持多值变量](attribution/overview.md) | Analytics 中的某些维度可以在单次点击中包含多个值，例如 listVar、产品变量、列表属性或推销 eVar。Analysis Workspace 允许您在点击级别将 Attribution IQ 应用于任何此类变量。 |
+| [在归因 中支持多值变量](/help/analyze/analysis-workspace/attribution/overview.md) | Analytics 中的某些维度可以在单次点击中包含多个值，例如 listVar、产品变量、列表属性或推销 eVar。Analysis Workspace 允许您在点击级别将 Attribution 应用于任何此类变量。 |
 | 性能改进 | 提高了划分可视化图表的速度 — 具有大量划分的项目将能更快加载。 |
 
 ## 2018 年 11 月
@@ -270,8 +270,8 @@ ht-degree: 100%
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> <p><b> <a href="attribution/overview.md"  > 归因 IQ </a> </b> </p> </td>
-   <td colname="col2"> <p>借助“归因 IQ”，您可以对营销效果进行更复杂、更智能的分析。新的归因模型可用于 Analysis Workspace（在任何表格或任何划分中）和计算量度中的量度。新的归因面板可提供更好的可视化图表和比较。 </p> </td>
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/attribution/overview.md"  > 归因 </a> </b> </p> </td>
+   <td colname="col2"> <p>借助“归因 ”，您可以对营销效果进行更复杂、更智能的分析。新的归因模型可用于 Analysis Workspace（在任何表格或任何划分中）和计算量度中的量度。新的归因面板可提供更好的可视化图表和比较。 </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p><b> 改进左边栏 </b> </p> </td>
@@ -348,7 +348,7 @@ ht-degree: 100%
    <td colname="col2"> <p>现在，将组件拖动到新位置时，您可以上下进行滚动。 </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p><b>有关<a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  >异常</a>的更多信息</b> </p> </td>
+   <td colname="col1"> <p><b>有关<a href="/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md"  >异常</a>的更多信息</b> </p> </td>
    <td colname="col2"> <p>现在，将鼠标悬停在折线图中的异常时，异常信息会显示异常的日期和原始值。 </p> </td>
   </tr>
  </tbody>
@@ -379,7 +379,7 @@ ht-degree: 100%
    <td colname="col2"> <p>堆叠的区域/堆叠的条形/堆叠的水平条形可视化图表的新可视化图表设置将图表变为“100% 堆叠”的可视化图表，因此您可以量度相对比例。 </p> <p><img placement="break"  src="visualizations/assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  > 异常检测和贡献分析</a>当前只能通过 Analysis Workspace 使用 </p> </td>
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md"  > 异常检测和贡献分析</a>当前只能通过 Analysis Workspace 使用 </p> </td>
    <td colname="col2"> <p>异常检测和贡献分析已从 Reports &amp; Analytics 功能集中删除，现在只能通过 Analysis Workspace 使用。 </p> <p>请注意，Adobe Analytics Select 和 Adobe Analytics Foundation 客户只能访问工作区中的“每日粒度”异常检测。 </p> </td>
   </tr>
  </tbody>
@@ -610,7 +610,7 @@ ht-degree: 100%
     </ul> <p>例如，如果将“小时”放入表中，它将按照从 12AM 至 11PM 的顺序进行排序。您仍然可以选择按照任何量度列进行排序。 </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  >允许置信度间隔重新缩放图表的选项</a> </p> </td>
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md"  >允许置信度间隔重新缩放图表的选项</a> </p> </td>
    <td colname="col2"> <p>异常检测置信度间隔不会自动缩放可视化图表的 y 轴以期让图表变得更加清晰易读。 </p> <p>您现在可以选择允许置信度间隔缩放图表。 </p> </td>
   </tr>
   <tr>
@@ -671,7 +671,7 @@ ht-degree: 100%
    <td colname="col1"> <p>  用于区段比较和贡献分析配置的<span class="uicontrol">全部清除</span>按钮 </p> </td>
    <td colname="col2"> <p>您现在可以“全部清除”工作区中以下区域的所有元素，而不必手动删除每个元素。 </p>
     <ul id="ul_73E06D64CDCA4E83B9FEC2FD99D41CD3">
-     <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC"  >“贡献分析”中“排除的组件”</a> </li>
+     <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md"  >“贡献分析”中“排除的组件”</a> </li>
      <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md">“区段比较”中“排除的组件”</a> </li>
     </ul> </td>
   </tr>
@@ -754,7 +754,7 @@ ht-degree: 100%
    <td colname="col2"> <p>我们重新设计了数据源（为可视化图表提供支持）的管理方式。在将数据源锁定到表时，不再提供单独的隐藏表。 </p> <p>我们而是会将可视化图表绑定到用于创建该可视化图表的表。这还将解决实时链接表存在的以下错误：更改粒度后，下次加载项目时又恢复为旧粒度。 </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md"  > 突出显示特定异常的功能 </a></b> </p> </td>
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md"  > 突出显示特定异常的功能 </a></b> </p> </td>
    <td colname="col2"> <p>在贡献分析和链接到该贡献分析的智能警报项目中，我们现在使用蓝色圆点突出显示异常。这样可以更清楚地指示正在分析的异常。 </p> </td>
   </tr>
   <tr>
@@ -986,7 +986,7 @@ ht-degree: 100%
     </ul> <p><img placement="break"  src="assets/intel-alerts.png" width="400px" id="image_10069C33B6B1437CA578B8194FC75AD8" /> </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md"  > 异常检测和贡献分析 </a></b> </td>
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md"  > 异常检测和贡献分析 </a></b> </td>
    <td colname="col2"> <p>允许您了解趋势数据中的更改是否显著，以及造成此更改的原因。 </p> <p>异常检测和贡献分析现在是 Analysis Workspace 中的核心工作流程。 </p> <p>重要：贡献分析仅适用于 Adobe Analytics Premium 客户。 </p> <p>您可以: </p> <p> </p>
     <ul id="ul_9CEE47788F3640838D8598F2E2C020D6">
      <li id="li_787236BB5EA545B8833B311C06C24337">自动检测数据中在统计上显著的数据异常。 </li>
@@ -1032,7 +1032,7 @@ ht-degree: 100%
 2016 年 6 月 16 日发布的新功能：
 
 * [新的组权限](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=zh-Hans)让管理员可以允许或拒绝用户访问 **[!UICONTROL Analytics]** > **[!UICONTROL 工作区]**&#x200B;选项卡。自 2016 年 6 月 16 日开始，所有用户都将拥有访问此选项卡的权限。要拒绝访问，只需要从“Analysis Workspace 访问”组中删除用户即可。
-* [区段比较面板](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)通过自动分析您有权访问的每个量度和维度，可发现任意两个区段之间的最显著统计学差异。
+*  [区段比较面板](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)通过自动分析您有权访问的每个量度和维度，可发现任意两个区段之间的最显著统计学差异。
 * [新的项目菜单结构](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)重新排列了顶部菜单，提高了其可扩展性。例如，创建&#x200B;**新同类群组面板**&#x200B;的过程现在包括创建一个空白面板和拖入一个同类群组表可视化图表。
 * [新的左边栏](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：面板、可视化图表、组件
 * 新的[维恩图可视化图表类型](/help/analyze/analysis-workspace/visualizations/venn.md)允许您最多拖入 3 个区段和一个量度以构建维恩图。

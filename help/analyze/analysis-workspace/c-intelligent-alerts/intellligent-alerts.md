@@ -4,7 +4,7 @@ title: 智能警报概述
 feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Analysis Workspace 中新增的警报生成器和警报管理器取代了 Report
 | 选择一个或多个自由格式表行项 | 单击右键并选择&#x200B;**[!UICONTROL 从所选内容创建警报]**。这样将打开[!UICONTROL 警报生成器]，并预先填充从该表中应用的相应指标和过滤器。可根据需要编辑警报。![从所选内容创建警报](assets/create-alert-from-selection.png) |
 | 从 Reports &amp; Analytics 报表中 | 转到&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 添加警报]**。这样将打开警报生成器，并预先填充从该报表中应用的相应指标和过滤器。可根据需要编辑警报。![添加警报](assets/add-alert.png) |
 
-百分比阈值代表标准偏差。例如，95% 等于 2 个标准偏差，99% 等于 3 标准偏差。根据您选择的时间粒度，将使用[不同的模型](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)来计算每个数据点和标准值之间的间隔时间（标准偏差个数）。设定的阈值越低，异常会越多。例如，同 99.75% 的相比，90% 的阈值会产生更多的异常。
+百分比阈值代表标准偏差。例如，95% 等于 2 个标准偏差，99% 等于 3 标准偏差。根据您选择的时间粒度，将使用[不同的模型](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)来计算每个数据点和标准值之间的间隔时间（标准偏差个数）。设定的阈值越低，异常会越多。例如，同 99.75% 的相比，90% 的阈值会产生更多的异常。
 
 >[!IMPORTANT]
 >
@@ -50,4 +50,4 @@ Analysis Workspace 中新增的警报生成器和警报管理器取代了 Report
 * 每天粒度：35 天及去年的相应日期范围
 * 每小时粒度：336 小时
 
-请参阅[异常检测中使用的统计技术](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)，以获取更多信息。
+请参阅[异常检测中使用的统计技术](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)，以获取更多信息。

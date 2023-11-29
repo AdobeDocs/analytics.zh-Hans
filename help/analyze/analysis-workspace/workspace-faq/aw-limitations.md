@@ -4,9 +4,9 @@ title: Analysis Workspace 中的已知限制
 feature: Workspace Basics
 role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
-source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '411'
 ht-degree: 90%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 90%
 ## “组件”>“区段”
 
 * 某些量度和维度不可分段，如[!UICONTROL 发生次数]、[!UICONTROL 唯一访客]，等等。
-* 在 [面板拖放区域](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hans) 是一种快速过滤器。 除非将区段组件公开，否则它们不会显示在工作区或区段组件管理器的左边栏中。 有关更多信息，请参阅 [快速区段](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
+* 在中创建的临时区段 [面板拖放区域](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hans) 是一种快速过滤器。 除非将这些变量公开，否则它们不会显示在工作区或区段组件管理器的左边栏中。 有关更多信息，请参阅 [快速区段](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ## “组件”>“计算量度”
 
@@ -56,6 +56,6 @@ ht-degree: 90%
 
 * [!UICONTROL 报表设置]页面上的某些设置不适用。Analysis Workspace 只使用底部的[!UICONTROL 语言/货币/编码]设置：[!UICONTROL 千位分隔符]、[!UICONTROL 计划报表编码]和 [!UICONTROL CSV 分隔符]。
 
-## Attribution IQ
+## 归因
 
-* [!UICONTROL Attribution IQ] 中不支持量度的子集。有关完整列表，请参阅 [Attribution IQ 常见问题解答](../attribution/faq.md)。
+* [!UICONTROL Attribution ] 中不支持量度的子集。有关完整列表，请参阅 [Attribution 常见问题解答](/help/analyze/analysis-workspace/attribution/faq.md)。
