@@ -5,10 +5,10 @@ title: 在流失分析中应用区段
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 3bbf89cf522d9e0be62e0cabb28133bfa2b7a167
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 100%
+source-wordcount: '430'
+ht-degree: 96%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 ## 在流失中比较区段 {#section_E0B761A69B1545908B52E05379277B56}
 
-您可以在“流失”可视化图表中比较任意区段数量。
+您可以在“流失”可视化图表中比较任意区段数量。（请注意，以下视频说明最多可以比较3个区段，这是错误的。）
 
 以下是一段关于比较流失中的各个区段的视频：
 
