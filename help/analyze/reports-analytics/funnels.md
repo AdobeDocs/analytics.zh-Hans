@@ -5,20 +5,18 @@ uuid: a67ce302-fae1-434a-b662-91672e85cab3
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 8c1c1bc1-0e45-43d7-9581-bd070e2b687e
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 4556ba78cb5cc449e2f43fef7067d7e776e61c6b
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '321'
 ht-degree: 100%
 
 ---
 
 # 转换漏斗
 
-{{ra-eol}}
-
 转化比率通常用于测量转化过程中的开始、结束和里程碑事件或关键点之间的转化。在您将成功事件编码到您的网站上时，报表会生成这些不同成功事件的比率，并会在转化漏斗报表中显示这些比率。
 
-可以使用以下漏斗报表：
+以下漏斗报表可供使用：
 
 * [!UICONTROL 购买转化漏斗]：显示访问次数（特定报表）、购物车、订购、件数和收入。
 * [!UICONTROL 购物车转化漏斗]：显示访问量（特定报表）、购物车、结账、订购和收入。

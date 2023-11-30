@@ -4,10 +4,10 @@ title: Adobe Analytics 登陆页面
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
-workflow-type: ht
-source-wordcount: '4071'
-ht-degree: 100%
+source-git-commit: 7132cd4cbbb79a4240a5d0b65844343284de2123
+workflow-type: tm+mt
+source-wordcount: '2196'
+ht-degree: 98%
 
 ---
 
@@ -54,7 +54,7 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 
 >[!NOTE]
 >
->以下几种设置会在该会话和多个会话期间保留。例如，您选择的选项卡、选择的过滤器、选择的列以及列排序方向。搜索结果不是持久性的。
+>以下几种设置会在该会话和多个会话期间保留。例如，您选择的选项卡、选择的筛选条件、选择的列以及列排序方向。搜索结果不是持久性的。
 
 | UI 元素 | 定义 |
 | --- | --- |
@@ -65,10 +65,10 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 | [!UICONTROL 移动记分卡] | 创建一个空白[移动记分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html)以便您进行设计和构建。 |
 | [!UICONTROL 打开培训教程] | 打开 Workspace 培训教程，它会通过分步教程指导您完成构建新的入门项目的过程。 |
 | [!UICONTROL 打开发行说明] | 打开最新的 Adobe Experience Cloud 发行说明的 Adobe Analytics 部分。 |
-| 过滤器图标 | 按标记、报告包、所有者、类型和其他过滤器（“我的”、“已与我共享”、“收藏”和“已批准”）进行过滤 |
+| 筛选条件图标 | 按标记、报告包、所有者、类型和其他过滤器（“我的”、“已与我共享”、“收藏”和“已批准”）进行过滤 |
 | 搜索栏 | 搜索表中的所有列。 |
 | 选区框 | 选择一个或多个项目可显示您可以执行的项目管理操作：**删除**、**共享**、**重命名**、**复制**、**取消固定**、**上移**、**下移**、**标记**、**批准**、**导出 CSV** 和&#x200B;**移至**。您可能无权执行所有列出的操作。 |
-| [!UICONTROL 收藏] | 在可用作过滤器的收藏项目或文件夹旁边添加星号。 |
+| [!UICONTROL 收藏] | 在可用作筛选条件的收藏项目或文件夹旁边添加星号。 |
 | [!UICONTROL 名称] | 标识项目的名称。 |
 | 固定图标 | 固定项目，使它们始终显示在列表顶部，但您可以通过上移或下移项目来重新调整其顺序。使用省略号选项菜单并在列表中选择&#x200B;**上移**&#x200B;或&#x200B;**下移**。 |
 | 信息 (i) 图标 | 显示有关项目的以下信息：类型、项目角色、所有者、描述及其共享对象。它还指示谁可以[编辑或复制](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans)此项目。 |
@@ -114,126 +114,9 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 
 ![“报告”选项卡](assets/reports-tab2.png)
 
+有关Analysis Workspace中“报表”选项卡的更多信息，包括查看和保存报表，请参阅 [使用预建报表](/help/analyze/analysis-workspace/reports/use-reports.md).
 
-### 查看报告 {#menus}
-
-1. 转到&#x200B;[!UICONTROL **报告**]&#x200B;选项卡。
-1. 使用搜索字段可搜索特定报告。
-
-   或
-
-   导航到要查看的报告。
-
-   提供了以下报告：
-
-   | 菜单项 | 此菜单项下的报告 |
-   | --- | --- |
-   | **[!UICONTROL 最受欢迎]** | <ul><li>培训教程（预先存在的 Workspace 模板）</li><li>页面数（我的页面中浏览次数最多的有哪些？）</li><li>页面浏览量（我产生了多少次页面浏览？）</li><li>访问次数（我获得了多少次访问？）</li><li>访客数（我获得了多少个访客？）</li><li>关键量度（我最重要的量度表现如何？）</li><li>网站版块（我网站的哪些版块产生的页面浏览次数最多？）</li><li>下一个页面（我们的访客前往的下一个页面是哪个？）</li><li>上一个页面（我们的访客前往的上一个页面是哪个？）</li><li>营销活动（我的关键量度受哪些营销活动驱动？）</li><li>产品（哪些产品在驱动我的关键量度？）</li><li>最近联系渠道（哪个最近联系渠道的效果最佳？）</li><li>最近联系渠道详情（哪个特定最近联系渠道的效果优于其他渠道？）</li><li>收入（我的收入表现如何？）</li><li>订单（我的订单表现如何？）</li><li>单位数（我售出了多少个单位？）</li></ul> |
-   | **[!UICONTROL 参与度]** | <ul><li>关键量度（我最重要的量度表现如何？）</li><li>页面浏览量（我产生了多少次页面浏览？）</li><li>页面数（我的页面中浏览次数最多的有哪些？）</li><li>访问次数（我获得了多少次访问？）</li><li>访客数（我获得了多少个访客？）</li><li>每次访问花费的时间（我的用户每次访问花费了多少时间？）</li><li>事件之前的时间（我的用户在成功事件之前花费了多少时间？）</li><li>网站版块（我网站的哪些版块产生的页面浏览次数最多？）</li><li>Web 内容使用（哪种内容使用最多，并且吸引用户？）</li><li>媒体内容使用（哪种内容使用最多，并且吸引用户？）</li><li>下一个和上一个页面流程（我的访客采用的下一个/上一个路径是什么？）</li><li>流失（我的数字资产中哪里出现了流失？）</li><li>跨设备分析（在 Analysis Workspace 中使用跨设备分析）</li><li>Web 维系率（谁是我的忠实用户，他们会怎么做？）</li><li>媒体音频使用（音频使用趋势和热门量度是什么？）</li><li>媒体回访间隔、频度、忠诚度（谁是我的忠实读者？）</li><li>页面分析 > 重新加载（哪些页面产生的重新加载次数最多？）</li><li>页面分析 > 在页面上停留的时间（我的用户在我的页面上停留了多少时间？）</li><li>进入和退出 > 进入页面（我的进入次数最多的页面有哪些？）</li><li>进入和退出 > 原始进入页面（我的访客最初是从哪个页面进入的？）</li><li>进入和退出 > 单页面访问（哪些页面生成的单页面访问次数最多？）</li><li>进入和退出 > 退出页面（我的退出次数最多的页面有哪些？）</li></ul> |
-   | **[!UICONTROL 转化]** | <ul><li>产品 > 产品（哪些产品在驱动我的关键量度？）</li><li>产品 > 产品表现（哪些产品表现最佳？）</li><li>产品 > 类别（我表现最佳的产品类别是什么？）</li><li>购物车 > 购物车（有多少用户向购物车添加了产品？）</li><li>购物车 > 购物车查看次数（我的访客查看了他们的购物车多少次？）</li><li>购物车 > 购物车添加次数（用户向其购物车添加产品的频率如何？）</li><li>购物车 > 购物车移除次数（用户从其购物车移除产品的频率如何？）</li><li>购买次数 > 收入（我的收入表现如何？）</li><li>购买次数 > 订单（我的订单表现如何？）</li><li>购买次数 > 单位数（我售出了多少个单位？）</li><li>[Magento：营销和商务](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#commerce?lang=zh-Hans)</li></ul> |
-   | **[!UICONTROL 受众]** | <ul><li>人员量度（有多少人在与我的品牌互动？）</li><li>访客个人资料 > 位置概览（哪些位置在用户中促成的使用量最大）</li><li>访客个人资料 > 地理分段 > 地理县、美国地理州、地理区域、地理城市、美国地理 DMA（我的用户访问哪些地理区域？）</li><li>访客个人资料 > 语言（我的用户更喜欢哪种语言？）</li><li>访客个人资料 > 时区（我的用户从哪些时区访问？）</li><li>访客个人资料 > 域（我的访客使用哪些 ISP 访问我的网站？）</li><li>访客个人资料 > 顶级域（哪些域会提升我的网站的流量？）</li><li>访客个人资料 > 技术 > 技术概览（人们使用哪些技术访问我的网站？）</li><li>访客个人资料 > 技术 > 浏览器、浏览器类型、浏览器宽度、浏览器高度（人们使用哪家公司的浏览器、浏览器版本及其宽度和高度来访问我的网站？）</li><li>访客个人资料 > 技术 > 操作系统、操作系统类型（我的访客使用哪个操作系统和哪个版本？）</li><li>访客个人资料 > 技术 > 移动运营商（我的访客使用哪些移动运营商访问我的网站？）</li><li>访客维系 > 回访频率（我的用户当前访问和之前访问之间间隔了多长时间？）</li><li>访客维系 > 回访访客（我的访客中有多少是回访用户？）</li><li>访客维系 > 访问次数（哪个访问次数区间对我的关键量度起到的推动作用最大？）</li><li>访客维系 > 销售周期 > 客户忠诚度（我的用户属于哪个忠诚度细分？）</li><li>访客维系 > 销售周期 > 首次购买前的天数（我的用户第一次访问和第一次购买之间间隔了多少天？）</li><li>访客维系 > 销售周期 > 上次购买前的天数（我的用户当前访问和上一次购买之间间隔了多少天？）</li><li>访客维系 > 移动 > 设备和设备类型（我的访客使用哪些设备和设备类型？）</li><li>访客维系 > 移动 > 制造商（我的访客使用哪个移动设备制造商？）</li><li>访客维系 > 移动 > 屏幕尺寸、屏幕高度、屏幕宽度（我的访客有哪些移动屏幕尺寸/高度/宽度？）</li><li>访客维系 > 移动 > [移动应用使用情况](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile?lang=zh-Hans)</li><li>访客维系 > 移动 > [移动应用旅程](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile?lang=zh-Hans)</li><li>访客维系 > 移动 > [移动应用量度](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile?lang=zh-Hans)</li><li>访客维系 > 移动 > [移动应用消息](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile?lang=zh-Hans)</li><li>访客维系 > 移动 > [移动应用表现](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile?lang=zh-Hans)</li><li>访客维系 > 移动 > [移动应用维系](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile?lang=zh-Hans)</li></ul> |
-   | **[!UICONTROL 客户获取]** | <ul><li>营销渠道 > 首次联系渠道、首次联系渠道详细信息（哪个首次联系渠道以及哪个特定的首次联系渠道表现最佳？）</li><li>营销渠道 > 首次最近渠道、首次最近渠道详细信息（哪个最近联系渠道以及哪个特定的最近联系渠道表现最佳？）</li><li>营销活动 > 营销活动（我的关键量度受哪些营销活动驱动？）</li><li>营销活动 > 营销活动效果（哪些营销活动带来的收入最多？）</li><li>营销活动 > 跟踪代码（哪些营销活动跟踪代码的表现最佳？）</li><li>[Web 客户获取](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#web?lang=zh-Hans)</li><li>[移动客户获取](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#mobile?lang=zh-Hans)</li><li>[Advertising Analytics：付费搜索](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#advertising?lang=zh-Hans)</li><li>搜索关键词 - 全部、付费、免费（哪些搜索关键词和付费/免费搜索关键词对我的关键量度的推动作用最大？）</li><li>搜索引擎 - 全部、付费、免费（哪些搜索引擎和付费/免费搜索引擎对我的关键量度的推动作用最大？）</li><li>所有搜索页面排名（我的用户是从哪个搜索页面访问的？）</li><li>反向链接域（哪些域会提升我的网站的流量？）</li><li>原始反向链接域（在访问我的网站之前，用户所在的第一个域是哪个域？）</li><li>反向链接（我的用户在点进我的网站之前位于哪些 URL 上？）</li><li>反向链接类型（我的引用 URL 属于哪个类别？）</li></ul> |
-
-### 查看和保存报告 {#use-reports}
-
-如果您在进行更改后离开报告，系统会提示您保存或放弃更改。保存对报告的更改会将报告另存为新项目。
-
-1. 转到&#x200B;[!UICONTROL **报告**]&#x200B;选项卡。
-1. 选择要查看的报告。例如，在&#x200B;[!UICONTROL **最受欢迎**]&#x200B;下方选择&#x200B;[!UICONTROL **页面**]&#x200B;报告。
-
-   ![页面报告](assets/pages-report.png)
-
-1. “页面”报告显示在 Analysis Workspace 中，其中显示了[可视化](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)（[条形图](/help/analyze/analysis-workspace/visualizations/bar.md)和[摘要数量](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)）和[自由格式表](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)。使用的量度为“发生次数”。
-1. 执行下列任一操作：
-
-   * 查看报告。
-   * 将一个或多个区段拖到顶部的“区段”放置区中。例如，拖动区段&#x200B;[!UICONTROL **移动客户**]&#x200B;并查看结果。
-   * 转到右上方的日历来更改日期范围。
-   * 添加维度细分、拖入其他量度，并且通常根据您的需求自定义报告。
-
-1. （可选）通过选择&#x200B;[!UICONTROL **项目**] > [!UICONTROL **保存**]，将报告另存为项目。
-
-   这会将报告另存为新项目；不会修改现有报告。有关将报告另存为项目的更多信息，请参阅[创建项目](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)中的“从空白项目或报告创建项目”。
-
-### 创建自定义公司报告 {#company-report}
-
-创建并保存以供您的登录公司中的其他人使用的自定义报告称为公司报告。以前创建的公司报告和新创建的公司报告将在“创建项目”模式中列出，如下所示。
-
-要创建新的公司报告，请执行以下操作：
-
-1. 在 Analysis Workspace 中构建项目并将其设为所需状态。
-1. 选择&#x200B;[!UICONTROL **项目**] > **[!UICONTROL 另存为公司报告...]**。
-
-   ![公司报告](assets/company-report.png)
-
-1. 更新报告的名称、添加描述并添加任何标签，然后选择&#x200B;[!UICONTROL **另存为公司报告**]。
-
-   该报告将添加到“创建项目”模式下的“公司报告”列表中，并且可供您的登录公司内的用户使用。
-
-   有关用户如何根据公司报告创建项目的更多信息，请参阅[创建项目](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)中的“从空白项目或报告创建项目”。
-
-更多学习选项：
-
-* 请注意，您可以在打开的任何报告的左上角访问 20 分钟的 Analysis Workspace 视频概述。
-* 如果您是新用户，我们建议观看[培训教程](https://www.youtube.com/watch?v=lCH1Kl1q9Wk)视频，以便您可以在指导下构建新项目。
-* 这是指向[完整 Analysis Workspace 文档](/help/analyze/analysis-workspace/home.md)的链接。
-* 这是 [Analysis Workspace 的完整 YouTube 播放列表](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)。
-
-### 管理公司报告 {#manage-company-reports}
-
-管理员可以过滤项目列表以显示和管理公司报告。已固定的项目保持固定状态，后跟由 ![报告图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg) 报告图标标识的公司报告的列表。在此视图中，您可以删除、重命名、标记或审批一个或多个报告。
-
-显示和管理公司报告
-
-1. 在过滤器边栏中，选择&#x200B;**其他过滤器**，然后选择&#x200B;**公司报告**。显示公司报告的列表。不会显示所有常规项目（除非已固定）。
-
-   ![显示公司报告过滤器](assets/company-reports-filter.png)
-
-   显示公司报告后，管理员可以删除、重命名、标记或审批报告。
-
-1. 在报告列表中，选择单个报告或多个报告。
-
-1. 单击报告旁边的 **...** 省略号图标可查看可用选项（删除、重命名、标记和审批）。
-
-   ![公司报告图标](assets/company-reports-actions.png)
-
-1. 选择一个选项（删除、重命名、标记和审批）。
-
-1. 要在完成操作后返回常规视图，请在过滤器边栏中再次取消选中“公司报告”选项。
-
-### 删除公司报告
-
-管理员可以使用公司报告列表选项（如上所述）删除报告，也可以从“创建项目”模式中删除报告。
-
-![其他过滤器](assets/delete-fr-create-project-modal.png)
-
-### 模板（现在称作报告）位置 {#templates}
-
-| 报告（模板）名称 | 报告位置 |
-| --- | --- |
-| 培训教程 | 最受欢迎 > 培训教程 |
-| Web 内容使用 | 参与 > Web 内容使用 |
-| 媒体内容使用 | 参与 > 媒体内容使用 |
-| 跨设备分析 | 参与 > 跨设备分析 |
-| Web 保留 | 参与 > Web 保留 |
-| 媒体音频使用 | 参与 > 媒体音频使用 |
-| 媒体回访间隔、频度、忠诚度 | 参与 > 媒体回访间隔、频度、忠诚度 |
-| ITP 影响 | 参与 > ITP 影响 |
-| 产品效果 | 转化 > 产品 > 产品效果 |
-| Magento：营销和商务 | 转化 > Magento：营销和商务 |
-| 人员量度 | 受众 > 人员量度 |
-| 位置概述 | 受众 > 访客个人资料 > 位置概述 |
-| 技术概述 | 受众 > 访客个人资料 > 技术 > 技术概述 |
-| 移动应用程序使用情况 | 受众 > 移动 > 移动应用程序使用情况 |
-| 移动应用程序旅程 | 受众 > 移动 > 移动应用程序旅程 |
-| 移动应用程序量度 | 受众 > 移动 > 移动应用程序消息 |
-| 移动应用程序性能 | 受众 > 移动 > 移动应用程序性能 |
-| 移动应用程序保留 | 受众 > 移动 > 移动应用程序保留 |
-| 营销活动效果 | 客户获取 > 营销活动 > 营销活动效果 |
-| 移动客户获取 | 客户获取 > 移动客户获取 |
-| Web 客户获取 | 客户获取 > Web 客户获取 |
-| Advertising Analytics：付费搜索 | 客户获取 > Advertising Analytics：付费搜索 |
-
+有关创建和管理自定义公司报表的信息，请参阅 [创建和管理公司报表](/help/analyze/analysis-workspace/reports/create-company-reports.md).
 
 ## 使用“学习”选项卡 {#navigate-learning}
 
@@ -248,11 +131,11 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 ### “学习”页面功能
 
 * **筛选内容：**&#x200B;利用左边栏中的“筛选”图标，可以按经验级别（初学者、中级或高级）和内容类型（文档、视频或导览和教程）筛选学习内容。
-* **跟踪进度：**&#x200B;选择一段内容后，将显示&#x200B;**[!UICONTROL 已查看]**&#x200B;标记。此标记有助于跟踪您在整个学习内容中的进度。您可以选择&#x200B;**[!UICONTROL 已查看]**&#x200B;标记，将其从一段内容中删除。
+* **跟踪进度：**&#x200B;选择一段内容后，将显示&#x200B;**[!UICONTROL 已查看]**&#x200B;标记。此标记有助于跟踪您在整个学习内容中的进度。您可以选择&#x200B;**[!UICONTROL 已查看]**&#x200B;标记以将其从一段内容中删除。
 * **查看附加内容：**&#x200B;在观看任何视频时，选择&#x200B;**[!UICONTROL 了解更多]**&#x200B;按钮以查看 Experience League 的相关文档内容。或者，从“学习”页面中，选择下列选项之一以查看其他内容：
    * **[!UICONTROL 访问 YouTube]：**&#x200B;查看完整的 Analysis Workspace YouTube 播放列表。
    * [!UICONTROL **访问 Experience League**]：查看 Experience League 上的完整 Adobe Analytics 文档集。
-* **面向新用户的基础知识：**&#x200B;建议新用户使用 [!UICONTROL Workspace 基础知识]导览。此导览会将您直接转到 Workspace 并向您介绍最常用操作。也可以随时通过面板标题中的工具提示弹出窗口，在 Workspace 中重新启动此导览。
+* **面向新用户的基础知识：**&#x200B;建议新用户使用 [!UICONTROL Workspace 基础知识]导览。此导览会将您直接转到 Workspace 并向您介绍最常用操作。也可以随时通过面板标题中的工具提示弹出窗口在 Workspace 中重新启动此导览。
 
 ## 设置您的登陆页面 {#set-landing}
 

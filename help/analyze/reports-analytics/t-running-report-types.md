@@ -5,10 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 2bb3cc1ce46fc8e5f7e15291401fce1c4d8cb839
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 97%
+source-wordcount: '1069'
+ht-degree: 94%
 
 ---
 
@@ -16,28 +16,38 @@ ht-degree: 97%
 
 {{ra-eol}}
 
-运行不同的报表类型的步骤。
+您可以在Analysis Workspace中运行多种不同类型的报表。 以下是几个示例。
 
-## 运行排名报表 {#task_C570BA4A213F4F2EB7B30E012934BE7D}
+有关可用的预建报表类型的完整列表，请参阅 [使用预建报表](/help/analyze/analysis-workspace/reports/use-reports.md)
 
-在排名报表中，表格会根据数量或百分比，显示与量度相关的报表页面排名。排名报表可以在一份报表中显示多个量度。
+<!-- How do you do a Ranked Report in Workspace?
 
-1. 生成报表，如[!UICONTROL 页面报表]（**[!UICONTROL 报表]** > **[!UICONTROL 网站内容]** > **[!UICONTROL 页面]**）。
-1.  在报表标题中，单击&#x200B;**[!UICONTROL 排名]**。
-1.  要对报表排名，单击表格的列标题。
+## Run a ranked report {#task_C570BA4A213F4F2EB7B30E012934BE7D}
 
-   排名报表的表格可列出最多 200 个项目（如产品、类别、网页等）以及十个量度（如收入、订购、查看次数等）。
+In a ranked report, the table shows the rankings of the report pages in relation to the metric, according to number or percentage. Ranked reports can display multiple metrics in a report.
 
-## 运行趋势报表 {#task_F03B4E760B9E4EA29FC3F654E6316887}
+1. Generate a report, such as a [!UICONTROL Pages Report] ( [!UICONTROL **Workspace**] > **[!UICONTROL Engagement]** > **[!UICONTROL Pages]**).
+1. In the report header, click **[!UICONTROL Ranked.]**
+1. To rank the report, click a column heading in the table.
 
-趋势报表显示特定时段的量度。要查看某个区段从特定时段到下一时段的表现，可使用该报表类型。
+   Ranked reports can have up to 200 items listed in the table (such as products, categories, web pages, and so on) and ten metrics (revenue, orders, views, and so on).
 
-多数转换和流量报表可使用趋势视图。使用[!UICONTROL 日历]，您可显示任何时段划分的改进，包括一个月中的某些天、一年中的某些周、一个季度中的某些周、一年中的某些月等等。趋势报表显示单个量度（如收入、订购、点击次数等）的趋势，最多可显示五个项目（如产品、类别、网页等）。
+-->
 
-**运行趋势报表**
+<!-- Can you do a Trended report? 
 
-1. 运行转化或流量报表，如&#x200B;**[!UICONTROL 报表]** > **[!UICONTROL 网站内容]** > **[!UICONTROL 页面]**。
-1. 在&#x200B;**[!UICONTROL 报表类型]**&#x200B;下方，单击&#x200B;**[!UICONTROL 趋势]**。
+## Run a trended report {#task_F03B4E760B9E4EA29FC3F654E6316887}
+
+Trended reports display metrics over time. You use this report type when you want to see how a segment performs from one time period to the next.
+
+Most Conversion and Traffic reports have a Trended view available. Using the [!UICONTROL Calendar], you can show improvement for any time period breakdowns, including days of a month, weeks of a year, weeks of a quarter, months of a year, and so on. Trended reports show trends for a single metric (revenue, orders, views, and so on) for up to five items (such as products, categories, web pages, and so on).
+
+**To run a trended report** 
+
+1. Run a conversion or traffic report, such as **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**.
+1. Under **[!UICONTROL Report Type]**, click **[!UICONTROL Trended.]**
+
+-->
 
 ## 运行流失报表 {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -48,20 +58,14 @@ ht-degree: 97%
 1. 在 [!UICONTROL Adobe Analytics] 中，单击&#x200B;**[!UICONTROL 报表]** > **[!UICONTROL 路径]** > **[!UICONTROL 页面]** > **[!UICONTROL 流失]**。
 1.  在[!UICONTROL 流失报表]页面上，单击&#x200B;**[!UICONTROL 启动流失 Report Builder]**。
 
-   ![步骤结果](assets/fallout_add_items.png)
-
 1.  在[!UICONTROL 定义检查点]页面上，指定要用于报表的检查点。
 1. 单击&#x200B;**[!UICONTROL 运行报告]**。
-
-   ![步骤结果](assets/fallout_report.png)
 
 ## 运行页面流量报表 {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
 页面流量报表显示访客访问页面和导航网站的顺序。此报表有助于解答相关问题。
 
-查看 [流量可视化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) 在Analysis Workspace中！
-
-例如，单击&#x200B;**[!UICONTROL 报表]** > **[!UICONTROL 路径]** > **[!UICONTROL 页面]** > **[!UICONTROL 下一页面流量]**。
+例如，单击 **[!UICONTROL 工作区]** > **[!UICONTROL 报表]** > **[!UICONTROL 参与]** > **[!UICONTROL 下一页和上一页流量]**.
 
 ## 运行营销渠道报表 {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -81,7 +85,7 @@ ht-degree: 97%
 
 实时报表提供了两个主要的报表 - 概述报表和详细信息报表。每个报表都包含许多缩图报表。
 
-参见 [实时报表概述](/help/components/c-real-time-reporting/realtime.md) 了解更多信息。
+请参阅 [实时报表概述](/help/components/c-real-time-reporting/realtime.md) 以了解更多信息。
 
 1. 了解&#x200B;**[!UICONTROL 概述]**&#x200B;报表及其组件：![](assets/rtr_overview_report.png)
 

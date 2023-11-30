@@ -5,47 +5,20 @@ uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: cf0c15c1b81a243e35fbdcf32b43a6ef4ada9649
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 91%
+source-wordcount: '686'
+ht-degree: 90%
 
 ---
 
-# 自定义报表概述
-
-{{ra-eol}}
+# 自定义报表
 
 运行报表后，您可以自定义报表，以根据需要查看和分析数据。您可以过滤报表数据，以图形方式更改数据的呈现方式，更改日期粒度等。
 
-## 创建自定义报表 {#task_BA6EACA3039C40AEA5605E1D8C76E646}
-
-您可以将报表的当前配置另存为新的自定义报表，以供所有用户查看。
-
-<!-- 
-
-t_reports_custom.xml
-
- -->
-
-只有管理员可以创建自定义报表。在创建自定义报表后，会将其添加到所依据的报表旁边的主报告菜单中。
-
-创建自定义报表:
-
-1.  运行报表并根据需要进行配置。
-1. 单击&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 创建自定义报表]**。
-1. 命名报表，然后单击&#x200B;**[!UICONTROL 保存]**。
-
-   确保与现有报表名不重复。
-
->[!MORELIKETHIS]
->
->* [菜单自定义](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html)
-
-
 ## 选择日期或日期范围 {#task_9BEF7D4D839A4748B76E8500D1406C34}
 
-您可以为报表数据选择时间段。
+您可以选择报表数据的时间段。
 
 <!-- 
 
@@ -90,13 +63,17 @@ t_reports_comparing_dates.xml
 >
 >如果您想对功能板中的关键量度执行日期比较，则可以使用两个不同的请求，将数据提取到 [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) 中。然后，可以在 Excel 中使用自定义公式来分析二者的差异。
 
-要比较“Reports &amp; Analytics”中排名报表之间的日期，请执行以下操作：
+<!-- delete this procedure, but what about this entire "Compare dates" section?
 
-1. 运行报表。
-1. 单击右上方的日历。
-1.  单击&#x200B;**[!UICONTROL 比较日期]**。
-1.  选择要使用的日期。
-1. 单击&#x200B;**[!UICONTROL 运行报告]**。
+To compare dates between ranked reports in Reports & analytics: 
+
+1. Run a report.
+1. Click the calendar at the top right.
+1. Click **[!UICONTROL Compare Dates]**.
+1. Select the dates you want to use.
+1. Click **[!UICONTROL Run Report]**.
+
+-->
 
 ## 将百分比显示为图表 {#task_BC28CA19A4834AF6BFE68B5B5AEFE75D}
 
@@ -181,7 +158,7 @@ t_reports_compare_suites.xml
 
 ## 指定报表粒度 {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
 
-您可以按小时、每天、每周、每月、季度或每年查看报表总数。
+您可以按小时、每天、每周、每月、每季度或每年查看报表总数。
 
 <!-- 
 
@@ -212,19 +189,3 @@ t_reports_day_of_week.xml
 
 1.  在指定日期范围内运行趋势报表。
 1. 单击&#x200B;**[!UICONTROL 星期]**&#x200B;链接，然后单击某一天。
-
-## “在工作区尝试”按钮 {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
-
-在 Analysis Workspace 中，单击报表顶部的&#x200B;**[!UICONTROL 在工作区尝试]**&#x200B;按钮将会加载相同的报表。
-
-<!-- 
-
-try_in_workspace.xml
-
- -->
-
-“Reports &amp; Analytics”中的大多数报表现在包括“在工作区尝试”按钮，以便您可以在 Analysis Workspace 中重现当前视图以进一步自定义报表。
-
-目前，仅当您的用户名拥有 Analysis Workspace 的完整访问权限时，该按钮才可用。
-
-有关可以自定义报表的所有方法的更多信息，请参阅 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) 指南。

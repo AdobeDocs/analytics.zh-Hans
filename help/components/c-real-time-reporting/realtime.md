@@ -4,16 +4,14 @@ title: 实时报表概述
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
+source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 100%
+source-wordcount: '582'
+ht-degree: 92%
 
 ---
 
 # 实时报表概述
-
-{{ra-eol}}
 
 实时报表可实时显示网页流量，并对页面查看次数进行排名。提供制定业务决策所需的可操作数据。
 
@@ -21,7 +19,13 @@ ht-degree: 100%
 >
 >实时报表不需要额外实施或添加标记。它可以充分利用您现有的 Adobe Analytics 实施。要配置实时报表，请参阅[实时报表配置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)。
 
-**[!UICONTROL 网站量度]** > **[!UICONTROL 实时]**
+## 访问实时报表
+
+1. 在Analysis Workspace中，选择 [!UICONTROL **工作区**] 选项卡。
+
+1. 选择 [!UICONTROL **报表**] > [!UICONTROL **参与**] > **[!UICONTROL 实时]**.
+
+## 了解实时报表
 
 实时回答以下问题：我的网站上有什么趋势，为什么？它可以让营销人员快速响应并主动管理营销内容和促销活动的表现。报告的实时数据延迟不超过两分钟，并且会每分钟自动更新。
 
@@ -55,7 +59,7 @@ ht-degree: 100%
 
 增加的滞后在所有的 Adobe Analytics 服务和工具（包括实时流和实时报表）中都有所体现，且适用于以下情况：
 
-* 对于实时流、实时报表和 API 请求，以及流量变量的当前数据，仅包含额外数据 ID 的点击会发生延迟。
+* 对于实时流、实时报表和API请求以及流量变量的当前数据，只有具有补充数据ID的点击才会延迟。
 * 对于转化量度的当前数据、最终数据和数据馈送，所有的点击都会额外延迟 5 至 7 分钟的时间。
 
 请注意，实施 Identity 服务之后，即使您还未完全实施 A4T 集成，滞后的时间也会开始增加。
