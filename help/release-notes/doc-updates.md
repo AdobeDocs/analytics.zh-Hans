@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 954af58cc2f37f3c94f62320f3706f4360872ed8
 workflow-type: tm+mt
-source-wordcount: '5323'
-ht-degree: 99%
+source-wordcount: '5424'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 99%
 
 | 功能 | 描述 |
 | --- | --- |
+| **2023 年 12 月** | |
+| 新建报表部分 | 添加了新的“报表”部分，其中包含关于 [使用预建报表](/help/analyze/analysis-workspace/reports/use-reports.md) 和 [创建和管理公司报表](/help/analyze/analysis-workspace/reports/create-company-reports.md). |
+| 异常检测和贡献分析文档的更新 | 异常检测和贡献分析的文档以前位于有关Virtual Analyst的部分。 进行了以下更改： <ul><li>术语Virtual Analyst已从文档中删除。</li><li>有关部分 [异常检测](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) 直接移动到Analysis Workspace部分下方。</li><li>贡献分析文档已合并到异常检测文档。</li></ul> |
+| “Attribution IQ”已更改为“归因” | 已将“Attribution IQ”的所有实例更改为“”[归因](/help/analyze/analysis-workspace/attribution/overview.md)”的文档内容。 |
 | **2023 年 11 月** | |
 | 更新了 Activity Map 激活/启用主题 | 添加了 [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=zh-Hans)（手动和通过 Adobe Experience Platform 标记扩展）内容。 |
 | **2023 年 10 月** | |
