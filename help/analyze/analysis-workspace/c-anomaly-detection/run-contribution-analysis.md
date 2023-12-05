@@ -5,7 +5,7 @@ role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '588'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 运行贡献分析
 
-[贡献分析是一个密集型计算机学习过程，专为揭示导致 Adobe Analytics 中所发现异常的因素而设计。](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)它旨在帮助用户以远快于其他方式的速度找到执行进一步分析的焦点领域或时机。
+[贡献分析](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)是一个密集型机器学习过程，旨在揭示导致在 Adobe Analytics 中观察到异常的各项因素。意图在于协助用户以远快于其他方式的速度找到焦点领域或时机以供进行其他分析。
 
 ## 运行贡献分析 {#section_7D2C5E48A5664727941DF4C90976D9DC}
 
