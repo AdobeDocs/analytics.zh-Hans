@@ -5,9 +5,9 @@ feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
 source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -67,9 +67,9 @@ ht-degree: 97%
 
    * 与预期值相差（高出或低于）的百分比，该值由绿色实线表示。
 
-   * 用于启动贡献分析的分析链接
+   * 用于开始贡献分析的“分析”链接
 
-     (请参阅 [异常检测概述](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) 以了解更多信息。)
+     （请参阅[异常检测概述](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)以了解详情。）
 
 
 
