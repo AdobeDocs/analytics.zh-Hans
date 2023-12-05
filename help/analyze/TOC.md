@@ -6,8 +6,8 @@ breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 功能板、Report Builder 和 Activity Map。
 source-git-commit: 2aaf06d76e6b5e22d1f7a6713ff146ca9a897a55
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 99%
+source-wordcount: '1084'
+ht-degree: 98%
 
 ---
 
@@ -149,7 +149,7 @@ ht-degree: 99%
       + [在 Analysis Workspace 中查看异常](analysis-workspace/c-anomaly-detection/view-anomalies.md)
       + [关闭异常检测](analysis-workspace/c-anomaly-detection/anomaly-detection-turnoff.md)
       + [运行贡献分析](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
-      + [异常检测中使用的统计技术](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
+      + [在异常检测中使用的统计方法](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
       + 智能警报 {#intelligent-alerts}
          + [智能警报概述](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
          + [警报生成器](analysis-workspace/c-intelligent-alerts/alert-builder.md)
@@ -178,7 +178,7 @@ ht-degree: 99%
       + [创建数据请求](report-builder/data-requests/t-create-a-data-request.md)
       + 报告包 {#report-suites}
          + [选择某个报告包](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
-         + [选择某个报告包从 Excel 中的现有请求](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
+         + [在 Excel 中通过现有请求选择报表包](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [使用 Excel 查找报告包 ID](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [管理区段](report-builder/data-requests/segmentation.md)
       + 报告类型 {#report-types}
