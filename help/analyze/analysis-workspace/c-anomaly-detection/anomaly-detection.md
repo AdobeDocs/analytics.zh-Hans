@@ -5,21 +5,21 @@ feature: Anomaly Detection
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1402'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # 异常检测概述
 
-您可以在 Analysis Workspace 中根据上下文查看和分析数据异常。贡献分析与异常检测结合使用，以帮助识别导致异常的原因。
+您可以在 Analysis Workspace 中根据上下文查看和分析数据异常。贡献分析与异常检测配合工作以帮助确定导致异常的原因。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25444/?quality=12)
 
 >[!IMPORTANT]
 >
->Adobe Analytics Select和Adobe Analytics Foundation客户只能访问Workspace中的“每日粒度”异常检测。 有关更多信息，请参阅[异常检测和贡献分析授权](#anomaly-detection-and-contribution-analysis-entitlements)。
+>Adobe Analytics Select 和 Adobe Analytics Foundation 客户只能访问 Workspace 中的“每日粒度”异常检测。有关更多信息，请参阅[异常检测和贡献分析授权](#anomaly-detection-and-contribution-analysis-entitlements)。
 
 ## 异常检测
 
@@ -36,7 +36,7 @@ ht-degree: 97%
 * 视频缓冲事件剧增
 * 低视频比特率剧增
 
-异常检测和[贡献分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=zh-Hans)是 Analysis Workspace 中的核心工作流程。您可以针对任何每日异常运行“贡献分析”，并将结果嵌入到您的 Analysis Workspace 项目中。
+异常检测和[贡献分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)是 Analysis Workspace 中的核心工作流程。您可以针对任何每日异常运行“贡献分析”，并将结果嵌入到您的 Analysis Workspace 项目中。
 
 Analysis Workspace 的异常检测算法包括
 
