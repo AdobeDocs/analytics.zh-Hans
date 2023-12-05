@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8261'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 99%
 | 功能 | 描述 |
 |--- |--- |
 | 归因：算法归因 | Analysis Workspace 中的“算法归因”模型可使用统计技术动态确定所选量度的最佳点数分配方式。适用于 Adobe Analytics Ultimate 客户。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=zh-Hans) |
-| 归因：自定义回顾时间范围 | 现在，您可以将“归因 ”中的任意归因模型配置为最多包含在报告期开始前的 90 天内的接触点。通过计算在之前月份发生的交互，通常可以提高在报告期初期所发生事件的归因准确性。适用于 Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete 和 Ultimate 客户。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=zh-Hans#lookback-windows) |
+| 归因：自定义回溯时段 | 现在可在归因中配置任何归因模型以使其包括报告时段之前最多 90 天内的接触点。通过计算在之前月份发生的交互，通常可以提高在报告期初期所发生事件的归因准确性。适用于 Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete 和 Ultimate 客户。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=zh-Hans#lookback-windows) |
 | 共享工作区项目中的项目角色 | 在共享工作区项目时，现在可根据要让接收方获得的项目体验为其赋予三个项目角色之一：“编辑”、“复制”和“查看”。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans) |
 | 仅查看的工作区项目 | 只能以“可查看”的形式与用户共享 Workspace 项目。当具有查看角色的收件人打开共享项目时，他们将会获得较为受限的项目体验，即，无左边栏而且只能进行有限的交互。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=zh-Hans) |
 | 能够共同编辑工作区项目 | 添加到“可编辑”角色的收件人可以保存已共享给他们的项目。这同时适用于管理员和非管理员用户。[了解详情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans) |
@@ -187,7 +187,7 @@ ht-degree: 99%
 |--- |--- |
 | [同类群组分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 对同类群组分析进行重大改进后，您能够：<ul><li>应用区段包含并单独返回量度。 </li><li>显示流失率而不是保留率。</li><li>显示延时表（包含事件之前和之后经过的时间）。</li><li>自定义同类群组维度（根据 eVar 而不只是时间对访客进行分组）。</li><li>进行滚动式同类群组计算：根据先前的时间段而不是原始同类群组来计算维系率/流失率。 </li><li>将多个量度添加到包含和回访字段中，并应用区段。（不支持计算量度）</li></ul> |
 | [视图密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 此新设置可减少左边栏、自由格式表和同类群组表中的垂直边距，从而使您能够在单个屏幕上查看更多数据。可通过项目 > 项目信息和设置进行访问。 |
-| [在归因 中支持多值变量](/help/analyze/analysis-workspace/attribution/overview.md) | Analytics 中的某些维度可以在单次点击中包含多个值，例如 listVar、产品变量、列表属性或推销 eVar。Analysis Workspace 允许您在点击级别将 Attribution 应用于任何此类变量。 |
+| [在归因中支持多值变量](/help/analyze/analysis-workspace/attribution/overview.md) | Analytics 中的某些维度可以在单次点击中包含多个值，例如 listVar、产品变量、列表属性或推销 eVar。Analysis Workspace 使您可将归因应用于点击级别的任何此类变量。 |
 | 性能改进 | 提高了划分可视化图表的速度 — 具有大量划分的项目将能更快加载。 |
 
 ## 2018 年 11 月
@@ -271,7 +271,7 @@ ht-degree: 99%
  <tbody>
   <tr>
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/attribution/overview.md"  > 归因 </a> </b> </p> </td>
-   <td colname="col2"> <p>借助“归因 ”，您可以对营销效果进行更复杂、更智能的分析。新的归因模型可用于 Analysis Workspace（在任何表格或任何划分中）和计算量度中的量度。新的归因面板可提供更好的可视化图表和比较。 </p> </td>
+   <td colname="col2"> <p>通过归因，可对营销表现执行更先进和智能的分析。新的归因模型可用于 Analysis Workspace（在任何表格或任何划分中）和计算量度中的量度。新的归因面板可提供更好的可视化图表和比较。 </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p><b> 改进左边栏 </b> </p> </td>
@@ -1032,7 +1032,7 @@ ht-degree: 99%
 2016 年 6 月 16 日发布的新功能：
 
 * [新的组权限](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=zh-Hans)让管理员可以允许或拒绝用户访问 **[!UICONTROL Analytics]** > **[!UICONTROL 工作区]**&#x200B;选项卡。自 2016 年 6 月 16 日开始，所有用户都将拥有访问此选项卡的权限。要拒绝访问，只需要从“Analysis Workspace 访问”组中删除用户即可。
-*  [区段比较面板](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)通过自动分析您有权访问的每个量度和维度，可发现任意两个区段之间的最显著统计学差异。
+* [区段比较面板](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)通过自动分析您有权访问的每个量度和维度，可发现任意两个区段之间的最显著统计学差异。
 * [新的项目菜单结构](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)重新排列了顶部菜单，提高了其可扩展性。例如，创建&#x200B;**新同类群组面板**&#x200B;的过程现在包括创建一个空白面板和拖入一个同类群组表可视化图表。
 * [新的左边栏](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：面板、可视化图表、组件
 * 新的[维恩图可视化图表类型](/help/analyze/analysis-workspace/visualizations/venn.md)允许您最多拖入 3 个区段和一个量度以构建维恩图。
