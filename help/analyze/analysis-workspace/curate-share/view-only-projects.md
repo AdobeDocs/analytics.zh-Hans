@@ -5,16 +5,18 @@ title: 仅供查看的项目
 feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 0885ff8e13675a986f5c40396a14f9edecaa753d
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 82%
+source-wordcount: '238'
+ht-degree: 75%
 
 ---
 
 # 仅供查看的项目
 
-您可以通过[项目共享工作流程](/help/analyze/analysis-workspace/curate-share/share-projects.md)与收件人共享“仅查看”项目。处于“可以查看”角色的收件人将获得更有限的项目体验。如果您要将项目共享给不太熟悉您组织的数据结构(通常为Analysis Workspace或Adobe Analytics)的用户，但您仍希望他们在安全的环境中使用数据和分析，则可能需要这样做。
+您可以通过[项目共享工作流程](/help/analyze/analysis-workspace/curate-share/share-projects.md)与收件人共享“仅查看”项目。处于“可以查看”角色的收件人将获得更有限的项目体验。如果您将项目共享给不太熟悉您组织的数据结构(通常情况下是Analysis Workspace或Adobe Analytics)的用户，但仍希望他们在安全的环境中使用数据和见解，则可能希望这样做。
+
+请注意，即使是在仅查看项目中，您也可以编辑面板日历日期范围。
 
 ![](assets/view-only-project.png)
 
@@ -28,7 +30,6 @@ ht-degree: 82%
 
 * 隐藏的左边栏
 * 报表包
-* 面板日历日期范围。注意：如果要向收件人授予日历控制权，请添加[包含日期范围的下拉过滤器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hans)。
 * 自由格式过滤
 * 自由格式的可见行数
 * 自由格式的行、列或可视化图表设置
