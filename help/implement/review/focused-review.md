@@ -3,26 +3,26 @@ title: 重点审查（每个网站发布后）
 description: 按照以下步骤操作以确保您的实施无误并与 KPI 保持一致。
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 89088d11846e2d3eac83a834658e4755141655e5
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 100%
+source-wordcount: '491'
+ht-degree: 74%
 
 ---
 
 # 重点审查（每个网站发布后）
 
-为何要每几个月审查一次您的实施？这样您可以在数据存在的任何质量问题还是小问题时解决它们。如果您在每个网站发布后都能坚持进行这种“重点审查”，您会发现一年两次的[全面审查](/help/implement/review/full-review.md)会更加容易。您还将防止小问题演变成可能会削弱利益相关者信心的大数据问题。
+为何要每几个月审查一次您的实施？这样您可以在数据存在的任何质量问题还是小问题时解决它们。如果您在每个网站发布后都能坚持进行这种“重点审查”，您会发现一年两次 [全面审核](/help/implement/review/full-review.md) 简单多了。 您还将防止小问题演变成可能会削弱利益相关者信心的大数据问题。
 
 ## 1. 首先检查您的 5 项 KPI
 
-了解您的 5 项关键绩效指标 (KPI)，将有助于确定您需要检查的相关量度和维度。如果您在过去 6 个月内未刷新 KPI，或者如果您的企业尚未创建 KPI，请按照[这些说明](/help/implement/review/define-kpis.md)操作。
+了解您的 5 项关键绩效指标 (KPI)，将有助于确定您需要检查的相关量度和维度。如果您在过去6个月内未刷新KPI，或者如果您的企业尚未创建KPI，请关注 [这些说明](/help/implement/review/define-kpis.md).
 
 ## 2. 确保 KPI 量度和变量仍能正常运行
 
-请记住，随着时间的推移，代码更新可能会产生意想不到的结果。您需要确保与 [5 大 KPI](/help/implement/review/define-kpis.md) 相关的所有量度和维度仍然正常运行。 理想情况下，此操作在网站发布后立即执行；如果您在最近几个月内未执行此操作，请&#x200B;*立即*&#x200B;执行。请按以下步骤执行此操作：
+请记住，随着时间的推移，代码更新可能会产生意想不到的结果。您需要确保与 [5 大 KPI](/help/implement/review/define-kpis.md) 相关的所有量度和维度仍然正常运行。 理想情况下，此操作在网站发布后立即执行；如果您在最近几个月内未执行此操作，请执行此操作 *现在*. 请按以下步骤执行此操作：
 
-* 创建功能板，以查看这些关键量度和变量每小时的趋势视图（或为每个量度设置[智能警报](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace)）。然后，对其进行一到两天的监控，确保您能获得所需数据并且数据正确。寻找拐点。准备好立即纠正任何严重问题。如果发现任何误差，请查看数据层、标签管理器规则及处理规则，并找出原因。
+* 创建功能板，以查看这些关键量度和变量每小时的趋势视图（或为每个量度设置[智能警报](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html)）。然后，对其进行一到两天的监控，确保您能获得所需数据并且数据正确。 寻找拐点。准备好立即纠正任何严重问题。如果发现任何误差，请查看数据层、标签管理器规则及处理规则，并找出原因。
 * 重新运行 [Analytics 运行状况功能板](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252)，以监控 KPI 量度和变量的总体趋势。
 
 *有关如何确保量度和变量正常工作的更多详细信息，[请参阅 ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608)Adobe Analytics 冠军 Sarah Owen 给出的这些提示。*
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 如果您最近添加或更改了任何量度或变量，您需要更新业务需求文档 (BRD) 和解决方案设计参考 (SDR)。
 
-如果您没有实施文档，请导出一个变量列表，并使用[此模板](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation?lang=zh-Hans)创建 BRD 或 SDR。
+如果您没有实施文档，请导出一个变量列表，并使用创建BRD或SDR [此模板](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation?lang=zh-Hans).
 
 ## 5. 立即解决您在数据质量方面发现的任何不足
 

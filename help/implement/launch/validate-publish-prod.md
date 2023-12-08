@@ -3,10 +3,10 @@ title: 验证开发实施并发布到生产环境
 description: 了解如何使用 Adobe Experience Platform 标记将 Adobe Analytics 部署到生产环境。
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 89088d11846e2d3eac83a834658e4755141655e5
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 91%
+source-wordcount: '622'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 91%
 
 Experience Cloud Debugger 是一个可显示页面上存在的所有 Experience Cloud 标记的扩展。
 
-1. 为 [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 或 [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/adobe-experience-platform-dbg/) 安装此扩展。
+1. 为以下任一对象安装扩展： [铬黄](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 或Firefox。
 2. 导航到已实施标记的开发网站。
 3. 单击浏览器中的 Adobe Experience Cloud Debugger 图标。
 4. 如果一切都已正确实施，则应会看到 Adobe Analytics、标记和 Adobe Experience Cloud 访客 ID 服务中的内容。
@@ -35,10 +35,10 @@ Experience Cloud Debugger 是一个可显示页面上存在的所有 Experience 
 1. 单击要在网站上实施的标记属性。
 1. 单击&#x200B;**[!UICONTROL 发布]**&#x200B;选项卡，并在开发列中找到您的库。
 1. 单击库上的下拉列表，然后选择 **[!UICONTROL 提交以供审批]**. 在模态窗口中单击&#x200B;**[!UICONTROL 提交]**。
-1. 再次单击库的下拉列表（现在位于“已提交”列中），然后选择 **[!UICONTROL 为暂存环境构建]**.
+1. 再次单击库的下拉列表（现在位于“已提交”列中），然后选择 **[!UICONTROL 为暂存构建]**.
 1. 片刻后，库上的黄色指示灯变为绿色，表示已成功构建。
-1. 再次单击库的下拉列表，然后选择 **[!UICONTROL 批准发布]**.
-1. 再次单击库的下拉列表(现在位于 [!UICONTROL 已批准] 列)，然后选择 **[!UICONTROL 构建并发布到生产环境]**.
+1. 再次单击库的下拉列表，然后选择 **[!UICONTROL 批准以发布]**.
+1. 再次单击库的下拉列表(现在位于 [!UICONTROL 已批准] 列)，并选择 **[!UICONTROL 构建并发布到生产环境]**.
 1. 转到“环境”选项卡，单击&#x200B;**[!UICONTROL 生产环境]**。
 1. 复制生产安装代码块并将其提供给网站所有者。请求他们在网站的生产环境中实施此代码。
 

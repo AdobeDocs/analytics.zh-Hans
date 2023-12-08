@@ -3,16 +3,16 @@ title: 全面审查
 description: 每 6 个月对您的实施进行一次审查，以确保实施与业务需求和 KPI 始终保持一致。
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 89088d11846e2d3eac83a834658e4755141655e5
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 100%
+source-wordcount: '385'
+ht-degree: 80%
 
 ---
 
 # 全面审查（用于每年两次审查实施）
 
-为何要每 6 个月审查一次您的实施？因为您需要确保您的实施与业务需求保持一致！ 同时，您要在数据存在的任何质量问题还是小问题，并未演变成可能会削弱利益相关者信心的主要数据问题时解决它们。除了每 6 个月进行一次全面审查外，您还应在每个网站发布后执行[重点审查](/help/implement/review/focused-review.md)。
+为何要每 6 个月审查一次您的实施？因为您需要确保您的实施与业务需求保持一致！ 此外，您还希望在数据存在的任何质量问题还是小问题，并未演变成可能会削弱利益相关者信心的主要数据问题时解决它们。 除了每 6 个月进行一次全面审查外，您还应在每个网站发布后执行[重点审查](/help/implement/review/focused-review.md)。
 
 ## 1. 确保您的实施仍然完全符合我们的业务需求
 
@@ -22,10 +22,10 @@ ht-degree: 100%
 
 按照对业务的重要程度，简要对所有的量度和变量进行审查，以确保正确地收集数据。从最关键的量度和变量开始 – 与 [5 大 KPI](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html#review?lang=zh-Hans) 相关的量度和变量。请按以下步骤执行此操作：
 
-* 创建功能板以查看这些关键量度和变量每月的趋势视图（或为每个量度和变量设置[智能警报](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace)），确保您能获得所需数据并且数据正确。如果发现任何误差，请检查数据层、标签管理器规则及处理规则，并找出原因。
+* 创建功能板以查看这些关键量度和变量每月的趋势视图(或设置 [智能警报](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) ，确保您能获得所需数据并且数据正确。 如果发现任何误差，请检查数据层、标签管理器规则及处理规则，并找出原因。
 * 重新运行 [Analytics 运行状况功能板](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252)，以监控量度和变量的总体趋势。
 
-不要让您的实施充斥着不需要的量度和变量。禁用企业不再需要或使用的量度或变量。您可能需要稍后将其删除或重新设定其用途。
+不要让您的实施充斥着不需要的量度和变量。 禁用企业不再需要或使用的量度或变量。您可能需要稍后将其删除或重新设定其用途。
 
 ## 3. 刷新 KPI
 
