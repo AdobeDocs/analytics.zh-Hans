@@ -3,10 +3,10 @@ description: 顺序区段使用 THEN 运算符（而非 AND 或 OR）创建。TH
 title: 生成顺序区段
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: c1584e4a304cfa04ae167084466322bcf58387dd
 workflow-type: tm+mt
-source-wordcount: '3827'
-ht-degree: 100%
+source-wordcount: '3879'
+ht-degree: 97%
 
 ---
 
@@ -181,11 +181,11 @@ ht-degree: 100%
 
 例如：
 
-* **排除页面**。使用区段规则从报告中排除特定页面（如 *`Home Page`*），创建页面等于“Home Page”的点击规则，然后将其排除。此规则自动包括 Home Page 以外的所有值。
+* **排除页面**。使用区段规则从报告中排除特定页面(如 *`Home Page`*)，创建页面等于“Home Page”的点击规则，然后将其排除。 此规则自动包括 Home Page 以外的所有值。
 * **排除反向链接域**。使用仅包括 Google.com 中的反向链接域并排除所有其他域的规则。
 * **确定非顾客**。确定订单大于零的[!UICONTROL 访客]，然后将其排除。
 
-可以使用 [!UICONTROL Exclude] 运算符确定访客没有执行特定访问或点击的序列。[!UICONTROL 排除检查点]也可以包含在[逻辑组](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)中。
+可以使用 [!UICONTROL Exclude] 运算符确定访客没有执行特定访问或点击的序列。[!UICONTROL 排除检查点] 也可包含在 [逻辑组](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 
 ### 检查点之间排除
 
@@ -210,7 +210,7 @@ ht-degree: 100%
 
 如果排除检查点位于顺序区段开头，则它确保排除的页面查看不会位于第一个非排除的点击前面。
 
-例如，餐馆想要查看避开主登录页面，直接转到 Order Out 页面的铁杆用户。 此示例可以简化为访客避免访问页面 A 并直接访问页面 B。
+例如，餐厅想要查看倾向于避开主登陆页面直接转到“下单”页面的用户。 您可以查看此数据，方法是在一个顺序区段中排除对登陆页面的点击，并包括对“下订单”页面的点击。
 
 **创建此区段**
 
