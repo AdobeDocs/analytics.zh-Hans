@@ -1,18 +1,18 @@
 ---
-description: 有关如何在Analysis Workspace中使用默认报表的概述。
-title: 使用报表
+description: 概述如何在 Analysis Workspace 中使用默认报告。
+title: 使用报告
 feature: Analysis Workspace
 role: User, Admin
 source-git-commit: 7132cd4cbbb79a4240a5d0b65844343284de2123
-workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 82%
+workflow-type: ht
+source-wordcount: '357'
+ht-degree: 100%
 
 ---
 
-# 创建和管理公司报表
+# 创建和管理公司报告
 
-您可以创建自定义报表并将其保存以供登录公司中的其他人使用。 创建项目时，可以选择公司报表，如中所述 [从空白项目或报表创建项目](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#create-a-project-from-a-blank-project-or-a-report) 在这篇文章中， [在Analysis Workspace中创建项目](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+您可以创建自定义报告并将其保存以供登录公司中的其他人使用。创建项目时可以选择公司报告，如文章[在 Analysis Workspace 中创建项目](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)一文中的[从空白项目或报告中创建项目](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#create-a-project-from-a-blank-project-or-a-report)所述。
 
 ## 创建自定义公司报告
 
