@@ -3,16 +3,16 @@ title: 在 Adobe Analytics 中删除机器人
 description: 如何删除 Adobe Analytics 中的机器人
 feature: Bot Removal
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: 6c856d078becea69bcb8ae0ec30c473e273b34b2
+source-git-commit: 59d4ade5e16fdd8c9cea266b7c352ce2057381d9
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 84%
+source-wordcount: '763'
+ht-degree: 81%
 
 ---
 
 # 在 Adobe Analytics 中删除机器人
 
-在 Adobe Analytics 中，您可以使用多个选项从报表中删除机器人流量：
+Adobe Analytics提供了多个用于从报表中删除机器人流量的选项：
 
 ## 使用机器人规则
 
@@ -23,7 +23,7 @@ ht-degree: 84%
 | 标准 IAB 机器人规则 | 选择&#x200B;**[!UICONTROL 启用 IAB 机器人过滤规则]**&#x200B;可使用 [IAB ](https://www.iab.com/)的（国际广告局的）国际蜘蛛程序和机器人列表来删除机器人流量。大多数客户至少都会选择此选项。 |
 | 自定义机器人规则 | 您可以根据用户代理、IP 地址或 IP 范围定义和添加自定义的机器人规则。 |
 
-有关详细信息，请参阅[机器人规则概述](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)。
+有关更多详细信息，请参阅 [了解和配置机器人规则](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
 
 ## 使用 [!UICONTROL websiteBot] 插件识别机器人
 

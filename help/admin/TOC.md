@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报告包等等。
-source-git-commit: 0e03379550808e5be3e86f0f9ddbbedd026d4910
+source-git-commit: 59d4ade5e16fdd8c9cea266b7c352ce2057381d9
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 97%
+source-wordcount: '641'
+ht-degree: 94%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 97%
                + [处理规则的提示和技巧](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
             + 机器人规则 {#bot-removal}
                + [机器人移除](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
-               + [机器人规则概述](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
+               + [了解和配置机器人规则](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
                + [常见的机器人签名](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
                + [机器人排除法](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
             + [隐私设置](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
@@ -178,7 +178,7 @@ ht-degree: 97%
       + [服务器调用使用情况常见问题解答](admin/c-server-call-usage/overage-faq.md)
    + 用户和产品管理（旧版）{#user-product-management}
       + [用户和产品管理（旧版）](admin/user-management2/user-management.md)
-      + [转移用户资源或设置帐户到期日期](admin/user-management2/users-assets.md)
+      + [转移用户资产或设置帐户有效期](admin/user-management2/users-assets.md)
       + 将用户迁移到 Adobe Admin Console {#migrate-users}
          + [将 Analytics 用户迁移到 Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
          + [为 Adobe ID 迁移 Analytics 用户帐户](admin/user-management2/user-migration/t-migrate-users.md)
