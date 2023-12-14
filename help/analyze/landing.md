@@ -5,9 +5,9 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: 7132cd4cbbb79a4240a5d0b65844343284de2123
-workflow-type: tm+mt
-source-wordcount: '2196'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '2171'
+ht-degree: 100%
 
 ---
 
@@ -114,9 +114,9 @@ Adobe Analytics 的登陆页面将 [!DNL Analysis Workspace] 与 [!DNL Reports &
 
 ![“报告”选项卡](assets/reports-tab2.png)
 
-有关Analysis Workspace中“报表”选项卡的更多信息，包括查看和保存报表，请参阅 [使用预建报表](/help/analyze/analysis-workspace/reports/use-reports.md).
+有关 Analysis Workspace 中“报告”选项卡的详细信息（包括查看和保存报告），请参阅[使用预建报告](/help/analyze/analysis-workspace/reports/use-reports.md)。
 
-有关创建和管理自定义公司报表的信息，请参阅 [创建和管理公司报表](/help/analyze/analysis-workspace/reports/create-company-reports.md).
+有关创建和管理自定义公司报告的信息，请参阅[创建和管理公司报告](/help/analyze/analysis-workspace/reports/create-company-reports.md)。
 
 ## 使用“学习”选项卡 {#navigate-learning}
 
