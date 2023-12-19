@@ -3,10 +3,10 @@ description: 顺序区段使用 THEN 运算符（而非 AND 或 OR）创建。TH
 title: 生成顺序区段
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: c1584e4a304cfa04ae167084466322bcf58387dd
+source-git-commit: 0fd1f7a9dd876eef02dd6dbf9e40426b0acdbc17
 workflow-type: tm+mt
-source-wordcount: '3879'
-ht-degree: 97%
+source-wordcount: '3934'
+ht-degree: 96%
 
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 97%
 在创建一个设置了“包含每个人”的区段时，该区段能够识别匹配整个给定模式的路径。这是一个基本的序列区段示例，用于查找同一访客访问的一个点击（页面 A）及下一个点击（页面 B）。将区段设置为“包含每个人”。
 
 ![](/help/admin/admin/assets/filter.png)
+![70a875e2-0ef9-4459-8648-77c60081d64d](https://git.corp.adobe.com/storage/user/5902/files/d55be11f-4c4c-4198-bba5-ecad27ebcabf)
 
 | 如果结果为... | 序列 |
 |--- |--- |
@@ -342,6 +343,16 @@ ht-degree: 97%
 ![](assets/then_within_operators.png)
 
 您可以使用 [!UICONTROL Within] 和 [!UICONTROL After] 容器并指定粒度和计数，以将匹配限制为指定的持续时间。[!UICONTROL Within] 运算符用于指定两个检查点之间的时间长度的最大限制。[!UICONTROL After] 运算符用于指定两个检查点之间的时间长度的最小限制。
+
+>[!NOTE]
+>
+>在类似命名的元素之间求值存在差异，例如 **天** 或 **天**. 对于Within和After的基于时间的定义，利用弹出窗口中列出的第一个选项：
+>
+>![图像](https://git.corp.adobe.com/storage/user/5902/files/70a875e2-0ef9-4459-8648-77c60081d64d)
+>
+>对于“之内”和“之后”的基于维度的定义，利用子菜单下的选项 *其他Dimension*：
+>
+>![图像](https://git.corp.adobe.com/storage/user/5902/files/b808eeb0-5e3f-499b-8096-c7eb0d51c57a)
 
 ### After 和 Within 运算符 {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
