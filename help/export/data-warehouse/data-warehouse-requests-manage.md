@@ -4,21 +4,14 @@ title: 管理 Data Warehouse 请求
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 195750917731602ffd3a32f5216db8fe1b174cc0
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 13%
+source-wordcount: '1088'
+ht-degree: 4%
 
 ---
 
 # 管理 Data Warehouse 请求
-
-{{release-limited-testing}}
-
->[!NOTE]
->
->如果您的组织尚不具有即将面向所有客户提供的新Data Warehouse体验，请使用以下位置的信息： [管理Data Warehouse请求（旧体验）](#manage-data-warehouse-requests-old-experience) ，位于本页底部。
-
 
 您可以查看和管理已发出的Data Warehouse请求。 只有管理员才能查看和管理组织中其他用户发出的请求。
 
@@ -93,9 +86,9 @@ ht-degree: 13%
    | [!UICONTROL **完成日期**] | 报表完成的日期和时间。<p>以发起请求的用户的时区显示。</p> |
    | [!UICONTROL **更新日期**] | 上次更新报告的日期和时间。<p>以发起请求的用户的时区显示。</p> |
    | [!UICONTROL **状态**] | 报告投放的状态。 可能的状态是：<ul><li>[!UICONTROL **已创建**]：报告已创建，但尚未处理。</li><li>[!UICONTROL **待处理**]：报表正在等待处理。</li><li>[!UICONTROL **正在处理**]：报表当前正在处理。</li><li>[!UICONTROL **已完成**]：报表已完成，现已可用。</li><li>[!UICONTROL **已计划**]：报告已计划但尚未开始。</li><li>[!UICONTROL **已取消**]：用户已取消报告。</li><li>[!UICONTROL **错误 — 正在处理**：] 报告遇到错误，无法处理。</li><li>[!UICONTROL **错误 — 发送失败**]：报告生成成功，但无法提交。 查看 [目标的配置](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)，然后重新发送报表。</li></ul>。 |
-   | [!UICONTROL **From**] | 报表中包含的整体时间范围的开始日期。<p>它以报表包的时区显示。</p> |
+   | [!UICONTROL **从**] | 报表中包含的整体时间范围的开始日期。<p>它以报表包的时区显示。</p> |
    | [!UICONTROL **至**] | 报告中包含的整体时间范围的结束日期。 <p>它以报表包的时区显示。</p> |
-   | [!UICONTROL **旧请求 ID**] | 用于在旧版Data Warehouse界面中标识报表的ID。 联系Adobe客户关怀团队时可能需要此ID。 |
+   | [!UICONTROL **旧版请求ID**] | 用于在旧版Data Warehouse界面中标识报表的ID。 联系Adobe客户关怀团队时可能需要此ID。 |
    | [!UICONTROL **报告ID**] | 用于在当前Data Warehouse界面中标识报表的ID。 联系Adobe客户关怀团队时可能需要此ID。 |
 
 
@@ -179,31 +172,3 @@ ht-degree: 13%
 1. 在“Data Warehouse”页顶部的“搜索”字段中，指定要查看的请求名称。
 
    请求会在您键入内容时进行过滤。
-
-## 管理Data Warehouse请求（旧体验）
-
->[!NOTE]
->
->以下信息仅适用于贵组织尚不具有新Data Warehouse体验的情况，该体验很快将适用于所有Analytics客户。
-
-
-请求管理器允许您查看和复制请求，并重新安排请求的优先级。
-
-在 Data Warehouse 中，选择&#x200B;**[!UICONTROL 请求管理器]**&#x200B;选项卡。
-
-使用此选项卡，您可以
-
-* 按报表名称、应用的区段、请求者、请求日期和状态查看最近的报表请求。
-* 复制请求。单击请求旁边的&#x200B;**[!UICONTROL 复制]**。
-
-  >[!NOTE]
-  >
-  >此操作只会复制请求，而不会复制计划或提交详细信息。
-
-* 按报表名称或请求者的登录名搜索报表。
-* 通过将报表拖放到队列中的新位置，重新安排报表的优先级。
-* 要查看请求开始处理的时间，请单击计划请求 ID，然后检查打开的弹出窗口。
-
-单击某个作业可查看该作业的单个请求。
-
-* 比率限制：您的组织有太多正在运行的Data Warehouse请求。 请求将暂停，直到其他数据请求完成。
