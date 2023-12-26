@@ -7,7 +7,7 @@ user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Wo
 source-git-commit: 2aaf06d76e6b5e22d1f7a6713ff146ca9a897a55
 workflow-type: tm+mt
 source-wordcount: '1084'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -45,8 +45,8 @@ ht-degree: 98%
       + [调色板](analysis-workspace/build-workspace-project/color-palettes.md)
       + [视图密度](analysis-workspace/build-workspace-project/view-density.md)
    + 报告 {#reports}
-      + [使用预建报表](analysis-workspace/reports/use-reports.md)
-      + [创建和管理公司报表](analysis-workspace/reports/create-company-reports.md)
+      + [使用预建报告](analysis-workspace/reports/use-reports.md)
+      + [创建和管理公司报告](analysis-workspace/reports/create-company-reports.md)
    + 组件 {#components}
       + [组件概述](analysis-workspace/components/analysis-workspace-components.md)
       + [添加组件描述](analysis-workspace/components/add-component-descriptions.md)
