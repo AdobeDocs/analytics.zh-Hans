@@ -3,10 +3,10 @@ title: 页面事件
 description: 触发的链接跟踪操作数量。
 feature: Metrics
 exl-id: 1afe86e3-65b3-4e4e-b436-ed7cb5da9641
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a7434f72159a575f9ad7bf29644cb17777382df7
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 50%
+source-wordcount: '146'
+ht-degree: 40%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 50%
 
 ## 如何计算此量度
 
-此量度计算所有 [链接跟踪调用(`tl()`)](/help/implement/vars/functions/tl-method.md) 在报表包中。 包括所有链接类型（自定义链接、下载链接和退出链接）。它不包括 [页面查看跟踪调用(`t()`)](/help/implement/vars/functions/t-method.md).
+此量度计算所有 [链接跟踪调用(`tl()`)](/help/implement/vars/functions/tl-method.md) 在报表包中。 此量度包括所有链接类型，特别是 [自定义链接](../dimensions/custom-link.md)， [下载链接](../dimensions/download-link.md)、和 [退出链接](../dimensions/exit-link.md). 它不包括 [页面查看跟踪调用(`t()`)](/help/implement/vars/functions/t-method.md).
 
 ## 与类似指标比较
 

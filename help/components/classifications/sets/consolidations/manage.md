@@ -1,22 +1,22 @@
 ---
 title: 分类设置合并管理器
 description: 将一个或多个分类集合并到单个分类集中。
-exl-id: 032e93f6-9c11-4522-a02e-376eb4fd98bf
+exl-id: 0be97ca4-56c3-4642-9347-924812e88e8c
 feature: Classifications
-source-git-commit: c697530103ea7cd279cc3560c1daec796759e7a1
+source-git-commit: 5c2643a143e5c8e17fcf11cfa2da81183bc5c39a
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 5%
+source-wordcount: '267'
+ht-degree: 6%
 
 ---
 
 # 分类集合并管理器
 
-如果您有多个包含相似数据的分类集，则可以将它们合并到单个分类集中。 合并两个或多个分类集时，Adobe会生成一个新的分类集，其中包含来自每个单独分类集的所有分类数据。 如果您将数据上传到多个报告包或包含相同分类数据的维度，并且希望将它们合并到单个工作流中，合并会很有用。
+如果您有多个分类集包含相似数据，则可以将它们合并到单个分类集中。 合并两个或多个分类集时，Adobe会生成一个新的分类集，其中包含来自每个单独分类集的所有分类数据。 当您将数据上传到多个报表包或维度且这些报表包或维度包含相同的分类数据并希望将它们合并到单个工作流中时，合并很有用。 您必须具有Adobe Analytics的产品管理员访问权限才能查看分类集合并管理器。
 
 **[!UICONTROL 组件]** > **[!UICONTROL 分类集]** > **[!UICONTROL 合并]**
 
-运行合并后，将删除原始分类集，合并的分类集将取代原始分类集。 单击 **[!UICONTROL 添加]** 到 [创建整合](process.md).
+运行合并后，将删除原始分类集，合并的分类集将替换它们。 单击 **[!UICONTROL 添加]** 到 [创建合并](process.md).
 
 ## 筛选分类集
 
@@ -24,10 +24,10 @@ ht-degree: 5%
 
 ![分类集合并筛选器](../../assets/classification-set-consolidation-filters.png)
 
-分类集合并管理器列上方提供了其他筛选选项：
+分类集合并管理器列上方提供了其他筛选器选项：
 
 * **[!UICONTROL 按标题搜索]**：按名称搜索合并。
-* **显示/隐藏列**：切换任意列的可见性，不包括 [!UICONTROL 名称].
+* **显示/隐藏列**：切换任何列的可见性，不包括 [!UICONTROL 名称].
 
 ## 分类集合并管理器列
 

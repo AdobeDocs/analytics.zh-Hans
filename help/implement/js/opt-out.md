@@ -3,24 +3,24 @@ title: 选择退出链接
 description: 了解如何为网站的访客创建实施选择退出链接。
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
+source-git-commit: 5c2643a143e5c8e17fcf11cfa2da81183bc5c39a
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 92%
+source-wordcount: '563'
+ht-degree: 71%
 
 ---
 
 # 实施选择退出链接
 
-*此帮助页面让Adobe Analytics客户能够为其用户提供选择退出链接。 如果您不是Adobe Analytics客户，请参阅 [Adobe隐私选择](https://www.adobe.com/cn/privacy/opt-out.html) 以控制Adobe如何使用您的信息。*
-
 >[!IMPORTANT]
 >
->Adobe 建议使用选择加入服务，尤其是需要遵从 GDPR 法规的组织。请参阅《Experience Cloud Identity Service 用户指南》中的[选择加入服务概述](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hans)。
+> **此帮助页面让Adobe Analytics客户能够为其用户提供选择退出链接。 如果您不是Adobe Analytics客户，请参阅 [Adobe隐私选择](https://www.adobe.com/cn/privacy/opt-out.html) 以控制Adobe如何使用您的信息。**
 
-某些访问您网站的访客不愿意将他们的浏览信息包含在您的数据集中。Adobe 让您能够向网站访客提供一种方案，禁止收集他们的信息。所有实施类型均适用；贵组织有责任遵守自己的隐私政策，同时也应遵守已签署的条款。
+某些访问您网站的访客不愿意将他们的浏览信息包含在您的数据集中。Adobe让您能够向网站访客提供一种方法，禁止对其信息进行分析。
 
-当访客访问选择退出 URL 时，系统会提示他们安装选择退出 Cookie。如果用户选择不被跟踪，并设置了选择退出 Cookie，则您的 JavaScript 文件将继续向 Adobe 服务器发送数据。但是，该数据不会进行处理或包含在报表中。
+通过选择退出链接，您可以允许网站的访客在Analytics报表中忽略其数据。 这些链接仅限于AppMeasurement实施；Adobe建议使用 [Adobe Experience Cloud选择加入服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hans) 而是。 选择加入服务更加稳健，可跨多个Adobe Experience Cloud产品(包括Adobe Analytics和AppMeasurement)使用。
+
+当访客访问选择退出 URL 时，系统会提示他们安装选择退出 Cookie。如果用户选择不被跟踪，并设置了选择退出Cookie，则AppMeasurement会继续向Adobe发送数据。 但是，该数据不会进行处理或包含在报表中。
 
 >[!TIP]
 >
@@ -58,34 +58,30 @@ ht-degree: 92%
 
 通过包含 `locale` 查询字符串参数自动切换选择退出页面的语言。为此查询字符串参数分配以下任一值：
 
-* en_US（英语，默认）
-* bg_BG（保加利亚语）
-* zh_CN（简体中文）
-* zh_TW（繁体中文）
-* cs_CZ（捷克语）
-* da_NK（丹麦语）
-* nl_NL（荷兰语）
-* et_EE（爱沙尼亚语）
-* fi_FI（芬兰语）
-* fr_FR（法语）
-* de_DE（德语）
-* el_GR（希腊语）
-* it_IT（意大利语）
-* jp_JP（日语）
-* ko_KR（韩语）
-* lv_LV（拉脱维亚语）
-* lt_LT（立陶宛语）
-* nb_NO（挪威语）
-* pl_PL（波兰语）
-* pt_BR（葡萄牙语）
-* sk_SK（斯洛伐克语）
-* es_ES（西班牙语）
+* `en_US` （英语，默认）
+* `bg_BG` （保加利亚语）
+* `zh_CN` （简体中文）
+* `zh_TW` （繁体中文）
+* `cs_CZ` （捷克语）
+* `da_NK` （丹麦语）
+* `nl_NL` （荷兰语）
+* `et_EE` （爱沙尼亚语）
+* `fi_FI` （芬兰语）
+* `fr_FR` （法语）
+* `de_DE` （德语）
+* `el_GR` （希腊语）
+* `it_IT` （意大利语）
+* `jp_JP` （日语）
+* `ko_KR` （韩语）
+* `lv_LV` （拉脱维亚语）
+* `lt_LT` （立陶宛语）
+* `nb_NO` （挪威语）
+* `pl_PL` （波兰语）
+* `pt_BR` （葡萄牙语）
+* `sk_SK` （斯洛伐克语）
+* `es_ES` （西班牙语）
 
 例如，`https://example.data.adobedc.net/optout.html?locale=ko_KR` 以韩语加载选择退出页面。
-
->[!TIP]
->
->`en_US` 查询字符串值不是必需的，因为默认情况下页面以英语加载。
 
 ### 弹出窗口
 
