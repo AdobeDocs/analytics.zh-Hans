@@ -3,7 +3,7 @@ title: 重点审查（每个网站发布后）
 description: 按照以下步骤操作以确保您的实施无误并与 KPI 保持一致。
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
-source-git-commit: 89088d11846e2d3eac83a834658e4755141655e5
+source-git-commit: fdb134bd75fce450ac891c2742be2045f7c5e4db
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 74%
@@ -23,7 +23,7 @@ ht-degree: 74%
 请记住，随着时间的推移，代码更新可能会产生意想不到的结果。您需要确保与 [5 大 KPI](/help/implement/review/define-kpis.md) 相关的所有量度和维度仍然正常运行。 理想情况下，此操作在网站发布后立即执行；如果您在最近几个月内未执行此操作，请执行此操作 *现在*. 请按以下步骤执行此操作：
 
 * 创建功能板，以查看这些关键量度和变量每小时的趋势视图（或为每个量度设置[智能警报](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html)）。然后，对其进行一到两天的监控，确保您能获得所需数据并且数据正确。 寻找拐点。准备好立即纠正任何严重问题。如果发现任何误差，请查看数据层、标签管理器规则及处理规则，并找出原因。
-* 重新运行 [Analytics 运行状况功能板](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252)，以监控 KPI 量度和变量的总体趋势。
+* 重新运行 [Analytics 运行状况功能板](https://express.adobe.com/page/tnNQGNlfzta3b/)，以监控 KPI 量度和变量的总体趋势。
 
 *有关如何确保量度和变量正常工作的更多详细信息，[请参阅 ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608)Adobe Analytics 冠军 Sarah Owen 给出的这些提示。*
 
