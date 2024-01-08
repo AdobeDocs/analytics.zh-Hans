@@ -3,9 +3,9 @@ description: 描述如何创建 Data Warehouse 请求的步骤。
 title: 为Data Warehouse请求配置报表目标
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: b5095574c31d77b77d310acca8ca6000aa7c5891
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2167'
 ht-degree: 10%
 
 ---
@@ -38,7 +38,9 @@ ht-degree: 10%
 
    ![“报表目标”选项卡](assets/dw-report-destination.png)
 
-1. （视情况而定）如果您之前已配置要用作报表目标的帐户（以及该帐户上的目标）：
+1. （视情况而定）如果已配置要用作报表目标的帐户（以及该帐户上的目标）：
+
+   <!--1. (Optional) If you are a system administrator, the [!UICONTROL **Show all destinations**] option is available. Enable this option if you want to have access to all accounts and locations that were created by any user in the organization.-->
 
    1. 从中选择帐户 [!UICONTROL **选择帐户**] 下拉菜单。
 
@@ -123,7 +125,7 @@ ht-degree: 10%
       |---------|----------|
       | [!UICONTROL **收件人**] | 发送报告时，可以将电子邮件通知发送给特定用户。 指定单个电子邮件地址或以逗号分隔的电子邮件地址列表。 <!-- How does this differ from the Notification email tab? --> |
 
-   1. 选择 [!UICONTROL **添加位置**]，然后指定以下信息： |字段 |函数 | ------------------- | [!UICONTROL **名称**] |位置的名称。  | | [!UICONTROL **描述**] |提供帐户的简短描述，以帮助将其与相同帐户类型的其他帐户区分开来。 | | [!UICONTROL **位置帐户**] |选择您在中创建的位置帐户 [添加帐户](#add-an-account). |
+   1. 选择 [!UICONTROL **添加位置**]，然后指定以下信息： |字段 | 函数 | ------------------- | [!UICONTROL **名称**] | 位置的名称。  | | [!UICONTROL **描述**] | 提供帐户的简短描述，以帮助将其与同一帐户类型的其他帐户区分开来。 | | [!UICONTROL **位置帐户**] | 选择您在中创建的位置帐户 [添加帐户](#add-an-account). |
 
    1. 在 [!UICONTROL **位置属性**] 部分，指定特定于您的位置帐户的帐户类型的信息。
 

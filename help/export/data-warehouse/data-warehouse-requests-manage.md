@@ -4,9 +4,9 @@ title: 管理 Data Warehouse 请求
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: abfc67abdba5e35b12a583fafe9a6e42192af631
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1103'
 ht-degree: 4%
 
 ---
@@ -153,7 +153,7 @@ ht-degree: 4%
    | 报表包 | 与请求关联的报表包。 |
    | 请求者 | 创建请求的用户。 |
    | 请求日期 | 发出请求的日期。 |
-   | 状态 | 可以使用以下状态：<ul><li><p>**已完成**：请求已成功运行。</p></li><li><p>**已取消**：用户已取消请求。</p></li><li><p>**已计划**：请求配置为按计划运行。</p></li><!-- Are there other statuses? Failed? --> |
+   | 状态 | 可以使用以下状态：<ul><li><p>**已完成**：请求已成功运行。</p></li><li><p>**已取消**：用户已取消请求。</p></li><li><p>**已计划**：请求配置为按计划运行。</p></li><li><p>**失败**：请求未能完成。 如果请求仍然失败，请联系客户支持。</p></li></ul> |
 
    {style="table-layout:auto"}
 

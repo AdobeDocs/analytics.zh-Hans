@@ -3,25 +3,24 @@ title: 当前 Adobe Analytics 发行说明
 description: 查看当前 Adobe Analytics 发行说明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 835b7b07e46de4aa5dc0ae27bc9dee9c083660ad
+source-git-commit: bed7f1def35defc63ffa890f1e2d13e5a7b8159b
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 98%
+source-wordcount: '980'
+ht-degree: 89%
 
 ---
 
-# 当前的 Adobe Analytics 发行说明（2023 年 10 月/11 月）
+# 当前Adobe Analytics发行说明（2024年1月）
 
 **上次更新**：2024年1月8日
 
-这些发行说明涵盖2023年10月23日至2024年1月中旬的发行期。 Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
+这些发行说明涵盖2024年1月发行期。 Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
 ## 新增功能或增强功能 {#features}
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **报告活动管理器增强功能** | 通过报告活动管理器，可查看组织中每个报告包的报告容量。通过它，管理员可详细了解报告消耗情况，从而轻松地诊断和修复在报告高峰期出现的容量问题。以下是报告活动管理器中现在可用的一些增强功能： <ul><li>限制后续请求：除了取消当前请求之外，管理员现在还可对所定义的时段限制请求。管理员可以按请求、项目或用户限制请求。</li><li>除了利用率和容量量度之外，报告活动管理器现在还包括有关报告活动的更多数据：复杂性列、用户列和连接列。</li><li>现在，在报告活动管理器中进行的所有取消和限制都会显示在审核日志中。管理员可以使用审核日志来查看当前取消的内容。无法在报告活动管理器或审核日志中撤消取消操作。</li></ul><p>有关更多信息，请参阅[报告活动管理器概述](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)</p> | 2023 年 10 月 17 日 | 2023 年 10 月 24 日 |
-| **Data Warehouse 改进** | 创建 Data Warehouse 请求时，现在可配置云帐户以用作报告目标。有以下云帐户类型可用于发送数据：<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>电子邮件（以前有此选项可用）</li></ul>FTP、SFTP、Azure Blob 和 S3 仍然可用作报告目标，但不再推荐使用。<p>创建和管理 Data Warehouse 请求时的用户体验也得到了改进。有关更多信息，请参阅[创建 Data Warehouse 请求](/help/export/data-warehouse/create-request/t-dw-create-request.md)和[管理 Data Warehouse 请求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=zh-Hans)。 | 2023 年 9 月 12 日 | 2023 年 12 月 15 日 |
+| **Data Warehouse更新** | 现已提供以下Data Warehouse改进：<ul><li>创建Data Warehouse请求时，用户现在可以通过启用新的切换功能(称为 [!UICONTROL **对贵组织中的用户可用**].<!--<p>For more information, see [Data Warehouse request general settings](/help/export/data-warehouse/create-request/dw-general-settings.md).</p>--></li><li>创建或管理Data Warehouse报表目标时，系统管理员现在可以通过启用名为的切换来显示组织中用户创建的帐户和位置 [!UICONTROL **显示所有目标**].<!--<p>For more information, see [Configure a report destination for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p>--></li> | 不适用 | 2024年1月10日 |
 
 {style="table-layout:auto"}
 
