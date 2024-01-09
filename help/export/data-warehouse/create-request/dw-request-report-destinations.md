@@ -3,9 +3,9 @@ description: 描述如何创建 Data Warehouse 请求的步骤。
 title: 为Data Warehouse请求配置报表目标
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: b5095574c31d77b77d310acca8ca6000aa7c5891
+source-git-commit: baac0c0384b714cf2ca536149ca10eec3a7065ad
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2204'
 ht-degree: 10%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 10%
 
 1. （视情况而定）如果已配置要用作报表目标的帐户（以及该帐户上的目标）：
 
-   <!--1. (Optional) If you are a system administrator, the [!UICONTROL **Show all destinations**] option is available. Enable this option if you want to have access to all accounts and locations that were created by any user in the organization.-->
+   1. （可选）如果您是系统管理员，则 [!UICONTROL **显示所有目标**] 选项可用。 如果要访问组织中任何用户创建的所有帐户和位置，请启用此选项。
 
    1. 从中选择帐户 [!UICONTROL **选择帐户**] 下拉菜单。
 
