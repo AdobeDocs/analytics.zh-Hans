@@ -3,55 +3,57 @@ title: getPageLoadTime
 description: 跟踪页面加载所用的时间。
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: dd9046bbb8d640d7392cddfab7ce34c4310e6eb7
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 86%
+source-wordcount: '34'
+ht-degree: 41%
 
 ---
 
 # Adobe 插件：getPageLoadTime
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>不再支持此插件。 其代码使用performance.timing方法，该方法（根据MDN）已 [已弃用](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming).
 
-`getPageLoadTime` 插件使用 JavaScript 性能对象来让您可以测量页面完全加载所需的时间。如果您想要测量页面加载所需的时间，Adobe 建议您使用此插件。
+<!-- The `getPageLoadTime` plug-in uses the JavaScript performance object to allow you to measure the amount of time a page takes to completely load. Adobe recommends using this plug-in if you want to measure how long pages take to load.
 
->注意/警告：如果您从早期版本升级此插件，您很可能还需要更改调用此函数的代码。在部署到生产环境之前，请检查您的实施并彻底测试
+>NOTE/WARNING: If you are upgrading this plugin from a previous version, you will most likely need to change the code that calls this function as well.  Please check your implementation and test thoroughly before deploying to production.
 
-## 使用Web SDK或Web SDK扩展安装此插件
+## Install the plug-in using the Web SDK or Web SDK extension
 
-尚不支持将此插件用于Web SDK。
+This plug-in is supported for use within the Web SDK.
 
-## 使用Adobe Analytics扩展安装插件
+## Install the plug-in using the Adobe Analytics extension
 
-Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与Adobe Analytics结合使用。
+Adobe offers an extension that allows you to use most commonly-used plug-ins with Adobe Analytics.
 
-1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
-1. 单击所需的标记属性。
-1. 转到[!UICONTROL 扩展]选项卡，然后单击[!UICONTROL 目录]按钮
-1. 安装并发布[!UICONTROL 常用 Analytics 插件]扩展
-1. 如果还没有任何扩展，请使用以下配置创建一个标签为“初始化插件”的规则：
-   * 条件：无
-   * 事件：核心 - 已加载的库（页面顶部）
-1. 使用以下配置向上述规则添加操作：
-   * 扩展：常用 Analytics 插件
-   * 操作类型：初始化 getPageLoadTime
-1. 保存并发布对上述规则所做的更改。
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize getPageLoadTime
+1. Save and publish the changes to the rule.
 
-## 使用自定义代码编辑器安装此插件
+## Install the plug-in using custom code editor
 
-如果您不想使用“常用Analytics插件”插件扩展，则可以使用自定义代码编辑器。
+If you do not want to use the Common Analytics Plugins plug-in extension, you can use the custom code editor.
 
-1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
-1. 单击所需的属性。
-1. 转到[!UICONTROL 扩展]选项卡，然后单击 Adobe Analytics 扩展下的&#x200B;**[!UICONTROL 配置]**&#x200B;按钮。
-1. 展开[!UICONTROL 使用自定义代码配置跟踪]折叠面板，这会显示[!UICONTROL 打开编辑器]按钮。
-1. 打开自定义代码编辑器，并将下面提供的插件代码粘贴到编辑窗口中。
-1. 保存并发布对此 Analytics 扩展所做的更改。
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click on the desired property.
+1. Go to the [!UICONTROL Extensions] tab, then click the **[!UICONTROL Configure]** button under the Adobe Analytics extension.
+1. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
+1. Open the custom code editor and paste the plug-in code provided below into the edit window.
+1. Save and publish the changes to the Analytics extension.
 
-## 使用 AppMeasurement 安装此插件
+## Install the plug-in using AppMeasurement
 
-在实例化（使用 [`s_gi`](../functions/s-gi.md)）Analytics 跟踪对象后，将以下代码复制并粘贴到 AppMeasurement 文件中的任意位置。在您的实施中保留代码的注释和版本号可帮助 Adobe 对任何潜在问题进行疑难解答。
+Copy and paste the following code anywhere in the AppMeasurement file after the Analytics tracking object is instantiated (using [`s_gi`](../functions/s-gi.md)). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -60,22 +62,22 @@ Adobe提供了一个扩展，通过该扩展，您可以将最常用的插件与
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## 使用此插件
+## Use the plug-in
 
-`getPercentPageViewed` 函数使用以下参数：
+The `getPercentPageViewed` function uses the following arguments:
 
-* **`pv`**（可选，字符串）：要与页面加载时间关联的维度。此值应等于标识页面本身的值。如果未设置，此参数将默认为 Adobe AppMeasurement pageName 变量（即 s.pageName）或未设置 s.pageName 时的 URL
+* **`pv`** (optional, string):  The dimension to correlate the page load time with.  This value should be equal to a value that identifies the page itself. When not set, this argument defaults to the Adobe AppMeasurement pageName variable (i.e. s.pageName) or the URL when s.pageName is not set 
 
-调用此函数时，不会返回任何内容；但是，会设置以下变量：
+Calling this function returns nothing; instead, it sets the following variables:
 
-* `window._pltPreviousPage`：上一页的值（即传入 pv 参数的内容）
-* `window._pltLoadTime`：加载上一页所用的时间（以秒为单位）
+* `window._pltPreviousPage`: The value of the previous page (i.e. what was passed into the pv argument)
+* `window._pltLoadTime`: The time in seconds that the previous page took to load
 
-getPageLoadTime 插件会创建一个第一方 Cookie：
+The getPageLoadTime plug-in creates one first-party cookie:
 
-* `s_plt`：加载上一页所用的时间（以秒为单位）。还包含已传入 pv 参数的内容的值。将在浏览器会话结束时过期。
+* `s_plt`: The time, in seconds, that the previous page took to load.  Also contains the value of what was passed into the pv argument.  Expires at the end of the browser session.
 
-## 示例
+## Example
 
 ```js
 // 1. Run the getPageLoadTime function if the pageName variable is set
@@ -92,23 +94,23 @@ if(window._pltPreviousPage)
 }
 ```
 
-## 版本历史记录
+## Version History
 
-### 3.0（2022 年 12 月 6 日）
+### 3.0 (December 6, 2022)
 
-* 完全重写插件以使其与解决方案无关。例如，它现在与Adobe Experience Platform Web SDK兼容
-* 在窗口对象（而不是 AppMeasurement s 对象）中创建 `_pltPreviousPage` 和 `_pltLoadTime` 变量
-* 消除了对 s_pltp Cookie 的需求；现在，所有内容都只存储在 s_plt Cookie 中
-* 包括 getVersion 函数以帮助进行故障排除
+* Complete rewrite of plugin to make it solution-agnostic.  For instance, this is now compatible with the Adobe Experience Platform Web SDK.
+* Creates the `_pltPreviousPage` and `_pltLoadTime` variables in the window object (rather than in the AppMeasurement s object)
+* Removes the need for the s_pltp cookie - everything is now stored in only the s_plt cookie
+* Includes the getVersion function to help with troubleshooting
 
-### 2.0.1（2021 年 3 月 26 日）
+### 2.0.1 (March 26, 2021)
 
-* 解决了插件未正确对 s 对象设置值的问题。
+* Fixed issue where plugin was not correctly setting values on the s object.
 
-### 2.0（2021 年 3 月 19 日）
+### 2.0 (March 19, 2021)
 
-* 以上下文数据形式添加了版本号。
+* Added version number as context data.
 
-### 1.0（2018 年 5 月 22 日）
+### 1.0 (May 22, 2018)
 
-* 第一版。
+* Initial release.-->
