@@ -2,17 +2,18 @@
 title: 比较不同的机器人排除法
 description: 比较用于排除机器人的不同方法
 exl-id: c54ba98a-b396-479e-bfe8-dc6211b26f61
+role: Admin
 feature: Bot Removal
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '317'
+ht-degree: 94%
 
 ---
 
 # 比较不同的机器人排除法
 
-下表显示了用于排除机器人的不同方法以及它们如何相互堆叠。
+下表显示了用于排除机器人的不同方法以及它们之间的对比情况。
 
 | 方法 | 机器人规则 | 按 IP 地址排除 | 客户属性 | 区段 | 第三方评分 + 区段 | 在运行时禁止对机器人的服务器调用 | 自定义 DB VISTA 规则 |
 | --- | --- | --- | --- | --- | --- | --- | --- |

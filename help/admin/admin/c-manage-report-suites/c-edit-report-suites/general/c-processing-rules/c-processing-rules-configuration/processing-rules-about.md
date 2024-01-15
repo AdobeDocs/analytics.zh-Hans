@@ -3,11 +3,12 @@ description: 使用处理规则可以基于定义的条件对数据进行更改�
 subtopic: Processing rules
 title: 处理规则的工作原理
 feature: Processing Rules
+role: Admin
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 100%
+source-wordcount: '696'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 使用处理规则可以基于定义的条件对数据进行更改。当属性或值匹配定义的条件时，可以设置和删除值，并可以设置事件。
 
-收集数据时，会对数据应用处理规则，并且规则会应用于通过 AppMeasurement 库和数据插入 API 获得的所有数据。处理规则还应用于完整数据源和日志数据源。这些数据源包含的数据代表一次&#x200B;*`hit`* 或用户采取的某个操作。处理规则不适用于其他数据源。
+收集数据时，会对数据应用处理规则，并且规则会应用于通过 AppMeasurement 库和数据插入 API 获得的所有数据。处理规则还应用于完整数据源和日志数据源。这些源包含的数据表示 *`hit`* 或用户采取的某个操作。 处理规则不适用于其他数据源。
 
 ## 重要概念 {#section_EB138775E7C64C74B0D1D3213F7A823C}
 
@@ -39,7 +40,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>处理规则在保存后将被立即应用于报表包。 </p> </td> 
-   <td colname="col2"> <p>来自处理规则的更改应在保存后的几分钟内在您的报表包中可见。在测试处理规则时，我们建议在您的测试报表包中配置<a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md">实时报表</a>，以便于快速查看处理规则的结果。 </p> </td> 
+   <td colname="col2"> <p>来自处理规则的更改应在保存后的几分钟内在您的报表包中可见。测试处理规则时，我们建议配置 <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md"> 实时报表</a> ，以便快速查看处理规则的结果。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>处理规则是访问上下文数据变量的唯一途径。 </p> </td> 

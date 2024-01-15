@@ -2,10 +2,11 @@
 description: 分类用于对值进行分组归类，并按照分组级别进行报告。例如，可将所有付费搜索营销活动归为一个如流行音乐术语的类别，并报告该类别相对于“实例”（点进次数）等指标的成功率以及转化为成功事件的情况。
 title: 转化分类
 feature: Classifications
+role: Admin
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '566'
 ht-degree: 93%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 93%
 
 转化分类可用于分类转化变量。分类后，任何可使用关键数据生成的报告也可通过关联的数据属性来生成。
 
-启用分类后，请使用 [分类导入器](/help/components/classifications/importer/c-working-with-saint.md) 以将特定值分配给相应的分类。
+启用分类后，请使用 [分类导入器](/help/components/classifications/importer/c-working-with-saint.md) 以将特定值指定给相应的分类。
 
 >[!WARNING]
 >

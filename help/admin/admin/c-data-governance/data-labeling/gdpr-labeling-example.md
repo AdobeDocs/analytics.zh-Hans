@@ -2,11 +2,12 @@
 description: 显示一些示例来说明如何标记点击数据、访问请求、删除请求的数据
 title: 标记示例
 feature: Data Governance
+role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 100%
+source-wordcount: '862'
+ht-degree: 99%
 
 ---
 
@@ -24,13 +25,13 @@ ht-degree: 100%
 |---|---|---|---|---|---|
 | **变量名称** <br> **(命名空间)** | **MyProp1** <br> **(用户)** | **访客 ID** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
 | 点击数据 | Mary | 77 | A | M | X |
-|  | Mary | 88 | B | N | Y |
-|  | Mary | 99 | C | O | Z |
-|  | John | 77 | D | P | W |
-|  | John | 88 | E | N | U |
-|  | John | 44 | F | Q | V |
-|  | John | 55 | G | R | X |
-|  | Alice | 66 | A | N | Z |
+| | Mary | 88 | B | N | Y |
+| | Mary | 99 | C | O | Z |
+| | John | 77 | D | P | W |
+| | John | 88 | E | N | U |
+| | John | 44 | F | Q | V |
+| | John | 55 | G | R | X |
+| | Alice | 66 | A | N | Z |
 
 ## 访问请求示例 {#access}
 

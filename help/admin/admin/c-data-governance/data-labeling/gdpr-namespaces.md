@@ -2,10 +2,11 @@
 description: 您希望能够搜索的每个 ID 均分配有一个命名空间；命名空间是一个自定义字符串，用于在所有报告包之间使用的任何变量中识别该 ID。
 title: 命名空间
 feature: Data Governance
+role: Admin
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '881'
 ht-degree: 100%
 
 ---

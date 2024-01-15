@@ -2,10 +2,11 @@
 title: 安排流量尖峰
 description: 与 Adobe 合作以确保大流量事件不会遇到延迟。
 feature: Traffic Management
+role: Admin
 exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '740'
 ht-degree: 97%
 
 ---
@@ -62,4 +63,4 @@ Adobe 希望确保您对于最新报告的体验保持一致。为了最有效�
 
 * 为所有流量尖峰安排前置时间。 **尤为重要的是将任何预计在 11 月至 12 月出现的流量尖峰安排在 9 月 15 日之前。**&#x200B;如果错过最后期限，请尽快安排尖峰。即使准备时间较少，也比完全没有准备时间更好，Adobe 将配合现有的资源，更好地提供您的报告包。
 * 如果 Adobe 就所安排的流量尖峰与您联系，请务必告知是实时报告还是完全处理报告更重要。比起其他报告，某些组织更加依赖实时报告。了解您使用何种类型的报告可帮助 Adobe 相应地决定优先顺序。
-* 与您的Adobe客户团队沟通最重要的报告，并在您提取报告时，可以帮助他们为您提供支持。
+* 与您的Adobe客户团队沟通最重要的报表以及您何时提取这些报表可帮助他们为您宣传。

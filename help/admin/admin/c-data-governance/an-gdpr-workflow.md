@@ -2,10 +2,11 @@
 description: 概述您可以采取哪些步骤来启用 Adobe Analytics 实施，以便支持数据主体的数据隐私访问和删除权利。
 title: 隐私工作流程
 feature: Privacy
+role: Admin
 exl-id: c364b364-6d77-4b2c-88ab-65daf812f242
-source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '346'
 ht-degree: 100%
 
 ---

@@ -3,8 +3,9 @@ description: 流量分类允许您对流量变量 (prop) 进行分类。流量�
 subtopic: Classifications
 title: 流量分类
 feature: Admin Tools
+role: Admin
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 92%
@@ -21,7 +22,7 @@ ht-degree: 92%
 
 使用“流量分类”页面可以创建所选报告包的分类。分类后，任何可使用关键数据生成的报告也可通过关联的属性来生成。
 
-启用分类后，使用 [分类导入器](/help/components/classifications/importer/c-working-with-saint.md) 以将特定值分配给相应的分类。
+启用分类后，使用 [分类导入器](/help/components/classifications/importer/c-working-with-saint.md) 以将特定值指定给相应的分类。
 
 ## 添加流量分类 {#task_4DB49CCB1D764483907BC33A5CEB7315}
 

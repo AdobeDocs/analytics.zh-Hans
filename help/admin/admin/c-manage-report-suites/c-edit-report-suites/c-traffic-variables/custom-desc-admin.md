@@ -2,10 +2,11 @@
 description: 您可以为 eVar、prop、分类和事件提供自定义报表描述。这些描述对所有最终用户都是可见的。
 title: 自定义报表描述
 feature: Admin Tools
+role: Admin
 exl-id: f9bcd01c-acca-47a4-b9b5-751b3068a5ad
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '114'
 ht-degree: 100%
 
 ---
@@ -29,8 +30,8 @@ ht-degree: 100%
 
 * 报表的标题栏中：
 
-   ![](/help/admin/admin/assets/report_description_2.png)
+  ![](/help/admin/admin/assets/report_description_2.png)
 
 * 当您将鼠标悬停在左侧导航内的报表上时，它会作为工具提示出现：
 
-   ![](/help/admin/admin/assets/report_description_3.png)
+  ![](/help/admin/admin/assets/report_description_3.png)

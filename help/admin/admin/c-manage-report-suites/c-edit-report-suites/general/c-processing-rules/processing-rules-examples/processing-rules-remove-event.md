@@ -1,12 +1,12 @@
 ---
 description: 显示如何使用处理规则从点击中删除/丢弃事件，而无需在页面上执行更改。
 title: 通过点击删除事件
-uuid: 4c481aa2-d074-4abe-b472-9f685bb1f4a3
+role: Admin
 exl-id: 5dd68eb4-cc51-48b1-a009-a44e425e2d4e
 feature: Admin Tools
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '96'
 ht-degree: 100%
 
 ---

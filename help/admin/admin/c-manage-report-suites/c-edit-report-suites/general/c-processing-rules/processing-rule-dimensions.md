@@ -3,10 +3,11 @@ description: 可使用处理规则读取和写入的维度（除非另有说明�
 subtopic: Processing rules
 title: 可用于处理规则的维度
 feature: Processing Rules
+role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '729'
 ht-degree: 100%
 
 ---

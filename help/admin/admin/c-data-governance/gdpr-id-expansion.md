@@ -1,12 +1,13 @@
 ---
-description: 您提交的 ID 并不总是涵盖 Analytics 可将其与“数据主体”关联的所有点击数据。Analytics 可创建一个扩展的 ID 集，以便将此关联数据包含在数据隐私请求中。您可以为您提交的每个数据隐私请求来要求使用此选项，只需将以下可选参数添加到 JSON 请求即可
+description: 您提交的 ID 并不总是涵盖 Analytics 可将其与“数据主体”关联的所有点击数据。Analytics可创建一个扩展的ID集，以便将此关联数据包含在数据隐私请求中。
 title: ID 扩展
 feature: Data Governance
+role: Admin
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 97%
+source-wordcount: '1299'
+ht-degree: 96%
 
 ---
 
@@ -59,4 +60,4 @@ ht-degree: 97%
 
 您还应该了解，对于任何因提交数据隐私删除请求后而删除其点击（已更新或匿名）的访客，其状态信息都将会进行重置。这样该访客下次返回您的网站时，将会成为新访客。所有 eVar 归因都将重新开始，访问次数、反向链接、访问的第一个页面等信息也都将重新统计。对于要清除数据字段的情况，这种结果不尽如人意，因此突显了隐私服务 API 不适合此用途的一个原因。
 
-请联系您的Adobe客户团队，以与我们的工程架构师咨询团队进行协调，以进一步审查并提供删除任何PII或解决数据问题的工作量。
+请联系您的Adobe客户团队来与我们的工程架构师咨询团队进行协调，以进一步审查并提供解决任何PII或数据问题的帮助。

@@ -2,11 +2,12 @@
 title: 促销 eVar 和产品查找方法
 description: 深入了解促销 eVar 背后的概念以及它们如何处理和分配数据。
 feature: Admin Tools
+role: Admin
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '5285'
-ht-degree: 97%
+source-wordcount: '5279'
+ht-degree: 96%
 
 ---
 
@@ -377,7 +378,7 @@ post_products=";sandals123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=
 
 这意味着捆绑通过产品语法将转化变量语法 eVar 值“复制”到 products 变量。仅当 products 变量和捆绑事件（通过 eVar 配置进行设置）包含在同一请求中时，才会发生此复制操作。此时，post_eVar 列中包含的值将捆绑到产品。此捆绑通过存储在 post_products 列中的产品语法表示。
 
-## 促销 eVar、实例量度和 Attribution
+## 促销eVar、实例量度和归因
 
 在 Analytics 服务器调用中发送标准 eVar 时，其 post_evar 列中的值始终会获得一个归因于它的实例。实例表示在图像请求中将 eVar 设置为等于特定值的次数。
 
@@ -387,8 +388,8 @@ post_products=";sandals123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=
 
 例如，单独设置 `s.eVar1="Internal Keyword Search"` 不会为“内部关键词搜索”的 eVar1 值提供任何实例量度点数。此时将记录一个实例。但是，除非在设置 `eVar1` 的同时将产品捆绑到该“内部关键词搜索”值，否则该实例将归因于“未指定”存储桶。换句话说，“内部关键词搜索”的 `eVar1` 值可以获得一个实例。但只有当同一图像请求的 products 变量中出现捆绑到“内部关键词搜索”值的产品时，才会发生这种情况。
 
-总之，如果不进行额外的配置，促销 eVar 的现成实例量度就没有多大用处。幸运的是，Adobe 发布了 [Attribution ](/help/analyze/analysis-workspace/attribution/overview.md)。您可以借助它，为 Adobe Analytics 收集的任何自定义量度应用多个归因模型。应用这些归因模型的量度不使用 post_evar 列中包含的值或捆绑到任一种特定产品的值。这些量度仅使用通过图像请求本身传递的值（或通过 Adobe Analytics 处理规则捕获的值）。您可以使用 Attribution 中的功能，为所有使用转化变量语法的促销 eVar 获取准确归因的实例量度。
+总之，如果不进行额外的配置，促销 eVar 的现成实例量度就没有多大用处。幸运的是，Adobe被释放了 [归因](/help/analyze/analysis-workspace/attribution/overview.md). 您可以借助它，为 Adobe Analytics 收集的任何自定义量度应用多个归因模型。应用这些归因模型的量度不使用 post_evar 列中包含的值或捆绑到任一种特定产品的值。这些量度仅使用通过图像请求本身传递的值（或通过 Adobe Analytics 处理规则捕获的值）。您可以使用“归因”中的功能，为所有使用转化变量语法的促销eVar获取准确归因的实例量度。
 
 ![归因选择](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/assets/attribution-select.png)
 
-将促销 eVar 的实例量度添加到报表时，正确的 Attribution 模型应该是“最后接触”模型。在这种情况下，模型的“回顾窗口”设置并不重要。原因是，“强制”最后接触归因模型始终将实例点数分配给通过请求传入的每个单独值。这与 eVar 的实际属性/捆绑设置是设置为等于“最近（最后一个）”还是设置为“原始值（第一个）”无关。
+将促销eVar的实例量度添加到报表时，正确的归因模型应该是“最近联系”模型。 在这种情况下，模型的“回顾窗口”设置并不重要。原因是，“强制”最后接触归因模型始终将实例点数分配给通过请求传入的每个单独值。这与 eVar 的实际属性/捆绑设置是设置为等于“最近（最后一个）”还是设置为“原始值（第一个）”无关。

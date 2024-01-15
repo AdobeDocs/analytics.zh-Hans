@@ -3,10 +3,11 @@ description: “自定义分析转化变量”（或 eVar）置于您网站所�
 keywords: eVar
 title: 转化变量 (eVar)
 feature: Admin Tools
+role: Admin
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '1681'
+source-wordcount: '1702'
 ht-degree: 99%
 
 ---
@@ -49,8 +50,8 @@ eVar 最适合用于度量原因和影响，例如：
 | [!UICONTROL 过期时间] | 指定一个时段或事件，eVar 值将在此时段或事件之后过期（即，不再接收成功事件的信用）。如果在 eVar 过期之后发生成功事件，则由“无”值接收该事件的信用（不激活任何 eVar）。如果选择某个事件作为过期值，则变量仅在该事件发生时过期。如果未发生该事件，则变量从不过期。可用的过期选项可分为四个主要类别：<ul><li>**在页面查看或访问级别。**&#x200B;页面查看或访问以外的转化事件与 eVar 无关联。</li><li>**基于时段，例如日、周、月或年。**&#x200B;指定时段以外的转化事件与 eVar 无关联。过期时段从设置变量后开始。eVar 根据为其设置的时间而过期，该时间的单位为秒（分钟、小时、天、月，等等）： <ul><li>MINUTE=60 秒</li><li>HOUR=3600 秒（60 分钟）</li><li>DAY=86400 秒（24 小时）</li><li>WEEK=604800 秒（7 天）</li><li>MONTH=2678400 秒（31 天）</li><li>QUARTER=8035200 秒（93 天 - 3 个月，每个月 31 天）</li><li>YEAR=31536000 秒（365 天）</li><br>如果访问从星期一上午 7:00 开始，并在该访问期间于上午 7:15 设置了 eVar，则过期时间如下所示：<li>一天过期：eVar 在星期二上午 7:15 过期。</li><li>一周过期：eVar 在下个星期一上午 7:15 过期。</li><li>一个月过期：eVar 在自本星期一起 31 天后的上午 7:15 过期。</li></ul><li>**特定转化事件。**&#x200B;在指定的特定事件之后触发的任何其他转化事件与 eVar 相关联。</li><li>**从不。**&#x200B;只要 visitorID Cookie 保持不变，eVar 与事件之间可以经过任意长的时间。</li></ul> |
 | [!UICONTROL 状态]（仅限 eVar） | 定义 [!UICONTROL eVar] 状态：<ul><li>**禁用**：禁用 [!UICONTROL eVar]。从转化变量列表中删除 [!UICONTROL eVar]。</li><li>**无子关系**：阻止您根据维度划分 [!UICONTROL eVar]。</li><li>**基本子关系**：可让您根据任何完整维度（例如“产品”或“营销活动”）来划分 eVar。</li></ul> |
 | [!UICONTROL 重置] | 在 eVar 中重置任何现有值。在重新安排 eVar 的用途时使用此设置，这样可以将旧值混合到新报告中。重置不会擦除历史数据。 |
-| [!UICONTROL 促销]（仅限 eVar） | 促销变量可遵循以下两种语法之一：<ul><li>**[!UICONTROL 产品语法]**：将 eVar 值与产品关联。**注意**：如果选择“[!UICONTROL 产品语法]”，则“[!UICONTROL 促销捆绑事件]”部分会处于禁用状态，且无法选择该部分来进行编辑。对于此语法，“[!UICONTROL 捆绑事件]”不适用。</li><li>**[!UICONTROL 转化变量语法]**：仅在发生捆绑事件时才将 eVar 与产品关联。在此情况下，您可以选择充当“[!UICONTROL 捆绑事件]”的事件。更改此设置时，如果不相应更新 JavaScript 代码，则会导致数据丢失。请参阅[促销变量](/help/components/dimensions/evar-merchandising.md)。</li></ul> |
-| [!UICONTROL 促销捆绑事件]（仅限 eVar） | 如果将“促销”设置为[!UICONTROL 转化变量语法]，则所选事件会将当前 eVar 值与产品进行捆绑。要使用“[!UICONTROL 捆绑事件]”，请将“[!UICONTROL 分配]”设置为“[!UICONTROL 最近]”。 如果将“[!UICONTROL 分配]”设置为“[!UICONTROL 原始值]”，则第一个 eVar 产品捆绑将在 eVar 过期之前一直有效。通过按住 ctrl (Windows) 或 cmd (Mac) 并单击列表中的多个项目，可选择多个事件。只有在选择了“[!UICONTROL 转化变量语法]”后才能选择事件。 |
+| [!UICONTROL 促销]  (仅限eVar) | 促销变量可遵循以下两种语法之一：<ul><li>**[!UICONTROL 产品语法]**：将 eVar 值与产品关联。**注意**：如果选择“[!UICONTROL 产品语法]”，则“[!UICONTROL 促销捆绑事件]”部分会处于禁用状态，且无法选择该部分来进行编辑。对于此语法，“[!UICONTROL 捆绑事件]”不适用。</li><li>**[!UICONTROL 转化变量语法]**：仅在发生捆绑事件时才将 eVar 与产品关联。在此情况下，您可以选择充当“[!UICONTROL 捆绑事件]”的事件。更改此设置时，如果不相应更新 JavaScript 代码，则会导致数据丢失。请参阅[促销变量](/help/components/dimensions/evar-merchandising.md)。</li></ul> |
+| [!UICONTROL 促销捆绑事件] (仅限eVar) | 如果将“促销”设置为[!UICONTROL 转化变量语法]，则所选事件会将当前 eVar 值与产品进行捆绑。要使用“[!UICONTROL 捆绑事件]”，请将“[!UICONTROL 分配]”设置为“[!UICONTROL 最近]”。 如果将“[!UICONTROL 分配]”设置为“[!UICONTROL 原始值]”，则第一个 eVar 产品捆绑将在 eVar 过期之前一直有效。通过按住 ctrl (Windows) 或 cmd (Mac) 并单击列表中的多个项目，可选择多个事件。只有在选择了“[!UICONTROL 转化变量语法]”后才能选择事件。 |
 
 ### 到期
 

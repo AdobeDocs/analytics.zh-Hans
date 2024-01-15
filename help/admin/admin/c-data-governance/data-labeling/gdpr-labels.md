@@ -2,10 +2,11 @@
 description: Adobe Analytics 变量的数据隐私标签示例
 title: Analytics 变量的数据隐私标签
 feature: Data Governance
+role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 11cfba59a57ba3292bbfe936ec104d85bf2f7695
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '3578'
+source-wordcount: '3576'
 ht-degree: 99%
 
 ---
@@ -52,7 +53,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 
 | 标签 | 定义 | 其他要求 |
 | --- | --- | --- |
-| 无 | 如果此变量并未包含作为数据隐私访问请求的一部分返回到“数据主体”的数据中必须包括的数据，请选择此选项。 |  |
+| 无 | 如果此变量并未包含作为数据隐私访问请求的一部分返回到“数据主体”的数据中必须包括的数据，请选择此选项。 | |
 | ACC-ALL | 此字段中的值应当包含在所有数据隐私访问请求中。如果此点击量来自多人共享的设备，则您作为数据控制者，可以通过应用此标签来指示它是可接受的，以便将此字段中的数据与任何有权访问该共享设备的个人共享。 | 将为所有数据隐私请求返回具有此标签的字段。 |
 | ACC-PERSON | 仅当您根据与 ID-PERSON 字段值匹配的数据隐私请求 ID，基本确定点击来自“数据主体”时，这个字段中的值才应专门用于数据隐私访问请求。 | 您还必须在此报告包中的某个变量上设置了 ID-PERSON 标签，并使用该 ID 提交请求，否则将绝不会应用此标签。 |
 
@@ -145,7 +146,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 群组 </th> 
+   <th colname="col1" class="entry"> 组 </th> 
    <th colname="col2" class="entry"> 变量 </th> 
    <th colname="col3" class="entry"> 可修改标签 </th> 
    <th colname="col4" class="entry"> 注释 </th> 
@@ -166,7 +167,7 @@ Adobe Analytics 数据隐私实施支持以下用于身份数据、敏感数据�
    <td colname="col1"> <p>流量变量 </p> </td> 
    <td colname="col2"> <p>列表属性 </p> </td> 
    <td colname="col3"> <p>无 / S1 / S2 </p> </td> 
-   <td colname="col4"> <p>列表属性可以包含多个值，不允许用作隐私标识符。</p> </td> 
+   <td colname="col4"> <p>列表属性可以包含多个值，并且不允许作为隐私标识符。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>分类 </p> </td> 

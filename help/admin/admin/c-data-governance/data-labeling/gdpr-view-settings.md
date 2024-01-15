@@ -2,10 +2,11 @@
 description: “数据治理的隐私标签”对话框概述了报告包的隐私标签和命名空间。您还可以从此处将设置导出到 .csv 文件。
 title: 查看/管理数据治理的隐私标签
 feature: Data Governance
+role: Admin
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '820'
 ht-degree: 95%
 
 ---

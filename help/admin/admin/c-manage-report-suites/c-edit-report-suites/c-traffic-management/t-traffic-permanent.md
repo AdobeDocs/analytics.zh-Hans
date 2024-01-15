@@ -2,8 +2,9 @@
 description: 使用“永久性流量”部分可以更改预期流量级别，以便 Adobe 可以重新分配资源来处理新的流量级别。
 title: 指定永久性流量增长
 feature: Traffic Management
+role: Admin
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
-source-git-commit: 157b6f53b482d8cc19b99976ed1d927a80fec490
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 100%

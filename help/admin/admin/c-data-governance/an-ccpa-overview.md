@@ -2,11 +2,12 @@
 description: 本文档将介绍您需要在 Adobe Analytics 中执行什么操作来支持数据主体的 CCPA 访问和删除权限。
 title: Adobe Analytics 和 CCPA
 feature: Data Governance
+role: Admin
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 97%
+source-wordcount: '594'
+ht-degree: 95%
 
 ---
 
@@ -36,7 +37,7 @@ Adobe Cloud Platform (ACP) 提供了一项集成的解决方案，它将您的�
 
 Adobe 认识到您最熟悉您的报表包中的自定义数据，因此我们将为您提供机会来定义数据管理设置和首选项。为此，Adobe Analytics 提供了“数据管理”用户界面，允许您作为数据控制者，对您的 Analytics 报表包以及这些报表包中的所有维度和量度设置[隐私权标签](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md#data-governance-labels)。您可以标识数据集中包含直接可识别数据或间接可识别数据的列，以便能够提交访问和删除请求来处理这些数据。对于每个请求，在 Analytics“数据管理”用户界面中定义的标签将用于对应该请求的特定标识符。
 
-请参阅[为报表包数据设置标签](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md)，以了解有关如何设置标签的更多信息。
+请参阅 [为报表包数据设置标签](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md) 有关如何设置标签的详细信息。
 
 ## 先决条件
 
@@ -44,7 +45,7 @@ Adobe 认识到您最熟悉您的报表包中的自定义数据，因此我们�
 * 将您的登录公司关联到 Experience Cloud 组织（如果尚未关联）。请联系 Adobe 客户关怀团队并参阅[组织和帐户关联。](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=zh-Hans)
 * 为每个报表包设置一项数据保留策略，以便能够处理 CCPA 删除和访问请求。
 
-   如果未在 Adobe Analytics 中设置数据保留期限，Adobe Analytics 将无法协助您处理隐私服务 API 请求，例如，处理您从最终用户那里收到的访问请求或删除请求。要设置您的Adobe保留期限，请联系您的客户客户团队。
+  如果未在 Adobe Analytics 中设置数据保留期限，Adobe Analytics 将无法协助您处理隐私服务 API 请求，例如，处理您从最终用户那里收到的访问请求或删除请求。请联系您的Adobe客户团队以设置数据保留期限。
 
 * 检查您的权限：要在 Adobe Analytics 中使用“数据管理”管理界面，您必须是 Adobe Analytics 管理员。
 * 考虑实施[同意管理变量](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)来跟踪点击时的同意状态。

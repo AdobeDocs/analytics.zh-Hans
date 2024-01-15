@@ -2,11 +2,11 @@
 description: “查找方法”页面可识别各种查找方法报表在网站上接收转化成功事件信用的方式。例如，如果某个搜索引擎引荐一个访客到您的网站购物，“查找方法”可指定该搜索引擎如何接收反向链接的信用。
 title: 查找方法
 feature: Admin Tools
-uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
+role: Admin
 exl-id: 58c4510c-2343-4b0a-9c09-5583f6d4250f
-source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '319'
 ht-degree: 97%
 
 ---
