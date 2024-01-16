@@ -6,21 +6,21 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: baac0c0384b714cf2ca536149ca10eec3a7065ad
 workflow-type: tm+mt
 source-wordcount: '1002'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# 当前Adobe Analytics发行说明（2024年1月）
+# 当前 Adobe Analytics 发行说明（2024 年 1 月）
 
 **上次更新日期**：2024 年 1 月 8 日
 
-这些发行说明涵盖2024年1月发行期。 Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
+这些发行说明涵盖 2024 年 1 月的发行期。Adobe Analytics 版本在[持续交付模型](releases.md)上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。因此，这些发行说明每月更新几次。请定期检查。
 
 ## 新增功能或增强功能 {#features}
 
 | 功能 | 描述 | [开始推出](releases.md) | [正式发布](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Data Warehouse更新** | 现已提供以下Data Warehouse改进：<ul><li>创建Data Warehouse请求时，用户现在可以通过启用新的切换功能(称为 [!UICONTROL **对贵组织中的用户可用**].<p>有关更多信息，请参阅 [Data Warehouse请求常规设置](/help/export/data-warehouse/create-request/dw-general-settings.md).</p></li><li>创建或管理Data Warehouse报表目标时，系统管理员现在可以通过启用名为的切换来显示组织中用户创建的帐户和位置 [!UICONTROL **显示所有目标**].<p>有关更多信息，请参阅 [为Data Warehouse请求配置报表目标](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p></li> | 不适用 | 2024年1月10日 |
+| **Data Warehouse 更新** | Data Warehouse 现在有以下改进：<ul><li>在创建 Data Warehouse 请求时，用户现在可通过启用名为&#x200B;[!UICONTROL **提供给组织中的用户**]&#x200B;的新切换开关，将请求提供给组织中的所有用户。<p>有关详细信息，请参阅 [Data Warehouse 请求常规设置](/help/export/data-warehouse/create-request/dw-general-settings.md)。</p></li><li>在创建或管理 Data Warehouse 报告目标时，系统管理员现在可通过启用名为&#x200B;[!UICONTROL **显示所有目标**]&#x200B;的切换开关，显示组织中的用户创建的帐户和位置。<p>有关详细信息，请参阅[配置 Data Warehouse 请求的报告目标](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。</p></li> | 不适用 | 2024 年 1 月 10 日 |
 
 {style="table-layout:auto"}
 
