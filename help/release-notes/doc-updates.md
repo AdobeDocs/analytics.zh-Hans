@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: ca6d5040aac3fd5b8df4e7cb4601ee41c9ad4998
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4994'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 | 功能 | 描述 |
 | --- | --- |
 | **2024 年 1 月** | |
-| 更新了“媒体平均受众访问分钟数”文档 | 更新了以下位置的信息： [“媒体平均受众访问分钟数”面板](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md) 提高清晰度。<p>其中的改进包括：</p> <ul><li>改进了信息的条理</li><li>添加了相应步骤以指示基于任务的信息</li></ul> |
+| 媒体平均受众访问分钟数文档更新 | 更新了[媒体平均受众访问分钟数面板](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)中的信息，以提高清晰度。<p>其中的改进包括：</p> <ul><li>改进了信息的条理</li><li>添加了相应步骤以指示基于任务的信息</li></ul> |
 
 ### 2023 {#23}
 
