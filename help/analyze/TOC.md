@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 功能板、Report Builder 和 Activity Map。
-source-git-commit: 2aaf06d76e6b5e22d1f7a6713ff146ca9a897a55
+source-git-commit: a2e69b5f39de3c964381bb5dd5ecd4d9714e9249
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1008'
 ht-degree: 100%
 
 ---
@@ -304,35 +304,6 @@ ht-degree: 100%
    + [Analytics 中的 Activity Map 报告](activity-map/activitymap-reporting-analytics.md)
    + [浏览器扩展疑难解答](activity-map/troubleshooting-browser-extensions.md)
    + [数据收集疑难解答](activity-map/troubleshoot-data-collection.md)
-+ Reports and Analytics {#reports-analytics}
-   + [Reports and Analytics 快速入门](reports-analytics/getting-started.md)
-   + 报告界面概述 {#reporting-interface}
-      + [关于数据收集](reports-analytics/overview/overview-data-collection.md)
-      + [“报告”菜单](reports-analytics/overview/reports-menu.md)
-      + [“报告”功能](reports-analytics/overview/report-overview.md)
-   + [报告显示设置和导航](reports-analytics/report-settings.md)
-   + [报告计划和分发](reports-analytics/scheduling.md)
-   + [计划报告的生命周期结束通知](reports-analytics/scheduled-reports-eol.md)
-   + [报告类型](reports-analytics/reports.md)
-   + [运行不同的报告类型](reports-analytics/t-running-report-types.md)
-   + 自定义报告 {#customize-reports}
-      + [自定义报告概述](reports-analytics/reports-customize/customizing-reports-overview.md)
-      + [更改报告图表](reports-analytics/reports-customize/t-reports-graphs.md)
-      + [细分](reports-analytics/reports-customize/breakdowns.md)
-      + [子关系](reports-analytics/reports-customize/subrelations.md)
-      + [过滤报告数据](reports-analytics/reports-customize/t-reports-filter-options.md)
-   + [Analytics 分段](reports-analytics/segmentation.md)
-   + [书签管理器](reports-analytics/bookmarks.md)
-   + [当前数据](reports-analytics/current-data.md)
-   + [功能板和小型报告](reports-analytics/dashboard.md)
-   + [功能板管理器](reports-analytics/dashboard-manage.md)
-   + [漏斗报告](reports-analytics/funnels.md)
-   + [量度](reports-analytics/metrics.md)
-   + [目标](reports-analytics/targets.md)
-   + [警报](reports-analytics/alerts.md)
-   + [日程表事件](reports-analytics/t-calendar-event.md)
-   + [常见问题解答](reports-analytics/frequently-asked-questions.md)
-   + [疑难解答](reports-analytics/report-troubleshooting.md)
 + Adobe Analytics 功能板 {#mobapp}
    + [Adobe Analytics 功能板 — 概述](mobile-app/home.md)
    + [策划人简介](mobile-app/curator.md)

@@ -3,10 +3,10 @@ description: 本帮助页面包含每个 Adobe Analytics 工具的推荐使用�
 title: 我应该使用哪种 Adobe Analytics 工具？
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: ht
-source-wordcount: '1227'
-ht-degree: 100%
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+workflow-type: tm+mt
+source-wordcount: '1111'
+ht-degree: 97%
 
 ---
 
@@ -24,28 +24,9 @@ ht-degree: 100%
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** 应该是您的首选用户界面，可满足您所有的报告与分析需求。Adobe 会继续投入人力和物力坚持每月发布此产品的更新。如果有任务无法在 Analysis Workspace 中完成，您可以考虑使用下面列出的其他界面。**
 
-**[Reports &amp; Analytics](/help/analyze/reports-analytics/overview/report-overview.md)** 的使用说明：
+**[Report Builder](/help/analyze/report-builder/home.md)** 是Microsoft Excel的加载项。 通过它，可从 Adobe Analytics 数据构建自定义的请求，并可将其插入 Excel 工作表。请求可动态引用工作表中的单元格，并且您可更新和自定义 Report Builder 展示数据的方式。
 
-* 适用于需要访问更易导航的预构建报表的初学用户。
-* 用于访问 UI 中的实时数据。
-* 用于设置日程表事件。
-* 用于设置目标。
-* 用于访问有关“视频时段”和“观看者流失率”的独特的视频可视化图表。
-
->[!IMPORTANT]
->
->自 **2023 年 12 月 31 日**&#x200B;起，Adobe 决定中断 Reports &amp; Analytics 及其随附的报表和功能。到时候，Reports &amp; Analytics 及其所有报表和计划都将停止工作。支持 Reports &amp; Analytics 的报告、可视化图表和底层技术不再满足 Adobe 的技术标准。在 Analysis Workspace 中提供了 Reports &amp; Analytics 的大部分功能。自 2015 年发布 Analysis Workspace 以来，Reports &amp; Analytics 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。本通知解释了生命周期结束的过程。
-
-**[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=zh-Hans)** 的使用说明：
-
-* 适用于预测统计模型（倾向评分、群集、关联等）。
-* 适用于延迟分析（事件前/后的时间）。
-* 用于识别和导出 Adobe Experience Cloud 中的复杂区段。
-
->[!IMPORTANT]
->
->详细阅读 Data Workbench 的[生命周期终止公告](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=zh-Hans)。
-
+**[Adobe Analytics功能板](/help/analyze/mobile-app/home.md)** 允许用户通过移动设备访问直观的记分卡。 记分卡是关键量度和其他组件的集合，这些组件以平铺布局显示，您可以点击它们以获取更详细的划分和趋势报表。iOS 和 Android 操作系统均支持移动设备应用程序。
 
 ## 将数据导入到 Adobe Analytics 中 {#import}
 
@@ -93,7 +74,7 @@ ht-degree: 100%
 **[Report Builder](/help/analyze/report-builder/home.md)** 的使用说明：
 
 * 适用于工作区的自定义布局选项有限的情况（在 Excel 的限制范围内，Report Builder 可执行任何操作）。
-* 用于将用户输入的内容或离线数据源（展示次数、成本）松散绑定到 Adobe 数据。用于将数据关联起来的更为永久的解决方案是数据源（请参阅“将数据导入 Analytics”） 
+* 用于将用户输入的内容或离线数据源（展示次数、成本）松散绑定到 Adobe 数据。绑定数据的更永久的解决方案是数据源（请参阅将数据导入Analytics）。
 * 用于将不同维度报表中的数据合并起来（例如，将促销活动展示次数报表和促销活动点击对话报表合并起来）。
 * 通过汇总或并排显示在同一表格中，将不同报告包的数据合并在一起。
 * 适用于需要通过计划实现自动化的情况（XLSX、XLSM、CSV、PDF、TXT、XML、MHT）。

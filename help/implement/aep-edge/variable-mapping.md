@@ -3,16 +3,16 @@ title: Adobe Experience Edge 中的 Analytics 变量映射
 description: 查看 Edge 自动映射到 Analytics 变量的 XDM 字段。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: 79336a9ce525dd551efdf7fe0391a3f38a3b66e1
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '1495'
-ht-degree: 83%
+source-wordcount: '1145'
+ht-degree: 82%
 
 ---
 
 # Adobe Experience Edge 中的 Analytics 变量映射
 
-下表显示了 Adobe Experience Platform Edge Network 自动映射到 Adobe Analytics 的变量。 如果使用这些 XDM 字段路径，则无需额外配置即可将数据发送到 Adobe Analytics。这些字段包含在 **[!UICONTROL Adobe Analytics ExperienceEvent模板]** 字段组。
+下表显示了 Adobe Experience Platform Edge Network 自动映射到 Adobe Analytics 的变量。 如果使用这些XDM字段路径，则无需额外配置即可将数据发送到Adobe Analytics。 这些字段包含在 **[!UICONTROL Adobe Analytics ExperienceEvent模板]** 字段组。
 
 可以在此页面的 [GitHub 上的提交历史记录](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/variable-mapping.md)中找到此表之前的更新内容。
 
@@ -67,8 +67,8 @@ ht-degree: 83%
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | 一个字符串数组，包含相应的 [List Prop](../vars/page-vars/prop.md#list-props) 值。 |
 | `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | 将每个 `list[]` 数组中的所有 `value` 字符串连接到其各自的[列表变量](../vars/page-vars/list.md)。分隔符是根据[报告包设置](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)中的值集自动选择的。 |
 | `_experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | 设置相应的 [Prop](../../components/dimensions/prop.md) 维度。 |
-| `_experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | 将[事件序列化](../vars/page-vars/events/event-serialization.md)应用于相应的[自定义事件](../../components/metrics/custom-events.md)量度。每个事件ID都驻留在其100个组的父事件中。 例如，要将序列化应用于 `event678`，使用 `_experience.analytics.event601to700.event678.id`. |
-| `_experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | 按所需的量增加相应的[自定义事件](../../components/metrics/custom-events.md)量度。每个事件都驻留在其100个组的父事件中。 例如，字段 `event567` 是 `_experience.analytics.event501to600.event567.value`. |
+| `_experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | 应用 [事件序列化](../vars/page-vars/events/event-serialization.md) 至各自 [自定义事件](../../components/metrics/custom-events.md) 量度。 每个事件ID都驻留在其100个组的父事件中。 例如，要将序列化应用于 `event678`，使用 `_experience.analytics.event601to700.event678.id`. |
+| `_experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | 增加相应的 [自定义事件](../../components/metrics/custom-events.md) 量度。 每个事件都驻留在其100个组的父事件中。 例如，字段 `event567` 是 `_experience.analytics.event501to600.event567.value`. |
 | `identityMap.ECID[0].id` | [Adobe Experience Cloud 身份服务 ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。 |
 | `marketing.trackingCode` | 设置 [“跟踪代码”](../../components/dimensions/tracking-code.md) 维度。 |
 | `media.mediaTimed.completes.value` | Media Analytics 量度[内容完成](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hans#content-complete)。 |
@@ -110,7 +110,7 @@ ht-degree: 83%
 | `placeContext.geo._schema.longitude` | 移动维度”经度“。 |
 | `placeContext.geo.postalCode` | [“邮政编码”](../../components/dimensions/zip-code.md) 维度。 |
 | `placeContext.geo.stateProvince` | [“美国”](../../components/dimensions/us-states.md) 维度。 |
-| `placeContext.localTime` | 在 Reports &amp; Analytics 中帮助填充[时区](/help/analyze/reports-analytics/reports.md)。在[数据馈送](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)中显示为 `t_time_info`。 |
+| `placeContext.localTime` | 在[数据馈送](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)中显示为 `t_time_info`。 |
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1`<br/>`[...]`<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | 将[产品语法](../vars/page-vars/products.md)促销应用于 eVar。 |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value`<br/>`[...]`<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | 将[产品语法](../vars/page-vars/products.md)促销应用于事件。 |
 | `productListItems[].productCategories[].categoryID` | [“类别”](../../components/dimensions/category.md) 维度。另请参阅[产品](../vars/page-vars/products.md)页面变量。 |

@@ -5,9 +5,9 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: ed753ab23e65f845f472dd1df3b144284e4e94a6
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '970'
 ht-degree: 96%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 96%
 您可以计划工作簿、指定高级提交选项、指定收件人和查看计划历史记录。高级提交选项允许您配置要在特定时间发送或定期发送的工作簿。您还可以指定发送工作簿时要使用的文件格式。
 
 例如，您可以安排工作簿立即提交或者按定期计划提交，还可以指定 [!DNL Advanced Delivery Options] 中的文件格式。上载工作簿时，文件大小不能超过 5 MB。
-
-另外，在 Report Builder 中创建工作簿计划后，您可以在 **[!UICONTROL Analytics]** > **[!UICONTROL 报表]**&#x200B;中查看和编辑计划。（请参阅 Reports &amp; Analytics 帮助中的[报表计划和分发](/help/analyze/reports-analytics/scheduling.md)。）
 
 >[!NOTE]
 >
@@ -40,7 +38,7 @@ ht-degree: 96%
 1. 在 Report Builder 工具栏上，单击&#x200B;**[!UICONTROL 计划]**。
 
    “[!UICONTROL 计划报表]”选项卡总结您已创建的所有任务，以及剩余任务的数目。
-1. 在&#x200B;**[!UICONTROL 计划报表]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL 新建]**。“基本计划向导”会显示用于定义计划报表的选项。
+1. 在 **[!UICONTROL 计划报表]** 选项卡，单击 **[!UICONTROL 新建]**. “基本计划向导”会显示用于定义计划报表的选项。
 
    ![显示“基本计划向导”的屏幕截图。](assets/simple-schedule-wizard.png)
 

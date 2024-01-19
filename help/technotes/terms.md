@@ -3,9 +3,9 @@ title: Adobe Analytics 中使用的术语
 description: Adobe Analytics 词汇表，用于定义常用术语。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '2577'
+source-wordcount: '2535'
 ht-degree: 97%
 
 ---
@@ -42,7 +42,6 @@ ht-degree: 97%
 * **上下文数据变量：**&#x200B;仅用于处理规则的临时变量。如果处理规则未将上下文数据变量值复制到转化或流量变量，则上下文数据变量值将永久丢失。请参阅《实施用户指南》中的[上下文数据变量](../implement/vars/page-vars/contextdata.md)。
 * **转化变量：**&#x200B;也称为 eVar。存储自定义值，并保留变量值，直到其过期。请参阅《组件用户指南》中的 [eVar](/help/components/dimensions/evar.md) 维度。
 * **关联：**&#x200B;不再用作术语；替换为维度划分。在 Adobe Analytics 的早期版本中，通过关联可以划分流量变量。请参阅分析用户指南中的[划分维度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
-* **当前数据：**&#x200B;某些报表中的一个选项，允许包含最近收集的尚未完全处理的数据。请参阅分析用户指南中的[当前数据](/help/analyze/reports-analytics/current-data.md)。
 * **自定义链接：**&#x200B;包含非页面视图数据的点击类型。请参阅《实施用户指南》中的 [s.tl() 函数](../implement/vars/functions/tl-method.md)。另请参阅“点击”。
 * **客户属性：** Experience Cloud 的一项功能，允许上载属性数据。请参阅《核心服务用户指南》中的[客户属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hans)。
 * **客户支持代理：**&#x200B;已授权直接与 Adobe 客户关怀交互的指定用户。请参阅 Experience Cloud 知识库中的[客户支持代理](https://helpx.adobe.com/cn/experience-cloud/supported-users.html)。

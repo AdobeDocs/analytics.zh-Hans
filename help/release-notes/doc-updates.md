@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ca6d5040aac3fd5b8df4e7cb4601ee41c9ad4998
-workflow-type: ht
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+workflow-type: tm+mt
 source-wordcount: '4994'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -142,7 +142,7 @@ ht-degree: 100%
 | Adobe Analytics 登陆页面更新 | [更新联合工作区/Reports &amp; Analytics 登录页面，提高可用性和导航的便利性。](/help/analyze/landing.md) |
 | [!UICONTROL 下一个项目]或[!UICONTROL 上一个项目]工作区面板 | 此面板允许您浏览所选维度项目之后或之前的项目。 |
 | [!UICONTROL 页面摘要]工作区面板 | 此面板为您选择的页面提供深入分析。 |
-| 关于暂停旧版计划报告的新主题 | 从 **2022 年 4 月 15 日起**，Adobe 打算[暂停所有创建日期超过两年的计划报告](/help/analyze/reports-analytics/scheduled-reports-eol.md)。 |
+| 关于暂停旧版计划报告的新主题 | 有效 **2022年4月15日**，Adobe打算暂停所有创建日期超过两年的计划报告 |
 | **2022 年 2 月** |
 | 移动记分卡项目预览模式 | 该[预览模式](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-Hans#preview?lang=zh-Hans)允许您在保存和共享记分卡之前预览体验。 |
 | API 项目端点 | 使用 API 添加、编辑或删除 Analysis Workspace 项目。[了解详情](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
