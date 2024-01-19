@@ -3,9 +3,9 @@ title: 页面
 description: 页面名称。
 feature: Dimensions
 exl-id: 579963c8-8460-425f-b716-3b30d7a259af
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '186'
 ht-degree: 94%
 
 ---
@@ -28,4 +28,4 @@ AppMeasurement 使用 [`pageName`](/help/implement/vars/page-vars/pagename.md) �
 
 >[!NOTE]
 >
->在 Reports &amp; Analytics 中，转化指标使用此维度的线性归因。例如，收入在 `purchase` 事件之前的访问中查看的所有页面之间进行拆分。Analysis Workspace 默认使用上一个归因，并且可以选择使用任何归因模型。
+>Analysis Workspace 默认使用上一个归因，并且可以选择使用任何归因模型。

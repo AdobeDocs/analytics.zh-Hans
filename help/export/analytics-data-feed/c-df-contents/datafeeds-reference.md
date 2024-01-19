@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 数据列引用
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
-workflow-type: ht
-source-wordcount: '3671'
-ht-degree: 100%
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+workflow-type: tm+mt
+source-wordcount: '3897'
+ht-degree: 99%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 | **`color`** | 颜色深度 ID，它基于 `c_color` 列的值。引用 `color_depth.tsv` 查找表。 | 无符号 smallint |
 | **`connection_type`** | 表示连接类型的数值 ID。在[连接类型](/help/components/dimensions/connection-type.md)维度中使用的变量。引用 `connection_type.tsv` 查找表。 | 无符号 tinyint |
 | **`cookies`** | 在 [Cookie 支持](/help/components/dimensions/cookie-support.md)维度中使用的变量。<br>Y：启用<br>N：禁用<br>U：未知 | char(1) |
-| **`country`** | 表示在 `country.tsv` 查找中找到的值的数值 ID。在 Reports &amp; Analytics 中的“顶级域”报表中使用它。 | 无符号 smallint |
+| **`country`** | 数值ID表示在 `country.tsv` 查找。 | 无符号 smallint |
 | **`ct_connect_type`** | 与 `connection_type` 列相关。最常见的值为 LAN/Wifi、Mobile Carrier 和 Modem。 | char(20) |
 | **`curr_factor`** | 确定货币的小数位，用于货币兑换。例如，美元使用两个小数位，因此该列的值为 2。 | tinyint |
 | **`curr_rate`** | 交易时的汇率。Adobe 与 XE 合作，以确定当天的汇率。 | decimal(24,12) |
@@ -115,7 +115,7 @@ ht-degree: 100%
 | **`mobileappid`** | 移动设备应用程序 ID。采用以下格式存储应用程序名称和版本： `[AppName] [BundleVersion]` | varchar(255) |
 | **`mobileappperformanceappid`** | 用于 Apteligent Data Connector。Apteligent 中使用的应用程序 ID。 | varchar(255) |
 | **`mobileappperformancecrashid`** | 用于 Apteligent Data Connector。Apteligent 中使用的崩溃 ID。 | varchar(255) |
-| **`mobileappstoreobjectid`** | 用于 Appfigures Data Connector。应用商店对象 ID。 | varchar(255) |
+| **`mobileappstoreobjectid`** | 用于 Appfigures Data Connector。应用商店对象ID。 | varchar(255) |
 | **`mobilebeaconmajor`** | Mobile Services 信标主要 | varchar(100) |
 | **`mobilebeaconminor`** | Mobile Services 信标次要 | varchar(100) |
 | **`mobilebeaconproximity`** | Mobile Services 信标邻近性 | varchar(255) |

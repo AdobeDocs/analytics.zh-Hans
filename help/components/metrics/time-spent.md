@@ -3,29 +3,29 @@ title: 在 Adobe Analytics 中如何计算逗留时间
 description: 逗留时间维度和指标的汇总页面。
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 74%
+source-wordcount: '1746'
+ht-degree: 73%
 
 ---
 
 # 逗留时间概述
 
-在 Adobe Analytics 产品中提供了各种[!UICONTROL 逗留时间]指标和维度。[](overview.md)
+各种 [!UICONTROL &#39;逗留时间&#39;] [量度](overview.md) 和维度在Adobe Analytics产品中提供。
 
 ## “逗留时间”指标
 
 | 指标 | 定义 | 适用的功能领域 |
 |---|---|---|
-| [!UICONTROL 所用总秒数] | 表示访客与特定维度项目交互所用的总时间。包括所有后续点击中的值和持久性的实例。对于 prop，也会在后续链接事件中统计逗留时间。 | Analysis Workspace、Reports &amp; Analytics、Report Builder（称为“总逗留时间”）、Data Warehouse |
-| [!UICONTROL 每次访问逗留时间]（秒） | 大约 *所用总秒数/（访问跳出次数）*<br>&#x200B;表示访客在每次访问期间与特定维度项目交互的平均时间。 **注意**：此量度无法独立计算，因为此函数的分母是一个内部量度。 | Analysis Workspace、Reports &amp; Analytics |
-| [!UICONTROL 每位访客逗留时间]（秒） | 大约 *所用总秒数/独特访客*<br>&#x200B;表示在访客的存留期（访客Cookie的时长）内，访客与特定维度项目交互所用的平均时间。 **注意**：此量度无法独立计算，因为此函数的分母是一个内部量度。 | Analysis Workspace、Reports &amp; Analytics |
+| [!UICONTROL 所用总秒数] | 表示访客与特定维度项目交互所用的总时间。包括所有后续点击中的值和持久性的实例。对于 prop，也会在后续链接事件中统计逗留时间。 | Analysis Workspace，Report Builder（称为“总逗留时间”），Data Warehouse |
+| [!UICONTROL 每次访问逗留时间]（秒） | 大约 *所用总秒数/（访问跳出次数）*<br>&#x200B;表示访客在每次访问期间与特定维度项目交互的平均时间。 **注意**：此量度无法独立计算，因为此函数的分母是一个内部量度。 | Analysis Workspace |
+| [!UICONTROL 每位访客逗留时间]（秒） | 大约 *所用总秒数/独特访客*<br>&#x200B;表示在访客的存留期（访客Cookie的时长）内，访客与特定维度项目交互所用的平均时间。 **注意**：此量度无法独立计算，因为此函数的分母是一个内部量度。 | Analysis Workspace |
 | [!UICONTROL 逗留时间/用户（状态）] | 大约 *移动应用程序所用总秒数/独特移动应用程序访客*<br>&#x200B;表示在访客的存留期（访客Cookie的时长）内，移动设备应用程序访客与特定维度项目交互所用的平均时间。 **注意**：此量度无法独立计算，因为此函数的分母是一个内部量度。 | Analysis Workspace |
-| [!UICONTROL 网站平均逗留时间]（秒） | 表示访客与特定维度项目交互所用的总时间，其中每个序列包含一个维度项目。这不仅仅局限于“站点”平均值（顾名思义）。 有关序列的详细信息，请参阅“‘逗留时间’的计算方式”部分。<br>**注意**：由于计算中所用的分母不同，因此，此指标很可能会与维度项目级别的“每次访问逗留时间”有所不同。 | Analysis Workspace、Reports &amp; Analytics（以分钟为单位显示）、Report Builder（以分钟为单位显示） |
+| [!UICONTROL 网站平均逗留时间]（秒） | 表示访客与特定维度项目交互所用的总时间，其中每个序列包含一个维度项目。这不仅仅局限于“站点”平均值（顾名思义）。 有关序列的详细信息，请参阅“‘逗留时间’的计算方式”部分。<br>**注意**：由于计算中所用的分母不同，因此，此指标很可能会与维度项目级别的“每次访问逗留时间”有所不同。 | Analysis Workspace，Report Builder（以分钟为单位显示） |
 | [!UICONTROL 网站平均逗留时间] | 这与&#x200B;*平均网站逗留时间（秒）*&#x200B;指标相同，但采用的时间格式为 hh:mm:ss | Analysis Workspace |
 | [!UICONTROL 页面平均逗留时间] | 已弃用的指标。<br> 如果需要维度项目的平均时间，我们建议您使用“网站平均逗留时间”。 | Report Builder（当请求中包含维度时） |
-| [!UICONTROL 会话总时长]，又称[!UICONTROL 前一会话时长] | 仅限移动设备应用程序 SDK。<br>对于前一会话，在下次启动应用程序时进行确定。以秒为单位进行计算，此指标只有在应用程序处于使用状态时才会统计，在应用程序处于后台时则不会统计。这是会话级别指标。<br>例如：我们安装了应用程序 ABC 并将其启动，在使用了 2 分钟后关闭了该应用程序。在此会话时间内不会发送任何相关数据。下次启动该应用程序时，将会发送[!UICONTROL 前一会话时长]，其值为 120。 | Analysis Workspace、Reports &amp; Analytics、Report Builder、Mobile Services UI |
+| [!UICONTROL 会话总时长]，又称[!UICONTROL 前一会话时长] | 仅限移动设备应用程序 SDK。<br>对于前一会话，在下次启动应用程序时进行确定。以秒为单位进行计算，此指标只有在应用程序处于使用状态时才会统计，在应用程序处于后台时则不会统计。这是会话级别指标。<br>例如：我们安装了应用程序 ABC 并将其启动，在使用了 2 分钟后关闭了该应用程序。在此会话时间内不会发送任何相关数据。下次启动该应用程序时，将会发送[!UICONTROL 前一会话时长]，其值为 120。 | Analysis Workspace、Report Builder、Mobile Services UI |
 | [!UICONTROL 平均会话时长]（移动设备） | *会话总时长/（启动次数 – 首次启动次数）*<br>&#x200B;仅限移动设备应用程序 SDK。这是会话级别指标。 | Report Builder、Mobile Services UI |
 
 ## “逗留时间”维度
@@ -33,9 +33,9 @@ ht-degree: 74%
 | 维度 | 定义 | 适用的功能领域 |
 | --- | --- | --- |
 | [!UICONTROL 每次访问逗留时间 — 粒度] | 访问期间的总逗留时间将精确至秒，且应用于访问中的每次点击。这是一个访问级别的维度。 | Analysis Workspace |
-| [!UICONTROL 每次访问逗留时间 — 分段统计] | 粒度维度分为 9 个不同的范围。这是一个访问级别的维度。这些范围包括：<ul><li>少于 1 分钟</li><li>1-5 分钟</li><li>5-10 分钟</li><li>10-30 分钟</li><li>30-60 分钟</li><li>1-2 小时</li><li>2-5 小时</li><li>5-10 小时</li><li>10-15 小时</li></ul>**注意**：不会有更高的时段，因为一次访问在活动 12 小时后就会过期。 | Analysis Workspace、Reports &amp; Analytics、Report Builder |
+| [!UICONTROL 每次访问逗留时间 — 分段统计] | 粒度维度分为 9 个不同的范围。这是一个访问级别的维度。这些范围包括：<ul><li>少于 1 分钟</li><li>1-5 分钟</li><li>5-10 分钟</li><li>10-30 分钟</li><li>30-60 分钟</li><li>1-2 小时</li><li>2-5 小时</li><li>5-10 小时</li><li>10-15 小时</li></ul>**注意**：不会有更高的时段，因为一次访问在活动 12 小时后就会过期。 | Analysis Workspace，Report Builder |
 | [!UICONTROL 页面逗留时间 — 粒度] | 每次点击的总逗留时间，精确至秒。这是一个点击级别的维度，包括页面查看次数和链接事件。尽管其名称中包含页面，但它并不限于“页面”维度。 | Analysis Workspace |
-| [!UICONTROL 页面逗留时间 — 分段统计] | 粒度维度分为 10 个不同的范围；但是，分段统计的维度只计算页面查看次数（不包括链接事件）。这是一个点击级别的维度。这些范围包括：<ul><li>少于 15 秒</li><li>15-29 秒</li><li>30-59 秒</li><li>1-3 分钟</li><li>3-5 分钟</li><li>5-10 分钟</li><li>10-15 分钟</li><li>15-20 分钟</li><li>20-30 分钟</li><li>多于 30 分钟</li></ul> | Analysis Workspace、Reports &amp; Analytics |
+| [!UICONTROL 页面逗留时间 — 分段统计] | 粒度维度分为 10 个不同的范围；但是，分段统计的维度只计算页面查看次数（不包括链接事件）。这是一个点击级别的维度。这些范围包括：<ul><li>少于 15 秒</li><li>15-29 秒</li><li>30-59 秒</li><li>1-3 分钟</li><li>3-5 分钟</li><li>5-10 分钟</li><li>10-15 分钟</li><li>15-20 分钟</li><li>20-30 分钟</li><li>多于 30 分钟</li></ul> | Analysis Workspace |
 
 ## ‘逗留时间’的计算方式
 

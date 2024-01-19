@@ -5,10 +5,10 @@ uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-source-git-commit: 0570bea923edc21a0f185f49fd6f604115d4a6e1
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 100%
+source-wordcount: '674'
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 +++能否通过数据馈送导出 Activity Map 上下文数据变量？是的。Activity Map 使用的[数据列](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)是 `clickmaplink`、`clickmaplinkbyregion`、`clickmappage` 和 `clickmapregion`。
 +++
 
-+++区段在实时模式下是否可以使用？否，区段不适用于实时模式。该功能等同于 Reports &amp; Analytics 的实时报告功能，不支持分段。
++++区段在实时模式下是否可以使用？否，区段不适用于实时模式。
 +++
 
 +++Activity Map 是否与虚拟报告包兼容？是。但是，由于虚拟报告包的限制，Activity Map 的实时模式与虚拟报告包不兼容。
@@ -75,9 +75,9 @@ ht-degree: 100%
 * 从 JS 文件中删除 `AppMeasurement_Module_ActivityMap` 函数
 * 添加使用空正文重写上述函数的自定义代码，例如：
 
-   ```js
-   function AppMeasurement_Module_ActivityMap() {}
-   ```
+  ```js
+  function AppMeasurement_Module_ActivityMap() {}
+  ```
 
 * 通过将 `s.trackClickMap` 和 `s.trackInlineStats` 设置为 `false` 来配置 AppMeasurement
 +++

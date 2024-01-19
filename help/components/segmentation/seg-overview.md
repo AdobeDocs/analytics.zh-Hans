@@ -3,10 +3,10 @@ description: 通过区段，可根据特性或网站交互标识访客的子集�
 title: 关于区段
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 483e1b3f566003ca4433de891834338a852ba8b3
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 79%
+source-wordcount: '1148'
+ht-degree: 75%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 79%
 
 区段基于 [!UICONTROL 访客]， [!UICONTROL 访问]、和 [!UICONTROL 点击] 使用嵌套容器模型的级别层次结构。 您可以使用嵌套容器根据各容器之间和容器内的规则定义访客属性和操作。可在 [!DNL Adobe Experience Cloud] 的多个产品和功能中生成、批准、共享、保存和运行 Analytics 区段。区段可通过报表生成、可内建于功能板报表中，或添加书签以便快速访问。
 
-可在 Segment Builder 中构建和保存区段，也可从流失报表（在  Analysis Workspace 中）生成区段。还可以根据嵌套容器之间的特定规则采用和扩展预先生成的区段，从而可以过滤结果并应用于报表。此外，区段还可以结合在一起作为[堆叠区段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)使用。
+可在 Segment Builder 中构建和保存区段，也可从流失报表（在  Analysis Workspace 中）生成区段。还可以根据嵌套容器之间的特定规则采用和扩展预先生成的区段，从而可以过滤结果并应用于报表。此外，区段可以一起用作 [栈叠区段](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
-区段 识别
+区段识别
 
 - 您的访客是谁（国家/地区、性别、咖啡厅），
 - 他们使用的设备和服务（浏览器、搜索引擎、移动设备）、
@@ -126,7 +126,7 @@ Analysis Workspace 包含以下附加功能：
 
 ## Adobe 提供的区段
 
-屏幕左侧的组件边栏会显示您和您的公司创建的区段以及现成提供的Adobe区段。 当您单击&#x200B;**[!UICONTROL 显示所有]**&#x200B;时，一般将在列表的底部出现这些区段，并通过右侧的 Adobe 徽标标识这些区段。
+屏幕左侧的组件边栏会显示您和您的公司创建的区段以及现成提供的Adobe区段。 当您单击 **[!UICONTROL 显示全部]**，则这些区段通常显示在列表底部，并由右侧的Adobe徽标来标识。
 
 ## 顺序区段 {#sequential}
 
@@ -282,7 +282,7 @@ Analysis Workspace 包含以下附加功能：
 
 +++ **我可以看到公司的所有区段吗？**
 
-可以，管理员可以在 [!DNL Analysis Workspace] 和 [!DNL Reports & Analytics] 用户界面中看到所有区段。
+是的，管理员可以在以下位置看到所有区段： [!DNL Analysis Workspace] 用户界面。
 
 Report Builder 显示您拥有的区段以及与您共享的区段。
 
@@ -292,7 +292,7 @@ Report Builder 显示您拥有的区段以及与您共享的区段。
 
 是的，可在 Segment Manager 中管理所有区段。区段管理器显示对所有者（创建区段的用户）、共享用户和管理员用户可见的区段。区段选择器显示用户拥有的区段及与其共享的区段。
 
-管理员可以在 Analysis Workspace 和 [!DNL Reports & Analytics] 用户界面中看到所有区段。
+管理员可以在Analysis Workspace用户界面中看到所有区段。
 
 Report Builder 仅显示由您构建的区段或已特意与您共享的区段。
 

@@ -3,10 +3,10 @@ title: 从第三方分析平台过渡到 Adobe Analytics
 description: 了解获取报表的关键概念，适用于熟悉其他平台（例如 Google Analytics）的用户。
 feature: Third-party Integration
 exl-id: e71b12ad-11b7-48a0-8586-f8eb63975479
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 100%
+source-wordcount: '332'
+ht-degree: 90%
 
 ---
 
@@ -16,12 +16,7 @@ ht-degree: 100%
 
 Google Analytics 和 Adobe Analytics 都是功能强大的平台，都可为您的网站性能提供有价值的分析。每个平台都有各自的处理架构和用户界面，这为每个平台带来独特的优势。本指南旨在帮助具有使用 Google Analytics 经验的用户适应 Adobe Analytics。
 
-在 Adobe Analytics 中，登录 Adobe Experience Cloud 后，可通过两种主要方式提取基本报表：
-
-* **Reports &amp; Analytics** 是获取基本报表的历史方法。左侧菜单提供了一个预制报表列表，允许用户导航到所需报表并获取数据。区段和指标可提供额外的自定义。具有使用 Google Analytics 报表经验的用户可能发现这个布局非常熟悉。
-* **Analysis Workspace** 是当前提取大多报表的推荐方法。左侧菜单允许用户拖放组件以构建自己的报表。左侧菜单拥有非常高的自由度，可满足确切的报表需求。具有创建 Google Analytics 功能板和自定义报表经验的用户可能发现这个布局非常熟悉。
-
-大多数报表都可以在 [!UICONTROL Reports &amp; Analytics] 和 [!UICONTROL Analysis Workspace] 中创建。但是，某些报表只能使用其中一个平台进行提取。大多数情况下，Adobe 建议使用 [!UICONTROL Analysis Workspace]，除非特定功能仅在 [!UICONTROL Reports &amp; Analytics] 中可用。
+在Adobe Analytics中，登录到Adobe Experience Cloud后提取基本报表的主要方法是使用 **Analysis Workspace**. 左侧菜单允许用户拖放组件以构建自己的报表。这样可以更自由地满足确切的报表需求。 具有创建 Google Analytics 功能板和自定义报表经验的用户可能发现这个布局非常熟悉。
 
 ## 推荐学习路径
 

@@ -4,10 +4,10 @@ keywords: 虚拟报表包
 title: 虚拟报表包和多包标记注意事项
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1766'
-ht-degree: 86%
+source-wordcount: '1652'
+ht-degree: 85%
 
 ---
 
@@ -30,12 +30,6 @@ ht-degree: 86%
 虚拟报表包不支持将区段共享到 Adobe Experience Cloud。要将区段共享到 Experience Cloud 的用户必须有权访问源报表包。
 
 尚且无法从虚拟报表包中将区段发布到 Adobe Experience Cloud 以进行个性化和定位。要实现此目的，发布区段的所有用户都必须有权访问源报表包。例如，您希望用户只能访问他们所在地区的数据，但您希望他们能够从 Adobe Analytics 中创建区段，并将区段共享到 Adobe Experience Cloud，以便在 Adobe Target 中进行定位。在这种情况下，Adobe 建议使用多包标记。如果您不介意用户是否有权访问全局报表包，或者您不需要发布区段以用于其他解决方案，则可以使用虚拟报表包。
-
-### 实时和当前数据
-
-由于虚拟报表包中的数据是已分段的，因此这类报表包中不支持实时报表。由于当前数据不支持分段，因此虚拟报表包中也不支持当前数据。这两项功能都特定于 Reports &amp; Analytics。
-
-虚拟报表包中不包含[实时报表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)和[当前数据](/help/technotes/latency.md)。这会影响在数据收集的几秒或几分钟内对 Reports &amp; Analytics 中显示的趋势做出响应的用户。例如，这可能包括新闻室中的编辑人员，这些编辑人员根据实时内容使用情况来调整标题。如果您有大量特定于单个报表包的实时数据需求，请考虑使用多包标记。实时数据和当前数据仍可用于全局报表包。
 
 ### 唯一限制
 

@@ -3,10 +3,10 @@ title: Analytics 维度兼容性
 description: Analytics 维度和报表的参考。
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 98%
+source-wordcount: '887'
+ht-degree: 97%
 
 ---
 
@@ -18,11 +18,7 @@ ht-degree: 98%
 >
 >此列表中删除了自定义变量名称、分类和访客属性。这些维度项目特定于单个报表包。
 
->[!NOTE]
->
->在 Analytics 工具对类似维度使用不同术语时存在一些重叠。例如，Reports &amp; Analytics 使用 `browserwidth`，而 Analysis Workspace 使用 `browserwidthbucketed`。
-
-## 在 Reports &amp; Analytics 和 Analysis Workspace 中均受支持的维度
+## Analysis Workspace支持的Dimension
 
 | 维度名称（在 Analytics UI 中可见） | 维度 ID（用于 API 请求） |
 |---|---|
@@ -101,11 +97,6 @@ ht-degree: 98%
 | 访问深度 | `pathlength` |
 | 访问量 | `visitnumber` |
 | 邮政编码 | `zip` |
-
-## 仅在 Analysis Workspace 中受支持的维度
-
-| 维度名称（在 Analytics UI 中可见） | 维度 ID（用于 API 请求） |
-|--- |--- |
 | 上午/下午 | `timepartampm` |
 | 浏览器高度 — 分段统计 | `browserheightbucketed` |
 | 浏览器宽度 — 分段统计 | `browserwidthbucketed` |
@@ -164,24 +155,7 @@ ht-degree: 98%
 | Nielsen 渠道资产 | `nielsenchannelasset` |
 | Nielsen 内容类型 | `nielsencontenttype` |
 
-## 仅在 Reports &amp; Analytics 中受支持的维度
-
-| 维度名称（在 Analytics UI 中可见） | 维度 ID（用于 API 请求） |
-|--- |--- |
-| 浏览器高度 | `browserheight` |
-| 浏览器宽度 | `browserwidth` |
-| 每日独特客户 | `dailyuniquecustomers` |
-| JavaScript | `javascriptsupport` |
-| JavaScript 版本 | `javascriptversion` |
-| 每月独特客户 | `monthlyuniquecustomers` |
-| 每季独特客户 | `quarterlyuniquecustomers` |
-| 时区 | `timezone` |
-| 顶级域名 | `topleveldomain` |
-| 访客所在州 | `legacystate` |
-| 每周独特客户 | `weeklyuniquecustomers` |
-| 每年独特客户 | `yearlyuniquecustomers` |
-
-## 在 Reports &amp; Analytics 和 Analysis Workspace 中均受支持的内容感知维度
+## Analysis Workspace支持的内容感知维度
 
 ### 视频（媒体分析）
 

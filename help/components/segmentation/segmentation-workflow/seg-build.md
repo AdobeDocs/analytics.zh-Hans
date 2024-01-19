@@ -3,10 +3,10 @@ description: 区段生成器提供了一个画布以将指标维度、区段和�
 title: 生成区段
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '2054'
-ht-degree: 99%
+source-wordcount: '1974'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,6 @@ ht-degree: 99%
 
 * **Analytics 顶部导航**：单击 **[!UICONTROL Analytics]** > **[!UICONTROL 组件]** > **[!UICONTROL 区段]**。
 * **[!UICONTROL Analysis Workspace]**：单击 **[!UICONTROL Analytics]** > **[!UICONTROL 工作区]**，打开一个项目，然后单击 **[!UICONTROL + 新建]** > **[!UICONTROL 创建区段]**。
-* **[!UICONTROL Reports &amp; Analytics]**：单击 **[!UICONTROL Analytics]** > **[!UICONTROL 报表]**，打开一个现有报表并单击左侧导航中的“区段”图标 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)，然后单击&#x200B;**[!UICONTROL 添加]**。
 * **[!UICONTROL Report Builder]**：[在 Report Builder 中添加或编辑区段](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html?lang=zh-Hans)。
 
 ## 生成器条件 {#section_F61C4268A5974C788629399ADE1E6E7C}
@@ -68,10 +67,9 @@ ht-degree: 99%
 1. **[!UICONTROL 区段]**：单击标题可展开。
 1. **[!UICONTROL 报表包选择器]**：用于选择保存此区段的报表包。您仍可以在所有报表包中使用该区段。
 1. **[!UICONTROL 区段预览]**：用于预览关键指标，以确定是否具有有效的区段以及区段的广泛程度。表示应用此区段时预期的数据集划分。显示 3 个同心圆和一个列表，以显示针对数据集运行的区段的[!UICONTROL 点击]、[!UICONTROL 访问]和[!UICONTROL 访客]的匹配项数量和百分比。在创建区段定义或对区段定义做出更改之后，将立即更新此图表。
-1. **[!UICONTROL 产品兼容性]**：列出与您创建的区段兼容的 Adobe Analytics 产品（Analysis Workspace、[!UICONTROL Reports &amp; Analytics]、Data Warehouse）。大多数区段与所有产品都兼容。但是，并非所有运算符和维度都与 Analytics 的所有产品兼容，特别是 [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md)。在对区段定义做出更改之后，将立即更新此图表。
+1. **[!UICONTROL 产品兼容性]**：列出与您创建的区段兼容的Adobe Analytics产品(Analysis Workspace、Data Warehouse)。 大多数区段与所有产品都兼容。但是，并非所有运算符和维度都与所有Analytics产品兼容，特别是 [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md). 在对区段定义做出更改之后，将立即更新此图表。
 1. **[!UICONTROL 保存]**&#x200B;或&#x200B;**[!UICONTROL 取消]**：保存或取消区段。单击&#x200B;**[!UICONTROL 保存]**&#x200B;之后，将转到区段管理器，您可以在此处管理区段。
 
-嵌入了日期范围的区段会继续以不同的方式在 Analysis Workspace 与 [!UICONTROL Reports &amp; Analytics] 中运行：在“工作区”中，嵌入了日期范围的区段会覆盖面板日期范围。相反，[!UICONTROL Reports &amp; Analytics] 会显示报表日期范围和区段嵌入日期范围的交集。
 
 ## 生成区段 {#build-segments}
 
@@ -85,7 +83,7 @@ ht-degree: 99%
 1. 输入或选择所选项目的值。
 1. 如果需要，可使用“**[!UICONTROL And]**”、“**[!UICONTROL Or]**”或“**[!UICONTROL Then]**”规则添加其他容器。
 1. 在放置容器并设置规则之后，可以在右上方的验证图表中看到区段的结果。验证器将指示与所创建区段匹配的页面查看、访问和独特访客的百分比和绝对数。
-1. 在“标记”****&#x200B;下，通过选择现有标记或创建新标记来[标记](/help/components/segmentation/segmentation-workflow/seg-tag.md)容器。
+1. 下 **[!UICONTROL 标记]**， [标记](/help/components/segmentation/segmentation-workflow/seg-tag.md) 容器。
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存区段。
 
 此时您将转到[区段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)，在此处，可以通过多种方式标记、共享和管理区段。
@@ -234,7 +232,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> 社交网站访问量 </td> 
-   <td colname="col2">查看通过社交网站反向链接的访客的数据。在区段定义中，容器为访问。规则为 <p>反向链接类型等于“社交网络”。 </p> </td> 
+   <td colname="col2">查看通过社交网站反向链接的访客的数据。在区段定义中，容器为访问。规则为 <p>反向链接类型等于社交网络。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 来自平板电脑的访问量 </td> 

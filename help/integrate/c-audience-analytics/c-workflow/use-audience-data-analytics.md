@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: 在 Analytics 中使用受众数据
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 90%
+source-wordcount: '573'
+ht-degree: 89%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 90%
 
 ## Analysis Workspace 中的客户历程（流量） {#section_FC30E5795C9D4539838E30FE11FAEA6E}
 
-Adobe Audience Manager区段数据是逐次点击传递到Analytics中的，表示访客在该时间点的受众成员资格。 这意味着，访客可能归属于一个区段（例如“感知”），然后又有资格访问另外一个获得授权的区段（例如“注意事项”）。您可以在 Analysis Workspace 中使用[流量](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=zh-Hans)显示访客在各受众之间的历程。
+Adobe Audience Manager区段数据是按点击传递到Analytics中的，表示访客在该时间点所具有的受众成员资格。 这意味着，访客可能归属于一个区段（例如“感知”），然后又有资格访问另外一个获得授权的区段（例如“注意事项”）。您可以在 Analysis Workspace 中使用[流量](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=zh-Hans)显示访客在各受众之间的历程。
 
 1. 转至&#x200B;**[!UICONTROL 工作区]**&#x200B;并从左边栏中选择&#x200B;**[!UICONTROL 流量]**&#x200B;可视化。
 
@@ -81,9 +81,3 @@ Adobe Audience Manager区段数据是逐次点击传递到Analytics中的，表�
 
    ![](assets/aud-segbuilder.png)
 
-## Reports &amp; Analytics 和 Report Builder {#section_04E8FD30F73344D7937AD3C6CD19E34A}
-
-1. 要查看 Analytics 报表，请转至&#x200B;**[!UICONTROL 报表]** > **[!UICONTROL 访客配置文件]** > **[!UICONTROL 受众 ID 报表]**。
-1. 从该文件夹中，您可以同时访问受众 ID 和受众名称维度。
-
-   ![](assets/mc-audiences.png)

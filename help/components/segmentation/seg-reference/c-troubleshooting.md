@@ -3,9 +3,9 @@ description: 排除和修复与区段相关的问题。
 title: 分段疑难解答
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '220'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,6 @@ ht-degree: 100%
 可能的原因：
 
 * 有些维度只能在“Data Warehouse”中使用，不能在“区段管理器”中使用。
-* 区段和 Reports &amp; Analytics 不兼容。
 * 已指定该区段专门用于特定的报表包。
 * 其他用户可能删除了共享的区段。
 * 区段由于数据中心或浏览器缓存问题而无法加载。

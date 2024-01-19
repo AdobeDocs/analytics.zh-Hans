@@ -4,10 +4,10 @@ title: 智能警报概述
 feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 83%
+source-wordcount: '320'
+ht-degree: 88%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 83%
 
 ## 概述
 
-Analysis Workspace中新增的警报生成器和警报管理器取代了Reports &amp; Analytics中已终止的警报功能。 智能警报允许您：
+智能警报允许您：
 
 * 构建基于异常的警报（90%、95%、99%、99.75% 和 99.9% 阈值；% 更改；以上/以下）。
 * 预览警报触发的频率

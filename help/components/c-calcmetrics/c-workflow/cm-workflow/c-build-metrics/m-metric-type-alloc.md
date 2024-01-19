@@ -3,10 +3,10 @@ description: 了解
 title: 量度类型和归因
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 73%
+source-wordcount: '383'
+ht-degree: 69%
 
 ---
 
@@ -46,9 +46,3 @@ ht-degree: 73%
 
 此示例中，在第 7 次点击进行了价值 10 美元的购买之前，值 A、B、C 已发送到第 1、3、4、6 次点击上的变量之中。第二行显示出，在这一系列的点击中，这些值均一直持久出现在最近联系访问中。第三行则显示出首次联系访问的持久性。最后，最后一行显示的是某个不具有持久性的属性 (Prop) 其数据是如何记录的。
 
-## Reports &amp; Analytics 与 Workspace 中线性分配工作方式的差异
-
-线性归因的工作方式在以下两种工具之间有一些差异：
-
-* 在 Reports &amp; Analytics 中,（已处理的）线性归因始终基于访问；而在 Workspace 中，它可能基于访问或访客。
-* 在 Reports &amp; Analytics 中，如果访问首次点击时没有传递值，则（初始）值将在上次访问后持续存在。在Workspace（归因）中，情况并非如此。 如果访问的第一次点击没有传递任何值，则初始值为“无”。

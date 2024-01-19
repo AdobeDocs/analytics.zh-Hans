@@ -3,10 +3,10 @@ description: 在 Analysis Workspace 中使用警报。
 title: 警报生成器概述
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 100%
+source-wordcount: '463'
+ht-degree: 98%
 
 ---
 
@@ -16,14 +16,13 @@ ht-degree: 100%
 >
 >智能警报仅适用于 Adobe [!DNL Analytics] Prime 和 Adobe [!DNL Analytics] Ultimate 客户。
 
-可通过以下四种方法访问警报生成器：
+可通过以下三种方式之一访问警报生成器：
 
 * 在 Analysis Workspace 中使用以下快捷键：
 
-   `ctrl (or cmd) + shift + a`
+  `ctrl (or cmd) + shift + a`
 * 转到&#x200B;**[!UICONTROL Workspace]** > **[!UICONTROL 组件]** > **[!UICONTROL 新警报]**。
 * 选择一个或多个自由格式表行项目，单击鼠标右键并选择&#x200B;**[!UICONTROL 从选定范围中创建警报]**。
-* 从 [!UICONTROL Reports &amp; Analytics] 报表中，转到&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 添加警报]**。
 
 警报生成器界面与 [!DNL Analytics] 中具有生成区段或计算指标的界面相似：
 
@@ -59,7 +58,7 @@ ht-degree: 100%
 
 * 将指标拖放到将添加触发器的画布中。
 
-   请注意，如果警报中有组件（指标/维度/区段）与当前选中的报表包不兼容，则会显示&#x200B;**“组件不兼容”**&#x200B;消息。
+  请注意，如果警报中有组件（指标/维度/区段）与当前选中的报表包不兼容，则会显示&#x200B;**“组件不兼容”**&#x200B;消息。
 
 * 确定触发警报前指标必须超过的阈值。您可以将此值设置为一个阈值，然后设置为下列条件之一：
 

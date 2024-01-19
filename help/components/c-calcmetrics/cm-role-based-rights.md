@@ -3,10 +3,10 @@ description: 计算指标权限在管理员级别的用户和非管理员用户�
 title: 计算指标：基于角色的权限
 feature: Calculated Metrics
 exl-id: 018d9ef5-5a6f-4ebc-a241-c1291ba6b561
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 100%
+source-wordcount: '237'
+ht-degree: 78%
 
 ---
 
@@ -14,33 +14,7 @@ ht-degree: 100%
 
 计算指标权限在管理员级别的用户和非管理员用户之间有所不同。
 
-<table id="table_13F72FD90C964B86BD4B51E6F51ED292"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> </th> 
-   <th colname="col02" class="entry"> 创建 </th> 
-   <th colname="col2" class="entry"> 共享 </th> 
-   <th colname="col3" class="entry"> 查看/管理 </th> 
-   <th colname="col4" class="entry"> 批准 </th> 
-   <th colname="col5" class="entry"> 应用 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <b>管理员级别的用户</b> </td> 
-   <td colname="col02"> 管理员可创建计算指标以及在 Admin Console 中创建产品配置文件以限制用户创建计算指标的权利。 </td> 
-   <td colname="col2"> 可与整个公司、用户组和个别用户共享。 </td> 
-   <td colname="col3"> <span class="keyword">Reports &amp; Analytics</span>：可以对他们自己以及其他用户的计算指标执行查看/编辑/删除等操作。 <p> <span class="keyword">Report Builder</span>：可查看/编辑/删除/等等自身的计算指标和与他共享的计算指标。 </p> </td> 
-   <td colname="col4"> 可以批准计算指标作为规范。 </td> 
-   <td colname="col5"> 可以在整个组织内应用任何计算指标。 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b>非管理员级别的用户</b> </td> 
-   <td colname="col02"> 默认情况下，用户可以创建计算指标。但是，管理员可能会限制此类权限。 </td> 
-   <td colname="col2"> 只能与个人用户共享 </td> 
-   <td colname="col3"> 只能对他们自己的计算指标执行查看/编辑/删除等操作。 <p>非管理员用户必须具有所有组件事件的访问权限，才能查看共享指标（管理控制台中的权限仍然是必需的）。 </p> <p>如果与非管理员用户共享功能板或计划报表，并且他们没有与其共享的指标，则报表将随应用的指标一起运行（假定他们有权查看事件）。但是，他们将无法查看定义或编辑指标。 </p> </td> 
-   <td colname="col4"> 只能使用批准的计算指标，无法将计算指标标记为已批准。 </td> 
-   <td colname="col5"> 可以应用他们自己的计算指标以及与他们共享的区段。 </td> 
-  </tr> 
- </tbody> 
-</table>
+|  | 创建 | 共享 | 查看/管理 | 批准 | 应用 |
+|--- |--- |--- |--- |--- |--- |
+| 管理员级别的用户 | 管理员可创建计算指标以及在 Admin Console 中创建产品配置文件以限制用户创建计算指标的权利。 | 可与整个公司、用户组和个别用户共享。 | Report Builder：可以查看/编辑/删除/等等。 它自己的计算指标以及与它共享的计算指标。 | 可以批准计算指标作为规范。 | 可以在整个组织内应用任何计算指标。 |
+| 非管理员级别的用户 | 默认情况下，用户可以创建计算指标。但是，管理员可能会限制此类权限。 | 只能与个人用户共享 | 只能对他们自己的计算指标执行查看/删除等操作。 非管理员用户必须具有所有组件事件的访问权限，才能查看共享量度（管理控制台中的权限仍然是必需的）。  如果与非管理员用户共享功能板或计划报表，并且他们没有与其共享的指标，则报表将随应用的指标一起运行（假定他们有权查看事件）。但是，他们将无法查看定义或编辑指标。 | 只能使用批准的计算指标，无法将计算指标标记为已批准。 | 可以应用他们自己的计算指标以及与他们共享的区段。 |

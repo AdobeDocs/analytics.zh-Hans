@@ -3,10 +3,10 @@ description: 导入器允许您将文件中的分类数据批量上载至分析�
 title: 分类数据文件
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: caeaef9415be93913bdf078a47c887fc21fd6e60
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1798'
-ht-degree: 98%
+source-wordcount: '1768'
+ht-degree: 96%
 
 ---
 
@@ -29,16 +29,16 @@ ht-degree: 98%
 * 分类不能包含 0（零）值。
 * Adobe 建议您将导入和导出列的数量限制为 30。
 * 上载的文件必须使用不带 BOM 字符编码的 UTF-8 格式。
-* 包含制表符、换行符和引号在内的特殊字符可以嵌入在单元格内，前提是指定了 v2.1 文件格式，并且该单元格已被正确[转义](/help/components/classifications/importer/t-classifications-escape-data.md)。特殊字符包括：
+* 如果指定了v2.1文件格式并且单元格正确，则可以在单元格中嵌入特殊字符，例如制表符、换行符和引号 [转义](/help/components/classifications/importer/t-classifications-escape-data.md). 特殊字符包括：
 
-   ```text
-   \t     tab character 
-   \r     form feed character 
-   \n    newline character 
-   "       double quote
-   ```
+  ```text
+  \t     tab character 
+  \r     form feed character 
+  \n    newline character 
+  "       double quote
+  ```
 
-   逗号不属于特殊字符。
+  逗号不属于特殊字符。
 
 * 分类不得包含脱字符 (^)，因为此字符用来表示子分类。
 * 请小心使用连字符。例如，如果您在 Social 术语中使用连字符 (-)，则 Social 会将连字符识别为 [!DNL Not] 运算符（减号）。例如，如果您使用导入指定 *`fragrance-free`* 作为术语，则 Social 会将该术语识别为 fragrance *`minus`* free，并收集提及 *`fragrance`*，但未提及 *`free`* 的帖子。
@@ -94,7 +94,6 @@ ht-degree: 98%
 >
 >* [常见上载问题](https://helpx.adobe.com/cn/analytics/kb/common-saint-upload-issues.html)
 
-
 ## 列标题格式
 
 >[!NOTE]
@@ -109,11 +108,9 @@ ht-degree: 98%
 
 ### 分类列标题
 
-示例：您的Reports &amp; Analytics实施自动包含两个分类 [!UICONTROL Campaign] 变量： [!UICONTROL 营销活动] 和 [!UICONTROL 创意元素]. 若要将数据添加到[!UICONTROL 促销活动]分类中，分类数据文件中的列标题应为[!UICONTROL 促销活动]。
-
 >[!NOTE]
 >
->[!UICONTROL 分类]列标题中的值必须完全符合分类的命名规范，否则会导致导入失败。例如，如果管理员在[!UICONTROL 促销活动设置管理器]中将[!UICONTROL 促销活动]更改为[!UICONTROL 内部促销活动名称]，则文件列标题必须随之更改。“键”是一个保留的分类（标题）值。 不支持名为“Key”的新分类。
+>[!UICONTROL 分类]列标题中的值必须完全符合分类的命名规范，否则会导致导入失败。例如，如果管理员更改 [!UICONTROL 营销活动] 到 [!UICONTROL 内部营销活动名称] 在 [!UICONTROL Campaign设置管理器]，必须更改文件列标题才能匹配。 “键值”是一个保留的分类（标头）值。 不支持名为“Key”的新分类。
 
 此外，数据文件支持下列其他标题规范，用于标识子分类和其他特殊数据列：
 

@@ -1,18 +1,18 @@
 ---
-description: 与 Analysis Workspace 模板以及在 Reports & Analytics 和 Report Builder 中进行报告的相关详细信息。
+description: 有关Analysis Workspace模板以及Report Builder中报表的详细信息。
 title: 在 Adobe Analytics 中报告广告数据
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 100%
+source-wordcount: '363'
+ht-degree: 93%
 
 ---
 
 # 在 Adobe Analytics 中报告广告数据
 
-与 Analysis Workspace 模板以及在 Reports &amp; Analytics 和 Report Builder 中进行报告的相关详细信息。
+有关Analysis Workspace模板以及Report Builder中报表的详细信息。
 
 >[!NOTE]
 >
@@ -43,12 +43,6 @@ ht-degree: 100%
 | 广告总计 | 排名最前的广告的自由格式表，按照相关指标划分。 |
 | 关键字 | 所有关键字/匹配类型组合的展示次数、点击次数和成本的散点图。 |
 | 关键字总计 | 排名最前的关键字/匹配类型组合的自由格式表，按照相关指标划分。 |
-
-## Reports &amp; Analytics {#section_BB2E75DF909C49EA8D4E92D14D6DFD85}
-
-一旦设置 Advertising Analytics 帐户，Advertising Analytics 报表即可用。
-
-![](assets/aa_randa.png)
 
 ## Report Builder {#section_8E0371CF81144C33990D909685D1726E}
 

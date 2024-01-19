@@ -3,9 +3,9 @@ title: 独特访客
 description: 独特访客 ID 的数量。
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: ht
-source-wordcount: '556'
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+workflow-type: tm+mt
+source-wordcount: '446'
 ht-degree: 100%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 100%
 如果您使用[跨设备分析](../cda/overview.md)，则此指标会被替换为[独特设备](unique-devices.md)指标。
 
 ## 每日、每周、每月、每季度和每年独特访客
-
-Reports &amp; Analytics 提供了每日、每周、每月、每季度和每年独特访客选项。独特访客不会计算整个时间段的单个独特访客，而是会根据所选的指标进行计数。例如，您希望查看网站的每日独特访客。如果访客早上访问您的网站，晚上再次访问，将计为一个每日独特访客。如果访客周一访问您的网站，周二再次访问，将计为两个每日独特访客。
 
 Analysis Workspace 根据报表的粒度处理独特访客。例如，如果您使用[天](../dimensions/day.md)维度，您将看到每个维度项目的每日独特访客。但是，对于报表合计，它会消除自由形式表日期范围的重复独特访客。
 

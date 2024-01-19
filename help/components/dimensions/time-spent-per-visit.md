@@ -3,10 +3,10 @@ title: 每次访问逗留时间（维度）
 description: 访问逗留的总时间。
 feature: Dimensions
 exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 95%
+source-wordcount: '302'
+ht-degree: 92%
 
 ---
 
@@ -39,6 +39,6 @@ ht-degree: 95%
 每次访问逗留时间存在多个维度：
 
 * **每次访问逗留时间 - 分段统计**：分段统计时间。维度项目介于 `"Less than 1 minute"` 到 `"More than 15 hours"` 之间。访问时间一般不超过 12 小时；但是，如果使用带有时间戳的点击或数据源，访问时间可能超过 12 小时。
-* **每次访问逗留时间 - 粒度**：每个秒数都是一个唯一的维度项目。此维度在 Reports &amp; Analytics 或 Data Warehouse 中不可用。
+* **每次访问逗留时间 - 粒度**：每个秒数都是一个唯一的维度项目。此维度在Data Warehouse中不可用。
 
 有关逗留时间的更多常规信息，请参阅[逗留时间概述](../metrics/time-spent.md)。

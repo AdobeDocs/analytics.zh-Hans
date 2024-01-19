@@ -3,9 +3,9 @@ title: Adobe Analytics 中使用的术语
 description: Adobe Analytics 词汇表，用于定义常用术语。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '2535'
+source-wordcount: '2541'
 ht-degree: 97%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 97%
 * **实时：**&#x200B;在收集配置的变量后立即显示该变量，延迟时间很少甚至没有。请参阅管理用户指南中的[实时报表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)。
 * **Report Builder：**&#x200B;一个 Microsoft Excel 插件，可让您从 Adobe Analytics 数据构建自定义请求。
 * **报表包**：将数据发送到的首要容器。Adobe Analytics 中的所有报表都引用了一个报表包。
-* **Reports &amp; Analytics：**&#x200B;以前称为 SiteCatalyst。用于报告和分析的浏览器解决方案。Analytics 包中的初学者工具。
+* **Reports &amp; Analytics：**&#x200B;以前称为 SiteCatalyst。用于报告和分析的浏览器解决方案。Analytics包中的入门工具。 此工具已 [生命周期结束](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=en).
 * **滚动日期范围：**&#x200B;随时间变化而更改的相对日期范围类型。例如，显示最近 7 天的报表可视为滚动日期范围。另请参阅“静态日期范围”。
 * **RSID：**&#x200B;报表包 ID 的缩写。报表包同时具有易记名称和报表包 ID。
 * **s.t()：** AppMeasurement 库中发送页面查看图像请求的函数的名称。有些 AppMeasurement 库使用 `s.track()`。请参阅《实施用户指南》中的 [t](../implement/vars/functions/t-method.md)。

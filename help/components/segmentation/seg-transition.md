@@ -1,16 +1,16 @@
 ---
 description: 有关管理旧版区段的常见问题解答。
-title: 有关旧版区段的常见问题解答
+title: 有关旧版客户细分的常见问题解答
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 91%
+source-wordcount: '1445'
+ht-degree: 88%
 
 ---
 
-# 有关旧版区段的常见问题解答
+# 有关旧版客户细分的常见问题解答
 
 解答有关管理旧版区段（在2014年之前创建的区段）的最佳实践的常见问题。
 
@@ -20,7 +20,7 @@ ht-degree: 91%
 
 您的现有区段将继续和以前一样使用。已应用了这些区段的任何报表将仍可正常使用。[更多...](/help/components/segmentation/seg-transition.md)
 
-以前的大多数预定义包区段将作为区段模板迁移到区段生成器中。使用区段模板可以快速生成适合一般受众的自定义区段。区段模板无法直接应用于报表，但可以轻松保存到自定义区段。
+大多数之前预定义的区段和包区段将作为区段模板迁移到区段生成器中。 使用区段模板可以快速生成适合一般受众的自定义区段。区段模板无法直接应用于报表，但可以轻松保存到自定义区段。
 
 在区段生成器中，区段模板使用特殊的图标进行标记：
 
@@ -42,9 +42,9 @@ ht-degree: 91%
 
 +++
 
-+++ **data warehouse区段发生了什么情况？**
++++ **Data Warehouse区段发生了什么情况？**
 
-仍可在 Data Warehouse 中使用所有现有的 Data Warehouse 区段。大多数 Data Warehouse 区段在 Analysis Workspace 和 Reports &amp; Analytics 等其他组件中将也可正常使用。
+仍可在 Data Warehouse 中使用所有现有的 Data Warehouse 区段。大多数Data Warehouse区段在其他组件(如Analysis Workspace)中也正常工作。
 
 您可以在区段生成器/管理器中创建或编辑新的 Data Warehouse 区段。区段生成器中的产品兼容性机制会自动确定区段是否与 Data Warehouse 兼容。
 
@@ -72,9 +72,9 @@ ht-degree: 91%
 * 之前访问次数超过 5 次的访问量*
 * Facebook 访问量*
 
-这些区段中的大部分（带有星号*标记的区段除外）都已作为区段模板迁移到区段生成器中。 此外，还添加了多个新区段模板。
+这些区段中的大部分（带有星号*标记的区段除外）都将作为区段模板迁移到区段生成器中。 此外，还添加了多个新区段模板。
 
-应用了这些区段的现有报表可以继续正常运行。
+已应用这些区段的现有报表仍可正常使用。
 
 +++
 
@@ -103,7 +103,7 @@ ht-degree: 91%
 * 审查您拥有的区段。
 * 将区段添加到区段库（如果适用）。
 * 批准符合规范的区段。
-* 根据[最佳实践](/help/components/segmentation/segmentation-workflow/seg-workflow.md)标记区段。
+* 根据以下条件标记区段： [最佳实践](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 +++
 
@@ -114,7 +114,7 @@ ht-degree: 91%
 * 地域（市、州/省、国家/地区）– 搜索并选择特定的城市、州/省或国家/地区，而不是使用部分匹配。
 * 浏览器 – 使用浏览器类型维度来获取某种类型的所有浏览器，如 Google Chrome
 * 操作系统 – 使用操作系统类型维度来获取某种类型的所有操作系统，如 Microsoft Windows。
-* 请参阅“新页面和重命名的Dimension”（请参阅下文）
+* 请参阅“新维度和重命名的Dimension”（请参阅下文）
 
 ## 新维度和重命名的维度 {#renamed}
 
@@ -171,7 +171,7 @@ ht-degree: 91%
 
 ## 对具有已知值的整数维度的更改 {#integer-based-dims}
 
-具有已知值集的整数维度（如浏览器宽度）已被拆分为多个枚举范围，因此您可以快速定义特定范围的区段。这些枚举列表会在维度名称后附加“- 分段统计”。以下屏幕显示了如何使用以前的和新的区段生成器界面划分这些维度：
+具有已知值集的整数维度（如浏览器宽度）已被拆分为多个枚举范围，因此您可以快速定义特定范围的区段。这些枚举列表会在维度名称后附加“- 分段统计”。以下屏幕显示了使用以前的和新的segment builder界面划分这些维度的方式：
 
 ![](assets/seg_browser_dimension.png)
 
