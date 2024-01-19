@@ -4,10 +4,10 @@ subtopic: Marketing channels
 title: 管理营销渠道
 feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 97%
+source-wordcount: '742'
+ht-degree: 94%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 >
 > 有关营销渠道的一般信息，请参阅[营销渠道快速入门](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
 >
-> 为了最大化 Attribution 和 Customer Journey Analytics 的营销渠道效率，我们发布了一些 [修订后的最佳实践](/help/components/c-marketing-channels/mchannel-best-practices.md)。
+> 为了最大化归因和Customer Journey Analytics的营销渠道效率，我们发布了一些 [修订后的最佳做法](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 管理员]** > **[!UICONTROL 报告包]** > **[!UICONTROL 编辑设置]** > **[!UICONTROL 营销渠道]** > **[!UICONTROL 营销渠道管理器]**。
 
@@ -77,7 +77,6 @@ ht-degree: 97%
 | 覆盖最近联系渠道 | 您可以选择是否用所选渠道覆盖现有持续的最近联系渠道。如果选中此复选框，任何渠道（包括直接和内部）都将会覆盖现有的最近联系渠道。结果会导致对不该取得信用的渠道进行转换。例如，如果用户此前已经通过免费搜索渠道取得信用，则此选项可以确保直接渠道不会接收用于转换的信用。 |
 | 渠道划分 | 允许您使用该值划分渠道。创建[营销渠道分类时](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)，您可以添加可能的渠道划分（子渠道）。 |
 | 类型 | 指定用户访问您网站的途径。您可以选择在线或离线。对于通过搜索引擎或电子邮件促销活动来访的访客，使用“在线”渠道。“离线”渠道适用于通过报纸优惠券或杂志广告发现您网站的访客。离线渠道通常包括通过报告数据源导入的数据。请参阅[数据源](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=zh-Hans)。请参阅[添加离线数据](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。 |
-| 颜色 | 仅限 Reports &amp; Analytics：与此营销渠道关联的颜色。此颜色代表营销渠道报告中的渠道。 |
 
 ### 覆盖最佳实践
 

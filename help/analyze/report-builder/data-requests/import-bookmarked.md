@@ -4,10 +4,10 @@ title: 导入加入书签的报表和功能板缩图报表
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 82%
+source-wordcount: '241'
+ht-degree: 65%
 
 ---
 
@@ -25,16 +25,7 @@ ht-degree: 82%
 
 >[!NOTE]
 >
->在 Report Builder 中，功能板和书签的列表对用户来说是有限的，并且仅限于适用于您在向导的第 1 步中选择的报表包的那些功能板和书签。相比之下，在市场营销 Reports &amp; Analytics 中，允许您访问所有可访问的书签和功能板，无论这些功能板和书签使用哪些报表包。
-
->[!NOTE]
->
 >仅导入数据，因此，如果书签包含图表或功能板缩图报表仅由图表组成，则仅导入用于填充该图表的数据。
 
 通过导入功能板缩图报表（或书签）创建请求后，该请求将会关联到缩图报表（或书签）的主要维度。因此，如果您编辑请求，树视图将不再选择功能板缩图报表树视图节点（或书签节点）：而是会选择其主要维度。
 
-导入的小书签会将报表包、选定的区段、维度和选定的指标相应设置为 Reports &amp; Analytics 书签中显示的相同参数。
-
->[!IMPORTANT]
->
->日期范围将会设置为相同的日期范围，但是会作为静态日期范围 — 即使此日期范围在 Reports &amp; Analytics 书签中为滚动日期范围也是如此。

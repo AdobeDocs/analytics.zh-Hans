@@ -2,10 +2,11 @@
 description: 有关 Adobe Analytics 的一般概述信息，包括有关 Analytics 界面的信息以及针对管理员、分析师、用户和开发人员的快速入门信息。
 title: 了解 Analytics 界面
 feature: Analytics Basics
-source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
-workflow-type: ht
-source-wordcount: '2816'
-ht-degree: 100%
+exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+workflow-type: tm+mt
+source-wordcount: '2101'
+ht-degree: 99%
 
 ---
 
@@ -29,9 +30,7 @@ Adobe Analytics 界面由以下关键区域组成，包括用于管理 Analysis 
 
 ## “报告”选项卡
 
-自 2023 年 12 月 31 日起，Adobe 决定中断 Reports &amp; Analytics 及其随附的报表和功能。
-
-相反，请使用&#x200B;[!UICONTROL **Workspace**]&#x200B;选项卡上左侧边栏中的&#x200B;[!UICONTROL **报告**]&#x200B;区域。有关更多信息，请参阅在 [Adobe Analytics 登录页面](/help/analyze/landing.md)中的&#x200B;*导航“报告”选项卡*。
+使用 [!UICONTROL **报表**] 左侧边栏中的区域 [!UICONTROL **工作区**] 选项卡。 有关更多信息，请参阅在 [Adobe Analytics 登录页面](/help/analyze/landing.md)中的&#x200B;*导航“报告”选项卡*。
 
 ## “组件”选项卡
 
@@ -51,13 +50,11 @@ Adobe Analytics 界面由以下关键区域组成，包括用于管理 Analysis 
    | 日期范围 | Analysis Workspace 包含用户在构建分析时可以使用的默认日期范围列表。此外，您可以创建自定义日期范围并将其提供给 Analysis Workspace 中的用户。 | [创建自定义日期范围](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=zh-Hans) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | 虚拟报表包 | 虚拟报表包可对您的 Adobe Analytics 数据进行分段，以便您能够控制每个区段的访问权限。 | [虚拟报表包概述](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-Hans) |
    | 警报 | 智能警报允许对警报进行更多粒度控制，而且还将异常检测与警报系统集成在一起。 | [智能警报](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=zh-Hans) |
-   | 目标 | 利用目标可以评测网站的绩效，跟踪目标进度。创建目标时，选择要测量的属性量度或 eVar，或根据所选量度选择测量整个网站。 <p>目标是 Reports &amp; Analytics 的一部分。详细了解 Reports &amp; Analytics [生命周期结束公告](https://express.adobe.com/page/6WnF8JK6IRDhf/)。</p> | [目标](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/targets.html?lang=zh-Hans) |
    | 日程表事件 | 对于特定时段的趋势报表，日程表事件允许您以图形方式显示事件，并查看促销活动或其他事件是否对网站流量、收入或任何其他量度产生影响。 | [日程表事件](https://experienceleague.adobe.com/docs/analytics/components/t-calendar-event.html?lang=zh-Hans) |
    | 批注 | 工作区中注释使您能够有效地将上下文数据的细微差别和见解传达给您的组织。它们可让您将日程表活动与特定维度和指标关联起来。 | [管理批注](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/manage-annotations.html?lang=zh-Hans) |
    | 分类集 | 分类集提供单一界面来管理分类和规则。 <p>分类是在生成报表时对 Analytics 变量数据进行分类，然后以不同的方式显示数据的方法。您在变量值和与该值相关的元数据之间建立关系。分类可用于大多数自定义维度，例如跟踪代码、props 和 eVar。</p> | [分类集概述](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=zh-Hans) |
    | 位置 | 为了从云目标导入 Adobe Analytics 分类数据，您首先需要添加并配置要收集分类数据的位置。您可以创建、编辑或删除位置。 | [位置管理器](https://experienceleague.adobe.com/docs/analytics/components/locations/locations-manager.html?lang=zh-Hans) |
    | 计划项目 | 管理计划项目时，可以编辑和删除重复项目计划；在搜索栏中或使用左侧边栏中的过滤器选项搜索计划；并按标记、批准的计划、所有者等进行过滤。 | [计划项目](/help/components/scheduled-projects-manager.md) |
-   | 书签 | 书签可让您访问最常用的报表。创建的书签会添加到 Experience Cloud 中，并可在 Data Connectors 等集成功能中使用。 <p>书签是 Reports &amp; Analytics 的一部分。详细了解 Reports &amp; Analytics [生命周期结束公告](https://express.adobe.com/page/6WnF8JK6IRDhf/)。 | [书签管理器](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/bookmarks.html?lang=zh-Hans) |
    | 仪表板 | 创建仪表板是为了可视化指标并提供数据的交互式分析功能。通过单击仪表板中的项目，您可以快速轻松地对数据进行分段，以从分析中获取信息。 <p>仪表板是 Data Workbench 的一部分。阅读关于 Data Workbench 的[终止使用公告](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=zh-Hans)。 | [功能板管理器](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/dashboard-manage.html?lang=zh-Hans) |
    | 计划报告 | 管理员级别的用户能够跨组织查看和管理计划报表。 | [计划报表队列](https://experienceleague.adobe.com/docs/analytics/components/scheduled-reports-admin.html?lang=zh-Hans) |
    | 报表设置 | 这些设置引用旧版 Adobe Analytics 产品，其中不包括 Analysis Workspace 及其相关组件。对 Analysis Workspace 设置进行调整，转至“组件”>“偏好设置”。 |  |
@@ -116,17 +113,14 @@ Adobe Analytics 界面由以下关键区域组成，包括用于管理 Analysis 
    | 日志 | 日志文件有助于您了解用户登录的时间、用户使用情况、访问情况、报表包，以及管理员执行的更改。 | [日志](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/logs.html?lang=zh-Hans) |
    | Advertising Analytics | 可配置 Adobe Analytics 以并排显示所有 Google 和 Bing 付费搜索数据。 | [配置 Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/advertising-analytics-config.html?lang=zh-Hans) |
    | 数据馈送 | 数据馈送是从 Adobe Analytics 中获取原始数据的有效方法。此原始数据可在 Adobe 以外的其他平台中使用，具体所用平台由您的组织自行决定。 | [Analytics 数据馈送概述](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=zh-Hans) |
-   | 按 IP 排除 | 您可以从报表中排除特定 IP 地址的数据，例如，内部网站活动、站点测试和员工使用情况。数据排除能够通过排除 IP 地址数据来提高报表的准确性。此外，还可以删除来自拒绝服务攻击或其他可能影响报表数据准确性的恶意事件的数据。您可以对排除进行配置，也可以使用您的防火墙进行排除。 | [按 IP 地址排除](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=zh-Hans) |
-   | 发布构件 | 使您可将 Reports &amp; Analytics 可视化效果嵌入在网页中。 <p>自 2023 年 12 月 31 日起，Adobe 决定中断 Reports &amp; Analytics 及其随附的报表和功能。详细了解 Reports &amp; Analytics [生命周期结束公告](https://www.adobe.com/go/analytics_rnaeol_cn)。</p><p>作为此功能的替代方案，您现在无需登录即可[与任何人共享项目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hans#share-public-link)。</p> <p>管理员可在[公司首选项](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=zh-Hans#company-preferences)中配置此功能</p> |  |
-   | 报告活动管理器 | 通过报告活动管理器，可查看组织中每个报表包的报告容量。它可让您详细了解报告消耗，并帮助您轻松地诊断和修复在报告高峰期出现的容量问题。 | [报告活动管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=zh-Hans) |
+   | 按 IP 排除 | 您可以从报表中排除特定 IP 地址的数据，例如，内部网站活动、站点测试和员工使用情况。数据排除能够通过排除 IP 地址数据来提高报表的准确性。此外，还可以删除来自拒绝服务攻击或其他可能影响报表数据准确性的恶意事件的数据。您可以对排除进行配置，也可以使用您的防火墙进行排除。 | [按 IP 地址排除](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=en) |
+   | 报告活动管理器 | 通过报告活动管理器，可查看组织中每个报表包的报告容量。它可让您详细了解报告消耗，并帮助您轻松地诊断和修复在报告高峰期出现的容量问题。 | [报告活动管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=en) |
    | 数据治理隐私标签 | 为报表包数据设置标签即是向给定报表包中的每个变量分配身份、敏感性和数据管理标签。 | [为报表包数据设置标签](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=zh-Hans) |
    | 公司设置主页 | 通过“公司设置”页面，您可以配置设置以将其应用于您的组织所管理的所有报表包。 | [公司设置概述](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=zh-Hans) |
    | 安全管理器 | 通过安全管理器，您可以控制对报表数据的访问。相关选项包括强密码、密码过期时间、IP 登录限制及电子邮件域限制。 | [安全管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/security-manager.html?lang=zh-Hans) |
-   | 支持信息 | “支持信息”页面管理整个 Reports &amp; Analytics 中显示的支持信息。Reports &amp; Analytics。 <p>自 2023 年 12 月 31 日起，Adobe 决定中断 Reports &amp; Analytics 及其随附的报表和功能。详细了解 Reports &amp; Analytics [生命周期结束公告](https://www.adobe.com/go/analytics_rnaeol_cn)。</p> |  |
    | Web 服务 | Web 服务 API 可通过编程方式访问市场营销报告及其他“包”服务，从而让您以其他方式使用通过 Analytics 界面提供的功能，以及实现更多功能。 | [Web 服务](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/web-services-admin.html?lang=zh-Hans) |
    | Report Builder 报表 | 管理分配给 Report Builder 用户的许可证。 | [Report Builder 报表](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/report-builder-reports-admin.html?lang=zh-Hans) |
    | 单点登录服务 | Adobe Experience Cloud 中的单点登录是通过 Admin Console 实施的。 | [Adobe Admin Console 中的 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hans) |
-   | 品牌联合 Adobe Experience Cloud | 通过“管理品牌联合图像”页面，您可以在 Reports &amp; Analytics 下载的报表和旧版功能板中显示公司徽标。Analysis Workspace 中不使用品牌联合。<p>自 2023 年 12 月 31 日起，Adobe 决定中断 Reports &amp; Analytics 及其随附的报表和功能。详细了解 Reports &amp; Analytics [生命周期结束公告](https://www.adobe.com/go/analytics_rnaeol_cn)。</p> | [品牌联合](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/co-branding-admin.html?lang=zh-Hans) |
    | 隐藏报表包 | 可让您在不再希望报表包对您和您的用户可用时，在 Adobe Analytics 用户界面中隐藏报表包。 | [隐藏报表包](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-hide-report-suites.html?lang=zh-Hans) |  |
 
    {style="table-layout:auto"}

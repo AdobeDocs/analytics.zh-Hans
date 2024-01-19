@@ -1,8 +1,8 @@
 ---
-source-git-commit: d857d1cf9f4aa23d7fd60c19bb6533090d956086
+source-git-commit: 33ac467cd73e3099ce0ca03aa41cbd4192eb2384
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 98%
+source-wordcount: '1131'
+ht-degree: 96%
 
 ---
 # 片段
@@ -11,7 +11,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->自 **2023 年 12 月 31 日**&#x200B;起，Adobe 决定中断 Reports &amp; Analytics 及其随附的报表和功能。到时候，Reports &amp; Analytics 及其所有报表和计划都将停止工作。支持 Reports &amp; Analytics 的报告、可视化图表和底层技术不再满足 Adobe 的技术标准。在 Analysis Workspace 中提供了 Reports &amp; Analytics 的大部分功能。有关在Analysis Workspace中使用报表的信息，请参阅 [使用预建报表](/help/analyze/analysis-workspace/reports/use-reports.md).
+>有效 **2024年1月17日**，Adobe已停用的Reports &amp; Analytics及其随附的报表和功能。 届时，Reports &amp; Analytics及其所有报表和计划都将停止工作。 支持 Reports &amp; Analytics 的报告、可视化图表和底层技术不再满足 Adobe 的技术标准。在 Analysis Workspace 中提供了 Reports &amp; Analytics 的大部分功能。有关在Analysis Workspace中使用报表的信息，请参阅 [使用预建报表](/help/analyze/analysis-workspace/reports/use-reports.md).
 > 
 >自 2015 年发布 Analysis Workspace 以来，Reports &amp; Analytics 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。本通知解释了生命周期结束的过程。
 >
@@ -21,22 +21,22 @@ ht-degree: 98%
 
 1. （可选）选择&#x200B;**过滤**&#x200B;图标![，即“数据词典过滤”图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)，然后选择以下任一过滤器选项过滤组件列表：
 
-   | 选项 | 函数 |
-   |---------|----------|
-   | [!UICONTROL **已批准**] | 仅显示标记为由管理员批准的组件。 |
-   | [!UICONTROL **收藏夹**] | 仅显示收藏夹列表中的组件。有关将组件添加到收藏夹列表的信息，请参阅[组件概览](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)。 |
-   | [!UICONTROL **维度**] | 仅显示维度的组件。（当您首次访问数据词典时，此选项也可在&#x200B;[!UICONTROL **快速过滤**]&#x200B;选项卡中使用。） |
-   | [!UICONTROL **量度**] | 仅显示量度的组件。（当您首次访问数据词典时，此选项也可在&#x200B;[!UICONTROL **快速过滤**]&#x200B;选项卡中使用。） |
-   | [!UICONTROL **区段**] | 仅显示区段的组件。（当您首次访问数据词典时，此选项也可在&#x200B;[!UICONTROL **快速过滤**]&#x200B;选项卡中使用。）<!--this is Filters in Customer Journey Analytics--> |
-   | [!UICONTROL **日期范围**] | 仅显示日期范围的组件。（当您首次访问数据词典时，此选项也可在&#x200B;[!UICONTROL **快速过滤**]&#x200B;选项卡中使用。） |
-   | [!UICONTROL **显示所有**] | 显示所有组件。仅管理员有此选项可用。 |
-   | [!UICONTROL **未批准**] | 仅显示未标记为由管理员批准的组件。作为管理员，这有助于确定需要您审阅和批准的组件。仅管理员有此选项可用。 |
-   | [!UICONTROL **缺少描述**] | 仅显示在“描述”字段中尚未描述的组件。仅管理员有此选项可用。 |
-   | [!UICONTROL **显示重复项**] | <p>仅显示与所选报告包中的另一组件同名或定义相同的组件。名称或定义必须完全匹配才能显示为重复项。</p><p>仅管理员有此选项可用。</p><p>**注意：**&#x200B;对于定义，此选项包括您创建的组件和 Adobe 提供的组件。对于名称，此选项当前仅包括您创建的组件，而不包括 Adobe 提供的组件。将在未来的版本中添加显示 Adobe 提供的组件的重复名称。</p> |
-   | [!UICONTROL **没有最近的数据**] | 仅显示在过去 90 天内未收集任何数据的组件。仅管理员有此选项可用。 |
-   | [!UICONTROL **由 Adobe 创建**] <!-- I don't see this option--> | 仅显示由 Adobe 创建的组件。不会显示由管理员或您组织中的其他用户创建的组件。 |
+| 选项 | 函数 |
+|---------|----------|
+| [!UICONTROL **已批准**] | 仅显示标记为由管理员批准的组件。 |
+| [!UICONTROL **收藏夹**] | 仅显示收藏夹列表中的组件。有关将组件添加到收藏夹列表的信息，请参阅[组件概览](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)。 |
+| [!UICONTROL **维度**] | 仅显示维度的组件。（当您首次访问数据词典时，此选项也可在&#x200B;[!UICONTROL **快速过滤**]&#x200B;选项卡中使用。） |
+| [!UICONTROL **量度**] | 仅显示量度的组件。（当您首次访问数据词典时，此选项也可在&#x200B;[!UICONTROL **快速过滤**]&#x200B;选项卡中使用。） |
+| [!UICONTROL **区段**] | 仅显示区段的组件。（当您首次访问数据词典时，此选项也可在&#x200B;[!UICONTROL **快速过滤**]&#x200B;选项卡中使用。）<!--this is Filters in Customer Journey Analytics--> |
+| [!UICONTROL **日期范围**] | 仅显示日期范围的组件。（当您首次访问数据词典时，此选项也可在&#x200B;[!UICONTROL **快速过滤**]&#x200B;选项卡中使用。） |
+| [!UICONTROL **显示所有**] | 显示所有组件。仅管理员有此选项可用。 |
+| [!UICONTROL **未批准**] | 仅显示未标记为由管理员批准的组件。作为管理员，这有助于确定需要您审阅和批准的组件。仅管理员有此选项可用。 |
+| [!UICONTROL **缺少描述**] | 仅显示在“描述”字段中尚未描述的组件。仅管理员有此选项可用。 |
+| [!UICONTROL **显示重复项**] | <p>仅显示与所选报告包中的另一组件同名或定义相同的组件。名称或定义必须完全匹配才能显示为重复项。</p><p>仅管理员有此选项可用。</p><p>**注意：**&#x200B;对于定义，此选项包括您创建的组件和 Adobe 提供的组件。对于名称，此选项当前仅包括您创建的组件，而不包括 Adobe 提供的组件。将在未来的版本中添加显示 Adobe 提供的组件的重复名称。</p> |
+| [!UICONTROL **没有最近的数据**] | 仅显示在过去 90 天内未收集任何数据的组件。仅管理员有此选项可用。 |
+| [!UICONTROL **由Adobe创建**] <!-- I don't see this option--> | 仅显示由 Adobe 创建的组件。不会显示由管理员或您组织中的其他用户创建的组件。 |
 
-   {style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## “数据词典”组件信息 {#dd-component-information}
 

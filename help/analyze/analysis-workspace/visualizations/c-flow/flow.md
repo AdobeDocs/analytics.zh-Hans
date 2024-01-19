@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: aba4beb51446cdd54afc92047254a0ddd1c55ce3
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 84%
+source-wordcount: '199'
+ht-degree: 82%
 
 ---
 
@@ -21,10 +21,6 @@ ht-degree: 84%
 * 可视化客户浏览您的网站或应用程序的历程
 * 分析客户在指定检查点（例如登入、特定维度或退出）之前和之后的去向
 * 通过在选定路径中指定一个特定点来创建区段
-
->[!NOTE]
->
->有关 Analysis Workspace 与 Reports &amp; Analytics 之间将区段应用于流量的结果可能有何不同的信息，请参阅[分段作为流量和流失的基础](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)。
 
 下面是流量可视化视频教程：
 

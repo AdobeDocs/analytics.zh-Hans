@@ -3,10 +3,10 @@ description: 介绍各种报表包类型并比较全局报表包和汇总报表�
 title: 报表包方法
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 96%
+source-wordcount: '879'
+ht-degree: 93%
 
 ---
 
@@ -42,11 +42,7 @@ Adobe 建议在大多数情况下实施全局报表包。有关实施全局报�
 
 >[!NOTE]
 >
->[!DNL Reports & Analytics] 是唯一一个支持汇总报表的工具，并且 Adobe 不再建议使用汇总。请考虑改用具有多包标记或虚拟报表包的全局报表包。
-
-汇总报表是多个报表包中数据的简单整合，未经去重或任何区段或数据细分。汇总无需代码实施。要使用汇总报表，请[实施子报表包](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)，然后使用[!UICONTROL 管理工具][将其组合为汇总报表](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)。
-
-汇总报表不受约束：子报表包引发自己的服务器调用，但汇总不引发其他调用。汇总是旧版功能，有许多限制。
+>[!DNL Reports & Analytics] 是唯一一个支持汇总报表的工具。 Reports &amp; Analytics于2024年1月17日终止生命周期。
 
 ### 汇总报表的限制 {#limitations-rollups}
 
@@ -80,6 +76,6 @@ Adobe 建议在大多数情况下实施全局报表包。有关实施全局报�
 
 **报表**：全局报表包提供有关所有维度的数据；汇总报表包仅提供有关高级别报表的汇总数据。
 
-**支持的产品**：汇总报表包只能用于 Reports &amp; Analytics。在 Analysis Workspace 或 Data Warehouse 中不支持汇总。全局报表包可用于所有产品。
+**支持的产品**：汇总只能在Reports &amp; Analytics中使用。 在 Analysis Workspace 或 Data Warehouse 中不支持汇总。全局报表包可用于所有产品。
 
 **汇总报表包的数量**：汇总报表包最多仅支持 40 个子报表包。全局报表包可以在您拥有的任意数量的域或应用程序上实施。

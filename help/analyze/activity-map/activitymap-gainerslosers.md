@@ -4,10 +4,10 @@ title: 可自定义的叠加图
 feature: Activity Map
 role: User, Admin
 exl-id: 1e83d470-36e4-47bb-a262-ac12472b21c3
-source-git-commit: ab6d3267bd6b503fe96ceea2b870c2e7cdf5d9f4
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 91%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 叠加图为您提供了多种配置数据可视化的方法，让您能够轻松地查看和了解页面上链接的受欢迎程度。
 
-叠加图让您能够直接在页面上看到单击数据。这正是“Activity Map”这样的可视化分析工具与大部分类似于“Reports &amp; Analytics”的表格式和图形式工具的不同之处。
+叠加图允许您直接在页面上可视化点击数据。
 
 Activity Map 提供三类叠加图：
 
@@ -29,7 +29,7 @@ Activity Map 提供三类叠加图：
 
 将鼠标悬停在叠加图上方时，可显示其[详细信息](/help/analyze/activity-map/activitymap-overlay-details.md)。
 
-## 渐变叠加图（热图） {#section_06AF13DE05A1454D960176CD0DA921A6}
+## 渐变叠加（热图） {#section_06AF13DE05A1454D960176CD0DA921A6}
 
 使用渐变叠加图时，颜色浓度是根据链接的受欢迎程度而定。此颜色浓度可以被标准化为受欢迎程度的前 30 排名，或者行使绝对量度值的作用。
 
@@ -51,7 +51,7 @@ Activity Map 提供三类叠加图：
 
 >[!NOTE]
 >
-> 仅当您显示子菜单时，才出现子菜单的气泡叠加图：
+>仅当您显示子菜单时，才出现子菜单的气泡叠加图：
 >
 >![](assets/bubbles_submenu.png)>
 

@@ -3,9 +3,9 @@ title: Adobe Analytics Permissions — 汇总表
 description: 汇总 Adobe Admin Console 中可用的 Adobe Analytics Permissions 的表格。
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: 512c348bda14654daa155f774dd384cba4aed2bd
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1130'
 ht-degree: 98%
 
 ---
@@ -44,13 +44,6 @@ ht-degree: 98%
 | 异常检测 |  | x |  |  | 授予对 Analysis Workspace 中“异常检测”的访问权限。 |
 | 贡献分析 |  | x |  |  | 授予对 Analysis Workspace 中右键单击式菜单“运行贡献分析”的访问权限。 |
 | 自定义 Data Warehouse 报告 |  | x |  |  | 授予对 Analytics 顶部导航栏中“工具”>“Data Warehouse”的访问权限。 |
-| 机器人页面 |  |  | x |  | 授予对 Reports &amp; Analytics 中“网站指标”>“机器人”>“机器人页面报告”的访问权限。 |
-| 机器人 |  |  | x |  | 授予对 Reports &amp; Analytics 中“网站指标”>“机器人”>“机器人报告”的访问权限。 |
-| 渠道报告 |  |  | x |  | 授予对 Reports &amp; Analytics 中“营销渠道”>“渠道概述报告”的访问权限。 |
-| 每日回访 |  |  | x |  | 授予对 Reports &amp; Analytics 中“访客维系”>“每日回访”的访问权限。 |
-| 我的推荐报告 |  |  | x |  | 授予对 Reports &amp; Analytics 中“网站指标”>“我的推荐报告”的访问权限。 |
-| 实时报告 |  |  | x |  | 授予对 Reports &amp; Analytics 中“网站指标”>“实时报告”的访问权限。使用权限项“实时报告配置”授予对此报告的设置权限。 |
-| 回访 |  |  | x |  | 授予对 Reports &amp; Analytics 中“访客维系”>“回访”的访问权限。 |
 | Advertising Analytics 配置 |  |  |  | x | 未使用。 |
 | 公司概要报告 |  |  |  | x | 未使用。 |
 | Data Warehouse |  |  |  | x | 未使用。请改用“自定义 Data Warehouse 报告”。 |
@@ -94,7 +87,7 @@ ht-degree: 98%
 | 与任何人共享项目链接 | x |  |  |  | 授予用户与“工作区”项目 — >“共享” — >“与任何人共享”下的任何人共享的访问权限。 |
 | Activity Map |  | x |  |  | 授予对“工具”>“Activity Map”的访问权限。允许用户使用 Activity Map 扩展。 |
 | Ad Hoc Analysis 许可用户 |  | x |  |  | Ad Hoc Analysis 的产品寿命已结束。[更多信息](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
-| Analysis Workspace 访问权限 |  | x |  |  | 授予对 Analysis Workspace 的访问权限。用户必须属于此组（首选）或“Reports &amp; Analytics 访问权限”组，才能使用 Adobe Analytics。 |
+| Analysis Workspace 访问权限 |  | x |  |  | 授予对Analysis Workspace的访问权限。 |
 | Analysis Workspace：另存为模板 |  | x |  |  | 授予对 Analysis Workspace 中“项目”>“另存为模板”的访问权限。 |
 | 计算量度创建 |  | x |  |  | 允许在所有 Analytics 功能中创建计算量度。 |
 | Labs 访问权限 |  | x |  |  | 授予对 Labs 的访问权限。 |
@@ -102,8 +95,6 @@ ht-degree: 98%
 | 区段创建 |  | x |  |  | 允许在所有 Analytics 功能中创建区段并在功能之间共享区段。 |
 | 区段发布 |  | x |  |  | 允许在创建或编辑区段时将区段设为 Experience Cloud 受众。 |
 | Web 服务访问 |  | x |  |  | 允许使用 API，包括使用 API 进行第三方网站身份验证和发送 API 调用。 |
-| 当前数据 |  |  | x |  | 启用此选项可在 Reports &amp; Analytics 报告中查看当前数据。 |
-| Reports &amp; Analytics 访问权限 |  |  | x |  | 授予对 Reports &amp; Analytics 的访问权限。用户必须属于此组或“Analysis Workspace 访问权限”（首选），才能使用 Adobe Analytics。 |
 | Advertising Analytics 管理 |  |  |  | x | 未使用。 |
 | 品牌联合 |  |  |  | x | 已不再使用。授予对“管理员”>“所有管理员”>“公司设置”>“品牌联合”的访问权限。 |
 | Excel 许可用户 |  |  |  | x | 未使用。 |

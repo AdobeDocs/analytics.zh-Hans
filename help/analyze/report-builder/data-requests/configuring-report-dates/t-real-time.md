@@ -1,14 +1,13 @@
 ---
 description: 用于描述如何配置实时请求日期的步骤。
 title: 配置实时请求
-uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
 feature: Report Builder
 role: User, Admin
 exl-id: 818fc9ca-aa78-4a21-abd7-8e3144f5d1c0
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 90%
+source-wordcount: '113'
+ht-degree: 80%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 90%
 
 配置实时请求日期：
 
-1. 确保在市场营销 Reports &amp; Analytics 的[管理工具](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html)中已启用实时报告。
+1. 确保在中启用实时报表 [管理工具](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html).
 1. 在[!UICONTROL 请求向导：第 1 步]中，单击&#x200B;**[!UICONTROL 实时报告]** > **[!UICONTROL `<report type>`]**。
 
    例如，选择“流量报告”。当您选择实时报告类型时，将显示“[!UICONTROL 选择时间范围]”选项。

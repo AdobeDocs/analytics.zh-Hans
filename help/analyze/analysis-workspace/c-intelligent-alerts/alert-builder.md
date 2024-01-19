@@ -4,9 +4,9 @@ title: 警报生成器 (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '453'
 ht-degree: 100%
 
 ---
@@ -23,10 +23,9 @@ ht-degree: 100%
 
 * 在 Analysis Workspace 中使用以下快捷键：
 
-   `ctrl (or cmd) + shift + a`
+  `ctrl (or cmd) + shift + a`
 * 转到&#x200B;**[!UICONTROL Workspace]** > **[!UICONTROL 组件]** > **[!UICONTROL 新警报]**。
 * 选择一个或多个自由格式表行项目，单击鼠标右键并选择&#x200B;**[!UICONTROL 从选定范围中创建警报]**。
-* 在 Reports &amp; Analytics 报表中，转到&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 添加警报]**。
 
 ## 构建警报
 
@@ -70,7 +69,7 @@ ht-degree: 100%
 
 * 将量度拖放到将添加触发器的画布中。
 
-   如果警报中有组件（量度/维度/区段）与当前选中的报表包不兼容，则会显示&#x200B;**“组件不兼容”**&#x200B;消息。
+  如果警报中有组件（量度/维度/区段）与当前选中的报表包不兼容，则会显示&#x200B;**“组件不兼容”**&#x200B;消息。
 * 确定触发警报前指标必须超过的阈值。您可以将此值设置为一个阈值，然后设置为下列条件之一：
 
    * 异常已存在
@@ -81,7 +80,7 @@ ht-degree: 100%
    * 更改百分比
    * 您可以将阈值设置为 90%、95%、99%、99.75% 或 99.9%。
 
-   请注意，您还可以使用计算量度。
+  请注意，您还可以使用计算量度。
 
 *...使用以下过滤器*
 

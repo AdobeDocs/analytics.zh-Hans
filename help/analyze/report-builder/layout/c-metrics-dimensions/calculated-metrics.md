@@ -4,10 +4,10 @@ title: 计算量度
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '399'
+ht-degree: 83%
 
 ---
 
@@ -36,7 +36,7 @@ Report Builder5.2支持Adobe Analytics统一的计算指标。 作为诸多创�
 | 过滤器名称 | 描述 |
 |---|---|
 | 标记 | 允许过滤带有特定标签的计算指标。请注意，“标签”过滤器使用 AND 运算符。如果选中两个标签，右侧窗格会显示&#x200B;**同时**&#x200B;带有这两个标签的指标。 |
-| 报表包 | 如果在 *的计算指标生成器中应用“仅*&#x200B;报表包名称[!DNL Reports & Analytics]”过滤器，然后在 [!DNL Report Builder] 中显示“高级过滤器”，则“高级过滤器”将仅显示选定报表包的计算指标。 |
+| 报表包 | 如果在 *的计算指标生成器中应用“仅*&#x200B;报表包名称[!DNL Adobe Analytics]”过滤器，然后在 [!DNL Report Builder] 中显示“高级过滤器”，则“高级过滤器”将仅显示选定报表包的计算指标。 |
 | 所有者 | 允许按所有者过滤指标。请注意，“所有者”过滤器使用 OR 运算符。如果选中两个所有者，右侧窗格会显示&#x200B;**每个**&#x200B;所有者拥有的指标。 |
 | “其他过滤器”>“已批准” | 显示所有正式批准的指标。 |
 | “其他过滤器”>“收藏” | 显示标记为“收藏”的所有指标。 |

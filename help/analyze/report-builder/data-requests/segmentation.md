@@ -1,13 +1,13 @@
 ---
 description: 如何在 Report Builder 中添加、编辑、应用和过滤 Adobe Analytics 区段。
-title: 管理区段 (Report Builder)
+title: 管理区段(Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 85%
+source-wordcount: '959'
+ht-degree: 74%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 85%
 
 如何在 Report Builder 中添加、编辑、应用和过滤 Adobe Analytics 区段。
 
-Report Builder 在“请求向导”的第 1 步中具有一个分段面板，在该面板中您可以创建和管理区段。
+Report Builder具有“请求向导”步骤1中的分段面板，允许您创建和管理区段。
 
 ![此屏幕截图显示了用于添加、编辑或清除区段的“区段”选项，并突出显示了“控制”、“筛选”和“刷新”图标。](assets/seg_dialog.png)
 
@@ -50,9 +50,9 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 1. 返回Report Builder并单击“刷新”图标可刷新区段列表。
 1. 现在，您可以应用此区段。
 
-## 搜索和应用区段 {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
+## 搜索和应用区段 {#search}
 
-在此区段列表中显示任何在 Reports &amp; Analytics、Report Builder 或 Data Warehouse 中创建的区段。要刷新该列表，请单击“刷新”图标 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
+此区段列表中会显示在Reports &amp; Analytics（现已终止使用）、Report Builder或Data Warehouse中创建的任何区段。 要刷新该列表，请单击“刷新”图标 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
 
 您可以将一个或多个区段应用到任意给定请求。这包括连续区段。
 
@@ -64,9 +64,9 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 
 >[!NOTE]
 >
->不论您是否为管理员，在 Report Builder 中，您都只能查看那些您拥有的区段以及与您共享的区段。（在市场营销 Reports &amp; Analytics 用户界面中，管理员可查看组织中的所有区段）。
+>无论您是否为管理员，在Report Builder中，您都只能查看那些您拥有的区段以及与您共享的区段。
 
-## 过滤区段 {#section_376E986D3E684999A7CDB08E53854159}
+## 过滤区段 {#filter}
 
 **筛选** 通过单击“过滤器”图标，可访问区段：  ![过滤器图标](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
@@ -76,13 +76,13 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 |---|---|
 | 标记 | 允许您过滤具有特定标签的区段。请注意，“标签”过滤器使用 AND 运算符。如果您选中两个标签，右侧窗格会显示&#x200B;**同时**&#x200B;具有这两个标签的区段。 |
 | 所有者 | 允许您按所有者过滤区段。请注意，“所有者”过滤器使用 OR 运算符。如果您选中两个所有者，右侧窗格会显示&#x200B;**每个**&#x200B;所有者拥有的区段。 |
-| 其他过滤器 > 仅&#x200B;*报表包名称* | 如果您在 [!DNL marketing reports & analytics] 中应用区段生成器的“仅&#x200B;*报表包名称*”过滤器，然后在 [!DNL Report Builder] 中显示“高级过滤器”，则“高级过滤器”将仅显示选定报表包的区段。 |
+| 其他过滤器 > 仅&#x200B;*报表包名称* | 如果您应用 *报告包名称*”过滤器，然后在Adobe Analytics中显示高级过滤器 [!DNL Report Builder]，则高级过滤器将仅显示选定报表包的区段。 |
 | 其他过滤器 > 我的 | 显示您拥有的所有区段。 |
 | 其他过滤器 > 与我共享 | 显示他人与您共享的所有区段。 |
 | 其他过滤器 > 收藏夹 | 显示您标记为收藏项目的所有区段。 |
 | 其他过滤器 > 已批准 | 显示所有正式批准的区段。 |
 
-## 将区段控件添加到工作簿 {#section_E3E5149A8464441FA5445A98DBD520AC}
+## 将区段控件添加到工作簿 {#segment-control}
 
 通过添加区段控件，您可以从工作簿中切换区段，而不必转至“请求向导”。
 
@@ -103,11 +103,11 @@ Report Builder 在“请求向导”的第 1 步中具有一个分段面板，�
 
    ![显示“选择区段”字段下拉字段的屏幕截图。](assets/seg_control2.png)
 
-## 刷新区段列表 {#section_22E4A86789444B4A998532396B476EFB}
+## 刷新区段列表 {#refresh}
 
 只要添加新区段或编辑现有区段，即应单击“刷新”图标 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) 刷新缓存的区段列表。
 
-## 在请求间管理区段 {#section_C3D63FCBE1A94369A319243313B03C93}
+## 在请求间管理区段 {#manage}
 
 在 v5.4 之前，Report Builder 允许用户更改多个请求中的区段。但是，此流程始终会替换现有区段。希望向每个请求添加一个新区段的用户无法执行此操作，因为添加区段将会删除之前已分配给每个请求的区段集。
 
@@ -122,7 +122,7 @@ Report Builder 5.4 允许您添加、删除和替换区段，以及替换多个�
 
    | 选项 | 描述 |
    |---|---|
-   | 添加 区段 | 允许您选择一个或多个区段，以添加到当前区段列表中。 |
+   | 添加区段 | 允许您选择一个或多个区段，以添加到当前区段列表中。 |
    | 替换区段 | 允许您选择要用一个或多个区段替换的区段。 |
    | 将所有区段替换为 | 允许您选择要替换当前区段的一个或多个区段。 |
    | 删除区段 | 允许您从请求中删除区段。 |

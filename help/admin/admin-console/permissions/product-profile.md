@@ -3,10 +3,10 @@ title: Adobe Analytics 的产品配置文件
 description: 了解产品配置文件如何用作产品管理员可以分配给组织内的用户的权限预设。
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
-source-git-commit: 1a7b853d6f5fc627223ea69e64b4a240c61aef2a
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 98%
+source-wordcount: '673'
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 98%
 为能够访问 Adobe Analytics，产品配置文件中至少需要以下权限：
 
 * 产品配置文件必须至少拥有一个报表包的访问权限
-* 产品配置文件必须属于 Analytics 工具权限项 **Analysis Workspace 访问权限**（或 **Reports &amp; Analytics 访问权限**）
+* 产品配置文件必须属于Analytics工具权限项 **Analysis Workspace访问权限**.
 
 ### 报表包
 
@@ -40,13 +40,13 @@ ht-degree: 98%
 
 ### 量度
 
-授予对报表包中量度的访问权限。量度将作为相应的组件在 Analysis Workspace 中列出；或者，如果量度在 Reports &amp; Analytics 中可用，则将作为菜单项在“网站量度”下列出。
+授予对报表包中量度的访问权限。这些指标将作为相应的组件在Analysis Workspace中列出。
 
 自定义量度将标记为“自定义事件 1-1000”，以使其独立于报表包。如果“自定义事件 1”是已启用的权限项，则该用户有权访问产品配置文件中所有报表包中的 event1。
 
 ### 维度
 
-授予对报表包中维度的访问权限。维度将作为相应的组件在 Analysis Workspace 中列出；或者，如果维度在 Reports &amp; Analytics 中可用，则将作为菜单项列出。
+授予对报表包中维度的访问权限。Dimension将作为相应的组件在Analysis Workspace中列出。
 
 自定义变量（如 eVar）将标记为“自定义转化 1-250”，以使其独立于报表包。如果“自定义转化 1”是已启用的权限项，则该用户有权访问产品配置文件中所有报表包中的 eVar1。
 

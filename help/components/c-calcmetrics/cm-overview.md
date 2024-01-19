@@ -4,10 +4,10 @@ keywords: 计算指标;派生指标;高级计算指标
 title: 计算指标和高级计算（派生）指标
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '564'
+ht-degree: 82%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 您可以
 
-* 在 [!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、[!UICONTROL Report Builder]、[!UICONTROL Anomaly Detection] 和 [!UICONTROL Contribution Analysis] 间创建指标。
+* 创建指标 [!UICONTROL Analysis Workspace]， [!UICONTROL Report Builder]， [!UICONTROL 异常检测]、和 [!UICONTROL 贡献分析].
 * 创建在报表运行时派生的分段量度，而不必更改实施。 这些指标可以在历史记录中查看，因为它们是基于区段的。
 
   >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
@@ -54,7 +54,6 @@ ht-degree: 0%
 
 某些 [!DNL Analytics] 功能让您可以使用事件，而不是计算指标：
 
-* Reports &amp; Analytics 中的漏斗
 * Analysis Workspace 中的流失
 * [!UICONTROL Analysis Workspace 中的队列分析]
 * [!UICONTROL Data Warehouse]
@@ -103,7 +102,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> 指标选择器边栏 </td> 
-   <td colname="col2"> <p>替换 <span class="uicontrol">Reports &amp; Analytics</span> 中的“<span class="uicontrol">显示指标</span>”弹出菜单。 </p> <p>它允许您搜索量度，并将量度添加到/应用于报表。您还可以更改<a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  >排序</a>（选项包括：“按字母顺序”、“推荐”、“经常使用”、“最近使用”。）此外，您还可以对报表包进行过滤，以便仅显示在特定报表包中创建的指标。 </p> <p>要访问此“指标选择器”，请单击报表左侧的“指标”图标 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="15px" id="image_2C6F20B4E634486B95BACD4CA47EF991" />。指标选择器具有如下外观： </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p>替换 <span class="uicontrol">Reports &amp; Analytics</span> 中的“<span class="uicontrol">显示指标</span>”弹出菜单。 </p> <p>它允许您搜索指标，并将指标添加到/应用于报表。您也可以更改 <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  > sort</a> 顺序（选项包括：“按字母顺序”、“推荐”、“经常使用”、“最近使用”。） 此外，您还可以对报表包进行过滤，以便仅显示在特定报表包中创建的指标。 </p> <p>要访问此“指标选择器”，请单击报表左侧的“指标”图标 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="15px" id="image_2C6F20B4E634486B95BACD4CA47EF991" />。指标选择器具有如下外观： </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > 适用于计算指标的 API</a> </td> 

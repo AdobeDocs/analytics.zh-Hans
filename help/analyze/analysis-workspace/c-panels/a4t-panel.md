@@ -4,10 +4,10 @@ title: Analytics for Target (A4T) 面板
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 32dfab4b10d3637aba53081f747d2650fc33a8f0
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 87%
+source-wordcount: '979'
+ht-degree: 93%
 
 ---
 
@@ -50,7 +50,7 @@ Analytics for Target 面板可返回丰富的数据和可视化图表，进而�
 | 转化率 | 成功指标/标准化指标 |
 | 提升 | 每个体验与对照体验比较转化率。注意：提升是 Target 体验的“固定指标”；无法细分它或将它与其他维度一起使用。 |
 | 提升（下限） | 表示在置信区间为 95% 的情况下变异体验比对照组可能提升的最差程度。<br>请参阅 [统计计算](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) 和 [完全置信度计算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) 有关更多信息，请参阅Excel文件。 |
-| 提升（中） | 代表在 95% 的置信区间内，变量体验相对于控制体验所能达到的中等提升度。这是 Reports &amp; Analytics 中的“提升度”。<br>请参阅 [统计计算](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) 和 [完全置信度计算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) 有关更多信息，请参阅Excel文件。 |
+| 提升（中） | 代表在 95% 的置信区间内，变量体验相对于控制体验所能达到的中等提升度。<br>请参阅 [统计计算](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) 和 [完全置信度计算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) 有关更多信息，请参阅Excel文件。 |
 | 提升（上限） | 表示在置信区间为 95% 的情况下变异体验比对照组可能提升的最佳程度。<br>请参阅 [统计计算](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) 和 [完全置信度计算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) 有关更多信息，请参阅Excel文件。 |
 | 置信度 | t 检验（也称为 Student t 检验）将计算置信度级别，用于指示如果再次运行该检验，出现重复结果的可能性。已对指标应用了 75%/85%/95% 的固定条件格式化范围。如果需要，可以在“列”设置下自定义此格式化范围。注意：置信度是 Target 体验的“固定指标”；无法细分它或将它与其他维度一起使用。<br>请参阅 [统计计算](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) 和 [完全置信度计算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) 有关更多信息，请参阅Excel文件。 |
 

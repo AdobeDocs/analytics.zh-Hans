@@ -3,20 +3,16 @@ description: Adobe 要求预先通知新帐户设置、流量尖峰和流量增�
 title: 流量增长必需的前置时间
 feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
-source-git-commit: 55c8337dbeebcc76db367ead15128c095e4d8ce5
-workflow-type: ht
-source-wordcount: '337'
+source-git-commit: 726e5ee71be60838e48bb682d7fd48bfc1f96ec3
+workflow-type: tm+mt
+source-wordcount: '325'
 ht-degree: 100%
 
 ---
 
 # 流量增长必需的前置时间
 
-## 流量增长必需的前置时间
-
 Adobe 要求预先通知新帐户设置、流量尖峰和流量增长。硬件必须预先进行分配，以最大程度减小延迟以及对整体系统可能造成的负面影响。
-
-硬件的分配是由通过 Reports &amp; Analytics 用户界面提交的警报所驱动的。
 
 >[!IMPORTANT]
 >
@@ -24,7 +20,7 @@ Adobe 要求预先通知新帐户设置、流量尖峰和流量增长。硬件�
 
 使用以下准则来确定您必须提前多久提交流量警报：
 
-### 硬件分配前置时间
+## 硬件分配前置时间
 
 
 <table id="table_A67CC3B164F740088797BD8913244E47">
@@ -65,6 +61,6 @@ Adobe 要求预先通知新帐户设置、流量尖峰和流量增长。硬件�
 
 * 当流量减少或报告包被弃用时，也需要客户端警报。
 
-### 由于未实现的流量导致的硬件取消分配
+## 由于未实现的流量导致的硬件取消分配
 
 如果客户端警报中的预计流量没有在“起始日期”后的 4 周内实现，则对应新帐户、流量尖峰和流量增长的硬件将被取消分配。如果流量仍然预计会实现，则在流量增长时必须生成一个新的客户端警报。
