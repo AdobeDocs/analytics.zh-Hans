@@ -1,11 +1,11 @@
 ---
 title: 将 Adobe Analytics 部署到开发环境
 description: 了解如何使用标记将 Adobe Analytics 部署到开发环境。
-feature: Launch Implementation
+feature: Tags
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '587'
 ht-degree: 92%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 92%
 1. 使用您的 Adobe ID 凭据登录 [Adobe Experience Platform 数据收集](https://experience.adobe.com/data-collection)。
 2. 单击要在网站上实施的标记属性。
 3. 单击 **[!UICONTROL 主机]**，然后单击 **[!UICONTROL 添加主机]**。
-4. 将其命名为 `"Adobe managed"`，然后选择 **[!UICONTROL 由Adobe]** 在类型下拉列表中。 单击“保存”。
+4. 将其命名为 `"Adobe managed"`，并选择 **[!UICONTROL 由Adobe管理]** 类型下拉列表中。 单击“保存”。
 5. 导航至&#x200B;**[!UICONTROL 环境]**，然后单击&#x200B;**[!UICONTROL 添加环境]**。
-6. 选择 **[!UICONTROL 开发]**，命名 `"Dev Environment"`，然后从下拉列表中选择Adobe托管主机。 单击&#x200B;**[!UICONTROL 保存]**。
+6. 选择 **[!UICONTROL 开发]**，将其命名为 `"Dev Environment"`，然后从下拉列表中选择Adobe管理的主机。 单击&#x200B;**[!UICONTROL 保存]**。
 7. 此时会出现一个模式窗口，显示 Web 安装说明。稍后我们将返回此窗口；现在，请单击&#x200B;**[!UICONTROL 关闭]**。
 8. 单击&#x200B;**[!UICONTROL 添加环境]**，选择&#x200B;**[!UICONTROL 暂存]**，将其命名为`"Staging Environment"`，然后选择由 Adobe 管理的主机。单击&#x200B;**[!UICONTROL 创建]**，然后关闭安装说明模式窗口。
 9. 再次单击&#x200B;**[!UICONTROL 添加环境]**，选择&#x200B;**[!UICONTROL 生产]**，将其命名为`"Production Environment"`，然后选择由 Adobe 管理的主机。单击&#x200B;**[!UICONTROL 创建]**，然后关闭安装说明模式窗口。
@@ -42,7 +42,7 @@ ht-degree: 92%
 4. 为此库命名`'Initial changes'`，并选择您的开发环境。
 5. 单击&#x200B;**[!UICONTROL 添加所有更改的资源]**，自动列出 Adobe Analytics、标识服务和核心。
 6. 单击&#x200B;**[!UICONTROL 保存]**。
-7. 返回发布工作流程屏幕，单击新库旁边的下拉列表，然后单击 **[!UICONTROL 构建用于开发]**. 几秒钟后，库上的黄点变为绿色，表示构建成功。
+7. 返回发布工作流程屏幕，单击新库旁边的下拉列表，然后单击 **[!UICONTROL 为开发构建]**. 几秒钟后，库上的黄点变为绿色，表示构建成功。
 8. 导航到&#x200B;**[!UICONTROL 环境]**，然后单击开发环境右侧的安装图标。此操作将再次打开“Web 安装说明”模式窗口。
 9. 复制代码块并将其提供给贵组织的网站所有者。
 

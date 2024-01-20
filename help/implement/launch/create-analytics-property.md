@@ -1,11 +1,11 @@
 ---
 title: 在标记中创建 Analytics 属性
 description: 使用标记创建一个空间，以自定义数据的收集方式。
-feature: Launch Implementation
+feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '500'
 ht-degree: 100%
 
 ---
@@ -47,9 +47,9 @@ ht-degree: 100%
    * 数据元素类型：JavaScript 变量
    * JavaScript 变量名称`window.document.title`
 
-      >[!NOTE]
-      >
-      >此值可作为帮助入门的示例。如果您的组织为页面名称定义了更好的值（例如数据层值），则可以在此处输入该值。
+     >[!NOTE]
+     >
+     >此值可作为帮助入门的示例。如果您的组织为页面名称定义了更好的值（例如数据层值），则可以在此处输入该值。
    * 清理选中的文本
    * 存储持续时间：无
 1. 单击&#x200B;**[!UICONTROL 保存]**。
