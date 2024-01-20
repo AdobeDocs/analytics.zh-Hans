@@ -3,10 +3,10 @@ title: 实例
 description: 设置了变量（且未保留）的点击数。
 feature: Metrics
 exl-id: 9d1a66b5-46f9-4834-87a1-5f63e386e61d
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 813d209980ad02c412970a698c282c1358921ed6
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 57%
+source-wordcount: '263'
+ht-degree: 44%
 
 ---
 
@@ -20,4 +20,9 @@ ht-degree: 57%
 
 例如，访客访问您的网站并使用内部搜索。 您可以在eVar1中跟踪内部搜索。 使用内部搜索一次后，访客在离开之前又访问了5个页面。
 
-如果在工作区中查看报表，您将看到一个eVar1实例和六次发生次数。 一个实例在搜索结果页面上触发，而发生次数计算初始值和保留值。
+如果在工作区中查看报表，您将看到一个eVar1实例和六次发生次数。 一个实例计入搜索结果页面，而“发生次数”量度计入初始值和后续保留值。
+
+## 与类似指标比较
+
+* **实例与 [发生次数](occurrences.md)**：实例不包括保留维度项目的点击。 发生次数计算设置或保留维度项目的点击次数。
+* **实例与 [页面查看次数](page-views.md)**：实例包括所有点击类型，包括页面查看跟踪调用([`t()`](/help/implement/vars/functions/t-method.md))，链接跟踪调用([`tl()`](/help/implement/vars/functions/tl-method.md))，以及摘要中的数据 [数据源](/help/import/data-sources/overview.md). 页面查看次数量度仅包含页面查看跟踪调用，不包括链接跟踪调用和摘要数据源。
