@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理员指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics administration 任务，如在 Experience Cloud Admin Console 中管理用户和产品、配置报告包等等。
-source-git-commit: 59d4ade5e16fdd8c9cea266b7c352ce2057381d9
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '633'
 ht-degree: 94%
 
 ---
@@ -46,7 +46,6 @@ ht-degree: 94%
             + 付费搜索检测 {#paid-search-detection}
                + [付费搜索检测概述](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [配置付费搜索检测](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
-            + [自定义菜单](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
             + 处理规则 {#c-processing-rules}
                + [处理规则概述](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
                + 处理规则 {#c-processing-rules-configuration}
@@ -133,7 +132,6 @@ ht-degree: 94%
       + [下载报告包设置](admin/c-manage-report-suites/t-download-rs-settings.md)
       + 新的报告包 {#c-new-report-suite}
          + [创建报告包](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-         + [创建汇总报告包](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
          + [创建报告包群组](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
          + [新报告包 — 设置](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
          + [未从源报告包复制的设置](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
@@ -153,7 +151,6 @@ ht-degree: 94%
       + [Web 服务](admin/company/web-services-admin.md)
       + [Report Builder 报告](admin/company/report-builder-reports-admin.md)
       + [单点登录](admin/company/single-signon-admin.md)
-      + [品牌联合](admin/company/co-branding-admin.md)
       + [隐藏报告包](admin/company/c-hide-report-suites.md)
       + [首选项管理器](admin/company/preferences-manager.md)
       + [待定操作](admin/company/pending-actions-admin.md)

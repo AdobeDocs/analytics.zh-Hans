@@ -3,9 +3,9 @@ description: “概述”页面，用于配置适用于受您组织管理的所�
 title: 公司设置概述
 feature: Company Settings
 exl-id: 3c86288a-817f-42da-90f9-b5220a2c2c23
-source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
+source-git-commit: 09f44ce0b89acf70499e2bcdaa31307028d2fe92
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '62'
 ht-degree: 100%
 
 ---
@@ -21,6 +21,5 @@ ht-degree: 100%
 + [Report Builder 报告](report-builder-reports-admin.md)
 + [单点登录](single-signon-admin.md)
 + [待定操作](pending-actions-admin.md)
-+ [品牌联合](co-branding-admin.md)
 + [隐藏报表包](c-hide-report-suites.md)
 + [安全管理器](security-manager.md)

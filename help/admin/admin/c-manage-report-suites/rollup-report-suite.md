@@ -3,10 +3,10 @@ description: 介绍各种报表包类型并比较全局报表包和汇总报表�
 title: 报表包方法
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 93%
+source-wordcount: '448'
+ht-degree: 89%
 
 ---
 
@@ -44,38 +44,38 @@ Adobe 建议在大多数情况下实施全局报表包。有关实施全局报�
 >
 >[!DNL Reports & Analytics] 是唯一一个支持汇总报表的工具。 Reports &amp; Analytics于2024年1月17日终止生命周期。
 
-### 汇总报表的限制 {#limitations-rollups}
+<!---### Limitations of Rollup Reports {#limitations-rollups}
 
-* 汇总提供全部数据，但不在报表中报告个别值。例如，不包括 eVar1 值，但可包括其合计。
-* 当汇总在报表包间组合数据时，并不为数据去重。
-* 在每晚的午夜运行汇总。
-* 将报表包添加到现有的汇总时，该汇总中不包括历史数据。
-* 所有子报表包中都必须有数据，汇总才能正常运行。如果在汇总中包括新的报表包，请务必将至少一次页面查看发送到其中每个报表包。
-* 汇总报表包可包括最多 40 个子报表包。
-* 汇总报表包可包括最多 100 个事件。
-* 汇总报表包中包含的数据不支持细分或区段。
-* “页面”报表被替换为“最受欢迎的网站”报表，后者在子报表包级别报告指标。
+* Rollups provide total data, but they do not report individual values in reports. For example, eVar1 values are not included, but their aggregate total can be.
+* Data is not deduplicated when the rollup combines data across report suites.
+* Rollups run nightly at midnight.
+* When you add a report suite to an existing rollup, historical data is not included in the rollup.
+* All child report suites must have data in them for a rollup to function. If new report suites are included in a rollup, make sure to send at least one page view to each of those report suites.
+* Rollup report suites can include a maximum of 40 child report suites.
+* Rollup report suites can include a maximum of 100 events.
+* Data contained in rollup report suites does not support breakdowns or segments.
+* The Pages report is replaced with the Most Popular Sites report, which reports on metrics at the child-suite level.
 
-## 比较全局报表包和汇总报表功能
+## Comparison of Global Report Suite and Rollup Report  Features
 
-**次级服务器调用**：除单个报表包所收集的内容外，汇总报表包不会导致发起任何其他服务器调用。如果您的组织使用多包标记，则会对图像请求中包含的每个其他报表包发出次级服务器调用。
+**Secondary server calls**: Rollups do not incur any additional server calls beyond what a single report suite collects. If your organization uses multi-suite tagging, secondary server calls are made for each additional report suite included in an image request.
 
 >[!TIP]
 >
->如果仅将全局报表包与[虚拟报表包](/help/components/vrs/vrs-considerations.md)一起使用，则无需辅助服务器调用。
+>If you use only a global report suite with [virtual report suites](/help/components/vrs/vrs-considerations.md), no secondary server calls are needed.
 
-**实施更改**：汇总报表包不需要进行任何实施更改，而全局报表包要求您在实施中包含全局报表包 ID。
+**Implementation changes**: Rollups do not require any implementation changes, while global report suites require you to include the global report suite ID in your implementation.
 
-**重复**：全局报表包会删除重复的独特访客，而汇总报表包不会。例如，如果用户在同一天访问了您的三个域，汇总报表包会计数三位每日独特客户，而全局报表包会记录一位独特访客。
+**Duplication**: Global report suites deduplicate unique visitors, while rollups do not. For example, if a user visits three of your domains in the same day, rollups would count three daily unique visitors. Global report suites would record one unique visitor.
 
-**时间范围**：汇总报表包的处理时间仅在每晚的午夜，而全局报表包是在标准滞后之后报告数据。
+**Time frame**: Rollups are only processed at midnight each night, while global report suites report data with standard latency.
 
-**广度**：汇总报表包无法在报表包之间进行通信。全局报表包可在报表包之间将积分归因于转化变量，并可在报表包之间提供路径。
+**Breadth**: Rollups have no way to communicate between report suites. Global report suites can attribute credit to conversion variables between report suites and provide pathing across report suites.
 
-**历史数据**：汇总报表包可以汇总历史数据，而全局报表包只能报告其实施时间点之后的数据。
+**Historical data**: Rollups can aggregate historical data, while global report suites only report data from the point they were implemented.
 
-**报表**：全局报表包提供有关所有维度的数据；汇总报表包仅提供有关高级别报表的汇总数据。
+**Reports**: Global report suites provide data on all dimensions; rollups provide aggregate data on only high-level reports.
 
-**支持的产品**：汇总只能在Reports &amp; Analytics中使用。 在 Analysis Workspace 或 Data Warehouse 中不支持汇总。全局报表包可用于所有产品。
+**Supported products**: Rollups could only be used in Reports & Analytics. They are not supported in Analysis Workspace, or Data Warehouse. Global report suites can be used across all products.
 
-**汇总报表包的数量**：汇总报表包最多仅支持 40 个子报表包。全局报表包可以在您拥有的任意数量的域或应用程序上实施。
+**Number of aggregated report suites**: Rollups only support a maximum of 40 child report suites. Global report suites can be implemented on any number of domains or apps that you own.--->

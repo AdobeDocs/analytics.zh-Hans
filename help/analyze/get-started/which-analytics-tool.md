@@ -3,10 +3,10 @@ description: 本帮助页面包含每个 Adobe Analytics 工具的推荐使用�
 title: 我应该使用哪种 Adobe Analytics 工具？
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 97%
+source-wordcount: '1151'
+ht-degree: 93%
 
 ---
 
@@ -24,9 +24,11 @@ ht-degree: 97%
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** 应该是您的首选用户界面，可满足您所有的报告与分析需求。Adobe 会继续投入人力和物力坚持每月发布此产品的更新。如果有任务无法在 Analysis Workspace 中完成，您可以考虑使用下面列出的其他界面。**
 
+**[Adobe Analytics功能板](/help/analyze/mobile-app/home.md)** 允许用户通过移动设备访问直观的记分卡。 记分卡是关键量度和其他组件的集合，这些组件以平铺布局显示，您可以点击它们以获取更详细的划分和趋势报表。iOS 和 Android 操作系统均支持移动设备应用程序。
+
 **[Report Builder](/help/analyze/report-builder/home.md)** 是Microsoft Excel的加载项。 通过它，可从 Adobe Analytics 数据构建自定义的请求，并可将其插入 Excel 工作表。请求可动态引用工作表中的单元格，并且您可更新和自定义 Report Builder 展示数据的方式。
 
-**[Adobe Analytics功能板](/help/analyze/mobile-app/home.md)** 允许用户通过移动设备访问直观的记分卡。 记分卡是关键量度和其他组件的集合，这些组件以平铺布局显示，您可以点击它们以获取更详细的划分和趋势报表。iOS 和 Android 操作系统均支持移动设备应用程序。
+**[Activity Map](/help/analyze/activity-map/activity-map.md)** 是Adobe Analytics中的一项功能，可直观地表示用户在网页和移动设备应用程序上的参与情况。 它允许营销人员和分析人员跟踪和分析用户交互，如点击次数、悬停和滚动行为。
 
 ## 将数据导入到 Adobe Analytics 中 {#import}
 
