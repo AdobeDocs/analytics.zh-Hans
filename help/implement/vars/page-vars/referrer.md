@@ -3,10 +3,10 @@ title: referrer
 description: 覆盖点击的自动收集的反向链接。
 feature: Variables
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+source-git-commit: a37d6b26c2789211a9ed5602b708ef72768e289c
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 84%
+source-wordcount: '293'
+ht-degree: 80%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 84%
 
 ## 使用Web SDK的反向链接
 
-反向链接为 [已映射Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `web.webReferrer.URL`.
+反向链接是 [已为Adobe Analytics映射](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM字段下 `web.webReferrer.URL`.
+
+Web SDK在每次事件点击时都包含此维度。
 
 ## 使用Adobe Analytics扩展的反向链接
 
@@ -26,7 +28,7 @@ ht-degree: 84%
 2. 单击所需的标记属性。
 3. 转到[!UICONTROL 规则]选项卡，然后单击所需的规则（或创建规则）。
 4. 在[!UICONTROL 操作]下，单击现有的 [!UICONTROL Adobe Analytics - 设置变量]操作或单击“+”图标。
-5. 设置 [!UICONTROL 扩展] 下拉列表中的Adobe Analytics和 [!UICONTROL 操作类型] to [!UICONTROL 设置变量].
+5. 设置 [!UICONTROL 扩展名] Adobe Analytics的下拉列表，以及 [!UICONTROL 操作类型] 到 [!UICONTROL 设置变量].
 6. 找到[!UICONTROL 反向链接]部分。
 
 您可以将反向链接设置为任何字符串值，包括数据元素。
