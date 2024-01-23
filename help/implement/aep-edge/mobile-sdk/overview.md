@@ -3,10 +3,10 @@ title: 使用 Adobe Experience Platform Mobile SDK 实施 Adobe Analytics
 description: 使用 Adobe Experience Platform 数据收集中的 Mobile SDK 扩展将数据发送到 Adobe Analytics。
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
-source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+source-git-commit: c865d66ce72260acff29d483af59b6c3468aa6d2
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 100%
+source-wordcount: '527'
+ht-degree: 99%
 
 ---
 
@@ -38,8 +38,8 @@ Adobe Experience Platform Mobile SDK 有助于在您的移动应用程序中支�
 
 <tr>
 <td>2</td>
-<td><b>设置架构和数据集</b>。 为了标准化数据收集以在利用 Adobe Experience Platform 的应用程序中使用，Adobe 创建了开放且公开记录的标准，即体验数据模型 (XDM)。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hans">架构 UI 概述</a>和<a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh_Hans">数据集 UI 概述</a></td>
+<td><b>设置架构。</b>。为了标准化数据收集以在利用 Adobe Experience Platform 的应用程序中使用，Adobe 创建了开放且公开记录的标准，即体验数据模型 (XDM)。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hans">架构UI概述</a></td>
 </tr>
 
 <tr>
