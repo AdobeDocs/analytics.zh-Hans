@@ -3,10 +3,10 @@ description: 通过区段，可根据特性或网站交互标识访客的子集�
 title: 关于区段
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: ecb30f6eacd3eae72b6af53d40a1eb9b7187488d
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 75%
+ht-degree: 73%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 75%
 
 区段基于 [!UICONTROL 访客]， [!UICONTROL 访问]、和 [!UICONTROL 点击] 使用嵌套容器模型的级别层次结构。 您可以使用嵌套容器根据各容器之间和容器内的规则定义访客属性和操作。可在 [!DNL Adobe Experience Cloud] 的多个产品和功能中生成、批准、共享、保存和运行 Analytics 区段。区段可通过报表生成、可内建于功能板报表中，或添加书签以便快速访问。
 
-可在 Segment Builder 中构建和保存区段，也可从流失报表（在  Analysis Workspace 中）生成区段。还可以根据嵌套容器之间的特定规则采用和扩展预先生成的区段，从而可以过滤结果并应用于报表。此外，区段可以一起用作 [栈叠区段](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+您可以在区段生成器中生成并保存区段，也可以通过流失报表(在 [!UICONTROL Analysis Workspace])。 还可以根据嵌套容器之间的特定规则采用和扩展预先生成的区段，从而可以过滤结果并应用于报表。此外，区段可以一起用作 [栈叠区段](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 区段识别
 
