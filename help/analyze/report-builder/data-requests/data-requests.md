@@ -4,10 +4,10 @@ title: 数据请求 — 请求向导第 1 步
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: 244af34b463ea5df55eaca31f3b2df4ada552b5d
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 98%
+source-wordcount: '388'
+ht-degree: 91%
 
 ---
 
@@ -17,13 +17,15 @@ ht-degree: 98%
 
 ![屏幕截图显示了“请求向导：第1步”表单。](assets/rw1_overview.png)
 
-1. **[!UICONTROL 报表包：]**&#x200B;根据您的登录凭据向您提供的报表包列表。请参阅[选择报表包](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)。
+1. **[!UICONTROL 报表包：]**&#x200B;根据您的登录凭据向您提供的报表包列表。请参阅 [选择报表包](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
-1. **范围选择器：**&#x200B;允许您从 Excel 的单元格中选择报表包 ID。请参阅[选择报表包](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)。
+1. **范围选择器：**&#x200B;允许您从 Excel 的单元格中选择报表包 ID。请参阅 [选择报表包](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
 1. **区段**：区段是数据的自定义子集，或者是按您创建的规则所过滤的数据。区段基于点击数、访问次数和访客数。请参阅[《Analytics 分段指南》](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)，以了解有关区段的更多信息。
 
    例如，您可以运行[!UICONTROL 页面报表]，然后应用“首次访问”区段。
+
+1. **允许发布列表覆盖**：发布列表是Reports &amp; Analytics的一项功能，该功能已 [生命周期结束](https://new.express.adobe.com/webpage/WFCyq7w8kijmB?).
 
 1. **报表类型**：指定要在数据请求中运行的基本报表。每个请求运行一个报表，并且报表可以包含一对多维度和一对多指标。报表类型的指标和维度显示在“[!UICONTROL 请求向导: 第 2 步]”界面上。请参阅[选择报表类型](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md)。
 

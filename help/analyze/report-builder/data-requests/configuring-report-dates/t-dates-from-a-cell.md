@@ -5,10 +5,10 @@ uuid: 0d9bf08d-d39d-4f37-94f1-232da0813245
 feature: Report Builder
 role: User, Admin
 exl-id: e10573cc-984e-4202-a797-c2c9bec2af96
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: e54b63bdfc32cf628ea1c6456df421b2d3d23b2c
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 100%
+source-wordcount: '179'
+ht-degree: 78%
 
 ---
 
@@ -19,4 +19,11 @@ ht-degree: 100%
 **配置单元格中的日期**
 
 1. 在“[!UICONTROL 请求向导: 第 1 步]”中，选择&#x200B;**[!UICONTROL 单元格中的日期]**。
-1. 在&#x200B;**[!UICONTROL 开始]**&#x200B;和&#x200B;**[!UICONTROL 结束]**&#x200B;字段中输入单元格引用，或者单击选择器并选择包含具有开始和结束日期的请求的单元格。例如，创建一个将日期范围设置为“yesterday”的 Report Builder 请求，并在同一单元格中将请求日期输出为“today()-1”。
+1. 在中输入单元格引用 **[!UICONTROL 从]** 和 **[!UICONTROL 至]** 字段，或单击选择器并选择包含具有开始和结束日期的请求的单元格。
+
+   例如，创建一个将日期范围设置为“yesterday”的 Report Builder 请求，并在同一单元格中将请求日期输出为“today()-1”。
+
+以下是支持的日期格式列表：
+
+![显示受支持日期格式的屏幕截图。](assets/date-formats.png)
+
