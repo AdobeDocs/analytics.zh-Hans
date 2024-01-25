@@ -3,9 +3,9 @@ description: 描述如何创建 Data Warehouse 请求的步骤。
 title: 为Data Warehouse请求配置报表目标
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: baac0c0384b714cf2ca536149ca10eec3a7065ad
+source-git-commit: 7edee01a5a5399762f10037cf920863af35cc4d7
 workflow-type: tm+mt
-source-wordcount: '2204'
+source-wordcount: '2235'
 ht-degree: 10%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 10%
 >
 >* 我们建议使用云帐户或电子邮件作为报表目标。 旧版FTP和SFTP帐户可用，但不建议使用。
 >
->* Cloud帐户与您的Adobe Analytics用户帐户相关联。 其他用户无法使用或查看您配置的云帐户。
+>* Data Warehouse请求与您的Adobe Analytics用户帐户相关联。 默认情况下，其他用户无法使用或查看您配置的请求。 Data Warehouse通过启用 **显示所有目标** 切换，如中所述 [Data Warehouse请求常规设置](/help/export/data-warehouse/create-request/dw-general-settings.md).
 >
 >* 您之前的任何云帐户 [为数据馈送配置](/help/export/analytics-data-feed/create-feed.md) 可用于Data Warehouse。
 >
