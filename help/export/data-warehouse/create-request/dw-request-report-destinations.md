@@ -3,9 +3,9 @@ description: 描述如何创建 Data Warehouse 请求的步骤。
 title: 为Data Warehouse请求配置报表目标
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 7edee01a5a5399762f10037cf920863af35cc4d7
+source-git-commit: bd192c3c985a41676b3b0f0faa13757eabb7e335
 workflow-type: tm+mt
-source-wordcount: '2235'
+source-wordcount: '2188'
 ht-degree: 10%
 
 ---
@@ -22,11 +22,10 @@ ht-degree: 10%
 >
 >* 我们建议使用云帐户或电子邮件作为报表目标。 旧版FTP和SFTP帐户可用，但不建议使用。
 >
->* Data Warehouse请求与您的Adobe Analytics用户帐户相关联。 默认情况下，其他用户无法使用或查看您配置的请求。 Data Warehouse通过启用 **显示所有目标** 切换，如中所述 [Data Warehouse请求常规设置](/help/export/data-warehouse/create-request/dw-general-settings.md).
+>* 您之前配置的任何云帐户 [数据馈送](/help/export/analytics-data-feed/create-feed.md) 或 [导入Adobe Analytics分类数据](/help/components/locations/locations-manager.md) 可用于Data Warehouse。 但是，无法使用为导入分类数据而配置的任何位置。
 >
->* 您之前的任何云帐户 [为数据馈送配置](/help/export/analytics-data-feed/create-feed.md) 可用于Data Warehouse。
+>* Cloud帐户与您的Adobe Analytics用户帐户相关联。 其他用户无法使用或查看您配置的云帐户。
 >
->* 配置的云帐户 [导入Adobe Analytics分类数据](/help/components/locations/locations-manager.md) 配置报表目标时，可以使用来自云目标的报表包。 但是，无法使用为导入分类数据而配置的任何位置。
 
 要配置发送Data Warehouse报告的目标，请执行以下操作：
 
